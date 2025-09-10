@@ -55,7 +55,7 @@ cover: /assets/image/blog.logrocket.com/http-requests-axios/banner.png
 
 ::: note Editor's note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Rahul Chhodde](https://blog.logrocket.com/author/rahulchhodde/) on 27 November 2024 to introduce Axios interceptors and how to use them to handle API error responses, as well as to cover how to post a file from a form using Axios.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Rahul Chhodde](https://blog.logrocket.com/author/rahulchhodde/) on 27 November 2024 to introduce Axios interceptors and how to use them to handle API error responses, as well as to cover how to post a file from a form using Axios.
 
 :::
 
@@ -160,7 +160,7 @@ To handle the result, you can use the `then()` method, like this:
 
 axios.post('/login', { firstName: 'Finn', lastName: 'Williams' }) .then((response) => { console.log(response); }, (error) => { console.log(error); });
 
-If the promise is fulfilled, the first argument of `then()` will be called; if the promise is rejected, the second argument will be called. According to the [Axios documentation (<FontIcon icon="fa-brands fa-npm"/>`axios`)](https://npmjs.com/package/axios#response-schema), the fulfillment value is an object containing the following properties:
+If the promise is fulfilled, the first argument of `then()` will be called; if the promise is rejected, the second argument will be called. According to the [Axios documentation (<VPIcon icon="fa-brands fa-npm"/>`axios`)](https://npmjs.com/package/axios#response-schema), the fulfillment value is an object containing the following properties:
 
 ```js
 { 
@@ -506,7 +506,7 @@ axios(options);
 
 ## Monitoring POST request progress
 
-Another interesting feature of Axios is the ability to monitor request progress. This is especially useful when downloading or uploading large files. The [example provided (<FontIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios/blob/main/examples/upload/index.html) in the Axios documentation gives you a good idea of how that can be done. But for the sake of simplicity and style, we are going to use the [Axios Progress Bar (<FontIcon icon="iconfont icon-github"/>`rikmms/progress-bar-4-axios`)](https://github.com/rikmms/progress-bar-4-axios/) module in this tutorial.
+Another interesting feature of Axios is the ability to monitor request progress. This is especially useful when downloading or uploading large files. The [example provided (<VPIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios/blob/main/examples/upload/index.html) in the Axios documentation gives you a good idea of how that can be done. But for the sake of simplicity and style, we are going to use the [Axios Progress Bar (<VPIcon icon="iconfont icon-github"/>`rikmms/progress-bar-4-axios`)](https://github.com/rikmms/progress-bar-4-axios/) module in this tutorial.
 
 The first thing we need to do to use this module is to include the related style and script:
 
@@ -771,13 +771,13 @@ api.interceptors.response.use((response) => {
 export default api;
 ```
 
-We can then use this custom Axios instance in a component where we want to consume the API (the placeholder API in this case) and let it handle errors by itself. [<FontIcon icon="fas fa-globe"/>Here’s the complete setup of our React app](https://stackblitz.com/edit/vitejs-vite-5hvjuf?file=src%2Futils%2Fapi.js) with HTTP error feedback following a centralized error-handling approach.
+We can then use this custom Axios instance in a component where we want to consume the API (the placeholder API in this case) and let it handle errors by itself. [<VPIcon icon="fas fa-globe"/>Here’s the complete setup of our React app](https://stackblitz.com/edit/vitejs-vite-5hvjuf?file=src%2Futils%2Fapi.js) with HTTP error feedback following a centralized error-handling approach.
 
 ---
 
 ## How to post a file from a form with Axios
 
-We can use Axios with the [<FontIcon icon="fa-brands fa-firefox"/>`FormData` object](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects) to streamline a file upload. To simplify the demonstration, I’m using React again to create a file upload component with basic error handling.
+We can use Axios with the [<VPIcon icon="fa-brands fa-firefox"/>`FormData` object](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects) to streamline a file upload. To simplify the demonstration, I’m using React again to create a file upload component with basic error handling.
 
 *N.B., we are assuming that a backend API is available to support the file upload in this example. This will make more sense with a test backend API in your local development setup.*
 
@@ -891,7 +891,7 @@ const FileUploadBox = () => {
 export default FileUploadComponent;
 ```
 
-As an assignment, you may try adding previously discussed Axios interceptors-based error handling to this example. Find the code for this example in [<FontIcon icon="fas fa-globe"/>this StackBlitz demo](https://stackblitz.com/edit/vitejs-vite-7yesynt7?file=src%2FComponents%2FFileUploadBox.jsx).
+As an assignment, you may try adding previously discussed Axios interceptors-based error handling to this example. Find the code for this example in [<VPIcon icon="fas fa-globe"/>this StackBlitz demo](https://stackblitz.com/edit/vitejs-vite-7yesynt7?file=src%2FComponents%2FFileUploadBox.jsx).
 
 ---
 
@@ -1029,7 +1029,7 @@ Axios’ rise in popularity among developers has resulted in a rich selection of
 
 ## Wrapping up
 
-There’s a good reason Axios is so popular among developers: it’s packed with useful features. In this post, we took a look at several key features of Axios and learned how to use them in practice. But there are still many aspects of Axios that we haven’t discussed. Be sure to check out the [Axios GitHub page (<FontIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios) to learn more.
+There’s a good reason Axios is so popular among developers: it’s packed with useful features. In this post, we took a look at several key features of Axios and learned how to use them in practice. But there are still many aspects of Axios that we haven’t discussed. Be sure to check out the [Axios GitHub page (<VPIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios) to learn more.
 
 <SiteInfo
   name="axios/axios"

@@ -107,7 +107,7 @@ This is evident in the React framework, especially when dealing with states and 
 
 ## Immer
 
-[<FontIcon icon="fas fa-globe"/>Immer](https://immerjs.github.io/immer/docs/introduction)is one of the many immutability libraries out there that you can use in your application. According to its official website, Immer is based on the copy-on-write mechanism. The whole idea revolves around applying changes to a temporary `draftState`, which serves as a proxy to the current state. Immer will let you easily interact with your data while keeping all the benefits that come with immutability.
+[<VPIcon icon="fas fa-globe"/>Immer](https://immerjs.github.io/immer/docs/introduction)is one of the many immutability libraries out there that you can use in your application. According to its official website, Immer is based on the copy-on-write mechanism. The whole idea revolves around applying changes to a temporary `draftState`, which serves as a proxy to the current state. Immer will let you easily interact with your data while keeping all the benefits that come with immutability.
 
 ### Installation
 
@@ -121,13 +121,13 @@ It can also be installed in your application using NPM;
 
 ::: code-tabs#sh
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install immer
 ```
 
-@tab <FontIcon icon="fa-brands fa-yarn"/>
+@tab <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add immer
@@ -172,13 +172,13 @@ const nextState = produce(baseState, draftState => {
 })
 ```
 
-The `baseState` in this case stays untouched, while the `nextState` would be updated to reflect changes made to `draftState`. You can learn more about Immer from its official website [<FontIcon icon="fas fa-globe"/>here](https://immerjs.github.io/immer/docs/introduction).
+The `baseState` in this case stays untouched, while the `nextState` would be updated to reflect changes made to `draftState`. You can learn more about Immer from its official website [<VPIcon icon="fas fa-globe"/>here](https://immerjs.github.io/immer/docs/introduction).
 
 ---
 
 ## Immutable.js
 
-[<FontIcon icon="fas fa-globe"/>Immutable.js](https://immutable-js.github.io/immutable-js)is another option to consider when looking for an immutability library. Immutable.js serves the same purpose as Immer, but it takes a different approach. It provides you with an API for data structures like maps and lists.
+[<VPIcon icon="fas fa-globe"/>Immutable.js](https://immutable-js.github.io/immutable-js)is another option to consider when looking for an immutability library. Immutable.js serves the same purpose as Immer, but it takes a different approach. It provides you with an API for data structures like maps and lists.
 
 ### Installation
 

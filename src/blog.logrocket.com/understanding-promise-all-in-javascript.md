@@ -73,7 +73,7 @@ A promise is an object that will return a value in the future, it can either be 
 
 ::: info
 
-[A promise has three possible mutually exclusive states (<FontIcon icon="iconfont icon-github"/>`domenic/promises-unwrapping`)](https://github.com/domenic/promises-unwrapping):
+[A promise has three possible mutually exclusive states (<VPIcon icon="iconfont icon-github"/>`domenic/promises-unwrapping`)](https://github.com/domenic/promises-unwrapping):
 
 - fulfilled  —  a promise is fulfilled if `promise.then(f)` will call `f` “as soon as possible”
 - rejected  —  a promise is rejected if `promise.then(undefined, r)` will call `r` “as soon as possible”
@@ -134,7 +134,7 @@ firstPromise
 
 You can perform asynchronous operations by using callbacks or promises. But there are differences.
 
-If you are using callbacks to perform asynchronous operations, in some cases you might end up having too many nested functions, this is what is called [<FontIcon icon="fas fa-globe"/>callback hell](http://callbackhell.com/). Too many nested functions can cause your code to be unreadable and unmanageable. You can solve it by using promises, with promises you can have more readable and manageable code.
+If you are using callbacks to perform asynchronous operations, in some cases you might end up having too many nested functions, this is what is called [<VPIcon icon="fas fa-globe"/>callback hell](http://callbackhell.com/). Too many nested functions can cause your code to be unreadable and unmanageable. You can solve it by using promises, with promises you can have more readable and manageable code.
 
 Promises are a cleaner way to run asynchronous tasks. Promises provide catch mechanism, which callbacks do not have. Promises allow cleaner, better, and functional code.
 

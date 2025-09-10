@@ -169,7 +169,7 @@ viewModel.showSnackbar.collect { message ->
 }
 ```
 
-The problem of using a `Channel` is that there is a possibility that this event is lost, in an unlikely event of cancellation after sending the event, but before invoking its action (see [this article (<FontIcon icon="fa-brands fa-medium"/>`androiddevelopers`)](https://medium.com/androiddevelopers/viewmodel-one-off-event-antipatterns-16a1da869b95) and [this issue (<FontIcon icon="iconfont icon-github"/>`Kotlin/kotlinx.coroutines`)](https://github.com/Kotlin/kotlinx.coroutines/issues/2886)).
+The problem of using a `Channel` is that there is a possibility that this event is lost, in an unlikely event of cancellation after sending the event, but before invoking its action (see [this article (<VPIcon icon="fa-brands fa-medium"/>`androiddevelopers`)](https://medium.com/androiddevelopers/viewmodel-one-off-event-antipatterns-16a1da869b95) and [this issue (<VPIcon icon="iconfont icon-github"/>`Kotlin/kotlinx.coroutines`)](https://github.com/Kotlin/kotlinx.coroutines/issues/2886)).
 
 The most important argument against using `Channel` is that it does not guarantee event delivery (that should not be a problem if we both send and receive events in `Dispatchers.Main.immediate`, what is quite often the case, as it is used by both `viewModelScope` and `lifecycleScope`, but always ensuring that is a fragile solution). That is why we should avoid this solution for events that are important for the user experience, like a transaction result. Such an event is better represented with `StateFlow`, that guarantees that the event will be delivered to the observer.
 
@@ -208,7 +208,7 @@ It is probably possible that the same message will be shown twice, but not that 
 
 A good argument behind this solution is that we do not need to learn intricacies of `SharedFlow` or `Channel`, we can just use `StateFlow` for everything, and develop patterns of using it for different purposes.
 
-However, on the other hand, there is a good argument that events should be represented as events, and not as state (event *happen*, state *is*), and for that `SharedFlow` or `Channel` are better solutions (see [this article (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/viewmodel-events-as-state-are-an-antipattern-35ff4fbc6fb6)).
+However, on the other hand, there is a good argument that events should be represented as events, and not as state (event *happen*, state *is*), and for that `SharedFlow` or `Channel` are better solutions (see [this article (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/viewmodel-events-as-state-are-an-antipattern-35ff4fbc6fb6)).
 
 ---
 

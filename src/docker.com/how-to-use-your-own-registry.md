@@ -56,7 +56,7 @@ One of the things that makes Docker so useful is how easy it is to pull ready-to
 
 But sometimes you can’t share your repository with the world because it contains proprietary code or confidential information. Today we are introducing an easy way to share repositories on your own registry so that you can control access to them and still share them among multiple Docker daemons. You can decide if your registry is public or private.
 
-You’ll need the [<FontIcon icon="fa-brands fa-docker"/>latest version of Docker](http://docs.docker.io/en/latest/installation/upgrading/) (>=0.5.0) to use this new feature, and you must run this version as both the daemon and the client. You’ll also need the [Docker registry code (<FontIcon icon="iconfont icon-github"/>`dotcloud/docker-registry`)](https://github.com/dotcloud/docker-registry).
+You’ll need the [<VPIcon icon="fa-brands fa-docker"/>latest version of Docker](http://docs.docker.io/en/latest/installation/upgrading/) (>=0.5.0) to use this new feature, and you must run this version as both the daemon and the client. You’ll also need the [Docker registry code (<VPIcon icon="iconfont icon-github"/>`dotcloud/docker-registry`)](https://github.com/dotcloud/docker-registry).
 
 ---
 
@@ -72,7 +72,7 @@ docker pull ubuntu
 docker push samalba/hipache
 ```
 
-Implicitly that `push` and `pull` each access the Central Registry at `index.docker.io`, so nothing has changed with the default behavior and all [<FontIcon icon="fa-brands fa-docker"/>the examples](http://docs.docker.io/en/latest/examples/) still work.
+Implicitly that `push` and `pull` each access the Central Registry at `index.docker.io`, so nothing has changed with the default behavior and all [<VPIcon icon="fa-brands fa-docker"/>the examples](http://docs.docker.io/en/latest/examples/) still work.
 
 ::: info Now the new feature!
 
@@ -107,7 +107,7 @@ It’s important to note that we’re using a domain containing a “.” here, 
 
 ## Install your Registry (on your server or locally)
 
-Docker-Registry is a simple Python app, [installing it is straight-forward (<FontIcon icon="iconfont icon-github"/>`dotcloud/docker-registry`)](https://github.com/dotcloud/docker-registry/blob/master/README.md):
+Docker-Registry is a simple Python app, [installing it is straight-forward (<VPIcon icon="iconfont icon-github"/>`dotcloud/docker-registry`)](https://github.com/dotcloud/docker-registry/blob/master/README.md):
 
 ```sh
 git clone https://github.com/dotcloud/docker-registry.git
@@ -130,7 +130,7 @@ Your Registry is now running on localhost (port 5000) in a development flavor an
 
 As dotCloud’s first engineering hire, Sam was part of the tiny team that shipped our first private beta in 2010. Since then, he has been instrumental in scaling the platform to tens of millions of unique visitors for tens of thousands of developers across the world, leaving his mark on every major feature and component along the way. Today, as dotCloud’s first director of engineering, he manages our fast-growing engineering team, which is another way to say he sits in meetings so that other engineers don’t have to. When not sitting in a meeting, he maintains several popular open-source projects, including Hipache and Cirruxcache and other projects also ending in “-ache”. In a previous life, Sam supported Fortune 500s at Akamai, built the web infrastructure at several startups, and wrote software for self-driving cars in a research lab at INRIA.
 
-*Connect with Sam on Twitter! [<FontIcon icon="fa-brands fa-x-twitter"/>`@sam_alba`](https://x.com/sam_alba)*
+*Connect with Sam on Twitter! [<VPIcon icon="fa-brands fa-x-twitter"/>`@sam_alba`](https://x.com/sam_alba)*
 
 :::
 

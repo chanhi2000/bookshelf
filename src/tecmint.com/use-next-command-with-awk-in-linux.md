@@ -77,7 +77,7 @@ The **next** command in **awk** tells it to skip the remaining patterns and acti
 
 ## Example 1: Flagging Items Based on Quantity
 
-Let’s start with a practical example by considering a file named <FontIcon icon="fas fa-file-lines"/>`food_list.txt` with the following content.
+Let’s start with a practical example by considering a file named <VPIcon icon="fas fa-file-lines"/>`food_list.txt` with the following content.
 
 ```plaintext title=""
 Food List Items

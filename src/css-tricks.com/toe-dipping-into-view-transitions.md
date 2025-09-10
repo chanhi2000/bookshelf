@@ -62,7 +62,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-lo
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-logo-gradient-outline.png"/>
 
-I’ll be honest and say that the View Transition API intimidates me more than a smidge. There are plenty of tutorials with the most impressive demos showing how we can animate the transition between two pages, and they usually start with the [<FontIcon icon="iconfont icon-css-tricks"/>simplest of all examples](https://css-tricks.com/snippets/css/basic-view-transition/).
+I’ll be honest and say that the View Transition API intimidates me more than a smidge. There are plenty of tutorials with the most impressive demos showing how we can animate the transition between two pages, and they usually start with the [<VPIcon icon="iconfont icon-css-tricks"/>simplest of all examples](https://css-tricks.com/snippets/css/basic-view-transition/).
 
 ```css
 @view-transition {
@@ -70,7 +70,7 @@ I’ll be honest and say that the View Transition API intimidates me more than a
 }
 ```
 
-That’s usually where the simplicity ends and the tutorials venture deep into JavaScript territory. There’s nothing wrong with that, of course, except that it’s a mental leap for someone like me who learns by building up rather than leaping through. So, I was darned inspired when I saw [<FontIcon icon="fas fa-globe"/>Uncle Dave](https://daverupert.com/2023/05/getting-started-view-transitions/) and [<FontIcon icon="fas fa-globe"/>Jim Neilsen](https://blog.jim-nielsen.com/2025/view-transition-name-gotchas/) trading tips on a super practical transition: post titles.
+That’s usually where the simplicity ends and the tutorials venture deep into JavaScript territory. There’s nothing wrong with that, of course, except that it’s a mental leap for someone like me who learns by building up rather than leaping through. So, I was darned inspired when I saw [<VPIcon icon="fas fa-globe"/>Uncle Dave](https://daverupert.com/2023/05/getting-started-view-transitions/) and [<VPIcon icon="fas fa-globe"/>Jim Neilsen](https://blog.jim-nielsen.com/2025/view-transition-name-gotchas/) trading tips on a super practical transition: post titles.
 
 You can see how it works on Jim’s site:
 
@@ -111,7 +111,7 @@ Dave is quick to point out that we can make sure we respect users who prefer red
 
 If those were the only two elements on the page, then this would work fine. But what we have is a list of post links and all of them have to have their own unique `view-transition-name`. This is where Jim got a little stuck in his work because how in the heck do you accomplish that when new blog posts are published all the time? Do you have to edit your CSS and come up with a new transition name each and every time you want to post new content? Nah, there’s got to be a better way.
 
-And there is. Or, at least there will be. It’s just not standard yet. Bramus, in fact, wrote about it very recently when [<FontIcon icon="fas fa-globe"/>discussing Chrome’s work on the `attr()` function](https://bram.us/2025/01/20/css-attr-gets-an-upgrade/) which will be able to generate a series of unique identifiers in a single declaration. Check out this CSS from the future:
+And there is. Or, at least there will be. It’s just not standard yet. Bramus, in fact, wrote about it very recently when [<VPIcon icon="fas fa-globe"/>discussing Chrome’s work on the `attr()` function](https://bram.us/2025/01/20/css-attr-gets-an-upgrade/) which will be able to generate a series of unique identifiers in a single declaration. Check out this CSS from the future:
 
 ```html
 <style>
@@ -131,7 +131,7 @@ And there is. Or, at least there will be. It’s just not standard yet. Bramus, 
 
 Daaaaa-aaaang that is going to be handy! I want it *now*, darn it! Gotta have to wait not only for Chrome to develop it, but for other browsers to adopt and implement it as well, so who knows when we’ll actually get it. For now, the best bet is to use a little programmatic logic directly in the template. My site runs on WordPress, so I’ve got access to PHP and can generate an inline style that sets the `view-transition-name` on both elements.
 
-The post title is in the template for my individual blog posts. That’s the <FontIcon icon="fa-brands fa-php"/>`single.php` file in WordPress parlance.
+The post title is in the template for my individual blog posts. That’s the <VPIcon icon="fa-brands fa-php"/>`single.php` file in WordPress parlance.
 
 ```php title="single.php"
 <?php the_title( 
@@ -139,7 +139,7 @@ The post title is in the template for my individual blog posts. That’s the <Fo
 ); ?>
 ```
 
-The post links are in the template for post archives. That’s typically <FontIcon icon="fa-brands fa-php"/>`archive.php` in WordPress:
+The post links are in the template for post archives. That’s typically <VPIcon icon="fa-brands fa-php"/>`archive.php` in WordPress:
 
 ```php title="archive.php"
 <?php the_title(
@@ -151,7 +151,7 @@ See what’s happening there? The `view-transition-name` property is set on both
 
 The important thing is that now both elements share the same `view-transition-name` and that we also have already opted into `@view-transition`. With those two ingredients in place, the transition works! We don’t even need to define `@keyframes` (but you totally could) because the default transition does all the heavy lifting.
 
-In the same toe-dipping spirit, I caught the latest issue of [<FontIcon icon="fas fa-globe"/>Modern Web Weekly](https://modern-web-weekly.ghost.io) and love this little sprinkle of view transition on radio inputs:
+In the same toe-dipping spirit, I caught the latest issue of [<VPIcon icon="fas fa-globe"/>Modern Web Weekly](https://modern-web-weekly.ghost.io) and love this little sprinkle of view transition on radio inputs:
 
 <CodePen
   user="geoffgraham"

@@ -66,7 +66,7 @@ This article covers a detailed overview of pseudo-elements, how they differ from
 
 ## What are CSS pseudo-elements?
 
-A [<FontIcon icon="fa-brands fa-firefox"/>CSS pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) is primarily a keyword added to a [<FontIcon icon="fas fa-globe"/>CSS selector](https://w3schools.com/cssref/css_selectors.asp) that lets you style a specific part of the selected HTML element. It acts as a sub-element and provides additional functionality to the selected entity.
+A [<VPIcon icon="fa-brands fa-firefox"/>CSS pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) is primarily a keyword added to a [<VPIcon icon="fas fa-globe"/>CSS selector](https://w3schools.com/cssref/css_selectors.asp) that lets you style a specific part of the selected HTML element. It acts as a sub-element and provides additional functionality to the selected entity.
 
 Pseudo-elements were first introduced in 2015 with a single colon syntax. The later modules from CSS3 use a double-colon pseudo-elements syntax as shown below:
 
@@ -109,7 +109,7 @@ There are some browser-specific and experimental pseudo-elements that we’ll be
 11. `::part()`
 12. `::slotted()`
 
-All the examples we’ll be looking at in this tutorial are available in [this codepen collection (<FontIcon icon="fa-brands fa-codepen"/>`JGzmbo`)](https://codepen.io/collection/JGzmbo). You may also copy-paste the code and use it in your choice of code editor.
+All the examples we’ll be looking at in this tutorial are available in [this codepen collection (<VPIcon icon="fa-brands fa-codepen"/>`JGzmbo`)](https://codepen.io/collection/JGzmbo). You may also copy-paste the code and use it in your choice of code editor.
 
 ```component VPCard
 {
@@ -135,7 +135,7 @@ By default, it has an inline display and needs to be provided with the CSS conte
 }
 ```
 
-The above code injects some content into each element with a `pe-before` class by making use of the `::before` pseudo-element. [See the demo here (<FontIcon icon="fa-brands fa-code-pen"/>`_rahul`)](https://codepen.io/_rahul/pen/NWMOpVB). The frontend development world often refers to this type of injected content as generated content.
+The above code injects some content into each element with a `pe-before` class by making use of the `::before` pseudo-element. [See the demo here (<VPIcon icon="fa-brands fa-code-pen"/>`_rahul`)](https://codepen.io/_rahul/pen/NWMOpVB). The frontend development world often refers to this type of injected content as generated content.
 
 <CodePen
   user="_rahul"
@@ -251,7 +251,7 @@ main p:first-child::first-letter {
 
 It is crucial to realize that the first letter of an element with `::first-letter` can sometimes be tricky to spot. For example, if a text contains a punctuation mark at the beginning, the pseudo-element will logically select the mark instead of the actual first letter.
 
-Another example could be a [<FontIcon icon="fa-brands fa-wikipedia-w"/>digraph](https://en.wikipedia.org/wiki/Digraph_(orthography)) or a [<FontIcon icon="fa-brands fa-wikipedia-w"/>trigraph](https://en.wikipedia.org/wiki/Trigraph_(orthography)), where you would want to select all two or three letters. The `::first-letter` pseudo-element, in this case, could select only the first one.
+Another example could be a [<VPIcon icon="fa-brands fa-wikipedia-w"/>digraph](https://en.wikipedia.org/wiki/Digraph_(orthography)) or a [<VPIcon icon="fa-brands fa-wikipedia-w"/>trigraph](https://en.wikipedia.org/wiki/Trigraph_(orthography)), where you would want to select all two or three letters. The `::first-letter` pseudo-element, in this case, could select only the first one.
 
 Also, keep an eye on using `::before` with `::first-letter`. The `::before` pseudo-element acts as the first child of a given element. This will cause `::first-letter` to prefer the generated content added by it over actual content at the time of selection.
 
@@ -356,7 +356,7 @@ You may hook it to the body or the root element to apply the changes to every el
 
 The `::backdrop` CSS pseudo-element represents a viewport-sized box rendered immediately beneath any element being presented in full-screen mode.
 
-Let’s understand this with an example where we change the backdrop of a video from black to blue. Check out this [CodePen example (<FontIcon icon="fa-brands fa-codepen"/>`_rahul`)](https://codepen.io/_rahul/pen/wvjQeyv) and play the video in full-screen mode:
+Let’s understand this with an example where we change the backdrop of a video from black to blue. Check out this [CodePen example (<VPIcon icon="fa-brands fa-codepen"/>`_rahul`)](https://codepen.io/_rahul/pen/wvjQeyv) and play the video in full-screen mode:
 
 ```css
 video::backdrop {
@@ -423,7 +423,7 @@ To avoid CORS issues, ensure that the video and VTT files are coming from the sa
 
 ### `::part()`
 
-Due to its element encapsulation nature, the [<FontIcon icon="iconfont icon-w3c"/>shadow DOM](https://w3.org/TR/shadow-dom/) stays isolated from the rest of the page. Therefore, not all styles reach the components attached to the regular DOM from the shadow DOM.
+Due to its element encapsulation nature, the [<VPIcon icon="iconfont icon-w3c"/>shadow DOM](https://w3.org/TR/shadow-dom/) stays isolated from the rest of the page. Therefore, not all styles reach the components attached to the regular DOM from the shadow DOM.
 
 The `::part()` pseudo-element, a new addition to CSS pseudo-elements, makes it possible to style the shadow DOM to a certain extent:
 

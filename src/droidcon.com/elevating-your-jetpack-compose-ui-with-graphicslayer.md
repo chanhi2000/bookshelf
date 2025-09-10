@@ -58,7 +58,7 @@ Imagine a transparent sheet placed on top of your composable. That’s essential
 
 To showcase the versatility of**GraphicsLayer**, we’ll create a UI that enables real-time transformations such as scaling, rotating, and translating images. Additionally, we’ll explore how to apply color filters and blending modes to achieve striking visual effects. Finally, we’ll demonstrate how easy it is to leverage the power of this modifier to generate a bitmap that can be exported or shared effortlessly.
 
-All the code used in this article is available on GitHub in my new[**Playground project** (<FontIcon icon="iconfont icon-github"/>`stefanoq21/ComposePlayground`)](https://github.com/stefanoq21/ComposePlayground).
+All the code used in this article is available on GitHub in my new[**Playground project** (<VPIcon icon="iconfont icon-github"/>`stefanoq21/ComposePlayground`)](https://github.com/stefanoq21/ComposePlayground).
 
 <SiteInfo
   name="stefanoq21/ComposePlayground"
@@ -111,7 +111,7 @@ This setup demonstrates how you can leverage**GraphicsLayer** to manipulate your
 
 As mentioned in the introduction, another powerful capability of GraphicsLayer is its support for color filters and blend modes, allowing for highly customized and visually striking views. These features enable developers to create unique effects that elevate their UI designs.
 
-Recently, the**Android Developers YouTube channel**released a[<FontIcon icon="fa-brands fa-youtube"/>video](https://youtu.be/KawI7srRvOM)where Rebecca Franks introduced two incredibly useful modifiers that make it easier to apply these effects directly to views. Here’s how you can create these custom modifiers to leverage the power of GraphicsLayer:
+Recently, the**Android Developers YouTube channel**released a[<VPIcon icon="fa-brands fa-youtube"/>video](https://youtu.be/KawI7srRvOM)where Rebecca Franks introduced two incredibly useful modifiers that make it easier to apply these effects directly to views. Here’s how you can create these custom modifiers to leverage the power of GraphicsLayer:
 
 <VidStack src="youtube/KawI7srRvOM" />
 
@@ -159,7 +159,7 @@ private fun Modifier.colorFilter(colorFilter: ColorFilter): Modifier {
 
 These modifiers integrate seamlessly with`GraphicsLayer` to provide advanced rendering effects, giving developers greater flexibility and control over their designs. Whether you want to experiment with blending modes or apply complex color transformations, these tools open up a world of creative possibilities.
 
-If you want to dive deeper into how this code can be integrated and used in your project, you can[**explore the examples** (<FontIcon icon="iconfont icon-github"/>`stefanoq21/ComposePlayground`)](https://github.com/stefanoq21/ComposePlayground/blob/main/app/src/main/java/com/stefanoq21/composeplayground/ui/screen/graphicsLayer/GraphicsLayerScreen.kt)I’ve added in my**Compose Playground**.
+If you want to dive deeper into how this code can be integrated and used in your project, you can[**explore the examples** (<VPIcon icon="iconfont icon-github"/>`stefanoq21/ComposePlayground`)](https://github.com/stefanoq21/ComposePlayground/blob/main/app/src/main/java/com/stefanoq21/composeplayground/ui/screen/graphicsLayer/GraphicsLayerScreen.kt)I’ve added in my**Compose Playground**.
 
 ### Exporting Views as Bitmaps with `GraphicsLayer`
 
@@ -198,7 +198,7 @@ In this snippet, I created a`GraphicsLayer` object to capture the content as a b
 
 It’s impressive how easy it is to enable functionality like this in**Jetpack Compose**!
 
-If you want to explore the complete implementation, including how the bitmap is shared and the additional integrations, you can check out the full code in my[**GitHub repository** (<FontIcon icon="iconfont icon-github"/>`stefanoq21/ComposePlayground`)](https://github.com/stefanoq21/ComposePlayground/blob/main/app/src/main/java/com/stefanoq21/composeplayground/ui/screen/graphicsLayer/GraphicsLayerScreen.kt).
+If you want to explore the complete implementation, including how the bitmap is shared and the additional integrations, you can check out the full code in my[**GitHub repository** (<VPIcon icon="iconfont icon-github"/>`stefanoq21/ComposePlayground`)](https://github.com/stefanoq21/ComposePlayground/blob/main/app/src/main/java/com/stefanoq21/composeplayground/ui/screen/graphicsLayer/GraphicsLayerScreen.kt).
 
 ---
 
@@ -210,15 +210,15 @@ In this article, we’ve explored how GraphicsLayer enables real-time transforma
 
 **Jetpack Compose**continues to empower developers with tools like`GraphicsLayer` to create polished and immersive user experiences. I hope this article inspires you to experiment with it in your projects and unlock its full potential.
 
-To dive deeper into the code examples and try them out yourself, check out the full implementation in my[**GitHub Compose Playground** (<FontIcon icon="iconfont icon-github"/>`stefanoq21/ComposePlayground`)](https://github.com/stefanoq21/ComposePlayground).
+To dive deeper into the code examples and try them out yourself, check out the full implementation in my[**GitHub Compose Playground** (<VPIcon icon="iconfont icon-github"/>`stefanoq21/ComposePlayground`)](https://github.com/stefanoq21/ComposePlayground).
 
-If you found this article interesting, feel free to follow me for more insightful content on Android development and Jetpack Compose. I regularly publish new articles on these topics. Don’t hesitate to share your comments or reach out to me on[**Bluesky**](https://bsky.app/profile/stefanoq21.bsky.social)or[**LinkedIn** (<FontIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)](http://linkedin.com/in/stefano-natali-q21) for further discussions.
+If you found this article interesting, feel free to follow me for more insightful content on Android development and Jetpack Compose. I regularly publish new articles on these topics. Don’t hesitate to share your comments or reach out to me on[**Bluesky**](https://bsky.app/profile/stefanoq21.bsky.social)or[**LinkedIn** (<VPIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)](http://linkedin.com/in/stefano-natali-q21) for further discussions.
 
 Have a great day, and happy coding!
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/elevating-your-jetpack-compose-ui-with-graphicslayer-2565bb90fef8)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/elevating-your-jetpack-compose-ui-with-graphicslayer-2565bb90fef8)
 
 <SiteInfo
   name="Elevating Your Jetpack Compose UI with GraphicsLayer"

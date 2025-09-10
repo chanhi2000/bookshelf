@@ -68,9 +68,9 @@ cover: https://event-driven.io/static/e864253c01617691383cd1762ddb91db/2a4de/202
 
 **When you think upfront and want to make things right, there’s an interesting feedback loop. Quite often, things start to click, often in a surprising way.**
 
-**I recently wrote on [<FontIcon icon="fas fa-globe"/>Architecture Weekly about my performance investigations](https://architecture-weekly.com/p/talk-is-cheap-show-me-the-numbers) in [<FontIcon icon="fas fa-globe"/>Emmett](https://event-driven-io.github.io/emmett/getting-started.html) and [<FontIcon icon="fas fa-globe"/>Pongo](https://event-driven-io.github.io/Pongo/getting-started.html).** One of the conclusions was that schema needs to be generated upfront. Initially, it was generated once on the first call. That reduced boilerplate and was good enough for many cases but not for serverless.
+**I recently wrote on [<VPIcon icon="fas fa-globe"/>Architecture Weekly about my performance investigations](https://architecture-weekly.com/p/talk-is-cheap-show-me-the-numbers) in [<VPIcon icon="fas fa-globe"/>Emmett](https://event-driven-io.github.io/emmett/getting-started.html) and [<VPIcon icon="fas fa-globe"/>Pongo](https://event-driven-io.github.io/Pongo/getting-started.html).** One of the conclusions was that schema needs to be generated upfront. Initially, it was generated once on the first call. That reduced boilerplate and was good enough for many cases but not for serverless.
 
-To generate the [<FontIcon icon="fas fa-globe"/>Emmett](https://event-driven-io.github.io/emmett/getting-started.html) PostgreSQL schema, I also wanted to be able to generate it for [<FontIcon icon="fas fa-globe"/>Pongo](https://event-driven-io.github.io/Pongo/getting-started.html) documents that I use for read models.
+To generate the [<VPIcon icon="fas fa-globe"/>Emmett](https://event-driven-io.github.io/emmett/getting-started.html) PostgreSQL schema, I also wanted to be able to generate it for [<VPIcon icon="fas fa-globe"/>Pongo](https://event-driven-io.github.io/Pongo/getting-started.html) documents that I use for read models.
 
 Pongo documents are stored in collections, and collections are regular (well, almost) PostgreSQL tables. So, to know what to generate, I had to add some way to know what collections I’ll have. There’s no such API in vanilla Mongo, so I have to add it. And that’s fine, as I want to make Pongo a superset of Mongo.
 
@@ -88,7 +88,7 @@ const client = pongoClient(postgresConnectionString, {
 
 That would give me the information I need to set up users and order tables for collections in the default Postgres database. I could call it a day, but…
 
-But then I thought, well, wouldn’t it be nice to generate a strongly typed TypeScript client? Having schema makes that possible! I “just” have to use a sneaky feature like [<FontIcon icon="fa-brands fa-firefox"/>Proxy type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy). So I did, and bang, here we are with the new release!
+But then I thought, well, wouldn’t it be nice to generate a strongly typed TypeScript client? Having schema makes that possible! I “just” have to use a sneaky feature like [<VPIcon icon="fa-brands fa-firefox"/>Proxy type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy). So I did, and bang, here we are with the new release!
 
 ---
 
@@ -169,7 +169,7 @@ And run it with:
 pongo
 ```
 
-or without installing it globally by using [<FontIcon icon="fa-brands fa-npm"/>npx](https://docs.npmjs.com/cli/v8/commands/npx)
+or without installing it globally by using [<VPIcon icon="fa-brands fa-npm"/>npx](https://docs.npmjs.com/cli/v8/commands/npx)
 
 ```sh
 npx @event-driven-io/pongo
@@ -290,11 +290,11 @@ CREATE TABLE IF NOT EXISTS customers (
 );
 ```
 
-This first *migrations* table is essential, as it keeps all the migrations running so far. So, if you run the migration CLI once, it’ll only run the migrations once. Migrations are using internally [<FontIcon icon="iconfont icon-postgresql"/>Postgres Advisory Locks](https://postgresql.org/docs/current/explicit-locking.html#ADVISORY-LOCKS) to ensure that no migrations are happening in parallel. Safety first!
+This first *migrations* table is essential, as it keeps all the migrations running so far. So, if you run the migration CLI once, it’ll only run the migrations once. Migrations are using internally [<VPIcon icon="iconfont icon-postgresql"/>Postgres Advisory Locks](https://postgresql.org/docs/current/explicit-locking.html#ADVISORY-LOCKS) to ensure that no migrations are happening in parallel. Safety first!
 
 In the future, you’ll also be able to provide your custom schema and data migrations through it!
 
-You already got [Schema Components abstraction (<FontIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`)](https://github.com/event-driven-io/Pongo/blob/c3ed330a3ddf7793e6d508309cd2f729c6b19cb2/src/packages/dumbo/src/core/schema/schemaComponent.ts). They define the database schema as a tree structure. They’re used for database collection, allowing migration through code. They’re exposed in the schema property. In the longer term, it’ll be possible to add your own, like indexes, migrations, etc.
+You already got [Schema Components abstraction (<VPIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`)](https://github.com/event-driven-io/Pongo/blob/c3ed330a3ddf7793e6d508309cd2f729c6b19cb2/src/packages/dumbo/src/core/schema/schemaComponent.ts). They define the database schema as a tree structure. They’re used for database collection, allowing migration through code. They’re exposed in the schema property. In the longer term, it’ll be possible to add your own, like indexes, migrations, etc.
 
 ### Added possibility to disable generating Pongo schema upfront
 
@@ -337,7 +337,7 @@ Read more about building Emmett and Pongo in:
 
 :::
 
-Check also the [sample (<FontIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`)](https://github.com/event-driven-io/Pongo/blob/c3ed330a3ddf7793e6d508309cd2f729c6b19cb2/samples/simple-ts/src/typedClient.ts) and [release notes (<FontIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`)](https://github.com/event-driven-io/Pongo/releases/tag/0.14.0)
+Check also the [sample (<VPIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`)](https://github.com/event-driven-io/Pongo/blob/c3ed330a3ddf7793e6d508309cd2f729c6b19cb2/samples/simple-ts/src/typedClient.ts) and [release notes (<VPIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`)](https://github.com/event-driven-io/Pongo/releases/tag/0.14.0)
 
 Cheers!
 

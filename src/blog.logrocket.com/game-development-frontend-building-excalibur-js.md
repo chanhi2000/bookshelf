@@ -102,7 +102,7 @@ Using Vite allows for an easier change-build-run cycle by using a single command
 
 This will bootstrap a basic project, and you can run `npm run start` to start the Vite server. On the `localhost`, you will see the sample, where a sword moves on the screen in a square. Let’s change this to make a stationary square so we can understand the basics of creating an object in Excalibur.
 
-Open the <FontIcon icon="iconfont icon-typescript"/>`player.ts` file. This is where our “player,” i.e., the sword, is defined. There is a lot here, and you can look through and read the comments to get an idea of what functionality is possible. For our purposes, we will simply delete this and start from scratch.
+Open the <VPIcon icon="iconfont icon-typescript"/>`player.ts` file. This is where our “player,” i.e., the sword, is defined. There is a lot here, and you can look through and read the comments to get an idea of what functionality is possible. For our purposes, we will simply delete this and start from scratch.
 
 Delete all the contents from the file and add the following:
 
@@ -295,7 +295,7 @@ this.on("exitviewport", () => {
 ...
 ```
 
-We check the current level name and select the other level as the next scene. We also provide a `FadeIn` transition similar to the `game.start` call in <FontIcon icon="iconfont icon-typescript"/>`main.ts` so the change of scene has a smooth transition.
+We check the current level name and select the other level as the next scene. We also provide a `FadeIn` transition similar to the `game.start` call in <VPIcon icon="iconfont icon-typescript"/>`main.ts` so the change of scene has a smooth transition.
 
 Finally, to get a wrap-around behavior where if the player exists from the left, it appears on the right in the next level, we add the following in both levels’ `onActivate` function:
 
@@ -414,7 +414,7 @@ After making the appropriate changes in `Level2` and `Level3` to always start th
 
 <VidStack src="/assets/image/blog.logrocket.com/game-development-frontend-building-excalibur-js/basic4.webm" />
 
-If we touch the level 2 selector, we’ll change to level 2, and if we touch the level 3 selector, we change to level 3. Read more about collision detection and the types of [<FontIcon icon="fas fa-globe"/>collisions available in Excalibur here](https://excaliburjs.com/docs/collisiontypes/).
+If we touch the level 2 selector, we’ll change to level 2, and if we touch the level 3 selector, we change to level 3. Read more about collision detection and the types of [<VPIcon icon="fas fa-globe"/>collisions available in Excalibur here](https://excaliburjs.com/docs/collisiontypes/).
 
 ### Sprites and sprite sheets
 
@@ -422,15 +422,15 @@ Sprites are images or animations used in games to represent characters, objects,
 
 We will be using a pre-made sprite pack downloadable from itch.io. When using pre-made sprites, always ensure you have the appropriate license to use them for your purposes. Some assets are free to use for any game, some are free for personal use but not for commercial use, and some require purchasing a license for any use. Make sure you have the correct permission to use the assets.
 
-For our example, you can [<FontIcon icon="fas fa-globe"/>download the asset pack here](https://pixelfrog-assets.itch.io/tiny-swords). The pack includes a lot of assets, but we’ll only be using a few for this and the next section. After downloading the zip, extract the files from the `Tiny Swords (Update 010)` directory (in the zip) into our <FontIcon icon="fas fa-folder-open"/>`public/assets` directory. Once that is done, you will have <FontIcon icon="fas fa-folder-open"/>`public/assets/Deco`, <FontIcon icon="fas fa-folder-open"/>`public/assets/Factions`, and others ready to use.
+For our example, you can [<VPIcon icon="fas fa-globe"/>download the asset pack here](https://pixelfrog-assets.itch.io/tiny-swords). The pack includes a lot of assets, but we’ll only be using a few for this and the next section. After downloading the zip, extract the files from the `Tiny Swords (Update 010)` directory (in the zip) into our <VPIcon icon="fas fa-folder-open"/>`public/assets` directory. Once that is done, you will have <VPIcon icon="fas fa-folder-open"/>`public/assets/Deco`, <VPIcon icon="fas fa-folder-open"/>`public/assets/Factions`, and others ready to use.
 
-We’ll use the <FontIcon icon="fas fa-folder-open"/>`Factions/Knights/Troops/Warrior/Blue/`<FontIcon icon="fas fa-file-image"/>`Warrior_blue.png` image for our player. You can open and see that the image contains individual frames of various animations, such as idle, walking, and attacking, laid out in a grid.
+We’ll use the <VPIcon icon="fas fa-folder-open"/>`Factions/Knights/Troops/Warrior/Blue/`<VPIcon icon="fas fa-file-image"/>`Warrior_blue.png` image for our player. You can open and see that the image contains individual frames of various animations, such as idle, walking, and attacking, laid out in a grid.
 
-If we open one of the sprite sheets, we can see the available animations. Open <FontIcon icon="fas fa-folder-open"/>`Factions/Knights/Troops/Warrior/Blue/`<FontIcon icon="fas fa-file-image"/>`Warrior_blue.png`. Here, we have eight rows, each with six columns. The first row is idle/standing frames. If we look carefully, the knight is slowly bobbing up and down. The next row is the walking animation.
+If we open one of the sprite sheets, we can see the available animations. Open <VPIcon icon="fas fa-folder-open"/>`Factions/Knights/Troops/Warrior/Blue/`<VPIcon icon="fas fa-file-image"/>`Warrior_blue.png`. Here, we have eight rows, each with six columns. The first row is idle/standing frames. If we look carefully, the knight is slowly bobbing up and down. The next row is the walking animation.
 
-The next two rows are two attacks facing left, then the next two rows are two attacks facing front, and finally, the last two are two attacks facing backward. For now, we will only use the standing and walking animations. You will also notice that there is a <FontIcon icon="fas fa-file-lines"/>`.aseprite` file, which is a popular format for sprite sheets and animations. However, working with it and seeing it require another package and software, respectively, so for now, we will simply use the .png file. You can [<FontIcon icon="fas fa-globe"/>read more about its use here](https://excaliburjs.com/docs/aseprite-plugin/).
+The next two rows are two attacks facing left, then the next two rows are two attacks facing front, and finally, the last two are two attacks facing backward. For now, we will only use the standing and walking animations. You will also notice that there is a <VPIcon icon="fas fa-file-lines"/>`.aseprite` file, which is a popular format for sprite sheets and animations. However, working with it and seeing it require another package and software, respectively, so for now, we will simply use the .png file. You can [<VPIcon icon="fas fa-globe"/>read more about its use here](https://excaliburjs.com/docs/aseprite-plugin/).
 
-First, open the <FontIcon icon="iconfont icon-typescript"/>`resources.ts` file. This file is used to load resources like images and sounds. In a larger game, you might split this up so that each level or stage only loads its necessary resources when it starts. But for our case, we’ll load everything at the beginning. By default, the `Sword` resource is already loaded. Now, let’s add the `Knight` resource:
+First, open the <VPIcon icon="iconfont icon-typescript"/>`resources.ts` file. This file is used to load resources like images and sounds. In a larger game, you might split this up so that each level or stage only loads its necessary resources when it starts. But for our case, we’ll load everything at the beginning. By default, the `Sword` resource is already loaded. Now, let’s add the `Knight` resource:
 
 ```ts title="resources.ts"
 export const Resources = {
@@ -441,7 +441,7 @@ export const Resources = {
 } as const;
 ```
 
-Now, in <FontIcon icon="iconfont icon-typescript"/>`Player.ts`, we’ll load it as follows. Keep in mind that this isn’t the best approach — normally, you’d define it in <FontIcon icon="iconfont icon-typescript"/>`resources.ts` and import it separately. But for the sake of this example, we’ll do it this way.
+Now, in <VPIcon icon="iconfont icon-typescript"/>`Player.ts`, we’ll load it as follows. Keep in mind that this isn’t the best approach — normally, you’d define it in <VPIcon icon="iconfont icon-typescript"/>`resources.ts` and import it separately. But for the sake of this example, we’ll do it this way.
 
 First, add `idleAnimation` as a member of our `Player` class:
 
@@ -558,7 +558,7 @@ In this final part of the basic introduction, we’ll explore what a tilemap is 
 
 However, when using special formats like `.tmx`, we can attach properties to specific tiles or tile types. For example, we can mark border tiles as solid to prevent the player from walking through them or define a specific tile as the player’s starting position.
 
-For this example, you can see the image <FontIcon icon="fas fa-folder-open"/>`assets/Terrin/Ground/`<FontIcon icon="fas fa-file-image"/>`Tilemap_Flat.png`. This consists of individual square tiles, which can be composed to create a larger level layout. We can load this up and split it into sprites and manually design the level programmatically one tile at a time; however, that would be extremely tedious and quite slow. Instead, we will use a popular program called `Tiled`, which can be [<FontIcon icon="fas fa-globe"/>downloaded from here](https://thorbjorn.itch.io/tiled). We will then create a tilemap from the image we saw earlier and use it in our game.
+For this example, you can see the image <VPIcon icon="fas fa-folder-open"/>`assets/Terrin/Ground/`<VPIcon icon="fas fa-file-image"/>`Tilemap_Flat.png`. This consists of individual square tiles, which can be composed to create a larger level layout. We can load this up and split it into sprites and manually design the level programmatically one tile at a time; however, that would be extremely tedious and quite slow. Instead, we will use a popular program called `Tiled`, which can be [<VPIcon icon="fas fa-globe"/>downloaded from here](https://thorbjorn.itch.io/tiled). We will then create a tilemap from the image we saw earlier and use it in our game.
 
 Note that I will not be doing an in-depth explanation for `Tiled` itself. You can refer to the docs for that. We will only review the steps relevant to our case.
 
@@ -594,7 +594,7 @@ In the left-top sidebar panel, give it a name and type (in newer versions, this 
 
 ![Editing The Player's Name And Type](/assets/image/blog.logrocket.com/game-development-frontend-building-excalibur-js/editing-player-name-type.png)
 
-Then, in the File menu, click on `Save As…` and select a location in our assets directory. Give it a name like <FontIcon icon="fas fa-file-lines"/>`level.tmx` and save.
+Then, in the File menu, click on `Save As…` and select a location in our assets directory. Give it a name like <VPIcon icon="fas fa-file-lines"/>`level.tmx` and save.
 
 Now, in our project directory, run the following npm command to add the tiled plugin:
 
@@ -602,7 +602,7 @@ Now, in our project directory, run the following npm command to add the tiled pl
 npm install --save-exact @excaliburjs/plugin-tiled
 ```
 
-Then, in <FontIcon icon="iconfont icon-typescript"/>`resources.ts`, after the loop, we‘ll add the following:
+Then, in <VPIcon icon="iconfont icon-typescript"/>`resources.ts`, after the loop, we‘ll add the following:
 
 ```ts title="resources.ts"
 export const TiledLevelMap = new TiledResource("./assets/level.tmx");
@@ -619,7 +619,7 @@ export class TiledLevel extends Scene {
 }
 ```
 
-And in the <FontIcon icon="iconfont icon-typescript"/>`main.ts`, we’ll add this level to `scenes`:
+And in the <VPIcon icon="iconfont icon-typescript"/>`main.ts`, we’ll add this level to `scenes`:
 
 ```ts title="main.ts"
 scenes: {
@@ -704,13 +704,13 @@ For each “part” of the game, ask yourself the following:
 
 I’ll refer to these as the “implementation questions” in the rest of the article, as these will help us think about how to implement a part of the game.
 
-In the rest of this section, I will implement a very basic game using the concepts we learned above. While doing so, I will demonstrate how I think using our list of implementation questions. You can find the source code for each step in this [repository (<FontIcon icon="iconfont icon-github"/>`YJDoc2/LogRocket-Blog-Code`)](https://github.com/YJDoc2/LogRocket-Blog-Code/tree/main/excalibur-tutorial).
+In the rest of this section, I will implement a very basic game using the concepts we learned above. While doing so, I will demonstrate how I think using our list of implementation questions. You can find the source code for each step in this [repository (<VPIcon icon="iconfont icon-github"/>`YJDoc2/LogRocket-Blog-Code`)](https://github.com/YJDoc2/LogRocket-Blog-Code/tree/main/excalibur-tutorial).
 
 Remember, this isn’t the best way, but it’s a good enough way to get started and break free from tutorial hell. Instead of just following this example, come up with your own concept and apply the same thought process to build your game. Like beginner web projects, cloning a simple existing game can be a great way to start.
 
 For my example, I’m creating a simple top-down fighting game where you control a character, battle enemies, and advance to the next level after defeating them all. Early on, I’ll focus more on level design and gameplay rather than UI elements, using simple placeholders for now and refining them later. Feel free to take a different approach!
 
-I’ll first delete all the existing `.ts` files except <FontIcon icon="iconfont icon-typescript"/>`main.ts` , <FontIcon icon="iconfont icon-typescript"/>`player.ts` , <FontIcon icon="iconfont icon-typescript"/>`resources.ts`, and <FontIcon icon="iconfont icon-typescript"/>`tiledLevel.ts` . Because we were only using these four files at the end of the last section, there shouldn’t be any change in the game.
+I’ll first delete all the existing `.ts` files except <VPIcon icon="iconfont icon-typescript"/>`main.ts` , <VPIcon icon="iconfont icon-typescript"/>`player.ts` , <VPIcon icon="iconfont icon-typescript"/>`resources.ts`, and <VPIcon icon="iconfont icon-typescript"/>`tiledLevel.ts` . Because we were only using these four files at the end of the last section, there shouldn’t be any change in the game.
 
 ### Level selector
 
@@ -746,7 +746,7 @@ Now, I want to design the first level, so let’s start again with our implement
 - **How should the game state change?**
   - Nothing particular for now, but the next step would be adding enemies
 
-For this, I’ll design a larger tilemap. I want the camera to focus on the player while staying within a bounding box to prevent showing empty space. To achieve this, I’ll implement a custom camera strategy and add it to the player’s `onInitialize` method (more details can be [<FontIcon icon="fas fa-globe"/>found here](https://excaliburjs.com/docs/cameras/#custom-strategies)). I’ll also reset the player’s scale to `(1,1)` and increase their speed. The result will look something like this:
+For this, I’ll design a larger tilemap. I want the camera to focus on the player while staying within a bounding box to prevent showing empty space. To achieve this, I’ll implement a custom camera strategy and add it to the player’s `onInitialize` method (more details can be [<VPIcon icon="fas fa-globe"/>found here](https://excaliburjs.com/docs/cameras/#custom-strategies)). I’ll also reset the player’s scale to `(1,1)` and increase their speed. The result will look something like this:
 
 <VidStack src="/assets/image/blog.logrocket.com/game-development-frontend-building-excalibur-js/game2.webm" />
 
@@ -838,7 +838,7 @@ As I mentioned earlier, this isn’t the ultimate guide to making a game. As you
 
 In this post, we started with the basic concepts of Excalibur.js. After covering them, we saw how we can think in terms of five questions to implement your first game piece by piece. With this, you can begin your game development journey! Be sure to share it with me in the comments if you upload it somewhere.
 
-The code for the demo is available in my [GitHub repository here (<FontIcon icon="iconfont icon-github"/>`YJDoc2/LogRocket-Blog-Code`)](https://github.com/YJDoc2/LogRocket-Blog-Code/tree/main/excalibur-tutorial).
+The code for the demo is available in my [GitHub repository here (<VPIcon icon="iconfont icon-github"/>`YJDoc2/LogRocket-Blog-Code`)](https://github.com/YJDoc2/LogRocket-Blog-Code/tree/main/excalibur-tutorial).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

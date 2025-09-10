@@ -62,7 +62,7 @@ The Open Container Initiative (OCI) announced the completion of the first versio
 
 Standards are important, but they are far from a complete production platform. Take for example, the World Wide Web. It  has evolved over the last 25 years and was built on core dependable standards like TCP/IP, HTTP and HTML. Using TCP/IP as an example, when enterprises coalesced around TCP/IP as a common protocol, it fueled the growth of routers and in particular - Cisco. However, Cisco became a leader in its market by focusing on differentiated features on its routing platform. We believe the parallel exists with the OCI specifications and Docker.
 
-[<FontIcon icon="fa-brands fa-docker"/>Docker is a complete production platform](https://docker.com/) for developing, distributing, securing and orchestrating container-based solutions. The OCI specification is used by Docker, but it represents only about five percent of our code and a small part of the Docker platform concerned with the runtime behavior of a container and the layout of a container image. 
+[<VPIcon icon="fa-brands fa-docker"/>Docker is a complete production platform](https://docker.com/) for developing, distributing, securing and orchestrating container-based solutions. The OCI specification is used by Docker, but it represents only about five percent of our code and a small part of the Docker platform concerned with the runtime behavior of a container and the layout of a container image. 
 
 ---
 
@@ -70,7 +70,7 @@ Standards are important, but they are far from a complete production platform. T
 
 The runtime and image specifications have just released as 1.0 this week. However, the OCI certification program is still in development so companies cannot claim compliance, conformance or compatibility until certification is formally rolled out later this year.
 
-The OCI [certification working group (<FontIcon icon="iconfont icon-github"/>`opencontainers/certification`)](https://github.com/opencontainers/certification) is currently defining the standard so that products and open source projects can demonstrate conformance to the specifications. Standards and specifications are important for engineers implementing solutions, but formal certification is the only way to reassure customers that the technology they are working with is truly conformant to the standard.
+The OCI [certification working group (<VPIcon icon="iconfont icon-github"/>`opencontainers/certification`)](https://github.com/opencontainers/certification) is currently defining the standard so that products and open source projects can demonstrate conformance to the specifications. Standards and specifications are important for engineers implementing solutions, but formal certification is the only way to reassure customers that the technology they are working with is truly conformant to the standard.
 
 ---
 

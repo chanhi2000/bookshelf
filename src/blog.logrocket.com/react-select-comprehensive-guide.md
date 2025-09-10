@@ -67,13 +67,13 @@ React Select is an open source select control created by Jed Watson with and for
 
 In this tutorial, we’ll walk through how to install, use, and customize React Select for modern React projects. We’ll also dive into various configuration options to tailor the component to our specific needs.
 
-If you’re using an older version, you should upgrade using the [<FontIcon icon="fa-brands fa-react"/>upgrade guide](https://react-select.com/upgrade#upgrade-guide). You can also check out [<FontIcon icon="fa-brands fa-youtube"/>our video tutorial on React Select](https://youtu.be/n02t9wvd6hs).
+If you’re using an older version, you should upgrade using the [<VPIcon icon="fa-brands fa-react"/>upgrade guide](https://react-select.com/upgrade#upgrade-guide). You can also check out [<VPIcon icon="fa-brands fa-youtube"/>our video tutorial on React Select](https://youtu.be/n02t9wvd6hs).
 
 <VidStack src="youtube/n02t9wvd6hs" />
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Nelson Michael](https://blog.logrocket.com/author/nelsonmichael/) in March 2025.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Nelson Michael](https://blog.logrocket.com/author/nelsonmichael/) in March 2025.
 
 :::
 
@@ -105,13 +105,13 @@ React Select works with any React framework. To install the `react-select` packa
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add react-select
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i react-select
@@ -160,7 +160,7 @@ In the code snippet above, the select options are defined as music genres and pa
 
 ![React Select Element Music Genre Example](https://blog.logrocket.com/wp-content/uploads/2022/12/react-select-element-music-genre-example.webp)
 
-[<FontIcon icon="fas fa-globe"/>Props are essential to how React Select works](https://react-select.com/props). They are also essential to customizing it. Apart from the props we passed in our first example, here are some common props you can pass to the `Select` component:
+[<VPIcon icon="fas fa-globe"/>Props are essential to how React Select works](https://react-select.com/props). They are also essential to customizing it. Apart from the props we passed in our first example, here are some common props you can pass to the `Select` component:
 
 ```tsx
 /**
@@ -344,7 +344,7 @@ cacheOptions: Caching fetched options
 defaultOptions: Set default options before the remote options are loaded
 ```
 
-Another component that may come in handy is the [<FontIcon icon="fas fa-globe"/>Fixed Options](https://react-select.com/home#fixed-options) component, which makes it possible to have fixed options.
+Another component that may come in handy is the [<VPIcon icon="fas fa-globe"/>Fixed Options](https://react-select.com/home#fixed-options) component, which makes it possible to have fixed options.
 
 ---
 
@@ -639,7 +639,7 @@ Each of these events will expose the event to the callback function as in the ca
 
 ## Styling React Select components
 
-The `Select` component is composed of other child components, each with base styles that can be extended or overridden distinctly. These are [<FontIcon icon="fas fa-globe"/>components](https://react-select.com/styles#inner-components) like `control`, `placeholder`, `options`, `noOptionsMessage`, etc:
+The `Select` component is composed of other child components, each with base styles that can be extended or overridden distinctly. These are [<VPIcon icon="fas fa-globe"/>components](https://react-select.com/styles#inner-components) like `control`, `placeholder`, `options`, `noOptionsMessage`, etc:
 
 ![Add Custom Styles React Select](https://blog.logrocket.com/wp-content/uploads/2025/03/add-custom-styles-react-select.png)
 
@@ -793,7 +793,7 @@ If you use either one of the `styles` or `classNames` APIs, you can get access t
 />
 ```
 
-Effectively styling the `Select` requires that you know the [<FontIcon icon="fas fa-globe"/>component(s)](https://react-select.com/components) you intend to style and choose one of the styling APIs above to achieve your goal. If you break a component down for your bare metal needs, let [<FontIcon icon="fas fa-globe"/>cx and custom components](https://react-select.com/styles#cx-and-custom-components) be your styling guide.
+Effectively styling the `Select` requires that you know the [<VPIcon icon="fas fa-globe"/>component(s)](https://react-select.com/components) you intend to style and choose one of the styling APIs above to achieve your goal. If you break a component down for your bare metal needs, let [<VPIcon icon="fas fa-globe"/>cx and custom components](https://react-select.com/styles#cx-and-custom-components) be your styling guide.
 
 ---
 
@@ -801,7 +801,7 @@ Effectively styling the `Select` requires that you know the [<FontIcon icon="fas
 
 React Select is a powerful component that can significantly enhance your application’s user experience. By following this guide and implementing the examples above, you can create accessible, performant, and feature-rich select components that meet modern web application requirements.
 
-For more advanced use cases and detailed API documentation, visit the [<FontIcon icon="fas fa-globe"/>official React Select documentation](https://react-select.com/home). If you’re evaluating different select libraries for your project, check out our guide to the [**best React Select component libraries**](/blog.logrocket.com/best-react-select-component-libraries.md).
+For more advanced use cases and detailed API documentation, visit the [<VPIcon icon="fas fa-globe"/>official React Select documentation](https://react-select.com/home). If you’re evaluating different select libraries for your project, check out our guide to the [**best React Select component libraries**](/blog.logrocket.com/best-react-select-component-libraries.md).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -107,16 +107,16 @@ As developers, we know that one of the most crucial steps while programming is t
 Even though this solution works, there are a few issues with this:
 
 - This process is tedious. In the first step, developers must first commit to the branch and then run a build script
-  - This takes up [<FontIcon icon="fa-brands fa-stack-overflow"/>valuable time](https://stackoverflow.com/questions/57918898/react-native-ios-build-is-taking-a-long-time) because the building process involves compiling the project, testing, and producing an artifact file
+  - This takes up [<VPIcon icon="fa-brands fa-stack-overflow"/>valuable time](https://stackoverflow.com/questions/57918898/react-native-ios-build-is-taking-a-long-time) because the building process involves compiling the project, testing, and producing an artifact file
 - Furthermore, it consumes valuable resources on the local machine, which may lead to serious problems in cases where the project’s codebase is large and complex
 
-This is the problem a [<FontIcon icon="fa-brands fa-redhat"/>CI/CD pipeline](https://redhat.com/en/topics/devops/what-cicd-pipeline) comes in to solve. Let’s cover a few different options for React Native development.
+This is the problem a [<VPIcon icon="fa-brands fa-redhat"/>CI/CD pipeline](https://redhat.com/en/topics/devops/what-cicd-pipeline) comes in to solve. Let’s cover a few different options for React Native development.
 
 ---
 
 ## EAS Workflows
 
-[<FontIcon icon="fas fa-globe"/>EAS Workflows](https://docs.expo.dev/eas-workflows/get-started/) is a dedicated React Native CI/CD solution for iOS, Android, and Web. With this service, developers can automate their development and release processes, which makes the whole development experience smoother and more efficient. EAS Workflows is the easiest service on this list to work with because it only requires a few commands to get up and running:
+[<VPIcon icon="fas fa-globe"/>EAS Workflows](https://docs.expo.dev/eas-workflows/get-started/) is a dedicated React Native CI/CD solution for iOS, Android, and Web. With this service, developers can automate their development and release processes, which makes the whole development experience smoother and more efficient. EAS Workflows is the easiest service on this list to work with because it only requires a few commands to get up and running:
 
 ![Expo App Services dashboard](/assets/image/blog.logrocket.com/best-ci-cd-tools-react-native/expo-app-services-dashboard.png)
 
@@ -129,7 +129,7 @@ eas build:configure # this will generate an eas.json file
 # this file will allow you to configure your building process.
 ```
 
-For more information on deployment and build configuration, navigate to [<FontIcon icon="fas fa-globe"/>Expo’s documentation](https://docs.expo.dev/build/setup/).
+For more information on deployment and build configuration, navigate to [<VPIcon icon="fas fa-globe"/>Expo’s documentation](https://docs.expo.dev/build/setup/).
 
 ### Pros and cons of EAS
 
@@ -138,7 +138,7 @@ For more information on deployment and build configuration, navigate to [<FontIc
 @tab:active Pro(s)
 
 - It’s the easiest option to host and deploy apps, especially if they’re built with Expo
-- Developers provide an option to host the [<FontIcon icon="fas fa-globe"/>Expo Build process on your server](https://docs.expo.dev/build-reference/local-builds/) but, consequently, it is suited for companies where the project’s code has to be kept private
+- Developers provide an option to host the [<VPIcon icon="fas fa-globe"/>Expo Build process on your server](https://docs.expo.dev/build-reference/local-builds/) but, consequently, it is suited for companies where the project’s code has to be kept private
 - Handles the stressful stuff for you, like signing certificates and keystore files, which saves a lot of engineering time and effort
 - Provides extensive documentation in case you need help
 - Supports both Expo and React Native apps
@@ -156,7 +156,7 @@ For more information on deployment and build configuration, navigate to [<FontIc
 
 ## Microsoft App Center
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Microsoft App Center (MAC)](https://appcenter.ms/apps) is a CI/CD platform dedicated to app development. Unlike Expo Application Services, it supports both React Native and other cross-platform technologies like Unity and Xamarin.
+[<VPIcon icon="fa-brands fa-microsoft"/>Microsoft App Center (MAC)](https://appcenter.ms/apps) is a CI/CD platform dedicated to app development. Unlike Expo Application Services, it supports both React Native and other cross-platform technologies like Unity and Xamarin.
 
 ![Here’s what it looks like: Microsoft App Center dashboard](/assets/image/blog.logrocket.com/best-ci-cd-tools-react-native/microsoft-app-center-dashboard.png)
 
@@ -168,7 +168,7 @@ Next, specify the project’s location in App Center’s settings:
 
 ![Specify the project location in MAC](/assets/image/blog.logrocket.com/best-ci-cd-tools-react-native/specify-project-location-mac.png)
 
-Finally, the service will then ask you to configure your build settings. You also might have to generate and [<FontIcon icon="fa-brands fa-android"/>upload a keystore file in this step](https://developer.android.com/studio/publish/app-signing#generate-key).
+Finally, the service will then ask you to configure your build settings. You also might have to generate and [<VPIcon icon="fa-brands fa-android"/>upload a keystore file in this step](https://developer.android.com/studio/publish/app-signing#generate-key).
 
 That’s it! When that’s done, the pipeline will start building the app for you.
 
@@ -194,21 +194,21 @@ However, there were some things that I found unappealing:
 - No option to run builds on local infrastructure. As discussed before, this might be a problem in situations where source code privacy is important
 - Paid option may be too expensive for small startups
 - E2E tests are locked behind a paywall
-- As of writing this article, [Microsoft doesn’t support Expo apps (<FontIcon icon="iconfont icon-github"/>`microsoft/appcenter`)](https://github.com/microsoft/appcenter/issues/189)
+- As of writing this article, [Microsoft doesn’t support Expo apps (<VPIcon icon="iconfont icon-github"/>`microsoft/appcenter`)](https://github.com/microsoft/appcenter/issues/189)
 
 ---
 
 ## GitHub Actions
 
-[<FontIcon icon="iconfont icon-github"/>GitHub Actions](https://github.com/features/actions) is a prominent option among numerous open-source programmers. One reason for its popularity is that this tool integrates with GitHub, so developers can use it to automate their workflows directly from their GitHub repository:
+[<VPIcon icon="iconfont icon-github"/>GitHub Actions](https://github.com/features/actions) is a prominent option among numerous open-source programmers. One reason for its popularity is that this tool integrates with GitHub, so developers can use it to automate their workflows directly from their GitHub repository:
 
 ![GitHub Actions can be deployed from your repository](/assets/image/blog.logrocket.com/best-ci-cd-tools-react-native/github-actions-repository.png)
 
 Although building an app on GitHub Actions is tricky, it provides greater control over the building process as compared to other platforms, thus making it a worthwhile trade-off.
 
-To deploy with GitHub Actions, create a folder in your repo called <FontIcon icon="fas fa-folder-open"/>`.github/workflows`. There, create a new file called <FontIcon icon="iconfont icon-yaml"/>`ci.yml`:
+To deploy with GitHub Actions, create a folder in your repo called <VPIcon icon="fas fa-folder-open"/>`.github/workflows`. There, create a new file called <VPIcon icon="iconfont icon-yaml"/>`ci.yml`:
 
-![Create a new file called <FontIcon icon="iconfont icon-yaml"/>`ci.yml` in your repo](/assets/image/blog.logrocket.com/best-ci-cd-tools-react-native/new-file-ci-yml.png)
+![Create a new file called <VPIcon icon="iconfont icon-yaml"/>`ci.yml` in your repo](/assets/image/blog.logrocket.com/best-ci-cd-tools-react-native/new-file-ci-yml.png)
 
 This tells GitHub that our project will use GitHub Actions for deployment. After this step, follow the [**instructions in this LogRocket article**](/blog.logrocket.com/react-native-ci-cd-using-github-actions.md) to build a CI/CD pipeline using GitHub Actions in React Native.
 
@@ -217,10 +217,10 @@ This tells GitHub that our project will use GitHub Actions for deployment. After
 Here are some of the reasons why this pipeline service might be suitable for you:
 
 - The service allows for more control, which means that you can add tests and even change your build agent
-- Its free tier is more than enough for personal projects. Moreover, GitHub even issues [<FontIcon icon="iconfont icon-github"/>Pro accounts for students](https://education.github.com/pack), which allows them to upgrade to a paid option for free
-- Other than building apps, GitHub Actions can also run [<FontIcon icon="iconfont icon-github"/>automated code quality checks](https://github.com/marketplace/actions/sonarqube-scan). This is suitable in situations where you want to detect code smells and bugs in your project before deployment
-- The [<FontIcon icon="iconfont icon-github"/>self-hosted runners feature](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) allows companies to host their version of Actions on local infrastructure. As discussed before, this is great for private code repositories
-- The free tier allows for [<FontIcon icon="fas fa-globe"/>end-to-end tests](https://remarkablemark.org/blog/2023/02/18/how-to-run-react-native-detox-tests-on-github-actions/)
+- Its free tier is more than enough for personal projects. Moreover, GitHub even issues [<VPIcon icon="iconfont icon-github"/>Pro accounts for students](https://education.github.com/pack), which allows them to upgrade to a paid option for free
+- Other than building apps, GitHub Actions can also run [<VPIcon icon="iconfont icon-github"/>automated code quality checks](https://github.com/marketplace/actions/sonarqube-scan). This is suitable in situations where you want to detect code smells and bugs in your project before deployment
+- The [<VPIcon icon="iconfont icon-github"/>self-hosted runners feature](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) allows companies to host their version of Actions on local infrastructure. As discussed before, this is great for private code repositories
+- The free tier allows for [<VPIcon icon="fas fa-globe"/>end-to-end tests](https://remarkablemark.org/blog/2023/02/18/how-to-run-react-native-detox-tests-on-github-actions/)
 
 However, as compared to other platforms, here are some things that I didn’t like:
 
@@ -231,11 +231,11 @@ However, as compared to other platforms, here are some things that I didn’t li
 
 ## CodeMagic
 
-[<FontIcon icon="fas fa-globe"/>CodeMagic](https://codemagic.io/start/) is another CI/CD pipeline specifically geared towards mobile app development frameworks, including [<FontIcon icon="fas fa-globe"/>Flutter](https://blog.logrocket.com/tag/flutter), Cordova, Ionic, and others:
+[<VPIcon icon="fas fa-globe"/>CodeMagic](https://codemagic.io/start/) is another CI/CD pipeline specifically geared towards mobile app development frameworks, including [<VPIcon icon="fas fa-globe"/>Flutter](https://blog.logrocket.com/tag/flutter), Cordova, Ionic, and others:
 
 ![The CodeMagic dashboard](/assets/image/blog.logrocket.com/best-ci-cd-tools-react-native/codemagic-dashboard.png)
 
-Just like Expo and Microsoft’s App Center, deploying and building your React Native app is fairly easy. To get started, create a file called <FontIcon icon="iconfont icon-yaml"/>`codemagic.yml` in your React Native app, and write the following code:
+Just like Expo and Microsoft’s App Center, deploying and building your React Native app is fairly easy. To get started, create a file called <VPIcon icon="iconfont icon-yaml"/>`codemagic.yml` in your React Native app, and write the following code:
 
 ```yaml
 workflows:
@@ -247,16 +247,16 @@ workflows:
 
 This tells the pipeline that our build will use [**Apple’s M1 Mac machine**](/blog.logrocket.com/how-to-set-up-m1-macbook-web-development.md) for deployment.
 
-After this step, it’s best to head to [<FontIcon icon="fas fa-globe"/>CodeMagic’s documentation](https://docs.codemagic.io/yaml-quick-start/building-a-react-native-app/) to learn how to build and deploy your project.
+After this step, it’s best to head to [<VPIcon icon="fas fa-globe"/>CodeMagic’s documentation](https://docs.codemagic.io/yaml-quick-start/building-a-react-native-app/) to learn how to build and deploy your project.
 
 ### Pros and cons of CodeMagic
 
 Here are some of the things I loved about it:
 
-- Their servers use Apple’s M-series machines, which leads to [<FontIcon icon="fas fa-globe"/>rapid build times](https://jeffgeerling.com/blog/2021/apple-m1-compiles-linux-30-faster-my-intel-i9)
+- Their servers use Apple’s M-series machines, which leads to [<VPIcon icon="fas fa-globe"/>rapid build times](https://jeffgeerling.com/blog/2021/apple-m1-compiles-linux-30-faster-my-intel-i9)
 - CodeMagic uses a pay-as-you-go model, which means that you only pay for the resources you use. In some cases, this might be a cheaper option as compared to other services in this list
 - Amazing documentation with step-by-step guides
-- Supports [<FontIcon icon="fas fa-globe"/>end-to-end tests](https://docs.codemagic.io/yaml-testing/testing/) on the free tier
+- Supports [<VPIcon icon="fas fa-globe"/>end-to-end tests](https://docs.codemagic.io/yaml-testing/testing/) on the free tier
 
 However, there were some things that I didn’t like about it:
 
@@ -270,7 +270,7 @@ Professional mobile developers also widely use other CI services, such as Bitris
 
 ### Bitrise
 
-Just like CodeMagic, this service is geared towards mobile app development. Furthermore, it supports [<FontIcon icon="fas fa-globe"/>add-ons](https://devcenter.bitrise.io/en/references/bitrise-add-ons.html) to help in development with, for example, [<FontIcon icon="fas fa-globe"/>debug reports](https://devcenter.bitrise.io/en/testing/test-reports.html) or [<FontIcon icon="fas fa-globe"/>release management](https://devcenter.bitrise.io/en/release-management.html).
+Just like CodeMagic, this service is geared towards mobile app development. Furthermore, it supports [<VPIcon icon="fas fa-globe"/>add-ons](https://devcenter.bitrise.io/en/references/bitrise-add-ons.html) to help in development with, for example, [<VPIcon icon="fas fa-globe"/>debug reports](https://devcenter.bitrise.io/en/testing/test-reports.html) or [<VPIcon icon="fas fa-globe"/>release management](https://devcenter.bitrise.io/en/release-management.html).
 
 ![The Bitrise dashboard](/assets/image/blog.logrocket.com/best-ci-cd-tools-react-native/bitrise-dashboard.png)
 
@@ -442,7 +442,7 @@ Free
 
 ## Conclusion
 
-In this article, we briefly discussed some popular CI/CD platforms for React Native and why they are crucial in the programming world. We also included some honorable mentions, [<FontIcon icon="iconfont icon-jenkins"/>Jenkins CI](https://jenkins.io/) and [<FontIcon icon="fas fa-globe"/>Bitrise](https://bitrise.io/), in our comparison table. It is important to remember that every project is different, and therefore it is important to evaluate each tool’s advantages and disadvantages.
+In this article, we briefly discussed some popular CI/CD platforms for React Native and why they are crucial in the programming world. We also included some honorable mentions, [<VPIcon icon="iconfont icon-jenkins"/>Jenkins CI](https://jenkins.io/) and [<VPIcon icon="fas fa-globe"/>Bitrise](https://bitrise.io/), in our comparison table. It is important to remember that every project is different, and therefore it is important to evaluate each tool’s advantages and disadvantages.
 
 In my projects, I typically use Expo Services because it is incredibly easy to set up and use, and its free tier is more than enough for my needs. Thank you so much for reading!
 

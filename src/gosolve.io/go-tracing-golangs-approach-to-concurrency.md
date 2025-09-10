@@ -154,7 +154,7 @@ func main() {
 ::: info Here’s what’s happening:
 
 - We’ve added the required imports to include the `trace` package from the runtime.
-- Before our greeting is printed, we initiate the tracing process. We create a file called <FontIcon icon="fas fa-file-lines"/>`trace.out` to store our tracing data.
+- Before our greeting is printed, we initiate the tracing process. We create a file called <VPIcon icon="fas fa-file-lines"/>`trace.out` to store our tracing data.
 - We use `trace.Start(f)` to begin the tracing. This will begin recording all the execution events and other associated tracing information from our program.
 - To ensure that our tracing concludes properly, we use defer `trace.Stop()`. This guarantees that the tracing will cease when our `func main` concludes its execution.
 
@@ -162,7 +162,7 @@ func main() {
 
 ### Viewing the Generated Trace Output
 
-Now that our program is instrumented for tracing, running it will generate a <FontIcon icon="fas fa-file-lines"/>`trace.out` file containing the raw trace data. To view and analyze this trace data, we’ll employ the go tool trace:
+Now that our program is instrumented for tracing, running it will generate a <VPIcon icon="fas fa-file-lines"/>`trace.out` file containing the raw trace data. To view and analyze this trace data, we’ll employ the go tool trace:
 
 ```sh
 go run main.go
@@ -171,7 +171,7 @@ go tool trace trace.out
 
 Executing go tool trace will open a web interface, allowing you to dive deep into the tracing details. While our example is a simple one, you’ll still see the underlying runtime processes, including goroutine creation and even events linked to the garbage collector.
 
-The beauty of the go tool trace command is its user-friendly visualization of the tracing details. While the raw trace data in <FontIcon icon="fas fa-file-lines"/>`trace.out` is complex, this tool presents it in an easily digestible and interactive format. Here, you can view the chronological tracing output, discern the lifecycle of goroutines, and even see how the log from the `fmt.Println` interacts with other runtime events.
+The beauty of the go tool trace command is its user-friendly visualization of the tracing details. While the raw trace data in <VPIcon icon="fas fa-file-lines"/>`trace.out` is complex, this tool presents it in an easily digestible and interactive format. Here, you can view the chronological tracing output, discern the lifecycle of goroutines, and even see how the log from the `fmt.Println` interacts with other runtime events.
 
 ---
 

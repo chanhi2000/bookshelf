@@ -55,15 +55,15 @@ Starting with Safari 17 (announced at WWDC 2023) any website you use in Safari c
 Once installed, you can debug your Web Apps using the Web Inspector in Safari, here is how:
 
 1. If you haven't done this already, enable the developer features in Safari. This only needs to be done once:
-  a. In Safari, go to <FontIcon icon="iconfont icon-select"/>`[Safari]` > `[Settings]`.
-  b. Select the <FontIcon icon="iconfont icon-select"/>`[Advanced]` tab.
-  c. Click <FontIcon icon="iconfont icon-select"/>`[Show features for web developers]`.
+  a. In Safari, go to <VPIcon icon="iconfont icon-select"/>`[Safari]` > `[Settings]`.
+  b. Select the <VPIcon icon="iconfont icon-select"/>`[Advanced]` tab.
+  c. Click <VPIcon icon="iconfont icon-select"/>`[Show features for web developers]`.
 2. Open your Web App.
 3. In Safari, go to the **Develop** menu.
 4. Select the device your Web App is running on. This will be your Mac's machine name.
 5. In the submenu, select the Web App you want to debug.
 
-To learn more, see [<FontIcon icon="fa-brands fa-apple"/>Safari's Develop menu documentation](https://developer.apple.com/documentation/safari-developer-tools/develop-menu).
+To learn more, see [<VPIcon icon="fa-brands fa-apple"/>Safari's Develop menu documentation](https://developer.apple.com/documentation/safari-developer-tools/develop-menu).
 
 ![The Develop menu in the Safari menu bar, showing different devices and debugging targets](https://devtoolstips.org/assets/img/debug-safari-mac-webapps.png)
 

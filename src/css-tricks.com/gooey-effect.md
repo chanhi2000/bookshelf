@@ -52,7 +52,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2015/02/artifacts-on-
 
 ::: info
 
-The following is a post by [Lucas Bebber (<FontIcon icon="fa-brands fa-codepen"/>`lbebber`)](http://codepen.io/lbebber/). Lucas the originator of some of the most creative effects I’ve ever seen on the web. So much so I couldn’t resist [**blogging about them**](/css-tricks.com/glitch-effect-text-images-svg.md) myself [**several times**](/css-tricks.com/shape-blobbing-css.md). Much better this time: we got the man himself to explain how SVG filters work and how you can use them to create a very cool gooey effect.
+The following is a post by [Lucas Bebber (<VPIcon icon="fa-brands fa-codepen"/>`lbebber`)](http://codepen.io/lbebber/). Lucas the originator of some of the most creative effects I’ve ever seen on the web. So much so I couldn’t resist [**blogging about them**](/css-tricks.com/glitch-effect-text-images-svg.md) myself [**several times**](/css-tricks.com/shape-blobbing-css.md). Much better this time: we got the man himself to explain how SVG filters work and how you can use them to create a very cool gooey effect.
 
 :::
 
@@ -101,9 +101,9 @@ To apply a SVG filter to a DOM element:
 }
 ```
 
-You may need vendor prefixes to use the [<FontIcon icon="iconfont icon-css-tricks"/>`filter`](https://css-tricks.com/almanac/properties/f/filter/) property.
+You may need vendor prefixes to use the [<VPIcon icon="iconfont icon-css-tricks"/>`filter`](https://css-tricks.com/almanac/properties/f/filter/) property.
 
-A `<filter>` element contains one or more filter primitives, which are the operations done by the filter, e.g. blur, color transform, shading. A complete list of filter primitives can be found [<FontIcon icon="iconfont icon-w3c"/>here](http://w3.org/TR/SVG/filters.html).
+A `<filter>` element contains one or more filter primitives, which are the operations done by the filter, e.g. blur, color transform, shading. A complete list of filter primitives can be found [<VPIcon icon="iconfont icon-w3c"/>here](http://w3.org/TR/SVG/filters.html).
 
 Let’s see a couple of examples:
 
@@ -276,7 +276,7 @@ This way, we can use the filter not only to make that fancy goo effect, but also
 
 ## Support
 
-SVG filters have [<FontIcon icon="iconfont icon-caniuse"/>good support](https://caniuse.com/#feat=svg-filters), but not all browsers support them being applied to regular DOM elements, notably Safari. However, they do work at least on Firefox and Chrome, even the Android version, and the filter degrades nicely if it doesn’t work. If you absolutely need the effect to work, consider using SVG elements instead of DOM elements.
+SVG filters have [<VPIcon icon="iconfont icon-caniuse"/>good support](https://caniuse.com/#feat=svg-filters), but not all browsers support them being applied to regular DOM elements, notably Safari. However, they do work at least on Firefox and Chrome, even the Android version, and the filter degrades nicely if it doesn’t work. If you absolutely need the effect to work, consider using SVG elements instead of DOM elements.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

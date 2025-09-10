@@ -60,7 +60,7 @@ But serverless doesn’t mean there is no Docker -in fact, Docker *is* serverles
 
 ## From servers to serverless
 
-So how might we write applications like this? Let’s take our example [a voting application consisting of 5 services (<FontIcon icon="iconfont icon-github"/>`docker/example-voting-app`)](https://github.com/docker/example-voting-app):
+So how might we write applications like this? Let’s take our example [a voting application consisting of 5 services (<VPIcon icon="iconfont icon-github"/>`docker/example-voting-app`)](https://github.com/docker/example-voting-app):
 
 ![Picture1](https://docker.com/app/uploads/Picture1.png)
 
@@ -112,7 +112,7 @@ We’ve got all these radically new tools and abstractions for building apps, an
 
 This hopefully gives you some ideas about what you can build, but we also need your help. We have all the fundamentals to be able to start building these applications, but its still in its infrancy -we need better tooling, libraries, example apps, documentation, and so on.
 
-[This GitHub repository has links off to tools, libraries, examples, and blog posts. (<FontIcon icon="iconfont icon-github"/>`bfirsh/serverless-docker`)](https://github.com/bfirsh/serverless-docker) Head over there if you want to learn more, and please contribute any links you have there so we can start working together on this.
+[This GitHub repository has links off to tools, libraries, examples, and blog posts. (<VPIcon icon="iconfont icon-github"/>`bfirsh/serverless-docker`)](https://github.com/bfirsh/serverless-docker) Head over there if you want to learn more, and please contribute any links you have there so we can start working together on this.
 
 Get involved, and happy hacking!
 

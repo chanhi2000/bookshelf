@@ -52,7 +52,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/12/1_V1-JTPCSJ2rYG-En0wxasQ-
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/12/1_V1-JTPCSJ2rYG-En0wxasQ-1024x1024.webp"/>
 
-![Designed by [<FontIcon icon="fas fa-globe"/>Freepik](http://freepik.com/)](https://droidcon.com/wp-content/uploads/2024/12/1_V1-JTPCSJ2rYG-En0wxasQ-1024x1024.webp)
+![Designed by [<VPIcon icon="fas fa-globe"/>Freepik](http://freepik.com/)](https://droidcon.com/wp-content/uploads/2024/12/1_V1-JTPCSJ2rYG-En0wxasQ-1024x1024.webp)
 
 In this article, I’ll introduce a useful tool for screenshot testing in Jetpack Compose. This tool was officially announced at the last Google I/O as part of a new library. Although it’s still in the early stages (version`0.0.1-alpha08`), it can already be integrated into your projects with minimal configuration and code, allowing you to start testing your UI efficiently.
 
@@ -87,7 +87,7 @@ For example, you can create a single annotation to generate previews for:
 - **Four screen sizes**in both**light and dark themes**, or
 - **Two screen sizes**with**five different font scales**.
 
-If you want to learn more about optimizing your previews, check out[my post (<FontIcon icon="fa-brands fa-medium"/>`olivervicente`)](https://medium.com/@olivervicente/9-tips-to-improve-your-jetpack-compose-previews-a4e00831bacc), where I share tips like creating your own preview annotations.
+If you want to learn more about optimizing your previews, check out[my post (<VPIcon icon="fa-brands fa-medium"/>`olivervicente`)](https://medium.com/@olivervicente/9-tips-to-improve-your-jetpack-compose-previews-a4e00831bacc), where I share tips like creating your own preview annotations.
 
 ### 3. Dedicated Source Set for Screenshot Tests
 
@@ -95,7 +95,7 @@ All screenshot tests are stored in a special source set called`screenshotTest`. 
 
 ### 4. Future Enhancements
 
-At**London Droidcon**,[Jose Alcérreca (<FontIcon icon="fa-brands fa-medium"/>`JoseAlcerreca`)](https://medium.com/u/e0a4c9469bb5)and[Adarsh Fernando (<FontIcon icon="fa-brands fa-medium"/>`adarshf`)](https://medium.com/u/d0f719b3e5e9)(in their talk on[testing strategies](/droidcon.com/scalable-testing-strategies.md), around the 19-minute mark) mentioned an upcoming feature: the ability to use screenshot tests as**previews**in the files where your composables are defined. This would eliminate the need to duplicate code — one function for the preview and another for the screenshot test. While this feature isn’t available in version`0.0.1-alpha08`, it’s a promising addition to look forward to!
+At**London Droidcon**,[Jose Alcérreca (<VPIcon icon="fa-brands fa-medium"/>`JoseAlcerreca`)](https://medium.com/u/e0a4c9469bb5)and[Adarsh Fernando (<VPIcon icon="fa-brands fa-medium"/>`adarshf`)](https://medium.com/u/d0f719b3e5e9)(in their talk on[testing strategies](/droidcon.com/scalable-testing-strategies.md), around the 19-minute mark) mentioned an upcoming feature: the ability to use screenshot tests as**previews**in the files where your composables are defined. This would eliminate the need to duplicate code — one function for the preview and another for the screenshot test. While this feature isn’t available in version`0.0.1-alpha08`, it’s a promising addition to look forward to!
 
 ---
 
@@ -124,7 +124,7 @@ compose-screenshot = { id = "com.android.compose.screenshot", version.ref = "com
 
 ### Step 1: Add the Plugin
 
-Include the screenshot testing plugin in your**module-level <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts` file**:
+Include the screenshot testing plugin in your**module-level <VPIcon icon="iconfont icon-kotlin"/>`build.gradle.kts` file**:
 
 ```kotlin title="build.gradle.kts"
 plugins {
@@ -136,13 +136,13 @@ plugins {
 
 ### Step 2: Enable Experimental Properties
 
-In your**project’s <FontIcon icon="fas fa-file-lines"/>`gradle.properties` file**, enable the necessary experimental properties:
+In your**project’s <VPIcon icon="fas fa-file-lines"/>`gradle.properties` file**, enable the necessary experimental properties:
 
 ```properties title="gradle.properties"
 android.experimental.enableScreenshotTest=true
 ```
 
-You’ll also need to set the experimental flag in your**module-level <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts` file**:
+You’ll also need to set the experimental flag in your**module-level <VPIcon icon="iconfont icon-kotlin"/>`build.gradle.kts` file**:
 
 ```kotlin title="build.gradle.kts"
 android {
@@ -297,7 +297,7 @@ To generate reference images for your screenshot tests, use the following Gradle
 - Linux and macOS:`./gradlew updateDebugScreenshotTest`(`./gradlew {:module:}update{Variant}ScreenshotTest`)
 - Windows:`gradlew updateDebugScreenshotTest`(`gradlew {:module:}update{Variant}ScreenshotTest`)
 
-In my case, I’m running macOS and have a single module named<FontIcon icon="fas fa-folder-open"/>`app`. Therefore, I use the following command:
+In my case, I’m running macOS and have a single module named<VPIcon icon="fas fa-folder-open"/>`app`. Therefore, I use the following command:
 
 ```sh
 ./gradlew :app:updateDebugScreenshotTest
@@ -338,7 +338,7 @@ Depending on your operating system, run the following commands:
 
 ### Example Usage
 
-In my case, since I have a single module named<FontIcon icon="fas fa-folder-open"/>`app`, the command is:
+In my case, since I have a single module named<VPIcon icon="fas fa-folder-open"/>`app`, the command is:
 
 ```sh
 ./gradlew :app:validateDebugScreenshotTest
@@ -376,7 +376,7 @@ In the case of a real error, you have two options:
 
 Git LFS is a tool to avoid having large files that are not code files in our repository. In our case the reference images.
 
-Follow[<FontIcon icon="iconfont icon-github"/>official documentation](https://docs.github.com/es/enterprise-cloud@latest/repositories/working-with-files/managing-large-files/installing-git-large-file-storage)to install Git LFS. In my case, I will install it using Homebrew:
+Follow[<VPIcon icon="iconfont icon-github"/>official documentation](https://docs.github.com/es/enterprise-cloud@latest/repositories/working-with-files/managing-large-files/installing-git-large-file-storage)to install Git LFS. In my case, I will install it using Homebrew:
 
 ```sh
 brew install git-lfs
@@ -388,7 +388,7 @@ then track screenshot images with Git LFS
 git lfs track "app/src/debug/**/*.png"
 ```
 
-Add <FontIcon icon="iconfont icon-git"/>`.gitattributes` to the repository
+Add <VPIcon icon="iconfont icon-git"/>`.gitattributes` to the repository
 
 ```sh
 git add .gitattributes
@@ -518,7 +518,7 @@ When running the validation in GitHub Actions, an error might occur because the 
 
 ![Screenshot Difference](https://droidcon.com/wp-content/uploads/2024/12/1_RCGEiCDrx33Q_rFQFnSFcw-1024x457.webp)
 
-To address the issue of minor image differences, we can adjust the**Image Difference Threshold**. To configure this, add the following to your**module-level <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`**file:
+To address the issue of minor image differences, we can adjust the**Image Difference Threshold**. To configure this, add the following to your**module-level <VPIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`**file:
 
 ```kotlin title="build.gradle.kts"
 android {
@@ -544,11 +544,11 @@ If you found this article helpful or interesting, please give it a clap and cons
 
 Have any questions? Feel free to reach out!
 
-You can also follow me on[Medium (<FontIcon icon="fa-brands fa-medium"/>`olivervicente`)](https://medium.com/@olivervicente)or[LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`olivervicentealfonso`)](https://linkedin.com/in/olivervicentealfonso/)for more insightful articles and updates. Let’s stay connected!
+You can also follow me on[Medium (<VPIcon icon="fa-brands fa-medium"/>`olivervicente`)](https://medium.com/@olivervicente)or[LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`olivervicentealfonso`)](https://linkedin.com/in/olivervicentealfonso/)for more insightful articles and updates. Let’s stay connected!
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/screenshot-testing-in-jetpack-compose-bbed440ea19a)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/screenshot-testing-in-jetpack-compose-bbed440ea19a)
 
 <SiteInfo
   name="Screenshot testing in Jetpack Compose"

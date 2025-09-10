@@ -72,7 +72,7 @@ Let’s jump right in!
 
 ## What is Anime.js?
 
-Anime.js is a lightweight library with over [43k stars on GitHub (<FontIcon icon="iconfont icon-github"/>`juliangarnier/anime`)](https://github.com/juliangarnier/anime) that animates CSS attributes, DOM elements, and SVG on a webpage. Creating site animations is an easy process with Anime.js.
+Anime.js is a lightweight library with over [43k stars on GitHub (<VPIcon icon="iconfont icon-github"/>`juliangarnier/anime`)](https://github.com/juliangarnier/anime) that animates CSS attributes, DOM elements, and SVG on a webpage. Creating site animations is an easy process with Anime.js.
 
 This library possesses a built-in staggering system that generates ripples and reduces the complexity of overlapping animations. You can use it to create simple and complex animation effects of your choice, synchronize multiple instances and control all animation features.
 
@@ -94,7 +94,7 @@ Properties specify which visual aspects of an element should be animated, such a
 
 It is important not to confuse property parameters with properties in Anime.js. While properties refer to the visual aspects of an element that we want to animate, property parameters are settings that we define for the properties, controlling how the animation should behave.
 
-Examples of property parameters include the `duration` of the animation, a `delay` before the animation starts, and the `easing` function to use. See a [<FontIcon icon="fas fa-globe"/>full list of Anime.js property parameters](https://animejs.com/documentation/#duration) in the documentation.
+Examples of property parameters include the `duration` of the animation, a `delay` before the animation starts, and the `easing` function to use. See a [<VPIcon icon="fas fa-globe"/>full list of Anime.js property parameters](https://animejs.com/documentation/#duration) in the documentation.
 
 Property parameters in Anime.js behave in similar ways as compared to standard parameters in other animation tools and libraries. However, the exact property parameters used in Anime.js are specific to this tool and may not be used in the same way in other tools.
 
@@ -112,13 +112,13 @@ Like property parameters, animation parameters in Anime.js are similar to standa
 
 You can set up Anime.js by downloading the library directly, installing it with an npm command, or via a CDN.
 
-If you are downloading the library from the [<FontIcon icon="fas fa-globe"/>Anime.js website](https://animejs.com/), include the Anime.js JavaScript file in your HTML code, like so:
+If you are downloading the library from the [<VPIcon icon="fas fa-globe"/>Anime.js website](https://animejs.com/), include the Anime.js JavaScript file in your HTML code, like so:
 
 ```html
 <script src="path/to/anime.min.js"></script>
 ```
 
-The [**Node Package Manager (npm)**](/blog.logrocket.com/javascript-package-managers-compared.md) is another option. If you use npm, the script will be located in node <FontIcon icon="fas fa-folder-open"/>`modules/animejs/lib/`<FontIcon icon="fa-brands fa-js"/>`anime.min.js`. See the install command below:
+The [**Node Package Manager (npm)**](/blog.logrocket.com/javascript-package-managers-compared.md) is another option. If you use npm, the script will be located in node <VPIcon icon="fas fa-folder-open"/>`modules/animejs/lib/`<VPIcon icon="fa-brands fa-js"/>`anime.min.js`. See the install command below:
 
 ```sh
 npm install animejs --save
@@ -138,7 +138,7 @@ Once you have the library set up, you can start using it in your project right a
 
 There are many reasons why Anime.js is such a popular library. To start with, it is quite simple to use. Everything is based on a single function call, and you only need to feed parameters into it, which is incredibly convenient.
 
-Anime.js also [<FontIcon icon="fas fa-globe"/>has great documentation](https://animejs.com/documentation/). You can see examples for each of the different animations available through this library that show you the code, how it works, and what it accomplishes through interactive animation visuals.
+Anime.js also [<VPIcon icon="fas fa-globe"/>has great documentation](https://animejs.com/documentation/). You can see examples for each of the different animations available through this library that show you the code, how it works, and what it accomplishes through interactive animation visuals.
 
 Finally, this library comes with an excellent learning curve. Anime.js is not challenging to learn at all! You can look at the documentation and come up with a nice animation of your choice if you have a basic understanding of CSS and JavaScript.
 
@@ -148,7 +148,7 @@ Let’s see an animation example just see how it works.
 
 ## Simple animation example
 
-Let’s create a file called <FontIcon icon="fa-brands fa-html5"/>`index.html` and add the following code :
+Let’s create a file called <VPIcon icon="fa-brands fa-html5"/>`index.html` and add the following code :
 
 ```html :collapsed-lines title="index.html"
 <!DOCTYPE html>
@@ -171,9 +171,9 @@ Let’s create a file called <FontIcon icon="fa-brands fa-html5"/>`index.html` a
 </html>
 ```
 
-In the code above, we inserted the Anime.js CDN link into our HTML. We also built four `divs` to represent our boxes, which we will style in CSS. This code block also includes a link to the <FontIcon icon="fa-brands fa-js"/>`main.js` script, where we’ll write the code for animating these boxes.
+In the code above, we inserted the Anime.js CDN link into our HTML. We also built four `divs` to represent our boxes, which we will style in CSS. This code block also includes a link to the <VPIcon icon="fa-brands fa-js"/>`main.js` script, where we’ll write the code for animating these boxes.
 
-Next, create a file called <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` and paste the following:
+Next, create a file called <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` and paste the following:
 
 ```css title="style.css"
 .box {
@@ -191,7 +191,7 @@ Next, create a file called <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` a
 
 In the code above, we have given each box a width of `100px` and a height of `100px`, as well as a margin of `4px` and a display property set to `inline-block`. We also assigned different colors to each box.
 
-Now it’s time to use Anime.js to animate these boxes. Create a file called <FontIcon icon="fa-brands fa-js"/>`main.js` and paste the following:
+Now it’s time to use Anime.js to animate these boxes. Create a file called <VPIcon icon="fa-brands fa-js"/>`main.js` and paste the following:
 
 ```js
 anime({
@@ -237,11 +237,11 @@ Let’s look at a more detailed example, this time using Anime.js to create back
 
 Basic familiarity with CSS and JavaScript is required to get started with this project. You may choose whichever method you’d like to set up Anime.js. I’ll use the CDN URL, the same way I did in the previous example.
 
-Our project structure will still be like before — we are going to have three files named <FontIcon icon="fa-brands fa-html5"/>`index.html`, <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`, and <FontIcon icon="fa-brands fa-js"/>`main.js`.
+Our project structure will still be like before — we are going to have three files named <VPIcon icon="fa-brands fa-html5"/>`index.html`, <VPIcon icon="fa-brands fa-css3-alt"/>`style.css`, and <VPIcon icon="fa-brands fa-js"/>`main.js`.
 
 ### Building the background animation
 
-Navigate into the folder created for this project. Create a file called <FontIcon icon="fa-brands fa-html5"/>`index.html` and paste this:
+Navigate into the folder created for this project. Create a file called <VPIcon icon="fa-brands fa-html5"/>`index.html` and paste this:
 
 ```html :collapsed-lines title="index.html"
 <!DOCTYPE html>
@@ -269,9 +269,9 @@ Navigate into the folder created for this project. Create a file called <FontIco
 </html>
 ```
 
-As usual, our HTML contains the link to Anime.js and our <FontIcon icon="fa-brands fa-js"/>`main.js` file for our animation code. We also created a `div` called `container` and added some basic text inside.
+As usual, our HTML contains the link to Anime.js and our <VPIcon icon="fa-brands fa-js"/>`main.js` file for our animation code. We also created a `div` called `container` and added some basic text inside.
 
-Next, we want to create our <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` file and write the following:
+Next, we want to create our <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` file and write the following:
 
 ```css :collapsed-lines title="style.css"
 * {
@@ -336,9 +336,9 @@ h1 span {
 }
 ```
 
-You’ll notice there’s a `div` called `block` that we are styling in this file, but which isn’t in our HTML markup. That’s because we’ll create it in our <FontIcon icon="fa-brands fa-js"/>`main.js` file next.
+You’ll notice there’s a `div` called `block` that we are styling in this file, but which isn’t in our HTML markup. That’s because we’ll create it in our <VPIcon icon="fa-brands fa-js"/>`main.js` file next.
 
-Let’s create our <FontIcon icon="fa-brands fa-js"/>`main.js` file now and paste the following in:
+Let’s create our <VPIcon icon="fa-brands fa-js"/>`main.js` file now and paste the following in:
 
 ```js :collapsed-lines title="main.js"
 const background = document.querySelector(".container");
@@ -380,7 +380,7 @@ Had fun with that? Let’s switch things up a bit by making significant changes 
 
 ### Building the animated website
 
-Navigate to the project folder and create an <FontIcon icon="fa-brands fa-html5"/>`index.html` file. Paste the following into the file:
+Navigate to the project folder and create an <VPIcon icon="fa-brands fa-html5"/>`index.html` file. Paste the following into the file:
 
 ```html :collapsed-lines title="index.html"
 <!DOCTYPE html>
@@ -425,7 +425,7 @@ Navigate to the project folder and create an <FontIcon icon="fa-brands fa-html5"
 
 The code above sets up a simple example website with a logo, three navigation pages, a page title, some dummy content, and a button that says `Get started`.
 
-Next up is the styling. Create a <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` file and copy this in:
+Next up is the styling. Create a <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` file and copy this in:
 
 ```css :collapsed-lines title="style.css"
 * {
@@ -535,7 +535,7 @@ We also applied [**styling and positioning to our button**](/blog.logrocket.com/
 
 Then, for our `.container` and `.element`, we used the `position:` `relative` property to avoid affecting our layout.
 
-Lastly, let’s create our <FontIcon icon="fa-brands fa-js"/>`main.js` file:
+Lastly, let’s create our <VPIcon icon="fa-brands fa-js"/>`main.js` file:
 
 ```js :collapsed-lines title = "main.js"
 let container = document.querySelector(".container");

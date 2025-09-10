@@ -82,7 +82,7 @@ Until one day, you do.
 
 Query splitting is helpful in scenarios where you're eager loading multiple collections.
 
-It helps us avoid the [<FontIcon icon="fa-brands fa-microsoft"/>cartesian explosion](https://learn.microsoft.com/en-us/ef/core/performance/efficient-querying#avoid-cartesian-explosion-when-loading-related-entities) problem.
+It helps us avoid the [<VPIcon icon="fa-brands fa-microsoft"/>cartesian explosion](https://learn.microsoft.com/en-us/ef/core/performance/efficient-querying#avoid-cartesian-explosion-when-loading-related-entities) problem.
 
 Let's say we want to retrieve a department with all its teams and employees.
 We might write a query like this:

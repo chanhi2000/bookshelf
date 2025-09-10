@@ -58,7 +58,7 @@ This guide begins with the basics of applying image overlays in CSS and graduall
 
 ::: note Editor’s note
 
-This blog was last updated by [<FontIcon icon="fas fa-globe"/>Ibadehin Mojeed](https://blog.logrocket.com/author/ibadehinmojeed/) in March 2025 to provide more concise, streamlined information on CSS image overlays.
+This blog was last updated by [<VPIcon icon="fas fa-globe"/>Ibadehin Mojeed](https://blog.logrocket.com/author/ibadehinmojeed/) in March 2025 to provide more concise, streamlined information on CSS image overlays.
 
 :::
 
@@ -165,7 +165,7 @@ In this setup, `.overlay-text` naturally appears above `.overlay` due to its pla
 
 ## How to add an image layer in CSS
 
-There are times when layering one image over another is necessary, whether for watermarking, [<FontIcon icon="fas fa-globe"/>branding](https://blog.logrocket.com/product-management/crafting-brand-strategy/), or displaying previews and thumbnails. One way to achieve this is by placing two images inside a wrapper, then positioning the top layer absolutely.
+There are times when layering one image over another is necessary, whether for watermarking, [<VPIcon icon="fas fa-globe"/>branding](https://blog.logrocket.com/product-management/crafting-brand-strategy/), or displaying previews and thumbnails. One way to achieve this is by placing two images inside a wrapper, then positioning the top layer absolutely.
 
 Place the images inside a wrapper like so:
 
@@ -225,7 +225,7 @@ This creates a subtle effect where the overlay darkens on hover, enhancing visua
 
 ### Hover effect for image layers
 
-Another common technique is layering images so that a different picture appears when hovering over a product. This is widely used on [<FontIcon icon="fas fa-globe"/>ecommerce websites](https://blog.logrocket.com/ux-design/tips-for-better-ecommerce-ux-design/) to showcase product variations dynamically.
+Another common technique is layering images so that a different picture appears when hovering over a product. This is widely used on [<VPIcon icon="fas fa-globe"/>ecommerce websites](https://blog.logrocket.com/ux-design/tips-for-better-ecommerce-ux-design/) to showcase product variations dynamically.
 
 To achieve this, place two images inside a wrapper:
 

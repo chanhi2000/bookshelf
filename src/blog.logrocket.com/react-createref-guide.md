@@ -64,7 +64,7 @@ This guide to using React `createRef` was last updated on 15 November 2022 to in
 
 ![How to Use React createRef](/assets/image/blog.logrocket.com/react-createref-guide/banner.png)
 
-If you’ve been developing web applications long enough, you’ve likely used JavaScript [<FontIcon icon="fa-brands fa-firefox"/>DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) libraries such as [<FontIcon icon="iconfont icon-jQuery"/>jQuery](http://jquery.com/), [<FontIcon icon="fas fa-globe"/>Mootools](https://mootools.net/), [<FontIcon icon="fas fa-globe"/>Prototype.js](http://prototypejs.org/learn/), and more. These libraries brought about a significant shift in how interactive web applications were built. With DOM abstraction APIs, manipulating a web app’s contents became much easier.
+If you’ve been developing web applications long enough, you’ve likely used JavaScript [<VPIcon icon="fa-brands fa-firefox"/>DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) libraries such as [<VPIcon icon="iconfont icon-jQuery"/>jQuery](http://jquery.com/), [<VPIcon icon="fas fa-globe"/>Mootools](https://mootools.net/), [<VPIcon icon="fas fa-globe"/>Prototype.js](http://prototypejs.org/learn/), and more. These libraries brought about a significant shift in how interactive web applications were built. With DOM abstraction APIs, manipulating a web app’s contents became much easier.
 
 For example, you would find yourself doing something like this with jQuery:
 
@@ -80,7 +80,7 @@ Random post text.
 });
 ```
 
-These days, JavaScript frameworks like [<FontIcon icon="fas fa-globe"/>React](https://blog.logrocket.com/tag/react/), [<FontIcon icon="fas fa-globe"/>Angular](https://blog.logrocket.com/tag/angular/), and [<FontIcon icon="fas fa-globe"/>Vue.js](https://blog.logrocket.com/tag/vue/) are commonly used for building modern-day applications. These frameworks are all made with a component-based architecture. While you can do a lot by leveraging their built-in functionalities, you sometimes need to interact with the actual DOM for some native behavior. Most modern frameworks provide APIs through which you can access the native DOM representation of your app, and React is no exception.
+These days, JavaScript frameworks like [<VPIcon icon="fas fa-globe"/>React](https://blog.logrocket.com/tag/react/), [<VPIcon icon="fas fa-globe"/>Angular](https://blog.logrocket.com/tag/angular/), and [<VPIcon icon="fas fa-globe"/>Vue.js](https://blog.logrocket.com/tag/vue/) are commonly used for building modern-day applications. These frameworks are all made with a component-based architecture. While you can do a lot by leveraging their built-in functionalities, you sometimes need to interact with the actual DOM for some native behavior. Most modern frameworks provide APIs through which you can access the native DOM representation of your app, and React is no exception.
 
 In this tutorial, we will consider how we can interact with the DOM in a React application. We will also see how we can use the `React.createRef()` feature introduced in React v16.3, and the `useRef` Hook introduced in a later version of React. To learn more about virtual DOMs in React, check out this [**guide**](/blog.logrocket.com/virtual-dom-react.md).
 
@@ -90,7 +90,7 @@ In this tutorial, we will consider how we can interact with the DOM in a React a
 
 React provides a feature known as [**refs**](/blog.logrocket.com/complete-guide-react-refs.md) that allow for DOM access from components. You simply attach a ref to an element in your application to provide access to the element’s DOM from anywhere within your component.
 
-The [<FontIcon icon="fa-brands fa-react"/>React documentation](https://reactjs.org/docs/refs-and-the-dom.html) refers to refs as tools for providing direct access to React elements and DOM nodes created in the render method. Generally, using refs should only be considered when the required interaction cannot be achieved using the mechanisms of [state and props](https://blog.logrocket.com/the-beginners-guide-to-mastering-react-props-3f6f01fd7099/).
+The [<VPIcon icon="fa-brands fa-react"/>React documentation](https://reactjs.org/docs/refs-and-the-dom.html) refers to refs as tools for providing direct access to React elements and DOM nodes created in the render method. Generally, using refs should only be considered when the required interaction cannot be achieved using the mechanisms of [state and props](https://blog.logrocket.com/the-beginners-guide-to-mastering-react-props-3f6f01fd7099/).
 <!-- TODO: /blog.logrocket.com/the-beginners-guide-to-mastering-react-props.md -->
 
 However, there are a couple of cases where using a ref is appropriate. One of which is when integrating with third-party DOM libraries. Also, deep interactions, such as handling text selections or managing media playback behavior, require refs on the corresponding elements. You can check out our [**React reference guide**](/blog.logrocket.com/react-reference-guide-refs-dom.md#creatingrefs) to learn more.
@@ -164,7 +164,7 @@ Although this is a trivial example of how to use refs, it shows us how string re
 
 ### Using callback refs in React
 
-Callback refs use a callback function for creating refs instead of passing the ref’s name as a string. If you are using versions of [<FontIcon icon="fa-brands fa-react"/>React earlier than v16.3](https://reactjs.org/docs/refs-and-the-dom.html#callback-refs), this should be your preferred method of creating refs.
+Callback refs use a callback function for creating refs instead of passing the ref’s name as a string. If you are using versions of [<VPIcon icon="fa-brands fa-react"/>React earlier than v16.3](https://reactjs.org/docs/refs-and-the-dom.html#callback-refs), this should be your preferred method of creating refs.
 
 The callback function receives the `React Component` instance or `HTML DOM` element as its argument, which can be stored and accessed elsewhere. Using a callback `ref`, our previous code snippet will become the following:
 
@@ -506,7 +506,7 @@ The demo is the same as with the controlled version. Here is a sample demo of wh
 
 ## Ref forwarding in React
 
-Ordinarily, React components cannot access the refs used in their children components. While, according to the [<FontIcon icon="fa-brands fa-react"/>React documentation](https://reactjs.org/docs/forwarding-refs.html), this is good as it prevents components from relying on each other’s refs, there are instances where you might need to have access to a child component’s DOM element.
+Ordinarily, React components cannot access the refs used in their children components. While, according to the [<VPIcon icon="fa-brands fa-react"/>React documentation](https://reactjs.org/docs/forwarding-refs.html), this is good as it prevents components from relying on each other’s refs, there are instances where you might need to have access to a child component’s DOM element.
 
 For example, suppose you have a custom text field component that you use throughout your React app. In most cases, this text field component will render a standard HTML `<input>` text field with some customization, most likely through props:
 

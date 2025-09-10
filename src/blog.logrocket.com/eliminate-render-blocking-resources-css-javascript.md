@@ -79,7 +79,7 @@ Eliminating render-blocking resources is crucial for improving [**Google’s Cor
 
 ::: note Editor’s note
 
-This article was updated by [<FontIcon icon="fas fa-globe"/>Ivy Walobwa](https://blog.logrocket.com/author/ivywalobwa/) in April 2025 to include the most up-to-date strategies for the quick elimination of render-blocking resources in both CSS and JavaScript, and provide updated tools and real-world examples.
+This article was updated by [<VPIcon icon="fas fa-globe"/>Ivy Walobwa](https://blog.logrocket.com/author/ivywalobwa/) in April 2025 to include the most up-to-date strategies for the quick elimination of render-blocking resources in both CSS and JavaScript, and provide updated tools and real-world examples.
 
 :::
 
@@ -91,9 +91,9 @@ Several free performance metrics tools allow you to identify and analyze render-
 
 The most common tools include:
 
-- [<FontIcon icon="iconfont icon-lighthouse"/>Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)— Built into Chrome Developer Tools and gives a lab-based performance audit in mobile and desktop views
-- [<FontIcon icon="fas fa-globe"/>PageSpeed Insights](https://pagespeed.web.dev/)— Reports field data and Lighthouse lab test scores in both desktop and mobile views
-- [<FontIcon icon="fas fa-globe"/>GTmetrix](https://gtmetrix.com/) — Reports field data and Lighthouse lab test scores with custom audits in desktop view
+- [<VPIcon icon="iconfont icon-lighthouse"/>Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)— Built into Chrome Developer Tools and gives a lab-based performance audit in mobile and desktop views
+- [<VPIcon icon="fas fa-globe"/>PageSpeed Insights](https://pagespeed.web.dev/)— Reports field data and Lighthouse lab test scores in both desktop and mobile views
+- [<VPIcon icon="fas fa-globe"/>GTmetrix](https://gtmetrix.com/) — Reports field data and Lighthouse lab test scores with custom audits in desktop view
 
 When running tests on these tools, you’ll often find that the metrics reported don’t match up exactly. Each tool has differences in hardware, connection speed, locations, screen resolutions, and test methodology. We’ll use Lighthouse to improve the performance of a site with different speeds on mobile and desktop views.
 
@@ -109,7 +109,7 @@ The following sections will dive into how to eliminate the render-blocking resou
 
 To eliminate render-blocking resources, it’s essential to identify which resources are needed to render the critical part of your page: above-the-fold content. Critical resources are necessary for rendering the first paint of your page, while non-critical resources apply to content that is not immediately visible. Non-critical resources can be deferred or loaded asynchronously to improve performance.
 
-The [<FontIcon icon="fa-brands fa-chrome"/>Coverage tab](https://developer.chrome.com/docs/devtools/coverage) on Chrome DevTools allows you to visualize critical and non-critical CSS and JS. It shows you how much code was loaded and how much is unused. In the image below, the red marking shows non-critical code while the grey marking shows critical code:
+The [<VPIcon icon="fa-brands fa-chrome"/>Coverage tab](https://developer.chrome.com/docs/devtools/coverage) on Chrome DevTools allows you to visualize critical and non-critical CSS and JS. It shows you how much code was loaded and how much is unused. In the image below, the red marking shows non-critical code while the grey marking shows critical code:
 
 ![lighthouse code coverage](/assets/image/blog.logrocket.com/eliminate-render-blocking-resources-css-javascript/2_red-markings-non-critical-code.png)
 
@@ -161,7 +161,7 @@ To utilize CSS media types and media queries, we add the `media` attribute with 
 <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
 ```
 
-The process of extracting and inlining critical CSS and deferring non-critical CSS can be automated with tools such as [<FontIcon icon="iconfont icon-github"/>`addyosmani/critical`](https://github.com/addyosmani/critical/blob/master/README.md).
+The process of extracting and inlining critical CSS and deferring non-critical CSS can be automated with tools such as [<VPIcon icon="iconfont icon-github"/>`addyosmani/critical`](https://github.com/addyosmani/critical/blob/master/README.md).
 
 Based on configurations added when using Critical, it can extract critical CSS for you and add the styles to your document head. It also loads the remaining stylesheet asynchronously using CSS media types and media queries:
 
@@ -192,7 +192,7 @@ From the **Coverage** tab on Chrome DevTools, you can identify unused styles and
 
 You can also use tools like [**PurgeCSS**](/blog.logrocket.com/purgecss-remove-unused-css-code.md) that check your CSS code and remove any unused selectors from it. This is useful, especially when using third-party libraries such as Bootstrap and Font-awesome.
 
-To further improve the performance of your page, you can make use of [<FontIcon icon="fa-brands fa-firefox"/>CSS containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment). CSS containment allows the browser to isolate a subtree of the page from the rest of the page. This is essential to fix performance issues such as layout shifts:
+To further improve the performance of your page, you can make use of [<VPIcon icon="fa-brands fa-firefox"/>CSS containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment). CSS containment allows the browser to isolate a subtree of the page from the rest of the page. This is essential to fix performance issues such as layout shifts:
 
 ```css
 article {

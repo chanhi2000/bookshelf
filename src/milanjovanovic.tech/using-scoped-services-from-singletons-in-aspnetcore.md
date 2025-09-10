@@ -70,17 +70,17 @@ Today, I'll explain how you can solve this problem and safely use scoped service
 
 ## ASP.NET Core Service Lifetimes
 
-ASP.NET Core has three [<FontIcon icon="fa-brands fa-microsoft"/>service lifetimes](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#service-lifetimes):
+ASP.NET Core has three [<VPIcon icon="fa-brands fa-microsoft"/>service lifetimes](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#service-lifetimes):
 
 - Transient
 - Singleton
 - Scoped
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Transient services](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#transient) are created each time they're requested from the service container.
+[<VPIcon icon="fa-brands fa-microsoft"/>Transient services](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#transient) are created each time they're requested from the service container.
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Scoped services](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#scoped) are created once within the scope's lifetime. For ASP.NET Core applications, a new scope is created for each request. This is how you can resolve scoped services within a given request.
+[<VPIcon icon="fa-brands fa-microsoft"/>Scoped services](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#scoped) are created once within the scope's lifetime. For ASP.NET Core applications, a new scope is created for each request. This is how you can resolve scoped services within a given request.
 
-ASP.NET Core applications also have a root `IServiceProvider` used to resolve [<FontIcon icon="fa-brands fa-microsoft"/>singleton services](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#singleton).
+ASP.NET Core applications also have a root `IServiceProvider` used to resolve [<VPIcon icon="fa-brands fa-microsoft"/>singleton services](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#singleton).
 
 So, what can we do if resolving a scoped service from a singleton throws an exception?
 
@@ -158,7 +158,7 @@ You might see examples using the `IServiceProvider` to create a scope instead of
 
 What's the difference between these two approaches?
 
-The [`CreateScope` method from `IServiceProvider` (<FontIcon icon="iconfont icon-github"/>`aspnet/DependencyInjection`)](https://github.com/aspnet/DependencyInjection/blob/94b9cc9ace032f838e068702cc70ce57cc883bc7/src/DI.Abstractions/ServiceProviderServiceExtensions.cs#L125) resolves an `IServiceScopeFactory` instance and calls `CreateScope()` on it:
+The [`CreateScope` method from `IServiceProvider` (<VPIcon icon="iconfont icon-github"/>`aspnet/DependencyInjection`)](https://github.com/aspnet/DependencyInjection/blob/94b9cc9ace032f838e068702cc70ce57cc883bc7/src/DI.Abstractions/ServiceProviderServiceExtensions.cs#L125) resolves an `IServiceScopeFactory` instance and calls `CreateScope()` on it:
 
 ```cs
 public static IServiceScope CreateScope(this IServiceProvider provider)

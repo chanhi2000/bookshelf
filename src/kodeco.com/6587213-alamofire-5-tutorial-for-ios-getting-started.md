@@ -71,11 +71,11 @@ Before starting this tutorial, you should have a conceptual understanding of HTT
 
 ## Getting Started
 
-To kick things off, use the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this article to download the begin project.
+To kick things off, use the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this article to download the begin project.
 
 The app for this tutorial is `StarWarsOpedia`, which provides quick access to data about Star Wars films as well as the starships used in those films.
 
-Start by opening <FontIcon icon="fas fa-file-lines"/>`StarWarsOpedia.xcworkspace` inside the begin project.
+Start by opening <VPIcon icon="fas fa-file-lines"/>`StarWarsOpedia.xcworkspace` inside the begin project.
 
 ![Build and run. You’ll see this](https://koenig-media.raywenderlich.com/uploads/2020/01/1-1-304x500.png =240x)
 
@@ -141,7 +141,7 @@ You’d normally integrate Alamofire using CocoaPods or another dependency manag
 
 ## Where to Go From Here?
 
-You can download the completed project using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this article.
+You can download the completed project using the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this article.
 
 While building your app, you’ve learned a lot about Alamofire’s basics. You learned that Alamofire can make networking calls with very little setup and how to make basic calls using the request function by sending just the URL string.
 
@@ -149,7 +149,7 @@ Also, you learned to make more complex calls to do things like searching by send
 
 You learned how to use request chaining and request validation, how to convert the response into JSON and how to convert the response data into a custom data model.
 
-This article covered the very basics. You can take a deeper dive by looking at the documentation on the Alamofire site at [<FontIcon icon="iconfont icon-github"/>`Alamofire/Alamofire`](https://github.com/Alamofire/Alamofire).
+This article covered the very basics. You can take a deeper dive by looking at the documentation on the Alamofire site at [<VPIcon icon="iconfont icon-github"/>`Alamofire/Alamofire`](https://github.com/Alamofire/Alamofire).
 
 I highly suggest learning more about Apple’s URLSession, which Alamofire uses under the hood:
 

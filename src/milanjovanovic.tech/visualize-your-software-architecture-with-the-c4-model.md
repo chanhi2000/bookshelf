@@ -186,7 +186,7 @@ I used it with a lot of success.
 
 But I think you should at least give it a try.
 
-You can learn more about the **C4 model** [<FontIcon icon="fas fa-globe"/>here](https://c4model.com/).
+You can learn more about the **C4 model** [<VPIcon icon="fas fa-globe"/>here](https://c4model.com/).
 
 Thank you for reading, and have an awesome Saturday.
 

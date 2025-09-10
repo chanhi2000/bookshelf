@@ -288,7 +288,7 @@ Now, in the child component, we receive the props, which, when emitted, will tri
 
 ### Bailing out of a dispatch
 
-If the `useReducer` Hook returns the same value as the current state, React will bail out without rendering the children or firing effects because it uses the [<FontIcon icon="fa-brands fa-firefox"/>`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is#Description) comparison algorithm.
+If the `useReducer` Hook returns the same value as the current state, React will bail out without rendering the children or firing effects because it uses the [<VPIcon icon="fa-brands fa-firefox"/>`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is#Description) comparison algorithm.
 
 ---
 
@@ -338,7 +338,7 @@ To increment the state count `const initialState = { count: 0 }`, we simply set 
 
 ## `useState` vs. `useReducer`
 
-[<FontIcon icon="fa-brands fa-react"/>`useState` is a basic Hook](https://reactjs.org/docs/hooks-reference.html#basic-hooks) for managing simple state transformation, and [<FontIcon icon="fa-brands fa-react"/>`useReducer` is an additional Hook](https://reactjs.org/docs/hooks-reference.html#additional-hooks) for managing more complex state logic. However, it’s worth noting that `useState` uses `useReducer` internally, implying that you could use `useReducer` for everything you can do with `useState`.
+[<VPIcon icon="fa-brands fa-react"/>`useState` is a basic Hook](https://reactjs.org/docs/hooks-reference.html#basic-hooks) for managing simple state transformation, and [<VPIcon icon="fa-brands fa-react"/>`useReducer` is an additional Hook](https://reactjs.org/docs/hooks-reference.html#additional-hooks) for managing more complex state logic. However, it’s worth noting that `useState` uses `useReducer` internally, implying that you could use `useReducer` for everything you can do with `useState`.
 
 However, there are some major differences between these two Hooks. With `useReducer`, you can avoid passing down callbacks through different levels of your component. Instead, `useReducer` allows you to pass a provided `dispatch` function, which in turn will improve performance for components that trigger deep updates.
 
@@ -702,7 +702,7 @@ The following are the most common issues you might encounter when using `useRedu
 
 ### Inconsistent action
 
-This could be caused by dispatching incorrect or inconsistent types or payload for the same action, leading to errors. To solve this issue and ensure that all actions are consistent across the entire app, you could try using a concept like Redux’s [<FontIcon icon="fas fa-globe"/>Action Creators](https://read.reduxbook.com/markdown/part1/04-action-creators.html)
+This could be caused by dispatching incorrect or inconsistent types or payload for the same action, leading to errors. To solve this issue and ensure that all actions are consistent across the entire app, you could try using a concept like Redux’s [<VPIcon icon="fas fa-globe"/>Action Creators](https://read.reduxbook.com/markdown/part1/04-action-creators.html)
 
 ### Wrong state update
 
@@ -735,7 +735,7 @@ With the introduction of React Server Components in React 19, it’s worth notin
 
 ### `useReducer` and `use()`
 
-React 19 introduces the new [<FontIcon icon="fa-brands fa-react"/>`use()`](https://react.dev/reference/react/use) Hook, which can be used to consume promises or context. While not directly related to `useReducer`, the `use()` Hook can complement `useReducer` when dealing with asynchronous data in your reducers.
+React 19 introduces the new [<VPIcon icon="fa-brands fa-react"/>`use()`](https://react.dev/reference/react/use) Hook, which can be used to consume promises or context. While not directly related to `useReducer`, the `use()` Hook can complement `useReducer` when dealing with asynchronous data in your reducers.
 
 ```jsx
 import { use, useReducer } from "react";
@@ -756,7 +756,7 @@ function fetchUser() {
 
 ### `useReducer` and `useTransition` Hook
 
-With the introduction of [<FontIcon icon="fa-brands fa-react"/>`useTransition`](https://react.dev/reference/react/useTransition) in React 18 and its enhanced capabilities in React 19, we can combine it with `useReducer` to create more concise logic, especially when dealing with data mutations and asynchronous operations.
+With the introduction of [<VPIcon icon="fa-brands fa-react"/>`useTransition`](https://react.dev/reference/react/useTransition) in React 18 and its enhanced capabilities in React 19, we can combine it with `useReducer` to create more concise logic, especially when dealing with data mutations and asynchronous operations.
 
 `useTransition` allows us to mark updates as transitions, which tells React that they can be interrupted and don’t need to block the UI. This is particularly useful when combined with `useReducer` for handling complex state updates that might involve API calls or other time-consuming operations.
 

@@ -70,7 +70,7 @@ cover: /assets/image/blog.logrocket.com/modern-api-data-fetching-methods-react/b
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Ibadehin Mojeed](https://blog.logrocket.com/author/ibadehinmojeed/) on 1 March 2024 to update code snippets and content, specifically adding sections about using the Fetch API for POST requests, fetching data using hooks such as `useFetch` and `useEffect`, fetching using the TanStack Query library, and more.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Ibadehin Mojeed](https://blog.logrocket.com/author/ibadehinmojeed/) on 1 March 2024 to update code snippets and content, specifically adding sections about using the Fetch API for POST requests, fetching data using hooks such as `useFetch` and `useEffect`, fetching using the TanStack Query library, and more.
 
 :::
 
@@ -80,7 +80,7 @@ Over the years, how we fetch data into React applications has evolved. For devel
 
 In this guide, we’ll explore the modern React data-fetching methods. We’ll cover what you need to know about each method, edge cases, and benefits so that you can decide the right solution for your project.
 
-You can check out the [project code in this GitHub repo (<FontIcon icon="iconfont icon-github"/>`Ibaslogic/data-fetching-methods`)](https://github.com/Ibaslogic/data-fetching-methods) to see the code examples we’ll explore in this tutorial. You can see [<FontIcon icon="fas fa-globe"/>the live demo here](https://data-fetching-methods.vercel.app/) as well. Let’s get started!
+You can check out the [project code in this GitHub repo (<VPIcon icon="iconfont icon-github"/>`Ibaslogic/data-fetching-methods`)](https://github.com/Ibaslogic/data-fetching-methods) to see the code examples we’ll explore in this tutorial. You can see [<VPIcon icon="fas fa-globe"/>the live demo here](https://data-fetching-methods.vercel.app/) as well. Let’s get started!
 
 ---
 
@@ -150,7 +150,7 @@ fetch(url, {
 })
 ```
 
-As mentioned earlier, we will fetch data from a REST API. We could use any API, but here we will use a free online API [<FontIcon icon="fas fa-globe"/>called JSONPlaceholder](https://jsonplaceholder.typicode.com/posts) to fetch a list of posts into our application; here is a [<FontIcon icon="fas fa-globe"/>list of the resources](https://jsonplaceholder.typicode.com/) we can request.
+As mentioned earlier, we will fetch data from a REST API. We could use any API, but here we will use a free online API [<VPIcon icon="fas fa-globe"/>called JSONPlaceholder](https://jsonplaceholder.typicode.com/posts) to fetch a list of posts into our application; here is a [<VPIcon icon="fas fa-globe"/>list of the resources](https://jsonplaceholder.typicode.com/) we can request.
 
 By applying what we’ve learned so far, a typical `fetch()` request with `fetch()` looks like the following:
 
@@ -478,13 +478,13 @@ Let’s use Axios to fetch post data from our usual endpoint. We’ll start by i
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add axios
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i axios
@@ -614,13 +614,13 @@ To use the library, let’s first install it:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add react-fetch-hook
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i react-fetch-hook
@@ -680,13 +680,13 @@ Like the previous method, TanStack Query provides a custom Hook that we can reus
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add @tanstack/react-query
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i @tanstack/react-query
@@ -694,7 +694,7 @@ npm i @tanstack/react-query
 
 :::
 
-Next, go to the entry point of your app — in a React Vite project, the <FontIcon icon="fa-brands fa-react"/>`main.jsx` file. In that file, we’ll create a query client and provide it to our app:
+Next, go to the entry point of your app — in a React Vite project, the <VPIcon icon="fa-brands fa-react"/>`main.jsx` file. In that file, we’ll create a query client and provide it to our app:
 
 ```jsx title="main.jsx"
 // ...

@@ -1,0 +1,9 @@
+{
+  "name": "@bookshelf/shared",
+  "version": "0.2.0",
+  "private": true,
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}

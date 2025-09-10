@@ -64,7 +64,7 @@ In this article, we'll dive into what OpenTelemetry is, how to use it in your .N
 
 ## OpenTelemetry Introduction
 
-[<FontIcon icon="fas fa-globe"/>OpenTelemetry](https://opentelemetry.io/) (OTel) is a vendor-neutral, open-source standard for instrumenting applications to generate telemetry data.
+[<VPIcon icon="fas fa-globe"/>OpenTelemetry](https://opentelemetry.io/) (OTel) is a vendor-neutral, open-source standard for instrumenting applications to generate telemetry data.
 OpenTelemetry contains APIs, SDKs, tools, and integrations for creating and managing this telemetry data (traces, metrics, and logs).
 
 Telemetry data includes:
@@ -73,13 +73,13 @@ Telemetry data includes:
 - **Metrics**: Numerical measurements of system behavior over time (e.g., request counts, error rates, memory usage).
 - **Logs**: Textual records of events with rich contextual information. Structured logs.
 
-![OpenTelemetry Reference Architecture.<br/>Source: [<FontIcon icon="fas fa-globe"/>https://opentelemetry.io/docs/](https://opentelemetry.io/docs/)](https://milanjovanovic.tech/blogs/mnw_086/otel.png?imwidth=3840)
+![OpenTelemetry Reference Architecture.<br/>Source: [<VPIcon icon="fas fa-globe"/>https://opentelemetry.io/docs/](https://opentelemetry.io/docs/)](https://milanjovanovic.tech/blogs/mnw_086/otel.png?imwidth=3840)
 
 OpenTelemetry provides a unified way to collect this data, making it easier to understand the behavior and health of complex distributed applications.
 
 We can export the telemetry data we are collecting to a service capable of processing it and providing us with an interface to analyze it.
 
-We're going to configure OpenTelemetry to export traces directly to [<FontIcon icon="fas fa-globe"/>Jaeger](https://jaegertracing.io/).
+We're going to configure OpenTelemetry to export traces directly to [<VPIcon icon="fas fa-globe"/>Jaeger](https://jaegertracing.io/).
 
 ---
 
@@ -141,7 +141,7 @@ OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4317
 
 ## Running Jaeger Locally
 
-[<FontIcon icon="fas fa-globe"/>Jaeger](https://jaegertracing.io/) is an open source, distributed tracing platform. Jaeger maps the flow of requests and data as they travel through a distributed system. These requests could be calling out to multiple services, and Jaeger knows how to piece all of this information together.
+[<VPIcon icon="fas fa-globe"/>Jaeger](https://jaegertracing.io/) is an open source, distributed tracing platform. Jaeger maps the flow of requests and data as they travel through a distributed system. These requests could be calling out to multiple services, and Jaeger knows how to piece all of this information together.
 
 Here's how to run Jaeger inside a Docker container:
 

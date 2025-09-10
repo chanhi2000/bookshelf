@@ -86,9 +86,9 @@ Both have trade-offs, but let’s look at those later.
 
 ## Mocking a response with an interceptor
 
-Modern testing frameworks, whether for unit or end-to-end testing, such as [**Jest**](/css-tricks.com/writing-tests-for-react-applications-using-jest-and-enzyme.md#mock-api-calls) or [<FontIcon icon="iconfont icon-playwright"/>Playwright](https://playwright.dev/docs/mock#mock-api-requests), offer built-in mocking capabilities.
+Modern testing frameworks, whether for unit or end-to-end testing, such as [**Jest**](/css-tricks.com/writing-tests-for-react-applications-using-jest-and-enzyme.md#mock-api-calls) or [<VPIcon icon="iconfont icon-playwright"/>Playwright](https://playwright.dev/docs/mock#mock-api-requests), offer built-in mocking capabilities.
 
-However, we don’t necessarily need these, and we can’t use them in the pens anyway. Instead, we can monkey patch the [<FontIcon icon="fa-brands fa-firefox"/>Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to intercept requests and return mock responses. With monkey patching, when changing the original source code isn’t feasible, we can introduce new behavior by overwriting existing functions.
+However, we don’t necessarily need these, and we can’t use them in the pens anyway. Instead, we can monkey patch the [<VPIcon icon="fa-brands fa-firefox"/>Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to intercept requests and return mock responses. With monkey patching, when changing the original source code isn’t feasible, we can introduce new behavior by overwriting existing functions.
 
 Implementing it looks like this:
 
@@ -120,7 +120,7 @@ We override the default `fetch` with our own version that adds custom logic for 
 
 The replacement function, `fetchWPFormsRestApiInterceptor`, acts like an interceptor. An interceptor is simply a pattern that modifies requests or responses based on certain conditions.
 
-Many HTTP libraries, like the once-popular [<FontIcon icon="iconfont icon-axios"/>axios](https://axios-http.com/), offer a convenient API to add [**interceptors**](/css-tricks.com/stay-dry-using-axios-for-api-requests.md#interceptors) without resorting to monkey patching, which should be used sparingly. It’s all too easy to introduce subtle bugs unintentionally or create conflicts when managing multiple overrides.
+Many HTTP libraries, like the once-popular [<VPIcon icon="iconfont icon-axios"/>axios](https://axios-http.com/), offer a convenient API to add [**interceptors**](/css-tricks.com/stay-dry-using-axios-for-api-requests.md#interceptors) without resorting to monkey patching, which should be used sparingly. It’s all too easy to introduce subtle bugs unintentionally or create conflicts when managing multiple overrides.
 
 With the interceptor in place, returning a fake response is as simple as calling the static JSON method of the [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response) object:
 
@@ -192,13 +192,13 @@ Now let’s contrast that with the mocked API server approach.
 
 Running a traditionally hosted mock API server reintroduces concerns around availability, maintenance, and cost. Even though the hype around serverless functions has quieted, we can sidestep these issues by using them.
 
-And with [<FontIcon icon="fa-brands fa-digital-oceans"/>DigitalOcean Functions](https://digitalocean.com/products/functions) offering a generous free tier, creating mocked APIs is practically free and requires no more effort than manually mocking them.
+And with [<VPIcon icon="fa-brands fa-digital-oceans"/>DigitalOcean Functions](https://digitalocean.com/products/functions) offering a generous free tier, creating mocked APIs is practically free and requires no more effort than manually mocking them.
 
 For simple use cases, everything can be done through the Functions control panel, including writing the code in the built-in editor. Check out this concise presentation video to see it in action:
 
-For more complex needs, functions can be [<FontIcon icon="fa-brands fa-digital-oceans"/>developed locally and deployed](https://docs.digitalocean.com/products/functions/how-to/develop-functions/) using `doctl` (DigitalOcean’s CLI).
+For more complex needs, functions can be [<VPIcon icon="fa-brands fa-digital-oceans"/>developed locally and deployed](https://docs.digitalocean.com/products/functions/how-to/develop-functions/) using `doctl` (DigitalOcean’s CLI).
 
-To return the mocked response, it’s easier if we [<FontIcon icon="fa-brands fa-digital-oceans"/>create a separate Function](https://docs.digitalocean.com/products/functions/how-to/create-functions/) for each endpoint, since we can avoid adding unnecessary conditions. Fortunately, we can stick with JavaScript (Node.js), and starting with nearly the same base we used for `contactForm7Response`:
+To return the mocked response, it’s easier if we [<VPIcon icon="fa-brands fa-digital-oceans"/>create a separate Function](https://docs.digitalocean.com/products/functions/how-to/create-functions/) for each endpoint, since we can avoid adding unnecessary conditions. Fortunately, we can stick with JavaScript (Node.js), and starting with nearly the same base we used for `contactForm7Response`:
 
 ```js
 function main(event) {
@@ -208,7 +208,7 @@ function main(event) {
 }
 ```
 
-We must name the handler function `main`, which is invoked when the endpoint is called. The function receives the `event` object as its first argument, containing the [<FontIcon icon="iconfont icon-digitaloceans"/>details of the request](https://docs.digitalocean.com/products/functions/reference/runtimes/node-js/#parameters). Once again, we could return anything, but to return the JSON response we need, it’s enough to simply [<FontIcon icon="iconfont icon-digitaloceans"/>return an object](https://docs.digitalocean.com/products/functions/reference/runtimes/node-js/#returns).
+We must name the handler function `main`, which is invoked when the endpoint is called. The function receives the `event` object as its first argument, containing the [<VPIcon icon="iconfont icon-digitaloceans"/>details of the request](https://docs.digitalocean.com/products/functions/reference/runtimes/node-js/#parameters). Once again, we could return anything, but to return the JSON response we need, it’s enough to simply [<VPIcon icon="iconfont icon-digitaloceans"/>return an object](https://docs.digitalocean.com/products/functions/reference/runtimes/node-js/#returns).
 
 We can reuse the same code for creating the response as-is. The only difference is that we have to extract the form input data from the `event` as `FormData` ourselves:
 
@@ -247,7 +247,7 @@ function main(event) {
 }
 ```
 
-As far as converting the data, serverless functions typically expect JSON inputs, so for other data types an extra parsing step is required. As it happens, the forms in the CodePen demos are submitted as [<FontIcon icon="fa-brands fa-firefox"/>`multipart/form-data`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition#html_posting_multipartform-data_content_type).
+As far as converting the data, serverless functions typically expect JSON inputs, so for other data types an extra parsing step is required. As it happens, the forms in the CodePen demos are submitted as [<VPIcon icon="fa-brands fa-firefox"/>`multipart/form-data`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition#html_posting_multipartform-data_content_type).
 
 Without any libraries, we can convert a `multipart/form-data` string into a `FormData` by taking advantage of the `Response` API’s capabilities:
 
@@ -299,7 +299,7 @@ Ultimately, both approaches help decouple the demos from the third-party API dep
 
 It’s hard to beat the fact that there’s no external dependency with the manual mocking approach, not even on something we somewhat control, and everything is bundled together. In general, without knowing specific details, there are good reasons to favor this approach for small, self-contained demos.
 
-But using a mocked server API also has its advantages. A mocked server API can power not only demos, but also various types of tests. For more complex needs, a dedicated team working on the mocked server might prefer a different programming language than JavaScript, or they might opt to use a tool like [<FontIcon icon="fas fa-globe"/>WireMock](https://wiremock.org/) instead of starting from scratch.
+But using a mocked server API also has its advantages. A mocked server API can power not only demos, but also various types of tests. For more complex needs, a dedicated team working on the mocked server might prefer a different programming language than JavaScript, or they might opt to use a tool like [<VPIcon icon="fas fa-globe"/>WireMock](https://wiremock.org/) instead of starting from scratch.
 
 As with everything, it depends. There are many criteria to consider beyond what I’ve just mentioned.
 

@@ -54,7 +54,7 @@ cover: https://miro.medium.com/v2/resize:fit:1400/format:webp/0*PwVzAjyhIPGIgrT0
 
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*PwVzAjyhIPGIgrT0)
 
-Since[<FontIcon icon="fa-brands fa-android"/>Google announced the Jetpack Compose 1.0 stable release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html), many companies have adopted Jetpack Compose to leverage its numerous advantages. With Compose’s widespread adoption across the Android ecosystem, libraries and SDKs have also begun integrating support for Compose.
+Since[<VPIcon icon="fa-brands fa-android"/>Google announced the Jetpack Compose 1.0 stable release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html), many companies have adopted Jetpack Compose to leverage its numerous advantages. With Compose’s widespread adoption across the Android ecosystem, libraries and SDKs have also begun integrating support for Compose.
 
 Traditionally, in XML-based projects, UI components were delivered as custom views with customizable options via attributes. While this approach made it easy to integrate components into XML layouts, it introduced challenges such as inconsistencies in applying theme styles across multiple components and the misuse of APIs due to exposed methods from the underlying`View`class.
 

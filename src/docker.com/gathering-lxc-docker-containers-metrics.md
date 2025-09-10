@@ -52,7 +52,7 @@ cover: https://docker.com/app/uploads/2013/08/jerome_docker_in_docker_squ.jpg
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2013/08/jerome_docker_in_docker_squ.jpg"/>
 
-Linux Containers rely on control groups which not only track groups of processes, but also expose a lot of metrics about CPU, memory, and block I/O usage. We will see how to access those metrics, and how to obtain network usage metrics as well. This is relevant for “pure” [<FontIcon icon="fas fa-globe"/>LXC containers](http://lxc.sourceforge.net/), as well as for [<FontIcon icon="fa-brands fa-docker"/>Docker](http://docker.io) containers.
+Linux Containers rely on control groups which not only track groups of processes, but also expose a lot of metrics about CPU, memory, and block I/O usage. We will see how to access those metrics, and how to obtain network usage metrics as well. This is relevant for “pure” [<VPIcon icon="fas fa-globe"/>LXC containers](http://lxc.sourceforge.net/), as well as for [<VPIcon icon="fa-brands fa-docker"/>Docker](http://docker.io) containers.
 
 ---
 
@@ -158,7 +158,7 @@ Now that we’ve covered memory metrics, everything else will look very simple i
 
 For each container, you will find a pseudo-file `cpuacct.stat`, containing the CPU usage accumulated by the processes of the container, broken down between `user` and `system` time. If you’re not familiar with the distinction, `user` is the time during which the processes were in direct control of the CPU (i.e. executing process code), and `system` is the time during which the CPU was executing system calls on behalf of those processes.
 
-Those times are expressed in ticks of 1/100th of second. (Actually, they are expressed in “user jiffies”. There are `USER_HZ` *“jiffies”* per second, and on x86 systems, `USER_HZ` is 100. This used to map exactly to the number of scheduler “ticks” per second; but with the advent of higher frequency scheduling, as well as [<FontIcon icon="fas fa-globe"/>tickless kernels](http://lwn.net/Articles/549580/), the number of kernel ticks wasn’t relevant anymore. It stuck around anyway, mainly for legacy and compatibility reasons.)
+Those times are expressed in ticks of 1/100th of second. (Actually, they are expressed in “user jiffies”. There are `USER_HZ` *“jiffies”* per second, and on x86 systems, `USER_HZ` is 100. This used to map exactly to the number of scheduler “ticks” per second; but with the advent of higher frequency scheduling, as well as [<VPIcon icon="fas fa-globe"/>tickless kernels](http://lwn.net/Articles/549580/), the number of kernel ticks wasn’t relevant anymore. It stuck around anyway, mainly for legacy and compatibility reasons.)
 
 ### Block I/O metrics
 
@@ -203,7 +203,7 @@ iptables -nxvL OUTPUT
 
 Counters include packets and bytes. If you want to setup metrics for container traffic like this, you could execute a `for` loop to add two `iptables` rules per container IP address (one in each direction), in the `FORWARD` chain. This will only meter traffic going through the NAT layer; you will also have to add traffic going through the userland proxy.
 
-Then, you will need to check those counters on a regular basis. If you happen to use [<FontIcon icon="fas fa-globe"/>collectd](http://collectd.org/), there is a nice plugin to automate iptables counters collection.
+Then, you will need to check those counters on a regular basis. If you happen to use [<VPIcon icon="fas fa-globe"/>collectd](http://collectd.org/), there is a nice plugin to automate iptables counters collection.
 
 ### Interface-level counters
 
@@ -253,7 +253,7 @@ ln -sf /proc/$PID/ns/net /var/run/netns/$CID
 ip netns exec $CID netstat -i
 ```
 
-The same mechanism is used in [Pipework (<FontIcon icon="iconfont icon-github"/>`jpetazzo/pipework`)](https://github.com/jpetazzo/pipework) to setup network interfaces within containers *from outside* the containers.
+The same mechanism is used in [Pipework (<VPIcon icon="iconfont icon-github"/>`jpetazzo/pipework`)](https://github.com/jpetazzo/pipework) to setup network interfaces within containers *from outside* the containers.
 
 #### Tips for high-performance metric collection
 
@@ -292,15 +292,15 @@ To recap, we covered:
 
 As we have seen, metrics collection is not insanely difficult, but still involves many complicated steps, with special cases like those for the network subsystem. Docker will take care of this, or at least expose hooks to make it more straightforward. It is one of the reasons why we repeat over and over “Docker is not production ready yet”: it’s fine to skip metrics for development, continuous testing, or staging environments, but it’s definitely *not fine* to run production services without metrics!
 
-Last but not least, note that even with all that information, you will still need a storage and graphing system for those metrics. There are many such systems out there. If you want something that you can deploy on your own, you can check e.g. [<FontIcon icon="fas fa-globe"/>collectd](http://collectd.org/) or [<FontIcon icon="fas fa-globe"/>Graphite](http://graphite.wikidot.com/). There are also “-as-a-Service” offerings. Those services will store your metrics and let you query them in various ways, for a given price. Some examples include [<FontIcon icon="fas fa-globe"/>Librato](https://metrics.librato.com/), [<FontIcon icon="fa-brands fa-aws"/>AWS CloudWatch](http://aws.amazon.com/cloudwatch/), [<FontIcon icon="fas fa-globe"/>New Relic Server Monitoring](http://newrelic.com/server-monitoring), and many more.
+Last but not least, note that even with all that information, you will still need a storage and graphing system for those metrics. There are many such systems out there. If you want something that you can deploy on your own, you can check e.g. [<VPIcon icon="fas fa-globe"/>collectd](http://collectd.org/) or [<VPIcon icon="fas fa-globe"/>Graphite](http://graphite.wikidot.com/). There are also “-as-a-Service” offerings. Those services will store your metrics and let you query them in various ways, for a given price. Some examples include [<VPIcon icon="fas fa-globe"/>Librato](https://metrics.librato.com/), [<VPIcon icon="fa-brands fa-aws"/>AWS CloudWatch](http://aws.amazon.com/cloudwatch/), [<VPIcon icon="fas fa-globe"/>New Relic Server Monitoring](http://newrelic.com/server-monitoring), and many more.
 
 ::: info About Jérôme Petazzoni
 
 ![Jérôme Petazzoni](https://docker.com/app/uploads/2013/08/jerome_docker_in_docker_squ.jpg)
 
-Jérôme is a senior engineer at dotCloud, where he rotates between Ops, Support and Evangelist duties and has earned the nickname of “master Yoda”. In a previous life he built and operated large scale Xen hosting back when EC2 was [<FontIcon icon="fa-brands fa-wikipedia-w"/>just the name of a plane](http://en.wikipedia.org/wiki/Cessna_EC-2), supervized the deployment of fiber interconnects through the French subway, built a specialized GIS to visualize fiber infrastructure, specialized in commando deployments of large-scale computer systems in bandwidth-constrained environments such as conference centers, and various other feats of technical wizardry. He cares for the servers powering dotCloud, helps our users feel at home on the platform, and documents the many ways to use dotCloud in articles, tutorials and sample applications. He’s also an avid dotCloud power user who has deployed just about anything on dotCloud - look for one of his many custom services on our Github repository.
+Jérôme is a senior engineer at dotCloud, where he rotates between Ops, Support and Evangelist duties and has earned the nickname of “master Yoda”. In a previous life he built and operated large scale Xen hosting back when EC2 was [<VPIcon icon="fa-brands fa-wikipedia-w"/>just the name of a plane](http://en.wikipedia.org/wiki/Cessna_EC-2), supervized the deployment of fiber interconnects through the French subway, built a specialized GIS to visualize fiber infrastructure, specialized in commando deployments of large-scale computer systems in bandwidth-constrained environments such as conference centers, and various other feats of technical wizardry. He cares for the servers powering dotCloud, helps our users feel at home on the platform, and documents the many ways to use dotCloud in articles, tutorials and sample applications. He’s also an avid dotCloud power user who has deployed just about anything on dotCloud - look for one of his many custom services on our Github repository.
 
-*Connect with Jérôme on Twitter! [<FontIcon icon="fa-brands fa-x-twitter"/>`@jpetazzo`](https://x.com/jpetazzo)*
+*Connect with Jérôme on Twitter! [<VPIcon icon="fa-brands fa-x-twitter"/>`@jpetazzo`](https://x.com/jpetazzo)*
 
 :::
 

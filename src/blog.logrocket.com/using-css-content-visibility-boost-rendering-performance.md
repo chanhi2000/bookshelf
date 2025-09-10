@@ -54,7 +54,7 @@ cover: /assets/image/blog.logrocket.com/using-css-content-visibility-boost-rende
 
 ![Using CSS Content-Visibility To Boost Your Rendering Performance](/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/banner.png)
 
-The `content-visibility` property is part of the [<FontIcon icon="fas fa-globe"/>CSS Containment Specification](https://drafts.csswg.org/css-contain/), whose objective is to improve performance.
+The `content-visibility` property is part of the [<VPIcon icon="fas fa-globe"/>CSS Containment Specification](https://drafts.csswg.org/css-contain/), whose objective is to improve performance.
 
 In this article, we will dive into the benefits and practical use cases of the `content-visibility` CSS property, as well as situations where it might not be the most suitable option. But first, we’ll lay the groundwork with an exploration of the fundamentals of rendering.
 
@@ -68,7 +68,7 @@ Rendering is the process of transforming the code of a webpage into pixels that 
 
 When you enter a URL in the address bar of a browser and fire off a request for a webpage, a series of events are kicked off. There are some technical background processes, but the main event is to download the resources that make up the webpage, such as the HTML file, font files, and CSS files.
 
-The part of the process that relates most to our discussion of rendering performance is what happens after the HTML file has been loaded in the browser. Google refers to this process as the [<FontIcon icon="iconfont icon-webdev"/>rendering pixel pipeline](https://web.dev/rendering-performance/). The areas involved are:
+The part of the process that relates most to our discussion of rendering performance is what happens after the HTML file has been loaded in the browser. Google refers to this process as the [<VPIcon icon="iconfont icon-webdev"/>rendering pixel pipeline](https://web.dev/rendering-performance/). The areas involved are:
 
 1. **JavaScript**: JavaScript can be used to do things that result in visual changes, such as adding DOM elements to the page
 2. **Style**: This is the process of deciding which CSS rules apply to which elements. Once rules are known, they are applied and the final styles for each element are calculated
@@ -84,13 +84,13 @@ Google has color-coded and categorized the areas as follows:
 - **Rendering** — purple covering the Style and Layout areas
 - **Painting** — green covering the Paint and Composite areas
 
-![Pixel Pipeline<br/>Image credit: [<FontIcon icon="iconfont icon-webdev"/>Web.dev under CC BY 4.0 license](https://web.dev/articles/rendering-performance)](/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/pixel-pipeline.jpeg)
+![Pixel Pipeline<br/>Image credit: [<VPIcon icon="iconfont icon-webdev"/>Web.dev under CC BY 4.0 license](https://web.dev/articles/rendering-performance)](/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/pixel-pipeline.jpeg)
 
 This facet of categorization is significant because this is how they are visually represented in the **Performance** tab of Chrome’s DevTools. You can see the matching color encoding in the summary pane below:
 
 ![DevTools Performance Tab](/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/devtools-performance-tab.jpeg)
 
-DevTools can be used to tell us if we have realized performance gains. We can compare recorded sessions of a page’s performance before and after changes have been made. If you are unsure how to profile performance, you can consult [<FontIcon icon="fa-brands fa-chrome"/>the docs on analyzing runtime performance](https://developer.chrome.com/docs/devtools/performance/).
+DevTools can be used to tell us if we have realized performance gains. We can compare recorded sessions of a page’s performance before and after changes have been made. If you are unsure how to profile performance, you can consult [<VPIcon icon="fa-brands fa-chrome"/>the docs on analyzing runtime performance](https://developer.chrome.com/docs/devtools/performance/).
 
 If you read articles from Google on `content-visibility`, you might find that the term “rendering” is used in different contexts. Some tutorials may be talking about the rendering of a webpage, or the category that you see in Chrome’s DevTools that includes the style and layout areas.
 
@@ -100,14 +100,14 @@ Overloading the term like this can be a source of confusion. In this tutorial, w
 
 ## What is CSS Containment?
 
-The goal of the [<FontIcon icon="fas fa-globe"/>CSS Containment Specification](https://drafts.csswg.org/css-contain/) is to improve the performance of webpages by allowing the browser to isolate a portion of the page (DOM subtree) from the rest of the page. Containment enables much more powerful optimizations by browsers because it limits how widely a given change can affect a document.
+The goal of the [<VPIcon icon="fas fa-globe"/>CSS Containment Specification](https://drafts.csswg.org/css-contain/) is to improve the performance of webpages by allowing the browser to isolate a portion of the page (DOM subtree) from the rest of the page. Containment enables much more powerful optimizations by browsers because it limits how widely a given change can affect a document.
 
 The reason that developers have to intervene is that the browser can’t accurately guess by itself if parts of a page are independent. The specification defines the `contain` and `content-visibility` properties to give developers the capability to identify isolated parts of the page.
 
 There are four types of containment:
 
 - **Size**: Size containment on an element ensures that the element’s box can be laid out without needing to examine its descendant to determine its size. For example, if an element has `width: 100px` and `aspect-ratio: 1/1` and `overflow: hidden`, its descendants will not influence its size, so we don’t need to examine them
-- **Layout**: The element [<FontIcon icon="iconfont icon-w3c"/>has an independent formatting context](https://w3.org/TR/css-display-3/#establish-an-independent-formatting-context). This allows us to potentially skip the layout of the descendants if all we want to do is lay out other boxes
+- **Layout**: The element [<VPIcon icon="iconfont icon-w3c"/>has an independent formatting context](https://w3.org/TR/css-display-3/#establish-an-independent-formatting-context). This allows us to potentially skip the layout of the descendants if all we want to do is lay out other boxes
 - **Style**: Style containment ensures that properties do not affect elements outside of the container. Counters are an example of properties that can do this. The style of the `counter-increment`, `counter-set` , and `content` properties must be scoped to the container. This allows us to potentially skip style computation for the descendants if all we need is to compute styles on other elements
 - **Paint**: Paint containment ensures that the descendants of the containing box don’t display outside its bounds. This allows us to potentially skip painting the descendants if the element is outside of the viewport.
 
@@ -129,13 +129,13 @@ Additionally, the `content-visibility` property may introduce scrollbar jumping 
 
 From my exploration, you can incur a performance penalty by applying `content-visibility` to a section that is relevant to the user (on-screen, focused, or selected), similar to lazy loading with the `loading` attribute in HTML.
 
-As a result, you may need to tweak styles to ensure the browser considers something off-screen. The [<FontIcon icon="fas fa-globe"/>CSS Containment Spec](https://drafts.csswg.org/css-contain/#:~:text=overflow%20clip%20edge%20intersects) says that an element is onscreen if the “[<FontIcon icon="iconfont icon-w3c"/>overflow clip edge](https://w3.org/TR/css-overflow-3/#overflow-clip-edge) intersects with the viewport, or a browser-defined margin around the viewport.”
+As a result, you may need to tweak styles to ensure the browser considers something off-screen. The [<VPIcon icon="fas fa-globe"/>CSS Containment Spec](https://drafts.csswg.org/css-contain/#:~:text=overflow%20clip%20edge%20intersects) says that an element is onscreen if the “[<VPIcon icon="iconfont icon-w3c"/>overflow clip edge](https://w3.org/TR/css-overflow-3/#overflow-clip-edge) intersects with the viewport, or a browser-defined margin around the viewport.”
 
 It is not clear what the value of the browser-defined margin is — there is a possibility that something may be off-screen to the user, but the browser considers it on-screen because of this fine, unknown margin! However, this is literally an edge case.
 
-One of the features of `content-visibility: auto` is that off-screen content is available in the DOM and the accessibility tree. The flip side of this is that [<FontIcon icon="iconfont icon-w3c"/>landmark](https://w3.org/TR/wai-aria-1.1/#landmark_roles) elements with style features such as `display: none` or `visibility: hidden` will also appear in the accessibility tree when off-screen because the browser won’t render these styles until they enter the viewport. To prevent these from being visible in the accessibility tree as you may expect, you will need to manually add `aria-hidden="true"`.
+One of the features of `content-visibility: auto` is that off-screen content is available in the DOM and the accessibility tree. The flip side of this is that [<VPIcon icon="iconfont icon-w3c"/>landmark](https://w3.org/TR/wai-aria-1.1/#landmark_roles) elements with style features such as `display: none` or `visibility: hidden` will also appear in the accessibility tree when off-screen because the browser won’t render these styles until they enter the viewport. To prevent these from being visible in the accessibility tree as you may expect, you will need to manually add `aria-hidden="true"`.
 
-It is good to keep in mind that CSS Containment is a new concept and people are unlikely to know how to use it. In the [<FontIcon icon="fas fa-globe"/>State of CSS 2023 survey](https://2023.stateofcss.com/en-US/features/#reading_list) reading list, it was the third most featured item. We can deduce from this that there is awareness of the property, but people haven’t gotten around to learning it yet!
+It is good to keep in mind that CSS Containment is a new concept and people are unlikely to know how to use it. In the [<VPIcon icon="fas fa-globe"/>State of CSS 2023 survey](https://2023.stateofcss.com/en-US/features/#reading_list) reading list, it was the third most featured item. We can deduce from this that there is awareness of the property, but people haven’t gotten around to learning it yet!
 
 During the maintenance of a codebase in a team, people can alter the HTML of a page unaware that their change has affected containment conditions, which undoes the performance gains accrued from using `content-visibility`. After all, it is a new concept, so it won’t always be front of mind for people to check.
 
@@ -143,7 +143,7 @@ During the maintenance of a codebase in a team, people can alter the HTML of a p
 
 ## When to consider `content-visibility` in a project
 
-Performance is a tricky topic because it often involves tradeoffs. It is becoming more common to set a [<FontIcon icon="fa-brands fa-firefox"/>performance budget](https://developer.mozilla.org/en-US/docs/Web/Performance/Performance_budgets) to be explicit about the decisions you have made and the rationale you followed. Ideally, you will be confident that you’ll achieve your performance goals before you build something, but none of us have a crystal ball!
+Performance is a tricky topic because it often involves tradeoffs. It is becoming more common to set a [<VPIcon icon="fa-brands fa-firefox"/>performance budget](https://developer.mozilla.org/en-US/docs/Web/Performance/Performance_budgets) to be explicit about the decisions you have made and the rationale you followed. Ideally, you will be confident that you’ll achieve your performance goals before you build something, but none of us have a crystal ball!
 
 As you build something for the web, you may find that you are falling below your desired performance thresholds. Is this the time to reach for `content-visibility`? Or should you be using it as a common practice and factor the savings in beforehand?
 
@@ -167,11 +167,11 @@ The `content-visibility` property accepts one of three values:
 - `auto`: The element turns on layout containment, style containment, and paint containment. If the element is not relevant to the user, it also skips its contents. The skipped contents are accessible to the browser
 - `hidden`: The element skips its contents. The skipped contents are not accessible to browser-affected elements and are not available to browser features such as find-in-page, and tab order navigation
 
-You may need to use the [<FontIcon icon="fa-brands fa-firefox"/>`contain-intrinsic-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-size) property alongside `content-visibility` to realize performance gains associated with size containment.
+You may need to use the [<VPIcon icon="fa-brands fa-firefox"/>`contain-intrinsic-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-size) property alongside `content-visibility` to realize performance gains associated with size containment.
 
 ### Specifying the size of an element with `contain-intrinsic-size`
 
-To realize the potential benefits of `content-visibility`, the browser needs to apply size containment. Size containment allows the browser to lay out an element as though it has a fixed size, preventing unnecessary [<FontIcon icon="fa-brands fa-firefox"/>reflows](https://developer.mozilla.org/en-US/docs/Glossary/Reflow) by avoiding the re-rendering of child elements to determine the actual size.
+To realize the potential benefits of `content-visibility`, the browser needs to apply size containment. Size containment allows the browser to lay out an element as though it has a fixed size, preventing unnecessary [<VPIcon icon="fa-brands fa-firefox"/>reflows](https://developer.mozilla.org/en-US/docs/Glossary/Reflow) by avoiding the re-rendering of child elements to determine the actual size.
 
 By default, size containment treats elements as though they have no content, and may collapse the layout in the same way as if the contents had no width or height. This means that the element will lay out as if it were empty. The `contain-intrinsic-size` property allows developers to specify an appropriate value to be used as the size for layout.
 
@@ -210,7 +210,7 @@ I want to explore how the `content-visibility` property can be applied to differ
 1. Something that is always hidden — the website’s main navigation menu, in this case
 2. The major sections that are off-screen when the page is loaded
 
-The example is a landing page for the artist [<FontIcon icon="fa-brands fa-wikipedia-w"/>Angèle](https://en.wikipedia.org/wiki/Ang%C3%A8le_(singer)), coded by [Rafaela Lucas (<FontIcon icon="fa-brands fa-codepen"/>`rafaelavlucas`)](https://codepen.io/rafaelavlucas/pen/BaBVWyL). It is of typical size with five major sections (hero, tour dates, videos, album, follow):
+The example is a landing page for the artist [<VPIcon icon="fa-brands fa-wikipedia-w"/>Angèle](https://en.wikipedia.org/wiki/Ang%C3%A8le_(singer)), coded by [Rafaela Lucas (<VPIcon icon="fa-brands fa-codepen"/>`rafaelavlucas`)](https://codepen.io/rafaelavlucas/pen/BaBVWyL). It is of typical size with five major sections (hero, tour dates, videos, album, follow):
 
 <CodePen
   user="rafaelavlucas"
@@ -225,7 +225,7 @@ I will audit the desktop performance for these scenarios to understand the outco
 
 <VidStack src="/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/audit-perf.mp4" />
 
-You can find the code for this example in this [GitHub repo (<FontIcon icon="iconfont icon-github"/>`robole/content-visibility-css-property-exploration`)](https://github.com/robole/content-visibility-css-property-exploration), where I also explored scenarios and examples not discussed here.
+You can find the code for this example in this [GitHub repo (<VPIcon icon="iconfont icon-github"/>`robole/content-visibility-css-property-exploration`)](https://github.com/robole/content-visibility-css-property-exploration), where I also explored scenarios and examples not discussed here.
 
 ### Use case A: Applying `content-visibility` to a hidden section
 
@@ -295,9 +295,9 @@ When I added `contain-intrinsic-size`, the performance also improved significant
 
 ## Is `content-visibility` ready for general usage?
 
-At the time of writing, the `content-visibility` property is [<FontIcon icon="fas fa-globe"/>only available](https://caniuse.com/?search=content-visibility) in Chrome, Edge, and Opera.
+At the time of writing, the `content-visibility` property is [<VPIcon icon="fas fa-globe"/>only available](https://caniuse.com/?search=content-visibility) in Chrome, Edge, and Opera.
 
-It is in Firefox behind a flag. The CSS Containment Specification is slated to be adopted by all major browsers as a focus area of [<FontIcon icon="iconfont icon-webdev"/>Interop 2023](https://web.dev/interop-2023/).
+It is in Firefox behind a flag. The CSS Containment Specification is slated to be adopted by all major browsers as a focus area of [<VPIcon icon="iconfont icon-webdev"/>Interop 2023](https://web.dev/interop-2023/).
 
 There are cases where you can treat usage as a progressive enhancement. I could not find a polyfill, so you may have to skip it if this is essential for you.
 

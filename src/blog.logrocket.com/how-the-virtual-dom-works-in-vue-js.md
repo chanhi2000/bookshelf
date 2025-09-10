@@ -157,7 +157,7 @@ You might not have noticed, but any time you run a Vue.js command for a new proj
 vue create hello-world
 ```
 
-You see that by default you are already using the Vue’s virtual DOM; you can confirm that when you go to your <FontIcon icon="fa-brands fa-js"/>`main.js` file. It should look somewhat similar to this code block below:
+You see that by default you are already using the Vue’s virtual DOM; you can confirm that when you go to your <VPIcon icon="fa-brands fa-js"/>`main.js` file. It should look somewhat similar to this code block below:
 
 ```js title="main.js"
 import Vue from 'vue'
@@ -169,7 +169,7 @@ new Vue({
 });
 ```
 
-You can see that the element here is any element with the ID of `App`, which is usually the `App` component in the <FontIcon icon="iconfont icon-vuejs"/>`App.vue` file. Inside any component, you can specifically target an element of your choice by using the `el` option, and it becomes mounted to the HTML DOM.
+You can see that the element here is any element with the ID of `App`, which is usually the `App` component in the <VPIcon icon="iconfont icon-vuejs"/>`App.vue` file. Inside any component, you can specifically target an element of your choice by using the `el` option, and it becomes mounted to the HTML DOM.
 
 ---
 

@@ -100,7 +100,7 @@ Why Protocol-Oriented Programming?
 
 ## Hatching the Egg
 
-Begin by opening Xcode and then creating a new playground named <FontIcon icon="fa-brands fa-swift"/>`SwiftProtocols.playground`. Then add this code to it:
+Begin by opening Xcode and then creating a new playground named <VPIcon icon="fa-brands fa-swift"/>`SwiftProtocols.playground`. Then add this code to it:
 
 ```swift
 protocol Bird {
@@ -545,7 +545,7 @@ Here, you've created a `SwiftBird` that is mutable, and you boosted its velocity
 
 ## Where to Go From Here?
 
-Use the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial to download the completed playground.
+Use the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial to download the completed playground.
 
 At this point, you've tested the power of protocol-oriented programming by creating simple protocols and expanding them with protocol extensions. With default implementations, you can give existing protocols common and automatic behavior. This is like a base class only better, since they can apply to `struct` and `enum` types too.
 

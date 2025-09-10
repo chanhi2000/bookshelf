@@ -97,7 +97,7 @@ The kubelet is a binary that connects to the control plane and keeps the node's 
 
 For example, when the Kubernetes scheduler assigns a pod to a particular node, it doesn't send a message to the kubelet.
 
-Instead, [<FontIcon icon="iconfont icon-k8s"/>it writes a Binding object and stores it in etcd.](https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/#scheduling-cycle-binding-cycle)
+Instead, [<VPIcon icon="iconfont icon-k8s"/>it writes a Binding object and stores it in etcd.](https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/#scheduling-cycle-binding-cycle)
 
 The kubelet checks the state of the cluster on a regular schedule, and as soon as it notices a new pod assigned to its node, it proceeds to download the pod specification and create it.
 
@@ -138,7 +138,7 @@ Finally, the eviction threshold is usually 100MB.
 
 *What's the eviction threshold?*
 
-[<FontIcon icon="iconfont icon-k8s"/>It's a threshold for memory usage](https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/) — if the node crosses that threshold, the kubelet starts evicting pods because there isn't enough memory in the current node.
+[<VPIcon icon="iconfont icon-k8s"/>It's a threshold for memory usage](https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/) — if the node crosses that threshold, the kubelet starts evicting pods because there isn't enough memory in the current node.
 
 *Let's have a look at an example.*
 
@@ -340,7 +340,7 @@ You can scale applications deployed on Kubernetes [**using a combination of a ho
 
 *Assuming you have a cluster at total capacity, how does the node size impact your autoscaling?*
 
-First, you should know that [the Cluster Autoscaler doesn't look at the memory or CPU available (<FontIcon icon="iconfont icon-github"/>`kubernetes/autoscaler`)](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#should-i-use-a-cpu-usage-based-node-autoscaler-with-kubernetes) when it triggers the autoscaling.
+First, you should know that [the Cluster Autoscaler doesn't look at the memory or CPU available (<VPIcon icon="iconfont icon-github"/>`kubernetes/autoscaler`)](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#should-i-use-a-cpu-usage-based-node-autoscaler-with-kubernetes) when it triggers the autoscaling.
 
 In other words, a cluster being utilised in total does not trigger the Cluster Autoscaler.
 
@@ -452,7 +452,7 @@ Let's have a look at how this affects scaling with two clusters:
 
 Let's deploy 13 replicas of an app with 0.3 vCPU and 2GB of memory.
 
-The app uses a container image [<FontIcon icon="fa-brands fa-docker"/>based on OpenJDK](https://hub.docker.com/_/openjdk) and weighs 1GB (the base image alone is 775MB).
+The app uses a container image [<VPIcon icon="fa-brands fa-docker"/>based on OpenJDK](https://hub.docker.com/_/openjdk) and weighs 1GB (the base image alone is 775MB).
 
 What happens to the two clusters?
 
@@ -505,11 +505,11 @@ When you provision larger nodes, the image is likely cached on the node, and the
 
 Not necessarily.
 
-You could mitigate nodes downloading the same container image with [a container registry proxy (<FontIcon icon="iconfont icon-github"/>`rpardini/docker-registry-proxy`)](https://github.com/rpardini/docker-registry-proxy).
+You could mitigate nodes downloading the same container image with [a container registry proxy (<VPIcon icon="iconfont icon-github"/>`rpardini/docker-registry-proxy`)](https://github.com/rpardini/docker-registry-proxy).
 
 In this case, the image is still downloaded but from a local registry in the current network.
 
-Or you could warm up the cache for the nodes with tools such as [<FontIcon icon="iconfont icon-github"/>`XenitAB/spegel`](https://github.com/XenitAB/spegel).
+Or you could warm up the cache for the nodes with tools such as [<VPIcon icon="iconfont icon-github"/>`XenitAB/spegel`](https://github.com/XenitAB/spegel).
 
 With Spegel, nodes are peers who can advertise and share container image layers.
 
@@ -539,7 +539,7 @@ But the Kubelet doesn't just query for info.
 
 It also reports information back to the master.
 
-For example, [<FontIcon icon="iconfont icon-k8s"/>the `kubelet` reports the node's status to the cluster every ten seconds.](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/#:~:text=%2D%2Dnode%2Dstatus%2Dupdate%2Dfrequency)
+For example, [<VPIcon icon="iconfont icon-k8s"/>the `kubelet` reports the node's status to the cluster every ten seconds.](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/#:~:text=%2D%2Dnode%2Dstatus%2Dupdate%2Dfrequency)
 
 Also, the `kubelet` informs the control plane when a readiness probe fails (and the pod endpoint should be removed from the service).
 
@@ -547,7 +547,7 @@ And the `kubelet` keeps the control plane up to date with container metrics.
 
 In other words, several requests in both directions (i.e. from and to the control plane) are made by the `kubelet` to the control plane to keep the node functioning correctly.
 
-In Kubernetes 1.26 and earlier, [<FontIcon icon="iconfont icon-k8s"/>the `kubelet` could issue up to 5 requests per second for this (this has been relaxed with Kubernetes >1.27).](https://kubernetes.io/blog/2023/05/15/speed-up-pod-startup/#raised-default-api-query-per-second-limits-for-kubelet)
+In Kubernetes 1.26 and earlier, [<VPIcon icon="iconfont icon-k8s"/>the `kubelet` could issue up to 5 requests per second for this (this has been relaxed with Kubernetes >1.27).](https://kubernetes.io/blog/2023/05/15/speed-up-pod-startup/#raised-default-api-query-per-second-limits-for-kubelet)
 
 *So, assuming your kubelet is running at full capacity (i.e. 5rps), what happens when you run several smaller nodes versus a single large node?*
 
@@ -574,9 +574,9 @@ And in turn, that usually means running a control plane on a larger instance or 
 
 *Is there a limit on the number of nodes a Kubernetes cluster can have?*
 
-[<FontIcon icon="iconfont icon-k8s"/>Kubernetes is designed to support up to 5000 nodes.](https://kubernetes.io/docs/setup/best-practices/cluster-large/)
+[<VPIcon icon="iconfont icon-k8s"/>Kubernetes is designed to support up to 5000 nodes.](https://kubernetes.io/docs/setup/best-practices/cluster-large/)
 
-However, this is not a hard constraint, as the team at Google demonstrated by allowing you to [<FontIcon icon="iconfont icon-gcp"/>run GKE clusters with 15,000 nodes.](https://cloud.google.com/blog/products/containers-kubernetes/google-kubernetes-engine-clusters-can-have-up-to-15000-nodes)
+However, this is not a hard constraint, as the team at Google demonstrated by allowing you to [<VPIcon icon="iconfont icon-gcp"/>run GKE clusters with 15,000 nodes.](https://cloud.google.com/blog/products/containers-kubernetes/google-kubernetes-engine-clusters-can-have-up-to-15000-nodes)
 
 For most use cases, 5000 nodes is already a large number and might not be a factor that could steer your decision towards larger or smaller nodes.
 
@@ -586,7 +586,7 @@ Instead, the max number of pods that you can run in a node could drive you to re
 
 Most cloud providers let you run between 110 and 250 pods per node.
 
-If you provision a cluster yourself, [<FontIcon icon="iconfont icon-k8s"/>the default from is 110.](https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/#:~:text=Default%3A%20%22promiscuous%2Dbridge%22-,maxPods,-int32)
+If you provision a cluster yourself, [<VPIcon icon="iconfont icon-k8s"/>the default from is 110.](https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/#:~:text=Default%3A%20%22promiscuous%2Dbridge%22-,maxPods,-int32)
 
 In most cases, this number is not a limitation of the kubelet but the cloud provider's proneness to the risk of double booking IP addresses.
 
@@ -857,7 +857,7 @@ This might allow you to trade off the pros and cons of both approaches.
 
 While you might find the answer through trial and error, we've also built a tool to help you with the process.
 
-[<FontIcon icon="fas fa-globe"/>The Kubernetes instance calculator](https://learnk8s.io/kubernetes-instance-calculator/) lets you explore the best instance type for a given workload.
+[<VPIcon icon="fas fa-globe"/>The Kubernetes instance calculator](https://learnk8s.io/kubernetes-instance-calculator/) lets you explore the best instance type for a given workload.
 
 Make sure you give it a try.
 

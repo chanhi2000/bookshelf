@@ -80,7 +80,7 @@ The default value is `auto`, meaning the browser sets a cursor based on the cont
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Saleh Mubashar](https://blog.logrocket.com/author/salehmubashar/) in March 2025 to provide more comprehensive coverage of cursor references, include a full reference guide for all `cursor` values, and provide more targeted advice on building custom cursors.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Saleh Mubashar](https://blog.logrocket.com/author/salehmubashar/) in March 2025 to provide more comprehensive coverage of cursor references, include a full reference guide for all `cursor` values, and provide more targeted advice on building custom cursors.
 
 :::
 
@@ -124,7 +124,7 @@ Before we get into custom cursors, let’s have a look at all the available curs
 
 Hover over the boxes below to see the cursors in action:
 
-Check out [<FontIcon icon="fa-brands fa-firefox"/>the complete list of CSS cursors here.](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor#values)
+Check out [<VPIcon icon="fa-brands fa-firefox"/>the complete list of CSS cursors here.](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor#values)
 
 While these cursors are useful and have some basic styling, we can certainly get more creative with custom cursors.
 
@@ -175,7 +175,7 @@ A few tips to keep in mind while creating custom cursors include:
 
 ### Changing a mouse cursor to a pointer
 
-Say you have a table and you’d like the mouse cursor to change to a pointer (i.e., the [<FontIcon icon="fas fa-globe"/>hand icon](https://blog.logrocket.com/ux-design/principles-icon-design/)) whenever a user hovers over a row in the table. You can use the CSS `cursor` property to achieve this.
+Say you have a table and you’d like the mouse cursor to change to a pointer (i.e., the [<VPIcon icon="fas fa-globe"/>hand icon](https://blog.logrocket.com/ux-design/principles-icon-design/)) whenever a user hovers over a row in the table. You can use the CSS `cursor` property to achieve this.
 
 Here’s an example:
 
@@ -365,7 +365,7 @@ Here’s how it works:
 
 Custom cursors can make a website feel unique, but they can also be annoying or distracting if overused. Many people find them frustrating, especially if they make navigation harder. A cursor should help users, not get in their way.
 
-Before adding a custom cursor, ask yourself if it actually improves the experience or if it’s just for looks. Also, keep in mind that not all browsers support fancy cursor effects, especially older ones. Here’s the browser compatibility data for the `cursor` property from [<FontIcon icon="fas fa-globe"/>CanIUse](https://caniuse.bitsofco.de/):
+Before adding a custom cursor, ask yourself if it actually improves the experience or if it’s just for looks. Also, keep in mind that not all browsers support fancy cursor effects, especially older ones. Here’s the browser compatibility data for the `cursor` property from [<VPIcon icon="fas fa-globe"/>CanIUse](https://caniuse.bitsofco.de/):
 
 ![css cursor property browser compatibility](/assets/image/blog.logrocket.com/cursor-css-property/css-cursor-property-browser-compatibility.png)
 
@@ -394,7 +394,7 @@ If you must use a custom cursor, make sure to:
 
 - **Ensure compatibility with screen readers** — Custom cursors can interfere with assistive technologies, so add `aria-hidden="true"` to the cursor elements to prevent them from being picked up
 
-At the end of the day, a cursor should enhance usability, not get in the way. If there’s any chance a custom cursor could make a website harder to use, it’s best to avoid it altogether. I would also suggest reading [<FontIcon icon="fas fa-globe"/>this excellent article](https://ericwbailey.design/published/dont-use-custom-css-mouse-cursors/) by Eric Bailey on the drawbacks of custom cursors. He makes a bunch of really good points.
+At the end of the day, a cursor should enhance usability, not get in the way. If there’s any chance a custom cursor could make a website harder to use, it’s best to avoid it altogether. I would also suggest reading [<VPIcon icon="fas fa-globe"/>this excellent article](https://ericwbailey.design/published/dont-use-custom-css-mouse-cursors/) by Eric Bailey on the drawbacks of custom cursors. He makes a bunch of really good points.
 
 ---
 

@@ -56,13 +56,13 @@ cover: /assets/image/blog.logrocket.com/build-react-reusable-components-faster-a
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/build-react-reusable-components-faster-aspect/banner.png"/>
 
-[<FontIcon icon="fas fa-globe"/>Aspect](https://aspect.app) is a new development tool that allows you to create React components virtually in your browser. It eliminates the stress of creating and setting up a React project for applications.
+[<VPIcon icon="fas fa-globe"/>Aspect](https://aspect.app) is a new development tool that allows you to create React components virtually in your browser. It eliminates the stress of creating and setting up a React project for applications.
 
 ![Colorful Aspect Symbols](/assets/image/blog.logrocket.com/build-react-reusable-components-faster-aspect/banner.png)
 
 Aspect saves on development time by providing a dashboard with HTML drag-and-drop functionality that greatly simplifies the process of creating React components. Aspect also syncs your designs to your codebase and provides an option to export them as a zip file.
 
-Lots of additional, cool features are promised in a [future version (<FontIcon icon="fa-brands fa-x-twitter"/>`aspectdotapp`)](https://x.com/aspectdotapp), like support for libraries such as MaterialUI and Tailwind CSS, as well as Sketch and AdobeXD.
+Lots of additional, cool features are promised in a [future version (<VPIcon icon="fa-brands fa-x-twitter"/>`aspectdotapp`)](https://x.com/aspectdotapp), like support for libraries such as MaterialUI and Tailwind CSS, as well as Sketch and AdobeXD.
 
 In this tutorial, we’ll demonstrate how to use Aspect to build a reusable component faster. We’ll build the simple product page shown below:
 
@@ -72,19 +72,19 @@ In this tutorial, we’ll demonstrate how to use Aspect to build a reusable comp
 
 ## Getting started
 
-To get started with Aspect, [<FontIcon icon="fas fa-globe"/>sign up here](https://aspect.app/signup).
+To get started with Aspect, [<VPIcon icon="fas fa-globe"/>sign up here](https://aspect.app/signup).
 
 Then, install the Aspect CLI globally using the following command:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add @metacode-inc/aspect -g    
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i @metacode-inc/aspect -g    

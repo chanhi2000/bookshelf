@@ -145,7 +145,7 @@ builder.Services.AddRateLimiter(options =>
 
 Rate limiting by **IP address** can be a good layer of security for **unauthenticated users**. You don't know who is accessing your system and can't apply more granular rate limiting. This can help protect your system from malicious users trying to perform a DDoS attack.
 
-You can also [<FontIcon icon="fa-brands fa-microsoft"/>**create chained limiters**](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-7.0#create-chained-limiters) using the `CreateChained` API. It allows you to pass in multiple `PartitionedRateLimiter`, which are combined into one `PartitionedRateLimiter`. The chained limiter runs all the input limiters in sequence (one by one).
+You can also [<VPIcon icon="fa-brands fa-microsoft"/>**create chained limiters**](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-7.0#create-chained-limiters) using the `CreateChained` API. It allows you to pass in multiple `PartitionedRateLimiter`, which are combined into one `PartitionedRateLimiter`. The chained limiter runs all the input limiters in sequence (one by one).
 
 If your application is running behind a **reverse proxy**, you need to make sure not to rate limit the proxy IP address. Reverse proxies usually **forward** the original IP address with the `X-Forwarded-For` header. So you can use it as the **partition key**:
 
@@ -215,7 +215,7 @@ To implement rate limiting on the reverse proxy with **YARP** you need to:
 }
 ```
 
-The built-in rate limiter middleware uses an **in-memory** store to track the number of requests. If you want to run your reverse proxy in a high-availability setup, you will need to use a **distributed cache**. A nice option to look into is using a [**Redis backplane for rate limiting.** (<FontIcon icon="iconfont icon-github"/>`cristipufu/aspnetcore-redis-rate-limiting`)](https://github.com/cristipufu/aspnetcore-redis-rate-limiting)
+The built-in rate limiter middleware uses an **in-memory** store to track the number of requests. If you want to run your reverse proxy in a high-availability setup, you will need to use a **distributed cache**. A nice option to look into is using a [**Redis backplane for rate limiting.** (<VPIcon icon="iconfont icon-github"/>`cristipufu/aspnetcore-redis-rate-limiting`)](https://github.com/cristipufu/aspnetcore-redis-rate-limiting)
 
 ---
 

@@ -70,7 +70,7 @@ In this article, we'll understand MediatR's notification publishing mechanics. W
 
 ## The Notification Publisher
 
-[<FontIcon icon="iconfont icon-github"/>`jbogard/MediatR`](https://github.com/jbogard/MediatR) provides two built-in implementations of its `INotificationPublisher` interface. They each have distinct characteristics but share one crucial trait: they block the publishing thread until the handlers complete.
+[<VPIcon icon="iconfont icon-github"/>`jbogard/MediatR`](https://github.com/jbogard/MediatR) provides two built-in implementations of its `INotificationPublisher` interface. They each have distinct characteristics but share one crucial trait: they block the publishing thread until the handlers complete.
 
 Here's the `INotificationPublisher` interface:
 
@@ -131,7 +131,7 @@ While this publisher executes handlers concurrently, it's crucial to understand 
 
 ## Proving the Point with OpenTelemetry
 
-To demonstrate the blocking nature of both publishers, let's set up a simple example with [<FontIcon icon="fas fa-globe"/>OpenTelemetry](https://opentelemetry.io/) tracing:
+To demonstrate the blocking nature of both publishers, let's set up a simple example with [<VPIcon icon="fas fa-globe"/>OpenTelemetry](https://opentelemetry.io/) tracing:
 
 ```cs{9-11} :collapsed-lines
 var builder = WebApplication.CreateBuilder(args);
@@ -333,13 +333,13 @@ But is it worth it?
 Here's what you should consider first before adopting this approach:
 
 - The `ChannelPublisher` introduces additional complexity compared to the built-in publishers
-- Error handling is your responsibility (e.g., retrying failed handlers, [<FontIcon icon="fa-brands fa-wikipedia-w"/>dead-letter queue](https://en.wikipedia.org/wiki/Dead_letter_queue))
+- Error handling is your responsibility (e.g., retrying failed handlers, [<VPIcon icon="fa-brands fa-wikipedia-w"/>dead-letter queue](https://en.wikipedia.org/wiki/Dead_letter_queue))
 - And did I mention [**idempotent consumers**](/milanjovanovic.tech/idempotent-consumer-handling-duplicate-messages)? Yeah... you need those too
 - [**Channels**](/milanjovanovic.tech/lightweight-in-memory-message-bus-using-dotnet-channels) aren't durable - messages are lost if the application crashes
 
 Before you know it, you might find yourself reinventing the wheel with a custom message queueing system.
 
-Instead, consider using a real message broker like [<FontIcon icon="iconfont icon-rabbitmq"/>RabbitMQ](https://rabbitmq.com/). Combine it with a library like [<FontIcon icon="fas fa-globe"/>MassTransit](https://masstransit.io) or [<FontIcon icon="fas fa-globe"/>NServiceBus](https://particular.net/nservicebus) for a robust, scalable, and reliable messaging solution.
+Instead, consider using a real message broker like [<VPIcon icon="iconfont icon-rabbitmq"/>RabbitMQ](https://rabbitmq.com/). Combine it with a library like [<VPIcon icon="fas fa-globe"/>MassTransit](https://masstransit.io) or [<VPIcon icon="fas fa-globe"/>NServiceBus](https://particular.net/nservicebus) for a robust, scalable, and reliable messaging solution.
 
 ---
 

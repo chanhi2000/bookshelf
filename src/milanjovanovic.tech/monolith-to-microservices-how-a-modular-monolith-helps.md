@@ -74,15 +74,15 @@ Let's dive in!
 
 The first step in moving from a monolith to microservices is identifying the bounded contexts. Because they represent cohesive parts of the domain that are candidates for extraction.
 
-One solution is to identify [<FontIcon icon="fas fa-globe"/>bounded contexts](https://martinfowler.com/bliki/BoundedContext.html) using the domain-driven design strategic modeling.
+One solution is to identify [<VPIcon icon="fas fa-globe"/>bounded contexts](https://martinfowler.com/bliki/BoundedContext.html) using the domain-driven design strategic modeling.
 
-Bounded contexts define the explicit boundaries between modules and separate the responsibilities. This is one of the biggest challenges when migrating to microservices. [<FontIcon icon="fa-brands fa-microsoft"/>Identifying good boundaries](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) between modules ensures microservices are narrowly focused on one problem domain.
+Bounded contexts define the explicit boundaries between modules and separate the responsibilities. This is one of the biggest challenges when migrating to microservices. [<VPIcon icon="fa-brands fa-microsoft"/>Identifying good boundaries](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis) between modules ensures microservices are narrowly focused on one problem domain.
 
-Defining boundaries is also easier in a monolith because you aren't working with a distributed system. [<FontIcon icon="iconfont icon-gcp"/>Refactoring bad boundaries](https://cloud.google.com/architecture/microservices-architecture-refactoring-monoliths) is less risky, and you have more freedom to "get it right".
+Defining boundaries is also easier in a monolith because you aren't working with a distributed system. [<VPIcon icon="iconfont icon-gcp"/>Refactoring bad boundaries](https://cloud.google.com/architecture/microservices-architecture-refactoring-monoliths) is less risky, and you have more freedom to "get it right".
 
 ![Bounded contexts.](https://milanjovanovic.tech/blogs/mnw_056/bounded_contexts.png?imwidth=2048)
 
-And the size of the bounded context shouldn't worry you. Instead, focus on [<FontIcon icon="fas fa-globe"/>service boundaries](https://go.particular.net/right-sized-services).
+And the size of the bounded context shouldn't worry you. Instead, focus on [<VPIcon icon="fas fa-globe"/>service boundaries](https://go.particular.net/right-sized-services).
 
 The next problem you need to solve is coupling. Coupling is manifested in two ways:
 
@@ -124,7 +124,7 @@ My preferred approach is asynchronous communication using messaging. It's loosel
 
 To implement asynchronous communication between modules, you can introduce a message broker. But you don't need to introduce a full-blown message broker from the start.
 
-You can implement messaging between modules using an abstraction like [<FontIcon icon="fas fa-globe"/>MassTransit](https://masstransit.io) while abstracting away the transport mechanism.
+You can implement messaging between modules using an abstraction like [<VPIcon icon="fas fa-globe"/>MassTransit](https://masstransit.io) while abstracting away the transport mechanism.
 
 MassTransit has an in-memory transport that works well inside a single process. It's very fast. But it isn't durable, and you can lose messages if the bus is stopped.
 
@@ -144,13 +144,13 @@ We decided to move from a monolith system to microservices. Since we built our s
 
 You should introduce a [reverse proxy](/milanjovanovic.tech/implementing-an-api-gateway-for-microservices-with-yarp.md) in front of your services to route incoming traffic. This will hide the implementation details of the microservices system from client applications.
 
-The new microservice needs to connect to the message bus, but we don't need to change anything in our code. Using messaging for communication between modules simplifies the migration process. This might remind you of [<FontIcon icon="fas fa-globe"/>event-driven architecture](https://go.particular.net/break-that-big-ball-of-mud).
+The new microservice needs to connect to the message bus, but we don't need to change anything in our code. Using messaging for communication between modules simplifies the migration process. This might remind you of [<VPIcon icon="fas fa-globe"/>event-driven architecture](https://go.particular.net/break-that-big-ball-of-mud).
 
 If you implement inter-module communication using method calls, you must replace that implementation with HTTP calls over the network. Because you're now building a distributed system, and the previous implementation using method calls will not work. You also need to consider authentication, fault tolerance...
 
 ![Microservices with extracting modules.](https://milanjovanovic.tech/blogs/mnw_056/extracting_modules.png?imwidth=2048)
 
-Extracting modules from the monolith system leads to replacing all the functionalities of the old system with new microservices. This process of migrating to microservices follows the [<FontIcon icon="fa-brands fa-microsoft"/>strangler fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig).
+Extracting modules from the monolith system leads to replacing all the functionalities of the old system with new microservices. This process of migrating to microservices follows the [<VPIcon icon="fa-brands fa-microsoft"/>strangler fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig).
 
 ---
 

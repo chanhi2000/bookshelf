@@ -76,7 +76,7 @@ In this article, we are going to talk more about Generic List and Dictionary in 
 
 If you want to see complete navigation of this tutorial, you can do that here [**C# Intermediate Tutorial**](/code-maze.com/csharp-intermediate-tutorial-oop.md).
 
-To download the source code, you can visit [the Generic List and Dictionary in C# Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/csharp-intermediate-module`)](https://github.com/CodeMazeBlog/csharp-intermediate-module/tree/list-dictionary).
+To download the source code, you can visit [the Generic List and Dictionary in C# Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/csharp-intermediate-module`)](https://github.com/CodeMazeBlog/csharp-intermediate-module/tree/list-dictionary).
 
 ---
 

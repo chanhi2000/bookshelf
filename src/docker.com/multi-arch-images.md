@@ -54,7 +54,7 @@ cover: https://docker.com/app/uploads/engineering/2019/04/docker_desktop_easy_in
 
 ::: note
 
-Cross-posted on [Medium (<FontIcon icon="fa-brands fa-medium"/>`@adam.parco`)](https://medium.com/@adam.parco/building-multi-arch-images-for-arm-and-x86-with-docker-desktop-864445865352)
+Cross-posted on [Medium (<VPIcon icon="fa-brands fa-medium"/>`@adam.parco`)](https://medium.com/@adam.parco/building-multi-arch-images-for-arm-and-x86-with-docker-desktop-864445865352)
 
 <SiteInfo
   name="Building Multi-Arch Images for Arm and x86 with Docker Desktop"
@@ -65,7 +65,7 @@ Cross-posted on [Medium (<FontIcon icon="fa-brands fa-medium"/>`@adam.parco`)](h
 
 :::
 
-On Wednesday April 24th, [<FontIcon icon="fa-brands fa-docker"/>Docker announced a partnership with Arm](https://dockr.ly/2VYOOWd) to help accelerate adoption of containers into the massive Arm ecosystem.  Today at DockerCon San Francisco 2019, Docker is releasing a tech preview of improved multi-architecture builds within Docker Desktop.
+On Wednesday April 24th, [<VPIcon icon="fa-brands fa-docker"/>Docker announced a partnership with Arm](https://dockr.ly/2VYOOWd) to help accelerate adoption of containers into the massive Arm ecosystem.  Today at DockerCon San Francisco 2019, Docker is releasing a tech preview of improved multi-architecture builds within Docker Desktop.
 
 Docker Desktop is the de facto standard when it comes to developing containerized applications.  This tech preview will open the rich Arm ecosystem to the millions of developers already using and developing in Docker Desktop.  Not only will this simplify the development of container images for deployment on Amazon EC2 A1 Arm-based instances in the cloud, but it will help pave the way forward to the one trillion Arm based Edge & IoT devices around the world!  Let’s dig into why we are doing this, how it all works, and how you can get started.
 
@@ -83,9 +83,9 @@ In November 2018 Amazon announced EC2 A1 instances powered by AWS Graviton Proce
 
 ![](https://docker.com/app/uploads/engineering/2019/04/Screen-Shot-2019-04-26-at-7.25.34-PM.png)
 
-Docker Desktop is available for macOS and Windows.  It bundles and configures many things for users that make developing containers extremely easy.  Docker Desktop ships with hypervisors for the host OS.  The hypervisor is responsible for running a lightweight Linux kernel ([<FontIcon icon="iconfont icon-github"/>`linuxkit/linuxkit`](https://github.com/linuxkit/linuxkit)), which is included as part of Docker Desktop.  This fast and lightweight container OS comes packaged with the QEMU emulator, and comes pre-configured with [<FontIcon icon="fa-brands fa-linux"/>`binfmt_misc`](https://lwn.net/Articles/630727/) to run binaries of any supported architecture.  Arm is committed to supporting [Docker’s QEMU fork (<FontIcon icon="iconfont icon-github"/>`moby/qemu`)](https://github.com/moby/qemu) and will be helping to maintain this project.  All patches will be upstreamed, but Docker Desktop will contain the latest emulation support.  In the diagram above you can see QEMU emulation for the arm/v6, arm/v7 and arm64 Docker images.
+Docker Desktop is available for macOS and Windows.  It bundles and configures many things for users that make developing containers extremely easy.  Docker Desktop ships with hypervisors for the host OS.  The hypervisor is responsible for running a lightweight Linux kernel ([<VPIcon icon="iconfont icon-github"/>`linuxkit/linuxkit`](https://github.com/linuxkit/linuxkit)), which is included as part of Docker Desktop.  This fast and lightweight container OS comes packaged with the QEMU emulator, and comes pre-configured with [<VPIcon icon="fa-brands fa-linux"/>`binfmt_misc`](https://lwn.net/Articles/630727/) to run binaries of any supported architecture.  Arm is committed to supporting [Docker’s QEMU fork (<VPIcon icon="iconfont icon-github"/>`moby/qemu`)](https://github.com/moby/qemu) and will be helping to maintain this project.  All patches will be upstreamed, but Docker Desktop will contain the latest emulation support.  In the diagram above you can see QEMU emulation for the arm/v6, arm/v7 and arm64 Docker images.
 
-Docker Desktop Edge release comes with a new CLI command called [<FontIcon icon="iconfont icon-github"/>`docker/buildx`](https://github.com/docker/buildx/).  Buildx allows you to locally (and soon remotely) build multi-arch images, link them together with a manifest file, and push them all to a registry – with a single command.  With the included emulation, you can transparently build more than just native images!  Buildx accomplishes this by adding new builder instances based on [<FontIcon icon="iconfont icon-github"/>`moby/buildkit`](https://github.com/moby/buildkit), and leveraging Docker Desktops technology stack to run non-native binaries.
+Docker Desktop Edge release comes with a new CLI command called [<VPIcon icon="iconfont icon-github"/>`docker/buildx`](https://github.com/docker/buildx/).  Buildx allows you to locally (and soon remotely) build multi-arch images, link them together with a manifest file, and push them all to a registry – with a single command.  With the included emulation, you can transparently build more than just native images!  Buildx accomplishes this by adding new builder instances based on [<VPIcon icon="iconfont icon-github"/>`moby/buildkit`](https://github.com/moby/buildkit), and leveraging Docker Desktops technology stack to run non-native binaries.
 
 So why buildx?  Let’s first start with the name.  The x stands for experimental.  In the future, when these new build features are stable and made generally available, we will drop the x and integrate these features directly into the existing docker build command.  Note that as buildx is experimental, features and flags are subject to change.
 
@@ -93,7 +93,7 @@ So why buildx?  Let’s first start with the name.  The x stands for experimenta
 
 ## Getting started
 
-If you don’t already have [<FontIcon icon="fa-brands fa-docker"/>Docker Desktop, start by downloading it](https://docker.com/products/docker-desktop).  Install it by following the installation instructions.  Once installed, or if you already have Docker Desktop, you should see the Docker icon in your task tray, click preferences, and simply switch to the edge release.
+If you don’t already have [<VPIcon icon="fa-brands fa-docker"/>Docker Desktop, start by downloading it](https://docker.com/products/docker-desktop).  Install it by following the installation instructions.  Once installed, or if you already have Docker Desktop, you should see the Docker icon in your task tray, click preferences, and simply switch to the edge release.
 
 ![](https://docker.com/app/uploads/engineering/2019/04/Screen-Shot-2019-04-27-at-10.23.49-AM.png)
 
@@ -236,7 +236,7 @@ There you have it, simple to use Docker commands to build and run multi-architec
 
 ## Amazon EC2 A1 Credits
 
-For a limited time, sign up at [<FontIcon icon="fa-brands fa-docker"/>`beta.docker.com`](http://beta.docker.com) to receive **free** credits for Amazon EC2 A1 instances to start testing and deploying your Arm images today!
+For a limited time, sign up at [<VPIcon icon="fa-brands fa-docker"/>`beta.docker.com`](http://beta.docker.com) to receive **free** credits for Amazon EC2 A1 instances to start testing and deploying your Arm images today!
 
 ::: info Reference
 

@@ -127,7 +127,7 @@ For the complete navigation and all the basic instructions of the Angular Materi
 
 ::: info
 
-The source code is available at GitHub [Angular Material Error and Details Pages - Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/error-details-pages)
+The source code is available at GitHub [Angular Material Error and Details Pages - Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/error-details-pages)
 
 <SiteInfo
   name="CodeMazeBlog/angular-material-series"

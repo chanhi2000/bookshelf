@@ -5,6 +5,10 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "what-you-need-to-know-about-modern-css-2025-edition", // 2025-09-19
+    "css-offset-and-animation-composition-for-rotating-menus", // 2025-09-17
+    "choosing-the-right-model-in-cursor", // 2025-09-09
+    "getting-started-with-cursor", // 2025-09-08
     "advanced-postgresql-indexing", // 2025-09-03
     "intro-to-postgres-indexes", // 2025-09-01
     "the-path-of-least-resistance-part-2", // 2025-08-30
@@ -417,6 +421,9 @@ export const template: SidebarInfoTemplate = {
       "opening-a-details-element-from-the-url", // 2025-08-26
       "the-path-of-least-resistance-part-1", // 2025-08-27
       "the-path-of-least-resistance-part-2", // 2025-08-30
+      
+      "css-offset-and-animation-composition-for-rotating-menus", // 2025-09-17
+      "what-you-need-to-know-about-modern-css-2025-edition", // 2025-09-19
       // END: 2025css
       // END: css
     ]],[
@@ -489,6 +496,13 @@ export const template: SidebarInfoTemplate = {
       "figma-typography-variables", // 2024-08-05
       // END: 2024figma
       // END: figma
+    ]],[
+    "cursor", [
+      // END: 2024cursor
+      "getting-started-with-cursor", // 2025-09-08
+      "choosing-the-right-model-in-cursor", // 2025-09-09
+      // END: 2025cursor
+      // END: cursor
     ]],[
     "data-science", [
       "what-is-sql-database-definition-for-beginners", // 2023-01-13

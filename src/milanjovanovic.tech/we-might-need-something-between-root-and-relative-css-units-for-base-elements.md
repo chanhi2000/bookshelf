@@ -61,13 +61,13 @@ I’ve come to realize that perhaps we need to have a unit between root and rela
 
 ## Let me give you an example: Prose
 
-Earlier this year, [<FontIcon icon="fas fa-globe"/>Jen Simmons](https://jensimmons.com) wrote about [<FontIcon icon="iconfont icon-webkit"/>the using the `lh` unit](https://webkit.org/blog/16831/line-height-units/) to style `margin` and `padding` for better [<FontIcon icon="fas fa-globe"/>typographical vertical rhythm](https://zellwk.com/blog/why-vertical-rhythms/).
+Earlier this year, [<VPIcon icon="fas fa-globe"/>Jen Simmons](https://jensimmons.com) wrote about [<VPIcon icon="iconfont icon-webkit"/>the using the `lh` unit](https://webkit.org/blog/16831/line-height-units/) to style `margin` and `padding` for better [<VPIcon icon="fas fa-globe"/>typographical vertical rhythm](https://zellwk.com/blog/why-vertical-rhythms/).
 
 ```css
 p { margin-block: 1lh; } 
 ```
 
-We can expand the concept a little further to include all other spaces around the text. One way of doing this is the [<FontIcon icon="fas fa-globe"/>“Lobotomized Owl” technique](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/) that [<FontIcon icon="fas fa-globe"/>Heydon Pickering](https://heydonworks.com) popularized a while ago.
+We can expand the concept a little further to include all other spaces around the text. One way of doing this is the [<VPIcon icon="fas fa-globe"/>“Lobotomized Owl” technique](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/) that [<VPIcon icon="fas fa-globe"/>Heydon Pickering](https://heydonworks.com) popularized a while ago.
 
 ```css
 * + * {
@@ -99,7 +99,7 @@ CodePen Embed Fallback
 https://codepen.io/zellwk/pen/dPoByEY
 Problem with lh
 
-One way around this issue is to use [<FontIcon icon="iconfont icon-css-tricks"/>Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) on the parent element. By doing so, we can set `gap` to `1lh` and we don’t have to deal with the value of `1lh` changing on the `h2` element. (Bonus, we also don’t have to deal with margin [***collapse***](/css-tricks.com/what-you-should-know-about-collapsing-margins.md).)
+One way around this issue is to use [<VPIcon icon="iconfont icon-css-tricks"/>Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) on the parent element. By doing so, we can set `gap` to `1lh` and we don’t have to deal with the value of `1lh` changing on the `h2` element. (Bonus, we also don’t have to deal with margin [***collapse***](/css-tricks.com/what-you-should-know-about-collapsing-margins.md).)
 
 ```css
 .prose {
@@ -572,7 +572,7 @@ Let’s first put together the necessary utilities and functions to make this ha
 }
 ```
 
-Now here’s the `.card` code to achieve the functionality in Tailwind we were talking about. [<FontIcon icon="iconfont icon-tailwindcss"/>You can see it at work here](https://play.tailwindcss.com/jBfW6lrdMv?file=css).
+Now here’s the `.card` code to achieve the functionality in Tailwind we were talking about. [<VPIcon icon="iconfont icon-tailwindcss"/>You can see it at work here](https://play.tailwindcss.com/jBfW6lrdMv?file=css).
 
 ```css :collapsed-lines
 /* What we can actually use today */
@@ -621,7 +621,7 @@ It’s still not as pretty as the `bem` and `blh` versions I’ve shown you abov
 
 ## Using this with Splendid Labz today
 
-[<FontIcon icon="fas fa-globe"/>Splendid Styles](https://splendidlabz.com/solutions/styles/) — the branch of [<FontIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/) that handles design and styles — contains the code you can use today.
+[<VPIcon icon="fas fa-globe"/>Splendid Styles](https://splendidlabz.com/solutions/styles/) — the branch of [<VPIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/) that handles design and styles — contains the code you can use today.
 
 We also included the `--bem` and `--blh` versions if you wanna play with them as well.
 
@@ -637,7 +637,7 @@ npm i @splendidlabz/styles
 
 That’s it!
 
-Now, if you’re interested in all of the tools I’m been cooking up to make web development simpler, you can grab an early bird discount for [<FontIcon icon="fas fa-globe"/>the Splendid Pro package](https://splendidlabz.com/solutions/pro/?ref=css-tricks) today — this is available to all CSS-Tricks readers!
+Now, if you’re interested in all of the tools I’m been cooking up to make web development simpler, you can grab an early bird discount for [<VPIcon icon="fas fa-globe"/>the Splendid Pro package](https://splendidlabz.com/solutions/pro/?ref=css-tricks) today — this is available to all CSS-Tricks readers!
 
 (I might add a lifetime option to the Styles package as it evolves to sufficiently. But it might be a year or so before that happens.)
 

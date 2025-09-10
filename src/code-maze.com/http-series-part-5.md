@@ -58,7 +58,7 @@ If you followed along with the [**HTTP series**](/code-maze.com/http-series.md),
 
 Many companies have been a victim of security breaches. To name just a few prominent ones: Dropbox, Linkedin, MySpace, Adobe, Sony, Forbes, and many others were on the receiving end of malicious attacks. Many accounts were compromised and the chances are, at least one of those was yours 🙂
 
-You can actually check that on [<FontIcon icon="fas fa-globe"/>Have I Been Pwned.](https://haveibeenpwned.com)
+You can actually check that on [<VPIcon icon="fas fa-globe"/>Have I Been Pwned.](https://haveibeenpwned.com)
 
 My email address was found on 4 different websites that were victims of a security breach.
 
@@ -92,7 +92,7 @@ Let’s move on.
 
 ### HTTPS as a Ranking Signal
 
-Not that recently, [<FontIcon icon="fa-brands fa-google"/>Google made HTTPS a ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html).
+Not that recently, [<VPIcon icon="fa-brands fa-google"/>Google made HTTPS a ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html).
 
 What does that mean?
 
@@ -104,17 +104,17 @@ By doing this, Google gives incentives to webmasters to move to HTTPS as soon as
 
 To enable HTTPS (SSL/TLS) for a website you need a certificate issued by a Certificate Authority. Until recently, certificates were costly and had to be renewed every year.
 
-Thanks to the folks at [<FontIcon icon="fas fa-globe"/>Let’s encrypt](https://letsencrypt.org/) you can get very affordable certificates now (**$0!**). Seriously, they are completely free.
+Thanks to the folks at [<VPIcon icon="fas fa-globe"/>Let’s encrypt](https://letsencrypt.org/) you can get very affordable certificates now (**$0!**). Seriously, they are completely free.
 
 Let’s Encrypt certificates that are easily installed, have major companies support, and a great community of people. Take a look at the Major sponsors and see for yourself the list of companies that support them. You might recognize a few 🙂
 
 Let’s encrypt issues DV (domain validation) certificates only and have no plan of issuing organizational (OV) or extended validation (EV) certificates. The certificate lasts for 90 days and is easily renewed.
 
-Like any other great technology, it has a downside too. Since certificates are easily available now, they are [<FontIcon icon="fas fa-globe"/>being abused by Phishing websites](https://bleepingcomputer.com/news/security/14-766-lets-encrypt-ssl-certificates-issued-to-paypal-phishing-sites/).
+Like any other great technology, it has a downside too. Since certificates are easily available now, they are [<VPIcon icon="fas fa-globe"/>being abused by Phishing websites](https://bleepingcomputer.com/news/security/14-766-lets-encrypt-ssl-certificates-issued-to-paypal-phishing-sites/).
 
 ### It’s All About the Speed
 
-Many people associate HTTPS with additional speed overhead. Take a quick look at the [<FontIcon icon="fas fa-globe"/>httpvshttps.com](http://httpvshttps.com).
+Many people associate HTTPS with additional speed overhead. Take a quick look at the [<VPIcon icon="fas fa-globe"/>httpvshttps.com](http://httpvshttps.com).
 
 Here are my results for the HTTP and HTTPS:
 
@@ -131,7 +131,7 @@ The HTTP 2.0 is the successor of the currently prevalent HTTP/1.1. It has many a
 - It’s binary, instead of textual
 - It’s fully multiplexed, which means it can send multiple requests in parallel over a single TCP connection
 - Reduces overhead by using HPACK compression
-- It uses the new [<FontIcon icon="fas fa-globe"/>ALPN](https://keycdn.com/support/alpn/) extension which allows for faster-encrypted connections
+- It uses the new [<VPIcon icon="fas fa-globe"/>ALPN](https://keycdn.com/support/alpn/) extension which allows for faster-encrypted connections
 - It reduces additional round trip times (RTT), making your website load faster
 - Many others
 
@@ -175,11 +175,11 @@ Let’s start with that.
 
 Terms SSL (Secure Socket Layer) and TLS (Transport Layer Security) are used interchangeably, but in fact, today, **when someone mentions SSL they probably mean TLS**.
 
-SSL was originally developed by Netscape but version 1.0 never saw the light of the day. Version 2.0 was introduced in 1995 and version 3.0 in 1996, and they were used for a long time after that (at least what is considered long in IT), even though their successor TLS already started taking traction. Up until 2014. fallback from TLS to SSL was supported by servers, and that was the main reason the [<FontIcon icon="fa-brands fa-wikipedia-w"/>POODLE attack](https://en.wikipedia.org/wiki/POODLE) was so successful.
+SSL was originally developed by Netscape but version 1.0 never saw the light of the day. Version 2.0 was introduced in 1995 and version 3.0 in 1996, and they were used for a long time after that (at least what is considered long in IT), even though their successor TLS already started taking traction. Up until 2014. fallback from TLS to SSL was supported by servers, and that was the main reason the [<VPIcon icon="fa-brands fa-wikipedia-w"/>POODLE attack](https://en.wikipedia.org/wiki/POODLE) was so successful.
 
 After that, **the fallback to SSL was completely disabled**.
 
-If you check yours or any other website with [<FontIcon icon="fas fa-globe"/>Qualys SSL Labs tool](https://ssllabs.com/ssltest/), you will probably see something like this:
+If you check yours or any other website with [<VPIcon icon="fas fa-globe"/>Qualys SSL Labs tool](https://ssllabs.com/ssltest/), you will probably see something like this:
 
 ![ssl test security](/assets/image/code-maze.com/http-series-part-5/www.code-maze.com-Powered-by-Qualys-SSL-Labs.png)
 
@@ -205,7 +205,7 @@ The actual mechanism is much complicated than this, but to implement the HTTPS, 
 
 What you need to know is that there is an initial handshake between the client and the server, in which they exchange keys and certificates. After that handshake, encrypted communication is ready to start.
 
-If you want to know exactly how TLS Handshake works, you can look it up in the [<FontIcon icon="fas fa-globe"/>RFC 2246](https://ietf.org/rfc/rfc2246.txt).
+If you want to know exactly how TLS Handshake works, you can look it up in the [<VPIcon icon="fas fa-globe"/>RFC 2246](https://ietf.org/rfc/rfc2246.txt).
 
 In the TLS handshake image, certificates are being sent, so let’s see what a certificate represents and how it’s being issued.
 

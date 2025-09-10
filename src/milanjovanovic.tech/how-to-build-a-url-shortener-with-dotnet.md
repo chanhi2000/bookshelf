@@ -52,7 +52,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_074.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_074.png"/>
 
-A **URL shortener** is a simple yet powerful tool that converts long URLs into more manageable, shorter versions. This is particularly useful for sharing links on platforms with character limits or improving user experience by reducing clutter. Two popular URL shorteners are [<FontIcon icon="fas fa-globe"/>Bitly](https://bitly.com/) and [<FontIcon icon="fas fa-globe"/>TinyURL](https://tinyurl.com/app). Designing a URL shortener is an interesting challenge with fun problems to solve.
+A **URL shortener** is a simple yet powerful tool that converts long URLs into more manageable, shorter versions. This is particularly useful for sharing links on platforms with character limits or improving user experience by reducing clutter. Two popular URL shorteners are [<VPIcon icon="fas fa-globe"/>Bitly](https://bitly.com/) and [<VPIcon icon="fas fa-globe"/>TinyURL](https://tinyurl.com/app). Designing a URL shortener is an interesting challenge with fun problems to solve.
 
 But how would you build a URL shortener in .NET?
 
@@ -67,7 +67,7 @@ Today, I'll guide you through the design, implementation, and considerations for
 
 ## URL Shortener System Design
 
-Here's the high-level system design for our URL shortener. We want to expose two endpoints. One to shorten a long URL and the other to redirect users based on a shortened URL. The shortened URLs are stored in a [<FontIcon icon="iconfont icon-postgresql"/>PostgreSQL](https://postgresql.org/) database in this example. We can introduce a distributed cache like [<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) to the system to improve read performance.
+Here's the high-level system design for our URL shortener. We want to expose two endpoints. One to shorten a long URL and the other to redirect users based on a shortened URL. The shortened URLs are stored in a [<VPIcon icon="iconfont icon-postgresql"/>PostgreSQL](https://postgresql.org/) database in this example. We can introduce a distributed cache like [<VPIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) to the system to improve read performance.
 
 ![URL shortener system design. It contains two API endpoints, a PostgreSQL database, and a Redis cache.](https://milanjovanovic.tech/blogs/mnw_074/url_shortener.png?imwidth=3840)
 
@@ -269,7 +269,7 @@ app.MapGet("{code}", async (string code, ApplicationDbContext dbContext) =>
 });
 ```
 
-This endpoint looks up the code in the database and, if found, redirects the user to the original long URL. The response will have a [<FontIcon icon="fas fa-globe"/>302 (Found) status code](https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.3) per the HTTP standards.
+This endpoint looks up the code in the database and, if found, redirects the user to the original long URL. The response will have a [<VPIcon icon="fas fa-globe"/>302 (Found) status code](https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.3) per the HTTP standards.
 
 ---
 
@@ -286,7 +286,7 @@ While our basic URL shortener is functional, there are several areas we can impr
 We've covered the key components of building a URL shortener using .NET.
 You can take this further and implement the improvements points for a more robust solution.
 
-If you want to see me build this from scratch, here's a [<FontIcon icon="fa-brands fa-youtube"/>video tutorial on YouTube](https://youtu.be/2UoA_PoEvuA).
+If you want to see me build this from scratch, here's a [<VPIcon icon="fa-brands fa-youtube"/>video tutorial on YouTube](https://youtu.be/2UoA_PoEvuA).
 
 That's all for today.
 

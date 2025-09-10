@@ -123,7 +123,7 @@ const App = () => {
 export default App;
 ```
 
-Below is a live working demonstration of our final output. You can view it in a different tab using [<FontIcon icon="iconfont icon-stackblitz"/>this link](https://stackblitz.com/edit/vitejs-vite-qhqmg5?file=src%2FApp.jsx). Alternatively, you can also [find all of the code on GitHub (<FontIcon icon="iconfont icon-github"/>`c99rahul/react-toast`)](https://github.com/c99rahul/react-toast):
+Below is a live working demonstration of our final output. You can view it in a different tab using [<VPIcon icon="iconfont icon-stackblitz"/>this link](https://stackblitz.com/edit/vitejs-vite-qhqmg5?file=src%2FApp.jsx). Alternatively, you can also [find all of the code on GitHub (<VPIcon icon="iconfont icon-github"/>`c99rahul/react-toast`)](https://github.com/c99rahul/react-toast):
 
 <!-- TODO: stackblitz or sandplayground -->
 <!-- > #### [vitejs-vite-qhqmg5 - StackBlitz](https://stackblitz.com/edit/vitejs-vite-qhqmg5?embed=1&file=src%2FApp.jsx) -->

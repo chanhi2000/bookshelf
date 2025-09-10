@@ -600,7 +600,7 @@ This has been a long read, but trust me when I say I have tried to make this as 
 
 For additional reading, check out our posts on [**JavaScript scroll-snap events**](/blog.logrocket.com/javascript-scroll-snap-events-scroll-triggered-animations.md) and creating [**custom `<select>` dropdown with CSS**](/blog.logrocket.com/creating-custom-select-dropdown-css.md).
 
-A big thank you for hanging on this far; here is the [codepen for this article (<FontIcon icon="fa-brands fa-codepen"/>`Emmanuel-Odioko`)](https://codepen.io/Emmanuel-Odioko/pen/ogvJxNR). Keep coding!
+A big thank you for hanging on this far; here is the [codepen for this article (<VPIcon icon="fa-brands fa-codepen"/>`Emmanuel-Odioko`)](https://codepen.io/Emmanuel-Odioko/pen/ogvJxNR). Keep coding!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

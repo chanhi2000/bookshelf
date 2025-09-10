@@ -71,7 +71,7 @@ Often the first way new developers learn to apply colors with CSS is using the p
 }
 ```
 
-There’s a fair amount of predefined words you can use. If you’re interested in seeing them, you can check out [<FontIcon icon="fa-brands fa-firefox"/>this section on the MDN page on color.](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#color_keywords)
+There’s a fair amount of predefined words you can use. If you’re interested in seeing them, you can check out [<VPIcon icon="fa-brands fa-firefox"/>this section on the MDN page on color.](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#color_keywords)
 
 ### HEX values
 
@@ -148,7 +148,7 @@ Let’s now take a look at defining colors in HSL with its three main parameters
 
 Note that if you set the lightness to `0`, regardless of the other parameters, you get black, and if you set it to `100%`, you get white.
 
-[<FontIcon icon="fas fa-globe"/>Below is a diagram](https://researchgate.net/publication/335024102/figure/fig2/AS:789313210036225@1565198342617/a-Color-wheel-of-hue-b-The-HSL-model-Creative-Commons.ppm) that shows the HSL color space and how you can manipulate it using the three parameters outlined above.
+[<VPIcon icon="fas fa-globe"/>Below is a diagram](https://researchgate.net/publication/335024102/figure/fig2/AS:789313210036225@1565198342617/a-Color-wheel-of-hue-b-The-HSL-model-Creative-Commons.ppm) that shows the HSL color space and how you can manipulate it using the three parameters outlined above.
 
 ![HSL Diagram Showing A 2D and 3D Color Wheel](/assets/image/blog.logrocket.com/advanced-guide-setting-colors-css/hsl-diagram.jpeg)
 
@@ -185,7 +185,7 @@ rgb(166 0 0 / 0.7); /* 70% opacity */
 rgb(4 108 219 / 0.3); /* 30% opacity */
 ```
 
-The keen-eyed among you may also notice something different about the above syntax: that’s right, no commas. Thanks to [<FontIcon icon="iconfont icon-w3c"/>CSS Color Module Level 4](https://w3.org/TR/css-color-4), you can now use spaces to separate values and pass an optional fourth parameter preceded with a `/` to control the alpha channel.
+The keen-eyed among you may also notice something different about the above syntax: that’s right, no commas. Thanks to [<VPIcon icon="iconfont icon-w3c"/>CSS Color Module Level 4](https://w3.org/TR/css-color-4), you can now use spaces to separate values and pass an optional fourth parameter preceded with a `/` to control the alpha channel.
 
 ---
 
@@ -199,7 +199,7 @@ These are currently considered experimental because of their limited browser sup
 
 Hue, whiteness, and blackness (HWB) is similar to HSL. The `hue` parameter can be set anywhere from `0` to `360deg`, but, unlike HSL, we can control the saturation and the lightness by controlling the amount of white or black added into the original hue we selected.
 
-Try mixing HWB colors through the CodePen below. Note that HWB can only be seen in the [<FontIcon icon="fas fa-globe"/>Safari browser](https://caniuse.com/?search=hwb) or the Firefox Developer browser:
+Try mixing HWB colors through the CodePen below. Note that HWB can only be seen in the [<VPIcon icon="fas fa-globe"/>Safari browser](https://caniuse.com/?search=hwb) or the Firefox Developer browser:
 
 <CodePen
   user="conermurphy"
@@ -208,7 +208,7 @@ Try mixing HWB colors through the CodePen below. Note that HWB can only be seen 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-But, why use HWB instead of something like HSL, which arguably provides more granular controls because it allows you to adjust the saturation of the color? Well, the reason HWB was designed was to be [<FontIcon icon="fas fa-globe"/>more intuitive for humans to use and faster to compute than other methods](https://drafts.csswg.org/css-color/#the-hwb-notation).
+But, why use HWB instead of something like HSL, which arguably provides more granular controls because it allows you to adjust the saturation of the color? Well, the reason HWB was designed was to be [<VPIcon icon="fas fa-globe"/>more intuitive for humans to use and faster to compute than other methods](https://drafts.csswg.org/css-color/#the-hwb-notation).
 
 With HWB, if you want a lighter color, add white; if you want a darker color, add black. It doesn’t get simpler than that.
 
@@ -243,7 +243,7 @@ However, different from the other methods we’ve covered, LAB uses the a-axis (
 
 The `a` parameter represents how far along the a-axis in the LAB colorspace you want to go between green and red. Similarly, the `b` parameter represents how far along the b-axis in the LAB colorspace you want to go between blue and yellow.
 
-Conceptually, LAB is one of the harder color spaces to grasp since it moves through space rather than linear numbers. So, here is a [<FontIcon icon="fas fa-globe"/>visual representation of the colorspace](https://researchgate.net/profile/Sudhir-Shukla-3/publication/23789543/figure/fig3/AS:276894424551429@1443028183655/The-cubical-CIE-Lab-color-space.png) to show how the values work together to create a color.
+Conceptually, LAB is one of the harder color spaces to grasp since it moves through space rather than linear numbers. So, here is a [<VPIcon icon="fas fa-globe"/>visual representation of the colorspace](https://researchgate.net/profile/Sudhir-Shukla-3/publication/23789543/figure/fig3/AS:276894424551429@1443028183655/The-cubical-CIE-Lab-color-space.png) to show how the values work together to create a color.
 
 ![Lab Color Space Diagram Showing The Axis That Control Color Manipulation Within A Sphere](/assets/image/blog.logrocket.com/advanced-guide-setting-colors-css/lab-color-space-diagram.png)
 
@@ -273,7 +273,7 @@ hwb(211 2% 14%);
 lab(46% 17 -63);
 ```
 
-[<FontIcon icon="fas fa-globe"/>If you are using Safari](https://caniuse.com/?search=LAB), you can view the LAB color rendered in the CodePen below.
+[<VPIcon icon="fas fa-globe"/>If you are using Safari](https://caniuse.com/?search=LAB), you can view the LAB color rendered in the CodePen below.
 
 <CodePen
   user="conermurphy"
@@ -302,9 +302,9 @@ At this point, you may be rightfully asking why do we need color spaces in CSS l
 
 The flipside to this however is the issues with syntax and support. The syntax for LAB and LCH are less intuitive and currently have very little browser support (Safari only), so you need to give a fallback value in another more widely supported method for the time being.
 
-But, once the syntax has more support in other browsers, both LAB and LCH are powerful options for [<FontIcon icon="fas fa-globe"/>specifying colors in CSS](https://blog.logrocket.com/tag/css/).
+But, once the syntax has more support in other browsers, both LAB and LCH are powerful options for [<VPIcon icon="fas fa-globe"/>specifying colors in CSS](https://blog.logrocket.com/tag/css/).
 
-As with LAB, LCH is also another tricky color space to grasp, so here is another [<FontIcon icon="fas fa-globe"/>diagram showing the LCH color space](https://researchgate.net/profile/Malgorzata-Perz/publication/265155524/figure/fig18/AS:295878511349770@1447554342906/A-Simplified-LCh-color-space-B-LCh-color-space.png) and how the parameters influence the color we get.
+As with LAB, LCH is also another tricky color space to grasp, so here is another [<VPIcon icon="fas fa-globe"/>diagram showing the LCH color space](https://researchgate.net/profile/Malgorzata-Perz/publication/265155524/figure/fig18/AS:295878511349770@1447554342906/A-Simplified-LCh-color-space-B-LCh-color-space.png) and how the parameters influence the color we get.
 
 ![LCH Diagram Showing 3D Example Of How Colors Are Picked Through A Wheel And Axis](/assets/image/blog.logrocket.com/advanced-guide-setting-colors-css/lch-diagram.png)
 
@@ -354,7 +354,7 @@ The four methods for defining colors we looked at first (keywords, HEX, RGB, and
 
 But, the methods for defining colors we looked at in the latter half of the article (HWB, LAB, and LCH) are still in the early days of support, so if you use them, define a fallback value in one of the four mentioned above to be safe.
 
-If you’re curious to check out the browser support for the individual methods below are the links to each page on [<FontIcon icon="fas fa-globe"/>caniuse](https://caniuse.com):
+If you’re curious to check out the browser support for the individual methods below are the links to each page on [<VPIcon icon="fas fa-globe"/>caniuse](https://caniuse.com):
 
 ```component VPCard
 {
@@ -378,7 +378,7 @@ If you’re curious to check out the browser support for the individual methods 
 
 So, that’s it! In this article, we covered every way [**you can set colors in CSS**](/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript.md) including some of the new and exciting methods yet to become widely supported in CSS as well as why and how to use each method for your next project.
 
-I hope you found this article on setting colors in CSS helpful. If you did, [please consider following me over on Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`MrConerMurphy`)](https://x.com/MrConerMurphy), where I post helpful and actionable tips and content on the JavaScript ecosystem and web development as a whole. Or if Twitter isn’t your thing, [<FontIcon icon="fas fa-globe"/>visit my blog](https://conermurphy.com/blog) for more of my content.
+I hope you found this article on setting colors in CSS helpful. If you did, [please consider following me over on Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`MrConerMurphy`)](https://x.com/MrConerMurphy), where I post helpful and actionable tips and content on the JavaScript ecosystem and web development as a whole. Or if Twitter isn’t your thing, [<VPIcon icon="fas fa-globe"/>visit my blog](https://conermurphy.com/blog) for more of my content.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

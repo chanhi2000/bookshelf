@@ -68,7 +68,7 @@ Understanding how the `useEffect` Hook works is one of the most important concep
 
 With `useEffect`, you invoke side effects from within functional components, which is an important concept to understand in the React Hooks era. Working with the side effects invoked by the `useEffect` Hook may seem cumbersome at first, but eventually, everything will make sense.
 
-The goal of this article is to gather information about the underlying concepts of `useEffect` and to provide learnings from my own experience with the Hook. The code snippets provided are part of my companion [GitHub project (<FontIcon icon="iconfont icon-github"/>`doppelmutzi/useeffect-showcase`)](https://github.com/doppelmutzi/useeffect-showcase).
+The goal of this article is to gather information about the underlying concepts of `useEffect` and to provide learnings from my own experience with the Hook. The code snippets provided are part of my companion [GitHub project (<VPIcon icon="iconfont icon-github"/>`doppelmutzi/useeffect-showcase`)](https://github.com/doppelmutzi/useeffect-showcase).
 
 ---
 
@@ -78,7 +78,7 @@ What are the effects, really? Examples include fetching data, reading from local
 
 React’s effects are a completely different animal than the lifecycle methods of class-based components. The abstraction level differs, too. To their credit, lifecycle methods do give components a predictable structure. The code is more explicit in contrast to effects, so developers can directly spot the relevant parts (e.g., `componentDidMount`) in terms of performing tasks at particular lifecycle phases (e.g., on component unmount).
 
-As we will see later, the `useEffect` Hook fosters the separation of concerns and reduces code duplication. For example, the official React docs show that you can [<FontIcon icon="fa-brands fa-react"/>avoid the duplicated code](https://reactjs.org/docs/hooks-effect.html#example-using-classes) that results from lifecycle methods with one `useEffect` statement.
+As we will see later, the `useEffect` Hook fosters the separation of concerns and reduces code duplication. For example, the official React docs show that you can [<VPIcon icon="fa-brands fa-react"/>avoid the duplicated code](https://reactjs.org/docs/hooks-effect.html#example-using-classes) that results from lifecycle methods with one `useEffect` statement.
 
 A couple of key points to note before we get started:
 
@@ -101,15 +101,15 @@ On top of that, `useEffect` blocks are candidates to extract into reusable and e
 
 ## When are effects executed within the component lifecycle?
 
-This [<FontIcon icon="fas fa-globe"/>interactive diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) shows the React phases in which certain lifecycle methods (e.g., `componentDidMount`) are executed:
+This [<VPIcon icon="fas fa-globe"/>interactive diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) shows the React phases in which certain lifecycle methods (e.g., `componentDidMount`) are executed:
 
 ![A Diagram Of React's Most Common Lifecycle Methods](/assets/image/blog.logrocket.com/useeffect-react-hook-complete-guide/react-most-common-lifecycle-methods.png)
 
-In contrast, the next [<FontIcon icon="fas fa-globe"/>diagram](https://wavez.github.io/react-hooks-lifecycle/) shows how things work in the context of functional components:
+In contrast, the next [<VPIcon icon="fas fa-globe"/>diagram](https://wavez.github.io/react-hooks-lifecycle/) shows how things work in the context of functional components:
 
 ![A Diagram Of The React Hooks Lifecycle](/assets/image/blog.logrocket.com/useeffect-react-hook-complete-guide/react-hooks-lifecycle.png)
 
-This may sound strange initially, but effects defined with `useEffect` are invoked after render. To be more specific, it runs both after the first render and after every update. In contrast to lifecycle methods, [<FontIcon icon="fa-brands fa-react"/>effects don’t block the UI](https://reactjs.org/docs/hooks-effect.html#detailed-explanation) because they run asynchronously.
+This may sound strange initially, but effects defined with `useEffect` are invoked after render. To be more specific, it runs both after the first render and after every update. In contrast to lifecycle methods, [<VPIcon icon="fa-brands fa-react"/>effects don’t block the UI](https://reactjs.org/docs/hooks-effect.html#detailed-explanation) because they run asynchronously.
 
 If you are new to React, I would recommend ignoring class-based components and lifecycle methods and, instead, learning how to develop functional components and how to decipher the powerful possibilities of effects. [**Class-based components are rarely used in more recent React development projects**](/blog.logrocket.com/why-you-should-adopt-react-hooks-instead-of-classes.md).
 
@@ -183,7 +183,7 @@ function EffectsDemoNoDependency() {
 
 The `useEffect` statement is only defined with a single, mandatory argument to implement the actual effect to execute. In our case, we use the state variable representing the title and assign its value to `document.title`.
 
-Because we skipped the second argument, this `useEffect` is called after every render. Because we implemented an [<FontIcon icon="fa-brands fa-react"/>uncontrolled](https://reactjs.org/docs/uncontrolled-components.html) input field with the help of the `useRef` Hook, `handleClick` is only invoked after the user clicks on the button. This causes a re-render because `setTitle` performs a state change.
+Because we skipped the second argument, this `useEffect` is called after every render. Because we implemented an [<VPIcon icon="fa-brands fa-react"/>uncontrolled](https://reactjs.org/docs/uncontrolled-components.html) input field with the help of the `useRef` Hook, `handleClick` is only invoked after the user clicks on the button. This causes a re-render because `setTitle` performs a state change.
 
 After every render cycle, `useEffect` is executed again. To demonstrate this, I added two `console.log` statements:
 
@@ -267,9 +267,9 @@ As you can see, we have an infinite loop of effects because every state changes 
 
 The `useEffect` Hook’s second argument, known as the dependency array, serves the purpose of indicating the variables upon which the effect relies. This brings us to an important question: What items should be included in the dependency array?
 
-According to the [<FontIcon icon="fa-brands fa-react"/>React docs](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects), you must include all values from the component scope that change their values between re-renders. What does this mean, exactly?
+According to the [<VPIcon icon="fa-brands fa-react"/>React docs](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects), you must include all values from the component scope that change their values between re-renders. What does this mean, exactly?
 
-All external values referenced inside of the `useEffect` callback function, such as props, state variables, or context variables, are dependencies of the effect. Ref containers (i.e., what you directly get from `useRef()` and not the `current` property) are also [valid dependencies (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/issues/16121#issuecomment-511369830). Even [<FontIcon icon="fa-brands fa-react"/>local variables](https://reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies), which are derived from the aforementioned values, have to be listed in the dependency array.
+All external values referenced inside of the `useEffect` callback function, such as props, state variables, or context variables, are dependencies of the effect. Ref containers (i.e., what you directly get from `useRef()` and not the `current` property) are also [valid dependencies (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/issues/16121#issuecomment-511369830). Even [<VPIcon icon="fa-brands fa-react"/>local variables](https://reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies), which are derived from the aforementioned values, have to be listed in the dependency array.
 
 ### The importance of the dependency array
 
@@ -325,7 +325,7 @@ As you can see in the recording, effects are only invoked as expected when press
 
 ![Example Demonstrating How To Skip Unnecessary Effects](/assets/image/blog.logrocket.com/useeffect-react-hook-complete-guide/example-demonstrating-how-to-skip-unnecessary-effects.gif)
 
-It’s also possible to add an empty dependency array. In this case, effects are only executed once; it is similar to the [<FontIcon icon="fa-brands fa-react"/>`componentDidMount()`](https://reactjs.org/docs/react-component.html#componentdidmount) lifecycle method. To demonstrate this, let’s take a look at the previous example with the infinite loop of effects:
+It’s also possible to add an empty dependency array. In this case, effects are only executed once; it is similar to the [<VPIcon icon="fa-brands fa-react"/>`componentDidMount()`](https://reactjs.org/docs/react-component.html#componentdidmount) lifecycle method. To demonstrate this, let’s take a look at the previous example with the infinite loop of effects:
 
 ```jsx :collapsed-lines title="EffectsDemoEffectOnce.jsx"
 function EffectsDemoEffectOnce() {
@@ -545,7 +545,7 @@ Now things look much better:
 - More semantic code due to the function calls of the custom Hooks inside of components
 - Effects can be tested when used inside of custom Hooks, as we’ll see in the next section
 
-The following example represents a custom Hook for fetching data. We moved the `useEffect` code block into a function representing the custom Hook. Note that this is a rather simplified implementation that might not cover all your project’s requirements. You can find more [production-ready custom fetch Hooks here (<FontIcon icon="iconfont icon-github"/>`rehooks/awesome-react-hooks`)](https://github.com/rehooks/awesome-react-hooks):
+The following example represents a custom Hook for fetching data. We moved the `useEffect` code block into a function representing the custom Hook. Note that this is a rather simplified implementation that might not cover all your project’s requirements. You can find more [production-ready custom fetch Hooks here (<VPIcon icon="iconfont icon-github"/>`rehooks/awesome-react-hooks`)](https://github.com/rehooks/awesome-react-hooks):
 
 ```jsx :collapsed-lines
 const useFetch = (url, initialValue) => {
@@ -798,7 +798,7 @@ This will save you time and improve the performance of your application.
 
 ### 2. Handling user events
 
-You don’t need `useEffect to handle` user events. Let’s say you want to make a POST request once a user clicks on a form submit button. The following piece of code is inspired from [<FontIcon icon="fa-brands fa-react"/>React’s documentation](https://beta.reactjs.org/learn/you-might-not-need-an-effect):
+You don’t need `useEffect to handle` user events. Let’s say you want to make a POST request once a user clicks on a form submit button. The following piece of code is inspired from [<VPIcon icon="fa-brands fa-react"/>React’s documentation](https://beta.reactjs.org/learn/you-might-not-need-an-effect):
 
 ```jsx title="Form.jsx"
 function Form() {

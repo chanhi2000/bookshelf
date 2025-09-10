@@ -64,7 +64,7 @@ In this article, we'll dispel some common misconceptions and highlight the benef
 
 ## Understanding CQRS in Its Pure Form
 
-[<FontIcon icon="iconfont icon-microsoftazure"/>CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs) is a pattern that separates read and write operations in your application. The pattern suggests that the models used for reading data should be different from those used for writing data.
+[<VPIcon icon="iconfont icon-microsoftazure"/>CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs) is a pattern that separates read and write operations in your application. The pattern suggests that the models used for reading data should be different from those used for writing data.
 
 That's it.
 
@@ -83,7 +83,7 @@ This separation provides several benefits:
 
 ## MediatR: A Different Tool for Different Problems
 
-[<FontIcon icon="iconfont icon-github"/>`jbogard/MediatR`](https://github.com/jbogard/MediatR) is an implementation of the mediator pattern. Its primary purpose is to reduce direct dependencies between components by providing a central point of communication. Instead of knowing about each other, the mediator connects the components.
+[<VPIcon icon="iconfont icon-github"/>`jbogard/MediatR`](https://github.com/jbogard/MediatR) is an implementation of the mediator pattern. Its primary purpose is to reduce direct dependencies between components by providing a central point of communication. Instead of knowing about each other, the mediator connects the components.
 
 The library provides several features:
 

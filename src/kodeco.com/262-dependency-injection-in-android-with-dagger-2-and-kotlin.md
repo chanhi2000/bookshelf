@@ -119,7 +119,7 @@ In the simple example above, this means changing `Child` to a Kotlin `interface`
 
 ### How can Dagger 2 help with DI
 
-[Dagger 2](https://google.github.io/dagger/) is the result of a collaboration between the team behind [<FontIcon icon="iconfont icon-github"/>`google/guice`](https://github.com/google/guice) (developed by Google) and Dagger (the predecessor of Dagger 2, created by Square).
+[Dagger 2](https://google.github.io/dagger/) is the result of a collaboration between the team behind [<VPIcon icon="iconfont icon-github"/>`google/guice`](https://github.com/google/guice) (developed by Google) and Dagger (the predecessor of Dagger 2, created by Square).
 
 They fixed a lot of problems from their previous work, and Dagger 2 is the faster framework for DI (since it works at compile time rather than at runtime with reflection).
 
@@ -137,7 +137,7 @@ Enough theory! Time to start writing some code.
 
 ## Getting Started
 
-Download the starter project [<FontIcon icon="iconfont icon-select"/>`[here]`][download-material].
+Download the starter project [<VPIcon icon="iconfont icon-select"/>`[here]`][download-material].
 
 Open the starter app in Android Studio 3.0.1 or greater and if it prompts you to update your gradle version, go ahead and do so. 
 
@@ -159,7 +159,7 @@ The subpackages in the main package are `application`, `model`, `network`, `ui` 
 
 ![Except for the splashscreen, each other package has classes for the view and presenter classes for the screen.](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-04-14-54-59.png)
 
-By examining the app <FontIcon icon="iconfont icon-engine"/>`build.gradle` file, you’ll also see that the app applies the plugin `kotlin-android-extensions`. It is used to implement view binding and `kotlin-kapt` for annotation processing.
+By examining the app <VPIcon icon="iconfont icon-engine"/>`build.gradle` file, you’ll also see that the app applies the plugin `kotlin-android-extensions`. It is used to implement view binding and `kotlin-kapt` for annotation processing.
 
 ### MVP
 
@@ -193,7 +193,7 @@ presenter.loadHomepage()
 
 Here, you create a concrete implementation of a `HomepagePresenter` when the activity is instantiated.
 
-Open <FontIcon icon="iconfont icon-java"/>`HomepagePresenterImpl.kt` and take a look at `loadHomepage()`. Both an `OkHttpClient` object and a `WikiApi` object are created and configured in the `loadHomepage()` method. The same happens for the `SearchActivity` with an `EntryPresenter` and a list of `EntryView`.
+Open <VPIcon icon="iconfont icon-java"/>`HomepagePresenterImpl.kt` and take a look at `loadHomepage()`. Both an `OkHttpClient` object and a `WikiApi` object are created and configured in the `loadHomepage()` method. The same happens for the `SearchActivity` with an `EntryPresenter` and a list of `EntryView`.
 
 This creation of dependencies couple the model, view, and presenter layers too tightly. Swapping in a mock presenter for the view is impossible as written without updating the view code. The code for creating the `OkHttpClient` and `WikiApi` objects is repeated between the two presenter implementations in the app: `HomepagePresenterImpl` and `EntryPresenterImpl`.
 
@@ -206,7 +206,7 @@ Finally, it’s time to start writing some code to remove code duplication and s
 Configuring Dagger with Kotlin is a little bit different from how you may have done with Java.
 Dagger requires an __annotation processor__, and thus the main difference is which one you are going to use. In fact with Java you used the Groovy methods `apt` or the newer `annotationProcessor`, while with Kotlin you need to use `kapt`.
 
-By default kapt is not enabled in Kotlin, and to enable it you must apply its plugin to your app <FontIcon icon="iconfont icon-engine"/>`build.gradle`, so add the line 
+By default kapt is not enabled in Kotlin, and to enable it you must apply its plugin to your app <VPIcon icon="iconfont icon-engine"/>`build.gradle`, so add the line 
 `apply plugin: 'kotlin-kapt'`:
 
 ```groovy
@@ -256,11 +256,11 @@ Now let’s see how these annotations are used to bring dependency injection to 
 
 The first annotation you’ll use is the `@Module` annotation.
 
-![Start by creating a new package named `dagger` under the app main package, by right-clicking the main package and selecting <FontIcon icon="iconfont icon-select"/>`[New/Package]`](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-04-15-27-13-650x167.png)
+![Start by creating a new package named `dagger` under the app main package, by right-clicking the main package and selecting <VPIcon icon="iconfont icon-select"/>`[New/Package]`](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-04-15-27-13-650x167.png)
 
 Next, create a new file in the `dagger` package. 
 
-![Right-click `dagger` and select <FontIcon icon="iconfont icon-select"/>`[New/Kotlin File/Class]`. Name the class `AppModule`.](https://koenig-media.raywenderlich.com/uploads/2017/09/DroidWiki-NewKotlinClass-480x122.png)
+![Right-click `dagger` and select <VPIcon icon="iconfont icon-select"/>`[New/Kotlin File/Class]`. Name the class `AppModule`.](https://koenig-media.raywenderlich.com/uploads/2017/09/DroidWiki-NewKotlinClass-480x122.png)
 
 Add the following empty class to the new file:
 
@@ -327,7 +327,7 @@ The `@Singleton` annotation is not part of the Dagger API. It’s contained insi
 
 ## Where to Go From Here?
 
-You can download the final project [<FontIcon icon="fas fa-file-zipper"/>here][download-material-final].
+You can download the final project [<VPIcon icon="fas fa-file-zipper"/>here][download-material-final].
 
 A lot of developers asks themselves if all the changes you’ve applied to the DroidWiki app are useful or not. Especially since everything was already working before implementing dependency injection. The utility of dependency injection and a framework like Dagger 2 become most evident in real-world production apps, where the dependency graph can get very complex.
 

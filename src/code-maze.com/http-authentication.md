@@ -184,11 +184,11 @@ Now let’s drill down and look into basic authentication.
 
 The most prevalent and supported protocol out there. It has been around since HTTP/1.0 and every major client implements it.
 
-The example above depicts how to authenticate by using Basic authentication. It’s [<FontIcon icon="fas fa-globe"/>rather simple to implement and use](https://rdegges.com/2015/why-i-love-basic-auth/), but it has some security flaws.
+The example above depicts how to authenticate by using Basic authentication. It’s [<VPIcon icon="fas fa-globe"/>rather simple to implement and use](https://rdegges.com/2015/why-i-love-basic-auth/), but it has some security flaws.
 
 Before going to the security issues, let’s see how the Basic authentication deals with username and password.
 
-Basic authentication packs the username and password into one string and separates them using the colon (:). After that, it encodes them using the [<FontIcon icon="fa-brands fa-wikipeida-w"/>Base64 encoding](https://en.wikipedia.org/wiki/Base64). Despite what it looks like, the scrambled sequence of characters is **not secure** and you can **decode it easily**.
+Basic authentication packs the username and password into one string and separates them using the colon (:). After that, it encodes them using the [<VPIcon icon="fa-brands fa-wikipeida-w"/>Base64 encoding](https://en.wikipedia.org/wiki/Base64). Despite what it looks like, the scrambled sequence of characters is **not secure** and you can **decode it easily**.
 
 The purpose of the Base64 encoding is not to encrypt, but to make the username and password HTTP compatible. The main reason for that is that you can’t use international characters in HTTP headers.
 
@@ -211,7 +211,7 @@ Still, despite that, you can use it to prevent accidental access to protected re
 
 To make it more secure and usable, Basic authentication can be implemented by using HTTPS over SSL which we talk about in part 5 of the series.
 
-Some would argue it’s only [<FontIcon icon="fas fa-globe"/>as secure as your transport mechanism](https://skorks.com/2009/08/is-basic-authentication-really-insecure).
+Some would argue it’s only [<VPIcon icon="fas fa-globe"/>as secure as your transport mechanism](https://skorks.com/2009/08/is-basic-authentication-really-insecure).
 
 ---
 
@@ -291,7 +291,7 @@ Let’s define these:
 
 - **nonce** and **opaque** – the server-defined strings that the client returns upon receiving them
 - **qop (quality of protection)** – one or more of the predefined values (“auth” | “auth-int” | token). These values affect the computation of the digest.
-- **cnonce** – client nonce, must be generated if qop is set. It is used to avoid [<FontIcon icon="fa-brands fa-wikipedia-w"/>chosen plaintext attacks](https://en.wikipedia.org/wiki/Chosen-plaintext_attack) and to provide message integrity protection.
+- **cnonce** – client nonce, must be generated if qop is set. It is used to avoid [<VPIcon icon="fa-brands fa-wikipedia-w"/>chosen plaintext attacks](https://en.wikipedia.org/wiki/Chosen-plaintext_attack) and to provide message integrity protection.
 - **nc** – nonce count, must be sent if qop is set.  This directive allows the server to detect request replays by maintaining its own copy of this count – if the same nc value appears twice, then the request is a replay.
 
 The response attribute is calculated in the following way:
@@ -310,7 +310,7 @@ Response = MD5( "681028410e804a5b60f69e894701d4b4:
          = 5a1c3bb349cf6986abf985257d968d86
 ```
 
-If you are interested in learning how to compute the response depending on qop, you can find it in [<FontIcon icon="fas fa-globe"/>RFC 2617](https://ietf.org/rfc/rfc2617.txt).
+If you are interested in learning how to compute the response depending on qop, you can find it in [<VPIcon icon="fas fa-globe"/>RFC 2617](https://ietf.org/rfc/rfc2617.txt).
 
 4. Server -> User Agent
 
@@ -327,7 +327,7 @@ The server computes the hash on its own and compares the two. If they match it s
 
 As you can see the Digest authentication is more complicated to understand and implement.
 
-It is also more secure than Basic authentication, but still vulnerable to a [<FontIcon icon="fa-brands fa-wikipedia-w"/>man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack). [<FontIcon icon="fas fa-globe"/>RFC 2617](https://ietf.org/rfc/rfc2617.txt) recommends that **Digest authentication is used instead of Basic authentication** since it remedies some of its weaknesses. It also doesn’t hide the fact that **Digest authentication is still weak by modern cryptographic standards.** Its strength largely depends on the implementation.
+It is also more secure than Basic authentication, but still vulnerable to a [<VPIcon icon="fa-brands fa-wikipedia-w"/>man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack). [<VPIcon icon="fas fa-globe"/>RFC 2617](https://ietf.org/rfc/rfc2617.txt) recommends that **Digest authentication is used instead of Basic authentication** since it remedies some of its weaknesses. It also doesn’t hide the fact that **Digest authentication is still weak by modern cryptographic standards.** Its strength largely depends on the implementation.
 
 So in summary digest authentication:
 

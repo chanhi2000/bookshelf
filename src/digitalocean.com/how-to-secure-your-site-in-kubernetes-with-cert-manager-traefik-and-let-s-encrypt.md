@@ -66,14 +66,14 @@ If you’re looking for a managed Kubernetes hosting service, [check out our sim
 
 ::: note Prerequisites
 
-- A Kubernetes cluster accessible with `kubectl`. If you need to create a cluster, DigitalOcean has a [<FontIcon icon="fas fa-globe"/>Kubernetes Quickstart](https://docs.digitalocean.com/products/kubernetes/quickstart).
-- A recent version of `kubectl` for interacting with your cluster. See the product documentation for [<FontIcon icon="fas fa-globe"/>installing `kubectl` on Linux, MacOS, and Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux).
-- A DigitalOcean account with doctl installed and configured. To set this up, see our product documentation for [<FontIcon icon="fas fa-globe"/>How To Install and Configure `doctl`](https://docs.digitalocean.com/reference/doctl/how-to/install).
-- [<FontIcon icon="fas fa-globe"/>Helm](https://helm.sh) version 3 or greater. See the official documentation for [<FontIcon icon="fas fa-globe"/>installing Helm](https://helm.sh/docs/intro/install).
-- Experience interacting with a Kubernetes cluster using `kubectl`. To get started, follow our tutorial, [<FontIcon icon="fas fa-globe"/>Build and Deploy Your First Image to Your First Cluster](https://docs.digitalocean.com/tutorials/build-deploy-first-image).
-- A registered domain name. This tutorial will use `your_domain`. You can purchase a domain name from [<FontIcon icon="fas fa-globe"/>Namecheap](https://www.namecheap.com), get one for free with [<FontIcon icon="fas fa-globe"/>Freenom](https://www.freenom.com/en/index.html?lang=en), or use the domain registrar of your choice.
-- DNS set up for your domain name. This tutorial assumes you are using DigitalOcean DNS, but it is not a requirement. If you are using DigitalOcean, please see our [DNS documentation](https://docs.digitalocean.com/products/networking/dns/how-to/add-domains) for details on how to add a domain and [<FontIcon icon="fas fa-globe"/>How To Point to DigitalOcean Nameservers From Common Domain Registrars](https://docs.digitalocean.com/tutorials/dns-registrars) for information on using DigitalOcean DNS with common domain registrars.
-- A [<FontIcon icon="fas fa-globe"/>Personal Access Token](https://docs.digitalocean.com/reference/api/create-personal-access-token) with read and write access for DigitalOcean DNS, if you are using DigitalOcean for DNS. Other providers will have similar access tokens.
+- A Kubernetes cluster accessible with `kubectl`. If you need to create a cluster, DigitalOcean has a [<VPIcon icon="fas fa-globe"/>Kubernetes Quickstart](https://docs.digitalocean.com/products/kubernetes/quickstart).
+- A recent version of `kubectl` for interacting with your cluster. See the product documentation for [<VPIcon icon="fas fa-globe"/>installing `kubectl` on Linux, MacOS, and Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux).
+- A DigitalOcean account with doctl installed and configured. To set this up, see our product documentation for [<VPIcon icon="fas fa-globe"/>How To Install and Configure `doctl`](https://docs.digitalocean.com/reference/doctl/how-to/install).
+- [<VPIcon icon="fas fa-globe"/>Helm](https://helm.sh) version 3 or greater. See the official documentation for [<VPIcon icon="fas fa-globe"/>installing Helm](https://helm.sh/docs/intro/install).
+- Experience interacting with a Kubernetes cluster using `kubectl`. To get started, follow our tutorial, [<VPIcon icon="fas fa-globe"/>Build and Deploy Your First Image to Your First Cluster](https://docs.digitalocean.com/tutorials/build-deploy-first-image).
+- A registered domain name. This tutorial will use `your_domain`. You can purchase a domain name from [<VPIcon icon="fas fa-globe"/>Namecheap](https://www.namecheap.com), get one for free with [<VPIcon icon="fas fa-globe"/>Freenom](https://www.freenom.com/en/index.html?lang=en), or use the domain registrar of your choice.
+- DNS set up for your domain name. This tutorial assumes you are using DigitalOcean DNS, but it is not a requirement. If you are using DigitalOcean, please see our [DNS documentation](https://docs.digitalocean.com/products/networking/dns/how-to/add-domains) for details on how to add a domain and [<VPIcon icon="fas fa-globe"/>How To Point to DigitalOcean Nameservers From Common Domain Registrars](https://docs.digitalocean.com/tutorials/dns-registrars) for information on using DigitalOcean DNS with common domain registrars.
+- A [<VPIcon icon="fas fa-globe"/>Personal Access Token](https://docs.digitalocean.com/reference/api/create-personal-access-token) with read and write access for DigitalOcean DNS, if you are using DigitalOcean for DNS. Other providers will have similar access tokens.
 
 :::
 
@@ -81,13 +81,13 @@ If you’re looking for a managed Kubernetes hosting service, [check out our sim
 
 ## Step 1 — Setting Up cert-manager in Your Cluster
 
-Traditionally, when setting up secure certificates for a website, you would need to generate a [<FontIcon icon="fa-brands fa-wikipedia-w"/>certificate signing request](https://en.wikipedia.org/wiki/Certificate_signing_request) and pay a trusted [<FontIcon icon="fas fa-globe"/>certificate authority](https://en.wikipedia.org/wiki/Certificate_authority) to generate a certificate for you. You would then need to configure your web server to use that certificate and remember to go through that same process every year to keep your certificates up-to-date.
+Traditionally, when setting up secure certificates for a website, you would need to generate a [<VPIcon icon="fa-brands fa-wikipedia-w"/>certificate signing request](https://en.wikipedia.org/wiki/Certificate_signing_request) and pay a trusted [<VPIcon icon="fas fa-globe"/>certificate authority](https://en.wikipedia.org/wiki/Certificate_authority) to generate a certificate for you. You would then need to configure your web server to use that certificate and remember to go through that same process every year to keep your certificates up-to-date.
 
-However, with the creation of [<FontIcon icon="fas fa-globe"/>Let’s Encrypt](https://letsencrypt.org) in 2014, it’s now possible to acquire free certificates through an automated process. These certificates are only valid for a few months instead of a year, though, so using an automated system to renew those certificates is a requirement. To handle that, you’ll use [<FontIcon icon="fas fa-globe"/>cert-manager](https://cert-manager.io), a service designed to run in Kubernetes that automatically manages the lifecycle of your certificates.
+However, with the creation of [<VPIcon icon="fas fa-globe"/>Let’s Encrypt](https://letsencrypt.org) in 2014, it’s now possible to acquire free certificates through an automated process. These certificates are only valid for a few months instead of a year, though, so using an automated system to renew those certificates is a requirement. To handle that, you’ll use [<VPIcon icon="fas fa-globe"/>cert-manager](https://cert-manager.io), a service designed to run in Kubernetes that automatically manages the lifecycle of your certificates.
 
 In this section, you will set up `cert-manager` to run in your cluster in its own cert-manager namespace.
 
-First, [<FontIcon icon="fas fa-globe"/>install cert-manager](https://cert-manager.io/docs/installation) using `kubectl` with cert-manager’s release file:
+First, [<VPIcon icon="fas fa-globe"/>install cert-manager](https://cert-manager.io/docs/installation) using `kubectl` with cert-manager’s release file:
 
 ```sh
 kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.9.1/cert-manager.yaml
@@ -110,15 +110,15 @@ In this section, you installed cert-manager to manage your secure certificates. 
 
 ## Step 2 — Configuring the Let’s Encrypt Certificate Issuer
 
-Using a secure certificate for your website is a way to tell your users they can trust that the site they’re viewing came from your servers. To do this, the certificate authority must validate that you own the domain the certificate is for. Let’s Encrypt does this by using a standard called [<FontIcon icon="fas fa-globe"/>ACME](https://datatracker.ietf.org/doc/html/rfc8555), which uses [<FontIcon icon="fas fa-globe"/>challenges](https://letsencrypt.org/docs/challenge-types) to prove you own the domain you’re generating a certificate for. cert-manager supports both DNS and HTTP challenges for various providers, but in this tutorial, you’ll use the [<FontIcon icon="fas fa-globe"/>DNS-01](https://letsencrypt.org/docs/challenge-types/#dns-01-challenge) challenge with DigitalOcean’s DNS provider.
+Using a secure certificate for your website is a way to tell your users they can trust that the site they’re viewing came from your servers. To do this, the certificate authority must validate that you own the domain the certificate is for. Let’s Encrypt does this by using a standard called [<VPIcon icon="fas fa-globe"/>ACME](https://datatracker.ietf.org/doc/html/rfc8555), which uses [<VPIcon icon="fas fa-globe"/>challenges](https://letsencrypt.org/docs/challenge-types) to prove you own the domain you’re generating a certificate for. cert-manager supports both DNS and HTTP challenges for various providers, but in this tutorial, you’ll use the [<VPIcon icon="fas fa-globe"/>DNS-01](https://letsencrypt.org/docs/challenge-types/#dns-01-challenge) challenge with DigitalOcean’s DNS provider.
 
-In this section, you will create a [<FontIcon icon="fas fa-globe"/>`ClusterIssuer`](https://cert-manager.io/docs/concepts/issuer/) for your cluster to tell cert-manager how to issue certificates from Let’s Encrypt and which credentials to use to complete the DNS challenges required by Let’s Encrypt.
+In this section, you will create a [<VPIcon icon="fas fa-globe"/>`ClusterIssuer`](https://cert-manager.io/docs/concepts/issuer/) for your cluster to tell cert-manager how to issue certificates from Let’s Encrypt and which credentials to use to complete the DNS challenges required by Let’s Encrypt.
 
 ::: tip Note
 
 This tutorial assumes you are using DigitalOcean for your DNS provider and configures the `ClusterIssuer` with that assumption. cert-manager supports a number of different cloud providers for both HTTP and DNS challenges, so the same concepts can be applied to them.
 
-For more information about other providers supported by cert-manager, see the [<FontIcon icon="fas fa-globe"/>ACME Introduction](https://cert-manager.io/docs/configuration/acme) in cert-manager’s documentation.
+For more information about other providers supported by cert-manager, see the [<VPIcon icon="fas fa-globe"/>ACME Introduction](https://cert-manager.io/docs/configuration/acme) in cert-manager’s documentation.
 
 :::
 
@@ -129,11 +129,11 @@ mkdir tutorial-cluster-config
 cd tutorial-cluster-config
 ```
 
-Once you’ve created your directory, you’ll need the [<FontIcon icon="fas fa-globe"/>Personal Access Token](https://docs.digitalocean.com/reference/api/create-personal-access-token/) for DNS access that you created as part of this tutorial’s prerequisites. A DigitalOcean access token will look similar to `dop_v1_4321...` with a long string of numbers.
+Once you’ve created your directory, you’ll need the [<VPIcon icon="fas fa-globe"/>Personal Access Token](https://docs.digitalocean.com/reference/api/create-personal-access-token/) for DNS access that you created as part of this tutorial’s prerequisites. A DigitalOcean access token will look similar to `dop_v1_4321...` with a long string of numbers.
 
 <!-- TODO code highlight to yellow -->
 
-To store your access token as a secret in Kubernetes, you’ll need to [<FontIcon icon="fas fa-globe"/>base-64](https://en.wikipedia.org/wiki/Base64) encode it. To do this, you can use the echo command to pipe your token to the `base64` command, replacing the highlighted portion with your access token
+To store your access token as a secret in Kubernetes, you’ll need to [<VPIcon icon="fas fa-globe"/>base-64](https://en.wikipedia.org/wiki/Base64) encode it. To do this, you can use the echo command to pipe your token to the `base64` command, replacing the highlighted portion with your access token
 
 This command will send your access token from `echo` to the `base64` command to encode it. The `-n` option ensures that a new line isn’t included at the end. Depending on your access token, you will receive output similar to the following:
 
@@ -144,9 +144,9 @@ echo -n 'dop_v1_4321...' | base64
 
 This output is your base-64 encoded access token. Copy this because you’ll be using it next.
 
-Using `nano` or your favorite editor, create and open a new file called <FontIcon icon="iconfont icon-yaml"/>`lets-encrypt-do-dns.yaml`:
+Using `nano` or your favorite editor, create and open a new file called <VPIcon icon="iconfont icon-yaml"/>`lets-encrypt-do-dns.yaml`:
 
-### <FontIcon icon="iconfont icon-yaml"/>`tutorial-cluster-config/ltutorial-cluster-config/lets-encrypt-do-dns.yaml`
+### <VPIcon icon="iconfont icon-yaml"/>`tutorial-cluster-config/ltutorial-cluster-config/lets-encrypt-do-dns.yaml`
 
 ```yml
 apiVersion: v1
@@ -169,7 +169,7 @@ kubectl apply -f lets-encrypt-do-dns.yaml
 # secret/lets-encrypt-do-dns created
 ```
 
-Now, create a new file named <FontIcon icon="iconfont icon-yaml"/>`lets-encrypt-issuer.yaml` to contain cert-manager’s `ClusterIssuer`, which you’ll use to issue your Let’s Encrypt certificates:
+Now, create a new file named <VPIcon icon="iconfont icon-yaml"/>`lets-encrypt-issuer.yaml` to contain cert-manager’s `ClusterIssuer`, which you’ll use to issue your Let’s Encrypt certificates:
 
 ```sh
 nano lets-encrypt-issuer.yaml
@@ -177,7 +177,7 @@ nano lets-encrypt-issuer.yaml
 
 Add the following lines, entering your email address in the `spec.acme.email` field (this is the address Let’s Encrypt will associate with the certificates it provides):
 
-### <FontIcon icon="iconfont icon-yaml"/>`tutorial-cluster-config/llets-encrypt-issuer.yaml`
+### <VPIcon icon="iconfont icon-yaml"/>`tutorial-cluster-config/llets-encrypt-issuer.yaml`
 
 ```yml
 apiVersion: cert-manager.io/v1
@@ -203,9 +203,9 @@ In the first two lines, the `apiVersion` and `kind` say this Kubernetes resource
 
 Next, in the `spec` section, you define the acme challenge section to tell cert-manager this `ClusterIssuer` should use ACME to issue certificates using the `letsencrypt-issuer`. The `email` is your email address to which Let’s Encrypt will send any certificate-related communications, such as renewal reminders if there’s a problem and cert-manager doesn’t renew them in time. The `server` field specifies the URL to contact for requesting the ACME challenges and is set to the production Let’s Encrypt URL. After the `server` field, you include the `privateKeySecretRef` field with the name of the secret that cert-manager will use to store its generated private key for your cluster.
 
-One of the most important sections in the `spec.acme` section is the `solvers` section. In this section, you configure the ACME challenge solvers you want to use for the `letsencrypt-issuer`. In this case, you include a single solver, the `dns01` solver. The first part of the solver configuration, the `selector`, is configured to be `{}`, which means “anything.” If you wanted to use different solvers for other certificates in your cluster, you could set up additional selectors in the same issuer. You can find more information about how to do this in cert-manager’s [<FontIcon icon="fas fa-globe"/>ACME Introduction](https://cert-manager.io/docs/configuration/acme).
+One of the most important sections in the `spec.acme` section is the `solvers` section. In this section, you configure the ACME challenge solvers you want to use for the `letsencrypt-issuer`. In this case, you include a single solver, the `dns01` solver. The first part of the solver configuration, the `selector`, is configured to be `{}`, which means “anything.” If you wanted to use different solvers for other certificates in your cluster, you could set up additional selectors in the same issuer. You can find more information about how to do this in cert-manager’s [<VPIcon icon="fas fa-globe"/>ACME Introduction](https://cert-manager.io/docs/configuration/acme).
 
-Inside the `dns01` section, you add a `digitalocean` section to say this issuer should use DigitalOcean as the DNS-01 solver. If you are using a different cloud provider, this is where you would [<FontIcon icon="fas fa-globe"/>configure the other provider](https://cert-manager.io/docs/configuration/acme/dns01). Inside this section, you include a `tokenSecretRef` to reference the `lets-encrypt-do-dns` `access-token` field of the `Secret` you created earlier. cert-manager will use this access token when creating DNS records on your behalf.
+Inside the `dns01` section, you add a `digitalocean` section to say this issuer should use DigitalOcean as the DNS-01 solver. If you are using a different cloud provider, this is where you would [<VPIcon icon="fas fa-globe"/>configure the other provider](https://cert-manager.io/docs/configuration/acme/dns01). Inside this section, you include a `tokenSecretRef` to reference the `lets-encrypt-do-dns` `access-token` field of the `Secret` you created earlier. cert-manager will use this access token when creating DNS records on your behalf.
 
 Once you’ve saved your issuer file, apply it to the cluster using `kubectl apply`
 
@@ -216,17 +216,17 @@ kubectl apply -f lets-encrypt-issuer.yaml
 # clusterissuer.cert-manager.io/letsencrypt-issuer created
 ```
 
-In this section, you set up cert-manager and configured it to issue certificates from Let’s Encrypt. However, no certificates are being requested, nothing is serving your website, and you don’t have a website service running in your cluster. In the next section, you’ll set up Traefik as the [<FontIcon icon="fa-brands fa-wikipedia-w"/>proxy](https://en.wikipedia.org/wiki/Reverse_proxy) between the outside world and your websites.
+In this section, you set up cert-manager and configured it to issue certificates from Let’s Encrypt. However, no certificates are being requested, nothing is serving your website, and you don’t have a website service running in your cluster. In the next section, you’ll set up Traefik as the [<VPIcon icon="fa-brands fa-wikipedia-w"/>proxy](https://en.wikipedia.org/wiki/Reverse_proxy) between the outside world and your websites.
 
 ---
 
 ## Step 3 — Using a Load Balancer with Traefik
 
-[<FontIcon icon="fas fa-globe"/>Traefik](https://traefik.io/traefik/) is an open-source [<FontIcon icon="fa-brands fa-wikipedia-w"/>proxy](https://en.wikipedia.org/wiki/Reverse_proxy) service designed to integrate with Kubernetes for website traffic and other network traffic coming in and out of your cluster. As your network traffic grows, you may want to increase the number of Traefik instances running in your cluster to spread out resource usage across different Kubernetes nodes. To use a single address to refer to multiple service instances like this, you can use a [<FontIcon icon="fa-brands fa-wikipedia-w"/>load balancer](https://en.wikipedia.org/wiki/Load_balancing_(computing)) to accept the network connections and send them to the different Traefik instances, in effect balacing the network traffic load.
+[<VPIcon icon="fas fa-globe"/>Traefik](https://traefik.io/traefik/) is an open-source [<VPIcon icon="fa-brands fa-wikipedia-w"/>proxy](https://en.wikipedia.org/wiki/Reverse_proxy) service designed to integrate with Kubernetes for website traffic and other network traffic coming in and out of your cluster. As your network traffic grows, you may want to increase the number of Traefik instances running in your cluster to spread out resource usage across different Kubernetes nodes. To use a single address to refer to multiple service instances like this, you can use a [<VPIcon icon="fa-brands fa-wikipedia-w"/>load balancer](https://en.wikipedia.org/wiki/Load_balancing_(computing)) to accept the network connections and send them to the different Traefik instances, in effect balacing the network traffic load.
 
 In this section, you’ll install Traefik into your cluster and prepare it to be used with the certificates managed by cert-manager and the website you’ll add in Step 5. You will also set up a load balancer, which will send incoming network traffic to your Traefik service from outside your cluster, as well as prepare you to handle multiple instance of Traefik, should you choose to run them.
 
-First, create a namespace called `traefik` where you’ll install Traefik. To do this, open a file named <FontIcon icon="iconfont icon-yaml"/>`traefik-ns.yaml`:
+First, create a namespace called `traefik` where you’ll install Traefik. To do this, open a file named <VPIcon icon="iconfont icon-yaml"/>`traefik-ns.yaml`:
 
 ```sh
 nano traefik-ns.yaml
@@ -234,7 +234,7 @@ nano traefik-ns.yaml
 
 Enter a Kubernetes `Namespace` resource:
 
-> .<FontIcon icon="fas fa-folder-open"/>`tutorial-cluster-config/`<FontIcon icon="iconfont icon-yaml"/>`traefik-ns.yaml`
+> .<VPIcon icon="fas fa-folder-open"/>`tutorial-cluster-config/`<VPIcon icon="iconfont icon-yaml"/>`traefik-ns.yaml`
 
 ```yaml
 apiVersion: v1
@@ -253,7 +253,7 @@ kubectl apply -f traefik-ns.yaml
 # namespace/traefik created
 ```
 
-After creating the `traefik` namespace, you will install the Traefik service itself. For this, you’ll use a utility called [<FontIcon icon="fas fa-globe"/>Helm](https://helm.sh/). Helm is a package manager for Kubernetes that makes installing Kubernetes services similar to installing an app on your computer. In Helm, a package is called a [<FontIcon icon="fas fa-globe"/>chart](https://helm.sh/docs/topics/charts/).
+After creating the `traefik` namespace, you will install the Traefik service itself. For this, you’ll use a utility called [<VPIcon icon="fas fa-globe"/>Helm](https://helm.sh/). Helm is a package manager for Kubernetes that makes installing Kubernetes services similar to installing an app on your computer. In Helm, a package is called a [<VPIcon icon="fas fa-globe"/>chart](https://helm.sh/docs/topics/charts/).
 
 First, you’ll need to add the `traefik` Helm repository to your available repositories, which will allow Helm to find the `traefik` package.
 
@@ -370,7 +370,7 @@ If you are using a DNS host other than DigitalOcean, replace `ns1.digitalocean.c
 
 :::
 
-[<FontIcon icon="fas fa-globe"/>`dig`](https://linux.die.net/man/1/dig) is a utility that connects directly to DNS servers to “dig” into the DNS records to find the one you’re looking for. In this case, you provide `@ns1.digitalocean.com` to tell `dig` you want to query the ns1.digitalocean.com server for its DNS records. The `+noall +answer` options tell `dig` to only output a shorter response. (You can remove these two options if you want more information about the DNS query.) For more about `dig`, check out our guide to [<FontIcon icon="fas fa-globe"/>Retrieve DNS Information Using Dig](https://docs.digitalocean.com/tutorials/use-dig/).
+[<VPIcon icon="fas fa-globe"/>`dig`](https://linux.die.net/man/1/dig) is a utility that connects directly to DNS servers to “dig” into the DNS records to find the one you’re looking for. In this case, you provide `@ns1.digitalocean.com` to tell `dig` you want to query the ns1.digitalocean.com server for its DNS records. The `+noall +answer` options tell `dig` to only output a shorter response. (You can remove these two options if you want more information about the DNS query.) For more about `dig`, check out our guide to [<VPIcon icon="fas fa-globe"/>Retrieve DNS Information Using Dig](https://docs.digitalocean.com/tutorials/use-dig/).
 
 Next, using `+domain=your_domain` tells `dig` to add `.your_domain` to the end of any hostnames provided to the command. Finally, `tutorial-proxy` and `tutorial-service` are the hostnames to look up. Since you’re using the `+domain` option, you don’t need to use the full phrase `tutorial-proxy.your_domain`, as it will automatically be added on the end.
 
@@ -404,6 +404,6 @@ In this tutorial, you installed a few different services in your Kubernetes clus
 
 Now that you have cert-manager and Traefik configured in your cluster, you could also set up more websites with different `Ingress` resources to serve many websites from the same cluster with a single cert-manager and Traefik installation.
 
-You can read the [<FontIcon icon="fas fa-globe"/>Traefik Proxy documentation](https://doc.traefik.io/traefik/) for more about the different functionalities Traefik can provide in your cluster. [<FontIcon icon="fas fa-globe"/>cert-manager](https://cert-manager.io/docs/) also has extensive documentation on how to use it with other types of Let’s Encrypt challenges, as well as sources other than Let’s Encrypt.
+You can read the [<VPIcon icon="fas fa-globe"/>Traefik Proxy documentation](https://doc.traefik.io/traefik/) for more about the different functionalities Traefik can provide in your cluster. [<VPIcon icon="fas fa-globe"/>cert-manager](https://cert-manager.io/docs/) also has extensive documentation on how to use it with other types of Let’s Encrypt challenges, as well as sources other than Let’s Encrypt.
 
 To continue configuring your Kubernetes cluster, check out our other [tutorials on Kubernetes](https://digitalocean.com/community/tags/kubernetes).

@@ -4,7 +4,7 @@
       {
         "label": "run (vuepress 실행)",
         "type": "shell",
-        "command": "npm run dev",
+        "command": "pnpm run dev",
         "isBackground": true,
         "presentation": {
           "echo": true,
@@ -26,7 +26,7 @@
       }, {
         "label": "build (vuepress 빌드)",
         "type": "shell",
-        "command": "npm run build",
+        "command": "pnpm run --stream build",
         "isBackground": true,
         "presentation": {
           "echo": true,

@@ -85,27 +85,27 @@ There are two levels to consider when talking about blocking (or disabling) DevT
 1. Disabling DevTools at the browser level. For example, if you have a browser for web development, and another one for personal browsing, you may want to disable DevTools in the latter. Maybe because you don't want <kbd>F12</kbd> to open DevTools. Or maybe it's your mum's browser and she always gets confused when she accidentally opens DevTools.
 2. Disabling DevTools for an entire organization. For example, you're a teacher and you don't want your students to be able to use DevTools. Or your an IT admin and you want to disable DevTools for all the computers in your company.
 
-All browsers have different ways to disable DevTools. Here are the ones we currently know about. If you know of others, please [<FontIcon icon="iconfont icon-github"/>let us know on the DevTools Tips GitHub repo](https://github.com/captainbrosset/devtools-tips).
+All browsers have different ways to disable DevTools. Here are the ones we currently know about. If you know of others, please [<VPIcon icon="iconfont icon-github"/>let us know on the DevTools Tips GitHub repo](https://github.com/captainbrosset/devtools-tips).
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-firefox-browser"/>Firefox
+@tab:active <VPIcon icon="fa-brands fa-firefox-browser"/>Firefox
 
 - You can disable the <kbd>F12</kbd> keyboard shortcut by going to `about:config`, searching for the `devtools.f12_enabled` setting, and setting it to `false`. Other DevTools shortcuts are still enabled by default though.
-- You can disable DevTools for your organization by using the [<FontIcon icon="fa-brands fa-firefox"/>`DisableDeveloperTools` policy](https://mozilla.github.io/policy-templates/#disabledevelopertools). Learn more about [<FontIcon icon="fa-brands fa-firefox"/>policies in Firefox](https://support.mozilla.org/products/firefox-enterprise/policies-customization-enterprise/policies-overview-enterprise).
+- You can disable DevTools for your organization by using the [<VPIcon icon="fa-brands fa-firefox"/>`DisableDeveloperTools` policy](https://mozilla.github.io/policy-templates/#disabledevelopertools). Learn more about [<VPIcon icon="fa-brands fa-firefox"/>policies in Firefox](https://support.mozilla.org/products/firefox-enterprise/policies-customization-enterprise/policies-overview-enterprise).
 
 ![Disabling <kbd>F12</kbd> in Firefox's `about:config` page](https://devtoolstips.org/assets/img/block-devtools.png)
 
-@tab <FontIcon icon="fa-brands fa-edge"/>Edge
+@tab <VPIcon icon="fa-brands fa-edge"/>Edge
 
 In Edge, the <kbd>F12</kbd> keyboard is already disabled by default. The first time you press it, a confirmation dialog appears, and you can choose to either open DevTools, or continue blocking the shortcut. You can also ask Edge to remember your decision so you never have to see the dialog again. Other DevTools shortcuts are still enabled by default though.
-You can disable DevTools for your organization by using the [<FontIcon icon="fa-brands fa-edge"/>`DeveloperToolsAvailability` policy](https://learn.microsoft.com/deployedge/microsoft-edge-policies#developertoolsavailability). Learn more about [<FontIcon icon="fa-brands fa-edge"/>policies in Edge](https://learn.microsoft.com/deployedge/microsoft-edge-policies).
+You can disable DevTools for your organization by using the [<VPIcon icon="fa-brands fa-edge"/>`DeveloperToolsAvailability` policy](https://learn.microsoft.com/deployedge/microsoft-edge-policies#developertoolsavailability). Learn more about [<VPIcon icon="fa-brands fa-edge"/>policies in Edge](https://learn.microsoft.com/deployedge/microsoft-edge-policies).
 
-@tab <FontIcon icon="fa-brands fa-chrome"/>Chrome
+@tab <VPIcon icon="fa-brands fa-chrome"/>Chrome
 
-You can disable DevTools for your organization by using the [<FontIcon icon="fa-brands fa-chrome"/>`DeveloperToolsAvailability` policy](https://chromeenterprise.google/policies/#DeveloperToolsAvailability). Learn more about [<FontIcon icon="fa-brands fa-chrome"/>policies in Chrome](https://chromeenterprise.google/policies/).
+You can disable DevTools for your organization by using the [<VPIcon icon="fa-brands fa-chrome"/>`DeveloperToolsAvailability` policy](https://chromeenterprise.google/policies/#DeveloperToolsAvailability). Learn more about [<VPIcon icon="fa-brands fa-chrome"/>policies in Chrome](https://chromeenterprise.google/policies/).
 
-@tab <FontIcon icon="fa-brands fa-safari"/>Safari
+@tab <VPIcon icon="fa-brands fa-safari"/>Safari
 
 In Safari, DevTools (or *Web Inspector* as it's called there) is disabled by default. You can enable it in the Advanced tab of the Preferences.
 

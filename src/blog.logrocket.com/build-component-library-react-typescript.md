@@ -90,7 +90,7 @@ This approach will help you create a maintainable, reusable library that can evo
 
 Before we start, let’s ensure our development environment is set up for success. Here are the prerequisites:
 
-- **Node.js and npm**: Download and install the latest Node LTS version on the local machine from [<FontIcon icon="fa-brands fa-node"/>nodejs.org](https://nodejs.org/en). After installation, run the following command to check the Node and npm versions:
+- **Node.js and npm**: Download and install the latest Node LTS version on the local machine from [<VPIcon icon="fa-brands fa-node"/>nodejs.org](https://nodejs.org/en). After installation, run the following command to check the Node and npm versions:
 
 ```sh
 node -v
@@ -169,7 +169,7 @@ We can clean the previously generated project assets or create a new component l
 
 ## Create the skeleton structure of the component library
 
-Firstly, we create a new folder and a <FontIcon icon="iconfont icon-json"/>`package.json` file by running the following command:
+Firstly, we create a new folder and a <VPIcon icon="iconfont icon-json"/>`package.json` file by running the following command:
 
 ```sh
 # create a new folder
@@ -180,7 +180,7 @@ cd smart-ui
 npm init
 ```
 
-Running the `npm init` command will prompt you to answer several questions. Accept the default for all questions and a basic <FontIcon icon="iconfont icon-json"/>`package.json` will be generated.
+Running the `npm init` command will prompt you to answer several questions. Accept the default for all questions and a basic <VPIcon icon="iconfont icon-json"/>`package.json` will be generated.
 
 Next, we run the following command to install the dependencies for React and TypeScript:
 
@@ -188,15 +188,15 @@ Next, we run the following command to install the dependencies for React and Typ
 npm i react typescript @types/react tslib --save-dev
 ```
 
-After the command is completed, these dependencies are added to the <FontIcon icon="iconfont icon-json"/>`package.json` file.
+After the command is completed, these dependencies are added to the <VPIcon icon="iconfont icon-json"/>`package.json` file.
 
-To configure the TypeScript options, we need to create a <FontIcon icon="iconfont icon-json"/>`tsconfig.json` file. We can initialize it with the following command from the project’s root directory:
+To configure the TypeScript options, we need to create a <VPIcon icon="iconfont icon-json"/>`tsconfig.json` file. We can initialize it with the following command from the project’s root directory:
 
 ```sh
 npx tsc -init
 ```
 
-The newly generated <FontIcon icon="iconfont icon-json"/>`tsconfig.json` file contains a set of default options for TypeScript. We will need to replace the file contents with the following settings:
+The newly generated <VPIcon icon="iconfont icon-json"/>`tsconfig.json` file contains a set of default options for TypeScript. We will need to replace the file contents with the following settings:
 
 ```json title="tsconfig.json"
 {
@@ -228,7 +228,7 @@ Some important settings are:
 - `"skipLibCheck": true`: Skips type checking of declaration files (.d.ts), potentially speeding up compilation in large projects with numerous external dependencies
 - `"module": "esnext"`: Indicates that the module system for code compiling is ES6 and above
 - `"jsx": "react-jsx"`: Specifies the syntax for JSX (React’s JavaScript XML). `"react-jsx"` indicates that TypeScript should use React’s JSX syntax
-- `"Include": ["src"]`: Specifies that TypeScript should include files from the <FontIcon icon="fas fa-folder-open"/>`src` directory
+- `"Include": ["src"]`: Specifies that TypeScript should include files from the <VPIcon icon="fas fa-folder-open"/>`src` directory
 
 Now, we can create the project skeleton by adding the following folders:
 
@@ -246,13 +246,13 @@ mkdir smartrating
 
 After the folder structure is created, we can add the files for the new `SmartRating` component:
 
-- <FontIcon icon="fa-brands fa-react"/>`SmartRating.tsx`
-- <FontIcon icon="fa-brands fa-css3-alt"/>`SmartRating.css`
-- <FontIcon icon="iconfont icon-typescript"/>`SmartRating.types.ts`
+- <VPIcon icon="fa-brands fa-react"/>`SmartRating.tsx`
+- <VPIcon icon="fa-brands fa-css3-alt"/>`SmartRating.css`
+- <VPIcon icon="iconfont icon-typescript"/>`SmartRating.types.ts`
 
-In <FontIcon icon="iconfont icon-typescript"/>`SmartRating.types.ts`, we declare a TypeScript interface named `SmartRatingProps` representing the properties accepted by the component:
+In <VPIcon icon="iconfont icon-typescript"/>`SmartRating.types.ts`, we declare a TypeScript interface named `SmartRatingProps` representing the properties accepted by the component:
 
-<FontIcon icon="fa-brands fa-css3-alt"/>`SmartRating.css` includes the styling for the component:
+<VPIcon icon="fa-brands fa-css3-alt"/>`SmartRating.css` includes the styling for the component:
 
 ```css
 body {
@@ -289,7 +289,7 @@ span {
 }
 ```
 
-<FontIcon icon="fa-brands fa-react"/>`SmartRating.tsx` is the `SmartRating` component file. Here are its contents:
+<VPIcon icon="fa-brands fa-react"/>`SmartRating.tsx` is the `SmartRating` component file. Here are its contents:
 
 ```tsx :collapsed-lines title="SmartRating.tsx"
 import React, { useState } from "react";
@@ -327,11 +327,11 @@ The above code defines a React component called `SmartRating` that takes propert
 
 ---
 
-## Add <FontIcon icon="iconfont icon-typescript"/>`index.ts`
+## Add <VPIcon icon="iconfont icon-typescript"/>`index.ts`
 
-Next, we need to create the <FontIcon icon="iconfont icon-typescript"/>`index.ts` files. The <FontIcon icon="iconfont icon-typescript"/>`index.ts` file consolidates exports, providing a centralized entry point for the component library. It also simplifies imports for the consumer.
+Next, we need to create the <VPIcon icon="iconfont icon-typescript"/>`index.ts` files. The <VPIcon icon="iconfont icon-typescript"/>`index.ts` file consolidates exports, providing a centralized entry point for the component library. It also simplifies imports for the consumer.
 
-We create an <FontIcon icon="iconfont icon-typescript"/>`index.ts` file at each level of folders to make the library export easier. For example, in <FontIcon icon="fas fa-folder-open"/>`components/`<FontIcon icon="iconfont icon-typescript"/>`index.ts`, we can add a new `export` to <FontIcon icon="iconfont icon-typescript"/>`index.ts` when a new component is added, without needing to change <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="iconfont icon-typescript"/>`index.ts`:
+We create an <VPIcon icon="iconfont icon-typescript"/>`index.ts` file at each level of folders to make the library export easier. For example, in <VPIcon icon="fas fa-folder-open"/>`components/`<VPIcon icon="iconfont icon-typescript"/>`index.ts`, we can add a new `export` to <VPIcon icon="iconfont icon-typescript"/>`index.ts` when a new component is added, without needing to change <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="iconfont icon-typescript"/>`index.ts`:
 
 ```ts title="components/smartrating/index.ts"
 // src/components/smartrating/index.ts
@@ -354,7 +354,7 @@ The project structure looks like the one below:
 
 ## Rollup for bundling and packaging the component library
 
-We’ll [<FontIcon icon="fas fa-globe"/>use Rollup to simplify the process of bundling](https://rollupjs.org/introduction/) and packaging our React component library. Rollup is a JavaScript module bundler that packages and optimizes code for production.
+We’ll [<VPIcon icon="fas fa-globe"/>use Rollup to simplify the process of bundling](https://rollupjs.org/introduction/) and packaging our React component library. Rollup is a JavaScript module bundler that packages and optimizes code for production.
 
 Rollup is particularly good at tree-shaking to remove unused code, making it well-suited for libraries where minimizing the bundle size is critical. It also offers flexibility in generating different output formats (CommonJS, ES module, UMD, etc.), allowing library authors to cater to various project setups and environments.
 
@@ -370,7 +370,7 @@ rollup-plugin-peer-deps-external \
 rollup-plugin-dts --save-dev
 ```
 
-To customize Rollup’s bundling and processing behavior for our project, create a <FontIcon icon="fa-brands fa-js"/>`rollup.config.js` file at the root of the library project:
+To customize Rollup’s bundling and processing behavior for our project, create a <VPIcon icon="fa-brands fa-js"/>`rollup.config.js` file at the root of the library project:
 
 ```js :collapsed-lines title="rollup.config.js"
 import resolve from "@rollup/plugin-node-resolve";
@@ -416,11 +416,11 @@ export default [
 
 The above configuration file defines two bundles for a TypeScript library.
 
-The first bundle, specified by the first object in the array, targets [**CommonJS (cjs) and ECMAScript Module (ESM) formats**](/blog.logrocket.com/commonjs-vs-es-modules-node-js.md), creating separate files specified by the `main` and `module` entries in the <FontIcon icon="iconfont icon-json"/>`package.json`. It includes plugins for handling external dependencies, resolving modules, transpiling TypeScript, and minifying the output with `terser`.
+The first bundle, specified by the first object in the array, targets [**CommonJS (cjs) and ECMAScript Module (ESM) formats**](/blog.logrocket.com/commonjs-vs-es-modules-node-js.md), creating separate files specified by the `main` and `module` entries in the <VPIcon icon="iconfont icon-json"/>`package.json`. It includes plugins for handling external dependencies, resolving modules, transpiling TypeScript, and minifying the output with `terser`.
 
-The second bundle, specified by the second object in the array, generates a type declaration file (<FontIcon icon="iconfont icon-typescript"/>`types.d.ts`) using the `dts` plugin, providing TypeScript type information for the library.
+The second bundle, specified by the second object in the array, generates a type declaration file (<VPIcon icon="iconfont icon-typescript"/>`types.d.ts`) using the `dts` plugin, providing TypeScript type information for the library.
 
-Another change to set up Rollup is to add the following entries to the <FontIcon icon="iconfont icon-json"/>`package.json` file:
+Another change to set up Rollup is to add the following entries to the <VPIcon icon="iconfont icon-json"/>`package.json` file:
 
 ```json title="package.json"
 {
@@ -449,13 +449,13 @@ Here is the explanation of the additional settings:
 
 In our library, we’ll use a CSS file to separate the styles away from the component file by default.
 
-Rollup doesn’t know how to process the CSS file. To enable Rollup to handle CSS files, we need to add the plugin named <FontIcon icon="fa-brands fa-npm"/>`rollup-plugin-postcss`. Run the following command to install it:
+Rollup doesn’t know how to process the CSS file. To enable Rollup to handle CSS files, we need to add the plugin named <VPIcon icon="fa-brands fa-npm"/>`rollup-plugin-postcss`. Run the following command to install it:
 
 ```sh
 npm install rollup-plugin-postcss --save-dev
 ```
 
-We also need to change the Rollup configuration for CSS support in <FontIcon icon="fa-brands fa-js"/>`rollup.config.js`:
+We also need to change the Rollup configuration for CSS support in <VPIcon icon="fa-brands fa-js"/>`rollup.config.js`:
 
 Now, we can build the library using the Rollup script command:
 
@@ -463,7 +463,7 @@ Now, we can build the library using the Rollup script command:
 npm run rollup
 ```
 
-After running the above command, we should see a new <FontIcon icon="fas fa-folder-open"/>`dist` directory created in the root directory. The new directory contains the generated library artifacts.
+After running the above command, we should see a new <VPIcon icon="fas fa-folder-open"/>`dist` directory created in the root directory. The new directory contains the generated library artifacts.
 
 ---
 
@@ -487,7 +487,7 @@ const SmartRating: React.FC<SmartRatingProps> = (props) => {...}
 
 We define the TypeScript interface `SmartRatingProps`. This interface specifies the expected shape of the component’s props, ensuring clarity and enforcing specific types.
 
-The <FontIcon icon="fa-brands fa-react"/>`SmartRating.tsx` file uses the defined interface in the `React.FC` (Functional Component) declaration. TypeScript ensures that the provided `props` parameter adheres to the defined `SmartRatingProps` interface, preventing potential runtime errors related to incorrect prop types.
+The <VPIcon icon="fa-brands fa-react"/>`SmartRating.tsx` file uses the defined interface in the `React.FC` (Functional Component) declaration. TypeScript ensures that the provided `props` parameter adheres to the defined `SmartRatingProps` interface, preventing potential runtime errors related to incorrect prop types.
 
 For example, if we remove an existing `props` (i.e., `theme`) and forget to update the component file, the TypeScript compiler will throw the following error at compile time:
 
@@ -515,9 +515,9 @@ npx sb init
 
 The above command will prompt us to select a project builder; we can accept the default Vite option.
 
-After completing the command, it configures Storybook with default settings and creates necessary files and folders (e.g., <FontIcon icon="fas fa-folder-open"/>`.storybook` directory) for Storybook integration. It also generates a <FontIcon icon="fas fa-folder-open"/>`stories` directory within the `src` directory, containing pre-built templates that serve as examples for creating our own stories.
+After completing the command, it configures Storybook with default settings and creates necessary files and folders (e.g., <VPIcon icon="fas fa-folder-open"/>`.storybook` directory) for Storybook integration. It also generates a <VPIcon icon="fas fa-folder-open"/>`stories` directory within the `src` directory, containing pre-built templates that serve as examples for creating our own stories.
 
-Additionally, we also observe new dependencies and script commands in <FontIcon icon="iconfont icon-json"/>`package.json`:
+Additionally, we also observe new dependencies and script commands in <VPIcon icon="iconfont icon-json"/>`package.json`:
 
 ```json title="package.json"
 {
@@ -530,7 +530,7 @@ Additionally, we also observe new dependencies and script commands in <FontIcon 
 
 Storybook is successfully configured. Now, it’s time to create our first story.
 
-Create a new file in the `smartrating` folder named <FontIcon icon="fa-brands fa-react"/>`SmartRating.stories.tsx`:
+Create a new file in the `smartrating` folder named <VPIcon icon="fa-brands fa-react"/>`SmartRating.stories.tsx`:
 
 ```tsx :collapsed-lines title="smartRating.stories.tsx"
 import { StoryFn, Meta } from "@storybook/react";
@@ -600,7 +600,7 @@ npm install identity-obj-proxy -save-dev
 
 The above commands install the React Testing Library, Jest, Babel, and its Jest dependencies for transpiling and testing React components with TypeScript. We also install `identity-obj-proxy`, which allows Jest to treat all types of imports (CSS, LESS, and SCSS) as generic objects. Specifically, we can configure it for CSS files to prevent any errors in testing.
 
-Next, we need to add configuration files for Jest and Babel. Create the <FontIcon icon="fa-brands fa-js"/>`jest.config.js` and <FontIcon icon="fa-brands fa-js"/>`babel.config.js` in the root project directory with the following contents:
+Next, we need to add configuration files for Jest and Babel. Create the <VPIcon icon="fa-brands fa-js"/>`jest.config.js` and <VPIcon icon="fa-brands fa-js"/>`babel.config.js` in the root project directory with the following contents:
 
 ```js title="jest.config.js"
 module.exports = {
@@ -621,11 +621,11 @@ module.exports = {
 };
 ```
 
-In <FontIcon icon="fa-brands fa-js"/>`jest.config.js`, we set the Jest test environment to `jsdom` for simulating a browser environment for testing. Then, we set the `moduleNameMapper` property for CSS, LESS, and SCSS file imports in tests, allowing them to be mocked without actual styling.
+In <VPIcon icon="fa-brands fa-js"/>`jest.config.js`, we set the Jest test environment to `jsdom` for simulating a browser environment for testing. Then, we set the `moduleNameMapper` property for CSS, LESS, and SCSS file imports in tests, allowing them to be mocked without actual styling.
 
-In <FontIcon icon="fa-brands fa-js"/>`babel.config.js`, we configure Babel presets for transpiling JavaScript, React, and TypeScript code in the project, ensuring compatibility and proper compilation during testing.
+In <VPIcon icon="fa-brands fa-js"/>`babel.config.js`, we configure Babel presets for transpiling JavaScript, React, and TypeScript code in the project, ensuring compatibility and proper compilation during testing.
 
-Now, we can create a test file named <FontIcon icon="fa-brands fa-react"/>`SmartRating.test.tsx` in the <FontIcon icon="fas fa-folder-open"/>`smartrating` directory:
+Now, we can create a test file named <VPIcon icon="fa-brands fa-react"/>`SmartRating.test.tsx` in the <VPIcon icon="fas fa-folder-open"/>`smartrating` directory:
 
 ```js :collapsed-lines title="smartrating/SmartRating.test.tsx"
 import React from "react";
@@ -659,7 +659,7 @@ This test uses the React Testing Library and `user-event` to test the `SmartRati
 - The first test renders the component with specific props and asserts that the rendered component has the correct title and contains five buttons representing the stars
 - The second test simulates a user clicking each star in the `SmartRating` component asynchronously, then it verifies that clicking each star activates it by checking the change in the star’s CSS class to `starActive`
 
-The last step is to add the following script command in <FontIcon icon="iconfont icon-json"/>`package.json`:
+The last step is to add the following script command in <VPIcon icon="iconfont icon-json"/>`package.json`:
 
 ```json title="package.json"
 {
@@ -693,7 +693,7 @@ Besides the typical dependencies, there are other types of dependencies includin
 - **Peer dependencies**: These are external dependencies that our library expects its consumers to provide. They are not bundled with the library, and instead, the consumer is expected to install them as direct dependencies
 - **Dev dependencies**: Dev dependencies are necessary during the development and testing phase but are not required for the runtime functionality of the project or library. For example, those testing libraries are dev dependencies
 
-We currently have all the dependencies under the `devDependencies` in <FontIcon icon="iconfont icon-json"/>`package.json`. To manage the dependencies better, we want to move the following dependencies into `peerDependencies`:
+We currently have all the dependencies under the `devDependencies` in <VPIcon icon="iconfont icon-json"/>`package.json`. To manage the dependencies better, we want to move the following dependencies into `peerDependencies`:
 
 ```json title="package.json"
 {
@@ -706,15 +706,15 @@ We currently have all the dependencies under the `devDependencies` in <FontIcon 
 
 Moving `react` and `react-dom` to peer dependencies in our library is beneficial because it allows consumers of the library to use their version of React. This flexibility prevents version conflicts, fostering a more seamless integration experience.
 
-### Multiple <FontIcon icon="iconfont icon-typescript"/>`index.ts` files
+### Multiple <VPIcon icon="iconfont icon-typescript"/>`index.ts` files
 
-In our component library, we use multiple <FontIcon icon="iconfont icon-typescript"/>`index.ts` files in different levels of directories. They serve specific purposes, making our library exporting easier to organize:
+In our component library, we use multiple <VPIcon icon="iconfont icon-typescript"/>`index.ts` files in different levels of directories. They serve specific purposes, making our library exporting easier to organize:
 
-- **In the root directory**: At the library’s root, an <FontIcon icon="iconfont icon-typescript"/>`index.ts` file can serve as the main entry point, re-exporting components or modules from various directories. This consolidates the library’s public API
-- **In the components directory**: Use <FontIcon icon="iconfont icon-typescript"/>`index.ts` files within the component directory to export components or modules, providing a clean and organized entry point
-- **In the individual component directory**: When organizing components into nested directories, each subdirectory can have its <FontIcon icon="iconfont icon-typescript"/>`index.ts` file, aggregating and exporting components within that directory. This modular structure aids in navigation
+- **In the root directory**: At the library’s root, an <VPIcon icon="iconfont icon-typescript"/>`index.ts` file can serve as the main entry point, re-exporting components or modules from various directories. This consolidates the library’s public API
+- **In the components directory**: Use <VPIcon icon="iconfont icon-typescript"/>`index.ts` files within the component directory to export components or modules, providing a clean and organized entry point
+- **In the individual component directory**: When organizing components into nested directories, each subdirectory can have its <VPIcon icon="iconfont icon-typescript"/>`index.ts` file, aggregating and exporting components within that directory. This modular structure aids in navigation
 
-By organizing code with multiple <FontIcon icon="iconfont icon-typescript"/>`index.ts` files, the component library becomes more modular and maintainable, simplifying both development and integration for consumers.
+By organizing code with multiple <VPIcon icon="iconfont icon-typescript"/>`index.ts` files, the component library becomes more modular and maintainable, simplifying both development and integration for consumers.
 
 ---
 
@@ -724,7 +724,7 @@ Finally, we are ready to publish our component library as an npm package. Publis
 
 ### Update version
 
-Before we start the publishing process, we need to update the library version in <FontIcon icon="iconfont icon-json"/>`package.json` following the SemVer convention.
+Before we start the publishing process, we need to update the library version in <VPIcon icon="iconfont icon-json"/>`package.json` following the SemVer convention.
 
 Semantic Versioning (SemVer) is a versioning convention for software that uses three numbers (major, minor, patch) to communicate the nature of changes:
 
@@ -772,7 +772,7 @@ Congratulations! Our new React component library is published and available for 
 
 Building, packaging, and publishing a React component library with TypeScript offers valuable benefits: enhanced reusability, improved type safety, and a foundation for consistent UI development across projects. However, challenges like managing versioning, handling dependencies, and conducting thorough testing require careful planning.
 
-Consider creating your own custom React component library to streamline the development for teams and ensure UI scaling across projects. Please feel free to share your thoughts or leave a comment below. You can find the [example source code on GitHub (<FontIcon icon="iconfont icon-github"/>`sunnyy02/smart-ui`)](https://github.com/sunnyy02/smart-ui).
+Consider creating your own custom React component library to streamline the development for teams and ensure UI scaling across projects. Please feel free to share your thoughts or leave a comment below. You can find the [example source code on GitHub (<VPIcon icon="iconfont icon-github"/>`sunnyy02/smart-ui`)](https://github.com/sunnyy02/smart-ui).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

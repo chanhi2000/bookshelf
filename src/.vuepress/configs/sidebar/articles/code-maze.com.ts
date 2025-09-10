@@ -55,6 +55,9 @@ const Y2019: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2019
+    "dependency-inversion-principle", // 2019-01-28
+    "interface-segregation-principle", // 2019-01-21
+    "liskov-substitution-principle", // 2019-01-07
   ]
 }
 
@@ -63,6 +66,8 @@ const Y2018: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2018
+    "open-closed-principle", // 2018-12-31
+    "single-responsibility-principle", // 2018-12-24
     "csharp-delegates", // 2018-10-31
     "csharp-generic-list-dictionary", // 2018-10-26
     "csharp-queue-stack-hashtable", // 2018-10-24
@@ -134,7 +139,12 @@ export const template: SidebarInfoTemplate = {
       "csharp-queue-stack-hashtable", // 2018-10-24
       "csharp-generic-list-dictionary", // 2018-10-26
       "csharp-delegates", // 2018-10-31
+      "single-responsibility-principle", // 2018-12-24
+      "open-closed-principle", // 2018-12-31
       // END: 2018cs
+      "liskov-substitution-principle", // 2019-01-07
+      "interface-segregation-principle", // 2019-01-21
+      "dependency-inversion-principle", // 2019-01-28
       // END: 2019cs
       "aspnet-configuration-providers", // 2020-09-08
       // END: 2020cs
@@ -192,12 +202,7 @@ export const template: SidebarInfoTemplate = {
       "netcore-signalr-angular-realtime-charts", // 2022-05-05
       "consuming-github-api-rest-with-flurl", // 2024-02-05
       "upload-files-dot-net-core-angular", // 2024-01-31
-      "single-responsibility-principle", // 2022-01-13
-      "open-closed-principle", // 2022-01-13
-      "liskov-substitution-principle", // 2022-01-13
       "dalsoft-restclient-consume-any-rest-api", // 2022-10-11
-      "interface-segregation-principle", // 2022-01-13
-      "dependency-inversion-principle", // 2022-01-13
       "dynamic-type-csharp", // 2022-08-03
       "builder-design-pattern", // 2022-01-13
       "fluent-builder-recursive-generics", // 2022-01-13
@@ -649,12 +654,7 @@ export const template: SidebarInfoTemplate = {
       "netcore-signalr-angular-realtime-charts", // 2022-05-05
       "consuming-github-api-rest-with-flurl", // 2024-02-05
       "upload-files-dot-net-core-angular", // 2024-01-31
-      "single-responsibility-principle", // 2022-01-13
-      "open-closed-principle", // 2022-01-13
-      "liskov-substitution-principle", // 2022-01-13
       "dalsoft-restclient-consume-any-rest-api", // 2022-10-11
-      "interface-segregation-principle", // 2022-01-13
-      "dependency-inversion-principle", // 2022-01-13
       "dynamic-type-csharp", // 2022-08-03
       "builder-design-pattern", // 2022-01-13
       "fluent-builder-recursive-generics", // 2022-01-13

@@ -66,11 +66,11 @@ The content of this tutorial was restructured and updated on 10 January 2024. In
 
 Conditional rendering in React refers to the process of delivering elements and components based on certain conditions. Often, you encounter scenarios where the visual representation of your UI components needs to be adjusted using JSX, depending on varying circumstances. This is where conditional rendering comes in.
 
-There are several ways you can implement conditional rendering in React. This tutorial covers the most popular options, while also reviewing some tips and best practices. You can fork all the examples in [<FontIcon icon="fas fa-globe"/>JSFiddle](https://jsfiddle.net/) to follow along.
+There are several ways you can implement conditional rendering in React. This tutorial covers the most popular options, while also reviewing some tips and best practices. You can fork all the examples in [<VPIcon icon="fas fa-globe"/>JSFiddle](https://jsfiddle.net/) to follow along.
 
 ::: note N.B.
 
-Although class components are still supported by React and the examples below illustrate their use, I suggest that you tweak the code examples with [<FontIcon icon="fa-brands fa-react"/>functions](https://react.dev/reference/react/Component#alternatives) instead of classes.
+Although class components are still supported by React and the examples below illustrate their use, I suggest that you tweak the code examples with [<VPIcon icon="fa-brands fa-react"/>functions](https://react.dev/reference/react/Component#alternatives) instead of classes.
 
 :::
 
@@ -266,7 +266,7 @@ Let’s look at some additional methods for conditional rendering to improve thi
 
 ## The ternary operator in React
 
-The [<FontIcon icon="fa-brands fa-firefox"/>ternary conditional operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) provides a cleaner and more concise alternative to an `if...else` block:
+The [<VPIcon icon="fa-brands fa-firefox"/>ternary conditional operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) provides a cleaner and more concise alternative to an `if...else` block:
 
 ```js
 condition ? expr_if_true : expr_if_false
@@ -569,7 +569,7 @@ export default App;
 
 One advantage of returning `null` instead of an empty element is that you’ll improve the performance of your app a bit because React won’t have to unmount the component to replace it.
 
-For example, if you open the **Inspector** tab from the [Fiddle (<FontIcon icon="fa-brands fa-jsfiddle"/>`eh3rrera`)](https://jsfiddle.net/eh3rrera/q0w1aamt/) that renders the empty `<div>` element, you’ll see how the `<div>` element under the root is always updated:
+For example, if you open the **Inspector** tab from the [Fiddle (<VPIcon icon="fa-brands fa-jsfiddle"/>`eh3rrera`)](https://jsfiddle.net/eh3rrera/q0w1aamt/) that renders the empty `<div>` element, you’ll see how the `<div>` element under the root is always updated:
 
 ![Rendering The Empty `<div>` Element From Fiddle](/assets/image/blog.logrocket.com/react-conditional-rendering-9-methods/rendering-div-element-from-fiddle.webp)
 
@@ -577,7 +577,7 @@ This differs from when `null` is returned to hide the component and the `<div>` 
 
 ![The `<div>` element is not updated when the edit button is clicked](/assets/image/blog.logrocket.com/react-conditional-rendering-9-methods/div-element-not-updated-edit-button-clicked.webp)
 
-You can check out the React docs to learn more about how [<FontIcon icon="fa-brands fa-react"/>React preserves and resets states](https://react.dev/learn/preserving-and-resetting-state).
+You can check out the React docs to learn more about how [<VPIcon icon="fa-brands fa-react"/>React preserves and resets states](https://react.dev/learn/preserving-and-resetting-state).
 
 Although the performance improvement is insignificant in this simple example, when you are working with big components, the difference is more noticeable. Later, we’ll cover more of the performance implications of conditional rendering. For now, let’s continue to improve our example.
 
@@ -730,9 +730,9 @@ render() {
 
 Here’s the complete Fiddle:  
 
-Libraries like [JSX Control Statements (<FontIcon icon="iconfont icon-github"/>`AlexGilleran/jsx-control-statements`)](https://github.com/AlexGilleran/jsx-control-statements) (which is actually a Babel plugin) extend JSX to add conditional statements.
+Libraries like [JSX Control Statements (<VPIcon icon="iconfont icon-github"/>`AlexGilleran/jsx-control-statements`)](https://github.com/AlexGilleran/jsx-control-statements) (which is actually a Babel plugin) extend JSX to add conditional statements.
 
-These libraries provide more advanced components, but if we need something like a simple `if...else`, we can use a solution similar to [Michael J. Ryan’s in the comments for this issue (<FontIcon icon="iconfont icon-github"/>`facebook/jsx`)](https://github.com/facebook/jsx/issues/65#issuecomment-255484351):
+These libraries provide more advanced components, but if we need something like a simple `if...else`, we can use a solution similar to [Michael J. Ryan’s in the comments for this issue (<VPIcon icon="iconfont icon-github"/>`facebook/jsx`)](https://github.com/facebook/jsx/issues/65#issuecomment-255484351):
 
 ```jsx
 const If = (props) => {
@@ -825,7 +825,7 @@ A [**higher-order component (HOC)**](/blog.logrocket.com/understanding-react-hig
 
 Applied to conditional rendering, a HOC could return a different component than the one passed based on some condition. However, this conditional rendering approach is now legacy and not commonly used in newer versions of React.
 
-For this article, I’m going to borrow the concepts of the [<FontIcon icon="fas fa-globe"/>`EitherComponent` from Robin Wieruch](https://robinwieruch.de/react-higher-order-components/).
+For this article, I’m going to borrow the concepts of the [<VPIcon icon="fas fa-globe"/>`EitherComponent` from Robin Wieruch](https://robinwieruch.de/react-higher-order-components/).
 
 In functional programming, the `Either` type is commonly used as a wrapper to return two different values. Let’s begin by creating a function that accepts two arguments: the first is a function that yields a Boolean value as a result of a conditional evaluation, and the second is a component that will be returned if the Boolean value is true.
 
@@ -890,7 +890,7 @@ The outcome of this may result in harder-to-identify bugs. If the component that
 
 ## Conditional rendering with Fragments
 
-How do you render multiple child components depending on a certain condition? The answer is by using [<FontIcon icon="fa-brands fa-react"/>Fragments](https://react.dev/reference/react/Fragment). Fragments allow you to return multiple elements by grouping them without adding an extra node to the DOM.
+How do you render multiple child components depending on a certain condition? The answer is by using [<VPIcon icon="fa-brands fa-react"/>Fragments](https://react.dev/reference/react/Fragment). Fragments allow you to return multiple elements by grouping them without adding an extra node to the DOM.
 
 You can use Fragments with their traditional syntax:
 
@@ -1025,7 +1025,7 @@ function Doubler() {
 
 ### Limitations to React Hooks
 
-The only caveat is that you can’t conditionally call a Hook so it isn’t always executed. According to the [<FontIcon icon="fa-brands fa-react"/>modern React documentation](https://react.dev/learn/manipulating-the-dom-with-refs#how-to-manage-a-list-of-refs-using-a-ref-callback), you shouldn’t call Hooks inside loops, conditions, or nested functions. Instead, always use Hooks at the top level of your React function.
+The only caveat is that you can’t conditionally call a Hook so it isn’t always executed. According to the [<VPIcon icon="fa-brands fa-react"/>modern React documentation](https://react.dev/learn/manipulating-the-dom-with-refs#how-to-manage-a-list-of-refs-using-a-ref-callback), you shouldn’t call Hooks inside loops, conditions, or nested functions. Instead, always use Hooks at the top level of your React function.
 
 By following this rule, you ensure that Hooks are called in the same order each time a component renders. That’s what allows React to correctly preserve the state of Hooks between multiple `useState` and `useEffect` calls.
 
@@ -1055,7 +1055,7 @@ With this, we are done exploring different methods to achieve conditional render
 
 ## Performance considerations for conditional rendering
 
-Conditional rendering can be tricky. In many cases, the performance impact achieved by different conditional rendering options may not be significant. But, in scenarios where performance is crucial, you’ll need a good understanding of how React works with the virtual DOM and strategies to [<FontIcon icon="fa-brands fa-react"/>optimize performance](https://react.dev/reference/react/memo#skipping-re-rendering-when-props-are-unchanged).
+Conditional rendering can be tricky. In many cases, the performance impact achieved by different conditional rendering options may not be significant. But, in scenarios where performance is crucial, you’ll need a good understanding of how React works with the virtual DOM and strategies to [<VPIcon icon="fa-brands fa-react"/>optimize performance](https://react.dev/reference/react/memo#skipping-re-rendering-when-props-are-unchanged).
 
 The essential idea is that changing the position of the components due to conditional rendering can cause a reflow that will unmount/mount the components of the app. Based on the example of the article, I created two JSFiddles.
 

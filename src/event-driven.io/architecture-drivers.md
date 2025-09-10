@@ -54,9 +54,9 @@ cover: https://event-driven.io/static/d3ac5b456d98d37dcfd581c62fcf25d1/2a4de/202
 
 **I don’t feel like an authority or an expert. I prefer to think about myself as a practitioner.** Our industry is filled with self-proclaimed experts; we need more doers.
 
-**For similar reasons, I was reluctant to call myself an “Architect” for a long time.** Somehow, it became pejorative, but should it be? I changed my mind thanks to [Jarek Pałka (<FontIcon icon="fa-brands fa-linkedin"/>`jpalka`)](https://linkedin.com/in/jpalka/), who says that “we all are architects”. It’s a simple line but multidimensional. That means (to me) that we all are responsible for making our systems work as they should. It’s not about bragging but accountability.
+**For similar reasons, I was reluctant to call myself an “Architect” for a long time.** Somehow, it became pejorative, but should it be? I changed my mind thanks to [Jarek Pałka (<VPIcon icon="fa-brands fa-linkedin"/>`jpalka`)](https://linkedin.com/in/jpalka/), who says that “we all are architects”. It’s a simple line but multidimensional. That means (to me) that we all are responsible for making our systems work as they should. It’s not about bragging but accountability.
 
-**Still, I never feel comfortable being asked about Software Architecture Drivers.** How do you give someone a checklist for good software? Yet I had to answer this time, as [Maciej Jędrzejewski (<FontIcon icon="fa-brands fa-linkedin"/>`jedrzejewski-maciej`)](https://linkedin.com/in/jedrzejewski-maciej/) asked me if I could write my thoughts [<FontIcon icon="fas fa-globe"/>to his new book](https://leanpub.com/master-software-architecture). How could I reject the offer? Actually, I could, as it surprised me, but hey, maybe my few words will help others fight their impostor syndrome. Or it was just too flattering. Nevertheless, here they are!
+**Still, I never feel comfortable being asked about Software Architecture Drivers.** How do you give someone a checklist for good software? Yet I had to answer this time, as [Maciej Jędrzejewski (<VPIcon icon="fa-brands fa-linkedin"/>`jedrzejewski-maciej`)](https://linkedin.com/in/jedrzejewski-maciej/) asked me if I could write my thoughts [<VPIcon icon="fas fa-globe"/>to his new book](https://leanpub.com/master-software-architecture). How could I reject the offer? Actually, I could, as it surprised me, but hey, maybe my few words will help others fight their impostor syndrome. Or it was just too flattering. Nevertheless, here they are!
 
 It’s funny that we called our industry **SOFTware**, but it’s all about making **HARD decisions**. Usually, we make them when we’re the dumbest: we don’t know the business domain, we don’t know the user needs, and we are unsure of technology choices. Plus, even if we do, our changing environment is open to proving us wrong.
 
@@ -85,7 +85,7 @@ We should [**optimise not for maintainability but for removability**](/en/remova
 
 **What are your architecture drivers? Or better, what’s your process?**
 
-**Check also Maciej’s book [“<FontIcon icon="fas fa-globe"/>Master Software Architecture Book”](https://leanpub.com/master-software-architecture).** I’m still in front of reading it till the end. But I like what I see so far; the outline and range of topics show the holistic, actionable vision of building software. And, most importantly, it’s not pompous.
+**Check also Maciej’s book [“<VPIcon icon="fas fa-globe"/>Master Software Architecture Book”](https://leanpub.com/master-software-architecture).** I’m still in front of reading it till the end. But I like what I see so far; the outline and range of topics show the holistic, actionable vision of building software. And, most importantly, it’s not pompous.
 
 I think getting more books/talks like that would be great. We need more books in the spirit of “this is my story, this is why I think it’s important and worked out for me. “. It’s good that it’s from a personal perspective, allowing us to compare or benchmark it to our vision and experience.
 
@@ -110,7 +110,7 @@ If you need even more architecture benchmarks, I have gathered some of my past a
 - [What does Mr Bean opening the car have to do with programming?](/en/what_does_mr_bean_opening_the_car_have_to_do_with_programming/)
 - [What does a construction failure have to do with our authorities?](/en/what_does_a_construction_failure_have_to_do_with_our_authorities/)
 
-**And check [<FontIcon icon="fas fa-globe"/>Architecture Weekly](https://architecture-weekly.com/) where I’m showing my less-event-driven face every week!**
+**And check [<VPIcon icon="fas fa-globe"/>Architecture Weekly](https://architecture-weekly.com/) where I’m showing my less-event-driven face every week!**
 
 Cheers!
 

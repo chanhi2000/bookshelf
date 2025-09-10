@@ -124,7 +124,7 @@ You can also solve this problem using optimistic concurrency with EF Core. It do
 
 To implement optimistic concurrency in EF Core, you need to configure a property as a *concurrency token*. It's loaded and tracked with the entity. When you call `SaveChanges`, EF Core will compare the value of the concurrency token to the value in the database.
 
-Let's assume we're using SQL Server, which has a native [<FontIcon icon="fa-brands fa-microsoft"/>`rowversion`](https://learn.microsoft.com/en-us/sql/t-sql/data-types/rowversion-transact-sql?view=sql-server-ver16) column. The `rowversion` automatically changes when the row is updated, so it's a great option for a concurrency token.
+Let's assume we're using SQL Server, which has a native [<VPIcon icon="fa-brands fa-microsoft"/>`rowversion`](https://learn.microsoft.com/en-us/sql/t-sql/data-types/rowversion-transact-sql?view=sql-server-ver16) column. The `rowversion` automatically changes when the row is updated, so it's a great option for a concurrency token.
 
 To configure a `byte[]` property as a concurrency token you can decorate it with the `Timestamp` attribute. It will be mapped to a `rowversion` column in SQL Server.
 
@@ -188,7 +188,7 @@ Now that you know how to use optimistic concurrency with EF Core, you can fix th
 
 If two concurrent requests pass the `IsOverlapping` check, only one can complete the `SaveChanges` call. The other concurrent request will run into a `Version` mismatch in the database and throw a `DbUpdateConcurrencyException`.
 
-In case of a concurrency conflict, we need to add a `try-catch` statement to catch the `DbUpdateConcurrencyException`. How you handle the actual exception depends on your business requirements. And sometimes, [<FontIcon icon="fas fa-globe"/>race conditions](https://go.particular.net/milanjovanovic/raceconditions) might not even exist.
+In case of a concurrency conflict, we need to add a `try-catch` statement to catch the `DbUpdateConcurrencyException`. How you handle the actual exception depends on your business requirements. And sometimes, [<VPIcon icon="fas fa-globe"/>race conditions](https://go.particular.net/milanjovanovic/raceconditions) might not even exist.
 
 ```cs{24}
 public Result<Guid> Handle(

@@ -54,7 +54,7 @@ cover: /assets/image/blog.logrocket.com/making-django-migrations-python/banner.p
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/making-django-migrations-python/banner.png"/>
 
-Python’s [<FontIcon icon="iconfont icon-django"/>Django web framework](https://djangoproject.com/) abstracts away much of the complexity when building web applications. One of its key facets is the ability to dynamically interact with a given database on a user’s behalf.
+Python’s [<VPIcon icon="iconfont icon-django"/>Django web framework](https://djangoproject.com/) abstracts away much of the complexity when building web applications. One of its key facets is the ability to dynamically interact with a given database on a user’s behalf.
 
 ![Django Migrations With Python](/assets/image/blog.logrocket.com/making-django-migrations-python/banner.png)
 
@@ -66,13 +66,13 @@ In this tutorial, you’ll work closely with Django migrations to manage a SQL d
 
 ## What is Django?
 
-Django is a popular web framework that allows developers to quickly spin up a web application. Touted as “the web framework for perfectionists with deadlines,” [<FontIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) takes care of many low-level functions that can slow the development process.
+Django is a popular web framework that allows developers to quickly spin up a web application. Touted as “the web framework for perfectionists with deadlines,” [<VPIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) takes care of many low-level functions that can slow the development process.
 
-Django offers out-of-the-box capabilities for routing URLs, authenticating users, and interfacing with databases. This is particularly useful for those who have little to no experience with Structured Query Language ([<FontIcon icon="fa-brands fa-wikipedia-w"/>SQL](https://en.wikipedia.org/wiki/SQL)).
+Django offers out-of-the-box capabilities for routing URLs, authenticating users, and interfacing with databases. This is particularly useful for those who have little to no experience with Structured Query Language ([<VPIcon icon="fa-brands fa-wikipedia-w"/>SQL](https://en.wikipedia.org/wiki/SQL)).
 
 SQL is a domain-specific programming language that is used to interact with a relational database management system. Using SQL, one can create, read, update, and remove the records in a given database. However, the intricacies of SQL can be quite complex, and running improper queries can quickly result in the loss of sensitive or irretrievable data.
 
-Django solves this problem by using an [<FontIcon icon="fa-brands fa-wikipedia-w"/>object-relational mapper](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) to interface with the database on your behalf. In other words, you tell Django what structure you want the database to have, and Django takes care of translating your Python instructions to SQL queries to be executed on your chosen database. While you can still write SQL if needed, you don’t have to: you simply define your data models in Python, and Django takes care of the rest.
+Django solves this problem by using an [<VPIcon icon="fa-brands fa-wikipedia-w"/>object-relational mapper](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) to interface with the database on your behalf. In other words, you tell Django what structure you want the database to have, and Django takes care of translating your Python instructions to SQL queries to be executed on your chosen database. While you can still write SQL if needed, you don’t have to: you simply define your data models in Python, and Django takes care of the rest.
 
 Here’s an example of a Django data model:
 
@@ -222,7 +222,7 @@ tree
 # 2 directories, 10 files
 ```
 
-At the top of the tree, there’s a new database file, <FontIcon icon="iconfont icon-sqlite"/>`db.sqlite3`. This is a SQLite database, which is the default database that Django creates for local development and testing purposes.
+At the top of the tree, there’s a new database file, <VPIcon icon="iconfont icon-sqlite"/>`db.sqlite3`. This is a SQLite database, which is the default database that Django creates for local development and testing purposes.
 
 You can use the `dbshell` management command to examine the new database and confirm that Django has created the tables:
 
@@ -297,9 +297,9 @@ tree rockets/
 # 1 directory, 7 files
 ```
 
-There’s a <FontIcon icon="fa-brands fa-python"/>`models.py` file, which you’ll use to define your data model, as well as a `migrations/` folder for Django to store the instructions for turning your data models into database tables.
+There’s a <VPIcon icon="fa-brands fa-python"/>`models.py` file, which you’ll use to define your data model, as well as a `migrations/` folder for Django to store the instructions for turning your data models into database tables.
 
-Let’s move the `Rocket` data model we saw earlier into the <FontIcon icon="fa-brands fa-python"/>`models.py` file. Open the file in your text editor and paste in the code:
+Let’s move the `Rocket` data model we saw earlier into the <VPIcon icon="fa-brands fa-python"/>`models.py` file. Open the file in your text editor and paste in the code:
 
 ```py
 from django.db import models
@@ -324,7 +324,7 @@ python3 manage.py makemigrations rockets
 
 The output you see is Django confirming that you want to create a migration file for the `rockets` app, within which you’ve defined a new model named `Rocket`.
 
-The instructions for this data model are saved in the <FontIcon icon="fas fa-folder-open"/>`migrations/` folder, with the file name <FontIcon icon="fa-brands fa-python"/>`0001_initial.py`. You can open this file and confirm that the changes Django is going to make match what you’ve specified in your <FontIcon icon="fa-brands fa-python"/>`models.py` file.
+The instructions for this data model are saved in the <VPIcon icon="fas fa-folder-open"/>`migrations/` folder, with the file name <VPIcon icon="fa-brands fa-python"/>`0001_initial.py`. You can open this file and confirm that the changes Django is going to make match what you’ve specified in your <VPIcon icon="fa-brands fa-python"/>`models.py` file.
 
 Once you’ve confirmed the instructions are correct, you can tell Django to apply them with the `migrate` command:
 
@@ -535,7 +535,7 @@ python3 manage.py migrate rockets
 
 This error message is saying that your data model does not match what’s currently in the database. When you deleted the migrations field, you deleted the instructions that said to change the `launch_date` field. However, your Django model itself still reflects this change.
 
-To fix this, you need to go into your<FontIcon icon="fa-brands fa-python"/> `models.py` file and manually reverse the change as well:
+To fix this, you need to go into your<VPIcon icon="fa-brands fa-python"/> `models.py` file and manually reverse the change as well:
 
 ```py{5} title="models.py"
 from django.db import models

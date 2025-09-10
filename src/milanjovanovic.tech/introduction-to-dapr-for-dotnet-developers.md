@@ -58,7 +58,7 @@ Building distributed systems has never been more important—or more challenging
 
 What if there was a better way?
 
-Enter [<FontIcon icon="fas fa-globe"/>Dapr](https://dapr.io/) (Distributed Application Runtime), an open-source project that handles the complex infrastructure challenges so you can focus on what matters most: your application's business logic.
+Enter [<VPIcon icon="fas fa-globe"/>Dapr](https://dapr.io/) (Distributed Application Runtime), an open-source project that handles the complex infrastructure challenges so you can focus on what matters most: your application's business logic.
 
 In this article, we'll explore how Dapr transforms microservice development for .NET developers by:
 
@@ -73,7 +73,7 @@ Whether you're building your first microservice or evolving a complex system, Da
 
 ## What is Dapr?
 
-[<FontIcon icon="fas fa-globe"/>Dapr](https://dapr.io/) is a portable, event-driven runtime that simplifies building microservices. As a graduated project within the [<FontIcon icon="fas fa-globe"/>Cloud Native Computing Foundation](https://cncf.io/) (CNCF), Dapr has proven its value in production environments.
+[<VPIcon icon="fas fa-globe"/>Dapr](https://dapr.io/) is a portable, event-driven runtime that simplifies building microservices. As a graduated project within the [<VPIcon icon="fas fa-globe"/>Cloud Native Computing Foundation](https://cncf.io/) (CNCF), Dapr has proven its value in production environments.
 
 At its core, Dapr provides standardized building blocks that abstract away the complexity of common microservice patterns. Rather than wrestling with infrastructure-specific code, you can focus on your business logic while Dapr handles the rest.
 
@@ -114,9 +114,9 @@ The underlying providers can be swapped without code changes - just by updating 
 
 ## The Sidecar Pattern: How Dapr Works
 
-Dapr uses the [<FontIcon icon="fa-brands fa-microsoft"/>sidecar](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar) architectural pattern, where it runs as a separate process alongside your application:
+Dapr uses the [<VPIcon icon="fa-brands fa-microsoft"/>sidecar](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar) architectural pattern, where it runs as a separate process alongside your application:
 
-![Dapr sidecar diagram with the building blocks and services.<br/>Source: [<FontIcon icon="fas fa-globe"/>Dapr](https://dapr.io/)](https://milanjovanovic.tech/blogs/mnw_131/dapr_sidecar.png?imwidth=3840)
+![Dapr sidecar diagram with the building blocks and services.<br/>Source: [<VPIcon icon="fas fa-globe"/>Dapr](https://dapr.io/)](https://milanjovanovic.tech/blogs/mnw_131/dapr_sidecar.png?imwidth=3840)
 
 Your application communicates with the Dapr sidecar through HTTP or gRPC, and Dapr handles communication with infrastructure services. This separation brings several benefits:
 
@@ -130,7 +130,7 @@ Your application communicates with the Dapr sidecar through HTTP or gRPC, and Da
 
 ## Building Blocks: Dapr's Core Capabilities
 
-Dapr offers several [<FontIcon icon="fas fa-globe"/>building blocks](https://docs.dapr.io/concepts/building-blocks-concept/) that solve common microservice challenges. Each provides a standardized API that abstracts away infrastructure complexity:
+Dapr offers several [<VPIcon icon="fas fa-globe"/>building blocks](https://docs.dapr.io/concepts/building-blocks-concept/) that solve common microservice challenges. Each provides a standardized API that abstracts away infrastructure complexity:
 
 1. **Service Invocation**: Enables reliable service-to-service communication with automatic service discovery, load balancing, and retries.
 2. **State Management**: Provides a unified way to store and retrieve state with features like concurrency control and transactions.
@@ -147,7 +147,7 @@ Dapr offers several [<FontIcon icon="fas fa-globe"/>building blocks](https://doc
 
 Here's an overview of Dapr's building blocks and the most popular services they interact with:
 
-![Dapr components diagram with the base building blocks and services.<br/>Source: [<FontIcon icon="fas fa-globe"/>Dapr](https://dapr.io/)](https://milanjovanovic.tech/blogs/mnw_131/dapr_components.png?imwidth=3840)
+![Dapr components diagram with the base building blocks and services.<br/>Source: [<VPIcon icon="fas fa-globe"/>Dapr](https://dapr.io/)](https://milanjovanovic.tech/blogs/mnw_131/dapr_components.png?imwidth=3840)
 
 Let's explore the most commonly used building blocks in depth.
 
@@ -155,7 +155,7 @@ Let's explore the most commonly used building blocks in depth.
 
 ## Service Invocation
 
-The [<FontIcon icon="fas fa-globe"/>service invocation](https://docs.dapr.io/developing-applications/building-blocks/service-invocation/service-invocation-overview/) building block enables reliable service-to-service communication with automatic mTLS encryption, retries, and observability.
+The [<VPIcon icon="fas fa-globe"/>service invocation](https://docs.dapr.io/developing-applications/building-blocks/service-invocation/service-invocation-overview/) building block enables reliable service-to-service communication with automatic mTLS encryption, retries, and observability.
 
 This solves several challenging microservice problems:
 
@@ -165,7 +165,7 @@ This solves several challenging microservice problems:
 - **Observability**: Tracking requests across service boundaries
 - **Security**: Encrypting traffic between services
 
-![Diagram showing how the service invocation flow looks like with Dapr.<br/>Source: [<FontIcon icon="fas fa-globe"/>Dapr](https://dapr.io/)](https://milanjovanovic.tech/blogs/mnw_131/dapr_service_invocation.png?imwidth=3840)
+![Diagram showing how the service invocation flow looks like with Dapr.<br/>Source: [<VPIcon icon="fas fa-globe"/>Dapr](https://dapr.io/)](https://milanjovanovic.tech/blogs/mnw_131/dapr_service_invocation.png?imwidth=3840)
 
 Here's a simple example of invoking a service using Dapr's .NET SDK:
 
@@ -229,18 +229,18 @@ This process provides automatic service discovery, encryption, retries, and dist
 
 ## Publish & Subscribe
 
-The [<FontIcon icon="fas fa-globe"/>publish and subscribe](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/) building block provides asynchronous messaging between services with at-least-once delivery guarantees. This pattern is essential for building resilient, loosely-coupled microservices that can:
+The [<VPIcon icon="fas fa-globe"/>publish and subscribe](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/) building block provides asynchronous messaging between services with at-least-once delivery guarantees. This pattern is essential for building resilient, loosely-coupled microservices that can:
 
 - Process operations asynchronously without blocking the user
 - Continue functioning when downstream services are unavailable
 - Scale independently based on workload
 
-![Diagram showing how the publish subscribe flow looks like with Dapr.<br/>Source: [<FontIcon icon="fas fa-globe"/>Dapr](https://dapr.io/)](https://milanjovanovic.tech/blogs/mnw_131/dapr_publish_subscribe.png?imwidth=3840)
+![Diagram showing how the publish subscribe flow looks like with Dapr.<br/>Source: [<VPIcon icon="fas fa-globe"/>Dapr](https://dapr.io/)](https://milanjovanovic.tech/blogs/mnw_131/dapr_publish_subscribe.png?imwidth=3840)
 
 Pub/Sub in Dapr follows this flow:
 
 - A publisher service sends a message to a topic via the Dapr sidecar
-- The publisher Dapr sidecar converts the message to the [<FontIcon icon="fas fa-globe"/>CloudEvent](https://cloudevents.io/) format and forwards it to the configured message broker
+- The publisher Dapr sidecar converts the message to the [<VPIcon icon="fas fa-globe"/>CloudEvent](https://cloudevents.io/) format and forwards it to the configured message broker
 - Subscriber services receive the message through their Dapr sidecars
 - The subscriber application processes the message
 
@@ -354,7 +354,7 @@ Note that the `name` defined in the component file (`order-events` in our exampl
 
 ## Dapr and .NET Aspire: Better Together
 
-[<FontIcon icon="fas fa-globe"/>Dapr works seamlessly with .NET Aspire](https://diagrid.io/blog/net-aspire-dapr-what-are-they-and-how-they-complement-each-other), Microsoft's new cloud-ready stack for building distributed applications. While Aspire focuses on .NET-specific application orchestration, Dapr provides language-agnostic building blocks.
+[<VPIcon icon="fas fa-globe"/>Dapr works seamlessly with .NET Aspire](https://diagrid.io/blog/net-aspire-dapr-what-are-they-and-how-they-complement-each-other), Microsoft's new cloud-ready stack for building distributed applications. While Aspire focuses on .NET-specific application orchestration, Dapr provides language-agnostic building blocks.
 
 Here's how to integrate Dapr with a .NET Aspire application:
 
@@ -397,7 +397,7 @@ Here's an example of how a message flow might look in the Aspire dashboard:
 
 ## Learning with Dapr University
 
-If you're looking for a structured way to learn Dapr, I highly recommend checking out [<FontIcon icon="fas fa-globe"/>Dapr University](https://diagrid.ws/41oIYRX). You can run the hands-on lessons completely for free.
+If you're looking for a structured way to learn Dapr, I highly recommend checking out [<VPIcon icon="fas fa-globe"/>Dapr University](https://diagrid.ws/41oIYRX). You can run the hands-on lessons completely for free.
 
 As someone who started with limited Dapr experience, I found the "Dapr 101" course particularly valuable. It provides hands-on exercises for State Management, Service Invocation, and Pub/Sub—exactly what you need to get started quickly.
 
@@ -414,7 +414,7 @@ Dapr simplifies microservice development for .NET developers by providing standa
 - Avoid vendor lock-in through abstraction (building blocks)
 - Improve production reliability with built-in best practices
 
-Ready to dive deeper? Check out [<FontIcon icon="fas fa-globe"/>Dapr University](https://diagrid.ws/41oIYRX) for comprehensive courses and hands-on learning.
+Ready to dive deeper? Check out [<VPIcon icon="fas fa-globe"/>Dapr University](https://diagrid.ws/41oIYRX) for comprehensive courses and hands-on learning.
 
 ---
 

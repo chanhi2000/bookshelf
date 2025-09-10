@@ -50,9 +50,9 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/04/illustrator-p
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/04/illustrator-parts.jpg"/>
 
-There isn’t just one way to animate SVG. There is the `<animate>` tag that goes right into the SVG code. There are libraries that help with it like [<FontIcon icon="fas fa-globe"/>Snap.svg](https://snapsvg.io/) or [<FontIcon icon="fas fa-globe"/>SVG.js](https://svgdotjs.github.io/). We’re going to look at another way: using inline SVG (SVG code right inside HTML) and animating the parts right through CSS.
+There isn’t just one way to animate SVG. There is the `<animate>` tag that goes right into the SVG code. There are libraries that help with it like [<VPIcon icon="fas fa-globe"/>Snap.svg](https://snapsvg.io/) or [<VPIcon icon="fas fa-globe"/>SVG.js](https://svgdotjs.github.io/). We’re going to look at another way: using inline SVG (SVG code right inside HTML) and animating the parts right through CSS.
 
-I played with this personally recently as my Alma mater [<FontIcon icon="fas fa-globe"/>Wufoo](https://ad.doubleclick.net/ddm/clk/270735259;104033101;o?https://www.wufoo.com/landing/1/) was looking to freshen up the advertising graphic we’re running here. My latest design around here uses SVG quite a bit and I thought this would be another perfect opportunity to use it some more.
+I played with this personally recently as my Alma mater [<VPIcon icon="fas fa-globe"/>Wufoo](https://ad.doubleclick.net/ddm/clk/270735259;104033101;o?https://www.wufoo.com/landing/1/) was looking to freshen up the advertising graphic we’re running here. My latest design around here uses SVG quite a bit and I thought this would be another perfect opportunity to use it some more.
 
 The finished product is pretty simple. Here’s it is:
 
@@ -65,7 +65,7 @@ Let’s check out how it’s done.
 
 ## 1. Design the Ad / Have a Plan
 
-This might seem like an [<FontIcon icon="fas fa-file-images"/>how to draw an owl](https://css-tricks.com/wp-content/uploads/2014/04/How_to_Draw_Owl.jpg) moment, but this article is about animation so let’s get there as quickly we can.
+This might seem like an [<VPIcon icon="fas fa-file-images"/>how to draw an owl](https://css-tricks.com/wp-content/uploads/2014/04/How_to_Draw_Owl.jpg) moment, but this article is about animation so let’s get there as quickly we can.
 
 My plan for this ad was to make a super simple Wufoo ad with their classic logo, colors, and general branding. Then add a little flair.
 
@@ -293,7 +293,7 @@ The idea here is that the “wrap” will always be a perfect square, relative t
 
 Since this is an ad (which of course should be clickable), rather than using a `<div>` for the wrap, you could use an `<a href="">`, just make sure you set that to be `display: block;`.
 
-[Final thing (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/dvjhn/), for reference.
+[Final thing (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/dvjhn/), for reference.
 
 I think there is a future for this kind of thing in display advertising, particularly because of the CSS control and easy, sharp resizing.
 

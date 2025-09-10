@@ -108,11 +108,11 @@ Here's an interesting quote from Martin Fowler:
 
 > You shouldn't start a new project with microservices, even if you're sure your application will be big enough to make it worthwhile.
 >
->> *[<FontIcon icon="fas fa-globe"/>Martin Fowler](https://martinfowler.com/bliki/MonolithFirst.html)*
+>> *[<VPIcon icon="fas fa-globe"/>Martin Fowler](https://martinfowler.com/bliki/MonolithFirst.html)*
 
 And I wholeheartedly agree with this. Better yet, consider starting with a modular monolith.
 
-Even Google is jumping on board the modular monolith trend in their recent research paper, [<FontIcon icon="fas fa-globe"/>Towards Modern Development of Cloud Applications](https://dl.acm.org/doi/pdf/10.1145/3593856.3595909).
+Even Google is jumping on board the modular monolith trend in their recent research paper, [<VPIcon icon="fas fa-globe"/>Towards Modern Development of Cloud Applications](https://dl.acm.org/doi/pdf/10.1145/3593856.3595909).
 
 Here are the five main challenges Google identified with microservices:
 
@@ -122,7 +122,7 @@ Here are the five main challenges Google identified with microservices:
 - **Frozen APIs**: Once an API is established, it becomes hard to change without breaking any existing API consumers.
 - **Development speed**: Making a change in one microservice may affect many other microservices, which requires carefully planning deployments.
 
-When you factor in the complexity of distributed systems, starting with a modular monolith becomes increasingly compelling. I also recommend reading about the [<FontIcon icon="fa-brands fa-wikipedia-w"/>fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) if you're unfamiliar with them.
+When you factor in the complexity of distributed systems, starting with a modular monolith becomes increasingly compelling. I also recommend reading about the [<VPIcon icon="fa-brands fa-wikipedia-w"/>fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) if you're unfamiliar with them.
 
 Well-defined, in-process components (modules) can be an excellent stepping stone to out-of-process components (services).
 
@@ -155,7 +155,7 @@ Microservices give you all that, plus independent deployments, independent scala
 
 > Choose microservices for the benefits, not because your monolithic codebase is a mess.
 >
->> *[Simon Brown (<FontIcon icon="fa-brands fa-x-twitter"/>`simonbrown`)](https://x.com/simonbrown)*
+>> *[Simon Brown (<VPIcon icon="fa-brands fa-x-twitter"/>`simonbrown`)](https://x.com/simonbrown)*
 
 ---
 
@@ -168,9 +168,9 @@ Want to dive deeper into modular monoliths? Check out these resources:
 - [Modular Monolith Communication Patterns](/milanjovanovic.tech/modular-monolith-communication-patterns.md)
 - [Modular Monolith Data Isolation](/milanjovanovic.tech/modular-monolith-data-isolation.md)
 - [Monolith to Microservices: How a Modular Monolith Helps](/milanjovanovic.tech/monolith-to-microservices-how-a-modular-monolith-helps.md)
-- [<FontIcon icon="fa-brands fa-youtube"/>Modular Monoliths: How To Build One & Lessons Learned](https://youtu.be/Xo3rsiZYsJQ)
-- [<FontIcon icon="fa-brands fa-youtube"/>How to Structure a Modular Monolith Project in .NET](https://youtu.be/z3piPJ7x4WU)
-- [<FontIcon icon="fa-brands fa-youtube"/>Getting Started with Modular Monoliths in .NET](https://youtu.be/5dilYMii9T4)
+- [<VPIcon icon="fa-brands fa-youtube"/>Modular Monoliths: How To Build One & Lessons Learned](https://youtu.be/Xo3rsiZYsJQ)
+- [<VPIcon icon="fa-brands fa-youtube"/>How to Structure a Modular Monolith Project in .NET](https://youtu.be/z3piPJ7x4WU)
+- [<VPIcon icon="fa-brands fa-youtube"/>Getting Started with Modular Monoliths in .NET](https://youtu.be/5dilYMii9T4)
 - [Modular Monolith Architecture course](/milanjovanovic.tech/modular-monolith-architecture/README.md)
 
 <VidStack src="youtube/Xo3rsiZYsJQ" />

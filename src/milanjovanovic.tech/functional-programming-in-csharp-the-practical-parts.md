@@ -161,13 +161,13 @@ public class UserService
 
 The problem?
 
-- [<FontIcon icon="fa-brands fa-youtube"/>Exceptions are expensive](https://youtu.be/E3dU9Y1CsnI)
+- [<VPIcon icon="fa-brands fa-youtube"/>Exceptions are expensive](https://youtu.be/E3dU9Y1CsnI)
 - Callers often forget to handle exceptions
 - The method signature lies - it claims to return a User but might throw
 
 <VidStack src="youtube/E3dU9Y1CsnI" />
 
-We can make errors explicit using the [<FontIcon icon="iconfont icon-github"/>`mcintyre321/OneOf`](https://github.com/mcintyre321/OneOf) library. It provides discriminated unions for C#, using a custom type `OneOf<T0, ... Tn>`.
+We can make errors explicit using the [<VPIcon icon="iconfont icon-github"/>`mcintyre321/OneOf`](https://github.com/mcintyre321/OneOf) library. It provides discriminated unions for C#, using a custom type `OneOf<T0, ... Tn>`.
 
 ```cs title="UserService.cs"
 public class UserService

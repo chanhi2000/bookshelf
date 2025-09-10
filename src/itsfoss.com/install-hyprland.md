@@ -56,7 +56,7 @@ It is also very popular in Linux ricing groups these days. And why not? If you a
 
 Take a look at the screenshot below.
 
-![Image credit: [<FontIcon icon="iconfont icon-github"/>`flick0/dotfiles`](https://github.com/flick0/dotfiles/blob/aurora/assets/fetch.png)](https://itsfoss.com/content/images/2024/11/hyprland.webp)
+![Image credit: [<VPIcon icon="iconfont icon-github"/>`flick0/dotfiles`](https://github.com/flick0/dotfiles/blob/aurora/assets/fetch.png)](https://itsfoss.com/content/images/2024/11/hyprland.webp)
 
 The official Hyprland video provides more detailed visuals:
 
@@ -76,7 +76,7 @@ Hyprland is in highly active development. Unlike GNOME and other desktop environ
 
 ## Things to note before installing Hyprland
 
-Before you start installing [<FontIcon icon="iconfont icon-hyprland"/>Hyprland](https://hyprland.org/), you need to understand a few points about stability and compatibility.
+Before you start installing [<VPIcon icon="iconfont icon-hyprland"/>Hyprland](https://hyprland.org/), you need to understand a few points about stability and compatibility.
 
 - Hyprland is not a beginner-centric window compositor.
 - It is Wayland-only and not all Xorg-only application will work on Hyprland.
@@ -298,7 +298,7 @@ Hyprland is available in the repos of many other Linux distributions like openSU
 sudo dnf install hyprland
 ```
 
-There is also [<FontIcon icon="fas fa-globe"/>a COPR repository](https://copr.fedorainfracloud.org/coprs/solopasha/hyprland) for Fedora users for more updates.
+There is also [<VPIcon icon="fas fa-globe"/>a COPR repository](https://copr.fedorainfracloud.org/coprs/solopasha/hyprland) for Fedora users for more updates.
 
 - In openSUSE
 
@@ -306,7 +306,7 @@ There is also [<FontIcon icon="fas fa-globe"/>a COPR repository](https://copr.fe
 sudo zypper in hyprland
 ```
 
-You can read the [<FontIcon icon="fas fa-globe"/>official detailed installation manual](https://wiki.hyprland.org/Getting-Started/Installation/) for other distribution.
+You can read the [<VPIcon icon="fas fa-globe"/>official detailed installation manual](https://wiki.hyprland.org/Getting-Started/Installation/) for other distribution.
 
 I'll be covering the waybar configuration and Hyprland customization tips in future articles. Stay tuned and [subscribe to our FOSS Weekly newsletter](https://itsfoss.com/newsletter/) so that you don't miss them.
 

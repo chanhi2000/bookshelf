@@ -54,7 +54,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_142.png
 
 MediatR is going commercial.
 
-[<FontIcon icon="fas fa-globe"/>Jimmy Bogard recently announced](https://jimmybogard.com/automapper-and-mediatr-going-commercial/) that MediatR will adopt a commercial license model for companies above a certain size.
+[<VPIcon icon="fas fa-globe"/>Jimmy Bogard recently announced](https://jimmybogard.com/automapper-and-mediatr-going-commercial/) that MediatR will adopt a commercial license model for companies above a certain size.
 
 For many teams, this is a trigger to re-evaluate their usage and possibly look for alternatives.
 
@@ -290,7 +290,7 @@ Since we're working with generic interfaces (`ICommandHandler<,>`, `IQueryHandle
 
 :::
 
-In the next section, we'll wire this up using [<FontIcon icon="iconfont icon-github"/>`khellang/Scrutor`](https://github.com/khellang/Scrutor). It's a simple assembly scanning library that helps us register and decorate handlers cleanly. Yes, it uses reflection, but only during startup — and it's fully transparent and predictable.
+In the next section, we'll wire this up using [<VPIcon icon="iconfont icon-github"/>`khellang/Scrutor`](https://github.com/khellang/Scrutor). It's a simple assembly scanning library that helps us register and decorate handlers cleanly. Yes, it uses reflection, but only during startup — and it's fully transparent and predictable.
 
 ---
 

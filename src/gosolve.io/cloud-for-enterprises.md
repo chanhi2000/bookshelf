@@ -194,7 +194,7 @@ To avoid unwanted surprises, you should perform detailed cost analysis, closely 
 
 A transition to the enterprise cloud is a complex process that can give you a headache, yet the business benefits are bound to outweigh the costs. Setting up your environment in a distributed cloud involves a lot of preparation, planning, examining multiple pros and cons, and crafting a customized strategy that suits your business goals. You need to analyze many alternatives, pick the right tools, find the best options, such as the most reliable data center or a managed service provider, and never lose focus on security.
 
-At [<FontIcon icon="fas fa-globe"/>GoSolve.io](https://GoSolve.io) we leverage Go-based enterprise-class systems and other technologies to help companies go through digital transformation. With our long-term experience and extensive expertise, we can guide you smoothly through the cloud migration process and help you optimize even the most complex cloud environment.
+At [<VPIcon icon="fas fa-globe"/>GoSolve.io](https://GoSolve.io) we leverage Go-based enterprise-class systems and other technologies to help companies go through digital transformation. With our long-term experience and extensive expertise, we can guide you smoothly through the cloud migration process and help you optimize even the most complex cloud environment.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -56,7 +56,7 @@ cover: /assets/image/blog.logrocket.com/understanding-axios-get-requests/banner.
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Carlos Mucuho](https://blog.logrocket.com/author/carlosmucuho/) on 9 February 2024 to update code blocks according to the most recent Axios version release. This update also expands on the use of Axios interceptors for modifying requests and responses, explores the axios-retry package for error handling, and delves into advanced techniques for managing Axios GET requests.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Carlos Mucuho](https://blog.logrocket.com/author/carlosmucuho/) on 9 February 2024 to update code blocks according to the most recent Axios version release. This update also expands on the use of Axios interceptors for modifying requests and responses, explores the axios-retry package for error handling, and delves into advanced techniques for managing Axios GET requests.
 
 :::
 
@@ -66,9 +66,9 @@ As a developer, you will be required to work with APIs, whether internal or thir
 
 Communicating with APIs effectively is an essential factor in your application’s performance, scalability, and reliability. Over the years, [**Axios has become the most common and popular HTTP client**](/blog.logrocket.com/http-requests-axios.md), and it has a massive developer community behind it.
 
-In this article, we will learn how to make GET requests in Axios. I will demonstrate how you can use Axios GET to make requests to public APIs like [<FontIcon icon="fas fa-globe"/>The Rick and Morty API](https://rickandmortyapi.com/) and the [<FontIcon icon="fas fa-globe"/>Final Space API](https://finalspaceapi.com/), and how you can make concurrent GET requests and handle errors.
+In this article, we will learn how to make GET requests in Axios. I will demonstrate how you can use Axios GET to make requests to public APIs like [<VPIcon icon="fas fa-globe"/>The Rick and Morty API](https://rickandmortyapi.com/) and the [<VPIcon icon="fas fa-globe"/>Final Space API](https://finalspaceapi.com/), and how you can make concurrent GET requests and handle errors.
 
-If you want to jump right into the code, check out the [GitHub repository here (<FontIcon icon="iconfont icon-github"/>`lelouchB/axios-get-examples`)](https://github.com/lelouchB/axios-get-examples).
+If you want to jump right into the code, check out the [GitHub repository here (<VPIcon icon="iconfont icon-github"/>`lelouchB/axios-get-examples`)](https://github.com/lelouchB/axios-get-examples).
 
 <SiteInfo
   name="lelouchB/axios-get-examples"
@@ -93,9 +93,9 @@ Axios is a Promise-based HTTP client for the browser and Node. Let’s break dow
 
 First, HTTP stands for Hypertext Transfer Protocol. It is a client-server protocol for fetching resources such as HTML documents.
 
-The client is the user-agent that acts on behalf of the user and initiates the requests for resources. Web browsers such as Google Chrome are a popular example of a client. A Promise-based client returns [<FontIcon icon="fa-brands fa-firefox"/>Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+The client is the user-agent that acts on behalf of the user and initiates the requests for resources. Web browsers such as Google Chrome are a popular example of a client. A Promise-based client returns [<VPIcon icon="fa-brands fa-firefox"/>Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
-Axios is isomorphic, which means it can run in the browser and Node.js with the same code. When used on the server side, it uses Node’s native `http` module, whereas on the client side, it uses `XMLHttpRequest` objects. On the client side, Axios also supports protection against [<FontIcon icon="fa-brands fa-wikipedia-w"/>XSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery).
+Axios is isomorphic, which means it can run in the browser and Node.js with the same code. When used on the server side, it uses Node’s native `http` module, whereas on the client side, it uses `XMLHttpRequest` objects. On the client side, Axios also supports protection against [<VPIcon icon="fa-brands fa-wikipedia-w"/>XSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery).
 
 ---
 
@@ -118,7 +118,7 @@ npm init -y
 npm install axios
 ```
 
-The command `npm init -y` creates a <FontIcon icon="iconfont icon-json"/>`package.json` similar to the one below in your project’s folder:
+The command `npm init -y` creates a <VPIcon icon="iconfont icon-json"/>`package.json` similar to the one below in your project’s folder:
 
 ```json title="package.json"
 {
@@ -135,9 +135,9 @@ The command `npm init -y` creates a <FontIcon icon="iconfont icon-json"/>`packag
 }
 ```
 
-The last command, `npm install axios`, installs the `axios` package as a dependency in your project. There will be a new <FontIcon icon="iconfont icon-json"/>`package-lock.json` file and a <FontIcon icon="fas fa-folder-open"/>`node_modules` folder in the project folder.
+The last command, `npm install axios`, installs the `axios` package as a dependency in your project. There will be a new <VPIcon icon="iconfont icon-json"/>`package-lock.json` file and a <VPIcon icon="fas fa-folder-open"/>`node_modules` folder in the project folder.
 
-The <FontIcon icon="iconfont icon-json"/>`package.json` file will also update and will look similar to this:
+The <VPIcon icon="iconfont icon-json"/>`package.json` file will also update and will look similar to this:
 
 ```json{13} title="package.json"
 {
@@ -161,13 +161,13 @@ You can also install Axios using `yarn` or `bower`, like so:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add axios
 ```
 
-@tab <FontIcon icon="iconfont icon-bower"/>
+@tab <VPIcon icon="iconfont icon-bower"/>
 
 ```sh
 bower install axios
@@ -175,7 +175,7 @@ bower install axios
 
 :::
 
-Next, create a file named <FontIcon icon="fa-brands fa-js"/>`index.js` where you will write the code to fetch resources using the `GET` requests. Run the following command in the project’s root to create the <FontIcon icon="fa-brands fa-js"/>`index.js` file:
+Next, create a file named <VPIcon icon="fa-brands fa-js"/>`index.js` where you will write the code to fetch resources using the `GET` requests. Run the following command in the project’s root to create the <VPIcon icon="fa-brands fa-js"/>`index.js` file:
 
 ```sh
 touch index.js
@@ -189,7 +189,7 @@ Run the following command in your project’s root directory to install `nodemon
 npm install -D nodemon
 ```
 
-Modify `"scripts"` in your <FontIcon icon="iconfont icon-json"/>`package.json`, like this:
+Modify `"scripts"` in your <VPIcon icon="iconfont icon-json"/>`package.json`, like this:
 
 ```json title="package.json"
 "scripts": {
@@ -198,7 +198,7 @@ Modify `"scripts"` in your <FontIcon icon="iconfont icon-json"/>`package.json`, 
 },
 ```
 
-Your <FontIcon icon="iconfont icon-json"/>`package.json` should look like this:
+Your <VPIcon icon="iconfont icon-json"/>`package.json` should look like this:
 
 ```json title="package.json"
 {
@@ -242,7 +242,7 @@ You’ll see the following message in your terminal once it has started:
 [nodemon] clean exit - waiting for changes before restart
 ```
 
-Update the <FontIcon icon="fa-brands fa-js"/>`index.js` file to include the following code:
+Update the <VPIcon icon="fa-brands fa-js"/>`index.js` file to include the following code:
 
 ```js title="index.js"
 console.log('Hello World!');
@@ -255,7 +255,7 @@ Hello World!
 [nodemon] clean exit - waiting for changes before restart
 ```
 
-Finally, you can remove the `console.log()` code from the <FontIcon icon="fa-brands fa-js"/>`index.js` file.
+Finally, you can remove the `console.log()` code from the <VPIcon icon="fa-brands fa-js"/>`index.js` file.
 
 ---
 
@@ -263,7 +263,7 @@ Finally, you can remove the `console.log()` code from the <FontIcon icon="fa-bra
 
 In this section, we will see how to import and use Axios to make `GET` requests to the Final Space API to fetch data.
 
-Update the <FontIcon icon="fa-brands fa-js"/>`index.js` file to import the `axios` package using the `require` function. Node follows the [**CommonJS**](/blog.logrocket.com/commonjs-vs-es-modules-node-js.md) module system, and you can use modules present in separate files using the inbuilt `require` function:
+Update the <VPIcon icon="fa-brands fa-js"/>`index.js` file to import the `axios` package using the `require` function. Node follows the [**CommonJS**](/blog.logrocket.com/commonjs-vs-es-modules-node-js.md) module system, and you can use modules present in separate files using the inbuilt `require` function:
 
 ```js
 const axios = require('axios').default;
@@ -414,7 +414,7 @@ axios.get("https://finalspaceapi.com/api/v0/character/?limit=2", {
 
 The `responseType` option can be set to `arraybuffer`, `document`, `blob`, `text`, or `stream`. It is essential to set the `responseType` option when the returned response or data is not in JSON format.
 
-For example, the following code fetches a [<FontIcon icon="fas fa-globe"/>nature image](https://unsplash.com/photos/XxAriUoOOYA) from Unsplash as a Node stream. You can then use the `createWriteStream()` of the inbuilt `fs` module and write the fetched stream in a file.
+For example, the following code fetches a [<VPIcon icon="fas fa-globe"/>nature image](https://unsplash.com/photos/XxAriUoOOYA) from Unsplash as a Node stream. You can then use the `createWriteStream()` of the inbuilt `fs` module and write the fetched stream in a file.
 
 The following code creates a file named `nature.jpg` in your project folder:
 
@@ -446,7 +446,7 @@ async function getCharacters() {
 getCharacters();
 ```
 
-Finally, you can get the data from the response body using [<FontIcon icon="fa-brands fa-firefox"/>destructuring assignments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment):
+Finally, you can get the data from the response body using [<VPIcon icon="fa-brands fa-firefox"/>destructuring assignments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment):
 
 ```js
 async function getCharacters() {
@@ -464,7 +464,7 @@ getCharacters();
 
 In this section, we will learn how to make Axios `GET` requests with query parameters.
 
-First, add the following code to the <FontIcon icon="fa-brands fa-js"/>`index.js` file:
+First, add the following code to the <VPIcon icon="fa-brands fa-js"/>`index.js` file:
 
 ```js title="index.js"
 // Axios GET Query Parameters
@@ -513,7 +513,7 @@ And here is what the returned data looks like:
 
 ## How to make Axios `GET` requests with an API key
 
-It is often necessary to authenticate requests by passing an API key along with the request. In this section, we will learn how to use an API key with Axios to make requests. We will use the [<FontIcon icon="fas fa-globe"/>NASA API](https://api.nasa.gov/) as an example.
+It is often necessary to authenticate requests by passing an API key along with the request. In this section, we will learn how to use an API key with Axios to make requests. We will use the [<VPIcon icon="fas fa-globe"/>NASA API](https://api.nasa.gov/) as an example.
 
 First, navigate to `https://api.nasa.gov/` in the browser and fill in the required fields to generate an API key:
 
@@ -523,7 +523,7 @@ Click on the **Signup** button. On the next page, your API key will be shown to 
 
 ![generated key from the NASA API](/assets/image/blog.logrocket.com/understanding-axios-get-requests/Generated-NASA-API-key.png)
 
-The API keys should be kept hidden from the public and stored as environment variables inside a <FontIcon icon="fas fa-file-line"/>`.env` file. [<FontIcon icon="fa-brands fa-npm"/>`dotenv`](https://npmjs.com/package/dotenv) is a popular npm library used to load environment variables from the <FontIcon icon="fas fa-file-line"/>`.env` file.
+The API keys should be kept hidden from the public and stored as environment variables inside a <VPIcon icon="fas fa-file-line"/>`.env` file. [<VPIcon icon="fa-brands fa-npm"/>`dotenv`](https://npmjs.com/package/dotenv) is a popular npm library used to load environment variables from the <VPIcon icon="fas fa-file-line"/>`.env` file.
 
 Run the following command to install the dotenv package:
 
@@ -531,19 +531,19 @@ Run the following command to install the dotenv package:
 npm install dotenv
 ```
 
-Next, create a new file named <FontIcon icon="fas fa-file-line"/>`.env` by running the following command:
+Next, create a new file named <VPIcon icon="fas fa-file-line"/>`.env` by running the following command:
 
 ```sh
 touch .env
 ```
 
-Paste the NASA API key into the <FontIcon icon="fas fa-file-line"/>`.env` file as shown below:
+Paste the NASA API key into the <VPIcon icon="fas fa-file-line"/>`.env` file as shown below:
 
 ```properties title=".env"
 NASA_API_KEY = IqIxEkPjdl1Dnl9mjTKU6zTZD0
 ```
 
-Now, add the following code to the <FontIcon icon="fa-brands fa-js"/>`index.js` file to fetch data from the NASA API:
+Now, add the following code to the <VPIcon icon="fa-brands fa-js"/>`index.js` file to fetch data from the NASA API:
 
 ```js title="index.js"
 // Using with API Key
@@ -613,7 +613,7 @@ axios({
 
 You may need to make concurrent requests to multiple endpoints. In this section, we will learn how you can use the `axios.all()` method to make multiple requests.
 
-To begin, add the following code to the <FontIcon icon="fa-brands fa-js"/>`index.js` file:
+To begin, add the following code to the <VPIcon icon="fa-brands fa-js"/>`index.js` file:
 
 ```js title="index.js"
 // Axios.all()
@@ -784,7 +784,7 @@ In this section, we will discuss how to handle errors with Axios, which includes
 
 The most common way to catch errors is to chain a `.catch()` method with the `axios.get()` to catch any errors that may occur.
 
-Add the following code to the <FontIcon icon="fa-brands fa-js"/>`index.js` file:
+Add the following code to the <VPIcon icon="fa-brands fa-js"/>`index.js` file:
 
 ```js title="index.js"
 axios
@@ -801,7 +801,7 @@ In the code above, we are trying to fetch a character from The Rick and Morty AP
 
 The above `catch` block consoles any error that may occur. This error object is quite large, and you may not always display everything, so you can be selective about what to log to the error message.
 
-You can also handle errors based on their types. Add the following code to the <FontIcon icon="fa-brands fa-js"/>`index.js` file:
+You can also handle errors based on their types. Add the following code to the <VPIcon icon="fa-brands fa-js"/>`index.js` file:
 
 ```js :collapsed-lines title="index.js"
 // Error Handling - Error Specific
@@ -874,9 +874,9 @@ This option will throw an error when the response’s `status` satisfies the con
 
 ### Retrying failed requests with the `axios-retry`plugin
 
-In some cases, it’s useful to automatically retry failed requests. The [<FontIcon icon="fa-brands fa-npm"/>`axios-retry`](https://npmjs.com/package/axios-retry) plugin provides an easy way to do this with Axios. Here’s how you can use it:
+In some cases, it’s useful to automatically retry failed requests. The [<VPIcon icon="fa-brands fa-npm"/>`axios-retry`](https://npmjs.com/package/axios-retry) plugin provides an easy way to do this with Axios. Here’s how you can use it:
 
-First, install the [<FontIcon icon="fa-brands fa-npm"/>`axios-retry`](https://npmjs.com/package/axios-retry) package from npm:
+First, install the [<VPIcon icon="fa-brands fa-npm"/>`axios-retry`](https://npmjs.com/package/axios-retry) package from npm:
 
 ```sh
 npm install axios-retry

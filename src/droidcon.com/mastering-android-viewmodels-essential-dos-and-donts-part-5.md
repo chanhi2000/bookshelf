@@ -203,8 +203,8 @@ Unit testing is essential to ensure your `ViewModels` behave as expected. Withou
 - **Use a `TestCoroutineDispatcher`**to control coroutine execution and test asynchronous code synchronously.
 - Favor testing ViewModels as a non-Android test (use test folder instead of androidTest)
 - Avoid using`runBlocking{}`for testing`suspended`functions, instead use`runTest{}`from`coroutines-test`
-- Avoid manually peeking values from`StateFlows`, Use[<FontIcon icon="iconfont icon-github"/>`cashapp/turbine`](https://github.com/cashapp/turbine)instead
-- For testing`flows`, use[<FontIcon icon="iconfont icon-github"/>`cashapp/turbine`](https://github.com/cashapp/turbine)
+- Avoid manually peeking values from`StateFlows`, Use[<VPIcon icon="iconfont icon-github"/>`cashapp/turbine`](https://github.com/cashapp/turbine)instead
+- For testing`flows`, use[<VPIcon icon="iconfont icon-github"/>`cashapp/turbine`](https://github.com/cashapp/turbine)
 - Favor fakes over mocks
 
 ---
@@ -230,7 +230,7 @@ Mastering `ViewModels` in Android development is crucial for creating robust, ef
 🌟**Congratulations**if you’ve made it this far in the article! 🎉**Don’t forget to**:
 
 - 👏 Smash the clap button as many times! So I can continue with the follow-up articles!
-- Follow[my YouTube channel (<FontIcon icon="fa-brands fa-youtube"/>`DroidFly`)](https://youtube.com/@DroidFly)for video tutorials and tips on Android development
+- Follow[my YouTube channel (<VPIcon icon="fa-brands fa-youtube"/>`DroidFly`)](https://youtube.com/@DroidFly)for video tutorials and tips on Android development
 - ✨✨If you need help with your Android ViewModels, Project, or your career development, Book a 1:1 or a Pair-Programming session with me, [**Book a time now**](https://mentorcruise.com/mentor/rezanajafi/) 🧑‍💻🧑‍💻🧑‍💻
 - check out the previous articles in this series with the links below:
 
@@ -264,7 +264,7 @@ Mastering `ViewModels` in Android development is crucial for creating robust, ef
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-5-%EF%B8%8F5%EF%B8%8F%E2%83%A3-14d04ec2426a)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/mastering-android-viewmodels-essential-dos-and-donts-part-5-%EF%B8%8F5%EF%B8%8F%E2%83%A3-14d04ec2426a)
 
 <SiteInfo
   name="Mastering Android ViewModels: Essential Dos and Don’ts Part 5 🛠️5️⃣"

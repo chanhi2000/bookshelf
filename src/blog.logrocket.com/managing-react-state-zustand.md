@@ -72,13 +72,13 @@ I, for one, am excited about the growing number of new ways to manage your state
 
 ## What is Zustand?
 
-First of all, I’m not claiming that [<FontIcon icon="fas fa-globe"/>Zustand](https://zustand.surge.sh/) is currently the best tool to use. As in most cases, the question of which tool is the best cannot really be answered, or at least it must be answered with the dreaded phrase, “It depends.”
+First of all, I’m not claiming that [<VPIcon icon="fas fa-globe"/>Zustand](https://zustand.surge.sh/) is currently the best tool to use. As in most cases, the question of which tool is the best cannot really be answered, or at least it must be answered with the dreaded phrase, “It depends.”
 
 ![Tweet That Reads, "Becoming A Senior Engineer Is Just Saying "It Depends" Over And Over Again Until You Quit/Retire"](/assets/image/blog.logrocket.com/managing-react-state-zustand/funny-tweet.png)
 
 To get the full picture of Zustand, let’s go over some of the details of the library, how it is positioned in the market, and compare it to other libraries.
 
-Zustand was created and is maintained by the creators of `react-spring`, `react-three-fiber`, and many other awesome tools, [<FontIcon icon="fas fa-globe"/>Poimandres](https://pmnd.rs/). At 1.5kB, it’s probably the smallest library of all—you can read through the source code in a matter of minutes.
+Zustand was created and is maintained by the creators of `react-spring`, `react-three-fiber`, and many other awesome tools, [<VPIcon icon="fas fa-globe"/>Poimandres](https://pmnd.rs/). At 1.5kB, it’s probably the smallest library of all—you can read through the source code in a matter of minutes.
 
 ---
 
@@ -199,7 +199,7 @@ Obviously, it’s not used as widely as Redux, and therefore the community and r
 
 In addition to the community and documentation, one of the first arguments you get when discussing Redux versus another library is that the Redux development tools are powerful.
 
-First, I don’t think you should decide on a library only by its debug tools, but it is a valid argument. But in Zustand, you can use the [debug tool (<FontIcon icon="iconfont icon-github"/>`pmndrs/zustand`)](https://github.com/pmndrs/zustand#redux-devtools) as you would in Redux store. Isn’t that amazing?
+First, I don’t think you should decide on a library only by its debug tools, but it is a valid argument. But in Zustand, you can use the [debug tool (<VPIcon icon="iconfont icon-github"/>`pmndrs/zustand`)](https://github.com/pmndrs/zustand#redux-devtools) as you would in Redux store. Isn’t that amazing?
 
 ![Redux Debug Tool](/assets/image/blog.logrocket.com/managing-react-state-zustand/redux-debug-tool.png)
 
@@ -207,9 +207,9 @@ First, I don’t think you should decide on a library only by its debug tools, b
 
 ## Zustand vs. Jotai vs. Recoil
 
-Interestingly, the [<FontIcon icon="iconfont icon-gtihub"/>`pmndrs/jotai`](https://github.com/pmndrs/jotai/issues/13) library and Zustand are from the same creators. But, the difference lies in the mental modal and how you structure your application.
+Interestingly, the [<VPIcon icon="iconfont icon-gtihub"/>`pmndrs/jotai`](https://github.com/pmndrs/jotai/issues/13) library and Zustand are from the same creators. But, the difference lies in the mental modal and how you structure your application.
 
-[<FontIcon icon="fas fa-globe"/>According to the Jotai docs](https://jotai.org/docs/basics/comparison), “Zustand is basically a single store (you could create multiple stores, but they are separated.) Jotai is primitive atoms and composing them. In this sense, it’s the matter of programming mental model.
+[<VPIcon icon="fas fa-globe"/>According to the Jotai docs](https://jotai.org/docs/basics/comparison), “Zustand is basically a single store (you could create multiple stores, but they are separated.) Jotai is primitive atoms and composing them. In this sense, it’s the matter of programming mental model.
 
 “Jotai can be seen as a replacement for `useState+useContext`. Instead of creating multiple contexts, atoms share one big context. Zustand is an external store and the hook is to connect the external world to the React world.”
 
@@ -237,7 +237,7 @@ Zustand is one of the examples (and this is also true for the other libraries li
 
 Overall, Zustand is a great library for pragmatic programmers and those who use React, but in combination with another library.
 
-However, Zustand has its cons as well. For one, the documentation could be improved. As of the time of writing, the only documentation at the moment is the [project’s readme (<FontIcon icon="iconfont icon-github"/>`pmndrs/zustand`)](https://github.com/pmndrs/zustand/blob/master/readme.md).
+However, Zustand has its cons as well. For one, the documentation could be improved. As of the time of writing, the only documentation at the moment is the [project’s readme (<VPIcon icon="iconfont icon-github"/>`pmndrs/zustand`)](https://github.com/pmndrs/zustand/blob/master/readme.md).
 
 While it’s well written so you can easily understand the library, it doesn’t cover all of the use cases.
 

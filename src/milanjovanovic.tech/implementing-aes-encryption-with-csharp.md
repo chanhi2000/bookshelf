@@ -60,9 +60,9 @@ In today's issue, we will cover implementing AES encryption in .NET with practic
 
 ## Symmetric vs Asymmetric Encryption
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Symmetric encryption](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) (like AES) uses the same key for encryption and decryption. It's fast and ideal for storing data that only your application needs to read. The main challenge is securely storing the encryption key.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Symmetric encryption](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) (like AES) uses the same key for encryption and decryption. It's fast and ideal for storing data that only your application needs to read. The main challenge is securely storing the encryption key.
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Asymmetric encryption](https://en.wikipedia.org/wiki/Public-key_cryptography) (like RSA) uses different keys for encryption and decryption. It's slower but allows secure communication between parties who don't share secrets. Common uses include SSL/TLS and digital signatures.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Asymmetric encryption](https://en.wikipedia.org/wiki/Public-key_cryptography) (like RSA) uses different keys for encryption and decryption. It's slower but allows secure communication between parties who don't share secrets. Common uses include SSL/TLS and digital signatures.
 
 For storing API keys and application secrets, symmetric encryption with AES is the appropriate choice.
 
@@ -74,7 +74,7 @@ AES encryption and decryption process block diagram.
 
 ## AES Encryption Implementation
 
-Let's examine a secure [<FontIcon icon="fa-brands fa-wikipedia-w"/>AES (Advanced Encryption Standard)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption implementation in C#. This implementation uses AES-256, which provides the strongest security currently available in the AES standard.
+Let's examine a secure [<VPIcon icon="fa-brands fa-wikipedia-w"/>AES (Advanced Encryption Standard)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption implementation in C#. This implementation uses AES-256, which provides the strongest security currently available in the AES standard.
 
 ```cs :collapsed-lines title="Encryptor.cs"
 public class Encryptor
@@ -246,7 +246,7 @@ var decrypted = Decryptor.Decrypt(result);
 
 AES encryption provides strong security for sensitive application data when implemented correctly.
 
-Proper key management is very important. Use a dedicated key storage service in production. Popular options include [<FontIcon icon="iconfont icon-microsoftazure"/>Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/), [<FontIcon icon="fa-brands fa-aws"/>AWS Key Management Service](https://aws.amazon.com/kms/), and [<FontIcon icon="fas fa-globe"/>HashiCorp Vault](https://vaultproject.io/).
+Proper key management is very important. Use a dedicated key storage service in production. Popular options include [<VPIcon icon="iconfont icon-microsoftazure"/>Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/), [<VPIcon icon="fa-brands fa-aws"/>AWS Key Management Service](https://aws.amazon.com/kms/), and [<VPIcon icon="fas fa-globe"/>HashiCorp Vault](https://vaultproject.io/).
 
 In my [**Pragmatic REST APIs**](/milanjovanovic.tech/pragmatic-rest-apis/README.md) course, I cover secure data storage and encryption in more detail. These are critical aspects of building secure and robust APIs and integrating with third-party APIs. Check it out if you're interested in learning more.
 

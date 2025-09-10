@@ -106,13 +106,13 @@ The program `whowatch` can be easily installed from the default repositories usi
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 ```sh
 sudo apt install whowatch
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 ```sh
 sudo dnf install whowatch # On Fedora 22+
@@ -132,7 +132,7 @@ whowatch
 
 ![Monitor Logged in Users](https://tecmint.com/wp-content/uploads/2018/07/Monitor-Logged-in-Users.png)
 
-You can view a particular user’s details, simply highlight the user (use the <kbd><FontIcon icon="fas fa-arrow-up"/></kbd> and <kbd><FontIcon icon="fas fa-arrow-down"/></kbd> arrows to navigate). Then press <kbd>d</kbd> key to list the user information as shown in this screenshot.
+You can view a particular user’s details, simply highlight the user (use the <kbd><VPIcon icon="fas fa-arrow-up"/></kbd> and <kbd><VPIcon icon="fas fa-arrow-down"/></kbd> arrows to navigate). Then press <kbd>d</kbd> key to list the user information as shown in this screenshot.
 
 ![Check User Information in Linux](https://tecmint.com/wp-content/uploads/2018/07/Monitor-User-Information.png)
 

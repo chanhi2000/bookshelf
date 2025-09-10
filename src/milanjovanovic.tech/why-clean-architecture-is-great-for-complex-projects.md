@@ -75,7 +75,7 @@ Let's dive in!
 
 ## What Is Clean Architecture?
 
-Clean Architecture was created by [<FontIcon icon="fa-brands fa-wikipedia-w"/>**Robert C. Martin**](https://en.wikipedia.org/wiki/Robert_C._Martin), aka Uncle Bob.
+Clean Architecture was created by [<VPIcon icon="fa-brands fa-wikipedia-w"/>**Robert C. Martin**](https://en.wikipedia.org/wiki/Robert_C._Martin), aka Uncle Bob.
 
 Clean Architecture is an approach to organizing a software system to **separate the concerns** of the various components. Making the system easier to understand and maintain.
 
@@ -140,8 +140,8 @@ It leads to better cohesion and is an excellent option if your project is more c
 
 I also made a few videos covering the Clean Architecture project setup:
 
-- [<FontIcon icon="fa-brands fa-youtube"/>**Clean Architecture walkthrough**](https://youtu.be/tLk4pZZtiDY) (100k+ views)
-- [<FontIcon icon="fa-brands fa-youtube"/>**Clean Architecture project setup from scratch**](https://youtu.be/fe4iuaoxGbA) (40k+ views)
+- [<VPIcon icon="fa-brands fa-youtube"/>**Clean Architecture walkthrough**](https://youtu.be/tLk4pZZtiDY) (100k+ views)
+- [<VPIcon icon="fa-brands fa-youtube"/>**Clean Architecture project setup from scratch**](https://youtu.be/fe4iuaoxGbA) (40k+ views)
 
 <VidStack src="youtube/tLk4pZZtiDY" />
 <VidStack src="youtube/fe4iuaoxGbA" />

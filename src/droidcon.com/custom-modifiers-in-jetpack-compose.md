@@ -185,7 +185,7 @@ This example creates a pulsating scale effect modifier that can be applied to an
 
 ::: info
 
-This is an excellent [<FontIcon icon="fas fa-globe"/>article](https://engineering.teknasyon.com/composable-modifier-vs-composed-factory-in-jetpack-compose-6cbb675b0e7b) which explains the key differences b/w the 2 approaches. Here is the summary:
+This is an excellent [<VPIcon icon="fas fa-globe"/>article](https://engineering.teknasyon.com/composable-modifier-vs-composed-factory-in-jetpack-compose-6cbb675b0e7b) which explains the key differences b/w the 2 approaches. Here is the summary:
 
 1. **Extractability**: CMF is limited to use within the Composition scope, while composed() can be extracted and used more flexibly.
 2. **CompositionLocal resolution**: CMF resolves CompositionLocal values at the call site, while composed() resolves them at the usage site.
@@ -204,7 +204,7 @@ But here’s the catch, the **composed** way has few performance issues and the 
 
 ::: info
 
-Compose 1.3 introduced the Modifier.Node API where the team has migrated all the pre-defined modifiers to this new API. I would highly recommend to watch [<FontIcon icon="fa-brands fa-youtube"/>this](https://youtu.be/BjGX2RftXsU) *youtube video of Android Dev Summit which explains why this change has been done.
+Compose 1.3 introduced the Modifier.Node API where the team has migrated all the pre-defined modifiers to this new API. I would highly recommend to watch [<VPIcon icon="fa-brands fa-youtube"/>this](https://youtu.be/BjGX2RftXsU) *youtube video of Android Dev Summit which explains why this change has been done.
 
 <VidStack src="youtube/BjGX2RftXsU" />
 

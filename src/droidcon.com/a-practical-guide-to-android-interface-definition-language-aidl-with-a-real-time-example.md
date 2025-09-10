@@ -78,7 +78,7 @@ interface ICurrencyConverter {
 }
 ```
 
-Save this file in the<FontIcon icon="fas fa-folder-open"/>`src/main/aidl` directory of your project.
+Save this file in the<VPIcon icon="fas fa-folder-open"/>`src/main/aidl` directory of your project.
 
 ### Step 2: Implement the Service
 
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
 
 ### Step 4: Permissions and Process Configuration
 
-To run the service in a separate process, update the<FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`:
+To run the service in a separate process, update the<VPIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`:
 
 ```xml title="AndroidManifest.xml"
 <service
@@ -195,7 +195,7 @@ AIDL provides a robust framework for interprocess communication in Android, enab
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/a-practical-guide-to-android-interface-definition-language-aidl-with-a-real-time-example-517909777921)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/a-practical-guide-to-android-interface-definition-language-aidl-with-a-real-time-example-517909777921)
 
 <SiteInfo
   name="A Practical Guide to Android Interface Definition Language (AIDL) with a Real-Time Example"

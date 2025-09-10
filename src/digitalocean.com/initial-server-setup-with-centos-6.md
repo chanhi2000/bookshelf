@@ -60,7 +60,7 @@ This article covers a version of CentOS that is no longer supported. If you are 
 
 **Reason:**
 
-[<FontIcon icon="fa-brands fa-centos"/>CentOS 6 reached end of life (EOL) on November 30th, 2020](https://wiki.centos.org/About/Product) and no longer receives security patches or updates. For this reason, this guide is no longer maintained.
+[<VPIcon icon="fa-brands fa-centos"/>CentOS 6 reached end of life (EOL) on November 30th, 2020](https://wiki.centos.org/About/Product) and no longer receives security patches or updates. For this reason, this guide is no longer maintained.
 
 **See Instead:**
 
@@ -131,7 +131,7 @@ As of yet, only root has all of the administrative capabilities. We are going to
 When you perform any root tasks with the new user, you will need to use the phrase `sudo` before the command. This is a helpful command for 2 reasons:
 
 1. it prevents the user from making any system-destroying mistakes 
-2. it stores all the commands run with sudo to the file <FontIcon icon="fas fa-folder-open"/>`/var/log/secure` which can be reviewed later if needed.
+2. it stores all the commands run with sudo to the file <VPIcon icon="fas fa-folder-open"/>`/var/log/secure` which can be reviewed later if needed.
 
 Let’s go ahead and edit the sudo configuration. This can be done through the default editor, which in CentOS is called `vi`
 

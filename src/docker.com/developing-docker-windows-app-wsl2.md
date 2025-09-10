@@ -83,11 +83,11 @@ cover: https://docker.com/app/uploads/2019/08/antonis-kalipetis.jpeg
 
 ::: note
 
-This is a guest post from Docker Captain [Antonis Kalipetis (<FontIcon icon="fa-brands fa-x-twitter"/>`akalipetis`)](https://twitter.com/akalipetis), a Senior Software Engineer at [<FontIcon icon="fas fa-globe"/>efood.gr](http://e-food.gr/) - the leading online food delivery service in Greece. He is a Python lover and developer and helps teams embrace containers and improve their development workflow. He loves automating stuff and sharing knowledge around all things containers, DevOps and developer workflows. You can follow him on Twitter [<FontIcon icon="fa-brands fa-x-twitter"/>`@akalipetis`](https://x.com/akalipetis).
+This is a guest post from Docker Captain [Antonis Kalipetis (<VPIcon icon="fa-brands fa-x-twitter"/>`akalipetis`)](https://twitter.com/akalipetis), a Senior Software Engineer at [<VPIcon icon="fas fa-globe"/>efood.gr](http://e-food.gr/) - the leading online food delivery service in Greece. He is a Python lover and developer and helps teams embrace containers and improve their development workflow. He loves automating stuff and sharing knowledge around all things containers, DevOps and developer workflows. You can follow him on Twitter [<VPIcon icon="fa-brands fa-x-twitter"/>`@akalipetis`](https://x.com/akalipetis).
 
 :::
 
-**WSL 2** (or Windows Subsystem for Linux version 2) is Microsoft’s second take on shipping a Linux Kernel with Windows. The first version was awesome as it [<FontIcon icon="fa-brands fa-microsoft"/>translated Linux system calls to the equivalent Windows NT call in real time](https://blogs.msdn.microsoft.com/wsl/2016/06/08/wsl-system-calls/). The second version includes a **full fledged virtual machine**.
+**WSL 2** (or Windows Subsystem for Linux version 2) is Microsoft’s second take on shipping a Linux Kernel with Windows. The first version was awesome as it [<VPIcon icon="fa-brands fa-microsoft"/>translated Linux system calls to the equivalent Windows NT call in real time](https://blogs.msdn.microsoft.com/wsl/2016/06/08/wsl-system-calls/). The second version includes a **full fledged virtual machine**.
 
 It was only natural that **Docker would embrace this change** and ship a Docker Desktop for Windows version that runs on WSL 2 (WSL 1 had issues running the Docker daemon). This is still a Technical Preview, but after using it for a couple of days, I’ve completely switched my local development to take advantage of it and I’m pretty happy with it.
 
@@ -110,11 +110,11 @@ When you install it, it automatically installs Docker in a managed directory in 
 
 ### Developing applications with Docker Desktop for WSL 2 Tech Preview
 
-For this example, we’ll develop a simple Python [<FontIcon icon="iconfont icon-flask"/>Flask](https://palletsprojects.com/p/flask/) application, with <FontIcon icon="iconfont icon-redis"/>[Redis](https://redis.io/) as its data store. Every time you visit the page, the page counter will increase - say hello to Millennium!
+For this example, we’ll develop a simple Python [<VPIcon icon="iconfont icon-flask"/>Flask](https://palletsprojects.com/p/flask/) application, with <VPIcon icon="iconfont icon-redis"/>[Redis](https://redis.io/) as its data store. Every time you visit the page, the page counter will increase - say hello to Millennium!
 
 ### Setting up VS Code Remote – WSL
 
-[<FontIcon icon="iconfont icon-vscode"/>Visual Studio Code recently announced a new set of tools for developing applications remotely](https://code.visualstudio.com/docs/remote/remote-overview) - using SSH, Docker or WSL. This **splits Visual Studio Code into a “client-server” architecture**, with the client (that is the UI) running on your Windows machine and the server (that is your code, Git, plugins, etc) running remotely. In this example, we’re going to use the WSL version.
+[<VPIcon icon="iconfont icon-vscode"/>Visual Studio Code recently announced a new set of tools for developing applications remotely](https://code.visualstudio.com/docs/remote/remote-overview) - using SSH, Docker or WSL. This **splits Visual Studio Code into a “client-server” architecture**, with the client (that is the UI) running on your Windows machine and the server (that is your code, Git, plugins, etc) running remotely. In this example, we’re going to use the WSL version.
 
 To start, open VS Code and select “Remote-WSL: New Window”. This will install the VS Code Remote server in your default WSL distribution (the one running Docker) and open a new VS Code workspace in your HOME directory.
 
@@ -124,7 +124,7 @@ To start, open VS Code and select “Remote-WSL: New Window”. This will instal
 
 ## Getting and Exploring the Code
 
-Clone [this Github repository (<FontIcon icon="iconfont icon-github"/>`akalipetis/python-docker-example`)](https://github.com/akalipetis/python-docker-example) by running `git clone https://github.com/akalipetis/python-docker-example`. Next, run `code -r python-docker-example` to open this directory in VS Code and let’s go a quick tour!
+Clone [this Github repository (<VPIcon icon="iconfont icon-github"/>`akalipetis/python-docker-example`)](https://github.com/akalipetis/python-docker-example) by running `git clone https://github.com/akalipetis/python-docker-example`. Next, run `code -r python-docker-example` to open this directory in VS Code and let’s go a quick tour!
 
 ```dockerfile title="Dockerfile"
 FROM python:3.7
@@ -151,7 +151,7 @@ RUN pipenv instalt --system --deploy ${PIPENV_ARGS}
 COPY ./ /usr/src/app
 ```
 
-### <FontIcon icon="fa-brands fa-docker"/>`Dockerfile` and <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml`
+### <VPIcon icon="fa-brands fa-docker"/>`Dockerfile` and <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml`
 
 These should look familiar. The Dockerfile is used for **building** your application container, while docker-compose.yml is the one you could use for **deploying** it. docker-compose.override.yml contains all the things that are needed for **local development**.
 
@@ -178,11 +178,11 @@ services:
     - ./:/usr/src/app
 ```
 
-### `Pipfile` and <FontIcon icon="fas fa-file-lines"/>`Pipfile.lock`
+### `Pipfile` and <VPIcon icon="fas fa-file-lines"/>`Pipfile.lock`
 
-These include the application dependencies. [<FontIcon icon="fas fa-globe"/>Pipenv](https://docs.pipenv.org/en/latest/) is the tool used to manage them.
+These include the application dependencies. [<VPIcon icon="fas fa-globe"/>Pipenv](https://docs.pipenv.org/en/latest/) is the tool used to manage them.
 
-The <FontIcon icon="fa-brands fa-python"/>`app.py` file contains the Flask application, which we’re just using in this example. Nothing special here!
+The <VPIcon icon="fa-brands fa-python"/>`app.py` file contains the Flask application, which we’re just using in this example. Nothing special here!
 
 ---
 
@@ -219,7 +219,7 @@ Let’s see what actually happened.
 
 - We changed a file in VS Code, which is **running on Windows**.
 - Since VS Code is running on a client-server mode with the server running is WSL 2, the change was actually made to the file living inside WSL.
-- Since you’re using the Technical Preview of Docker Desktop for WSL 2 and <FontIcon icon="iconfont icon-yaml"/>`docker-compose.override.yml` is using Linux workspaces to mount the code from WSL 2 directly into the running container, **the change was propagated inside the container.**
+- Since you’re using the Technical Preview of Docker Desktop for WSL 2 and <VPIcon icon="iconfont icon-yaml"/>`docker-compose.override.yml` is using Linux workspaces to mount the code from WSL 2 directly into the running container, **the change was propagated inside the container.**
   - While this is possible with the “stable” Docker Desktop for Windows, it isn’t as easy. By using Linux workspaces, we don’t need to worry about file system permissions. It’s also super fast, as it’s a local Linux filesystem mount.
 - Flask is using an auto-reloading server by default, which - using `inotify` - is reloading the server on every file change and within milliseconds from saving your file, your server was reloaded.
 - Data is stored in Redis using a Docker volume, thus the visits counter was not affected by the restart of the server.
@@ -246,7 +246,7 @@ Until VS Code Remote Containers support is ready, you can run `pipenv install --
 
 ## Get the Technical Preview and Learn More
 
-If you’d like to get on board, read the instructions and install the technical preview from the [<FontIcon icon="fa-brands fa-docker"/>Docker docs](https://docs.docker.com/docker-for-windows/wsl-tech-preview/).
+If you’d like to get on board, read the instructions and install the technical preview from the [<VPIcon icon="fa-brands fa-docker"/>Docker docs](https://docs.docker.com/docker-for-windows/wsl-tech-preview/).
 
 <!-- ToDO: add ARTICLE CARD -->
 ```component VPCard

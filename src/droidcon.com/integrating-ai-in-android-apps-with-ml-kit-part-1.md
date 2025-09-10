@@ -54,7 +54,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/0_2TTBI_E3ctKXN2eF-1024x1
 
 ::: info
 
-[Click here to read for FREE if you are not a premium user. (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/integrating-ai-in-android-apps-with-ml-kit-part-1-98de56567bf5?sk=2172638e821b740953ff0c515399eb77)
+[Click here to read for FREE if you are not a premium user. (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/integrating-ai-in-android-apps-with-ml-kit-part-1-98de56567bf5?sk=2172638e821b740953ff0c515399eb77)
 
 <SiteInfo
   name="Integrating AI in Android Apps with ML Kit | Part 1"
@@ -118,9 +118,9 @@ ML Kit relies on certain permissions depending on the feature you're implementin
 
 ---
 
-## Declaring Permissions in <FontIcon icon="fa-brands fa-android"/>``AndroidManifest.xml`
+## Declaring Permissions in <VPIcon icon="fa-brands fa-android"/>``AndroidManifest.xml`
 
-To start, add the necessary permissions in your <FontIcon icon="fa-brands fa-android"/>``AndroidManifest.xml` file. This step informs the Android system about the permissions your app intends to use, but it's only the first step for permissions like the camera.
+To start, add the necessary permissions in your <VPIcon icon="fa-brands fa-android"/>``AndroidManifest.xml` file. This step informs the Android system about the permissions your app intends to use, but it's only the first step for permissions like the camera.
 
 ```xml title="AndroidManifest.xml"
 <uses-permission android:name="android.permission.CAMERA" />
@@ -372,7 +372,7 @@ Thank you for reading! If you found this guide helpful, I’d love for you to**f
 
 Let’s keep learning and building amazing things together — see you in the next post!
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/integrating-ai-in-android-apps-with-ml-kit-part-1-98de56567bf5?sk=2172638e821b740953ff0c515399eb77)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/integrating-ai-in-android-apps-with-ml-kit-part-1-98de56567bf5?sk=2172638e821b740953ff0c515399eb77)
 
 <SiteInfo
   name="Integrating AI in Android Apps with ML Kit | Part 1"

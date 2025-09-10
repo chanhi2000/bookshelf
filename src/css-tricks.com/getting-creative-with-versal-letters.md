@@ -50,19 +50,19 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-featur
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-featured.webp"/>
 
-A while back, our man [<FontIcon icon="iconfont icon-css-tricks"/>Geoff Graham](https://css-tricks.com/author/geoffgraham/) treated us to a refresher on the CSS [<FontIcon icon="iconfont icon-css-tricks"/>`initial-letter`](https://css-tricks.com/almanac/properties/i/initial-letter/) property, but how can you style drop and initial caps to reflect a brand’s visual identity and help to tell its stories?
+A while back, our man [<VPIcon icon="iconfont icon-css-tricks"/>Geoff Graham](https://css-tricks.com/author/geoffgraham/) treated us to a refresher on the CSS [<VPIcon icon="iconfont icon-css-tricks"/>`initial-letter`](https://css-tricks.com/almanac/properties/i/initial-letter/) property, but how can you style drop and initial caps to reflect a brand’s visual identity and help to tell its stories?
 
-Here’s how I do it in CSS by combining [<FontIcon icon="iconfont icon-css-tricks"/>`::first-letter`](https://css-tricks.com/almanac/pseudo-selectors/f/first-letter/) and `initial-letter` with other unexpected properties, including [<FontIcon icon="iconfont icon-css-tricks"/>`border-image`](https://css-tricks.com/almanac/properties/b/border-image/), and [<FontIcon icon="iconfont icon-css-tricks"/>`clip-path`](https://css-tricks.com/almanac/properties/c/clip-path/).
+Here’s how I do it in CSS by combining [<VPIcon icon="iconfont icon-css-tricks"/>`::first-letter`](https://css-tricks.com/almanac/pseudo-selectors/f/first-letter/) and `initial-letter` with other unexpected properties, including [<VPIcon icon="iconfont icon-css-tricks"/>`border-image`](https://css-tricks.com/almanac/properties/b/border-image/), and [<VPIcon icon="iconfont icon-css-tricks"/>`clip-path`](https://css-tricks.com/almanac/properties/c/clip-path/).
 
 ![Patty Meltt is an up-and-coming country music sensation.](https://css-tricks.com/wp-content/uploads/2025/07/versal-01.svg)
 
 ::: note My brief
 
-Patty Meltt is an up-and-coming country music sensation, and she needed a website to launch her new album. She wanted it to be distinctive-looking and memorable, so she called [<FontIcon icon="fas fa-globe"/>Stuff & Nonsense](https://stuffandnonsense.co.uk). Patty’s not real, but the challenges of designing and developing sites like hers are.
+Patty Meltt is an up-and-coming country music sensation, and she needed a website to launch her new album. She wanted it to be distinctive-looking and memorable, so she called [<VPIcon icon="fas fa-globe"/>Stuff & Nonsense](https://stuffandnonsense.co.uk). Patty’s not real, but the challenges of designing and developing sites like hers are.
 
 :::
 
-First, a drop cap recap. [<FontIcon icon="iconfont icon-css-tricks"/>Chris Coyier wrote about drop caps](https://css-tricks.com/snippets/css/drop-caps/) several years ago. They are a decorative letter at the beginning of a paragraph, often spanning several lines of text. It’s a typographic flourish found in illuminated manuscripts and traditional book design, where it adds visual interest and helps guide a reader’s eye to where they should begin.
+First, a drop cap recap. [<VPIcon icon="iconfont icon-css-tricks"/>Chris Coyier wrote about drop caps](https://css-tricks.com/snippets/css/drop-caps/) several years ago. They are a decorative letter at the beginning of a paragraph, often spanning several lines of text. It’s a typographic flourish found in illuminated manuscripts and traditional book design, where it adds visual interest and helps guide a reader’s eye to where they should begin.
 
 Study manuscripts from the Middle Ages onwards, and you’ll find hand-decorated illuminated capitals. The artists who made these initial letters were fabulously called “illuminators.” These medieval versals went beyond showing someone where to start reading; historiated letters also illustrated the stories, which was especially useful since most people in the Middle Ages couldn’t read.
 
@@ -83,7 +83,7 @@ p::first-letter {
 }
 ```
 
-Because browser support still varies, it’s common to include both the unprefixed and `-webkit-` prefixed properties for maximum compatibility. And speaking of browser support, it’s also sensible to wrap the `initial-letter` property inside an [<FontIcon icon="iconfont icon-css-tricks"/>`@supports`](https://css-tricks.com/almanac/rules/s/supports/) CSS at-rule so we can check for browser support and provide a fallback, if needed:
+Because browser support still varies, it’s common to include both the unprefixed and `-webkit-` prefixed properties for maximum compatibility. And speaking of browser support, it’s also sensible to wrap the `initial-letter` property inside an [<VPIcon icon="iconfont icon-css-tricks"/>`@supports`](https://css-tricks.com/almanac/rules/s/supports/) CSS at-rule so we can check for browser support and provide a fallback, if needed:
 
 ```css
 @supports (initial-letter:2) or (-webkit-initial-letter:2) {
@@ -98,7 +98,7 @@ The `initial-letter` property automatically calculates the font size to match th
 
 ::: tip
 
-Interactive examples from this article are [<FontIcon icon="fas fa-globe"/>available in my lab](https://stuffandnonsense.co.uk/lab/caps.html).
+Interactive examples from this article are [<VPIcon icon="fas fa-globe"/>available in my lab](https://stuffandnonsense.co.uk/lab/caps.html).
 
 :::
 
@@ -106,9 +106,9 @@ Interactive examples from this article are [<FontIcon icon="fas fa-globe"/>avail
 
 ## Shadows
 
-![Text shadows applied to first letters ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-2))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-03.webp?resize=1200%2C250&ssl=1)
+![Text shadows applied to first letters ([<VPIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-2))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-03.webp?resize=1200%2C250&ssl=1)
 
-When I want to lift a drop cap off the page, I can add a single [`text-shadow`](https://css-tricks.com/almanac/properties/t/text-shadow/). Shadows can be colourful and don’t have to be black. I created a [<FontIcon icon="fas fa-globe"/>full live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-2) you can check out.
+When I want to lift a drop cap off the page, I can add a single [`text-shadow`](https://css-tricks.com/almanac/properties/t/text-shadow/). Shadows can be colourful and don’t have to be black. I created a [<VPIcon icon="fas fa-globe"/>full live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-2) you can check out.
 
 ```css
 p::first-letter {
@@ -128,15 +128,15 @@ p::first-letter {
 }
 ```
 
-![Examples showing unstyled, single text shadow, and two text shadows ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-3))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-04.webp?resize=2326%2C652&ssl=1)
+![Examples showing unstyled, single text shadow, and two text shadows ([<VPIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-3))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-04.webp?resize=2326%2C652&ssl=1)
 
 ---
 
 ## Strokes
 
-![A text shadow applied to a first letter ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-4))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-05.webp?resize=1200%2C250&ssl=1)
+![A text shadow applied to a first letter ([<VPIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-4))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-05.webp?resize=1200%2C250&ssl=1)
 
-The [<FontIcon icon="iconfont icon-css-tricks"/>`text-stroke`](https://css-tricks.com/almanac/properties/t/text-stroke/) property — shorthand for `text-stroke-width` and `text-stroke-color` — adds an outline to the centre of the text shape. It’s a [<FontIcon icon="fas fa-globe"/>Baseline](https://webstatus.dev/features/text-stroke-fill?q=text-stroke) feature and is now widely available. I can make the cap text transparent or colour it to match the page background.
+The [<VPIcon icon="iconfont icon-css-tricks"/>`text-stroke`](https://css-tricks.com/almanac/properties/t/text-stroke/) property — shorthand for `text-stroke-width` and `text-stroke-color` — adds an outline to the centre of the text shape. It’s a [<VPIcon icon="fas fa-globe"/>Baseline](https://webstatus.dev/features/text-stroke-fill?q=text-stroke) feature and is now widely available. I can make the cap text transparent or colour it to match the page background.
 
 ```css
 p::first-letter {
@@ -149,9 +149,9 @@ p::first-letter {
 
 ## Backgrounds
 
-![Solid and gradient backgrounds applied to first letters ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-5))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-06.webp?resize=1200%2C250&ssl=1)
+![Solid and gradient backgrounds applied to first letters ([<VPIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-5))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-06.webp?resize=1200%2C250&ssl=1)
 
-Adding a background is a simple way to start making a cap more decorative. I could start by adding a solid [<FontIcon icon="iconfont icon-css-tricks"/>`background-color`](https://css-tricks.com/almanac/properties/b/background-color/).
+Adding a background is a simple way to start making a cap more decorative. I could start by adding a solid [<VPIcon icon="iconfont icon-css-tricks"/>`background-color`](https://css-tricks.com/almanac/properties/b/background-color/).
 
 ```css
 p::first-letter {
@@ -160,7 +160,7 @@ p::first-letter {
 }
 ```
 
-To add a lighting effect, I could apply a conical, linear, or radial [**gradient background image**](/css-tricks.com/a-complete-guide-to-css-gradients.md) (here’s a [<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-6)):
+To add a lighting effect, I could apply a conical, linear, or radial [**gradient background image**](/css-tricks.com/a-complete-guide-to-css-gradients.md) (here’s a [<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-6)):
 
 ```css
 p::first-letter {
@@ -170,7 +170,7 @@ p::first-letter {
 }
 ```
 
-And even an image URL to use a bitmap or vector image as a background (and here’s [<FontIcon icon="fas fa-globe"/>that demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-7)):
+And even an image URL to use a bitmap or vector image as a background (and here’s [<VPIcon icon="fas fa-globe"/>that demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-7)):
 
 ```css
 p::first-letter {
@@ -183,7 +183,7 @@ p::first-letter {
 
 ![Background images and a background clipped to text](https://css-tricks.com/wp-content/uploads/2025/07/versal-07.svg)
 
-Things become even more interesting by [<FontIcon icon="iconfont icon-css-tricks"/>clipping](https://css-tricks.com/almanac/properties/b/background-clip/) a bitmap, gradient, or vector background image to the text while setting its colour to `transparent`. Now, the image will only appear inside the text space ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-8)).
+Things become even more interesting by [<VPIcon icon="iconfont icon-css-tricks"/>clipping](https://css-tricks.com/almanac/properties/b/background-clip/) a bitmap, gradient, or vector background image to the text while setting its colour to `transparent`. Now, the image will only appear inside the text space ([<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-8)).
 
 ```css
 p::first-letter {
@@ -199,7 +199,7 @@ p::first-letter {
 
 ![Two examples of borders applied to first letters, one square and one rounded](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-08.webp?resize=1200%2C250&ssl=1)
 
-You might think borders are boring, but there’s plenty you can do to make them look interesting. I could start by applying a solid [<FontIcon icon="iconfont icon-css-tricks"/>`border`](https://css-tricks.com/almanac/properties/b/border/) to surround the cap box ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-9)).
+You might think borders are boring, but there’s plenty you can do to make them look interesting. I could start by applying a solid [<VPIcon icon="iconfont icon-css-tricks"/>`border`](https://css-tricks.com/almanac/properties/b/border/) to surround the cap box ([<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-9)).
 
 ```css
 p::first-letter {
@@ -208,7 +208,7 @@ p::first-letter {
 }
 ```
 
-Then, I could apply [<FontIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/) to slightly round all its corners ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-10)).
+Then, I could apply [<VPIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/) to slightly round all its corners ([<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-10)).
 
 ```css
 p::first-letter {
@@ -217,7 +217,7 @@ p::first-letter {
 }
 ```
 
-Or, I might round individual corners for a more interesting look ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-11)):
+Or, I might round individual corners for a more interesting look ([<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-11)):
 
 ```css
 p::first-letter {
@@ -227,11 +227,11 @@ p::first-letter {
 }
 ```
 
-![A border radius applied to the first letter, where the top-left and bottom-right edges are rounded ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-11))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-09.webp?resize=1200%2C250&ssl=1)
+![A border radius applied to the first letter, where the top-left and bottom-right edges are rounded ([<VPIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-11))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-09.webp?resize=1200%2C250&ssl=1)
 
-And then there’s the [<FontIcon icon="iconfont icon-css-tricks"/>`border-image`](https://css-tricks.com/almanac/properties/b/border-image/) property, a powerful, yet often [**overlooked CSS tool**](/css-tricks.com/revisiting-css-border-image.md). By slicing, repeating, and outsetting images, you can create intricate borders and decorative drop caps with minimal code.
+And then there’s the [<VPIcon icon="iconfont icon-css-tricks"/>`border-image`](https://css-tricks.com/almanac/properties/b/border-image/) property, a powerful, yet often [**overlooked CSS tool**](/css-tricks.com/revisiting-css-border-image.md). By slicing, repeating, and outsetting images, you can create intricate borders and decorative drop caps with minimal code.
 
-![A CSS border image applied to a first letter ([<FontIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-12))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/s_56E34CC562FF29CF4636A37359C805B2C8BD4869C3745A14E50DCA49B828F693_1751638531059_2025-07-04-9.png?resize=1200%2C300&ssl=1)
+![A CSS border image applied to a first letter ([<VPIcon icon="fas fa-globe"/>live demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-12))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/s_56E34CC562FF29CF4636A37359C805B2C8BD4869C3745A14E50DCA49B828F693_1751638531059_2025-07-04-9.png?resize=1200%2C300&ssl=1)
 
 You can insert a bitmap or vector format image, or drop a CSS gradient into the border space:
 
@@ -250,7 +250,7 @@ p::first-letter {
 
 ![Clipping first letters](https://css-tricks.com/wp-content/uploads/2025/07/versal-17.svg)
 
-The [<FontIcon icon="iconfont icon-css-tricks"/>`clip-path`](https://css-tricks.com/almanac/properties/c/clip-path/) property lets you define a custom shape that controls which parts of an element are visible and which are hidden. Instead of always showing a rectangular box, you can use `clip-path` to crop elements into circles, polygons, or even [<FontIcon icon="iconfont icon-css-tricks"/>complex shapes defined with SVG paths](https://css-tricks.com/almanac/functions/p/path/). It’s an effective way to create visual effects like this right-facing arrow. Clipping the drop cap into an arrow shape isn’t just decorative — it reinforces direction and hierarchy, literally pointing readers to where the story begins. [<FontIcon icon="fas fa-globe"/>Here’s a demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-13) of the following example.
+The [<VPIcon icon="iconfont icon-css-tricks"/>`clip-path`](https://css-tricks.com/almanac/properties/c/clip-path/) property lets you define a custom shape that controls which parts of an element are visible and which are hidden. Instead of always showing a rectangular box, you can use `clip-path` to crop elements into circles, polygons, or even [<VPIcon icon="iconfont icon-css-tricks"/>complex shapes defined with SVG paths](https://css-tricks.com/almanac/functions/p/path/). It’s an effective way to create visual effects like this right-facing arrow. Clipping the drop cap into an arrow shape isn’t just decorative — it reinforces direction and hierarchy, literally pointing readers to where the story begins. [<VPIcon icon="fas fa-globe"/>Here’s a demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-13) of the following example.
 
 ```css
 p::first-letter {
@@ -261,7 +261,7 @@ p::first-letter {
 }
 ```
 
-Or a glossy sticker shape cap, made by combining `clip-path` with a gradient background image and a text shadow ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-14)).
+Or a glossy sticker shape cap, made by combining `clip-path` with a gradient background image and a text shadow ([<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-14)).
 
 ---
 
@@ -269,9 +269,9 @@ Or a glossy sticker shape cap, made by combining `clip-path` with a gradient bac
 
 ![](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-12.webp?resize=1200%2C250&ssl=1)
 
-Two examples of transforming first letters, one rotated ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-15)) and one scaled ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-16))
+Two examples of transforming first letters, one rotated ([<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-15)) and one scaled ([<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-16))
 
-You can [<FontIcon icon="iconfont icon-css-tricks"/>`transform`](https://css-tricks.com/almanac/properties/t/transform/) a drop cap independently from the rest of a paragraph by rotating, scaling, skewing, or translating it to make it feel more dynamic:
+You can [<VPIcon icon="iconfont icon-css-tricks"/>`transform`](https://css-tricks.com/almanac/properties/t/transform/) a drop cap independently from the rest of a paragraph by rotating, scaling, skewing, or translating it to make it feel more dynamic:
 
 ```css
 p::first-letter {
@@ -283,7 +283,7 @@ p::first-letter {
 
 ![Two examples of skewed first letters, angling each one so that they are slanted backward towards the left.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-12.webp?resize=1200%2C250&ssl=1)
 
-And with a little trial and error to arrive at the correct values, you could even flow the remaining paragraph text around the cap using the [<FontIcon icon="iconfont icon-css-tricks"/>`shape-outside`](https://css-tricks.com/almanac/properties/s/shape-outside/) property ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-16)):
+And with a little trial and error to arrive at the correct values, you could even flow the remaining paragraph text around the cap using the [<VPIcon icon="iconfont icon-css-tricks"/>`shape-outside`](https://css-tricks.com/almanac/properties/s/shape-outside/) property ([<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-16)):
 
 ```css
 p::first-letter {
@@ -302,7 +302,7 @@ Drop caps don’t just help guide a reader’s eye to where they should begin; t
 
 ## Designing for Patty Meltt
 
-[<FontIcon icon="fas fa-globe"/>Patty Meltt](https://inspired-design-feitler.squarespace.com/?password=demo) wanted a website packed with design details. Every element added to a design is an opportunity to be expressive, and that includes her drop caps.
+[<VPIcon icon="fas fa-globe"/>Patty Meltt](https://inspired-design-feitler.squarespace.com/?password=demo) wanted a website packed with design details. Every element added to a design is an opportunity to be expressive, and that includes her drop caps.
 
 Her biography page is presentable, but we felt a focus on where someone should start reading was lacking.
 
@@ -340,7 +340,7 @@ p::first-letter {
 }
 ```
 
-…before applying two background images — a noise-filled SVG and a radial gradient — that I blended using a [<FontIcon icon="iconfont icon-css-tricks"/>`background-blend-mode`](https://css-tricks.com/almanac/properties/b/background-blend-mode/):
+…before applying two background images — a noise-filled SVG and a radial gradient — that I blended using a [<VPIcon icon="iconfont icon-css-tricks"/>`background-blend-mode`](https://css-tricks.com/almanac/properties/b/background-blend-mode/):
 
 ```css
 p::first-letter {
@@ -351,7 +351,7 @@ p::first-letter {
 }
 ```
 
-![Patty Meltt’s biography with a stylsh new drop cap ([<FontIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-19))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-16.webp?resize=1600%2C1200&ssl=1)
+![Patty Meltt’s biography with a stylsh new drop cap ([<VPIcon icon="fas fa-globe"/>demo](https://stuffandnonsense.co.uk/lab/caps.html#demo-19))](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/versal-16.webp?resize=1600%2C1200&ssl=1)
 
 The result is a drop cap that’s as stylish as cut-off jeans and a pair of gator-skinned boots.
 

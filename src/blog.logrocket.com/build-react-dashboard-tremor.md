@@ -112,7 +112,7 @@ All we did was import each component and arrange them in a personalized order to
 
 ## Getting started with Tremor
 
-To get started, we’ll set up a React project using Vite, and install Tremor, [<FontIcon icon="fas fa-globe"/>Heroicons](https://heroicons.com/), and Tailwind as dependencies.
+To get started, we’ll set up a React project using Vite, and install Tremor, [<VPIcon icon="fas fa-globe"/>Heroicons](https://heroicons.com/), and Tailwind as dependencies.
 
 First, open your command line tool and `cd` into a preferred folder. Next, run the following code to initialize Vite’s CLI installation prompt:
 
@@ -124,7 +124,7 @@ The command will prompt you to choose a framework and your preferences for the p
 
 ![The framework and your preferences for the project](https://blog.logrocket.com/wp-content/uploads/2022/11/frameworks-preferences-project.png)
 
-Once the installation is complete, `cd` into the <FontIcon icon="fas fa-folder-open"/>`tremor-example-project` folder and run the following commands to install Tremor, Heroicons, and Tailwind.
+Once the installation is complete, `cd` into the <VPIcon icon="fas fa-folder-open"/>`tremor-example-project` folder and run the following commands to install Tremor, Heroicons, and Tailwind.
 
 ```sh
 npm i heroicons@1.0.6 @tremor/react
@@ -142,9 +142,9 @@ The first step is to create a Tailwind and PostCSS config file in the project’
 npx tailwindcss init -p
 ```
 
-This command will create <FontIcon icon="fa-brands fa-js"/>`tailwind.config.js` and <FontIcon icon="fa-brands fa-js"/>`postcss.config.cjs` files in the root folder of your project.
+This command will create <VPIcon icon="fa-brands fa-js"/>`tailwind.config.js` and <VPIcon icon="fa-brands fa-js"/>`postcss.config.cjs` files in the root folder of your project.
 
-Open the <FontIcon icon="fa-brands fa-js"/>`tailwind.config.js` file and add the following code within the `content` array value:
+Open the <VPIcon icon="fa-brands fa-js"/>`tailwind.config.js` file and add the following code within the `content` array value:
 
 ```js title="tailwind.config.js"
 "./index.html", "./src/**/*.{js,ts,jsx,tsx}"
@@ -152,7 +152,7 @@ Open the <FontIcon icon="fa-brands fa-js"/>`tailwind.config.js` file and add the
 
 These are the paths to all the template files in our project.
 
-After adding the paths, the content within the <FontIcon icon="fa-brands fa-js"/>`tailwind.config.js` file should look similar to the one below:
+After adding the paths, the content within the <VPIcon icon="fa-brands fa-js"/>`tailwind.config.js` file should look similar to the one below:
 
 ```js title="tailwind.config.js"
 /** @type {import('tailwindcss').Config} */
@@ -212,9 +212,9 @@ Even after installing Tailwind, if you try to use any of Tremor’s components, 
 
 ![Tremor components](https://blog.logrocket.com/wp-content/uploads/2022/11/tremor-components.png)
 
-This is because Tremor’s Tailwind package is set up internally, so to use it in our app, we have to import the CSS file, where the directives are, inside either the <FontIcon icon="fa-brands fa-react"/>`App.js` or <FontIcon icon="fa-brands fa-react"/>`main.jsx` file.
+This is because Tremor’s Tailwind package is set up internally, so to use it in our app, we have to import the CSS file, where the directives are, inside either the <VPIcon icon="fa-brands fa-react"/>`App.js` or <VPIcon icon="fa-brands fa-react"/>`main.jsx` file.
 
-To do this, go to the <FontIcon icon="fa-brands fa-react"/>`App.jsx` or <FontIcon icon="fa-brands fa-react"/>`main.jsx` file and add the following code path:
+To do this, go to the <VPIcon icon="fa-brands fa-react"/>`App.jsx` or <VPIcon icon="fa-brands fa-react"/>`main.jsx` file and add the following code path:
 
 ```jsx
 import "@tremor/react/dist/esm/tremor.css";
@@ -278,7 +278,7 @@ The utility classes on the div are for the underlying Tailwind package. You can 
 
 ![Utility classes](https://blog.logrocket.com/wp-content/uploads/2022/11/utility-classes-2.png)
 
-Visit the [<FontIcon icon="fas fa-globe"/>documentation](https://tremor.so/docs/getting-started/introduction) to learn more about Tremor’s components.
+Visit the [<VPIcon icon="fas fa-globe"/>documentation](https://tremor.so/docs/getting-started/introduction) to learn more about Tremor’s components.
 
 Now that we understand how Tremor works, let’s build our first dashboard.
 
@@ -288,7 +288,7 @@ Now that we understand how Tremor works, let’s build our first dashboard.
 
 Tremor provides example layouts that are called page shell blocks. These shell blocks are boilerplates that allow us to quickly wrap visualizations and metrics into visually compelling dashboard interfaces without worrying about layout constraints, such as responsiveness.
 
-Visit [<FontIcon icon="fas fa-globe"/>Tremor’s shell page](https://tremor.so/blocks/page-shells) to view the list of available shell blocks.
+Visit [<VPIcon icon="fas fa-globe"/>Tremor’s shell page](https://tremor.so/blocks/page-shells) to view the list of available shell blocks.
 
 For this tutorial, we’ll use the shell block shown in the image below:
 
@@ -296,11 +296,11 @@ For this tutorial, we’ll use the shell block shown in the image below:
 
 This layout has two tabs: the first contains three-column performance indicator cards and a big container. The second tab contains only a big container.
 
-As a first step, create a <FontIcon icon="fas fa-folder-open"/>`components` sub-folder inside the <FontIcon icon="fas fa-folder-open"/>`src` folder and add an <FontIcon icon="fa-brands fa-react"/>`example.jsx` file.
+As a first step, create a <VPIcon icon="fas fa-folder-open"/>`components` sub-folder inside the <VPIcon icon="fas fa-folder-open"/>`src` folder and add an <VPIcon icon="fa-brands fa-react"/>`example.jsx` file.
 
 ![Components sub-folder](https://blog.logrocket.com/wp-content/uploads/2022/11/components-sub-folder.png)
 
-Next, add the following code to the <FontIcon icon="fa-brands fa-react"/>`example.jsx` file:
+Next, add the following code to the <VPIcon icon="fa-brands fa-react"/>`example.jsx` file:
 
 ```jsx :collapsed-lines title="components/example.jsx"
 import {
@@ -423,7 +423,7 @@ So on initial load, the `TabList` component will set the state to its default va
 
 When the second tab is selected, the `TabList` component’s value becomes `2`, thus triggering the conditional statement to display the second tab section on the dashboard.
 
-To finish off, go back to the <FontIcon icon="fa-brands fa-react"/>`App.jsx` file, and import the <FontIcon icon="fa-brands fa-react"/>`example.jsx` file like so:
+To finish off, go back to the <VPIcon icon="fa-brands fa-react"/>`App.jsx` file, and import the <VPIcon icon="fa-brands fa-react"/>`example.jsx` file like so:
 
 ```jsx title="App.jsx"
 import Example from  "./components/example";
@@ -457,9 +457,9 @@ First, create `Cards.jsx`, `firstContainer.jsx`, and `secondContainer.jsx` files
 
 ![Adding cards](https://blog.logrocket.com/wp-content/uploads/2022/11/adding-cards-1.png)
 
-Next, move the cards and both big containers’ code blocks inside the <FontIcon icon="fa-brands fa-react"/>`Cards.jsx`, <FontIcon icon="fa-brands fa-react"/>`firstContainer.jsx`, and <FontIcon icon="fa-brands fa-react"/>`secondContainer.jsx` files, respectively.
+Next, move the cards and both big containers’ code blocks inside the <VPIcon icon="fa-brands fa-react"/>`Cards.jsx`, <VPIcon icon="fa-brands fa-react"/>`firstContainer.jsx`, and <VPIcon icon="fa-brands fa-react"/>`secondContainer.jsx` files, respectively.
 
-The <FontIcon icon="fa-brands fa-react"/>`Cards.jsx` file looks like this:
+The <VPIcon icon="fa-brands fa-react"/>`Cards.jsx` file looks like this:
 
 ```jsx title="Cards.jsx"
 import React from "react";
@@ -491,7 +491,7 @@ export default function Cards() {
 }
 ```
 
-While <FontIcon icon="fa-brands fa-react"/>`firstContainer.jsx` looks like this:
+While <VPIcon icon="fa-brands fa-react"/>`firstContainer.jsx` looks like this:
 
 ```jsx title="firstContainer.jsx"
 import React from "react";
@@ -508,7 +508,7 @@ export default function FirstContainer() {
 }
 ```
 
-And <FontIcon icon="fa-brands fa-react"/>`secondContainer.jsx` looks like this:
+And <VPIcon icon="fa-brands fa-react"/>`secondContainer.jsx` looks like this:
 
 ```jsx title="secondContainer.jsx"
 import React from "react";
@@ -525,7 +525,7 @@ export default function SecondContainer() {
 }
 ```
 
-Lastly, import all three components inside the <FontIcon icon="fa-brands fa-react"/>`example.jsx` file and add them to their respective positions.
+Lastly, import all three components inside the <VPIcon icon="fa-brands fa-react"/>`example.jsx` file and add them to their respective positions.
 
 ```jsx title="example.jsx"
 import Cards from "./cards";
@@ -553,7 +553,7 @@ If you did everything right, you shouldn’t see any differences on your page sh
 
 ![Saving progress on shell](https://blog.logrocket.com/wp-content/uploads/2022/11/save-progress-shell.png)
 
-To populate our cards, go into the <FontIcon icon="fa-brands fa-react"/>`Cards.jsx` file and add the following code at the top of the component’s function:
+To populate our cards, go into the <VPIcon icon="fa-brands fa-react"/>`Cards.jsx` file and add the following code at the top of the component’s function:
 
 ```jsx title="Cards.jsx"
 const data = [
@@ -584,7 +584,7 @@ const data = [
 ];
 ```
 
-This is hard-coded data we got from [<FontIcon icon="fas fa-globe"/>Tremor’s documentation](https://tremor.so/docs/getting-started/introduction). It is an array of objects we can loop through and use as our card’s data.
+This is hard-coded data we got from [<VPIcon icon="fas fa-globe"/>Tremor’s documentation](https://tremor.so/docs/getting-started/introduction). It is an array of objects we can loop through and use as our card’s data.
 
 In cases where there are multiple cards in a page shell, as in our case, we can use the `map` array method to loop through the data with just one card composition.
 
@@ -687,7 +687,7 @@ In this section, we’ll use the `BarChart` and `LineChart` components to popula
 
 ### Bar chart
 
-To begin with, go to the <FontIcon icon="fa-brands fa-react"/>`firstContainer.jsx` file and import the following components from Tremor:
+To begin with, go to the <VPIcon icon="fa-brands fa-react"/>`firstContainer.jsx` file and import the following components from Tremor:
 
 ```jsx
 import { Block, Card, Title, BarChart} from "@tremor/react";
@@ -802,7 +802,7 @@ That’s it for the first container. Save your progress and return to the browse
 
 For the second container, we’ll use a `LineChart` component. Tremor’s chart components share similar anatomies, so our workflow will be identical to the previous section’s.
 
-First, go to the <FontIcon icon="fa-brands fa-react"/>`secondContainer.jsx` file and import the following components:  
+First, go to the <VPIcon icon="fa-brands fa-react"/>`secondContainer.jsx` file and import the following components:  
 
 ```jsx title="secondContainer.jsx"
 import {  

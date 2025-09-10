@@ -69,17 +69,17 @@ This tutorial assumes you have previous experience with developing for Android i
 
 ## Getting Started
 
-Download the [starter project](https://koenig-media.raywenderlich.com/uploads/2017/11/FavoriteMovies-starter.zip) and open it by starting Android Studio and selecting <FontIcon icon="iconfont icon-select"/>`[Open an existing Android Studio project]`:
+Download the [starter project](https://koenig-media.raywenderlich.com/uploads/2017/11/FavoriteMovies-starter.zip) and open it by starting Android Studio and selecting <VPIcon icon="iconfont icon-select"/>`[Open an existing Android Studio project]`:
 
 ![Open an existing Android Studio project](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-10-30-at-1.54.21-PM-410x320.png)
 
-Navigate to the sample project directory and click <FontIcon icon="iconfont icon-select"/>`[Open]`.
+Navigate to the sample project directory and click <VPIcon icon="iconfont icon-select"/>`[Open]`.
 
 ![select the project](https://koenig-media.raywenderlich.com/uploads/2017/08/select-project.png)
 
-Take a look at the existing code before going on with the tutorial. Inside the <FontIcon icon="fas fa-folder-open"/>`assets` directory, there is a JSON file containing some information about the top 5 most popular Android related movies ever made.
+Take a look at the existing code before going on with the tutorial. Inside the <VPIcon icon="fas fa-folder-open"/>`assets` directory, there is a JSON file containing some information about the top 5 most popular Android related movies ever made.
 
-You can find the helper methods used to read the JSON data inside <FontIcon icon="iconfont icon-java"/>`MovieHelper.kt`. [The Picasso library](http://square.github.io/picasso) helps to easily download and display the images on the screen.
+You can find the helper methods used to read the JSON data inside <VPIcon icon="iconfont icon-java"/>`MovieHelper.kt`. [The Picasso library](http://square.github.io/picasso) helps to easily download and display the images on the screen.
 
 This tutorial uses fragments. If you are not familiar with fragments have a look at [this tutorial](https://www.raywenderlich.com/149112/android-fragments-tutorial-introduction). 
 
@@ -103,7 +103,7 @@ You’ll divide the `ViewPager` implementation into three parts:
 
 ### Preparing the `ViewPager`
 
-For step one, open <FontIcon icon="iconfont icon-java"/>`MainActivity.kt` and remove everything inside `onCreate()`, below this line:
+For step one, open <VPIcon icon="iconfont icon-java"/>`MainActivity.kt` and remove everything inside `onCreate()`, below this line:
 
 ```kotlin
 val movies = MovieHelper.getMoviesFromJson("movies.json", this)
@@ -111,7 +111,7 @@ val movies = MovieHelper.getMoviesFromJson("movies.json", this)
 
 Remove the `replaceFragment()` method from the bottom of the class as well.
 
-Now open <FontIcon icon="iconfont icon-code"/>`activity_main.xml` and replace everything inside the `RelativeLayout` with the following:
+Now open <VPIcon icon="iconfont icon-code"/>`activity_main.xml` and replace everything inside the `RelativeLayout` with the following:
 
 ```xml
 <android.support.v4.view.ViewPager
@@ -139,7 +139,7 @@ Here you created the `ViewPager` view, which is now the only child of the `Relat
 
 `ViewPager` is only available through the Android Support Library. The Android Support Library is actually a set of libraries that provide backward compatible implementations of widgets and other standard Android functionality. These libraries provide a common API that often allow the use of newer Android SDK features on devices that only support lower API levels. You should familiarize yourself with the [Support Library](https://developer.android.com/topic/libraries/support-library/index.html) and [Support Library Packages](https://developer.android.com/topic/libraries/support-library/packages.html).
 
-Go back to <FontIcon icon="iconfont icon-java"/>`MainActivity.kt` and first import the `ViewPager` to be able to use it with this line:
+Go back to <VPIcon icon="iconfont icon-java"/>`MainActivity.kt` and first import the `ViewPager` to be able to use it with this line:
 
 ```kotlin
 import android.support.v4.view.ViewPager
@@ -186,7 +186,7 @@ It’s time to decide. Your list of movies has only five items, so the `Fragment
 
 ### Creating a Custom `FragmentStatePagerAdapter`
 
-In the project navigator pane, right-click on `com.raywenderlich.favoritemovies` and select <FontIcon icon="iconfont icon-select"/>`[New -> Kotlin File/Class]`. Name it `MoviesPagerAdapter` and select <FontIcon icon="iconfont icon-select"/>`[Class]` for Kind. Hit <FontIcon icon="iconfont icon-select"/>`[OK]`.
+In the project navigator pane, right-click on `com.raywenderlich.favoritemovies` and select <VPIcon icon="iconfont icon-select"/>`[New -> Kotlin File/Class]`. Name it `MoviesPagerAdapter` and select <VPIcon icon="iconfont icon-select"/>`[Class]` for Kind. Hit <VPIcon icon="iconfont icon-select"/>`[OK]`.
 
 ![new Kotlin file](https://koenig-media.raywenderlich.com/uploads/2017/08/new-kotlin-file.png)
 
@@ -225,7 +225,7 @@ When the `ViewPager` needs to display a fragment, it initiates a chat with the `
 
 ### Connecting the `PagerAdapter` and the `ViewPager`
 
-Open <FontIcon icon="iconfont icon-java"/>`MainActivity.kt` and add the following line at the top to declare your `MoviesPagerAdapter`:
+Open <VPIcon icon="iconfont icon-java"/>`MainActivity.kt` and add the following line at the top to declare your `MoviesPagerAdapter`:
 
 ```kotlin
 private lateinit var pagerAdapter: MoviesPagerAdapter
@@ -266,7 +266,7 @@ Page2
 
 The `FragmentStatePagerAdapter` will stop creating new fragments when the current index reaches the number of objects returned by `getCount()`, so you need to change the method to return a fairly large number that the users are not very likely to reach by continuously swiping in the same direction. That way the `PagerAdapter` will keep creating pages until the page index reaches the value returned by `getCount()`.
 
-Open <FontIcon icon="iconfont icon-java"/>`MoviesPagerAdapter.kt` and create a new constant representing the large number by adding this line at the top of the file above the class definition:
+Open <VPIcon icon="iconfont icon-java"/>`MoviesPagerAdapter.kt` and create a new constant representing the large number by adding this line at the top of the file above the class definition:
 
 ```kotlin
 private const val MAX_VALUE = 200
@@ -290,7 +290,7 @@ return MovieFragment.newInstance(movies[position % movies.size])
 
 This will ensure that the `ViewPager` doesn’t request the element at an index larger than `movies.size` because the remainder after you divide the position by `movies.size` will always be greater than or equal to 0 and less than `movies.size`.
 
-Right now the infinite scrolling works only when the user navigates forward through the array (swipes left). That is because, when your app starts, the `ViewPager` displays the movie at index 0. To fix this issue, open <FontIcon icon="iconfont icon-java"/>`MainActivity.kt` and add the following line inside `onCreate()` below the line where you connect the `PageAdapter` to the `ViewPager`: 
+Right now the infinite scrolling works only when the user navigates forward through the array (swipes left). That is because, when your app starts, the `ViewPager` displays the movie at index 0. To fix this issue, open <VPIcon icon="iconfont icon-java"/>`MainActivity.kt` and add the following line inside `onCreate()` below the line where you connect the `PageAdapter` to the `ViewPager`: 
 
 ```kotlin
 viewPager.currentItem = pagerAdapter.count / 2
@@ -308,7 +308,7 @@ A [`TabLayout`](https://developer.android.com/reference/android/support/design/w
 
 If you try to add a `TabLayout` to your `ViewPager` you won’t be able to see any tabs because the layout will be automatically populated with as many tabs as the `FragmentStatePagerAdapter` tells it by calling the `getCount()` method, which now returns a pretty large number. Trying to fit that many tabs on your screen will make them really narrow.
 
-Luckily, there is a third party library called [<FontIcon icon="iconfont icon-github"/>`nshmura/RecyclerTabLayout`](https://github.com/nshmura/RecyclerTabLayout) that solves this problem. The library uses the `RecyclerView` in its implementation. You can learn more about the mysterious `RecyclerView` from [this tutorial](https://www.raywenderlich.com/126528/android-recyclerview-tutorial). To install the library, open up <FontIcon icon="fas fa-folder-open"/>`/app/`<FontIcon icon="iconfont icon-engine"/>`build.grade` and add the following line inside `dependencies`:
+Luckily, there is a third party library called [<VPIcon icon="iconfont icon-github"/>`nshmura/RecyclerTabLayout`](https://github.com/nshmura/RecyclerTabLayout) that solves this problem. The library uses the `RecyclerView` in its implementation. You can learn more about the mysterious `RecyclerView` from [this tutorial](https://www.raywenderlich.com/126528/android-recyclerview-tutorial). To install the library, open up <VPIcon icon="fas fa-folder-open"/>`/app/`<VPIcon icon="iconfont icon-engine"/>`build.grade` and add the following line inside `dependencies`:
 
 ```groovy
 implementation 'com.nshmura:recyclertablayout:1.5.0'
@@ -320,9 +320,9 @@ The recyclertablayout library uses an old version of the Android Support Librari
 implementation 'com.android.support:recyclerview-v7:26.1.0'
 ```
 
-Tap <FontIcon icon="iconfont icon-select"/>`[Sync Now]` on the yellow pop-up and wait until Android Studio installs the library.
+Tap <VPIcon icon="iconfont icon-select"/>`[Sync Now]` on the yellow pop-up and wait until Android Studio installs the library.
 
-Open <FontIcon icon="iconfont icon-code"/>`activity_main.xml` and paste the following snippet above the `ViewPager`:
+Open <VPIcon icon="iconfont icon-code"/>`activity_main.xml` and paste the following snippet above the `ViewPager`:
 
 ```xml
 <com.nshmura.recyclertablayout.RecyclerTabLayout
@@ -359,7 +359,7 @@ Your whole layout file should now look like this:
 </RelativeLayout>
 ```
 
-Open <FontIcon icon="iconfont icon-java"/>`MainActivity.kt` and import `RecyclerTabLayout` at the top of the file, like this:
+Open <VPIcon icon="iconfont icon-java"/>`MainActivity.kt` and import `RecyclerTabLayout` at the top of the file, like this:
 
 ```kotlin
 import com.nshmura.recyclertablayout.RecyclerTabLayout
@@ -380,7 +380,7 @@ recyclerTabLayout.setUpWithViewPager(viewPager)
 
 The first line connects your `RecyclerTabLayout` instance to the xml view and the second one links the `RecyclerTabLayout` to your `ViewPager`.
 
-The last thing you have to do is let the `RecyclerTabLayout` know what titles to display on the Tabs. Open <FontIcon icon="iconfont icon-java"/>`MoviesPagerAdapter.kt` and add the following method inside the class:
+The last thing you have to do is let the `RecyclerTabLayout` know what titles to display on the Tabs. Open <VPIcon icon="iconfont icon-java"/>`MoviesPagerAdapter.kt` and add the following method inside the class:
 
 ```kotlin
 override fun getPageTitle(position: Int): CharSequence {

@@ -105,7 +105,7 @@ This project was made so that you can start using face detection and tracking qu
 
 ### Project Dependencies
 
-Open the project’s <FontIcon icon="fas fa-folder-open"/>`app`/<FontIcon icon="iconfont icon-engine"/>`build.gradle`:
+Open the project’s <VPIcon icon="fas fa-folder-open"/>`app`/<VPIcon icon="iconfont icon-engine"/>`build.gradle`:
 
 ![Screenshot of the Project pane in Android studio, showing 'build.gradle (Module:app)' highlighted.](https://koenig-media.raywenderlich.com/uploads/2017/04/build.gradle-app-in-project-pane.jpg)
 
@@ -122,7 +122,7 @@ The second brings in the [Android Design Support Library](https://developer.andr
 
 ### Using the Cameras
 
-FaceSpotter specifies that it uses the camera and requests the user’s permission to do so with these lines in <FontIcon icon="fa-brands fa-android"/> `AndroidManifest.xml`:
+FaceSpotter specifies that it uses the camera and requests the user’s permission to do so with these lines in <VPIcon icon="fa-brands fa-android"/> `AndroidManifest.xml`:
 
 ![Screenshot of the Project pane in Android studio, showing 'AndroidManifest.xml' highlighted.](https://koenig-media.raywenderlich.com/uploads/2017/04/androidmanifest.xml-in-project-pane.jpg)
 
@@ -139,7 +139,7 @@ The starter project comes with a few pre-defined classes:
 - __FaceTracker__: Follows faces that are detected in images from the camera, and gathers their positions and landmarks.
 - __FaceGraphic__: Draws the computer-generated images over faces in the camera images.
 - __FaceData__: A data class for passing `FaceTracker` data to `FaceGraphic`.
-- __EyePhysics__: Provided by Google in their [<FontIcon icon="iconfont icon-github"/> Mobile Vision sample apps on GitHub](https://github.com/googlesamples/android-vision), it’s a simple physics engine that will animate the AR irises as the faces they’re on move.
+- __EyePhysics__: Provided by Google in their [<VPIcon icon="iconfont icon-github"/> Mobile Vision sample apps on GitHub](https://github.com/googlesamples/android-vision), it’s a simple physics engine that will animate the AR irises as the faces they’re on move.
 - __CameraSourcePreview__: Another class from Google. It displays the live image data from the camera in a view.
 - __GraphicOverlay__: One more Google class; FaceGraphic subclasses it.
 
@@ -147,7 +147,7 @@ Let’s take a moment to get familiar with how they work.
 
 `FaceActivity` defines the app’s only activity, and along with handling touch events, also requests for permission to access the device’s camera at runtime (applies to Android 6.0 and above). FaceActivity also creates two objects which FaceSpotter depends on, namely __CameraSource__ and __FaceDetector__.
 
-Open <FontIcon icon="fa-brands fa-java"/>`FaceActivity.java` and look for the `createCameraSource` method:
+Open <VPIcon icon="fa-brands fa-java"/>`FaceActivity.java` and look for the `createCameraSource` method:
 
 ```java
 private void createCameraSource() {
@@ -260,7 +260,7 @@ With the intro taken care of, it’s time to detect some faces!
 
 First you add a view into the overlay to draw detected face data.
 
-Open <FontIcon icon="fa-brands fa-java"/>`FaceGraphic.java`. You may have noticed the declaration for the instance variable `mFace` is marked with the keyword `volatile`. `mFace` stores face data sent from `FaceTracker`, and may be written to by many threads. Marking it as `volatile` guarantees that you always get the result of the latest “write” any time you read its value. This is important since face data will change very quickly.
+Open <VPIcon icon="fa-brands fa-java"/>`FaceGraphic.java`. You may have noticed the declaration for the instance variable `mFace` is marked with the keyword `volatile`. `mFace` stores face data sent from `FaceTracker`, and may be written to by many threads. Marking it as `volatile` guarantees that you always get the result of the latest “write” any time you read its value. This is important since face data will change very quickly.
 
 Delete the existing `draw()` and add the following to `FaceGraphic`:
 
@@ -314,7 +314,7 @@ Here’s what that code does:
 
 The face detector in `FaceActivity` sends information about faces it detects in the camera’s data stream to its assigned multiprocessor. For each detected face, the multiprocessor spawns a new `FaceTracker` instance.
 
-Add the following methods to  <FontIcon icon="fa-brands fa-java"/>`FaceTracker.java` after the constructor:
+Add the following methods to  <VPIcon icon="fa-brands fa-java"/>`FaceTracker.java` after the constructor:
 
 ```java
 // 1
@@ -375,7 +375,7 @@ This information will be saved in a `FaceData` object, instead of the provided `
 
 For facial landmarks, “left” and “right” refer to the subject’s left and right. Viewed through the front camera, the subject’s right eye will be closer to the right side of the screen, but through the rear camera, it’ll be closer to the left.
 
-Open <FontIcon icon="fa-brands fa-java"/>`FaceTracker.java` and modify `onUpdate()` as shown below. The call to `update()` will momentarily cause a build error while you are in the process of modifying the app to use the `FaceData` model and you will fix it soon.
+Open <VPIcon icon="fa-brands fa-java"/>`FaceTracker.java` and modify `onUpdate()` as shown below. The call to `update()` will momentarily cause a build error while you are in the process of modifying the app to use the `FaceData` model and you will fix it soon.
 
 ```java
 @Override
@@ -410,7 +410,7 @@ Note that you’re now passing a `FaceData` instance to `FaceGraphic`’s `updat
 
 This allows you to specify the face information passed to `FaceTracker`, which in turn lets you use some math trickery based on the last known locations of facial landmarks when the faces are moving too quickly to approximate their current locations. You use `mPreviousLandmarkPositions` and the `getLandmarkPosition` and `updatePreviousLandmarkPositions` methods for this purpose.
 
-Now open <FontIcon icon="fa-brands fa-java"/>`FaceGraphic.java`.
+Now open <VPIcon icon="fa-brands fa-java"/>`FaceGraphic.java`.
 
 First, since it’s now receiving a `FaceData` value instead of a `Face` value from `FaceTracker`, you need to change a key instance variable declaration from:
 
@@ -783,7 +783,7 @@ Pronounced “Oiler” and named after mathematician [Leonhard Euler](https://en
 1. The __Euler y angle__, which is its angle rotation around the y-axis. When you shake your head to say “no” as shown below, you’re rotating your head back and forth around the y-axis. This angle is detected only if the detector is set to `ACCURATE_MODE`.
 2. The __Euler z angle__, which measures its rotation around the z-axis. When you bobble your head from side to side as illustrated below, you’re rotating your head back and forth around the z-axis.
 
-Open <FontIcon icon="fa-brands fa-java"/>`FaceTracker.java` and add support for Euler angles by adding these lines to its `onUpdate()` method, after the call to `updatePreviousLandmarkPositions`:
+Open <VPIcon icon="fa-brands fa-java"/>`FaceTracker.java` and add support for Euler angles by adding these lines to its `onUpdate()` method, after the call to `updatePreviousLandmarkPositions`:
 
 ```java
 // Get head angles.
@@ -793,7 +793,7 @@ mFaceData.setEulerZ(face.getEulerZ());
 
 You’ll make use of the Euler z angle to modify `FaceGraphic` so that it draws a hat on any face whose Euler z angle is greater than 20 degrees to one side.
 
-Open <FontIcon icon="fa-brands fa-java"/>`FaceGraphic.java` and add the following to the end of draw:
+Open <VPIcon icon="fa-brands fa-java"/>`FaceGraphic.java` and add the following to the end of draw:
 
 ```java
 // Head tilt

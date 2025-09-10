@@ -56,7 +56,7 @@ When developing HTTP APIs, providing consistent and informative error responses 
 
 In this article, we'll explore the latest developments in **Problem Details**, including:
 
-- The new [<FontIcon icon="fas fa-globe"/>RFC 9457](https://rfc-editor.org/rfc/rfc9457) that refines the Problem Details standard
+- The new [<VPIcon icon="fas fa-globe"/>RFC 9457](https://rfc-editor.org/rfc/rfc9457) that refines the Problem Details standard
 - Using the .NET 8 `IExceptionHandler` for global exception handling
 - Using the `IProblemDetailsService` for customizing Problem Details
 
@@ -76,7 +76,7 @@ Problem Details includes:
 - `detail`: A human-readable explanation specific to this occurrence of the problem
 - `instance`: A URI reference that identifies the specific occurrence of the problem
 
-[<FontIcon icon="fas fa-globe"/>RFC 9457](https://rfc-editor.org/rfc/rfc9457), which replaces [<FontIcon icon="fas fa-globe"/>RFC 7807](https://rfc-editor.org/rfc/rfc7807), introduces improvements such as clarifying the use of the type field and providing guidelines for extending **Problem Details**.
+[<VPIcon icon="fas fa-globe"/>RFC 9457](https://rfc-editor.org/rfc/rfc9457), which replaces [<VPIcon icon="fas fa-globe"/>RFC 7807](https://rfc-editor.org/rfc/rfc7807), introduces improvements such as clarifying the use of the type field and providing guidelines for extending **Problem Details**.
 
 Here's an example Problem Details response:
 

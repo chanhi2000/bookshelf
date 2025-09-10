@@ -52,7 +52,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_075.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_075.png"/>
 
-[<FontIcon icon="fa-brands fa-microsoft"/>EF Core](https://learn.microsoft.com/en-us/ef/core/) is a fantastic ORM if you're building .NET applications.
+[<VPIcon icon="fa-brands fa-microsoft"/>EF Core](https://learn.microsoft.com/en-us/ef/core/) is a fantastic ORM if you're building .NET applications.
 
 But it's a tool like any other. And you can end up using it in a suboptimal way.
 
@@ -68,7 +68,7 @@ Here's the example I want to use to explain this powerful idea. It's taken from 
 
 We're using an `InvoiceService` to get a collection of invoices for a given company. The invoices could come from a third-party API or some other persistence store. We're lacking detailed line item information, so we're querying the database to fill in the missing data.
 
-The highlighted [<FontIcon icon="fa-brands fa-microsoft"/>LINQ query](https://learn.microsoft.com/en-us/ef/core/querying/) below isn't bad by itself. It returns all the line items in one database query (round trip).
+The highlighted [<VPIcon icon="fa-brands fa-microsoft"/>LINQ query](https://learn.microsoft.com/en-us/ef/core/querying/) below isn't bad by itself. It returns all the line items in one database query (round trip).
 
 But it's missing one important realization that can unlock further performance gains.
 
@@ -200,7 +200,7 @@ It seems plausible that the batch variant would be faster. Right?
 
 We have N queries (one per invoice) in the first version and a single query in the batched version.
 
-Here are the benchmark results I got using [<FontIcon icon="iconfont icon-github"/>`dotnet/BenchmarkDotNet`](https://github.com/dotnet/BenchmarkDotNet):
+Here are the benchmark results I got using [<VPIcon icon="iconfont icon-github"/>`dotnet/BenchmarkDotNet`](https://github.com/dotnet/BenchmarkDotNet):
 
 ![](https://milanjovanovic.tech/blogs/mnw_075/benchmark.png?imwidth=3840)
 

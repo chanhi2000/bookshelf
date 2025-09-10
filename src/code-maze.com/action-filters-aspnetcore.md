@@ -63,7 +63,7 @@ In this article, we are going to talk about Action filters and how to use them t
 
 ::: info
 
-To download the source code for our starting project, you can check out the [start-project-branch (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/action-filters-dotnetcore-webapi`)](https://github.com/CodeMazeBlog/action-filters-dotnetcore-webapi/tree/start-project). For the finished project refer to [end-project-branch (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/action-filters-dotnetcore-webapi`)](https://github.com/CodeMazeBlog/action-filters-dotnetcore-webapi/tree/end-project)
+To download the source code for our starting project, you can check out the [start-project-branch (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/action-filters-dotnetcore-webapi`)](https://github.com/CodeMazeBlog/action-filters-dotnetcore-webapi/tree/start-project). For the finished project refer to [end-project-branch (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/action-filters-dotnetcore-webapi`)](https://github.com/CodeMazeBlog/action-filters-dotnetcore-webapi/tree/end-project)
 
 :::
 

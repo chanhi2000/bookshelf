@@ -85,7 +85,7 @@ You end up having high coupling inside a layer and low coupling between layers. 
 
 ## What is Vertical Slice Architecture?
 
-I first heard about [<FontIcon icon="fas fa-globe"/>Vertical Slice Architecture](https://jimmybogard.com/vertical-slice-architecture) from Jimmy Bogard. He's also the creator of some popular open-source libraries like [MediatR (<FontIcon icon="iconfont icon-github"/>`jbogard/MediatR`)](https://github.com/jbogard/MediatR) and [Automapper. (<FontIcon icon="iconfont icon-github"/>`AutoMapper/AutoMapper`)](https://github.com/AutoMapper/AutoMapper)
+I first heard about [<VPIcon icon="fas fa-globe"/>Vertical Slice Architecture](https://jimmybogard.com/vertical-slice-architecture) from Jimmy Bogard. He's also the creator of some popular open-source libraries like [MediatR (<VPIcon icon="iconfont icon-github"/>`jbogard/MediatR`)](https://github.com/jbogard/MediatR) and [Automapper. (<VPIcon icon="iconfont icon-github"/>`AutoMapper/AutoMapper`)](https://github.com/AutoMapper/AutoMapper)
 
 Vertical Slice Architecture was born from the pain of working with layered architectures. They force you to make changes in many different layers to implement a feature.
 
@@ -132,7 +132,7 @@ Layered architectures, such as Clean architecture, organize the solution across 
 
 Vertical slice architecture, on the other hand, organizes the code around features or use cases.
 
-An interesting approach to structuring APIs around features is using the [<FontIcon icon="fas fa-globe"/>REPR pattern](https://deviq.com/design-patterns/repr-design-pattern). It stands for Request-EndPoint-Response. This aligns perfectly with the idea of vertical slices. You can achieve this with the MediatR library, for example.
+An interesting approach to structuring APIs around features is using the [<VPIcon icon="fas fa-globe"/>REPR pattern](https://deviq.com/design-patterns/repr-design-pattern). It stands for Request-EndPoint-Response. This aligns perfectly with the idea of vertical slices. You can achieve this with the MediatR library, for example.
 
 The REPR pattern defines that web API endpoints should have three components:
 
@@ -194,7 +194,7 @@ Some of you may not like the idea of grouping all the files related to a feature
 
 However, there's a lot of value in grouping by features in general. You don't have to implement vertical slices. But you can apply this concept to your domain by grouping files around aggregates, for example. This is the approach I show in [**Pragmatic Clean Architecture.**](/milanjovanovic.tech/pragmatic-clean-architecture/README.md)
 
-I made a video about [<FontIcon icon="fa-brands fa-youtube"/>**Vertical Slice Architecture,**](https://youtu.be/msjnfdeDCmo) showing how to implement the concepts discussed in today's issue. Check it out [<FontIcon icon="fa-brands fa-youtube"/>**here.**](https://youtu.be/msjnfdeDCmo)
+I made a video about [<VPIcon icon="fa-brands fa-youtube"/>**Vertical Slice Architecture,**](https://youtu.be/msjnfdeDCmo) showing how to implement the concepts discussed in today's issue. Check it out [<VPIcon icon="fa-brands fa-youtube"/>**here.**](https://youtu.be/msjnfdeDCmo)
 
 <VidStack src="youtube/msjnfdeDCmo" />
 

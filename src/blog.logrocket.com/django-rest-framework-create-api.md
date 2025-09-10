@@ -56,13 +56,13 @@ cover: /assets/image/blog.logrocket.com/django-rest-framework-create-api/banner.
 
 ::: note Editor’s note
 
-This tutorial was last updated by [<FontIcon icon="fas fa-globe"/>Ukeje Goodness](https://blog.logrocket.com/author/ukejegoodness/) on 13 March 2024 to include Django’s authentication and permission mechanisms, information about customizing Django HTTP responses, and a section about best practices to employ when testing REST APIs built with Django.
+This tutorial was last updated by [<VPIcon icon="fas fa-globe"/>Ukeje Goodness](https://blog.logrocket.com/author/ukejegoodness/) on 13 March 2024 to include Django’s authentication and permission mechanisms, information about customizing Django HTTP responses, and a section about best practices to employ when testing REST APIs built with Django.
 
 :::
 
 ![How To Create A REST API With Django REST Framework](/assets/image/blog.logrocket.com/django-rest-framework-create-api/banner.png)
 
-Django REST framework (DRF) is a powerful and flexible toolkit for building web APIs. In this tutorial, we’ll learn how to easily build a CRUD API using the Django REST framework. To build our sample to-do list application, we’ll start by setting up the Django REST framework in a Django project, followed by a complete tutorial on how to create a CRUD REST API with [<FontIcon icon="iconfont icon-django"/>Django REST framework](https://django-rest-framework.org/).
+Django REST framework (DRF) is a powerful and flexible toolkit for building web APIs. In this tutorial, we’ll learn how to easily build a CRUD API using the Django REST framework. To build our sample to-do list application, we’ll start by setting up the Django REST framework in a Django project, followed by a complete tutorial on how to create a CRUD REST API with [<VPIcon icon="iconfont icon-django"/>Django REST framework](https://django-rest-framework.org/).
 
 ---
 
@@ -88,7 +88,7 @@ Django REST framework is based on Django’s class-based views, so it’s an exc
 
 ## Setting up Django REST framework
 
-Ideally, you’d want to create a virtual environment to isolate dependencies — however, this is optional. Run the command `python -m venv django_env` from inside your <FontIcon icon="fas fa-folder-open"/>`projects` folder to create the virtual environment. Then, run `source ./django_env/bin/activate` to turn it on.
+Ideally, you’d want to create a virtual environment to isolate dependencies — however, this is optional. Run the command `python -m venv django_env` from inside your <VPIcon icon="fas fa-folder-open"/>`projects` folder to create the virtual environment. Then, run `source ./django_env/bin/activate` to turn it on.
 
 Keep in mind that you’ll need to reactivate your virtual environment in every new terminal session. You’ll know that it is turned on because the environment’s name will become part of the shell prompt.
 
@@ -105,7 +105,7 @@ Create a Django project called `todo` with the following command:
 django-admin startproject todo
 ```
 
-Then, `cd` into the new <FontIcon icon="fas fa-folder-open"/>`todo` folder and create a new app for your API:
+Then, `cd` into the new <VPIcon icon="fas fa-folder-open"/>`todo` folder and create a new app for your API:
 
 ```sh
 django-admin startapp todo_api
@@ -117,7 +117,7 @@ Run your initial migrations of the built-in user model:
 python manage.py migrate
 ```
 
-Next, add `rest_framework` and `todo` to the `INSTALLED_APPS` inside the <FontIcon icon="fas fa-folder-open"/>`todo/todo/`<FontIcon icon="fa-brands fa-python"/>`settings.py` file:
+Next, add `rest_framework` and `todo` to the `INSTALLED_APPS` inside the <VPIcon icon="fas fa-folder-open"/>`todo/todo/`<VPIcon icon="fa-brands fa-python"/>`settings.py` file:
 
 ```javascript
 # settings.py
@@ -133,7 +133,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-Create a <FontIcon icon="fa-brands fa-python"/>`serializers.py` and <FontIcon icon="fa-brands fa-python"/>`urls.py` file in <FontIcon icon="fas fa-folder-open"/>`todo/todo_api` and add new files as configured in the directory structure below:
+Create a <VPIcon icon="fa-brands fa-python"/>`serializers.py` and <VPIcon icon="fa-brands fa-python"/>`urls.py` file in <VPIcon icon="fas fa-folder-open"/>`todo/todo_api` and add new files as configured in the directory structure below:
 
 ```plaintext title="folder structure"
 ├── todo
@@ -151,7 +151,7 @@ Create a <FontIcon icon="fa-brands fa-python"/>`serializers.py` and <FontIcon ic
     └── views.py
 ```
 
-Be sure to include `rest_framework` and URLs as shown below in your main <FontIcon icon="fa-brands fa-python"/>`urls.py` file:
+Be sure to include `rest_framework` and URLs as shown below in your main <VPIcon icon="fa-brands fa-python"/>`urls.py` file:
 
 ```py :collapsed-lines title="todo/todo/urls.py"
 from django.contrib import admin
@@ -399,7 +399,7 @@ The `PUT` method fetches the to-do object if it is available in the database, up
 
 The `DELETE` method fetches the to-do object if it is available in the database, deletes it, and provides a response.
 
-Update the API <FontIcon icon="fa-brands fa-python"/>`urls.py` as demonstrated below:
+Update the API <VPIcon icon="fa-brands fa-python"/>`urls.py` as demonstrated below:
 
 ```py collapsed-lines title="todo/api/urls.py"
 from django.conf.urls import url
@@ -425,7 +425,7 @@ Now, if you navigate to `http://127.0.0.1:8000/todos/api/<id>/`, it will show th
 
 You can implement authentication and permissions in your Django apps in multiple ways.
 
-You can use the [Simple JWT package (<FontIcon icon="iconfont icon-github"/>`jazzband/djangorestframework-simplejwt`)](https://github.com/jazzband/djangorestframework-simplejwt) (a DRF extension) for JWT authentication. Additionally, you can use [<FontIcon icon="fas fa-globe"/>djoser](https://pypi.org/project/djoser/), a powerful Django package that makes authentication endpoint implementation and user management easier in DRF APIs.
+You can use the [Simple JWT package (<VPIcon icon="iconfont icon-github"/>`jazzband/djangorestframework-simplejwt`)](https://github.com/jazzband/djangorestframework-simplejwt) (a DRF extension) for JWT authentication. Additionally, you can use [<VPIcon icon="fas fa-globe"/>djoser](https://pypi.org/project/djoser/), a powerful Django package that makes authentication endpoint implementation and user management easier in DRF APIs.
 
 Execute this command to install the packages:
 
@@ -473,7 +473,7 @@ urlpatterns = [
 ]
 ```
 
-Create a <FontIcon icon="fa-brands fa-python"/>`serializers.py` file in your Django app (not project!) and add this to the file:
+Create a <VPIcon icon="fa-brands fa-python"/>`serializers.py` file in your Django app (not project!) and add this to the file:
 
 ```py :collapsed-lines title="serializers.py"
 from djoser.serializers import UserSerializer, UserCreateSerializer as BaseUserSerializer
@@ -495,7 +495,7 @@ class CurrentUserSerializer(UserSerializer):
 
 The `CurrentUserSerializer` class inherits from `UserSerializer`. Like `UserCreateSerializer`, the `Meta` class is overridden for custom behavior, and fields are specified.
 
-Now, create a custom <FontIcon icon="fa-brands fa-python"/>`permissions.py` file in the Django app directory and add this code to the file:
+Now, create a custom <VPIcon icon="fa-brands fa-python"/>`permissions.py` file in the Django app directory and add this code to the file:
 
 ```py :collapsed-lines title="permissions.py"
 from rest_framework import permissions
@@ -513,7 +513,7 @@ Here, you’ve defined a custom permissions class that extends the `permissions.
 
 The `IsOwner` class is customer permission that ensures general read access for all users while restricting modification rights to the user with the object. The `SAFE_METHODS` list identifies read-only requests universally.
 
-Add these to your <FontIcon icon="fa-brands fa-python"/>`views.py` file:
+Add these to your <VPIcon icon="fa-brands fa-python"/>`views.py` file:
 
 ```py title="todo/todo_api/views.py"
 from rest_framework_simplejwt.authentication import JWTAuthentication

@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/use-forwardref-react/banner.png
 
 ::: note Editor’s Note
 
-This post was last updated by [<FontIcon icon="fas fa-globe"/>Jude Miracle](https://blog.logrocket.com/author/judemiracle/) on 13 August 2024 to introduce the use of the `useImperativeHandle` React Hook for customizing instance values that are exposed when using refs. It also now covers integrating `forwardRef` with functional components and class components.
+This post was last updated by [<VPIcon icon="fas fa-globe"/>Jude Miracle](https://blog.logrocket.com/author/judemiracle/) on 13 August 2024 to introduce the use of the `useImperativeHandle` React Hook for customizing instance values that are exposed when using refs. It also now covers integrating `forwardRef` with functional components and class components.
 
 :::
 
@@ -66,7 +66,7 @@ This post was last updated by [<FontIcon icon="fas fa-globe"/>Jude Miracle](http
 
 In this tutorial, we will go over the concept of forwarding [**refs in React**](/blog.logrocket.com/complete-guide-react-refs.md) and understand how it helps us manage interactions with the DOM. For a more engaging experience, we’ll cover how to create refs, attach created refs to DOM elements and classes, use the `forwardRef` method, and more.
 
-We will often reference the [<FontIcon icon="fa-brands fa-react"/>React documentation](https://react.dev/) to build on the existing information and prove our concepts with practical examples.
+We will often reference the [<VPIcon icon="fa-brands fa-react"/>React documentation](https://react.dev/) to build on the existing information and prove our concepts with practical examples.
 
 ---
 
@@ -239,7 +239,7 @@ However, if you must attach a ref to a functional component, the official React 
 
 Aside from passing the default `ref` attribute, we can also pass functions to set refs. The major advantage of this approach is that you have more control over when refs are set and unset. That is possible because it allows us to determine the state of the ref before certain actions are fired.
 
-Consider this snippet from the [<FontIcon icon="fa-brands fa-react"/>documentation page](https://reactjs.org/docs/refs-and-the-dom.html) below:
+Consider this snippet from the [<VPIcon icon="fa-brands fa-react"/>documentation page](https://reactjs.org/docs/refs-and-the-dom.html) below:
 
 ```jsx :collapsed-lines title="CustomTextInput.jsx"
 class CustomTextInput extends React.Component {

@@ -131,7 +131,7 @@ fun readFile(file: File): String =
     file.readText()
 ```
 
-Here is an example blocking operation from SendGrid API, which I use in my [<FontIcon icon="fas fa-globe"/>Kt. Academy](https://kt.academy) website to send emails. The `send` function blocks the current thread until the email is sent.
+Here is an example blocking operation from SendGrid API, which I use in my [<VPIcon icon="fas fa-globe"/>Kt. Academy](https://kt.academy) website to send emails. The `send` function blocks the current thread until the email is sent.
 
 ```kotlin
 val result: Response = sendGrid.api(request)

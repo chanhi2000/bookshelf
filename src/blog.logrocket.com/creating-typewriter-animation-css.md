@@ -86,17 +86,17 @@ To achieve the typewriter effect, we will animate our text so that it displays t
 
 Before we dive in, let’s review some of the CSS properties we’ll be using.
 
-We will use [<FontIcon icon="fa-brands fa-firefox"/>`@keyframes` for animations](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes), as this at-rule gives us more control over the animation we want to perform. [Using the `overflow` property](https://blog.logrocket.com/new-guide-css-overflow/) on our content will ensure that each word displays in accordance with the animation rather than being shown all at once.
+We will use [<VPIcon icon="fa-brands fa-firefox"/>`@keyframes` for animations](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes), as this at-rule gives us more control over the animation we want to perform. [Using the `overflow` property](https://blog.logrocket.com/new-guide-css-overflow/) on our content will ensure that each word displays in accordance with the animation rather than being shown all at once.
 
-[<FontIcon icon="fa-brands fa-firefoxs"/>The `whitespace` property](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) will trim the animation down to a single line. Meanwhile, [the `border-right-color` property](https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-color) will help animate our cursor from light grey to transparent, giving the animation a realistic touch of a blinking cursor.
+[<VPIcon icon="fa-brands fa-firefoxs"/>The `whitespace` property](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) will trim the animation down to a single line. Meanwhile, [the `border-right-color` property](https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-color) will help animate our cursor from light grey to transparent, giving the animation a realistic touch of a blinking cursor.
 
-Finally, [<FontIcon icon="fa-brands fa-firefox"/>the `width` property](https://developer.mozilla.org/en-US/docs/Web/CSS/width#:~:text=The%20width%20CSS%20property%20sets,width%20of%20the%20border%20area.) is animated from `0%` to `100%` to achieve the effect of each letter appearing one at a time.
+Finally, [<VPIcon icon="fa-brands fa-firefox"/>the `width` property](https://developer.mozilla.org/en-US/docs/Web/CSS/width#:~:text=The%20width%20CSS%20property%20sets,width%20of%20the%20border%20area.) is animated from `0%` to `100%` to achieve the effect of each letter appearing one at a time.
 
 ---
 
 ## Setting up the project
 
-First, let’s define the `HTML` structure for the text that we’ll animate with the typewriter effect using CSS. Inside the folder for this project, create an <FontIcon icon="fa-brands fa-html5"/>`index.html` file, which will act as our webpage for this project demo, and paste this:
+First, let’s define the `HTML` structure for the text that we’ll animate with the typewriter effect using CSS. Inside the folder for this project, create an <VPIcon icon="fa-brands fa-html5"/>`index.html` file, which will act as our webpage for this project demo, and paste this:
 
 ```xml
 <!DOCTYPE html>
@@ -125,7 +125,7 @@ That’s all we need to do inside our `index.html page. Let’s move on to styli
 
 ## Styling the webpage
 
-Create another file inside the project folder called <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` and paste this:
+Create another file inside the project folder called <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` and paste this:
 
 ```css
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
@@ -159,7 +159,7 @@ body {
 }
 ```
 
-In our <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` file, we are trying to style both lines of our text. We used some CSS properties we discussed earlier for our animation to work.
+In our <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` file, we are trying to style both lines of our text. We used some CSS properties we discussed earlier for our animation to work.
 
 We set the `overflow` property as `hidden` to prevent unwanted horizontal scrolling and extra whitespace in the project. The `white-space: nowrap` setting will get our animation into a single line.
 

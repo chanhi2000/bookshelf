@@ -48,7 +48,7 @@ cover: /assets/image/blog.logrocket.com/how-to-use-css-variables/banner.png
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/how-to-use-css-variables/banner.png"/>
 
-According to the browser compatibility table of the [<FontIcon icon="fa-brands fa-firefox"/>official MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/--*#browser_compatibility), the CSS variables feature is widely available in all popular browser versions released after April 2017. More specifically, browsers released this feature with the following versions:
+According to the browser compatibility table of the [<VPIcon icon="fa-brands fa-firefox"/>official MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/--*#browser_compatibility), the CSS variables feature is widely available in all popular browser versions released after April 2017. More specifically, browsers released this feature with the following versions:
 
 - Google Chrome 49 (Released 2 March 2016)
 - Microsoft Edge 15 (Released 5 April 2017)

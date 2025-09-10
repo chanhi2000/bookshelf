@@ -54,7 +54,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_063.png
 
 Reporting is essential for business applications like e-commerce, shipping, fintech, etc.
 
-One of the most popular document formats for reporting purposes is [<FontIcon icon="fa-brands fa-wikipedia-w"/>PDF](https://en.wikipedia.org/wiki/PDF).
+One of the most popular document formats for reporting purposes is [<VPIcon icon="fa-brands fa-wikipedia-w"/>PDF](https://en.wikipedia.org/wiki/PDF).
 
 PDF stands for Portable Document Format. It's a file format to present documents (including text formatting and images) independently of application software, hardware, and operating systems.
 
@@ -70,7 +70,7 @@ Today I want to show you a few interesting ways to generate PDF files in .NET.
 
 ## Creating PDF Files With QuestPDF
 
-[<FontIcon icon="fas fa-globe"/>QuestPDF](https://questpdf.com/) is an open-source .NET library for generating PDF documents. It exposes a fluent API you can use to compose together many simple elements to create complex documents. Unlike other libraries, it does not rely on HTML-to-PDF conversion.
+[<VPIcon icon="fas fa-globe"/>QuestPDF](https://questpdf.com/) is an open-source .NET library for generating PDF documents. It exposes a fluent API you can use to compose together many simple elements to create complex documents. Unlike other libraries, it does not rely on HTML-to-PDF conversion.
 
 Let's install the QuestPDF NuGet package:
 
@@ -132,7 +132,7 @@ What I like about QuestPDF:
 
 - Fluent API
 - Easy to use
-- Good [<FontIcon icon="fas fa-globe"/>documentation](https://questpdf.com/introduction.html)
+- Good [<VPIcon icon="fas fa-globe"/>documentation](https://questpdf.com/introduction.html)
 
 What I don't like about QuestPDF:
 
@@ -142,7 +142,7 @@ What I don't like about QuestPDF:
 
 ::: info Licensing
 
-QuestPDF is free for small companies and development use. There's also a commercial license for larger companies. You can check out the licensing details [<FontIcon icon="fas fa-globe"/>here](https://questpdf.com/license/).
+QuestPDF is free for small companies and development use. There's also a commercial license for larger companies. You can check out the licensing details [<VPIcon icon="fas fa-globe"/>here](https://questpdf.com/license/).
 
 :::
 
@@ -152,15 +152,15 @@ QuestPDF is free for small companies and development use. There's also a commerc
 
 The more common approach for generating PDF files is using an HTML template.
 
-My favorite library that supports this is [<FontIcon icon="fas fa-globe"/>IronPDF](https://ironpdf.com/).
+My favorite library that supports this is [<VPIcon icon="fas fa-globe"/>IronPDF](https://ironpdf.com/).
 
-IronPDF is a C# PDF library that allows for fast and efficient manipulation of PDF files. It also has many valuable features, like [<FontIcon icon="fas fa-globe"/>exporting to PDF/A format](https://ironpdf.com/how-to/pdfa/) and [<FontIcon icon="fas fa-globe"/>digitally signing PDF documents](https://ironpdf.com/how-to/signing/).
+IronPDF is a C# PDF library that allows for fast and efficient manipulation of PDF files. It also has many valuable features, like [<VPIcon icon="fas fa-globe"/>exporting to PDF/A format](https://ironpdf.com/how-to/pdfa/) and [<VPIcon icon="fas fa-globe"/>digitally signing PDF documents](https://ironpdf.com/how-to/signing/).
 
 But what's the idea behind using an HTML template?
 
 First of all, you have more control over formatting the document. You can use CSS to style the HTML markup, which will be applied when exporting to a PDF document.
 
-An interesting implementation approach is using [<FontIcon icon="fa-brands fa-microsoft"/>ASP.NET Core MVC views](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-7.0) and the [<FontIcon icon="fa-brands fa-microsoft"/>Razor syntax](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-7.0). You can pass an object to the view at runtime to render dynamic HTML content.
+An interesting implementation approach is using [<VPIcon icon="fa-brands fa-microsoft"/>ASP.NET Core MVC views](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-7.0) and the [<VPIcon icon="fa-brands fa-microsoft"/>Razor syntax](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-7.0). You can pass an object to the view at runtime to render dynamic HTML content.
 
 I've used this approach with MVC views on a few projects with excellent results.
 
@@ -203,7 +203,7 @@ It really is that simple.
 
 ::: info Licensing
 
-IronPDF is free for development use and has multiple pricing tiers for commercial use that you can check out [<FontIcon icon="fas fa-globe"/>here](https://ironpdf.com/licensing/).
+IronPDF is free for development use and has multiple pricing tiers for commercial use that you can check out [<VPIcon icon="fas fa-globe"/>here](https://ironpdf.com/licensing/).
 
 :::
 
@@ -235,7 +235,7 @@ mergedPdfDocument.SaveAs("merged-invoices.pdf");
 
 It's pretty straightforward to return a PDF file from an API endpoint in ASP.NET Core.
 
-Minimal APIs have the `Results.File` method accepting either a file path, stream, or byte array. You also need to specify the content type and an optional file name. The [<FontIcon icon="fa-brands fa-firefox"/>MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) for PDF files is `application/pdf`.
+Minimal APIs have the `Results.File` method accepting either a file path, stream, or byte array. You also need to specify the content type and an optional file name. The [<VPIcon icon="fa-brands fa-firefox"/>MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) for PDF files is `application/pdf`.
 
 Here's how you can return a PDF file from a byte array:
 

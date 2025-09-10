@@ -363,9 +363,9 @@ Rather than throwing all enums into a single file, organize them based on their 
 
 A few examples:
 
-- <FontIcon icon="iconfont icon-typescript"/>`Routes.ts` - For screen names in navigation
-- <FontIcon icon="iconfont icon-typescript"/>`Theme.ts` - For managing theme colors
-- <FontIcon icon="iconfont icon-typescript"/>`FormStates.ts` - For tracking form submission status
+- <VPIcon icon="iconfont icon-typescript"/>`Routes.ts` - For screen names in navigation
+- <VPIcon icon="iconfont icon-typescript"/>`Theme.ts` - For managing theme colors
+- <VPIcon icon="iconfont icon-typescript"/>`FormStates.ts` - For tracking form submission status
 
 Keeping enums separate prevents clutter and helps avoid unintended dependencies.
 
@@ -446,7 +446,7 @@ By applying these best practices, enums will stay organized, readable, and easy 
 
 ## Union types: An enum alternative
 
-While enums are powerful, they [**aren’t always the best choice**](/blog.logrocket.com/understanding-discriminated-union-intersection-types-typescript.md). For example, if you have a dynamic set of values or prefer a simpler approach, [<FontIcon icon="iconfont icon-typescript"/>union types](https://typescriptlang.org/docs/handbook/unions-and-intersections.html) might be a better fit. Union types in TypeScript allow a variable to accept only a predefined set of values, ensuring strict type safety while avoiding runtime overhead:
+While enums are powerful, they [**aren’t always the best choice**](/blog.logrocket.com/understanding-discriminated-union-intersection-types-typescript.md). For example, if you have a dynamic set of values or prefer a simpler approach, [<VPIcon icon="iconfont icon-typescript"/>union types](https://typescriptlang.org/docs/handbook/unions-and-intersections.html) might be a better fit. Union types in TypeScript allow a variable to accept only a predefined set of values, ensuring strict type safety while avoiding runtime overhead:
 
 ```ts
 type ScreenRoutes = "HomeScreen" | "ProfileScreen" | "SettingsScreen";
@@ -485,7 +485,7 @@ Union types are typically best used in two common scenarios:
 
 ## Conclusion
 
-TypeScript enums are an essential tool for creating robust, readable, and maintainable React Native applications. By using enums for navigation routes, [<FontIcon icon="fas fa-globe"/>color schemes](https://blog.logrocket.com/ux-design/best-color-combinations-ux-design/), and application states, you can reduce bugs, make your code easier to understand, and simplify updates.
+TypeScript enums are an essential tool for creating robust, readable, and maintainable React Native applications. By using enums for navigation routes, [<VPIcon icon="fas fa-globe"/>color schemes](https://blog.logrocket.com/ux-design/best-color-combinations-ux-design/), and application states, you can reduce bugs, make your code easier to understand, and simplify updates.
 
 With these examples, best practices, and alternatives, you’re ready to start using enums effectively in your React Native projects. Embrace enums, and watch your code become cleaner, safer, and more organized. Happy coding!
 

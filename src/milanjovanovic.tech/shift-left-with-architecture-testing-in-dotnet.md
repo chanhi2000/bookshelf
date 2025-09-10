@@ -58,7 +58,7 @@ Fast forward a few months (or years), and things might look different.
 
 The codebase has grown, and new features have been added. Maybe your team has even changed, with new developers coming on board. Adding new features becomes a pain, and bugs are popping up left and right.
 
-And slowly but surely, the neat architecture you started with has turned into a [<FontIcon icon="fas fa-globe"/>big ball of mud](https://deviq.com/antipatterns/big-ball-of-mud). What went wrong? And more importantly, what can we do about it?
+And slowly but surely, the neat architecture you started with has turned into a [<VPIcon icon="fas fa-globe"/>big ball of mud](https://deviq.com/antipatterns/big-ball-of-mud). What went wrong? And more importantly, what can we do about it?
 
 Today, I want to show you how architecture testing can prevent this problem.
 
@@ -82,11 +82,11 @@ Plus, not everyone has a deep understanding of software architecture, or they mi
 
 Luckily, there's a way to enforce software architecture on your project before things get out of hand. It's called [**architecture testing**](/milanjovanovic.tech/enforcing-software-architecture-with-architecture-tests.md). These are automated tests that check whether your code follows the architectural rules you've set up.
 
-With architecture testing, you can [<FontIcon icon="fa-brands fa-wikipedia-w"/>"shift left"](https://en.wikipedia.org/wiki/Shift-left_testing. This enables you to find and fix problems early in the development process when they're much easier and cheaper to deal with.
+With architecture testing, you can [<VPIcon icon="fa-brands fa-wikipedia-w"/>"shift left"](https://en.wikipedia.org/wiki/Shift-left_testing. This enables you to find and fix problems early in the development process when they're much easier and cheaper to deal with.
 
 Think of it like a safety net for your software architecture and design rules. If someone accidentally breaks a rule, the test will catch it and alert you. Bonus points if you integrate architecture testing into your [**CI pipeline**](/milanjovanovic.tech/how-to-build-ci-cd-pipeline-with-github-actions-and-dotnet.md).
 
-There are a few libraries you can use for architecture testing. I prefer working with the [<FontIcon icon="iconfont icon-github"/>`BenMorris/NetArchTest`](https://github.com/BenMorris/NetArchTest) library, which I'll use for the examples.
+There are a few libraries you can use for architecture testing. I prefer working with the [<VPIcon icon="iconfont icon-github"/>`BenMorris/NetArchTest`](https://github.com/BenMorris/NetArchTest) library, which I'll use for the examples.
 
 <SiteInfo
   name="BenMorris/NetArchTest"
@@ -270,7 +270,7 @@ A few key takeaways:
 
 ::: info Action point
 
-Start by exploring popular .NET architecture testing libraries like [<FontIcon icon="iconfont icon-github"/>`BenMorris/ArchUnitNET`](https://github.com/BenMorris/ArchUnitNET). Experiment with writing tests for common architectural rules and gradually integrate them into your development workflow.
+Start by exploring popular .NET architecture testing libraries like [<VPIcon icon="iconfont icon-github"/>`BenMorris/ArchUnitNET`](https://github.com/BenMorris/ArchUnitNET). Experiment with writing tests for common architectural rules and gradually integrate them into your development workflow.
 
 <SiteInfo
   name="TNG/ArchUnitNET"

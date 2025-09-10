@@ -312,13 +312,13 @@ Extension functions are a powerful tool in Android development, enabling you to 
 
 Android Consultant | Trainer  
 
-[<FontIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com)|[Follow me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/)|[Follow me on Medium (<FontIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov)|[Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
+[<VPIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com)|[Follow me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/)|[Follow me on Medium (<VPIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov)|[Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
 
 :::
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/top-5-extension-functions-every-jetpack-compose-developer-should-have-cbf2c50d557c)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/top-5-extension-functions-every-jetpack-compose-developer-should-have-cbf2c50d557c)
 
 <SiteInfo
   name="Top 5 Extension Functions Every Jetpack Compose Developer Should Have"

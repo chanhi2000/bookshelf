@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/creating-react-animations-with-motion/ba
 
 ::: note Editor’s note
 
-This post was updated by* [<FontIcon icon="fas fa-globe"/>Isaac Okoro](https://blog.logrocket.com/author/isaacjunior/) on February 18, 2025, to reflect Framer Motions’ rebranding to Motion, and include information on the latest features and best practices available in Motion.
+This post was updated by* [<VPIcon icon="fas fa-globe"/>Isaac Okoro](https://blog.logrocket.com/author/isaacjunior/) on February 18, 2025, to reflect Framer Motions’ rebranding to Motion, and include information on the latest features and best practices available in Motion.
 
 :::
 
@@ -72,11 +72,11 @@ What do I mean by visual state? Any property of the element that influences how 
 
 There are a few ways to create animations in React, but all of them fall into two broad categories: [**CSS animations**](/blog.logrocket.com/simplifying-css-animations-display-size-properties.md), which change visual state by applying CSS rules; and, JavaScript animations, which use JavaScript to change the properties of the element.
 
-In either of those categories, you can implement the animation from scratch or use a library. On the CSS side, you can compose your animations with CSS rules, or you can use third-party libraries like [<FontIcon icon="fas fa-globe"/>Animate.css](https://animate.style/).
+In either of those categories, you can implement the animation from scratch or use a library. On the CSS side, you can compose your animations with CSS rules, or you can use third-party libraries like [<VPIcon icon="fas fa-globe"/>Animate.css](https://animate.style/).
 
 If you choose to use JavaScript, you can either write custom code to create animations or use libraries like GSAP or Framer Motion.
 
-Each library has its advantages, and each has a different approach to writing animations. In this article, we’ll explore [<FontIcon icon="fas fa-globe"/>Motion](https://motion.dev/) (formerly known as Framer Motion), a React animation library created and maintained by the Framer design team.
+Each library has its advantages, and each has a different approach to writing animations. In this article, we’ll explore [<VPIcon icon="fas fa-globe"/>Motion](https://motion.dev/) (formerly known as Framer Motion), a React animation library created and maintained by the Framer design team.
 
 You’ll learn the core components that underpin all Motion animations, dive into some of the features that make Motion a great tool, discover best practices for getting the most out of the library, and put it all into practice with a step-by-step example: building a task tracker.
 
@@ -84,7 +84,7 @@ You’ll learn the core components that underpin all Motion animations, dive int
 
 ## Why use Motion for React animations?
 
-Motion is a fairly popular and actively maintained library, with over 27k stars on [GitHub (<FontIcon icon="iconfont icon-github"/>`framer/motion`)](https://github.com/framer/motion), and plenty of resources to support it.
+Motion is a fairly popular and actively maintained library, with over 27k stars on [GitHub (<VPIcon icon="iconfont icon-github"/>`framer/motion`)](https://github.com/framer/motion), and plenty of resources to support it.
 
 But most importantly, Motion is built around allowing you to write complex, production-grade animations with as little code as possible. Using Motion is so convenient that you can implement drag-and-drop by adding a single line of code! Motion also greatly simplifies tasks like SVG animation and animating layout shifts.
 
@@ -243,7 +243,7 @@ Then, answer the prompts like this:
 
 ![answer prompts in react vite](/assets/image/blog.logrocket.com/creating-react-animations-with-motion/2_answer-prompts-react-vite.png)
 
-Next, we’ll add [<FontIcon icon="iconfont icon-tailwindcss"/>Tailwind](https://tailwindcss.com/docs/installation/using-vite) [<FontIcon icon="iconfont icon-tailwindcss"/>CSS](https://tailwindcss.com/docs/installation/using-vite) and [Lucide (<FontIcon icon="fa-brands fa-npm"/>`lucide-react`)](https://npmjs.com/package/lucide-react) icon library to our project. To do this, first change the directory into the project directory and add the Tailwind CSS dependencies:
+Next, we’ll add [<VPIcon icon="iconfont icon-tailwindcss"/>Tailwind](https://tailwindcss.com/docs/installation/using-vite) [<VPIcon icon="iconfont icon-tailwindcss"/>CSS](https://tailwindcss.com/docs/installation/using-vite) and [Lucide (<VPIcon icon="fa-brands fa-npm"/>`lucide-react`)](https://npmjs.com/package/lucide-react) icon library to our project. To do this, first change the directory into the project directory and add the Tailwind CSS dependencies:
 
 ```sh
 cd task-tracker && yarn add lucide-react tailwindcss @tailwindcss/vite 
@@ -253,13 +253,13 @@ After running the command above, open the project in your preferred code editor.
 
 ![project architecture for task tracker react motion](/assets/image/blog.logrocket.com/creating-react-animations-with-motion/3_project-architecture-for-task-tracker.avif)
 
-Delete the <FontIcon icon="fa-brands fa-folder-open"/>n`src/assets` folder and <FontIcon icon="fa-brands fa-css3-alt"/>`App.css`. Now, write the code for the task tracker without any animation. Start with the project’s CSS by replacing the contents of <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` with the Tailwind CSS import as shown below:
+Delete the <VPIcon icon="fa-brands fa-folder-open"/>n`src/assets` folder and <VPIcon icon="fa-brands fa-css3-alt"/>`App.css`. Now, write the code for the task tracker without any animation. Start with the project’s CSS by replacing the contents of <VPIcon icon="fa-brands fa-css3-alt"/>`index.css` with the Tailwind CSS import as shown below:
 
 ```css title="assets/App.css"
 @import "tailwindcss";
 ```
 
-Now go to the <FontIcon icon="fa-brands fa-js"/>`vite.config.js` file and update it with the code below:
+Now go to the <VPIcon icon="fa-brands fa-js"/>`vite.config.js` file and update it with the code below:
 
 ```js title="vite.config.js"
 import tailwindcss from "@tailwindcss/vite";
@@ -271,11 +271,11 @@ export default defineConfig({
 });
 ```
 
-Create a folder called <FontIcon icon="fas fa-folder-open"/>`components` in the <FontIcon icon="fas fa-folder-open"/>`src` folder and add the following files to it: <FontIcon icon="fa-brands fa-react"/>`AddTask.jsx`, <FontIcon icon="fa-brands fa-react"/>`Task.jsx`, and <FontIcon icon="fa-brands fa-react"/>`TaskList.jsx`. Your folder should look exactly like the one below:
+Create a folder called <VPIcon icon="fas fa-folder-open"/>`components` in the <VPIcon icon="fas fa-folder-open"/>`src` folder and add the following files to it: <VPIcon icon="fa-brands fa-react"/>`AddTask.jsx`, <VPIcon icon="fa-brands fa-react"/>`Task.jsx`, and <VPIcon icon="fa-brands fa-react"/>`TaskList.jsx`. Your folder should look exactly like the one below:
 
 ![creating components src folder](/assets/image/blog.logrocket.com/creating-react-animations-with-motion/4_creating-components-src-folder.png)
 
-Next comes the code for the newly created file. In the <FontIcon icon="fa-brands fa-react"/>`Task.jsx` file, add the code below:
+Next comes the code for the newly created file. In the <VPIcon icon="fa-brands fa-react"/>`Task.jsx` file, add the code below:
 
 ```jsx :collapsed-lines title="Task.jsx"
 import { GripVertical, Trash2 } from 'lucide-react';
@@ -314,7 +314,7 @@ For brevity, we won’t go over the starter code in detail. Essentially it does 
 - Retrieves and displays task from its parent components
 - Possesses a helper function for deleting our task and also provides a button for dragging our task
 
-Next, update the <FontIcon icon="fa-brands fa-react"/>`AddTask.jsx` file with the code below:
+Next, update the <VPIcon icon="fa-brands fa-react"/>`AddTask.jsx` file with the code below:
 
 ```jsx :collapsed-lines title="AddTask.jsx"
 import { Plus } from 'lucide-react';
@@ -346,7 +346,7 @@ export default AddTask;
 
 The code above provides a simple and visually appealing form for adding new tasks. It also handles user inputs, updates the `newTask` state, and triggers the `onSubmit` function.
 
-Finally, update the <FontIcon icon="fa-brands fa-react"/>`TaskList.jsx` file with the code block below:
+Finally, update the <VPIcon icon="fa-brands fa-react"/>`TaskList.jsx` file with the code block below:
 
 ```jsx title="TaskList.jsx"
 import Task from './Task';
@@ -372,7 +372,7 @@ export default TaskList;
 
 The code block above maps through the tasks array and dynamically renders them in a list of individual tasks. It also handles potential errors and deleting of tasks through the `onDelete` prop.
 
-Now that we have all our components together, let’s update our <FontIcon icon="fa-brands fa-react"/>`App.jsx` file and try it out:
+Now that we have all our components together, let’s update our <VPIcon icon="fa-brands fa-react"/>`App.jsx` file and try it out:
 
 ```jsx :collapsed-lines title="App.jsx"
 import { useState } from 'react';
@@ -448,7 +448,7 @@ We’ll start by adding the Motion library to our project. Run the command below
 yarn add motion
 ```
 
-Next, let’s update the <FontIcon icon="fa-brands fa-react"/>`Task.jsx` file by importing some components from Motion and using them:
+Next, let’s update the <VPIcon icon="fa-brands fa-react"/>`Task.jsx` file by importing some components from Motion and using them:
 
 Then, update the `div` with the `Reorder.Item` component:
 
@@ -495,7 +495,7 @@ We also specify various props for the `<Reorder.Item>` component:
 - **The `exit` prop** — For defining how the component animates while being unmounted
 - **The `whileHover` prop** — Scales the component when hovered on
 
-Next, apply the following changes to the <FontIcon icon="fa-brands fa-react"/>`TaskList.jsx` file. First, import the `AnimatePresence`, `Reorder` from the Motion library:
+Next, apply the following changes to the <VPIcon icon="fa-brands fa-react"/>`TaskList.jsx` file. First, import the `AnimatePresence`, `Reorder` from the Motion library:
 
 ```jsx
 import { AnimatePresence, Reorder } from 'motion/react';
@@ -533,13 +533,13 @@ The `layoutScroll` prop ensures sleek animations even when the list is inside a 
 
 When set to `mode="popLayout"`, the `AnimatePresence` component handles the coordinates of the exit animations of removed tasks with the layout adjustments of the remaining tasks.
 
-Next, apply the following changes to the <FontIcon icon="fa-brands fa-react"/>`AddTask.jsx` file. First, import the lazy `m` component from the Motion library:
+Next, apply the following changes to the <VPIcon icon="fa-brands fa-react"/>`AddTask.jsx` file. First, import the lazy `m` component from the Motion library:
 
 ```jsx
 import * as m from "motion/react-m";
 ```
 
-Then update the [<FontIcon icon="fa-brands fa-globe"/>`<button>`component](https://blog.logrocket.com/ux-design/types-of-buttons-in-ui-design/):
+Then update the [<VPIcon icon="fa-brands fa-globe"/>`<button>`component](https://blog.logrocket.com/ux-design/types-of-buttons-in-ui-design/):
 
 ```jsx
 <m.button
@@ -558,7 +558,7 @@ The code above uses Motion’s `m` component, which works with the `LazyMotion`.
 
 On mouse hover on the button, Motion uses the `whileHover` prop to perform a series of rotations based on our specifications to the `rotateZ` array to create a shaking or wiggling effect. We also ensured the entire animation happens in only half a second (500 milliseconds) by specifying the `transition` property with `duration: 0.5`.
 
-Finally, import the following components from the Motion library into your <FontIcon icon="fa-brands fa-react"/>`App.jsx`:
+Finally, import the following components from the Motion library into your <VPIcon icon="fa-brands fa-react"/>`App.jsx`:
 
 ```jsx title="App.jsx"
 import { LayoutGroup, LazyMotion, MotionConfig, domAnimation } from 'motion/react';
@@ -627,7 +627,7 @@ The conditional rendering switches between showing a `TaskList` component or an 
 
 Motion also makes [**animating SVGs**](/blog.logrocket.com/how-to-animate-svg-css-tutorial-examples.md) a breeze by allowing you to animate the `pathLength`, `pathSpacing`, and `pathOffset` properties of those SVGs. Here’s an example that uses the same bell icon we used in our header bar.
 
-Animate the `pathLength` of an SVG. In the <FontIcon icon="fa-brands fa-react"/>`App.jsx` file, wrap the `h1` with a `span` tag and add the `svg` code as shown below:
+Animate the `pathLength` of an SVG. In the <VPIcon icon="fa-brands fa-react"/>`App.jsx` file, wrap the `h1` with a `span` tag and add the `svg` code as shown below:
 
 ```jsx title="App.jsx"
 <span className='flex'>
@@ -711,7 +711,7 @@ Now, the div can only be dragged within a 50px region in any direction, and the 
 Motion is a great tool, but like any tool, it can be misused. Here are a few rules of thumb to optimize performance when using Motion:
 
 - Use `LazyMotion`, `domAnimations` and lazy `m` for your global settings.
-- Use the [<FontIcon icon="fas fa-globe"/>`layoutGroup`](https://framer.com/motion/layout-group/) component and `layoutId` prop for shared element animations
+- Use the [<VPIcon icon="fas fa-globe"/>`layoutGroup`](https://framer.com/motion/layout-group/) component and `layoutId` prop for shared element animations
 - Leverage hardware acceleration by animating `transform` and `opacity` properties whenever possible
 - Where possible, wrap multiple elements within a parent component and animate the parent to reduce the number of animations
 - If you have animations that trigger frequently (e.g., on [**scroll or mouse movement**](/blog.logrocket.com/react-scroll-animations-framer-motion.md)), consider using debounce or throttle techniques to limit the number of animation updates and improve performance

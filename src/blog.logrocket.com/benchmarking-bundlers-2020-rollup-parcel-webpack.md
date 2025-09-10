@@ -64,11 +64,11 @@ Cognitively, as the number of options increase, selection becomes difficult. Her
 
 We’ll be covering:
 
-- [<FontIcon icon="fas fa-globe"/>webpack](https://webpack.js.org/)
-- [<FontIcon icon="fas fa-globe"/>Rollup](https://rollupjs.org/)
-- [<FontIcon icon="fas fa-globe"/>Parcel.js](https://parceljs.org/)
+- [<VPIcon icon="fas fa-globe"/>webpack](https://webpack.js.org/)
+- [<VPIcon icon="fas fa-globe"/>Rollup](https://rollupjs.org/)
+- [<VPIcon icon="fas fa-globe"/>Parcel.js](https://parceljs.org/)
 
-For comparing technical competencies, we have picked up [React Facebook Pixel] (<FontIcon icon="iconfont icon-github"/>`zsajjad/react-facebook-pixel`)(https://github.com/zsajjad/react-facebook-pixel) as a library and a very basic [React app (<FontIcon icon="iconfont icon-github"/>`zsajjad/bundlers-comparison`)](https://github.com/zsajjad/bundlers-comparison) as a sample to benchmark each of these bundlers.
+For comparing technical competencies, we have picked up [React Facebook Pixel] (<VPIcon icon="iconfont icon-github"/>`zsajjad/react-facebook-pixel`)(https://github.com/zsajjad/react-facebook-pixel) as a library and a very basic [React app (<VPIcon icon="iconfont icon-github"/>`zsajjad/bundlers-comparison`)](https://github.com/zsajjad/bundlers-comparison) as a sample to benchmark each of these bundlers.
 
 This comparison is not to establish a single winner from amongst these great tools; rather, it is to help you more easily make your decision. All of these bundlers are definitely great tools managed by great people, and they are all super awesome in one way or another. To all the maintainers, contributors, sponsors, and backers, cheers 🍻
 
@@ -197,13 +197,13 @@ Here is my conclusion for this:
 
 To stay competent for new and more sophisticated web apps, each of these bundlers offers all the features required by most of the modern apps.
 
-The web.dev team recently launched a new initiative called [<FontIcon icon="fas fa-globe"/>Tooling.Report](https://bundlers.tooling.report/) with the goal of making it easy to select the right tools for your next project by directly comparing their feature sets.
+The web.dev team recently launched a new initiative called [<VPIcon icon="fas fa-globe"/>Tooling.Report](https://bundlers.tooling.report/) with the goal of making it easy to select the right tools for your next project by directly comparing their feature sets.
 
 Where bundlers are concerned, the team compared them across six dimensions and 61 feature tests. This report gives us great insight into what all of these bundlers are offering. Here we have summarized the results of these tests.
 
 ### Code splitting
 
-By code splitting, we mean to extract common dependencies or modules in a shared bundle and ensure that only the code required for the page is downloaded and executed. Code splitting is a crucial aspect of keeping large-scale applications efficient. The web.dev team evaluated each bundler [<FontIcon icon="fas fa-globe"/>against eight criteria](https://bundlers.tooling.report/code-splitting/). The results are below.
+By code splitting, we mean to extract common dependencies or modules in a shared bundle and ensure that only the code required for the page is downloaded and executed. Code splitting is a crucial aspect of keeping large-scale applications efficient. The web.dev team evaluated each bundler [<VPIcon icon="fas fa-globe"/>against eight criteria](https://bundlers.tooling.report/code-splitting/). The results are below.
 
 ::: info Results:
 
@@ -221,7 +221,7 @@ Build tools can generate version identifiers based on the content of the file. I
 
 To avoid excessive cache invalidation, bundlers have to ensure an invalidation “cascade” is implemented properly. This means every updated JS and non-JS asset should have a new hash, and all JS bundles referencing that asset need to be updated to reference the new URL — thus, updated content and a new hash for the JS referencing that asset, and so on.
 
-The bundlers were compared on [<FontIcon icon="fas fa-globe"/>10 different caching criteria](https://bundlers.tooling.report/hashing/).
+The bundlers were compared on [<VPIcon icon="fas fa-globe"/>10 different caching criteria](https://bundlers.tooling.report/hashing/).
 
 ::: info Results
 
@@ -237,7 +237,7 @@ Web apps are not just about JavaScript; they include many other resources, inclu
 
 In recent times, we have seen JS emerge as a central point that holds and places all of these assets. Though JS doesn’t allow for importing these non-JS assets, bundlers have now made it possible. Keeping in mind the code splitting and hashing features, handling these assets becomes more complicated.
 
-Bundlers consider applications as a graph. It handles each resource as a node connected with all other resources that it imports. This makes it easier to modify resource URLs after hashing and usage-based transformations like namespacing in CSS. For this feature category, the bundlers were [<FontIcon icon="fas fa-glboe"/>compared across 16 criteria](https://bundlers.tooling.report/non-js-resources/).
+Bundlers consider applications as a graph. It handles each resource as a node connected with all other resources that it imports. This makes it easier to modify resource URLs after hashing and usage-based transformations like namespacing in CSS. For this feature category, the bundlers were [<VPIcon icon="fas fa-glboe"/>compared across 16 criteria](https://bundlers.tooling.report/non-js-resources/).
 
 ::: info Results
 
@@ -249,7 +249,7 @@ When it comes to handling resources, Parcel is way behind in the race. Rollup an
 
 ### Output module format
 
-Modern browsers now support ECMAScript Modules (ESM), but supporting older browser versions means we have to transform our JS into CommonJS. There were just [<FontIcon icon="fas fa-globe"/>three criteria](https://bundlers.tooling.report/output-module-formats/) for this section.
+Modern browsers now support ECMAScript Modules (ESM), but supporting older browser versions means we have to transform our JS into CommonJS. There were just [<VPIcon icon="fas fa-globe"/>three criteria](https://bundlers.tooling.report/output-module-formats/) for this section.
 
 ::: info Results
 
@@ -263,7 +263,7 @@ Rollup takes a lead here as neither of the others can generate ESM bundles.
 
 A significant impetus for adopting bundlers in modern applications was the transformation of code and assets. Some of these transformations are general purpose, e.g., compression, minification, etc., while others are geared toward a specific set of assets. These transformations usually aim at supporting different versions of browsers and optimizations.
 
-The web.dev team identified [<FontIcon icon="fas fa-globe"/>seven criteria](https://bundlers.tooling.report/transformations/) for comparing the bundlers’ transformations capabilities.
+The web.dev team identified [<VPIcon icon="fas fa-globe"/>seven criteria](https://bundlers.tooling.report/transformations/) for comparing the bundlers’ transformations capabilities.
 
 ::: info Results
 
@@ -319,9 +319,9 @@ Parcel v2 is still in beta, and documentation is a work in progress. Since it ha
 
 There isn’t much to compare when it comes to plugins. Plugins for most common use cases are available for all the bundlers, but the quality of each may vary a lot.
 
-webpack has a [large number of official plugins (<FontIcon icon="iconfont icon-github"/>`webpack-contrib/awesome-webpack`)](https://github.com/webpack-contrib/awesome-webpack#webpack-plugins), which makes the selection easy and quick. Rollup has [a lot of community plugins (<FontIcon icon="iconfont icon-github"/>`rollup/awesome`)](https://github.com/rollup/awesome), both actively maintained and stalled. One has to put in some effort to test and decide what works best for them.
+webpack has a [large number of official plugins (<VPIcon icon="iconfont icon-github"/>`webpack-contrib/awesome-webpack`)](https://github.com/webpack-contrib/awesome-webpack#webpack-plugins), which makes the selection easy and quick. Rollup has [a lot of community plugins (<VPIcon icon="iconfont icon-github"/>`rollup/awesome`)](https://github.com/rollup/awesome), both actively maintained and stalled. One has to put in some effort to test and decide what works best for them.
 
-Parcel had a unique mechanism for [plugins with v1 (<FontIcon icon="iconfont icon-github"/>`parcel-bundler/awesome-parcel`)](https://github.com/parcel-bundler/awesome-parcel), wherein you don’t have to configure plugins at all — just install them and get them running. With v2, there is a configuration setup under development and will give more power for sophisticated use cases.
+Parcel had a unique mechanism for [plugins with v1 (<VPIcon icon="iconfont icon-github"/>`parcel-bundler/awesome-parcel`)](https://github.com/parcel-bundler/awesome-parcel), wherein you don’t have to configure plugins at all — just install them and get them running. With v2, there is a configuration setup under development and will give more power for sophisticated use cases.
 
 ---
 
@@ -335,9 +335,9 @@ What to select? As we said earlier, it depends upon your set of requirements. I 
 
 ## Honorable mentions
 
-- [<FontIcon icon="fas fa-globe"/>Snowpack](https://snowpack.dev/) is new in town but is making reasonable [**grounds for the future**](/blog.logrocket.com/snowpack-vs-webpack.md).
-- [<FontIcon icon="fas fa-globe"/>Poi](https://poi.js.org/) is a human-friendly wrapper about webpack. This bundler is somewhere between Parcel and webpack.
-- [<FontIcon icon="fas fa-globe"/>Pax](https://pax.js.org/), a Rust-based bundler, promises to deliver higher speed.
+- [<VPIcon icon="fas fa-globe"/>Snowpack](https://snowpack.dev/) is new in town but is making reasonable [**grounds for the future**](/blog.logrocket.com/snowpack-vs-webpack.md).
+- [<VPIcon icon="fas fa-globe"/>Poi](https://poi.js.org/) is a human-friendly wrapper about webpack. This bundler is somewhere between Parcel and webpack.
+- [<VPIcon icon="fas fa-globe"/>Pax](https://pax.js.org/), a Rust-based bundler, promises to deliver higher speed.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

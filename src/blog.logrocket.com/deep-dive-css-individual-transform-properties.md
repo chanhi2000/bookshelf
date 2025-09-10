@@ -50,7 +50,7 @@ cover: /assets/image/blog.logrocket.com/deep-dive-css-individual-transform-prope
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/deep-dive-css-individual-transform-properties/banner.png"/>
 
-There’s a chance you’ve never known CSS without its ability to transform properties. That functionality is at the core of CSS and a cornerstone of user interfaces (UI) as we know them today. However, in recent years, CSS hasn’t shied away from overhauling some of its most foundational pieces. After revolutionizing layouts with [<FontIcon icon="icofont icon-css-tricks"/>flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [<FontIcon icon="iconfont icon-css-tricks"/>grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and restructuring its box model with [<FontIcon icon="fas fa-globe"/>logical properties](https://danyuschick.com/articles/css-logical-properties-are-the-future-of-the-web-and-i18n/), it was time to introduce its next evolution…
+There’s a chance you’ve never known CSS without its ability to transform properties. That functionality is at the core of CSS and a cornerstone of user interfaces (UI) as we know them today. However, in recent years, CSS hasn’t shied away from overhauling some of its most foundational pieces. After revolutionizing layouts with [<VPIcon icon="icofont icon-css-tricks"/>flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [<VPIcon icon="iconfont icon-css-tricks"/>grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and restructuring its box model with [<VPIcon icon="fas fa-globe"/>logical properties](https://danyuschick.com/articles/css-logical-properties-are-the-future-of-the-web-and-i18n/), it was time to introduce its next evolution…
 
 ![A Deep Dive Into CSS Individual Transform Properties](/assets/image/blog.logrocket.com/deep-dive-css-individual-transform-properties/banner.png)
 
@@ -217,7 +217,7 @@ Individual transform properties require a few other considerations when using th
 
 While CSS has introduced the three individual properties `rotate`, `scale`, and `translate`, the remaining `transform` functions have not been given the same priority. Because of this, the individual and `transform` properties can work together.
 
-You can visit MDN for a [<FontIcon icon="fa-brands fa-firefox"/>full list of `transform` functions](https://developer.mozilla.org/en-US/docs/Web/CSS/transform).
+You can visit MDN for a [<VPIcon icon="fa-brands fa-firefox"/>full list of `transform` functions](https://developer.mozilla.org/en-US/docs/Web/CSS/transform).
 
 ### `transform-origin`
 
@@ -266,7 +266,7 @@ However, when using the individual `rotate` property, a unit or CSS keyword must
 
 ### The `will-change` property
 
-Much like `transform-origin`, the individual transform properties also work together with the `will-change` property. Although, the [<FontIcon icon="fa-brands fa-opera"/>same considerations when using](https://dev.opera.com/articles/css-will-change-property/) `will-change` should still be followed, such as only applying the property if the animation or transform is already suffering from performance issues.
+Much like `transform-origin`, the individual transform properties also work together with the `will-change` property. Although, the [<VPIcon icon="fa-brands fa-opera"/>same considerations when using](https://dev.opera.com/articles/css-will-change-property/) `will-change` should still be followed, such as only applying the property if the animation or transform is already suffering from performance issues.
 
 If the `transform` property isn’t causing any performance issues, the switch to individual transform properties will not change that.
 
@@ -299,7 +299,7 @@ Building products for only the latest versions of major browsers, though, is oft
 
 By using the `@supports` query with the `not` keyword, we’re able to prioritize the newer properties, only rendering the fallback in environments where it’s required. But be wary, because the `transform` property is dependent on the order of its values, fallbacks must be written with this in mind.
 
-To make the process of writing fallbacks easier, an [SCSS Mixin for individual transform properties (<FontIcon icon="fa-brands fa-codepen"/>`DanielYuschick`)](https://codepen.io/DanielYuschick/pen/NWYozPK) can be used to automate the fallback `transform` property and the order of its values.
+To make the process of writing fallbacks easier, an [SCSS Mixin for individual transform properties (<VPIcon icon="fa-brands fa-codepen"/>`DanielYuschick`)](https://codepen.io/DanielYuschick/pen/NWYozPK) can be used to automate the fallback `transform` property and the order of its values.
 
 <CodePen
   user="DanielYuschick"
@@ -400,8 +400,8 @@ And for these two reasons alone, individual transform properties are a welcomed 
   logo="https://stefanjudis.com/favicon.svg"
   preview="https://res.cloudinary.com/dfcwuxv3l/image/upload/w_1280,h_669,c_fill,q_auto,f_auto/w_900,c_fit,co_rgb:232129,g_south_west,x_70,y_160,l_text:oswald_84_bold_line_spacing_-34:Order%20in%20CSS%20transformations%20%E2%80%93%20transform%20functions%20vs%20individual%20transforms/w_900,c_fit,co_rgb:232129,g_north_west,x_70,y_540,l_text:ubuntu_38:%40stefanjudis/stefan-judis-website/social-image-with-new-dude"/>
 
-- [Individual transform properties SCSS Mixin (<FontIcon icon="fa-brands fa-codepen"/>`DanielYuschick`)](https://codepen.io/DanielYuschick/pen/NWYozPK)
-- [Individual transform properties Demos (<FontIcon icon="fa-brands fa-codepen"/>`daynix`)](https://codepen.io/collection/PYKbBa)
+- [Individual transform properties SCSS Mixin (<VPIcon icon="fa-brands fa-codepen"/>`DanielYuschick`)](https://codepen.io/DanielYuschick/pen/NWYozPK)
+- [Individual transform properties Demos (<VPIcon icon="fa-brands fa-codepen"/>`daynix`)](https://codepen.io/collection/PYKbBa)
 
 :::
 

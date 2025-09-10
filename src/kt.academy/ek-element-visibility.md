@@ -54,7 +54,7 @@ cover: https://kt.academy/_next/image?url=https%3A//marcinmoskala.com/EffectiveK
 
 ::: note
 
-This is a chapter from the book [Effective Kotlin](/book/effectivekotlin). You can find it on [<FontIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<FontIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
+This is a chapter from the book [Effective Kotlin](/book/effectivekotlin). You can find it on [<VPIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<VPIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
 
 :::
 

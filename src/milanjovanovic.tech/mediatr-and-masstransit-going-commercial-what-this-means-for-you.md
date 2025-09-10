@@ -62,11 +62,11 @@ As someone who's built countless systems with these tools over the past decade, 
 
 If you're a .NET developer, you likely use at least one of these:
 
-[AutoMapper (<FontIcon icon="iconfont icon-github"/>`AutoMapper/AutoMapper`)](https://github.com/AutoMapper/AutoMapper) (794.7M downloads) transforms objects from one type to another. It removes mountains of tedious mapping code that nobody enjoys writing. One line replaces twenty. **I personally despise AutoMapper and mapping libraries in general**, but I can't deny their popularity.
+[AutoMapper (<VPIcon icon="iconfont icon-github"/>`AutoMapper/AutoMapper`)](https://github.com/AutoMapper/AutoMapper) (794.7M downloads) transforms objects from one type to another. It removes mountains of tedious mapping code that nobody enjoys writing. One line replaces twenty. **I personally despise AutoMapper and mapping libraries in general**, but I can't deny their popularity.
 
-[MediatR (<FontIcon icon="iconfont icon-github"/>`jbogard/MediatR`)](https://github.com/jbogard/MediatR) (286.6M downloads) implements the [**mediator pattern**](/milanjovanovic.tech/cqrs-pattern-with-mediatr.md). It decouples requests from the objects handling them, promoting separation of concerns. There's also the pipeline behavior feature, which allows you to add cross-cutting concerns. I'm a huge fan and use it regularly in my projects.
+[MediatR (<VPIcon icon="iconfont icon-github"/>`jbogard/MediatR`)](https://github.com/jbogard/MediatR) (286.6M downloads) implements the [**mediator pattern**](/milanjovanovic.tech/cqrs-pattern-with-mediatr.md). It decouples requests from the objects handling them, promoting separation of concerns. There's also the pipeline behavior feature, which allows you to add cross-cutting concerns. I'm a huge fan and use it regularly in my projects.
 
-[MassTransit (<FontIcon icon="iconfont icon-github"/>`MassTransit/MassTransit`)](https://github.com/MassTransit/MassTransit) (130.0M downloads) makes distributed messaging simple. It wraps message brokers like [**RabbitMQ and Azure Service Bus**](/milanjovanovic.tech/using-masstransit-with-rabbitmq-and-azure-service-bus.md) with an elegant API. Building event-driven systems becomes approachable. This is another tool I love and often recommend.
+[MassTransit (<VPIcon icon="iconfont icon-github"/>`MassTransit/MassTransit`)](https://github.com/MassTransit/MassTransit) (130.0M downloads) makes distributed messaging simple. It wraps message brokers like [**RabbitMQ and Azure Service Bus**](/milanjovanovic.tech/using-masstransit-with-rabbitmq-and-azure-service-bus.md) with an elegant API. Building event-driven systems becomes approachable. This is another tool I love and often recommend.
 
 These libraries aren't just popular - they're transformative. They've shaped how we build .NET applications.
 
@@ -76,7 +76,7 @@ These libraries aren't just popular - they're transformative. They've shaped how
 
 Both announcements tell a similar story.
 
-![AutoMapper and MediatR Going Commercial.<br/>Source: [<FontIcon icon="fas fa-globe"/>AutoMapper and MediatR Going Commercial](https://jimmybogard.com/automapper-and-mediatr-going-commercial/)](https://milanjovanovic.tech/blogs/mnw_136/mediatr_automapepr_announcement.png?imwidth=3840)
+![AutoMapper and MediatR Going Commercial.<br/>Source: [<VPIcon icon="fas fa-globe"/>AutoMapper and MediatR Going Commercial](https://jimmybogard.com/automapper-and-mediatr-going-commercial/)](https://milanjovanovic.tech/blogs/mnw_136/mediatr_automapepr_announcement.png?imwidth=3840)
 
 ::: info Jimmy Bogard (AutoMapper, MediatR) writes:
 
@@ -86,7 +86,7 @@ Both announcements tell a similar story.
 
 His OSS work was previously sponsored by his former employer. When he went independent, that support vanished. His focus shifted to his consulting business.
 
-![Announcing MassTransit v9.<br/>Source: [<FontIcon icon="fas fa-globe"/>Announcing MassTransit v9](https://masstransit.io/introduction/v9-announcement)](https://milanjovanovic.tech/blogs/mnw_136/masstransit_announcement.png?imwidth=3840)
+![Announcing MassTransit v9.<br/>Source: [<VPIcon icon="fas fa-globe"/>Announcing MassTransit v9](https://masstransit.io/introduction/v9-announcement)](https://milanjovanovic.tech/blogs/mnw_136/masstransit_announcement.png?imwidth=3840)
 
 Similarly, MassTransit has grown from "a single assembly that supported MSMQ" in 2007 to over thirty NuGet packages. Its success created demands that are impossible to meet through volunteer work alone:
 
@@ -148,11 +148,11 @@ MassTransit v8 and current MediatR/AutoMapper will remain available. Security pa
 
 ### 3. Switch to alternatives
 
-For AutoMapper: consider [<FontIcon icon="iconfont icon-github"/>`MapsterMapper/Mapster`](https://github.com/MapsterMapper/Mapster) or **manual mapping** (my recommendation).
+For AutoMapper: consider [<VPIcon icon="iconfont icon-github"/>`MapsterMapper/Mapster`](https://github.com/MapsterMapper/Mapster) or **manual mapping** (my recommendation).
 
-For MediatR: explore [<FontIcon icon="iconfont icon-github "/>`FastEndpoints/FastEndpoints`](https://github.com/FastEndpoints/FastEndpoints) or [**build a simple mediator yourself**](/milanjovanovic.tech/stop-conflating-cqrs-and-mediatr.md).
+For MediatR: explore [<VPIcon icon="iconfont icon-github "/>`FastEndpoints/FastEndpoints`](https://github.com/FastEndpoints/FastEndpoints) or [**build a simple mediator yourself**](/milanjovanovic.tech/stop-conflating-cqrs-and-mediatr.md).
 
-For MassTransit: look at raw client libraries like [<FontIcon icon="fas fa-globe"/>RabbitMQ.Client](https://nuget.org/packages/rabbitmq.client/) and [<FontIcon icon="fas fa-globe"/>Azure.Messaging.ServiceBus](https://nuget.org/packages/Azure.Messaging.ServiceBus), and another option to consider is [**Rebus**](/milanjovanovic.tech/implementing-the-saga-pattern-with-rebus-and-rabbitmq.md).
+For MassTransit: look at raw client libraries like [<VPIcon icon="fas fa-globe"/>RabbitMQ.Client](https://nuget.org/packages/rabbitmq.client/) and [<VPIcon icon="fas fa-globe"/>Azure.Messaging.ServiceBus](https://nuget.org/packages/Azure.Messaging.ServiceBus), and another option to consider is [**Rebus**](/milanjovanovic.tech/implementing-the-saga-pattern-with-rebus-and-rabbitmq.md).
 
 ### 4. Write equivalent functionality yourself
 

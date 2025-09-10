@@ -62,7 +62,7 @@ So, how do you use images to add personality, rhythm, and even surprise someone 
 
 ::: info My brief
 
-Patty Meltt is an up-and-coming country music sensation, and she needed a website to launch her new album and tour. She wanted it to be distinctive-looking and memorable, so she called [<FontIcon icon="fas fa-globe"/>Stuff & Nonsense](https://stuffandnonsense.co.uk). Patty’s not real, but the challenges of designing and developing sites like hers are.
+Patty Meltt is an up-and-coming country music sensation, and she needed a website to launch her new album and tour. She wanted it to be distinctive-looking and memorable, so she called [<VPIcon icon="fas fa-globe"/>Stuff & Nonsense](https://stuffandnonsense.co.uk). Patty’s not real, but the challenges of designing and developing sites like hers are.
 
 :::
 

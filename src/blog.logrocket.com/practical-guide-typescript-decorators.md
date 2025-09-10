@@ -53,15 +53,15 @@ cover: /assets/image/blog.logrocket.com/practical-guide-typescript-decorators/ba
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Yan Sun](https://blog.logrocket.com/author/yansun/) on 21 March 2024 to provide information about parameter decorators in TypeScript, and explore advanced decorator patterns like decorator composition and factories.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Yan Sun](https://blog.logrocket.com/author/yansun/) on 21 March 2024 to provide information about parameter decorators in TypeScript, and explore advanced decorator patterns like decorator composition and factories.
 
 :::
 
 ![A Practical Guide To TypeScript Decorators](/assets/image/blog.logrocket.com/practical-guide-typescript-decorators/banner.png)
 
-A decorator is a programming design pattern in which you wrap something to change its behavior. This feature is currently at [stage three (<FontIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators) in JavaScript. Decorators are not new; several programming languages, such as Python, Java, and C#, adopted this pattern before JavaScript. Further refinement of the syntax will require feedback from implementation and users.
+A decorator is a programming design pattern in which you wrap something to change its behavior. This feature is currently at [stage three (<VPIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators) in JavaScript. Decorators are not new; several programming languages, such as Python, Java, and C#, adopted this pattern before JavaScript. Further refinement of the syntax will require feedback from implementation and users.
 
-At the time of writing, [<FontIcon icon="fas fa-globe"/>most browsers do not support decorators](https://caniuse.com/?search=decorators). Nonetheless, you can test them out by using compilers like Babel.
+At the time of writing, [<VPIcon icon="fas fa-globe"/>most browsers do not support decorators](https://caniuse.com/?search=decorators). Nonetheless, you can test them out by using compilers like Babel.
 
 In this article, we will learn how decorators compare in JavaScript and TypeScript. We will also explore the various types of TypeScript decorators, including the class, method, property, and accessor decorators.
 
@@ -71,7 +71,7 @@ In this article, we will learn how decorators compare in JavaScript and TypeScri
 
 TypeScript’s decorator feature differs significantly from JavaScript’s. The first big difference concerns what we can decorate. TypeScript decorators allow us to annotate and modify class declarations, methods, properties, accessors, and parameters.
 
-TypeScript 5.0 introduces the new implementation of decorator support, which aligns with the [ECMAScript stage three proposal (<FontIcon icon="iconfont icon-github"/>`tc39/proposals`)](https://github.com/tc39/proposals). However, it does not currently support parameter decoration, but that might change in future ECMAScript proposals. Old TypeScript decorators do support parameter decoration. We’ll learn more about this later in the article. JavaScript, on the other hand, only lets us decorate class declarations and methods.
+TypeScript 5.0 introduces the new implementation of decorator support, which aligns with the [ECMAScript stage three proposal (<VPIcon icon="iconfont icon-github"/>`tc39/proposals`)](https://github.com/tc39/proposals). However, it does not currently support parameter decoration, but that might change in future ECMAScript proposals. Old TypeScript decorators do support parameter decoration. We’ll learn more about this later in the article. JavaScript, on the other hand, only lets us decorate class declarations and methods.
 
 The second important difference between decorators in JavaScript and TypeScript is type checking. Because TypeScript is a strongly typed programming language, it can type-check the parameters and return the value of the decorator function. JavaScript lacks this type checking and validation, so you need to rely on runtime checks or external tools like linters to catch type errors.
 
@@ -93,9 +93,9 @@ Next, install TypeScript as a development dependency:
 npm install -D typescript @types/node
 ```
 
-The <FontIcon icon="fa-brands fa-npm"/>`@types/node` package contains the Node.js type definitions for TypeScript. We need this package to access some Node.js standard libraries.
+The <VPIcon icon="fa-brands fa-npm"/>`@types/node` package contains the Node.js type definitions for TypeScript. We need this package to access some Node.js standard libraries.
 
-Add an npm script in the <FontIcon icon="iconfont icon-json"/>`package.json` file to compile your TypeScript code:
+Add an npm script in the <VPIcon icon="iconfont icon-json"/>`package.json` file to compile your TypeScript code:
 
 ```json title="package.json"
 {
@@ -141,7 +141,7 @@ Let’s install it as a development dependency:
 npm install -D ts-node
 ```
 
-Next, add a `start` script to the <FontIcon icon="iconfont icon-json"/>`package.json` file:
+Next, add a `start` script to the <VPIcon icon="iconfont icon-json"/>`package.json` file:
 
 ```json title="package.json"
 {
@@ -160,7 +160,7 @@ npm start
 # Hello, world!
 ```
 
-I have all the [source code for this article published on my GitHub (<FontIcon icon="iconfont icon-github"/>`mdipirro/typescript-decorators`)](https://github.com/mdipirro/typescript-decorators). You can clone it onto your machine using the command below:
+I have all the [source code for this article published on my GitHub (<VPIcon icon="iconfont icon-github"/>`mdipirro/typescript-decorators`)](https://github.com/mdipirro/typescript-decorators). You can clone it onto your machine using the command below:
 
 ```sh
 git clone git@github.com:mdipirro/typescript-decorators.git
@@ -200,7 +200,7 @@ The `type` definition above looks complex, so let’s break it down one piece at
   - `addInitializer`: A way to add custom initialization logic at the beginning of the constructor (or when the class is defined)
 - `Output` represents the type of value returned by the `Decorator` function
 
-In the next section, we’ll examine the types of decorators. Interestingly, while old-style decorators let us decorate function parameters, new-style ones don’t, at least for now. In fact, parameter decorators are waiting for a [follow-on proposal (<FontIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators/issues/47) to reach Stage 3. 
+In the next section, we’ll examine the types of decorators. Interestingly, while old-style decorators let us decorate function parameters, new-style ones don’t, at least for now. In fact, parameter decorators are waiting for a [follow-on proposal (<VPIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators/issues/47) to reach Stage 3. 
 
 ---
 
@@ -477,11 +477,11 @@ class Test {
 
 The transpiler will turn the `x` field above into a pair of getter and setter methods, with a `private` property behind the scenes. This is useful to represent a simple accessor pair and helps avoid some edgy issues that might arise while using decorators on class fields.
 
-Auto-accessors can also be decorated, and their type will essentially be a merge of `ClassSetterDecorator` and `ClassGetterDecorator`. You can find additional details in the [Stage 3 decorators pull request (<FontIcon icon="iconfont icon-github"/>`microsoft/TypeScript`)](https://github.com/microsoft/TypeScript/pull/50820).
+Auto-accessors can also be decorated, and their type will essentially be a merge of `ClassSetterDecorator` and `ClassGetterDecorator`. You can find additional details in the [Stage 3 decorators pull request (<VPIcon icon="iconfont icon-github"/>`microsoft/TypeScript`)](https://github.com/microsoft/TypeScript/pull/50820).
 
 ### Parameter decorators
 
-Please note that the parameter decorator is not supported in TypeScript 5.0. The [<FontIcon icon="iconfont icon-typescript"/>TypeScript documentation](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/#differences-with-experimental-legacy-decorators) states: “This new decorator proposal is not compatible with — `emitDecoratorMetadata`, and it does not allow decorating parameters. Future ECMAScript proposals may be able to help bridge that gap.”
+Please note that the parameter decorator is not supported in TypeScript 5.0. The [<VPIcon icon="iconfont icon-typescript"/>TypeScript documentation](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/#differences-with-experimental-legacy-decorators) states: “This new decorator proposal is not compatible with — `emitDecoratorMetadata`, and it does not allow decorating parameters. Future ECMAScript proposals may be able to help bridge that gap.”
 
 If you are still supporting the older version of TypeScript code, here is how we can use the parameter decorator.
 
@@ -759,7 +759,7 @@ The cool thing about this decorator is that you can apply the same logic to a di
 
 ## Conclusion
 
-In some scenarios, we don’t need to create custom decorators. Many TypeScript libraries and frameworks, such as [<FontIcon icon="fas fa-globe"/>TypeORM](https://typeorm.io) and [Angular<FontIcon icon="fa-brands fa-angular"/>](https://angular.io/), already provide all the decorators we need. But it’s always worth the extra effort to understand what’s going on under the hood, and it might even inspire you to build your own TypeScript framework.
+In some scenarios, we don’t need to create custom decorators. Many TypeScript libraries and frameworks, such as [<VPIcon icon="fas fa-globe"/>TypeORM](https://typeorm.io) and [Angular<VPIcon icon="fa-brands fa-angular"/>](https://angular.io/), already provide all the decorators we need. But it’s always worth the extra effort to understand what’s going on under the hood, and it might even inspire you to build your own TypeScript framework.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

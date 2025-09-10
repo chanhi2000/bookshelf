@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/mercury.gif
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/mercury.gif"/>
 
-We [**just covered**](/css-tricks.com/svg-shape-morphing-works.md) shape *morphing* in SVG, where shapes change from one to another. Let’s look at shapes that blob into each other! You know, that gooey squishy blobby effect like [<FontIcon icon="fa-brands fa-youtube"/>droplets of mercury on a surface](https://youtu.be/31CE2BYicyU#t=45).
+We [**just covered**](/css-tricks.com/svg-shape-morphing-works.md) shape *morphing* in SVG, where shapes change from one to another. Let’s look at shapes that blob into each other! You know, that gooey squishy blobby effect like [<VPIcon icon="fa-brands fa-youtube"/>droplets of mercury on a surface](https://youtu.be/31CE2BYicyU#t=45).
 
 ![](https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/mercury.gif)
 
@@ -63,9 +63,9 @@ I’m not sure who first discovered this was possible on the web, but the first 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-And then again by [Felix Hornoiu (<FontIcon icon="fa-brands fa-codepen"/>`felixhornoiu`)](http://codepen.io/felixhornoiu/pen/EjDwF/) (low framerate GIF for web practicality):
+And then again by [Felix Hornoiu (<VPIcon icon="fa-brands fa-codepen"/>`felixhornoiu`)](http://codepen.io/felixhornoiu/pen/EjDwF/) (low framerate GIF for web practicality):
 
-![Demo from [here (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/lIBAg?editors=110).](https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/bubbles.gif)
+![Demo from [here (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/lIBAg?editors=110).](https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/bubbles.gif)
 
 ---
 
@@ -77,7 +77,7 @@ The blur obvious makes the element blurry, the contrast fights against the blur,
 
 The fancy parts comes from the fact that when two blurred (yet forced to look non-blurry) elements come near each other, their would-be blurs create enough would-be color contrast that the shapes actually appear to connect.
 
-![Demo from [here (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/lIBAg?editors=110).](https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/blur-shape.png)
+![Demo from [here (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/lIBAg?editors=110).](https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/blur-shape.png)
 
 I find it easier to get working if you blur the shapes but add contrast to the whole area. Like:
 

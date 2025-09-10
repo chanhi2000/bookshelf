@@ -175,15 +175,15 @@ Of course not! There's a better solution.
 
 Before you start implementing a custom **health check** for everything, you should first see if there's already an **existing library.**
 
-In the [<FontIcon icon="iconfont icon-github"/>`Xabaril/AspNetCore.Diagnostics.HealthChecks`](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks) repository you can find a wide collection **health check** packages for frequently used services and libraries.
+In the [<VPIcon icon="iconfont icon-github"/>`Xabaril/AspNetCore.Diagnostics.HealthChecks`](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks) repository you can find a wide collection **health check** packages for frequently used services and libraries.
 
 Here are just a few examples:
 
-- <FontIcon icon="iconfont icon-sqlserver"/>SQL Server: `AspNetCore.HealthChecks.SqlServer`
-- <FontIcon icon="iconfont icon-postgresql"/>Postgres: `AspNetCore.HealthChecks.Npgsql`
-- <FontIcon icon="iconfont icon-redis"/>Redis: `AspNetCore.HealthChecks.Redis`
-- <FontIcon icon="iconfont icon-rabbitmq"/>RabbitMQ: `AspNetCore.HealthChecks.RabbitMQ`
-- <FontIcon icon="fa-brands fa-aws"/>AWS S3: `AspNetCore.HealthChecks.Aws.S3`
+- <VPIcon icon="iconfont icon-sqlserver"/>SQL Server: `AspNetCore.HealthChecks.SqlServer`
+- <VPIcon icon="iconfont icon-postgresql"/>Postgres: `AspNetCore.HealthChecks.Npgsql`
+- <VPIcon icon="iconfont icon-redis"/>Redis: `AspNetCore.HealthChecks.Redis`
+- <VPIcon icon="iconfont icon-rabbitmq"/>RabbitMQ: `AspNetCore.HealthChecks.RabbitMQ`
+- <VPIcon icon="fa-brands fa-aws"/>AWS S3: `AspNetCore.HealthChecks.Aws.S3`
 - SignalR: `AspNetCore.HealthChecks.SignalR`
 
 Here's how to add health checks for **PostgreSQL** and **RabbitMQ**:

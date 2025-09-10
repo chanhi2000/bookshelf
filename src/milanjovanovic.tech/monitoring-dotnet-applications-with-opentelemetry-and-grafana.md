@@ -73,7 +73,7 @@ When something breaks, you're stuck digging through logs, guessing at performanc
 
 That ends today.
 
-[<FontIcon icon="iconfont icon-grafana"/>Grafana](https://grafana.com/) is a complete observability platform that unifies metrics, logs, and traces in one place.
+[<VPIcon icon="iconfont icon-grafana"/>Grafana](https://grafana.com/) is a complete observability platform that unifies metrics, logs, and traces in one place.
 
 With Grafana, you get:
 
@@ -82,7 +82,7 @@ With Grafana, you get:
 - **Deep trace analysis** to understand request flows across services
 - **Log correlation** that connects your traces to the exact log entries that matter
 
-[<FontIcon icon="iconfont icon-grafana"/>Grafana Cloud](https://grafana.com/products/cloud/) makes this even easier. No infrastructure to manage, automatic scaling, and built-in integrations with [<FontIcon icon="fas fa-globe"/>OpenTelemetry](https://opentelemetry.io/). There's a generous free tier that allows you to get started without any upfront costs.
+[<VPIcon icon="iconfont icon-grafana"/>Grafana Cloud](https://grafana.com/products/cloud/) makes this even easier. No infrastructure to manage, automatic scaling, and built-in integrations with [<VPIcon icon="fas fa-globe"/>OpenTelemetry](https://opentelemetry.io/). There's a generous free tier that allows you to get started without any upfront costs.
 
 When you combine Grafana with OpenTelemetry, you get vendor-neutral observability that actually delivers insights instead of just pretty charts.
 
@@ -107,7 +107,7 @@ Install-Package OpenTelemetry.Instrumentation.StackExchangeRedis
 Install-Package Npgsql.OpenTelemetry
 ```
 
-Configure OpenTelemetry in your <FontIcon icon="iconfont icon-csharp"/>`Program.cs`:
+Configure OpenTelemetry in your <VPIcon icon="iconfont icon-csharp"/>`Program.cs`:
 
 ```cs :collapsed-lines title="Program.cs"
 var builder = WebApplication.CreateBuilder(args);
@@ -160,7 +160,7 @@ Get your Grafana Cloud credentials:
 
 @tab:active 1.
 
-Log into [<FontIcon icon="iconfont icon-grafana"/>Grafana Cloud](https://grafana.com/auth/sign-up/create-user)
+Log into [<VPIcon icon="iconfont icon-grafana"/>Grafana Cloud](https://grafana.com/auth/sign-up/create-user)
 
 @tadb 2.
 
@@ -186,7 +186,7 @@ You should also see the environment variables you can use to configure OpenTelem
 
 :::
 
-Configure the OTLP exporter in your <FontIcon icon="iconfont icon-json"/>`appsettings.json`:
+Configure the OTLP exporter in your <VPIcon icon="iconfont icon-json"/>`appsettings.json`:
 
 ```json title="appsettings.json"
 {

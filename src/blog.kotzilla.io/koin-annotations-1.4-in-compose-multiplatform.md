@@ -52,13 +52,13 @@ cover: https://blog.kotzilla.io/hubfs/Screenshot%202024-10-24%20at%2012.03.30.pn
   logo="https://blog.kotzilla.io/hubfs/favicon.png"
   preview="https://blog.kotzilla.io/hubfs/Screenshot%202024-10-24%20at%2012.03.30.png"/>
 
-If you've been using Koin's DSL for dependency injection in your Kotlin Multiplatform projects, you might be interested in exploring a more annotation-driven approach. In this guide, Arnaud walks you through migrating a simple [<FontIcon icon="iconfont icon-jetbrains"/>Compose Multiplatform](https://jetbrains.com/compose-multiplatform/) application from Koin DSL to the new [<FontIcon icon="fas fa-globe"/>Koin Annotations 1.4.](https://insert-koin.io/docs/reference/koin-annotations/start)
+If you've been using Koin's DSL for dependency injection in your Kotlin Multiplatform projects, you might be interested in exploring a more annotation-driven approach. In this guide, Arnaud walks you through migrating a simple [<VPIcon icon="iconfont icon-jetbrains"/>Compose Multiplatform](https://jetbrains.com/compose-multiplatform/) application from Koin DSL to the new [<VPIcon icon="fas fa-globe"/>Koin Annotations 1.4.](https://insert-koin.io/docs/reference/koin-annotations/start)
 
 ---
 
 ## Project Overview
 
-We'll be working with the [KMP App Template (<FontIcon icon="iconfont icon-github"/>`InsertKoinIO/KMP-App-Template`)](https://github.com/InsertKoinIO/KMP-App-Template/?tab=readme-ov-file#using-koin-annotations) from JetBrains, which provides a great starting point for our exploration. The data displayed by the app is from [<FontIcon icon="fas fa-globe"/>The Metropolitan Museum of Art Collection API](https://metmuseum.github.io/). This app already uses [<FontIcon icon="fas fa-globe"/>Koin](https://insert-koin.io/) for dependency injection. This template implements this simple art gallery application that displays a list of paintings and their details. While the functionality is straightforward, it serves as an excellent example to demonstrate Koin's annotation-based dependency injection. And bonus : it's beautiful to look at.
+We'll be working with the [KMP App Template (<VPIcon icon="iconfont icon-github"/>`InsertKoinIO/KMP-App-Template`)](https://github.com/InsertKoinIO/KMP-App-Template/?tab=readme-ov-file#using-koin-annotations) from JetBrains, which provides a great starting point for our exploration. The data displayed by the app is from [<VPIcon icon="fas fa-globe"/>The Metropolitan Museum of Art Collection API](https://metmuseum.github.io/). This app already uses [<VPIcon icon="fas fa-globe"/>Koin](https://insert-koin.io/) for dependency injection. This template implements this simple art gallery application that displays a list of paintings and their details. While the functionality is straightforward, it serves as an excellent example to demonstrate Koin's annotation-based dependency injection. And bonus : it's beautiful to look at.
 
 ---
 
@@ -75,7 +75,7 @@ dependencies {
 }
 ```
 
-Don't forget to set up [<FontIcon icon="fas fa-globe"/>KSP (Kotlin Symbol Processing)](https://mvnrepository.com/artifact/com.google.devtools.ksp/symbol-processing-api/1.9.24-1.0.20) in your project, as it's essential for annotation processing.
+Don't forget to set up [<VPIcon icon="fas fa-globe"/>KSP (Kotlin Symbol Processing)](https://mvnrepository.com/artifact/com.google.devtools.ksp/symbol-processing-api/1.9.24-1.0.20) in your project, as it's essential for annotation processing.
 
 ---
 
@@ -195,7 +195,7 @@ actual class PlatformComponent {
 
 Migrating from Koin DSL to Annotations might require some initial setup, but the benefits in terms of code clarity and maintainability are well worth it. The annotation-based approach provides a more familiar paradigm for developers coming from other dependency injection frameworks while maintaining Koin's lightweight and Kotlin-first philosophy.
 
-Remember to check out the [<FontIcon icon="fas fa-globe"/>official Koin documentation](https://insert-koin.io/) for more detailed information and advanced usage scenarios. Tell us what you think!
+Remember to check out the [<VPIcon icon="fas fa-globe"/>official Koin documentation](https://insert-koin.io/) for more detailed information and advanced usage scenarios. Tell us what you think!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

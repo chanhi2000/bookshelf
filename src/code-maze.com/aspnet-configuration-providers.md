@@ -58,7 +58,7 @@ In this article, we’re going to talk about different configuration providers i
 
 But there’s much more to it.
 
-The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [options-validation  (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/options-validation) branch. To check out the finished source code, check out the [configuration-providers (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/configuration-providers) branch.
+The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [options-validation  (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/options-validation) branch. To check out the finished source code, check out the [configuration-providers (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/configuration-providers) branch.
 
 Let’s dive in.
 
@@ -241,7 +241,7 @@ We’ve seen how to add a simple ini configuration file by using the file config
 
 User secrets are a convenient mechanism to store sensitive configuration data while in development. They are easy to use and you won’t have to create environment variables for each project you develop locally. It’s a good way to keep things clean and simple.
 
-By default, the application uses secrets after the <FontIcon icon="iconfont icon-json"/>`appsetting.json` and <FontIcon icon="iconfont icon-json"/>`appsettings.{Environment}.json` files, and right before environment variables and command-line arguments by default. If you find yourself wondering why your secret isn’t working, it might be worthwhile to check your environment variables.
+By default, the application uses secrets after the <VPIcon icon="iconfont icon-json"/>`appsetting.json` and <VPIcon icon="iconfont icon-json"/>`appsettings.{Environment}.json` files, and right before environment variables and command-line arguments by default. If you find yourself wondering why your secret isn’t working, it might be worthwhile to check your environment variables.
 
 To be able to use secrets we can initialize the secret manager by navigating to the project root (`ProjectConfigurationDemo`) and typing:
 
@@ -286,7 +286,7 @@ We can also right-click on the project itself inside the Visual Studio and then 
 
 Now if we run our application, our configuration values will be available at runtime.
 
-There are more useful commands for user secrets, so if you’re interested, you can check out the [<FontIcon icon="fa-brands fa-microsoft"/>documentation pages](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-3.1&tabs=windows).
+There are more useful commands for user secrets, so if you’re interested, you can check out the [<VPIcon icon="fa-brands fa-microsoft"/>documentation pages](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-3.1&tabs=windows).
 
 Just remember, we should use user secrets just for the development environment. We should not use them in other environments.
 

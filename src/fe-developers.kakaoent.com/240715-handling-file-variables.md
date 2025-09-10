@@ -93,7 +93,7 @@ Redux가 불필요한 영역까지 너무 남용되고 있다는 뜻입니다. M
 - 추적이 필요한 상태: 값의 변경으로 인해 UI가 리렌더링 되어야 하거나 특정 로직을 트리거 시켜야 하는 등 값의 변경을 계속해서 추적해야 하는 상태
 - 추적이 불필요한 상태: 값이 변경되어도 별도의 로직이 수행될 필요가 없어서 값의 변경을 추적할 필요가 없는 상태
 
-**서버 상태**의 경우 기존에 redux-saga 미들웨어를 통해 비동기 API 요청 관련 상태를 관리하던 부분이었습니다. 서버 상태는 굳이 Redux의 전역 스토어로 관리할 필요 없이 [<FontIcon icon="fas fa-globe"/> react-query](https://tanstack.com/query/latest)의 데이터 캐싱 기능을 활용하면 상태 관리를 간단하게 구현할 수 있다는 사실을 발견했습니다. 따라서 redux-saga 미들웨어를 제거하고 react-query 라이브러리를 통해 서버 상태를 관리하도록 일괄 변경했습니다.
+**서버 상태**의 경우 기존에 redux-saga 미들웨어를 통해 비동기 API 요청 관련 상태를 관리하던 부분이었습니다. 서버 상태는 굳이 Redux의 전역 스토어로 관리할 필요 없이 [<VPIcon icon="fas fa-globe"/> react-query](https://tanstack.com/query/latest)의 데이터 캐싱 기능을 활용하면 상태 관리를 간단하게 구현할 수 있다는 사실을 발견했습니다. 따라서 redux-saga 미들웨어를 제거하고 react-query 라이브러리를 통해 서버 상태를 관리하도록 일괄 변경했습니다.
 
 ::: info
 
@@ -124,9 +124,9 @@ react-query를 활용한 서버 상태 관리는 [esme의 블로그 글](https:/
 ES6에서는 여기에 더해 ‘모듈’이라는 개념이 새롭게 도입됨에 따라 하나의 스코프가 추가되었는데, 바로 **Module Scope(모듈 범위)** 입니다.
 
 Javascript ES6 문법을 사용할 경우 특정 파일 내에서 export 문을 사용한다면 해당 파일 자체가 하나의 모듈이 됩니다. 그리고 해당 파일 내에서 변수를 선언하면 해당 변수는 선언된 파일 내에서만 접근이 가능하며 외부에서 접근이 불가능합니다.
-예를 들어, 아래와 같이 <FontIcon icon="fa-brands fa-js"/>`example.js` 라는 파일 내에서 전역으로 var1이라는 변수를 선언한다면 var1은 <FontIcon icon="fa-brands fa-js"/>`example.js` 파일 내에서 정의된 함수 등에서만 접근이 가능하며 외부 파일에서는 접근이 불가능합니다.
+예를 들어, 아래와 같이 <VPIcon icon="fa-brands fa-js"/>`example.js` 라는 파일 내에서 전역으로 var1이라는 변수를 선언한다면 var1은 <VPIcon icon="fa-brands fa-js"/>`example.js` 파일 내에서 정의된 함수 등에서만 접근이 가능하며 외부 파일에서는 접근이 불가능합니다.
 
-> <FontIcon icon="fa-brands fa-js"/>`example.js`
+> <VPIcon icon="fa-brands fa-js"/>`example.js`
 
 ```js
 let var1;
@@ -159,7 +159,7 @@ export function func1() {
 이 isMobile 변수를 Redux 스토어에서 상태 값으로 관리하도록 구현할 수도 있습니다. 특정 도메인에 종속된 정보가 아니고 여러 컴포넌트에서 활용될 수 있는 정보이니 전역 스토어에 저장해놓고 필요할 때마다 꺼내 쓰면 편하겠죠.
 유저의 환경은 유저가 웹 사이트에 남아있는 동안 바뀌지 않는 정보이므로 isMobile의 값을 페이지 최초 진입 시 한 번만 초기화해 준다고 가정했을 때, 아래와 같이 코드를 작성할 수 있을 것입니다.
 
-> <FontIcon icon="fas fa-folder-open"/>`client/`<FontIcon icon="fa-brands fa-js"/>`state.js`
+> <VPIcon icon="fas fa-folder-open"/>`client/`<VPIcon icon="fa-brands fa-js"/>`state.js`
 
 ```js
 // isMobile이라는 상태를 redux store에 정의합니다.
@@ -168,7 +168,7 @@ const initialState = {
 }
 ```
 
-> <FontIcon icon="fas fa-folder-open"/>`client/`_app.js
+> <VPIcon icon="fas fa-folder-open"/>`client/`_app.js
 
 ```js
 const isMobile = useSelector(store => store.isMobile);
@@ -189,9 +189,9 @@ _app에서 유저의 userAgent 정보를 바탕으로 Redux 스토어의 `isMobi
 
 `isMobile`이라는 값은 한 번 할당되면 더 이상 변경되지 않는 값이기 때문에, 해당 값이 변경됐는지 실시간으로 추적할 필요도 없습니다. 그리고 변경되지 않는 값이므로 UI 리렌더링을 고려할 필요가 없는 것은 물론이고요. 이 변수 하나를 Redux에서 관리하기 위해 최소 `state`, `action`, `reducer`에 대한 코드를 프로젝트에 추가해야 하는데, 이렇게 큰 비용을 들여서 관리할 필요가 있는지 의심스럽습니다.
 
-이 `isMobile`이라는 변수를 파일 변수로 관리하도록 변경해 보면 어떨까요? <FontIcon icon="fa-brands fa-js"/>`media.js` 라는 파일을 생성한 후, 아래와 같이 `isMobile` 이라는 변수를 파일 내에 전역으로 선언합니다.
+이 `isMobile`이라는 변수를 파일 변수로 관리하도록 변경해 보면 어떨까요? <VPIcon icon="fa-brands fa-js"/>`media.js` 라는 파일을 생성한 후, 아래와 같이 `isMobile` 이라는 변수를 파일 내에 전역으로 선언합니다.
 
-> <FontIcon icon="fas fa-folder-open"/>`client/`<FontIcon icon="fa-brands fa-js"/>`media.js`
+> <VPIcon icon="fas fa-folder-open"/>`client/`<VPIcon icon="fa-brands fa-js"/>`media.js`
 
 ```js
 let isMobile = undefined;
@@ -199,7 +199,7 @@ let isMobile = undefined;
 
 파일 변수는 선언된 파일 내로 스코프가 한정되기 때문에 외부에서 접근이 불가합니다. 외부에서 isMobile 값을 참조할 수 있도록 getter 함수를 정의하고 export를 통해 내보냅시다.
 
-> <FontIcon icon="fas fa-folder-open"/>`client/`<FontIcon icon="fa-brands fa-js"/>`media.js`
+> <VPIcon icon="fas fa-folder-open"/>`client/`<VPIcon icon="fa-brands fa-js"/>`media.js`
 
 ```js
 let isMobile = undefined;
@@ -252,11 +252,11 @@ Hard Navigation이란 `window.location.href` 를 통해 특정 URL로 이동하�
 ![](https://fe-developers.kakaoent.com/a37b31fa095176856c15a386140560f9/html.svg)
 
 여러분이 웹 사이트에 접속하면 여러모로 친숙하실 **document** 라는 객체가 생성됩니다. 그리고 이 객체는 Soft Navigation을 통해 URL이 변경되는 등의 동작으로 내부 값이 변경될 수는 있어도, 한 번 생성되면 유저가 웹 사이트를 이탈하거나 Hard Navigation을 통해 기존 DOM 정보를 모두 상실하지 않는 한 계속 유지됩니다.
-HTML5에 대한 표준 스펙이 명시되어 있는 [<FontIcon icon="fa-brands fa-html5"/>HTML Standard](https://html.spec.whatwg.org/) 에는 Document에 대한 항목이 존재하는데, 이 항목에는 아래와 같은 내용이 존재합니다.
+HTML5에 대한 표준 스펙이 명시되어 있는 [<VPIcon icon="fa-brands fa-html5"/>HTML Standard](https://html.spec.whatwg.org/) 에는 Document에 대한 항목이 존재하는데, 이 항목에는 아래와 같은 내용이 존재합니다.
 
 > 각 Document 객체는 초기에 값이 비어있는 모듈 맵 (Module Map)을 가지고 있다.**
 
-**모듈 맵**이 정확히 무엇이고 어떤 역할을 하는지는 [<FontIcon icon="fa-brands fa-firefox"/>Mozilla 블로그 포스팅](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/) 에 아주 상세하게 설명되어 있습니다. 다만 해당 내용이 매우 길기 때문에, 이 글에서는 모듈 맵이 다음과 같은 특성을 가진다는 것만 짚고 넘어가도 충분합니다.
+**모듈 맵**이 정확히 무엇이고 어떤 역할을 하는지는 [<VPIcon icon="fa-brands fa-firefox"/>Mozilla 블로그 포스팅](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/) 에 아주 상세하게 설명되어 있습니다. 다만 해당 내용이 매우 길기 때문에, 이 글에서는 모듈 맵이 다음과 같은 특성을 가진다는 것만 짚고 넘어가도 충분합니다.
 
 - 모듈 스크립트를 임포트하면 이 정보가 모듈 맵에 저장됩니다.
 - 모듈 맵은 모듈 스크립트에 대한 캐시 저장소 역할을 제공합니다.
@@ -275,10 +275,10 @@ HTML5에 대한 표준 스펙이 명시되어 있는 [<FontIcon icon="fa-brands 
 
 ---
 
-## 서버 사이드 (<FontIcon icon="fa-brands fa-node"/>Node.js 환경)에서 파일 변수는 어떻게 동작하며 어떻게 사용해야 하나요?
+## 서버 사이드 (<VPIcon icon="fa-brands fa-node"/>Node.js 환경)에서 파일 변수는 어떻게 동작하며 어떻게 사용해야 하나요?
 
 지금까지는 클라이언트 환경에서 파일 변수를 활용하는 방법에 대해 알아봤습니다. 그런데, 만약 서버 환경에서 파일 변수를 사용하고 싶다면 어떻게 해야 할까요?
-유저가 PC웹 환경이 아니라 모바일 웹 환경에서 /pc-only 라는 URL로 접근을 시도했을 때, 해당 요청을 /mobile-only 라는 URL로 리다이렉트 시키기 위해 <FontIcon icon="fa-brands fa-node"/>Node.js 서버 환경에서 다음과 같은 Express 미들웨어를 작성했다고 가정해 봅시다.
+유저가 PC웹 환경이 아니라 모바일 웹 환경에서 /pc-only 라는 URL로 접근을 시도했을 때, 해당 요청을 /mobile-only 라는 URL로 리다이렉트 시키기 위해 <VPIcon icon="fa-brands fa-node"/>Node.js 서버 환경에서 다음과 같은 Express 미들웨어를 작성했다고 가정해 봅시다.
 
 ```js
 export async function pcOnlyMiddleware(req, res, next) {
@@ -298,7 +298,7 @@ export async function pcOnlyMiddleware(req, res, next) {
 
 서버 사이드 코드를 작성하다 보니 유저가 모바일 웹 환경인지 여부를 확인해야 하는 경우가 많아졌고, 이때마다 Request 헤더를 일일이 파싱하는 코드를 넣기가 번거로운 나머지 클라이언트 사이드에서 했던 것과 동일하게 isMobile을 파일 변수로 관리하고자 합니다.
 
-> <FontIcon icon="fas fa-folder-open"/>`server/`<FontIcon icon="fa-brands fa-js"/>`media.js`
+> <VPIcon icon="fas fa-folder-open"/>`server/`<VPIcon icon="fa-brands fa-js"/>`media.js`
 
 ```js
 let isMobile = undefined;
@@ -314,7 +314,7 @@ export function setIsMobile(req) {
 }
 ```
 
-> <FontIcon icon="fas fa-folder-open"/>`server/`<FontIcon icon="fa-brands fa-js"/>`mediaMiddleware.js`
+> <VPIcon icon="fas fa-folder-open"/>`server/`<VPIcon icon="fa-brands fa-js"/>`mediaMiddleware.js`
 
 ```js
 import { setIsMobile } from "./media.js";
@@ -348,7 +348,7 @@ export async function mediaMiddleware(req, res, next) {
 
 ### AsyncLocalStorage를 활용해 개별적인 컨텍스트를 가지게 만들어봅시다.
 
-그렇다면 저희가 사용하는 <FontIcon icon="fa-brands fa-node"/>Node.js 서버 환경에서 파일 변수를 활용할 수 없는 걸까요? 현재 문제는 ‘모든 유저가 동일한 브라우저(컨텍스트)를 사용한다’라는 곳에서 출발하므로, 각 유저가 서버에 접근할 때마다 각기 다른 브라우저를 새로 띄워 사용하도록 구현한다면 문제가 해결될 것 같은데요. Node.js가 16.4 버전 이후부터 정식 기능으로 제공하는 클래스 중 하나인 **AsyncLocalStorage** 를 사용하면 이 문제를 해결할 수 있습니다.
+그렇다면 저희가 사용하는 <VPIcon icon="fa-brands fa-node"/>Node.js 서버 환경에서 파일 변수를 활용할 수 없는 걸까요? 현재 문제는 ‘모든 유저가 동일한 브라우저(컨텍스트)를 사용한다’라는 곳에서 출발하므로, 각 유저가 서버에 접근할 때마다 각기 다른 브라우저를 새로 띄워 사용하도록 구현한다면 문제가 해결될 것 같은데요. Node.js가 16.4 버전 이후부터 정식 기능으로 제공하는 클래스 중 하나인 **AsyncLocalStorage** 를 사용하면 이 문제를 해결할 수 있습니다.
 
 ::: info
 
@@ -368,11 +368,11 @@ Node.js의 공식 문서를 보면 AsyncLocalStorage에 대해 다음과 같이 
 
 ![many browser many user](https://fe-developers.kakaoent.com/static/06cdd17f2812f5d5b7364cce4e93c608/8cdda/many-browser-many-user.png)
 
-AsyncLocalStorage는 <FontIcon icon="iconfont icon-nextjs"/>`Next.js` 프레임워크 자체에서도 서버 사이드의 headers, cookies 등을 접근할 때 [활용하고 있을만큼 (<FontIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/blob/ea124072571f1b12452a3ae6e4ac6825a74af8bc/packages/next/src/client/components/request-async-storage.external.ts#L1) 현업에서 활발하게 사용되고 있는 기술입니다.
+AsyncLocalStorage는 <VPIcon icon="iconfont icon-nextjs"/>`Next.js` 프레임워크 자체에서도 서버 사이드의 headers, cookies 등을 접근할 때 [활용하고 있을만큼 (<VPIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/blob/ea124072571f1b12452a3ae6e4ac6825a74af8bc/packages/next/src/client/components/request-async-storage.external.ts#L1) 현업에서 활발하게 사용되고 있는 기술입니다.
 
 위의 잘못된 파일 변수 예제를 AsyncLocalStorage를 활용해서 다시 구현해 봅시다.
 
-> <FontIcon icon="fas fa-folder-open"/>`server/`<FontIcon icon="fa-brands fa-js"/>`media.js`
+> <VPIcon icon="fas fa-folder-open"/>`server/`<VPIcon icon="fa-brands fa-js"/>`media.js`
 
 ```js
 import {AsyncLocalStorage} from 'async_hooks';
@@ -388,7 +388,7 @@ export function setIsMobile(_isMobile, callback) {
 }
 ```
 
-> <FontIcon icon="fas fa-folder-open"/>`server/`<FontIcon icon="fa-brands fa-js"/>`mediaMiddleware.js`
+> <VPIcon icon="fas fa-folder-open"/>`server/`<VPIcon icon="fa-brands fa-js"/>`mediaMiddleware.js`
 
 ```js
 import { setIsMobile } from "./media.js";
@@ -400,7 +400,7 @@ export async function mediaMiddleware(req, res, next) {
 }
 ```
 
-우선 <FontIcon icon="fa-brands fa-js"/>`media.js` 라는 파일에 `AsyncLocalStorage` 라는 클래스의 인스턴스를 생성한 후, 이를 `isMobile`이라는 파일 변수로 관리합니다. `getStore` 함수는 `AsyncLocalStorage`에 저장된 값을 꺼내기 위해 사용되므로 이 기능을 사용해 getter 함수인 getIsMobile 함수를 구현합니다.
+우선 <VPIcon icon="fa-brands fa-js"/>`media.js` 라는 파일에 `AsyncLocalStorage` 라는 클래스의 인스턴스를 생성한 후, 이를 `isMobile`이라는 파일 변수로 관리합니다. `getStore` 함수는 `AsyncLocalStorage`에 저장된 값을 꺼내기 위해 사용되므로 이 기능을 사용해 getter 함수인 getIsMobile 함수를 구현합니다.
 
 setter 함수인 `setIsMobile`에서 사용된 run 함수는 `AsyncLocalStorage`에 저장할 값을 첫 번째 인자로 받고, 콜백 함수를 두 번째 인자로 받습니다. 콜백 함수를 받는 이유는 `AsyncLocalStorage`가 컨텍스트 저장소를 관리하는 방식 때문인데, 이 저장소는 주어진 콜백 함수로부터 생성된 비동기 작업에 대해서만 접근이 가능합니다. 즉, 이미 run 함수를 호출해 `AsyncLocalStorage` 저장소에 특정 값을 저장했다고 하더라도 콜백 함수로부터 파생된 작업이 아닌 외부 작업이라면 저장소에 접근하지 못합니다.
 
@@ -504,9 +504,9 @@ export async function mediaMiddleware(req, res, next) {
 }
 ```
 
-문제는 서버에서 Request 헤더의 값을 보고 판단한 `isMobile` 값을 클라이언트 사이드와 공유할 수 있는 방법입니다. 클라이언트의 `window.navigator.userAgent` 값을 활용하지 않는 것이 우리의 목표니까요. 방법에는 여러 가지가 있겠지만, 이 글에서는 <FontIcon icon="iconfont icon-nextjs"/>Next.js의 `_document`를 활용하는 방법을 소개하겠습니다.
+문제는 서버에서 Request 헤더의 값을 보고 판단한 `isMobile` 값을 클라이언트 사이드와 공유할 수 있는 방법입니다. 클라이언트의 `window.navigator.userAgent` 값을 활용하지 않는 것이 우리의 목표니까요. 방법에는 여러 가지가 있겠지만, 이 글에서는 <VPIcon icon="iconfont icon-nextjs"/>Next.js의 `_document`를 활용하는 방법을 소개하겠습니다.
 
-**_document**는 <FontIcon icon="iconfont icon-nextjs"/>Next.js가 서버 환경에서 HTML을 렌더링할 때 `<html>`과 `<body>` 태그를 업데이트하는 기능을 제공해 줍니다. 그리고 _document 내의 로직은 어디까지나 서버 환경에서 실행되기 때문에, 유저의 Request 정보를 가져오고 또 조작하는 것도 가능합니다.
+**_document**는 <VPIcon icon="iconfont icon-nextjs"/>Next.js가 서버 환경에서 HTML을 렌더링할 때 `<html>`과 `<body>` 태그를 업데이트하는 기능을 제공해 줍니다. 그리고 _document 내의 로직은 어디까지나 서버 환경에서 실행되기 때문에, 유저의 Request 정보를 가져오고 또 조작하는 것도 가능합니다.
 
 따라서 아래와 같이 미들웨어에서 isMobile 여부를 유저의 request 객체에 저장하는 코드를 추가하고,
 
@@ -531,7 +531,7 @@ export async function mediaMiddleware(req, res, next) {
 
 :::
 
-> <FontIcon icon="fa-brands fa-react"/>`_document.tsx`
+> <VPIcon icon="fa-brands fa-react"/>`_document.tsx`
 
 ```tsx
 class MyDocument extends Document {
@@ -567,7 +567,7 @@ class MyDocument extends Document {
 
 window 객체에 isMobile을 추가했다면 이제 거의 다 왔습니다. 클라이언트 사이드에서 파일 변수를 초기화하기 위해 모든 페이지에 대해 항상 우선으로 실행되는 `_app`에서 다음과 같이 클라이언트 setter 함수를 호출할 수도 있습니다.
 
-> <FontIcon icon="fa-brands fa-react"/>`_app.tsx`
+> <VPIcon icon="fa-brands fa-react"/>`_app.tsx`
 
 ```tsx
 import { isMobile } from "./media.js";
@@ -605,7 +605,7 @@ window 객체에서 isMobile 값을 한 번 꺼낸 이후에는 다시 해당 �
 
 이로써 우리는 서버와 클라이언트에서 파일 변수가 같은 값을 가질 수 있도록 구현했으며, 클라이언트 사이드인지 서버 사이드인지를 전혀 신경 쓰지 않고 어디에서든지 `getIsMobile()` 함수만 호출하면 동일한 파일 변수 값을 참조할 수 있게 되었습니다. 환경에 상관없이 파일 변수를 자유롭게 다룰 수 있게 되었습니다.
 
-> <FontIcon icon="fas fa-folder-open"/>`server/`<FontIcon icon="fa-brands fa-js"/>`some-middleware.js`
+> <VPIcon icon="fas fa-folder-open"/>`server/`<VPIcon icon="fa-brands fa-js"/>`some-middleware.js`
 
 ```js
 import { getIsMobile } from "./media.js";
@@ -621,7 +621,7 @@ export async function someMiddleware(req, res, next) {
 }
 ```
 
-> <FontIcon icon="fas fa-folder-open"/>`client/`someComponent.js
+> <VPIcon icon="fas fa-folder-open"/>`client/`someComponent.js
 
 ```js
 import { getIsMobile } from "./media.js";

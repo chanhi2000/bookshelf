@@ -82,7 +82,7 @@ isOriginal: false
 }
 ```
 
-The size of the viewport that's used to render a webpage in a browser can be very important at times, such as when creating or debugging [<FontIcon icon="fa-brands fa-firefox"/>media queries](https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Using_media_queries).
+The size of the viewport that's used to render a webpage in a browser can be very important at times, such as when creating or debugging [<VPIcon icon="fa-brands fa-firefox"/>media queries](https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
 You can easily know what the current size of the viewport is in DevTools. Here are two ways to do it.
 
@@ -105,31 +105,31 @@ You can also see the size of the viewport[^1] in the page directly:
 
 ::: tabs
 
-@tab <FontIcon icon="fa-brands fa-chrome"/>Chrome or <FontIcon icon="fa-brands fa-edge"/>Edge
+@tab <VPIcon icon="fa-brands fa-chrome"/>Chrome or <VPIcon icon="fa-brands fa-edge"/>Edge
 
 1. Open DevTools.
 2. Focus your attention in the top-right corner of the webpage, and then resize the browser window (or the DevTools panel).
 The viewport size appears as a temporary overlay, in the top-right corner of the webpage:
 
-![<FontIcon icon="fa-brands fa-chrome"/>Chrome, with DevTools opened, the viewport size overlay appears in the rendered webpage](https://devtoolstips.org/assets/img/see-viewport-size-chrome.png)
+![<VPIcon icon="fa-brands fa-chrome"/>Chrome, with DevTools opened, the viewport size overlay appears in the rendered webpage](https://devtoolstips.org/assets/img/see-viewport-size-chrome.png)
 
-@tab <FontIcon icon="fa-brands fa-firefox-browser"/>Firefox
+@tab <VPIcon icon="fa-brands fa-firefox-browser"/>Firefox
 
 1. Open DevTools and go to the **Settings** panel (<kbd>F1</kbd>).
-2. Under <FontIcon icon="iconfont icon-select"/>`[Available Toolbox]` Buttons, select the <FontIcon icon="iconfont icon-select"/>`[Toggle rulers for the page]` setting.<br/>The **Toggle rulers for the page** icon appears in the DevTools toolbar.
+2. Under <VPIcon icon="iconfont icon-select"/>`[Available Toolbox]` Buttons, select the <VPIcon icon="iconfont icon-select"/>`[Toggle rulers for the page]` setting.<br/>The **Toggle rulers for the page** icon appears in the DevTools toolbar.
 3. Click the ruler icon to display rulers in the webpage.<br/> In addition to the top and left rulers which now are visible in the webpage, the viewport size is displayed in an overlay, in the top-right corner of the webpage.
 
-![<FontIcon icon="fa-brands fa-firefox-browser"/>Firefox, with DevTools opened, the viewport size overlay appears in the rendered webpage](https://devtoolstips.org/assets/img/see-viewport-size-firefox.png)
+![<VPIcon icon="fa-brands fa-firefox-browser"/>Firefox, with DevTools opened, the viewport size overlay appears in the rendered webpage](https://devtoolstips.org/assets/img/see-viewport-size-firefox.png)
 
-@tab <FontIcon icon="fa-brands fa-safari"/>Safari
+@tab <VPIcon icon="fa-brands fa-safari"/>Safari
 
 1. Open Web Inspector and go to the **Elements** tool.
 2. Hover over any node displayed in the DOM tree of the tool.
 On hover, rulers and the viewport size appear in the page temporarily.
 
-You can also click the <FontIcon icon="iconfont icon-select"/>`[Show rulers]` icon in the toolbar of the **Elements** tool to make the rulers and viewport size overlay permanent.
+You can also click the <VPIcon icon="iconfont icon-select"/>`[Show rulers]` icon in the toolbar of the **Elements** tool to make the rulers and viewport size overlay permanent.
 
-![<FontIcon icon="fa-brands fa-safari"/>Safari, with Inspector opened, the viewport size overlay appears in the rendered webpage](https://devtoolstips.org/assets/img/see-viewport-size-safari.png)
+![<VPIcon icon="fa-brands fa-safari"/>Safari, with Inspector opened, the viewport size overlay appears in the rendered webpage](https://devtoolstips.org/assets/img/see-viewport-size-safari.png)
 
 @tab Polypane
 

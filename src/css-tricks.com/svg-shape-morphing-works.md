@@ -54,13 +54,13 @@ While [**animating SVG with CSS**](/css-tricks.com/animating-svg-css.md) is easy
 
 ::: note Update
 
-This post is all about SVG shape morphing with SMIL. SMIL has an uncertain (likely not good) future. If you’re super interested in shape morphing (which you should be, it’s awesome!) I recommend checking out [<FontIcon icon="fas fa-globe"/>GreenSock’s MorphSVG plugin](https://greensock.com/morphSVG), which doesn’t require SMIL and is far more powerful as it can morph between shapes regardless of number of points, type of element, and cross-browser.
+This post is all about SVG shape morphing with SMIL. SMIL has an uncertain (likely not good) future. If you’re super interested in shape morphing (which you should be, it’s awesome!) I recommend checking out [<VPIcon icon="fas fa-globe"/>GreenSock’s MorphSVG plugin](https://greensock.com/morphSVG), which doesn’t require SMIL and is far more powerful as it can morph between shapes regardless of number of points, type of element, and cross-browser.
 
 :::
 
 ::: note Another update
 
-Chrome has started to allow shape morphing through CSS. [Here’s a Pen (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/NRwANp) that demonstrates that. It’s even more limiting than SMIL though, being limited to the one browser and requiring a path with an identical number of points. Also not hardware accelerated, like all SVG.
+Chrome has started to allow shape morphing through CSS. [Here’s a Pen (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/NRwANp) that demonstrates that. It’s even more limiting than SMIL though, being limited to the one browser and requiring a path with an identical number of points. Also not hardware accelerated, like all SVG.
 
 :::
 
@@ -159,7 +159,7 @@ This demo actually has four animations. One to morph the star to a check, one to
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Would be pretty cool for charts, like this [<FontIcon icon="fas fa-globe"/>old Raphael demo](http://raphaeljs.com/chart.html):
+Would be pretty cool for charts, like this [<VPIcon icon="fas fa-globe"/>old Raphael demo](http://raphaeljs.com/chart.html):
 
 ![](https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/chart.gif)
 

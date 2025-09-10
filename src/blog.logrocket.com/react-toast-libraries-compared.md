@@ -93,7 +93,7 @@ We will compare these React libraries based on their features, usage, variants, 
 
 ## React Hot Toast
 
-[React Hot Toast (<FontIcon icon="iconfont icon-github"/>`timolins/react-hot-toast`)](https://github.com/timolins/react-hot-toast) is a lightweight and high-performance toast notification library. It has a straightforward API that makes it easy to use, and it is customizable so that you can style and configure the notifications to match your needs:
+[React Hot Toast (<VPIcon icon="iconfont icon-github"/>`timolins/react-hot-toast`)](https://github.com/timolins/react-hot-toast) is a lightweight and high-performance toast notification library. It has a straightforward API that makes it easy to use, and it is customizable so that you can style and configure the notifications to match your needs:
 
 ![React Hot Toast Notifications](/assets/image/blog.logrocket.com/react-toast-libraries-compared/react-hot-toast-notifications.png)
 
@@ -252,7 +252,7 @@ toast.dismiss() // this will dismiss all toasts at once
 
 React Hot Toast offer simple yet extensive customization options that allow you to tailor your toasts based on your project’s requirements.
 
-In addition to its high customizability, React Hot Toast also has [<FontIcon icon="fas fa-globe"/>well-structured documentation](https://react-hot-toast.com/docs), which provides more information about API usage, other components like `Toaster` and `ToastBar`, custom hook creation, and the internal API state, which is definitely worth exploring.
+In addition to its high customizability, React Hot Toast also has [<VPIcon icon="fas fa-globe"/>well-structured documentation](https://react-hot-toast.com/docs), which provides more information about API usage, other components like `Toaster` and `ToastBar`, custom hook creation, and the internal API state, which is definitely worth exploring.
 
 :::
 
@@ -260,7 +260,7 @@ In addition to its high customizability, React Hot Toast also has [<FontIcon ico
 
 ## NotiStack
 
-The [<FontIcon icon="fas fa-globe"/>NotiStack](https://notistack.com/) library refers to the notifications it generates as “snackbars,” a term particularly fitting for mobile app contexts. However, the library offers a wide array of customization options, granting you the flexibility to decide whether to maintain the toast-like behavior for your notifications or elevate them further to full-fledged snackbars.
+The [<VPIcon icon="fas fa-globe"/>NotiStack](https://notistack.com/) library refers to the notifications it generates as “snackbars,” a term particularly fitting for mobile app contexts. However, the library offers a wide array of customization options, granting you the flexibility to decide whether to maintain the toast-like behavior for your notifications or elevate them further to full-fledged snackbars.
 
 NotiStack excels in performance, efficiently handling numerous on-screen notifications, making it perfect for chat apps or social media apps. Its flexibility allows it to display a variety of notifications, with customization options for positioning, style, and animation:
 
@@ -420,7 +420,7 @@ Here’s a quick demo for using the NotiStack library:
 
 ## React-Toastify
 
-[React-Toastify (<FontIcon icon="iconfont icon-github"/>`fkhadra/react-toastify`)](https://github.com/fkhadra/react-toastify) offers unique features such as enhanced customization, bidirectional (RTL) language support, and additional mobile interactions.
+[React-Toastify (<VPIcon icon="iconfont icon-github"/>`fkhadra/react-toastify`)](https://github.com/fkhadra/react-toastify) offers unique features such as enhanced customization, bidirectional (RTL) language support, and additional mobile interactions.
 
 These features empower users to finely customize animations, positions, and durations; display notifications in different languages; and enable actions such as swiping to dismiss and tapping to open:
 
@@ -572,7 +572,7 @@ React-Toastify offers a greater variety of toast styles compared to the other li
 
 ## React Toast Notifications
 
-The [React Toast Notifications (<FontIcon icon="iconfont icon-github"/>`jossmac/react-toast-notifications`)](https://github.com/jossmac/react-toast-notifications) library shares some similarities with React Hot Toast and React-Toastify, but it stands out as the simplest option, requiring minimal setup:
+The [React Toast Notifications (<VPIcon icon="iconfont icon-github"/>`jossmac/react-toast-notifications`)](https://github.com/jossmac/react-toast-notifications) library shares some similarities with React Hot Toast and React-Toastify, but it stands out as the simplest option, requiring minimal setup:
 
 ![React Toast Notifications](/assets/image/blog.logrocket.com/react-toast-libraries-compared/react-toast-notifications.png)
 

@@ -117,7 +117,7 @@ It doesn't matter which node the traffic is coming from; `kube-proxy` knows wher
 
 **What happens when there's no rule to forward the traffic to?**
 
-[<FontIcon icon="fas fa-globe"/>Manabu Sakai had the same questions](https://blog.manabusakai.com/2018/02/fault-tolerance-of-kubernetes/). So he decided to find out.
+[<VPIcon icon="fas fa-globe"/>Manabu Sakai had the same questions](https://blog.manabusakai.com/2018/02/fault-tolerance-of-kubernetes/). So he decided to find out.
 
 Let's assume you have a 2 node cluster on GCP:
 
@@ -373,7 +373,7 @@ Soon after you drop the rules, you should keep executing `iptables -F` and notic
 
 Yes, it is.
 
-Digging in the [<FontIcon icon="iconfont icon-k8s"/>official documentation for `kube-proxy`](https://kubernetes.io/docs/reference/generated/kube-proxy/) reveals two interesting flags:
+Digging in the [<VPIcon icon="iconfont icon-k8s"/>official documentation for `kube-proxy`](https://kubernetes.io/docs/reference/generated/kube-proxy/) reveals two interesting flags:
 
 - `--iptables-sync-period` - The maximum interval of how often iptables rules are refreshed (e.g. '5s', '1m', '2h22m'). Must be greater than 0. (default 30s)
 - `--iptables-min-sync-period` - The minimum interval of how often the iptables rules can be refreshed as endpoints and services change (e.g. '5s', '1m', '2h22m'). (default 10s)
@@ -467,7 +467,7 @@ Dropping iptables rules is similar to make a node unavailable. The traffic is st
 
 Kubernetes can recover from a similar failure by monitoring the state of the routing rules and updating them when necessary.
 
-Many thanks to [Manabu Sakai (<FontIcon icon="fa-brands fa-linkedin"/>`manabusakai`)](https://twitter.com/manabusakai)'s blog post that was a huge inspiration and to [Valentin Ouvrard (<FontIcon icon="fa-brands fa-linkedin"/>`Valentin_NC`)](https://twitter.com/Valentin_NC) for investigating the issue with the iptables propagation.
+Many thanks to [Manabu Sakai (<VPIcon icon="fa-brands fa-linkedin"/>`manabusakai`)](https://twitter.com/manabusakai)'s blog post that was a huge inspiration and to [Valentin Ouvrard (<VPIcon icon="fa-brands fa-linkedin"/>`Valentin_NC`)](https://twitter.com/Valentin_NC) for investigating the issue with the iptables propagation.
 
 ---
 

@@ -59,7 +59,7 @@ In this article, I’ll show you some of my favorites **Vim tricks** with practi
 
 :::
 
-Even if I recently started to use [<FontIcon icon="fas fa-globe"/>Atom](https://atom.io/) more and more, I can hardly pass a day without using [<FontIcon icon="iconfont icon-vim"/>Vim](http://vim.org/). Not because I’m forced to. But because I feel that comfortable.
+Even if I recently started to use [<VPIcon icon="fas fa-globe"/>Atom](https://atom.io/) more and more, I can hardly pass a day without using [<VPIcon icon="iconfont icon-vim"/>Vim](http://vim.org/). Not because I’m forced to. But because I feel that comfortable.
 
 Yes,*comfortable*. A very strange word when talking about Vi or any of its clone isn’t it? And I agree, it is certainly not the most *intuitive* text editor.
 

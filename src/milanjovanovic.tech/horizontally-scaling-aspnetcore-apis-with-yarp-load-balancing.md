@@ -108,7 +108,7 @@ Horizontal scaling is where load balancing comes in, and YARP shines bright in t
 
 ## Adding a Reverse Proxy
 
-[<FontIcon icon="fa-brands fa-microsoft"/>YARP](https://microsoft.github.io/reverse-proxy/index.html) is a high-performance reverse proxy library from Microsoft. It's designed with modern microservice architectures in mind. A reverse proxy sits in front of your backend servers, acting as a traffic director.
+[<VPIcon icon="fa-brands fa-microsoft"/>YARP](https://microsoft.github.io/reverse-proxy/index.html) is a high-performance reverse proxy library from Microsoft. It's designed with modern microservice architectures in mind. A reverse proxy sits in front of your backend servers, acting as a traffic director.
 
 Setting up YARP is quite straightforward. You'll install the YARP NuGet package, create a basic configuration to define your backend destinations, and then activate the YARP middleware. YARP allows you to perform routing and transformation tasks on incoming requests before they reach your backend servers.
 
@@ -133,7 +133,7 @@ app.MapReverseProxy();
 app.Run();
 ```
 
-All that's left is adding the YARP configuration to our <FontIcon icon="iconfont icon-json"/>`appsettings.json` file. YARP uses `Routes` to represent incoming requests to the reverse proxy and `Clusters` to define the downstream services. The `{**catch-all}` pattern allows us to easily route all incoming requests.
+All that's left is adding the YARP configuration to our <VPIcon icon="iconfont icon-json"/>`appsettings.json` file. YARP uses `Routes` to represent incoming requests to the reverse proxy and `Clusters` to define the downstream services. The `{**catch-all}` pattern allows us to easily route all incoming requests.
 
 ```json
 {
@@ -166,7 +166,7 @@ This configures YARP as a pass-through proxy, but let's update it to support hor
 
 ## Scaling Out With YARP Load Balancing
 
-The core of horizontal scaling with YARP lies in its various [<FontIcon icon="fa-brands fa-microsoft"/>load balancing strategies](https://microsoft.github.io/reverse-proxy/articles/load-balancing.html):
+The core of horizontal scaling with YARP lies in its various [<VPIcon icon="fa-brands fa-microsoft"/>load balancing strategies](https://microsoft.github.io/reverse-proxy/articles/load-balancing.html):
 
 - `PowerOfTwoChoices`: Selects two random destinations and selects the one with the least assigned requests.
 - `FirstAlphabetical`: Selects the alphabetically first available destination server.
@@ -223,9 +223,9 @@ And now, let's do some performance testing.
 
 ## Performance Testing with K6
 
-To see the impact of our horizontal scaling efforts, we need to do some load testing. [<FontIcon icon="fas fa-globe"/>K6](https://k6.io/) is a modern, developer-friendly load testing tool. We'll write K6 scripts to simulate user traffic on our application and compare metrics like average response time and the number of successful requests per second.
+To see the impact of our horizontal scaling efforts, we need to do some load testing. [<VPIcon icon="fas fa-globe"/>K6](https://k6.io/) is a modern, developer-friendly load testing tool. We'll write K6 scripts to simulate user traffic on our application and compare metrics like average response time and the number of successful requests per second.
 
-The application we're going to scale horizontally has two API endpoints. The `POST /users` endpoint creates a new user, saves the user to a [<FontIcon icon="iconfont icon-postgresql"/>PostgreSQL](https://postgresql.org/) database, and returns the user's identifier. The `GET /users/id` endpoint returns a user with the given identifer if it exists.
+The application we're going to scale horizontally has two API endpoints. The `POST /users` endpoint creates a new user, saves the user to a [<VPIcon icon="iconfont icon-postgresql"/>PostgreSQL](https://postgresql.org/) database, and returns the user's identifier. The `GET /users/id` endpoint returns a user with the given identifer if it exists.
 
 Here's a k6 performance test that will:
 
@@ -266,7 +266,7 @@ export default function () {
 }
 ```
 
-To make the performance testing results more consistent, we can limit the available resources on the [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com) containers to `1 CPU` and `0.5G` of RAM.
+To make the performance testing results more consistent, we can limit the available resources on the [<VPIcon icon="fa-brands fa-docker"/>Docker](https://docker.com) containers to `1 CPU` and `0.5G` of RAM.
 
 ```yaml{4-5}
 services:
@@ -304,7 +304,7 @@ YARP is a powerful and user-friendly reverse proxy server for .NET applications.
 
 If you want to learn more, here's how to [build an API Gateway using YARP](/milanjovanovic.tech/implementing-an-api-gateway-for-microservices-with-yarp.md).
 
-You can find the [source code (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-load-balancing`)](https://github.com/m-jovanovic/yarp-load-balancing) for this example on GitHub.
+You can find the [source code (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-load-balancing`)](https://github.com/m-jovanovic/yarp-load-balancing) for this example on GitHub.
 
 <SiteInfo
   name="m-jovanovic/yarp-load-balancing"

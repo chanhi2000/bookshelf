@@ -73,7 +73,7 @@ This tutorial assumes you have basic Kotlin knowledge. If not, check out [Progra
 
 ## Getting Started
 
-Download the project materials by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, and open the sta**rter project.
+Download the project materials by clicking the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, and open the sta**rter project.
 
 Run the project, and you’ll notice it’s just a simple “Hello World” app. If you came here hoping to implement some cool app full of sequences everywhere, the sad truth is that you won’t even touch the app’s code.
 
@@ -81,7 +81,7 @@ Run the project, and you’ll notice it’s just a simple “Hello World” app.
 
 Instead, the project exists just so you can use it to create a **scratch file**. When working on a project, you may want to test or draft some code before actually proceeding to a proper implementation. A scratch file lets you do just that. It has both syntax highlighting and code completion. And the best part is, it can run your code right after you write it, letting you debug it as well!
 
-You’ll now create the scratch file where you’ll work. In Android Studio, go to <FontIcon icon="iconfont icon-select"/>`[File] ▸ [New] ▸ [Scratch File]`.
+You’ll now create the scratch file where you’ll work. In Android Studio, go to <VPIcon icon="iconfont icon-select"/>`[File] ▸ [New] ▸ [Scratch File]`.
 
 ![Creating a new scratch file by selecting it from the dropdown menu.](https://koenig-media.raywenderlich.com/uploads/2022/03/Untitled-557x500.png)
 
@@ -95,7 +95,7 @@ This opens your new scratch file. At the top, you have a few options to play wit
 
 ![Scratch file options.](https://koenig-media.raywenderlich.com/uploads/2022/02/Screenshot-2022-02-15-at-21.54.48.png)
 
-Make sure <FontIcon icon="iconfont icon-select"/>`[Interactive mode]` is checked. This runs any code you write after you stop typing for two seconds. The <FontIcon icon="iconfont icon-select"/>`[Use classpath of module]` option is pretty useful if you want to test something that uses code from a specific module. Since that’s not the case here, there’s no need to change it. Also, make sure to leave <FontIcon icon="iconfont icon-select"/>`[Use REPL]` unchecked, as that would run the code in Kotlin REPL, and there’s no need for that here.
+Make sure <VPIcon icon="iconfont icon-select"/>`[Interactive mode]` is checked. This runs any code you write after you stop typing for two seconds. The <VPIcon icon="iconfont icon-select"/>`[Use classpath of module]` option is pretty useful if you want to test something that uses code from a specific module. Since that’s not the case here, there’s no need to change it. Also, make sure to leave <VPIcon icon="iconfont icon-select"/>`[Use REPL]` unchecked, as that would run the code in Kotlin REPL, and there’s no need for that here.
 
 Look at your project structure, and you’ll notice that the scratch file is nowhere to be seen. This is because scratch files are **scoped to the IDE** rather than the project. You’ll find the scratch file by switching to the **Project** view under **Scratches and Consoles**.
 
@@ -279,7 +279,7 @@ You'll see the result printed on the top right side of the scratch file.
 
 ::: tip Note
 
-If you don't see anything, click the green <FontIcon icon="iconfont icon-select"/>`[play]` button — "run scratch file" — at the top of the file, next to the <FontIcon icon="iconfont icon-select"/>`[trash can]` — "clear results". Clicking the button cleans up all the output and runs the code again.
+If you don't see anything, click the green <VPIcon icon="iconfont icon-select"/>`[play]` button — "run scratch file" — at the top of the file, next to the <VPIcon icon="iconfont icon-select"/>`[trash can]` — "clear results". Clicking the button cleans up all the output and runs the code again.
 
 :::
 
@@ -298,7 +298,7 @@ val firstHundredEvenNaturalNumbers = naturalNumbersUpToTwoHundredMillion
 
 ::: tip Note
 
-Before doing this change, you may want to disable <FontIcon icon="iconfont icon-select"/>`[Interactive mode]`. Otherwise, if you happen to cut the `take(100)` line — with the intent of pasting it later — the IDE will run the code from the scratch file, and it'll take a while before you get any results. This is because `forEach` is a terminal operator, therefore, it'll iterate two hundred million elements.
+Before doing this change, you may want to disable <VPIcon icon="iconfont icon-select"/>`[Interactive mode]`. Otherwise, if you happen to cut the `take(100)` line — with the intent of pasting it later — the IDE will run the code from the scratch file, and it'll take a while before you get any results. This is because `forEach` is a terminal operator, therefore, it'll iterate two hundred million elements.
 
 :::
 
@@ -318,7 +318,7 @@ The long answer is a bit more complex. It _always_ depends on your use case. In 
 
 ### Element Operation Order
 
-In case you have the memory of a goldfish, remember that sequences operate on each element at a time. Collections, on the other hand, execute each operation for the whole collection, building an <FontIcon icon="iconfont icon-select"/>`[intermediate result]` before proceeding to the next operation. So, each collection operation creates an intermediate collection with its results, where the next operation will operate on:
+In case you have the memory of a goldfish, remember that sequences operate on each element at a time. Collections, on the other hand, execute each operation for the whole collection, building an <VPIcon icon="iconfont icon-select"/>`[intermediate result]` before proceeding to the next operation. So, each collection operation creates an intermediate collection with its results, where the next operation will operate on:
 
 ```kotlin
 val list = naturalNumbersUpToTwoHundredMillion
@@ -350,7 +350,7 @@ public fun Sequence.filter(predicate: (T) -> Boolean): Sequence {
 
 ::: tip Note
 
-You won't be able to properly check the implementation of `filter` in the scratch file. If you try, the IDE will show you a decompiled <FontIcon icon="fas fa-file-lines"/>`.class` file. For that reason, the final project has a Sequences.kt file with all the tutorial code, where you can easily check the inner workings of sequences. Or you can also check the [Jetbrains source code](https://github.com/JetBrains/kotlin/blob/v1.6.10/libraries/stdlib/common/src/generated/_Sequences.kt#L429).
+You won't be able to properly check the implementation of `filter` in the scratch file. If you try, the IDE will show you a decompiled <VPIcon icon="fas fa-file-lines"/>`.class` file. For that reason, the final project has a Sequences.kt file with all the tutorial code, where you can easily check the inner workings of sequences. Or you can also check the [Jetbrains source code](https://github.com/JetBrains/kotlin/blob/v1.6.10/libraries/stdlib/common/src/generated/_Sequences.kt#L429).
 
 :::
 
@@ -425,7 +425,7 @@ And again, while these might point you in the right direction, don't forget: You
 
 ## Where to Go From Here?
 
-You can download the completed project files by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+You can download the completed project files by clicking the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
 In this tutorial, you learned a lot about when to use sequences versus collections, but there's still a lot to learn about the topic.
 

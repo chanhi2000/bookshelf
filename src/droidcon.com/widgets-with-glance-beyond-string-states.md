@@ -56,19 +56,19 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_CRseHrplJF6Df_UEDsD73g-
 
 ::: note
 
-This the next in my series of blog posts all about widgets. Check out [Widgets with Glance: Blending in (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://medium.com/proandroiddev/widgets-with-glance-blending-in-ae1e52a6cb6f) and [Widgets with Glance: Standing out (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://medium.com/proandroiddev/widgets-with-glance-standing-out-33834eee2dee) for some Widget UI tricks and tips.
+This the next in my series of blog posts all about widgets. Check out [Widgets with Glance: Blending in (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://medium.com/proandroiddev/widgets-with-glance-blending-in-ae1e52a6cb6f) and [Widgets with Glance: Standing out (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://medium.com/proandroiddev/widgets-with-glance-standing-out-33834eee2dee) for some Widget UI tricks and tips.
 
 :::
 
-I have recently been working on an app ([Pay Day: Earnings Time Tracker (<FontIcon icon="fa-brands fa-play-store"/>`dev.veryniche.buckaroo`)](https://play.google.com/store/apps/details?id=dev.veryniche.buckaroo)) that includes a lot of widgets that show different types of data, but very quickly I came across a problem. The standard way of passing data to a widget uses`PreferencesGlanceStateDefinition`to manage the state. The way of setting state is using key & value pairs where the values are always`strings`. In my app I also needed`enums`&`float`values and was constantly converting to and from strings for many different data arguments and many different widget implementations. This became hard to manage and hard to read and a reusable and type safe solution was required.
+I have recently been working on an app ([Pay Day: Earnings Time Tracker (<VPIcon icon="fa-brands fa-play-store"/>`dev.veryniche.buckaroo`)](https://play.google.com/store/apps/details?id=dev.veryniche.buckaroo)) that includes a lot of widgets that show different types of data, but very quickly I came across a problem. The standard way of passing data to a widget uses`PreferencesGlanceStateDefinition`to manage the state. The way of setting state is using key & value pairs where the values are always`strings`. In my app I also needed`enums`&`float`values and was constantly converting to and from strings for many different data arguments and many different widget implementations. This became hard to manage and hard to read and a reusable and type safe solution was required.
 
-I had read about using a`CustomGlanceStateDefinition`but I couldn’t find much about it in the official[<FontIcon icon="fa-brands fa-android"/>documentation](https://developer.android.com/develop/ui/compose/glance/glance-app-widget)so here is my deep dive to hopefully help anyone else struggling with managing complex`GlanceWidget`state!
+I had read about using a`CustomGlanceStateDefinition`but I couldn’t find much about it in the official[<VPIcon icon="fa-brands fa-android"/>documentation](https://developer.android.com/develop/ui/compose/glance/glance-app-widget)so here is my deep dive to hopefully help anyone else struggling with managing complex`GlanceWidget`state!
 
 ---
 
 ## Basic widget state
 
-For the purposes of this article I have used a simpler[example (<FontIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/blog/CustomGlanceStateDefinition)that just displays a text quote. While this example probably could get away with just using the string based values, adding some structure to the model can enable better loading and error states.
+For the purposes of this article I have used a simpler[example (<VPIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/blog/CustomGlanceStateDefinition)that just displays a text quote. While this example probably could get away with just using the string based values, adding some structure to the model can enable better loading and error states.
 
 <SiteInfo
   name="KatieBarnett/MotivateMe"

@@ -133,7 +133,7 @@ The wrong examples would be
 
 We should mention that C# is a case-sensitive language so the **studentName** is not the same as the **StudentName**.
 
-The C# language has its own set of reserved words, so-called keywords. We can’t use them as a name for our variables. For the list of keywords, you can visit [<FontIcon icon="iconfont icon-csharp"/>keyword-list](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/).
+The C# language has its own set of reserved words, so-called keywords. We can’t use them as a name for our variables. For the list of keywords, you can visit [<VPIcon icon="iconfont icon-csharp"/>keyword-list](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/).
 
 But if for some reason we want to name our variable with a keyword, to avoid clashes, we can use the `@` sign in front of the name:
 

@@ -56,11 +56,11 @@ cover: /assets/image/code-maze.com/the-http-reference/banner.png
 
 This article contains all the reference to my HTTP series. This HTTP reference could be helpful if you need to quickly find what some HTTP status code means. It is also some kind of cheat sheet for myself because there is a lot of information to remember by heart. So I hope it is helpful to you too.
 
-Request Methods
+---
+
+## Request Methods
 
 List of HTTP Request methods (verbs).
-
-::: info Request Methods
 
 | Method | Description | Has body? |
 | --- | --- | --- |
@@ -238,8 +238,8 @@ Both HTTP request and HTTP response can contain header fields. These two tables 
   "title": "HTTP/1.1: Header Field Definitions",
   "desc": "This section defines the syntax and semantics of all standard HTTP/1.1 header fields. For entity-header fields, both sender and recipient refer to either the client or the server, depending on who sends and who receives the entity.",
   "link": "https://w3.org/Protocols/rfc2616/rfc2616-sec14.html/",
-  "logo": "",
-  "background": "rgba(244,245,255,0.2)"
+  "logo": "https://w3.org/favicon.ico",
+  "background": "rgba(47,93,149,0.2)"
 }
 ```
 
@@ -327,8 +327,6 @@ Everything mentioned in this reference article can be found in more detail in th
   "background": "rgba(244,245,255,0.2)"
 }
 ```
-
-:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -86,7 +86,7 @@ This approach offers additional value compared to other DI frameworks like Dagge
 
 ## Background
 
-Dependency injection is a core part of modern Android development, helping us build more modular, testable, and maintainable applications. [<FontIcon icon="fas fa-globe"/>Koin](https://insert-koin.io/) is a popular choice for DI in the Kotlin ecosystem, providing a lightweight and flexible solution.
+Dependency injection is a core part of modern Android development, helping us build more modular, testable, and maintainable applications. [<VPIcon icon="fas fa-globe"/>Koin](https://insert-koin.io/) is a popular choice for DI in the Kotlin ecosystem, providing a lightweight and flexible solution.
 
 One of the key advantages of Koin is its declarative approach to dependency configuration. Instead of relying on complex annotations or XML configurations, Koin allows you to define your dependencies using a simple and concise domain-specific language (DSL). This promotes clean, readable code and reduces boilerplate, making it easier to manage and maintain your application's dependency graph.
 
@@ -94,7 +94,7 @@ One of the key advantages of Koin is its declarative approach to dependency conf
 
 ## Empowering Kotlin Developers with Compile Safety
 
-While Koin's declarative DSL is a powerful feature, the framework also provides an annotation-based API that allows you to use the [<FontIcon icon="fas fa-globe"/>Kotlin Compiler](https://insert-koin.io/docs/reference/koin-annotations/start#ksp-options) to perform compile-time checks on your Koin configurations. This is achieved through the Koin Compiler Plugin and KSP, which provide options to:
+While Koin's declarative DSL is a powerful feature, the framework also provides an annotation-based API that allows you to use the [<VPIcon icon="fas fa-globe"/>Kotlin Compiler](https://insert-koin.io/docs/reference/koin-annotations/start#ksp-options) to perform compile-time checks on your Koin configurations. This is achieved through the Koin Compiler Plugin and KSP, which provide options to:
 
 ### 1. Check Koin Configuration at Compile Time
 
@@ -114,7 +114,7 @@ on your Koin module to verify your Koin configuration. This checks that all cons
 
 ![](https://blog.kotzilla.io/hs-fs/hubfs/Screenshot%202024-11-18%20at%2016.10.06.png?width=648&height=176&name=Screenshot%202024-11-18%20at%2016.10.06.png)  
 
-These compile safety features have been available to Koin users since the release of [<FontIcon icon="fas fa-globe"/>Koin Annotations 1.3.0](https://blog.kotzilla.io/koin-annotations-1.3.1?hsLang=en), but they do require manual setup and configuration.
+These compile safety features have been available to Koin users since the release of [<VPIcon icon="fas fa-globe"/>Koin Annotations 1.3.0](https://blog.kotzilla.io/koin-annotations-1.3.1?hsLang=en), but they do require manual setup and configuration.
 
 Now, having listened to your feedback, we want to make this level of type-safety accessible to all Kotlin developers using Koin for DI, directly within the IDE.
 
@@ -122,9 +122,9 @@ Now, having listened to your feedback, we want to make this level of type-safety
 
 ## Enter the Koin IDE Plugin
 
-We're excited to announce the upcoming release of the Koin IDE Plugin. This new tool will integrate directly with [<FontIcon icon="fa-brands fa-android"/>Android Studio](https://developer.android.com/studio) and [<FontIcon icon="iconfont icon-jetbrains"/>IntelliJ IDEA](https://jetbrains.com/idea/download/?section=mac), providing enhanced visibility and navigation of Koin configurations, as well as the powerful configuration checks.
+We're excited to announce the upcoming release of the Koin IDE Plugin. This new tool will integrate directly with [<VPIcon icon="fa-brands fa-android"/>Android Studio](https://developer.android.com/studio) and [<VPIcon icon="iconfont icon-jetbrains"/>IntelliJ IDEA](https://jetbrains.com/idea/download/?section=mac), providing enhanced visibility and navigation of Koin configurations, as well as the powerful configuration checks.
 
-The Koin IDE Plugin will be part of the broader [<FontIcon icon="fas fa-globe"/>Kotzilla Platform](https://kotzilla.io/), which also includes the [<FontIcon icon="fas fa-globe"/>Kotzilla SDK](https://doc.cloud-inject.io/docs/reference/mobile-sdk/setup_android) and the Kotzilla Console.
+The Koin IDE Plugin will be part of the broader [<VPIcon icon="fas fa-globe"/>Kotzilla Platform](https://kotzilla.io/), which also includes the [<VPIcon icon="fas fa-globe"/>Kotzilla SDK](https://doc.cloud-inject.io/docs/reference/mobile-sdk/setup_android) and the Kotzilla Console.
 
 ### Initial Feature Set
 

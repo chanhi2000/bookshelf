@@ -71,7 +71,7 @@ Developing Java web applications often requires that they can be deployed on mul
 
 Docker can simplify the process of building and maintaining develop environments for Java web applications by building custom images that application developers can create on demand and use for development, testing and debugging applications. We have recently published a tutorial for building a Java web application using containers and three popular Java IDEs. Docker enables developers to debug their code as it runs in containers. The tutorial covers setting up a debug session with an application server in Docker using IDEs that developers typically use such as Eclipse, IntelliJ IDEA and Netbeans. Developers can build the application, change code, and set breakpoints while the application is running in the container. The tutorials use a simple Spring MVC application to illustrate how use containers when developing Java applications
 
-The tutorial is available on GitHub in our [Docker Labs repository (<FontIcon icon="iconfont icon-github"/>`docker/labs`)](https://github.com/docker/labs/tree/master/developer-tools/java-debugging). These tutorials show you how to:
+The tutorial is available on GitHub in our [Docker Labs repository (<VPIcon icon="iconfont icon-github"/>`docker/labs`)](https://github.com/docker/labs/tree/master/developer-tools/java-debugging). These tutorials show you how to:
 
 - Configure Eclipse, IntelliJ, and Netbeans
 - Set-up the project
@@ -87,7 +87,7 @@ You can go to the tutorials, or follow along in these videos:
 
 The tutorial uses common stack components, but the Docker enables you to build development environments using components from different technology stacks. For most use cases, Docker provides a way to quickly create and deploy a consistent development environment in Java.
 
-Have any more tips or examples using Docker for with Java? Or other languages? Share them with the community by [contributing to the Docker Labs repository (<FontIcon icon="iconfont icon-github"/>`docker/labs`)](https://github.com/docker/labs/blob/master/contribute.md).
+Have any more tips or examples using Docker for with Java? Or other languages? Share them with the community by [contributing to the Docker Labs repository (<VPIcon icon="iconfont icon-github"/>`docker/labs`)](https://github.com/docker/labs/blob/master/contribute.md).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

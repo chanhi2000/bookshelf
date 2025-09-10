@@ -158,7 +158,7 @@ Now that we have a basic working app, let’s compare this solution to prop dril
 
 ## Solving prop drilling by using the Context API
 
-For those unfamiliar with [<FontIcon icon="fa-brands fa-react"/>the Context API](https://reactjs.org/docs/context.html), we’ll start with a quick overview of what it does.
+For those unfamiliar with [<VPIcon icon="fa-brands fa-react"/>the Context API](https://reactjs.org/docs/context.html), we’ll start with a quick overview of what it does.
 
 The Context API basically lets you broadcast your state/data to multiple components by wrapping them with a context provider. It then passes this state to the context provider using its value attribute. The children components can then tap into this provider using a context consumer or the `useContext` Hook when needed, and access the state provided by the context provider.
 
@@ -239,7 +239,7 @@ So, why is this a problem?
 
 Although we have completely solved the issue of prop drilling by introducing the Context API into our application, it doesn’t come without its own caveats, like problems with component reusability and performance.
 
-These caveats, although negligible in small-scale applications, can equally result in unwanted outcomes. The [<FontIcon icon="fa-brands fa-react"/>Context docs themselves](https://reactjs.org/docs/context.html#before-you-use-context) warn of these caveats:
+These caveats, although negligible in small-scale applications, can equally result in unwanted outcomes. The [<VPIcon icon="fa-brands fa-react"/>Context docs themselves](https://reactjs.org/docs/context.html#before-you-use-context) warn of these caveats:
 
 ::: note Before You Use Context
 
@@ -337,7 +337,7 @@ Let’s recall some advice from the creators of React that we’ve already seen 
 
 > If you only want to avoid passing some props through many levels, component composition is often a simpler solution than context.
 
-You might recognize this quote from the React docs I referenced earlier — it’s in [<FontIcon icon="fa-brands fa-react"/>the Context API section](https://reactjs.org/docs/context.html#before-you-use-context), to be exact.
+You might recognize this quote from the React docs I referenced earlier — it’s in [<VPIcon icon="fa-brands fa-react"/>the Context API section](https://reactjs.org/docs/context.html#before-you-use-context), to be exact.
 
 Newer React devs might wonder what “component composition” means. Component composition isn’t a newly added feature, I daresay it’s the fundamental principle behind React and many JavaScript frameworks.
 

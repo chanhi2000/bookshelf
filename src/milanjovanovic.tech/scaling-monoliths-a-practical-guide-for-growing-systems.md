@@ -102,9 +102,9 @@ This means:
 
 Load balancers are crucial in this architecture. Whether you call it an [**API Gateway**](/milanjovanovic.tech/implementing-an-api-gateway-for-microservices-with-yarp.md), Reverse Proxy, or Load Balancer, its job is to distribute traffic across your application instances. Popular choices include:
 
-- [<FontIcon icon="iconfont icon-nginx"/>nginx](https://nginx.org/en/): Powerful, open-source, great for custom configurations
-- [<FontIcon icon="fas fa-globe"/>YARP](https://microsoft.github.io/reverse-proxy/): Microsoft's .NET reverse proxy, great for .NET applications
-- Cloud: [<FontIcon icon="fa-brands fa-aws"/>AWS ALB](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html), [<FontIcon icon="iconfont icon-microsoftazure"/>Azure Application Gateway](https://learn.microsoft.com/en-us/azure/application-gateway/overview), [<FontIcon icon="iconfont icon-gcp"/>Google Cloud Load Balancing](https://cloud.google.com/load-balancing?hl=en)
+- [<VPIcon icon="iconfont icon-nginx"/>nginx](https://nginx.org/en/): Powerful, open-source, great for custom configurations
+- [<VPIcon icon="fas fa-globe"/>YARP](https://microsoft.github.io/reverse-proxy/): Microsoft's .NET reverse proxy, great for .NET applications
+- Cloud: [<VPIcon icon="fa-brands fa-aws"/>AWS ALB](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html), [<VPIcon icon="iconfont icon-microsoftazure"/>Azure Application Gateway](https://learn.microsoft.com/en-us/azure/application-gateway/overview), [<VPIcon icon="iconfont icon-gcp"/>Google Cloud Load Balancing](https://cloud.google.com/load-balancing?hl=en)
 
 ::: important Horizontal scaling provides several key benefits
 

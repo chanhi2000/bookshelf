@@ -80,13 +80,13 @@ Here's what I learned building this simple app, and how you can use the same pat
 
 ## What are GitHub Models?
 
-[<FontIcon icon="iconfont icon-github"/>GitHub Models](https://docs.github.com/en/github-models) is a service that provides access to AI models from OpenAI, Microsoft, Meta, and others through a single API. You get free tier access for prototyping (with rate limits), an interactive playground for testing prompts, and pay-per-use billing when you're ready for production.
+[<VPIcon icon="iconfont icon-github"/>GitHub Models](https://docs.github.com/en/github-models) is a service that provides access to AI models from OpenAI, Microsoft, Meta, and others through a single API. You get free tier access for prototyping (with rate limits), an interactive playground for testing prompts, and pay-per-use billing when you're ready for production.
 
 The models range from cost-effective options like **GPT-4o-mini** to more advanced models. Each model has different strengths - some excel at reasoning, others at code generation or creative writing.
 
 When you combine GitHub Models with .NET Aspire's orchestration, you get:
 
-- Automatic API key management via [<FontIcon icon="fa-brands fa-microsoft"/>external parameters](https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/external-parameters)
+- Automatic API key management via [<VPIcon icon="fa-brands fa-microsoft"/>external parameters](https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/external-parameters)
 - [**Service discovery**](/milanjovanovic.tech/how-dotnet-aspire-simplifies-service-discovery.md) between your components
 - Built-in [**health checks**](/milanjovanovic.tech/health-checks-in-asp-net-core.md) and [**telemetry**](/milanjovanovic.tech/introduction-to-distributed-tracing-with-opentelemetry-in-dotnet.md)
 - Consistent configuration patterns
@@ -114,7 +114,7 @@ builder.AddProject<Projects.GitHub_Models_Demo>("github-models-demo")
 
 Notice how the AI model sits alongside the external blog service. Both are resources that your main application depends on. Aspire handles the connection details - you just declare what you need.
 
-Make sure to install the [<FontIcon icon="fas fa-globe"/>Aspire.Hosting.GitHub.Models](https://nuget.org/packages/Aspire.Hosting.GitHub.Models) NuGet package to enable this integration.
+Make sure to install the [<VPIcon icon="fas fa-globe"/>Aspire.Hosting.GitHub.Models](https://nuget.org/packages/Aspire.Hosting.GitHub.Models) NuGet package to enable this integration.
 
 To call the GitHub Models inference API you need a personal access token with the `models:read` permission. When you call `AddGitHubModel`, Aspire automatically creates a parameter named `{resourceName}-gh-apikey` (for example, `ai-model-gh-apikey`)
 
@@ -142,7 +142,7 @@ builder
 
 That's it. No manual HTTP client configuration, no hardcoded endpoints. The `ai-model` name matches what you defined in the AppHost, and Aspire wires everything together.
 
-You'll need to install the [<FontIcon icon="fas fa-globe"/>Aspire.Azure.AI.Inference](https://nuget.org/packages/Aspire.Azure.AI.Inference) NuGet package to enable this integration. It also exposes an integration with [**MEAI**](/milanjovanovic.tech/working-with-llms-in-dotnet-using-microsoft-extensions-ai.md) using the `AddChatClient` method. This simplifies the process of interacting with LLMs in your applications.
+You'll need to install the [<VPIcon icon="fas fa-globe"/>Aspire.Azure.AI.Inference](https://nuget.org/packages/Aspire.Azure.AI.Inference) NuGet package to enable this integration. It also exposes an integration with [**MEAI**](/milanjovanovic.tech/working-with-llms-in-dotnet-using-microsoft-extensions-ai.md) using the `AddChatClient` method. This simplifies the process of interacting with LLMs in your applications.
 
 ---
 
@@ -165,7 +165,7 @@ public async Task<string> GetBlogContentAsync(string slug)
 }
 ```
 
-The `ExtractArticleContent` method (not shown) uses [<FontIcon icon="fas fa-globe"/>HtmlAgilityPack](https://nuget.org/packages/htmlagilitypack/) to pull out the main article text, stripping away navigation, ads, and other page elements.
+The `ExtractArticleContent` method (not shown) uses [<VPIcon icon="fas fa-globe"/>HtmlAgilityPack](https://nuget.org/packages/htmlagilitypack/) to pull out the main article text, stripping away navigation, ads, and other page elements.
 
 ### AI-Powered Categorization
 

@@ -71,7 +71,7 @@ This guide covers common scenarios and transformations to streamline your migrat
 
 Get it here 👇
 
-> [<FontIcon icon="fas fa-download"/>Download Cheat Sheet](https://share-eu1.hsforms.com/1OdTs0YwvRIO9yNagrrIa3A2b3ipg)
+> [<VPIcon icon="fas fa-download"/>Download Cheat Sheet](https://share-eu1.hsforms.com/1OdTs0YwvRIO9yNagrrIa3A2b3ipg)
 
 ---
 
@@ -265,7 +265,7 @@ class MyViewModel (
 
 Koin simplifies ViewModel injection by removing the need for explicit injection annotations. The `@KoinViewModel` annotation ensures that Koin understands the lifecycle of the ViewModel and provides the necessary dependencies.
 
-> [<FontIcon icon="fas fa-download"/>Download Cheat Sheet](https://share-eu1.hsforms.com/1OdTs0YwvRIO9yNagrrIa3A2b3ipg)
+> [<VPIcon icon="fas fa-download"/>Download Cheat Sheet](https://share-eu1.hsforms.com/1OdTs0YwvRIO9yNagrrIa3A2b3ipg)
 
 ---
 
@@ -330,7 +330,7 @@ In Koin, you need to explicitly declare and load your modules in the `startKoin`
 
 To allow for a progressive migration, you can bridge components between Hilt and Koin. This involves setting up both DI frameworks to coexist temporarily, enabling you to migrate parts of your codebase incrementally. This bridging approach allows you to gradually migrate your dependencies from Hilt to Koin without disrupting your entire codebase. It provides flexibility and reduces the risk of introducing errors during the migration process.
 
-> [<FontIcon icon="fas fa-download"/>Download Cheat Sheet](https://share-eu1.hsforms.com/1OdTs0YwvRIO9yNagrrIa3A2b3ipg)
+> [<VPIcon icon="fas fa-download"/>Download Cheat Sheet](https://share-eu1.hsforms.com/1OdTs0YwvRIO9yNagrrIa3A2b3ipg)
 
 ---
 
@@ -393,8 +393,8 @@ Migrating from Hilt to Koin can be straightforward if you approach it methodical
 - **Update Tests Alongside Component Migrations**: As you migrate your components, don't forget to update your tests. Ensure that your test setup uses Koin's testing utilities and that all dependencies are correctly mocked or provided.
 - **Verify Dependency Graph After Migration**: Once you've migrated a set of components or modules, take the time to verify the entire dependency graph to ensure everything is wired correctly.
 
-> [<FontIcon icon="fas fa-download"/>Download Cheat Sheet](https://share-eu1.hsforms.com/1OdTs0YwvRIO9yNagrrIa3A2b3ipg)
+> [<VPIcon icon="fas fa-download"/>Download Cheat Sheet](https://share-eu1.hsforms.com/1OdTs0YwvRIO9yNagrrIa3A2b3ipg)
 
-By following these tips, you'll be able to transition your project from Hilt to Koin smoothly. And don't forget to refer to [<FontIcon icon="fas fa-globe"/>Koin's official docs](https://insert-koin.io/docs/reference/koin-annotations/start/) for any advanced usage and detailed information that might help along the way.
+By following these tips, you'll be able to transition your project from Hilt to Koin smoothly. And don't forget to refer to [<VPIcon icon="fas fa-globe"/>Koin's official docs](https://insert-koin.io/docs/reference/koin-annotations/start/) for any advanced usage and detailed information that might help along the way.
 
 Happy Migration👋

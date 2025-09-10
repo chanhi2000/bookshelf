@@ -5,6 +5,10 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "composition-in-css", // 2025-09-08
+    "what-you-need-to-know-about-css-color-interpolation", // 2025-09-05
+    "should-the-css-light-dark-function-support-more-than-light-and-dark-values", // 2025-09-02
+    "css-elevator-a-pure-css-state-machine-with-floor-navigation", // 2025-08-29
     "a-radio-button-shopping-cart-trick", // 2025-08-27
     "getting-creative-with-images-in-long-form-content", // 2025-08-25
     "3d-layered-text-interactivity-and-dynamism", // 2025-08-22
@@ -229,6 +233,10 @@ export const template: SidebarInfoTemplate = {
       "3d-layered-text-interactivity-and-dynamism", // 2025-08-22
       "getting-creative-with-images-in-long-form-content", // 2025-08-25
       "a-radio-button-shopping-cart-trick", // 2025-08-27
+      "css-elevator-a-pure-css-state-machine-with-floor-navigation", // 2025-08-29
+      "should-the-css-light-dark-function-support-more-than-light-and-dark-values", // 2025-09-02
+      "what-you-need-to-know-about-css-color-interpolation", // 2025-09-05
+      "composition-in-css", // 2025-09-08
       // END: 2025css
       // END: css
     ]],[

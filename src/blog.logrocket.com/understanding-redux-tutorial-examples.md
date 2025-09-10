@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/understanding-redux-tutorial-examples/ba
 
 ::: note Editor’s note
 
-This React Redux tutorial was last updated by [<FontIcon icon="fas fa-globe"/>Rahul Chhodde](https://blog.logrocket.com/author/rahulchhodde/) on 17 October 2024 to revise the code examples, add a comparison between Redux, the Context API, and `useState`, and provide additional details on Redux middleware. You can find the project’s source code in this [GitHub repository (<FontIcon icon="iconfont icon-github"/>`c99rahul/ts-react-redux`)](https://github.com/c99rahul/ts-react-redux).
+This React Redux tutorial was last updated by [<VPIcon icon="fas fa-globe"/>Rahul Chhodde](https://blog.logrocket.com/author/rahulchhodde/) on 17 October 2024 to revise the code examples, add a comparison between Redux, the Context API, and `useState`, and provide additional details on Redux middleware. You can find the project’s source code in this [GitHub repository (<VPIcon icon="iconfont icon-github"/>`c99rahul/ts-react-redux`)](https://github.com/c99rahul/ts-react-redux).
 
 :::
 
@@ -72,7 +72,7 @@ Redux is a predictable state container designed to help you write JavaScript app
 
 But is Redux part of React? No — although it’s commonly used as a state management tool with React, you can use Redux with any other JavaScript framework or library. The core Redux library is lightweight, weighing about 2kB (including dependencies), so you don’t have to worry about it making your application’s asset size bigger.
 
-With Redux, the state of your application is kept in a centralized store, from where any component can access the state it needs. If you are new to Redux, [<FontIcon icon="fa-brands fa-youtube"/>this video](https://youtu.be/5yEG6GhoJBs) is a great resource for beginners.
+With Redux, the state of your application is kept in a centralized store, from where any component can access the state it needs. If you are new to Redux, [<VPIcon icon="fa-brands fa-youtube"/>this video](https://youtu.be/5yEG6GhoJBs) is a great resource for beginners.
 
 ---
 
@@ -216,7 +216,7 @@ But as the app grows, adding more such contexts and hooks will unnecessarily com
 
 Redux is indeed a great state management utility, especially for React-based apps. However, as mentioned before, it is known to add a lot of boilerplate to your application due to its verbose API.
 
-To cut down the boilerplate, Redux provides a handy extension, popularly known as the [<FontIcon icon="fas fa-globe"/>Redux Toolkit](https://redux-toolkit.js.org/), which is recommended for use in a React-Redux setup. We’ll cover the advantages of RTK and its utilities as we discuss the core concepts of Redux.
+To cut down the boilerplate, Redux provides a handy extension, popularly known as the [<VPIcon icon="fas fa-globe"/>Redux Toolkit](https://redux-toolkit.js.org/), which is recommended for use in a React-Redux setup. We’ll cover the advantages of RTK and its utilities as we discuss the core concepts of Redux.
 
 ---
 
@@ -226,7 +226,7 @@ The way Redux works is simple. There is a central store that holds the entire st
 
 There are five core Redux components — store, actions, reducers, dispatch, and selectors. Let’s briefly discuss what each of them does and form a working state management pattern together.
 
-To explain these components, we’ll implement a simple React component and manage its state using Redux. For simplicity, I’ll cover all the code in the article in JavaScript, however, [the main branch of this project on GitHub (<FontIcon icon="iconfont icon-github"/>`c99rahul/ts-react-redux`)](https://github.com/c99rahul/ts-react-redux) covers everything in TypeScript as well. For JavaScript-only code, [see the JavaScript branch (<FontIcon icon="iconfont icon-github"/>`c99rahul/ts-react-redux`)](https://github.com/c99rahul/ts-react-redux/tree/javascript).
+To explain these components, we’ll implement a simple React component and manage its state using Redux. For simplicity, I’ll cover all the code in the article in JavaScript, however, [the main branch of this project on GitHub (<VPIcon icon="iconfont icon-github"/>`c99rahul/ts-react-redux`)](https://github.com/c99rahul/ts-react-redux) covers everything in TypeScript as well. For JavaScript-only code, [see the JavaScript branch (<VPIcon icon="iconfont icon-github"/>`c99rahul/ts-react-redux`)](https://github.com/c99rahul/ts-react-redux/tree/javascript).
 
 ::: note
 
@@ -411,7 +411,7 @@ export const Counter = () => {
 };
 ```
 
-And that’s it! You now have a fully functional counter component with its states fully managed by Redux. Consider cloning [this project (<FontIcon icon="iconfont icon-github"/>`/c99rahul/ts-react-redux`)](https://github.com/c99rahul/ts-react-redux/) in your local environment and test it out yourself.
+And that’s it! You now have a fully functional counter component with its states fully managed by Redux. Consider cloning [this project (<VPIcon icon="iconfont icon-github"/>`/c99rahul/ts-react-redux`)](https://github.com/c99rahul/ts-react-redux/) in your local environment and test it out yourself.
 
 ---
 
@@ -454,7 +454,7 @@ Once you get comfortable with Redux and its core concepts, consider implementing
 
 ## Redux middleware
 
-Redux allows developers to intercept all actions dispatched from components before they are passed to the `reducer` function. This interception is done via [<FontIcon icon="fas fa-globe"/>middleware](https://redux.js.org/understanding/history-and-design/middleware) functions, which can help you modify the intercepted actions, dispatch new actions, or perform side effects as and when required.
+Redux allows developers to intercept all actions dispatched from components before they are passed to the `reducer` function. This interception is done via [<VPIcon icon="fas fa-globe"/>middleware](https://redux.js.org/understanding/history-and-design/middleware) functions, which can help you modify the intercepted actions, dispatch new actions, or perform side effects as and when required.
 
 A middleware function receives the `next` method as an argument, which it can call to pass the action to the next middleware or reducer. It can process the action before and or after calling next, modify the action, dispatch additional actions, or even decide not to call next at all — it’s totally up to the task at hand.
 
@@ -481,7 +481,7 @@ Let’s look at more such pre-made middleware solutions for Redux that allow adv
 
 ### Redux Thunk
 
-[Redux Thunk (<FontIcon icon="iconfont icon-github"/>`reduxjs/redux-thunk`)](https://github.com/reduxjs/redux-thunk) is the simplest and most commonly used middleware for handling asynchronous logic. It’s super easy to understand and implement, great for making simple API calls and async logic, and requires no additional learning curve if you are familiar with asynchronous JavaScript:
+[Redux Thunk (<VPIcon icon="iconfont icon-github"/>`reduxjs/redux-thunk`)](https://github.com/reduxjs/redux-thunk) is the simplest and most commonly used middleware for handling asynchronous logic. It’s super easy to understand and implement, great for making simple API calls and async logic, and requires no additional learning curve if you are familiar with asynchronous JavaScript:
 
 ```js
 const fetchUserWithThunk = (id) => {
@@ -501,7 +501,7 @@ Despite being simple to implement, thunks may lead to complex, nested action cre
 
 ### Redux Saga
 
-[Redux Saga (<FontIcon icon="iconfont icon-github"/>`redux-saga/redux-saga`)](https://github.com/redux-saga/redux-saga) uses [**generator functions**](/blog.logrocket.com/javascript-iterators-and-generators-a-complete-guide.md) to manage side effects in Redux. The code below illustrates the use of `yield put`, which basically acts as the Saga effect creator used to dispatch actions to the Redux store:
+[Redux Saga (<VPIcon icon="iconfont icon-github"/>`redux-saga/redux-saga`)](https://github.com/redux-saga/redux-saga) uses [**generator functions**](/blog.logrocket.com/javascript-iterators-and-generators-a-complete-guide.md) to manage side effects in Redux. The code below illustrates the use of `yield put`, which basically acts as the Saga effect creator used to dispatch actions to the Redux store:
 
 ```js
 function* fetchUserSaga(action) {
@@ -521,7 +521,7 @@ However, it can be overkill for simpler apps as it adds another layer of complex
 
 ### Redux Observable
 
-[Redux Observables (<FontIcon icon="iconfont icon-github"/>`redux-observable/redux-observable`)](https://github.com/redux-observable/redux-observable) use RxJS to create streams of actions that can be processed, transformed, and dispatched to the store:
+[Redux Observables (<VPIcon icon="iconfont icon-github"/>`redux-observable/redux-observable`)](https://github.com/redux-observable/redux-observable) use RxJS to create streams of actions that can be processed, transformed, and dispatched to the store:
 
 ```js
 const fetchUserEpic = (action$) => action$.pipe(

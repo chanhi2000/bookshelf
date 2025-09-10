@@ -64,7 +64,7 @@ This blog post was reviewed and updated with relevant information in June 2021.
 
 ![create react app set up guide](/assets/image/blog.logrocket.com/create-react-app-a-quick-setup-guide/banner.png)
 
-[<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`](https://github.com/facebook/create-react-app) is one of the most popular tools for creating a React app. Why?
+[<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`](https://github.com/facebook/create-react-app) is one of the most popular tools for creating a React app. Why?
 
 Because with just three dependencies, you get support for React, JSX, ES6, polyfills, a development server, auto prefixed CSS, tests, service workers, and much more.
 
@@ -85,14 +85,14 @@ npx create-react-app app-name
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 #Using yarn 0.25+
 yarn create react-app app-name
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 #Using npm init <initializer>
@@ -101,11 +101,11 @@ npm init react-app app-name
 
 :::
 
-These commands create a directory with the given app name of the app and an initial project structure (see the template [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md)), as well as install hundreds of packages as the dependencies.
+These commands create a directory with the given app name of the app and an initial project structure (see the template [here (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md)), as well as install hundreds of packages as the dependencies.
 
-Now, if you look at the generated <FontIcon icon="iconfont icon-json"/>`package.json` file, you’ll only see three dependencies: react, react-dom, and react-scripts.
+Now, if you look at the generated <VPIcon icon="iconfont icon-json"/>`package.json` file, you’ll only see three dependencies: react, react-dom, and react-scripts.
 
-react-scripts is the library that handles all the configuration and brings most of the dependencies of the project, like babel, ESlint, and webpack (if you’re curious, see the complete list in its [<FontIcon icon="iconfont icon-json"/>`package.json`](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/package.json) file).
+react-scripts is the library that handles all the configuration and brings most of the dependencies of the project, like babel, ESlint, and webpack (if you’re curious, see the complete list in its [<VPIcon icon="iconfont icon-json"/>`package.json`](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/package.json) file).
 
 Understanding react-scripts is the key to understanding the inner workings of Create React App.
 
@@ -113,7 +113,7 @@ Understanding react-scripts is the key to understanding the inner workings of Cr
 
 One of the advantages of having so few dependencies is that they are easy to both upgrade or downgrade.
 
-You only have to execute `npm install` with the flags `--save --save-exact` to specify the exact version. The <FontIcon icon="iconfont icon-json"/>`package.json` will be updated and the new versions of the dependencies downloaded.
+You only have to execute `npm install` with the flags `--save --save-exact` to specify the exact version. The <VPIcon icon="iconfont icon-json"/>`package.json` will be updated and the new versions of the dependencies downloaded.
 
 For example, to change to version 1.1.4 of react-scripts, execute:
 
@@ -122,15 +122,15 @@ npm install --save --save-exact react-scripts@1.1.4
 # or yarn add --exact react-scripts@1.1.4
 ```
 
-Also, don’t forget to consult the changelog of [react-scripts (<FontIcon icon="iconfont icon-json"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md) and [React (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/master/CHANGELOG.md) to look for breaking changes.
+Also, don’t forget to consult the changelog of [react-scripts (<VPIcon icon="iconfont icon-json"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md) and [React (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/master/CHANGELOG.md) to look for breaking changes.
 
 ### Configuring linting in Create React App and ESLint
 
-ESLint is configured by default (you can see the configuration [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/package.json)), and its output is shown in the terminal as well as the browser console.
+ESLint is configured by default (you can see the configuration [here (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/package.json)), and its output is shown in the terminal as well as the browser console.
 
-Officially, [you cannot override this configuration (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/issues/808). If you want to enforce a coding style, you can install and use [<FontIcon icon="iconfont icon-github"/>`jlongster/prettier`](https://github.com/jlongster/prettier) (it’s not integrated right now).
+Officially, [you cannot override this configuration (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/issues/808). If you want to enforce a coding style, you can install and use [<VPIcon icon="iconfont icon-github"/>`jlongster/prettier`](https://github.com/jlongster/prettier) (it’s not integrated right now).
 
-The only thing you can do is configure your code editor to report linting warnings by installing an ESLint plugin for your editor and adding a <FontIcon icon="fas fa-file-lines"/>`.eslintrc` file to the project root:
+The only thing you can do is configure your code editor to report linting warnings by installing an ESLint plugin for your editor and adding a <VPIcon icon="fas fa-file-lines"/>`.eslintrc` file to the project root:
 
 ```js
 {
@@ -140,7 +140,7 @@ The only thing you can do is configure your code editor to report linting warnin
 
 Or, you can add your custom rules to this file, but they will only work in your editor.
 
-Unofficially, you can use something like [react-app-rewired to override the default configuration (<FontIcon icon="fa-brands fa-medium"/>`adamdziendziel`)](https://medium.com/@adamdziendziel/custom-eslint-config-with-create-react-app-d6f66e8d61).
+Unofficially, you can use something like [react-app-rewired to override the default configuration (<VPIcon icon="fa-brands fa-medium"/>`adamdziendziel`)](https://medium.com/@adamdziendziel/custom-eslint-config-with-create-react-app-d6f66e8d61).
 
 ### Starting the application
 
@@ -159,16 +159,16 @@ In Mac, the app is opened in Chrome if it’s installed. Otherwise, like in othe
 
 In addition, errors are shown in the console terminal as well as the browser.
 
-You can see the whole start script [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/scripts/start.js).
+You can see the whole start script [here (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/scripts/start.js).
 
 ### Adding images andstyles
 
 You have two options when adding images, styles or by using other files (like fonts):
 
-- The <FontIcon icon="fas fa-folder-open"/>`src` folder, using the module system
-- The <FontIcon icon="fas fa-folder-open"/>`public` folder, as static assets
+- The <VPIcon icon="fas fa-folder-open"/>`src` folder, using the module system
+- The <VPIcon icon="fas fa-folder-open"/>`public` folder, as static assets
 
-Everything you place inside the <FontIcon icon="fas fa-folder-open"/>`src` folder will be handled by Webpack, which means the files will be minified and included in the bundle generated at build time.
+Everything you place inside the <VPIcon icon="fas fa-folder-open"/>`src` folder will be handled by Webpack, which means the files will be minified and included in the bundle generated at build time.
 
 This also means that the assets can be imported in JavaScript:
 
@@ -188,11 +188,11 @@ Importing images that are less than 10,000 bytes returns a data URI instead of a
 
 Another advantage of using this folder is that if you don’t reference the file correctly, or if you accidentally delete it, a compilation error is generated.
 
-On the other hand, you can also add files to the <FontIcon icon="fas fa-folder-open"/>`public` folder. However, you’ll miss the advantages described above because they will not be processed by webpack, they will only be copied into the <FontIcon icon="fas fa-folder-open"/>`build` folder.
+On the other hand, you can also add files to the <VPIcon icon="fas fa-folder-open"/>`public` folder. However, you’ll miss the advantages described above because they will not be processed by webpack, they will only be copied into the <VPIcon icon="fas fa-folder-open"/>`build` folder.
 
-Something else to keep in mind is that you cannot reference files inside the <FontIcon icon="fas fa-folder-open"/>`src` folder in the <FontIcon icon="fas fa-folder-open"/>`public` folder.
+Something else to keep in mind is that you cannot reference files inside the <VPIcon icon="fas fa-folder-open"/>`src` folder in the <VPIcon icon="fas fa-folder-open"/>`public` folder.
 
-However, to reference the files in the <FontIcon icon="fas fa-folder-open"/>`public` folder, you can use the variable `PUBLIC_URL` like this:
+However, to reference the files in the <VPIcon icon="fas fa-folder-open"/>`public` folder, you can use the variable `PUBLIC_URL` like this:
 
 ```jsx
 <img src="%PUBLIC_URL%/logo" alt="logo" />
@@ -218,19 +218,19 @@ You can define them using the terminal:
 
 ::: tabs
 
-@tab:active <FontIcon icon="fas fa-gears"/>
+@tab:active <VPIcon icon="fas fa-gears"/>
 
 ```batch
 SET "REACT_APP_TITLE=App" && npm start
 ```
 
-@tab <FontIcon icon="iconfont icon-powershell"/>
+@tab <VPIcon icon="iconfont icon-powershell"/>
 
 ```pwsh
 ($env:REACT_APP_TITLE = "App") -and (npm start)
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 #Linux and mac
@@ -257,7 +257,7 @@ render() {
 }
 ```
 
-Or in <FontIcon icon="fas fa-folder-open"/>`public/`<FontIcon icon="fa-brands fa-html5"/>`index.html`:
+Or in <VPIcon icon="fas fa-folder-open"/>`public/`<VPIcon icon="fa-brands fa-html5"/>`index.html`:
 
 ```js
 <title>%REACT_APP_TITLE%</title>
@@ -265,7 +265,7 @@ Or in <FontIcon icon="fas fa-folder-open"/>`public/`<FontIcon icon="fa-brands fa
 
 In addition to `NODE_ENV`, there are other predefined environment variables that you can set for development settings, like `BROWSER`, `HOST`, and `PORT`, as well as some production settings like `PUBLIC_URL` and `GENERATE_SOURCEMAP`.
 
-See the complete list [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md).
+See the complete list [here (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md).
 
 ### Proxying serverrequests
 
@@ -279,9 +279,9 @@ The first one is to run the back-end server on another port and make requests li
 fetch('http://localhost:5000/endpoint')
 ```
 
-With this approach, you need to set the [<FontIcon icon="fa-brands fa-wikipedia-w"/>CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) headers [<FontIcon icon="fas fa-globe"/>on your server](https://enable-cors.org/server_expressjs.html).
+With this approach, you need to set the [<VPIcon icon="fa-brands fa-wikipedia-w"/>CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) headers [<VPIcon icon="fas fa-globe"/>on your server](https://enable-cors.org/server_expressjs.html).
 
-The second one is to tell the development server to proxy any request to your back-end server by adding a proxy field to your <FontIcon icon="iconfont icon-json"/>`package.json` file. For example, using:
+The second one is to tell the development server to proxy any request to your back-end server by adding a proxy field to your <VPIcon icon="iconfont icon-json"/>`package.json` file. For example, using:
 
 ```json title="package.json"
 {
@@ -328,11 +328,11 @@ If this is not enough for you, a third option is to configure the proxy of each 
 }
 ```
 
-The configuration properties are the same as the ones supported by [<FontIcon icon="iconfont icon-github"/>`chimurai/http-proxy-middleware`](https://github.com/chimurai/http-proxy-middleware#options) or [<FontIcon icon="iconfont icon-github"/>`nodejitsu/node-http-proxy`](https://github.com/nodejitsu/node-http-proxy#options).
+The configuration properties are the same as the ones supported by [<VPIcon icon="iconfont icon-github"/>`chimurai/http-proxy-middleware`](https://github.com/chimurai/http-proxy-middleware#options) or [<VPIcon icon="iconfont icon-github"/>`nodejitsu/node-http-proxy`](https://github.com/nodejitsu/node-http-proxy#options).
 
 ### Configuring a progressive webapp
 
-A [<FontIcon icon="fa-brands fa-google"/>service worker](https://developers.google.com/web/fundamentals/primers/service-workers/) is registered in `src/index.js`. If you don’t want to enable it just remove the call to `registerServiceWorker()`.
+A [<VPIcon icon="fa-brands fa-google"/>service worker](https://developers.google.com/web/fundamentals/primers/service-workers/) is registered in `src/index.js`. If you don’t want to enable it just remove the call to `registerServiceWorker()`.
 
 The service worker is only enabled in the production version of the application. However, if the app has already been executed, the service worker will already be installed in the browser and should be removed using `unregister()`:
 
@@ -342,11 +342,11 @@ import { unregister } from './registerServiceWorker';
 
 Service workers require HTTPS (otherwise registration will fail, although the app will remain functional). However, to facilitate local testing, this doesn’t apply to localhost.
 
-A [<FontIcon icon="fa-brands fa-google"/>web app manifest](https://developers.google.com/web/fundamentals/web-app-manifest/) where you can configure the app name, icons and other metadata about your application is located at `public/manifest.json`.
+A [<VPIcon icon="fa-brands fa-google"/>web app manifest](https://developers.google.com/web/fundamentals/web-app-manifest/) where you can configure the app name, icons and other metadata about your application is located at `public/manifest.json`.
 
 ### Testing theapp
 
-Create React App uses [<FontIcon icon="fas fa-globe"/>Jest](https://facebook.github.io/jest/) as its test runner and [<FontIcon icon="iconfont icon-github"/>`jsdom/jsdom`](https://github.com/jsdom/jsdom) to provide browser global variables like `window` or `document`.
+Create React App uses [<VPIcon icon="fas fa-globe"/>Jest](https://facebook.github.io/jest/) as its test runner and [<VPIcon icon="iconfont icon-github"/>`jsdom/jsdom`](https://github.com/jsdom/jsdom) to provide browser global variables like `window` or `document`.
 
 Test files should follow any of these naming conventions:
 
@@ -359,18 +359,18 @@ Executing npm test will run the tests by executing the script:
 react-scripts test --env=jsdom
 ```
 
-You can see the complete script [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/scripts/test.js).
+You can see the complete script [here (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/scripts/test.js).
 
 The tests will be run in watch mode. Every time you save a file, the tests are re-run. However, this mode also includes an interactive command-line interface with an option to enter a test name pattern to avoid running all tests.
 
-If you just need to execute or configure something before running your tests, add it to the file <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-js"/>`setupTests.js`, which will be executed automatically before any test.
+If you just need to execute or configure something before running your tests, add it to the file <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-js"/>`setupTests.js`, which will be executed automatically before any test.
 
-If you need a coverage report, you can execute the command `npm test --coverage`, optionally configuring in the <FontIcon icon="iconfont icon-json"/>`package.json` file the options:
+If you need a coverage report, you can execute the command `npm test --coverage`, optionally configuring in the <VPIcon icon="iconfont icon-json"/>`package.json` file the options:
 
-- [<FontIcon icon="fas fa-globe"/>collectCoverageFrom](https://jestjs.io/docs/en/configuration.html#collectcoveragefrom-array) to indicate a set of files for which coverage information should be collected
-- [<FontIcon icon="fas fa-globe"/>coverageReporters](https://jestjs.io/docs/en/configuration.html#coveragereporters-array-string) to indicate formats when writing coverage reports
-- [<FontIcon icon="fas fa-globe"/>coverageThreshold](https://jestjs.io/docs/en/configuration.html#coveragethreshold-object) to configure minimum threshold enforcement for coverage results
-- [<FontIcon icon="fas fa-globe"/>snapshotSerializers](https://jestjs.io/docs/en/configuration.html#snapshotserializers-array-string) to specify a list of paths to functions that serialize values
+- [<VPIcon icon="fas fa-globe"/>collectCoverageFrom](https://jestjs.io/docs/en/configuration.html#collectcoveragefrom-array) to indicate a set of files for which coverage information should be collected
+- [<VPIcon icon="fas fa-globe"/>coverageReporters](https://jestjs.io/docs/en/configuration.html#coveragereporters-array-string) to indicate formats when writing coverage reports
+- [<VPIcon icon="fas fa-globe"/>coverageThreshold](https://jestjs.io/docs/en/configuration.html#coveragethreshold-object) to configure minimum threshold enforcement for coverage results
+- [<VPIcon icon="fas fa-globe"/>snapshotSerializers](https://jestjs.io/docs/en/configuration.html#snapshotserializers-array-string) to specify a list of paths to functions that serialize values
 
 For example:
 
@@ -399,11 +399,11 @@ You can create a production version of your app in the build directory with npm 
 react-scripts build
 ```
 
-You can see the complete script [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/scripts/build.js).
+You can see the complete script [here (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/scripts/build.js).
 
-After this, you may copy the content of this build directory to a web server or you use packages like [<FontIcon icon="iconfont icon-github"/>`indexzero/http-server`](https://github.com/indexzero/http-server) or [<FontIcon icon="iconfont icon-github"/>`zeit/serve`](https://github.com/zeit/serve) to test your application from that directory.
+After this, you may copy the content of this build directory to a web server or you use packages like [<VPIcon icon="iconfont icon-github"/>`indexzero/http-server`](https://github.com/indexzero/http-server) or [<VPIcon icon="iconfont icon-github"/>`zeit/serve`](https://github.com/zeit/serve) to test your application from that directory.
 
-One thing to take into account is that Create React App assumes that you will host your app at the server root. If this is not the case, you need to specify the homepage field in your <FontIcon icon="iconfont icon-json"/>`package.json` file so the correct root path can be inferred:
+One thing to take into account is that Create React App assumes that you will host your app at the server root. If this is not the case, you need to specify the homepage field in your <VPIcon icon="iconfont icon-json"/>`package.json` file so the correct root path can be inferred:
 
 ```json title="package.json"
 {
@@ -421,7 +421,7 @@ However, if you are not using a router with HTML5 pushState history API or not u
 "homepage": "."
 ```
 
-In the user manual of Create React App, [<FontIcon icon="fa-brands fa-reaft"/>you can find instructions to deploy your app](https://create-react-app.dev/docs/deployment/) using:
+In the user manual of Create React App, [<VPIcon icon="fa-brands fa-reaft"/>you can find instructions to deploy your app](https://create-react-app.dev/docs/deployment/) using:
 
 - Express
 - Azure
@@ -443,15 +443,15 @@ Here’s an extract of the output:
 
 ![create react app npm output](https://storage.googleapis.com/blog-images-backup/0*4msZVtYhbYoIRDo1)
 
-[And here you can see the whole script (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/scripts/eject.js) it executes.
+[And here you can see the whole script (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/scripts/eject.js) it executes.
 
 This operation cannot be reverted. Use it when the configuration options the tool offers are not enough for you anymore.
 
 ### Conclusion
 
-This post covered the most important features you may configure when using Create React App. Now you might want to take a closer look at [react-scripts (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts), the core of Create React App, to get a deep knowledge of how it works.
+This post covered the most important features you may configure when using Create React App. Now you might want to take a closer look at [react-scripts (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts), the core of Create React App, to get a deep knowledge of how it works.
 
-Although Create React App is a popular tool, it is not for everyone. There might be better alternatives depending on the type of application you’re developing. For example, [<FontIcon icon="iconfont icon-github"/>`gatsbyjs/gatsby`](https://github.com/gatsbyjs/gatsby) for static sites or [<FontIcon icon="iconfont icon-github"/>`zeit/next.js`](https://github.com/zeit/next.js) for server-side rendering. Consult [more alternatives here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app#popular-alternatives).
+Although Create React App is a popular tool, it is not for everyone. There might be better alternatives depending on the type of application you’re developing. For example, [<VPIcon icon="iconfont icon-github"/>`gatsbyjs/gatsby`](https://github.com/gatsbyjs/gatsby) for static sites or [<VPIcon icon="iconfont icon-github"/>`zeit/next.js`](https://github.com/zeit/next.js) for server-side rendering. Consult [more alternatives here (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app#popular-alternatives).
 
 ---
 

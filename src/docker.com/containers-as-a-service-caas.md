@@ -94,10 +94,10 @@ The Docker platform empowers you to build a CaaS that fits your business require
 
 This is first in a series of posts about CaaS. In this series, we will cover the use cases, requirements, technology and real world examples of CaaS in action. In the meantime check out these additional resources below.
 
-- [<FontIcon icon="fa-brands fa-docker"/>Register for the upcoming webinar](https://goto.docker.com/Webinar-TheDockerCaaSPlatformOverview_LP.html) on Docker CaaS in actionwith Mike Coleman onFebruary 16th
-- Download the white paper: [<FontIcon icon="fa-brands fa-docker"/>Modern Application Architecture for the Enterprise](https://docker.com/app/uploads/2022/03/WP_Modern-App-Architecture-for-Enterprise-Jan-2016.pdf)
-- [<FontIcon icon="fa-brands fa-docker"/>Get a free 30 day trial](https://hub.docker.com/enterprise/trial/)
-- Learn more about [<FontIcon icon="fa-brands fa-docker"/>our Server and Cloud based solutions](https://docker.com/products/overview#/docker_solutions)
+- [<VPIcon icon="fa-brands fa-docker"/>Register for the upcoming webinar](https://goto.docker.com/Webinar-TheDockerCaaSPlatformOverview_LP.html) on Docker CaaS in actionwith Mike Coleman onFebruary 16th
+- Download the white paper: [<VPIcon icon="fa-brands fa-docker"/>Modern Application Architecture for the Enterprise](https://docker.com/app/uploads/2022/03/WP_Modern-App-Architecture-for-Enterprise-Jan-2016.pdf)
+- [<VPIcon icon="fa-brands fa-docker"/>Get a free 30 day trial](https://hub.docker.com/enterprise/trial/)
+- Learn more about [<VPIcon icon="fa-brands fa-docker"/>our Server and Cloud based solutions](https://docker.com/products/overview#/docker_solutions)
 - Attend a Docker webinar
 
 <!-- TODO: add ARTICLE CARD -->

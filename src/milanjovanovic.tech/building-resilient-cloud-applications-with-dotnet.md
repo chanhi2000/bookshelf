@@ -84,11 +84,11 @@ Let's see how we can introduce resilience in a .NET application.
 ## Resilience Pipelines
 
 With .NET 8, integrating resilience into your applications has become much simpler.
-We can use `Microsoft.Extensions.Resilience` and `Microsoft.Extensions.Http.Resilience`, which are built on top of [<FontIcon icon="iconfont icon-github"/>`App-vNext/Polly`](https://github.com/App-vNext/Polly). Polly is a .NET resilience and transient fault-handling library. Polly allows us to define resilience strategies such as retry, circuit breaker, timeout, rate-limiting, fallback, and hedging.
+We can use `Microsoft.Extensions.Resilience` and `Microsoft.Extensions.Http.Resilience`, which are built on top of [<VPIcon icon="iconfont icon-github"/>`App-vNext/Polly`](https://github.com/App-vNext/Polly). Polly is a .NET resilience and transient fault-handling library. Polly allows us to define resilience strategies such as retry, circuit breaker, timeout, rate-limiting, fallback, and hedging.
 
-Polly received a new API surface in its latest version (V8), which was implemented in collaboration with Microsoft. You can learn more about the [<FontIcon icon="fa-brands fa-youtube"/>**Polly V8 API in this video**](https://youtu.be/PqVQFUCTzUM).
+Polly received a new API surface in its latest version (V8), which was implemented in collaboration with Microsoft. You can learn more about the [<VPIcon icon="fa-brands fa-youtube"/>**Polly V8 API in this video**](https://youtu.be/PqVQFUCTzUM).
 
-<FontIcon icon="fa-brands fa-PqVQFUCTzUM"/>
+<VPIcon icon="fa-brands fa-PqVQFUCTzUM"/>
 
 If you were previously using `Microsoft.Extensions.Http.Polly`, it is recommended that you switch to one of the previously mentioned packages.
 
@@ -99,7 +99,7 @@ Install-Package Microsoft.Extensions.Resilience
 Install-Package Microsoft.Extensions.Http.Resilience
 ```
 
-To use resilience, you must first build a pipeline consisting of resilience [<FontIcon icon="fas fa-globe"/>strategies](https://pollydocs.org/strategies/). Each strategy that we configure as part of the pipeline will execute in order of configuration. Order is important with resilience pipelines. Keep that in mind.
+To use resilience, you must first build a pipeline consisting of resilience [<VPIcon icon="fas fa-globe"/>strategies](https://pollydocs.org/strategies/). Each strategy that we configure as part of the pipeline will execute in order of configuration. Order is important with resilience pipelines. Keep that in mind.
 
 We start by creating an instance of `ResiliencePipelineBuilder`, which allows us to configure resilience strategies.
 
@@ -126,7 +126,7 @@ await pipeline.ExecuteAsync(
 
 Here's what we're adding to the resilience pipeline:
 
-- `AddRetry` - Configures a retry resilience strategy, which we can further configure by passing in a `RetryStrategyOptions` instance. We can provide a predicate for the `ShouldHandle` property to define which exceptions the resilience strategy should handle. The retry strategy also comes with some sensible [<FontIcon icon="fas fa-globe"/>default values](https://pollydocs.org/strategies/retry.html#defaults).
+- `AddRetry` - Configures a retry resilience strategy, which we can further configure by passing in a `RetryStrategyOptions` instance. We can provide a predicate for the `ShouldHandle` property to define which exceptions the resilience strategy should handle. The retry strategy also comes with some sensible [<VPIcon icon="fas fa-globe"/>default values](https://pollydocs.org/strategies/retry.html#defaults).
 - `AddTimeout` - Configures a timeout strategy that will throw a `TimeoutRejectedException` if the delegate does not complete before the timeout. We can provide a custom timeout by passing in a `TimeoutStrategyOptions` instance. The default timeout is 30 seconds.
 
 Finally, we can `Build` the resilience pipeline and get back a configured `ResiliencePipeline` instance that will apply the respective resilience strategies. To use the `ResiliencePipeline`, we can call the `ExecuteAsync` method and pass in a delegate.
@@ -156,7 +156,7 @@ services.AddResiliencePipeline("retry", builder =>
 });
 ```
 
-However, we can also specify generic arguments when calling `AddResiliencePipeline`. This allows us to configure a typed resilience pipeline using `ResiliencePipelineBuilder<TResult>`. Using this approach, we can access the [<FontIcon icon="fas fa-globe"/>hedging](https://pollydocs.org/strategies/hedging.html) and [<FontIcon icon="fas fa-globe"/>fallback](https://pollydocs.org/strategies/fallback.html) strategies.
+However, we can also specify generic arguments when calling `AddResiliencePipeline`. This allows us to configure a typed resilience pipeline using `ResiliencePipelineBuilder<TResult>`. Using this approach, we can access the [<VPIcon icon="fas fa-globe"/>hedging](https://pollydocs.org/strategies/hedging.html) and [<VPIcon icon="fas fa-globe"/>fallback](https://pollydocs.org/strategies/fallback.html) strategies.
 
 In the following example, we're configuring a fallback strategy by calling `AddFallback`. This allows us to provide a fallback value that we can return in case of a failure. The fallback could be a static value or come from another HTTP request or the database.
 
@@ -191,7 +191,7 @@ app.MapGet("users", async (
 
 ## Resilience Strategies and Polly
 
-[<FontIcon icon="fas fa-globe"/>Resilience strategies](https://pollydocs.org/strategies/) are the core component of Polly. They're designed to run custom callbacks while introducing an additional layer of resilience. We can't run these strategies directly. Instead, we execute them through a resilience pipeline.
+[<VPIcon icon="fas fa-globe"/>Resilience strategies](https://pollydocs.org/strategies/) are the core component of Polly. They're designed to run custom callbacks while introducing an additional layer of resilience. We can't run these strategies directly. Instead, we execute them through a resilience pipeline.
 
 Polly categorizes resilience strategies into **reactive** and **proactive**. Reactive strategies handle specific exceptions or results. Proactive strategies decide to cancel or reject the execution of callbacks using a rate limiter or a timeout resilience strategy.
 

@@ -23,6 +23,11 @@ jobs:
           # if your docs needs submodules, uncomment the following line
           # submodules: true
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9 # Use a recent version of pnpm
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -31,9 +36,8 @@ jobs:
 
       - name: Install Deps
         run: |
-          corepack enable
-          npm ci
-
+          pnpm install --no-frozen-lockfile
+        
       - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=16384

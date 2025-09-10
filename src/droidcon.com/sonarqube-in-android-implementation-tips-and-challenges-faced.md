@@ -83,7 +83,7 @@ SonarQube is an open-source tool that helps developers and teams improve the qua
 
 ## Steps to implement
 
-I followed this [medium article (<FontIcon icon="fa-brands fa-medium"/>`@niranjanky14`)](https://medium.com/@niranjanky14/sonarqube-tutorial-for-getting-started-in-android-app-7d11e2ef6932)while trying to implement SonarQube.
+I followed this [medium article (<VPIcon icon="fa-brands fa-medium"/>`@niranjanky14`)](https://medium.com/@niranjanky14/sonarqube-tutorial-for-getting-started-in-android-app-7d11e2ef6932)while trying to implement SonarQube.
 
 ### Step 1. Download**SonarQube Free Edition**from below link
 
@@ -195,7 +195,7 @@ Next, we can see how to configure SonarQube in Android Studio
 
 ## Configuration
 
-### Step 1: In app’s <FontIcon icon="iconfont icon-gradle"/>`build.gradle`, if we add SonarQube Plugin and other details like this
+### Step 1: In app’s <VPIcon icon="iconfont icon-gradle"/>`build.gradle`, if we add SonarQube Plugin and other details like this
 
 ```groovy title="build.gradle"
 allprojects {

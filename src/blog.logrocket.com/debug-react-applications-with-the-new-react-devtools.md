@@ -69,13 +69,13 @@ Debugging is one of the most useful skills a developer can possess. It allows yo
 
 React is one of the fastest-growing frontend development libraries. It makes creating complex and interactive UIs painless by offering a component-oriented UI development approach. Like other UI development frameworks and libraries, it has React Developer Tools, a debugging tool.
 
-In this tutorial, I will explain how to use Rect Developer Tools’ latest features which came with the [<FontIcon icon="fa-brands fa-react"/>v4.x](https://reactjs.org/blog/2019/08/15/new-react-devtools.html) (and later) releases, to debug your React applications with practical examples.
+In this tutorial, I will explain how to use Rect Developer Tools’ latest features which came with the [<VPIcon icon="fa-brands fa-react"/>v4.x](https://reactjs.org/blog/2019/08/15/new-react-devtools.html) (and later) releases, to debug your React applications with practical examples.
 
 ---
 
 ## Introduction to React Developer Tools
 
-React Developer Tools is a solution to inspect and analyze React components. It lets you edit component props and the state for debugging purposes. It also offers an inbuilt profiler for performance analysis. It comes as an official browser extension and an Electron-based standalone desktop app. The browser extension is available for Chrome, Firefox, and Edge. For Safari and other web browsers, the React development team offers the standalone Electron app via the [<FontIcon icon="fa-brands fa-npm"/>`react-devtools`](https://npmjs.com/package/react-devtools) package.
+React Developer Tools is a solution to inspect and analyze React components. It lets you edit component props and the state for debugging purposes. It also offers an inbuilt profiler for performance analysis. It comes as an official browser extension and an Electron-based standalone desktop app. The browser extension is available for Chrome, Firefox, and Edge. For Safari and other web browsers, the React development team offers the standalone Electron app via the [<VPIcon icon="fa-brands fa-npm"/>`react-devtools`](https://npmjs.com/package/react-devtools) package.
 
 React Developer Tools extends the browser’s native DevTools environment with several React-related debugging tabs. Similarly, the standalone React Developer Tools app offers the same browser-extension-like debugging experience.
 
@@ -107,21 +107,21 @@ Now, you know how the React Developer Tools solution helps debug React apps and 
 
 React Developer Tools is available as an extension for modern popular browsers. Install the extension using the following links:
 
-- [<FontIcon icon="fa-brands fa-chrome"/>Google Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-- [<FontIcon icon="fa-brands fa-firefox"/>Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
-- [<FontIcon icon="fa-brands fa-edge"/>Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil)
+- [<VPIcon icon="fa-brands fa-chrome"/>Google Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- [<VPIcon icon="fa-brands fa-firefox"/>Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
+- [<VPIcon icon="fa-brands fa-edge"/>Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil)
 
-If you have already installed the extension, it should update automatically whenever the React team publishes a new version. If you use React Native, Safari, or another web browser, you can install the standalone version from [npm (<FontIcon icon="fa-brands fa-npm"/>`react-devtools`)](https://npmjs.com/package/react-devtools):
+If you have already installed the extension, it should update automatically whenever the React team publishes a new version. If you use React Native, Safari, or another web browser, you can install the standalone version from [npm (<VPIcon icon="fa-brands fa-npm"/>`react-devtools`)](https://npmjs.com/package/react-devtools):
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn global add react-devtools
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install -g react-devtools
@@ -135,7 +135,7 @@ npm install -g react-devtools
 
 Let’s create a test app to get started with React Developer Tools debugging. I created a starter project for easy setup and to reduce overhead, ensuring the article focuses on debugging. The skeleton of the application has already been set up. It includes a few components, styling, and project structure.
 
-Run the following command to clone [the repository (<FontIcon icon="iconfont icon-github"/>`codezri/react-contacts`)](https://github.com/codezri/react-contacts) if you want to experiment with me:
+Run the following command to clone [the repository (<VPIcon icon="iconfont icon-github"/>`codezri/react-contacts`)](https://github.com/codezri/react-contacts) if you want to experiment with me:
 
 ```sh
 git clone https://github.com/codezri/react-contacts.git
@@ -149,13 +149,13 @@ cd react-contacts
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i
@@ -171,7 +171,7 @@ To start the React app development server, run the `npm start` or `yarn start` c
 
 ## React Developer Tools performance improvements
 
-According to the React Developer Tools internal design [documentation (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/main/packages/react-devtools/OVERVIEW.md), the legacy DevTools solution rendered the component tree and internal properties in a less-efficient strategy that involves many JSON serialization events, so debugging complex React apps had performance bottlenecks from the DevTools perspective.
+According to the React Developer Tools internal design [documentation (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/main/packages/react-devtools/OVERVIEW.md), the legacy DevTools solution rendered the component tree and internal properties in a less-efficient strategy that involves many JSON serialization events, so debugging complex React apps had performance bottlenecks from the DevTools perspective.
 
 The new DevTools solution offers significant performance gains and improved navigation and inspection experience by transporting optimized component tree data and props on demand. These performance enhancements motivate developers to productively use React Developer Tools in larger apps.
 
@@ -257,9 +257,9 @@ To use this feature to debug our application, double-click a **component** to vi
 
 ## Visual improvements in React Developer Tools
 
-Carefully designed [<FontIcon icon="fas fa-globe"/>UI/UX concepts](https://blog.logrocket.com/category/ux-design/) directly affect the quality of software systems. As a result, every software development team [<FontIcon icon="fas fa-globe"/>typically hires at least one UI/UX developer](https://blog.logrocket.com/ux-design/mastering-ux-user-interviews/) or more. UI/UX principles-based visual improvements may not always come with the first release of a particular app — the UI/UX team typically research, experiment, analyze, and implement new visual improvements to boost app users’ productivity and improve the app’s usability aspects.
+Carefully designed [<VPIcon icon="fas fa-globe"/>UI/UX concepts](https://blog.logrocket.com/category/ux-design/) directly affect the quality of software systems. As a result, every software development team [<VPIcon icon="fas fa-globe"/>typically hires at least one UI/UX developer](https://blog.logrocket.com/ux-design/mastering-ux-user-interviews/) or more. UI/UX principles-based visual improvements may not always come with the first release of a particular app — the UI/UX team typically research, experiment, analyze, and implement new visual improvements to boost app users’ productivity and improve the app’s usability aspects.
 
-Before v4 of React Developer Tools, some [<FontIcon icon="fas fa-globe"/>UI/UX-related issues](https://blog.logrocket.com/ux-design/guide-visual-hierarchy/) affected debugging productivity and overall debugger’s usability (especially while debugging large React apps). So, in v4, the React development team introduced the following developer-friendly visual improvements.
+Before v4 of React Developer Tools, some [<VPIcon icon="fas fa-globe"/>UI/UX-related issues](https://blog.logrocket.com/ux-design/guide-visual-hierarchy/) affected debugging productivity and overall debugger’s usability (especially while debugging large React apps). So, in v4, the React development team introduced the following developer-friendly visual improvements.
 
 ---
 
@@ -267,7 +267,7 @@ Before v4 of React Developer Tools, some [<FontIcon icon="fas fa-globe"/>UI/UX-r
 
 In the previous versions of React Developer Tools, deeply nested components require both vertical and horizontal scrolling to see, which makes tracking large component trees difficult. DevTools now dynamically adjust nesting indentation to eliminate horizontal scrolling.
 
-To use this feature in our app, click the **components** tab, then click any **component**. All its children will automatically appear below it with an automatic indentation from the next component. It’s impossible to demonstrate this with our sample contacts app since it’s a simple app that doesn’t contain deeply nested elements. However, you can see the dynamic indentation if you open React Developer Tools for the [<FontIcon icon="fa-brands fa-react"/>official React documentation](https://reactjs.org/docs/getting-started.html):
+To use this feature in our app, click the **components** tab, then click any **component**. All its children will automatically appear below it with an automatic indentation from the next component. It’s impossible to demonstrate this with our sample contacts app since it’s a simple app that doesn’t contain deeply nested elements. However, you can see the dynamic indentation if you open React Developer Tools for the [<VPIcon icon="fa-brands fa-react"/>official React documentation](https://reactjs.org/docs/getting-started.html):
 
 ![The Dynamic Indentation Visual Improvement in DevTools](/assets/image/blog.logrocket.com/debug-react-apps-react-devtools/dynamic-indentation.webp)
 
@@ -299,9 +299,9 @@ While debugging, if you hit **reload**, DevTools now attempts to restore the las
 
 ### Higher-order components support
 
-Experienced React developers often tend to use advanced development techniques while developing apps. [<FontIcon icon="fa-brands fa-react"/>Higher-order components](https://reactjs.org/docs/higher-order-components.html) (aka HOC) is an advanced React component composition technique that implements a function to take a component and return a modified component. React Developer Tools v4 displays HOC badges as it displays `forwardRef`, `Memo` -like badges. Let’s check HOC support in DevTools.
+Experienced React developers often tend to use advanced development techniques while developing apps. [<VPIcon icon="fa-brands fa-react"/>Higher-order components](https://reactjs.org/docs/higher-order-components.html) (aka HOC) is an advanced React component composition technique that implements a function to take a component and return a modified component. React Developer Tools v4 displays HOC badges as it displays `forwardRef`, `Memo` -like badges. Let’s check HOC support in DevTools.
 
-First, add the following function to your <FontIcon icon="fa-brands fa-react"/>`App.jsx` file:
+First, add the following function to your <VPIcon icon="fa-brands fa-react"/>`App.jsx` file:
 
 ```jsx title="App.jsx"
 function withMoreProps(Component) {
@@ -384,14 +384,14 @@ Only the following versions of React are supported:
 
 ### React DOM
 
-- [v0-14.x (<FontIcon icon="fa-brands fa-npm"/>`react`)](https://npmjs.com/package/react/v/0.14.0): Not supported
-- [v15.x: (<FontIcon icon="fa-brands fa-npm"/>`react`)](https://npmjs.com/package/react/v/15.0.0) Supported (except for the new component filters feature)
-- [v16.x (<FontIcon icon="fa-brands fa-npm"/>`react`)](https://npmjs.com/package/react/v/16.10.0) and newer versions: Supported
+- [v0-14.x (<VPIcon icon="fa-brands fa-npm"/>`react`)](https://npmjs.com/package/react/v/0.14.0): Not supported
+- [v15.x: (<VPIcon icon="fa-brands fa-npm"/>`react`)](https://npmjs.com/package/react/v/15.0.0) Supported (except for the new component filters feature)
+- [v16.x (<VPIcon icon="fa-brands fa-npm"/>`react`)](https://npmjs.com/package/react/v/16.10.0) and newer versions: Supported
 
 ### React Native
 
-- [v0-0.61 (<FontIcon icon="fa-brands fa-npm"/>`react-native`)](https://npmjs.com/package/react-native/v/0.61.1): Not supported
-- [<FontIcon icon="fas fa-globe"/>v0.62](https://reactnative.dev/docs/0.62/getting-started) and newer versions: Supported
+- [v0-0.61 (<VPIcon icon="fa-brands fa-npm"/>`react-native`)](https://npmjs.com/package/react-native/v/0.61.1): Not supported
+- [<VPIcon icon="fas fa-globe"/>v0.62](https://reactnative.dev/docs/0.62/getting-started) and newer versions: Supported
 
 So if certain features don’t work on a particular project, check the React version you are using. It’s always good to use the latest React version for new projects or upgrade React version in existing projects to use the latest library features and receive performance or security enhancements.
 
@@ -401,10 +401,10 @@ So if certain features don’t work on a particular project, check the React ver
 
 In this tutorial, we have talked about debugging React applications with DevTools. We looked at some additions and improvements that came with it. We also looked at how they make debugging your code easier.
 
-Try debugging your React apps with the features we’ve discussed in this article. You can check this [<FontIcon icon="fas fa-globe"/>live playground app](https://react-devtools-tutorial.vercel.app/) to learn how to debug React apps with DevTools without installing the browser extension or the standalone app. Here is the summary that you need to remember before debugging React apps:
+Try debugging your React apps with the features we’ve discussed in this article. You can check this [<VPIcon icon="fas fa-globe"/>live playground app](https://react-devtools-tutorial.vercel.app/) to learn how to debug React apps with DevTools without installing the browser extension or the standalone app. Here is the summary that you need to remember before debugging React apps:
 
 - Use the element tree (the component tab) to browse components, edit props, and state
-- Use the profiler to identify performance issues and analyze for performance enhancements (for example, time to interactive ([<FontIcon icon="fa-brands fa-chrome"/>TTI](https://developer.chrome.com/en/docs/lighthouse/performance/interactive/)) optimizations for SEO and usability)
+- Use the profiler to identify performance issues and analyze for performance enhancements (for example, time to interactive ([<VPIcon icon="fa-brands fa-chrome"/>TTI](https://developer.chrome.com/en/docs/lighthouse/performance/interactive/)) optimizations for SEO and usability)
 
 If you have any questions, comments, or additions, be sure to drop a comment. Happy coding!
 

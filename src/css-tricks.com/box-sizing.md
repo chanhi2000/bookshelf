@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2010/09/widthbox.png
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2010/09/widthbox.png"/>
 
-The [<FontIcon icon="iconfont icon-css-tricks"/>`box-sizing`](https://css-tricks.com/almanac/properties/b/box-sizing/) property can make building CSS layouts easier and a lot more intuitive. It’s such a boon for developers that here at CSS-Tricks we [**observe International Box-Sizing Awareness Day**](/css-tricks.com/international-box-sizing-awareness-day.md) in February.
+The [<VPIcon icon="iconfont icon-css-tricks"/>`box-sizing`](https://css-tricks.com/almanac/properties/b/box-sizing/) property can make building CSS layouts easier and a lot more intuitive. It’s such a boon for developers that here at CSS-Tricks we [**observe International Box-Sizing Awareness Day**](/css-tricks.com/international-box-sizing-awareness-day.md) in February.
 
 But, how is it so helpful and beloved that it deserves its own internet holiday? Time for a little bit of CSS history.
 
@@ -76,7 +76,7 @@ Some people preferred this “quirky” interpretation of the box model and cons
 
 But, in the days of fixed-width design, it wasn’t particularly complicated to work with the default box model once you understood it. You could do a bit of arithmetic to figure out how many pixels you needed to trim off of an element’s declared width or height to accommodate its padding and border. The problem for present-day developers is that those absolute pixel lengths don’t translate to responsive design, so the same math doesn’t apply anymore.
 
-As responsive design (or, as it was once known, “fluid” or “liquid” layout) started to gain popularity, developers and designers wished for an update to the box model. The great designer [<FontIcon icon="fas fa-globe"/>Jon Hicks](http://hicksdesign.co.uk/), known for his excellent fluid width designs, had this to say on the subject in the [**CSS Wishlist**](/css-tricks.com/css-wishlist.md) we put together in 2008:
+As responsive design (or, as it was once known, “fluid” or “liquid” layout) started to gain popularity, developers and designers wished for an update to the box model. The great designer [<VPIcon icon="fas fa-globe"/>Jon Hicks](http://hicksdesign.co.uk/), known for his excellent fluid width designs, had this to say on the subject in the [**CSS Wishlist**](/css-tricks.com/css-wishlist.md) we put together in 2008:
 
 > I would love a different box model! I find it bizarre that padding and border add the width of an object, and would love to be able to give something like a textarea 100% width and 3px padding without worrying what it’s going to do the layout. Perhaps something like padding-inside as a new selector?
 > 
@@ -90,7 +90,7 @@ Those wishes were granted when the `box-sizing` property was introduced in CSS3.
 
 Today, the current versions of all browsers use the original “width or height + padding + border = actual width or height” box model. With `box-sizing: border-box;`, we can change the box model to what was once the “quirky” way, where an element’s specified width and height aren’t affected by padding or borders. This has proven so useful in responsive design that it’s found its way into reset styles.
 
-At this point you may be asking yourself, “Is it possible that Old IE did something right?” [<FontIcon icon="fas fa-globe"/>Plenty of people think so](https://jefftk.com/p/the-revenge-of-the-ie-box-model).
+At this point you may be asking yourself, “Is it possible that Old IE did something right?” [<VPIcon icon="fas fa-globe"/>Plenty of people think so](https://jefftk.com/p/the-revenge-of-the-ie-box-model).
 
 ---
 
@@ -174,9 +174,9 @@ html {
 
 ## Known Issues
 
-`box-sizing: border-box;` is supported in the current versions of all major browsers. The less-commonly used `padding-box` is only supported in Firefox at the moment. There’s more comprehensive information about browser support in our [<FontIcon icon="iconfont icon-css-tricks"/>box-sizing](https://css-tricks.com/almanac/properties/b/box-sizing/)` almanac entry.
+`box-sizing: border-box;` is supported in the current versions of all major browsers. The less-commonly used `padding-box` is only supported in Firefox at the moment. There’s more comprehensive information about browser support in our [<VPIcon icon="iconfont icon-css-tricks"/>box-sizing](https://css-tricks.com/almanac/properties/b/box-sizing/)` almanac entry.
 
-There are a few issues with older versions of Internet Explorer (8 and older). IE 8 doesn’t recognize `border-box` on elements with `min/max-width` or `min/max-height` (this used to affect Firefox too, but it was [<FontIcon icon="fa-brands fa-firefox"/>fixed in 2012](https://bugzilla.mozilla.org/show_bug.cgi?id=308801)). IE 7 and below do not recognize `box-sizing` at all, but there’s a [polyfill that can help (<FontIcon icon="iconfont icon-github"/>`Schepp/box-sizing-polyfill`)](https://github.com/Schepp/box-sizing-polyfill).
+There are a few issues with older versions of Internet Explorer (8 and older). IE 8 doesn’t recognize `border-box` on elements with `min/max-width` or `min/max-height` (this used to affect Firefox too, but it was [<VPIcon icon="fa-brands fa-firefox"/>fixed in 2012](https://bugzilla.mozilla.org/show_bug.cgi?id=308801)). IE 7 and below do not recognize `box-sizing` at all, but there’s a [polyfill that can help (<VPIcon icon="iconfont icon-github"/>`Schepp/box-sizing-polyfill`)](https://github.com/Schepp/box-sizing-polyfill).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -65,11 +65,11 @@ cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png"/>
 
-Microsoft is getting ready for the next big update for Windows Server (check out [<FontIcon icon="fa-brands fa-microsoft"/>today’s complimentary Microsoft blog post](https://blogs.technet.microsoft.com/windowsserver/2017/09/13/sneak-peek-3-windows-server-version-1709-for-developers/)) and some of the new features are very exciting for Docker users. One of the most important enhancements is that Docker can now run Linux containers on Windows (LCOW), using Hyper-V technology.
+Microsoft is getting ready for the next big update for Windows Server (check out [<VPIcon icon="fa-brands fa-microsoft"/>today’s complimentary Microsoft blog post](https://blogs.technet.microsoft.com/windowsserver/2017/09/13/sneak-peek-3-windows-server-version-1709-for-developers/)) and some of the new features are very exciting for Docker users. One of the most important enhancements is that Docker can now run Linux containers on Windows (LCOW), using Hyper-V technology.
 
 Running Docker Linux containers on Windows requires a minimal Linux kernel and userland to host the container processes. This is exactly what [**the LinuxKit toolkit**](/docker.com/introducing-linuxkit-container-os-toolkit.md) was designed for: creating secure, lean and portable Linux subsystems that can provide Linux container functionality as a component of a container platform.
 
-We’ve been busy prototyping LinuxKit support for Docker Linux containers on Windows and have a working preview for you to try. This is still a work in progress, and requires either the recently announced [<FontIcon icon="fa-brands fa-windows"/>“Windows Server Insider”](https://blogs.windows.com/windowsexperience/2017/07/13/announcing-windows-server-insider-preview-build-16237) or Windows 10 Insider builds.
+We’ve been busy prototyping LinuxKit support for Docker Linux containers on Windows and have a working preview for you to try. This is still a work in progress, and requires either the recently announced [<VPIcon icon="fa-brands fa-windows"/>“Windows Server Insider”](https://blogs.windows.com/windowsexperience/2017/07/13/announcing-windows-server-insider-preview-build-16237) or Windows 10 Insider builds.
 
 ::: note UPDATE
 
@@ -83,7 +83,7 @@ LCOW support is available in Windows 10 Fall Creators Update and in Windows Serv
 
 ::: note UPDATE
 
-[The LinuxKit LCOW repo has a README with updated details for users interested in LinuxKit (<FontIcon icon="iconfont icon-github"/>`linuxkit/lcow`)](https://github.com/linuxkit/lcow).
+[The LinuxKit LCOW repo has a README with updated details for users interested in LinuxKit (<VPIcon icon="iconfont icon-github"/>`linuxkit/lcow`)](https://github.com/linuxkit/lcow).
 
 <SiteInfo
   name="linuxkit/lcow"
@@ -94,7 +94,7 @@ LCOW support is available in Windows 10 Fall Creators Update and in Windows Serv
 
 :::
 
-The instructions below have been tested on Windows 10 and Windows Server Insider builds 16278 and 16281. Be sure to install [<FontIcon icon="fa-brands fa-docker"/>Docker for Windows](https://docs.docker.com/docker-for-windows/install/) (Windows 10) or [<FontIcon icon="fa-brands fa-docker"/>Docker Enterprise Edition](https://docs.docker.com/engine/installation/windows/docker-ee/) (Windows Server Insider) before starting.
+The instructions below have been tested on Windows 10 and Windows Server Insider builds 16278 and 16281. Be sure to install [<VPIcon icon="fa-brands fa-docker"/>Docker for Windows](https://docs.docker.com/docker-for-windows/install/) (Windows 10) or [<VPIcon icon="fa-brands fa-docker"/>Docker Enterprise Edition](https://docs.docker.com/engine/installation/windows/docker-ee/) (Windows Server Insider) before starting.
 
 ---
 
@@ -148,7 +148,7 @@ Both Windows Server Insider builds and Docker support for Linux containers on Wi
 
 And IT-admins that prefer Windows will soon be able to easily run (mostly) Linux-only software like HAProxy and Redis on Windows systems by way of Docker Linux containers on Windows. For example, Docker Linux containers on Windows will make setting up Docker Enterprise Edition and Universal Control Plane (which relies on some Linux-only components) on Windows Server much simpler.
 
-We hope this LinuxKit-based walkthrough will set you up to start experimenting. Feedback is always welcome! For general help and getting started with Insider builds use the [<FontIcon icon="fa-brands fa-microsoft"/>Windows Feedback Hub](https://microsoft.com/en-us/store/p/feedback-hub/9nblggh4r32n) (Windows 10), or the [<FontIcon icon="fa-brands fa-microsoft"/>Windows Server Insiders Tech Community](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders). For issues with LinuxKit and Docker support for Linux containers on Windows use the [Docker for Windows issue tracker on GitHub (<FontIcon icon="iconfont icon-github"/>`docker/for-win`)](https://github.com/docker/for-win). And let us know on [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`docker`)](https://twitter.com/docker) if you build something cool!
+We hope this LinuxKit-based walkthrough will set you up to start experimenting. Feedback is always welcome! For general help and getting started with Insider builds use the [<VPIcon icon="fa-brands fa-microsoft"/>Windows Feedback Hub](https://microsoft.com/en-us/store/p/feedback-hub/9nblggh4r32n) (Windows 10), or the [<VPIcon icon="fa-brands fa-microsoft"/>Windows Server Insiders Tech Community](https://techcommunity.microsoft.com/t5/Windows-Server-Insiders/bd-p/WindowsServerInsiders). For issues with LinuxKit and Docker support for Linux containers on Windows use the [Docker for Windows issue tracker on GitHub (<VPIcon icon="iconfont icon-github"/>`docker/for-win`)](https://github.com/docker/for-win). And let us know on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`docker`)](https://twitter.com/docker) if you build something cool!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

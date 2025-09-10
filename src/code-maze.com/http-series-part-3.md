@@ -70,7 +70,7 @@ What do I mean by that?
 
 Well, that includes suggested items if you visit an e-commerce website, or “the people you might know/want to connect with” on social networks, recommended videos, ads that almost spookily know what you need, news articles that are relevant to you and so on.
 
-This effect feels like a double-edged sword. On one hand, it’s pretty nifty having personalized, custom content delivered to you. On the other hand, it can lead to the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias) that can result in all kinds of stereotypes and prejudice. There is an excellent Dilbert comic that touches upon Confirmation bias.
+This effect feels like a double-edged sword. On one hand, it’s pretty nifty having personalized, custom content delivered to you. On the other hand, it can lead to the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias) that can result in all kinds of stereotypes and prejudice. There is an excellent Dilbert comic that touches upon Confirmation bias.
 
 Yet, how can we live without knowing how our favorite team scored last night, or what celebrities did last night?
 
@@ -161,7 +161,7 @@ The best client identification method up to date excluding the authentication. D
 
 There are two types of cookies: **session cookies** and **persistent cookies**. A session cookie is deleted upon leaving the browser, and persistent cookies are saved on disk and can last longer. For the session cookie to be treated as the persistent cookie, Max-Age or Expiry property needs to be set.
 
-Modern browsers like Chrome and Firefox can keep background processes working when you shut them down so you can resume where you left off. This can result in the [<FontIcon icon="fa-brands fa-chrome"/>preservation of the session cookies](https://bugs.chromium.org/p/chromium/issues/detail?id=128513), so be careful.
+Modern browsers like Chrome and Firefox can keep background processes working when you shut them down so you can resume where you left off. This can result in the [<VPIcon icon="fa-brands fa-chrome"/>preservation of the session cookies](https://bugs.chromium.org/p/chromium/issues/detail?id=128513), so be careful.
 
 So how do the cookies work?
 
@@ -253,9 +253,9 @@ Cookie: $Version="1";
 
 That’s it.
 
-There is one more thing I want you to be aware of. The cookies are not perfect either. Besides security concerns, there is also a problem with [<FontIcon icon="fas fa-globe"/>cookies colliding with the REST architectural style](https://infoq.com/articles/rest-anti-patterns). (The section about misusing cookies).
+There is one more thing I want you to be aware of. The cookies are not perfect either. Besides security concerns, there is also a problem with [<VPIcon icon="fas fa-globe"/>cookies colliding with the REST architectural style](https://infoq.com/articles/rest-anti-patterns). (The section about misusing cookies).
 
-You can learn more about cookies in the [<FontIcon icon="fas fa-globe"/>RFC 2965](https://ietf.org/rfc/rfc2965.txt).
+You can learn more about cookies in the [<VPIcon icon="fas fa-globe"/>RFC 2965](https://ietf.org/rfc/rfc2965.txt).
 
 ---
 

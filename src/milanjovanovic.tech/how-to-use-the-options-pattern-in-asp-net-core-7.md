@@ -203,9 +203,9 @@ We can configure the options class in a simple way with [`IConfiguration`](#sett
 
 When it comes to using the **options pattern**, we have three approaches:
 
-- [<FontIcon icon="fa-brands fa-microsoft"/>`IOptions`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptions-1?view=dotnet-plat-ext-7.0)
-- [<FontIcon icon="fa-brands fa-microsoft"/>`IOptionsSnapshot`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptionssnapshot-1?view=dotnet-plat-ext-7.0)
-- [<FontIcon icon="fa-brands fa-microsoft"/>`IOptionsMonitor`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptionsmonitor-1?view=dotnet-plat-ext-7.0)
+- [<VPIcon icon="fa-brands fa-microsoft"/>`IOptions`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptions-1?view=dotnet-plat-ext-7.0)
+- [<VPIcon icon="fa-brands fa-microsoft"/>`IOptionsSnapshot`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptionssnapshot-1?view=dotnet-plat-ext-7.0)
+- [<VPIcon icon="fa-brands fa-microsoft"/>`IOptionsMonitor`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptionsmonitor-1?view=dotnet-plat-ext-7.0)
 
 Deciding which of them to use in your application depends on what kind of behavior you want. If you don't need to support refreshing configuration values after application start, [`IOptions`](#injecting-options-with-ioptions) is a perfect solution.
 

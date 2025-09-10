@@ -63,7 +63,7 @@ Here are a few examples of that:
 
 How can you create a recurring **background job** in .NET?
 
-[<FontIcon icon="fas fa-globe"/>**Quartz.NET**](https://quartz-scheduler.net/) is a full-featured, open source job scheduling system that can be used from smallest apps to large scale enterprise systems.
+[<VPIcon icon="fas fa-globe"/>**Quartz.NET**](https://quartz-scheduler.net/) is a full-featured, open source job scheduling system that can be used from smallest apps to large scale enterprise systems.
 
 There are three concepts you need to understand in **Quartz.NET**:
 
@@ -206,7 +206,7 @@ Calling `AddJob` will register the `ProcessOutboxMessagesJob` with DI and also w
 
 After that we configure a trigger for this job by calling `AddTrigger`. You need to associate the job with the trigger by calling `ForJob`, and then you configure the schedule for the background job. In this example, I'm scheduling the job to run every ten seconds and repeat forever while the hosted service is running.
 
-**Quartz** also has support for configuring triggers using [<FontIcon icon="fas fa-globe"/>cron expressions](https://quartz-scheduler.net/documentation/quartz-3.x/tutorial/crontriggers.html).
+**Quartz** also has support for configuring triggers using [<VPIcon icon="fas fa-globe"/>cron expressions](https://quartz-scheduler.net/documentation/quartz-3.x/tutorial/crontriggers.html).
 
 ---
 
@@ -216,7 +216,7 @@ By default, Quartz configures all jobs using the `RAMJobStore` which is the most
 
 It could be useful to have a persistent job store in some scenarios and there's a built in `AdoJobStore` which works with SQL databases. You need to create a set of database tables for Quartz.NET to use.
 
-You can learn more about this in the [<FontIcon icon="fas fa-globe"/>job stores documentation](https://quartz-scheduler.net/documentation/quartz-3.x/tutorial/job-stores.html).
+You can learn more about this in the [<VPIcon icon="fas fa-globe"/>job stores documentation](https://quartz-scheduler.net/documentation/quartz-3.x/tutorial/job-stores.html).
 
 ---
 
@@ -229,7 +229,7 @@ There's some room for improvement to make scheduling jobs easier and reduce boil
 - Add an extension method to simplify configuring jobs with a simple schedule
 - Add an extension method to simplify configuring jobs with a cron schedule from application settings
 
-If you want to see a tutorial on using **Quartz.NET**, I made an in-depth video about [<FontIcon icon="fa-brands fa-youtube"/>**using Quartz for processing Outbox messages**](https://youtu.be/XALvnX7MPeo).
+If you want to see a tutorial on using **Quartz.NET**, I made an in-depth video about [<VPIcon icon="fa-brands fa-youtube"/>**using Quartz for processing Outbox messages**](https://youtu.be/XALvnX7MPeo).
 
 <VidStack src="youtube/XALvnX7MPeo" />
 

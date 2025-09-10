@@ -56,7 +56,7 @@ When we released Docker 1.10 and Docker Compose 1.6 on February 4th, we provided
 
 I am constantly impressed what a docker-compose up gets you now. Networks and Volumes are now first class citizens of Docker Compose. That gives you a lot of control, allowing you to for instance put individual services on more than one network, and easily share volumes.
 
-I wanted to share with you how you can also use this functionality, so naturally, I turned it into a video. Using the [example voting app (<FontIcon icon="iconfont icon-github"/>`docker/example-voting-app`)](https://github.com/docker/example-voting-app) we built for DockerCon EU 2015, here is a walk through of how it works:
+I wanted to share with you how you can also use this functionality, so naturally, I turned it into a video. Using the [example voting app (<VPIcon icon="iconfont icon-github"/>`docker/example-voting-app`)](https://github.com/docker/example-voting-app) we built for DockerCon EU 2015, here is a walk through of how it works:
 
 <VidStack src="youtube/rFQqiuFIjms" />
 
@@ -66,8 +66,8 @@ And if you want more info on the Docker Compose v2 file format, check out my ear
 
 ::: info Look fun? Give it a try and share your experience with us:
 
-- [<FontIcon icon="fa-brands fa-docker"/>Install Docker on your laptop](https://docs.docker.com/engine/installation/)
-- [<FontIcon icon="fa-brands fa-docker"/>Refer to the Docker Compose docs](http://docs.docker.com/compose)
+- [<VPIcon icon="fa-brands fa-docker"/>Install Docker on your laptop](https://docs.docker.com/engine/installation/)
+- [<VPIcon icon="fa-brands fa-docker"/>Refer to the Docker Compose docs](http://docs.docker.com/compose)
 
 :::
 

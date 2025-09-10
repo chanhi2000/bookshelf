@@ -150,9 +150,9 @@ List(0 ..< 5) { _ in
 
 기존의 `ViewController`의 개념은 사라지고 `View`와 `View` 간의 이동 및 상호작용 등이 이루어 진다는것을 알 수 있습니다.
 
-더 자세한 `View` 레퍼런스는 [<FontIcon icon="fa-brands fa-apple"/>공식 문서](https://developer.apple.com/documentation/swiftui/views_and_controls)에서, 그에 상응하는 UIKIt 객체 비교는 [해당 git repo 섹션 (<FontIcon icon="iconfont icon-github"/>`SimpleBoilerplates/SwiftUI-Cheat-Sheet`)](https://github.com/SimpleBoilerplates/SwiftUI-Cheat-Sheet#uikit-equivalent-in-swiftui)에서 확인해주세요.
+더 자세한 `View` 레퍼런스는 [<VPIcon icon="fa-brands fa-apple"/>공식 문서](https://developer.apple.com/documentation/swiftui/views_and_controls)에서, 그에 상응하는 UIKIt 객체 비교는 [해당 git repo 섹션 (<VPIcon icon="iconfont icon-github"/>`SimpleBoilerplates/SwiftUI-Cheat-Sheet`)](https://github.com/SimpleBoilerplates/SwiftUI-Cheat-Sheet#uikit-equivalent-in-swiftui)에서 확인해주세요.
 
-애플에서 제공하는 [<FontIcon icon="fa-brands fa-apple"/>Tutorials](https://developer.apple.com/tutorials/swiftui)도 보면 좋을듯합니다.
+애플에서 제공하는 [<VPIcon icon="fa-brands fa-apple"/>Tutorials](https://developer.apple.com/tutorials/swiftui)도 보면 좋을듯합니다.
 
 ---
 
@@ -164,7 +164,7 @@ List(0 ..< 5) { _ in
 
 그래서 애플에선 `Combine`이라는 새로운 프레임워크를 공개했습니다.
 
-일단 [<FontIcon icon="fa-brands fa-apple"/>공식 문서](https://developer.apple.com/documentation/combine)를 확인해 보면...
+일단 [<VPIcon icon="fa-brands fa-apple"/>공식 문서](https://developer.apple.com/documentation/combine)를 확인해 보면...
 
 토픽들을 살펴 보면 어디서 많이 본 친구 같죠..?
 
@@ -176,7 +176,7 @@ List(0 ..< 5) { _ in
 
 `RxSwift`를 다뤄보셨다면 `Combine` 사용이 편할듯합니다.
 
-RxSwift와 Combine의 비교는 [<FontIcon icon="fa-brands fa-medium"/>해당 블로그](https://medium.com/gett-engineering/rxswift-to-apples-combine-cheat-sheet-e9ce32b14c5b)를 확인해주세요.
+RxSwift와 Combine의 비교는 [<VPIcon icon="fa-brands fa-medium"/>해당 블로그](https://medium.com/gett-engineering/rxswift-to-apples-combine-cheat-sheet-e9ce32b14c5b)를 확인해주세요.
 
 ---
 

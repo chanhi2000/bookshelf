@@ -52,7 +52,7 @@ cover: https://blog.logrocket.com/wp-content/uploads/2022/12/improve-mysql-datab
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="https://blog.logrocket.com/wp-content/uploads/2022/12/improve-mysql-database-performance.png"/>
 
-Every developer that works with MySQL understands how crucial the RDBMS is for their projects. The database management system can support all kinds of projects, from gaming forums to healthcare solutions. According to [<FontIcon icon="fas fa-globe"/>research performed by DatabaseJournal](https://databasejournal.com/mysql/postgresql-vs-mysql-which-is-best/), it takes up almost half, 44 percent, of the database market share.
+Every developer that works with MySQL understands how crucial the RDBMS is for their projects. The database management system can support all kinds of projects, from gaming forums to healthcare solutions. According to [<VPIcon icon="fas fa-globe"/>research performed by DatabaseJournal](https://databasejournal.com/mysql/postgresql-vs-mysql-which-is-best/), it takes up almost half, 44 percent, of the database market share.
 
 ![Improve Mysql Database Performance](https://blog.logrocket.com/wp-content/uploads/2022/12/improve-mysql-database-performance.png)
 
@@ -82,7 +82,7 @@ Before walking you through the specific measures that help improve MySQL databas
 
 Where database performance improvement is concerned, people are usually talking about improving the performance of CRUD, `Create`, `Read`, `Update`, and `Delete` queries. In MySQL, these queries span the `INSERT`, `SELECT`, `UPDATE`, and `DELETE` queries.
 
-All queries within MySQL lean on the settings defined in one core file related to MySQL, <FontIcon icon="fas fa-file-lines"/>`my.cnf`. All of the settings defined in <FontIcon icon="fas fa-file-lines"/>`my.cnf` have a direct impact on query performance.
+All queries within MySQL lean on the settings defined in one core file related to MySQL, <VPIcon icon="fas fa-file-lines"/>`my.cnf`. All of the settings defined in <VPIcon icon="fas fa-file-lines"/>`my.cnf` have a direct impact on query performance.
 
 You can usually improve the `INSERT` query performance by removing indexes from the table that data is inserted to. The more indexes are on a specific table, the harder it is for `INSERT` to proceed.
 
@@ -96,14 +96,14 @@ To understand the reasons behind the assumptions given above, though, we’ll ne
 
 ---
 
-## #1: Managing the <FontIcon icon="fas fa-file-lines"/>`my.cnf` file
+## #1: Managing the <VPIcon icon="fas fa-file-lines"/>`my.cnf` file
 
-When attempting to improve MySQL query performance, one of the first things to take a closer look at would be the <FontIcon icon="fas fa-file-lines"/>`my.cnf` file, which holds all the necessary parameters for MySQL to function. If you’re using Linux, you can find the <FontIcon icon="fas fa-file-lines"/>`my.cnf` file in one of the following directories:
+When attempting to improve MySQL query performance, one of the first things to take a closer look at would be the <VPIcon icon="fas fa-file-lines"/>`my.cnf` file, which holds all the necessary parameters for MySQL to function. If you’re using Linux, you can find the <VPIcon icon="fas fa-file-lines"/>`my.cnf` file in one of the following directories:
 
-- <FontIcon icon="fas fa-folder-open"/>`/var/lib/mysql/`<FontIcon icon="fas fa-file-lines"/>`my.cnf`
-- <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`my.cnf`
-- <FontIcon icon="fas fa-folder-open"/>`/etc/mysql/`<FontIcon icon="fas fa-file-lines"/>`my.cnf`
-- <FontIcon icon="fas fa-folder-open"/>`/usr/etc/`<FontIcon icon="fas fa-file-lines"/>`my.cnf`
+- <VPIcon icon="fas fa-folder-open"/>`/var/lib/mysql/`<VPIcon icon="fas fa-file-lines"/>`my.cnf`
+- <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`my.cnf`
+- <VPIcon icon="fas fa-folder-open"/>`/etc/mysql/`<VPIcon icon="fas fa-file-lines"/>`my.cnf`
+- <VPIcon icon="fas fa-folder-open"/>`/usr/etc/`<VPIcon icon="fas fa-file-lines"/>`my.cnf`
 
 If you‘re using Windows, you can find the file in the `/bin/mysql/mysql *.*.*` directory.
 
@@ -113,7 +113,7 @@ If you‘re using Windows, you can find the file in the `/bin/mysql/mysql *.*.*`
 
 All of these parameters are related to one of the main storage engines within MySQL, InnoDB. You can use other storage engines, but since InnoDB is the default storage engine offered by MySQL, we suggest you go with it.
 
-### <FontIcon icon="fas fa-file-lines"/>`my.cnf` parameters
+### <VPIcon icon="fas fa-file-lines"/>`my.cnf` parameters
 
 Let’s review the parameters. The `innodb-buffer-pool-size` parameter defines the size of the buffer pool, which is used to cache data related to InnoDB tables. The `innodb-data-file-path` parameter specifies the path where the `ibdata1` file is stored. `ibdata1` is the main file related to InnoDB, storing all of the necessary data.
 
@@ -121,7 +121,7 @@ Let’s review the parameters. The `innodb-buffer-pool-size` parameter defines t
 
 `innodb-flush-log-at-trx-commit` specifies how data is flushed to log files when transactions commit and finish. The `innodb-flush-method` parameter defines the method used to flush data to log files.
 
-### Setting <FontIcon icon="fas fa-file-lines"/>`my.cnf` parameters
+### Setting <VPIcon icon="fas fa-file-lines"/>`my.cnf` parameters
 
 Remember how you figured out the amount of RAM and hard drive space available within your infrastructure? Now is the time to use those details for the best possible performance. We’ll set the parameters as follows.
 
@@ -141,7 +141,7 @@ Performing the steps specified above will guarantee faster performance even if y
 
 ## #2 and #3: Check up on MySQL storage engines and schema design
 
-In addition to fiddling around with the <FontIcon icon="fas fa-file-lines"/>`my.cnf` file, we should also examine the storage engines we use and the way they are designed.If you’re using MySQL, use InnoDB. If you’re using [<FontIcon icon="fas fa-globe"/>Percona Server](https://percona.com/software/mysql-database/percona-server), use [<FontIcon icon="fas fa-globe"/>Percona XtraDB](https://percona.com/software/mysql-database/percona-xtradb-cluster).
+In addition to fiddling around with the <VPIcon icon="fas fa-file-lines"/>`my.cnf` file, we should also examine the storage engines we use and the way they are designed.If you’re using MySQL, use InnoDB. If you’re using [<VPIcon icon="fas fa-globe"/>Percona Server](https://percona.com/software/mysql-database/percona-server), use [<VPIcon icon="fas fa-globe"/>Percona XtraDB](https://percona.com/software/mysql-database/percona-xtradb-cluster).
 
 ### InnoDB parameters
 
@@ -153,7 +153,7 @@ Set the buffer pool size to 60 percent of RAM available within your infrastructu
 
 Both InnoDB and XtraDB support row-level locking. In simple terms, row-level locking refers to only locking access to rows that are directly impacted by a transaction. Compared to table-level locking, it has one significant advantage; developers can continue working with rows when updating data.
 
-If your use case doesn’t require such an approach, you should avoid using any other storage engine than InnoDB. MyISAM isn’t reliable, and other storage engines are to be used only in specific corner cases. For more information, [<FontIcon icon="iconfont icon-mysql"/>refer to the MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/storage-engines.html).
+If your use case doesn’t require such an approach, you should avoid using any other storage engine than InnoDB. MyISAM isn’t reliable, and other storage engines are to be used only in specific corner cases. For more information, [<VPIcon icon="iconfont icon-mysql"/>refer to the MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/storage-engines.html).
 
 If the data you’re working with exceeds 10 million rows, all of your tables are normalized.
 
@@ -201,7 +201,7 @@ Partitioning by `RANGE` lets us partition values falling within a given range. T
 
 Partitioning by `HASH` splits the table into multiple tables according to a number of columns. For example, `PARTITION BY HASH(id) PARTITIONS 8;` would split the table into multiple different tables at the database level with eight partitions in total.
 
-All types of partitioning can be found in [<FontIcon icon="iconfont icon-mysql"/>the MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/partitioning.html). Partitioning is usually defined upon creating a table, and in many cases, it looks like the following:
+All types of partitioning can be found in [<VPIcon icon="iconfont icon-mysql"/>the MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/partitioning.html). Partitioning is usually defined upon creating a table, and in many cases, it looks like the following:
 
 ```sql
 CREATE TABLE table_name (
@@ -246,7 +246,7 @@ The `IGNORE` keyword is useful if we want to ignore errors when inserting data o
 INSERT IGNORE INTO demo_table (c1) VALUES ('Demo');
 ```
 
-`LOAD DATA INFILE and SELECT … INTO OUTFILE` is significantly faster than issuing `INSERT` queries and backing up data in a regular fashion. Such queries avoid a lot of the overhead that exists when `INSERT` queries are being run. [<FontIcon icon="iconfont icon-mysql"/>Refer to the MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/load-data.html) for more information.
+`LOAD DATA INFILE and SELECT … INTO OUTFILE` is significantly faster than issuing `INSERT` queries and backing up data in a regular fashion. Such queries avoid a lot of the overhead that exists when `INSERT` queries are being run. [<VPIcon icon="iconfont icon-mysql"/>Refer to the MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/load-data.html) for more information.
 
 Older versions of MySQL cannot deal with `FULLTEXT` indexes on bigger data sets when we’re searching for anything with an `@` sign. That’s a bug within MySQL, `BUG#104263`. This approach causes the query to timeout.
 
@@ -266,13 +266,13 @@ Hopefully, the advice in this article will help you improve the performance of y
 
 Improving MySQL performance using the methods described above may come with the following drawbacks.
 
-Checking up on <FontIcon icon="fas fa-file-lines"/>`my.cnf` requires some knowledge of Linux internals, and in many cases, a rather strong server. You can’t improve performance much if your RAM is limited to 256MB or if you have only 2GB of disk space in total.
+Checking up on <VPIcon icon="fas fa-file-lines"/>`my.cnf` requires some knowledge of Linux internals, and in many cases, a rather strong server. You can’t improve performance much if your RAM is limited to 256MB or if you have only 2GB of disk space in total.
 
-Knowing your way around <FontIcon icon="fas fa-file-lines"/>`my.cnf` and storage engines and modifying their settings usually requires deep knowledge of the MySQL space. One needs to know exactly what each parameter that is modified does, what their appropriate values are, and more.
+Knowing your way around <VPIcon icon="fas fa-file-lines"/>`my.cnf` and storage engines and modifying their settings usually requires deep knowledge of the MySQL space. One needs to know exactly what each parameter that is modified does, what their appropriate values are, and more.
 
-Windows users have it easy since <FontIcon icon="fas fa-file-lines"/>`my.ini`, a <FontIcon icon="fas fa-file-lines"/>`my.cnf` equivalent, provides them with a lot of comments within itself, but Linux users usually have to define many settings themselves.
+Windows users have it easy since <VPIcon icon="fas fa-file-lines"/>`my.ini`, a <VPIcon icon="fas fa-file-lines"/>`my.cnf` equivalent, provides them with a lot of comments within itself, but Linux users usually have to define many settings themselves.
 
-The main downside of data types and character sets is the fact that each character requires space on the disk, and some character sets have different requirements in the storage space. Four bytes per character or eight bytes per character certainly makes a difference if we’re dealing with large data sets, so that’s something to think about too. Refer to [<FontIcon icon="iconfont icon-mysql"/>the MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/char.html) for more information.
+The main downside of data types and character sets is the fact that each character requires space on the disk, and some character sets have different requirements in the storage space. Four bytes per character or eight bytes per character certainly makes a difference if we’re dealing with large data sets, so that’s something to think about too. Refer to [<VPIcon icon="iconfont icon-mysql"/>the MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/char.html) for more information.
 
 Indexes and partitions usually speed up `SELECT` operations at the expense of slowing down everything else, including `INSERT`, `UPDATE`, and `DELETE`, since all of those queries have to insert, update, or delete data in indexes and partitions as well.
 
@@ -282,7 +282,7 @@ Indexes and partitions usually speed up `SELECT` operations at the expense of sl
 
 In this article, we’ve discussed five ways that you can rapidly improve your MySQL database performance. Each approach has its own unique upsides and downsides and is applicable in different scenarios. However, whether or not the pros outweigh the cons is for you to decide.
 
-Familiarize yourself [<FontIcon icon="iconfont icon-mysql"/>with the documentation surrounding your storage engine of choice](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html).Use InnoDB or XtraDB as your storage engine, try your best to normalize the tables you’re working with, avoid using unnecessary sizes for your data types, and index your columns to speed up `SELECT` queries.
+Familiarize yourself [<VPIcon icon="iconfont icon-mysql"/>with the documentation surrounding your storage engine of choice](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html).Use InnoDB or XtraDB as your storage engine, try your best to normalize the tables you’re working with, avoid using unnecessary sizes for your data types, and index your columns to speed up `SELECT` queries.
 
 Indexes and partitions are used to speed up `SELECT` queries at the expense of slowing down `INSERT`, `UPDATE`, and `DELETE`. Both of these approaches have multiple types and can be incredibly useful if used wisely.
 

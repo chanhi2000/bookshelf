@@ -66,8 +66,8 @@ In this article, we’ll explore the 10 best React Native UI libraries — compa
 
 ::: note Update history
 
-- _**21 February 2025**: Reviewed by [<FontIcon icon="fas fa-globe"/>Fimber Elemuwa](https://blog.logrocket.com/author/fimberelemuwa/) for currency with the React Native ecosystem in 2025_
-- _**26 July 2024**: Updated by [<FontIcon icon="fas fa-globe"/>Fimber Elemuwa](https://blog.logrocket.com/author/fimberelemuwa/) on 26 July 2024 to add emerging React Native component libraries like Tamagui and gluestack UI_
+- _**21 February 2025**: Reviewed by [<VPIcon icon="fas fa-globe"/>Fimber Elemuwa](https://blog.logrocket.com/author/fimberelemuwa/) for currency with the React Native ecosystem in 2025_
+- _**26 July 2024**: Updated by [<VPIcon icon="fas fa-globe"/>Fimber Elemuwa](https://blog.logrocket.com/author/fimberelemuwa/) on 26 July 2024 to add emerging React Native component libraries like Tamagui and gluestack UI_
 
 :::
 
@@ -106,7 +106,7 @@ Below is a quick comparison table of the libraries covered in this article:
 
 ## gluestack UI
 
-[<FontIcon icon="fas fa-globe"/>gluestack UI](https://gluestack.io/), previously known as [<FontIcon icon="fas fa-globe"/>NativeBase](https://nativebase.io/), is a performance-focused library designed for speed and efficiency across web and mobile apps using React and React Native:
+[<VPIcon icon="fas fa-globe"/>gluestack UI](https://gluestack.io/), previously known as [<VPIcon icon="fas fa-globe"/>NativeBase](https://nativebase.io/), is a performance-focused library designed for speed and efficiency across web and mobile apps using React and React Native:
 
 ![Gluestack UI Component Library](/assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/gluestack-ui-component-library.png)
 
@@ -159,7 +159,7 @@ Version 2 of gluestack UI uses Tailwind CSS utility classes in conjunction with 
 
 ## Tamagui
 
-[<FontIcon icon="fas fa-globe"/>Tamagui](https://tamagui.dev/) is a performance-focused, customizable React Native component library and styling solution that offers a unique approach to building performant and scalable React Native applications.
+[<VPIcon icon="fas fa-globe"/>Tamagui](https://tamagui.dev/) is a performance-focused, customizable React Native component library and styling solution that offers a unique approach to building performant and scalable React Native applications.
 
 ![Tamagui React Native Component Library](/assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/Tamagui-react-native-component-library.png)
 
@@ -195,17 +195,17 @@ Key features of Tamagui include its platform-agnostic nature, allowing developer
 
 ## React Native Paper
 
-[<FontIcon icon="fas fa-globe"/>React Native Paper](https://reactnativepaper.com/) is a cross-platform React Native UI library that is based on Google’s Material Design. Developed by the official React Native development partner [<FontIcon icon="iconfont icon-github"/>`callstack`](https://github.com/callstack), React Native Paper has theming support and offers customizable and production-ready components.
+[<VPIcon icon="fas fa-globe"/>React Native Paper](https://reactnativepaper.com/) is a cross-platform React Native UI library that is based on Google’s Material Design. Developed by the official React Native development partner [<VPIcon icon="iconfont icon-github"/>`callstack`](https://github.com/callstack), React Native Paper has theming support and offers customizable and production-ready components.
 
 ![React Native Paper UI](/assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/react-native-paper-ui.png)
 
-When using this React Native UI library, you can reduce its bundle size by using a [Babel plugin (<FontIcon icon="iconfont icon-github"/>`satya164/babel-plugin-optional-require`)](https://github.com/satya164/babel-plugin-optional-require) that allows you to optionally require modules. This will exclude all the modules that your app doesn’t use and rewrite the import statements to include only those that are imported in the app’s component files. React Native Paper also supports web using [**React Native Web**](/blog.logrocket.com/sharing-code-react-native-web.md).
+When using this React Native UI library, you can reduce its bundle size by using a [Babel plugin (<VPIcon icon="iconfont icon-github"/>`satya164/babel-plugin-optional-require`)](https://github.com/satya164/babel-plugin-optional-require) that allows you to optionally require modules. This will exclude all the modules that your app doesn’t use and rewrite the import statements to include only those that are imported in the app’s component files. React Native Paper also supports web using [**React Native Web**](/blog.logrocket.com/sharing-code-react-native-web.md).
 
-How do you use React Native Paper themes? Applying themes to a particular component is easy; React Native Paper comes with two default themes, namely `light` and `dark`, which you can extend. It uses the [<FontIcon icon="iconfont icon-github"/>`oblador/react-native-vector-icons`](https://github.com/oblador/react-native-vector-icons) library to support and use icons correctly in buttons, floating action buttons, lists, and more.
+How do you use React Native Paper themes? Applying themes to a particular component is easy; React Native Paper comes with two default themes, namely `light` and `dark`, which you can extend. It uses the [<VPIcon icon="iconfont icon-github"/>`oblador/react-native-vector-icons`](https://github.com/oblador/react-native-vector-icons) library to support and use icons correctly in buttons, floating action buttons, lists, and more.
 
 ### How do you use React Native Paper themes?
 
-Applying themes to a particular component is easy; React Native Paper comes with two default themes, namely `light` and `dark`, which you can extend. It uses the [<FontIcon icon="iconfont icon-github"/>`oblador/react-native-vector-icons`](https://github.com/oblador/react-native-vector-icons) to support and use icons correctly in buttons, floating action buttons, lists, and more.
+Applying themes to a particular component is easy; React Native Paper comes with two default themes, namely `light` and `dark`, which you can extend. It uses the [<VPIcon icon="iconfont icon-github"/>`oblador/react-native-vector-icons`](https://github.com/oblador/react-native-vector-icons) to support and use icons correctly in buttons, floating action buttons, lists, and more.
 
 ::: info TL;DR: React Native Paper
 
@@ -239,7 +239,7 @@ Applying themes to a particular component is easy; React Native Paper comes with
 
 ## React Native Elements
 
-One of the oldest and easiest libraries to start with, [<FontIcon icon="fas fa-globe"/>React Native Elements](https://reactnativeelements.com/) is a cross-platform UI library that implements Material Design. Instead of following an opinionated design system, this toolkit offers a more basic structure through its generalized inbuilt components, meaning you’ll have [**more control over how you want to customize components**](/blog.logrocket.com/react-native-styling-tutorial-with-examples.md). Customization of any component in this library will include a mixture of some custom props, as well as props from the [<FontIcon icon="fa-brands fa-react"/>React Native core API](https://reactnative.dev/).
+One of the oldest and easiest libraries to start with, [<VPIcon icon="fas fa-globe"/>React Native Elements](https://reactnativeelements.com/) is a cross-platform UI library that implements Material Design. Instead of following an opinionated design system, this toolkit offers a more basic structure through its generalized inbuilt components, meaning you’ll have [**more control over how you want to customize components**](/blog.logrocket.com/react-native-styling-tutorial-with-examples.md). Customization of any component in this library will include a mixture of some custom props, as well as props from the [<VPIcon icon="fa-brands fa-react"/>React Native core API](https://reactnative.dev/).
 
 ![React Native Elements UI Example](/assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/react-native-elements-ui-example.png)
 
@@ -276,7 +276,7 @@ There are more than 20 essential UI components that you can use with UI Kitten, 
 
 ![React Native UI Kitten](/assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/react-native-ui-kitten.png)
 
-If you set up the UI Kitten library for an existing project, you’ll have to go through some configuration steps. For new projects, you can easily use a pre-developed [<FontIcon icon="fas fa-globe"/>app template](https://akveo.github.io/react-native-ui-kitten/docs/guides/getting-started#new-apps). Make sure to [<FontIcon icon="fas fa-globe"/>give its design system a read](https://akveo.github.io/react-native-ui-kitten/docs/design-system/eva-design-system-intro#eva-design-system) to understand the design principles first.
+If you set up the UI Kitten library for an existing project, you’ll have to go through some configuration steps. For new projects, you can easily use a pre-developed [<VPIcon icon="fas fa-globe"/>app template](https://akveo.github.io/react-native-ui-kitten/docs/guides/getting-started#new-apps). Make sure to [<VPIcon icon="fas fa-globe"/>give its design system a read](https://akveo.github.io/react-native-ui-kitten/docs/design-system/eva-design-system-intro#eva-design-system) to understand the design principles first.
 
 ::: info TL;DR: React Native UI Kitten
 
@@ -303,11 +303,11 @@ If you set up the UI Kitten library for an existing project, you’ll have to go
 
 ## RNUIlib: React Native UI Library
 
-Well-maintained and used by Wix, [<FontIcon icon="fas fa-globe"/>RNUIlib](https://wix.github.io/react-native-ui-lib/) is a library for building amazing React Native apps:
+Well-maintained and used by Wix, [<VPIcon icon="fas fa-globe"/>RNUIlib](https://wix.github.io/react-native-ui-lib/) is a library for building amazing React Native apps:
 
 ![React Native UI Library](/assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/react-native-ui-library-1.webp)
 
-It supports both older and the latest React Native versions, and it provides more than 20 customized components, some of which, like `Drawer`, can be easily integrated for building modern swipeable lists, like the Gmail app’s inbox. It also has custom animated components, like an [<FontIcon icon="fas fa-globe"/>animated scanner](https://wix.github.io/react-native-ui-lib/docs/components/media/AnimatedScanner), which is useful for indicating progress for a card, such as an uploading status, as well as an animated image.
+It supports both older and the latest React Native versions, and it provides more than 20 customized components, some of which, like `Drawer`, can be easily integrated for building modern swipeable lists, like the Gmail app’s inbox. It also has custom animated components, like an [<VPIcon icon="fas fa-globe"/>animated scanner](https://wix.github.io/react-native-ui-lib/docs/components/media/AnimatedScanner), which is useful for indicating progress for a card, such as an uploading status, as well as an animated image.
 
 RNUIlib is another UI library that supports the right-to-left writing system, and it includes full accessibility support.
 
@@ -347,9 +347,9 @@ If you’re in the market for a professional-looking React Native UI library for
 
 ![Shoutem UI Example](/assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/shoutem-ui-example.jpeg)
 
-Shoutem UI is an open source library that is a part of the [<FontIcon icon="fas fa-globe"/>Shoutem UI toolkit](https://shoutem.github.io/docs/ui-toolkit/introduction).
+Shoutem UI is an open source library that is a part of the [<VPIcon icon="fas fa-globe"/>Shoutem UI toolkit](https://shoutem.github.io/docs/ui-toolkit/introduction).
 
-Shoutem UI consists of more than 25 composable and customizable UI components that come with pre-defined styles that support other components. You can build complex UIs by combining them. You can also apply custom CSS-like styling using the [Shoutem themes library (<FontIcon icon="iconfont icon-github"/>`shoutem/theme`)](https://github.com/shoutem/theme) and animations using the [animation components library (<FontIcon icon="iconfont icon-github"/>`shoutem/animation`)](https://github.com/shoutem/animation) like `ZoomIn`, `FadeIn`, etc.
+Shoutem UI consists of more than 25 composable and customizable UI components that come with pre-defined styles that support other components. You can build complex UIs by combining them. You can also apply custom CSS-like styling using the [Shoutem themes library (<VPIcon icon="iconfont icon-github"/>`shoutem/theme`)](https://github.com/shoutem/theme) and animations using the [animation components library (<VPIcon icon="iconfont icon-github"/>`shoutem/animation`)](https://github.com/shoutem/animation) like `ZoomIn`, `FadeIn`, etc.
 
 ::: info TL;DR: Shoutem UI
 
@@ -373,13 +373,13 @@ Shoutem UI consists of more than 25 composable and customizable UI components th
 
 ## Lottie for React Native
 
-[<FontIcon icon="fa-brands fa-airbnb"/>Lottie React Native](https://airbnb.io/lottie/#/react-native) is an excellent open source animated graphic library developed by Airbnb for creating beautiful animations:
+[<VPIcon icon="fa-brands fa-airbnb"/>Lottie React Native](https://airbnb.io/lottie/#/react-native) is an excellent open source animated graphic library developed by Airbnb for creating beautiful animations:
 
 ![Lottie React Native UI](/assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/lottie-react-native-ui.webp)
 
-The Lottie community provides featured animations that you can use freely for React Native iOS or Android applications. You can also create custom animations using [<FontIcon icon="fa-brands fa-adobe"/>Adobe After Effects](https://adobe.com/products/aftereffects.html). Lottie then uses the [Bodymovin (<FontIcon icon="iconfont icon-github"/>`airbnb/lottie-web`)](https://github.com/airbnb/lottie-web) extension to export the custom animations to JSON format and render them in the native mobile app. Because of the JSON export format, your app will have great performance.
+The Lottie community provides featured animations that you can use freely for React Native iOS or Android applications. You can also create custom animations using [<VPIcon icon="fa-brands fa-adobe"/>Adobe After Effects](https://adobe.com/products/aftereffects.html). Lottie then uses the [Bodymovin (<VPIcon icon="iconfont icon-github"/>`airbnb/lottie-web`)](https://github.com/airbnb/lottie-web) extension to export the custom animations to JSON format and render them in the native mobile app. Because of the JSON export format, your app will have great performance.
 
-The [<FontIcon icon="iconfont icon-github"/>`lottie-react-native/lottie-react-native`](https://github.com/lottie-react-native/lottie-react-native) package includes the `Lottie` component, which you can use to add Lottie animations in React Native apps. Internally, it uses [<FontIcon icon="iconfont icon-github"/>`airbnb/lottie-android`](https://github.com/airbnb/lottie-android) and [<FontIcon icon="iconfont icon-github"/>`airbnb/lottie-ios`](https://github.com/airbnb/lottie-ios) to render Lottie-formatted files natively on Android and iOS, respectively.
+The [<VPIcon icon="iconfont icon-github"/>`lottie-react-native/lottie-react-native`](https://github.com/lottie-react-native/lottie-react-native) package includes the `Lottie` component, which you can use to add Lottie animations in React Native apps. Internally, it uses [<VPIcon icon="iconfont icon-github"/>`airbnb/lottie-android`](https://github.com/airbnb/lottie-android) and [<VPIcon icon="iconfont icon-github"/>`airbnb/lottie-ios`](https://github.com/airbnb/lottie-ios) to render Lottie-formatted files natively on Android and iOS, respectively.
 
 ::: info TL;DR: Lottie for React Native
 
@@ -406,7 +406,7 @@ The [<FontIcon icon="iconfont icon-github"/>`lottie-react-native/lottie-react-na
 
 ## React Native Maps
 
-[React Native Maps (<FontIcon icon="iconfont icon-github"/>`react-native-maps/react-native-maps`)](https://github.com/react-native-maps/react-native-maps) is another useful library that provides customizable map components for your iOS and Android apps:
+[React Native Maps (<VPIcon icon="iconfont icon-github"/>`react-native-maps/react-native-maps`)](https://github.com/react-native-maps/react-native-maps) is another useful library that provides customizable map components for your iOS and Android apps:
 
 ![React Native Maps UI Example](/assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/react-native-maps-ui-example.gif)
 
@@ -422,7 +422,7 @@ Its components include:
 - `Geojson`
 - `Overlay`
 
-With these components, you can offer your users many different experiences on the map. Additionally, you can combine the components with the [Animated API (<FontIcon icon="iconfont icon-github"/>`react-native-maps/react-native-maps`)](https://github.com/react-native-maps/react-native-maps#using-the-mapview-with-the-animated-api) to give an animated effect for the components. For example, you can animate the zoom, marker views, and marker coordinates, and also render polygons and polylines on the map.
+With these components, you can offer your users many different experiences on the map. Additionally, you can combine the components with the [Animated API (<VPIcon icon="iconfont icon-github"/>`react-native-maps/react-native-maps`)](https://github.com/react-native-maps/react-native-maps#using-the-mapview-with-the-animated-api) to give an animated effect for the components. For example, you can animate the zoom, marker views, and marker coordinates, and also render polygons and polylines on the map.
 
 Keep in mind that React Native Maps v1.14.0 and above require React Native ≥v0.74, while versions below 1.14.0 are compatible only with React Native ≥v0.64.3. Be sure to update your React Native version if you plan to use React Native Maps with an older project.
 
@@ -445,7 +445,7 @@ Keep in mind that React Native Maps v1.14.0 and above require React Native ≥v0
 
 In some development scenarios, React Native developers add chat screens to their mobile apps. For example, integrating a chatbot or implementing an inter-user chat system requires a chat component that includes incoming and outgoing messages with avatars, a text input for typing, and a send button.
 
-The [React Native Gifted Chat (<FontIcon icon="iconfont icon-github"/>`FaridSafi/react-native-gifted-chat`)](https://github.com/FaridSafi/react-native-gifted-chat) library offers a pre-developed customizable chat component that you can use without having to build one from scratch:
+The [React Native Gifted Chat (<VPIcon icon="iconfont icon-github"/>`FaridSafi/react-native-gifted-chat`)](https://github.com/FaridSafi/react-native-gifted-chat) library offers a pre-developed customizable chat component that you can use without having to build one from scratch:
 
 ---
 
@@ -494,7 +494,7 @@ The best React Native component library depends on your specific project needs. 
 
 All the component libraries in this list are actively maintained and are designed to speed up development by providing efficient, ready-to-use components. As long as you have a clear vision for your UI design, any of these libraries should work well.
 
-You can find more third-party, open source UI component libraries in the [<FontIcon icon="iconfont icon-github"/>`jondot/awesome-react-native`](https://github.com/jondot/awesome-react-native#ui) GitHub repository. For additional guidance, check out the [<FontIcon icon="fa-brands fa-react"/>official React Native docs](https://reactnative.dev/docs/libraries) or [**this guide on using React Native components**](/blog.logrocket.com/building-react-native-forms-with-ui-components.md).
+You can find more third-party, open source UI component libraries in the [<VPIcon icon="iconfont icon-github"/>`jondot/awesome-react-native`](https://github.com/jondot/awesome-react-native#ui) GitHub repository. For additional guidance, check out the [<VPIcon icon="fa-brands fa-react"/>official React Native docs](https://reactnative.dev/docs/libraries) or [**this guide on using React Native components**](/blog.logrocket.com/building-react-native-forms-with-ui-components.md).
 
 Do you have a favorite React Native component library? Let us know in the comments!
 

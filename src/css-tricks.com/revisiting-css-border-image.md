@@ -52,11 +52,11 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/03/border-image-
 
 In my last article on [**“Revisiting CSS Multi-Column Layout”**](/css-tricks.com/revisiting-css-multi-column-layout.md), I mentioned that almost twenty years have flown by since I wrote my first book, *Transcending CSS*. In it, I explained how and why to use what were, at the time, an emerging CSS property.
 
-Ten years later, I wrote the [<FontIcon icon="fas fa-globe"/>*Hardboiled Web Design Fifth Anniversary Edition*](https://stuffandnonsense.co.uk/hardboiled-web-design), covering similar ground and introducing the new CSS `border-image` property.
+Ten years later, I wrote the [<VPIcon icon="fas fa-globe"/>*Hardboiled Web Design Fifth Anniversary Edition*](https://stuffandnonsense.co.uk/hardboiled-web-design), covering similar ground and introducing the new CSS `border-image` property.
 
 ::: tip Hint
 
-I published an updated version, *[<FontIcon icon="fas fa-globe"/>Transcending CSS Revisited](https://stuffandnonsense.co.uk/transcending-css-revisited/index.html)* which is free to read online. Hardboiled Web Design is available from [<FontIcon icon="fas fa-globe"/>my bookshop](https://stuffandnonsense.co.uk/books).
+I published an updated version, *[<VPIcon icon="fas fa-globe"/>Transcending CSS Revisited](https://stuffandnonsense.co.uk/transcending-css-revisited/index.html)* which is free to read online. Hardboiled Web Design is available from [<VPIcon icon="fas fa-globe"/>my bookshop](https://stuffandnonsense.co.uk/books).
 
 :::
 
@@ -66,7 +66,7 @@ Since then, I’ve used `border-image` regularly. Yet, it remains one of the mos
 
 I’ve recently been working on a new website for Emmy-award-winning game composer Mike Worth. He hired me to create a highly graphical design that showcases his work, and I used `border-image` throughout.
 
-![Design by [<FontIcon icon="fas fa-globe"/>Andy Clarke, Stuff & Nonsense](https://stuffandnonsense.co.uk). Mike Worth’s website will launch in April 2025, but you can [<FontIcon icon="fa-brands fa-codepen"/>see examples from this article on CodePen](https://codepen.io/collection/QbWmYL).](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/03/s_377CE240D976C6DDFB6EFE1CAF71CAFBFAB7A0478263FF31ED4E15630F1E0AE6_1741264165055_2025-03-1-scaled.webp?resize=2560%2C1758&ssl=1)
+![Design by [<VPIcon icon="fas fa-globe"/>Andy Clarke, Stuff & Nonsense](https://stuffandnonsense.co.uk). Mike Worth’s website will launch in April 2025, but you can [<VPIcon icon="fa-brands fa-codepen"/>see examples from this article on CodePen](https://codepen.io/collection/QbWmYL).](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/03/s_377CE240D976C6DDFB6EFE1CAF71CAFBFAB7A0478263FF31ED4E15630F1E0AE6_1741264165055_2025-03-1-scaled.webp?resize=2560%2C1758&ssl=1)
 
 ---
 
@@ -96,7 +96,7 @@ When I insert SVG images into a border, I have several choices as to how. I coul
 border-image-source: url('/img/scroll.svg');
 ```
 
-Or I might convert my SVG to data URI using a tool like [<FontIcon icon="fas fa-globe"/>Base64.Guru](https://base64.guru/converter/encode/image/svg) although, as both SVG and HTML are XML-based, [**this isn’t recommended**](/css-tricks.com/probably-dont-base64-svg.md):
+Or I might convert my SVG to data URI using a tool like [<VPIcon icon="fas fa-globe"/>Base64.Guru](https://base64.guru/converter/encode/image/svg) although, as both SVG and HTML are XML-based, [**this isn’t recommended**](/css-tricks.com/probably-dont-base64-svg.md):
 
 ```css
 border-image-source: url('data:image/svg+xml;base64,…');
@@ -465,17 +465,17 @@ If you’ve yet to experiment with `border-image`, now’s the time to revisit i
 
 ::: tip Hint
 
-Mike Worth’s website will launch in April 2025, but you can see [<FontIcon icon="fa-brands fa-codepen"/>examples from this article on CodePen](https://codepen.io/collection/QbWmYL).
+Mike Worth’s website will launch in April 2025, but you can see [<VPIcon icon="fa-brands fa-codepen"/>examples from this article on CodePen](https://codepen.io/collection/QbWmYL).
 
 :::
 
 ::: info About Andy Clarke
 
-Often referred to as one of the pioneers of web design, [<FontIcon icon="fas fa-globe"/>Andy Clarke](https://stuffandnonsense.co.uk/) has been instrumental in pushing the boundaries of web design and is known for his creative and visually stunning designs. His work has inspired countless designers to explore the full potential of product and website design.
+Often referred to as one of the pioneers of web design, [<VPIcon icon="fas fa-globe"/>Andy Clarke](https://stuffandnonsense.co.uk/) has been instrumental in pushing the boundaries of web design and is known for his creative and visually stunning designs. His work has inspired countless designers to explore the full potential of product and website design.
 
 Andy’s written several industry-leading books, including *Transcending CSS*, *Hardboiled Web Design*, and *Art Direction for the Web*. He’s also worked with businesses of all sizes and industries to achieve their goals through design.
 
-Visit Andy’s studio, [<FontIcon icon="fas fa-globe"/>Stuff & Nonsense](https://stuffandnonsense.co.uk/), and check out his [<FontIcon icon="fas fa-globe"/>Contract Killer](https://stuffandnonsense.co.uk/projects/contract-killer), the popular web design contract template trusted by thousands of web designers and developers.
+Visit Andy’s studio, [<VPIcon icon="fas fa-globe"/>Stuff & Nonsense](https://stuffandnonsense.co.uk/), and check out his [<VPIcon icon="fas fa-globe"/>Contract Killer](https://stuffandnonsense.co.uk/projects/contract-killer), the popular web design contract template trusted by thousands of web designers and developers.
 
 :::
 

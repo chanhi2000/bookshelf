@@ -165,7 +165,7 @@ If the previous approach seems *cumbersome* to you and like a lot of manual work
 
 However, there is a simpler way to achieve the same behavior.
 
-We can use the [Scrutor (<FontIcon icon="iconfont icon-github"/>`khellang/Scrutor`)](https://github.com/khellang/Scrutor) library to register the decorator:
+We can use the [Scrutor (<VPIcon icon="iconfont icon-github"/>`khellang/Scrutor`)](https://github.com/khellang/Scrutor) library to register the decorator:
 
 ```cs
 services.AddScoped<IMemberRepository, MemberRepository>();
@@ -173,7 +173,7 @@ services.AddScoped<IMemberRepository, MemberRepository>();
 services.Decorate<IMemberRepository, CachingMemberRepository>();
 ```
 
-[Scrutor (<FontIcon icon="iconfont icon-github"/>`khellang/Scrutor`)](https://github.com/khellang/Scrutor) exposes the `Decorate` method. The call to `Decorate` will register the `CachingMemberRepository` while ensuring that it receives the expected `MemberRepository` instance as its dependency.
+[Scrutor (<VPIcon icon="iconfont icon-github"/>`khellang/Scrutor`)](https://github.com/khellang/Scrutor) exposes the `Decorate` method. The call to `Decorate` will register the `CachingMemberRepository` while ensuring that it receives the expected `MemberRepository` instance as its dependency.
 
 I think this approach is much simpler, and it's what I use in my projects.
 

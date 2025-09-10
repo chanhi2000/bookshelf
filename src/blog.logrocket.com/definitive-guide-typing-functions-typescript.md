@@ -51,7 +51,7 @@ cover: /assets/image/blog.logrocket.com/definitive-guide-typing-functions-typesc
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/definitive-guide-typing-functions-typescript/banner.png"/>
 
-JavaScript is one of the world’s most popular programming languages, and the language of the web. However, because it’s not strongly typed, there is a possibility of introducing bugs into our code inadvertently. This is where [<FontIcon icon="fas fa-glboe"/>TypeScript](https://blog.logrocket.com/tag/typescript/) comes in.
+JavaScript is one of the world’s most popular programming languages, and the language of the web. However, because it’s not strongly typed, there is a possibility of introducing bugs into our code inadvertently. This is where [<VPIcon icon="fas fa-glboe"/>TypeScript](https://blog.logrocket.com/tag/typescript/) comes in.
 
 ![](/assets/image/blog.logrocket.com/definitive-guide-typing-functions-typescript/banner.png)
 
@@ -64,7 +64,7 @@ This article is a guide on how to create and use strongly typed functions. We wi
 In order to be able to follow this tutorial, you’ll need:
 
 - Working knowledge of JavaScript and TypeScript
-- An environment where you can run TypeScript examples, either by installing TypeScript on your local machine, or the [<FontIcon icon="iconfont icon-typescript"/>official TypeScript playground](https://typescriptlang.org/play)
+- An environment where you can run TypeScript examples, either by installing TypeScript on your local machine, or the [<VPIcon icon="iconfont icon-typescript"/>official TypeScript playground](https://typescriptlang.org/play)
 
 :::
 

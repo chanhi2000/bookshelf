@@ -52,13 +52,13 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_072.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_072.png"/>
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Delegating handlers](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.delegatinghandler?view=net-8.0) are like [ASP.NET Core middleware](/milanjovanovic.tech/3-ways-to-create-middleware-in-asp-net-core.md). Except they work with the [`HttpClient`](/milanjovanovic.tech/the-right-way-to-use-httpclient-in-dotnet.md). The ASP.NET Core request pipeline allows you to introduce custom behavior with [middleware](/milanjovanovic.tech/3-ways-to-create-middleware-in-asp-net-core.md). You can solve many cross-cutting concerns using middleware — logging, tracing, validation, authentication, authorization, etc.
+[<VPIcon icon="fa-brands fa-microsoft"/>Delegating handlers](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.delegatinghandler?view=net-8.0) are like [ASP.NET Core middleware](/milanjovanovic.tech/3-ways-to-create-middleware-in-asp-net-core.md). Except they work with the [`HttpClient`](/milanjovanovic.tech/the-right-way-to-use-httpclient-in-dotnet.md). The ASP.NET Core request pipeline allows you to introduce custom behavior with [middleware](/milanjovanovic.tech/3-ways-to-create-middleware-in-asp-net-core.md). You can solve many cross-cutting concerns using middleware — logging, tracing, validation, authentication, authorization, etc.
 
 But, an important aspect here is that middleware works with incoming HTTP requests to your API. Delegating handlers work with outgoing requests.
 
-[<FontIcon icon="fa-brands fa-microsoft"/>`HttpClient`](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-8.0) is my preferred way of sending HTTP requests in ASP.NET Core. It's straightforward to use and solves most of my use cases. You can use delegating handlers to extend the `HttpClient` with behavior before or after sending an HTTP request.
+[<VPIcon icon="fa-brands fa-microsoft"/>`HttpClient`](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-8.0) is my preferred way of sending HTTP requests in ASP.NET Core. It's straightforward to use and solves most of my use cases. You can use delegating handlers to extend the `HttpClient` with behavior before or after sending an HTTP request.
 
-Today, I want to show you how to use a [<FontIcon icon="fa-brands fa-microsoft"/>`DelegatingHandler`](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.delegatinghandler?view=net-8.0) to introduce:
+Today, I want to show you how to use a [<VPIcon icon="fa-brands fa-microsoft"/>`DelegatingHandler`](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.delegatinghandler?view=net-8.0) to introduce:
 
 - Logging
 - Resiliency
@@ -170,9 +170,9 @@ Let's see what else we can do.
 
 ## Adding Resiliency With Delegating Handlers
 
-Building [<FontIcon icon="fa-brands fa-microsoft"/>resilient](https://learn.microsoft.com/en-us/dotnet/core/resilience/?tabs=dotnet-cli) applications is an important requirement for cloud development.
+Building [<VPIcon icon="fa-brands fa-microsoft"/>resilient](https://learn.microsoft.com/en-us/dotnet/core/resilience/?tabs=dotnet-cli) applications is an important requirement for cloud development.
 
-The `RetryDelegatingHandler` class uses [Polly (<FontIcon icon="iconfont icon-github"/>`App-vNext/Polly`)](https://github.com/App-vNext/Polly) to create an `AsyncRetryPolicy`. The retry policy wraps the HTTP request and retries it in case of a transient failure.
+The `RetryDelegatingHandler` class uses [Polly (<VPIcon icon="iconfont icon-github"/>`App-vNext/Polly`)](https://github.com/App-vNext/Polly) to create an `AsyncRetryPolicy`. The retry policy wraps the HTTP request and retries it in case of a transient failure.
 
 ```cs
 public class RetryDelegatingHandler : DelegatingHandler
@@ -252,11 +252,11 @@ builder.Services.AddHttpClient<GitHubService>(httpClient =>
 .AddHttpMessageHandler<AuthenticationDelegatingHandler>();
 ```
 
-Here's a more involved authentication example using the `KeyCloakAuthorizationDelegatingHandler`. This is a delegating handler that acquires the access token from [<FontIcon icon="fas fa-globe"/>Keycloak](https://keycloak.org/). Keycloak is an open-source identity and access management service.
+Here's a more involved authentication example using the `KeyCloakAuthorizationDelegatingHandler`. This is a delegating handler that acquires the access token from [<VPIcon icon="fas fa-globe"/>Keycloak](https://keycloak.org/). Keycloak is an open-source identity and access management service.
 
 I used Keycloak as the identity provider in my [Pragmatic Clean Architecture](/milanjovanovic.tech/pragmatic-clean-architecture/README.md) course.
 
-The delegating handler in this example uses an [<FontIcon icon="fas fa-globe"/>OAuth 2.0](https://oauth.net/2/) [<FontIcon icon="fas fa-globe"/>client credentials](https://oauth.com/oauth2-servers/access-tokens/client-credentials/) grant flow to obtain an access token. This grant is used when applications request an access token to access their own resources, not on behalf of a user.
+The delegating handler in this example uses an [<VPIcon icon="fas fa-globe"/>OAuth 2.0](https://oauth.net/2/) [<VPIcon icon="fas fa-globe"/>client credentials](https://oauth.com/oauth2-servers/access-tokens/client-credentials/) grant flow to obtain an access token. This grant is used when applications request an access token to access their own resources, not on behalf of a user.
 
 ```cs
 public class KeyCloakAuthorizationDelegatingHandler(
@@ -326,7 +326,7 @@ Here are a few ideas on how you could use delegating handlers:
 
 I'm sure you can come up with a few use cases yourself.
 
-I made a video showing how to [<FontIcon icon="fa-brands fa-youtube"/>implement delegating handlers](https://youtu.be/_u6v4D6qgDI), and you can [<FontIcon icon="fa-brands fa-youtube"/>watch it here.](https://youtu.be/_u6v4D6qgDI)
+I made a video showing how to [<VPIcon icon="fa-brands fa-youtube"/>implement delegating handlers](https://youtu.be/_u6v4D6qgDI), and you can [<VPIcon icon="fa-brands fa-youtube"/>watch it here.](https://youtu.be/_u6v4D6qgDI)
 
 <VidStack src="youtube/_u6v4D6qgDI" />
 

@@ -90,7 +90,7 @@ npm install typescript --save-dev
 npx tsc --init
 ```
 
-This initializes a TypeScript package with a default <FontIcon icon="iconfont icon-json"/>`tsconfig.json`.
+This initializes a TypeScript package with a default <VPIcon icon="iconfont icon-json"/>`tsconfig.json`.
 
 To integrate `tsup` into a TypeScript project, install it via npm:
 
@@ -98,7 +98,7 @@ To integrate `tsup` into a TypeScript project, install it via npm:
 npm install tsup --save-dev
 ```
 
-Then, update the <FontIcon icon="iconfont icon-json"/>`package.json` file to add a build script:
+Then, update the <VPIcon icon="iconfont icon-json"/>`package.json` file to add a build script:
 
 ```json title="package.json
 {
@@ -108,7 +108,7 @@ Then, update the <FontIcon icon="iconfont icon-json"/>`package.json` file to add
 }
 ```
 
-By default, tsup looks for an <FontIcon icon="iconfont icon-typescript"/>`index.ts` or <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="iconfont icon-typescript"/>`index.ts` entry point. To specify an entry file manually, pass it as an argument. For example, if you have a <FontIcon icon="iconfont icon-typescript"/>`main.ts` file inside <FontIcon icon="fas fa-folder-open"/>`src/`, you can define a simple function:
+By default, tsup looks for an <VPIcon icon="iconfont icon-typescript"/>`index.ts` or <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="iconfont icon-typescript"/>`index.ts` entry point. To specify an entry file manually, pass it as an argument. For example, if you have a <VPIcon icon="iconfont icon-typescript"/>`main.ts` file inside <VPIcon icon="fas fa-folder-open"/>`src/`, you can define a simple function:
 
 ```ts
 export function greet() {
@@ -167,11 +167,11 @@ For more on the differences between ESM and CommonJS — and why these distincti
 
 ## How is tsup used in real-world scenarios?
 
-`tsup` plays a crucial role in efficiently bundling TypeScript code. The configuration in [Mappersmith’s (<FontIcon icon="iconfont icon-github"/>`tulios/mappersmith`)](https://github.com/tulios/mappersmith) <FontIcon icon="iconfont icon-typescript"/>`tsup.config.ts` provides an excellent example of setting up bundling for different environments, target versions, and output formats. It showcases how to define entry points, handle different build scenarios like Node.js and browser environments, and manage sourcemaps, type declarations, and minification.
+`tsup` plays a crucial role in efficiently bundling TypeScript code. The configuration in [Mappersmith’s (<VPIcon icon="iconfont icon-github"/>`tulios/mappersmith`)](https://github.com/tulios/mappersmith) <VPIcon icon="iconfont icon-typescript"/>`tsup.config.ts` provides an excellent example of setting up bundling for different environments, target versions, and output formats. It showcases how to define entry points, handle different build scenarios like Node.js and browser environments, and manage sourcemaps, type declarations, and minification.
 
-The <FontIcon icon="iconfont icon-json"/>`package.json` script in Mappersmith integrates `tsup` as part of a larger build process. It begins by copying version files, running `tsup` to bundle the code, and finally generating type declarations. This modular approach keeps the workflow clean and focused on different aspects of the build process. The build script ties together multiple tasks, demonstrating how `tsup` fits into a broader toolchain.
+The <VPIcon icon="iconfont icon-json"/>`package.json` script in Mappersmith integrates `tsup` as part of a larger build process. It begins by copying version files, running `tsup` to bundle the code, and finally generating type declarations. This modular approach keeps the workflow clean and focused on different aspects of the build process. The build script ties together multiple tasks, demonstrating how `tsup` fits into a broader toolchain.
 
-### The <FontIcon icon="iconfont icon-typescript"/>`tsup.config.ts` file
+### The <VPIcon icon="iconfont icon-typescript"/>`tsup.config.ts` file
 
 For Mappersmith’s `tsup` configuration, the following setup is used:
 
@@ -259,7 +259,7 @@ In the above setup:
 
 ## Handling minified outputs with `outExtension`
 
-When generating production builds, it is often useful to append <FontIcon icon="fa-brands fa-js"/>`.min.js` to minified files for better clarity and organization. The `outExtension` option in tsup allows you to modify output file extensions dynamically. Update your configuration as follows:
+When generating production builds, it is often useful to append <VPIcon icon="fa-brands fa-js"/>`.min.js` to minified files for better clarity and organization. The `outExtension` option in tsup allows you to modify output file extensions dynamically. Update your configuration as follows:
 
 ```ts
 import { defineConfig } from 'tsup';
@@ -304,7 +304,7 @@ export default defineConfig({
 });
 ```
 
-This configuration compiles <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="iconfont icon-typescript"/>`index.ts` and <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="iconfont icon-typescript"/>`utils.ts` separately, enabling better modularity and maintainability in larger projects.
+This configuration compiles <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="iconfont icon-typescript"/>`index.ts` and <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="iconfont icon-typescript"/>`utils.ts` separately, enabling better modularity and maintainability in larger projects.
 
 ---
 

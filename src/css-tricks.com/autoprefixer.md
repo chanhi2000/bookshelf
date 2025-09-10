@@ -52,13 +52,13 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2013/08/autoprefixer-
 
 ::: info
 
-The following is a guest post by [Andrey Sitnik (<FontIcon icon="iconfont icon-github"/>`ai`)](https://github.com/ai), the creator of the [Autoprefixer (<FontIcon icon="iconfont icon-github"/>`ai/autoprefixer`)](https://github.com/ai/autoprefixer) tool, a “postprocessor” for handling vendor prefixes in CSS. Why use this instead of your preprocessor or another tool? Many reasons. Andrey will explain.
+The following is a guest post by [Andrey Sitnik (<VPIcon icon="iconfont icon-github"/>`ai`)](https://github.com/ai), the creator of the [Autoprefixer (<VPIcon icon="iconfont icon-github"/>`ai/autoprefixer`)](https://github.com/ai/autoprefixer) tool, a “postprocessor” for handling vendor prefixes in CSS. Why use this instead of your preprocessor or another tool? Many reasons. Andrey will explain.
 
 :::
 
-[Autoprefixer (<FontIcon icon="iconfont icon-github"/>`ai/autoprefixer`)](https://github.com/ai/autoprefixer) parses CSS files and adds vendor prefixes to CSS rules using the [<FontIcon icon="iconfont icon-caniuse"/>Can I Use](https://caniuse.com/) database to determine which prefixes are needed.
+[Autoprefixer (<VPIcon icon="iconfont icon-github"/>`ai/autoprefixer`)](https://github.com/ai/autoprefixer) parses CSS files and adds vendor prefixes to CSS rules using the [<VPIcon icon="iconfont icon-caniuse"/>Can I Use](https://caniuse.com/) database to determine which prefixes are needed.
 
-All you have to do is add it to your asset building tool ([<FontIcon icon="iconfont icon-grunt"/>Grunt](http://gruntjs.com/), for instance) and you can totally forget about CSS vendor prefixes. Just write regular CSS according to the latest W3C specifications without any prefixes. Like this:
+All you have to do is add it to your asset building tool ([<VPIcon icon="iconfont icon-grunt"/>Grunt](http://gruntjs.com/), for instance) and you can totally forget about CSS vendor prefixes. Just write regular CSS according to the latest W3C specifications without any prefixes. Like this:
 
 ```css
 a {
@@ -76,7 +76,7 @@ a {
 }
 ```
 
-![Autoprefixer logo by [<FontIcon icon="fas fa-globe"/>Anton Lovchikov](http://antiflash.ru/)](https://i0.wp.com/css-tricks.com/wp-content/uploads/2013/08/autoprefixer-logo.png)
+![Autoprefixer logo by [<VPIcon icon="fas fa-globe"/>Anton Lovchikov](http://antiflash.ru/)](https://i0.wp.com/css-tricks.com/wp-content/uploads/2013/08/autoprefixer-logo.png)
 
 ---
 
@@ -84,13 +84,13 @@ a {
 
 We can, of course, write vendor CSS prefixes by hand, but it can be tedious and error-prone.
 
-We can use services like [<FontIcon icon="fas fa-globe"/>Prefixr](http://prefixr.com/) and text editor plugins, but it is still exhausting to work with big blocks of repeating code.
+We can use services like [<VPIcon icon="fas fa-globe"/>Prefixr](http://prefixr.com/) and text editor plugins, but it is still exhausting to work with big blocks of repeating code.
 
-We can use mixin libraries with preproccesors like [<FontIcon icon="fas fa-globe"/>Compass](http://compass-style.org/) for Sass or [<FontIcon icon="fas fa-globe"/>nib](http://visionmedia.github.io/nib/) for Stylus. They solve a lot of problems, but create other problems instead. They force us to use a new syntax. They iterate much slower than modern browsers do, so a stable release can have a lot of unnecessary prefixes, and sometimes we need to create our own mixins.
+We can use mixin libraries with preproccesors like [<VPIcon icon="fas fa-globe"/>Compass](http://compass-style.org/) for Sass or [<VPIcon icon="fas fa-globe"/>nib](http://visionmedia.github.io/nib/) for Stylus. They solve a lot of problems, but create other problems instead. They force us to use a new syntax. They iterate much slower than modern browsers do, so a stable release can have a lot of unnecessary prefixes, and sometimes we need to create our own mixins.
 
 And Compass does not really hide prefixes from you since you still need to decide on a lot of questions, for example: Do I need to write a mixin for `border-radius`? Do I need to split arguments for `+transition` by comma?
 
-Lea Verou’s [<FontIcon icon="fas fa-globe"/>-prefix-free](http://leaverou.github.io/prefixfree/) came closest to solving this problem, but using client side libraries is not such a good idea when you take end-user perfomance into account. To avoid doing the same job again and again, it is better to build CSS once: during asset building or project deployment.
+Lea Verou’s [<VPIcon icon="fas fa-globe"/>-prefix-free](http://leaverou.github.io/prefixfree/) came closest to solving this problem, but using client side libraries is not such a good idea when you take end-user perfomance into account. To avoid doing the same job again and again, it is better to build CSS once: during asset building or project deployment.
 
 ---
 
@@ -98,14 +98,14 @@ Lea Verou’s [<FontIcon icon="fas fa-globe"/>-prefix-free](http://leaverou.gith
 
 Instead of being a preprocessor - such as Sass and Stylus - Autoprefixer is a postprocessor. It doesn’t use any specific syntax and works with common CSS. Autoprefixer can be easily integrated with Sass and Stylus, since it runs after CSS is already compiled.
 
-Autoprefixer is based on [Rework (<FontIcon icon="iconfont icon-github"/>`visionmedia/rework`)](https://github.com/visionmedia/rework), a framework for writing your own CSS postproccesors. Rework parses CSS to useful JavaScript structure and exports it back to CSS after your manipulations.
+Autoprefixer is based on [Rework (<VPIcon icon="iconfont icon-github"/>`visionmedia/rework`)](https://github.com/visionmedia/rework), a framework for writing your own CSS postproccesors. Rework parses CSS to useful JavaScript structure and exports it back to CSS after your manipulations.
 
 Each version of Autoprefixer contains a copy of latest Can I Use data:
 
 - List of current browsers and their popularity.
 - List of prefixes required for new CSS properties, values and selectors.
 
-By default, Autoprefixer will support 2 latest versions of major browsers, much like [<FontIcon icon="fa-brands fa-google"/>Google does](http://support.google.com/a/bin/answer.py?answer=33864). But you can choose, what browsers are supported in your project, by name (like **“ff 21”**) or by pattern:
+By default, Autoprefixer will support 2 latest versions of major browsers, much like [<VPIcon icon="fa-brands fa-google"/>Google does](http://support.google.com/a/bin/answer.py?answer=33864). But you can choose, what browsers are supported in your project, by name (like **“ff 21”**) or by pattern:
 
 - Last 2 version of each major browsers using **“last 2 versions”**.
 - With more that 1 % of global usage statistics using **“> 1%”**.
@@ -168,15 +168,15 @@ a {
 }
 ```
 
-So after Autoprefixer, CSS will contain only actual vendor prefixes. After [<FontIcon icon="fas fa-globe"/>Fotorama](http://fotorama.io/) switched from Compass to Autoprefixer, the CSS file size [decreased (<FontIcon icon="fa-brands fa-x-twitter"/>`fotoramajs`)](https://twitter.com/fotoramajs/status/362686759944982528) by almost 20%.
+So after Autoprefixer, CSS will contain only actual vendor prefixes. After [<VPIcon icon="fas fa-globe"/>Fotorama](http://fotorama.io/) switched from Compass to Autoprefixer, the CSS file size [decreased (<VPIcon icon="fa-brands fa-x-twitter"/>`fotoramajs`)](https://twitter.com/fotoramajs/status/362686759944982528) by almost 20%.
 
 ---
 
 ## Demo
 
-If you still don’t use any kind of tool to automate the building of your assets, be sure to check out [<FontIcon icon="iconfont icon-grunt"/>Grunt](http://gruntjs.com/). I highly recommend to start using build tools. This can open you a whole new world of “sugar” syntaxes, time-saving mixin libraries and useful image processing tools. All of developers’ productivity methods to save a lot of nerves and time (the freedom to choose languages, code re-use, the ability to use third-party libraries) are available now for front-end programmers.
+If you still don’t use any kind of tool to automate the building of your assets, be sure to check out [<VPIcon icon="iconfont icon-grunt"/>Grunt](http://gruntjs.com/). I highly recommend to start using build tools. This can open you a whole new world of “sugar” syntaxes, time-saving mixin libraries and useful image processing tools. All of developers’ productivity methods to save a lot of nerves and time (the freedom to choose languages, code re-use, the ability to use third-party libraries) are available now for front-end programmers.
 
-Let’s create a project directory and write simple CSS in <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`:
+Let’s create a project directory and write simple CSS in <VPIcon icon="fa-brands fa-css3-alt"/>`style.css`:
 
 ```css
 a { }
@@ -188,7 +188,7 @@ For this example, we will use Grunt. First, we will need to install `grunt-autop
 npm install grunt-cli grunt-contrib-watch grunt-autoprefixer
 ```
 
-Then we should create <FontIcon icon="fa-brands fa-js"/>`Gruntfile.js` and enable Autoprefixer:
+Then we should create <VPIcon icon="fa-brands fa-js"/>`Gruntfile.js` and enable Autoprefixer:
 
 ```js title="Gruntfile.js"
 module.exports = function (grunt) {
@@ -212,7 +212,7 @@ module.exports = function (grunt) {
 };
 ```
 
-This config enables the compilation of <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` to <FontIcon icon="fas fa-folder-open"/>`build/`<FontIcon icon="fa-brands fa-css3-alt"/>`style.css` using Autoprefixer. Also we will use `grunt-contrib-watch` to recompile <FontIcon icon="fas fa-folder-open"/>`build/`<FontIcon icon="fa-brands fa-css3-alt"/>`style.css` every time style.css changes.
+This config enables the compilation of <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` to <VPIcon icon="fas fa-folder-open"/>`build/`<VPIcon icon="fa-brands fa-css3-alt"/>`style.css` using Autoprefixer. Also we will use `grunt-contrib-watch` to recompile <VPIcon icon="fas fa-folder-open"/>`build/`<VPIcon icon="fa-brands fa-css3-alt"/>`style.css` every time style.css changes.
 
 Let’s start Grunt’s Watch:
 
@@ -220,7 +220,7 @@ Let’s start Grunt’s Watch:
 ./node_modules/.bin/grunt watch
 ```
 
-Now, we’ll add a CSS3 expression to <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` and save the file:
+Now, we’ll add a CSS3 expression to <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` and save the file:
 
 ```css title="style.css"
 a {
@@ -228,7 +228,7 @@ a {
 }
 ```
 
-The magic has just happened and now we have a <FontIcon icon="fas fa-folder-open"/>`build/`<FontIcon icon="fa-brands fa-css3-alt"/>`style.css` file. Grunt detected the change in <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` and launched the Autoprefixer task. Autoprefixer did find the `calc()` value unit, that [needs a vendor](https://caniuse.com/calc) prefix for Safari 6.
+The magic has just happened and now we have a <VPIcon icon="fas fa-folder-open"/>`build/`<VPIcon icon="fa-brands fa-css3-alt"/>`style.css` file. Grunt detected the change in <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` and launched the Autoprefixer task. Autoprefixer did find the `calc()` value unit, that [needs a vendor](https://caniuse.com/calc) prefix for Safari 6.
 
 ```css title="style.css"
 a {
@@ -237,7 +237,7 @@ a {
 }
 ```
 
-Now we’ll add a little bit more complicated CSS3 to <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` and save the file:
+Now we’ll add a little bit more complicated CSS3 to <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` and save the file:
 
 ```css title="style.css"
 a {
@@ -246,7 +246,7 @@ a {
 }
 ```
 
-Autoprefixer already knows that Chrome, Safari 6 and Opera 15 [<FontIcon icon="iconfont icon-caniuse"/>need](https://caniuse.com/css-transitions) prefixes for `transition` and `transform`. But IE 9 also needs a prefix for `transform`, which we used as value in `transition`.
+Autoprefixer already knows that Chrome, Safari 6 and Opera 15 [<VPIcon icon="iconfont icon-caniuse"/>need](https://caniuse.com/css-transitions) prefixes for `transition` and `transform`. But IE 9 also needs a prefix for `transform`, which we used as value in `transition`.
 
 ```css title="style.css"
 a {
@@ -264,9 +264,9 @@ Autoprefixer is designed to perform all the dirty work for you. It will check th
 
 ## What Next?
 
-1. Autoprefixer supports Ruby on Rails, [<FontIcon icon="fas fa-globe"/>Middleman](http://middlemanapp.com/), [<FontIcon icon="iconfont icon-github"/>`nodeca/mincer`](https://github.com/nodeca/mincer), Grunt, Sublime Text. Learn more about how to use it with your environment in the [documentation (<FontIcon icon="iconfont icon-github"/>`ai/autoprefixer`)](https://github.com/ai/autoprefixer#usage).
-2. If your environment doesn’t support Autoprefixer yet, please, [report it (<FontIcon icon="iconfont icon-github"/>`ai/autoprefixer`)](https://github.com/ai/autoprefixer/issues/new) and I’ll try to help.
-3. Follow [<FontIcon icon="fa-brands fa-x-twitter"/>`@autoprefixer`](https://twitter.com/autoprefixer) for info on updates and new features.
+1. Autoprefixer supports Ruby on Rails, [<VPIcon icon="fas fa-globe"/>Middleman](http://middlemanapp.com/), [<VPIcon icon="iconfont icon-github"/>`nodeca/mincer`](https://github.com/nodeca/mincer), Grunt, Sublime Text. Learn more about how to use it with your environment in the [documentation (<VPIcon icon="iconfont icon-github"/>`ai/autoprefixer`)](https://github.com/ai/autoprefixer#usage).
+2. If your environment doesn’t support Autoprefixer yet, please, [report it (<VPIcon icon="iconfont icon-github"/>`ai/autoprefixer`)](https://github.com/ai/autoprefixer/issues/new) and I’ll try to help.
+3. Follow [<VPIcon icon="fa-brands fa-x-twitter"/>`@autoprefixer`](https://twitter.com/autoprefixer) for info on updates and new features.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

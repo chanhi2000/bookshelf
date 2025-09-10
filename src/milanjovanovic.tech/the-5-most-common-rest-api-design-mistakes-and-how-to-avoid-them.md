@@ -111,7 +111,7 @@ And please, for the love of all that is holy, wrap your arrays:
 
 I know it feels like pointless boilerplate now, but trust me, when you need to add pagination info six months from now, you'll thank yourself for not having to break every client that expects a raw array.
 
-Yeah, the [<FontIcon icon="fa-brands fa-wikipedia-w"/>REST](https://en.wikipedia.org/wiki/REST) purists will complain that filters aren't "RESTful enough." Let them. Your API will be flexible, maintainable, and actually pleasant to use. I'll take that over conceptual purity any day.
+Yeah, the [<VPIcon icon="fa-brands fa-wikipedia-w"/>REST](https://en.wikipedia.org/wiki/REST) purists will complain that filters aren't "RESTful enough." Let them. Your API will be flexible, maintainable, and actually pleasant to use. I'll take that over conceptual purity any day.
 
 ---
 
@@ -177,7 +177,7 @@ When breaking changes are truly unavoidable, at least be a decent human about it
 
 Yes, this means you need to actually think about your API design upfront. You can't just YOLO field names and fix them later. But that constraint will make you design better APIs, and future-you will buy present-you a beer.
 
-If you want to learn more about this, I recommend reading [API Change Management (<FontIcon icon="fa-brands fa-medium"/>`good-api`)](https://medium.com/good-api/api-change-management-2fe5bba32e9b).
+If you want to learn more about this, I recommend reading [API Change Management (<VPIcon icon="fa-brands fa-medium"/>`good-api`)](https://medium.com/good-api/api-change-management-2fe5bba32e9b).
 
 ---
 
@@ -281,7 +281,7 @@ Now, don't go leaking your entire stack trace in production like an amateur. Giv
 
 ## 5. Ignoring Security Until It's Too Late
 
-"We'll add auth in phase 2" — famous last words before your API becomes a data buffet for hackers. Ask the [<FontIcon icon="fas fa-globe"/>Tea app](https://teaforwomen.com/cyberincident) how that worked out for them.
+"We'll add auth in phase 2" — famous last words before your API becomes a data buffet for hackers. Ask the [<VPIcon icon="fas fa-globe"/>Tea app](https://teaforwomen.com/cyberincident) how that worked out for them.
 
 Here's what happens when you try to bolt on security later: Every client breaks when you add authentication. That data you've been leaking? It's probably been scraped already. Your compliance audit? Failed. That one security incident? Your users will bring it up for years.
 
@@ -289,7 +289,7 @@ Here's what happens when you try to bolt on security later: Every client breaks 
 
 [**Rate limiting**](/milanjovanovic.tech/advanced-rate-limiting-use-cases-in-dotnet.md) isn't just about stopping abuse, it's about fairness. Start simple: 1000 requests per hour per API key. When they hit the limit, return `429` with headers showing when they can try again. Then get fancy: different limits for different endpoints, higher limits for paying customers, lower limits for that one client who keeps doing weird stuff.
 
-**HTTPS everywhere**. Yes, even for your internal "no one will ever find this" API. It's 2025, not 2005. [<FontIcon icon="fas fa-globe"/>Let's Encrypt](https://letsencrypt.org/) is free. You have no excuse.
+**HTTPS everywhere**. Yes, even for your internal "no one will ever find this" API. It's 2025, not 2005. [<VPIcon icon="fas fa-globe"/>Let's Encrypt](https://letsencrypt.org/) is free. You have no excuse.
 
 Look, security makes things slower and more complex. Auth checks on every request, encryption overhead, state management for rate limiting, it all adds up. But you know what's worse? Explaining to your users why their data is being sold on the dark web. Build security in from the start, or prepare for a world of pain.
 

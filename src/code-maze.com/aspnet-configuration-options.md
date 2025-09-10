@@ -55,7 +55,7 @@ If you’ve missed some of the basic configuration stuff, check out the [ASP.NET
 
 ::: info
 
-The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [<FontIcon icon="fas fa-code-branch"/>`basic-concepts` (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/basic-concepts) branch. To check out the finished source code, check out the [<FontIcon icon="fas fa-code-branch"/>`options-pattern` (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/options-pattern) branch.
+The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [<VPIcon icon="fas fa-code-branch"/>`basic-concepts` (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/basic-concepts) branch. To check out the finished source code, check out the [<VPIcon icon="fas fa-code-branch"/>`options-pattern` (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/options-pattern) branch.
 
 <SiteInfo
   name="CodeMazeBlog/aspnet-core-configuration"

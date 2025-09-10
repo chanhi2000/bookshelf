@@ -52,20 +52,20 @@ cover: https://docker.com/app/uploads/8478f1f4-490f-4901-ac48-3cc78a4a0980.jpg
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/8478f1f4-490f-4901-ac48-3cc78a4a0980.jpg"/>
 
-This is part of a series of articles describing how the AtSea Shop application was built using enterprise development tools and Docker. In the previous post, I introduced the AtSea application and how I developed a REST application with the Eclipse IDE and Docker. [<FontIcon icon="fa-brands fa-docker"/>Multi-stage builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/), a Docker feature introduced in Docker 17.06 CE, let you orchestrate a complex build in a single Dockerfile. Before multi-stage build, Docker users would use a script to compile the applications on the host machine, then use Dockerfiles to build the images. The [AtSea application (<FontIcon icon="iconfont icon-github"/>`dockersamples/atsea-sample-shop-app`)](https://github.com/dockersamples/atsea-sample-shop-app) is the perfect use case for a multi-stage build because:
+This is part of a series of articles describing how the AtSea Shop application was built using enterprise development tools and Docker. In the previous post, I introduced the AtSea application and how I developed a REST application with the Eclipse IDE and Docker. [<VPIcon icon="fa-brands fa-docker"/>Multi-stage builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/), a Docker feature introduced in Docker 17.06 CE, let you orchestrate a complex build in a single Dockerfile. Before multi-stage build, Docker users would use a script to compile the applications on the host machine, then use Dockerfiles to build the images. The [AtSea application (<VPIcon icon="iconfont icon-github"/>`dockersamples/atsea-sample-shop-app`)](https://github.com/dockersamples/atsea-sample-shop-app) is the perfect use case for a multi-stage build because:
 
 - it uses node.js to compile the ReactJs app into storefront
 - it uses Spring Boot and Maven to make a standalone jar file
 - it is deployed to a standalone JDK container
 - the storefront is then included in the jar
 
-Let’s look at the [Dockerfile (<FontIcon icon="iconfont icon-github"/>`spara`)](https://gist.github.com/spara/780c4f6f3debc451aa2e0c8ffbad0b4f).
+Let’s look at the [Dockerfile (<VPIcon icon="iconfont icon-github"/>`spara`)](https://gist.github.com/spara/780c4f6f3debc451aa2e0c8ffbad0b4f).
 
-The react-app is an extension of [<FontIcon icon="iconfont icon-github"/>`facebookincubator/create-react-app`](https://github.com/facebookincubator/create-react-app). From within the react-app directory we run AtSea’s frontend in local development mode.
+The react-app is an extension of [<VPIcon icon="iconfont icon-github"/>`facebookincubator/create-react-app`](https://github.com/facebookincubator/create-react-app). From within the react-app directory we run AtSea’s frontend in local development mode.
 
 The first stage of the build uses a Node base image to create a production-ready frontend build directory consisting of static javascript and css files. A Docker best practice is named stages, e.g. `"FROM node:latest AS storefront"`.
 
-This step first makes our image’s working directory at <FontIcon icon="fas fa-folder-open"/>`/usr/src/atsea/app/react-app`. We copy the contents of the react-app directory, which includes the ReactJs source and package.json file, to the root of our image’s working directory. Then we use npm to install all necessary react-app’s node dependencies. Finally, npm run build bundles the react-app using the node dependencies and ReactJs source into a build directory at the root.
+This step first makes our image’s working directory at <VPIcon icon="fas fa-folder-open"/>`/usr/src/atsea/app/react-app`. We copy the contents of the react-app directory, which includes the ReactJs source and package.json file, to the root of our image’s working directory. Then we use npm to install all necessary react-app’s node dependencies. Finally, npm run build bundles the react-app using the node dependencies and ReactJs source into a build directory at the root.
 
 ```dockerfile title="Dockerfile"
 FROM node:latest AS storefront
@@ -88,7 +88,7 @@ COPY . .
 RUN mvn -B -s /usr/share/maven/ref/settings-docker.xml package -DskipTests
 ```
 
-Putting it all together, we use a java image to build the final Docker image. The build directory in storefront, created during the first build stage, is copied to the <FontIcon icon="fas fa-folder-open"/>`/static` directory, defined as an external directory in the AtSea REST application. We are choosing to leave behind all those node modules.
+Putting it all together, we use a java image to build the final Docker image. The build directory in storefront, created during the first build stage, is copied to the <VPIcon icon="fas fa-folder-open"/>`/static` directory, defined as an external directory in the AtSea REST application. We are choosing to leave behind all those node modules.
 
 We copy the AtSea jar file to the java image and set ENTRYPOINT to start the application and set the profile to use a PostgreSQL database. The final image is compact since it only contains the compiled applications in the JDK base image.
 
@@ -149,7 +149,7 @@ Docker Cloud will notify you if the build was successful.
 
 ![Multi-stage Builds](https://docker.com/app/uploads/13c713b5-fdbb-4d25-ad1a-ff3a8f5fb0d6.jpg)
 
-For more information on multi-stage builds read the [<FontIcon icon="fa-brands fa-docker"/>documentation](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) and Docker Captain Alexis Ellis’ [<FontIcon icon="fas fa-globe"/>Builder pattern vs. Multi-stage builds in Docker](http://blog.alexellis.io/mutli-stage-docker-builds/). To build compact and efficient images watch Abby Fuller’s Dockercon 2017 presentation, [<FontIcon icon="fa-brands fa-youtube"/>Creating Effective Images](https://youtu.be/pPsREQbf3PA) and check out her [<FontIcon icon="fas fa-globe"/>slides](https://slideshare.net/Docker/creating-effective-images-abby-fuller-aws).
+For more information on multi-stage builds read the [<VPIcon icon="fa-brands fa-docker"/>documentation](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) and Docker Captain Alexis Ellis’ [<VPIcon icon="fas fa-globe"/>Builder pattern vs. Multi-stage builds in Docker](http://blog.alexellis.io/mutli-stage-docker-builds/). To build compact and efficient images watch Abby Fuller’s Dockercon 2017 presentation, [<VPIcon icon="fa-brands fa-youtube"/>Creating Effective Images](https://youtu.be/pPsREQbf3PA) and check out her [<VPIcon icon="fas fa-globe"/>slides](https://slideshare.net/Docker/creating-effective-images-abby-fuller-aws).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -52,7 +52,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/01/smooth-scroll
 
 For a period in the 2010s, **parallax** was a guaranteed way to make your website “cool”. Indeed, Chris Coyier was [**writing about it as far back as 2008**](/css-tricks.com/3d-parralax-background-effect.md).
 
-For those unfamiliar with the concept, parallax is a pattern in which different elements of a webpage move at varying speeds as the user scrolls, creating a three-dimensional, layered appearance. A true parallax effect was once only achievable using JavaScript. However, [<FontIcon icon="iconfont icon-css-tricks"/>scroll-driven animations](https://css-tricks.com/tag/scroll-driven-animation/) have now given us a CSS-only solution, which is free from the main-thread blocking that can plague JavaScript animations.
+For those unfamiliar with the concept, parallax is a pattern in which different elements of a webpage move at varying speeds as the user scrolls, creating a three-dimensional, layered appearance. A true parallax effect was once only achievable using JavaScript. However, [<VPIcon icon="iconfont icon-css-tricks"/>scroll-driven animations](https://css-tricks.com/tag/scroll-driven-animation/) have now given us a CSS-only solution, which is free from the main-thread blocking that can plague JavaScript animations.
 
 Parallax may have become a little cliché, but I think it’s worth revisiting with this new CSS feature.
 
@@ -107,7 +107,7 @@ By default, CSS animations are duration-based and run when the specified selecto
 
 We do not want our animation to be triggered immediately. Instead, we intend to use the page’s scroll position as a reference to calculate the animation’s progress.
 
-Scroll-driven animations provide two new **animation timeline** CSS functions. These additions, [<FontIcon icon="iconfont icon-css-tricks"/>`view()`](https://css-tricks.com/almanac/functions/v/view/) and [<FontIcon icon="iconfont icon-css-tricks"/>`scroll()`](https://css-tricks.com/almanac/functions/s/scroll/), tell the browser what to reference when calculating the progress of a CSS animation. We will use the `view()` function later, but for now, let’s focus on `scroll()`. The [<FontIcon icon="fa-brands fa-firefox"/>scroll progress timeline](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/scroll) couples the progression of an animation to the user’s scroll position within a scroll container. Parameters can be included to change the scroll axis and container element, but these are not necessary for our implementation.
+Scroll-driven animations provide two new **animation timeline** CSS functions. These additions, [<VPIcon icon="iconfont icon-css-tricks"/>`view()`](https://css-tricks.com/almanac/functions/v/view/) and [<VPIcon icon="iconfont icon-css-tricks"/>`scroll()`](https://css-tricks.com/almanac/functions/s/scroll/), tell the browser what to reference when calculating the progress of a CSS animation. We will use the `view()` function later, but for now, let’s focus on `scroll()`. The [<VPIcon icon="fa-brands fa-firefox"/>scroll progress timeline](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/scroll) couples the progression of an animation to the user’s scroll position within a scroll container. Parameters can be included to change the scroll axis and container element, but these are not necessary for our implementation.
 
 Let’s use a scroll progress timeline for our animation:
 
@@ -152,7 +152,7 @@ Now let’s add a new parallax layer by animating the header text and icons with
 
 <VidStack src="youtube/Hhb0ytMMj5M" />
 
-That’s not quite right. The animation for the sections further down the page is nearly done by the time they come into view. Luckily, the view animation timeline solves this problem. By setting the [<FontIcon icon="iconfont icon-css-tricks"/>`animation-timeline`](https://css-tricks.com/almanac/properties/a/animation-timeline/) property to `view()`, our animation progresses based on the position of the subject within the scrollport, which is the part of the container that is visible when scrolling. Like the scroll animation timeline, scrolling in reverse will also reverse the animation.
+That’s not quite right. The animation for the sections further down the page is nearly done by the time they come into view. Luckily, the view animation timeline solves this problem. By setting the [<VPIcon icon="iconfont icon-css-tricks"/>`animation-timeline`](https://css-tricks.com/almanac/properties/a/animation-timeline/) property to `view()`, our animation progresses based on the position of the subject within the scrollport, which is the part of the container that is visible when scrolling. Like the scroll animation timeline, scrolling in reverse will also reverse the animation.
 
 Let’s try changing our animation timeline property for the hero text:
 
@@ -168,7 +168,7 @@ That looks pretty good, but there is a problem with the header content flashing 
 
 <VidStack src="youtube/lclrA2ey0_A" />
 
-We can solve this by adding an `inset` parameter to the `view()` function. This adjusts the size of the container in which the animation will take place. According to [<FontIcon icon="fa-brands fa-firefox"/>MDN’s documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/view#inset), the “inset is used to determine whether the element is in view which determines the length of the animation timeline. In other words, the animation lasts as long as the element is in the inset-adjusted view.”
+We can solve this by adding an `inset` parameter to the `view()` function. This adjusts the size of the container in which the animation will take place. According to [<VPIcon icon="fa-brands fa-firefox"/>MDN’s documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/view#inset), the “inset is used to determine whether the element is in view which determines the length of the animation timeline. In other words, the animation lasts as long as the element is in the inset-adjusted view.”
 
 So, by using a negative value, we make the container larger than the window and trigger the animation to start a little before and end a little after the subject is visible. This accounts for the fact that the subject moves during the animation.
 
@@ -190,7 +190,7 @@ Now both the text and background animate smoothly at different speeds.
 
 ## Adjusting animations using animation ranges
 
-So far, we have employed both **scroll** and **view** progress timelines. Let’s look at another way to adjust the start and end timing of the animations using the [<FontIcon icon="fa-brands fa-firefox"/>`animation-range`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range) property. It can be used to modify where along the timeline the animation will start and end.
+So far, we have employed both **scroll** and **view** progress timelines. Let’s look at another way to adjust the start and end timing of the animations using the [<VPIcon icon="fa-brands fa-firefox"/>`animation-range`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range) property. It can be used to modify where along the timeline the animation will start and end.
 
 We’ll start by adding a `view()` timeline animation to the `#spaceship` emoji:
 
@@ -286,7 +286,7 @@ We can also combine animation ranges to run completely different animations at d
 
 ## Fallbacks and accessibility
 
-Our webpage features numerous moving elements that may cause discomfort for some users. Let’s consider accessibility for motion sensitivities and incorporate the [<FontIcon icon="iconfont icon-css-tricks"/>`prefers-reduced-motion`](https://css-tricks.com/almanac/rules/m/media/prefers-reduced-motion/) CSS media feature.
+Our webpage features numerous moving elements that may cause discomfort for some users. Let’s consider accessibility for motion sensitivities and incorporate the [<VPIcon icon="iconfont icon-css-tricks"/>`prefers-reduced-motion`](https://css-tricks.com/almanac/rules/m/media/prefers-reduced-motion/) CSS media feature.
 
 There are two possible values: `no-preference`, and `reduce`. If we want to fine-tune the webpage with animations disabled by default and then enhance each selector with animations and associated styles, then we can use `no-preference` to enable them.
 
@@ -311,7 +311,7 @@ For us, however, the webpage content and images will still all be visible if we 
 }
 ```
 
-In addition to considering accessibility, we should also take into account that scroll-driven animations are not supported by all browsers at the time of writing. If we care a lot about users seeing our animations, we can add a polyfill ([<FontIcon icon="fas fa-globe"/>direct link](https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js)) to extend this functionality to currently unsupported browsers. This, however, will force the animation to run on the main thread.
+In addition to considering accessibility, we should also take into account that scroll-driven animations are not supported by all browsers at the time of writing. If we care a lot about users seeing our animations, we can add a polyfill ([<VPIcon icon="fas fa-globe"/>direct link](https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js)) to extend this functionality to currently unsupported browsers. This, however, will force the animation to run on the main thread.
 
 Alternatively, we could decide that performance is important enough to skip the animations on unsupported browsers, thereby keeping the main thread clear. In this case, we can use the `@supports` selector and include the styles only on supported browsers.
 

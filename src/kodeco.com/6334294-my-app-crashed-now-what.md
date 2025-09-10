@@ -65,7 +65,7 @@ You’ll understand more about these points as you fix the project. Now, it’s 
 
 ## Getting Started
 
-Download the starter project for this tutorial by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this page. You’ll find a project called `CrashGallery`.
+Download the starter project for this tutorial by using the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this page. You’ll find a project called `CrashGallery`.
 
 ![Crash Gallery main screen](https://koenig-media.raywenderlich.com/uploads/2019/11/Simulator-Screen-Shot-iPhone-8-2019-11-02-at-13.26.24-281x500.png =240x)
 
@@ -97,7 +97,7 @@ Whenever an app that ran from Xcode crashes, the debugger shows you the line tha
 
 The exception breakpoint automatically stops the app when a crash happens and shows you the line that caused it. Now, that’s not always the line you need to fix. The crash might be due to a mistake a few lines earlier, but this line _is_ where the app says “Hey… I can’t proceed anymore.”
 
-To add an exception breakpoint, open the <FontIcon icon="iconfont icon-select"/>`[Debug navigator]` and click the <FontIcon icon="iconfont icon-select"/>`[+]` in the navigator’s lower left corner. Choose <FontIcon icon="iconfont icon-select"/>`[Exception Breakpoint…]` from resulting menu. Click anywhere outside the resulting dialog to set the breakpoint.
+To add an exception breakpoint, open the <VPIcon icon="iconfont icon-select"/>`[Debug navigator]` and click the <VPIcon icon="iconfont icon-select"/>`[+]` in the navigator’s lower left corner. Choose <VPIcon icon="iconfont icon-select"/>`[Exception Breakpoint…]` from resulting menu. Click anywhere outside the resulting dialog to set the breakpoint.
 
 ::: tip Note
 
@@ -153,7 +153,7 @@ Build and run the app, then open the first item — titled **Force Unwrapping** 
 
 This screen’s task is to compute the sum of the numbers written at the top. The top text view has numbers from the television show [“Lost”](https://www.imdb.com/title/tt0636286/?ref_=ttep_ep18) entered and separated by commas.
 
-The sum of the numbers will appear on the screen when you tap the <FontIcon icon="iconfont icon-select"/>`[Calculate]` button. Give it a shot.
+The sum of the numbers will appear on the screen when you tap the <VPIcon icon="iconfont icon-select"/>`[Calculate]` button. Give it a shot.
 
 ![Sum 108 calculated and written on-screen](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_9-281x500.png =240x)
 
@@ -161,11 +161,11 @@ Great, so it works as you intended. Now, play around with it and add `,two` at t
 
 ![Updated sequence text](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_10-480x123.png)
 
-Tap <FontIcon icon="iconfont icon-select"/>`[Calculate]` and see what happens… It crashes.
+Tap <VPIcon icon="iconfont icon-select"/>`[Calculate]` and see what happens… It crashes.
 
 ![App crashed in `calculateSum(items:)`](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_11-1-480x269.png)
 
-The crash is in <FontIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift` on line number 49. Have a look at what Xcode shows you — there’s a red highlight on the line that triggered the crash.
+The crash is in <VPIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift` on line number 49. Have a look at what Xcode shows you — there’s a red highlight on the line that triggered the crash.
 
 The **Console Log** has information on the crash and the **Variables View** shows the values of `item` and `finalValue` within the scope of `calculateSum(items:)`.
 
@@ -232,7 +232,7 @@ It doesn’t crash anymore, but is it completely fixed? Instead of adding the nu
 
 ![Removing the last number from the list](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_30.gif =240x)
 
-The app crashed again in <FontIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift` on line 58.
+The app crashed again in <VPIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift` on line 58.
 
 ![The crash line in Xcode.](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_31-650x428.png)
 
@@ -282,7 +282,7 @@ When you turn off the switch, the second question disappears, but when you turn 
 
 ![Crashing line for the second screen](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_18-650x365.png)
 
-The app crashed in <FontIcon icon="fa-brands fa-swift"/>`WeakReferencesViewController.swift` line 37.
+The app crashed in <VPIcon icon="fa-brands fa-swift"/>`WeakReferencesViewController.swift` line 37.
 
 `WeakReferencesViewController` has three items:
 
@@ -332,15 +332,15 @@ Go ahead and press that button. As you may have expected, there’s a crash. But
 
 ![Crash line is the declaration of `AppDelegate` and crash log is long](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_25-650x428.png)
 
-Xcode stopped in <FontIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` on line 32.
+Xcode stopped in <VPIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` on line 32.
 
 Add an exception breakpoint to your project, then build and run to see the difference.
 
 ![Third screen crash with exception breakpoint added](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_26-650x428.png)
 
-This time, Xcode stopped in <FontIcon icon="fa-brands fa-swift"/>`InvalidTableUpdatesViewController.swift` on line 37. The log is empty and has no information provided because the breakpoint stopped right before the exception happened. This is a different kind of crash than the previous ones.
+This time, Xcode stopped in <VPIcon icon="fa-brands fa-swift"/>`InvalidTableUpdatesViewController.swift` on line 37. The log is empty and has no information provided because the breakpoint stopped right before the exception happened. This is a different kind of crash than the previous ones.
 
-When you press the <FontIcon icon="iconfont icon-select"/>`[Continue]` button, Xcode will return to the class declaration line in <FontIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` and the log will have the crash information.
+When you press the <VPIcon icon="iconfont icon-select"/>`[Continue]` button, Xcode will return to the class declaration line in <VPIcon icon="fa-brands fa-swift"/>`AppDelegate.swift` and the log will have the crash information.
 
 ![Continue execution button](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_27-480x137.png)
 
@@ -370,7 +370,7 @@ These situations are ideal for **assertions**. They’ll help you, or anyone els
 
 Writing a framework is also a good example where assertions can be useful. You can raise an assertion if another developer provides irrational input to your framework that won’t perform as expected.
 
-An example of when this is handy is in <FontIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift`. Nothing will happen in `showResult(result:)` if `result` doesn’t cast to `Int` or `String`, and whoever is using your code won’t know what’s going on right away. Of course they’re doing something wrong, but wouldn’t it be awesome if the code was smart enough to tell them what?
+An example of when this is handy is in <VPIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift`. Nothing will happen in `showResult(result:)` if `result` doesn’t cast to `Int` or `String`, and whoever is using your code won’t know what’s going on right away. Of course they’re doing something wrong, but wouldn’t it be awesome if the code was smart enough to tell them what?
 
 To try it out, add this block of code at the end of `showResult(result:)`:
 
@@ -388,11 +388,11 @@ showResult(result: UIView())
 
 Here, you send `showResult(result:)` a very unexpected value… a `UIView`!
 
-Build and run, open the <FontIcon icon="iconfont icon-select"/>`[Force Unwrapping]` screen and press the <FontIcon icon="iconfont icon-select"/>`[Calculate]` button.
+Build and run, open the <VPIcon icon="iconfont icon-select"/>`[Force Unwrapping]` screen and press the <VPIcon icon="iconfont icon-select"/>`[Calculate]` button.
 
 ![App crashed on the assertion call](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_33-650x428.png)
 
-Your app crashed in <FontIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift` on line 65.
+Your app crashed in <VPIcon icon="fa-brands fa-swift"/>`ForceUnwrappingViewController.swift` on line 65.
 
 As expected, the crash line is the assertion call, but you haven’t fully answered the question. Should crashing code be in the final app on the AppStore if the developer doesn’t cover all cases?
 
@@ -400,23 +400,23 @@ The answer to the question is: It doesn’t matter.
 
 The assertions do indeed exist in your final product, but it’ll be as if they aren’t there at all.
 
-Assertions only work while your app is building under the <FontIcon icon="iconfont icon-select"/>`[debug]` configuration. Assertions won’t do anything under the <FontIcon icon="iconfont icon-select"/>`[release]` configuration, which is how you’ll build your app when you upload it on the AppStore.
+Assertions only work while your app is building under the <VPIcon icon="iconfont icon-select"/>`[debug]` configuration. Assertions won’t do anything under the <VPIcon icon="iconfont icon-select"/>`[release]` configuration, which is how you’ll build your app when you upload it on the AppStore.
 
 Want to see it for yourself? You’ll try it out in the next step.
 
 ### Changing Your Build Configuration
 
-Click the <FontIcon icon="iconfont icon-select"/>`[CrashGallery]` target in the upper-left corner of your Xcode window to try it out. Select <FontIcon icon="iconfont icon-select"/>`[Edit Scheme]` from the drop-down menu, then choose <FontIcon icon="iconfont icon-select"/>`[Run]` from the left-hand side of the new window and select <FontIcon icon="iconfont icon-select"/>`[Release]` from <FontIcon icon="iconfont icon-select"/>`[Build Configuration]`.
+Click the <VPIcon icon="iconfont icon-select"/>`[CrashGallery]` target in the upper-left corner of your Xcode window to try it out. Select <VPIcon icon="iconfont icon-select"/>`[Edit Scheme]` from the drop-down menu, then choose <VPIcon icon="iconfont icon-select"/>`[Run]` from the left-hand side of the new window and select <VPIcon icon="iconfont icon-select"/>`[Release]` from <VPIcon icon="iconfont icon-select"/>`[Build Configuration]`.
 
 ![Changing your build configuration](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_34.gif)
 
-Build and run, then press the <FontIcon icon="iconfont icon-select"/>`[Calculate]` button once more.
+Build and run, then press the <VPIcon icon="iconfont icon-select"/>`[Calculate]` button once more.
 
 ![Sum 108 calculated and written on-screen](https://koenig-media.raywenderlich.com/uploads/2019/11/AppCrashed_9-281x500.png =240x)
 
 No crashes, no assertions. It worked normally. Your code didn’t do anything when it got an unexpected value, so this step had no effect.
 
-But also note that the release configuration isn’t for debugging. You’ll find that when you debug with <FontIcon icon="iconfont icon-select"/>`[Release]` selected, Xcode won’t behave as expected. It might show the wrong line executing, the <FontIcon icon="iconfont icon-select"/>`[Variables View]` might not show any values or the <FontIcon icon="iconfont icon-select"/>`[Console Log]` may not evaluate expressions you print.
+But also note that the release configuration isn’t for debugging. You’ll find that when you debug with <VPIcon icon="iconfont icon-select"/>`[Release]` selected, Xcode won’t behave as expected. It might show the wrong line executing, the <VPIcon icon="iconfont icon-select"/>`[Variables View]` might not show any values or the <VPIcon icon="iconfont icon-select"/>`[Console Log]` may not evaluate expressions you print.
 
 Use this configuration if you want to measure performance, not for code tracing and debugging.
 
@@ -432,7 +432,7 @@ Use `preconditionFailure(_:file:line:)` or `fatalError(_:file:line:)` instead of
 
 ## Where to Go From Here?
 
-Download the finished project for this tutorial by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this page.
+Download the finished project for this tutorial by using the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this page.
 
 You’ve seen how crashes are a normal part of developing your app. You should even see them as an opportunity to learn more about the framework you’re using.
 

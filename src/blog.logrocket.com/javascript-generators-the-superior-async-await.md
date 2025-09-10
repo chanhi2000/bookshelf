@@ -51,7 +51,7 @@ cover: /assets/image/blog.logrocket.com/javascript-generators-the-superior-async
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/javascript-generators-the-superior-async-await/banner.png"/>
 
-One of the biggest challenges in writing frontend code or Node.js code is dealing with asynchronicity. There was an original generator revolution when packages like [<FontIcon icon="iconfont icon-github"/>`tj/co`](https://github.com/tj/co) allowed us to write synchronous looking async code with normal constructs like `try` and `catch`:
+One of the biggest challenges in writing frontend code or Node.js code is dealing with asynchronicity. There was an original generator revolution when packages like [<VPIcon icon="iconfont icon-github"/>`tj/co`](https://github.com/tj/co) allowed us to write synchronous looking async code with normal constructs like `try` and `catch`:
 
 ```js
 co.wrap(function*() {
@@ -93,7 +93,7 @@ What makes `async...await` code so appealing is that it looks synchronous. The c
 
 What makes JavaScript generator functions so different is that they do not initially execute, and instead they return an iterator object with a `next` function. Execution in the function can suspend and resume at exactly the point that it was suspended in between `next` calls.
 
-I have been using the npm package [<FontIcon icon="iconfont icon-github"/>`thefrontside/effection`](https://github.com/thefrontside/effection)for some time now.
+I have been using the npm package [<VPIcon icon="iconfont icon-github"/>`thefrontside/effection`](https://github.com/thefrontside/effection)for some time now.
 
 Effection utilizes the magic of generators to allow us to write code like this:
 
@@ -138,7 +138,7 @@ const remove = socket.addEventListener('open', (event) => {
 
 Let us take a quick recap on what makes generators so powerful.
 
-A generator function is an [<FontIcon icon="fas fa-globe"/>iterator](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e) that returns an object that we can call next on. A generator appears to be a function, but it behaves like an [<FontIcon icon="fas fa-globe"/>iterator](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e).
+A generator function is an [<VPIcon icon="fas fa-globe"/>iterator](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e) that returns an object that we can call next on. A generator appears to be a function, but it behaves like an [<VPIcon icon="fas fa-globe"/>iterator](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e).
 
 What makes generators so powerful is their ability to suspend and resume execution.
 
@@ -172,7 +172,7 @@ Generators differ from async/await, where execution vanishes and only returns wh
 
 The ability to suspend and resume functions opens up many more doors than async/await has shut closed in its rapid adoption.
 
-`effection` allows you to spawn separate processes as generator functions and take care of the teardown of all child processes started with effection. This technique is known as [<FontIcon icon="fa-brands fa-wikipedia-w"/>structured concurrency](https://en.wikipedia.org/wiki/Structured_concurrency#:~:text=Structured%20concurrency%20is%20a%20programming,structured%20approach%20to%20concurrent%20programming).
+`effection` allows you to spawn separate processes as generator functions and take care of the teardown of all child processes started with effection. This technique is known as [<VPIcon icon="fa-brands fa-wikipedia-w"/>structured concurrency](https://en.wikipedia.org/wiki/Structured_concurrency#:~:text=Structured%20concurrency%20is%20a%20programming,structured%20approach%20to%20concurrent%20programming).
 
 Effection exposes a `task` object that can `spawn` new `detached` processes:
 
@@ -292,7 +292,7 @@ connection attempt 4...
 we are connected!
 ```
 
-Here is a [repo (<FontIcon icon="iconfont icon-github"/>`dagda1/task`)](https://github.com/dagda1/task) with the above code.
+Here is a [repo (<VPIcon icon="iconfont icon-github"/>`dagda1/task`)](https://github.com/dagda1/task) with the above code.
 
 You can check if the timeout works by changing the timeout code to something like this:
 

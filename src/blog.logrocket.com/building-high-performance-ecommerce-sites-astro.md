@@ -3806,7 +3806,7 @@ Our homepage should now look similar to the below:
 
 ![Final Astro Ecommerce Project Homepage](/assets/image/blog.logrocket.com/building-high-performance-ecommerce-sites-astro/img17-Final-Astro-ecommerce-project-homepage.png)
 
-You can get the [source code for the frontend on GitHub (<FontIcon icon="iconfont icon-github"/>`bonarhyme/astro-ecommerce-frontend`)](https://github.com/bonarhyme/astro-ecommerce-frontend).
+You can get the [source code for the frontend on GitHub (<VPIcon icon="iconfont icon-github"/>`bonarhyme/astro-ecommerce-frontend`)](https://github.com/bonarhyme/astro-ecommerce-frontend).
 
 ---
 

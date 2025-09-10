@@ -70,7 +70,7 @@ You can name the project whatever you want. We won’t install any other module 
 
 ![Default React Folder Structure](https://blog.logrocket.com/wp-content/uploads/2020/03/default-react-folder-structure.png)
 
-The <FontIcon icon="fas fa-folder-open"/>`src` folder is where we’ll do most of our work. Inside <FontIcon icon="fas fa-folder-open"/>`src`, create a new folder called `components`. We’ll add our toast and button components to this folder.
+The <VPIcon icon="fas fa-folder-open"/>`src` folder is where we’ll do most of our work. Inside <VPIcon icon="fas fa-folder-open"/>`src`, create a new folder called `components`. We’ll add our toast and button components to this folder.
 
 In React, you can either use class components, which requires you to extend a `React.Component` and create a render function that returns a React element, or functional components, which are plain JavaScript functions that accept props and return React elements. We will use functional components throughout this tutorial, which is also recommended by the React team.
 
@@ -91,4 +91,4 @@ const App = () => {
 export default App;
 ```
 
-Next, empty the contents of <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` and leave it blank for now. Similarly, clear the contents of <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` and keep it empty. We will gradually incorporate these styles as we make progress. <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` will contain styles specific to the app layout, while <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` will serve as the global CSS reset.
+Next, empty the contents of <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` and leave it blank for now. Similarly, clear the contents of <VPIcon icon="fa-brands fa-css3-alt"/>`index.css` and keep it empty. We will gradually incorporate these styles as we make progress. <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` will contain styles specific to the app layout, while <VPIcon icon="fa-brands fa-css3-alt"/>`index.css` will serve as the global CSS reset.

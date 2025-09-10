@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/09/css-shapes.jp
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/09/css-shapes.jpg"/>
 
-Creating CSS Shapes is a classic and one of my favorite exercise. Indeed, I have [<FontIcon icon="fas fa-globe"/>one of the biggest collections of CSS Shapes](https://css-shape.com/) from where you can easily copy the code of any shape. I also wrote an extensive guide on how to create them: **[The Modern Guide For Making CSS Shapes](https://smashingmagazine.com/2024/05/modern-guide-making-css-shapes/)**.
+Creating CSS Shapes is a classic and one of my favorite exercise. Indeed, I have [<VPIcon icon="fas fa-globe"/>one of the biggest collections of CSS Shapes](https://css-shape.com/) from where you can easily copy the code of any shape. I also wrote an extensive guide on how to create them: **[The Modern Guide For Making CSS Shapes](https://smashingmagazine.com/2024/05/modern-guide-making-css-shapes/)**.
 
 <!-- TODO: /smashingmagazine.com/modern-guide-making-css-shapes.md -->
 
@@ -77,7 +77,7 @@ Before we jump in, it’s worth calling out that the `shape()` function is curre
 
 Let me quote the description from [the official specification](https://drafts.csswg.org/css-shapes-2/#shape-function):
 
-::: info CSS Shapes Module Level 2 (<FontIcon icon="fas fa-globe"/><code>drafts.csswg.org></code>)
+::: info CSS Shapes Module Level 2 (<VPIcon icon="fas fa-globe"/><code>drafts.csswg.org></code>)
 
 > While the `path()` function allows reuse of the SVG path syntax to define more arbitrary shapes than allowed by more specialized shape functions, it requires writing a path as a single string (which is not compatible with, for example, building a path piecemeal with var()), and inherits a number of limitations from SVG, such as implicitly only allowing the px unit.
 > 
@@ -101,7 +101,7 @@ If you keep reading the spec, you will find:
 
 > In that sense, `shape()` is a superset of `path()`. A `path()` can be easily converted to a `shape()`, but to convert a `shape()` back to a `path()` or to SVG requires information about the CSS environment.
 
-And guess what? I already created [<FontIcon icon="fas fa-globe"/>an online converter from SVG to CSS](https://css-generators.com/svg-to-css/). Save this tool because it will be very handy. If you are already good at creating SVG shapes or you have existing codes, no need to reinvent the wheel. You paste your code in the generator, and you get the CSS code that you can easily tweak later.
+And guess what? I already created [<VPIcon icon="fas fa-globe"/>an online converter from SVG to CSS](https://css-generators.com/svg-to-css/). Save this tool because it will be very handy. If you are already good at creating SVG shapes or you have existing codes, no need to reinvent the wheel. You paste your code in the generator, and you get the CSS code that you can easily tweak later.
 
 Let’s try with the CSS-Tricks logo. Here is the SVG I picked from the website:
 
@@ -476,7 +476,7 @@ Here is my implementation of the four variations:
 
 That’s all for this first part. You should have a good overview of the `shape()` function. We focused on the `line` and `arc` commands which are enough to create most of the common shapes.
 
-Don’t forget to bookmark the [<FontIcon icon="fas fa-globe"/>SVG to CSS converter](https://css-generators.com/svg-to-css/) and keep an eye on my [<FontIcon icon="fas fa-globe"/>CSS Shape collection](https://css-shape.com/) where you can find the code of all the shapes I create. And here is a last shape to end this article.
+Don’t forget to bookmark the [<VPIcon icon="fas fa-globe"/>SVG to CSS converter](https://css-generators.com/svg-to-css/) and keep an eye on my [<VPIcon icon="fas fa-globe"/>CSS Shape collection](https://css-shape.com/) where you can find the code of all the shapes I create. And here is a last shape to end this article.
 
 <CodePen
   user="t_afif"

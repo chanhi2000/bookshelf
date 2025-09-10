@@ -82,7 +82,7 @@ Let's see how static code analysis can help us improve our code quality.
 
 Static code analysis is a way to examine your code without actually running it. It reports any issues related to security, performance, coding style, or best practices.
 
-With static code analysis, you can [<FontIcon icon="fa-brands fa-wikipedia-w"/>"shift left"](https://en.wikipedia.org/wiki/Shift-left_testing). This allows you to find and fix issues early in the development process when they're less expensive to solve.
+With static code analysis, you can [<VPIcon icon="fa-brands fa-wikipedia-w"/>"shift left"](https://en.wikipedia.org/wiki/Shift-left_testing). This allows you to find and fix issues early in the development process when they're less expensive to solve.
 
 By writing high-quality code, you'll be able to build systems that are more reliable, scalable, and easier to maintain over time. Investing in code quality will pay dividends in the later stages of any project.
 
@@ -106,7 +106,7 @@ Here are some properties we can configure:
 - `AnalysisLevel` - Specifies which analyzers to enable. The default value is `latest`.
 - `AnalysisMode` - Configures the predefined code analysis configuration.
 
-We can also install additional NuGet packages to our projects. `SonarAnalyzer.CSharp` contains additional code analyzers to help us write clean, safe, and reliable code. This library comes from the same company that built [<FontIcon icon="fas fa-globe"/>SonarQube](https://sonarsource.com/products/sonarqube/).
+We can also install additional NuGet packages to our projects. `SonarAnalyzer.CSharp` contains additional code analyzers to help us write clean, safe, and reliable code. This library comes from the same company that built [<VPIcon icon="fas fa-globe"/>SonarQube](https://sonarsource.com/products/sonarqube/).
 
 ```xml{8-12,16}
 <Project>
@@ -158,7 +158,7 @@ dotnet_diagnostic.S3267.severity = none
 
 Static code analysis can help you detect potential security vulnerabilities in your code. Here's an example of a `PasswordHasher` using only `10,000` iterations to generate a password hash. The `S5344` rule, from `SonarAnalyzer.CSharp`, detects this issue and warns us. The recommended minimal number of iterations is `100,000`.
 
-You can navigate to the explanation for [<FontIcon icon="fas fa-globe"/>S5344](https://rules.sonarsource.com/csharp/RSPEC-5344) to learn more:
+You can navigate to the explanation for [<VPIcon icon="fas fa-globe"/>S5344](https://rules.sonarsource.com/csharp/RSPEC-5344) to learn more:
 
 > Weakly hashed password storage poses a significant security risk to software applications.
 
@@ -182,5 +182,5 @@ That's all for today.
 
 See you next week.
 
-**P.S.** Here's a sample [<FontIcon icon="iconfont icon-github"/>.editorconfig](https://gist.github.com/m-jovanovic/417b7d0a641d7dd7d1972550fba298db) file you can add to your projects and customize to fit your needs.
+**P.S.** Here's a sample [<VPIcon icon="iconfont icon-github"/>.editorconfig](https://gist.github.com/m-jovanovic/417b7d0a641d7dd7d1972550fba298db) file you can add to your projects and customize to fit your needs.
 

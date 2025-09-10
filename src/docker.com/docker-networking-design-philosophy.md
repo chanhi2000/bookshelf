@@ -58,7 +58,7 @@ From the experimental networking in Docker 1.7 to the initial release in Docker 
 
 ## Users First
 
-[![<FontIcon icon="fa-brands fa-docker"/>docker networking](https://docker.com/app/uploads/docker_networking-300x300.png)](https://docs.docker.com/engine/userguide/networking/dockernetworks/)
+[![<VPIcon icon="fa-brands fa-docker"/>docker networking](https://docker.com/app/uploads/docker_networking-300x300.png)](https://docs.docker.com/engine/userguide/networking/dockernetworks/)
 
 Docker’s philosophy is to build tools that have a great user experience and seamless application portability across infrastructure. New features are always continuously refined and iterated upon so that the end product delivers the best possible user experience. Networking follows the same philosophy and we iterated several times to find the right abstractions for the user.
 
@@ -67,7 +67,7 @@ When it comes to networking, there are two kinds of users:
 - The application developer who wants to create and deploy a distributed application stack on the Docker platform
 - The network IT team who configures and manages the infrastructure
 
-We wanted to give the right kind of tools to both these kinds of users so that they are empowered to easily accomplish their goals and you can read about some of the experiences from the Docker community like [<FontIcon icon="fas fa-globe"/>@arungupta](http://blog.arungupta.me/docker-multi-host-networking-couchbase-wildfly/), [@allingeek (<FontIcon icon="fa-brands fa-medium"/>`on-docker`)](https://medium.com/on-docker/docker-overlay-networks-that-was-easy-8f24baebb698) and [<FontIcon icon="fa-brands fa-medium"/>`@yoanis_gil`](https://medium.com/@yoanis_gil/running-an-elasticsearch-cluster-on-docker-1-9-with-swarm-and-compose-efabe110c675#.nja48ka4t).
+We wanted to give the right kind of tools to both these kinds of users so that they are empowered to easily accomplish their goals and you can read about some of the experiences from the Docker community like [<VPIcon icon="fas fa-globe"/>@arungupta](http://blog.arungupta.me/docker-multi-host-networking-couchbase-wildfly/), [@allingeek (<VPIcon icon="fa-brands fa-medium"/>`on-docker`)](https://medium.com/on-docker/docker-overlay-networks-that-was-easy-8f24baebb698) and [<VPIcon icon="fa-brands fa-medium"/>`@yoanis_gil`](https://medium.com/@yoanis_gil/running-an-elasticsearch-cluster-on-docker-1-9-with-swarm-and-compose-efabe110c675#.nja48ka4t).
 
 Docker’s primary focus is on the user, whether they are from the application team or IT operations. That also means supporting ecosystem partners that support the same architecture goals of user experience AND seamless application portability. With that in mind, it is our belief that all APIs and UI must be exposed to end users and anything else would compromise on the core values. Anyone in the ecosystem claiming to support or include Docker must adhere to maintaining user experience and portability otherwise it simply isn’t Docker.
 
@@ -81,9 +81,9 @@ One of the guiding principles in the Docker Networking design is to relieve the 
 
 The other guiding principle is to extend the same portable experience of Docker containers to networks. A Docker container created using an image works the same regardless of where it runs as long as the same image is used. Similarly, when the application developer defines their application stack as a set of distributed applications, it should work just the same whatever infrastructure it runs on. This heavily depends on what abstractions we expose to the application developer and more importantly what abstractions we do not expose to the application developer.
 
-This is how the Docker “network” abstraction ([CNM (<FontIcon icon="iconfont icon-github"/>`docker/libnetwork`)](https://github.com/docker/libnetwork/blob/master/docs/design.md)) was born. It provides the right reference for the application developer to think and reason about the connectivity and discoverability needs of their application services without distracting them with all the complexities of how exactly this is achieved. In some ways, the “network” abstraction is declarative because the user is allowed to tell “what” kind of topology the application needs instead of telling “how” to physically build that topology.
+This is how the Docker “network” abstraction ([CNM (<VPIcon icon="iconfont icon-github"/>`docker/libnetwork`)](https://github.com/docker/libnetwork/blob/master/docs/design.md)) was born. It provides the right reference for the application developer to think and reason about the connectivity and discoverability needs of their application services without distracting them with all the complexities of how exactly this is achieved. In some ways, the “network” abstraction is declarative because the user is allowed to tell “what” kind of topology the application needs instead of telling “how” to physically build that topology.
 
-[![cnm-model (<FontIcon icon="iconfont icon-github"/>`docker/libnetwork`)](https://raw.githubusercontent.com/docker/libnetwork/master/docs/cnm-model.jpg)](https://github.com/docker/libnetwork/blob/master/docs/design.md)
+[![cnm-model (<VPIcon icon="iconfont icon-github"/>`docker/libnetwork`)](https://raw.githubusercontent.com/docker/libnetwork/master/docs/cnm-model.jpg)](https://github.com/docker/libnetwork/blob/master/docs/design.md)
 
 For example, a classic three-tier web application stack is where the web server and the app server are in one network and then the same app server is connected to another network which also has the database server. The app developer should not have to bother with how that is implemented with the physical networks, firewalls, etc. Decoupling the infrastructure from the application significantly increases the portability of the distributed application. This also means developers have more freedom in how exactly the application topology is defined.
 
@@ -120,14 +120,14 @@ Providing the flexibility to network IT to pick and choose various solutions for
 
 Instead of providing one all-encompassing plugin API/extension-point, we segmented the plugin API into separate extension points corresponding to logical configuration groupings:
 
-- The [network driver extension point (<FontIcon icon="iconfont icon-github"/>`docker/go-plugins-helpers`)](https://github.com/docker/go-plugins-helpers/network) provides the API needed to configure and achieve network connectivity
-- The [IPAM extension point (<FontIcon icon="iconfont icon-github"/>`docker/go-plugins-helpers`)](https://github.com/docker/go-plugins-helpers/tree/master/ipam) to configure, discover and manage IP address ranges
+- The [network driver extension point (<VPIcon icon="iconfont icon-github"/>`docker/go-plugins-helpers`)](https://github.com/docker/go-plugins-helpers/network) provides the API needed to configure and achieve network connectivity
+- The [IPAM extension point (<VPIcon icon="iconfont icon-github"/>`docker/go-plugins-helpers`)](https://github.com/docker/go-plugins-helpers/tree/master/ipam) to configure, discover and manage IP address ranges
 
 The design gets its inspiration from the golang interface philosophy, which advocates defining one “interface” per function to encourage composability. This is a powerful facility for network IT to compose different solutions for different needs.
 
 Another aspect of the plugin API design is to make sure that Docker Networking remains the broker to resolve conflicts that can arise when a container joins multiple networks backed by different plugins. For example two different drivers may want to plumb a static route with the same route prefix but with a different next hop IP. When this happens it is simply not possible for these drivers to independently choose whose route wins without sacrificing the user experience. Therefore, as part of the plugin API libnetwork doesn’t provide driver’s access to the container’s network namespace since there is no way a particular driver will be able to resolve these conflicts by itself. This is true for built-in drivers and plugins. Other plugin frameworks like CNI provide namespace access to its drivers and hence they may have to deal with these drivers stomping over each other inside the container namespace. When that happens user experience and portability suffers.
 
-Another reason for this plugin design is to provide granular network plugability at various layers (such as IP Address management, Service Discovery, Load Balancing, etc…) which lets the user choose the best driver to satisfy a feature instead of depending on an all-encompassing and opinionated network plugin. For example, a scenario where a network operator might want to use a specific IPAM solution (such as [Infoblox](https://hub.docker.com/r/infoblox/ipam-driver/)) in combination with a different network plugin (such as Cisco’s [<FontIcon icon="iconfont icon-github"/>`contiv/netplugin`](https://github.com/contiv/netplugin)). Because [<FontIcon icon="iconfont icon-github"/>`docker/libnetwork`](https://github.com/docker/libnetwork) manages the container’s network namespace, we could implement the necessary Docker UX and guarantee such combinations of different plugins. Thus providing the necessary guarantees to the network operator to take control over the network design.
+Another reason for this plugin design is to provide granular network plugability at various layers (such as IP Address management, Service Discovery, Load Balancing, etc…) which lets the user choose the best driver to satisfy a feature instead of depending on an all-encompassing and opinionated network plugin. For example, a scenario where a network operator might want to use a specific IPAM solution (such as [Infoblox](https://hub.docker.com/r/infoblox/ipam-driver/)) in combination with a different network plugin (such as Cisco’s [<VPIcon icon="iconfont icon-github"/>`contiv/netplugin`](https://github.com/contiv/netplugin)). Because [<VPIcon icon="iconfont icon-github"/>`docker/libnetwork`](https://github.com/docker/libnetwork) manages the container’s network namespace, we could implement the necessary Docker UX and guarantee such combinations of different plugins. Thus providing the necessary guarantees to the network operator to take control over the network design.
 
 ---
 
@@ -245,7 +245,7 @@ docker network create -d overlay \
 # 6d215748f300a0eda3878e76fe99e717c8ef85a87de0779e379c92af5d615b88
 ```
 
-Alternatively, network IT can take control over the network configurations of the above docker-compose application using the extension feature ([<FontIcon icon="fa-brands fa-docker"/>Read more about this compose functionality](https://docs.docker.com/compose/extends/)) by adding another compose file:  
+Alternatively, network IT can take control over the network configurations of the above docker-compose application using the extension feature ([<VPIcon icon="fa-brands fa-docker"/>Read more about this compose functionality](https://docs.docker.com/compose/extends/)) by adding another compose file:  
 “docker-compose.override.yml” without having to change anything on the application.
 
 ```yaml title="docker-compose.override.yml"

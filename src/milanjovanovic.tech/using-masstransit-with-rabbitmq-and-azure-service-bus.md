@@ -52,7 +52,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_071.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_071.png"/>
 
-[<FontIcon icon="fas fa-globe"/>MassTransit](https://masstransit.io/) is an open-source distributed application framework for .NET. It provides a messaging abstraction on top of the supported message transports. MassTransit lets you focus on adding business value instead of worrying about messaging complexity.
+[<VPIcon icon="fas fa-globe"/>MassTransit](https://masstransit.io/) is an open-source distributed application framework for .NET. It provides a messaging abstraction on top of the supported message transports. MassTransit lets you focus on adding business value instead of worrying about messaging complexity.
 
 MassTransit supports many message transport technologies. Here are a few that are popular:
 
@@ -75,7 +75,7 @@ Here are a few things MassTransit does for you:
 - **Exception handling**: Messages can be retried or moved to an error queue
 - **Dependency injection**: Service collection configuration and scope service provider
 - **Request-Response**: Handle requests with automatic response routing
-- **Observability**: Native [<FontIcon icon="fas fa-globe"/>Open Telemetry (OTEL)](https://opentelemetry.io/) support
+- **Observability**: Native [<VPIcon icon="fas fa-globe"/>Open Telemetry (OTEL)](https://opentelemetry.io/) support
 - **Scheduling**: Schedule message delivery using transport delay, Quartz.NET, or Hangfire
 - **Sagas**: Reliable, durable, event-driven workflow orchestration
 
@@ -85,7 +85,7 @@ Let's see how to start using MassTransit.
 
 ## Installing and Configuring MassTransit with RabbitMQ
 
-You need to install the `MassTransit` library. If you already have a message transport, you can install the respective transport library. Let's add the `MassTransit.RabbitMQ` library to configure [<FontIcon icon="iconfont icon-rabbitmq"/>RabbitMQ](https://rabbitmq.com/) as the transport mechanism.
+You need to install the `MassTransit` library. If you already have a message transport, you can install the respective transport library. Let's add the `MassTransit.RabbitMQ` library to configure [<VPIcon icon="iconfont icon-rabbitmq"/>RabbitMQ](https://rabbitmq.com/) as the transport mechanism.
 
 ```powershell
 Install-Package MassTransit
@@ -125,7 +125,7 @@ docker run -d --name rabbitmq -p 5672:5672
 
 ## Configuring MassTransit with Azure Service Bus
 
-[<FontIcon icon="iconfont icon-microsoftazure"/>Azure Service Bus](https://azure.microsoft.com/en-us/products/service-bus) is a cloud-based message broker with support for queues and topics. MassTransit fully supports Azure Service Bus, including many advanced features and capabilities. However, you must be on the Standard or Premium tier of the Microsoft Azure Service Bus service.
+[<VPIcon icon="iconfont icon-microsoftazure"/>Azure Service Bus](https://azure.microsoft.com/en-us/products/service-bus) is a cloud-based message broker with support for queues and topics. MassTransit fully supports Azure Service Bus, including many advanced features and capabilities. However, you must be on the Standard or Premium tier of the Microsoft Azure Service Bus service.
 
 To configure MassTransit to work with Azure Service Bus, you need to install the required transport library:
 
@@ -177,7 +177,7 @@ builder.Services.AddMassTransit(busConfigurator =>
 
 ## Message Types
 
-MassTransit requires message types to be [<FontIcon icon="fa-brands fa-microsoft"/>reference types.](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types) So, you can use a `class`, `record` or `interface` to define a message.
+MassTransit requires message types to be [<VPIcon icon="fa-brands fa-microsoft"/>reference types.](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types) So, you can use a `class`, `record` or `interface` to define a message.
 
 You'll often create two types of messages: commands and events.
 

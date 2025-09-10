@@ -56,7 +56,7 @@ cover: /assets/image/blog.logrocket.com/axios-vs-fetch-best-http-requests/banner
 
 ::: Editor’s note
 
-This Axios vs. `fetch()` article was last reviewed and updated by [<FontIcon icon="fas fa-globe"/>Rosario De Chiara](https://blog.logrocket.com/author/rosariodechiara/) on 21 November 2024.
+This Axios vs. `fetch()` article was last reviewed and updated by [<VPIcon icon="fas fa-globe"/>Rosario De Chiara](https://blog.logrocket.com/author/rosariodechiara/) on 21 November 2024.
 
 :::
 
@@ -141,17 +141,17 @@ Notice that:
 
 - To send data, `fetch()` uses the `body` property for a post request to send data to the endpoint, while Axios uses the `data` property
 - The data in `fetch()` is transformed into a string using the `JSON.stringify` method
-- Axios automatically transforms the data returned from the server, but with `fetch()` you have to call the [<FontIcon icon="fa-brands fa-firefox"/>`response.json` method to parse the data to a JavaScript object](https://developer.mozilla.org/en-US/docs/Web/API/Response/json)
-- With Axios, the data response provided by the server can be accessed within the [data object (<FontIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios#response-schema), while for the `fetch()` method, the final data can be named any variable
+- Axios automatically transforms the data returned from the server, but with `fetch()` you have to call the [<VPIcon icon="fa-brands fa-firefox"/>`response.json` method to parse the data to a JavaScript object](https://developer.mozilla.org/en-US/docs/Web/API/Response/json)
+- With Axios, the data response provided by the server can be accessed within the [data object (<VPIcon icon="iconfont icon-github"/>`axios/axios`)](https://github.com/axios/axios#response-schema), while for the `fetch()` method, the final data can be named any variable
 - Axios and `fetch()` handle headers in the same way
 
 ---
 
 ## Backward compatibility
 
-One of the main selling points of Axios is its wide browser support. Even old browsers like IE11 can run Axios without any issues. This is because it uses [<FontIcon icon="fa-brands fa-firefox"/>`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) under the hood. `fetch()`, on the other hand, only supports Chrome 42+, Firefox 39+, Edge 14+, and Safari 10.1+ (you can see the full compatibility table on [<FontIcon icon="fas fa-globe"/>CanIUse.com](https://caniuse.com/fetch)).
+One of the main selling points of Axios is its wide browser support. Even old browsers like IE11 can run Axios without any issues. This is because it uses [<VPIcon icon="fa-brands fa-firefox"/>`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) under the hood. `fetch()`, on the other hand, only supports Chrome 42+, Firefox 39+, Edge 14+, and Safari 10.1+ (you can see the full compatibility table on [<VPIcon icon="fas fa-globe"/>CanIUse.com](https://caniuse.com/fetch)).
 
-If your only reason for using Axios is backward compatibility, you don’t need an HTTP library. Instead, you can [use `fetch()` with a polyfill (<FontIcon icon="iconfont icon-github"/>`JakeChampion/fetch`)](https://github.com/JakeChampion/fetch) to implement similar functionality on web browsers that don’t support `fetch()`.
+If your only reason for using Axios is backward compatibility, you don’t need an HTTP library. Instead, you can [use `fetch()` with a polyfill (<VPIcon icon="iconfont icon-github"/>`JakeChampion/fetch`)](https://github.com/JakeChampion/fetch) to implement similar functionality on web browsers that don’t support `fetch()`.
 
 To use the `fetch()` polyfill, install it via the npm command like so:
 
@@ -361,7 +361,7 @@ function progress({ loaded, total }) {
 }
 ```
 
-Implementing a progress indicator in Axios is simpler, especially if you use the [Axios Progress Bar (<FontIcon icon="iconfont icon-github"/>`rikmms/progress-bar-4-axios`)](https://github.com/rikmms/progress-bar-4-axios/) module. First, you need to include the following style and scripts:
+Implementing a progress indicator in Axios is simpler, especially if you use the [Axios Progress Bar (<VPIcon icon="iconfont icon-github"/>`rikmms/progress-bar-4-axios`)](https://github.com/rikmms/progress-bar-4-axios/) module. First, you need to include the following style and scripts:
 
 ```html title="index.html"
 <!-- the head of your HTML -->
@@ -459,11 +459,11 @@ Promise.all([
 
 If the CORS mechanism is not properly enabled on the server, any request from a different server — regardless of whether or not it is made with Axios or `fetch()` — will receive the `No Access-Control-Header-Present` error.
 
-To properly handle CORS, the first step is to configure the server, which depends on your environment/server. Once the server has been properly configured, it will automatically include the `Access-Control-Allow-Origin` header in response to all requests ([<FontIcon icon="fa-brands fa-firefox"/>see the documentation for more information](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)).
+To properly handle CORS, the first step is to configure the server, which depends on your environment/server. Once the server has been properly configured, it will automatically include the `Access-Control-Allow-Origin` header in response to all requests ([<VPIcon icon="fa-brands fa-firefox"/>see the documentation for more information](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)).
 
 A common error, in both Axios and `fetch()`, is to add the `Access-Control-Allow-Origin` to the request — this is a response parameter and is used by the server to specify the permitted access control for the origin.
 
-Another aspect to be aware of, when you add the headers to your Axios request, is that the request is handled differently: the browser performs a preflight request before the actual request and this preflight request is an [<FontIcon icon="fa-brands fa-firefox"/>`OPTIONS`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS) request that verifies if CORS is honored and if the actual request is safe to send the real request.
+Another aspect to be aware of, when you add the headers to your Axios request, is that the request is handled differently: the browser performs a preflight request before the actual request and this preflight request is an [<VPIcon icon="fa-brands fa-firefox"/>`OPTIONS`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS) request that verifies if CORS is honored and if the actual request is safe to send the real request.
 
 ---
 

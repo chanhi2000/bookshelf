@@ -101,7 +101,7 @@ html {
 }
 ```
 
-You can see an example of this working in [<FontIcon icon="iconfont icon-css-tricks"/>this example](https://css-tricks.com/examples/ForceScrollBar/). It would be nice if we could get just the vertical scroll bar by assigning overflow-y to scroll, ~but again it doesn’t work in Firefox.~ UPDATE: Actually, I’ve been shown the light. Assigning overflow-y to scroll **does work**, and it works in Firefox, Safari, and IE 6, and that makes it the **best solution**:
+You can see an example of this working in [<VPIcon icon="iconfont icon-css-tricks"/>this example](https://css-tricks.com/examples/ForceScrollBar/). It would be nice if we could get just the vertical scroll bar by assigning overflow-y to scroll, ~but again it doesn’t work in Firefox.~ UPDATE: Actually, I’ve been shown the light. Assigning overflow-y to scroll **does work**, and it works in Firefox, Safari, and IE 6, and that makes it the **best solution**:
 
 ```css
 html {

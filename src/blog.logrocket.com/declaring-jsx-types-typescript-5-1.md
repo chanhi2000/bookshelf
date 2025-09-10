@@ -63,7 +63,7 @@ cover: /assets/image/blog.logrocket.com/declaring-jsx-types-typescript-5-1/banne
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/declaring-jsx-types-typescript-5-1/banner.png"/>
 
-A new feature, described as “[<FontIcon icon="iconfont icon-typescript"/>decoupled type-checking between JSX elements and JSX tag types](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types)”, arrives with TypeScript 5.1. This feature enables libraries to control what types are used for JSX elements. In this article, I’ll discuss why this matters and how this new feature works.
+A new feature, described as “[<VPIcon icon="iconfont icon-typescript"/>decoupled type-checking between JSX elements and JSX tag types](https://devblogs.microsoft.com/typescript/announcing-typescript-5-1-beta/#decoupled-type-checking-between-jsx-elements-and-jsx-tag-types)”, arrives with TypeScript 5.1. This feature enables libraries to control what types are used for JSX elements. In this article, I’ll discuss why this matters and how this new feature works.
 
 ![Declaring JSX Types TypeScript](/assets/image/blog.logrocket.com/declaring-jsx-types-typescript-5-1/banner.png)
 
@@ -108,13 +108,13 @@ The above code is legitimate JSX, but it is not legitimate TypeScript. As a resu
 
 ![TypeScript Error Message Return Type Number Invalid JSX Element](/assets/image/blog.logrocket.com/declaring-jsx-types-typescript-5-1/typescript-playground-error-message-return-type-number-invalid-jsx-element.png)
 
-You can view this in the [<FontIcon icon="iconfont icon-typescript"/>TypeScript Playground](https://typescriptlang.org/play?#code/JYWwDg9gTgLgBAJQKYEMDG8BmUIjgIilQ3wG4AoczAVwDsNgJa4BhXSWpWmAFQAsUMZDGpRaAZwCCAOWogARkigAKAJRwA3uThwiIsXAAsAJgoBfSgB424Jl14ChSfRJlzFUOAHoAfOSA). The error is thrown because, according to TypeScript, function components that return anything except`JSX.Element | null` are not allowed as element types in React.
+You can view this in the [<VPIcon icon="iconfont icon-typescript"/>TypeScript Playground](https://typescriptlang.org/play?#code/JYWwDg9gTgLgBAJQKYEMDG8BmUIjgIilQ3wG4AoczAVwDsNgJa4BhXSWpWmAFQAsUMZDGpRaAZwCCAOWogARkigAKAJRwA3uThwiIsXAAsAJgoBfSgB424Jl14ChSfRJlzFUOAHoAfOSA). The error is thrown because, according to TypeScript, function components that return anything except`JSX.Element | null` are not allowed as element types in React.
 
-However, in React, function components can return a `ReactNode`. This type includes `number | string | Iterable<ReactNode> | undefined` and will likely also [include (<FontIcon icon="iconfont icon-github"/>`reactjs/rfcs`)](https://github.com/reactjs/rfcs/pull/229) `Promise<ReactNode>(` in the future.
+However, in React, function components can return a `ReactNode`. This type includes `number | string | Iterable<ReactNode> | undefined` and will likely also [include (<VPIcon icon="iconfont icon-github"/>`reactjs/rfcs`)](https://github.com/reactjs/rfcs/pull/229) `Promise<ReactNode>(` in the future.
 
-As an aside, a return value of `number` would be perfectly fine in class components since the restrictions are different there. I spoke to [Sebastian Silbermann (<FontIcon icon="fa-brands fa-x-twitter"/>`sebsilbermann`)](https://x.com/sebsilbermann), who wrote the PR requesting the new feature, about this and he said:
+As an aside, a return value of `number` would be perfectly fine in class components since the restrictions are different there. I spoke to [Sebastian Silbermann (<VPIcon icon="fa-brands fa-x-twitter"/>`sebsilbermann`)](https://x.com/sebsilbermann), who wrote the PR requesting the new feature, about this and he said:
 
-::: info Sebastian Silbermann (<FontIcon icon="fa-brands fa-x-twitter"/>`sebsilbermann`)
+::: info Sebastian Silbermann (<VPIcon icon="fa-brands fa-x-twitter"/>`sebsilbermann`)
 
 > “An interesting note is that before function components we did have full control. Due to `ElementClass`, class components already could return `ReactNode` at the type level. It was just function components that were missing full control (or any other component types Suspense or Profiler).”
 
@@ -133,7 +133,7 @@ So here’s the crux of the problem: it is not possible to represent in TypeScri
 
 ## The arrival of `JSX.ElementType`
 
-In an effort to address the issue described in the previous section, Sebastian opened a pull request to TypeScript: “[RFC: Consult new JSX.ElementType for valid JSX element types (<FontIcon icon="iconfont icon-github"/>`microsoft/TypeScript`)](https://github.com/microsoft/TypeScript/pull/51328)“. In that PR, Sebastian explained the issue and proposed a solution — introducing a new type, `JSX.ElementType`.
+In an effort to address the issue described in the previous section, Sebastian opened a pull request to TypeScript: “[RFC: Consult new JSX.ElementType for valid JSX element types (<VPIcon icon="iconfont icon-github"/>`microsoft/TypeScript`)](https://github.com/microsoft/TypeScript/pull/51328)“. In that PR, Sebastian explained the issue and proposed a solution — introducing a new type, `JSX.ElementType`.
 
 Here’s an illustration that helps explain what the `JSX.ElementType` is compared to a JSX element:
 
@@ -145,7 +145,7 @@ Here’s an illustration that helps explain what the `JSX.ElementType` is compar
 
 The significance of `JSX.ElementType` is that it is used to represent a JSX element’s type and to allow library authors to control what types are used for JSX elements. This control was not previously available.
 
-The TypeScript pull request was merged, so Sebastian (who helps maintain the React type definitions) exercised new powers in [this pull request to the DefinitelyTyped repository for the React type definitions (<FontIcon icon="iconfont icon-github"/>`DefinitelyTyped/DefinitelyTyped`)](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/65135). At the time of writing, this pull request is still open, but once merged and shipped the React community we will feel its benefits.
+The TypeScript pull request was merged, so Sebastian (who helps maintain the React type definitions) exercised new powers in [this pull request to the DefinitelyTyped repository for the React type definitions (<VPIcon icon="iconfont icon-github"/>`DefinitelyTyped/DefinitelyTyped`)](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/65135). At the time of writing, this pull request is still open, but once merged and shipped the React community we will feel its benefits.
 
 The changes associated with this new feature are subtle; you can see in this pull request that `ReactElement | null` is generally replaced with `ReactNode`:
 
@@ -188,7 +188,7 @@ With Sebastian’s changes, this becomes valid TypeScript. And as React and othe
 
 ## Summary
 
-The TL;DR of this post is that TypeScript will better allow for the modeling of JSX in TypeScript 5.1. I’m indebted to [Sebastian Silbermann (<FontIcon icon="iconfont icon-github"/>`eps1lon`)](https://github.com/eps1lon) and [Daniel Rosenwasser (<FontIcon icon="iconfont icon-github"/>`DanielRosenwasser`)](https://github.com/DanielRosenwasser) for their explanations of the decoupled type-checking between JSX elements and JSX tag types feature.
+The TL;DR of this post is that TypeScript will better allow for the modeling of JSX in TypeScript 5.1. I’m indebted to [Sebastian Silbermann (<VPIcon icon="iconfont icon-github"/>`eps1lon`)](https://github.com/eps1lon) and [Daniel Rosenwasser (<VPIcon icon="iconfont icon-github"/>`DanielRosenwasser`)](https://github.com/DanielRosenwasser) for their explanations of the decoupled type-checking between JSX elements and JSX tag types feature.
 
 A special thanks to Sebastian for implementing this feature and for reviewing this article. I hope this post helps improve your understanding of this new TypeScript feature.
 

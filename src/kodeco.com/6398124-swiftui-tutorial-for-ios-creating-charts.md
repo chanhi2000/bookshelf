@@ -79,7 +79,7 @@ A chart should tell a story. It guides the viewer to a better understanding of t
 
 ## Getting Started
 
-Download the materials by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. Open the begin project in Xcode, then build and run the app.
+Download the materials by clicking the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. Open the begin project in Xcode, then build and run the app.
 
 ![station-starter-1](https://koenig-media.raywenderlich.com/uploads/2019/11/station-starter-1.png =240x)
 
@@ -104,11 +104,11 @@ To begin, you’ll add a bar chart to the app which displays the precipitation d
 
 A bar chart provides a bar for each data point. The length of each bar represents a numerical value and can run horizontally or vertically to suit your needs.
 
-Expand the <FontIcon icon="iconfont icon-select"/>`[Tabs]` group and open <FontIcon icon="fa-brands fa-swift"/>`PrecipitationTab.swift`. You’ll see a standard SwiftUI `List()` that loops through the integers zero through 11, representing the months of the year, and displays the total precipitation for each month. The included helper functions change the integer to a month name and sum the amounts for each month.
+Expand the <VPIcon icon="iconfont icon-select"/>`[Tabs]` group and open <VPIcon icon="fa-brands fa-swift"/>`PrecipitationTab.swift`. You’ll see a standard SwiftUI `List()` that loops through the integers zero through 11, representing the months of the year, and displays the total precipitation for each month. The included helper functions change the integer to a month name and sum the amounts for each month.
 
-Right click the empty <FontIcon icon="iconfont icon-select"/>`[Charts]` group and select <FontIcon icon="iconfont icon-select"/>`[New File]`. Select <FontIcon icon="iconfont icon-select"/>`[SwiftUI View]` and click <FontIcon icon="iconfont icon-select"/>`[Next]`. Name the new view `PrecipitationChart`.
+Right click the empty <VPIcon icon="iconfont icon-select"/>`[Charts]` group and select <VPIcon icon="iconfont icon-select"/>`[New File]`. Select <VPIcon icon="iconfont icon-select"/>`[SwiftUI View]` and click <VPIcon icon="iconfont icon-select"/>`[Next]`. Name the new view `PrecipitationChart`.
 
-Ensure the group is set to `Charts` and click <FontIcon icon="iconfont icon-select"/>`[Create]`. Open the new file. If the Canvas isn’t visible, turn it on by selecting <FontIcon icon="iconfont icon-select"/>`[Editor] ▸ [Canvas]` from the menu so you can see your progress.
+Ensure the group is set to `Charts` and click <VPIcon icon="iconfont icon-select"/>`[Create]`. Open the new file. If the Canvas isn’t visible, turn it on by selecting <VPIcon icon="iconfont icon-select"/>`[Editor] ▸ [Canvas]` from the menu so you can see your progress.
 
 Add the following code at the top of the `PrecipitationChart` struct:
 
@@ -150,7 +150,7 @@ List(0..<12) { month in
 }
 ```
 
-Open <FontIcon icon="fa-brands fa-swift"/>`PrecipitationTab.swift` and delete the no longer needed `sumPrecipitation(_:)` and `monthAbbreviationFromInt(_:)` methods. Inside body, replace the List and enclosure with a call to the new view:
+Open <VPIcon icon="fa-brands fa-swift"/>`PrecipitationTab.swift` and delete the no longer needed `sumPrecipitation(_:)` and `monthAbbreviationFromInt(_:)` methods. Inside body, replace the List and enclosure with a call to the new view:
 
 ```swift
 PrecipitationChart(measurements: station.measurements)
@@ -166,7 +166,7 @@ When you run the app make sure you're on the Precipitation tab after selecting a
 
 ## Raising the SwiftUI Bar
 
-SwiftUI contains several shape views, including a `Rectangle` shape that works well for building bar charts. Open <FontIcon icon="fa-brands fa-swift"/>`PrecipitationChart.swift` and replace `body` with:
+SwiftUI contains several shape views, including a `Rectangle` shape that works well for building bar charts. Open <VPIcon icon="fa-brands fa-swift"/>`PrecipitationChart.swift` and replace `body` with:
 
 ```swift
 // 1
@@ -220,7 +220,7 @@ Text("\(self.sumPrecipitation(month).stringToOneDecimal)")
   .zIndex(1)
 ```
 
-You’ve added a text view to each bar. It displays the total precipitation for that month rounded to one decimal using an extension method on the `Double` type. You can find it in <FontIcon icon="fa-brands fa-swift"/>`DoubleExtension.swift`.
+You’ve added a text view to each bar. It displays the total precipitation for that month rounded to one decimal using an extension method on the `Double` type. You can find it in <VPIcon icon="fa-brands fa-swift"/>`DoubleExtension.swift`.
 
 The text view’s font is set to match the month label and rotates the text counterclockwise by 90 degrees so it flows parallel to the bar. The view is then offset by 35 points downward, placing it inside the bar.
 
@@ -256,9 +256,9 @@ The Smoky Mountains contain some of the highest elevations in the eastern United
 
 The scarcity of snow means a chart grouping by month, as the precipitation chart did, would show bumps at the start and end of the year with nothing in the middle. Instead, you'll graph the snow using a horizontal bar chart that only shows the days of the year receiving snowfall.
 
-Right click the <FontIcon icon="iconfont icon-select"/>`[Charts]` group in Xcode and select <FontIcon icon="iconfont icon-select"/>`[New File]`. Select <FontIcon icon="iconfont icon-select"/>`[SwiftUI View]` and click <FontIcon icon="iconfont icon-select"/>`[Next]`.
+Right click the <VPIcon icon="iconfont icon-select"/>`[Charts]` group in Xcode and select <VPIcon icon="iconfont icon-select"/>`[New File]`. Select <VPIcon icon="iconfont icon-select"/>`[SwiftUI View]` and click <VPIcon icon="iconfont icon-select"/>`[Next]`.
 
-Name the new view `SnowfallChart` and ensure the group is set to __Charts__. Click <FontIcon icon="iconfont icon-select  "/>`[Create]` and open the new file.
+Name the new view `SnowfallChart` and ensure the group is set to __Charts__. Click <VPIcon icon="iconfont icon-select  "/>`[Create]` and open the new file.
 
 You need to pass measurements to this view again by adding the following code to the top of the struct:
 
@@ -372,7 +372,7 @@ Now that you've gained experience creating a couple of basic charts, you can mov
 
 ## Creating a Heat Map
 
-Create a new SwiftUI view in the `Charts` group and name the new view `TemperatureChart`. Open <FontIcon icon="fa-brands fa-swift"/>`TemperatureChart.swift` and add a variable for the measurement data at the beginning of the `struct`.
+Create a new SwiftUI view in the `Charts` group and name the new view `TemperatureChart`. Open <VPIcon icon="fa-brands fa-swift"/>`TemperatureChart.swift` and add a variable for the measurement data at the beginning of the `struct`.
 
 ```swift
 var measurements: [DayInfo]
@@ -449,7 +449,7 @@ In the previous charts, you used constant sizes to produce something that looked
 5. These lines move the path to the point for the low temperature and add a line to the high temperature. The vertical view coordinates begin at the top of the view and increase downward. As you want points to start at the bottom and go upward, you subtract the vertical position from `reader.size.height` to get the desired location.
 6. `stroke()` tells SwiftUI to outline the path you've created in the current system color.
 
-Open <FontIcon icon="fa-brands fa-swift"/>`TemperatureTab.swift` and replace `body` with this to use your new view:
+Open <VPIcon icon="fa-brands fa-swift"/>`TemperatureTab.swift` and replace `body` with this to use your new view:
 
 ```swift
 VStack {
@@ -470,7 +470,7 @@ The shape of the chart shows the changes in temperature pretty well but looks a 
 
 A heat map graphically represents values using colors. Weather maps often represent temperatures using a range of colors starting with purple and blue shades for low temperatures and moving toward yellow, orange and red shades for warmer temperatures. Calculating these colors and changes could involve some complicated math, but not here.
 
-In SwiftUI, you represent the transitions of color using a gradient. A linear gradient creates a smooth color transition between two or more colors along a single axis. Add the following in <FontIcon icon="fa-brands fa-swift"/>`TemperatureChart.swift` after `measurements` and before the helper functions:
+In SwiftUI, you represent the transitions of color using a gradient. A linear gradient creates a smooth color transition between two or more colors along a single axis. Add the following in <VPIcon icon="fa-brands fa-swift"/>`TemperatureChart.swift` after `measurements` and before the helper functions:
 
 ```swift
 let tempGradient = Gradient(colors: [
@@ -514,7 +514,7 @@ Applying it to the path means the gradient shows only for the stroked portion: T
 
 ## Adding Grid Lines and Labels
 
-All that's left now is to make things a little easier on the viewers eyes by adding grid lines, similar to what you did in the bar charts. Add the following helper function after the existing ones in <FontIcon icon="fa-brands fa-swift"/>`TemperatureChart.swift`:
+All that's left now is to make things a little easier on the viewers eyes by adding grid lines, similar to what you did in the bar charts. Add the following helper function after the existing ones in <VPIcon icon="fa-brands fa-swift"/>`TemperatureChart.swift`:
 
 ```swift
 func tempLabelOffset(_ line: Int, height: CGFloat) -> CGFloat {
@@ -608,7 +608,7 @@ Your chart now gives a good overview of the temperature ranges at each location.
 
 ## Where to Go From Here
 
-You can download the finished project by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
+You can download the finished project by clicking the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
 
 With all UI things, the Apple Human Interface Guidelines are a good starting point if you’d like to learn more. You'll find a brief section on [Charts](https://developer.apple.com/design/human-interface-guidelines/carekit/app-architecture/charts/) in the Human Interface Guidelines. You should also read the guidelines on [Color](https://developer.apple.com/design/human-interface-guidelines/carekit/visual-design/color/) when choosing colors for your charts.
 

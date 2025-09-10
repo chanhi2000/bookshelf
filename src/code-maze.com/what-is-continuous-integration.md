@@ -212,7 +212,7 @@ Even the smallest project can benefit from transparency of the development proce
 
 Agile practices and Continuous Integration go hand in hand. You can’t consider your work or business serious without using CI anymore.
 
-Infrequent software releases are a thing of the past and most of the leading and successful companies are already actively using these techniques with good results, Amazon being one of the leaders by [<FontIcon icon="fa-brands fa-youtube"/>making changes to production every 11.6 seconds](https://youtu.be/dxk8b9rSKOo?t=9m59s) (May 2011).
+Infrequent software releases are a thing of the past and most of the leading and successful companies are already actively using these techniques with good results, Amazon being one of the leaders by [<VPIcon icon="fa-brands fa-youtube"/>making changes to production every 11.6 seconds](https://youtu.be/dxk8b9rSKOo?t=9m59s) (May 2011).
 
 <VidStack src="youtube/dxk8b9rSKOo" />
 

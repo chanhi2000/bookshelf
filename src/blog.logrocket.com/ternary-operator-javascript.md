@@ -323,7 +323,7 @@ In cases like this, you might not want to use the ternary operator, as it inhibi
 
 ## Using the ternary operator in JavaScript frameworks
 
-Ternary operators are actually very common in [**React components**](/blog.logrocket.com/react-design-patterns.md) because they work and look great with [<FontIcon icon="fa-brands fa-react"/>JSX](https://legacy.reactjs.org/docs/introducing-jsx.html).Let’s go through some examples of conditional renderings in React.
+Ternary operators are actually very common in [**React components**](/blog.logrocket.com/react-design-patterns.md) because they work and look great with [<VPIcon icon="fa-brands fa-react"/>JSX](https://legacy.reactjs.org/docs/introducing-jsx.html).Let’s go through some examples of conditional renderings in React.
 
 The code below shows a traditional `if...else` approach, where we check if a user is logged in and return different welcome messages accordingly:
 
@@ -399,7 +399,7 @@ During this article, we have seen the advantages and pitfalls of both the tradit
 
 ## Browser compatibility
 
-The ternary operator should be compatible with all browsers below. This chart comes courtesy of [<FontIcon icon="fas fa-globe"/>Can I Use](https://caniuse.com/mdn-javascript_operators_conditional):
+The ternary operator should be compatible with all browsers below. This chart comes courtesy of [<VPIcon icon="fas fa-globe"/>Can I Use](https://caniuse.com/mdn-javascript_operators_conditional):
 
 ![ternary operator browser compatibility chart from can i use](/assets/image/blog.logrocket.com/ternary-operator-javascript/ternary-operator-broswer-compatability.png)
 

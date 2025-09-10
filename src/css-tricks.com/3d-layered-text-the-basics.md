@@ -192,7 +192,7 @@ In this example, we will go with the inline approach. It gives us full control, 
 
 ::: tip Pro tip
 
-If you’re working in an IDE with Emmet support, you can generate all your layers at once by typing `.layer*24[style="--i: $;"]` and pressing Tab. The `.layer` is your class, `*24` is the number of elements, attributes go in square brackets `[ ]`, and `$` is the incrementing number. But, If you’re reading this in the not-so-distant future, you might be able to use [<FontIcon icon="iconfont icon-css-tricks"/>`sibling-index()`](https://css-tricks.com/almanac/functions/s/sibling-index/) and not even need these tricks. In that case, you won’t need to add variables to your elements at all, just swap out `var(--i)` for `sibling-index()` in the next code examples.
+If you’re working in an IDE with Emmet support, you can generate all your layers at once by typing `.layer*24[style="--i: $;"]` and pressing Tab. The `.layer` is your class, `*24` is the number of elements, attributes go in square brackets `[ ]`, and `$` is the incrementing number. But, If you’re reading this in the not-so-distant future, you might be able to use [<VPIcon icon="iconfont icon-css-tricks"/>`sibling-index()`](https://css-tricks.com/almanac/functions/s/sibling-index/) and not even need these tricks. In that case, you won’t need to add variables to your elements at all, just swap out `var(--i)` for `sibling-index()` in the next code examples.
 
 :::
 
@@ -267,7 +267,7 @@ After setting the perspective on the parent, you’ll also need to use `transfor
 }
 ```
 
-In this example, I’m using a fairly low value for the [<FontIcon icon="iconfont icon-css-tricks"/>`perspective`](https://css-tricks.com/almanac/properties/p/perspective/), but you should definitely play around with it to suit your own design. This value represents the distance between the viewer and the object, which directly affects how much depth we see in the transformed layers. A smaller value creates a stronger, more exaggerated 3D effect, while a larger value makes the scene appear flatter. This property is what lets us actually see the z-axis movement in action.
+In this example, I’m using a fairly low value for the [<VPIcon icon="iconfont icon-css-tricks"/>`perspective`](https://css-tricks.com/almanac/properties/p/perspective/), but you should definitely play around with it to suit your own design. This value represents the distance between the viewer and the object, which directly affects how much depth we see in the transformed layers. A smaller value creates a stronger, more exaggerated 3D effect, while a larger value makes the scene appear flatter. This property is what lets us actually see the z-axis movement in action.
 
 ---
 
@@ -282,7 +282,7 @@ Now we can move the layers along the z-axis, and this is where we start using th
 }
 ```
 
-Now let’s set the `translateZ` value for each layer. We already have the layer’s index and the spacing between layers, so all we need to do is multiply them together inside the [<FontIcon icon="iconfont icon-css-tricks"/>`transform`](https://css-tricks.com/almanac/properties/t/transform/) property.
+Now let’s set the `translateZ` value for each layer. We already have the layer’s index and the spacing between layers, so all we need to do is multiply them together inside the [<VPIcon icon="iconfont icon-css-tricks"/>`transform`](https://css-tricks.com/almanac/properties/t/transform/) property.
 
 ```css
 .layer {  

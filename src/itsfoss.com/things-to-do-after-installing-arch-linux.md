@@ -62,7 +62,7 @@ This tutorial shows you a few essential things to do after installing Arch Linux
 
 Earlier I showed you [how to install Arch Linux](/itsfoss.com/install-arch-linux.md). Today, I am going to list a few basic and yet important things to do after installing Arch Linux.
 
-By this time, you probably already know that [<FontIcon icon="iconfont icon-archlinux"/>Arch Linux](https://archlinux.org/) comes with a minimal installation and lets you build your own system on top of it. From installing desktop environments to media codecs and your favorite applications, everything has to be done by you.
+By this time, you probably already know that [<VPIcon icon="iconfont icon-archlinux"/>Arch Linux](https://archlinux.org/) comes with a minimal installation and lets you build your own system on top of it. From installing desktop environments to media codecs and your favorite applications, everything has to be done by you.
 
 This do-it-yourself (DIY) approach is what many Arch Linux users prefer. If you want things running out of the box, [you should use Manjaro Linux](/itsfoss.com/why-use-manjaro-linux.md). Manjaro is based on Arch minus the hassle.
 
@@ -88,7 +88,7 @@ sudo pacman -Syu
 
 ### 1. Installing X server, Desktop Environment and Display Manager
 
-Before installing a desktop environment (DE), you will need to install the [<FontIcon icon="fas fa-globe"/>X server](http://linfo.org/x_server.html) which is the most popular [display server](/itsfoss.com/display-server.md).
+Before installing a desktop environment (DE), you will need to install the [<VPIcon icon="fas fa-globe"/>X server](http://linfo.org/x_server.html) which is the most popular [display server](/itsfoss.com/display-server.md).
 
 ```sh
 sudo pacman -S xorg
@@ -104,7 +104,7 @@ sudo pacman -S plasma # To install KDE:
 sudo pacman -S mate mate-extra # To install MATE:
 ```
 
-You will also need a [display manager](/itsfoss.com/display-manager.md) to log in to your desktop environment. For the ease, you can install [<FontIcon icon="fas fa-globe"/>LXDM](https://wiki.archlinux.org/index.php/LXDM).
+You will also need a [display manager](/itsfoss.com/display-manager.md) to log in to your desktop environment. For the ease, you can install [<VPIcon icon="fas fa-globe"/>LXDM](https://wiki.archlinux.org/index.php/LXDM).
 
 ```sh
 pacman -S lxdm
@@ -157,13 +157,13 @@ sudo pacman -Rs linux
 
 ### 3. Installing Yaourt
 
-[<FontIcon icon="iconfont icon-archlinux"/>Yaourt](https://archlinux.fr/yaourt-en)stands for Yet AnOther User Repository Tool which can be used to search, download and install packages from the official repository as well as AUR.
+[<VPIcon icon="iconfont icon-archlinux"/>Yaourt](https://archlinux.fr/yaourt-en)stands for Yet AnOther User Repository Tool which can be used to search, download and install packages from the official repository as well as AUR.
 
-[Arch User Repository](/itsfoss.com/aur-arch-linux.md) or [<FontIcon icon="iconfont icon-archlinux"/>AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository) is a community-driven repository for Arch users and contains package descriptions to compile a package from source and install it.Most of the packages that make to the official repository start in the AUR first. Users contribute their own applications which are voted for or against and once it becomes popular enough, they areincluded in the official repository.
+[Arch User Repository](/itsfoss.com/aur-arch-linux.md) or [<VPIcon icon="iconfont icon-archlinux"/>AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository) is a community-driven repository for Arch users and contains package descriptions to compile a package from source and install it.Most of the packages that make to the official repository start in the AUR first. Users contribute their own applications which are voted for or against and once it becomes popular enough, they areincluded in the official repository.
 
 AUR contains lots of useful applications that are not found in the main repo can be installed from AUR with help of Yaourt. Yaourt is similar to what [Synaptic Package Manager](/itsfoss.com/synaptic-package-manager.md) does, and can be installed by following these steps:
 
-Open <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`pacman.conf` file and add these lines at the bottom:
+Open <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`pacman.conf` file and add these lines at the bottom:
 
 ```toml title="pacman.conf"
 [archlinuxfr]
@@ -191,7 +191,7 @@ yaourt -S package-name
 
 ### 4. Install GUI Package Manager Pamac
 
-The default package manager for Arch Linux is [<FontIcon icon="iconfont icon-archlinux"/>Pacman](https://wiki.archlinux.org/index.php/pacman) (Package Manager) and using Pacman is quite easy to install or remove a software.
+The default package manager for Arch Linux is [<VPIcon icon="iconfont icon-archlinux"/>Pacman](https://wiki.archlinux.org/index.php/pacman) (Package Manager) and using Pacman is quite easy to install or remove a software.
 
 However, it’s sometimes difficult to talk in commands. Pamac provides a GUI option for Pacman and works like Synaptic Package Manager or GNOME Software.
 
@@ -286,7 +286,7 @@ To install conky, use below command :
 sudo pacman -S conky
 ```
 
-You can [configure conky yourself](/itsfoss.com/conky-gui-ubuntu-1304.md) which will need some digging into the ~/.conkyrc file or you can download your favorite one from web and replace the default conkyrc file. There is a detailed tutorial about conky and its configuration on the [<FontIcon icon="iconfont icon-archlinux"/>Arch Linux website.](https://wiki.archlinux.org/index.php/Conky)
+You can [configure conky yourself](/itsfoss.com/conky-gui-ubuntu-1304.md) which will need some digging into the ~/.conkyrc file or you can download your favorite one from web and replace the default conkyrc file. There is a detailed tutorial about conky and its configuration on the [<VPIcon icon="iconfont icon-archlinux"/>Arch Linux website.](https://wiki.archlinux.org/index.php/Conky)
 
 :::
 
@@ -308,7 +308,7 @@ sudo pacman -Rs package-name
 
 ### Final Words
 
-Arch Linux is a great distribution if you want to take control of everything, from setting up your favorite desktop environment to the tools you want to use. The [<FontIcon icon="iconfont icon-archlinux"/>Arch Wiki](https://wiki.archlinux.org/) is a great place to learn these things and in itself more than sufficient.
+Arch Linux is a great distribution if you want to take control of everything, from setting up your favorite desktop environment to the tools you want to use. The [<VPIcon icon="iconfont icon-archlinux"/>Arch Wiki](https://wiki.archlinux.org/) is a great place to learn these things and in itself more than sufficient.
 
 In this article, we have just listed out the most important things to do after installing Arch Linux. The rest is up to you to explore.
 

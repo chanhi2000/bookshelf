@@ -63,13 +63,13 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/11/masonry.jpg
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/11/masonry.jpg"/>
 
-Many CSS experts have weighed heavily on possible syntaxes for a new masonry layout feature last year. There were [**two main camps**](/css-tricks.com/css-masonry-css-grid.md) and a [<FontIcon icon="iconfont icon-webkit"/>third camp](https://webkit.org/blog/16587/item-flow-part-1-a-new-unified-concept-for-layout/) that strikes a balance between the two:
+Many CSS experts have weighed heavily on possible syntaxes for a new masonry layout feature last year. There were [**two main camps**](/css-tricks.com/css-masonry-css-grid.md) and a [<VPIcon icon="iconfont icon-webkit"/>third camp](https://webkit.org/blog/16587/item-flow-part-1-a-new-unified-concept-for-layout/) that strikes a balance between the two:
 
 1. Use `display: masonry`
 2. Use `grid-template-rows: masonry`
 3. Use `item-pack: collapse`
 
-I don’t think they’ve came up with a resolution [<FontIcon icon="fa-brands fa-chrome"/>yet](https://developer.chrome.com/blog/masonry-syntax). But you might want to know that [**Firefox already supports the masonry layout**](/css-tricks.com/native-css-masonry-layout-in-css-grid.md) with the second syntax. And [<FontIcon icon="fa-brands fa-chrome"/>Chrome is testing it](https://developer.chrome.com/blog/masonry-update?hl=en) with the first syntax. While it’s cool to see native support for CSS Masonry evolving, we can’t really use it in production if other browsers don’t support the same implementation…
+I don’t think they’ve came up with a resolution [<VPIcon icon="fa-brands fa-chrome"/>yet](https://developer.chrome.com/blog/masonry-syntax). But you might want to know that [**Firefox already supports the masonry layout**](/css-tricks.com/native-css-masonry-layout-in-css-grid.md) with the second syntax. And [<VPIcon icon="fa-brands fa-chrome"/>Chrome is testing it](https://developer.chrome.com/blog/masonry-update?hl=en) with the first syntax. While it’s cool to see native support for CSS Masonry evolving, we can’t really use it in production if other browsers don’t support the same implementation…
 
 So, instead of adding my voice to one of those camps, I went on to figure out **how make masonry work today with other browsers**. I’m happy to report I’ve found a way — and, bonus! — that support can be provided **with only 66 lines of JavaScript**.
 
@@ -96,7 +96,7 @@ These make my implementation incredibly robust and ready for production use, whi
 
 ::: tip Now, a hot tip
 
-If you combine this with Tailwind’s responsive variants and arbitrary values, you can include [<FontIcon icon="fas fa-globe"/>even more flexibility](https://splendidlabz.com/docs/layouts/macro-layouts/masonry/) into this masonry grid without writing more CSS.
+If you combine this with Tailwind’s responsive variants and arbitrary values, you can include [<VPIcon icon="fas fa-globe"/>even more flexibility](https://splendidlabz.com/docs/layouts/macro-layouts/masonry/) into this masonry grid without writing more CSS.
 
 :::
 
@@ -328,7 +328,7 @@ Exciting, isn’t it? This implementation is so simple to use!
 
 ## Masonry grid with Splendid Labz
 
-If you’re not adverse to using code built by others, maybe you might want to consider [<FontIcon icon="fas fa-globe"/>grabbing the one I’ve built for you](https://splendidlabz.com/docs/layouts/macro-layouts/masonry/) in Splendid Labz.
+If you’re not adverse to using code built by others, maybe you might want to consider [<VPIcon icon="fas fa-globe"/>grabbing the one I’ve built for you](https://splendidlabz.com/docs/layouts/macro-layouts/masonry/) in Splendid Labz.
 
 To do that, install the helper library and add the necessary code:
 
@@ -350,11 +350,11 @@ masonry()
 
 ::: note One last thing
 
-I’ve been building a ton of tools to help **make web development much easier for you and me**. I’ve parked them all under the [<FontIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/) brand — and one of these examples is this masonry grid I showed you today.
+I’ve been building a ton of tools to help **make web development much easier for you and me**. I’ve parked them all under the [<VPIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/) brand — and one of these examples is this masonry grid I showed you today.
 
 :::
 
-If you love this, you might be interested in other [<FontIcon icon="fas fa-globe"/>layout utilities](https://splendidlabz.com/docs/layouts/) that makes layout super simple to build.
+If you love this, you might be interested in other [<VPIcon icon="fas fa-globe"/>layout utilities](https://splendidlabz.com/docs/layouts/) that makes layout super simple to build.
 
 Now, I hope you have enjoyed this article today. Go unleash your new CSS masonry grid if you wish to, and all the best!
 

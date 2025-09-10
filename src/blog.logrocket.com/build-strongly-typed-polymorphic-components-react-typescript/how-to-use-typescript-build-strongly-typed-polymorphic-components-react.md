@@ -54,7 +54,7 @@ cover: /assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-compone
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-components-react-typescript/banner.png"/>
 
-If you’re reading this, a prerequisite is that you already know some TypeScript — at least the basics. If you have no clue what TypeScript is, I strongly recommend [<FontIcon icon="iconfont icon-typescript"/>giving this document a read](https://typescriptlang.org/docs/handbook/typescript-from-scratch.html) first.
+If you’re reading this, a prerequisite is that you already know some TypeScript — at least the basics. If you have no clue what TypeScript is, I strongly recommend [<VPIcon icon="iconfont icon-typescript"/>giving this document a read](https://typescriptlang.org/docs/handbook/typescript-from-scratch.html) first.
 
 In this section, we will use TypeScript to solve the aforementioned concerns and build strongly typed polymorphic components.
 
@@ -115,7 +115,7 @@ However, if you wrote this seemingly perfect code, you’ll have TypeScript yell
 
 ![The JSX Generic Error](/assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-components-react-typescript/jsx-generic-error.png)
 
-What’s going on here is a flaw in the [<FontIcon icon="fa-brands fa-stack-overflow"/>syntax for generics](https://stackoverflow.com/questions/32308370/what-is-the-syntax-for-typescript-arrow-functions-with-generics?) in `.tsx` files. There are two ways to solve this.
+What’s going on here is a flaw in the [<VPIcon icon="fa-brands fa-stack-overflow"/>syntax for generics](https://stackoverflow.com/questions/32308370/what-is-the-syntax-for-typescript-arrow-functions-with-generics?) in `.tsx` files. There are two ways to solve this.
 
 ---
 

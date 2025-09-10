@@ -84,11 +84,11 @@ In modern system engineering and programming, containers are a widely used tool 
 
 One of the most widespread container platforms is [**Docker, a monolithic tool**](/blog.logrocket.com/dockerizing-a-django-app.md). It handles every aspect of the containerization process, from building, running, and inspecting container images.
 
-In this article, we’ll cover a few Docker alternatives. Each tool covered in this tutorial adheres to the [<FontIcon icon="fas fa-globe"/>Open Containers Initiative (OCI)](https://opencontainers.org/) specification, which includes specifications for container runtime, container distribution, and container images. Let’s get started!
+In this article, we’ll cover a few Docker alternatives. Each tool covered in this tutorial adheres to the [<VPIcon icon="fas fa-globe"/>Open Containers Initiative (OCI)](https://opencontainers.org/) specification, which includes specifications for container runtime, container distribution, and container images. Let’s get started!
 
 ::: note Editor’s note
 
-This article was updated by [<FontIcon icon="fas fa-globe"/>Matteo Di Pirro](https://blog.logrocket.com/author/matteodipirro/) in February 2025 to expand coverage of Docker alternatives and include new information on additional alternatives, including CRI-O.
+This article was updated by [<VPIcon icon="fas fa-globe"/>Matteo Di Pirro](https://blog.logrocket.com/author/matteodipirro/) in February 2025 to expand coverage of Docker alternatives and include new information on additional alternatives, including CRI-O.
 
 :::
 
@@ -98,7 +98,7 @@ This article was updated by [<FontIcon icon="fas fa-globe"/>Matteo Di Pirro](htt
 
 ![Podman Docker Alternative](/assets/image/blog.logrocket.com/docker-alternatives/podman.png)
 
-[<FontIcon icon="iconfont icon-podman"/>Podman](https://podman.io/), a container engine developed by RedHat, is one of the most prominent Docker alternatives for building, running, and storing container images. Podman maintains compatibility with the OCI container image spec just like Docker, meaning Podman can run container images produced by Docker and vice versa.
+[<VPIcon icon="iconfont icon-podman"/>Podman](https://podman.io/), a container engine developed by RedHat, is one of the most prominent Docker alternatives for building, running, and storing container images. Podman maintains compatibility with the OCI container image spec just like Docker, meaning Podman can run container images produced by Docker and vice versa.
 
 Podman is the default container engine in RedHat 8 and CentOS 8. Podman’s command line interface is identical to Docker’s, including the arguments. As a matter of fact, we can simply alias the `docker` command to `podman` without noticing the difference, making it easy for existing Docker users to transition to Podman:
 
@@ -116,7 +116,7 @@ To run and manage containers, Podman relies on `systemd`.
 
 Podman also differentiates from Docker by using rootless containers by default. Root access is not necessary for launching and operating a container, but it helps to mitigate potential vulnerabilities in the container runtime that can cause privilege escalation.
 
-To be fair, Docker supports a [<FontIcon icon="fa-brands fa-docker"/>rootless mode](https://docs.docker.com/engine/security/rootless/) as well, which debuted as an experimental feature in Docker Engine v19.03 before being stabilized in v20.10. However, its use is not yet widespread in the ecosystem. Furthermore, Podman got there first.
+To be fair, Docker supports a [<VPIcon icon="fa-brands fa-docker"/>rootless mode](https://docs.docker.com/engine/security/rootless/) as well, which debuted as an experimental feature in Docker Engine v19.03 before being stabilized in v20.10. However, its use is not yet widespread in the ecosystem. Furthermore, Podman got there first.
 
 This doesn’t necessarily mean that Podman is safer than Docker. However, rootless containers are safer than containers with root privileges. Furthermore, Docker daemons have root privileges, which makes them more suitable for an attacker. Still, Podman can run root containers, so it’s not immune from the problem.
 
@@ -132,7 +132,7 @@ In conclusion, there’s no winner between Podman and Docker. The former might b
 
 ![Buildah Docker Alternative](/assets/image/blog.logrocket.com/docker-alternatives/buildah.png)
 
-[<FontIcon icon="fas fa-globe"/>Buildah](https://buildah.io/) is a Docker alternative for building images. Developed by RedHat, Buildah is often used together with Podman. In fact, Podman uses a subset of Buildah’s functionality to implement its `build` subcommand.
+[<VPIcon icon="fas fa-globe"/>Buildah](https://buildah.io/) is a Docker alternative for building images. Developed by RedHat, Buildah is often used together with Podman. In fact, Podman uses a subset of Buildah’s functionality to implement its `build` subcommand.
 
 Buildah is a great tool if we need fine-grained control over the whole image-building process thanks to the Buildah CLI tool. This is very important when we want to optimize our images or when we work with complex builds.
 
@@ -156,7 +156,7 @@ At the time of writing, Buildah works on several Linux distributions but is not 
 
 ![BuildKit Docker Alternative](https://blog.logrocket.com/wp-content/uploads/2021/11/buildkit.png)
 
-[BuildKit (<FontIcon icon="iconfont icon-github"/>`moby/buildkit`)](https://github.com/moby/buildkit) is an improved image-building engine for Docker that was developed as part of the [<FontIcon icon="fas fa-globe"/>Moby project](https://mobyproject.org/). It is the default builder for users on Docker Desktop and Docker Engine as of version 23.0, but it also comes as a standalone tool.
+[BuildKit (<VPIcon icon="iconfont icon-github"/>`moby/buildkit`)](https://github.com/moby/buildkit) is an improved image-building engine for Docker that was developed as part of the [<VPIcon icon="fas fa-globe"/>Moby project](https://mobyproject.org/). It is the default builder for users on Docker Desktop and Docker Engine as of version 23.0, but it also comes as a standalone tool.
 
 ### Evaluating BuildKit as a Docker alternative
 
@@ -225,7 +225,7 @@ DOCKER_BUILDKIT=1 docker build .
 
 ![Kaniko Docker Alternative](https://blog.logrocket.com/wp-content/uploads/2021/11/kaniko-docker-alternative.png)
 
-Developed by Google, [Kaniko (<FontIcon icon="iconfont icon-github"/>`GoogleContainerTools/kaniko`](https://github.com/GoogleContainerTools/kaniko) is used to build container images inside of an unprivileged container or a Kubernetes cluster. Like Buildah, Kaniko does not require a daemon, and it can build images from Dockerfiles without depending on Docker.
+Developed by Google, [Kaniko (<VPIcon icon="iconfont icon-github"/>`GoogleContainerTools/kaniko`](https://github.com/GoogleContainerTools/kaniko) is used to build container images inside of an unprivileged container or a Kubernetes cluster. Like Buildah, Kaniko does not require a daemon, and it can build images from Dockerfiles without depending on Docker.
 
 For example, here’s a Kubernetes `Pod` definition of building an image using Kaniko:
 
@@ -272,7 +272,7 @@ Regarding the build process, in Kaniko we can specify a set of directories or fi
 
 ![Skopeo Docker Alternative](https://blog.logrocket.com/wp-content/uploads/2021/11/skopeo-docker-alternative.webp)
 
-[Skopeo (<FontIcon icon="iconfont icon-github"/>`containers/skopeo`)](https://github.com/containers/skopeo) is another tool developed by RedHat and part of the RedHat OpenShift Container Platform. As such, it is usually adopted along with Podman and Buildah.
+[Skopeo (<VPIcon icon="iconfont icon-github"/>`containers/skopeo`)](https://github.com/containers/skopeo) is another tool developed by RedHat and part of the RedHat OpenShift Container Platform. As such, it is usually adopted along with Podman and Buildah.
 
 More precisely, Skopeo provides us with a way to inspect Docker images. In particular, the `inspect` sub-command returns low-level information about a container image, similar to `docker inspect`.
 
@@ -352,7 +352,7 @@ As we said for Podman and Buildah, Skopeo does not mean to fulfill all the use c
 
 ## 6. Dive
 
-[Dive (<FontIcon icon="iconfont icon-github"/>`wagoodman/dive`)](https://github.com/wagoodman/dive) is not a Docker alternative per se, but it’s surely worth a mention. It’s a tool for inspecting, analyzing, and optimizing container images. Dive can show the content of an image by layer, highlighting the differences between each. Through image analysis, Dive provides us with a percentage score for efficiency by estimating wasted space, which is helpful when trying to reduce the image size.
+[Dive (<VPIcon icon="iconfont icon-github"/>`wagoodman/dive`)](https://github.com/wagoodman/dive) is not a Docker alternative per se, but it’s surely worth a mention. It’s a tool for inspecting, analyzing, and optimizing container images. Dive can show the content of an image by layer, highlighting the differences between each. Through image analysis, Dive provides us with a percentage score for efficiency by estimating wasted space, which is helpful when trying to reduce the image size.
 
 Another useful feature is Dive’s CI integration, which provides a pass-or-fail result based on the image’s efficiency and the amount of wasted space. To access the CI integration feature, set the `CI` environmental variable to `true` when invoking any valid `dive` command:
 
@@ -372,13 +372,13 @@ In conclusion, Dive is a great tool for learning and developing confidence in wh
 
 ![CRUN Docker Alternative](/assets/image/blog.logrocket.com/docker-alternatives/crun-docker-alternative.jpeg)
 
-[<FontIcon icon="iconfont icon-github"/>`opencontainers/runc`](https://github.com/opencontainers/runc) is a CLI tool providing a low-level interface to create and run containers on Linux based on the OCI specification. runc was formerly embedded into Docker as a module but was later spun into a [<FontIcon icon="fa-brands fa-docker"/>standalone tool in 2015](https://docker.com/blog/runc/). It’s specifically designed to be a lightweight and secure runtime that’s easily integrated with higher-level orchestrators (e.g. Kubernetes).
+[<VPIcon icon="iconfont icon-github"/>`opencontainers/runc`](https://github.com/opencontainers/runc) is a CLI tool providing a low-level interface to create and run containers on Linux based on the OCI specification. runc was formerly embedded into Docker as a module but was later spun into a [<VPIcon icon="fa-brands fa-docker"/>standalone tool in 2015](https://docker.com/blog/runc/). It’s specifically designed to be a lightweight and secure runtime that’s easily integrated with higher-level orchestrators (e.g. Kubernetes).
 
-runc remains the default container runtime in Docker and most other container engines. An alternative to runc is [<FontIcon icon="iconfont icon-github"/>`containers/crun`](https://github.com/containers/crun), developed by RedHat and written in C instead of Go like most Linux container tools.
+runc remains the default container runtime in Docker and most other container engines. An alternative to runc is [<VPIcon icon="iconfont icon-github"/>`containers/crun`](https://github.com/containers/crun), developed by RedHat and written in C instead of Go like most Linux container tools.
 
 ### Evaluating runc as a Docker alternative
 
-The main advantages of crun over runc are all about performance. [<FontIcon icon="fa-brands fa-redhat"/>According to RedHat](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/building_running_and_managing_containers/selecting-a-container-runtime_building-running-and-managing-containers#con_the-crun-container-runtime_selecting-a-container-runtime), the crun binary is up to 50 times smaller and up to twice as fast as the runc binary. What’s important is that we can use runc and crun interchangeably, as both implement the OCI runtime specification. crun, however, supports more low-level features that make it the preferred choice if we want to have fine-grained control over the runtime our containers run on. For example, with crun we can set stricter limits on the memory allowed in the container.
+The main advantages of crun over runc are all about performance. [<VPIcon icon="fa-brands fa-redhat"/>According to RedHat](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/building_running_and_managing_containers/selecting-a-container-runtime_building-running-and-managing-containers#con_the-crun-container-runtime_selecting-a-container-runtime), the crun binary is up to 50 times smaller and up to twice as fast as the runc binary. What’s important is that we can use runc and crun interchangeably, as both implement the OCI runtime specification. crun, however, supports more low-level features that make it the preferred choice if we want to have fine-grained control over the runtime our containers run on. For example, with crun we can set stricter limits on the memory allowed in the container.
 
 Lastly, being written in C, crun works on architectures where [**Go support**](/blog.logrocket.com/error-handling-golang-best-practices.md) is limited or absent (e.g. Risc-V).
 
@@ -390,7 +390,7 @@ crun is Production-ready and we can therefore use it as a runc replacement witho
 
 ![LXD Docker Alternative](/assets/image/blog.logrocket.com/docker-alternatives/lxd-docker-alternative.jpeg)
 
-[<FontIcon icon="fas fa-globe"/>LXD](https://linuxcontainers.org/) and Docker are not competing container technologies, as they serve different purposes. The former, in particular, is a virtual machine manager and image-based system container. It offers images for a variety of Linux distributions as well as a complete user experience centered on entire Linux systems operating within containers or virtual machines.
+[<VPIcon icon="fas fa-globe"/>LXD](https://linuxcontainers.org/) and Docker are not competing container technologies, as they serve different purposes. The former, in particular, is a virtual machine manager and image-based system container. It offers images for a variety of Linux distributions as well as a complete user experience centered on entire Linux systems operating within containers or virtual machines.
 
 ### Evaluating LXD as a Docker alternative
 
@@ -404,7 +404,7 @@ LXD offers compatibility for many storage backends and network types, along with
 
 A component of LXD security and access control is based on group membership. As a root user, we may create an `lxd` group and add trusted members or users so that we can communicate with the local daemon and have complete control over LXD.
 
-LXD provides [<FontIcon icon="fas fa-globe"/>snap packages](https://linuxcontainers.org/lxd/getting-started-cli/#snap-package) for many Linux distributions (including Ubuntu, Fedora, Arch Linux, Debian, and OpenSUSE) to facilitate installation. LXD’s most important features are its basic API, instances, profiles, backup, export, and configurability.
+LXD provides [<VPIcon icon="fas fa-globe"/>snap packages](https://linuxcontainers.org/lxd/getting-started-cli/#snap-package) for many Linux distributions (including Ubuntu, Fedora, Arch Linux, Debian, and OpenSUSE) to facilitate installation. LXD’s most important features are its basic API, instances, profiles, backup, export, and configurability.
 
 Based on what we saw above, LXD and Docker are not competing technologies. In fact, we could run Docker containers in an LXD system container. Generally speaking, the former is more similar to VMWare or KVM hypervisors, even though it is much lighter on resources and without the virtualization overhead.
 
@@ -416,9 +416,9 @@ Docker, on the other hand, abstracts away storage, networking, and logging. It w
 
 ![Containerd Docker Alternative](/assets/image/blog.logrocket.com/docker-alternatives/cointainerd-docker-alternative.png)
 
-[<FontIcon icon="fas fa-globe"/>containerd](https://containerd.io/) is a container runtime created by Docker that handles the lifecycle of a container on a virtual machine. containerd retrieves container images from container registries, mounts storage and enables networking for a container. In other words, Docker builds upon containerd to give developers a more comprehensive experience.
+[<VPIcon icon="fas fa-globe"/>containerd](https://containerd.io/) is a container runtime created by Docker that handles the lifecycle of a container on a virtual machine. containerd retrieves container images from container registries, mounts storage and enables networking for a container. In other words, Docker builds upon containerd to give developers a more comprehensive experience.
 
-containerd, together with Kubernetes, Envoy, Prometheus, and CoreDNS, graduated from the CNCF (Cloud Native Computing Foundation) in February 2019. It is available as a Linux and Windows daemon. Some of its users include [<FontIcon icon="fas fa-globe"/>eliot](https://docs.eliot.run/), [<FontIcon icon="fas fa-globe"/>Cloud Foundry](https://cloudfoundry.org/), [Docker (<FontIcon icon="iconfont icon-github"/>`docker/engine`)](https://github.com/docker/engine), [Firecracker (<FontIcon icon="iconfont icon-github"/>`firecracker-microvm/firecracker`)](https://github.com/firecracker-microvm/firecracker), and [<FontIcon icon="fa-brands fa-aws"/>Bottlerocket](https://aws.amazon.com/bottlerocket).
+containerd, together with Kubernetes, Envoy, Prometheus, and CoreDNS, graduated from the CNCF (Cloud Native Computing Foundation) in February 2019. It is available as a Linux and Windows daemon. Some of its users include [<VPIcon icon="fas fa-globe"/>eliot](https://docs.eliot.run/), [<VPIcon icon="fas fa-globe"/>Cloud Foundry](https://cloudfoundry.org/), [Docker (<VPIcon icon="iconfont icon-github"/>`docker/engine`)](https://github.com/docker/engine), [Firecracker (<VPIcon icon="iconfont icon-github"/>`firecracker-microvm/firecracker`)](https://github.com/firecracker-microvm/firecracker), and [<VPIcon icon="fa-brands fa-aws"/>Bottlerocket](https://aws.amazon.com/bottlerocket).
 
 ### Evaluating containerd as a Docker alternative
 
@@ -490,7 +490,7 @@ redis, err := client.NewContainer(context, "redis-master", containerd.WithNewSpe
 
 ![cri-o logo docker alternative](/assets/image/blog.logrocket.com/docker-alternatives/cri-o-logo.png)
 
-[<FontIcon icon="fas fa-globe"/>CRI-O](https://cri-o.io/) is another container runtime implementing the Kubernetes Container Runtime Interface. This means we can use it in our Kubernetes clusters to run containers.
+[<VPIcon icon="fas fa-globe"/>CRI-O](https://cri-o.io/) is another container runtime implementing the Kubernetes Container Runtime Interface. This means we can use it in our Kubernetes clusters to run containers.
 
 ### Evaluating CRI-O as a Docker alternative
 
@@ -506,7 +506,7 @@ Hence, if are migrating to tools like Podman and Buildah, using CRI-O rather tha
 
 Docker Desktop is a fully-featured software allowing Mac and Windows systems to use a Linux virtual machine to run the Docker engine. It enables us to create and share containerized applications and microservices.
 
-In August 2021, however, Docker Desktop announced [<FontIcon icon="fa-brands fa-docker"/>changes to its licensing](https://docker.com/blog/updating-product-subscriptions/), meaning it would no longer be free for companies with more than 250 employees or over $10 million in revenue.
+In August 2021, however, Docker Desktop announced [<VPIcon icon="fa-brands fa-docker"/>changes to its licensing](https://docker.com/blog/updating-product-subscriptions/), meaning it would no longer be free for companies with more than 250 employees or over $10 million in revenue.
 
 However, there are several alternative approaches to containerization, often in the form of standalone tools, which sometimes offer better results than what Docker Desktop delivers:
 
@@ -514,7 +514,7 @@ However, there are several alternative approaches to containerization, often in 
 
 ![Rancher Desktop Docker Desktop alternative](/assets/image/blog.logrocket.com/docker-alternatives/rancher-desktop-docker-desktop-alternative.png)
 
-[<FontIcon icon="fas fa-globe"/>Rancher Desktop](https://rancherdesktop.io/) features a built-in GUI and is easy to use. The container runtime used by Kubernetes and Rancher Desktop is similar. Lastly, Rancher Desktop offers container management for building, pushing, and running containers.
+[<VPIcon icon="fas fa-globe"/>Rancher Desktop](https://rancherdesktop.io/) features a built-in GUI and is easy to use. The container runtime used by Kubernetes and Rancher Desktop is similar. Lastly, Rancher Desktop offers container management for building, pushing, and running containers.
 
 Rancher Desktop offers container management for building, pushing, and running containers. You have a choice between the Moby/dockerd engine offered by Docker CLI and the containerd engine offered by nerdctl. The containerd project provides nerdctl, a “Docker-compatible CLI for containerd.”
 
@@ -522,7 +522,7 @@ Rancher Desktop offers container management for building, pushing, and running c
 
 ![Minikube Docker Desktop Alternative](/assets/image/blog.logrocket.com/docker-alternatives/minikube-docker-desktop-alternative.jpeg)
 
-[Minikube (<FontIcon icon="iconfont icon-github"/>`kubernetes/minikube`)](https://github.com/kubernetes/minikube) is a method for running Kubernetes locally on macOS, Windows, or Linux. Minikube does not have a graphical user interface, although it is open source.
+[Minikube (<VPIcon icon="iconfont icon-github"/>`kubernetes/minikube`)](https://github.com/kubernetes/minikube) is a method for running Kubernetes locally on macOS, Windows, or Linux. Minikube does not have a graphical user interface, although it is open source.
 
 Minikube may be configured in almost every aspect, including the use of alternative container runtimes, the use of a custom virtual machine image, and support for GPU and other hardware pass-through.
 
@@ -532,7 +532,7 @@ Minikube works on macOS via the Hypervisor framework, Windows via Hyper-V, Linux
 
 ![Lima Docker Desktop Alternative](/assets/image/blog.logrocket.com/docker-alternatives/lima-docker-desktop-alternative.jpeg)
 
-[Lima (<FontIcon icon="iconfont icon-github"/>`lima-vm/lima`)](https://github.com/lima-vm/lima) is a container management application designed specifically for macOS, but it can be used on Linux as well. Lima promotes containerd and nerdctl ([contaiNERD (<FontIcon icon="iconfont icon-github"/>`containerd/nerdctl`](https://github.com/containerd/nerdctl)) [ctl (<FontIcon icon="iconfont icon-github"/>`containerd/nerdctl`)](https://github.com/containerd/nerdctl)) to Mac users, although it may also be used for non-container apps. Lima provides Linux virtual machines with automated data transfer, port forwarding, and built-in support for containerd.
+[Lima (<VPIcon icon="iconfont icon-github"/>`lima-vm/lima`)](https://github.com/lima-vm/lima) is a container management application designed specifically for macOS, but it can be used on Linux as well. Lima promotes containerd and nerdctl ([contaiNERD (<VPIcon icon="iconfont icon-github"/>`containerd/nerdctl`](https://github.com/containerd/nerdctl)) [ctl (<VPIcon icon="iconfont icon-github"/>`containerd/nerdctl`)](https://github.com/containerd/nerdctl)) to Mac users, although it may also be used for non-container apps. Lima provides Linux virtual machines with automated data transfer, port forwarding, and built-in support for containerd.
 
 You can install `lima` with this command:
 

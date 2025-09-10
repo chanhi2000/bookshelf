@@ -58,7 +58,7 @@ About a month ago, I ran into an issue with an API endpoint that wasn't scaling 
 
 This endpoint is used to calculate a report for an e-commerce web application. It needed to talk to multiple modules (services) to gather all the necessary data, combine it and perform the calculations.
 
-I made a [<FontIcon icon="fa-brands fa-linkedin"/>post about it on LinkedIn](https://linkedin.com/feed/update/urn:li:activity:6966700329111310336/) that resonated with many people.
+I made a [<VPIcon icon="fa-brands fa-linkedin"/>post about it on LinkedIn](https://linkedin.com/feed/update/urn:li:activity:6966700329111310336/) that resonated with many people.
 
 ![](https://milanjovanovic.tech/blogs/mnw_007/linkedin_post.png?imwidth=1920)
 
@@ -102,7 +102,7 @@ Don't call the database from a loop. This can usually be solved with a simple qu
 
 @tab 2.
 
-Use a query that returns multiple result sets from the database. One library that supports this is [<FontIcon icon="iconfont icon-github"/>`DapperLib/Dapper`](https://github.com/DapperLib/Dapper), with the `QueryMultiple` method.
+Use a query that returns multiple result sets from the database. One library that supports this is [<VPIcon icon="iconfont icon-github"/>`DapperLib/Dapper`](https://github.com/DapperLib/Dapper), with the `QueryMultiple` method.
 
 
 @tab 3.
@@ -155,7 +155,7 @@ I try to leave caching for the end, after I have exhausted all other possibiliti
 
 You have to consider how long you can safely cache the data, and how you are going to clear the cache if the underlying data changes.
 
-In simple applications, I use `IMemoryCache` that is available in **ASP.NET Core** out of the box. But you can also use an external cache like [<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io/).
+In simple applications, I use `IMemoryCache` that is available in **ASP.NET Core** out of the box. But you can also use an external cache like [<VPIcon icon="iconfont icon-redis"/>Redis](https://redis.io/).
 
 A good candidate for caching is data that is frequently accessed, but rarely modified.
 

@@ -55,9 +55,9 @@ Validation is an essential cross-cutting concern that you need to solve in your 
 
 Another important question you need to answer is how you approach different types of validation. For example, I consider input and business validation differently, and each deserves a specific solution.
 
-I want to show you an elegant solution for validation using [MediatR (<FontIcon icon="iconfont icon-github"/>`jbogard/MediatR`)](https://github.com/jbogard/MediatR) and [<FontIcon icon="fas fa-globe"/>FluentValidation](https://docs.fluentvalidation.net/en/latest/index.html).
+I want to show you an elegant solution for validation using [MediatR (<VPIcon icon="iconfont icon-github"/>`jbogard/MediatR`)](https://github.com/jbogard/MediatR) and [<VPIcon icon="fas fa-globe"/>FluentValidation](https://docs.fluentvalidation.net/en/latest/index.html).
 
-If you aren't using [<FontIcon icon="fa-brands fa-microsoft"/>CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs) with MediatR, don't worry. Everything I explain about validation can easily be adapted to other paradigms.
+If you aren't using [<VPIcon icon="fa-brands fa-microsoft"/>CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs) with MediatR, don't worry. Everything I explain about validation can easily be adapted to other paradigms.
 
 Here's what I'm going to talk about in this week's newsletter:
 
@@ -129,7 +129,7 @@ So, input validation sits at the entry point of the use case before handling the
 
 ## Input Validation With FluentValidation
 
-[<FontIcon icon="fas fa-globe"/>FluentValidation](https://docs.fluentvalidation.net/en/latest/index.html) is an excellent validation library for .NET, which uses a fluent interface and lambda expressions for building strongly typed validation rules.
+[<VPIcon icon="fas fa-globe"/>FluentValidation](https://docs.fluentvalidation.net/en/latest/index.html) is an excellent validation library for .NET, which uses a fluent interface and lambda expressions for building strongly typed validation rules.
 
 Here's the `ShipOrderCommand` that we want to validate:
 
@@ -144,7 +144,7 @@ public sealed record ShipOrderCommand : IRequest
 }
 ```
 
-To implement a validator with [FluentValidation (<FontIcon icon="iconfont icon-github"/>`FluentValidation/FluentValidation`)](https://github.com/FluentValidation/FluentValidation), you create a class that inherits from the `AbstractValidator<T>` base class. Then, you can add the validation rules from the constructor using `RuleFor`:
+To implement a validator with [FluentValidation (<VPIcon icon="iconfont icon-github"/>`FluentValidation/FluentValidation`)](https://github.com/FluentValidation/FluentValidation), you create a class that inherits from the `AbstractValidator<T>` base class. Then, you can add the validation rules from the constructor using `RuleFor`:
 
 ```cs
 public sealed class ShipOrderCommandValidator

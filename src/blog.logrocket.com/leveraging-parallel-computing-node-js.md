@@ -224,17 +224,17 @@ By using worker threads, you can distribute these tasks across multiple CPU core
 
 I’ll assume you already have a Node.js project set up. If you don’t, you can check out [**our guide**](/blog.logrocket.com/how-to-set-up-node-typescript-express.md) on how to set one up.
 
-Once your project is ready, copy and run the following command in your terminal to install [<FontIcon icon="iconfont icon-github"/>`lovell/sharp`](https://github.com/lovell/sharp), a high-performance image processing library for Node.js:
+Once your project is ready, copy and run the following command in your terminal to install [<VPIcon icon="iconfont icon-github"/>`lovell/sharp`](https://github.com/lovell/sharp), a high-performance image processing library for Node.js:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add sharp
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i sharp
@@ -270,7 +270,7 @@ if (isMainThread) {
 }
 ```
 
-After setting up the project structure, open the <FontIcon icon="fa-brands fa-js"/>`imageProcessor.js` file and include the code needed to create workers:
+After setting up the project structure, open the <VPIcon icon="fa-brands fa-js"/>`imageProcessor.js` file and include the code needed to create workers:
 
 ```js :collapsed-lines title="imageProcessor.js"
 const { Worker } = require("worker_threads");
@@ -343,11 +343,11 @@ module.exports = ImageProcessor;
 
 This code defines an `ImageProcessor` class that takes an optional `maxConcurrency` argument, which determines the maximum number of workers that can run simultaneously. Inside this class are two methods: `processImages` and `processBatch`.
 
-The `processImages` queues up the images in an array and creates a new `Worker` for each image using the <FontIcon icon="fa-brands fa-js"/>`imageWorker.js` script and passes `imagePath` and `processingOptions` as `workData` to the thread.
+The `processImages` queues up the images in an array and creates a new `Worker` for each image using the <VPIcon icon="fa-brands fa-js"/>`imageWorker.js` script and passes `imagePath` and `processingOptions` as `workData` to the thread.
 
 The `ProcessBatch` method iterates over the `imagePaths` in chunks. For each batch, it calls `processImages` to handle the images and waits `(await)` for each batch to complete before moving to the next.
 
-Next, go to the <FontIcon icon="fa-brands fa-js"/>`imageWorker.js` file and add the following code:
+Next, go to the <VPIcon icon="fa-brands fa-js"/>`imageWorker.js` file and add the following code:
 
 ```js :collapsed-lines title="imageWorker.js"
 const { parentPort, workerData } = require("worker_threads");
@@ -431,7 +431,7 @@ parentPort.postMessage({
 
 If there’s an error, the function sends an error message with details and a failure status via `postMessage`.
 
-For the final step, go to the <FontIcon icon="fa-brands fa-js"/>`index.js` file and add the main thread code:
+For the final step, go to the <VPIcon icon="fa-brands fa-js"/>`index.js` file and add the main thread code:
 
 ```js :collapsed-lines title="index.js"
 const path = require("path");

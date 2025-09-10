@@ -523,13 +523,13 @@ Thanks for reading this blog! 😊 If you want to explore more “under the hood
 
 Feel free to connect with me on:
 
-- [X (<FontIcon icon="fa-brands fa-x-twitter"/>`abhaycloud_dev`)](https://x.com/abhaycloud_dev)
-- [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`abhaysing-bhosale`)](https://linkedin.com/in/abhaysing-bhosale)
-- [GitHub (<FontIcon icon="iconfont icon-github"/>`Abhay-cloud`)](https://github.com/Abhay-cloud)
+- [X (<VPIcon icon="fa-brands fa-x-twitter"/>`abhaycloud_dev`)](https://x.com/abhaycloud_dev)
+- [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`abhaysing-bhosale`)](https://linkedin.com/in/abhaysing-bhosale)
+- [GitHub (<VPIcon icon="iconfont icon-github"/>`Abhay-cloud`)](https://github.com/Abhay-cloud)
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/kotlin-under-the-hood-exploring-objects-companion-objects-and-annotations-jvmstatic-71e1bf1128df)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/kotlin-under-the-hood-exploring-objects-companion-objects-and-annotations-jvmstatic-71e1bf1128df)
 
 <SiteInfo
   name="Kotlin Under the Hood: Exploring Objects, Companion Objects, and Annotations: @JvmStatic…"

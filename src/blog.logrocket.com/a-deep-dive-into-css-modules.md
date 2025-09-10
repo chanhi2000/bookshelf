@@ -52,7 +52,7 @@ cover: /assets/image/blog.logrocket.com/a-deep-dive-into-css-modules/banner.png
 
 ## Introduction
 
-According to the [official CSS Module GitHub repository (<FontIcon icon="iconfont icon-github"/>`css-modules/css-modules`)](https://github.com/css-modules/css-modules), a CSS Module is a CSS file in which all class names and animation names are scoped locally by default. By contrast, in a typical CSS file, all CSS selectors live in the global scope.
+According to the [official CSS Module GitHub repository (<VPIcon icon="iconfont icon-github"/>`css-modules/css-modules`)](https://github.com/css-modules/css-modules), a CSS Module is a CSS file in which all class names and animation names are scoped locally by default. By contrast, in a typical CSS file, all CSS selectors live in the global scope.
 
 ![CSS Module Deep Dive](/assets/image/blog.logrocket.com/a-deep-dive-into-css-modules/banner.png)
 
@@ -101,7 +101,7 @@ When an element or a React component is deleted from our code, we also need to d
 
 ### Dependency management
 
-Dependencies are not explicitly defined when working with global variables, making it difficult to determine which styles would be inherited or applied through [composition (<FontIcon icon="iconfont icon-github"/>`css-modules/css-modules`)](https://github.com/css-modules/css-modules#composition).
+Dependencies are not explicitly defined when working with global variables, making it difficult to determine which styles would be inherited or applied through [composition (<VPIcon icon="iconfont icon-github"/>`css-modules/css-modules`)](https://github.com/css-modules/css-modules#composition).
 
 There are other implicit dependencies in CSS that are not easily identified by merely scanning the code. For example, an element with `position: absolute` is relative to its parent element with `position: relative`.
 
@@ -111,7 +111,7 @@ Dependencies are a huge cause of concern, and the ease of maintaining our CSS co
 
 ## Evaluating solutions
 
-[<FontIcon icon="fas fa-globe"/>BEM — Block Element Modifier](http://getbem.com/) is a popular naming convention for classes in HTML and CSS that aims to help developers understand the relationship between both languages. BEM solves the problems described above by providing strict naming rules.
+[<VPIcon icon="fas fa-globe"/>BEM — Block Element Modifier](http://getbem.com/) is a popular naming convention for classes in HTML and CSS that aims to help developers understand the relationship between both languages. BEM solves the problems described above by providing strict naming rules.
 
 In BEM, a `Block` is a standalone element that can make sense on its own; it is often a parent element like `.btn{}`. An `Element` refers to the child element of a `Block`; it has no standalone meaning and is denoted by two underscores following the name of the `Block` (e.g., `.btn__text`).
 
@@ -133,7 +133,7 @@ The modifier is a flag on the `Block` or `Element` used to style it. It is denot
 
 The benefit of the BEM naming methodology is that all selectors are scoped by the modifiers despite being global. However, adding BEM naming manually is repetitive, fairly tedious, and prone to human error.
 
-You may end up spending a significant amount of time figuring out whether something is a `Block` or `Element`. In my opinion, [Jeremy Thomas (<FontIcon icon="fa-brands fa-x-twitter"/>`jgthms`)](https://x.com/jgthms), the creator of [<FontIcon icon="fas fa-globe"/>Bulma CSS](https://bulma.io/), perfectly summarizes the issue:
+You may end up spending a significant amount of time figuring out whether something is a `Block` or `Element`. In my opinion, [Jeremy Thomas (<VPIcon icon="fa-brands fa-x-twitter"/>`jgthms`)](https://x.com/jgthms), the creator of [<VPIcon icon="fas fa-globe"/>Bulma CSS](https://bulma.io/), perfectly summarizes the issue:
 
 ![Bulma CSS Jeremy Thomas CSS Time Writing Graph](/assets/image/blog.logrocket.com/a-deep-dive-into-css-modules/bulma-css-jeremy-thomas-css-time-writing-.avif)
 
@@ -157,7 +157,7 @@ Although CSS Module enables us to scope our styles, we can still declare global 
 
 Most modern JavaScript and CSS workflows have trended towards component-based architecture, but progress on CSS has been purely conventional and not actually supported by the language.
 
-BEM, as previously discussed, is a perfect example. A familiar saying known as the [<FontIcon icon="fa-brands fa-wikipedia-w"/>fundamental theorem of software engineering](https://en.wikipedia.org/wiki/Indirection) declares that “every problem in computer science can be solved by one extra layer of abstraction”.
+BEM, as previously discussed, is a perfect example. A familiar saying known as the [<VPIcon icon="fa-brands fa-wikipedia-w"/>fundamental theorem of software engineering](https://en.wikipedia.org/wiki/Indirection) declares that “every problem in computer science can be solved by one extra layer of abstraction”.
 
 CSS Module is a thin layer of abstraction that encapsulates new concepts introduced to the language. Consequently, CSS Module is written just like plain CSS, as seen in the following code snippet:
 
@@ -174,7 +174,7 @@ CSS Module is a thin layer of abstraction that encapsulates new concepts introdu
 }
 ```
 
-One difference is that in CSS Module, all our markup is written in a JavaScript file like <FontIcon icon="fa-brands fa-js"/>`index.js`:
+One difference is that in CSS Module, all our markup is written in a JavaScript file like <VPIcon icon="fa-brands fa-js"/>`index.js`:
 
 ```js title="index.js"
 import styles from "./styles.css";
@@ -188,7 +188,7 @@ document.getElementById("app").innerHTML = `
 `;
 ```
 
-When we import our CSS Module from our <FontIcon icon="fa-brands fa-js"/>`index.js` file, CSS Module exports an object with mappings from local names to global names:
+When we import our CSS Module from our <VPIcon icon="fa-brands fa-js"/>`index.js` file, CSS Module exports an object with mappings from local names to global names:
 
 ```js
 {
@@ -262,15 +262,15 @@ CSS Module includes this new technique, which is the key capability of modern lo
 
 ### Understanding ICSS
 
-Although CSS Module is written like plain CSS, it actually compiles to a low-level interchangeable format called ICSS [(Interoperable CSS (<FontIcon icon="iconfont icon-github"/>`css-modules/icss`)](https://github.com/css-modules/icss) that is designed for loader implementers, not end-users. It is a superset of standard CSS and a low-level file format that enhances CSS.
+Although CSS Module is written like plain CSS, it actually compiles to a low-level interchangeable format called ICSS [(Interoperable CSS (<VPIcon icon="iconfont icon-github"/>`css-modules/icss`)](https://github.com/css-modules/icss) that is designed for loader implementers, not end-users. It is a superset of standard CSS and a low-level file format that enhances CSS.
 
-You can incorporate CSS Module into a [wide range of applications (<FontIcon icon="iconfont icon-github"/>`css-modules/css-modules`)](https://github.com/css-modules/css-modules/blob/master/docs/get-started.md#setting-up-css-modules), however, we’ll style a React app.
+You can incorporate CSS Module into a [wide range of applications (<VPIcon icon="iconfont icon-github"/>`css-modules/css-modules`)](https://github.com/css-modules/css-modules/blob/master/docs/get-started.md#setting-up-css-modules), however, we’ll style a React app.
 
 ---
 
 ## Styling a React application with CSS Module
 
-[Create React App v2 (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app) (and higher) support CSS Module out of the box. All we have to do is use the following naming convention:
+[Create React App v2 (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app) (and higher) support CSS Module out of the box. All we have to do is use the following naming convention:
 
 ```output title="file"
 [name].module.css
@@ -284,7 +284,7 @@ cd botton-stack
 npm start
 ```
 
-Next, we’ll add CSS module support for our app by simply renaming the <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file to <FontIcon icon="fa-brands fa-css3-alt"/>`App.module.css`. Update the import statement in the <FontIcon icon="fa-brands fa-react"/>`App.js` file to avoid error:
+Next, we’ll add CSS module support for our app by simply renaming the <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` file to <VPIcon icon="fa-brands fa-css3-alt"/>`App.module.css`. Update the import statement in the <VPIcon icon="fa-brands fa-react"/>`App.js` file to avoid error:
 
 ```css title="App.module.css"
 .shadow {
@@ -300,7 +300,7 @@ Next, we’ll add CSS module support for our app by simply renaming the <FontIco
 }
 ```
 
-Update the <FontIcon icon="fa-brands fa-css3-alt"/>`Index.css` file to <FontIcon icon="fa-brands fa-css3-alth"/>`Index.module.css`, as well as the import statement in the `Index.js` file. Next, in our <FontIcon icon="fa-brands fa-react"/>`App.js` file, add the following code:
+Update the <VPIcon icon="fa-brands fa-css3-alt"/>`Index.css` file to <VPIcon icon="fa-brands fa-css3-alth"/>`Index.module.css`, as well as the import statement in the `Index.js` file. Next, in our <VPIcon icon="fa-brands fa-react"/>`App.js` file, add the following code:
 
 ```jsx title="App.jsx"
 import { title, app } from './App.module.css';
@@ -322,7 +322,7 @@ export default App;
 
 Though most of this code should be familiar, there are a few things we need to look out for. First, we are destructuring `title` and `app`. The styles we need are from the `styles` object, which is exported by CSS Module.
 
-Now, we’ll need to create the `Button component`. In the `src` directory, create a `components` folder. Inside the folder, create a <FontIcon icon="fa-brands fa-react"/>`Button.js` and a <FontIcon icon="fa-brands fa-css3-alt"/>`Button.module.css` file; add the following code in the <FontIcon icon="fa-brands fa-css3-alt"/>`Button.module.css` file:
+Now, we’ll need to create the `Button component`. In the `src` directory, create a `components` folder. Inside the folder, create a <VPIcon icon="fa-brands fa-react"/>`Button.js` and a <VPIcon icon="fa-brands fa-css3-alt"/>`Button.module.css` file; add the following code in the <VPIcon icon="fa-brands fa-css3-alt"/>`Button.module.css` file:
 
 ```css :collapsed-lines title="Button.module.css"
 .normal-button {
@@ -381,13 +381,13 @@ Now, we’ll need to create the `Button component`. In the `src` directory, crea
 }
 ```
 
-In this file, we have a normal button class `.normal-button` that composes the `shadow class` from the <FontIcon icon="fa-brands fa-css3-alt"/>`App.module.css`.
+In this file, we have a normal button class `.normal-button` that composes the `shadow class` from the <VPIcon icon="fa-brands fa-css3-alt"/>`App.module.css`.
 
 Composition is a feature in CSS Module that enables us to compose selectors. Consequently, we can compose a class by inheriting styles from another class, but these `composes` rules must come before other rules.
 
 For example, the `.danger`, `.info`, `.primary`, `.warning`, and `.success` classes all inherit styles from `.normal-botton` via composition.
 
-Our <FontIcon icon="fa-brands fa-react"/>`App.js` file should now look like the code below:
+Our <VPIcon icon="fa-brands fa-react"/>`App.js` file should now look like the code below:
 
 ```jsx title="App.jsx"
 import { title, app } from './App.module.css';
@@ -409,7 +409,7 @@ Our app display should look like the image here:
 
 ![CSS Module Final App](/assets/image/blog.logrocket.com/a-deep-dive-into-css-modules/css-module-final-app.png)
 
-You can view the [full code <FontIcon icon="iconfont icon-github"/>`lawrenceagles/css-module-demo`](https://github.com/lawrenceagles/css-module-demo) for the tutorial.
+You can view the [full code <VPIcon icon="iconfont icon-github"/>`lawrenceagles/css-module-demo`](https://github.com/lawrenceagles/css-module-demo) for the tutorial.
 
 ---
 
@@ -417,7 +417,7 @@ You can view the [full code <FontIcon icon="iconfont icon-github"/>`lawrenceagle
 
 Without a doubt, CSS Module provides one of the most significant improvements to the CSS language in years! One of the best things about CSS Module is that we get to write good old CSS that can be incorporated into a variety of applications. It simply adds more power to CSS!
 
-If your React app does not use Create React App, or it uses a version lower than version 2, you can still add support for CSS module by using the [<FontIcon icon="iconfont icon-github"/>`gajus/babel-plugin-react-css-modules`](https://github.com/gajus/babel-plugin-react-css-modules).
+If your React app does not use Create React App, or it uses a version lower than version 2, you can still add support for CSS module by using the [<VPIcon icon="iconfont icon-github"/>`gajus/babel-plugin-react-css-modules`](https://github.com/gajus/babel-plugin-react-css-modules).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

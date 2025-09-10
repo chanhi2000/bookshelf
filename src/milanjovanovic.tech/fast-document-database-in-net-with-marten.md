@@ -161,7 +161,7 @@ You have fully-fledged support for **event sourcing** with **Marten**, as well a
 
 ## Closing Thoughts
 
-I'm absolutely amazed with [<FontIcon icon="fas fa-globe"/>Marten](https://martendb.io/) and what it has to offer. And **PostgreSQL** is also my favorite database, so it's like a match made in heaven. I don't get too excited about learning new technologies, but **Marten** has been an endless source of joy this past week.
+I'm absolutely amazed with [<VPIcon icon="fas fa-globe"/>Marten](https://martendb.io/) and what it has to offer. And **PostgreSQL** is also my favorite database, so it's like a match made in heaven. I don't get too excited about learning new technologies, but **Marten** has been an endless source of joy this past week.
 
 I still need to explore a few more topics before I can consider it for production use:
 

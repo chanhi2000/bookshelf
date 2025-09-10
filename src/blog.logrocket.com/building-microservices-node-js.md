@@ -66,7 +66,7 @@ cover: /assets/image/blog.logrocket.com/building-microservices-node-js/banner.pn
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Muhammed Ali](https://blog.logrocket.com/author/muhammedali/) on 22 October 2024 to cover using MongoDB change streams to enable real-time data synchronization between microservices.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Muhammed Ali](https://blog.logrocket.com/author/muhammedali/) on 22 October 2024 to cover using MongoDB change streams to enable real-time data synchronization between microservices.
 
 :::
 
@@ -187,7 +187,7 @@ npm init -y
 npm install express mongoose cors
 ```
 
-Then, create <FontIcon icon="fa-brands fa-js"/>`postService.js` and <FontIcon icon="fa-brands fa-js"/>`commentService.js` files in the <FontIcon icon="fas fa-folder-open"/>`blog` folder. In the <FontIcon icon="fa-brands fa-js"/>`postService.js` file, paste in the following code, which will handle the post microservice:
+Then, create <VPIcon icon="fa-brands fa-js"/>`postService.js` and <VPIcon icon="fa-brands fa-js"/>`commentService.js` files in the <VPIcon icon="fas fa-folder-open"/>`blog` folder. In the <VPIcon icon="fa-brands fa-js"/>`postService.js` file, paste in the following code, which will handle the post microservice:
 
 ```js :collapsed-lines title="blog/postService.js"
 const express = require('express');
@@ -245,7 +245,7 @@ app.listen(process.env.PORT, () => {
 
 The code defines a `Post` model with fields for the title, content, an array of comments, and timestamps. The application connects to MongoDB and establishes a change stream on the `comments` collection, listening for insert events to update the corresponding post’s comments array in real time.
 
-Now, let’s create a file to handle the database (<FontIcon icon="fa-brands fa-js"/>`db.js`) and paste in the following code:
+Now, let’s create a file to handle the database (<VPIcon icon="fa-brands fa-js"/>`db.js`) and paste in the following code:
 
 ```js title="db.js"
 const mongoose = require('mongoose');
@@ -260,14 +260,14 @@ mongoose.connection.on('connected', () => {
 module.exports = mongoose;
 ```
 
-Next, create the <FontIcon icon="fas fa-file-lines"/>`.env` file, which will contain the database URI and port:
+Next, create the <VPIcon icon="fas fa-file-lines"/>`.env` file, which will contain the database URI and port:
 
 ```sh title=".env"
 MONGO_URI=mongodb://localhost:27017,localhost:27018,localhost:27019/test?replicaSet=rs0
 PORT=4000
 ```
 
-Next, paste the following code in the file for `CommentService` (<FontIcon icon="fa-brands fa-js"/>`commentService.js`):
+Next, paste the following code in the file for `CommentService` (<VPIcon icon="fa-brands fa-js"/>`commentService.js`):
 
 ```js title="commentService.js"
 const express = require('express');

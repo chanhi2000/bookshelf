@@ -544,7 +544,7 @@ Most people will read about **clean coding principles**, but few will strive to 
 
 This is where you can set yourself apart.
 
-I also made a video about these **clean code** tips, you can watch it [<FontIcon icon="fa-brands fa-youtube"/>here.](https://youtu.be/McDvyFglkvU)
+I also made a video about these **clean code** tips, you can watch it [<VPIcon icon="fa-brands fa-youtube"/>here.](https://youtu.be/McDvyFglkvU)
 
 <VidStack src="youtube/McDvyFglkvU" />
 

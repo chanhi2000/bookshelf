@@ -124,7 +124,7 @@ You may use the [Etcher GUI tool](/itsfoss.com/install-etcher-linux.md) to creat
 
 [![Arch Linux Live Usb](https://itsfoss.com/content/images/wordpress/2020/01/arch_linux_live_usb.jpg)](https://itsfoss.com/content/images/wordpress/2020/01/arch_linux_live_usb.jpg)
 
-Alternatively, if you are on Linux, you can [use the dd command to create a live USB](/itsfoss.com/live-usb-with-dd-command.md). Replace */path/to/archlinux.iso* with the path where you have downloaded the ISO file, and <FontIcon icon="fas fa-folder-open"/>`/dev/sdx` with your USB drive in the example below. You can get your drive information using [<FontIcon icon="fa-brands fa-redhat"/>`lsblk`](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-sysinfo-filesystems) command.
+Alternatively, if you are on Linux, you can [use the dd command to create a live USB](/itsfoss.com/live-usb-with-dd-command.md). Replace */path/to/archlinux.iso* with the path where you have downloaded the ISO file, and <VPIcon icon="fas fa-folder-open"/>`/dev/sdx` with your USB drive in the example below. You can get your drive information using [<VPIcon icon="fa-brands fa-redhat"/>`lsblk`](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-sysinfo-filesystems) command.
 
 ```sh
 dd bs=4M if=/path/to/archlinux.iso of=/dev/sdx status=progress && sync
@@ -242,7 +242,7 @@ Now that you have your disk partitions ready, it’s time to create filesystem o
 
 #### Creating filesystem for UEFI system
 
-So, you have two disk partitions and the first one is EFI type. Create a [<FontIcon icon="fa-brands fa-wikipedia-w"/>FAT32 file system](https://en.wikipedia.org/wiki/File_Allocation_Table) on it using the [<FontIcon icon="fas fa-globe"/>`mkfs` command](https://linuxhandbook.com/mkfs-command/):
+So, you have two disk partitions and the first one is EFI type. Create a [<VPIcon icon="fa-brands fa-wikipedia-w"/>FAT32 file system](https://en.wikipedia.org/wiki/File_Allocation_Table) on it using the [<VPIcon icon="fas fa-globe"/>`mkfs` command](https://linuxhandbook.com/mkfs-command/):
 
 ```sh
 mkfs.fat -F32 /dev/sda1
@@ -312,7 +312,7 @@ If you get bytes in reply, you are connected. Use <kbd>Ctrl</kbd>+<kbd>C</kbd> t
 
 This is a big problem with installing Arch Linux. If you just go on installing it, you might find that the downloads are way too slow. In some cases, it’s so slow that the download fails.
 
-It’s because the mirrorlist (located in <FontIcon icon="fas fa-folder-open"/>`/etc/pacman.d/mirrorlist`) has a huge number of mirrors but not in a good order. The top mirror is chosen automatically and it may not always be a good choice.
+It’s because the mirrorlist (located in <VPIcon icon="fas fa-folder-open"/>`/etc/pacman.d/mirrorlist`) has a huge number of mirrors but not in a good order. The top mirror is chosen automatically and it may not always be a good choice.
 
 Thankfully, there is a fix for that. First sync the pacman repository so that you can download and install software:
 
@@ -350,9 +350,9 @@ Since you have all the things ready, it’s time to finally install the Arch Lin
 mount /dev/sda2 /mnt
 ```
 
-Note that this is valid for UEFI systems, you will have to use <FontIcon icon="fas fa-folder-open"/>`/dev/sda1` in non-UEFI systems.
+Note that this is valid for UEFI systems, you will have to use <VPIcon icon="fas fa-folder-open"/>`/dev/sda1` in non-UEFI systems.
 
-With root mounted, it’s time to use the wonderful [<FontIcon icon="fas fa-globe"/>`pacstrap` script](https://git.archlinux.org/arch-install-scripts.git/tree/pacstrap.in) to install all the necessary packages:
+With root mounted, it’s time to use the wonderful [<VPIcon icon="fas fa-globe"/>`pacstrap` script](https://git.archlinux.org/arch-install-scripts.git/tree/pacstrap.in) to install all the necessary packages:
 
 ```sh
 pacstrap /mnt base linux linux-firmware vim nano
@@ -366,13 +366,13 @@ For reference, head to our [nano vs vim](/itsfoss.com/vim-vs-nano.md) article to
 
 ### Step 8: Configure the installed Arch system
 
-Generate a [<FontIcon icon="fa-brands fa-wikipedia-w"/>`fstab` file](https://en.wikipedia.org/wiki/Fstab) to define how disk partitions, block devices, or remote file systems are mounted into the filesystem.
+Generate a [<VPIcon icon="fa-brands fa-wikipedia-w"/>`fstab` file](https://en.wikipedia.org/wiki/Fstab) to define how disk partitions, block devices, or remote file systems are mounted into the filesystem.
 
 ```sh
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
-Now use [<FontIcon icon="fas fa-globe"/>arch-chroot](https://wiki.archlinux.org/index.php/Chroot#Using_arch-chroot) and enter the mounted disk as root. Actually, now you are using the just installed Arch Linux system on the disk. You’ll have to do some configuration changes to the installed system so that you could run it properly when you boot from the disk.
+Now use [<VPIcon icon="fas fa-globe"/>arch-chroot](https://wiki.archlinux.org/index.php/Chroot#Using_arch-chroot) and enter the mounted disk as root. Actually, now you are using the just installed Arch Linux system on the disk. You’ll have to do some configuration changes to the installed system so that you could run it properly when you boot from the disk.
 
 ```sh
 arch-chroot /mnt
@@ -396,7 +396,7 @@ timedatectl set-timezone Europe/Paris
 
 This is what sets the language, numbering, date, and currency formats for your system.
 
-The file <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`locale.gen` contains all the local settings and system language in a commented format.
+The file <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`locale.gen` contains all the local settings and system language in a commented format.
 
 Open the file using Vim or Nano editor and uncomment (remove the # from the start of the line) the language you prefer.
 
@@ -410,7 +410,7 @@ nano /etc/locale.gen
 
 I have used **en_GB.UTF-8** (English with Great Britain). Hit <kbd>Ctrl</kbd>+<kbd>X</kbd> and then <kbd>Y</kbd> to save the selection and continue.
 
-Now generate the locale config in the <FontIcon icon="fas fa-folder-open"/>`/etc` directory file using the below commands one by one:
+Now generate the locale config in the <VPIcon icon="fas fa-folder-open"/>`/etc` directory file using the below commands one by one:
 
 ```sh
 locale-gen
@@ -422,7 +422,7 @@ Both locale and timezone settings can be changed later on as well when you are u
 
 #### Network configuration
 
-Create a <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`hostname` file and add the hostname entry to this file. [Hostname](/itsfoss.com/change-hostname-ubuntu.md) is basically the name of your computer on the network.
+Create a <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`hostname` file and add the hostname entry to this file. [Hostname](/itsfoss.com/change-hostname-ubuntu.md) is basically the name of your computer on the network.
 
 In my case, I’ll set the hostname as **_myarch_**. You can choose whatever you want:
 
@@ -436,7 +436,7 @@ The next part is to create the hosts file:
 touch /etc/hosts
 ```
 
-And edit this <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`hosts` file with Vim or Nano editor to add the following lines to it (replace myarch with hostname you chose earlier):
+And edit this <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`hosts` file with Vim or Nano editor to add the following lines to it (replace myarch with hostname you chose earlier):
 
 ```plaintext title="hosts"
 127.0.0.1	localhost
@@ -547,7 +547,7 @@ Save the changes and exit from this file.
 
 ### Step 11: Install a desktop environment (GNOME in this case)
 
-The first step is to install the X environment. Type the below command to install the [Xorg as display server](/itsfoss.com/display-server.md) along with the network manager. You can refer to the [<FontIcon icon="fas fa-globe"/>official documentation](https://wiki.archlinux.org/title/wayland) for Wayland.
+The first step is to install the X environment. Type the below command to install the [Xorg as display server](/itsfoss.com/display-server.md) along with the network manager. You can refer to the [<VPIcon icon="fas fa-globe"/>official documentation](https://wiki.archlinux.org/title/wayland) for Wayland.
 
 ```sh
 pacman -S xorg networkmanager

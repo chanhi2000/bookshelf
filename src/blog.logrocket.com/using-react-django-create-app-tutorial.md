@@ -76,7 +76,7 @@ This post was updated on 15 July 2022 to reflect the most recent versions of Rea
 
 :::
 
-[<FontIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) is one of the most complete web development frameworks available. It’s fast, secure, and scalable. With the power of Python, we can get an application up and running in just about no time. It manages everything, from the database to the final HTML sent to the client.
+[<VPIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) is one of the most complete web development frameworks available. It’s fast, secure, and scalable. With the power of Python, we can get an application up and running in just about no time. It manages everything, from the database to the final HTML sent to the client.
 
 However, with the advent of single-page applications (SPAs), it’s become increasingly common to create applications that use Django only to provide an API that responds to JSON data consumed by applications developed in the most varied JavaScript frameworks.
 
@@ -92,7 +92,7 @@ In this article, we’ll outline how to create a simple CRUD API with Django and
 
 ## How do we send data from Django to React?
 
-You can expose your API in different ways with Django. You can use a REST API, a [<FontIcon icon="iconfont icon-graphql"/>GraphQL API](https://docs.graphene-python.org/projects/django/en/latest/), or [<FontIcon icon="iconfont icon-django"/>RPC API](https://djangogrpcframework.readthedocs.io/en/latest/), each with [<FontIcon icon="fas fa-globe"/>their own pros and cons](https://main.grokoverflow.com/posts/2022/02-understanding-rpc-node-walkthrough). While [<FontIcon icon="iconfont icon-graphql"/>GraphQL](https://graphql.org/) is a safe bet, we’re going to use traditional REST endpoints.
+You can expose your API in different ways with Django. You can use a REST API, a [<VPIcon icon="iconfont icon-graphql"/>GraphQL API](https://docs.graphene-python.org/projects/django/en/latest/), or [<VPIcon icon="iconfont icon-django"/>RPC API](https://djangogrpcframework.readthedocs.io/en/latest/), each with [<VPIcon icon="fas fa-globe"/>their own pros and cons](https://main.grokoverflow.com/posts/2022/02-understanding-rpc-node-walkthrough). While [<VPIcon icon="iconfont icon-graphql"/>GraphQL](https://graphql.org/) is a safe bet, we’re going to use traditional REST endpoints.
 
 ![By the end of this tutorial, this will be our final output](/assets/image/blog.logrocket.com/using-react-django-create-app-tutorial/final-visualization.png)
 
@@ -102,21 +102,21 @@ You can expose your API in different ways with Django. You can use a REST API, a
 
 For this article, we’re not going to cover how to install basic tools, so make sure you review this list of what you need to have set up in your machine before you can follow this article:
 
-- [<FontIcon icon="fa-brands fa-python"/>Python 3](https://python.org/download/releases/3.0/)
-- [<FontIcon icon="fa-brands fa-python"/>Pip](https://pypi.org/project/pip/) (the default Python package installer)
-- [<FontIcon icon="fa-brands fa-node"/>NodeJS](https://nodejs.org/en/) (in a version 6 or plus) and [<FontIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/) (5.2+)
+- [<VPIcon icon="fa-brands fa-python"/>Python 3](https://python.org/download/releases/3.0/)
+- [<VPIcon icon="fa-brands fa-python"/>Pip](https://pypi.org/project/pip/) (the default Python package installer)
+- [<VPIcon icon="fa-brands fa-node"/>NodeJS](https://nodejs.org/en/) (in a version 6 or plus) and [<VPIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/) (5.2+)
 
 If you’re using Linux, chances are that Python is already installed. Run the `python3 -V` command to check.
 
-In certain environments, you may have have Python 2 and Python 3 installed. In this case, you should use `python3` instead of `python` when running commands. You can [avoid this by installing PyEnv (<FontIcon icon="iconfont icon-github"/>`pyenv/pyenv`)](https://github.com/pyenv/pyenv) to be able to switch which version of Python the `python` command uses.
+In certain environments, you may have have Python 2 and Python 3 installed. In this case, you should use `python3` instead of `python` when running commands. You can [avoid this by installing PyEnv (<VPIcon icon="iconfont icon-github"/>`pyenv/pyenv`)](https://github.com/pyenv/pyenv) to be able to switch which version of Python the `python` command uses.
 
-In the article, we’ll also make use of a [<FontIcon icon="fa-brands fa-python"/>handy Python feature called](https://docs.python.org/3/tutorial/venv.html) [<FontIcon icon="fa-brands fa-python"/>`venv`](https://docs.python.org/3/tutorial/venv.html), also known as Python Virtual Environment. This feature basically allows developers to create a folder that’ll act exactly like a specific Python environment.
+In the article, we’ll also make use of a [<VPIcon icon="fa-brands fa-python"/>handy Python feature called](https://docs.python.org/3/tutorial/venv.html) [<VPIcon icon="fa-brands fa-python"/>`venv`](https://docs.python.org/3/tutorial/venv.html), also known as Python Virtual Environment. This feature basically allows developers to create a folder that’ll act exactly like a specific Python environment.
 
 ### Setting up Python
 
-Open your preferred IDE to an empty directory and follow along as we begin. Remember to always [<FontIcon icon="fa-brands fa-stack-overflow"/>give your directory a good name](https://stackoverflow.com/questions/52827722/folder-naming-convention-for-python-projects).
+Open your preferred IDE to an empty directory and follow along as we begin. Remember to always [<VPIcon icon="fa-brands fa-stack-overflow"/>give your directory a good name](https://stackoverflow.com/questions/52827722/folder-naming-convention-for-python-projects).
 
-Let’s run the command inside this folder to create our <FontIcon icon="fa-brands fa-python"/>`venv`:
+Let’s run the command inside this folder to create our <VPIcon icon="fa-brands fa-python"/>`venv`:
 
 ```sh
 python -m venv logrocket_env
@@ -128,19 +128,19 @@ After you enter the created folder, you’ll see some other files, such as `bin`
 source ./logrocket_env/bin/activate
 ```
 
-Then your command line will look like the example below, with the name in parentheses confirming that you’re in the <FontIcon icon="fa-brands fa-python"/>`venv`:
+Then your command line will look like the example below, with the name in parentheses confirming that you’re in the <VPIcon icon="fa-brands fa-python"/>`venv`:
 
 ```sh
 # (logrocket_env) username@localhost: _
 ```
 
-Note that once you are inside the <FontIcon icon="fa-brands fa-python"/>`venv`, you can use the commands `pip` or `python` normally. If you are outside the <FontIcon icon="fa-brands fa-python"/>`venv`, you must use `pip3` and `python3`.
+Note that once you are inside the <VPIcon icon="fa-brands fa-python"/>`venv`, you can use the commands `pip` or `python` normally. If you are outside the <VPIcon icon="fa-brands fa-python"/>`venv`, you must use `pip3` and `python3`.
 
 That’s it. You’re good to go with your venv.
 
 ### Setting up Django
 
-Next, let’s [<FontIcon icon="iconfont icon-django"/>start installing Django](https://djangoproject.com/) by running the following command inside of your <FontIcon icon="fa-brands fa-python"/>`venv`:
+Next, let’s [<VPIcon icon="iconfont icon-django"/>start installing Django](https://djangoproject.com/) by running the following command inside of your <VPIcon icon="fa-brands fa-python"/>`venv`:
 
 ```sh
 pip install django djangorestframework django-cors-headers
@@ -150,8 +150,8 @@ pip install django djangorestframework django-cors-headers
 
 We’re installing two more dependencies for our API:
 
-- [<FontIcon icon="iconfont icon-django"/>Django REST Framework](https://django-rest-framework.org/): a powerful and flexible toolkit for building Web APIs
-- [<FontIcon icon="iconfont icon-github"/>`adamchainz/django-cors-headers`](https://github.com/adamchainz/django-cors-headers): an app for handling the server headers required for CORS
+- [<VPIcon icon="iconfont icon-django"/>Django REST Framework](https://django-rest-framework.org/): a powerful and flexible toolkit for building Web APIs
+- [<VPIcon icon="iconfont icon-github"/>`adamchainz/django-cors-headers`](https://github.com/adamchainz/django-cors-headers): an app for handling the server headers required for CORS
 
 These dependencies are useful for when we try to access the API from a different application.
 
@@ -159,21 +159,21 @@ These dependencies are useful for when we try to access the API from a different
 
 In this case, they help to connect Django and React.
 
-We’ll also make use of two other Django features designed to help us with boilerplate configs: [<FontIcon icon="iconfont icon-django"/>`django-admin` and <FontIcon icon="iconfont icon-django"/>`manage.py`](https://docs.djangoproject.com/en/4.0/ref/django-admin/)`.
+We’ll also make use of two other Django features designed to help us with boilerplate configs: [<VPIcon icon="iconfont icon-django"/>`django-admin` and <VPIcon icon="iconfont icon-django"/>`manage.py`](https://docs.djangoproject.com/en/4.0/ref/django-admin/)`.
 
 `django-admin` is Django’s automatic admin interface. It’s basically a command-line utility to perform handy operations with Django.
 
-<FontIcon icon="iconfont icon-django"/>`manage.py` is a script that will help us manage our database, create tables from our models, handle migration and versioning, and properly create our projects.
+<VPIcon icon="iconfont icon-django"/>`manage.py` is a script that will help us manage our database, create tables from our models, handle migration and versioning, and properly create our projects.
 
-Now, we’ll run the following command to create our API project — remember that you must be inside the <FontIcon icon="fa-brands fa-python"/>`venv`:
+Now, we’ll run the following command to create our API project — remember that you must be inside the <VPIcon icon="fa-brands fa-python"/>`venv`:
 
 ```sh
 django-admin startproject django_react_proj
 ```
 
-After the project is created, check the root folder for the <FontIcon icon="iconfont icon-django"/>`manage.py` file we mentioned earlier. We’ll explore the rest of the files further.
+After the project is created, check the root folder for the <VPIcon icon="iconfont icon-django"/>`manage.py` file we mentioned earlier. We’ll explore the rest of the files further.
 
-Let’s start our Django configuration using the <FontIcon icon="iconfont icon-django"/>`settings.py` file inside the <FontIcon icon="fas fa-folder-open"/>`django_react_proj/` folder. When you open this file, you’ll see a lot of configs. `INSTALLED_APPS` is the one that matters to us.
+Let’s start our Django configuration using the <VPIcon icon="iconfont icon-django"/>`settings.py` file inside the <VPIcon icon="fas fa-folder-open"/>`django_react_proj/` folder. When you open this file, you’ll see a lot of configs. `INSTALLED_APPS` is the one that matters to us.
 
 Add the following three lines to the array:
 
@@ -212,15 +212,15 @@ Great! Now, let’s move on to the models and views of our application.
 
 ## Adding models and views to Django
 
-In order to create some preset files, we’ll make use of the <FontIcon icon="iconfont icon-django"/>`manage.py` script once again. This time, run the following:
+In order to create some preset files, we’ll make use of the <VPIcon icon="iconfont icon-django"/>`manage.py` script once again. This time, run the following:
 
 ```sh
 django-admin startapp students
 ```
 
-After that, a <FontIcon icon="fas fa-folder-open"/>`students/` folder will be created, along with <FontIcon icon="fa-brands fa-python"/>`models.py` and <FontIcon icon="fa-brands fa-python"/>`views.py`. Initially, these files will have little to no content inside.
+After that, a <VPIcon icon="fas fa-folder-open"/>`students/` folder will be created, along with <VPIcon icon="fa-brands fa-python"/>`models.py` and <VPIcon icon="fa-brands fa-python"/>`views.py`. Initially, these files will have little to no content inside.
 
-Let’s start by removing everything currently in the <FontIcon icon="fa-brands fa-python"/>`models.py` file and adding our models instead:
+Let’s start by removing everything currently in the <VPIcon icon="fa-brands fa-python"/>`models.py` file and adding our models instead:
 
 ```py :collapsed-lines title="models.py"
 from django.db import models
@@ -236,7 +236,7 @@ class Student(models.Model):
         return self.name
 ```
 
-Notice that our `Student` class extends from [<FontIcon icon="iconfont icon-django"/>Django’s](https://docs.djangoproject.com/en/3.0/ref/models/instances/#django.db.models.Model) [<FontIcon icon="iconfont icon-django"/>`Model` class](https://docs.djangoproject.com/en/3.0/ref/models/instances/#django.db.models.Model). This will make our lives easier once it connects directly to the Django models framework, which we’ll use to create our database tables.
+Notice that our `Student` class extends from [<VPIcon icon="iconfont icon-django"/>Django’s](https://docs.djangoproject.com/en/3.0/ref/models/instances/#django.db.models.Model) [<VPIcon icon="iconfont icon-django"/>`Model` class](https://docs.djangoproject.com/en/3.0/ref/models/instances/#django.db.models.Model). This will make our lives easier once it connects directly to the Django models framework, which we’ll use to create our database tables.
 
 It’s also important to set all the fields with the proper types and configurations, including `max length` if it’s required, `description`, `autocreation`, etc.
 
@@ -270,7 +270,7 @@ python manage.py makemigrations --empty --name students students
 
 Note that the versioning is made upon numbers by the end of the file to maintain the order.
 
-After that, go to the <FontIcon icon="fas fa-folder-open"/>`django_react_proj/students/migrations/` folder and change the content to the following:
+After that, go to the <VPIcon icon="fas fa-folder-open"/>`django_react_proj/students/migrations/` folder and change the content to the following:
 
 ```py
 from django.db import migrations
@@ -295,7 +295,7 @@ The `dependencies` property relates the other files to be considered into the mi
 
 The `operations` are basically the actions Django has to perform once the migration is triggered.
 
-Now we’re ready to run the migrate command again. In the <FontIcon icon="fas fa-folder-open"/>`django_react_proj/` folder, run:
+Now we’re ready to run the migrate command again. In the <VPIcon icon="fas fa-folder-open"/>`django_react_proj/` folder, run:
 
 ```sh
 python manage.py migrate
@@ -307,11 +307,11 @@ python manage.py migrate
 
 Now it’s time to dive into the REST API that we’re going to [**build on top of Django REST framework**](/blog.logrocket.com/django-rest-framework-create-api.md). Here, you’ll get in touch with two main worlds: views and URLs. A view is the initial entrypoint of a request made upon a specific endpoint served by a URL.
 
-This is all mapped by the Django REST framework once we connect the function itself to the endpoint. We’ll also [<FontIcon icon="iconfont icon-django"/>make use of serializers](http://django-rest-framework.org/api-guide/serializers/).
+This is all mapped by the Django REST framework once we connect the function itself to the endpoint. We’ll also [<VPIcon icon="iconfont icon-django"/>make use of serializers](http://django-rest-framework.org/api-guide/serializers/).
 
 They allow [**complex data, such as `QuerySets`**](/blog.logrocket.com/querysets-and-aggregations-in-django.md) and model instances, to be converted to native Python datatypes that can then be easily rendered into JSON. Let’s start there.
 
-Create a new file <FontIcon icon="fa-brands fa-python"/>`serializers.py` into the `students/` folder and add the following content:
+Create a new file <VPIcon icon="fa-brands fa-python"/>`serializers.py` into the `students/` folder and add the following content:
 
 ```py title="students/serializers.py"
 from rest_framework import serializers
@@ -325,7 +325,7 @@ class StudentSerializer(serializers.ModelSerializer):
 
 The `Meta` class is important here because it defines the metadata information that our model has (database) and that must be converted to the `Student` class.
 
-Next, let’s open the <FontIcon icon="fa-brands fa-python"/>`urls.py` file located in the <FontIcon icon="fas fa-folder-open"/>`django_react_proj/` folder and change its content to the following:
+Next, let’s open the <VPIcon icon="fa-brands fa-python"/>`urls.py` file located in the <VPIcon icon="fas fa-folder-open"/>`django_react_proj/` folder and change its content to the following:
 
 ```py title="urls.py"
 from django.contrib import admin
@@ -343,7 +343,7 @@ The `admin` path was already there. The only things we added are the `students` 
 
 The first endpoint will handle both creations (`POST`) and listing (`GET`). The second one will remove (`DELETE`) or update (`PUT`) the data of a single student. Simple, right?
 
-Now, let’s go to the views. Open up the <FontIcon icon="fas fa-folder-open"/>`students/`<FontIcon icon="fa-brands fa-python"/>`views.py` file and copy in the following code:
+Now, let’s go to the views. Open up the <VPIcon icon="fas fa-folder-open"/>`students/`<VPIcon icon="fa-brands fa-python"/>`views.py` file and copy in the following code:
 
 ```py :collapsed-lines title="students/views.py"
 from rest_framework.response import Response 
@@ -412,7 +412,7 @@ After you see the log showing our server is up and running, go to the browser an
 
 ![Student List Shown At Localhost 8000 While Testing Django Endpoints](/assets/image/blog.logrocket.com/using-react-django-create-app-tutorial/testing-endpoints-django-student-list.png)
 
-What you see here is [<FontIcon icon="iconfont icon-django"/>Django’s Browsable API](https://django-rest-framework.org/topics/browsable-api/), a human-friendly HTML output that allows for easy browsing of resources, as well as forms for submitting data to the resources. It’s very handy for testing your endpoints easily without having to make use of `cURL` or other UI tools.
+What you see here is [<VPIcon icon="iconfont icon-django"/>Django’s Browsable API](https://django-rest-framework.org/topics/browsable-api/), a human-friendly HTML output that allows for easy browsing of resources, as well as forms for submitting data to the resources. It’s very handy for testing your endpoints easily without having to make use of `cURL` or other UI tools.
 
 You can also use the other HTTP methods through the form in the bottom of the image. Go ahead and play around with it.
 
@@ -422,7 +422,7 @@ You can also use the other HTTP methods through the form in the bottom of the im
 
 Now it’s frontend time.
 
-It’s important to note that we’re not going to dive into React details here, so take some time to [<FontIcon icon="fas fa-globe"/>read up on React](https://blog.logrocket.com/tag/react/) if you’re a beginner. The focus of this tutorial is to show you how to consume a Django API quickly from a React app.
+It’s important to note that we’re not going to dive into React details here, so take some time to [<VPIcon icon="fas fa-globe"/>read up on React](https://blog.logrocket.com/tag/react/) if you’re a beginner. The focus of this tutorial is to show you how to consume a Django API quickly from a React app.
 
 In this article, we’ll use the latest version of React. However, feel free to use whichever version you prefer. We also won’t discuss [**the use of React Hooks**](/blog.logrocket.com/react-hooks-the-good-the-bad-and-the-ugly.md) or other side features of React, since the purpose is [**the API consumption itself**](/blog.logrocket.com/modern-api-data-fetching-methods-react.md).
 
@@ -456,13 +456,13 @@ First, we’ll add some important dependencies to our `students-fe` project, so 
 npm install bootstrap reactstrap axios --save
 ```
 
-Next, go to the <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-js"/>`index.js` file and add the following import statement:
+Next, go to the <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-js"/>`index.js` file and add the following import statement:
 
 ```js title="src/index.js"
 import "bootstrap/dist/css/bootstrap.min.css";
 ```
 
-In your <FontIcon icon="fas fa-folder-open"/>`src/` folder, create another folder called <FontIcon icon="fas fa-folder-open"/>`constants`, and then a file <FontIcon icon="fa-brands fa-js"/>`index.js`. This file will store the utility constants of our React project. Add a single constant to hold the URL of our API:
+In your <VPIcon icon="fas fa-folder-open"/>`src/` folder, create another folder called <VPIcon icon="fas fa-folder-open"/>`constants`, and then a file <VPIcon icon="fa-brands fa-js"/>`index.js`. This file will store the utility constants of our React project. Add a single constant to hold the URL of our API:
 
 ```js title="src/contants/index.js"
 export const API_URL = "http://localhost:8000/api/students/";
@@ -472,7 +472,7 @@ Then, let’s begin creating our components, starting with the header.
 
 ### Working on the header component
 
-Create another folder called <FontIcon icon="fas fa-folder-open"/>`components` and, within it, a JavaScript file called <FontIcon icon="fa-brands fa-react"/>`Header.js`. Add the following content:
+Create another folder called <VPIcon icon="fas fa-folder-open"/>`components` and, within it, a JavaScript file called <VPIcon icon="fa-brands fa-react"/>`Header.js`. Add the following content:
 
 ```jsx :collapsed-lines title="src/components/Header.js"
 import React, { Component } from "react";
@@ -504,7 +504,7 @@ This is pretty much static HTML represented under JSX. Nothing much of note here
 
 ### Working on the Creating New Student form
 
-Now, let’s change our strategy and build the next components from the innermost to the outermost ones. In the same <FontIcon icon="fas fa-folder-open"/>`components` folder, create a new file called `NewStudentForm.js` and add the following:
+Now, let’s change our strategy and build the next components from the innermost to the outermost ones. In the same <VPIcon icon="fas fa-folder-open"/>`components` folder, create a new file called `NewStudentForm.js` and add the following:
 
 ```jsx :collapsed-lines title="src/components/NewStudentForm.js"
 import React from "react";
@@ -676,7 +676,7 @@ Then, the `Modal` component can be mounted upon these conditions further down. P
 
 ### Creating the students listing
 
-The `NewStudentModal` component will be placed into the <FontIcon icon="fa-brands fa-react"/>`StudentList.js` we’re going to create now:
+The `NewStudentModal` component will be placed into the <VPIcon icon="fa-brands fa-react"/>`StudentList.js` we’re going to create now:
 
 ```jsx :collapsed-lines title="src/components/StudentList.js"
 import React, { Component } from "react";
@@ -896,7 +896,7 @@ Now, run the command `npm start` and your React app will open the browser to the
 
 ## Conclusion
 
-You can [access the full source code of this project here (<FontIcon icon="iconfont icon-github"/>`diogosouza/django-react-logrocket`)](https://github.com/diogosouza/django-react-logrocket).
+You can [access the full source code of this project here (<VPIcon icon="iconfont icon-github"/>`diogosouza/django-react-logrocket`)](https://github.com/diogosouza/django-react-logrocket).
 
 <SiteInfo
   name="diogosouza/django-react-logrocket"
@@ -907,7 +907,7 @@ You can [access the full source code of this project here (<FontIcon icon="iconf
 
 Of course, this is only one way of doing this. The good thing about using React is that you can organize your components (or even create more components out of the ones you have) in many different ways to achieve the same goal.
 
-In the world of SPAs, your backend APIs are practically fully independent from the frontend clients. This gives you the flexibility to change the whole architecture of your API (like switching from Django to [Flask (<FontIcon icon="iconfont icon-github"/>`pallets/flask`)](https://github.com/pallets/flask), for example) without any side effects to your React apps.
+In the world of SPAs, your backend APIs are practically fully independent from the frontend clients. This gives you the flexibility to change the whole architecture of your API (like switching from Django to [Flask (<VPIcon icon="iconfont icon-github"/>`pallets/flask`)](https://github.com/pallets/flask), for example) without any side effects to your React apps.
 
 <SiteInfo
   name="pallets/flask"
@@ -916,7 +916,7 @@ In the world of SPAs, your backend APIs are practically fully independent from t
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://repository-images.githubusercontent.com/596892/cc2c69ec-9251-4b33-8283-b86a8659c9cb"/>
 
-As a challenge, try to add a [**pagination system**](/blog.logrocket.com/render-large-lists-react-5-methods-examples.md) to your API/React app. The Django REST Framework provides support for [<FontIcon icon="iconfont icon-django"/>customizable pagination styles](https://django-rest-framework.org/api-guide/pagination/).
+As a challenge, try to add a [**pagination system**](/blog.logrocket.com/render-large-lists-react-5-methods-examples.md) to your API/React app. The Django REST Framework provides support for [<VPIcon icon="iconfont icon-django"/>customizable pagination styles](https://django-rest-framework.org/api-guide/pagination/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

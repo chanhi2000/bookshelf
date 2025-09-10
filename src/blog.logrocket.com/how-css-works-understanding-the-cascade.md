@@ -62,9 +62,9 @@ The cascade is inherent to working with CSS — after all, it is what gives 
 
 Since we’ll be talking about the specifics of _how_ the CSS Cascade works, it’ll be helpful for us all to be on the same page.
 
-::: info <FontIcon icon="iconfont icon-w3c"/>CSS Cascade Level 4 Spec
+::: info <VPIcon icon="iconfont icon-w3c"/>CSS Cascade Level 4 Spec
 
-Here’s the definition from the [<FontIcon icon="iconfont icon-w3c"/>CSS Cascade Level 4 Spec](https://w3.org/TR/css-cascade-4/#cascading).
+Here’s the definition from the [<VPIcon icon="iconfont icon-w3c"/>CSS Cascade Level 4 Spec](https://w3.org/TR/css-cascade-4/#cascading).
 
 > The cascade takes a unordered list of declared values for a given property on a given element, sorts them by their declaration’s precedence, and outputs a single cascaded value.
 

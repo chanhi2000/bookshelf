@@ -1,0 +1,5 @@
+packages:
+  # all packages in subdirs of packages/
+  - "shared"
+  # if you have other directories, you can add them too
+  # - 'components/*'

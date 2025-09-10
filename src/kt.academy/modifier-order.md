@@ -55,11 +55,11 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/modifier-order.jp
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kt-academy-articles/promotion/modifier-order.jpg"/>
 
-Some time ago I published [<FontIcon icon="fas fa-globe"/>a game](https://marcinmoskala.com/ModifierOrderGuesser/), where the task was to predict what is the output of a certain modifier order in Jetpack Compose. To my surprise, I received a lot of feedback that people have trouble scoring any points. Developers do not understand how modifiers work! People just try them in different configurations until they achieve what they need. That is not a good recipe for an effective and reliable development.
+Some time ago I published [<VPIcon icon="fas fa-globe"/>a game](https://marcinmoskala.com/ModifierOrderGuesser/), where the task was to predict what is the output of a certain modifier order in Jetpack Compose. To my surprise, I received a lot of feedback that people have trouble scoring any points. Developers do not understand how modifiers work! People just try them in different configurations until they achieve what they need. That is not a good recipe for an effective and reliable development.
 
 This topic does not only deserve a good explanation but also needs it. Documentation is useful and clear, but far from covering this topic completely. Just the opposite, after reading documentation, I had a feeling that it only scratches the surface. The articles I found on the internet are not better, and many of them are plainly wrong. They offered shallow explanations that might help in some cases, while in others they were misleading.
 
-That is why I decided to write this article, where I want to explain clearly how modifiers work. On the way, you will also learn how to **dominate** [<FontIcon icon="fas fa-globe"/>my game](https://marcinmoskala.com/ModifierOrderGuesser/). That is not a short read, but once understood, modifiers get very intuitive. I hope after reading this article, you will reach this point, and modifiers will no longer be a mystery for you.
+That is why I decided to write this article, where I want to explain clearly how modifiers work. On the way, you will also learn how to **dominate** [<VPIcon icon="fas fa-globe"/>my game](https://marcinmoskala.com/ModifierOrderGuesser/). That is not a short read, but once understood, modifiers get very intuitive. I hope after reading this article, you will reach this point, and modifiers will no longer be a mystery for you.
 
 ---
 
@@ -69,11 +69,11 @@ Order of operators makes a significant difference. For instance, if you use `bac
 
 ![](https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-academy-articles%2Fimages%2Fmodifier_order_order_matter.gif&w=1080&q=75)
 
-In [<FontIcon icon="fas fa-globe"/>my game](https://marcinmoskala.com/ModifierOrderGuesser/), the possible answers are different images that are the result of applying the same modifiers in different orders. Just see how different those results can be.
+In [<VPIcon icon="fas fa-globe"/>my game](https://marcinmoskala.com/ModifierOrderGuesser/), the possible answers are different images that are the result of applying the same modifiers in different orders. Just see how different those results can be.
 
 ![](https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-academy-articles%2Fimages%2Fmodifier_order_crazy.png&w=1080&q=75)
 
-There is a lot of confusion about in which order modifiers are applied. First of all, **modifiers are not applied from bottom to top**. It can sometimes be considered as a useful metaphor, but it is not how it works. It is better to say that modifiers are applied from top to the bottom, but to be precise, they are first applied from top-to-bottom then bottom-to-top order in the layout phase, and then in top-to-bottom order in the drawing phase. [<FontIcon icon="fa-brands fa-android"/>The documentation explains that quite clearly.](https://developer.android.com/develop/ui/compose/layouts/constraints-modifiers) That is also why when we chain modifiers, we use function `then`.
+There is a lot of confusion about in which order modifiers are applied. First of all, **modifiers are not applied from bottom to top**. It can sometimes be considered as a useful metaphor, but it is not how it works. It is better to say that modifiers are applied from top to the bottom, but to be precise, they are first applied from top-to-bottom then bottom-to-top order in the layout phase, and then in top-to-bottom order in the drawing phase. [<VPIcon icon="fa-brands fa-android"/>The documentation explains that quite clearly.](https://developer.android.com/develop/ui/compose/layouts/constraints-modifiers) That is also why when we chain modifiers, we use function `then`.
 
 ```kotlin
 @Stable
@@ -161,7 +161,7 @@ Notice that this also means that using methods like `size` more than once takes 
 
 ![](https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-academy-articles%2Fimages%2Fmodifier_order_size_size_size.png&w=1080&q=75)
 
-To learn more about constraints and how they are propagated, read [<FontIcon icon="fa-brands fa-android"/>this page from documentation](https://developer.android.com/develop/ui/compose/layouts/constraints-modifiers).
+To learn more about constraints and how they are propagated, read [<VPIcon icon="fa-brands fa-android"/>this page from documentation](https://developer.android.com/develop/ui/compose/layouts/constraints-modifiers).
 
 ---
 
@@ -177,7 +177,7 @@ That can lead to crazy outputs when `clip` is used with other modifiers.
 
 ## Understanding modifiers
 
-Now you know how modifiers work. The only thing that you need to dominate [<FontIcon icon="fas fa-globe"/>the game](https://marcinmoskala.com/ModifierOrderGuesser/) is to understand how each modifier works. Here is their brief description:
+Now you know how modifiers work. The only thing that you need to dominate [<VPIcon icon="fas fa-globe"/>the game](https://marcinmoskala.com/ModifierOrderGuesser/) is to understand how each modifier works. Here is their brief description:
 
 - `size` - Narrows constraints to the closest possible allowed by the previously received constraints.
 - `padding` - Makes internal which is smaller and has an offset. It also modifies constraints by making them smaller.
@@ -206,22 +206,22 @@ Here is an example of how using them together can lead to interesting results:
 
 - To understand how modifiers work, you need to understand how each modifier works. The behavior differs, for instance `background` draws color behind our component, `padding` makes internal smaller and with an offset, `clip` limits the space where the composable can be drawn, and `border` draws border around the composable, and clips it to prevent drawing on the border. That means using `background` twice will draw the second color over the first one, and using `border` twice will draw the first border, because the second one will be clipped.
 
-With that in mind, you should be able to dominate [<FontIcon icon="fas fa-globe"/>Modifier Order Guessing Game](https://marcinmoskala.com/ModifierOrderGuesser/). Remember to share your amazing score on social media!
+With that in mind, you should be able to dominate [<VPIcon icon="fas fa-globe"/>Modifier Order Guessing Game](https://marcinmoskala.com/ModifierOrderGuesser/). Remember to share your amazing score on social media!
 
 ---
 
 ## More...
 
-If you want to learn more about how modifier order affects UI, and see many practical examples, see [<FontIcon icon="fa-brands fa-youtube"/>my YouTube video](https://youtu.be/ShR7nOfCuaA) about it:
+If you want to learn more about how modifier order affects UI, and see many practical examples, see [<VPIcon icon="fa-brands fa-youtube"/>my YouTube video](https://youtu.be/ShR7nOfCuaA) about it:
 
 <VidStack src="youtube/ShR7nOfCuaA" />
 
 If you want to learn more about Jetpack Compose, check out my new workshops:
 
-- [<FontIcon icon="fas fa-globe"/>Compose Essentials](https://kt.academy/workshop/compose_essentials) - a workshop for Compose novices, willing to learn the basics of Compose.
-- [<FontIcon icon="fas fa-globe"/>Advanced Compose](https://kt.academy/workshop/compose_advanced) - a workshop for Compose developers, willing to better understand Compose and learn its more advanced features.
-- [<FontIcon icon="fas fa-globe"/>Recomposition Master](https://kt.academy/workshop/recomposition_master) - a workshop for Compose developers, willing to understand composition and recomposition, and learning how to use is safely and effectively.
-You can [<FontIcon icon="fas fa-globe"/>organize those workshops in your company](https://kt.academy/article/finance-by-company) or [<FontIcon icon="fas fa-globe"/>join one of the public editions](https://kt.academy/#public-workshops-section).
+- [<VPIcon icon="fas fa-globe"/>Compose Essentials](https://kt.academy/workshop/compose_essentials) - a workshop for Compose novices, willing to learn the basics of Compose.
+- [<VPIcon icon="fas fa-globe"/>Advanced Compose](https://kt.academy/workshop/compose_advanced) - a workshop for Compose developers, willing to better understand Compose and learn its more advanced features.
+- [<VPIcon icon="fas fa-globe"/>Recomposition Master](https://kt.academy/workshop/recomposition_master) - a workshop for Compose developers, willing to understand composition and recomposition, and learning how to use is safely and effectively.
+You can [<VPIcon icon="fas fa-globe"/>organize those workshops in your company](https://kt.academy/article/finance-by-company) or [<VPIcon icon="fas fa-globe"/>join one of the public editions](https://kt.academy/#public-workshops-section).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

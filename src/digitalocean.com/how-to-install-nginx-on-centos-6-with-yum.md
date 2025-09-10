@@ -72,7 +72,7 @@ This article covers a version of CentOS that is no longer supported. If you are 
 
 **Reason:**
 
-[<FontIcon icon="fa-brands fa-centos"/>CentOS 6 reached end of life (EOL) on November 30th, 2020](https://wiki.centos.org/About/Product) and no longer receives security patches or updates. For this reason, this guide is no longer maintained.
+[<VPIcon icon="fa-brands fa-centos"/>CentOS 6 reached end of life (EOL) on November 30th, 2020](https://wiki.centos.org/About/Product) and no longer receives security patches or updates. For this reason, this guide is no longer maintained.
 
 **See Instead:**
 

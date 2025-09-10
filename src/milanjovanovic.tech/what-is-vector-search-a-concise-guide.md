@@ -98,7 +98,7 @@ To make vector search work well with lots of data, we need special storage syste
 
 Vector databases do more than just store vectors - they organize them in smart ways that make searching faster. They use special methods called "Approximate Nearest Neighbor" (ANN) algorithms that can find similar vectors without checking every single one in the database.
 
-![Vector databases landscape.<br/><Source: [<FontIcon icon="fas fa-globe"/>What are Vector Databases? A Beginner's Guide](https://infracloud.io/blogs/vector-databases-beginners-guide/)>](https://milanjovanovic.tech/blogs/mnw_137/vector_databases_landscape.png?imwidth=3840)
+![Vector databases landscape.<br/><Source: [<VPIcon icon="fas fa-globe"/>What are Vector Databases? A Beginner's Guide](https://infracloud.io/blogs/vector-databases-beginners-guide/)>](https://milanjovanovic.tech/blogs/mnw_137/vector_databases_landscape.png?imwidth=3840)
 
 These databases also store the original content along with its vector, so when you get search results, you see the actual text, images, or other data you were looking for. Popular vector databases include Weaviate, Pinecone, and Qdrant. But you can also turn PostgreSQL into a vector database using the pgvector extension.
 

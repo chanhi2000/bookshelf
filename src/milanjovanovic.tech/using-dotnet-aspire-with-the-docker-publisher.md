@@ -86,7 +86,7 @@ The app is intentionally simple, just enough to demonstrate how Aspire wires thi
 - Postgres: used for data storage
 - Redis: used for caching
 
-In a traditional setup, you'd manually connect these services, manage configuration files, handle environment variables, and write a <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml` from scratch.
+In a traditional setup, you'd manually connect these services, manage configuration files, handle environment variables, and write a <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml` from scratch.
 
 With Aspire, you declare everything in C# inside the AppHost project. Here's a quick look at the setup:
 
@@ -134,7 +134,7 @@ Then you can run the `publish` command:
 aspire publish -o docker-compose-artifacts
 ```
 
-This command will scan your solution for the Aspire project and generate a Docker Compose file and an <FontIcon icon="fas fa-file-lines"/>`.env` file based on the services you've defined.
+This command will scan your solution for the Aspire project and generate a Docker Compose file and an <VPIcon icon="fas fa-file-lines"/>`.env` file based on the services you've defined.
 
 ![Aspire publish command](https://milanjovanovic.tech/blogs/mnw_149/aspire_publish.png?imwidth=1920)
 
@@ -203,9 +203,9 @@ volumes:
     driver: 'local'
 ```
 
-This <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yaml` file is generated from the C# code we wrote earlier. It defines the services, their images, environment variables, ports, and dependencies.
+This <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yaml` file is generated from the C# code we wrote earlier. It defines the services, their images, environment variables, ports, and dependencies.
 
-The <FontIcon icon="fas fa-file-lines"/>`.env` file contains some of the configuration we need:
+The <VPIcon icon="fas fa-file-lines"/>`.env` file contains some of the configuration we need:
 
 ```sh title=".env"
 # Parameter database-password

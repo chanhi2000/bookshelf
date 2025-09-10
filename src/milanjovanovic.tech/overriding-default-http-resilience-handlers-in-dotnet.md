@@ -52,7 +52,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_127.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_127.png"/>
 
-Introducing [**.NET 8 resilience packages**](/milanjovanovic.tech/building-resilient-cloud-applications-with-dotnet.md) built on top of [<FontIcon icon="iconfont icon-github"/>`App-vNext/Polly`](https://github.com/App-vNext/Polly) has made it much easier to build robust HTTP clients. These packages provide standard resilience handlers that you can easily attach to `HttpClient` instances. They implement common patterns like retry, circuit breaker, and timeout policies.
+Introducing [**.NET 8 resilience packages**](/milanjovanovic.tech/building-resilient-cloud-applications-with-dotnet.md) built on top of [<VPIcon icon="iconfont icon-github"/>`App-vNext/Polly`](https://github.com/App-vNext/Polly) has made it much easier to build robust HTTP clients. These packages provide standard resilience handlers that you can easily attach to `HttpClient` instances. They implement common patterns like retry, circuit breaker, and timeout policies.
 
 However, there is a significant limitation: once you configure the standard resilience handlers globally for all clients, there is no built-in way to override them for specific cases. This can be problematic when different endpoints require different resilience strategies.
 
@@ -188,7 +188,7 @@ builder.Services
 
 ## Future Improvements
 
-The .NET team is aware of this limitation, and better support for overriding default resilience handlers is planned for an upcoming release. The [pull request for this API (<FontIcon icon="iconfont icon-github"/>`dotnet/extensions`)](https://github.com/dotnet/extensions/pull/5801) is merged and should be available in a future release.
+The .NET team is aware of this limitation, and better support for overriding default resilience handlers is planned for an upcoming release. The [pull request for this API (<VPIcon icon="iconfont icon-github"/>`dotnet/extensions`)](https://github.com/dotnet/extensions/pull/5801) is merged and should be available in a future release.
 
 Until then, this workaround using `RemoveAllResilienceHandlers` is a drop-in replacement for the missing feature.
 

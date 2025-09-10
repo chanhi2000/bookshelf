@@ -163,9 +163,9 @@ So without further ado and in no particular order of importance, I present you t
   logo="https://buddy.works/favicon.ico"
   preview="https://buddy.works/assets/images/og-social-image.png?260924"/>
 
-[<FontIcon icon="iconfont icon-buddy"/>Buddy](https://buddy.works) is a **modern and intuitive** CI tool. By keeping the interface simple Buddy makes the user experience the top priority and the time you need to invest in learning the tool to the minimum (which is nice).
+[<VPIcon icon="iconfont icon-buddy"/>Buddy](https://buddy.works) is a **modern and intuitive** CI tool. By keeping the interface simple Buddy makes the user experience the top priority and the time you need to invest in learning the tool to the minimum (which is nice).
 
-Wizard-like configurations make the tool easy to work with, and **there is practically no need to read the documentation** until you need to configure some of the more [<FontIcon icon="iconfont icon-buddy"/>complex pipelines](https://buddy.works/help).
+Wizard-like configurations make the tool easy to work with, and **there is practically no need to read the documentation** until you need to configure some of the more [<VPIcon icon="iconfont icon-buddy"/>complex pipelines](https://buddy.works/help).
 
 And what makes a modern CI tool? Variety of supported tools/integrations, fast build times, smart but flexible UI, different hosting options (cloud/on-premises), and configurable pricing plans. Buddy fulfills all the above and goes beyond.
 
@@ -201,7 +201,7 @@ The most **modern and intuitive** tool on the list, it supports all the features
 
 TeamCity is the mature CI server, coming from the labs of the JetBrains company. JetBrains has established authority in the software development world, and developers all over the world use their tools like WebStorm and ReSharper.
 
-TeamCity offers all the features in its free version, but it is **limited to [<FontIcon icon="iconfont icon-teamcity"/>100 build configurations and 3 build agents](https://jetbrains.com/teamcity/)**. Additional build agents and build configurations need to be purchased. Recently JetBrains started offering a **cloud trial** of TeamCity where you can try it out for one project without the hassle of having to install it on-premises. It lasts 60 days and you can export the project afterward.
+TeamCity offers all the features in its free version, but it is **limited to [<VPIcon icon="iconfont icon-teamcity"/>100 build configurations and 3 build agents](https://jetbrains.com/teamcity/)**. Additional build agents and build configurations need to be purchased. Recently JetBrains started offering a **cloud trial** of TeamCity where you can try it out for one project without the hassle of having to install it on-premises. It lasts 60 days and you can export the project afterward.
 
 Out of the box, TeamCity works on many different platforms and has support for a wide variety of tools and frameworks. There are many publicly available plugins, developed both by JetBrains and third parties.
 
@@ -233,7 +233,7 @@ Jenkins is an open-source CI tool written in Java. It originated as the fork of 
 
 What makes Jenkins **very flexible** is the feature extension through plugins. Jenkins plugin list is very comprehensive and you can easily add your own. Besides extensibility, Jenkins prides itself on distributing builds and test loads on multiple machines. It is published under an MIT license so it is free to use and distribute.
 
-Cloudbees also offers a hosted solution in the form of [<FontIcon icon="fas fa-globe"/>Jenkins in the Cloud](https://cloudbees.com/products/jenkins-cloud).
+Cloudbees also offers a hosted solution in the form of [<VPIcon icon="fas fa-globe"/>Jenkins in the Cloud](https://cloudbees.com/products/jenkins-cloud).
 
 ::: info Verdict
 
@@ -255,9 +255,9 @@ One of the best solutions out there, both powerful and flexible at the same time
   logo="https://travis-ci.com/wp-content/uploads/2025/05/cropped-Favicon-192x192.png"
   preview="https://travis-ci.com/wp-content/uploads/2025/05/cropped-Favicon.png"/>
 
-Travis CI is one of the oldest hosted solutions out there and it has won the trust of many people. Although it’s mostly known for the hosted solution, it offers the on-premise version too in the form of an [<FontIcon icon="iconfont icon-travis-ci"/>enterprise package](https://travis-ci.com/enterprise/).
+Travis CI is one of the oldest hosted solutions out there and it has won the trust of many people. Although it’s mostly known for the hosted solution, it offers the on-premise version too in the form of an [<VPIcon icon="iconfont icon-travis-ci"/>enterprise package](https://travis-ci.com/enterprise/).
 
-Travis CI is **free for all open-source projects** hosted on GitHub and for the first 100 builds otherwise. There are a few [<FontIcon icon="iconfont icon-travis-ci"/>pricing plans](https://travis-ci.com/pricing/) you can choose from, the main difference being the number of concurrent builds you can run.
+Travis CI is **free for all open-source projects** hosted on GitHub and for the first 100 builds otherwise. There are a few [<VPIcon icon="iconfont icon-travis-ci"/>pricing plans](https://travis-ci.com/pricing/) you can choose from, the main difference being the number of concurrent builds you can run.
 
 Builds are **configured using the .travis.yml** file which contains the build tasks that will be executed on running the build. It supports a variety of different languages and **good documentation** to back them up.
 
@@ -284,7 +284,7 @@ A Mature solution that offers both hosted and On-premises variants, loved and us
 }
 ```
 
-Atlassian is a company focused on providing tools for software development teams and you might know them by their tools like [<FontIcon icon="fa-brands fa-jira"/>JIRA](https://atlassian.com/software/jira) and [<FontIcon icon="fa-brands fa-bitbucket"/>Bitbucket](https://atlassian.com/software/bitbucket). Bamboo originally offered both cloud and On-premises solutions, but in May 2016 the cloud version was discontinued in favor of the Bitbucket pipelines (accessible through the left panel of your Bitbucket account).
+Atlassian is a company focused on providing tools for software development teams and you might know them by their tools like [<VPIcon icon="fa-brands fa-jira"/>JIRA](https://atlassian.com/software/jira) and [<VPIcon icon="fa-brands fa-bitbucket"/>Bitbucket](https://atlassian.com/software/bitbucket). Bamboo originally offered both cloud and On-premises solutions, but in May 2016 the cloud version was discontinued in favor of the Bitbucket pipelines (accessible through the left panel of your Bitbucket account).
 
 By utilizing the power of Docker, Bitbucket Pipelines is offering very efficient and fast builds that are rapidly growing and becoming a worthy successor to the Bamboo Cloud.
 
@@ -315,7 +315,7 @@ GitLab CI is an integral part of the open-source Rails project GitLab, which was
 
 GitLab CI integrates seamlessly with GitLab and it can easily hook projects using the GitLab API. GitLab runners that process builds are written in the Go language and can run on Windows, Linux, OSX, FreeBSD, and Docker.
 
-[<FontIcon icon="fa-brands fa-gitlab"/>The official Go runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#features) can run multiple jobs concurrently and has inbuilt Docker support. GitLab CI comes with both the open-source GitLab Community Edition and the [<FontIcon icon="fa-brands fa-gitlab"/>GitLab Enterprise Edition](https://about.gitlab.com/pricing/).
+[<VPIcon icon="fa-brands fa-gitlab"/>The official Go runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#features) can run multiple jobs concurrently and has inbuilt Docker support. GitLab CI comes with both the open-source GitLab Community Edition and the [<VPIcon icon="fa-brands fa-gitlab"/>GitLab Enterprise Edition](https://about.gitlab.com/pricing/).
 
 ::: info Verdict
 
@@ -342,7 +342,7 @@ A Phenomenal hosted tool with an impressive list of features, offers both free a
 
 Another cloud alternative comes from a company with the same name. CircleCI currently only supports GitHub and the list of supported languages includes Java, Ruby/Rails, Python, Node.js, PHP, Haskell, and Scala.
 
-What separates CircleCI from the other tools is the way they offer services. The main [<FontIcon icon="iconfont icon-circle-ci"/>pricing](https://circleci.com/pricing/) block for the CircleCI is the “container”. One container is free and you can build as many projects on it as you need. Once you start adding more containers (at a fixed price each) you can choose the level of parallelization that suits your needs.
+What separates CircleCI from the other tools is the way they offer services. The main [<VPIcon icon="iconfont icon-circle-ci"/>pricing](https://circleci.com/pricing/) block for the CircleCI is the “container”. One container is free and you can build as many projects on it as you need. Once you start adding more containers (at a fixed price each) you can choose the level of parallelization that suits your needs.
 
 There are 5 levels of parallelization (1x, 4x, 8x, 12x, and 16x). So, starting with the 16 containers, you can achieve maximum parallelization of 16x on one build. Or you can run 4 builds on 16 containers with 4x parallelization. It is up to you.
 

@@ -70,7 +70,7 @@ I've been tinkering with .NET Aspire lately, and I've got some thoughts to share
 
 > .NET Aspire is an opinionated, cloud-ready stack for building observable, production-ready, distributed applications.
 
-[<FontIcon icon="fa-brands fa-microsoft"/>.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview) is Microsoft's latest offering for cloud-native application development. It aims to simplify the process of building, deploying, and managing distributed applications.
+[<VPIcon icon="fa-brands fa-microsoft"/>.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview) is Microsoft's latest offering for cloud-native application development. It aims to simplify the process of building, deploying, and managing distributed applications.
 
 Distributed applications often consist of small applications that consume external services like databases, message brokers, and caching. .NET Aspire gives you a set of tools to make building distributed applications easier.
 
@@ -142,7 +142,7 @@ So, I decided to migrate this application to .NET Aspire and documented the proc
 
 You can right-click an existing project in Visual Studio and select `Add > .NET Aspire Orchestrator Support...`.
 
-![Context menu with '.NET Aspire Orchestrator Support...' highlighted.<br/>Source: [<FontIcon icon="fa-brands fa-microsoft"/>Microsoft](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/add-aspire-existing-app)](https://milanjovanovic.tech/blogs/mnw_107/aspire_orchestration.png?imwidth=750)
+![Context menu with '.NET Aspire Orchestrator Support...' highlighted.<br/>Source: [<VPIcon icon="fa-brands fa-microsoft"/>Microsoft](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/add-aspire-existing-app)](https://milanjovanovic.tech/blogs/mnw_107/aspire_orchestration.png?imwidth=750)
 
 This will add an `AppHost` and `ServiceDefaults` project to your solution. You will then repeat this for the remaining projects in your solution to enlist them all in Aspire orchestration.
 
@@ -217,7 +217,7 @@ builder.AddProject<Projects.ContentPlatform_Api>("contentplatform-api")
 builder.Build().Run();
 ```
 
-You can find a list of supported [<FontIcon icon="fa-brands fa-microsoft"/>Aspire integrations](https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/integrations-overview) in the documentation.
+You can find a list of supported [<VPIcon icon="fa-brands fa-microsoft"/>Aspire integrations](https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/integrations-overview) in the documentation.
 
 When you configure a resource with a known connection string format, Aspire automatically injects an environment variable. The connection string name will have the same name as the respective resource.
 
@@ -273,7 +273,7 @@ For local development, the .NET Aspire dashboard provides a UI for viewing telem
 
 .NET Aspire simplifies the deployment process for distributed applications, especially when targeting Azure. To deploy an Aspire application, you first generate a **manifest file** using the `dotnet run` command with specific parameters. This manifest is a JSON file that describes all the resources defined in your Aspire project, including services, databases, and other dependencies.
 
-![.NET Aspire manifest JSON file example.<br/>Source: [<FontIcon icon="fa-brands fa-microsoft"/>Microsoft](https://learn.microsoft.com/en-us/dotnet/aspire/deployment/manifest-format)](https://milanjovanovic.tech/blogs/mnw_107/aspire_manifest.png?imwidth=3840)
+![.NET Aspire manifest JSON file example.<br/>Source: [<VPIcon icon="fa-brands fa-microsoft"/>Microsoft](https://learn.microsoft.com/en-us/dotnet/aspire/deployment/manifest-format)](https://milanjovanovic.tech/blogs/mnw_107/aspire_manifest.png?imwidth=3840)
 
 Deployment tools can use the manifest to set up the necessary infrastructure in your target environment. Aspire generates the required configuration for Azure Container Apps or Kubernetes for Azure deployments. It handles tasks like setting up networking, scaling services, and configuring monitoring automatically.
 
@@ -286,7 +286,7 @@ dotnet run --project ContentPlatform.AppHost\ContentPlatform.AppHost.csproj `
 
 This command creates a JSON manifest file that deployment tools can use to set up your application in the cloud or on-premises infrastructure.
 
-You can learn more about [<FontIcon icon="fa-brands fa-microsoft"/>Aspire deployment](https://learn.microsoft.com/en-us/dotnet/aspire/deployment/overview) in the documentation.
+You can learn more about [<VPIcon icon="fa-brands fa-microsoft"/>Aspire deployment](https://learn.microsoft.com/en-us/dotnet/aspire/deployment/overview) in the documentation.
 
 ---
 
@@ -308,7 +308,7 @@ See you next week.
 
 ::: note P.S.
 
-You can find the source code for this example in [this repository (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/aspire-orchestration`)](https://github.com/m-jovanovic/aspire-orchestration).
+You can find the source code for this example in [this repository (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/aspire-orchestration`)](https://github.com/m-jovanovic/aspire-orchestration).
 
 <SiteInfo
   name="m-jovanovic/aspire-orchestration"

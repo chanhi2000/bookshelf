@@ -74,7 +74,7 @@ If you're working in a **distributed system**, you need to be able to communicat
 
 You need a **messaging system**.
 
-And [<FontIcon icon="fa-brands fa-microsoft"/>Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) is an excellent choice.
+And [<VPIcon icon="fa-brands fa-microsoft"/>Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) is an excellent choice.
 
 In this week's newsletter, I'll show you how to create an **Azure Service Bus** instance, and how to implement messaging over a **queue**.
 
@@ -111,11 +111,11 @@ Install-Package Azure.Messaging.ServiceBus
 
 And now, let's write the code for publishing a message to an Azure Service Bus queue.
 
-To work with the Azure Service Bus instance, you will use the [<FontIcon icon="fa-brands fa-microsoft"/>`ServiceBusClient`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebusclient?view=azure-dotnet) class. It requires a connection string to be able to connect to the Azure Service Bus instance.
+To work with the Azure Service Bus instance, you will use the [<VPIcon icon="fa-brands fa-microsoft"/>`ServiceBusClient`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebusclient?view=azure-dotnet) class. It requires a connection string to be able to connect to the Azure Service Bus instance.
 
 The `ServiceBusClient` is safe to cache and reuse in the application, so it can be registered as a service with the singleton lifetime.
 
-With the `ServiceBusClient` you can create a [<FontIcon icon="fa-brands fa-microsoft"/>`ServiceBusSender`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebussender?view=azure-dotnet) instance, which is responsible for sending the actual messages. You also need to specify which queue it will be sending messages to. This can also be the name of a topic, if you are publishing to a topic instead.
+With the `ServiceBusClient` you can create a [<VPIcon icon="fa-brands fa-microsoft"/>`ServiceBusSender`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebussender?view=azure-dotnet) instance, which is responsible for sending the actual messages. You also need to specify which queue it will be sending messages to. This can also be the name of a topic, if you are publishing to a topic instead.
 
 ```cs
 using Azure.Messaging.ServiceBus;
@@ -150,9 +150,9 @@ For publishing messages to Azure Service Bus, you simply call the `SendMessageAs
 
 Publishing messages to a queue is only half of the job. You also need to be able to receive messages from the queue. However, you'll see that this is very similar to the publishing side.
 
-On the receiving side, you'll also need to create a `ServiceBusClient`. And then use it to create an instance of [<FontIcon icon="fa-brands fa-microsoft"/>`ServiceBusProcessor`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebusprocessor?view=azure-dotnet), which is used for consuming messages. You need to tell the `ServiceBusProcessor` which queue it will subscribe to.
+On the receiving side, you'll also need to create a `ServiceBusClient`. And then use it to create an instance of [<VPIcon icon="fa-brands fa-microsoft"/>`ServiceBusProcessor`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebusprocessor?view=azure-dotnet), which is used for consuming messages. You need to tell the `ServiceBusProcessor` which queue it will subscribe to.
 
-The `ServiceBusProcessor` exposes two events, which represent callbacks for when a message is received. These events are [<FontIcon icon="fa-brands fa-microsoft"/>`ProcessMessageAsync`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebusprocessor.processmessageasync?view=azure-dotnet) and [<FontIcon icon="fa-brands fa-microsoft"/>`ProcessErrorAsync`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebusprocessor.processerrorasync?view=azure-dotnet).
+The `ServiceBusProcessor` exposes two events, which represent callbacks for when a message is received. These events are [<VPIcon icon="fa-brands fa-microsoft"/>`ProcessMessageAsync`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebusprocessor.processmessageasync?view=azure-dotnet) and [<VPIcon icon="fa-brands fa-microsoft"/>`ProcessErrorAsync`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.servicebusprocessor.processerrorasync?view=azure-dotnet).
 
 You need to provide a handler for these two events, to properly consume messages from the queue. In the example below, we're using the `HandleMessageAsync` and `HandleErrorAsync` local functions.
 
@@ -193,7 +193,7 @@ Task HandleErrorAsync(ProcessErrorEventArgs args)
 
 The `ServiceBusProcessor` begins listening to messages coming from the queue after calling the `StartProcessingAsync` method.
 
-Notice that the success and error event handlers need to accept the [<FontIcon icon="fa-brands fa-microsoft"/>`ProcessMessageEventArgs`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.processmessageeventargs?view=azure-dotnet) and [<FontIcon icon="fa-brands fa-microsoft"/>`ProcessErrorEventArgs`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.processerroreventargs?view=azure-dotnet), respectively.
+Notice that the success and error event handlers need to accept the [<VPIcon icon="fa-brands fa-microsoft"/>`ProcessMessageEventArgs`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.processmessageeventargs?view=azure-dotnet) and [<VPIcon icon="fa-brands fa-microsoft"/>`ProcessErrorEventArgs`](https://learn.microsoft.com/en-us/dotnet/api/azure.messaging.servicebus.processerroreventargs?view=azure-dotnet), respectively.
 
 From the `ProcessMessageEventArgs` you can access the `Message.Body` which contains the mesage payload.
 
@@ -203,11 +203,11 @@ From the `ProcessMessageEventArgs` you can access the `Message.Body` which conta
 
 **Azure Service Bus** is a very feature rich service cloud. I showed you how to work with **queues**, which are great if you only have one publisher and one subscriber. However, if you need the ability to have multiple subscribers to a single message, you can't achieve this with queues.
 
-You will have to use [<FontIcon icon="fa-brands fa-microsoft"/>topics](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions#topics-and-subscriptions), and I invite you to research this *topic* further (pun intended).
+You will have to use [<VPIcon icon="fa-brands fa-microsoft"/>topics](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions#topics-and-subscriptions), and I invite you to research this *topic* further (pun intended).
 
 **Azure Functions** have excellent support for integrating with **Azure Service Bus**. You can define a `QueueTrigger` that will run your **Azure Function** when you receive a message to an Azure Service Bus **queue**.
 
-I also released a video showing how to [<FontIcon icon="fa-brands fa-youtube"/>publish and consume messages using RabbitMQ](https://youtu.be/CTKWFMZVIWA), and I think you might enjoy it after reading this newsletter.
+I also released a video showing how to [<VPIcon icon="fa-brands fa-youtube"/>publish and consume messages using RabbitMQ](https://youtu.be/CTKWFMZVIWA), and I think you might enjoy it after reading this newsletter.
 
 <VidStack src="youtube/CTKWFMZVIWA" />
 

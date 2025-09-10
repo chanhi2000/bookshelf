@@ -74,7 +74,7 @@ It then updates only the parts of the real DOM that have actually changed. This 
 
 ::: note Editor’s note
 
-This post was updated in March 2025 by [<FontIcon icon="fas fa-globe"/>Muhammed Ali*](https://blog.logrocket.com/author/muhammedali/) *to include a clear and succinct definition of the virtual DOM, information on how the virtual DOM works, and the benefits/pitfalls of using the virtual DOM.
+This post was updated in March 2025 by [<VPIcon icon="fas fa-globe"/>Muhammed Ali*](https://blog.logrocket.com/author/muhammedali/) *to include a clear and succinct definition of the virtual DOM, information on how the virtual DOM works, and the benefits/pitfalls of using the virtual DOM.
 
 :::
 
@@ -124,7 +124,7 @@ const update = () => {
 setInterval(update, 1000);
 ```
 
-You can find the complete code [on CodeSandbox (<FontIcon icon="iconfont icon-codesandbox"/>`goofy-darwin-4g25ce`)](https://codesandbox.io/s/goofy-darwin-4g25ce?file=/src/index.js). The DOM tree representing the document looks like the following:
+You can find the complete code [on CodeSandbox (<VPIcon icon="iconfont icon-codesandbox"/>`goofy-darwin-4g25ce`)](https://codesandbox.io/s/goofy-darwin-4g25ce?file=/src/index.js). The DOM tree representing the document looks like the following:
 <!-- TODO: codesandbox -->
 
 ![Dom Tree Representing Example Document](/assets/image/blog.logrocket.com/the-virtual-dom-react/1-dom-tree-representing-example-document-.png)
@@ -197,7 +197,7 @@ const update = () => {
 };
 ```
 
-For brevity, we have removed some of the code. You can [see the complete code on CodeSandbox (<FontIcon icon="iconfont icon-codesandbox"/>`proud-sky-kw2zfb`)](https://codesandbox.io/s/proud-sky-kw2zfb?file=/src/index.js). We can also write JSX code in plain React, as follows:
+For brevity, we have removed some of the code. You can [see the complete code on CodeSandbox (<VPIcon icon="iconfont icon-codesandbox"/>`proud-sky-kw2zfb`)](https://codesandbox.io/s/proud-sky-kw2zfb?file=/src/index.js). We can also write JSX code in plain React, as follows:
 <!-- TODO: codesandbox -->
 
 ```jsx
@@ -216,7 +216,7 @@ const element = React.createElement(
 );
 ```
 
-Keep in mind that you can get the React equivalent of JSX code by pasting the JSX elements in a [<FontIcon icon="iconfont icon-babel"/>Babel REPL editor](https://babeljs.io/repl).
+Keep in mind that you can get the React equivalent of JSX code by pasting the JSX elements in a [<VPIcon icon="iconfont icon-babel"/>Babel REPL editor](https://babeljs.io/repl).
 
 Now, if we log the React element in the console, we’ll end up with something like in the following image:
 
@@ -253,7 +253,7 @@ The image on the left is the initial render. As the `Time` changes, React create
 
 Remember, the virtual DOM is just an object representing the UI, so nothing gets drawn on the screen.
 
-After React creates the new virtual DOM tree, it compares it to the previous snapshot [<FontIcon icon="fa-brands fa-react"/>using a diffing algorithm called reconciliation](https://reactjs.org/docs/reconciliation.html#the-diffing-algorithm) to figure out what changes are necessary.
+After React creates the new virtual DOM tree, it compares it to the previous snapshot [<VPIcon icon="fa-brands fa-react"/>using a diffing algorithm called reconciliation](https://reactjs.org/docs/reconciliation.html#the-diffing-algorithm) to figure out what changes are necessary.
 
 After the reconciliation process, React uses [**a renderer library like ReactDOM**](/blog.logrocket.com/managing-dom-components-reactdom.md), which takes the different information to update the rendered app. This library ensures that the actual DOM only receives and repaints the updated node or nodes:
 
@@ -306,7 +306,7 @@ Updating the component state re-renders the component. However, as shown below, 
 
 ![Result Update Component State Dom Changed Text](/assets/image/blog.logrocket.com/the-virtual-dom-react/7-result-update-component-state-dom-changed-text.webp)
 
-See the [code and demo on CodeSandbox (<FontIcon icon="iconfont icon-codesandbox"/>`stupefied-sanderson-dgq4t9`)](https://codesandbox.io/s/stupefied-sanderson-dgq4t9?file=/src/App.js).
+See the [code and demo on CodeSandbox (<VPIcon icon="iconfont icon-codesandbox"/>`stupefied-sanderson-dgq4t9`)](https://codesandbox.io/s/stupefied-sanderson-dgq4t9?file=/src/App.js).
 <!-- TODO: codesandbox -->
 
 ### How React diffs lists
@@ -347,7 +347,7 @@ However, let’s insert `item 2` at the beginning, as follows:
 
 Similarly, React compares from the top, and immediately realizes that `item 3` doesn’t match `item 2` of the updated tree. It therefore sees the list as an entirely new one that needs to be rebuilt.
 
-Instead of rebuilding the entire list, we want the DOM to compute minimal operations by only prepending `item 2`. React lets us add a `key` prop to [<FontIcon icon="fa-brands fa-react"/>uniquely identify the items](https://reactjs.org/docs/reconciliation.html#keys) as follows:
+Instead of rebuilding the entire list, we want the DOM to compute minimal operations by only prepending `item 2`. React lets us add a `key` prop to [<VPIcon icon="fa-brands fa-react"/>uniquely identify the items](https://reactjs.org/docs/reconciliation.html#keys) as follows:
 
 ```js
 <ul> 

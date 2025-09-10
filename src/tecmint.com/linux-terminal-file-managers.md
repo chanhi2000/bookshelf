@@ -101,43 +101,43 @@ To install **Midnight Commander**you can use the following commands:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 ```sh
 sudo apt install mc
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 ```sh
 sudo dnf install mc
 ```
 
-@tab <FontIcon icon="iconfont icon-gentoo"/>
+@tab <VPIcon icon="iconfont icon-gentoo"/>
 
 ```sh
 sudo emerge -a sys-apps/mc
 ```
 
-@tab <FontIcon icon="iconfont icon-alpine"/>
+@tab <VPIcon icon="iconfont icon-alpine"/>
 
 ```sh
 sudo apk add mc
 ```
 
-@tab <FontIcon icon="iconfont icon-archlinux"/>
+@tab <VPIcon icon="iconfont icon-archlinux"/>
 
 ```sh
 sudo pacman -S mc
 ```
 
-@tab <FontIcon icon="fa-brands fa-opensuse"/>
+@tab <VPIcon icon="fa-brands fa-opensuse"/>
 
 ```sh
 sudo zypper install mc
 ```
 
-@tab <FontIcon icon="fa-brands fa-freebsd"/>
+@tab <VPIcon icon="fa-brands fa-freebsd"/>
 
 ```sh
 sudo pkg install mc
@@ -163,43 +163,43 @@ To install **Ranger** you can use the following commands:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 ```sh
 sudo apt install ranger
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 ```sh
 sudo dnf install ranger
 ```
 
-@tab <FontIcon icon="iconfont icon-gentoo"/>
+@tab <VPIcon icon="iconfont icon-gentoo"/>
 
 ```sh
 sudo emerge -a sys-apps/ranger
 ```
 
-@tab <FontIcon icon="iconfont icon-alpine"/>
+@tab <VPIcon icon="iconfont icon-alpine"/>
 
 ```sh
 sudo apk add ranger
 ```
 
-@tab <FontIcon icon="iconfont icon-archlinux"/>
+@tab <VPIcon icon="iconfont icon-archlinux"/>
 
 ```sh
 sudo pacman -S ranger
 ```
 
-@tab <FontIcon icon="fa-brands fa-opensuse"/>
+@tab <VPIcon icon="fa-brands fa-opensuse"/>
 
 ```sh
 sudo zypper install ranger
 ```
 
-@tab <FontIcon icon="fa-brands fa-freebsd"/>
+@tab <VPIcon icon="fa-brands fa-freebsd"/>
 
 ```sh
 sudo pkg install ranger
@@ -221,13 +221,13 @@ To install **cfiles**, first, you need to install development tools using the fo
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 ```sh
 sudo apt install build-essential
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 ```sh
 sudo yum groupinstall 'Development Tools'
@@ -260,43 +260,43 @@ To install **Vifm** you can use the following commands:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 ```sh
 sudo apt install vifm
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 ```sh
 sudo dnf install vifm
 ```
 
-@tab <FontIcon icon="iconfont icon-gentoo"/>
+@tab <VPIcon icon="iconfont icon-gentoo"/>
 
 ```sh
 sudo emerge -a sys-apps/vifm
 ```
 
-@tab <FontIcon icon="iconfont icon-alpine"/>
+@tab <VPIcon icon="iconfont icon-alpine"/>
 
 ```sh
 sudo apk add vifm
 ```
 
-@tab <FontIcon icon="iconfont icon-archlinux"/>
+@tab <VPIcon icon="iconfont icon-archlinux"/>
 
 ```sh
 sudo pacman -S vifm
 ```
 
-@tab <FontIcon icon="fa-brands fa-opensuse"/>
+@tab <VPIcon icon="fa-brands fa-opensuse"/>
 
 ```sh
 sudo zypper install vifm
 ```
 
-@tab <FontIcon icon="fa-brands fa-freebsd"/>
+@tab <VPIcon icon="fa-brands fa-freebsd"/>
 
 ```sh
 sudo pkg install vifm
@@ -318,43 +318,43 @@ To install **nnn**, you can use the following command:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 ```sh
 sudo apt install nnn
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 ```sh
 sudo dnf install nnn
 ```
 
-@tab <FontIcon icon="iconfont icon-gentoo"/>
+@tab <VPIcon icon="iconfont icon-gentoo"/>
 
 ```sh
 sudo emerge -a sys-apps/nnn
 ```
 
-@tab <FontIcon icon="iconfont icon-alpine"/>
+@tab <VPIcon icon="iconfont icon-alpine"/>
 
 ```sh
 sudo apk add nnn
 ```
 
-@tab <FontIcon icon="iconfont icon-archlinux"/>
+@tab <VPIcon icon="iconfont icon-archlinux"/>
 
 ```sh
 sudo pacman -S nnn
 ```
 
-@tab <FontIcon icon="fa-brands fa-opensuse"/>
+@tab <VPIcon icon="fa-brands fa-opensuse"/>
 
 ```sh
 sudo zypper install nnn
 ```
 
-@tab <FontIcon icon="fa-brands fa-freebsd"/>
+@tab <VPIcon icon="fa-brands fa-freebsd"/>
 
 ```sh
 sudo pkg install nnn
@@ -376,43 +376,43 @@ To install **Lfm**, you can use the following command:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 ```sh
 sudo apt install lfm
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 ```sh
 sudo dnf install lfm
 ```
 
-@tab <FontIcon icon="iconfont icon-gentoo"/>
+@tab <VPIcon icon="iconfont icon-gentoo"/>
 
 ```sh
 sudo emerge -a sys-apps/lfm
 ```
 
-@tab <FontIcon icon="iconfont icon-alpine"/>
+@tab <VPIcon icon="iconfont icon-alpine"/>
 
 ```sh
 sudo apk add lfm
 ```
 
-@tab <FontIcon icon="iconfont icon-archlinux"/>
+@tab <VPIcon icon="iconfont icon-archlinux"/>
 
 ```sh
 sudo pacman -S lfm
 ```
 
-@tab <FontIcon icon="fa-brands fa-opensuse"/>
+@tab <VPIcon icon="fa-brands fa-opensuse"/>
 
 ```sh
 sudo zypper install lfm
 ```
 
-@tab <FontIcon icon="fa-brands fa-freebsd"/>
+@tab <VPIcon icon="fa-brands fa-freebsd"/>
 
 ```sh
 sudo pkg install lfm
@@ -444,7 +444,7 @@ Some of the main features of **lf** are:
 
 Future plans include the activation of mouse control.
 
-To install **lf** simply download the binary-related build for your OS from the [lf releases (<FontIcon icon="iconfont icon-github"/>`gokcehan/lf`)](https://github.com/gokcehan/lf/releases) page.
+To install **lf** simply download the binary-related build for your OS from the [lf releases (<VPIcon icon="iconfont icon-github"/>`gokcehan/lf`)](https://github.com/gokcehan/lf/releases) page.
 
 ---
 
@@ -454,13 +454,13 @@ The last in our list is **WCM** command which is another cross-platform console 
 
 ![WCM Commander](https://tecmint.com/wp-content/uploads/2019/02/WCM-Commander.png)
 
-It has a built-in terminal, [**text editor**](/tecmint.com/best-open-source-linux-text-editors.md) and viewer, syntax highlighting, virtual filesystem, and a very fast user interface. Mouse support is also enabled. The package for each OS can be found on the [<FontIcon icon="fas fa-globe"/>WCM download](http://wcm.linderdaum.com/downloads/) page.
+It has a built-in terminal, [**text editor**](/tecmint.com/best-open-source-linux-text-editors.md) and viewer, syntax highlighting, virtual filesystem, and a very fast user interface. Mouse support is also enabled. The package for each OS can be found on the [<VPIcon icon="fas fa-globe"/>WCM download](http://wcm.linderdaum.com/downloads/) page.
 
 ---
 
 ## 9. Walk Terminal File Manager
 
-[Walk (<FontIcon icon="iconfont icon-github"/>`antonmedv/walk`)](https://github.com/antonmedv/walk) is a terminal-based navigator that serves as an alternative to the traditional [**`ls`**](/tecmint.com/ls-command-in-linux.md) and [**`cd`**](/tecmint.com/cd-command-in-linux.md) commands, It allows for quick navigation using fuzzy searching, cd integration is quite simple, and you can open Vim directly from the walk.
+[Walk (<VPIcon icon="iconfont icon-github"/>`antonmedv/walk`)](https://github.com/antonmedv/walk) is a terminal-based navigator that serves as an alternative to the traditional [**`ls`**](/tecmint.com/ls-command-in-linux.md) and [**`cd`**](/tecmint.com/cd-command-in-linux.md) commands, It allows for quick navigation using fuzzy searching, cd integration is quite simple, and you can open Vim directly from the walk.
 
 ![Walk Terminal File Manager](https://tecmint.com/wp-content/uploads/2019/02/Walk-Terminal-File-Manager.png)
 
@@ -468,7 +468,7 @@ It has a built-in terminal, [**text editor**](/tecmint.com/best-open-source-linu
 
 ## 10. Superfile - Terminal-based File Manager
 
-[<FontIcon icon="fas fa-globe"/>Superfile](https://superfile.netlify.app/) is a modern and stylish terminal-based file manager designed for efficient navigation and organization of files for developers and system administrators.
+[<VPIcon icon="fas fa-globe"/>Superfile](https://superfile.netlify.app/) is a modern and stylish terminal-based file manager designed for efficient navigation and organization of files for developers and system administrators.
 
 Its simple yet powerful interface allows users to browse, copy, move, and edit files directly from the command line. Superfile offers a range of convenient features, including customizable key bindings, tabbed browsing, multiple panels, and support for various file operations.
 
@@ -480,7 +480,7 @@ Whether you’re managing local files or remote servers, superfile’s efficienc
 
 ## 11. Clifm - Fast File Manager
 
-[Clifm (<FontIcon icon="iconfont icon-github"/>`leo-arch/clifm`)](https://github.com/leo-arch/clifm/) is a unique, lightning-fast command-line file manager that operates like a shell, allowing users to interact with their file system using familiar commands.
+[Clifm (<VPIcon icon="iconfont icon-github"/>`leo-arch/clifm`)](https://github.com/leo-arch/clifm/) is a unique, lightning-fast command-line file manager that operates like a shell, allowing users to interact with their file system using familiar commands.
 
 Unlike other terminal file managers like **Midnight Commander** or **Ranger**, which rely on menus, **Clifm** streamlines the experience by enabling direct command input, making it ideal for those comfortable with the command line.
 
@@ -490,7 +490,7 @@ Unlike other terminal file managers like **Midnight Commander** or **Ranger**, w
 
 ## 12. Yazi - Blazing Fast Terminal File Manager
 
-[Yazi (<FontIcon icon="iconfont icon-github"/>`sxyazi/yazi`)](https://github.com/sxyazi/yazi) is a fast and efficient terminal file manager written in Rust that uses asynchronous I/O to provide a smooth and responsive user experience.
+[Yazi (<VPIcon icon="iconfont icon-github"/>`sxyazi/yazi`)](https://github.com/sxyazi/yazi) is a fast and efficient terminal file manager written in Rust that uses asynchronous I/O to provide a smooth and responsive user experience.
 
 **Yazi** supports multiple image protocols, including **Kitty**, **Konsole**, **iTerm2**, and **Mintty**, allowing it to display images directly in the terminal.
 

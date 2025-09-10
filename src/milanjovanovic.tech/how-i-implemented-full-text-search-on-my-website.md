@@ -118,7 +118,7 @@ I wasn't happy with this, so here's how I implemented a much better solution.
 
 ## Introducing Full-Text Search
 
-To fix these problems, I turned to **full-text search** using [<FontIcon icon="fas fa-globe"/>Lunr.js](https://lunrjs.com/). But what exactly is full-text search?
+To fix these problems, I turned to **full-text search** using [<VPIcon icon="fas fa-globe"/>Lunr.js](https://lunrjs.com/). But what exactly is full-text search?
 
 Full-text search is a technique that allows fast and efficient searching of large volumes of text by creating an index of all words in a document collection and returning ranked results based on relevance to the search query.
 
@@ -130,9 +130,9 @@ Full-text search works by:
 
 Another common operation is stop word removal. Common words that don't add much meaning (like "the", "and", "is") are often removed to save space and improve relevance.
 
-At the heart of full-text search is an [<FontIcon icon="fa-brands fa-wikipedia-w"/>inverted index](https://en.wikipedia.org/wiki/Inverted_index). It's a data structure that maps each unique term to the documents containing it. It's "inverted" because it goes from terms to documents, rather than documents to terms.
+At the heart of full-text search is an [<VPIcon icon="fa-brands fa-wikipedia-w"/>inverted index](https://en.wikipedia.org/wiki/Inverted_index). It's a data structure that maps each unique term to the documents containing it. It's "inverted" because it goes from terms to documents, rather than documents to terms.
 
-When searching, results are often ranked using [<FontIcon icon="fa-brands fa-wikipedia-w"/>TF-IDF](https://en.wikipedia.org/wiki/Tf-idf) (Term Frequency-Inverse Document Frequency). This gives higher scores to terms that are frequent in a document but rare across all documents.
+When searching, results are often ranked using [<VPIcon icon="fa-brands fa-wikipedia-w"/>TF-IDF](https://en.wikipedia.org/wiki/Tf-idf) (Term Frequency-Inverse Document Frequency). This gives higher scores to terms that are frequent in a document but rare across all documents.
 
 That's the rundown on full-text search. Let's see how to implement it.
 
@@ -221,7 +221,7 @@ I also added a relevance score next to each article because it looks cool.
 
 Now, I have a powerful search, but the index was huge (a whopping 2.5MB) and will continue to grow. The search data file is also 861KB.
 
-Enter [<FontIcon icon="fa-brands fa-wikipedia-w"/>Brotli](https://en.wikipedia.org/wiki/Brotli) compression:
+Enter [<VPIcon icon="fa-brands fa-wikipedia-w"/>Brotli](https://en.wikipedia.org/wiki/Brotli) compression:
 
 - I compressed the search index and data using Brotli on the server side
 - In the browser, I decompress the files before using them to perform the search
@@ -260,13 +260,13 @@ The searches are lightning-fast now, and the results are more relevant.
 
 While Lunr.js works great for my static site, larger apps with more data need a robust full-text search solution. So, here are some some server-side options you could explore.
 
-[<FontIcon icon="fas fa-globe"/>Lucene](https://lucene.apache.org/) is the foundation of many search engines. It's written in Java but has ports to other languages. Lucene provides robust full-text indexing and search capabilities. It is also highly efficient and customizable, making it a popular choice for developers who need fine-grained control over their search functionality.
+[<VPIcon icon="fas fa-globe"/>Lucene](https://lucene.apache.org/) is the foundation of many search engines. It's written in Java but has ports to other languages. Lucene provides robust full-text indexing and search capabilities. It is also highly efficient and customizable, making it a popular choice for developers who need fine-grained control over their search functionality.
 
-[<FontIcon icon="fas fa-globe"/>Apache Solr](https://solr.apache.org/) builds on top of Lucene, offering additional features like distributed indexing, replication, and load-balanced querying. Solr includes powerful capabilities such as faceting and highlighting, which can greatly enhance the search experience.
+[<VPIcon icon="fas fa-globe"/>Apache Solr](https://solr.apache.org/) builds on top of Lucene, offering additional features like distributed indexing, replication, and load-balanced querying. Solr includes powerful capabilities such as faceting and highlighting, which can greatly enhance the search experience.
 
-If you're already using [<FontIcon icon="iconfont icon-postgresql"/>PostgreSQL](https://postgresql.org/), the built-in [<FontIcon icon="iconfont icon-postgresql"/>full-text search](https://postgresql.org/docs/current/textsearch.html) is worth considering. PostgreSQL uses its own text search engine, which supports multiple languages and custom dictionaries. While not as feature-rich as dedicated search engines, it can be a convenient option for applications that want to keep their stack simple.
+If you're already using [<VPIcon icon="iconfont icon-postgresql"/>PostgreSQL](https://postgresql.org/), the built-in [<VPIcon icon="iconfont icon-postgresql"/>full-text search](https://postgresql.org/docs/current/textsearch.html) is worth considering. PostgreSQL uses its own text search engine, which supports multiple languages and custom dictionaries. While not as feature-rich as dedicated search engines, it can be a convenient option for applications that want to keep their stack simple.
 
-I've been tinkering with PostgreSQL [<FontIcon icon="fas fa-globe"/>full-text search using EF Core](https://npgsql.org/efcore/mapping/full-text-search.html). Here's what a full-text search query looks like:
+I've been tinkering with PostgreSQL [<VPIcon icon="fas fa-globe"/>full-text search using EF Core](https://npgsql.org/efcore/mapping/full-text-search.html). Here's what a full-text search query looks like:
 
 ```jsx
 var blogs = context

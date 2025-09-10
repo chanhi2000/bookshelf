@@ -81,7 +81,7 @@ isOriginal: false
 }
 ```
 
-In CSS, the **cascade** plays a very important role in which CSS properties apply to an element. This key concept is not explained here, but you can learn more on MDN, at [<FontIcon icon="fa-brands fa-firefox"/>Cascade, specificity, and inheritance](https://developer.mozilla.org/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
+In CSS, the **cascade** plays a very important role in which CSS properties apply to an element. This key concept is not explained here, but you can learn more on MDN, at [<VPIcon icon="fa-brands fa-firefox"/>Cascade, specificity, and inheritance](https://developer.mozilla.org/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
 
 When debugging CSS, sometimes you realize that the CSS property you meant to apply to an element is actually overridden by another property. Finding the overriding property is not always easy, especially when the element is styled with many CSS rules that define many properties.
 
@@ -103,12 +103,12 @@ Here are ways to find the overriding CSS property.
 Firefox DevTools has a helpful feature that allows you to filter the applied CSS rules that are displayed in the **Rules** panel. This can help you find the overriding property:
 
 1. Locate the CSS property that is overridden in the **Rules** panel of the **Inspector** tool.
-2. Click the <FontIcon icon="iconfont icon-select"/>`[Filter rules containing this property]` icon (a funnel) next to the property name.<br/><br/> The list of CSS rules is filtered to show only the rules that contain the overridden property. In addition, the property is highlighted everywhere it appears in the panel.
+2. Click the <VPIcon icon="iconfont icon-select"/>`[Filter rules containing this property]` icon (a funnel) next to the property name.<br/><br/> The list of CSS rules is filtered to show only the rules that contain the overridden property. In addition, the property is highlighted everywhere it appears in the panel.
 3. Scroll through the list of properties to find the overriding property (i.e. the one that's not struck through).
 
 You can achieve the same result in other browsers by using the **Filter** text box that's at the top of the **Styles** panel in the **Elements** tool.
 
-![<FontIcon icon="fa-brands fa-firefox-browser"/>Firefox DevTools, showing the Inspector tool and the Rules panel. The filter icon was clicked next to the display property, and the other display properties from other rules are highlighted.](https://devtoolstips.org/assets/img/find-why-css-property-is-overridden.png)
+![<VPIcon icon="fa-brands fa-firefox-browser"/>Firefox DevTools, showing the Inspector tool and the Rules panel. The filter icon was clicked next to the display property, and the other display properties from other rules are highlighted.](https://devtoolstips.org/assets/img/find-why-css-property-is-overridden.png)
 
 ::: details See also
 

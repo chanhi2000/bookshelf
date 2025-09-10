@@ -58,7 +58,7 @@ cover: https://docker.com/app/uploads/2019/07/C3-promo-small.jpg
 
 ::: note
 
-This is a guest post from [<FontIcon icon="fa-brands fa-docker"/>Docker Captain Bret Fisher](https://docker.com/captains/bret-fisher), a long time DevOps sysadmin and speaker who teaches container skills with his popular Docker Mastery courses including [Docker Mastery for Node.js](https://bretfisher.com/node), weekly [YouTube Live shows (<FontIcon icon="fa-brands fa-youtube"/>`@BretFisher`)](https://youtube.com/@BretFisher), and consults to companies adopting Docker. Join Bret for an [<FontIcon icon="fa-brands fa-docker"/>online meetup on August 28th](https://events.docker.com/events/details/docker-docker-online-meetups-presents-nodejs-in-docker-tips-and-tricks-with-docker-captain-bret-fisher/#/), where he’ll give demos and Q&A on Node.js and Docker topics.  
+This is a guest post from [<VPIcon icon="fa-brands fa-docker"/>Docker Captain Bret Fisher](https://docker.com/captains/bret-fisher), a long time DevOps sysadmin and speaker who teaches container skills with his popular Docker Mastery courses including [Docker Mastery for Node.js](https://bretfisher.com/node), weekly [YouTube Live shows (<VPIcon icon="fa-brands fa-youtube"/>`@BretFisher`)](https://youtube.com/@BretFisher), and consults to companies adopting Docker. Join Bret for an [<VPIcon icon="fa-brands fa-docker"/>online meetup on August 28th](https://events.docker.com/events/details/docker-docker-online-meetups-presents-nodejs-in-docker-tips-and-tricks-with-docker-captain-bret-fisher/#/), where he’ll give demos and Q&A on Node.js and Docker topics.  
 
 :::  
 
@@ -66,7 +66,7 @@ This is a guest post from [<FontIcon icon="fa-brands fa-docker"/>Docker Captain 
 
 We’ve all got our favorite languages and frameworks, and Node.js is tops for me. I’ve run Node.js in Docker since the early days for mission-critical apps. **I’m on a mission to educate everyone on how to get the most out of this framework** and its tools like npm, Yarn, and nodemon with Docker.  
   
-There’s a ton of info out there on using Node.js with Docker, **but so much of it is years out of date**, and I’m here to help you optimize your setups for Node.js 10+ and Docker 18.09+. If you’d rather watch my DockerCon 2019 talk that covers these topics and more, [<FontIcon icon="fa-brands fa-youtube"/>check it out on YouTube](https://youtu.be/Zgx0o8QjJk4).
+There’s a ton of info out there on using Node.js with Docker, **but so much of it is years out of date**, and I’m here to help you optimize your setups for Node.js 10+ and Docker 18.09+. If you’d rather watch my DockerCon 2019 talk that covers these topics and more, [<VPIcon icon="fa-brands fa-youtube"/>check it out on YouTube](https://youtu.be/Zgx0o8QjJk4).
 
 <VidStack src="youtube/Zgx0o8QjJk4" />
   
@@ -89,7 +89,7 @@ One of the first questions anyone asks when putting a Node.js app in Docker, is 
 
 slim and alpine are quite smaller than the default image
 
-There are multiple factors that weigh into this, but don’t make “image size” a top priority unless you’re dealing with IoT or embedded devices where every MB counts. **In recent years the slim image has shrunk down in size to 150MB and works the best across the widest set of scenarios.** Alpine is a very minimal container distribution, with the smallest node image at only 75MB. However, the level of effort to swap package managers (apt to apk), deal with [edge cases (<FontIcon icon="iconfont icon-github"/>`remy/nodemon`)](https://github.com/remy/nodemon/issues/1447), and work around [<FontIcon icon="fas fa-globe"/>security scanning limitations](https://kubedex.com/follow-up-container-scanning-comparison/) causes me hold off on recommending node:alpine for most use cases.  
+There are multiple factors that weigh into this, but don’t make “image size” a top priority unless you’re dealing with IoT or embedded devices where every MB counts. **In recent years the slim image has shrunk down in size to 150MB and works the best across the widest set of scenarios.** Alpine is a very minimal container distribution, with the smallest node image at only 75MB. However, the level of effort to swap package managers (apt to apk), deal with [edge cases (<VPIcon icon="iconfont icon-github"/>`remy/nodemon`)](https://github.com/remy/nodemon/issues/1447), and work around [<VPIcon icon="fas fa-globe"/>security scanning limitations](https://kubedex.com/follow-up-container-scanning-comparison/) causes me hold off on recommending node:alpine for most use cases.  
   
 When adopting container tech, like anything, you want to do what you can to reduce the change rate. So many new tools and processes come along with containers. **Choosing the base image your devs and ops are most used to has many unexpected benefits**, so try to stick with it when it makes sense, even if this means making a custom image for CentOS, Ubuntu, etc.  
 
@@ -138,7 +138,7 @@ Since Node.js is designed to run on multiple OS’s and architectures, you may n
 
 Rules for this solution include:
 
-For both of these solutions, always remember to add [<FontIcon icon="fas fa-folder-open"/>`node_modules` to your <FontIcon icon="fa-brands fa-docker"/>`.dockerignore` file](https://github.com/BretFisher/node-docker-good-defaults/blob/69c923bc646bc96003e9ada55d1ec5ca943a1b19/.dockerignore) (same syntax as <FontIcon icon="iconfont icon-git"/>`.gitignore`) so you’ll never accidentally build your images with modules from the host. You always want your builds to run an npm install **inside** the image build.  
+For both of these solutions, always remember to add [<VPIcon icon="fas fa-folder-open"/>`node_modules` to your <VPIcon icon="fa-brands fa-docker"/>`.dockerignore` file](https://github.com/BretFisher/node-docker-good-defaults/blob/69c923bc646bc96003e9ada55d1ec5ca943a1b19/.dockerignore) (same syntax as <VPIcon icon="iconfont icon-git"/>`.gitignore`) so you’ll never accidentally build your images with modules from the host. You always want your builds to run an npm install **inside** the image build.  
 
 ---
 
@@ -149,8 +149,8 @@ All the official Node.js images have a Linux user added in the upstream image ca
 ::: info Here are some rules for using it:
 
 1. Location in the `Dockerfile` matters. Add `USER` after `apt/yum/apk` commands, and *usually* before npm install commands.
-2. It doesn’t affect all commands, like `COPY`, which has [<FontIcon icon="fa-brands fa-docker"/>its own syntax for controlling owner of files you copy in.](https://docs.docker.com/engine/reference/builder/#copy)
-3. You can always switch back to `USER root` if you need to. In more complex Dockerfiles this will be necessary, like [my multi-stage example (<FontIcon icon="iconfont icon-github"/>`BretFisher/dockercon19`)](https://github.com/BretFisher/dockercon19/blob/master/5.Dockerfile) that includes running tests and security scans during optional stages.
+2. It doesn’t affect all commands, like `COPY`, which has [<VPIcon icon="fa-brands fa-docker"/>its own syntax for controlling owner of files you copy in.](https://docs.docker.com/engine/reference/builder/#copy)
+3. You can always switch back to `USER root` if you need to. In more complex Dockerfiles this will be necessary, like [my multi-stage example (<VPIcon icon="iconfont icon-github"/>`BretFisher/dockercon19`)](https://github.com/BretFisher/dockercon19/blob/master/5.Dockerfile) that includes running tests and security scans during optional stages.
 4. Permissions may get tricky during development because now you’ll be doing things in the container as a non-root user by default. The way to often get around this is to do things like npm install by telling Docker you want to run those one-off commands as root: `docker-compose run -u root npm install`
 
 :::
@@ -161,7 +161,7 @@ All the official Node.js images have a Linux user added in the upstream image ca
 
 ::: info TL;DR
 
-Except for local development, don’t wrap your node startup commands with anything. Don’t use npm, nodemon, etc. Have your <FontIcon icon="fa-brands fa-docker"/>`Dockerfile` `CMD` be something like  `[“node”, “file-to-start.js”]` and you’ll have an easier time managing and replacing your containers.  
+Except for local development, don’t wrap your node startup commands with anything. Don’t use npm, nodemon, etc. Have your <VPIcon icon="fa-brands fa-docker"/>`Dockerfile` `CMD` be something like  `[“node”, “file-to-start.js”]` and you’ll have an easier time managing and replacing your containers.  
 
 :::
   
@@ -175,7 +175,7 @@ Remember, Node.js is still single-threaded in most cases, so even on a single se
 
 :::
   
-[My example repo (<FontIcon icon="iconfont icon-github"/>`BretFisher/node-docker-good-defaults`)](https://github.com/BretFisher/node-docker-good-defaults) shows you how to using node directly in your <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`, and then for local development, either build use a different image stage with `docker build --target <stage name>`, or override the CMD in your compose YAML.  
+[My example repo (<VPIcon icon="iconfont icon-github"/>`BretFisher/node-docker-good-defaults`)](https://github.com/BretFisher/node-docker-good-defaults) shows you how to using node directly in your <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`, and then for local development, either build use a different image stage with `docker build --target <stage name>`, or override the CMD in your compose YAML.  
   
 ---
 
@@ -183,7 +183,7 @@ Remember, Node.js is still single-threaded in most cases, so even on a single se
 
 ::: info TL;DR
 
-I also don’t recommend using npm to start your apps in your <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`. Let me explain.
+I also don’t recommend using npm to start your apps in your <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`. Let me explain.
 
 :::
   
@@ -193,7 +193,7 @@ Node.js accepts and forwards signals like SIGINT and SIGTERM from the OS, which 
   
 **Using other apps to start Node.js for you, like npm for example, often break this signaling.** npm won’t pass those signals to your app, so it’s best to leave it out of your `Dockerfiles` ENTRYPOINT and `CMD`. This also has the benefit of having one less binary running in the container. Another bonus is it allows you to see in the Dockerfile **exactly** what your app will do when your container is launched, rather then also having to check the package.json for the true startup command.  
 
-For those that know about init options like `docker run --init` or using [<FontIcon icon="iconfont icon-github"/>`krallin/tini`](https://github.com/krallin/tini) in your Dockerfile, they are good backup options when you can’t change your app code, but it’s a much better solution to write code to handle proper signal handling for graceful shutdowns. Two examples are [some boilerplate code I have here (<FontIcon icon="iconfont icon-github"/>`BretFisher/node-docker-good-defaults`)](https://github.com/BretFisher/node-docker-good-defaults/blob/69c923bc646bc96003e9ada55d1ec5ca943a1b19/bin/www#L16-L71), and looking at modules like [<FontIcon icon="iconfont icon-github"/>`hunterloftis/stoppable`](https://github.com/hunterloftis/stoppable).  
+For those that know about init options like `docker run --init` or using [<VPIcon icon="iconfont icon-github"/>`krallin/tini`](https://github.com/krallin/tini) in your Dockerfile, they are good backup options when you can’t change your app code, but it’s a much better solution to write code to handle proper signal handling for graceful shutdowns. Two examples are [some boilerplate code I have here (<VPIcon icon="iconfont icon-github"/>`BretFisher/node-docker-good-defaults`)](https://github.com/BretFisher/node-docker-good-defaults/blob/69c923bc646bc96003e9ada55d1ec5ca943a1b19/bin/www#L16-L71), and looking at modules like [<VPIcon icon="iconfont icon-github"/>`hunterloftis/stoppable`](https://github.com/hunterloftis/stoppable).  
   
 ---
 
@@ -203,11 +203,11 @@ Nope. These are concerns that nearly every Node.js team deals with, and there’
 
 ::: info
 
-If you’re wanting more info on these topics, you can watch [<FontIcon icon="fa-brands fa-youtube"/>my DockerCon 2019 session video on this topic](https://youtu.be/Zgx0o8QjJk4), or check my 8-hours of Docker for Node.js videos at [<FontIcon icon="fas fa-globe"/>bretfisher.com/node](https://bretfisher.com/node)
+If you’re wanting more info on these topics, you can watch [<VPIcon icon="fa-brands fa-youtube"/>my DockerCon 2019 session video on this topic](https://youtu.be/Zgx0o8QjJk4), or check my 8-hours of Docker for Node.js videos at [<VPIcon icon="fas fa-globe"/>bretfisher.com/node](https://bretfisher.com/node)
 
 :::
 
-Thanks for reading. You can reach me on [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`bretfisher`)](https://twitter.com/bretfisher), get my weekly [<FontIcon icon="fas fa-globe"/>DevOps and Docker newsletter](https://bretfisher.com/newsletter), subscribe to my [weekly YouTube videos and Live Show (<FontIcon icon="fa-brands fa-youtube"/>`@BretFisher`)](https://youtube.com/@BretFisher), and check out my [<FontIcon icon="fas fa-globe"/>other Docker resources and courses](https://bretfisher.com/docker).  
+Thanks for reading. You can reach me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`bretfisher`)](https://twitter.com/bretfisher), get my weekly [<VPIcon icon="fas fa-globe"/>DevOps and Docker newsletter](https://bretfisher.com/newsletter), subscribe to my [weekly YouTube videos and Live Show (<VPIcon icon="fa-brands fa-youtube"/>`@BretFisher`)](https://youtube.com/@BretFisher), and check out my [<VPIcon icon="fas fa-globe"/>other Docker resources and courses](https://bretfisher.com/docker).  
 
 Keep on Dockering!
 

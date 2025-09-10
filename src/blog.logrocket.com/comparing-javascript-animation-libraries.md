@@ -52,7 +52,7 @@ cover: /assets/image/blog.logrocket.com/comparing-javascript-animation-libraries
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/comparing-javascript-animation-libraries/banner.jpeg"/>
 
-If you do any type of frontend web development today, animation is likely part of your daily work, or at least the project that you’re working on. Animation in JavaScript has come very far in recent years, from animating text or an image to full-fledged 3D animation with tools like [<FontIcon icon="fas fa-globe"/>WebGL](https://get.webgl.org/).
+If you do any type of frontend web development today, animation is likely part of your daily work, or at least the project that you’re working on. Animation in JavaScript has come very far in recent years, from animating text or an image to full-fledged 3D animation with tools like [<VPIcon icon="fas fa-globe"/>WebGL](https://get.webgl.org/).
 
 ![Comparing JavaScript Animation Libraries](/assets/image/blog.logrocket.com/comparing-javascript-animation-libraries/banner.jpeg)
 
@@ -62,14 +62,14 @@ In this post, I’m going to do a comparison of four different JavaScript animat
 
 For this post, we’ll look at the following:
 
-- [<FontIcon icon="fas fa-globe"/>Anime.js](https://animejs.com/)
-- [<FontIcon icon="fas fa-globe"/>p5.js](https://p5js.org/)
-- [<FontIcon icon="fas fa-globe"/>Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
-- [<FontIcon icon="fas fa-globe"/>Green Sock Animation Platform (GSAP)](https://greensock.com/get-started/)
+- [<VPIcon icon="fas fa-globe"/>Anime.js](https://animejs.com/)
+- [<VPIcon icon="fas fa-globe"/>p5.js](https://p5js.org/)
+- [<VPIcon icon="fas fa-globe"/>Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+- [<VPIcon icon="fas fa-globe"/>Green Sock Animation Platform (GSAP)](https://greensock.com/get-started/)
 
-I’ll cover implementations with a [<FontIcon icon="fa-brands fa-react"/>React](https://reactjs.org/) project, but you should be able to follow similar patterns for any frontend framework (or vanilla JavaScript as well). You can view the project I built [here (<FontIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries). I’ve also built components for examples with each of the libraries, which you can be see [here (<FontIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/tree/master/src/components).
+I’ll cover implementations with a [<VPIcon icon="fa-brands fa-react"/>React](https://reactjs.org/) project, but you should be able to follow similar patterns for any frontend framework (or vanilla JavaScript as well). You can view the project I built [here (<VPIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries). I’ve also built components for examples with each of the libraries, which you can be see [here (<VPIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/tree/master/src/components).
 
-In the next sections, I’ll discuss how to use each of the above libraries. I’m going to cover basics and their implementation in a [<FontIcon icon="fa-brands fa-react"/>React](https://reactjs.org/) project. I’ll also offer some pros and cons that I found when working with them.
+In the next sections, I’ll discuss how to use each of the above libraries. I’m going to cover basics and their implementation in a [<VPIcon icon="fa-brands fa-react"/>React](https://reactjs.org/) project. I’ll also offer some pros and cons that I found when working with them.
 
 This post assumes some familiarity with React and JavaScript projects. All the libraries I discuss can be applied to any JavaScript framework, it’s just a matter of correctly importing the library and calling the APIs discussed.
 
@@ -77,11 +77,11 @@ This post assumes some familiarity with React and JavaScript projects. All the l
 
 ## Anime.js
 
-[<FontIcon icon="fas fa-globe"/>Anime.js](https://animejs.com/) provides a basic API that lets you animate almost anything you can think of. With Anime.js, you can do basic animations where you move objects back and forth, or you can do more advanced animations where you restyle a component with an action.
+[<VPIcon icon="fas fa-globe"/>Anime.js](https://animejs.com/) provides a basic API that lets you animate almost anything you can think of. With Anime.js, you can do basic animations where you move objects back and forth, or you can do more advanced animations where you restyle a component with an action.
 
 Anime.js also offers support for things like timelines, where you can create an animated sequence of events. This is particularly useful when it comes to presenting several events at once.
 
-To use Anime.js, you first have to install it through either npm install or download it directly from [the GitHub project here (<FontIcon icon="iconfont icon-github"/>`juliangarnier/anime`)](https://github.com/juliangarnier/anime).
+To use Anime.js, you first have to install it through either npm install or download it directly from [the GitHub project here (<VPIcon icon="iconfont icon-github"/>`juliangarnier/anime`)](https://github.com/juliangarnier/anime).
 
 Since the example project is based on React, I’m using npm:
 
@@ -162,9 +162,9 @@ The resulting behavior looks like the following:
 
 <VidStack src="youtube/LcXEL30r5Ks" />
 
-For a complete copy of the code for these elements, please look at the `animejs` component [here (<FontIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/blob/master/src/components/Anime.js).
+For a complete copy of the code for these elements, please look at the `animejs` component [here (<VPIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/blob/master/src/components/Anime.js).
 
-These two examples just scratch the surface of what Anime.js can do for your projects. There are multiple examples [<FontIcon icon="fas fa-globe"/>in their docs here](https://animejs.com/documentation/). Additionally, there are a lot of great examples available on [codepen here (<FontIcon icon="fa-brands fa-codepen"/>`XLebem`)](https://codepen.io/collection/XLebem).
+These two examples just scratch the surface of what Anime.js can do for your projects. There are multiple examples [<VPIcon icon="fas fa-globe"/>in their docs here](https://animejs.com/documentation/). Additionally, there are a lot of great examples available on [codepen here (<VPIcon icon="fa-brands fa-codepen"/>`XLebem`)](https://codepen.io/collection/XLebem).
 
 ::: tabs
 
@@ -179,7 +179,7 @@ These two examples just scratch the surface of what Anime.js can do for your pro
 
 - Documentation is a little too sparse at times
 - The information on CSS properties is not super easy to understand
-- [<FontIcon icon="fas fa-globe"/>Easing](https://animejs.com/documentation/#linearEasing) is cool, but the custom patterns took a second to read
+- [<VPIcon icon="fas fa-globe"/>Easing](https://animejs.com/documentation/#linearEasing) is cool, but the custom patterns took a second to read
 - Using selectors was good, but required a coordinated effort between styling and animation definitions
 
 :::
@@ -190,7 +190,7 @@ Ultimately, I really liked Anime.js, except that I would definitely recommend ad
 
 ## p5.js
 
-The [<FontIcon icon="fas fa-globe"/>p5.js](https://p5js.org/) library is an interpretation of the original [<FontIcon icon="fas fa-globe"/>Processing project](https://processing.org/) started by [<FontIcon icon="fa-brands fa-wikipedia-w"/>Casey Reas](https://en.wikipedia.org/wiki/Casey_Reas) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>Ben Fry](https://en.wikipedia.org/wiki/Ben_Fry) at MIT. Processing included an editor and language that attempted to make visual designs easier for artists and creators.
+The [<VPIcon icon="fas fa-globe"/>p5.js](https://p5js.org/) library is an interpretation of the original [<VPIcon icon="fas fa-globe"/>Processing project](https://processing.org/) started by [<VPIcon icon="fa-brands fa-wikipedia-w"/>Casey Reas](https://en.wikipedia.org/wiki/Casey_Reas) and [<VPIcon icon="fa-brands fa-wikipedia-w"/>Ben Fry](https://en.wikipedia.org/wiki/Ben_Fry) at MIT. Processing included an editor and language that attempted to make visual designs easier for artists and creators.
 
 The original project was supported in multiple languages, and made creating visual elements much easier than other basic libraries like Java’s Swing, for example. p5.js brings these concepts to JavaScript and enables you to quickly build out animations with the HTML canvas. p5.js also lets you create 3D images and audio.
 
@@ -204,7 +204,7 @@ Wherever you want to use p5.js, you create animations as a “sketch” object.
 
 The `setup` method enables you to initiate your canvas object and apply any sizing, etc. The `draw` method lets you apply any recurring behavior to the page as your canvas refreshes.
 
-If you look to the [<FontIcon icon="fas fa-globe"/>Get Started](https://p5js.org/get-started/) page for p5.js, they define a simple example (with an animation) as the following:
+If you look to the [<VPIcon icon="fas fa-globe"/>Get Started](https://p5js.org/get-started/) page for p5.js, they define a simple example (with an animation) as the following:
 
 ```js
 function setup() {
@@ -281,9 +281,9 @@ The final animation that is created looks like the following:
 
 <VidStack src="youtube/gTz_5GQJDBQ" />
 
-This is just the start of what you could do with p5.js. You can easily extend the basic animation here to react to user input as well as render full 3D elements. There are a lot of really great examples of p5.js sketches that showcase this behavior. Check out [<FontIcon icon="fas fa-globe"/>their example page here for more info](https://p5js.org/examples/).
+This is just the start of what you could do with p5.js. You can easily extend the basic animation here to react to user input as well as render full 3D elements. There are a lot of really great examples of p5.js sketches that showcase this behavior. Check out [<VPIcon icon="fas fa-globe"/>their example page here for more info](https://p5js.org/examples/).
 
-The full working component in my sample project can be found [here (<FontIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/blob/master/src/components/p5WithSketch.js).
+The full working component in my sample project can be found [here (<VPIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/blob/master/src/components/p5WithSketch.js).
 
 ::: tabs
 
@@ -303,7 +303,7 @@ The full working component in my sample project can be found [here (<FontIcon ic
 
 ## Green Sock Animation Platform (GSAP)
 
-The [<FontIcon icon="fas fa-globe"/>Green Sock Animation Platform (GSAP)](https://greensock.com/) provides a fairly robust library that has animations for almost any type of effect your project could need. Additionally, they have really strong documentation that includes examples of how to interact with their APIs.
+The [<VPIcon icon="fas fa-globe"/>Green Sock Animation Platform (GSAP)](https://greensock.com/) provides a fairly robust library that has animations for almost any type of effect your project could need. Additionally, they have really strong documentation that includes examples of how to interact with their APIs.
 
 To get started with GSAP, you first just need to install it as a dependency to your project:
 
@@ -332,9 +332,9 @@ When applied to a template, the above example looks like the following:
 
 <VidStack src="youtube/xGgUDxj3FQo" />
 
-Similar to Anime.js, there are a lot of cool things you can do with GSAP. You can also do timelines and other sequenced animations. For a more in-depth walkthrough, check out the [<FontIcon icon="fas fa-globe"/>Getting Started with GSAP page](https://greensock.com/get-started/). For a full list of examples, you can check out the [GSAP CodePen page (<FontIcon icon="fa-brands fa-codepen"/>`GreenSock`)](https://codepen.io/GreenSock).
+Similar to Anime.js, there are a lot of cool things you can do with GSAP. You can also do timelines and other sequenced animations. For a more in-depth walkthrough, check out the [<VPIcon icon="fas fa-globe"/>Getting Started with GSAP page](https://greensock.com/get-started/). For a full list of examples, you can check out the [GSAP CodePen page (<VPIcon icon="fa-brands fa-codepen"/>`GreenSock`)](https://codepen.io/GreenSock).
 
-A full working copy of the component that I’ve covered is in my sample project [here (<FontIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/blob/master/src/components/GSAP.js).
+A full working copy of the component that I’ve covered is in my sample project [here (<VPIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/blob/master/src/components/GSAP.js).
 
 ::: tabs
 
@@ -354,15 +354,15 @@ A full working copy of the component that I’ve covered is in my sample project
 
 ## Three.js
 
-Up until this point, all of the animations have either interacted directly with DOM elements or added custom elements. The [<FontIcon icon="fas fa-globe"/>Three.js](https://threejs.org/) library uses [<FontIcon icon="fas fa-globe"/>WebGL](https://get.webgl.org/) to render animations.
+Up until this point, all of the animations have either interacted directly with DOM elements or added custom elements. The [<VPIcon icon="fas fa-globe"/>Three.js](https://threejs.org/) library uses [<VPIcon icon="fas fa-globe"/>WebGL](https://get.webgl.org/) to render animations.
 
 What is WebGL? WebGL is a DOM API that enables you to render graphics in the browser. It does use the canvas element, but rather than generating a canvas and writing on top of it, as we saw with p5.js, WebGL allows you to call APIs to do the rendering for you.
 
 Three.js is a library that orchestrates the WebGL calls in order to render images and graphics within the browser. This is really great if you want to create an animation or 3D graphic associated with your project.
 
-Three.js has a great walkthrough sample project [<FontIcon icon="fas fa-globe"/>that can be reached here](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene). As I mentioned, my sample project is using React, so the setup is slightly different. The core concepts and API calls are all the same.
+Three.js has a great walkthrough sample project [<VPIcon icon="fas fa-globe"/>that can be reached here](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene). As I mentioned, my sample project is using React, so the setup is slightly different. The core concepts and API calls are all the same.
 
-If you have any issues with understanding (or getting the example to work), I recommend reviewing the explanation [<FontIcon icon="fas fa-globe"/>in the Three.js documentation here](https://threejs.org/docs/#manual/en/introduction/Creating-a-scene).
+If you have any issues with understanding (or getting the example to work), I recommend reviewing the explanation [<VPIcon icon="fas fa-globe"/>in the Three.js documentation here](https://threejs.org/docs/#manual/en/introduction/Creating-a-scene).
 
 To get this working is a multistep process. We must first define the renderer to use for our animation:
 
@@ -440,9 +440,9 @@ The resulting animation looks like the following:
 
 <VidStack src="youtube/SKvuFvrdYTc" />
 
-There are a lot of cool things you can do with Three.js. I recommend checking out their [<FontIcon icon="fas fa-globe"/>docs here](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) and [<FontIcon icon="fas fa-globe"/>examples here](https://threejs.org/examples/#webgl_animation_cloth).
+There are a lot of cool things you can do with Three.js. I recommend checking out their [<VPIcon icon="fas fa-globe"/>docs here](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) and [<VPIcon icon="fas fa-globe"/>examples here](https://threejs.org/examples/#webgl_animation_cloth).
 
-A full working copy of the component I’ve covered is available in my sample project [here (<FontIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/blob/master/src/components/Three.js).
+A full working copy of the component I’ve covered is available in my sample project [here (<VPIcon icon="iconfont icon-github"/>`andrewevans0102/compare-javascript-animation-libraries`)](https://github.com/andrewevans0102/compare-javascript-animation-libraries/blob/master/src/components/Three.js).
 
 ::: tabs
 
@@ -515,7 +515,7 @@ Seeing these common behaviors gives you an idea of what you could expect with an
 
 The best part is that with the advances in both web development and browser technologies, JavaScript animations can do much more than ever before. I encourage you to review the documentation associated with the libraries covered here for more info.
 
-Thanks for reading my post! Follow me on [Twitter at <FontIcon icon="fa-brands fa-x-twitter"/>`@AndrewEvans0102`](https://x.com/AndrewEvans0102)!
+Thanks for reading my post! Follow me on [Twitter at <VPIcon icon="fa-brands fa-x-twitter"/>`@AndrewEvans0102`](https://x.com/AndrewEvans0102)!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

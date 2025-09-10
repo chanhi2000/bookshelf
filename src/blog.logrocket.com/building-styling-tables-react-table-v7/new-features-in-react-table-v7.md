@@ -54,7 +54,7 @@ cover: /assets/image/blog.logrocket.com/building-styling-tables-react-table-v7/b
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/building-styling-tables-react-table-v7/banner.jpeg"/>
 
-According to the [release notes (<FontIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases/tag/v7.0.0), React Table 7 introduced the following features to the library:
+According to the [release notes (<VPIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases/tag/v7.0.0), React Table 7 introduced the following features to the library:
 
 - Auto out of the box, fully controllable API
 - Sorting (multi and stable)
@@ -73,4 +73,4 @@ The changes and new features in the latest release are meant to make React Table
 - Resizable
 - Extensible (via a new Hooks-based plugin system)
 
-As mentioned above, the most recent minor release of `react-table` is [React Table v7.6.3 (<FontIcon icon="fa-brands fa-npm"/>`react-table`)](https://npmjs.com/package/react-table?activeTab=versions), released on Jan. 11, 2021. Head to npm for a full [version history of React Table (<FontIcon icon="fa-brands fa-npm"/>`react-table`)](https://npmjs.com/package/react-table?activeTab=versions).
+As mentioned above, the most recent minor release of `react-table` is [React Table v7.6.3 (<VPIcon icon="fa-brands fa-npm"/>`react-table`)](https://npmjs.com/package/react-table?activeTab=versions), released on Jan. 11, 2021. Head to npm for a full [version history of React Table (<VPIcon icon="fa-brands fa-npm"/>`react-table`)](https://npmjs.com/package/react-table?activeTab=versions).

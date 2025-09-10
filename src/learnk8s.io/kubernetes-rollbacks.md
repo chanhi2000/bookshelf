@@ -268,7 +268,7 @@ Of course, you can.
 
 Here's an example of a ReplicaSet.
 
-> <FontIcon icon="iconfont icon-yaml"/>`replicaset.yaml`
+> <VPIcon icon="iconfont icon-yaml"/>`replicaset.yaml`
 
 ```yaml
 apiVersion: apps/v1
@@ -292,7 +292,7 @@ spec:
 
 For reference, this is a Deployment that creates the ReplicaSet above:
 
-> <FontIcon icon="iconfont icon-yaml"/>`deployment.yaml`
+> <VPIcon icon="iconfont icon-yaml"/>`deployment.yaml`
 
 ```yaml
 apiVersion: apps/v1
@@ -324,7 +324,7 @@ The exact property isn't available in the ReplicaSet.
 
 ::: info
 
-How do you know which properties are available? [<FontIcon icon="iconfont icon-k8s"/>You can consult the official API](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.30/#rollingupdatedeployment-v1-apps).
+How do you know which properties are available? [<VPIcon icon="iconfont icon-k8s"/>You can consult the official API](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.30/#rollingupdatedeployment-v1-apps).
 
 :::
 
@@ -364,7 +364,7 @@ By default, Kubernetes stores the last 10 ReplicaSets and lets you roll back to 
 
 However, you can change how many ReplicaSets should be retained by changing the `spec.revisionHistoryLimit` in your Deployment.
 
-> <FontIcon icon="iconfont icon-yaml"/>`deployment.yaml`
+> <VPIcon icon="iconfont icon-yaml"/>`deployment.yaml`
 
 ```yaml{7}
 apiVersion: apps/v1
@@ -447,7 +447,7 @@ kubectl get replicaset app-6ff88c4474 -o yaml
 
 In the case below, the revision is 3:
 
-> <FontIcon icon="iconfont icon-yaml"/>`replicaset.yaml`
+> <VPIcon icon="iconfont icon-yaml"/>`replicaset.yaml`
 
 ```yaml{6}
 apiVersion: apps/v1
@@ -511,7 +511,7 @@ When you do, Kubernetes adds an annotation to the resource with the command that
 
 In the example above, the Deployment has the following metadata section:
 
-> <FontIcon icon="iconfont icon-yaml"/>`deployment.yaml`
+> <VPIcon icon="iconfont icon-yaml"/>`deployment.yaml`
 
 ```yaml{5}
 apiVersion: apps/v1
@@ -567,7 +567,7 @@ But you should remember:
 - The rollout history command uses the value of this annotation to populate the Change-Cause table
 - The annotation contains only the last command. If you create the resource and later use `kubectl scale --replicas=10 deploy/app --record` to scale it, only the scaling command is stored in the annotation.
 
-Also, there is an [ongoing discussion on deprecating the `--record` flag (<FontIcon icon="iconfont icon-github"/>`kubernetes/kubernetes`)](https://github.com/kubernetes/kubernetes/issues/40422).
+Also, there is an [ongoing discussion on deprecating the `--record` flag (<VPIcon icon="iconfont icon-github"/>`kubernetes/kubernetes`)](https://github.com/kubernetes/kubernetes/issues/40422).
 
 The feature provides little value for manual usage.
 
@@ -581,7 +581,7 @@ Just because Kubernetes offers an option to roll back deployments doesn't mean i
 
 Let's consider the following scenario:
 
-- You deploy an application to production by changing the image in the <FontIcon icon="iconfont icon-yaml"/>`deployment.yaml`.
+- You deploy an application to production by changing the image in the <VPIcon icon="iconfont icon-yaml"/>`deployment.yaml`.
 - You commit the changes to version control and push the changes.
 - As soon as you deploy, you notice that the app contains a regression.
 - You use `kubectl rollout undo` to revert to the previous version.
@@ -592,7 +592,7 @@ Probably not.
 
 The state of the cluster and the resources stored in version control drifted.
 
-A better alternative is to "roll forward" by amending the <FontIcon icon="iconfont icon-yaml"/>`deployment.yaml` (e.g. with a revert in your version control) and triggering a new deployment.
+A better alternative is to "roll forward" by amending the <VPIcon icon="iconfont icon-yaml"/>`deployment.yaml` (e.g. with a revert in your version control) and triggering a new deployment.
 
 If your automated deployment process takes too long in an emergency, you can still `kubectl apply -f` the reverted YAML file into your cluster by hand.
 

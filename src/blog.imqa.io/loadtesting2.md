@@ -96,7 +96,7 @@ cover: https://blog.imqa.io/content/images/size/w1000/2020/10/shutterstock_11000
   - 다양한 연동 서비스 존재 (Blazemeter, Azure등)
   - 시나리오 기반 테스트 가능
   - 멀티 시나리오 지원
-- [<FontIcon icon="fas fa-globe"/>사용 예](https://slideshare.net/IMQAGroup/ss-183469952)
+- [<VPIcon icon="fas fa-globe"/>사용 예](https://slideshare.net/IMQAGroup/ss-183469952)
 
 @tab Load Runner
 
@@ -108,7 +108,7 @@ cover: https://blog.imqa.io/content/images/size/w1000/2020/10/shutterstock_11000
   - 다양한 프로토콜 지원
   - 다양한 운영체제 성능 모니터링
   - 시나리오 기반 테스트
-- [<FontIcon icon="fas fa-globe"/>사용 예](https://helloblog.net/hp-loadrunner-testing/)
+- [<VPIcon icon="fas fa-globe"/>사용 예](https://helloblog.net/hp-loadrunner-testing/)
 
 @tab nGrinder
 
@@ -118,7 +118,7 @@ cover: https://blog.imqa.io/content/images/size/w1000/2020/10/shutterstock_11000
   - *스크립트 기반 테스트*
   - 분산 부하테스트 지원
   - 개별 트랜잭션별 성능 측정
-- [<FontIcon icon="fas fa-globe"/>사용 예](https://nesoy.github.io/articles/2018-10/nGrinder-Start)
+- [<VPIcon icon="fas fa-globe"/>사용 예](https://nesoy.github.io/articles/2018-10/nGrinder-Start)
 
 @tab Gatling
 
@@ -131,7 +131,7 @@ cover: https://blog.imqa.io/content/images/size/w1000/2020/10/shutterstock_11000
   - 오픈소스 부하테스트 점유율 2위
   - 스크립트 기반 테스트
   - 멀티 시나리오 지원
-- [<FontIcon icon="fas fa-globe"/>사용 예](https://greencrayon00.wordpress.com/2015/11/01/%EA%B0%9C%ED%8B%80%EB%A7%81gatling%EC%9C%BC%EB%A1%9C-%EC%84%B1%EB%8A%A5-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0-1%EB%B6%80/)
+- [<VPIcon icon="fas fa-globe"/>사용 예](https://greencrayon00.wordpress.com/2015/11/01/%EA%B0%9C%ED%8B%80%EB%A7%81gatling%EC%9C%BC%EB%A1%9C-%EC%84%B1%EB%8A%A5-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0-1%EB%B6%80/)
 
 :::
 
@@ -205,7 +205,7 @@ APM과 같은 솔루션으로 트랜잭션의 빈도를 추출하여, 많이 호
 
 ## 4. APM의 선택
 
-부하를 발생시킨 후,  웹 어플리케이션의 주요 병목지점을 찾아내는 것이 중요합니다.  아픈 곳을 찾기 위해서는 MRI와 같은 도구와 나온 결과물을 보고 판단하는 의사가 필요하죠. 웹 어플리케이션의 병목을 찾아주는 MRI가 APM이라고 생각하면 됩니다. APM의 가장 대표적인 솔루션은 [<FontIcon icon="fas fa-globe"/>제니퍼소프트](https://jennifersoft.com/ko/product/)가 있습니다.
+부하를 발생시킨 후,  웹 어플리케이션의 주요 병목지점을 찾아내는 것이 중요합니다.  아픈 곳을 찾기 위해서는 MRI와 같은 도구와 나온 결과물을 보고 판단하는 의사가 필요하죠. 웹 어플리케이션의 병목을 찾아주는 MRI가 APM이라고 생각하면 됩니다. APM의 가장 대표적인 솔루션은 [<VPIcon icon="fas fa-globe"/>제니퍼소프트](https://jennifersoft.com/ko/product/)가 있습니다.
 
 ![](https://blog.imqa.io/content/images/2020/09/feature-rtm-appchange.png)
 
@@ -229,11 +229,11 @@ APM과 같은 솔루션으로 트랜잭션의 빈도를 추출하여, 많이 호
 
 이에 코드의 병목이나 결함이 아닌, 자원이 부족해서 발생한 장애인지 판단을 하는 것이 중요합니다. 이에 운영체제에서 제공하는 여러 가지 지표를 읽을 수 있고 판단을 할 수 있어야 합니다.
 
-상세한 내용은 [<FontIcon icon="fas fa-globe"/>**클라우드 환경에서 시스템을 운영하기 위해 알아야 하는 것**](https://architecture101.blog/2017/07/31/cloudstory/)을 참고해 주세요. 핵심만 전달을 하자면 아래와 같습니다.
+상세한 내용은 [<VPIcon icon="fas fa-globe"/>**클라우드 환경에서 시스템을 운영하기 위해 알아야 하는 것**](https://architecture101.blog/2017/07/31/cloudstory/)을 참고해 주세요. 핵심만 전달을 하자면 아래와 같습니다.
 
 ![](https://blog.imqa.io/content/images/2020/10/5.jpg)
 
-자원의 성능을 바라보는 기본적인 컨셉으로는 [<FontIcon icon="fas fa-globe"/>**USE 메서드**](http://brendangregg.com/usemethod.html)를 추천드립니다. (이 방식은 Netflix의 성능 엔지니어로 근무하고 있는 brendan gregg의 아이디어)
+자원의 성능을 바라보는 기본적인 컨셉으로는 [<VPIcon icon="fas fa-globe"/>**USE 메서드**](http://brendangregg.com/usemethod.html)를 추천드립니다. (이 방식은 Netflix의 성능 엔지니어로 근무하고 있는 brendan gregg의 아이디어)
 
 CPU, Memory 사용률 (Utilization)이 100%를 다 쓴 건에 주목하지 말고 Utilization, Saturation, Error의 관점으로 자원 사용량을 바라보자는 이야기입니다.
 
@@ -253,9 +253,9 @@ CPU, Memory 사용률 (Utilization)이 100%를 다 쓴 건에 주목하지 말�
 
 > 무료
 
-- [<FontIcon icon="fas fa-globe"/>Zabbix](https://zabbix.com/)
-- [<FontIcon icon="fas fa-globe"/>ELK Stack](https://elastic.co/kr/infrastructure-monitoring)의 Beats를 이용해 구성
-- [<FontIcon icon="fa-brands fa-medium"/>Telegraf 스택과 Grafana로 구축](https://medium.com/naver-cloud-platform/grafana-influxdb%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-62de4b07a505)
+- [<VPIcon icon="fas fa-globe"/>Zabbix](https://zabbix.com/)
+- [<VPIcon icon="fas fa-globe"/>ELK Stack](https://elastic.co/kr/infrastructure-monitoring)의 Beats를 이용해 구성
+- [<VPIcon icon="fa-brands fa-medium"/>Telegraf 스택과 Grafana로 구축](https://medium.com/naver-cloud-platform/grafana-influxdb%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-62de4b07a505)
 - 가비아 SMS (SaaS형 무료)
 - 와탭 SMS (SaaS형 5개 서버 무료, 이후 유료 )
 - NKIA (국내 1위의 서버 모니터링 업체)

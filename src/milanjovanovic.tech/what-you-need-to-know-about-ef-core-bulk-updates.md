@@ -54,7 +54,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_095.png
 
 When you're dealing with thousands or even millions of records, efficiency is king. That's where [**EF Core bulk update**](/milanjovanovic.tech/how-to-use-the-new-bulk-update-feature-in-ef-core-7.md) capabilities come into play.
 
-EF Core 7 introduced two powerful new methods, `ExecuteUpdate` and `ExecuteDelete`. They're designed to simplify bulk updates in your database. Both methods have their respective async overloads - `ExecuteUpdateAsync` and `ExecuteDeleteAsync`. [<FontIcon icon="fa-brands fa-microsoft"/>EF bulk updates](https://learn.microsoft.com/en-us/ef/core/saving/execute-insert-update-delete) offer significant performance advantages over traditional approaches.
+EF Core 7 introduced two powerful new methods, `ExecuteUpdate` and `ExecuteDelete`. They're designed to simplify bulk updates in your database. Both methods have their respective async overloads - `ExecuteUpdateAsync` and `ExecuteDeleteAsync`. [<VPIcon icon="fa-brands fa-microsoft"/>EF bulk updates](https://learn.microsoft.com/en-us/ef/core/saving/execute-insert-update-delete) offer significant performance advantages over traditional approaches.
 
 However, there's an **important caveat**: these bulk operations bypass the EF Core **Change Tracker**. This disconnect can lead to unexpected behavior if you're not aware of it.
 
@@ -183,7 +183,7 @@ I hope this was helpful, and I'll see you next week.
 
 ::: note P.S.
 
-Get the [source code (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/ef-bulk-updates`)](https://github.com/m-jovanovic/ef-bulk-updates) and try out the examples from this issue.
+Get the [source code (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/ef-bulk-updates`)](https://github.com/m-jovanovic/ef-bulk-updates) and try out the examples from this issue.
 
 <SiteInfo
   name="m-jovanovic/ef-bulk-updates"

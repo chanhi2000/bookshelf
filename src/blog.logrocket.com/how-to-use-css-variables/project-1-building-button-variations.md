@@ -50,7 +50,7 @@ cover: /assets/image/blog.logrocket.com/how-to-use-css-variables/banner.png
 
 In CSS frameworks such as [**Bootstrap**](/blog.logrocket.com/bootstrap-adoption-guide.md), variables make sharing a base design across elements much easier. Take the `.bg-danger` class, which turns an element’s background color to red and its own color to white. In this first project, you’ll build something similar.
 
-Get started with the first project by adding the following HTML document to a new <FontIcon icon="fa-brands fa-html5"/>`.html` file:
+Get started with the first project by adding the following HTML document to a new <VPIcon icon="fa-brands fa-html5"/>`.html` file:
 
 ```html
 <!DOCTYPE html>
@@ -138,7 +138,7 @@ Here’s what your first project should look like:
 
 ![Preview Of Project Using Css To Build Button Color Variations](/assets/image/blog.logrocket.com/how-to-use-css-variables/img4-CSS-color-variations-project-preview.png)
 
-You can access the complete source code and see a live preview of this project from [this CodePen (<FontIcon icon="fa-brands fa-codepen"/>`shalithasuranga`)](https://codepen.io/shalithasuranga/pen/dyrKEyd).
+You can access the complete source code and see a live preview of this project from [this CodePen (<VPIcon icon="fa-brands fa-codepen"/>`shalithasuranga`)](https://codepen.io/shalithasuranga/pen/dyrKEyd).
 
 <CodePen
   user="shalithasuranga"

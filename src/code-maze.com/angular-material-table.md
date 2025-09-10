@@ -65,9 +65,9 @@ cover: /assets/image/code-maze.com/angular-material-table/banner.png
   logo="/assets/image/code-maze.com/favicon.png"
   preview="/assets/image/angular-material-table/banner.png"/>
 
-We are going to divide this article into two major parts. The <strong>first part</strong> will consist of creating environment files, HTTP repository service, and creating a new Owner module with the lazy loading feature. As you can see, everything is Angular specific, so we won’t dive too deep into these sections. We already have [<FontIcon icon="fas fa-globe"/>Angular Series](https://code-maze.com/angular-series/) in which we have talked about these topics in great detail. So if you are not familiar with these topics, we strongly recommend reading the mentioned series.
+We are going to divide this article into two major parts. The <strong>first part</strong> will consist of creating environment files, HTTP repository service, and creating a new Owner module with the lazy loading feature. As you can see, everything is Angular specific, so we won’t dive too deep into these sections. We already have [<VPIcon icon="fas fa-globe"/>Angular Series](https://code-maze.com/angular-series/) in which we have talked about these topics in great detail. So if you are not familiar with these topics, we strongly recommend reading the mentioned series.
 
-In our source code, we can find the `OwnerAccountServer` folder which contains the entire .NET Core project, which we have created in [<FontIcon icon="fas fa-globe"/>.NET Core Series](https://code-maze.com/net-core-series/). In the same folder, we can find the `_MySQL_Init_Script` folder which contains a script to create a MySQL database with its tables. Just run that script in the MySQL database and you are ready to go.
+In our source code, we can find the `OwnerAccountServer` folder which contains the entire .NET Core project, which we have created in [<VPIcon icon="fas fa-globe"/>.NET Core Series](https://code-maze.com/net-core-series/). In the same folder, we can find the `_MySQL_Init_Script` folder which contains a script to create a MySQL database with its tables. Just run that script in the MySQL database and you are ready to go.
 
 <strong>The second part</strong> will consist of creating a material table and populating that table with data from our server. Furthermore, we are going to create the filter, sorting, and paging functionalities for that table.
 
@@ -127,11 +127,11 @@ So, it’s time to start our job.
 
 :::
 
-For the complete navigation and all the basic instructions of the Angular Material series, check out: [<FontIcon icon="fas fa-globe"/>Introduction of the Angular Material series.](https://code-maze.com/angular-material-series/)
+For the complete navigation and all the basic instructions of the Angular Material series, check out: [<VPIcon icon="fas fa-globe"/>Introduction of the Angular Material series.](https://code-maze.com/angular-material-series/)
 
 ::: info
 
-The source code is available at GitHub [Angular Material Table - Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/material-table)
+The source code is available at GitHub [Angular Material Table - Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/material-table)
 
 <SiteInfo
   name="CodeMazeBlog/angular-material-series"
@@ -152,7 +152,7 @@ We are going to divide this post into several sections:
 
 Let’s start with the environment file modifications.
 
-We are going to modify the <FontIcon icon="iconfont icon-typescript"/>`environment.prod.ts` file first:
+We are going to modify the <VPIcon icon="iconfont icon-typescript"/>`environment.prod.ts` file first:
 
 ```ts
 export const environment = {
@@ -161,7 +161,7 @@ export const environment = {
 };
 ```
 
-After that, let’s modify the <FontIcon icon="iconfont icon-typescript"/>`environment.ts` file:
+After that, let’s modify the <VPIcon icon="iconfont icon-typescript"/>`environment.ts` file:
 
 ```ts
 export const environment = {
@@ -222,7 +222,7 @@ export class RepositoryService {
 
 Excellent. We have prepared our service file. If you want to learn more about environment files, services, and HTTP, you can read that in the [Angular Series Article](/code-maze.com/net-core-web-development-part9.md) which covers all of these topics.
 
-One more thing that we need to do is to register `HttpClientModule` in the <FontIcon icon="iconfont icon-typescript"/>`app.module.ts` file:
+One more thing that we need to do is to register `HttpClientModule` in the <VPIcon icon="iconfont icon-typescript"/>`app.module.ts` file:
 
 ```ts
 import { HttpClientModule } from '@angular/common/http';
@@ -297,7 +297,7 @@ const routes: Routes = [
 export class OwnerRoutingModule { }
 ```
 
-Finally, to make all this to work, we need to modify our routes in the <FontIcon icon="fa-brands fa-html5"/>`sidenav-list.component.html` file:
+Finally, to make all this to work, we need to modify our routes in the <VPIcon icon="fa-brands fa-html5"/>`sidenav-list.component.html` file:
 
 ```html
 <a mat-list-item routerLink="/owner/owners" (click)="onSidenavClose()">
@@ -305,7 +305,7 @@ Finally, to make all this to work, we need to modify our routes in the <FontIcon
 </a>
 ```
 
-And the <FontIcon icon="fa-brands fa-html5"/>`header.component.html` file:
+And the <VPIcon icon="fa-brands fa-html5"/>`header.component.html` file:
 
 ```html
 <li>
@@ -323,7 +323,7 @@ Excellent. Right now, we can dedicate our work to fetch some data from the datab
 
 ## Using Material Table to Display Data
 
-Because we have created another module in our Angular app, we need to import the `Material module` file inside the <FontIcon icon="iconfont icon-typescript"/>`owner.module.ts` file:
+Because we have created another module in our Angular app, we need to import the `Material module` file inside the <VPIcon icon="iconfont icon-typescript"/>`owner.module.ts` file:
 
 ```ts
 import { MaterialModule } from './../material/material.module';
@@ -340,7 +340,7 @@ import { MaterialModule } from './../material/material.module';
 
 Once we create the Shared module, we will fix this code repetition (MaterialModule inside the App module and Owner module).
 
-For now, let’s continue by creating the `_interface` folder and inside it the <FontIcon icon="iconfont icon-typescript"/>`owner.model.ts` file:
+For now, let’s continue by creating the `_interface` folder and inside it the <VPIcon icon="iconfont icon-typescript"/>`owner.model.ts` file:
 
 ```ts
 export interface Owner{
@@ -351,7 +351,7 @@ export interface Owner{
 }
 ```
 
-Because we want to use the material table component, we need to register its own module in the <FontIcon icon="iconfont icon-typescript"/>`material.module.ts` file:
+Because we want to use the material table component, we need to register its own module in the <VPIcon icon="iconfont icon-typescript"/>`material.module.ts` file:
 
 ```ts
 import { MatTableModule } from '@angular/material/table';
@@ -368,7 +368,7 @@ import { MatTableModule } from '@angular/material/table';
 })
 ```
 
-Then, let’s modify the <FontIcon icon="fa-brands fa-html5"/>`owner-list.component.html` file:
+Then, let’s modify the <VPIcon icon="fa-brands fa-html5"/>`owner-list.component.html` file:
 
 ```html
 <table mat-table [dataSource]="dataSource">
@@ -421,7 +421,7 @@ Then, let’s modify the <FontIcon icon="fa-brands fa-html5"/>`owner-list.compon
 
 The `mat-table` element transforms this table into a material one. With the `dataSource` attribute, we provide a data source for our table. Inside every `ng-container` tag, we define the column definition and the value to be displayed. It is very important to match the `matColumnDef` value with the property name of our `Owner` interface.
 
-Finally, in the last two `tr` tags, we define an order for our header columns and the row definitions. So, what we need to do right now is to create our `datasource` and `displayedColumns` properties in the <FontIcon icon="iconfont icon-typescript"/>`ownerlist.component.ts` file:
+Finally, in the last two `tr` tags, we define an order for our header columns and the row definitions. So, what we need to do right now is to create our `datasource` and `displayedColumns` properties in the <VPIcon icon="iconfont icon-typescript"/>`ownerlist.component.ts` file:
 
 ```ts
 import { RepositoryService } from './../../shared/repository.service';
@@ -469,7 +469,7 @@ export class OwnerListComponent implements OnInit {
 
 If we change the order of elements inside the `displayedColumns` array, it will change the order of the columns inside our table.
 
-Right now, if we start our application and navigate to the Owner Actions menu, we are going to see a populated material table. But we are missing some styles, so let’s add those in the <FontIcon icon="fa-brands fa-css3-alt"/>`owner-list.component.css` file:
+Right now, if we start our application and navigate to the Owner Actions menu, we are going to see a populated material table. But we are missing some styles, so let’s add those in the <VPIcon icon="fa-brands fa-css3-alt"/>`owner-list.component.css` file:
 
 ```css
 table {
@@ -515,7 +515,7 @@ Then, we are going to add the `mat-sort-header` directive to the `Name`, `DateOf
 <th mat-header-cell *matHeaderCellDef mat-sort-header> Address </th>
 ```
 
-To make sorting functionality up and running, we need to modify the <FontIcon icon="iconfont icon-typescript"/>`owner-list.component.ts` file as well:
+To make sorting functionality up and running, we need to modify the <VPIcon icon="iconfont icon-typescript"/>`owner-list.component.ts` file as well:
 
 ```ts{1-2,4,9,17-19}
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
@@ -543,7 +543,7 @@ export class OwnerListComponent implements OnInit, AfterViewInit {
   // ...
 ```
 
-Lastly, we need to add the `MatSortModule` inside of the <FontIcon icon="iconfont icon-typescript"/>`material.module.ts` file:
+Lastly, we need to add the `MatSortModule` inside of the <VPIcon icon="iconfont icon-typescript"/>`material.module.ts` file:
 
 ```ts
 import { MatSortModule } from '@angular/material/sort';
@@ -611,7 +611,7 @@ public doFilter = (value: string) => {
 }
 ```
 
-Finally, because we are using the `matInput` directive to transform regular input into the material input field, we need to register its modules inside the <FontIcon icon="iconfont icon-typescript"/>`material.module.ts` file:
+Finally, because we are using the `matInput` directive to transform regular input into the material input field, we need to register its modules inside the <VPIcon icon="iconfont icon-typescript"/>`material.module.ts` file:
 
 ```ts
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -688,7 +688,7 @@ Then, let’s add `mat-paginator` inside the HTML file:
 </mat-paginator>
 ```
 
-And finally, let’s modify the <FontIcon icon="iconfont icon-typescript"/>`owner-list.component.ts` file:
+And finally, let’s modify the <VPIcon icon="iconfont icon-typescript"/>`owner-list.component.ts` file:
 
 ```ts{1,5,15}
 import { MatPaginator } from '@angular/material/paginator';

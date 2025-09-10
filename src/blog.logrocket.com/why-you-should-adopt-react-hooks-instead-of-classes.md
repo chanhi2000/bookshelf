@@ -64,7 +64,7 @@ In this post, we will look at functional components using React Hooks that were 
 
 ![Why you should adopt React Hooks instead of classes](/assets/image/blog.logrocket.com/why-you-should-adopt-react-hooks-instead-of-classes/banner.png)
 
-According to the [<FontIcon icon="fa-brands fa-react"/>official documentation](https://reactjs.org/docs/hooks-intro.html), Hooks brings into a functional component all the powers previously accessible in class components and made them available in functional components. With React Hooks, you can now use state and other features of React outside of the construct of a class:
+According to the [<VPIcon icon="fa-brands fa-react"/>official documentation](https://reactjs.org/docs/hooks-intro.html), Hooks brings into a functional component all the powers previously accessible in class components and made them available in functional components. With React Hooks, you can now use state and other features of React outside of the construct of a class:
 
 ```jsx
 import React, { useState } from "react";
@@ -216,7 +216,7 @@ In the example above you can see that there are fewer concepts to learn or under
 
 ## No need to use “this” again
 
-This is a well-debated point but even the React team confirms that the use of classes in JavaScript can be [<FontIcon icon="fa-brands fa-react"/>confusing sometimes for developers and even machines](https://reactjs.org/docs/hooks-intro.html#classes-confuse-both-people-and-machines). One of the confusing things is using `this` for things like passing properties and how it works in different languages. To illustrate, imagine you had a heading component with a title:
+This is a well-debated point but even the React team confirms that the use of classes in JavaScript can be [<VPIcon icon="fa-brands fa-react"/>confusing sometimes for developers and even machines](https://reactjs.org/docs/hooks-intro.html#classes-confuse-both-people-and-machines). One of the confusing things is using `this` for things like passing properties and how it works in different languages. To illustrate, imagine you had a heading component with a title:
 
 ```jsx
 <Heading title="blog" />
@@ -245,7 +245,7 @@ const FunComponent = ({ title }) => {
 
 ## Conclusion
 
-This post is an overview of React Hooks and reasons why you should use them in functional components instead of class components. If you would like to learn more about React Hooks, check out [<FontIcon icon="fa-brands fa-react"/>the official documentation](https://reactjs.org/docs/hooks-overview.html) and if you just want to learn how to refactor your app from classes to functional components with Hooks then [check out this great article](https://blog.logrocket.com/practical-react-hooks-how-to-refactor-your-app-to-use-hooks-b1867e7b0a53/). I hope you find this helpful, happy hacking!
+This post is an overview of React Hooks and reasons why you should use them in functional components instead of class components. If you would like to learn more about React Hooks, check out [<VPIcon icon="fa-brands fa-react"/>the official documentation](https://reactjs.org/docs/hooks-overview.html) and if you just want to learn how to refactor your app from classes to functional components with Hooks then [check out this great article](https://blog.logrocket.com/practical-react-hooks-how-to-refactor-your-app-to-use-hooks-b1867e7b0a53/). I hope you find this helpful, happy hacking!
 <!-- TODO: /blog.logrocket.com/practical-react-hooks-how-to-refactor-your-app-to-use-hooks.md -->
 
 <!-- TODO: add ARTICLE CARD -->

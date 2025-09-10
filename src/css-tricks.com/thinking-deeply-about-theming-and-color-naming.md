@@ -85,15 +85,15 @@ Let’s begin from the beginning. After all, how can you discuss theming without
 
 I think this problem is pretty much solved by now. Everyone has adopted systems that allows for various hues — along with multiple tints and shades — that can give some life to the design.
 
-We don’t need to go very far to see this trend happening. For example, [<FontIcon icon="iconfont icon-tailwindcss"/>Tailwind CSS](https://tailwindcss.com/docs/colors) includes a ton of colors and their respective tones.
+We don’t need to go very far to see this trend happening. For example, [<VPIcon icon="iconfont icon-tailwindcss"/>Tailwind CSS](https://tailwindcss.com/docs/colors) includes a ton of colors and their respective tones.
 
 ![A color palette matrix in rows of red, orange, amber, yellow, and lime. Each column is a square box with a color corresponding to its row, getting increasingly darker from left to right.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/tailwind-palette.webp?resize=842%2C355&ssl=1)
 
-[<FontIcon icon="fas fa-globe"/>Open Props](https://open-props.style) by [<FontIcon icon="fas fa-globe"/>Adam Argyle](https://nerdy.dev) provides even more tones, up to 13 per color.
+[<VPIcon icon="fas fa-globe"/>Open Props](https://open-props.style) by [<VPIcon icon="fas fa-globe"/>Adam Argyle](https://nerdy.dev) provides even more tones, up to 13 per color.
 
 ![A larger color palette with 19 rows of color, each with 13 columns showing the color getting darker from left to right.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/open-props.webp?resize=1453%2C612&ssl=1)
 
-And [<FontIcon icon="fas fa-globe"/>Pico CSS](https://picocss.com/docs/colors) ups the ante by introducing 19 different tones per color.
+And [<VPIcon icon="fas fa-globe"/>Pico CSS](https://picocss.com/docs/colors) ups the ante by introducing 19 different tones per color.
 
 ![Two color palettes, one for red and one for pink, each with a grid of squares showing the variations going from light to dark.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/pico-palette.webp?resize=925%2C625&ssl=1)
 
@@ -115,11 +115,11 @@ You probably know this is true without me telling you.
 
 Of course there are makers who can break the mould, use Tailwind, and make it completely not like Tailwind. But that’s because they tweak many things.
 
-Color is one of these things — one of the most important ones — but other important pieces include typography, spacing, the roundness of your corners… and many others. Covering those is a story for another day, and perhaps best covered by [<FontIcon icon="fas fa-globe"/>Jack McDade](https://jackmcdade.com) who teaches [<FontIcon icon="fas fa-globe"/>Radical Design](https://radicaldesigncourse.com).
+Color is one of these things — one of the most important ones — but other important pieces include typography, spacing, the roundness of your corners… and many others. Covering those is a story for another day, and perhaps best covered by [<VPIcon icon="fas fa-globe"/>Jack McDade](https://jackmcdade.com) who teaches [<VPIcon icon="fas fa-globe"/>Radical Design](https://radicaldesigncourse.com).
 
 So, if you don’t wanna drown in the sea of sameness — looking like everyone else — **creating your own color palettes is a first step forward**.
 
-Now, you may be anxious about creating color palettes because there’s been lots of writing about the amount of work that goes into creating [<FontIcon icon="fas fa-globe"/>accessible](https://stephaniewalter.design/blog/tips-create-accessible-color-palette/) color [<FontIcon icon="fas fa-globe"/>palettes](https://stripe.com/blog/accessible-color-systems), so that might sound like a daunting task.
+Now, you may be anxious about creating color palettes because there’s been lots of writing about the amount of work that goes into creating [<VPIcon icon="fas fa-globe"/>accessible](https://stephaniewalter.design/blog/tips-create-accessible-color-palette/) color [<VPIcon icon="fas fa-globe"/>palettes](https://stripe.com/blog/accessible-color-systems), so that might sound like a daunting task.
 
 Plus, anything related to accessibility carries “Big Potential Consequences” and “Highly Shameful When Done Incorrectly,” so that can add extra pressure on you.
 
@@ -141,18 +141,18 @@ That’s it.
 
 ### Designing Color Palettes by Hand
 
-I tend to design color palettes by hand — in Figma — when I design my websites. This seems to be the most natural process for me. (Or maybe I’m just influenced by how [<FontIcon icon="fas fa-globe"/>Jack designs stuff](https://radicaldesigncourse.com) 🙃).
+I tend to design color palettes by hand — in Figma — when I design my websites. This seems to be the most natural process for me. (Or maybe I’m just influenced by how [<VPIcon icon="fas fa-globe"/>Jack designs stuff](https://radicaldesigncourse.com) 🙃).
 
 If you do this, **there’s no need to stress about filling up tones from 50 to 950**. That’s because you’ll have no idea what colors would look nice before you fit them into the design. Stressing over tones is putting the cart before the horse.
 
-Here’s a decent example. When I designed [<FontIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com), I omitted a ton of color tones. Here’s an example of the pink color variables for the site.
+Here’s a decent example. When I designed [<VPIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com), I omitted a ton of color tones. Here’s an example of the pink color variables for the site.
 
 ![Showing 10 CSS variables for pink-based color variations defined in `oklch()`.](https://css-tricks.com/wp-content/uploads/2025/07/splendid-pink.svg)
 
 - Notice I skipped values between 50 and 400? Well, I didn’t need ’em.
 - Notice I added `200d` and `600d`? Well, I kinda wanted a desaturated (or muted) variant of these colors… which… could not be captured the existing systems. So I added `d` for desaturated 🙃.
 
-[<FontIcon icon="fas fa-globe"/>You can see the results of that yourself](https://splendidlabz.com). It’s not too shabby in my opinion — with splashes of color that perhaps bring some joy to your face when you scroll through the site.
+[<VPIcon icon="fas fa-globe"/>You can see the results of that yourself](https://splendidlabz.com). It’s not too shabby in my opinion — with splashes of color that perhaps bring some joy to your face when you scroll through the site.
 
 ![The Splendid Labz homepage. Black background, yellow heading, white body text. Rediscover the joy of coding.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/splendid-site.webp?resize=1479%2C739&ssl=1)
 
@@ -186,7 +186,7 @@ If you’re the kinda person that prefers generating colors programmatically (an
 }
 ```
 
-Of these, I highly recommend checking out [<FontIcon icon="fas fa-globe"/>`@meodai`](https://web-cdn.bsky.app/profile/meodai.bsky.social/)‘s RampenSau because he’s really knowledgeable about the color space and does incredible work there. (Use the monochromatic feature to make this easy.)
+Of these, I highly recommend checking out [<VPIcon icon="fas fa-globe"/>`@meodai`](https://web-cdn.bsky.app/profile/meodai.bsky.social/)‘s RampenSau because he’s really knowledgeable about the color space and does incredible work there. (Use the monochromatic feature to make this easy.)
 
 ---
 
@@ -198,11 +198,11 @@ With a seemingly unlimited amount of options given by the color palettes, it mak
 
 (Even *short* is generous. They actually seem to be *severely restricted*.)
 
-For example, [<FontIcon icon="fas fa-globe"/>DaisyUI](https://daisyui.com) seems to support only two tones per color…
+For example, [<VPIcon icon="fas fa-globe"/>DaisyUI](https://daisyui.com) seems to support only two tones per color…
 
 ![Showing a table of color variables named by utility, including primary, secondary, and accent. The table contains a column showing the color in a square, a column for the color name, a column for the variable, and a column for use case.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/daisyui-vars.webp?resize=887%2C366&ssl=1)
 
-[<FontIcon icon="fas fa-globe"/>Pico CSS](https://picocss.com), a system with one of the most options, on first glance, limits to 10 possible variants “*semantic class names*“.
+[<VPIcon icon="fas fa-globe"/>Pico CSS](https://picocss.com), a system with one of the most options, on first glance, limits to 10 possible variants “*semantic class names*“.
 
 ![Showing 10 CSS variables naming color by their use, such as pico-primary-background and pico-primary-border.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/pico-primary.webp?resize=810%2C295&ssl=1)
 
@@ -236,7 +236,7 @@ Anyway, let’s talk about the second point.
 
 Observing the “semantic class names” these systems use actually unveil underlying confusion about what “semantic” means to the web development community.
 
-Let’s go back to my remark about the [<FontIcon icon="fas fa-globe"/>`--pico-primary-underline` variable](https://picocss.com/docs/css-variables#all-css-variables) earlier with Pico CSS.
+Let’s go back to my remark about the [<VPIcon icon="fas fa-globe"/>`--pico-primary-underline` variable](https://picocss.com/docs/css-variables#all-css-variables) earlier with Pico CSS.
 
 But if you look deeper, we’re still looking at about two tones per “thing”
 
@@ -300,7 +300,7 @@ This starts getting confusing and “semantics” begins to lose its meaning.
 
 ### What Semantics Actually Mean
 
-Consulting [<FontIcon icon="fas fa-globe"/>Etymology](https://etymonline.com/search?q=semantic) and the dictionary gives us clues about how to actually be semantic — and keep meaning.
+Consulting [<VPIcon icon="fas fa-globe"/>Etymology](https://etymonline.com/search?q=semantic) and the dictionary gives us clues about how to actually be semantic — and keep meaning.
 
 ![Semantic, adjective. Relating to significance or meaning," 1894, from French sémantique, applied by Michel Bréal (1883) to the psychology of language, from Greek sēmantikos "significant," from semainein "to show by sign, signify, point out, indicate by a sign," from sēma "sign, mark, token; omen, portent; constellation; grave" (Doric sama), from PIE root *dheie- "to see, look" (source also of Sanskrit dhyati "he meditates;" see zen).](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/etymology-semantic.webp?resize=844%2C312&ssl=1)
 
@@ -546,7 +546,7 @@ This way, authors get the ability to create multiple variations of the component
 
 Now, I know we’re talking about colors and theming, and we segued into design systems and coding… but can you see that there’s a way to create a system that makes styling much easier and much more effective?
 
-Well, I’ve been pondering this kinda thing a lot over at [<FontIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/), specifically in [<FontIcon icon="fas fa-globe"/>Splendid Styles](https://splendidlabz.com/solutions/styles/). Take a look if you are interested.
+Well, I’ve been pondering this kinda thing a lot over at [<VPIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/), specifically in [<VPIcon icon="fas fa-globe"/>Splendid Styles](https://splendidlabz.com/solutions/styles/). Take a look if you are interested.
 
 Enough tooting my own horn! Let’s go back to theming!
 
@@ -594,13 +594,13 @@ What it takes to create a DaisyUI Theme.
 
 For those who want flexibility and lots of possible color shades to play with, you’ll need a more robust system like the one I suggested.
 
-This whole thing reminds me of Jason’s Cohen’s article, [<FontIcon icon="fas fa-globe"/>“Rare things become common at scale”](https://longform.asmartbear.com/scale-rare/): what is okay at a lower level becomes not okay at a larger scale.
+This whole thing reminds me of Jason’s Cohen’s article, [<VPIcon icon="fas fa-globe"/>“Rare things become common at scale”](https://longform.asmartbear.com/scale-rare/): what is okay at a lower level becomes not okay at a larger scale.
 
 **So, take what you need. Improve what you wish to. And may this help you through your development journey.**
 
-If you wanna check out what I’ve created for my design system, head over to [<FontIcon icon="fas fa-globe"/>Splendid Styles](https://splendidlabz.com/solutions/styles/). The documentation may still be lacking when this post gets published, but I’m trying to complete that as soon as I can.
+If you wanna check out what I’ve created for my design system, head over to [<VPIcon icon="fas fa-globe"/>Splendid Styles](https://splendidlabz.com/solutions/styles/). The documentation may still be lacking when this post gets published, but I’m trying to complete that as soon as I can.
 
-And if you’re interested in the same amount of rigour I’ve described in this article — but applied to CSS layouts — consider checking out [<FontIcon icon="fas fa-globe"/>Splendid Layouts](https://splendidlabz.com/solutions/styles/) too. I haven’t been able to look back after I started using it.
+And if you’re interested in the same amount of rigour I’ve described in this article — but applied to CSS layouts — consider checking out [<VPIcon icon="fas fa-globe"/>Splendid Layouts](https://splendidlabz.com/solutions/styles/) too. I haven’t been able to look back after I started using it.
 
 Have fun theming!
 

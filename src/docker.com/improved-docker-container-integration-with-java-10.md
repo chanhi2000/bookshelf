@@ -67,7 +67,7 @@ cover: https://docker.com/app/uploads/Screen-Shot-2018-04-03-at-4.40.29-PM.png
 
 ![Docker and Java](https://docker.com/app/uploads/Screen-Shot-2018-04-03-at-4.40.29-PM.png)
 
-Many applications that run in a Java Virtual Machine (JVM), including data services such as Apache Spark and Kafka and traditional enterprise applications, are run in containers. Until recently, running the JVM in a container presented problems with memory and cpu sizing and usage that led to performance loss. This was because Java didn’t recognize that it was running in a container. With the [<FontIcon icon="fa-brands fa-java"/>release](http://openjdk.java.net/projects/jdk/10/) of Java 10, the JVM now recognizes constraints set by container control groups (cgroups). Both memory and cpu constraints can be used manage Java applications directly in containers, these include:
+Many applications that run in a Java Virtual Machine (JVM), including data services such as Apache Spark and Kafka and traditional enterprise applications, are run in containers. Until recently, running the JVM in a container presented problems with memory and cpu sizing and usage that led to performance loss. This was because Java didn’t recognize that it was running in a container. With the [<VPIcon icon="fa-brands fa-java"/>release](http://openjdk.java.net/projects/jdk/10/) of Java 10, the JVM now recognizes constraints set by container control groups (cgroups). Both memory and cpu constraints can be used manage Java applications directly in containers, these include:
 
 - adhering to memory limits set in the container
 - setting available cpus in the container
@@ -81,7 +81,7 @@ Java 10 improvements are realized in both Docker for Mac or Windows and Docker E
 
 Until Java 9 the JVM did not recognize memory or cpu limits set by the container using flags. In Java 10, memory limits are automatically recognized and enforced.
 
-[<FontIcon icon="iconfont icon-oracle"/>Java](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/ergonomics.html) defines a server class machine as having 2 CPUs and 2GB of memory and the default heap size is ¼ of the physical memory. For example, a Docker Enterprise Edition installation has 2GB of memory and 4 CPUs. Compare the difference between containers running Java 8 and Java 10. First, Java 8:
+[<VPIcon icon="iconfont icon-oracle"/>Java](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/ergonomics.html) defines a server class machine as having 2 CPUs and 2GB of memory and the default heap size is ¼ of the physical memory. For example, a Docker Enterprise Edition installation has 2GB of memory and 4 CPUs. Compare the difference between containers running Java 8 and Java 10. First, Java 8:
 
 ```sh
 docker container run -it -m512 --entrypoint bash openjdk:latest
@@ -113,7 +113,7 @@ Runtime.getRuntime().availableProcessors()
 # $1 ==> 2
 ```
 
-All CPUs allocated to Docker EE get the same proportion of CPU cycles. The proportion can be modified by changing the container’s [<FontIcon icon="fa-brands fa-docker"/>CPU share](https://docs.docker.com/engine/reference/run/#cpu-share-constraint) weighting relative to the weighting of all other running containers. The  proportion will only apply when CPU-intensive processes are running. When tasks in one container are idle, other containers can use the leftover CPU time. The actual amount of CPU time will vary depending on the number of containers running on the system. These can be set in Java 10:
+All CPUs allocated to Docker EE get the same proportion of CPU cycles. The proportion can be modified by changing the container’s [<VPIcon icon="fa-brands fa-docker"/>CPU share](https://docs.docker.com/engine/reference/run/#cpu-share-constraint) weighting relative to the weighting of all other running containers. The  proportion will only apply when CPU-intensive processes are running. When tasks in one container are idle, other containers can use the leftover CPU time. The actual amount of CPU time will vary depending on the number of containers running on the system. These can be set in Java 10:
 
 ```sh
 docker container run -it --cpu-shares 2048 openjdk:10-jdk

@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
 import {
   // head,
   navbarEn,
@@ -18,7 +17,7 @@ export default hopeTheme({
   footer: 'MIT Licensed | Copyright © 2022-present <a href="https://github.com/chanhi2000">Chan Hee Lee</a>',
   displayFooter: true,
   hostname: "https://chanhi2000.github.io",
-  iconAssets: "fontawesome-with-brands",
+  // iconAssets: "fontawesome-with-brands",
   docsDir: "src",
   navbar: navbarEn,
   sidebar: sidebarEn,
@@ -42,13 +41,73 @@ export default hopeTheme({
   metaLocales: {
     editLink: "Edit this page on GitHub",
   },
+  markdown: {
+    footnote: true,
+    tasklist: true,
+    component: true,
+    vPre: true,
+    include: true,
+    align: true,
+    attrs: true,
+    mark: true,
+    spoiler: true,
+    sup: true,
+    sub: true,
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    chartjs: true,
+    echarts: true,
+    flowchart: true,
+    mermaid: true,
+    plantuml: true,
+    demo: true,
+    vuePlayground: true,
+    kotlinPlayground: true,
+    sandpack: true,
+    alert: true,
+    hint: true,
+    math: {
+      type: 'katex', 
+      copy: false,
+    },
+    tabs: true,
+    codeTabs: true,
+    highlighter: {
+      type: "prismjs",
+      theme: "dracula",
+      notationDiff: true,
+      notationFocus: true,
+    },
+    figure: true,
+    imgLazyload: true,
+    imgSize: true,
+  },
   plugins: {
-    blog: true,
+    // blog: true,
+    icon: {
+      assets: [
+        "fontawesome", 
+        "fontawesome-with-brands",
+        "https://chanhi2000.github.io/iconfont.css", 
+        "https://chanhi2000.github.io/iconfont-more.css"
+      ],
+    },
     components: {
       components: [
-        "CodePen", "FontIcon", "Badge", "Share", "PDF", "SiteInfo", "VidStack", "VPCard", "VPBanner"
+        "CodePen"/* , "FontIcon" */, "Badge", "Share", "PDF", "SiteInfo", "VidStack", "VPCard", "VPBanner"
       ],
-      componentOptions: {
+      /* componentOptions: {
         fontIcon: {
           assets: [
             "fontawesome", 
@@ -57,7 +116,7 @@ export default hopeTheme({
             "https://chanhi2000.github.io/iconfont-more.css"
           ],
         }
-      },
+      }, */
       rootComponents: {
       }
     },
@@ -86,7 +145,7 @@ export default hopeTheme({
     photoSwipe: {
       download: false,
     },
-    prismjs: {
+    /* prismjs: {
       theme: "dracula",
       notationDiff: true,
       notationFocus: true,
@@ -103,27 +162,21 @@ export default hopeTheme({
     markdownMath: {
       type: 'katex', 
       copy: false,
-    },
+    }, 
     markdownTab: {
       tabs: true,
       codeTabs: true
-    },
+    }, 
     mdEnhance: {
       align: true,
       attrs: true,
       chart: true,
-      // codetabs: true,
       component: true,
       demo: true,
       echarts: true,
-      // figure: true,
       flowchart: true,
       footnote: true,
-      // hint: true,
       include: true,
-      // imgLazyload: true,
-      // imgSize: true,
-      // katex: true,
       kotlinPlayground: true,
       mark: true,
       mermaid: true,
@@ -145,14 +198,13 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      // tabs: true,
       tasklist: true,
       vPre: true,
       vuePlayground: true,
-      // playground: {
-      //   presets: ["ts", "vue"],
-      // },
-    },
+      playground: {
+        presets: ["ts", "vue"],
+      },
+    },*/
     copyCode: {
       locales: {
         "/": {
@@ -162,11 +214,15 @@ export default hopeTheme({
       }
     },
     nprogress: true,
-    /* git: {
+     /* git: {
       createdTime: false,
       updatedTime: false,
     },*/
-    git: false,
+    git: {
+      contributors: false,
+      createdTime: false,
+      updatedTime: false,
+    }
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",

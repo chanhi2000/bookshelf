@@ -82,7 +82,7 @@ Aside from the simple example of wrapping text around images, floats can be used
 
 ![](https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/03/web-layout.png?resize=540%2C240&ssl=1)
 
-While floats can still be used for layout, these days, we have much stronger tools for creating layout on web pages. Namely, [<FontIcon icon="iconfont icon-css-tricks"/>Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [<FontIcon icon="iconfont icon-css-tricks"/>Grid](https://css-tricks.com/snippets/css/complete-guide-grid/). Floats are still useful to know about because they have some abilities entirely unique to them, which is all covered in this article.
+While floats can still be used for layout, these days, we have much stronger tools for creating layout on web pages. Namely, [<VPIcon icon="iconfont icon-css-tricks"/>Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [<VPIcon icon="iconfont icon-css-tricks"/>Grid](https://css-tricks.com/snippets/css/complete-guide-grid/). Floats are still useful to know about because they have some abilities entirely unique to them, which is all covered in this article.
 
 Floats are also helpful for layout in smaller instances. Take for example this little area of a web page. If we use float for our little avatar image, when that image changes size the text in the box will reflow to accommodate:
 
@@ -150,7 +150,7 @@ If you are in a situation where you always know what the succeeding element is g
 }
 ```
 
-This will apply a small bit of content, hidden from view, after the parent element which clears the float. This isn’t quite the [<FontIcon icon="fas fa-globe"/>whole story](https://positioniseverything.net/easyclearing.html), as additional code needs to be used to accommodate for older browsers.
+This will apply a small bit of content, hidden from view, after the parent element which clears the float. This isn’t quite the [<VPIcon icon="fas fa-globe"/>whole story](https://positioniseverything.net/easyclearing.html), as additional code needs to be used to accommodate for older browsers.
 
 Different scenarios call for different float clearing methods. Take for example a grid of blocks, each of different types.
 
@@ -176,7 +176,7 @@ Make sure you don’t have any images that do this, use `overflow: hidden` to cu
 
 :::
 
-- **Double Margin Bug** - Another thing to remember when dealing with IE 6 is that if you apply a margin in the same direction as the float, it will [<FontIcon icon="fas fa-globe"/>double the margin](https://cssnewbie.com/double-margin-float-bug/). *Quick fix:* set `display: inline` on the float, and don’t worry it will remain a block-level element.
+- **Double Margin Bug** - Another thing to remember when dealing with IE 6 is that if you apply a margin in the same direction as the float, it will [<VPIcon icon="fas fa-globe"/>double the margin](https://cssnewbie.com/double-margin-float-bug/). *Quick fix:* set `display: inline` on the float, and don’t worry it will remain a block-level element.
 - The **3px Jog** is when text that is up next to a floated element is mysteriously kicked away by 3px like a weird forcefield around the float. 
 
 ::: note Quick fix
@@ -197,13 +197,13 @@ using bottom padding on the parent instead.
 
 ## Alternatives
 
-If you need text wrapping around images, there really aren’t any alternatives for float. Speaking of which, check out this [<FontIcon icon="fas fa-globe"/>rather clever technique](http://blog.ideashower.com/post/15139639050/css-text-wrapper) for wrapping text around irregular shapes. But for page layout, there definitely are choices. Eric Sol right here on A List Apart has an article on [<FontIcon icon="fas fa-globe"/>Faux Absolute Positioning](https://alistapart.com/articles/fauxabsolutepositioning), which is a very interesting technique that in many ways combines the flexibility of floats with the strength of absolute positioning. CSS3 has the [<FontIcon icon="iconfont icon-w3c"/>Template Layout Module](https://w3.org/TR/2009/WD-css3-layout-20090402/) that, when widely adopted, will prove to be the page layout technique of choice.
+If you need text wrapping around images, there really aren’t any alternatives for float. Speaking of which, check out this [<VPIcon icon="fas fa-globe"/>rather clever technique](http://blog.ideashower.com/post/15139639050/css-text-wrapper) for wrapping text around irregular shapes. But for page layout, there definitely are choices. Eric Sol right here on A List Apart has an article on [<VPIcon icon="fas fa-globe"/>Faux Absolute Positioning](https://alistapart.com/articles/fauxabsolutepositioning), which is a very interesting technique that in many ways combines the flexibility of floats with the strength of absolute positioning. CSS3 has the [<VPIcon icon="iconfont icon-w3c"/>Template Layout Module](https://w3.org/TR/2009/WD-css3-layout-20090402/) that, when widely adopted, will prove to be the page layout technique of choice.
 
 ---
 
 ## Video
 
-I did [<FontIcon icon="iconfont icon-css-tricks"/>a screencast](https://css-tricks.com/video-screencasts/42-all-about-floats-screencast/) a while back explaining many of these float concepts.
+I did [<VPIcon icon="iconfont icon-css-tricks"/>a screencast](https://css-tricks.com/video-screencasts/42-all-about-floats-screencast/) a while back explaining many of these float concepts.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

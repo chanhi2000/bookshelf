@@ -53,7 +53,7 @@ cover: https://blog.kotzilla.io/hubfs/Screenshot%202024-04-16%20at%2011.59.30.pn
   logo="https://blog.kotzilla.io/hubfs/favicon.png"
   preview="https://blog.kotzilla.io/hubfs/Screenshot%202024-04-16%20at%2011.59.30.png"/>
 
-One of the lesser-discussed yet powerful features in the Kotlin ecosystem is Koin’s support for [<FontIcon icon="fas fa-globe"/>lazy modules](https://insert-koin.io/docs/reference/koin-core/lazy-modules/#defining-lazy-modules-experimental) and background loading. While experimental, these features can be crucial tools in your arsenal for building scalable and responsive applications. Stay tuned, this feature will be stable in the upcoming Koin 3.6 release 🔥
+One of the lesser-discussed yet powerful features in the Kotlin ecosystem is Koin’s support for [<VPIcon icon="fas fa-globe"/>lazy modules](https://insert-koin.io/docs/reference/koin-core/lazy-modules/#defining-lazy-modules-experimental) and background loading. While experimental, these features can be crucial tools in your arsenal for building scalable and responsive applications. Stay tuned, this feature will be stable in the upcoming Koin 3.6 release 🔥
 
 This blog post revisits these concepts, showing how you can leverage them to enhance your Kotlin applications.
 
@@ -61,7 +61,7 @@ This blog post revisits these concepts, showing how you can leverage them to enh
 
 ## Streamlining Your App with Lazy Modules
 
-[<FontIcon icon="iconfont icon-kotlin"/>Lazy loading](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/lazy.html) is a design pattern commonly used to defer the initialization of an object until the point at which it is needed. It can significantly boost an application's performance by reducing initial load time. [<FontIcon icon="fas fa-globe"/>Koin](https://insert-koin.io/), a lightweight dependency injection framework for Kotlin, integrates this concept beautifully through its support for lazy modules.
+[<VPIcon icon="iconfont icon-kotlin"/>Lazy loading](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/lazy.html) is a design pattern commonly used to defer the initialization of an object until the point at which it is needed. It can significantly boost an application's performance by reducing initial load time. [<VPIcon icon="fas fa-globe"/>Koin](https://insert-koin.io/), a lightweight dependency injection framework for Kotlin, integrates this concept beautifully through its support for lazy modules.
 
 ### Defining Lazy Modules in Koin
 
@@ -89,7 +89,7 @@ Lazy modules will not trigger any resource allocation until they have been expli
 
 ## Enhancing Performance with Background Loading
 
-Once you've defined your lazy modules, Koin allows you to load them in the background, leveraging [<FontIcon icon="fas fa-globe"/>Kotlin coroutines](https://insert-koin.io/docs/reference/koin-core/lazy-modules#background-loading-with-kotlin-coroutines-experimental). This asynchronous loading can significantly improve your application's startup time and overall performance. Your application’s startup time is minimized, and resources are used as efficiently as possible.
+Once you've defined your lazy modules, Koin allows you to load them in the background, leveraging [<VPIcon icon="fas fa-globe"/>Kotlin coroutines](https://insert-koin.io/docs/reference/koin-core/lazy-modules#background-loading-with-kotlin-coroutines-experimental). This asynchronous loading can significantly improve your application's startup time and overall performance. Your application’s startup time is minimized, and resources are used as efficiently as possible.
 
 ### Hybrid Loading for Optimal Performance
 
@@ -103,7 +103,7 @@ This balanced approach allows for an immediate user interaction layer while effi
 
 ## Optimizing Performance with Background Loading
 
-Beyond just defining lazy modules, Koin enables these modules to be loaded in the background, thanks to the power of [<FontIcon icon="iconfont icon-kotlin"/>Kotlin coroutines](https://kotlinlang.org/docs/coroutines-overview.html). This asynchronous loading further optimizes the application’s performance and responsiveness. To load your lazy modules in the background, you can use the `KoinApplication.lazyModules` function within your `startKoin` block. Koin provides several utility functions to manage this process, including waiting for all start jobs to complete or running code after the loading is finished:
+Beyond just defining lazy modules, Koin enables these modules to be loaded in the background, thanks to the power of [<VPIcon icon="iconfont icon-kotlin"/>Kotlin coroutines](https://kotlinlang.org/docs/coroutines-overview.html). This asynchronous loading further optimizes the application’s performance and responsiveness. To load your lazy modules in the background, you can use the `KoinApplication.lazyModules` function within your `startKoin` block. Koin provides several utility functions to manage this process, including waiting for all start jobs to complete or running code after the loading is finished:
 
 ```kotlin
 startkoin {

@@ -67,7 +67,7 @@ cover: https://miro.medium.com/v2/resize:fit:1400/format:webp/0*AqbaidgCIsZmKZM8
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*AqbaidgCIsZmKZM8"/>
 
-![Photo by[<FontIcon icon="fas fa-globe"/>Andreas Gücklhorn](https://unsplash.com/@draufsicht)on[<FontIcon icon="fas fa-globe"/>Unsplash](https://unsplash.com/)](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*AqbaidgCIsZmKZM8)
+![Photo by[<VPIcon icon="fas fa-globe"/>Andreas Gücklhorn](https://unsplash.com/@draufsicht)on[<VPIcon icon="fas fa-globe"/>Unsplash](https://unsplash.com/)](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*AqbaidgCIsZmKZM8)
 
 In this article, we’ll explore the recommended approach for implementing Room in Kotlin Multiplatform (KMP) with Koin for dependency injection and the motivations behind each decision.
 
@@ -77,7 +77,7 @@ To visualise the Room implementation, we’ll build a screen using Compose Multi
 
 ## Getting started
 
-To begin, we add the required dependencies to our<FontIcon icon="iconfont icon-toml"/>`libs.versions.toml`file.
+To begin, we add the required dependencies to our<VPIcon icon="iconfont icon-toml"/>`libs.versions.toml`file.
 
 ```toml title="libs.versions.toml"
 [versions]
@@ -103,7 +103,7 @@ room = { id = "androidx.room", version.ref = "room" }
 
 <!-- @import https://gist.github.com/shorthouse/66ca4e96086a7f9e2bc6a2fcfcf99677/raw/ae577326fa17133e656da167d368e99e1ff6e450/libs.versions.toml -->
 
-We then use these dependencies in our<FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`file, alongside using the Room plugin to declare the database schema directory.
+We then use these dependencies in our<VPIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`file, alongside using the Room plugin to declare the database schema directory.
 
 ```kotlin title="build.gradle.kts"
 plugins {
@@ -202,7 +202,7 @@ The Room compiler will generate the`actual`implementations of the database const
 
 The database requires a builder, and this is the only component in Room for KMP that requires platform-specific logic.
 
-In<FontIcon icon="fas fa-folder-open"/>`androidMain`, we create a function that takes in an Android`Context`to define a database path and uses this to return a database builder.
+In<VPIcon icon="fas fa-folder-open"/>`androidMain`, we create a function that takes in an Android`Context`to define a database path and uses this to return a database builder.
 
 ```kotlin title="getDatabaseBuilder.android.kt"
 fun getDatabaseBuilder(context: Context): RoomDatabase.Builder<MovieDatabase> {
@@ -218,7 +218,7 @@ fun getDatabaseBuilder(context: Context): RoomDatabase.Builder<MovieDatabase> {
 
 <!-- @import https://gist.github.com/shorthouse/bb5d91b7d8328afb8dae780d375f3e3b/raw/9c541d2504981537ea5c69279b1162898b5ca878/getDatabaseBuilder.android.kt -->
 
-Similarly, in<FontIcon icon="fas fa-folder-open"/>`iosMain`we create a function that uses`NSFileManager`and`NSDocumentDirectory`to define a database path and return a database builder.
+Similarly, in<VPIcon icon="fas fa-folder-open"/>`iosMain`we create a function that uses`NSFileManager`and`NSDocumentDirectory`to define a database path and return a database builder.
 
 ```kotlin :collapsed-lines title="getDatabaseBuilder.ios.kt"
 fun getDatabaseBuilder(): RoomDatabase.Builder<MovieDatabase> {
@@ -246,7 +246,7 @@ private fun documentDirectory(): String {
 
 ### Database creation
 
-Back in<FontIcon icon="fas fa-folder-open"/>`commonMain`, we define a function that takes in the platform-specific database builders and creates the database. For the database driver, we use the`BundledSQLiteDriver`— this is the[<FontIcon icon="fa-brands fa-android"/>recommended](https://developer.android.com/kotlin/multiplatform/room#database-instantiation) driver for Room KMP as it provides the most consistent and up-to-date version of SQLite across all platforms. The`BundledSQLiteDriver`also has the benefit of being usable in common code, which means we don’t have to specify a driver for each platform.
+Back in<VPIcon icon="fas fa-folder-open"/>`commonMain`, we define a function that takes in the platform-specific database builders and creates the database. For the database driver, we use the`BundledSQLiteDriver`— this is the[<VPIcon icon="fa-brands fa-android"/>recommended](https://developer.android.com/kotlin/multiplatform/room#database-instantiation) driver for Room KMP as it provides the most consistent and up-to-date version of SQLite across all platforms. The`BundledSQLiteDriver`also has the benefit of being usable in common code, which means we don’t have to specify a driver for each platform.
 
 ```kotlin title="getMovieDatabase.kt"
 fun getMovieDatabase(builder: RoomDatabase.Builder<MovieDatabase>): MovieDatabase {
@@ -259,13 +259,13 @@ fun getMovieDatabase(builder: RoomDatabase.Builder<MovieDatabase>): MovieDatabas
 
 <!-- @import https://gist.github.com/shorthouse/d14a567bd1e94b9cc60b027da463f3d0/raw/dbc05be6efaee599ad6fa430a2a9ce2521b5fb75/getMovieDatabase.kt -->
 
-We also configure the database to use`Dispatchers.IO`for executing asynchronous queries, which is the[<FontIcon icon="iconfont icon-kotlin"/>recommended](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-i-o.html)`Dispatcher`for database IO operations and ensures the queries won’t block the UI thread.
+We also configure the database to use`Dispatchers.IO`for executing asynchronous queries, which is the[<VPIcon icon="iconfont icon-kotlin"/>recommended](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-i-o.html)`Dispatcher`for database IO operations and ensures the queries won’t block the UI thread.
 
 ---
 
 ## Koin setup
 
-The final part of this Room KMP setup is using Koin to tie everything together. To start, we create a`commonModule`in<FontIcon icon="fas fa-folder-open"/>`commonMain`to manage shared dependencies.
+The final part of this Room KMP setup is using Koin to tie everything together. To start, we create a`commonModule`in<VPIcon icon="fas fa-folder-open"/>`commonMain`to manage shared dependencies.
 
 ```kotlin title="CommonModule.kt"
 fun commonModule(): Module = module {
@@ -275,7 +275,7 @@ fun commonModule(): Module = module {
 
 <!-- @import https://gist.github.com/shorthouse/9ec1dcedf5e233154fa9825f996c0d95/raw/6a2c392f34364cefee98dd9ec77bc28d44994323/CommonModule.kt -->
 
-For platform-specific dependencies, we create a`platformModule`in<FontIcon icon="fas fa-folder-open"/>`commonMain`using the`expect`/`actual`mechanism.
+For platform-specific dependencies, we create a`platformModule`in<VPIcon icon="fas fa-folder-open"/>`commonMain`using the`expect`/`actual`mechanism.
 
 ```kotlin title="PlatformModule.kt"
 expect fun platformModule(): Module
@@ -296,7 +296,7 @@ actual fun platformModule(): Module = module {
 
 <!-- @import https://gist.github.com/shorthouse/f80b9531220bd1c6a0724c59b36d1d22/raw/ede41fc89e0f8fb3e79c8b44bd8d209209370cfd/PlatformModule.android.kt -->
 
-Implementing the`platformModule`in<FontIcon icon="fas fa-folder-op"/>`iosMain`is simpler since it does not require a`Context`value.
+Implementing the`platformModule`in<VPIcon icon="fas fa-folder-op"/>`iosMain`is simpler since it does not require a`Context`value.
 
 ```kotlin title="PlatformModule.ios.kt"
 actual fun platformModule(): Module = module {
@@ -342,7 +342,7 @@ class MainApplication : Application() {
 
 <!-- @import https://gist.github.com/shorthouse/b39ece9874aa74604fc8353bfae8ed22/raw/1bea3e6aa396b8fc06fd016081580b0c5d97fb23/MainApplication.kt -->
 
-To use this new`MainApplication`class, we are required to update the<FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`file.
+To use this new`MainApplication`class, we are required to update the<VPIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`file.
 
 ```xml title="AndroidManifest.xml"
 <?xml version="1.0" encoding="utf-8"?>
@@ -398,7 +398,7 @@ That’s it! We can now inject the`MovieDao`in common code, giving us access to 
 
 To visualise the Room implementation, we’ll build a movie list screen using Compose Multiplatform and launch the app on both Android and iOS, all within our common code.
 
-We start by defining a`MovieUiState`for the screen, which holds a movie name the user can enter, and a list of movies to display. For the movie name, we use the[recommended (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/basictextfield2-a-textfield-of-dreams-1-2-0103fd7cc0ec)`TextFieldValue`instead of a simple`String`value.
+We start by defining a`MovieUiState`for the screen, which holds a movie name the user can enter, and a list of movies to display. For the movie name, we use the[recommended (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/basictextfield2-a-textfield-of-dreams-1-2-0103fd7cc0ec)`TextFieldValue`instead of a simple`String`value.
 
 ```kotlin title="MovieUiState.kt"
 data class MovieUiState(
@@ -446,7 +446,7 @@ class MovieViewModel(private val movieDao: MovieDao): ViewModel() {
 
 <!-- @import https://gist.github.com/shorthouse/52216e4f0881a0eb80775d9801405284/raw/5e798082e4d65d5deacf0f8a6fc286c757e4a18b/MovieViewModel.kt -->
 
-The`stateIn`operator is the[<FontIcon icon="fa-brands fa-android"/>recommended](https://developer.android.com/topic/architecture/ui-layer/state-production#stream-apis)way to produce UI state from reactive streams. A key reason for this is because it allows state production to start only when collection begins in the UI, instead of occurring as soon as the`ViewModel`is created if the`init{}`function is used. This gives you more control over the`ViewModel`and`uiState`, making it easier to test.
+The`stateIn`operator is the[<VPIcon icon="fa-brands fa-android"/>recommended](https://developer.android.com/topic/architecture/ui-layer/state-production#stream-apis)way to produce UI state from reactive streams. A key reason for this is because it allows state production to start only when collection begins in the UI, instead of occurring as soon as the`ViewModel`is created if the`init{}`function is used. This gives you more control over the`ViewModel`and`uiState`, making it easier to test.
 
 The`stateIn`operator also gives us finer-grained control over the state production behaviour through the`started`parameter. This can be set to either`SharingStarted.WhileSubscribed`if the state should only be active when the UI is visible, or`SharingStarted.Lazily`if the state should be active as long as the user may return to the UI.
 
@@ -492,7 +492,7 @@ fun commonModule(): Module = module {
 
 ### Movie screen
 
-With the`ViewModel`set up, the next step is to create the screen. It is[<FontIcon icon="fa-brands fa-android"/>recommended practice](https://developer.android.com/jetpack/compose/state#stateful-vs-stateless)to create both a*stateful*and a*stateless*version of each screen in your app, as it makes them more reusable, easier to test, and simpler to preview.
+With the`ViewModel`set up, the next step is to create the screen. It is[<VPIcon icon="fa-brands fa-android"/>recommended practice](https://developer.android.com/jetpack/compose/state#stateful-vs-stateless)to create both a*stateful*and a*stateless*version of each screen in your app, as it makes them more reusable, easier to test, and simpler to preview.
 
 We first create the*stateful*screen by injecting the`ViewModel`using Koin and collecting the UI state. We then pass the UI state and the state updating functions into the*stateless*screen.
 
@@ -641,13 +641,13 @@ fun App() {
 
 That wraps up this article — I hope it has given you a better understanding of how to use Room in Kotlin Multiplatform with Koin.
 
-You can find my app projects on[GitHub (<FontIcon icon="iconfont icon-github"/>`shorthouse`)](https://github.com/shorthouse)— feel free to reach out with any questions or feedback.
+You can find my app projects on[GitHub (<VPIcon icon="iconfont icon-github"/>`shorthouse`)](https://github.com/shorthouse)— feel free to reach out with any questions or feedback.
 
 Happy coding!
 
 ::: info
 
-This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/room-in-kotlin-multiplatform-kmp-with-koin-d7716bdd8783)
+This article is previously published on [proandroiddev.com (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/room-in-kotlin-multiplatform-kmp-with-koin-d7716bdd8783)
 
 <SiteInfo
   name="Room setup in Kotlin Multiplatform (KMP) with Koin"

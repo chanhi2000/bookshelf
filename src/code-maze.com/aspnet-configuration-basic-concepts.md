@@ -55,7 +55,7 @@ Once we go through the basic concepts, we’ll tackle some of the advanced ones,
 
 ::: info
 
-The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [<FontIcon icon="fas fa-code-branch"/>`start` (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/start) branch. To check out the finished source code, check out the [<FontIcon icon="fas fa-code-branch"/>`basic-concepts` (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/basic-concepts) branch.
+The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [<VPIcon icon="fas fa-code-branch"/>`start` (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/start) branch. To check out the finished source code, check out the [<VPIcon icon="fas fa-code-branch"/>`basic-concepts` (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/basic-concepts) branch.
 
 <SiteInfo
   name="CodeMazeBlog/aspnet-core-configuration"
@@ -256,7 +256,7 @@ public IActionResult Index()
 }
 ```
 
-And change our Home <FontIcon icon="fa-brands fa-html5"/>`Index.html` a bit:
+And change our Home <VPIcon icon="fa-brands fa-html5"/>`Index.html` a bit:
 
 ```html
 @ {
@@ -335,7 +335,7 @@ public static string GetConnectionString(this IConfiguration configuration, stri
 ```
 
 We can see that it’s just the implementation of the GetSection() method. It takes a name of the connection string and then tries to find it within the “ConnectionStrings” section.
-That’s why our connection strings should be located within that section inside our <FontIcon icon="iconfont icon-json"/>`appsettings.json` file:
+That’s why our connection strings should be located within that section inside our <VPIcon icon="iconfont icon-json"/>`appsettings.json` file:
 
 ```json
 {
@@ -422,7 +422,7 @@ Any application that is meant to go to the production has at least two environme
 
 Check out our article about using [multiple environments in ASP.NET Core](/code-maze.com/multiple-environments-in-asp-net-core.md) to learn about it in more detail.
 
-As you might have noticed, our project template has two appsettings files. One is the default <FontIcon icon="iconfont icon-json"/>`appsettings.json` file, and another is <FontIcon icon="iconfont icon-json"/>`appsettings.Development.json`. In this file, we can override any value from the <FontIcon icon="iconfont icon-json"/>`appsettings.json` file and it will be used when we are working in the development environment.
+As you might have noticed, our project template has two appsettings files. One is the default <VPIcon icon="iconfont icon-json"/>`appsettings.json` file, and another is <VPIcon icon="iconfont icon-json"/>`appsettings.Development.json`. In this file, we can override any value from the <VPIcon icon="iconfont icon-json"/>`appsettings.json` file and it will be used when we are working in the development environment.
 
 The practical example of the usage would be having different configuration strings for production and development since we don’t want to mess up the production database during development.
 
@@ -449,7 +449,7 @@ For example, this would be a connection string for the development:
 }
 ```
 
-And now we can create an <FontIcon icon="iconfont icon-json"/>`appsettings.Production.json` file in which we will change the connection string to something else:
+And now we can create an <VPIcon icon="iconfont icon-json"/>`appsettings.Production.json` file in which we will change the connection string to something else:
 
 ```json
 {
@@ -459,7 +459,7 @@ And now we can create an <FontIcon icon="iconfont icon-json"/>`appsettings.Produ
 }
 ```
 
-That’s it. Once the application is running in the production environment (indicated by the `ASPNETCORE_ENVIRONMENT` environment variable), the production string from the <FontIcon icon="iconfont icon-json"/>`apsettings.Production.json` will be used instead of the default one.
+That’s it. Once the application is running in the production environment (indicated by the `ASPNETCORE_ENVIRONMENT` environment variable), the production string from the <VPIcon icon="iconfont icon-json"/>`apsettings.Production.json` will be used instead of the default one.
 
 ---
 

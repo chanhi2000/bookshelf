@@ -53,7 +53,7 @@ isOriginal: false
 }
 ```
 
-.<FontIcon icon="fas fa-file-lines"/>`Makefile`은 UNIX 계열 OS에서 일반적인 빌드 도구인 `make`에 실행할 절차를 기술한 텍스트 파일이다.
+.<VPIcon icon="fas fa-file-lines"/>`Makefile`은 UNIX 계열 OS에서 일반적인 빌드 도구인 `make`에 실행할 절차를 기술한 텍스트 파일이다.
 
 ---
 
@@ -175,7 +175,7 @@ install: $(PROGRAM)
 
 다양화되는 규칙은 굳이 설명하지 않아도 미리 암묵적인 정의된 변수가 있다.
 
-.<FontIcon icon="iconfont icon-c"/>C 소스 파일의 컴파일에 사용되는 레시피는 실제로 `$(CC) -c $(CFLAGS) $(CPPFLAGS)`라는 코드가 실행되고 있다. `CC`, `CFLAGS`, `CPPFLAGS`는 미리 변수로 정의되어 있으며, 이 내용을 덮어써서 컴파일 레시피를 다시 작성할 수도 있다.
+.<VPIcon icon="iconfont icon-c"/>C 소스 파일의 컴파일에 사용되는 레시피는 실제로 `$(CC) -c $(CFLAGS) $(CPPFLAGS)`라는 코드가 실행되고 있다. `CC`, `CFLAGS`, `CPPFLAGS`는 미리 변수로 정의되어 있으며, 이 내용을 덮어써서 컴파일 레시피를 다시 작성할 수도 있다.
 
 ### 암묵적 변수 목록
 
@@ -206,7 +206,7 @@ install: $(PROGRAM)
 | `ARFLAGS` | 아카이브 유지 보수 프로그램에 제공하는 플래그  | `rv` |
 | `ASFLAGS` | 어셈블러에 주는 플래그(`.s` 또는 `.S` 파일에 대해 명시적으로 호출되는 경우) | 없음 |
 | `CFLAGS` | C 컴파일러에 주는 플래그 | 없음 |
-| `CXXFLAGS` | <FontIcon icon="fa-brands fa-name"/>C++ 컴파일러에 주는 플래그 | 없음 |
+| `CXXFLAGS` | <VPIcon icon="fa-brands fa-name"/>C++ 컴파일러에 주는 플래그 | 없음 |
 | `COFLAGS` | RCS co 프로그램에 주는 플래그 | 없음 |
 | `CPPFLAGS` | C 프리프로세서 및 프로그램에 제공하는 플래그(C 및 Fortran 컴파일러 | 없음 |
 | `FFLAG` | Fortran 컴파일러에 주는 플래그 | 없음 |
@@ -560,7 +560,7 @@ $(warning CFLAGS = $(CFLAGS)) # => Makefile:20: CFLAGS =  -Wall -Wextra -Werror
 
 ## g++와 make와 cmake의 install 방법
 
-### <FontIcon icon="fa-brands fa-windows"/>Windows에서 설치
+### <VPIcon icon="fa-brands fa-windows"/>Windows에서 설치
 
 Windows OS에서 **g++/gcc**는 **MinGW**를, `make`는 **GnuWin**을, `cmake`는 **cmake.zipinstall**을 통해 사용할 수 있다.
 
@@ -594,7 +594,7 @@ installer를 Download하여 설치한다.
 ```
 
 - installer를 Download하여 설치한다.
-- <FontIcon icon="fas fa-folder-open"/>`C:Program Files (x86)\GnuWin32\bin`으로 경로를 지정한다.
+- <VPIcon icon="fas fa-folder-open"/>`C:Program Files (x86)\GnuWin32\bin`으로 경로를 지정한다.
 
 @tab GUI로 cmake를 install
 
@@ -623,10 +623,10 @@ choco install make
 
 아래의 `path` 등에 설치되므로 `path`를 통해 설치한다.
 
-- <FontIcon icon="fas fa-folder-open"/>`C:\Program Files (x86)\MinGW\bin`
-- <FontIcon icon="fas fa-folder-open"/>`C:\Program Files (x86)\GnuWin32\bin`
+- <VPIcon icon="fas fa-folder-open"/>`C:\Program Files (x86)\MinGW\bin`
+- <VPIcon icon="fas fa-folder-open"/>`C:\Program Files (x86)\GnuWin32\bin`
  
-### <FontIcon icon="fa-brands fa-debian"/>리눅스에서 설치
+### <VPIcon icon="fa-brands fa-debian"/>리눅스에서 설치
 
 ::: tabs
 

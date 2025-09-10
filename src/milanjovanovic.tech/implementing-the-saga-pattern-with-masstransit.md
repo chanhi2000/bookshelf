@@ -91,7 +91,7 @@ Each step is independent and can be compensated if needed. If the inventory serv
 
 ### State Machine Fundamentals
 
-A [<FontIcon icon="fas fa-globe"/>state machine](https://masstransit.io/documentation/patterns/saga/state-machine) consists of several key components:
+A [<VPIcon icon="fas fa-globe"/>state machine](https://masstransit.io/documentation/patterns/saga/state-machine) consists of several key components:
 
 1. **States**: Represent the possible conditions of your saga instance
 2. **Events**: Messages that can trigger state transitions
@@ -376,7 +376,7 @@ Good luck out there, and see you next week.
 
 ::: note P.S.
 
-You can find the code for the saga pattern implementation with MassTransit in [this repository (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/saga-pattern-masstransit`)](https://github.com/m-jovanovic/saga-pattern-masstransit).
+You can find the code for the saga pattern implementation with MassTransit in [this repository (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/saga-pattern-masstransit`)](https://github.com/m-jovanovic/saga-pattern-masstransit).
 
 <SiteInfo
   name="m-jovanovic/saga-pattern-masstransit"

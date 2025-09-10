@@ -58,7 +58,7 @@ Since the creation of the internet and the widespread adoption of smartphones, d
 
 ![Best CMS Platforms Astro JS](/assets/image/blog.logrocket.com/best-headless-cms-platforms-astro/banner.png)
 
-In this article, we’ll explore some tools, known as content management systems, that can efficiently manage and deliver content across a wide range of platforms and applications. We’ll highlight their role in enhancing productivity, enabling collaboration, and optimizing content delivery. We’ll also discuss the various types of content management systems available, reviewing the best ones to consider using in your next [<FontIcon icon="iconfont icon-astro"/>Astro project](https://astro.build/). Let’s get started!
+In this article, we’ll explore some tools, known as content management systems, that can efficiently manage and deliver content across a wide range of platforms and applications. We’ll highlight their role in enhancing productivity, enabling collaboration, and optimizing content delivery. We’ll also discuss the various types of content management systems available, reviewing the best ones to consider using in your next [<VPIcon icon="iconfont icon-astro"/>Astro project](https://astro.build/). Let’s get started!
 
 ---
 
@@ -108,7 +108,7 @@ In case you’re wondering, the term “headless” is derived from the concept 
 
 There are two main types of headless CMS platforms. API-based headless CMS platforms are purpose-built to deliver content through APIs. They provide a user-friendly interface for content management and strong APIs for content delivery. A few examples include Contentful, Prismic, and ButterCMS.
 
-On the other hand, Git-based headless CMS platforms use [<FontIcon icon="fas fa-globe"/>Git version control to manage content](https://blog.logrocket.com/product-management/version-control-systems-definition-types/). You can make changes by pushing updates to a Git repository and triggering the CMS to update the content. A few popular options include Netlify CMS and Forestry.
+On the other hand, Git-based headless CMS platforms use [<VPIcon icon="fas fa-globe"/>Git version control to manage content](https://blog.logrocket.com/product-management/version-control-systems-definition-types/). You can make changes by pushing updates to a Git repository and triggering the CMS to update the content. A few popular options include Netlify CMS and Forestry.
 
 Incorporating a headless CMS with a framework like Astro can unlock the following benefits:
 
@@ -133,13 +133,13 @@ Overall, Contentful CMS is a versatile solution for businesses seeking a content
 
 ## Cosmic
 
-[<FontIcon icon="fas fa-globe"/>Cosmic](https://cosmicjs.com/) CMS is a headless CMS that focuses on content management, providing a user-friendly interface for creating and managing content. It offers content delivery APIs, customizable content models, collaboration features, localization support, integrations, and scalability. Cosmic CMS is ideal for developers and businesses seeking a flexible CMS that separates content management from the presentation layer.
+[<VPIcon icon="fas fa-globe"/>Cosmic](https://cosmicjs.com/) CMS is a headless CMS that focuses on content management, providing a user-friendly interface for creating and managing content. It offers content delivery APIs, customizable content models, collaboration features, localization support, integrations, and scalability. Cosmic CMS is ideal for developers and businesses seeking a flexible CMS that separates content management from the presentation layer.
 
 ---
 
 ## Webiny
 
-[<FontIcon icon="fas fa-globe"/>Webiny Headless CMS](https://webiny.com/enterprise-serverless-cms/headless-cms) is an open source content management system designed for creating scalable and customizable websites and applications. It offers a flexible content modeling system, allowing users to define custom content types and fields to suit their specific requirements.
+[<VPIcon icon="fas fa-globe"/>Webiny Headless CMS](https://webiny.com/enterprise-serverless-cms/headless-cms) is an open source content management system designed for creating scalable and customizable websites and applications. It offers a flexible content modeling system, allowing users to define custom content types and fields to suit their specific requirements.
 
 Webiny provides a GraphQL API that developers can utilize to retrieve content efficiently. It allows for precise data querying, ensuring optimal performance. Built on a serverless infrastructure, Webiny Headless CMS leverages serverless computing technology. Therefore, it eliminates the need for manual server management, providing automatic scaling and high availability.
 
@@ -149,7 +149,7 @@ Webiny CMS prioritizes extensibility, allowing developers to create custom plugi
 
 ## Prismic
 
-[<FontIcon icon="fas fa-globe"/>Prismic](https://prismic.io/) is a headless, API-first CMS that allows businesses to manage and deliver content across digital platforms. It offers flexible content modeling, empowering users to define custom content types and structure their content.
+[<VPIcon icon="fas fa-globe"/>Prismic](https://prismic.io/) is a headless, API-first CMS that allows businesses to manage and deliver content across digital platforms. It offers flexible content modeling, empowering users to define custom content types and structure their content.
 
 The CMS incorporates a unique feature called “slices” for creating dynamic and reusable content components, promoting efficiency and consistency. Prismic CMS also supports localization and version control, facilitating collaboration among teams.
 

@@ -84,7 +84,7 @@ cd react-outside-click
 yarn start
 ```
 
-Now, we need to create a new functional component to implement the tooltip component. Add the following code into <FontIcon icon="fas fa-folder-open"/>`src/components/`<FontIcon icon="fa-brands fa-react"/>`InfoBoxFunctional.js`.
+Now, we need to create a new functional component to implement the tooltip component. Add the following code into <VPIcon icon="fas fa-folder-open"/>`src/components/`<VPIcon icon="fa-brands fa-react"/>`InfoBoxFunctional.js`.
 
 ```jsx :collapsed-lines title="components/InfoBoxFunctiona.js"
 import { useEffect, useRef } from 'react';
@@ -115,7 +115,7 @@ export function InfoBox(props) {
 }
 ```
 
-The above code snippet assigns the current component instance’s DOM reference to the `ref` variable with the help of the `useRef` Hook. After that, it registers a click handler inside the `useEffect` Hook to the entire [<FontIcon icon="fa-brands fa-firefox"/>document](https://developer.mozilla.org/en-US/docs/Web/API/Document) to detect global click events.
+The above code snippet assigns the current component instance’s DOM reference to the `ref` variable with the help of the `useRef` Hook. After that, it registers a click handler inside the `useEffect` Hook to the entire [<VPIcon icon="fa-brands fa-firefox"/>document](https://developer.mozilla.org/en-US/docs/Web/API/Document) to detect global click events.
 
 We can also return a function with cleanup code from the `useEffect` Hook, which means we can unregister our global click event listener when the component is unmounted. As you can see, the above code implements cleanup code with the `removeEventListener` DOM API function.
 
@@ -132,7 +132,7 @@ The `handleClickOutside` function is triggered whenever the user clicks the docu
 
 The above code checks whether the user clicks on the tooltip (or its children) via the `contains` DOM API function. Hence, the `onClickOutside` callback will be executed if a click event occurs outside of the tooltip component instance.
 
-The `InfoBox` component is ready now. Add the following CSS code to the <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-css3-alt"/>`index.css` file to apply some styles for the `InfoBox` component. You can also move your InfoBox-related CSS into a separate file, if you like. We’ll use the <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` file for demonstration purposes.
+The `InfoBox` component is ready now. Add the following CSS code to the <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-css3-alt"/>`index.css` file to apply some styles for the `InfoBox` component. You can also move your InfoBox-related CSS into a separate file, if you like. We’ll use the <VPIcon icon="fa-brands fa-css3-alt"/>`index.css` file for demonstration purposes.
 
 ```css :collapsed-lines title="index.css"
 body {
@@ -164,7 +164,7 @@ body {
 }
 ```
 
-Finally, update your <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`App.js` file with the following code to get our main application working.
+Finally, update your <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`App.js` file with the following code to get our main application working.
 
 ```jsx title="App.jsx"
 import { useState } from 'react';
@@ -193,7 +193,7 @@ Look at the running application below. We can close the InfoBox instance by clic
 
 ## Detecting an outside click of a class-based component
 
-The class-based component approach looks very similar to the functional component. We use the same props, DOM APIs, and implementation logic, but we have to write our code in the class-based style. Add the following code to <FontIcon icon="fas fa-folder-open"/>`src/components/`<FontIcon icon="fa-brands fa-react"/>`InfoBoxClassBased.js`.
+The class-based component approach looks very similar to the functional component. We use the same props, DOM APIs, and implementation logic, but we have to write our code in the class-based style. Add the following code to <VPIcon icon="fas fa-folder-open"/>`src/components/`<VPIcon icon="fa-brands fa-react"/>`InfoBoxClassBased.js`.
 
 ```jsx :collapsed-lines title="components/InfoBoxClassBased.js"
 import React from 'react';
@@ -232,25 +232,25 @@ export class InfoBox extends React.Component {
 
 The above code snippet is similar to the functional component code, but there are some differences. For example, we use `React.createRef` instead of the `useRef` Hook because we [**cannot use React Hooks with class-based components**](/blog.logrocket.com/understanding-common-frustrations-react-hooks.md).
 
-Now, update your <FontIcon icon="fa-brands fa-react"/>`App.js` by adding your new component references, as shown below. Note that we are using both functional and class-based components in the demo application, but you can use only the class-based implementation as you wish.
+Now, update your <VPIcon icon="fa-brands fa-react"/>`App.js` by adding your new component references, as shown below. Note that we are using both functional and class-based components in the demo application, but you can use only the class-based implementation as you wish.
 
 Let’s look at the running application once more. Now, there are two InfoBox instances: the class-based implementation and the functional implementation.
 
 ![Detect an outside click with a class-based component](/assets/image/blog.logrocket.com/detect-click-outside-react-component-how-to/detect-click-outside-class-based-component.webp)
 
-Here we used the `click` event to bind click event listeners. You can also use the `mousedown` event according to your requirements. You can find the [full source code on my GitHub (<FontIcon icon="iconfont icon-github"/>`codezri/react-outside-click`)](https://github.com/codezri/react-outside-click).
+Here we used the `click` event to bind click event listeners. You can also use the `mousedown` event according to your requirements. You can find the [full source code on my GitHub (<VPIcon icon="iconfont icon-github"/>`codezri/react-outside-click`)](https://github.com/codezri/react-outside-click).
 
 ---
 
 ## React Outside Click Handler: An alternative method
 
-As I mentioned before, you can easily add this outside click detection code to any of your React components. The implementation consists of a few DOM API function calls and React API usages. But, nowadays, we have npm libraries for literally anything we can think to do with React — including several libraries for this scenario. If you need to add this outside click detection logic into many components, and you don’t want to implement it yourself,  you can use a library. The [<FontIcon icon="fa-brands fa-npm"/>`react-outside-click-handler`](https://npmjs.com/package/react-outside-click-handler) is a rather popular library for handling outside click events. Like any other npm library, this also affects your production bundle size a bit. React Outside Click Handler increases your production bundle size by about 20 kB. Let’s update our project with this npm library. We are going to modify both functional and class-based components by adding references to this npm library. Copy your current project into another directory and rename it to <FontIcon icon="fa-brands fa-npm"/>`react-outside-click-lib`. Install the npm library with the following command.
+As I mentioned before, you can easily add this outside click detection code to any of your React components. The implementation consists of a few DOM API function calls and React API usages. But, nowadays, we have npm libraries for literally anything we can think to do with React — including several libraries for this scenario. If you need to add this outside click detection logic into many components, and you don’t want to implement it yourself,  you can use a library. The [<VPIcon icon="fa-brands fa-npm"/>`react-outside-click-handler`](https://npmjs.com/package/react-outside-click-handler) is a rather popular library for handling outside click events. Like any other npm library, this also affects your production bundle size a bit. React Outside Click Handler increases your production bundle size by about 20 kB. Let’s update our project with this npm library. We are going to modify both functional and class-based components by adding references to this npm library. Copy your current project into another directory and rename it to <VPIcon icon="fa-brands fa-npm"/>`react-outside-click-lib`. Install the npm library with the following command.
 
 ```sh
 yarn add react-outside-click-handler
 ```
 
-Update both components. First, add the following code to <FontIcon icon="fas fa-folder-open"/>`src/components/`<FontIcon icon="fa-brands fa-react"/>`InfoBoxFunctional.js`.
+Update both components. First, add the following code to <VPIcon icon="fas fa-folder-open"/>`src/components/`<VPIcon icon="fa-brands fa-react"/>`InfoBoxFunctional.js`.
 
 ```jsx title="components/InfoBoxFunctional.js"
 export function InfoBox(props) {  
@@ -264,7 +264,7 @@ export function InfoBox(props) {
 }
 ```
 
-After that, you can add the following code to <FontIcon icon="fas fa-folder-open"/>`src/components/`<FontIcon icon="fa-brands fa-react"/>`InfoBoxClassBased.js`.
+After that, you can add the following code to <VPIcon icon="fas fa-folder-open"/>`src/components/`<VPIcon icon="fa-brands fa-react"/>`InfoBoxClassBased.js`.
 
 ```jsx title="components/InfoBoxClassBased.js"
 import React from 'react';
@@ -319,7 +319,7 @@ See the running application below. You’ll see the same app we had earlier, but
 
 ![Detect an outside click with the React Outside Click Handler library](/assets/image/blog.logrocket.com/detect-click-outside-react-component-how-to/detect-outside-click-with-react-outside-click-handler.webp)
 
-You can find the [full source code on my GitHub (<FontIcon icon="iconfont icon-github"/>`codezri/react-outside-click-lib`)](https://github.com/codezri/react-outside-click-lib).
+You can find the [full source code on my GitHub (<VPIcon icon="iconfont icon-github"/>`codezri/react-outside-click-lib`)](https://github.com/codezri/react-outside-click-lib).
 
 ---
 
@@ -327,7 +327,7 @@ You can find the [full source code on my GitHub (<FontIcon icon="iconfont icon-g
 
 Outside click detection is useful in various UI elements such as popups, dropdowns, and menus. Web developers often tend to integrate libraries for even simple things that they can implement themselves. Adding excessive dependencies can slow down your web app, make your bundle size heavy, and make your codebase less maintainable.
 
-Therefore, it’s better if you can implement this outside click detection by yourself, but if you can’t — we need rapid feature implementations for web applications these days, after all — there won’t be any issue if you integrate the [React Outside Click Handler library (<FontIcon icon="fa-brands fa-npm"/>`react-outside-click-handler`)](https://npmjs.com/package/react-outside-click-handler) since it will increase your production bundle size only a little, by just 20 kilobytes.
+Therefore, it’s better if you can implement this outside click detection by yourself, but if you can’t — we need rapid feature implementations for web applications these days, after all — there won’t be any issue if you integrate the [React Outside Click Handler library (<VPIcon icon="fa-brands fa-npm"/>`react-outside-click-handler`)](https://npmjs.com/package/react-outside-click-handler) since it will increase your production bundle size only a little, by just 20 kilobytes.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

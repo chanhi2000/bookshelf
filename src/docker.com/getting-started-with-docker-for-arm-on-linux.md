@@ -54,7 +54,7 @@ cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583
 
 *This blog post is the result of collaboration between Arm and Docker.  Special thanks to Jason Andrews @ Arm for creating much of the original content.*
 
-Arm and Docker announced a [<FontIcon icon="iconfont icon-arm"/>strategic partnership](https://arm.com/company/news/2019/04/docker-and-arm-partnership) earlier this year to unify software development and deployment across a diverse set of devices, from IoT endpoints to the edge of the network, and into the heart of the data center. Docker has simplified enterprise software development and deployment leading to true multi-platform portability and cost savings on Arm-based cloud instances. Even more exciting is how Docker is changing the way embedded software is being developed and deployed.
+Arm and Docker announced a [<VPIcon icon="iconfont icon-arm"/>strategic partnership](https://arm.com/company/news/2019/04/docker-and-arm-partnership) earlier this year to unify software development and deployment across a diverse set of devices, from IoT endpoints to the edge of the network, and into the heart of the data center. Docker has simplified enterprise software development and deployment leading to true multi-platform portability and cost savings on Arm-based cloud instances. Even more exciting is how Docker is changing the way embedded software is being developed and deployed.
 
 Traditionally embedded Linux software applications have been created by cross-compiling and copying files to an embedded target board. There are various methods to automate this process, but it has generally been unchanged since the 1990’s when non-x86 embedded possessors running Linux appeared.  Docker stands to make the first significant change to the embedded Linux application developer’s workflow.
 
@@ -68,9 +68,9 @@ Let’s see how to use Docker for Arm software development using the new buildx 
 
 ## Install Docker
 
-Installing Docker on Linux takes just a few commands. More installation info is available in the [<FontIcon icon="fa-brands fa-docker"/>Docker Documentation](https://docs.docker.com/install/).
+Installing Docker on Linux takes just a few commands. More installation info is available in the [<VPIcon icon="fa-brands fa-docker"/>Docker Documentation](https://docs.docker.com/install/).
 
-If you already have an older version of Docker, make sure to [<FontIcon icon="fa-brands fa-docker"/>uninstall](https://docs.docker.com/install/) it first.  Using buildx requires Docker 19.03 and today the best way to get this is using the test instead of the stable version.
+If you already have an older version of Docker, make sure to [<VPIcon icon="fa-brands fa-docker"/>uninstall](https://docs.docker.com/install/) it first.  Using buildx requires Docker 19.03 and today the best way to get this is using the test instead of the stable version.
 
 ```sh
 sudo apt-get update
@@ -149,10 +149,10 @@ docker version
 
 ## Install buildx for multi-architecture image builds
 
-There are three options to get [<FontIcon icon="iconfont icon-github"/>`docker/buildx`](https://github.com/docker/buildx) on Linux:
+There are three options to get [<VPIcon icon="iconfont icon-github"/>`docker/buildx`](https://github.com/docker/buildx) on Linux:
 
 - Use buildx directly from the test channel version of Docker
-- Download a [binary release <FontIcon icon="iconfont icon-github"/>`docker/buildx`](https://github.com/docker/buildx#binary-release) of buildx and copy it to the $HOME/.docker directory
+- Download a [binary release <VPIcon icon="iconfont icon-github"/>`docker/buildx`](https://github.com/docker/buildx#binary-release) of buildx and copy it to the $HOME/.docker directory
 - Download, build, and install buildx from github.com
 
 ### Use buildx from Docker test channel
@@ -184,7 +184,7 @@ cp buildx-v0.2.0.linux-amd64 ~/.docker/cli-plugins/docker-buildx
 
 ### Download, build, and install buildx
 
-Because buildx is a new command and documentation is still catching up, [<FontIcon icon="iconfont icon-github"/>`docker/buildx`](https://github.com/docker/buildx) is a good place to read more information about how buildx works.
+Because buildx is a new command and documentation is still catching up, [<VPIcon icon="iconfont icon-github"/>`docker/buildx`](https://github.com/docker/buildx) is a good place to read more information about how buildx works.
 
 To get buildx from github use the commands:
 
@@ -228,7 +228,7 @@ docker buildx version
 
 ## Register Arm executables to run on x64 machines
 
-Install the qemu instruction emulation to register Arm executables to run on the x86 machine. For best results, the [latest qemu image (<FontIcon icon="fa-brands fa-docker"/>`docker/binfmt`)](https://hub.docker.com/r/docker/binfmt/tags) should be used. If an older qemu is used some application may not work correctly on the x86 hardware.
+Install the qemu instruction emulation to register Arm executables to run on the x86 machine. For best results, the [latest qemu image (<VPIcon icon="fa-brands fa-docker"/>`docker/binfmt`)](https://hub.docker.com/r/docker/binfmt/tags) should be used. If an older qemu is used some application may not work correctly on the x86 hardware.
 
 ```sh
 docker run --rm --privileged docker/binfmt:820fdd95a9972a5308930a2bdfb8573dd4447ad3 
@@ -271,7 +271,7 @@ docker buildx inspect --bootstrap
 
 ## Try buildx
 
-There are multiple examples of buildx available, but here is a simple one for C programmers!  Create a file named <FontIcon icon="iconfont icon-c"/>`hello.c` with this code:
+There are multiple examples of buildx available, but here is a simple one for C programmers!  Create a file named <VPIcon icon="iconfont icon-c"/>`hello.c` with this code:
 
 ```c title="hello.c"
 /*
@@ -290,7 +290,7 @@ int main() {
 }
 ```
 
-Here is a Docker file to build and run it. Let’s get used to using multi-stage Docker files as it will be common for deploying embedded applications. Create a <FontIcon icon="fa-brands fa-dockerfile"/>`Dockerfile` with the following:
+Here is a Docker file to build and run it. Let’s get used to using multi-stage Docker files as it will be common for deploying embedded applications. Create a <VPIcon icon="fa-brands fa-dockerfile"/>`Dockerfile` with the following:
 
 ```dockerfile title="Dockerfile"
 FROM alpine AS builder 

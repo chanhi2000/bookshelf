@@ -89,13 +89,13 @@ Run the following commands to add Mirage to your project:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add --dev miragejs
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install --save-dev miragejs
@@ -105,7 +105,7 @@ npm install --save-dev miragejs
 
 Mirage lets you fake a backend server with API responses using route handlers, which are just JavaScript functions that return a response data or object. With `createServer()` and route handlers, you can create your mock API server.
 
-Create a <FontIcon icon="fas fa-folder-open"/>`mirage/`<FontIcon icon="fa-brands fa-js"/>`books.js` file in your project’s <FontIcon icon="fas fa-folder-open"/>`src` folder and add the following:
+Create a <VPIcon icon="fas fa-folder-open"/>`mirage/`<VPIcon icon="fa-brands fa-js"/>`books.js` file in your project’s <VPIcon icon="fas fa-folder-open"/>`src` folder and add the following:
 
 ```js title="mirage/books.js"
 import { createServer } from "miragejs"
@@ -159,7 +159,7 @@ Here is what the complete BookVault application will look like:
 
 ![BookVault Demo Application](/assets/image/blog.logrocket.com/mocking-complex-apis-mirage-js/bookvault-demo-application.gif)
 
-We’ll mainly focus on mocking the API endpoints with Mirage; you can follow the [complete source code here (<FontIcon icon="iconfont icon-github"/>`emmanuelhashy/mirage-demo`)](https://github.com/emmanuelhashy/mirage-demo).
+We’ll mainly focus on mocking the API endpoints with Mirage; you can follow the [complete source code here (<VPIcon icon="iconfont icon-github"/>`emmanuelhashy/mirage-demo`)](https://github.com/emmanuelhashy/mirage-demo).
 
 ---
 
@@ -741,7 +741,7 @@ In this tutorial, we explored mocking complex relationship APIs using Mirage JS,
 
 With this tutorial, you can build MVPs of any complexity without a backend. The most exciting experience is that whenever your backend API is stable, all you have to do is remove the mock server from your app and replace the API URLs with that of your backend API.
 
-If you encounter any issues while following this tutorial or need expert help with web/mobile development, don’t hesitate to reach out on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`emmanuel-john-a17526335`)](https://linkedin.com/in/emmanuel-john-a17526335). I’d love to connect and am always happy to assist!
+If you encounter any issues while following this tutorial or need expert help with web/mobile development, don’t hesitate to reach out on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`emmanuel-john-a17526335`)](https://linkedin.com/in/emmanuel-john-a17526335). I’d love to connect and am always happy to assist!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

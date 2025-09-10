@@ -133,5 +133,5 @@ However, it's important to be **pragmatic** with **Clean Architecture** and
 allow yourself to be flexible in the design, in order to simplify things in the long run.
 
 If you want to see how to apply **Clean Architecture** in practice,
-I have a [<FontIcon icon="fa-brands fa-youtube"/>**playlist with more than 20 videos on Clean Architecture**](https://youtu.be/tLk4pZZtiDY?list=PLYpjLpq5ZDGstQ5afRz-34o_0dexr1RGa)
+I have a [<VPIcon icon="fa-brands fa-youtube"/>**playlist with more than 20 videos on Clean Architecture**](https://youtu.be/tLk4pZZtiDY?list=PLYpjLpq5ZDGstQ5afRz-34o_0dexr1RGa)
 

@@ -83,7 +83,7 @@ color?: string | undefined
 
 Again, this is NOT a definition we wrote in our types!
 
-This is a default HTML typing, where `color` is a valid attribute for most HTML elements. See [<FontIcon icon="fa-brands fa-stack-overflow"/>this Stack Overflow question](https://stackoverflow.com/questions/67142430/why-color-appears-as-html-attribute-on-a-div) for some more context.
+This is a default HTML typing, where `color` is a valid attribute for most HTML elements. See [<VPIcon icon="fa-brands fa-stack-overflow"/>this Stack Overflow question](https://stackoverflow.com/questions/67142430/why-color-appears-as-html-attribute-on-a-div) for some more context.
 
 ---
 

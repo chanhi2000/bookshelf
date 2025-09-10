@@ -52,13 +52,13 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_068.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_068.png"/>
 
-.[<FontIcon icon="fas fa-globe"/>Serilog](https://serilog.net/) is a [structured logging](/milanjovanovic.tech/structured-logging-in-asp-net-core-with-serilog.md) library for .NET.
+.[<VPIcon icon="fas fa-globe"/>Serilog](https://serilog.net/) is a [structured logging](/milanjovanovic.tech/structured-logging-in-asp-net-core-with-serilog.md) library for .NET.
 
 It's also my preferred logging library in the projects I'm developing.
 
-Serilog supports many logging destinations called [Sinks. (<FontIcon icon="iconfont icon-github"/>`serilog/serilog`)](https://github.com/serilog/serilog/wiki/Provided-Sinks)
+Serilog supports many logging destinations called [Sinks. (<VPIcon icon="iconfont icon-github"/>`serilog/serilog`)](https://github.com/serilog/serilog/wiki/Provided-Sinks)
 
-The log destinations range from console and file sinks to managed logging services such as [Application Insights. (<FontIcon icon="iconfont icon-github"/>`serilog-contrib/serilog-sinks-applicationinsights`)](https://github.com/serilog-contrib/serilog-sinks-applicationinsights)
+The log destinations range from console and file sinks to managed logging services such as [Application Insights. (<VPIcon icon="iconfont icon-github"/>`serilog-contrib/serilog-sinks-applicationinsights`)](https://github.com/serilog-contrib/serilog-sinks-applicationinsights)
 
 Today, I want to share 5 practical tips for better structured logging with Serilog.
 
@@ -84,9 +84,9 @@ builder.Host.UseSerilog((context, loggerConfig) =>
     loggerConfig.ReadFrom.Configuration(context.Configuration));
 ```
 
-Here's a Serilog configuration with [Console (<FontIcon icon="iconfont icon-github"/>`serilog/serilog-sinks-console`)](https://github.com/serilog/serilog-sinks-console) and [Seq (<FontIcon icon="iconfont icon-github"/>`datalust/serilog-sinks-seq`)](https://github.com/datalust/serilog-sinks-seq) sinks.
+Here's a Serilog configuration with [Console (<VPIcon icon="iconfont icon-github"/>`serilog/serilog-sinks-console`)](https://github.com/serilog/serilog-sinks-console) and [Seq (<VPIcon icon="iconfont icon-github"/>`datalust/serilog-sinks-seq`)](https://github.com/datalust/serilog-sinks-seq) sinks.
 
-We also configure a few [Serilog enrichers (<FontIcon icon="iconfont icon-github"/>`serilog/serilog`)](https://github.com/serilog/serilog/wiki/Enrichment)to enrich application logs with extra information.
+We also configure a few [Serilog enrichers (<VPIcon icon="iconfont icon-github"/>`serilog/serilog`)](https://github.com/serilog/serilog/wiki/Enrichment)to enrich application logs with extra information.
 
 ```json
 {
@@ -158,7 +158,7 @@ This also works across multiple applications.
 You need to pass the `CorrelationId` using an HTTP header.
 For example, you could use a custom `X-Correlation-Id` header.
 
-In the `RequestContextLoggingMiddleware`, I'm adding the `CorrelationId` to the Serilog [`LogContext` (<FontIcon icon="iconfont icon-github"/>`serilog/serilog`)](https://github.com/serilog/serilog/wiki/Enrichment#the-logcontext). This will make it available to all logs created during this application request.
+In the `RequestContextLoggingMiddleware`, I'm adding the `CorrelationId` to the Serilog [`LogContext` (<VPIcon icon="iconfont icon-github"/>`serilog/serilog`)](https://github.com/serilog/serilog/wiki/Enrichment#the-logcontext). This will make it available to all logs created during this application request.
 
 ```cs
 public class RequestContextLoggingMiddleware
@@ -265,9 +265,9 @@ internal sealed class RequestLoggingPipelineBehavior<TRequest, TResponse>
 
 ## Use Seq for Local Development
 
-.[<FontIcon icon="fas fa-globe"/>Seq](https://datalust.co/seq) is a self-hosted search, analysis, and alerting server built for structured log data. It's free to use for local development. It offers advanced search and filtering capabilities on the structured log data.
+.[<VPIcon icon="fas fa-globe"/>Seq](https://datalust.co/seq) is a self-hosted search, analysis, and alerting server built for structured log data. It's free to use for local development. It offers advanced search and filtering capabilities on the structured log data.
 
-You can spin up a Seq instance in a [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) container:
+You can spin up a Seq instance in a [<VPIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) container:
 
 ```yaml
 version: '3.4'
@@ -297,7 +297,7 @@ You can use Serilog's powerful `LogContext` to enrich your logs with a `Correlat
 
 When you have structured logging set up, you'll want to search and analyze your logs. Seq is an excellent tool for this that you can use for local development.
 
-If you want to get started with Seq, check out my [<FontIcon icon="fa-brands fa-youtube"/>beginner Seq tutorial.](https://youtu.be/mT8ZkXafuZk)
+If you want to get started with Seq, check out my [<VPIcon icon="fa-brands fa-youtube"/>beginner Seq tutorial.](https://youtu.be/mT8ZkXafuZk)
 
 <VidStack src="youtube/mT8ZkXafuZk" />
 

@@ -50,7 +50,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_138.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_138.png"/>
 
-I've been revisiting Sam Newman's excellent book [<FontIcon icon="fas fa-globe"/>"Monolith to Microservices"](https://oreilly.com/library/view/monolith-to-microservices/9781492047834/) recently, and it's reminded me just how transformative this architectural approach can be **when applied correctly**.
+I've been revisiting Sam Newman's excellent book [<VPIcon icon="fas fa-globe"/>"Monolith to Microservices"](https://oreilly.com/library/view/monolith-to-microservices/9781492047834/) recently, and it's reminded me just how transformative this architectural approach can be **when applied correctly**.
 
 As someone who's implemented microservices in various organizations, I wanted to share some valuable insights I've gained through both study and practical experience.
 
@@ -168,7 +168,7 @@ Multiple teams can work on different services simultaneously without stepping on
 
 Each team can maintain its own release schedule, make technology decisions, and optimize for their specific service's needs without coordinating with every other team. I've seen firsthand how this autonomy can reduce dependencies between teams, minimizing bottlenecks and wait times.
 
-Organizations commonly structure their teams around services or groups of related services. You might know this concept as [<FontIcon icon="fa-brands fa-wikipedia-w"/>Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law):
+Organizations commonly structure their teams around services or groups of related services. You might know this concept as [<VPIcon icon="fa-brands fa-wikipedia-w"/>Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law):
 
 > Organizations, who design systems, are constrained to produce designs which are copies of the communication structures of these organizations.
 

@@ -68,7 +68,7 @@ This tutorial will explore handling such state changes with URL and search param
 
 ::: note N.B.
 
-As a prerequisite, you should have a general idea of working with React, React Hooks, and TypeScript. The code examples in this guide use Tailwind CSS for UI styling, but we won’t focus on it too much. You can find the source code in [this GitHub repo (<FontIcon icon="iconfont icon-github"/>`c99rahul/url-based-react-state`)](https://github.com/c99rahul/url-based-react-state/).
+As a prerequisite, you should have a general idea of working with React, React Hooks, and TypeScript. The code examples in this guide use Tailwind CSS for UI styling, but we won’t focus on it too much. You can find the source code in [this GitHub repo (<VPIcon icon="iconfont icon-github"/>`c99rahul/url-based-react-state`)](https://github.com/c99rahul/url-based-react-state/).
 
 <SiteInfo
   name="c99rahul/url-based-react-state"
@@ -147,9 +147,9 @@ Following the same approach with the types, utilities, and configuration data, t
 
 ### Setting up the router
 
-To work with routes and the browser URL, we should install the [React Router DOM (<FontIcon icon="fa-brands fa-npm"/>`react-router-dom`)](https://npmjs.com/package/react-router-dom) package, a library built on top of the core React router for handling routing smoothly.
+To work with routes and the browser URL, we should install the [React Router DOM (<VPIcon icon="fa-brands fa-npm"/>`react-router-dom`)](https://npmjs.com/package/react-router-dom) package, a library built on top of the core React router for handling routing smoothly.
 
-At this point, we should also install the [<FontIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest) to avoid the repeating usage of state boilerplate in our hooks and handle errors and data caching more efficiently:
+At this point, we should also install the [<VPIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest) to avoid the repeating usage of state boilerplate in our hooks and handle errors and data caching more efficiently:
 
 ```sh
 pnpm add react-router-dom @tanstack/react-query
@@ -194,7 +194,7 @@ export default function App() {
 
 ### Defining types
 
-As discussed, we are using the [<FontIcon icon="fas fa-globe"/>DummyJSON API](https://dummyjson.com/) to populate views in our app. If you have a backend API of your own, you may use it instead with the required changes in types and URL endpoints.
+As discussed, we are using the [<VPIcon icon="fas fa-globe"/>DummyJSON API](https://dummyjson.com/) to populate views in our app. If you have a backend API of your own, you may use it instead with the required changes in types and URL endpoints.
 
 Here’s the URL the API provides us to fetch a list of products:
 
@@ -206,7 +206,7 @@ The `limit` and `skip` keys in the API URL determine the number of products to l
 
 ![Defining Types](/assets/image/blog.logrocket.com/advanced-react-state-management-using-url-parameters/defining-types.png)
 
-Based on this JSON schema, we can construct types to handle different kinds of data in our app. You can also use tools like [JSON2TS (<FontIcon icon="fa-brands fa-npm"/>`json-schema-to-typescript`)](https://npmjs.com/package/json-schema-to-typescript) to convert the JSON schema instantly into TypeScript types:
+Based on this JSON schema, we can construct types to handle different kinds of data in our app. You can also use tools like [JSON2TS (<VPIcon icon="fa-brands fa-npm"/>`json-schema-to-typescript`)](https://npmjs.com/package/json-schema-to-typescript) to convert the JSON schema instantly into TypeScript types:
 
 ```ts :collapsed-lines title="types/product.ts"
 // A single product
@@ -237,7 +237,7 @@ Some types will be used repeatedly throughout the project. We should group such 
 
 ### Defining constants
 
-Let’s declare some configuration options before moving to the API logic part. These values should go right into the <FontIcon icon="iconfont icon-typescript"/>`api.ts` and <FontIcon icon="iconfont icon-typescript"/>`pagination.ts` files of the config folder:
+Let’s declare some configuration options before moving to the API logic part. These values should go right into the <VPIcon icon="iconfont icon-typescript"/>`api.ts` and <VPIcon icon="iconfont icon-typescript"/>`pagination.ts` files of the config folder:
 
 ```ts title="config/api.ts"
 export const API_CONFIG = {
@@ -269,7 +269,7 @@ export const getProductsUrl = () =>
 
 ### Defining an API wrapper
 
-After declaring types, we should create a new file in the `apis` directory, name it <FontIcon icon="iconfont icon-typescript"/>`productApi.ts`, and define an object called `productApi` in it. This object will act as an abstraction layer over the underlying DummyJSON API.
+After declaring types, we should create a new file in the `apis` directory, name it <VPIcon icon="iconfont icon-typescript"/>`productApi.ts`, and define an object called `productApi` in it. This object will act as an abstraction layer over the underlying DummyJSON API.
 
 Since this object will contain endpoint functions that communicate with the API to bring us the data we need to show on the frontend, we can call it the API wrapper or API client. We may now define separate methods inside it to load a list of products, an individual product, categories, etc.
 
@@ -334,7 +334,7 @@ export function useProducts(limit: number) {
 }
 ```
 
-When setting up a TanStack query, we provided an identity to the query with `queryKey`. We then gave `queryFn` a reference to our `getProducts` API function to load the data. If limit or skip values change, the query will automatically re-call the API function. You may specify [<FontIcon icon="fas fa-globe"/>other properties](https://tanstack.com/query/latest/docs/framework/react/reference/useQuery) to the query to optimize it your way.
+When setting up a TanStack query, we provided an identity to the query with `queryKey`. We then gave `queryFn` a reference to our `getProducts` API function to load the data. If limit or skip values change, the query will automatically re-call the API function. You may specify [<VPIcon icon="fas fa-globe"/>other properties](https://tanstack.com/query/latest/docs/framework/react/reference/useQuery) to the query to optimize it your way.
 
 We can then calculate the total number of pages (`totalPages`) by dividing the `total` value available through the API response by `limit` we are using as a parameter for the `useProducts` Hook.
 
@@ -386,7 +386,7 @@ export function useProducts(limit: number) {
 
 With the API client and `useProducts` Hook to do all the heavy lifting, the structure and functioning of components will be pretty straightforward.
 
-Let’s create three components in the <FontIcon icon="fas fa-folder-open"/>`components/product` directory that handle the rendering of individual cards, a grid of such cards, and the pagination of the card grid.
+Let’s create three components in the <VPIcon icon="fas fa-folder-open"/>`components/product` directory that handle the rendering of individual cards, a grid of such cards, and the pagination of the card grid.
 
 The `ProductCard` component takes the product data as a prop and uses its properties, such as title, name, price, thumbnail, etc., to give the card some identity. Note that this component will be part of the `ProductGrid` component, which we will define in the next segment:
 
@@ -829,7 +829,7 @@ navigate(`?${newParams.toString()}`, { replace: true });
 
 ### State synchronization between URL states and API calls
 
-If you expand the app further and implement a product search feature, an API call is made whenever something is typed in the search box. To avoid such frequent updates and rapid URL updates, you should use a pattern like this with [Lodash’s debounce (<FontIcon icon="fa-brands fa-npm"/>`lodash.debounce`)](https://npmjs.com/package/lodash.debounce) method:
+If you expand the app further and implement a product search feature, an API call is made whenever something is typed in the search box. To avoid such frequent updates and rapid URL updates, you should use a pattern like this with [Lodash’s debounce (<VPIcon icon="fa-brands fa-npm"/>`lodash.debounce`)](https://npmjs.com/package/lodash.debounce) method:
 
 ```jsx :collapsed-lines
 import debounce from 'lodash.debounce';
@@ -880,7 +880,7 @@ URLs with different parameters are treated as separate pages by search engines, 
 
 You should also consider creating a dynamic XML sitemap for such unique pages and submit it to major search engines for better visibility.
 
-If a URL parameter doesn’t make any significant or unique change to the content of the rendered page, consider implementing [<FontIcon icon="fa-brands fa-google"/>URL canonicalization](https://developers.google.com/search/docs/crawling-indexing/canonicalization) to avoid duplicate content problems. Here’s an example to add the right canonical URL to the paginated or filtered products using the [React Helmet Async (<FontIcon icon="fa-brands fa-npm"/>`react-helmet-async`)](https://npmjs.com/package/react-helmet-async) package for React:
+If a URL parameter doesn’t make any significant or unique change to the content of the rendered page, consider implementing [<VPIcon icon="fa-brands fa-google"/>URL canonicalization](https://developers.google.com/search/docs/crawling-indexing/canonicalization) to avoid duplicate content problems. Here’s an example to add the right canonical URL to the paginated or filtered products using the [React Helmet Async (<VPIcon icon="fa-brands fa-npm"/>`react-helmet-async`)](https://npmjs.com/package/react-helmet-async) package for React:
 
 ```jsx
 import { Helmet } from 'react-helmet-async';
@@ -909,7 +909,7 @@ export default function ProductPage() {
 
 ## Conclusion
 
-In this guide, we explored managing state with URL and search parameters in React. We covered both simple and complex patterns through a store-like application, the source code of which you can find in [this GitHub repo (<FontIcon icon="fa-brands fa-github"/>`c99rahul/url-based-react-state`)](https://github.com/c99rahul/url-based-react-state).
+In this guide, we explored managing state with URL and search parameters in React. We covered both simple and complex patterns through a store-like application, the source code of which you can find in [this GitHub repo (<VPIcon icon="fa-brands fa-github"/>`c99rahul/url-based-react-state`)](https://github.com/c99rahul/url-based-react-state).
 
 We also briefly examined some SEO, accessibility, and performance considerations for URL-based states.
 

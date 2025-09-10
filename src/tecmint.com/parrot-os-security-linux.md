@@ -96,7 +96,7 @@ This guide will help you install **ParrotOS Home Edition** (the latest version -
 
 ## Downloading Parrot OS
 
-Go to the [<FontIcon icon="iconfont icon-parrotsecurity"/>Parrot OS download page](https://parrotsec.org/download/), choose the edition you want to download (**Security**, **Home,** or **HTB**), and click on the download link to download the ISO file.
+Go to the [<VPIcon icon="iconfont icon-parrotsecurity"/>Parrot OS download page](https://parrotsec.org/download/), choose the edition you want to download (**Security**, **Home,** or **HTB**), and click on the download link to download the ISO file.
 
 ![Download Parrot OS](https://tecmint.com/wp-content/uploads/2016/07/Download-Parrot-OS.webp)
 
@@ -116,7 +116,7 @@ After downloading the ISO image, insert your USB stick into your computer and cr
 sudo dd if=Parrot-home-6.2_amd64.iso of=/dev/sdX bs=4M status=progress && sync
 ```
 
-Replace <FontIcon icon="fas fa-folder-open"/>`/dev/sdX` with the path of your USB drive (like <FontIcon icon="fas fa-folder-open"/>`/dev/sdb`). If you’re unsure, you can use the [**`lsblk` command**](/tecmint.com/commands-to-collect-system-and-hardware-information-in-linux.md) to list all drives and partitions connected to your Linux computer.
+Replace <VPIcon icon="fas fa-folder-open"/>`/dev/sdX` with the path of your USB drive (like <VPIcon icon="fas fa-folder-open"/>`/dev/sdb`). If you’re unsure, you can use the [**`lsblk` command**](/tecmint.com/commands-to-collect-system-and-hardware-information-in-linux.md) to list all drives and partitions connected to your Linux computer.
 
 ---
 

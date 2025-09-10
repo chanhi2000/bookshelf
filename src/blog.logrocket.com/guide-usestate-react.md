@@ -88,7 +88,7 @@ In React, there are two types of components:
 
 ### Class components
 
-[<FontIcon icon="fa-brands fa-firefox"/>ES6 classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) that extend the built-in [<FontIcon icon="fa-brands fa-react"/>`Component`](https://legacy.reactjs.org/docs/react-component.html) and [<FontIcon icon="fa-brands fa-react"/>`lifecycle`](https://beta.reactjs.org/learn/lifecycle-of-reactive-effects) methods:
+[<VPIcon icon="fa-brands fa-firefox"/>ES6 classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) that extend the built-in [<VPIcon icon="fa-brands fa-react"/>`Component`](https://legacy.reactjs.org/docs/react-component.html) and [<VPIcon icon="fa-brands fa-react"/>`lifecycle`](https://beta.reactjs.org/learn/lifecycle-of-reactive-effects) methods:
 
 ```jsx
 import { Component } from "react";
@@ -107,7 +107,7 @@ class Message extends Component {
 
 ```
 
-> **N.B.**, the React team recommends defining components as functions instead of classes. Here’s a [<FontIcon icon="fa-brands fa-react"/>migration guide](https://beta.reactjs.org/reference/react/Component#alternatives).
+> **N.B.**, the React team recommends defining components as functions instead of classes. Here’s a [<VPIcon icon="fa-brands fa-react"/>migration guide](https://beta.reactjs.org/reference/react/Component#alternatives).
 
 ### Functional components
 
@@ -218,7 +218,7 @@ const Message = () => {
 
 The initial value will be assigned only on the initial render. If it’s a function, it will be executed only on the initial render. In subsequent renders (due to a change of state in the component or a parent component), the argument of the `useState` Hook will be ignored, and the current value will be retrieved.
 
-It is important to note that if you want to update the state based on new properties the component receives, using `useState` alone won’t work. This is because `useState` only uses its initial argument the first time — not each time the property changes. [<FontIcon icon="fa-brands fa-stack-overflow"/>Check this out](https://stackoverflow.com/questions/54625831/how-to-sync-props-to-state-using-react-hooks-setstate) for the correct way to handle this. It’s demonstrated here:
+It is important to note that if you want to update the state based on new properties the component receives, using `useState` alone won’t work. This is because `useState` only uses its initial argument the first time — not each time the property changes. [<VPIcon icon="fa-brands fa-stack-overflow"/>Check this out](https://stackoverflow.com/questions/54625831/how-to-sync-props-to-state-using-react-hooks-setstate) for the correct way to handle this. It’s demonstrated here:
 
 ```jsx
 const Message = (props) => {
@@ -297,7 +297,7 @@ const Message = () => {
 };
 ```
 
-You can try this on [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox here](https://codesandbox.io/p/sandbox/7z31woqo9q?from-embed).
+You can try this on [<VPIcon icon="iconfont icon-codesandbox"/>Code Sandbox here](https://codesandbox.io/p/sandbox/7z31woqo9q?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 01 [rtl theme=dark]
 
@@ -355,7 +355,7 @@ const Message = () => {
 };
 ```
 
-> You can try this on [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox here](https://codesandbox.io/p/sandbox/v0n08rw547?from-embed).
+> You can try this on [<VPIcon icon="iconfont icon-codesandbox"/>Code Sandbox here](https://codesandbox.io/p/sandbox/v0n08rw547?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 02 [rtl theme=dark]
 
@@ -397,9 +397,9 @@ export default Message = () => {
 There are two things you need to keep in mind about updates when using objects:
 
 - The importance of [**immutability**](/blog.logrocket.com/immutability-react-should-you-mutate-objects.md)
-- The fact that the setter returned by `useState` doesn’t [<FontIcon icon="fa-brands fa-react"/>merge objects like `setState()` does](https://reactjs.org/docs/state-and-lifecycle.html#state-updates-are-merged) in class components
+- The fact that the setter returned by `useState` doesn’t [<VPIcon icon="fa-brands fa-react"/>merge objects like `setState()` does](https://reactjs.org/docs/state-and-lifecycle.html#state-updates-are-merged) in class components
 
-Regarding the first point; if you use the same value as the current state to update the state (React uses [<FontIcon icon="fa-brands fa-firefox"/>`Object.is()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is#Description) for comparing), React won’t trigger a re-render.
+Regarding the first point; if you use the same value as the current state to update the state (React uses [<VPIcon icon="fa-brands fa-firefox"/>`Object.is()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is#Description) for comparing), React won’t trigger a re-render.
 
 When working with objects, it’s easy to make the [**following mistake**](/blog.logrocket.com/avoiding-common-mistakes-in-react-hooks.md):
 
@@ -425,7 +425,7 @@ const Message = () => {
 };
 ```
 
-> Here’s the [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox](https://codesandbox.io/p/sandbox/50n0py0p6k?from-embed).
+> Here’s the [<VPIcon icon="iconfont icon-codesandbox"/>Code Sandbox](https://codesandbox.io/p/sandbox/50n0py0p6k?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 03 [rtl theme=dark]
 
@@ -503,7 +503,7 @@ And we only update the `message` property like in the above example, React will 
 { message: 'message entered' } // id property is lost
 ```
 
-> You can see how the `id` property is lost [<FontIcon icon="iconfont icon-codesandbox"/>here on Code Sandbox](https://codesandbox.io/p/sandbox/qqp8qp9zzq?from-embed).
+> You can see how the `id` property is lost [<VPIcon icon="iconfont icon-codesandbox"/>here on Code Sandbox](https://codesandbox.io/p/sandbox/qqp8qp9zzq?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 04 [rtl theme=dark]
 
@@ -551,7 +551,7 @@ onChange={e => {
 }}
 ```
 
-The `...prevState` part will get all of the properties of the object, and the `message: val` part will overwrite the `message` property. This will have the same result as using [<FontIcon icon="fa-brands fa-firefox"/>`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) (just remember to create a new object):
+The `...prevState` part will get all of the properties of the object, and the `message: val` part will overwrite the `message` property. This will have the same result as using [<VPIcon icon="fa-brands fa-firefox"/>`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) (just remember to create a new object):
 
 ```jsx
 onChange={e => {
@@ -562,7 +562,7 @@ onChange={e => {
 }}
 ```
 
-> Try it here on [<FontIcon icon="iconfont icon-codesandbox"/>Code Sandbox](https://codesandbox.io/p/sandbox/usestate-05-qpykz?from-embed).
+> Try it here on [<VPIcon icon="iconfont icon-codesandbox"/>Code Sandbox](https://codesandbox.io/p/sandbox/usestate-05-qpykz?from-embed).
 
 ::: sandpack#react eh3rrera / Drafts / useState 05 [rtl theme=dark]
 
@@ -681,7 +681,7 @@ You could use them to group all your state variables in one place. However, for 
 
 But, the problem when working with multi-dimensional arrays and nested objects is that `Object.assign` and the spread syntax will create a [**shallow copy**](/blog.logrocket.com/copy-objects-in-javascript-complete-guide.md#shallow-copy:~:text=Structured%20cloning-,Shallow%20copy,-A%20shallow%20copy) instead of a [**deep copy**](/blog.logrocket.com/copy-objects-in-javascript-complete-guide.md#shallow-copy:~:text=disrupt%20our%20program.-,Deep%20copy,-A%20deep%20copy).
 
-From the [<FontIcon icon="fa-brands fa-firefox"/>spread syntax documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax):
+From the [<VPIcon icon="fa-brands fa-firefox"/>spread syntax documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax):
 
 ::: note
 
@@ -697,7 +697,7 @@ b.shift().shift(); //  1
 //  Array 'a' is affected as well: [[], [2], [3]]
 ```
 
-This [<FontIcon icon="fa-brands fa-stack-overflow"/>Stack Overflow query](https://stackoverflow.com/questions/43421704/why-is-a-spread-element-unsuitable-for-copying-multidimensional-arrays) offers good explanations for the above example, but the important point is that when using nested objects, we can’t just use the spread syntax to update the state object. For example, consider the following state object:
+This [<VPIcon icon="fa-brands fa-stack-overflow"/>Stack Overflow query](https://stackoverflow.com/questions/43421704/why-is-a-spread-element-unsuitable-for-copying-multidimensional-arrays) offers good explanations for the above example, but the important point is that when using nested objects, we can’t just use the spread syntax to update the state object. For example, consider the following state object:
 
 ```jsx
 const [messageObj, setMessage] = useState({
@@ -806,7 +806,7 @@ setMessage((prevState) => ({
 
 In some cases, [**cloning deeply nested objects**](/blog.logrocket.com/methods-for-deep-cloning-objects-in-javascript.md) can be expensive because [**React may re-render**](/blog.logrocket.com/how-when-to-force-react-component-re-render.md) parts of your applications that depend on fields that haven’t even changed.
 
-For this reason, the first thing you need to consider is trying to flatten your state object(s). In particular, the React documentation recommends [<FontIcon icon="fa-brands fa-react"/>splitting the state into multiple state variables](https://reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables) based on which values tend to change together.
+For this reason, the first thing you need to consider is trying to flatten your state object(s). In particular, the React documentation recommends [<VPIcon icon="fa-brands fa-react"/>splitting the state into multiple state variables](https://reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables) based on which values tend to change together.
 
 If this is not possible, the recommendation is to use libraries that help you work with immutable objects, such as [**Immutable.js or Immer**](/blog.logrocket.com/immer-and-immutable-js-how-do-they-compare.md).
 
@@ -847,7 +847,7 @@ const Message = () => {
 };
 ```
 
-[<FontIcon icon="fa-brands fa-react"/>You’ll get an error.](https://legacy.reactjs.org/warnings/invalid-hook-call-warning.html) The first rule means that even inside functional components, you shouldn’t call `useState` in loops, conditions, or nested functions because React relies on the order in which `useState` functions are called to get the correct value for a particular state variable.
+[<VPIcon icon="fa-brands fa-react"/>You’ll get an error.](https://legacy.reactjs.org/warnings/invalid-hook-call-warning.html) The first rule means that even inside functional components, you shouldn’t call `useState` in loops, conditions, or nested functions because React relies on the order in which `useState` functions are called to get the correct value for a particular state variable.
 
 In that regard, the most common mistake is to wrap `useState` calls in a [**conditional statement**](/blog.logrocket.com/react-conditional-rendering-9-methods.md) (they won’t be executed all the time):
 
@@ -878,7 +878,7 @@ In general terms, here’s a step-by-step example of how React handles and track
 9. React finds a call to `useState`, but this time, because there’s already a Hook at the first position of the list of Hooks, it just changes the current Hook variable and returns the array with the current state, and the function to update it
 10. React finds another call to `useState` and because a Hook exists in the second position, once again, it just changes the current Hook variable and returns the array with the current state and the function to update it
 
-If you like to read code, refer to the [`ReactFiberHooks` (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/fd557d453d37eab29eca18f0507750ab2093669d/packages/react-reconciler/src/ReactFiberHooks.js) class to learn how Hooks work under the hood.
+If you like to read code, refer to the [`ReactFiberHooks` (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/fd557d453d37eab29eca18f0507750ab2093669d/packages/react-reconciler/src/ReactFiberHooks.js) class to learn how Hooks work under the hood.
 
 <SiteInfo
   name="react/packages/react-reconciler/src/ReactFiberHooks.js at fd557d453d37eab29eca18f0507750ab2093669d · facebook/react"
@@ -938,7 +938,7 @@ For advanced use cases, you can use the [**`useReducer` Hook**](/blog.logrocket.
 - If you use the previous value to update state, you must pass a function that receives the previous value and returns an updated value, for example, `setMessage(previousVal => previousVal + currentVal)`
 - If you use the same value as the current state to update the state, React won’t trigger a re-render
 - Unlike `this.setState` in class components, `useState` doesn’t merge objects when the state is updated; it replaces them
-- `useState` follows the same rules that all Hooks do. In particular, pay attention to the order in which these functions are called (there’s an [ESLint plugin (<FontIcon icon="fa-brands fa-npm"/>`eslint-plugin-react-hooks`)](https://npmjs.com/package/eslint-plugin-react-hooks) that will help you enforce these rules)
+- `useState` follows the same rules that all Hooks do. In particular, pay attention to the order in which these functions are called (there’s an [ESLint plugin (<VPIcon icon="fa-brands fa-npm"/>`eslint-plugin-react-hooks`)](https://npmjs.com/package/eslint-plugin-react-hooks) that will help you enforce these rules)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

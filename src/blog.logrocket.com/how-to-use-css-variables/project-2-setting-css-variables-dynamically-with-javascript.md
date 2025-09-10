@@ -58,7 +58,7 @@ This will update the `--primary-color` variable, affecting all the elements that
 
 To see the practical use case for this, we’ll build the second project “a light-and-dark theme”. The light theme will take effect by default unless the user already has their system set to a dark theme. On the page, we’ll create a toggle button that allows the user to [**switch between themes**](/blog.logrocket.com/create-better-themes-with-css-variables.md).
 
-First, add the following HTML structure into a new <FontIcon icon="fa-brands fa-html5"/>`.html` file:
+First, add the following HTML structure into a new <VPIcon icon="fa-brands fa-html5"/>`.html` file:
 
 ```html :collapsed-lines
 <!DOCTYPE html>
@@ -275,7 +275,7 @@ The idea behind this approach is that, by default, the website uses a light them
 
 Since you can’t trigger these sitewide changes via CSS, JavaScript is critical here. In the next section, we’ll hook up the JavaScript code necessary to toggle between the light and dark themes.
 
-Alternatively, you could trigger a change automatically via CSS using [<FontIcon icon="fa-brands fa-firefox"/>the `prefers-color-scheme` media query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) to detect whether the user requested a light or dark theme. In other words, you can directly update the website to use the dark variants of the light theme.
+Alternatively, you could trigger a change automatically via CSS using [<VPIcon icon="fa-brands fa-firefox"/>the `prefers-color-scheme` media query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) to detect whether the user requested a light or dark theme. In other words, you can directly update the website to use the dark variants of the light theme.
 
 Add the following snippet to all the CSS code you just wrote:
 
@@ -376,7 +376,7 @@ Here’s what your second project should look like:
 
 ![Demo Css Project Shown Toggling Between Light And Dark Mode](/assets/image/blog.logrocket.com/how-to-use-css-variables/img5-CSS-light-dark-theme-switcher-project.webp)
 
-You may be thinking of a million other ways to achieve this. Feel free to go through the code and make as many changes as you see fit. You can access the complete source code and see a live preview of this project from [this CodePen (<FontIcon icon="fa-brands fa-codepen"/>`shalithasuranga`)](https://codepen.io/shalithasuranga/pen/vYPaYWN).
+You may be thinking of a million other ways to achieve this. Feel free to go through the code and make as many changes as you see fit. You can access the complete source code and see a live preview of this project from [this CodePen (<VPIcon icon="fa-brands fa-codepen"/>`shalithasuranga`)](https://codepen.io/shalithasuranga/pen/vYPaYWN).
 
 <CodePen
   user="shalithasuranga"

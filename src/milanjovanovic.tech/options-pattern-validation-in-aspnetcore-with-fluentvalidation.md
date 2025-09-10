@@ -51,7 +51,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_134.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_134.png"/>
 
-If you've worked with the [**Options Pattern**](/milanjovanovic.tech/how-to-use-the-options-pattern-in-asp-net-core-7.md) in ASP.NET Core, you're likely familiar with the built-in validation using [<FontIcon icon="iconfont icon-csharp"/>Data Annotations](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-9.0#validation-attributes). While functional, Data Annotations can be limiting for complex validation scenarios.
+If you've worked with the [**Options Pattern**](/milanjovanovic.tech/how-to-use-the-options-pattern-in-asp-net-core-7.md) in ASP.NET Core, you're likely familiar with the built-in validation using [<VPIcon icon="iconfont icon-csharp"/>Data Annotations](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-9.0#validation-attributes). While functional, Data Annotations can be limiting for complex validation scenarios.
 
 The **Options Pattern** lets you use classes to obtain strongly typed configuration objects at runtime.
 
@@ -59,7 +59,7 @@ The problem? You can't be certain that the configuration is valid until you try 
 
 So why not validate it at application startup?
 
-In this article, we'll explore how to integrate the more powerful [<FontIcon icon="fas fa-globe"/>FluentValidation](https://docs.fluentvalidation.net/en/latest/) library with ASP.NET Core's [<FontIcon icon="iconfont icon-csharp"/>Options Pattern](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options), to build a robust validation solution that executes at application startup.
+In this article, we'll explore how to integrate the more powerful [<VPIcon icon="fas fa-globe"/>FluentValidation](https://docs.fluentvalidation.net/en/latest/) library with ASP.NET Core's [<VPIcon icon="iconfont icon-csharp"/>Options Pattern](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options), to build a robust validation solution that executes at application startup.
 
 ---
 

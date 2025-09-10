@@ -77,11 +77,11 @@ You’ll need a physical device to work with VoiceOver. This accessibility featu
 
 In this tutorial, you’ll work with an already-completed app called __Recipe__, which contains a list of recipes and their difficulty levels. It also allows you to rate the quality of the dishes you make.
 
-Download everything you need to get started by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial. Open <FontIcon icon="fas fa-file-lines"/>`Recipe.xcodeproj` in the <FontIcon icon="fas fa-folder-open"/>`begin` folder.
+Download everything you need to get started by using the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial. Open <VPIcon icon="fas fa-file-lines"/>`Recipe.xcodeproj` in the <VPIcon icon="fas fa-folder-open"/>`begin` folder.
 
 Before you can run the app on a device, you need to configure signing.
 
-To do this, click the __Recipe__ project in the navigator, then select the target with the same name. Select the <FontIcon icon="iconfont icon-select"/>`[Signing & Capabilities]` tab, then make sure you’ve selected <FontIcon icon="iconfont icon-select"/>`[Debug]` at the top. Finally, pick your <FontIcon icon="iconfont icon-select"/>`[Team]` from the drop-down.
+To do this, click the __Recipe__ project in the navigator, then select the target with the same name. Select the <VPIcon icon="iconfont icon-select"/>`[Signing & Capabilities]` tab, then make sure you’ve selected <VPIcon icon="iconfont icon-select"/>`[Debug]` at the top. Finally, pick your <VPIcon icon="iconfont icon-select"/>`[Team]` from the drop-down.
 
 ![Configuring signing in Xcode](https://koenig-media.raywenderlich.com/uploads/2019/12/signing2-650x267.png)
 
@@ -99,13 +99,13 @@ To make things more exciting, you can also cross off the items on the list to ma
 
 Spend a few minutes familiarizing yourself with the code in the begin project. Here are some highlights:
 
-- <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` contains all the storyboard scenes for the app. You’ll notice all the UI components are standard UIKit controls and views. They’re already accessible, which makes your job easier.
-- .<FontIcon icon="fa-brands fa-swift"/>`RecipeListViewController.swift` manages the root table view, which displays the list of all recipes available. It uses an array of `Recipe` objects as the data source.
-- .<FontIcon icon="fa-brands fa-swift"/>`Recipe.swift` is the model object that represents a recipe. It contains utility methods for loading an array of recipes that you’ll use throughout the app.
-- .<FontIcon icon="fa-brands fa-swift"/>`RecipeCell.swift` is the cell for the root controller’s recipe list. It displays the recipe’s difficulty level, name and photo based on the passed `Recipe` model object.
-- .<FontIcon icon="fa-brands fa-swift"/>`RecipeInstructionViewController.swift` contains the controller code for the detail view, which shows a large image of the dish along with its ingredients and cooking instructions. It features a `UISegmentedControl` to toggle between ingredients and instructions in the table view, which uses `InstructionViewModel`.
-- .<FontIcon icon="fa-brands fa-swift"/>`InstructionViewModel.swift` acts as the data source for `RecipeInstructionsViewController`. It includes descriptions for ingredients and instructions as well as state information for the check boxes.
-- .<FontIcon icon="fa-brands fa-swift"/>`InstructionCell.swift` defines a cell that contains a label and a checkbox for use in instructions and ingredient lists. When you check the box, it crosses out the text.
+- <VPIcon icon="fas fa-file-lines"/>`Main.storyboard` contains all the storyboard scenes for the app. You’ll notice all the UI components are standard UIKit controls and views. They’re already accessible, which makes your job easier.
+- .<VPIcon icon="fa-brands fa-swift"/>`RecipeListViewController.swift` manages the root table view, which displays the list of all recipes available. It uses an array of `Recipe` objects as the data source.
+- .<VPIcon icon="fa-brands fa-swift"/>`Recipe.swift` is the model object that represents a recipe. It contains utility methods for loading an array of recipes that you’ll use throughout the app.
+- .<VPIcon icon="fa-brands fa-swift"/>`RecipeCell.swift` is the cell for the root controller’s recipe list. It displays the recipe’s difficulty level, name and photo based on the passed `Recipe` model object.
+- .<VPIcon icon="fa-brands fa-swift"/>`RecipeInstructionViewController.swift` contains the controller code for the detail view, which shows a large image of the dish along with its ingredients and cooking instructions. It features a `UISegmentedControl` to toggle between ingredients and instructions in the table view, which uses `InstructionViewModel`.
+- .<VPIcon icon="fa-brands fa-swift"/>`InstructionViewModel.swift` acts as the data source for `RecipeInstructionsViewController`. It includes descriptions for ingredients and instructions as well as state information for the check boxes.
+- .<VPIcon icon="fa-brands fa-swift"/>`InstructionCell.swift` defines a cell that contains a label and a checkbox for use in instructions and ingredient lists. When you check the box, it crosses out the text.
 Now you understand how the app works, it’s time to consider how to make it more accessible.
 
 ---
@@ -130,7 +130,7 @@ iOS comes with the __VoiceOver__ screen-reading tool, which helps users interact
 
 VoiceOver lets users who are visually impaired hear and interact with what’s visible on-screen. VoiceOver responds to gestures and audibly communicates to the user what’s on the screen or what the user selects. In essence, VoiceOver is the link between the UI and the user’s touch input.
 
-The quickest way to use VoiceOver is to open the Settings app on your iOS device, select <FontIcon icon="iconfont icon-select"/>`[Accessibility ▸ Accessibility Shortcut]` then select <FontIcon icon="iconfont icon-select"/>`[VoiceOver]`.
+The quickest way to use VoiceOver is to open the Settings app on your iOS device, select <VPIcon icon="iconfont icon-select"/>`[Accessibility ▸ Accessibility Shortcut]` then select <VPIcon icon="iconfont icon-select"/>`[VoiceOver]`.
 
 ![VoiceOver shortcut](https://koenig-media.raywenderlich.com/uploads/2019/12/IMG_5349-282x500.png)
 
@@ -202,7 +202,7 @@ For the complete list of VoiceOver gestures, check out [Apple’s Learn VoiceOve
 
 ## Where to Go From Here?
 
-You can download the completed version of the project using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
+You can download the completed version of the project using the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
 
 In this iOS accessibility tutorial, you learned about VoiceOver. You performed manual auditing by scrolling through every accessible element and testing the user experience for yourself. Then you used the Accessibility Inspector to perform audits, look at accessibility element values and perform live dynamic changes to invert colors or change the font size.
 

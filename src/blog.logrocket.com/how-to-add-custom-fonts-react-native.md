@@ -60,7 +60,7 @@ Fonts are the building blocks of a great user experience. Using custom fonts can
 
 ![how to add custom fonts in React Native](/assets/image/blog.logrocket.com/how-to-add-custom-fonts-react-native/banner.png)
 
-In this guide, we will explore modern ways to add custom fonts in a React Native app, including Google Fonts integration. To follow along, you should be familiar with the basics of React Native or the Expo SDK, including JSX, components (class and functional), and styling. You can also follow the GitHub repositories for this project to see implementations for both the [React Native CLI (<FontIcon icon="iconfont icon-github"/>`Taofiqq/custom-hook-cli`)](https://github.com/Taofiqq/custom-hook-cli) and [Expo (<FontIcon icon="iconfont icon-gtihub"/>`Taofiqq/custom-hook-expo`)](https://github.com/Taofiqq/custom-hook-expo).
+In this guide, we will explore modern ways to add custom fonts in a React Native app, including Google Fonts integration. To follow along, you should be familiar with the basics of React Native or the Expo SDK, including JSX, components (class and functional), and styling. You can also follow the GitHub repositories for this project to see implementations for both the [React Native CLI (<VPIcon icon="iconfont icon-github"/>`Taofiqq/custom-hook-cli`)](https://github.com/Taofiqq/custom-hook-cli) and [Expo (<VPIcon icon="iconfont icon-gtihub"/>`Taofiqq/custom-hook-expo`)](https://github.com/Taofiqq/custom-hook-expo).
 
 ---
 
@@ -68,7 +68,7 @@ In this guide, we will explore modern ways to add custom fonts in a React Native
 
 ### For React Native CLI projects
 
-1. Create an <FontIcon icon="fas fa-folder-open"/>`assets/fonts` folder and add your font files
+1. Create an <VPIcon icon="fas fa-folder-open"/>`assets/fonts` folder and add your font files
 2. Create a `react-native.config.js` file to specify the font assets path
 3. Run `npx react-native-asset` to link the fonts
 4. Use the fonts with `fontFamily` in your styles
@@ -82,7 +82,7 @@ In this guide, we will explore modern ways to add custom fonts in a React Native
 
 ::: note Editor’s note
 
-This article was updated by [<FontIcon icon="fas fa-globe"/>Timonwa Akintokun](https://blog.logrocket.com/author/pelumiakintokun/) in April 2025 to align the* the content *with latest best practices for React Native (0.73+) and Expo SDK 50+, replace outdated font linking methods, update Google Fonts integration, enhance dynamic font loading best practices, and introduce system font recommendations for better UX.
+This article was updated by [<VPIcon icon="fas fa-globe"/>Timonwa Akintokun](https://blog.logrocket.com/author/pelumiakintokun/) in April 2025 to align the* the content *with latest best practices for React Native (0.73+) and Expo SDK 50+, replace outdated font linking methods, update Google Fonts integration, enhance dynamic font loading best practices, and introduce system font recommendations for better UX.
 
 :::
 
@@ -90,7 +90,7 @@ This article was updated by [<FontIcon icon="fas fa-globe"/>Timonwa Akintokun](h
 
 ## Adding custom fonts to a React Native CLI project
 
-For our project, we will add custom fonts to a React Native CLI project by building a basic application using Google Fonts. [<FontIcon icon="fa-brands fa-google"/>Google Fonts](https://fonts.google.com/) is a library of free, open source fonts that can be used while designing web and mobile applications.
+For our project, we will add custom fonts to a React Native CLI project by building a basic application using Google Fonts. [<VPIcon icon="fa-brands fa-google"/>Google Fonts](https://fonts.google.com/) is a library of free, open source fonts that can be used while designing web and mobile applications.
 
 To bootstrap the React Native CLI project, run the following command in your terminal:
 
@@ -102,7 +102,7 @@ npx @react-native-community/cli@latest init CustomFontCLI
 
 ![custom font cli project](/assets/image/blog.logrocket.com/how-to-add-custom-fonts-react-native/1_react-native-cli-project.png)
 
-Open your project in your [**preferred IDE**](/blog.logrocket.com/how-choose-best-ide-react-native.md) to get started. In this tutorial, we will use [<FontIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/).  
+Open your project in your [**preferred IDE**](/blog.logrocket.com/how-choose-best-ide-react-native.md) to get started. In this tutorial, we will use [<VPIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/).  
 Once the project has been bootstrapped, we will move on to getting the fonts we want to use. We’ll go over how to import them and use them in our project.
 
 ### Downloading and integrating Google Fonts into our project
@@ -119,11 +119,11 @@ In the next section, we will go through integrating these fonts’ TTF files int
 
 ### Integrating the Google Fonts into the project
 
-Create an <FontIcon icon="fas fa-folder-open"/>`assets` folder in the root directory of your project, with a subfolder called <FontIcon icon="fas fa-folder-open"/>`fonts`. Then, paste all the TTF files you copied from the static folder earlier into the <FontIcon icon="fas fa-folder-open"/>`fonts` folder of your project:
+Create an <VPIcon icon="fas fa-folder-open"/>`assets` folder in the root directory of your project, with a subfolder called <VPIcon icon="fas fa-folder-open"/>`fonts`. Then, paste all the TTF files you copied from the static folder earlier into the <VPIcon icon="fas fa-folder-open"/>`fonts` folder of your project:
 
 ![pasting ttf files into project](/assets/image/blog.logrocket.com/how-to-add-custom-fonts-react-native/3_pasting-ttf-files-into-project.png)
 
-Next, create a <FontIcon icon="fa-brands fa-js"/>`react-native.config.js` file in the root directory and paste the code below inside it:
+Next, create a <VPIcon icon="fa-brands fa-js"/>`react-native.config.js` file in the root directory and paste the code below inside it:
 
 ```js title="react-native.config.js"
 module.exports = {
@@ -149,7 +149,7 @@ Once the assets have been successfully linked, you should see the following mess
 
 ![terminal message after assets are successfully linked](/assets/image/blog.logrocket.com/how-to-add-custom-fonts-react-native/4_terminal-message-after.png)
 
-Then, in your <FontIcon icon="fa-brands fa-react"/>`App.tsx` file, paste the following code:
+Then, in your <VPIcon icon="fa-brands fa-react"/>`App.tsx` file, paste the following code:
 
 ```js :collapsed-lines title="App.tsx"
 import { StyleSheet, Text, View } from "react-native";
@@ -201,7 +201,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-This is a basic <FontIcon icon="fa-brands fa-react"/>`App.tsx` file with four texts being styled, each by different font styles of Raleway and Quicksand. Essentially, we are rendering the JSX with four texts to display on the screen and React Native’s StyleSheet API to append different `fontFamily` styles to each of the `Text` components.
+This is a basic <VPIcon icon="fa-brands fa-react"/>`App.tsx` file with four texts being styled, each by different font styles of Raleway and Quicksand. Essentially, we are rendering the JSX with four texts to display on the screen and React Native’s StyleSheet API to append different `fontFamily` styles to each of the `Text` components.
 
 Let’s see the output:
 
@@ -211,7 +211,7 @@ Let’s see the output:
 
 ## Using custom fonts in React Native with Expo
 
-In this section, we will learn how to use custom [<FontIcon icon="fas fa-globe"/>fonts](https://blog.logrocket.com/ux-design/types-of-fonts/) with Expo. Expo supports two font formats, OTF and TTF, which work consistently on iOS, Android, and the web. If you have your font in another format, you’ll need [<FontIcon icon="iconfont icon-expo"/>advanced configurations](https://docs.expo.dev/guides/customizing-metro/#adding-more-file-extensions-to-assetexts).
+In this section, we will learn how to use custom [<VPIcon icon="fas fa-globe"/>fonts](https://blog.logrocket.com/ux-design/types-of-fonts/) with Expo. Expo supports two font formats, OTF and TTF, which work consistently on iOS, Android, and the web. If you have your font in another format, you’ll need [<VPIcon icon="iconfont icon-expo"/>advanced configurations](https://docs.expo.dev/guides/customizing-metro/#adding-more-file-extensions-to-assetexts).
 
 First, create a new Expo project by running this command:
 
@@ -249,11 +249,11 @@ To add Google Fonts like Raleway and Quicksand, install these packages using the
 npx expo install expo-font @expo-google-fonts/raleway @expo-google-fonts/quicksand
 ```
 
-If you have other Google Fonts you want to use, you can [check here for the available fonts with Expo support (<FontIcon icon="iconfont icon-github"/>`expo/google-fonts`)](https://github.com/expo/google-fonts).
+If you have other Google Fonts you want to use, you can [check here for the available fonts with Expo support (<VPIcon icon="iconfont icon-github"/>`expo/google-fonts`)](https://github.com/expo/google-fonts).
 
 ### Integrating custom Google Fonts in the Expo project
 
-In your <FontIcon icon="fa-brands fa-react"/>`App.jsx` file, paste the following code block:
+In your <VPIcon icon="fa-brands fa-react"/>`App.jsx` file, paste the following code block:
 
 ```jsx :collapsed-lines title="App.jsx"
 import { useFonts } from "expo-font";
@@ -318,13 +318,13 @@ Let’s see what this looks like in our simulator:
 
 Let’s say you have a personal React Native project you are building, and you have been given custom fonts that are not among the available Google Fonts supported by Expo.
 
-First, you will need to download the `font` file into your project and install the `expo-font` package. For this tutorial, I downloaded Space Mono from [<FontIcon icon="fas fa-globe"/>FontSquirrel](https://fontsquirrel.com/fonts/space-mono) as my custom font.
+First, you will need to download the `font` file into your project and install the `expo-font` package. For this tutorial, I downloaded Space Mono from [<VPIcon icon="fas fa-globe"/>FontSquirrel](https://fontsquirrel.com/fonts/space-mono) as my custom font.
 
-Create a folder called <FontIcon icon="fas fa-folder-open"/>`assets` and, within it, create a <FontIcon icon="fas fa-folder-open"/>`fonts` folder, just like you did with the React Native CLI. Then, move the font files from the <FontIcon icon="fas fa-folder-open"/>`fonts` folder into your project like so:
+Create a folder called <VPIcon icon="fas fa-folder-open"/>`assets` and, within it, create a <VPIcon icon="fas fa-folder-open"/>`fonts` folder, just like you did with the React Native CLI. Then, move the font files from the <VPIcon icon="fas fa-folder-open"/>`fonts` folder into your project like so:
 
 ![folder structure of expo project](/assets/image/blog.logrocket.com/how-to-add-custom-fonts-react-native/8_folder-structure-expo-project.png)
 
-In your <FontIcon icon="fa-brands fa-react"/>`App.jsx` file, update the code to include the Space Mono custom font:
+In your <VPIcon icon="fa-brands fa-react"/>`App.jsx` file, update the code to include the Space Mono custom font:
 
 ```jsx :collapsed-lines title="App.jsx"
 import { useFonts } from "expo-font";
@@ -517,11 +517,11 @@ export default function App() {
 
 ### Mismatched font family names
 
-As discussed in earlier sections, it’s crucial that font family names are consistent. For example, if you import a font as `SourceCodePro-ExtraLight.otf` but then load it into the application under a different path or file name, such as <FontIcon icon="fas fa-folder-open"/>`/assets/fonts/SourceCodePro-ExtraLight.ttf`, this will cause the application to throw an error because there has been a `fontFamily` name mismatch.
+As discussed in earlier sections, it’s crucial that font family names are consistent. For example, if you import a font as `SourceCodePro-ExtraLight.otf` but then load it into the application under a different path or file name, such as <VPIcon icon="fas fa-folder-open"/>`/assets/fonts/SourceCodePro-ExtraLight.ttf`, this will cause the application to throw an error because there has been a `fontFamily` name mismatch.
 
 ### Incorrect font path
 
-Using the wrong path for your font file will also cause the application to throw an error. Double-check the file structure and ensure the paths match the exact location of the font file. Place your fonts in a <FontIcon icon="fas fa-folder-open"/>`/assets/fonts/` folder for easy matches, like <FontIcon icon="fas fa-folder-open"/>`/assets/fonts/SourceCodePro-ExtraLight.ttf`.
+Using the wrong path for your font file will also cause the application to throw an error. Double-check the file structure and ensure the paths match the exact location of the font file. Place your fonts in a <VPIcon icon="fas fa-folder-open"/>`/assets/fonts/` folder for easy matches, like <VPIcon icon="fas fa-folder-open"/>`/assets/fonts/SourceCodePro-ExtraLight.ttf`.
 
 ### Using unsupported font formats
 
@@ -541,7 +541,7 @@ Let’s say you downloaded a zip file of SpaceMono font. It comes in different v
 
 ### Production build issue*
 
-When building standalone apps (for Google PlayStore or Apple’s App Store), it is good to include the `expo-font` plugin in <FontIcon icon="iconfont icon-json"/>`app.json`. This is because the expo configuration helps ensure that Expo knows how to handle the fonts and bundle them properly. To do that, add the code below to your <FontIcon icon="iconfont icon-json"/>`app.json` config file:
+When building standalone apps (for Google PlayStore or Apple’s App Store), it is good to include the `expo-font` plugin in <VPIcon icon="iconfont icon-json"/>`app.json`. This is because the expo configuration helps ensure that Expo knows how to handle the fonts and bundle them properly. To do that, add the code below to your <VPIcon icon="iconfont icon-json"/>`app.json` config file:
 
 ```js title="app.json"
 {
@@ -562,9 +562,9 @@ When building standalone apps (for Google PlayStore or Apple’s App Store), it 
 
 If you use the React Native CLI, you might encounter some issues with the `npx react-native-asset` command, like `error Assets destination folder is not defined.`
 
-This usually occurs when your <FontIcon icon="fa-brands fa-js"/>`react-native.config.js` file is missing, is incorrectly configured, or is placed in the wrong location. To resolve this:
+This usually occurs when your <VPIcon icon="fa-brands fa-js"/>`react-native.config.js` file is missing, is incorrectly configured, or is placed in the wrong location. To resolve this:
 
-Ensure your <FontIcon icon="fa-brands fa-js"/>`react-native.config.js` file exists in the root directory of your project.
+Ensure your <VPIcon icon="fa-brands fa-js"/>`react-native.config.js` file exists in the root directory of your project.
 
 Then, verify it has the correct format:
 
@@ -602,7 +602,7 @@ Remember these key takeaways:
 
 By following these best practices, you’ll be able to integrate custom fonts seamlessly while maintaining optimal performance in your React Native applications.
 
-Check out the GitHub repo for this project using the [React Native CLI (<FontIcon icon="iconfont icon-github"/>`Taofiqq/custom-hook-cli`)](https://github.com/Taofiqq/custom-hook-cli) and [Expo (<FontIcon icon="iconfont icon-github"/>`Taofiqq/custom-hook-expo`)](https://github.com/Taofiqq/custom-hook-expo).
+Check out the GitHub repo for this project using the [React Native CLI (<VPIcon icon="iconfont icon-github"/>`Taofiqq/custom-hook-cli`)](https://github.com/Taofiqq/custom-hook-cli) and [Expo (<VPIcon icon="iconfont icon-github"/>`Taofiqq/custom-hook-expo`)](https://github.com/Taofiqq/custom-hook-expo).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

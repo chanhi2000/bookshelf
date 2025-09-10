@@ -190,7 +190,7 @@ In multithreaded programming, especially when using libraries or frameworks that
   logo="https://kotlinlang.org/assets/images/apple-touch-icon-114x114.png?v2"
   preview="https://kotlinlang.org/assets/images/open-graph/docs.png"/>
 
-Sometimes, you might hear [that “Dispatchers.IO looks like a better option for default dispatchers” (<FontIcon icon="iconfont icon-github"/>`Kotlin/kotlinx.coroutines`)](https://github.com/Kotlin/kotlinx.coroutines/issues/2410). However, while`Dispatchers.IO`excels at handling I/O tasks, it’s not a replacement for`Dispatchers.Default`in CPU-intensive operations.
+Sometimes, you might hear [that “Dispatchers.IO looks like a better option for default dispatchers” (<VPIcon icon="iconfont icon-github"/>`Kotlin/kotlinx.coroutines`)](https://github.com/Kotlin/kotlinx.coroutines/issues/2410). However, while`Dispatchers.IO`excels at handling I/O tasks, it’s not a replacement for`Dispatchers.Default`in CPU-intensive operations.
 
 <SiteInfo
   name="Dispatcher.IO looks like better option for default dispatcher - Android - Kotlin Discussions"
@@ -239,7 +239,7 @@ Understanding the roles of cores and threads — and using`Dispatchers.Default`a
 
 - **Dispatchers.Default**is optimized for CPU-intensive tasks, using the core count to prevent bottlenecks and context-switching overhead.
 - **Dispatchers.IO**is tailored for I/O-bound tasks, scaling threads up to 64 to avoid blocking without overloading CPU resources.
-- This dispatcher and its views share threads with the[<FontIcon icon="iconfont icon-kotlin"/>Default](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-default.html)dispatcher, so using`withContext(Dispatchers.IO) { ... }`when already running on the[<FontIcon icon="iconfont icon-kotlin"/>Default](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-default.html)dispatcher typically does not lead to an actual switching to another thread. In such scenarios, the underlying implementation attempts to keep the execution on the same thread on a best-effort basis.[https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-i-o.html](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-i-o.html)
+- This dispatcher and its views share threads with the[<VPIcon icon="iconfont icon-kotlin"/>Default](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-default.html)dispatcher, so using`withContext(Dispatchers.IO) { ... }`when already running on the[<VPIcon icon="iconfont icon-kotlin"/>Default](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-default.html)dispatcher typically does not lead to an actual switching to another thread. In such scenarios, the underlying implementation attempts to keep the execution on the same thread on a best-effort basis.[https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-i-o.html](https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-i-o.html)
 - Using a dispatcher that uses a thread pool like**`Dispatchers.IO`**or**`Dispatchers.Default`**does not guarantee that the block executes on the same thread from top to bottom. In some situations, Kotlin coroutines might move execution to another thread after a**`suspend`**-and-**`resume`**. This means thread-local variables might not point to the same value for the entire**`withContext()`**block.
 
 <SiteInfo
@@ -306,7 +306,7 @@ By matching the right dispatcher to your task type, you can ensure smoother, mor
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/exploring-the-secrets-of-dispatchers-default-and-io-in-kotlin-coroutines-31d703c29ee2)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/exploring-the-secrets-of-dispatchers-default-and-io-in-kotlin-coroutines-31d703c29ee2)
 
 <SiteInfo
   name="Exploring the Secrets of Dispatchers Default and IO in Kotlin Coroutines"

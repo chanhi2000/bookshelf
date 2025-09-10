@@ -77,7 +77,7 @@ In this SQLite with Swift tutorial, you’ll learn how to perform the following 
 
 After learning how to perform these fundamental operations, you’ll see how to wrap them in a Swift-like manner. This will let you write abstraction APIs for your apps and avoid working with the more complicated SQLite C APIs.
 
-Finally, you’ll briefly learn about the popular open-source Swift wrapper [<FontIcon icon="iconfont icon-github"/>stephencelis/SQLite](https://github.com/stephencelis/SQLite.swift). This will give you a basic understanding of how underlying frameworks work within a wrapper.
+Finally, you’ll briefly learn about the popular open-source Swift wrapper [<VPIcon icon="iconfont icon-github"/>stephencelis/SQLite](https://github.com/stephencelis/SQLite.swift). This will give you a basic understanding of how underlying frameworks work within a wrapper.
 
 ::: tip Note
 
@@ -89,7 +89,7 @@ Databases like SQLite are massive topics to cover, and covering how to use them 
 
 ## Getting Started
 
-Start by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, then open <FontIcon icon="fas fa-file-lines"/>`SQLiteTutorial.xcworkspace` from the starter folder. Next, open the <FontIcon icon="iconfont icon-select"/>`[Tutorial]` playground from the <FontIcon icon="iconfont icon-select"/>`[Project navigator]`.
+Start by using the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial, then open <VPIcon icon="fas fa-file-lines"/>`SQLiteTutorial.xcworkspace` from the starter folder. Next, open the <VPIcon icon="iconfont icon-select"/>`[Tutorial]` playground from the <VPIcon icon="iconfont icon-select"/>`[Project navigator]`.
 
 ::: tip Note
 
@@ -165,7 +165,7 @@ Add the following to open the database:
 let db = openDatabase()
 ```
 
-Click the Play button to run the playground and watch the console output. If the console isn’t open, click the <FontIcon icon="iconfont icon-select"/>`[Show the Debug area]` button to the left of the Play button:
+Click the Play button to run the playground and watch the console output. If the console isn’t open, click the <VPIcon icon="iconfont icon-select"/>`[Show the Debug area]` button to the left of the Play button:
 
 ![Showing the Debug area](https://koenig-media.raywenderlich.com/uploads/2019/11/sqliteswift_show_debug_area-2.png)
 
@@ -1054,25 +1054,25 @@ You might be thinking, “Hasn’t someone already created a wrapper for this?�
 
 ---
 
-## Introducing <FontIcon icon="fa-brands fa-swift"/>`SQLite.swift`
+## Introducing <VPIcon icon="fa-brands fa-swift"/>`SQLite.swift`
 
-[Stephen Celis](https://twitter.com/stephencelis) has graciously written a fully-featured Swift wrapper for SQLite named [<FontIcon icon="fa-brands fa-swift"/>`SQLite.swift`](https://github.com/stephencelis/SQLite.swift). Check it out if you decide that SQLite fits the bill for data storage in your app.
+[Stephen Celis](https://twitter.com/stephencelis) has graciously written a fully-featured Swift wrapper for SQLite named [<VPIcon icon="fa-brands fa-swift"/>`SQLite.swift`](https://github.com/stephencelis/SQLite.swift). Check it out if you decide that SQLite fits the bill for data storage in your app.
 
 SQLite.swift provides an expressive way to represent tables. This lets you get started with SQLite without worrying about its underlying details and idiosyncrasies.
 
 You may even consider wrapping SQLite.swift itself to create a high-level API for your app’s domain model.
 
-Check out the [README.md for [<FontIcon icon="fa-brands fa-swift"/>`SQLite.swift`](https://github.com/stephencelis/SQLite.swift/blob/master/README.md) and decide for yourself if it has a place in your personal code toolbox.
+Check out the [README.md for [<VPIcon icon="fa-brands fa-swift"/>`SQLite.swift`](https://github.com/stephencelis/SQLite.swift/blob/master/README.md) and decide for yourself if it has a place in your personal code toolbox.
 
 ---
 
 ## Where to Go From Here?
 
-Download the completed project by using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. There, you can see other common tasks that this tutorial didn’t have time to cover, including the implemented updates, deletes and multiple row handling.
+Download the completed project by using the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. There, you can see other common tasks that this tutorial didn’t have time to cover, including the implemented updates, deletes and multiple row handling.
 
 Debugging is another important part of using SQLite with Swift. In many cases, you’ll need some kind of database browser to see what’s going on under the hood. There are many different apps that can help with this. A quick internet search will show which ones are best for you.
 
-You can also access your SQLite databases directly from your Terminal by typing <FontIcon icon="fas fa-database"/>`sqlite3 file.db`. From there, use the `.help` command to see a list of commands, or simply start executing SQL statements directly at the prompt. Find more information on the command-line SQLite client on the [main SQLite site](https://www.sqlite.org/cli.html).
+You can also access your SQLite databases directly from your Terminal by typing <VPIcon icon="fas fa-database"/>`sqlite3 file.db`. From there, use the `.help` command to see a list of commands, or simply start executing SQL statements directly at the prompt. Find more information on the command-line SQLite client on the [main SQLite site](https://www.sqlite.org/cli.html).
 
 I hope you enjoyed this whirlwind introduction to working with SQLite and Swift! If you have any questions or comments, please join the discussion below.
 

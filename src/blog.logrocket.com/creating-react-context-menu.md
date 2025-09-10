@@ -66,32 +66,32 @@ This guide to creating a React context menu was last updated on 5 December 2022 
 
 If you right-click your browser while visiting a website, you can see your OS’s native context menu. From there, you can save, print, create a QR code for the page, and much more. You can see options like copy, paste, and cut if you highlight text. You may also see customized context menus on email or list applications and collaboration apps like Trello and Notion. These right-click menus (also known as context menus) give users more options while they are using the app.
 
-This post will explore how to create a [<FontIcon icon="fas fa-globe"/>React](https://blog.logrocket.com/tag/react/) context menu, the shortcuts to activate right-click menus, and how to create a [**custom context menu Hook**](/blog.logrocket.com/react-render-props-vs-custom-hooks.md).
+This post will explore how to create a [<VPIcon icon="fas fa-globe"/>React](https://blog.logrocket.com/tag/react/) context menu, the shortcuts to activate right-click menus, and how to create a [**custom context menu Hook**](/blog.logrocket.com/react-render-props-vs-custom-hooks.md).
 
-You can see the project demo below and check out [<FontIcon icon="iconfont icon-codesandbox"/>the complete code](https://codesandbox.io/p/github/Taofiqq/react-context-menu/main?file=%2FREADME.md) on GitHub or the [<FontIcon icon="fas fa-globe"/>deployed website](https://react-context-menu-livid.vercel.app/).
+You can see the project demo below and check out [<VPIcon icon="iconfont icon-codesandbox"/>the complete code](https://codesandbox.io/p/github/Taofiqq/react-context-menu/main?file=%2FREADME.md) on GitHub or the [<VPIcon icon="fas fa-globe"/>deployed website](https://react-context-menu-livid.vercel.app/).
 
 ---
 
 ## What is React context menu?
 
-A [<FontIcon icon="fa-brands fa-wikipedia-w"/>context menu](https://en.wikipedia.org/wiki/Context_menu) (also called right-click menu) is a graphical user interface (GUI) menu that appears upon a user interaction, such as a right-click mouse operation. Context menus offer a limited set of choices available in the current state, or context, of the OS or application to which the menus belong.
+A [<VPIcon icon="fa-brands fa-wikipedia-w"/>context menu](https://en.wikipedia.org/wiki/Context_menu) (also called right-click menu) is a graphical user interface (GUI) menu that appears upon a user interaction, such as a right-click mouse operation. Context menus offer a limited set of choices available in the current state, or context, of the OS or application to which the menus belong.
 
 ---
 
 ## Getting started with our React project
 
-To start creating a custom right-click menu in React, we will initialize a React project using the `npx create-react-app react-context-menu` command, then go into the project folder using the command `cd react-context-menu`. For this tutorial, we will be using [<FontIcon icon="fas fa-globe"/>`styled-components`](https://styled-components.com/https://blog.logrocket.com/benefits-using-styled-components-react/) for the styling:
+To start creating a custom right-click menu in React, we will initialize a React project using the `npx create-react-app react-context-menu` command, then go into the project folder using the command `cd react-context-menu`. For this tutorial, we will be using [<VPIcon icon="fas fa-globe"/>`styled-components`](https://styled-components.com/https://blog.logrocket.com/benefits-using-styled-components-react/) for the styling:
 
 ![React Context Menu Example](/assets/image/blog.logrocket.com/creating-react-context-menu/react-context-menu-example.webp)
 
 ### Project and folder structuring
 
-In our <FontIcon icon="fas fa-folder-open"/>`src` file, we will create four folders:
+In our <VPIcon icon="fas fa-folder-open"/>`src` file, we will create four folders:
 
-- <FontIcon icon="fas fa-folder-open"/>`components`: This will house all the components we will be using throughout the project
-- <FontIcon icon="fas fa-folder-open"/>`data`: This will store the data information that will be rendered on the webpage
-- <FontIcon icon="fas fa-folder-open"/>`hooks`: This is where we will create the Hook for the right-click context menu
-- <FontIcon icon="fas fa-folder-open"/>`styles`: This folder will contain a file for all of our styles
+- <VPIcon icon="fas fa-folder-open"/>`components`: This will house all the components we will be using throughout the project
+- <VPIcon icon="fas fa-folder-open"/>`data`: This will store the data information that will be rendered on the webpage
+- <VPIcon icon="fas fa-folder-open"/>`hooks`: This is where we will create the Hook for the right-click context menu
+- <VPIcon icon="fas fa-folder-open"/>`styles`: This folder will contain a file for all of our styles
 
 ![React Context Menu Project Structure](/assets/image/blog.logrocket.com/creating-react-context-menu/react-project-folder-structure.png)
 
@@ -103,7 +103,7 @@ If you go to your Chrome or Mozilla browser and right-click anywhere, you will s
 
 ![React Right-Click Context Menu Example](/assets/image/blog.logrocket.com/creating-react-context-menu/react-right-click-menu-example.png)
 
-We will use the `onContextMenu` prop to disable this default behavior in our <FontIcon icon="fa-brands fa-react"/>`App.jsx` file. It will look like this:
+We will use the `onContextMenu` prop to disable this default behavior in our <VPIcon icon="fa-brands fa-react"/>`App.jsx` file. It will look like this:
 
 ```jsx title="App.jsx"
 import "./App.css";
@@ -134,7 +134,7 @@ As you can see, when any other **part of the browser** is right-clicked, the def
 
 ## Creating a custom right-click context menu in React
 
-To get started, we will create a <FontIcon icon="fa-brands fa-js"/>`data.js` file in the <FontIcon icon="fas fa-folder-open"/>`data` folder and populate it with the data that we will be using for the project:
+To get started, we will create a <VPIcon icon="fa-brands fa-js"/>`data.js` file in the <VPIcon icon="fas fa-folder-open"/>`data` folder and populate it with the data that we will be using for the project:
 
 ```js title="data/data.js"
 export const data = [
@@ -154,7 +154,7 @@ export const data = [
 ];
 ```
 
-Then, we will create a new component inside the <FontIcon icon="fas fa-folder-open"/>`component` folder called <FontIcon icon="fa-brands fa-js"/>`MenuContext.js` and use this component in our <FontIcon icon="fa-brands fa-react"/>`App.jsx`:
+Then, we will create a new component inside the <VPIcon icon="fas fa-folder-open"/>`component` folder called <VPIcon icon="fa-brands fa-js"/>`MenuContext.js` and use this component in our <VPIcon icon="fa-brands fa-react"/>`App.jsx`:
 
 ```jsx title="App.jsx"
 import "./App.css";
@@ -249,7 +249,7 @@ const MenuContext = ({ data }) => {
 export default MenuContext;
 ```
 
-Here, we are mapping over the data array, returning a `Menu` component, and passing in the `ID` and `title`. In the <FontIcon icon="fa-brands fa-react"/>`Menu.jsx` file, we will use these two props as follows:
+Here, we are mapping over the data array, returning a `Menu` component, and passing in the `ID` and `title`. In the <VPIcon icon="fa-brands fa-react"/>`Menu.jsx` file, we will use these two props as follows:
 
 ```jsx title="components/Menu.jsx"
 import React from "react";
@@ -264,7 +264,7 @@ const Menu = ({ title, key }) => {
 export default Menu;
 ```
 
-The `MenuContextContainer` is a [**styled-component**](/blog.logrocket.com/using-styled-components-react.md) coming from the <FontIcon icon="fas fa-folder-open"/>`styles` file:
+The `MenuContextContainer` is a [**styled-component**](/blog.logrocket.com/using-styled-components-react.md) coming from the <VPIcon icon="fas fa-folder-open"/>`styles` file:
 
 ```jsx title="styles/styles.js"
 import styled, { css } from "styled-components";
@@ -335,7 +335,7 @@ const MenuContext = ({ data }) => {
 export default MenuContext;
 ```
 
-In the <FontIcon icon="fa-brands fa-react"/>`MenuContext.jsx` file, we create two states: `clicked` and `points`. The `clicked` state (with a Booleanvalue) will monitor when the mouse is right-clicked. The `points` (with an objectstate) will be used to get the `x` and `y` coordinates of where the **mouse** was clicked.
+In the <VPIcon icon="fa-brands fa-react"/>`MenuContext.jsx` file, we create two states: `clicked` and `points`. The `clicked` state (with a Booleanvalue) will monitor when the mouse is right-clicked. The `points` (with an objectstate) will be used to get the `x` and `y` coordinates of where the **mouse** was clicked.
 
 ---
 
@@ -436,7 +436,7 @@ Now, we can check what we have in the browser:
 
 ## Creating a custom context menu Hook in React
 
-To create a custom right-click context menu Hook, we will create a file named <FontIcon icon="fa-brands fa-react"/>`useContextMenu.jsx`, where we will create the Hook function. Also, we will create an additional file in the <FontIcon icon="fas fa-folder-open"/>`components` folder called <FontIcon icon="fa-brands fa-react"/>`MenuContextHook.jsx`:
+To create a custom right-click context menu Hook, we will create a file named <VPIcon icon="fa-brands fa-react"/>`useContextMenu.jsx`, where we will create the Hook function. Also, we will create an additional file in the <VPIcon icon="fas fa-folder-open"/>`components` folder called <VPIcon icon="fa-brands fa-react"/>`MenuContextHook.jsx`:
 
 ```jsx title="hooks/useContextMenu.jsx"
 import { useState, useEffect } from "react";
@@ -465,7 +465,7 @@ export default useContextMenu;
 
 In the `useContexMenu` Hook, we declare two states: `clicked` and `points` — just like in the previous section. Then, we use the `useEffect` Hook to register an event listener and clean up the event with the cleanup function. Lastly, `clicked`, `setClicked`, `points`, and `setPoints` are returned.
 
-In the <FontIcon icon="fa-brands fa-react"/>`MenuContextHook.jsx` file, we will make use of this Hook as follows:
+In the <VPIcon icon="fa-brands fa-react"/>`MenuContextHook.jsx` file, we will make use of this Hook as follows:
 
 ```jsx :collapsed-lines title="components/MenuContextHook.jsx"
 import React from "react";
@@ -512,7 +512,7 @@ Basically, in this file, we are restructuring `clicked`, `setClicked`, `points`,
 
 ## Conclusion and considerations
 
-This article covered the many ways to create a custom context menu in React applications. Keep in mind if you are creating your custom context menu in React, consider [<FontIcon icon="fas fa-globe"/>mobile interaction](https://blog.logrocket.com/ux-design/designing-microinteractions-better-app-ux/). Users may be unable to right-click if they use a mobile phone.
+This article covered the many ways to create a custom context menu in React applications. Keep in mind if you are creating your custom context menu in React, consider [<VPIcon icon="fas fa-globe"/>mobile interaction](https://blog.logrocket.com/ux-design/designing-microinteractions-better-app-ux/). Users may be unable to right-click if they use a mobile phone.
 
 Because of this, you may need to think twice about why you need a custom context menu. It can cause bad experiences if the user wants to see the default menu.
 

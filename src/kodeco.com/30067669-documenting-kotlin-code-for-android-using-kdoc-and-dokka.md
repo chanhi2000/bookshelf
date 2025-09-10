@@ -86,11 +86,11 @@ This article uses an Android project to showcase KDoc and Dokka, but you can app
 
 ## Getting Started
 
-Download the starter project by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+Download the starter project by clicking the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
-Open Android Studio and click <FontIcon icon="iconfont icon-select"/>`[Open an existing Android Studio project]`.
+Open Android Studio and click <VPIcon icon="iconfont icon-select"/>`[Open an existing Android Studio project]`.
 
-Navigate to the <FontIcon icon="iconfont icon-select"/>`[starter]` project directory you downloaded and click <FontIcon icon="iconfont icon-select"/>`[Open]`.
+Navigate to the <VPIcon icon="iconfont icon-select"/>`[starter]` project directory you downloaded and click <VPIcon icon="iconfont icon-select"/>`[Open]`.
 
 Take some time to familiarize yourself with the project.
 
@@ -175,7 +175,7 @@ Both of them try to get readers started as quickly as possible with minimal setu
 
 __Golang__ and __Kotlin__ provide code playgrounds to let users directly interact with sample programs. Check those out [here](https://go.dev/play) and [here](https://play.kotlinlang.org/byExample/01_introduction/01_Hello%20world).
 
-Another super-creative example of documentation is this YouTube channel by [<FontIcon icon="fa-brands fa-youtube"/>Andreas Kling](https://www.youtube.com/c/AndreasKling). He regularly uploads screencasts about his project [SerenityOS](https://www.serenityos.org/).
+Another super-creative example of documentation is this YouTube channel by [<VPIcon icon="fa-brands fa-youtube"/>Andreas Kling](https://www.youtube.com/c/AndreasKling). He regularly uploads screencasts about his project [SerenityOS](https://www.serenityos.org/).
 
 All that to say, there isn’t just one way to define documentation. In the next few sections, you’ll see how to use KDoc and Dokka to ease the process of generating documentation for your Kotlin/Java/Android projects.
 
@@ -191,7 +191,7 @@ JavaDoc parses the source files for class/method declarations along with the com
 
 KDoc uses JavaDoc’s syntax, but unlike JavaDoc, it isn’t a tool to generate the HTML pages. __Dokka__ generates the documentation from KDoc comments.
 
-Open <FontIcon icon="iconfont icon-java"/>`MainActivity.kt` in the starter code and replace `TODO:1` with the code snippet below:
+Open <VPIcon icon="iconfont icon-java"/>`MainActivity.kt` in the starter code and replace `TODO:1` with the code snippet below:
 
 ```kotlin
 /*
@@ -224,7 +224,7 @@ Block tags provide extra information about the element to which the comment appl
 
 It must appear at the beginning of a line and start with the `@` character. This means you can use @` anywhere else in the comment and it won’t be interpreted as a block tag.
 
-Enough with the theory. Open <FontIcon icon="iconfont icon-java"/>`Prefs.kt` in the `core` module and replace `TODO:3` with the following snippet:
+Enough with the theory. Open <VPIcon icon="iconfont icon-java"/>`Prefs.kt` in the `core` module and replace `TODO:3` with the following snippet:
 
 ```kotlin
 /**
@@ -267,13 +267,13 @@ You can look at all the block tags that KDoc supports [here](https://kotlinlang.
 
 ### Documenting Modules and Packages
 
-KDoc also supports documenting a <FontIcon icon="iconfont icon-select"/>`[package]` or a <FontIcon icon="iconfont icon-select"/>`[module]` using a custom markdown file.
+KDoc also supports documenting a <VPIcon icon="iconfont icon-select"/>`[package]` or a <VPIcon icon="iconfont icon-select"/>`[module]` using a custom markdown file.
 
-Select the <FontIcon icon="iconfont icon-select"/>`[Project]` view in Android Studio, if it’s not already selected:
+Select the <VPIcon icon="iconfont icon-select"/>`[Project]` view in Android Studio, if it’s not already selected:
 
 ![Android studio project view selection](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-12.29.59-AM-465x500.png)
 
-Open <FontIcon icon="fa-brands fa-markdown"/>`module.md` in the <FontIcon icon="fas fa-folder-open"/>`app` module. Replace the contents of the file (the `TODO:4` line) with the following:
+Open <VPIcon icon="fa-brands fa-markdown"/>`module.md` in the <VPIcon icon="fas fa-folder-open"/>`app` module. Replace the contents of the file (the `TODO:4` line) with the following:
 
 ```md
 # Module notktx-app
@@ -299,7 +299,7 @@ This accounts for changes you’ll make later in this article.
 
 ::: tip Note
 
-The name of the file doesn’t have to be <FontIcon icon="fa-brands fa-markdown"/>`module.md`. Also, in this example, the name of the module used in the first-level heading differs from the actual name.
+The name of the file doesn’t have to be <VPIcon icon="fa-brands fa-markdown"/>`module.md`. Also, in this example, the name of the module used in the first-level heading differs from the actual name.
 
 :::
 
@@ -323,7 +323,7 @@ Here are some of the key features of Dokka:
 
 To integrate Dokka in this project, you’ll use `gradle`. You’ll do a quick Dokka setup in this section and generate a basic version of the documentation in the next.
 
-Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and replace `TODO:5` in the `dependencies` block with the following:
+Open the root-level <VPIcon icon="iconfont icon-engine"/>`build.gradle` file and replace `TODO:5` in the `dependencies` block with the following:
 
 ```groovy
 classpath "org.jetbrains.dokka:dokka-gradle-plugin:1.6.0"
@@ -349,7 +349,7 @@ Make sure you either open the starter project or the final project at this time.
 
 ::: tip Note
 
-Dokka’s [official documentation](https://kotlin.github.io/dokka/1.6.10/user_guide/base-specific/frontend/#prerequisites) page suggests using a web server to see the HTML format correctly. If you directly open <FontIcon icon="fa-brands fa-html5"/>`index.html` file, Dokka with fail to load things like the navigation pane and search bars. You’ll use the built-in server provided by `IntelliJ` in this article.
+Dokka’s [official documentation](https://kotlin.github.io/dokka/1.6.10/user_guide/base-specific/frontend/#prerequisites) page suggests using a web server to see the HTML format correctly. If you directly open <VPIcon icon="fa-brands fa-html5"/>`index.html` file, Dokka with fail to load things like the navigation pane and search bars. You’ll use the built-in server provided by `IntelliJ` in this article.
 
 :::
 
@@ -368,23 +368,23 @@ It can take a few minutes for these two tasks to complete. While they run, have 
 
 ![Dokka html terminal command](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-8.40.31-PM.png)
 
-Once the tasks complete, you’ll see <FontIcon icon="fas fa-folder-open"/>`build/dokka` directories generated in each module and one at the root level.
+Once the tasks complete, you’ll see <VPIcon icon="fas fa-folder-open"/>`build/dokka` directories generated in each module and one at the root level.
 
 ![Dokka generated build directories screenshot](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-8.51.09-PM-262x500.png)
 
-The <FontIcon icon="fas fa-folder-open"/>`html` directory in each module is generated by `dokkaHtml` and contains documentation for each standalone module.
+The <VPIcon icon="fas fa-folder-open"/>`html` directory in each module is generated by `dokkaHtml` and contains documentation for each standalone module.
 
-The <FontIcon icon="fas fa-folder-open"/>`htmlPartial` directory in each module is generated by `dokkaHtmlMultiModule`. It calls the `dokkaHtmlPartial` gradle task in each module to generate this directory and combines them all in the root-level <FontIcon icon="fas fa-folder-open"/>`build/dokka/htmlMultiModule` directory.
+The <VPIcon icon="fas fa-folder-open"/>`htmlPartial` directory in each module is generated by `dokkaHtmlMultiModule`. It calls the `dokkaHtmlPartial` gradle task in each module to generate this directory and combines them all in the root-level <VPIcon icon="fas fa-folder-open"/>`build/dokka/htmlMultiModule` directory.
 
 See all the gradle tasks added by Dokka by clicking on the gradle tab at the top right corner:
 
 ![Android Studio documentation gradle tasks](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-9.15.31-PM-212x500.png)
 
-Right-click <FontIcon icon="fa-brands fa-html5"/>`index.html` in <FontIcon icon="fas fa-folder-open"/>`build/dokka/html` inside the `app` module and select <FontIcon icon="iconfont icon-select"/>`[Open in ▸ Browser ▸ {Whatever browser you want}]`. This will use IntelliJ’s built-in server to load the file. The generated documentation will look like this:
+Right-click <VPIcon icon="fa-brands fa-html5"/>`index.html` in <VPIcon icon="fas fa-folder-open"/>`build/dokka/html` inside the `app` module and select <VPIcon icon="iconfont icon-select"/>`[Open in ▸ Browser ▸ {Whatever browser you want}]`. This will use IntelliJ’s built-in server to load the file. The generated documentation will look like this:
 
 ![Dokka generated HTML for module](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-9.19.49-PM-650x431.png)
 
-Do the same for the index.html file in the root-level <FontIcon icon="fas fa-folder-open"/>`build/dokka/htmlMultiModule` directory, and you’ll see this:
+Do the same for the index.html file in the root-level <VPIcon icon="fas fa-folder-open"/>`build/dokka/htmlMultiModule` directory, and you’ll see this:
 
 ![Dokka generated HTML for multiple modules](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-9.20.56-PM-650x430.png)
 
@@ -408,7 +408,7 @@ The first thing you’ll customize is the output directory for module-level HTML
 
 If you remember the gradle tasks from before, `dokkaHtml` is the task responsible for generating HTML documentation for each individual module.
 
-Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and replace `TODO:8` with following:
+Open the root-level <VPIcon icon="iconfont icon-engine"/>`build.gradle` file and replace `TODO:8` with following:
 
 ```groovy
 tasks.named("dokkaHtml") {
@@ -444,7 +444,7 @@ Whenever you want to delete those generated documentation directories, you need 
 
 ### Adding External Documentation
 
-There’s a minor problem in the documentation you generated in the last section. If you open the <FontIcon icon="iconfont icon-java"/>`ImageLoaders.kt` and look at the KDoc comment for `loadImageFromUrl`, you’ll see this snippet:
+There’s a minor problem in the documentation you generated in the last section. If you open the <VPIcon icon="iconfont icon-java"/>`ImageLoaders.kt` and look at the KDoc comment for `loadImageFromUrl`, you’ll see this snippet:
 
 ```kotlin
 * @see Picasso
@@ -452,11 +452,11 @@ There’s a minor problem in the documentation you generated in the last section
 
 This should add a link to `Picasso` class in the __See also__ section of `loadImageFromUrl‘s` documentation.
 
-But if you open the multimodule documentation in a browser and click `loadImageFromUrl` in the <FontIcon icon="fas fa-folder-open"/>`utilities` package, you’ll see it doesn’t provide a clickable link. Instead, it shows a text with the package name of Picasso.
+But if you open the multimodule documentation in a browser and click `loadImageFromUrl` in the <VPIcon icon="fas fa-folder-open"/>`utilities` package, you’ll see it doesn’t provide a clickable link. Instead, it shows a text with the package name of Picasso.
 
 ![Dokka see also section screenshot](https://koenig-media.raywenderlich.com/uploads/2021/12/Screenshot-2021-12-30-at-11.32.20-PM-650x429.png)
 
-Dokka needs to know the location of JavaDoc of any third-party library for this external linking to work. To do that, open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` and replace `TODO:10` with following snippet:
+Dokka needs to know the location of JavaDoc of any third-party library for this external linking to work. To do that, open the root-level <VPIcon icon="iconfont icon-engine"/>`build.gradle` and replace `TODO:10` with following snippet:
 
 ```gralde
 tasks.named("dokkaHtmlPartial") {
@@ -506,7 +506,7 @@ You’ll need to do three things:
 2. Add a deprecation tag for `loadImageFromUrl` and a way to point users to its replacement function.
 3. Update the library version.
 
-Open <FontIcon icon="iconfont icon-java"/>`ImageLoaders.kt` and replace `TODO:11` with the following snippet:
+Open <VPIcon icon="iconfont icon-java"/>`ImageLoaders.kt` and replace `TODO:11` with the following snippet:
 
 ```kotlin
 /**
@@ -552,7 +552,7 @@ fun ImageView.loadImageFromUrl(url: String) {
 }
 ```
 
-Finally, you need to update the library version. Open <FontIcon icon="iconfont icon-engine"/>`publish.gradle` file and change `LIB_VERSION` variable to `"1.0.2"`.
+Finally, you need to update the library version. Open <VPIcon icon="iconfont icon-engine"/>`publish.gradle` file and change `LIB_VERSION` variable to `"1.0.2"`.
 
 Run `./gradlew clean dokkaHtmlMultiModule` and you’ll see documentation pages updated to these:
 
@@ -570,7 +570,7 @@ Select the `MainActivity` tab in the generated docs, and you’ll see a lot of f
 
 Dokka provides a flag to hide the members of the parent class you didn’t explicitly override.
 
-Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and add `suppressInheritedMembers.set(true`) in both `dokkaHtml` and `dokkaHtmlPartial` tasks. Tasks should look like this:
+Open the root-level <VPIcon icon="iconfont icon-engine"/>`build.gradle` file and add `suppressInheritedMembers.set(true`) in both `dokkaHtml` and `dokkaHtmlPartial` tasks. Tasks should look like this:
 
 ```groovy
 // Truncated code above
@@ -611,7 +611,7 @@ dokkaSourceSets {
 }
 ```
 
-If you want any property, method or class to not show up in the documentation, you can use `@suppress` tag. Open <FontIcon icon="iconfont icon-java"/>`MainActivity.kt` and replace `TODO:15` with the snippet below:
+If you want any property, method or class to not show up in the documentation, you can use `@suppress` tag. Open <VPIcon icon="iconfont icon-java"/>`MainActivity.kt` and replace `TODO:15` with the snippet below:
 
 ```kotlin
 /**
@@ -626,9 +626,9 @@ Run `./gradlew clean dokkaHtmlMultiModule` to see the changes:
 
 ### Customizing Module and Package Pages
 
-Remember the changes you did in the __Documenting Modules and Packages__ section? It’s time to start using those custom <FontIcon icon="fa-brands fa-markdown"/>`module.md` files from each of the modules.
+Remember the changes you did in the __Documenting Modules and Packages__ section? It’s time to start using those custom <VPIcon icon="fa-brands fa-markdown"/>`module.md` files from each of the modules.
 
-Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and add `includes.from("module.md")` below `includeNonPublic.set(true)` for both the custom tasks. It will look something like this:
+Open the root-level <VPIcon icon="iconfont icon-engine"/>`build.gradle` file and add `includes.from("module.md")` below `includeNonPublic.set(true)` for both the custom tasks. It will look something like this:
 
 ```groovy
 // Truncated code above
@@ -641,9 +641,9 @@ named("main") {
 }
 ```
 
-If you try generating the documentation now, the custom markdown for packages will work, but the one for modules won’t. This is because the actual module names and the ones used in <FontIcon icon="fa-brands fa-markdown"/>`module.md` don’t match.
+If you try generating the documentation now, the custom markdown for packages will work, but the one for modules won’t. This is because the actual module names and the ones used in <VPIcon icon="fa-brands fa-markdown"/>`module.md` don’t match.
 
-To fix this, you need to customize the module names in the documentation. Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` and add the following snippet in `tasks.named("dokkaHtml")` and `tasks.named("dokkaHtmlPartial")`:
+To fix this, you need to customize the module names in the documentation. Open the root-level <VPIcon icon="iconfont icon-engine"/>`build.gradle` and add the following snippet in `tasks.named("dokkaHtml")` and `tasks.named("dokkaHtmlPartial")`:
 
 ```groovy
 moduleName.set("$rootProject.name-$project.name")
@@ -661,7 +661,7 @@ Take some time to explore all three module.md files and see how their first-leve
 
 In this section, you’ll add a custom footer message and learn to add and replace custom CSS files.
 
-Open the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file and replace `TODO:18` with the following snippet:
+Open the root-level <VPIcon icon="iconfont icon-engine"/>`build.gradle` file and replace `TODO:18` with the following snippet:
 
 ```groovy
 customFooterMessage = "Made with ❤️ at raywenderlich.com"
@@ -670,7 +670,7 @@ customLogoFile = projectDir.toString() + "/logo-style.css"
 
 This defines extra properties for custom footer messages and CSS file paths in the project object.
 
-In the root-level <FontIcon icon="iconfont icon-engine"/>`build.gradle` file, add the following snippet under `dokkaHtml` and `dokkaHtmlPartial` tasks:
+In the root-level <VPIcon icon="iconfont icon-engine"/>`build.gradle` file, add the following snippet under `dokkaHtml` and `dokkaHtmlPartial` tasks:
 
 ```groovy
 pluginsMapConfiguration.set(
@@ -683,11 +683,11 @@ pluginsMapConfiguration.set(
 )
 ```
 
-This snippet adds a custom footer message and the path to <FontIcon icon="fa-brands fa-css3-alt"/>`logo-style.css` in `pluginsMapConfiguration`. Dokka uses it to customize documentation properties.
+This snippet adds a custom footer message and the path to <VPIcon icon="fa-brands fa-css3-alt"/>`logo-style.css` in `pluginsMapConfiguration`. Dokka uses it to customize documentation properties.
 
 The CSS file is already added to the project for you. The `customStyleSheets` property in Dokka adds new files or replaces old files if a file with the same name exists.
 
-Dokka also uses <FontIcon icon="fa-brands fa-css3-alt"/>`logo-style.css` to add a logo in the top left corner. The custom file that you used replaces that logo with another one.
+Dokka also uses <VPIcon icon="fa-brands fa-css3-alt"/>`logo-style.css` to add a logo in the top left corner. The custom file that you used replaces that logo with another one.
 
 Adding the snippet in those two tasks will customize the pages for standalone module documentation as well as module-level pages in the multimodule documentation.
 
@@ -720,7 +720,7 @@ Congratulations — you’ve completed this tutorial!
 
 ## Where to Go From Here?
 
-Download the completed project files by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+Download the completed project files by clicking the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
 Dokka uses a plugin system and provides extension points to write your custom plugins. Check that out here.
 

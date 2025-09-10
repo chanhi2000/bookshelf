@@ -104,7 +104,7 @@ useLayoutEffect(() => {
 }, [dependencies])
 ```
 
-If you were to go through a codebase and replace every `useEffect` call with `useLayoutEffect`, it would work in most cases. For example, I’ve taken an example from the [<FontIcon icon="fas fa-globe"/>React Hooks Cheatsheet](https://react-hooks-cheatsheet.com/examples/fetching-data) that fetches data from a remote server and changes the implementation to use `useLayoutEffect` over `useEffect`:
+If you were to go through a codebase and replace every `useEffect` call with `useLayoutEffect`, it would work in most cases. For example, I’ve taken an example from the [<VPIcon icon="fas fa-globe"/>React Hooks Cheatsheet](https://react-hooks-cheatsheet.com/examples/fetching-data) that fetches data from a remote server and changes the implementation to use `useLayoutEffect` over `useEffect`:
 
 ![React Hooks Cheatsheet Example](/assets/image/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/react-hooks-cheatsheet-example.gif)
 
@@ -153,9 +153,9 @@ With the click comes a state update, which in turn triggers a DOM mutation. The 
 
 Steps 1, 2, and 3 do not show any visual changes to the user. The user will only see a change after the browser has painted the changes or mutations to the DOM. React hands over the details about the DOM mutation to the browser engine, which figures out the entire process of painting the change to the screen.
 
-The function passed to `useEffect` will be fired only after the DOM changes are painted on the screen. The [<FontIcon icon="fa-brands fa-react"/>official docs](https://react.dev/reference/react/useEffect) put it this way:
+The function passed to `useEffect` will be fired only after the DOM changes are painted on the screen. The [<VPIcon icon="fa-brands fa-react"/>official docs](https://react.dev/reference/react/useEffect) put it this way:
 
-::: info <FontIcon icon="fa-brands fa-react"/>react.dev
+::: info <VPIcon icon="fa-brands fa-react"/>react.dev
 
 > “Even if your Effect was caused by an interaction (like a click), the browser may repaint the screen before processing the state updates inside your Effect.”
 
@@ -189,7 +189,7 @@ The main differences between `useEffect` and `useLayoutEffect` lie in when they 
 
 ### Time of execution
 
-Modern browsers are very fast. We’ll employ some creativity to see how the time of execution differs between `useEffect` and `useLayoutEffect`. In the [<FontIcon icon="iconfont icon-codesandbox"/>first example](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-gtrvg?fontsize=14), we’ll consider a counter similar to the one we looked at earlier:
+Modern browsers are very fast. We’ll employ some creativity to see how the time of execution differs between `useEffect` and `useLayoutEffect`. In the [<VPIcon icon="iconfont icon-codesandbox"/>first example](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-gtrvg?fontsize=14), we’ll consider a counter similar to the one we looked at earlier:
 
 ::: sandpack#react ohansemmanuel / useEffect-useLayoutEffect-time-of-execution [rtl theme=dark]
 
@@ -280,7 +280,7 @@ In the next example, we’ll look at plotting graphs with respect to the time of
 
 ![`useEffect` And `useLayoutEffect` Title Shaking](/assets/image/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/useeffect-uselayouteffect-title-shaking.webp)
 
-I chose this example to make sure the browser actually has some changes to paint when the button is clicked, hence the animation. The visual state of the title is toggled within a `useEffect` function call. If it interests you, you can [<FontIcon icon="iconfont icon-codesandbox"/>view the implementation](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-2-kqnqp?fontsize=14).
+I chose this example to make sure the browser actually has some changes to paint when the button is clicked, hence the animation. The visual state of the title is toggled within a `useEffect` function call. If it interests you, you can [<VPIcon icon="iconfont icon-codesandbox"/>view the implementation](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-2-kqnqp?fontsize=14).
 
 ::: sandpack#react ohansemmanuel / useEffect-useLayoutEffect-time-of-execution-2 [rtl theme=dark]
 
@@ -409,7 +409,7 @@ The behavior of both `useEffect` and `useLayoutEffect` differ in how heavy compu
 
 > As an aside, I know `useMemo` is great for memoizing heavy computations. This article neglects that fact, instead comparing `useEffect` and `useLayoutEffect`. Check out this [**guide to the `useMemo`Hook**](/blog.logrocket.com/react-usememo-vs-usecallback.md) if you would like more information.
 
-As an example, I’ve set up an app that’s not practical, but decent enough to work for our use case. [<FontIcon icon="iconfont icon-codesandbox"/>The app](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-gtrvg?fontsize=14) renders with an initial screen that seems harmless:
+As an example, I’ve set up an app that’s not practical, but decent enough to work for our use case. [<VPIcon icon="iconfont icon-codesandbox"/>The app](https://codesandbox.io/s/useeffect-uselayouteffect-time-of-execution-gtrvg?fontsize=14) renders with an initial screen that seems harmless:
 
 ::: sandpack#react ohansemmanuel / useEffect-useLayoutEffect-time-of-execution [rtl theme=dark]
 
@@ -527,13 +527,13 @@ We’ll still need to pay attention to the screen update and our log consoles to
 
 ![`useEffect` Logs Triggered](/assets/image/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/useeffect-logs-triggered.webp)
 
-Here’s the same screencast in [<FontIcon icon="fa-brands fa-youtube"/>slow motion](https://youtu.be/M5_RlEn0XKw). There’s no way you’ll miss the screen update happening before the heavy computation! So, is this behavior the same with `useLayoutEffect`? No! Far from it.
+Here’s the same screencast in [<VPIcon icon="fa-brands fa-youtube"/>slow motion](https://youtu.be/M5_RlEn0XKw). There’s no way you’ll miss the screen update happening before the heavy computation! So, is this behavior the same with `useLayoutEffect`? No! Far from it.
 
 With `useLayoutEffect`, the computation will be triggered before the browser has painted the update. The computation takes time, which eats into the browser’s paint time. Check out the same action from above replaced with `useLayoutEffect`:
 
 ![UseLayoutEffect Computation Triggered Example](/assets/image/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/uselayouteffect-computation-triggered-example.gif)
 
-Again, you can watch it in [<FontIcon icon="fa-brands fa-youtube"/>slow motion](https://youtu.be/irUvYd39k4c). You can see how `useLayoutEffect` stops the browser from painting the DOM changes for a bit. You can play around with [<FontIcon icon="iconfont icon-codesandbox"/>the demo](https://codesandbox.io/s/useeffect-vs-uselayouteffect-heavy-computation-zoi53?fontsize=14), but be careful not to crash your browser.
+Again, you can watch it in [<VPIcon icon="fa-brands fa-youtube"/>slow motion](https://youtu.be/irUvYd39k4c). You can see how `useLayoutEffect` stops the browser from painting the DOM changes for a bit. You can play around with [<VPIcon icon="iconfont icon-codesandbox"/>the demo](https://codesandbox.io/s/useeffect-vs-uselayouteffect-heavy-computation-zoi53?fontsize=14), but be careful not to crash your browser.
 
 ::: sandpack#react ohansemmanuel / useEffect-useLayoutEffect-time-of-execution [rtl theme=dark]
 
@@ -619,7 +619,7 @@ Why does this difference in how heavy computations are handled matter? When poss
 
 ### Inconsistent visual changes
 
-`useLayoutEffect` truly shines when handling inconsistent visual changes. As an example, let’s consider these real scenarios I encountered myself while working on my [<FontIcon icon="fas fa-globe"/>Udemy video course](https://forms.gle/Qd6yZC1Lhcosnc2f8) on Advanced Patterns with React Hooks.
+`useLayoutEffect` truly shines when handling inconsistent visual changes. As an example, let’s consider these real scenarios I encountered myself while working on my [<VPIcon icon="fas fa-globe"/>Udemy video course](https://forms.gle/Qd6yZC1Lhcosnc2f8) on Advanced Patterns with React Hooks.
 
 With `useEffect`, you get a flicker before the DOM changes are painted, which was related to how refs are passed on to custom Hooks. Initially, these refs start off as `null` before actually being set when the attached DOM node is rendered:
 

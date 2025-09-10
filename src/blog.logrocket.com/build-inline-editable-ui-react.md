@@ -70,9 +70,9 @@ Below is an example of a basic React inline editable UI:
 
 ![React Basic Inline Editable UI Example](/assets/image/blog.logrocket.com/build-inline-editable-ui-react/react-basic-inline-editable-ui-example.gif)
 
-In this tutorial, we’ll build basic, inline editable UI components in React using a simplified version of the [<FontIcon icon="fas fa-globe"/>Asana Create a task](https://developers.asana.com/docs/get-a-task) function. Our editable UI will have only a task name and a description field.
+In this tutorial, we’ll build basic, inline editable UI components in React using a simplified version of the [<VPIcon icon="fas fa-globe"/>Asana Create a task](https://developers.asana.com/docs/get-a-task) function. Our editable UI will have only a task name and a description field.
 
-Feel free to check out the [<FontIcon icon="fas fa-globe"/>demo of the React editable UI](https://logrocket-inline-edit.netlify.app) we’ll build in this walkthrough. Let’s get started! 
+Feel free to check out the [<VPIcon icon="fas fa-globe"/>demo of the React editable UI](https://logrocket-inline-edit.netlify.app) we’ll build in this walkthrough. Let’s get started! 
 
 ---
 
@@ -80,11 +80,11 @@ Feel free to check out the [<FontIcon icon="fas fa-globe"/>demo of the React edi
 
 First, let’s review some of the most prominent products that use an inline editable UI with a clear UX.
 
-- [<FontIcon icon="fas fa-globe"/>Asana](https://asana.com): One of the best custom UIs with inline editable tables and forms
-- [<FontIcon icon="fa-brands fa-jira"/>Jira](https://atlassian.com/software/jira): Offers custom inline editing functionality for fields. Here’s a [<FontIcon icon="fa-brands fa-atlassian"/>design example](https://atlassian.design/components/inline-edit/examples) from the Jira design system
-- [<FontIcon icon="fa-brands fa-trello"/>Trello](https://trello.com/en): You can edit a Trello card by simply clicking on it
-- [<FontIcon icon="iconfont icon-airtable"/>Airtable](https://airtable.com/lp/campaign/brand) and [<FontIcon icon="iconfont icon-notion"/>Notion](https://notion.so/product) are modern apps that use inline editable UI elements
-- [<FontIcon icon="iconfont icon-googledocs"/>Google Sheets](https://google.com/sheets/about/): Offers an inline editable smart table UI for the web
+- [<VPIcon icon="fas fa-globe"/>Asana](https://asana.com): One of the best custom UIs with inline editable tables and forms
+- [<VPIcon icon="fa-brands fa-jira"/>Jira](https://atlassian.com/software/jira): Offers custom inline editing functionality for fields. Here’s a [<VPIcon icon="fa-brands fa-atlassian"/>design example](https://atlassian.design/components/inline-edit/examples) from the Jira design system
+- [<VPIcon icon="fa-brands fa-trello"/>Trello](https://trello.com/en): You can edit a Trello card by simply clicking on it
+- [<VPIcon icon="iconfont icon-airtable"/>Airtable](https://airtable.com/lp/campaign/brand) and [<VPIcon icon="iconfont icon-notion"/>Notion](https://notion.so/product) are modern apps that use inline editable UI elements
+- [<VPIcon icon="iconfont icon-googledocs"/>Google Sheets](https://google.com/sheets/about/): Offers an inline editable smart table UI for the web
 
 ![Google Sheets UI](/assets/image/blog.logrocket.com/build-inline-editable-ui-react/google-sheets-ui.webp)
 
@@ -94,9 +94,9 @@ First, let’s review some of the most prominent products that use an inline edi
 
 Before getting started with our custom implementation of inline editable components, let’s consider some of the existing React component libraries that you can use to achieve various inline editable UI elements.
 
-### <FontIcon icon="iconfont icon-json"/>`giorgosart/react-easy-edit`
+### <VPIcon icon="iconfont icon-json"/>`giorgosart/react-easy-edit`
 
-The [<FontIcon icon="iconfont icon-json"/>`giorgosart/react-easy-edit`](https://github.com/giorgosart/react-easy-edit) library allows for inline editing on HTML 5 input components, meaning you can customize the styling and functionality on top of the react-easy-edit library. Below is a simple example using the `textbox` component:
+The [<VPIcon icon="iconfont icon-json"/>`giorgosart/react-easy-edit`](https://github.com/giorgosart/react-easy-edit) library allows for inline editing on HTML 5 input components, meaning you can customize the styling and functionality on top of the react-easy-edit library. Below is a simple example using the `textbox` component:
 
 ```jsx title="App.jsx"
 import React, { Component } from 'react';
@@ -120,15 +120,15 @@ function App() {
 }
 ```
 
-You can check out more examples on [<FontIcon icon="iconfont icon-stackblitz"/>Stackblitz](https://stackblitz.com/edit/react-pun7mm?file=src/App.js).
+You can check out more examples on [<VPIcon icon="iconfont icon-stackblitz"/>Stackblitz](https://stackblitz.com/edit/react-pun7mm?file=src/App.js).
 
 ### Atlassian
 
-[<FontIcon icon="fa-brands fa-atlassian"/>Atlassian](https://atlassian.com), the team that built Jira, has a design system with [<FontIcon icon="fa-brands fa-npm"/>`@atlaskit/inline-edit`](https://npmjs.com/package/@atlaskit/inline-edit) functionality. Although it depends on the Atlassian design system, it’s a solid library that you can consider if your application requires a reliable feature.
+[<VPIcon icon="fa-brands fa-atlassian"/>Atlassian](https://atlassian.com), the team that built Jira, has a design system with [<VPIcon icon="fa-brands fa-npm"/>`@atlaskit/inline-edit`](https://npmjs.com/package/@atlaskit/inline-edit) functionality. Although it depends on the Atlassian design system, it’s a solid library that you can consider if your application requires a reliable feature.
 
-### <FontIcon icon="iconfont icon-github"/>`alioguzhan/react-editext`
+### <VPIcon icon="iconfont icon-github"/>`alioguzhan/react-editext`
 
-[<FontIcon icon="iconfont icon-github"/>`alioguzhan/react-editext`](https://github.com/alioguzhan/react-editext) is an inline editing library that converts the `textarea` element into editable content. Below is a simple example of react-editext:
+[<VPIcon icon="iconfont icon-github"/>`alioguzhan/react-editext`](https://github.com/alioguzhan/react-editext) is an inline editing library that converts the `textarea` element into editable content. Below is a simple example of react-editext:
 
 ```jsx title="App.jsx"
 import React, { Component } from 'react'
@@ -151,25 +151,25 @@ export default class App extends Component {
 }
 ```
 
-react-editext also allows you to [**style `EdiText` with styled-components**](/blog.logrocket.com/benefits-using-styled-components-react.md). To better understand it, you can refer to the [<FontIcon icon="iconfont icon-stackblitz"/>example from Stackblitz](https://stackblitz.com/edit/react-aawg51?file=src%2FApp.js).
+react-editext also allows you to [**style `EdiText` with styled-components**](/blog.logrocket.com/benefits-using-styled-components-react.md). To better understand it, you can refer to the [<VPIcon icon="iconfont icon-stackblitz"/>example from Stackblitz](https://stackblitz.com/edit/react-aawg51?file=src%2FApp.js).
 
-### <FontIcon icon="iconfont icon-github"/>`lovasoa/react-contenteditable`
+### <VPIcon icon="iconfont icon-github"/>`lovasoa/react-contenteditable`
 
-[<FontIcon icon="iconfont icon-github"/>`lovasoa/react-contenteditable`](https://github.com/lovasoa/react-contenteditable) is arguably the most famous package for inline editable UI. The main difference between react-contenteditable and other component libraries is that it allows you to inline edit HTML, not just text content.
+[<VPIcon icon="iconfont icon-github"/>`lovasoa/react-contenteditable`](https://github.com/lovasoa/react-contenteditable) is arguably the most famous package for inline editable UI. The main difference between react-contenteditable and other component libraries is that it allows you to inline edit HTML, not just text content.
 
-You can use react-contenteditable to edit both markup and markdown in the UI. You can also manage the height of the editable element to customize the look and feel of an input or a `textarea` element. Feel free to check out an [<FontIcon icon="iconfont icon-stackblitz"/>example on Stackblitz](https://stackblitz.com/edit/react-2aq9zw?file=src%2FApp.js).
+You can use react-contenteditable to edit both markup and markdown in the UI. You can also manage the height of the editable element to customize the look and feel of an input or a `textarea` element. Feel free to check out an [<VPIcon icon="iconfont icon-stackblitz"/>example on Stackblitz](https://stackblitz.com/edit/react-2aq9zw?file=src%2FApp.js).
 
 ### React Table
 
-[React Table (<FontIcon icon="iconfont icon-github"/>`tanstack/table`)](https://github.com/tanstack/table/tree/v7) is one of the most popular UI libraries that allows you to build tables and data grids with the inline editable feature. You can create a UI that is similar to Google Sheets by customizing React Table library components.
+[React Table (<VPIcon icon="iconfont icon-github"/>`tanstack/table`)](https://github.com/tanstack/table/tree/v7) is one of the most popular UI libraries that allows you to build tables and data grids with the inline editable feature. You can create a UI that is similar to Google Sheets by customizing React Table library components.
 
-In March 2020, React Table creator Tanner Linsley released React Table, which he described as “the culmination of over a years worth of work to refactor the entire library to a hooks-only UI/Style/Markup agnostic table building utility.” In July 2022, [TanStack Table v8 (<FontIcon icon="fa-brands fa-x-twitter"/>`tannerlinsley`)](https://x.com/tannerlinsley/status/1542925072502968320) was released, which [includes a full rewrite to TypeScript (<FontIcon icon="iconfont icon-github"/>`TanStack/table`)](https://github.com/TanStack/table). However, at the time of writing, the migration guide is not yet available.
+In March 2020, React Table creator Tanner Linsley released React Table, which he described as “the culmination of over a years worth of work to refactor the entire library to a hooks-only UI/Style/Markup agnostic table building utility.” In July 2022, [TanStack Table v8 (<VPIcon icon="fa-brands fa-x-twitter"/>`tannerlinsley`)](https://x.com/tannerlinsley/status/1542925072502968320) was released, which [includes a full rewrite to TypeScript (<VPIcon icon="iconfont icon-github"/>`TanStack/table`)](https://github.com/TanStack/table). However, at the time of writing, the migration guide is not yet available.
 
-For a closer look at what’s new in the most [recent stable React Table release (<FontIcon icon="iconfont icon-github"/>`TanStack/table`)](https://github.com/TanStack/table/releases), check out our comprehensive guide to [**building and stying tables with React Table v7**](/blog.logrocket.com/building-styling-tables-react-table-v7/README.md). Or, read on to learn how to render your own [**React table component with React Table**](/blog.logrocket.com/complete-guide-building-smart-data-table-react.md#reacttableexample). You can also check out the [<FontIcon icon="iconfont icon-stackblitz"/>React Table kitchen sink](https://stackblitz.com/edit/vitejs-vite-daemts?file=src/App.tsx) to see how this editable UI works in the table layout.
+For a closer look at what’s new in the most [recent stable React Table release (<VPIcon icon="iconfont icon-github"/>`TanStack/table`)](https://github.com/TanStack/table/releases), check out our comprehensive guide to [**building and stying tables with React Table v7**](/blog.logrocket.com/building-styling-tables-react-table-v7/README.md). Or, read on to learn how to render your own [**React table component with React Table**](/blog.logrocket.com/complete-guide-building-smart-data-table-react.md#reacttableexample). You can also check out the [<VPIcon icon="iconfont icon-stackblitz"/>React Table kitchen sink](https://stackblitz.com/edit/vitejs-vite-daemts?file=src/App.tsx) to see how this editable UI works in the table layout.
 
 ### Ag Grid
 
-[<FontIcon icon="fas fa-globe"/>Ag Grid](https://ag-grid.com/) is another popular library for building data grids with inline editable functionality. Libraries like [<FontIcon icon="fa-brands fa-npm"/>`ag-grid-react`](https://npmjs.com/package/ag-grid-react) and React Table help us to build a data grid to visualize a large amount of data in a table structure. Inline editing is one of the functionalities included in it.
+[<VPIcon icon="fas fa-globe"/>Ag Grid](https://ag-grid.com/) is another popular library for building data grids with inline editable functionality. Libraries like [<VPIcon icon="fa-brands fa-npm"/>`ag-grid-react`](https://npmjs.com/package/ag-grid-react) and React Table help us to build a data grid to visualize a large amount of data in a table structure. Inline editing is one of the functionalities included in it.
 
 Below is a basic implementation of `ag-grid-react`:
 
@@ -184,7 +184,7 @@ return (
 );
 ```
 
-You can check out the complete example on [<FontIcon icon="iconfont icon-stackblitz"/>Stackblitz](https://stackblitz.com/edit/react-ts-xu5kqm?file=App.tsx).
+You can check out the complete example on [<VPIcon icon="iconfont icon-stackblitz"/>Stackblitz](https://stackblitz.com/edit/react-ts-xu5kqm?file=App.tsx).
 
 ---
 
@@ -196,7 +196,7 @@ First, an editable UI displays a label. On hover, it will show the borders, maki
 
 By clicking <kbd>Enter</kbd> or <kbd>Escape</kbd>, we’ll go back to the initial state and show the label. If you click <kbd>Tab</kbd>, it will once again switch to an input element and make the component accessible using the keyboard.
 
-In this tutorial, we’ll build a simple version without the `Tab` functionality. You can easily add the `Tab` functionality, but I’ll leave that up to you. Feel free to create a [pull request to my repo (<FontIcon icon="iconfont icon-github"/>`learnwithparam/logrocket-inline-edit-ui`)](https://github.com/learnwithparam/logrocket-inline-edit-ui).
+In this tutorial, we’ll build a simple version without the `Tab` functionality. You can easily add the `Tab` functionality, but I’ll leave that up to you. Feel free to create a [pull request to my repo (<VPIcon icon="iconfont icon-github"/>`learnwithparam/logrocket-inline-edit-ui`)](https://github.com/learnwithparam/logrocket-inline-edit-ui).
 
 ---
 
@@ -448,7 +448,7 @@ Finally, supporting mobile devices can be hard when form elements are hidden. Th
 
 ## Conclusion
 
-This is a simple example and overview of creating inline editable components in React. Try to use existing components, but if none fit your needs, you can create custom ones. You can check out the demo [<FontIcon icon="fas fa-globe"/>here](https://logrocket-inline-edit.netlify.com/) and the codebase [here (<FontIcon icon="iconfont icon-github"/>`learnwithparam/logrocket-inline-edit-ui`)](https://github.com/learnwithparam/logrocket-inline-edit-ui). Happy coding!
+This is a simple example and overview of creating inline editable components in React. Try to use existing components, but if none fit your needs, you can create custom ones. You can check out the demo [<VPIcon icon="fas fa-globe"/>here](https://logrocket-inline-edit.netlify.com/) and the codebase [here (<VPIcon icon="iconfont icon-github"/>`learnwithparam/logrocket-inline-edit-ui`)](https://github.com/learnwithparam/logrocket-inline-edit-ui). Happy coding!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

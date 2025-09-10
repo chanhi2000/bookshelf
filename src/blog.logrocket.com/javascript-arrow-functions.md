@@ -234,7 +234,7 @@ You can call this version of the `sum` function the same way:
 sum(1, 2, 3) // 6
 ```
 
-This syntax isn’t unique to arrow functions, of course. You can use the [<FontIcon icon="fa-brands fa-firefox"/>rest parameter syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) with standard functions, too. In my experience with [**modern JavaScript**](/blog.logrocket.com/six-things-you-may-not-know-about-javascript.md), I don’t really see the `arguments` object being used anymore, so this distinction may be a moot point.
+This syntax isn’t unique to arrow functions, of course. You can use the [<VPIcon icon="fa-brands fa-firefox"/>rest parameter syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) with standard functions, too. In my experience with [**modern JavaScript**](/blog.logrocket.com/six-things-you-may-not-know-about-javascript.md), I don’t really see the `arguments` object being used anymore, so this distinction may be a moot point.
 
 ### No prototype
 

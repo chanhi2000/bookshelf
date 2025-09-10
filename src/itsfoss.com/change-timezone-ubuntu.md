@@ -109,7 +109,7 @@ You don’t have to do anything apart from closing this map after selecting the 
 
 ## Change Ubuntu timezone via terminal
 
-[<FontIcon icon="fa-brands fa-ubuntu"/>Ubuntu](https://ubuntu.com/) or [**any other distributions using `systemd`**](/itsfoss.com/check-if-systemd.md) can use the timedatectl command to set timezone in Linux terminal.
+[<VPIcon icon="fa-brands fa-ubuntu"/>Ubuntu](https://ubuntu.com/) or [**any other distributions using `systemd`**](/itsfoss.com/check-if-systemd.md) can use the timedatectl command to set timezone in Linux terminal.
 
 You can check the current date and timezone setting using timedatectl command:
 
@@ -159,7 +159,7 @@ You don’t need to become a root user and use sudo with the command, your accou
 
 :::
 
-You can verify the changed time and timezone by using the [<FontIcon icon="fas fa-globe"/>date command](https://linuxhandbook.com/date-command/):
+You can verify the changed time and timezone by using the [<VPIcon icon="fas fa-globe"/>date command](https://linuxhandbook.com/date-command/):
 
 ![Run the “date” command to check the time and timezone.](https://itsfoss.com/content/images/2024/01/date-command-to-know-time.svg)
 
@@ -181,7 +181,7 @@ Oh, wait! Do you want to [**add multiple time zones on Ubuntu**](/itsfoss.com/ad
 }
 ```
 
-You can also explore similar [<FontIcon icon="fas fa-globe"/>Ubuntu tips](https://itsfoss.com/tag/ubuntu/) on our site:
+You can also explore similar [<VPIcon icon="fas fa-globe"/>Ubuntu tips](https://itsfoss.com/tag/ubuntu/) on our site:
 
 <SiteInfo
   name="Ubuntu Tips, Tweaks and Tutorials Collection"

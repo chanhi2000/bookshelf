@@ -66,7 +66,7 @@ We will use a simple `BankAccount` class with a `Deposit` method to illustrate h
 
 ## The C# Lock Statement
 
-The C# language supports locking with the [<FontIcon icon="fa-brands fa-microsoft"/>`lock` statement](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/lock). You can use the `lock` statement to define a code block that only one thread can access.
+The C# language supports locking with the [<VPIcon icon="fa-brands fa-microsoft"/>`lock` statement](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/lock). You can use the `lock` statement to define a code block that only one thread can access.
 
 The `lock` statement acquires a mutual-exclusion lock (mutex) for a given object, executes the statement block, and releases the lock.
 
@@ -103,7 +103,7 @@ The first thread to reach and execute the `lock` statement will be allowed to up
 
 ## Locking With Semaphore
 
-The [<FontIcon icon="fa-brands fa-microsoft"/>`Semaphore`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.semaphore?view=net-6.0) class is another option we can use to achieve the same effect.
+The [<VPIcon icon="fa-brands fa-microsoft"/>`Semaphore`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.semaphore?view=net-6.0) class is another option we can use to achieve the same effect.
 
 We'll use the `Semaphore` constructor to set the `initialCount` to 0, which means that the `Semaphore` is open at the start. And we will also set the `maximumCount` to 1, which means that only one thread is allowed to enter the `Semaphore`.
 
@@ -145,7 +145,7 @@ We can't use the `lock` statement as it doesn't support asynchronous calls. Awai
 
 The `Semaphore` class can solve this problem.
 
-But I want to show you another option that we have, [<FontIcon icon="fa-brands fa-microsoft"/>`SemaphoreSlim`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.semaphoreslim?view=net-6.0). It's a lightweight alternative to the `Semaphore` class and has `async` methods.
+But I want to show you another option that we have, [<VPIcon icon="fa-brands fa-microsoft"/>`SemaphoreSlim`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.semaphoreslim?view=net-6.0). It's a lightweight alternative to the `Semaphore` class and has `async` methods.
 
 Let's see how we can implement the `BankAccount` class using `SemaphoreSlim`:
 
@@ -186,7 +186,7 @@ So far I mentioned three options to implement locking:
 - [`SemaphoreSlim`](#asynchronous-locking-with-semaphoreslim)
 
 However, **.NET** has other classes for **concurrency control** that you can
-explore like [<FontIcon icon="fa-brands fa-microsoft"/>`Monitor`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.monitor?view=net-6.0), [<FontIcon icon="fa-brands fa-microsoft"/>`Mutex`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.mutex?view=net-6.0), [<FontIcon icon="fa-brands fa-microsoft"/>`ReaderWriterLock`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.readerwriterlock?view=net-6.0) and many more.
+explore like [<VPIcon icon="fa-brands fa-microsoft"/>`Monitor`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.monitor?view=net-6.0), [<VPIcon icon="fa-brands fa-microsoft"/>`Mutex`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.mutex?view=net-6.0), [<VPIcon icon="fa-brands fa-microsoft"/>`ReaderWriterLock`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.readerwriterlock?view=net-6.0) and many more.
 
 I hope you enjoyed this brief introduction to a very complex topic.
 

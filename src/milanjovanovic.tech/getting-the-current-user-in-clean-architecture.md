@@ -89,7 +89,7 @@ Let's see how to implement the `IUserContext`.
 
 ## Implementing the UserContext
 
-The `UserContext` class is the `IUserContext` implementation in the Infrastructure layer. We need to inject the `IHttpContextAccessor`, which allows us to access the [<FontIcon icon="fa-brands fa-microsoft"/>`ClaimsPrincipal`](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal?view=net-8.0) through the `User` property. The `ClaimsPrincipal` gives you access to the current user's claims, containing the required information.
+The `UserContext` class is the `IUserContext` implementation in the Infrastructure layer. We need to inject the `IHttpContextAccessor`, which allows us to access the [<VPIcon icon="fa-brands fa-microsoft"/>`ClaimsPrincipal`](https://learn.microsoft.com/en-us/dotnet/api/system.security.claims.claimsprincipal?view=net-8.0) through the `User` property. The `ClaimsPrincipal` gives you access to the current user's claims, containing the required information.
 
 In this example, I'm throwing an exception if any of the properties evaluate to `null`. You can decide if throwing an exception makes sense for you.
 
@@ -140,7 +140,7 @@ Now that you have the `IUserContext`, you can use it from the Application layer.
 
 A common requirement is checking if the current user can access some resources.
 
-Here's an example using the `GetInvoiceQueryHandler`, which queries the database for an invoice. After projecting the result to an `InvoiceResponse` object, we check if the current user is the one to whom the invoice was issued. You can also apply this check as part of the database query. But performing it in memory lets you return a different response to the user when they aren't authorized. For example, a [<FontIcon icon="fas fa-globe"/>403 Forbidden](https://rfc-editor.org/rfc/rfc7231#section-6.5.3) might be appropriate.
+Here's an example using the `GetInvoiceQueryHandler`, which queries the database for an invoice. After projecting the result to an `InvoiceResponse` object, we check if the current user is the one to whom the invoice was issued. You can also apply this check as part of the database query. But performing it in memory lets you return a different response to the user when they aren't authorized. For example, a [<VPIcon icon="fas fa-globe"/>403 Forbidden](https://rfc-editor.org/rfc/rfc7231#section-6.5.3) might be appropriate.
 
 ```cs
 class GetInvoiceQueryHandler(IAppDbContext dbContext, IUserContext userContext)

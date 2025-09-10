@@ -315,7 +315,7 @@ While `switch` statements are useful, they’re not always the best choice. If y
 
 ### Ignoring the `default` case
 
-The `default` case is your safety net. It ensures that your code handles unexpected values gracefully. Always include a `default` case, even if it’s just to log an [<FontIcon icon="fas fa-globe"/>error message](https://blog.logrocket.com/ux-design/writing-clear-error-messages-ux-guidelines-examples/).
+The `default` case is your safety net. It ensures that your code handles unexpected values gracefully. Always include a `default` case, even if it’s just to log an [<VPIcon icon="fas fa-globe"/>error message](https://blog.logrocket.com/ux-design/writing-clear-error-messages-ux-guidelines-examples/).
 
 ---
 

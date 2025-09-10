@@ -113,17 +113,17 @@ Docker Linux containers on Windows is in preview, with ongoing joint development
 
 ## Docker ingress mode service publishing on Windows
 
-Parity with Linux service publishing options has been highly requested by Windows customers. Adding support for <FontIcon icon="fa-brands fa-docker"/>[<FontIcon icon="fa-brands fa-docker"/>service publishing using ingress mode](https://docs.docker.com/engine/swarm/services/#publish-ports) in Windows Server 1709 enables use of Docker’s [<FontIcon icon="fa-brands fa-docker"/>routing mesh](https://docs.docker.com/engine/swarm/ingress/), allowing external endpoints to access a service via any node in the swarm regardless of which nodes are running tasks for the service.
+Parity with Linux service publishing options has been highly requested by Windows customers. Adding support for <VPIcon icon="fa-brands fa-docker"/>[<VPIcon icon="fa-brands fa-docker"/>service publishing using ingress mode](https://docs.docker.com/engine/swarm/services/#publish-ports) in Windows Server 1709 enables use of Docker’s [<VPIcon icon="fa-brands fa-docker"/>routing mesh](https://docs.docker.com/engine/swarm/ingress/), allowing external endpoints to access a service via any node in the swarm regardless of which nodes are running tasks for the service.
 
-These networking improvements also unlock [<FontIcon icon="fa-brands fa-docker"/>VIP-based service discovery when using overlay networks](https://docs.docker.com/engine/swarm/networking/#configure-service-discovery) so that Windows users are not limited to DNS Round Robin.
+These networking improvements also unlock [<VPIcon icon="fa-brands fa-docker"/>VIP-based service discovery when using overlay networks](https://docs.docker.com/engine/swarm/networking/#configure-service-discovery) so that Windows users are not limited to DNS Round Robin.
 
-Check out the corresponding post on the Microsoft Virtualization blog for [<FontIcon icon="fa-brands fa-windows"/>details on the improvements](https://blogs.technet.microsoft.com/virtualization/2017/09/26/dockers-ingress-routing-mesh-available-with-windows-server-version-1709/).
+Check out the corresponding post on the Microsoft Virtualization blog for [<VPIcon icon="fa-brands fa-windows"/>details on the improvements](https://blogs.technet.microsoft.com/virtualization/2017/09/26/dockers-ingress-routing-mesh-available-with-windows-server-version-1709/).
 
 ---
 
 ## Named pipes in Windows containers
 
-A common and powerful Docker pattern is to run Docker containers that use the Docker API of the host that the container is running on, for example to start more Docker containers or to visualize the containers, networks and volumes on the Docker host. This pattern lets you ship, in a container, software that manages or visualizes what’s going on with Docker. This is great for building software like [<FontIcon icon="fa-brands fa-docker"/>Docker Universal Control Plane](https://docker.com/enterprise-edition).
+A common and powerful Docker pattern is to run Docker containers that use the Docker API of the host that the container is running on, for example to start more Docker containers or to visualize the containers, networks and volumes on the Docker host. This pattern lets you ship, in a container, software that manages or visualizes what’s going on with Docker. This is great for building software like [<VPIcon icon="fa-brands fa-docker"/>Docker Universal Control Plane](https://docker.com/enterprise-edition).
 
 Running Docker on Linux, the Docker API is usually hosted on Unix domain socket, and since these are in the filesystem namespace, sockets can be bind-mounted easily into containers. On Windows, the Docker API is available on a named pipe. Previously, named pipes where not bind-mountable into Docker Windows containers, but starting with Windows 10 and Windows Server 1709, named pipes can now bind-mounted.
 
@@ -132,7 +132,7 @@ Jenkins CI is a neat way to demonstrate this. With Docker and Windows Server 170
 1. Run Jenkins in a Docker Windows containers (no more hand-installing and maintaining Java, Git and Jenkins on CI machines)
 2. Have that Jenkins container build Docker images and run Docker CI/CD jobs *on the same host*
 
-I’ve built a [Jenkins sample image (<FontIcon icon="iconfont icon-github"/>`jenkinsci/docker`)](https://github.com/jenkinsci/docker/pull/582) (Windows Server 1709 required) that uses the new named-pipe mounting feature. To run it, simple start a container, grab the initial password and visit port 8080. You don’t have to setup any Jenkins plugins or extra users:
+I’ve built a [Jenkins sample image (<VPIcon icon="iconfont icon-github"/>`jenkinsci/docker`)](https://github.com/jenkinsci/docker/pull/582) (Windows Server 1709 required) that uses the new named-pipe mounting feature. To run it, simple start a container, grab the initial password and visit port 8080. You don’t have to setup any Jenkins plugins or extra users:
 
 ```sh
 docker run -d -p 8080:8080 -v \.\pipe\docker_engine:\.\pipe\docker_engine friism/jenkins
@@ -161,7 +161,7 @@ Hit “Build Now” and see Jenkins (running in a container) start to build a CI
 
 When Docker and Microsoft launched Windows containers last year, some people noticed that Windows container base images are not as small as typical Linux ones. Microsoft has worked very hard to winnow down the base images, and with 1709, the Nanoserver download is now about 70MB (200MB expanded on the filesystem).
 
-One of the things that’s gone from the Nanoserver Docker image is PowerShell. This can present some challenges when authoring Dockerfiles, but <FontIcon icon="fa-brands fa-docekr"/>[multi-stage builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) make it fairly easy to do all the build and component assembly in a Windows Server Core image, and then move just the results into a nanoserver image. Here’s an example showing how to build a minimal Docker image containing just the Docker CLI:
+One of the things that’s gone from the Nanoserver Docker image is PowerShell. This can present some challenges when authoring Dockerfiles, but <VPIcon icon="fa-brands fa-docekr"/>[multi-stage builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) make it fairly easy to do all the build and component assembly in a Windows Server Core image, and then move just the results into a nanoserver image. Here’s an example showing how to build a minimal Docker image containing just the Docker CLI:
 
 ```dockerfile title="Dockerfile"
 FROM microsoft/windowsservercore as builder

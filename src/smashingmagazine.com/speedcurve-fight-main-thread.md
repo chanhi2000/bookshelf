@@ -54,9 +54,9 @@ cover: https://files.smashing.media/articles/fight-main-thread/speedcurve-fight-
   logo="https://smashingmagazine.com/images/favicon/favicon.svg"
   preview="https://files.smashing.media/articles/fight-main-thread/speedcurve-fight-main-thread.jpg"/>
 
-Having access to a free reporting tool like Lighthouse in DevTools is a great start for diagnosing performance issues by identifying bottlenecks on the main thread. Even better are paid tools like [<FontIcon icon="fas fa-globe"/>SpeedCurve](https://speedcurve.com/) to dig deeper into the data for more targeted insights and to produce visual reports to help make a case for performance improvements for your team and other stakeholders.
+Having access to a free reporting tool like Lighthouse in DevTools is a great start for diagnosing performance issues by identifying bottlenecks on the main thread. Even better are paid tools like [<VPIcon icon="fas fa-globe"/>SpeedCurve](https://speedcurve.com/) to dig deeper into the data for more targeted insights and to produce visual reports to help make a case for performance improvements for your team and other stakeholders.
 
-This article has been kindly supported by our dear friends at [<FontIcon icon="fas fa-globe"/>SpeedCurve](https://speedcurve.com/) who not only help people measure the speed of their websites, but also identify and fix performance issues.
+This article has been kindly supported by our dear friends at [<VPIcon icon="fas fa-globe"/>SpeedCurve](https://speedcurve.com/) who not only help people measure the speed of their websites, but also identify and fix performance issues.
 
 ![SpeedCurve](https://files.smashing.media/articles/fight-main-thread/speedcurve-logo.svg)
 
@@ -80,11 +80,11 @@ We're talking about performance in the context of JavaScript, but there are lots
 
 All of this happens on the **main thread**. I've heard the main thread described as a highway that gets cars from Point A to Point B; the more cars that are added to the road, the more crowded it gets and the more time it takes for cars to complete their trip. That's accurate, I think, but we can take it a little further because this particular highway has just *one lane*, and it only goes in *one direction*. My mind thinks of San Francisco's Lombard Street, a twisty one-way path of a tourist trap on a steep decline.
 
-![A picture of San Francisco's Lombard Street, a twisty one-way path<br/>Credit: [<FontIcon icon="fas fa-globe"/>Brandon Nelson](https://unsplash.com/@noodlenelson) on [<FontIcon icon="fas fa-globe"/>Unsplash](https://unsplash.com/photos/2smDZopBMso). ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/1-twisty-one-way-path.png))](https://files.smashing.media/articles/fight-main-thread/1-twisty-one-way-path.png)
+![A picture of San Francisco's Lombard Street, a twisty one-way path<br/>Credit: [<VPIcon icon="fas fa-globe"/>Brandon Nelson](https://unsplash.com/@noodlenelson) on [<VPIcon icon="fas fa-globe"/>Unsplash](https://unsplash.com/photos/2smDZopBMso). ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/1-twisty-one-way-path.png))](https://files.smashing.media/articles/fight-main-thread/1-twisty-one-way-path.png)
 
 The main thread may not be that curvy, but you get the point: there's only one way to go, and everything that enters it must go through it.
 
-JavaScript operates in much the same way. It's “single-threaded,” which is how we get the one-way street comparison. I like how [Brian Barbour explains it (<FontIcon icon="fa-brands fa-dev"/>`bbarbour`)](https://dev.to/bbarbour/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd):
+JavaScript operates in much the same way. It's “single-threaded,” which is how we get the one-way street comparison. I like how [Brian Barbour explains it (<VPIcon icon="fa-brands fa-dev"/>`bbarbour`)](https://dev.to/bbarbour/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd):
 
 ::: info bbarbour - If Javascript Is Single Threaded, How Is It Asynchronous?
 
@@ -100,7 +100,7 @@ So, there we have it: a fight for the main thread. Each resource on a page is a 
 
 If you're like me, I immediately reach for DevTools and open the Lighthouse tab when I need to look into a site's performance. It covers a lot of ground, like reporting stats about a page's load time that include **Time to First Byte (TTFB)**, **First Contentful Paint (FCP)**, **Largest Contentful Paint (LCP)**, **Cumulative Layout Shift (CLS)**, and so on.
 
-![Hey, look at that — great job, team! ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/2-devtools-lighthouse-smashing-magazine.png))](https://files.smashing.media/articles/fight-main-thread/2-devtools-lighthouse-smashing-magazine.png)
+![Hey, look at that — great job, team! ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/2-devtools-lighthouse-smashing-magazine.png))](https://files.smashing.media/articles/fight-main-thread/2-devtools-lighthouse-smashing-magazine.png)
 
 I love this stuff! But I also am scared to death of it. I mean, this is stuff for back-end engineers, right? A measly front-end designer like me can be blissfully ignorant of all this mumbo-jumbo.
 
@@ -110,41 +110,41 @@ Meh, untrue. Like accessibility, performance is everyone's job because everyone'
 
 One thing I know would be more helpful than a set of Core Web Vitals scores from Lighthouse is knowing the time it takes to go from the First Contentful Paint (FCP) to the Time to Interactive (TTI), a metric known as the **Total Blocking Time (TBT)**. You can see that Lighthouse does indeed provide that metric. Let's look at it for a site that's much “heavier” than Smashing Magazine.
 
-![A screenshot of DevTools on espn.com with 61 scores on performance and total blocking time equals to 260ms ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/3-devtools-lighthouse-espn.png))](https://files.smashing.media/articles/fight-main-thread/3-devtools-lighthouse-espn.png)
+![A screenshot of DevTools on espn.com with 61 scores on performance and total blocking time equals to 260ms ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/3-devtools-lighthouse-espn.png))](https://files.smashing.media/articles/fight-main-thread/3-devtools-lighthouse-espn.png)
 
-There we go. The problem with the Lighthouse report, though, is that I have no idea what is causing that TBT. We can get a better view if we run the same test in another service, like [<FontIcon icon="fas fa-globe"/>SpeedCurve](https://speedcurve.com), which digs deeper into the metric. We can expand the metric to glean insights into what exactly is causing traffic on the main thread.
+There we go. The problem with the Lighthouse report, though, is that I have no idea what is causing that TBT. We can get a better view if we run the same test in another service, like [<VPIcon icon="fas fa-globe"/>SpeedCurve](https://speedcurve.com), which digs deeper into the metric. We can expand the metric to glean insights into what exactly is causing traffic on the main thread.
 
-![A screenshot of SpeedCurve with TBT of Smahsing Magazine ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/4-speedcurve-tbt-smashing-magazine.png))](https://files.smashing.media/articles/fight-main-thread/4-speedcurve-tbt-smashing-magazine.png)
+![A screenshot of SpeedCurve with TBT of Smahsing Magazine ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/4-speedcurve-tbt-smashing-magazine.png))](https://files.smashing.media/articles/fight-main-thread/4-speedcurve-tbt-smashing-magazine.png)
 
 That's a nice big view and is a good illustration of TBT's impact on page speed. The user is forced to wait a whopping 4.1 seconds between the time the first significant piece of content loads and the time the page becomes interactive. That's a lifetime in web seconds, particularly considering that this test is based on a desktop experience on a high-speed connection.
 
 One of my favorite charts in SpeedCurve is this one showing the distribution of Core Web Vitals metrics during render. You can see the delta between contentful paints and interaction!
 
-![A chart in SpeedCurve showing the distribution of Core Web Vitals metrics during render ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/5-charts-speedcurve-distribution-core-web-vitals-metrics.png))](https://files.smashing.media/articles/fight-main-thread/5-charts-speedcurve-distribution-core-web-vitals-metrics.png)
+![A chart in SpeedCurve showing the distribution of Core Web Vitals metrics during render ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/5-charts-speedcurve-distribution-core-web-vitals-metrics.png))](https://files.smashing.media/articles/fight-main-thread/5-charts-speedcurve-distribution-core-web-vitals-metrics.png)
 
 ### Spotting Long Tasks
 
-What I really want to see is JavaScript, which takes more than 50ms to run. These are called [<FontIcon icon="fas fa-globe"/>**long tasks**](https://speedcurve.com/blog/tag/long-tasks/), and they contribute the most strain on the main thread. If I scroll down further into the report, all of the long tasks are highlighted in red.
+What I really want to see is JavaScript, which takes more than 50ms to run. These are called [<VPIcon icon="fas fa-globe"/>**long tasks**](https://speedcurve.com/blog/tag/long-tasks/), and they contribute the most strain on the main thread. If I scroll down further into the report, all of the long tasks are highlighted in red.
 
-![A screenshot with long tasks time ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/6-javascript-time.png))](https://files.smashing.media/articles/fight-main-thread/6-javascript-time.png)
+![A screenshot with long tasks time ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/6-javascript-time.png))](https://files.smashing.media/articles/fight-main-thread/6-javascript-time.png)
 
 Another way I can evaluate scripts is by opening up the Waterfall View. The default view is helpful to see where a particular event happens in the timeline.
 
-![Speedcurve Waterfull view ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/7-speedcurve-waterfull-view.png))](https://files.smashing.media/articles/fight-main-thread/7-speedcurve-waterfull-view.png)
+![Speedcurve Waterfull view ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/7-speedcurve-waterfull-view.png))](https://files.smashing.media/articles/fight-main-thread/7-speedcurve-waterfull-view.png)
 
 But wait! This report can be expanded to see not only what is loaded at the various points in time but whether they are blocking the thread and by how much. Most important are the assets that come before the FCP.
 
-![Expanded Waterfull view review ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/8-speed-waterfall-fcp.png))](https://files.smashing.media/articles/fight-main-thread/8-speed-waterfall-fcp.png)
+![Expanded Waterfull view review ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/8-speed-waterfall-fcp.png))](https://files.smashing.media/articles/fight-main-thread/8-speed-waterfall-fcp.png)
 
 ### First & Third Party Scripts
 
 I can see right off the bat that Optimizely is serving a render-blocking script. SpeedCurve can go even deeper by distinguishing between first- and third-party scripts.
 
-![Waterfull option of showing third-party scripts ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/9-speed-waterfall-options.png))](https://files.smashing.media/articles/fight-main-thread/9-speed-waterfall-options.png)
+![Waterfull option of showing third-party scripts ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/9-speed-waterfall-options.png))](https://files.smashing.media/articles/fight-main-thread/9-speed-waterfall-options.png)
 
 That way, I can see more detail about what's happening on the Optimizely side of things.
 
-[![SpeedCurve showing the First Contentful Paint with distinguishment between first- and third-party scripts ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/10-speed-waterfall-fcp.png))](https://files.smashing.media/articles/fight-main-thread/10-speed-waterfall-fcp.png)](https://files.smashing.media/articles/fight-main-thread/10-speed-waterfall-fcp.png)
+[![SpeedCurve showing the First Contentful Paint with distinguishment between first- and third-party scripts ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/10-speed-waterfall-fcp.png))](https://files.smashing.media/articles/fight-main-thread/10-speed-waterfall-fcp.png)](https://files.smashing.media/articles/fight-main-thread/10-speed-waterfall-fcp.png)
 
 ### Monitoring Blocking Scripts
 
@@ -170,13 +170,13 @@ These are the kinds of tools that allow us to identify bottlenecks and make a ca
 
 ### Monitoring Interaction to Next Paint
 
-There's going to be a new way to gain insights into main thread traffic when [<FontIcon icon="fas fa-globe"/>Interaction to Next Paint (INP)](https://web.dev/inp/) is released as a new core vital metric in March 2024. It replaces the [<FontIcon icon="fas fa-globe"/>First Input Delay (FID)](https://web.dev/fid/) metric.
+There's going to be a new way to gain insights into main thread traffic when [<VPIcon icon="fas fa-globe"/>Interaction to Next Paint (INP)](https://web.dev/inp/) is released as a new core vital metric in March 2024. It replaces the [<VPIcon icon="fas fa-globe"/>First Input Delay (FID)](https://web.dev/fid/) metric.
 
 What's so important about that? Well, FID has been used to measure **load responsiveness**, which is a fancy way of saying it looks at how fast the browser loads the first user interaction on the page. And by *interaction*, we mean some action the user takes that triggers an event, such as a `click`, `mousedown`, `keydown`, or `pointerdown` event. FID looks at the time the user sparks an interaction and how long the browser processes — or responds to — that input.
 
 FID might easily be overlooked when trying to diagnose long tasks on the main thread because it looks at the amount of time a user spends waiting after interacting with the page rather than the time it takes to render the page itself. It can't be replicated with lab data because it's based on a real user interaction. That said, FID is correlated to TBT in that the higher the FID, the higher the TBT, and vice versa. So, TBT is often the go-to metric for identifying long tasks because it can be measured with lab data as well as real-user monitoring (RUM).
 
-But FID is [<FontIcon icon="fas fa-globe"/>wrought with limitations](https://web.dev/better-responsiveness-metric/), the most significant perhaps being that it's only a measure of the *first* interaction. That's where INP comes into play. Instead of measuring the first interaction and only the first interaction, it measures *all* interactions on a page. Jeremy Wagner has a more articulate explanation:
+But FID is [<VPIcon icon="fas fa-globe"/>wrought with limitations](https://web.dev/better-responsiveness-metric/), the most significant perhaps being that it's only a measure of the *first* interaction. That's where INP comes into play. Instead of measuring the first interaction and only the first interaction, it measures *all* interactions on a page. Jeremy Wagner has a more articulate explanation:
 
 ::: web.dev - Towards a better responsiveness metric
 
@@ -196,11 +196,11 @@ But FID is [<FontIcon icon="fas fa-globe"/>wrought with limitations](https://web
 
 Some interactions are naturally going to take longer to respond than others. So, we might think of FID as merely a first impression of responsiveness, whereas INP is a more complete picture. And like FID, the INP score is closely correlated with TBT but even more so, as Annie Sullivan reports:
 
-![Tweet by Annie Sullivan: First, is INP correlated with TBT? Is it more correlated with TBT than FID? Yes and yes!<br><br>But they are both correlated with TBT; is INP catching more problems with main thread blocking JavaScript? We can break down the percent of sites meeting the good threshold: yes it is! ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/annie-sullivan-tweet.png))](https://files.smashing.media/articles/fight-main-thread/annie-sullivan-tweet.png)
+![Tweet by Annie Sullivan: First, is INP correlated with TBT? Is it more correlated with TBT than FID? Yes and yes!<br><br>But they are both correlated with TBT; is INP catching more problems with main thread blocking JavaScript? We can break down the percent of sites meeting the good threshold: yes it is! ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/annie-sullivan-tweet.png))](https://files.smashing.media/articles/fight-main-thread/annie-sullivan-tweet.png)
 
 Thankfully, performance tools are already beginning to bake INP into their reports. SpeedCurve is indeed one of them, and its report shows how its RUM capabilities can be used to illustrate the correlation between INP and long tasks on the main thread. This correlation chart illustrates how INP gets worse as the total long tasks' time increases.
 
-![A correlation chart illustrating Long tasks vs Interaction to Next Paint ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/14-correlation-chart-long-tasks-vs-inp.png))](https://files.smashing.media/articles/fight-main-thread/14-correlation-chart-long-tasks-vs-inp.png)
+![A correlation chart illustrating Long tasks vs Interaction to Next Paint ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/14-correlation-chart-long-tasks-vs-inp.png))](https://files.smashing.media/articles/fight-main-thread/14-correlation-chart-long-tasks-vs-inp.png)
 
 What's cool about this report is that it is always collecting data, providing a way to monitor INP and its relationship to long tasks over time.
 
@@ -228,15 +228,15 @@ I think of chat widgets for customer support. Yes, having a persistent and conve
 
 ### Where Is It Served From?
 
-Just because a script comes from a third party doesn't mean it has to be hosted by a third party. The web fonts example from earlier applies. Can the font files be self-hosted instead rather than needing to establish another outside connection? It's worth asking. There are self-hosted alternatives to Google Analytics, after all. And even [<FontIcon icon="fa-brands fa-google"/>GTM can be self-hosted](https://developers.google.com/tag-platform/tag-manager/server-side/custom-domain)! That's why grouping first and third-party scripts in SpeedCurve's reporting is so useful: spot *what* is being served and *where* it is coming from and identify possible opportunities.
+Just because a script comes from a third party doesn't mean it has to be hosted by a third party. The web fonts example from earlier applies. Can the font files be self-hosted instead rather than needing to establish another outside connection? It's worth asking. There are self-hosted alternatives to Google Analytics, after all. And even [<VPIcon icon="fa-brands fa-google"/>GTM can be self-hosted](https://developers.google.com/tag-platform/tag-manager/server-side/custom-domain)! That's why grouping first and third-party scripts in SpeedCurve's reporting is so useful: spot *what* is being served and *where* it is coming from and identify possible opportunities.
 
-![A graph showing first and third party size ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/15-speed-first-third-party-graph.png))](https://files.smashing.media/articles/fight-main-thread/15-speed-first-third-party-graph.png)
+![A graph showing first and third party size ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/15-speed-first-third-party-graph.png))](https://files.smashing.media/articles/fight-main-thread/15-speed-first-third-party-graph.png)
 
 ### What Is It Serving?
 
 Loading one script can bring unexpected visitors along for the ride. I think the classic case is a third-party script that loads its own assets, like a stylesheet. Even if you think you're only loading one stylesheet — your own — it's very possible that a script loads additional external stylesheets, all of which need to be downloaded and rendered.
 
-![A graph showing a number of requests made by each third party, broken down by content type ([<FontIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/16-speed-assets-source-distribution.png))](https://files.smashing.media/articles/fight-main-thread/16-speed-assets-source-distribution.png)
+![A graph showing a number of requests made by each third party, broken down by content type ([<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/fight-main-thread/16-speed-assets-source-distribution.png))](https://files.smashing.media/articles/fight-main-thread/16-speed-assets-source-distribution.png)
 
 ---
 
@@ -327,7 +327,7 @@ But that reputation is not totally warranted because, like most tools, you have 
 
 Phew! Performance is not exactly a straightforward science. There are objective ways to measure performance, of course, but if I've learned anything about it, it's that subjectivity is a big part of the process. Different scripts are of different sizes and consist of different resources serving different needs that have different priorities for different organizations and their users.
 
-Having access to a free reporting tool like Lighthouse in DevTools is a great start for diagnosing performance issues by identifying bottlenecks on the main thread. Even better are paid tools like [<FontIcon icon="fas fa-globe"/>SpeedCurve](https://speedcurve.com/) to dig deeper into the data for more targeted insights and to produce visual reports to help make a case for performance improvements for your team and other stakeholders.
+Having access to a free reporting tool like Lighthouse in DevTools is a great start for diagnosing performance issues by identifying bottlenecks on the main thread. Even better are paid tools like [<VPIcon icon="fas fa-globe"/>SpeedCurve](https://speedcurve.com/) to dig deeper into the data for more targeted insights and to produce visual reports to help make a case for performance improvements for your team and other stakeholders.
 
 While I wish there were some sort of silver bullet to guarantee good performance, I'll gladly take these and similar tools as a starting point. Most important, though, is having a performance game plan that is served by the tools. And [Vitaly's front-end performance checklist](https://smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/) is an excellent place to start.
 

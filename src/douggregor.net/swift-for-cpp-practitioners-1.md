@@ -62,13 +62,13 @@ isOriginal: false
 }
 ```
 
-There is a [<FontIcon icon="fa-brands fa-swift"/>Getting Started](https://www.swift.org/getting-started) guide for Swift that's good for a general audience. However, I've noticed that folks coming from C++ tend to struggle with certain aspects of Swift's design, and can get themselves stuck. I think I understand why: the two languages feel similar enough that someone familiar with C++ will take the idioms and patterns from C++ and project them on to Swift, which doesn't always end up well. So, I want to take a different approach to teaching Swift that is specifically geared toward C++ "practitioners": folks who write C++ day-to-day and understand not only the C++ language, but its standard library and best practices. For you, dear C++ practitioner, I want to teach Swift by mapping from the idioms, patterns, and mental model of C++ into Swift. My hope is that you'll come through this series of posts not just learning Swift, but learning how to use Swift *well*.
+There is a [<VPIcon icon="fa-brands fa-swift"/>Getting Started](https://www.swift.org/getting-started) guide for Swift that's good for a general audience. However, I've noticed that folks coming from C++ tend to struggle with certain aspects of Swift's design, and can get themselves stuck. I think I understand why: the two languages feel similar enough that someone familiar with C++ will take the idioms and patterns from C++ and project them on to Swift, which doesn't always end up well. So, I want to take a different approach to teaching Swift that is specifically geared toward C++ "practitioners": folks who write C++ day-to-day and understand not only the C++ language, but its standard library and best practices. For you, dear C++ practitioner, I want to teach Swift by mapping from the idioms, patterns, and mental model of C++ into Swift. My hope is that you'll come through this series of posts not just learning Swift, but learning how to use Swift *well*.
 
 As a C++ programmer, some parts of Swift will feel like magic, such as separately type-checked generics and value types that compose beautifully, and we'll revel in those. I'll show how some of the aspects of C++ that we've collectively come to view as problematic, such as wrong defaults or avoidable foot guns, are addressed by Swift's design. Other parts of Swift will grate against the sensibilities of a C++ practitioner, and we won't shy away from those, either. Instead, we'll explain what is different, why Swift is designed that way, and how to cope. I live in both worlds: I'm a Swift designer, implementer, and advocate, and yet I've a long history with C++ that includes being a code owner of Clang and spending a decade on the ISO C++ committee. Most of the code I write day-to-day is in the Swift compiler, which is mostly C++ but is migrating toward Swift.
 
 ::: note
 
-You may have heard about [<FontIcon icon="fa-brands fa-swift"/>Swift's interoperability with C++](https://www.swift.org/documentation/cxx-interop). It's a fantastic tool for incrementally moving a C++ code base toward Swift or wrapping up a C++ library in a nicer Swift interface. However, it's the wrong place to start if you know C++ already and want to learn Swift. Instead, I recommend building something purely in Swift first, to get the feel for Swift without the "pull" of existing C++ code toward more C++-centric patterns. You'll be able to integrate Swift better into your existing code bases once you have a solid understanding of both languages.
+You may have heard about [<VPIcon icon="fa-brands fa-swift"/>Swift's interoperability with C++](https://www.swift.org/documentation/cxx-interop). It's a fantastic tool for incrementally moving a C++ code base toward Swift or wrapping up a C++ library in a nicer Swift interface. However, it's the wrong place to start if you know C++ already and want to learn Swift. Instead, I recommend building something purely in Swift first, to get the feel for Swift without the "pull" of existing C++ code toward more C++-centric patterns. You'll be able to integrate Swift better into your existing code bases once you have a solid understanding of both languages.
 
 :::
 
@@ -95,7 +95,7 @@ print("""
       """)
 ```
 
-The `let` is how we declare an immutable variable, like `const` in C++, but with stronger guarantees: we'll get to that later. We've omitted the type because Swift does type inference in a manner that's similar to `auto` in C++, but we could have written the type explicitly with `let reader: String`. The triple-quotes describe a [<FontIcon icon="fa-brands fa-swift"/>multi-line string literal](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters#Multiline-String-Literals), and the `\(...)` syntax within it is [<FontIcon icon="fa-brands fa-swift"/>string interpolation](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters#String-Interpolation), a feature common in scripting languages that makes it easy to plug values into the middle of a string.
+The `let` is how we declare an immutable variable, like `const` in C++, but with stronger guarantees: we'll get to that later. We've omitted the type because Swift does type inference in a manner that's similar to `auto` in C++, but we could have written the type explicitly with `let reader: String`. The triple-quotes describe a [<VPIcon icon="fa-brands fa-swift"/>multi-line string literal](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters#Multiline-String-Literals), and the `\(...)` syntax within it is [<VPIcon icon="fa-brands fa-swift"/>string interpolation](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters#String-Interpolation), a feature common in scripting languages that makes it easy to plug values into the middle of a string.
 
 ---
 
@@ -111,7 +111,7 @@ v2[1] = "copy";
 
 Here, `v1` is a vector containing `"Hello"` and `"original"`. When we make a copy `v2`, that copy is completely independent of the original: the change to `v2` on the last line, so that it contains `"Hello"` and `"copy"` , doesn't modify the original `v1`.
 
-Many C++ types are value types, from builtin types like integers and floating-point types to standard library containers like `std::string`, `std::vector`, and `std::map`. C++ lets you build your own value types by letting you control how a class type is created, copied, and destroyed, so long as you follow the [<FontIcon icon="iconfont icon-cpp"/>Rule of Three/Five/Zero](https://en.cppreference.com/w/cpp/language/rule_of_three).
+Many C++ types are value types, from builtin types like integers and floating-point types to standard library containers like `std::string`, `std::vector`, and `std::map`. C++ lets you build your own value types by letting you control how a class type is created, copied, and destroyed, so long as you follow the [<VPIcon icon="iconfont icon-cpp"/>Rule of Three/Five/Zero](https://en.cppreference.com/w/cpp/language/rule_of_three).
 
 Swift also emphasizes value types because they aid *local reasoning*, which is the ability to look at code in isolation and reason about what it does, and whether it does so correctly. When you copy an instance of a value type, you don't need to worry that something you do will affect the original. As in C++, many Swift types are value types, including `String`, `Array`, and `Dictionary`, which are analogous to `std::string`, `std::vector`, and `std::map`:
 
@@ -201,7 +201,7 @@ print(p) // error: constant 'p' used before being initialized
 
 Because of definite initialization, Swift has no notion of a default constructor the way C++ does. The variable `p` *is not initialized* on the line where it is defined, the way a C++ class with a non-trivial default constructor would be. Rather, you assign to it, and the first assignment is an initialization. You can't read from it before initializing it, so there is no *undefined behavior* due to uninitialized values.
 
-You could write an initializer that takes no arguments, and perhaps that makes sense for points to (say) create the origin point, but Swift will never automatically call it: you'll always call it explicitly. Let's write that out so we can demonstrate the Swift equivalent to C++ [<FontIcon icon="fa-brands fa-microsoft"/>delegating constructors](https://learn.microsoft.com/en-us/cpp/cpp/delegating-constructors?view=msvc-170):
+You could write an initializer that takes no arguments, and perhaps that makes sense for points to (say) create the origin point, but Swift will never automatically call it: you'll always call it explicitly. Let's write that out so we can demonstrate the Swift equivalent to C++ [<VPIcon icon="fa-brands fa-microsoft"/>delegating constructors](https://learn.microsoft.com/en-us/cpp/cpp/delegating-constructors?view=msvc-170):
 
 ```swift
 // also in LabeledPoint
@@ -227,7 +227,7 @@ init(_ other: LabeledPoint) {
 
 The `_` in the declaration of `other` is a placeholder for "not named", and here it means that the argument to this initializer is not named. Therefore, we can call this initializer with the syntax `LabeledPoint(other)`, just like one would in C++. However, Swift will never *implicitly* call an initializer like this, because it's not special in any way.
 
-Swift will copy, move, and destroy instances of structs by performing those operations directly on each instance property of the `struct`. In essence, a Swift `struct` always follows the [<FontIcon icon="iconfont icon-cpp"/>C++ rule of zero](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-zero), where one relies on the default implementations of all of the special constructors, assignment operators, and destructor. In practice, this means that it's not possible to observe when Swift is making copies of value types, so the compiler is free to make copies that are necessary for implementing the semantics of the program, and optimize away copies when they are no longer needed. The compiler can even implicitly turn a "copy" into a move when it determines that the source of the copy is going away.
+Swift will copy, move, and destroy instances of structs by performing those operations directly on each instance property of the `struct`. In essence, a Swift `struct` always follows the [<VPIcon icon="iconfont icon-cpp"/>C++ rule of zero](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-zero), where one relies on the default implementations of all of the special constructors, assignment operators, and destructor. In practice, this means that it's not possible to observe when Swift is making copies of value types, so the compiler is free to make copies that are necessary for implementing the semantics of the program, and optimize away copies when they are no longer needed. The compiler can even implicitly turn a "copy" into a move when it determines that the source of the copy is going away.
 
 For a type that needs hold on to resources, Swift has classes, which I've already noted will be the subject of another post. Swift also has a notion of "noncopyable" types, but those will come much later. For now, we'll dive deeper into value types.
 
@@ -272,13 +272,13 @@ var p2 = LabeledPoint(x: 1, y: 1, label: "Upper right unit")
 p1.swapX(&p2)
 ```
 
-If the value we are trying to apply `&` to is immutable, the Swift compiler would produce an error. Note that there is no prefix `&` on `p1`, even though it's calling a `mutable` method: it's not needed because the name of the method should [<FontIcon icon="fa-brands fa-swift"/>clearly imply the mutation](https://www.swift.org/documentation/api-design-guidelines/). Of course, if `p1` were immutable, it would still be an error.
+If the value we are trying to apply `&` to is immutable, the Swift compiler would produce an error. Note that there is no prefix `&` on `p1`, even though it's calling a `mutable` method: it's not needed because the name of the method should [<VPIcon icon="fa-brands fa-swift"/>clearly imply the mutation](https://www.swift.org/documentation/api-design-guidelines/). Of course, if `p1` were immutable, it would still be an error.
 
 There are two more important things to say about immutability before we move on to our next kind of value type, `enum`.
 
 First, you *cannot cheat immutability* any more than you can cheat Death. There is no equivalent to the C++ `const_cast` in Swift. There are no `mutable` data members in Swift; even a `var` member of a struct can only be modified on a `var` instance of that struct. There are no `const T&` parameters whose values can change out from underneath you: an immutable value is truly immutable, and the compiler makes sure that no matter how an immutable parameter is actually passed (by-value or by-reference), the underlying value won't change. This can be frustrating, because you've given up control about when to pass by-value, pass by `const` reference, or pass by rvalue reference to do a move. On the other hand, it is liberating: there's no spooky-action-at-a-distance when that `const&` actually *does* change underneath you, and you can lean on immutability to make it easier to reason about your code.
 
-That brings us to the second point: *there is no aliasing of inout parameters*. Aliasing, as I mean it here, is when two different pass-by-reference parameters actually refer to the same underlying instance. If you've ever had to go add an `if (this == &other) { ... }` check into your copy or move assignment operator in C++, you know just how vicious unexpected aliasing of parameters can be for program semantics. In Swift, we have the [law of exclusivity (<FontIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/main/docs/OwnershipManifesto.md#the-law-of-exclusivity), which prevents any such aliasing.
+That brings us to the second point: *there is no aliasing of inout parameters*. Aliasing, as I mean it here, is when two different pass-by-reference parameters actually refer to the same underlying instance. If you've ever had to go add an `if (this == &other) { ... }` check into your copy or move assignment operator in C++, you know just how vicious unexpected aliasing of parameters can be for program semantics. In Swift, we have the [law of exclusivity (<VPIcon icon="iconfont icon-github"/>`apple/swift`)](https://github.com/apple/swift/blob/main/docs/OwnershipManifesto.md#the-law-of-exclusivity), which prevents any such aliasing.
 
 ### Memory safety and the law of exclusivity
 
@@ -332,7 +332,7 @@ Most Swift programmers never think about the Law of Exclusivity: it's enforcemen
 
 ### Enums are the union of enums and unions
 
-Enums are one of Swift's loveliest little features. We borrowed them from [<FontIcon icon="fa-brands fa-wikipedia-w"/>CLU](https://en.wikipedia.org/wiki/CLU_(programming_language)), and for a time before Swift 1.0 they even used the keyword `oneof` . A Swift enum is a type-safe variant, which subsumes C++'s `enum`, `union`, and `std::variant` in one nice little package. An enum can express one of a set of named cases, such as a font size expressed via semantic names:
+Enums are one of Swift's loveliest little features. We borrowed them from [<VPIcon icon="fa-brands fa-wikipedia-w"/>CLU](https://en.wikipedia.org/wiki/CLU_(programming_language)), and for a time before Swift 1.0 they even used the keyword `oneof` . A Swift enum is a type-safe variant, which subsumes C++'s `enum`, `union`, and `std::variant` in one nice little package. An enum can express one of a set of named cases, such as a font size expressed via semantic names:
 
 ```swift
 enum FontSize {
@@ -530,7 +530,7 @@ The bracket syntax is used for both dictionary literals (when the elements are `
 
 ## Regular types
 
-In C++ we sometimes talk about [<FontIcon icon="fas fa-file-pdf"/>regular types](http://stepanovpapers.com/DeSt98.pdf), defined by Alexander Stepanov, which are types that behave predictably with respect to value semantics: you can copy them, and the copy is equal to the original. They can be moved, destroyed, and swapped. C++20 has a [FontIcon icon="iconfont icon-cpp"/>`std::regular` concept](https://en.cppreference.com/w/cpp/concepts/regular) to capture these requirements.
+In C++ we sometimes talk about [<VPIcon icon="fas fa-file-pdf"/>regular types](http://stepanovpapers.com/DeSt98.pdf), defined by Alexander Stepanov, which are types that behave predictably with respect to value semantics: you can copy them, and the copy is equal to the original. They can be moved, destroyed, and swapped. C++20 has a [FontIcon icon="iconfont icon-cpp"/>`std::regular` concept](https://en.cppreference.com/w/cpp/concepts/regular) to capture these requirements.
 
 Swift value types fulfill most of the requirements of a regular type by default, and are based on the same semantic contract. Swift value types are always copyable, destructible, assignable, and movable. Indeed, you can't really even express these ideas in Swift, it's just the way types behave.
 

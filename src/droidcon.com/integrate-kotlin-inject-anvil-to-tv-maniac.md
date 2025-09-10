@@ -52,7 +52,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x6
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x683.webp"/>
 
-![Photo by [<FontIcon icon="fas fa-globe"/>Albert Stoynov](https://unsplash.com/@albertstoynov)](https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x683.webp)
+![Photo by [<VPIcon icon="fas fa-globe"/>Albert Stoynov](https://unsplash.com/@albertstoynov)](https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x683.webp)
 
 ---
 
@@ -60,19 +60,19 @@ cover: https://droidcon.com/wp-content/uploads/2024/12/0_Q0gZACq7a3T4cYeD-1024x6
 
 If you've used Anvil before, you know it takes away a lot of the boilerplate code and makes DI seamless. If Anvil is new to you, it basically allows you to contribute dagger modules and component interfaces to your DI graph, merge all the contributions, and add them to your component during compilation. Ralf Wonderatschek and Gabriel Peal gave an in-depth talk about this. [Dagger + Anvil: Learning to Love Dependency Injection.](/droidcon.com/dagger-anvil-learning-to-love-dependency-injection.md) You should check it out.
 
-I have been using [<FontIcon icon="iconfont icon-github"/>`evant/kotlin-inject`](https://github.com/evant/kotlin-inject) on [my pet project (<FontIcon icon="iconfont icon-github"/>`thomaskioko/tv-maniac`)](https://github.com/thomaskioko/tv-maniac) for a while now, and I have had a good time with it, coming from using Dagger in other projects. One thing I missed was using Anvil. This was not available until recently, when [<FontIcon icon="iconfont icon-github"/>`amzn/kotlin-inject-anvil`](https://github.com/amzn/kotlin-inject-anvil?tab=readme-ov-file) joined the chat.
+I have been using [<VPIcon icon="iconfont icon-github"/>`evant/kotlin-inject`](https://github.com/evant/kotlin-inject) on [my pet project (<VPIcon icon="iconfont icon-github"/>`thomaskioko/tv-maniac`)](https://github.com/thomaskioko/tv-maniac) for a while now, and I have had a good time with it, coming from using Dagger in other projects. One thing I missed was using Anvil. This was not available until recently, when [<VPIcon icon="iconfont icon-github"/>`amzn/kotlin-inject-anvil`](https://github.com/amzn/kotlin-inject-anvil?tab=readme-ov-file) joined the chat.
 
 This is a blog of an ongoing series on my journey with Kotlin Multiplatform. This article will focus on my experience and journey integrating/migrating to kotlin-inject-anvil into the project.
 
-- [<FontIcon icon="fas fa-globe"/>**Going Modular — The Kotlin Multiplatform Way**](https://betterprogramming.pub/going-modular-the-kotlin-multiplatform-way-132c3dee6c95)
-- [**KMM Preferences Datastore** (<FontIcon icon="fa-brands fa-medium"/>`_thomaskioko`)](https://medium.com/@_thomaskioko/kmm-preferences-datastore-674382443262)
-- [**KMP Environment Variables (Part 1)** (<FontIcon icon="fa-brands fa-medium"/>`_thomaskioko`)](https://medium.com/@_thomaskioko/kmm-environment-variables-part-1-877091c2d5b4)
-- [**Intercepting Ktor Network Responses in Kotlin Multiplatform** (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/intercepting-ktor-network-responses-in-kotlin-multiplatform-32946b7d4d65)
-- [**Navigating the Waters of Kotlin Multiplatform: Exploring Navigation Solutions** (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://medium.com/proandroiddev/navigating-the-waters-of-kotlin-multiplatform-exploring-navigation-solutions-eef81aaa1a61)
-- [**Enhancing iOS UI Previews: Swift UI Packages & Kotlin Multiplatform Mobile** (<FontIcon icon="fa-brands fa-medium"/>`_thomaskioko`)](https://medium.com/@_thomaskioko/enhancing-ios-development-with-swift-ui-packages-kmm-fa31901fa146)**.**
+- [<VPIcon icon="fas fa-globe"/>**Going Modular — The Kotlin Multiplatform Way**](https://betterprogramming.pub/going-modular-the-kotlin-multiplatform-way-132c3dee6c95)
+- [**KMM Preferences Datastore** (<VPIcon icon="fa-brands fa-medium"/>`_thomaskioko`)](https://medium.com/@_thomaskioko/kmm-preferences-datastore-674382443262)
+- [**KMP Environment Variables (Part 1)** (<VPIcon icon="fa-brands fa-medium"/>`_thomaskioko`)](https://medium.com/@_thomaskioko/kmm-environment-variables-part-1-877091c2d5b4)
+- [**Intercepting Ktor Network Responses in Kotlin Multiplatform** (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/intercepting-ktor-network-responses-in-kotlin-multiplatform-32946b7d4d65)
+- [**Navigating the Waters of Kotlin Multiplatform: Exploring Navigation Solutions** (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://medium.com/proandroiddev/navigating-the-waters-of-kotlin-multiplatform-exploring-navigation-solutions-eef81aaa1a61)
+- [**Enhancing iOS UI Previews: Swift UI Packages & Kotlin Multiplatform Mobile** (<VPIcon icon="fa-brands fa-medium"/>`_thomaskioko`)](https://medium.com/@_thomaskioko/enhancing-ios-development-with-swift-ui-packages-kmm-fa31901fa146)**.**
 - **Integrate Kotlin-Inject-Anvil To Tv Maniac —** You are here**.** 👈
 
-If you want to see the code, here's the [pull request (<FontIcon icon="iconfont icon-github"/>`thomaskioko/tv-maniac`)](https://github.com/thomaskioko/tv-maniac/pull/363).
+If you want to see the code, here's the [pull request (<VPIcon icon="iconfont icon-github"/>`thomaskioko/tv-maniac`)](https://github.com/thomaskioko/tv-maniac/pull/363).
 
 <SiteInfo
   name="thomaskioko/tv-maniac"
@@ -85,7 +85,7 @@ If you want to see the code, here's the [pull request (<FontIcon icon="iconfont 
 
 ## Koltlin-Inject-Anvil Integration
 
-Before integrating [<FontIcon icon="iconfont icon-github"/>`amzn/kotlin-inject-anvil`](https://github.com/amzn/kotlin-inject-anvil?tab=readme-ov-file), one thing that bothered me was how to approach the integration/migration. I thought the process would be a pain as I already have multiple modules in my project. Do I rip the bandaid off and do it all at once? Is it possible to do it gradually? Spoiler alert: it is possible to do it gradually. This approach might not work for your project, depending on the size of the team. There are multiple ways of doing this, but this worked for me. This approach made it easier to determine if I broke the current implementation or introduced new errors.
+Before integrating [<VPIcon icon="iconfont icon-github"/>`amzn/kotlin-inject-anvil`](https://github.com/amzn/kotlin-inject-anvil?tab=readme-ov-file), one thing that bothered me was how to approach the integration/migration. I thought the process would be a pain as I already have multiple modules in my project. Do I rip the bandaid off and do it all at once? Is it possible to do it gradually? Spoiler alert: it is possible to do it gradually. This approach might not work for your project, depending on the size of the team. There are multiple ways of doing this, but this worked for me. This approach made it easier to determine if I broke the current implementation or introduced new errors.
 
 Here's a quick overview of how I approached the migration.
 
@@ -252,7 +252,7 @@ companion object
 
 @tab After
 
-You should note that we converted our abstract class to an interface, as only interfaces can be annotated with contributed `@ContributesSubcomponent`. For more details on annotation usage and behavior, [see the documentation. (<FontIcon icon="iconfont icon-github"/>`amzn/kotlin-inject-anvil`)](https://github.com/amzn/kotlin-inject-anvil/blob/main/runtime/src/commonMain/kotlin/software/amazon/lastmile/kotlin/inject/anvil/ContributesSubcomponent.kt)
+You should note that we converted our abstract class to an interface, as only interfaces can be annotated with contributed `@ContributesSubcomponent`. For more details on annotation usage and behavior, [see the documentation. (<VPIcon icon="iconfont icon-github"/>`amzn/kotlin-inject-anvil`)](https://github.com/amzn/kotlin-inject-anvil/blob/main/runtime/src/commonMain/kotlin/software/amazon/lastmile/kotlin/inject/anvil/ContributesSubcomponent.kt)
 
 ```kotlin title="ActivityComponent.kt"
 @ContributesSubcomponent(ActivityScope::class)
@@ -329,9 +329,9 @@ This is expected; you can track down the duplicate provide method and delete it.
 
 With this in place, we have now gotten rid of manual bindings, replacing them with `@ContributesTo` and `@ContributesBinding`. We also deleted our god component class and got rid of a lot of boilerplate, thanks to Anvil.
 
-[Ralf (<FontIcon icon="fa-brands fa-x-twitter"/>`vRallev`)](https://x.com/vRallev) and all the contributors have done a fantastic job with [<FontIcon icon="iconfont icon-github"/>`amzn/kotlin-inject-anvil`](https://github.com/amzn/kotlin-inject-anvil). The integration was smooth. I'm looking forward to how these libraries evolve. (Maybe it should be renamed to KiAnvil. Get it? You know, like Keanu, because of how lethal it feels? No? 😂 Don't worry, I will see myself out.)
+[Ralf (<VPIcon icon="fa-brands fa-x-twitter"/>`vRallev`)](https://x.com/vRallev) and all the contributors have done a fantastic job with [<VPIcon icon="iconfont icon-github"/>`amzn/kotlin-inject-anvil`](https://github.com/amzn/kotlin-inject-anvil). The integration was smooth. I'm looking forward to how these libraries evolve. (Maybe it should be renamed to KiAnvil. Get it? You know, like Keanu, because of how lethal it feels? No? 😂 Don't worry, I will see myself out.)
 
-Thanks, [Ralf (<FontIcon icon="fa-brands fa-x-twitter"/>`vRallev`)](https://x.com/vRallev), for reviewing the article. Until we meet again, folks. Happy coding! ✌️
+Thanks, [Ralf (<VPIcon icon="fa-brands fa-x-twitter"/>`vRallev`)](https://x.com/vRallev), for reviewing the article. Until we meet again, folks. Happy coding! ✌️
 
 ---
 
@@ -363,7 +363,7 @@ Thanks, [Ralf (<FontIcon icon="fa-brands fa-x-twitter"/>`vRallev`)](https://x.co
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/integrate-kotlin-inject-anvil-to-tv-maniac-e1330c9cb566)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/integrate-kotlin-inject-anvil-to-tv-maniac-e1330c9cb566)
 
 <SiteInfo
   name="Integrate Kotlin-Inject-Anvil To Tv Maniac"

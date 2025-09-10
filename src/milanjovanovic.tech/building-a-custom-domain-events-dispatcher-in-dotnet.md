@@ -52,7 +52,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_143.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_143.png"/>
 
-Domain events are a powerful way to decouple parts of your system. Instead of tightly coupling your logic, you can publish events and have other parts of your code subscribe to those events. This pattern is especially valuable in [<FontIcon icon="fa-brands fa-wikipedia-w"/>Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD) where business logic should remain focused and cohesive.
+Domain events are a powerful way to decouple parts of your system. Instead of tightly coupling your logic, you can publish events and have other parts of your code subscribe to those events. This pattern is especially valuable in [<VPIcon icon="fa-brands fa-wikipedia-w"/>Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD) where business logic should remain focused and cohesive.
 
 In this article, we'll walk through how to implement a lightweight, custom domain event dispatcher in .NET. The core dispatching logic should not depend on third-party libraries.
 

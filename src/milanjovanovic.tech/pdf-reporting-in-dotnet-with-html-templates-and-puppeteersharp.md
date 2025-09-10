@@ -167,7 +167,7 @@ This allows us to format dates, currencies, or any other data type as needed. Yo
 
 ## Rendering the Template and PDF
 
-How do we render this template and convert it to PDF? We'll use [<FontIcon icon="iconfont icon-github"/>`Handlebars-Net/Handlebars.Net`](https://github.com/Handlebars-Net/Handlebars.Net) to compile the template with data, then PuppeteerSharp to render it to PDF.
+How do we render this template and convert it to PDF? We'll use [<VPIcon icon="iconfont icon-github"/>`Handlebars-Net/Handlebars.Net`](https://github.com/Handlebars-Net/Handlebars.Net) to compile the template with data, then PuppeteerSharp to render it to PDF.
 
 First, we read the template file and compile it with `Handlebars`:
 
@@ -190,7 +190,7 @@ This gives us the final HTML with all placeholders replaced by actual data.
 
 ::: note
 
-You don't necessarily need to use Handlebars. You can use any templating engine that suits your needs, like [**Razor**](/milanjovanovic.tech/flexible-pdf-reporting-in-net-using-razor-views.md) or [<FontIcon icon="iconfont icon-github"/>`scriban/scriban`](https://github.com/scriban/scriban).
+You don't necessarily need to use Handlebars. You can use any templating engine that suits your needs, like [**Razor**](/milanjovanovic.tech/flexible-pdf-reporting-in-net-using-razor-views.md) or [<VPIcon icon="iconfont icon-github"/>`scriban/scriban`](https://github.com/scriban/scriban).
 
 :::
 
@@ -460,7 +460,7 @@ It lets you:
 
 And all of this without relying on commercial libraries.
 
-I've also written about [**PDF generation**](/milanjovanovic.tech/how-to-easily-create-pdf-documents-in-aspnetcore.md) in the past, with libraries like [<FontIcon icon="fas fa-globe"/>QuestPdf](https://questpdf.com/) or [<FontIcon icon="fas fa-globe"/>IronPdf](https://ironpdf.com/). You can take a look at those if you want to compare approaches.
+I've also written about [**PDF generation**](/milanjovanovic.tech/how-to-easily-create-pdf-documents-in-aspnetcore.md) in the past, with libraries like [<VPIcon icon="fas fa-globe"/>QuestPdf](https://questpdf.com/) or [<VPIcon icon="fas fa-globe"/>IronPdf](https://ironpdf.com/). You can take a look at those if you want to compare approaches.
 
 The cold start can be expensive, but once warmed up, rendering is fast and reliable. You get total layout control, CSS styling, and even dynamic headers and footers with page numbers and timestamps.
 

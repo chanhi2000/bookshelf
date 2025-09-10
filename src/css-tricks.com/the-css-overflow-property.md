@@ -122,7 +122,7 @@ Make sure to account for this substantial difference.
 
 ### IE 8 expanding box bug
 
-There are lots of fun new bugs, including some very serious ones that hide entire web pages, with IE. [<FontIcon icon="fas fa-globe"/>More details here](http://edskes.net/ie8overflowandexpandingboxbugs.htm).
+There are lots of fun new bugs, including some very serious ones that hide entire web pages, with IE. [<VPIcon icon="fas fa-globe"/>More details here](http://edskes.net/ie8overflowandexpandingboxbugs.htm).
 
 ### Breaking floated layouts
 
@@ -134,7 +134,7 @@ IE 6, 7 and 8 all screw up the default overflow visible and will expand a box ho
 
 ## Can scroll bars be styled with CSS?
 
-IE [<FontIcon icon="fas fa-globe"/>used to allow this](http://spectrum-research.com/V2/projects_scrollbar_generator.asp) in older versions of IE but it has since been discontinued. WebKit/Blink browsers allow it and [**here’s some information about that**](/css-tricks.com/custom-scrollbars-in-webkit.md). It’s non-standard though and it’s unclear if the standards bodies are interested in standardizing it. If you absolutely need customized cross-browser scrollbars, you’ll need to handle it custom with JavaScript. Here’s [a simple start (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/gzBsA) and here’s [<FontIcon icon="fa-brands fa-stack-overflow"/>a StackOverflow thread](http://stackoverflow.com/questions/4967521/js-scrollbar-recommendations) with recommendations.
+IE [<VPIcon icon="fas fa-globe"/>used to allow this](http://spectrum-research.com/V2/projects_scrollbar_generator.asp) in older versions of IE but it has since been discontinued. WebKit/Blink browsers allow it and [**here’s some information about that**](/css-tricks.com/custom-scrollbars-in-webkit.md). It’s non-standard though and it’s unclear if the standards bodies are interested in standardizing it. If you absolutely need customized cross-browser scrollbars, you’ll need to handle it custom with JavaScript. Here’s [a simple start (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/gzBsA) and here’s [<VPIcon icon="fa-brands fa-stack-overflow"/>a StackOverflow thread](http://stackoverflow.com/questions/4967521/js-scrollbar-recommendations) with recommendations.
 
 ---
 
@@ -146,7 +146,7 @@ IE displays a vertical scrollbar all the time whether it needs it or not. This c
 
 ## Demo
 
-Demos for this article taken from [<FontIcon icon="iconfont icon-css-tricks"/>this sample page](https://css-tricks.com/examples/OverflowExample/).
+Demos for this article taken from [<VPIcon icon="iconfont icon-css-tricks"/>this sample page](https://css-tricks.com/examples/OverflowExample/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

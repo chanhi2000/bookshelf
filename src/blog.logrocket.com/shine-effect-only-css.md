@@ -63,7 +63,7 @@ To follow along with this tutorial, you’ll need the following:
 
 :::
 
-To view the full code used in this tutorial, you can [clone this project via my GitHub (<FontIcon icon="iconfont icon-github"/>`aidelojep/Shine_effect_of_CSS`)](https://github.com/aidelojep/Shine_effect_of_CSS/). Let’s get started!
+To view the full code used in this tutorial, you can [clone this project via my GitHub (<VPIcon icon="iconfont icon-github"/>`aidelojep/Shine_effect_of_CSS`)](https://github.com/aidelojep/Shine_effect_of_CSS/). Let’s get started!
 
 <SiteInfo
   name="aidelojep/Shine_effect_of_CSS"
@@ -376,7 +376,7 @@ Then, I added a `button:hover` effect property, which acts like an event listene
 
 ![Final CSS Shine Effect](/assets/image/blog.logrocket.com/shine-effect-only-css/final-css-shine-effect.jpeg)
 
-You could also [<FontIcon icon="fa-brands fa-youtube"/>check out the effect on YouTube](https://youtu.be/NpAEQzeSoOE).
+You could also [<VPIcon icon="fa-brands fa-youtube"/>check out the effect on YouTube](https://youtu.be/NpAEQzeSoOE).
 
 <VidStack src="youtube/NpAEQzeSoOE" />
 

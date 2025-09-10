@@ -54,7 +54,7 @@ cover: https://marcinmoskala.com/coroutines_book/promotion/207_dispatchers.jpg
 
 ::: note
 
-This is a chapter from the book [Effective Kotlin](/book/effectivekotlin). You can find it on [<FontIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<FontIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
+This is a chapter from the book [Effective Kotlin](/book/effectivekotlin). You can find it on [<VPIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<VPIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
 
 :::
 
@@ -814,7 +814,7 @@ Dispatchers determine which thread or thread pool a coroutine will run (starting
 - `Dispatchers.Default` or `Dispatchers.IO` with parallelism limited to 1, or a custom dispatcher with a single thread, which is used when we need to secure shared state modifications;
 - `Dispatchers.Unconfined`, which does not change threads and is used in some special cases;
 
-[^1]: The whole code can be found at [<FontIcon icon="iconfont icon-github"/>`MarcinMoskala/coroutines-benchmarks`](https://github.com/MarcinMoskala/coroutines-benchmarks/blob/master/src/jmh/java/me/champeau/jmh/DispatchersBenchmark.kt)
+[^1]: The whole code can be found at [<VPIcon icon="iconfont icon-github"/>`MarcinMoskala/coroutines-benchmarks`](https://github.com/MarcinMoskala/coroutines-benchmarks/blob/master/src/jmh/java/me/champeau/jmh/DispatchersBenchmark.kt)
 [^2]: The main reason is that the more threads we use, the more time the processor needs to spend switching between them, thus it has less time to do meaningful operations. Also `Dispatchers.IO` should not be used for CPU-intensive operations because it is used to block operations, and some other process might block all its threads.
 [^3]: Wrapping needs to happen only once per continuation thanks to the caching mechanism.
 [^4]: This mechanism is not deterministic.

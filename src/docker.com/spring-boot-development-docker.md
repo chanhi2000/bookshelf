@@ -67,7 +67,7 @@ cover: https://docker.com/app/uploads/9d6c9743-e348-4c76-8515-1743162101ad.jpg
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/9d6c9743-e348-4c76-8515-1743162101ad.jpg"/>
 
-The [AtSea Shop (<FontIcon icon="iconfont icon-github"/>`dockersamples/atsea-sample-shop-app`)](https://github.com/dockersamples/atsea-sample-shop-app) is an example storefront application that can be deployed on different operating systems and can be customized to both your enterprise development and operational environments. In my last post, I discussed the architecture of the app. In this post, I will cover how to setup your development environment to debug the Java REST backend that runs in a container.
+The [AtSea Shop (<VPIcon icon="iconfont icon-github"/>`dockersamples/atsea-sample-shop-app`)](https://github.com/dockersamples/atsea-sample-shop-app) is an example storefront application that can be deployed on different operating systems and can be customized to both your enterprise development and operational environments. In my last post, I discussed the architecture of the app. In this post, I will cover how to setup your development environment to debug the Java REST backend that runs in a container.
 
 ---
 
@@ -81,7 +81,7 @@ I used the Spring Boot framework to rapidly develop the REST backend that manage
 
 The AtSea project uses multi-stage builds, a new Docker feature, which allows me to use multiple images to build a single Docker image that includes all the components needed for the application. The multi-stage build uses a Maven container to build the the application jar file. The jar file is then copied to a Java Development Kit image. This makes for a more compact and efficient image because the Maven is not included with the application. Similarly, the React store front client is built in a Node image and the compile application is also added to the final application image.
 
-I used Eclipse to write the AtSea app. If you want info on configuring IntelliJ or Netbeans for remote debugging, you can check out the the [Docker Labs Repository (<FontIcon icon="iconfont icon-github"/>`docker/labs`)](https://github.com/docker/labs/tree/master/developer-tools/java-debugging). You can also check out the code in the [AtSea app github repository (<FontIcon icon="iconfont icon-github"/>`dockersamples/atsea-sample-shop-app`)](https://github.com/dockersamples/atsea-sample-shop-app).
+I used Eclipse to write the AtSea app. If you want info on configuring IntelliJ or Netbeans for remote debugging, you can check out the the [Docker Labs Repository (<VPIcon icon="iconfont icon-github"/>`docker/labs`)](https://github.com/docker/labs/tree/master/developer-tools/java-debugging). You can also check out the code in the [AtSea app github repository (<VPIcon icon="iconfont icon-github"/>`dockersamples/atsea-sample-shop-app`)](https://github.com/dockersamples/atsea-sample-shop-app).
 
 I built the application by cloning the repository and imported the project into Eclipse by setting the Root Directory to the project and clicking Finish
 
@@ -89,7 +89,7 @@ I built the application by cloning the repository and imported the project into 
 File > Import > Maven > Existing Maven Projects
 ```
 
-Since I used using Spring Boot, I took advantage of spring-devtools to do remote debugging in the application. I had to add the Spring Boot-devtools dependency to the <FontIcon icon="iconfont icon-code"/>`pom.xml` file.
+Since I used using Spring Boot, I took advantage of spring-devtools to do remote debugging in the application. I had to add the Spring Boot-devtools dependency to the <VPIcon icon="iconfont icon-code"/>`pom.xml` file.
 
 ```xml title="pom.xml"
 <dependency>
@@ -159,7 +159,7 @@ networks:
     driver: overlay
 ```
 
-The Compose file uses secrets to provision passwords and other sensitive information such as certificates -  without relying on environmental variables. Although the example uses PostgreSQL, the application can use secrets to connect to any database defined by as a Spring Boot datasource. From <FontIcon icon="fa-brands fa-java"/>`JpaConfiguration.java`:
+The Compose file uses secrets to provision passwords and other sensitive information such as certificates -  without relying on environmental variables. Although the example uses PostgreSQL, the application can use secrets to connect to any database defined by as a Spring Boot datasource. From <VPIcon icon="fa-brands fa-java"/>`JpaConfiguration.java`:
 
 ```java title="JpaConfiguration.java"
 public DataSourceProperties dataSourceProperties() {
@@ -182,7 +182,7 @@ public DataSourceProperties dataSourceProperties() {
 }
 ```
 
-Also note that the appserver opens port 5005 for remote debugging and that build calls the <FontIcon icon="fa-brands fa-docker"/>`Dockerfile-dev` file to build a container that has remote debugging turned on. This is set in the Entrypoint which specifies transport and address for the debugger.
+Also note that the appserver opens port 5005 for remote debugging and that build calls the <VPIcon icon="fa-brands fa-docker"/>`Dockerfile-dev` file to build a container that has remote debugging turned on. This is set in the Entrypoint which specifies transport and address for the debugger.
 
 ```dockerfile title="Dockerfile-dev"
 ENTRYPOINT ["java", 
@@ -196,7 +196,7 @@ ENTRYPOINT ["java",
 
 ## Remote Debugging
 
-To start remote debugging on the application, run compose using the <FontIcon icon="iconfont icon-yaml"/>`docker-compose-dev.yml` file.
+To start remote debugging on the application, run compose using the <VPIcon icon="iconfont icon-yaml"/>`docker-compose-dev.yml` file.
 
 ```sh
 docker-compose -f docker-compose-dev.yml up --build

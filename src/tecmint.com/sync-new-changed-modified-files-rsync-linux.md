@@ -76,7 +76,7 @@ That said, let us dive into some examples to uncover how the concept above actua
 
 ## Syncing Files Locally Using Rsync
 
-Using the command below, being able to copy files from my <FontIcon icon="fas fa-folder-open"/>`Documents` directory to <FontIcon icon="fas fa-folder-open"/>`/tmp/documents` directory locally:
+Using the command below, being able to copy files from my <VPIcon icon="fas fa-folder-open"/>`Documents` directory to <VPIcon icon="fas fa-folder-open"/>`/tmp/documents` directory locally:
 
 ```sh
 rsync -av Documents/* /tmp/documents
@@ -89,7 +89,7 @@ In the command above, the option:
 
 ![Sync Files Locally](https://tecmint.com/wp-content/uploads/2016/08/Sync-Files-Locally.png)
 
-By default, `rsync` only copies new or changed files from a source to destination, when I add a new file into my <FontIcon icon="fas fa-folder-open"/>`Documents` directory, this is what happens after running the same command a second time:
+By default, `rsync` only copies new or changed files from a source to destination, when I add a new file into my <VPIcon icon="fas fa-folder-open"/>`Documents` directory, this is what happens after running the same command a second time:
 
 ```sh
 rsync -av Documents/* /tmp/documents

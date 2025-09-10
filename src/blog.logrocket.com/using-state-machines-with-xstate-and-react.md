@@ -56,7 +56,7 @@ cover: /assets/image/blog.logrocket.com/using-state-machines-with-xstate-and-rea
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/using-state-machines-with-xstate-and-react/banner.png"/>
 
-When our application grows bigger, we need a way to maintain the complexity in dealing with the state of the application. State is the data that is manipulated and reflected by our running application. There are many ways to handle the state of the application in React. Some of the most popular state management libraries are [<FontIcon icon="iconfont icon-redux"/>Redux](https://redux.js.org/), [<FontIcon icon="fa-brands fa-react"/>Context API](https://reactjs.org/docs/context.html), [<FontIcon icon="fas fa-globe"/>React Query](https://react-query.tanstack.com/), Recoil, and [<FontIcon icon="iconfont icon-xstate"/>XState](https://xstate.js.org/docs/).
+When our application grows bigger, we need a way to maintain the complexity in dealing with the state of the application. State is the data that is manipulated and reflected by our running application. There are many ways to handle the state of the application in React. Some of the most popular state management libraries are [<VPIcon icon="iconfont icon-redux"/>Redux](https://redux.js.org/), [<VPIcon icon="fa-brands fa-react"/>Context API](https://reactjs.org/docs/context.html), [<VPIcon icon="fas fa-globe"/>React Query](https://react-query.tanstack.com/), Recoil, and [<VPIcon icon="iconfont icon-xstate"/>XState](https://xstate.js.org/docs/).
 
 ![XState Logo](/assets/image/blog.logrocket.com/using-state-machines-with-xstate-and-react/banner.png)
 
@@ -66,9 +66,9 @@ In this article, we’ll use XState, as it’s one of the easiest and most effic
 
 ## What is a finite state machine?
 
-[<FontIcon icon="fas fa-globe"/>Finite state machines](https://brilliant.org/wiki/finite-state-machines/) are a mathematical model of computation, initially developed in the early 1940s, that have been used for decades to build both hardware and software for a wide variety of technologies. It helps us reduce the number of possible states and control the transition of moving the state, which results in a predictable and reliable application to work with.
+[<VPIcon icon="fas fa-globe"/>Finite state machines](https://brilliant.org/wiki/finite-state-machines/) are a mathematical model of computation, initially developed in the early 1940s, that have been used for decades to build both hardware and software for a wide variety of technologies. It helps us reduce the number of possible states and control the transition of moving the state, which results in a predictable and reliable application to work with.
 
-The other benefit of working with a state machine is that they also have a visualizer to view the state in a diagram, called [<FontIcon icon="iconfont icon-xstate"/>XState Visualizer](https://xstate.js.org/viz/), both before and/or after we have built it.
+The other benefit of working with a state machine is that they also have a visualizer to view the state in a diagram, called [<VPIcon icon="iconfont icon-xstate"/>XState Visualizer](https://xstate.js.org/viz/), both before and/or after we have built it.
 
 ---
 
@@ -76,11 +76,11 @@ The other benefit of working with a state machine is that they also have a visua
 
 - Familiarity with JavaScript and a basic understanding of ES6 syntax.
 - Node.js installed on your machine
-- [<FontIcon icon="fa-brands fa-npm"/>NPM installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [<VPIcon icon="fa-brands fa-npm"/>NPM installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 In this tutorial, we will build a simple bookstore and implement all the necessary state needed to build that store. This store will involve all the CRUD (create, read, update, delete) functionality required to build general applications.
 
-For the API endpoint, we will leverage the features provided by Airtable and use it to serve data for our application and style our app with [<FontIcon icon="iconfont icon-tailwindcss"/>Tailwind CSS](https://tailwindcss.com/).
+For the API endpoint, we will leverage the features provided by Airtable and use it to serve data for our application and style our app with [<VPIcon icon="iconfont icon-tailwindcss"/>Tailwind CSS](https://tailwindcss.com/).
 
 ### Adding books state machine
 
@@ -116,7 +116,7 @@ Visualizing this simple state machine, we can see when we are able to fill up th
 
 ![XState Visualizer](/assets/image/blog.logrocket.com/using-state-machines-with-xstate-and-react/xstate-visualizer.png)
 
-XState Visualizer generated from [<FontIcon icon="iconfont icon-xstate"/>XState Visualizer](https://xstate.js.org/viz/).
+XState Visualizer generated from [<VPIcon icon="iconfont icon-xstate"/>XState Visualizer](https://xstate.js.org/viz/).
 
 We will also create a function to determine whether our call was a success or failure. We already named it `addingBook` inside `invoke` in our state machine before.
 
@@ -374,7 +374,7 @@ We do obviously need our app to wrap with an XState provider. For this, you can 
 
 In order to update our book details, we need to create two API calls: the first one to get the details of a single book and the second to submit a PATCH request to edit that particular book.
 
-Let’s start by creating a <FontIcon icon="fa-brands fa-js"/>`fetchOneBookMachine.js` file and write our machine code there:
+Let’s start by creating a <VPIcon icon="fa-brands fa-js"/>`fetchOneBookMachine.js` file and write our machine code there:
 
 ```js :collapsed-lines title="fetchOneBookMachine.js"
 export const fetchOneBookMachine = {
@@ -901,7 +901,7 @@ As developers, we need external libraries to maintain the state of application. 
 
 After all, we are making the state machine responsible for the transitions in order to make your application’s performance more robust. This ensures you only ever have one state at a time, that it’s one of your predefined states, and that it’s only possible to transition from a certain state to another if we explicitly enable that. So, we call this finite state machine.
 
-You can find the source code of the article in the github repository [here (<FontIcon icon="iconfont icon-github"/>`ishan-me/xstate_airtable_crudApp`)](https://github.com/ishan-me/xstate_airtable_crudApp/tree/main). Happy coding!
+You can find the source code of the article in the github repository [here (<VPIcon icon="iconfont icon-github"/>`ishan-me/xstate_airtable_crudApp`)](https://github.com/ishan-me/xstate_airtable_crudApp/tree/main). Happy coding!
 
 <SiteInfo
   name="isNan909/xstate_airtable_crudApp"

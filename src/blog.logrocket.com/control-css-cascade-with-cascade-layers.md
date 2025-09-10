@@ -58,7 +58,7 @@ Some developers have been able to tame the cascade using methodologies such as i
 
 In most scenarios, these methodologies are effective, but they don’t completely address conflicts between selector specificity and order of appearance.
 
-Thankfully, [<FontIcon icon="iconfont icon-w3c"/>cascade layers](https://w3.org/TR/css-cascade-5/#layering) is coming to CSS. The new `@layer` at-rule aims to fully hand control of the cascade back to developers. With cascade layers, developers can decide how they would like to order layers and can more easily separate and access individual layers.
+Thankfully, [<VPIcon icon="iconfont icon-w3c"/>cascade layers](https://w3.org/TR/css-cascade-5/#layering) is coming to CSS. The new `@layer` at-rule aims to fully hand control of the cascade back to developers. With cascade layers, developers can decide how they would like to order layers and can more easily separate and access individual layers.
 
 In this article, we’ll introduce the cascade `@layer` at-rule, discuss how it works, and explore how this feature can be used to prevent or address conflicts between style rules.
 
@@ -86,7 +86,7 @@ For example, the paragraph element in the following code has conflicting value p
 
 In this type of situation, the cascade will have to determine which declaration takes precedence.
 
-To do so, the cascade will [<FontIcon icon="fas fa-globe"/>sort the declarations in descending order of priority](https://drafts.csswg.org/css-cascade/#cascade-sort), according to the following criteria:
+To do so, the cascade will [<VPIcon icon="fas fa-globe"/>sort the declarations in descending order of priority](https://drafts.csswg.org/css-cascade/#cascade-sort), according to the following criteria:
 
 - Origin and importance
 - Encapsulation context
@@ -100,7 +100,7 @@ The cascade checks each declaration against these criteria, determining which de
 
 ## Introducing cascade layers
 
-Cascade layers is a new CSS feature that is part of the [<FontIcon icon="iconfont icon-w3c"/>cascading inheritance level 5 specifications](https://w3.org/TR/css-cascade-5/). The feature was initially proposed by [Miriam Suzanne (<FontIcon icon="fa-brands fa-x-twitter"/>`TerribleMia`)](https://x.com/TerribleMia/), a CSS spec author, in 2019. Cascade layers allows style rules to be split Into several layers using the @layer at-rule and also permits the order of specificity of the layers to be determined.
+Cascade layers is a new CSS feature that is part of the [<VPIcon icon="iconfont icon-w3c"/>cascading inheritance level 5 specifications](https://w3.org/TR/css-cascade-5/). The feature was initially proposed by [Miriam Suzanne (<VPIcon icon="fa-brands fa-x-twitter"/>`TerribleMia`)](https://x.com/TerribleMia/), a CSS spec author, in 2019. Cascade layers allows style rules to be split Into several layers using the @layer at-rule and also permits the order of specificity of the layers to be determined.
 
 With cascade layers, there’s no need to worry about the specificity of each selector within a layer block or the order in which declarations are arranged in the stylesheet. This is because the browser will always respect the order of the cascade layers and ignore the specificity and order of appearance of the selectors. We’ll discuss this in more detail later in this article, and we’ll also look at some CSS layer order examples.
 
@@ -456,7 +456,7 @@ In this article, we introduced cascade layers and explored layer order, layer sp
 
 With cascade layers, there’s no need to spend precious time wrestling with the specificity or order of appearance of CSS layers. Cascade layers provides more control over the cascade and curb intricacies, such as regressions and styles collision, in codebases.
 
-Read more about cascade layers in the [<FontIcon icon="iconfont icon-w3c"/>official documentation](https://w3.org/TR/css-cascade-5/#cascade-layers).
+Read more about cascade layers in the [<VPIcon icon="iconfont icon-w3c"/>official documentation](https://w3.org/TR/css-cascade-5/#cascade-layers).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

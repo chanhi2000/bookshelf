@@ -114,13 +114,13 @@ In this tutorial, we’re going to explore three different packages for creating
 
 These are the popular packages readily available for skeleton UI development in React:
 
-- [<FontIcon icon="iconfont icon-github"/>`danilowoz/react-content-loader`](https://github.com/danilowoz/react-content-loader)
-- [<FontIcon icon="iconfont icon-github"/>`buildo/react-placeholder`](https://github.com/buildo/react-placeholder)
-- [<FontIcon icon="iconfont icon-github"/>`dvtng/react-loading-skeleton`](https://github.com/dvtng/react-loading-skeleton)
+- [<VPIcon icon="iconfont icon-github"/>`danilowoz/react-content-loader`](https://github.com/danilowoz/react-content-loader)
+- [<VPIcon icon="iconfont icon-github"/>`buildo/react-placeholder`](https://github.com/buildo/react-placeholder)
+- [<VPIcon icon="iconfont icon-github"/>`dvtng/react-loading-skeleton`](https://github.com/dvtng/react-loading-skeleton)
 
 These packages are pretty well-maintained but have their flaws. We’ll look at the pros and cons of each before deciding which to use for our application.
 
-### <FontIcon icon="iconfont icon-github"/>`danilowoz/react-content-loader`
+### <VPIcon icon="iconfont icon-github"/>`danilowoz/react-content-loader`
 
 <SiteInfo
   name="danilowoz/react-content-loader"
@@ -133,7 +133,7 @@ These packages are pretty well-maintained but have their flaws. We’ll look at 
 
 @tab:active Pros
 
-[<FontIcon icon="iconfont icon-github"/>`danilowoz/react-content-loader`](https://github.com/danilowoz/react-content-loader/) is an SVG-based API where you can use any SVG shapes to create the skeleton elements. It also allows users to easily create animated placeholders, which shine from left to right using the pulse animation.
+[<VPIcon icon="iconfont icon-github"/>`danilowoz/react-content-loader`](https://github.com/danilowoz/react-content-loader/) is an SVG-based API where you can use any SVG shapes to create the skeleton elements. It also allows users to easily create animated placeholders, which shine from left to right using the pulse animation.
 
 This package has a few prestyled content loaders, such as loaders for Facebook or Instagram, and can be used for any complex skeleton UI since SVG supports many shapes.
 
@@ -169,9 +169,9 @@ const SkeletonComponent = () => (
 
 :::
 
-You can [view the list of available props here (<FontIcon icon="iconfont icon-github"/>`danilowoz/react-content-loader`)](https://github.com/danilowoz/react-content-loader#options).
+You can [view the list of available props here (<VPIcon icon="iconfont icon-github"/>`danilowoz/react-content-loader`)](https://github.com/danilowoz/react-content-loader#options).
 
-### <FontIcon icon="iconfont icon-github"/>`buildo/react-placeholder`
+### <VPIcon icon="iconfont icon-github"/>`buildo/react-placeholder`
 
 <SiteInfo
   name="buildo/react-placeholder"
@@ -255,7 +255,7 @@ Notice the built-in components, `TextBlock` and `RectShape`, which helps us quic
 
 :::
 
-### <FontIcon icon="iconfont icon-github"/>`dvtng/react-loading-skeleton`
+### <VPIcon icon="iconfont icon-github"/>`dvtng/react-loading-skeleton`
 
 <SiteInfo
   name="dvtng/react-loading-skeleton: Create skeleton screens that automatically adapt to your app!"
@@ -268,9 +268,9 @@ Notice the built-in components, `TextBlock` and `RectShape`, which helps us quic
 
 @tab:active Pros
 
-[<FontIcon icon="iconfont icon-github"/>`dvtng/react-loading-skeleton`](https://github.com/dvtng/react-loading-skeleton) is a very simple API that has only one component with props for extra customization. Unlike the previous two, it’s easy to learn.
+[<VPIcon icon="iconfont icon-github"/>`dvtng/react-loading-skeleton`](https://github.com/dvtng/react-loading-skeleton) is a very simple API that has only one component with props for extra customization. Unlike the previous two, it’s easy to learn.
 
-[<FontIcon icon="iconfont icon-github"/>`dvtng/react-loading-skeleton`](https://github.com/dvtng/react-loading-skeleton) can be used as a separate skeleton component and inside any component directly, so it’s flexible to use the way you want. It also supports animation and theming.
+[<VPIcon icon="iconfont icon-github"/>`dvtng/react-loading-skeleton`](https://github.com/dvtng/react-loading-skeleton) can be used as a separate skeleton component and inside any component directly, so it’s flexible to use the way you want. It also supports animation and theming.
 
 @tab Cons
 
@@ -306,7 +306,7 @@ That said, all three libraries adequately satisfy simple use cases. Feel free to
 
 ## Building a skeleton UI in React with Framer Motion
 
-With an understanding of how skeleton UIs work, we can now create our own skeleton UI with React and Framer Motion with a shimmer animation effect. [<FontIcon icon="iconfont icon-codesandbox"/>The codebase for this project is available on CodeSandbox](https://codesandbox.io/s/skeletonui-w-framer-i7jwxs?file=/src/App.js).
+With an understanding of how skeleton UIs work, we can now create our own skeleton UI with React and Framer Motion with a shimmer animation effect. [<VPIcon icon="iconfont icon-codesandbox"/>The codebase for this project is available on CodeSandbox](https://codesandbox.io/s/skeletonui-w-framer-i7jwxs?file=/src/App.js).
 
 ::: sandpack#react Chinwike.M / Drafts / skeletonui-w-framer [rtl theme=dark]
 
@@ -738,7 +738,7 @@ export default function App() {
 }
 ```
 
-Here, we import a <FontIcon icon="fa-brands fa-js"/>`data.js` file which is an array of mock YouTube data:
+Here, we import a <VPIcon icon="fa-brands fa-js"/>`data.js` file which is an array of mock YouTube data:
 
 ```js :collapsed-lines title="data.js"
 const youtubeData = [
@@ -879,7 +879,7 @@ const Skeleton = ({ type }) => {
 export default Skeleton;
 ```
 
-<FontIcon icon="fa-brands fa-react"/>`Skeleton.jsx` is the base `Skeleton` component that accepts a `type` prop in which we specify the type of skeleton element needed. The prop’s value is then appended to the class list:
+<VPIcon icon="fa-brands fa-react"/>`Skeleton.jsx` is the base `Skeleton` component that accepts a `type` prop in which we specify the type of skeleton element needed. The prop’s value is then appended to the class list:
 
 ```css title="skeleton.css"
 .skeleton {
@@ -1008,7 +1008,7 @@ const Shimmer = () => {
 export default Shimmer;
 ```
 
-From our <FontIcon icon="fa-brands fa-css3-alt"/>`skeleton.css` stylesheet, we can see that the rules applied to `.shimmer` creates a transparent element positioned at the left side of `skeleton-wrapper`.
+From our <VPIcon icon="fa-brands fa-css3-alt"/>`skeleton.css` stylesheet, we can see that the rules applied to `.shimmer` creates a transparent element positioned at the left side of `skeleton-wrapper`.
 
 We then use `initial` to set the initial position of the screen’s shimmer element and `animate` 1000px to the right. The `transition` prop then offers extra options to modify the repetition and duration of the animation.
 

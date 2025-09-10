@@ -54,7 +54,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_059.png
 
 Dependency injection (DI) is one of the most exciting features of ASP.NET Core. It helps us build more testable and maintainable applications. However, ASP.NET Core's built-in DI system sometimes needs a little help to achieve more advanced scenarios.
 
-So I want to introduce you to a powerful library for enhancing your ASP.NET Core DI - [<FontIcon icon="fas fa-globe"/>Scrutor](https://nuget.org/packages/Scrutor).
+So I want to introduce you to a powerful library for enhancing your ASP.NET Core DI - [<VPIcon icon="fas fa-globe"/>Scrutor](https://nuget.org/packages/Scrutor).
 
 If you're an ASP.NET Core developer, you're already familiar with Dependency Injection. It's a fundamental part of building modular and maintainable applications.
 
@@ -64,7 +64,7 @@ Let's explore how Scrutor can simplify and enhance your DI setup.
 
 ## What is Dependency Injection?
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Dependency Injection](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0) is a software design pattern used in ASP.NET Core to achieve the [<FontIcon icon="fa-brands fa-microsoft"/>Inversion of Control (IOC)](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#dependency-inversion) principle. This promotes loose coupling and makes your code more testable, maintainable, and extensible.
+[<VPIcon icon="fa-brands fa-microsoft"/>Dependency Injection](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0) is a software design pattern used in ASP.NET Core to achieve the [<VPIcon icon="fa-brands fa-microsoft"/>Inversion of Control (IOC)](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#dependency-inversion) principle. This promotes loose coupling and makes your code more testable, maintainable, and extensible.
 
 DI allows you to inject dependencies into your classes rather than create them within the class. The framework takes care of providing the required instances at runtime. It also manages the disposal of these dependencies based on the service lifetime.
 
@@ -97,7 +97,7 @@ public class ActivitiesController : ControllerBase
 
 ## Service Lifetimes in ASP.NET Core
 
-Before we dive into Scrutor, let's briefly discuss [<FontIcon icon="fa-brands fa-microsoft"/>service lifetimes in ASP.NET Core](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#service-lifetimes). When you register a service in the DI container, you specify its lifetime. The service lifetime defines how long the DI container should maintain the service.
+Before we dive into Scrutor, let's briefly discuss [<VPIcon icon="fa-brands fa-microsoft"/>service lifetimes in ASP.NET Core](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#service-lifetimes). When you register a service in the DI container, you specify its lifetime. The service lifetime defines how long the DI container should maintain the service.
 
 ASP.NET Core provides three main lifetimes:
 
@@ -111,7 +111,7 @@ Understanding service lifetimes is crucial when designing your application's arc
 
 ## What is Scrutor?
 
-The [Scrutor library (<FontIcon icon="iconfont icon-github"/>`khellang/Scrutor`)](https://github.com/khellang/Scrutor) improves your dependency injection code by extending the existing features from `Microsoft.Extensions.DependencyInjection`.
+The [Scrutor library (<VPIcon icon="iconfont icon-github"/>`khellang/Scrutor`)](https://github.com/khellang/Scrutor) improves your dependency injection code by extending the existing features from `Microsoft.Extensions.DependencyInjection`.
 
 These extensions add support for advanced assembly scanning and service decoration.
 

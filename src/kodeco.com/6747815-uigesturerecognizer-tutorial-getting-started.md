@@ -73,9 +73,9 @@ Getting Started
 
 ## Getting Started
 
-To get started, click the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. Inside the zip file, you’ll find two folders: <FontIcon icon="fas fa-folder-open"/>`begin` and <FontIcon icon="fas fa-folder-open"/>`end`.
+To get started, click the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial. Inside the zip file, you’ll find two folders: <VPIcon icon="fas fa-folder-open"/>`begin` and <VPIcon icon="fas fa-folder-open"/>`end`.
 
-Open the <FontIcon icon="fas fa-folder-open"/>`begin` folder in Xcode, then build and run the project.
+Open the <VPIcon icon="fas fa-folder-open"/>`begin` folder in Xcode, then build and run the project.
 
 You should see the following in your device or simulator:
 
@@ -102,13 +102,13 @@ You can perform these two steps programmatically, which you’ll do later in thi
 
 ## Using the UIPanGestureRecognizer
 
-Open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard`. Click <FontIcon icon="iconfont icon-select"/>`[+]` button at the top to open the Library.
+Open <VPIcon icon="fas fa-file-lines"/>`Main.storyboard`. Click <VPIcon icon="iconfont icon-select"/>`[+]` button at the top to open the Library.
 
 Inside the __Library__ panel, look for the __pan gesture recognizer__ object and drag it onto the monkey image view. This creates both the pan gesture recognizer and its association with the monkey image view:
 
 ![Implementing the pan gesture recognizer](https://koenig-media.raywenderlich.com/uploads/2019/11/monkey_pinch_02.gif)
 
-You can verify the connection by clicking on the monkey image view, looking at the __Connections inspector__ in <FontIcon icon="iconfont icon-select"/>`[View > Inspectors > Show Connections Inspector]`, and making sure the pan gesture recognizer is in the `gestureRecognizers`‘s __Outlet Collection__.
+You can verify the connection by clicking on the monkey image view, looking at the __Connections inspector__ in <VPIcon icon="iconfont icon-select"/>`[View > Inspectors > Show Connections Inspector]`, and making sure the pan gesture recognizer is in the `gestureRecognizers`‘s __Outlet Collection__.
 
 ![Verifying the connection between the monkey and the pan gesture recognizer](https://koenig-media.raywenderlich.com/uploads/2019/11/monkey_pinch_03-1-650x389.png)
 
@@ -124,7 +124,7 @@ Now that you’ve created the pan gesture recognizer and associated it with the 
 
 ### Implementing the Panning Gesture
 
-Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add the following method right below `viewDidLoad()`, inside the `ViewController`:
+Open <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add the following method right below `viewDidLoad()`, inside the `ViewController`:
 
 ```swift
 @IBAction func handlePan(_ gesture: UIPanGestureRecognizer) {
@@ -158,7 +158,7 @@ Now that this method is complete, you’ll hook it up to the `UIPanGestureRecogn
 
 ### Connecting the Panning Gesture to the Recognizer
 
-In the __document outline__ for <FontIcon icon="fas fa-file-lines"/>`Main.storyboard`, control-drag from the monkey’s __pan gesture recognizer__ to the __view controller__. Select `handlePan`: from the pop-up.
+In the __document outline__ for <VPIcon icon="fas fa-file-lines"/>`Main.storyboard`, control-drag from the monkey’s __pan gesture recognizer__ to the __view controller__. Select `handlePan`: from the pop-up.
 
 ![Connecting the `handlePan` method to `UIPanGestureRecognizer`](https://koenig-media.raywenderlich.com/uploads/2019/11/monkey_pinch_04.gif)
 
@@ -212,7 +212,7 @@ You can view a full list of the methods for each gesture recognizer in [the API 
 
 ### Easing Out Your Animations
 
-Start by adding the following to the bottom of `handlePan(_:)` in <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
+Start by adding the following to the bottom of `handlePan(_:)` in <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift`:
 
 ```swift
 guard gesture.state == .ended else {
@@ -270,7 +270,7 @@ The begin project gives you a great start. It created `handlePinch(_:)` and `han
 
 ### Implementing the Pinch and Rotation Gestures
 
-Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`. Add the following to `handlePinch(_:)`:
+Open <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift`. Add the following to `handlePinch(_:)`:
 
 ```swift
 guard let gestureView = gesture.view else {
@@ -305,7 +305,7 @@ Here, you use these methods to update the view’s transform based on the user�
 
 Again, since you’re updating the view each time the gesture updates, it’s very important to set the scale and rotation back to the default state so you don’t have craziness going on.
 
-Now, hook these methods up in the storyboard editor. Open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` and perform the following steps:
+Now, hook these methods up in the storyboard editor. Open <VPIcon icon="fas fa-file-lines"/>`Main.storyboard` and perform the following steps:
 
 1. As you did previously, connect the two pinch gesture recognizers to the view controller’s `handlePinch:`.
 2. Connect the two rotation gesture recognizers to the view controller’s `handleRotate:`.
@@ -334,7 +334,7 @@ However, you can change this by overriding a method in the `UIGestureRecognizer`
 
 ### Allowing Two Gestures to Happen at Once
 
-Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`. Below the `ViewController`, create a `ViewController` class extension and conform it to `UIGestureRecognizerDelegate`:
+Open <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift`. Below the `ViewController`, create a `ViewController` class extension and conform it to `UIGestureRecognizerDelegate`:
 
 ```swift
 extension ViewController: UIGestureRecognizerDelegate {
@@ -354,7 +354,7 @@ func gestureRecognizer(
 
 This method tells the gesture recognizer whether it’s OK to recognize a gesture if another recognizer has already detected a gesture. The default implementation always returns `false`, but you’ve switched it to always return `true`.
 
-Next, open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` and connect each gesture recognizer’s delegate outlet to the view controller. You’ll connect six gesture recognizers in total.
+Next, open <VPIcon icon="fas fa-file-lines"/>`Main.storyboard` and connect each gesture recognizer’s delegate outlet to the view controller. You’ll connect six gesture recognizers in total.
 
 ![Connecting the delegate outlets](https://koenig-media.raywenderlich.com/uploads/2019/11/monkey_pinch_11.gif)
 
@@ -368,13 +368,13 @@ So far, you’ve created gesture recognizers with the storyboard editor, but wha
 
 Well, why not try it out? You’ll do so by adding a tap gesture recognizer to play a sound effect when you tap either of the image views.
 
-To play a sound, you’ll need to access `AVFoundation`. At the top of <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, add:
+To play a sound, you’ll need to access `AVFoundation`. At the top of <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift`, add:
 
 ```swift
 import AVFoundation
 ```
 
-Add the following changes to <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift`, just before `viewDidLoad()`:
+Add the following changes to <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift`, just before `viewDidLoad()`:
 
 ```swift
 private var chompPlayer: AVAudioPlayer?
@@ -450,9 +450,9 @@ To solve this, you could remove or modify the delegate callback to behave differ
 
 You can call a method called `require(toFail:)` on a gesture recognizer. Can you guess what it does?
 
-Open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` and another editor on the right by clicking the button on the top-right of the storyboard panel.
+Open <VPIcon icon="fas fa-file-lines"/>`Main.storyboard` and another editor on the right by clicking the button on the top-right of the storyboard panel.
 
-On the left of the new panel that just opened, click the button with four squares. Finally, select the third item from the list, __Automatic__, which will ensure that <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` shows there.
+On the left of the new panel that just opened, click the button with four squares. Finally, select the third item from the list, __Automatic__, which will ensure that <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift` shows there.
 
 ![Setting up your editor](https://koenig-media.raywenderlich.com/uploads/2019/11/monkey_pinch_13-1.gif)
 
@@ -483,9 +483,9 @@ Well, you can always write your own! For example, what if you wanted to detect a
 
 ## “Tickling” the Monkey
 
-Create a new file via <FontIcon icon="iconfont icon-select"/>`[File ▸ New ▸ File…]` and pick the <FontIcon icon="iconfont icon-select"/>`[iOS ▸ Source ▸ Swift File]` template. Name the file `TickleGestureRecognizer`.
+Create a new file via <VPIcon icon="iconfont icon-select"/>`[File ▸ New ▸ File…]` and pick the <VPIcon icon="iconfont icon-select"/>`[iOS ▸ Source ▸ Swift File]` template. Name the file `TickleGestureRecognizer`.
 
-Then replace the `import` statement in <FontIcon icon="fa-brands fa-swift"/>`TickleGestureRecognizer.swift` with the following:
+Then replace the `import` statement in <VPIcon icon="fa-brands fa-swift"/>`TickleGestureRecognizer.swift` with the following:
 
 ```swift
 import UIKit
@@ -525,7 +525,7 @@ Of course, these properties are specific to the gesture you’re detecting here.
 
 One of the things that you’ll change is the state of the gesture. When a tickle completes, you’ll change the `state` of the gesture to `ended`.
 
-Switch to <FontIcon icon="fa-brands fa-swift"/>`TickleGestureRecognizer.swift` and add the following methods to the class:
+Switch to <VPIcon icon="fa-brands fa-swift"/>`TickleGestureRecognizer.swift` and add the following methods to the class:
 
 ```swift
 override func reset() {
@@ -604,7 +604,7 @@ OK, now to use this new recognizer!
 
 ### Implementing Your Custom Recognizer
 
-Open <FontIcon icon="fa-brands fa-swift"/>`ViewController.swift` and make the following changes.
+Open <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift` and make the following changes.
 
 Add the following code to the top of the class, right after `chompPlayer`:
 
@@ -647,7 +647,7 @@ Build and run. “Hehe, that tickles!”
 
 ## Where to Go From Here?
 
-Download the completed version of the project using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
+Download the completed version of the project using the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this tutorial.
 
 Congrats, you’re now a master of gesture recognizers — both built-in and custom ones! Touch interaction is such an important part of iOS devices and `UIGestureRecognizer` is the key to adding easy-to-use gestures beyond simple button taps.
 

@@ -79,7 +79,7 @@ While this is an advanced topic, you’ll be able to follow along if you have re
 
 ## Getting Started
 
-Download the begin project by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+Download the begin project by clicking the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
 This tutorial consists of three empty Swift playgrounds:
 
@@ -185,7 +185,7 @@ MemoryLayout<SampleClass>.alignment // returns 8 (on 64-bit)
 
 Classes are reference types, so `MemoryLayout` reports the size of a reference: Eight bytes.
 
-If you want to explore memory layout in greater detail, check out Mike Ash’s excellent talk, [<FontIcon icon="fa-brands fa-youtube"/>Exploring Swift Memory Layout](https://youtu.be/ERYNyrfXjlg/).
+If you want to explore memory layout in greater detail, check out Mike Ash’s excellent talk, [<VPIcon icon="fa-brands fa-youtube"/>Exploring Swift Memory Layout](https://youtu.be/ERYNyrfXjlg/).
 
 <VidStack src="youtube/ERYNyrfXjlg" />
 
@@ -421,7 +421,7 @@ Now that you know how to use unsafe Swift, it’s time to learn some things you 
 
 ## Where to Go From Here?
 
-Congratulations on finishing this tutorial! You can download the completed project files at the top or bottom of this tutorial using the [<FontIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material].
+Congratulations on finishing this tutorial! You can download the completed project files at the top or bottom of this tutorial using the [<VPIcon icon="iconfont icon-select"/>`[Download Materials]`][download-material].
 
 There are many additional resources you can explore to learn more about using unsafe Swift:
 

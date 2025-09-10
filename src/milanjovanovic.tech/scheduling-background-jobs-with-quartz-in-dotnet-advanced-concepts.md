@@ -52,7 +52,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_121.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_121.png"/>
 
-Most ASP.NET Core applications need to handle [background processing](/milanjovanovic.tech/running-background-tasks-in-asp-net-core.md) - from sending reminder emails to running cleanup tasks. While there are many ways to implement background jobs, [<FontIcon icon="fas fa-globe"/>Quartz.NET](https://quartz-scheduler.net/) stands out with its robust scheduling capabilities, persistence options, and production-ready features.
+Most ASP.NET Core applications need to handle [background processing](/milanjovanovic.tech/running-background-tasks-in-asp-net-core.md) - from sending reminder emails to running cleanup tasks. While there are many ways to implement background jobs, [<VPIcon icon="fas fa-globe"/>Quartz.NET](https://quartz-scheduler.net/) stands out with its robust scheduling capabilities, persistence options, and production-ready features.
 
 In this article, we'll look at:
 
@@ -215,7 +215,7 @@ POST /api/reminders/schedule
 
 ## Scheduling Recurring Jobs
 
-For recurring background jobs, you can use [<FontIcon icon="fas fa-globe"/>cron schedules](https://quartz-scheduler.net/documentation/quartz-3.x/tutorial/crontriggers.html):
+For recurring background jobs, you can use [<VPIcon icon="fas fa-globe"/>cron schedules](https://quartz-scheduler.net/documentation/quartz-3.x/tutorial/crontriggers.html):
 
 ```cs :collapsed-lines
 public record RecurringReminderRequest(
@@ -272,7 +272,7 @@ POST /api/reminders/schedule/recurring
 
 ## Job Persistence Setup
 
-By default, Quartz uses in-memory storage, which means your jobs are lost when the application restarts. For production environments, you'll want to use a persistent store. Quartz supports several [<FontIcon icon="fas fa-globe"/>database providers](https://quartz-scheduler.net/documentation/quartz-3.x/tutorial/job-stores.html), including SQL Server, PostgreSQL, MySQL, and Oracle.
+By default, Quartz uses in-memory storage, which means your jobs are lost when the application restarts. For production environments, you'll want to use a persistent store. Quartz supports several [<VPIcon icon="fas fa-globe"/>database providers](https://quartz-scheduler.net/documentation/quartz-3.x/tutorial/job-stores.html), including SQL Server, PostgreSQL, MySQL, and Oracle.
 
 Let's look at how to set up persistent storage with proper schema isolation:
 
@@ -302,7 +302,7 @@ A few important things to note here:
 
 - The `TablePrefix` setting helps organize Quartz tables in your database - in this case, placing them in a dedicated `scheduler` schema
 - You'll need to run the appropriate database scripts to create these tables
-- Each database provider has its own [setup scripts (<FontIcon icon="iconfont icon-github"/>`quartznet/quartznet`)](https://github.com/quartznet/quartznet/tree/main/database/tables) - check the Quartz documentation for your chosen provider
+- Each database provider has its own [setup scripts (<VPIcon icon="iconfont icon-github"/>`quartznet/quartznet`)](https://github.com/quartznet/quartznet/tree/main/database/tables) - check the Quartz documentation for your chosen provider
 
 ### Durable Jobs
 

@@ -88,15 +88,15 @@ So, there was little wonder why during Google I/O in May 2013, the __Android Gra
 
 ## Getting Started
 
-Download [<FontIcon icon="fas fa-download"/>SocializifyStarter][download-material] the starter project for this tutorial. At minimum, you’ll need Android Studio 3.0 installed on your computer. 
+Download [<VPIcon icon="fas fa-download"/>SocializifyStarter][download-material] the starter project for this tutorial. At minimum, you’ll need Android Studio 3.0 installed on your computer. 
 
 ![Open the project in Android Studio and you’ll be prompted to setup the __Gradle wrapper__](https://koenig-media.raywenderlich.com/uploads/2017/12/gradle_wrapper-650x172.png)
 
-Choose <FontIcon icon="iconfont icon-select"/>`[OK]` to configure the wrapper, which you’ll learn more about later in the tutorial.
+Choose <VPIcon icon="iconfont icon-select"/>`[OK]` to configure the wrapper, which you’ll learn more about later in the tutorial.
 
 ![Depending on which version of Android Studio you’re running, you may also be prompted to update the __Gradle plugin__](https://koenig-media.raywenderlich.com/uploads/2017/12/gradle_plugin.png)
 
-Choose <FontIcon icon="iconfont icon-select"/>`[Update]` to finish opening the project in Android Studio.
+Choose <VPIcon icon="iconfont icon-select"/>`[Update]` to finish opening the project in Android Studio.
 
 Before starting working with the project, let’s review its structure in the __Project__ pane in Android Studio:
 
@@ -106,11 +106,11 @@ Pay attention to the files with the green Gradle icon and `.gradle` extension. T
 
 <!-- TODO: 작성 -->
 
-### Project-level <FontIcon icon="iconfont icon-engine"/>`build.gradle`
+### Project-level <VPIcon icon="iconfont icon-engine"/>`build.gradle`
 
-### Module-level <FontIcon icon="iconfont icon-engine"/>`build.gradle`
+### Module-level <VPIcon icon="iconfont icon-engine"/>`build.gradle`
 
-### Finally, <FontIcon icon="iconfont icon-engine"/>`settings.gradle`
+### Finally, <VPIcon icon="iconfont icon-engine"/>`settings.gradle`
 
 ---
 
@@ -160,11 +160,11 @@ Pay attention to the files with the green Gradle icon and `.gradle` extension. T
 
 ## Where to Go From Here
 
-You can download the final project [<FontIcon icon="fas fa-download"/>here][download-material-final].
+You can download the final project [<VPIcon icon="fas fa-download"/>here][download-material-final].
 
 The Android Gradle plugin 3.0 contains some significant differences from previous versions. So it’s worth reviewing [the changelog](https://developer.android.com/studio/build/gradle-plugin-3-0-0-migration.html).
 
-Also, if you’re insterested in the _Gradle Kotlin DSL_, [<FontIcon icon="iconfont icon-github"/>`gradle/kotlin-dsl`](https://github.com/gradle/kotlin-dsl/tree/master/samples) you can find a list of usage examples to get familiar with it.
+Also, if you’re insterested in the _Gradle Kotlin DSL_, [<VPIcon icon="iconfont icon-github"/>`gradle/kotlin-dsl`](https://github.com/gradle/kotlin-dsl/tree/master/samples) you can find a list of usage examples to get familiar with it.
 
 I hope you’ve enjoyed this Getting Started with Gradle tutorial! Don’t forget to leave your feedback and feel free to ask any questions in the comments below
 

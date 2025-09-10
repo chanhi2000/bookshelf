@@ -113,7 +113,7 @@ In this implementation:
 - `DetectHorizontalDragGestures` handles horizontal dragging, updating`offsetX` within a specified range to prevent excessive movement.
 - The main content is shifted based on`offsetX`, revealing the delete action as you swipe.
 
-This approach is straightforward, but it provides the flexibility to expand and customize as needed. If you want to dive deeper into this solution,[<FontIcon icon="fa-brands fa-youtube"/>Philipp Lackner’s video](https://youtu.be/-L_d-0Emmwc)provides an excellent walkthrough. Philipp shares various Compose techniques in his videos, so consider following him for more useful tips and tutorials.
+This approach is straightforward, but it provides the flexibility to expand and customize as needed. If you want to dive deeper into this solution,[<VPIcon icon="fa-brands fa-youtube"/>Philipp Lackner’s video](https://youtu.be/-L_d-0Emmwc)provides an excellent walkthrough. Philipp shares various Compose techniques in his videos, so consider following him for more useful tips and tutorials.
 
 <VidStack src="youtube/-L_d-0Emmwc" />
 
@@ -355,13 +355,13 @@ Each method has its strengths, allowing for a range of customization and control
 
 By choosing the right tool for the job, you can create smooth, intuitive swipe interactions that enhance your app’s UX.**Compose** continues to evolve, and with these options, you can build flexible and engaging interfaces that feel natural and responsive to users.
 
-If you found this article interesting, feel free to**follow me**for more insightful content on Android development and Jetpack Compose. I publish new articles almost every week. Don’t hesitate to share your comments or reach out to me on[**LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)**](http://linkedin.com/in/stefano-natali-q21) if you prefer.
+If you found this article interesting, feel free to**follow me**for more insightful content on Android development and Jetpack Compose. I publish new articles almost every week. Don’t hesitate to share your comments or reach out to me on[**LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)**](http://linkedin.com/in/stefano-natali-q21) if you prefer.
 
 Have a great day!
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/swipeto-explore-different-implementations-in-jetpack-compose-8c6cd59bbc3c)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/swipeto-explore-different-implementations-in-jetpack-compose-8c6cd59bbc3c)
 
 <SiteInfo
   name="SwipeTo explore different implementations in Jetpack Compose"

@@ -185,9 +185,9 @@ While the above solution for state management makes sense when the scope of the 
 
 ### Redux
 
-[<FontIcon icon="fas fa-globe"/>Redux](https://redux.js.org/) is one of the oldest and most popular libraries for state management in React. It has a large ecosystem of libraries and tools that make it easy to use in modern applications. The paradigm is similar to what we saw in the `useReducer` Hook, with the added advantage that the state is now global and can be accessed by any component in the application.
+[<VPIcon icon="fas fa-globe"/>Redux](https://redux.js.org/) is one of the oldest and most popular libraries for state management in React. It has a large ecosystem of libraries and tools that make it easy to use in modern applications. The paradigm is similar to what we saw in the `useReducer` Hook, with the added advantage that the state is now global and can be accessed by any component in the application.
 
-We’ll look into the [<FontIcon icon="iconfont icon-github"/>`reduxjs/react-redux`](https://github.com/reduxjs/react-redux) library because that is the official binding for React. We’ll also need the [<FontIcon icon="fas fa-globe"/>redux-toolkit](https://redux-toolkit.js.org/) library, which will help us accomplish common Redux patterns while minimizing boilerplate code.
+We’ll look into the [<VPIcon icon="iconfont icon-github"/>`reduxjs/react-redux`](https://github.com/reduxjs/react-redux) library because that is the official binding for React. We’ll also need the [<VPIcon icon="fas fa-globe"/>redux-toolkit](https://redux-toolkit.js.org/) library, which will help us accomplish common Redux patterns while minimizing boilerplate code.
 
 Similar to how the `useContext` Hook creates a context, which is a central place where the state is saved, the Redux library has a parallel concept called the store, which is the central state that is shared across components and acts as the source of truth. Let’s create the store:
 
@@ -240,7 +240,7 @@ The `useSelector` Hook lets us get ahold of a particular slice of state from the
 
 ### MobX
 
-[<FontIcon icon="fas fa-globe"/>MobX](https://mobx.js.org/) is another alternative for state management in React. It relies on the concept of observables. State is segregated into pure values and computed values. The core belief of MobX is that “Anything that can be derived from the application state, should be. Automatically.”
+[<VPIcon icon="fas fa-globe"/>MobX](https://mobx.js.org/) is another alternative for state management in React. It relies on the concept of observables. State is segregated into pure values and computed values. The core belief of MobX is that “Anything that can be derived from the application state, should be. Automatically.”
 
 Let’s look at an example to better understand this. The state of the application is defined in the form of a JavaScript class. Here is an example of how a Todo item can be represented in state:
 
@@ -275,7 +275,7 @@ class Todo {
 
 We can see that the class has three properties: `id`, `label`, and `done`. Notice how the constructor calls the `makeObservable` function imported from Mobx, which defines the properties as observables. The `summary` property is being defined as `computed`, which means it will be re-calculated every time an observable dependency changes. The `toggle` function is defined as `action`.
 
-With that general understanding of how Mobx works, let’s try to use it in a React application. We will use the [mobx-react-lite (<FontIcon icon="iconfont icon-github"/>`mobxjs/mobx`)](https://github.com/mobxjs/mobx/tree/main/packages/mobx-react-lite) package, which provides lightweight bindings for React to interact with Mobx.
+With that general understanding of how Mobx works, let’s try to use it in a React application. We will use the [mobx-react-lite (<VPIcon icon="iconfont icon-github"/>`mobxjs/mobx`)](https://github.com/mobxjs/mobx/tree/main/packages/mobx-react-lite) package, which provides lightweight bindings for React to interact with Mobx.
 
 If we don’t want to make the class defining the state more complex, we can use a utility like `makeAutoObservable`:
 
@@ -304,7 +304,7 @@ This is the core concept around reactivity in Mobx. Based on the property that w
 
 ### Recoil
 
-[<FontIcon icon="fas fa-globe"/>Recoil](https://recoiljs.org/) is a newer library for state management in React that takes the atomic approach to state management. Atomic state management is a paradigm where the state of an application, instead of being stored in a single, large object, is broken down into smaller independent units of state called atoms.
+[<VPIcon icon="fas fa-globe"/>Recoil](https://recoiljs.org/) is a newer library for state management in React that takes the atomic approach to state management. Atomic state management is a paradigm where the state of an application, instead of being stored in a single, large object, is broken down into smaller independent units of state called atoms.
 
 An atom represents a piece of state that can be read to or written from any component. Any component that reads the value of an atom is automatically subscribed to that atom and will be re-rendered whenever the value of the atom changes.
 
@@ -370,7 +370,7 @@ Notice that we also used the `useRecoilValue` tool to access the value of the de
 
 ### Jotai
 
-Similar to Recoil, [<FontIcon icon="fas fa-globe"/>Jotai](https://jotai.org/) is a state management library that also takes an atomic approach to state management but in a slightly different way. This library also provides an `atom` utility to create atoms:
+Similar to Recoil, [<VPIcon icon="fas fa-globe"/>Jotai](https://jotai.org/) is a state management library that also takes an atomic approach to state management but in a slightly different way. This library also provides an `atom` utility to create atoms:
 
 ```jsx
 const firstNameAtom = atom('Bob');
@@ -404,7 +404,7 @@ Jotai also provides separate integrations with libraries like Immer, Query, XSta
 
 ### Signia
 
-[<FontIcon icon="fas fa-globe"/>Signia](https://signia.tldraw.dev/) is an alternate library for state management in React. Instead of using observables like Mobx, or atoms like Recoil and Jotai, it uses the concept of signals. A signal is a pure, reactive value that can be observed for changes.
+[<VPIcon icon="fas fa-globe"/>Signia](https://signia.tldraw.dev/) is an alternate library for state management in React. Instead of using observables like Mobx, or atoms like Recoil and Jotai, it uses the concept of signals. A signal is a pure, reactive value that can be observed for changes.
 
 Even though the underlying entity is a signal, the Signia library allows us to create atoms that are based on signals:
 
@@ -440,7 +440,7 @@ Although state machines are not explicitly used in React, they can be powerful t
 
 ### XState
 
-Working with states and managing transitions between them natively is a complicated affair. [<FontIcon icon="fas fa-globe"/>XState](https://xstate.js.org/docs/) is a library that provides primitives that help us work with state machines. It also provides React bindings so that the state machine can be used in a React component.
+Working with states and managing transitions between them natively is a complicated affair. [<VPIcon icon="fas fa-globe"/>XState](https://xstate.js.org/docs/) is a library that provides primitives that help us work with state machines. It also provides React bindings so that the state machine can be used in a React component.
 
 Here’s what a general state machine defined with XState looks like:
 

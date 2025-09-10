@@ -70,7 +70,7 @@ cover: https://docker.com/app/uploads/2019/03/docker-pi.gif
 
 What better way to say “Happy Pi Day” than by installing Docker Engine – Community (CE) 18.09 on Raspberry Pi. This article will walk you through the process of installing Docker Engine 18.09 on a Raspberry Pi. There are many articles out there that show this process, but many failed due to older Engine versions and some syntax issues.
 
-Special thanks to Docker Solutions Engineer, Stefan Scherer and his monitoring image ([<FontIcon icon="fa-brands fa-docker"/>`stefanscherer/monitor`](https://hub.docker.com/r/stefanscherer/monitor/)) along with the whoami image ([<FontIcon icon="fa-brands fa-docker"/>`stefanscherer/whoami`](https://hub.docker.com/r/stefanscherer/whoami)) that allows Pimoroni Blinkt! LED’s to turn on/off when scaling an application within a Swarm Cluster.
+Special thanks to Docker Solutions Engineer, Stefan Scherer and his monitoring image ([<VPIcon icon="fa-brands fa-docker"/>`stefanscherer/monitor`](https://hub.docker.com/r/stefanscherer/monitor/)) along with the whoami image ([<VPIcon icon="fa-brands fa-docker"/>`stefanscherer/whoami`](https://hub.docker.com/r/stefanscherer/whoami)) that allows Pimoroni Blinkt! LED’s to turn on/off when scaling an application within a Swarm Cluster.
 
 ![docker pi](https://docker.com/app/uploads/2019/03/docker-pi-225x300.gif)
 
@@ -210,7 +210,7 @@ docker swarm join-token manager
 docker swarm join-token worker
 ```
 
-10) To have a graphical representation of your current cluster, we will install the VIZ application. For more information, go to [<FontIcon icon="iconfont icon-github"/>`dockersamples/docker-swarm-visualizer`](https://github.com/dockersamples/docker-swarm-visualizer). To install, type the following:
+10) To have a graphical representation of your current cluster, we will install the VIZ application. For more information, go to [<VPIcon icon="iconfont icon-github"/>`dockersamples/docker-swarm-visualizer`](https://github.com/dockersamples/docker-swarm-visualizer). To install, type the following:
 
 ```sh
 docker swarm join-token worker \
@@ -248,7 +248,7 @@ docker service scale whoami=5
 
 16) You should now have 5 LEDs on. Please that this will take some time as the Pi devices are not very fast and require some time to properly deploy and bring up.
 
-And there you go! We hope you have fun and enjoy some Pi(e) today! If you have feedback or suggestions on how to improve, please reach out to me on Twitter: [<FontIcon icon="fa-brands fa-x-twitter"/>`@paulofrazao`](https://twitter.com/paulofrazao) or on Github
+And there you go! We hope you have fun and enjoy some Pi(e) today! If you have feedback or suggestions on how to improve, please reach out to me on Twitter: [<VPIcon icon="fa-brands fa-x-twitter"/>`@paulofrazao`](https://twitter.com/paulofrazao) or on Github
 
 <SiteInfo
   name="paulofrazao/RaspberryPi"

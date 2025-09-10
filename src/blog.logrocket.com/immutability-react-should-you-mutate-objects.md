@@ -107,7 +107,7 @@ You can even define the `str` reference as a constant:
 const str = 'abc'
 ```
 
-Therefore, assigning a new string generates an error. However, this doesn’t relate to immutability. If you want to modify the string value, you have to use manipulation methods like [<FontIcon icon="fa-brands fa-firefox"/>`replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace), [<FontIcon icon="fa-brands fa-firefox"/>`toUpperCase()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase), or [<FontIcon icon="fa-brands fa-firefox"/>`trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)`. All of these methods return new strings; they don’t modify the original one.
+Therefore, assigning a new string generates an error. However, this doesn’t relate to immutability. If you want to modify the string value, you have to use manipulation methods like [<VPIcon icon="fa-brands fa-firefox"/>`replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace), [<VPIcon icon="fa-brands fa-firefox"/>`toUpperCase()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase), or [<VPIcon icon="fa-brands fa-firefox"/>`trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)`. All of these methods return new strings; they don’t modify the original one.
 
 ---
 
@@ -136,7 +136,7 @@ console.log(str.myNewProperty);
 // a new value
 ```
 
-Strings are immutable. The last example creates an object with the `String()` constructor that wraps the immutable string value. You can add new properties to this wrapper because it’s an object, and it’s not [<FontIcon icon="fa-brands fa-stack-overflow"/>frozen](https://stackoverflow.com/questions/33124058/object-freeze-vs-const). This example leads us to a concept that is important to understand; the difference between reference and value equality.
+Strings are immutable. The last example creates an object with the `String()` constructor that wraps the immutable string value. You can add new properties to this wrapper because it’s an object, and it’s not [<VPIcon icon="fa-brands fa-stack-overflow"/>frozen](https://stackoverflow.com/questions/33124058/object-freeze-vs-const). This example leads us to a concept that is important to understand; the difference between reference and value equality.
 
 ---
 
@@ -301,7 +301,7 @@ const removeValue = (arr, index) => {
 };
 ```
 
-In this [gist (<FontIcon icon="iconfont icon-github"/>`JoeNoPhoto`)](https://gist.github.com/JoeNoPhoto/329f002ef4f92f1fcc21280dc2f4aa71), you’ll see how to combine the spread operator with these methods to avoid mutating arrays while performing common operations.
+In this [gist (<VPIcon icon="iconfont icon-github"/>`JoeNoPhoto`)](https://gist.github.com/JoeNoPhoto/329f002ef4f92f1fcc21280dc2f4aa71), you’ll see how to combine the spread operator with these methods to avoid mutating arrays while performing common operations.
 
 However, there are two main drawbacks to using these native approaches. For one, they copy properties or elements from one object or array to another, which could be a slow operation for larger objects and arrays. In addition, objects and arrays are mutable by default. There’s nothing that enforces immutability. You have to remember to use one of these methods.
 
@@ -311,13 +311,13 @@ For these reasons, it’s better to use an external library that handles immutab
 
 ## Immutability libraries
 
-The React team recommends [<FontIcon icon="fas fa-globe"/>Immutable.js](https://immutable-js.com/) and [<FontIcon icon="iconfont icon-github"/>`kolodny/immutability-helper`](https://github.com/kolodny/immutability-helper), but you can [find many libraries with similar functionality (<FontIcon icon="iconfont icon-github"/>`markerikson/redux-ecosystem-links`)](https://github.com/markerikson/redux-ecosystem-links/blob/master/immutable-data.md). There are three main types:
+The React team recommends [<VPIcon icon="fas fa-globe"/>Immutable.js](https://immutable-js.com/) and [<VPIcon icon="iconfont icon-github"/>`kolodny/immutability-helper`](https://github.com/kolodny/immutability-helper), but you can [find many libraries with similar functionality (<VPIcon icon="iconfont icon-github"/>`markerikson/redux-ecosystem-links`)](https://github.com/markerikson/redux-ecosystem-links/blob/master/immutable-data.md). There are three main types:
 
 - Libraries that work with specialized data structures
 - Libraries that work by freezing objects
 - Libraries with helper functions that perform immutable operations
 
-Most of these libraries work with [<FontIcon icon="fa-brands fa-wikipedia-w"/>persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure).
+Most of these libraries work with [<VPIcon icon="fa-brands fa-wikipedia-w"/>persistent data structures](https://en.wikipedia.org/wiki/Persistent_data_structure).
 
 ---
 
@@ -329,7 +329,7 @@ If the data structure is partially persistent, you can access all versions, howe
 
 Persistent data structures implement new versions in an efficient way based on two concepts, trees and sharing.
 
-The data structure acts as a list or as a map, but under the hood, it’s implemented as a type of tree, called a [<FontIcon icon="fa-brands fa-wikipedia-w"/>trie](https://en.wikipedia.org/wiki/Trie), specifically a [<FontIcon icon="fa-brands fa-stack-overflow"/>bitmapped vector trie](https://stackoverflow.com/a/29121204/3593852). Only the leaves hold values, and the binary representation of the keys are the inner nodes of the tree.
+The data structure acts as a list or as a map, but under the hood, it’s implemented as a type of tree, called a [<VPIcon icon="fa-brands fa-wikipedia-w"/>trie](https://en.wikipedia.org/wiki/Trie), specifically a [<VPIcon icon="fa-brands fa-stack-overflow"/>bitmapped vector trie](https://stackoverflow.com/a/29121204/3593852). Only the leaves hold values, and the binary representation of the keys are the inner nodes of the tree.
 
 For example, let’s say we have the array below:
 
@@ -369,7 +369,7 @@ The rest of the nodes are reused:
 
 In other words, the unmodified nodes are shared by both versions. Of course, this 4-bit branching is not commonly used for these data structures, however, this is the basic concept of structural sharing.
 
-I won’t go into more detail, but if you want to know more about persistent data structures and structural sharing, I recommend [reading this article (<FontIcon icon="fa-brands fa-medium"/>`@dtinth`)](https://medium.com/@dtinth/immutable-js-persistent-data-structures-and-structural-sharing-6d163fbd73d2) or [<FontIcon icon="fa-brands fa-youtube"/>watching this talk](https://youtu.be/Wo0qiGPSV-s).
+I won’t go into more detail, but if you want to know more about persistent data structures and structural sharing, I recommend [reading this article (<VPIcon icon="fa-brands fa-medium"/>`@dtinth`)](https://medium.com/@dtinth/immutable-js-persistent-data-structures-and-structural-sharing-6d163fbd73d2) or [<VPIcon icon="fa-brands fa-youtube"/>watching this talk](https://youtu.be/Wo0qiGPSV-s).
 
 <VidStack src="youtube/Wo0qiGPSV-s" />
 
@@ -385,13 +385,13 @@ Overall, immutability improves your app’s performance and promotes easy debugg
 
 However, immutability is not without its own problems. As I mentioned before, when working with objects and arrays, you either have to remember to use methods than enforce immutability or use third-party libraries.
 
-Many of these libraries work with their own data types. Although they provide compatible APIs and ways to convert these types to native JavaScript types, you have to be careful when designing your application to avoid high degrees of coupling or harmperformance with methods like [`toJs()` (<FontIcon icon="fa-brands fa-x-twitter"/>`leeb`)](https://x.com/leeb/status/746733697093668864).
+Many of these libraries work with their own data types. Although they provide compatible APIs and ways to convert these types to native JavaScript types, you have to be careful when designing your application to avoid high degrees of coupling or harmperformance with methods like [`toJs()` (<VPIcon icon="fa-brands fa-x-twitter"/>`leeb`)](https://x.com/leeb/status/746733697093668864).
 
 If the library doesn’t implement new data structures, for example, libraries that work by freezing objects, there won’t be any of the benefits of structural sharing. Most likely, objects will be copied when updated, and performance will suffer in some cases.
 
 Additionally, implementing immutability concepts with larger teams can be time-consuming because individual developers must be disciplined, especially when using third-party libraries with steep learning curves. You also have to consider the learning curve associated with these libraries.
 
-Another [**downside of immutability is seen in Redux**](/blog.logrocket.com/redux-immutable-update-patterns.md), which causes components to render unnecessarily when used in reducers alongside Redux’s `combineReducers` function. For in-depth knowledge on immutability with Redux, check out [<FontIcon icon="fas fa-globe"/>immutable data in Redux](https://redux.js.org/faq/immutable-data).
+Another [**downside of immutability is seen in Redux**](/blog.logrocket.com/redux-immutable-update-patterns.md), which causes components to render unnecessarily when used in reducers alongside Redux’s `combineReducers` function. For in-depth knowledge on immutability with Redux, check out [<VPIcon icon="fas fa-globe"/>immutable data in Redux](https://redux.js.org/faq/immutable-data).
 
 For these reasons, you have to be careful when deciding which method to use to enforce immutability.
 
@@ -401,9 +401,9 @@ For these reasons, you have to be careful when deciding which method to use to e
 
 Understanding immutability is essential for React developers. An immutable value or object cannot be changed, so every update creates new value, leaving the old one untouched. For example, if your application state is immutable, you can save all the state objects in a single store to easily implement functionality to undo and redo.
 
-Version control systems like Git work in a similar way. Redux is also based on that [<FontIcon icon="fas fa-globe"/>principle](https://redux.js.org/introduction/three-principles). However, the focus on Redux is more on the side of pure functions and snapshots of the application state. This [<FontIcon icon="fa-brands fa-stack-overflow"/>StackOverflow answer](https://stackoverflow.com/a/34962065/3593852) explains the relationship between Redux and immutability in an excellent way.
+Version control systems like Git work in a similar way. Redux is also based on that [<VPIcon icon="fas fa-globe"/>principle](https://redux.js.org/introduction/three-principles). However, the focus on Redux is more on the side of pure functions and snapshots of the application state. This [<VPIcon icon="fa-brands fa-stack-overflow"/>StackOverflow answer](https://stackoverflow.com/a/34962065/3593852) explains the relationship between Redux and immutability in an excellent way.
 
-Immutability has other advantages like avoiding unexpected side effects or [<FontIcon icon="fa-brands fa-stack-overflow"/>reducing coupling](https://stackoverflow.com/a/43918514/3593852), but it also has disadvantages. Remember, as with many things in programming, it’s a trade-off.
+Immutability has other advantages like avoiding unexpected side effects or [<VPIcon icon="fa-brands fa-stack-overflow"/>reducing coupling](https://stackoverflow.com/a/43918514/3593852), but it also has disadvantages. Remember, as with many things in programming, it’s a trade-off.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

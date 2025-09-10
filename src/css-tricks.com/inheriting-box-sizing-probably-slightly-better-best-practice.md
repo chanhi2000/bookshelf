@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-socia
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png"/>
 
-I’m a big fan of resetting [<FontIcon icon="iconfont icon-css-tricks"/>box-sizing](https://css-tricks.com/almanac/properties/b/box-sizing/) to border-box, so much that we have [**a special day of the year**](/css-tricks.com/international-box-sizing-awareness-day.md) around here. But there is a little adjustment to setting it that seems like a pretty good idea.
+I’m a big fan of resetting [<VPIcon icon="iconfont icon-css-tricks"/>box-sizing](https://css-tricks.com/almanac/properties/b/box-sizing/) to border-box, so much that we have [**a special day of the year**](/css-tricks.com/international-box-sizing-awareness-day.md) around here. But there is a little adjustment to setting it that seems like a pretty good idea.
 
 Here’s the adjusted version:
 
@@ -63,9 +63,9 @@ html {
 }
 ```
 
-Credit on the inheritence idea to Jon Neal [<FontIcon icon="fas fa-globe"/>here](http://blog.teamtreehouse.com/box-sizing-secret-simple-css-layouts#comment-50223), who says:
+Credit on the inheritence idea to Jon Neal [<VPIcon icon="fas fa-globe"/>here](http://blog.teamtreehouse.com/box-sizing-secret-simple-css-layouts#comment-50223), who says:
 
-::: Jon Neal (<FontIcon icon="fas fa-globe"/><code>blog.teamtreehouse.com</code>)
+::: Jon Neal (<VPIcon icon="fas fa-globe"/><code>blog.teamtreehouse.com</code>)
 
 > This will give you the same result, and make it easier to change the box-sizing in plugins or other components that leverage other behavior.
 

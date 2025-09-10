@@ -522,7 +522,7 @@ We also briefly explored the emerging UUID v7 standard, which promises to combin
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/optimizing-uuid-storage-in-sqldelight-text-vs-two-longs-and-a-look-ahead-at-uuid-v7-59c24986a866)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/optimizing-uuid-storage-in-sqldelight-text-vs-two-longs-and-a-look-ahead-at-uuid-v7-59c24986a866)
 
 <SiteInfo
   name="Optimizing UUID Storage in SQLDelight: Text vs. Two Longs and a Look Ahead at UUID v7"

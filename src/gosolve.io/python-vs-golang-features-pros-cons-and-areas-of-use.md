@@ -96,7 +96,7 @@ Nowadays, Python is used in almost every field of programming - with possibly th
 
 ## Golang: superfast and lightweight programming language
 
-One of them is Go - sometimes referred to as Golang (we’re using both names interchangeably for language convenience) because of its former domain Golang.org, now redirecting to [<FontIcon icon="fa-brands fa-golang"/>Go.dev](https://Go.dev). It is a more recently developed language, designed by Google engineers in 2007, publicly announced in 2007, and released as version 1.0 in 2012. According to its creators, Go “combines the development speed of working in a dynamic language like Python with the performance and safety of a compiled language like C or C++.”
+One of them is Go - sometimes referred to as Golang (we’re using both names interchangeably for language convenience) because of its former domain Golang.org, now redirecting to [<VPIcon icon="fa-brands fa-golang"/>Go.dev](https://Go.dev). It is a more recently developed language, designed by Google engineers in 2007, publicly announced in 2007, and released as version 1.0 in 2012. According to its creators, Go “combines the development speed of working in a dynamic language like Python with the performance and safety of a compiled language like C or C++.”
 
 Unlike Python, Go is a compiled, strongly statically typed language. Go programs compile really fast and produce single, self-contained, small binaries. In terms of speed, Golang easily outperforms interpreted languages and wins the “Go vs. Python” rivalry. According to runtime performance tests, Go can run up to 40 times faster than its competitor.
 
