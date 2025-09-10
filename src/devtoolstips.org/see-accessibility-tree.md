@@ -75,13 +75,13 @@ It's best to actually use a screen reader, or another assistive technology, to e
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-firefox"/>Firefox
+@tab:active <VPIcon icon="fa-brands fa-firefox"/>Firefox
 
 Firefox has a dedicated Accessibility tool. To open it:
 
 1. Press <kbd>F12</kbd> to open DevTools.
-2. In the main toolbar, click the <FontIcon icon="iconfont icon-select"/>`[Accessibility]` tab.
-3. Expand the <FontIcon icon="iconfont icon-select"/>`[document]` node that's displayed in the tool to reveal the accessibility tree.
+2. In the main toolbar, click the <VPIcon icon="iconfont icon-select"/>`[Accessibility]` tab.
+3. Expand the <VPIcon icon="iconfont icon-select"/>`[document]` node that's displayed in the tool to reveal the accessibility tree.
 
 Supported features include:
 
@@ -92,20 +92,20 @@ Supported features include:
 
 ![The Accessibility tool in Firefox, showing the accessibility tree](https://devtoolstips.org/assets/img/see-accessibility-tree-firefox.png)
 
-@tab <FontIcon icon="fa-brands fa-chrome"/>Chrome / <FontIcon icon="fa-brands fa-edge"/>Edge / Chrome-based Browers
+@tab <VPIcon icon="fa-brands fa-chrome"/>Chrome / <VPIcon icon="fa-brands fa-edge"/>Edge / Chrome-based Browers
 
-Chrome and Edge have an option to display the accessibility tree in the <FontIcon icon="iconfont icon-select"/>`[Elements]` tool, instead of the DOM tree. To enable it:
+Chrome and Edge have an option to display the accessibility tree in the <VPIcon icon="iconfont icon-select"/>`[Elements]` tool, instead of the DOM tree. To enable it:
 
 1. Press <kbd>F12</kbd> to open DevTools.
-2. Go to the <FontIcon icon="iconfont icon-select"/>`[Settings]` panel by pressing <kbd>F1</kbd>.
-3. In the sidebar, click <FontIcon icon="iconfont icon-select"/>`[Experiments]`.
-4. Find the <FontIcon icon="iconfont icon-select"/>`[Enable full accessibility tree view in the Elements panel]` checkbox and select it.
+2. Go to the <VPIcon icon="iconfont icon-select"/>`[Settings]` panel by pressing <kbd>F1</kbd>.
+3. In the sidebar, click <VPIcon icon="iconfont icon-select"/>`[Experiments]`.
+4. Find the <VPIcon icon="iconfont icon-select"/>`[Enable full accessibility tree view in the Elements panel]` checkbox and select it.
 5. Restart DevTools.
 
-To see the accessibility tree in the <FontIcon icon="iconfont icon-select"/>`[Elements]` tool:
+To see the accessibility tree in the <VPIcon icon="iconfont icon-select"/>`[Elements]` tool:
 
-1. Open the <FontIcon icon="iconfont icon-select"/>`[Elements]` tool.
-2. Click <FontIcon icon="iconfont icon-select"/>`[Switch to Accessibility Tree View]` in the top-right corner of the DOM tree.
+1. Open the <VPIcon icon="iconfont icon-select"/>`[Elements]` tool.
+2. Click <VPIcon icon="iconfont icon-select"/>`[Switch to Accessibility Tree View]` in the top-right corner of the DOM tree.
 
 Supported features include:
 

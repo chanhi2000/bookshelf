@@ -135,7 +135,7 @@ class MyApplication : Application() {
 }
 ```
 
-In your<FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`file, update the`application` tag to reference your custom application class:
+In your<VPIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`file, update the`application` tag to reference your custom application class:
 
 ```xml title="AndroidManifest.xml"
 <?xml version="1.0" encoding="utf-8"?>
@@ -300,7 +300,7 @@ dependencies {
 }
 ```
 
-- Enable compile-time safety checks in your<FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`:
+- Enable compile-time safety checks in your<VPIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`:
 
 ```kotlin
 ksp {
@@ -384,13 +384,13 @@ With Koin, you have the flexibility to define dependencies in a straightforward 
 
 Whether you’re building a new project or considering a DI solution for an existing one, Koin’s simplicity and power make it an excellent choice. By following the guidelines in this article, you can take advantage of Koin’s capabilities to create a clean, maintainable, and testable codebase for your Android apps.
 
-If you found this article interesting, feel free to follow me for more insightful content on Android development and Jetpack Compose. I publish new articles almost every week. Don’t hesitate to share your comments or reach out to me on[LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)](http://linkedin.com/in/stefano-natali-q21) for further discussions.
+If you found this article interesting, feel free to follow me for more insightful content on Android development and Jetpack Compose. I publish new articles almost every week. Don’t hesitate to share your comments or reach out to me on[LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`stefano-natali-q21`)](http://linkedin.com/in/stefano-natali-q21) for further discussions.
 
 Have a great day!
 
 ::: info 
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/koin-my-favorite-dependency-injection-library-for-android-776db4d455c8)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/koin-my-favorite-dependency-injection-library-for-android-776db4d455c8)
 
 <SiteInfo
   name="Koin: My Favorite Dependency Injection Library for Android"

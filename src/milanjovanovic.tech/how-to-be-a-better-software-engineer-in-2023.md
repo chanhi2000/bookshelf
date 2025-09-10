@@ -65,15 +65,15 @@ Let's dive in.
 
 ## 1. Keep Learning And Acquiring New Skills
 
-The field of software engineering is constantly evolving, so it's important to stay up-to-date with [<FontIcon icon="fa-brands fa-youtube"/>**new technologies**](https://youtu.be/dDasAmowFts) and best practices.
+The field of software engineering is constantly evolving, so it's important to stay up-to-date with [<VPIcon icon="fa-brands fa-youtube"/>**new technologies**](https://youtu.be/dDasAmowFts) and best practices.
 
 <VidStack src="youtube/dDasAmowFts" />
 
-We have a new .NET release every year, and it's easy to get lost with the latest news. How I stay up to date is through online courses, attending conferences and meetups, or working on [<FontIcon icon="fa-brands fa-youtube"/>**personal projects**](https://youtu.be/Ru6_b50wdfo).
+We have a new .NET release every year, and it's easy to get lost with the latest news. How I stay up to date is through online courses, attending conferences and meetups, or working on [<VPIcon icon="fa-brands fa-youtube"/>**personal projects**](https://youtu.be/Ru6_b50wdfo).
 
 <VidStack src="youtube/Ru6_b50wdfo" />
 
-Personal projects transition best to my day job, and I don't shy away from exploring new topics. I shared many of my personal projects on [**GitHub** (<FontIcon icon="iconfont icon-github"/>`m-jovanovic`)](https://github.com/m-jovanovic), maybe you can find some inspiration over there.
+Personal projects transition best to my day job, and I don't shy away from exploring new topics. I shared many of my personal projects on [**GitHub** (<VPIcon icon="iconfont icon-github"/>`m-jovanovic`)](https://github.com/m-jovanovic), maybe you can find some inspiration over there.
 
 ---
 
@@ -83,7 +83,7 @@ In addition to writing clean and readable code, it's important to also consider 
 
 This includes things like performance, security, and maintainability. By writing high-quality code, you'll be able to build systems that are more reliable, scalable, and easier to maintain over time.
 
-One way to write clean and quality code is [<FontIcon icon="fa-brands fa-youtube"/>**with the help of static code analysis**](https://youtu.be/0nVT1gM4vPg).
+One way to write clean and quality code is [<VPIcon icon="fa-brands fa-youtube"/>**with the help of static code analysis**](https://youtu.be/0nVT1gM4vPg).
 
 <VidStack src="youtube/0nVT1gM4vPg" />
 
@@ -95,7 +95,7 @@ Investing in code quality will pay dividends in the later stages of any project.
 
 If you aspire to be senior engineer or software architect, you have to work on complex systems. You need to be in a position to solve the toughest problems.
 
-What do I consider to be a [<FontIcon icon="fa-brands fa-youtube"/>**complex system**](https://youtu.be/Ru6_b50wdfo)?
+What do I consider to be a [<VPIcon icon="fa-brands fa-youtube"/>**complex system**](https://youtu.be/Ru6_b50wdfo)?
 
 That's difficult to say, but here are some rough guidelines:
 
@@ -103,7 +103,7 @@ That's difficult to say, but here are some rough guidelines:
 - Event-driven systems
 - High performance systems
 
-Of course, you don't need a [<FontIcon icon="fa-brands fa-youtube"/>**fancy architecture**](https://youtu.be/Ru6_b50wdfo) to work in a complex system.
+Of course, you don't need a [<VPIcon icon="fa-brands fa-youtube"/>**fancy architecture**](https://youtu.be/Ru6_b50wdfo) to work in a complex system.
 
 If you are working in a business domain with many domain rules, I consider that a complex system also.
 
@@ -123,9 +123,9 @@ The cloud is here to stay, and you should be familiar with at least one of the m
 
 Most of them give you free credits to get started and explore the services they offer.
 
-I stayed away from [<FontIcon icon="fa-brands fa-youtube"/>**cloud development**](https://youtu.be/QP0pi7xe24s) for too long in my career, and now I wish I started sooner.
+I stayed away from [<VPIcon icon="fa-brands fa-youtube"/>**cloud development**](https://youtu.be/QP0pi7xe24s) for too long in my career, and now I wish I started sooner.
 
-You want to be [<FontIcon icon="fa-brands fa-youtube"/>**comfortable in the cloud**](https://youtu.be/QP0pi7xe24s) to be a better software engineer.
+You want to be [<VPIcon icon="fa-brands fa-youtube"/>**comfortable in the cloud**](https://youtu.be/QP0pi7xe24s) to be a better software engineer.
 
 <VidStack src="youtube/QP0pi7xe24s" />
 

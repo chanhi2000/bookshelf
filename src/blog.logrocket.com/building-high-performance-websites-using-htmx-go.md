@@ -63,9 +63,9 @@ In response to this shift, tools like htmx are gaining popularity for building i
 
 [**htmx**](/blog.logrocket.com/using-htmx-modern-apps-classic-techniques.md) is a lightweight JavaScript library that enables building large, dynamic sites with minimal reliance on client-side JavaScript.
 
-htmx injects various AJAX-like attributes and is rendered to simple HTML on the server, which allows developers to achieve [<FontIcon icon="fas fa-globe"/>AJAX](https://w3schools.com/xml/ajax_intro.asp)-like updates and dynamic interactions on the pages.
+htmx injects various AJAX-like attributes and is rendered to simple HTML on the server, which allows developers to achieve [<VPIcon icon="fas fa-globe"/>AJAX](https://w3schools.com/xml/ajax_intro.asp)-like updates and dynamic interactions on the pages.
 
-Let’s see a quick [<FontIcon icon="fas fa-globe"/>example straight from the docs](https://htmx.org/docs/) to demonstrate how htmx handles dynamic interactions:
+Let’s see a quick [<VPIcon icon="fas fa-globe"/>example straight from the docs](https://htmx.org/docs/) to demonstrate how htmx handles dynamic interactions:
 
 ```jsx
 <button hx-post="/clicked"
@@ -85,7 +85,7 @@ This is how htmx handles typical dynamic interactions. As you can see, the page 
 
 ## What is Golang?
 
-[<FontIcon icon="fa-brands fa-golang"/>Golang](https://go.dev/doc/), or Go, is a high-performance, typed programming language. Its automatic garbage collection, efficient concurrency model, and rapid execution make it a popular choice for building scalable backends.
+[<VPIcon icon="fa-brands fa-golang"/>Golang](https://go.dev/doc/), or Go, is a high-performance, typed programming language. Its automatic garbage collection, efficient concurrency model, and rapid execution make it a popular choice for building scalable backends.
 
 ---
 
@@ -93,7 +93,7 @@ This is how htmx handles typical dynamic interactions. As you can see, the page 
 
 ### Setting up a Go server
 
-Setting up a Go server is the first step in building a backend with Go. Go’s specification makes it easy to quickly spin up a server by using its built-in `net/http` package. Assuming you have Go set up in your system, you can create a Go project in a directory and start by creating a file called <FontIcon icon="fa-brands fa-golang"/>`main.go`.
+Setting up a Go server is the first step in building a backend with Go. Go’s specification makes it easy to quickly spin up a server by using its built-in `net/http` package. Assuming you have Go set up in your system, you can create a Go project in a directory and start by creating a file called <VPIcon icon="fa-brands fa-golang"/>`main.go`.
 
 In this file, you have to import the `fmt` for string and log formatting and `net/http` for initiating the server:
 
@@ -148,7 +148,7 @@ fmt.Fprintln(w, `
 })
 ```
 
-Now, at the root `/`, this HTML will be rendered instead. The key thing to note here is that `w.Header().Set("Content-Type", "text/html")` sets the response header to indicate the content type is HTML. Finally, you can execute this file by running the command `go run main.go` where <FontIcon icon="fa-brands fa-golang"/>`main.go` is the filename.
+Now, at the root `/`, this HTML will be rendered instead. The key thing to note here is that `w.Header().Set("Content-Type", "text/html")` sets the response header to indicate the content type is HTML. Finally, you can execute this file by running the command `go run main.go` where <VPIcon icon="fa-brands fa-golang"/>`main.go` is the filename.
 
 ### Adding interactivity with htmx
 
@@ -213,13 +213,13 @@ Now that you understand the basic implementation with Go, we’re going to go a 
 
 ### Building a to-do list app
 
-First things first, create a directory/folder on your system and create a <FontIcon icon="fa-brands fa-golang"/>`main.go` file. Alternatively, you can run the following code:
+First things first, create a directory/folder on your system and create a <VPIcon icon="fa-brands fa-golang"/>`main.go` file. Alternatively, you can run the following code:
 
 ```sh
 go mod init todo-app
 ```
 
-Here, the todo-app will be your project name, which will create the <FontIcon icon="fa-brands fa-golang"/>`main.go` file where you will write all the backend logic. Now, you need something to store your entries to ensure data persistence.
+Here, the todo-app will be your project name, which will create the <VPIcon icon="fa-brands fa-golang"/>`main.go` file where you will write all the backend logic. Now, you need something to store your entries to ensure data persistence.
 
 You can use SQL to store your creds and the items that your to-do app will contain. You’ll need to import this library by running the following:
 
@@ -227,7 +227,7 @@ You can use SQL to store your creds and the items that your to-do app will conta
 go get -u github.com/go-sql-driver/mysql
 ```
 
-Finally, in your <FontIcon icon="fa-brands fa-golang"/>`main.go` file, import the following libraries:
+Finally, in your <VPIcon icon="fa-brands fa-golang"/>`main.go` file, import the following libraries:
 
 ```go
 package main
@@ -276,7 +276,7 @@ With `indexHandler` added, the next step is to define API endpoints and their co
 - `deleteTodoHandler`: Deletes items by handling the `delete` button click
 - `completeTodoHandler`: Toggles the item status and marks it as completed
 
-You can find the complete <FontIcon icon="fa-brands fa-golang"/>`main.go` backend logic here:
+You can find the complete <VPIcon icon="fa-brands fa-golang"/>`main.go` backend logic here:
 
 ```go :collapsed-lines title="main.go"
 package main
@@ -497,7 +497,7 @@ func completeTodoHandler(w http.ResponseWriter, r *http.Request) {
 
 ### Building a database using SQL
 
-To make sure your to-do items are persisted, you have to save them to a local database. In this example, I’ll use [**SQL**](/blog.logrocket.com/using-sql-database-golang.md). Just spin up a new terminal, assuming you have [<FontIcon icon="iconfont icon-mysql"/>SQL installed](https://dev.mysql.com/downloads/installer/) on your system, you can create a new database by running:
+To make sure your to-do items are persisted, you have to save them to a local database. In this example, I’ll use [**SQL**](/blog.logrocket.com/using-sql-database-golang.md). Just spin up a new terminal, assuming you have [<VPIcon icon="iconfont icon-mysql"/>SQL installed](https://dev.mysql.com/downloads/installer/) on your system, you can create a new database by running:
 
 ```sql
 CREATE DATABASE todo_app;
@@ -534,7 +534,7 @@ To check the entries in your app, run `SELECT id, title, details FROM todos;`, w
 
 ### Building frontend using htmx
 
-Now, with the <FontIcon icon="fa-brands fa-golang"/>`main.go` and the `SQL` logic set in, you can move over to the HTML part and create a file called <FontIcon icon="fa-brands fa-html5"/>`index.html`. It will be responsible for rendering out and swapping items based on the mutation from the backend logic from the <FontIcon icon="fa-brands fa-golang"/>`main.go` file:
+Now, with the <VPIcon icon="fa-brands fa-golang"/>`main.go` and the `SQL` logic set in, you can move over to the HTML part and create a file called <VPIcon icon="fa-brands fa-html5"/>`index.html`. It will be responsible for rendering out and swapping items based on the mutation from the backend logic from the <VPIcon icon="fa-brands fa-golang"/>`main.go` file:
 
 ```html :collapsed-lines title="index.html"
 <!DOCTYPE html>
@@ -579,7 +579,7 @@ Now, with the <FontIcon icon="fa-brands fa-golang"/>`main.go` and the `SQL` logi
 </html>
 ```
 
-Notice that the CSS is being written in the same file, but you can move to a CSS file of its own based on your preference. You can move the styling part to its own file and import the file in HTML itself. Find the complete code in this [GitHub repository (<FontIcon icon="iconfont icon-github"/>`abhinav-anshul/htmx-todo-app`)](https://github.com/abhinav-anshul/htmx-todo-app).
+Notice that the CSS is being written in the same file, but you can move to a CSS file of its own based on your preference. You can move the styling part to its own file and import the file in HTML itself. Find the complete code in this [GitHub repository (<VPIcon icon="iconfont icon-github"/>`abhinav-anshul/htmx-todo-app`)](https://github.com/abhinav-anshul/htmx-todo-app).
 
 Make sure you have SQL set up on your system for the application to work correctly. You can see the preview here:
 
@@ -597,7 +597,7 @@ Backend optimization ensures smooth API delivery and scales an application’s p
 
 #### Efficient database handling with Go: Use sqlx or native database drivers
 
-Go offers quick database interactions that result in fast performance. It provides both native database drivers and [<FontIcon icon="iconfont icon-github"/>`jmoiron/sqlx`](https://github.com/jmoiron/sqlx) for simplified querying. As you have seen in this article, you have used native database driver, SQL just by importing a package straight from GitHub. Similarly, you can use sqlx to have reduced boilerplate and more built-in features like struct mapping.
+Go offers quick database interactions that result in fast performance. It provides both native database drivers and [<VPIcon icon="iconfont icon-github"/>`jmoiron/sqlx`](https://github.com/jmoiron/sqlx) for simplified querying. As you have seen in this article, you have used native database driver, SQL just by importing a package straight from GitHub. Similarly, you can use sqlx to have reduced boilerplate and more built-in features like struct mapping.
 
 #### Caching responses to reduce server load
 

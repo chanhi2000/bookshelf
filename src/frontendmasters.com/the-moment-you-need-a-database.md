@@ -52,7 +52,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 Not all websites need a database.
 
-I was just drooling over [<FontIcon icon="fa-brands fa-apple"/>the new Mac Studio landing page](https://apple.com/mac-studio/) on apple.com. It’s a beautiful piece of web design that serves an important purpose for a big company, and really doesn’t need any technology other than HTML, CSS, and JavaScript. “Brochure” sites like this are classic examples of sites that don’t need a database. You’ll sometimes hear them called “awards” sites, as they tend to be beautifully focused one-offs that don’t need to live forever within a long-lasting system.
+I was just drooling over [<VPIcon icon="fa-brands fa-apple"/>the new Mac Studio landing page](https://apple.com/mac-studio/) on apple.com. It’s a beautiful piece of web design that serves an important purpose for a big company, and really doesn’t need any technology other than HTML, CSS, and JavaScript. “Brochure” sites like this are classic examples of sites that don’t need a database. You’ll sometimes hear them called “awards” sites, as they tend to be beautifully focused one-offs that don’t need to live forever within a long-lasting system.
 
 Even sites with a lot more pages don’t *necessarily* need a database. You can just duplicate directories or HTML files for a while, even if it is a little repetitive. Modern code editors make updating repetitive code in a code base no sweat.
 
@@ -64,14 +64,14 @@ At some point, sites with a ton of pages benefit from a more robust templating s
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/Screenshot-2025-03-10-at-9.04.52%E2%80%AFAM.png?resize=1024%2C501&ssl=1)
 
-[<FontIcon icon="fas fa-globe"/>Eleventy](https://11ty.dev/docs/layouts/) is great at combining layouts and content.
+[<VPIcon icon="fas fa-globe"/>Eleventy](https://11ty.dev/docs/layouts/) is great at combining layouts and content.
 
 Combining content with templates to produce a page can be done a number of ways and entirely without a database.
 
 - A website with access to a backend language can use that backend language to do the content+template creation on request.
 - A website builder tool with a build process can produce static HTML output from content+template before the files are deployed to the server.
 
-So yeah! You can get pretty far without needing a database at all. Perhaps the most common approach is using a *static site generator*, of which [<FontIcon icon="fas fa-globe"/>there are many](https://jamstack.org/generators/). Frontend Masters has courses on site builders that can produce static sites like [<FontIcon icon="fas fa-globe"/>Next.js](https://frontendmasters.com/courses/next-js-v3/), [<FontIcon icon="fas fa-globe"/>Nuxt](https://frontendmasters.com/courses/nuxt/), and [<FontIcon icon="fas fa-globe"/>Astro](https://frontendmasters.com/courses/astro/).
+So yeah! You can get pretty far without needing a database at all. Perhaps the most common approach is using a *static site generator*, of which [<VPIcon icon="fas fa-globe"/>there are many](https://jamstack.org/generators/). Frontend Masters has courses on site builders that can produce static sites like [<VPIcon icon="fas fa-globe"/>Next.js](https://frontendmasters.com/courses/next-js-v3/), [<VPIcon icon="fas fa-globe"/>Nuxt](https://frontendmasters.com/courses/nuxt/), and [<VPIcon icon="fas fa-globe"/>Astro](https://frontendmasters.com/courses/astro/).
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/Screenshot-2025-03-10-at-12.58.57%E2%80%AFPM.png?resize=1024%2C860&ssl=1)
 
@@ -83,13 +83,13 @@ So then *when?* When do you make the call that for some particular product, a da
 
 - **When you have a log in system**. You might be able to get away with not storing user auth information at all (e.g. “social auth” only), but even then, those users are likely *doing something* with your website and if you need to save what they are doing, you need to associate it with that user, and a database will be the way. If you want to let a user log in and do things, perhaps even across devices, you’ll be storing what they are doing and like their last “state” of what they are doing in a database.
 - **When you have very dynamic data.** “Dynamic” meaning changing often. Imagine *forums*. Users logging in and creating new threads and responding to existing threads. It’s probably not practical to be forcing some build process to run rebuilding static files in a forum. Forum data makes much more sense in a database, especially as it can then be retrieved and used in many different ways (recent posts, individual threads, user profiles, etc.) Comment sections are similar and something that a database is generally in charge of.
-- **When you have relational data.** Imagine a real estate app where the users are realtors, realtors represent homes, but a home might have multiple realtors, and those realtors belong to realtor groups, etc. These are all tables of data that can reference each other and is the strength (and point) of relational databases like Postgres. (see a [<FontIcon icon="fas fa-globe"/>Complete Intro to SQL & PostgreSQL](https://frontendmasters.com/courses/sql/))
+- **When you have relational data.** Imagine a real estate app where the users are realtors, realtors represent homes, but a home might have multiple realtors, and those realtors belong to realtor groups, etc. These are all tables of data that can reference each other and is the strength (and point) of relational databases like Postgres. (see a [<VPIcon icon="fas fa-globe"/>Complete Intro to SQL & PostgreSQL](https://frontendmasters.com/courses/sql/))
 - **When you present things that need to be search, filtered, or sorted.** A database excels at jobs like “give me these specific things sorted in descending order by date” or the like. Producing static files of every possible search, sort, or filtering choice (assuming you can’t do that filtering client side) isn’t usually practical.
 - **When you just have too much.** Just to draw a reasonable line, I’d say at over 100 pages, unless they are super similar types like only blog posts, it’s likely a site benefits from keeping the content for those pages in a database. It might not be “pages” only, it could be users, products, songs, or whatever the main *things* of the website are.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/Screenshot-2025-03-10-at-3.27.59%E2%80%AFPM.png?resize=1024%2C668&ssl=1)
 
-The forum software [<FontIcon icon="fas fa-globe"/>Discourse](https://discourse.org/about) uses Postgres databases.
+The forum software [<VPIcon icon="fas fa-globe"/>Discourse](https://discourse.org/about) uses Postgres databases.
 
 ---
 
@@ -101,12 +101,12 @@ It seems like there are a lot of upsides to a database, doesn’t there? It real
 - **Databases require security.** Databases are usually necessarily accessible on the open web or at least on the private network that the website backend has access to. They also tend to contain sensitive data like private user information. If a nefarious user got more access to the database than they should have, they could download that private information and/or corrupt what is there. This is unfortunately not a maybe. Insecure databases will almost certainly be messed with.
 - **Databases require backups.** Because of the risk of nefarious behavior, and even more likely, your own team making honest mistakes, you need to have backups of the database as often as possible. When dealing with flat files, your Git repository and previous deployments act as your backups, but that doesn’t cover a database. Databases need their own unique backup systems.
 - **Databases require maintenance.** Database software can update versions, which can include security patches. Add this to your list of responsibilities.
-- **Databases require a backend language and ORM.** Front-end code doesn’t typically talk directly to a database. It talks to back-end code which talks to a database. And even back-end code typically isn’t raw SQL queries and the like, it uses an ORM (e.g. [<FontIcon icon="fas fa-globe"/>Prisma](https://frontendmasters.com/courses/fullstack-app-next-v3/setup-prisma-orm/)) that provide a more friendly abstracted syntax for dealing with data. When you work with a database, ends up being lots of additional technology that layers onto your stack to make it all work together.
+- **Databases require a backend language and ORM.** Front-end code doesn’t typically talk directly to a database. It talks to back-end code which talks to a database. And even back-end code typically isn’t raw SQL queries and the like, it uses an ORM (e.g. [<VPIcon icon="fas fa-globe"/>Prisma](https://frontendmasters.com/courses/fullstack-app-next-v3/setup-prisma-orm/)) that provide a more friendly abstracted syntax for dealing with data. When you work with a database, ends up being lots of additional technology that layers onto your stack to make it all work together.
 - **Databases likely need a migration strategy.** Just having and using a database is work, but the structure of a database has a habit of needing to change. Imagine needing to add an additional column to the database, or change the name or structure of the data within a table. These changes are called migrations and have their own set of complexity that might become your job.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/Screenshot-2025-03-10-at-3.29.44%E2%80%AFPM.png?resize=1024%2C697&ssl=1)
 
-Databases don’t come alone. You need a backend language to connect to it and likely an ORM like [<FontIcon icon="fas fa-globe"/>Prisma](https://prisma.io/) to work with it effectively.
+Databases don’t come alone. You need a backend language to connect to it and likely an ORM like [<VPIcon icon="fas fa-globe"/>Prisma](https://prisma.io/) to work with it effectively.
 
 ---
 
@@ -122,10 +122,10 @@ So using pre-existing software that makes use of a database is a different situa
 
 It should also be noted that databases come in lots of different shapes and sizes.
 
-- A K:V store (key: value) is perhaps the simplest possible database. This is the foundation of software like [<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) and you’ll see companies like [<FontIcon icon="iconfont icon-cloudflare"/>Cloudflare offer stores like this.](https://developers.cloudflare.com/kv/concepts/how-kv-works/)
-- Some databases are “schema-less” in that the bits of data have no defined types, and are more JSON-like in nature like [<FontIcon icon="fas fa-globe"/>CouchDB](https://couchdb.apache.org/), [<FontIcon icon="iconfont icon-mongodb"/>MongoDB](https://mongodb.com/), [<FontIcon icon="iconfont icon-firebase"/>Firebase](https://firebase.google.com/products/realtime-database), etc.
-- Some databases come in the form of hosted services and are content-focused like [<FontIcon icon="fas fa-globe"/>Sanity](https://sanity.io/) and [<FontIcon icon="fas fa-globe"/>Contentful](https://contentful.com/).
-- Even “classic” databases like SQL come in varietals like [<FontIcon icon="fa-brands fa-google"/>Postgres](https://google.com/search?q=postgres&udm=14) and [<FontIcon icon="iconfont icon-mariadb"/>MariaDB](https://mariadb.org/). And these have dedicated hosts like SQL has [PlanetScale](https://planetscale.com/#vitess) and [<FontIcon icon="iconfont icon-cockroachdb"/>Cockroach](https://cockroachlabs.com/) and Postgres has [<FontIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/).
+- A K:V store (key: value) is perhaps the simplest possible database. This is the foundation of software like [<VPIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) and you’ll see companies like [<VPIcon icon="iconfont icon-cloudflare"/>Cloudflare offer stores like this.](https://developers.cloudflare.com/kv/concepts/how-kv-works/)
+- Some databases are “schema-less” in that the bits of data have no defined types, and are more JSON-like in nature like [<VPIcon icon="fas fa-globe"/>CouchDB](https://couchdb.apache.org/), [<VPIcon icon="iconfont icon-mongodb"/>MongoDB](https://mongodb.com/), [<VPIcon icon="iconfont icon-firebase"/>Firebase](https://firebase.google.com/products/realtime-database), etc.
+- Some databases come in the form of hosted services and are content-focused like [<VPIcon icon="fas fa-globe"/>Sanity](https://sanity.io/) and [<VPIcon icon="fas fa-globe"/>Contentful](https://contentful.com/).
+- Even “classic” databases like SQL come in varietals like [<VPIcon icon="fa-brands fa-google"/>Postgres](https://google.com/search?q=postgres&udm=14) and [<VPIcon icon="iconfont icon-mariadb"/>MariaDB](https://mariadb.org/). And these have dedicated hosts like SQL has [PlanetScale](https://planetscale.com/#vitess) and [<VPIcon icon="iconfont icon-cockroachdb"/>Cockroach](https://cockroachlabs.com/) and Postgres has [<VPIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/).
 
 ---
 

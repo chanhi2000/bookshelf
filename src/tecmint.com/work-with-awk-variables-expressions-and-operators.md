@@ -112,7 +112,7 @@ second_name=$3
 
 In the examples above, the value of `first_name` is set to the second field and `second_name` is set to the third field.
 
-As an illustration, consider a file named <FontIcon icon="fas fa-file-lines"/>`names.txt` which contains a list of users indicating their first and last names plus gender.
+As an illustration, consider a file named <VPIcon icon="fas fa-file-lines"/>`names.txt` which contains a list of users indicating their first and last names plus gender.
 
 Using the [**`cat` command**](/tecmint.com/cat-command-linux.md), we can view the contents of the file as follows
 
@@ -172,7 +172,7 @@ num3=num2-num1
 counter=counter+1
 ```
 
-To understand the use of numeric expressions in **Awk**, we shall consider the following example below, with the file <FontIcon icon="fas fa-file-lines"/>`domains.txt` which contains all domains owned by **Tecmint**.
+To understand the use of numeric expressions in **Awk**, we shall consider the following example below, with the file <VPIcon icon="fas fa-file-lines"/>`domains.txt` which contains all domains owned by **Tecmint**.
 
 ```plaintext title="domains.txt"
 news.tecmint.com
@@ -220,7 +220,7 @@ exit 0
 
 ![Shell Script to Count a String or Text in File](https://tecmint.com/wp-content/uploads/2016/07/Shell-Script-to-Count-a-String-in-File.png)
 
-After creating the script, save it and make it executable, when we run it with the file, <FontIcon icon="fas fa-file-lines"/>`domains.txt` as our input, we get the following output:
+After creating the script, save it and make it executable, when we run it with the file, <VPIcon icon="fas fa-file-lines"/>`domains.txt` as our input, we get the following output:
 
 ```sh
 ./script.sh  ~/domains.txt
@@ -228,7 +228,7 @@ After creating the script, save it and make it executable, when we run it with t
 
 ![Script to Count String or Text](https://tecmint.com/wp-content/uploads/2016/07/Script-To-Count-String.png)
 
-From the output of the script, there are 6 lines in the file <FontIcon icon="fas fa-file-lines"/>`domains.txt` which contain `tecmint.com`, to confirm that you can manually count them.
+From the output of the script, there are 6 lines in the file <VPIcon icon="fas fa-file-lines"/>`domains.txt` which contain `tecmint.com`, to confirm that you can manually count them.
 
 ---
 

@@ -61,7 +61,7 @@ For example, a mapping service might stop returning additional details about a c
 
 The concept of “graceful degradation” contrasts with “fail-fast” approaches, where a system immediately halts operations when it encounters a failure. Graceful degradation emphasizes resilience and user-centric design by ensuring critical services remain accessible during partial disruptions.
 
-As usual, the code for this article [is available on GitHub. (<FontIcon icon="iconfont icon-github"/>`rosdec/graceful_degradetion`)](https://github.com/rosdec/graceful_degradetion) We will use tags to follow our path along the “degradation” of the functionalities.
+As usual, the code for this article [is available on GitHub. (<VPIcon icon="iconfont icon-github"/>`rosdec/graceful_degradetion`)](https://github.com/rosdec/graceful_degradetion) We will use tags to follow our path along the “degradation” of the functionalities.
 
 ---
 
@@ -69,11 +69,11 @@ As usual, the code for this article [is available on GitHub. (<FontIcon icon="ic
 
 To support our explanation, we will use a simple application (written in [**Deno/Fresh**](/blog.logrocket.com/getting-started-deno-fresh.md) but the language/framework is irrelevant in this article) that will invoke a remote API to get a fresh joke for the user.
 
-The interface is pretty simple and the code can be found on the repository (at [this tag (<FontIcon icon="iconfont icon-github"/>`rosdec/graceful_degradetion`)](https://github.com/rosdec/graceful_degradetion/releases/tag/initial_setup) in particular).
+The interface is pretty simple and the code can be found on the repository (at [this tag (<VPIcon icon="iconfont icon-github"/>`rosdec/graceful_degradetion`)](https://github.com/rosdec/graceful_degradetion/releases/tag/initial_setup) in particular).
 
-The <FontIcon icon="fas fa-folder-open"/>`islands\`<FontIcon icon="fa-brands fa-react"/>`Joke.tsx` file is a preact component responsible for displaying a random joke in a web interface. It uses the [**`useState` and `useEffect` Hooks**](/blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems.md) to manage the joke’s state and fetch data when the component mounts. The joke is fetched from the `/api/joke` endpoint, and users can retrieve a new one by clicking a button. The component renders the joke along with a button that triggers fetching a new joke dynamically when clicked.
+The <VPIcon icon="fas fa-folder-open"/>`islands\`<VPIcon icon="fa-brands fa-react"/>`Joke.tsx` file is a preact component responsible for displaying a random joke in a web interface. It uses the [**`useState` and `useEffect` Hooks**](/blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems.md) to manage the joke’s state and fetch data when the component mounts. The joke is fetched from the `/api/joke` endpoint, and users can retrieve a new one by clicking a button. The component renders the joke along with a button that triggers fetching a new joke dynamically when clicked.
 
-The <FontIcon icon="fas fa-folder-open"/>`routes\api\`<FontIcon icon="iconfont icon-typescript"/>`joke.ts` file defines an API endpoint that returns a random joke. It fetches a joke from an external API (for this example, we use [<FontIcon icon="fas fa-globe"/>a service](https://official-joke-api.appspot.com/random_joke) but any other similar service is fine) and extracts the setup and punchline. The response is then formatted as a single string (`setup + punchline`) and returned as a JSON response to the client.
+The <VPIcon icon="fas fa-folder-open"/>`routes\api\`<VPIcon icon="iconfont icon-typescript"/>`joke.ts` file defines an API endpoint that returns a random joke. It fetches a joke from an external API (for this example, we use [<VPIcon icon="fas fa-globe"/>a service](https://official-joke-api.appspot.com/random_joke) but any other similar service is fine) and extracts the setup and punchline. The response is then formatted as a single string (`setup + punchline`) and returned as a JSON response to the client.
 
 ---
 

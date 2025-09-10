@@ -56,7 +56,7 @@ API gateways provide clients with a single point of entry. This streamlines thei
 
 One critical aspect of API gateways is authentication - ensuring only authorized users and applications can access your valuable data and resources.
 
-In this newsletter, we'll explore how you can implement API gateway authentication using [<FontIcon icon="fa-brands fa-microsoft"/>YARP](https://microsoft.github.io/reverse-proxy/index.html) (Yet Another Reverse Proxy), a powerful and flexible reverse proxy library for .NET applications.
+In this newsletter, we'll explore how you can implement API gateway authentication using [<VPIcon icon="fa-brands fa-microsoft"/>YARP](https://microsoft.github.io/reverse-proxy/index.html) (Yet Another Reverse Proxy), a powerful and flexible reverse proxy library for .NET applications.
 
 Here's what we will cover:
 
@@ -91,7 +91,7 @@ If you're new to YARP, I recommend first reading about [**how to implement an AP
 
 By default, YARP won't authenticate or authorize requests unless enabled in the route or application configuration.
 
-We can start by introducing [<FontIcon icon="fa-brands fa-microsoft"/>authentication](https://docs.microsoft.com/aspnet/core/security/authentication/) and [<FontIcon icon="fa-brands fa-microsoft"/>authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/introduction) middleware:
+We can start by introducing [<VPIcon icon="fa-brands fa-microsoft"/>authentication](https://docs.microsoft.com/aspnet/core/security/authentication/) and [<VPIcon icon="fa-brands fa-microsoft"/>authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/introduction) middleware:
 
 ```cs{1-2}
 app.UseAuthentication();
@@ -132,7 +132,7 @@ YARP will pass any credentials to the proxied request. By default, cookies, bear
 
 ## Creating Custom Authentication Policies
 
-YARP can utilize the powerful [<FontIcon icon="fa-brands fa-microsoft"/>authorization policies](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/policies) feature in ASP.NET Core. We can specify a policy per route in the proxy configuration, and the rest is handled by existing ASP.NET Core authentication and authorization components.
+YARP can utilize the powerful [<VPIcon icon="fa-brands fa-microsoft"/>authorization policies](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/policies) feature in ASP.NET Core. We can specify a policy per route in the proxy configuration, and the rest is handled by existing ASP.NET Core authentication and authorization components.
 
 ```json{6,13}
 {
@@ -182,7 +182,7 @@ Thanks for reading, and I'll see you next week.
 
 ::: note P.S.
 
-Here's the complete [source code (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-authentication`)](https://github.com/m-jovanovic/yarp-authentication) for this article if you want to try it out.
+Here's the complete [source code (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-authentication`)](https://github.com/m-jovanovic/yarp-authentication) for this article if you want to try it out.
 
 <SiteInfo
   name="m-jovanovic/yarp-authentication"

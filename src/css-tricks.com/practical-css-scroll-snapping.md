@@ -52,7 +52,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/07/scroll-snap-f
 
 CSS scroll snapping allows you to lock the viewport to certain elements or locations after a user has finished scrolling. It’s great for building interactions like this one:
 
-![[Live Demo (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/full/pMRgwW)](https://i2.wp.com/css-tricks.com/wp-content/uploads/2020/03/scroll-snap-demo.gif?fit=1024%2C686&ssl=1)
+![[Live Demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/full/pMRgwW)](https://i2.wp.com/css-tricks.com/wp-content/uploads/2020/03/scroll-snap-demo.gif?fit=1024%2C686&ssl=1)
 
 ---
 
@@ -62,7 +62,7 @@ Browser support for CSS scroll snapping has improved significantly since it was 
 
 ::: info
 
-This browser support data is from [<FontIcon icon="iconfont icon-caniuse"/>Caniuse](http://caniuse.com/#feat=css-snappoints), which has more detail. A number indicates that browser supports the feature at that version and up.
+This browser support data is from [<VPIcon icon="iconfont icon-caniuse"/>Caniuse](http://caniuse.com/#feat=css-snappoints), which has more detail. A number indicates that browser supports the feature at that version and up.
 
 ### Desktop
 
@@ -79,7 +79,7 @@ This browser support data is from [<FontIcon icon="iconfont icon-caniuse"/>Caniu
 :::
 <!-- TODO: caniuse 컴포넌트 -->
 
-Scroll snapping is used by setting the [<FontIcon icon="iconfont icon-w3c"/>`scroll-snap-type`](https://w3.org/TR/css-scroll-snap-1/#scroll-snap-type) property on a container element and the [<FontIcon icon="iconfont icon-w3c"/>`scroll-snap-align`](https://w3.org/TR/css-scroll-snap-1/#scroll-snap-align) property on elements inside it. When the container element is scrolled, it will snap to the child elements you’ve defined. In its most basic form, it looks like this:
+Scroll snapping is used by setting the [<VPIcon icon="iconfont icon-w3c"/>`scroll-snap-type`](https://w3.org/TR/css-scroll-snap-1/#scroll-snap-type) property on a container element and the [<VPIcon icon="iconfont icon-w3c"/>`scroll-snap-align`](https://w3.org/TR/css-scroll-snap-1/#scroll-snap-align) property on elements inside it. When the container element is scrolled, it will snap to the child elements you’ve defined. In its most basic form, it looks like this:
 
 ```html
 <div class="container">
@@ -100,7 +100,7 @@ Scroll snapping is used by setting the [<FontIcon icon="iconfont icon-w3c"/>`scr
 }
 ```
 
-This is different to the [<FontIcon icon="iconfont icon-w3c"/>first version of the spec](https://w3.org/TR/2015/WD-css-snappoints-1-20150326/#scroll-snap-points), which allowed you to set snap-points manually using the `repeat` keyword:
+This is different to the [<VPIcon icon="iconfont icon-w3c"/>first version of the spec](https://w3.org/TR/2015/WD-css-snappoints-1-20150326/#scroll-snap-points), which allowed you to set snap-points manually using the `repeat` keyword:
 
 ```css
 .container {
@@ -127,11 +127,11 @@ You *can* use both methods alongside each other (if your layout allows it) to su
 }
 ```
 
-I’d argue a more flexible option is to use the element-based syntax exclusively and loading a [polyfill (<FontIcon icon="fa-brands fa-npm"/>`css-scroll-snap-polyfill`)](https://npmjs.com/package/css-scroll-snap-polyfill) to support browsers that don’t yet support it. This is the method I’m using in the examples below.
+I’d argue a more flexible option is to use the element-based syntax exclusively and loading a [polyfill (<VPIcon icon="fa-brands fa-npm"/>`css-scroll-snap-polyfill`)](https://npmjs.com/package/css-scroll-snap-polyfill) to support browsers that don’t yet support it. This is the method I’m using in the examples below.
 
 ::: note
 
-Unfortunately, the polyfill doesn’t come with a browser bundle, so it’s a bit tricky to use if you’re not using a build process. The easiest way around this I’ve found is to link to the script on [<FontIcon icon="fas fa-globe"/>bundle.run](https://bundle.run/css-scroll-snap-polyfill@0.1.2) and initializing it using `cssScrollSnapPolyfill()` once the DOM is loaded. It’s also worth pointing out that this polyfill *only* supports the element-based syntax, not the `repeat`-method.
+Unfortunately, the polyfill doesn’t come with a browser bundle, so it’s a bit tricky to use if you’re not using a build process. The easiest way around this I’ve found is to link to the script on [<VPIcon icon="fas fa-globe"/>bundle.run](https://bundle.run/css-scroll-snap-polyfill@0.1.2) and initializing it using `cssScrollSnapPolyfill()` once the DOM is loaded. It’s also worth pointing out that this polyfill *only* supports the element-based syntax, not the `repeat`-method.
 
 :::
 
@@ -186,7 +186,7 @@ By default, scroll snapping only kicks in when the user stops scrolling, meaning
 
 You can change this by setting `scroll-snap-stop: always` on any child element. This forces the scroll container to stop on that element before the user can continue to scroll.
 
-At the time of this writing, no browser supports `scroll-snap-stop` natively, though there is a [<FontIcon icon="fa-brands fa-chrome"/>tracking bug](https://bugs.chromium.org/p/chromium/issues/detail?id=823998) for Chrome.
+At the time of this writing, no browser supports `scroll-snap-stop` natively, though there is a [<VPIcon icon="fa-brands fa-chrome"/>tracking bug](https://bugs.chromium.org/p/chromium/issues/detail?id=823998) for Chrome.
 
 Let’s look at some examples of scroll snap in use.
 
@@ -333,7 +333,7 @@ Then, we define the top-left corner of each tile as a snap point:
 
 ## Some thoughts on user experience
 
-*Messing with scrolling* is risky business. Since it’s such a fundamental part of interacting with the web, changing it in any way can feel jarring—the term [<FontIcon icon="fas fa-globe"/>scrolljacking](https://robinrendle.com/notes/scrolljacking/) used to get thrown around to describe that sort of experience.
+*Messing with scrolling* is risky business. Since it’s such a fundamental part of interacting with the web, changing it in any way can feel jarring—the term [<VPIcon icon="fas fa-globe"/>scrolljacking](https://robinrendle.com/notes/scrolljacking/) used to get thrown around to describe that sort of experience.
 
 The great thing about CSS-based scroll snapping is that you’re *not* taking direct control over the scroll position. Instead, you’re just giving the browser a list of positions to snap in a way that is appropriate to the platform, input method, and user preferences. This means a scrolling interface you build is going to feel just like the native interface (i.e using the same animations, etc.) on whatever platform it’s viewed on.
 
@@ -351,7 +351,7 @@ Of course, we shouldn’t start throwing snap points onto everything. Things lik
 
 ## Conclusion
 
-If done thoughtfully, scroll snapping can be a useful design tool. CSS snap points allow you to hook into the browser’s native scrolling interaction, so your interface feel seamless and smooth. With a JavaScript API [potentially on the horizon (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/156), these are going to become even more powerful. Still, a light touch is probably the way to go.
+If done thoughtfully, scroll snapping can be a useful design tool. CSS snap points allow you to hook into the browser’s native scrolling interaction, so your interface feel seamless and smooth. With a JavaScript API [potentially on the horizon (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/156), these are going to become even more powerful. Still, a light touch is probably the way to go.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

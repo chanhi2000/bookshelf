@@ -57,12 +57,12 @@ If you’re working on the standard REPL, then you’ll have a few tools that al
 
 ## Using Python’s Built-in Help System
 
-The built-in [<FontIcon icon="fa-brands fa-python"/>`help()`](https://docs.python.org/3/library/functions.html#help) function gives you access to Python’s **built-in help system**. You can use this function by calling it in two ways:
+The built-in [<VPIcon icon="fa-brands fa-python"/>`help()`](https://docs.python.org/3/library/functions.html#help) function gives you access to Python’s **built-in help system**. You can use this function by calling it in two ways:
 
 1. With an **object** or a **string** as an argument, which gives you access to the object’s help page
 2. With **no arguments**, which enters Python’s help system
 
-The help page of an object typically contains information from the object’s docstrings. It may also include a list of methods and attributes. For example, here’s a fragment from the page of the [<FontIcon icon="fa-brands fa-python"/>`str`](https://docs.python.org/3/library/stdtypes.html#str) class that you can access by typing `help(str)` in your REPL session:
+The help page of an object typically contains information from the object’s docstrings. It may also include a list of methods and attributes. For example, here’s a fragment from the page of the [<VPIcon icon="fa-brands fa-python"/>`str`](https://docs.python.org/3/library/stdtypes.html#str) class that you can access by typing `help(str)` in your REPL session:
 
 ```py :collapsed-lines
 help(str)
@@ -187,11 +187,11 @@ Some of these built-in tools include the following:
 
 | Function | Description |
 | --- | --- |
-| [<FontIcon icon="fa-brands fa-python"/>`dir()`](https://docs.python.org/3/library/functions.html#dir) | Returns the list of names in the current [**local scope**](/realpython.com/python-scope-legb-rule.md#functions-the-local-scope) when you call it with no argument. Attempts to return a list of valid attributes for the object passed as an argument. |
-| [<FontIcon icon="fa-brands fa-python"/>`vars()`](https://docs.python.org/3/library/functions.html#vars) | Returns the [<FontIcon icon="fa-brands fa-python"/>`.__dict__`](https://docs.python.org/3/library/stdtypes.html#object.__dict__) attribute for a module, class, instance, or any other object with this attribute. The `.__dict__` attribute holds a list of names pertaining to the underlying object. |
-| [<FontIcon icon="fa-brands fa-python"/>`locals()`](https://docs.python.org/3/library/functions.html#locals) | Returns a dictionary representing the names in the current local scope. |
-| [<FontIcon icon="fa-brands fa-python"/>`globals()`](https://docs.python.org/3/library/functions.html#globals) | Returns the dictionary representing the current module namespace. |
-| [<FontIcon icon="fa-brands fa-python"/>`type()`](https://docs.python.org/3/library/functions.html#type) | Returns the type of an *object* when you call it with one argument. |
+| [<VPIcon icon="fa-brands fa-python"/>`dir()`](https://docs.python.org/3/library/functions.html#dir) | Returns the list of names in the current [**local scope**](/realpython.com/python-scope-legb-rule.md#functions-the-local-scope) when you call it with no argument. Attempts to return a list of valid attributes for the object passed as an argument. |
+| [<VPIcon icon="fa-brands fa-python"/>`vars()`](https://docs.python.org/3/library/functions.html#vars) | Returns the [<VPIcon icon="fa-brands fa-python"/>`.__dict__`](https://docs.python.org/3/library/stdtypes.html#object.__dict__) attribute for a module, class, instance, or any other object with this attribute. The `.__dict__` attribute holds a list of names pertaining to the underlying object. |
+| [<VPIcon icon="fa-brands fa-python"/>`locals()`](https://docs.python.org/3/library/functions.html#locals) | Returns a dictionary representing the names in the current local scope. |
+| [<VPIcon icon="fa-brands fa-python"/>`globals()`](https://docs.python.org/3/library/functions.html#globals) | Returns the dictionary representing the current module namespace. |
+| [<VPIcon icon="fa-brands fa-python"/>`type()`](https://docs.python.org/3/library/functions.html#type) | Returns the type of an *object* when you call it with one argument. |
 
 You can use any of these built-in functions to introspect your code and retrieve useful information that you can later use in your coding process.
 

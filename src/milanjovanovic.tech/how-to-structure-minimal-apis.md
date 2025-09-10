@@ -142,7 +142,7 @@ Can we do better?
 
 ## Structuring Minimal API Projects With Modules
 
-I want to introduce you to an interesting open source library called [<FontIcon icon="iconfont icon-github"/>`CarterCommunity/Carter`](https://github.com/CarterCommunity/Carter), which has a concept of modules that we can use to group endpoints.
+I want to introduce you to an interesting open source library called [<VPIcon icon="iconfont icon-github"/>`CarterCommunity/Carter`](https://github.com/CarterCommunity/Carter), which has a concept of modules that we can use to group endpoints.
 
 Here's how we can define our `ProductsModule` with **Carter**:
 

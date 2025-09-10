@@ -79,11 +79,11 @@ dialog {
 
 That will limit the height to essentially 90% of the viewport height (the `dv`b part means “**d**ynamic **v**iewport size in the **b**lock direction”). I like the “dynamic” sizing units because it means that it accommodates browser “chrome” (toolbars and stuff) being present (or not). The inset amount is half of what’s left over, so essentially vertical centering.
 
-![This graphic convinces me dynamic viewport height units are a good idea.<br/>([<FontIcon icon="iconfont icon-webdev"/>source](https://web.dev/blog/viewport-units))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/100dvh-adapts-itself-be-91c728b09836d_1920.png?resize=1024%2C576&ssl=1)
+![This graphic convinces me dynamic viewport height units are a good idea.<br/>([<VPIcon icon="iconfont icon-webdev"/>source](https://web.dev/blog/viewport-units))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/100dvh-adapts-itself-be-91c728b09836d_1920.png?resize=1024%2C576&ssl=1)
 
 ::: note
 
-Note that the dialog element’s default styles can be a bit confusing and you need to understand when you can override safely and when you can’t without doing extra work. Simon Willison has an interesting article on this: [<FontIcon icon="fas fa-globe"/>Styling an HTML dialog modal to take the full height of the viewport](https://til.simonwillison.net/css/dialog-full-height).
+Note that the dialog element’s default styles can be a bit confusing and you need to understand when you can override safely and when you can’t without doing extra work. Simon Willison has an interesting article on this: [<VPIcon icon="fas fa-globe"/>Styling an HTML dialog modal to take the full height of the viewport](https://til.simonwillison.net/css/dialog-full-height).
 
 :::
 
@@ -134,7 +134,7 @@ Here’s a video of focus trapping at work with the modal state. Notice the “f
 
 ~There is no way to show a dialog in the modal state from HTML alone.~
 
-Welllll, the above isn’t strictly true anymore as I [<FontIcon icon="fas fa-globe"/>learned from Curtis Wilcoxin the comments](https://frontendmasters.com/blog/lessons-learned-from-recreating-a-styled-dialog/#comment-25883). We can actually use the `popover` syntax to make a button in HTML alone that will open the dialog. That will (sadly) only open the dialog in the non-modal state, but at least it’s a toggle without JavaScript! The good news is that the Invoker Commands API is actually all over this. It’s used like this:
+Welllll, the above isn’t strictly true anymore as I [<VPIcon icon="fas fa-globe"/>learned from Curtis Wilcoxin the comments](https://frontendmasters.com/blog/lessons-learned-from-recreating-a-styled-dialog/#comment-25883). We can actually use the `popover` syntax to make a button in HTML alone that will open the dialog. That will (sadly) only open the dialog in the non-modal state, but at least it’s a toggle without JavaScript! The good news is that the Invoker Commands API is actually all over this. It’s used like this:
 
 ```html
 <dialog id="my-dialog">
@@ -233,7 +233,7 @@ When instead we could be living in the future like:
 }
 ```
 
-I once [<FontIcon icon="fas fa-globe"/>said this](https://chriscoyier.net/2023/06/12/margin-trim-as-a-best-practice/) and I’m sticking to it:
+I once [<VPIcon icon="fas fa-globe"/>said this](https://chriscoyier.net/2023/06/12/margin-trim-as-a-best-practice/) and I’m sticking to it:
 
 > If you add`padding`in the main flow direction of an element, adding`margin-trim`in that same direction.
 
@@ -269,11 +269,11 @@ But, ya know, always nice to have options. You could also not even bother with `
 
 ## Autofocus
 
-In reading over [<FontIcon icon="fa-brands fa-firefox"/>the MDN for dialogs](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog), this stood out to me as something I didn’t know:
+In reading over [<VPIcon icon="fa-brands fa-firefox"/>the MDN for dialogs](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog), this stood out to me as something I didn’t know:
 
-::: info The Dialog element <FontIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>
+::: info The Dialog element <VPIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>
 
-> The[<FontIcon icon="fa-brands fa-firefox"/>`autofocus`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autofocus)attribute should be added to the element the user is expected to interact with immediately upon opening a modal dialog. If no other element involves more immediate interaction, it is recommended to add`autofocus`to the close button inside the dialog, or the dialog itself if the user is expected to click/activate it to dismiss.
+> The[<VPIcon icon="fa-brands fa-firefox"/>`autofocus`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autofocus)attribute should be added to the element the user is expected to interact with immediately upon opening a modal dialog. If no other element involves more immediate interaction, it is recommended to add`autofocus`to the close button inside the dialog, or the dialog itself if the user is expected to click/activate it to dismiss.
 
 :::
 
@@ -291,7 +291,7 @@ They didn’t mince words there and it makes sense to me, so I put it on the “
 
 ---
 
-Feel free to [peak at the demo (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/dPyExGZ/ca8110591c1b7d7c8a41a51c9917b46a) to see a few other thing like color modes and a backdrop. Sometimes fairly simple looking HTML elements have quite a bit of detail to implementation!
+Feel free to [peak at the demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/dPyExGZ/ca8110591c1b7d7c8a41a51c9917b46a) to see a few other thing like color modes and a backdrop. Sometimes fairly simple looking HTML elements have quite a bit of detail to implementation!
 
 <CodePen
   user="chriscoyier"

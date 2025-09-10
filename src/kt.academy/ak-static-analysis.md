@@ -53,7 +53,7 @@ cover: https://marcinmoskala.com/advanced-kotlin-book/promotion/13_static_analys
 
 ::: note
 
-This is a chapter from the book [Effective Kotlin](/book/effectivekotlin). You can find it on [<FontIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<FontIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
+This is a chapter from the book [Effective Kotlin](/book/effectivekotlin). You can find it on [<VPIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<VPIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
 
 > This chapter was written by Nicola Corti, who is the best person I could ask to write about Static Code Analysers. He is one of the maintainers of detekt and the author of many of its rules; he is also a well-known speaker and a true programming practitioner.
 
@@ -123,9 +123,9 @@ If you’ve written any code, you’ve probably already interacted with formatte
 
 Most of the time, formatters are embedded inside your IDEs and auto-format your code when you save your files. Formatters are typically referred to as pretty-printers or beautifiers.
 
-Each popular programming language has a set of formatters in its ecosystem. Popular formatters in the industry are tools like [<FontIcon icon="fas fa-globe"/>Prettier](https://prettier.io/) for Web, the various `*fmt` tools like [<FontIcon icon="fa-brands fa-golang"/>`gofmt`](https://go.dev/blog/gofmt) for Go, and [<FontIcon icon="iconfont icon-github"/>`rust-lang/rustfmt`](https://github.com/rust-lang/rustfmt) for Rust.
+Each popular programming language has a set of formatters in its ecosystem. Popular formatters in the industry are tools like [<VPIcon icon="fas fa-globe"/>Prettier](https://prettier.io/) for Web, the various `*fmt` tools like [<VPIcon icon="fa-brands fa-golang"/>`gofmt`](https://go.dev/blog/gofmt) for Go, and [<VPIcon icon="iconfont icon-github"/>`rust-lang/rustfmt`](https://github.com/rust-lang/rustfmt) for Rust.
 
-Kotlin has various formatters to pick from: IntelliJ's built-in formatter [<FontIcon icon="iconfont icon-github"/>`pinterest/ktlint`](https://github.com/pinterest/ktlint) [<FontIcon icon="iconfont icon-github"/>`facebook/ktfmt`](https://github.com/facebook/ktfmt) [<FontIcon icon="iconfont icon-github"/>`saveourtool/diktat`](https://github.com/saveourtool/diktat)
+Kotlin has various formatters to pick from: IntelliJ's built-in formatter [<VPIcon icon="iconfont icon-github"/>`pinterest/ktlint`](https://github.com/pinterest/ktlint) [<VPIcon icon="iconfont icon-github"/>`facebook/ktfmt`](https://github.com/facebook/ktfmt) [<VPIcon icon="iconfont icon-github"/>`saveourtool/diktat`](https://github.com/saveourtool/diktat)
 
 Enforcing coding conventions and reducing *bikeshedding* is a common challenge for large engineering teams.
 
@@ -145,7 +145,7 @@ Your inspector can ask to visit all the nodes in your AST that are of type “fu
 
 The amount of information available in an AST might vary depending on different tools and the type of inspection that you're interested in doing. Sometimes, it is sufficient to have only syntactic information in the AST (e.g., the name of the parameters), but for more advanced inspections you might need an AST which has type information linked to it (e.g., the return type of a function invoked from a third-party library).
 
-Popular code quality analysers in the industry are tools like [<FontIcon icon="fas fa-globe"/>Checkstyle](https://checkstyle.org/) for Java or [<FontIcon icon="fas fa-globe"/>ESlint](https://eslint.org/) for JavaScript.
+Popular code quality analysers in the industry are tools like [<VPIcon icon="fas fa-globe"/>Checkstyle](https://checkstyle.org/) for Java or [<VPIcon icon="fas fa-globe"/>ESlint](https://eslint.org/) for JavaScript.
 
 ### Data-Flow Analysers
 
@@ -244,7 +244,7 @@ Over the rest of this chapter, we’ll look at practical examples of how to use 
 
 Let's start by configuring detekt as part of your Gradle project. For the sake of brevity, we’ll assume you already have a single-module Gradle setup which builds properly.
 
-To set up detekt, you just need to edit your <FontIcon icon="iconfont icon-gradle"/>`build.gradle.kts` file as follows:
+To set up detekt, you just need to edit your <VPIcon icon="iconfont icon-gradle"/>`build.gradle.kts` file as follows:
 
 ```groovy title="build.gradle.kts"
 plugins {
@@ -413,9 +413,9 @@ To get you up to speed with new detekt rules, you can use the official template 
 
 This will scaffold a new project for you with all the files needed to create a new rule. The crucial files to look into are:
 
-.<FontIcon icon="fas fa-folder-open"/>`src/main/kotlin/org/example/detekt/`<FontIcon icon="iconfont icon-kotlin"/>`MyRule.kt` - the code of your rule. This is where your inspection logic will live. <FontIcon icon="fas fa-folder-open"/>`src/main/kotlin/org/example/detekt/`<FontIcon icon="iconfont icon-kotlin"/>`MyRuleSetProvider.kt` - the code of your ruleset. In order to be used, your rule needs to live inside a ruleset, which allows you to add multiple custom rules and distribute all of them together. .<FontIcon icon="fas fa-folder-open"/>`src/main/resources/config/`<FontIcon icon="iconfont icon-yaml"/>`config.yml` - the default config file for your rule. This is used to offer the default configuration for your rules.
+.<VPIcon icon="fas fa-folder-open"/>`src/main/kotlin/org/example/detekt/`<VPIcon icon="iconfont icon-kotlin"/>`MyRule.kt` - the code of your rule. This is where your inspection logic will live. <VPIcon icon="fas fa-folder-open"/>`src/main/kotlin/org/example/detekt/`<VPIcon icon="iconfont icon-kotlin"/>`MyRuleSetProvider.kt` - the code of your ruleset. In order to be used, your rule needs to live inside a ruleset, which allows you to add multiple custom rules and distribute all of them together. .<VPIcon icon="fas fa-folder-open"/>`src/main/resources/config/`<VPIcon icon="iconfont icon-yaml"/>`config.yml` - the default config file for your rule. This is used to offer the default configuration for your rules.
 
-Please note that detekt uses the Java Service Provider API, so the file inside <FontIcon icon="fas fa-folder-open"/>`src/main/resources/META-INF/services` is also needed to properly discover your ruleset. The template also comes with two tests that can help you write your rule.
+Please note that detekt uses the Java Service Provider API, so the file inside <VPIcon icon="fas fa-folder-open"/>`src/main/resources/META-INF/services` is also needed to properly discover your ruleset. The template also comes with two tests that can help you write your rule.
 
 ### Coding your rule
 
@@ -439,7 +439,7 @@ fun main() {
 
 :::
 
-Let's open the <FontIcon icon="fas fa-folder-open"/>`src/test/kotlin/org/example/detekt/`<FontIcon icon="iconfont icon-kotlin"/>`MyRuleTest.kt` and code our intention. A rule test looks as follows:
+Let's open the <VPIcon icon="fas fa-folder-open"/>`src/test/kotlin/org/example/detekt/`<VPIcon icon="iconfont icon-kotlin"/>`MyRuleTest.kt` and code our intention. A rule test looks as follows:
 
 ::: kotlin-playground 3
 
@@ -494,9 +494,9 @@ internal class MyRuleTest(
 
 This test allows us to follow a declarative approach for our rule and define all of its requirements. Moreover, it is a great source of documentation for our rule, as other developers can immediately see which code triggers this inspection and which should not.
 
-If we try to run these tests, they will both fail. Let's open the <FontIcon icon="iconfont icon-kotlin"/>`MyRule.kt` and code our rule.
+If we try to run these tests, they will both fail. Let's open the <VPIcon icon="iconfont icon-kotlin"/>`MyRule.kt` and code our rule.
 
-The <FontIcon icon="iconfont icon-kotlin"/>`MyRule.kt` file created by the template looks like this:
+The <VPIcon icon="iconfont icon-kotlin"/>`MyRule.kt` file created by the template looks like this:
 
 ```kotlin title="MyRule.kt"
 class MyRule(config: Config) : Rule(config) {
@@ -608,15 +608,15 @@ We’ve also learned how you can easily integrate detekt as part of your project
 
 But the real power of static analysers comes from their extensibility, which is why this chapter has shown you how to write your own custom detekt rules.
 
-[0^]: Here we oversimplify the unused variable inspection. There are a variety of cases where you need to keep a variable even if it's not accessed; for instance, `public` definitions in a library module can't be removed if never accessed. If you're keen to learn more about this inspection, check the `UnusedPrivateMember` inspection [<FontIcon icon="fas fa-globe"/>page](https://detekt.dev/docs/rules/style/#unusedprivatemember).
-[1^]: You can read more about the history of the Lint tool on the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Lint (software) Wikipedia page](https://en.wikipedia.org/wiki/Lint_(software))
-[3^]: Kotlin has two popular guidelines, [<FontIcon icon="iconfont icon-jetbrains"/>JetBrain's Coding Convention](https://kotlinlang.org/docs/coding-conventions.html) and [<FontIcon icon="fa-brands fa-android"/>Google's Kotlin style guide](https://developer.android.com/kotlin/style-guide).
-[4^]: If you're curious about this type of inspection, check the `ForbiddenMethodCalls` inspection [<FontIcon icon="fas fa-globe"/>source code](https://detekt.dev/docs/rules/style/#forbiddenmethodcall).
-[5^]: An interesting read is the [<FontIcon icon="iconfont icon-jetbrains"/>Control- and data-flow analysis chapter](https://kotlinlang.org/spec/control--and-data-flow-analysis.html) of the Kotlin language spec.
+[0^]: Here we oversimplify the unused variable inspection. There are a variety of cases where you need to keep a variable even if it's not accessed; for instance, `public` definitions in a library module can't be removed if never accessed. If you're keen to learn more about this inspection, check the `UnusedPrivateMember` inspection [<VPIcon icon="fas fa-globe"/>page](https://detekt.dev/docs/rules/style/#unusedprivatemember).
+[1^]: You can read more about the history of the Lint tool on the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Lint (software) Wikipedia page](https://en.wikipedia.org/wiki/Lint_(software))
+[3^]: Kotlin has two popular guidelines, [<VPIcon icon="iconfont icon-jetbrains"/>JetBrain's Coding Convention](https://kotlinlang.org/docs/coding-conventions.html) and [<VPIcon icon="fa-brands fa-android"/>Google's Kotlin style guide](https://developer.android.com/kotlin/style-guide).
+[4^]: If you're curious about this type of inspection, check the `ForbiddenMethodCalls` inspection [<VPIcon icon="fas fa-globe"/>source code](https://detekt.dev/docs/rules/style/#forbiddenmethodcall).
+[5^]: An interesting read is the [<VPIcon icon="iconfont icon-jetbrains"/>Control- and data-flow analysis chapter](https://kotlinlang.org/spec/control--and-data-flow-analysis.html) of the Kotlin language spec.
 [7^]: detekt already has such a rule called `ForbiddenMethodCalls`, which allows you to specify the methods you want to forbid.
 [8^]: You can find more information on the `DontDowncastCollectionTypes` rule on its dedicated [page](https://detekt.dev/docs/rules/potential-bugs/#dontdowncastcollectiontypes)
 [9^]: For the sake of brevity, we won’t explain every API that PSI and detekt expose for running inspections, but let's clarify the `visitDotQualifiedExpression` method. A dot-qualified expression is, as the name suggests, an expression which has a dot in it (e.g.., a fully qualified method call). We're interested in finding `System.out.println` calls, which are not fully qualified method calls (as they would be `java.lang.System.out.println`) but they have a dot in them, so they are treated as dot-qualified expressions in the AST.
-[10^]: There is an [<FontIcon icon="iconfont icon-jetbrains"/>open issue](https://youtrack.jetbrains.com/issue/KT-8087) on JetBrains Issue Tracker about this specific problem.
+[10^]: There is an [<VPIcon icon="iconfont icon-jetbrains"/>open issue](https://youtrack.jetbrains.com/issue/KT-8087) on JetBrains Issue Tracker about this specific problem.
 [11^]: You don't necessarily need to publish to a remote repository like Maven Central. While testing, you can use Maven Local, which publishes the rule on your local computer, or you can use an internal repository for your organization.
 [12^]: A common example of static analysers is spellcheckers. You probably use one daily when you write documents or emails. Similarly, a compiler also is a form of static analyser as it exposes warnings while it compiles your code.
 [13^]: Please consider this simplified snippet as an example. In reality, even if you don't simplify this snippet, the compiler will do so for you during compilation.

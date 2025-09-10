@@ -67,7 +67,7 @@ The Koin IDE Plugin will provide this tree-like visualization, along with real-t
 
 ## Why are we developing the Koin IDE Plugin?
 
-As the [<FontIcon icon="fas fa-globe"/>Koin](https://insert-koin.io/) ecosystem continues to grow, we've been listening closely to your feedback. One thing has become clear — Kotlin devs are craving more robust dependency management tooling. And we’re responding with an even more targeted solution — **Configuration Safety**.
+As the [<VPIcon icon="fas fa-globe"/>Koin](https://insert-koin.io/) ecosystem continues to grow, we've been listening closely to your feedback. One thing has become clear — Kotlin devs are craving more robust dependency management tooling. And we’re responding with an even more targeted solution — **Configuration Safety**.
 
 Configuration safety means catching dependency issues before compilation, directly in your integrated development environment (IDE). Unlike traditional compile safety, which happens during the compilation process, our approach will analyze Koin configurations in real time as you write your code.
 

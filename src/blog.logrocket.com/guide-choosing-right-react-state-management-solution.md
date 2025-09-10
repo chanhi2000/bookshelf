@@ -169,7 +169,7 @@ This looks great! But imagine the following scenario: what if we need to only di
 
 ## Routing in React
 
-Given that we are building a single page application, there is now a second piece of state we need to handle — the route we are on. Let’s see how this can be done with [<FontIcon icon="fas fa-globe"/>React Router](https://reactrouter.com), for example.
+Given that we are building a single page application, there is now a second piece of state we need to handle — the route we are on. Let’s see how this can be done with [<VPIcon icon="fas fa-globe"/>React Router](https://reactrouter.com), for example.
 
 ```jsx :collapsed-lines title="App.jsx"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -328,9 +328,9 @@ It would be very helpful to know the exact state that our app was in when it cra
 
 ## Using Redux for state management
 
-We can do all of the above and much more by using [<FontIcon icon="fas fa-globe"/>Redux](https://redux.js.org/) to manage the state of our app. The tool has a strong community behind it and a [<FontIcon icon="fas fa-globe"/>rich ecosystem](https://redux.js.org/introduction/ecosystem) that can be leveraged with ease.
+We can do all of the above and much more by using [<VPIcon icon="fas fa-globe"/>Redux](https://redux.js.org/) to manage the state of our app. The tool has a strong community behind it and a [<VPIcon icon="fas fa-globe"/>rich ecosystem](https://redux.js.org/introduction/ecosystem) that can be leveraged with ease.
 
-Let’s set up our counter with [<FontIcon icon="fas fa-globe"/>Redux Toolkit](https://redux-toolkit.js.org/).
+Let’s set up our counter with [<VPIcon icon="fas fa-globe"/>Redux Toolkit](https://redux-toolkit.js.org/).
 
 ```jsx :collapsed-lines title=""
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -407,7 +407,7 @@ const App = () => {
 export default App;
 ```
 
-This looks really neat! Our state is now stored in the global Redux store and managed with pure functions (Redux Toolkit uses [<FontIcon icon="iconfont icon-github"/>`immerjs/immer`](https://github.com/immerjs/immer) under the hood to guarantee immutability). We can already take advantage of the awesome [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en).
+This looks really neat! Our state is now stored in the global Redux store and managed with pure functions (Redux Toolkit uses [<VPIcon icon="iconfont icon-github"/>`immerjs/immer`](https://github.com/immerjs/immer) under the hood to guarantee immutability). We can already take advantage of the awesome [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en).
 
 <SiteInfo
   name="Redux DevTools"
@@ -418,7 +418,7 @@ This looks really neat! Our state is now stored in the global Redux store and ma
 
 But what about things like handling side-effects, or making the state persistent, or implementing logging and/or crash reporting? This is where the Redux ecosystem we mentioned earlier comes into play.
 
-There are multiple options to handle side-effects, including [<FontIcon icon="iconfont icon-github"/>`reduxjs/redux-thunk`](https://github.com/reduxjs/redux-thunk) and [<FontIcon icon="iconfont icon-github"/>`redux-saga/redux-saga`](https://github.com/redux-saga/redux-saga). Libraries like [<FontIcon icon="iconfont icon-github"/>`rt2zz/redux-persist`](https://github.com/rt2zz/redux-persist) are great for saving the data from the redux store in local or session storage to make it persistent.
+There are multiple options to handle side-effects, including [<VPIcon icon="iconfont icon-github"/>`reduxjs/redux-thunk`](https://github.com/reduxjs/redux-thunk) and [<VPIcon icon="iconfont icon-github"/>`redux-saga/redux-saga`](https://github.com/redux-saga/redux-saga). Libraries like [<VPIcon icon="iconfont icon-github"/>`rt2zz/redux-persist`](https://github.com/rt2zz/redux-persist) are great for saving the data from the redux store in local or session storage to make it persistent.
 
 In short, Redux is great! It’s used widely in the React world and for a good reason.
 
@@ -430,7 +430,7 @@ Or, maybe we need a good way to derive data from our state and compute if effici
 
 ## Atomic state with Recoil
 
-It’s a bit of a stretch to suggest that we are able to hit the limits of React Context or Redux with a simple counter app. For a better atomic state management use case, check out [<FontIcon icon="fa-brands fa-youtue"/>Dave McCabe’s awesome video](https://youtu.be/ISAA_Jt9kI&t=39s) on [<FontIcon icon="fas fa-globe"/>Recoil](https://recoiljs.org/).
+It’s a bit of a stretch to suggest that we are able to hit the limits of React Context or Redux with a simple counter app. For a better atomic state management use case, check out [<VPIcon icon="fa-brands fa-youtue"/>Dave McCabe’s awesome video](https://youtu.be/ISAA_Jt9kI&t=39s) on [<VPIcon icon="fas fa-globe"/>Recoil](https://recoiljs.org/).
 
 Nevertheless, thinking of state in terms of atoms does help expand our vocabulary of what state management could look like. Also, the Recoil API is fun to play with, so let’s reimplement our counter with it.
 
@@ -498,7 +498,7 @@ const App = () => {
 export default App;
 ```
 
-Using Recoil feels very much like using React itself. A peek back at our initial examples reveals how similar the two are. Recoil also has its very own set of [<FontIcon icon="fas fa-globe"/>dev tools](https://recoiljs.org/docs/guides/dev-tools/). An important consideration to keep in mind is that this library is still experimental and subject to change. Use it with caution.
+Using Recoil feels very much like using React itself. A peek back at our initial examples reveals how similar the two are. Recoil also has its very own set of [<VPIcon icon="fas fa-globe"/>dev tools](https://recoiljs.org/docs/guides/dev-tools/). An important consideration to keep in mind is that this library is still experimental and subject to change. Use it with caution.
 
 Okay, we can have a Recoil counter. But state management preferences depend on our priorities. What if the app is built by a team and it is really important that the developer, the designer, the project manager, and everyone else speak the same language when it comes to user interfaces?
 
@@ -586,7 +586,7 @@ const App = () => {
 export default App;
 ```
 
-Wow, this is really great! However, we are only [**barely scratching the surface of state machines here**](/blog.logrocket.com/using-state-machines-with-xstate-and-react.md). To find out more about them, check out the docs for [<FontIcon icon="fas fa-globe"/>XState](https://xstate.js.org/docs/).
+Wow, this is really great! However, we are only [**barely scratching the surface of state machines here**](/blog.logrocket.com/using-state-machines-with-xstate-and-react.md). To find out more about them, check out the docs for [<VPIcon icon="fas fa-globe"/>XState](https://xstate.js.org/docs/).
 
 Alright, last scenario! What happens if our simple frontend counter app has a backend? What if we need to communicate with a server in order to get or modify the count? What if, in addition, we want to handle data-fetching-related challenges like asynchronicity, loading states, caching, and re-fetching?
 
@@ -711,7 +711,7 @@ export default App
 
 ## Using Zustand for state management
 
-[**Zustand is a state management library that is both powerful and compact**](/blog.logrocket.com/managing-react-state-zustand.md). Its API is built around hooks, making it simple to comprehend and use. Zustand addresses common issues such as the [<FontIcon icon="fas fa-globe"/>zombie child problem](https://react-redux.js.org/api/hooks#stale-props-and-zombie-children), [React concurrency (<FontIcon icon="iconfont icon-github"/>`bvaughn/rfcs`)](https://github.com/bvaughn/rfcs/blob/useMutableSource/text/0000-use-mutable-source.md), and [context loss (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/issues/13332) between mixed renderers.
+[**Zustand is a state management library that is both powerful and compact**](/blog.logrocket.com/managing-react-state-zustand.md). Its API is built around hooks, making it simple to comprehend and use. Zustand addresses common issues such as the [<VPIcon icon="fas fa-globe"/>zombie child problem](https://react-redux.js.org/api/hooks#stale-props-and-zombie-children), [React concurrency (<VPIcon icon="iconfont icon-github"/>`bvaughn/rfcs`)](https://github.com/bvaughn/rfcs/blob/useMutableSource/text/0000-use-mutable-source.md), and [context loss (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/issues/13332) between mixed renderers.
 
 Let’s set up our counter app using Zustand:
 
@@ -770,7 +770,7 @@ Both Zustand and Redux are based on an immutable state model, thus, if you under
 
 ## Data fetching with React Query
 
-The final React state management tool I want to highlight is [<FontIcon icon="fas fa-globe"/>React Query](https://react-query.tanstack.com/). It is specifically designed to make data fetching easy and to solve the problems outlined above (and more). Let’s see it in action.
+The final React state management tool I want to highlight is [<VPIcon icon="fas fa-globe"/>React Query](https://react-query.tanstack.com/). It is specifically designed to make data fetching easy and to solve the problems outlined above (and more). Let’s see it in action.
 
 ```jsx :collapsed-lines title="App.jsx"import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { ReactQueryDevtools } from "react-query/devtools";

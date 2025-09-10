@@ -52,7 +52,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/benchmark-reflect
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kt-academy-articles/promotion/benchmark-reflection.jpg"/>
 
-Being a youngster programmer, I was always told that reflection is slow and should be avoided, but I just couldn't observe this slowness in any real measures. That is why I decided to make some benchmarks to see how reflection really performs, and as it turns out, it is only slow when we compare it to regular calls, that are extremely fast. If we compare it to other popular operations, like logging or synchronization, it is not that slow. Let me show you some benchmarks (complete code is available [here (<FontIcon icon="iconfont icon-github"/>`MarcinMoskala/coroutines-benchmarks`)](https://github.com/MarcinMoskala/coroutines-benchmarks/blob/master/src/jmh/java/me/champeau/jmh/ReflectionBenchmark.kt))
+Being a youngster programmer, I was always told that reflection is slow and should be avoided, but I just couldn't observe this slowness in any real measures. That is why I decided to make some benchmarks to see how reflection really performs, and as it turns out, it is only slow when we compare it to regular calls, that are extremely fast. If we compare it to other popular operations, like logging or synchronization, it is not that slow. Let me show you some benchmarks (complete code is available [here (<VPIcon icon="iconfont icon-github"/>`MarcinMoskala/coroutines-benchmarks`)](https://github.com/MarcinMoskala/coroutines-benchmarks/blob/master/src/jmh/java/me/champeau/jmh/ReflectionBenchmark.kt))
 
 <SiteInfo
   name="MarcinMoskala/coroutines-benchmarks"

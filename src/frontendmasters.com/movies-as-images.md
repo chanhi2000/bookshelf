@@ -50,9 +50,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5281"/>
 
-Animated GIFs just suck for web performance, so don’t put them on websites. To [<FontIcon icon="fas fa-globe"/>quote Colin Bendell](https://calendar.perfplanet.com/2017/animated-gif-without-the-gif/):
+Animated GIFs just suck for web performance, so don’t put them on websites. To [<VPIcon icon="fas fa-globe"/>quote Colin Bendell](https://calendar.perfplanet.com/2017/animated-gif-without-the-gif/):
 
-::: info Colin Bendell (<FontIcon icon="fas fa-globe"/><code>calendar.perfplanet.com</code>)
+::: info Colin Bendell (<VPIcon icon="fas fa-globe"/><code>calendar.perfplanet.com</code>)
 
 <SiteInfo
   name="Evolution of <img>: Gif without the GIF"

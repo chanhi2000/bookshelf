@@ -50,7 +50,7 @@ cover: https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sor
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sort-vs-Bubble-Sort_Watermarked.5c97ff618265.jpg"/>
 
-The **Timsort** algorithm is considered a **hybrid** sorting algorithm because it employs a best-of-both-worlds combination of insertion sort and merge sort. Timsort is near and dear to the Python community because it was created by Tim Peters in 2002 to be used as the [<FontIcon icon="fa-brands fa-wikipedia-w"/>standard sorting algorithm of the Python language](https://en.wikipedia.org/wiki/Timsort).
+The **Timsort** algorithm is considered a **hybrid** sorting algorithm because it employs a best-of-both-worlds combination of insertion sort and merge sort. Timsort is near and dear to the Python community because it was created by Tim Peters in 2002 to be used as the [<VPIcon icon="fa-brands fa-wikipedia-w"/>standard sorting algorithm of the Python language](https://en.wikipedia.org/wiki/Timsort).
 
 The main characteristic of Timsort is that it takes advantage of already-sorted elements that exist in most real-world datasets. These are called **natural runs**. The algorithm then iterates over the list, collecting the elements into runs and merging them into a single sorted list.
 
@@ -58,7 +58,7 @@ The main characteristic of Timsort is that it takes advantage of already-sorted 
 
 ## Implementing Timsort in Python
 
-In this section, you’ll create a barebones Python implementation that illustrates all the pieces of the Timsort algorithm. If you’re interested, you can also check out the [original C implementation of Timsort (<FontIcon icon="iconfont icon-github"/>`python/cpython`)](https://github.com/python/cpython/blob/master/Objects/listobject.c).
+In this section, you’ll create a barebones Python implementation that illustrates all the pieces of the Timsort algorithm. If you’re interested, you can also check out the [original C implementation of Timsort (<VPIcon icon="iconfont icon-github"/>`python/cpython`)](https://github.com/python/cpython/blob/master/Objects/listobject.c).
 
 The first step in implementing Timsort is modifying the implementation of `insertion_sort()` from before:
 
@@ -163,7 +163,7 @@ Combining both conditions above offers several options for `min_run`. The implem
 
 In practice, Timsort does something a little more complicated to compute `min_run`. It picks a value between 32 and 64 inclusive, such that the length of the list divided by `min_run` is exactly a power of 2. If that’s not possible, it chooses a value that’s close to, but strictly less than, a power of 2.
 
-If you’re curious, you can read the [<FontIcon icon="fas fa-globe"/>complete analysis on how to pick `min_run`](https://hg.python.org/cpython/file/tip/Objects/listsort.txt) under the *Computing minrun* section.
+If you’re curious, you can read the [<VPIcon icon="fas fa-globe"/>complete analysis on how to pick `min_run`](https://hg.python.org/cpython/file/tip/Objects/listsort.txt) under the *Computing minrun* section.
 
 :::
 

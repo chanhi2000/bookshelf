@@ -54,31 +54,31 @@ cover: https://docker.com/app/uploads/2022/12/docker-unikernels-open-source-2.pn
 
 We’ve been working hard to build native Docker for Mac and Windows apps to ensure that your Docker experience is as seamless as possible on the most popular developer operating systems. Docker for Mac and Windows include everything required to spin up a Linux Docker container that efficiently bridges storage and networking from the host into the Docker containers. They work transparently on both MacOS X and Windows, and requireno other third party software.
 
-Docker has always beenbuilt on open-source foundations: Solomon Hykes is presenting a keynote today at OSCON 2016about [<FontIcon icon="fas fa-globe"/>the incremental revolution](http://conferences.oreilly.com/oscon/open-source-us/public/schedule/detail/51393)that the firehose of collaborativeopen source development has enabled throughout Docker’s history. Today, we are adding to our existing open source contributionsby open sourcing the core technology that powers the Docker for Mac and Windows desktop applications!
+Docker has always beenbuilt on open-source foundations: Solomon Hykes is presenting a keynote today at OSCON 2016about [<VPIcon icon="fas fa-globe"/>the incremental revolution](http://conferences.oreilly.com/oscon/open-source-us/public/schedule/detail/51393)that the firehose of collaborativeopen source development has enabled throughout Docker’s history. Today, we are adding to our existing open source contributionsby open sourcing the core technology that powers the Docker for Mac and Windows desktop applications!
 
 Building Docker for Mac and Windowshas required integrating hardware virtualization, embedded operating systems and unikernel technology, all without exposing this magicto the end user. Let’s take a look under the hood of our applications to understand what some of this source code does, and give you a better of idea of how to contribute to it or use it in your own projects.
 
-When you run Docker for Mac, it spins up a lightweight hypervisor that exists solely to run a single, embedded Linux instance that includes the latest stable release of Docker Engine. Unlike most hypervisors, this requires no special admin privileges since it uses the included [<FontIcon icon="fa-brands fa-apple"/>Hypervisor Framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/)(available since OSX 10.10). The Docker applicationalso bundles libraries that supply the Docker VM with host networking and storage capabilities that map intelligently between Linux and OSX/Windows semantics.
+When you run Docker for Mac, it spins up a lightweight hypervisor that exists solely to run a single, embedded Linux instance that includes the latest stable release of Docker Engine. Unlike most hypervisors, this requires no special admin privileges since it uses the included [<VPIcon icon="fa-brands fa-apple"/>Hypervisor Framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/)(available since OSX 10.10). The Docker applicationalso bundles libraries that supply the Docker VM with host networking and storage capabilities that map intelligently between Linux and OSX/Windows semantics.
 
-[![docker unikernels open source 2 (<FontIcon icon="iconfont icon-github"/>`docker`)](https://docker.com/app/uploads/2022/12/docker-unikernels-open-source-2.png)](https://github.com/docker/)
+[![docker unikernels open source 2 (<VPIcon icon="iconfont icon-github"/>`docker`)](https://docker.com/app/uploads/2022/12/docker-unikernels-open-source-2.png)](https://github.com/docker/)
 
 Today, we are excited to announce the open-sourcing of these discrete components, the same source code we use in the release builds of Docker for Mac and Windows. The new components are:
 
-- [HyperKit ™ (<FontIcon icon="iconfont icon-github"/>`docker/hyperkit`)](https://github.com/docker/hyperkit): A lightweight virtualization toolkit on OSX
-- [DataKit ™ (<FontIcon icon="iconfont icon-github"/>`docker/datakit`)](https://github.com/docker/datakit): A modern pipeline framework for distributed components
-- [VPNKit ™ (<FontIcon icon="iconfont icon-github"/>`docker/vpnkit`)](https://github.com/docker/vpnkit): A library toolkit for embedding virtual networking
+- [HyperKit ™ (<VPIcon icon="iconfont icon-github"/>`docker/hyperkit`)](https://github.com/docker/hyperkit): A lightweight virtualization toolkit on OSX
+- [DataKit ™ (<VPIcon icon="iconfont icon-github"/>`docker/datakit`)](https://github.com/docker/datakit): A modern pipeline framework for distributed components
+- [VPNKit ™ (<VPIcon icon="iconfont icon-github"/>`docker/vpnkit`)](https://github.com/docker/vpnkit): A library toolkit for embedding virtual networking
 
-Each of these kits can be used independently or together to form a complete product such as Docker for Mac or Windows. This is just the beginning: we will open morecomponentsin the future as they mature (e.g. the filesystem framework). They all have a set of curated Pioneer Projects for beginners to take on:[HyperKit ™ (<FontIcon icon="iconfont icon-github"/>`docker/hyperkit`)](https://github.com/docker/hyperkit/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), [DataKit ™ (<FontIcon icon="iconfont icon-github"/>`docker/datakit`)](https://github.com/docker/datakit/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), and [VPNKit ™ (<FontIcon icon="iconfont icon-github"/>`docker/vpnkit`)](https://github.com/docker/vpnkit/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
+Each of these kits can be used independently or together to form a complete product such as Docker for Mac or Windows. This is just the beginning: we will open morecomponentsin the future as they mature (e.g. the filesystem framework). They all have a set of curated Pioneer Projects for beginners to take on:[HyperKit ™ (<VPIcon icon="iconfont icon-github"/>`docker/hyperkit`)](https://github.com/docker/hyperkit/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), [DataKit ™ (<VPIcon icon="iconfont icon-github"/>`docker/datakit`)](https://github.com/docker/datakit/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), and [VPNKit ™ (<VPIcon icon="iconfont icon-github"/>`docker/vpnkit`)](https://github.com/docker/vpnkit/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 
-[![docker unikernels open source 1 (<FontIcon icon="iconfont icon-github"/>`docker`)](https://docker.com/app/uploads/2022/12/docker-unikernels-open-source-1.png)](https://github.com/docker/)
+[![docker unikernels open source 1 (<VPIcon icon="iconfont icon-github"/>`docker`)](https://docker.com/app/uploads/2022/12/docker-unikernels-open-source-1.png)](https://github.com/docker/)
 
 ---
 
 ## HyperKit
 
-HyperKit is based around a lightweight approach to virtualization that is possible due to the [<FontIcon icon="fa-brands fa-apple"/>Hypervisor framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/)beingsupplied withMacOS X 10.10 onwards. HyperKit applications can take advantage of hardware virtualization to run VMs, butwithout requiring elevated privileges or complex management toolstacks.
+HyperKit is based around a lightweight approach to virtualization that is possible due to the [<VPIcon icon="fa-brands fa-apple"/>Hypervisor framework](https://developer.apple.com/library/mac/documentation/DriversKernelHardware/Reference/Hypervisor/)beingsupplied withMacOS X 10.10 onwards. HyperKit applications can take advantage of hardware virtualization to run VMs, butwithout requiring elevated privileges or complex management toolstacks.
 
-HyperKit is built on the [<FontIcon icon="iconfont icon-github"/>`mist64/xhyve`](https://github.com/mist64/xhyve)and [<FontIcon icon="fas fa-globe"/>bHyve](http://bhyve.org/)projects, with additional functionalityto make it easier to interface with other components such as the VPNKit or DataKit. Since HyperKit is broadly structured as a library, linking it against unikernel libraries is straightforward. For example, we added persistent block device support that uses the [MirageOS QCow (<FontIcon icon="iconfont icon-github"/>`docker/hyperkit`)](https://github.com/docker/hyperkit/blob/master/src/mirage_block_ocaml.ml)libraries written in OCaml.
+HyperKit is built on the [<VPIcon icon="iconfont icon-github"/>`mist64/xhyve`](https://github.com/mist64/xhyve)and [<VPIcon icon="fas fa-globe"/>bHyve](http://bhyve.org/)projects, with additional functionalityto make it easier to interface with other components such as the VPNKit or DataKit. Since HyperKit is broadly structured as a library, linking it against unikernel libraries is straightforward. For example, we added persistent block device support that uses the [MirageOS QCow (<VPIcon icon="iconfont icon-github"/>`docker/hyperkit`)](https://github.com/docker/hyperkit/blob/master/src/mirage_block_ocaml.ml)libraries written in OCaml.
 
 ::: tip How can you contribute?
 
@@ -94,7 +94,7 @@ We will ensure that any contributions are structured such that they can be submi
 
 ::: info How else can you use it?
 
-Any applications that need to spin up specialised or short-lived virtual machines can benefit from linking against HyperKit. These could be conventional operating systems such as Linux, or some of the [<FontIcon icon="fas fa-globe"/>unikernel projects](http://unikernel.org/projects/)once theyhave been portedto HyperKit.
+Any applications that need to spin up specialised or short-lived virtual machines can benefit from linking against HyperKit. These could be conventional operating systems such as Linux, or some of the [<VPIcon icon="fas fa-globe"/>unikernel projects](http://unikernel.org/projects/)once theyhave been portedto HyperKit.
 
 :::
 
@@ -131,7 +131,7 @@ GitHub PR support in DataKit is still quite basic, this is an area that could us
 
 ## VPNKit
 
-The VPNKit is a networking library that translates between raw Ethernet network traffic and their equivalent socket calls in MacOS X or Windows. It is based on the [<FontIcon icon="fas fa-globe"/>MirageOS](https://mirage.io)TCP/IP unikernel stack, and is a library written in OCaml. VPNKit is useful when you need fine-grained control over networking protocols in user-space, with the additional convenience of being extensible in a high-level language.
+The VPNKit is a networking library that translates between raw Ethernet network traffic and their equivalent socket calls in MacOS X or Windows. It is based on the [<VPIcon icon="fas fa-globe"/>MirageOS](https://mirage.io)TCP/IP unikernel stack, and is a library written in OCaml. VPNKit is useful when you need fine-grained control over networking protocols in user-space, with the additional convenience of being extensible in a high-level language.
 
 ::: tip How can you contribute?
 
@@ -151,9 +151,9 @@ If VPNKit had support for more endpoint types, it could also be used to test net
 
 While the VPNKit and DataKit started life as quite specialised components in Docker for Mac and Windows, we are excited by the possibilities enabled by open sourcing them. The ideas here are by no means exhaustive, and we are looking forward to hearing about your own projects. Please file issues in their respective bug trackers as you come across them, or if you wish to discussa particular idea.
 
-And if you are at OSCON please come meet and collaborate with the maintainers of these projects in our [<FontIcon icon="fas fa-globe"/>OSCON Contribute session](http://conferences.oreilly.com/oscon/open-source-us/public/schedule/detail/51586)on Thursday 3 to 6 PM in Meeting Room 6. You can find more details about the internals of Docker for Mac and Windows in the [<FontIcon icon="fas fa-globe"/>slides for the talk I gave yesterday at OSCON](http://slideshare.net/AnilMadhavapeddy/advanced-docker-developer-workflows-on-macos-x-and-windows).
+And if you are at OSCON please come meet and collaborate with the maintainers of these projects in our [<VPIcon icon="fas fa-globe"/>OSCON Contribute session](http://conferences.oreilly.com/oscon/open-source-us/public/schedule/detail/51586)on Thursday 3 to 6 PM in Meeting Room 6. You can find more details about the internals of Docker for Mac and Windows in the [<VPIcon icon="fas fa-globe"/>slides for the talk I gave yesterday at OSCON](http://slideshare.net/AnilMadhavapeddy/advanced-docker-developer-workflows-on-macos-x-and-windows).
 
-If you haven’t already, please signup for the [<FontIcon icon="fa-brands fa-docker"/>Docker for Mac and Windows beta](https://beta.docker.com)and send us feedback to make it better as we head towards general availability. Finally, we would once again like to thank all of the open source efforts that made this release possible. The Docker for Mac and Windows acknowledgements list the hundreds of contributions that we use directly in our product, and we hope that you will also be able to check out and benefit from today’s releases in your own creations.
+If you haven’t already, please signup for the [<VPIcon icon="fa-brands fa-docker"/>Docker for Mac and Windows beta](https://beta.docker.com)and send us feedback to make it better as we head towards general availability. Finally, we would once again like to thank all of the open source efforts that made this release possible. The Docker for Mac and Windows acknowledgements list the hundreds of contributions that we use directly in our product, and we hope that you will also be able to check out and benefit from today’s releases in your own creations.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

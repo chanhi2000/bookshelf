@@ -82,7 +82,7 @@ If you don’t own an Android Wear device, don’t worry! You can still follow t
 
 :::
 
-The first thing you’ll want to do is enable developer options on your watch. To do this, navigate to <FontIcon icon="iconfont icon-select"/>`Settings -> System -> About` on your watch or emulator and scroll down until you see the build number.
+The first thing you’ll want to do is enable developer options on your watch. To do this, navigate to <VPIcon icon="iconfont icon-select"/>`Settings -> System -> About` on your watch or emulator and scroll down until you see the build number.
 
 ![Android Wear settings](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-01-at-12.25.57-PM-1-250x250.png)
 
@@ -96,7 +96,7 @@ Wait What?
 
 Yep. Just like on a normal Android Phone, you unlock developer options by tapping the build number 7 times.
 
-Next, go back to the settings screen and tap the <FontIcon icon="iconfont icon-select"/>`[Developer options]` menu item. Make sure <FontIcon icon="iconfont icon-select"/>`[ADB debugging]` is turned on. If you see an option for usb-debugging, turn that on as well. Otherwise, turn on <FontIcon icon="iconfont icon-select"/>`[Debug over Bluetooth]`.
+Next, go back to the settings screen and tap the <VPIcon icon="iconfont icon-select"/>`[Developer options]` menu item. Make sure <VPIcon icon="iconfont icon-select"/>`[ADB debugging]` is turned on. If you see an option for usb-debugging, turn that on as well. Otherwise, turn on <VPIcon icon="iconfont icon-select"/>`[Debug over Bluetooth]`.
 
 ![ADB Debugging](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-01-at-12.42.50-PM-322x320.png)
 
@@ -108,7 +108,7 @@ To debug over bluetooth, you’ll need an Android Wear watch paired with an Andr
 
 ![Android Wear App Settings](https://koenig-media.raywenderlich.com/uploads/2017/11/device-2017-11-01-130252-480x189.png)
 
-Scroll down to the <FontIcon icon="iconfont icon-select"/>`[Debugging over Bluetooth]` section and make sure the <FontIcon icon="iconfont icon-select"/>`[Device to Debug]` is set to your paired watch. Next, enable the <FontIcon icon="iconfont icon-select"/>`[Debugging over Bluetooth toggle]`. At this point, there should be a subtitle under the toggle that says<FontIcon icon="iconfont icon-select"/>` [Host: Disconnected]` and <FontIcon icon="iconfont icon-select"/>`[Target: Disconnected]`.
+Scroll down to the <VPIcon icon="iconfont icon-select"/>`[Debugging over Bluetooth]` section and make sure the <VPIcon icon="iconfont icon-select"/>`[Device to Debug]` is set to your paired watch. Next, enable the <VPIcon icon="iconfont icon-select"/>`[Debugging over Bluetooth toggle]`. At this point, there should be a subtitle under the toggle that says<VPIcon icon="iconfont icon-select"/>` [Host: Disconnected]` and <VPIcon icon="iconfont icon-select"/>`[Target: Disconnected]`.
 
 ![Android Wear companion app settings](https://koenig-media.raywenderlich.com/uploads/2017/11/device-2017-11-01-130642-480x256.png)
 
@@ -132,7 +132,7 @@ This process can be a bit thorny - if you run into any problems, you can [check 
 
 ## Getting Started
 
-Start by downloading the `WEARsmyrecipe` starter project [<FontIcon icon="iconfont icon-select"/>here][download-material].
+Start by downloading the `WEARsmyrecipe` starter project [<VPIcon icon="iconfont icon-select"/>here][download-material].
 
 ![Unzip then import the project in Android Studio 3.0.1 or later.](https://koenig-media.raywenderlich.com/uploads/2017/11/Capture-d%E2%80%99e%CC%81cran-2017-11-24-a%CC%80-14.16.06-267x320.png)
 
@@ -157,7 +157,7 @@ Run the mobile app. You may need to make sure the `mobile` configuration is set 
 
 Nothing too crazy going on here - just a simple list of Recipes. (You can tell by the list that I’m an expert chef! Just kidding, I recently burned a can of soup. Turns out you need to take the soup out of the can. Who knew!)
 
-Next you’ll run the Wear app. To point Android Studio towards the Wear module, you need to change the <FontIcon icon="iconfont icon-select"/>`[run configuration]` from mobile to Wear. Click the <FontIcon icon="iconfont icon-select"/>`[run configuration]` dropdown next to the run button. It should say “mobile” right now. Click the Wear option to change to the Wear configuration:
+Next you’ll run the Wear app. To point Android Studio towards the Wear module, you need to change the <VPIcon icon="iconfont icon-select"/>`[run configuration]` from mobile to Wear. Click the <VPIcon icon="iconfont icon-select"/>`[run configuration]` dropdown next to the run button. It should say “mobile” right now. Click the Wear option to change to the Wear configuration:
 
 ![Configurations](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-01-at-5.10.41-PM.png)
 
@@ -197,7 +197,7 @@ Luckily, there’s a handy dandy support widget you can use to work around the c
 
 The `BoxInsetLayout` is a top-level widget that can box its children into a square that will fit inside a round screen. If your code is running on a square screen it will have no affect. You can define which sides to box in by using the `app:boxedEdges` attribute on a direct child of the `BoxInsetLayout`. The possible values are `left`, `right`, `top`, `bottom`, and `all`. You can combine different values too - so `app:boxedEdges:"left|top|bottom"` is totally legal.
 
-Now that you’ve got the idea down, open the <FontIcon icon="fas fa-folder-open"/>`wear/res/layout/`<FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file and replace its contents with the following:
+Now that you’ve got the idea down, open the <VPIcon icon="fas fa-folder-open"/>`wear/res/layout/`<VPIcon icon="iconfont icon-code"/>`activity_meal.xml` file and replace its contents with the following:
 
 ```xml
 <android.support.wear.widget.BoxInsetLayout
@@ -246,7 +246,7 @@ Since you specified `app:boxedEdges="all"`, the box is bounded on all four sides
 
 ### Fleshing out the Recipe Layout
 
-Replace the contents of the <FontIcon icon="fas fa-file-lines"/>`wear/res/layout/`<FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file you just edited with the following:
+Replace the contents of the <VPIcon icon="fas fa-file-lines"/>`wear/res/layout/`<VPIcon icon="iconfont icon-code"/>`activity_meal.xml` file you just edited with the following:
 
 ```xml
 <android.support.wear.widget.BoxInsetLayout
@@ -297,9 +297,9 @@ Nothing too crazy going on here - you added 3 new `TextView` that will contain t
 
 When you create a wearable app you’ll want to share code between the phone and watch apps. The app you’re creating has a `Meal` model that should be shared across both apps. You can accomplish this by using a **shared module**.
 
-![In the toolbar, click <FontIcon icon="iconfont icon-select"/>`[File]` > `[New]` -> `[New Module]`](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-10.25.13-AM-480x180.png)
+![In the toolbar, click <VPIcon icon="iconfont icon-select"/>`[File]` > `[New]` -> `[New Module]`](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-10.25.13-AM-480x180.png)
 
-![Choose a <FontIcon icon="iconfont icon-select"/>`[Java Library]`.](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-10.30.10-AM-442x320.png)
+![Choose a <VPIcon icon="iconfont icon-select"/>`[Java Library]`.](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-10.30.10-AM-442x320.png)
 
 A Java library contains no Android references. If you wanted to include drawable files or other Android files, you would instead choose the Android library option.
 
@@ -309,9 +309,9 @@ Ideally you’d create a Kotlin library instead of a Java library. But this is A
 
 :::
 
-![Name the module `shared` and name the class `Meal`. You can leave the <FontIcon icon="iconfont icon-select"/>`[Create .gitignore file]` option checked.](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-27-17-480x289.png) 
+![Name the module `shared` and name the class `Meal`. You can leave the <VPIcon icon="iconfont icon-select"/>`[Create .gitignore file]` option checked.](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-27-17-480x289.png) 
 
-Click <FontIcon icon="iconfont icon-select"/>`[Finish]`.
+Click <VPIcon icon="iconfont icon-select"/>`[Finish]`.
 
 Gradle will run a sync and if you’ve done the right Gradle dance it will succeed!
 
@@ -337,7 +337,7 @@ The code above adds Kotlin support to the new module.
 
 Now that you’ve got a helpful shared library, it’s time to actually share that library.
 
-![Open the <FontIcon icon="iconfont icon-engine"/>`build.gradle` file for your mobile app](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-33-16.png)
+![Open the <VPIcon icon="iconfont icon-engine"/>`build.gradle` file for your mobile app](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-33-16.png)
 
 in the `dependencies` block, add the following line: `compile project(':shared')`
 
@@ -366,7 +366,7 @@ The compile project method is the way to include a local module in your project.
 
 Now you need to do the same thing for the watch app.
 
-![Open the <FontIcon icon="iconfont icon-code"/>`build.gradle` file for your Wear app](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-11.32.27-AM-416x320.png)
+![Open the <VPIcon icon="iconfont icon-code"/>`build.gradle` file for your Wear app](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-11.32.27-AM-416x320.png)
 
 Just like before, in the `dependencies` block, add the compile `project(':shared')` line.
 
@@ -394,11 +394,11 @@ Your shared library contains one class - a `Meal` model written in Java. However
 
 ![so go ahead and delete the java `Meal` class in your shared library](https://koenig-media.raywenderlich.com/uploads/2017/12/Screenshot-from-2017-12-11-14-26-13.png)
 
-![Click <FontIcon icon="iconfont icon-select"/>`[OK]` on the delete dialog](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-11.40.41-AM-480x140.png)
+![Click <VPIcon icon="iconfont icon-select"/>`[OK]` on the delete dialog](https://koenig-media.raywenderlich.com/uploads/2017/11/Screen-Shot-2017-11-02-at-11.40.41-AM-480x140.png)
 
 ![Now drag the Kotlin `Meal` class from your mobile module to your `shared` module](https://koenig-media.raywenderlich.com/uploads/2017/11/move_class.gif)
 
-Click the <FontIcon icon="iconfont icon-select"/>`[Refactor]` button in the popup. Now the phone app is using the `Meal` class from the shared module.
+Click the <VPIcon icon="iconfont icon-select"/>`[Refactor]` button in the popup. Now the phone app is using the `Meal` class from the shared module.
 
 ---
 
@@ -420,7 +420,7 @@ The **Message** API, on the other hand, should be used for short messages that y
 
 You’re now going to use the **Message** API to send a recipe from your phone to your watch.
 
-First, open the <FontIcon icon="iconfont icon-java"/>`MealListActivity` file. Add the following code to your imports:
+First, open the <VPIcon icon="iconfont icon-java"/>`MealListActivity` file. Add the following code to your imports:
 
 ```kotlin
 import com.google.android.gms.common.api.GoogleApiClient
@@ -438,7 +438,7 @@ private var connectedNode: List<Node>? = null
 
 One is for your `GoogleApiClient` and the other is for your Nodes. There could be multiple connected watches (cooouuuullllldd be….) so that’s why it’s a List of **Nodes**.
 
-Next, make the <FontIcon icon="iconfont icon-java"/>`MealListActivity` implement the `GoogleApiClient.ConnectionCallbacks` interface.
+Next, make the <VPIcon icon="iconfont icon-java"/>`MealListActivity` implement the `GoogleApiClient.ConnectionCallbacks` interface.
 
 ```kotlin
 class MealListActivity : AppCompatActivity(),
@@ -503,7 +503,7 @@ But that’s all about to change.
 
 The code you’re going to add to your watch app is very similar to the code you just added to your phone app.
 
-To start, open the <FontIcon icon="iconfont icon-java"/>`MealActivity` class in your **Wear** module.
+To start, open the <VPIcon icon="iconfont icon-java"/>`MealActivity` class in your **Wear** module.
 
 Add the following import:
 
@@ -581,7 +581,7 @@ This app is already pretty hot, but its time to make it a bit spicier. Maybe thr
 
 You’re going to add a star button to your watch layout so you can favorite specific meals.
 
-Open up the <FontIcon icon="iconfont icon-code"/>`activity_meal.xml` file in your `wear` module.
+Open up the <VPIcon icon="iconfont icon-code"/>`activity_meal.xml` file in your `wear` module.
 
 Add the following widget as the last item in your `LinearLayout`:
 
@@ -599,7 +599,7 @@ Add the following widget as the last item in your `LinearLayout`:
 
 You just added a simple `ImageView` with a black border star. This will be your “like” button. The height is set to `0dp` and the `layout_weight` is set to `1` so the star fills the rest of the screen.
 
-In your <FontIcon icon="iconfont icon-java"/>`MealActivity` class, adding the following method:
+In your <VPIcon icon="iconfont icon-java"/>`MealActivity` class, adding the following method:
 
 ```kotlin
 private fun sendLike() {
@@ -614,7 +614,7 @@ Here’s the breakdown of the new method: First it creates a copy of your meal w
 
 You may also notice the `setUrgent` call. You can toggle that option to gently encourage the system to deliver the `PutDataRequest` as fast as possible.
 
-Next, add the following code in your <FontIcon icon="iconfont icon-java"/>`MealActivity` `onCreate` method:
+Next, add the following code in your <VPIcon icon="iconfont icon-java"/>`MealActivity` `onCreate` method:
 
 ```kotlin
 star.setOnClickListener {
@@ -628,7 +628,7 @@ Now your **Wear** app is sending **Data API** items to your `mobile` app.
 
 Next up is adding code to your `mobile` app to listen for **Data API** items.
 
-Open your <FontIcon icon="iconfont icon-java"/>`MealListActivity` class. In the `onConnected` method, add the following code after the `connectedNode = it.nodes` line:
+Open your <VPIcon icon="iconfont icon-java"/>`MealListActivity` class. In the `onConnected` method, add the following code after the `connectedNode = it.nodes` line:
 
 ```kotlin
 Wearable.DataApi.addListener(client) { data ->
@@ -653,15 +653,15 @@ After running that test, try sending a new recipe to the watch and putting your 
 
 ## Adding a Confirmation View
 
-One nice thing about developing for Wear is that it comes with a few juicy animations built in. You’re going to take advantage of that by adding a <FontIcon icon="iconfont icon-java"/>`ConfirmationActivity` to your Wear app.
+One nice thing about developing for Wear is that it comes with a few juicy animations built in. You’re going to take advantage of that by adding a <VPIcon icon="iconfont icon-java"/>`ConfirmationActivity` to your Wear app.
 
-First, add the following import to the top of <FontIcon icon="iconfont icon-java"/>`MealActivity` in the `wear` module:
+First, add the following import to the top of <VPIcon icon="iconfont icon-java"/>`MealActivity` in the `wear` module:
 
 ```kotlin
 import android.support.wearable.activity.ConfirmationActivity
 ```
 
-Then, add a new method in your <FontIcon icon="iconfont icon-java"/>`MealActivity` class:
+Then, add a new method in your <VPIcon icon="iconfont icon-java"/>`MealActivity` class:
 
 ```kotlin
 private fun showConfirmationScreen() {
@@ -678,9 +678,9 @@ private fun showConfirmationScreen() {
 }
 ```
 
-.<FontIcon icon="iconfont icon-java"/>`ConfirmationActivity` is a built-in activity. Specifically, it’s a fullscreen activity that shows a checkmark and then disappears.
+.<VPIcon icon="iconfont icon-java"/>`ConfirmationActivity` is a built-in activity. Specifically, it’s a fullscreen activity that shows a checkmark and then disappears.
 
-The method above creates an `Intent` to launch the <FontIcon icon="iconfont icon-java"/>`ConfirmationActivity` with two extras.
+The method above creates an `Intent` to launch the <VPIcon icon="iconfont icon-java"/>`ConfirmationActivity` with two extras.
 
 - `EXTRA_ANIMATION_TYPE` dictates the animation type.
 - `EXTRA_MESSAGE` is used to show a small text message below the animation.
@@ -724,7 +724,7 @@ Your Wear app will also be installed whenever a user downloads your phone app fr
 
 ## Where To Go From Here?
 
-[<FontIcon icon="fas fa-file-zipper"/>Here][download-material-final] is the download for the final project.
+[<VPIcon icon="fas fa-file-zipper"/>Here][download-material-final] is the download for the final project.
 
 In this Android Wear tutorial, you learned:
 
@@ -732,7 +732,7 @@ In this Android Wear tutorial, you learned:
 - how to communicate between the mobile and the Wear device, using both the Message and Data API
 - and how to show some snazzy animations right out of the box!
 
-There is a lot more to learn and do with Android Wear! If you’re interested in learning more about Android Wear development, [<FontIcon icon="fa-brands fa-android"/>check out the official documentation](https://developer.android.com/wear/index.html).
+There is a lot more to learn and do with Android Wear! If you’re interested in learning more about Android Wear development, [<VPIcon icon="fa-brands fa-android"/>check out the official documentation](https://developer.android.com/wear/index.html).
 
 - You can build **standalone** apps with Wear-specific UI, new interactions and gestures.
 - Also, you can create new **Watch Faces**

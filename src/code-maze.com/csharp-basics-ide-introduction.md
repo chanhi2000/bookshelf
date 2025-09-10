@@ -108,7 +108,7 @@ For example, some common features include:
 - Templates for different kinds of projects
 - Much more
 
-Our IDE of choice will be Visual Studio 2017 Community Edition. To download it, visit [<FontIcon icon="iconfont icon-visualstudio"/>Visual Studio Download Page](https://visualstudio.microsoft.com/downloads/). Visual Studio has support for multiple programming languages, which makes it a very popular development tool.
+Our IDE of choice will be Visual Studio 2017 Community Edition. To download it, visit [<VPIcon icon="iconfont icon-visualstudio"/>Visual Studio Download Page](https://visualstudio.microsoft.com/downloads/). Visual Studio has support for multiple programming languages, which makes it a very popular development tool.
 
 After the installation, we can start a new project by clicking the File menu and choosing New => Project:
 

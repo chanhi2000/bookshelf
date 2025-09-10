@@ -50,9 +50,9 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-socia
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png"/>
 
-It’s February 1st today, which I’ve decided to declare **International box-sizing Awareness Day**. In honor of, you guessed it, the most humble and undersung, yet awesome and useful CSS property: [<FontIcon icon="iconfont icon-css-tricks"/>`box-sizing`](https://css-tricks.com/almanac/properties/b/box-sizing/).
+It’s February 1st today, which I’ve decided to declare **International box-sizing Awareness Day**. In honor of, you guessed it, the most humble and undersung, yet awesome and useful CSS property: [<VPIcon icon="iconfont icon-css-tricks"/>`box-sizing`](https://css-tricks.com/almanac/properties/b/box-sizing/).
 
-The date corresponds to [<FontIcon icon="fas fa-globe"/>Paul Irish’s post](http://paulirish.com/2012/box-sizing-border-box-ftw/) where he introduced the concept of using it on every single element on the page. We’ve talked about it [**around here**](/css-tricks.com/box-sizing.md) a [<FontIcon icon="iconfont icon-css-tricks"/>few times](https://css-tricks.com/almanac/properties/b/box-sizing/) as well.
+The date corresponds to [<VPIcon icon="fas fa-globe"/>Paul Irish’s post](http://paulirish.com/2012/box-sizing-border-box-ftw/) where he introduced the concept of using it on every single element on the page. We’ve talked about it [**around here**](/css-tricks.com/box-sizing.md) a [<VPIcon icon="iconfont icon-css-tricks"/>few times](https://css-tricks.com/almanac/properties/b/box-sizing/) as well.
 
 ![](//css-tricks.com/wp-content/uploads/2014/02/mega-protest-city-yah1.svg)
 
@@ -123,7 +123,7 @@ Columns is [**a particularly useful case**](/css-tricks.com/dont-overthink-it-gr
 
 ::: note
 
-Remember to read [<FontIcon icon="fas fa-globe"/>Paul’s original post](http://paulirish.com/2012/box-sizing-border-box-ftw/) which covers some more ground like performance (don’t worry about it), jQuery (don’t worry about it), and third-party content (easy to fix).
+Remember to read [<VPIcon icon="fas fa-globe"/>Paul’s original post](http://paulirish.com/2012/box-sizing-border-box-ftw/) which covers some more ground like performance (don’t worry about it), jQuery (don’t worry about it), and third-party content (easy to fix).
 
 :::
 

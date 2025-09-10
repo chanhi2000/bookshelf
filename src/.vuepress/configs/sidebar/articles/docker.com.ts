@@ -54,6 +54,8 @@ const Y2019: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2019
+    "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
+    "depend-on-docker-for-kubeflow", // 2019-11-07
     "developing-docker-windows-app-wsl2", // 2019-08-15
     "keep-nodejs-rockin-in-docker", // 2019-07-31
     "road-to-containing-iscsi", // 2019-07-16
@@ -302,8 +304,9 @@ export const template: SidebarInfoTemplate = {
       "road-to-containing-iscsi", // 2019-07-16
       "keep-nodejs-rockin-in-docker", // 2019-07-31
       "developing-docker-windows-app-wsl2", // 2019-08-15
-      // TODO: page/84
+      "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
       // END: 2019docker
+      // TODO: page/83
       // END: 2020docker
       // END: 2021docker
       // END: 2022docker
@@ -318,6 +321,7 @@ export const template: SidebarInfoTemplate = {
       "docker-windows-desktop-now-kubernetes", // 2018-01-31
       "introducing-play-kubernetes", // 2018-05-24
       // END: 2018k8s
+      "depend-on-docker-for-kubeflow", // 2019-11-07
       // END: 2019k8s
       // END: 2020k8s
       // END: 2021k8s
@@ -349,6 +353,7 @@ export const template: SidebarInfoTemplate = {
       "docker-windows-desktop-now-kubernetes", // 2018-01-31
       // END: 2018win
       "developing-docker-windows-app-wsl2", // 2019-08-15
+      "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
       // END: 2019win
       // END: 2020win
       // END: 2021win
@@ -381,7 +386,7 @@ export const template: SidebarInfoTemplate = {
       Y2017,
       Y2016,
       Y2015,
-      Y2014,
+      // Y2014,
       Y2013,
     ]]
   ])

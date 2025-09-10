@@ -56,9 +56,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6584"/>
 
-[Zustand (<FontIcon icon="iconfont icon-github"/>`pmndrs/zustand`)](https://github.com/pmndrs/zustand) is a minimal, but fun and effective state management library. It’s somewhat weird for me to write an introductory blog post on a tool that’s over 5 years old and pretty popular. But it’s popular for a reason, and there are almost certainly more developers who aren’t familiar with it than are. So if you’re in the former group, hopefully this post will be the concise and impactful introduction you didn’t know you needed.
+[Zustand (<VPIcon icon="iconfont icon-github"/>`pmndrs/zustand`)](https://github.com/pmndrs/zustand) is a minimal, but fun and effective state management library. It’s somewhat weird for me to write an introductory blog post on a tool that’s over 5 years old and pretty popular. But it’s popular for a reason, and there are almost certainly more developers who aren’t familiar with it than are. So if you’re in the former group, hopefully this post will be the concise and impactful introduction you didn’t know you needed.
 
-The code for everything in this post is on [my GitHub repo (<FontIcon icon="iconfont icon-github"/>`arackaf/zustand-sandbox`)](https://github.com/arackaf/zustand-sandbox).
+The code for everything in this post is on [my GitHub repo (<VPIcon icon="iconfont icon-github"/>`arackaf/zustand-sandbox`)](https://github.com/arackaf/zustand-sandbox).
 
 ---
 
@@ -312,7 +312,7 @@ For a trivial app like this, it probably won’t matter, but for a large app at 
 
 ## Odds & Ends
 
-The full [Zustand docs are here (<FontIcon icon="iconfont icon-github"/>`pmndrs/zustand`)](https://github.com/pmndrs/zustand). Zustand has a delightfully small surface area, so I’d urge you to just read the docs if you’re curious.
+The full [Zustand docs are here (<VPIcon icon="iconfont icon-github"/>`pmndrs/zustand`)](https://github.com/pmndrs/zustand). Zustand has a delightfully small surface area, so I’d urge you to just read the docs if you’re curious.
 
 That being said, there are a few features worth noting here.
 

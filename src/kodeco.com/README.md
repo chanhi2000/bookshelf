@@ -55,7 +55,7 @@ head:
 
 ---
 
-## <FontIcon icon="fa-brands fa-swift"/>Swift & <FontIcon icon="iconfont icon-ios"/>iOS
+## <VPIcon icon="fa-brands fa-swift"/>Swift & <VPIcon icon="iconfont icon-ios"/>iOS
 
 ::: tabs
 
@@ -2293,7 +2293,7 @@ head:
 
 ---
 
-## <FontIcon icon="fa-brands fa-android"/>Android & <FontIcon icon="iconfont icon-kotlin"/>Kotlin
+## <VPIcon icon="fa-brands fa-android"/>Android & <VPIcon icon="iconfont icon-kotlin"/>Kotlin
 
 ::: tabs
 

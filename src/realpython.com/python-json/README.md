@@ -77,7 +77,7 @@ JSON, or JavaScript Object Notation, is a widely-used text-based format for data
 
 :::
 
-Since its introduction, [<FontIcon icon="fa-brands fa-wikipedia-w"/>JSON](https://en.wikipedia.org/wiki/JSON) has rapidly emerged as the predominant standard for the exchange of information. Whether you want to transfer data with an [**API**](/realpython.com/api-integration-in-python.md) or store information in a [**document database**](/realpython.com/introduction-to-mongodb-and-python.md), it’s likely you’ll encounter JSON. Fortunately, Python provides robust tools to facilitate this process and help you manage JSON data efficiently.
+Since its introduction, [<VPIcon icon="fa-brands fa-wikipedia-w"/>JSON](https://en.wikipedia.org/wiki/JSON) has rapidly emerged as the predominant standard for the exchange of information. Whether you want to transfer data with an [**API**](/realpython.com/api-integration-in-python.md) or store information in a [**document database**](/realpython.com/introduction-to-mongodb-and-python.md), it’s likely you’ll encounter JSON. Fortunately, Python provides robust tools to facilitate this process and help you manage JSON data efficiently.
 
 While JSON is the most common format for data distribution, it’s not the only option for such tasks. Both [**XML**](/realpython.com/python-xml-parser.md) and [**YAML**](/realpython.com/python-yaml/README.md) serve similar purposes. If you’re interested in how the formats differ, then you can check out the tutorial on how to [**serialize your data with Python**](/realpython.com/python-serialize-data.md).
 

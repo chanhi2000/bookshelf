@@ -56,17 +56,17 @@ JupyterLab contains its own **file browser** that enables you to perform common 
 The file browser tools available to you are:
 
 - **New Launcher**, which opens a new Launcher page to allow you to access the various Jupyter components.
-- **New Folder**, which allows you to create a new subfolder within the current folder. In the screenshot above, you created a new <FontIcon icon="fas fa-folder-open"/>`Output_Files` subfolder.
+- **New Folder**, which allows you to create a new subfolder within the current folder. In the screenshot above, you created a new <VPIcon icon="fas fa-folder-open"/>`Output_Files` subfolder.
 - **Upload Files**, which allows you to upload files into the current folder. This is really designed for networked systems where your JupyterLab server is running on a computer elsewhere on a network. If you’re running both the client and its server on the same computer, then you can upload files into your current folder from anywhere on your local computer.
 - **Refresh the file browser** makes sure that the list of files displayed in the file browser is up to date. This is also designed for networked environments where remote changes may not immediately show up in the Jupyter interface on your local machine.
 - **Filter files by name** allows you to limit the files that are displayed. This is very useful if you have lots of files and are looking for a specific file or similar files. For example, typing `ipynb` into this field will display only your Jupyter Notebook files.
 - **Jupyter Root** will display the files in the folder where you started JupyterLab. As far as JupyterLab is concerned, this is the top of the file system. It’s not possible to access files from any folder above the Jupyter root folder from the file browser, unless you upload files as discussed earlier.
 
-The files that you see listed in the screenshot are in your <FontIcon icon="fas fa-folder-open"/>`Samples` folder. You can access the folder by double-clicking on it. To access a parent folder, click on its [<FontIcon icon="fa-brands fa-wikipedia-w"/>breadcrumb](https://en.wikipedia.org/wiki/Breadcrumb_navigation) to the right of the root icon. As you can see, navigating through the file system is quite straightforward.
+The files that you see listed in the screenshot are in your <VPIcon icon="fas fa-folder-open"/>`Samples` folder. You can access the folder by double-clicking on it. To access a parent folder, click on its [<VPIcon icon="fa-brands fa-wikipedia-w"/>breadcrumb](https://en.wikipedia.org/wiki/Breadcrumb_navigation) to the right of the root icon. As you can see, navigating through the file system is quite straightforward.
 
 ::: note
 
-You may have also noticed a green dot next to the <FontIcon icon="fa-brands fa-markdown"/>`range type.md` file in the above screenshot. This means there’s a running kernel associated with the file. Why not open your copy of this file from the <FontIcon icon="fas fa-folder-open"/>`Samples` folder then see if you can replicate the dot with your copy?
+You may have also noticed a green dot next to the <VPIcon icon="fa-brands fa-markdown"/>`range type.md` file in the above screenshot. This means there’s a running kernel associated with the file. Why not open your copy of this file from the <VPIcon icon="fas fa-folder-open"/>`Samples` folder then see if you can replicate the dot with your copy?
 
 :::
 
@@ -80,11 +80,11 @@ After you double-click, your file opens in its own read-only tabbed window. In t
 
 ::: details A Caveat When Working With JSON Files
 
-JavaScript Object Notation, or [<FontIcon icon="fa-brands fa-wikipedia-w"/>JSON](https://en.wikipedia.org/wiki/JSON), is an open standard file and data interchange format for storing data and passing it between different systems. Although you can work directly with [**JSON files in Python**](/realpython.com/python-json/README.md), you can also view and edit them in JupyterLab. But there is a caveat.
+JavaScript Object Notation, or [<VPIcon icon="fa-brands fa-wikipedia-w"/>JSON](https://en.wikipedia.org/wiki/JSON), is an open standard file and data interchange format for storing data and passing it between different systems. Although you can work directly with [**JSON files in Python**](/realpython.com/python-json/README.md), you can also view and edit them in JupyterLab. But there is a caveat.
 
 If you need to have one JSON file open for editing and another for viewing in its formatted form, then creating a simple view won’t work. If you have a JSON file opened for editing and create a new view of it, then you end up with two views for editing. To overcome this, you must open the file twice: first for editing and again for reading. Thankfully, JupyterLab will still create two views on the same file meaning both will be synchronized.
 
-The screenshot below shows the <FontIcon icon="iconfont icon-json"/>`Movies.json` file from your <FontIcon icon="fas fa-folder-open"/>`Samples` folder, which you opened by double-clicking it in your file browser. By default, this opens it for viewing. Now if you right-click on the file’s name in the file browser and choose *Open With* → *Editor*, then you’ll open a second copy for editing. If you drag the tab of the second file to the right side of the screen, then you’ll see both simultaneously:
+The screenshot below shows the <VPIcon icon="iconfont icon-json"/>`Movies.json` file from your <VPIcon icon="fas fa-folder-open"/>`Samples` folder, which you opened by double-clicking it in your file browser. By default, this opens it for viewing. Now if you right-click on the file’s name in the file browser and choose *Open With* → *Editor*, then you’ll open a second copy for editing. If you drag the tab of the second file to the right side of the screen, then you’ll see both simultaneously:
 
 ![editing and viewing edit results](https://files.realpython.com/media/ie-edit-and-viewCR-a.8d0a2ed7e387.png)
 

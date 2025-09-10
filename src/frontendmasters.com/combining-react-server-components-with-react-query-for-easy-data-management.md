@@ -54,7 +54,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/2378"/>
 
-[<FontIcon icon="fa-brands fa-react"/>React Server Components](https://react.dev/reference/rsc/server-components)(RSC) are an exciting innovation in web development. In this post we’ll briefly introduce them, show what their purpose and benefits are, as well as their limitations. We’ll wrap up by showing how to pair them with[`react-query`](https://tanstack.com/query/latest/docs/framework/react/overview)to help solve those limitations. Let’s get started!
+[<VPIcon icon="fa-brands fa-react"/>React Server Components](https://react.dev/reference/rsc/server-components)(RSC) are an exciting innovation in web development. In this post we’ll briefly introduce them, show what their purpose and benefits are, as well as their limitations. We’ll wrap up by showing how to pair them with[`react-query`](https://tanstack.com/query/latest/docs/framework/react/overview)to help solve those limitations. Let’s get started!
 
 ---
 
@@ -81,9 +81,9 @@ RSC bridges that gap and gives us the best of both worlds. We get to*ad hoc*requ
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/0eb5cb848c13ec632de5a627b2ae42efc22417b6f98d0a03f162f89bc240433f/arackaf/my-blog"/>
 
-At time of writing RSC are mostly only supported in Next.js, although the minimal framework[<FontIcon icon="fas fa-globe"/>Waku](https://waku.gg/)also supports it. Remix and TanStack Router are currently working on implementations, so stay tuned. I’ll show a very brief overview of what they look like in Next; consult those other frameworks when they ship. The ideas will be the same, even if the implementations differ slightly.
+At time of writing RSC are mostly only supported in Next.js, although the minimal framework[<VPIcon icon="fas fa-globe"/>Waku](https://waku.gg/)also supports it. Remix and TanStack Router are currently working on implementations, so stay tuned. I’ll show a very brief overview of what they look like in Next; consult those other frameworks when they ship. The ideas will be the same, even if the implementations differ slightly.
 
-In Next, when using the new “app directory” (it’s literally a folder called “app” that you define your various routes in), pages are RSC by default. Any components imported by these pages are also RSC, as well as components imported by those components, and so on. When you’re ready to exit server components and switch to “client components,” you put the`"use client"`pragma at the top of a component. Now that component, and everything that component imports are client components. Check the[<FontIcon icon="iconfont icon-nextjs"/>Next docs](https://nextjs.org/docs/app)for more info.
+In Next, when using the new “app directory” (it’s literally a folder called “app” that you define your various routes in), pages are RSC by default. Any components imported by these pages are also RSC, as well as components imported by those components, and so on. When you’re ready to exit server components and switch to “client components,” you put the`"use client"`pragma at the top of a component. Now that component, and everything that component imports are client components. Check the[<VPIcon icon="iconfont icon-nextjs"/>Next docs](https://nextjs.org/docs/app)for more info.
 
 ### How do React Server Components work?
 
@@ -98,7 +98,7 @@ React Server Components are just like regular React Components, but with a few d
 
 Server components have no hydration, since, again, they only execute on the server. That means you can do things like connect directly to a database, or use Server-only api’s. But it also means there are many things you can’t do in RSCs: you cannot use effects or state, you cannot set up event handlers, or use browser-specific APIs like `localStorage`. If you violate any of those rules you’ll get errors.
 
-For a more thorough introduction to RSC, check the[<FontIcon icon="iconfont icon-nextjs"/>Next docs](https://nextjs.org/docs/app)for the app directory, or depending on when you read this, the Remix or TanStack Router docs. But to keep this post a reasonable length, let’s keep the details in the docs, and see how we*use them*.
+For a more thorough introduction to RSC, check the[<VPIcon icon="iconfont icon-nextjs"/>Next docs](https://nextjs.org/docs/app)for the app directory, or depending on when you read this, the Remix or TanStack Router docs. But to keep this post a reasonable length, let’s keep the details in the docs, and see how we*use them*.
 
 Let’s put together a very basic proof of concept demo app with RSC, see how data mutations work, and some of their limitations. We’ll then take that same app (still using RSC) and see how it looks with react-query.
 
@@ -265,7 +265,7 @@ But what if you want to let your user interact with, and update your data?
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/0eb5cb848c13ec632de5a627b2ae42efc22417b6f98d0a03f162f89bc240433f/arackaf/my-blog"/>
 
-To mutate data with RSC you use something called[<FontIcon icon="iconfont icon-nextjs"/>Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations). Check the docs for specifics, but here’s what our server action looks like
+To mutate data with RSC you use something called[<VPIcon icon="iconfont icon-nextjs"/>Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations). Check the docs for specifics, but here’s what our server action looks like
 
 ```js
 "use server";
@@ -356,7 +356,7 @@ This sounds genuinely unbelievable; but it’s true. If we artificially slow dow
 
 This is a known issue, and will presumably be fixed at some point. But the re-loading without caching issue is unavoidable with how Next app directory is designed.
 
-Just to be clear, server actions are still, even with these limitations, outstanding (for some use cases). If you have a web page with a form, and a submit button, server actions are**outstanding**. None of these limitations will matter (assuming your form doesn’t depend on a bunch of different data sources). In fact, server actions go especially well with forms. You can even set the “action” of a form (in Next) directly to a server action. See[<FontIcon icon="iconfont icon-nextjs"/>the docs](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)for more info, as well as on related hooks, like[<FontIcon icon="fa-brands fa-react"/>`useFormStatus` hook](https://react.dev/reference/react-dom/hooks/useFormStatus).
+Just to be clear, server actions are still, even with these limitations, outstanding (for some use cases). If you have a web page with a form, and a submit button, server actions are**outstanding**. None of these limitations will matter (assuming your form doesn’t depend on a bunch of different data sources). In fact, server actions go especially well with forms. You can even set the “action” of a form (in Next) directly to a server action. See[<VPIcon icon="iconfont icon-nextjs"/>the docs](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)for more info, as well as on related hooks, like[<VPIcon icon="fa-brands fa-react"/>`useFormStatus` hook](https://react.dev/reference/react-dom/hooks/useFormStatus).
 
 But back to our app. We don’t have a page with a single form and no data sources. We have lots of little forms, on a page with lots of data sources. Server actions won’t work well here, so let’s see an alternative.
 
@@ -371,7 +371,7 @@ But back to our app. We don’t have a page with a single form and no data sourc
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/0eb5cb848c13ec632de5a627b2ae42efc22417b6f98d0a03f162f89bc240433f/arackaf/my-blog"/>
 
-[<FontIcon icon="fas fa-globe"/>React Query](https://tanstack.com/query/latest/docs/framework/react/overview)is probably the most mature, well-maintained data management library in the React ecosystem. Unsurprisngly, it also works well with RSC.
+[<VPIcon icon="fas fa-globe"/>React Query](https://tanstack.com/query/latest/docs/framework/react/overview)is probably the most mature, well-maintained data management library in the React ecosystem. Unsurprisngly, it also works well with RSC.
 
 To use react-query we’ll need to install two packages:`npm i @tanstack/react-query @tanstack/react-query-next-experimental`. Don’t let the experimental in the name scare you; it’s been out for awhile, and works well.
 
@@ -541,7 +541,7 @@ before our books endpoint can be called, it looks like we have other things happ
 
 Next has no solutions for this.
 
-The closest Next can come is to let you use[`window.history.pushState`](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#windowhistorypushstate). That will trigger a client-side url update, similar to what used to be called shallow routing in prior versions of Next. This does in fact work; however, it’s not integrated with transitions for some reason. So when this calls, and our `useSuspenseQuery` hook updates, our current UI will suspend, and our nearest Suspense boundary will show the fallback. This is awful UI. I’ve reported this bug[here (<FontIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/issues/66016); hopefully it gets a fix soon.
+The closest Next can come is to let you use[`window.history.pushState`](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#windowhistorypushstate). That will trigger a client-side url update, similar to what used to be called shallow routing in prior versions of Next. This does in fact work; however, it’s not integrated with transitions for some reason. So when this calls, and our `useSuspenseQuery` hook updates, our current UI will suspend, and our nearest Suspense boundary will show the fallback. This is awful UI. I’ve reported this bug[here (<VPIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/issues/66016); hopefully it gets a fix soon.
 
 Next may not have a solution, but react-query does. If you think about it, we already know what query we need to run, we’re just stuck waiting on Next to finish navigating to an unchanging RSC page. What if we could pre-fetch this new endpoint request, so it’s already running for when Next finally finishes rendering our new (unchanged) page. We can, since react-query has an API just for this. Let’s see how.
 
@@ -628,7 +628,7 @@ When we did our react-query implementation, we changed our Books component to be
 
 Honestly, I wouldn’t worry about it, especially for apps like this, with lots of different data sources that are interactive, and updating. This demo only had a single mutation, but it was just that; a demo. If we were to build this app for real, there’d be many mutation points, each with potentially multiple queries in need of invalidation.
 
-If you’re curious, it’s technically possible to get the best of both worlds. You*could*load data in an RSC, and then pass that data to the regular`useQuery`hook via the`initialData`prop. You can check[<FontIcon icon="fas fa-globe"/>the docs](https://tanstack.com/query/v5/docs/framework/react/reference/useQuery)for more info, but I honestly don’t think it’s worth it. You’d now need to define your data loading (the fetch call) in two places, or manually build an isomorphic fetch helper function to share between them. And then with actual data loading happening in RSCs, any navigations back to the same page (ie for querystrings) would re-fire those queries, when in reality react-query is already running those query udates client side. To fix*that*so you’d have to be certain to only ever use`window.history.pushState`like we talked about. The`useQuery`hook doesn’t suspend, so you wouldn’t need transitions for those URL changes. That’s good since`pushState`won’t suspend your content, but now you have to manually track*all*your loading states; if you have three pieces of data you want loaded before revealing a UI (like we did above) you’d have to manually track and aggregate those three loading states. It would work, but I highly doubt the complexity would be worth it. Just live with the very marginal bundle size increase.
+If you’re curious, it’s technically possible to get the best of both worlds. You*could*load data in an RSC, and then pass that data to the regular`useQuery`hook via the`initialData`prop. You can check[<VPIcon icon="fas fa-globe"/>the docs](https://tanstack.com/query/v5/docs/framework/react/reference/useQuery)for more info, but I honestly don’t think it’s worth it. You’d now need to define your data loading (the fetch call) in two places, or manually build an isomorphic fetch helper function to share between them. And then with actual data loading happening in RSCs, any navigations back to the same page (ie for querystrings) would re-fire those queries, when in reality react-query is already running those query udates client side. To fix*that*so you’d have to be certain to only ever use`window.history.pushState`like we talked about. The`useQuery`hook doesn’t suspend, so you wouldn’t need transitions for those URL changes. That’s good since`pushState`won’t suspend your content, but now you have to manually track*all*your loading states; if you have three pieces of data you want loaded before revealing a UI (like we did above) you’d have to manually track and aggregate those three loading states. It would work, but I highly doubt the complexity would be worth it. Just live with the very marginal bundle size increase.
 
 Just use client components and let react-query remove the complexity with`useSuspenseHook`.
 
@@ -651,11 +651,11 @@ There’s some things to get right, but depending on the type of app you’re bu
 
 ## 🆕 Update
 
-Since publishing this post it was brought to my attention that these fetch calls from the server will not include cookie info. This is by design in Next, unfortunately. [Track this issue for updates. (<FontIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/discussions/60640)
+Since publishing this post it was brought to my attention that these fetch calls from the server will not include cookie info. This is by design in Next, unfortunately. [Track this issue for updates. (<VPIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/discussions/60640)
 
 Unfortunately those cookies are needed in practice, for your auth info to be passed to your data requests on the backend.
 
-The best workaround here would be to read your cookies in the root RSC, and then pass them to the Providers component we already have, for setting up our react-query provider,to be placed onto context. This, by itself, would expose our secure, likely httpOnly cookies into our client bundle, which is bad. [Fortunately there’s a library (<FontIcon icon="fa-brands fa-npm"/>`ssr-only-secrets`)](https://npmjs.com/package/ssr-only-secrets) that allows you to encrypt them in a way that they only ever show up on the server.
+The best workaround here would be to read your cookies in the root RSC, and then pass them to the Providers component we already have, for setting up our react-query provider,to be placed onto context. This, by itself, would expose our secure, likely httpOnly cookies into our client bundle, which is bad. [Fortunately there’s a library (<VPIcon icon="fa-brands fa-npm"/>`ssr-only-secrets`)](https://npmjs.com/package/ssr-only-secrets) that allows you to encrypt them in a way that they only ever show up on the server.
 
 You’d read these cookie values in all your client components that use `useSuspenseQuery`, and pass them along in your fetch calls on the server, and on the client, where those values would be empty, do nothing (and rely on your browser’s fetch to send the cookies along)
 

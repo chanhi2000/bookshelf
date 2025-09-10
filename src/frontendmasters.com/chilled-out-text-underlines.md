@@ -83,9 +83,9 @@ This is the part that chills the link style out the most, while still reading st
 - Rather than setting a 2nd static color, let’s leverage the `currentColor`. That way it’s not yet-another-color we have to manage.
 - Let’s use this alteration for our `:hover` and `:focus` styles, which can be another hard choice!
 
-The [**relative color syntax**](/frontendmasters.com/relative-color-syntax-basic-use-cases.md) would be cool here, but full cross-browser support is a smidge away on that yet, so let’s use the [<FontIcon icon="fas fa-globe"/>better-supported](https://caniuse.com/mdn-css_types_color_color-mix) `color-mix()` instead.
+The [**relative color syntax**](/frontendmasters.com/relative-color-syntax-basic-use-cases.md) would be cool here, but full cross-browser support is a smidge away on that yet, so let’s use the [<VPIcon icon="fas fa-globe"/>better-supported](https://caniuse.com/mdn-css_types_color_color-mix) `color-mix()` instead.
 
-For a smidge of [<FontIcon icon="fas fa-globe"/>extra trickery](https://bsky.app/profile/anatudor.bsky.social/post/3lk52ep2lvs25) we’ll only apply the opacity underline when the link is “not” hovered or focused, meaning when it is that will be removed:
+For a smidge of [<VPIcon icon="fas fa-globe"/>extra trickery](https://bsky.app/profile/anatudor.bsky.social/post/3lk52ep2lvs25) we’ll only apply the opacity underline when the link is “not” hovered or focused, meaning when it is that will be removed:
 
 ```css
 a:not(:is(:hover, :focus)) {

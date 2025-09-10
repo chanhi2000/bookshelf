@@ -181,7 +181,7 @@ The distinction between `break` and `continue` is demonstrated in the following 
 
 break and continue
 
-Here’s a script file called <FontIcon icon="fa-brands fa-python"/>`break.py` that demonstrates the `break` statement:
+Here’s a script file called <VPIcon icon="fa-brands fa-python"/>`break.py` that demonstrates the `break` statement:
 
 ```py{5} title="break.py"
 n = 5
@@ -193,7 +193,7 @@ while n > 0:
 print('Loop ended.')
 ```
 
-Running <FontIcon icon="fa-brands fa-python"/>`break.py` from a command-line interpreter produces the following output:
+Running <VPIcon icon="fa-brands fa-python"/>`break.py` from a command-line interpreter produces the following output:
 
 ```sh
 python break.py
@@ -205,7 +205,7 @@ python break.py
 
 When `n` becomes `2`, the `break` statement is executed. The loop is terminated completely, and program execution jumps to the [**`print()` statement**](/realpython.com/python-print/README.md) on line 7. **Note:** If your programming background is in [**C**](/realpython.com/c-for-python-programmers.md), [**C++**](/realpython.com/python-vs-cpp.md), [**Java**](/realpython.com/java-vs-python.md), or [**JavaScript**](/realpython.com/python-vs-javascript.md), then you may be wondering where Python’s do-while loop is. Well, the bad news is that Python doesn’t have a do-while construct. But the good news is that you can use a `while` loop with a `break` statement to [**emulate it**](/realpython.com/python-do-while.md).
 
-The next script, <FontIcon icon="fa-brands fa-python"/>`continue.py`, is identical except for a `continue` statement in place of the `break`:
+The next script, <VPIcon icon="fa-brands fa-python"/>`continue.py`, is identical except for a `continue` statement in place of the `break`:
 
 ```py{5} title="continue.py"
 n = 5
@@ -217,7 +217,7 @@ while n > 0:
 print('Loop ended.')
 ```
 
-The output of <FontIcon icon="fa-brands fa-python"/>`continue.py` looks like this:
+The output of <VPIcon icon="fa-brands fa-python"/>`continue.py` looks like this:
 
 ```sh
 python continue.py
@@ -299,7 +299,7 @@ while n > 0:
 
 This loop is terminated prematurely with `break`, so the `else` clause isn’t executed.
 
-It may seem as if the meaning of the word `else` doesn’t quite fit the `while` loop as well as it does the `if` statement. [<FontIcon icon="fa-brands fa-wikipedia-w"/>Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum), the creator of Python, has actually said that, if he had it to do over again, he’d leave the `while` loop’s `else` clause out of the language.
+It may seem as if the meaning of the word `else` doesn’t quite fit the `while` loop as well as it does the `if` statement. [<VPIcon icon="fa-brands fa-wikipedia-w"/>Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum), the creator of Python, has actually said that, if he had it to do over again, he’d leave the `while` loop’s `else` clause out of the language.
 
 One of the following interpretations might help to make it more intuitive:
 
@@ -551,7 +551,7 @@ while n > 0: n -= 1; if True: print('foo')
 # SyntaxError: invalid syntax
 ```
 
-Remember that [<FontIcon icon="fa-brands fa-python"/>PEP 8](https://python.org/dev/peps/pep-0008/#other-recommendations) discourages multiple statements on one line. So you probably shouldn’t be doing any of this very often anyhow.
+Remember that [<VPIcon icon="fa-brands fa-python"/>PEP 8](https://python.org/dev/peps/pep-0008/#other-recommendations) discourages multiple statements on one line. So you probably shouldn’t be doing any of this very often anyhow.
 
 ---
 

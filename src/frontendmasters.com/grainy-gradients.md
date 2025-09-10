@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6066"/>
 
-You know when you set a `background` gradient or a gradient `mask` and you get an ugly[<FontIcon icon="fa-brands fa-wikipedia-w"/>banding](https://en.wikipedia.org/wiki/Colour_banding) effect? If you can’t picture what I mean, here’s an example:
+You know when you set a `background` gradient or a gradient `mask` and you get an ugly[<VPIcon icon="fa-brands fa-wikipedia-w"/>banding](https://en.wikipedia.org/wiki/Colour_banding) effect? If you can’t picture what I mean, here’s an example:
 
 ![A left to right pinkinsh orange to dark grey gradient exhibiting banding.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/451853285-2c07e7e7-53b6-4cc7-b7fe-2b251e7c8fd0.png?resize=900%2C450&ssl=1)
 
@@ -67,15 +67,15 @@ example gradient with banding
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"/>
 
-Over time, I’ve seen a couple of approaches commonly recommended for solving this. The first is to[<FontIcon icon="fas fa-globe"/>simply introduce more stops](https://css-tricks.com/easing-linear-gradients/)(gradient “easing”), which I’m not really keen on doing, even if I can just generate them in a Sass loop and never need to know about them. The second one is to[<FontIcon icon="fas fa-globe"/>make the gradient noisy](https://graphicdesign.stackexchange.com/a/36045). Let’s do that.
+Over time, I’ve seen a couple of approaches commonly recommended for solving this. The first is to[<VPIcon icon="fas fa-globe"/>simply introduce more stops](https://css-tricks.com/easing-linear-gradients/)(gradient “easing”), which I’m not really keen on doing, even if I can just generate them in a Sass loop and never need to know about them. The second one is to[<VPIcon icon="fas fa-globe"/>make the gradient noisy](https://graphicdesign.stackexchange.com/a/36045). Let’s do that.
 
-The way I first went about making gradients grainy was to have a gradient layer and a noise layer (using pseudo-elements for the layers) and then blend them together. I first did this[<FontIcon icon="fa-brands fa-youtube"/>in response to a question](https://youtu.be/xmrfj5qrXAw)asked on X. That video became one of my most watched ones ever, which isn’t something I’m happy about anymore because I’ve come to find that technique to be overly complicated, like scratching behind the right ear with the left foot.
+The way I first went about making gradients grainy was to have a gradient layer and a noise layer (using pseudo-elements for the layers) and then blend them together. I first did this[<VPIcon icon="fa-brands fa-youtube"/>in response to a question](https://youtu.be/xmrfj5qrXAw)asked on X. That video became one of my most watched ones ever, which isn’t something I’m happy about anymore because I’ve come to find that technique to be overly complicated, like scratching behind the right ear with the left foot.
 
 <VidStack src="youtube/xmrfj5qrXAw" />
 
-A few months later, I saw[<FontIcon icon="fas fa-globe"/>an article](https://css-tricks.com/grainy-gradients/)that was doing something similar: placing a gradient layer and a noise layer one on top of the other. Unlike my approach, it wasn’t blending the two layers and instead was relying on one end of the gradient being transparent to allow the noise to show through. For the other end to be something other than transparent, it would layer an overlay and blend it. Just like my layered pseudos approach… too complicated! Not to mention that the `contrast()` and `brightness()` tampering (meant to highlight the grain) make this only work for certain gradient inputs and they greatly alter the saturation and luminosity of the original gradient palette.
+A few months later, I saw[<VPIcon icon="fas fa-globe"/>an article](https://css-tricks.com/grainy-gradients/)that was doing something similar: placing a gradient layer and a noise layer one on top of the other. Unlike my approach, it wasn’t blending the two layers and instead was relying on one end of the gradient being transparent to allow the noise to show through. For the other end to be something other than transparent, it would layer an overlay and blend it. Just like my layered pseudos approach… too complicated! Not to mention that the `contrast()` and `brightness()` tampering (meant to highlight the grain) make this only work for certain gradient inputs and they greatly alter the saturation and luminosity of the original gradient palette.
 
-In time, I would improve upon my initial idea and, almost half a decade later, I would make[<FontIcon icon="fa-brands fa-youtube"/>a second video](https://youtu.be/cA39j6p3Yho)on the topic, presenting a much simplified technique. Basically, the gradient would get fed into an SVG`filter`, which would generate a noise layer, desaturate it and then place it on top of the input gradient. No external files, no base64-ing anything, no separate (pseudo)element layers for the noise and the gradient.
+In time, I would improve upon my initial idea and, almost half a decade later, I would make[<VPIcon icon="fa-brands fa-youtube"/>a second video](https://youtu.be/cA39j6p3Yho)on the topic, presenting a much simplified technique. Basically, the gradient would get fed into an SVG`filter`, which would generate a noise layer, desaturate it and then place it on top of the input gradient. No external files, no base64-ing anything, no separate (pseudo)element layers for the noise and the gradient.
 
 Still, it didn’t take long before I wasn’t happy with this solution anymore, either.
 
@@ -157,7 +157,7 @@ svg[height='0'][aria-hidden='true'] {
 
 The`<filter>`element also has a second attribute beside its`id`. We aren’t going into it here because I don’t really understand it myself. Just know that, in order to get our desired result cross-browser, we always need to set this attribute to`sRGB`whenever we’re doing anything with the RGB channels in the`filter`. The`sRGB`value isn’t the default one (`linearRGB`is), but it’s the one we likely want most of the time and the only one that works properly cross-browser.
 
-The[<FontIcon icon="fas fa-globe"/>`feTurbulence`](https://drafts.fxtf.org/filter-effects/#feTurbulenceElement)primitive creates a fine-grained noise layer. Again, we aren’t going into how this works in the back because I haven’t been able to really understand any of the explanations I’ve found or I’ve been recommended for the life of me.
+The[<VPIcon icon="fas fa-globe"/>`feTurbulence`](https://drafts.fxtf.org/filter-effects/#feTurbulenceElement)primitive creates a fine-grained noise layer. Again, we aren’t going into how this works in the back because I haven’t been able to really understand any of the explanations I’ve found or I’ve been recommended for the life of me.
 
 Just know that the`baseFrequency`values (which you can think of as being the number of waves per pixel) need to be positive, that integer values produce just blank and that bigger values mean a finer grained noise. And that`numOctaves`values above the default `1` allow us to get a better-looking noise without having to layer the results of multiple `feTurbulence` primitives with different`baseFrequency`values. In practice, I pretty much never use `numOctaves` values bigger than`3`or at most`4`as I find above that, the visual gain really can’t justify the performance cost.
 
@@ -165,7 +165,7 @@ We also switch here from the default `type` of `turbulence` to `fractalNoise`, w
 
 This noise is then used as a displacement map (the second input,`in2`, which is by default the result of the previous primitive, `feTurbulence` here, so we don’t need to set it explicitly) for the`filter`input (`SourceGraphic`). We use a`scale`value of`150`, which means that the maximum an input pixel can be displaced by in either direction of the`x`or`y`axis is half of that (`75px`) in the event the channel used for *x* or *y* axis displacement is either zeroed (`0`) or maxed out (`1`) there. The channel used for the *y* axis displacement is the default alpha`A`, so we don’t need to set it explicitly, we only set it for the*x*axis displacement.
 
-We’re using absolute pixel displacement here, as relative displacement (which requires the `primitiveUnits`attribute to be set to`objectBoundingBox` on the `<filter>` element) is not explicitly defined in the spec, so Chrome, Firefox and Safari each[implement it in a different way (<FontIcon icon="iconfont icon-github"/>`w3c/fxtf-drafts`)](https://github.com/w3c/fxtf-drafts/issues/596)from the other two for non-square`filter`inputs. I wish that could be a joke, but it’s not. This is why nobody really uses SVG filters much — a lot about them just doesn’t work. Not consistently across browsers anyway.
+We’re using absolute pixel displacement here, as relative displacement (which requires the `primitiveUnits`attribute to be set to`objectBoundingBox` on the `<filter>` element) is not explicitly defined in the spec, so Chrome, Firefox and Safari each[implement it in a different way (<VPIcon icon="iconfont icon-github"/>`w3c/fxtf-drafts`)](https://github.com/w3c/fxtf-drafts/issues/596)from the other two for non-square`filter`inputs. I wish that could be a joke, but it’s not. This is why nobody really uses SVG filters much — a lot about them just doesn’t work. Not consistently across browsers anyway.
 
 At this point, our result looks like this:
 
@@ -173,7 +173,7 @@ At this point, our result looks like this:
 
 Not quite what we want. The dashed bright pink line shows us where the boundary of the `filter`input gradient box was. Along the edges, we have both transparent pixels *inside*the initial gradient box*and*opaque pixels*outside*the initial gradient box. Two different problems, each needing to get fixed in a different way.
 
-To cover up the transparent pixels*inside*the initial gradient box, we layer the initial gradient underneath the one scrambled by `feDisplacementMap`. We do this using [<FontIcon icon="fa-brands fa-firefox"/>`feBlend`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feBlend) with the default`mode`of`normal`(so we don’t need to set it explicitly), which meands no blending, just put one layer on top of the other. The bottom layer is specified by the second input (`in2`) and in our case, we want it to be the `SourceGraphic`. The top layer is specified by the first input (`in`) and we don’t need to set it explicitly because, by default, it’s the result of the previous primitive (`feDisplacementMap` here), which is exactly what we need in this case.
+To cover up the transparent pixels*inside*the initial gradient box, we layer the initial gradient underneath the one scrambled by `feDisplacementMap`. We do this using [<VPIcon icon="fa-brands fa-firefox"/>`feBlend`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feBlend) with the default`mode`of`normal`(so we don’t need to set it explicitly), which meands no blending, just put one layer on top of the other. The bottom layer is specified by the second input (`in2`) and in our case, we want it to be the `SourceGraphic`. The top layer is specified by the first input (`in`) and we don’t need to set it explicitly because, by default, it’s the result of the previous primitive (`feDisplacementMap` here), which is exactly what we need in this case.
 
 ```xml
 <svg width='0' height='0' aria-hidden='true'>
@@ -185,9 +185,9 @@ To cover up the transparent pixels*inside*the initial gradient box, we layer the
 </svg>
 ```
 
-I’ve seen a lot of tutorials using[<FontIcon icon="fa-brands fa-firefox"/>`feComposite`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feComposite)with the default `operator` of`over` or[<FontIcon icon="fa-brands fa-firefox"/>`feMerge`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feMerge)to place layers one on top of another, but `feBlend` with the default `mode` of `normal` produces the exact same result, I find it to be simpler than `feMerge` in the case of just two layers and it’s fewer characters than `feComposite`.
+I’ve seen a lot of tutorials using[<VPIcon icon="fa-brands fa-firefox"/>`feComposite`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feComposite)with the default `operator` of`over` or[<VPIcon icon="fa-brands fa-firefox"/>`feMerge`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feMerge)to place layers one on top of another, but `feBlend` with the default `mode` of `normal` produces the exact same result, I find it to be simpler than `feMerge` in the case of just two layers and it’s fewer characters than `feComposite`.
 
-To get rid of the opaque pixels*outside*the initial gradient box, we restrict the [<FontIcon icon="fas fa-globe"/>`filter`region](https://drafts.fxtf.org/filter-effects/#FilterEffectsRegion) to its exact input box — starting from the`0,0`point of this input and covering`100%`of it along both the*x*and*y*axis (by default, the`filter`region starts from `-10%,-10%` and covers`120%`of the input box along each of the two axes). This means explicitly setting the `x`,`y`,`width` and `height` attributes:
+To get rid of the opaque pixels*outside*the initial gradient box, we restrict the [<VPIcon icon="fas fa-globe"/>`filter`region](https://drafts.fxtf.org/filter-effects/#FilterEffectsRegion) to its exact input box — starting from the`0,0`point of this input and covering`100%`of it along both the*x*and*y*axis (by default, the`filter`region starts from `-10%,-10%` and covers`120%`of the input box along each of the two axes). This means explicitly setting the `x`,`y`,`width` and `height` attributes:
 
 ```xml
 <svg width='0' height='0' aria-hidden='true'>
@@ -200,7 +200,7 @@ To get rid of the opaque pixels*outside*the initial gradient box, we restrict th
 </svg>
 ```
 
-Another option to get rid of this second problem would be to use`clip-path: inset(0)` on the element we apply this grainy`filter`on. This is one situation where it’s convenient that `clip-path`[<FontIcon icon="fas fa-globe"/>gets applied*after*](https://bsky.app/profile/anatudor.bsky.social/post/3lmgrfcnbsc2k)`filter`(the order in the CSS doesn’t matter here).
+Another option to get rid of this second problem would be to use`clip-path: inset(0)` on the element we apply this grainy`filter`on. This is one situation where it’s convenient that `clip-path`[<VPIcon icon="fas fa-globe"/>gets applied*after*](https://bsky.app/profile/anatudor.bsky.social/post/3lmgrfcnbsc2k)`filter`(the order in the CSS doesn’t matter here).
 
 ```css
 .grad-box {
@@ -235,7 +235,7 @@ In this case, applying the`filter`to the entire element causes all kinds of prob
 
 problems arising when we apply the grainy filter on the entire element
 
-The current solution would be to put this gradient in an absolutely positioned pseudo behind the text content (`z-index: -1`), covering the entire `padding-box` of its parent ([<FontIcon icon="fas fa-globe"/>`inset: 0`](https://bsky.app/profile/anatudor.bsky.social/post/3lfesl2dpj22u)). This separates the parent’s`box-shadow`and text from the gradient on the pseudo, so applying the`filter`on the pseudo doesn’t affect the parent’s `box-shadow`and text.
+The current solution would be to put this gradient in an absolutely positioned pseudo behind the text content (`z-index: -1`), covering the entire `padding-box` of its parent ([<VPIcon icon="fas fa-globe"/>`inset: 0`](https://bsky.app/profile/anatudor.bsky.social/post/3lfesl2dpj22u)). This separates the parent’s`box-shadow`and text from the gradient on the pseudo, so applying the`filter`on the pseudo doesn’t affect the parent’s `box-shadow`and text.
 
 ```css
 .grad-box { /* relevant styles */
@@ -256,7 +256,7 @@ The current solution would be to put this gradient in an absolutely positioned p
 
 ![Previous card with a gradient, text and box-shadow, except now the gradient is grain, which fixes the banding issue.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/451873184-d4a8b150-73ac-4166-bbea-7250387a0a2b.png?resize=900%2C450&ssl=1)
 
-the desired result when having a shadow and text content ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/gbbBWzL))
+the desired result when having a shadow and text content ([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/gbbBWzL))
 
 <CodePen
   user="thebabydino"
@@ -289,15 +289,15 @@ In our particular case, this would simplify the code as follows:
 }
 ```
 
-Note that in this case we must restrict the`filter`region from the`<filter>`element attributes, otherwise we run into[<FontIcon icon="fas fa-globe"/>a really weird bug](https://bugs.webkit.org/show_bug.cgi?id=291190)in the one browser supporting this, Safari.
+Note that in this case we must restrict the`filter`region from the`<filter>`element attributes, otherwise we run into[<VPIcon icon="fas fa-globe"/>a really weird bug](https://bugs.webkit.org/show_bug.cgi?id=291190)in the one browser supporting this, Safari.
 
 ![Safari problem: it's trying to fit the filter output, including what goes outside the input image box, into the input image box, basically scaling down the image to make room for its pixels displaced outside its initial boundary by the filter.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/452022538-bf4ed7b8-ccc9-43cd-96e1-771a5cac899b.png?resize=900%2C450&ssl=1)
 
 the Safari problem when we don’t restrict the`filter`region
 
-Because, while Safari has supported the `filter()` function since 2015, for about a decade, sadly[no other browser has followed (<FontIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717). There are bugs open for both[<FontIcon icon="fa-brands fa-chrome"/>Chrome](https://issues.chromium.org/issues/41208242)and[<FontIcon icon="fa-brands fa-firefox"/>Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043)in case anyone wants to show interest in them implementing this.
+Because, while Safari has supported the `filter()` function since 2015, for about a decade, sadly[no other browser has followed (<VPIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717). There are bugs open for both[<VPIcon icon="fa-brands fa-chrome"/>Chrome](https://issues.chromium.org/issues/41208242)and[<VPIcon icon="fa-brands fa-firefox"/>Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043)in case anyone wants to show interest in them implementing this.
 
-Here is the[live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/LEVxYoL), but keep in mind it only works in Safari.
+Here is the[live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/LEVxYoL), but keep in mind it only works in Safari.
 
 <CodePen
   user="thebabydino"
@@ -333,7 +333,7 @@ In this particular case, the grain`filter`is even simpler, as we don’t need to
 </svg>
 ```
 
-Here is the[live demo (<FontIcon icon="fa-brands fa-codepen"/>)](https://codepen.io/thebabydino/pen/dPoNXWp). Keep in mind it only works in Safari.
+Here is the[live demo (<VPIcon icon="fa-brands fa-codepen"/>)](https://codepen.io/thebabydino/pen/dPoNXWp). Keep in mind it only works in Safari.
 
 <CodePen
   user="thebabydino"
@@ -398,7 +398,7 @@ Let’s see a few more interesting demos where we’ve made visuals grainy!
 
 ![a grid of square images, each with a grainy shadow that's a blurred copy of itself](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/452726618-e0586989-c1cc-491e-b2b2-e0b8b602f393.png?resize=988%2C555&ssl=1)
 
-Shadows or blurred elements can also exhibit banding issues where their edges fade. In this demo, we’re using a slightly more complex `filter` to first[<FontIcon icon="fa-brands fa-firefox"/>blur](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feGaussianBlur)and[<FontIcon icon="fa-brands fa-firefox"/>offset](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feOffset)the input image, then using the `feTurbulence` and `feDisplacementMap` combination to make this blurred and offset input copy grainy. We also decrease its alpha a tiny little bit (basically multiplying it with`.9`). Finally, we’re placing the original `filter` input image on top of this blurred, offset, grainy and slightly faded copy.
+Shadows or blurred elements can also exhibit banding issues where their edges fade. In this demo, we’re using a slightly more complex `filter` to first[<VPIcon icon="fa-brands fa-firefox"/>blur](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feGaussianBlur)and[<VPIcon icon="fa-brands fa-firefox"/>offset](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feOffset)the input image, then using the `feTurbulence` and `feDisplacementMap` combination to make this blurred and offset input copy grainy. We also decrease its alpha a tiny little bit (basically multiplying it with`.9`). Finally, we’re placing the original `filter` input image on top of this blurred, offset, grainy and slightly faded copy.
 
 ```
 - let d = .1;
@@ -476,7 +476,7 @@ Grainy edge fade
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"/>
 
-These are created with SVG`<circle>`elements just so we can use SVG radial gradients for them. Compared to CSS `radial-grdient()`, SVG `radialGradient` has the advantage of allowing us to[<FontIcon icon="fas fa-globe"/>specify a focal point](https://svgwg.org/svg2-draft/pservers.html#RadialGradientAttributes)(via`fx`and `fy`), which allows us to create radial gradients not possible with pure CSS.
+These are created with SVG`<circle>`elements just so we can use SVG radial gradients for them. Compared to CSS `radial-grdient()`, SVG `radialGradient` has the advantage of allowing us to[<VPIcon icon="fas fa-globe"/>specify a focal point](https://svgwg.org/svg2-draft/pservers.html#RadialGradientAttributes)(via`fx`and `fy`), which allows us to create radial gradients not possible with pure CSS.
 
 CodePen Embed Fallback
 https://codepen.io/thebabydino/pen/bGJvajr
@@ -493,7 +493,7 @@ The`filter`is a bit more complex here because the aim was to create a specific t
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"/>
 
-![a grid of images with total or partial gradient borders, each having a glow, which is a grainy glow for every second image<br/>[live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bGPMOpJ)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/452727808-37f47164-c7f2-4340-a9bc-f07f81973d7c-2.png?resize=1024%2C576&ssl=1)
+![a grid of images with total or partial gradient borders, each having a glow, which is a grainy glow for every second image<br/>[live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bGPMOpJ)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/452727808-37f47164-c7f2-4340-a9bc-f07f81973d7c-2.png?resize=1024%2C576&ssl=1)
 
 Animated gradient glow borders seem to be all the rage nowadays, which is something I never imagined woukd happen when I first started playing with them almost a decade ago. But wherever there’s a fade effect like a glow, we may get banding. It’s pretty subtle in this case, but the grainy glow looks better than the no grain version.
 
@@ -525,7 +525,7 @@ Also, since we’re using`clip-path`to get the polygon shape and this is applied
 
 The idea here is we layer a bunch of different SVG shapes, give them various fills (plain, `linearGradient` or `radialGradient` ones), blur them and then finally apply a grain`filter`.
 
-![a 3⨯3 grid of grainy abstract backgrounds<br/>[live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/azONXNb/)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/450825545-32a13512-1b71-47bf-86eb-ddc424e6e6bb.png?resize=1024%2C616&ssl=1)
+![a 3⨯3 grid of grainy abstract backgrounds<br/>[live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/azONXNb/)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/450825545-32a13512-1b71-47bf-86eb-ddc424e6e6bb.png?resize=1024%2C616&ssl=1)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

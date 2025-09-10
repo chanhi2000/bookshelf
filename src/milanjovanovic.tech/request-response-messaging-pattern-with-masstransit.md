@@ -86,7 +86,7 @@ The bad parts:
 
 ---
 
-[**MassTransit**](/milanjovanovic.tech/using-masstransit-with-rabbitmq-and-azure-service-bus.md) supports the [<FontIcon icon="fas fa-globe"/>request-response](https://masstransit.io/documentation/concepts/requests) messaging pattern out of the box. We can use a **request client** to send requests and wait for a response. The request client is asynchronous and supports the `await` keyword. The request will also have a timeout of 30 seconds by default, to prevent waiting for the response for too long.
+[**MassTransit**](/milanjovanovic.tech/using-masstransit-with-rabbitmq-and-azure-service-bus.md) supports the [<VPIcon icon="fas fa-globe"/>request-response](https://masstransit.io/documentation/concepts/requests) messaging pattern out of the box. We can use a **request client** to send requests and wait for a response. The request client is asynchronous and supports the `await` keyword. The request will also have a timeout of 30 seconds by default, to prevent waiting for the response for too long.
 
 Let's imagine a scenario where you have an order processing system that needs to fetch an order's latest status. We can fetch the status from an Order Management service. With MassTransit, you'll create a request client to initiate the process. This client will send a `GetOrderStatusRequest` message onto the bus.
 
@@ -189,7 +189,7 @@ public sealed class GetUserPermissionsConsumer(
 
 By embracing messaging patterns with MassTransit, you're building on a much sturdier foundation. Your .NET services are now less tightly coupled, giving you the flexibility to evolve them independently and weather those inevitable network glitches or service outages.
 
-The [<FontIcon icon="fa-brands fa-youtube"/>request-response pattern](https://youtu.be/NjsoykEOkrk) is a powerful tool in your messaging arsenal. MassTransit makes it remarkably easy to implement, ensuring that requests and responses are delivered reliably.
+The [<VPIcon icon="fa-brands fa-youtube"/>request-response pattern](https://youtu.be/NjsoykEOkrk) is a powerful tool in your messaging arsenal. MassTransit makes it remarkably easy to implement, ensuring that requests and responses are delivered reliably.
 
 <VidStack src="youtube/NjsoykEOkrk" />
 

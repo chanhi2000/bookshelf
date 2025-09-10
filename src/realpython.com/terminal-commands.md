@@ -97,7 +97,7 @@ Understanding how to integrate the terminal, `pip`, and Git into your workflows 
 
 ## Install and Open the Terminal
 
-Back in the day, the term *terminal* referred to [<FontIcon icon="fa-brands fa-wikipedia-w"/>some clunky hardware](https://en.wikipedia.org/wiki/Computer_terminal) that you used to enter data into a computer. Nowadays, people are usually talking about a [<FontIcon icon="fa-brands fa-wikipedia-w"/>terminal emulator](https://en.wikipedia.org/wiki/terminal_emulator) when they say **terminal**, and they mean some kind of terminal software that you can find on most modern computers.
+Back in the day, the term *terminal* referred to [<VPIcon icon="fa-brands fa-wikipedia-w"/>some clunky hardware](https://en.wikipedia.org/wiki/Computer_terminal) that you used to enter data into a computer. Nowadays, people are usually talking about a [<VPIcon icon="fa-brands fa-wikipedia-w"/>terminal emulator](https://en.wikipedia.org/wiki/terminal_emulator) when they say **terminal**, and they mean some kind of terminal software that you can find on most modern computers.
 
 ::: note
 
@@ -112,13 +112,13 @@ In other words, the shell provides the commands that you use in a command-line i
 
 If you’re using a Linux or macOS machine, then the terminal is already built in. You can start using it right away.
 
-On Windows, you also have access to command-line applications like the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe). However, for this tutorial and terminal work in general, you should use the Windows terminal application instead.
+On Windows, you also have access to command-line applications like the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe). However, for this tutorial and terminal work in general, you should use the Windows terminal application instead.
 
 Read on to learn how to install and open the terminal on Windows and how to find the terminal on Linux and macOS.
 
-### <FontIcon icon="fa-brands fa-windows"/>Windows
+### <VPIcon icon="fa-brands fa-windows"/>Windows
 
-The **Windows terminal** is a modern and feature-rich application that gives you access to the command line, multiple shells, and advanced customization options. If you have Windows 11 or above, chances are that the Windows terminal is already present on your machine. Otherwise, you can download the application from the [<FontIcon icon="fa-brands fa-microsoft"/>Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) or from the official [GitHub repository (<FontIcon icon="iconfont icon-github"/>`microsoft/terminal`)](https://github.com/microsoft/terminal).
+The **Windows terminal** is a modern and feature-rich application that gives you access to the command line, multiple shells, and advanced customization options. If you have Windows 11 or above, chances are that the Windows terminal is already present on your machine. Otherwise, you can download the application from the [<VPIcon icon="fa-brands fa-microsoft"/>Microsoft Store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701) or from the official [GitHub repository (<VPIcon icon="iconfont icon-github"/>`microsoft/terminal`)](https://github.com/microsoft/terminal).
 
 Before continuing with this tutorial, you need to get the terminal working on your Windows computer. You can follow the [Your Python Coding Environment on Windows: Setup Guide](https://realpython.com/python-coding-setup-windows/) to learn [**how to install the Windows terminal**](/realpython.com/python-coding-setup-windows.md#installing-windows-terminal).
 
@@ -128,7 +128,7 @@ After you install the Windows terminal, you can find it in the Start menu under 
 
 It can be handy to create a desktop shortcut for the terminal or pin the application to your task bar for easier access.
 
-### <FontIcon icon="fa-brands fa-linux"/>Linux
+### <VPIcon icon="fa-brands fa-linux"/>Linux
 
 You can find the terminal application in the application menu of your Linux distribution. Alternatively, you can press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> on your keyboard or use the application launcher and search for the word *Terminal*.
 
@@ -138,9 +138,9 @@ After opening the terminal, you should see a window similar to the screenshot be
 
 How you open the terminal may also depend on which Linux distribution you’re using. Each one has a different way of doing it. If you have trouble opening the terminal on Linux, then the Real Python community will help you out in the comments below.
 
-### <FontIcon icon="iconfont icon-macos"/>macOS
+### <VPIcon icon="iconfont icon-macos"/>macOS
 
-A common way to open the terminal application on macOS is by opening the [<FontIcon icon="iconfont icon-macos"/>Spotlight Search](https://support.apple.com/en-us/guide/mac-help/mchlp1008/mac) and searching for *Terminal*. You can also find the terminal app in the application folder inside Finder.
+A common way to open the terminal application on macOS is by opening the [<VPIcon icon="iconfont icon-macos"/>Spotlight Search](https://support.apple.com/en-us/guide/mac-help/mchlp1008/mac) and searching for *Terminal*. You can also find the terminal app in the application folder inside Finder.
 
 When you open the terminal, you see a window that looks similar to the image below:
 
@@ -156,17 +156,17 @@ If you want to interact with the terminal, then you need to know which terminal 
 
 To work with the terminal effectively, it’s important to understand some basic **terminal commands** and know how to use them. Terminal commands are the instructions that you type into the terminal to execute a specific task.
 
-Depending on your operating system, you’ll run the terminal commands in a specific shell. For Linux, it’s most likely [<FontIcon icon="fa-brands fa-wikipedia-w"/>Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), for newer macOS versions it’s [<FontIcon icon="fa-brands fa-wikipedia-w"/>Zsh](https://en.wikipedia.org/wiki/Z_shell), and for Windows it’s [<FontIcon icon="fa-brands fa-wikipedia-w"/>PowerShell](https://en.wikipedia.org/wiki/PowerShell). These shells differ in their features, but they share most of the basic commands.
+Depending on your operating system, you’ll run the terminal commands in a specific shell. For Linux, it’s most likely [<VPIcon icon="fa-brands fa-wikipedia-w"/>Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), for newer macOS versions it’s [<VPIcon icon="fa-brands fa-wikipedia-w"/>Zsh](https://en.wikipedia.org/wiki/Z_shell), and for Windows it’s [<VPIcon icon="fa-brands fa-wikipedia-w"/>PowerShell](https://en.wikipedia.org/wiki/PowerShell). These shells differ in their features, but they share most of the basic commands.
 
 ::: note
 
-You can think of commands as little programs that are built into your shell or can be added by external applications. In PowerShell, commands are also known as [<FontIcon icon="iconfont icon-powershell"/>cmdlets](https://learn.microsoft.com/en-us/powershell/scripting/powershell-commands?view=powershell-7.3).
+You can think of commands as little programs that are built into your shell or can be added by external applications. In PowerShell, commands are also known as [<VPIcon icon="iconfont icon-powershell"/>cmdlets](https://learn.microsoft.com/en-us/powershell/scripting/powershell-commands?view=powershell-7.3).
 
 :::
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 These are the Windows commands that you’ll cover:
 
@@ -190,7 +190,7 @@ These are the Windows commands that you’ll cover:
 
 The terms in uppercase letters are references to the arguments that the commands allow.
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 These are the Linux and macOS commands that you’ll cover:
 
@@ -252,13 +252,13 @@ There are two terms that are worth exploring in the context of the current worki
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-powershell"/>
+@tab <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 (cat ENV:Path) -Split ";"
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 echo "${PATH//:/\n}"
@@ -268,7 +268,7 @@ echo "${PATH//:/\n}"
 
 When you enter a command in the terminal, the system will look for a program that matches the command in the directories listed in the PATH. The list visible after running the previous command is the list of locations that your system will look for when evaluating which program to run.
 
-To see which files and folders the <FontIcon icon="fas fa-folder-open"/>`/Users/realpython` directory contains, you can use `ls`, which is short for *list*:
+To see which files and folders the <VPIcon icon="fas fa-folder-open"/>`/Users/realpython` directory contains, you can use `ls`, which is short for *list*:
 
 ```sh
 ls
@@ -325,9 +325,9 @@ The output above may be a bit overwhelming at first. Have a look at this line to
 
 This line gives you valuable information about an item. There’s a directory named *Desktop*. The last modified date is November 7 at 16:00, and it has a size of 704 bytes.
 
-Apart from that, you can see information about the owner and group permissions. If you want to learn more about the file system permission notation, then you can check out the [<FontIcon icon="fa-brands fa-wikipedia-w"/>notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions).
+Apart from that, you can see information about the owner and group permissions. If you want to learn more about the file system permission notation, then you can check out the [<VPIcon icon="fa-brands fa-wikipedia-w"/>notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions).
 
-Each folder in the output of `ls` represents a subfolder that’s inside your current working directory. To change the current working directory into the <FontIcon icon="fas fa-folder-open"/>`Desktop/` subfolder, you use the *change directory* command, `cd`:
+Each folder in the output of `ls` represents a subfolder that’s inside your current working directory. To change the current working directory into the <VPIcon icon="fas fa-folder-open"/>`Desktop/` subfolder, you use the *change directory* command, `cd`:
 
 ```sh
 pwd
@@ -339,7 +339,7 @@ pwd
 # /Users/realpython/Desktop
 ```
 
-When you enter `cd` followed by a directory name, it’ll change the current working directory to the specified directory. After you run the command `cd Desktop`, the current working directory changes to <FontIcon icon="fas fa-folder-open"/>`/Users/realpython/Desktop`.
+When you enter `cd` followed by a directory name, it’ll change the current working directory to the specified directory. After you run the command `cd Desktop`, the current working directory changes to <VPIcon icon="fas fa-folder-open"/>`/Users/realpython/Desktop`.
 
 Note that you don’t specify a slash `/` or drive indicator like `C:` at the beginning of `Desktop`. Calling a path like this indicates that you want to navigate into a path that’s relative to the directory that you’re in right now.
 
@@ -347,7 +347,7 @@ You used a **relative path** in the command above to navigate into a subfolder. 
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-powershell"/>
+@tab <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 cd C:\Users\realpython\Desktop
@@ -356,9 +356,9 @@ pwd
 # C:\Users\realpython\Desktop
 ```
 
-In this case, the `cd` command changes the current working directory to the directory <FontIcon icon="fas fa-folder-open"/>`C:\Users\realpython\Desktop`, independently of its previous location.
+In this case, the `cd` command changes the current working directory to the directory <VPIcon icon="fas fa-folder-open"/>`C:\Users\realpython\Desktop`, independently of its previous location.
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 cd /Users/realpython/Desktop
@@ -367,7 +367,7 @@ pwd
 # /Users/realpython/Desktop
 ```
 
-In this case, the `cd` command changes the current working directory to the directory <FontIcon icon="fas fa-folder-open"/>`/Users/realpython/Desktop`, independently of its previous location.
+In this case, the `cd` command changes the current working directory to the directory <VPIcon icon="fas fa-folder-open"/>`/Users/realpython/Desktop`, independently of its previous location.
 
 :::
 
@@ -392,11 +392,11 @@ In this section, you’ll learn how to create and manage files and folders direc
 
 With the knowledge from this section, you’ll be able to create and organize your projects from within the terminal.
 
-Start by making sure that your current working directory is the Desktop. Then, use `mkdir` to create a new folder named <FontIcon icon="fas fa-folder-open"/>`rp_terminal`:
+Start by making sure that your current working directory is the Desktop. Then, use `mkdir` to create a new folder named <VPIcon icon="fas fa-folder-open"/>`rp_terminal`:
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-powershell"/>
+@tab <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 cd C:\Users\realpython\Desktop
@@ -406,7 +406,7 @@ pwd
 mkdir rp_terminal
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 cd /Users/realpython/Desktop
@@ -416,31 +416,31 @@ pwd
 mkdir rp_terminal
 ```
 
-You use the `mkdir` command to create a new directory. The command stands for *make directory*. Here, you name the new directory <FontIcon icon="fas fa-folder-open"/>`rp_terminal`.
+You use the `mkdir` command to create a new directory. The command stands for *make directory*. Here, you name the new directory <VPIcon icon="fas fa-folder-open"/>`rp_terminal`.
 
-Next, move into <FontIcon icon="fas fa-folder-open"/>`rp_terminal/` and create a new file named <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py`. Select your operating system below and use your platform-specific command accordingly:
+Next, move into <VPIcon icon="fas fa-folder-open"/>`rp_terminal/` and create a new file named <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py`. Select your operating system below and use your platform-specific command accordingly:
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-powershell"/>
+@tab <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 cd rp_terminal
 ni hello_terminal.py
 ```
 
-When you run the `ni` command, you create an empty file with the given name. In this case, the file is a Python script named <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py`.
+When you run the `ni` command, you create an empty file with the given name. In this case, the file is a Python script named <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py`.
 
 If a file with the provided name already exists, then using `ni` updates the file’s timestamp to the current date and time, but doesn’t change its contents. The `ni` command stands for *new item*.
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 cd rp_terminal
 touch hello_terminal.py
 ```
 
-When you run the `touch` command, you create an empty file with the given name. In this case, the file is a Python script named <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py`.
+When you run the `touch` command, you create an empty file with the given name. In this case, the file is a Python script named <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py`.
 
 If a file with the provided name already exists, then using `touch` updates the file’s timestamp to the current date and time. The `touch` command also updates a file’s access and modification times, even if its content remains the same.
 
@@ -455,7 +455,7 @@ ls -l
 # -rw-r--r--@ 1 realpython  staff  0 Nov 27 12:09 hello_terminal.py
 ```
 
-The `0` between the group and the timestamp indicates that <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py` is currently empty. You’ll use the `echo` command to add content to <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py` in a moment. Before you do so, have a look at what `echo` does when you type the command followed by some text:
+The `0` between the group and the timestamp indicates that <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py` is currently empty. You’ll use the `echo` command to add content to <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py` in a moment. Before you do so, have a look at what `echo` does when you type the command followed by some text:
 
 ```sh
 echo 'print("Hello, terminal!")'
@@ -471,7 +471,7 @@ The `stdout` is the default destination for data that a command-line program sen
 echo 'print("Hello, terminal!")' > hello_terminal.py
 ```
 
-Again, you’re using `echo` to output a given string. But this time, you use the caret symbol (`>`) to send the output into <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py`.
+Again, you’re using `echo` to output a given string. But this time, you use the caret symbol (`>`) to send the output into <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py`.
 
 ::: note
 
@@ -490,7 +490,7 @@ ls -l
 # -rw-r--r--@ 1 realpython  staff  26 Nov 27 12:12 hello_terminal.py
 ```
 
-Perfect, the size of <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py` is 26 bytes now. To verify that it contains the `print()` function call, you can use the `cat` command:
+Perfect, the size of <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py` is 26 bytes now. To verify that it contains the `print()` function call, you can use the `cat` command:
 
 ```sh
 cat hello_terminal.py
@@ -502,7 +502,7 @@ Disappointingly, the `cat` command doesn’t have to do anything with cats. It�
 
 When you use `cat` with multiple files as arguments, you can concatenate them and display the contents one after another. If you use `cat` with only one file, then `cat` is a convenient way to display the contents of a file in the terminal.
 
-Now that you know that <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py` contains valid Python code, you can [**run the Python script**](/realpython.com/run-python-scripts.md):
+Now that you know that <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py` contains valid Python code, you can [**run the Python script**](/realpython.com/run-python-scripts.md):
 
 ```sh
 python hello_terminal.py
@@ -536,13 +536,13 @@ A [**virtual environment**](/realpython.com/python-virtual-environments-a-primer
 
 ### Create a Virtual Environment
 
-Python has the built-in [<FontIcon icon="fa-brands fa-python"/>`venv`](https://docs.python.org/3/library/venv.html) module for creating virtual environments. This module helps you create virtual environments with an isolated Python installation. Once you’ve activated the virtual environment, you can install packages into this environment. The packages that you install into one virtual environment are isolated from all the other environments on your system.
+Python has the built-in [<VPIcon icon="fa-brands fa-python"/>`venv`](https://docs.python.org/3/library/venv.html) module for creating virtual environments. This module helps you create virtual environments with an isolated Python installation. Once you’ve activated the virtual environment, you can install packages into this environment. The packages that you install into one virtual environment are isolated from all the other environments on your system.
 
 You can follow these steps to create and activate a virtual environment named `venv`:
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-powershell"/>
+@tab <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m venv venv
@@ -551,7 +551,7 @@ venv\Scripts\activate
 # (venv) PS>
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m venv venv
@@ -646,11 +646,11 @@ Another helpful tool to manage your projects is Git. Read on to learn how to imp
 
 ## Interact With Git
 
-[<FontIcon icon="iconfont icon-git"/>Git](https://git-scm.com) is a **version control system** that developers commonly use, no matter which programming language they’re writing their code in. A version control system tracks changes made to files over time and helps you revert code to a previous version if needed.
+[<VPIcon icon="iconfont icon-git"/>Git](https://git-scm.com) is a **version control system** that developers commonly use, no matter which programming language they’re writing their code in. A version control system tracks changes made to files over time and helps you revert code to a previous version if needed.
 
 In this section, you’ll learn how to interact with Git directly from the terminal. You’ll initialize a Git repository, track files, and create commits.
 
-There are a bunch of [<FontIcon icon="iconfont icon-git"/>GUI clients](https://git-scm.com/downloads/guis) for Git. They can be convenient to use and help you understand Git logic better by providing rich visual feedback.
+There are a bunch of [<VPIcon icon="iconfont icon-git"/>GUI clients](https://git-scm.com/downloads/guis) for Git. They can be convenient to use and help you understand Git logic better by providing rich visual feedback.
 
 However, it’s still a good idea to learn the basics of interacting with Git in the terminal. Learning the basic Git terminal commands can help you understand how Git works under the hood.
 
@@ -671,7 +671,7 @@ When you run the `git init` command, Git creates an empty repository in the curr
 
 ::: note
 
-If you get an error when you use the `git` command, then you may need to [<FontIcon icon="iconfont icon-git"/>download and install a current version of Git](https://git-scm.com/downloads) for your operating system.
+If you get an error when you use the `git` command, then you may need to [<VPIcon icon="iconfont icon-git"/>download and install a current version of Git](https://git-scm.com/downloads) for your operating system.
 
 :::
 
@@ -696,9 +696,9 @@ The `git status` command shows your repository’s current status. It displays w
 
 A Git commit is a snapshot of the changes made to the files in a Git repository. When you make changes to your files and save them, you can take a snapshot of those changes by creating a commit on a branch. As you make new commits, the branch points to the latest commits.
 
-In this case, you’re on the <FontIcon icon="fas fa-code-branch"/>`main` branch, and there are no commits yet. You can also create new branches to work on new features or bug fixes and then switch between branches as needed. If you want to, then you can create multiple branches to work on various versions of your codebase simultaneously.
+In this case, you’re on the <VPIcon icon="fas fa-code-branch"/>`main` branch, and there are no commits yet. You can also create new branches to work on new features or bug fixes and then switch between branches as needed. If you want to, then you can create multiple branches to work on various versions of your codebase simultaneously.
 
-Additionally, `git status` shows you which files are untracked, meaning that Git isn’t tracking them. You might want to ignore specific files and folders, such as the <FontIcon icon="fas fa-folder-open"/>`venv/` folder, so that Git won’t track them.
+Additionally, `git status` shows you which files are untracked, meaning that Git isn’t tracking them. You might want to ignore specific files and folders, such as the <VPIcon icon="fas fa-folder-open"/>`venv/` folder, so that Git won’t track them.
 
 ::: details Which Files to Ignore
 
@@ -710,17 +710,17 @@ A general rule of thumb for ignoring files in a Git repository is to ignore any 
 - **Temporary files** or files created by your **operating system**, such as `.DS_Store` on macOS or `Thumbs.db` on Windows
 - **Log files** or other files that your application generates at runtime
 
-Check out [GitHub’s collection of <FontIcon icon="iconfont icon-git"/>`.gitignore` templates (<FontIcon icon="iconfont icon-github"/>`github/gitignore`)](https://github.com/github/gitignore) to get an overview of common <FontIcon icon="iconfont icon-git"/>`.gitignore` files. There you’ll also find a [Python specific <FontIcon icon="iconfont icon-git"/>`.gitignore` example (<FontIcon icon="iconfont icon-github"/>`github/gitignore`)](https://github.com/github/gitignore/blob/main/Python.gitignore).
+Check out [GitHub’s collection of <VPIcon icon="iconfont icon-git"/>`.gitignore` templates (<VPIcon icon="iconfont icon-github"/>`github/gitignore`)](https://github.com/github/gitignore) to get an overview of common <VPIcon icon="iconfont icon-git"/>`.gitignore` files. There you’ll also find a [Python specific <VPIcon icon="iconfont icon-git"/>`.gitignore` example (<VPIcon icon="iconfont icon-github"/>`github/gitignore`)](https://github.com/github/gitignore/blob/main/Python.gitignore).
 
 :::
 
-You can ignore files in Git by creating a <FontIcon icon="iconfont icon-git"/>`.gitignore` file and listing the files and folders that you want to ignore in that file:
+You can ignore files in Git by creating a <VPIcon icon="iconfont icon-git"/>`.gitignore` file and listing the files and folders that you want to ignore in that file:
 
 ```sh
 echo "venv" > .gitignore
 ```
 
-As you learned before, this command creates a new file named <FontIcon icon="iconfont icon-git"/>`.gitignore` and writes `venv` to it. Verify the current items in your Git repository by leveraging another command that you already know:
+As you learned before, this command creates a new file named <VPIcon icon="iconfont icon-git"/>`.gitignore` and writes `venv` to it. Verify the current items in your Git repository by leveraging another command that you already know:
 
 ```sh
 ls -a
@@ -729,7 +729,7 @@ ls -a
 # ..         .gitignore    venv
 ```
 
-You now have a <FontIcon icon="iconfont icon-git"/>`.gitignore` file next to your <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py` file, your <FontIcon icon="fas fa-folder-open"/>`venv/` folder, and the <FontIcon icon="fas fa-folder-open"/>`.git/` folder. To check if Git ignores the <FontIcon icon="fas fa-folder-open"/>`venv/` folder, run `git status` again:
+You now have a <VPIcon icon="iconfont icon-git"/>`.gitignore` file next to your <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py` file, your <VPIcon icon="fas fa-folder-open"/>`venv/` folder, and the <VPIcon icon="fas fa-folder-open"/>`.git/` folder. To check if Git ignores the <VPIcon icon="fas fa-folder-open"/>`venv/` folder, run `git status` again:
 
 ```sh
 git status
@@ -746,7 +746,7 @@ git status
 # nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-Perfect, Git now only shows <FontIcon icon="iconfont icon-git"/>`.gitignore` and <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py` as untracked files. Git knows the files are there, but you haven’t yet added them to the repository.
+Perfect, Git now only shows <VPIcon icon="iconfont icon-git"/>`.gitignore` and <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py` as untracked files. Git knows the files are there, but you haven’t yet added them to the repository.
 
 ### Track Files With Git
 
@@ -773,7 +773,7 @@ git status
 #  new file:   hello_terminal.py
 ```
 
-You can see in the output that the files <FontIcon icon="fa-brands fa-python"/>`hello_terminal.py` and <FontIcon icon="iconfont icon-git"/>`.gitignore` are added and ready to be committed:
+You can see in the output that the files <VPIcon icon="fa-brands fa-python"/>`hello_terminal.py` and <VPIcon icon="iconfont icon-git"/>`.gitignore` are added and ready to be committed:
 
 ```sh
 git commit -m "Initiate git repository"
@@ -818,7 +818,7 @@ The more you use the terminal, the more comfortable you’ll get. A fun way to i
 
 Especially for a Python developer, knowing how to work with the terminal can be extremely useful for various reasons. Besides using `pip` and Git to manage your Python projects, there are even more examples of when the terminal comes in handy:
 
-- **Command-line interfaces:** Many popular Python libraries and frameworks—such as [<FontIcon icon="fas fa-globe"/>Django](https://realpython.com/tutorials/django/), [<FontIcon icon="fas fa-globe"/>Flask](https://realpython.com/tutorials/flask/), and [**Poetry**](/realpython.com/dependency-management-python-poetry.md)—come with command-line interfaces that allow you to perform tasks such as creating new projects, running development servers, and managing databases.
+- **Command-line interfaces:** Many popular Python libraries and frameworks—such as [<VPIcon icon="fas fa-globe"/>Django](https://realpython.com/tutorials/django/), [<VPIcon icon="fas fa-globe"/>Flask](https://realpython.com/tutorials/flask/), and [**Poetry**](/realpython.com/dependency-management-python-poetry.md)—come with command-line interfaces that allow you to perform tasks such as creating new projects, running development servers, and managing databases.
 - **Automation and scripting:** The terminal allows you to automate repetitive tasks and create scripts to manage your development workflow—for example, [**running tests**](/realpython.com/python-testing.md) or [**deploying your application**](/realpython.com/django-hosting-on-heroku.md).
 - **Debugging:** The terminal can be useful for debugging your code. For instance, you can use [**`print()`**](/realpython.com/python-print/README.md) or [**logging in Python**](/realpython.com/python-logging.md) to show output in the terminal and understand what’s happening in your code. You can also use [**pdb for debugging your Python code**](/realpython.com/python-debugging-pdb.md).
 - **Performance:** Many command-line tools are faster than their GUI counterparts and ideal for working with large datasets or performing advanced tasks such as [**data processing and analysis**](/realpython.com/pyspark-intro.md).

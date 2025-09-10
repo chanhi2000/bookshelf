@@ -64,7 +64,7 @@ This tutorial on building a TypeScript app with Vite was last updated on 21 July
 
 ![Build TypeScript App Vite](/assets/image/blog.logrocket.com/build-react-typescript-app-vite/banner.png)
 
-React, combined with TypeScript, offers a powerful way to develop scalable and maintainable web applications. TypeScript brings static typing to the world of JavaScript, making it easier to write error-free code. Meanwhile, [<FontIcon icon="fas fa-globe"/>Vite](https://vitejs.dev/) is a fast and lightweight build tool for modern web development, providing a rapid development experience focused on speed and simplicity.
+React, combined with TypeScript, offers a powerful way to develop scalable and maintainable web applications. TypeScript brings static typing to the world of JavaScript, making it easier to write error-free code. Meanwhile, [<VPIcon icon="fas fa-globe"/>Vite](https://vitejs.dev/) is a fast and lightweight build tool for modern web development, providing a rapid development experience focused on speed and simplicity.
 
 In this article, we’ll delve deep into how to harness the combined strengths of React, TypeScript, and Vite to create an efficient web application. We’ll walk through the process of initiating a new project, integrating TypeScript, setting up React, and utilizing Vite’s capabilities to enhance the development experience.
 
@@ -104,7 +104,7 @@ Vite offers a unique development experience due to its speed, efficiency, and co
 - **Efficient bundle size**: Vite utilizes Rollup under the hood for its production build, which is well-known for generating small, efficient bundles. Building large-scale React applications results in faster load times, leading to an enhanced user experience.
 - **Intuitive asset handling**: Vite offers superior handling of assets by treating them as JavaScript imports. This lets you directly reference your React components’ images, fonts, and other assets. Vite optimally handles these assets during the production build, improving your application’s performance.
 - **Simplified, React-friendly configuration**: Vite is straightforward to configure, especially compared to older bundlers. Vite provides a ready-to-use template for React, enabling you to get a new React project up and running quickly. This focus on simplification allows you to spend more time developing your application and less time on the setup.
-- **React Fast Refresh integration**: [<FontIcon icon="fas fa-globe"/>Vite supports React Fast Refresh](https://v2.vitejs.dev/guide/features.html#hot-module-replacement), a potent tool from the React team for fast refreshing during local development. It retains the component state even after a file saves, which results in a seamless and uninterrupted development experience. This is particularly useful in React, where stateful component logic is common.
+- **React Fast Refresh integration**: [<VPIcon icon="fas fa-globe"/>Vite supports React Fast Refresh](https://v2.vitejs.dev/guide/features.html#hot-module-replacement), a potent tool from the React team for fast refreshing during local development. It retains the component state even after a file saves, which results in a seamless and uninterrupted development experience. This is particularly useful in React, where stateful component logic is common.
 
 ---
 
@@ -155,9 +155,9 @@ After processing the project information we just submitted, Vite will generate t
 
 Below are the key files from the `vite-ts-app` project folder:
 
-- <FontIcon icon="fa-brands fa-html5"/>`index.html`: The main file, typically found in a public directory in a Vite project
-- <FontIcon icon="fa-brands fa-react"/>`main.tsx`: Where the code for producing the browser output is executed. This file is common for Vite projects
-- <FontIcon icon="iconfont icon-json"/>`vite.config.json`: The configuration file for any Vite project
+- <VPIcon icon="fa-brands fa-html5"/>`index.html`: The main file, typically found in a public directory in a Vite project
+- <VPIcon icon="fa-brands fa-react"/>`main.tsx`: Where the code for producing the browser output is executed. This file is common for Vite projects
+- <VPIcon icon="iconfont icon-json"/>`vite.config.json`: The configuration file for any Vite project
 
 ---
 
@@ -185,7 +185,7 @@ Press the <kbd>o</kbd> key to open the application in your web browser:
 
 With the Vite app up and running in our browser, let’s create a blog application using Vite and React that renders some static blog data from a JSON file.
 
-To get started, let’s update the code in the <FontIcon icon="fa-brands fa-react"/>`App.tsx` file to add a navbar to the application’s UI:
+To get started, let’s update the code in the <VPIcon icon="fa-brands fa-react"/>`App.tsx` file to add a navbar to the application’s UI:
 
 ```tsx title="App.tsx"
 import './App.css'
@@ -205,7 +205,7 @@ function App() {
 export default App
 ```
 
-Next, let’s update the <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file to add some new styles to the application:
+Next, let’s update the <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` file to add some new styles to the application:
 
 ```css title="App.css"
 * {
@@ -236,7 +236,7 @@ The resulting UI will look like the following:
 
 ### Creating the blog data
 
-Next, we’ll need to add data to our blog application. Let’s create a <FontIcon icon="iconfont icon-json"/>`blog.json` file in the project’s root directory and add the following data:
+Next, we’ll need to add data to our blog application. Let’s create a <VPIcon icon="iconfont icon-json"/>`blog.json` file in the project’s root directory and add the following data:
 
 ```json title="blog.json"
 [
@@ -258,7 +258,7 @@ Here we defined some arrays of blog objects, which we’ll render in our Vite ap
 
 ### Creating a blog component
 
-Now, let’s create a <FontIcon icon="fas fa-folder-open"/>`components` folder in the <FontIcon icon="fas fa-folder-open"/>`src` directory. Then, we’ll create a <FontIcon icon="fa-brands fa-react"/>`Blog.tsx` file and add the below snippet:
+Now, let’s create a <VPIcon icon="fas fa-folder-open"/>`components` folder in the <VPIcon icon="fas fa-folder-open"/>`src` directory. Then, we’ll create a <VPIcon icon="fa-brands fa-react"/>`Blog.tsx` file and add the below snippet:
 
 ```ts :collapsed-lines title="components/Blog.tsx"
 import blogData from '../../blog.json'
@@ -289,7 +289,7 @@ export function Blog() {
 
 This code defines a function that returns a container for blog posts and includes a list of blog cards. Each card displays the title, cover image, and blog post author. The code uses a `map` function to loop through a `blogData` array and create a `card` for each item.
 
-Next, let’s update the <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file to style the `Blog` component:
+Next, let’s update the <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` file to style the `Blog` component:
 
 ```css
 .App {
@@ -318,7 +318,7 @@ Next, let’s update the <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file 
 }
 ```
 
-Lastly, let’s update the <FontIcon icon="fa-brands fa-react"/>`App.tsx` component to import and render the `Blog` component:
+Lastly, let’s update the <VPIcon icon="fa-brands fa-react"/>`App.tsx` component to import and render the `Blog` component:
 
 ```tsx title="App.tsx"
 import './App.css'

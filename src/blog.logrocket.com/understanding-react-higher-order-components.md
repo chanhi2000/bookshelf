@@ -111,7 +111,7 @@ export default HoverCounter;
 
 ![A Hovering Increment](/assets/image/blog.logrocket.com/understanding-react-higher-order-components/hovering-increment-1.webp)
 
-Even though our code samples are valid, there is a major problem: both of the files possess similar code logic. Consequently, this breaks the [<FontIcon icon="fas fa-globe"/>DRY concept](https://thevaluable.dev/dry-principle-cost-benefit-example/). So how do we fix this issue?
+Even though our code samples are valid, there is a major problem: both of the files possess similar code logic. Consequently, this breaks the [<VPIcon icon="fas fa-globe"/>DRY concept](https://thevaluable.dev/dry-principle-cost-benefit-example/). So how do we fix this issue?
 
 This is where HOCs come in. Higher-order components allow developers to reuse code logic in their projects. As a result, this means less repetition and more optimized, readable code.
 
@@ -132,7 +132,7 @@ Remember that the flexibility of HOCs allows you to adapt them to various use ca
 
 ## The structure of a higher-order component
 
-According to [<FontIcon icon="fa-brands fa-react"/>React’s documentation](https://reactjs.org/docs/higher-order-components.html), a typical React HOC has the following definition:
+According to [<VPIcon icon="fa-brands fa-react"/>React’s documentation](https://reactjs.org/docs/higher-order-components.html), a typical React HOC has the following definition:
 
 > A higher-order component is a function that takes in a component and returns a new component.
 
@@ -221,8 +221,8 @@ mkdir components #will hold all our custom components
 
 For this article, we will build two custom components to demonstrate HOC usage:
 
-- <FontIcon icon="fa-brands fa-js"/>`ClickIncrease.js`: This component will render a button and a piece of text. When the user clicks on this button (an `onClick` event), the `fontSize` property of the text will increase
-- <FontIcon icon="fa-brands fa-js"/>`HoverIncrease.js` : This will be similar to that of `ClickIncrease`. However, unlike the former, this component will listen to `onMouseOver` events
+- <VPIcon icon="fa-brands fa-js"/>`ClickIncrease.js`: This component will render a button and a piece of text. When the user clicks on this button (an `onClick` event), the `fontSize` property of the text will increase
+- <VPIcon icon="fa-brands fa-js"/>`HoverIncrease.js` : This will be similar to that of `ClickIncrease`. However, unlike the former, this component will listen to `onMouseOver` events
 
 In your project, navigate to the `components` folder. Here, create these two new files. When that’s done, your file structure should look like this:
 
@@ -232,7 +232,7 @@ Now that we have laid out the groundwork for the project, it’s time to build o
 
 ### Coding our components
 
-In <FontIcon icon="fa-brands fa-js"/>`ClickIncrease.js`, start by writing the following code:
+In <VPIcon icon="fa-brands fa-js"/>`ClickIncrease.js`, start by writing the following code:
 
 ```jsx title="components/ClickIncrease.js"
 function ClickIncrease() {
@@ -320,7 +320,7 @@ Let’s deconstruct this code piece by piece. In the start, we created a functio
 
 Then, we told React to render `OriginalComponent` to the UI. We will implement enhancement functionality later in this article.
 
-When that’s done, it’s time to use the `UpdatedComponent` function in our app. To do so, first go to the <FontIcon icon="fa-brands fa-js"/>`HoverIncrease.js` file and write the following lines:
+When that’s done, it’s time to use the `UpdatedComponent` function in our app. To do so, first go to the <VPIcon icon="fa-brands fa-js"/>`HoverIncrease.js` file and write the following lines:
 
 ```jsx title="HoverIncrease.js"
 import withCounter from "./withCounter.js" //import the withCounter function
@@ -354,7 +354,7 @@ Notice that our result is unchanged. This is because we haven’t made changes t
 
 Using HOCs, React allows users to share props within the project’s wrapped components.
 
-As a first step, create a `name` prop in <FontIcon icon="fa-brands fa-js"/>`withCounter.js` like so:
+As a first step, create a `name` prop in <VPIcon icon="fa-brands fa-js"/>`withCounter.js` like so:
 
 ```jsx title="components/withCounter.js"
 const UpdatedComponent = (OriginalComponent) => {
@@ -449,7 +449,7 @@ Here, one important thing to notice is that the value of the `counter` state is 
 
 Even though our code works, consider the following situation: what if we want to increment the value of `counter` with a custom value? Via HOCs, we can even tell React to pass specific data to certain child components. This is made possible with parameters.
 
-To enable support for parameters, write the following code in <FontIcon icon="fas fa-folder-open"/>`components/`<FontIcon icon="fa-brands fa-js"/>`withCounter.js`:
+To enable support for parameters, write the following code in <VPIcon icon="fas fa-folder-open"/>`components/`<VPIcon icon="fa-brands fa-js"/>`withCounter.js`:
 
 ```jsx title="components/withCounter.js"
 //This function will now accept an 'increaseCount' parameter.
@@ -468,7 +468,7 @@ const UpdatedComponent = (OriginalComponent, increaseCount) => {
 
 In this piece of code, we informed React that our function will now take in an additional parameter called `increaseCount`.
 
-All that’s left for us is to use this parameter in our wrapped components. To do so, add this line of code in <FontIcon icon="fa-brands fa-js"/>`HoverIncrease.js` and <FontIcon icon="fa-brands fa-js"/>`ClickIncrease.js`:
+All that’s left for us is to use this parameter in our wrapped components. To do so, add this line of code in <VPIcon icon="fa-brands fa-js"/>`HoverIncrease.js` and <VPIcon icon="fa-brands fa-js"/>`ClickIncrease.js`:
 
 ```jsx
 //In HoverIncrease, change the 'export' statement:
@@ -481,7 +481,7 @@ export default withCounter(ClickIncrease, 3); //value of increaseCount is 3.
 
 ![Clicking Increment Counters](/assets/image/blog.logrocket.com/understanding-react-higher-order-components/clicking-increment-counters-1.webp)
 
-In the end, the <FontIcon icon="fa-brands fa-js"/>`withCounter.js` file should look like this:
+In the end, the <VPIcon icon="fa-brands fa-js"/>`withCounter.js` file should look like this:
 
 ```jsx title="withCounter.js"
 import React from "react";
@@ -502,7 +502,7 @@ const UpdatedComponent = (OriginalComponent, increaseCount) => {
 export default UpdatedComponent;
 ```
 
-<FontIcon icon="fa-brands fa-js"/>`HoverIncrease.js` should look like this:
+<VPIcon icon="fa-brands fa-js"/>`HoverIncrease.js` should look like this:
 
 ```jsx title="components/HoverIncrease.js"
 import { useState } from "react";

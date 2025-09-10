@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sor
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sort-vs-Bubble-Sort_Watermarked.5c97ff618265.jpg"/>
 
-[<FontIcon icon="fa-brands fa-python"/>Sorting](https://docs.python.org/3/howto/sorting.html) is one of the most thoroughly studied algorithms in computer science. There are dozens of different sorting implementations and applications that you can use to make your code more efficient and effective.
+[<VPIcon icon="fa-brands fa-python"/>Sorting](https://docs.python.org/3/howto/sorting.html) is one of the most thoroughly studied algorithms in computer science. There are dozens of different sorting implementations and applications that you can use to make your code more efficient and effective.
 
 You can use sorting to solve a wide range of problems:
 

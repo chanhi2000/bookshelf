@@ -140,20 +140,20 @@ There are common situations that you may encounter while working with files. Mos
 
 Additionally, there are built-in libraries out there that you can use to help you:
 
-- [<FontIcon icon="fa-brands fa-python"/>`wave`](https://docs.python.org/3.7/library/wave.html): read and write WAV files (audio)
-- [<FontIcon icon="fa-brands fa-python"/>`aifc`](https://docs.python.org/3/library/aifc.html): read and write AIFF and AIFC files (audio)
-- [<FontIcon icon="fa-brands fa-python"/>`sunau`](https://docs.python.org/3/library/sunau.html): read and write Sun AU files
-- [<FontIcon icon="fa-brands fa-python"/>`tarfile`](https://docs.python.org/3/library/tarfile.html): read and write tar archive files
-- [<FontIcon icon="fa-brands fa-python"/>`zipfile`](https://docs.python.org/3/library/zipfile.html): work with ZIP archives
-- [<FontIcon icon="fa-brands fa-python"/>`configparser`](https://docs.python.org/3/library/configparser.html): easily create and parse configuration files
-- [<FontIcon icon="fa-brands fa-python"/>`xml.etree.ElementTree`](https://docs.python.org/3/library/xml.etree.elementtree.html): create or read XML based files
-- [<FontIcon icon="fa-brands fa-python"/>`msilib`](https://docs.python.org/3/library/msilib.html): read and write Microsoft Installer files
-- [<FontIcon icon="fa-brands fa-python"/>`plistlib`](https://docs.python.org/3/library/plistlib.html): generate and parse Mac OS X `.plist` files
+- [<VPIcon icon="fa-brands fa-python"/>`wave`](https://docs.python.org/3.7/library/wave.html): read and write WAV files (audio)
+- [<VPIcon icon="fa-brands fa-python"/>`aifc`](https://docs.python.org/3/library/aifc.html): read and write AIFF and AIFC files (audio)
+- [<VPIcon icon="fa-brands fa-python"/>`sunau`](https://docs.python.org/3/library/sunau.html): read and write Sun AU files
+- [<VPIcon icon="fa-brands fa-python"/>`tarfile`](https://docs.python.org/3/library/tarfile.html): read and write tar archive files
+- [<VPIcon icon="fa-brands fa-python"/>`zipfile`](https://docs.python.org/3/library/zipfile.html): work with ZIP archives
+- [<VPIcon icon="fa-brands fa-python"/>`configparser`](https://docs.python.org/3/library/configparser.html): easily create and parse configuration files
+- [<VPIcon icon="fa-brands fa-python"/>`xml.etree.ElementTree`](https://docs.python.org/3/library/xml.etree.elementtree.html): create or read XML based files
+- [<VPIcon icon="fa-brands fa-python"/>`msilib`](https://docs.python.org/3/library/msilib.html): read and write Microsoft Installer files
+- [<VPIcon icon="fa-brands fa-python"/>`plistlib`](https://docs.python.org/3/library/plistlib.html): generate and parse Mac OS X `.plist` files
 
 There are plenty more out there. Additionally there are even more third party tools available on PyPI. Some popular ones are the following:
 
-- [<FontIcon icon="iconfont icon-pypi"/>`PyPDF2`](https://pypi.org/project/PyPDF2/): PDF toolkit
-- [<FontIcon icon="iconfont icon-pypi"/>`xlwings`](https://pypi.org/project/xlwings/): read and write Excel files
+- [<VPIcon icon="iconfont icon-pypi"/>`PyPDF2`](https://pypi.org/project/PyPDF2/): PDF toolkit
+- [<VPIcon icon="iconfont icon-pypi"/>`xlwings`](https://pypi.org/project/xlwings/): read and write Excel files
 - [**`Pillow`**](/realpython.com/image-processing-with-the-python-pillow-library.md): image reading and manipulation
 
 ---

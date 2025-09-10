@@ -52,7 +52,7 @@ cover: https://marcinmoskala.com/kt-academy-articles/promotion/dispatcher-for-ba
   logo="https://kt.academy/logo.png"
   preview="https://marcinmoskala.com/kt-academy-articles/promotion/dispatcher-for-backend.jpg"/>
 
-I recently [started a discussion (<FontIcon icon="iconfont icon-github"/>`spring-projects/spring-framework`)](https://github.com/spring-projects/spring-framework/issues/33788) about the best dispatcher for Spring Boot. Here I decided to summarize all the most important points, and explain why different options are not appropriate.
+I recently [started a discussion (<VPIcon icon="iconfont icon-github"/>`spring-projects/spring-framework`)](https://github.com/spring-projects/spring-framework/issues/33788) about the best dispatcher for Spring Boot. Here I decided to summarize all the most important points, and explain why different options are not appropriate.
 
 ---
 
@@ -253,7 +253,7 @@ fun sendEmails() {
 }
 ```
 
-Considering that sending an email takes $100 \text{ms}$, and you need to send $100,000$ of them, and you have $64$ threads, it will take $\frac{100000\times0.1}{64\times60}=2.6 \text{minutes}$. Throughout that time, all other requests will be waiting in a queue. That is not good. (That is not an abstract example, see [this issue (<FontIcon icon="iconfont icon-jetbrains"/>)](https://youtrack.jetbrains.com/issue/KTOR-6462), but thankfully it is possible to change dispatcher in Ktor Client).
+Considering that sending an email takes $100 \text{ms}$, and you need to send $100,000$ of them, and you have $64$ threads, it will take $\frac{100000\times0.1}{64\times60}=2.6 \text{minutes}$. Throughout that time, all other requests will be waiting in a queue. That is not good. (That is not an abstract example, see [this issue (<VPIcon icon="iconfont icon-jetbrains"/>)](https://youtrack.jetbrains.com/issue/KTOR-6462), but thankfully it is possible to change dispatcher in Ktor Client).
 
 Of course, you could argue that it should be this service responsibility to use a dispatcher that is independent of the IO dispatcher, and I do accept that. That it why I still consider `Dispatchers.IO` as a good choice, but I think it would be better to protect handler threads from waiting in a queue in the first place, and for that I think it should be started on a different dispatcher.
 
@@ -316,7 +316,7 @@ In this article, I analyzed which dispatcher is the best choice for a backend ap
 - A dispatcher limited to a certain number of threads is the best choice, as it would be the safest option.
 - Loom dispatcher is a perfect choice for JVM 21+.
 
-I hope this article will help resolve [this issue in Spring Boot (<FontIcon icon="iconfont icon-github"/>`spring-projects/spring-framework`)](https://github.com/spring-projects/spring-framework/issues/33788), and in other backend frameworks. If you have any questions or comments, please let me know.
+I hope this article will help resolve [this issue in Spring Boot (<VPIcon icon="iconfont icon-github"/>`spring-projects/spring-framework`)](https://github.com/spring-projects/spring-framework/issues/33788), and in other backend frameworks. If you have any questions or comments, please let me know.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -112,9 +112,9 @@ At the time of writing, only Chrome, Edge, and Safari have the full support of t
 
 ## What is `shape()`?
 
-You are probably familiar with`clip-path: polygon()`, right? A function that allows you to specify different points, draw straight lines between them and create various CSS shapes (I invite you to check[<FontIcon icon="fas fa-globe"/>my online collection of CSS shapes](https://css-shape.com/)to see some of them). I said “straight lines” because when it comes to curves,`clip-path`is very limited. We have`circle()`and`ellipse()`, but we cannot achieve complex shapes with them.
+You are probably familiar with`clip-path: polygon()`, right? A function that allows you to specify different points, draw straight lines between them and create various CSS shapes (I invite you to check[<VPIcon icon="fas fa-globe"/>my online collection of CSS shapes](https://css-shape.com/)to see some of them). I said “straight lines” because when it comes to curves,`clip-path`is very limited. We have`circle()`and`ellipse()`, but we cannot achieve complex shapes with them.
 
-`shape()`is the new value that overcomes such limitation. In addition to straight lines, it allows us to draw curves. But If you check the[<FontIcon icon="fa-brands fa-firefox"/>MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/shape)or[<FontIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-2/#shape-function), you can see that the syntax is a bit complex and not easy to grasp. It’s very similar to SVG path, which is good as it gives us a lot of options and flexibility, but it requires a lot of practice to get used to it.
+`shape()`is the new value that overcomes such limitation. In addition to straight lines, it allows us to draw curves. But If you check the[<VPIcon icon="fa-brands fa-firefox"/>MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/shape)or[<VPIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-2/#shape-function), you can see that the syntax is a bit complex and not easy to grasp. It’s very similar to SVG path, which is good as it gives us a lot of options and flexibility, but it requires a lot of practice to get used to it.
 
 I will not write a boring tutorial explaining the syntax and all the possible values, but rather focus on one command per article. In this article, we will study the`arc`command, and the next article will be about the`curve`command. And, of course, we are going to draw cool shapes. Otherwise it’s no fun!
 
@@ -378,7 +378,7 @@ $n: 10;
 
 This one is interesting because using`1%`as a radius is kind of strange and not intuitive. In the explanation of the arc command, I said that we have exactly two circles with the given radius that intersect with the two points, but what if the radius is smaller than half the distance between the points? No circles can meet that condition.
 
-This case falls into an error handling where the browser will scale the radius until we can have at least one circle that meets the conditions (yes, it’s defined within[<FontIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-2/#typedef-shape-arc-command)). That circle will simply have its radius equal to half the distance between both points. It also means we only have two arcs with the same size (`small`and`large`will be equal)
+This case falls into an error handling where the browser will scale the radius until we can have at least one circle that meets the conditions (yes, it’s defined within[<VPIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-2/#typedef-shape-arc-command)). That circle will simply have its radius equal to half the distance between both points. It also means we only have two arcs with the same size (`small`and`large`will be equal)
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Bd23aq9Z.png?resize=699%2C397&ssl=1)
 
@@ -399,7 +399,7 @@ Let’s end with a last demo of a heart shape, where I am using the arc command.
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-And don’t forget to bookmark[<FontIcon icon="fas fa-globe"/>my online generators](https://css-generators.com/)from where you can get the code of the flower shapes and more!
+And don’t forget to bookmark[<VPIcon icon="fas fa-globe"/>my online generators](https://css-generators.com/)from where you can get the code of the flower shapes and more!
 
 ::: info Article Series
 

@@ -66,7 +66,7 @@ This React Hooks tutorial was last updated on 6 March 2023 to include more React
 
 React Hooks have a very simple API, but given its massive community and variety of use cases, questions are bound to arise around React Hooks best practices and how to solve common problems.
 
-In this tutorial, we’ll outline some React Hooks best practices and highlight some use cases with examples, from simple to advanced scenarios. To help demonstrate how to solve common React Hooks questions, I built an [accompanying web app (<FontIcon icon="iconfont icon-github"/>`ohansemmanuel/react-hooks-cheatsheet`)](https://github.com/ohansemmanuel/react-hooks-cheatsheet) for live interaction with some of the examples from this article.
+In this tutorial, we’ll outline some React Hooks best practices and highlight some use cases with examples, from simple to advanced scenarios. To help demonstrate how to solve common React Hooks questions, I built an [accompanying web app (<VPIcon icon="iconfont icon-github"/>`ohansemmanuel/react-hooks-cheatsheet`)](https://github.com/ohansemmanuel/react-hooks-cheatsheet) for live interaction with some of the examples from this article.
 
 ::: info React Hooks cheat sheet: Best practices and examples
 
@@ -78,7 +78,7 @@ This React Hooks cheat sheet includes a lot of code snippets and assumes some Ho
 
 ## `useState`
 
-[<FontIcon icon="fa-brands fa-react"/>`useState`](https://reactjs.org/docs/hooks-reference.html#usestate) lets you use local state within a function component. You pass the initial state to this function and it returns a variable with the current state value (not necessarily the initial state) and another function to update this value.
+[<VPIcon icon="fa-brands fa-react"/>`useState`](https://reactjs.org/docs/hooks-reference.html#usestate) lets you use local state within a function component. You pass the initial state to this function and it returns a variable with the current state value (not necessarily the initial state) and another function to update this value.
 
 Check out this React `useState` video tutorial:
 
@@ -123,7 +123,7 @@ const UpdateStateVar = () => {
 
 ### Why does the React `useState` Hook not update immediately?
 
-If you find that [<FontIcon icon="fas fa-globe"/>`useState`/`setState` are not updating immediately](https://linguinecode.com/post/why-react-setstate-usestate-does-not-update-immediately), the answer is simple: they’re just queues.
+If you find that [<VPIcon icon="fas fa-globe"/>`useState`/`setState` are not updating immediately](https://linguinecode.com/post/why-react-setstate-usestate-does-not-update-immediately), the answer is simple: they’re just queues.
 
 React `useState` and `setState` don’t make changes directly to the state object; they create queues to optimize performance, which is why the changes don’t update immediately.
 
@@ -268,13 +268,13 @@ const CounterFnSetState = () => {
 }
 ```
 
-Here’s a [<FontIcon icon="fas fa-globe"/>live, editable `useState` cheat sheet](https://react-hooks-cheatsheet.com/usestate) if you want to dive deeper on your own.
+Here’s a [<VPIcon icon="fas fa-globe"/>live, editable `useState` cheat sheet](https://react-hooks-cheatsheet.com/usestate) if you want to dive deeper on your own.
 
 ---
 
 ## `useEffect`
 
-With[<FontIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-reference.html#useeffect), you invoke [**side effects from within functional components**](/blog.logrocket.com/useeffect-react-hook-complete-guide.md), which is an important concept to understand in the React Hooks era.
+With[<VPIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-reference.html#useeffect), you invoke [**side effects from within functional components**](/blog.logrocket.com/useeffect-react-hook-complete-guide.md), which is an important concept to understand in the React Hooks era.
 
 ### Basic sideeffect
 
@@ -447,13 +447,13 @@ useEffect(() => {
 })
 ```
 
-Here’s a [<FontIcon icon="fas fa-globe"/>live, editable `useEffect` cheat sheet](https://react-hooks-cheatsheet.com/useeffect) if you’d like to explore further.
+Here’s a [<VPIcon icon="fas fa-globe"/>live, editable `useEffect` cheat sheet](https://react-hooks-cheatsheet.com/useeffect) if you’d like to explore further.
 
 ---
 
 ## `useContext`
 
-[<FontIcon icon="fa-brands fa-react"/>`useContext`](https://reactjs.org/docs/hooks-reference.html#usecontext) saves you the stress of having to rely on a Context consumer. React Context has a simpler API when compared to `MyContext.Consumer` and the render props API it exposes.
+[<VPIcon icon="fa-brands fa-react"/>`useContext`](https://reactjs.org/docs/hooks-reference.html#usecontext) saves you the stress of having to rely on a Context consumer. React Context has a simpler API when compared to `MyContext.Consumer` and the render props API it exposes.
 
 Context is React’s way of [**handling shared data between multiple components**](/blog.logrocket.com/react-reference-guide-context-api.md).
 
@@ -505,13 +505,13 @@ const Display = () => {
 }
 ```
 
-Here’s a live, editable [<FontIcon icon="fas fa-globe"/>React Context cheat sheet](https://react-hooks-cheatsheet.com/usecontext) if you’d like to tinker around yourself.
+Here’s a live, editable [<VPIcon icon="fas fa-globe"/>React Context cheat sheet](https://react-hooks-cheatsheet.com/usecontext) if you’d like to tinker around yourself.
 
 ---
 
 ## `useLayoutEffect`
 
-[<FontIcon icon="fa-brands fa-react"/>`useLayoutEffect`](https://reactjs.org/docs/hooks-reference.html#uselayouteffect) has the very same signature as `useEffect`. We’ll discuss the difference between `useLayoutEffect` and `useEffect` below.
+[<VPIcon icon="fa-brands fa-react"/>`useLayoutEffect`](https://reactjs.org/docs/hooks-reference.html#uselayouteffect) has the very same signature as `useEffect`. We’ll discuss the difference between `useLayoutEffect` and `useEffect` below.
 
 ```js
 useLayoutEffect(() => {
@@ -566,13 +566,13 @@ To prevent the user from seeing flickers of changes, you can use `useLayoutEffec
 
 You can [**read my follow-up piece**](/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples.md) for a deep dive on the differences between `useEffect` and `useLayoutEffect`.
 
-Here’s a live, editable [<FontIcon icon="fas fa-globe"/>`useLayoutEffect` cheat sheet](https://react-hooks-cheatsheet.com/uselayoutEffect).
+Here’s a live, editable [<VPIcon icon="fas fa-globe"/>`useLayoutEffect` cheat sheet](https://react-hooks-cheatsheet.com/uselayoutEffect).
 
 ---
 
 ## `useReducer`
 
-[<FontIcon icon="fa-brands fa-react"/>`useReducer`](https://reactjs.org/docs/hooks-reference.html#usereducer) may be used as an alternative to `useState`. It’s ideal for complex state logic where there’s a dependency on previous state values or a lot of state sub-values.
+[<VPIcon icon="fa-brands fa-react"/>`useReducer`](https://reactjs.org/docs/hooks-reference.html#usereducer) may be used as an alternative to `useState`. It’s ideal for complex state logic where there’s a dependency on previous state values or a lot of state sub-values.
 
 Depending on your use case, you may find `useReducer` quite testable.
 
@@ -707,13 +707,13 @@ ReactDOM.render(Bar)
 
 The results remain the same with a setState-like API imitated.
 
-Here’s an editable [<FontIcon icon="fas fa-globe"/>`useReducer` cheat sheet](https://react-hooks-cheatsheet.com/usereducer).
+Here’s an editable [<VPIcon icon="fas fa-globe"/>`useReducer` cheat sheet](https://react-hooks-cheatsheet.com/usereducer).
 
 ---
 
 ## `useCallback`
 
-[<FontIcon icon="fa-brands fa-react"/>`useCallback`](https://reactjs.org/docs/hooks-reference.html#usecallback) returns a [<FontIcon icon="fa-brands fa-wikipedia-w"/>memoized](https://en.wikipedia.org/wiki/Memoization) callback. Wrapping a component with`React.Memo()` signals the intent to reuse code. This does not automatically extend to functions passed as parameters.
+[<VPIcon icon="fa-brands fa-react"/>`useCallback`](https://reactjs.org/docs/hooks-reference.html#usecallback) returns a [<VPIcon icon="fa-brands fa-wikipedia-w"/>memoized](https://en.wikipedia.org/wiki/Memoization) callback. Wrapping a component with`React.Memo()` signals the intent to reuse code. This does not automatically extend to functions passed as parameters.
 
 React [**saves a reference to the function when wrapped with`useCallback`**](/blog.logrocket.com/react-usememo-vs-usecallback-a-pragmatic-guide.md#whatis). Pass this reference as a property to new components to reduce rendering time.
 
@@ -870,13 +870,13 @@ const Instructions = memo((props) => {
 render(<App />)
 ```
 
-Here’s [<FontIcon icon="fas fa-globe"/>live, editable `useCallback` cheat sheet](https://react-hooks-cheatsheet.com/usecallback).
+Here’s [<VPIcon icon="fas fa-globe"/>live, editable `useCallback` cheat sheet](https://react-hooks-cheatsheet.com/usecallback).
 
 ---
 
 ## `useMemo`
 
-The [<FontIcon icon="fa-brands fa-react"/>`useMemo`](https://reactjs.org/docs/hooks-reference.html#usememo) function returns a memoized value.[**`useMemo` is different from `useCallback`**](/blog.logrocket.com/react-usememo-vs-usecallback-a-pragmatic-guide.md)in that it internalizes return values instead of entire functions. Rather than passing a handle to the same function, React skips the function and returns the previous result, until the parameters change.
+The [<VPIcon icon="fa-brands fa-react"/>`useMemo`](https://reactjs.org/docs/hooks-reference.html#usememo) function returns a memoized value.[**`useMemo` is different from `useCallback`**](/blog.logrocket.com/react-usememo-vs-usecallback-a-pragmatic-guide.md)in that it internalizes return values instead of entire functions. Rather than passing a handle to the same function, React skips the function and returns the previous result, until the parameters change.
 
 This allows you to avoid repeatedly performing potentially costly operations until necessary. Use this method with care, as any changing variables defined in the function do not affect the behavior of`useMemo`. If you’re performing timestamp additions, for instance, this method does not care that the time changes, only that the function parameters differ.
 
@@ -986,13 +986,13 @@ const Instructions = React.memo((props) => {
 ReactDOM.render(<App />)
 ```
 
-Here’s a [<FontIcon icon="fas fa-globe"/>live, editable `useMemo` demo](https://react-hooks-cheatsheet.com/usememo).
+Here’s a [<VPIcon icon="fas fa-globe"/>live, editable `useMemo` demo](https://react-hooks-cheatsheet.com/usememo).
 
 ---
 
 ## `useRef`
 
-[<FontIcon icon="fa-brands fa-react"/>`useRef`](https://reactjs.org/docs/hooks-reference.html#useref) returns a “ref” object. Values are accessed from the`.current` property of the returned object. The `.current` property could be initialized to an initial value — `useRef(initialValue)`, for example. The object is persisted for the entire lifetime of the component.
+[<VPIcon icon="fa-brands fa-react"/>`useRef`](https://reactjs.org/docs/hooks-reference.html#useref) returns a “ref” object. Values are accessed from the`.current` property of the returned object. The `.current` property could be initialized to an initial value — `useRef(initialValue)`, for example. The object is persisted for the entire lifetime of the component.
 
 Learn more in this [**comprehensive `useRefs` guide**](/blog.logrocket.com/complete-guide-react-refs.md) or check out our `useRefs` video tutorial:
 
@@ -1165,7 +1165,7 @@ const fetchData = () => {
 }
 ```
 
-Here’ a [<FontIcon icon="fas fa-globe"/>live, editable `useRef` cheat sheet](https://react-hooks-cheatsheet.com/useRef).
+Here’ a [<VPIcon icon="fas fa-globe"/>live, editable `useRef` cheat sheet](https://react-hooks-cheatsheet.com/useRef).
 
 ---
 
@@ -1202,7 +1202,7 @@ Let’s take a look at an example.
 
 #### Changing state without transition
 
-I have created a [<FontIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/compassionate-browser-ieidgo?file=/src/App.js) that makes two state updates:
+I have created a [<VPIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/compassionate-browser-ieidgo?file=/src/App.js) that makes two state updates:
 
 1. Updating the `textInput` state upon user input
 2. Looping and updating the `listItems` state with the currently entered user input
@@ -1217,7 +1217,7 @@ Now, let’s look at the same example but this time, we’ll transition the stat
 
 #### Changing state with transition
 
-As we can see in this [<FontIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/nostalgic-cdn-002eg9?file=/src/App.js), there’s a significant improvement in our application. In this example we’re telling `react` to give `setListItems` state update a lower priority seeing as it requires a heavy computation. This means that `setTextInput` state would trigger a re-render upon state change and not have to be batched with the `setListItem` state change.
+As we can see in this [<VPIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/nostalgic-cdn-002eg9?file=/src/App.js), there’s a significant improvement in our application. In this example we’re telling `react` to give `setListItems` state update a lower priority seeing as it requires a heavy computation. This means that `setTextInput` state would trigger a re-render upon state change and not have to be batched with the `setListItem` state change.
 
 ::: note N.B.
 

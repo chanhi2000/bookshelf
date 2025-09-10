@@ -70,7 +70,7 @@ Delving into the world of animations on the web can either be a great journey or
 
 ## What do I need to know?
 
-This article should not be treated as a primer on JavaScript or React. I will explain each of the concepts we use, but you should have at least a little knowledge of both. You can [<FontIcon icon="fa-brands fa-react"/>check out the React docs](https://reactjs.org/docs/getting-started.html) if you need to get started.
+This article should not be treated as a primer on JavaScript or React. I will explain each of the concepts we use, but you should have at least a little knowledge of both. You can [<VPIcon icon="fa-brands fa-react"/>check out the React docs](https://reactjs.org/docs/getting-started.html) if you need to get started.
 
 ---
 
@@ -88,7 +88,7 @@ Our second will be animating the LogRocket logo to make it even better!
 
 ## What is the GreenSock Animating Platform?
 
-The [<FontIcon icon="fas fa-globe"/>GreenSock Animating Platform (GSAP)](https://greensock.com/) is a JavaScript library that allows us to create high-quality, high-performance animations on the web. It contains a toolset that developers can use to create superb animations quickly.
+The [<VPIcon icon="fas fa-globe"/>GreenSock Animating Platform (GSAP)](https://greensock.com/) is a JavaScript library that allows us to create high-quality, high-performance animations on the web. It contains a toolset that developers can use to create superb animations quickly.
 
 We can use GSAP to create SVG and CSS animations, and we can also use it to create immersive WebGL animations. We can also create Canvas animations using GreenSock. Most popular animation libraries like Three.js use GreenSock to animate their objects. Furthermore, GSAP can be used in other animation software like Adobe Animate and Easel JS.
 
@@ -96,7 +96,7 @@ We can use GSAP to create SVG and CSS animations, and we can also use it to crea
 
 ## Animating a Google-style loader
 
-Setting up is quick and easy: I have [<FontIcon icon="iconfont icon-codesandbox"/>created a CodeSandbox](https://codesandbox.io/s/greensock-set-up-forked-zp5de) that has the GreenSock npm module and React, so you can fork it and follow along.
+Setting up is quick and easy: I have [<VPIcon icon="iconfont icon-codesandbox"/>created a CodeSandbox](https://codesandbox.io/s/greensock-set-up-forked-zp5de) that has the GreenSock npm module and React, so you can fork it and follow along.
 
 ::: sandpack#react philipszdavido / Greensock Set up (forked) [rtl theme=dark]
 
@@ -227,7 +227,7 @@ First, we import `gsap`.
 import { gsap } from "gsap";
 ```
 
-`gsap` is a fully-featured module from GreenSock that will aid us in creating our animations. It has many methods, and we will make use of a couple! GreenSock also offers us [<FontIcon icon="fas fa-globe"/>TweenLite](https://greensock.com/tweenlite/), which is a less featured module but is more lightweight.
+`gsap` is a fully-featured module from GreenSock that will aid us in creating our animations. It has many methods, and we will make use of a couple! GreenSock also offers us [<VPIcon icon="fas fa-globe"/>TweenLite](https://greensock.com/tweenlite/), which is a less featured module but is more lightweight.
 
 For our animation, we want it to take place when our component mounts. In the traditional class-based component, we would use `componentDidMount`, but for Hooks we will use `useEffect`, which behaves the same with some small differences. To get a true deep dive into Hooks, you should check out this [**great article**](/blog.logrocket.com/useeffect-react-hook-complete-guide.md).
 
@@ -295,7 +295,7 @@ Our final animation is now complete, and here’s how it should look:
 
 ![Our completed animated loader](/assets/image/blog.logrocket.com/animations-react-hooks-greensock/animated-loader-completed.webp)
 
-You can find the complete code [<FontIcon icon="iconfont icon-codesandbox"/>here](https://codesandbox.io/s/google-style-loader-forked-1ykqg?file=/src/loader.jsx).
+You can find the complete code [<VPIcon icon="iconfont icon-codesandbox"/>here](https://codesandbox.io/s/google-style-loader-forked-1ykqg?file=/src/loader.jsx).
 
 ::: sandpack#react philipszdavido / Google Style Loader (forked) [rtl theme=dark]
 
@@ -375,7 +375,7 @@ export default Loader;
 
 One animation down, one to go!
 
-I have created an `SVG` for the LogRocket icon, and it is a big one, so I have included it in the starter CodeSandbox, which you can [<FontIcon icon="iconfont icon-codesandbox"/>check out here.](https://codesandbox.io/s/starter-logrocket-animation-forked-pvuhs?file=/src/index.js)
+I have created an `SVG` for the LogRocket icon, and it is a big one, so I have included it in the starter CodeSandbox, which you can [<VPIcon icon="iconfont icon-codesandbox"/>check out here.](https://codesandbox.io/s/starter-logrocket-animation-forked-pvuhs?file=/src/index.js)
 
 ::: sandpack#react philipszdavido / starter logrocket animation (forked) [rtl theme=dark]
 
@@ -541,7 +541,7 @@ Now our rocket should be coming up from the bottom like so:
 
 The next part is to `draw` our letters. All of our letter `path`s are wrapped in a `g` tag with the `id` `letters`, so they are easy for us to target.
 
-To get the drawing effect, we need to use a couple of `attributes`, which are `stroke-dasharray` and `stroke-dashoffset`. These are quite complicated, and to read in more detail, I recommend [<FontIcon icon="fa-brands fa-firefox"/>heading here](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dashoffset).
+To get the drawing effect, we need to use a couple of `attributes`, which are `stroke-dasharray` and `stroke-dashoffset`. These are quite complicated, and to read in more detail, I recommend [<VPIcon icon="fa-brands fa-firefox"/>heading here](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dashoffset).
 
 ### What is `stroke-dasharray`
 
@@ -586,7 +586,7 @@ This will gives the stroke pattern a length of `1`.
 
 For our case, we use these properties to break our paths into little pieces so we can animate them back together, which is what gives us our drawing effect. My rule of thumb here is setting the value of the two attributes to be the same, and once our text disappears, we are good to go. `100` is the value we will go with.
 
-In our <FontIcon icon="fa-brands fa-css3-alt"/>`styles.css` file, we will set these two properties on our paths. As a side note, a `stroke` must be present on the `path` for this to work (this includes a `path` inheriting a `stroke` from a parent).
+In our <VPIcon icon="fa-brands fa-css3-alt"/>`styles.css` file, we will set these two properties on our paths. As a side note, a `stroke` must be present on the `path` for this to work (this includes a `path` inheriting a `stroke` from a parent).
 
 ```css title="styles.css"
 svg #letters path {
@@ -634,7 +634,7 @@ And that’s that! Our LogRocket animation is now complete — not too bad, eh?
 
 You can see the power of `TimelineMax` here. Normally, to run animations sequentially, you would have to use delays, but `TimelineMax` takes care of this for us.
 
-The [<FontIcon icon="fas fa-globe"/>complete CodeSandbox](https://ozon2.csb.app/) can be found below.
+The [<VPIcon icon="fas fa-globe"/>complete CodeSandbox](https://ozon2.csb.app/) can be found below.
 
 ::: sandpack#react philipszdavido / complete logrocket animation (forked) [rtl theme=dark]
 

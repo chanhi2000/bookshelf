@@ -71,7 +71,7 @@ View Transitions is a great way to handle animating this menu open. I won’t be
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-That works in all browsers ([<FontIcon icon="fas fa-globe"/>see support](https://caniuse.com/view-transitions)). It animates (with staggering) in Chrome and Safari, and at this time of this writing, just instantly opens and closes in Firefox (which is fine, just less fancy).
+That works in all browsers ([<VPIcon icon="fas fa-globe"/>see support](https://caniuse.com/view-transitions)). It animates (with staggering) in Chrome and Safari, and at this time of this writing, just instantly opens and closes in Firefox (which is fine, just less fancy).
 
 ---
 
@@ -117,9 +117,9 @@ That Pug code turns into:
 </div>
 ```
 
-Jen Simmons [made the point about how odd this is (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/8320#issuecomment-2023077559).
+Jen Simmons [made the point about how odd this is (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/8320#issuecomment-2023077559).
 
-This is being improved, I hear. [The CSSWG has resolved to (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/8320#issuecomment-2344208387)…
+This is being improved, I hear. [The CSSWG has resolved to (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/8320#issuecomment-2344208387)…
 
 > Add three keywords, one for ID attribute, one for element identity, and one that does fallback between the two.
 
@@ -268,7 +268,7 @@ Except: that doesn’t work. It doesn’t work because `--sibling-index` doesn�
 
 ## Real Sibling Index in CSS
 
-We’re kinda “faking” sibling index with custom properties here, but we wouldn’t have to do that forever. The [CSSWG has resolved (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/4559#issuecomment-1642880894):
+We’re kinda “faking” sibling index with custom properties here, but we wouldn’t have to do that forever. The [CSSWG has resolved (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/4559#issuecomment-1642880894):
 
 > `sibling-count()` and `sibling-index()` to css-values-5 ED
 

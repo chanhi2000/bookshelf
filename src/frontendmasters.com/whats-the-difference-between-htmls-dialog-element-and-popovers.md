@@ -144,7 +144,7 @@ Calling `showPopover` on an already open popover or `hidePopover` on an already 
 
 The ability of the dialog element to be opened in a modal state and thus trap focus inside of it is a superpower of this element. It is unique to the dialog element, popovers cannot do this (on their own).
 
-Focus trapping, while it sounds kinda bad, is actually an accessibility *feature.* After all, that’s what a modal is: it *forces you to deal with some interaction* before anything else can be done. It’s actually *also* a [<FontIcon icon="iconfont icon-w3c"/>WCAG requirement to *not* trap focus](https://w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html) when you shouldn’t, but in the case of a modal, you *should* be trapping focus — as well as providing a standard way to close the dialog and escape the trap.
+Focus trapping, while it sounds kinda bad, is actually an accessibility *feature.* After all, that’s what a modal is: it *forces you to deal with some interaction* before anything else can be done. It’s actually *also* a [<VPIcon icon="iconfont icon-w3c"/>WCAG requirement to *not* trap focus](https://w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html) when you shouldn’t, but in the case of a modal, you *should* be trapping focus — as well as providing a standard way to close the dialog and escape the trap.
 
 <VidStack src="https://videopress.com/08054cc3-1c6d-46a7-b272-316caff567e3" />
 
@@ -184,7 +184,7 @@ Dialogs and popovers look the same by default and have really basic default styl
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/Screenshot-2024-09-30-at-10.28.22%E2%80%AFAM.png?resize=776%2C408&ssl=1)
 
-They are essentially `position: fixed;` and `margin: auto;` which centers them in the viewport. This is a probably a smart default for dialogs. In my opinion, popovers are usually begging for [<FontIcon icon="fa-brands fa-firefox"/>anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) to open the popover near where the element that opened it is, but they [**work nicely as slide-out drawers**](/frontendmasters.com/popovers-work-pretty-nicely-as-slide-out-drawers.md) as well, particularly on mobile.
+They are essentially `position: fixed;` and `margin: auto;` which centers them in the viewport. This is a probably a smart default for dialogs. In my opinion, popovers are usually begging for [<VPIcon icon="fa-brands fa-firefox"/>anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) to open the popover near where the element that opened it is, but they [**work nicely as slide-out drawers**](/frontendmasters.com/popovers-work-pretty-nicely-as-slide-out-drawers.md) as well, particularly on mobile.
 
 You’ll likely want to bring your own padding, border, background, typography, internal structure, etc.
 
@@ -273,7 +273,7 @@ Popovers likely have more use cases than dialogs. Any time you [**need a tooltip
 
 Non modal dialogs are pretty similar to a popup, but are perhaps better suited to situations where there is no other element on the page that is relevant to the messaging. Perhaps something like a “No internet connection detected” message, which could be very important to tell a user, but doesn’t need to 100% stop other activity on the page.
 
-Modal dialogs are show-stoppers, forcing a user to deal with them before anything else can happen. They should be used sparingly (they are reached for [<FontIcon icon="fas fa-globe"/>far too much](https://modalzmodalzmodalz.com/), some people say). Perhaps a message like “Are you sure you want to delete this entire document? This cannot be undone.” would be a modal dialog, as any other interaction on the page is moot should the user be deleting.
+Modal dialogs are show-stoppers, forcing a user to deal with them before anything else can happen. They should be used sparingly (they are reached for [<VPIcon icon="fas fa-globe"/>far too much](https://modalzmodalzmodalz.com/), some people say). Perhaps a message like “Are you sure you want to delete this entire document? This cannot be undone.” would be a modal dialog, as any other interaction on the page is moot should the user be deleting.
 
 ---
 
@@ -283,7 +283,7 @@ This is all very cutting edge right now, so browser support is spotty, but both 
 
 ---
 
-[I played around with this Pen (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/NWQGjRv) while I was thinking and working on all this, which may be helpful to you if you’re doing the same.
+[I played around with this Pen (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/NWQGjRv) while I was thinking and working on all this, which may be helpful to you if you’re doing the same.
 
 <CodePen
   user="chriscoyier"

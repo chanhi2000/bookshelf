@@ -66,7 +66,7 @@ cover: https://files.realpython.com/media/Setting-Up-Sublime-Text-3-for-Full-Sta
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Setting-Up-Sublime-Text-3-for-Full-Stack-Python-Development_Watermarked.2cf294b0b61e.jpg"/>
 
-[<FontIcon icon="iconfont icon-subl"/>Sublime Text 3](https://sublimetext.com/3) (ST3) is a lightweight, cross-platform code editor known for its speed, ease of use, and strong community support. It’s an incredible editor right out of the box, but the real power comes from the ability to enhance its functionality using Package Control and creating custom settings.
+[<VPIcon icon="iconfont icon-subl"/>Sublime Text 3](https://sublimetext.com/3) (ST3) is a lightweight, cross-platform code editor known for its speed, ease of use, and strong community support. It’s an incredible editor right out of the box, but the real power comes from the ability to enhance its functionality using Package Control and creating custom settings.
 
 In this article, we’ll look at how to setup Sublime Text for full stack Python development (from front to back), enhance the basic functionality with custom themes and packages, and use many of the commands, features, and keyword shortcuts that make ST3 so powerful.
 
@@ -100,7 +100,7 @@ Let’s start by looking at a few of the default features of Sublime Text 3:
 
 @tab 2.
 
-**[<FontIcon icon="iconfont icon-subl"/>Vintage Mode](https://sublimetext.com/docs/3/vintage.html)** provides you with [**`vi` commands**](/realpython.com/vim-and-python-a-match-made-in-heaven.md) for use within ST3.
+**[<VPIcon icon="iconfont icon-subl"/>Vintage Mode](https://sublimetext.com/docs/3/vintage.html)** provides you with [**`vi` commands**](/realpython.com/vim-and-python-a-match-made-in-heaven.md) for use within ST3.
 
 @tab 3.
 
@@ -118,7 +118,7 @@ Let’s start by looking at a few of the default features of Sublime Text 3:
 
 ::: note
 
-You can also create your own snippets: **Tools > New Snippet**. Refer to the [<FontIcon icon="iconfont icon-subl"/>documentation](http://sublimetext.info/docs/en/extensibility/snippets.html) for help, and also check out some of my snippets [here (<FontIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/tree/master/dotfiles/snippets).
+You can also create your own snippets: **Tools > New Snippet**. Refer to the [<VPIcon icon="iconfont icon-subl"/>documentation](http://sublimetext.info/docs/en/extensibility/snippets.html) for help, and also check out some of my snippets [here (<VPIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/tree/master/dotfiles/snippets).
 
 :::
 
@@ -130,7 +130,7 @@ After you download ST3, you can customize it.
 
 ### Install the `subl` command line tool
 
-Just Like TextMate has the `mate` command, Sublime Text has a command line tool called [<FontIcon icon="iconfont icon-subl"/>`subl`](http://sublimetext.com/docs/3/osx_command_line.html) that allows you to open one file, or an entire directory of files and folders, from the terminal.
+Just Like TextMate has the `mate` command, Sublime Text has a command line tool called [<VPIcon icon="iconfont icon-subl"/>`subl`](http://sublimetext.com/docs/3/osx_command_line.html) that allows you to open one file, or an entire directory of files and folders, from the terminal.
 
 To enable this command, create a symbolic link to the `subl` binary:
 
@@ -145,7 +145,7 @@ Ensure that the link works by opening Sublime:
 subl
 ```
 
-If that didn’t work, you probably need to add <FontIcon icon="fas fa-folder-open"/>`/bin` to your path:
+If that didn’t work, you probably need to add <VPIcon icon="fas fa-folder-open"/>`/bin` to your path:
 
 ```sh
 echo "export PATH=~/bin:$PATH" >> ~/.profile
@@ -155,7 +155,7 @@ Then repeat step one.
 
 ::: note
 
-If you are still having trouble, check out [<FontIcon icon="fa-brands fa-stack-overflow"/>this article](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) for help. You can also read up on creating the symbolic links in [<FontIcon icon="fa-brands fa-stack-overflow"/>Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [<FontIcon icon="fa-brands fa-ubuntu"/>Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).
+If you are still having trouble, check out [<VPIcon icon="fa-brands fa-stack-overflow"/>this article](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os?lq=1) for help. You can also read up on creating the symbolic links in [<VPIcon icon="fa-brands fa-stack-overflow"/>Windows](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7?rq=1) and [<VPIcon icon="fa-brands fa-ubuntu"/>Linux](http://askubuntu.com/questions/273034/lauching-sublime-text-from-command-line).
 
 :::
 
@@ -186,9 +186,9 @@ subl --help
 
 ### Install Package Control
 
-To begin taking advantage of the various [<FontIcon icon="iconfont icon-subl"/>packages](https://packagecontrol.io/) for extending Sublime’s functionality, you need to manually install the package manager called Package Control. Once you have it installed, you can use it to install, remove, and upgrade all other ST3 packages.
+To begin taking advantage of the various [<VPIcon icon="iconfont icon-subl"/>packages](https://packagecontrol.io/) for extending Sublime’s functionality, you need to manually install the package manager called Package Control. Once you have it installed, you can use it to install, remove, and upgrade all other ST3 packages.
 
-1. To install, copy the Python code for Sublime Text 3 found [<FontIcon icon="iconfont icon-subl"/>here](https://packagecontrol.io/installation#st3). Click **View > Show Console** to open the ST3 console. Paste the code into the console. Press <kbd>Enter</kbd>. Reboot ST3.
+1. To install, copy the Python code for Sublime Text 3 found [<VPIcon icon="iconfont icon-subl"/>here](https://packagecontrol.io/installation#st3). Click **View > Show Console** to open the ST3 console. Paste the code into the console. Press <kbd>Enter</kbd>. Reboot ST3.
 2. You can now install packages by using the keyboard shortcut <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>. Start typing `install` until `Package Control: Install Package` appears. Press <kbd>Enter</kbd> and search for available packages.
 
 Here are some other relevant commands:
@@ -198,7 +198,7 @@ Here are some other relevant commands:
 - `Upgrade Package` upgrades a specific package.
 - `Upgrade/Overwrite All Packages` upgrades all your installed packages.
 
-Check out the official [<FontIcon icon="iconfont icon-subl"/>documentation](https://packagecontrol.io/docs/usage) to view more commands.
+Check out the official [<VPIcon icon="iconfont icon-subl"/>documentation](https://packagecontrol.io/docs/usage) to view more commands.
 
 ![Package Control package manager in Sublime Text 3](https://files.realpython.com/media/st3_package_control.13d4617691d0.png)
 
@@ -219,17 +219,17 @@ To set up a base file, click **Sublime Text > Preferences > Settings - User**. A
 ```
 
 1. For language specific settings, click **Sublime Text > Preferences > Settings - More > Syntax Specific - User**. Then save the file using the following format: **LANGUAGE.sublime-settings**. For Python-specific settings, save the file as **Python.sublime-settings**.
-2. You can obviously configure your settings to your liking. However, I highly recommend starting with my [base (<FontIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Preferences.sublime-settings) and [Python-specific (<FontIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Python.sublime-settings) settings and then making changes as you see fit.
-3. Optional: You can use Dropbox to sync all your settings. Simply upload your settings files to [Dropbox (<FontIcon icon="iconfont icon-github"/>`miohtama/ztanesh`)](https://github.com/miohtama/ztanesh/blob/master/zsh-scripts/bin/setup-sync-sublime-over-dropbox.sh) and load them from there to sync the Sublime environments on all your machines.
-4. A good reference for settings can be found at the [<FontIcon icon="iconfont icon-subl"/>Sublime Text Unofficial Documentation](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/settings.html).
+2. You can obviously configure your settings to your liking. However, I highly recommend starting with my [base (<VPIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Preferences.sublime-settings) and [Python-specific (<VPIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Python.sublime-settings) settings and then making changes as you see fit.
+3. Optional: You can use Dropbox to sync all your settings. Simply upload your settings files to [Dropbox (<VPIcon icon="iconfont icon-github"/>`miohtama/ztanesh`)](https://github.com/miohtama/ztanesh/blob/master/zsh-scripts/bin/setup-sync-sublime-over-dropbox.sh) and load them from there to sync the Sublime environments on all your machines.
+4. A good reference for settings can be found at the [<VPIcon icon="iconfont icon-subl"/>Sublime Text Unofficial Documentation](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/settings.html).
 
 ---
 
 ## Themes
 
-ST3 also gives you the option to change the overall theme to better suit your personality. Design your own. Or, if you’re not artistically inclined, you can download one of the various custom [<FontIcon icon="iconfont icon-subl"/>themes](https://packagecontrol.io/browse/labels/theme) designed by the Sublime community through Package Control. Check out [<FontIcon icon="fas fa-globe"/>ColorSublime](http://colorsublime.com/) to preview themes before installing them.
+ST3 also gives you the option to change the overall theme to better suit your personality. Design your own. Or, if you’re not artistically inclined, you can download one of the various custom [<VPIcon icon="iconfont icon-subl"/>themes](https://packagecontrol.io/browse/labels/theme) designed by the Sublime community through Package Control. Check out [<VPIcon icon="fas fa-globe"/>ColorSublime](http://colorsublime.com/) to preview themes before installing them.
 
-The ever popular [<FontIcon icon="iconfont icon-subl"/>Soda Dark Theme](https://packagecontrol.io/packages/Theme%20-%20Soda) and the minimal [<FontIcon icon="iconfont icon-subl"/>Flatland](https://packagecontrol.io/packages/Theme%20-%20Flatland) are two of my personal favorites.
+The ever popular [<VPIcon icon="iconfont icon-subl"/>Soda Dark Theme](https://packagecontrol.io/packages/Theme%20-%20Soda) and the minimal [<VPIcon icon="iconfont icon-subl"/>Flatland](https://packagecontrol.io/packages/Theme%20-%20Flatland) are two of my personal favorites.
 
 After installing a theme, make sure to update your base settings through **Sublime Text > Preferences > Settings - User**:
 
@@ -248,7 +248,7 @@ Besides the packaged themes, I take advantage of the following packages to speed
 
 ### SideBarEnhancements
 
-[<FontIcon icon="iconfont icon-subl"/>SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements) extends the number of menu options in the sidebar, speeding up your overall workflow. Options such as **New File** and **Duplicate** are essential and should be part of ST3 out of the box. The **Delete** option alone makes it worth downloading. This feature simply sends files to the Trash, which may seem trivial, but if you delete a file without it, then it’s very difficult to recover unless you’re using a version control system.
+[<VPIcon icon="iconfont icon-subl"/>SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements) extends the number of menu options in the sidebar, speeding up your overall workflow. Options such as **New File** and **Duplicate** are essential and should be part of ST3 out of the box. The **Delete** option alone makes it worth downloading. This feature simply sends files to the Trash, which may seem trivial, but if you delete a file without it, then it’s very difficult to recover unless you’re using a version control system.
 
 ![Screenshot of the Sidebar Enhancements plugin for Sublime Text 3](https://files.realpython.com/media/st3_sidebar_enhancements.10d178edb862.png)
 
@@ -256,42 +256,42 @@ Download this now!
 
 ### Anaconda
 
-[<FontIcon icon="iconfont icon-subl"/>Anaconda](https://packagecontrol.io/packages/Anaconda) is the ultimate Python package. It adds a number of IDE-like features to ST3 including the following:
+[<VPIcon icon="iconfont icon-subl"/>Anaconda](https://packagecontrol.io/packages/Anaconda) is the ultimate Python package. It adds a number of IDE-like features to ST3 including the following:
 
-- **Autocompletion** works by default, but there are a number of configuration [options (<FontIcon icon="iconfont icon-github"/>`DamnWidget/anaconda#anaconda-autocompletion`)](https://github.com/DamnWidget/anaconda#anaconda-autocompletion).
-- **Code [<FontIcon icon="fa-brands fa-wikipedia-w"/>linting](http://en.wikipedia.org/wiki/Lint_%28software%29)** uses either PyLint or PyFlakes with PEP 8. I personally use a different linting package, as I will explain shortly, so I disable linting altogether within the user-defined Anaconda settings file, **Anaconda.sublime-settings**, via the file menu: **Sublime > Preferences > Package Settings > Anaconda > Settings - User**: `{"anaconda_linting": false}`
-- **McCabe code complexity checker** runs the [<FontIcon icon="fa-brands fa-wikipedia-w"/>McCabe complexity checker](http://en.wikipedia.org/wiki/Cyclomatic_complexity) tool within a specific file. If you’re not familiar with what complexity is, be sure to visit the link above.
+- **Autocompletion** works by default, but there are a number of configuration [options (<VPIcon icon="iconfont icon-github"/>`DamnWidget/anaconda#anaconda-autocompletion`)](https://github.com/DamnWidget/anaconda#anaconda-autocompletion).
+- **Code [<VPIcon icon="fa-brands fa-wikipedia-w"/>linting](http://en.wikipedia.org/wiki/Lint_%28software%29)** uses either PyLint or PyFlakes with PEP 8. I personally use a different linting package, as I will explain shortly, so I disable linting altogether within the user-defined Anaconda settings file, **Anaconda.sublime-settings**, via the file menu: **Sublime > Preferences > Package Settings > Anaconda > Settings - User**: `{"anaconda_linting": false}`
+- **McCabe code complexity checker** runs the [<VPIcon icon="fa-brands fa-wikipedia-w"/>McCabe complexity checker](http://en.wikipedia.org/wiki/Cyclomatic_complexity) tool within a specific file. If you’re not familiar with what complexity is, be sure to visit the link above.
 - **Goto Definitions** finds and displays the definition of any [**variable**](/realpython.com/python-variables.md), function, or class throughout your entire project.
 - **Find Usage** quickly searches where a variable, function, or class has been used in a specific file.
 - **Show Documentation** shows the [**docstring**](/realpython.com/documenting-python-code.md#documenting-your-python-code-base-using-docstrings) for functions or classes (if defined, of course).
 
 ![The "Show Documentation" feature of the Anaconda plugin for Sublime Text](https://files.realpython.com/media/st3_anaconda_show_docs.5574abda6481.png)
 
-You can view all of the features [here (<FontIcon icon="iconfont icon-github"/>`DamnWidget/anaconda`)](https://github.com/DamnWidget/anaconda) or within the README file in ST3’s Package Settings: **Sublime Text > Preferences > Package Settings > Anaconda > README**.
+You can view all of the features [here (<VPIcon icon="iconfont icon-github"/>`DamnWidget/anaconda`)](https://github.com/DamnWidget/anaconda) or within the README file in ST3’s Package Settings: **Sublime Text > Preferences > Package Settings > Anaconda > README**.
 
 ::: note
 
-[<FontIcon icon="iconfont icon-subl"/>SublimeCodeIntel](https://packagecontrol.io/packages/SublimeCodeIntel) is another popular package that has many of the same features as Anaconda. I suggest testing them both out.
+[<VPIcon icon="iconfont icon-subl"/>SublimeCodeIntel](https://packagecontrol.io/packages/SublimeCodeIntel) is another popular package that has many of the same features as Anaconda. I suggest testing them both out.
 
 :::
 
 ### Djaneiro
 
-[<FontIcon icon="iconfont icon-subl"/>Djaneiro](https://packagecontrol.io/packages/Djaneiro) supports Django templating and keyword highlighting and provides useful code snippets (tab completions) for Sublime Text. The snippet system is an incredible time-saver. You can create common Django blocks with only a few keystrokes for templates, models, forms, and views. Check out the official [documentation (<FontIcon icon="iconfont icon-github"/>`squ1b3r/Djaneiro`)](https://github.com/squ1b3r/Djaneiro) to see a list of snippets.
+[<VPIcon icon="iconfont icon-subl"/>Djaneiro](https://packagecontrol.io/packages/Djaneiro) supports Django templating and keyword highlighting and provides useful code snippets (tab completions) for Sublime Text. The snippet system is an incredible time-saver. You can create common Django blocks with only a few keystrokes for templates, models, forms, and views. Check out the official [documentation (<VPIcon icon="iconfont icon-github"/>`squ1b3r/Djaneiro`)](https://github.com/squ1b3r/Djaneiro) to see a list of snippets.
 
 My personal favorites are for templating: `var` creates `{{ }}` and `tag` creates `{% %}`.
 
 ### requirementstxt
 
-[<FontIcon icon="iconfont icon-subl"/>requirementstxt](https://packagecontrol.io/packages/requirementstxt) provides autocompletion and syntax highlighting as well as a nice version management system for your <FontIcon icon="fas fa-file-lines"/>`requirements.txt` files.
+[<VPIcon icon="iconfont icon-subl"/>requirementstxt](https://packagecontrol.io/packages/requirementstxt) provides autocompletion and syntax highlighting as well as a nice version management system for your <VPIcon icon="fas fa-file-lines"/>`requirements.txt` files.
 
 ### SublimeLinter
 
-[<FontIcon icon="iconfont icon-subl"/>SublimeLinter](https://packagecontrol.io/packages/SublimeLinter) is a framework for ST3 linters. The package itself does not include any actual linters; those must be installed separately via Package Control using the **SublimeLinter-[linter_name]** naming syntax. You can view official linters [here (<FontIcon icon="iconfont icon-github"/>`SublimeLinter`)](https://github.com/SublimeLinter). There are also a number of third party linters, which can be viewed in Package Control. Check out the installation instructions [<FontIcon icon="fas fa-globe"/>here](http://sublimelinter.readthedocs.org/en/latest/installation.html).
+[<VPIcon icon="iconfont icon-subl"/>SublimeLinter](https://packagecontrol.io/packages/SublimeLinter) is a framework for ST3 linters. The package itself does not include any actual linters; those must be installed separately via Package Control using the **SublimeLinter-[linter_name]** naming syntax. You can view official linters [here (<VPIcon icon="iconfont icon-github"/>`SublimeLinter`)](https://github.com/SublimeLinter). There are also a number of third party linters, which can be viewed in Package Control. Check out the installation instructions [<VPIcon icon="fas fa-globe"/>here](http://sublimelinter.readthedocs.org/en/latest/installation.html).
 
-For Python linting, I recommend using [<FontIcon icon="iconfont icon-subl"/>SublimeLinter-pyflakes](https://packagecontrol.io/packages/SublimeLinter-pyflakes) and [<FontIcon icon="iconfont icon-subl"/>SublimeLinter-pep8](https://packagecontrol.io/packages/SublimeLinter-pep8).
+For Python linting, I recommend using [<VPIcon icon="iconfont icon-subl"/>SublimeLinter-pyflakes](https://packagecontrol.io/packages/SublimeLinter-pyflakes) and [<VPIcon icon="iconfont icon-subl"/>SublimeLinter-pep8](https://packagecontrol.io/packages/SublimeLinter-pep8).
 
-I also use [<FontIcon icon="iconfont icon-subl"/>SublimeLinter-jshint](https://packagecontrol.io/packages/SublimeLinter-jshint), [<FontIcon icon="iconfont icon-subl"/>SublimeLinter-pyyaml](https://packagecontrol.io/packages/SublimeLinter-pyyaml), [<FontIcon icon="iconfont icon-subl"/>SublimeLinter-csslint](https://packagecontrol.io/packages/SublimeLinter-csslint), [<FontIcon icon="iconfont icon-subl"/>SublimeLinter-html-tidy](https://packagecontrol.io/packages/SublimeLinter-html-tidy), and [<FontIcon icon="iconfont icon-subl"/>SublimeLinter-json](https://packagecontrol.io/packages/SublimeLinter-json).
+I also use [<VPIcon icon="iconfont icon-subl"/>SublimeLinter-jshint](https://packagecontrol.io/packages/SublimeLinter-jshint), [<VPIcon icon="iconfont icon-subl"/>SublimeLinter-pyyaml](https://packagecontrol.io/packages/SublimeLinter-pyyaml), [<VPIcon icon="iconfont icon-subl"/>SublimeLinter-csslint](https://packagecontrol.io/packages/SublimeLinter-csslint), [<VPIcon icon="iconfont icon-subl"/>SublimeLinter-html-tidy](https://packagecontrol.io/packages/SublimeLinter-html-tidy), and [<VPIcon icon="iconfont icon-subl"/>SublimeLinter-json](https://packagecontrol.io/packages/SublimeLinter-json).
 
 ::: note
 
@@ -314,19 +314,19 @@ You can customize each linter in the user-defined **SublimeLinter.sublime-settin
 
 ### GitGutter
 
-[<FontIcon icon="iconfont icon-subl"/>GitGutter](https://packagecontrol.io/packages/GitGutter) shows little icons in ST3’s gutter area that indicate whether a line has been inserted, modified, or deleted since the last commit.
+[<VPIcon icon="iconfont icon-subl"/>GitGutter](https://packagecontrol.io/packages/GitGutter) shows little icons in ST3’s gutter area that indicate whether a line has been inserted, modified, or deleted since the last commit.
 
 ![Screenshot of the GitGutter plugin for Sublime Text 3](https://files.realpython.com/media/st3_gitgutter.73de764e6241.png)
 
 ::: note
 
-If you want support for a number of distributed version control systems (Git, SVN, Bazaar, and Mercurial), check out [<FontIcon icon="iconfont icon-subl"/>Modific](https://packagecontrol.io/packages/Modific).
+If you want support for a number of distributed version control systems (Git, SVN, Bazaar, and Mercurial), check out [<VPIcon icon="iconfont icon-subl"/>Modific](https://packagecontrol.io/packages/Modific).
 
 :::
 
 ### FTPSync
 
-[<FontIcon icon="iconfont icon-subl"/>FTPSync](https://packagecontrol.io/packages/FTPSync) syncs your project with your remote files. Simply open the file to download it (if the remote file is newer than your local file) and upload it to your remote server with every save. That’s a great way to keep your local and remote(s) in sync. You’ll want to make sure to add at least one remote connection by clicking **Sublime Text > Preferences > Package Settings > FTPSync > Setup FTPSync**.
+[<VPIcon icon="iconfont icon-subl"/>FTPSync](https://packagecontrol.io/packages/FTPSync) syncs your project with your remote files. Simply open the file to download it (if the remote file is newer than your local file) and upload it to your remote server with every save. That’s a great way to keep your local and remote(s) in sync. You’ll want to make sure to add at least one remote connection by clicking **Sublime Text > Preferences > Package Settings > FTPSync > Setup FTPSync**.
 
 Sample settings:
 
@@ -348,11 +348,11 @@ I personally set the password to `null` because I don’t want it visible in tha
 
 ### AdvancedNewFile
 
-[<FontIcon icon="iconfont icon-subl"/>AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile) is used to create a new folder or file from within ST3 with key bindings alone.
+[<VPIcon icon="iconfont icon-subl"/>AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile) is used to create a new folder or file from within ST3 with key bindings alone.
 
 Simply bring up the AdvancedNewFile input through the appropriate key binding. Then, enter the path, along with the file name into the input field. Upon pressing <kbd>Enter</kbd>, the file will be created. In addition, if the directories specified do not yet exist, they will be created. By default, the path to the file being created will be filled shown in the status bar as you enter the path information.
 
-For a more detailed explanation on its usage, check out the documentation on [GitHub (<FontIcon icon="iconfont icon-github"/>`skuroda/Sublime-AdvancedNewFile`)](https://github.com/skuroda/Sublime-AdvancedNewFile#usage). Be sure to read about Tab Completion as well as Predefined Aliases.
+For a more detailed explanation on its usage, check out the documentation on [GitHub (<VPIcon icon="iconfont icon-github"/>`skuroda/Sublime-AdvancedNewFile`)](https://github.com/skuroda/Sublime-AdvancedNewFile#usage). Be sure to read about Tab Completion as well as Predefined Aliases.
 
 I replaced the normal <kbd>Cmd</kbd>+<kbd>N</kbd> command to create a new file with AdvancedNewFile by adding the following code to the **Key Bindings - User** file: **Sublime Text > Preferences > Package Settings > AdvancedNewFile > Key Bindings - User**:
 
@@ -372,7 +372,7 @@ Now when I create a new file, the `/Users/michaelherman/Documents/repos` string 
 
 ### Emmet
 
-[<FontIcon icon="iconfont icon-subl"/>Emmet](https://packagecontrol.io/packages/Emmet), previously known as Zen Coding, uses simple abbreviations to generate HTML or CSS code snippets.
+[<VPIcon icon="iconfont icon-subl"/>Emmet](https://packagecontrol.io/packages/Emmet), previously known as Zen Coding, uses simple abbreviations to generate HTML or CSS code snippets.
 
 For example, if you type a bang, `!`, and press <kbd>Tab</kbd> in an HTML file, then the HTML5 doctype and a few basic tags will be generated:
 
@@ -389,11 +389,11 @@ For example, if you type a bang, `!`, and press <kbd>Tab</kbd> in an HTML file, 
 </html>
 ```
 
-Check out the official [<FontIcon icon="fas fa-globe"/>documentation](http://docs.emmet.io/) as well as this handy [<FontIcon icon="fas fa-globe"/>cheat sheet](http://docs.emmet.io/cheat-sheet/) for more info.
+Check out the official [<VPIcon icon="fas fa-globe"/>documentation](http://docs.emmet.io/) as well as this handy [<VPIcon icon="fas fa-globe"/>cheat sheet](http://docs.emmet.io/cheat-sheet/) for more info.
 
 ### Markdown Preview
 
-[<FontIcon icon="iconfont icon-subl"/>Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview) is used for previewing and building markdown files.
+[<VPIcon icon="iconfont icon-subl"/>Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview) is used for previewing and building markdown files.
 
 To use, open the Package Manager and type `Markdown Preview` to show the available commands:
 
@@ -423,7 +423,7 @@ Once converted, the output file will be updated on each subsequent save.
 
 ::: note
 
-For more shortcuts, take a look at [<FontIcon icon="iconfont icon-subl"/>this article](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html).
+For more shortcuts, take a look at [<VPIcon icon="iconfont icon-subl"/>this article](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html).
 
 ```component VPCard
 {
@@ -443,10 +443,10 @@ For more shortcuts, take a look at [<FontIcon icon="iconfont icon-subl"/>this ar
 
 It’s easy to write your own custom commands and key bindings with Python. I currently use this workflow:
 
-1. Copy the path of the current file to the clipboard ([link (<FontIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/copy_path_to_clipboard.py)).
-2. Close all tabs except the active one ([link (<FontIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/close_tabs.py)).
+1. Copy the path of the current file to the clipboard ([link (<VPIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/copy_path_to_clipboard.py)).
+2. Close all tabs except the active one ([link (<VPIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/close_tabs.py)).
 
-Install these by adding the Python files to your <FontIcon icon="fas fa-folder-open"/>`/Sublime Text 3/Packages/User` directory via the file menu (**Sublime > Preferences > Browse Packages**) and then opening the User directory. To complete the setup, bind them from the **Key Bindings - User** file (**Sublime Text > Preferences > Package Settings > AdvancedNewFile > Key Bindings - User**).
+Install these by adding the Python files to your <VPIcon icon="fas fa-folder-open"/>`/Sublime Text 3/Packages/User` directory via the file menu (**Sublime > Preferences > Browse Packages**) and then opening the User directory. To complete the setup, bind them from the **Key Bindings - User** file (**Sublime Text > Preferences > Package Settings > AdvancedNewFile > Key Bindings - User**).
 
 ```json
 [
@@ -490,7 +490,7 @@ Install these by adding the Python files to your <FontIcon icon="fas fa-folder-o
 
 I hope that this article was helpful to you and that you were able to integrate some of the above packages and custom settings along with your own based on your personal preferences to improve your workflow.
 
-If you have any questions or suggestions of your own, please let me know in the comments below. Finally, check out the dotfiles folder in this [repo (<FontIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/tree/master/dotfiles) to view all the resources that I created. Cheers!
+If you have any questions or suggestions of your own, please let me know in the comments below. Finally, check out the dotfiles folder in this [repo (<VPIcon icon="iconfont icon-github"/>`mjhea0/sublime-setup-for-python`)](https://github.com/mjhea0/sublime-setup-for-python/tree/master/dotfiles) to view all the resources that I created. Cheers!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

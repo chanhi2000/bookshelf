@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6323"/>
 
-The concept of a **quantity query** is really neat. [<FontIcon icon="fas fa-globe"/>Coined by Heydon](https://alistapart.com/article/quantity-queries-for-css/) back in 2015, the idea is that you apply different styles depending on how many siblings there are. They was a [<FontIcon icon="fas fa-globe"/>way to do it back then](https://quantityqueries.com/), but it’s gotten much [**easier thanks to `:has()`**](/frontendmasters.com/quantity-queries-are-very-easy-with-css-has.md), which not only makes the detection easier but gives us access to the parent element where we likely want it.
+The concept of a **quantity query** is really neat. [<VPIcon icon="fas fa-globe"/>Coined by Heydon](https://alistapart.com/article/quantity-queries-for-css/) back in 2015, the idea is that you apply different styles depending on how many siblings there are. They was a [<VPIcon icon="fas fa-globe"/>way to do it back then](https://quantityqueries.com/), but it’s gotten much [**easier thanks to `:has()`**](/frontendmasters.com/quantity-queries-are-very-easy-with-css-has.md), which not only makes the detection easier but gives us access to the parent element where we likely want it.
 
 For instance:
 
@@ -229,7 +229,7 @@ We’re all set up for it, we just need those back/forward buttons to make it re
 }
 ```
 
-That’ll do it! [Here’s the demo (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/qEdJqdZ) and I’ll video it in case you’re not in Chrome.
+That’ll do it! [Here’s the demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/qEdJqdZ) and I’ll video it in case you’re not in Chrome.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

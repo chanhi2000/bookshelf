@@ -60,7 +60,7 @@ SolidJS is fast becoming the center of attention in the web development communit
 
 ![Build a task tracker with SolidJS and TypeScript](/assets/image/blog.logrocket.com/build-task-tracker-solidjs-typescript/banner.png)
 
-Solid is everything React developers have been asking for, and in this article, I’ll walk you through [<FontIcon icon="fas fa-globe"/>building a task tracker with Solid](https://solid-task-tracker.netlify.app).
+Solid is everything React developers have been asking for, and in this article, I’ll walk you through [<VPIcon icon="fas fa-globe"/>building a task tracker with Solid](https://solid-task-tracker.netlify.app).
 
 ::: note Prerequisites
 
@@ -92,7 +92,7 @@ Let’s go ahead and setup our Solid app to learn how to build a web app with So
 
 ## Setting up a Solid app with TypeScript
 
-To set up a Solid app on your local machine, you’ll need to install [<FontIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en/). If you already have it installed, running the following command on your terminal should return your current Node.js version:
+To set up a Solid app on your local machine, you’ll need to install [<VPIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en/). If you already have it installed, running the following command on your terminal should return your current Node.js version:
 
 ```sh
 node --version
@@ -104,7 +104,7 @@ Next, let’s create a new Solid app by running the following command on our ter
 npx degit solidjs/templates/ts task-tracker
 ```
 
-Using <FontIcon icon="fa-brands fa-npm"/>`solidjs/templates/ts` generates a Solid/TypeScript app. For JavaScript, you’ll have to change the command to <FontIcon icon="fa-brands fa-npm"/>`solidjs/templates/js`.
+Using <VPIcon icon="fa-brands fa-npm"/>`solidjs/templates/ts` generates a Solid/TypeScript app. For JavaScript, you’ll have to change the command to <VPIcon icon="fa-brands fa-npm"/>`solidjs/templates/js`.
 
 After running the command, you should see a success message that looks like this:
 
@@ -118,7 +118,7 @@ Now, go ahead and open the generated app in your code editor or IDE of choice. H
 
 Notice that our Solid app uses [**Vite**](/blog.logrocket.com/getting-started-with-vite.md) as its default build tool and [**pnpm**](/blog.logrocket.com/javascript-package-managers-compared.md) as the default package manager. These tools combined provide a great development experience for component rendering, app startup time, and package management.
 
-Our app component currently lives inside of the <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`App.tsx` file:
+Our app component currently lives inside of the <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`App.tsx` file:
 
 ```tsx title="App.tsx"
 import type { Component } from 'solid-js'
@@ -138,7 +138,7 @@ First, we import the `Component` type from `solid-js` which is then used as the 
 
 Components in Solid are JavaScript functions. They are reusable and can be customized using props, which are similar to function parameters/arguments.
 
-Inside of the <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`index.tsx` file, we render our `App` component:
+Inside of the <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`index.tsx` file, we render our `App` component:
 
 ```tsx title="index.tsx"
 import { render } from 'solid-js/web'
@@ -152,7 +152,7 @@ The `render()` method from `solid-js/web` expects two arguments:
 1. A function that returns our `<App />` component
 2. An HTML element
 
-When you navigate to the `./index.html` file, you’ll see the root `div` and the use of our <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`index.tsx` file via the `<script />` tag:
+When you navigate to the `./index.html` file, you’ll see the root `div` and the use of our <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`index.tsx` file via the `<script />` tag:
 
 ```html
 <!-- ... -->
@@ -188,13 +188,13 @@ To install Bootstrap, run the following command on your terminal:
 pnpm install bootstrap
 ```
 
-Next, we’ll use the following line of code to import Bootstrap in our <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`index.tsx` file:
+Next, we’ll use the following line of code to import Bootstrap in our <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`index.tsx` file:
 
 ```tsx
 import 'bootstrap/dist/css/bootstrap.min.css'
 ```
 
-We can also remove the current <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` import as we won’t be needing it. Our <FontIcon icon="fa-brands fa-react"/>`index.tsx` file should now look like this:
+We can also remove the current <VPIcon icon="fa-brands fa-css3-alt"/>`index.css` import as we won’t be needing it. Our <VPIcon icon="fa-brands fa-react"/>`index.tsx` file should now look like this:
 
 ```tsx title="index.tsx"
 import { render } from 'solid-js/web'
@@ -208,7 +208,7 @@ render(() => <App />, document.getElementById('root') as HTMLElement)
 
 ## Using JSX to structure our task tracker
 
-Let’s use JSX to structure our task tracker. Inside the <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`App.tsx` file, replace what you currently have with this:
+Let’s use JSX to structure our task tracker. Inside the <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`App.tsx` file, replace what you currently have with this:
 
 ```tsx :collapsed-lines title="App.tsx"
 import type { Component } from 'solid-js'
@@ -252,7 +252,7 @@ Next, let’s learn how to create and manage state in Solid. We’ll do this by 
 
 ## Creating and updating state in Solid
 
-Solid has a `createSignal` Hook to create state. As an example, let’s create a `taskList` state to house our tasks. Inside the <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`App.tsx` file, we’ll start by creating a type for each task:
+Solid has a `createSignal` Hook to create state. As an example, let’s create a `taskList` state to house our tasks. Inside the <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`App.tsx` file, we’ll start by creating a type for each task:
 
 ```tsx title="App.tsx"
 const App: Component = () => {
@@ -517,7 +517,7 @@ That said, Solid is still new, and its ecosystem and community are small compare
 
 But Solid is growing fast and lots of people have already started migrating existing apps to the framework. The Solid community is fairly responsive and you should not have any problem getting help when you need it.
 
-You can find the [repo for our task tracker (<FontIcon icon="iconfont icon-github"/>`ebenezerdon/solid-task-tracker`)](https://github.com/ebenezerdon/solid-task-tracker) on my GitHub. I also have a [Solid crash course](https://youtu.be/WDodWU-B-aY) on my YouTube channel, which I’d love for you to check out. And if you want to keep in touch, consider following me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`ebenezerdon`)](https://linkedin.com/in/ebenezerdon). Keep building!
+You can find the [repo for our task tracker (<VPIcon icon="iconfont icon-github"/>`ebenezerdon/solid-task-tracker`)](https://github.com/ebenezerdon/solid-task-tracker) on my GitHub. I also have a [Solid crash course](https://youtu.be/WDodWU-B-aY) on my YouTube channel, which I’d love for you to check out. And if you want to keep in touch, consider following me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`ebenezerdon`)](https://linkedin.com/in/ebenezerdon). Keep building!
 
 <VidStack src="youtube/WDodWU-B-aY" />
 

@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/building-reusable-ui-components-with-rea
 
 ::: note Editor’s note
 
-This guide to building reusable UI components with React Hooks was last updated by [<FontIcon icon="fas fa-globe"/>Daggie Douglas Mwangi](https://blog.logrocket.com/author/daggieblanqx/) on 16 May 2023 to incorporate the latest React updates and new sections on optimal usage of reusable components, development of form components and search bars, functional components usage, and best practices. For more insight on React UI, refer to our guide* [**detailing the prioritization of React UI updates**](/blog.logrocket.com/understanding-prioritize-react-ui-updates.md).
+This guide to building reusable UI components with React Hooks was last updated by [<VPIcon icon="fas fa-globe"/>Daggie Douglas Mwangi](https://blog.logrocket.com/author/daggieblanqx/) on 16 May 2023 to incorporate the latest React updates and new sections on optimal usage of reusable components, development of form components and search bars, functional components usage, and best practices. For more insight on React UI, refer to our guide* [**detailing the prioritization of React UI updates**](/blog.logrocket.com/understanding-prioritize-react-ui-updates.md).
 
 :::
 
@@ -70,7 +70,7 @@ From using `useState` for managing component state to implementing `useEffect` f
 
 ::: note
 
-This post assumes that you have a [**basic understanding of React**](/blog.logrocket.com/getting-started-with-create-react-app.md). All the examples used in this project are available on this [<FontIcon icon="iconfont icon-replit"/>live Repl](https://replit.com/@DaggieBlanqx/Logrocket-Building-reusable-UI-components-with-React-Hooks) and [GitHub repository (<FontIcon icon="iconfont icon-github"/>`DaggieBlanqx/Blogpost-React-reusable-UI-components`)](https://github.com/DaggieBlanqx/Blogpost-React-reusable-UI-components). Also, in this tutorial, we will use v18 of Node.js and React.
+This post assumes that you have a [**basic understanding of React**](/blog.logrocket.com/getting-started-with-create-react-app.md). All the examples used in this project are available on this [<VPIcon icon="iconfont icon-replit"/>live Repl](https://replit.com/@DaggieBlanqx/Logrocket-Building-reusable-UI-components-with-React-Hooks) and [GitHub repository (<VPIcon icon="iconfont icon-github"/>`DaggieBlanqx/Blogpost-React-reusable-UI-components`)](https://github.com/DaggieBlanqx/Blogpost-React-reusable-UI-components). Also, in this tutorial, we will use v18 of Node.js and React.
 
 :::
 
@@ -88,7 +88,7 @@ We all know that reusable components are important. However, you may wonder if a
 
 Firstly, reusable components are ideal when similar functionality or UI patterns appear in multiple parts of your application. Instead of duplicating code, you can create a reusable component that can be easily shared and reused throughout your project.
 
-Secondly, when building large-scale applications or working in a team, reusable components promote consistency. Using the same component across different parts of the application allows you to ensure a unified [<FontIcon icon="fas fa-globe"/>UX](https://blog.logrocket.com/ux-design/) and reduce the chance of inconsistencies.
+Secondly, when building large-scale applications or working in a team, reusable components promote consistency. Using the same component across different parts of the application allows you to ensure a unified [<VPIcon icon="fas fa-globe"/>UX](https://blog.logrocket.com/ux-design/) and reduce the chance of inconsistencies.
 
 Lastly, reusable components are useful when you want to streamline development. Instead of reinventing the wheel every time, you can use existing components to speed up the development process and focus on more critical aspects of your application.
 
@@ -128,7 +128,7 @@ Now that we have learned about reusable components, functional components, and H
 
 One advantage of creating a reusable input component is that you maintain the appearance of the input in various parts of your application. You can also determine what type of input component should be rendered by passing it a prop.
 
-Although we won’t go deep into [**styling**](/blog.logrocket.com/styling-react-5-ways-style-react-apps.md) in this tutorial, you can customize your components to suit your visual needs. To get started quickly, use [<FontIcon icon="iconfont icon-replit"/>this Reactjs Replit template](https://replit.com/@replit/React-Javascript?v=1) to create a new project. In your newly created [<FontIcon icon="iconfont icon-replit"/>Replit](https://repl.it) project, create a <FontIcon icon="fas fa-folder-open"/>`components` folder with a <FontIcon icon="fa-brands fa-react"/>`FormInput.jsx`file, and add the following code to it:
+Although we won’t go deep into [**styling**](/blog.logrocket.com/styling-react-5-ways-style-react-apps.md) in this tutorial, you can customize your components to suit your visual needs. To get started quickly, use [<VPIcon icon="iconfont icon-replit"/>this Reactjs Replit template](https://replit.com/@replit/React-Javascript?v=1) to create a new project. In your newly created [<VPIcon icon="iconfont icon-replit"/>Replit](https://repl.it) project, create a <VPIcon icon="fas fa-folder-open"/>`components` folder with a <VPIcon icon="fa-brands fa-react"/>`FormInput.jsx`file, and add the following code to it:
 
 ```jsx :collapsed-lines title="components/FormInput.jsx"
 import { useState } from "react";
@@ -178,7 +178,7 @@ It also takes in a method `onChange()` to receive the value sent back out from t
 
 ### Custom select component
 
-Now, in your <FontIcon icon="fas fa-folder-open"/>`components` folder, create a <FontIcon icon="fa-brands fa-react"/>`CustomSelect.jsx` file and add the following code to it:
+Now, in your <VPIcon icon="fas fa-folder-open"/>`components` folder, create a <VPIcon icon="fa-brands fa-react"/>`CustomSelect.jsx` file and add the following code to it:
 
 ```jsx :collapsed-lines title="components/CustomSelect.jsx"
 import { useState } from "react";
@@ -222,7 +222,7 @@ In the code above, we receive the dataset needed for the `options` tag in the `s
 
 ### Button component
 
-A reusable button can be used to display different color variants or sizes everywhere it is used in your application. In your <FontIcon icon="fas fa-folder-open"/>`components` folder, create a <FontIcon icon="fa-brands fa-react"/>`Button.jsx` file and add the following code to it:
+A reusable button can be used to display different color variants or sizes everywhere it is used in your application. In your <VPIcon icon="fas fa-folder-open"/>`components` folder, create a <VPIcon icon="fa-brands fa-react"/>`Button.jsx` file and add the following code to it:
 
 ```jsx :collapsed-lines title="components/Button.jsx"
 import { useState } from "react";
@@ -270,7 +270,7 @@ Our button receives three properties through props:
 
 ### Modal component
 
-A [**modal component**](/blog.logrocket.com/building-react-modal-module-with-react-router.md#creating-modal-component:~:text=modal%20router%20element%3A-,Creating%20a%20modal%20component,-So%20far%2C%20we%E2%80%99ve) is suitable for sending alerts in your application. In your <FontIcon icon="fas fa-folder-open"/>`components` folder, create a <FontIcon icon="fa-brands fa-react"/>`Modal.jsx` file and add the following code to it:
+A [**modal component**](/blog.logrocket.com/building-react-modal-module-with-react-router.md#creating-modal-component:~:text=modal%20router%20element%3A-,Creating%20a%20modal%20component,-So%20far%2C%20we%E2%80%99ve) is suitable for sending alerts in your application. In your <VPIcon icon="fas fa-folder-open"/>`components` folder, create a <VPIcon icon="fa-brands fa-react"/>`Modal.jsx` file and add the following code to it:
 
 ```jsx title="components/Modal.jsx"
 import { useEffect, useRef } from "react";
@@ -298,7 +298,7 @@ Our modal component receives two things, a Boolean value `isShowing` that determ
 
 ### Toggle component
 
-A toggle component is used when an answer must be either true or false and is an essential form component. Now, create a <FontIcon icon="fa-brands fa-react"/>`ToggleSwitch.jsx` file in your `components` file and add the following code to it:
+A toggle component is used when an answer must be either true or false and is an essential form component. Now, create a <VPIcon icon="fa-brands fa-react"/>`ToggleSwitch.jsx` file in your `components` file and add the following code to it:
 
 ```jsx :collapsed-lines title="components/ToggleSwitch.jsx"
 import { useState } from 'react';
@@ -376,7 +376,7 @@ The checked state is bound to `isOn`, and the `onChange` event is handled by `ha
 
 ### Search bar component
 
-A search bar component can be used in various parts of a web application where a search functionality is required — for example, navigation headers, sidebars, filters, data tables, and more. Creating a reusable search bar component in React is straightforward. In your <FontIcon icon="fas fa-folder-open"/>`components` folder, create a <FontIcon icon="fa-brands fa-react"/>`SearchBar.jsx` file and add the following code to it:
+A search bar component can be used in various parts of a web application where a search functionality is required — for example, navigation headers, sidebars, filters, data tables, and more. Creating a reusable search bar component in React is straightforward. In your <VPIcon icon="fas fa-folder-open"/>`components` folder, create a <VPIcon icon="fa-brands fa-react"/>`SearchBar.jsx` file and add the following code to it:
 
 ```jsx :collapsed-lines title="components/SearchBar.jsx"
 const searchBarStyle = {
@@ -415,7 +415,7 @@ The placeholder attribute is set to the value of the `props.placeHolder` prop, o
 
 ### Form component
 
-A form component can be used in various scenarios where you need to encapsulate form inputs and provide additional functionality. In your <FontIcon icon="fas fa-folder-open"/>`components` folder, create a <FontIcon icon="fa-brands fa-react"/>`FormWrapper.jsx` file and add the following code to it:
+A form component can be used in various scenarios where you need to encapsulate form inputs and provide additional functionality. In your <VPIcon icon="fas fa-folder-open"/>`components` folder, create a <VPIcon icon="fa-brands fa-react"/>`FormWrapper.jsx` file and add the following code to it:
 
 ```jsx title="components/FormWrapper.jsx"
 const FormWrapper = (props) => {
@@ -442,7 +442,7 @@ The `<legend>` serves as a caption or description for the group of form elements
 
 ## Stitching all the components into one
 
-Now that we have defined all components we need, it is time to stitch them together. We will use the `FormWrapper` as the parent component. Therefore every component or element we put inside `FormWrapper` will be a child of `FormWrapper`. To implement this, create a file outside the <FontIcon icon="fa-brands fa-react"/>`App.jsx` components folder and add the following code inside it:
+Now that we have defined all components we need, it is time to stitch them together. We will use the `FormWrapper` as the parent component. Therefore every component or element we put inside `FormWrapper` will be a child of `FormWrapper`. To implement this, create a file outside the <VPIcon icon="fa-brands fa-react"/>`App.jsx` components folder and add the following code inside it:
 
 ```jsx :collapsed-lines title="App.jsx"
 import { useState } from "react";
@@ -597,7 +597,7 @@ Still, inside the second `FormWrapper`, we have added a `Button` component that 
 
 If you stitched the components successfully, as indicated by this article, you will see a UI that looks like this:
 
-If your UI didn’t look the same as in the video above, crossreference your code using this [GitHub repository (<FontIcon icon="iconfont icon-github"/>`DaggieBlanqx/Blogpost-React-reusable-UI-components`)](https://github.com/DaggieBlanqx/Blogpost-React-reusable-UI-components) or [Replit repl (<FontIcon icon="iconfont icon-replit"/>`@DaggieBlanqx`)](https://replit.com/@DaggieBlanqx/Logrocket-Building-reusable-UI-components-with-React-Hooks#src/App.jsx).
+If your UI didn’t look the same as in the video above, crossreference your code using this [GitHub repository (<VPIcon icon="iconfont icon-github"/>`DaggieBlanqx/Blogpost-React-reusable-UI-components`)](https://github.com/DaggieBlanqx/Blogpost-React-reusable-UI-components) or [Replit repl (<VPIcon icon="iconfont icon-replit"/>`@DaggieBlanqx`)](https://replit.com/@DaggieBlanqx/Logrocket-Building-reusable-UI-components-with-React-Hooks#src/App.jsx).
 
 ---
 

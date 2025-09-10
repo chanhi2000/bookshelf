@@ -66,7 +66,7 @@ it’s the process which JavaScript executes, reconciles, and makes interactive 
 
 I’ll elaborate for clarity.
 
-The JavaScript framework Next.js, a React-based framework, is capable of server-side rendering and hydration, so let’s start there, knowing that [<FontIcon icon="iconfont icon-nuxt"/>other major frameworks do this too](https://nuxt.com/docs/api/composables/use-hydration). I appreciate the clarity of [<FontIcon icon="fa-brands fa-react"/>the docs](https://react.dev/reference/react-dom/client/hydrateRoot) of React itself:
+The JavaScript framework Next.js, a React-based framework, is capable of server-side rendering and hydration, so let’s start there, knowing that [<VPIcon icon="iconfont icon-nuxt"/>other major frameworks do this too](https://nuxt.com/docs/api/composables/use-hydration). I appreciate the clarity of [<VPIcon icon="fa-brands fa-react"/>the docs](https://react.dev/reference/react-dom/client/hydrateRoot) of React itself:
 
 > In React, “hydration” is how React “attaches” to existing HTML that was already rendered by React in a server environment. During hydration, React will attempt to attach event listeners to the existing markup and take over rendering the app on the client.
 
@@ -120,7 +120,7 @@ The HTML that the browser receives for that page is sometime referred to as an �
 <div id="root"></div>
 ```
 
-The client-side rendered application gets rendered inside that when it’s ready. I’m not going to say that there is no place in this world for client-side-only rendering, but I’ll say it’s not ideal generally and I like that more and more it’s not the default. Why not ideal? If [<FontIcon icon="fas fa-globe"/>JavaScript doesn’t load for any reason](https://kryogenix.org/code/browser/everyonehasjs.html), there is no website at all. And there are lots of reasons why JavaScript wouldn’t load (much moreso than HTML), like a mistake is throwing an error, there was a network hiccup, it’s a large file that is taking an unexpectedly long time on the user’s network, the user is intentionally or unintentionally blocking it, etc.
+The client-side rendered application gets rendered inside that when it’s ready. I’m not going to say that there is no place in this world for client-side-only rendering, but I’ll say it’s not ideal generally and I like that more and more it’s not the default. Why not ideal? If [<VPIcon icon="fas fa-globe"/>JavaScript doesn’t load for any reason](https://kryogenix.org/code/browser/everyonehasjs.html), there is no website at all. And there are lots of reasons why JavaScript wouldn’t load (much moreso than HTML), like a mistake is throwing an error, there was a network hiccup, it’s a large file that is taking an unexpectedly long time on the user’s network, the user is intentionally or unintentionally blocking it, etc.
 
 If we run this is an off-the-shelf Next.js build instead, which *does* have a build step, the HTML output will look like this instead:
 
@@ -144,13 +144,13 @@ It could be argued that going with a framework that uses SSR then hydrates leads
 
 ## What can go wrong?
 
-The most likely problem is mis-matching HTML. Since we started with Next.js, [<FontIcon icon="fas fa-globe"/>here’s a post](https://nextjsstarter.com/blog/nextjs-hydration-errors-causes-fixes-tips/) showing off a variety of examples of how this can happen with that framework. In development, you’ll likely face show-stopping full page errors with hydration errors, because the framework really wants you to fix them, and you should. *Generally*, the production build of the site with smooth over the user-facing errors so that the site is still functional. The trouble is that then the site is quite literally doing double the work and the SSR page is being blown away entirely when the client one comes in and doesn’t match. I’ve seen user-facing hydration errors breaking a site entirely, so again: possibly fragility here. Dealing with these kind of problems is work and may introduce complexity again.
+The most likely problem is mis-matching HTML. Since we started with Next.js, [<VPIcon icon="fas fa-globe"/>here’s a post](https://nextjsstarter.com/blog/nextjs-hydration-errors-causes-fixes-tips/) showing off a variety of examples of how this can happen with that framework. In development, you’ll likely face show-stopping full page errors with hydration errors, because the framework really wants you to fix them, and you should. *Generally*, the production build of the site with smooth over the user-facing errors so that the site is still functional. The trouble is that then the site is quite literally doing double the work and the SSR page is being blown away entirely when the client one comes in and doesn’t match. I’ve seen user-facing hydration errors breaking a site entirely, so again: possibly fragility here. Dealing with these kind of problems is work and may introduce complexity again.
 
 ---
 
 ## Does using a JavaScript framework with SSR absolutely require hydration?
 
-If you don’t need any interactivity at all, no. Personally, I like the component model of building sites with JavaScript-based components even if it’s largely just static content. [<FontIcon icon="fas fa-globe"/>Astro](https://astro.build/) excels at that ([<FontIcon icon="fas fa-globe"/>here’s a course](https://frontendmasters.com/courses/astro/)), but other frameworks can be configured to not output any JavaScript (thus skipping any hydration process).
+If you don’t need any interactivity at all, no. Personally, I like the component model of building sites with JavaScript-based components even if it’s largely just static content. [<VPIcon icon="fas fa-globe"/>Astro](https://astro.build/) excels at that ([<VPIcon icon="fas fa-globe"/>here’s a course](https://frontendmasters.com/courses/astro/)), but other frameworks can be configured to not output any JavaScript (thus skipping any hydration process).
 
 A blog post famously said [“Hydration is pure overhead.”](https://builder.io/blog/hydration-is-pure-overhead)
 
@@ -162,7 +162,7 @@ A blog post famously said [“Hydration is pure overhead.”](https://builder.io
 
 Overhead indeed. Perhaps not ideal, but probably worth it.
 
-The framework [<FontIcon icon="fas fa-globe"/>Qwik](https://qwik.dev/) avoids hydration at all with a concept it coined as “resumability”. I honestly don’t know enough about it to fully understand the tradeoffs there (I promise: there are always tradeoffs), but if you’re certain that hydration is your main problem, it’s worth a look.
+The framework [<VPIcon icon="fas fa-globe"/>Qwik](https://qwik.dev/) avoids hydration at all with a concept it coined as “resumability”. I honestly don’t know enough about it to fully understand the tradeoffs there (I promise: there are always tradeoffs), but if you’re certain that hydration is your main problem, it’s worth a look.
 
 You should also drink more water.
 

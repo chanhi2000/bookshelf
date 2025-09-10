@@ -53,7 +53,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 On iOS, there is a setting for Text Size. I’ll do a video here for the current version of iOS (17.5.1) to be clear:
 
-As far as I ever knew, that controlled the text size on the OS itself and native apps. It didn’t effect websites. I think that’s largely true, but I just learned you can honor the setting on the web as well. Craig Hockenberry wrote about this in [<FontIcon icon="fas fa-globe"/>Dynamic Type on the Web](https://furbo.org/2024/07/04/dynamic-type-on-the-web/):
+As far as I ever knew, that controlled the text size on the OS itself and native apps. It didn’t effect websites. I think that’s largely true, but I just learned you can honor the setting on the web as well. Craig Hockenberry wrote about this in [<VPIcon icon="fas fa-globe"/>Dynamic Type on the Web](https://furbo.org/2024/07/04/dynamic-type-on-the-web/):
 
 > This is a big win for accessibility: many folks make this adjustment on their device to match their abilities. Just because you can read a tiny font doesn’t mean that I can. It also is a win for consistency: my site’s font size matches the other text that a visitor sees on their device.
 

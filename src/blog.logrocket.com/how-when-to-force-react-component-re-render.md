@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/how-when-to-force-react-component-re-ren
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Emmanuel Odioko](https://blog.logrocket.com/author/emmanuelodioko/) on 25 September 2024 to include a discussion on the impact of React 18’s concurrent rendering and automatic batching on re-renders. It also covers how to determine when a render is complete using tools such as React’s `<Profiler>` and `performance.now()` APIs.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Emmanuel Odioko](https://blog.logrocket.com/author/emmanuelodioko/) on 25 September 2024 to include a discussion on the impact of React 18’s concurrent rendering and automatic batching on re-renders. It also covers how to determine when a render is complete using tools such as React’s `<Profiler>` and `performance.now()` APIs.
 
 :::
 
@@ -78,7 +78,7 @@ Although React is usually good at knowing when it is time to update a component,
 
 Let’s take a closer look at how React’s rendering process works by default. To understand when and why you might need to nudge React into re-rendering, you need to get familiar with its underlying architecture.
 
-At the heart of [<FontIcon icon="fa-brands fa-react"/>React’s rendering](https://react.dev/learn/render-and-commit) magic lies the Virtual DOM. Imagine it as a clone of the actual DOM, the structure of your webpage. React uses this Virtual DOM to figure out what needs to be updated when your data changes. It’s like having a duplicate house to practice your painting skills on before touching the real thing.
+At the heart of [<VPIcon icon="fa-brands fa-react"/>React’s rendering](https://react.dev/learn/render-and-commit) magic lies the Virtual DOM. Imagine it as a clone of the actual DOM, the structure of your webpage. React uses this Virtual DOM to figure out what needs to be updated when your data changes. It’s like having a duplicate house to practice your painting skills on before touching the real thing.
 
 So, how does React know when to refresh the Virtual DOM and make necessary changes to the actual webpage? This happens in three stages:
 
@@ -98,7 +98,7 @@ Generally, forcing a React component to re-render isn’t the best practice, eve
 
 Let’s build a simple component to demonstrate one common reason components aren’t rendering. We will build a simple app that will show a username, `Juan`, and, after pressing a button, the name will change to `Peter`.
 
-[<FontIcon icon="iconfont icon-codesandbox"/>Here is a demonstration of the app with the complete code](https://codesandbox.io/s/react-wrong-state-change-byx8f). If you click the **Change user name** button, you will notice that nothing happens, even though we changed our state on the button:
+[<VPIcon icon="iconfont icon-codesandbox"/>Here is a demonstration of the app with the complete code](https://codesandbox.io/s/react-wrong-state-change-byx8f). If you click the **Change user name** button, you will notice that nothing happens, even though we changed our state on the button:
 
 ::: sandpack#react bajcmartinez / Drafts / react-wrong-state-chnge [rtl theme=dark]
 
@@ -148,9 +148,9 @@ function changeUserName() {
 
 The component did not change, so there was no re-rendering trigger. Why?
 
-React evaluates state changes by checking its [<FontIcon icon="fa-brands fa-react"/>shallow equality](https://reactjs.org/docs/shallow-compare.html) (or reference equality), which checks to see if both the preview and new value for `state` reference the same object. In our example, we updated one of the properties of the `user` object, but we technically made `setUser` the same object reference, and thus, React didn’t perceive any change in its state.
+React evaluates state changes by checking its [<VPIcon icon="fa-brands fa-react"/>shallow equality](https://reactjs.org/docs/shallow-compare.html) (or reference equality), which checks to see if both the preview and new value for `state` reference the same object. In our example, we updated one of the properties of the `user` object, but we technically made `setUser` the same object reference, and thus, React didn’t perceive any change in its state.
 
-State, as described in the [<FontIcon icon="fa-brands fa-react"/>React documentation](https://reactjs.org/docs/react-component.html#state), should be treated as immutable. So, how do we fix it? We could create a new object with the correct values as follows:
+State, as described in the [<VPIcon icon="fa-brands fa-react"/>React documentation](https://reactjs.org/docs/react-component.html#state), should be treated as immutable. So, how do we fix it? We could create a new object with the correct values as follows:
 
 ```js
 function changeUserName() {
@@ -161,7 +161,7 @@ function changeUserName() {
 }
 ```
 
-Note that we are using the [<FontIcon icon="fas fa-globe"/>spread operator](https://livecodestream.dev/post/how-to-use-the-spread-operator-in-javascript/) in JavaScript to preserve the properties of the original object while updating its `name` property under a new object. [<FontIcon icon="iconfont icon-codesandbox"/>The final result can be observed here](https://codesandbox.io/s/react-correct-state-change-forked-f1wc7).
+Note that we are using the [<VPIcon icon="fas fa-globe"/>spread operator](https://livecodestream.dev/post/how-to-use-the-spread-operator-in-javascript/) in JavaScript to preserve the properties of the original object while updating its `name` property under a new object. [<VPIcon icon="iconfont icon-codesandbox"/>The final result can be observed here](https://codesandbox.io/s/react-correct-state-change-forked-f1wc7).
 
 ::: sandpack#react bajcmartinez / Drafts / react-correct-state-change (forked) [rtl theme=dark]
 
@@ -208,7 +208,7 @@ function MyComponent(props) {
 
 While it may seem impossible, incorrectly updating props without a state change can happen, and it usually leads to bugs. Let’s look at an example.
 
-In this [<FontIcon icon="iconfont icon-codesandbox"/>demo](https://codesandbox.io/s/react-props-not-state-ml872), I built a clock that has a major problem: the time doesn’t change after I first load the screen. Not a very useful clock, right?
+In this [<VPIcon icon="iconfont icon-codesandbox"/>demo](https://codesandbox.io/s/react-props-not-state-ml872), I built a clock that has a major problem: the time doesn’t change after I first load the screen. Not a very useful clock, right?
 
 ::: sandpack#react bajcmartinez / Drafts / react-props-not-state [rtl theme=dark]
 
@@ -266,7 +266,7 @@ This code looks ugly and is generally not a great way to code for a React compon
 <Clock myTime={myTime} />
 ```
 
-This demo doesn’t work because props are a reflection of state, so a standalone change in props won’t trigger a re-render. To fix it, we need a total [<FontIcon icon="iconfont icon-codesandbox"/>rewrite](https://codesandbox.io/s/react-props-as-state-forked-ii6cb).
+This demo doesn’t work because props are a reflection of state, so a standalone change in props won’t trigger a re-render. To fix it, we need a total [<VPIcon icon="iconfont icon-codesandbox"/>rewrite](https://codesandbox.io/s/react-props-as-state-forked-ii6cb).
 
 ::: sandpack#react bajcmartinez / Drafts / react-props-as-state (forked) [rtl theme=dark]
 
@@ -325,9 +325,9 @@ function tick() {
 
 React provides us with multiple ways to tell when to re-render the component. There are three ways we will discuss below:
 
-1. **`setState` method**: This is the go-to method for most re-rendering scenarios. When you call [<FontIcon icon="fa-brands fa-react"/>`setState`](https://react.dev/reference/react/Component#setstate), React takes notice and starts the re-rendering process for the component. It’s like telling your component, “Hey, something’s changed, time to update!” You typically use this method when your component’s state or props change
+1. **`setState` method**: This is the go-to method for most re-rendering scenarios. When you call [<VPIcon icon="fa-brands fa-react"/>`setState`](https://react.dev/reference/react/Component#setstate), React takes notice and starts the re-rendering process for the component. It’s like telling your component, “Hey, something’s changed, time to update!” You typically use this method when your component’s state or props change
 2. **`forceUpdate`method**: Sometimes, you might have a good reason to bypass the usual state or prop changes and refresh your component entirely. The `forceUpdate` function does just that. It’s like giving your component a direct order to repaint itself, regardless of what’s happening in the background. Use this one sparingly, as it can disrupt React’s optimization
-3. **`key` prop manipulation**: This is a more advanced technique. React relies on [<FontIcon icon="fa-brands fa-react"/>keys](https://react.dev/learn/rendering-lists#why-does-react-need-keys) to determine which elements in a list have changed. By [<FontIcon icon="fa-brands fa-react"/>manipulating the key prop](https://react.dev/reference/react/useState#resetting-state-with-a-key), you can effectively force re-renders in components that rely on lists. It’s a bit like changing the name on the mailbox to get your mail forwarded to a different address. It’s useful in specific scenarios, but use it with care
+3. **`key` prop manipulation**: This is a more advanced technique. React relies on [<VPIcon icon="fa-brands fa-react"/>keys](https://react.dev/learn/rendering-lists#why-does-react-need-keys) to determine which elements in a list have changed. By [<VPIcon icon="fa-brands fa-react"/>manipulating the key prop](https://react.dev/reference/react/useState#resetting-state-with-a-key), you can effectively force re-renders in components that rely on lists. It’s a bit like changing the name on the mailbox to get your mail forwarded to a different address. It’s useful in specific scenarios, but use it with care
 
 These methods provide you with the means to control when and how your components re-render. But remember that with great power comes great responsibility — overusing these methods can lead to issues, which we will discuss later in this article.
 
@@ -339,7 +339,7 @@ It’s typically frowned upon to force a component to re-render, and the failure
 
 ### Forcing an update on a React class component
 
-If you are using class components in your code, you’re in luck. React provides an [<FontIcon icon="fa-brands fa-react"/>official API to force a re-render](https://reactjs.org/docs/react-component.html#forceupdate), and it’s straightforward to implement:
+If you are using class components in your code, you’re in luck. React provides an [<VPIcon icon="fa-brands fa-react"/>official API to force a re-render](https://reactjs.org/docs/react-component.html#forceupdate), and it’s straightforward to implement:
 
 ```js
 someMethod() {
@@ -404,7 +404,7 @@ export default function App() {
 }
 ```
 
-Now, each time we click on the **Force re-render** button, the component will re-render. You can [<FontIcon icon="iconfont icon-codesandbox"/>access the live demo here](https://codesandbox.io/s/forcing-functional-component-re-render-5uj12).
+Now, each time we click on the **Force re-render** button, the component will re-render. You can [<VPIcon icon="iconfont icon-codesandbox"/>access the live demo here](https://codesandbox.io/s/forcing-functional-component-re-render-5uj12).
 
 ::: sandpack#react bajcmartinez / Drafts / forcing-functional-component-re-render [rtl theme=dark]
 
@@ -534,7 +534,7 @@ By combining React’s `<Profiler>` and `performance.now()` APIs, you can gain d
 
 When React 18 was released, it introduced several optimization features, including concurrent rendering. This allows React to break down heavy renders into smaller bits, thereby improving the user experience.
 
-To achieve this, React does two things: first, it prioritizes more urgent updates; second, it attends to less critical updates afterward. The [<FontIcon icon="fa-brands fa-react"/>`UseTransition()` Hook](https://react.dev/reference/react/useTransition) helps manage these “non-urgent” updates. When state changes are wrapped in `startTransition()`, React will delay lower-priority updates until the critical ones are complete.
+To achieve this, React does two things: first, it prioritizes more urgent updates; second, it attends to less critical updates afterward. The [<VPIcon icon="fa-brands fa-react"/>`UseTransition()` Hook](https://react.dev/reference/react/useTransition) helps manage these “non-urgent” updates. When state changes are wrapped in `startTransition()`, React will delay lower-priority updates until the critical ones are complete.
 
 This feature can lead to more frequent re-renders — one for starting the transition and the other for completing it — the overall performance will remain smoother because less critical updates are handled in the background.
 

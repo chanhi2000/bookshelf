@@ -54,7 +54,7 @@ cover: /assets/image/blog.logrocket.com/whats-new-django-v4/banner.png
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/whats-new-django-v4/banner.png"/>
 
-In December 2021, the [<FontIcon icon="iconfont icon-django"/>Django team released Django v4](https://docs.djangoproject.com/en/4.0/releases/4.0/), which contains various upgrades to the framework, like improved customization and the use of the template engine for forms, Formsets, and `ErrorList`.
+In December 2021, the [<VPIcon icon="iconfont icon-django"/>Django team released Django v4](https://docs.djangoproject.com/en/4.0/releases/4.0/), which contains various upgrades to the framework, like improved customization and the use of the template engine for forms, Formsets, and `ErrorList`.
 
 ![Whats New Django v4](/assets/image/blog.logrocket.com/whats-new-django-v4/banner.png)
 
@@ -72,7 +72,7 @@ python -Wa manage.py test
 
 ### Installation
 
-Once you fix any deprecation warnings, you can go ahead and install Django v4.0. If you [<FontIcon icon="iconfont icon-django"/>installed Django with pip](https://docs.djangoproject.com/en/4.0/topics/install/), you can use the `--upgrade` or `-U` flag:
+Once you fix any deprecation warnings, you can go ahead and install Django v4.0. If you [<VPIcon icon="iconfont icon-django"/>installed Django with pip](https://docs.djangoproject.com/en/4.0/topics/install/), you can use the `--upgrade` or `-U` flag:
 
 ```sh
 python -m pip install -U Django
@@ -174,7 +174,7 @@ Additionally, values beginning with a dot must now be preceded by an asterisk. F
 
 ### scrypt password hasher
 
-The [<FontIcon icon="iconfont icon-django"/>scrypt password hasher](https://docs.djangoproject.com/en/4.0/topics/auth/passwords/#scrypt-usage) has been added to Django v4.0 to provide additional security, and it is advised that you use [<FontIcon icon="iconfont icon-django"/>scrypt instead of PBKDF2](https://docs.djangoproject.com/en/4.0/topics/auth/passwords/) to limit the amount of parallelism an attacker can utilize.
+The [<VPIcon icon="iconfont icon-django"/>scrypt password hasher](https://docs.djangoproject.com/en/4.0/topics/auth/passwords/#scrypt-usage) has been added to Django v4.0 to provide additional security, and it is advised that you use [<VPIcon icon="iconfont icon-django"/>scrypt instead of PBKDF2](https://docs.djangoproject.com/en/4.0/topics/auth/passwords/) to limit the amount of parallelism an attacker can utilize.
 
 scrypt is designed to use more memory than other password-based key derivation techniques.
 
@@ -206,7 +206,7 @@ The `Meta.restrictions` option is used to apply functionally unique constraints 
 
 ## Conclusion
 
-In this article, we went over some of the new features in Django v4.0, some of the third-party packages that Django v4.0 no longer supports, and the steps required to upgrade your existing version to Django v4.0. Django v4.0’s new features are not limited to those covered in this post. For a complete list of the new features, check out [<FontIcon icon="iconfont icon-django"/>Django’s official announcement](https://docs.djangoproject.com/en/4.0/releases/4.0/). I hope you enjoyed this tutorial!
+In this article, we went over some of the new features in Django v4.0, some of the third-party packages that Django v4.0 no longer supports, and the steps required to upgrade your existing version to Django v4.0. Django v4.0’s new features are not limited to those covered in this post. For a complete list of the new features, check out [<VPIcon icon="iconfont icon-django"/>Django’s official announcement](https://docs.djangoproject.com/en/4.0/releases/4.0/). I hope you enjoyed this tutorial!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -58,7 +58,7 @@ Today we’re releasing a new daemon to control runC called:containerd.It’sbui
 
 ![containerd](https://docker.com/app/uploads/2015/12/containerd-300x196.png)
 
-Containerd is built on top of the [Open Container Initiative’s runC (<FontIcon icon="iconfont icon-github"/>`opencontainers/runc`)](https://github.com/opencontainers/runc) and specification. Containerd is a daemon providing a GRPC API to manage containers on the local system. Containerd leverages runC to provide advanced functionality like checkpoint and restore, seccomp, and user namespace support which will open the door for these features into Docker.
+Containerd is built on top of the [Open Container Initiative’s runC (<VPIcon icon="iconfont icon-github"/>`opencontainers/runc`)](https://github.com/opencontainers/runc) and specification. Containerd is a daemon providing a GRPC API to manage containers on the local system. Containerd leverages runC to provide advanced functionality like checkpoint and restore, seccomp, and user namespace support which will open the door for these features into Docker.
 
 ![](https://docker.com/app/uploads/2015/12/Screen-Shot-2015-12-17-at-12.17.36-PM.png)
 
@@ -66,7 +66,7 @@ Containerd is built for ops and optimized for performance. Benchmarking on my la
 
 We have also taken the time to correct some of the long standing issues, like zombie reaping and runtime telemetry. This lets you monitor different statistics from not only the containers but also the runtime.
 
-We are releasing containerd in alpha, and will continue to update it as we work on making it feature complete with everything you would expect from Docker, and more. Containerd is the plumbing component that will manage containers in a future version of Docker Engine. To learn more about containerd, check out the [docs directory (<FontIcon icon="iconfont icon-github"/>`docker/containerd`)](https://github.com/docker/containerd/tree/master/docs) in the [repository (<FontIcon icon="iconfont icon-github"/>`docker/containerd`)](https://github.com/docker/containerd).
+We are releasing containerd in alpha, and will continue to update it as we work on making it feature complete with everything you would expect from Docker, and more. Containerd is the plumbing component that will manage containers in a future version of Docker Engine. To learn more about containerd, check out the [docs directory (<VPIcon icon="iconfont icon-github"/>`docker/containerd`)](https://github.com/docker/containerd/tree/master/docs) in the [repository (<VPIcon icon="iconfont icon-github"/>`docker/containerd`)](https://github.com/docker/containerd).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

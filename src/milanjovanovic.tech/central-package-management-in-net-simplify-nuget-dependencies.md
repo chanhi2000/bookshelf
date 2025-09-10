@@ -72,7 +72,7 @@ This causes real problems. Different versions can behave differently, leading to
 
 Think of CPM as a control center for all your package versions. Instead of setting versions in each project, you set them once in one place. Then, you just reference a package you want to use without specifying the version. It's that simple.
 
-Here's what you need to use [<FontIcon icon="fa-brands fa-microsoft"/>Central Package Management](https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management):
+Here's what you need to use [<VPIcon icon="fa-brands fa-microsoft"/>Central Package Management](https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management):
 
 - NuGet 6.2 or newer
 - .NET SDK 6.0.300 or newer
@@ -86,7 +86,7 @@ Let me show you how to set up CPM. It's easier than you might think.
 
 ### 1
 
-First, create a file called <FontIcon icon="iconfont icon-code"/>`Directory.Packages.props` in your solution's main folder:
+First, create a file called <VPIcon icon="iconfont icon-code"/>`Directory.Packages.props` in your solution's main folder:
 
 ```xml title="Directory.Packages.props"
 <Project>
@@ -175,7 +175,7 @@ $packages | ForEach-Object {
 }
 ```
 
-There's also a CLI tool called [<FontIcon icon="iconfont icon-github"/>`Webreaper/CentralisedPackageConverter`](https://github.com/Webreaper/CentralisedPackageConverter), which you can use to automate the migration. It will scan for all .NET project files within that folder tree, gather all the versioned references in the projects, remove the versions from the project files, and write the entries to the `Directory.Packages.props` file.
+There's also a CLI tool called [<VPIcon icon="iconfont icon-github"/>`Webreaper/CentralisedPackageConverter`](https://github.com/Webreaper/CentralisedPackageConverter), which you can use to automate the migration. It will scan for all .NET project files within that folder tree, gather all the versioned references in the projects, remove the versions from the project files, and write the entries to the `Directory.Packages.props` file.
 
 ```bash
 # Install the tool globally

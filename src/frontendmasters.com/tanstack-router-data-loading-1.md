@@ -56,7 +56,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4465"/>
 
-[<FontIcon icon="fas fa-globe"/>TanStack Router](https://tanstack.com/router/latest) is one of the most exciting projects in the web development ecosystem right now, and it doesn’t get nearly enough attention. It’s a fully fledged client-side application framework that supports advanced routing, nested layouts, and hooks for loading data. Best of all, it does all of this with deep type safety.
+[<VPIcon icon="fas fa-globe"/>TanStack Router](https://tanstack.com/router/latest) is one of the most exciting projects in the web development ecosystem right now, and it doesn’t get nearly enough attention. It’s a fully fledged client-side application framework that supports advanced routing, nested layouts, and hooks for loading data. Best of all, it does all of this with deep type safety.
 
 ::: info Article Series
 
@@ -92,9 +92,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 :::
 
-This post is all about **data loading**. We’ll cover the built-in hooks TanStack Router ships with to load and invalidate data. Then we’ll cover how easily [<FontIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest) (also known as react-query) integrates and see what the tradeoffs of each are.
+This post is all about **data loading**. We’ll cover the built-in hooks TanStack Router ships with to load and invalidate data. Then we’ll cover how easily [<VPIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest) (also known as react-query) integrates and see what the tradeoffs of each are.
 
-The code for everything we’re covering is [in this GitHub repo (<FontIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo). As before, I’m building an extremely austere, imaginary Jira knockoff. There’s nothing useful in that repo beyond the bare minimum needed for us to take a close look at how data loading works. If you’re building your own thing, be sure to check out the[<FontIcon icon="fas fa-globe"/>DevTools](https://tanstack.com/router/latest/docs/framework/react/devtools)for TanStack Router. They’re outstanding.
+The code for everything we’re covering is [in this GitHub repo (<VPIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo). As before, I’m building an extremely austere, imaginary Jira knockoff. There’s nothing useful in that repo beyond the bare minimum needed for us to take a close look at how data loading works. If you’re building your own thing, be sure to check out the[<VPIcon icon="fas fa-globe"/>DevTools](https://tanstack.com/router/latest/docs/framework/react/devtools)for TanStack Router. They’re outstanding.
 
 The app does load actual data via SQLite, along with some forced delays, so we can more clearly see (and fix) network waterfalls. If you want to run the project, clone it, run`npm i`, and then open**two**terminals. In the first, run`npm run server`, which will create the SQLite database, seed it with data, and set up the API endpoints to fetch, and update data. In the second, run`npm run dev`to start the main project, which will be on`http://localhost:5173/`. There are some (extremely basic) features to edit data. If at any point you want to reset the data, just reset the server task in your terminal.
 
@@ -104,7 +104,7 @@ The app is contrived. It exists to show Router’s capabilities. We’ll often h
 
 ## But what about SSR?
 
-Router is essentially a client-side framework. There are hooks to get SSR working, but they’re very much DIY. If this disappoints you, I’d urge just a bit of patience. [<FontIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest) (now in Beta) is a new project that, for all intents and purposes, adds SSR capabilities to the very same TanStack Router we’ll be talking about. What makes me especially excited about TanStack Start is that it adds these server-side capabilities in a very non-intrusive way, which does not change or invalidate anything we’ll be talking about in this post (or talked about in my last post on Router, linked above). If that’s not entirely clear and you’d like to learn more, stay tuned for my future post on TanStack Start.
+Router is essentially a client-side framework. There are hooks to get SSR working, but they’re very much DIY. If this disappoints you, I’d urge just a bit of patience. [<VPIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest) (now in Beta) is a new project that, for all intents and purposes, adds SSR capabilities to the very same TanStack Router we’ll be talking about. What makes me especially excited about TanStack Start is that it adds these server-side capabilities in a very non-intrusive way, which does not change or invalidate anything we’ll be talking about in this post (or talked about in my last post on Router, linked above). If that’s not entirely clear and you’d like to learn more, stay tuned for my future post on TanStack Start.
 
 ---
 
@@ -112,7 +112,7 @@ Router is essentially a client-side framework. There are hooks to get SSR workin
 
 TanStack Router is an entire application framework. You could teach an entire course on it, and indeed there’s no shortage of YouTube videos out there. This blog will turn into a book if we try to cover each and every option in depth.
 
-In this post we’ll cover the most relevant features and show code snippets where helpful. Refer to the [<FontIcon icon="fas fa-globe"/>docs](https://tanstack.com/router/latest/docs/framework/react/overview)for details. Also check out the[repo for this post (<FontIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo)as all the examples we use in this post are fleshed out in their entirety there.
+In this post we’ll cover the most relevant features and show code snippets where helpful. Refer to the [<VPIcon icon="fas fa-globe"/>docs](https://tanstack.com/router/latest/docs/framework/react/overview)for details. Also check out the[repo for this post (<VPIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo)as all the examples we use in this post are fleshed out in their entirety there.
 
 Don’t let the extremely wide range of features scare you. The**vast**majority of the time, some basic loaders will get you exactly what you need. We’ll cover some of the advanced features, too, so you know they’re there, if you ever do need them.
 

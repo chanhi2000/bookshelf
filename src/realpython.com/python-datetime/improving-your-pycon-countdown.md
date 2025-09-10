@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/How-to-Use-Python-datetime-With-Exampl
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Use-Python-datetime-With-Examples_Watermarked.2676ca0aacf2.jpg"/>
 
-Now that you know how to add time zone information to a Python `datetime` instance, you can improve your PyCon countdown code. Earlier, you used the standard `datetime` constructor to pass the year, month, day, and hour that PyCon will start. You can update your code to use the [<FontIcon icon="fas fa-globe"/>`dateutil.parser`](https://dateutil.readthedocs.io/en/stable/parser.html) module, which provides a more natural interface for creating `datetime` instances:
+Now that you know how to add time zone information to a Python `datetime` instance, you can improve your PyCon countdown code. Earlier, you used the standard `datetime` constructor to pass the year, month, day, and hour that PyCon will start. You can update your code to use the [<VPIcon icon="fas fa-globe"/>`dateutil.parser`](https://dateutil.readthedocs.io/en/stable/parser.html) module, which provides a more natural interface for creating `datetime` instances:
 
 ```py title="pyconcd.py"
 from dateutil import parser, tz

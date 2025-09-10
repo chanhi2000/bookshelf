@@ -99,7 +99,7 @@ with open('data.txt', 'w') as f:
     f.write(data)
 ```
 
-In the examples above, `open()` opens files for reading or writing and returns a file handle (`f` in this case) that provides methods that can be used to read or write data to the file. Check out [**Reading and Writing Files in Python**](/realpython.com/read-write-files-python/README.md) and [<FontIcon icon="fas fa-globe"/>Working With File I/O in Python](https://dbader.org/blog/python-file-io) for more information on how to read and write to files.
+In the examples above, `open()` opens files for reading or writing and returns a file handle (`f` in this case) that provides methods that can be used to read or write data to the file. Check out [**Reading and Writing Files in Python**](/realpython.com/read-write-files-python/README.md) and [<VPIcon icon="fas fa-globe"/>Working With File I/O in Python](https://dbader.org/blog/python-file-io) for more information on how to read and write to files.
 
 ---
 
@@ -164,7 +164,7 @@ for entry in entries:
 
 In modern versions of Python, an alternative to `os.listdir()` is to use `os.scandir()` and `pathlib.Path()`.
 
-`os.scandir()` was introduced in Python 3.5 and is documented in [<FontIcon icon="fa-brands fa-python"/>PEP 471](https://python.org/dev/peps/pep-0471/). `os.scandir()` returns an iterator as opposed to a list when called:
+`os.scandir()` was introduced in Python 3.5 and is documented in [<VPIcon icon="fa-brands fa-python"/>PEP 471](https://python.org/dev/peps/pep-0471/). `os.scandir()` returns an iterator as opposed to a list when called:
 
 ```py
 import os
@@ -184,7 +184,7 @@ with os.scandir('my_directory/') as entries:
         print(entry.name)
 ```
 
-Here, `os.scandir()` is used in conjunction with the `with` statement because it supports the context manager protocol. Using a context manager closes the iterator and frees up acquired resources automatically after the iterator has been exhausted. The result is a print out of the filenames in <FontIcon icon="fas fa-folder-open"/>`my_directory/` just like you saw in the `os.listdir()` example:
+Here, `os.scandir()` is used in conjunction with the `with` statement because it supports the context manager protocol. Using a context manager closes the iterator and frees up acquired resources automatically after the iterator has been exhausted. The result is a print out of the filenames in <VPIcon icon="fas fa-folder-open"/>`my_directory/` just like you saw in the `os.listdir()` example:
 
 ```plaintext title="output"
 sub_dir_c
@@ -209,13 +209,13 @@ The objects returned by `Path` are either `PosixPath` or `WindowsPath` objects d
 
 `pathlib.Path()` objects have an `.iterdir()` method for creating an [**iterator of all files and folders in a directory**](/realpython.com/get-all-files-in-directory-python.md). Each entry yielded by `.iterdir()` contains information about the file or directory such as its name and file attributes. `pathlib` was first introduced in Python 3.4 and is a great addition to Python that provides an object oriented interface to the filesystem.
 
-In the example above, you call `pathlib.Path()` and pass a path argument to it. Next is the call to `.iterdir()` to get a list of all files and directories in <FontIcon icon="fas fa-folder-open"/>`my_directory`.
+In the example above, you call `pathlib.Path()` and pass a path argument to it. Next is the call to `.iterdir()` to get a list of all files and directories in <VPIcon icon="fas fa-folder-open"/>`my_directory`.
 
 `pathlib` offers a set of classes featuring most of the common operations on paths in an easy, object-oriented way. Using `pathlib` is more if not equally efficient as using the functions in `os`. Another benefit of using `pathlib` over `os` is that it reduces the number of imports you need to make to manipulate filesystem paths. For more information, read [**Python’s pathlib Module: Taming the File System**](/realpython.com/python-pathlib.md).
 
 ::: note
 
-To get started with `pathlib`, check out [<FontIcon icon="fas fa-globe"/>Python Basics: File System Operations](https://realpython.com/courses/python-basics-file-system-operations/) and the associated [<FontIcon icon="fas fa-globe"/>exercises](https://realpython.com/courses/python-file-system-exercises/).
+To get started with `pathlib`, check out [<VPIcon icon="fas fa-globe"/>Python Basics: File System Operations](https://realpython.com/courses/python-basics-file-system-operations/) and the associated [<VPIcon icon="fas fa-globe"/>exercises](https://realpython.com/courses/python-file-system-exercises/).
 
 :::
 
@@ -305,7 +305,7 @@ file3.txt
 file2.csv
 ```
 
-The code above can be made more concise if you combine the [**`for` loop**](/realpython.com/python-for-loop.md) and the [**`if` statement**](/realpython.com/python-conditional-statements.md) into a single generator expression. Dan Bader has an [<FontIcon icon="fas fa-globe"/>excellent article](https://dbader.org/blog/python-generator-expressions) on [**generator expressions**](/realpython.com/introduction-to-python-generators.md) and list comprehensions.
+The code above can be made more concise if you combine the [**`for` loop**](/realpython.com/python-for-loop.md) and the [**`if` statement**](/realpython.com/python-conditional-statements.md) into a single generator expression. Dan Bader has an [<VPIcon icon="fas fa-globe"/>excellent article](https://dbader.org/blog/python-generator-expressions) on [**generator expressions**](/realpython.com/introduction-to-python-generators.md) and list comprehensions.
 
 The modified version looks like this:
 
@@ -428,7 +428,7 @@ for path in current_dir.iterdir():
 # 1540266380.3434134
 ```
 
-In the example above, the code loops through the object returned by `.iterdir()` and retrieves file attributes through a `.stat()` call for each file in the directory list. The `st_mtime` attribute returns a float value that represents [<FontIcon icon="fa-brands fa-wikipedia-w"/>seconds since the epoch](https://en.wikipedia.org/wiki/Epoch_(reference_date)#Computing). To convert the values returned by `st_mtime` for display purposes, you could write a helper function to convert the seconds into a `datetime` object:
+In the example above, the code loops through the object returned by `.iterdir()` and retrieves file attributes through a `.stat()` call for each file in the directory list. The `st_mtime` attribute returns a float value that represents [<VPIcon icon="fa-brands fa-wikipedia-w"/>seconds since the epoch](https://en.wikipedia.org/wiki/Epoch_(reference_date)#Computing). To convert the values returned by `st_mtime` for display purposes, you could write a helper function to convert the seconds into a `datetime` object:
 
 ```py
 from datetime import datetime
@@ -465,7 +465,7 @@ get_files()
 # file2.txt       Last modified:  17 Sep 2018
 ```
 
-The syntax for converting dates and times into strings can be quite confusing. To read more about it, check out the [<FontIcon icon="fa-brands fa-python"/>official documentation](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior) on it. Another handy reference that is easy to remember is [http://strftime.org/](http://strftime.org/) .
+The syntax for converting dates and times into strings can be quite confusing. To read more about it, check out the [<VPIcon icon="fa-brands fa-python"/>official documentation](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior) on it. Another handy reference that is easy to remember is [http://strftime.org/](http://strftime.org/) .
 
 ---
 
@@ -566,7 +566,7 @@ import os
 os.makedirs('2018/10/05', mode=0o770)
 ```
 
-This creates the `2018/10/05` directory structure and gives the owner and group users read, write, and execute permissions. The default mode is `0o777`, and the file permission bits of existing parent directories are not changed. For more details on file permissions, and how the mode is applied, [<FontIcon icon="fa-brands fa-python"/>see the docs](https://docs.python.org/3/library/os.html#os.makedirs).
+This creates the `2018/10/05` directory structure and gives the owner and group users read, write, and execute permissions. The default mode is `0o777`, and the file permission bits of existing parent directories are not changed. For more details on file permissions, and how the mode is applied, [<VPIcon icon="fa-brands fa-python"/>see the docs](https://docs.python.org/3/library/os.html#os.makedirs).
 
 Run `tree` to confirm that the right permissions were applied:
 
@@ -648,7 +648,7 @@ touch sub_dir/file1.py sub_dir/file2.py
 touch data_{01..03}.txt data_{01..03}_backup.txt admin.py tests.py
 ```
 
-This will create the <FontIcon icon="fas fa-folder-open"/>`some_directory/` directory, change into it, and then create <FontIcon icon="fas fa-folder-open"/>`sub_dir`. The next line creates <FontIcon icon="fa-brands fa-python"/>`file1.py` and <FontIcon icon="fa-brands fa-python"/>`file2.py` in <FontIcon icon="fas fa-folder-open"/>`sub_dir`, and the last line creates all the other files using expansion. To learn more about shell expansion, visit [<FontIcon icon="fas fa-globe"/>this site](http://linuxcommand.org/lc3_lts0080.php).
+This will create the <VPIcon icon="fas fa-folder-open"/>`some_directory/` directory, change into it, and then create <VPIcon icon="fas fa-folder-open"/>`sub_dir`. The next line creates <VPIcon icon="fa-brands fa-python"/>`file1.py` and <VPIcon icon="fa-brands fa-python"/>`file2.py` in <VPIcon icon="fas fa-folder-open"/>`sub_dir`, and the last line creates all the other files using expansion. To learn more about shell expansion, visit [<VPIcon icon="fas fa-globe"/>this site](http://linuxcommand.org/lc3_lts0080.php).
 
 ### Using String Methods
 
@@ -663,7 +663,7 @@ for f_name in os.listdir('some_directory'):
         print(f_name)
 ```
 
-The code above finds all the files in <FontIcon icon="fas fa-folder-open"/>`some_directory/`, iterates over them and uses `.endswith()` to print out the filenames that have the `.txt` file extension. Running this on my computer produces the following output:
+The code above finds all the files in <VPIcon icon="fas fa-folder-open"/>`some_directory/`, iterates over them and uses `.endswith()` to print out the filenames that have the `.txt` file extension. Running this on my computer produces the following output:
 
 ```plaintext title="output"
 data_01.txt
@@ -687,7 +687,7 @@ for file_name in os.listdir('some_directory/'):
         print(file_name)
 ```
 
-This iterates over the list of files in <FontIcon icon="fas fa-folder-open"/>`some_directory` and uses `.fnmatch()` to perform a wildcard search for files that have the `.txt` extension.
+This iterates over the list of files in <VPIcon icon="fas fa-folder-open"/>`some_directory` and uses `.fnmatch()` to perform a wildcard search for files that have the `.txt` extension.
 
 ### More Advanced Pattern Matching
 
@@ -701,7 +701,7 @@ for filename in os.listdir('.'):
         print(filename)
 ```
 
-Here, you print only the names of files that match the <FontIcon icon="fas fa-file-lines"/>`data_*_backup.txt` pattern. The asterisk in the pattern will match any character, so running this will find all text files whose filenames start with the word `data` and end in <FontIcon icon="fas fa-file-lines"/>`backup.txt`, as you can see from the output below:
+Here, you print only the names of files that match the <VPIcon icon="fas fa-file-lines"/>`data_*_backup.txt` pattern. The asterisk in the pattern will match any character, so running this will find all text files whose filenames start with the word `data` and end in <VPIcon icon="fas fa-file-lines"/>`backup.txt`, as you can see from the output below:
 
 ```plaintext title="output"
 data_03_backup.txt
@@ -1312,7 +1312,7 @@ data_zip.close()
 
 The third line of code is a call to `os.listdir()`, which shows that the current directory has only one file, `data.zip`.
 
-Next, you open `data.zip` in read mode and call `.extract()` to extract <FontIcon icon="fa-brands fa-python"/>`file1.py` from it. `.extract()` returns the full file path of the extracted file. Since there’s no path specified, `.extract()` extracts <FontIcon icon="fa-brands fa-python"/>`file1.py` to the current directory.
+Next, you open `data.zip` in read mode and call `.extract()` to extract <VPIcon icon="fa-brands fa-python"/>`file1.py` from it. `.extract()` returns the full file path of the extracted file. Since there’s no path specified, `.extract()` extracts <VPIcon icon="fa-brands fa-python"/>`file1.py` to the current directory.
 
 The next line prints a directory listing showing that the current directory now includes the extracted file in addition to the original archive. The line after that shows how to extract the entire archive into the `zip_extract` directory. `.extractall()` creates the `extract_dir` and extracts the contents of `data.zip` into it. The last line closes the ZIP archive.
 
@@ -1637,7 +1637,7 @@ python3 fileinput-example.py bacon.txt cupcake.txt
 #  -> Gummies macaroon jujubes jelly beans marzipan.
 ```
 
-`fileinput` allows you to retrieve more information about each line such as whether or not it is the first line (`.isfirstline()`), the line number (`.lineno()`), and the filename (`.filename()`). You can read more about it [<FontIcon icon="fa-brands fa-python"/>here](https://docs.python.org/3/library/fileinput.html).
+`fileinput` allows you to retrieve more information about each line such as whether or not it is the first line (`.isfirstline()`), the line number (`.lineno()`), and the filename (`.filename()`). You can read more about it [<VPIcon icon="fa-brands fa-python"/>here](https://docs.python.org/3/library/fileinput.html).
 
 ---
 

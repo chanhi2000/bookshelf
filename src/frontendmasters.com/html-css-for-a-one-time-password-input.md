@@ -56,9 +56,9 @@ You know those One Time Password inputs? The UI is typically 4 or 6 numbers with
 
 ![Here’s how Substack authenticates.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/02/Screenshot-2025-02-04-at-9.10.08%E2%80%AFAM.png?resize=1024%2C534&ssl=1)
 
-Brad Frost was [<FontIcon icon="fas fa-globe"/>blogging about them](https://bradfrost.com/blog/post/the-ux-of-login-codes/) recently. They certainly have some issue! Here’s one he spells out that I agree with wholeheartedly:
+Brad Frost was [<VPIcon icon="fas fa-globe"/>blogging about them](https://bradfrost.com/blog/post/the-ux-of-login-codes/) recently. They certainly have some issue! Here’s one he spells out that I agree with wholeheartedly:
 
-::: info The UX of login codes | Brad Frost <FontIcon icon="fas fa-globe"/><code>bradfrost.com</code>
+::: info The UX of login codes | Brad Frost <VPIcon icon="fas fa-globe"/><code>bradfrost.com</code>
 
 <SiteInfo
   name="The UX of login codes"
@@ -73,7 +73,7 @@ I don’t like the pattern where each digit is its own text box. It’s an affor
 
 It’s awfully tricky to get right, considering the user confusion that can happen before you’re interacting with those little boxes. And once you are, the experience better be awfully accommodating.
 
-A while back I read an article by Phuoc Nguyen about them called [<FontIcon icon="fas fa-globe"/>Build an OTP input field](https://phuoc.ng/collection/html-dom/build-an-otp-input-field/). I’d say all-in-all, Phuoc did a good job. The design and user experience was considered, like using the arrow keys to move between the inputs and handling “paste”. I’d say accessibility too but I feel like this is complicated enough of an interaction I can’t personally vouch for that.
+A while back I read an article by Phuoc Nguyen about them called [<VPIcon icon="fas fa-globe"/>Build an OTP input field](https://phuoc.ng/collection/html-dom/build-an-otp-input-field/). I’d say all-in-all, Phuoc did a good job. The design and user experience was considered, like using the arrow keys to move between the inputs and handling “paste”. I’d say accessibility too but I feel like this is complicated enough of an interaction I can’t personally vouch for that.
 
 But I’m also also like — *damn* — that’s complicated. That’s a lot of JavaScript code. Why is this so hard? And what would happen without JavaScript? Seems like it would be a pretty gnarly experience. A particular thing that *makes* it hard is making each character a separate `<input />` in the HTML.
 
@@ -90,9 +90,9 @@ That complicates validation, input, pasting, accessibility, navigation… litera
 
 And then I was like… why can’t this just be *one* input? The rectangles behind the numbers is just visual theater. Just a bit of trendy decoration. It’s just a **_styling concern_**, not a semantic, usability, or any other concern.
 
-So I was like… I’m just gonna make those rectangles `background-image`s and see if that works. So I built a demo, but it had a flaw: as you typed the last character, the value would kinda slide one direction and look bad. [You can see it here. (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/LYqJXxW)
+So I was like… I’m just gonna make those rectangles `background-image`s and see if that works. So I built a demo, but it had a flaw: as you typed the last character, the value would kinda slide one direction and look bad. [You can see it here. (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/LYqJXxW)
 
-But I posed the challenge in our [<FontIcon icon="fas fa-globe"/>ShopTalk Discord](https://patreon.com/shoptalkshow) and others had some ideas. Josh Collingsworth [had an idea (<FontIcon icon="fa-brands fa-codepen"/>`collinsworth`)](https://codepen.io/collinsworth/pen/xxMyOqO?editors=1100) where you could cover up some area at the end and prevent the movement issue (the yellow block would be white or whatever covers up properly). Alex Fimion did it a smidge cleaner by covering the last bit with `background-image` instead of a pseudo-element. Here’s that:
+But I posed the challenge in our [<VPIcon icon="fas fa-globe"/>ShopTalk Discord](https://patreon.com/shoptalkshow) and others had some ideas. Josh Collingsworth [had an idea (<VPIcon icon="fa-brands fa-codepen"/>`collinsworth`)](https://codepen.io/collinsworth/pen/xxMyOqO?editors=1100) where you could cover up some area at the end and prevent the movement issue (the yellow block would be white or whatever covers up properly). Alex Fimion did it a smidge cleaner by covering the last bit with `background-image` instead of a pseudo-element. Here’s that:
 
 <CodePen
   user="fimion"

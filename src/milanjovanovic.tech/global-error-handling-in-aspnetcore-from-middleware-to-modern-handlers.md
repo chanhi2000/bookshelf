@@ -110,7 +110,7 @@ This approach is solid and works everywhere in your pipeline. The beauty is its 
 
 But once you start adding specific rules for different exception types (e.g. `ValidationException`, `NotFoundException`), this becomes a mess. You end up with long `if` / `else` chains or more abstractions to handle each exception type.
 
-Plus, you're manually crafting JSON responses, which means you're probably not following [<FontIcon icon="fas fa-globe"/>RFC 9457 (Problem Details)](https://rfc-editor.org/rfc/rfc9457) standards.
+Plus, you're manually crafting JSON responses, which means you're probably not following [<VPIcon icon="fas fa-globe"/>RFC 9457 (Problem Details)](https://rfc-editor.org/rfc/rfc9457) standards.
 
 ---
 
@@ -227,7 +227,7 @@ builder.Services.AddExceptionHandler<ValidationExceptionHandler>();
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 ```
 
-Let's say you're using [<FontIcon icon="fas fa-globe"/>`FluentValidation`](https://fluentvalidation.net/) (and you should be). Here's a complete setup:
+Let's say you're using [<VPIcon icon="fas fa-globe"/>`FluentValidation`](https://fluentvalidation.net/) (and you should be). Here's a complete setup:
 
 ```cs :collapsed-lines
 internal sealed class ValidationExceptionHandler(

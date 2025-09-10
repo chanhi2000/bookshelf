@@ -222,5 +222,5 @@ The approach using the `foreach` loop comes out as the clear winner in terms of 
 
 However, I would lean towards using the implementations with LINQ `Any` or `All` because of their simplicity.
 
-You can find the [source code for the benchmark (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/find-duplicates-benchmark`)](https://github.com/m-jovanovic/find-duplicates-benchmark) on my GitHub. Feel free to submit a PR with a faster implementation if you can think of one.
+You can find the [source code for the benchmark (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/find-duplicates-benchmark`)](https://github.com/m-jovanovic/find-duplicates-benchmark) on my GitHub. Feel free to submit a PR with a faster implementation if you can think of one.
 

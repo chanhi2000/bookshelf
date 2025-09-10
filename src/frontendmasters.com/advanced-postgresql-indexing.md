@@ -85,7 +85,7 @@ We have the same books table as before, containing approximately 90 million reco
 
 ::: note Editors’ note
 
-Need to bone up on PostgreSQL all around? Our course [<FontIcon icon="fas fa-globe"/>Complete Intro to SQL & PostgreSQL](https://frontendmasters.com/courses/sql/) from Brian Holt will be perfect for you.
+Need to bone up on PostgreSQL all around? Our course [<VPIcon icon="fas fa-globe"/>Complete Intro to SQL & PostgreSQL](https://frontendmasters.com/courses/sql/) from Brian Holt will be perfect for you.
 
 :::
 

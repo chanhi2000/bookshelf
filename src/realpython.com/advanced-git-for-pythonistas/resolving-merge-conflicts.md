@@ -56,14 +56,14 @@ Let’s start with some of the tricks that can make this easier. The first one c
 
 ## `diff3` Format
 
-We’ll walk through a simple example to see what Git does by default and what options we have to make it easier. To do this, create a new file, <FontIcon icon="fa-brands fa-python"/>`merge.py`, that looks like this:
+We’ll walk through a simple example to see what Git does by default and what options we have to make it easier. To do this, create a new file, <VPIcon icon="fa-brands fa-python"/>`merge.py`, that looks like this:
 
 ```py
 def display():
     print("Welcome to my project!")
 ```
 
-Add and commit this file to your branch <FontIcon icon="fas fa-code-branch"/>`master`, and this will be your baseline commit. You’ll create branches that modify this file in different ways, and then you’ll see how to resolve the merge conflict.
+Add and commit this file to your branch <VPIcon icon="fas fa-code-branch"/>`master`, and this will be your baseline commit. You’ll create branches that modify this file in different ways, and then you’ll see how to resolve the merge conflict.
 
 You now need to create separate branches that will have conflicting changes. You’ve seen how this is done before, so I won’t describe it in detail:
 
@@ -102,7 +102,7 @@ git show-branch master mergebranch
 # *+ [master^] baseline for merging
 ```
 
-At this point you have conflicting changes on <FontIcon icon="fas fa-code-branch"/>`mergebranch` and <FontIcon icon="fas fa-code-branch"/>`master`. Using the `show-branch` command we learned in our Intro tutorial, you can see this visually on the command line:
+At this point you have conflicting changes on <VPIcon icon="fas fa-code-branch"/>`mergebranch` and <VPIcon icon="fas fa-code-branch"/>`master`. Using the `show-branch` command we learned in our Intro tutorial, you can see this visually on the command line:
 
 ```sh
 git show-branch master mergebranch
@@ -115,7 +115,7 @@ git show-branch master mergebranch
 # *+ [master^] baseline for merging
 ```
 
-You’re on branch <FontIcon icon="fas fa-code-branch"/>`master`, so let’s try to merge in <FontIcon icon="fas fa-code-branch"/>`mergebranch`. Since you’ve made the changes with the intent of creating a merge conflict, lets hope that happens:
+You’re on branch <VPIcon icon="fas fa-code-branch"/>`master`, so let’s try to merge in <VPIcon icon="fas fa-code-branch"/>`mergebranch`. Since you’ve made the changes with the intent of creating a merge conflict, lets hope that happens:
 
 ```sh
 git merge mergebranch
@@ -125,7 +125,7 @@ git merge mergebranch
 # Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-As you expected, there’s a merge conflict. If you look at status, there’s a good deal of useful information there. Not only does it say that you’re in the middle of a merge, `You have unmerged paths`, but it also shows you which files are modified, <FontIcon icon="fa-brands fa-python"/>`merge.py`:
+As you expected, there’s a merge conflict. If you look at status, there’s a good deal of useful information there. Not only does it say that you’re in the middle of a merge, `You have unmerged paths`, but it also shows you which files are modified, <VPIcon icon="fa-brands fa-python"/>`merge.py`:
 
 ```sh
 git status
@@ -144,7 +144,7 @@ git status
 
 You have done all that work to get to the point of having a merge conflict. Now you can start learning about how to resolve it! For this first part, you’ll be working with the command line tools and your editor. After that, you’ll get fancy and look at using visual diff tools to solve the problem.
 
-When you open <FontIcon icon="fa-brands fa-python"/>`merge.py` in your editor, you can see what Git produced:
+When you open <VPIcon icon="fa-brands fa-python"/>`merge.py` in your editor, you can see what Git produced:
 
 ```py
 def display():
@@ -155,11 +155,11 @@ def display():
 >>>>>>> mergebranch
 ```
 
-Git uses `diff` syntax from Linux to display the conflict. The top portion, between `<<<<<<< HEAD` and `=======`, are from HEAD, which in your case is <FontIcon icon="fas fa-code-branch"/>`master`. The bottom portion, between `=======` and `>>>>>>> mergebranch` are from, you guessed it, <FontIcon icon="fas fa-code-branch"/>`mergebranch`.
+Git uses `diff` syntax from Linux to display the conflict. The top portion, between `<<<<<<< HEAD` and `=======`, are from HEAD, which in your case is <VPIcon icon="fas fa-code-branch"/>`master`. The bottom portion, between `=======` and `>>>>>>> mergebranch` are from, you guessed it, <VPIcon icon="fas fa-code-branch"/>`mergebranch`.
 
 Now, in this very simple example, it’s pretty easy to remember which changes came from where and how we should merge this, but there’s a setting you can enable which will make this easier.
 
-The `diff3` setting modifies the output of merge conflicts to more closely approximate a three-way merge, meaning in this case that it will show you what’s in <FontIcon icon="fas fa-code-branch"/>`master`, followed by what it looked like in the common ancestor, followed by what it looks like in <FontIcon icon="fas fa-code-branch"/>`mergebranch`:
+The `diff3` setting modifies the output of merge conflicts to more closely approximate a three-way merge, meaning in this case that it will show you what’s in <VPIcon icon="fas fa-code-branch"/>`master`, followed by what it looked like in the common ancestor, followed by what it looks like in <VPIcon icon="fas fa-code-branch"/>`mergebranch`:
 
 ```py
 def display():
@@ -172,7 +172,7 @@ def display():
 >>>>>>> mergebranch
 ```
 
-Now that you can see the starting point, “Welcome to my project!”, you can see exactly what change was made on <FontIcon icon="fas fa-code-branch"/>`master` and what change was made on <FontIcon icon="fas fa-code-branch"/>`mergebranch`. This might not seem like a big deal on such a simple example, but it can make a huge difference on large conflicts, especially merges where someone else made some of the changes.
+Now that you can see the starting point, “Welcome to my project!”, you can see exactly what change was made on <VPIcon icon="fas fa-code-branch"/>`master` and what change was made on <VPIcon icon="fas fa-code-branch"/>`mergebranch`. This might not seem like a big deal on such a simple example, but it can make a huge difference on large conflicts, especially merges where someone else made some of the changes.
 
 You can set this option in Git globally by issuing the following command:
 

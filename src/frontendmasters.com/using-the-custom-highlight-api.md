@@ -51,9 +51,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6686"/>
 
-The [<FontIcon icon="fa-brands fa-firefox"/>Custom Highlight API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Custom_Highlight_API) came to my attention recently as [<FontIcon icon="iconfont icon-caniuse"/>Firefox recently started supporting](https://caniuse.com/mdn-api_highlight) it (Firefox 140, June 2025), which brought support across all the major browsers. With it, you can apply (some) styling to text that you get your hands on in JavaScript via the `Range()` class. I would say text that you *select*, but there aren’t really normal selectors involved here, making it rather unusual to work with for a CSS guy like me.
+The [<VPIcon icon="fa-brands fa-firefox"/>Custom Highlight API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Custom_Highlight_API) came to my attention recently as [<VPIcon icon="iconfont icon-caniuse"/>Firefox recently started supporting](https://caniuse.com/mdn-api_highlight) it (Firefox 140, June 2025), which brought support across all the major browsers. With it, you can apply (some) styling to text that you get your hands on in JavaScript via the `Range()` class. I would say text that you *select*, but there aren’t really normal selectors involved here, making it rather unusual to work with for a CSS guy like me.
 
-I think a basic word explanation is helpful here, as it sure would have helped me when I first started [<FontIcon icon="fa-brands fa-youtube"/>poking at it](https://youtu.be/IWDlCNEJclU):
+I think a basic word explanation is helpful here, as it sure would have helped me when I first started [<VPIcon icon="fa-brands fa-youtube"/>poking at it](https://youtu.be/IWDlCNEJclU):
 
 1. You need a `textNode`[1](#18958d55-4f3c-4d44-9460-f364498054cf). (e.g. `document.querySelector("p").firstChild`)
 2. Then you need a `Range()` in which you do a `setStart` and `setEnd` on, meaning the range is now between those two integers.
@@ -179,7 +179,7 @@ All together, it makes a functional search experience:
 
 ## For Syntax Highlighting
 
-It feels like syntax highlighting code is a pretty good use case for this API. André Ruffert has already taken that idea and ran with it, making a [<FontIcon icon="fas fa-globe"/>`<syntax-highlight>` Web Component](https://andreruffert.github.io/syntax-highlight-element/) which uses [<FontIcon icon="fas fa-globe"/>Prism.js](https://andreruffert.github.io/syntax-highlight-element/) by Lea Verou to tokenize the code, but then doesn’t apply `<span>`s like out-of-the-box Prism does, it uses this custom highlight API instead.
+It feels like syntax highlighting code is a pretty good use case for this API. André Ruffert has already taken that idea and ran with it, making a [<VPIcon icon="fas fa-globe"/>`<syntax-highlight>` Web Component](https://andreruffert.github.io/syntax-highlight-element/) which uses [<VPIcon icon="fas fa-globe"/>Prism.js](https://andreruffert.github.io/syntax-highlight-element/) by Lea Verou to tokenize the code, but then doesn’t apply `<span>`s like out-of-the-box Prism does, it uses this custom highlight API instead.
 
 ::: tip Example
 
@@ -194,7 +194,7 @@ It feels like syntax highlighting code is a pretty good use case for this API. A
 
 I think this is awesome, but it’s noteworthy that this API is *only* possible client-side. And for something like syntax highlighting, that can mean a delay between seeing the code and having the syntax-highlighting “pop in”. I admit I prefer server-side rendered syntax highlighting when possible. Meaning if you can serve a bunch of `<span>`s from the server in code like this (and it doesn’t affect performance or accessibility badly) then that’s probably better.
 
-I also admit I’m still somewhat obsessed with [<FontIcon icon="fas fa-globe"/>fonts with built-in syntax highlighting](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/), which feels like untapped territory for font foundries to jump on.
+I also admit I’m still somewhat obsessed with [<VPIcon icon="fas fa-globe"/>fonts with built-in syntax highlighting](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/), which feels like untapped territory for font foundries to jump on.
 
 ---
 

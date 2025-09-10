@@ -65,7 +65,7 @@ Additionally, if you want to read the [entire IdentityServer4, OAuth2, and OIDC 
 
 ::: info
 
-To download the source code for this article, you can visit the [Angular Authentication with IdentityServer4 (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-identityserver4`)](https://github.com/CodeMazeBlog/angular-identityserver4/tree/angual-authentication-identityserver4) repository.
+To download the source code for this article, you can visit the [Angular Authentication with IdentityServer4 (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-identityserver4`)](https://github.com/CodeMazeBlog/angular-identityserver4/tree/angual-authentication-identityserver4) repository.
 
 <SiteInfo
   name="CodeMazeBlog/angular-identityserver4"

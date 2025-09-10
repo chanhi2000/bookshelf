@@ -160,7 +160,7 @@ In this detailed (and explanatory) guide, I’ll discuss how to build strongly t
 
 ![Build Strongly Typed Polymorphic Components With React And TypeScript](/assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-components-react-typescript/banner.png)
 
-As you can see, this is quite long, so feel free to skip around. If you’d like to follow along, star the [official code repository (<FontIcon icon="iconfont icon-github"/>`ohansemmanuel/polymorphic-react-component`)](https://github.com/ohansemmanuel/polymorphic-react-component) on my GitHub for reference.
+As you can see, this is quite long, so feel free to skip around. If you’d like to follow along, star the [official code repository (<VPIcon icon="iconfont icon-github"/>`ohansemmanuel/polymorphic-react-component`)](https://github.com/ohansemmanuel/polymorphic-react-component) on my GitHub for reference.
 
 ---
 
@@ -168,7 +168,7 @@ As you can see, this is quite long, so feel free to skip around. If you’d like
 
 You have successfully built a robust solution for handling polymorphic components in React with TypeScript. I know it wasn’t an easy ride, but you did it.
 
-Thanks for following along. Remember to star the official [GitHub repository (<FontIcon icon="iconfont icon-github"/>`ohansemmanuel/polymorphic-react-component`)](https://github.com/ohansemmanuel/polymorphic-react-component), where you’ll find all the code for this guide. If you want to share your thoughts on this tutorial with me, or simply connect, you can find/follow me on [GitHub (<FontIcon icon="iconfont icon-github"/>`ohansemmanuel`)](https://github.com/ohansemmanuel), [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`ohans-emmanuel`)](https://linkedin.com/in/ohans-emmanuel/), or [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`ohansemmanuel`)](https://twitter.com/ohansemmanuel).
+Thanks for following along. Remember to star the official [GitHub repository (<VPIcon icon="iconfont icon-github"/>`ohansemmanuel/polymorphic-react-component`)](https://github.com/ohansemmanuel/polymorphic-react-component), where you’ll find all the code for this guide. If you want to share your thoughts on this tutorial with me, or simply connect, you can find/follow me on [GitHub (<VPIcon icon="iconfont icon-github"/>`ohansemmanuel`)](https://github.com/ohansemmanuel), [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`ohans-emmanuel`)](https://linkedin.com/in/ohans-emmanuel/), or [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`ohansemmanuel`)](https://twitter.com/ohansemmanuel).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

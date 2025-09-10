@@ -51,13 +51,13 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/503"/>
 
-HTML has [<FontIcon icon="fa-brands fa-firefox"/>a color input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color) that is pretty decent:
+HTML has [<VPIcon icon="fa-brands fa-firefox"/>a color input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color) that is pretty decent:
 
 ```html
 <input type="color">
 ```
 
-That’s it. [<FontIcon icon="iconfont icon-caniuse"/>Support across the board](https://caniuse.com/input-color). However, browsers can and do have different approaches to what happens when the input is used.
+That’s it. [<VPIcon icon="iconfont icon-caniuse"/>Support across the board](https://caniuse.com/input-color). However, browsers can and do have different approaches to what happens when the input is used.
 
 ::: tabs
 
@@ -117,7 +117,7 @@ It’s not my favorite that you can *only* get 6-digit HEX colors in and out of 
 
 Note that *some* of those color panels have an eyedropper function. Those are awfully handy. Sometimes the color I’m shooting for is right on my screen somewhere, and a color eyedropper is the fastest and easiest way to grab it.
 
-Turns out [<FontIcon icon="fa-brands fa-chrome"/>there is a native API for an eyedropper](https://developer.chrome.com/docs/capabilities/web-apis/eyedropper)! You don’t *have* to use a color input to access an eyedropper.
+Turns out [<VPIcon icon="fa-brands fa-chrome"/>there is a native API for an eyedropper](https://developer.chrome.com/docs/capabilities/web-apis/eyedropper)! You don’t *have* to use a color input to access an eyedropper.
 
 You can test for support like:
 
@@ -168,7 +168,7 @@ The demo above shows how a color input and eyedropper button can work together r
 
 ## Support
 
-Support for color inputs is good across the board, but [<FontIcon icon="iconfont icon-caniuse"/>support for the EyeDropper API](https://caniuse.com/?search=eyedropper), at the time of this writing, is just Chrome’n’friends. No Safari or Firefox.
+Support for color inputs is good across the board, but [<VPIcon icon="iconfont icon-caniuse"/>support for the EyeDropper API](https://caniuse.com/?search=eyedropper), at the time of this writing, is just Chrome’n’friends. No Safari or Firefox.
 
 But the real UX story isn’t quite that clear.
 

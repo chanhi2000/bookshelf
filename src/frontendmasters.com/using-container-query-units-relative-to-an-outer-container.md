@@ -50,11 +50,11 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5761"/>
 
-Recently, Matt Wilcox[<FontIcon icon="fas fa-globe"/>posted on Mastodon](https://mstdn.social/@mattwilcox/114386944917360151):
+Recently, Matt Wilcox[<VPIcon icon="fas fa-globe"/>posted on Mastodon](https://mstdn.social/@mattwilcox/114386944917360151):
 
 > The fact you can’t specify*which*container for container query units is a ballache. The moment you have nested containers you’re \[screwed\]; because if you want the calculated gap from the row’s container; but you’re inside a nested container… tough. Your units are wrong. And you can’t just say “no; not relative to*this*container; relative to the named outer container!”
 
-First off, if you’re not familiar with container queries and container query units, you can check out one of the many resources on the topic, for example this[<FontIcon icon="fas fa-globe"/>interactive guide](https://ishadeed.com/article/css-container-query-guide/)by Ahmad Shadeed, which I believe is the most recent out of all the detailed ones I’ve seen. As always, the date of the resources used is important for web stuff, especially since these units in particular have changed their name since[they were first proposed (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5888)and we got an early draft of the spec.
+First off, if you’re not familiar with container queries and container query units, you can check out one of the many resources on the topic, for example this[<VPIcon icon="fas fa-globe"/>interactive guide](https://ishadeed.com/article/css-container-query-guide/)by Ahmad Shadeed, which I believe is the most recent out of all the detailed ones I’ve seen. As always, the date of the resources used is important for web stuff, especially since these units in particular have changed their name since[they were first proposed (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5888)and we got an early draft of the spec.
 
 Now, the problem at hand: let’s say we have an`.inner-container`inside an`.outer-container`- they are both made to be containers:
 
@@ -130,7 +130,7 @@ What if we move the`--s`variable uspstream? After all, a`20cqw`length value set 
 }
 ```
 
-We also give the`.inner-container`a similar`background`restricted to`20cqw`from the left along the*x*axis and make the`.inner-child`semi-transparent, just to check if the`--s`values overlap (which is what we want,`--s`being`20%`or a fifth of the`.outer-container`width). However,[this fails (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/xbbgKzp), as it can be seen below:
+We also give the`.inner-container`a similar`background`restricted to`20cqw`from the left along the*x*axis and make the`.inner-child`semi-transparent, just to check if the`--s`values overlap (which is what we want,`--s`being`20%`or a fifth of the`.outer-container`width). However,[this fails (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/xbbgKzp), as it can be seen below:
 
 ![Screenshot. Both the inner container and its child have a background sized to `20cqw`. However, the container query units are relative to the outer container only for the inner container, the container query units used on its child being still relative to the inner container (one fifth of its `content-box` width).](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/437957569-0be163ba-6508-49d8-8f4e-7dd96d7d38fe.png?resize=1024%2C633&ssl=1)
 
@@ -148,7 +148,7 @@ But what happens if we also register`--s`?
 }
 ```
 
-Bingo,[this works (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/GggNemJ)!
+Bingo,[this works (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/GggNemJ)!
 
 <CodePen
   user="thebabydino"

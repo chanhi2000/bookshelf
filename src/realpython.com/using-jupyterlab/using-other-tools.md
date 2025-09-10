@@ -58,7 +58,7 @@ At this stage, you’ve covered the main tools in JupyterLab. However, there are
 
 Clicking *Text File* will open a text editor that allows you to create plain text files. JupyterLab allows you to create multiple views of them and, by attaching a console to them, run any code within them.
 
-Clicking *Python file* allows you to create a file with an extension of <FontIcon icon="fa-brands fa-python"/>`.py`. In essence, this is a text file, but its content will be color coded to highlight the Python keywords that you’re using. As with text files, you can create multiple views of these files and run any code within them by attaching a console. Of course, you can also run them as [**Python scripts**](/realpython.com/run-python-scripts.md) using `python filename.py`.
+Clicking *Python file* allows you to create a file with an extension of <VPIcon icon="fa-brands fa-python"/>`.py`. In essence, this is a text file, but its content will be color coded to highlight the Python keywords that you’re using. As with text files, you can create multiple views of these files and run any code within them by attaching a console. Of course, you can also run them as [**Python scripts**](/realpython.com/run-python-scripts.md) using `python filename.py`.
 
 Clicking *Python 3* allows you to create a stand-alone console:
 

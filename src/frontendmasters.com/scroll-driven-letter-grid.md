@@ -53,7 +53,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6059"/>
 
-I was thinking about variable fonts the other day, and how many of them that deal with a variable axis for their weight go from 100 to 900. It varies — so you can always check [<FontIcon icon="fas fa-globe"/>wakamaifondue.com](https://wakamaifondue.com/) if you have the font file. [<FontIcon icon="fa-brands fa-google"/>Jost on Google Fonts](https://fonts.google.com/specimen/Jost) is a classic example. Load that sucker up and you can use whatever weight you want.
+I was thinking about variable fonts the other day, and how many of them that deal with a variable axis for their weight go from 100 to 900. It varies — so you can always check [<VPIcon icon="fas fa-globe"/>wakamaifondue.com](https://wakamaifondue.com/) if you have the font file. [<VPIcon icon="fa-brands fa-google"/>Jost on Google Fonts](https://fonts.google.com/specimen/Jost) is a classic example. Load that sucker up and you can use whatever weight you want.
 
 <CodePen
   user="chriscoyier"
@@ -62,7 +62,7 @@ I was thinking about variable fonts the other day, and how many of them that dea
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-I was also thinking about the “simple” kind of scroll-driven animations where all it does is move a `@keyframe` animation from 0% to 100% while a scrolling element goes from 0% to 100% “scrolled”. Fair warning that [<FontIcon icon="iconfont icon-caniuse"/>browser support isn’t great](https://caniuse.com/mdn-css_properties_scroll-timeline), but it’s just a fun thing that can easily just not happen.
+I was also thinking about the “simple” kind of scroll-driven animations where all it does is move a `@keyframe` animation from 0% to 100% while a scrolling element goes from 0% to 100% “scrolled”. Fair warning that [<VPIcon icon="iconfont icon-caniuse"/>browser support isn’t great](https://caniuse.com/mdn-css_properties_scroll-timeline), but it’s just a fun thing that can easily just not happen.
 
 It’s deliciously simple to use:
 

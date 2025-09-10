@@ -59,7 +59,7 @@ Interceptors are code blocks that you can use to preprocess or post-process HTTP
 
 There are two types of events for which you may want to intercept HTTP calls, request and response events. The request interceptor should be executed before the actual HTTP request is sent, whereas the response interceptor should be executed before it reaches the application code that made the call.
 
-Before diving into the code, we need to understand a few important factors. For one, the [<FontIcon icon="fa-brands fa-firefox"/>Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) doesn’t support interceptors natively. Additionally, extra packages are required to [use the Fetch API in Node.js](#node).
+Before diving into the code, we need to understand a few important factors. For one, the [<VPIcon icon="fa-brands fa-firefox"/>Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) doesn’t support interceptors natively. Additionally, extra packages are required to [use the Fetch API in Node.js](#node).
 
 ---
 
@@ -71,7 +71,7 @@ First, let’s cover some fundamentals of the Fetch API, for example, the syntax
 const fetchResponsePromise = fetch(resource [, init])
 ```
 
-`resource` defines the resource you want to fetch, which can be either a [<FontIcon icon="fa-brands fa-firefox"/>`Request`object](https://developer.mozilla.org/en-US/docs/Web/API/Request)) or a URL. `init` is an optional object that will contain any custom configuration you want to apply to this particular request.
+`resource` defines the resource you want to fetch, which can be either a [<VPIcon icon="fa-brands fa-firefox"/>`Request`object](https://developer.mozilla.org/en-US/docs/Web/API/Request)) or a URL. `init` is an optional object that will contain any custom configuration you want to apply to this particular request.
 
 The Fetch API is promise-based. Therefore, when you call the Fetch method, you’ll get a response promise back. Here, it is referred to as `fetchResponsePromise`, as seen in the example above.
 
@@ -102,13 +102,13 @@ fetch('https://jsonplaceholder.typicode.com/todos', {
 .then((json) => console.log(json));
 ```
 
-The `POST` call must have a `body`. Take a look at the [<FontIcon icon="fa-brands fa-firefox"/>Fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/fetch) for more details.
+The `POST` call must have a `body`. Take a look at the [<VPIcon icon="fa-brands fa-firefox"/>Fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/fetch) for more details.
 
 ---
 
 ## Implementing interceptors
 
-There are two ways to add interceptors to our Fetch API calls; we can either use monkey patching or the [<FontIcon icon="iconfont icon-github"/>`werk85/fetch-intercept`](https://github.com/werk85/fetch-intercept).
+There are two ways to add interceptors to our Fetch API calls; we can either use monkey patching or the [<VPIcon icon="iconfont icon-github"/>`werk85/fetch-intercept`](https://github.com/werk85/fetch-intercept).
 
 ---
 
@@ -206,11 +206,11 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 // }
 ```
 
-In the code above, we changed the JSON method to return some custom data instead of the original data. Check out the documentation to learn more about the [<FontIcon icon="fa-brands fa-firefox"/>properties that you can change](https://developer.mozilla.org/en-US/docs/Web/API/Response).
+In the code above, we changed the JSON method to return some custom data instead of the original data. Check out the documentation to learn more about the [<VPIcon icon="fa-brands fa-firefox"/>properties that you can change](https://developer.mozilla.org/en-US/docs/Web/API/Response).
 
 ::: note
 
-Responses are only allowed to be consumed once. Therefore, you need to [<FontIcon icon="fa-brands fa-firefox"/>clone the response](https://developer.mozilla.org/en-US/docs/Web/API/Response/clone) each time you want to use it.
+Responses are only allowed to be consumed once. Therefore, you need to [<VPIcon icon="fa-brands fa-firefox"/>clone the response](https://developer.mozilla.org/en-US/docs/Web/API/Response/clone) each time you want to use it.
 
 :::
 
@@ -238,23 +238,23 @@ fetch('https://jsonplaceholder.typicode.com/todos/1000000')
 
 ### Node.js
 
-You can use the same approach in Node.js. However, Node.js doesn’t support the Fetch API natively (though native support for the Fetch API will be [available in future versions of Node.js (<FontIcon icon="iconfont icon-github"/>`nodejs/node`)](https://github.com/nodejs/node/pull/41749)). For now, you need to install the [<FontIcon icon="iconfont icon-github"/>`node-fetch/node-fetch`](https://github.com/node-fetch/node-fetch) package, then monkey patch the `fetch` method.
+You can use the same approach in Node.js. However, Node.js doesn’t support the Fetch API natively (though native support for the Fetch API will be [available in future versions of Node.js (<VPIcon icon="iconfont icon-github"/>`nodejs/node`)](https://github.com/nodejs/node/pull/41749)). For now, you need to install the [<VPIcon icon="iconfont icon-github"/>`node-fetch/node-fetch`](https://github.com/node-fetch/node-fetch) package, then monkey patch the `fetch` method.
 
 ---
 
 ## Using fetch-intercept library
 
-If you’re not a fan of doing the `dirty` work (pun intended), the [<FontIcon icon="iconfont icon-github"/>`werk85/fetch-intercept`](https://github.com/werk85/fetch-intercept) library allows you to register interceptors with a cleaner API. You can use npm or Yarn to install the library as follows:
+If you’re not a fan of doing the `dirty` work (pun intended), the [<VPIcon icon="iconfont icon-github"/>`werk85/fetch-intercept`](https://github.com/werk85/fetch-intercept) library allows you to register interceptors with a cleaner API. You can use npm or Yarn to install the library as follows:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn install fetch-intercept whatwg-fetch
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```js
 npm install fetch-intercept whatwg-fetch --save
@@ -264,7 +264,7 @@ npm install fetch-intercept whatwg-fetch --save
 
 ::: note
 
-The fetch-intercept library only supports browsers and won’t work in Node.js. Also, it requires [<FontIcon icon="iconfont icon-github"/>`whatwg/fetch`](https://github.com/whatwg/fetch) as dependency to work.
+The fetch-intercept library only supports browsers and won’t work in Node.js. Also, it requires [<VPIcon icon="iconfont icon-github"/>`whatwg/fetch`](https://github.com/whatwg/fetch) as dependency to work.
 
 :::
 
@@ -309,7 +309,7 @@ unregister();
 
 The `register` method allows you to register the interceptors for Fetch API calls. It takes an object with the `request`, `requestError`, `response`, and `responseError` callbacks. The `register` method returns another method that can be used to unregister the interceptors.
 
-The Fetch API doesn’t support interceptors natively. However, there are other libraries for making HTTP calls that support interceptors. Take a look at [<FontIcon icon="fas fa-globe"/>Axios](https://axios-http.com/docs/interceptors), which provides this functionality out of the box.
+The Fetch API doesn’t support interceptors natively. However, there are other libraries for making HTTP calls that support interceptors. Take a look at [<VPIcon icon="fas fa-globe"/>Axios](https://axios-http.com/docs/interceptors), which provides this functionality out of the box.
 
 ---
 

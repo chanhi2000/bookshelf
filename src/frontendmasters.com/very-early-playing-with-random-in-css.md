@@ -58,7 +58,7 @@ Upon first play, it’s great!
 
 ::: note
 
-This is *only* in [<FontIcon icon="fa-brands fa-safari"/>Safari Technical Preview](https://developer.apple.com/safari/technology-preview/) right now. I’ll post videos below so you can see it, and link to live demos.
+This is *only* in [<VPIcon icon="fa-brands fa-safari"/>Safari Technical Preview](https://developer.apple.com/safari/technology-preview/) right now. I’ll post videos below so you can see it, and link to live demos.
 
 :::
 
@@ -71,11 +71,11 @@ With `random()` in vanilla CSS, no such loops are needed and making the code qui
 
 I found a 12-year-old Sass demo of mine playing with `random()` that is like this:
 
-![[This (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/nKZdBo?editors=0110) compiled to over 200 lines of CSS.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/08/Screenshot-2025-08-25-at-2.28.37-PM.png?resize=1024%2C337&ssl=1)
+![[This (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/nKZdBo?editors=0110) compiled to over 200 lines of CSS.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/08/Screenshot-2025-08-25-at-2.28.37-PM.png?resize=1024%2C337&ssl=1)
 
 But now it’s just like this:
 
-![[Demo (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/0198d397-5bca-72e8-8249-adeea4529e14/1a093e1a90d947db85ef4fce6fa300da)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/08/Screenshot-2025-08-25-at-2.29.19-PM.png?resize=1024%2C411&ssl=1)
+![[Demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/0198d397-5bca-72e8-8249-adeea4529e14/1a093e1a90d947db85ef4fce6fa300da)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/08/Screenshot-2025-08-25-at-2.29.19-PM.png?resize=1024%2C411&ssl=1)
 
 Much of the magic, to me, is how each matching element gets its own random values. So if you had three things like this:
 
@@ -132,13 +132,13 @@ Notice I had to append the “s” character at the end to get units there. Now 
 animation-delay: calc(random(0s, 10s) / 40);
 ```
 
-And it [works great (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/0198d39f-bc0f-7857-a4e0-3f6f0ae70a15)!
+And it [works great (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/0198d39f-bc0f-7857-a4e0-3f6f0ae70a15)!
 
 <VidStack src="https://videopress.com/13617e67-9636-4bab-9b9d-e50779d4c3b6" />
 
 ---
 
-The feature [<FontIcon icon="iconfont icon-w3c"/>does have a spec](https://w3.org/TR/css-values-5/#randomness), and I’m pleased that it has covered many things that I hadn’t considered before but are clearly good ideas. The blog post covers this nicely, but allow me to re-iterate:
+The feature [<VPIcon icon="iconfont icon-w3c"/>does have a spec](https://w3.org/TR/css-values-5/#randomness), and I’m pleased that it has covered many things that I hadn’t considered before but are clearly good ideas. The blog post covers this nicely, but allow me to re-iterate:
 
 ```css
 .random-rect {

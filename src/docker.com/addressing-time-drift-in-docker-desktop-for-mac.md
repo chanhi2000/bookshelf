@@ -52,7 +52,7 @@ cover: https://docker.com/app/uploads/2022/03/time_drift_1.png
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2022/03/time_drift_1.png"/>
 
-Docker Desktop for Mac runs the Docker engine and Linux containers in a helper [<FontIcon icon="iconfont icon-github"/>`linuxkit`](https://github.com/linuxkit) VM since macOS doesn’t have native container support. The helper VM has its own internal clock, separate from the host’s clock. When the two clocks drift apart then suddenly commands which rely on the time, or on file timestamps, may start to behave differently. For example “make” will stop working properly across shared volumes (“docker run -v”) when the modification times on source files (typically written on the host) are older than the modification times on the binaries (typically written in the VM) even after the source files are changed. Time drift can be very frustrating as you can see by reading issues such as
+Docker Desktop for Mac runs the Docker engine and Linux containers in a helper [<VPIcon icon="iconfont icon-github"/>`linuxkit`](https://github.com/linuxkit) VM since macOS doesn’t have native container support. The helper VM has its own internal clock, separate from the host’s clock. When the two clocks drift apart then suddenly commands which rely on the time, or on file timestamps, may start to behave differently. For example “make” will stop working properly across shared volumes (“docker run -v”) when the modification times on source files (typically written on the host) are older than the modification times on the binaries (typically written in the VM) even after the source files are changed. Time drift can be very frustrating as you can see by reading issues such as
 
 <SiteInfo
   name="Time drift on MacOS · Issue #2076 · docker/for-mac"
@@ -63,9 +63,9 @@ Docker Desktop for Mac runs the Docker engine and Linux containers in a helper [
 
 ## Wait, doesn’t the VM have a (virtual) hardware Real Time Clock (RTC)?
 
-When the helper VM boots the clocks are initially synchronised by an explicit invocation of “hwclock -s” which reads the [virtual RTC in HyperKit (<FontIcon icon="iconfont icon-github"/>`moby/hyperkit`)](https://github.com/moby/hyperkit/blob/cdbd5d7226f672786847b22fac55c5d8e1571663/src/lib/vmm/vmm_api.c#L730). Unfortunately reading the RTC is a slow operation (both on physical hardware and virtual) so the Linux kernel builds its own internal clock on top of other sources of timing information, known as [clocksources (<FontIcon icon="iconfont icon-github"/>`torvalds/linux`)](https://github.com/torvalds/linux/blob/195303136f192d37b89e20a8d1d2670d0d825266/include/linux/clocksource.h#L31). The most reliable is usually the CPU Time Stamp Counter (“tsc”) clocksource which measures time by counting the number of CPU cycles since the last CPU reset. TSC counters are frequently used for benchmarking, where the current TSC value is read (via the `rdtsc` instruction) at the beginning and then again at the end of a test run. The two values can then be subtracted to yield the time the code took to run in CPU cycles. However there are problems when we try to use these counters long-term as a reliable source of absolute physical time, particularly when running in a VM:
+When the helper VM boots the clocks are initially synchronised by an explicit invocation of “hwclock -s” which reads the [virtual RTC in HyperKit (<VPIcon icon="iconfont icon-github"/>`moby/hyperkit`)](https://github.com/moby/hyperkit/blob/cdbd5d7226f672786847b22fac55c5d8e1571663/src/lib/vmm/vmm_api.c#L730). Unfortunately reading the RTC is a slow operation (both on physical hardware and virtual) so the Linux kernel builds its own internal clock on top of other sources of timing information, known as [clocksources (<VPIcon icon="iconfont icon-github"/>`torvalds/linux`)](https://github.com/torvalds/linux/blob/195303136f192d37b89e20a8d1d2670d0d825266/include/linux/clocksource.h#L31). The most reliable is usually the CPU Time Stamp Counter (“tsc”) clocksource which measures time by counting the number of CPU cycles since the last CPU reset. TSC counters are frequently used for benchmarking, where the current TSC value is read (via the `rdtsc` instruction) at the beginning and then again at the end of a test run. The two values can then be subtracted to yield the time the code took to run in CPU cycles. However there are problems when we try to use these counters long-term as a reliable source of absolute physical time, particularly when running in a VM:
 
-- There is [<FontIcon icon="iconfont icon-vmware"/>no reliable way to discover the TSC frequency](https://vmware.com/pdf/vmware_timekeeping.pdf?ClickID=dmrb0rnnw0kk2wnwyrkzc0o0szohoyn2rybk): without this we don’t know what to divide the counter values by to transform the result into seconds.
+- There is [<VPIcon icon="iconfont icon-vmware"/>no reliable way to discover the TSC frequency](https://vmware.com/pdf/vmware_timekeeping.pdf?ClickID=dmrb0rnnw0kk2wnwyrkzc0o0szohoyn2rybk): without this we don’t know what to divide the counter values by to transform the result into seconds.
 - Some power management technology will change the TSC frequency dynamically.
 - The counter can jump back to 0 when the physical CPU is reset, for example over a host suspend / resume.
 - When a virtual CPU is stopped executing on one physical CPU core and later starts executing on another one, the TSC counter can suddenly jump forwards or backwards.
@@ -88,7 +88,7 @@ Many hypervisors fix these problems by providing an explicit “paravirtualised 
 
 ## How bad is this in practice?
 
-I wrote a simple tool to measure the time drift between a VM and the host– the source is [here (<FontIcon icon="iconfont icon-github"/>`djs55/hyperkit-measure-time-drift`)](https://github.com/djs55/hyperkit-measure-time-drift). I created a small LinuxKit test VM without any kind of time synchronisation software installed and measured the “natural” clock drift after the VM boots:
+I wrote a simple tool to measure the time drift between a VM and the host– the source is [here (<VPIcon icon="iconfont icon-github"/>`djs55/hyperkit-measure-time-drift`)](https://github.com/djs55/hyperkit-measure-time-drift). I created a small LinuxKit test VM without any kind of time synchronisation software installed and measured the “natural” clock drift after the VM boots:
 
 ![time drift 1](https://docker.com/app/uploads/2022/03/time_drift_1.png)
 
@@ -107,7 +107,7 @@ The Network Time Protocol (NTP) is designed to keep clocks in sync so it should 
 
 Many machines and devices uses the free pool.ntp.org as their NTP server. This is a bad idea for us for several reasons:
 
-- it’s against their [<FontIcon icon="fas fa-globe"/>guidelines]([https://pool.ntp.org/en/vendors.html](http://www.pool.ntp.org/en/vendors.html)) (although we could register as a vendor)
+- it’s against their [<VPIcon icon="fas fa-globe"/>guidelines]([https://pool.ntp.org/en/vendors.html](http://www.pool.ntp.org/en/vendors.html)) (although we could register as a vendor)
 - there’s no guarantee clocks in the NTP server pool are themselves well-synchronised
 - people don’t like their Mac sending unexpected UDP traffic; they fear it’s malware infestation
 - anyway… we don’t want the VM to synchronise with atomic clocks in some random physics lab, we want it to synchronise with the host (so the timestamps work). If the host itself has drifted 30 minutes away from “real” time, we want the VM to also be 30 minutes away from “real” time.
@@ -116,19 +116,19 @@ Therefore in Docker Desktop we should run our own NTP server on the host, servin
 
 ### Which server implementation should we use?
 
-The NTP protocol is designed to be robust and globally scalable. Servers with accurate clock hardware (e.g. an atomic clock or a GPS feed containing a signal from an atomic clock) are relatively rare so not all other hosts can connect directly to them. NTP servers are arranged in a hierarchy where lower “strata” synchronise with the stratum directly above and end-users and devices synchronise with the servers at the bottom. Since our use-case only involves one server and one client this is all completely unnecessary and so we use “Simplified NTP” as described in [<FontIcon icon="fas fa-globe"/>RFC2030](https://tools.ietf.org/html/rfc2030) which enables clients (in our case the VM) to synchronise immediately with a server (in our case the host).
+The NTP protocol is designed to be robust and globally scalable. Servers with accurate clock hardware (e.g. an atomic clock or a GPS feed containing a signal from an atomic clock) are relatively rare so not all other hosts can connect directly to them. NTP servers are arranged in a hierarchy where lower “strata” synchronise with the stratum directly above and end-users and devices synchronise with the servers at the bottom. Since our use-case only involves one server and one client this is all completely unnecessary and so we use “Simplified NTP” as described in [<VPIcon icon="fas fa-globe"/>RFC2030](https://tools.ietf.org/html/rfc2030) which enables clients (in our case the VM) to synchronise immediately with a server (in our case the host).
 
 ### Which NTP client should we use (and does it even matter)?
 
-Early versions of Docker Desktop included [<FontIcon icon="fas fa-globe"/>openntpd](https://openntpd.org) from the [upstream LinuxKit package (<FontIcon icon="iconfont icon-github"/>`linuxkit/linuxkit`)](https://github.com/linuxkit/linuxkit/tree/master/pkg/openntpd). The following graph shows the time drift on one VM boot where openntpd runs for the first 10000s and then we switch to the busybox NTP client:
+Early versions of Docker Desktop included [<VPIcon icon="fas fa-globe"/>openntpd](https://openntpd.org) from the [upstream LinuxKit package (<VPIcon icon="iconfont icon-github"/>`linuxkit/linuxkit`)](https://github.com/linuxkit/linuxkit/tree/master/pkg/openntpd). The following graph shows the time drift on one VM boot where openntpd runs for the first 10000s and then we switch to the busybox NTP client:
 
 ![time drift 2](https://docker.com/app/uploads/engineering/2019/01/time_drift_2.png)
 
 The diagram shows the clock still drifting significantly with openntpd running but it’s “fixed” by running busybox — why is this? To understand this it’s important to first understand how an NTP client adjusts the Linux kernel clock:
 
-- [<FontIcon icon="fas fa-globe"/>adjtime (3)](http://man7.org/linux/man-pages/man3/adjtime.3.html) – this accepts a delta (e.g. -10s) and tells the kernel to gradually adjust the system clock avoiding suddenly moving the clock forward (or backward, which can cause problems with timing loops which aren’t using monotonic clocks)
-- [<FontIcon icon="fas fa-globe"/>adjtimex (2)](http://man7.org/linux/man-pages/man2/adjtimex.2.html) – this allows the kernel clock \*rate\* itself to be adjusted, to cope with systematic drift like we are suffering from
-- [<FontIcon icon="fas fa-globe"/>settimeofday (2)](https://linux.die.net/man/2/settimeofday) – this immediately bumps the clock to the given time
+- [<VPIcon icon="fas fa-globe"/>adjtime (3)](http://man7.org/linux/man-pages/man3/adjtime.3.html) – this accepts a delta (e.g. -10s) and tells the kernel to gradually adjust the system clock avoiding suddenly moving the clock forward (or backward, which can cause problems with timing loops which aren’t using monotonic clocks)
+- [<VPIcon icon="fas fa-globe"/>adjtimex (2)](http://man7.org/linux/man-pages/man2/adjtimex.2.html) – this allows the kernel clock \*rate\* itself to be adjusted, to cope with systematic drift like we are suffering from
+- [<VPIcon icon="fas fa-globe"/>settimeofday (2)](https://linux.die.net/man/2/settimeofday) – this immediately bumps the clock to the given time
 
 If we look at line 433 of [openntpd ntp.c](https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.sbin/ntpd/ntpd.c?annotate=1.113) (sorry no direct link in cvsweb) then we can see that openntpd is using adjtime to periodically add a delta to the clock, to try to correct the drift. This could also be seen in the openntpd logs. So why wasn’t this effective?
 
@@ -148,13 +148,13 @@ Note how the adjustment value remains flat and very negative after an initial sp
 
 ## Is there anything special about the final value of the kernel frequency offset?
 
-Unfortunately it is special. From the [<FontIcon icon="fas fa-globe"/>adjtimex (2) manpage](http://man7.org/linux/man-pages/man2/adjtimex.2.html):
+Unfortunately it is special. From the [<VPIcon icon="fas fa-globe"/>adjtimex (2) manpage](http://man7.org/linux/man-pages/man2/adjtimex.2.html):
 
 ### ADJ_FREQUENCY
 
 Set frequency offset from *buf.freq*.  Since Linux 2.6.26, the supplied value is clamped to the range (-32768000, +32768000).
 
-So it looks like busybox slowed the clock by the maximum amount (-32768000) to correct the systematic drift. According to the [<FontIcon icon="fas fa-globe"/>adjtimex(8) manpage](https://linux.die.net/man/8/adjtimex) a value of 65536 corresponds to 1ppm, so 32768000 corresponds to 500ppm. Recall that the original estimate of the systematic drift was 2ms every 3s, which is about 666ppm. This isn’t good: this means that we’re right at the limit of what adjtimex can do to compensate for it and are probably also relying on adjtime to provide additional adjustments. Unfortunately all our tests have been on one single machine and it’s easy to imagine a different system (perhaps with different powersaving behaviour) where even adjtimex + adjtime would be unable to cope with the drift.
+So it looks like busybox slowed the clock by the maximum amount (-32768000) to correct the systematic drift. According to the [<VPIcon icon="fas fa-globe"/>adjtimex(8) manpage](https://linux.die.net/man/8/adjtimex) a value of 65536 corresponds to 1ppm, so 32768000 corresponds to 500ppm. Recall that the original estimate of the systematic drift was 2ms every 3s, which is about 666ppm. This isn’t good: this means that we’re right at the limit of what adjtimex can do to compensate for it and are probably also relying on adjtime to provide additional adjustments. Unfortunately all our tests have been on one single machine and it’s easy to imagine a different system (perhaps with different powersaving behaviour) where even adjtimex + adjtime would be unable to cope with the drift.
 
 ---
 
@@ -162,14 +162,14 @@ So it looks like busybox slowed the clock by the maximum amount (-32768000) to c
 
 The main reason why NTP clients use APIs like adjtime and adjtimex is because they want
 
-- monotonicity: i.e. to ensure time never goes backwards because this can cause bugs in programs which aren’t using monotonic clocks for timing, for example [<FontIcon icon="fa-brands fa-cloudflare"/>How and why the leap second affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/); and
+- monotonicity: i.e. to ensure time never goes backwards because this can cause bugs in programs which aren’t using monotonic clocks for timing, for example [<VPIcon icon="fa-brands fa-cloudflare"/>How and why the leap second affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/); and
 - smoothness: i.e. no sudden jumping forwards, triggering lots of timing loops, cron jobs etc at once.
 
 Docker Desktop is used by developers to build and test their code on their laptops and desktops. Developers routinely edit files on their host with an IDE and then build them in a container using `docker run -v`. This requires the clock in the VM to be synchronised with the clock in the host, otherwise tools like `make` will fail to rebuild changed source files correctly.
 
 ### Option 1: adjust the kernel “tick”
 
-According to [<FontIcon icon="fas fa-globe"/>adjtimex(8)](https://linux.die.net/man/8/adjtimex) it’s possible to adjust the kernel “tick”:
+According to [<VPIcon icon="fas fa-globe"/>adjtimex(8)](https://linux.die.net/man/8/adjtimex) it’s possible to adjust the kernel “tick”:
 
 > Set the number of microseconds that should be added to the system time for each kernel tick interrupt. For a kernel with USER_HZ=100, there are supposed to be 100 ticks per second, so *val* should be close to 10000. Increasing *val* by 1 speeds up the system clock by about 100 ppm,
 
@@ -177,13 +177,13 @@ If we knew (or could measure) the systematic drift we could make a coarse-graine
 
 ### Option 2: regularly bump the clock forward with settimeofday (2)
 
-If we assume that the clock in the VM is always running slower than the real physical clock (because it is virtualised, vCPUs are periodically descheduled etc) and if we don’t care about smoothness, we could use an NTP client which calls [<FontIcon icon="fas fa-globe"/>settimeofday (2)](https://linux.die.net/man/2/settimeofday) periodically to immediately resync the clock.
+If we assume that the clock in the VM is always running slower than the real physical clock (because it is virtualised, vCPUs are periodically descheduled etc) and if we don’t care about smoothness, we could use an NTP client which calls [<VPIcon icon="fas fa-globe"/>settimeofday (2)](https://linux.die.net/man/2/settimeofday) periodically to immediately resync the clock.
 
 ### The choice
 
-Although option 1 could potentially provide the best results, we decided to keep it simple and go with option 2: regularly bump the clock forward with [<FontIcon icon="fas fa-globe"/>settimeofday (2)](https://linux.die.net/man/2/settimeofday) rather than attempt to measure and adjust the kernel tick. We assume that the VM clock always runs slower than the host clock but we don’t have to measure exactly how much it runs slower, or assume that the slowness remains constant over time, or across different hardware setups. The solution is very simple and easy to understand. The VM clock should stay in close sync with the host and it should still be monotonic but it will not be very smooth.
+Although option 1 could potentially provide the best results, we decided to keep it simple and go with option 2: regularly bump the clock forward with [<VPIcon icon="fas fa-globe"/>settimeofday (2)](https://linux.die.net/man/2/settimeofday) rather than attempt to measure and adjust the kernel tick. We assume that the VM clock always runs slower than the host clock but we don’t have to measure exactly how much it runs slower, or assume that the slowness remains constant over time, or across different hardware setups. The solution is very simple and easy to understand. The VM clock should stay in close sync with the host and it should still be monotonic but it will not be very smooth.
 
-We use an NTP client called [<FontIcon icon="fa-brands fa-alpine"/>SNTPC](https://git.alpinelinux.org/cgit/hosted/sntpc/tree/sntpc.c) written by Natanael Copa, founder of Alpine Linux (quite a coincidence considering we use Alpine extensively in Docker Desktop). SNTPC can be configured to call settimeofday every n seconds with the following results:
+We use an NTP client called [<VPIcon icon="fa-brands fa-alpine"/>SNTPC](https://git.alpinelinux.org/cgit/hosted/sntpc/tree/sntpc.c) written by Natanael Copa, founder of Alpine Linux (quite a coincidence considering we use Alpine extensively in Docker Desktop). SNTPC can be configured to call settimeofday every n seconds with the following results:
 
 ![time drift 5](https://docker.com/app/uploads/engineering/2019/01/time_drift_5.png)
 

@@ -73,7 +73,7 @@ cover: https://files.realpython.com/media/VIM-and-Python-A-Match-Made-in-Heaven_
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/VIM-and-Python-A-Match-Made-in-Heaven_Watermarked.de11c69564a4.jpg"/>
 
-It has come to my attention that somebody ‘round these parts has been preaching the gospel of [**Sublime Text 3**](/realpython.com/setting-up-sublime-text-3-for-full-stack-python-development.md). As the resident senior developer (err, old fogey), I feel it’s my duty to tell you about the only TRUE Python development environment you will ever need: [<FontIcon icon="iconfont icon-vim"/>VIM](https://vim.org/).
+It has come to my attention that somebody ‘round these parts has been preaching the gospel of [**Sublime Text 3**](/realpython.com/setting-up-sublime-text-3-for-full-stack-python-development.md). As the resident senior developer (err, old fogey), I feel it’s my duty to tell you about the only TRUE Python development environment you will ever need: [<VPIcon icon="iconfont icon-vim"/>VIM](https://vim.org/).
 
 That’s right. VIM is ubiquitous and fast, and it never crashes. It can also do just about anything!
 
@@ -83,7 +83,7 @@ On the down side though, VIM can be a pain to configure, but fear not. **This ar
 
 ::: note
 
-To get the most out of this article, you should have at least a basic understanding of how to use VIM and its command modes. If you’re just getting started, check out [<FontIcon icon="fas fa-globe"/>this resource](http://vim-adventures.com) or [<FontIcon icon="fas fa-globe"/>this one](https://openvim.com). You’ll want to spend some time with VIM and get the basics down before moving on.
+To get the most out of this article, you should have at least a basic understanding of how to use VIM and its command modes. If you’re just getting started, check out [<VPIcon icon="fas fa-globe"/>this resource](http://vim-adventures.com) or [<VPIcon icon="fas fa-globe"/>this one](https://openvim.com). You’ll want to spend some time with VIM and get the basics down before moving on.
 
 :::
 
@@ -91,7 +91,7 @@ To get the most out of this article, you should have at least a basic understand
 
 ## Installing
 
-Since VIM comes pre-installed on a number of [<FontIcon icon="fa-brands fa-wikipedia-w"/>unix](https://en.wikipedia.org/wiki/Unix-like) systems, let’s first check to see if it’s installed:
+Since VIM comes pre-installed on a number of [<VPIcon icon="fa-brands fa-wikipedia-w"/>unix](https://en.wikipedia.org/wiki/Unix-like) systems, let’s first check to see if it’s installed:
 
 ```sh
 vim --version
@@ -132,20 +132,20 @@ At this point, you want to check two things:
 1. The VIM version should be higher than 7.3.
 2. `+python` should show up in the list of features, so you know Python is supported.
 
-If both of these checks pass, then move right along to [VIM Extensions](#vim-extensions). If not, it’s time to [<FontIcon icon="iconfont icon-vim"/>install/upgrade](https://vim.org/download.php).
+If both of these checks pass, then move right along to [VIM Extensions](#vim-extensions). If not, it’s time to [<VPIcon icon="iconfont icon-vim"/>install/upgrade](https://vim.org/download.php).
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-macos"/>
+@tab:active <VPIcon icon="iconfont icon-macos"/>
 
-Grab [<FontIcon icon="iconfont icon-homebrew"/>Homebrew](http://brew.sh/), if you don’t already have it, and run:
+Grab [<VPIcon icon="iconfont icon-homebrew"/>Homebrew](http://brew.sh/), if you don’t already have it, and run:
 
 ```sh
 brew update
 brew install vim
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>
 
 For Debian or Ubuntu, you can try:
 
@@ -155,11 +155,11 @@ sudo apt-get update
 sudo apt-get install vim
 ```
 
-For other flavors of Linux, check the docs from your package manager. Here is a link to get you started: [<FontIcon icon="fas fa-globe"/>Install Vim](http://oss.sgi.com/LDP/HOWTO/Vim-HOWTO/introduction.html).
+For other flavors of Linux, check the docs from your package manager. Here is a link to get you started: [<VPIcon icon="fas fa-globe"/>Install Vim](http://oss.sgi.com/LDP/HOWTO/Vim-HOWTO/introduction.html).
 
-@tab <FontIcon icon="fa-brands fa-windows"/>
+@tab <VPIcon icon="fa-brands fa-windows"/>
 
-There are many different ways to install VIM on Windows. Start with the [<FontIcon icon="iconfont icon-vim"/>official docs](https://vim.org/download.php#pc).
+There are many different ways to install VIM on Windows. Start with the [<VPIcon icon="iconfont icon-vim"/>official docs](https://vim.org/download.php#pc).
 
 :::
 
@@ -186,7 +186,7 @@ VIM can do a lot of what developers need right out of the box. However, it is al
 
 ::: note
 
-Extensions in VIM are often referred to as bundles or [<FontIcon icon="iconfont icon-vim"/>plugins](http://vimdoc.sourceforge.net/htmldoc/usr_05.html#plugin).
+Extensions in VIM are often referred to as bundles or [<VPIcon icon="iconfont icon-vim"/>plugins](http://vimdoc.sourceforge.net/htmldoc/usr_05.html#plugin).
 
 :::
 
@@ -200,7 +200,7 @@ Let’s get Vundle installed:
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-This command downloads the Vundle plugin manager and chucks it in your VIM bundles directory. Now you can manage all your extensions from the <FontIcon icon="iconfont icon-vim"/>`.vimrc` [configuration file (<FontIcon icon="iconfont icon-github"/>`amix/vimrc`)](https://github.com/amix/vimrc).
+This command downloads the Vundle plugin manager and chucks it in your VIM bundles directory. Now you can manage all your extensions from the <VPIcon icon="iconfont icon-vim"/>`.vimrc` [configuration file (<VPIcon icon="iconfont icon-github"/>`amix/vimrc`)](https://github.com/amix/vimrc).
 
 Add the file to your user’s home directory:
 
@@ -208,7 +208,7 @@ Add the file to your user’s home directory:
 touch ~/.vimrc
 ```
 
-Now set up Vundle in your <FontIcon icon="iconfont icon-vim"/>`.vimrc` by adding the following to the top of the file:
+Now set up Vundle in your <VPIcon icon="iconfont icon-vim"/>`.vimrc` by adding the following to the top of the file:
 
 ```vim title=".vimrc"
 set nocompatible              " required
@@ -246,7 +246,7 @@ This command tells Vundle to work its magic—downloading all the plugins and in
 
 ::: note
 
-If you are a Windows user, check out the [Windows Installation Instructions (<FontIcon icon="iconfont icon-github"/>`gmarik/Vundle.vim`)](https://github.com/gmarik/Vundle.vim/wiki/Vundle-for-Windows).
+If you are a Windows user, check out the [Windows Installation Instructions (<VPIcon icon="iconfont icon-github"/>`gmarik/Vundle.vim`)](https://github.com/gmarik/Vundle.vim/wiki/Vundle-for-Windows).
 
 <SiteInfo
   name="Vundle for Windows"
@@ -265,7 +265,7 @@ We couldn’t possibly list all the VIM features, but let’s look at a quick li
 
 ### Ditch the Mouse
 
-Probably the most important feature of VIM is that it doesn’t require a mouse (except for the graphical variants of VIM). At first, this may seem like a horrible idea, but after you invest the time—and it does take time—to learn the [<FontIcon icon="fa-brands fa-stack-overflow"/>key combinations](http://stackoverflow.com/a/5400978/1799408), you will speed up your overall workflow!
+Probably the most important feature of VIM is that it doesn’t require a mouse (except for the graphical variants of VIM). At first, this may seem like a horrible idea, but after you invest the time—and it does take time—to learn the [<VPIcon icon="fa-brands fa-stack-overflow"/>key combinations](http://stackoverflow.com/a/5400978/1799408), you will speed up your overall workflow!
 
 ### Split Layouts
 
@@ -283,7 +283,7 @@ Make sure to utilize tab completion to find files after typing `:sp`.
 
 ::: tip Pro Tip #2
 
-You can also specify different areas of the screen where the splits should occur by adding the following lines to the <FontIcon icon="iconfont icon-vim"/>`.vimrc` file:
+You can also specify different areas of the screen where the splits should occur by adding the following lines to the <VPIcon icon="iconfont icon-vim"/>`.vimrc` file:
 
 ```vim title=".vimrc"
 set splitbelow
@@ -294,7 +294,7 @@ set splitright
 
 ::: tip Pro Tip #3
 
-Want to move between the splits without using the mouse? If you simply add the following to <FontIcon icon="iconfont icon-vim"/>`.vimrc`, you’ll be able to jump between splits with just one key combination:
+Want to move between the splits without using the mouse? If you simply add the following to <VPIcon icon="iconfont icon-vim"/>`.vimrc`, you’ll be able to jump between splits with just one key combination:
 
 ```vim title=".vimrc"
 "split navigations
@@ -313,7 +313,7 @@ Key combos:
 
 In other words, press <kbd>Ctrl</kbd> plus the standard VIM movement key to move to a specific pane.
 
-But wait—what is the `nnoremap` thing? In a nutshell, `nnoremap` remaps one key combination to another. The `no` part means remap the key in normal mode as opposed to visual mode. Basically, `nnoremap <C-J> <C-W><C-j>` says, in normal mode when I hit `<C-J>`, do `<C-W><C-j>` instead. More info can be found [<FontIcon icon="fa-brands fa-stack-overflow"/>here](http://stackoverflow.com/questions/3776117/what-is-the-difference-between-the-remap-noremap-nnoremap-and-vnoremap-mapping).
+But wait—what is the `nnoremap` thing? In a nutshell, `nnoremap` remaps one key combination to another. The `no` part means remap the key in normal mode as opposed to visual mode. Basically, `nnoremap <C-J> <C-W><C-j>` says, in normal mode when I hit `<C-J>`, do `<C-W><C-j>` instead. More info can be found [<VPIcon icon="fa-brands fa-stack-overflow"/>here](http://stackoverflow.com/questions/3776117/what-is-the-difference-between-the-remap-noremap-nnoremap-and-vnoremap-mapping).
 
 <SiteInfo
   name="What is the difference between the remap, noremap, nnoremap and vnoremap mapping commands in Vim?"
@@ -326,7 +326,7 @@ But wait—what is the `nnoremap` thing? In a nutshell, `nnoremap` remaps one ke
 
 ### Buffers
 
-While VIM can do tabs, many users prefer [<FontIcon icon="fas fa-globe"/>buffers](http://vim.wikia.com/wiki/Vim_buffer_FAQ) and splits. You can think of a [<FontIcon icon="fa-brands fa-stack-overflow"/>buffer](http://stackoverflow.com/questions/26708822/why-do-vim-experts-prefer-buffers-over-tabs) as a recently opened file. VIM provides easy access to recent buffers. Just type `:b <buffer name or number>` to switch to an open buffer. (Auto-complete works here as well.) You can also use `:ls` to list all buffers.
+While VIM can do tabs, many users prefer [<VPIcon icon="fas fa-globe"/>buffers](http://vim.wikia.com/wiki/Vim_buffer_FAQ) and splits. You can think of a [<VPIcon icon="fa-brands fa-stack-overflow"/>buffer](http://stackoverflow.com/questions/26708822/why-do-vim-experts-prefer-buffers-over-tabs) as a recently opened file. VIM provides easy access to recent buffers. Just type `:b <buffer name or number>` to switch to an open buffer. (Auto-complete works here as well.) You can also use `:ls` to list all buffers.
 
 ::: tip Pro Tip #4
 
@@ -336,9 +336,9 @@ At the end of the `:ls` output, VIM will prompt with `Hit enter to continue`. Yo
 
 ### Code Folding
 
-Most “modern” IDEs provide a way to collapse (or [<FontIcon icon="fas fa-globe"/>fold](http://vim.wikia.com/wiki/Folding)) methods and classes, showing you just the class/method definition lines instead of all the code.
+Most “modern” IDEs provide a way to collapse (or [<VPIcon icon="fas fa-globe"/>fold](http://vim.wikia.com/wiki/Folding)) methods and classes, showing you just the class/method definition lines instead of all the code.
 
-You can enable that in <FontIcon icon="iconfont icon-vim"/>`.vimrc` with the following lines:
+You can enable that in <VPIcon icon="iconfont icon-vim"/>`.vimrc` with the following lines:
 
 ```vim title=".vimrc"
 " Enable folding
@@ -346,7 +346,7 @@ set foldmethod=indent
 set foldlevel=99
 ```
 
-This works all right, but you have to type `za` to fold (and unfold). The space key would be much better. So add this line to your <FontIcon icon="iconfont icon-vim"/>`.vimrc` file as well:
+This works all right, but you have to type `za` to fold (and unfold). The space key would be much better. So add this line to your <VPIcon icon="iconfont icon-vim"/>`.vimrc` file as well:
 
 ```vim title=".vimrc"
 " Enable folding with the spacebar
@@ -355,7 +355,7 @@ nnoremap <space> za
 
 Now you can easily hide portions of your code that you’re not currently working on.
 
-The initial command, `set foldmethod=indent`, creates folds based upon line indents. This, however, often creates more folds than you really want. But have no fear! There are several extensions that attempt to rectify that. We recommend [<FontIcon icon="iconfont icon-github"/>`tmhedberg/SimpylFold`](https://github.com/tmhedberg/SimpylFold). Install it with Vundle by adding the following line to <FontIcon icon="iconfont icon-vim"/>`.vimrc`:
+The initial command, `set foldmethod=indent`, creates folds based upon line indents. This, however, often creates more folds than you really want. But have no fear! There are several extensions that attempt to rectify that. We recommend [<VPIcon icon="iconfont icon-github"/>`tmhedberg/SimpylFold`](https://github.com/tmhedberg/SimpylFold). Install it with Vundle by adding the following line to <VPIcon icon="iconfont icon-vim"/>`.vimrc`:
 
 ```vim title=".vimrc"
 Plugin 'tmhedberg/SimpylFold'
@@ -388,7 +388,7 @@ Of course, for code folding to work based on indentations, you want your indents
 
 @tab:active PEP 8
 
-To add the proper PEP 8 indentation, add the following to your <FontIcon icon="iconfont icon-vim"/>`.vimrc`:
+To add the proper PEP 8 indentation, add the following to your <VPIcon icon="iconfont icon-vim"/>`.vimrc`:
 
 ```vim title=".vimrc"
 au BufNewFile,BufRead *.py
@@ -412,11 +412,11 @@ au BufNewFile,BufRead *.js, *.html, *.css
     \ set shiftwidth=2
 ```
 
-This way, you can have different settings for different filetypes. There is also a plugin called [<FontIcon icon="fas fa-globe"/>ftypes](http://vim.wikia.com/wiki/Keep_your_vimrc_file_clean) that will allow you to have a separate file for each filetype you want to maintain settings for, so use that if you see fit.
+This way, you can have different settings for different filetypes. There is also a plugin called [<VPIcon icon="fas fa-globe"/>ftypes](http://vim.wikia.com/wiki/Keep_your_vimrc_file_clean) that will allow you to have a separate file for each filetype you want to maintain settings for, so use that if you see fit.
 
 @tab Auto-Indentation
 
-`autoindent` will help, but in some cases (like when a function signature spans multiple lines), it doesn’t always do what you want, especially when it comes to conforming to PEP 8 standards. To fix that, you can use the [<FontIcon icon="iconfont icon-github"/>`vim-scripts/indentpython.vim`](https://github.com/vim-scripts/indentpython.vim) extension:
+`autoindent` will help, but in some cases (like when a function signature spans multiple lines), it doesn’t always do what you want, especially when it comes to conforming to PEP 8 standards. To fix that, you can use the [<VPIcon icon="iconfont icon-github"/>`vim-scripts/indentpython.vim`](https://github.com/vim-scripts/indentpython.vim) extension:
 
 ```vim title=".vimrc"
 Plugin 'vim-scripts/indentpython.vim'
@@ -444,13 +444,13 @@ set encoding=utf-8
 
 ### Auto-Complete
 
-The best plugin for Python auto-complete is [<FontIcon icon="iconfont icon-github"/>`Valloric/YouCompleteMe`](https://github.com/Valloric/YouCompleteMe). Again, use Vundle to install:
+The best plugin for Python auto-complete is [<VPIcon icon="iconfont icon-github"/>`Valloric/YouCompleteMe`](https://github.com/Valloric/YouCompleteMe). Again, use Vundle to install:
 
 ```vim title=".vimrc"
 Bundle 'Valloric/YouCompleteMe'
 ```
 
-Under the hood, YouCompleteMe uses a few different auto-completers (including [<FontIcon icon="iconfont icon-github"/>`davidhalter/jedi`](https://github.com/davidhalter/jedi) for Python), and it needs some C libraries to be installed for it to work correctly. The docs have very good [installation instructions (<FontIcon icon="iconfont icon-github"/>`Valloric/YouCompleteMe`)](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation), so I won’t repeat them here, but be sure you follow them.
+Under the hood, YouCompleteMe uses a few different auto-completers (including [<VPIcon icon="iconfont icon-github"/>`davidhalter/jedi`](https://github.com/davidhalter/jedi) for Python), and it needs some C libraries to be installed for it to work correctly. The docs have very good [installation instructions (<VPIcon icon="iconfont icon-github"/>`Valloric/YouCompleteMe`)](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation), so I won’t repeat them here, but be sure you follow them.
 
 It works out of the box pretty well, but let’s add a few customizations:
 
@@ -469,7 +469,7 @@ My leader key is mapped to space, so `space-g` will goto definition of whatever 
 
 ### Virtualenv Support
 
-One issue with the goto definition above is that VIM, by default, doesn’t know anything about virtualenv, so you have to make VIM and YouCompleteMe aware of your virtualenv by adding the following lines of code to <FontIcon icon="iconfont icon-vim"/>`.vimrc`:
+One issue with the goto definition above is that VIM, by default, doesn’t know anything about virtualenv, so you have to make VIM and YouCompleteMe aware of your virtualenv by adding the following lines of code to <VPIcon icon="iconfont icon-vim"/>`.vimrc`:
 
 ```vim title=".vimrc"
 "python with virtualenv support
@@ -487,7 +487,7 @@ This determines if you are running inside a virtualenv, switches to that specifi
 
 ### Syntax Checking/Highlighting
 
-You can have VIM check your syntax on each save with the [<FontIcon icon="iconfont icon-github"/>`vim-syntastic/syntastic`](https://github.com/vim-syntastic/syntastic) extension:
+You can have VIM check your syntax on each save with the [<VPIcon icon="iconfont icon-github"/>`vim-syntastic/syntastic`](https://github.com/vim-syntastic/syntastic) extension:
 
 ```vim title=".vimrc"
 Plugin 'vim-syntastic/syntastic'
@@ -508,7 +508,7 @@ syntax on
 
 ### Color Schemes
 
-Color schemes work in conjunction with the basic color scheme that you are using. Check out [<FontIcon icon="iconfont icon-github"/>`altercation/vim-colors-solarized`](https://github.com/altercation/vim-colors-solarized) for GUI mode, and [<FontIcon icon="iconfont icon-github"/>`jnurmine/Zenburn`](https://github.com/jnurmine/Zenburn) for terminal mode:
+Color schemes work in conjunction with the basic color scheme that you are using. Check out [<VPIcon icon="iconfont icon-github"/>`altercation/vim-colors-solarized`](https://github.com/altercation/vim-colors-solarized) for GUI mode, and [<VPIcon icon="iconfont icon-github"/>`jnurmine/Zenburn`](https://github.com/jnurmine/Zenburn) for terminal mode:
 
 ```vim title=".vimrc"
 Plugin 'jnurmine/Zenburn'
@@ -534,13 +534,13 @@ call togglebg#map("<F5>")
 
 ### File Browsing
 
-If you want a proper file tree, then [<FontIcon icon="iconfont icon-github"/>`scrooloose/nerdtree`](https://github.com/scrooloose/nerdtree) is the way to go:
+If you want a proper file tree, then [<VPIcon icon="iconfont icon-github"/>`scrooloose/nerdtree`](https://github.com/scrooloose/nerdtree) is the way to go:
 
 ```vim title=".vimrc"
 Plugin 'scrooloose/nerdtree'
 ```
 
-If you want to use tabs, utilize [<FontIcon icon="iconfont icon-github"/>`jistr/vim-nerdtree-tabs`](https://github.com/jistr/vim-nerdtree-tabs):
+If you want to use tabs, utilize [<VPIcon icon="iconfont icon-github"/>`jistr/vim-nerdtree-tabs`](https://github.com/jistr/vim-nerdtree-tabs):
 
 ```vim title=".vimrc"
 Plugin 'jistr/vim-nerdtree-tabs'
@@ -554,13 +554,13 @@ let NERDTreeIgnore=['.pyc$', '\~$'] "ignore files in NERDTree
 
 ### Super Searching
 
-Want to search for basically anything from VIM? Check out [<FontIcon icon="iconfont icon-github"/>`kien/ctrlp.vim`](https://github.com/kien/ctrlp.vim):
+Want to search for basically anything from VIM? Check out [<VPIcon icon="iconfont icon-github"/>`kien/ctrlp.vim`](https://github.com/kien/ctrlp.vim):
 
 ```vim title=".vimrc"
 Plugin 'kien/ctrlp.vim'
 ```
 
-As you might expect, pressing <kbd>Ctrl</kbd>+<kbd>P</kbd> will enable the search, so you can just start typing. If your search matches anything close to the file you’re looking for, it will find it. Oh, and it’s not just files: it will find tags as well! For more, check out this [<FontIcon icon="fa-brands fa-youtube"/>YouTube video](http://youtu.be/9XrHk3xjYsw).
+As you might expect, pressing <kbd>Ctrl</kbd>+<kbd>P</kbd> will enable the search, so you can just start typing. If your search matches anything close to the file you’re looking for, it will find it. Oh, and it’s not just files: it will find tags as well! For more, check out this [<VPIcon icon="fa-brands fa-youtube"/>YouTube video](http://youtu.be/9XrHk3xjYsw).
 
 <VidStack src="youtube/9XrHk3xjYsw" />
 
@@ -574,7 +574,7 @@ set nu
 
 ### Git Integration
 
-Want to perform basic git commands without leaving the comfort of VIM? Then [<FontIcon icon="iconfont icon-github"/>`tpope/vim-fugitive`](https://github.com/tpope/vim-fugitive) is the way to go:
+Want to perform basic git commands without leaving the comfort of VIM? Then [<VPIcon icon="iconfont icon-github"/>`tpope/vim-fugitive`](https://github.com/tpope/vim-fugitive) is the way to go:
 
 ```vim title=".vimrc"
 Plugin 'tpope/vim-fugitive'
@@ -582,11 +582,11 @@ Plugin 'tpope/vim-fugitive'
 
 ![VIM fugitive plugin screenshot](https://files.realpython.com/media/fugitive.3ec5e0c0d29a.png)
 
-See it in action on [<FontIcon icon="fas fa-globe"/>VIMcasts](http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/).
+See it in action on [<VPIcon icon="fas fa-globe"/>VIMcasts](http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/).
 
 ### Powerline
 
-[<FontIcon icon="iconfont icon-github"/>`powerline/powerline`](https://github.com/powerline/powerline) is a status bar that displays things like the current virtualenv, git branch, files being edited, and much more.
+[<VPIcon icon="iconfont icon-github"/>`powerline/powerline`](https://github.com/powerline/powerline) is a status bar that displays things like the current virtualenv, git branch, files being edited, and much more.
 
 ![The Powerline plugin for VIM (screenshot)](https://files.realpython.com/media/powerline.de2002d13317.png)
 
@@ -596,7 +596,7 @@ It’s written in Python, and it supports a number of other environments like zs
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 ```
 
-Take a look at the [<FontIcon icon="fas fa-globe"/>official docs](http://powerline.readthedocs.org/en/latest/) for all the configuration options.
+Take a look at the [<VPIcon icon="fas fa-globe"/>official docs](http://powerline.readthedocs.org/en/latest/) for all the configuration options.
 
 ### System Clipboard
 
@@ -622,7 +622,7 @@ Now, you will be able to use VIM key combos not only in the shell but also in th
 
 That’s more or less it (for Python development, at least). There are a ton of other extensions that you can use, as well as alternatives to everything detailed in this post. What are some of your favorite extensions? How have you configured VIM to match your personality?
 
-Here is a link to my current [VIM config (<FontIcon icon="iconfont icon-github"/>`j1z0/vim-config`)](https://github.com/j1z0/vim-config/blob/master/vimrc). Got one of your own? Please share!
+Here is a link to my current [VIM config (<VPIcon icon="iconfont icon-github"/>`j1z0/vim-config`)](https://github.com/j1z0/vim-config/blob/master/vimrc). Got one of your own? Please share!
 
 Thanks for reading!
 

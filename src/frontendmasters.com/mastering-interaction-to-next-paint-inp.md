@@ -106,7 +106,7 @@ INP measures everything that happens between a user interaction and the next pai
 
 INP is closely related to**Long Animation Frames (LoAF)**, as both metrics capture user responsiveness and visual feedback. LoAF measures the time between paint events, regardless of whether an interaction happened, indicating if the browser may have felt “frozen” to the user.
 
-A slow INP is often accompanied by a Long Animation Frame, which can provide more details on the scripts or activities causing delays. For more information, check out this[<FontIcon icon="fas fa-globe"/>detailed guide on Long Animation Frames](https://requestmetrics.com/web-performance/long-animation-frame-loaf/).
+A slow INP is often accompanied by a Long Animation Frame, which can provide more details on the scripts or activities causing delays. For more information, check out this[<VPIcon icon="fas fa-globe"/>detailed guide on Long Animation Frames](https://requestmetrics.com/web-performance/long-animation-frame-loaf/).
 
 ---
 
@@ -122,7 +122,7 @@ Implementing these strategies can bring down your INP score, keeping interaction
 
 ### Example INP Fix
 
-Let's have a look at a specific example. Below is a[CodePen with a simple form (<FontIcon icon="fa-brands fa-codepen"/>`toddhgardner-the-selector`)](https://codepen.io/toddhgardner-the-selector/pen/yLmKKVV)that includes a JavaScript event handler triggered each time the user types, changing the class on the button.
+Let's have a look at a specific example. Below is a[CodePen with a simple form (<VPIcon icon="fa-brands fa-codepen"/>`toddhgardner-the-selector`)](https://codepen.io/toddhgardner-the-selector/pen/yLmKKVV)that includes a JavaScript event handler triggered each time the user types, changing the class on the button.
 
 <CodePen
   user="toddhgardner"
@@ -150,7 +150,7 @@ In our fix, we wrapped the event handler in`requestAnimationFrame`, which delays
 
 Interaction to Next Paint (INP) gives us a more complete view of web interactivity by tracking every user interaction throughout a page's lifecycle. With INP replacing FID as a Core Web Vital, optimizing for it has never been more critical. A strong INP score not only improves user satisfaction by keeping interactions fast and responsive but also boosts your SEO by aligning with Google's performance standards.
 
-By implementing strategies like yielding to the main thread, optimizing JavaScript, and addressing Long Animation Frames, you can create a smoother, more responsive experience for users. As you tackle these improvements, Real User Monitoring tools like[<FontIcon icon="fas fa-globe"/>Request Metrics](https://requestmetrics.com/)can help you track INP and other Core Web Vitals in real-time, showing exactly where delays are occurring and how effective your fixes are.
+By implementing strategies like yielding to the main thread, optimizing JavaScript, and addressing Long Animation Frames, you can create a smoother, more responsive experience for users. As you tackle these improvements, Real User Monitoring tools like[<VPIcon icon="fas fa-globe"/>Request Metrics](https://requestmetrics.com/)can help you track INP and other Core Web Vitals in real-time, showing exactly where delays are occurring and how effective your fixes are.
 
 Making your website interactive and smooth isn't just about performance scores—it's about ensuring users have a seamless experience on your site. With INP insights and a focus on responsiveness, you can keep users engaged, happy, and coming back for more.
 

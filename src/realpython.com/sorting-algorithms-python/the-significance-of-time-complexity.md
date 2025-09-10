@@ -52,7 +52,7 @@ cover: https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sor
 This tutorial covers two different ways to measure the **runtime** of sorting algorithms:
 
 1. For a practical point of view, you’ll measure the runtime of the implementations using the `timeit` module.
-2. For a more theoretical perspective, you’ll measure the **runtime complexity** of the algorithms using [<FontIcon icon="fa-brands fa-wikipedia-w"/>Big O notation](https://en.wikipedia.org/wiki/Big_O_notation).
+2. For a more theoretical perspective, you’ll measure the **runtime complexity** of the algorithms using [<VPIcon icon="fa-brands fa-wikipedia-w"/>Big O notation](https://en.wikipedia.org/wiki/Big_O_notation).
 
 ---
 
@@ -95,7 +95,7 @@ In this example, `run_sorting_algorithm()` receives the name of the algorithm an
 
 ::: note
 
-A common misconception is that you should find the average time of each run of the algorithm instead of selecting the single shortest time. Time measurements are [<FontIcon icon="fa-brands fa-wikipedia-w"/>noisy](https://en.wikipedia.org/wiki/Noisy_data) because the system runs other processes concurrently. The shortest time is always the least noisy, making it the best representation of the algorithm’s true runtime.
+A common misconception is that you should find the average time of each run of the algorithm instead of selecting the single shortest time. Time measurements are [<VPIcon icon="fa-brands fa-wikipedia-w"/>noisy](https://en.wikipedia.org/wiki/Noisy_data) because the system runs other processes concurrently. The shortest time is always the least noisy, making it the best representation of the algorithm’s true runtime.
 
 :::
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
     run_sorting_algorithm(algorithm="sorted", array=array)
 ```
 
-If you save the above code in a <FontIcon icon="fa-brands fa-python"/>`sorting.py` file, then you can run it from the [**terminal**](/realpython.com/terminal-commands.md) and see its output:
+If you save the above code in a <VPIcon icon="fa-brands fa-python"/>`sorting.py` file, then you can run it from the [**terminal**](/realpython.com/terminal-commands.md) and see its output:
 
 ```sh
 python sorting.py
@@ -126,7 +126,7 @@ Remember that the time in seconds of every experiment depends in part on the har
 
 ::: note
 
-You can learn more about the `timeit` module in the [<FontIcon icon="fa-brands fa-python"/>official Python documentation](https://docs.python.org/2/library/timeit.html).
+You can learn more about the `timeit` module in the [<VPIcon icon="fa-brands fa-python"/>official Python documentation](https://docs.python.org/2/library/timeit.html).
 
 :::
 
@@ -134,7 +134,7 @@ You can learn more about the `timeit` module in the [<FontIcon icon="fa-brands f
 
 ## Measuring Efficiency With Big O Notation
 
-The specific time an algorithm takes to run isn’t enough information to get the full picture of its [<FontIcon icon="fa-brands fa-wikipedia-w"/>time complexity](https://en.wikipedia.org/wiki/Time_complexity). To solve this problem, you can use Big O (pronounced “big oh”) notation. Big O is often used to compare different implementations and decide which one is the most efficient, skipping unnecessary details and focusing on what’s most important in the runtime of an algorithm.
+The specific time an algorithm takes to run isn’t enough information to get the full picture of its [<VPIcon icon="fa-brands fa-wikipedia-w"/>time complexity](https://en.wikipedia.org/wiki/Time_complexity). To solve this problem, you can use Big O (pronounced “big oh”) notation. Big O is often used to compare different implementations and decide which one is the most efficient, skipping unnecessary details and focusing on what’s most important in the runtime of an algorithm.
 
 The time in seconds required to run different algorithms can be influenced by several unrelated factors, including processor speed or available memory. Big O, on the other hand, provides a platform to express runtime complexity in hardware-agnostic terms. With Big O, you express complexity in terms of how quickly your algorithm’s runtime grows relative to the size of the input, especially as the input grows arbitrarily large.
 
@@ -147,13 +147,13 @@ Although this tutorial isn’t going to dive very deep into the details of Big O
 | $O\left(1\right)$ | constant | The runtime is constant regardless of the size of the input. Finding an element in a [**hash table**](/realpython.com/python-hash-table.md) is an example of an operation that can be performed in **constant time**. |
 | $O\left(n\right)$ | linear | The runtime grows linearly with the size of the input. A function that checks a condition on every item of a list is an example of an $O\left(n\right)$ algorithm. |
 | $O\left(n^2\right)$ | quadratic | The runtime is a quadratic function of the size of the input. A naive implementation of finding duplicate values in a list, in which each item has to be checked twice, is an example of a quadratic algorithm. |
-| $O\left(2^n\right)$ | exponential | The runtime grows exponentially with the size of the input. These algorithms are considered extremely inefficient. An example of an exponential algorithm is the [<FontIcon icon="fa-brands fa-wikipedia-w"/>three-coloring problem](https://en.wikipedia.org/wiki/Graph_coloring). |
+| $O\left(2^n\right)$ | exponential | The runtime grows exponentially with the size of the input. These algorithms are considered extremely inefficient. An example of an exponential algorithm is the [<VPIcon icon="fa-brands fa-wikipedia-w"/>three-coloring problem](https://en.wikipedia.org/wiki/Graph_coloring). |
 | $O\left(\log_{}n\right)$ | logarithmic | The runtime grows linearly while the size of the input grows exponentially. For example, if it takes one second to process one thousand elements, then it will take two seconds to process ten thousand, three seconds to process one hundred thousand, and so on. [**Binary search**](/realpython.com/binary-search-python.md) is an example of a logarithmic runtime algorithm. |
 
 This tutorial covers the Big O runtime complexity of each of the sorting algorithms discussed. It also includes a brief explanation of how to determine the runtime on each particular case. This will give you a better understanding of how to start using Big O to classify other algorithms.
 
 ::: note
 
-For a deeper understanding of Big O, together with several practical examples in Python, check out [<FontIcon icon="fas fa-globe"/>Big O Notation and Algorithm Analysis with Python Examples](https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples/).
+For a deeper understanding of Big O, together with several practical examples in Python, check out [<VPIcon icon="fas fa-globe"/>Big O Notation and Algorithm Analysis with Python Examples](https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples/).
 
 :::

@@ -118,7 +118,7 @@ Under the hood, `React.memo` uses `Object.is` for a shallow comparison of the pr
 
 Let’s consider an ecommerce case study where a product detail page displays reviews (a review component) for each product. The review component may re-render when unrelated parts of the product page update. This happens because, by default, React re-renders a child component whenever the parent component state changes.
 
-Create a <FontIcon icon="fa-brands fa-react"/>`ProductDetailPage.jsx` component in your React project and add the following:
+Create a <VPIcon icon="fa-brands fa-react"/>`ProductDetailPage.jsx` component in your React project and add the following:
 
 ```jsx :collpased-lines title="pages/ProductDetailPage.jsx"
 import React, { useState } from "react";

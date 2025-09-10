@@ -55,13 +55,13 @@ One of the Git features I use frequently and find quite handy is the `stash`. It
 
 ## `git stash save` and `git stash pop`
 
-Suppose you’re working on a nasty bug. You’ve got Python logging code in two files, <FontIcon icon="fas fa-file-lines"/>`file1` and <FontIcon icon="fas fa-file-lines"/>`file2`, to help you track it down, and you’ve added <FontIcon icon="fas fa-file-lines"/>`file3` as a possible solution.
+Suppose you’re working on a nasty bug. You’ve got Python logging code in two files, <VPIcon icon="fas fa-file-lines"/>`file1` and <VPIcon icon="fas fa-file-lines"/>`file2`, to help you track it down, and you’ve added <VPIcon icon="fas fa-file-lines"/>`file3` as a possible solution.
 
 In short, the changes to the repo are as follows:
 
-- You’ve edited <FontIcon icon="fas fa-file-lines"/>`file1` and done `git add file1`.
-- You’ve edited <FontIcon icon="fas fa-file-lines"/>`file2` but have not added it.
-- You’ve created <FontIcon icon="fas fa-file-lines"/>`file3` and have not added it.
+- You’ve edited <VPIcon icon="fas fa-file-lines"/>`file1` and done `git add file1`.
+- You’ve edited <VPIcon icon="fas fa-file-lines"/>`file2` but have not added it.
+- You’ve created <VPIcon icon="fas fa-file-lines"/>`file3` and have not added it.
 
 You do a `git status` to confirm the condition of the repo:
 
@@ -101,9 +101,9 @@ git stash save
 # HEAD is now at 387dcfc adding some files
 ```
 
-In that output, <FontIcon icon="fas fa-code-branch"/>`master` is the name of the branch, `387dcfc` is the SHA of the last commit, `adding some files` is the commit message for that commit, and `WIP` stands for “work in progress.” The output on your repo will likely be different in those details.
+In that output, <VPIcon icon="fas fa-code-branch"/>`master` is the name of the branch, `387dcfc` is the SHA of the last commit, `adding some files` is the commit message for that commit, and `WIP` stands for “work in progress.” The output on your repo will likely be different in those details.
 
-If you do a `status` at this point, it will still show <FontIcon icon="fas fa-file-lines"/>`file3` as an untracked file, but <FontIcon icon="fas fa-file-lines"/>`file1` and <FontIcon icon="fas fa-file-lines"/>`file2` are no longer there:
+If you do a `status` at this point, it will still show <VPIcon icon="fas fa-file-lines"/>`file3` as an untracked file, but <VPIcon icon="fas fa-file-lines"/>`file1` and <VPIcon icon="fas fa-file-lines"/>`file2` are no longer there:
 
 ```sh
 git status
@@ -147,7 +147,7 @@ git stash pop
 
 Now you can see at the bottom that it has a message about “Dropped refs/stash@{0}”. We’ll talk more about that syntax below, but it’s basically saying that it applied the changes you had stashed and got rid of the stash itself. Before you ask, yes, there is a way to use the stash and **not** get rid of it, but let’s not get ahead of ourselves.
 
-You’ll notice that <FontIcon icon="fas fa-file-lines"/>`file1` used to be in the index but no longer is. By default, `git stash pop` doesn’t maintain the status of changes like that. There is an option to tell it to do so, of course. Add <FontIcon icon="fas fa-file-lines"/>`file1` back to the index and try again:
+You’ll notice that <VPIcon icon="fas fa-file-lines"/>`file1` used to be in the index but no longer is. By default, `git stash pop` doesn’t maintain the status of changes like that. There is an option to tell it to do so, of course. Add <VPIcon icon="fas fa-file-lines"/>`file1` back to the index and try again:
 
 ```sh :collapsed-lines
 git add file1
@@ -198,7 +198,7 @@ git stash pop --index
 
 You can see that the second time we added the `--index` option to the `git pop` command, which tells it to try to maintain the status of whether or not a file is in the index.
 
-In the previous two attempts, you probably noticed that <FontIcon icon="fas fa-file-lines"/>`file3` was not included in your stash. You might want to keep <FontIcon icon="fas fa-file-lines"/>`file3` together with those other changes. Fortunately, there is an option to help you with that: `--include-untracked`.
+In the previous two attempts, you probably noticed that <VPIcon icon="fas fa-file-lines"/>`file3` was not included in your stash. You might want to keep <VPIcon icon="fas fa-file-lines"/>`file3` together with those other changes. Fortunately, there is an option to help you with that: `--include-untracked`.
 
 Assuming we’re back to where we were at the end of the last example, we can re-run the command:
 
@@ -213,7 +213,7 @@ git status
 # nothing to commit, working directory clean
 ```
 
-This put the untracked <FontIcon icon="fas fa-file-lines"/>`file3` into the stash with our other changes.
+This put the untracked <VPIcon icon="fas fa-file-lines"/>`file3` into the stash with our other changes.
 
 Before we move on, I just want to point out that `save` is the default option for `git stash`. Unless you’re specifying a message, which we’ll discuss later, you can simply use `git stash`, and it will do a `save`.
 
@@ -221,7 +221,7 @@ Before we move on, I just want to point out that `save` is the default option fo
 
 ## `git stash list`
 
-One of the powerful features of `git stash` is that you can have more than one of them. Git stores stashes in a [<FontIcon icon="fa-brands fa-wikipedia-w"/>stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)), which means that by default it always works with the most recently saved stash. The `git stash list` command will show you the stack of stashes in your local repo. Let’s create a couple of stashes so we can see how this works:
+One of the powerful features of `git stash` is that you can have more than one of them. Git stores stashes in a [<VPIcon icon="fa-brands fa-wikipedia-w"/>stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)), which means that by default it always works with the most recently saved stash. The `git stash list` command will show you the stack of stashes in your local repo. Let’s create a couple of stashes so we can see how this works:
 
 ```sh :collapsed-lines
 echo "editing file1" >> file1
@@ -307,7 +307,7 @@ git stash show -p stash@{2}
 # +editing file1
 ```
 
-Here it shows you that the line “editing file1” was added to <FontIcon icon="fas fa-file-lines"/>`file1`. If you’re not familiar with the patch format for displaying diffs, don’t worry. When you get to the `git difftool` section below, you’ll see how to bring up a visual diff tool on a stash.
+Here it shows you that the line “editing file1” was added to <VPIcon icon="fas fa-file-lines"/>`file1`. If you’re not familiar with the patch format for displaying diffs, don’t worry. When you get to the `git difftool` section below, you’ll see how to bring up a visual diff tool on a stash.
 
 ---
 
@@ -417,7 +417,7 @@ git log tmp
 # [rest of log deleted for brevity]
 ```
 
-Once you have that branch, you can use the `git merge` or other techniques to get those changes back to your branch. If you didn’t save the SHA from the `git drop` command, there are other methods to attempt to recover the changes, but they can get complicated. You can read more about it [<FontIcon icon="fa-brands fa-stack-overflow"/>here](https://stackoverflow.com/questions/89332/how-to-recover-a-dropped-stash-in-git).
+Once you have that branch, you can use the `git merge` or other techniques to get those changes back to your branch. If you didn’t save the SHA from the `git drop` command, there are other methods to attempt to recover the changes, but they can get complicated. You can read more about it [<VPIcon icon="fa-brands fa-stack-overflow"/>here](https://stackoverflow.com/questions/89332/how-to-recover-a-dropped-stash-in-git).
 
 ---
 

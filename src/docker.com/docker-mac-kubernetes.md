@@ -79,7 +79,7 @@ cover: https://docker.com/app/uploads/a31525d1-cfbb-45f2-bdb0-2e77c10e5627.jpg
 
 ![Docker for Mac](https://docker.com/app/uploads/a31525d1-cfbb-45f2-bdb0-2e77c10e5627-1-1024x512.jpg)
 
-You [**heard about it**](/docker.com/blog/docker-for-mac-and-windows-with-kubernetes-beta.md) at DockerCon Europe and now it is here: we are proud to announce that Docker for Mac with beta Kubernetes support is now publicly available as part of the [<FontIcon icon="fa-brands fa-docker"/>Edge release channel](https://docs.docker.com/docker-for-mac/install/). We hope you are as excited as we are!
+You [**heard about it**](/docker.com/blog/docker-for-mac-and-windows-with-kubernetes-beta.md) at DockerCon Europe and now it is here: we are proud to announce that Docker for Mac with beta Kubernetes support is now publicly available as part of the [<VPIcon icon="fa-brands fa-docker"/>Edge release channel](https://docs.docker.com/docker-for-mac/install/). We hope you are as excited as we are!
 
 With this release you can now run a single node Kubernetes cluster right on your Mac and use both kubectl commands and docker commands to control your containers.
 
@@ -87,23 +87,23 @@ First, a few things to keep in mind:
 
 ::: info Docker for Mac required  
 
-Kubernetes features are only accessible on macOS for now; Docker for Windows and Docker Enterprise Edition betas will follow at a [<FontIcon icon="fa-brands fa-docker"/>later date](https://beta.docker.com/). If you need to install a new copy of Docker for Mac you can download it from the [<FontIcon icon="fa-brands fa-docker"/>Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-mac).
+Kubernetes features are only accessible on macOS for now; Docker for Windows and Docker Enterprise Edition betas will follow at a [<VPIcon icon="fa-brands fa-docker"/>later date](https://beta.docker.com/). If you need to install a new copy of Docker for Mac you can download it from the [<VPIcon icon="fa-brands fa-docker"/>Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-mac).
 
 :::
 
 ::: info Edge channel required
 
-Kubernetes support is still considered experimental with this release, so to enable the download and use of Kubernetes components you must be on the [<FontIcon icon="fa-brands fa-docker"/>Edge channel](https://docs.docker.com/docker-for-mac/install/). The Docker for Mac version should be 17.12.0-ce-mac45 or later after updating.
+Kubernetes support is still considered experimental with this release, so to enable the download and use of Kubernetes components you must be on the [<VPIcon icon="fa-brands fa-docker"/>Edge channel](https://docs.docker.com/docker-for-mac/install/). The Docker for Mac version should be 17.12.0-ce-mac45 or later after updating.
 
 :::
 
 ::: info Already using other Kubernetes tools?  
 
-If you are already running a version of kubectl pointed at another environment, for example minikube, you will want to follow the [<FontIcon icon="fa-brands fa-docker"/>activation instructions](https://docs.docker.com/docker-for-mac/#kubernetes) to change contexts to docker-for-desktop.
+If you are already running a version of kubectl pointed at another environment, for example minikube, you will want to follow the [<VPIcon icon="fa-brands fa-docker"/>activation instructions](https://docs.docker.com/docker-for-mac/#kubernetes) to change contexts to docker-for-desktop.
 
 :::
 
-![[<FontIcon icon="fa-brands fa-docker"/>Docker for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)](https://docker.com/app/uploads/0e3a13ae-8fbb-491e-80b9-3c3ce709d64a.jpg)
+![[<VPIcon icon="fa-brands fa-docker"/>Docker for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)](https://docker.com/app/uploads/0e3a13ae-8fbb-491e-80b9-3c3ce709d64a.jpg)
 
 ---
 
@@ -123,8 +123,8 @@ The beauty of building with Docker for Mac or Windows is that you can deploy the
 
 If you are new to Kubernetes and looking for some introductory exercises to try, here are a few resources:
 
-- The [<FontIcon icon="fa-brands fa-docker"/>Docker for Mac Kubernetes](https://docs.docker.com/docker-for-mac/kubernetes/) page has instructions for getting an example app up and running
-- Follow along with Docker Developer Advocate [Elton Stoneman (<FontIcon icon="fa-brands fa-x-twitter"/>`EltonStoneman`)](https://twitter.com/EltonStoneman) during his short [<FontIcon icon="fa-brands fa-youtube"/>video](https://youtu.be/jWupQjdjLN0), demonstrating activating Kubernetes and deploying an application using both Docker compose and a Kubernetes manifest.
+- The [<VPIcon icon="fa-brands fa-docker"/>Docker for Mac Kubernetes](https://docs.docker.com/docker-for-mac/kubernetes/) page has instructions for getting an example app up and running
+- Follow along with Docker Developer Advocate [Elton Stoneman (<VPIcon icon="fa-brands fa-x-twitter"/>`EltonStoneman`)](https://twitter.com/EltonStoneman) during his short [<VPIcon icon="fa-brands fa-youtube"/>video](https://youtu.be/jWupQjdjLN0), demonstrating activating Kubernetes and deploying an application using both Docker compose and a Kubernetes manifest.
 
 <VidStack src="youtube/jWupQjdjLN0" />
 

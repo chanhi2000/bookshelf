@@ -241,7 +241,7 @@ app.MapReverseProxy();
 app.Run();
 ```
 
-Then, I configure the routing in <FontIcon icon="iconfont icon-json"/>`appsettings.json`:
+Then, I configure the routing in <VPIcon icon="iconfont icon-json"/>`appsettings.json`:
 
 ```json
 {
@@ -313,7 +313,7 @@ It's quick and simple but requires a brief downtime.
 For complex systems needing minimal disruption, I use this method:
 
 - Copy the schema and initial data to the new database
-- Set up a sync mechanism (like [<FontIcon icon="fa-brands fa-wikipedia-w"/>change data capture](https://en.wikipedia.org/wiki/Change_data_capture)) to keep the new database updated
+- Set up a sync mechanism (like [<VPIcon icon="fa-brands fa-wikipedia-w"/>change data capture](https://en.wikipedia.org/wiki/Change_data_capture)) to keep the new database updated
 - Gradually shift traffic to the new microservice
 - Eventually, remove the old schema from the monolith
 

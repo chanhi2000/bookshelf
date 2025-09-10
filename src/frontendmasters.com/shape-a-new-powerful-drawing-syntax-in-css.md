@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5662"/>
 
-I first saw in [<FontIcon icon="fas fa-globe"/>the Safari 18.4 release notes](https://arc.net/l/quote/wnmeyzxr) that `shape()`, a new function is now supported. Then I [<FontIcon icon="fa-brands fa-firefox"/>saw on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/shape) it’s actually already in Chrome, too!
+I first saw in [<VPIcon icon="fas fa-globe"/>the Safari 18.4 release notes](https://arc.net/l/quote/wnmeyzxr) that `shape()`, a new function is now supported. Then I [<VPIcon icon="fa-brands fa-firefox"/>saw on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/shape) it’s actually already in Chrome, too!
 
 The `shape()` function joins friends like `polygon()`, `circle()`, `rect()`, `inset()`, and a handful of others. These functions are used as values for a handful of things in CSS, namely:
 
@@ -60,15 +60,15 @@ The `shape()` function joins friends like `polygon()`, `circle()`, `rect()`, `in
 
 ::: warning Fair warning:
 
-`shape()` only seems to work with `clip-path`. I couldn’t find a ton of information on this, but [<FontIcon icon="fa-brands fa-firefox"/>the Chrome blog does state it](https://developer.chrome.com/blog/css-shape#:~:text=At%20the%20moment%2C%20it%20only%20works%20for%20clip%2Dpath.). It will probably work with the other properties in due time.
+`shape()` only seems to work with `clip-path`. I couldn’t find a ton of information on this, but [<VPIcon icon="fa-brands fa-firefox"/>the Chrome blog does state it](https://developer.chrome.com/blog/css-shape#:~:text=At%20the%20moment%2C%20it%20only%20works%20for%20clip%2Dpath.). It will probably work with the other properties in due time.
 
 :::
 
 Let’s focus on `clip-path` here which I might argue is the most useful anyway, as it makes an entire element into the shape described which feels like a more generally applicable thing.
 
-I got into this [<FontIcon icon="fa-brands fa-codepen"/>on the CodePen blog](https://blog.codepen.io/2025/04/21/chris-corner-rounded-triangle-boxes-and-our-shapely-future/) where I equated `shape()` to `<path d="">` in SVG, which is surely the intention. You can actually set the `d` attribute in CSS, but it only works on `<path>` elements, and the unitless values translate *only* to pixels, which makes it not particularly CSSy or useful.
+I got into this [<VPIcon icon="fa-brands fa-codepen"/>on the CodePen blog](https://blog.codepen.io/2025/04/21/chris-corner-rounded-triangle-boxes-and-our-shapely-future/) where I equated `shape()` to `<path d="">` in SVG, which is surely the intention. You can actually set the `d` attribute in CSS, but it only works on `<path>` elements, and the unitless values translate *only* to pixels, which makes it not particularly CSSy or useful.
 
-One situation I mentioned was [<FontIcon icon="fas fa-globe"/>Trys Mudford’s blog post](https://trysmudford.com/blog/rounded-triangular-boxes-in-css/) where this was the design situation at hand:
+One situation I mentioned was [<VPIcon icon="fas fa-globe"/>Trys Mudford’s blog post](https://trysmudford.com/blog/rounded-triangular-boxes-in-css/) where this was the design situation at hand:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/motorway-cvt-1536x618-1.jpg?resize=1024%2C412&ssl=1)
 
@@ -76,7 +76,7 @@ Oh look, a use case.
 
 Those light yellow boxes are basically polygons with rounded corners. In a perfect world, `polygon()` could do this with the `round` keyword, as specced, but alas that doesn’t work just yet. But because `shape()` is essentially all-powerful, that *does* work now (in Chrome and Safari anyway, and this feels like a decently progressive-enhancement thing).
 
-[<FontIcon icon="fas fa-globe"/>Temani Afif saw that and did the work!](https://css-tip.com/arrow-like-box/)
+[<VPIcon icon="fas fa-globe"/>Temani Afif saw that and did the work!](https://css-tip.com/arrow-like-box/)
 
 <CodePen
   user="t_afif"
@@ -87,7 +87,7 @@ Those light yellow boxes are basically polygons with rounded corners. In a perfe
 
 This is very awesome. This is quite the power tool for shape-making. I think we’re going to see a lot of fancy stuff come out of this.
 
-It’s true we already have a `path()` function, but remember, it’s *sooooo* limited. The values are only pixels, which are some pretty big handcuffs in a responsive world full of intrinsic content (that is, elements on the web that respond to their contents and environment). [<FontIcon icon="iconfont icon-webkit"/>Simon Fraser on the WebKit blog introduces this new feature](https://webkit.org/blog/16794/the-css-shape-function/) and calls it out:
+It’s true we already have a `path()` function, but remember, it’s *sooooo* limited. The values are only pixels, which are some pretty big handcuffs in a responsive world full of intrinsic content (that is, elements on the web that respond to their contents and environment). [<VPIcon icon="iconfont icon-webkit"/>Simon Fraser on the WebKit blog introduces this new feature](https://webkit.org/blog/16794/the-css-shape-function/) and calls it out:
 
 ::: info
 
@@ -106,7 +106,7 @@ Coincidentally, Simon’s demo (Jen’s demo?) also shows off an arrow shape:
 
 That’s using multiple different drawing commands (`line` and `arc`, but there are more), keywords like `top` and `left` (excellent, but I wonder why logical properties don’t work?), and, even more deliciously, [**container units**](/frontendmasters.com/container-queries-and-units/#what-are-container-query-units.md) (e.g. `cqh`). The orange border there is a good reminder that `clip-path`, well, *clips.* So it’ll lop off anything at all on this element in those areas, including content.
 
-[<FontIcon icon="fa-brands fa-chrome"/>Noam Rosenthal got in on the fun](https://developer.chrome.com/blog/css-shape) over on the Chrome for Developers blog, underscoring just how hard this stuff used to be:
+[<VPIcon icon="fa-brands fa-chrome"/>Noam Rosenthal got in on the fun](https://developer.chrome.com/blog/css-shape) over on the Chrome for Developers blog, underscoring just how hard this stuff used to be:
 
 ::: info
 
@@ -123,7 +123,7 @@ And like all this good company, absolutely couldn’t resist peppering in other 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-I see Temani is hard on the case with [<FontIcon icon="fas fa-globe"/>a blob generator using `shape()`](https://css-generators.com/blob/), which, I believe as long as there are the “same number of points”, can be animated by changing the `clip-path` entirely. Like:
+I see Temani is hard on the case with [<VPIcon icon="fas fa-globe"/>a blob generator using `shape()`](https://css-generators.com/blob/), which, I believe as long as there are the “same number of points”, can be animated by changing the `clip-path` entirely. Like:
 
 <CodePen
   user="t_afif"
@@ -164,7 +164,7 @@ In my experience it’s quite easy to make a small mistake in the syntax and wre
 
 I get to have some fun too! It occurred to me that digital designs most elusive beast, *the squircle,* might be now achievable with reasonable normal web tech.
 
-SVG can do it, but I wouldn’t call it particularly readable code. “[<FontIcon icon="fas fa-globe"/>Monoco](https://somonoco.com/) is a tiny JavaScript library that adds squircles” (via SVG background images) and it does a pretty good job of it I’d say, but that’s more technology than I normally like to throw at something like this. Jared White by way of Simeon Griggs has a pretty nice SVG-based solution as well, leveraging SVG-as-clip-path.
+SVG can do it, but I wouldn’t call it particularly readable code. “[<VPIcon icon="fas fa-globe"/>Monoco](https://somonoco.com/) is a tiny JavaScript library that adds squircles” (via SVG background images) and it does a pretty good job of it I’d say, but that’s more technology than I normally like to throw at something like this. Jared White by way of Simeon Griggs has a pretty nice SVG-based solution as well, leveraging SVG-as-clip-path.
 
 <CodePen
   user="jaredcwhite"
@@ -199,7 +199,7 @@ div {
 }
 ```
 
-Which basically [works (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/WbbOwBP). I tried playing around with `arc` and `smooth` instead but couldn’t manage to make it any better (with my like zero geometry skills). Then instead of hard coding those percentage values, I made them in custom properties with sliders to squiggle them around a little.
+Which basically [works (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/WbbOwBP). I tried playing around with `arc` and `smooth` instead but couldn’t manage to make it any better (with my like zero geometry skills). Then instead of hard coding those percentage values, I made them in custom properties with sliders to squiggle them around a little.
 
 <CodePen
   user="chriscoyier"
@@ -218,7 +218,7 @@ I heard from Peter Herbert over email:
 
 ::: info
 
-> I found a somewhat more accurate version of the iOS squircle. Apparently the Apple squircle uses three cubic beziers in each corner. The original research that figured out the curves I found[<FontIcon icon="fas fa-globe"/>here](https://liamrosenfeld.com/posts/apple_icon_quest/),and I used[<FontIcon icon="iconfont icon-claude"/>Claude](https://claude.ai/public/artifacts/26954731-6fcd-40ac-9bd1-a6dd85b97a71)to find the points.
+> I found a somewhat more accurate version of the iOS squircle. Apparently the Apple squircle uses three cubic beziers in each corner. The original research that figured out the curves I found[<VPIcon icon="fas fa-globe"/>here](https://liamrosenfeld.com/posts/apple_icon_quest/),and I used[<VPIcon icon="iconfont icon-claude"/>Claude](https://claude.ai/public/artifacts/26954731-6fcd-40ac-9bd1-a6dd85b97a71)to find the points.
 
 :::
 

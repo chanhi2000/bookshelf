@@ -461,9 +461,9 @@ Now PART 2 is available
   logo="https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19"
   preview="https://miro.medium.com/v2/resize:fit:1200/1*oL1k6XmTcDVBQXf9i8JTZw.png"/>
 
-I hope this article was helpful to you. You can write me back at[<FontIcon icon="fas fa-envelope"/>`karishma.agr1996@gmail.com`](mailto://karishma.agr1996@gmail.com)if you want me to improve something in upcoming articles. Your feedback is valuable.
+I hope this article was helpful to you. You can write me back at[<VPIcon icon="fas fa-envelope"/>`karishma.agr1996@gmail.com`](mailto://karishma.agr1996@gmail.com)if you want me to improve something in upcoming articles. Your feedback is valuable.
 
-Also, follow me on Medium and[Linkedin (<FontIcon icon="fa-brands fa-linkedin"/>`karishma-agrawal-she-her-06966a126`)](https://linkedin.com/in/karishma-agrawal-she-her-06966a126/)
+Also, follow me on Medium and[Linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`karishma-agrawal-she-her-06966a126`)](https://linkedin.com/in/karishma-agrawal-she-her-06966a126/)
 
 Your claps are appreciated to help others find this article 😃 .
 
@@ -471,7 +471,7 @@ Your claps are appreciated to help others find this article 😃 .
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/mastering-scroll-in-jetpack-compose-part-1-7bacefce436e)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/mastering-scroll-in-jetpack-compose-part-1-7bacefce436e)
 
 <SiteInfo
   name="Mastering Scroll in Jetpack Compose — PART 1"

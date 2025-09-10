@@ -55,13 +55,13 @@ Although this tutorial isn't a dedicated [**Jupyter Notebook tutorial**](/realpy
 
 ![starting a jupyter notebook](https://files.realpython.com/media/ie-start-notebookCR.c8049e08afb4.png)
 
-This will open a new Jupyter Notebook named <FontIcon icon="iconfont icon-jupyter"/>`Untitled.ipynb`. You'll most likely want to give it a more descriptive name, and you can do so by right-clicking its tab, selecting *Rename Notebook…*, then changing the name to something more meaningful. In this example, you choose to rename it `Population Data`:
+This will open a new Jupyter Notebook named <VPIcon icon="iconfont icon-jupyter"/>`Untitled.ipynb`. You'll most likely want to give it a more descriptive name, and you can do so by right-clicking its tab, selecting *Rename Notebook…*, then changing the name to something more meaningful. In this example, you choose to rename it `Population Data`:
 
 ![change a notebook name](https://files.realpython.com/media/ie-change-notebook-nameCR.1b305b2c2107.png)
 
 Once you've entered the new name, click the blue *Rename* button to update your notebook with its new name.
 
-When you open a new notebook, it contains a single gray rectangle. This is a **code cell** as indicated by the *Code* text shown in a dropdown option of the [<FontIcon icon="iconfont icon-jupyter"/>toolbar](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#notebook-user-interface) above it. You won't be surprised to learn that this is where you enter program code, but you probably won't do this immediately. Usually, when you create a notebook, you'll want to start with some formatted Markdown text as an introduction.
+When you open a new notebook, it contains a single gray rectangle. This is a **code cell** as indicated by the *Code* text shown in a dropdown option of the [<VPIcon icon="iconfont icon-jupyter"/>toolbar](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#notebook-user-interface) above it. You won't be surprised to learn that this is where you enter program code, but you probably won't do this immediately. Usually, when you create a notebook, you'll want to start with some formatted Markdown text as an introduction.
 
 To create some Markdown, select the code cell and then select *Markdown* from the dropdown menu in the toolbar. This will prepare the cell for you to enter Markdown text into. Now type the following Markdown text into this cell:
 
@@ -104,7 +104,7 @@ You've entered the population data as two Python lists. Your first list contains
 
 Although running this cell produces no output, running it is still important because it sets up the lists and assigns them to their variables. In other words, the notebook's kernel becomes aware of them, meaning the variables then become available to subsequent cells in your notebook, and even to other notebooks if you share this notebook's kernel.
 
-While the data makes sense by itself, wouldn't it be more striking if you displayed it in a chart? Fortunately, you can do this by using the [**Matplotlib**](/realpython.com/python-matplotlib-guide.md) library. As with all third-party libraries, you need to install `matplotlib` into your Python environment because it's not part of the [<FontIcon icon="fa-brands fa-python"/>Python standard library](https://docs.python.org/3/library/index.html#the-python-standard-library).
+While the data makes sense by itself, wouldn't it be more striking if you displayed it in a chart? Fortunately, you can do this by using the [**Matplotlib**](/realpython.com/python-matplotlib-guide.md) library. As with all third-party libraries, you need to install `matplotlib` into your Python environment because it's not part of the [<VPIcon icon="fa-brands fa-python"/>Python standard library](https://docs.python.org/3/library/index.html#the-python-standard-library).
 
 The notebook interface allows you to install third-party packages into your current Python environment directly from a code cell, without needing to switch to a terminal. You can execute shell commands in a code cell by prefixing them with an exclamation point (`!`).
 
@@ -170,7 +170,7 @@ Once you've made your changes, rerun the cell to update the content of the `deca
 
 ::: note 
 
-You may also see a third cell type named *raw*. Anything that you type into these cells stays exactly the same as you originally typed it. You can't apply any formatting to it. You'd use these cells for typing data in common formats such as [<FontIcon icon="fa-brands fa-wikipedia-w"/>LaTeX source](https://en.wikipedia.org/wiki/LaTeX). These cells can, for example, be rendered by passing them to a TeX program.
+You may also see a third cell type named *raw*. Anything that you type into these cells stays exactly the same as you originally typed it. You can't apply any formatting to it. You'd use these cells for typing data in common formats such as [<VPIcon icon="fa-brands fa-wikipedia-w"/>LaTeX source](https://en.wikipedia.org/wiki/LaTeX). These cells can, for example, be rendered by passing them to a TeX program.
 
 :::
 
@@ -218,7 +218,7 @@ If you've moved the cell into the wrong place, select it and drag it vertically 
 
 ## Adding a Python Library Into a Notebook
 
-Next, you'll analyze the `Population Changes` notebook. To do this, you need to add some more code and import the [<FontIcon icon="fas fa-globe"/>`pandas`](https://realpython.com/learning-paths/pandas-data-science/) library.
+Next, you'll analyze the `Population Changes` notebook. To do this, you need to add some more code and import the [<VPIcon icon="fas fa-globe"/>`pandas`](https://realpython.com/learning-paths/pandas-data-science/) library.
 
 In a code cell immediately below the one that you just copied across, add in the following code:
 
@@ -353,7 +353,7 @@ When you work with a Jupyter Notebook, it automatically saves any changes that y
 
 ![checkpointing icon](https://files.realpython.com/media/ie-checkpointCR.a80a061fc948.png)
 
-When you first create a new notebook file, JupyterLab creates a file with an <FontIcon icon="iconfont icon-jupyter"/>`.ipynb` file extension. In addition, it also creates a second <FontIcon icon="iconfont icon-jupyter"/>`.ipynb` checkpoint file. This starts with the same name as the original notebook file, only with `-checkpoint` appended to it. This checkpoint file gets placed inside a hidden folder named <FontIcon icon="iconfont icon-jupyter"/>`.ipynb_checkpoints` in the same folder as your original notebook.
+When you first create a new notebook file, JupyterLab creates a file with an <VPIcon icon="iconfont icon-jupyter"/>`.ipynb` file extension. In addition, it also creates a second <VPIcon icon="iconfont icon-jupyter"/>`.ipynb` checkpoint file. This starts with the same name as the original notebook file, only with `-checkpoint` appended to it. This checkpoint file gets placed inside a hidden folder named <VPIcon icon="iconfont icon-jupyter"/>`.ipynb_checkpoints` in the same folder as your original notebook.
 
 By default, the initial notebook file and its checkpoint will be blank. When you add content to your notebook, the original notebook file gets automatically saved every two minutes. The checkpoint file remains untouched.
 
@@ -379,7 +379,7 @@ If you find that you're making changes to your notebooks and want to retain earl
 
 ::: note
 
-Although you may be disappointed that JupyterLab's support for version management is somewhat primitive, there's a package called [<FontIcon icon="fas fa-globe"/>nbdime](https://nbdime.readthedocs.io/en/stable/#) that can improve things. It provides tools that allow you to highlight differences between, or merge together, two notebooks. The package name, nbdime, is in fact short for *notebook diff and merge*.
+Although you may be disappointed that JupyterLab's support for version management is somewhat primitive, there's a package called [<VPIcon icon="fas fa-globe"/>nbdime](https://nbdime.readthedocs.io/en/stable/#) that can improve things. It provides tools that allow you to highlight differences between, or merge together, two notebooks. The package name, nbdime, is in fact short for *notebook diff and merge*.
 
 :::
 
@@ -389,7 +389,7 @@ Before you move on to some of the other features of JupyterLab, you'll finish of
 
 ## Debugging Your Notebook
 
-JupyterLab uses the integrated debugger found within later versions of Jupyter Notebook. The integrated debugger allows you to perform common [<FontIcon icon="fa-brands fa-wikipedia-w"/>debugging tasks](https://en.wikipedia.org/wiki/Debugging) such as running code one line at a time to verify that it's working the way you expect it to. You can also monitor the values of variables to make sure they contain what you expect them to.
+JupyterLab uses the integrated debugger found within later versions of Jupyter Notebook. The integrated debugger allows you to perform common [<VPIcon icon="fa-brands fa-wikipedia-w"/>debugging tasks](https://en.wikipedia.org/wiki/Debugging) such as running code one line at a time to verify that it's working the way you expect it to. You can also monitor the values of variables to make sure they contain what you expect them to.
 
 As an example, you'll run the debugger against your `calculate_differences()` function in your `Population Changes` notebook. Although this function works just fine, you'll still use it to gain experience in operating the debugger.
 

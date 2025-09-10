@@ -60,7 +60,7 @@ In software development, we’re generally obsessed with performance gains and h
 
 ![React Logo](/assets/image/blog.logrocket.com/react-memo-vs-usememo/banner.png)
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Memoization](https://en.wikipedia.org/wiki/Memoization#:~:text=In%20computing%2C%20memoization%20or%20memoisation,the%20same%20inputs%20occur%20again.) is one of the ways to optimize performance. In this article, we’ll explore how it works in React.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Memoization](https://en.wikipedia.org/wiki/Memoization#:~:text=In%20computing%2C%20memoization%20or%20memoisation,the%20same%20inputs%20occur%20again.) is one of the ways to optimize performance. In this article, we’ll explore how it works in React.
 
 ---
 
@@ -84,7 +84,7 @@ Let’s start with our parent component: `<ParentComponent />`.
 
 ::: note N.B.
 
-the `classNames` used in this example come from [<FontIcon icon="iconfont icon-tailwindcss"/>Tailwind CSS](https://tailwindcss.com).
+the `classNames` used in this example come from [<VPIcon icon="iconfont icon-tailwindcss"/>Tailwind CSS](https://tailwindcss.com).
 
 :::
 
@@ -178,9 +178,9 @@ Now, let’s explore `React.memo`, then `useMemo()`. Afterward, we’ll compare 
 
 ## What is `React.memo()`?
 
-`React.memo()` was released with [<FontIcon icon="fa-brands fa-react"/>React v16.6](https://reactjs.org/blog/2018/10/23/react-v-16-6.html). While class components already allowed you to control re-renders with the use of [<FontIcon icon="fa-brands fa-react"/>`PureComponent`](https://reactjs.org/docs/react-api.html#reactpurecomponent) or [<FontIcon icon="fa-brands fa-react"/>`shouldComponentUpdate`](https://reactjs.org/docs/react-component.html#shouldcomponentupdate), React 16.6 introduced the ability to do the same with functional components.
+`React.memo()` was released with [<VPIcon icon="fa-brands fa-react"/>React v16.6](https://reactjs.org/blog/2018/10/23/react-v-16-6.html). While class components already allowed you to control re-renders with the use of [<VPIcon icon="fa-brands fa-react"/>`PureComponent`](https://reactjs.org/docs/react-api.html#reactpurecomponent) or [<VPIcon icon="fa-brands fa-react"/>`shouldComponentUpdate`](https://reactjs.org/docs/react-component.html#shouldcomponentupdate), React 16.6 introduced the ability to do the same with functional components.
 
-`React.memo()` is a [<FontIcon icon="fa-brands fa-react"/>higher-order component (HOC)](https://reactjs.org/docs/higher-order-components.html), which is a fancy name for a component that takes a component as a prop and returns a component that prevents a component from re-rendering if the props (or values within it) have not changed.
+`React.memo()` is a [<VPIcon icon="fa-brands fa-react"/>higher-order component (HOC)](https://reactjs.org/docs/higher-order-components.html), which is a fancy name for a component that takes a component as a prop and returns a component that prevents a component from re-rendering if the props (or values within it) have not changed.
 
 We’ll take the same example above but use `React.memo()` in our `<Counts />` component. All we need to do is wrap our `<Counts />` component with `React.memo()` like below:
 
@@ -302,7 +302,7 @@ While memoization might seem like a neat little trick to use everywhere, you sho
 
 And that wraps up this article!
 
-You can access the full code for this example on [GitHub (<FontIcon icon="iconfont icon-github"/>`onedebos/react-memo-example`)](https://github.com/onedebos/react-memo-example) and a live example [<FontIcon icon="fas fa-globe"/>here](https://react-memo-example.netlify.app/).
+You can access the full code for this example on [GitHub (<VPIcon icon="iconfont icon-github"/>`onedebos/react-memo-example`)](https://github.com/onedebos/react-memo-example) and a live example [<VPIcon icon="fas fa-globe"/>here](https://react-memo-example.netlify.app/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

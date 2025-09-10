@@ -54,7 +54,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3067"/>
 
-[<FontIcon icon="iconfont icon-svelte"/>Svelte](https://svelte.dev/) has always been a delightful, simple, and fun framework to use. It’s a framework that’s always prioritized developer experience (DX), while producing a light and fast result with minimal JavaScript. It achieves this nice DX by giving users dirt simple idioms and a required compiler that makes everything work. Unfortunately, it used to be fairly easy to break Svelte’s reactivity. It doesn’t matter how fast a website is if it’s broken.
+[<VPIcon icon="iconfont icon-svelte"/>Svelte](https://svelte.dev/) has always been a delightful, simple, and fun framework to use. It’s a framework that’s always prioritized developer experience (DX), while producing a light and fast result with minimal JavaScript. It achieves this nice DX by giving users dirt simple idioms and a required compiler that makes everything work. Unfortunately, it used to be fairly easy to break Svelte’s reactivity. It doesn’t matter how fast a website is if it’s broken.
 
 These reliability problems with reactivity are gone in Svelte 5. In this post, we’ll get into the exciting Svelte 5 release (in Beta at the time of this writing). Svelte is the latest framework to add **signals** to power their reactivity. Svelte is now every bit as capable of handling robust web applications, with complex state, as alternatives like React and Solid. Best of all, it achieved this with only minimal hits to DX. It’s every bit as fun and easy to use as it was, but it’s now truly reliable, while still producing faster and lighter sites.
 
@@ -105,7 +105,7 @@ If you find this helpful, let me know, as I’d love to cover snippets and Svelt
 
 As of this writing, Svelte 5 is late in the Beta phase. The API should be stable, although it’s certainly possible some new things might get added.
 
-The docs are also still in beta, so [<FontIcon icon="fas fa-globe"/>here’s a preview URL for them](https://svelte-5-preview.vercel.app/docs/introduction). Svelte 5 *might* be released when you read this, at which point these docs will be on the main Svelte page. If you’d like to see the code samples below in action, you can find them in[this repo (<FontIcon icon="iconfont icon-github"/>)](https://github.com/arackaf/svelte-5-intro-blog).
+The docs are also still in beta, so [<VPIcon icon="fas fa-globe"/>here’s a preview URL for them](https://svelte-5-preview.vercel.app/docs/introduction). Svelte 5 *might* be released when you read this, at which point these docs will be on the main Svelte page. If you’d like to see the code samples below in action, you can find them in[this repo (<VPIcon icon="iconfont icon-github"/>)](https://github.com/arackaf/svelte-5-intro-blog).
 
 <SiteInfo
   name="arackaf/svelte-5-intro-blog"
@@ -145,7 +145,7 @@ $: {
 
 ### Stores
 
-Those variable declarations, and the special`$:`syntax was limited to Svelte components. If you wanted to build some portable state you could define anywhere, and pass around, you’d use a[<FontIcon icon="iconfont icon-svelte"/>store](https://svelte.dev/docs/svelte-store).
+Those variable declarations, and the special`$:`syntax was limited to Svelte components. If you wanted to build some portable state you could define anywhere, and pass around, you’d use a[<VPIcon icon="iconfont icon-svelte"/>store](https://svelte.dev/docs/svelte-store).
 
 We won’t go through the whole API, but here’s a minimal example of a store in action. We’ll define a piece of state that holds a number, and, based on what that number is at anytime, spit out a label indicating whether the number is even or odd. It’s silly, but it should show us how stores work.
 
@@ -208,7 +208,7 @@ Things are substantially simpler in Svelte 5. Pretty much everything is managed 
 
 ### Runes
 
-Svelte 5 joins the increasing number of JavaScript frameworks that use the concept of *signals*. There is a new feature called *runes* and under the covers they use signals. These accomplish a wide range of features from state to props and even side effects. [<FontIcon icon="iconfont icon-svelte"/>Here’s a good introduction to runes](https://svelte.dev/blog/runes).
+Svelte 5 joins the increasing number of JavaScript frameworks that use the concept of *signals*. There is a new feature called *runes* and under the covers they use signals. These accomplish a wide range of features from state to props and even side effects. [<VPIcon icon="iconfont icon-svelte"/>Here’s a good introduction to runes](https://svelte.dev/blog/runes).
 
 To create a piece of state, we use the`$state`rune. You don’t import it, you just use it — it’s part of the Svelte language.
 

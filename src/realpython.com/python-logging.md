@@ -97,7 +97,7 @@ If you commonly use Python’s [**`print()`**](/realpython.com/python-print/READ
 
 ## Starting With Python’s Logging Module
 
-The [<FontIcon icon="fa-brands fa-python"/>`logging` module](https://docs.python.org/3/library/logging.html#module-logging/) in Python’s standard library is a ready-to-use, powerful module that’s designed to meet the needs of beginners as well as enterprise teams.
+The [<VPIcon icon="fa-brands fa-python"/>`logging` module](https://docs.python.org/3/library/logging.html#module-logging/) in Python’s standard library is a ready-to-use, powerful module that’s designed to meet the needs of beginners as well as enterprise teams.
 
 ::: note
 
@@ -164,9 +164,9 @@ Notice that the `debug()` and `info()` messages didn’t get logged. This is bec
 
 ### Adjusting the Log Level
 
-To set up your basic logging configuration and adjust the log level, the `logging` module comes with a [<FontIcon icon="fa-brands fa-python"/>`basicConfig()`](https://docs.python.org/3/library/logging.html#logging.basicConfig) function. As a Python developer, this [<FontIcon icon="fa-brands fa-wikipedia-w"/>camel-cased](https://en.wikipedia.org/wiki/Camel_case) function name may look unusual to you as it doesn’t follow the [**PEP 8 naming conventions**](/realpython.com/python-pep8.md#naming-conventions):
+To set up your basic logging configuration and adjust the log level, the `logging` module comes with a [<VPIcon icon="fa-brands fa-python"/>`basicConfig()`](https://docs.python.org/3/library/logging.html#logging.basicConfig) function. As a Python developer, this [<VPIcon icon="fa-brands fa-wikipedia-w"/>camel-cased](https://en.wikipedia.org/wiki/Camel_case) function name may look unusual to you as it doesn’t follow the [**PEP 8 naming conventions**](/realpython.com/python-pep8.md#naming-conventions):
 
-::: info <FontIcon icon="fa-brands fa-python"/>Wiki
+::: info <VPIcon icon="fa-brands fa-python"/>Wiki
 
 > “This is because it was adopted from Log4j, a logging utility in Java. It is a known issue in the package but by the time it was decided to add it to the standard library, it had already been adopted by users and changing it to meet PEP8 requirements would cause backwards compatibility issues.”
 
@@ -209,7 +209,7 @@ Setting a log level will enable all logging calls at the defined level and highe
 
 By default, logs contain the log level, the logger’s name, and the log message. That’s good for a start. But you can enhance your logs with additional data by leveraging the `format` parameter of `basicConfig()`.
 
-The `format` parameter accepts a string that can contain a number of [<FontIcon icon="fa-brands fa-python"/>predefined attributes](https://docs.python.org/3/library/logging.html#logrecord-attributes). You can think of these attributes as placeholders that you format into the string. The default value of `format` looks like this:
+The `format` parameter accepts a string that can contain a number of [<VPIcon icon="fa-brands fa-python"/>predefined attributes](https://docs.python.org/3/library/logging.html#logrecord-attributes). You can think of these attributes as placeholders that you format into the string. The default value of `format` looks like this:
 
 ```py
 import logging
@@ -219,7 +219,7 @@ logging.warning("Hello, Warning!")
 # WARNING:root:Hello, Warning!
 ```
 
-This format is called [<FontIcon icon="fa-brands fa-python"/>`printf`-style](https://docs.python.org/3/library/stdtypes.html#old-string-formatting) string format. You may also find log formats with a dollar sign and curly braces (`${}`), which are related to the [<FontIcon icon="fa-brands fa-python"/>`string.Template()`](https://docs.python.org/3/library/string.html#string.Template) class. If you’re used to [**modern Python string formatting**](/realpython.com/python-string-formatting.md), then you’re probably more familiar with using curly braces (`{}`) to format your strings.
+This format is called [<VPIcon icon="fa-brands fa-python"/>`printf`-style](https://docs.python.org/3/library/stdtypes.html#old-string-formatting) string format. You may also find log formats with a dollar sign and curly braces (`${}`), which are related to the [<VPIcon icon="fa-brands fa-python"/>`string.Template()`](https://docs.python.org/3/library/string.html#string.Template) class. If you’re used to [**modern Python string formatting**](/realpython.com/python-string-formatting.md), then you’re probably more familiar with using curly braces (`{}`) to format your strings.
 
 You can define the style of your `format` string with the `style` parameter. The options for `style` are `"%"`, `"$"`, or `"{"`. When you provide a `style` argument, then your `format` string must match the targeted style. Otherwise, you’ll receive a [**`ValueError`**](/realpython.com/python-built-in-exceptions.md#valueerror).
 
@@ -239,7 +239,7 @@ logging.warning("Hello, Warning!")
 # WARNING:root:Hello, Warning!
 ```
 
-As mentioned before, the `format` parameter accepts a string that can contain a number of [<FontIcon icon="fa-brands fa-python"/>predefined attributes](https://docs.python.org/3/library/logging.html#logrecord-attributes). The ones you choose to use will depend on the insights that you want to get from your logs.
+As mentioned before, the `format` parameter accepts a string that can contain a number of [<VPIcon icon="fa-brands fa-python"/>predefined attributes](https://docs.python.org/3/library/logging.html#logrecord-attributes). The ones you choose to use will depend on the insights that you want to get from your logs.
 
 Besides the message text and the log level, it usually makes sense to also have a timestamp in the log record. A timestamp can give you the exact time the program sent the log message. This can help you [**monitor code performance**](/realpython.com/python-timer.md) or notice patterns around when some errors occur.
 
@@ -258,7 +258,7 @@ logging.error("Something went wrong!")
 # 2024-07-22 09:26 - ERROR - Something went wrong!
 ```
 
-In the example above, you prefix your logs with a timestamp. The **directives** you use to format the timestamp in the `datefmt` string are year (`%Y`), month (`%m`), day (`%d`), hour (`%H`), and minutes (`%M`). For an overview of all the date directives that you can embed into the format string, you can have a look at the [<FontIcon icon="fa-brands fa-python"/>`time.strftime()`](https://docs.python.org/3/library/time.html#time.strftime) documentation.
+In the example above, you prefix your logs with a timestamp. The **directives** you use to format the timestamp in the `datefmt` string are year (`%Y`), month (`%m`), day (`%d`), hour (`%H`), and minutes (`%M`). For an overview of all the date directives that you can embed into the format string, you can have a look at the [<VPIcon icon="fa-brands fa-python"/>`time.strftime()`](https://docs.python.org/3/library/time.html#time.strftime) documentation.
 
 Additional information, like the time of your log message, becomes even more important when you want to keep a log of incidents over time or when you want to persist your logs in an external file.
 
@@ -266,7 +266,7 @@ Additional information, like the time of your log message, becomes even more imp
 
 So far, you’ve logged the messages into your console. But if you want to archive your logs, then it’s a good idea to save log messages in a file that grows over time.
 
-To save your logs in a file, you can set up your logger’s `baseConfig()` with the `filename` argument. Just like when [**working with files in Python**](/realpython.com/working-with-files-in-python.md) and using the [**`open()` function**](/realpython.com/python-built-in-functions.md#opening-files-open), you must provide a filepath. It’s also good practice to set an encoding and the [<FontIcon icon="fa-brands fa-python"/>mode](https://docs.python.org/3/library/functions.html#filemodes) the file should be opened in:
+To save your logs in a file, you can set up your logger’s `baseConfig()` with the `filename` argument. Just like when [**working with files in Python**](/realpython.com/working-with-files-in-python.md) and using the [**`open()` function**](/realpython.com/python-built-in-functions.md#opening-files-open), you must provide a filepath. It’s also good practice to set an encoding and the [<VPIcon icon="fa-brands fa-python"/>mode](https://docs.python.org/3/library/functions.html#filemodes) the file should be opened in:
 
 ```py
 import logging
@@ -279,9 +279,9 @@ logging.basicConfig(
 logging.warning("Save me!")
 ```
 
-With the configuration above, you save your logs in an <FontIcon icon="fas fa-file-lines"/>`app.log` file instead of showing the messages in the console. To add all logs to the file and not overwrite any existing logs, you set `filemode` to `a`, which is short for “append”.
+With the configuration above, you save your logs in an <VPIcon icon="fas fa-file-lines"/>`app.log` file instead of showing the messages in the console. To add all logs to the file and not overwrite any existing logs, you set `filemode` to `a`, which is short for “append”.
 
-The <FontIcon icon="fas fa-file-lines"/>`app.log` is a basic text file that you can open in any text editor:
+The <VPIcon icon="fas fa-file-lines"/>`app.log` is a basic text file that you can open in any text editor:
 
 ```plaintext title="app.log"
 `2024-07-22 09:55 - WARNING - Save me!
@@ -354,7 +354,7 @@ except ZeroDivisionError:
     logging.error("DonutCalculationError", exc_info=True)
 ```
 
-Since you’re logging into the <FontIcon icon="fas fa-file-lines"/>`app.log` file, you can keep track of stack traces in the file:
+Since you’re logging into the <VPIcon icon="fas fa-file-lines"/>`app.log` file, you can keep track of stack traces in the file:
 
 ```plaintext title="app.log"
 2024-07-22 15:04 - ERROR - DonutCalculationError
@@ -425,9 +425,9 @@ console_handler = logging.StreamHandler()
 file_handler = logging.FileHandler("app.log", mode="a", encoding="utf-8")
 ```
 
-The [<FontIcon icon="fa-brands fa-python"/>`StreamHandler`](https://docs.python.org/3/library/logging.handlers.html#streamhandler) class will send your logs to the console. The [<FontIcon icon="fa-brands fa-python"/>`FileHandler`](https://docs.python.org/3/library/logging.handlers.html#filehandler) class writes your log records to a file. To define where and how you want to write the logs, you provide a file path, an opening mode, and the encoding.
+The [<VPIcon icon="fa-brands fa-python"/>`StreamHandler`](https://docs.python.org/3/library/logging.handlers.html#streamhandler) class will send your logs to the console. The [<VPIcon icon="fa-brands fa-python"/>`FileHandler`](https://docs.python.org/3/library/logging.handlers.html#filehandler) class writes your log records to a file. To define where and how you want to write the logs, you provide a file path, an opening mode, and the encoding.
 
-After you’ve instantiated your handlers, you must add them to the logger. For this, you use the [<FontIcon icon="fa-brands fa-python"/>`.addHandler()`](https://docs.python.org/3/library/logging.html#logging.Logger.addHandler) method:
+After you’ve instantiated your handlers, you must add them to the logger. For this, you use the [<VPIcon icon="fa-brands fa-python"/>`.addHandler()`](https://docs.python.org/3/library/logging.html#logging.Logger.addHandler) method:
 
 ```py
 logger.addHandler(console_handler)
@@ -454,7 +454,7 @@ logger.warning("Watch out!")
 # Watch out!
 ```
 
-When you call `logger.warning()`, then both handlers take over the message. The output from `StreamHandler` is displayed right away in your console. To see if `FileHandler` also did its job, open <FontIcon icon="fas fa-file-lines"/>`app.log`:
+When you call `logger.warning()`, then both handlers take over the message. The output from `StreamHandler` is displayed right away in your console. To see if `FileHandler` also did its job, open <VPIcon icon="fas fa-file-lines"/>`app.log`:
 
 ```plaintext title="app.log"
 Watch out!
@@ -462,7 +462,7 @@ Watch out!
 
 Perfect! Both handlers work as expected. With one call of your custom logger, you can distribute your log messages into different directions using handlers.
 
-The `logging` module comes with many [<FontIcon icon="fa-brands fa-python"/>handy handlers](https://docs.python.org/3/howto/logging.html#useful-handlers) for specific purposes. For example, [<FontIcon icon="fa-brands fa-python"/>`RotatingFileHandler`](https://docs.python.org/3/library/logging.handlers.html#logging.handlers.RotatingFileHandler), which creates a new log file once a file size limit is reached, or [<FontIcon icon="fa-brands fa-python"/>`TimedRotatingFileHandler`](https://docs.python.org/3/library/logging.handlers.html#timedrotatingfilehandler), with which you can create a new log file for defined intervals.
+The `logging` module comes with many [<VPIcon icon="fa-brands fa-python"/>handy handlers](https://docs.python.org/3/howto/logging.html#useful-handlers) for specific purposes. For example, [<VPIcon icon="fa-brands fa-python"/>`RotatingFileHandler`](https://docs.python.org/3/library/logging.handlers.html#logging.handlers.RotatingFileHandler), which creates a new log file once a file size limit is reached, or [<VPIcon icon="fa-brands fa-python"/>`TimedRotatingFileHandler`](https://docs.python.org/3/library/logging.handlers.html#timedrotatingfilehandler), with which you can create a new log file for defined intervals.
 
 So far, the messages look a bit plain. As you learned before, one of the strengths of logging is that it can enrich your information with metadata like timestamps or log levels. This is where formatters come into play!
 
@@ -470,7 +470,7 @@ So far, the messages look a bit plain. As you learned before, one of the strengt
 
 Handlers send your logs to the output destination you define. With a **formatter**, you can control the output format by specifying a string format as you did before with the `format` argument of `logging.basicConfig()`.
 
-Just like with handlers, you need to instantiate a class first before working with a formatter. For formatters, you use the [<FontIcon icon="fa-brands fa-python"/>`Formatter`](https://docs.python.org/3/library/logging.html#formatter-objects) class of the `logging` module.
+Just like with handlers, you need to instantiate a class first before working with a formatter. For formatters, you use the [<VPIcon icon="fa-brands fa-python"/>`Formatter`](https://docs.python.org/3/library/logging.html#formatter-objects) class of the `logging` module.
 
 To get a first impression of how a formatter works, you’ll revisit the code from before and add `logging.Formatter()` to the mix. Start by adding the formatter to `StreamHandler` and try it out:
 
@@ -501,7 +501,7 @@ Unlike `.addHandler()`, which is a method of `Logger`, `.setFormatter()` is a me
 
 :::
 
-With both `console_handler` and `file_handler` added to `logger`, your `logger.warning()` call also ended up in <FontIcon icon="fas fa-file-lines"/>`app.log`. But since you only set the formatter for `console_handler`, the log record in <FontIcon icon="fas fa-file-lines"/>`app.log` remains unstyled.
+With both `console_handler` and `file_handler` added to `logger`, your `logger.warning()` call also ended up in <VPIcon icon="fas fa-file-lines"/>`app.log`. But since you only set the formatter for `console_handler`, the log record in <VPIcon icon="fas fa-file-lines"/>`app.log` remains unstyled.
 
 By defining and setting different formatters for your handlers, you can control the amount of additional information that displays in your log messages. But you don’t have to stop there! You can even show debug messages in your console but save more severe log levels in a file, or vice versa.
 
@@ -531,7 +531,7 @@ logger.parent
 
 The default log level of your custom level is `0`, which stands for `NOTSET`. Still, the string representation of your logger shows the `WARNING` log level. That’s because a custom logger inherits the log level of its parent logger if you haven’t yet set the log level manually.
 
-Besides having a look at the string representation of a logger, you can also call the [<FontIcon icon="fa-brands fa-python"/>`.getEffectiveLevel()`](https://docs.python.org/3/library/logging.html#logging.Logger.getEffectiveLevel) method:
+Besides having a look at the string representation of a logger, you can also call the [<VPIcon icon="fa-brands fa-python"/>`.getEffectiveLevel()`](https://docs.python.org/3/library/logging.html#logging.Logger.getEffectiveLevel) method:
 
 ```py
 logger.getEffectiveLevel()
@@ -636,7 +636,7 @@ logger.error("Stay put!")
 # ERROR - Stay put!
 ```
 
-In the example above, you set different log levels for `console_handler` and `file_handler`. Since the log level of `console_handler` is `DEBUG`, you can see all logs in the console. If you have a look at the <FontIcon icon="fas fa-file-lines"/>`app.log` file that `file_handler` writes to, then you can verify that the `WARNING` and `ERROR` logs were saved to the file:
+In the example above, you set different log levels for `console_handler` and `file_handler`. Since the log level of `console_handler` is `DEBUG`, you can see all logs in the console. If you have a look at the <VPIcon icon="fas fa-file-lines"/>`app.log` file that `file_handler` writes to, then you can verify that the `WARNING` and `ERROR` logs were saved to the file:
 
 ```plaintext title="app.log"
 WARNING - Stay curious!
@@ -651,9 +651,9 @@ In other words, setting the log level will filter out any log messages below tha
 
 If you’re interested in the `WARNING` log records your Python program produces, you’re probably also interested in more severe log levels like `ERROR` or even `CRITICAL`. So, most of the time, you’ll be fine collecting all log records of a certain log level and above with specific handlers.
 
-However, there are situations where it may make sense to handle messages for a specific log level differently. That’s when a [<FontIcon icon="fa-brands fa-python"/>`Filter`](https://docs.python.org/3/library/logging.html#logging.Filter) can come in handy. The important part of the specifications for the `Filter` object is this:
+However, there are situations where it may make sense to handle messages for a specific log level differently. That’s when a [<VPIcon icon="fa-brands fa-python"/>`Filter`](https://docs.python.org/3/library/logging.html#logging.Filter) can come in handy. The important part of the specifications for the `Filter` object is this:
 
-::: info <FontIcon icon="fa-brands fa-python"/>Python Doc
+::: info <VPIcon icon="fa-brands fa-python"/>Python Doc
 
 > The filtering logic will check to see if the filter object has a `filter` attribute: if it does, it’s assumed to be a `Filter` and its `filter()` method is called. Otherwise, it’s assumed to be a callable and called with the record as the single parameter. The returned value should conform to that returned by `filter()`.
 
@@ -672,7 +672,7 @@ In other words, there are three approaches to creating filters for logging. You 
 2. **Class** that contains a `.filter()` method
 3. **Callable** that resembles a `.filter()` method
 
-For the subclass and class, `.filter()` must accept a [<FontIcon icon="fa-brands fa-python"/>log record](https://docs.python.org/3/library/logging.html#logrecord-objects) and return a [**Boolean**](/realpython.com/python-boolean.md). Inside the method’s body, it makes sense to define a conditional statement that checks the provided record.
+For the subclass and class, `.filter()` must accept a [<VPIcon icon="fa-brands fa-python"/>log record](https://docs.python.org/3/library/logging.html#logrecord-objects) and return a [**Boolean**](/realpython.com/python-boolean.md). Inside the method’s body, it makes sense to define a conditional statement that checks the provided record.
 
 The callable can be a basic function with one parameter for the log record that your handler passes in. The return value must be a Boolean. Using a callable is arguably the most convenient when creating basic filters, so you’ll explore this approach further.
 
@@ -706,11 +706,11 @@ logger.warning("Stay curious!")
 logger.error("Stay put!")
 ```
 
-First, you create a callable named `show_only_debug()` with a `record` parameter. The passed in log record will be an instance of [<FontIcon icon="fa-brands fa-python"/>`LogRecord`](https://docs.python.org/3/library/logging.html#logrecord-objects).
+First, you create a callable named `show_only_debug()` with a `record` parameter. The passed in log record will be an instance of [<VPIcon icon="fa-brands fa-python"/>`LogRecord`](https://docs.python.org/3/library/logging.html#logrecord-objects).
 
 In `show_only_debug`, you return `True` if the `.levelname` attribute of your log record is “DEBUG”. Any log record that isn’t on the `DEBUG` log level will return `False` and will not be shown by the handler you attach the filter to.
 
-To add a filter to a handler, you use the [<FontIcon icon="fa-brands fa-python"/>`.addFilter()`](https://docs.python.org/3/library/logging.html#logging.Handler.addFilter) method of the `Handler` class. The argument for `.addFilter()` must be a filter. In the code above, you’re passing in a reference to `show_only_debug()` to attach the filter to `console_handler`.
+To add a filter to a handler, you use the [<VPIcon icon="fa-brands fa-python"/>`.addFilter()`](https://docs.python.org/3/library/logging.html#logging.Handler.addFilter) method of the `Handler` class. The argument for `.addFilter()` must be a filter. In the code above, you’re passing in a reference to `show_only_debug()` to attach the filter to `console_handler`.
 
 For `console_handler`, you’ve set the log level to `DEBUG`. Without any other adjustments, the handler will show all log records of the `DEBUG` level and above. With your filter in place, you’re surpressing higher log levels and only showing debug messages in the console. Since you didn’t add a filter to `file_handler`, this handler happily logs records for the set log level and above.
 

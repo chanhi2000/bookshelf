@@ -109,7 +109,7 @@ One of the worst offenders for slow performance? **Loading every image on the pa
 >
 ```
 
-It’s very important to specify the`height`and`width`attributes of images, especially if they are going to be lazy-loaded. Setting these dimensions let’s the browser reserve space in your layout and prevent**layout shifts**when the content loads. For more about layout shifts and how to prevent them, check out this[<FontIcon icon="fas fa-globe"/>deep dive on Cumulative Layout Shift](https://requestmetrics.com/web-performance/cumulative-layout-shift/).
+It’s very important to specify the`height`and`width`attributes of images, especially if they are going to be lazy-loaded. Setting these dimensions let’s the browser reserve space in your layout and prevent**layout shifts**when the content loads. For more about layout shifts and how to prevent them, check out this[<VPIcon icon="fas fa-globe"/>deep dive on Cumulative Layout Shift](https://requestmetrics.com/web-performance/cumulative-layout-shift/).
 
 For images that are**critical for rendering**, like your**LCP element**, you should**override lazy-loading**with`fetchpriority="high"`. This tells the browser to**load it ASAP**.
 
@@ -130,7 +130,7 @@ A**Content Delivery Network (CDN)**stores images in multiple locations worldwide
 
 ### CDNs use modern HTTP Protocols
 
-Most CDNs will also speed up your images by serving them with modern protocols like HTTP/3, which has significant performance improvements over both HTTP/1 and HTTP/2. Check out this[<FontIcon icon="fas fa-globe"/>case study on HTTP/3 performance](https://requestmetrics.com/web-performance/http3-is-fast/).
+Most CDNs will also speed up your images by serving them with modern protocols like HTTP/3, which has significant performance improvements over both HTTP/1 and HTTP/2. Check out this[<VPIcon icon="fas fa-globe"/>case study on HTTP/3 performance](https://requestmetrics.com/web-performance/http3-is-fast/).
 
 ### HTTP Caching headers
 
@@ -138,7 +138,7 @@ Users always have to download an image at least once, but HTTP caching headers c
 
 Cache-Control: public, max-age=31536000, immutable
 
-This tells the browser that this image won’t change, and that it can be kept locally for 1 year without needing to be requested again. Caching isn’t just for images—it speeds up**all static assets**. If you’re not sure if your caching is set up correctly, there’s a**[<FontIcon icon="fas fa-globe"/>full guide on HTTP caching](https://requestmetrics.com/web-performance/http-caching/)**that explains how to check and optimize it.
+This tells the browser that this image won’t change, and that it can be kept locally for 1 year without needing to be requested again. Caching isn’t just for images—it speeds up**all static assets**. If you’re not sure if your caching is set up correctly, there’s a**[<VPIcon icon="fas fa-globe"/>full guide on HTTP caching](https://requestmetrics.com/web-performance/http-caching/)**that explains how to check and optimize it.
 
 ---
 
@@ -146,7 +146,7 @@ This tells the browser that this image won’t change, and that it can be kept l
 
 Images are one of the biggest opportunities for improving performance. By**choosing the right format, compressing efficiently, lazy-loading, and leveraging CDNs with modern protocols**, you can massively speed up your site.
 
-If you’re looking for more image optimization tips, with detailed breakdown and real-world examples, check out[<FontIcon icon="fas fa-globe"/>the complete guide to optimizing website images](https://requestmetrics.com/web-performance/high-performance-images/).
+If you’re looking for more image optimization tips, with detailed breakdown and real-world examples, check out[<VPIcon icon="fas fa-globe"/>the complete guide to optimizing website images](https://requestmetrics.com/web-performance/high-performance-images/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

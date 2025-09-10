@@ -77,7 +77,7 @@ These [**built-in functions**](/realpython.com/python-built-in-functions.md) all
 
 :::
 
-To get the most out of this tutorial, you should have a [<FontIcon icon="fas fa-globe"/>basic understanding of Python syntax](https://realpython.com/learning-paths/python-basics/) and familiarity with using the [**Python interpreter**](/realpython.com/python-repl/README.md) and [**running Python scripts**](/realpython.com/run-python-scripts.md).
+To get the most out of this tutorial, you should have a [<VPIcon icon="fas fa-globe"/>basic understanding of Python syntax](https://realpython.com/learning-paths/python-basics/) and familiarity with using the [**Python interpreter**](/realpython.com/python-repl/README.md) and [**running Python scripts**](/realpython.com/run-python-scripts.md).
 
 ::: info Quiz - Basic Input and Output in Python
 
@@ -163,7 +163,7 @@ However, if you ran the same code from a file instead, then Python would still c
 
 ## Writing Output to the Console
 
-In addition to obtaining data from the user, a program will often need to present data back to the user. In Python, you can display data to the console with the [<FontIcon icon="fa-brands fa-python"/>`print()`](https://docs.python.org/3/library/functions.html#print) function.
+In addition to obtaining data from the user, a program will often need to present data back to the user. In Python, you can display data to the console with the [<VPIcon icon="fa-brands fa-python"/>`print()`](https://docs.python.org/3/library/functions.html#print) function.
 
 To display objects to the console, you pass them as a comma-separated list of arguments to `print()`. By default, the output that `print()` produces separates objects by a single space and appends a newline to the end of the output:
 
@@ -234,7 +234,7 @@ Expand the collapsible section below to continue practicing with a slightly more
 
 ::: details Exercise: Build a Guess-the-Number Game
 
-Create a guess-the-number game where a player only has one shot at getting the right answer. You can use the [<FontIcon icon="fa-brands fa-python"/>`randint()`](https://docs.python.org/3/library/random.html#random.randint) function from Python’s `random` module to let your program pick a random number:
+Create a guess-the-number game where a player only has one shot at getting the right answer. You can use the [<VPIcon icon="fa-brands fa-python"/>`randint()`](https://docs.python.org/3/library/random.html#random.randint) function from Python’s `random` module to let your program pick a random number:
 
 ```py title="guess_the_number.py"
 import random
@@ -270,7 +270,7 @@ If you’ve successfully built the guess-the-number game and you want another ch
 
 ::: details Exercise: Build a Small Text-Based Adventure Game
 
-Write a [<FontIcon icon="fa-brands fa-wikipedia-w"/>text-based adventure game](https://en.wikipedia.org/wiki/Text-based_game#Text_adventure) where the player can choose whether to attack or run using `input()`. Try to implement a game loop using [**indefinite iteration**](/realpython.com/python-while-loop.md) and allow your code to take different actions depending on [**conditional logic**](/realpython.com/python-conditional-statements.md).
+Write a [<VPIcon icon="fa-brands fa-wikipedia-w"/>text-based adventure game](https://en.wikipedia.org/wiki/Text-based_game#Text_adventure) where the player can choose whether to attack or run using `input()`. Try to implement a game loop using [**indefinite iteration**](/realpython.com/python-while-loop.md) and allow your code to take different actions depending on [**conditional logic**](/realpython.com/python-conditional-statements.md).
 
 Keep it small and don’t go overboard—unless you really want to, of course! You can check out an example solution for a minimal implementation of this game by expanding the collapsible section following this one.
 
@@ -315,11 +315,11 @@ Collecting user input and displaying data back to the user comes in handy in man
 
 ## Reading Input With Advanced Features
 
-In the previous sections, you explored how the `input()` function allows your program to pause and wait for the user to provide information. However, depending on the operating system and [<FontIcon icon="fa-brands fa-wikipedia-w"/>shell](https://en.wikipedia.org/wiki/Shell_(computing)) that you’re working with, the standard `input()` may have some limitations that can affect user experience.
+In the previous sections, you explored how the `input()` function allows your program to pause and wait for the user to provide information. However, depending on the operating system and [<VPIcon icon="fa-brands fa-wikipedia-w"/>shell](https://en.wikipedia.org/wiki/Shell_(computing)) that you’re working with, the standard `input()` may have some limitations that can affect user experience.
 
 ::: note
 
-If you’re on Windows 10 or newer, then you can skip this section. [<FontIcon icon="fa-brands fa-windows"/>Windows 10 shipped with console improvements](https://blogs.windows.com/windowsdeveloper/2014/10/07/console-improvements-in-the-windows-10-technical-preview/) that allow for improved keyboard editing and selection. This works natively on Command Prompt and PowerShell.
+If you’re on Windows 10 or newer, then you can skip this section. [<VPIcon icon="fa-brands fa-windows"/>Windows 10 shipped with console improvements](https://blogs.windows.com/windowsdeveloper/2014/10/07/console-improvements-in-the-windows-10-technical-preview/) that allow for improved keyboard editing and selection. This works natively on Command Prompt and PowerShell.
 
 <SiteInfo
   name="Console Improvements in the Windows 10 Technical Preview"
@@ -338,11 +338,11 @@ There’s a straightforward way to improve input functionality just by importing
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-windows"/>
+@tab:active <VPIcon icon="fa-brands fa-windows"/>
 
-If you’re on a Windows version above Windows 10, then you don’t need to do anything. Advanced input editing capabilities and history recall are natively supported in Command Prompt and PowerShell since Windows 10. You can try running the code that you’ll see further down without importing the [<FontIcon icon="fa-brands fa-python"/>`readline` module](https://docs.python.org/3/library/readline.html#module-readline), and you should still have access to all of the mentioned features.
+If you’re on a Windows version above Windows 10, then you don’t need to do anything. Advanced input editing capabilities and history recall are natively supported in Command Prompt and PowerShell since Windows 10. You can try running the code that you’ll see further down without importing the [<VPIcon icon="fa-brands fa-python"/>`readline` module](https://docs.python.org/3/library/readline.html#module-readline), and you should still have access to all of the mentioned features.
 
-However, if you’re working on a Windows version before Windows 10, then you need to install a third-party library to get access to this functionality. One such library is [<FontIcon icon="fa-brands fa-python"/>`pyreadline3`](https://pypi.org/project/pyreadline3/), which you can install with [**Python’s package manager, `pip`**](/realpython.com/what-is-pip.md):
+However, if you’re working on a Windows version before Windows 10, then you need to install a third-party library to get access to this functionality. One such library is [<VPIcon icon="fa-brands fa-python"/>`pyreadline3`](https://pypi.org/project/pyreadline3/), which you can install with [**Python’s package manager, `pip`**](/realpython.com/what-is-pip.md):
 
 ```powershell
 py -m pip install pyreadline3
@@ -350,11 +350,11 @@ py -m pip install pyreadline3
 
 After the installation is done, the `pyreadline3` library will provide similar functionality to the GNU Readline library available on UNIX-like systems. While it mimics the behavior of the `readline` module from Python’s standard library, `pyreadline3` is not a direct substitute as it may have differences due to underlying system variations.
 
-The [<FontIcon icon="fa-brands fa-python"/>`readline.py` file (<FontIcon icon="iconfont icon-github"/>`pyreadline3/pyreadline3`)](https://github.com/pyreadline3/pyreadline3/blob/master/src/readline.py) of the third-party project ensures that when you import `readline` in your Python code, your code will instead use the `pyreadline3` implementation.
+The [<VPIcon icon="fa-brands fa-python"/>`readline.py` file (<VPIcon icon="iconfont icon-github"/>`pyreadline3/pyreadline3`)](https://github.com/pyreadline3/pyreadline3/blob/master/src/readline.py) of the third-party project ensures that when you import `readline` in your Python code, your code will instead use the `pyreadline3` implementation.
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
-UNIX-like systems, such as macOS and Linux, usually come with the [<FontIcon icon="fa-brands fa-wikipedia-w"/>GNU Readline](https://en.wikipedia.org/wiki/GNU_Readline) library preinstalled. [<FontIcon icon="fa-brands fa-python"/>Python’s `readline` module](https://docs.python.org/3/library/readline.html#module-readline) provides an interface to the GNU Readline library, which straightforwardly handles the aforementioned limitations of `input()`.
+UNIX-like systems, such as macOS and Linux, usually come with the [<VPIcon icon="fa-brands fa-wikipedia-w"/>GNU Readline](https://en.wikipedia.org/wiki/GNU_Readline) library preinstalled. [<VPIcon icon="fa-brands fa-python"/>Python’s `readline` module](https://docs.python.org/3/library/readline.html#module-readline) provides an interface to the GNU Readline library, which straightforwardly handles the aforementioned limitations of `input()`.
 
 Because `readline` is part of Python’s standard-library, you don’t even need to install anything.
 
@@ -374,7 +374,7 @@ Try running the code snippet above, which drops you into an [**infinite loop**](
 - Use <kbd>Ctrl</kbd>+<kbd>A</kbd> and <kbd>Ctrl</kbd>+<kbd>E</kbd> to move to the beginning and end of the input line, respectively.
 - Recall previous inputs using the Up and Down arrow keys.
 
-You can exit the loop that you set up in <FontIcon icon="fa-brands fa-python"/>`improved_input.py` and end the example program by typing `exit`.
+You can exit the loop that you set up in <VPIcon icon="fa-brands fa-python"/>`improved_input.py` and end the example program by typing `exit`.
 
 ::: info How does `readline` work?
 
@@ -548,7 +548,7 @@ Understanding input and output is crucial for any Python developer, as these ope
 
 :::
 
-With basic input and output handling skills, you can build interactive Python applications that efficiently communicate with users and process input data. This foundational knowledge prepares you for more advanced tasks, such as creating [**command-line tools**](/realpython.com/command-line-interfaces-python-argparse.md) or [<FontIcon icon="fas fa-globe"/>GUI applications](https://realpython.com/learning-paths/python-gui-programming/).
+With basic input and output handling skills, you can build interactive Python applications that efficiently communicate with users and process input data. This foundational knowledge prepares you for more advanced tasks, such as creating [**command-line tools**](/realpython.com/command-line-interfaces-python-argparse.md) or [<VPIcon icon="fas fa-globe"/>GUI applications](https://realpython.com/learning-paths/python-gui-programming/).
 
 ::: info Quiz - Basic Input and Output in Python
 

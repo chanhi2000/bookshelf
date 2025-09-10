@@ -74,7 +74,7 @@ In this tutorial, you’ll learn the differences between the two, as well as the
 
 ## A Quick Recap on Imports
 
-You need to have a good understanding of [*Python modules and packages*](/realpython.com/python-modules-packages.md) to know how imports work. A Python module is a file that has<FontIcon icon="fa-brands fa-python"/> a `.py` extension, and a Python package is any folder that has modules inside it (or, in Python 2, a folder that contains an <FontIcon icon="fa-brands fa-python"/>`__init__.py` file).
+You need to have a good understanding of [*Python modules and packages*](/realpython.com/python-modules-packages.md) to know how imports work. A Python module is a file that has<VPIcon icon="fa-brands fa-python"/> a `.py` extension, and a Python package is any folder that has modules inside it (or, in Python 2, a folder that contains an <VPIcon icon="fa-brands fa-python"/>`__init__.py` file).
 
 What happens when you have code in one module that needs to access code in another module or package? You import it!
 
@@ -86,13 +86,13 @@ But how exactly do imports work? Let’s say you import a module `abc` like so:
 import abc
 ```
 
-The first thing Python will do is look up the name `abc` in [<FontIcon icon="fa-brands fa-python"/>`sys.modules`](https://docs.python.org/3/library/sys.html#sys.modules). This is a cache of all modules that have been previously imported.
+The first thing Python will do is look up the name `abc` in [<VPIcon icon="fa-brands fa-python"/>`sys.modules`](https://docs.python.org/3/library/sys.html#sys.modules). This is a cache of all modules that have been previously imported.
 
-If the name isn’t found in the module cache, Python will proceed to search through a list of built-in modules. These are modules that come pre-installed with Python and can be found in the [<FontIcon icon="fa-brands fa-python"/>Python Standard Library](https://docs.python.org/3/library/). If the name still isn’t found in the built-in modules, Python then searches for it in a list of directories defined by [<FontIcon icon="fa-brands fa-python"/>`sys.path`](https://docs.python.org/3/library/sys.html#sys.path). This list usually includes the current directory, which is searched first.
+If the name isn’t found in the module cache, Python will proceed to search through a list of built-in modules. These are modules that come pre-installed with Python and can be found in the [<VPIcon icon="fa-brands fa-python"/>Python Standard Library](https://docs.python.org/3/library/). If the name still isn’t found in the built-in modules, Python then searches for it in a list of directories defined by [<VPIcon icon="fa-brands fa-python"/>`sys.path`](https://docs.python.org/3/library/sys.html#sys.path). This list usually includes the current directory, which is searched first.
 
 When Python finds the module, it binds it to a name in the local scope. This means that `abc` is now defined and can be used in the current file without throwing a `NameError`.
 
-If the name is never found, you’ll get a `ModuleNotFoundError`. You can find out more about imports in the Python documentation [<FontIcon icon="fa-brands fa-python"/>here](https://docs.python.org/3/reference/import.html)!
+If the name is never found, you’ll get a `ModuleNotFoundError`. You can find out more about imports in the Python documentation [<VPIcon icon="fa-brands fa-python"/>here](https://docs.python.org/3/reference/import.html)!
 
 ::: note Security Concerns
 
@@ -100,14 +100,14 @@ Be aware that Python’s import system presents some significant security risks.
 
 Here are a couple of interesting resources to learn more about these security concerns and how to mitigate them:
 
-- [<FontIcon icon="fas fa-globe"/>10 common security gotchas in Python and how to avoid them](https://hackernoon.com/10-common-security-gotchas-in-python-and-how-to-avoid-them-e19fbe265e03) by Anthony Shaw (Point 5 talks about Python’s import system.)
-- [<FontIcon icon="fas fa-globe"/>Episode #168: 10 Python security holes and how to plug them](https://talkpython.fm/episodes/show/168/10-python-security-holes-and-how-to-plug-them) from the TalkPython podcast (The panelists begin talking about imports at around the 27:15 mark.)
+- [<VPIcon icon="fas fa-globe"/>10 common security gotchas in Python and how to avoid them](https://hackernoon.com/10-common-security-gotchas-in-python-and-how-to-avoid-them-e19fbe265e03) by Anthony Shaw (Point 5 talks about Python’s import system.)
+- [<VPIcon icon="fas fa-globe"/>Episode #168: 10 Python security holes and how to plug them](https://talkpython.fm/episodes/show/168/10-python-security-holes-and-how-to-plug-them) from the TalkPython podcast (The panelists begin talking about imports at around the 27:15 mark.)
 
 :::
 
 ### Syntax of Import Statements
 
-Now that you know how import statements work, let’s explore their syntax. You can import both packages and modules. (Note that importing a package essentially imports the package’s <FontIcon icon="fa-brands fa-python"/><FontIcon icon="fa-brands fa-python"/>`__init__.py` file as a module.) You can also import specific objects from a package or module.
+Now that you know how import statements work, let’s explore their syntax. You can import both packages and modules. (Note that importing a package essentially imports the package’s <VPIcon icon="fa-brands fa-python"/><VPIcon icon="fa-brands fa-python"/>`__init__.py` file as a module.) You can also import specific objects from a package or module.
 
 There are generally two types of import syntax. When you use the first one, you import the resource directly, like this:
 
@@ -135,7 +135,7 @@ This renames the imported resource `abc` to `other_name` within the script. It m
 
 ### Styling of Import Statements
 
-[<FontIcon icon="fa-brands fa-python"/>PEP 8](http://pep8.org/#imports), the official [**style guide for Python**](/realpython.com/python-code-quality.md), has a few pointers when it comes to writing import statements. Here’s a summary:
+[<VPIcon icon="fa-brands fa-python"/>PEP 8](http://pep8.org/#imports), the official [**style guide for Python**](/realpython.com/python-code-quality.md), has a few pointers when it comes to writing import statements. Here’s a summary:
 
 1. Imports should always be written at the top of the file, after any module comments and [**docstrings**](/realpython.com/documenting-python-code.md#documenting-your-python-code-base-using-docstrings).
 2. Imports should be divided according to what is being imported. There are generally three groups:
@@ -196,15 +196,15 @@ Let’s say you have the following directory structure:
             └── module5.py
 ```
 
-There’s a directory, <FontIcon icon="fas fa-folder-open"/>`project`, which contains two sub-directories, <FontIcon icon="fas fa-folder-open"/>`package1` and <FontIcon icon="fas fa-folder-open"/>`package2`. The <FontIcon icon="fas fa-folder-open"/>`package1` directory has two files, <FontIcon icon="fa-brands fa-python"/>`module1.py` and <FontIcon icon="fa-brands fa-python"/>`module2.py`.
+There’s a directory, <VPIcon icon="fas fa-folder-open"/>`project`, which contains two sub-directories, <VPIcon icon="fas fa-folder-open"/>`package1` and <VPIcon icon="fas fa-folder-open"/>`package2`. The <VPIcon icon="fas fa-folder-open"/>`package1` directory has two files, <VPIcon icon="fa-brands fa-python"/>`module1.py` and <VPIcon icon="fa-brands fa-python"/>`module2.py`.
 
-The `package2` directory has three files: two modules, <FontIcon icon="fa-brands fa-python"/>`module3.py` and <FontIcon icon="fa-brands fa-python"/>`module4.py`, and an initialization file, <FontIcon icon="fa-brands fa-python"/>`__init__.py`. It also contains a directory, `subpackage`, which in turn contains a file, <FontIcon icon="fa-brands fa-python"/>`module5.py`.
+The `package2` directory has three files: two modules, <VPIcon icon="fa-brands fa-python"/>`module3.py` and <VPIcon icon="fa-brands fa-python"/>`module4.py`, and an initialization file, <VPIcon icon="fa-brands fa-python"/>`__init__.py`. It also contains a directory, `subpackage`, which in turn contains a file, <VPIcon icon="fa-brands fa-python"/>`module5.py`.
 
 Let’s assume the following:
 
-1. <FontIcon icon="fas fa-folder-open"/>`package1/`<FontIcon icon="fa-brands fa-python"/>`module2.py` contains a function, `function1`.
-2. <FontIcon icon="fas fa-folder-open"/>`package2/`<FontIcon icon="fa-brands fa-python"/>`__init__.py` contains a class, `class1`.
-3. <FontIcon icon="fas fa-folder-open"/>`package2/subpackage1/`<FontIcon icon="fa-brands fa-python"/>`module5.py` contains a function, `function2`.
+1. <VPIcon icon="fas fa-folder-open"/>`package1/`<VPIcon icon="fa-brands fa-python"/>`module2.py` contains a function, `function1`.
+2. <VPIcon icon="fas fa-folder-open"/>`package2/`<VPIcon icon="fa-brands fa-python"/>`__init__.py` contains a class, `class1`.
+3. <VPIcon icon="fas fa-folder-open"/>`package2/subpackage1/`<VPIcon icon="fa-brands fa-python"/>`module5.py` contains a function, `function2`.
 
 The following are practical examples of absolute imports:
 
@@ -266,28 +266,28 @@ Let’s assume you have the same directory structure as before:
 
 Recall the file contents:
 
-1. <FontIcon icon="fas fa-folder-open"/>`package1/`<FontIcon icon="fa-brands fa-python"/>`module2.py` contains a function, `function1`.
-2. <FontIcon icon="fas fa-folder-open"/>`package2/`<FontIcon icon="fa-brands fa-python"/>`__init__.py` contains a class, `class1`.
-3. <FontIcon icon="fas fa-folder-open"/>`package2/subpackage1/`<FontIcon icon="fa-brands fa-python"/>`module5.py` contains a function, `function2`.
+1. <VPIcon icon="fas fa-folder-open"/>`package1/`<VPIcon icon="fa-brands fa-python"/>`module2.py` contains a function, `function1`.
+2. <VPIcon icon="fas fa-folder-open"/>`package2/`<VPIcon icon="fa-brands fa-python"/>`__init__.py` contains a class, `class1`.
+3. <VPIcon icon="fas fa-folder-open"/>`package2/subpackage1/`<VPIcon icon="fa-brands fa-python"/>`module5.py` contains a function, `function2`.
 
-You can import `function1` into the <FontIcon icon="fas fa-folder-open"/>`package1/`<FontIcon icon="fa-brands fa-python"/>`module1.py` file this way:
+You can import `function1` into the <VPIcon icon="fas fa-folder-open"/>`package1/`<VPIcon icon="fa-brands fa-python"/>`module1.py` file this way:
 
 ```py title="package1/module1.py"
 from .module2 import function1
 ```
 
-You’d use only one dot here because <FontIcon icon="fa-brands fa-python"/>`module2.py` is in the same directory as the current module, which is <FontIcon icon="fa-brands fa-python"/>`module1.py`.
+You’d use only one dot here because <VPIcon icon="fa-brands fa-python"/>`module2.py` is in the same directory as the current module, which is <VPIcon icon="fa-brands fa-python"/>`module1.py`.
 
-You can import `class1` and `function2` into the <FontIcon icon="fas fa-folder-open"/>`package2/`<FontIcon icon="fa-brands fa-python"/>`module3.py` file this way:
+You can import `class1` and `function2` into the <VPIcon icon="fas fa-folder-open"/>`package2/`<VPIcon icon="fa-brands fa-python"/>`module3.py` file this way:
 
 ```py title="package2/module3.py"
 from . import class1
 from .subpackage1.module5 import function2
 ```
 
-In the first import statement, the single dot means that you are importing `class1` from the current package. Remember that importing a package essentially imports the package’s <FontIcon icon="fa-brands fa-python"/>`__init__.py` file as a module.
+In the first import statement, the single dot means that you are importing `class1` from the current package. Remember that importing a package essentially imports the package’s <VPIcon icon="fa-brands fa-python"/>`__init__.py` file as a module.
 
-In the second import statement, you’d use a single dot again because <FontIcon icon="fas fa-folder-open"/>`subpackage1` is in the same directory as the current module, which is <FontIcon icon="fa-brands fa-python"/>`module3.py`.
+In the second import statement, you’d use a single dot again because <VPIcon icon="fas fa-folder-open"/>`subpackage1` is in the same directory as the current module, which is <VPIcon icon="fa-brands fa-python"/>`module3.py`.
 
 ### Pros and Cons of Relative Imports
 

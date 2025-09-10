@@ -63,7 +63,7 @@ What is the first child of the section here?
 </div>
 ```
 
-The `<div>` is the first child of the `<section>`, right? [Wrong! (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/GgJZmpv?editors=1012) Well, if we’re talking about `.firstChild` in JavaScript, anyway. The actual `firstChild` here is what is called a “text node” which will have a value of `"\n "`. It’s the white space! The return and space before the `<div>` hits.
+The `<div>` is the first child of the `<section>`, right? [Wrong! (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/GgJZmpv?editors=1012) Well, if we’re talking about `.firstChild` in JavaScript, anyway. The actual `firstChild` here is what is called a “text node” which will have a value of `"\n "`. It’s the white space! The return and space before the `<div>` hits.
 
 (These are just placeholder HTML elements for illustration, they could be any HTML elements.)
 

@@ -54,7 +54,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_025.png
 
 **Structured logging** is a practice where you apply the same message format to all of your application logs. The end result is that all your logs will have a similar structure, allowing them to be easily searched and analyzed.
 
-[<FontIcon icon="fas fa-globe"/>Serilog](https://serilog.net/) is a popular logging library in .NET, packed with many features. It provides logging to files, logging to the console, and elsewhere.
+[<VPIcon icon="fas fa-globe"/>Serilog](https://serilog.net/) is a popular logging library in .NET, packed with many features. It provides logging to files, logging to the console, and elsewhere.
 
 However, **Serilog** is unique because it comes with support for **structured logging** out of the box.
 
@@ -93,9 +93,9 @@ The next question is how do you provide the actual configuration values to **Ser
 
 ---
 
-## Configuring Serilog With <FontIcon icon="iconfont icon-json"/>`appsettings.json`
+## Configuring Serilog With <VPIcon icon="iconfont icon-json"/>`appsettings.json`
 
-You need to add a `Serilog` section in your <FontIcon icon="iconfont icon-json"/>`appsettings.json` file.
+You need to add a `Serilog` section in your <VPIcon icon="iconfont icon-json"/>`appsettings.json` file.
 
 Here you can configure, among other things:
 
@@ -132,7 +132,7 @@ In this example, we're adding the `Console` and `File` sinks to **Serilog**. And
 
 ```
 
-You can get a more detailed overview of what's supported with the `Serilog.Configuration` library in the [documentation (<FontIcon icon="iconfont icon-github"/>`serilog/serilog-settings-configuration`)](https://github.com/serilog/serilog-settings-configuration).
+You can get a more detailed overview of what's supported with the `Serilog.Configuration` library in the [documentation (<VPIcon icon="iconfont icon-github"/>`serilog/serilog-settings-configuration`)](https://github.com/serilog/serilog-settings-configuration).
 
 <SiteInfo
   name="serilog/serilog-settings-configuration"

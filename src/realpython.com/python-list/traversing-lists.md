@@ -333,7 +333,7 @@ For a deeper dive into using the `map()` function, check out [**Python’s `map(
 
 :::
 
-If you need to filter values from an existing list, then you can use the built-in `filter()` function. This function takes two arguments: a [<FontIcon icon="fa-brands fa-wikipedia-w"/>predicate](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic)) function and an iterable of data. Then it returns an iterator that yields items that meet a given condition, which the predicate function tests for.
+If you need to filter values from an existing list, then you can use the built-in `filter()` function. This function takes two arguments: a [<VPIcon icon="fa-brands fa-wikipedia-w"/>predicate](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic)) function and an iterable of data. Then it returns an iterator that yields items that meet a given condition, which the predicate function tests for.
 
 Here’s how `filter()` works in practice:
 

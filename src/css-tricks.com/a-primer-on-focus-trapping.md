@@ -67,7 +67,7 @@ The whole process sounds simple in theory, but it can quite difficult to build i
 
 ## Simple and easy focus trapping with Splendid Labz
 
-If you are not averse to using code built by others, you might want to consider this snippet with the code I’ve created in [<FontIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/).
+If you are not averse to using code built by others, you might want to consider this snippet with the code I’ve created in [<VPIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/).
 
 The basic idea is:
 
@@ -96,7 +96,7 @@ But, since you’re reading this, I’m sure you wanna know the details that go 
 
 ## Selecting all focusable elements
 
-I did research when I wrote about this [<FontIcon icon="fas fa-globe"/>some time ago](https://zellwk.com/blog/keyboard-focusable-elements/). It seems like you could only focus an a handful of elements:
+I did research when I wrote about this [<VPIcon icon="fas fa-globe"/>some time ago](https://zellwk.com/blog/keyboard-focusable-elements/). It seems like you could only focus an a handful of elements:
 
 - `a`
 - `button`
@@ -215,7 +215,7 @@ We need to check if the user is:
 - Pressing tab (without Shift)
 - Pressing tab (with Shift)
 
-[<FontIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/) has convenient functions to detect these as well:
+[<VPIcon icon="fas fa-globe"/>Splendid Labz](https://splendidlabz.com/) has convenient functions to detect these as well:
 
 ```js
 import { isTab, isShiftTab } from '@splendidlabz/utils/dom'
@@ -307,7 +307,7 @@ That’s it! Pretty simple if you go through the sequence step-by-step, isn’t 
 
 ## Final callout to Splendid Labz
 
-As I resolve myself to stop teaching (so much) and begin building applications, I find myself needing many common [<FontIcon icon="fas fa-globe"/>components](https://splendidlabz/docs/astro/), [<FontIcon icon="fas fa-globe"/>utilities](https://splendidlabz/docs/utils/), even [<FontIcon icon="fas fa-globe"/>styles](https://splendidlabz.com/docs/styles/).
+As I resolve myself to stop teaching (so much) and begin building applications, I find myself needing many common [<VPIcon icon="fas fa-globe"/>components](https://splendidlabz/docs/astro/), [<VPIcon icon="fas fa-globe"/>utilities](https://splendidlabz/docs/utils/), even [<VPIcon icon="fas fa-globe"/>styles](https://splendidlabz.com/docs/styles/).
 
 Since I have the capability to build things for myself, (plus the fact that I’m super particular when it comes to good DX), I’ve decided to gather these things I find or build into a couple of easy-to-use libraries.
 

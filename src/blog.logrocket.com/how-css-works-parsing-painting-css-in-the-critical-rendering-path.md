@@ -66,7 +66,7 @@ The reason we care about the path that CSS has to take to turn into beautiful pi
 
 **_Load time._**
 
-If your site takes forever to load, chances are your users aren’t gonna wait for it to finish, even if there’s valuable content to be found there. Some studies have shown that up to [<FontIcon icon="fa-brands fa-google"/>50% of mobile users leave a page after 3 seconds of waiting](https://thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/).
+If your site takes forever to load, chances are your users aren’t gonna wait for it to finish, even if there’s valuable content to be found there. Some studies have shown that up to [<VPIcon icon="fa-brands fa-google"/>50% of mobile users leave a page after 3 seconds of waiting](https://thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/).
 
 With users expecting those types of load times, it’s our responsibility as web developers to not bloat the amount of stuff we’re sending to the user. Sadly, CSS is often the culprit of increased load times, so having a nuanced understanding of how the CSS you send is transformed into beautiful pixels will help you optimize that crucial seconds where users are most likely to bounce.
 
@@ -126,7 +126,7 @@ Armed with a complete render tree, the browser is ready to start putting actual 
 
 Layout is where the browser figures out _where elements go_ and _how much space they take up_. The browser takes rules affecting margin, padding, width, and positioning into account here. When calculating layout, the browser has to start at the top of the render tree and move downward, since each element’s positioning, width, and height is calculated based off of the positioning of its parent nodes.
 
-If you’re familiar with the CSS box model, the browser is essentially drawing a bunch of CSS boxes across the page (if you want to a little more information about the box model, there’s some excellent reading [<FontIcon icon="fa-brands fa-friefox"/>here](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)).
+If you’re familiar with the CSS box model, the browser is essentially drawing a bunch of CSS boxes across the page (if you want to a little more information about the box model, there’s some excellent reading [<VPIcon icon="fa-brands fa-friefox"/>here](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)).
 
 However, it’s important to remember that at this point _nothing is shown on the page_. Think of it as drawing stencil lines across the viewport, getting ready to fill them in.
 

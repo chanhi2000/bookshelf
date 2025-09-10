@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3448"/>
 
-As of last month, Firefox 128’s support of the [<FontIcon icon="fa-brands fa-firefox"/>relative color syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Relative_colors) means we’ve now got [<FontIcon icon="fas fa-globe"/>support across the board](https://caniuse.com/?search=relative%20color). I’m excited about that as it’s an extremely powerful way to manipulate colors in CSS. Plus it was [part of Interop](/frontendmasters.com/comparing-interop-2024-choices-to-the-popular-vote.md) this year so that is further proof that is trucking along nicely.
+As of last month, Firefox 128’s support of the [<VPIcon icon="fa-brands fa-firefox"/>relative color syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Relative_colors) means we’ve now got [<VPIcon icon="fas fa-globe"/>support across the board](https://caniuse.com/?search=relative%20color). I’m excited about that as it’s an extremely powerful way to manipulate colors in CSS. Plus it was [part of Interop](/frontendmasters.com/comparing-interop-2024-choices-to-the-popular-vote.md) this year so that is further proof that is trucking along nicely.
 
 The syntax with generic names looks like this:
 
@@ -77,7 +77,7 @@ html {
 }
 ```
 
-Now you want to use that yellow, but at about 50% opacity. How do you do that? There are actually [<FontIcon icon="fas fa-globe"/>a couple of ways to add transparency to an existing color](https://chriscoyier.net/2023/05/12/add-opacity-to-an-existing-color/), but in my opinion the relative color syntax is the nicest.
+Now you want to use that yellow, but at about 50% opacity. How do you do that? There are actually [<VPIcon icon="fas fa-globe"/>a couple of ways to add transparency to an existing color](https://chriscoyier.net/2023/05/12/add-opacity-to-an-existing-color/), but in my opinion the relative color syntax is the nicest.
 
 In the past, I’ve split out the color values like this:
 
@@ -134,7 +134,7 @@ In the above example, we had `--color-yellow` and I ended by saying I prefer doi
 
 ## Lighten a Color you Already Have
 
-Same deal here. I’m [<FontIcon icon="fas fa-globe"/>using OKLCH because I like it](https://chriscoyier.net/2023/01/22/ok-oklch-%F0%9F%91%91/), particularly the “uniform brightness” characteristic. Meaning when doing this darkening and lightening across different colors, *it feels like it lightens/darkens the same amount*. Which feels weird to write, but it’s true. Other color spaces do not lighten and darken consistently.
+Same deal here. I’m [<VPIcon icon="fas fa-globe"/>using OKLCH because I like it](https://chriscoyier.net/2023/01/22/ok-oklch-%F0%9F%91%91/), particularly the “uniform brightness” characteristic. Meaning when doing this darkening and lightening across different colors, *it feels like it lightens/darkens the same amount*. Which feels weird to write, but it’s true. Other color spaces do not lighten and darken consistently.
 
 ```css
 .box {

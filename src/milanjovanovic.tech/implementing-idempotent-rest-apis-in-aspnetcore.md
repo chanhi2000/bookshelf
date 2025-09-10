@@ -68,7 +68,7 @@ In this week's issue, we'll explore how to implement idempotency in ASP.NET Core
 
 Idempotence, in the context of web APIs, means that making multiple identical requests should have the same effect as making a single request. In other words, no matter how many times a client sends the same request, the server-side effect should only occur once.
 
-The [<FontIcon icon="fas fa-globe"/>RFC 9110](https://rfc-editor.org/rfc/rfc9110) standard about HTTP Semantics offers a definition we could use. Here's what it says about **idempotent methods**:
+The [<VPIcon icon="fas fa-globe"/>RFC 9110](https://rfc-editor.org/rfc/rfc9110) standard about HTTP Semantics offers a definition we could use. Here's what it says about **idempotent methods**:
 
 ::: info RFC 9110 (HTTP Semantics), Section 9.2.2, Paragraph 1
 

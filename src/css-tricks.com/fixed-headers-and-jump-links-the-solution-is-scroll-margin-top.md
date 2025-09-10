@@ -66,7 +66,7 @@ h3 {
 }
 ```
 
-[<FontIcon icon="iconfont icon-css-tricks"/>We have an Almanac article on it](http://css-tricks.com/almanac/properties/s/scroll-margin/), which includes browser support, which is essentially everywhere. It’s often talked about in conjunction with [**scroll snapping**](/css-tricks.com/practical-css-scroll-snapping.md), but I find this use case even more practical.
+[<VPIcon icon="iconfont icon-css-tricks"/>We have an Almanac article on it](http://css-tricks.com/almanac/properties/s/scroll-margin/), which includes browser support, which is essentially everywhere. It’s often talked about in conjunction with [**scroll snapping**](/css-tricks.com/practical-css-scroll-snapping.md), but I find this use case even more practical.
 
 Here’s a simple demo:
 
@@ -77,7 +77,7 @@ Here’s a simple demo:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-In a related vein, that weird (but cool) “text fragments” link that Chrome shipped takes you to [the middle of the page (<FontIcon icon="fa-brands fa-x-twitter"/>`chriscoyier`)](https://twitter.com/chriscoyier/status/1225199469446090752) instead, which I think is nice.
+In a related vein, that weird (but cool) “text fragments” link that Chrome shipped takes you to [the middle of the page (<VPIcon icon="fa-brands fa-x-twitter"/>`chriscoyier`)](https://twitter.com/chriscoyier/status/1225199469446090752) instead, which I think is nice.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

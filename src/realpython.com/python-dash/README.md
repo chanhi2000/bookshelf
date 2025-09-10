@@ -64,9 +64,9 @@ This tutorial has a related video course created by the Real Python team. Watch 
 
 :::
 
-In the past, creating analytical web applications was a task for seasoned developers that required knowledge of multiple programming languages and frameworks. That’s no longer the case. Nowadays, you can make data visualization interfaces using pure Python. One popular tool for this is [<FontIcon icon="fas fa-globe"/>Dash](https://dash.plotly.com/introduction).
+In the past, creating analytical web applications was a task for seasoned developers that required knowledge of multiple programming languages and frameworks. That’s no longer the case. Nowadays, you can make data visualization interfaces using pure Python. One popular tool for this is [<VPIcon icon="fas fa-globe"/>Dash](https://dash.plotly.com/introduction).
 
-Dash gives data scientists the ability to showcase their results in interactive web applications. You don’t need to be an expert in [<FontIcon icon="fas fa-globe"/>web development](https://realpython.com/learning-paths/become-python-web-developer/). In an afternoon, you can build and deploy a Dash app to share with others.
+Dash gives data scientists the ability to showcase their results in interactive web applications. You don’t need to be an expert in [<VPIcon icon="fas fa-globe"/>web development](https://realpython.com/learning-paths/become-python-web-developer/). In an afternoon, you can build and deploy a Dash app to share with others.
 
 ::: info In this tutorial, you’ll learn how to
 

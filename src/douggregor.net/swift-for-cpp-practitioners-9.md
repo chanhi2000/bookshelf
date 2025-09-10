@@ -119,14 +119,14 @@ Type inference is nice and all, but I promised *extensibility*. Let's get to tha
 
 The types I listed above that work as literal types aren't magical. They are defined in the standard library, and declare conformances to protocols in the "expressible by" family. Each kind of literal has one or more protocols associated with it: a type that conforms to one of these protocols can be constructed from the corresponding literal type. Here's the mapping from literal kinds to protocols:
 
-- *Integer literals*: [<FontIcon icon="fa-brands fa-apple"/>`ExpressibleByIntegerLiteral`](https://developer.apple.com/documentation/swift/expressiblebyintegerliteral)
-- *Floating-point literals*: [<FontIcon icon="fa-brands fa-apple"/>`ExpressibleByFloatLiteral`](https://developer.apple.com/documentation/swift/expressiblebyfloatliteral)
-- *Boolean literals*: [<FontIcon icon="fa-brands fa-apple"/>`ExpressibleByBooleanLiteral`](https://developer.apple.com/documentation/swift/expressiblebybooleanliteral)
-- *String literals*: [<FontIcon icon="fa-brands fa-apple"/>`ExpressibleByStringLiteral`](https://developer.apple.com/documentation/swift/expressiblebystringliteral) (and friends; we'll get there')
-- *Interpolated string literals*: [<FontIcon icon="fa-brands fa-apple"/>`ExpressibleByStringInterpolation`](https://developer.apple.com/documentation/swift/expressiblebystringinterpolation)
-- *Nil literal*: [<FontIcon icon="fa-brands fa-apple"/>`ExpressibleByNilLiteral`](https://developer.apple.com/documentation/swift/expressiblebynilliteral)
-- *Array literal*: [<FontIcon icon="fa-brands fa-apple"/>`ExpressibleByArrayLiteral`](https://developer.apple.com/documentation/swift/expressiblebyarrayliteral)
-- *Dictionary literal*: [<FontIcon icon="fa-brands fa-apple"/>`ExpressibleByDictionaryLiteral`](https://developer.apple.com/documentation/swift/expressiblebydictionaryliteral)
+- *Integer literals*: [<VPIcon icon="fa-brands fa-apple"/>`ExpressibleByIntegerLiteral`](https://developer.apple.com/documentation/swift/expressiblebyintegerliteral)
+- *Floating-point literals*: [<VPIcon icon="fa-brands fa-apple"/>`ExpressibleByFloatLiteral`](https://developer.apple.com/documentation/swift/expressiblebyfloatliteral)
+- *Boolean literals*: [<VPIcon icon="fa-brands fa-apple"/>`ExpressibleByBooleanLiteral`](https://developer.apple.com/documentation/swift/expressiblebybooleanliteral)
+- *String literals*: [<VPIcon icon="fa-brands fa-apple"/>`ExpressibleByStringLiteral`](https://developer.apple.com/documentation/swift/expressiblebystringliteral) (and friends; we'll get there')
+- *Interpolated string literals*: [<VPIcon icon="fa-brands fa-apple"/>`ExpressibleByStringInterpolation`](https://developer.apple.com/documentation/swift/expressiblebystringinterpolation)
+- *Nil literal*: [<VPIcon icon="fa-brands fa-apple"/>`ExpressibleByNilLiteral`](https://developer.apple.com/documentation/swift/expressiblebynilliteral)
+- *Array literal*: [<VPIcon icon="fa-brands fa-apple"/>`ExpressibleByArrayLiteral`](https://developer.apple.com/documentation/swift/expressiblebyarrayliteral)
+- *Dictionary literal*: [<VPIcon icon="fa-brands fa-apple"/>`ExpressibleByDictionaryLiteral`](https://developer.apple.com/documentation/swift/expressiblebydictionaryliteral)
 
 If you had some kind of collection type that you wanted to work be constructible from an array literal, you would make it conform to `ExpressibleByArrayLiteral`. For our example, let's create a single type that conforms to *lots* of these protocols: a representation of a JSON value. We can describe any JSON value as an enum, like this:
 
@@ -259,7 +259,7 @@ The final "expressible by" protocol we'll explore is `ExpressibleByStringInterpo
 let s = "π=\(3.14159), but the answer is \(42)"
 ```
 
-The closest analogy in C++ is probably output streaming (with `>>`) to a [<FontIcon icon="iconfont icon-cpp"/>`std::ostringstream`](https://cplusplus.com/reference/sstream/ostringstream/), which lets you mix string literals and values to be formatted. That's a pure library solution; in Swift, we have string interpolation syntax in the language, and libraries can opt in to supporting string interpolation by conforming to `ExpressibleByStringInterpolation`. Why might a library want to do that? Well, you can think of string interpolation as a general templating engine built that lets you layer on type safety in an appropriate manner.
+The closest analogy in C++ is probably output streaming (with `>>`) to a [<VPIcon icon="iconfont icon-cpp"/>`std::ostringstream`](https://cplusplus.com/reference/sstream/ostringstream/), which lets you mix string literals and values to be formatted. That's a pure library solution; in Swift, we have string interpolation syntax in the language, and libraries can opt in to supporting string interpolation by conforming to `ExpressibleByStringInterpolation`. Why might a library want to do that? Well, you can think of string interpolation as a general templating engine built that lets you layer on type safety in an appropriate manner.
 
 Say you want to create a SQL query that's customized by some user-supplied values. You could absolutely do this with normal strings and interpolation:
 
@@ -270,7 +270,7 @@ ORDER BY \(fieldName);
 """
 ```
 
-That code just *screams* "SQL injection attack", so we need to do better. By creating a SQL query type that supports string interpolation, it can make sure to properly escape any values interpolated into the string, as well as performing any other validation that's needed. The [swift-syntax package (<FontIcon icon="iconfont icon-github"/>`swiftlang/swift-syntax`)](https://github.com/swiftlang/swift-syntax?tab=readme-ov-file) for manipulating Swift source code uses this approach to make it easy to create Swift source code from templates, like this:
+That code just *screams* "SQL injection attack", so we need to do better. By creating a SQL query type that supports string interpolation, it can make sure to properly escape any values interpolated into the string, as well as performing any other validation that's needed. The [swift-syntax package (<VPIcon icon="iconfont icon-github"/>`swiftlang/swift-syntax`)](https://github.com/swiftlang/swift-syntax?tab=readme-ov-file) for manipulating Swift source code uses this approach to make it easy to create Swift source code from templates, like this:
 
 ```swift
 let sourceFile: SourceFileSyntax = """
@@ -391,7 +391,7 @@ MyString(stringInterpolation:)
 
 ### Extending the default string interpolation behavior
 
-If all you want is to customize the way your own types get interpolated into strings, you don't need to create a new `ExpressibleByStringInterpolation` type at all. Instead, you can add on to the default string interpolation behavior by adding your own `appendInterpolation` operations to the standard library's [<FontIcon icon="fa-brands fa-apple"/>`DefaultStringInterpolation`](https://developer.apple.com/documentation/swift/defaultstringinterpolation) type. For example, say we want to be able to render a string with inline Markdown format, as described by this enum:
+If all you want is to customize the way your own types get interpolated into strings, you don't need to create a new `ExpressibleByStringInterpolation` type at all. Instead, you can add on to the default string interpolation behavior by adding your own `appendInterpolation` operations to the standard library's [<VPIcon icon="fa-brands fa-apple"/>`DefaultStringInterpolation`](https://developer.apple.com/documentation/swift/defaultstringinterpolation) type. For example, say we want to be able to render a string with inline Markdown format, as described by this enum:
 
 ```swift
 enum InlineMarkdownStyle {

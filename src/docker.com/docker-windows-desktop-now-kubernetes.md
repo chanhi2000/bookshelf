@@ -78,7 +78,7 @@ cover: https://docker.com/app/uploads/bb5074d7-5f20-43e8-b0cf-9c427205eeab.jpg
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/bb5074d7-5f20-43e8-b0cf-9c427205eeab.jpg"/>
 
-Today we are excited to announce the beta for Docker for Windows Desktop with integrated Kubernetes is now available in the edge channel! This release includes Kubernetes 1.8, just like the [<FontIcon icon="fa-brands fa-docker"/>Docker for Mac](https://docker.com/docker-mac) and [<FontIcon icon="fa-brands fa-docker"/>Docker Enterprise Edition](https://beta.docker.com/) and will allow you to develop Linux containers.
+Today we are excited to announce the beta for Docker for Windows Desktop with integrated Kubernetes is now available in the edge channel! This release includes Kubernetes 1.8, just like the [<VPIcon icon="fa-brands fa-docker"/>Docker for Mac](https://docker.com/docker-mac) and [<VPIcon icon="fa-brands fa-docker"/>Docker Enterprise Edition](https://beta.docker.com/) and will allow you to develop Linux containers.
 
 The easiest way to get Kubernetes on your desktop is here.
 
@@ -106,11 +106,11 @@ A few things to keep in mind:
 
 ### Edge channel required  
 
-Kubernetes support is still considered a beta with this release, so to enable the download and use of Kubernetes components you must be on the [<FontIcon icon="fa-brands fa-docker"/>Edge channel](https://docs.docker.com/docker-for-windows/install/). The Docker for Windows version should be 18.02 or later.
+Kubernetes support is still considered a beta with this release, so to enable the download and use of Kubernetes components you must be on the [<VPIcon icon="fa-brands fa-docker"/>Edge channel](https://docs.docker.com/docker-for-windows/install/). The Docker for Windows version should be 18.02 or later.
 
 ### Already using other Kubernetes tools?  
 
-If you are already running a version of kubectl pointed at another environment, for example minikube, you will want to follow the [<FontIcon icon="fa-brands fa-docker"/>activation instructions](https://docs.docker.com/docker-for-windows/#kubernetes) to change contexts to docker-for-desktop.
+If you are already running a version of kubectl pointed at another environment, for example minikube, you will want to follow the [<VPIcon icon="fa-brands fa-docker"/>activation instructions](https://docs.docker.com/docker-for-windows/#kubernetes) to change contexts to docker-for-desktop.
 
 <SiteInfo
   name="Windows"
@@ -132,8 +132,8 @@ If you are already running a version of kubectl pointed at another environment, 
 
 If you are new to Kubernetes and looking for some introductory exercises to try, here are a few resources:
 
-- The [<FontIcon icon="fa-brands fa-docker"/>Docker for Windows Desktop with Kubernetes](https://docs.docker.com/docker-for-windows/kubernetes/) page has instructions for getting an example app up and running
-- Follow along with Docker Developer Advocate [Elton Stoneman (<FontIcon icon="fa-brands fa-x-twitter"/>`EltonStoneman`)](https://twitter.com/EltonStoneman) during his short [<FontIcon icon="fa-brands fa-youtube"/>video](https://youtu.be/jWupQjdjLN0), demonstrating activating Kubernetes and deploying an application using both Docker compose and a Kubernetes manifest. (Note: the video shows Docker for Mac but the application works exactly the same in this beta of Docker for Windows…the power of Docker containers in action!)
+- The [<VPIcon icon="fa-brands fa-docker"/>Docker for Windows Desktop with Kubernetes](https://docs.docker.com/docker-for-windows/kubernetes/) page has instructions for getting an example app up and running
+- Follow along with Docker Developer Advocate [Elton Stoneman (<VPIcon icon="fa-brands fa-x-twitter"/>`EltonStoneman`)](https://twitter.com/EltonStoneman) during his short [<VPIcon icon="fa-brands fa-youtube"/>video](https://youtu.be/jWupQjdjLN0), demonstrating activating Kubernetes and deploying an application using both Docker compose and a Kubernetes manifest. (Note: the video shows Docker for Mac but the application works exactly the same in this beta of Docker for Windows…the power of Docker containers in action!)
 
 <VidStack src="youtube/jWupQjdjLN0" />
 

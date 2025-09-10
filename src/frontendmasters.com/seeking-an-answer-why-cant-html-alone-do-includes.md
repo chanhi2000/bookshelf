@@ -54,9 +54,9 @@ I’m obsessed with this basic web need.
 
 You’ve got three pages:
 
-- <FontIcon icon="fa-brands fa-html5"/>`index.html`
-- <FontIcon icon="fa-brands fa-html5"/>`about.html`
-- <FontIcon icon="fa-brands fa-html5"/>`contact.html`
+- <VPIcon icon="fa-brands fa-html5"/>`index.html`
+- <VPIcon icon="fa-brands fa-html5"/>`about.html`
+- <VPIcon icon="fa-brands fa-html5"/>`contact.html`
 
 You need to put **the same** header on all three pages.
 
@@ -68,9 +68,9 @@ Our developer brains scream at us to ensure that we’re not copying the exact c
 
 ## There are so many solutions to this problem
 
-We don’t need to list them all here. I [<FontIcon icon="fas fa-globe"/>documented *some* of them](https://css-tricks.com/the-simplest-ways-to-handle-html-includes/) one time, but there are many more.
+We don’t need to list them all here. I [<VPIcon icon="fas fa-globe"/>documented *some* of them](https://css-tricks.com/the-simplest-ways-to-handle-html-includes/) one time, but there are many more.
 
-We’ve got JavaScript to go [<FontIcon icon="fa-brands fa-firefox"/>`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) the HTML and [<FontIcon icon="fa-brands fa-firefox"/>`insert`](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement) it. We’ve got [<FontIcon icon="fas fa-globe"/>old school web server directives](https://httpd.apache.org/docs/2.4/howto/ssi.html). Any [<FontIcon icon="fas fa-globe"/>static site generator](https://jekyllrb.com/docs/includes/) can do it. [Task runners (<FontIcon icon="fa-brands fa-npm"/>`gulp-include`)](https://npmjs.com/package/gulp-include) can do it. [Templating languages](https://handlebarsjs.com/guide/partials.html) tend to have include functionality. Any [<FontIcon icon="fa-brands fa-php"/>backend language](https://php.net/manual/en/function.include.php) can generate HTML on the fly. I’ve seen several [<FontIcon icon="fas fa-globe"/>Web Components](https://keithcirkel.co.uk/i-html/) purpose-built for this. We’ve got `<iframe>`, which technically is a pure HTML solution, but they are bad for overall performance, accessibility, and generally extremely awkward here, but we [<FontIcon icon="fas fa-globe"/>can extract them](https://filamentgroup.com/lab/html-includes/#another-demo%3A-including-another-html-file). We can just not worry about includes at all and trust our code editors powerful find and replace tools.
+We’ve got JavaScript to go [<VPIcon icon="fa-brands fa-firefox"/>`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) the HTML and [<VPIcon icon="fa-brands fa-firefox"/>`insert`](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement) it. We’ve got [<VPIcon icon="fas fa-globe"/>old school web server directives](https://httpd.apache.org/docs/2.4/howto/ssi.html). Any [<VPIcon icon="fas fa-globe"/>static site generator](https://jekyllrb.com/docs/includes/) can do it. [Task runners (<VPIcon icon="fa-brands fa-npm"/>`gulp-include`)](https://npmjs.com/package/gulp-include) can do it. [Templating languages](https://handlebarsjs.com/guide/partials.html) tend to have include functionality. Any [<VPIcon icon="fa-brands fa-php"/>backend language](https://php.net/manual/en/function.include.php) can generate HTML on the fly. I’ve seen several [<VPIcon icon="fas fa-globe"/>Web Components](https://keithcirkel.co.uk/i-html/) purpose-built for this. We’ve got `<iframe>`, which technically is a pure HTML solution, but they are bad for overall performance, accessibility, and generally extremely awkward here, but we [<VPIcon icon="fas fa-globe"/>can extract them](https://filamentgroup.com/lab/html-includes/#another-demo%3A-including-another-html-file). We can just not worry about includes at all and trust our code editors powerful find and replace tools.
 
 ---
 
@@ -88,7 +88,7 @@ I’m sure there are reasons. Normally, web standards and browsers are all about
 
 So what are those reasons?
 
-- Does it wreck the [<FontIcon icon="iconfont icon-webdev"/>preload scanner](https://web.dev/articles/preload-scanner)? As in, it could have very bad web performance issues?
+- Does it wreck the [<VPIcon icon="iconfont icon-webdev"/>preload scanner](https://web.dev/articles/preload-scanner)? As in, it could have very bad web performance issues?
 - Would it have to be async and thus have issues with jerky/shifty loading experiences?
 - Does it introduce some kind of complexity that harms the purity of HTML or something?
 - Is it the difficulty of handling nested includes? Circular includes?

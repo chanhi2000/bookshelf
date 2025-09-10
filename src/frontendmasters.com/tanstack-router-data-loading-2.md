@@ -56,7 +56,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4492"/>
 
-[<FontIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest), commonly referred to as react-query, is an incredibly popular tool for managing client-side querying. You could create an entire course on react-query, and people have, but here we’re going to keep it brief so you can quickly get going.
+[<VPIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest), commonly referred to as react-query, is an incredibly popular tool for managing client-side querying. You could create an entire course on react-query, and people have, but here we’re going to keep it brief so you can quickly get going.
 
 ::: info Article Series
 
@@ -108,7 +108,7 @@ The `queryKey` does what it sounds like: it lets you identify any particular key
 
 There’s also a`useSuspenseQuery`hook which is the same idea, except instead of giving you an isLoading value, it relies on Suspense, and lets you handle loading state via Suspense boundaries.
 
-This barely scratches the surface of Query. If you’ve never used it before, be sure to check out[<FontIcon icon="fas fa-globe"/>the docs](https://tanstack.com/query/latest).
+This barely scratches the surface of Query. If you’ve never used it before, be sure to check out[<VPIcon icon="fas fa-globe"/>the docs](https://tanstack.com/query/latest).
 
 We’ll move on and cover the setup and integration with Router, but we’ll stay high level to keep this post a manageable length.
 
@@ -337,7 +337,7 @@ Now when we check the console, we see something a lot nicer.
 
 What happens when we *page up*. The page value will change in the URL, Router will send a new page value down into our loader, and our component. Then, our`useSuspenseQuery`will execute with new query values, and suspend again. That means our existing list of tasks will disappear, and show the “loading tasks” pending component. That would be a terrible UX.
 
-Fortunately, React offers us a nice solution, with the`useDeferredValue`hook. The docs are[<FontIcon icon="fa-brands fa-react"/>here](https://react.dev/reference/react/useDeferredValue). This allows us to “defer” a state change. If a state change causes our deferred value on the page to suspend, React will keep the existing UI in place, and the deferred value will simply hold the old value. Let’s see it in action.
+Fortunately, React offers us a nice solution, with the`useDeferredValue`hook. The docs are[<VPIcon icon="fa-brands fa-react"/>here](https://react.dev/reference/react/useDeferredValue). This allows us to “defer” a state change. If a state change causes our deferred value on the page to suspend, React will keep the existing UI in place, and the deferred value will simply hold the old value. Let’s see it in action.
 
 ```tsx :collapsed-lines
 function Index() {
@@ -379,7 +379,7 @@ export const epicQueryOptions = (timestarted: number, id: string) => ({
 });`
 ```
 
-We can use them in both routes, and have them be cached in between (assuming we set the caching values to allow that). You can try it [in the demo app (<FontIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo): view an epic, go back to the list, then edit the same epic (or vice versa). Only the first of those pages you visit should cause the fetch to happen in your network tab.
+We can use them in both routes, and have them be cached in between (assuming we set the caching values to allow that). You can try it [in the demo app (<VPIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-loader-demo`)](https://github.com/arackaf/tanstack-router-loader-demo): view an epic, go back to the list, then edit the same epic (or vice versa). Only the first of those pages you visit should cause the fetch to happen in your network tab.
 
 ### Updating with react-query
 

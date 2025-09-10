@@ -64,7 +64,7 @@ In this article, we are going to learn how to implement the Adapter pattern into
 
 ::: info
 
-The source code is available at the[Adapter Design Pattern - Source Code. (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/csharp-design-patterns`)](https://github.com/CodeMazeBlog/csharp-design-patterns/tree/adapter-desing-pattern)
+The source code is available at the[Adapter Design Pattern - Source Code. (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/csharp-design-patterns`)](https://github.com/CodeMazeBlog/csharp-design-patterns/tree/adapter-desing-pattern)
 
 For the main page of this series check out [C# Design Patterns](/code-maze.com/design-patterns-csharp.md).
 

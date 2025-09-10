@@ -50,11 +50,11 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4294"/>
 
-I kid you not: Roman Komarov’s [<FontIcon icon="fas fa-globe"/>Fit-to-Width Text](https://kizu.dev/fit-to-width-text/) is one of my favorite CSS tricks I’ve ever seen. It’s, uh, quite a treat (that’s all you’re going to get here on Halloween, sorry). It’s just *so strange.* The end result is that you can size a line of text such that it hits the left and right edge of a container perfectly.
+I kid you not: Roman Komarov’s [<VPIcon icon="fas fa-globe"/>Fit-to-Width Text](https://kizu.dev/fit-to-width-text/) is one of my favorite CSS tricks I’ve ever seen. It’s, uh, quite a treat (that’s all you’re going to get here on Halloween, sorry). It’s just *so strange.* The end result is that you can size a line of text such that it hits the left and right edge of a container perfectly.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/10/Screenshot-2024-10-31-at-12.41.00%E2%80%AFPM.png?resize=996%2C738&ssl=1)
 
-This is a very legitimate need that people have been solving for ages. If the container is a fixed size, you can solve it by setting ultra specific font sizes. But more likely these days, containers are of unknown widths, leaving us to JavaScript for figuring out how big of text we can fit in there. [<FontIcon icon="fas fa-globe"/>FitText](http://fittextjs.com/) was a seminal example. These days, we can also do it with [**container units**](/frontendmasters.com/container-queries-and-units.md#what-are-container-query-units), but it’s still extremely fiddly. Wouldn’t it be nice to be like `font-size: make-it-fit;`?
+This is a very legitimate need that people have been solving for ages. If the container is a fixed size, you can solve it by setting ultra specific font sizes. But more likely these days, containers are of unknown widths, leaving us to JavaScript for figuring out how big of text we can fit in there. [<VPIcon icon="fas fa-globe"/>FitText](http://fittextjs.com/) was a seminal example. These days, we can also do it with [**container units**](/frontendmasters.com/container-queries-and-units.md#what-are-container-query-units), but it’s still extremely fiddly. Wouldn’t it be nice to be like `font-size: make-it-fit;`?
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/10/Screenshot-2024-10-31-at-12.41.41%E2%80%AFPM.png?resize=1024%2C671&ssl=1)
 

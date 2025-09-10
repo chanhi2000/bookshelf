@@ -167,7 +167,7 @@ T AddAll<T>(params T[] elements) where T : IMonoid<T>
 }
 ```
 
-If you want to learn more, check out the docs on [<FontIcon icon="fa-brands fa-microsoft"/>static abstract interface methods](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members#static-abstract-interface-methods) and [<FontIcon icon="fa-brands fa-microsoft"/>generic math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members#generic-math).
+If you want to learn more, check out the docs on [<VPIcon icon="fa-brands fa-microsoft"/>static abstract interface methods](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members#static-abstract-interface-methods) and [<VPIcon icon="fa-brands fa-microsoft"/>generic math](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members#generic-math).
 
 ---
 

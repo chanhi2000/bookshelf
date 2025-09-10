@@ -58,7 +58,7 @@ the desired result
 
 Before reading further, try thinking about this. You are only given the start and end steps and the rest should be obtained via linear interpolation. How would you create them? Maybe put together a quick demo.
 
-Note that this is a different problem from stepped gradients with[<FontIcon icon="fa-brands fa-stack-overflow"/>a certain step size](https://stackoverflow.com/q/22052984/1397351). The given step size problem is way more complex and it’s impossible to solve with CSS alone as long as we don’t have native looping. SVG filters [provide a solution (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/gbpENPm), though they limit us to using just pixel values for the step size; having`em` or`calc()` values there isn’t possible without JS.
+Note that this is a different problem from stepped gradients with[<VPIcon icon="fa-brands fa-stack-overflow"/>a certain step size](https://stackoverflow.com/q/22052984/1397351). The given step size problem is way more complex and it’s impossible to solve with CSS alone as long as we don’t have native looping. SVG filters [provide a solution (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/gbpENPm), though they limit us to using just pixel values for the step size; having`em` or`calc()` values there isn’t possible without JS.
 
 ---
 
@@ -86,7 +86,7 @@ This means computing the intermediate step values and specifying a stop and posi
 
 Tedious!
 
-And this is the simplified version, the one that [<FontIcon icon="fas fa-globe"/>avoids repeating stops and stop positions](https://css-tricks.com/while-you-werent-looking-css-gradients-got-better/), something that has been well-supported cross-browser for over half a decade, by the way. Because I often see the ancient, inefficient version that duplicates everything:
+And this is the simplified version, the one that [<VPIcon icon="fas fa-globe"/>avoids repeating stops and stop positions](https://css-tricks.com/while-you-werent-looking-css-gradients-got-better/), something that has been well-supported cross-browser for over half a decade, by the way. Because I often see the ancient, inefficient version that duplicates everything:
 
 ```scss
 .step {
@@ -106,7 +106,7 @@ And this is the simplified version, the one that [<FontIcon icon="fas fa-globe"/
 }
 ```
 
-We could generate the stop list using Sass with looping and the [<FontIcon icon="fas fa-globe"/>`mix()`](https://sass-lang.com/documentation/modules/color/#mix) function.
+We could generate the stop list using Sass with looping and the [<VPIcon icon="fas fa-globe"/>`mix()`](https://sass-lang.com/documentation/modules/color/#mix) function.
 
 ```scss
 // $c0: gradient start
@@ -266,7 +266,7 @@ Which produces the following ugly compiled CSS:
 }
 ```
 
-We can tweak the Sass to get rid of the first and last `color-mix()` and use the given ends `--c0` and `--c1` instead ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bNdjKwJ)):
+We can tweak the Sass to get rid of the first and last `color-mix()` and use the given ends `--c0` and `--c1` instead ([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bNdjKwJ)):
 
 ```scss{18-26}
 @use "sass:math";
@@ -333,7 +333,7 @@ So… isn’t there another way?
 
 ## The No-Support Ideas
 
-The spec defines a [<FontIcon icon="iconfont icon-w3c"/>`stripes()` image function](https://w3.org/TR/css-images-4/#stripes) and my first thought was it should allow us to do this, though it was not clear to me in which direction the stripes would go, if we have a way of specifying that:
+The spec defines a [<VPIcon icon="iconfont icon-w3c"/>`stripes()` image function](https://w3.org/TR/css-images-4/#stripes) and my first thought was it should allow us to do this, though it was not clear to me in which direction the stripes would go, if we have a way of specifying that:
 
 ```scss
 .step {
@@ -354,7 +354,7 @@ The spec defines a [<FontIcon icon="iconfont icon-w3c"/>`stripes()` image functi
 
 But the more I read the first paragraph in the spec definition, the more it sounds like this wasn’t meant for backgrounds, but for stripes going along the direction of things like borders (including roundings) and text strokes. In this case, the line direction would be the “missing” direction.
 
-There’s also [a proposal (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/1332) to add animation-like gradient easing, including a `steps()` function, though, just like in the case of the `stripes()` function, there’s a lot about this I don’t understand and the proposal doesn’t seem to have moved much lately.
+There’s also [a proposal (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/1332) to add animation-like gradient easing, including a `steps()` function, though, just like in the case of the `stripes()` function, there’s a lot about this I don’t understand and the proposal doesn’t seem to have moved much lately.
 
 Since neither of these can be used today, what other solutions that we can currently use do we have?
 
@@ -402,11 +402,11 @@ This SVG `filter` needs to live inside an `svg` element. Since this `svg` elemen
 svg[height='0'][aria-hidden='true'] { position: fixed }
 ```
 
-The `filter` element also gets another attribute other than the `id`. We aren’t going into it, just know we need to set it to `sRGB` for cross-browser compatibility ***if*** we mess with the RGB channels, as the [<FontIcon icon="fa-brands fa-firefox"/>spec default](https://developer.mozilla.org/en-US/docs/Web/CSS/color-interpolation-filters#formal_definition) and the one used by all browsers nowadays is `linearRGB`, but `sRGB` is likely what we want in most cases, plus it used to be the *only* value that worked in Safari, though that has recently changed.
+The `filter` element also gets another attribute other than the `id`. We aren’t going into it, just know we need to set it to `sRGB` for cross-browser compatibility ***if*** we mess with the RGB channels, as the [<VPIcon icon="fa-brands fa-firefox"/>spec default](https://developer.mozilla.org/en-US/docs/Web/CSS/color-interpolation-filters#formal_definition) and the one used by all browsers nowadays is `linearRGB`, but `sRGB` is likely what we want in most cases, plus it used to be the *only* value that worked in Safari, though that has recently changed.
 
 In our particular case, if we don’t set the `color-interpolation-filters` attribute to `sRGB`, we won’t get equally sized steps in any browser other than older Safari versions which use `sRGB` anyway.
 
-Inside this `filter`, we have a [<FontIcon icon="fas fa-globe"/>`feComponentTransfer`](https://webplatform.github.io/docs/svg/elements/feComponentTransfer/#Table-and-Discrete-Component-Transfers) primitive. This allows us to manipulate the RGBA channels individually (via the suggestively named `feFuncR`, `feFuncG`, `feFuncB` and `feFuncA`) in various ways. In this case, we have a gradient from`black (0%red)` to `red (100% red)` so we manipulate the red channel using `feFuncR`.
+Inside this `filter`, we have a [<VPIcon icon="fas fa-globe"/>`feComponentTransfer`](https://webplatform.github.io/docs/svg/elements/feComponentTransfer/#Table-and-Discrete-Component-Transfers) primitive. This allows us to manipulate the RGBA channels individually (via the suggestively named `feFuncR`, `feFuncG`, `feFuncB` and `feFuncA`) in various ways. In this case, we have a gradient from`black (0%red)` to `red (100% red)` so we manipulate the red channel using `feFuncR`.
 
 ```xml
 <svg width='0' height='0' aria-hidden='true'>
@@ -452,7 +452,7 @@ In general, `n` equally spaced values for `tableValues` produce `n` equal steps 
 
 <VidStack src="https://videopress.com/125d5472-caa4-459c-9c68-756c17d02e71" />
 
-adjusting the number of steps adjusts tableValues and the visual result ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/NPWmorj/) - note that if you’re on a wide gamut display, you’re likely to see this [<FontIcon icon="fa-brands fa-chrome"/>broken in Chrome](https://issues.chromium.org/issues/373410239))
+adjusting the number of steps adjusts tableValues and the visual result ([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/NPWmorj/) - note that if you’re on a wide gamut display, you’re likely to see this [<VPIcon icon="fa-brands fa-chrome"/>broken in Chrome](https://issues.chromium.org/issues/373410239))
 
 If we use Pug, we can easily generate these values within a loop:
 
@@ -481,13 +481,13 @@ Below you can see how you can play with an interactive demo that allows to creat
 
 <VidStack src="https://videopress.com/a9dc491f-d20a-4ab4-ae6b-dd774c3f6f42" />
 
-picking the gradient channel and adjusting values for the fixed ones ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/ByNVrKL/) - note that this demo may also suffer from the Chrome wide gamut bug)
+picking the gradient channel and adjusting values for the fixed ones ([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/ByNVrKL/) - note that this demo may also suffer from the Chrome wide gamut bug)
 
 Out of all these cases, the most interesting one is the one varying the alpha.
 
-First off, using the alpha channel allows us to avoid both the wide gamut bug and another [<FontIcon icon="fa-brands fa-chrome"/>Chrome bug](https://issues.chromium.org/issues/425059618) we hit when using one of the RGB channels, *but not the alpha channel*.
+First off, using the alpha channel allows us to avoid both the wide gamut bug and another [<VPIcon icon="fa-brands fa-chrome"/>Chrome bug](https://issues.chromium.org/issues/425059618) we hit when using one of the RGB channels, *but not the alpha channel*.
 
-![the step edges are jagged in Chrome for the steps created on the RGB channels, but not on the alpha channel ([live test (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/dPojqGY))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/455843768-66471c4c-7bb3-42aa-bb2c-1ad6b52073ab.png?resize=900%2C725&ssl=1)
+![the step edges are jagged in Chrome for the steps created on the RGB channels, but not on the alpha channel ([live test (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/dPojqGY))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/455843768-66471c4c-7bb3-42aa-bb2c-1ad6b52073ab.png?resize=900%2C725&ssl=1)
 
 Secondly, what this allows us to do is to fade *any* RGB value in steps along the entire alpha interval. And if we place this stepped fade on top of another solid RGB background, we get our desired stepped gradient where we only need to know the start (the layer underneath, seen exactly as set for the first step where the alpha of the stepped gradient above is `0`) and end step (used for the stepped gradient on top).
 
@@ -566,9 +566,9 @@ This way, our CSS can become:
 
 Much simpler!
 
-The catch? While Safari has supported this for a decade (I first learned about this function and the Safari implementation in [<FontIcon icon="fas fa-globe"/>the summer of 2015](https://iamvdo.me/en/blog/advanced-css-filters#filter)!), [no other browser has followed (<FontIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717) since. Here are the [<FontIcon icon="fa-brands fa-chrome"/>Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=541698) and [<FontIcon icon="fa-brands fa-firefox"/>Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043) bugs for anyone who wants to show interest and add to the use cases.
+The catch? While Safari has supported this for a decade (I first learned about this function and the Safari implementation in [<VPIcon icon="fas fa-globe"/>the summer of 2015](https://iamvdo.me/en/blog/advanced-css-filters#filter)!), [no other browser has followed (<VPIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717) since. Here are the [<VPIcon icon="fa-brands fa-chrome"/>Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=541698) and [<VPIcon icon="fa-brands fa-firefox"/>Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043) bugs for anyone who wants to show interest and add to the use cases.
 
-Here is [the `filter()` version (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/gbpZRBZ) of the stepped gradients demo, but keep in mind it only works in Safari.
+Here is [the `filter()` version (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/gbpZRBZ) of the stepped gradients demo, but keep in mind it only works in Safari.
 
 ---
 
@@ -793,7 +793,7 @@ What makes this possible and easy is the fact that, by default, `background-size
 
 ![by default, backgrounds cover the entire `border-box`, but start from the top left corner of the `padding-box`](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/456658499-d7fd70ab-3c68-453f-a5fd-a17d380546cb.png?resize=626%2C562&ssl=1)
 
-Note that the whole reflect and repeat could be very much simplified on the CSS side if CSS gradients also allowed reflecting repetition [<FontIcon icon="fa-brands fa-firefox"/>like SVG ones do](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/spreadMethod).
+Note that the whole reflect and repeat could be very much simplified on the CSS side if CSS gradients also allowed reflecting repetition [<VPIcon icon="fa-brands fa-firefox"/>like SVG ones do](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/spreadMethod).
 
 ---
 
@@ -826,7 +826,7 @@ Regardless of the gradient type, the `filter()` function is going to simplify th
 }
 ```
 
-You can check out [the live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/XJbBPGb), but remember it only works in Safari.
+You can check out [the live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/XJbBPGb), but remember it only works in Safari.
 
 ---
 
@@ -834,7 +834,7 @@ You can check out [the live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebab
 
 The results aren’t perfect. When using radial or conic gradients or even linear ones at weird angles, we get jagged edges in between the steps. I guess it doesn’t look that bad in between steps that may be reasonably similar, but if we wanted to do something about it, what could we do?
 
-When creating the steps from the CSS, we can always use the [<FontIcon icon="fas fa-globe"/>`1px` difference trick](https://mastodon.social/@anatudor/112553357846316566) (avoid using a `1%` difference for this, it [<FontIcon icon="fas fa-globe"/>can be unreliable](https://mastodon.social/@anatudor/112965908316021981)) to smoothen things for radial and linear ones (the conic gradient case is a lot more complicated though and I haven’t been able to find a pure CSS solution that doesn’t involve emulating the conic gradient with a linear one).
+When creating the steps from the CSS, we can always use the [<VPIcon icon="fas fa-globe"/>`1px` difference trick](https://mastodon.social/@anatudor/112553357846316566) (avoid using a `1%` difference for this, it [<VPIcon icon="fas fa-globe"/>can be unreliable](https://mastodon.social/@anatudor/112965908316021981)) to smoothen things for radial and linear ones (the conic gradient case is a lot more complicated though and I haven’t been able to find a pure CSS solution that doesn’t involve emulating the conic gradient with a linear one).
 
 But what can we do about it in the case of steps created via an SVG `filter`?
 
@@ -847,7 +847,7 @@ Given the introduction of the `1px` difference produces an effect similar to a t
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-We could also smoothen the edges of each step using a technique similar to the [<FontIcon icon="fas fa-globe"/>no matrix filter gooey effect](https://mastodon.social/@anatudor/112523336154596358). That mostly works, save for a bit of weird rounding at the edges for all gradients and in the middle of the conic one. But that’s a lot of `filter` primitives, a lot for such a tiny visual gain.
+We could also smoothen the edges of each step using a technique similar to the [<VPIcon icon="fas fa-globe"/>no matrix filter gooey effect](https://mastodon.social/@anatudor/112523336154596358). That mostly works, save for a bit of weird rounding at the edges for all gradients and in the middle of the conic one. But that’s a lot of `filter` primitives, a lot for such a tiny visual gain.
 
 <CodePen
   user="thebabydino"

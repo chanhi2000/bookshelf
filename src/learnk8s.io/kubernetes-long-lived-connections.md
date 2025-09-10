@@ -80,7 +80,7 @@ The front end calls the backend to display a job title and logs which pod proces
 
 ## Deploying the Backend Pods
 
-This is what <FontIcon icon="iconfont icon-yaml"/>`backend-deployment.yaml` looks like.
+This is what <VPIcon icon="iconfont icon-yaml"/>`backend-deployment.yaml` looks like.
 
 Notice that we will include `replicas: 1` to indicate that I want to deploy only one pod.
 
@@ -247,11 +247,11 @@ kubectl get svc -n kube-system kube-dns
 # kube-dns   ClusterIP   10.96.0.10   53/UDP,53/TCP
 ```
 
-Kubelet configures each pod's <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`resolv.conf` file.
+Kubelet configures each pod's <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`resolv.conf` file.
 
 This file specifies how DNS queries are resolved, including the nameservers to use and the search domains to help expand queries.
 
-Check the contents of a pod's <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`resolv.conf` file:
+Check the contents of a pod's <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`resolv.conf` file:
 
 ```sh
 kubectl exec -it pod-name -- cat /etc/resolv.conf
@@ -318,7 +318,7 @@ netstat -ntlp | grep 10.96.5.81
 netstat -ntlp | grep 3000
 ```
 
-These commands will not return results because `10.96.5.81` is a [<FontIcon icon="iconfont icon-k8s"/>virtual IP managed by Kubernetes](https://kubernetes.io/docs/reference/networking/virtual-ips/) and is not tied to a specific process.
+These commands will not return results because `10.96.5.81` is a [<VPIcon icon="iconfont icon-k8s"/>virtual IP managed by Kubernetes](https://kubernetes.io/docs/reference/networking/virtual-ips/) and is not tied to a specific process.
 
 *So, how does it work?*
 
@@ -453,11 +453,11 @@ Iptables is a tool that operates at the network layer. It allows you to configur
 
 It's worth taking a step back and looking at how the traffic reaches the pod to understand how it works.
 
-[<FontIcon icon="fas fa-globe"/>When traffic first arrives at the node, it's intercepted by the Linux Kernel's networking stack, and it's then forwarded to the pod.](https://iximiuz.com/en/posts/laymans-iptables-101/)
+[<VPIcon icon="fas fa-globe"/>When traffic first arrives at the node, it's intercepted by the Linux Kernel's networking stack, and it's then forwarded to the pod.](https://iximiuz.com/en/posts/laymans-iptables-101/)
 
 ![How packets flow in a Kubernetes node](https://learnk8s.io/a/b013f255aedbf3fd185b2f84c70ed28a.svg)
 
-The Linux Kernel offers several hooks to customize how the traffic is handled [<FontIcon icon="fas fa-globe"/>depending on the stage of the network stack.](https://commons.wikimedia.org/wiki/File:Iptables_diagram.png)
+The Linux Kernel offers several hooks to customize how the traffic is handled [<VPIcon icon="fas fa-globe"/>depending on the stage of the network stack.](https://commons.wikimedia.org/wiki/File:Iptables_diagram.png)
 
 ![Hooks in the Linux Kernel's networking stack](https://learnk8s.io/a/fbb6a8a566625387c201b5d2d4616fac.svg)
 
@@ -477,7 +477,7 @@ For example, you might say, I want to redirect all traffic from a specific IP ad
 
 And that's precisely what happens in Kubernetes.
 
-**iptables has five modes of operations (i.e. tables): filter, nat, mangle, raw and [<FontIcon icon="fas fa-globe"/>security](https://lwn.net/Articles/267140/).**
+**iptables has five modes of operations (i.e. tables): filter, nat, mangle, raw and [<VPIcon icon="fas fa-globe"/>security](https://lwn.net/Articles/267140/).**
 
 ![Filter, Nat, mangle and raw tables in iptables](https://learnk8s.io/a/672ab62c81b38aac14c03156104ba120.svg)
 
@@ -535,7 +535,7 @@ Inside the container, update the package list and install `iptables`:
 apt update && apt install -y iptables
 ```
 
-**When a request is sent to the Service, it enters the node's network stack, where it is [<FontIcon icon="fas fa-globe"/>intercepted by the iptables rules set by kube-proxy.](https://stackrox.io/blog/kubernetes-networking-demystified/#iptables)**
+**When a request is sent to the Service, it enters the node's network stack, where it is [<VPIcon icon="fas fa-globe"/>intercepted by the iptables rules set by kube-proxy.](https://stackrox.io/blog/kubernetes-networking-demystified/#iptables)**
 
 The process begins in the `PREROUTING` chain of the `nat` table, where incoming packets are matched to service IPs.
 
@@ -618,7 +618,7 @@ iptables -t nat -L KUBE-SEP-O3HWD4DESFNXEYL6 -n --line-numbers
 # 2    DNAT                                         /* default/backend-service:backend */ tcp to:10.244.1.2:3000
 ```
 
-The first rule marks the packet for masquerading if [<FontIcon icon="fa-brands fa-stack-overflow"/>the pod requesting the service is also chosen as the destination.](https://stackoverflow.com/questions/68180239/iptables-rules-for-kube-dns)
+The first rule marks the packet for masquerading if [<VPIcon icon="fa-brands fa-stack-overflow"/>the pod requesting the service is also chosen as the destination.](https://stackoverflow.com/questions/68180239/iptables-rules-for-kube-dns)
 
 The `DNAT` rule changes the destination IP from the service IP (`10.96.5.81`) to the pod's IP (`10.244.1.2`).
 
@@ -818,8 +818,8 @@ As you've already experienced, this chain will have a `KUBE-SEP-*` chain for eac
 
 This is the third time you have found the `KUBE-MARK-MASQ` chain.
 
-1. In the first case (in `KUBE-SEP`), it was used for making sure that the **traffic originated from a pod could use a service that has the same pod as the destination** [<FontIcon icon="fa-brands fa-reddit"/>(hairpin NAT)](https://reddit.com/r/eero/comments/6we6er/comment/dm7ek4l/).
-2. The second case (in `KUBE-SVC`) ensured that [<FontIcon icon="fas fa-globe"/>traffic external to the cluster using the ClusterIP could be routed correctly.](https://docs.tigera.io/calico/latest/network-policy/services/services-cluster-ips)
+1. In the first case (in `KUBE-SEP`), it was used for making sure that the **traffic originated from a pod could use a service that has the same pod as the destination** [<VPIcon icon="fa-brands fa-reddit"/>(hairpin NAT)](https://reddit.com/r/eero/comments/6we6er/comment/dm7ek4l/).
+2. The second case (in `KUBE-SVC`) ensured that [<VPIcon icon="fas fa-globe"/>traffic external to the cluster using the ClusterIP could be routed correctly.](https://docs.tigera.io/calico/latest/network-policy/services/services-cluster-ips)
 3. The third case is just now in the NodePort chain (in `KUBE-EXT`).
 
 To understand why those are necessary, consider the following scenario.
@@ -919,7 +919,7 @@ The three lines read:
 
 **But there's a drawback: the pods see the Node's IP as the source of the request and not the original client.**
 
-You can set `externalTrafficPolicy: Local` to [<FontIcon icon="iconfont icon-k8s"/>preserve the client's original IP.](https://kubernetes.io/docs/tutorials/services/source-ip/#source-ip-for-services-with-type-clusterip)
+You can set `externalTrafficPolicy: Local` to [<VPIcon icon="iconfont icon-k8s"/>preserve the client's original IP.](https://kubernetes.io/docs/tutorials/services/source-ip/#source-ip-for-services-with-type-clusterip)
 
 **However, this change comes with its trade-offs, which we'll explore shortly.**
 
@@ -1319,11 +1319,11 @@ As each new pod becomes ready, `kube-proxy` immediately updates the routing rule
 
 Requests are dropped until the next health check on the `healthCheckNodePort`.
 
-[<FontIcon icon="iconfont icon-k8s"/>The `ProxyTerminatingEndpoints` feature, introduced in Kubernetes v1.26, handles this issue by allowing terminating pods to remain available for existing connections.](https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering/)
+[<VPIcon icon="iconfont icon-k8s"/>The `ProxyTerminatingEndpoints` feature, introduced in Kubernetes v1.26, handles this issue by allowing terminating pods to remain available for existing connections.](https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering/)
 
 Before v1.26, once a pod was marked as "terminating", it would stop serving traffic.
 
-[With `ProxyTerminatingEndpoints`, when a pod starts terminating, it's not immediately removed from active endpoints. (<FontIcon icon="iconfont icon-github"/`kubernetes/enhancements`)](https://github.com/kubernetes/enhancements/blob/master/keps/sig-network/1669-proxy-terminating-endpoints/README.md)
+[With `ProxyTerminatingEndpoints`, when a pod starts terminating, it's not immediately removed from active endpoints. (<VPIcon icon="iconfont icon-github"/`kubernetes/enhancements`)](https://github.com/kubernetes/enhancements/blob/master/keps/sig-network/1669-proxy-terminating-endpoints/README.md)
 
 Instead, it is marked with the conditions `terminating` and `serving`.
 
@@ -1532,7 +1532,7 @@ Even though iptables rules are no longer involved in routing the external traffi
 - Cloud load balancers perform health checks on `healthCheckNodePort` to verify that nodes are healthy before routing traffic to them, ensuring only nodes with active pods receive traffic.
 - Load balancers can be configured to route traffic directly to pods, bypassing NodePorts, which can improve performance and preserve the source IP.
 
-A special thank you goes to [Michael O'Leary (<FontIcon icon="fa-brands fa-linkedin"/>`michael-w-oleary`)](https://linkedin.com/in/michael-w-oleary/), who wrote the initial draft of this article and offered some invaluable feedback.
+A special thank you goes to [Michael O'Leary (<VPIcon icon="fa-brands fa-linkedin"/>`michael-w-oleary`)](https://linkedin.com/in/michael-w-oleary/), who wrote the initial draft of this article and offered some invaluable feedback.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -110,7 +110,7 @@ The flow of execution for an Awk command script with these patterns is:
 
 You should always remember this sequence of execution when working with special patterns to achieve the best results in an **Awk** operation.
 
-To understand it all, let us illustrate using the example from [**part 8**](/tecmint.com/learn-awk-variables-numeric-expressions-and-assignment-operators.md), about the list of domains owned by **Tecmint**, as stored in a file named <FontIcon icon="fas fa-file-lines"/>`domains.txt`.
+To understand it all, let us illustrate using the example from [**part 8**](/tecmint.com/learn-awk-variables-numeric-expressions-and-assignment-operators.md), about the list of domains owned by **Tecmint**, as stored in a file named <VPIcon icon="fas fa-file-lines"/>`domains.txt`.
 
 ```plaintext title="domains.txt"
 news.tecmint.com
@@ -131,7 +131,7 @@ tecmint.com
 
 ![View Contents of File](https://tecmint.com/wp-content/uploads/2016/07/View-Contents-of-File.png)
 
-In this example, we want to count the number of times the domain `tecmint.com` is listed in the file <FontIcon icon="fas fa-file-lines"/>`domains.txt`. So we wrote a small shell script called <FontIcon icon="iconfont icon-shell"/>`script.sh` to help us do that using the idea of variables, numeric expressions, and assignment operators which have the following content:
+In this example, we want to count the number of times the domain `tecmint.com` is listed in the file <VPIcon icon="fas fa-file-lines"/>`domains.txt`. So we wrote a small shell script called <VPIcon icon="iconfont icon-shell"/>`script.sh` to help us do that using the idea of variables, numeric expressions, and assignment operators which have the following content:
 
 ```sh title="script.sh"
 #!/bin/bash

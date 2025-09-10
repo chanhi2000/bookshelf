@@ -96,7 +96,7 @@ The header has two states:**expanded**and**collapsed**. We use dynamic elements 
 
 ::: tip
 
-To calculate the height for these containers we will use Custom layout in compose. If you already not know custom layout checkout [<FontIcon icon="fa-brands fa-android"/>*this*](https://developer.android.com/develop/ui/compose/layouts/custom).
+To calculate the height for these containers we will use Custom layout in compose. If you already not know custom layout checkout [<VPIcon icon="fa-brands fa-android"/>*this*](https://developer.android.com/develop/ui/compose/layouts/custom).
 
 <SiteInfo
   name="Custom layouts | Jetpack Compose| Android Developers"

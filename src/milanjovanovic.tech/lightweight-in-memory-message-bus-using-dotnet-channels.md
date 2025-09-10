@@ -103,7 +103,7 @@ public interface IEventBus
 }
 ```
 
-I want to be practical with the `IIntegrationEvent` abstraction, so I'll use [<FontIcon icon="iconfont icon-github"/>`jbogard/MediatR`](https://github.com/jbogard/MediatR) for the pub-sub support. The `IIntegrationEvent` interface will inherit from `INotification`. This allows us to easily define `IIntegrationEvent` handlers using `INotificationHandler<T>`. Also, the `IIntegrationEvent` has an identifier, so we can track its execution.
+I want to be practical with the `IIntegrationEvent` abstraction, so I'll use [<VPIcon icon="iconfont icon-github"/>`jbogard/MediatR`](https://github.com/jbogard/MediatR) for the pub-sub support. The `IIntegrationEvent` interface will inherit from `INotification`. This allows us to easily define `IIntegrationEvent` handlers using `INotificationHandler<T>`. Also, the `IIntegrationEvent` has an identifier, so we can track its execution.
 
 The abstract `IntegrationEvent` serves as a base class for concrete implementations.
 
@@ -122,9 +122,9 @@ public abstract record IntegrationEvent(Guid Id) : IIntegrationEvent;
 
 ## Simple In-Memory Queue Using Channels
 
-The `System.Threading.Channels` namespace provides data structures for asynchronously passing messages between producers and consumers. Channels implement the [<FontIcon icon="fa-brands fa-wikipedia-w"/>producer/consumer pattern](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem). Producers asynchronously produce data, and consumers asynchronously consume that data. It's an essential pattern for building loosely coupled systems.
+The `System.Threading.Channels` namespace provides data structures for asynchronously passing messages between producers and consumers. Channels implement the [<VPIcon icon="fa-brands fa-wikipedia-w"/>producer/consumer pattern](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem). Producers asynchronously produce data, and consumers asynchronously consume that data. It's an essential pattern for building loosely coupled systems.
 
-One of the primary motivations behind the adoption of [<FontIcon icon="fa-brands fa-microsoft"/>.NET Channels](https://learn.microsoft.com/en-us/dotnet/core/extensions/channels) is their exceptional performance characteristics. Unlike traditional message queues, Channels operate entirely in memory. This has the disadvantage of the potential for message loss if the application crashes.
+One of the primary motivations behind the adoption of [<VPIcon icon="fa-brands fa-microsoft"/>.NET Channels](https://learn.microsoft.com/en-us/dotnet/core/extensions/channels) is their exceptional performance characteristics. Unlike traditional message queues, Channels operate entirely in memory. This has the disadvantage of the potential for message loss if the application crashes.
 
 The `InMemoryMessageQueue` creates an unbounded channel using the `Channel.CreateUnbounded` bounded. This means the channel can have any number of readers and writers. It also exposes a `ChannelReader` and `ChannelWriter`, which allow consumers to publish and consume messages.
 
@@ -280,7 +280,7 @@ While our basic in-memory message bus is functional, there are several areas we 
 
 - **Resilience** - We can introduce retries when we run into exceptions, which will improve the reliability of the message bus.
 - **Idempotency** - Ask yourself if you want to handle the same message twice. The [idempotent consumer pattern](/milanjovanovic.tech/idempotent-consumer-handling-duplicate-messages.md) elegantly solves this problem.
-- **Dead Letter Queue** - Sometimes, we won't be able to handle a message correctly. It's a good idea to introduce a persistent storage for these messages. This is called a [<FontIcon icon="fa-brands fa-aws"/>Dead Letter Queue](https://aws.amazon.com/what-is/dead-letter-queue/), and it allows for troubleshooting at a later time.
+- **Dead Letter Queue** - Sometimes, we won't be able to handle a message correctly. It's a good idea to introduce a persistent storage for these messages. This is called a [<VPIcon icon="fa-brands fa-aws"/>Dead Letter Queue](https://aws.amazon.com/what-is/dead-letter-queue/), and it allows for troubleshooting at a later time.
 
 We've covered the key aspects of building an in-memory message bus using .NET Channels. You can extend this further by implementing the improvements for a more robust solution.
 

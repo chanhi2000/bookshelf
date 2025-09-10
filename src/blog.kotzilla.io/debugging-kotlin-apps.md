@@ -52,7 +52,7 @@ cover: https://blog.kotzilla.io/hubfs/Screenshot%202024-12-04%20at%2011.14.24.pn
   logo="https://blog.kotzilla.io/hubfs/favicon.png"
   preview="https://blog.kotzilla.io/hubfs/Screenshot%202024-12-04%20at%2011.14.24.png"/>
 
-As the [<FontIcon icon="iconfont icon-kotlin"/>Kotlin](https://kotlinlang.org/) language has grown, the projects built with it have become increasingly complex. And with that complexity comes new debugging headaches. Kotlin devs have to juggle a bunch of different tools, each with their own limitations, just to try and get to the bottom of performance issues, memory leaks, and architectural problems.
+As the [<VPIcon icon="iconfont icon-kotlin"/>Kotlin](https://kotlinlang.org/) language has grown, the projects built with it have become increasingly complex. And with that complexity comes new debugging headaches. Kotlin devs have to juggle a bunch of different tools, each with their own limitations, just to try and get to the bottom of performance issues, memory leaks, and architectural problems.
 
 ---
 
@@ -69,7 +69,7 @@ Debugging is fundamentally a problem-solving process with these stages:
 
 ## Debugging in Development
 
-The [<FontIcon icon="fa-brands fa-android"/>Android Studio debugger](https://developer.android.com/studio/debug) is built-in, but it can be really intrusive, especially when you're dealing with highly optimized, multithreaded code.
+The [<VPIcon icon="fa-brands fa-android"/>Android Studio debugger](https://developer.android.com/studio/debug) is built-in, but it can be really intrusive, especially when you're dealing with highly optimized, multithreaded code.
 
 In Android Studio, debugging typically begins with `println` statements to gain initial insights into issues. After this, you'd transition to Android Studio’s built-in debugger for a more interactive and effective troubleshooting process.
 
@@ -112,7 +112,7 @@ Once an application is deployed, debugging shifts focus from development to obse
 
 ## Enter the Kotzilla Platform
 
-[<FontIcon icon="fas fa-globe"/>The Kotzilla Platform](https://kotzilla.io/) is a debugging tool built on top of the [<FontIcon icon="fas fa-globe"/>Koin dependency injection](https://insert-koin.io/) framework, which a lot of Kotlin devs already use. So it integrates seamlessly with your existing architecture, automatically collecting all the data it needs without any extra instrumentation or overhead.
+[<VPIcon icon="fas fa-globe"/>The Kotzilla Platform](https://kotzilla.io/) is a debugging tool built on top of the [<VPIcon icon="fas fa-globe"/>Koin dependency injection](https://insert-koin.io/) framework, which a lot of Kotlin devs already use. So it integrates seamlessly with your existing architecture, automatically collecting all the data it needs without any extra instrumentation or overhead.
 
 This allows the Kotzilla Platform to give you detailed, contextual insights into what's going on under the hood - things like thread performance problems, memory leaks, and structural issues caused by overly complex dependency graphs or misused component lifecycles. It helps you quickly trace those issues back to the root cause, even in live production.
 
@@ -122,7 +122,7 @@ This allows the Kotzilla Platform to give you detailed, contextual insights into
 
 The Kotzilla Platform is a pretty comprehensive debugging tool designed specifically for Kotlin developers. It offers a unified approach that bridges the gap between development and production environments, providing insights and tools to tackle the unique issues of Kotlin app development.
 
-By using Koin's container, the [<FontIcon icon="fas fa-globe"/>Kotzilla SDK](https://doc.kotzilla.io/docs/seetings/overview) automatically collects essential data about your application's behavior without any intrusive instrumentation or performance overhead. This allows the platform to provide you with detailed, contextual insights into the inner workings of your Kotlin app.
+By using Koin's container, the [<VPIcon icon="fas fa-globe"/>Kotzilla SDK](https://doc.kotzilla.io/docs/seetings/overview) automatically collects essential data about your application's behavior without any intrusive instrumentation or performance overhead. This allows the platform to provide you with detailed, contextual insights into the inner workings of your Kotlin app.
 
 ---
 
@@ -132,7 +132,7 @@ Ok, let's talk turkey.
 
 As discussed, one of the standout features of the Kotzilla Platform is its ability to identify and resolve issues in your Kotlin app's before they affect your users.
 
-Want to see it in action? Let’s walk through a real-world example based on the [NowInAndroid app for Koin (<FontIcon icon="iconfont icon-github"/>`kotzilla-io/nowinandroid`)](https://github.com/kotzilla-io/nowinandroid). The following sections assume that the first two setup steps of this [<FontIcon icon="fas fa-globe"/>Getting started tutorial](https://doc.kotzilla.io/docs/getstartedNIA/overview) have already been completed.
+Want to see it in action? Let’s walk through a real-world example based on the [NowInAndroid app for Koin (<VPIcon icon="iconfont icon-github"/>`kotzilla-io/nowinandroid`)](https://github.com/kotzilla-io/nowinandroid). The following sections assume that the first two setup steps of this [<VPIcon icon="fas fa-globe"/>Getting started tutorial](https://doc.kotzilla.io/docs/getstartedNIA/overview) have already been completed.
 
 ---
 
@@ -171,7 +171,7 @@ class MainActivityViewModel(
 
 ### Observing the issue on the Kotzilla Platform
 
-Log in to the [<FontIcon icon="fas fa-globe"/>Kotzilla Platform](https://console.kotzilla.io/) and navigate to your app’s **Dashboard**. From there, open the **Sessions View** to review user sessions.
+Log in to the [<VPIcon icon="fas fa-globe"/>Kotzilla Platform](https://console.kotzilla.io/) and navigate to your app’s **Dashboard**. From there, open the **Sessions View** to review user sessions.
 
 ![**Max Event Duration**: Notice the 1-second delay in this column, showing how long the main thread was blocked.](https://blog.kotzilla.io/hs-fs/hubfs/Screenshot%202024-11-19%20at%2016.27.40.png?width=958&height=241&name=Screenshot%202024-11-19%20at%2016.27.40.png)
 
@@ -179,7 +179,7 @@ Log in to the [<FontIcon icon="fas fa-globe"/>Kotzilla Platform](https://console
 
 ![A click on this resolution shows you the detailed sequence of events in the timeline in which we can also see the impact of this delay during the loading of the `MainActivityViewModel`](https://blog.kotzilla.io/hs-fs/hubfs/Screenshot%202024-12-04%20at%2011.45.43.png?width=934&height=407&name=Screenshot%202024-12-04%20at%2011.45.43.png)
 
-You can try the Kotzilla Platform [<FontIcon icon="fas fa-globe"/>here for free.](https://kotzilla.io/) We'd love to hear what you think once you have. Maybe what other features you'd like to see?
+You can try the Kotzilla Platform [<VPIcon icon="fas fa-globe"/>here for free.](https://kotzilla.io/) We'd love to hear what you think once you have. Maybe what other features you'd like to see?
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

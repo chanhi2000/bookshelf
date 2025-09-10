@@ -111,7 +111,7 @@ implementation("io.projectreactor.tools:blockhound:1.0.6.RELEASE")
 
 ::: info
 
-In JDK 13+ you need special configuration, see [BlockHound documentation (<FontIcon icon="iconfont icon-github"/>`reactor/BlockHound`)](https://github.com/reactor/BlockHound). In general, using BlockHound with never versions of JDK can be more challenging.
+In JDK 13+ you need special configuration, see [BlockHound documentation (<VPIcon icon="iconfont icon-github"/>`reactor/BlockHound`)](https://github.com/reactor/BlockHound). In general, using BlockHound with never versions of JDK can be more challenging.
 
 <SiteInfo
   name="reactor/BlockHound"

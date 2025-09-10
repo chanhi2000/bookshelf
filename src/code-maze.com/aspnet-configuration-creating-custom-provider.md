@@ -55,7 +55,7 @@ For the custom configuration provider, we’ll use Entity Framework Core, couple
 
 ::: info
 
-The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [<FontIcon icon="fas fa-code-branch"/>`configuration-providers` (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/configuration-providers) branch. To check out the finished source code, check out the [<FontIcon icon="fas fa-code-branch"/>`custom-configuration-provider` (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/custom-configuration-provider) branch.
+The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [<VPIcon icon="fas fa-code-branch"/>`configuration-providers` (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/configuration-providers) branch. To check out the finished source code, check out the [<VPIcon icon="fas fa-code-branch"/>`custom-configuration-provider` (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/custom-configuration-provider) branch.
 
 <SiteInfo
   name="CodeMazeBlog/aspnet-core-configuration"
@@ -122,7 +122,7 @@ services.AddDbContext<ConfigurationDbContext>(opts =>
     opts.UseSqlServer(Configuration.GetConnectionString("sqlConnection")));
 ```
 
-And of course, you need to change the connection string in the <FontIcon icon="iconfont icon-json"/>`appsettings.json` file to your database. If you’re using SqlExpress, it most probably looks like this:
+And of course, you need to change the connection string in the <VPIcon icon="iconfont icon-json"/>`appsettings.json` file to your database. If you’re using SqlExpress, it most probably looks like this:
 
 ```json
 "ConnectionStrings": {
@@ -249,7 +249,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
         });
 ```
 
-As you can see we’re building the configuration builder in order to get the `IConfiguration`. We need it because our connection string is stored in the <FontIcon icon="iconfont icon-json"/>`appsettings.json` file. Now we can create a configuration source with that connection string, and add it to the existing configuration sources with the `configBuilder.Add()` method.
+As you can see we’re building the configuration builder in order to get the `IConfiguration`. We need it because our connection string is stored in the <VPIcon icon="iconfont icon-json"/>`appsettings.json` file. Now we can create a configuration source with that connection string, and add it to the existing configuration sources with the `configBuilder.Add()` method.
 
 Now we want to clear the appsettings.json file a bit:
 

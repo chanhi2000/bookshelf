@@ -71,7 +71,7 @@ The value `blue` seems a likely candidate to be our color, doesn’t it? After a
 
 - The custom property isn’t defined.
 - The custom property’s value is the `initial` keyword.
-- The custom property is [<FontIcon icon="iconfont icon-w3c"/>animation-tainted](https://w3.org/TR/css-variables/#animation-tainted) and is used in an animation property.
+- The custom property is [<VPIcon icon="iconfont icon-w3c"/>animation-tainted](https://w3.org/TR/css-variables/#animation-tainted) and is used in an animation property.
 
 *and*…
 
@@ -100,7 +100,7 @@ When parsing a custom property or its matching `var()` function, the browser doe
 
 ::: note
 
-If you want to prevent a custom property from being overwritten, you’ll have to [<FontIcon icon="fas fa-globe"/>mark it as important](https://css-tricks.com/the-surprising-behavior-of-important-in-css-custom-property-values/).
+If you want to prevent a custom property from being overwritten, you’ll have to [<VPIcon icon="fas fa-globe"/>mark it as important](https://css-tricks.com/the-surprising-behavior-of-important-in-css-custom-property-values/).
 
 :::
 
@@ -221,8 +221,8 @@ p {
 
 You can follow their progress on GitHub:
 
-- [Discussion (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/10443) resulting in the `revert-rule` keyword resolution.
-- [Discussion (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5055) resulting in `first-valid()` resolution.
+- [Discussion (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/10443) resulting in the `revert-rule` keyword resolution.
+- [Discussion (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5055) resulting in `first-valid()` resolution.
 
 ::: info Further Learning
 

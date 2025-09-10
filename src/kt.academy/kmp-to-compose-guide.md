@@ -192,7 +192,7 @@ Clean Architecture separates platform code from business logic, making testing e
 
 ## 🗄️ Setting Up SQLDelight Database
 
-### 1. Configure SQLDelight in <FontIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`
+### 1. Configure SQLDelight in <VPIcon icon="iconfont icon-kotlin"/>`build.gradle.kts`
 
 ```groovy title="build.gradle.kts"
 sqldelight {
@@ -207,7 +207,7 @@ sqldelight {
 
 ### 2. Create Database Schema
 
-Create <FontIcon icon="fas fa-folder-open"/>`composeApp/src/commonMain/sqldelight/database/`<FontIcon icon="fas fa-file-lines"/>`Subscription.sq`:
+Create <VPIcon icon="fas fa-folder-open"/>`composeApp/src/commonMain/sqldelight/database/`<VPIcon icon="fas fa-file-lines"/>`Subscription.sq`:
 
 ```sql :collapsed-lines title="composeApp/src/commonMain/sqldelight/database/Subscription.sq"
 -- Subscription table with proper indexing for performance
@@ -285,7 +285,7 @@ GROUP BY s.currency_code, c.symbol, c.exchange_rate_to_usd;
 
 The key to SQLDelight's cross-platform magic is the **expect/actual** pattern:
 
-#### Common interface (<FontIcon icon="fas fa-folder-open"/>`commonMain/data/local/`<FontIcon icon="iconfont icon-kotlin"/>`DatabaseDriverFactory.kt`)
+#### Common interface (<VPIcon icon="fas fa-folder-open"/>`commonMain/data/local/`<VPIcon icon="iconfont icon-kotlin"/>`DatabaseDriverFactory.kt`)
 
 ```kotlin title="commonMain/data/local/DatabaseDriverFactory.kt"
 import app.cash.sqldelight.db.SqlDriver
@@ -295,7 +295,7 @@ expect class DatabaseDriverFactory {
 }
 ```
 
-#### Android implementation** (<FontIcon icon="fas fa-folder-open"/>`androidMain/data/local/`<FontIcon icon="iconfont icon-kotlin"/>`DatabaseDriverFactory.android.kt`)
+#### Android implementation** (<VPIcon icon="fas fa-folder-open"/>`androidMain/data/local/`<VPIcon icon="iconfont icon-kotlin"/>`DatabaseDriverFactory.android.kt`)
 
 ```kotlin title="androidMain/data/local/DatabaseDriverFactory.android.kt"
 import android.content.Context
@@ -314,7 +314,7 @@ actual class DatabaseDriverFactory(private val context: Context) {
 }
 ```
 
-#### iOS implementation (<FontIcon icon="fas fa-folder-open"/>`iosMain/data/local/`<FontIcon icon="iconfont icon-kotlin"/>`DatabaseDriverFactory.ios.kt`):
+#### iOS implementation (<VPIcon icon="fas fa-folder-open"/>`iosMain/data/local/`<VPIcon icon="iconfont icon-kotlin"/>`DatabaseDriverFactory.ios.kt`):
 
 ```kotlin title="iosMain/data/local/DatabaseDriverFactory.ios.kt"
 import app.cash.sqldelight.db.SqlDriver
@@ -337,7 +337,7 @@ actual class DatabaseDriverFactory {
 
 ### 1. Domain Layer - Business Logic
 
-#### Repository Interface (<FontIcon icon="fas fa-folder-open"/>`domain/repository/`<FontIcon icon="iconfont icon-kotlin"/>`SubscriptionRepository.kt`):
+#### Repository Interface (<VPIcon icon="fas fa-folder-open"/>`domain/repository/`<VPIcon icon="iconfont icon-kotlin"/>`SubscriptionRepository.kt`):
 
 ```kotlin title="domain/repository/SubscriptionRepository.kt"
 import dev.faisalahmed.kyklos.data.model.Subscription
@@ -354,7 +354,7 @@ interface SubscriptionRepository {
 }
 ```
 
-#### Use Case Example (`domain/usecase/`<FontIcon icon="iconfont icon-kotlin"/>`GetSubscriptionsUseCase.kt`):
+#### Use Case Example (`domain/usecase/`<VPIcon icon="iconfont icon-kotlin"/>`GetSubscriptionsUseCase.kt`):
 
 ```kotlin title="domain/usecase/GetSubscriptionsUseCase.kt"
 class GetSubscriptionsUseCase(
@@ -872,7 +872,7 @@ Kotlin Multiplatform Mobile has matured into a production-ready solution for cro
 
 The **Kyklos** subscription management app demonstrates how to build a real-world application using modern KMP practices. By following Clean Architecture principles and leveraging powerful libraries like SQLDelight, you can create maintainable, testable, and scalable cross-platform applications.
 
-**Ready to start your KMP journey?** The complete source code for this tutorial is available on [GitHub (<FontIcon icon="iconfont icon-github"/>`tomriddle25/kyklos`)](https://github.com/tomriddle25/kyklos), showcasing the foundation we've built together. While we're still implementing the full feature set, the architecture and setup demonstrate production-ready KMP practices you can use as a reference for your own projects.
+**Ready to start your KMP journey?** The complete source code for this tutorial is available on [GitHub (<VPIcon icon="iconfont icon-github"/>`tomriddle25/kyklos`)](https://github.com/tomriddle25/kyklos), showcasing the foundation we've built together. While we're still implementing the full feature set, the architecture and setup demonstrate production-ready KMP practices you can use as a reference for your own projects.
 
 ::: info Coming Next in This Series:
 

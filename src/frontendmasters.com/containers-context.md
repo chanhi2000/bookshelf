@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4904"/>
 
-I ran into what I thought was a `z-index` bug in Safari (or, Safari had it right and Chrome and Firefox had it wrong). I made [a reduced test case here (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/KwPmYrJ).
+I ran into what I thought was a `z-index` bug in Safari (or, Safari had it right and Chrome and Firefox had it wrong). I made [a reduced test case here (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/KwPmYrJ).
 
 <CodePen
   user="chriscoyier"
@@ -65,7 +65,7 @@ But it’s not a bug.
 
 ::: info
 
-[<FontIcon icon="fas fa-globe"/>Stephanie Eckles let me know](https://front-end.social/@5t3ph/113697426219955556) about a [change to the specs (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/10544):
+[<VPIcon icon="fas fa-globe"/>Stephanie Eckles let me know](https://front-end.social/@5t3ph/113697426219955556) about a [change to the specs (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/10544):
 
 > `RESOLVED: container-type does not force layout containment, but does force an independent formatting context`
 
@@ -73,13 +73,13 @@ But it’s not a bug.
 
 This apparently means declaring a container *doesn’t* force a new formatting context anymore and thus my negative `z-index` would “work” as I wanted it to.
 
-Chrome and Firefox have made the change and it out in the stable version of those browsers. [<FontIcon icon="fas fa-globe"/>Safari’s update](https://mastodon.social/@smfr/113698830197560450) will roll out… at some point.
+Chrome and Firefox have made the change and it out in the stable version of those browsers. [<VPIcon icon="fas fa-globe"/>Safari’s update](https://mastodon.social/@smfr/113698830197560450) will roll out… at some point.
 
 That’s an interesting situation isn’t it?! It looks and feels like a bug, but really it’s just a situation of a spec change and varied levels of browser support for that change. It’s not a matter of support-or-no-support of a feature, it’s a side effect. As far as I know, not practically testable. Just something that has to be lived with until all browsers implement it the same.
 
 It’s a decently beefy change (affecting important stuff like positioning), and almost certainly for the better (because you can still force a formatting context if you want, it’s just nice to have the option). Since I became aware of this, I helped someone else having the same problem. In both cases, we totally aborted what we were trying to do as there didn’t seem to be any workaround that felt great. Probably a metaphor in there somewhere.
 
-Despite improved tools over the years (i.e. `@supports` and `CSS.supports()`) sometimes figuring out browser support is still just hard. Guaranteed I would have been tripped up by Stoyan Stefanov’s issue with [<FontIcon icon="fas fa-globe"/>@supports and @font-face troubles](https://phpied.com/supports-and-font-face-troubles/) as well. Good thing we blog, eh?
+Despite improved tools over the years (i.e. `@supports` and `CSS.supports()`) sometimes figuring out browser support is still just hard. Guaranteed I would have been tripped up by Stoyan Stefanov’s issue with [<VPIcon icon="fas fa-globe"/>@supports and @font-face troubles](https://phpied.com/supports-and-font-face-troubles/) as well. Good thing we blog, eh?
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

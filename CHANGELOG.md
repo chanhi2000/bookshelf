@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com)
 and this project adheres to [Semantic Versioning](http://semver.org).
 
+- [v0.2.0: 2025-09-25][v0.2.0]
+  - 컨텐츠 추가
+  - vuepress-theme-hope: 버전 bump (2.0.0-rc.112)
+  - rollup을 위한 컨텐츠 분리 (임시): `freecodecamp.org`, `hackingwithswift.com`
 - [v0.1.30: 2025-09-07][v0.1.30]: 컨텐츠 추가
 - [v0.1.29: 2025-08-31][v0.1.29]: 컨텐츠 추가
 - [v0.1.28: 2025-08-17][v0.1.28]: 컨텐츠 추가
@@ -100,3 +104,4 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 [v0.1.28]: https://github.com/chanhi2000/bookshelf/compare/v0.1.27...v0.1.28
 [v0.1.29]: https://github.com/chanhi2000/bookshelf/compare/v0.1.28...v0.1.29
 [v0.1.30]: https://github.com/chanhi2000/bookshelf/compare/v0.1.29...v0.1.30
+[v0.2.0]: https://github.com/chanhi2000/bookshelf/compare/v0.1.30...v0.2.0

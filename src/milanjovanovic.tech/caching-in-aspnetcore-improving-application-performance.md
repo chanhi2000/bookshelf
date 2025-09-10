@@ -70,7 +70,7 @@ Caching allows subsequent requests for the same data to be served from the cache
 
 ASP.NET Core offers several types of caches, such as `IMemoryCache`, `IDistributedCache`, and the upcoming `HybridCache` (.NET 9).
 
-In this newsletter, we will explore how to implement [<FontIcon icon="fa-brands fa-microsoft"/>caching in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/memory) applications.
+In this newsletter, we will explore how to implement [<VPIcon icon="fa-brands fa-microsoft"/>caching in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/memory) applications.
 
 ---
 
@@ -82,7 +82,7 @@ Caching improves your application's performance by reducing latency and server l
 - **Fewer database queries**: Caching frequently accessed data reduces the number of database queries. This reduces the load on the database server.
 - **Lower CPU usage**: Rendering web pages or processing API responses can consume significant CPU resources. Caching the results reduces the need for repetitive CPU-intensive tasks.
 - **Handling increased traffic**: By reducing the load on backend systems, caching allows your application to handle more concurrent users and requests.
-- **Distributed caching**: Distributed cache solutions like [<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) enable scaling the cache across multiple servers, further improving performance and resilience.
+- **Distributed caching**: Distributed cache solutions like [<VPIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) enable scaling the cache across multiple servers, further improving performance and resilience.
 
 In a recent project I worked on, we used Redis to scale to more than 1,000,000 users. We only had one SQL Server instance with a read-replica for reporting. The power of caching, eh?
 
@@ -218,7 +218,7 @@ app.MapGet(
 
 ## Distributed Caching With Redis
 
-[<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) is a popular in-memory data store often used as a high-performance distributed cache. To use Redis in your ASP.NET Core application, you can use the `StackExchange.Redis` library.
+[<VPIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) is a popular in-memory data store often used as a high-performance distributed cache. To use Redis in your ASP.NET Core application, you can use the `StackExchange.Redis` library.
 
 However, there's also the `Microsoft.Extensions.Caching.StackExchangeRedis` library, allowing you to integrate Redis with `IDistributedCache`.
 
@@ -260,7 +260,7 @@ Now, when you inject `IDistributedCache`, it will use Redis under the hood.
 
 ## Cache Stampede and HybridCache
 
-The in-memory cache implementations in ASP.NET Core are susceptible to race conditions, which can cause a cache stampede. A [<FontIcon icon="fa-brands fa-wikipedia-w"/>cache stampede](https://en.wikipedia.org/wiki/Cache_stampede) happens when concurrent requests encounter a cache miss and try to fetch the data from the source. This can overload your application and negate the benefits of caching.
+The in-memory cache implementations in ASP.NET Core are susceptible to race conditions, which can cause a cache stampede. A [<VPIcon icon="fa-brands fa-wikipedia-w"/>cache stampede](https://en.wikipedia.org/wiki/Cache_stampede) happens when concurrent requests encounter a cache miss and try to fetch the data from the source. This can overload your application and negate the benefits of caching.
 
 Locking is one solution for the cache stampede problem. .NET offers many options for [locking and concurrency control](/milanjovanovic.tech/introduction-to-locking-and-concurrency-control-in-dotnet-6.md). The most commonly used locking primitives are the `lock` statement and the `Semaphore` (or `SemaphoreSlim`) class.
 
@@ -303,7 +303,7 @@ public static class DistributedCacheExtensions
 
 The previous implementation has a lock contention issue since all requests have to wait for the semaphore. A much better solution would be locking based on the `key` value.
 
-.NET 9 introduces a new caching abstraction called `HybridCache`, which aims to solve the shortcomings of `IDistributedCache`. Learn more about this in the [<FontIcon icon="fa-brands fa-microsoft"/>Hybrid cache documentation](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/hybrid).
+.NET 9 introduces a new caching abstraction called `HybridCache`, which aims to solve the shortcomings of `IDistributedCache`. Learn more about this in the [<VPIcon icon="fa-brands fa-microsoft"/>Hybrid cache documentation](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/hybrid).
 
 ---
 

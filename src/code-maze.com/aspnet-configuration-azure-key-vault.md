@@ -71,7 +71,7 @@ These methods are not suited for production because the values we keep that way 
 
 ::: info
 
-The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [<FontIcon icon="fas fa-code-branch"/>`securing-data-locally` (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/securing-data-locally) branch. To check out the finished source code, check out the [<FontIcon icon="fas fa-code-branch"/>`azure-key-vault` (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/azure-key-vault) branch.
+The source code for this article can be found on the [ASP.NET Core Configuration repo on GitHub (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration). If you wish to follow along, use the [<VPIcon icon="fas fa-code-branch"/>`securing-data-locally` (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/securing-data-locally) branch. To check out the finished source code, check out the [<VPIcon icon="fas fa-code-branch"/>`azure-key-vault` (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/aspnet-core-configuration`)](https://github.com/CodeMazeBlog/aspnet-core-configuration/tree/azure-key-vault) branch.
 
 <SiteInfo
   name="CodeMazeBlog/aspnet-core-configuration"
@@ -132,7 +132,7 @@ Certificate creation has a few steps, and we recommend using OpenSSL to do it si
 
 ### Creating a certificate with OpenSSL
 
-1. If you don’t have OpenSSL on Windows [<FontIcon icon="fas fa-globe"/>download it](https://slproweb.com/products/Win32OpenSSL.html) and - it
+1. If you don’t have OpenSSL on Windows [<VPIcon icon="fas fa-globe"/>download it](https://slproweb.com/products/Win32OpenSSL.html) and - it
 2. Create a certificate by typing:<br>`openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365`
 3. Create a .pfx file from the key and certificate files:<br>`openssl pkcs12 -export -out domain.name.pfx -inkey domain.name.key -in domain.name.crt`
 4. Install pfx locally (double click and go through the wizard)
@@ -296,4 +296,4 @@ That’s it, awesome isn’t it?
 
 In this article, we’ve learned how to create an Azure Key Vault to store our secrets for a production environment. We’ve also learned how to connect to the vault from our application and how to use key vault just when running the application in production.
 
-This part wraps up our ASP.NET Core configuration series. You can find other parts of this series on the [<FontIcon icon="fas fa-globe"/>ASP.NET Core Web API page](https://code-maze.com/net-core-series/#configuration).
+This part wraps up our ASP.NET Core configuration series. You can find other parts of this series on the [<VPIcon icon="fas fa-globe"/>ASP.NET Core Web API page](https://code-maze.com/net-core-series/#configuration).

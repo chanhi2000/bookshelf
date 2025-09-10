@@ -56,7 +56,7 @@ When it comes to building Docker containers, you should always strive for smalle
 
 But how do you keep the size under control when every `RUN` statement creates a new layer, and you need intermediate artefacts before the image is ready?
 
-You may have noticed that most of the <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`s in the wild have some weird tricks like this:
+You may have noticed that most of the <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`s in the wild have some weird tricks like this:
 
 ```dockerfile title="Dockerfile"
 FROM ubuntu
@@ -101,7 +101,7 @@ It turns out you can do something similar in Docker too with a multi-stage build
 
 In this example, you will build a Node.js container.
 
-Let's start with an<FontIcon icon="fa-brands fa-js"/>`index.js`:
+Let's start with an<VPIcon icon="fa-brands fa-js"/>`index.js`:
 
 ```js
 const express = require('express')
@@ -114,7 +114,7 @@ app.listen(3000, () => {
 })
 ```
 
-and<FontIcon icon="iconfont icon-json"/>`package.json`:
+and<VPIcon icon="iconfont icon-json"/>`package.json`:
 
 ```json title="package.json"
 {
@@ -130,7 +130,7 @@ and<FontIcon icon="iconfont icon-json"/>`package.json`:
 }
 ```
 
-You can package this application with the following <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`:
+You can package this application with the following <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`:
 
 ```dockerfile title="Dockerfile"
 FROM node:8
@@ -162,7 +162,7 @@ docker run -p 3000:3000 -ti --rm --init node-vanilla
 
 You should be able to visit `http://localhost:3000` and be greeted by *"Hello World!"*.
 
-There is a `COPY` and a `RUN` statements in the <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`. So you should expect to see at least two layers more than the base image:
+There is a `COPY` and a `RUN` statements in the <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`. So you should expect to see at least two layers more than the base image:
 
 ```sh
 docker history node-vanilla
@@ -188,11 +188,11 @@ docker history node-vanilla
 # <missing>      /bin/sh -c #(nop) ADD file:1dd78a123212328bd…   123MB
 ```
 
-Instead the resulting image has five new layers: one for each statement in your <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`.
+Instead the resulting image has five new layers: one for each statement in your <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`.
 
 Let's try the multi-stage Docker build.
 
-You will use the same <FontIcon icon="fa-brands fa-docker"/>`Dockerfile` above, but twice:
+You will use the same <VPIcon icon="fa-brands fa-docker"/>`Dockerfile` above, but twice:
 
 ```dockerfile title="Dockerfile"
 FROM node:8 as build
@@ -208,7 +208,7 @@ EXPOSE 3000
 CMD ["index.js"]
 ```
 
-The first part of the <FontIcon icon="fa-brands fa-docker"/>`Dockerfile` creates three layers. The layers are then merged and copied across to the second and final stage. Two more layers are added on top of the image for a total of 3 layers.
+The first part of the <VPIcon icon="fa-brands fa-docker"/>`Dockerfile` creates three layers. The layers are then merged and copied across to the second and final stage. Two more layers are added on top of the image for a total of 3 layers.
 
 <!-- TODO: 에니메이션 파악하기 -->
 
@@ -273,7 +273,7 @@ In fact, you could remove everything but Node.js.
 
 **But how?**
 
-Fortunately, Google had the same idea and came up with [<FontIcon icon="iconfont icon-github"/>`GoogleCloudPlatform/distroless`](https://github.com/GoogleCloudPlatform/distroless).
+Fortunately, Google had the same idea and came up with [<VPIcon icon="iconfont icon-github"/>`GoogleCloudPlatform/distroless`](https://github.com/GoogleCloudPlatform/distroless).
 
 As the description for the repository points out:
 
@@ -285,7 +285,7 @@ As the description for the repository points out:
 
 This is precisely what you need!
 
-You can tweak the <FontIcon icon="fa-brands fa-docker"/>`Dockerfile` to leverage the new base image like this:
+You can tweak the <VPIcon icon="fa-brands fa-docker"/>`Dockerfile` to leverage the new base image like this:
 
 ```dockerfile title="Dockerfile"
 FROM node:8 as build
@@ -365,11 +365,11 @@ But what if you cared about debugging and smaller sizes?
 
 You could replace the distroless base image with an Alpine based image.
 
-[<FontIcon icon="iconfont icon-alpine"/>Alpine Linux](https://alpinelinux.org/) is:
+[<VPIcon icon="iconfont icon-alpine"/>Alpine Linux](https://alpinelinux.org/) is:
 
 ::: note
 
-a security-oriented, lightweight Linux distribution based on [<FontIcon icon="fas fa-globe"/>musl libc](https://musl-libc.org/) and [<FontIcon icon="fas fa-globe"/>busybox](https://busybox.net/)
+a security-oriented, lightweight Linux distribution based on [<VPIcon icon="fas fa-globe"/>musl libc](https://musl-libc.org/) and [<VPIcon icon="fas fa-globe"/>busybox](https://busybox.net/)
 
 :::
 
@@ -377,7 +377,7 @@ In other words, a Linux distribution that is smaller in size and more secure.
 
 You shouldn't take their words for granted. Let's check if the image is smaller.
 
-You should tweak the <FontIcon icon="fa-brands fa-docker"/>`Dockerfile` and use `node:8-alpine`:
+You should tweak the <VPIcon icon="fa-brands fa-docker"/>`Dockerfile` and use `node:8-alpine`:
 
 ```dockerfile title="Dcokerfile"
 FROM node:8 as build
@@ -475,13 +475,13 @@ As an example, if an attacker was able to exploit a vulnerability in your app ru
 
 ::: note
 
-Please note that [<FontIcon icon="fas fa-globe"/>minimising attack surface area is recommended by OWASP](https://owasp.org/index.php/Minimize_attack_surface_area).
+Please note that [<VPIcon icon="fas fa-globe"/>minimising attack surface area is recommended by OWASP](https://owasp.org/index.php/Minimize_attack_surface_area).
 
 :::
 
 **If you're concerned about size at all costs, then you should switch to Alpine based images**.
 
-Those are generally very small but at the price of compatibility. Alpine uses a slightly different standard C library — muslc. You may experience some compatibility issues from time to time. More examples of that [here "alpine-node docker image and google-cloud equals error loading ld-linux-x86-64.so.2" (<FontIcon icon="iconfont icon-github"/>`grpc/grpc`)](https://github.com/grpc/grpc/issues/8528) and [here "Import error trying to run gRPC on alpine" (<FontIcon icon="iconfont icon-github"/>`grpc/grpc`)](https://github.com/grpc/grpc/issues/6126).
+Those are generally very small but at the price of compatibility. Alpine uses a slightly different standard C library — muslc. You may experience some compatibility issues from time to time. More examples of that [here "alpine-node docker image and google-cloud equals error loading ld-linux-x86-64.so.2" (<VPIcon icon="iconfont icon-github"/>`grpc/grpc`)](https://github.com/grpc/grpc/issues/8528) and [here "Import error trying to run gRPC on alpine" (<VPIcon icon="iconfont icon-github"/>`grpc/grpc`)](https://github.com/grpc/grpc/issues/6126).
 
 **The vanilla base image is perfect for testing and development**.
 
@@ -502,7 +502,7 @@ Recap of image sizes:
 
 That's all folks!
 
-Thanks to [Chris Nesbitt-Smith (<FontIcon icon="iconfont icon-github"/>`chrisns`)](https://github.com/chrisns), [<FontIcon icon="fas fa-globe"/>Valentin Ouvrard](https://valentin.ouvrard.it/) and [<FontIcon icon="fas fa-globe"/>Keith Mifsud](https://keith-mifsud.me/) for their feedback!
+Thanks to [Chris Nesbitt-Smith (<VPIcon icon="iconfont icon-github"/>`chrisns`)](https://github.com/chrisns), [<VPIcon icon="fas fa-globe"/>Valentin Ouvrard](https://valentin.ouvrard.it/) and [<VPIcon icon="fas fa-globe"/>Keith Mifsud](https://keith-mifsud.me/) for their feedback!
 
 If you enjoyed this article, you might find the following articles interesting:
 

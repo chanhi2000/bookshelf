@@ -68,7 +68,7 @@ git diff
 # +I'm editing file3 now
 ```
 
-As you can see, `diff` shows you the diffs in a [<FontIcon icon="fa-brands fa-wikipedia-w"/>“patch”](https://en.wikipedia.org/wiki/Patch_(Unix)) format right on the command line. Once you work through the format, you can see that the `+` characters indicate that a line has been added to the file, and, as you’d expect, the line `I'm editing file3 now` was added to <FontIcon icon="fas fa-file-lines"/>`file3`.
+As you can see, `diff` shows you the diffs in a [<VPIcon icon="fa-brands fa-wikipedia-w"/>“patch”](https://en.wikipedia.org/wiki/Patch_(Unix)) format right on the command line. Once you work through the format, you can see that the `+` characters indicate that a line has been added to the file, and, as you’d expect, the line `I'm editing file3 now` was added to <VPIcon icon="fas fa-file-lines"/>`file3`.
 
 The default options for `git diff` are to show you what changes are in your working directory that are **not** in your index or in HEAD. If you add the above change to the index and then do diff, it shows that there are no diffs:
 
@@ -184,7 +184,7 @@ git diff HEAD~3 HEAD
 
 There are many, many options for `git diff`, and I won’t go into them all, but I do want to explore another use case, which I use frequently, showing the files that were changed in a commit.
 
-In your current repo, the most recent commit on <FontIcon icon="fas fa-code-branch"/>`master` added a line of text to <FontIcon icon="fas fa-file-lines"/>`file1`. You can see that by comparing `HEAD` with `HEAD^`:
+In your current repo, the most recent commit on <VPIcon icon="fas fa-code-branch"/>`master` added a line of text to <VPIcon icon="fas fa-file-lines"/>`file1`. You can see that by comparing `HEAD` with `HEAD^`:
 
 ```sh
 git diff HEAD^ HEAD

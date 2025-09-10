@@ -60,7 +60,7 @@ This article explains the React Hooks `useState` and `useRef`. You’ll learn th
 
 ![`useState` vs. `useRef`: Similarities, Differences, and Use Cases](/assets/image/blog.logrocket.com/usestate-vs-useref/banner.png)
 
-You can find the examples as part of a [<FontIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/gifted-austin-28p3z?file=/src/App.js). To see the different examples in action, just adapt the following line in <FontIcon icon="fa-brands fa-react"/>`App.jsx`:
+You can find the examples as part of a [<VPIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/gifted-austin-28p3z?file=/src/App.js). To see the different examples in action, just adapt the following line in <VPIcon icon="fa-brands fa-react"/>`App.jsx`:
 
 ```jsx
 export default AppDemo6; // change to AppDemo<Nr>
@@ -70,7 +70,7 @@ export default AppDemo6; // change to AppDemo<Nr>
 
 ## Understanding the `useState` Hook
 
-The [<FontIcon icon="fa-brands fa-react"/>`useState`](https://reactjs.org/docs/hooks-state.html) Hook enables the development of component state for functional components. Before React 16.8, state local to a component was only possible with class-based components.
+The [<VPIcon icon="fa-brands fa-react"/>`useState`](https://reactjs.org/docs/hooks-state.html) Hook enables the development of component state for functional components. Before React 16.8, state local to a component was only possible with class-based components.
 
 Take a look at the following code.
 
@@ -95,7 +95,7 @@ function AppDemo1() {
 
 The `useState` Hook returns an array with two items. In the example, we implement a Boolean component state, and we initialize our Hook with `true`.
 
-This single argument of `useState` is considered only during the initial render cycle. If you need an initial value that is complex to calculate, however, then you can [<FontIcon icon="fa-brands fa-react"/>pass a callback function](https://reactjs.org/docs/hooks-reference.html#lazy-initial-state) for performance optimization purposes.
+This single argument of `useState` is considered only during the initial render cycle. If you need an initial value that is complex to calculate, however, then you can [<VPIcon icon="fa-brands fa-react"/>pass a callback function](https://reactjs.org/docs/hooks-reference.html#lazy-initial-state) for performance optimization purposes.
 
 The first array item represents the actual state, and the second item constitutes the state updater function. The `onClick` handler demonstrates how to use the updater function (`darkModeUpdate`) to change the state variable (`darkMode`). It is important to update your state exactly like this. The following code is illegal:
 
@@ -109,7 +109,7 @@ If you have some experience with the `useState` Hook, you may wonder about the s
 const [darkMode, setDarkMode] = useState(true);
 ```
 
-As a reminder, it’s crucial to follow [<FontIcon icon="fa-brands fa-react"/>the rules of Hooks](https://reactjs.org/docs/hooks-rules.html) when using any Hook, not just `useState` or `useRef`:
+As a reminder, it’s crucial to follow [<VPIcon icon="fa-brands fa-react"/>the rules of Hooks](https://reactjs.org/docs/hooks-rules.html) when using any Hook, not just `useState` or `useRef`:
 
 - Hooks should only be called from the top level of your React function
 - Hooks must not be called from nested code (e.g., loops, conditions)
@@ -195,7 +195,7 @@ The `App` component gets rendered whenever the user clicks on the button because
 
 Every state change re-renders the `App` and child components.
 
-The [<FontIcon icon="fas fa-globe"/>following diagram](https://wavez.github.io/react-hooks-lifecycle/) illustrates that a state change causes a render cycle.
+The [<VPIcon icon="fas fa-globe"/>following diagram](https://wavez.github.io/react-hooks-lifecycle/) illustrates that a state change causes a render cycle.
 
 ![Diagram of the React Hooks Lifecycle](/assets/image/blog.logrocket.com/usestate-vs-useref/react-hooks-lifecycle-diagram.png)
 
@@ -205,7 +205,7 @@ Why is it important to understand the React Hooks lifecycle? On the one hand, st
 
 ### Using the `useState` Hook with `useEffect`
 
-Another important concept to understand is the [<FontIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-effect.html) Hook, which you most likely have to use in your application to invoke asynchronous code (e.g., to fetch data). As you can see in the previous diagram, the `useState` and `useEffect` Hooks are tightly coupled because state changes might invoke effects.
+Another important concept to understand is the [<VPIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-effect.html) Hook, which you most likely have to use in your application to invoke asynchronous code (e.g., to fetch data). As you can see in the previous diagram, the `useState` and `useEffect` Hooks are tightly coupled because state changes might invoke effects.
 
 Let’s take a look at the following example. We introduce two additional state variables: `loading` and `lang`. The effect is invoked whenever the `url` prop changes. It fetches a language string (either `en` or `de`) and updates the state with the `setLang` updater function.
 
@@ -343,7 +343,7 @@ Wrong usage of state in combination with `useEffect` causes an infinite loop.
 
 Why is that? Because we have added `darkMode` to the dependency array of the effect, and we updated this exact state inside of the effect, the effect gets invoked again, updates the state again, and this goes on and on.
 
-But there is a way out! We can avoid the `darkMode` as the effect’s dependency by [<FontIcon icon="fa-brands fa-react"/>calculating the new state from the previous state](https://reactjs.org/docs/hooks-reference.html#functional-updates). We call the `setDarkMode` updater differently by passing a function that has the previous state as an argument.
+But there is a way out! We can avoid the `darkMode` as the effect’s dependency by [<VPIcon icon="fa-brands fa-react"/>calculating the new state from the previous state](https://reactjs.org/docs/hooks-reference.html#functional-updates). We call the `setDarkMode` updater differently by passing a function that has the previous state as an argument.
 
 The revised `useEffect` implementation looks like this:
 
@@ -371,7 +371,7 @@ useEffect(() => {
 
 ### Differences from class-based components
 
-If you’ve been using React for a long time or you’re currently working on legacy code, you know class-based components. With class-based components, you have one single object representing the component state. To update one slice of the overall state, you can leverage the generic [<FontIcon icon="fa-brands fa-react"/>`setState`](https://reactjs.org/docs/state-and-lifecycle.html) method.
+If you’ve been using React for a long time or you’re currently working on legacy code, you know class-based components. With class-based components, you have one single object representing the component state. To update one slice of the overall state, you can leverage the generic [<VPIcon icon="fa-brands fa-react"/>`setState`](https://reactjs.org/docs/state-and-lifecycle.html) method.
 
 Imagine we only want to update the `darkMode` state variable. Then you can just put the updated property into the object; the rest of the state remains unaffected.
 
@@ -459,13 +459,13 @@ function AppDemo7({ url }) {
 
 As you can see, the the code is messy and hard to maintain. It also includes a bug illustrated with a commented-out property in the `onClick` handler. When the user clicks the button, the overall state is not calculated correctly.
 
-In this case, the `lang` property is not present. This leads to a bug that causes the text to be rendered in German since `state.lang` is `undefined`. I hope that I have definitively shown that this is a bad idea. By the way, the [<FontIcon icon="fa-brands fa-react"/>React team doesn’t recommend that either](https://reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables).
+In this case, the `lang` property is not present. This leads to a bug that causes the text to be rendered in German since `state.lang` is `undefined`. I hope that I have definitively shown that this is a bad idea. By the way, the [<VPIcon icon="fa-brands fa-react"/>React team doesn’t recommend that either](https://reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables).
 
 ---
 
 ## Understanding the `useRef` Hook
 
-The [<FontIcon icon="fa-brands fa-react"/>`useRef`](https://reactjs.org/docs/hooks-reference.html#useref) Hook is similar to `useState`, but different 😀. Before I clear that up, I’ll explain its basic usage.
+The [<VPIcon icon="fa-brands fa-react"/>`useRef`](https://reactjs.org/docs/hooks-reference.html#useref) Hook is similar to `useState`, but different 😀. Before I clear that up, I’ll explain its basic usage.
 
 ```jsx :collapsed-lines title="AppDemo8.jsx"
 import { useRef } from 'react';
@@ -496,7 +496,7 @@ That’s the reason why the first `console.log` output stores `undefined`: becau
 
 To access a ref’s value, you need to access its `current` property, as we did in the JSX part. refs are directly available in the initial render right after they have been defined.
 
-But why do we need `useRef` at all? Why not use ordinary [<FontIcon icon="fa-brands fa-firefox"/>`let` variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) instead? Hold your horses — we’ll come back to that.
+But why do we need `useRef` at all? Why not use ordinary [<VPIcon icon="fa-brands fa-firefox"/>`let` variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) instead? Hold your horses — we’ll come back to that.
 
 ### Common use cases for `useRef`
 
@@ -534,13 +534,13 @@ Count does not update on button click.
 
 As you see from our other console output render, our component does not re-render. We could utilize `useState` instead to have this behavior.
 
-What? So `useRef` is pretty useless? Not so fast — it’s handy in combination with other Hooks triggering re-renders, such as `useState`, [<FontIcon icon="fa-brands fa-react"/>`useReducer`](https://reactjs.org/docs/hooks-reference.html#usereducer), and [<FontIcon icon="fa-brands fa-react"/>`useContext`](https://reactjs.org/docs/hooks-reference.html#usecontext)`.
+What? So `useRef` is pretty useless? Not so fast — it’s handy in combination with other Hooks triggering re-renders, such as `useState`, [<VPIcon icon="fa-brands fa-react"/>`useReducer`](https://reactjs.org/docs/hooks-reference.html#usereducer), and [<VPIcon icon="fa-brands fa-react"/>`useContext`](https://reactjs.org/docs/hooks-reference.html#usecontext)`.
 
 You have to think of `useRef` as another tool in your toolbox, and you have to understand when to use it. Remember the component lifecycle diagram from above? The values of refs persist (specifically the `current` property) throughout render cycles. It’s not a bug; it’s a feature.
 
 Consider situations where you want to update a component’s data (i.e., its state variables) to trigger a render in order to update the UI. You could also have situations where you want the same behavior with one exception: you do not want to trigger a render cycle because this could lead to bugs, awkward user experience (e.g., flickers), or performance problems.
 
-You can think of refs as [<FontIcon icon="fa-brands fa-react"/>instance variables of class-based components](https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables). A ref is a generic container to store any kind of data, such as primitive data or objects.
+You can think of refs as [<VPIcon icon="fa-brands fa-react"/>instance variables of class-based components](https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables). A ref is a generic container to store any kind of data, such as primitive data or objects.
 
 Fine, we’ll show a useful example.
 
@@ -566,7 +566,7 @@ const AppDemo10 = () => {
 
 As you can see from the recording below, this component just renders an input field and stores its value in the `value` state variable. The console output reveals that the `AppDemo10` component gets re-rendered on every keystroke.
 
-This might be the behavior you want, e.g., to perform an operation such as a search on every character. This is called a [<FontIcon icon="fa-brands fa-react"/>controlled component](https://reactjs.org/docs/uncontrolled-components.html). However, it could be just the opposite, and the renderings become problematic. Then you need an [<FontIcon icon="fa-brands fa-react"/>uncontrolled component](https://reactjs.org/docs/uncontrolled-components.html).
+This might be the behavior you want, e.g., to perform an operation such as a search on every character. This is called a [<VPIcon icon="fa-brands fa-react"/>controlled component](https://reactjs.org/docs/uncontrolled-components.html). However, it could be just the opposite, and the renderings become problematic. Then you need an [<VPIcon icon="fa-brands fa-react"/>uncontrolled component](https://reactjs.org/docs/uncontrolled-components.html).
 
 ![A Controlled Component Rendering on Every Keystroke](/assets/image/blog.logrocket.com/usestate-vs-useref/controlled-component-renders-every-keystroke.webp)
 
@@ -636,7 +636,7 @@ const AppDemo12 = () => {
 };
 ```
 
-Inside the `useEffect` callback, we call the native [<FontIcon icon="fa-brands fa-firefox"/>`focus`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus) method.
+Inside the `useEffect` callback, we call the native [<VPIcon icon="fa-brands fa-firefox"/>`focus`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus) method.
 
 ![Adding Focus to an Input Field Via refs](/assets/image/blog.logrocket.com/usestate-vs-useref/focus-input-field.webp)
 
@@ -644,7 +644,7 @@ Focus an input field with the help of a ref.
 
 This technique is also widely used in React projects in combination with third-party (non-React) components when you need direct access to DOM elements.
 
-Another common use case is when you need the state value of the previous render cycle. The following example shows how to do this. Of course, you could also extract the logic into a custom [<FontIcon icon="fas fa-globe"/>`usePrevious`](https://usehooks.com/usePrevious/)Hook.
+Another common use case is when you need the state value of the previous render cycle. The following example shows how to do this. Of course, you could also extract the logic into a custom [<VPIcon icon="fas fa-globe"/>`usePrevious`](https://usehooks.com/usePrevious/)Hook.
 
 ```jsx :collapsed-lines title="AppDemo13.jsx"
 import { useEffect, useState, useRef } from "react";
@@ -719,7 +719,7 @@ However, the following recording will reveal that this does not work. The consol
 
 A normal variable assignment cannot replace useRef.
 
-Even the mighty ESLint [Rules of Hooks plugin (<FontIcon icon="fa-brands fa-npm"/>`eslint-plugin-react-hooks`)](https://npmjs.com/package/eslint-plugin-react-hooks) tells you that we should utilize `useRef` instead.
+Even the mighty ESLint [Rules of Hooks plugin (<VPIcon icon="fa-brands fa-npm"/>`eslint-plugin-react-hooks`)](https://npmjs.com/package/eslint-plugin-react-hooks) tells you that we should utilize `useRef` instead.
 
 ![Warning From the ESLint Rules of Hooks Plugin](/assets/image/blog.logrocket.com/usestate-vs-useref/eslint-rules-hooks-plugin-warning.png)
 
@@ -733,7 +733,7 @@ The following differences have already been discussed in detail but are presente
 
 - Both preserve their data during render cycles and UI updates, but only the `useState` Hook with its updater function causes re-renders
 - `useRef` returns an object with a `current` property holding the actual value. In contrast, `useState` returns an array with two elements: the first item constitutes the state, and the second item represents the state updater function
-- `useRef`‘s `current` property is [<FontIcon icon="fas fa-globe"/>mutable](https://doppelmutzi.github.io/javascript-to-master-before-learning-react/#immutable-vs-mutable-values), but `useState`‘s state variable not. In contrast to the `current` property of `useRef`, you should not directly assign values to the state variable of `useState`. Instead, always use the updater function (i.e., the second array item). As the React team recommends in the [<FontIcon icon="fa-brands fa-react"/>documentation](https://reactjs.org/docs/react-component.html#state) for `setState` in class-based components (but still true for function components), treat state like an immutable variable
+- `useRef`‘s `current` property is [<VPIcon icon="fas fa-globe"/>mutable](https://doppelmutzi.github.io/javascript-to-master-before-learning-react/#immutable-vs-mutable-values), but `useState`‘s state variable not. In contrast to the `current` property of `useRef`, you should not directly assign values to the state variable of `useState`. Instead, always use the updater function (i.e., the second array item). As the React team recommends in the [<VPIcon icon="fa-brands fa-react"/>documentation](https://reactjs.org/docs/react-component.html#state) for `setState` in class-based components (but still true for function components), treat state like an immutable variable
 - `useState` and `useRef` can be considered data Hooks, but only `useRef` can be used in yet another field of application: to gain direct access to React components or DOM elements
 
 ---

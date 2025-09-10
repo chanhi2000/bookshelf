@@ -56,7 +56,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_yA3E5J_8MJOqw7Ng2ZCBOQ-
 
 ## Introduction
 
-[In the previous article (<FontIcon icon="fa-brands fa-medium"/>`kotlin-academy`)](https://medium.com/kotlin-academy/java-and-kotlin-versions-in-android-when-to-upgrade-and-when-to-avoid-cf47edbbac5b), I explored which version of Java and Kotlin you can or cannot use depending on your AGP, Android Studio etc.. Lets continue that journey by specifying which features you have in each version of Java and Kotlin. It never hurts to refresh our memory from time to time right?
+[In the previous article (<VPIcon icon="fa-brands fa-medium"/>`kotlin-academy`)](https://medium.com/kotlin-academy/java-and-kotlin-versions-in-android-when-to-upgrade-and-when-to-avoid-cf47edbbac5b), I explored which version of Java and Kotlin you can or cannot use depending on your AGP, Android Studio etc.. Lets continue that journey by specifying which features you have in each version of Java and Kotlin. It never hurts to refresh our memory from time to time right?
 
 Java and Kotlin are the two core languages for Android development. While Java has been around for decades, Kotlin’s rise as a modern alternative has made it an official language for Android. Keeping up with the latest language features is crucial for writing optimized, clean, and maintainable code. This guide outlines the most important features introduced in each version of Java and Kotlin, with a focus on Android development.
 
@@ -297,13 +297,13 @@ Staying updated on Java and Kotlin versions ensures that developers can take adv
 
 Android Consultant | Trainer  
 
-[<FontIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com)|[Follow me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/)|[Follow me on Medium (<FontIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov)|[Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
+[<VPIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com)|[Follow me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/)|[Follow me on Medium (<VPIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov)|[Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
 
 :::
 
 ::: info
 
-This article is previously published on [proandroiddev.com (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/java-and-kotlin-a-comprehensive-guide-to-new-and-key-features-across-versions-10cf026739fd)
+This article is previously published on [proandroiddev.com (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/java-and-kotlin-a-comprehensive-guide-to-new-and-key-features-across-versions-10cf026739fd)
 
 <SiteInfo
   name="Java and Kotlin: A Comprehensive Guide to New and Key Features Across Versions"

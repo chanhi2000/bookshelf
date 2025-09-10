@@ -110,4 +110,4 @@ It extracts each expression into a variable. This must be done so that those exp
 ![](https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-academy-articles%2Fimages%2Fpower_assert_example_2_under_the_hood.png&w=384&q=75)
 <!-- TODO: transform to kotlin-playground -->
 
-The tricky part is constructing a message that looks exactly like the original code and includes indents in the correct places. It was a titanic work by [<FontIcon icon="fa-brands fa-x-twitter"/>Brian Norman (`bnormcodes`)](https://x.com/bnormcodes), who spent over four years to make it work that well! Great kudos!
+The tricky part is constructing a message that looks exactly like the original code and includes indents in the correct places. It was a titanic work by [<VPIcon icon="fa-brands fa-x-twitter"/>Brian Norman (`bnormcodes`)](https://x.com/bnormcodes), who spent over four years to make it work that well! Great kudos!

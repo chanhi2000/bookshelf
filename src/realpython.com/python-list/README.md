@@ -223,7 +223,7 @@ To get the most out of this tutorial, you should have a good understanding of co
 
 ## Conclusion
 
-Now you have a deep, solid understanding of the core features and functionalities of Python **lists**. Lists are everywhere. They’re an important part of the language itself and are present in the [<FontIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html), third-party packages, and in just about every piece of Python code that you’ll find out there. So, learning about them is a fundamental skill that you must have under your belt.
+Now you have a deep, solid understanding of the core features and functionalities of Python **lists**. Lists are everywhere. They’re an important part of the language itself and are present in the [<VPIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html), third-party packages, and in just about every piece of Python code that you’ll find out there. So, learning about them is a fundamental skill that you must have under your belt.
 
 ::: info In this tutorial, you’ve learned how to:
 

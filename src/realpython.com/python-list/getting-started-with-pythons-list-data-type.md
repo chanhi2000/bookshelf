@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/Pythons-list-Built-in-Data-Type-A-Deep
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Pythons-list-Built-in-Data-Type-A-Deep-Dive-With-Examples_Watermarked.1f6291ed72f5.jpg"/>
 
-Python’s [<FontIcon icon="fa-brands fa-python"/>`list`](https://docs.python.org/3/library/stdtypes.html#list) is a flexible, versatile, powerful, and popular built-in [**data type**](/realpython.com/python-data-types.md). It allows you to create variable-length and mutable [<FontIcon icon="fa-brands fa-python"/>sequences](https://docs.python.org/3/glossary.html#term-sequence) of objects. In a [<FontIcon icon="fa-brands fa-python"/>list](https://docs.python.org/3/glossary.html#term-list), you can store objects of any type. You can also mix objects of different types within the same list, although list elements often share the same type.
+Python’s [<VPIcon icon="fa-brands fa-python"/>`list`](https://docs.python.org/3/library/stdtypes.html#list) is a flexible, versatile, powerful, and popular built-in [**data type**](/realpython.com/python-data-types.md). It allows you to create variable-length and mutable [<VPIcon icon="fa-brands fa-python"/>sequences](https://docs.python.org/3/glossary.html#term-sequence) of objects. In a [<VPIcon icon="fa-brands fa-python"/>list](https://docs.python.org/3/glossary.html#term-list), you can store objects of any type. You can also mix objects of different types within the same list, although list elements often share the same type.
 
 ::: note
 
@@ -74,7 +74,7 @@ Lists are sequences of objects. They’re commonly called **containers** or **co
 
 ::: note
 
-In Python, lists support a rich set of operations that are common to all sequence types, including [**tuples**](/realpython.com/python-lists-tuples.md#python-tuples), strings, and [**ranges**](/realpython.com/python-range.md). These operations are known as [<FontIcon icon="fa-brands fa-python"/>common sequence operations](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations). Throughout this tutorial, you’ll learn about several operations that fall into this category.
+In Python, lists support a rich set of operations that are common to all sequence types, including [**tuples**](/realpython.com/python-lists-tuples.md#python-tuples), strings, and [**ranges**](/realpython.com/python-range.md). These operations are known as [<VPIcon icon="fa-brands fa-python"/>common sequence operations](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations). Throughout this tutorial, you’ll learn about several operations that fall into this category.
 
 :::
 

@@ -52,7 +52,7 @@ cover: https://docker.com/app/uploads/2022/12/docker-engine-1-11-runc-1.png
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2022/12/docker-engine-1-11-runc-1.png"/>
 
-We are excited to introduce Docker Engine 1.11, our first release built on [<FontIcon icon="fas fa-globe"/>runC ™](http://runc.io/) an containerd ™. With this release, Docker isthefirst to ship a runtime based onOCI technology,demonstrating the progress the team hasmade since donating our industry-standard container format and runtime under the Linux Foundation in June of 2015. Over the last year, Docker has helped advance the work of the OCI to make it more readily available to more users. It started in December 2015, when we introduced containerd ™, a daemon to control runC. This was part of our effort to break out Docker into small reusable components. With this release, Docker Engine is now built on containerd, so everyone who is using Docker is now using OCI. We’re proud of the progress we’ve made on the OCI with the 40+ members to continue the work to standardize container technology.
+We are excited to introduce Docker Engine 1.11, our first release built on [<VPIcon icon="fas fa-globe"/>runC ™](http://runc.io/) an containerd ™. With this release, Docker isthefirst to ship a runtime based onOCI technology,demonstrating the progress the team hasmade since donating our industry-standard container format and runtime under the Linux Foundation in June of 2015. Over the last year, Docker has helped advance the work of the OCI to make it more readily available to more users. It started in December 2015, when we introduced containerd ™, a daemon to control runC. This was part of our effort to break out Docker into small reusable components. With this release, Docker Engine is now built on containerd, so everyone who is using Docker is now using OCI. We’re proud of the progress we’ve made on the OCI with the 40+ members to continue the work to standardize container technology.
 
 Besides this mind-blowing piece of technological trivia that I’m sure will impress your friends at parties, what difference does it make to you?Well, short answer is: nothing… yet! Nevertheless, let me convince you that this is still something you should be excited about.
 
@@ -72,7 +72,7 @@ Performance-wise, we were extremely careful in making sure 1.11 would not be any
 
 ## Creatingan ecosystem for container execution backends
 
-runC is the firstimplementation of the [Open Containers Runtime specification (<FontIcon icon="iconfont icon-github"/>`opencontainers/runtime-spec`)](https://github.com/opencontainers/runtime-spec)and the default executor bundled with Docker Engine. Thanks to the open specification, future versions of Engine will allow you to specify different executors, thus enabling the ecosystem of alternative execution backends without any changes to Docker itself. By separating out this piece, an ecosystem partner can build their own compliant executor to the specification, and make it available to the user community at any time - without being dependent on the Engine release schedule or wait to be reviewed and merged into the codebase.
+runC is the firstimplementation of the [Open Containers Runtime specification (<VPIcon icon="iconfont icon-github"/>`opencontainers/runtime-spec`)](https://github.com/opencontainers/runtime-spec)and the default executor bundled with Docker Engine. Thanks to the open specification, future versions of Engine will allow you to specify different executors, thus enabling the ecosystem of alternative execution backends without any changes to Docker itself. By separating out this piece, an ecosystem partner can build their own compliant executor to the specification, and make it available to the user community at any time - without being dependent on the Engine release schedule or wait to be reviewed and merged into the codebase.
 
 What does this mean for you? This gives you choice: the runtime is now pluggable. Following the Docker principle of batteries included but swappable, Docker Engine will ship with runC available as the default with the ability to choose from a variety of container executors that are for specific platforms or have different security and performance features. By separating out the thing that runs containers from the Engine, this opens up new possibilities. As an example, 1.11 is a huge step toward allowing Engine restarts/upgrades without restarting the containers, improving the availability of containers. This is probably one of the most requested features by Docker users. In fact, with this new architecture, you will even be able to restart containerd and your containers will keep running.
 
@@ -90,7 +90,7 @@ In addition to this huge architectural change, as usual we have also added a bun
 - Yubikey hardware image signing: A few months ago we added the ability to sign images with hardware Yubikeys in the experimental channel of Docker. This is now available in the stable release. Read more about how it works in this blog post.
 - Labels on networks and volumes: You can now attach arbitrary key/value data to networks and volumes, in the same way you could with containers and images.
 - Better handling of low disk space with device mapper storage: The `dm.min_free_space` option has been added to make device mapper fail more gracefully when running out of disk space.
-- Consistent status field in `docker inspect`: This is a little thing, but really handy if you use the Docker API. `docker inspect` now has a `Status` field, a single consistent value to define a container’s state (`running`, `stopped`, `restarting`, etc). [Read more in the pull request. (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/20355)
+- Consistent status field in `docker inspect`: This is a little thing, but really handy if you use the Docker API. `docker inspect` now has a `Status` field, a single consistent value to define a container’s state (`running`, `stopped`, `restarting`, etc). [Read more in the pull request. (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/pull/20355)
 
 ::: info See the release notes for full details.
 
@@ -138,11 +138,11 @@ If you're a Mac or Windows user, the Docker ..."
 
 ### Machine 0.7
 
-In this version of Machine, the MicrosoftAzure driver now uses the new Azure APIs and is easier to authenticate. [<FontIcon icon="iconfont icon-microsoftauzre"/>See Azure’s blog post for more details.](https://azure.microsoft.com/en-us/blog/docker-machine-azure-driver/)There are also a bunch of other improvements in this release -[take a look at the full release notes for details (<FontIcon icon="iconfont icon-github"/>`docker/machine`)](https://github.com/docker/machine/releases/tag/v0.7.0).
+In this version of Machine, the MicrosoftAzure driver now uses the new Azure APIs and is easier to authenticate. [<VPIcon icon="iconfont icon-microsoftauzre"/>See Azure’s blog post for more details.](https://azure.microsoft.com/en-us/blog/docker-machine-azure-driver/)There are also a bunch of other improvements in this release -[take a look at the full release notes for details (<VPIcon icon="iconfont icon-github"/>`docker/machine`)](https://github.com/docker/machine/releases/tag/v0.7.0).
 
 ### Registry 2.4
 
-- Garbage collection:A tool has been added so system administrators can clean up the data from images that have been deleted by users. For more details, [<FontIcon icon="fa-brands fa-docker"/>see the garbage collector docs](https://docs.docker.com/registry/garbage-collection/).
+- Garbage collection:A tool has been added so system administrators can clean up the data from images that have been deleted by users. For more details, [<VPIcon icon="fa-brands fa-docker"/>see the garbage collector docs](https://docs.docker.com/registry/garbage-collection/).
 - Faster and more stable S3 driver: The S3 storage driver is now implemented on top of the official Amazon S3 SDK, which has major performance and stability goodness.
 
 ::: info See the release notes for full details.
@@ -160,9 +160,9 @@ In this version of Machine, the MicrosoftAzure driver now uses the new Azure API
 
 ## Download and try out Docker 1.11
 
-The easiest way to try out all of this stuffin development is to [<FontIcon icon="fa-brands fa-docker"/>download Docker Toolbox](https://docker.com/products/docker-toolbox). For other platforms, check out the [<FontIcon icon="fa-brands fa-docker"/>installation instructions](https://docs.docker.com/engine/installation/).
+The easiest way to try out all of this stuffin development is to [<VPIcon icon="fa-brands fa-docker"/>download Docker Toolbox](https://docker.com/products/docker-toolbox). For other platforms, check out the [<VPIcon icon="fa-brands fa-docker"/>installation instructions](https://docs.docker.com/engine/installation/).
 
-All of this stuff is also available in Docker for Mac and Windows, the new way to use Docker in development, currently in private beta. [<FontIcon icon="fa-brands fa-docker"/>Sign up to get a chance to try it out early.](https://beta.docker.com/)
+All of this stuff is also available in Docker for Mac and Windows, the new way to use Docker in development, currently in private beta. [<VPIcon icon="fa-brands fa-docker"/>Sign up to get a chance to try it out early.](https://beta.docker.com/)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

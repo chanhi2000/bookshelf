@@ -75,11 +75,11 @@ Of course, we will show how easy it is to apply Angular Material Form Validation
 - [Angular Material Progress Bar, Spinner, CheckBox, Card, Select, Expansion Panel](/code-maze.com/angular-material-error-details-pages.md)
 - Material Inputs, DatePicker, Form Validation, Modals (Current article)
 
-For the complete navigation and all the basic instructions of the Angular Material series, check out: [<FontIcon icon="fas fa-globe"/>Introduction of the Angular Material series.](https://code-maze.com/angular-material-series/)
+For the complete navigation and all the basic instructions of the Angular Material series, check out: [<VPIcon icon="fas fa-globe"/>Introduction of the Angular Material series.](https://code-maze.com/angular-material-series/)
 
 ::: info
 
-The source code is available at GitHub [Angular Material Form Validation - Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/form-validation)
+The source code is available at GitHub [Angular Material Form Validation - Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-material-series`)](https://github.com/CodeMazeBlog/angular-material-series/tree/form-validation)
 
 <SiteInfo
   name="CodeMazeBlog/angular-material-series"
@@ -90,7 +90,7 @@ The source code is available at GitHub [Angular Material Form Validation - Sourc
 
 :::
 
-We strongly recommend reading our [<FontIcon icon="fas fa-globe"/>Angular Series](https://code-maze.com/angular-series/) prior to reading this article, if you want to restore your knowledge about that topic or to learn Angular development overall.
+We strongly recommend reading our [<VPIcon icon="fas fa-globe"/>Angular Series](https://code-maze.com/angular-series/) prior to reading this article, if you want to restore your knowledge about that topic or to learn Angular development overall.
 
 Let’s start step by step.
 

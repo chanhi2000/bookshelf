@@ -68,7 +68,7 @@ For me, it was a couple of concepts that felt like an unlocking of real power. I
 
 Sounds simple, but those things still feel powerful for me today.
 
-If any of you folks remember your “Ah-ha!” moment, feel free to share them by [<FontIcon icon="iconfont icon-css-tricks"/>sending them in](https://css-tricks.com/contact/) or commenting below. I’d love to do another post on this and share other people’s moments.
+If any of you folks remember your “Ah-ha!” moment, feel free to share them by [<VPIcon icon="iconfont icon-css-tricks"/>sending them in](https://css-tricks.com/contact/) or commenting below. I’d love to do another post on this and share other people’s moments.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

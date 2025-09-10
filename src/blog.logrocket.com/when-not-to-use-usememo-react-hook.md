@@ -108,7 +108,7 @@ While that’s a valid concern, there are two questions to ask to justify the us
 
 First, is the function passed into `useMemo` an expensive one? In this case, is the `getResolvedValue` computation an expensive one?
 
-Most methods on JavaScript data types are optimized, e.g. `Array.map`, `Object.getOwnPropertyNames()`, etc. If you’re performing an operation that’s not expensive (think Big O notation), then you don’t need to memoize the return value. The cost of using `useMemo` [<FontIcon icon="fas fa-globe"/>may outweigh](https://kentcdodds.com/blog/usememo-and-usecallback) the cost of reevaluating the function.
+Most methods on JavaScript data types are optimized, e.g. `Array.map`, `Object.getOwnPropertyNames()`, etc. If you’re performing an operation that’s not expensive (think Big O notation), then you don’t need to memoize the return value. The cost of using `useMemo` [<VPIcon icon="fas fa-globe"/>may outweigh](https://kentcdodds.com/blog/usememo-and-usecallback) the cost of reevaluating the function.
 
 Second, given the same input values, does the reference to the memoized value change? For example, in the code block above, given the `page` as `2` and `type` as `"GET"`, does the reference to `resolvedValue` change?
 
@@ -222,9 +222,9 @@ We will now consider more subtle scenarios where you should avoid `useMemo`.
 
 ![ESLint Hook Warnings](/assets/image/blog.logrocket.com/when-not-to-use-usememo-react-hook/eslint-hook-warnings.png)
 
-While I couldn’t bring myself to read [all the comments (<FontIcon icon="iconfont icon-github"/>`cebook/create-react-app`)](https://github.com/facebook/create-react-app/issues/6880) from people who seek ways to suppress the lint warnings from the official [ESLint plugin for Hooks (<FontIcon icon="fa-brands fa-npm"/>`eslint-plugin-react-hooks`)](https://npmjs.com/package/eslint-plugin-react-hooks), I do understand their plight.
+While I couldn’t bring myself to read [all the comments (<VPIcon icon="iconfont icon-github"/>`cebook/create-react-app`)](https://github.com/facebook/create-react-app/issues/6880) from people who seek ways to suppress the lint warnings from the official [ESLint plugin for Hooks (<VPIcon icon="fa-brands fa-npm"/>`eslint-plugin-react-hooks`)](https://npmjs.com/package/eslint-plugin-react-hooks), I do understand their plight.
 
-I agree with Dan Abramov [on this one (<FontIcon icon="iconfont icon-github "/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/issues/6880#issuecomment-485912528). Suppressing the `eslint-warnings` from the plugin will likely come back to bite you someday in the future.
+I agree with Dan Abramov [on this one (<VPIcon icon="iconfont icon-github "/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/issues/6880#issuecomment-485912528). Suppressing the `eslint-warnings` from the plugin will likely come back to bite you someday in the future.
 
 Generally, I consider it a bad idea to suppress these warnings in production apps because you increase the likelihood of introducing subtle bugs in the near future.
 
@@ -377,7 +377,7 @@ In fact, you can use the `useRef` to keep reference to an expensive function eva
 
 `useRef` is the right Hook for such scenarios, NOT the `useMemo` Hook.
 
-Being able to use the `useRef` Hook to mimic [<FontIcon icon="fa-brands fa-react"/>instance variables](https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables) is one of the least used super powers Hooks avail us. The `useRef` Hook can do more than just keeping references to DOM nodes. Embrace it.
+Being able to use the `useRef` Hook to mimic [<VPIcon icon="fa-brands fa-react"/>instance variables](https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables) is one of the least used super powers Hooks avail us. The `useRef` Hook can do more than just keeping references to DOM nodes. Embrace it.
 
 Please remember, the condition here is if you’re memoizing a value just because you need to keep a consistent reference to it. If you need the value to be recomputed based off of a changing prop or value, then please feel free to use the `useMemo` Hook. In some cases, you can still use `useRef` — but `useMemo` is mostly convenient given the array dependency list.
 

@@ -86,7 +86,7 @@ I'll try to briefly explain what **CI/CD** is, before we take a look at **GitHub
 
 If you're using **GitHub**, getting started with **Continuous Integration** has never been easier.
 
-You can use [<FontIcon icon="iconfont icon-github"/>**GitHub Actions**](https://github.com/features/actions) to automate your build, test, and deployment **pipeline**. You can create workflows that build and test every commit to your repository, or deploy to production when a new tag is created.
+You can use [<VPIcon icon="iconfont icon-github"/>**GitHub Actions**](https://github.com/features/actions) to automate your build, test, and deployment **pipeline**. You can create workflows that build and test every commit to your repository, or deploy to production when a new tag is created.
 
 To create a **GitHub Action**, you write a *workflow* to be triggered when some *event* occurs in your repository. An example event is a commit to the main branch, creation of a tag, or you can manually run the workflow.
 
@@ -212,7 +212,7 @@ Try adding up how much time you spend on deployments. I'm pretty sure you'll be 
 
 And the good part is you will typically set up your **build and deployment pipelines** once, and then continue benefiting from them for the lifetime of your project.
 
-If you want a step by step guide, I made a video showing [<FontIcon icon="fa-brands fa-youtube"/>**how to implement a CI/CD pipeline from scratch.**](https://youtu.be/QP0pi7xe24s) And the **source code** is also public, so you can add the **GitHub Actions** workflow file to your project.
+If you want a step by step guide, I made a video showing [<VPIcon icon="fa-brands fa-youtube"/>**how to implement a CI/CD pipeline from scratch.**](https://youtu.be/QP0pi7xe24s) And the **source code** is also public, so you can add the **GitHub Actions** workflow file to your project.
 
 Thanks for reading.
 

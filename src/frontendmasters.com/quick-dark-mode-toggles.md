@@ -147,7 +147,7 @@ The macOS version of setting Dark Mode.
 
 Personally, I find it a little cumbersome to need DevTools or go into System Settings to test dark/light mode on sites. It was nice in Arc to have a simple command to do it, but as I write, color modes aren’t really a browser-level settings for the most part (let alone site-specific settings).
 
-So I was happy to find [Nightfall (<FontIcon icon="iconfont icon-github"/>`r-thomson/Nightfall`)](https://github.com/r-thomson/Nightfall?tab=readme-ov-file), a little macOS menu bar utility for swapping out color modes.
+So I was happy to find [Nightfall (<VPIcon icon="iconfont icon-github"/>`r-thomson/Nightfall`)](https://github.com/r-thomson/Nightfall?tab=readme-ov-file), a little macOS menu bar utility for swapping out color modes.
 
 There is something extra nice about doing the toggling at the system level as it feels like the “real” way to do it.
 

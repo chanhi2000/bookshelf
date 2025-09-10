@@ -67,7 +67,7 @@ For one, you can make an “exclusive” accordion by grouping them together via
 <details name="group"><summary>Time</summary> ... </details>
 ```
 
-Me, I mostly think the only-one-open-at-a-time thing is an anti-pattern ([<FontIcon icon="fas fa-globe"/>as do others](https://yatil.net/blog/exclusive-accordions)), mostly because it’s weird to close something a user may have intentionally opened via side effect. But the web is a big place and certain specific designs I can see needing it to be effective so I don’t hate that it exists. At least I think [<FontIcon icon="fas fa-globe"/>using the term “accordion”](https://daverupert.com/2019/12/why-details-is-not-an-accordion/) is now appropriate in this context, but that there are still potential accessibility issues. Like imagine using this for a FAQ section where each question would normally be a header like `<h3>`, well, the semantics of that `<h3>` is wiped out by the `<summary>`, which is a “button”, so that’s not great.
+Me, I mostly think the only-one-open-at-a-time thing is an anti-pattern ([<VPIcon icon="fas fa-globe"/>as do others](https://yatil.net/blog/exclusive-accordions)), mostly because it’s weird to close something a user may have intentionally opened via side effect. But the web is a big place and certain specific designs I can see needing it to be effective so I don’t hate that it exists. At least I think [<VPIcon icon="fas fa-globe"/>using the term “accordion”](https://daverupert.com/2019/12/why-details-is-not-an-accordion/) is now appropriate in this context, but that there are still potential accessibility issues. Like imagine using this for a FAQ section where each question would normally be a header like `<h3>`, well, the semantics of that `<h3>` is wiped out by the `<summary>`, which is a “button”, so that’s not great.
 
 Here’s an example of the accordion pattern being used with a group of horizontally laid out details elements. If more could be opened, it could cause horizontal scroll which I sure we can all imagine also sucks.
 
@@ -78,7 +78,7 @@ Here’s an example of the accordion pattern being used with a group of horizont
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Note that those `<details>` elements are in a flexbox layout and are themselves `display: flex;` and only recently has that improved. (See [<FontIcon icon="fas fa-globe"/>Stephanie Stimac’s article](https://blog.stephaniestimac.com/posts/2024/10/html-details-and-summary-update/) on recent improvements.)
+Note that those `<details>` elements are in a flexbox layout and are themselves `display: flex;` and only recently has that improved. (See [<VPIcon icon="fas fa-globe"/>Stephanie Stimac’s article](https://blog.stephaniestimac.com/posts/2024/10/html-details-and-summary-update/) on recent improvements.)
 
 Ya know how the inside of a `<details>` is:
 
@@ -102,7 +102,7 @@ Here’s a great demo of using that, as well as other brand new CSS features, to
 
 Browsers can’t just all the sudden make every aspect of a `<select>` and `<option>`s styleable, otherwise historical CSS that *didn’t* apply to them all the sudden *does* and it would wreak untold havoc on websites. The web doesn’t like to roll like that, and I applaud it for that backwards compatibility.
 
-So… there needed to be an opt-in to make it work. A new element can work for that, which for a hot minute seemed like it would be `<selectmenu>`. But the progressive enhancement story for that basically sucked. So [<FontIcon icon="fa-brands fa-chrome"/>the new opt-in](https://developer.chrome.com/blog/rfc-customizable-select#opting-in_to_the_new_select) looks like it will be CSS triggered:
+So… there needed to be an opt-in to make it work. A new element can work for that, which for a hot minute seemed like it would be `<selectmenu>`. But the progressive enhancement story for that basically sucked. So [<VPIcon icon="fa-brands fa-chrome"/>the new opt-in](https://developer.chrome.com/blog/rfc-customizable-select#opting-in_to_the_new_select) looks like it will be CSS triggered:
 
 ```css
 select,
@@ -111,7 +111,7 @@ select,
 }
 ```
 
-![[Demo (<FontIcon icon="iconfont icon-webdev"/>`web-dot-dev`)](https://codepen.io/web-dot-dev/pen/LYKqgXZ)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/select-fallback_1920.png?resize=1024%2C570&ssl=1)
+![[Demo (<VPIcon icon="iconfont icon-webdev"/>`web-dot-dev`)](https://codepen.io/web-dot-dev/pen/LYKqgXZ)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/select-fallback_1920.png?resize=1024%2C570&ssl=1)
 
 <CodePen
   user="web-dot-dev"
@@ -122,7 +122,7 @@ select,
 
 Once you’ve opted in, you can apply styling to elements inside the `<select>` pretty freely, opening up huge doors to designing that experience.
 
-There is some other funky things to know so I’d suggest reading [<FontIcon icon="fa-brands fa-chrome"/>this whole article](https://developer.chrome.com/blog/rfc-customizable-select). Even some new ([<FontIcon icon="fas fa-globe"/>tricky](https://jakearchibald.com/2024/how-should-selectedoption-work/)) HTML!
+There is some other funky things to know so I’d suggest reading [<VPIcon icon="fa-brands fa-chrome"/>this whole article](https://developer.chrome.com/blog/rfc-customizable-select). Even some new ([<VPIcon icon="fas fa-globe"/>tricky](https://jakearchibald.com/2024/how-should-selectedoption-work/)) HTML!
 
 ```html{2-4}
 <select class="country-select">
@@ -144,7 +144,7 @@ There is some other funky things to know so I’d suggest reading [<FontIcon ico
 </select>
 ```
 
-My favorite episode of Off the Main Thread this year was [<FontIcon icon="fas fa-globe"/>about styleable selects](https://offthemainthread.tech/episode/stylable-select-element/) and all the interesting details behind them that will have knock-on effects.
+My favorite episode of Off the Main Thread this year was [<VPIcon icon="fas fa-globe"/>about styleable selects](https://offthemainthread.tech/episode/stylable-select-element/) and all the interesting details behind them that will have knock-on effects.
 
 ---
 
@@ -191,7 +191,7 @@ No JavaScript is required to make the opening and closing of a popover work.
 
 If you’d prefer that the popover be closed by just a click anywhere outside of it (that’s called a “light dismiss”) then update the popover attribute to `popover="auto"` and that’ll do it.
 
-The “targetting” you can see happening with those buttons is an example of an [<FontIcon icon="fas fa-globe"/>“Invoker”](https://thathtml.blog/2023/11/invokers-are-coming/), which is poised bring great power to HTML in coming years.
+The “targetting” you can see happening with those buttons is an example of an [<VPIcon icon="fas fa-globe"/>“Invoker”](https://thathtml.blog/2023/11/invokers-are-coming/), which is poised bring great power to HTML in coming years.
 
 <CodePen
   user="chriscoyier"
@@ -204,7 +204,7 @@ You can’t close a popover with a form submission like you can a `<dialog>`, bu
 
 [**There are quite a few differences between dialogs and popovers**](/frontendmasters.com/whats-the-difference-between-htmls-dialog-element-and-popovers.md), and both are awfully useful. Perhaps the most important two features being the focus trap potential and the fact they are promoted to the “top layer” of the rendered site, meaning no futzing with `z-index`.
 
-The situation we’re in with popovers is that you pretty much need to be OK with either centered or edge-based positioning for them for now, like dialogs. They are just begging for anchor positioning, but the [<FontIcon icon="fas fa-globe"/>current guess is 2026](https://blogs.igalia.com/plampe/contributing-to-css-anchor-positioning-in-webkit/) for interop on that.
+The situation we’re in with popovers is that you pretty much need to be OK with either centered or edge-based positioning for them for now, like dialogs. They are just begging for anchor positioning, but the [<VPIcon icon="fas fa-globe"/>current guess is 2026](https://blogs.igalia.com/plampe/contributing-to-css-anchor-positioning-in-webkit/) for interop on that.
 
 ---
 
@@ -216,7 +216,7 @@ It’s as easy as:
 <input type="checkbox" switch>
 ```
 
-Although only Safari supports it for now and it’s not actually specced yet so it could be said they jumped the gun a bit. [Main discussion here (<FontIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/pull/9546). And I guess we should call it a “switch” to be proper.
+Although only Safari supports it for now and it’s not actually specced yet so it could be said they jumped the gun a bit. [Main discussion here (<VPIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/pull/9546). And I guess we should call it a “switch” to be proper.
 
 I’m a fan here because the absolutely correct implementation of a toggle/switch was easy to get wrong from an accessibility standpoint, and this seems… hard to get wrong.
 
@@ -227,7 +227,7 @@ I’m a fan here because the absolutely correct implementation of a toggle/switc
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-[**Daniel Yuschick has an article**](/smashingmagazine.com/switching-it-up-html-latest-control.md) digging into the details. I like the idea that pseudo elements specific to this UI will be exposed, like `::thumb`and`::track`, but I can’t tell you what the status of that is right now. Even [<FontIcon icon="fas fa-globe"/>the official demos](https://webkit.org/demos/html-switch/) in Safari Nightly Preview *with* the flag turned on aren’t rendering properly for me.
+[**Daniel Yuschick has an article**](/smashingmagazine.com/switching-it-up-html-latest-control.md) digging into the details. I like the idea that pseudo elements specific to this UI will be exposed, like `::thumb`and`::track`, but I can’t tell you what the status of that is right now. Even [<VPIcon icon="fas fa-globe"/>the official demos](https://webkit.org/demos/html-switch/) in Safari Nightly Preview *with* the flag turned on aren’t rendering properly for me.
 
 ---
 
@@ -268,7 +268,7 @@ Has attributes like this as well:
 </a>
 ```
 
-::: info Ben Werd (<FontIcon icon="fas fa-globe"/><code>werd.io</code>)
+::: info Ben Werd (<VPIcon icon="fas fa-globe"/><code>werd.io</code>)
 
 <SiteInfo
   name="Browsers imply noopener for links in new tab"
@@ -281,7 +281,7 @@ Has attributes like this as well:
 
 :::
 
-This is not new “2025” information, but I’m only just learning that this isn’t really needed anymore. Chrome was [<FontIcon icon="fa-brands fa-chrome"/>the last to automatically apply this behavior](https://chromestatus.com/feature/6140064063029248) to `_blank` links and that was 2021. I’ve been doing it as I have a linter that always warns me about it, so in case your browser support targets agree, you might want to check those linter settings.
+This is not new “2025” information, but I’m only just learning that this isn’t really needed anymore. Chrome was [<VPIcon icon="fa-brands fa-chrome"/>the last to automatically apply this behavior](https://chromestatus.com/feature/6140064063029248) to `_blank` links and that was 2021. I’ve been doing it as I have a linter that always warns me about it, so in case your browser support targets agree, you might want to check those linter settings.
 
 ---
 
@@ -289,15 +289,15 @@ This is not new “2025” information, but I’m only just learning that this i
 
 It used to be that if you wanted a Web Component to use Shadow DOM, the only way to do it was for it to be rendered by JavaScript. This meant that Web Components that wanted or needed to use Shadow DOM had no Server Side Rendering (SSR) story at all. That was a big gap, as all the major UI frameworks have coalesced on the idea that SSR is a good idea for many reasons (performance (perceived and actual), resilience, SEO, hosting options, etc).
 
-Now we’ve got [<FontIcon icon="fas fa-globe"/>Declarative Shadow DOM](https://12daysofweb.dev/2024/declarative-shadow-dom/) and the gap has closed.
+Now we’ve got [<VPIcon icon="fas fa-globe"/>Declarative Shadow DOM](https://12daysofweb.dev/2024/declarative-shadow-dom/) and the gap has closed.
 
 I think it’s cool to see the Shadow DOM at work with no JavaScript at all:
 
-![[Demo (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/pvzWqye?editors=1000)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/01/Screenshot-2025-01-01-at-10.03.35%E2%80%AFAM.png?resize=963%2C1024&ssl=1)
+![[Demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/pvzWqye?editors=1000)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/01/Screenshot-2025-01-01-at-10.03.35%E2%80%AFAM.png?resize=963%2C1024&ssl=1)
 
 What I hope we’ll see in 2025 and beyond is frameworks actually help use this. It feels like foundational technology that mostly isn’t expected to be written by hand by authors, but instead used by libraries/frameworks to build great authoring experiences around.
 
-React 19 was the last framework to [<FontIcon icon="fas fa-globe"/>fully correctly support Web Components](https://custom-elements-everywhere.com/), so perhaps we’ll see frameworks do more than support them now but embrace them. I would expect to see a “Next.js of Web Components” at some point.
+React 19 was the last framework to [<VPIcon icon="fas fa-globe"/>fully correctly support Web Components](https://custom-elements-everywhere.com/), so perhaps we’ll see frameworks do more than support them now but embrace them. I would expect to see a “Next.js of Web Components” at some point.
 
 ---
 
@@ -311,7 +311,7 @@ import React from "react";
 
 That looks like ES Modules code, but the fact that the value in quotes doesn’t start with an absolute URL or a `.` (a relative path) means it’s… not. It’s just a convention that we all got used to writing because JavaScript bundlers understand it to mean “that’s a thing from npm so I should go look for it in the `node_modules` folder.
 
-That’s changed now, since you can, via HTML [<FontIcon icon="fa-brands fa-firefox"/>Import Maps](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap), map the value “react” to something else via Import Maps.
+That’s changed now, since you can, via HTML [<VPIcon icon="fa-brands fa-firefox"/>Import Maps](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap), map the value “react” to something else via Import Maps.
 
 So if you executed that JavaScript above from an HTML file that included an import map like this:
 
@@ -348,9 +348,9 @@ I’d tell you this is ideal for implementing modals, but you get this behavior 
 
 ## Keep your find-on-page working properly
 
-Another interesting attribute here. We’ve long had `hidden` as an attribute (even though it’s [<FontIcon icon="fas fa-globe"/>kinda weak](https://meowni.ca/hidden.is.a.lie.html)). The change here is it taking a value, like `hidden="until-found"`. That will hide the element as `hidden` does, but the content within it will still be findable with on-page text search. When it is found, ~it’s on you to react to the DOM event `beforematch` to un-hide (by removing the attribute) the content so it can be seen~ the `hidden` attribute is removed automatically, plus you’ve got the `beforematch` event to hook into if you need to do additional work.
+Another interesting attribute here. We’ve long had `hidden` as an attribute (even though it’s [<VPIcon icon="fas fa-globe"/>kinda weak](https://meowni.ca/hidden.is.a.lie.html)). The change here is it taking a value, like `hidden="until-found"`. That will hide the element as `hidden` does, but the content within it will still be findable with on-page text search. When it is found, ~it’s on you to react to the DOM event `beforematch` to un-hide (by removing the attribute) the content so it can be seen~ the `hidden` attribute is removed automatically, plus you’ve got the `beforematch` event to hook into if you need to do additional work.
 
-Here’s the demo [<FontIcon icon="fa-brands fa-chrome"/>from chrome for developers](https://developer.chrome.com/docs/css-ui/hidden-until-found), which you might need to try [in Debug View (<FontIcon icon="fa-brands fa-codepen"/>`web-dot-dev`)](https://cdpn.io/pen/debug/JjMxmom) for it to trigger properly.
+Here’s the demo [<VPIcon icon="fa-brands fa-chrome"/>from chrome for developers](https://developer.chrome.com/docs/css-ui/hidden-until-found), which you might need to try [in Debug View (<VPIcon icon="fa-brands fa-codepen"/>`web-dot-dev`)](https://cdpn.io/pen/debug/JjMxmom) for it to trigger properly.
 
 <CodePen
   user="web-dot-dev"
@@ -403,9 +403,9 @@ Above, I’m imagining the “card” as a component that is generated from data
 
 With the `<picture>` element in HTML we get the ability to use the `<source>` element within and control exactly when we swap out to different source *images*. It’s a powerful concept that can offer big performance wins.
 
-That idea actually originally came from a concept with the `<video>` tag, but then that was bizarrely removed from (most) browsers. But now it’s back thanks to [<FontIcon icon="fas fa-globe"/>some serious work by Scott Jehl](https://scottjehl.com/posts/responsive-video/) and others he convinced to help the revival along.
+That idea actually originally came from a concept with the `<video>` tag, but then that was bizarrely removed from (most) browsers. But now it’s back thanks to [<VPIcon icon="fas fa-globe"/>some serious work by Scott Jehl](https://scottjehl.com/posts/responsive-video/) and others he convinced to help the revival along.
 
-You can do `media` attribute control the sources, which will probably mostly be used for width query stuff, but it can do anything media can do. [<FontIcon icon="fas fa-globe"/>Scott wrote up some examples here](https://htmhell.dev/adventcalendar/2024/19/), like:
+You can do `media` attribute control the sources, which will probably mostly be used for width query stuff, but it can do anything media can do. [<VPIcon icon="fas fa-globe"/>Scott wrote up some examples here](https://htmhell.dev/adventcalendar/2024/19/), like:
 
 ```html
 <video autoplay controls playsinline muted loop>

@@ -64,7 +64,7 @@ In this tutorial, you are going to learn ways you can make your Android app more
 - Android attributes you can use to make your app more accessible
 - Design guidelines to allow your user to use your app with ease
 
-This tutorial assumes you have basic knowledge of Kotlin and Android. If you’re new to Android, check out our [<FontIcon icon="fas fa-globe"/>Android tutorials](https://kodeco.com/android). If you know Android, but are unfamiliar with Kotlin, take a look at [Kotlin For Android: An Introduction](/kodeco.com/1144981-kotlin-for-android-an-introduction.md).
+This tutorial assumes you have basic knowledge of Kotlin and Android. If you’re new to Android, check out our [<VPIcon icon="fas fa-globe"/>Android tutorials](https://kodeco.com/android). If you know Android, but are unfamiliar with Kotlin, take a look at [Kotlin For Android: An Introduction](/kodeco.com/1144981-kotlin-for-android-an-introduction.md).
 
 ---
 
@@ -72,7 +72,7 @@ This tutorial assumes you have basic knowledge of Kotlin and Android. If you’r
 
 The app you will be improving allows you to set the number of cups of coffee you want to limit yourself to, and keeps track of where you are within that limit. There is an `EditText` field to enter the number of cups you want to limit consumption to. There is also a button to add cups of coffee that have been consumed. To show how much of the limit has been consumed, there is a coffee cup that fills up as more cups are consumed, reaching full when the limit is reached.
 
-Start by downloading the [<FontIcon icon="fas fa-file-zipper"/>starter project][download-material]. Then open the project in Android Studio 3.0.1 or greater by going to <FontIcon icon="iconfont icon-select"/>`[File]` > `[New]` > `[Import Project]`, and selecting the <FontIcon icon="iconfont icon-gradle"/>`build.gradle` file in the root of the project.
+Start by downloading the [<VPIcon icon="fas fa-file-zipper"/>starter project][download-material]. Then open the project in Android Studio 3.0.1 or greater by going to <VPIcon icon="iconfont icon-select"/>`[File]` > `[New]` > `[Import Project]`, and selecting the <VPIcon icon="iconfont icon-gradle"/>`build.gradle` file in the root of the project.
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/Screen-Shot-2018-01-05-at-3.46.13-PM-480x97.png)
 
@@ -82,13 +82,13 @@ Once it finishes loading and building, you will be able to run the application o
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/giphy-1.gif =240x)
 
-The two main files you will be working with for this tutorial are <FontIcon icon="iconfont icon-kotlin"/>`MainActivity.kt` and <FontIcon icon="iconfont icon-code"/>`activty_main.xml`. Here’s a quick summary of all the files you’ll see in this tutorial.
+The two main files you will be working with for this tutorial are <VPIcon icon="iconfont icon-kotlin"/>`MainActivity.kt` and <VPIcon icon="iconfont icon-code"/>`activty_main.xml`. Here’s a quick summary of all the files you’ll see in this tutorial.
 
-- .<FontIcon icon="iconfont icon-kotlin"/>`MainActivity.kt` contains the view code for the main screen. It listens for events from the user updating the limit and how many cups of coffee have been consumed, and updates the view accordingly.
-- .<FontIcon icon="iconfont icon-code"/>`activty_main.xml` is the layout for the main screen. In it you’ll see all the components that make up the view.
-- .<FontIcon icon="iconfont icon-code"/>`strings.xml` holds all the strings you define that are user visible or audible.
-- .<FontIcon icon="iconfont icon-code"/>`styles.xml` contains the app wide styles of the app.
-- .<FontIcon icon="iconfont icon-kotlin"/>`CoffeeRepository.kt` keeps track of how much coffee has been consumed. You won’t need to change anything in it, just know this is what it is used for.
+- .<VPIcon icon="iconfont icon-kotlin"/>`MainActivity.kt` contains the view code for the main screen. It listens for events from the user updating the limit and how many cups of coffee have been consumed, and updates the view accordingly.
+- .<VPIcon icon="iconfont icon-code"/>`activty_main.xml` is the layout for the main screen. In it you’ll see all the components that make up the view.
+- .<VPIcon icon="iconfont icon-code"/>`strings.xml` holds all the strings you define that are user visible or audible.
+- .<VPIcon icon="iconfont icon-code"/>`styles.xml` contains the app wide styles of the app.
+- .<VPIcon icon="iconfont icon-kotlin"/>`CoffeeRepository.kt` keeps track of how much coffee has been consumed. You won’t need to change anything in it, just know this is what it is used for.
 
 Now that you have the app up and running, and have a basic understanding of how it works, you can look for accessibility shortcomings, and make changes to fix them.
 
@@ -98,7 +98,7 @@ Now that you have the app up and running, and have a basic understanding of how 
 
 There are many tools that people use to interact with their Android devices. This includes **TalkBack**, **Magnification**, and **Switch Access**, to name a few.
 
-TalkBack allows you to explore the view using gestures, while also audibly describing what’s on the screen. Magnification allows you to zoom in on parts of the screen. Both TalkBack and Magnification are helpful for people with limited visibility. People with limited mobility can use Switch Access to allow them to navigate without using the touch screen. You can find [<FontIcon icon="fa-brands fa-android"/>all the accessibility features](https://support.google.com/accessibility/android/answer/6006564?hl=en) in **Settings/Accessibility** on your device.
+TalkBack allows you to explore the view using gestures, while also audibly describing what’s on the screen. Magnification allows you to zoom in on parts of the screen. Both TalkBack and Magnification are helpful for people with limited visibility. People with limited mobility can use Switch Access to allow them to navigate without using the touch screen. You can find [<VPIcon icon="fa-brands fa-android"/>all the accessibility features](https://support.google.com/accessibility/android/answer/6006564?hl=en) in **Settings/Accessibility** on your device.
 
 ![](https://koenig-media.raywenderlich.com/uploads/2017/12/food-drink-coffee-cup-768x768.png)
 
@@ -128,7 +128,7 @@ While using TalkBack and other accessibility tools is helpful for finding access
 
 ### Lint
 
-The simplest of these is the [<FontIcon icon="fa-brands fa-android"/>linter](https://developer.android.com/training/accessibility/testing.html#lint) that Google provides. This is enabled by default in Android Studio, and will warn you of accessibility issues such as missing `contentDescription` (Later in this tutorial you’ll learn why using `contentDescription` in important).
+The simplest of these is the [<VPIcon icon="fa-brands fa-android"/>linter](https://developer.android.com/training/accessibility/testing.html#lint) that Google provides. This is enabled by default in Android Studio, and will warn you of accessibility issues such as missing `contentDescription` (Later in this tutorial you’ll learn why using `contentDescription` in important).
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/Screen-Shot-2018-01-05-at-4.23.31-PM-480x96.png)
 
@@ -140,11 +140,11 @@ For more in depth checks, you can turn on checks in your Espresso tests. Do this
 AccessibilityChecks.enable()
 ```
 
-Check the [<FontIcon icon="fa-brands fa-android"/>Google docs](https://developer.android.com/training/accessibility/testing.html#automated) for how you can further configure these tests.
+Check the [<VPIcon icon="fa-brands fa-android"/>Google docs](https://developer.android.com/training/accessibility/testing.html#automated) for how you can further configure these tests.
 
 ### Accessibility Scanner
 
-Google also gives us an Accessibility Scanner that you can [<FontIcon icon="fa-brands fa-google-play"/>download](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor) from the Play Store. Download it now so you can use it with this tutorial. After downloading, the scanner can be turned on in the same Accessibility settings menu you were in before to turn on TalkBack. Navigate to **Settings/Accessibility/Accessibility Scanner**, and toggle it on.
+Google also gives us an Accessibility Scanner that you can [<VPIcon icon="fa-brands fa-google-play"/>download](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor) from the Play Store. Download it now so you can use it with this tutorial. After downloading, the scanner can be turned on in the same Accessibility settings menu you were in before to turn on TalkBack. Navigate to **Settings/Accessibility/Accessibility Scanner**, and toggle it on.
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/giphy-2.gif =240x)
 
@@ -172,9 +172,9 @@ You can better understand the implications of this while using TalkBack. Try nav
 
 ### Content description
 
-You can easily improve this user experience by adding a `android:contentDescription` attribute to the “add coffee” `FloatingActionButton`. [<FontIcon icon="fa-brands fa-android"/>`contentDescription`](https://developer.android.com/reference/android/view/View.html#attr_android:contentDescription) is a small bit of text that describes the view. You don’t need to include that it is a button in your description. This is already inferred by the screen reader, and it will announce it on its own. Add the content description “Add Coffee” to the button. This is done directly on that element in <FontIcon icon="iconfont icon-code"/>`activty_main.xml`. You will also need to add the string resource in the <FontIcon icon="iconfont icon-code"/>`strings.xml`.
+You can easily improve this user experience by adding a `android:contentDescription` attribute to the “add coffee” `FloatingActionButton`. [<VPIcon icon="fa-brands fa-android"/>`contentDescription`](https://developer.android.com/reference/android/view/View.html#attr_android:contentDescription) is a small bit of text that describes the view. You don’t need to include that it is a button in your description. This is already inferred by the screen reader, and it will announce it on its own. Add the content description “Add Coffee” to the button. This is done directly on that element in <VPIcon icon="iconfont icon-code"/>`activty_main.xml`. You will also need to add the string resource in the <VPIcon icon="iconfont icon-code"/>`strings.xml`.
 
-> .<FontIcon icon="iconfont icon-code"/>`activty_main.xml`
+> .<VPIcon icon="iconfont icon-code"/>`activty_main.xml`
 
 ```xml
 <android.support.design.widget.FloatingActionButton
@@ -191,7 +191,7 @@ You can easily improve this user experience by adding a `android:contentDescript
    tools:targetApi="lollipop_mr1"/>
 ```
 
-> .<FontIcon icon="iconfont icon-code"/>`strings.xml`
+> .<VPIcon icon="iconfont icon-code"/>`strings.xml`
 
 ```xml
 <resources>
@@ -219,7 +219,7 @@ See how the reader includes “button” in the audio without us including that 
 
 Adding a content description is something you should do for every image or button that does not otherwise have text for the screen reader to read. If the element is not important to understand what is on the screen, the `contentDescription` can be set to `@null`. If you do this, TalkBack, and other screen readers will skip the element entirely, and move onto the next thing in the view.
 
-Another attribute you can use to tell the screen reader to skip the view element is [<FontIcon icon="fa-brands fa-android"/>`android:isImportantForAccessibility`](https://developer.android.com/reference/android/view/View.html#isImportantForAccessibility()). When set to `”no”`, the screen reader will skip this element while traversing the view.
+Another attribute you can use to tell the screen reader to skip the view element is [<VPIcon icon="fa-brands fa-android"/>`android:isImportantForAccessibility`](https://developer.android.com/reference/android/view/View.html#isImportantForAccessibility()). When set to `”no”`, the screen reader will skip this element while traversing the view.
 
 ### Grouping
 
@@ -235,7 +235,7 @@ There are attributes you can use to improve these issues. Start with the “Amou
 
 To specify that both the elements should be in focus at the same time, add the `android:focusable` attribute with the value `”true”` the parent element of the two, the `LinearLayout` with the id `consumedContainer`. Also add the attribute `android:focusableInTouchMode` with the value `”false”`, as you only want this to be focusable for the screen reader.
 
-> .<FontIcon icon="iconfont icon-code"/>`activty_main.xml`
+> .<VPIcon icon="iconfont icon-code"/>`activty_main.xml`
 
 ```xml
 <LinearLayout
@@ -255,7 +255,7 @@ Run the app with these changes, and try out TalkBack. Observe that “Amount Con
 
 That solved the grouping for the consumption, but you have a similar issue for “Coffee Limit”. The label is read separately from the editable value, with nothing linking the two. This will use a different solution than you used for the amount consumed. The `EditText` still needs to be individually focusable to change the value. Add the `android:labelFor` attribute to the “Coffee Limit” `TextView`, with a value of the id of the `EditText` value, `coffeeLimitValue`.
 
-> .<FontIcon icon="iconfont icon-code"/>`activty_main.xml`
+> .<VPIcon icon="iconfont icon-code"/>`activty_main.xml`
 
 ```xml
 <TextView
@@ -275,9 +275,9 @@ Now run the app to observe the changes. When the `EditText` with the value for t
 
 ### Traversal order
 
-Now to handle the `FloatingActionButton`. You can use [<FontIcon icon="fa-brands fa-android"/>`android:accessibilityTraversalBefore`](https://developer.android.com/reference/android/view/View.html#attr_android:accessibilityTraversalBefore) on a view to specify what item this should come before. Add this to the `FloatingActionButton` using the id of the container holding the consumed amount as the value.
+Now to handle the `FloatingActionButton`. You can use [<VPIcon icon="fa-brands fa-android"/>`android:accessibilityTraversalBefore`](https://developer.android.com/reference/android/view/View.html#attr_android:accessibilityTraversalBefore) on a view to specify what item this should come before. Add this to the `FloatingActionButton` using the id of the container holding the consumed amount as the value.
 
-> .<FontIcon icon="iconfont icon-code"/>`activty_main.xml`
+> .<VPIcon icon="iconfont icon-code"/>`activty_main.xml`
 
 ```xml
 <android.support.design.widget.FloatingActionButton
@@ -311,11 +311,11 @@ Have you tried adding a cup of coffee with TalkBack on? Did you notice anything 
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/android-happy-1.png)
 
-For this you can use the method `announceForAccessibility()` on a view. When [<FontIcon icon="fa-brands fa-android"/>`announceForAccessibility()`](https://developer.android.com/reference/android/view/View.html#announceForAccessibility(java.lang.CharSequence)) is called, Android will give an audible announcement for those using a screen reader, and do nothing if an accessibility tool is not in use. You can use this to inform the user that the value has been incremented.
+For this you can use the method `announceForAccessibility()` on a view. When [<VPIcon icon="fa-brands fa-android"/>`announceForAccessibility()`](https://developer.android.com/reference/android/view/View.html#announceForAccessibility(java.lang.CharSequence)) is called, Android will give an audible announcement for those using a screen reader, and do nothing if an accessibility tool is not in use. You can use this to inform the user that the value has been incremented.
 
 In the `onCreate()` method in `MainActivity`, there is a click listener on the “add coffee” button that increments the number of cups of coffee, and shows the result. Add a call to `announceForAccessibility()` on the updated view to announce the change was made. Put the string you’re using for the message in the strings file. There is already a helper method, `consumedString()`, you can use to get the resulting value.
 
-> .<FontIcon icon="iconfont icon-kotlin"/>`MainActivity.kt`
+> .<VPIcon icon="iconfont icon-kotlin"/>`MainActivity.kt`
 
 ```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
@@ -330,7 +330,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-> .<FontIcon icon="iconfont icon-code"/>`strings.xml`
+> .<VPIcon icon="iconfont icon-code"/>`strings.xml`
 
 ```xml
 <resources>
@@ -351,7 +351,7 @@ Try using TalkBack to increment the cups of coffee consumed with this update. No
 
 If you don’t want the experience to change for sighted users, `announceForAccessibility()` is a great thing to use. Use it whenever you have a place where there is a meaningful change that was previously only indicated visually.
 
-Another option for updating the user about a change is with [<FontIcon icon="fa-brands fa-android"/>Toasts](https://developer.android.com/guide/topics/ui/notifiers/toasts.html). When Toasts are shown on screen, they are announced when accessibility tools such as TalkBack are enabled.
+Another option for updating the user about a change is with [<VPIcon icon="fa-brands fa-android"/>Toasts](https://developer.android.com/guide/topics/ui/notifiers/toasts.html). When Toasts are shown on screen, they are announced when accessibility tools such as TalkBack are enabled.
 
 ---
 
@@ -365,11 +365,11 @@ Take a look at your Accessibility Scanner results again. You can open the app to
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/Screenshot_20180105-193246.png)
 
-It’s [<FontIcon icon="fa-brands fa-android"/>recommended by Google](https://developer.android.com/guide/topics/ui/accessibility/apps.html#touch-targets) to make any clickable items at least 48dp in size. That is because anything smaller is difficult for people with vision and motor impairments to tap accurately. In addition, you’ll help out all your users that might be in a bumpy vehicle, wearing gloves, or in bright light that makes it hard to see the screen. Everyone benefits from making this improvement.
+It’s [<VPIcon icon="fa-brands fa-android"/>recommended by Google](https://developer.android.com/guide/topics/ui/accessibility/apps.html#touch-targets) to make any clickable items at least 48dp in size. That is because anything smaller is difficult for people with vision and motor impairments to tap accurately. In addition, you’ll help out all your users that might be in a bumpy vehicle, wearing gloves, or in bright light that makes it hard to see the screen. Everyone benefits from making this improvement.
 
 To solve this, add the `android:minHeight` attribute to that `EditText`. Make sure the value is at least 48dp. Alternatively, you could set `android:height` to 48dp or higher. This example uses `minHeight`.
 
-> .<FontIcon icon="iconfont icon-code"/>`activty_main.xml`
+> .<VPIcon icon="iconfont icon-code"/>`activty_main.xml`
 
 ```xml
 <EditText
@@ -395,13 +395,13 @@ The other is on the text in the toolbar. The message says “Consider increasing
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/Screenshot_20180105-193740.png)
 
-The [<FontIcon icon="fa-brands fa-android"/>recommended contrast ratio](https://developer.android.com/guide/topics/ui/accessibility/apps.html#color-contrast) for text this size is at least 3.0 to 1.
+The [<VPIcon icon="fa-brands fa-android"/>recommended contrast ratio](https://developer.android.com/guide/topics/ui/accessibility/apps.html#color-contrast) for text this size is at least 3.0 to 1.
 
-Depending on where this is in your app, there are multiple possible actions you can take. You can change the font color. You can also change the background color. These are usually done in the layout xml file, <FontIcon icon="iconfont icon-code"/>`activty_main.xml` in this case. Because this is in the the action bar, you are going to change it in the styles in <FontIcon icon="iconfont icon-code"/>`styles.xml`.
+Depending on where this is in your app, there are multiple possible actions you can take. You can change the font color. You can also change the background color. These are usually done in the layout xml file, <VPIcon icon="iconfont icon-code"/>`activty_main.xml` in this case. Because this is in the the action bar, you are going to change it in the styles in <VPIcon icon="iconfont icon-code"/>`styles.xml`.
 
 Open the file and observe the parent style. The app is currently using a parent dark action bar theme, `Theme.AppCompat.Light.DarkActionBar`. The action bar is yellow, a light color, so this should be a light theme. Replace the parent style with `Theme.AppCompat.Light`.
 
-> .<FontIcon icon="iconfont icon-code"/>`styles.xml`
+> .<VPIcon icon="iconfont icon-code"/>`styles.xml`
 
 ```xml
 <style name="AppTheme" parent="Theme.AppCompat.Light">
@@ -419,7 +419,7 @@ This will change the text of the action bar from white to black. Run the Scanner
 
 ## Where to go from here
 
-By completing this tutorial, you’ve learned many ways to make your apps more accessible. You can download the finished project [<FontIcon icon="fas fa-file-zipper"/>Here][download-material-final].
+By completing this tutorial, you’ve learned many ways to make your apps more accessible. You can download the finished project [<VPIcon icon="fas fa-file-zipper"/>Here][download-material-final].
 
 Now you know how to use TalkBack and the Accessibility Scanner to identify accessibility issues in your app. You also know that you can use Espresso and Lint to catch and make sure issues don’t creep in.
 
@@ -427,16 +427,16 @@ Through using the Accessibility Scanner and TalkBack, you identified areas of th
 
 You also know some tips for creating accessible designs. Making sure touch targets are big enough, and you have a high enough color contrast will benefit all your users.
 
-These are some of the main things you can do to make your app accessible, but there are also many more things. Make sure to go through Google’s [<FontIcon icon="fa-brands fa-android"/>accessibility checklist](https://developer.android.com/guide/topics/ui/accessibility/checklist.html) when creating your app. You’ll find things you learned here, as well ways to get started making even more improvements.
+These are some of the main things you can do to make your app accessible, but there are also many more things. Make sure to go through Google’s [<VPIcon icon="fa-brands fa-android"/>accessibility checklist](https://developer.android.com/guide/topics/ui/accessibility/checklist.html) when creating your app. You’ll find things you learned here, as well ways to get started making even more improvements.
 
 Write your app with *everyone* in mind!
 
 Here are some more resources on accessibility for you:
 
-- [<FontIcon icon="fa-brands fa-android"/>Google’s overview about Android accessibility](https://developer.android.com/guide/topics/ui/accessibility/index.html) <!-- TODO: add VPCard -->
-- [<FontIcon icon="fa-brands fa-android"/>Google’s “Implementing Accessibility”](https://developer.android.com/training/accessibility/index.html) <!-- TODO: add VPCard -->
+- [<VPIcon icon="fa-brands fa-android"/>Google’s overview about Android accessibility](https://developer.android.com/guide/topics/ui/accessibility/index.html) <!-- TODO: add VPCard -->
+- [<VPIcon icon="fa-brands fa-android"/>Google’s “Implementing Accessibility”](https://developer.android.com/training/accessibility/index.html) <!-- TODO: add VPCard -->
 - [‘How to Earn an “A” for Android Accessibility’ by Nick Bonatsakis](https://www.raizlabs.com/dev/2017/05/android-accessibility/)
-- [<FontIcon icon="fa-brands fa-youtube"/>“Android is for Everyone” by Kelly Shuster](https://youtu.be/fBz5M3CbhYw)
+- [<VPIcon icon="fa-brands fa-youtube"/>“Android is for Everyone” by Kelly Shuster](https://youtu.be/fBz5M3CbhYw)
 
 <VidStack src="youtube/fBz5M3CbhYw" />
 

@@ -91,7 +91,7 @@ In this example, you define your constants in the same module where the code usi
 
 ::: note
 
-If you want to explicitly communicate that a constant should be used in its containing module only, then you can add a leading underscore (`_`) to its name. For example, you can do something like `_PI = 3.141592653589793`. This leading underscore labels the name as [<FontIcon icon="fa-brands fa-python"/>non-public](https://peps.python.org/pep-0008/#method-names-and-instance-variables), which means that the user’s code shouldn’t use this name directly.
+If you want to explicitly communicate that a constant should be used in its containing module only, then you can add a leading underscore (`_`) to its name. For example, you can do something like `_PI = 3.141592653589793`. This leading underscore labels the name as [<VPIcon icon="fa-brands fa-python"/>non-public](https://peps.python.org/pep-0008/#method-names-and-instance-variables), which means that the user’s code shouldn’t use this name directly.
 
 :::
 
@@ -112,7 +112,7 @@ calc/
 └── constants.py
 ```
 
-The <FontIcon icon="fa-brands fa-python"/>`__init__.py` file will turn the <FontIcon icon="fas fa-folder-open"/>`calc/` directory into a Python package. Then you can add the following content to your <FontIcon icon="fa-brands fa-python"/>`constants.py` file:
+The <VPIcon icon="fa-brands fa-python"/>`__init__.py` file will turn the <VPIcon icon="fas fa-folder-open"/>`calc/` directory into a Python package. Then you can add the following content to your <VPIcon icon="fa-brands fa-python"/>`constants.py` file:
 
 ```py title="constants.py"
 """This module defines project-level constants."""
@@ -122,7 +122,7 @@ EULER_NUMBER = 2.718281828459045
 TAU = 6.283185307179586
 ```
 
-Once you’ve added this code to <FontIcon icon="fa-brands fa-python"/>`constants.py`, then you can import the module whenever you need to use any of your constants:
+Once you’ve added this code to <VPIcon icon="fa-brands fa-python"/>`constants.py`, then you can import the module whenever you need to use any of your constants:
 
 ```py{6,9,11} title="calculations.py"
 """This module implements custom calculations."""
@@ -172,9 +172,9 @@ EULER_NUMBER=2.718281828459045
 TAU=6.283185307179586
 ```
 
-This file uses the [<FontIcon icon="fa-brands fa-wikipedia-w"/>INI file](https://en.wikipedia.org/wiki/INI_file) format. You can read this type of file using the `configparser` module from the standard library.
+This file uses the [<VPIcon icon="fa-brands fa-wikipedia-w"/>INI file](https://en.wikipedia.org/wiki/INI_file) format. You can read this type of file using the `configparser` module from the standard library.
 
-Now get back to <FontIcon icon="fa-brands fa-python"/>`calculations.py` and update it to look something like the following:
+Now get back to <VPIcon icon="fa-brands fa-python"/>`calculations.py` and update it to look something like the following:
 
 ```py{4,8-9,13,17-20} title="calculations.py"
 """This module implements custom calculations."""
@@ -213,7 +213,7 @@ This strategy may be beneficial when you’re creating a [**graphical user inter
 
 Another helpful strategy to handle your constants is to define them as **system variables** if you’re on Windows or **environment variables** if you’re on macOS or Linux.
 
-This approach is commonly used to configure [<FontIcon icon="fas fa-globe"/>deployment](https://12factor.net/config) in different environments. You can also use environment variables for constants that imply security risks and shouldn’t be directly committed to the source code. Examples of these types of constants include authentication credentials, API access tokens, and so on.
+This approach is commonly used to configure [<VPIcon icon="fas fa-globe"/>deployment](https://12factor.net/config) in different environments. You can also use environment variables for constants that imply security risks and shouldn’t be directly committed to the source code. Examples of these types of constants include authentication credentials, API access tokens, and so on.
 
 ::: note
 
@@ -223,20 +223,20 @@ You should [be careful](https://blog.diogomonica.com/2017/03/27/why-you-shouldnt
 
 To use this strategy, you first must export your constants as environment or system variables in your operating system. There are at least two ways to do this:
 
-1. Manually export the constants in your current [<FontIcon icon="fa-brands fa-wikipedia-w"/>shell](https://en.wikipedia.org/wiki/Shell_(computing)) session
+1. Manually export the constants in your current [<VPIcon icon="fa-brands fa-wikipedia-w"/>shell](https://en.wikipedia.org/wiki/Shell_(computing)) session
 2. Add your constants to the shell’s configuration file
 
 The first technique is pretty quick and practical. You can use it to run some fast tests on your code. For example, say that you need to export an API token as a system or environment variable. In that case, you just need to run the following command:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 set API_TOKEN="593086396372"
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 export API_TOKEN="593086396372"
@@ -252,13 +252,13 @@ If you’re on Linux or macOS, then you can go to your home folder and open your
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-linux"/>
+@tab:active <VPIcon icon="fa-brands fa-linux"/>
 
 ```sh title=".bashrc"
 export API_TOKEN="593086396372"
 ```
 
-@tab <FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="iconfont icon-macos"/>
 
 ```sh title=".zshrc"
 export API_TOKEN="593086396372"
@@ -268,7 +268,7 @@ export API_TOKEN="593086396372"
 
 Linux and macOS automatically load the corresponding shell configuration file whenever you start a terminal or command-line window. This way, you ensure that the `API_TOKEN` variable is always available on your system.
 
-Once you’ve defined the required environment variables for your Python constant, then you need to load them into your code. To do this, you can use the [<FontIcon icon="fa-brands fa-python"/>`environ`](https://docs.python.org/3/library/os.html#os.environ) dictionary from Python’s [<FontIcon icon="fa-brands fa-python"/>`os`](https://docs.python.org/3/library/os.html#module-os) module. The keys and values of `environ` are strings representing the environment variables and their values, respectively.
+Once you’ve defined the required environment variables for your Python constant, then you need to load them into your code. To do this, you can use the [<VPIcon icon="fa-brands fa-python"/>`environ`](https://docs.python.org/3/library/os.html#os.environ) dictionary from Python’s [<VPIcon icon="fa-brands fa-python"/>`os`](https://docs.python.org/3/library/os.html#module-os) module. The keys and values of `environ` are strings representing the environment variables and their values, respectively.
 
 Your `API_TOKEN` constant is now present in the `environ` dictionary. Therefore, you can read it from there with just two lines of code:
 

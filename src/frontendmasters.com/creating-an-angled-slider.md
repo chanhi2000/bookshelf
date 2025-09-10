@@ -69,7 +69,7 @@ We're going to pull this off in just HTML and CSS (with a little help from Sass 
 
 One day I saw this ad about a Netflix series:
 
-![[<FontIcon icon="fa-brands fa-imdb"/>Midnight Asia: Eat Dance Dream](https://imdb.com/title/tt16583602/mediaviewer/rm1122820353/) (2022)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/01/midnight-asia.jpg?resize=655%2C1024&ssl=1 =200x)
+![[<VPIcon icon="fa-brands fa-imdb"/>Midnight Asia: Eat Dance Dream](https://imdb.com/title/tt16583602/mediaviewer/rm1122820353/) (2022)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/01/midnight-asia.jpg?resize=655%2C1024&ssl=1 =200x)
 
 Four things stuck out to me:
 
@@ -78,13 +78,13 @@ Four things stuck out to me:
 3. The irregular grid layout
 4. The glow effect between grid items
 
-While I did[experiment (<FontIcon icon="fa-brands fa-codepen"/>`ZachSaucier`)](https://codepen.io/ZachSaucier/pen/raBaKxW/2abb038596978e2000831ed10f51d6f0)with recreating the glowing neon lines, I ended up making a slider inspired by the layout of this poster. Let's dive into how it is made!
+While I did[experiment (<VPIcon icon="fa-brands fa-codepen"/>`ZachSaucier`)](https://codepen.io/ZachSaucier/pen/raBaKxW/2abb038596978e2000831ed10f51d6f0)with recreating the glowing neon lines, I ended up making a slider inspired by the layout of this poster. Let's dive into how it is made!
 
 ---
 
 ## Creating a Basic Angled Slider
 
-The core of this slider effect is layered content with an angled[<FontIcon icon="fa-brands fa-firefox"/>`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)to reveal targeted content. “Targeted” isn't exactly a scientific web dev term, but I'll be using it to mean “hovered, focused, or`aria-selected`”.
+The core of this slider effect is layered content with an angled[<VPIcon icon="fa-brands fa-firefox"/>`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)to reveal targeted content. “Targeted” isn't exactly a scientific web dev term, but I'll be using it to mean “hovered, focused, or`aria-selected`”.
 
 For static content, creating a layout like this is straightforward. Just layer the contents on top of each other (using`position: absolute`or`display: grid`) then apply the `clip-path` to the top element(s):
 
@@ -175,7 +175,7 @@ $split_width: 30px; // Sizes the angle and min width of each content section
 
 The reason we have to have these min and max numbers is that this affect requires a different chunk of CSS per child count. For example, when we only have 2 child elements there's only 1 element to affect when targeted. When there's 3 children, there's 2 child elements to affect when targeted. And so on. So we could use a number like 100 as our max and assume that there will never be more than 100 children, but in most use cases of a component like this that'd be *way more* CSS than you actually need.
 
-Now we can setup our outer loop (following[<FontIcon icon="fa-brands fa-sass"/>SCSS' syntax](https://sass-lang.com/documentation/at-rules/control/for/)):
+Now we can setup our outer loop (following[<VPIcon icon="fa-brands fa-sass"/>SCSS' syntax](https://sass-lang.com/documentation/at-rules/control/for/)):
 
 ```scss
 @for $num_sections from $min_sections to ($max_sections + 1) {

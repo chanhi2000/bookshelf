@@ -70,7 +70,7 @@ cover: /assets/image/blog.logrocket.com/how-to-use-axios-post-requests/banner.pn
 
 ::: note Editor’s note
 
-This guide to understanding Axios POST requests was last updated by [<FontIcon icon="fas fa-globe"/>Joseph Mawa](https://blog.logrocket.com/author/josephmawa/) on 1 July 2024 to cover working with Axios interceptors, including how to set up request and response interceptors, as well as to cover advanced POST request features, such as how to add a request body to an Axios POST request and handling POST request timeouts and cancellations.
+This guide to understanding Axios POST requests was last updated by [<VPIcon icon="fas fa-globe"/>Joseph Mawa](https://blog.logrocket.com/author/josephmawa/) on 1 July 2024 to cover working with Axios interceptors, including how to set up request and response interceptors, as well as to cover advanced POST request features, such as how to add a request body to an Axios POST request and handling POST request timeouts and cancellations.
 
 :::
 
@@ -158,7 +158,7 @@ Earlier in this article, we explored how to use the Axios `POST` method in vanil
 
 ### How to send an Axios `POST` request in vanilla JavaScript
 
-To use Axios in vanilla JavaScript, we must first add the CDN link in the HTML before using it in the `script` file. Let’s start by creating two files to use: <FontIcon icon="fa-brands fa-html5"/>`index.html` and <FontIcon icon="fa-brands fa-js"/>`index.js`:
+To use Axios in vanilla JavaScript, we must first add the CDN link in the HTML before using it in the `script` file. Let’s start by creating two files to use: <VPIcon icon="fa-brands fa-html5"/>`index.html` and <VPIcon icon="fa-brands fa-js"/>`index.js`:
 
 ```html :collapsed-lines title="index.html"
 <!DOCTYPE html>
@@ -188,9 +188,9 @@ To use Axios in vanilla JavaScript, we must first add the CDN link in the HTML b
 </html>
 ```
 
-This HTML file has a simple login form with two input fields, the email and the password fields, and a submit button. At the bottom, just above the <FontIcon icon="fa-brands fa-js"/>`index.js` link, we also added the Axios CDN.
+This HTML file has a simple login form with two input fields, the email and the password fields, and a submit button. At the bottom, just above the <VPIcon icon="fa-brands fa-js"/>`index.js` link, we also added the Axios CDN.
 
-Next, in the <FontIcon icon="fa-brands fa-js"/>`index.js` file we created above, we select the form element, and email and password `input` elements using their `ID`s. We can then add a `submit` event handler to the form element. It is triggered whenever we submit the form:
+Next, in the <VPIcon icon="fa-brands fa-js"/>`index.js` file we created above, we select the form element, and email and password `input` elements using their `ID`s. We can then add a `submit` event handler to the form element. It is triggered whenever we submit the form:
 
 ```js :collapsed-lines title="index.js"
 const emailInput = document.getElementById("email");
@@ -224,13 +224,13 @@ We can now perform the same `POST` request in a React project. We need to first 
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add axios
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install axios
@@ -238,7 +238,7 @@ npm install axios
 
 :::
 
-With Axios installed, let’s open our <FontIcon icon="fa-brands fa-react"/>`App.js` file. Unlike in vanilla JavaScript, we need to import Axios before using it. In our `handleSubmit` function, we will invoke the Axios `POST` method just as we did in the vanilla example above:
+With Axios installed, let’s open our <VPIcon icon="fa-brands fa-react"/>`App.js` file. Unlike in vanilla JavaScript, we need to import Axios before using it. In our `handleSubmit` function, we will invoke the Axios `POST` method just as we did in the vanilla example above:
 
 ```js :collapsed-lines title="App.jsx"
 import React, { useState } from "react";

@@ -83,11 +83,11 @@ Let us create a very simple Spring MVC service: We will implement a simple Rest 
 
 We will create a service that returns *customized greetings* to users based on their request.
 
-Either go to [<FontIcon icon="iconfont icon-spring"/>https://start.spring.io](https://start.spring.io) to create your project, or use the much more practical <FontIcon icon="iconfont icon-select"/>`[New Project Window]` -> `[Spring Initializr]` in IDEA:
+Either go to [<VPIcon icon="iconfont icon-spring"/>https://start.spring.io](https://start.spring.io) to create your project, or use the much more practical <VPIcon icon="iconfont icon-select"/>`[New Project Window]` -> `[Spring Initializr]` in IDEA:
 
 ![Spring Initializr](https://kt.academy/_next/image?url=https%3A%2F%2Fmarcinmoskala.com%2Fkt-academy-articles%2Frenatocosta%2Fimages%2F2021-10-24%2F4.png&w=3840&q=75)
 
-We will add solely the spring-web dependency for the time being. After it is generated, add the following to the <FontIcon icon="fas fa-file-lines"/>`application.properties` (or <FontIcon icon="iconfont icon-yaml"/>`application.yml`) file in <FontIcon icon="fas fa-folder-open"/>`/src/resources`:
+We will add solely the spring-web dependency for the time being. After it is generated, add the following to the <VPIcon icon="fas fa-file-lines"/>`application.properties` (or <VPIcon icon="iconfont icon-yaml"/>`application.yml`) file in <VPIcon icon="fas fa-folder-open"/>`/src/resources`:
 
 ```properties title="src/main/resources/application.properties"
 server.tomcat.threads.max=10
@@ -305,7 +305,7 @@ While we improve by not blocking unnecessarily in the remote request, we lose in
 
 ## Coroutines, or how I stopped worrying about non-blocking code and started loving the code
 
-Coroutines (or more specifically Kotlin Coroutines) are basically devices that allow the non-blocking execution of code, and this code can be suspended and later resumed. In a really reductive nutshell, coroutines are akin to lightweight-threads. If you haven't been introduced yet, I highly recommend watching [<FontIcon icon="fa-brands fa-youtube"/>Roman Elizarov's talk in Kotlin Conf 2017](https://youtu.be/_hfBv0a09Jc), and also having a look at the [<FontIcon icon="iconfont icon-jetbrains"/>amazing documentation provided by Jetbrains](https://kotlinlang.org/docs/coroutines-guide.html).
+Coroutines (or more specifically Kotlin Coroutines) are basically devices that allow the non-blocking execution of code, and this code can be suspended and later resumed. In a really reductive nutshell, coroutines are akin to lightweight-threads. If you haven't been introduced yet, I highly recommend watching [<VPIcon icon="fa-brands fa-youtube"/>Roman Elizarov's talk in Kotlin Conf 2017](https://youtu.be/_hfBv0a09Jc), and also having a look at the [<VPIcon icon="iconfont icon-jetbrains"/>amazing documentation provided by Jetbrains](https://kotlinlang.org/docs/coroutines-guide.html).
 
 One important statement you can take away from this intro: Nowadays, waiting gracefully is probably more important than raw computation! And providing an idiomatic and intuitive way to wait gracefully is one of the superpowers coroutines grant us!
 
@@ -378,7 +378,7 @@ Now, if we have an inexpensive model for using threads in coroutines, can we tak
 
 ## Migrating towards coroutines
 
-Since Spring Boot 2.4, even servlet based services have support for coroutines! To get started, let's add the appropriate dependencies to our <FontIcon icon="iconfont icon-gradle"/>`build.gradle` file:
+Since Spring Boot 2.4, even servlet based services have support for coroutines! To get started, let's add the appropriate dependencies to our <VPIcon icon="iconfont icon-gradle"/>`build.gradle` file:
 
 ```kotlin title="build.gradle.kt"
 val coroutinesVersion = "1.5.2" 
@@ -479,7 +479,7 @@ class HttpClientConfiguration {
 }
 ```
 
-(As an aside, I would also recommend looking into alternatives to Java's HTTP client that plays nicer in a coroutine environment, such as Spring's [<FontIcon icon="iconfont icon-spring"/>WebClient](https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/boot-features-webclient.html), [Ktor Client](https://ktor.io/), [<FontIcon icon="iconfont icon-github"/>`kittinunf/fuel`](https://github.com/kittinunf/fuel), etc.)
+(As an aside, I would also recommend looking into alternatives to Java's HTTP client that plays nicer in a coroutine environment, such as Spring's [<VPIcon icon="iconfont icon-spring"/>WebClient](https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/boot-features-webclient.html), [Ktor Client](https://ktor.io/), [<VPIcon icon="iconfont icon-github"/>`kittinunf/fuel`](https://github.com/kittinunf/fuel), etc.)
 
 As one can see, now our delayService just uses an `await()` function to wait for the response of our remote request, while yielding the processing resources of its thread to other operations. It reads as simple imperative code, but waits gracefully for the response without blocking the Thread.
 
@@ -514,7 +514,7 @@ The code for this project can be found here
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/ec63251ecec3ca8a814f666da005ef408d8fb3ed52c98cd116ade1787ed58d99/renatomrcosta/why-nonblocking-spring-web-blogpost"/>
 
-> This article was originally published on [<FontIcon icon="fas fa-globe"/>Renato Costa's blog](https://renatomrcosta.github.io/Nonblocking-Spring-MVC).
+> This article was originally published on [<VPIcon icon="fas fa-globe"/>Renato Costa's blog](https://renatomrcosta.github.io/Nonblocking-Spring-MVC).
 
 :::
 

@@ -53,11 +53,11 @@ As a Python developer, you’ll spend much of your coding time in the interactiv
 
 The CPython implementation includes [**IDLE**](/realpython.com/python-idle.md), which provides an enhanced alternative to the standard REPL out of the box. IDLE is a great tool that you can use without installing anything from a third-party source.
 
-In the Python ecosystem, you’ll find other feature-rich REPLs, though. For example, [<FontIcon icon="fas fa-globe"/>IPython](https://ipython.readthedocs.io/en/stable/#ipython-documentation) has been around for quite some time. This REPL provides code completion, object exploration, advanced history management, and many other features. This tool is popular in the data science ecosystem.
+In the Python ecosystem, you’ll find other feature-rich REPLs, though. For example, [<VPIcon icon="fas fa-globe"/>IPython](https://ipython.readthedocs.io/en/stable/#ipython-documentation) has been around for quite some time. This REPL provides code completion, object exploration, advanced history management, and many other features. This tool is popular in the data science ecosystem.
 
 Another enhanced REPL is [**bpython**](/realpython.com/bpython-alternative-python-repl.md), which also offers several IDE-like features that’ll highly improve your user experience and productivity.
 
-The [<FontIcon icon="iconfont icon-github"/>`jonathanslenders/ptpython`](https://github.com/jonathanslenders/ptpython/) REPL is another good alternative to the standard one. It includes features like syntax highlighting, multiline editing, auto-completion, mouse support, and more.
+The [<VPIcon icon="iconfont icon-github"/>`jonathanslenders/ptpython`](https://github.com/jonathanslenders/ptpython/) REPL is another good alternative to the standard one. It includes features like syntax highlighting, multiline editing, auto-completion, mouse support, and more.
 
 If you prefer to use an online REPL, then you also have a few options available:
 

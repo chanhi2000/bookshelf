@@ -56,7 +56,7 @@ It’s awfully nice that HTML provides a native color picker. Activating the inp
 
 The UI varies, but [**in all cases**](/frontendmasters.com/the-color-input-the-color-picker.md) **it doesn’t actually show you the color value you’ve picked when the picker is closed.** I think that’s… weird? What if the input is part of a form in which you actually have a valid color you want to put in yourself? Or copy the value out of?
 
-I thought of this while I was looking at [Adam Argyle’s `color-mix()` tool (<FontIcon icon="fa-brands fa-codepen"/>`argyleink`)](https://codepen.io/argyleink/pen/YzLMaor). It’s a great tool, but it made me wish I could just type or paste in a color rather than *having* to use the picker.
+I thought of this while I was looking at [Adam Argyle’s `color-mix()` tool (<VPIcon icon="fa-brands fa-codepen"/>`argyleink`)](https://codepen.io/argyleink/pen/YzLMaor). It’s a great tool, but it made me wish I could just type or paste in a color rather than *having* to use the picker.
 
 I figured I’d toss together a Web Component that would actually display the color. We could call it an [HTML web component](https://adactio.com/journal/20618) as it starts with perfectly valid HTML (which you can customize as needed) then you wrap it in a custom element to extend the functionality and/or UI. In this the thing that displays the color is an `<input type="text">`, because that works both to show it, and can accept a value that can propagate back to the color input.
 
@@ -67,7 +67,7 @@ I figured I’d toss together a Web Component that would actually display the co
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-That basically does what I was picturing. This keeps it all Light DOM so it would be quite easy to style and customize. Since could be used inside a `<form>`, you might need to fiddle with [<FontIcon icon="fa-brands fa-firefox"/>`ElementInternals`](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals#examples) so that the input can participate in the form as expected. Since there are now *two* inputs that essentially have the same value, it’s likely you’ll only want one to submit as form data.
+That basically does what I was picturing. This keeps it all Light DOM so it would be quite easy to style and customize. Since could be used inside a `<form>`, you might need to fiddle with [<VPIcon icon="fa-brands fa-firefox"/>`ElementInternals`](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals#examples) so that the input can participate in the form as expected. Since there are now *two* inputs that essentially have the same value, it’s likely you’ll only want one to submit as form data.
 
 But my example there, like native color inputs themselves, deals exclusively in HEX colors. I was hoping that the text input could deal in *any* sort of valid color format.
 

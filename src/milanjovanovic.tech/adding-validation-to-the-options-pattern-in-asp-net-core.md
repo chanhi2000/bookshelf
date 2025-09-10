@@ -75,7 +75,7 @@ public class GitHubSettings
 }
 ```
 
-Inside of our <FontIcon icon="iconfont icon-json"/>`appsettings.json` file we need to create a section to hold our configuration values:
+Inside of our <VPIcon icon="iconfont icon-json"/>`appsettings.json` file we need to create a section to hold our configuration values:
 
 ```json
 "GitHubSettings": {
@@ -102,7 +102,7 @@ If we leave the implementation like this, we're moving the responsibility for pr
 Here are just a few things that can go wrong:
 
 - Passing an incorrect section name to `IConfiguration.GetSection`
-- Forgetting to add the settings values in <FontIcon icon="iconfont icon-json"/>`appsettings.json`
+- Forgetting to add the settings values in <VPIcon icon="iconfont icon-json"/>`appsettings.json`
 - Typo in a property name in the class or in the configuration
 - Unbindale properties without a setter
 - Data type mismatch resulting in incompatible values
@@ -201,13 +201,13 @@ This shortens the feedback loop, and you will know right away that you have a pr
 
 The **Options pattern** is very flexible and allows us to use strongly typed settings in ASP.NET Core.
 
-If you want to see how to implement the [<FontIcon icon="fa-brands fa-youtube"/>**Options pattern**](https://youtu.be/wxYt0motww0), I made a [<FontIcon icon="fa-brands fa-youtube"/>**video about it where I go into the details.**](https://youtu.be/wxYt0motww0) I covered the differences between `IOptions`, `IOptionsSnapshot` and `IOptionsMonitor`.
+If you want to see how to implement the [<VPIcon icon="fa-brands fa-youtube"/>**Options pattern**](https://youtu.be/wxYt0motww0), I made a [<VPIcon icon="fa-brands fa-youtube"/>**video about it where I go into the details.**](https://youtu.be/wxYt0motww0) I covered the differences between `IOptions`, `IOptionsSnapshot` and `IOptionsMonitor`.
 
 <VidStack src="youtube/wxYt0motww0" />
 
 And now you know how to use the `ValidateOnStart` method, which was introduced in **.NET 6**, to validate your application settings on app start up. This allows you to learn about configuration issues as soon as possible, instead of at runtime.
 
-I also made a video showing how to add [<FontIcon icon="fa-brands fa-youtube"/>validation to the Option pattern](https://youtu.be/qRruEdjNVNE).
+I also made a video showing how to add [<VPIcon icon="fa-brands fa-youtube"/>validation to the Option pattern](https://youtu.be/qRruEdjNVNE).
 
 <VidStack src="youtube/qRruEdjNVNE" />
 

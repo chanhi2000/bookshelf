@@ -143,7 +143,7 @@ Another classic! Static designs tend to have “happy path” content where the 
 
 What if that card design above had 12 tags? It would probably look silly if they wrapped, pushing the more-important header too far down. What if one of the tags was “**Hamlet in Northumberland, England**“. Will it break the container?
 
-It looks like the header above is already truncated to two lines. It’s nice we can do that on the web, but as Karen always reminds us, [truncation is not a content strategy (<FontIcon icon="fa-brands fa-x-twitter"/>`karenmcgrane`)](https://x.com/karenmcgrane/status/1288301727997931520?lang=en). Does the CMS get involved to limit things? Are design people at the CMS meetings so that good design ideas can be a part of the decision making process?
+It looks like the header above is already truncated to two lines. It’s nice we can do that on the web, but as Karen always reminds us, [truncation is not a content strategy (<VPIcon icon="fa-brands fa-x-twitter"/>`karenmcgrane`)](https://x.com/karenmcgrane/status/1288301727997931520?lang=en). Does the CMS get involved to limit things? Are design people at the CMS meetings so that good design ideas can be a part of the decision making process?
 
 What if there isn’t *enough* content? Will this card work without the description text? Without a photo or author?
 
@@ -193,7 +193,7 @@ Even that, does your design tool make that easy to mock up? And thus show to you
 
 From the same nice website as above, look at these slightly more complex transitions:
 
-One look at [<FontIcon icon="fa-brands fa-youtube"/>a GSAP showreel](https://youtu.be/ic-bHSoIUaA&list=PLLLrVKlAVicLCG0u8WkwLueVU40z0U456&index=2) and you gotta wonder: *how much of this is done in a design tool vs how much of this is just people who know how code works just getting into the browser and just working there?*
+One look at [<VPIcon icon="fa-brands fa-youtube"/>a GSAP showreel](https://youtu.be/ic-bHSoIUaA&list=PLLLrVKlAVicLCG0u8WkwLueVU40z0U456&index=2) and you gotta wonder: *how much of this is done in a design tool vs how much of this is just people who know how code works just getting into the browser and just working there?*
 
 <VidStack src="youtube/ic-bHSoIUaA" />
 

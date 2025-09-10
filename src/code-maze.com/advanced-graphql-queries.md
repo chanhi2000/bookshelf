@@ -101,7 +101,7 @@ Furthermore, we are going to learn how to enhance our query (from a client side)
 
 ::: info
 
-To download the source code, visit the [Advanced GraphQL Queries Source Code. (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/graphql-series`)](https://github.com/CodeMazeBlog/graphql-series/tree/graphql-queries)
+To download the source code, visit the [Advanced GraphQL Queries Source Code. (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/graphql-series`)](https://github.com/CodeMazeBlog/graphql-series/tree/graphql-queries)
 
 <SiteInfo
   name="CodeMazeBlog/graphql-series"

@@ -71,13 +71,13 @@ This tutorial has a related video course created by the Real Python team. Watch 
 
 :::
 
-Running a Python script is a fundamental task for any Python developer. You can execute a Python <FontIcon icon="fa-brands fa-python"/>`.py` file through various methods depending on your environment and platform. On Windows, Linux, and macOS, use the command line by typing `python script_name.py` to run your script. You can also use the `python` command with the `-m` option to execute modules. This tutorial covers these methods and more, ensuring you can run Python scripts efficiently.
+Running a Python script is a fundamental task for any Python developer. You can execute a Python <VPIcon icon="fa-brands fa-python"/>`.py` file through various methods depending on your environment and platform. On Windows, Linux, and macOS, use the command line by typing `python script_name.py` to run your script. You can also use the `python` command with the `-m` option to execute modules. This tutorial covers these methods and more, ensuring you can run Python scripts efficiently.
 
 ::: info By the end of this tutorial, you’ll understand that
 
-- **Running a Python <FontIcon icon="fa-brands fa-python"/>`.py` script** involves using the `python` command followed by the script’s filename in the terminal or command prompt.
+- **Running a Python <VPIcon icon="fa-brands fa-python"/>`.py` script** involves using the `python` command followed by the script’s filename in the terminal or command prompt.
 - **Running Python from the command prompt** requires you to open the command prompt, navigate to the script’s directory, and execute it using `python script_name.py`.
-- **Running a <FontIcon icon="fa-brands fa-python"/>`.py` file in Windows** can be done directly from the command prompt or by double-clicking the file if Python is associated with `.py` files.
+- **Running a <VPIcon icon="fa-brands fa-python"/>`.py` file in Windows** can be done directly from the command prompt or by double-clicking the file if Python is associated with `.py` files.
 - **Running a Python script without Python installed** is possible by using online interpreters or converting scripts to executables, but it’s more flexible to install Python and run scripts natively.
 
 :::
@@ -107,9 +107,9 @@ One of the most important skills you need to build as a Python developer is to b
 
 ## What Scripts and Modules Are
 
-In computing, the term **script** refers to a text file containing a logical sequence of orders that you can run to accomplish a specific task. These orders are typically expressed in a [<FontIcon icon="fa-brands fa-wikipedia-w"/>scripting language](https://en.wikipedia.org/wiki/Scripting_language), which is a [<FontIcon icon="fa-brands fa-wikipedia-w"/>programming language](https://en.wikipedia.org/wiki/Programming_language) that allows you to manipulate, customize, and automate tasks.
+In computing, the term **script** refers to a text file containing a logical sequence of orders that you can run to accomplish a specific task. These orders are typically expressed in a [<VPIcon icon="fa-brands fa-wikipedia-w"/>scripting language](https://en.wikipedia.org/wiki/Scripting_language), which is a [<VPIcon icon="fa-brands fa-wikipedia-w"/>programming language](https://en.wikipedia.org/wiki/Programming_language) that allows you to manipulate, customize, and automate tasks.
 
-Scripting languages are usually [<FontIcon icon="fa-brands fa-wikipedia-w"/>interpreted](https://en.wikipedia.org/wiki/Interpreter_(computing)) at [<FontIcon icon="fa-brands fa-wikipedia-w"/>runtime](https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)) rather than [<FontIcon icon="fa-brands fa-wikipedia-w"/>compiled](https://en.wikipedia.org/wiki/Compiler). So, scripts are typically run by some kind of interpreter, which is responsible for executing each order in a sequence.
+Scripting languages are usually [<VPIcon icon="fa-brands fa-wikipedia-w"/>interpreted](https://en.wikipedia.org/wiki/Interpreter_(computing)) at [<VPIcon icon="fa-brands fa-wikipedia-w"/>runtime](https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)) rather than [<VPIcon icon="fa-brands fa-wikipedia-w"/>compiled](https://en.wikipedia.org/wiki/Compiler). So, scripts are typically run by some kind of interpreter, which is responsible for executing each order in a sequence.
 
 Python is an interpreted language. Because of that, Python programs are commonly called scripts. However, this terminology isn’t completely accurate because Python programs can be way more complex than a simple, sequential script.
 
@@ -133,11 +133,11 @@ In Python programming, you’ll write programs in plain text files. By conventio
 
 ::: note
 
-On [**Windows**](/realpython.com/python-coding-setup-windows.md) systems, the extension can also be <FontIcon icon="fa-brands fa-python"/>`.pyw` for those applications that should use the `pythonw.exe` launcher.
+On [**Windows**](/realpython.com/python-coding-setup-windows.md) systems, the extension can also be <VPIcon icon="fa-brands fa-python"/>`.pyw` for those applications that should use the `pythonw.exe` launcher.
 
 :::
 
-To create a Python script, you can use any Python-friendly [**code editor or IDE**](/realpython.com/python-ides-code-editors-guide.md) (integrated development environment). To keep moving forward in this tutorial, you’ll need to create a basic script, so fire up your favorite text editor and create a new <FontIcon icon="fa-brands fa-python"/>`hello.py` file containing the following code:
+To create a Python script, you can use any Python-friendly [**code editor or IDE**](/realpython.com/python-ides-code-editors-guide.md) (integrated development environment). To keep moving forward in this tutorial, you’ll need to create a basic script, so fire up your favorite text editor and create a new <VPIcon icon="fa-brands fa-python"/>`hello.py` file containing the following code:
 
 ```py title="hello.py"
 print("Hello, World!")
@@ -153,7 +153,7 @@ To run Python scripts with the `python` command, you need to open a command-line
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python .\hello.py
@@ -165,7 +165,7 @@ py .\hello.py
 # Hello, World!
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python ./hello.py
@@ -173,7 +173,7 @@ python ./hello.py
 # Hello, World!
 ```
 
-After you press <kbd>Enter</kbd>, you’ll see the phrase `Hello, World!` on your screen. If the previous command doesn’t work right, then you may need to check if Python is in your system’s [**`PATH`**](/realpython.com/add-python-to-path.md). You can also check where you saved <FontIcon icon="fa-brands fa-python"/>`hello.py`.
+After you press <kbd>Enter</kbd>, you’ll see the phrase `Hello, World!` on your screen. If the previous command doesn’t work right, then you may need to check if Python is in your system’s [**`PATH`**](/realpython.com/add-python-to-path.md). You can also check where you saved <VPIcon icon="fa-brands fa-python"/>`hello.py`.
 
 :::: note
 
@@ -195,7 +195,7 @@ If you’ve never worked with the command line or terminal, then you can try the
 
 To learn more about using the command line or terminal, check out [**The Terminal: First Steps and Useful Commands**](/realpython.com/terminal-commands.md).
 
-A cool feature of a terminal or [<FontIcon icon="fa-brands fa-wikipedia-w"/>shell application](https://en.wikipedia.org/wiki/Unix_shell) is that you can redirect the output of your commands using a straightforward syntax. This feature may be useful in those situations where you have a Python program that can generate a long output, and you’d like to save it to a file for later analysis.
+A cool feature of a terminal or [<VPIcon icon="fa-brands fa-wikipedia-w"/>shell application](https://en.wikipedia.org/wiki/Unix_shell) is that you can redirect the output of your commands using a straightforward syntax. This feature may be useful in those situations where you have a Python program that can generate a long output, and you’d like to save it to a file for later analysis.
 
 In these situations, you can do something like the following:
 
@@ -203,17 +203,17 @@ In these situations, you can do something like the following:
 python hello.py > output.txt
 ```
 
-In this command, the `>` symbol tells the shell to redirect the output of your command to the <FontIcon icon="fas fa-file-lines"/>`output.txt` file, rather than to the standard system output, your screen. This process is commonly known as [<FontIcon icon="fa-brands fa-wikipedia-w"/>redirection](https://en.wikipedia.org/wiki/Redirection_(computing)), and it works on both Windows and [<FontIcon icon="fa-brands fa-wikipedia-w"/>Unix-like](https://en.wikipedia.org/wiki/Unix) systems, such as Linux and macOS.
+In this command, the `>` symbol tells the shell to redirect the output of your command to the <VPIcon icon="fas fa-file-lines"/>`output.txt` file, rather than to the standard system output, your screen. This process is commonly known as [<VPIcon icon="fa-brands fa-wikipedia-w"/>redirection](https://en.wikipedia.org/wiki/Redirection_(computing)), and it works on both Windows and [<VPIcon icon="fa-brands fa-wikipedia-w"/>Unix-like](https://en.wikipedia.org/wiki/Unix) systems, such as Linux and macOS.
 
 If the output file doesn’t exist, then the shell automatically creates it. On the other hand, if the file already exists, then the shell overwrites its old content with the new output.
 
-Finally, if you want to add the output of consecutive executions to the end of <FontIcon icon="fas fa-file-lines"/>`output.txt`, then you can use two angle brackets (`>>`) instead of one:
+Finally, if you want to add the output of consecutive executions to the end of <VPIcon icon="fas fa-file-lines"/>`output.txt`, then you can use two angle brackets (`>>`) instead of one:
 
 ```sh
 python hello.py >> output.txt
 ```
 
-Now, the shell app will append the current output to the end of <FontIcon icon="fas fa-file-lines"/>`output.txt`. You’ll end up with a file containing the phrase `"Hello, World!"` twice.
+Now, the shell app will append the current output to the end of <VPIcon icon="fas fa-file-lines"/>`output.txt`. You’ll end up with a file containing the phrase `"Hello, World!"` twice.
 
 ### Using the Script’s Filename Directly
 
@@ -223,7 +223,7 @@ On Windows, you can also run Python scripts by simply entering the name of the f
 .\hello.py
 ```
 
-Once you’ve written the path to your script and pressed Enter, you’ll note that a new terminal window appears on your screen for a few seconds, showing the script output. This is possible because Windows associates <FontIcon icon="fa-brands fa-python"/>`.py` and <FontIcon icon="fa-brands fa-python"/>`.pyw` files to `python.exe` and `pythonw.exe`, respectively.
+Once you’ve written the path to your script and pressed Enter, you’ll note that a new terminal window appears on your screen for a few seconds, showing the script output. This is possible because Windows associates <VPIcon icon="fa-brands fa-python"/>`.py` and <VPIcon icon="fa-brands fa-python"/>`.pyw` files to `python.exe` and `pythonw.exe`, respectively.
 
 This way of running Python scripts on Windows may be annoying because the code runs in a new terminal window that automatically closes after the execution ends. In most cases, you won’t be able to check the program’s output.
 
@@ -235,13 +235,13 @@ On Linux and macOS, you can also run your scripts directly. However, things are 
 # bash: ./hello.py: Permission denied
 ```
 
-Unix systems prioritize security, which means that you can’t go around executing any file as a program. So, you get a permission denied error when you try to run <FontIcon icon="fa-brands fa-python"/>`hello.py` directly. To fix this issue, you need to explicitly tell the system that the file is executable. To do this, you can use the `chmod` command:
+Unix systems prioritize security, which means that you can’t go around executing any file as a program. So, you get a permission denied error when you try to run <VPIcon icon="fa-brands fa-python"/>`hello.py` directly. To fix this issue, you need to explicitly tell the system that the file is executable. To do this, you can use the `chmod` command:
 
 ```sh
 chmod +x hello.py
 ```
 
-After running this command, your <FontIcon icon="fa-brands fa-python"/>`hello.py` file will be executable. However, that’s not enough for the script to run properly:
+After running this command, your <VPIcon icon="fa-brands fa-python"/>`hello.py` file will be executable. However, that’s not enough for the script to run properly:
 
 ```sh
 ./hello.py
@@ -250,14 +250,14 @@ After running this command, your <FontIcon icon="fa-brands fa-python"/>`hello.py
 # ./hello.py: line 1: `print("Hello, World!")'`
 ```
 
-Why are you getting another error now? The problem is that your operating system (OS) doesn’t know which program to use for running your script and is trying to run it with the shell itself. You can fix that by making a small addition to your <FontIcon icon="fa-brands fa-python"/>`hello.py` file:
+Why are you getting another error now? The problem is that your operating system (OS) doesn’t know which program to use for running your script and is trying to run it with the shell itself. You can fix that by making a small addition to your <VPIcon icon="fa-brands fa-python"/>`hello.py` file:
 
 ```py title="hello.py"
 #!/usr/bin/env python3
 print("Hello, World!")
 ```
 
-You’ve added a new line at the beginning of <FontIcon icon="fa-brands fa-python"/>`hello.py`. It now starts with a Unix-style [**shebang**](/realpython.com/python-shebang.md), which is a special kind of [**comment**](/realpython.com/python-comments-guide.md) that you can include in your scripts to tell the operating system which program to use for running the content of this file. In this case, you tell the OS to use Python.
+You’ve added a new line at the beginning of <VPIcon icon="fa-brands fa-python"/>`hello.py`. It now starts with a Unix-style [**shebang**](/realpython.com/python-shebang.md), which is a special kind of [**comment**](/realpython.com/python-comments-guide.md) that you can include in your scripts to tell the operating system which program to use for running the content of this file. In this case, you tell the OS to use Python.
 
 ::: note
 
@@ -282,7 +282,7 @@ Wow! That was a long road! However, the effort was worth it. Now when you create
 
 ### Running Modules With the `-m` Option
 
-The `python` command has a series of [**command-line options**](/realpython.com/python-command-line-arguments.md) that can be useful in specific situations. For example, if you want to run a Python module, then you can use the command `python -m <module-name>`. The `-m` option searches Python’s [<FontIcon icon="fa-brands fa-python"/>module search path](https://docs.python.org/3/tutorial/modules.html#the-module-search-path), `sys.path`, for the module name and runs its content:
+The `python` command has a series of [**command-line options**](/realpython.com/python-command-line-arguments.md) that can be useful in specific situations. For example, if you want to run a Python module, then you can use the command `python -m <module-name>`. The `-m` option searches Python’s [<VPIcon icon="fa-brands fa-python"/>module search path](https://docs.python.org/3/tutorial/modules.html#the-module-search-path), `sys.path`, for the module name and runs its content:
 
 ```sh
 python -m hello
@@ -290,7 +290,7 @@ python -m hello
 # Hello, World!
 ```
 
-In this example, you run the <FontIcon icon="fa-brands fa-python"/>`hello.py` file as a module. This is possible because Python automatically adds the current directory to its `sys.path` list. Note that the `module-name` argument needs to be the name of a module object, not a file name. In other words, you don’t include the `.py` suffix.
+In this example, you run the <VPIcon icon="fa-brands fa-python"/>`hello.py` file as a module. This is possible because Python automatically adds the current directory to its `sys.path` list. Note that the `module-name` argument needs to be the name of a module object, not a file name. In other words, you don’t include the `.py` suffix.
 
 ::: note
 
@@ -320,12 +320,12 @@ In the following sections, you’ll learn the basics of the Python interpreter a
 
 Python is a high-level programming language with a clean and readable syntax. Python and its wide ecosystem of packages and libraries can boost your productivity in a [**variety of fields**](/realpython.com/what-can-i-do-with-python.md). The name Python also refers to a piece of software called the **interpreter**, which is the program that allows you to run Python code.
 
-The interpreter is a layer of software that works between your program and your computer hardware to get your code running. Depending on the Python [<FontIcon icon="fa-brands fa-python"/>implementation](https://python.org/download/alternatives/) that you use, the interpreter can be a program written in:
+The interpreter is a layer of software that works between your program and your computer hardware to get your code running. Depending on the Python [<VPIcon icon="fa-brands fa-python"/>implementation](https://python.org/download/alternatives/) that you use, the interpreter can be a program written in:
 
-- [**C**](/realpython.com/c-for-python-programmers.md), like [<FontIcon icon="fa-brands fa-python"/>CPython](https://python.org/about/), which is the core implementation of the language
-- Python itself, like [**PyPy**](/realpython.com/pypy-faster-python.md), which is a [<FontIcon icon="fas fa-globe"/>fast](http://speed.pypy.org/) implementation with a [<FontIcon icon="fa-brands fa-wikipedia-w"/>just-in-time (JIT) compiler](https://en.wikipedia.org/wiki/Just-in-time_compilation)
-- [**Java**](/realpython.com/oop-in-python-vs-java.md), like [<FontIcon icon="fas fa-globe"/>Jython](http://www.jython.org/index.html), which can take advantage of the Java ecosystem
-- .NET, like [<FontIcon icon="fas fa-globe"/>IronPython](http://ironpython.net/), which uses the .NET ecosystem
+- [**C**](/realpython.com/c-for-python-programmers.md), like [<VPIcon icon="fa-brands fa-python"/>CPython](https://python.org/about/), which is the core implementation of the language
+- Python itself, like [**PyPy**](/realpython.com/pypy-faster-python.md), which is a [<VPIcon icon="fas fa-globe"/>fast](http://speed.pypy.org/) implementation with a [<VPIcon icon="fa-brands fa-wikipedia-w"/>just-in-time (JIT) compiler](https://en.wikipedia.org/wiki/Just-in-time_compilation)
+- [**Java**](/realpython.com/oop-in-python-vs-java.md), like [<VPIcon icon="fas fa-globe"/>Jython](http://www.jython.org/index.html), which can take advantage of the Java ecosystem
+- .NET, like [<VPIcon icon="fas fa-globe"/>IronPython](http://ironpython.net/), which uses the .NET ecosystem
 
 Whatever interpreter you use, the code that you write will run in this program. Therefore, the first condition to be able to run scripts and code is to have the interpreter correctly [**installed**](/realpython.com/installing-python.md) on your operating system.
 
@@ -346,7 +346,7 @@ These steps will take you into the Python interpreter, which looks something lik
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python
@@ -356,7 +356,7 @@ python
 # >>>
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python
@@ -372,14 +372,14 @@ The standard primary prompt for the interactive mode consists of three right ang
 
 ::: note
 
-The standard REPL also has a secondary prompt that consists of three periods (`...`). This prompt appears when you add indented lines to a [<FontIcon icon="fa-brands fa-python"/>compound statement](https://docs.python.org/3/reference/compound_stmts.html), such as conditionals, function and class definitions, and loops.
+The standard REPL also has a secondary prompt that consists of three periods (`...`). This prompt appears when you add indented lines to a [<VPIcon icon="fa-brands fa-python"/>compound statement](https://docs.python.org/3/reference/compound_stmts.html), such as conditionals, function and class definitions, and loops.
 
 :::
 
 The Python interpreter is an interactive way to talk to your computer using the language. It’s like live chat. It’s also known as the REPL because it goes through four steps that run under the hood:
 
-1. **Reading** your input, which consists of Python code as [<FontIcon icon="fa-brands fa-python"/>expressions](https://docs.python.org/3/glossary.html#term-expression) and [<FontIcon icon="fa-brands fa-python"/>statements](https://docs.python.org/3/glossary.html#term-statement)
-2. **Evaluating** your Python code, which generates a result or causes [<FontIcon icon="fa-brands fa-wikipedia-w"/>side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
+1. **Reading** your input, which consists of Python code as [<VPIcon icon="fa-brands fa-python"/>expressions](https://docs.python.org/3/glossary.html#term-expression) and [<VPIcon icon="fa-brands fa-python"/>statements](https://docs.python.org/3/glossary.html#term-statement)
+2. **Evaluating** your Python code, which generates a result or causes [<VPIcon icon="fa-brands fa-wikipedia-w"/>side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
 3. **Printing** any output so that you can check your code’s results and get immediate feedback
 4. **Looping** back to step one to continue the interaction
 
@@ -441,7 +441,7 @@ These two imports do nothing because Python knows that the `hello` module was al
 
 ### Using the `importlib` Standard-Library Module
 
-In the Python [<FontIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html), you can find the [<FontIcon icon="fa-brands fa-python"/>`importlib`](https://docs.python.org/3/library/importlib.html) module. This module provides the [<FontIcon icon="fa-brands fa-python"/>`import_module()`](https://docs.python.org/3/library/importlib.html#importlib.import_module) function, which allows you to programmatically import modules.
+In the Python [<VPIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html), you can find the [<VPIcon icon="fa-brands fa-python"/>`importlib`](https://docs.python.org/3/library/importlib.html) module. This module provides the [<VPIcon icon="fa-brands fa-python"/>`import_module()`](https://docs.python.org/3/library/importlib.html#importlib.import_module) function, which allows you to programmatically import modules.
 
 With `import_module()`, you can emulate an `import` operation and, therefore, execute any module or script. Take a look at this example:
 
@@ -455,7 +455,7 @@ importlib.import_module("hello")
 
 The `import_module()` function imports a module, bringing its name to your current [**namespace**](/realpython.com/python-namespace-package.md). It also runs any executable code that the target module contains. That’s why you get `Hello, World!` on your screen.
 
-You already know that once you’ve imported a module for the first time, you won’t be able to import it again using another `import` statement. If you want to reload the module and run it once again, then you can use the [<FontIcon icon="fa-brands fa-python"/>`reload()`](https://docs.python.org/3/library/importlib.html#importlib.reload) function, which forces the interpreter to import the module again:
+You already know that once you’ve imported a module for the first time, you won’t be able to import it again using another `import` statement. If you want to reload the module and run it once again, then you can use the [<VPIcon icon="fa-brands fa-python"/>`reload()`](https://docs.python.org/3/library/importlib.html#importlib.reload) function, which forces the interpreter to import the module again:
 
 ```py
 import hello
@@ -484,7 +484,7 @@ with open("hello.py") as hello:
 # Hello, World!
 ```
 
-In this example, you use the [**`with` statement**](/realpython.com/python-with-statement/README.md) to open the <FontIcon icon="fa-brands fa-python"/>`hello.py` file for reading. Then, you read the file’s content with the `.read()` method. This method returns a string that you pass to `exec()` for execution.
+In this example, you use the [**`with` statement**](/realpython.com/python-with-statement/README.md) to open the <VPIcon icon="fa-brands fa-python"/>`hello.py` file for reading. Then, you read the file’s content with the `.read()` method. This method returns a string that you pass to `exec()` for execution.
 
 You must be careful when using the `exec()` function because it implies some important security risks, especially if you’re using it for running external code. To learn more about this function, check out [**Python’s `exec()`: Execute Dynamically Generated Code**](/realpython.com/python-exec.md).
 
@@ -498,7 +498,7 @@ Most of these programs have options that allow you to run your programs from ins
 
 Python’s standard distribution comes with [**IDLE**](/realpython.com/python-idle.md) as the default IDE. You can use this program to write, debug, modify, and run your modules and scripts. Other IDEs, such as [**PyCharm**](/realpython.com/pycharm-guide.md) and [**Thonny**](/realpython.com/python-thonny.md), also allow you to run scripts from inside the environment. For example, in PyCharm, you can press <kbd>Ctrl</kbd>+<kbd>R</kbd> on your keyboard to quickly run your app’s entry-point script.
 
-Advanced code editors like [<FontIcon icon="iconfont icon-vscode"/>Visual Studio Code](https://code.visualstudio.com/docs) and [**Sublime Text**](/realpython.com/setting-up-sublime-text-3-for-full-stack-python-development.md) also allow you to run your scripts. In Visual Studio Code, you can press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to run the file that’s currently active, for example.
+Advanced code editors like [<VPIcon icon="iconfont icon-vscode"/>Visual Studio Code](https://code.visualstudio.com/docs) and [**Sublime Text**](/realpython.com/setting-up-sublime-text-3-for-full-stack-python-development.md) also allow you to run your scripts. In Visual Studio Code, you can press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to run the file that’s currently active, for example.
 
 To learn how to run Python scripts from your preferred IDE or code editor, check its specific documentation or take a quick look at the program’s GUI. You’ll quickly figure out the answer.
 
@@ -506,11 +506,11 @@ To learn how to run Python scripts from your preferred IDE or code editor, check
 
 ## How to Run Python Scripts From a File Manager
 
-Running a script by double-clicking on its icon in a [<FontIcon icon="fa-brands fa-wikipedia-w"/>file manager](https://en.wikipedia.org/wiki/File_manager) is another way to run your Python scripts. You probably won’t use this option much in the development stage, but you may use it when you release your code for production.
+Running a script by double-clicking on its icon in a [<VPIcon icon="fa-brands fa-wikipedia-w"/>file manager](https://en.wikipedia.org/wiki/File_manager) is another way to run your Python scripts. You probably won’t use this option much in the development stage, but you may use it when you release your code for production.
 
 In order to run your scripts with a double click, you must satisfy some conditions that will depend on your operating system.
 
-Windows, for example, associates the extensions <FontIcon icon="fa-brands fa-python"/>`.py` and <FontIcon icon="fa-brands fa-python"/>`.pyw` with the programs `python.exe` and `pythonw.exe`, respectively. This allows you to run your scripts by double-clicking on their icons.
+Windows, for example, associates the extensions <VPIcon icon="fa-brands fa-python"/>`.py` and <VPIcon icon="fa-brands fa-python"/>`.pyw` with the programs `python.exe` and `pythonw.exe`, respectively. This allows you to run your scripts by double-clicking on their icons.
 
 On Unix systems, you’ll probably be able to run your scripts by double-clicking on them in your file manager. To achieve this, your script must have execution permissions, and you’ll need to use the shebang trick that you’ve already learned. Like on Windows, you may not see any output on-screen when it comes to command-line interface scripts.
 
@@ -557,7 +557,7 @@ These FAQs are related to the most important concepts you’ve covered in this t
 
 ::: details How do I run a Python script from the command line?
 
-To run a Python script from the command line, open a terminal or command prompt and type `python` followed by the path to your script file. For example, `python<FontIcon icon="fa-brands fa-python"/> hello.py`. On Windows, you might also use `py` instead of `python`. If you see any errors, check that Python is added to your system’s PATH variable.
+To run a Python script from the command line, open a terminal or command prompt and type `python` followed by the path to your script file. For example, `python<VPIcon icon="fa-brands fa-python"/> hello.py`. On Windows, you might also use `py` instead of `python`. If you see any errors, check that Python is added to your system’s PATH variable.
 
 :::
 
@@ -569,7 +569,7 @@ In script mode, you execute a file containing Python code using the Python inter
 
 ::: details Can I run a Python script by double-clicking it in a file manager?
 
-Yes. On Windows, you can double-click <FontIcon icon="fa-brands fa-python"/>`.py` files to run them since they’re associated with `python.exe`. On Unix systems, you need to ensure that the script has execution permissions and includes a shebang (`#!/usr/bin/env python`) as the first line. However, this method may not display output for console applications.
+Yes. On Windows, you can double-click <VPIcon icon="fa-brands fa-python"/>`.py` files to run them since they’re associated with `python.exe`. On Unix systems, you need to ensure that the script has execution permissions and includes a shebang (`#!/usr/bin/env python`) as the first line. However, this method may not display output for console applications.
 
 :::
 

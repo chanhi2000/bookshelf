@@ -93,7 +93,7 @@ In this article, we are going to create flower-like shapes. We are going to rely
 
 ![four flower-like shapes with purple to pink gradients. two of them have petals and two of them have spikes. two of them are filled and two of them are outlined.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/02/emMTHfAN.png?resize=749%2C448&ssl=1)
 
-Before we start, you can take a look at [<FontIcon icon="fas fa-globe"/>my online generator for flower shapes](https://css-generators.com/flower-shapes/) to get an overview of what we are building here. You can easily define your settings and get the CSS code in no time. Some of the code we will be writing can be complex so it’s always good to have a generator to make our life easy. That said I invite you to keep reading to understand the logic behind the code you are copying and be able to tweak it if needed.
+Before we start, you can take a look at [<VPIcon icon="fas fa-globe"/>my online generator for flower shapes](https://css-generators.com/flower-shapes/) to get an overview of what we are building here. You can easily define your settings and get the CSS code in no time. Some of the code we will be writing can be complex so it’s always good to have a generator to make our life easy. That said I invite you to keep reading to understand the logic behind the code you are copying and be able to tweak it if needed.
 
 ---
 
@@ -255,7 +255,7 @@ Now by adjusting the width you control the size of the whole shape. Here is an i
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Voilà! We did a nice flower shape without hack or complex code and you can easily control it by adjusting a few variables. You either use the above code or you consider [<FontIcon icon="fas fa-globe"/>my online generator](https://css-generators.com/flower-shapes/) to get the generated CSS without the variables and Sass.
+Voilà! We did a nice flower shape without hack or complex code and you can easily control it by adjusting a few variables. You either use the above code or you consider [<VPIcon icon="fas fa-globe"/>my online generator](https://css-generators.com/flower-shapes/) to get the generated CSS without the variables and Sass.
 
 ---
 
@@ -386,7 +386,7 @@ To this:
 --r:calc((50% + var(--b)/(2*sin(180deg/#{$n})))/(1 + 1/sin(180deg/#{$n})));
 ```
 
-Again some geometry stuff but you don’t really need to accurately understand all the formulas. I did the hard work to identify them and you only need to understand the main trick. In the end, all you have to do is update a few variables to control the shape or get the code from [<FontIcon icon="fas fa-globe"/>my generator](https://css-generators.com/flower-shapes/).
+Again some geometry stuff but you don’t really need to accurately understand all the formulas. I did the hard work to identify them and you only need to understand the main trick. In the end, all you have to do is update a few variables to control the shape or get the code from [<VPIcon icon="fas fa-globe"/>my generator](https://css-generators.com/flower-shapes/).
 
 The result so far:
 
@@ -429,7 +429,7 @@ And here is the full code with both variations:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-If you have some trouble visualizing how `mask-composite` works, I invite you to read [<FontIcon icon="fas fa-globe"/>the crash course written by Ana Tudor](https://css-tricks.com/mask-compositing-the-crash-course/) where you will find a more in-depth exploration.
+If you have some trouble visualizing how `mask-composite` works, I invite you to read [<VPIcon icon="fas fa-globe"/>the crash course written by Ana Tudor](https://css-tricks.com/mask-compositing-the-crash-course/) where you will find a more in-depth exploration.
 
 ---
 
@@ -443,7 +443,7 @@ This time, it’s your turn to figure out the code. Consider this as a small pie
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/02/image.png?resize=1001%2C486&ssl=1)
 
-Here is [the code of my implementation(<FontIcon icon="fa-brands fa-codepen"/>`t_afif`)](https://codepen.io/t_afif/pen/JjVPjWZ/687389c54821a0763e97bb22cbdc6481) but make a try before checking it so you can compare your method with mine. Take the time to study this last example because it will be the starting point of [**our second article**](//frontendmasters.com/creating-wavy-circles-with-fancy-animations.md).
+Here is [the code of my implementation(<VPIcon icon="fa-brands fa-codepen"/>`t_afif`)](https://codepen.io/t_afif/pen/JjVPjWZ/687389c54821a0763e97bb22cbdc6481) but make a try before checking it so you can compare your method with mine. Take the time to study this last example because it will be the starting point of [**our second article**](//frontendmasters.com/creating-wavy-circles-with-fancy-animations.md).
 <!-- TODO: /frontendmasters.com/creating-wavy-circles-with-fancy-animations.md -->
 
 ---
@@ -461,7 +461,7 @@ It is worth noting that since we are using `mask`, we can easily apply our shape
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Don’t forget to bookmark [<FontIcon icon="fas fa-globe"/>my flower shapes generator](https://css-generators.com/flower-shapes/) so you can easily grab the code whenever you need it. I also have more [<FontIcon icon="fas fa-globe"/>CSS generators](http://css-generators.com/) that invite you to check. Most of them rely on CSS mask as well and I have a detailed article linked to each one.
+Don’t forget to bookmark [<VPIcon icon="fas fa-globe"/>my flower shapes generator](https://css-generators.com/flower-shapes/) so you can easily grab the code whenever you need it. I also have more [<VPIcon icon="fas fa-globe"/>CSS generators](http://css-generators.com/) that invite you to check. Most of them rely on CSS mask as well and I have a detailed article linked to each one.
 
 I will close this article with a few mesmerizing animations involving some flower shapes.
 

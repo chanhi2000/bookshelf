@@ -82,7 +82,7 @@ Here we set an index manually for the `--i` variable via inline style attributes
 
 ![Colorful Checkbox Styles Using Css Variables](/assets/image/blog.logrocket.com/how-to-use-css-variables/img8-Colorful-checkbox-styles-CSS-variables.png)
 
-You can browse the complete source code and see a live preview from [this CodePen (<FontIcon icon="fa-brands fa-codepen"/>`shalithasuranga`)](https://codepen.io/shalithasuranga/pen/YzgjegB). It’s possible to use the same strategy to generate JavaScript-free dynamic elements by adjusting any standard CSS property value, i.e., using `--i` to set dynamic image filter configurations.
+You can browse the complete source code and see a live preview from [this CodePen (<VPIcon icon="fa-brands fa-codepen"/>`shalithasuranga`)](https://codepen.io/shalithasuranga/pen/YzgjegB). It’s possible to use the same strategy to generate JavaScript-free dynamic elements by adjusting any standard CSS property value, i.e., using `--i` to set dynamic image filter configurations.
 
 <CodePen
   user="shalithasuranga"

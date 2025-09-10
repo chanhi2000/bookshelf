@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/Context-Managers--the-Python-with-Stat
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Context-Managers--the-Python-with-Statement_Watermarked.3774ffbe2514.jpg"/>
 
-Python’s [**generator functions**](/realpython.com/introduction-to-python-generators.md) and the [<FontIcon icon="fa-brands fa-python"/>`contextlib.contextmanager`](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager) decorator provide an alternative and convenient way to implement the context management protocol. If you decorate an appropriately coded generator function with `@contextmanager`, then you get a **function-based** context manager that automatically provides both required methods, `.__enter__()` and `.__exit__()`. This can make your life more pleasant by saving you some boilerplate code.
+Python’s [**generator functions**](/realpython.com/introduction-to-python-generators.md) and the [<VPIcon icon="fa-brands fa-python"/>`contextlib.contextmanager`](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager) decorator provide an alternative and convenient way to implement the context management protocol. If you decorate an appropriately coded generator function with `@contextmanager`, then you get a **function-based** context manager that automatically provides both required methods, `.__enter__()` and `.__exit__()`. This can make your life more pleasant by saving you some boilerplate code.
 
 The general pattern to create a context manager using `@contextmanager` along with a generator function goes like this:
 
@@ -108,7 +108,7 @@ In this case, `writable_file()` is a generator function that opens `file` for wr
 
 ## Mocking the Time
 
-As a final example of how to create custom context managers with `@contextmanager`, say you’re testing a piece of code that works with time measurements. The code uses [<FontIcon icon="fa-brands fa-python"/>`time.time()`](https://docs.python.org/3/library/time.html#time.time) to get the current time measurement and do some further computations. Since time measurements vary, you decide to mock `time.time()` so you can test your code.
+As a final example of how to create custom context managers with `@contextmanager`, say you’re testing a piece of code that works with time measurements. The code uses [<VPIcon icon="fa-brands fa-python"/>`time.time()`](https://docs.python.org/3/library/time.html#time.time) to get the current time measurement and do some further computations. Since time measurements vary, you decide to mock `time.time()` so you can test your code.
 
 Here’s a function-based context manager that can help you do that:
 
@@ -136,7 +136,7 @@ time()
 # 1616075222.4410584
 ```
 
-Inside `mock_time()`, you use a [**`global` statement**](/realpython.com/python-scope-legb-rule.md#the-global-statement) to signal that you’re going to modify the global name `time`. Then you save the original `time()` function object in `saved_time` so you can safely restore it later. The next step is to [<FontIcon icon="fa-brands fa-wikipedia-w"/>monkey patch](https://en.wikipedia.org/wiki/Monkey_patch) `time()` using a `lambda` function that always returns the same value, `42`.
+Inside `mock_time()`, you use a [**`global` statement**](/realpython.com/python-scope-legb-rule.md#the-global-statement) to signal that you’re going to modify the global name `time`. Then you save the original `time()` function object in `saved_time` so you can safely restore it later. The next step is to [<VPIcon icon="fa-brands fa-wikipedia-w"/>monkey patch](https://en.wikipedia.org/wiki/Monkey_patch) `time()` using a `lambda` function that always returns the same value, `42`.
 
 The bare `yield` statement specifies that this context manager doesn’t have a useful object to send back to the `with` target variable for later use. After `yield`, you reset the global `time` to its original content.
 

@@ -192,7 +192,7 @@ Here are a few strategies you can consider to address this:
 - **Decomposition**: Break down complex features into smaller, more manageable vertical slices. Each slice should represent a cohesive piece of the overall feature.
 - **Refactoring**: When a vertical slice becomes difficult to maintain, you can apply some refactoring techniques. The most common ones I use are `Extract method ` and `Extract class`.
 - **Extract shared logic**: Identify common logic that's used across multiple features. Create a separate class (or extension method) to reference it from your vertical slices as needed.
-- **Push logic down**: Write vertical slices using procedural code, like a [<FontIcon icon="fas fa-globe"/>Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html). Then, you can identify parts of the business logic that naturally belong to the domain entities.
+- **Push logic down**: Write vertical slices using procedural code, like a [<VPIcon icon="fas fa-globe"/>Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html). Then, you can identify parts of the business logic that naturally belong to the domain entities.
 
 You and your team will need to understand code smells and refactorings to make the most of VSA.
 

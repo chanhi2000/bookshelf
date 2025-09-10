@@ -53,8 +53,8 @@ First things first. If you want to use a list to store or collect some data in y
 
 For example, you can create lists using one of the following tools:
 
-- List [<FontIcon icon="fa-brands fa-wikipedia-w"/>literals](https://en.wikipedia.org/wiki/Literal_(computer_programming))
-- The [<FontIcon icon="fa-brands fa-python"/>`list()`](https://docs.python.org/3/library/stdtypes.html#list) constructor
+- List [<VPIcon icon="fa-brands fa-wikipedia-w"/>literals](https://en.wikipedia.org/wiki/Literal_(computer_programming))
+- The [<VPIcon icon="fa-brands fa-python"/>`list()`](https://docs.python.org/3/library/stdtypes.html#list) constructor
 - A list [comprehension](/realpython.com/list-comprehension-python.md)
 
 In the following sections, you’ll learn how to use the three tools listed above to create new lists in your code. You’ll start off with list literals.

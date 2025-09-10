@@ -92,7 +92,7 @@ This post is the second in a 3-part series on Svelte 5.[Part one](/frontendmaste
 
 :::
 
-If you’d like to see and experiment with the code in this post, [see the GitHub repo (<FontIcon icon="iconfont icon-github"/>`arackaf/svelte-snippets`)](https://github.com/arackaf/svelte-snippets).
+If you’d like to see and experiment with the code in this post, [see the GitHub repo (<VPIcon icon="iconfont icon-github"/>`arackaf/svelte-snippets`)](https://github.com/arackaf/svelte-snippets).
 
 <SiteInfo
   name="arackaf/svelte-snippets"
@@ -242,7 +242,7 @@ Then you can reuse that `productDisplay` snippet with different products in your
 
 If that was the extent of Snippets they’d be a marginally useful convenience for re-using small bits of markup within a single component.
 
-But the main benefit of snippets is for **injecting content into components**. Previously, if you wanted to pass content into a component you’d use slots. Slots were always an awkward feature of Svelte, but they’re now deprecated in Svelte 5. We won’t cover them here, so check out[<FontIcon icon="iconfont icon-svelte"/>the docs](https://svelte.dev/docs/special-elements#slot)if you’re curious.
+But the main benefit of snippets is for **injecting content into components**. Previously, if you wanted to pass content into a component you’d use slots. Slots were always an awkward feature of Svelte, but they’re now deprecated in Svelte 5. We won’t cover them here, so check out[<VPIcon icon="iconfont icon-svelte"/>the docs](https://svelte.dev/docs/special-elements#slot)if you’re curious.
 
 ---
 

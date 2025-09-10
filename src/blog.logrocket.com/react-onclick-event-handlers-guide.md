@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/react-onclick-event-handlers-guide/banne
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>David Omotayo](https://blog.logrocket.com/author/davidomotayo/) on 26 November 2024 to cover how to identify event listeners bound to a component, as well as how to get the ID of a clicked element in the JavaScript click handler.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>David Omotayo](https://blog.logrocket.com/author/davidomotayo/) on 26 November 2024 to cover how to identify event listeners bound to a component, as well as how to get the ID of a clicked element in the JavaScript click handler.
 
 :::
 
@@ -144,7 +144,7 @@ React’s `onClick` handler follows a similar concept to the HTML `onClick` attr
 
 The React `onClick` event handler enables you to call a function and trigger an action when a user clicks an element, such as a button, in your app.
 
-Event names are written in camelCase, so the `onclick` event is written as `onClick` in a React app. In addition, [<FontIcon icon="fa-brands fa-react"/>React event handlers](https://reactjs.org/docs/handling-events.html) appear inside curly braces.
+Event names are written in camelCase, so the `onclick` event is written as `onClick` in a React app. In addition, [<VPIcon icon="fa-brands fa-react"/>React event handlers](https://reactjs.org/docs/handling-events.html) appear inside curly braces.
 
 Take the following simple example written in HTML:
 
@@ -336,7 +336,7 @@ Meanwhile, synthetic events achieve high performance by automatically using even
 
 ## React event listeners
 
-To [<FontIcon icon="fas fa-globe"/>listen to events in React](https://pluralsight.com/guides/event-listeners-in-react-components), add the `onClick` attribute — which is the event handler — to the target element. This specifies the function to be executed when that element is clicked, as shown below:
+To [<VPIcon icon="fas fa-globe"/>listen to events in React](https://pluralsight.com/guides/event-listeners-in-react-components), add the `onClick` attribute — which is the event handler — to the target element. This specifies the function to be executed when that element is clicked, as shown below:
 
 ```jsx
 import React from "react";

@@ -80,7 +80,7 @@ The same concept applies when we have multiple services we want to call. Each se
 
 ![Service discovery with multiple microservices.](https://milanjovanovic.tech/blogs/mnw_097/service_discovery_microservices.png?imwidth=3840)
 
-The most popular solutions for service discovery are [<FontIcon icon="iconfont icon-github"/>Netflix/Eureka](https://github.com/Netflix/eureka) and HashiCorp [<FontIcon icon="fas fa-globe"/>Consul](https://consul.io/).
+The most popular solutions for service discovery are [<VPIcon icon="iconfont icon-github"/>Netflix/Eureka](https://github.com/Netflix/eureka) and HashiCorp [<VPIcon icon="fas fa-globe"/>Consul](https://consul.io/).
 
 <SiteInfo
   name="Netflix/eureka"
@@ -89,7 +89,7 @@ The most popular solutions for service discovery are [<FontIcon icon="iconfont i
   logo="logo"
   preview="preview"/>
 
-There is also a lightweight solution from Microsoft in the `Microsoft.Extensions.ServiceDiscovery` library. It uses application settings to resolve the physical addresses for services, so some manual work is still required. However, you can store service locations in [<FontIcon icon="iconfont icon-microsoftazure"/>Azure App Configuration](https://azure.microsoft.com/en-us/products/app-configuration) for a centralized service registry.
+There is also a lightweight solution from Microsoft in the `Microsoft.Extensions.ServiceDiscovery` library. It uses application settings to resolve the physical addresses for services, so some manual work is still required. However, you can store service locations in [<VPIcon icon="iconfont icon-microsoftazure"/>Azure App Configuration](https://azure.microsoft.com/en-us/products/app-configuration) for a centralized service registry.
 
 I will explore this service discovery library in some future articles.
 
@@ -101,7 +101,7 @@ But now I want to show you how to integrate Consul with .NET applications.
 
 The simplest way to run the Consul server locally is using a Docker container. You can create a container instance of the `hashicorp/consul` image.
 
-Here's an example of configuring the Consul service as part of the <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml` file:
+Here's an example of configuring the Consul service as part of the <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml` file:
 
 ```yaml
 consul:
@@ -122,7 +122,7 @@ Now, let's see how to register our services with Consul.
 
 ## Service Registration in .NET With Consul
 
-We'll use the [<FontIcon icon="fas fa-globe"/>Steeltoe Discovery](https://docs.steeltoe.io/api/v3/discovery/) library to implement service discovery with Consul. The Consul client implementation lets your applications register services with a Consul server and discover services registered by other applications.
+We'll use the [<VPIcon icon="fas fa-globe"/>Steeltoe Discovery](https://docs.steeltoe.io/api/v3/discovery/) library to implement service discovery with Consul. The Consul client implementation lets your applications register services with a Consul server and discover services registered by other applications.
 
 Let's install the `Steeltoe.Discovery.Consul` library:
 
@@ -209,7 +209,7 @@ Services can discover each other's locations on demand, ensuring that communicat
 
 Mastering service discovery gives you a powerful tool to build modern distributed applications.
 
-You can grab the [source code for this example here (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/service-discovery-consul`)](https://github.com/m-jovanovic/service-discovery-consul).
+You can grab the [source code for this example here (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/service-discovery-consul`)](https://github.com/m-jovanovic/service-discovery-consul).
 
 <SiteInfo
   name="m-jovanovic/service-discovery-consul"

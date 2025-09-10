@@ -60,9 +60,9 @@ You can now run a C# file directly with:
 dotnet run app.cs
 ```
 
-That's it. No `.csproj`. No <FontIcon icon="iconfont icon-csharp"/>`Program.cs`. No solution files. Just a single C# file.
+That's it. No `.csproj`. No <VPIcon icon="iconfont icon-csharp"/>`Program.cs`. No solution files. Just a single C# file.
 
-This new feature, introduced in [<FontIcon icon="fa-brands fa-microsoft"/>.NET 10 Preview 4](https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/), is a big step toward making C# more script-friendly, especially for quick utilities, dev tooling, and CLI-based workflows.
+This new feature, introduced in [<VPIcon icon="fa-brands fa-microsoft"/>.NET 10 Preview 4](https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/), is a big step toward making C# more script-friendly, especially for quick utilities, dev tooling, and CLI-based workflows.
 
 ---
 
@@ -194,7 +194,7 @@ dotnet run seed.cs
 
 ## File-Level Directives: The Magic Behind It
 
-The real power comes from file-level directives. These let you configure your app without leaving the <FontIcon icon="iconfont icon-csharp"/>`.cs` file:
+The real power comes from file-level directives. These let you configure your app without leaving the <VPIcon icon="iconfont icon-csharp"/>`.cs` file:
 
 **Package References**
 
@@ -254,7 +254,7 @@ This creates:
 
 - A new folder named after your file
 - A proper `.csproj` file with all your directives converted to MSBuild properties
-- Your code moved to <FontIcon icon="iconfont icon-csharp"/>`api.cs` (or <FontIcon icon="iconfont icon-csharp"/>`Program.cs` if you prefer)
+- Your code moved to <VPIcon icon="iconfont icon-csharp"/>`api.cs` (or <VPIcon icon="iconfont icon-csharp"/>`Program.cs` if you prefer)
 - Everything ready for full project development
 
 Given our API example above, the generated `.csproj` looks like:

@@ -413,11 +413,11 @@ subscription.unsubscribe();
 
 The critical component of an Observable is the `next()` method, which sends data to the observers. A `complete()` method for when the Observable stream closes. And an `error()` method when something goes wrong. Also, there has to be a way to `subscribe()` to listen for changes and `unsubscribe()` to stop receiving data from the stream.
 
-The most popular libraries that use this pattern are [<FontIcon icon="fas fa-globe"/>Rx.js](https://rxjs.dev/) and [<FontIcon icon="fas fa-globe"/>MobX](https://mobx.js.org/).
+The most popular libraries that use this pattern are [<VPIcon icon="fas fa-globe"/>Rx.js](https://rxjs.dev/) and [<VPIcon icon="fas fa-globe"/>MobX](https://mobx.js.org/).
 
 ### “Signals” (Pattern of SolidJS)
 
-Hat tip Ryan Carniato’s [<FontIcon icon="fas fa-globe"/>Reactivity with SolidJS course](https://frontendmasters.com/courses/reactivity-solidjs/).
+Hat tip Ryan Carniato’s [<VPIcon icon="fas fa-globe"/>Reactivity with SolidJS course](https://frontendmasters.com/courses/reactivity-solidjs/).
 
 ```js :collapsed-lines
 const context = [];
@@ -467,11 +467,11 @@ createEffect(() => {
 setCount(10); // 10
 ```
 
-Here’s the complete code for his [vanilla reactivity system (<FontIcon icon="iconfont icon-github"/>`1Marc`)](https://gist.github.com/1Marc/09e739caa6a82cc176ab4c2abd691814) with a code sample that Ryan writes in his course.
+Here’s the complete code for his [vanilla reactivity system (<VPIcon icon="iconfont icon-github"/>`1Marc`)](https://gist.github.com/1Marc/09e739caa6a82cc176ab4c2abd691814) with a code sample that Ryan writes in his course.
 
 ### “Observable-ish” Values (Frontend Masters)
 
-Our Frontend Masters video player has many configurations that could change anytime to modify video playback. Kai on our team created [“Observable-ish” Values (<FontIcon icon="iconfont icon-github"/>`FrontendMasters/observablish-values`)](https://github.com/FrontendMasters/observablish-values) (many years ago now, but we just published it for this article’s sake), which is another take on a reactive system in vanilla JavaScript.
+Our Frontend Masters video player has many configurations that could change anytime to modify video playback. Kai on our team created [“Observable-ish” Values (<VPIcon icon="iconfont icon-github"/>`FrontendMasters/observablish-values`)](https://github.com/FrontendMasters/observablish-values) (many years ago now, but we just published it for this article’s sake), which is another take on a reactive system in vanilla JavaScript.
 
 It’s less than 100 lines of code and has stood the test of time! For 7+ years, this tiny bit of code has underpinned delivering millions of hours of video. It’s a mix of PubSub with the ability to have computed values by adding the results of multiple publishers together.
 
@@ -578,9 +578,9 @@ addPizza();`
 
 `addPizza` demonstrates how to change the data by adding a new pizza recipe to the list and then re-rendering the list to reflect the changes.
 
-The main drawback of this approach is you blow away the entire DOM on every render. You can more intelligently update only the bits of DOM that change using a library like [<FontIcon icon="fa-brands fa-npm"/>`lit-html`](https://npmjs.com/package/lit-html) ([<FontIcon icon="fas fa-globe"/>lit-html usage guide](https://lit.dev/docs/libraries/standalone-templates/)). We do this with several highly dynamic components on Frontend Masters, like our data grid component.
+The main drawback of this approach is you blow away the entire DOM on every render. You can more intelligently update only the bits of DOM that change using a library like [<VPIcon icon="fa-brands fa-npm"/>`lit-html`](https://npmjs.com/package/lit-html) ([<VPIcon icon="fas fa-globe"/>lit-html usage guide](https://lit.dev/docs/libraries/standalone-templates/)). We do this with several highly dynamic components on Frontend Masters, like our data grid component.
 
-See examples of other approaches in the [Vanilla TodoMVC repo (<FontIcon icon="iconfont icon-github"/>`1Marc/modern-todomvc-vanillajs`)](https://github.com/1Marc/modern-todomvc-vanillajs) and associated [**Vanilla TodoMVC article**](/frontendmasters.com/vanilla-javascript-todomvc.md).
+See examples of other approaches in the [Vanilla TodoMVC repo (<VPIcon icon="iconfont icon-github"/>`1Marc/modern-todomvc-vanillajs`)](https://github.com/1Marc/modern-todomvc-vanillajs) and associated [**Vanilla TodoMVC article**](/frontendmasters.com/vanilla-javascript-todomvc.md).
 
 ### Reactive DOM Attributes: MutationObserver
 
@@ -661,7 +661,7 @@ var observer = new IntersectionObserver(function(entries, observer) {
 observer.observe(pizzaStoreElement);
 ```
 
-Here’s an example [scrolling animation CodePen (<FontIcon icon="fa-brands fa-codepen"/>`1Marc`)](https://codepen.io/1Marc/pen/wvEKOEr) in very few lines of code using `IntersectionObserver`.
+Here’s an example [scrolling animation CodePen (<VPIcon icon="fa-brands fa-codepen"/>`1Marc`)](https://codepen.io/1Marc/pen/wvEKOEr) in very few lines of code using `IntersectionObserver`.
 
 ### Animation & Game Loop: requestAnimationFrame
 
@@ -755,7 +755,7 @@ It’s incredible how many ways we can achieve reactivity using very little code
 
 ::: note Frontend Masters Team
 
-Next, check out the [<FontIcon icon="fas fa-globe"/>JavaScript Learning Path](https://frontendmasters.com/learn/javascript/) and learn JavaScript deeply from awesome instructors like Anjana Vakil, Will Sentance and Kyle Simpson! Or dive right into the most loved course on the platform, [<FontIcon icon="fas fa-globe"/>JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/)!
+Next, check out the [<VPIcon icon="fas fa-globe"/>JavaScript Learning Path](https://frontendmasters.com/learn/javascript/) and learn JavaScript deeply from awesome instructors like Anjana Vakil, Will Sentance and Kyle Simpson! Or dive right into the most loved course on the platform, [<VPIcon icon="fas fa-globe"/>JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/)!
 
 :::
 

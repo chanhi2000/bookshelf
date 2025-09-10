@@ -91,7 +91,7 @@ Maintaining accurate time on Linux systems, especially servers is an important t
 
 The `Chrony` package consists of `chronyd`, a daemon that runs in userspace, and `chronyc` a command-line program for monitoring and controlling `chronyd`.
 
-`Chrony` is a versatile **NTP** implementation and performs well in a wide range of conditions (check out the [<FontIcon icon="fas fa-globe"/>comparison of the chrony suite to other NTP implementations](https://chrony.tuxfamily.org/comparison.html)). It can be used to synchronize the system clock with NTP servers (act as a client), with a reference clock (e.g a **GPS** receiver), or with a manual time input. It can also be employed as an **NTPv4** (**RFC 5905**) server or peer to provide a time service to other computers in the network.
+`Chrony` is a versatile **NTP** implementation and performs well in a wide range of conditions (check out the [<VPIcon icon="fas fa-globe"/>comparison of the chrony suite to other NTP implementations](https://chrony.tuxfamily.org/comparison.html)). It can be used to synchronize the system clock with NTP servers (act as a client), with a reference clock (e.g a **GPS** receiver), or with a manual time input. It can also be employed as an **NTPv4** (**RFC 5905**) server or peer to provide a time service to other computers in the network.
 
 In this article, you will learn how to synchronize server time with **NTP** in Linux using `chrony`.
 
@@ -103,7 +103,7 @@ In most Linux systems, the `chrony` command is not installed by default. To inst
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centso"/>
+@tab:active <VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centso"/>
 
 On RHEL/CentOS/Fedora and Rocky Linux/AlmaLinux
 
@@ -111,7 +111,7 @@ On RHEL/CentOS/Fedora and Rocky Linux/AlmaLinux
 sudo yum install chrony
 ```
 
-@tab <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 ```sh
 sudo apt install chrony
@@ -121,7 +121,7 @@ sudo apt install chrony
 
 ![Install Chrony in Linux](https://tecmint.com/wp-content/uploads/2018/04/Install-Chrony-in-Linux.png)
 
-The default location for the `chrony` daemon is <FontIcon icon="fas fa-folder-open"/>`/usr/sbin/`<FontIcon icon="fas fa-file-lines"/>`chronyd` and the command line program will be installed to <FontIcon icon="fas fa-folder-open"/>`/usr/bin/chronyc`.
+The default location for the `chrony` daemon is <VPIcon icon="fas fa-folder-open"/>`/usr/sbin/`<VPIcon icon="fas fa-file-lines"/>`chronyd` and the command line program will be installed to <VPIcon icon="fas fa-folder-open"/>`/usr/bin/chronyc`.
 
 Once the installation is complete, start the `chrony` service and enable it to automatically start at system boot, then check if it is up and running.
 
@@ -178,7 +178,7 @@ In the output of this command, the reference ID specifies the name (or IP addres
 
 ### Configuring Chrony Time Sources in Linux
 
-The main `chrony` configuration file is located at <FontIcon icon="fas fa-folder-open"/>`/etc/chrony.conf` (**CentOS/RHEL/Fedora**) or <FontIcon icon="fas fa-folder-open"/>`/etc/chrony/chrony.conf` (**Ubuntu/Debian**).
+The main `chrony` configuration file is located at <VPIcon icon="fas fa-folder-open"/>`/etc/chrony.conf` (**CentOS/RHEL/Fedora**) or <VPIcon icon="fas fa-folder-open"/>`/etc/chrony/chrony.conf` (**Ubuntu/Debian**).
 
 When installing a Linux OS in the cloud, your system should have some default servers or a pool of servers added during the installation process. To add or change the default servers, open the configuration file for editing:
 
@@ -201,7 +201,7 @@ server 3.europe.pool.ntp.org ibusrt
 
 ![Add NTP Servers](https://tecmint.com/wp-content/uploads/2018/04/add-ntp-servers.png)
 
-or in most cases, it’s best to use [<FontIcon icon="fas fa-globe"/>ntppool.org](https://ntppool.org/en/) to find an NTP server. This allows the system to try to find the closest available servers for you. To add a pool, use the pool directive:
+or in most cases, it’s best to use [<VPIcon icon="fas fa-globe"/>ntppool.org](https://ntppool.org/en/) to find an NTP server. This allows the system to try to find the closest available servers for you. To add a pool, use the pool directive:
 
 ```sh title="/etc/chrony.conf or /etc/chrony/chrony.conf"
 pool 0.pool.ntp.org burst
@@ -243,7 +243,7 @@ timedatectl
 
 ![Check Current Server Time](https://tecmint.com/wp-content/uploads/2018/04/check-current-time-on-system.png)
 
-That brings us to the end of this guide. If you have any questions, reach us via the comment section below. For more information, check out: using the [<FontIcon icon="fa-brands fa-redhat"/>chrony suite to configure NTP](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/using-chrony_configuring-basic-system-settings) from the RHEL documentation or using [<FontIcon icon="fa-brands fa-ubuntu"/>chrony to configure NTP](https://ubuntu.com/blog/ubuntu-bionic-using-chrony-to-configure-ntp) from the Ubuntu official blog.
+That brings us to the end of this guide. If you have any questions, reach us via the comment section below. For more information, check out: using the [<VPIcon icon="fa-brands fa-redhat"/>chrony suite to configure NTP](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/using-chrony_configuring-basic-system-settings) from the RHEL documentation or using [<VPIcon icon="fa-brands fa-ubuntu"/>chrony to configure NTP](https://ubuntu.com/blog/ubuntu-bionic-using-chrony-to-configure-ntp) from the Ubuntu official blog.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

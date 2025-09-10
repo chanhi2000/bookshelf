@@ -49,9 +49,9 @@ cover: https://files.realpython.com/media/Data-Visualization-With-Dash_Watermark
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Data-Visualization-With-Dash_Watermarked.b3eae31c557f.jpg"/>
 
-In this tutorial, you’ll go through the end-to-end process of building a dashboard using Dash. If you follow along with the examples, then you’ll go from a bare-bones dashboard on your local machine to a styled dashboard deployed on [<FontIcon icon="fas fa-globe"/>PythonAnywhere](https://pythonanywhere.com/).
+In this tutorial, you’ll go through the end-to-end process of building a dashboard using Dash. If you follow along with the examples, then you’ll go from a bare-bones dashboard on your local machine to a styled dashboard deployed on [<VPIcon icon="fas fa-globe"/>PythonAnywhere](https://pythonanywhere.com/).
 
-To build the dashboard, you’ll use a [<FontIcon icon="fas fa-globe"/>dataset](https://kaggle.com/neuromusic/avocado-prices) of sales and prices of avocados in the United States between 2015 and 2018. [<FontIcon icon="fas fa-globe"/>Justin Kiggins](https://justinkiggins.com/about) compiled this dataset using data from the [<FontIcon icon="fas fa-globe"/>Hass Avocado Board](https://hassavocadoboard.com/retail/volume-and-price-data).
+To build the dashboard, you’ll use a [<VPIcon icon="fas fa-globe"/>dataset](https://kaggle.com/neuromusic/avocado-prices) of sales and prices of avocados in the United States between 2015 and 2018. [<VPIcon icon="fas fa-globe"/>Justin Kiggins](https://justinkiggins.com/about) compiled this dataset using data from the [<VPIcon icon="fas fa-globe"/>Hass Avocado Board](https://hassavocadoboard.com/retail/volume-and-price-data).
 
 ---
 
@@ -61,7 +61,7 @@ To develop your app, you’ll need a new directory to store your code and data. 
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 mkdir avocado_analytics
@@ -70,7 +70,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 mkdir avocado_analytics
@@ -93,13 +93,13 @@ This command will install Dash and [**pandas**](/realpython.com/pandas-python-ex
 
 ::: note
 
-Version 2 of Dash was [released (<FontIcon icon="iconfont icon-github"/>`plotly/dash`)](https://github.com/plotly/dash/releases/tag/v2.0.0) in the fall of 2021. The new version is [<FontIcon icon="iconfont icon-plotly"/>mostly backward compatible](https://dash.plotly.com/dash-2-0-migration), but some idioms and recommendations have changed.
+Version 2 of Dash was [released (<VPIcon icon="iconfont icon-github"/>`plotly/dash`)](https://github.com/plotly/dash/releases/tag/v2.0.0) in the fall of 2021. The new version is [<VPIcon icon="iconfont icon-plotly"/>mostly backward compatible](https://dash.plotly.com/dash-2-0-migration), but some idioms and recommendations have changed.
 
 :::
 
 Finally, you need some data to feed into your dashboard. You can download the data as well as the code you see throughout this tutorial by clicking the link below:
 
-Save the data as <FontIcon icon="fas fa-file-csv"/>`avocado.csv` in the root directory of the project. By now, you should have a virtual environment with the required libraries and the data in the root folder of your project. Your project’s structure should look like this:
+Save the data as <VPIcon icon="fas fa-file-csv"/>`avocado.csv` in the root directory of the project. By now, you should have a virtual environment with the required libraries and the data in the root folder of your project. Your project’s structure should look like this:
 
 ```plaintext title="file structure"
 avocado_analytics/
@@ -125,9 +125,9 @@ In this section, you’ll learn about the layout. Next, you’ll [learn about st
 
 ### Initializing Your Dash Application
 
-Create an empty file named <FontIcon icon="fa-brands fa-python"/>`app.py` in the root directory of your project, then review the code of <FontIcon icon="fa-brands fa-python"/>`app.py` in this section. To make it easier for you to copy the full code, you’ll find the entire contents of <FontIcon icon="fa-brands fa-python"/>`app.py` at the end of this section.
+Create an empty file named <VPIcon icon="fa-brands fa-python"/>`app.py` in the root directory of your project, then review the code of <VPIcon icon="fa-brands fa-python"/>`app.py` in this section. To make it easier for you to copy the full code, you’ll find the entire contents of <VPIcon icon="fa-brands fa-python"/>`app.py` at the end of this section.
 
-Here are the first few lines of <FontIcon icon="fa-brands fa-python"/>`app.py`:
+Here are the first few lines of <VPIcon icon="fa-brands fa-python"/>`app.py`:
 
 ```py title="app.py"
 import pandas as pd
@@ -151,7 +151,7 @@ On lines 3 and 4, you import the required libraries: `pandas` and `dash`. You’
 
 On lines 6 to 11, you [**read the data**](/realpython.com/python-csv.md#reading-csv-files-with-pandas) and preprocess it for use in the dashboard. You filter some of the data because your dashboard isn’t interactive yet, and the plotted values wouldn’t make sense otherwise.
 
-On line 13, you create an instance of the `Dash` class. If you’ve used [<FontIcon icon="fas fa-globe"/>Flask](https://realpython.com/tutorials/flask/) before, then initializing a `Dash` class may look familiar. In Flask, you usually initialize a WSGI application using `Flask(__name__)`. Similarly, for a Dash app, you use `Dash(__name__)`.
+On line 13, you create an instance of the `Dash` class. If you’ve used [<VPIcon icon="fas fa-globe"/>Flask](https://realpython.com/tutorials/flask/) before, then initializing a `Dash` class may look familiar. In Flask, you usually initialize a WSGI application using `Flask(__name__)`. Similarly, for a Dash app, you use `Dash(__name__)`.
 
 ### Defining the Layout of Your Dash Application
 
@@ -201,8 +201,8 @@ With this code, you define the `.layout` property of the `app` object. This prop
 
 Dash components come prepackaged in Python libraries. Some of them come with Dash when you install it. You have to install the rest separately. You’ll see two sets of components in almost every app:
 
-1. The [<FontIcon icon="iconfont icon-plotly"/>Dash HTML Components](https://dash.plotly.com/dash-html-components) module provides you with Python wrappers for HTML elements. For example, you could use Dash HTML Components to create elements such as paragraphs, headings, or lists.
-2. The [<FontIcon icon="iconfont icon-plotly"/>Dash Core Components](https://dash.plotly.com/dash-core-components) module provides you with Python abstractions for creating interactive user interfaces. You can use these components to create interactive elements such as graphs, sliders, or dropdowns.
+1. The [<VPIcon icon="iconfont icon-plotly"/>Dash HTML Components](https://dash.plotly.com/dash-html-components) module provides you with Python wrappers for HTML elements. For example, you could use Dash HTML Components to create elements such as paragraphs, headings, or lists.
+2. The [<VPIcon icon="iconfont icon-plotly"/>Dash Core Components](https://dash.plotly.com/dash-core-components) module provides you with Python abstractions for creating interactive user interfaces. You can use these components to create interactive elements such as graphs, sliders, or dropdowns.
 
 On lines 5 to 13, you can see the Dash HTML components in practice. You start by defining the parent component, `html.Div`. Then you add two more elements, a heading (`html.H1`) and a paragraph (`html.P`), as its children.
 
@@ -227,7 +227,7 @@ This HTML code is rendered when you open your application in the browser. It fol
 
 On lines 14 and 26 in the layout code snippet, you can see the graph component from Dash Core Components in practice. There are two `dcc.Graph` components in `app.layout`. The first one plots the average prices of avocados during the period of study, and the second plots the number of avocados sold in the United States during the same period.
 
-Under the hood, Dash uses Plotly.js to generate graphs. The `dcc.Graph` components expect a [<FontIcon icon="fas fa-globe"/>figure object](https://plotly.com/python/figure-structure/) or a [**Python dictionary**](/realpython.com/python-dicts.md) containing the plot’s data and layout. In this case, you provide the latter.
+Under the hood, Dash uses Plotly.js to generate graphs. The `dcc.Graph` components expect a [<VPIcon icon="fas fa-globe"/>figure object](https://plotly.com/python/figure-structure/) or a [**Python dictionary**](/realpython.com/python-dicts.md) containing the plot’s data and layout. In this case, you provide the latter.
 
 Finally, these two lines of code help you run your application:
 

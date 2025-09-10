@@ -67,11 +67,11 @@ If you’d like to take a deeper dive into front-end development, then check out
 
 :::
 
-However, if you want to add an input box to your web app, then you’ll need to use *some* HTML. You’ll implement only the absolute minimum to get your web app looking and feeling more like a website that users will be familiar with. You’ll use the [<FontIcon icon="fa-brands fa-firefox"/>HTML `<form>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) to collect their input.
+However, if you want to add an input box to your web app, then you’ll need to use *some* HTML. You’ll implement only the absolute minimum to get your web app looking and feeling more like a website that users will be familiar with. You’ll use the [<VPIcon icon="fa-brands fa-firefox"/>HTML `<form>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) to collect their input.
 
 ::: note
 
-If you want to learn more about HTML, then check out Real Python’s [**HTML and CSS for Python Developers**](/realpython.com/html-css-python.md) or MDN’s [<FontIcon icon="fa-brands fa-firefox"/>Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics).
+If you want to learn more about HTML, then check out Real Python’s [**HTML and CSS for Python Developers**](/realpython.com/html-css-python.md) or MDN’s [<VPIcon icon="fa-brands fa-firefox"/>Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics).
 
 :::
 
@@ -221,7 +221,7 @@ The `request.args` dictionary contains any data submitted with an HTTP GET reque
 
 Give it a spin! You’re now able to enter a number and see it displayed right underneath the form’s button. If you enter a new number, then the old one gets replaced. You’re correctly sending and receiving the data that your users are submitting.
 
-Before you move on to integrate the submitted value with your temperature converter code, are there any [<FontIcon icon="fas fa-globe"/>potential problems](https://xkcd.com/327/) you can think of with this implementation?
+Before you move on to integrate the submitted value with your temperature converter code, are there any [<VPIcon icon="fas fa-globe"/>potential problems](https://xkcd.com/327/) you can think of with this implementation?
 
 ::: details Exercise: Practice and Explore
 
@@ -251,7 +251,7 @@ Flask inserts the text directly into HTML code, which causes this text input to 
 
 While this example is harmless and goes away with a refresh of your page, you can imagine how this might present a security problem when other types of content are added in this way. You don’t want to open up the possibility of your users editing aspects of your web app that aren’t meant to be edited.
 
-To avoid this, you can use Flask’s built-in [<FontIcon icon="iconfont icon-flask"/>`escape()`](https://flask.palletsprojects.com/en/1.1.x/api/#flask.escape), which converts the special HTML characters `<`, `>`, and `&` into equivalent representations that can be displayed correctly.
+To avoid this, you can use Flask’s built-in [<VPIcon icon="iconfont icon-flask"/>`escape()`](https://flask.palletsprojects.com/en/1.1.x/api/#flask.escape), which converts the special HTML characters `<`, `>`, and `&` into equivalent representations that can be displayed correctly.
 
 You’ll first need to import `escape` into your Python script to use this functionality. Then, when you submit the form, you can convert any special HTML characters and make your form input ’90s hacker-proof:
 
@@ -289,7 +289,7 @@ Refresh your development server and try submitting some HTML code. Now it’ll b
 
 It’s necessary to convert the escaped sequence back to a Python `str`. Otherwise, Flask will also greedily convert the `<form>` element your function returns into escaped strings.
 
-When building larger web applications, you shouldn’t have to deal with escaping your input since all HTML will be handled using [<FontIcon icon="iconfont icon-flask"/>templates](https://flask.palletsprojects.com/en/1.1.x/tutorial/templates/). If you want to learn more about that, then check out [<FontIcon icon="fas fa-globe"/>Flask by Example](https://realpython.com/learning-paths/flask-by-example/).
+When building larger web applications, you shouldn’t have to deal with escaping your input since all HTML will be handled using [<VPIcon icon="iconfont icon-flask"/>templates](https://flask.palletsprojects.com/en/1.1.x/tutorial/templates/). If you want to learn more about that, then check out [<VPIcon icon="fas fa-globe"/>Flask by Example](https://realpython.com/learning-paths/flask-by-example/).
 
 :::
 
@@ -362,7 +362,7 @@ Since there have been quite a few changes, here’s a step-by-step review of the
 
 Your page will render correctly even though the way you’re adding these strings doesn’t represent valid HTML. This works thanks to the power of modern browsers.
 
-Keep in mind that if you’re interested in diving deeper into [<FontIcon icon="fas fa-globe"/>web development](https://realpython.com/learning-paths/become-python-web-developer/), then you’ll need to [<FontIcon icon="fa-brands fa-firefox"/>learn HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics). But for the sake of getting your Python script deployed online, this will do just fine.
+Keep in mind that if you’re interested in diving deeper into [<VPIcon icon="fas fa-globe"/>web development](https://realpython.com/learning-paths/become-python-web-developer/), then you’ll need to [<VPIcon icon="fa-brands fa-firefox"/>learn HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics). But for the sake of getting your Python script deployed online, this will do just fine.
 
 You should now be able to use your temperature conversion script inside your browser. You can supply a Celsius temperature through the input box, click the button, and see the converted Fahrenheit result appear on the same web page. Since you’re using the default HTTP GET request, you can also see the submitted data appear in the URL.
 
@@ -388,9 +388,9 @@ At this point, you’ve successfully converted your Python script into a Python 
 
 ::: Exercise: Practice and Explore
 
-Create your own [<FontIcon icon="fas fa-globe"/>poem generator](http://poem-generator.appspot.com/) that allows users to create short poems using a web form. Your web application should use a single page with a single form that accepts GET requests. You can use this [example code (<FontIcon icon="iconfont icon-github"/>`realpython/book1-exercises`)](https://github.com/realpython/book1-exercises/blob/master/chp09/solutions/9-1.py) to get started, or you can write your own.
+Create your own [<VPIcon icon="fas fa-globe"/>poem generator](http://poem-generator.appspot.com/) that allows users to create short poems using a web form. Your web application should use a single page with a single form that accepts GET requests. You can use this [example code (<VPIcon icon="iconfont icon-github"/>`realpython/book1-exercises`)](https://github.com/realpython/book1-exercises/blob/master/chp09/solutions/9-1.py) to get started, or you can write your own.
 
-If you want to learn more about what you can do with Google App Engine, then you can read about [<FontIcon icon="iconfont icon-gcp"/>using static files](https://cloud.google.com/appengine/docs/standard/python3/serving-static-files) and add a [<FontIcon icon="fa-brands fa-wikipedia-w"/>CSS](https://en.wikipedia.org/wiki/CSS) file to your Python web application to improve its overall appearance.
+If you want to learn more about what you can do with Google App Engine, then you can read about [<VPIcon icon="iconfont icon-gcp"/>using static files](https://cloud.google.com/appengine/docs/standard/python3/serving-static-files) and add a [<VPIcon icon="fa-brands fa-wikipedia-w"/>CSS](https://en.wikipedia.org/wiki/CSS) file to your Python web application to improve its overall appearance.
 
 :::
 

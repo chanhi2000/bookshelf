@@ -64,7 +64,7 @@ Docker Compose has long been a favorite among developers for orchestrating multi
 
 Developers have had to resort to shell scripts, Makefiles, or wrapper CLIs to manage these external components, fragmenting the developer experience and making it harder to onboard new contributors or maintain consistent workflows across teams.
 
-**Provider services change that**. By introducing a native extension point into Compose, developers can now define and manage external resources directly in their <FontIcon icon="iconfont icon-yaml"/>`compose.yaml`. Compose delegates their lifecycle to the provider binary, coordinating with it as part of its own service lifecycle.
+**Provider services change that**. By introducing a native extension point into Compose, developers can now define and manage external resources directly in their <VPIcon icon="iconfont icon-yaml"/>`compose.yaml`. Compose delegates their lifecycle to the provider binary, coordinating with it as part of its own service lifecycle.
 
 This makes Docker Compose a more complete solution for full-stack, platform-aware development — from local environments to hybrid or remote setups.
 
@@ -74,7 +74,7 @@ This makes Docker Compose a more complete solution for full-stack, platform-awar
 
 Provider services are declared like any other Compose service, but instead of specifying an `image`, you specify a `provider` with a `type`, and optionally some `options`. The `type` must correspond to the name of a binary available in your `$PATH` that implements the Compose provider specification.
 
-As an example we will use the [Telepresence provider plugin (<FontIcon icon="iconfont icon-github"/>`glours/compose-telepresence-plugin`)](https://github.com/glours/compose-telepresence-plugin), which routes Kubernetes traffic to a local service for live cloud debugging. This is especially useful for testing how a local service behaves when integrated into a real cluster:
+As an example we will use the [Telepresence provider plugin (<VPIcon icon="iconfont icon-github"/>`glours/compose-telepresence-plugin`)](https://github.com/glours/compose-telepresence-plugin), which routes Kubernetes traffic to a local service for live cloud debugging. This is especially useful for testing how a local service behaves when integrated into a real cluster:
 
 ```yaml title="compose.yaml"
 local-api:
@@ -165,7 +165,7 @@ On the other side, providers can also send runtime messages to Compose:
 
 This flexible protocol makes it easy to add new types and build rich provider integrations.
 
-Refer to the [official protocol spec (<FontIcon icon="iconfont icon-github"/>`docker/compose`)](https://github.com/docker/compose/blob/main/docs/extension.md) for detailed structure and examples.
+Refer to the [official protocol spec (<VPIcon icon="iconfont icon-github"/>`docker/compose`)](https://github.com/docker/compose/blob/main/docs/extension.md) for detailed structure and examples.
 
 ---
 
@@ -175,7 +175,7 @@ The real power of provider services lies in their extensibility. You can write y
 
 A typical provider binary implements logic to handle a `compose` command with `up` and `down` subcommands.
 
-The source code of [<FontIcon icon="iconfont icon-github"/>`glours/compose-telepresence-plugin`](https://github.com/glours/compose-telepresence-plugin) will be a good starting point. This plugin is implemented in Go and wraps the Telepresence CLI to bridge a local dev container with a remote Kubernetes service.
+The source code of [<VPIcon icon="iconfont icon-github"/>`glours/compose-telepresence-plugin`](https://github.com/glours/compose-telepresence-plugin) will be a good starting point. This plugin is implemented in Go and wraps the Telepresence CLI to bridge a local dev container with a remote Kubernetes service.
 
 Here’s a snippet from its `up` implementation:
 
@@ -212,7 +212,7 @@ This method is triggered when `docker compose up` is run, and it starts the serv
 
 To build your own provider:
 
-1. Read the full [extension protocol spec (<FontIcon icon="iconfont icon-github"/>`docker/compose`)](https://github.com/docker/compose/blob/main/docs/extension.md)
+1. Read the full [extension protocol spec (<VPIcon icon="iconfont icon-github"/>`docker/compose`)](https://github.com/docker/compose/blob/main/docs/extension.md)
 2. Parse all the options as flags to collect the whole configuration needed by the provider
 3. Implement the expected JSON response handling over /stdout
 4. Don’t forget to add `debug` messages to have as many details as possible during your implementation phase.

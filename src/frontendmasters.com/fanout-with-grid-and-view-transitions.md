@@ -124,7 +124,7 @@ I find that terribly pleasing.
 
 Again I’m leaving the entire grid in place here rather than changing the amount or size of any of the columns/rows. But you could, and it wouldn’t be terribly different. It might actually be smart so the “closed” state isn’t taking up as much space in the flow.
 
-Again if a browser doesn’t [<FontIcon icon="fas fa-globe"/>support](https://caniuse.com/view-transitions) this kind of view transition (Firefox, at the time of writing), it doesn’t matter, it will still toggle open and closed just fine, just without animation.
+Again if a browser doesn’t [<VPIcon icon="fas fa-globe"/>support](https://caniuse.com/view-transitions) this kind of view transition (Firefox, at the time of writing), it doesn’t matter, it will still toggle open and closed just fine, just without animation.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

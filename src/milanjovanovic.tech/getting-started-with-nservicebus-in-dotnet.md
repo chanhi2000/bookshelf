@@ -53,7 +53,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_058.png
   preview="https://milanjovanovic.tech/blog-covers/mnw_058.png"/>
 
 
-NServiceBus is a feature-rich messaging framework supporting many different message transports. It's developed and maintained by [<FontIcon icon="fas fa-globe"/>Particular Software](https://particular.net/). And it simplifies the process of building complex distributed systems across various cloud-based queueing technologies.
+NServiceBus is a feature-rich messaging framework supporting many different message transports. It's developed and maintained by [<VPIcon icon="fas fa-globe"/>Particular Software](https://particular.net/). And it simplifies the process of building complex distributed systems across various cloud-based queueing technologies.
 
 The basic building blocks of NServiceBus are messages and endpoints. A message contains the required information to execute a business operation. Endpoints are logical entities that send and receive messages.
 
@@ -71,7 +71,7 @@ Let's dive in!
 
 ## What is NServiceBus?
 
-[<FontIcon icon="fas fa-globe"/>NServiceBus](https://go.particular.net/milanjovanovic) is a messaging framework and platform that simplifies building reliable, scalable, and maintainable distributed systems. It's designed to address the challenges that arise when building applications that are distributed across multiple servers.
+[<VPIcon icon="fas fa-globe"/>NServiceBus](https://go.particular.net/milanjovanovic) is a messaging framework and platform that simplifies building reliable, scalable, and maintainable distributed systems. It's designed to address the challenges that arise when building applications that are distributed across multiple servers.
 
 One of NServiceBus's foundational principles is its embrace of a message-driven architecture. In this model, components communicate by sending and receiving messages. Messages are the fundamental units of communication, representing commands, events, or data that services exchange.
 
@@ -97,7 +97,7 @@ Let's start by installing the `NServiceBus` NuGet package:
 Install-Package NServiceBus.Extensions.Hosting
 ```
 
-Now you can configure an *endpoint* to use [<FontIcon icon="fa-brands fa-microsoft"/>Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) to send messages:
+Now you can configure an *endpoint* to use [<VPIcon icon="fa-brands fa-microsoft"/>Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview) to send messages:
 
 ```cs
 var builder = WebApplication.CreateBuilder();

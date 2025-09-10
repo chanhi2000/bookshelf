@@ -51,13 +51,13 @@ cover: https://files.realpython.com/media/Whats-the-Zen-of-Python_Watermarked.3e
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Whats-the-Zen-of-Python_Watermarked.3ec4785e1bb9.jpg"/>
 
-If you’ve been learning Python long enough, then you’ve likely seen or heard about the **Zen of Python**. Experienced Pythonistas often refer to it as a source of wisdom and guidance, especially when they want to settle an argument about certain design decisions in a piece of code. Others take these principles even more seriously by considering them a sort of Pythonic [<FontIcon icon="fas fa-globe"/>decalogue](https://merriam-webster.com/dictionary/decalogue).
+If you’ve been learning Python long enough, then you’ve likely seen or heard about the **Zen of Python**. Experienced Pythonistas often refer to it as a source of wisdom and guidance, especially when they want to settle an argument about certain design decisions in a piece of code. Others take these principles even more seriously by considering them a sort of Pythonic [<VPIcon icon="fas fa-globe"/>decalogue](https://merriam-webster.com/dictionary/decalogue).
 
 In this tutorial, you’ll learn where to find the Zen of Python, how it came into existence, and how to interpret its mysterious aphorisms. You don’t need to be a Python master to understand the Zen of Python! But you do need to answer an important question: **What exactly is the Zen of Python?**
 
 ## In Short: It’s a Humorous Poem Listing Python Philosophies
 
-According to the [<FontIcon icon="fa-brands fa-python"/>Python glossary](https://docs.python.org/3/glossary.html), which contains definitions of popular terms related to this programming language, the **Zen of Python** is a:
+According to the [<VPIcon icon="fa-brands fa-python"/>Python glossary](https://docs.python.org/3/glossary.html), which contains definitions of popular terms related to this programming language, the **Zen of Python** is a:
 
 ::: info Python Glossary
 
@@ -100,7 +100,7 @@ import this
 # Namespaces are one honking great idea -- let's do more of those!
 ```
 
-The byline reveals the poem’s author, [<FontIcon icon="fa-brands fa-wikipedia-w"/>Tim Peters](https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)), who’s a renowned software engineer and a long-standing [**CPython**](/realpython.com/cpython-source-code-guide.md) core developer best known for inventing the [**Timsort**](/realpython.com/sorting-algorithms-python/the-timsort-algorithm-in-python.md) sorting algorithm. He also authored the [**`doctest`**](/realpython.com/python-doctest.md) and [**`timeit`**](/realpython.com/python-timer.md#estimating-running-time-with-timeit) modules in the Python standard library, along with making many other contributions.
+The byline reveals the poem’s author, [<VPIcon icon="fa-brands fa-wikipedia-w"/>Tim Peters](https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)), who’s a renowned software engineer and a long-standing [**CPython**](/realpython.com/cpython-source-code-guide.md) core developer best known for inventing the [**Timsort**](/realpython.com/sorting-algorithms-python/the-timsort-algorithm-in-python.md) sorting algorithm. He also authored the [**`doctest`**](/realpython.com/python-doctest.md) and [**`timeit`**](/realpython.com/python-timer.md#estimating-running-time-with-timeit) modules in the Python standard library, along with making many other contributions.
 
 Take your time to read through the Zen of Python and contemplate its wisdom. But don’t take the aphorisms literally, as they’re more of a guiding set of principles rather than strict instructions. You’ll learn about their humorous origins in the next section.
 
@@ -108,11 +108,11 @@ Take your time to read through the Zen of Python and contemplate its wisdom. But
 
 ## How Did the Zen of Python Originate?
 
-The idea of formulating a single document that would encapsulate Python’s fundamental philosophies emerged among the core developers in June 1999. As more and more people began coming to Python from other programming languages, they’d often bring their preconceived notions of software design that weren’t necessarily [<FontIcon icon="fas fa-globe"/>Pythonic](https://realpython.com/learning-paths/writing-pythonic-code/). To help them follow the spirit of the language, a set of recommendations for writing idiomatic Python was needed.
+The idea of formulating a single document that would encapsulate Python’s fundamental philosophies emerged among the core developers in June 1999. As more and more people began coming to Python from other programming languages, they’d often bring their preconceived notions of software design that weren’t necessarily [<VPIcon icon="fas fa-globe"/>Pythonic](https://realpython.com/learning-paths/writing-pythonic-code/). To help them follow the spirit of the language, a set of recommendations for writing idiomatic Python was needed.
 
-The initial discussion about creating such a document took place on the Python mailing list under the subject *The Python Way*. Today, you can find this conversation in the official [<FontIcon icon="fa-brands fa-python"/>Python-list archive](https://mail.python.org/pipermail/python-list/1999-June/subject.html). If you look closely at the [<FontIcon icon="fa-brands fa-python"/>first message from Tim Peters](https://mail.python.org/pipermail/python-list/1999-June/001951.html) in that thread, then you’ll notice that he clearly outlined the Zen of Python as a joke. That original form has stuck around until this day:
+The initial discussion about creating such a document took place on the Python mailing list under the subject *The Python Way*. Today, you can find this conversation in the official [<VPIcon icon="fa-brands fa-python"/>Python-list archive](https://mail.python.org/pipermail/python-list/1999-June/subject.html). If you look closely at the [<VPIcon icon="fa-brands fa-python"/>first message from Tim Peters](https://mail.python.org/pipermail/python-list/1999-June/001951.html) in that thread, then you’ll notice that he clearly outlined the Zen of Python as a joke. That original form has stuck around until this day:
 
-::: info Tim Peters from <FontIcon icon="fa-brands fa-python"/>mail.python.org
+::: info Tim Peters from <VPIcon icon="fa-brands fa-python"/>mail.python.org
 
 > Clearly a job for Guido alone - although I doubt it’s one he’ll take on (fwiw, I wish he would too!). Here’s the outline he would start from, though:
 > 
@@ -150,7 +150,7 @@ The initial discussion about creating such a document took place on the Python m
 
 :::
 
-The wink and the playful way of self-censoring some [<FontIcon icon="fa-brands fa-wikipedia-w"/>toilet humor](https://en.wikipedia.org/wiki/Toilet_humour) are clear giveaways that Tim Peters didn’t want anyone to take his comment too seriously.
+The wink and the playful way of self-censoring some [<VPIcon icon="fa-brands fa-wikipedia-w"/>toilet humor](https://en.wikipedia.org/wiki/Toilet_humour) are clear giveaways that Tim Peters didn’t want anyone to take his comment too seriously.
 
 ::: note
 
@@ -158,11 +158,11 @@ In case you didn’t get the joke, he started to write something like *Feces* bu
 
 :::
 
-Eventually, these nearly twenty theses got a proper name and were formally codified in a [<FontIcon icon="fa-brands fa-python"/>Python Enhancement Proposal](https://peps.python.org/pep-0001/) document. Each PEP document receives a number. For example, you might have stumbled on [**PEP 8**](/realpython.com/python-pep8.md), which is the style guide for writing readable Python code. Perhaps as an inside joke, the Zen of Python received the number [<FontIcon icon="fa-brands fa-python"/>PEP 20](https://peps.python.org/pep-0020/) to signify the incomplete number of aphorisms in it.
+Eventually, these nearly twenty theses got a proper name and were formally codified in a [<VPIcon icon="fa-brands fa-python"/>Python Enhancement Proposal](https://peps.python.org/pep-0001/) document. Each PEP document receives a number. For example, you might have stumbled on [**PEP 8**](/realpython.com/python-pep8.md), which is the style guide for writing readable Python code. Perhaps as an inside joke, the Zen of Python received the number [<VPIcon icon="fa-brands fa-python"/>PEP 20](https://peps.python.org/pep-0020/) to signify the incomplete number of aphorisms in it.
 
-To win your next argument about what makes good Python code, you can back up your claims with the Zen of Python. If you’d like to refer to a specific aphorism instead of the entire poem, then consider visiting [<FontIcon icon="fas fa-globe"/>pep20.org](https://pep20.org/), which provides convenient clickable links to each principle.
+To win your next argument about what makes good Python code, you can back up your claims with the Zen of Python. If you’d like to refer to a specific aphorism instead of the entire poem, then consider visiting [<VPIcon icon="fas fa-globe"/>pep20.org](https://pep20.org/), which provides convenient clickable links to each principle.
 
-And, in case you want to learn the poem by heart while having some fun, you can now listen to a [<FontIcon icon="fa-brands fa-youtube"/>song](https://youtu.be/i6G6dmVJy74) with the Zen of Python as its lyrics. [Barry Warsaw (<FontIcon icon="fa-brands fa-x-twitter"/>`pumpichank`)](https://x.com/pumpichank), another core developer involved with Python since its early days, composed and performed this musical rendition. The song became the closing track on a special vinyl record entitled [<FontIcon icon="fas fa-globe"/>*The Zen Side of the Moon*](https://edgedb.com/blog/the-zen-side-of-the-moon), which was [auctioned (<FontIcon icon="fa-brands fa-x-twitter"/>`pyladies`)](https://x.com/pyladies/status/1649988104433061888) at [**PyCon US 2023**](/realpython.com/python-news-april-2023.md#pycon-us-2023-celebrates-its-twentieth-anniversary).
+And, in case you want to learn the poem by heart while having some fun, you can now listen to a [<VPIcon icon="fa-brands fa-youtube"/>song](https://youtu.be/i6G6dmVJy74) with the Zen of Python as its lyrics. [Barry Warsaw (<VPIcon icon="fa-brands fa-x-twitter"/>`pumpichank`)](https://x.com/pumpichank), another core developer involved with Python since its early days, composed and performed this musical rendition. The song became the closing track on a special vinyl record entitled [<VPIcon icon="fas fa-globe"/>*The Zen Side of the Moon*](https://edgedb.com/blog/the-zen-side-of-the-moon), which was [auctioned (<VPIcon icon="fa-brands fa-x-twitter"/>`pyladies`)](https://x.com/pyladies/status/1649988104433061888) at [**PyCon US 2023**](/realpython.com/python-news-april-2023.md#pycon-us-2023-celebrates-its-twentieth-anniversary).
 
 Okay. Now that you have a rough idea of what the Zen of Python is and how it came about, you might be asking yourself whether you should really follow it.
 
@@ -187,7 +187,7 @@ These other two principles seem to be at odds with each other:
 
 According to the first one, you’re expected to always stick to the rules without breaking them. But immediately after, the following principle suggests that you should consider the practicality of a solution, even if it sometimes means breaking the rules anyway. Therefore, applying the Zen of Python without violating at least some of its principles is virtually impossible. You must choose between the ones to follow and those to bend or ignore.
 
-[Chris Neugebauer (<FontIcon icon="fa-brands fa-x-twitter"/>`chrisjrn`)](https://x.com/chrisjrn) gave a relevant talk about the Zen of Python and its limitations at [**PyCascades 2023**](/realpython.com/python-news-march-2023.md#pycascades-2023-takes-place-in-vancouver-british-columbia), which you can [<FontIcon icon="fa-brands fa-youtube"/>watch online](https://youtu.be/LA1Ir0s4icw). He explores [**decorators**](/realpython.com/primer-on-python-decorators.md) and [**type hints**](/realpython.com/python-type-checking.md) as two primary examples of Python design decisions that don’t strictly comply with the Zen of Python.
+[Chris Neugebauer (<VPIcon icon="fa-brands fa-x-twitter"/>`chrisjrn`)](https://x.com/chrisjrn) gave a relevant talk about the Zen of Python and its limitations at [**PyCascades 2023**](/realpython.com/python-news-march-2023.md#pycascades-2023-takes-place-in-vancouver-british-columbia), which you can [<VPIcon icon="fa-brands fa-youtube"/>watch online](https://youtu.be/LA1Ir0s4icw). He explores [**decorators**](/realpython.com/primer-on-python-decorators.md) and [**type hints**](/realpython.com/python-type-checking.md) as two primary examples of Python design decisions that don’t strictly comply with the Zen of Python.
 
 Decorators can help you focus on the code’s high-level purpose by hiding uninteresting implementation details at the price of making the code more implicit. This complies with the readability principle but fails to favor explicit code. Type hinting, on the other hand, removes implicit behavior by adding complexity, which goes against the Zen of Python’s emphasis on simplicity.
 
@@ -221,7 +221,7 @@ The first principle in the Zen of Python states that:
 
 > Beautiful is better than ugly.
 
-While beauty is in the eye of the beholder, it’s undeniable that one of the factors behind Python’s popularity, particularly in the [<FontIcon icon="fas fa-globe"/>data science](https://realpython.com/learning-paths/data-science-python-core-skills/) community, is its approachable and aesthetically pleasing syntax. Consider the following function, which creates a [<FontIcon icon="fa-brands fa-wikipedia-w"/>sine wave](https://en.wikipedia.org/wiki/Sine_wave) with the specified amplitude, angular frequency, and phase shift:
+While beauty is in the eye of the beholder, it’s undeniable that one of the factors behind Python’s popularity, particularly in the [<VPIcon icon="fas fa-globe"/>data science](https://realpython.com/learning-paths/data-science-python-core-skills/) community, is its approachable and aesthetically pleasing syntax. Consider the following function, which creates a [<VPIcon icon="fa-brands fa-wikipedia-w"/>sine wave](https://en.wikipedia.org/wiki/Sine_wave) with the specified amplitude, angular frequency, and phase shift:
 
 ```py
 from math import sin
@@ -230,7 +230,7 @@ def sinusoid(A, ω, ϕ):
     return lambda t: A * sin(ω * t + ϕ)
 ```
 
-This code reads almost like a mathematical formula thanks to Python’s compact syntax, which doesn’t get in your way. The use of Greek letters in [**variable**](/realpython.com/python-variables.md) names, so common in these types of equations, instantly makes the code relatable to anyone familiar with the underlying theory. Finally, the [**lambda expression**](/realpython.com/python-lambda.md) makes the code concise while maintaining readability. As you can see, Python’s clarity and [<FontIcon icon="fa-brands fa-wikipedia-w"/>expressive power](https://en.wikipedia.org/wiki/Expressive_power_(computer_science)) can be hard to beat.
+This code reads almost like a mathematical formula thanks to Python’s compact syntax, which doesn’t get in your way. The use of Greek letters in [**variable**](/realpython.com/python-variables.md) names, so common in these types of equations, instantly makes the code relatable to anyone familiar with the underlying theory. Finally, the [**lambda expression**](/realpython.com/python-lambda.md) makes the code concise while maintaining readability. As you can see, Python’s clarity and [<VPIcon icon="fa-brands fa-wikipedia-w"/>expressive power](https://en.wikipedia.org/wiki/Expressive_power_(computer_science)) can be hard to beat.
 
 The second principle in the Zen of Python says:
 
@@ -309,9 +309,9 @@ The final two principles offering qualitative advice are:
 > Now is better than never.  
 > Although never is often better than *right* now.
 
-The first one encourages you to take action by trying to implement a working prototype. By the way, Python is an excellent tool for prototyping! You can always keep iterating on your solution without falling into the [<FontIcon icon="fa-brands fa-wikipedia-w"/>premature optimization](https://en.wikipedia.org/wiki/Program_optimization#When_to_optimize) trap, which [<FontIcon icon="fa-brands fa-wikipedia-w"/>Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) famously called “the root of all evil” in computer science.
+The first one encourages you to take action by trying to implement a working prototype. By the way, Python is an excellent tool for prototyping! You can always keep iterating on your solution without falling into the [<VPIcon icon="fa-brands fa-wikipedia-w"/>premature optimization](https://en.wikipedia.org/wiki/Program_optimization#When_to_optimize) trap, which [<VPIcon icon="fa-brands fa-wikipedia-w"/>Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) famously called “the root of all evil” in computer science.
 
-At the same time, you shouldn’t make decisions too hastily, rushing into implementation without giving it at least some thought. Practicing patience can save you from investing your time and effort in something that won’t return the desired results. Your intuition may be wrong, so there’s no point in working on something that [<FontIcon icon="fa-brands fa-wikipedia-w"/>ou’re not going to need](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) in the first place.
+At the same time, you shouldn’t make decisions too hastily, rushing into implementation without giving it at least some thought. Practicing patience can save you from investing your time and effort in something that won’t return the desired results. Your intuition may be wrong, so there’s no point in working on something that [<VPIcon icon="fa-brands fa-wikipedia-w"/>ou’re not going to need](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) in the first place.
 
 As you can tell, mastering the Zen of Python means carefully considering each piece of advice, even when the aphorisms may seem contradictory. While going through each and every line is beyond the scope of this tutorial, the more you work with Python, the more intuitive these proverbs will become.
 
@@ -319,27 +319,27 @@ As you can tell, mastering the Zen of Python means carefully considering each pi
 
 ## What Inside Jokes Does the Zen of Python Hide?
 
-While the Zen of Python started as a joke, the humor doesn’t end there. Python is known for having lots of witty references sprinkled throughout the language. After all, its very name is a tribute to the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Monty Python](https://en.wikipedia.org/wiki/Monty_Python) comedy group, and the official documentation is full of puns that allude to their numerous sketches. For example, `spam` is a common placeholder name used instead of the more traditional [<FontIcon icon="fa-brands fa-wikipedia-w"/>`foobar`](https://en.wikipedia.org/wiki/Foobar) as an informal nod to the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Spam sketch](https://en.wikipedia.org/wiki/Spam_(Monty_Python_sketch)).
+While the Zen of Python started as a joke, the humor doesn’t end there. Python is known for having lots of witty references sprinkled throughout the language. After all, its very name is a tribute to the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Monty Python](https://en.wikipedia.org/wiki/Monty_Python) comedy group, and the official documentation is full of puns that allude to their numerous sketches. For example, `spam` is a common placeholder name used instead of the more traditional [<VPIcon icon="fa-brands fa-wikipedia-w"/>`foobar`](https://en.wikipedia.org/wiki/Foobar) as an informal nod to the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Spam sketch](https://en.wikipedia.org/wiki/Spam_(Monty_Python_sketch)).
 
 ::: tip Fun Fact
 
-The modern meaning of [<FontIcon icon="fa-brands fa-wikipedia"/>spam](https://en.wikipedia.org/wiki/Spamming) as unwanted digital communication also stems from that classic Monty Python sketch, which excessively repeats the word *spam*.
+The modern meaning of [<VPIcon icon="fa-brands fa-wikipedia"/>spam](https://en.wikipedia.org/wiki/Spamming) as unwanted digital communication also stems from that classic Monty Python sketch, which excessively repeats the word *spam*.
 
 :::
 
-There’s a [<FontIcon icon="fas fa-globe"/>funny story](https://wefearchange.org/2010/06/import-this-and-zen-of-python.html) about the phrase *import this*, which Barry Warsaw documented on his blog. In a nutshell, the phrase was chosen from hundreds of community submissions for a slogan that could be printed on a T-shirt for a Python conference in 2001. At the very last minute, Barry got the idea to actually implement <FontIcon icon="fa-brands fa-python"/>`this.py` and sneak it into the next Python release without telling anyone. The module would show the Zen of Python when imported.
+There’s a [<VPIcon icon="fas fa-globe"/>funny story](https://wefearchange.org/2010/06/import-this-and-zen-of-python.html) about the phrase *import this*, which Barry Warsaw documented on his blog. In a nutshell, the phrase was chosen from hundreds of community submissions for a slogan that could be printed on a T-shirt for a Python conference in 2001. At the very last minute, Barry got the idea to actually implement <VPIcon icon="fa-brands fa-python"/>`this.py` and sneak it into the next Python release without telling anyone. The module would show the Zen of Python when imported.
 
-To make the Zen of Python more difficult to find in [Python’s source code (<FontIcon icon="iconfont icon-github"/>`python/cpython`)](https://github.com/python/cpython), Barry and his small group of accomplices added the module with notifications disabled. They kept it to themselves and even went so far as to [<FontIcon icon="fa-brands fa-wikipedia-w"/>obfuscate](https://en.wikipedia.org/wiki/Obfuscation_(software)) the code using the [<FontIcon icon="fa-brands fa-wikipedia-w"/>ROT-13](https://en.wikipedia.org/wiki/ROT13) substitution cipher to conceal their secret message. It wasn’t until much later that someone finally discovered the hidden module.
+To make the Zen of Python more difficult to find in [Python’s source code (<VPIcon icon="iconfont icon-github"/>`python/cpython`)](https://github.com/python/cpython), Barry and his small group of accomplices added the module with notifications disabled. They kept it to themselves and even went so far as to [<VPIcon icon="fa-brands fa-wikipedia-w"/>obfuscate](https://en.wikipedia.org/wiki/Obfuscation_(software)) the code using the [<VPIcon icon="fa-brands fa-wikipedia-w"/>ROT-13](https://en.wikipedia.org/wiki/ROT13) substitution cipher to conceal their secret message. It wasn’t until much later that someone finally discovered the hidden module.
 
 ::: note
 
-Displaying the Zen of Python after importing `this` is just one of many [<FontIcon icon="fa-brands fa-wikipedia-w"/>Easter eggs](https://en.wikipedia.org/wiki/Easter_egg_(media)) smuggled into Python, but there are several more eggs awaiting discovery. You can get a head start by downloading the following guide:
+Displaying the Zen of Python after importing `this` is just one of many [<VPIcon icon="fa-brands fa-wikipedia-w"/>Easter eggs](https://en.wikipedia.org/wiki/Easter_egg_(media)) smuggled into Python, but there are several more eggs awaiting discovery. You can get a head start by downloading the following guide:
 
 :::
 
 Have you found others? Share them in the comments below!
 
-Ironically, when you look more closely at [`this.py` (<FontIcon icon="iconfont icon-github"/>`python/cpython`)](https://github.com/python/cpython/blob/main/Lib/this.py) in the Python source code, then you’ll immediately notice that it violates many of the Zen of Python principles itself:
+Ironically, when you look more closely at [`this.py` (<VPIcon icon="iconfont icon-github"/>`python/cpython`)](https://github.com/python/cpython/blob/main/Lib/this.py) in the Python source code, then you’ll immediately notice that it violates many of the Zen of Python principles itself:
 
 ```py :collapsed-lines title="Lib/this.py"
 s = """Gur Mra bs Clguba, ol Gvz Crgref
@@ -372,15 +372,15 @@ for c in (65, 97):
 print("".join([d.get(c, c) for c in s]))
 ```
 
-This module doesn’t look particularly [<FontIcon icon="fas fa-globe"/>beautiful](https://pep20.org/#beautiful) or [<FontIcon icon="fas fa-globe"/>readable](https://pep20.org/#readability) due to the obfuscation, making its implementation [<FontIcon icon="fas fa-globe"/>hard to explain](https://pep20.org/#hard). Furthermore, single-letter variable names aren’t [<FontIcon icon="fas fa-globe"/>explicit](https://pep20.org/#explicit), and declaring them in the [**global scope**](/realpython.com/python-scope-legb-rule.md#modules-the-global-scope) ignores [<FontIcon icon="fas fa-globe"/>namespaces](https://pep20.org/#namespaces) altogether. Finally, there’s a [<FontIcon icon="fas fa-globe"/>simpler](https://pep20.org/#simple) way to decode the message using the `codecs` module instead of manually implementing the algorithm with nested loops that aren’t [<FontIcon icon="fas fa-globe"/>flat](https://pep20.org/#flat).
+This module doesn’t look particularly [<VPIcon icon="fas fa-globe"/>beautiful](https://pep20.org/#beautiful) or [<VPIcon icon="fas fa-globe"/>readable](https://pep20.org/#readability) due to the obfuscation, making its implementation [<VPIcon icon="fas fa-globe"/>hard to explain](https://pep20.org/#hard). Furthermore, single-letter variable names aren’t [<VPIcon icon="fas fa-globe"/>explicit](https://pep20.org/#explicit), and declaring them in the [**global scope**](/realpython.com/python-scope-legb-rule.md#modules-the-global-scope) ignores [<VPIcon icon="fas fa-globe"/>namespaces](https://pep20.org/#namespaces) altogether. Finally, there’s a [<VPIcon icon="fas fa-globe"/>simpler](https://pep20.org/#simple) way to decode the message using the `codecs` module instead of manually implementing the algorithm with nested loops that aren’t [<VPIcon icon="fas fa-globe"/>flat](https://pep20.org/#flat).
 
-There’s yet another Easter egg hiding right before your eyes. One of the principles in the Zen of Python is a playful reference to [<FontIcon icon="fa-brands fa-wikipedia-w"/>Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum), the creator of Python, who’s originally from the Netherlands:
+There’s yet another Easter egg hiding right before your eyes. One of the principles in the Zen of Python is a playful reference to [<VPIcon icon="fa-brands fa-wikipedia-w"/>Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum), the creator of Python, who’s originally from the Netherlands:
 
 > Although that way may not be obvious at first unless you’re Dutch.
 
-Guido is also known as the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Benevolent Dictator for Life (BDFL)](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) of Python, enjoying a great deal of respect and having influence over the language and its evolution. In 2018, he officially stepped down from that role, but he remains a key figure in the Python community.
+Guido is also known as the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Benevolent Dictator for Life (BDFL)](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) of Python, enjoying a great deal of respect and having influence over the language and its evolution. In 2018, he officially stepped down from that role, but he remains a key figure in the Python community.
 
-The Zen of Python’s author has a great sense of humor. A long time ago, someone opened a [<FontIcon icon="fa-brands fa-python"/>ticket](https://bugs.python.org/issue3364) in Python’s old bug tracker to point out a punctuation error in another principle. The mistake is in the inconsistent use of the [<FontIcon icon="fa-brands fa-wikipedia-w"/>em dashes](https://en.wikipedia.org/wiki/Dash#Em_dash) (`—`) in the following sentence:
+The Zen of Python’s author has a great sense of humor. A long time ago, someone opened a [<VPIcon icon="fa-brands fa-python"/>ticket](https://bugs.python.org/issue3364) in Python’s old bug tracker to point out a punctuation error in another principle. The mistake is in the inconsistent use of the [<VPIcon icon="fa-brands fa-wikipedia-w"/>em dashes](https://en.wikipedia.org/wiki/Dash#Em_dash) (`—`) in the following sentence:
 
 > There should be one- and preferably only one -obvious way to do it.
 
@@ -404,7 +404,7 @@ However, that mistake was intentional! The joke, as explained by Tim Peters hims
 
 :::
 
-Apart from that, this aphorism directly addresses [<FontIcon icon="iconfont icon-perl"/>Perl](https://perl.org/) programmers, whose motto was “[<FontIcon icon="fas fa-globe"/>there is more than one way to do it](https://wiki.c2.com/?ThereIsMoreThanOneWayToDoIt),” often abbreviated to TIMTOWTDI and pronounced *Tim Toady*. During the 1990s and early 2000s, Perl and Python were fierce competitors, and their respective communities had a friendly rivalry. The Zen of Python was actually created as a subtle way to poke fun at Perl.
+Apart from that, this aphorism directly addresses [<VPIcon icon="iconfont icon-perl"/>Perl](https://perl.org/) programmers, whose motto was “[<VPIcon icon="fas fa-globe"/>there is more than one way to do it](https://wiki.c2.com/?ThereIsMoreThanOneWayToDoIt),” often abbreviated to TIMTOWTDI and pronounced *Tim Toady*. During the 1990s and early 2000s, Perl and Python were fierce competitors, and their respective communities had a friendly rivalry. The Zen of Python was actually created as a subtle way to poke fun at Perl.
 
 So, there you have it. Zen’s twenty principles, only nineteen of which have been written down, are full of clever jokes and references that only a true Pythonista will appreciate. Now you can consider yourself one of them!
 

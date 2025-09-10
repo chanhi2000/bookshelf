@@ -214,7 +214,7 @@ RFC 1630[^1]에 따르면 URI(Uniform Resource Identifier)는 인터넷 자원�
 
 URI를 구성하는 요소를 간단히 표현하면 다음과 같습니다.
 
-![출처: [<FontIcon icon="fas fa-globe"/>novaworkssoftware.com](https://novaworkssoftware.com/blog/archives/218-LDC-72-Get-Crackn-Working-with-URIs.html)](https://tech.kakaopay.com/_astro/URI_hierarchical_part.1d224dc1_2f3LhN.avif)
+![출처: [<VPIcon icon="fas fa-globe"/>novaworkssoftware.com](https://novaworkssoftware.com/blog/archives/218-LDC-72-Get-Crackn-Working-with-URIs.html)](https://tech.kakaopay.com/_astro/URI_hierarchical_part.1d224dc1_2f3LhN.avif)
 
 익숙한 단어가 보이지 않으신가요? 앞서 봐왔던 **`host`와 `authority`는 URI의 주요 요소입니다.** host는 인터넷상에서 식별 가능한 주소(도메인 주소, IP 주소)를 의미합니다. 그리고 authority는 주소와 사용자 정보 등이 결합된 접근 권한을 의미합니다.
 

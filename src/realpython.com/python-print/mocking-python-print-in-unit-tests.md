@@ -63,7 +63,7 @@ You can test behaviors by [mocking](https://realpython.com/python-mock-library/)
 
 You might have heard the terms: **dummy**, **fake**, **stub**, **spy**, or **mock** used interchangeably. Some people make a distinction between them, while others don’t.
 
-Martin Fowler explains their differences in a [<FontIcon icon="fas fa-globe"/>short glossary](https://martinfowler.com/bliki/TestDouble.html) and collectively calls them **test doubles**.
+Martin Fowler explains their differences in a [<VPIcon icon="fas fa-globe"/>short glossary](https://martinfowler.com/bliki/TestDouble.html) and collectively calls them **test doubles**.
 
 <SiteInfo
   name="bliki: Test Double"
@@ -112,7 +112,7 @@ memory_buffer.getvalue()
 
 This time the function explicitly calls `print()`, but it exposes its `file` parameter to the outside world.
 
-However, a more Pythonic way of mocking objects takes advantage of the built-in `mock` module, which uses a technique called [<FontIcon icon="fa-brands fa-wikipedai-w"/>monkey patching](https://en.wikipedia.org/wiki/Monkey_patch). This derogatory name stems from it being a “dirty hack” that you can easily shoot yourself in the foot with. It’s less elegant than dependency injection but definitely quick and convenient.
+However, a more Pythonic way of mocking objects takes advantage of the built-in `mock` module, which uses a technique called [<VPIcon icon="fa-brands fa-wikipedai-w"/>monkey patching](https://en.wikipedia.org/wiki/Monkey_patch). This derogatory name stems from it being a “dirty hack” that you can easily shoot yourself in the foot with. It’s less elegant than dependency injection but definitely quick and convenient.
 
 ::: note
 

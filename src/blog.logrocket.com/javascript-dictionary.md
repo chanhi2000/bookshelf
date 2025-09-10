@@ -133,7 +133,7 @@ console.log(userInfo); // { name: 'John Doe', age: 25 }
 console.log(userInfo.__proto__) // { lastLoggedIn: "2024-12-10 19:54:23", todos: 10 }
 ```
 
-With `Object.create()`, we can pass a custom prototype like we just did above. By default, all objects inherit from [<FontIcon icon="fa-brands fa-firefox"/>`Object.prototype`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object). In this case, we’ve overridden the default prototype of `userInfo` with a custom one. You can always access the properties of the prototype in the created object:
+With `Object.create()`, we can pass a custom prototype like we just did above. By default, all objects inherit from [<VPIcon icon="fa-brands fa-firefox"/>`Object.prototype`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object). In this case, we’ve overridden the default prototype of `userInfo` with a custom one. You can always access the properties of the prototype in the created object:
 
 ```js
 const userAppInfo = {

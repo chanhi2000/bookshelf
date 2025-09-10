@@ -54,7 +54,7 @@ cover: /assets/image/blog.logrocket.com/commonjs-vs-es-modules-node-js/banner.pn
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Pascal Akunne](https://blog.logrocket.com/author/pascalakunne/) on 6 June 2024 to discuss how the latest Node versions support ES modules and to offer a brief evolution of JavaScript modules, a timeline from IIFE to ES modules.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Pascal Akunne](https://blog.logrocket.com/author/pascalakunne/) on 6 June 2024 to discuss how the latest Node versions support ES modules and to offer a brief evolution of JavaScript modules, a timeline from IIFE to ES modules.
 
 :::
 
@@ -134,7 +134,7 @@ console.log(add(5, 5)) // 10
 console.log(subtract(10, 5)) // 5
 ```
 
-Another way to enable ES modules in your project can be by adding a `"type: module"` field inside the nearest <FontIcon icon="iconfont icon-json"/>`package.json` file (the same folder as the package you’re making):
+Another way to enable ES modules in your project can be by adding a `"type: module"` field inside the nearest <VPIcon icon="iconfont icon-json"/>`package.json` file (the same folder as the package you’re making):
 
 ```json
 {
@@ -184,7 +184,7 @@ my-node-library
 └── …
 ```
 
-Inside <FontIcon icon="iconfont icon-json"/>`package.json`, we can use the `exports` field to export the public module (`module-a`) in two different module formats while restricting access to the private module (`module-b`):
+Inside <VPIcon icon="iconfont icon-json"/>`package.json`, we can use the `exports` field to export the public module (`module-a`) in two different module formats while restricting access to the private module (`module-b`):
 
 ```json title="package.json"
 {
@@ -221,7 +221,7 @@ import moduleB from 'my-library/private/module-b'
 
 Because of the paths in `exports`, we can import (and `require`) our public modules without specifying absolute paths. By including paths for `.js` and `.mjs`, we can solve the issue of incompatibility; we can map package modules for different environments like the browser and Node.js while restricting access to private modules.
 
-However, it’s important to remember that for Node.js to treat a module as an ES module, one of the following must happen: either the module’s file extension must convert from `.js` (for CommonJS) to `.mjs` (for ES modules) or we must set a `{"type":` `"module"}` field in the nearest <FontIcon icon="iconfont icon-json"/>`package.json` file.
+However, it’s important to remember that for Node.js to treat a module as an ES module, one of the following must happen: either the module’s file extension must convert from `.js` (for CommonJS) to `.mjs` (for ES modules) or we must set a `{"type":` `"module"}` field in the nearest <VPIcon icon="iconfont icon-json"/>`package.json` file.
 
 In this case, all code in that package will be treated as ES modules and the `import`/`export` statements should be used instead of `require`.
 

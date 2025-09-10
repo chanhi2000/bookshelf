@@ -94,7 +94,7 @@ Python lambdas are little, anonymous functions, subject to a more restrictive bu
 
 ::: tip Free Download
 
-[<FontIcon icon="fas fa-globe"/>Get a sample chapter from Python Tricks: The Book](https://realpython.com/bonus/python-tricks-sample-pdf/) that shows you Python’s best practices with simple examples you can apply instantly to write more beautiful + Pythonic code.
+[<VPIcon icon="fas fa-globe"/>Get a sample chapter from Python Tricks: The Book](https://realpython.com/bonus/python-tricks-sample-pdf/) that shows you Python’s best practices with simple examples you can apply instantly to write more beautiful + Pythonic code.
 
 <SiteInfo
   name="Python Tricks: The Book - Free Sample Chapter (PDF) - Real Python"
@@ -113,19 +113,19 @@ Lambda expressions in Python and other programming languages have their roots in
 
 ### History
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church) formalized [<FontIcon icon="fa-brands fa-wikipedia-w"/>lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), a language based on pure abstraction, in the 1930s. Lambda functions are also referred to as lambda abstractions, a direct reference to the abstraction model of Alonzo Church’s original creation.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church) formalized [<VPIcon icon="fa-brands fa-wikipedia-w"/>lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus), a language based on pure abstraction, in the 1930s. Lambda functions are also referred to as lambda abstractions, a direct reference to the abstraction model of Alonzo Church’s original creation.
 
-Lambda calculus can encode any computation. It is [<FontIcon icon="fa-brands fa-wikipedia-w"/>Turing complete](https://simple.wikipedia.org/wiki/Turing_complete), but contrary to the concept of a [<FontIcon icon="fa-brands fa-wikipedia-w"/>Turing machine](https://en.wikipedia.org/wiki/Turing_machine), it is pure and does not keep any state.
+Lambda calculus can encode any computation. It is [<VPIcon icon="fa-brands fa-wikipedia-w"/>Turing complete](https://simple.wikipedia.org/wiki/Turing_complete), but contrary to the concept of a [<VPIcon icon="fa-brands fa-wikipedia-w"/>Turing machine](https://en.wikipedia.org/wiki/Turing_machine), it is pure and does not keep any state.
 
-[**Functional**](/realpython.com/python-functional-programming.md) languages get their origin in mathematical logic and lambda calculus, while imperative programming languages embrace the state-based model of computation invented by Alan Turing. The two models of computation, lambda calculus and [<FontIcon icon="fa-brands fa-wikipedia-w"/>Turing machines](https://en.wikipedia.org/wiki/Turing_machine), can be translated into each another. This equivalence is known as the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Church-Turing hypothesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis).
+[**Functional**](/realpython.com/python-functional-programming.md) languages get their origin in mathematical logic and lambda calculus, while imperative programming languages embrace the state-based model of computation invented by Alan Turing. The two models of computation, lambda calculus and [<VPIcon icon="fa-brands fa-wikipedia-w"/>Turing machines](https://en.wikipedia.org/wiki/Turing_machine), can be translated into each another. This equivalence is known as the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Church-Turing hypothesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis).
 
-Functional languages directly inherit the lambda calculus philosophy, adopting a declarative approach of programming that emphasizes abstraction, data transformation, composition, and purity (no state and no side effects). Examples of functional languages include [<FontIcon icon="iconfont icon-haskell"/>Haskell](https://haskell.org/), [<FontIcon icon="fa-brands fa-wikipedia-w"/>Lisp](https://en.wikipedia.org/wiki/Lisp_%28programming_language%29), or [<FontIcon icon="iconfont icon-erlang"/>Erlang](https://erlang.org/).
+Functional languages directly inherit the lambda calculus philosophy, adopting a declarative approach of programming that emphasizes abstraction, data transformation, composition, and purity (no state and no side effects). Examples of functional languages include [<VPIcon icon="iconfont icon-haskell"/>Haskell](https://haskell.org/), [<VPIcon icon="fa-brands fa-wikipedia-w"/>Lisp](https://en.wikipedia.org/wiki/Lisp_%28programming_language%29), or [<VPIcon icon="iconfont icon-erlang"/>Erlang](https://erlang.org/).
 
-By contrast, the Turing Machine led to imperative programming found in languages like [<FontIcon icon="fa-brands fa-wikipedia-w"/>Fortran](https://en.wikipedia.org/wiki/Fortran), [<FontIcon icon="iconfont icon-c"/>C](https://en.wikipedia.org/wiki/C_%28programming_language%29), or [<FontIcon icon="fa-brands fa-python"/>Python](https://python.org/).
+By contrast, the Turing Machine led to imperative programming found in languages like [<VPIcon icon="fa-brands fa-wikipedia-w"/>Fortran](https://en.wikipedia.org/wiki/Fortran), [<VPIcon icon="iconfont icon-c"/>C](https://en.wikipedia.org/wiki/C_%28programming_language%29), or [<VPIcon icon="fa-brands fa-python"/>Python](https://python.org/).
 
 The imperative style consists of programming with statements, driving the flow of the program step by step with detailed instructions. This approach promotes mutation and requires managing state.
 
-The separation in both families presents some nuances, as some functional languages incorporate imperative features, like [OCaml](https://ocaml.org/), while functional features have been permeating the imperative family of languages in particular with the introduction of lambda functions in [<FontIcon icon="fa-brands fa-wikipedia-w"/>Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29), or Python.
+The separation in both families presents some nuances, as some functional languages incorporate imperative features, like [OCaml](https://ocaml.org/), while functional features have been permeating the imperative family of languages in particular with the introduction of lambda functions in [<VPIcon icon="fa-brands fa-wikipedia-w"/>Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29), or Python.
 
 Python is not inherently a functional language, but it adopted some functional concepts early on. In January 1994, [**`map()`**](https://realpython.com/python-map-function.md), [**`filter()`**](/realpython.com/python-filter-function.md), `reduce()`, and the `lambda` operator were added to the language.
 
@@ -133,7 +133,7 @@ Python is not inherently a functional language, but it adopted some functional c
 
 Here are a few examples to give you an appetite for some Python code, functional style.
 
-The [<FontIcon icon="fa-brands fa-wikipedia-w"/>identity function](https://en.wikipedia.org/wiki/Identity_function), a function that returns its argument, is expressed with a standard Python function definition using the [**keyword**](/realpython.com/python-keywords.md) `def` as follows:
+The [<VPIcon icon="fa-brands fa-wikipedia-w"/>identity function](https://en.wikipedia.org/wiki/Identity_function), a function that returns its argument, is expressed with a standard Python function definition using the [**keyword**](/realpython.com/python-keywords.md) `def` as follows:
 
 ```py
 def identity(x):
@@ -176,7 +176,7 @@ You can apply the function above to an argument by surrounding the function and 
 # 3
 ```
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Reduction](https://en.wikipedia.org/wiki/Reduction_strategy_%28lambda_calculus%29) is a lambda calculus strategy to compute the value of the expression. In the current example, it consists of replacing the bound variable `x` with the argument `2`:
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Reduction](https://en.wikipedia.org/wiki/Reduction_strategy_%28lambda_calculus%29) is a lambda calculus strategy to compute the value of the expression. In the current example, it consists of replacing the bound variable `x` with the argument `2`:
 
 ```py
 (lambda x: x + 1)(2) = lambda 2: 2 + 1
@@ -251,9 +251,9 @@ In the interactive interpreter, the single underscore (`_`) is bound to the last
 
 :::
 
-In the example above, the `_` points to the lambda function. For more details about the usage of this special character in Python, check out [<FontIcon icon="fas fa-globe"/>The Meaning of Underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python).
+In the example above, the `_` points to the lambda function. For more details about the usage of this special character in Python, check out [<VPIcon icon="fas fa-globe"/>The Meaning of Underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python).
 
-Another pattern used in other languages like JavaScript is to immediately execute a Python lambda function. This is known as an **Immediately Invoked Function Expression** ([<FontIcon icon="fa-brands fa-firefox"/>IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE), pronounce “iffy”). Here’s an example:
+Another pattern used in other languages like JavaScript is to immediately execute a Python lambda function. This is known as an **Immediately Invoked Function Expression** ([<VPIcon icon="fa-brands fa-firefox"/>IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE), pronounce “iffy”). Here’s an example:
 
 ```py
 (lambda x, y: x + y)(2, 3)
@@ -266,7 +266,7 @@ Several examples in this tutorial use this format to highlight the anonymous asp
 
 Python does not encourage using immediately invoked lambda expressions. It simply results from a lambda expression being callable, unlike the body of a normal function.
 
-Lambda functions are frequently used with [<FontIcon icon="fa-brands fa-wikipedia-w"/>higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function), which take one or more functions as arguments or return one or more functions.
+Lambda functions are frequently used with [<VPIcon icon="fa-brands fa-wikipedia-w"/>higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function), which take one or more functions as arguments or return one or more functions.
 
 A lambda function can be a higher-order function by taking a function (normal or lambda) as an argument like in the following contrived example:
 
@@ -286,11 +286,11 @@ Python exposes higher-order functions as built-in functions or in the standard l
 
 ## Python Lambda and Regular Functions
 
-This quote from the [<FontIcon icon="fa-brands fa-python"/>Python Design and History FAQ](https://docs.python.org/3/faq/design.html) seems to set the tone about the overall expectation regarding the usage of lambda functions in Python:
+This quote from the [<VPIcon icon="fa-brands fa-python"/>Python Design and History FAQ](https://docs.python.org/3/faq/design.html) seems to set the tone about the overall expectation regarding the usage of lambda functions in Python:
 
 ::: info
 
-Unlike lambda forms in other languages, where they add functionality, Python lambdas are only a shorthand notation if you’re too lazy to define a function. ([<FontIcon icon="fa-brands fa-python"/>Source](https://docs.python.org/3/faq/design.html#why-can-t-lambda-expressions-contain-statements))
+Unlike lambda forms in other languages, where they add functionality, Python lambdas are only a shorthand notation if you’re too lazy to define a function. ([<VPIcon icon="fa-brands fa-python"/>Source](https://docs.python.org/3/faq/design.html#why-can-t-lambda-expressions-contain-statements))
 
 <SiteInfo
   name="Design and History FAQ"
@@ -301,13 +301,13 @@ Unlike lambda forms in other languages, where they add functionality, Python lam
 
 :::
 
-Nevertheless, don’t let this statement deter you from using Python’s `lambda`. At first glance, you may accept that a lambda function is a function with some [<FontIcon icon="fa-brands fa-wikipedia-w"/>syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar) shortening the code to define or invoke a function. The following sections highlight the commonalities and subtle differences between normal Python functions and lambda functions.
+Nevertheless, don’t let this statement deter you from using Python’s `lambda`. At first glance, you may accept that a lambda function is a function with some [<VPIcon icon="fa-brands fa-wikipedia-w"/>syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar) shortening the code to define or invoke a function. The following sections highlight the commonalities and subtle differences between normal Python functions and lambda functions.
 
 ### Functions
 
 At this point, you may wonder what fundamentally distinguishes a lambda function bound to a variable from a regular function with a single `return` line: under the surface, almost nothing. Let’s verify how Python sees a function built with a single [**return statement**](/realpython.com/python-return-statement.md) versus a function constructed as an expression (`lambda`).
 
-The [<FontIcon icon="fa-brands fa-python"/>`dis`](https://docs.python.org/3/library/dis.html) module exposes functions to analyze Python bytecode generated by the Python compiler:
+The [<VPIcon icon="fa-brands fa-python"/>`dis`](https://docs.python.org/3/library/dis.html) module exposes functions to analyze Python bytecode generated by the Python compiler:
 
 ```py
 import dis
@@ -423,7 +423,7 @@ def full_name(first: str, last: str) -> str:
     return f'{first.title()} {last.title()}'
 ```
 
-Any type error with `full_name()` can be caught by tools like [<FontIcon icon="fas fa-globe"/>`mypy`](http://mypy-lang.org/) or [<FontIcon icon="fas fa-globe"/>`pyre`](https://pyre-check.org/), whereas a `SyntaxError` with the equivalent lambda function is raised at runtime:
+Any type error with `full_name()` can be caught by tools like [<VPIcon icon="fas fa-globe"/>`mypy`](http://mypy-lang.org/) or [<VPIcon icon="fas fa-globe"/>`pyre`](https://pyre-check.org/), whereas a `SyntaxError` with the equivalent lambda function is raised at runtime:
 
 ```py
 lambda first: str, last: str: first.title() + " " + last.title() -> str
@@ -438,7 +438,7 @@ Like trying to include a statement in a lambda, adding type annotation immediate
 
 #### IIFE
 
-You’ve already seen several examples of [<FontIcon icon="fa-brands fa-firefox"/>immediately invoked function execution](https://developer.mozilla.org/en-US/docs/Glossary/IIFE):
+You’ve already seen several examples of [<VPIcon icon="fa-brands fa-firefox"/>immediately invoked function execution](https://developer.mozilla.org/en-US/docs/Glossary/IIFE):
 
 ```py
 (lambda x: x * x)(3)
@@ -483,7 +483,7 @@ The following examples illustrate options open to you in order to pass arguments
 
 ### Decorators
 
-In Python, a [<FontIcon icon="fa-brands fa-python"/>decorator](https://python.org/dev/peps/pep-0318/) is the implementation of a pattern that allows adding a behavior to a function or a class. It is usually expressed with the `@decorator` syntax prefixing a function. Here’s a contrived example:
+In Python, a [<VPIcon icon="fa-brands fa-python"/>decorator](https://python.org/dev/peps/pep-0318/) is the implementation of a pattern that allows adding a behavior to a function or a class. It is usually expressed with the `@decorator` syntax prefixing a function. Here’s a contrived example:
 
 ```py
 def some_decorator(f):
@@ -558,13 +558,13 @@ The result `[0, 2, 4]` is a [**list**](/realpython.com/python-lists-tuples.md) o
 
 You will be exposed to `map()` in more details in [Map](#map).
 
-A lambda can also be a decorator, but it’s not recommended. If you find yourself needing to do this, consult [<FontIcon icon="fa-brands fa-python"/>PEP 8, Programming Recommendations](https://python.org/dev/peps/pep-0008/#programming-recommendations).
+A lambda can also be a decorator, but it’s not recommended. If you find yourself needing to do this, consult [<VPIcon icon="fa-brands fa-python"/>PEP 8, Programming Recommendations](https://python.org/dev/peps/pep-0008/#programming-recommendations).
 
 For more on Python decorators, check out [**Primer on Python Decorators**](/realpython.com/primer-on-python-decorators.md).
 
 ### Closure
 
-A [<FontIcon icon="fa-brands fa-wikipedia-w"/>closure](https://en.wikipedia.org/wiki/Closure_%28computer_programming%29) is a function where every free variable, everything except parameters, used in that function is bound to a specific value defined in the enclosing scope of that function. In effect, closures define the environment in which they run, and so can be called from anywhere.
+A [<VPIcon icon="fa-brands fa-wikipedia-w"/>closure](https://en.wikipedia.org/wiki/Closure_%28computer_programming%29) is a function where every free variable, everything except parameters, used in that function is bound to a specific value defined in the enclosing scope of that function. In effect, closures define the environment in which they run, and so can be called from anywhere.
 
 The concepts of lambdas and closures are not necessarily related, although lambda functions can be closures in the same way that normal functions can also be closures. Some languages have special constructs for closure or lambda (for example, Groovy with an anonymous block of code as Closure object), or a lambda expression (for example, Java Lambda expression with a limited option for closure).
 
@@ -876,7 +876,7 @@ This is still not optimal but shows you a possible path to make code, and Python
 
 ### Python Classes
 
-You can but should not write [**class**](/realpython.com/python-classes.md) methods as Python lambda functions. The following example is perfectly legal Python code but exhibits unconventional Python code relying on `lambda`. For example, instead of implementing `__str__` as a regular function, it uses a `lambda`. Similarly, `brand` and `year` are [<FontIcon icon="fa-brands fa-python"/>properties](https://docs.python.org/3/library/functions.html#property) also implemented with lambda functions, instead of regular functions or decorators:
+You can but should not write [**class**](/realpython.com/python-classes.md) methods as Python lambda functions. The following example is perfectly legal Python code but exhibits unconventional Python code relying on `lambda`. For example, instead of implementing `__str__` as a regular function, it uses a `lambda`. Similarly, `brand` and `year` are [<VPIcon icon="fa-brands fa-python"/>properties](https://docs.python.org/3/library/functions.html#property) also implemented with lambda functions, instead of regular functions or decorators:
 
 ```py :collapsed-lines
 class Car:
@@ -896,7 +896,7 @@ class Car:
     honk = lambda self: print('Honk!')     # 2: error E731
 ```
 
-Running a tool like [<FontIcon icon="fas fa-globe"/>`flake8`](http://flake8.pycqa.org/), a style guide enforcement tool, will display the following errors for `__str__` and `honk`:
+Running a tool like [<VPIcon icon="fas fa-globe"/>`flake8`](http://flake8.pycqa.org/), a style guide enforcement tool, will display the following errors for `__str__` and `honk`:
 
 ```plaintext title="output"
 E731 do not assign a lambda expression, use a def
@@ -941,7 +941,7 @@ The following examples illustrate scenarios where the use of lambda functions is
 
 ### Classic Functional Constructs
 
-Lambda functions are regularly used with the built-in functions [<FontIcon icon="fa-brands fa-pyhthon"/>`map()`](https://docs.python.org/3/library/functions.html#map) and [<FontIcon icon="fa-brands fa-pyhthon"/>`filter()`](https://docs.python.org/3/library/functions.html#filter), as well as [<FontIcon icon="fa-brands fa-pyhthon"/>`functools.reduce()`](https://docs.python.org/3/library/functools.html?highlight=reduce#functools.reduce), exposed in the module [<FontIcon icon="fa-brands fa-pyhthon"/>`functools`](https://docs.python.org/3/library/functools.html). The following three examples are respective illustrations of using those functions with lambda expressions as companions:
+Lambda functions are regularly used with the built-in functions [<VPIcon icon="fa-brands fa-pyhthon"/>`map()`](https://docs.python.org/3/library/functions.html#map) and [<VPIcon icon="fa-brands fa-pyhthon"/>`filter()`](https://docs.python.org/3/library/functions.html#filter), as well as [<VPIcon icon="fa-brands fa-pyhthon"/>`functools.reduce()`](https://docs.python.org/3/library/functools.html?highlight=reduce#functools.reduce), exposed in the module [<VPIcon icon="fa-brands fa-pyhthon"/>`functools`](https://docs.python.org/3/library/functools.html). The following three examples are respective illustrations of using those functions with lambda expressions as companions:
 
 ```py
 list(map(lambda x: x.upper(), ['cat', 'dog', 'cow']))
@@ -982,7 +982,7 @@ print(sorted_ids)
 
 ### UI Frameworks
 
-UI frameworks like [**Tkinter**](/realpython.com/python-gui-tkinter.md), [<FontIcon icon="fas fa-globe"/>wxPython](https://wxpython.org/), or .NET Windows Forms with [<FontIcon icon="fas fa-globe"/>IronPython](https://ironpython.net/) take advantage of lambda functions for mapping actions in response to UI events.
+UI frameworks like [**Tkinter**](/realpython.com/python-gui-tkinter.md), [<VPIcon icon="fas fa-globe"/>wxPython](https://wxpython.org/), or .NET Windows Forms with [<VPIcon icon="fas fa-globe"/>IronPython](https://ironpython.net/) take advantage of lambda functions for mapping actions in response to UI events.
 
 The naive Tkinter program below demonstrates the usage of a `lambda` assigned to the command of the *Reverse* button:
 
@@ -1073,7 +1073,7 @@ def test_gen_token():
 test_gen_token()
 ```
 
-A context manager helps with insulating the operation of monkey patching a function from the standard library ([<FontIcon icon="fa-brands fa-python"/>`secrets`](https://docs.python.org/3/library/secrets.html#module-secrets), in this example). The lambda function assigned to `secrets.token_hex()` substitutes the default behavior by returning a static value.
+A context manager helps with insulating the operation of monkey patching a function from the standard library ([<VPIcon icon="fa-brands fa-python"/>`secrets`](https://docs.python.org/3/library/secrets.html#module-secrets), in this example). The lambda function assigned to `secrets.token_hex()` substitutes the default behavior by returning a static value.
 
 This allows testing any function depending on `token_hex()` in a predictable fashion. Prior to exiting from the context manager, the default behavior of `token_hex()` is reestablished to eliminate any unexpected side effects that would affect other areas of the testing that may depend on the default behavior of `token_hex()`.
 
@@ -1092,7 +1092,7 @@ def test_gen_token(monkeypatch):
     assert gen_token() == f"TOKEN_{'feedfacecafebeef'}"
 ```
 
-With the [<FontIcon icon="fas fa-globe"/>pytest `monkeypatch` fixture](https://docs.pytest.org/en/latest/monkeypatch.html), `secrets.token_hex()` is overwritten with a lambda that will return a deterministic value, `feedfacecafebeef`, allowing to validate the test. The pytest `monkeypatch` fixture allows you to control the scope of the override. In the example above, invoking `secrets.token_hex()` in subsequent tests, without using monkey patching, would execute the normal implementation of this function.
+With the [<VPIcon icon="fas fa-globe"/>pytest `monkeypatch` fixture](https://docs.pytest.org/en/latest/monkeypatch.html), `secrets.token_hex()` is overwritten with a lambda that will return a deterministic value, `feedfacecafebeef`, allowing to validate the test. The pytest `monkeypatch` fixture allows you to control the scope of the override. In the example above, invoking `secrets.token_hex()` in subsequent tests, without using monkey patching, would execute the normal implementation of this function.
 
 Executing the `pytest` test gives the following result:
 
@@ -1146,7 +1146,7 @@ Using a list comprehension eliminates the need for defining and invoking the lam
 
 ### Filter
 
-The built-in function `filter()`, another classic functional construct, can be converted into a list comprehension. It takes a [<FontIcon icon="fa-brands fa-wikipedia-w"/>predicate](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic)) as a first argument and an iterable as a second argument. It builds an iterator containing all the elements of the initial collection that satisfies the predicate function. Here’s an example that filters all the even numbers in a given list of integers:
+The built-in function `filter()`, another classic functional construct, can be converted into a list comprehension. It takes a [<VPIcon icon="fa-brands fa-wikipedia-w"/>predicate](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic)) as a first argument and an iterable as a second argument. It builds an iterator containing all the elements of the initial collection that satisfies the predicate function. Here’s an example that filters all the even numbers in a given list of integers:
 
 ```py
 even = lambda x: x%2 == 0
@@ -1179,7 +1179,7 @@ functools.reduce(lambda acc, pair: acc + pair[0], pairs, 0)
 # 6
 ```
 
-A more idiomatic approach using a [<FontIcon icon="fa-brands fa-python"/>generator expression](https://python.org/dev/peps/pep-0289/), as an argument to [**`sum()`**](/realpython.com/python-sum-function.md) in the example, is the following:
+A more idiomatic approach using a [<VPIcon icon="fa-brands fa-python"/>generator expression](https://python.org/dev/peps/pep-0289/), as an argument to [**`sum()`**](/realpython.com/python-sum-function.md) in the example, is the following:
 
 ```py
 pairs = [(1, 'a'), (2, 'b'), (3, 'c')]
@@ -1205,11 +1205,11 @@ The use of underscore (`_`) is a Python convention indicating that you can ignor
 
 ## Are Lambdas Pythonic or Not?
 
-[<FontIcon icon="fa-brands fa-python"/>PEP 8](https://python.org/dev/peps/pep-0008/), which is the style guide for Python code, reads:
+[<VPIcon icon="fa-brands fa-python"/>PEP 8](https://python.org/dev/peps/pep-0008/), which is the style guide for Python code, reads:
 
 ::: info
 
-Always use a `def` statement instead of an assignment statement that binds a lambda expression directly to an identifier. ([<FontIcon icon="fa-brands fa-python"/>Source](https://python.org/dev/peps/pep-0008/#programming-recommendations))
+Always use a `def` statement instead of an assignment statement that binds a lambda expression directly to an identifier. ([<VPIcon icon="fa-brands fa-python"/>Source](https://python.org/dev/peps/pep-0008/#programming-recommendations))
 
 <SiteInfo
   name="PEP 8 - Style Guide for Python Code | peps.python.org"
@@ -1237,7 +1237,7 @@ You now know how to use Python `lambda` functions and can:
 - Avoid excessive use of lambdas
 - Use lambdas with higher-order functions or Python key functions
 
-If you have a penchant for mathematics, you may have some fun exploring the fascinating world of [<FontIcon icon="fa-brands fa-wikipedia-w"/>lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus).
+If you have a penchant for mathematics, you may have some fun exploring the fascinating world of [<VPIcon icon="fa-brands fa-wikipedia-w"/>lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus).
 
 Python lambdas are like salt. A pinch in your spam, ham, and eggs will enhance the flavors, but too much will spoil the dish.
 
@@ -1256,7 +1256,7 @@ Python lambdas are little, anonymous functions, subject to a more restrictive bu
 
 ::: note
 
-The Python programming language, named after Monty Python, prefers to use [<FontIcon icon="fa-brands fa-wikipedia-w"/>`spam`](https://en.wikipedia.org/wiki/Spam_%28Monty_Python%29), `ham`, and `eggs` as metasyntactic variables, instead of the traditional `foo`, `bar`, and `baz`.
+The Python programming language, named after Monty Python, prefers to use [<VPIcon icon="fa-brands fa-wikipedia-w"/>`spam`](https://en.wikipedia.org/wiki/Spam_%28Monty_Python%29), `ham`, and `eggs` as metasyntactic variables, instead of the traditional `foo`, `bar`, and `baz`.
 
 :::
 

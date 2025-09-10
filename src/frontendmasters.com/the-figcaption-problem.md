@@ -85,7 +85,7 @@ For the most part I chalked it up as a design decision that had kind of a cool l
 
 There is a proper solution here.
 
-Jeff was smart enough to [<FontIcon icon="fas fa-globe"/>blog the entire conversation and solutions that came out of his post](https://jeffbridgforth.com/having-figure-match-width-of-contained-image/). And frankly he did a good job and this blog post probably isn’t entirely necessary. But hey if it helps more people when they run into this, that’s cool.
+Jeff was smart enough to [<VPIcon icon="fas fa-globe"/>blog the entire conversation and solutions that came out of his post](https://jeffbridgforth.com/having-figure-match-width-of-contained-image/). And frankly he did a good job and this blog post probably isn’t entirely necessary. But hey if it helps more people when they run into this, that’s cool.
 
 Allow me to jump straight to the end and showcase the best solution, by Stephanie Eckles:
 
@@ -198,7 +198,7 @@ figcaption {
 
 ## Video
 
-While I was wrapping my mind around all this, I [popped on a stream (<FontIcon icon="fa-brands fa-twitch"/>chriscoyier)](https://twitch.tv/chriscoyier) to do it. This isn’t like a straightforward tutorial, it’s the exploratory poking around and trying stuff that lead to my own better understanding (and the demos and this blog post).
+While I was wrapping my mind around all this, I [popped on a stream (<VPIcon icon="fa-brands fa-twitch"/>chriscoyier)](https://twitch.tv/chriscoyier) to do it. This isn’t like a straightforward tutorial, it’s the exploratory poking around and trying stuff that lead to my own better understanding (and the demos and this blog post).
 
 <VidStack src="youtube/Tsumy1v3zk4" />
 

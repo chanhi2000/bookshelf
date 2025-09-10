@@ -68,9 +68,9 @@ In this tutorial, we’ll explain the difference between controlled and uncontro
 
 ## What are controlled components in React?
 
-[<FontIcon icon="fas fa-globe"/>Controlled components](https://itnext.io/controlled-vs-uncontrolled-components-in-react-5cd13b2075f9) in React are those in which form data is handled by the component’s state.
+[<VPIcon icon="fas fa-globe"/>Controlled components](https://itnext.io/controlled-vs-uncontrolled-components-in-react-5cd13b2075f9) in React are those in which form data is handled by the component’s state.
 
-[<FontIcon icon="fa-brands fa-react"/>Forms](https://reactjs.org/docs/forms.html#controlled-components) are used to store information in a document section. The information from this form is typically sent to a server to perform an action. This data is held by form input elements and control elements, such as `input`, `select`, `textarea`, etc., which maintain and control their states or values.
+[<VPIcon icon="fa-brands fa-react"/>Forms](https://reactjs.org/docs/forms.html#controlled-components) are used to store information in a document section. The information from this form is typically sent to a server to perform an action. This data is held by form input elements and control elements, such as `input`, `select`, `textarea`, etc., which maintain and control their states or values.
 
 What do I mean by that?
 
@@ -125,7 +125,7 @@ The drawback to using controlled components is that the number of states in a co
 
 ## What are uncontrolled components in React?
 
-[<FontIcon icon="fa-brands fa-react"/>Uncontrolled components](https://reactjs.org/docs/uncontrolled-components.html) are those for which the form data is handled by the DOM itself. “Uncontrolled” refers to the fact that these components are not controlled by React state.
+[<VPIcon icon="fa-brands fa-react"/>Uncontrolled components](https://reactjs.org/docs/uncontrolled-components.html) are those for which the form data is handled by the DOM itself. “Uncontrolled” refers to the fact that these components are not controlled by React state.
 
 The values of the form elements are traditionally controlled by and stored on the DOM. We will have to refer to the instance of the form elements to retrieve their values from the DOM.
 
@@ -170,7 +170,7 @@ function App() {
 }
 ```
 
-We created two [<FontIcon icon="fa-brands fa-react"/>React `refs`](https://reactjs.org/docs/refs-and-the-dom.html), `nameRef` and `emailRef`, and assigned them to the `ref` attributes of `name` and `email` inputs, respectively. This will cause the `refs` to hold the `HTMLElement` instances of the elements in their `.current` property. From `.current`, we can reference the `.value` property to get the values of the input elements.
+We created two [<VPIcon icon="fa-brands fa-react"/>React `refs`](https://reactjs.org/docs/refs-and-the-dom.html), `nameRef` and `emailRef`, and assigned them to the `ref` attributes of `name` and `email` inputs, respectively. This will cause the `refs` to hold the `HTMLElement` instances of the elements in their `.current` property. From `.current`, we can reference the `.value` property to get the values of the input elements.
 
 ---
 

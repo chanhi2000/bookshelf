@@ -63,11 +63,11 @@ The most important component of your JupyterLab installation is its kernel. As y
 
 ![jupyterlab kernel button](https://files.realpython.com/media/ie-kernel-button_CR.fb1d9e50fb48.png)
 
-When you click the button, you start an instance of the **JupyterLab kernel**. This is a process that links your file to a **console**. The file can be any that contains code such as a notebook, a Python file, a Markdown file, or even a text file. The [<FontIcon icon="iconfont icon-jupyter"/>kernel](https://docs.jupyter.org/en/latest/glossary.html#term-kernel) passes the programming code from the file to the [<FontIcon icon="iconfont icon-jupyter"/>console](https://docs.jupyter.org/en/latest/glossary.html#term-console). The console then runs the code and displays any output. In the case of a Jupyter Notebook, output gets displayed in the notebook itself.
+When you click the button, you start an instance of the **JupyterLab kernel**. This is a process that links your file to a **console**. The file can be any that contains code such as a notebook, a Python file, a Markdown file, or even a text file. The [<VPIcon icon="iconfont icon-jupyter"/>kernel](https://docs.jupyter.org/en/latest/glossary.html#term-kernel) passes the programming code from the file to the [<VPIcon icon="iconfont icon-jupyter"/>console](https://docs.jupyter.org/en/latest/glossary.html#term-console). The console then runs the code and displays any output. In the case of a Jupyter Notebook, output gets displayed in the notebook itself.
 
 ::: note
 
-Anytime you read about kernels in the context of JupyterLab, it means a process that links a file to a console. In computing, the word [<FontIcon icon="fa-brands fa-wikipedia-w"/>kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) usually refers to the core of your computer's operating system that allows it to interact with hardware. This has nothing to do with the kernels that you'll use here, so don't confuse these different meanings.
+Anytime you read about kernels in the context of JupyterLab, it means a process that links a file to a console. In computing, the word [<VPIcon icon="fa-brands fa-wikipedia-w"/>kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) usually refers to the core of your computer's operating system that allows it to interact with hardware. This has nothing to do with the kernels that you'll use here, so don't confuse these different meanings.
 
 :::
 
@@ -77,9 +77,9 @@ Opening a Jupyter Notebook automatically opens a kernel for it. This is why you 
 
 If you look carefully at the output, then you'll see from the top part there are five open tabs:
 
-- <FontIcon icon="iconfont icon-jupyter"/>`Untitled8.ipynb`, a Jupyter Notebook that has been assigned automatically to a kernel.
+- <VPIcon icon="iconfont icon-jupyter"/>`Untitled8.ipynb`, a Jupyter Notebook that has been assigned automatically to a kernel.
 - `Console5`, a console that has been automatically assigned to a kernel.
-- The <FontIcon icon="fa-brands fa-markdown"/>`untitled4.md` file, which has no kernel assigned to it. This Markdown file can contain code, but you won't be able to run it.
-- The <FontIcon icon="fa-brands fa-markdown"/>`untitled5.md` file, which has had a console assigned to it and therefore also has a kernel assigned to it. You could run code contained within this Markdown file.
+- The <VPIcon icon="fa-brands fa-markdown"/>`untitled4.md` file, which has no kernel assigned to it. This Markdown file can contain code, but you won't be able to run it.
+- The <VPIcon icon="fa-brands fa-markdown"/>`untitled5.md` file, which has had a console assigned to it and therefore also has a kernel assigned to it. You could run code contained within this Markdown file.
 
 As you work through the rest of this tutorial, you'll see how important the kernel is.

@@ -68,9 +68,9 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_140.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_140.png"/>
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) (EDA) can make applications more flexible and reliable. Instead of one part of the system calling another directly, we let events flow through a message broker. In this quick guide, I'll show you how to set up a simple event-driven system in .NET using [<FontIcon icon="iconfont icon-rabbitmq"/>RabbitMQ](https://rabbitmq.com/).
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) (EDA) can make applications more flexible and reliable. Instead of one part of the system calling another directly, we let events flow through a message broker. In this quick guide, I'll show you how to set up a simple event-driven system in .NET using [<VPIcon icon="iconfont icon-rabbitmq"/>RabbitMQ](https://rabbitmq.com/).
 
-We'll build a small example with a producer that sends events and a consumer that receives them. For testing, I'll run RabbitMQ in a Docker container (with the Management UI enabled so we can see what's happening). We'll use the official [<FontIcon icon="fas fa-globe"/>RabbitMQ.Client](https://nuget.org/packages/rabbitmq.client/) NuGet package in a .NET console app.
+We'll build a small example with a producer that sends events and a consumer that receives them. For testing, I'll run RabbitMQ in a Docker container (with the Management UI enabled so we can see what's happening). We'll use the official [<VPIcon icon="fas fa-globe"/>RabbitMQ.Client](https://nuget.org/packages/rabbitmq.client/) NuGet package in a .NET console app.
 
 Note: If you don't have RabbitMQ installed, you can run it quickly with Docker. For example:
 

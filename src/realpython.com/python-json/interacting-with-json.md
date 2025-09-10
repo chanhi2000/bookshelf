@@ -145,7 +145,7 @@ with open("dog_friend.json", mode="w", encoding="utf-8") as write_file:
     json.dump(dog_friend, write_file, indent=4)
 ```
 
-When you set the indentation level when serializing JSON data, then you end up with prettified JSON data. Have a look at how the <FontIcon icon="iconfont icon-json"/>`dog_friend.json` file looks in your editor:
+When you set the indentation level when serializing JSON data, then you end up with prettified JSON data. Have a look at how the <VPIcon icon="iconfont icon-json"/>`dog_friend.json` file looks in your editor:
 
 ![Formatted JSON code](https://files.realpython.com/media/json-indented.faca531e903f.png)
 
@@ -157,7 +157,7 @@ Python can work with JSON files no matter how they’re indented. As a human, yo
 
 The convenience of being able to edit JSON data in the editor comes with a risk. When you move key-value pairs around or add strings with one quote instead of two, you end up with an invalid JSON.
 
-To swiftly check if a JSON file is valid, you can leverage Python’s `json.tool`. You can run the `json.tool` module as an executable in the terminal using the `-m` switch. To see `json.tool` in action, also provide <FontIcon icon="iconfont icon-json"/>`dog_friend.json` as the `infile` positional argument:
+To swiftly check if a JSON file is valid, you can leverage Python’s `json.tool`. You can run the `json.tool` module as an executable in the terminal using the `-m` switch. To see `json.tool` in action, also provide <VPIcon icon="iconfont icon-json"/>`dog_friend.json` as the `infile` positional argument:
 
 ```sh
 python -m json.tool dog_friend.json
@@ -168,11 +168,11 @@ python -m json.tool dog_friend.json
 # }
 ```
 
-When you run `json.tool` only with an `infile` option, then Python validates the JSON file and outputs the JSON file’s content in the terminal if the JSON is valid. Running `json.tool` in the example above means that <FontIcon icon="iconfont icon-json"/>`dog_friend.json` contains valid JSON syntax.
+When you run `json.tool` only with an `infile` option, then Python validates the JSON file and outputs the JSON file’s content in the terminal if the JSON is valid. Running `json.tool` in the example above means that <VPIcon icon="iconfont icon-json"/>`dog_friend.json` contains valid JSON syntax.
 
 **Note:** The `json.tool` prints the JSON data with an indentation of 4 by default. You’ll explore this behavior in the next section.
 
-To make `json.tool` complain, you need to invalidate your JSON document. You can make the JSON data of <FontIcon icon="iconfont icon-json"/>`dog_friend.json` invalid by removing the comma (`,`) between the key-value pairs:
+To make `json.tool` complain, you need to invalidate your JSON document. You can make the JSON data of <VPIcon icon="iconfont icon-json"/>`dog_friend.json` invalid by removing the comma (`,`) between the key-value pairs:
 
 ```json{2} title="dog_friend.json"
 {
@@ -181,7 +181,7 @@ To make `json.tool` complain, you need to invalidate your JSON document. You can
 }
 ```
 
-After saving <FontIcon icon="iconfont icon-json"/>`dog_friend.json`, run `json.tool` again to validate the file:
+After saving <VPIcon icon="iconfont icon-json"/>`dog_friend.json`, run `json.tool` again to validate the file:
 
 ```sh
 python -m json.tool dog_friend.json
@@ -189,9 +189,9 @@ python -m json.tool dog_friend.json
 # Expecting ',' delimiter: line 3 column 5 (char 26)
 ```
 
-The `json.tool` module successfully stumbles over the missing comma in <FontIcon icon="iconfont icon-json"/>`dog_friend.json`. Python notices that there’s a delimiter missing once the `"age"` property name enclosed in double quotes starts in line 3 at position 5. Go ahead and try fixing the JSON file again. You can also be creative with invalidating <FontIcon icon="iconfont icon-json"/>`dog_friend.json` and check how `json.tool` reports your error. But keep in mind that `json.tool` only reports the first error. So you may need to go back and forth between fixing a JSON file and running `json.tool`.
+The `json.tool` module successfully stumbles over the missing comma in <VPIcon icon="iconfont icon-json"/>`dog_friend.json`. Python notices that there’s a delimiter missing once the `"age"` property name enclosed in double quotes starts in line 3 at position 5. Go ahead and try fixing the JSON file again. You can also be creative with invalidating <VPIcon icon="iconfont icon-json"/>`dog_friend.json` and check how `json.tool` reports your error. But keep in mind that `json.tool` only reports the first error. So you may need to go back and forth between fixing a JSON file and running `json.tool`.
 
-Once <FontIcon icon="iconfont icon-json"/>`dog_friend.json` is valid, you may notice that the output always looks the same. Of course, like any well-made [**command-line interface**](/realpython.com/command-line-interfaces-python-argparse.md), `json.tool` offers you some options to control the program.
+Once <VPIcon icon="iconfont icon-json"/>`dog_friend.json` is valid, you may notice that the output always looks the same. Of course, like any well-made [**command-line interface**](/realpython.com/command-line-interfaces-python-argparse.md), `json.tool` offers you some options to control the program.
 
 ---
 
@@ -199,9 +199,9 @@ Once <FontIcon icon="iconfont icon-json"/>`dog_friend.json` is valid, you may no
 
 In the previous section, you used `json.tool` to validate a JSON file. When the JSON syntax was valid, `json.tool` showed the content with newlines and an indentation of four spaces. To control how `json.tool` prints the JSON, you can set the `--indent` option.
 
-If you followed along with the tutorial, then you’ve got a <FontIcon icon="iconfont icon-json"/>`hello_frieda.json` file that doesn’t contain newlines or indentation.
+If you followed along with the tutorial, then you’ve got a <VPIcon icon="iconfont icon-json"/>`hello_frieda.json` file that doesn’t contain newlines or indentation.
 
-When you pass in <FontIcon icon="iconfont icon-json"/>`hello_frieda.json` to `json.tool`, then you can pretty print the content of the JSON file in your terminal. When you set `--indent`, then you can control which indentation level `json.tool` uses to display the code:
+When you pass in <VPIcon icon="iconfont icon-json"/>`hello_frieda.json` to `json.tool`, then you can pretty print the content of the JSON file in your terminal. When you set `--indent`, then you can control which indentation level `json.tool` uses to display the code:
 
 ```sh :collapsed-lines
 python -m json.tool hello_frieda.json --indent 2
@@ -244,13 +244,13 @@ python -m json.tool hello_frieda.json --indent 2
 
 Seeing the prettified JSON data in the terminal is nifty. But you can step up your game even more by providing another option to the `json.tool` run!
 
-By default, `json.tool` writes the output to [<FontIcon icon="fa-brands fa-python"/>`sys.stdout`](https://docs.python.org/3/library/sys.html#sys.stdout), just like you commonly do when calling the [**`print()` function**](/realpython.com/python-print/README.md). But you can also redirect the output of `json.tool` into a file by providing a positional `outfile` argument:
+By default, `json.tool` writes the output to [<VPIcon icon="fa-brands fa-python"/>`sys.stdout`](https://docs.python.org/3/library/sys.html#sys.stdout), just like you commonly do when calling the [**`print()` function**](/realpython.com/python-print/README.md). But you can also redirect the output of `json.tool` into a file by providing a positional `outfile` argument:
 
 ```sh
 python -m json.tool hello_frieda.json pretty_frieda.json
 ```
 
-With <FontIcon icon="iconfont icon-json"/>`pretty_frieda.json` as the value of the `outfile` option, you write the output into the JSON file instead of showing the content in the terminal. If the file doesn’t exist yet, then Python creates the file on the way. If the target file already exists, then you overwrite the file with the new content.
+With <VPIcon icon="iconfont icon-json"/>`pretty_frieda.json` as the value of the `outfile` option, you write the output into the JSON file instead of showing the content in the terminal. If the file doesn’t exist yet, then Python creates the file on the way. If the target file already exists, then you overwrite the file with the new content.
 
 ::: note
 
@@ -258,7 +258,7 @@ You can prettify a JSON file in place by using the same file as `infile` and `ou
 
 :::
 
-You can verify that the <FontIcon icon="iconfont icon-json"/>`pretty_frieda.json` file exists by running the `ls` [**terminal command**](/realpython.com/terminal-commands.md):
+You can verify that the <VPIcon icon="iconfont icon-json"/>`pretty_frieda.json` file exists by running the `ls` [**terminal command**](/realpython.com/terminal-commands.md):
 
 ```sh{6,9}
 ls -al
@@ -272,7 +272,7 @@ ls -al
 # -rw-r--r--@  1 realpython  staff   594 Jul  3 19:45 pretty_frieda.json
 ```
 
-The whitespace you added to <FontIcon icon="iconfont icon-json"/>`pretty_frieda.json` comes with a price. Compared to the original, unindented <FontIcon icon="iconfont icon-json"/>`hello_frieda.json` file, the file size of <FontIcon icon="iconfont icon-json"/>`pretty_frieda.json` is now around double that. Here, the 308-byte increase may not be significant. But when you’re dealing with big JSON data, then a good-looking JSON file will take up quite a bit of space.
+The whitespace you added to <VPIcon icon="iconfont icon-json"/>`pretty_frieda.json` comes with a price. Compared to the original, unindented <VPIcon icon="iconfont icon-json"/>`hello_frieda.json` file, the file size of <VPIcon icon="iconfont icon-json"/>`pretty_frieda.json` is now around double that. Here, the 308-byte increase may not be significant. But when you’re dealing with big JSON data, then a good-looking JSON file will take up quite a bit of space.
 
 Having a small data footprint is especially useful when serving data over the web. Since the JSON format is the de facto standard for exchanging data over the web, it’s worth keeping the file size as small as possible. And again, Python’s `json.tool` has got your back!
 
@@ -293,7 +293,7 @@ python -m json.tool pretty_frieda.json mini_frieda.json --compact
 
 After calling the `json.tool` module, you provide a JSON file as the `infile` and another JSON file as the `outfile`. If the target JSON file exists, then you overwrite its contents. Otherwise, you create a new file with the filename you provide.
 
-Just like with `--indent`, you provide the same file as a source and target file to minify the file in-place. In the example above, you minify <FontIcon icon="iconfont icon-json"/>`pretty_frieda.json` into <FontIcon icon="iconfont icon-json"/>`mini_frieda.json`. Run the `ls` command to see how many bytes you squeezed out of the original JSON file:
+Just like with `--indent`, you provide the same file as a source and target file to minify the file in-place. In the example above, you minify <VPIcon icon="iconfont icon-json"/>`pretty_frieda.json` into <VPIcon icon="iconfont icon-json"/>`mini_frieda.json`. Run the `ls` command to see how many bytes you squeezed out of the original JSON file:
 
 ```sh{9-10}
 ls -al
@@ -308,9 +308,9 @@ ls -al
 # -rw-r--r--@  1 realpython  staff   594 Jul  3 19:45 pretty_frieda.json
 ```
 
-Compared to <FontIcon icon="iconfont icon-json"/>`pretty_frieda.json`, the file size of <FontIcon icon="iconfont icon-json"/>`mini_frieda.json` is 337 bytes smaller. That’s even 29 bytes less than the original <FontIcon icon="iconfont icon-json"/>`hello_frieda.json` file that didn’t contain any indentation.
+Compared to <VPIcon icon="iconfont icon-json"/>`pretty_frieda.json`, the file size of <VPIcon icon="iconfont icon-json"/>`mini_frieda.json` is 337 bytes smaller. That’s even 29 bytes less than the original <VPIcon icon="iconfont icon-json"/>`hello_frieda.json` file that didn’t contain any indentation.
 
-To investigate where Python managed to remove even more whitespace from the original JSON, open the Python REPL again and minify the content of the original <FontIcon icon="iconfont icon-json"/>`hello_frieda.json` file with Python’s `json` module:
+To investigate where Python managed to remove even more whitespace from the original JSON, open the Python REPL again and minify the content of the original <VPIcon icon="iconfont icon-json"/>`hello_frieda.json` file with Python’s `json` module:
 
 ```py
 import json
@@ -324,9 +324,9 @@ with open("mini_frieda.json", mode="w", encoding="utf-8") as output_file:
 
 ```
 
-In the code above, you use Python’s `.read()` to get the content of <FontIcon icon="iconfont icon-json"/>`hello_frieda.json` as text. Then, you use `json.loads()` to deserialize `original_json` to `json_data`, which is a Python dictionary. You could use `json.load()` to get a Python dictionary right away, but you need the JSON data as a string first to compare it properly.
+In the code above, you use Python’s `.read()` to get the content of <VPIcon icon="iconfont icon-json"/>`hello_frieda.json` as text. Then, you use `json.loads()` to deserialize `original_json` to `json_data`, which is a Python dictionary. You could use `json.load()` to get a Python dictionary right away, but you need the JSON data as a string first to compare it properly.
 
-That’s also why you use `json.dumps()` to create `mini_json` and then use `.write()` instead of leveraging `json.dump()` directly to save the minified JSON data in <FontIcon icon="iconfont icon-json"/>`mini_frieda.json`.
+That’s also why you use `json.dumps()` to create `mini_json` and then use `.write()` instead of leveraging `json.dump()` directly to save the minified JSON data in <VPIcon icon="iconfont icon-json"/>`mini_frieda.json`.
 
 As you learned before, `json.dumps` needs JSON data as the first argument and then accepts a value for the indentation. The default value for `indent` is `None`, so you could skip setting the argument explicitly like you do above. But with `indent=None`, you’re making your intention clear that you don’t want any indentation, which will be a good thing for others who read your code later.
 

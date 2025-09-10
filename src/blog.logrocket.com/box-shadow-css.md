@@ -58,8 +58,8 @@ In this article, we’ll take a deep dive into the `box-shadow` property. We’l
 
 ::: info Update history
 
-- _**19 February 2025**: Updated by [<FontIcon icon="fas fa-globe"/>Abiola Farounbi](https://blog.logrocket.com/author/abiolafarounbi/) to add detailed syntax definitions, a browser compatibility table, visual CSS shadow examples, and an inline box-shadow generator tool_
-- _**4 November 2024**: Updated by [<FontIcon icon="fas fa-globe"/>Rahul Chhodde](https://blog.logrocket.com/author/rahulchhodde/)to address recent CSS developments that impact the use of the `box-shadow`property, including the View Transitions API, native CSS nesting, and the CSS `@layer` rule_
+- _**19 February 2025**: Updated by [<VPIcon icon="fas fa-globe"/>Abiola Farounbi](https://blog.logrocket.com/author/abiolafarounbi/) to add detailed syntax definitions, a browser compatibility table, visual CSS shadow examples, and an inline box-shadow generator tool_
+- _**4 November 2024**: Updated by [<VPIcon icon="fas fa-globe"/>Rahul Chhodde](https://blog.logrocket.com/author/rahulchhodde/)to address recent CSS developments that impact the use of the `box-shadow`property, including the View Transitions API, native CSS nesting, and the CSS `@layer` rule_
 
 :::
 
@@ -368,7 +368,7 @@ Using colors that contrast well—like the blue `box-shadow` against a dark back
 
 ### Creating neumorphic shadows
 
-[**Neumorphism**](/blog.logrocket.com/understanding-neumorphism-css.md) is a [<FontIcon icon="fas fa-globe"/>modern design trend](https://blog.logrocket.com/ux-design/neumorphism-new-trend-ui-design/) derived from [<FontIcon icon="fas fa-globe"/>skeuomorphism](https://blog.logrocket.com/ux-design/skeuomorphism-ux-design-examples/), which replicates real-world objects in digital interfaces. This effect makes UI components appear to extrude from the background, creating a soft, three-dimensional look.
+[**Neumorphism**](/blog.logrocket.com/understanding-neumorphism-css.md) is a [<VPIcon icon="fas fa-globe"/>modern design trend](https://blog.logrocket.com/ux-design/neumorphism-new-trend-ui-design/) derived from [<VPIcon icon="fas fa-globe"/>skeuomorphism](https://blog.logrocket.com/ux-design/skeuomorphism-ux-design-examples/), which replicates real-world objects in digital interfaces. This effect makes UI components appear to extrude from the background, creating a soft, three-dimensional look.
 
 To achieve this, you can apply two opposite `box-shadow` values:
 
@@ -550,7 +550,7 @@ targetElement?.style.boxShadow = "0 0 3px 4px hsl(25deg 50% 50% / 20%)"
 
 ::: note
 
-Before implementing this in production, make sure to [<FontIcon icon="fas fa-globe"/>check the browser support for View Transtions](https://caniuse.com/view-transitions), which is currently just above 74 percent.
+Before implementing this in production, make sure to [<VPIcon icon="fas fa-globe"/>check the browser support for View Transtions](https://caniuse.com/view-transitions), which is currently just above 74 percent.
 
 :::
 
@@ -659,9 +659,9 @@ We have explored various use cases for the CSS `box-shadow` property. If you wan
 
 ## Browser compatibility
 
-![CSS box-shadow browser compatibility according to [<FontIcon icon="fas fa-globe"/>Can I Use](https://caniuse.com/css-boxshadow)](/assets/image/blog.logrocket.com/box-shadow-css/css-box-shadow-browser-compatibility.png)
+![CSS box-shadow browser compatibility according to [<VPIcon icon="fas fa-globe"/>Can I Use](https://caniuse.com/css-boxshadow)](/assets/image/blog.logrocket.com/box-shadow-css/css-box-shadow-browser-compatibility.png)
 
-According to [<FontIcon icon="fas fa-globe"/>Can I use](https://caniuse.com/css-boxshadow), the `box-shadow` CSS property is fully supported across all modern browsers, including their latest released versions.
+According to [<VPIcon icon="fas fa-globe"/>Can I use](https://caniuse.com/css-boxshadow), the `box-shadow` CSS property is fully supported across all modern browsers, including their latest released versions.
 
 ---
 
@@ -674,7 +674,7 @@ The `box-shadow` property is a powerful way to enhance the visual appeal of your
 - Less is more - When layering multiple shadows, the browser has to perform more rendering work. This may not be an issue on high-end devices, but users with older hardware or slow internet connections might experience lag
 - Be consistent - Avoid using inconsistent shadow styles. Shadows should follow a single light source to maintain a cohesive and realistic design
 - Use animations sparingly - Animating box-shadow can significantly impact performance. Since box-shadow already enhances UI elements, keep animations minimal, such as a subtle transition effect on :hover
-- Use a shadow layering tool - Instead of manually writing multiple shadow values, use tools like [<FontIcon icon="fas fa-globe"/>shadows.brumm.af](https://shadows.brumm.af/). This tool allows you to generate and adjust up to 10 box-shadow layers, making it easier to achieve complex and refined shadow effects
+- Use a shadow layering tool - Instead of manually writing multiple shadow values, use tools like [<VPIcon icon="fas fa-globe"/>shadows.brumm.af](https://shadows.brumm.af/). This tool allows you to generate and adjust up to 10 box-shadow layers, making it easier to achieve complex and refined shadow effects
 
 :::
 

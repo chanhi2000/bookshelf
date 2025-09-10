@@ -50,13 +50,13 @@ cover: https://files.smashing.media/articles/introduction-css-scroll-driven-anim
   logo="https://smashingmagazine.com/images/favicon/favicon.svg"
   preview="https://files.smashing.media/articles/introduction-css-scroll-driven-animations/introduction-css-scroll-driven-animations.jpg"/>
 
-It’s been 10 years since scroll-driven animations were introduced in a spec proposal, and after five years in development, we’re finally beginning to see pop up in websites. There are [<FontIcon icon="fa-brands fa-codepen"/>scrolly-telling](https://codepen.io/andrewrock/pen/NWoRavN) and [<FontIcon icon="fa-brands fa-codepen"/>maze games](https://codepen.io/amit_sheen/pen/ZENNgMw) as well as [<FontIcon icon="fa-brands fa-codepen"/>cover flow animations](https://codepen.io/bramus/pen/GRdGoKy) and [<FontIcon icon="fa-brands fa-codepen"/>3D rotation with scroll](https://codepen.io/leemeyer/pen/XWvrMBr)… but what exactly is new here? It’s not like we haven’t seen scroll animations before, **but what we have now requires no JavaScript, no dependencies, no libraries — just pure CSS**. And if that’s not exciting enough, these animations run off the [**main thread**](/smashingmagazine.com/speedcurve-fight-main-thread.md), delivering smooth, high-performance, GPU-accelerated experiences.
+It’s been 10 years since scroll-driven animations were introduced in a spec proposal, and after five years in development, we’re finally beginning to see pop up in websites. There are [<VPIcon icon="fa-brands fa-codepen"/>scrolly-telling](https://codepen.io/andrewrock/pen/NWoRavN) and [<VPIcon icon="fa-brands fa-codepen"/>maze games](https://codepen.io/amit_sheen/pen/ZENNgMw) as well as [<VPIcon icon="fa-brands fa-codepen"/>cover flow animations](https://codepen.io/bramus/pen/GRdGoKy) and [<VPIcon icon="fa-brands fa-codepen"/>3D rotation with scroll](https://codepen.io/leemeyer/pen/XWvrMBr)… but what exactly is new here? It’s not like we haven’t seen scroll animations before, **but what we have now requires no JavaScript, no dependencies, no libraries — just pure CSS**. And if that’s not exciting enough, these animations run off the [**main thread**](/smashingmagazine.com/speedcurve-fight-main-thread.md), delivering smooth, high-performance, GPU-accelerated experiences.
 
-You can safely use scroll-driven animations in Chrome as of December 2024. Firefox supports them, too, though you’ll need to enable a flag. Safari? Not yet, but don’t worry — you can still offer a seamless experience across all browsers with a [<FontIcon icon="iconfont icon-github"/>`flackr/scroll-timeline`](https://github.com/flackr/scroll-timeline). Just keep in mind that adding a polyfill involves a JavaScript library, so you won’t get the same performance boost.
+You can safely use scroll-driven animations in Chrome as of December 2024. Firefox supports them, too, though you’ll need to enable a flag. Safari? Not yet, but don’t worry — you can still offer a seamless experience across all browsers with a [<VPIcon icon="iconfont icon-github"/>`flackr/scroll-timeline`](https://github.com/flackr/scroll-timeline). Just keep in mind that adding a polyfill involves a JavaScript library, so you won’t get the same performance boost.
 
-There are plenty of valuable resources to dive into scroll-driven animations, which I’ll be linking throughout the article. My starting point was [<FontIcon icon="fa-brands fa-youtube"/>Bramus’ video tutorial](https://youtube.com/playlist?list=PLNYkxOF6rcICM3ttukz9x5LCNOHfWBVnn), which pairs nicely with [<FontIcon icon="fas fa-globe"/>Geoff’s in-depth notes](https://css-tricks.com/unleash-the-power-of-scroll-driven-animations/) [<FontIcon icon="fas fa-globe"/>Graham](https://css-tricks.com/unleash-the-power-of-scroll-driven-animations/) that build on the tutorial.
+There are plenty of valuable resources to dive into scroll-driven animations, which I’ll be linking throughout the article. My starting point was [<VPIcon icon="fa-brands fa-youtube"/>Bramus’ video tutorial](https://youtube.com/playlist?list=PLNYkxOF6rcICM3ttukz9x5LCNOHfWBVnn), which pairs nicely with [<VPIcon icon="fas fa-globe"/>Geoff’s in-depth notes](https://css-tricks.com/unleash-the-power-of-scroll-driven-animations/) [<VPIcon icon="fas fa-globe"/>Graham](https://css-tricks.com/unleash-the-power-of-scroll-driven-animations/) that build on the tutorial.
 
-In this article, we’ll walk through the [<FontIcon icon="iconfont icon-w3c"/>latest published version by the W3C](https://w3.org/TR/scroll-animations-1/) and explore the two types of scroll-driven timelines — **scroll progress timelines** and **view progress timelines**. By the end, I hope that you are familiar with both timelines, not only being able to tell them apart but also feeling confident enough to use them in your work.
+In this article, we’ll walk through the [<VPIcon icon="iconfont icon-w3c"/>latest published version by the W3C](https://w3.org/TR/scroll-animations-1/) and explore the two types of scroll-driven timelines — **scroll progress timelines** and **view progress timelines**. By the end, I hope that you are familiar with both timelines, not only being able to tell them apart but also feeling confident enough to use them in your work.
 
 ::: note
 
@@ -83,7 +83,7 @@ Let’s start with a classic example: creating a scroll progress bar at the top 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-> See the Pen [<FontIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - before animation-timeline scroll() \[forked\]](https://codepen.io/smashingmag/pen/RNbRqoj) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+> See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - before animation-timeline scroll() \[forked\]](https://codepen.io/smashingmag/pen/RNbRqoj) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 In this example, there’s a `<div>` with the ID “progress.” At the end of the CSS file, you’ll see it has a background color, a defined width and height, and it’s fixed at the top of the page. There’s also an animation that scales it from `0` to `1` along the x-axis — pretty standard if you’re familiar with CSS animations!
 
@@ -116,7 +116,7 @@ No need to specify seconds for the duration — the scrolling behavior itsel
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-> See the Pen [<FontIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - animation-timeline scroll() \[forked\]](https://codepen.io/smashingmag/pen/ByBzGpO) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+> See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - animation-timeline scroll() \[forked\]](https://codepen.io/smashingmag/pen/ByBzGpO) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 ### `scroll-timeline` Property Parameters
 
@@ -139,7 +139,7 @@ animation-timeline: scroll(root block);
 
 The `block` axis confirms that the scroll moves top to bottom in a left-to-right writing mode. If the page has a wide horizontal scroll, and we want to animate along that axis, we could use the `inline` or `x` values (depending on whether we want the scrolling direction to always be left-to-right or adapt based on the writing mode).
 
-We’ll dive into `self` and `inline` in more examples later, but the best way to learn is to play around with all the combinations, and [<FontIcon icon="fas fa-globe"/>this tool by Bramus](https://scroll-driven-animations.style/tools/scroll-timeline/params/) lets you do exactly that. Spend a few minutes before we jump into the next property associated with scroll timelines.
+We’ll dive into `self` and `inline` in more examples later, but the best way to learn is to play around with all the combinations, and [<VPIcon icon="fas fa-globe"/>this tool by Bramus](https://scroll-driven-animations.style/tools/scroll-timeline/params/) lets you do exactly that. Spend a few minutes before we jump into the next property associated with scroll timelines.
 
 ### The `animation-range` Property
 
@@ -164,7 +164,7 @@ animation-range: normal normal;
 animation-range: 0% 100%;
 ```
 
-You can declare any [<FontIcon icon="fas fa-globe"/>CSS length units](https://css-tricks.com/css-length-units/) or even [**calculations**](/smashingmagazine.com/getting-started-css-calc-techniques.md). For example, let’s say I have a footer that’s `500px` tall. It’s filled with banners, ads, and related posts. I don’t want the scroll progress bar to include any of that as part of the reading progress. What I want is for the animation to start at the top and end `500px` before the bottom. Here we go:
+You can declare any [<VPIcon icon="fas fa-globe"/>CSS length units](https://css-tricks.com/css-length-units/) or even [**calculations**](/smashingmagazine.com/getting-started-css-calc-techniques.md). For example, let’s say I have a footer that’s `500px` tall. It’s filled with banners, ads, and related posts. I don’t want the scroll progress bar to include any of that as part of the reading progress. What I want is for the animation to start at the top and end `500px` before the bottom. Here we go:
 
 ```css
 animation-range: 0% calc(100% - 500px);
@@ -177,7 +177,7 @@ animation-range: 0% calc(100% - 500px);
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-> See the Pen [<FontIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - animation-timeline, animation-range \[forked\]](https://codepen.io/smashingmag/pen/azoZQym) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+> See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - animation-timeline, animation-range \[forked\]](https://codepen.io/smashingmag/pen/azoZQym) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 Just like that, we’ve covered the key properties of `scroll-timeline` animations. Ready to take it a step further?
 
@@ -213,7 +213,7 @@ I think it’s easier to understand all this with a practical example. Here’s 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-> See the Pen [<FontIcon icon="fa-brands fa-codepen"/>Named Scroll Progress Timeline \[forked\]](https://codepen.io/smashingmag/pen/pvzbQrM) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+> See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Named Scroll Progress Timeline \[forked\]](https://codepen.io/smashingmag/pen/pvzbQrM) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 We have two animations running:
 
@@ -283,7 +283,7 @@ Let’s illustrate this with a new example. This time, scrolling in one containe
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-> See the Pen [Scroll Driven Animations - timeline-scope \[forked\]](https://codepen.io/smashingmag/pen/jENrQGo) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+> See the Pen [Scroll Driven Animations - timeline-scope \[forked\]](https://codepen.io/smashingmag/pen/jENrQGo) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 We can play the animation on the image when scrolling the text container because they are siblings in the HTML structure:
 
@@ -340,7 +340,7 @@ Now that we’ve covered how to use `timeline-scope`, we’re ready to move on t
 
 We just looked at **scroll progress animations**. That’s the first type of scroll-driven animation of the two. Next, we’re turning our attention to **view progress animations**. There’s a lot of similarities between the two! But they’re different enough to warrant their own section for us to explore how they work. You’ll see me refer to these as `view-timeline` animations in addition to calling them view progress animations, as they revolve around a `view()` function.
 
-The **view progress timeline** is the second type of type of scroll-driven animation that we’re looking at. It tracks an element as it enters or exits the scrollport (the visible area of the scrollable content). This behavior is quite similar to [<FontIcon icon="fas fa-globe"/>how an `IntersectionObserver` works in JavaScript](https://css-tricks.com/an-explanation-of-how-the-intersection-observer-watches/?ref=csslayout.news) but can be done entirely in CSS.
+The **view progress timeline** is the second type of type of scroll-driven animation that we’re looking at. It tracks an element as it enters or exits the scrollport (the visible area of the scrollable content). This behavior is quite similar to [<VPIcon icon="fas fa-globe"/>how an `IntersectionObserver` works in JavaScript](https://css-tricks.com/an-explanation-of-how-the-intersection-observer-watches/?ref=csslayout.news) but can be done entirely in CSS.
 
 We have anonymous and named view progress timelines, just as we have anonymous and named scroll progress animations. Let’s unpack those.
 
@@ -355,7 +355,7 @@ Here’s a simple example to help us see the basic idea of anonymous view timeli
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-> See the Pen [<FontIcon icon="fa-brands fa-codepen"/>View Timeline Animation - view() \[forked\]](https://codepen.io/smashingmag/pen/KwPMrQO) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+> See the Pen [<VPIcon icon="fa-brands fa-codepen"/>View Timeline Animation - view() \[forked\]](https://codepen.io/smashingmag/pen/KwPMrQO) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 Let’s say we want to animate an image that fades in as it appears in the scrollport. The image’s opacity will go from `0` to `1`. This is how you might write that same animation in classic CSS using `@keyframes`:
 
@@ -433,7 +433,7 @@ This makes it incredibly simple to create dynamic and engaging scroll animations
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-See the Pen [<FontIcon icon="fa-brands fa-codepen"/>Parallax effect with CSS Scroll driven animations - view() \[forked\]](https://codepen.io/smashingmag/pen/mybEQLK) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Parallax effect with CSS Scroll driven animations - view() \[forked\]](https://codepen.io/smashingmag/pen/mybEQLK) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 ### The `animation-range` Property
 
@@ -474,7 +474,7 @@ You can also combine these values with percentages to define more custom behavio
 animation-range: entry 50% exit 50%;
 ```
 
-Exploring all these values and combinations is best done interactively. Tools like Bramus’ [<FontIcon icon="fas fa-globe"/>view-timeline range visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/) make it easier to understand.
+Exploring all these values and combinations is best done interactively. Tools like Bramus’ [<VPIcon icon="fas fa-globe"/>view-timeline range visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/) make it easier to understand.
 
 ### Target Range Inside `@keyframes`
 
@@ -487,7 +487,7 @@ One of the powerful features of `timeline-range-names` is their ability to be us
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-> See the Pen [<FontIcon icon="fa-brands fa-codepen"/>target range inside @keyframes - view-timeline, timeline-range-name \[forked\]](https://codepen.io/smashingmag/pen/zxOBMaK) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+> See the Pen [<VPIcon icon="fa-brands fa-codepen"/>target range inside @keyframes - view-timeline, timeline-range-name \[forked\]](https://codepen.io/smashingmag/pen/zxOBMaK) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 Two different animations are happening in that demo:
 
@@ -563,7 +563,7 @@ The `view-timeline` property works similarly to the `scroll-timeline` property. 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-> See the Pen [<FontIcon icon="fa-brands fa-codepen"/>View-timeline, timeline-scope \[forked\]](https://codepen.io/smashingmag/pen/KwPMrBP) by [Mariana Beldi (<FontIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
+> See the Pen [<VPIcon icon="fa-brands fa-codepen"/>View-timeline, timeline-scope \[forked\]](https://codepen.io/smashingmag/pen/KwPMrBP) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
 This one looks a bit verbose, but I found it hard to come up with a better example to show the power of it. Each image in the vertical scroll container is assigned a named `view-timeline` with a unique identifier:
 
@@ -600,7 +600,7 @@ By declaring the `timeline-scope` with all the named timelines (`--one`, `—two
 
 ## Final Notes
 
-We’ve covered the vast majority of what’s currently defined in the [<FontIcon icon="fas fa-globe"/>CSS Scroll-Driven Animations Module Leve 1 specification](https://drafts.csswg.org/scroll-animations-1/) today in December 2024. But I want to highlight a few key takeaways that helped me better understand these new rules that you may not get directly from the spec:
+We’ve covered the vast majority of what’s currently defined in the [<VPIcon icon="fas fa-globe"/>CSS Scroll-Driven Animations Module Leve 1 specification](https://drafts.csswg.org/scroll-animations-1/) today in December 2024. But I want to highlight a few key takeaways that helped me better understand these new rules that you may not get directly from the spec:
 
 ### Scroll container essentials
 
@@ -616,11 +616,11 @@ The browser evaluates the element’s state *before* any transformations (like `
 
 ### Avoid hiding overflow
 
-Using `overflow: hidden` can disrupt the scroll-seeking mechanism in scroll-driven animations. The recommended solution is to switch to `overflow: clip`. Bramus has [<FontIcon icon="fas fa-globe"/>a great article about this](https://bram.us/2024/02/14/scroll-driven-animations-you-want-overflow-clip-not-overflow-hidden/) and [<FontIcon icon="fa-brands fa-youtube"/>a video from Kevin Powell](https://youtu.be/72pUm4tQesw) also suggests that we may no longer need `overflow: hidden`.
+Using `overflow: hidden` can disrupt the scroll-seeking mechanism in scroll-driven animations. The recommended solution is to switch to `overflow: clip`. Bramus has [<VPIcon icon="fas fa-globe"/>a great article about this](https://bram.us/2024/02/14/scroll-driven-animations-you-want-overflow-clip-not-overflow-hidden/) and [<VPIcon icon="fa-brands fa-youtube"/>a video from Kevin Powell](https://youtu.be/72pUm4tQesw) also suggests that we may no longer need `overflow: hidden`.
 
 ### Performance
 
-For the best results, stick to animating GPU-friendly properties like transforms, opacity, and some filters. These skip the heavy lifting of recalculating layout and repainting. On the other hand, animating things like `width`, `height`, or `box-shadow` can slow things down since they require re-rendering. Bramus [<FontIcon icon="fas fa-globe"/>mentioned](https://bram.us/2024/05/30/scroll-driven-animations-with-css-webexpo/) that soon, more properties — like `background-color`, `clip-path`, `width`, and `height` — will be animatable on the compositor, making the performance even better.
+For the best results, stick to animating GPU-friendly properties like transforms, opacity, and some filters. These skip the heavy lifting of recalculating layout and repainting. On the other hand, animating things like `width`, `height`, or `box-shadow` can slow things down since they require re-rendering. Bramus [<VPIcon icon="fas fa-globe"/>mentioned](https://bram.us/2024/05/30/scroll-driven-animations-with-css-webexpo/) that soon, more properties — like `background-color`, `clip-path`, `width`, and `height` — will be animatable on the compositor, making the performance even better.
 
 ### Use `will-change` wisely
 
@@ -657,11 +657,11 @@ My main struggle while trying to build the demos was more about CSS itself than 
 
 ### Resources
 
-- All demos from this article can be found [<FontIcon icon="fa-brands fa-codepen"/>in this collection](https://codepen.io/collection/WvVpQR), and I might include [<FontIcon icon="fa-brands fa-codepen"/>more](https://codepen.io/marianab/pen/bGXdEoB) as I experiment further.
-- A collection of [<FontIcon icon="fa-brands fa-codepen"/>demos from CodePen](https://codepen.io/collection/aMgBZp) that I find interesting (send me yours, and I’ll include it!)
-- This [GitHub repo (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/labels/scroll-animations-1) is where you can report issues or join discussions about scroll-driven animations.
-- [<FontIcon icon="fas fa-globe"/>Demos, tools, videos](https://scroll-driven-animations.style/), and (even) more information from Bramus
-- Google Chrome [<FontIcon icon="fa-brands fa-youtube"/>video tutorial](https://youtube.com/playlist?list=PLNYkxOF6rcICM3ttukz9x5LCNOHfWBVnn)
+- All demos from this article can be found [<VPIcon icon="fa-brands fa-codepen"/>in this collection](https://codepen.io/collection/WvVpQR), and I might include [<VPIcon icon="fa-brands fa-codepen"/>more](https://codepen.io/marianab/pen/bGXdEoB) as I experiment further.
+- A collection of [<VPIcon icon="fa-brands fa-codepen"/>demos from CodePen](https://codepen.io/collection/aMgBZp) that I find interesting (send me yours, and I’ll include it!)
+- This [GitHub repo (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/labels/scroll-animations-1) is where you can report issues or join discussions about scroll-driven animations.
+- [<VPIcon icon="fas fa-globe"/>Demos, tools, videos](https://scroll-driven-animations.style/), and (even) more information from Bramus
+- Google Chrome [<VPIcon icon="fa-brands fa-youtube"/>video tutorial](https://youtube.com/playlist?list=PLNYkxOF6rcICM3ttukz9x5LCNOHfWBVnn)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

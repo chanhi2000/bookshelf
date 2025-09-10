@@ -58,7 +58,7 @@ Here’s the skills we find are in-demand today. This article should serve as a 
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/FEM2024_1000w.jpg?resize=791%2C1024&ssl=1)
 
-We also have [<FontIcon icon="fas fa-globe"/>The Front End Developer/Engineer Handbook 2024](https://frontendmasters.com/guides/front-end-handbook/2024/), a comprehensive guide to the entire front-end landscape.
+We also have [<VPIcon icon="fas fa-globe"/>The Front End Developer/Engineer Handbook 2024](https://frontendmasters.com/guides/front-end-handbook/2024/), a comprehensive guide to the entire front-end landscape.
 
 ---
 
@@ -66,13 +66,13 @@ We also have [<FontIcon icon="fas fa-globe"/>The Front End Developer/Engineer Ha
 
 Putting effort into really nailing your understanding of scope, closures, and the event loop can pay off over and over again throughout your career.
 
-[<FontIcon icon="fas fa-globe"/>JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/) is famous for a reason. No matter where you are in your journey, having a clear mental model of the most popular language under the hood can help you clear up common misconceptions about how things work, and help you write more performant code. And if you want, you can even dive [<FontIcon icon="fas fa-globe"/>very, very deeply into JavaScript](https://frontendmasters.com/learn/javascript/) with a series of courses.
+[<VPIcon icon="fas fa-globe"/>JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/) is famous for a reason. No matter where you are in your journey, having a clear mental model of the most popular language under the hood can help you clear up common misconceptions about how things work, and help you write more performant code. And if you want, you can even dive [<VPIcon icon="fas fa-globe"/>very, very deeply into JavaScript](https://frontendmasters.com/learn/javascript/) with a series of courses.
 
 [![Will Sentance: Higher Order Functions Example](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/Screenshot-2024-09-18-at-11.49.29%E2%80%AFAM.png?resize=1024%2C596&ssl=1)](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
 
 ### Learn Programming Paradigms: Functional and Object Oriented
 
-JavaScript is a “multi-paradigm” programming language, so learning Object Oriented and Functional Programming paradigms will pay off in getting you to the next level.[<FontIcon icon="fas fa-globe"/>Object Oriented programming](https://frontendmasters.com/courses/object-oriented-js/)is a popular way to structure larger applications. Then add skills to your toolbox from[<FontIcon icon="fas fa-globe"/>functional programming](https://frontendmasters.com/courses/functional-javascript-v3/)such as using map, reduce, filter, pure functions and composition.
+JavaScript is a “multi-paradigm” programming language, so learning Object Oriented and Functional Programming paradigms will pay off in getting you to the next level.[<VPIcon icon="fas fa-globe"/>Object Oriented programming](https://frontendmasters.com/courses/object-oriented-js/)is a popular way to structure larger applications. Then add skills to your toolbox from[<VPIcon icon="fas fa-globe"/>functional programming](https://frontendmasters.com/courses/functional-javascript-v3/)such as using map, reduce, filter, pure functions and composition.
 
 [![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/Screenshot-2024-09-18-at-12.03.43%E2%80%AFPM.png?resize=1024%2C574&ssl=1)](https://frontendmasters.com/courses/functional-javascript-v3/pure-functions-constants/)
 
@@ -82,7 +82,7 @@ Ultimately, you’ll want to learn when to use concepts from both Functional and
 
 ![](https://public.images.stashpad.live/w3fj7hxkfjx4_SpVURTKBpPf)
 
-TypeScript has won for teams, so you might as well get [<FontIcon icon="fas fa-globe"/>great at TypeScript](https://frontendmasters.com/learn/typescript/)!
+TypeScript has won for teams, so you might as well get [<VPIcon icon="fas fa-globe"/>great at TypeScript](https://frontendmasters.com/learn/typescript/)!
 
 ---
 
@@ -90,13 +90,13 @@ TypeScript has won for teams, so you might as well get [<FontIcon icon="fas fa-g
 
 The longer and wider a framework is deployed, the more things like edge cases and performance issues crop up. You should be able to know exactly what your framework of choice helps you with, and where it’s weak points are and how to get around them.
 
-We have a [<FontIcon icon="fas fa-globe"/>React learning path](https://frontendmasters.com/learn/react/) that dives into all of the idiosyncrasies of the framework. We are starting to do this with [<FontIcon icon="fas fa-globe"/>Next.js as well](https://frontendmasters.com/courses/intermediate-next-js/).
+We have a [<VPIcon icon="fas fa-globe"/>React learning path](https://frontendmasters.com/learn/react/) that dives into all of the idiosyncrasies of the framework. We are starting to do this with [<VPIcon icon="fas fa-globe"/>Next.js as well](https://frontendmasters.com/courses/intermediate-next-js/).
 
 ---
 
 ## Design Patterns
 
-Learning to apply common[<FontIcon icon="fas fa-globe"/>design patterns](https://frontendmasters.com/courses/js-design-patterns/)in your code will help you write more robust web applications. You’ll also develop a more critical eye for recognizing when frameworks and external libraries are useful, and when[<FontIcon icon="fas fa-globe"/>you might not need that framework](https://frontendmasters.com/courses/vanilla-js-apps/).
+Learning to apply common[<VPIcon icon="fas fa-globe"/>design patterns](https://frontendmasters.com/courses/js-design-patterns/)in your code will help you write more robust web applications. You’ll also develop a more critical eye for recognizing when frameworks and external libraries are useful, and when[<VPIcon icon="fas fa-globe"/>you might not need that framework](https://frontendmasters.com/courses/vanilla-js-apps/).
 
 ---
 
@@ -106,29 +106,29 @@ Often times what separates a good engineer from a great engineer is being able t
 
 [![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/Screenshot-2024-09-18-at-12.06.46%E2%80%AFPM.png?resize=1024%2C577&ssl=1)](https://frontendmasters.com/courses/blazingly-fast-js/speeding-up-web-sockets/)
 
-Knowing how to measure complexity and use the correct[<FontIcon icon="fas fa-globe"/>algorithms and data structures](https://frontendmasters.com/learn/computer-science/)can lead towards more efficient solutions and better engineering-thinking in general.
+Knowing how to measure complexity and use the correct[<VPIcon icon="fas fa-globe"/>algorithms and data structures](https://frontendmasters.com/learn/computer-science/)can lead towards more efficient solutions and better engineering-thinking in general.
 
 ---
 
 ## Testing, Code Quality, and Tooling
 
-As codebases scale, you need to avoid making regressions when adding new features. You can do that through unit tests, integration, and end-to-end tests using tools like [<FontIcon icon="iconfont icon-jest"/>Jest](https://jestjs.io/) and [<FontIcon icon="iconfont icon-playwright"/>Playwright](https://playwright.dev/).
+As codebases scale, you need to avoid making regressions when adding new features. You can do that through unit tests, integration, and end-to-end tests using tools like [<VPIcon icon="iconfont icon-jest"/>Jest](https://jestjs.io/) and [<VPIcon icon="iconfont icon-playwright"/>Playwright](https://playwright.dev/).
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/stsmall507x507-pad600x600f8f8f8.u2.jpg?resize=600%2C600&ssl=1)
 
 ![](https://frontendmasters.com/blog/wp-content/uploads/2024/09/Playwright_Logo-1.svg)
 
-Learn to set up a suite of testing and code quality tools in the [<FontIcon icon="fas fa-globe"/>Enterprise UI Development: Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/) course.
+Learn to set up a suite of testing and code quality tools in the [<VPIcon icon="fas fa-globe"/>Enterprise UI Development: Testing & Code Quality](https://frontendmasters.com/courses/enterprise-ui-dev/) course.
 
 ---
 
 ## CSS & Design Tools: Figma, Tailwind, and Design Systems
 
-Having basic[<FontIcon icon="fas fa-globe"/>design skills](https://frontendmasters.com/courses/design-for-developers/)can make you a more desirable and well-rounded engineer.
+Having basic[<VPIcon icon="fas fa-globe"/>design skills](https://frontendmasters.com/courses/design-for-developers/)can make you a more desirable and well-rounded engineer.
 
-Then on the CSS front, it’s critical to know [<FontIcon icon="fas fa-globe"/>CSS Grid](https://frontendmasters.com/courses/css-grid/). Right here on the Frontend Masters site, we are currently revamping several key interfaces like our video player, and I can tell you CSS Grid has helped us simplify complex layouts on several occasions. If you want to practice your CSS skills, you can do that through [<FontIcon icon="fas fa-globe"/>CSS Projects](https://frontendmasters.com/courses/css-projects/).
+Then on the CSS front, it’s critical to know [<VPIcon icon="fas fa-globe"/>CSS Grid](https://frontendmasters.com/courses/css-grid/). Right here on the Frontend Masters site, we are currently revamping several key interfaces like our video player, and I can tell you CSS Grid has helped us simplify complex layouts on several occasions. If you want to practice your CSS skills, you can do that through [<VPIcon icon="fas fa-globe"/>CSS Projects](https://frontendmasters.com/courses/css-projects/).
 
-Once you know the fundamental layout techniques, [<FontIcon icon="fas fa-globe"/>TailwindCSS](https://frontendmasters.com/courses/tailwind-css/) is becoming standard since it removes the need for naming elements and styling them in separate steps.
+Once you know the fundamental layout techniques, [<VPIcon icon="fas fa-globe"/>TailwindCSS](https://frontendmasters.com/courses/tailwind-css/) is becoming standard since it removes the need for naming elements and styling them in separate steps.
 
 ![](https://i0.wp.com/static.frontendmasters.com/assets/courses/2024-06-04-figma-v2/thumb.jpg?ssl=1)
 
@@ -167,15 +167,15 @@ Build scalable component libraries and design systems with Storybook. Create reu
 
 ## Accessibility
 
-Understanding [<FontIcon icon="fas fa-globe"/>accessibility](https://frontendmasters.com/courses/web-accessibility/)is important to making sure your websites are usable by everyone. One type of accessibility is ensuring the site can be navigated and used by keyboard, which is also helpful for some power users who prefer to work that way.
+Understanding [<VPIcon icon="fas fa-globe"/>accessibility](https://frontendmasters.com/courses/web-accessibility/)is important to making sure your websites are usable by everyone. One type of accessibility is ensuring the site can be navigated and used by keyboard, which is also helpful for some power users who prefer to work that way.
 
-Bonus if you learn tips for making [<FontIcon icon="fas fa-globe"/>accessible web apps](https://frontendmasters.com/courses/accessibility-v2/) in your framework of choice.
+Bonus if you learn tips for making [<VPIcon icon="fas fa-globe"/>accessible web apps](https://frontendmasters.com/courses/accessibility-v2/) in your framework of choice.
 
 ---
 
 ## Full Stack: Servers, Deployment, and Building APIs
 
-Learning[<FontIcon icon="fas fa-globe"/>Node.js](https://frontendmasters.com/learn/node-js/)and how to build[<FontIcon icon="fas fa-globe"/>APIs in Node](https://frontendmasters.com/courses/api-design-nodejs-v4/)can help you journey towards [<FontIcon icon="fas fa-globe"/>full-stack](https://frontendmasters.com/learn/fullstack/) development.
+Learning[<VPIcon icon="fas fa-globe"/>Node.js](https://frontendmasters.com/learn/node-js/)and how to build[<VPIcon icon="fas fa-globe"/>APIs in Node](https://frontendmasters.com/courses/api-design-nodejs-v4/)can help you journey towards [<VPIcon icon="fas fa-globe"/>full-stack](https://frontendmasters.com/learn/fullstack/) development.
 
 Speaking of “full stack” — it’s becoming a more and more common term that developers self-identify as and that shows up on job descriptions. Frontend Masters, despite our name, has content across the stack from front-end to back. You can learn it all here. If you’re doing any build process, API, or server side work, don’t be afraid to use that term for yourself.
 

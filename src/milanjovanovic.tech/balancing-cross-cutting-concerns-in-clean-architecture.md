@@ -68,7 +68,7 @@ In today's newsletter, I'll show you how to integrate cross-cutting concerns in 
 
 ## Cross-Cutting Concerns in Clean Architecture
 
-In Clean Architecture, [<FontIcon icon="fa-brands fa-wikipedia-w"/>cross-cutting concerns](https://en.wikipedia.org/wiki/Cross-cutting_concern) play an essential role in ensuring the maintainability and scalability of your system. Ideally, these concerns should be handled separately from the core business logic. This aligns with Clean Architecture's principles, emphasizing the decoupling of concerns and modularity. Your core business rules remain uncluttered, and the architecture stays clean and adaptable.
+In Clean Architecture, [<VPIcon icon="fa-brands fa-wikipedia-w"/>cross-cutting concerns](https://en.wikipedia.org/wiki/Cross-cutting_concern) play an essential role in ensuring the maintainability and scalability of your system. Ideally, these concerns should be handled separately from the core business logic. This aligns with Clean Architecture's principles, emphasizing the decoupling of concerns and modularity. Your core business rules remain uncluttered, and the architecture stays clean and adaptable.
 
 Ideally, you want to implement cross-cutting concerns in the Infrastructure layer. You can use ASP.NET Core middleware, [decorators](/milanjovanovic.tech/decorator-pattern-in-asp-net-core.md), or MediatR pipeline behaviors. Whichever approach you decide to use, the guiding idea remains the same.
 
@@ -199,7 +199,7 @@ internal sealed class ValidationPipelineBehavior<TRequest, TResponse>(
 
 Caching is an essential cross-cutting concern in software development. It's primarily aimed at enhancing performance and scalability. Caching involves temporarily storing data in a fast-access layer. This reduces the need to fetch or calculate the same information repeatedly.
 
-The caching pipeline behavior, which you see below, implements the [<FontIcon icon="fa-brands fa-microsoft"/>Cache Aside pattern.](https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside) This pattern involves checking the cache before processing the request and updating the cache with new data as needed. It's a popular caching strategy due to its simplicity and effectiveness. Here's a [<FontIcon icon="fa-brands fa-youtube"/>video tutorial](https://youtu.be/LOEYZRE72wE) if you want to see how I implemented this.
+The caching pipeline behavior, which you see below, implements the [<VPIcon icon="fa-brands fa-microsoft"/>Cache Aside pattern.](https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside) This pattern involves checking the cache before processing the request and updating the cache with new data as needed. It's a popular caching strategy due to its simplicity and effectiveness. Here's a [<VPIcon icon="fa-brands fa-youtube"/>video tutorial](https://youtu.be/LOEYZRE72wE) if you want to see how I implemented this.
 
 <VidStack src="youtube/LOEYZRE72wE" />
 

@@ -57,7 +57,7 @@ In the following sections, you’ll code examples of how valuable constants can 
 
 ## Replacing Magic Numbers for Readability
 
-In programming, the term [<FontIcon icon="fa-brands fa-wikipedia-w"/>magic number](https://en.wikipedia.org/wiki/Magic_number_(programming)) refers to any number that appears directly in your code without any explanation. It’s a value that comes out of the blue, making your code enigmatic and difficult to understand. Magic numbers also makes programs less readable and more difficult to maintain and update.
+In programming, the term [<VPIcon icon="fa-brands fa-wikipedia-w"/>magic number](https://en.wikipedia.org/wiki/Magic_number_(programming)) refers to any number that appears directly in your code without any explanation. It’s a value that comes out of the blue, making your code enigmatic and difficult to understand. Magic numbers also makes programs less readable and more difficult to maintain and update.
 
 For example, say you have the following function:
 
@@ -158,13 +158,13 @@ Declaring a constant once and then reusing it several times, as you did in the a
 
 ## Providing Default Argument Values
 
-Using named constants to provide default argument values to functions, methods, and classes is another common practice in Python. There are lots of examples of this practice in the Python [<FontIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html).
+Using named constants to provide default argument values to functions, methods, and classes is another common practice in Python. There are lots of examples of this practice in the Python [<VPIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html).
 
-For example, the [**`zipfile`**](/realpython.com/python-zipfile.md) module provides tools to create, read, write, append, and list ZIP files. The most relevant class in this module is [<FontIcon icon="fa-brands fa-python"/>`ZipFile`](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile). With `ZipFile`, you can manipulate your ZIP files efficiently and quickly.
+For example, the [**`zipfile`**](/realpython.com/python-zipfile.md) module provides tools to create, read, write, append, and list ZIP files. The most relevant class in this module is [<VPIcon icon="fa-brands fa-python"/>`ZipFile`](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile). With `ZipFile`, you can manipulate your ZIP files efficiently and quickly.
 
-The [**class constructor**](/realpython.com/python-class-constructor.md) of `ZipFile` takes an argument called `compression`, which allows you to select among a few available data compression methods. This argument is [**optional**](/realpython.com/python-optional-arguments.md) and has [<FontIcon icon="fa-brands fa-python"/>`ZIP_STORED`](https://docs.python.org/3/library/zipfile.html#zipfile.ZIP_STORED) as its default value, meaning that `ZipFile` doesn’t compress the input data by default.
+The [**class constructor**](/realpython.com/python-class-constructor.md) of `ZipFile` takes an argument called `compression`, which allows you to select among a few available data compression methods. This argument is [**optional**](/realpython.com/python-optional-arguments.md) and has [<VPIcon icon="fa-brands fa-python"/>`ZIP_STORED`](https://docs.python.org/3/library/zipfile.html#zipfile.ZIP_STORED) as its default value, meaning that `ZipFile` doesn’t compress the input data by default.
 
-In this example, `ZIP_STORED` is a constant defined in `zipfile`. The constant holds a numeric value for uncompressed data. You’ll also find other compression methods represented by named constants like [<FontIcon icon="fa-brands fa-python"/>`ZIP_DEFLATED`](https://docs.python.org/3/library/zipfile.html#zipfile.ZIP_DEFLATED) for the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Deflate](https://en.wikipedia.org/wiki/Deflate) compression algorithm, for example.
+In this example, `ZIP_STORED` is a constant defined in `zipfile`. The constant holds a numeric value for uncompressed data. You’ll also find other compression methods represented by named constants like [<VPIcon icon="fa-brands fa-python"/>`ZIP_DEFLATED`](https://docs.python.org/3/library/zipfile.html#zipfile.ZIP_DEFLATED) for the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Deflate](https://en.wikipedia.org/wiki/Deflate) compression algorithm, for example.
 
 The `compression` argument in the `ZipFile` class constructor is a good example of using constants to provide default argument values when you have an argument that can take only a limited number of valid values.
 

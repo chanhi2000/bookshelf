@@ -74,7 +74,7 @@ In [2]: %pprint
 # Pretty printing has been turned ON
 ```
 
-This is an example of **Magic** in IPython. There are a lot of built-in commands that start with a percent sign (`%`), but you can find more on [<FontIcon icon="iconfont icon-pypi"/>PyPI](https://pypi.org/), or even create your own.
+This is an example of **Magic** in IPython. There are a lot of built-in commands that start with a percent sign (`%`), but you can find more on [<VPIcon icon="iconfont icon-pypi"/>PyPI](https://pypi.org/), or even create your own.
 
 :::
 
@@ -203,9 +203,9 @@ Surprisingly, the signature of `pprint()` is nothing like the `print()` function
 
 ## Adding Colors With ANSI Escape Sequences
 
-As personal computers got more sophisticated, they had better graphics and could display more colors. However, different vendors had their own idea about the API design for controlling it. That changed a few decades ago when people at the American National Standards Institute decided to unify it by defining [<FontIcon icon="fa-brands fa-wikipedia-w"/>ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code).
+As personal computers got more sophisticated, they had better graphics and could display more colors. However, different vendors had their own idea about the API design for controlling it. That changed a few decades ago when people at the American National Standards Institute decided to unify it by defining [<VPIcon icon="fa-brands fa-wikipedia-w"/>ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code).
 
-Most of today’s terminal emulators support this standard to some degree. Until recently, the Windows operating system was a notable exception. Therefore, if you want the best portability, use the [<FontIcon icon="iconfont icon-pypi"/>`colorama`](https://pypi.org/project/colorama/) library in Python. It translates ANSI codes to their appropriate counterparts in Windows while keeping them intact in other operating systems.
+Most of today’s terminal emulators support this standard to some degree. Until recently, the Windows operating system was a notable exception. Therefore, if you want the best portability, use the [<VPIcon icon="iconfont icon-pypi"/>`colorama`](https://pypi.org/project/colorama/) library in Python. It translates ANSI codes to their appropriate counterparts in Windows while keeping them intact in other operating systems.
 
 To check if your terminal understands a subset of the ANSI escape sequences, for example, related to colors, you can try using the following command:
 
@@ -275,7 +275,7 @@ However, there are higher-level abstractions over ANSI escape codes, such as the
 
 ## Building Console User Interfaces
 
-While playing with ANSI escape codes is undeniably a ton of fun, in the real world you’d rather have more abstract building blocks to put together a user interface. There are a few libraries that provide such a high level of control over the terminal, but [<FontIcon icon="fa-brands fa-python"/>`curses`](https://docs.python.org/3/howto/curses.html) seems to be the most popular choice.
+While playing with ANSI escape codes is undeniably a ton of fun, in the real world you’d rather have more abstract building blocks to put together a user interface. There are a few libraries that provide such a high level of control over the terminal, but [<VPIcon icon="fa-brands fa-python"/>`curses`](https://docs.python.org/3/howto/curses.html) seems to be the most popular choice.
 
 ::: note
 
@@ -514,7 +514,7 @@ As before, each request for update repaints the entire line.
 
 ::: note
 
-There’s a feature-rich [<FontIcon icon="iconfont icon-pypi"/>`progressbar2`](https://pypi.org/project/progressbar2/) library, along with a few other similar tools, that can show progress in a much more comprehensive way.
+There’s a feature-rich [<VPIcon icon="iconfont icon-pypi"/>`progressbar2`](https://pypi.org/project/progressbar2/) library, along with a few other similar tools, that can show progress in a much more comprehensive way.
 
 :::
 
@@ -532,7 +532,7 @@ Go ahead and type this command to see if your terminal can play a sound:
 echo -e "\a"
 ```
 
-This would normally print text, but the `-e` flag enables the interpretation of backslash escapes. As you can see, there’s a dedicated escape sequence `\a`, which stands for “alert”, that outputs a special [<FontIcon icon="fa-brands fa-wikipedia-w"/>bell character](https://en.wikipedia.org/wiki/Bell_character). Some terminals make a sound whenever they see it.
+This would normally print text, but the `-e` flag enables the interpretation of backslash escapes. As you can see, there’s a dedicated escape sequence `\a`, which stands for “alert”, that outputs a special [<VPIcon icon="fa-brands fa-wikipedia-w"/>bell character](https://en.wikipedia.org/wiki/Bell_character). Some terminals make a sound whenever they see it.
 
 Similarly, you can print this character in Python. Perhaps in a loop to form some kind of melody. While it’s only a single note, you can still vary the length of pauses between consecutive instances. That seems like a perfect toy for Morse code playback!
 

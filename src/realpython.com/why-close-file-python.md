@@ -58,7 +58,7 @@ with open("hello.txt", mode="w") as file:
     file.write("Hello, World!")
 ```
 
-The [**`with` statement**](/realpython.com/python-with-statement/README.md) initiates a context manager. In this example, the context manager [**opens**](/realpython.com/read-write-files-python/opening-and-closing-a-file-in-python.md) the file <FontIcon icon="fas fa-file-lines"/>`hello.txt` and **manages** the file resource as long as the **context** is active. In general, all the code in the indented block depends on the file object being open. Once the indented block either ends or raises an exception, then the file will close.
+The [**`with` statement**](/realpython.com/python-with-statement/README.md) initiates a context manager. In this example, the context manager [**opens**](/realpython.com/read-write-files-python/opening-and-closing-a-file-in-python.md) the file <VPIcon icon="fas fa-file-lines"/>`hello.txt` and **manages** the file resource as long as the **context** is active. In general, all the code in the indented block depends on the file object being open. Once the indented block either ends or raises an exception, then the file will close.
 
 If you’re not using a context manager or you’re working in a different language, then you might explicitly close files with the [**`try` … `finally` approach**](/realpython.com/python-with-statement/README.md#the-try-finally-approach):
 
@@ -70,7 +70,7 @@ finally:
     file.close()
 ```
 
-The `finally` block that closes the file runs unconditionally, whether the `try` block succeeds or fails. While this syntax effectively closes the file, the Python context manager offers less verbose and more intuitive syntax. Additionally, it’s a bit more [<FontIcon icon="fa-brands fa-python"/>flexible](https://docs.python.org/3/reference/compound_stmts.html#the-with-statement) than simply wrapping your code with `try` … `finally`.
+The `finally` block that closes the file runs unconditionally, whether the `try` block succeeds or fails. While this syntax effectively closes the file, the Python context manager offers less verbose and more intuitive syntax. Additionally, it’s a bit more [<VPIcon icon="fa-brands fa-python"/>flexible](https://docs.python.org/3/reference/compound_stmts.html#the-with-statement) than simply wrapping your code with `try` … `finally`.
 
 You probably use context managers to manage files already, but have you ever wondered why most tutorials and four out of five dentists recommend doing this? In short, **why is it important to close files in Python?**
 
@@ -80,9 +80,9 @@ In this tutorial, you’ll dive into that very question. First, you’ll learn a
 
 ## In Short: Files Are Resources Limited by the Operating System
 
-Python delegates file operations to the [<FontIcon icon="fa-brands fa-wikipedia-w"/>operating system](https://en.wikipedia.org/wiki/Operating_system). The operating system is the mediator between [<FontIcon icon="fa-brands fa-wikipedia-w"/>processes](https://en.wikipedia.org/wiki/Process_(computing)), such as Python, and all the **system resources**, such as the hard drive, RAM, and CPU time.
+Python delegates file operations to the [<VPIcon icon="fa-brands fa-wikipedia-w"/>operating system](https://en.wikipedia.org/wiki/Operating_system). The operating system is the mediator between [<VPIcon icon="fa-brands fa-wikipedia-w"/>processes](https://en.wikipedia.org/wiki/Process_(computing)), such as Python, and all the **system resources**, such as the hard drive, RAM, and CPU time.
 
-When you open a file with `open()`, you make a [<FontIcon icon="fa-brands fa-wikipedia-w"/>system call](https://en.wikipedia.org/wiki/System_call) to the operating system to locate that file on the hard drive and prepare it for reading or writing. The operating system will then return an [**unsigned integer**](/realpython.com/python-bitwise-operators.md#unsigned-integers) called a **file handle** on Windows and a **file descriptor** on UNIX-like systems, including Linux and macOS:
+When you open a file with `open()`, you make a [<VPIcon icon="fa-brands fa-wikipedia-w"/>system call](https://en.wikipedia.org/wiki/System_call) to the operating system to locate that file on the hard drive and prepare it for reading or writing. The operating system will then return an [**unsigned integer**](/realpython.com/python-bitwise-operators.md#unsigned-integers) called a **file handle** on Windows and a **file descriptor** on UNIX-like systems, including Linux and macOS:
 
 ![Illustration of Python making a system call for a file handle](https://files.realpython.com/media/open_file.b4d0477f04f1.png)
 
@@ -160,7 +160,7 @@ Maybe you think you’re not in any immediate danger of running into the limit. 
 
 If you open files and never close them in Python, you might not notice any difference, especially if you’re working on one-file scripts or small projects. As the projects you work on grow in complexity, however, you’ll be increasing your exposure to problematic situations.
 
-Imagine you’re working in a large team on a massive codebase. Then, one day you reach the limit for open files. The kicker is that the error message for the limit won’t tell you *where* the issue is. It’ll be the generic [<FontIcon icon="fa-brands fa-python"/>`OSError`](https://docs.python.org/3/library/exceptions.html#OSError) you saw earlier, which only tells you `Too many open files`.
+Imagine you’re working in a large team on a massive codebase. Then, one day you reach the limit for open files. The kicker is that the error message for the limit won’t tell you *where* the issue is. It’ll be the generic [<VPIcon icon="fa-brands fa-python"/>`OSError`](https://docs.python.org/3/library/exceptions.html#OSError) you saw earlier, which only tells you `Too many open files`.
 
 You may have thousands of places in your codebase where you open files. Imagine hunting for spots where the code doesn’t handle files properly. Imagine that the code passes file objects between functions, and you can’t immediately tell if any given file object is eventually closed or not. That’s not a fun time.
 
@@ -170,9 +170,9 @@ If you’re interested, there are ways to explore your system’s open file hand
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-windows"/>
+@tab:active <VPIcon icon="fa-brands fa-windows"/>
 
-Install [<FontIcon icon="fas fa-globe"/>process hacker](https://processhacker.sourceforge.io/):
+Install [<VPIcon icon="fas fa-globe"/>process hacker](https://processhacker.sourceforge.io/):
 
 ```powershell
 choco install processhacker
@@ -180,11 +180,11 @@ choco install processhacker
 
 Open the application and click the *Find Handles or DLLs* button. Tick the *regex* checkbox and type `.*` to see all file handles with accompanying information.
 
-The official Microsoft version of process hacker is part of the [<FontIcon icon="fa-brands fa-micorosoft"/>Sysinternals](https://docs.microsoft.com/en-us/sysinternals/) utilities, namely [<FontIcon icon="fa-brands fa-micorosoft"/>Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) and [<FontIcon icon="fa-brands fa-micorosoft"/>Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer).
+The official Microsoft version of process hacker is part of the [<VPIcon icon="fa-brands fa-micorosoft"/>Sysinternals](https://docs.microsoft.com/en-us/sysinternals/) utilities, namely [<VPIcon icon="fa-brands fa-micorosoft"/>Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) and [<VPIcon icon="fa-brands fa-micorosoft"/>Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer).
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
-You may need to install [<FontIcon icon="fa-brands fa-wikipedia-w"/>`lsof`](https://en.wikipedia.org/wiki/Lsof), which is a Linux utility to **l**i**s**t **o**pen **f**iles. With this utility, you can get information and count how many open files there are:
+You may need to install [<VPIcon icon="fa-brands fa-wikipedia-w"/>`lsof`](https://en.wikipedia.org/wiki/Lsof), which is a Linux utility to **l**i**s**t **o**pen **f**iles. With this utility, you can get information and count how many open files there are:
 
 ```sh
 lsof | head
@@ -219,7 +219,7 @@ You may wonder *why* the operating system limits files, though. Presumably, it c
 
 ## Why Does the Operating System Limit File Handles?
 
-The [<FontIcon icon="fa-brands fa-windows"/>actual limits](https://techcommunity.microsoft.com/t5/windows-blog-archive/pushing-the-limits-of-windows-handles/ba-p/723848) of the number of files that an operating system can keep open simultaneously are huge. You’re talking millions of files. But actually reaching that limit and putting a fixed number on it isn’t clear-cut. Typically, a system will run out of other resources before it runs out of file handles.
+The [<VPIcon icon="fa-brands fa-windows"/>actual limits](https://techcommunity.microsoft.com/t5/windows-blog-archive/pushing-the-limits-of-windows-handles/ba-p/723848) of the number of files that an operating system can keep open simultaneously are huge. You’re talking millions of files. But actually reaching that limit and putting a fixed number on it isn’t clear-cut. Typically, a system will run out of other resources before it runs out of file handles.
 
 The limit is conservative from the point of view of the operating system but ample from the perspective of most programs. From the operating system’s perspective, any process that reaches the limit is probably leaking file handles along with other resources.
 
@@ -235,7 +235,7 @@ Okay, so you know that opening lots of files is problematic, but there are other
 
 In this section, you’ll experiment with simulating a crash and see how it affects open files. You can use a special function in the `os` module that will exit without performing any of the cleanups that Python usually does, but first, you’ll see how things are normally cleaned up.
 
-Performing write operations for each command can be expensive. For this reason, the Python default is to use a [<FontIcon icon="fa-brands fa-python"/>buffer](https://docs.python.org/3/library/io.html#io.BufferedIOBase) that collects write operations. When the buffer gets full, or when the file is closed explicitly, the buffer is flushed, and the write operation is complete.
+Performing write operations for each command can be expensive. For this reason, the Python default is to use a [<VPIcon icon="fa-brands fa-python"/>buffer](https://docs.python.org/3/library/io.html#io.BufferedIOBase) that collects write operations. When the buffer gets full, or when the file is closed explicitly, the buffer is flushed, and the write operation is complete.
 
 Python works hard to clean up after itself. In most cases, it’ll proactively flush and close files by itself:
 
@@ -264,17 +264,17 @@ cat crash.txt
 # No output!
 ```
 
-You’ll see that even though the operating system has created the file, it doesn’t have any content. The lack of output is because [<FontIcon icon="fa-brands fa-python"/>`os._exit()`](https://docs.python.org/3/library/os.html#os._exit) bypasses the usual Python exit routine, simulating a crash. That said, even this type of simulation is relatively controlled because it assumes that Python, rather than your operating system, has crashed.
+You’ll see that even though the operating system has created the file, it doesn’t have any content. The lack of output is because [<VPIcon icon="fa-brands fa-python"/>`os._exit()`](https://docs.python.org/3/library/os.html#os._exit) bypasses the usual Python exit routine, simulating a crash. That said, even this type of simulation is relatively controlled because it assumes that Python, rather than your operating system, has crashed.
 
 Behind the scenes, once Python is done, the operating system will also perform its own cleanup, closing all file descriptors opened by the process. Crashes can occur at many levels and interfere with the operating system’s cleanup, leaving file handles dangling.
 
 On Windows, for example, dangling file handles can be problematic because any process that opens a file also locks it. Another process can’t open that file until it’s closed. Windows users may be familiar with rogue processes that won’t let you open or delete files.
 
-What’s potentially worse than being locked out of files? Leaking file handles can present a [<FontIcon icon="fas fa-globe"/>security risk](https://cwe.mitre.org/data/definitions/403.html) because the permissions associated with files sometimes get mixed up.
+What’s potentially worse than being locked out of files? Leaking file handles can present a [<VPIcon icon="fas fa-globe"/>security risk](https://cwe.mitre.org/data/definitions/403.html) because the permissions associated with files sometimes get mixed up.
 
 ::: note
 
-The most common implementation of Python, [<FontIcon icon="iconfont icon-github"/>`python/cpython`](https://github.com/python/cpython), goes further in cleaning up your dangling file handles than you might think. It uses [**reference counting**](/realpython.com/python-memory-management.md) for garbage collection so that files are closed once they’re not referenced anymore. That said, other implementations, like [<FontIcon icon="fas fa-globe"/>PyPy](https://pypy.org/), use different strategies that may not be as aggressive in cleaning up unused file handles.
+The most common implementation of Python, [<VPIcon icon="iconfont icon-github"/>`python/cpython`](https://github.com/python/cpython), goes further in cleaning up your dangling file handles than you might think. It uses [**reference counting**](/realpython.com/python-memory-management.md) for garbage collection so that files are closed once they’re not referenced anymore. That said, other implementations, like [<VPIcon icon="fas fa-globe"/>PyPy](https://pypy.org/), use different strategies that may not be as aggressive in cleaning up unused file handles.
 
 The fact that some implementations may not clean up as effectively as CPython is yet another argument for always using a context manager!
 

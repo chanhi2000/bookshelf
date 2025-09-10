@@ -82,7 +82,7 @@ Without further ado, let’s dive in.
 
 ## HTTP Definition
 
-The founder of HTTP is [<FontIcon icon="fa-brands fa-wikipedia-w"/>Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) (the guy also considered to be the inventor of the World Wide Web). Among other names important to the development of HTTP is also [<FontIcon icon="fa-brands fa-wikipedia-w"/>Roy Fielding](https://en.wikipedia.org/wiki/Roy_Fielding), who is also the originator of the REST architectural style.
+The founder of HTTP is [<VPIcon icon="fa-brands fa-wikipedia-w"/>Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) (the guy also considered to be the inventor of the World Wide Web). Among other names important to the development of HTTP is also [<VPIcon icon="fa-brands fa-wikipedia-w"/>Roy Fielding](https://en.wikipedia.org/wiki/Roy_Fielding), who is also the originator of the REST architectural style.
 
 **The Hypertext Transfer Protocol** is the protocol that applications use to communicate with each other. In essence, HTTP is in charge of delegating all of the internet’s media files between clients and servers. That includes HTML, images, text files, movies, and everything in between. And it does this quickly and reliably.
 

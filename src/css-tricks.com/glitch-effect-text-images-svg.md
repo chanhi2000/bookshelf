@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/09/glitch-stacke
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/09/glitch-stacked.png"/>
 
-Lucas Bebber’s [Glitch (<FontIcon icon="fa-brands fa-codepen"/>`lbebber`)](http://codepen.io/lbebber/pen/ypgql) is a super cool effect. It’s like you’re looking at some text displayed on a progressive scan monitor that has been dropped on the ground one too many times and so the alignment of the pixels is off in weirdly un-even amounts time and space.
+Lucas Bebber’s [Glitch (<VPIcon icon="fa-brands fa-codepen"/>`lbebber`)](http://codepen.io/lbebber/pen/ypgql) is a super cool effect. It’s like you’re looking at some text displayed on a progressive scan monitor that has been dropped on the ground one too many times and so the alignment of the pixels is off in weirdly un-even amounts time and space.
 
 It’s bonafide CSS trick if there ever was one! It took me a bit to figure out how it was working, so I thought I’d explain. Then I ended up making it work for other kinds of content as well as making it into a group of Sass `@mixin`s to make working with it a bit easier.
 
@@ -134,11 +134,11 @@ So now the three copies are like this:
 
 ## Clipping the Copies
 
-You’d only ever see the top copy if left as-is. Probably the `::after` version, unless you alter with `z-index`. But never fear, we’re going to be only revealing parts of the top, altered copies with the `clip` [<FontIcon icon="iconfont icon-css-tricks"/>property](https://css-tricks.com/almanac/properties/c/clip/). This property is apparently deprecated in favor of `clip-path`, but at the time of this writing, only `clip` was working for me. I’m sure that will change in time, so we’ll have to keep an eye on it, and presumably, Autoprefixer will handle it.
+You’d only ever see the top copy if left as-is. Probably the `::after` version, unless you alter with `z-index`. But never fear, we’re going to be only revealing parts of the top, altered copies with the `clip` [<VPIcon icon="iconfont icon-css-tricks"/>property](https://css-tricks.com/almanac/properties/c/clip/). This property is apparently deprecated in favor of `clip-path`, but at the time of this writing, only `clip` was working for me. I’m sure that will change in time, so we’ll have to keep an eye on it, and presumably, Autoprefixer will handle it.
 
 ::: note Update! August 2019
 
-Plenty of time has past, and `clip` is still generally supported, but deprecated in favor of the (better) [<FontIcon icon="fa-brands fa-firefox"/>`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path). The `clip` syntax can do what the `inset()` function value is for `clip-path`, so I’m updating this article to use that. Doesn’t look like Autoprefixer deals with the conversation.
+Plenty of time has past, and `clip` is still generally supported, but deprecated in favor of the (better) [<VPIcon icon="fa-brands fa-firefox"/>`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path). The `clip` syntax can do what the `inset()` function value is for `clip-path`, so I’m updating this article to use that. Doesn’t look like Autoprefixer deals with the conversation.
 
 :::
 
@@ -304,7 +304,7 @@ Here’s my take on it:
 
 There are a million different ways to approach it, this is just one. Totally depends on how much you want the mixin to do for you, how much customizability you want or need, what you want left in the HTML, etc.
 
-I also made two more mixins, one for applying this effect to images, and on for inline SVG. They are different because they don’t use pseudo-elements to make the copies, coloring happens in different ways, positioning happens differently, etc. [Here’s all three of them together (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/XWrNyZy?editors=0110).
+I also made two more mixins, one for applying this effect to images, and on for inline SVG. They are different because they don’t use pseudo-elements to make the copies, coloring happens in different ways, positioning happens differently, etc. [Here’s all three of them together (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/XWrNyZy?editors=0110).
 
 And a demo:
 

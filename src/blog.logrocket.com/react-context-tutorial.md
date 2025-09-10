@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/react-context-tutorial/banner.png
 
 ::: note Editor’s note
 
-This article was last updated in February 2025 by [<FontIcon icon="fas fa-globe"/>Vijit Ail](https://blog.logrocket.com/author/vijitail/) to add use cases and detailed examples that align with the latest React 19 updates, expand commentary on Redux vs Context, and remove outdated information related to the `class` component.
+This article was last updated in February 2025 by [<VPIcon icon="fas fa-globe"/>Vijit Ail](https://blog.logrocket.com/author/vijitail/) to add use cases and detailed examples that align with the latest React 19 updates, expand commentary on Redux vs Context, and remove outdated information related to the `class` component.
 
 :::
 
@@ -371,7 +371,7 @@ export const UserProvider = ({ children }) => {
 export const useUser = () => use(UserContext);
 ```
 
-In the <FontIcon icon="fa-brands fa-react"/>`App.jsx`, we have created a `<ProfileDetails />` component to display the user data. Initially, both mobile and email are masked to indicate sensitive information. The `showData` state variable is used to track whether to unmask the data. When the `showData` flag is `true`, the user data is updated by accessing the value from the `useUser()` custom Hook:
+In the <VPIcon icon="fa-brands fa-react"/>`App.jsx`, we have created a `<ProfileDetails />` component to display the user data. Initially, both mobile and email are masked to indicate sensitive information. The `showData` state variable is used to track whether to unmask the data. When the `showData` flag is `true`, the user data is updated by accessing the value from the `useUser()` custom Hook:
 
 ```jsx :collapsed-lines title="App.jsx"
 import { useState } from "react";
@@ -610,7 +610,7 @@ For example, `useState()` works great when working with independent pieces of st
 
 On the other hand, using `useReducer()` is preferable when you have complex state logic where the new state depends on the previous state’s value. It centralizes the state update logic into a single function, as we have seen in the shopping cart example. If your component’s state management starts to get complicated with `useState()`, it’s a good sign to consider switching to `useReducer()` for a more organized approach.
 
-You can check out [<FontIcon icon="iconfont icon-codesandbox"/>the working demo here](https://codesandbox.io/p/sandbox/559l56?file=%2Fsrc%2FApp.js).
+You can check out [<VPIcon icon="iconfont icon-codesandbox"/>the working demo here](https://codesandbox.io/p/sandbox/559l56?file=%2Fsrc%2FApp.js).
 
 ### Improving performance
 

@@ -55,14 +55,14 @@ cover: https://koenig-media.raywenderlich.com/uploads/2018/01/React-twitter-4.pn
   logo="https://assets.carolus.kodeco.com/assets/murakami/category-icons/category-tools-libraries-android-ac31fd227119039e3e4b8fe5b5ca86abdf928764640b62fe05286565f238b802.svg"
   preview="https://koenig-media.raywenderlich.com/uploads/2018/01/React-twitter-4.png"/>
 
-In this React Native tutorial you’ll learn how to build native apps based on the hugely popular [<FontIcon icon="fa-brands fa-react"/>React](https://facebook.github.io/react/) JavaScript library.
+In this React Native tutorial you’ll learn how to build native apps based on the hugely popular [<VPIcon icon="fa-brands fa-react"/>React](https://facebook.github.io/react/) JavaScript library.
 
 What makes React Native different from other frameworks such as [PhoneGap (Apache Cordova)](http://phonegap.com/) or [Appcelerator Titanium](http://www.appcelerator.com/mobile-app-development-products/), that use JavaScript to create iOS apps?
 
 1. (Unlike PhoneGap) with React Native your code may be written in JavaScript but the app’s UI is fully native. It doesn’t have the drawbacks typically associated with a hybrid HTML5 app.
 2. Additionally (unlike Titanium), React introduces a novel, radical and highly functional approach to constructing user interfaces. Your UI is simply a function of the current app state.
 
-React Native brings the [<FontIcon icon="fa-brands fa-react"/>React](http://facebook.github.io/react/) paradigm to mobile app development. It’s goal isn’t to write the code once and run it on any platform. The goal is to learn-once (the React way) and write-anywhere. An important distinction to make.
+React Native brings the [<VPIcon icon="fa-brands fa-react"/>React](http://facebook.github.io/react/) paradigm to mobile app development. It’s goal isn’t to write the code once and run it on any platform. The goal is to learn-once (the React way) and write-anywhere. An important distinction to make.
 
 The community has even added tools such as [Expo](https://expo.io/) and [Create React Native App](https://github.com/react-community/create-react-native-app) to help you quickly build React Native apps without having to touch Xcode or Android Studio!
 
@@ -86,11 +86,11 @@ We also have an [iOS version of this tutorial](https://www.raywenderlich.com/165
 
 ### Node and Java Development Kit
 
-React Native uses [<FontIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/), a JavaScript runtime, to build your JavaScript code. React Native also requires a recent version of the Java SE Development Kit (JDK) to run on Android. Follow the instructions for your system to make sure you install the required versions.
+React Native uses [<VPIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/), a JavaScript runtime, to build your JavaScript code. React Native also requires a recent version of the Java SE Development Kit (JDK) to run on Android. Follow the instructions for your system to make sure you install the required versions.
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-macos"/>MacOS
+@tab <VPIcon icon="iconfont icon-macos"/>MacOS
 
 First install Homebrew using the instructions on the [Homebrew website](http://brew.sh/). Then install Node.js by executing the following in Terminal:
 
@@ -108,7 +108,7 @@ This is used by React Native to figure out when your code changes and rebuild ac
 
 Finally, [download and install JDK 8 or newer](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) if needed.
 
-@tab <FontIcon icon="fa-brands fa-windows"/>Windows
+@tab <VPIcon icon="fa-brands fa-windows"/>Windows
 
 First install Chocolatey using the instructions on the Chocolatey website.
 
@@ -130,9 +130,9 @@ Run the following command as Administrator if you don’t have a JDK or have a v
 choco install -y jdk8
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>Linux
+@tab <VPIcon icon="fa-brands fa-linux"/>Linux
 
-Install <FontIcon icon="fa-brands fa-node"/>Node.js by following the [installation instructions for your Linux distribution](https://nodejs.org/en/download/package-manager/). You will want to install Node.js version 6 or newer.
+Install <VPIcon icon="fa-brands fa-node"/>Node.js by following the [installation instructions for your Linux distribution](https://nodejs.org/en/download/package-manager/). You will want to install Node.js version 6 or newer.
 
 Finally, [download and install JDK 8 or newer](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) if needed.
 
@@ -140,15 +140,15 @@ Finally, [download and install JDK 8 or newer](http://www.oracle.com/technetwork
 
 ### React Native CLI
 
-Use [<FontIcon icon="fa-brands fa-npm"/>Node Package Manager](https://www.npmjs.com/) (or npm) to install the React Native Command Line Interface (CLI) tool. In your terminal (Terminal or Command Prompt or shell) type:
+Use [<VPIcon icon="fa-brands fa-npm"/>Node Package Manager](https://www.npmjs.com/) (or npm) to install the React Native Command Line Interface (CLI) tool. In your terminal (Terminal or Command Prompt or shell) type:
 
 ```sh
 npm install -g react-native-cli
 ```
 
-npm fetches the CLI tool and installs it globally; npm is similar in function to [<FontIcon icon="fas fa-globe"/>JCenter](https://bintray.com/bintray/jcenter) and is packaged with Node.js.
+npm fetches the CLI tool and installs it globally; npm is similar in function to [<VPIcon icon="fas fa-globe"/>JCenter](https://bintray.com/bintray/jcenter) and is packaged with Node.js.
 
-Next, install Yarn using the instructions on the [<FontIcon icon="fa-brands fa-yarn"/>Yarn website](https://yarnpkg.com/en/docs/install). Yarn is a fast npm client.
+Next, install Yarn using the instructions on the [<VPIcon icon="fa-brands fa-yarn"/>Yarn website](https://yarnpkg.com/en/docs/install). Yarn is a fast npm client.
 
 ### Android Development Environment
 
@@ -205,20 +205,20 @@ react-native run-android
 
 If you receive an error related to “SDK location not found”, then perform the following steps:
 
-- Go to the <FontIcon icon="fas fa-folder-open"/>`android/` directory of your react-native project
-- Create a file called <FontIcon icon="fas fa-file-lines"/>`local.properties` with this line:
+- Go to the <VPIcon icon="fas fa-folder-open"/>`android/` directory of your react-native project
+- Create a file called <VPIcon icon="fas fa-file-lines"/>`local.properties` with this line:
 
 ```properties
 sdk.dir = {PATH TO ANDROID SDK}
 ```
 
-For example, on macOS, the SDK path will look something like <FontIcon icon="fas fa-folder-open"/>`/Users/USERNAME/Library/Android/sdk`.
+For example, on macOS, the SDK path will look something like <VPIcon icon="fas fa-folder-open"/>`/Users/USERNAME/Library/Android/sdk`.
 
 You might also have noticed that a terminal window has popped up, displaying something like this:
 
 ![](https://koenig-media.raywenderlich.com/uploads/2017/11/terminal_metro.png)
 
-This is [Metro Bundler (<FontIcon icon="iconfont icon-github"/>`facebook/metro-bundler`)](https://github.com/facebook/metro-bundler), the React Native JavaScript bundler running under Node.js. You’ll find out what it does shortly.
+This is [Metro Bundler (<VPIcon icon="iconfont icon-github"/>`facebook/metro-bundler`)](https://github.com/facebook/metro-bundler), the React Native JavaScript bundler running under Node.js. You’ll find out what it does shortly.
 
 Don’t close the terminal window; just keep it running in the background. If you do close it by mistake, simply run the following in terminal:
 
@@ -228,7 +228,7 @@ react-native start
 
 ::: note
 
-You’ll be mostly writing JavaScript code for this React Native tutorial so no need to use Android Studio as your editor. I use [<FontIcon icon="iconfont icon-subl"/>Sublime Text](http://www.sublimetext.com), which is a cheap and versatile editor, but [Atom](https://atom.io), [Brackets](http://brackets.io) or any other lightweight editor will do the job.
+You’ll be mostly writing JavaScript code for this React Native tutorial so no need to use Android Studio as your editor. I use [<VPIcon icon="iconfont icon-subl"/>Sublime Text](http://www.sublimetext.com), which is a cheap and versatile editor, but [Atom](https://atom.io), [Brackets](http://brackets.io) or any other lightweight editor will do the job.
 
 :::
 
@@ -238,7 +238,7 @@ You’ll be mostly writing JavaScript code for this React Native tutorial so no 
   
 In this section, you’ll learn React Native basics as you begin working on PropertyFinder.
   
-Open <FontIcon icon="fa-brands fa-js"/>`App.js` in your text editor of choice and take a look at the structure of the code in the file:
+Open <VPIcon icon="fa-brands fa-js"/>`App.js` in your text editor of choice and take a look at the structure of the code in the file:
 
 ```js
 import React, { Component } from 'react'; // 1
@@ -269,13 +269,13 @@ This uses the ECMAScript 6 (ES6) import syntax to load the `react` module and as
 
 ::: note
 
-For more information about ES6 modules I’d recommend reading [<FontIcon icon="fas fa-globe"/>this blog post by Dr. Axel Rauschmayer](http://2ality.com/2014/09/es6-modules-final.html).
+For more information about ES6 modules I’d recommend reading [<VPIcon icon="fas fa-globe"/>this blog post by Dr. Axel Rauschmayer](http://2ality.com/2014/09/es6-modules-final.html).
 
 :::
 
-ES6 is a much nicer way to write JavaScript, supporting features like default parameters, classes, arrow functions, and destructuring assignments. Not all browsers support ES6. React Native uses a tool called [<FontIcon icon="fas fa-globe"/>Babel](https://babeljs.io) to automatically translate modern JavaScript into compatible legacy JavaScript where necessary.
+ES6 is a much nicer way to write JavaScript, supporting features like default parameters, classes, arrow functions, and destructuring assignments. Not all browsers support ES6. React Native uses a tool called [<VPIcon icon="fas fa-globe"/>Babel](https://babeljs.io) to automatically translate modern JavaScript into compatible legacy JavaScript where necessary.
 
-Back to <FontIcon icon="fa-brands fa-js"/>`App.js`, check out the class definition:
+Back to <VPIcon icon="fa-brands fa-js"/>`App.js`, check out the class definition:
 
 ```js
 export default class App extends Component<Props>
@@ -297,7 +297,7 @@ This registers the imported component that serves as the app’s entry point.
   
 It’s time to start building your app.
   
-In <FontIcon icon="fa-brands fa-js"/>`App.js`, add the following at the top of the file, just before the import statements:
+In <VPIcon icon="fa-brands fa-js"/>`App.js`, add the following at the top of the file, just before the import statements:
   
 ```js
 'use strict';
@@ -330,17 +330,17 @@ const styles = StyleSheet.create({
 });
 ```
 
-This defines a single style that you’ve applied to the description text. If you’ve done any web development before, you’ll probably recognize those property names. The React Native StyleSheet class used to style the application UI is similar to the [<FontIcon icon="fa-brands fa-firefox"/>Cascading Style Sheets (CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS) used on the Web.
+This defines a single style that you’ve applied to the description text. If you’ve done any web development before, you’ll probably recognize those property names. The React Native StyleSheet class used to style the application UI is similar to the [<VPIcon icon="fa-brands fa-firefox"/>Cascading Style Sheets (CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS) used on the Web.
   
 Then, get rid of the `instructions` assignment code block as you no longer need it.
 
-Save your changes to <FontIcon icon="fa-brands fa-js"/>`App.js` and return to the emulator.
+Save your changes to <VPIcon icon="fa-brands fa-js"/>`App.js` and return to the emulator.
 
 ![Double tap <kbd>R</kbd> on your keyboard, and you’ll see your fledgling property search app starting to take shape](https://koenig-media.raywenderlich.com/uploads/2017/11/emulator_search_text.png)
 
 That’s a JavaScript application running in the emulator, rendering a native UI, without a browser in sight!
   
-Still don’t trust me? Verify it for yourself: within Android Studio, select <FontIcon icon="iconfont icon-select"/>`[Tools\Android\Layout Inspector]`. Then check <FontIcon icon="iconfont icon-select"/>`[Show All Proceses]`, select **com.propertyfinder** and tap <FontIcon icon="iconfont icon-select"/>`[OK]` to inspect the view hierarchy:
+Still don’t trust me? Verify it for yourself: within Android Studio, select <VPIcon icon="iconfont icon-select"/>`[Tools\Android\Layout Inspector]`. Then check <VPIcon icon="iconfont icon-select"/>`[Show All Proceses]`, select **com.propertyfinder** and tap <VPIcon icon="iconfont icon-select"/>`[OK]` to inspect the view hierarchy:
   
 ![](https://koenig-media.raywenderlich.com/uploads/2017/11/as_select_process.png)
 
@@ -348,9 +348,9 @@ You will see no `WebView` instances anywhere!
 
 ![Your text is being displayed in a view called `ReactTextView`](https://koenig-media.raywenderlich.com/uploads/2017/11/as_layout_inspector.png)
 
-But what is that? Go to the [project file finder (<FontIcon icon="iconfont icon-github"/> `facebook/react-native`)](https://github.com/facebook/react-native/find/master) and enter <FontIcon icon="fa-brands fa-java"/>`ReactTextView.java` in the prompt. Select the result matching this file to view the source code. Notice `ReactTextView` inherits directly from `TextView`. Neat!
+But what is that? Go to the [project file finder (<VPIcon icon="iconfont icon-github"/> `facebook/react-native`)](https://github.com/facebook/react-native/find/master) and enter <VPIcon icon="fa-brands fa-java"/>`ReactTextView.java` in the prompt. Select the result matching this file to view the source code. Notice `ReactTextView` inherits directly from `TextView`. Neat!
 
-Curious as to how it all works? Take a quick look at <FontIcon icon="fa-brands fa-java"/>`[MainActivity.java]` and <FontIcon icon="fa-brands fa-java"/>`[MainApplication.java]` which you can find in <FontIcon icon="fas fa-folder-open"/>`android/app/src/main/java/com/propertyfinder`.
+Curious as to how it all works? Take a quick look at <VPIcon icon="fa-brands fa-java"/>`[MainActivity.java]` and <VPIcon icon="fa-brands fa-java"/>`[MainApplication.java]` which you can find in <VPIcon icon="fas fa-folder-open"/>`android/app/src/main/java/com/propertyfinder`.
 
 `MainApplication` sets up a `ReactNativeHost` which in turn creates a `ReactInstanceManager`. The instance manager handles the communication between JavaScript and native Android.
 
@@ -372,15 +372,15 @@ When your app starts, this code is loaded and executed by the JavaScriptCore lib
   
 Your current application uses `React.createElement` to construct the simple UI for your application, which React turns into the native equivalent. While your JavaScript code is perfectly readable in its present form, a more complex UI with nested elements would rapidly become quite a mess.
 
-Make sure the app is still running, then return to your text editor to edit <FontIcon icon="fa-brands fa-js"/>`App.js`. Modify the body of `render` to be the following:
+Make sure the app is still running, then return to your text editor to edit <VPIcon icon="fa-brands fa-js"/>`App.js`. Modify the body of `render` to be the following:
   
 ```jsx
 return <Text style={styles.description}>Search for houses to buy! (Again)</Text>;
 ```
 
-This is [<FontIcon icon="fa-brands fa-react"/>JSX](http://facebook.github.io/react/docs/jsx-in-depth.html), or JavaScript syntax extension, which mixes HTML-like syntax directly in your JavaScript code; if you’re already a web developer, this should feel rather familiar. You’ll use JSX throughout this article.
+This is [<VPIcon icon="fa-brands fa-react"/>JSX](http://facebook.github.io/react/docs/jsx-in-depth.html), or JavaScript syntax extension, which mixes HTML-like syntax directly in your JavaScript code; if you’re already a web developer, this should feel rather familiar. You’ll use JSX throughout this article.
 
-Save your changes to <FontIcon icon="fa-brands fa-js"/>`App.js` and return to the emulator.
+Save your changes to <VPIcon icon="fa-brands fa-js"/>`App.js` and return to the emulator.
 
 ![Tap <kbd>R</kbd> twice, and you’ll see your application refresh to display the updated message](https://koenig-media.raywenderlich.com/uploads/2017/11/emulator_jsx.png)
 
@@ -388,9 +388,9 @@ Re-running a React Native application is really as simple as refreshing a web br
   
 You can even skip having to refresh the app by enabling live reload.
 
-![Press <kbd>Cmd</kbd>+<kbd>m</kbd> for Mac or <kbd>Ctrl</kbd>+<kbd>m</kbd> for <FontIcon icon="fa-brands fa-windows"/>Windows/<FontIcon icon="fa-brands fa-linux"/>Linux in the emulator then select **Enable Live Reload**](https://koenig-media.raywenderlich.com/uploads/2017/11/emulator_enable_live_reload.png)
+![Press <kbd>Cmd</kbd>+<kbd>m</kbd> for Mac or <kbd>Ctrl</kbd>+<kbd>m</kbd> for <VPIcon icon="fa-brands fa-windows"/>Windows/<VPIcon icon="fa-brands fa-linux"/>Linux in the emulator then select **Enable Live Reload**](https://koenig-media.raywenderlich.com/uploads/2017/11/emulator_enable_live_reload.png)
 
-In <FontIcon icon="fa-brands fa-js"/>`App.js`, modify the `render` method’s body to the following:
+In <VPIcon icon="fa-brands fa-js"/>`App.js`, modify the `render` method’s body to the following:
   
 ```jsx
 return <Text style={styles.description}>Search for houses to buy!</Text>;
@@ -442,7 +442,7 @@ Save your changes.
 
 ## Where To Go From Here?
 
-Congratulations on completing this React Native tutorial! You can [<FontIcon icon="iconfont icon-select"/>find the complete project][download-material-final] here if you want to compare notes.
+Congratulations on completing this React Native tutorial! You can [<VPIcon icon="iconfont icon-select"/>find the complete project][download-material-final] here if you want to compare notes.
 
 As a challenge, try showing a property’s details when the user selects one from the search list. You can check out [the challenge solution](https://koenig-media.raywenderlich.com/uploads/2018/01/PropertyFinder-challenge-v2.zip) if you get stuck.
 

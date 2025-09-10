@@ -66,7 +66,7 @@ Before delving into understanding how to use CSS animation as a JavaScript devel
 
 ### What are CSS animations?
 
-As the name implies, [<FontIcon icon="fa-brands fa-firefox"/>CSS animation allows users to animate some CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties) by following a declarative pattern where users can specify what changes in the CSS property over a period of time.
+As the name implies, [<VPIcon icon="fa-brands fa-firefox"/>CSS animation allows users to animate some CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties) by following a declarative pattern where users can specify what changes in the CSS property over a period of time.
 
 CSS animations make it possible to animate transitions from one CSS style configuration to another.
 
@@ -84,7 +84,7 @@ By using CSS animations, developers can mitigate this frustration by adding a lo
 
 When done well, animations can add valuable interaction, personality, and an appealing user experience to website interfaces.
 
-> Animations can make UI elements resemble the real world, making them smoothly change while giving the feeling of continuity, action, and progress instead of changing in a blink of an eye. — [<FontIcon icon="fas fa-globe"/>Patrícia Silva, “How to Make CSS Animations”](https://imaginarycloud.com/blog/how-to-make-css-animations/)
+> Animations can make UI elements resemble the real world, making them smoothly change while giving the feeling of continuity, action, and progress instead of changing in a blink of an eye. — [<VPIcon icon="fas fa-globe"/>Patrícia Silva, “How to Make CSS Animations”](https://imaginarycloud.com/blog/how-to-make-css-animations/)
 
 ---
 
@@ -151,7 +151,7 @@ Again, when you apply the code to the element, it renders an animated square:
 
 Note that you can’t use the `animation` shorthand property and the `animation` sub-properties together because they produce the same thing. They should be used individually based on what you are trying to achieve.
 
-You can learn more about [<FontIcon icon="fa-brands fa-firefox"/>each sub-property and its value in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
+You can learn more about [<VPIcon icon="fa-brands fa-firefox"/>each sub-property and its value in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
 
 As you move into keyframes, it is imperative to know that using styles to describe a CSS animation cannot work without keyframes indicating the animation’s sequence.
 
@@ -250,7 +250,7 @@ Of course, these are not the only websites in the world using CSS animations, bu
 
 ## Conclusion
 
-In summary, CSS animations are the tools you need to create memorable experiences for your users as a JavaScript developer. You can find all the [Codepen animated CSS demos in this post here (<FontIcon icon="fa-brands fa-codepen"/>`edyasikpo`)](https://codepen.io/edyasikpo).
+In summary, CSS animations are the tools you need to create memorable experiences for your users as a JavaScript developer. You can find all the [Codepen animated CSS demos in this post here (<VPIcon icon="fa-brands fa-codepen"/>`edyasikpo`)](https://codepen.io/edyasikpo).
 
 If you have any questions, share them in the comment section below, and I’ll reply to every comment.
 

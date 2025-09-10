@@ -48,7 +48,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3782"/>
 
-A[recent post](/frontendmasters.com/clip-pathing-color-changes.md)here lead me to another called[<FontIcon icon="fas fa-globe"/>The Magic of Clip Path](https://emilkowal.ski/ui/the-magic-of-clip-path)by Emil Kowalski, which focuses on the`inset()`basic shape in particular. While I agree that`clip-path`is a very useful property and the`inset()`basic shape is underrated and underused on the web, most of the use case examples in the article are far from ideal as they rely on content duplication, which can come at a maintenance, performance, and accessibility cost, not to mention that some of them break in some scenarios.
+A[recent post](/frontendmasters.com/clip-pathing-color-changes.md)here lead me to another called[<VPIcon icon="fas fa-globe"/>The Magic of Clip Path](https://emilkowal.ski/ui/the-magic-of-clip-path)by Emil Kowalski, which focuses on the`inset()`basic shape in particular. While I agree that`clip-path`is a very useful property and the`inset()`basic shape is underrated and underused on the web, most of the use case examples in the article are far from ideal as they rely on content duplication, which can come at a maintenance, performance, and accessibility cost, not to mention that some of them break in some scenarios.
 
 In this article, I’ll be showing how to get the same effects with no content duplication.
 
@@ -60,7 +60,7 @@ Emil creates this with two different images (the before and the after) stacked o
 
 Using a`button`for the draggable line somehow doesn’t feel right to me, but I’m no expert when it comes to accessibility, so we’ll be focusing on how to do this with a single image, though this is the one example where I can see some advantages to using two images instead of one.
 
-This kind of comparison slider is something I once explained in detail in[<FontIcon icon="fas fa-globe"/>another article](https://css-tricks.com/taming-blend-modes-difference-and-exclusion/#aa-invert-just-an-area-of-an-element-or-a-background)some years back. The basic idea used there is the following: the original image (the “before”) is a`background`layer of a slider whose thumb is the draggable split line. The original image`background`layer is blended with another which only covers the progress area between the lateral edge of the track and the current thumb position. The result of the blending operation is the “after”.
+This kind of comparison slider is something I once explained in detail in[<VPIcon icon="fas fa-globe"/>another article](https://css-tricks.com/taming-blend-modes-difference-and-exclusion/#aa-invert-just-an-area-of-an-element-or-a-background)some years back. The basic idea used there is the following: the original image (the “before”) is a`background`layer of a slider whose thumb is the draggable split line. The original image`background`layer is blended with another which only covers the progress area between the lateral edge of the track and the current thumb position. The result of the blending operation is the “after”.
 
 In my old article, the result of the blending operation was the negative of the image:
 
@@ -91,9 +91,9 @@ But we can also have other effects, for example desaturating an image (black and
 
 This demo needs a single HTML element (`input[type=range]`), less than 20 CSS declarations (and that’s with having to duplicate a bunch of them for the`-webkit-`and`-moz-`cases) and under`100`bytes of JS (without even bothering to minify it).
 
-The trick here is to use a`color`blend mode, which takes the the hue and the saturation of the top layer (transparent before the thumb and*any*grey after) and the luminosity (which is not[the ‘L’ in HSL <FontIcon icon="fa-brands fa-codepen"/>`thebabydino`](https://codepen.io/thebabydino/full/RwoOMOZ), that one stands for lightness, but still close enough in a lot of cases) of the bottom layer (the image).
+The trick here is to use a`color`blend mode, which takes the the hue and the saturation of the top layer (transparent before the thumb and*any*grey after) and the luminosity (which is not[the ‘L’ in HSL <VPIcon icon="fa-brands fa-codepen"/>`thebabydino`](https://codepen.io/thebabydino/full/RwoOMOZ), that one stands for lightness, but still close enough in a lot of cases) of the bottom layer (the image).
 
-The saturation of*any*grey is`0`and zero saturation makes the hue irrelevant (if you think about[the HSL bicone (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/NvKEpd), the saturation is the horizontal distance from the vertical axis, so the greys are on the vertical axis, where the rotation around it, which gives us the hue,[doesn’t matter anymore (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/ZELeqVN)).
+The saturation of*any*grey is`0`and zero saturation makes the hue irrelevant (if you think about[the HSL bicone (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/NvKEpd), the saturation is the horizontal distance from the vertical axis, so the greys are on the vertical axis, where the rotation around it, which gives us the hue,[doesn’t matter anymore (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/ZELeqVN)).
 
 That is, the`color`blend mode with any grey top layer zeroes the saturation of the result, giving us a fully desaturated image (as if we applied`filter: grayscale(1)`on it).
 
@@ -115,7 +115,7 @@ Or why just monochrome it when we can duotone it?
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Here, we just switched to an`exclusion`blend mode. How this works in the back is something I explained in a lot of detail in [<FontIcon icon="fas fa-globe"/>the blend modes article](https://css-tricks.com/taming-blend-modes-difference-and-exclusion/#aa-invert-just-an-area-of-an-element-or-a-background).
+Here, we just switched to an`exclusion`blend mode. How this works in the back is something I explained in a lot of detail in [<VPIcon icon="fas fa-globe"/>the blend modes article](https://css-tricks.com/taming-blend-modes-difference-and-exclusion/#aa-invert-just-an-area-of-an-element-or-a-background).
 
 This technique also has the advantage of only needing a minimal amount of JS. All the JS does here is to update one custom property`--val`when the slider thumb gets dragged. That’s it!
 
@@ -134,7 +134,7 @@ The trick is to make the wrapper a`grid`container with a single grid cell, stack
 
 Both the pseudo-element and the slider get`pointer-events: none`, so that right click brings up a menu that allows us to open the image in a new tab, save it, copy it and so on. Note that this needs to get reverted on the slider’s`thumb`(by setting`pointer-events: auto`) so we can drag it. The pseudo-element gets clipped to just the area between the slider’s edge and the thumb’s vertical midline. It also has a`backdrop-filter`. This creates the desired effect on the part of the image underneath the area this pseudo-element is clipped to.
 
-The demo above shows a blur effect, but we have unlimited possibilities here, as we can also chain CSS filters or even use SVG ones. We can make our image grainy, introduce[<FontIcon icon="fas fa-globe"/>chromatic aberration](https://mastodon.social/@anatudor/112444748312431903)or[<FontIcon icon="fas fa-globe"/>swap two channels](https://mastodon.social/@anatudor/112242678457752295)… the sky’s the limit!
+The demo above shows a blur effect, but we have unlimited possibilities here, as we can also chain CSS filters or even use SVG ones. We can make our image grainy, introduce[<VPIcon icon="fas fa-globe"/>chromatic aberration](https://mastodon.social/@anatudor/112444748312431903)or[<VPIcon icon="fas fa-globe"/>swap two channels](https://mastodon.social/@anatudor/112242678457752295)… the sky’s the limit!
 
 <CodePen
   user="thebabydino"
@@ -149,7 +149,7 @@ One caveat though: as cool as in the browser image`filter`effects are, we only h
 
 ## Split Text
 
-Emil showcases an example similar to the one [used by Vercel here (<FontIcon icon="fa-brands fa-x-twitter"/>`raunofreiberg`)](https://x.com/raunofreiberg/status/1785738080520925627). This duplicates the text and clips the version on top. It also breaks on small viewports.
+Emil showcases an example similar to the one [used by Vercel here (<VPIcon icon="fa-brands fa-x-twitter"/>`raunofreiberg`)](https://x.com/raunofreiberg/status/1785738080520925627). This duplicates the text and clips the version on top. It also breaks on small viewports.
 
 <VidStack src="https://videos.files.wordpress.com/XjlqtLd8/288449e91964dcf4_mp4.thumbgrid_0.jpg?h=2880" />
 
@@ -164,7 +164,7 @@ This can be seen in the demo below where you can drag the separator line:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The trick here is to put the text fill, the text stroke and the progress area each on one RGB channel. In my demo, the text fill uses the blue channel, the text stroke uses the red channel and the progress area uses the green channel. Note that the progress area is created using a[full coverage pseudo (<FontIcon icon="fa-brands fa-x-twitter"/>`anatudor`)](https://x.com/anatudor/status/1478412237295566850)on the element containing the text and that this pseudo is blended with its parent.
+The trick here is to put the text fill, the text stroke and the progress area each on one RGB channel. In my demo, the text fill uses the blue channel, the text stroke uses the red channel and the progress area uses the green channel. Note that the progress area is created using a[full coverage pseudo (<VPIcon icon="fa-brands fa-x-twitter"/>`anatudor`)](https://x.com/anatudor/status/1478412237295566850)on the element containing the text and that this pseudo is blended with its parent.
 
 ```css
 p {
@@ -193,7 +193,7 @@ The result so far looks like this:
 
 You can see that here, each of the three RGB channels are either zeroed or maxed out (0 or1). The values for the red channel (text stroke) and the blue channel (text fill) are mutually exclusive, it’s just the green channel (progress area) that can mix with the other two.
 
-We then apply an SVG`filter`. Here, we combine two concepts I’ve talked about this year before: using[<FontIcon icon="fas fa-globe"/>RGB channels as alpha masks](https://mastodon.social/@anatudor/112286525196818095)and painting the graphic we extract using[<FontIcon icon="fas fa-globe"/>an RGB value](https://mastodon.social/@anatudor/112157559510002242)(using one of the two ways I did for[these monojicons (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/YzgwErb)).
+We then apply an SVG`filter`. Here, we combine two concepts I’ve talked about this year before: using[<VPIcon icon="fas fa-globe"/>RGB channels as alpha masks](https://mastodon.social/@anatudor/112286525196818095)and painting the graphic we extract using[<VPIcon icon="fas fa-globe"/>an RGB value](https://mastodon.social/@anatudor/112157559510002242)(using one of the two ways I did for[these monojicons (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/YzgwErb)).
 
 Our`filter`extracts the intersection between the blue channel (the text fill) and the green channel (the progress area) - that is, the text fill within the limits of the progress area - and paints it`white`.
 
@@ -211,7 +211,7 @@ The difference between the text stroke and the progress area, painted in neon bl
 
 Finally, we put these two together and we have the result!
 
-There are some other minor polishing tweaks in the demo, but this is the main idea. It’s very similar to other text split demos with no duplication I’ve made (as seen in[<FontIcon icon="fa-brands fa-codepen"/>this CodePen collection](https://codepen.io/collection/gYNRKP?sort_by=id)), the only difference being that in this case the split line isn’t fixed, but depends on a value that changes when dragging the slider.
+There are some other minor polishing tweaks in the demo, but this is the main idea. It’s very similar to other text split demos with no duplication I’ve made (as seen in[<VPIcon icon="fa-brands fa-codepen"/>this CodePen collection](https://codepen.io/collection/gYNRKP?sort_by=id)), the only difference being that in this case the split line isn’t fixed, but depends on a value that changes when dragging the slider.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/4ac81ff1e5864e8e.png?resize=1024%2C639&ssl=1)
 
@@ -236,7 +236,7 @@ What is going on here?
 
 First off, each`nav`item has an index`--i`, whereas the`nav`itself has a current index`--k`, equal to the index`--i`of the currently selected item. The only JS necessary here is to update the value of`--k`on the`nav`to match the value`--i`of the item we’ve just clicked/selected (works withTab + Entertoo).
 
-We want the currently selected item to have a highlight — that is, we want to have a highlight over the item where the difference between`--i`and`--k`is`0`. In order to know from which direction this highlight needs to move when we change the selected item and`--k`changes value, we need to also get the sign of this difference between`--i`and`--k`. Since no matter which item is selected, both`--i`and`--k`*are set*to integer values, we use this formula that I explained in detail in[<FontIcon icon="fas fa-globe"/>n older article](https://css-tricks.com/using-absolute-value-sign-rounding-and-modulo-in-css-today/)to compute the sign:
+We want the currently selected item to have a highlight — that is, we want to have a highlight over the item where the difference between`--i`and`--k`is`0`. In order to know from which direction this highlight needs to move when we change the selected item and`--k`changes value, we need to also get the sign of this difference between`--i`and`--k`. Since no matter which item is selected, both`--i`and`--k`*are set*to integer values, we use this formula that I explained in detail in[<VPIcon icon="fas fa-globe"/>n older article](https://css-tricks.com/using-absolute-value-sign-rounding-and-modulo-in-css-today/)to compute the sign:
 
 ```css
 --sgn: clamp(-1, var(--i) - var(--k), 1)
@@ -278,7 +278,7 @@ There’s still one more thing we need to compute here and that’s whether we n
 
 We’d need to move in the positive direction of thexaxis if we were to select an item of an index`--i`bigger than`--k`, that is, if`--sgn`is`1`. In this case,`--bit`computes to`1`. Othwerwise, if we wouldn’t need to move in the positive direction of thexaxis but in the negative one, then that means`--i`is smaller than`--k`, which means`--sgn`is`-1`, so`--bit`computes to`0`.
 
-We create the highlight with a pseudo-element, which is absolutely positioned to[<FontIcon icon="fas fa-globe"/>cover its entire parent](https://mastodon.social/@anatudor/109389255373912182). Okay, but we want this highlight only for the currently selected item, so we clip it to nothing for all the others, that is, for all those where`--out`computes to`1`.
+We create the highlight with a pseudo-element, which is absolutely positioned to[<VPIcon icon="fas fa-globe"/>cover its entire parent](https://mastodon.social/@anatudor/109389255373912182). Okay, but we want this highlight only for the currently selected item, so we clip it to nothing for all the others, that is, for all those where`--out`computes to`1`.
 
 And we know whether to clip it from the right or from the left based on the`--bit`value. If`--bit`is`1`, we clip from the right (the positive direction of thexaxis). Otherwise, we clip from the left. This is the`clip-path`and the lateral offset values:
 
@@ -288,7 +288,7 @@ And we know whether to clip it from the right or from the left based on the`--bi
 clip-path: inset(0 var(--r) 0 var(--l));
 ```
 
-The final ingredient is to[<FontIcon icon="fa-brands fa-firefox"/>register](https://developer.mozilla.org/en-US/docs/Web/CSS/@property)(as`'<number>'`) and transition`--k`.
+The final ingredient is to[<VPIcon icon="fa-brands fa-firefox"/>register](https://developer.mozilla.org/en-US/docs/Web/CSS/@property)(as`'<number>'`) and transition`--k`.
 
 You can see a basic version of this below:
 
@@ -320,13 +320,13 @@ That’s it!
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Okay, but what about the rounded corners and the text`color`change on intersecting the highlight? For that, we need an SVG`filter`that achieves two things. One,[<FontIcon icon="fas fa-globe"/>the blobby look](https://mastodon.social/@anatudor/112523336154596358)and two, something very similar to the one in the earlier text split example, a different look for the text where it intersects the highlight blob versus where it doesn’t. We also want to have a different look for the`:hover`/`:focus`state outside the blob.
+Okay, but what about the rounded corners and the text`color`change on intersecting the highlight? For that, we need an SVG`filter`that achieves two things. One,[<VPIcon icon="fas fa-globe"/>the blobby look](https://mastodon.social/@anatudor/112523336154596358)and two, something very similar to the one in the earlier text split example, a different look for the text where it intersects the highlight blob versus where it doesn’t. We also want to have a different look for the`:hover`/`:focus`state outside the blob.
 
 Just like in the text split case, we use a separate RGB channel for each component. The red channel is used for the highlight, the blue channel for the regular text and the green channel for the text in the `:hover`/`:focus` case.
 
 ![Shows the nav with different parts on different channels. Normal (not focused/ hovered) text is on the blue channel. Hovered/ focused text is on the blue channel. The highlight is on the red channel. Since the layers are blended using the lighten blend mode, the text intersecting the highlight looks fuchsia/ magenta (has both the red and bluue channels maxed out).](https://i0.wp.com/files.mastodon.social/media_attachments/files/113/090/302/854/648/018/small/fb5760a2b24ae32e.png?ssl=1)
 
-Then in the SVG`filter`, we first extract the highlight out of the red channel, paint it blue and [<FontIcon icon="fas fa-globe"/>turn its shape into a blob](https://mastodon.social/@anatudor/112523336154596358). Then we extract the text out of the blue and green channels and paint it either grey or blue depending on what channel it’s on. We place the blob on top of it and on top of that, we put the intersection between the text and the blob, painted in white.
+Then in the SVG`filter`, we first extract the highlight out of the red channel, paint it blue and [<VPIcon icon="fas fa-globe"/>turn its shape into a blob](https://mastodon.social/@anatudor/112523336154596358). Then we extract the text out of the blue and green channels and paint it either grey or blue depending on what channel it’s on. We place the blob on top of it and on top of that, we put the intersection between the text and the blob, painted in white.
 
 ---
 
@@ -405,7 +405,7 @@ One, the swipe direction changes (it goes from right to left) when we switch bac
 
 To this angle `--ang`, we may add another one that gives us the direction of the swipe.
 
-Two, it doesn’t give any indication about whether any of these controls is focused or hovered (for example an outline) and there are no special styles for the currently selected one, but we can fix that using the[<FontIcon icon="fas fa-globe"/>DRY switching technique](https://css-tricks.com/dry-switching-with-css-variables-the-difference-of-one-declaration/)(with`--hov`and`--sel`switches) plus`color-mix()`to further simplify things.
+Two, it doesn’t give any indication about whether any of these controls is focused or hovered (for example an outline) and there are no special styles for the currently selected one, but we can fix that using the[<VPIcon icon="fas fa-globe"/>DRY switching technique](https://css-tricks.com/dry-switching-with-css-variables-the-difference-of-one-declaration/)(with`--hov`and`--sel`switches) plus`color-mix()`to further simplify things.
 
 <CodePen
   user="thebabydino"
@@ -427,7 +427,7 @@ There are a couple of issues here.
 
 The first is that we have these ugly edges around the link letters due to the fact that the link`background`clipped to`text`is placed on top of the paragraph`background`clipped to the same`text`and the latter contrasts with the page`background`even more.
 
-There are a couple of pretty straightforward fixes here. One by isolating the paragraph and then applying a`hard-light`blend mode on the link and another by using slightly thicker text for the link. For example, with a font like[<FontIcon icon="fa-brands fa-google"/>REM](https://fonts.google.com/specimen/REM), we can give the normal paragraph text a`font-weight`of`300`and the links a`font-weight`of`400`.
+There are a couple of pretty straightforward fixes here. One by isolating the paragraph and then applying a`hard-light`blend mode on the link and another by using slightly thicker text for the link. For example, with a font like[<VPIcon icon="fa-brands fa-google"/>REM](https://fonts.google.com/specimen/REM), we can give the normal paragraph text a`font-weight`of`300`and the links a`font-weight`of`400`.
 
 The second is that when the`background`gets clipped to`text`, that doesn’t also include the`text-decoration`(underline, for example).
 
@@ -442,9 +442,9 @@ So we’re forced to use a pseudo and make links`inline-block`or wrap each link�
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-In the future, being able to clip the`fixed`background to text*and*to a bottom border should do the trick without the need for the extra pseudo-element hack (see this[<FontIcon icon="fas fa-globe"/>proposal](https://verou.me/specs/#continuous-image-borders)by Lea Verou).
+In the future, being able to clip the`fixed`background to text*and*to a bottom border should do the trick without the need for the extra pseudo-element hack (see this[<VPIcon icon="fas fa-globe"/>proposal](https://verou.me/specs/#continuous-image-borders)by Lea Verou).
 
-Also, for every element that needs to have both text content and a`background`(like a`button`, for example!)… some bad news! Because of a[<FontIcon icon="fa-brands fa-firefox"/>Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498)old enough to go to school, we need to either make that element`inline-block`like we did in the links scenario and use a pseudo or wrap that text content in an inner`span`. Or, in order to avoid the problems that these two methods come with (and maybe introduce some performance ones instead), we could use an SVG`filter`. That’s pretty much what we have to do for a lot of`input`elements (like`input[type=button]`) anyway.
+Also, for every element that needs to have both text content and a`background`(like a`button`, for example!)… some bad news! Because of a[<VPIcon icon="fa-brands fa-firefox"/>Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498)old enough to go to school, we need to either make that element`inline-block`like we did in the links scenario and use a pseudo or wrap that text content in an inner`span`. Or, in order to avoid the problems that these two methods come with (and maybe introduce some performance ones instead), we could use an SVG`filter`. That’s pretty much what we have to do for a lot of`input`elements (like`input[type=button]`) anyway.
 
 <CodePen
   user="thebabydino"

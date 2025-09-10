@@ -50,7 +50,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/10/1_sdb3Y6ckQGLcuekR8RD4Ew-
   logo="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png"
   preview="https://droidcon.com/wp-content/uploads/2024/10/1_sdb3Y6ckQGLcuekR8RD4Ew-600x300.webp"/>
 
-![Diagram from <FontIcon icon="fas fa-globe"/>`kotlinlang.org`](https://droidcon.com/wp-content/uploads/2024/10/1_sdb3Y6ckQGLcuekR8RD4Ew-600x300.webp)
+![Diagram from <VPIcon icon="fas fa-globe"/>`kotlinlang.org`](https://droidcon.com/wp-content/uploads/2024/10/1_sdb3Y6ckQGLcuekR8RD4Ew-600x300.webp)
 
 Kotlin’s coroutines offer a powerful way to manage concurrency and asynchronous programming. However, to use them effectively, it’s crucial to understand the lifecycle of a coroutine. In this blog post, we’ll explore the coroutine lifecycle, focusing on the states of a coroutine’s Job, how they transition between states, and practical examples to illustrate each state, including the effects of launching nested coroutines. Additionally, we’ll discuss best practices and modifications.
 
@@ -790,11 +790,11 @@ Understanding the lifecycle of coroutines, including the effects of nested corou
 
 Whether you’re using`invokeOnCompletion`for cleanup, managing nested coroutines, or utilizing structured concurrency, Kotlin’s coroutines provide powerful tools for handling concurrency with ease.
 
-That’s it for this blog. Let’s connect on[**LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`raystatic`)**](https://linkedin.com/in/raystatic/)and[**X (<FontIcon icon="fa-brands fa-x-twitter"/>`raystatic_`)**](https://x.com/raystatic_)
+That’s it for this blog. Let’s connect on[**LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`raystatic`)**](https://linkedin.com/in/raystatic/)and[**X (<VPIcon icon="fa-brands fa-x-twitter"/>`raystatic_`)**](https://x.com/raystatic_)
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/understanding-the-coroutine-lifecycle-in-kotlin-378d619908ac)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>proandroiddev.com](https://proandroiddev.com/understanding-the-coroutine-lifecycle-in-kotlin-378d619908ac)
 
 <SiteInfo
   name="Understanding the Coroutine Lifecycle in Kotlin"

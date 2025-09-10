@@ -159,7 +159,7 @@ listItemButtons.forEach((button) => {
 });
 ```
 
-I only recently [<FontIcon icon="fa-brands fa-chrome"/>learned about `moveBefore`](https://developer.chrome.com/blog/movebefore-api) which is probably a better API to use, but we can wait a bit for better support.
+I only recently [<VPIcon icon="fa-brands fa-chrome"/>learned about `moveBefore`](https://developer.chrome.com/blog/movebefore-api) which is probably a better API to use, but we can wait a bit for better support.
 
 ---
 

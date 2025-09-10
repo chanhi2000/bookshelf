@@ -532,7 +532,7 @@ function ParentComponent() {
 
 If you are interested in learning more about different types of refs, [**this complete guide to React refs**](/blog.logrocket.com/complete-guide-react-refs.md) is a must-see.
 
-With React 19 onwards, instead of using `forwardRef`, pass `ref` as a component prop and use it with the specified element. Read more about this change in the [<FontIcon icon="fa-brands fa-react"/>React documentation](https://react.dev/reference/react/forwardRef).
+With React 19 onwards, instead of using `forwardRef`, pass `ref` as a component prop and use it with the specified element. Read more about this change in the [<VPIcon icon="fa-brands fa-react"/>React documentation](https://react.dev/reference/react/forwardRef).
 
 ---
 
@@ -611,7 +611,7 @@ In the above code, we are defining an event handler for the form submission, get
 
 It’s not complicated to apply dynamic animations to an element using `useRef`. You may use `requestAnimationFrames` to do so, or use a JavaScript animation library such as GSAP, [**Motion**](/blog.logrocket.com/creating-react-animations-with-motion.md), or AnimeJS.
 
-The [<FontIcon icon="iconfont icon-github"/>`greensock/GSAP`](https://github.com/greensock/GSAP) library is pretty common these days, so let’s quickly create an animated card component with it and `useRef`:
+The [<VPIcon icon="iconfont icon-github"/>`greensock/GSAP`](https://github.com/greensock/GSAP) library is pretty common these days, so let’s quickly create an animated card component with it and `useRef`:
 
 ```js :collapsed-lines
 import gsap from "gsap";
@@ -695,7 +695,7 @@ function TrackClicks() {
 }
 ```
 
-You can see a [working example of the above code here (<FontIcon icon="fa-brands fa-codepen"/>`c99rahul`)](https://codepen.io/c99rahul/pen/yyLbBrR).
+You can see a [working example of the above code here (<VPIcon icon="fa-brands fa-codepen"/>`c99rahul`)](https://codepen.io/c99rahul/pen/yyLbBrR).
 
 <CodePen
   user="c99rahul"
@@ -746,7 +746,7 @@ If you notice this example closely, I’m forwarding a `ref` from a child compon
 
 ## Conclusion
 
-To wrap up, we learned about the `useRef` Hook in React, discussed its implementation, applications, and some do’s and don’ts. You may find all the examples discussed in this post with some bonus demos in [this CodePen collection (<FontIcon icon="fa-brands fa-codepen"/>`BayjWJ`)](https://codepen.io/collection/BayjWJ).
+To wrap up, we learned about the `useRef` Hook in React, discussed its implementation, applications, and some do’s and don’ts. You may find all the examples discussed in this post with some bonus demos in [this CodePen collection (<VPIcon icon="fa-brands fa-codepen"/>`BayjWJ`)](https://codepen.io/collection/BayjWJ).
 
 Try implementing the `useRef` Hook in your apps if you haven’t already. Share your questions or suggestions in the comments. I’ll be happy to learn your thoughts and help you.
 

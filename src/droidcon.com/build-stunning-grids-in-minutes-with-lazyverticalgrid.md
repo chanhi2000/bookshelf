@@ -280,9 +280,9 @@ fun `getSkatersAndGoalies() should emit list of skaters`() = runTest {
 
 Major tech companies (*PayPal, Google, Meta, Salesforce…*)**value engineers who understand the significance of testing**for building reliable and high-quality applications and may help you land that big bank jobby-job. 🤞🏽😃💰
 
-**That’s a wrap!**With`LazyVerticalGrid`, you’ve unlocked the power to build stunning grid layouts in your Jetpack Compose app. Ready to see it in action?[**<FontIcon icon="fa-brands fa-google-play"/>Download the NHL Hockey app on Google Play**](https://play.google.com/store/apps/dev?id=7614313297301862853&hl=en_US)and experience the magic firsthand. Don’t forget to leave a review and let me know what you think!
+**That’s a wrap!**With`LazyVerticalGrid`, you’ve unlocked the power to build stunning grid layouts in your Jetpack Compose app. Ready to see it in action?[**<VPIcon icon="fa-brands fa-google-play"/>Download the NHL Hockey app on Google Play**](https://play.google.com/store/apps/dev?id=7614313297301862853&hl=en_US)and experience the magic firsthand. Don’t forget to leave a review and let me know what you think!
 
-🗣️: reach out on[X (<FontIcon icon="fa-brands fa-x-twitter"/>`BrickyardApps`)](https://x.com/BrickyardApps)or[Insta (<FontIcon icon="fa-brands fa-instagram"/>`brickyardmobile`)](https://instagram.com/brickyardmobile)
+🗣️: reach out on[X (<VPIcon icon="fa-brands fa-x-twitter"/>`BrickyardApps`)](https://x.com/BrickyardApps)or[Insta (<VPIcon icon="fa-brands fa-instagram"/>`brickyardmobile`)](https://instagram.com/brickyardmobile)
 
 <SiteInfo
   name="Android Apps by Brickyard Mobile on Google Play"
@@ -293,7 +293,7 @@ Major tech companies (*PayPal, Google, Meta, Salesforce…*)**value engineers wh
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/build-stunning-grids-in-minutes-with-lazyverticalgrid-17702887cccb)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/build-stunning-grids-in-minutes-with-lazyverticalgrid-17702887cccb)
 
 <SiteInfo
   name="Build Stunning Grids in Minutes with LazyVerticalGrid | 𓈈 𓊁 𓊂 𓐖 |"

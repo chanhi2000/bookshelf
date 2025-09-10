@@ -107,7 +107,7 @@ Because `print()` is a function, it has a well-defined signature with known attr
 
 Besides, functions are easier to **extend**. Adding a new feature to a function is as easy as adding another keyword argument, whereas changing the language to support that new feature is much more cumbersome. Think of stream redirection or buffer flushing, for example.
 
-Another benefit of `print()` being a function is **composability**. Functions are so-called [<FontIcon icon="fas fa-globe"/>first-class objects](https://realpython.com/lessons/functions-first-class-objects-python/) or [<FontIcon icon="fas fa-globe"/>first-class citizens](https://realpython.com/lessons/functions-are-first-class-citizens-python/) in Python, which is a fancy way of saying they’re values just like strings or numbers. This way, you can assign a function to a variable, pass it to another function, or even return one from another. `print()` isn’t different in this regard. For instance, you can take advantage of it for dependency injection:
+Another benefit of `print()` being a function is **composability**. Functions are so-called [<VPIcon icon="fas fa-globe"/>first-class objects](https://realpython.com/lessons/functions-first-class-objects-python/) or [<VPIcon icon="fas fa-globe"/>first-class citizens](https://realpython.com/lessons/functions-are-first-class-citizens-python/) in Python, which is a fancy way of saying they’re values just like strings or numbers. This way, you can assign a function to a variable, pass it to another function, or even return one from another. `print()` isn’t different in this regard. For instance, you can take advantage of it for dependency injection:
 
 ```py
 def download(url, log=print):
@@ -208,7 +208,7 @@ That’s a syntax error in Python 2. Here are a few more examples of statements 
 
 ::: note
 
-[Python 3.8](/realpython.com/python38-new-features.md) brings a controversial **walrus operator** (`:=`), which is an [<FontIcon icon="fa-brands fa-python"/>assignment expression](https://python.org/dev/peps/pep-0572/). With it, you can evaluate an expression and assign the result to a variable at the same time, even within another expression!
+[Python 3.8](/realpython.com/python38-new-features.md) brings a controversial **walrus operator** (`:=`), which is an [<VPIcon icon="fa-brands fa-python"/>assignment expression](https://python.org/dev/peps/pep-0572/). With it, you can evaluate an expression and assign the result to a variable at the same time, even within another expression!
 
 Take a look at this example, which calls an expensive function once and then reuses the result for further computation:
 

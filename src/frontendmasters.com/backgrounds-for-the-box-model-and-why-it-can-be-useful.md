@@ -84,7 +84,7 @@ Is this actually useful ever? Sometimes!
 
 Just the other day Wes Bos posted a really nice button effect and then re-created in HTML and CSS:
 
-There is no real big problem with how Wes did it there, but he did use an extra element as well as pseudo elements to get it done. [Here’s his demo. (<FontIcon icon="fa-brands fa-codepen"/>`wesbos`)](https://codepen.io/wesbos/pen/PoraMVV)
+There is no real big problem with how Wes did it there, but he did use an extra element as well as pseudo elements to get it done. [Here’s his demo. (<VPIcon icon="fa-brands fa-codepen"/>`wesbos`)](https://codepen.io/wesbos/pen/PoraMVV)
 
 <CodePen
   user="wesbos"
@@ -93,7 +93,7 @@ There is no real big problem with how Wes did it there, but he did use an extra 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Ana Tudor [chimed in (<FontIcon icon="fa-brands fa-x-twitter"/>`anatudor`)](https://x.com/anatudor/status/1828680421078421627) that it could be done without using any extra elements, and guess how? Background clipping!
+Ana Tudor [chimed in (<VPIcon icon="fa-brands fa-x-twitter"/>`anatudor`)](https://x.com/anatudor/status/1828680421078421627) that it could be done without using any extra elements, and guess how? Background clipping!
 
 I took a crack at that, and aside from a bit of an awkward need to set the `background-size`, I think I got it working:
 

@@ -70,11 +70,11 @@ But what if you need to show thousands of rows at the same time?
 
 And what if the pagination technique is not an option (or maybe it is but you still have to show a lot of information)? The infinite scrolling technique only limits rendering future elements and renders all previous rows, causing performance issues for very large lists.
 
-In this article, I’ll show you how to use [<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`](https://github.com/bvaughn/react-virtualized) to display a large amount of data efficiently.
+In this article, I’ll show you how to use [<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`](https://github.com/bvaughn/react-virtualized) to display a large amount of data efficiently.
 
-First, you’ll see the problems with rendering a huge data set. Then, you’ll learn how React Virtualized solves those problems and how to efficiently render the list of the first example using the [<FontIcon icon="fas fa-globe"/>List](https://bvaughn.github.io/react-virtualized/#/components/List) and [<FontIcon icon="fas fa-globe"/>Autosizer](https://bvaughn.github.io/react-virtualized/#/components/AutoSizer) components.
+First, you’ll see the problems with rendering a huge data set. Then, you’ll learn how React Virtualized solves those problems and how to efficiently render the list of the first example using the [<VPIcon icon="fas fa-globe"/>List](https://bvaughn.github.io/react-virtualized/#/components/List) and [<VPIcon icon="fas fa-globe"/>Autosizer](https://bvaughn.github.io/react-virtualized/#/components/AutoSizer) components.
 
-You’ll also learn about two other helpful components: [<FontIcon icon="fas fa-globe"/>CellMeasurer](https://bvaughn.github.io/react-virtualized/#/components/CellMeasurer), to dynamically measure the width and height of the rows, and [<FontIcon icon="fas fa-globe"/>ScrollSync](https://bvaughn.github.io/react-virtualized/#/components/ScrollSync), to synchronize scrolling between two or more virtualized components.
+You’ll also learn about two other helpful components: [<VPIcon icon="fas fa-globe"/>CellMeasurer](https://bvaughn.github.io/react-virtualized/#/components/CellMeasurer), to dynamically measure the width and height of the rows, and [<VPIcon icon="fas fa-globe"/>ScrollSync](https://bvaughn.github.io/react-virtualized/#/components/ScrollSync), to synchronize scrolling between two or more virtualized components.
 
 ---
 
@@ -82,7 +82,7 @@ You’ll also learn about two other helpful components: [<FontIcon icon="fas fa-
 
 React developers typically use the `map` function and render lists with multiple rows. If they use that approach for rendering thousands of rows, the web browser will always create thousands of DOM elements even though a scrollbar typically hides overflowing content. Rendering a new DOM element needs physical memory and consumes CPU and GPU hardware when DOM element positions get changed with user events, such as scrolling. So, if we directly render large lists in web apps, the browser heavily uses the computer memory and increases CPU/GPU usage while rendering (especially with initial rendering phases).
 
-As a result, the app’s framerate gets reduced, becomes slow, and is no longer not user-friendly. You can experiment with this scenario in [this GitHub repository (<FontIcon icon="iconfont icon-github"/>`codezri/react-large-list-demo`)](https://github.com/codezri/react-large-list-demo). Look at the following preview and see how directly-rendered large lists affect app performance:
+As a result, the app’s framerate gets reduced, becomes slow, and is no longer not user-friendly. You can experiment with this scenario in [this GitHub repository (<VPIcon icon="iconfont icon-github"/>`codezri/react-large-list-demo`)](https://github.com/codezri/react-large-list-demo). Look at the following preview and see how directly-rendered large lists affect app performance:
 
 ![A Directly-rendered Large List Reduces The React App Performance](/assets/image/blog.logrocket.com/rendering-large-lists-react-virtualized/directly-rendered-large-list-reduces-react-performance-1.gif)
 
@@ -113,24 +113,24 @@ The above implementation strategy helps render large lists efficiently by render
 
 The react-virtualized library offers five main components:
 
-- [Grid (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/Grid.md): Renders tabular data along the vertical and horizontal axes
-- [List (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/List.md): Renders a list of elements using a `Grid` component internally
-- [Table (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/Table.md): Renders a table with a fixed header and vertically scrollable body content. It also uses a `Grid` component internally
-- [Masonry (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/Masonry.md): Renders dynamically-sized, user-positioned cells with vertical scrolling support
-- [Collection (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/Collection.md): Renders arbitrarily positioned and overlapping data
+- [Grid (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/Grid.md): Renders tabular data along the vertical and horizontal axes
+- [List (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/List.md): Renders a list of elements using a `Grid` component internally
+- [Table (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/Table.md): Renders a table with a fixed header and vertically scrollable body content. It also uses a `Grid` component internally
+- [Masonry (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/Masonry.md): Renders dynamically-sized, user-positioned cells with vertical scrolling support
+- [Collection (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/Collection.md): Renders arbitrarily positioned and overlapping data
 
-These components extend from [<FontIcon icon="fa-brands fa-react"/>React.PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent), which means that when comparing objects, it only compares their references to increase performance. You can read more about this [here (<FontIcon icon="iconfont icon-github`bvaughn/react-virtualized`"/>)](https://github.com/bvaughn/react-virtualized#pure-components).
+These components extend from [<VPIcon icon="fa-brands fa-react"/>React.PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent), which means that when comparing objects, it only compares their references to increase performance. You can read more about this [here (<VPIcon icon="iconfont icon-github`bvaughn/react-virtualized`"/>)](https://github.com/bvaughn/react-virtualized#pure-components).
 
-On the other hand, react-virtualized also includes some [<FontIcon icon="fa-brands fa-react"/>HOC](https://reactjs.org/docs/higher-order-components.html) components:
+On the other hand, react-virtualized also includes some [<VPIcon icon="fa-brands fa-react"/>HOC](https://reactjs.org/docs/higher-order-components.html) components:
 
-- [ArrowKeyStepper (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/ArrowKeyStepper.md): Decorates another component so it can respond to arrow-key events
-- [AutoSizer (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/AutoSizer.md): Automatically adjusts the width and height of another component
-- [CellMeasurer (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/CellMeasurer.md): Automatically measures a cell’s contents by temporarily rendering it in a way that is not visible to the user
-- [ColumnSizer (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/ColumnSizer.md): Calculates column-widths for grid cells
-- [InfiniteLoader (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/InfiniteLoader.md): Manages the fetching of data as a user scrolls a list, table, or grid
-- [MultiGrid (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/MultiGrid.md): Decorates a `Grid` component to add fixed columns and/or rows
-- [ScrollSync (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/ScrollSync.md): Synchronizes scrolling between two or more components
-- [WindowScroller (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/WindowScroller.md): Enables a `Table` or `List` component to be scrolled based on the window’s scroll positions
+- [ArrowKeyStepper (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/ArrowKeyStepper.md): Decorates another component so it can respond to arrow-key events
+- [AutoSizer (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/AutoSizer.md): Automatically adjusts the width and height of another component
+- [CellMeasurer (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/CellMeasurer.md): Automatically measures a cell’s contents by temporarily rendering it in a way that is not visible to the user
+- [ColumnSizer (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/ColumnSizer.md): Calculates column-widths for grid cells
+- [InfiniteLoader (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/InfiniteLoader.md): Manages the fetching of data as a user scrolls a list, table, or grid
+- [MultiGrid (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/MultiGrid.md): Decorates a `Grid` component to add fixed columns and/or rows
+- [ScrollSync (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/ScrollSync.md): Synchronizes scrolling between two or more components
+- [WindowScroller (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/WindowScroller.md): Enables a `Table` or `List` component to be scrolled based on the window’s scroll positions
 
 Now let’s see how to use the `List` component to virtualize the 5,000 comments example.
 
@@ -148,13 +148,13 @@ Install dependencies as follows:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add react-virtualized lorem-ipsum
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install react-virtualized lorem-ipsum
@@ -164,11 +164,11 @@ npm install react-virtualized lorem-ipsum
 
 ::: note N.B.
 
-If you get an npm peer dependency resolution error, you can use the `legacy-peer-deps` option to fix it. If react-virtualized maintainers release [this commit (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/commit/005be24a608add0344284053dae7633be86053b2) to npm, this peer dependency error will disappear.
+If you get an npm peer dependency resolution error, you can use the `legacy-peer-deps` option to fix it. If react-virtualized maintainers release [this commit (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/commit/005be24a608add0344284053dae7633be86053b2) to npm, this peer dependency error will disappear.
 
 :::
 
-Next, in <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`App.js`, import the `List` component from react-virtualized and do all necessary setups:
+Next, in <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`App.js`, import the `List` component from react-virtualized and do all necessary setups:
 
 ```js :collapsed-lines title="App.jsx"
 import './App.css';
@@ -232,7 +232,7 @@ function App() {
 export default App;
 ```
 
-Then, add the following styling definitions to <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-css3-alt"/>`App.css`:
+Then, add the following styling definitions to <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-css3-alt"/>`App.css`:
 
 ```css :collapsed-lines title="App.css"
 .App {
@@ -270,7 +270,7 @@ Second, the component needs the number of rows (the list length) and a function 
 
 For this reason, the implementation of the `renderRow` method needs to change.
 
-This method won’t receive an object of the list as an argument anymore. Instead, the `List` component will pass it [an object with the following properties (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/List.md#rowrenderer):
+This method won’t receive an object of the list as an argument anymore. Instead, the `List` component will pass it [an object with the following properties (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/List.md#rowrenderer):
 
 ```js
 function rowRenderer({
@@ -321,7 +321,7 @@ All the rows are children of this `div` element, and this time, there are not 5,
 
 That’s because the `List` component renders additional elements to reduce the chance of flickering due to fast scrolling.
 
-The number of additional elements is controlled with the [`overscanRowCount` (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/overscanUsage.md) property. For example, if I set `3` as the value of this property:
+The number of additional elements is controlled with the [`overscanRowCount` (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/overscanUsage.md) property. For example, if I set `3` as the value of this property:
 
 ```jsx
 <List
@@ -386,7 +386,7 @@ This way, the function will return the `List` component configured with the widt
 </AutoSizer>
 ```
 
-The `AutoSizer` component will fill all of the available space of its parent so if you want to fill all the space after the header, in <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-css3-alt"/>`App.css`, you can add the following line to the list class:
+The `AutoSizer` component will fill all of the available space of its parent so if you want to fill all the space after the header, in <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-css3-alt"/>`App.css`, you can add the following line to the list class:
 
 ```css title="App.css"
 .list {
@@ -432,7 +432,7 @@ Everything becomes a mess:
 
 That’s because the height of each cell has a fixed value of 50. If you want to have dynamic height, you have to use the `CellMeasurer` component.
 
-This component works in conjunction with [`CellMeasurerCache` (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/CellMeasurer.md#cellmeasurercache), which stores the measurements to avoid recalculating them all the time.
+This component works in conjunction with [`CellMeasurerCache` (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/CellMeasurer.md#cellmeasurercache), which stores the measurements to avoid recalculating them all the time.
 
 To use these components, first import them:
 
@@ -483,7 +483,7 @@ Notice the following about `CellMeasuer`:
 - This component is the one that is going to take the key to differentiate the elements
 - It takes the cache configured before
 - It takes the parent component (`List`) where it’s going to be rendered, so you also need this parameter
-- Renders the content section via the function as a component strategy with the `registerChild` ref to avoid [`findDOMNode` (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/CellMeasurer.md#using-registerchild) [API error (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/CellMeasurer.md#using-registerchild)
+- Renders the content section via the function as a component strategy with the `registerChild` ref to avoid [`findDOMNode` (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/CellMeasurer.md#using-registerchild) [API error (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-virtualized`)](https://github.com/bvaughn/react-virtualized/blob/master/docs/CellMeasurer.md#using-registerchild)
 
 Finally, you only need to modify the `List` component so it uses the cache and gets its height from that cache:
 
@@ -524,11 +524,11 @@ text: loremIpsum({
 })
 ```
 
-The reason is that you [<FontIcon icon="fa-brands fa-stack-overflow"/>cannot share a CellMeausure cache between two components](https://stackoverflow.com/questions/45682063/react-virtualized-share-cellmeasurercache-for-multiple-grids/45684069#45684069), so you can’t have dynamic heights for the two lists I’m going to show next, like in the previous example. At least not in an easy way.
+The reason is that you [<VPIcon icon="fa-brands fa-stack-overflow"/>cannot share a CellMeausure cache between two components](https://stackoverflow.com/questions/45682063/react-virtualized-share-cellmeasurercache-for-multiple-grids/45684069#45684069), so you can’t have dynamic heights for the two lists I’m going to show next, like in the previous example. At least not in an easy way.
 
-If you want to have dynamic heights for something similar to the example of this section, it’s better to use the [<FontIcon icon="fas fa-globe"/>MultiGrid](https://bvaughn.github.io/react-virtualized/#/components/MultiGrid) component.
+If you want to have dynamic heights for something similar to the example of this section, it’s better to use the [<VPIcon icon="fas fa-globe"/>MultiGrid](https://bvaughn.github.io/react-virtualized/#/components/MultiGrid) component.
 
-Moving on, import `ScrollSync` First, undo the code and remove the dynamic height feature. Or, use the following code in <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`App.js`:
+Moving on, import `ScrollSync` First, undo the code and remove the dynamic height feature. Or, use the following code in <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`App.js`:
 
 ```jsx :collapsed-lines title="App.jsx"
 import './App.css';
@@ -829,7 +829,7 @@ Similarly, you can add links and even make the entire row clickable!
 
 ### Creating a virtualized collapsible list
 
-Making list rows collapsible is another option to hide complex details without using links or buttons to open popups. This time we need to use `CellMeasurer` as follows because collapsible elements dynamically change the row height. Add the following code to your <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`App.js` file:
+Making list rows collapsible is another option to hide complex details without using links or buttons to open popups. This time we need to use `CellMeasurer` as follows because collapsible elements dynamically change the row height. Add the following code to your <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`App.js` file:
 
 ```jsx :collapsed-lines title="App.jsx"
 import './App.css';
@@ -927,7 +927,7 @@ function App() {
 export default App;
 ```
 
-Note that here we call the `measure` function to adjust the cell size via `CellMeasurer` when the expandable state changes.Next, use the following content for <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-css3-alt"/>`App.css`:
+Note that here we call the `measure` function to adjust the cell size via `CellMeasurer` when the expandable state changes.Next, use the following content for <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-css3-alt"/>`App.css`:
 
 ```css :collapsed-lines title="App.css"
 .App {
@@ -978,7 +978,7 @@ In the above code examples, we primarily used the `List` component to render a l
 
 `List` offered a way to create a 1D data grid because we only had the vertical scrollbar. The `Grid` lets you create a 2D grid where you can have both vertical and horizontal scrollbars. So, you can efficiently render elements in the x-axis and y-axis with scroll events.
 
-To demonstrate this component, we can list down comments in a grid. First, add the following code to your <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`App.js` file:
+To demonstrate this component, we can list down comments in a grid. First, add the following code to your <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`App.js` file:
 
 ```jsx :collapsed-lines title="App.jsx"
 import './App.css';
@@ -1130,7 +1130,7 @@ Here we used the `cellSizeAndPositionGetter` function to define a position for e
 
 ![A Grid With Arbitary-Positioned Data Elements](/assets/image/blog.logrocket.com/rendering-large-lists-react-virtualized/grid-arbitrary-positioned-data-elements.webp)
 
-Try to create a simple photo collection with this component. You can get an idea (and browse the source) from [<FontIcon icon="fas fa-globe"/>this demo app](https://bvaughn.github.io/react-virtualized/#/components/Collection).
+Try to create a simple photo collection with this component. You can get an idea (and browse the source) from [<VPIcon icon="fas fa-globe"/>this demo app](https://bvaughn.github.io/react-virtualized/#/components/Collection).
 
 ---
 
@@ -1138,7 +1138,7 @@ Try to create a simple photo collection with this component. You can get an idea
 
 This article, showed you how to use react-virtualized to render a large list, grid, and data collection in an efficient way.
 
-Of course, there are other libraries built for the same purpose, but react-virtualized has a lot of functionality and is well maintained. Plus, there is a [<FontIcon icon="fas fa-globe"/>Gitter chat](https://gitter.im/bvaughn/react-virtualized) and a [<FontIcon icon="fa-brands fa-stack-overflow"/>StackOverflow tag](https://stackoverflow.com/questions/tagged/react-virtualized) to ask the community questions.
+Of course, there are other libraries built for the same purpose, but react-virtualized has a lot of functionality and is well maintained. Plus, there is a [<VPIcon icon="fas fa-globe"/>Gitter chat](https://gitter.im/bvaughn/react-virtualized) and a [<VPIcon icon="fa-brands fa-stack-overflow"/>StackOverflow tag](https://stackoverflow.com/questions/tagged/react-virtualized) to ask the community questions.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

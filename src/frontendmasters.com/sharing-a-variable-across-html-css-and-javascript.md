@@ -65,7 +65,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4908"/>
 
-My kid is in a little phase where word search puzzles are really fun. She likes doing them, and then possibly because we share blood, she immediately started to want to *make* them. I figured it would be a fun little recreational coding job to build a maker, so I did that: [Word Search Puzzle Maker (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/MYgbXjv). It’s not fancy, you just write in your words then a button click will fill in the un-filled spaces with random letters and you’re good to print it out.
+My kid is in a little phase where word search puzzles are really fun. She likes doing them, and then possibly because we share blood, she immediately started to want to *make* them. I figured it would be a fun little recreational coding job to build a maker, so I did that: [Word Search Puzzle Maker (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/MYgbXjv). It’s not fancy, you just write in your words then a button click will fill in the un-filled spaces with random letters and you’re good to print it out.
 
 One of the configuration options for the “maker” is how big you want to build the grid. A 10×10 grid is the default, but it’s settable by just **setting a variable in one place**.
 

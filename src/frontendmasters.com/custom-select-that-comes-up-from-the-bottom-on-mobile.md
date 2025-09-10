@@ -50,13 +50,13 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6293"/>
 
-[<FontIcon icon="fa-brands fa-firefox"/>Custom `<select>` menus are a thing now](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select), especially because they can be progressively enhanced into. Una has [<FontIcon icon="fa-brands fa-codepen"/>some great examples](https://codepen.io/collection/BNZjPe).
+[<VPIcon icon="fa-brands fa-firefox"/>Custom `<select>` menus are a thing now](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select), especially because they can be progressively enhanced into. Una has [<VPIcon icon="fa-brands fa-codepen"/>some great examples](https://codepen.io/collection/BNZjPe).
 
-![[Demo (<FontIcon icon="fa-brands fa-codepen"/>`una`)](https://codepen.io/una/pen/eYojgZw), which falls back to entirely default styling.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Screenshot-2025-06-20-at-6.58.11%E2%80%AFAM.png?resize=1024%2C669&ssl=1)
+![[Demo (<VPIcon icon="fa-brands fa-codepen"/>`una`)](https://codepen.io/una/pen/eYojgZw), which falls back to entirely default styling.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Screenshot-2025-06-20-at-6.58.11%E2%80%AFAM.png?resize=1024%2C669&ssl=1)
 
-I was recently at [<FontIcon icon="fas fa-globe"/>CSS Day](https://cssday.nl/) and got to see [<FontIcon icon="fas fa-globe"/>Brecht De Ruyte](https://utilitybend.com/) do a whole talk on it. He’s also go a ~~three~~four-part series on it ([<FontIcon icon="fas fa-globe"/>starting here](https://utilitybend.com/blog/the-customizable-select-part-one-history-trickery-and-styling-the-select-with-css)). My brain was full of CSS stuff while there, I had a weird hankering to work on a custom select that combined a bunch of it. I roped Brecht into collabing on my idea.
+I was recently at [<VPIcon icon="fas fa-globe"/>CSS Day](https://cssday.nl/) and got to see [<VPIcon icon="fas fa-globe"/>Brecht De Ruyte](https://utilitybend.com/) do a whole talk on it. He’s also go a ~~three~~four-part series on it ([<VPIcon icon="fas fa-globe"/>starting here](https://utilitybend.com/blog/the-customizable-select-part-one-history-trickery-and-styling-the-select-with-css)). My brain was full of CSS stuff while there, I had a weird hankering to work on a custom select that combined a bunch of it. I roped Brecht into collabing on my idea.
 
-See, we were on the heals of the whole [<FontIcon icon="fa-brands fa-apple"/>liquid glass thing from Apple](https://apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/) and it seemed fun to make the selects kinda glassy with borders and blur. I also wanted to if *animating the select in* was possible (and maybe stagger them in?!). Plus, I was reminiscing about the [<FontIcon icon="fas fa-file-image"/>original weird iOS select UI](https://frontendmasters.com/blog/wp-content/uploads/2025/06/iphoneselect.png) where it had a special UI that came up from the bottom. Is that maybe… *better?* for thumb-reach? So let’s try that.
+See, we were on the heals of the whole [<VPIcon icon="fa-brands fa-apple"/>liquid glass thing from Apple](https://apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/) and it seemed fun to make the selects kinda glassy with borders and blur. I also wanted to if *animating the select in* was possible (and maybe stagger them in?!). Plus, I was reminiscing about the [<VPIcon icon="fas fa-file-image"/>original weird iOS select UI](https://frontendmasters.com/blog/wp-content/uploads/2025/06/iphoneselect.png) where it had a special UI that came up from the bottom. Is that maybe… *better?* for thumb-reach? So let’s try that.
 
 ---
 
@@ -81,7 +81,7 @@ That’s saying:
 1. We’re going to wipe out the base styling anyway. Even browsers that don’t support the entire suite of custom styles for selects support styling the basic element itself, just not the “picker” part.
 2. In browsers that support it, we need to set `appearance: base-select;` to opt-in to the custom styleabtlity, and we need to do it both on the select itself and the picker, which uses this newfangled pseudo element.
 
-Minor aside: it’s interesting that the `appearance` value is `base-select` for now. In the hopefully-not-too-distant future, we’ll be opt-in “resetting” not just selects but [<FontIcon icon="fa-brands fa-youtube"/>all the form elements with `appearance: base`.](https://youtu.be/WgSiqSqxTxw) But I guess that isn’t far enough along and may have been a slightly dangerous breaking change scenario, so it’s isolated to `base-select` for now. So be it.
+Minor aside: it’s interesting that the `appearance` value is `base-select` for now. In the hopefully-not-too-distant future, we’ll be opt-in “resetting” not just selects but [<VPIcon icon="fa-brands fa-youtube"/>all the form elements with `appearance: base`.](https://youtu.be/WgSiqSqxTxw) But I guess that isn’t far enough along and may have been a slightly dangerous breaking change scenario, so it’s isolated to `base-select` for now. So be it.
 
 ---
 
@@ -160,7 +160,7 @@ When the browser supports it, we’ll rip off the SVG background we were using f
 
 ## The Picker
 
-Styling the part that opens up when you active a select we’re calling the “picker”, and this is the part that’s completely new to be able to style. You get your hands on it with the somewhat unusual `select::picker(select)` selector. You have to put `select` in the pseudo function thing — it’s the [<FontIcon icon="fa-brands fa-firefox"/>only valid value](https://developer.mozilla.org/en-US/docs/Web/CSS/::picker#parameters). For now? Maybe it’s because in the future they’ll want to use `::picker` for date inputs or the like? Not sure but whatever.
+Styling the part that opens up when you active a select we’re calling the “picker”, and this is the part that’s completely new to be able to style. You get your hands on it with the somewhat unusual `select::picker(select)` selector. You have to put `select` in the pseudo function thing — it’s the [<VPIcon icon="fa-brands fa-firefox"/>only valid value](https://developer.mozilla.org/en-US/docs/Web/CSS/::picker#parameters). For now? Maybe it’s because in the future they’ll want to use `::picker` for date inputs or the like? Not sure but whatever.
 
 ```scss
 select {

@@ -133,7 +133,7 @@ In the above example, you check each applicant’s credentials and schedule an i
 
 ::: info Technical Detail
 
-Python’s `any()` and `or` aren’t limited to evaluating Boolean expressions. Instead, Python performs a [<FontIcon icon="fa-brands fa-python"/>truth value test](https://docs.python.org/3/library/stdtypes.html#truth-value-testing) on each argument, evaluating whether the expression is [**truthy or falsy**](/realpython.com/python-operators-expressions.md#evaluation-of-non-boolean-values-in-boolean-context). For example, nonzero integer values are considered truthy and zero is considered falsy:
+Python’s `any()` and `or` aren’t limited to evaluating Boolean expressions. Instead, Python performs a [<VPIcon icon="fa-brands fa-python"/>truth value test](https://docs.python.org/3/library/stdtypes.html#truth-value-testing) on each argument, evaluating whether the expression is [**truthy or falsy**](/realpython.com/python-operators-expressions.md#evaluation-of-non-boolean-values-in-boolean-context). For example, nonzero integer values are considered truthy and zero is considered falsy:
 
 ```py
 1 or 0
@@ -156,7 +156,7 @@ python recruit_developer.py
 
 The reason the program chose to schedule interviews with Susan and Sam is that Susan already knows Python and Sam has a degree. Notice each candidate only needed to meet one criterion.
 
-Another way to evaluate the applicants’ credentials is to use `any()`. When you use `any()` in Python, you must pass the applicants’ credentials as an [<FontIcon icon="fas fa-globe"/>iterable](https://realpython.com/lessons/looping-over-iterables/) argument:
+Another way to evaluate the applicants’ credentials is to use `any()`. When you use `any()` in Python, you must pass the applicants’ credentials as an [<VPIcon icon="fas fa-globe"/>iterable](https://realpython.com/lessons/looping-over-iterables/) argument:
 
 ```py
 for applicant in applicants:
@@ -211,7 +211,7 @@ First, you’ll learn about how syntax affects the usability and readability of 
 
 ### Syntax
 
-`or` is an [<FontIcon icon="fas fa-globe"/>operator](https://realpython.com/lessons/operators-and-built-functions/), so it takes two arguments, one on either side:
+`or` is an [<VPIcon icon="fas fa-globe"/>operator](https://realpython.com/lessons/operators-and-built-functions/), so it takes two arguments, one on either side:
 
 ```py
 True or False
@@ -236,7 +236,7 @@ functools.reduce(lambda x, y: x or y, (True, False, False))
 # True
 ```
 
-In the above example, you used [<FontIcon icon="fas fa-globe"/>`reduce()`](https://realpython.com/lessons/python-reduce-function/) to pass an iterable as an argument to `or`. This could be done much more efficiently with `any`, which directly accepts iterables as arguments.
+In the above example, you used [<VPIcon icon="fas fa-globe"/>`reduce()`](https://realpython.com/lessons/python-reduce-function/) to pass an iterable as an argument to `or`. This could be done much more efficiently with `any`, which directly accepts iterables as arguments.
 
 To illustrate another way that the syntax of each tool affects its usability, imagine that you want to avoid testing a condition if any preceding condition is `True`:
 
@@ -269,7 +269,7 @@ There are ways to make Python call functions lazily when you’re using iterable
 any((meets_criteria(applicant) for applicant in applicants))
 ```
 
-This example uses a [<FontIcon icon="fas fa-globe"/>generator expression](https://realpython.com/courses/python-generators/) to generate Boolean values indicating whether an applicant meets the criteria for an interview. Once an applicant meets the criteria, `any()` will return `True` without checking the remaining applicants. But keep in mind that these types of workarounds also present their own issues and may not be appropriate in every situation.
+This example uses a [<VPIcon icon="fas fa-globe"/>generator expression](https://realpython.com/courses/python-generators/) to generate Boolean values indicating whether an applicant meets the criteria for an interview. Once an applicant meets the criteria, `any()` will return `True` without checking the remaining applicants. But keep in mind that these types of workarounds also present their own issues and may not be appropriate in every situation.
 
 The most important thing to remember is that the syntactic difference between `any()` and `or` can affect their usability.
 
@@ -316,7 +316,7 @@ You now know:
 
 If you would like to continue learning about conditional expressions and how to use tools like `or` and `any()` in Python, then you can check out the following resources:
 
-- [<FontIcon icon="fa-brands fa-python"/>`operator.or_()`](https://docs.python.org/3.4/library/operator.html#operator.or_)
+- [<VPIcon icon="fa-brands fa-python"/>`operator.or_()`](https://docs.python.org/3.4/library/operator.html#operator.or_)
 - [**`all()`**](/realpython.com/python-all.md)
 - [**`while` loops**](/realpython.com/python-while-loop.md)
 

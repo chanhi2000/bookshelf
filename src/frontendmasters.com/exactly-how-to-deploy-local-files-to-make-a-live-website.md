@@ -127,7 +127,7 @@ We’ll call them (and you might hear them being referred to as) “static files
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/Screenshot-2024-05-15-at-3.40.14%E2%80%AFPM.png?resize=1024%2C840&ssl=1)
 
-The example website we’ll use here is the wonderful [Personal Portfolio Page from Tiffany Du (<FontIcon icon="fa-brands fa-codepen"/>`tiffanyadu`)](https://codepen.io/tiffanyadu/pen/QpdMmr). The `file://` URL above will work on my computer, but not yours!
+The example website we’ll use here is the wonderful [Personal Portfolio Page from Tiffany Du (<VPIcon icon="fa-brands fa-codepen"/>`tiffanyadu`)](https://codepen.io/tiffanyadu/pen/QpdMmr). The `file://` URL above will work on my computer, but not yours!
 
 Now you want it to be a *real* website on the *real* internet.
 
@@ -139,7 +139,7 @@ Good on ya. This is a **powerful** moment. Your creation is about to be viewable
 
 ## 1) Sign up for Netlify
 
-This is not an ad for Netlify. We have no affiliation. [<FontIcon icon="fas fa-globe"/>Sign up here.](https://app.netlify.com/signup)
+This is not an ad for Netlify. We have no affiliation. [<VPIcon icon="fas fa-globe"/>Sign up here.](https://app.netlify.com/signup)
 
 There are other options, and we’ll cover those later. We’re picking a path forward and going for it. Truth be told, Netlify is a good host particularly for static files like this and has a generous free starter plan. You can grow with Netlify as they ultimately handle any amount of traffic and have lots of advanced features as you need them.
 
@@ -157,7 +157,7 @@ It could be anywhere on your computer, depending on where you created it or down
 
 If you’ve exported from CodePen…
 
-You’ll get a `.zip` file that you can double-click to “extract” into a folder. Inside *that* folder you’ll see a <FontIcon icon="fas fa-folder-open"/>`dist` folder, <FontIcon icon="fas fa-folder-open"/>`src` folder, and some other files. **It’s the <FontIcon icon="fas fa-folder-open"/>`dist` folder that you’ll use for the next step here.**
+You’ll get a `.zip` file that you can double-click to “extract” into a folder. Inside *that* folder you’ll see a <VPIcon icon="fas fa-folder-open"/>`dist` folder, <VPIcon icon="fas fa-folder-open"/>`src` folder, and some other files. **It’s the <VPIcon icon="fas fa-folder-open"/>`dist` folder that you’ll use for the next step here.**
 
 ---
 
@@ -189,7 +189,7 @@ The URL you’re given from Netlify is customizable, but it’s still what is ca
 https://my-cool-porfolio.netlify.app
 ```
 
-Where `my-cool-porfolio` is the customizable part. Subdomains are fine. I actually [<FontIcon icon="fas fa-globe"/>quite like them](https://chriscoyier.net/2023/09/21/use-subdomains/)… when they are *your* subdomain. It’s reasonable, and I’d argue a good idea, to have your own domain name. Something like:
+Where `my-cool-porfolio` is the customizable part. Subdomains are fine. I actually [<VPIcon icon="fas fa-globe"/>quite like them](https://chriscoyier.net/2023/09/21/use-subdomains/)… when they are *your* subdomain. It’s reasonable, and I’d argue a good idea, to have your own domain name. Something like:
 
 ```http
 https://your-name.com
@@ -197,7 +197,7 @@ https://your-name.com
 
 The dashboard area in Netlify will essentially walk you through this. Domain names are never free though, so this part will cost money on a yearly basis.
 
-Remember there are lots of fun “top level domains” (TLDs) as well. That is, the `.com` part of `website.com`. I’d encourage you to have fun there. Get yourself a `.me`, `.dev`, or heck, there is even a `.portfolio` you could get. [<FontIcon icon="fas fa-globe"/>I use `.net`](https://chriscoyier.net/) myself.
+Remember there are lots of fun “top level domains” (TLDs) as well. That is, the `.com` part of `website.com`. I’d encourage you to have fun there. Get yourself a `.me`, `.dev`, or heck, there is even a `.portfolio` you could get. [<VPIcon icon="fas fa-globe"/>I use `.net`](https://chriscoyier.net/) myself.
 
 ---
 
@@ -207,18 +207,18 @@ There are plenty of other hosting services that can do this job. All these liste
 
 | Hosting Service | Advantages | Disadvantages |
 | --- | --- | --- |
-| [<FontIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/) | [<FontIcon icon="fa-brands fa-cloudflare"/>Cloudflare Pages](https://pages.cloudflare.com/) has a drag and drop deployment option and advanced features much like Netlify and Vercel. | Nothing major. Largely just as easy as Netlify and similar features. |
-| [<FontIcon icon="iconfont icon-vercel"/>Vercel](https://vercel.com/chris-coyiers-projects) | Vercel is a very comparable service to Netlify. It is essentially designed for this. | Requires code be in a Git repository. |
-| [<FontIcon icon="iconfont icon-github"/>GitHub](https://github.com/) | [<FontIcon icon="iconfont icon-github"/>GitHub Pages](https://pages.github.com/) is designed for this. If your code is on GitHub anyway, this can be a natural choice. Note that [<FontIcon icon="fa-brands fa-gitlab"/>GitLab also has pages](https://docs.gitlab.com/ee/user/project/pages/), as well as [<FontIcon icon="fa-brands fa-bitbucket"/>Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/). | You’ll need to use Git. Learning Git is a great idea, but for absolute beginners this might be too much. Using a custom domain is more difficult. No advanced features to grow into. |
-| [<FontIcon icon="fa-brands fa-aws"/>AWS](https://aws.amazon.com/) | [<FontIcon icon="fa-brands fa-aws"/>AWS Amplify](https://aws.amazon.com/amplify/) is designed to be the easy version of using AWS tools, and focuses on deploying sites. They offer a similar drag-and-drop deployment ([<FontIcon icon="fas fa-globe"/>screenshot](https://share.cleanshot.com/wRBlnl3h)). | Getting set up with an AWS account and generally navigating AWS at all nobody would call easy. |
-| [<FontIcon icon="iconfont icon-firebase"/>Google Firebase](https://firebase.google.com/) | [<FontIcon icon="iconfont icon-firebase"/>Firebase Hosting](https://firebase.google.com/products/hosting) is largely in the same bucket as all of the above. | Requires CLI. People don’t generally use Firebase *just* for static hosting. It’s more commonly used for their realtime database features. |
-| [<FontIcon icon="iconfont icon-microsoftazure"/>Microsoft Azure](https://azure.microsoft.com/en-us/free/search/?OCID=AIDcmmfq865whp_SEM__k_EAIaIQobChMItIzI8M-ThgMVm9XCBB169QIkEAAYASAAEgJnNPD_BwE_k_) | [<FontIcon icon="iconfont icon-microsoftazure"/>Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static) is Microsoft’s product in the category that is largely in the same bucket as all of the above. | Just feels a little jankier than many others to me, although if you use other Azure products perhaps it feels more at home. Requires code to be in Git. |
-| [<FontIcon icon="fas fa-globe"/>Render](https://render.com/) | [<FontIcon icon="fas fa-globe"/>Render Static Sites](https://docs.render.com/static-sites) is largely in the same bucket as all of the above. Hosts lots of other types of sites as well, so you could potentially have a single host for different types of sites. | Requires code be in a Git repository. |
-| [<FontIcon icon="fas fa-globe"/>Kinsta](https://kinsta.com/) | [<FontIcon icon="fas fa-globe"/>Kinsta Static Site Hosting](https://kinsta.com/static-site-hosting/) is largely in the same bucket as all of the above. Hosts lots of other types of sites as well, so you could potentially have a single host for different types of sites. | Requires code be in a Git repository. |
-| [<FontIcon icon="fas fa-globe"/>Surge](https://surge.sh/) | An early no-frills classic in this space. | Requires CLI. Feels abandoned. |
-| [<FontIcon icon="fas fa-globe"/>Forge](https://getforge.com/pricing) |  | Looks like there is only a free trial, no free tier. But I literally couldn’t sign up to check it out, it felt entirely broken. |
-| [<FontIcon icon="fas fa-globe"/>Static.app](https://static.app/pricing) | [<FontIcon icon="fas fa-youtube"/>Looks](https://youtu.be/1siRN0amOx4) like a pretty nice option! Drag and drop uploading. Very streamlined interface. | Only free trial, no free tier |
-| [<FontIcon icon="fas fa-globe"/>Tiiny Host](https://tiiny.host/free-static-website-hosting/) | Also looks like a pretty nice option. Drag and drop uploading. Very streamlined interface. | I’ve seen a bunch of spam hosted on these URLs which makes me nervous. |
+| [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/) | [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare Pages](https://pages.cloudflare.com/) has a drag and drop deployment option and advanced features much like Netlify and Vercel. | Nothing major. Largely just as easy as Netlify and similar features. |
+| [<VPIcon icon="iconfont icon-vercel"/>Vercel](https://vercel.com/chris-coyiers-projects) | Vercel is a very comparable service to Netlify. It is essentially designed for this. | Requires code be in a Git repository. |
+| [<VPIcon icon="iconfont icon-github"/>GitHub](https://github.com/) | [<VPIcon icon="iconfont icon-github"/>GitHub Pages](https://pages.github.com/) is designed for this. If your code is on GitHub anyway, this can be a natural choice. Note that [<VPIcon icon="fa-brands fa-gitlab"/>GitLab also has pages](https://docs.gitlab.com/ee/user/project/pages/), as well as [<VPIcon icon="fa-brands fa-bitbucket"/>Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/). | You’ll need to use Git. Learning Git is a great idea, but for absolute beginners this might be too much. Using a custom domain is more difficult. No advanced features to grow into. |
+| [<VPIcon icon="fa-brands fa-aws"/>AWS](https://aws.amazon.com/) | [<VPIcon icon="fa-brands fa-aws"/>AWS Amplify](https://aws.amazon.com/amplify/) is designed to be the easy version of using AWS tools, and focuses on deploying sites. They offer a similar drag-and-drop deployment ([<VPIcon icon="fas fa-globe"/>screenshot](https://share.cleanshot.com/wRBlnl3h)). | Getting set up with an AWS account and generally navigating AWS at all nobody would call easy. |
+| [<VPIcon icon="iconfont icon-firebase"/>Google Firebase](https://firebase.google.com/) | [<VPIcon icon="iconfont icon-firebase"/>Firebase Hosting](https://firebase.google.com/products/hosting) is largely in the same bucket as all of the above. | Requires CLI. People don’t generally use Firebase *just* for static hosting. It’s more commonly used for their realtime database features. |
+| [<VPIcon icon="iconfont icon-microsoftazure"/>Microsoft Azure](https://azure.microsoft.com/en-us/free/search/?OCID=AIDcmmfq865whp_SEM__k_EAIaIQobChMItIzI8M-ThgMVm9XCBB169QIkEAAYASAAEgJnNPD_BwE_k_) | [<VPIcon icon="iconfont icon-microsoftazure"/>Azure Static Web Apps](https://azure.microsoft.com/en-us/products/app-service/static) is Microsoft’s product in the category that is largely in the same bucket as all of the above. | Just feels a little jankier than many others to me, although if you use other Azure products perhaps it feels more at home. Requires code to be in Git. |
+| [<VPIcon icon="fas fa-globe"/>Render](https://render.com/) | [<VPIcon icon="fas fa-globe"/>Render Static Sites](https://docs.render.com/static-sites) is largely in the same bucket as all of the above. Hosts lots of other types of sites as well, so you could potentially have a single host for different types of sites. | Requires code be in a Git repository. |
+| [<VPIcon icon="fas fa-globe"/>Kinsta](https://kinsta.com/) | [<VPIcon icon="fas fa-globe"/>Kinsta Static Site Hosting](https://kinsta.com/static-site-hosting/) is largely in the same bucket as all of the above. Hosts lots of other types of sites as well, so you could potentially have a single host for different types of sites. | Requires code be in a Git repository. |
+| [<VPIcon icon="fas fa-globe"/>Surge](https://surge.sh/) | An early no-frills classic in this space. | Requires CLI. Feels abandoned. |
+| [<VPIcon icon="fas fa-globe"/>Forge](https://getforge.com/pricing) |  | Looks like there is only a free trial, no free tier. But I literally couldn’t sign up to check it out, it felt entirely broken. |
+| [<VPIcon icon="fas fa-globe"/>Static.app](https://static.app/pricing) | [<VPIcon icon="fas fa-youtube"/>Looks](https://youtu.be/1siRN0amOx4) like a pretty nice option! Drag and drop uploading. Very streamlined interface. | Only free trial, no free tier |
+| [<VPIcon icon="fas fa-globe"/>Tiiny Host](https://tiiny.host/free-static-website-hosting/) | Also looks like a pretty nice option. Drag and drop uploading. Very streamlined interface. | I’ve seen a bunch of spam hosted on these URLs which makes me nervous. |
 
 Let us know what you’ve used or tried!
 

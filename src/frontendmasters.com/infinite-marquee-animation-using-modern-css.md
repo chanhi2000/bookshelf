@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6673"/>
 
-A set of logos with an infinite repeating slide animation is a classic component in web development. We can find countless examples and implementations starting from the old (and now deprecated) [<FontIcon icon="fa-brands fa-firefox"/>`<marquee>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/marquee). I’ve written [<FontIcon icon="fas fa-globe"/>an article](https://verpex.com/blog/website-tips/how-to-create-a-css-only-infinite-scroll-animation) about it myself a few years ago.
+A set of logos with an infinite repeating slide animation is a classic component in web development. We can find countless examples and implementations starting from the old (and now deprecated) [<VPIcon icon="fa-brands fa-firefox"/>`<marquee>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/marquee). I’ve written [<VPIcon icon="fas fa-globe"/>an article](https://verpex.com/blog/website-tips/how-to-create-a-css-only-infinite-scroll-animation) about it myself a few years ago.
 
 *“Why another article?”* you ask. CSS keeps evolving with new and powerful features, so I always try to find room for improvement and optimization. We’ll do that now with some new CSS features.
 
@@ -111,7 +111,7 @@ It would be perfect if we could have a native way to create a continuous animati
 
 Inside path, I am using the SVG syntax to define a line, and I simply move the image along that line by animating `offset-distance` between 0% and 100%. This looks perfect at first glance since we have the animation we want but it’s not a flexible approach because `path()` accepts only hard-coded pixel values.
 
-To overcome the limitation of `path()`, we are going to use [**the new `shape()` function**](/frontendmasters.com/shape-a-new-powerful-drawing-syntax-in-css.md)! Here is a quote from [<FontIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-1/#shape-function):
+To overcome the limitation of `path()`, we are going to use [**the new `shape()` function**](/frontendmasters.com/shape-a-new-powerful-drawing-syntax-in-css.md)! Here is a quote from [<VPIcon icon="fas fa-globe"/>the specification](https://drafts.csswg.org/css-shapes-1/#shape-function):
 
 > The `shape()` function uses a set of commands roughly equivalent to the ones used by `path()`, but does so with more standard CSS syntax, and allows the full range of CSS functionality, such as additional units and math functions … In that sense, `shape()` is a superset of `path()`.
 
@@ -243,7 +243,7 @@ img:nth-child(2) {animation-delay: -2 *  duration/total_image }
 
 Tedious work, right? And we need as many selectors as the number of images in the HTML code, which is not good. What we want is a generic CSS code that doesn’t depend on the HTML structure (the number of images).
 
-Similar to the `sibling-count()`that gives us the total number of images, we also have [<FontIcon icon="fas fa-globe"/>`sibling-index()`](https://css-tip.com/element-index/)` [<FontIcon icon="fas fa-globe"/>that gives us the index of each image within the container](https://css-tip.com/element-index/). All we have to do is to update the animation property and include the delay using the index value that will be different for each image, hence a different delay for each image!
+Similar to the `sibling-count()`that gives us the total number of images, we also have [<VPIcon icon="fas fa-globe"/>`sibling-index()`](https://css-tip.com/element-index/)` [<VPIcon icon="fas fa-globe"/>that gives us the index of each image within the container](https://css-tip.com/element-index/). All we have to do is to update the animation property and include the delay using the index value that will be different for each image, hence a different delay for each image!
 
 ```css
 animation: 
@@ -382,7 +382,7 @@ Do you still see the code as a complex one? I hope not!
 
 ::: note
 
-The use of `min()` or `max()` is not always intuitive, but [<FontIcon icon="fas fa-globe"/>I have a small tutorial that can help you identify which one to use](https://css-tip.com/min-max/).
+The use of `min()` or `max()` is not always intuitive, but [<VPIcon icon="fas fa-globe"/>I have a small tutorial that can help you identify which one to use](https://css-tip.com/min-max/).
 
 :::
 

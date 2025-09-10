@@ -71,7 +71,7 @@ I know you’re here to learn about manipulating colors  —  and we’ll ge
 
 ![How To Manipulate CSS Colors With JavaScript](/assets/image/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript/banner.png)
 
-An initialism for “red, green, blue,” [RGB (<FontIcon icon="fa-brands fa-codepen"/>`AdamGiese`)](https://codepen.io/AdamGiese/full/5783951de51e0db0f569d5abbd9cb2f7) consists of three numbers that each signify how much light of its respective color is included in the resulting end color. In CSS, each of these numbers is in the range of 0-255 and would be written as comma-separated parameters of the CSS `rgb` function. For example, `rgb(50,100,0)`.
+An initialism for “red, green, blue,” [RGB (<VPIcon icon="fa-brands fa-codepen"/>`AdamGiese`)](https://codepen.io/AdamGiese/full/5783951de51e0db0f569d5abbd9cb2f7) consists of three numbers that each signify how much light of its respective color is included in the resulting end color. In CSS, each of these numbers is in the range of 0-255 and would be written as comma-separated parameters of the CSS `rgb` function. For example, `rgb(50,100,0)`.
 
 RGB is an “additive” color system, which means that the higher each number is, the brighter the end color will be. If all values are equal, the color will be grayscale; if all values are zero, the result will be black; and if all values are 255, the result will be white.
 
@@ -81,7 +81,7 @@ Although I usually find myself reaching for RGB (particularly hexadecimal) out o
 
 ### HSL
 
-An initialism for “hue, saturation, light,” [HSL (<FontIcon icon="fa-brands fa-codepen"/>`AdamGiese`)](https://codepen.io/AdamGiese/full/989988044f3b8cf6403e3c60f56dd612) also consists of three values. The hue value corresponds to the position on the color wheel and is represented by a CSS angle value; most commonly, deg units are used.
+An initialism for “hue, saturation, light,” [HSL (<VPIcon icon="fa-brands fa-codepen"/>`AdamGiese`)](https://codepen.io/AdamGiese/full/989988044f3b8cf6403e3c60f56dd612) also consists of three values. The hue value corresponds to the position on the color wheel and is represented by a CSS angle value; most commonly, deg units are used.
 
 Saturation, represented by a percentage, refers to the intensity of the color. When saturation is 100 percent, it is fully colored; the less saturation, the less color, until it reaches grayscale at 0 percent.
 
@@ -278,7 +278,7 @@ const hslToObject = (hue, saturation, lightness) => {
 
 ### Example
 
-I highly encourage you to spend some time [playing with this example (<FontIcon icon="fa-brands fa-codepen"/>`AdamGiese`)](https://codepen.io/AdamGiese/full/86b353c35a8bfe0868a8b48683faf668). Seeing how each of the attributes interacts when you adjust the others can give you a deeper understanding of how the two color models fit together.
+I highly encourage you to spend some time [playing with this example (<VPIcon icon="fa-brands fa-codepen"/>`AdamGiese`)](https://codepen.io/AdamGiese/full/86b353c35a8bfe0868a8b48683faf668). Seeing how each of the attributes interacts when you adjust the others can give you a deeper understanding of how the two color models fit together.
 
 ---
 

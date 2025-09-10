@@ -71,7 +71,7 @@ With these insights, you’re ready to dive into the world of image processing w
 
 ::: tip Get Images
 
-[<FontIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
+[<VPIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
 
 :::
 
@@ -81,17 +81,17 @@ With these images in hand, you’re now ready to get started with Pillow.
 
 ## Basic Image Operations With the Python Pillow Library
 
-The [<FontIcon icon="fas fa-globe"/>Python Pillow library](https://pillow.readthedocs.io/en/stable/) is a fork of an older library called PIL. PIL stands for Python Imaging Library, and it’s the original library that enabled Python to deal with images. PIL was discontinued in 2011 and only supports Python 2. To use its developers’ own description, Pillow is the friendly PIL fork that kept the library alive and includes support for Python 3. There’s more than one module in Python to deal with images and perform image processing. If you want to deal with images directly by manipulating their pixels, then you can use [<FontIcon icon="iconfont icon-numpy"/>NumPy](https://numpy.org) and [<FontIcon icon="fas fa-globe"/>SciPy](https://scipy.org). Other popular libraries for image processing are [<FontIcon icon="fas fa-globe"/>OpenCV](https://docs.opencv.org/4.x/), [<FontIcon icon="fas fa-globe"/>scikit-image](https://scikit-image.org), and [<FontIcon icon="fas fa-globe"/>Mahotas](https://mahotas.readthedocs.io/en/latest/). Some of these libraries are faster and more powerful than Pillow.
+The [<VPIcon icon="fas fa-globe"/>Python Pillow library](https://pillow.readthedocs.io/en/stable/) is a fork of an older library called PIL. PIL stands for Python Imaging Library, and it’s the original library that enabled Python to deal with images. PIL was discontinued in 2011 and only supports Python 2. To use its developers’ own description, Pillow is the friendly PIL fork that kept the library alive and includes support for Python 3. There’s more than one module in Python to deal with images and perform image processing. If you want to deal with images directly by manipulating their pixels, then you can use [<VPIcon icon="iconfont icon-numpy"/>NumPy](https://numpy.org) and [<VPIcon icon="fas fa-globe"/>SciPy](https://scipy.org). Other popular libraries for image processing are [<VPIcon icon="fas fa-globe"/>OpenCV](https://docs.opencv.org/4.x/), [<VPIcon icon="fas fa-globe"/>scikit-image](https://scikit-image.org), and [<VPIcon icon="fas fa-globe"/>Mahotas](https://mahotas.readthedocs.io/en/latest/). Some of these libraries are faster and more powerful than Pillow.
 
 However, Pillow remains an important tool for dealing with images. It provides image processing features that are similar to ones found in image processing software such as Photoshop. Pillow is often the preferred option for high-level image processing tasks that don’t require more advanced image processing expertise. It’s also often used for exploratory work when dealing with images.
 
 Pillow also has the advantage of being widely used by the Python community, and it doesn’t have the same steep learning curve as some of the other image processing libraries.
 
-You’ll need to install the library before you can use it. You can install Pillow using [<FontIcon icon="fa-brands fa-python"/>`pip`](https://realpython.com/what-is-pip/) within a [**virtual environment**](/realpython.com/python-virtual-environments-a-primer.md):
+You’ll need to install the library before you can use it. You can install Pillow using [<VPIcon icon="fa-brands fa-python"/>`pip`](https://realpython.com/what-is-pip/) within a [**virtual environment**](/realpython.com/python-virtual-environments-a-primer.md):
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m venv venv
@@ -99,7 +99,7 @@ python -m venv venv
 python -m pip install Pillow
 ```
 
-@tab <FontIcon icon="iconfont icon-shell"/>
+@tab <VPIcon icon="iconfont icon-shell"/>
 
 ```sh
 python -m venv venv
@@ -109,17 +109,17 @@ python -m pip install Pillow
 
 :::
 
-Now that you’ve installed the package, you’re ready to start familiarizing yourself with the [<FontIcon icon="fas fa-globe"/>Python Pillow library](https://pillow.readthedocs.io/en/stable/reference/index.html) and perform basic manipulations of images.
+Now that you’ve installed the package, you’re ready to start familiarizing yourself with the [<VPIcon icon="fas fa-globe"/>Python Pillow library](https://pillow.readthedocs.io/en/stable/reference/index.html) and perform basic manipulations of images.
 
 ### The `Image` Module and `Image` Class in Pillow
 
-The main class defined in Pillow is the [<FontIcon icon="fas fa-globe"/>`Image`](https://pillow.readthedocs.io/en/stable/reference/Image.html) class. When you read an image using Pillow, the image is stored in an object of type `Image`.
+The main class defined in Pillow is the [<VPIcon icon="fas fa-globe"/>`Image`](https://pillow.readthedocs.io/en/stable/reference/Image.html) class. When you read an image using Pillow, the image is stored in an object of type `Image`.
 
-For the code in this section, you’ll need the image file named <FontIcon icon="fas fa-file-image"/>`buildings.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/memorycatcher-168384/)), which you can find in the image repository for this tutorial:
+For the code in this section, you’ll need the image file named <VPIcon icon="fas fa-file-image"/>`buildings.jpg` ([<VPIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/memorycatcher-168384/)), which you can find in the image repository for this tutorial:
 
 ::: tip Get Images
 
-[<FontIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
+[<VPIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
 
 :::
 
@@ -143,9 +143,9 @@ isinstance(img, Image.Image)
 
 You might expect to import from Pillow instead of from PIL. You did install `Pillow`, after all, not `PIL`. However, Pillow is a fork of the PIL library. Therefore, you’ll still need to use `PIL` when importing into your code.
 
-You call the [<FontIcon icon="fas fa-globe"/>`open()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.open) function to read the image from the file and [<FontIcon icon="fas fa-globe"/>`.load()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.load) to read the image into memory so that the file can now be closed. You use a `with` statement to create a context manager to ensure the file is closed as soon as it’s no longer needed.
+You call the [<VPIcon icon="fas fa-globe"/>`open()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.open) function to read the image from the file and [<VPIcon icon="fas fa-globe"/>`.load()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.load) to read the image into memory so that the file can now be closed. You use a `with` statement to create a context manager to ensure the file is closed as soon as it’s no longer needed.
 
-In this example, the object is a JPEG image-specific type that’s a subclass of the `Image` class, as you confirm with the call to `isinstance()`. Note that both the class and the module where the class is defined share the same name, `Image`. You can display the image using [<FontIcon icon="fas fa-globe"/>`.show()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.show):
+In this example, the object is a JPEG image-specific type that’s a subclass of the `Image` class, as you confirm with the call to `isinstance()`. Note that both the class and the module where the class is defined share the same name, `Image`. You can display the image using [<VPIcon icon="fas fa-globe"/>`.show()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.show):
 
 ```py
 img.show()
@@ -157,7 +157,7 @@ The `.show()` method saves the image as a temporary file and displays it using y
 
 On some systems, calling `.show()` will block the REPL until you close the image. This depends on the operating system and the default image viewing software that you’re using.
 
-You’ll need to be familiar with three key properties when dealing with images in the Python Pillow library. You can explore these using the `Image` class attributes [<FontIcon icon="fas fa-globe"/>`.format`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.format), [<FontIcon icon="fas fa-globe"/>`.size`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.size), and [<FontIcon icon="fas fa-globe"/>`.mode`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.mode):
+You’ll need to be familiar with three key properties when dealing with images in the Python Pillow library. You can explore these using the `Image` class attributes [<VPIcon icon="fas fa-globe"/>`.format`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.format), [<VPIcon icon="fas fa-globe"/>`.size`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.size), and [<VPIcon icon="fas fa-globe"/>`.mode`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.mode):
 
 ```py
 img.format
@@ -173,7 +173,7 @@ img.mode
 
 The format of an image shows what type of image you’re dealing with. In this case, the format of the image is `'JPEG'`. The size shows the width and height of the image in pixels. The mode of this image is `'RGB'`. You’ll learn more about modes shortly.
 
-Often, you may need to crop and resize images. The `Image` class has two methods that you can use to perform these operations, [<FontIcon icon="fas fa-globe"/>`.crop()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.crop) and [<FontIcon icon="fas fa-globe"/>`.resize()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.resize):
+Often, you may need to crop and resize images. The `Image` class has two methods that you can use to perform these operations, [<VPIcon icon="fas fa-globe"/>`.crop()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.crop) and [<VPIcon icon="fas fa-globe"/>`.resize()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.resize):
 
 ```py
 cropped_img = img.crop((300, 150, 700, 1000))
@@ -187,7 +187,7 @@ low_res_img = cropped_img.resize(
 low_res_img.show()
 ```
 
-The argument to `.crop()` must be a 4-tuple that defines the left, upper, right, and bottom edges of the region that you wish to crop. The [<FontIcon icon="fas fa-globe"/>coordinate system](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#coordinate-system) used in Pillow assigns the coordinates (0, 0) to the pixel in the upper-left corner. This is the same coordinate system that’s usually used for two-dimensional [**arrays**](/realpython.com/python-data-structures/#array-data-structures.md). The 4-tuple represents the following section of the image:
+The argument to `.crop()` must be a 4-tuple that defines the left, upper, right, and bottom edges of the region that you wish to crop. The [<VPIcon icon="fas fa-globe"/>coordinate system](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#coordinate-system) used in Pillow assigns the coordinates (0, 0) to the pixel in the upper-left corner. This is the same coordinate system that’s usually used for two-dimensional [**arrays**](/realpython.com/python-data-structures/#array-data-structures.md). The 4-tuple represents the following section of the image:
 
 ![A crop operation showing the dimensions taken from the origin](https://files.realpython.com/media/pillow_coordinate_crop2.15af40c34f15.png)
 
@@ -197,17 +197,17 @@ The new image that `.crop()` returns in the code above has a size of `400x850` p
 
 In the code above, you also change the resolution of the cropped image using `.resize()`, which needs a tuple as a required argument. The tuple that you use as an argument defines the new width and height of the image in pixels.
 
-In the example above, you’re setting the new width and height to a quarter of their original values using the [<FontIcon icon="fa-brands fa-python"/>floor division operator](https://docs.python.org/3/glossary.html#term-floor-division) (`//`) and the `Image` attributes [<FontIcon icon="fas fa-globe"/>`.width`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.width) and [<FontIcon icon="fas fa-globe"/>`.height`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.height). The final call to `show()` displays the cropped and resized image:
+In the example above, you’re setting the new width and height to a quarter of their original values using the [<VPIcon icon="fa-brands fa-python"/>floor division operator](https://docs.python.org/3/glossary.html#term-floor-division) (`//`) and the `Image` attributes [<VPIcon icon="fas fa-globe"/>`.width`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.width) and [<VPIcon icon="fas fa-globe"/>`.height`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.height). The final call to `show()` displays the cropped and resized image:
 
 ![Resized image in Python Pillow tutorial](https://files.realpython.com/media/buildings-3.8aaa8fee17fb.jpg)
 
-There are additional optional parameters that you can use with [<FontIcon icon="fas fa-globe"/>`.resize()`](https://pillow.readthedocs.io/en/stable/reference/Image.html?highlight=resize#PIL.Image.Image.resize) to control how the image is [<FontIcon icon="fa-brands fa-wikipedia-w"/>resampled](https://en.wikipedia.org/wiki/Image_scaling). Alternatively, you can achieve similar scaling using [<FontIcon icon="fas fa-globe"/>`.reduce()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.reduce):
+There are additional optional parameters that you can use with [<VPIcon icon="fas fa-globe"/>`.resize()`](https://pillow.readthedocs.io/en/stable/reference/Image.html?highlight=resize#PIL.Image.Image.resize) to control how the image is [<VPIcon icon="fa-brands fa-wikipedia-w"/>resampled](https://en.wikipedia.org/wiki/Image_scaling). Alternatively, you can achieve similar scaling using [<VPIcon icon="fas fa-globe"/>`.reduce()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.reduce):
 
 ```py
 low_res_img = cropped_img.reduce(4)
 ```
 
-The argument determines the factor by which you scale the image down. If you prefer to set a maximum size rather than a scaling factor, then you can use [<FontIcon icon="fas fa-globe"/>`.thumbnail()`](https://pillow.readthedocs.io/en/stable/reference/Image.html?highlight=thumbnail#PIL.Image.Image.thumbnail). The size of the thumbnail will be smaller than or equal to the size that you set.
+The argument determines the factor by which you scale the image down. If you prefer to set a maximum size rather than a scaling factor, then you can use [<VPIcon icon="fas fa-globe"/>`.thumbnail()`](https://pillow.readthedocs.io/en/stable/reference/Image.html?highlight=thumbnail#PIL.Image.Image.thumbnail). The size of the thumbnail will be smaller than or equal to the size that you set.
 
 ::: note
 
@@ -215,7 +215,7 @@ The `.thumbnail()` method changes the `Image` object in place and doesn’t retu
 
 :::
 
-Once you’re happy with your returned image, you can save any of the `Image` objects to file using [<FontIcon icon="fas fa-globe"/>`.save()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.save):
+Once you’re happy with your returned image, you can save any of the `Image` objects to file using [<VPIcon icon="fas fa-globe"/>`.save()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.save):
 
 ```py
 cropped_img.save("cropped_image.jpg")
@@ -226,7 +226,7 @@ Once you call the method, it creates the image files in your project folder. In 
 
 ### Basic Image Manipulation
 
-You can manipulate the image beyond cropping and resizing. Another common requirement is to rotate or flip the image. You can use the [<FontIcon icon="fas fa-globe"/>`.transpose()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.transpose) method for some transformations. Go ahead and carry on with the same REPL session that you started in the previous section:
+You can manipulate the image beyond cropping and resizing. Another common requirement is to rotate or flip the image. You can use the [<VPIcon icon="fas fa-globe"/>`.transpose()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.transpose) method for some transformations. Go ahead and carry on with the same REPL session that you started in the previous section:
 
 ```py
 converted_img = img.transpose(Image.FLIP_TOP_BOTTOM)
@@ -247,7 +247,7 @@ There are seven options that you can pass as arguments to `.transpose()`:
 6. `Image.TRANSPOSE`: Transposes the rows and columns using the top-left pixel as the origin, with the top-left pixel being the same in the transposed image as in the original image
 7. `Image.TRANSVERSE`: Transposes the rows and columns using the bottom-left pixel as the origin, with the bottom-left pixel being the one that remains fixed between the original and modified versions
 
-All the rotation options above define rotations in steps of 90 degrees. If you need to rotate an image by another angle, then you can use [<FontIcon icon="fas fa-globe"/>`.rotate()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.rotate):
+All the rotation options above define rotations in steps of 90 degrees. If you need to rotate an image by another angle, then you can use [<VPIcon icon="fas fa-globe"/>`.rotate()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.rotate):
 
 ```py
 rotated_img = img.rotate(45)
@@ -269,19 +269,19 @@ This method returns a larger image that fully contains the rotated image:
 
 ![Rotated image with expand parameter in Python Pillow tutorial](https://files.realpython.com/media/buildings-6.cef4d68b9ba3.jpg)
 
-You can customize the rotation further with [<FontIcon icon="fas fa-globe"/>additional optional parameters](https://pillow.readthedocs.io/en/stable/reference/Image.html?highlight=Image.rotate#PIL.Image.Image.rotate). You can now change the size and orientation of an image. In the next section, you’ll learn about different types of images in the Python Pillow library.
+You can customize the rotation further with [<VPIcon icon="fas fa-globe"/>additional optional parameters](https://pillow.readthedocs.io/en/stable/reference/Image.html?highlight=Image.rotate#PIL.Image.Image.rotate). You can now change the size and orientation of an image. In the next section, you’ll learn about different types of images in the Python Pillow library.
 
 ### Bands and Modes of an Image in the Python Pillow Library
 
-An image is a two-dimensional array of pixels, where each pixel corresponds to a color. Each pixel can be represented by one or more values. For example, in an [<FontIcon icon="fa-brands fa-wikipedia-w"/>RGB](https://en.wikipedia.org/wiki/RGB_color_model) image, each pixel is represented by three values corresponding to the red, green, and blue values for that pixel.
+An image is a two-dimensional array of pixels, where each pixel corresponds to a color. Each pixel can be represented by one or more values. For example, in an [<VPIcon icon="fa-brands fa-wikipedia-w"/>RGB](https://en.wikipedia.org/wiki/RGB_color_model) image, each pixel is represented by three values corresponding to the red, green, and blue values for that pixel.
 
 Therefore, the `Image` object for an RBG image contains three bands, one for each color. An RGB image of size `100x100` pixels is represented by a `100x100x3` array of values.
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>RGB](https://en.wikipedia.org/wiki/RGB_color_model) images also include the alpha value, which contains information about the transparency for each pixel. An RGBA image has four bands, one for each of the colors and a fourth one containing the alpha values. Each band has the same dimensions as the image dimensions. Therefore, an RGBA image of size `100x100` pixels is represented by a `100x100x4` array of values.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>RGB](https://en.wikipedia.org/wiki/RGB_color_model) images also include the alpha value, which contains information about the transparency for each pixel. An RGBA image has four bands, one for each of the colors and a fourth one containing the alpha values. Each band has the same dimensions as the image dimensions. Therefore, an RGBA image of size `100x100` pixels is represented by a `100x100x4` array of values.
 
-The mode of an image describes what type of image you’re working with. Pillow supports most standard modes, including black-and-white (binary), grayscale, RGB, RGBA, and [<FontIcon icon="fa-brands fa-wikipedia-w"/>CMYK](https://en.wikipedia.org/wiki/CMYK_color_model). You can see the full list of supported modes in the Pillow documentation on [<FontIcon icon="fas fa-globe"/>modes](https://pillow.readthedocs.io/en/stable/handbook/concepts.html?highlight=bands#modes).
+The mode of an image describes what type of image you’re working with. Pillow supports most standard modes, including black-and-white (binary), grayscale, RGB, RGBA, and [<VPIcon icon="fa-brands fa-wikipedia-w"/>CMYK](https://en.wikipedia.org/wiki/CMYK_color_model). You can see the full list of supported modes in the Pillow documentation on [<VPIcon icon="fas fa-globe"/>modes](https://pillow.readthedocs.io/en/stable/handbook/concepts.html?highlight=bands#modes).
 
-You can find out how many bands are in an `Image` object using the [<FontIcon icon="fas fa-globe"/>`.getbands()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.getbands) method, and you can convert between modes using [<FontIcon icon="fas fa-globe"/>`.convert()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.convert). Now you’ll use the image named <FontIcon icon="fas fa-file-image"/>`strawberry.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/geoluro11-15863448/)) from the image repository for this tutorial:
+You can find out how many bands are in an `Image` object using the [<VPIcon icon="fas fa-globe"/>`.getbands()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.getbands) method, and you can convert between modes using [<VPIcon icon="fas fa-globe"/>`.convert()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.convert). Now you’ll use the image named <VPIcon icon="fas fa-file-image"/>`strawberry.jpg` ([<VPIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/geoluro11-15863448/)) from the image repository for this tutorial:
 
 ![Strawberry image for Python Pillow tutorial](https://files.realpython.com/media/strawberry-1.438a9555d0c2.jpg)
 
@@ -316,7 +316,7 @@ You call `.convert()` twice to convert the RGB image into a CMYK and a grayscale
 
 The outputs from the calls to `.getbands()` confirm that there are three bands in the RGB image, four bands in the CMYK image, and one band in the grayscale image.
 
-You can separate an image into its bands using [`<FontIcon icon="fas fa-globe"/>.split()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.split) and combine separate bands back into an `Image` object using [<FontIcon icon="fas fa-globe"/>`merge()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.merge). When you use `.split()`, the method returns all the bands as separate `Image` objects. You can confirm this by displaying the string representation of one of the objects returned:
+You can separate an image into its bands using [`<VPIcon icon="fas fa-globe"/>.split()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.split) and combine separate bands back into an `Image` object using [<VPIcon icon="fas fa-globe"/>`merge()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.merge). When you use `.split()`, the method returns all the bands as separate `Image` objects. You can confirm this by displaying the string representation of one of the objects returned:
 
 ```py
 red, green, blue = img.split()
@@ -328,7 +328,7 @@ red.mode
 # 'L'
 ```
 
-The mode of the object that `.split()` returns is `'L'`, indicating this is a grayscale image, or an image that only displays the [<FontIcon icon="fa-brands fa-wikipedia-w"/>luminance](https://en.wikipedia.org/wiki/Luminance) values of each pixel.
+The mode of the object that `.split()` returns is `'L'`, indicating this is a grayscale image, or an image that only displays the [<VPIcon icon="fa-brands fa-wikipedia-w"/>luminance](https://en.wikipedia.org/wiki/Luminance) values of each pixel.
 
 Now, you can create three new RGB images showing the red, green, and blue channels separately using `merge()`, which is a function in the `Image` module:
 
@@ -414,13 +414,13 @@ This function was used to generate all the displays that show more than one imag
 
 ## Image Processing Using Pillow in Python
 
-You’ve learned how to crop and rotate images, resize them, and extract color bands from color images. However, none of the actions that you’ve taken so far have made any changes to the content of the image. In this section, you’ll learn about image processing features in the Python Pillow library. You’ll use the [<FontIcon icon="fas fa-globe"/>`ImageFilter`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html?highlight=imagefilter#imagefilter-module) module in Pillow.
+You’ve learned how to crop and rotate images, resize them, and extract color bands from color images. However, none of the actions that you’ve taken so far have made any changes to the content of the image. In this section, you’ll learn about image processing features in the Python Pillow library. You’ll use the [<VPIcon icon="fas fa-globe"/>`ImageFilter`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html?highlight=imagefilter#imagefilter-module) module in Pillow.
 
 ### Image Filters Using Convolution Kernels
 
-One of the methods that’s used in image processing is image convolution using kernels. The aim of this tutorial is not to give a detailed explanation of image processing theory. If you’re interested in the science of image processing, one of the best resources that you can use is [<FontIcon icon="fa-brands fa-amazon"/>*Digital Image Processing* by Gonzalez and Woods](https://amazon.com/dp/9353062985/?tag=devdetailpage02-20).
+One of the methods that’s used in image processing is image convolution using kernels. The aim of this tutorial is not to give a detailed explanation of image processing theory. If you’re interested in the science of image processing, one of the best resources that you can use is [<VPIcon icon="fa-brands fa-amazon"/>*Digital Image Processing* by Gonzalez and Woods](https://amazon.com/dp/9353062985/?tag=devdetailpage02-20).
 
-In this section, you’ll learn the basics of how you can use convolution kernels to perform image processing. But what’s a [<FontIcon icon="fa-brands fa-wikipedia-w"/>convolution kernel](https://en.wikipedia.org/wiki/Kernel_(image_processing))? A kernel is a matrix:
+In this section, you’ll learn the basics of how you can use convolution kernels to perform image processing. But what’s a [<VPIcon icon="fa-brands fa-wikipedia-w"/>convolution kernel](https://en.wikipedia.org/wiki/Kernel_(image_processing))? A kernel is a matrix:
 
 ![Convolution kernel](https://files.realpython.com/media/kernel-1.3600b296fff0.png)
 
@@ -457,11 +457,11 @@ The result of the convolution is shown on the right in the following image, with
 
 ![Convolution kernel demo with Python Pillow](https://files.realpython.com/media/kernel-demo-tiled.2ee004251df4.jpg)
 
-The kernel that you used is a [<FontIcon icon="fa-brands fa-wikipedia-w"/>box blur kernel](https://en.wikipedia.org/wiki/Box_blur). The factor of `1/9` is there so that the overall weighting of the kernel is `1`. The result of the convolution is a blurred version of the original image. There are other kernels that perform different functions, including different blurring methods, edge detection, sharpening, and more.
+The kernel that you used is a [<VPIcon icon="fa-brands fa-wikipedia-w"/>box blur kernel](https://en.wikipedia.org/wiki/Box_blur). The factor of `1/9` is there so that the overall weighting of the kernel is `1`. The result of the convolution is a blurred version of the original image. There are other kernels that perform different functions, including different blurring methods, edge detection, sharpening, and more.
 
 The Python Pillow library has several built-in kernels and functions that’ll perform the convolution described above. You don’t need to understand the math of filtering through convolution to use these filters, but it always helps to know what’s happening behind the scenes when using these tools.
 
-The next sections will look at the kernels and image filtering capabilities available in the [<FontIcon icon="fas fa-globe"/>`ImageFilter`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html) module in Pillow.
+The next sections will look at the kernels and image filtering capabilities available in the [<VPIcon icon="fas fa-globe"/>`ImageFilter`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html) module in Pillow.
 
 ### Image Blurring, Sharpening, and Smoothing
 
@@ -474,7 +474,7 @@ with Image.open(filename) as img:
     img.load()
 ```
 
-In addition to `Image`, you also import the `ImageFilter` module from Pillow. You can use the [<FontIcon icon="fas fa-globe"/>`.filter()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.filter) method to apply filtering to the image. This method needs a convolution kernel as its argument, and you can use one of the several kernels available in the [<FontIcon icon="fas fa-globe"/>`ImageFilter`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html?highlight=imagefilter#module-PIL.ImageFilter) module in Pillow. The first set of filters that you’ll learn about deal with blurring, sharpening, and smoothing an image.
+In addition to `Image`, you also import the `ImageFilter` module from Pillow. You can use the [<VPIcon icon="fas fa-globe"/>`.filter()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.filter) method to apply filtering to the image. This method needs a convolution kernel as its argument, and you can use one of the several kernels available in the [<VPIcon icon="fas fa-globe"/>`ImageFilter`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html?highlight=imagefilter#module-PIL.ImageFilter) module in Pillow. The first set of filters that you’ll learn about deal with blurring, sharpening, and smoothing an image.
 
 You can blur the image using the predefined `ImageFilter.BLUR` filter:
 
@@ -494,7 +494,7 @@ The two cropped images show the difference between the two versions:
 
 ![Image showing blur in Python Pillow](https://files.realpython.com/media/blur-comparison-1.41349dbb4d21.jpg)
 
-You can customize the type and amount of blurring that you need using [<FontIcon icon="fas fa-globe"/>`ImageFilter.BoxBlur()`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html#PIL.ImageFilter.BoxBlur) or [<FontIcon icon="fas fa-globe"/>`ImageFilter.GaussianBlur()`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html#PIL.ImageFilter.GaussianBlur):
+You can customize the type and amount of blurring that you need using [<VPIcon icon="fas fa-globe"/>`ImageFilter.BoxBlur()`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html#PIL.ImageFilter.BoxBlur) or [<VPIcon icon="fas fa-globe"/>`ImageFilter.GaussianBlur()`](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html#PIL.ImageFilter.GaussianBlur):
 
 ```py
 img.filter(ImageFilter.BoxBlur(5)).show()
@@ -510,7 +510,7 @@ The `.BoxBlur()` filter is similar to the one described in the previous section 
 
 The blurred images show that the box blur filter with a radius of `20` produces an image that’s more blurred than the image generated by the box blur filter with radius `5`.
 
-You can also use the `.GaussianBlur()` filter, which uses a [<FontIcon icon="fa-brands fa-wikipedia-w"/>Gaussian blur kernel](https://en.wikipedia.org/wiki/Gaussian_blur). The Gaussian kernel puts more weight on the pixels at the center of the kernel than those at the edges, and this leads to smoother blurring than what’s obtained with the box blur. For this reason, Gaussian blurring can give better results in many cases.
+You can also use the `.GaussianBlur()` filter, which uses a [<VPIcon icon="fa-brands fa-wikipedia-w"/>Gaussian blur kernel](https://en.wikipedia.org/wiki/Gaussian_blur). The Gaussian kernel puts more weight on the pixels at the center of the kernel than those at the edges, and this leads to smoother blurring than what’s obtained with the box blur. For this reason, Gaussian blurring can give better results in many cases.
 
 What if you want to sharpen an image? In that case, you can use the `ImageFilter.SHARPEN` filter and compare the result with the original image:
 
@@ -540,7 +540,7 @@ You’ll see an application of the smooth filter in the next section, in which y
 
 ### Edge Detection, Edge Enhancement, and Embossing
 
-When you look at an image, it’s relatively easy to determine the edges of objects within that image. It’s also possible for an algorithm to detect edges automatically using [<FontIcon icon="fa-brands fa-wikipedia-w"/>edge detection kernels](https://en.wikipedia.org/wiki/Edge_detection).
+When you look at an image, it’s relatively easy to determine the edges of objects within that image. It’s also possible for an algorithm to detect edges automatically using [<VPIcon icon="fa-brands fa-wikipedia-w"/>edge detection kernels](https://en.wikipedia.org/wiki/Edge_detection).
 
 The `ImageFilter` module in Pillow has a predefined kernel to achieve this. In this section, you’ll use the image of the buildings again and convert it to grayscale before you apply the edge detection filter. You can carry on with the REPL session from the previous section:
 
@@ -588,17 +588,17 @@ You’re using the smoothed, grayscale version as a starting point for this filt
 
 ![Image emboss in Python Pillow](https://files.realpython.com/media/emboss.c6f777d2aa48.jpg)
 
-In this section, you’ve learned about several filters available in the `ImageFilter` module that you can apply to images. There are other filters that you can use to process images. You can see a list of all the filters available in the [<FontIcon icon="fas fa-globe"/>`ImageFilter` documentation](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html?highlight=imagefilter#imagefilter-module).
+In this section, you’ve learned about several filters available in the `ImageFilter` module that you can apply to images. There are other filters that you can use to process images. You can see a list of all the filters available in the [<VPIcon icon="fas fa-globe"/>`ImageFilter` documentation](https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html?highlight=imagefilter#imagefilter-module).
 
 ---
 
 ## Image Segmentation and Superimposition: An Example
 
-In this section, you’ll use the image files named <FontIcon icon="fas fa-file-image"/>`cat.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/mabelamber-1377835/)) and <FontIcon icon="fas fa-file-image"/>`monastery.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/tama66-1032521/)), which you can find in the image repository for this tutorial:
+In this section, you’ll use the image files named <VPIcon icon="fas fa-file-image"/>`cat.jpg` ([<VPIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/mabelamber-1377835/)) and <VPIcon icon="fas fa-file-image"/>`monastery.jpg` ([<VPIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/tama66-1032521/)), which you can find in the image repository for this tutorial:
 
 ::: tip Get Images
 
-[<FontIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
+[<VPIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
 
 :::
 
@@ -612,7 +612,7 @@ You can use the Python Pillow library to extract the cat from the first image an
 
 ### Image Thresholding
 
-You’ll start by working on <FontIcon icon="fas fa-file-image"/>`cat.jpg`. You’ll need to remove the picture of the cat from the background using image segmentation techniques. In this example, you’ll segment the image using [<FontIcon icon="fa-brands fa-wikipedia-w"/>thresholding](https://en.wikipedia.org/wiki/Thresholding_(image_processing)) techniques.
+You’ll start by working on <VPIcon icon="fas fa-file-image"/>`cat.jpg`. You’ll need to remove the picture of the cat from the background using image segmentation techniques. In this example, you’ll segment the image using [<VPIcon icon="fa-brands fa-wikipedia-w"/>thresholding](https://en.wikipedia.org/wiki/Thresholding_(image_processing)) techniques.
 
 First, you can crop the image to a smaller one to remove some of the background. You can start a new REPL session for this project:
 
@@ -679,7 +679,7 @@ You use a threshold value of `57` in this example. You also convert the image in
 
 ::: note
 
-When dealing with certain image formats, such as JPEG, that rely on [<FontIcon icon="fa-brands fa-wikipedia-w"/>lossy compression](https://en.wikipedia.org/wiki/Lossy_compression), the images may vary slightly depending on which JPEG decoders you’re using. Different operating systems often come with different default JPEG decoders. Therefore, the results that you get when processing images may vary depending on the operating system and JPEG decoder that you’re using.
+When dealing with certain image formats, such as JPEG, that rely on [<VPIcon icon="fa-brands fa-wikipedia-w"/>lossy compression](https://en.wikipedia.org/wiki/Lossy_compression), the images may vary slightly depending on which JPEG decoders you’re using. Different operating systems often come with different default JPEG decoders. Therefore, the results that you get when processing images may vary depending on the operating system and JPEG decoder that you’re using.
 
 :::
 
@@ -691,11 +691,11 @@ The result of thresholding is the following:
 
 You can identify the cat in this black-and-white image. However, you’d like to have an image in which all the pixels that correspond to the cat are white and all other pixels are black. In this image, you still have black regions in the area which corresponds to the cat, such as where the eyes, nose and mouth are, and you also still have white pixels elsewhere in the image.
 
-You can use the image processing techniques called [<FontIcon icon="fa-brands fa-wikipedia-w"/>erosion](https://en.wikipedia.org/wiki/Erosion_(morphology)) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>dilation](https://en.wikipedia.org/wiki/Dilation_(morphology)) to create a better mask that represents the cat. You’ll learn about these two techniques in the next section.
+You can use the image processing techniques called [<VPIcon icon="fa-brands fa-wikipedia-w"/>erosion](https://en.wikipedia.org/wiki/Erosion_(morphology)) and [<VPIcon icon="fa-brands fa-wikipedia-w"/>dilation](https://en.wikipedia.org/wiki/Dilation_(morphology)) to create a better mask that represents the cat. You’ll learn about these two techniques in the next section.
 
 ### Erosion and Dilation
 
-You can look at the image file called <FontIcon icon="fas fa-file-image"/>`dot_and_hole.jpg`, which you can download from the repository linked to this tutorial:
+You can look at the image file called <VPIcon icon="fas fa-file-image"/>`dot_and_hole.jpg`, which you can download from the repository linked to this tutorial:
 
 ![Sample image to demonstrate erosion and dilation in Python Pillow](https://files.realpython.com/media/dot_and_hole.7d97ef4056d0.jpg)
 
@@ -703,7 +703,7 @@ The left-hand side of this binary image shows a white dot on a black background,
 
 Erosion is the process of removing white pixels from the boundaries in an image. You can achieve this in a binary image by using `ImageFilter.MinFilter(3)` as an argument for the `.filter()` method. This filter replaces the value of a pixel with the minimum value of the nine pixels in the `3x3` array centered around the pixel. In a binary image, this means that a pixel will have the value of zero if any of its neighboring pixels are zero.
 
-You can see the effect of erosion by applying `ImageFilter.MinFilter(3)` several times to the <FontIcon icon="fas fa-file-image"/>`dot_and_hole.jpg` image. You should continue with the same REPL session as in the previous section:
+You can see the effect of erosion by applying `ImageFilter.MinFilter(3)` several times to the <VPIcon icon="fas fa-file-image"/>`dot_and_hole.jpg` image. You should continue with the same REPL session as in the previous section:
 
 ```py
 from PIL import ImageFilter
@@ -842,7 +842,7 @@ cat_segmented = Image.composite(img_cat, blank, cat_mask)
 cat_segmented.show()
 ```
 
-First, you create a blank image with the same size as `img_cat`. You create a new `Image` object from `img_cat` by using `.point()` and setting all values to zero. Next, you use the [<FontIcon icon="fas fa-globe"/>`composite()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.composite) function in `PIL.Image` to create an image made up from both `img_cat` and `blank` using `cat_mask` to determine which parts of each image are used. The composite image is shown below:
+First, you create a blank image with the same size as `img_cat`. You create a new `Image` object from `img_cat` by using `.point()` and setting all values to zero. Next, you use the [<VPIcon icon="fas fa-globe"/>`composite()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.composite) function in `PIL.Image` to create an image made up from both `img_cat` and `blank` using `cat_mask` to determine which parts of each image are used. The composite image is shown below:
 
 ![Segmented image of cat in Python Pillow](https://files.realpython.com/media/cat_segmented.bd613e3f360d.jpg)
 
@@ -866,7 +866,7 @@ img_monastery.paste(
 img_monastery.show()
 ```
 
-You’ve used [<FontIcon icon="fas fa-globe"/>`.paste()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.paste) to paste an image onto another one. This method can be used with three arguments:
+You’ve used [<VPIcon icon="fas fa-globe"/>`.paste()`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.paste) to paste an image onto another one. This method can be used with three arguments:
 
 - The first argument is the **image** that you want to paste in. You’re resizing the image to one-fifth of its size using the integer division operator (`//`).
 - The second argument is the **location** in the main image where you want to paste the second picture. The tuple includes the coordinates within the main image where you want to place the top-left corner of the image that you’re pasting in.
@@ -884,7 +884,7 @@ Your final task in this example is to add the Real Python logo as a watermark to
 
 ::: tip Get Images
 
-[<FontIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
+[<VPIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
 
 :::
 
@@ -953,7 +953,7 @@ The watermark has a rectangular outline, which is a result of the contour filter
 
 Pillow has an extensive selection of built-in functions and filters. However, there are times when you need to go further and manipulate images beyond the features that are already available in Pillow.
 
-You can manipulate the image further with the help of [<FontIcon icon="iconfont icon-numpy"/>NumPy](https://numpy.org). NumPy is a very popular Python library for dealing with numeric arrays, and it’s an ideal tool to use with Pillow. You can learn more about NumPy in [**NumPy Tutorial: Your First Steps Into Data Science in Python**](/realpython.com/numpy-tutorial.md).
+You can manipulate the image further with the help of [<VPIcon icon="iconfont icon-numpy"/>NumPy](https://numpy.org). NumPy is a very popular Python library for dealing with numeric arrays, and it’s an ideal tool to use with Pillow. You can learn more about NumPy in [**NumPy Tutorial: Your First Steps Into Data Science in Python**](/realpython.com/numpy-tutorial.md).
 
 When you convert an image into a NumPy array, you can perform any transformations that you require directly on the pixels in the array. Once you’ve completed your processing in NumPy, you can convert the array back into an `Image` object using Pillow. You need to install NumPy for this section:
 
@@ -969,11 +969,11 @@ See if you can spot the differences between the following two images:
 
 ![Spot the difference using Python Pillow](https://files.realpython.com/media/spot_the_difference.45817e5a37c0.jpg)
 
-This isn’t a hard one! However, you decide to cheat and write a Python program to solve the puzzle for you. You can download the image files <FontIcon icon="fas fa-file-image"/>`house_left.jpg` and <FontIcon icon="fas fa-file-image"/>`house_right.jpg` ([<FontIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/creozavr-2567670/)) from the repository accompanying this tutorial:
+This isn’t a hard one! However, you decide to cheat and write a Python program to solve the puzzle for you. You can download the image files <VPIcon icon="fas fa-file-image"/>`house_left.jpg` and <VPIcon icon="fas fa-file-image"/>`house_right.jpg` ([<VPIcon icon="fas fa-globe"/>image credit](https://pixabay.com/users/creozavr-2567670/)) from the repository accompanying this tutorial:
 
 ::: tip Get Images
 
-[<FontIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
+[<VPIcon icon="fas fa-globe"/>Click here to get access to the images](https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/) that you’ll manipulate and process with Pillow.
 
 :::
 
@@ -1142,7 +1142,7 @@ The three squares with different colors merge into a single white square. Can yo
 
 ## Conclusion
 
-You’ve learned how to use Pillow to deal with images and perform image processing. If you’ve enjoyed working with images, you may want to dive headlong into the world of image processing. There’s a lot more to learn about the theory and practice of image processing. A good starting point is [<FontIcon icon="fa-brands fa-amazon"/>*Digital Image Processing* by Gonzalez and Woods](https://amazon.com/dp/9353062985/?tag=devdetailpage02-20), which is the classic textbook in this field.
+You’ve learned how to use Pillow to deal with images and perform image processing. If you’ve enjoyed working with images, you may want to dive headlong into the world of image processing. There’s a lot more to learn about the theory and practice of image processing. A good starting point is [<VPIcon icon="fa-brands fa-amazon"/>*Digital Image Processing* by Gonzalez and Woods](https://amazon.com/dp/9353062985/?tag=devdetailpage02-20), which is the classic textbook in this field.
 
 Pillow isn’t the only library that you can use in Python for image processing. If your aim is to perform some basic processing, then the techniques that you learned in this tutorial may be all you need. If you want to go deeper into more advanced image processing techniques, such as for machine learning and computer vision applications, then you can use Pillow as a stepping stone to other libraries such as OpenCV and scikit-image.
 

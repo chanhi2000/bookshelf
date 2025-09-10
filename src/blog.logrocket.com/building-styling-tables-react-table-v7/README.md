@@ -60,15 +60,15 @@ It’s widely acknowledged that creating a table with React is a pain. No surpri
 
 ![Building And Styling Tables With react-table v7](/assets/image/blog.logrocket.com/building-styling-tables-react-table-v7/banner.jpeg)
 
-With the latest major release, [React Table v7 (<FontIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases/tag/v7.0.0), creator Tanner Linsley aimed to refactor the entire library to a UI-, style-, and markup-agnostic table building tool that uses Hooks exclusively.
+With the latest major release, [React Table v7 (<VPIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases/tag/v7.0.0), creator Tanner Linsley aimed to refactor the entire library to a UI-, style-, and markup-agnostic table building tool that uses Hooks exclusively.
 
-In this tutorial, we’ll tell you all you need to know about the latest version of `react-table` (at the time of writing, the most recent release is [React Table v7.6.3 (<FontIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases)), outline the major changes and new features shipped with React Table v7, and see them in action with a basic example.
+In this tutorial, we’ll tell you all you need to know about the latest version of `react-table` (at the time of writing, the most recent release is [React Table v7.6.3 (<VPIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases)), outline the major changes and new features shipped with React Table v7, and see them in action with a basic example.
 
 ---
 
 ## Introducing React Table v7
 
-In March 2020, React Table creator Tanner Linsley released[React Table v7 (<FontIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases/tag/v7.0.0), which he described as “the culmination of over a years \[sic\] worth of work to refactor the entire library to a hooks-only UI/Style/Markup agnostic table building utility.”
+In March 2020, React Table creator Tanner Linsley released[React Table v7 (<VPIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table/releases/tag/v7.0.0), which he described as “the culmination of over a years \[sic\] worth of work to refactor the entire library to a hooks-only UI/Style/Markup agnostic table building utility.”
 
 <VidStack src="youtube/fwOZUU3OqmY" />
 
@@ -154,7 +154,7 @@ As we can see, react-table is capable of creating tables with lots of capabiliti
 
 It provides us with a Hooks-based API to create tables, which is important since some devs would like to switch to using function components with Hooks now.
 
-There are many more examples to showcase what react-table can do on [its official GitHub repo (<FontIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table). Some examples are simplified from the examples on their official website.
+There are many more examples to showcase what react-table can do on [its official GitHub repo (<VPIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table). Some examples are simplified from the examples on their official website.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -55,7 +55,7 @@ In this section, you’ll take a look at the available tools for debugging in Py
 
 Debugging is the process of looking for the root causes of **bugs** or defects in software after they’ve been discovered, as well as taking steps to fix them.
 
-The term **bug** has an [<FontIcon icon="fa-brands fa-wikipedia-w"/>amusing story](https://en.wikipedia.org/wiki/Debugging#Origin_of_the_term) about the origin of its name.
+The term **bug** has an [<VPIcon icon="fa-brands fa-wikipedia-w"/>amusing story](https://en.wikipedia.org/wiki/Debugging#Origin_of_the_term) about the origin of its name.
 
 :::
 
@@ -97,7 +97,7 @@ On the other hand, once you master more advanced techniques, it’s hard to go b
 
 Besides, it requires you to make changes in the code, which isn’t always possible. Maybe you’re debugging an application running in a remote web server or want to diagnose a problem in a **post-mortem** fashion. Sometimes you simply don’t have access to the standard output.
 
-That’s precisely where [<FontIcon icon="fas fa-name"/>logging](https://realpython.com/courses/logging-python/) shines.
+That’s precisely where [<VPIcon icon="fas fa-name"/>logging](https://realpython.com/courses/logging-python/) shines.
 
 ---
 
@@ -206,8 +206,8 @@ def average(numbers):
         return sum(numbers) / len(numbers)
 ```
 
-You’re probably going to use a visual debugger integrated with a code editor for the most part. [<FontIcon icon="iconfont icon-pycharm"/>PyCharm](https://jetbrains.com/pycharm/) has an excellent debugger, which boasts high performance, but you’ll find [**plenty of alternative IDEs**](/realpython.com/python-ides-code-editors-guide.md) with debuggers, both paid and free of charge.
+You’re probably going to use a visual debugger integrated with a code editor for the most part. [<VPIcon icon="iconfont icon-pycharm"/>PyCharm](https://jetbrains.com/pycharm/) has an excellent debugger, which boasts high performance, but you’ll find [**plenty of alternative IDEs**](/realpython.com/python-ides-code-editors-guide.md) with debuggers, both paid and free of charge.
 
-Debugging isn’t the proverbial silver bullet. Sometimes logging or tracing will be a better solution. For example, defects that are hard to reproduce, such as [<FontIcon icon="fa-brands fa-wikipedia-w"/>race conditions](https://en.wikipedia.org/wiki/Race_condition), often result from temporal coupling. When you stop at a breakpoint, that little pause in program execution may mask the problem. It’s kind of like the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Heisenberg principle](https://en.wikipedia.org/wiki/Uncertainty_principle): you can’t measure and observe a bug at the same time.
+Debugging isn’t the proverbial silver bullet. Sometimes logging or tracing will be a better solution. For example, defects that are hard to reproduce, such as [<VPIcon icon="fa-brands fa-wikipedia-w"/>race conditions](https://en.wikipedia.org/wiki/Race_condition), often result from temporal coupling. When you stop at a breakpoint, that little pause in program execution may mask the problem. It’s kind of like the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Heisenberg principle](https://en.wikipedia.org/wiki/Uncertainty_principle): you can’t measure and observe a bug at the same time.
 
 These methods aren’t mutually exclusive. They complement each other.

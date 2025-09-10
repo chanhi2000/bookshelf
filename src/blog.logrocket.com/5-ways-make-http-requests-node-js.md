@@ -54,7 +54,7 @@ cover: https://blog.logrocket.com/wp-content/uploads/2024/02/5-ways-make-http-re
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Joseph Maw](https://blog.logrocket.com/author/josephmawa/)a on 2 February 2024 to include changes made in Node 14, as well as to add information about implementing HTTP services with Express.js, and handling Node HTTPS POST requests.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Joseph Maw](https://blog.logrocket.com/author/josephmawa/)a on 2 February 2024 to include changes made in Node 14, as well as to add information about implementing HTTP services with Express.js, and handling Node HTTPS POST requests.
 
 :::
 
@@ -81,7 +81,7 @@ Before we dive in, here are some prerequisites:
 
 ## The example RESTful API we will use
 
-We will use each HTTP client to make a GET request to the [<FontIcon icon="fas fa-globe"/>JSONPlaceholder](https://jsonplaceholder.typicode.com/users) API. It will send us data for 10 users. We will log each username and ID on the console. You can find the examples from this article in [this GitHub repository (<FontIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests).
+We will use each HTTP client to make a GET request to the [<VPIcon icon="fas fa-globe"/>JSONPlaceholder](https://jsonplaceholder.typicode.com/users) API. It will send us data for 10 users. We will log each username and ID on the console. You can find the examples from this article in [this GitHub repository (<VPIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests).
 
 ---
 
@@ -91,7 +91,7 @@ We will explore five ways of making GET requests to the placeholder API. Let’s
 
 ### Standard Node.js HTTP(S) module
 
-Node.js comes with built-in [<FontIcon icon="fa-brands fa-node"/>HTTP](https://nodejs.org/api/http.html) and [<FontIcon icon="fa-brands fa-node"/>HTTPS](https://nodejs.org/api/https.html) modules. In the example below, we use the HTTPS module to perform a GET request to the placeholder API:
+Node.js comes with built-in [<VPIcon icon="fa-brands fa-node"/>HTTP](https://nodejs.org/api/http.html) and [<VPIcon icon="fa-brands fa-node"/>HTTPS](https://nodejs.org/api/https.html) modules. In the example below, we use the HTTPS module to perform a GET request to the placeholder API:
 
 ```js
 const https = require('https');
@@ -127,9 +127,9 @@ Next, we initialized `data` as an empty array and logged the status code and dat
 
 After receiving all the responses, we concatenate the data array, convert it to a string, and parse the JSON to get the list of users. We looped through the users and logged the user ID and name to the console.
 
-One thing to note here: if there is an error on the request, the error message is logged on the console. [The above code is available as a pull request (<FontIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/1).
+One thing to note here: if there is an error on the request, the error message is logged on the console. [The above code is available as a pull request (<VPIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/1).
 
-You can execute the code above using the `node native-https.js` command, provided you named the file <FontIcon icon="fa-brands fa-js"/>`native-https.js`. It should show an output like so:
+You can execute the code above using the `node native-https.js` command, provided you named the file <VPIcon icon="fa-brands fa-js"/>`native-https.js`. It should show an output like so:
 
 ![Output of node native code](https://blog.logrocket.com/wp-content/uploads/2021/02/Output-of-node-native-code.png)
 
@@ -164,7 +164,7 @@ You can use the Fetch API with async/await or promise chaining:
 
 Because the Fetch API is browser-compatible, the code you write for fetching data in the browser using the Fetch API can also be used in Node.js without modification and vice versa.
 
-Next in line for exploration is the Axios npm package — for this, we will need a <FontIcon icon="iconfont icon-json"/>`package.json` file.
+Next in line for exploration is the Axios npm package — for this, we will need a <VPIcon icon="iconfont icon-json"/>`package.json` file.
 
 ### Axios
 
@@ -204,13 +204,13 @@ Let’s explain what the above example does. We required the `axios` library and
 
 Axios transforms the response data into JSON out of the box. The response data in the above example is an array of users. We looped through it and logged the user ID and name to the console.
 
-In case of any error, we logged the error message on the console. The above example is also accessible as a [pull request (<FontIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/3/files).
+In case of any error, we logged the error message on the console. The above example is also accessible as a [pull request (<VPIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/3/files).
 
 Next, we will look at Got, another popular and feature-rich library.
 
 ### Got
 
-[Got (<FontIcon icon="fa-brands fa-npm"/>`got`)](https://npmjs.com/package/got) is another popular HTTP request library for Node.js. Got features a promise-based API, and its HTTP/2 support and pagination API are its unique selling points.
+[Got (<VPIcon icon="fa-brands fa-npm"/>`got`)](https://npmjs.com/package/got) is another popular HTTP request library for Node.js. Got features a promise-based API, and its HTTP/2 support and pagination API are its unique selling points.
 
 We can install Got with the following command:
 
@@ -244,13 +244,13 @@ The code example above is similar to Axios but with two main differences:
 1. We needed to pass `{responseType: 'json'}` as the second parameter to the `get` method to indicate that the response was in JSON format
 2. The status code header was called `statusCode`, not `status`
 
-Other things remained the same as the previous request with Axios. You can see the above example in [this pull request (<FontIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/4/files).
+Other things remained the same as the previous request with Axios. You can see the above example in [this pull request (<VPIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/4/files).
 
 Next up, we will look at superagent.
 
 ### superagent
 
-[<FontIcon icon="iconfont icon-github"/>`ladjs/superagent`](https://github.com/ladjs/superagent), first released in April 2011 by VisionMedia, is one of the oldest Node.js request packages. superagent brands itself as a “small, progressive, client-side HTTP request library and Node.js module with the same API, supporting many high-level HTTP client features.” It offers both callback- and promise-based APIs. [superagent has several plugins (<FontIcon icon="iconfont icon-github"/>`ladjs/superagent`)](https://github.com/ladjs/superagent#plugins) you can use to extend its functionality.
+[<VPIcon icon="iconfont icon-github"/>`ladjs/superagent`](https://github.com/ladjs/superagent), first released in April 2011 by VisionMedia, is one of the oldest Node.js request packages. superagent brands itself as a “small, progressive, client-side HTTP request library and Node.js module with the same API, supporting many high-level HTTP client features.” It offers both callback- and promise-based APIs. [superagent has several plugins (<VPIcon icon="iconfont icon-github"/>`ladjs/superagent`)](https://github.com/ladjs/superagent#plugins) you can use to extend its functionality.
 
 You can install superagent with the following command:
 
@@ -258,7 +258,7 @@ You can install superagent with the following command:
 npm install superagent
 ```
 
-Let’s look at what an API call looks like with superagent. We will use async/await with an [<FontIcon icon="fa-brands fa-firefox"/>Immediately Invoked Function Expression (IIFE)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) for this illustration instead of promise chaining:
+Let’s look at what an API call looks like with superagent. We will use async/await with an [<VPIcon icon="fa-brands fa-firefox"/>Immediately Invoked Function Expression (IIFE)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) for this illustration instead of promise chaining:
 
 ```js
 const superagent = require('superagent');
@@ -280,13 +280,13 @@ const superagent = require('superagent');
 })();
 ```
 
-superagent is mature and battle-tested, which makes it reliable. We can also test superagent calls with the [SuperTest library (<FontIcon icon="iconfont icon-github"/>`ladjs/supertest`)](https://github.com/ladjs/supertest). Like with the previous examples, the superagent example above is available as a [pull request (<FontIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/5/files).
+superagent is mature and battle-tested, which makes it reliable. We can also test superagent calls with the [SuperTest library (<VPIcon icon="iconfont icon-github"/>`ladjs/supertest`)](https://github.com/ladjs/supertest). Like with the previous examples, the superagent example above is available as a [pull request (<VPIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/5/files).
 
 Now, let’s look at node-fetch.
 
 ### node-fetch
 
-[<FontIcon icon="fa-brands fa-npm"/>`node-fetch`](https://npmjs.com/package/node-fetch) is another very popular HTTP request library for Node.js — in the first week of February 2024, it was downloaded more than 50 million times, [<FontIcon icon="fas fa-globe"/>according to npm trends](https://npmtrends.com/node-fetch).
+[<VPIcon icon="fa-brands fa-npm"/>`node-fetch`](https://npmjs.com/package/node-fetch) is another very popular HTTP request library for Node.js — in the first week of February 2024, it was downloaded more than 50 million times, [<VPIcon icon="fas fa-globe"/>according to npm trends](https://npmtrends.com/node-fetch).
 
 In their own words, “node-fetch is a lightweight module that brings the Fetch API (`window.fetch`) to Node.js.” Its features include consistency with the browser-based `window.fetch` and native promise and async functions.
 
@@ -323,17 +323,17 @@ Let’s review some of the differences here compared to our example of using sup
 1. node-fetch did not need an explicit GET method; the HTTP verb can be sent as a `method` key in the second parameter, which is an object. For instance: `{method: 'GET'}`
 2. Another difference is that the header is an object with a `get` method to get header values. We called `res.headers.get('date')` to get the value of the date response header
 
-As with the other code examples, the example above is accessible as a [pull request (<FontIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/6/files). Now it’s time to compare the four libraries that we just reviewed.
+As with the other code examples, the example above is accessible as a [pull request (<VPIcon icon="iconfont icon-github"/>`geshan/nodejs-requests`)](https://github.com/geshan/nodejs-requests/pull/6/files). Now it’s time to compare the four libraries that we just reviewed.
 
 ---
 
 ## A comparison of Node HTTP request methods
 
-Except for the built-in HTTP/HTTPS modules and the built-in fetch API, all the other four HTTP client libraries are available as npm packages. Below is a quick overview of their weekly download statistics for the past six months according to [<FontIcon icon="fas fa-globe"/>npm trends](https://npmtrends.com/axios-vs-got-vs-superagent-vs-node-fetch):
+Except for the built-in HTTP/HTTPS modules and the built-in fetch API, all the other four HTTP client libraries are available as npm packages. Below is a quick overview of their weekly download statistics for the past six months according to [<VPIcon icon="fas fa-globe"/>npm trends](https://npmtrends.com/axios-vs-got-vs-superagent-vs-node-fetch):
 
 ![NPM Trends Download Statistics](https://blog.logrocket.com/wp-content/uploads/2021/02/npm-trends-download-statistics-1.png)
 
-In terms of monthly downloads, node-fetch was the most popular, and superagent was the least popular in the past six months. To gain a more comprehensive understanding of their popularity, let’s examine additional metrics, drawing insights from the comparison table available on the [Got GitHub repository (<FontIcon icon="iconfont icon-github"/>`sindresorhus/got`)](https://github.com/sindresorhus/got#comparison):
+In terms of monthly downloads, node-fetch was the most popular, and superagent was the least popular in the past six months. To gain a more comprehensive understanding of their popularity, let’s examine additional metrics, drawing insights from the comparison table available on the [Got GitHub repository (<VPIcon icon="iconfont icon-github"/>`sindresorhus/got`)](https://github.com/sindresorhus/got#comparison):
 
 | | **Axios** | **Got** | **superagent** | **node-fetch** |
 | --- | --- | --- | --- | --- |
@@ -553,7 +553,7 @@ app.use(express.text());
 
 In the past, I used superagent quite extensively; after that, I moved to Axios. With its long feature list, I want to give Got a try soon. Even though node-fetch looks promising and has a small install size, I am not sure if the API is user-friendly enough — at least for me.
 
-You might notice the omission of the [Request npm package (<FontIcon icon="fa-brands fa-npm"/>`request`)](https://npmjs.com/package/request) in my discussion. Despite its continued popularity, with 11.42 million weekly downloads, Request has been deprecated as of February 2024, rendering it an impractical choice.
+You might notice the omission of the [Request npm package (<VPIcon icon="fa-brands fa-npm"/>`request`)](https://npmjs.com/package/request) in my discussion. Despite its continued popularity, with 11.42 million weekly downloads, Request has been deprecated as of February 2024, rendering it an impractical choice.
 
 All these libraries mainly do the same thing — much like which brand of coffee you prefer, in the end, you are still drinking coffee. Choose wisely depending on your use case, and make the right tradeoffs for maximum benefit.
 

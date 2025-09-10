@@ -52,7 +52,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/control-point
 
 ::: info
 
-The following is a guest post by [<FontIcon icon="fas fa-globe"/>Sara Soueidan](http://sarasoueidan.com/). Sara has a knack for digging deep into web features and explaining the heck out of them for the rest of us. Here she digs into SMIL (and friends), and animation syntax built right into SVG, and gives us this epic guide.
+The following is a guest post by [<VPIcon icon="fas fa-globe"/>Sara Soueidan](http://sarasoueidan.com/). Sara has a knack for digging deep into web features and explaining the heck out of them for the rest of us. Here she digs into SMIL (and friends), and animation syntax built right into SVG, and gives us this epic guide.
 
 :::
 
@@ -60,7 +60,7 @@ The following is a guest post by [<FontIcon icon="fas fa-globe"/>Sara Soueidan](
 
 ## Overview
 
-SVG graphics can be animated using **animation elements**. The animation elements were initially defined in the [<FontIcon icon="iconfont icon-w3c"/>SMIL](https://w3.org/TR/2001/REC-smil-animation-20010904/) Animation specification; these elements include:
+SVG graphics can be animated using **animation elements**. The animation elements were initially defined in the [<VPIcon icon="iconfont icon-w3c"/>SMIL](https://w3.org/TR/2001/REC-smil-animation-20010904/) Animation specification; these elements include:
 
 - `<animate></animate>`- which allows you to animate scalar attributes and properties over a period of time.
 - `<set></set>` - which is a convenient shorthand for animate, which is useful for assigning animation values to non-numeric attributes and properties, such as the visibility property.
@@ -81,11 +81,11 @@ SVG animations can be similar to CSS animations and transitions via by their nat
 
 ## Why use SVG animations?
 
-SVGs can be [<FontIcon icon="fas fa-globe"/>styled and animated with CSS (slides)](https://slides.com/sarasoueidan/styling-animating-svgs-with-css--2#/). Basically, any transformation or transition animation that can be applied to an HTML element can also be applied to an SVG element. But there are some SVG properties that cannot be animated through CSS that can through SVG. An SVG path, for example, comes with a set of **data** (a `d=""` attribute) that defines that path’s shape. This data can be modified and animated through SMIL, but not CSS. This is because SVG elements are described by a set of attributes known as SVG *presentation attributes*. Some of these attributes can be set, modified, and animated using CSS, and others can’t.
+SVGs can be [<VPIcon icon="fas fa-globe"/>styled and animated with CSS (slides)](https://slides.com/sarasoueidan/styling-animating-svgs-with-css--2#/). Basically, any transformation or transition animation that can be applied to an HTML element can also be applied to an SVG element. But there are some SVG properties that cannot be animated through CSS that can through SVG. An SVG path, for example, comes with a set of **data** (a `d=""` attribute) that defines that path’s shape. This data can be modified and animated through SMIL, but not CSS. This is because SVG elements are described by a set of attributes known as SVG *presentation attributes*. Some of these attributes can be set, modified, and animated using CSS, and others can’t.
 
 So, many animations and effects can simply not be achieved using CSS at this time. The CSS SVG animation gaps can be filled by using either JavaScript or the declarative SVG animations derived from SMIL.
 
-If you prefer using JavaScript, I recommend using [<FontIcon icon="fas fa-globe"/>snap.svg](http://snapsvg.io) by Dmitry Baranovsky, which is described as being “the jQuery of SVG”. Here’s [<FontIcon icon="fa-brands fa-codepen"/>a collection of examples](http://codepen.io/collection/edpyJ/) of that.
+If you prefer using JavaScript, I recommend using [<VPIcon icon="fas fa-globe"/>snap.svg](http://snapsvg.io) by Dmitry Baranovsky, which is described as being “the jQuery of SVG”. Here’s [<VPIcon icon="fa-brands fa-codepen"/>a collection of examples](http://codepen.io/collection/edpyJ/) of that.
 
 Or if you prefer a more declarative animation approach, you can use the SVG animation elements as we’ll cover in this guide!
 
@@ -95,9 +95,9 @@ Another advantage to SMIL over JS animations is that JS animations don’t work 
 
 ## Browser support and fallbacks
 
-Browser support for SMIL animations is pretty decent. They work in all browsers except in Internet Explorer and Opera Mini. For a thorough overview of browser support, you can refer to the [<FontIcon icon="iconfont icon-caniuse"/>compatibility table on Can I Use](https://caniuse.com/#feat=svg-smil).
+Browser support for SMIL animations is pretty decent. They work in all browsers except in Internet Explorer and Opera Mini. For a thorough overview of browser support, you can refer to the [<VPIcon icon="iconfont icon-caniuse"/>compatibility table on Can I Use](https://caniuse.com/#feat=svg-smil).
 
-If you need to provide a fallback for SMIL animations, you can test for browser support on-the-fly using [<FontIcon icon="fas fa-globe"/>Modernizr](https://modernizr.com/). If SMIL is not supported, you can then provide some kind of fallback (JavaScript animations, an alternate experience, etc).
+If you need to provide a fallback for SMIL animations, you can test for browser support on-the-fly using [<VPIcon icon="fas fa-globe"/>Modernizr](https://modernizr.com/). If SMIL is not supported, you can then provide some kind of fallback (JavaScript animations, an alternate experience, etc).
 
 ---
 
@@ -135,7 +135,7 @@ For example, if you want to animate the position of the center of a on the x-axi
 
 `attributeName` takes only one value, not a list of values, so, you can only animate one attribute at a time. If you want to animate more than one attribute, you need to define more than one animation for the element. This is something that I wish were different, and that I think CSS has an advantage over SMIL for. But then again, because of the values possible for other animation attributes (which we’ll cover next), it only makes sense to define only one attribute name at a time, otherwise the other attribute values can become too complex to work with.
 
-When you specify the attribute name, you can add an XMLNS (short for XML namespace) prefix to indicate the namespace of the attribute. The namespace can also be specified using the `attributeType` attribute. For example, some attributes are part of the CSS namespace (which means that the attribute can be found as a CSS property as well) and others are XML-only. A table showing these attributes can be found [<FontIcon icon="fas fa-globe"/>here](https://slides.com/sarasoueidan/styling-animating-svgs-with-css#/10). The attributes in the table are not all of the SVG attributes. They are only the ones that can be set using CSS. Some of them are already available as CSS properties.
+When you specify the attribute name, you can add an XMLNS (short for XML namespace) prefix to indicate the namespace of the attribute. The namespace can also be specified using the `attributeType` attribute. For example, some attributes are part of the CSS namespace (which means that the attribute can be found as a CSS property as well) and others are XML-only. A table showing these attributes can be found [<VPIcon icon="fas fa-globe"/>here](https://slides.com/sarasoueidan/styling-animating-svgs-with-css#/10). The attributes in the table are not all of the SVG attributes. They are only the ones that can be set using CSS. Some of them are already available as CSS properties.
 
 If the value for `attributeType` is not explicitly set or is set to `auto`, the browser must first search through the list of CSS properties for a matching property name, and if none is found, search the default XML namespace for the element.
 
@@ -162,7 +162,7 @@ We’ll go over the other animation attributes in the upcoming examples below. E
 
 Let’s start by moving a circle from one position to another. We’re going to do that by changing the value of its `cx` attribute (which specifies the x-position of its center).
 
-We’re going to use the element to do that. This element is used to animate one attribute at a time. Attributes that take numerical values and colors are usually animated with . For a list of attributes that can be animated, refer to [<FontIcon icon="iconfont icon-w3c"/>this table](https://w3.org/TR/SVG2/animate.html#AnimationAttributesAndProperties).
+We’re going to use the element to do that. This element is used to animate one attribute at a time. Attributes that take numerical values and colors are usually animated with . For a list of attributes that can be animated, refer to [<VPIcon icon="iconfont icon-w3c"/>this table](https://w3.org/TR/SVG2/animate.html#AnimationAttributesAndProperties).
 
 In order to change a value to another over a period of time, the `from`, `to`, and `dur` attributes are used. In addition to these, you will also want to specify *when* the animation should start with the `begin` attribute.
 
@@ -218,7 +218,7 @@ It may be useful to prevent an animation from being restarted while it is active
 
 Suppose we want to animate the position *and* the color of the circle, such that the change in color happens at the end of the moving animation. We can do that by setting the `begin` value of the color-changing animation to be equal to the `dur`ation of the moving animation; this is how we would normally do it in CSS.
 
-SMIL, however, has a nice event-handling feature. We mentioned before that the `begin` attribute accepts values like `click + 5s`. This value is called an “event value”, and is in this case made up of an event reference followed by a “clock value”. The interesting part here is the naming of the second part: the “clock value”. Why is it not simply a “time value”? Well the answer is that you can literally use a [<FontIcon icon="iconfont icon-w3c"/>clock value](https://w3.org/TR/SVG2/animate.html#ClockValueSyntax) like “10min” or “01:33” which is equivalent to “1 minute and 33 seconds”, or even “02:30:03” (two hours, 30 minutes, and 3 seconds). At the time of this writing, clock values are *not fully implemented in any browser.*
+SMIL, however, has a nice event-handling feature. We mentioned before that the `begin` attribute accepts values like `click + 5s`. This value is called an “event value”, and is in this case made up of an event reference followed by a “clock value”. The interesting part here is the naming of the second part: the “clock value”. Why is it not simply a “time value”? Well the answer is that you can literally use a [<VPIcon icon="iconfont icon-w3c"/>clock value](https://w3.org/TR/SVG2/animate.html#ClockValueSyntax) like “10min” or “01:33” which is equivalent to “1 minute and 33 seconds”, or even “02:30:03” (two hours, 30 minutes, and 3 seconds). At the time of this writing, clock values are *not fully implemented in any browser.*
 
 So, if we were to go back to the previous demo and use `click + 01:30`, if a browser started supporting it, the animation would fire 1 minute and 30 seconds after the circle is clicked.
 
@@ -314,7 +314,7 @@ Guide to SVG Animations
 
 Notice how the animation restarts from the initial `from` value instead of the value it reached at the end of the animation. Unfortunately, SMIL does not include a way to go back and forth between the start and end values like CSS animations allow us to do. In CSS, the `animation-direction` property specifies whether or not an animation should play in reverse on some or all cycles or iterations. `animation-direction: alternate` value means that the animation cycle iterations that are odd counts are played in the normal direction, and the animation cycle iterations that are even counts are played in a reverse direction. This means that the first cycle will play from beginning to end, then the second cycle will play from the end back to the beginning, then the third cycle will play from the beginning to the end, and so on.
 
-In SMIL to do that you would have to use JavaScript to explicitly change the values of the `from` and `to` attributes. Jon McPartland of the Big Bite Creative [<FontIcon icon="fas fa-globe"/>wrote a post](http://bigbitecreative.com/introduction-svg-animation/) a while back explaining how he did this for a menu icon animation that he worked on.
+In SMIL to do that you would have to use JavaScript to explicitly change the values of the `from` and `to` attributes. Jon McPartland of the Big Bite Creative [<VPIcon icon="fas fa-globe"/>wrote a post](http://bigbitecreative.com/introduction-svg-animation/) a while back explaining how he did this for a menu icon animation that he worked on.
 
 Another workaround is to specify the end value as the middle value and then have the end value be the same as the initial value. For example, you can set the animation to start `from` a value, and end at the same value as well with `to`, except that you specify what you *would have* set to be a final value, as an intermediate value between `from` and `to`.  
 In CSS we would do that using something like this:
@@ -394,7 +394,7 @@ CodePen Embed Fallback
 https://codepen.io/SaraSoueidan/pen/ZEwpaO/d8e38406a5a90f4392a4bb85f6aadd78
 Guide to SVG Animations
 
-And [<FontIcon icon="fas fa-globe"/>here is an example David Eisenberg put together for *SVG Essentials (2nd Edition)*.](http://oreillymedia.github.io/svg-essentials-examples/ch12/sync_repetition.html)
+And [<VPIcon icon="fas fa-globe"/>here is an example David Eisenberg put together for *SVG Essentials (2nd Edition)*.](http://oreillymedia.github.io/svg-essentials-examples/ch12/sync_repetition.html)
 
 ### Controlling animation keyframe values: `keyTimes` and `values`
 
@@ -458,12 +458,12 @@ At this point, it is also worth mentioning that you can use `values` attribute w
 
 I’m going to go for a CSS-SMIL comparison again because the SMIL syntax and concepts will be much simpler to understand if you’re already familiar with CSS animations.
 
-In CSS, you can choose to change the default uniform animation pace and specify a custom easing function that controls the animation, using the `animation-timing-function` property. The timing function can be one of a few predefined keywords, or a [<FontIcon icon="fa-brands fa-wikipedia-w"/>cubic bezier](http://en.wikipedia.org/wiki/B%C3%A9zier_curve) function. The latter can be created using a tool such as [<FontIcon icon="fas fa-globe"/>this](http://cubic-bezier.com/#.17,.67,.85,.06) tool by Lea Verou.
+In CSS, you can choose to change the default uniform animation pace and specify a custom easing function that controls the animation, using the `animation-timing-function` property. The timing function can be one of a few predefined keywords, or a [<VPIcon icon="fa-brands fa-wikipedia-w"/>cubic bezier](http://en.wikipedia.org/wiki/B%C3%A9zier_curve) function. The latter can be created using a tool such as [<VPIcon icon="fas fa-globe"/>this](http://cubic-bezier.com/#.17,.67,.85,.06) tool by Lea Verou.
 
 In SMIL, the animation pace is specified using the `calcMode` attribute. The default animation pace is `linear` for all animation elements except `animateMotion` (we’ll get to it later in the article). In addition to the `linear` value, you can set the value to: `discrete`, `paced`, or `spline`.
 
 - `discrete` specifies that the animation function will jump from one value to the next without any interpolation. This is similar to the `steps()` function in CSS.
-- `paced` is similar to `linear`, except that it will ignore any intermediate progress times defined by `keyTimes`. It calculates out the distance between subsequent values and divides up the time accordingly. If your values are all in a linear order, you won’t notice the difference. But if they go back and forth, or if they are colours (which are treated as three-dimensional vector values), you will definitely see the intermediary values. [Here’s a demo courtesy of Amelia Bellamy-Royds (<FontIcon icon="fa-brands fa-codepen"/>`AmeliaBR`)](http://codepen.io/AmeliaBR/pen/EzAju/) that shows the difference between the three `calcMode` values mentioned so far.
+- `paced` is similar to `linear`, except that it will ignore any intermediate progress times defined by `keyTimes`. It calculates out the distance between subsequent values and divides up the time accordingly. If your values are all in a linear order, you won’t notice the difference. But if they go back and forth, or if they are colours (which are treated as three-dimensional vector values), you will definitely see the intermediary values. [Here’s a demo courtesy of Amelia Bellamy-Royds (<VPIcon icon="fa-brands fa-codepen"/>`AmeliaBR`)](http://codepen.io/AmeliaBR/pen/EzAju/) that shows the difference between the three `calcMode` values mentioned so far.
 - The fourth value accepted by `calcMode` is `spline`. It interpolates from one value in the `values` list to the next according to a time function defined by a cubic bezier spline. The points of the spline are defined in the `keyTimes` attribute, and the control points for each interval are defined in the `keySplines` attribute.
 
 You’ve probably noticed the new attribute in the last sentence: the `keySplines` attribute. So, what does the `keySplines` attribute do?
@@ -662,7 +662,7 @@ The way it happens is that the browser will *first* compute the active duration 
   - If the repeating duration (or the simple duration if the element doesn’t repeat) of the element is greater than `min` then the element is played normally for the (`min` constrained) active duration.
   - Otherwise the element is played normally for its repeating duration (or simple duration if the element does not repeat) and then is frozen or not shown depending on the value of the `fill` attribute.
 
-That leaves us with how the browser actually computes the active duration. For sake of brevity, I’m not going to get into the details here. But there is a very comprehensive table in the specification that shows the different combinations of the `dur`, `repeatCount`, `repeatDur`, and `end` attributes, and then shows what the active duration will be based on each combination. You can check the table out and read more about this [<FontIcon icon="iconfont icon-w3c"/>in this section of the specification](https://w3.org/TR/2001/REC-smil-animation-20010904/#ComputingActiveDur).
+That leaves us with how the browser actually computes the active duration. For sake of brevity, I’m not going to get into the details here. But there is a very comprehensive table in the specification that shows the different combinations of the `dur`, `repeatCount`, `repeatDur`, and `end` attributes, and then shows what the active duration will be based on each combination. You can check the table out and read more about this [<VPIcon icon="iconfont icon-w3c"/>in this section of the specification](https://w3.org/TR/2001/REC-smil-animation-20010904/#ComputingActiveDur).
 
 Lastly, if an element is defined to begin before its parent (e.g. with a simple negative offset value), the minimum duration is measured from the calculated begin time not the observed begin. This means that the `min` value may have no observed effect.
 
@@ -670,11 +670,11 @@ Lastly, if an element is defined to begin before its parent (e.g. with a simple 
 
 One of the attributes that can be animated in SMIL (but not in CSS) is the `d` attribute (short for *data*) of an SVG . The `d` attribute contains the data which defines the outline of the shape that you’re drawing. The path data consists of **a set of commands and coordinates** that tell the browser where and how to draw points, arcs, and lines that make up the final path.
 
-Animating this attribute allows us to *morph* SVG paths and create [<FontIcon icon="fa-brands fa-codepen"/>shape tweening](http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil) effects. But, in order to be able to morph shapes, the start, end, and any intermediate path shapes need to have the exact same number of vertices/points, and they need to appear in the same order. If the number of vertices doesn’t match, the animation wouldn’t work. The reason for this is that the shape changing actually happens by moving the vertices, and interpolating their positions, so if one vertex is missing or does not match, the paths won’t be interpolated anymore.
+Animating this attribute allows us to *morph* SVG paths and create [<VPIcon icon="fa-brands fa-codepen"/>shape tweening](http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil) effects. But, in order to be able to morph shapes, the start, end, and any intermediate path shapes need to have the exact same number of vertices/points, and they need to appear in the same order. If the number of vertices doesn’t match, the animation wouldn’t work. The reason for this is that the shape changing actually happens by moving the vertices, and interpolating their positions, so if one vertex is missing or does not match, the paths won’t be interpolated anymore.
 
 To animate an SVG path, you specify the `attributeName` to be `d`, and then set the `from` and `to` values that specify the start and end shapes, and you can use the `values` attribute to specify any intermediate values you want the shape to go through in between.
 
-For the sake of brevity, I won’t get into the details of how to do this here. Instead, you can read [<FontIcon icon="fa-brands fa-codepen"/>this excellent article by Noah Blon](http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil), in which he explains how he created a shape-tweening kind-of-loading animation using . The live demo for Noah’s article is this:
+For the sake of brevity, I won’t get into the details of how to do this here. Instead, you can read [<VPIcon icon="fa-brands fa-codepen"/>this excellent article by Noah Blon](http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil), in which he explains how he created a shape-tweening kind-of-loading animation using . The live demo for Noah’s article is this:
 
 CodePen Embed Fallback
 https://codepen.io/noahblon/pen/wvxmgv
@@ -774,7 +774,7 @@ See how the circle does follow the same shape of the path, but over a different 
 
 One way around this is to start with the circle being positioned at `(0, 0)`, so that when the path data is used to transform it, it will start and proceed as expected.
 
-Another way is to apply a [<FontIcon icon="fas fa-globe"/>transformation](http://sarasoueidan.com/blog/svg-transformations/) that “resets” the coordinates of the circle so that they compute to zero before the path is applied.
+Another way is to apply a [<VPIcon icon="fas fa-globe"/>transformation](http://sarasoueidan.com/blog/svg-transformations/) that “resets” the coordinates of the circle so that they compute to zero before the path is applied.
 
 The following is a modified version of the above demo, using a closed path and repeating the motion animation indefinitely.
 
@@ -793,7 +793,7 @@ The override rules for `animateMotion` are as follows:
 
 ### Setting an element’s orientation along a motion path with `rotate`
 
-In our previous example, the element we were animating along the path happened to be a circle. But what if we’re animating an element that has a certain orientation like, say for example, a car icon? The car icon in the following example is [<FontIcon icon="fas fa-globe"/>designed by Freepik](https://freepik.com/free-vector/transport-icons-collection_753635.htm).
+In our previous example, the element we were animating along the path happened to be a circle. But what if we’re animating an element that has a certain orientation like, say for example, a car icon? The car icon in the following example is [<VPIcon icon="fas fa-globe"/>designed by Freepik](https://freepik.com/free-vector/transport-icons-collection_753635.htm).
 
 In this example, I’ve replaced the circle with a group with an ID of “car”, which contains the element making up the group. Then, in order to avoid the problem with the motion along the path mentioned above, I’ve applied a transformation to the car to that translates it by a specific amount, so that the initial position ends up at (0, 0). The values inside the transformations are actually the coordinates of the point where the first path of the car starts drawing (right after the move command **M**).
 
@@ -839,7 +839,7 @@ The `keyPoints` attribute provides the ability to specify the progress along the
 
 One important thing to note here is to set the `calcMode` value to `linear` for `keyPoints` to work. It also looks like it *should* logically work with paced animation, if your key points move back and forth, but it doesn’t.
 
-The following is an example by Amelia Bellamy-Royds (whose [CodePen profile (<FontIcon icon="fa-brands fa-codepen"/>`AmeliaBR`)](http://codepen.io/AmeliaBR/) you should totally check out) that uses `keyPoints` to mimic the behavior is starting a motion along a path from a pre-defined offset, because we currently don’t have that ability by default in SMIL.
+The following is an example by Amelia Bellamy-Royds (whose [CodePen profile (<VPIcon icon="fa-brands fa-codepen"/>`AmeliaBR`)](http://codepen.io/AmeliaBR/) you should totally check out) that uses `keyPoints` to mimic the behavior is starting a motion along a path from a pre-defined offset, because we currently don’t have that ability by default in SMIL.
 
 CodePen Embed Fallback
 https://codepen.io/AmeliaBR/pen/VwNvpw
@@ -884,7 +884,7 @@ The `from`, `by` and `to` attributes take a value expressed using the same synta
 - For a `type="rotate"`, each individual value is expressed as `<rotate-angle> [<cx> <cy>]</cy></cx></rotate-angle>`.
 - For a `type="skewX"` and `type="skewY"`, each individual value is expressed as `<skew-angle></skew-angle>`.
 
-If you’re unfamiliar with the syntax for the SVG `transform` attribute functions, and for the sake of brevity of this article, and because the syntax details and how it works is outside the scope of this article, I recommend you read the article I’ve written about this a while back before you move on with this guide: [<FontIcon icon="fas fa-globe"/>“Understanding SVG Coordinate Systems and Transformations (Part 2): The `transform` Attribute”](http://sarasoueidan.com/blog/svg-transformations/).
+If you’re unfamiliar with the syntax for the SVG `transform` attribute functions, and for the sake of brevity of this article, and because the syntax details and how it works is outside the scope of this article, I recommend you read the article I’ve written about this a while back before you move on with this guide: [<VPIcon icon="fas fa-globe"/>“Understanding SVG Coordinate Systems and Transformations (Part 2): The `transform` Attribute”](http://sarasoueidan.com/blog/svg-transformations/).
 
 Back to a previous demo, where we rotated the pink rectangle using the `<animatetransform></animatetransform>` element. The code for the rotation looks like the following:
 
@@ -939,7 +939,7 @@ Guide to SVG Animations
 
 ## Elements, attributes and properties that can be animated
 
-Not all SVG attributes can be animated, and not all of those that can be animated, can be animated using all the animation elements. For a complete list of all animatable attributes, and a table showing which of these can be animated by which elements, please refer to [<FontIcon icon="iconfont icon-w3c"/>this section of the SVG Animation specification](https://w3.org/TR/SVG2/animate.html#AnimationAttributesAndProperties).
+Not all SVG attributes can be animated, and not all of those that can be animated, can be animated using all the animation elements. For a complete list of all animatable attributes, and a table showing which of these can be animated by which elements, please refer to [<VPIcon icon="iconfont icon-w3c"/>this section of the SVG Animation specification](https://w3.org/TR/SVG2/animate.html#AnimationAttributesAndProperties).
 
 ---
 
@@ -949,7 +949,7 @@ SMIL has a lot of potential, and I barely scratched the surface and only touched
 
 ::: note
 
-This article has been updated based on [<FontIcon icon="iconfont icon-css-tricks"/>this discussion](https://css-tricks.com/guide-svg-animations-smil/#comment-1585895) in the comments below. Thanks for your input, Amelia.
+This article has been updated based on [<VPIcon icon="iconfont icon-css-tricks"/>this discussion](https://css-tricks.com/guide-svg-animations-smil/#comment-1585895) in the comments below. Thanks for your input, Amelia.
 
 :::
 

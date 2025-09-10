@@ -138,7 +138,7 @@ tuple: !!python/tuple [1, 2]
 # {'list': [1, 2], 'tuple': (1, 2)}
 ```
 
-The `!!python/tuple` tag in the example above converts an inline list into a Python tuple. Head over to PyYAML documentation for a complete [<FontIcon icon="fas fa-globe"/>list of supported tags](https://pyyaml.org/wiki/PyYAMLDocumentation#yaml-tags-and-python-types), but be sure to cross-check with the [source code on GitHub (<FontIcon icon="iconfont icon-github"/>`yaml/pyyaml`)](https://github.com/yaml/pyyaml/blob/8cdff2c80573b8be8e8ad28929264a913a63aa33/lib/yaml/constructor.py#L662), as the documentation might not be up to date.
+The `!!python/tuple` tag in the example above converts an inline list into a Python tuple. Head over to PyYAML documentation for a complete [<VPIcon icon="fas fa-globe"/>list of supported tags](https://pyyaml.org/wiki/PyYAMLDocumentation#yaml-tags-and-python-types), but be sure to cross-check with the [source code on GitHub (<VPIcon icon="iconfont icon-github"/>`yaml/pyyaml`)](https://github.com/yaml/pyyaml/blob/8cdff2c80573b8be8e8ad28929264a913a63aa33/lib/yaml/constructor.py#L662), as the documentation might not be up to date.
 
 Most loaders are smart about deserializing scalars into **auxiliary types**, which are more specific than a basic string, list, or dictionary:
 
@@ -174,7 +174,7 @@ The library provides a couple of YAML tags recognized by `UnsafeLoader` to accom
 - `!!python/object/new`
 - `!!python/object/apply`
 
-They all must be followed by a [<FontIcon icon="fa-brands fa-wikipedia-w"/>fully qualified name](https://en.wikipedia.org/wiki/Fully_qualified_name) of the class to instantiate, which includes the [**package and module**](/realpython.com/python-modules-packages.md) names. The first tag expects a mapping of key-value pairs, in either the flow or block style. Here’s an example:
+They all must be followed by a [<VPIcon icon="fa-brands fa-wikipedia-w"/>fully qualified name](https://en.wikipedia.org/wiki/Fully_qualified_name) of the class to instantiate, which includes the [**package and module**](/realpython.com/python-modules-packages.md) names. The first tag expects a mapping of key-value pairs, in either the flow or block style. Here’s an example:
 
 ```yaml
 # Flow style:
@@ -281,9 +281,9 @@ class User:
         self.name = name
 ```
 
-Now, your user objects won’t have the [<FontIcon icon="fa-brands fa-python"/>`.__dict__`](https://docs.python.org/3/library/stdtypes.html#object.__dict__) attribute at all. Because there’s no inherent `.__dict__`, the library falls back to calling [<FontIcon icon="fa-brands fa-python"/>`setattr()`](https://docs.python.org/3/library/functions.html#setattr) for each key-value pair on the blank object. This ensures that only attributes listed in `__slots__` will pass through.
+Now, your user objects won’t have the [<VPIcon icon="fa-brands fa-python"/>`.__dict__`](https://docs.python.org/3/library/stdtypes.html#object.__dict__) attribute at all. Because there’s no inherent `.__dict__`, the library falls back to calling [<VPIcon icon="fa-brands fa-python"/>`setattr()`](https://docs.python.org/3/library/functions.html#setattr) for each key-value pair on the blank object. This ensures that only attributes listed in `__slots__` will pass through.
 
-This is all great, but what if the `User` class accepted a password argument? To mitigate data leaks, you most definitely don’t want to serialize passwords in plaintext. And how about [<FontIcon icon="fa-brands fa-python"/>serializing stateful attributes](https://docs.python.org/3/library/pickle.html#pickle-state), such as file descriptors or database connections? Well, if restoring your object’s state requires some code to run, then you can customize the serialization process with the special [<FontIcon icon="fa-brands fa-python"/>`.__setstate__()`](https://docs.python.org/3/library/pickle.html#object.__setstate__) method in your class:
+This is all great, but what if the `User` class accepted a password argument? To mitigate data leaks, you most definitely don’t want to serialize passwords in plaintext. And how about [<VPIcon icon="fa-brands fa-python"/>serializing stateful attributes](https://docs.python.org/3/library/pickle.html#pickle-state), such as file descriptors or database connections? Well, if restoring your object’s state requires some code to run, then you can customize the serialization process with the special [<VPIcon icon="fa-brands fa-python"/>`.__setstate__()`](https://docs.python.org/3/library/pickle.html#object.__setstate__) method in your class:
 
 ```py title="models.py"
 import codecs
@@ -298,7 +298,7 @@ class User:
         self.name = codecs.decode(state["name"], "rot13")
 ```
 
-You decode the persisted username using a primitive [<FontIcon icon="fa-brands fa-wikipedia-w"/>ROT-13](https://en.wikipedia.org/wiki/ROT13) cipher, which rotates characters by thirteen places in the alphabet. For serious encryption, though, you’ll have to look beyond the standard library. Note that you could also use a [**hashing algorithm**](/realpython.com/python-hash-table.md#understand-the-hash-function) from the built-in [<FontIcon icon="fa-brands fa-python"/>`hashlib`](https://docs.python.org/3/library/hashlib.html#module-hashlib) module if you wanted to store a password securely.
+You decode the persisted username using a primitive [<VPIcon icon="fa-brands fa-wikipedia-w"/>ROT-13](https://en.wikipedia.org/wiki/ROT13) cipher, which rotates characters by thirteen places in the alphabet. For serious encryption, though, you’ll have to look beyond the standard library. Note that you could also use a [**hashing algorithm**](/realpython.com/python-hash-table.md#understand-the-hash-function) from the built-in [<VPIcon icon="fa-brands fa-python"/>`hashlib`](https://docs.python.org/3/library/hashlib.html#module-hashlib) module if you wanted to store a password securely.
 
 Here’s one way of loading your encoded state from YAML:
 
@@ -338,7 +338,7 @@ yaml.safe_load(b"name: \xd0\x98\xd0\xb2\xd0\xb0\xd0\xbd")
 # {'name': 'Иван'}
 ```
 
-According to the YAML 1.2 specification, parsers should support [**Unicode**](/realpython.com/python-encodings-guide.md) encoded with [<FontIcon icon="fa-brands fa-wikipedia-w"/>UTF-8](https://en.wikipedia.org/wiki/UTF-8), [<FontIcon icon="fa-brands fa-wikipedia-w"/>UTF-16](https://en.wikipedia.org/wiki/UTF-16), or [<FontIcon icon="fa-brands fa-wikipedia-w"/>UTF-32](https://en.wikipedia.org/wiki/UTF-32) for compatibility with JSON. However, because the PyYAML library supports only YAML 1.1, your only options are UTF-8 and UTF-16:
+According to the YAML 1.2 specification, parsers should support [**Unicode**](/realpython.com/python-encodings-guide.md) encoded with [<VPIcon icon="fa-brands fa-wikipedia-w"/>UTF-8](https://en.wikipedia.org/wiki/UTF-8), [<VPIcon icon="fa-brands fa-wikipedia-w"/>UTF-16](https://en.wikipedia.org/wiki/UTF-16), or [<VPIcon icon="fa-brands fa-wikipedia-w"/>UTF-32](https://en.wikipedia.org/wiki/UTF-32) for compatibility with JSON. However, because the PyYAML library supports only YAML 1.1, your only options are UTF-8 and UTF-16:
 
 ```py
 yaml.safe_load("name: Иван".encode("utf-8"))
@@ -379,7 +379,7 @@ with open("sample.yaml", mode="rb") as file:
 # {'name': 'Иван'}
 ```
 
-You create a local file named `sample.yaml` in your current working directory and write fourteen bytes representing a sample YAML document. Next, you open that file for reading and use `safe_load()` to get a corresponding dictionary. The file can be open in either text or binary mode. In fact, you may pass any file-like stream of characters or bytes such as the in-memory [<FontIcon icon="fa-brands fa-python"/>io.StringIO](https://docs.python.org/3/library/io.html#io.StringIO) text buffer or the binary [<FontIcon icon="fa-brands fa-python"/>io.BytesIO](https://docs.python.org/3/library/io.html#io.BytesIO) stream:
+You create a local file named `sample.yaml` in your current working directory and write fourteen bytes representing a sample YAML document. Next, you open that file for reading and use `safe_load()` to get a corresponding dictionary. The file can be open in either text or binary mode. In fact, you may pass any file-like stream of characters or bytes such as the in-memory [<VPIcon icon="fa-brands fa-python"/>io.StringIO](https://docs.python.org/3/library/io.html#io.StringIO) text buffer or the binary [<VPIcon icon="fa-brands fa-python"/>io.BytesIO](https://docs.python.org/3/library/io.html#io.BytesIO) stream:
 
 ```py
 import io
@@ -397,7 +397,7 @@ As you can see, the loading functions in PyYAML are quite versatile. Compare thi
 
 ### Load Multiple Documents
 
-All four loading functions in PyYAML have their iterable counterparts, which can read multiple YAML documents from a single stream. They still expect exactly one argument, but instead of immediately parsing it into a Python object, they wrap it with a [<FontIcon icon="fa-brands fa-python"/>generator iterator](https://docs.python.org/3/glossary.html#term-generator-iterator) that you can iterate over:
+All four loading functions in PyYAML have their iterable counterparts, which can read multiple YAML documents from a single stream. They still expect exactly one argument, but instead of immediately parsing it into a Python object, they wrap it with a [<VPIcon icon="fa-brands fa-python"/>generator iterator](https://docs.python.org/3/glossary.html#term-generator-iterator) that you can iterate over:
 
 ```py
 import yaml

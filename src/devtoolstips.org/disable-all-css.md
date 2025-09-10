@@ -73,10 +73,10 @@ Press <kbd>Enter</kbd> to run the expression. The page is now displayed without 
 
 ## By using Firefox's Style Editor tool
 
-.<FontIcon icon="fa-brands fa-firefox-browser"/>Firefox has a tool named **Style Editor**, which lists all the stylesheets used on the page. To disable the styles on the page:
+.<VPIcon icon="fa-brands fa-firefox-browser"/>Firefox has a tool named **Style Editor**, which lists all the stylesheets used on the page. To disable the styles on the page:
 
-1. Open the **Style Editor** tool in <FontIcon icon="fa-brands fa-firefox-browser"/>Firefox DevTools.
-2. Click the <FontIcon icon="iconfont icon-select"/>`[Toggle style sheet visibility]` buttons (the eye icons) next to each stylesheet to disable it.
+1. Open the **Style Editor** tool in <VPIcon icon="fa-brands fa-firefox-browser"/>Firefox DevTools.
+2. Click the <VPIcon icon="iconfont icon-select"/>`[Toggle style sheet visibility]` buttons (the eye icons) next to each stylesheet to disable it.
 
 ---
 
@@ -94,7 +94,7 @@ Press <kbd>Enter</kbd> to run the expression. The page is now displayed without 
 In Polypane, you can disable all CSS styles by using the **Disable CSS** option:
 
 1. In the pane where you want to disable CSS styles, open the **Debug tools** menu.
-2. Click <FontIcon icon="iconfont icon-select"/>`[Disable CSS]` in the menu.
+2. Click <VPIcon icon="iconfont icon-select"/>`[Disable CSS]` in the menu.
 
 ![Polypane showing two panes. One has CSS applied and the other has CSS disabled. The pane with disabled CSS has an opened menu with the Disable CSS option highlighted](https://devtoolstips.org/assets/img/disable-all-css-polypane.png)
 

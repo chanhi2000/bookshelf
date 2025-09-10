@@ -56,7 +56,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5606"/>
 
-You’ve got your classic web browsers with the biggest chunks of market share. The [<FontIcon icon="fas fa-globe"/>Statcounter](https://gs.statcounter.com/) website gives us a picture of those with what seems like decent [<FontIcon icon="fas fa-globe"/>methodology](https://gs.statcounter.com/faq#methodology):
+You’ve got your classic web browsers with the biggest chunks of market share. The [<VPIcon icon="fas fa-globe"/>Statcounter](https://gs.statcounter.com/) website gives us a picture of those with what seems like decent [<VPIcon icon="fas fa-globe"/>methodology](https://gs.statcounter.com/faq#methodology):
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/Screenshot-2025-04-20-at-8.44.12%E2%80%AFAM.png?resize=1024%2C520&ssl=1)
 
@@ -78,9 +78,9 @@ Not all of these are particularly *new*, but hey, they might be new to you as so
 
 [![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/Screenshot-2025-04-20-at-9.00.18%E2%80%AFAM.png?resize=1024%2C934&ssl=1)](https://arc.net/)
 
-Arc is my personal daily driver. I really like it for [<FontIcon icon="fas fa-globe"/>a bunch of reasons](https://chriscoyier.net/2023/02/11/still-on-arc/#reasons). Turns out I really like the sidebar tab structure, multiple workspaces, split view, and the command bar to name a few. Arc did a great job of showing the world that real UI/UX innovation could happen around browsers while using an existing engine.
+Arc is my personal daily driver. I really like it for [<VPIcon icon="fas fa-globe"/>a bunch of reasons](https://chriscoyier.net/2023/02/11/still-on-arc/#reasons). Turns out I really like the sidebar tab structure, multiple workspaces, split view, and the command bar to name a few. Arc did a great job of showing the world that real UI/UX innovation could happen around browsers while using an existing engine.
 
-But Arc, while still getting updates for engine versions, is largely abandon-ware. I [<FontIcon icon="fas fa-globe"/>tried switching away](https://diabrowser.com/) (but failed). The company behind it is now working on another browser called [<FontIcon icon="fas fa-globe"/>Dia](https://diabrowser.com/) of which little is known aside from… more AI?
+But Arc, while still getting updates for engine versions, is largely abandon-ware. I [<VPIcon icon="fas fa-globe"/>tried switching away](https://diabrowser.com/) (but failed). The company behind it is now working on another browser called [<VPIcon icon="fas fa-globe"/>Dia](https://diabrowser.com/) of which little is known aside from… more AI?
 
 - 💰 Free (“Max”, the AI features used to cost money but not anymore?)
 - ⚙️ Chromium
@@ -98,7 +98,7 @@ The big thing with Horse Browser is that your tabs are in a sidebar and *nested.
 
 [![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/Screenshot-2025-04-21-at-10.05.38%E2%80%AFAM.png?resize=1024%2C964&ssl=1)](https://zen-browser.app)
 
-Zen Browser is essentially a shameless replica of Arc, only free, [open-source (<FontIcon icon="iconfont icon-github"/>`zen-browser`)](https://github.com/zen-browser), and Firefox-based instead of Chrome. Hopefully they can keep up the momentum long term, find a business model, innovate beyond what Arc did, and find a way past the [<FontIcon icon="fas fa-globe"/>inability to stream stuff](https://docs.zen-browser.app/faq#why-cant-zen-browser-play-drm-protected-content).
+Zen Browser is essentially a shameless replica of Arc, only free, [open-source (<VPIcon icon="iconfont icon-github"/>`zen-browser`)](https://github.com/zen-browser), and Firefox-based instead of Chrome. Hopefully they can keep up the momentum long term, find a business model, innovate beyond what Arc did, and find a way past the [<VPIcon icon="fas fa-globe"/>inability to stream stuff](https://docs.zen-browser.app/faq#why-cant-zen-browser-play-drm-protected-content).
 
 - 💰 Free
 - ⚙️ Firefox
@@ -107,7 +107,7 @@ Zen Browser is essentially a shameless replica of Arc, only free, [open-source (
 
 [![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/Screenshot-2025-04-21-at-11.37.30%E2%80%AFAM.png?resize=1024%2C943&ssl=1)](https://kagi.com/orion/)
 
-From the team at [<FontIcon icon="fas fa-globe"/>Kagi](https://kagi.com/) (the privacy-friendly search engine), this browser also has various privacy-friendly features. Like Horse, it’s going for that nested tabs in a sidebar thing, with new-window based tab groups. Another notable [<FontIcon icon="fas fa-globe"/>feature](https://blog.kagi.com/orion-features) is that it supports Chrome and Firefox extensions as well as WebKit extensions — which seems entirely unique.
+From the team at [<VPIcon icon="fas fa-globe"/>Kagi](https://kagi.com/) (the privacy-friendly search engine), this browser also has various privacy-friendly features. Like Horse, it’s going for that nested tabs in a sidebar thing, with new-window based tab groups. Another notable [<VPIcon icon="fas fa-globe"/>feature](https://blog.kagi.com/orion-features) is that it supports Chrome and Firefox extensions as well as WebKit extensions — which seems entirely unique.
 
 - 💰 Free
 - ⚙️ WebKit
@@ -130,7 +130,7 @@ It looks like the big play with Wavebox is that it uses big square icons for you
 - 💰$100/year (7 day trial)
 - ⚙️ Chromium
 
-(Not to be confused with [<FontIcon icon="fas fa-globe"/>Wave browser](https://wavebrowser.co/features) which is weirdly similar?)
+(Not to be confused with [<VPIcon icon="fas fa-globe"/>Wave browser](https://wavebrowser.co/features) which is weirdly similar?)
 
 @tab Surf
 
@@ -158,7 +158,7 @@ Shift is definitely in the category of “browsers are for work, and work is app
 
 [![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/Screenshot-2025-04-21-at-4.46.38%E2%80%AFPM.png?resize=1024%2C936&ssl=1)](https://brave.com/)
 
-Brave was launched in 2016 making it likely much older than most of these. It’s one of the big classic alternative browsers and has always been a bit controversial. It’s got a commitment to privacy, but isn’t fully open source and literally [<FontIcon icon="fa-brands fa-brave"/>monetizes through ads](https://brave.com/brave-ads/browser/). It’s got Brendan Eich at the helm who is [<FontIcon icon="fas fa-globe"/>controversial](https://cbsnews.com/news/mozilla-chief-steps-down-after-controversial-donation-causes-uproar/). It’s gotten into crypto stuff with Basic Attention Tokens, Brave Rewards, and Brave Wallet, and clearly not everyone is hyped on crypto. The UI is nicely polished and certainly has a lot of fans.
+Brave was launched in 2016 making it likely much older than most of these. It’s one of the big classic alternative browsers and has always been a bit controversial. It’s got a commitment to privacy, but isn’t fully open source and literally [<VPIcon icon="fa-brands fa-brave"/>monetizes through ads](https://brave.com/brave-ads/browser/). It’s got Brendan Eich at the helm who is [<VPIcon icon="fas fa-globe"/>controversial](https://cbsnews.com/news/mozilla-chief-steps-down-after-controversial-donation-causes-uproar/). It’s gotten into crypto stuff with Basic Attention Tokens, Brave Rewards, and Brave Wallet, and clearly not everyone is hyped on crypto. The UI is nicely polished and certainly has a lot of fans.
 
 - 💰Free
 - ⚙️ Chromium
@@ -180,7 +180,7 @@ DuckDuckGo itself is a privacy focused search engine using Bing’s search index
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/Screenshot-2025-04-23-at-2.13.44%E2%80%AFPM.png?resize=1009%2C1024&ssl=1)
 
-Of course there is [<FontIcon icon="fa-brands fa-opera"/>Opera](https://opera.com/), which really used to be one of the main browsers, and sort of lost that distinction when it went Chromium sold and generally got weird (long story). Opera GX is “for gamers” which seems largely aesthetic, but hey, I can’t blame them. Seems like a niche worth serving.
+Of course there is [<VPIcon icon="fa-brands fa-opera"/>Opera](https://opera.com/), which really used to be one of the main browsers, and sort of lost that distinction when it went Chromium sold and generally got weird (long story). Opera GX is “for gamers” which seems largely aesthetic, but hey, I can’t blame them. Seems like a niche worth serving.
 
 - 💰Free
 - ⚙️ Chromium
@@ -189,21 +189,21 @@ Of course there is [<FontIcon icon="fa-brands fa-opera"/>Opera](https://opera.co
 
 ## Other Notable Entries
 
-- [<FontIcon icon="fas fa-globe"/>Polypane](https://polypane.app/) isn’t intended to be a daily driver style of browser, but it is a browser that is designed for web developers and has tons of cool features specifically for that.
+- [<VPIcon icon="fas fa-globe"/>Polypane](https://polypane.app/) isn’t intended to be a daily driver style of browser, but it is a browser that is designed for web developers and has tons of cool features specifically for that.
 - If you’re specifically interesting in privacy-focused browsers where the feature set is largely “more privacy”, you’ve got:
-  - [<FontIcon icon="fas fa-globe"/>LibreWolf](https://librewolf.net/#what-is-librewolf)
-  - [<FontIcon icon="fas fa-globe"/>Waterfox](https://waterfox.net/)
-  - [<FontIcon icon="fas fa-globe"/>Iridium](https://iridiumbrowser.de/)
-  - [<FontIcon icon="fas fa-globe"/>Falkon](https://falkon.org/)
-  - [<FontIcon icon="fas fa-globe"/>Epic Privacy Browser](https://epicbrowser.com/)
-- [<FontIcon icon="fas fa-globe"/>Mullvad](https://mullvad.net/en), the VPN company, [<FontIcon icon="fas fa-globe"/>makes a browser](https://mullvad.net/en/browser) because even they say “Using a VPN isn’t enough” if you want extreme privacy.
-- [<FontIcon icon="fas fa-globe"/>Thorium](https://thorium.rocks/) is a Chromium browser specifically tweaked for speed. Related: [<FontIcon icon="iconfont icon-github"/>`ungoogled-software/ungoogled-chromium`](https://github.com/ungoogled-software/ungoogled-chromium).
+  - [<VPIcon icon="fas fa-globe"/>LibreWolf](https://librewolf.net/#what-is-librewolf)
+  - [<VPIcon icon="fas fa-globe"/>Waterfox](https://waterfox.net/)
+  - [<VPIcon icon="fas fa-globe"/>Iridium](https://iridiumbrowser.de/)
+  - [<VPIcon icon="fas fa-globe"/>Falkon](https://falkon.org/)
+  - [<VPIcon icon="fas fa-globe"/>Epic Privacy Browser](https://epicbrowser.com/)
+- [<VPIcon icon="fas fa-globe"/>Mullvad](https://mullvad.net/en), the VPN company, [<VPIcon icon="fas fa-globe"/>makes a browser](https://mullvad.net/en/browser) because even they say “Using a VPN isn’t enough” if you want extreme privacy.
+- [<VPIcon icon="fas fa-globe"/>Thorium](https://thorium.rocks/) is a Chromium browser specifically tweaked for speed. Related: [<VPIcon icon="iconfont icon-github"/>`ungoogled-software/ungoogled-chromium`](https://github.com/ungoogled-software/ungoogled-chromium).
 
 Very notable are the organizations trying to make entirely new browser engines, and browsers on top of them. Those are:
 
-- [<FontIcon icon="fas fa-globe"/>Ladybird](https://arc.net/l/quote/gckrvndn)
-- [<FontIcon icon="fas fa-globe"/>Flow](https://ekioh.com/flow-browser/)
-- [<FontIcon icon="fas fa-globe"/>Servo](https://servo.org/)
+- [<VPIcon icon="fas fa-globe"/>Ladybird](https://arc.net/l/quote/gckrvndn)
+- [<VPIcon icon="fas fa-globe"/>Flow](https://ekioh.com/flow-browser/)
+- [<VPIcon icon="fas fa-globe"/>Servo](https://servo.org/)
 
 Godspeed.
 

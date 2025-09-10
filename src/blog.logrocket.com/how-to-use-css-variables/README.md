@@ -80,7 +80,7 @@ One of the most common use cases for CSS variables is managing websites in which
 
 ::: note Editor’s note
 
-This article was updated by [<FontIcon icon="fas fa-globe"/>Emmanuel John](https://blog.logrocket.com/author/emmanueljohn/) in March 2025 to include instructions on setting CSS variables dynamically with JavaScript, differentiate between CSS and SASS variables, and troubleshoot common developer issues with CSS variables.
+This article was updated by [<VPIcon icon="fas fa-globe"/>Emmanuel John](https://blog.logrocket.com/author/emmanueljohn/) in March 2025 to include instructions on setting CSS variables dynamically with JavaScript, differentiate between CSS and SASS variables, and troubleshoot common developer issues with CSS variables.
 
 :::
 

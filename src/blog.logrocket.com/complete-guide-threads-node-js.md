@@ -62,7 +62,7 @@ This article was last updated on 10 February 2023. Check out this [**guide to mu
 
 Many people wonder how a single-threaded Node.js backend can compete with multithreaded backends. It may seem counterintuitive that so many huge companies pick Node as their backend, given its supposed single-threaded nature. To know why, we have to understand what we really mean when we say that Node is single-threaded.
 
-JavaScript was created to be just good enough to do simple things on the web, like validate a form or, say, create a rainbow-colored mouse trail. It was [<FontIcon icon="fa-brands fa-youtube"/>only in 2009 that Ryan Dahl](https://youtu.be/ztspvPYybIY), creator of Node, made it possible for developers to use the language to write backend code.
+JavaScript was created to be just good enough to do simple things on the web, like validate a form or, say, create a rainbow-colored mouse trail. It was [<VPIcon icon="fa-brands fa-youtube"/>only in 2009 that Ryan Dahl](https://youtu.be/ztspvPYybIY), creator of Node, made it possible for developers to use the language to write backend code.
 
 Backend languages, which generally support multithreading, have all kinds of mechanisms for syncing values between threads and other thread-oriented features. To add support for such things to JavaScript would require changing the entire language, which wasn’t really Dahl’s goal. For plain JavaScript to support multithreading, he had to create a workaround. Let’s explore…
 
@@ -96,7 +96,7 @@ The event loop is the mechanism that takes callbacks (functions) and registers t
 
 The worker pool is an execution model that spawns and handles separate threads, which then synchronously perform the task and return the result to the event loop. The event loop then executes the provided callback with said result.
 
-In short, it takes care of asynchronous I/O operations — primarily, interactions with the system’s disk and network. It is mainly used by modules such as `fs` (I/O-heavy) or `crypto` (CPU-heavy). Worker pool is implemented in [<FontIcon icon="fas fa-globe"/>libuv](http://docs.libuv.org/en/v1.x/), which results in a slight delay whenever Node needs to communicate internally between JavaScript and C++, but this is hardly noticeable.
+In short, it takes care of asynchronous I/O operations — primarily, interactions with the system’s disk and network. It is mainly used by modules such as `fs` (I/O-heavy) or `crypto` (CPU-heavy). Worker pool is implemented in [<VPIcon icon="fas fa-globe"/>libuv](http://docs.libuv.org/en/v1.x/), which results in a slight delay whenever Node needs to communicate internally between JavaScript and C++, but this is hardly noticeable.
 
 With both of these mechanisms, we are able to write code like this:
 

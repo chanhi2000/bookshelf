@@ -78,7 +78,7 @@ Let's dive in!
 
 ## What is Testcontainers?
 
-[<FontIcon icon="iconfont icon-csharp"/>Testcontainers](https://dotnet.testcontainers.org/) is a library for writing tests with throwaway Docker containers.
+[<VPIcon icon="iconfont icon-csharp"/>Testcontainers](https://dotnet.testcontainers.org/) is a library for writing tests with throwaway Docker containers.
 
 Why should you use it?
 
@@ -312,7 +312,7 @@ If you have a CI/CD pipeline that supports Docker, Testcontainers will work out 
 
 Only a few integration tests will drastically improve your confidence in the system.
 
-You can grab the [**source code for this newsletter** (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/testcontainers-sample`)](https://github.com/m-jovanovic/testcontainers-sample) on my GitHub.<br/>It's completely free, so what are you waiting for?
+You can grab the [**source code for this newsletter** (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/testcontainers-sample`)](https://github.com/m-jovanovic/testcontainers-sample) on my GitHub.<br/>It's completely free, so what are you waiting for?
 
 <SiteInfo
   name="m-jovanovic/testcontainers-sample"
@@ -321,7 +321,7 @@ You can grab the [**source code for this newsletter** (<FontIcon icon="iconfont 
   logo="https://avatars.githubusercontent.com/u/34191235?s=96&v=4"
   preview="https://opengraph.githubassets.com/f1f6b9942d2eeb4fdb07fe27c2cd8a3f92c0eacf5e60fbad2c11cc0168823a85/m-jovanovic/testcontainers-sample"/>
 
-And if you prefer video, here's a quick tutorial on [<FontIcon icon="fa-brands fa-youtube"/>**integration testing with Testcontainers.**](https://youtu.be/tj5ZCtvgXKY)
+And if you prefer video, here's a quick tutorial on [<VPIcon icon="fa-brands fa-youtube"/>**integration testing with Testcontainers.**](https://youtu.be/tj5ZCtvgXKY)
 
 <VidStack src="youtube/tj5ZCtvgXKY" />
 

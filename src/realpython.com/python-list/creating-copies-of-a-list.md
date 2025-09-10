@@ -53,7 +53,7 @@ Creating copies of an existing list is a common need in Python code. Having a co
 
 ::: note
 
-In Python, an object’s **identity** is a unique identifier that distinguishes it from other objects. You can use the built-in [<FontIcon icon="fa-brands fa-python"/>`id()`](https://docs.python.org/3/library/functions.html#id) function to get the identity of any Python object. In Python’s [**CPython implementation**](/realpython.com/cpython-source-code-guide.md), an object’s identity coincides with the memory address where the object is stored.
+In Python, an object’s **identity** is a unique identifier that distinguishes it from other objects. You can use the built-in [<VPIcon icon="fa-brands fa-python"/>`id()`](https://docs.python.org/3/library/functions.html#id) function to get the identity of any Python object. In Python’s [**CPython implementation**](/realpython.com/cpython-source-code-guide.md), an object’s identity coincides with the memory address where the object is stored.
 
 :::
 
@@ -105,7 +105,7 @@ There are at least three different ways to create shallow copies of an existing 
 
 1. The slicing operator, `[:]`
 2. The `.copy()` [**method**](/realpython.com/python-classes.md#providing-behavior-with-methods)
-3. The [<FontIcon icon="fa-brands fa-python"/>`copy()`](https://docs.python.org/3/library/copy.html#copy.copy) function from the [<FontIcon icon="fa-brands fa-python"/>`copy`](https://docs.python.org/3/library/copy.html#module-copy) module
+3. The [<VPIcon icon="fa-brands fa-python"/>`copy()`](https://docs.python.org/3/library/copy.html#copy.copy) function from the [<VPIcon icon="fa-brands fa-python"/>`copy`](https://docs.python.org/3/library/copy.html#module-copy) module
 
 These three tools demonstrate equivalent behavior. So, to kick things off, you’ll start exploring the slicing operator:
 
@@ -229,7 +229,7 @@ Sometimes you may need to build a complete copy of an existing list. In other wo
 
 When you create a deep copy of a list, Python constructs a new list object and then inserts copies of the objects from the original list [**recursively**](/realpython.com/python-thinking-recursively.md).
 
-To create a deep copy of an existing list, you can use the [<FontIcon icon="fa-brands fa-python"/>`deepcopy()`](https://docs.python.org/3/library/copy.html#copy.deepcopy) function from the `copy` module. Here’s an example of how this function works:
+To create a deep copy of an existing list, you can use the [<VPIcon icon="fa-brands fa-python"/>`deepcopy()`](https://docs.python.org/3/library/copy.html#copy.deepcopy) function from the `copy` module. Here’s an example of how this function works:
 
 ```py
 from copy import deepcopy

@@ -57,7 +57,7 @@ cover: https://files.realpython.com/media/Data-Visualization-With-Dash_Watermark
 
 In this section, you’ll learn how to add interactive elements to your dashboard.
 
-Dash’s interactivity is based on a [<FontIcon icon="fa-brands fa-wikipedia-w"/>reactive programming](https://en.wikipedia.org/wiki/Reactive_programming) paradigm. This means that you can link components with elements of your app that you want to update. If a user interacts with an input component like a dropdown or a range slider, then the output, such as a graph, will react automatically to the changes in the input.
+Dash’s interactivity is based on a [<VPIcon icon="fa-brands fa-wikipedia-w"/>reactive programming](https://en.wikipedia.org/wiki/Reactive_programming) paradigm. This means that you can link components with elements of your app that you want to update. If a user interacts with an input component like a dropdown or a range slider, then the output, such as a graph, will react automatically to the changes in the input.
 
 Now you’re going to make your dashboard interactive. This new version of your dashboard will allow the user to interact with the following filters:
 
@@ -65,7 +65,7 @@ Now you’re going to make your dashboard interactive. This new version of your 
 - Type of avocado
 - Date range
 
-The collapsible boxes below contain the full source code that you’ll be exploring in this section. Start by replacing your local <FontIcon icon="fa-brands fa-python"/>`app.py` with the new version in the collapsible section below:
+The collapsible boxes below contain the full source code that you’ll be exploring in this section. Start by replacing your local <VPIcon icon="fa-brands fa-python"/>`app.py` with the new version in the collapsible section below:
 
 ```py :collapsed-lines title="app.py"
 import pandas as pd
@@ -239,7 +239,7 @@ if __name__ == "__main__":
     app.run_server(debug=True)
 ```
 
-Next, replace <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` with the code in the collapsible section below:
+Next, replace <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` with the code in the collapsible section below:
 
 ```css title="style.css"
 body {
@@ -343,7 +343,7 @@ avocado_types = data["type"].sort_values().unique()
 # ...
 ```
 
-Next, you’ll use `regions` and `avocado_types` to populate a few dropdowns. Here’s how that looks in <FontIcon icon="fa-brands fa-python"/>`app.py`:
+Next, you’ll use `regions` and `avocado_types` to populate a few dropdowns. Here’s how that looks in <VPIcon icon="fa-brands fa-python"/>`app.py`:
 
 ```py :collapsed-lines title="app.py"
 # ...
@@ -479,7 +479,7 @@ app.layout = html.Div(
 # ...
 ```
 
-In this part of the code, you define the `dcc.Graph` components. You may have noticed that, compared to the previous version of the dashboard, the components are missing the `figure` argument. That’s because a [<FontIcon icon="fa-brands fa-wikipedia-w"/>callback function](https://en.wikipedia.org/wiki/Callback_(computer_programming)) will now generate the `figure` argument using the inputs that the user sets using the Region, Type, and Date Range selectors.
+In this part of the code, you define the `dcc.Graph` components. You may have noticed that, compared to the previous version of the dashboard, the components are missing the `figure` argument. That’s because a [<VPIcon icon="fa-brands fa-wikipedia-w"/>callback function](https://en.wikipedia.org/wiki/Callback_(computer_programming)) will now generate the `figure` argument using the inputs that the user sets using the Region, Type, and Date Range selectors.
 
 ### How to Define Callbacks
 

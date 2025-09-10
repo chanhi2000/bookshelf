@@ -61,7 +61,7 @@ The main problem in debugging overlay elements, like popups, is that they disapp
 
 ::: tabs
 
-@tab <FontIcon icon="fa-brands fa-chrome"/>Chrome or <FontIcon icon="fa-brands fa-edge"/>Edge
+@tab <VPIcon icon="fa-brands fa-chrome"/>Chrome or <VPIcon icon="fa-brands fa-edge"/>Edge
 
 Chromium-based browsers, such as Chrome and Edge, provide a way to emulate a focused state on the webpage even if DevTools has focus.
 
@@ -69,7 +69,7 @@ To emulate a focused state on the webpage:
 
 1. Open the **Command Menu** (<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>).
 2. Type **rendering** and select the **Show Rendering** command. The **Rendering** tool appears at the bottom of DevTools.
-3. In the **Rendering** tool, scroll down and check the <FontIcon icon="iconfont icon-select"/>`[Emulate a focused page]` option. The webpage now has focus.
+3. In the **Rendering** tool, scroll down and check the <VPIcon icon="iconfont icon-select"/>`[Emulate a focused page]` option. The webpage now has focus.
 4. Use DevTools to inspect and debug elements that only appear when focus is in the webpage.
 
 ![The Rendering tool in DevTools, showing the Emulate a focused page option](https://devtoolstips.org/assets/img/debug-popups-on-hover.png)

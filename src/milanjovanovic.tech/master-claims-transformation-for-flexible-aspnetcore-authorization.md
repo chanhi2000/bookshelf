@@ -52,10 +52,10 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_084.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_084.png"/>
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Claims-based authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims) mechanisms are central to modern authorization in ASP.NET Core. However, the access tokens issued by your Identity Provider (IDP) might not always perfectly align with your application's internal authorization needs.
+[<VPIcon icon="fa-brands fa-microsoft"/>Claims-based authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/claims) mechanisms are central to modern authorization in ASP.NET Core. However, the access tokens issued by your Identity Provider (IDP) might not always perfectly align with your application's internal authorization needs.
 
-External IDPs like [<FontIcon icon="fa-brands fa-microsoft"/>Microsoft Entra ID](https://microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) (previously Azure AD) or
-[<FontIcon icon="fas fa-globe"/>Auth0](https://auth0.com) might have their own schema for claims or might not directly issue all the claims your application needs for its authorization logic.
+External IDPs like [<VPIcon icon="fa-brands fa-microsoft"/>Microsoft Entra ID](https://microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) (previously Azure AD) or
+[<VPIcon icon="fas fa-globe"/>Auth0](https://auth0.com) might have their own schema for claims or might not directly issue all the claims your application needs for its authorization logic.
 
 The solution? Claims transformation.
 
@@ -71,9 +71,9 @@ In today's issue, we will:
 
 ## How Does Claims Transformation Work?
 
-They say a picture is worth a thousand words. In software engineering, we have something called [<FontIcon icon="fa-brands fa-wikipedia-w"/>UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) diagrams that we can use to paint a picture.
+They say a picture is worth a thousand words. In software engineering, we have something called [<VPIcon icon="fa-brands fa-wikipedia-w"/>UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) diagrams that we can use to paint a picture.
 
-Here's a [<FontIcon icon="fa-brands fa-wikipedia-w"/>sequence diagram](https://en.wikipedia.org/wiki/Sequence_diagram) showing the claims transformation flow:
+Here's a [<VPIcon icon="fa-brands fa-wikipedia-w"/>sequence diagram](https://en.wikipedia.org/wiki/Sequence_diagram) showing the claims transformation flow:
 
 1. The user authenticates with the Identity Provider
 2. The user calls the backend API and provides an access token
@@ -90,7 +90,7 @@ Let's see how to implement this in ASP.NET Core.
 
 Claims can be created from any user or identity data issued by a trusted identity provider. A claim is a name-value pair that represents the subject's identity, not what the subject can do.
 
-The core of [<FontIcon icon="fa-brands fa-microsoft"/>claims transformation](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/claims#extend-or-add-custom-claims-using-iclaimstransformation) in ASP.NET Core is the [<FontIcon icon="fa-brands fa-microsoft"/>`IClaimsTransformation`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.authentication.iclaimstransformation) interface.
+The core of [<VPIcon icon="fa-brands fa-microsoft"/>claims transformation](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/claims#extend-or-add-custom-claims-using-iclaimstransformation) in ASP.NET Core is the [<VPIcon icon="fa-brands fa-microsoft"/>`IClaimsTransformation`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.authentication.iclaimstransformation) interface.
 
 It exposes a single method to transform claims:
 
@@ -160,7 +160,7 @@ especially if it involves external calls (database, APIs). Consider caching wher
 
 ## Implementing RBAC With Claims Transformation
 
-[<FontIcon icon="fas fa-globe"/>Role-Based Access Control (RBAC)](https://auth0.com/docs/manage-users/access-control/rbac) is an authorization model where permissions are assigned to roles,
+[<VPIcon icon="fas fa-globe"/>Role-Based Access Control (RBAC)](https://auth0.com/docs/manage-users/access-control/rbac) is an authorization model where permissions are assigned to roles,
 and users are granted roles. Claims transformation helps implement RBAC smoothly. By adding role claims and potentially permission claims, authorization logic throughout your application can be implified. Another benefit is that you can keep the access token smaller and free of any role or permission claims.
 
 Let's consider a scenario where your application manages resources at a granular level, but your identity provider only provides coarse-grained roles like `Registered` or `Member`. You could use claims transformation to map the `Member` role to specific fine-grained permissions like `SubmitOrder` and `PurchaseTicket`.
@@ -250,7 +250,7 @@ However, it's important to use claims transformation with a few key consideratio
 - The `IClaimsTransformation` should be idempotent. It should not add existing claims to the `ClaimsPrincipal` if executed multiple times.
 - Design your transformations efficiently, and consider caching the results if you're fetching external data to enrich your claims.
 
-If you want to see a complete implementation of RBAC in ASP.NET Core, check out this [<FontIcon icon="fa-brands fa-youtube"/>Authentication & Authorization playlist](https://youtube.com/playlist?list=PLYpjLpq5ZDGtJOHUbv7KHuxtYLk1nJPw5).
+If you want to see a complete implementation of RBAC in ASP.NET Core, check out this [<VPIcon icon="fa-brands fa-youtube"/>Authentication & Authorization playlist](https://youtube.com/playlist?list=PLYpjLpq5ZDGtJOHUbv7KHuxtYLk1nJPw5).
 
 Hope this was helpful.
 

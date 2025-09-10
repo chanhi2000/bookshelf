@@ -130,7 +130,7 @@ For example, a small software team might choose the monolithic frontend pattern 
 
 The sample monolithic app stores all views and controllers within the same code repository
 
-Most open source SPAs (single-page applications), multi-page web apps, and other frontend projects hosted on a single GitHub code repository typically use monolithic architecture with component-based, MVC, or traditional page-based codebase arrangement. For example, [this to-do app source code (<FontIcon icon="iconfont icon-github"/>`amoraitis/TodoList`)](https://github.com/amoraitis/TodoList) uses a monolithic frontend with the MVC pattern:
+Most open source SPAs (single-page applications), multi-page web apps, and other frontend projects hosted on a single GitHub code repository typically use monolithic architecture with component-based, MVC, or traditional page-based codebase arrangement. For example, [this to-do app source code (<VPIcon icon="iconfont icon-github"/>`amoraitis/TodoList`)](https://github.com/amoraitis/TodoList) uses a monolithic frontend with the MVC pattern:
 
 :::
 
@@ -173,7 +173,7 @@ For example, a medium-sized software team might choose modular architecture for 
 
 The sample modular app codebase stores frontend app modules within the packages directory
 
-Web developers use [**Lerna**](/blog.logrocket.com/setting-up-monorepo-lerna-typescript.md)-like monorepo management tools to implement productive modular frontends. [This sample Lerna project (<FontIcon icon="iconfont icon-github"/>`lerna/getting-started-example`)](https://github.com/lerna/getting-started-example) guides how to implement the modular architecture pattern for a simple web app.
+Web developers use [**Lerna**](/blog.logrocket.com/setting-up-monorepo-lerna-typescript.md)-like monorepo management tools to implement productive modular frontends. [This sample Lerna project (<VPIcon icon="iconfont icon-github"/>`lerna/getting-started-example`)](https://github.com/lerna/getting-started-example) guides how to implement the modular architecture pattern for a simple web app.
 
 :::
 
@@ -210,7 +210,7 @@ For example, a mobile app developer might use component-based architecture with 
 
 The component-based sample chat app stores component sources in two directories
 
-Every modern frontend library recommends that developers build apps using component-based architecture. Browse any React, Angular, Vue, and Svelte apps to check the component-based architecture pattern. For example, [this simple React Native chat app source (<FontIcon icon="iconfont icon-github"/>`Ctere1/react-native-chat`)](https://github.com/Ctere1/react-native-chat) uses the component-based architecture:
+Every modern frontend library recommends that developers build apps using component-based architecture. Browse any React, Angular, Vue, and Svelte apps to check the component-based architecture pattern. For example, [this simple React Native chat app source (<VPIcon icon="iconfont icon-github"/>`Ctere1/react-native-chat`)](https://github.com/Ctere1/react-native-chat) uses the component-based architecture:
 
 :::
 
@@ -251,7 +251,7 @@ Microfrontend architecture is the recommended approach for complex projects main
 
 @tab Example projects
 
-The open source community doesn’t have many fully-featured, complete, and up-to-date microfrontend projects available to see, seeing as the microfrontend architecture is often used in closed-source, large enterprise systems, but you can browse [this GitHub repository (<FontIcon icon="iconfont icon-github"/>`rautio/micro-frontend-demo`)](https://github.com/rautio/micro-frontend-demo) to see a simple microfrontend app built with React:
+The open source community doesn’t have many fully-featured, complete, and up-to-date microfrontend projects available to see, seeing as the microfrontend architecture is often used in closed-source, large enterprise systems, but you can browse [this GitHub repository (<VPIcon icon="iconfont icon-github"/>`rautio/micro-frontend-demo`)](https://github.com/rautio/micro-frontend-demo) to see a simple microfrontend app built with React:
 
 ![Sample Microfrontend App](https://paper-attachments.dropboxusercontent.com/s_E4EC9BB8782E905ADE85782E27D6844382B322233BD932712888695CF059F10E_1737789727802_arch5.gif)
 
@@ -298,7 +298,7 @@ Developers might use Flux (via Redux or similar libraries) to develop a componen
 
 @tab Example projects
 
-The [examples directory (<FontIcon icon="iconfont icon-github"/>`facebookarchive/flux`)](https://github.com/facebookarchive/flux/tree/main/examples) in the official Flux architecture documentation repository contains multiple examples of Flux in action. On the other hand, the Meta team recommends using Redux-like libraries that use a simplified implementation of the Flux architecture. See [this sample to-do app source (<FontIcon icon="iconfont icon-github"/>`r-park/todo-react-redux`)](https://github.com/r-park/todo-react-redux) to understand the Flux architecture from Redux API usage:
+The [examples directory (<VPIcon icon="iconfont icon-github"/>`facebookarchive/flux`)](https://github.com/facebookarchive/flux/tree/main/examples) in the official Flux architecture documentation repository contains multiple examples of Flux in action. On the other hand, the Meta team recommends using Redux-like libraries that use a simplified implementation of the Flux architecture. See [this sample to-do app source (<VPIcon icon="iconfont icon-github"/>`r-park/todo-react-redux`)](https://github.com/r-park/todo-react-redux) to understand the Flux architecture from Redux API usage:
 
 ![Flux Sample Todo App](https://paper-attachments.dropboxusercontent.com/s_E4EC9BB8782E905ADE85782E27D6844382B322233BD932712888695CF059F10E_1737791011148_arch6.gif)
 
@@ -314,7 +314,7 @@ Most developers use hybrid or mixed architecture patterns, adhering to multiple 
 
 - Using both monolithic and component-based hybrid architecture to develop a website
 - Using modular, component-based, and Flux architecture to develop a medium-sized ecommerce app
-- Using a component-based pattern and the Flux app in a microfrontend host app that serves a complex [<FontIcon icon="fas fa-globe"/>enterprise software system](https://blog.logrocket.com/ux-design/enterprise-ux-design-challenges/)
+- Using a component-based pattern and the Flux app in a microfrontend host app that serves a complex [<VPIcon icon="fas fa-globe"/>enterprise software system](https://blog.logrocket.com/ux-design/enterprise-ux-design-challenges/)
 
 Following strictly only a single frontend architecture pattern isn’t mandatory, so consider using multiple architectures based on your development preferences and organizational goals.
 

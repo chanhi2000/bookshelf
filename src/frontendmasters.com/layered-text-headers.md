@@ -62,7 +62,7 @@ Despite the vendor prefix there, it works across all browsers.
 
 But I’ve never liked it… until recently.
 
-I’m not sure if I’ve ever spelled out exactly why, so first let me do that. Here’s a nice R from [<FontIcon icon="fas fa-globe"/>Roslindale](https://djr.com/roslindale/).
+I’m not sure if I’ve ever spelled out exactly why, so first let me do that. Here’s a nice R from [<VPIcon icon="fas fa-globe"/>Roslindale](https://djr.com/roslindale/).
 
 ![Black letter "R" from Roslindale font.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/Screenshot-2025-03-24-at-8.13.27%E2%80%AFAM.png?resize=490%2C526&ssl=1)
 

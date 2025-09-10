@@ -115,7 +115,7 @@ If you’d like to try out the code we’ll be looking at in this post, it’s a
 
 ## Getting started
 
-The code we’ll be looking at is from a [<FontIcon icon="iconfont icon-svelte"/>SvelteKit scaffolded project](https://kit.svelte.dev/docs/creating-a-project). If you’ve never used Svelte*Kit*before that’s totally fine. We’re not really using any SvelteKit features until the very end of this post, and even then it’s just re-hashing what we’ll have already covered.
+The code we’ll be looking at is from a [<VPIcon icon="iconfont icon-svelte"/>SvelteKit scaffolded project](https://kit.svelte.dev/docs/creating-a-project). If you’ve never used Svelte*Kit*before that’s totally fine. We’re not really using any SvelteKit features until the very end of this post, and even then it’s just re-hashing what we’ll have already covered.
 
 Throughout this post, we’re going to be inspecting if and when individual bindings in a component are re-evaluated when we change state. There’s various ways to do this, but the simplest, and frankly *dumbest*, is to force some global, non-reactive, always-changing state into these bindings. What do I mean by that? In the root page that hosts our site, I’m adding this:
 
@@ -238,7 +238,7 @@ This is the default behavior when we pass arrays and objects (and arrays of obje
 let tasks = $state([
 ```
 
-Svelte will read everything you pass, set up[<FontIcon icon="fa-brands fa-firefox"/>Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)objects to track what changes, and update the absolute minimum amount of DOM nodes necessary.
+Svelte will read everything you pass, set up[<VPIcon icon="fa-brands fa-firefox"/>Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)objects to track what changes, and update the absolute minimum amount of DOM nodes necessary.
 
 ---
 
@@ -305,11 +305,11 @@ let tasks = $state([
 ]);
 ```
 
-I simplified the class a bit by taking a raw object with all the properties of the class, and assigning those properties with`Object.assign`. The object literal is typed in the constructor as`Task`, the same as the class, but that’s fine because of TypeScript’s[<FontIcon icon="fas fa-globe"/>structural typing](https://css-tricks.com/typescript-discriminated-unions/).
+I simplified the class a bit by taking a raw object with all the properties of the class, and assigning those properties with`Object.assign`. The object literal is typed in the constructor as`Task`, the same as the class, but that’s fine because of TypeScript’s[<VPIcon icon="fas fa-globe"/>structural typing](https://css-tricks.com/typescript-discriminated-unions/).
 
 When we run that, we’ll see the same exact thing as before, except clicking the button to change the `id` will not re-render anything at all in our Svelte component. To be clear, the`id`is still changing, but Svelte is not re-rendering. This demonstrates Svelte intelligently not wiring any kind of observability into that particular property.
 
-Side note: if you wanted to encapsulate / protect the`id`, you could declare `id` as`#id`to make it a[<FontIcon icon="fa-brands fa-firefox"/>private property](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties)and then expose the value with a getter function.
+Side note: if you wanted to encapsulate / protect the`id`, you could declare `id` as`#id`to make it a[<VPIcon icon="fa-brands fa-firefox"/>private property](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties)and then expose the value with a getter function.
 
 ---
 
@@ -319,7 +319,7 @@ What if you don’t want these tasks to be reactive at the individual property a
 
 You basically want to be able to add or remove entries in your array, and have Svelte update the tasks that are rendered. But you don’t want Svelte setting up any kind of reactivity for each property on each task.
 
-This is a common enough use case that other state management systems support this directly, for example, MobX’s[<FontIcon icon="fas fa-globe"/>`observable.shallow`](https://mobx.js.org/observable-state.html#available-annotations). Unfortunately Svelte does not have any such helper, as of yet. That said, it*is*currently being debated, so keep your eyes open for a`$state.shallow()`that would do what we’re about to show. But even if it does get added, implementing it ourselves will be a great way to kick the tires of Svelte’s new reactivity system. Let’s see how.
+This is a common enough use case that other state management systems support this directly, for example, MobX’s[<VPIcon icon="fas fa-globe"/>`observable.shallow`](https://mobx.js.org/observable-state.html#available-annotations). Unfortunately Svelte does not have any such helper, as of yet. That said, it*is*currently being debated, so keep your eyes open for a`$state.shallow()`that would do what we’re about to show. But even if it does get added, implementing it ourselves will be a great way to kick the tires of Svelte’s new reactivity system. Let’s see how.
 
 ### Implementing our own `$state.shallow()` equivalent
 

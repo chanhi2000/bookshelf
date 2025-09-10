@@ -64,7 +64,7 @@ After making this once, I decided to create a reusable multi-step form component
 
 In this guide, I’ll walk through the process of building a reusable multi-step form component in React using React Hook Form and Zod for validation. This component will handle input validation, track form progress, and persist the form data in storage to prevent data loss and provide a smooth user experience.
 
-You can download the source code from the [project’s repository (<FontIcon icon="iconfont icon-github"/>`Chinwike1/multi-step-form`)](https://github.com/Chinwike1/multi-step-form) or view the [<FontIcon icon="fas fa-globe"/>live demo here](https://stepped-form.netlify.app/). Here’s a look at what we’ll be creating:
+You can download the source code from the [project’s repository (<VPIcon icon="iconfont icon-github"/>`Chinwike1/multi-step-form`)](https://github.com/Chinwike1/multi-step-form) or view the [<VPIcon icon="fas fa-globe"/>live demo here](https://stepped-form.netlify.app/). Here’s a look at what we’ll be creating:
 
 ![Multi-Step Form Component Demo](/assets/image/blog.logrocket.com/building-reusable-multi-step-form-react-hook-form-zod/multi-step-form-component.webp)
 
@@ -90,9 +90,9 @@ Here’s a summary of the packages we’ll be using to create this application:
 - [**Vite**](/blog.logrocket.com/vite-adoption-guide.md): The underlying build tool for our React.js application
 - [**React Hook Form**](/blog.logrocket.com/react-hook-form-complete-guide.md): A powerful library for managing forms in React
 - [**Zod**](/blog.logrocket.com/schema-validation-typescript-zod.md): A TypeScript-first schema validation lib with static type inference
-- [<FontIcon icon="iconfont icon-shadcn"/>shadcn](https://ui.shadcn.com): An awesome open source collection of reusable React components. Powered by Radix UI and Tailwind CSS
-- [<FontIcon icon="fas fa-globe"/>Mantine Hooks](https://mantine.dev/hooks/use-local-storage/): A lightweight set of React Hooks for managing DOM and UI state. We’ll use this to save the form state to local storage
-- [<FontIcon icon="fas fa-globe"/>Motion](https://motion.dev/): For adding animations
+- [<VPIcon icon="iconfont icon-shadcn"/>shadcn](https://ui.shadcn.com): An awesome open source collection of reusable React components. Powered by Radix UI and Tailwind CSS
+- [<VPIcon icon="fas fa-globe"/>Mantine Hooks](https://mantine.dev/hooks/use-local-storage/): A lightweight set of React Hooks for managing DOM and UI state. We’ll use this to save the form state to local storage
+- [<VPIcon icon="fas fa-globe"/>Motion](https://motion.dev/): For adding animations
 
 Open up your terminal in your preferred directory and run this command to create a new React app with Vite and TypeScript:
 
@@ -112,7 +112,7 @@ This will create our foundation. Next, let’s install Tailwind and initialize s
 
 ### Installing Tailwind and shadcn
 
-As mentioned above, we’ll be using shadcn, an open source collection of components, to design the form layout. This will allow us to focus more on implementing the form’s logic. If you need help, refer to the [<FontIcon icon="iconfont icon-shadcn"/>official documentation](https://ui.shadcn.com/docs/installation/vite) for guidance.
+As mentioned above, we’ll be using shadcn, an open source collection of components, to design the form layout. This will allow us to focus more on implementing the form’s logic. If you need help, refer to the [<VPIcon icon="iconfont icon-shadcn"/>official documentation](https://ui.shadcn.com/docs/installation/vite) for guidance.
 
 Install and initialize Tailwind with the following command:
 
@@ -120,7 +120,7 @@ Install and initialize Tailwind with the following command:
 pnpm add -D tailwindcss postcss autoprefixer
 ```
 
-Then generate the <FontIcon icon="fa-brands fa-js"/>`tailwind.config.js` and <FontIcon icon="fa-brands fa-js"/>`postcss.config.js` files with the following command:
+Then generate the <VPIcon icon="fa-brands fa-js"/>`tailwind.config.js` and <VPIcon icon="fa-brands fa-js"/>`postcss.config.js` files with the following command:
 
 ```sh
 pnpm tailwindcss init -p
@@ -136,7 +136,7 @@ With the configuration files in place, add the Tailwind directives to your main 
 /* your custom css here */
 ```
 
-Next, update your <FontIcon icon="fa-brands fa-js"/>`tailwind.config.js` file to specify the paths to your content files. This ensures Tailwind can purge unused styles in production:
+Next, update your <VPIcon icon="fa-brands fa-js"/>`tailwind.config.js` file to specify the paths to your content files. This ensures Tailwind can purge unused styles in production:
 
 ```js title="tailwind.config.js"
 /** @type {import('tailwindcss').Config} */
@@ -149,7 +149,7 @@ module.exports = {
 };
 ```
 
-For better module resolution, configure <FontIcon icon="iconfont icon-json"/>`tsconfig.json` with an alias for the <FontIcon icon="fas fa-folder-open"/>`src` directory. This will simplify imports throughout the project:
+For better module resolution, configure <VPIcon icon="iconfont icon-json"/>`tsconfig.json` with an alias for the <VPIcon icon="fas fa-folder-open"/>`src` directory. This will simplify imports throughout the project:
 
 ```json title="tsconfig.json"
 {
@@ -162,7 +162,7 @@ For better module resolution, configure <FontIcon icon="iconfont icon-json"/>`ts
 }
 ```
 
-Vite also comes with a <FontIcon icon="iconfont icon-json"/>`tsconfig.app.json` in which we’ll do the same thing:
+Vite also comes with a <VPIcon icon="iconfont icon-json"/>`tsconfig.app.json` in which we’ll do the same thing:
 
 ```json title="tsconfig.app.json"
 {
@@ -175,7 +175,7 @@ Vite also comes with a <FontIcon icon="iconfont icon-json"/>`tsconfig.app.json` 
 }
 ```
 
-Next, update your Vite configuration to recognize this alias. Open <FontIcon icon="iconfont icon-typescript"/>`vite.config.ts` and add the following:
+Next, update your Vite configuration to recognize this alias. Open <VPIcon icon="iconfont icon-typescript"/>`vite.config.ts` and add the following:
 
 ```ts title="vite.config.ts"
 import path from 'path'
@@ -240,7 +240,7 @@ Installing shadcn’s form library installs the React Hook Form package.
 
 Remember that reusability is our design goal here. We’ll start by defining the `FormStep` type, which will hold the properties required in a new step. This includes the title, position, validation schema, and component amongst others — you can expand this how you creatively see fit.
 
-Start by creating the `FormStep` type in <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="iconfont icon-typescript"/>`types.ts`. This represents a single step in the form:
+Start by creating the `FormStep` type in <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="iconfont icon-typescript"/>`types.ts`. This represents a single step in the form:
 
 ```ts title="types.ts"
 import { ZodType } from 'zod';
@@ -270,7 +270,7 @@ Here’s what each property represents:
 
 You’ll understand it fully when you see the implementation.
 
-Since we’re simulating a checkout process, let’s define validation schemas for each step in `src/validators/`<FontIcon icon="iconfont icon-typescript"/>`checkout-flow.validator.ts`:
+Since we’re simulating a checkout process, let’s define validation schemas for each step in `src/validators/`<VPIcon icon="iconfont icon-typescript"/>`checkout-flow.validator.ts`:
 
 ```ts title="validators/checkout-flow.validator.ts"
 import { z } from 'zod'
@@ -306,7 +306,7 @@ export type CombinedCheckoutType = z.infer<typeof CombinedCheckoutSchema>
 
 By merging the schemas, we combine the field definitions from all steps into one master schema. This allows us to infer a unified `CombinedCheckoutSchema` type that includes all fields in the multi-step form — this combined schema will also come in handy when using React Hook Form.
 
-Finally, define the `checkoutSteps` array in `src/pages/`<FontIcon icon="fa-brands fa-react"/>`home.tsx` to represent the form steps:
+Finally, define the `checkoutSteps` array in `src/pages/`<VPIcon icon="fa-brands fa-react"/>`home.tsx` to represent the form steps:
 
 ```tsx :collapsed-lines title="pages/home.tsx"
 import { FormStep } from '@/types'
@@ -739,7 +739,7 @@ const Step3 = () => {
 
 ![Progress Indicator In Our Form](/assets/image/blog.logrocket.com/building-reusable-multi-step-form-react-hook-form-zod/progress-indicator-form.png)
 
-It is generally good practice to give visual feedback to your users on their progress so they don’t feel lost or overwhelmed. We will achieve this with the progress indicator component below — generated by [<FontIcon icon="fas fa-globe"/>v0](https://v0.dev/chat/community/progress-steps-vByiSdMeSVk)!
+It is generally good practice to give visual feedback to your users on their progress so they don’t feel lost or overwhelmed. We will achieve this with the progress indicator component below — generated by [<VPIcon icon="fas fa-globe"/>v0](https://v0.dev/chat/community/progress-steps-vByiSdMeSVk)!
 
 ```tsx :collaped-lines title="components/ProgressIndicator.tsx"
 export default function ProgressIndicator() {
@@ -915,7 +915,7 @@ And there you have it! We’ve built a reusable, type-safe multi-step form compo
 
 I’ve needed a component like this a few times, so I decided to make a reusable one. Personally, I’d say a multi-step component should exist in a component library like shadcn! 🙂
 
-The complete source code is available in the [repository (<FontIcon icon="iconfont icon-github"/>`Chinwike1/multi-step-form`)](https://github.com/Chinwike1/multi-step-form). Contributions are welcome and feel free to adapt it to your needs or use it as inspiration for your own form implementations.
+The complete source code is available in the [repository (<VPIcon icon="iconfont icon-github"/>`Chinwike1/multi-step-form`)](https://github.com/Chinwike1/multi-step-form). Contributions are welcome and feel free to adapt it to your needs or use it as inspiration for your own form implementations.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

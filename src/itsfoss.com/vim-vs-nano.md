@@ -160,7 +160,7 @@ The modes include:
 
 By default, when you launch Vim, it opens in the **Normal** mode. Each key has its unique function and does not immediately start typing the characters pressed.
 
-Even with all the modes, you can [<FontIcon icon="fas fa-globe"/>configure Vim as a writing tool](https://news.itsfoss.com/configuring-vim-writing/) if you want.
+Even with all the modes, you can [<VPIcon icon="fas fa-globe"/>configure Vim as a writing tool](https://news.itsfoss.com/configuring-vim-writing/) if you want.
 
 To know more about such exciting things, you can refer to our resource on [basic Vim commands](https://linuxhandbook.com/basic-vim-commands/) and [Vim tips and tricks article](/itsfoss.com/pro-vim-tips.md) as well.
 
@@ -224,7 +224,7 @@ You also find key combinations like <kbd>Ctrl</kbd> + <kbd>F</kbd> (to move the 
 - <kbd>Ctrl</kbd> + <kbd>←</kbd> one word backward
 - <kbd>Ctrl</kbd> + <kbd>→</kbd> one word forward
 
-You can take a look at [<FontIcon icon="fas fa-globe"/>GNU Nano’s official cheat sheet](https://nano-editor.org/dist/latest/cheatsheet.html) to learn more shortcuts.
+You can take a look at [<VPIcon icon="fas fa-globe"/>GNU Nano’s official cheat sheet](https://nano-editor.org/dist/latest/cheatsheet.html) to learn more shortcuts.
 
 Overall, nano is a more beginner-friendly editor that simply gets out of your way when all you want to do is edit a file once in a while.
 

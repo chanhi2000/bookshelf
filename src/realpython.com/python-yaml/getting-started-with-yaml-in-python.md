@@ -57,15 +57,15 @@ As you learned in the introduction, working with YAML in Python requires a few e
 
 In addition to this, you might find it useful to install these command-line tools with [**pip**](/realpython.com/what-is-pip.md) into your [**virtual environment**](/realpython.com/python-virtual-environments-a-primer.md) to help with debugging:
 
-- [<FontIcon icon="iconfont icon-pypi"/>`yamllint`](https://pypi.org/project/yamllint/): A linter for YAML, which can check the syntax and more
-- [<FontIcon icon="iconfont icon-pypi"/>`yq`](https://pypi.org/project/yq/): A command-line YAML processor based on [<FontIcon icon="fas fa-globe"/>jq](https://stedolan.github.io/jq/), for filtering data
-- [<FontIcon icon="iconfont icon-pypi"/>`shyaml`](https://pypi.org/project/shyaml/): An alternative command-line YAML processor
+- [<VPIcon icon="iconfont icon-pypi"/>`yamllint`](https://pypi.org/project/yamllint/): A linter for YAML, which can check the syntax and more
+- [<VPIcon icon="iconfont icon-pypi"/>`yq`](https://pypi.org/project/yq/): A command-line YAML processor based on [<VPIcon icon="fas fa-globe"/>jq](https://stedolan.github.io/jq/), for filtering data
+- [<VPIcon icon="iconfont icon-pypi"/>`shyaml`](https://pypi.org/project/shyaml/): An alternative command-line YAML processor
 
-These are all Python tools, but there’s also a widespread [Go implementation of yq (<FontIcon icon="iconfont icon-github"/>`mikefarah/yq`)](https://github.com/mikefarah/yq), which has a slightly different command-line interface. If you can’t or don’t want to install those programs, then you can always use one of the tools available online, such as:
+These are all Python tools, but there’s also a widespread [Go implementation of yq (<VPIcon icon="iconfont icon-github"/>`mikefarah/yq`)](https://github.com/mikefarah/yq), which has a slightly different command-line interface. If you can’t or don’t want to install those programs, then you can always use one of the tools available online, such as:
 
-- [<FontIcon icon="fas fa-globe"/>YAML Parser](https://jsonformatter.org/yaml-parser)
-- [<FontIcon icon="fas fa-globe"/>YAML Formatter](https://jsonformatter.org/yaml-formatter)
-- [<FontIcon icon="fas fa-globe"/>YAML Validator](https://jsonformatter.org/yaml-validator)
+- [<VPIcon icon="fas fa-globe"/>YAML Parser](https://jsonformatter.org/yaml-parser)
+- [<VPIcon icon="fas fa-globe"/>YAML Formatter](https://jsonformatter.org/yaml-formatter)
+- [<VPIcon icon="fas fa-globe"/>YAML Validator](https://jsonformatter.org/yaml-validator)
 
 Note that you’ll need some of those tools in the following subsection only, while you’ll get your feet wet with YAML in pure Python for the rest of this tutorial.
 
@@ -128,7 +128,7 @@ Okay, that felt like cheating, and it works only one way, as you can’t read a 
 
 ### Install the PyYAML Library
 
-Python’s most popular third-party YAML library by far is [<FontIcon icon="iconfont icon-pypi"/>`PyYAML`](https://pypi.org/project/PyYAML/), which is consistently one of the [<FontIcon icon="fas fa-globe"/>top packages](https://pypistats.org/top) downloaded from [<FontIcon icon="iconfont icon-pypi"/>PyPI](https://pypi.org/). It has an interface that looks somewhat similar to the built-in JSON module, it’s actively maintained, and it has the blessing of the official YAML website, which lists it alongside a few less popular contenders.
+Python’s most popular third-party YAML library by far is [<VPIcon icon="iconfont icon-pypi"/>`PyYAML`](https://pypi.org/project/PyYAML/), which is consistently one of the [<VPIcon icon="fas fa-globe"/>top packages](https://pypistats.org/top) downloaded from [<VPIcon icon="iconfont icon-pypi"/>PyPI](https://pypi.org/). It has an interface that looks somewhat similar to the built-in JSON module, it’s actively maintained, and it has the blessing of the official YAML website, which lists it alongside a few less popular contenders.
 
 To install PyYAML into your active virtual environment, type the following command in your terminal:
 
@@ -136,7 +136,7 @@ To install PyYAML into your active virtual environment, type the following comma
 python -m pip install pyyaml
 ```
 
-The library is self-contained and doesn’t require any further dependencies because it’s written in pure Python. However, most distributions bundle a compiled [**C binding**](/realpython.com/python-bindings-overview.md) for the [LibYAML (<FontIcon icon="iconfont icon-github"/>`yaml/libyaml`)](https://github.com/yaml/libyaml) library, which makes PyYAML run much faster. To confirm if your PyYAML installation comes with a C binding, open the interactive Python interpreter and run this code snippet:
+The library is self-contained and doesn’t require any further dependencies because it’s written in pure Python. However, most distributions bundle a compiled [**C binding**](/realpython.com/python-bindings-overview.md) for the [LibYAML (<VPIcon icon="iconfont icon-github"/>`yaml/libyaml`)](https://github.com/yaml/libyaml) library, which makes PyYAML run much faster. To confirm if your PyYAML installation comes with a C binding, open the interactive Python interpreter and run this code snippet:
 
 ```py
 import yaml
@@ -147,9 +147,9 @@ yaml.__with_libyaml__
 
 Even though PyYAML is the name of the library you’ve installed, you’ll be importing the `yaml` package in Python code. Also, note that you need to explicitly request that PyYAML take advantage of the noticeably faster shared C library, or else it’ll fall back to its default of pure Python. Read on to find out how to change this default behavior.
 
-Despite its popularity, PyYAML has some drawbacks. For example, if you need to use features introduced in YAML 1.2, such as full JSON compliance or safer literals, then you’re better off using the [<FontIcon icon="iconfont icon-pypi"/>`ruamel.yaml`](https://pypi.org/project/ruamel.yaml/) library, which is derived from an older PyYAML version. As a bonus, it can do **round-trip parsing** to preserve the comments and original formatting when needed.
+Despite its popularity, PyYAML has some drawbacks. For example, if you need to use features introduced in YAML 1.2, such as full JSON compliance or safer literals, then you’re better off using the [<VPIcon icon="iconfont icon-pypi"/>`ruamel.yaml`](https://pypi.org/project/ruamel.yaml/) library, which is derived from an older PyYAML version. As a bonus, it can do **round-trip parsing** to preserve the comments and original formatting when needed.
 
-On the other hand, if **type safety** is your main concern or you’d like to validate YAML documents against a **schema**, then have a look at [<FontIcon icon="iconfont icon-pypi"/>`strictyaml`](https://pypi.org/project/strictyaml/), which intentionally restricts the YAML specification by disregarding its most risky features. Just keep in mind that it won’t run as quickly as the other two libraries.
+On the other hand, if **type safety** is your main concern or you’d like to validate YAML documents against a **schema**, then have a look at [<VPIcon icon="iconfont icon-pypi"/>`strictyaml`](https://pypi.org/project/strictyaml/), which intentionally restricts the YAML specification by disregarding its most risky features. Just keep in mind that it won’t run as quickly as the other two libraries.
 
 For now, you’re going to stick with PyYAML for the rest of this tutorial because it’s the standard choice for most Python projects. Note that the tools listed earlier—yamllint, yq, and shyaml—use PyYAML under the surface!
 
@@ -206,9 +206,9 @@ Calling `safe_load()` is currently the recommended way of handling content recei
 
 Before version 6.0 of the PyYAML library, the default way of parsing YAML documents had always been the `yaml.load()` function, which defaulted to using an unsafe parser. With the latest release, you can still use this function, but it requires you to explicitly specify a particular loader class as a second parameter.
 
-Introducing this additional parameter was a **breaking change** that resulted in many complaints from people maintaining software dependent on PyYAML. There’s still a [pinned issue (<FontIcon icon="iconfont icon-github"/>`yaml/pyyaml`)](https://github.com/yaml/pyyaml/issues/576) on the library’s GitHub repository about this backward incompatibility.
+Introducing this additional parameter was a **breaking change** that resulted in many complaints from people maintaining software dependent on PyYAML. There’s still a [pinned issue (<VPIcon icon="iconfont icon-github"/>`yaml/pyyaml`)](https://github.com/yaml/pyyaml/issues/576) on the library’s GitHub repository about this backward incompatibility.
 
-At the time of writing this tutorial, the official [<FontIcon icon="fas fa-globe"/>PyYAML documentation](https://pyyaml.org/wiki/PyYAMLDocumentation) as well as the bundled [**docstrings**](/realpython.com/documenting-python-code.md#documenting-your-python-code-base-using-docstrings) haven’t been updated to reflect the current code base, and they contain examples that don’t work anymore.
+At the time of writing this tutorial, the official [<VPIcon icon="fas fa-globe"/>PyYAML documentation](https://pyyaml.org/wiki/PyYAMLDocumentation) as well as the bundled [**docstrings**](/realpython.com/documenting-python-code.md#documenting-your-python-code-base-using-docstrings) haven’t been updated to reflect the current code base, and they contain examples that don’t work anymore.
 
 :::
 
@@ -233,7 +233,7 @@ load(email_message, SafeLoader)
 # }
 ```
 
-One thing to remember when using the shorthand functions is that they hard-code the pure Python implementation. If you’d like to use the faster **C implementation**, then you must write a little bit of [<FontIcon icon="fa-brands fa-wikipedia-w"/>boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) yourself:
+One thing to remember when using the shorthand functions is that they hard-code the pure Python implementation. If you’d like to use the faster **C implementation**, then you must write a little bit of [<VPIcon icon="fa-brands fa-wikipedia-w"/>boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) yourself:
 
 ```py
 try:

@@ -73,7 +73,7 @@ Let's explore both approaches using a simple `UserNotes` table and see how they 
 
 We'll look at the implementation details, compare query performance, and discuss where each approach makes the most sense.
 
-I've included real execution plans from [<FontIcon icon="iconfont icon-postgresql"/>PostgreSQL](https://postgresql.org) to demonstrate the significant performance differences between these approaches.
+I've included real execution plans from [<VPIcon icon="iconfont icon-postgresql"/>PostgreSQL](https://postgresql.org) to demonstrate the significant performance differences between these approaches.
 
 ---
 
@@ -111,7 +111,7 @@ I will use PostgreSQL as the database, but the concepts also apply to other data
 
 ## Offset Pagination: The Traditional Approach
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Offset pagination](https://learn.microsoft.com/en-us/ef/core/querying/pagination#offset-pagination) uses `Skip` and `Take` operations. We *skip* a certain number of rows and *take* a fixed number of rows. These usually translate to `OFFSET` and `LIMIT` in SQL queries.
+[<VPIcon icon="fa-brands fa-microsoft"/>Offset pagination](https://learn.microsoft.com/en-us/ef/core/querying/pagination#offset-pagination) uses `Skip` and `Take` operations. We *skip* a certain number of rows and *take* a fixed number of rows. These usually translate to `OFFSET` and `LIMIT` in SQL queries.
 
 Here's an example of offset pagination in ASP.NET Core:
 
@@ -178,7 +178,7 @@ LIMIT @pageSize OFFSET @offset;
 
 ## Cursor-Based Pagination: A Faster Approach
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Cursor pagination](https://learn.microsoft.com/en-us/ef/core/querying/pagination#keyset-pagination) uses a reference point (cursor) to fetch the next set of results. This reference point is typically a **unique identifier** or a combination of fields that define the sort order.
+[<VPIcon icon="fa-brands fa-microsoft"/>Cursor pagination](https://learn.microsoft.com/en-us/ef/core/querying/pagination#keyset-pagination) uses a reference point (cursor) to fetch the next set of results. This reference point is typically a **unique identifier** or a combination of fields that define the sort order.
 
 I'll use the `Date` and `Id` fields to create a cursor for our `UserNotes` table. The cursor is a composite of these two fields, allowing us to paginate efficiently.
 
@@ -258,7 +258,7 @@ The `COUNT` query is omitted in cursor pagination because we're not counting the
 
 ## Examining the SQL Execution Plans
 
-I wanted to compare the execution plans for offset and cursor pagination. I used the `EXPLAIN ANALYZE` command in PostgreSQL to see the [<FontIcon icon="iconfont icon-postgresql"/>query plans](https://postgresql.org/docs/current/using-explain.html).
+I wanted to compare the execution plans for offset and cursor pagination. I used the `EXPLAIN ANALYZE` command in PostgreSQL to see the [<VPIcon icon="iconfont icon-postgresql"/>query plans](https://postgresql.org/docs/current/using-explain.html).
 
 Here's the offset pagination query:
 
@@ -346,7 +346,7 @@ The performance with cursor pagination is consistent regardless of the page dept
 
 ## Adding Indexes for Cursor Pagination
 
-I also tested the impact of indexes on [<FontIcon icon="fas fa-globe"/>cursor pagination](https://use-the-index-luke.com/blog/2013-07/pagination-done-the-postgresql-way). I created a composite index on the `Date` and `Id` fields to speed up the queries. Or so I thought...
+I also tested the impact of indexes on [<VPIcon icon="fas fa-globe"/>cursor pagination](https://use-the-index-luke.com/blog/2013-07/pagination-done-the-postgresql-way). I created a composite index on the `Date` and `Id` fields to speed up the queries. Or so I thought...
 
 Here's the SQL command to create the composite index:
 

@@ -60,7 +60,7 @@ This post was updated on 1 December 2021 to acknowledge the wider browser suppor
 
 CSS looks deceptively simple. We just declare how something should look in a couple of rules, and the browser works its magic. This results in many courses and learning resources teaching CSS in a practical, easy to follow, quick-results approach that is based pretty much in memorizing rules like a robot.
 
-Even some of the most popular resources fall short when it comes to teaching CSS theory: the extremely awesome [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp just brushes through it](https://learn.freecodecamp.org/), always-trusty [<FontIcon icon="fas fa-globe"/>W3Schools pretty much just lists the properties and values](https://w3schools.com/css/default.asp), and even premium courses out there mostly focus on building something fast without even mentioning some of the core concepts.
+Even some of the most popular resources fall short when it comes to teaching CSS theory: the extremely awesome [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp just brushes through it](https://learn.freecodecamp.org/), always-trusty [<VPIcon icon="fas fa-globe"/>W3Schools pretty much just lists the properties and values](https://w3schools.com/css/default.asp), and even premium courses out there mostly focus on building something fast without even mentioning some of the core concepts.
 
 Well, that’s exactly where the problem lies. We’re learning CSS the wrong way.
 
@@ -155,13 +155,13 @@ Most of the time we can sort this out with the clearfix hack. This involves appl
 
 ## So, what are block formatting contexts?
 
-A [<FontIcon icon="fa-brands fa-firefox"/>block formatting context (BFC)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context) defines the scope in which margins will collapse and floats will be contained. We can think of it as a mini-layout within the overall layout.
+A [<VPIcon icon="fa-brands fa-firefox"/>block formatting context (BFC)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context) defines the scope in which margins will collapse and floats will be contained. We can think of it as a mini-layout within the overall layout.
 
 When we create a BFC, we’re telling the browser to treat the elements it contains as an autonomous piece of layout for floats and margins concerns. In essence, it allows elements to contain internal floats, exclude external floats and prevent margin collapsing.
 
 ### Creating a block formatting context
 
-There are many [<FontIcon icon="fa-brands fa-firefox"/>ways to create block formatting contexts](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context). It involves applying some specific CSS properties or using the root element of the document. Here, we use one of the methods to solve the issues we’ve noted earlier — the floating image and collapsing margins.
+There are many [<VPIcon icon="fa-brands fa-firefox"/>ways to create block formatting contexts](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context). It involves applying some specific CSS properties or using the root element of the document. Here, we use one of the methods to solve the issues we’ve noted earlier — the floating image and collapsing margins.
 
 Let’s start with the collapsing margin between parents and children. To prevent this, we can apply a `display: flow-root;` on the container element. This will create a new block formatting context and prevent the margin from spilling out.
 
@@ -232,7 +232,7 @@ Once we remove the margins, the items will stick together. We can then apply the
 
 ![Adding a gap property](/assets/image/blog.logrocket.com/why-your-css-fails/add-gap-property.gif)
 
-For Flexbox, we can also use the `gap` property to space items as it is [<FontIcon icon="fas fa-globe"/>now supported in all modern browsers](https://caniuse.com/flexbox-gap).
+For Flexbox, we can also use the `gap` property to space items as it is [<VPIcon icon="fas fa-globe"/>now supported in all modern browsers](https://caniuse.com/flexbox-gap).
 
 ---
 
@@ -340,7 +340,7 @@ For instance, if we set a width of 50 percent on two left-floated elements, they
 
 This usually required using weird calcs and preprocessor variables to compensate, and in the old times, actually having to calculate and adjust the widths every time we changed the borders or padding.
 
-Believe it or not, the solution to this issue was inspired by a weird bug in Internet Explorer 6. When IE6 was set to [<FontIcon icon="fa-brands fa-firefox"/>quirks mode](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode), the `width` property would set the total rendered width of the element, while paddings and borders would be taken out of the content area, keeping a stable and predictable total width. This is pretty much what we now know as `border-box`.
+Believe it or not, the solution to this issue was inspired by a weird bug in Internet Explorer 6. When IE6 was set to [<VPIcon icon="fa-brands fa-firefox"/>quirks mode](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode), the `width` property would set the total rendered width of the element, while paddings and borders would be taken out of the content area, keeping a stable and predictable total width. This is pretty much what we now know as `border-box`.
 
 Nowadays, most developers choose to reset everything to `border-box`, so it’s extremely likely that you’ll find some version of this snippet in your codebase:
 
@@ -376,7 +376,7 @@ Positioning the elements (setting `position` to any value other than the default
 
 Many times we set the stack in perfect order, then something breaks it *inexplicably*. Turns out, you can create a stacking context, which is a local stack of several properties or elements amongst which `z-index` applies. We can move elements inside each local stack, as well as move the stacks around in the encompassing stacks, but we can’t interpolate elements from a stack with elements from another.
 
-[<FontIcon icon="fa-brands fa-firefox"/>Some of the properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) that create a stacking context are:
+[<VPIcon icon="fa-brands fa-firefox"/>Some of the properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) that create a stacking context are:
 
 - Positioned elements with `z-index` other than `auto`
 - Elements with an `opacity` below `1`
@@ -409,7 +409,7 @@ The solution is creating a new stacking context in the `div` containing the red 
 
 Notice that even if we gave the red span a `z-index` of 1 million, it will not move in front of the green and blue ones because it is isolated in a local stack. If we want to move it, we need to change the position and `z-index` of the containing `div`.
 
-Again, Benjamin Johnson [covered Stacking Contexts in depth for this publication](https://blog.logrocket.com/how-css-works-creating-layers-with-z-index-6a20afe1550e), so that’s a great source for further understanding of how this works. I also recommend [<FontIcon icon="fas fa-globe"/>Phillip Walton’s article on z-index](https://philipwalton.com/articles/what-no-one-told-you-about-z-index/), that’s the source for the above challenge and a great dive into how stacking contexts works.
+Again, Benjamin Johnson [covered Stacking Contexts in depth for this publication](https://blog.logrocket.com/how-css-works-creating-layers-with-z-index-6a20afe1550e), so that’s a great source for further understanding of how this works. I also recommend [<VPIcon icon="fas fa-globe"/>Phillip Walton’s article on z-index](https://philipwalton.com/articles/what-no-one-told-you-about-z-index/), that’s the source for the above challenge and a great dive into how stacking contexts works.
 <!-- TODO: /blog.logrocket.com/how-css-works-creating-layers-with-z-index.md -->
 ---
 
@@ -419,7 +419,7 @@ CSS is an extremely powerful styling tool. Whether you choose to go with a pre-p
 
 With many people coming from boot camps that put the emphasis on JS (as is the industry itself), and with the proliferation of pre-packaged solutions such as Bootstrap, the quality of HTML and CSS has taken a toll.
 
-It’s been ten years since [<FontIcon icon="iconfont icon-css-tricks"/>Chris Coyier said it](https://css-tricks.com/css-is-like/), but this quote is still relevant:
+It’s been ten years since [<VPIcon icon="iconfont icon-css-tricks"/>Chris Coyier said it](https://css-tricks.com/css-is-like/), but this quote is still relevant:
 
 > CSS is like chess. You can learn the basics in a day and spend a lifetime mastering it.
 

@@ -64,7 +64,7 @@ In this blog post, I’ll share some examples of how to do that. I’m using an 
 
 As mentioned, I’m using an old demo project as the basis for the tests. In short, it contains a graph displaying data and is navigable with touch input, keyboard, switch device, and screen reader. The additional buttons for changing the highlighted sections in the chart also work for someone who has, for example, tremors in their hands or reduced dexterity.
 
-If you want to learn more about how I built the UI and the reasons behind the decisions, I’ve added links to all the blog posts in the[Related Blog Posts (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/testing-different-navigation-options-with-compose-80f180ee10e6#related-blog-posts)section.
+If you want to learn more about how I built the UI and the reasons behind the decisions, I’ve added links to all the blog posts in the[Related Blog Posts (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/testing-different-navigation-options-with-compose-80f180ee10e6#related-blog-posts)section.
 
 Alright, let’s get to writing tests!
 
@@ -90,7 +90,7 @@ class GraphScreenTest {
 
 Another part of the setup phase is deciding how we will retrieve the elements we use for testing. In this case, I decided to use test tags for simplicity, and I’ve defined a`TestTags`-object for sharing between the UI and tests. This solution is straightforward and might not be your choice in a production app, but as this is a demo, it uses the most explicit option.
 
-You can find[all the changes from this blog post in this commit (<FontIcon icon="iconfont icon-github"/>`eevajonnapanula/graph-accessibility-example`)](https://github.com/eevajonnapanula/graph-accessibility-example/commit/e693b4ee915d9ba2b50be7b4783a9fa91c17aa62).
+You can find[all the changes from this blog post in this commit (<VPIcon icon="iconfont icon-github"/>`eevajonnapanula/graph-accessibility-example`)](https://github.com/eevajonnapanula/graph-accessibility-example/commit/e693b4ee915d9ba2b50be7b4783a9fa91c17aa62).
 
 <SiteInfo
   name="Add tests for alternative navigation options (#7) · eevajonnapanula/graph-accessibility-example@e693b4e"
@@ -175,7 +175,7 @@ fun keyboardNavigationWorksCorrectly() {
 
 For this test, we define the same variables (`labels`and`chart`) and then assert that the labels component is not displayed.
 
-Next, we’ll need to perform some keyboard input actions. We can do that with[<FontIcon icon="fa-brands fa-android"/>performKeyInput](https://developer.android.com/reference/kotlin/androidx/compose/ui/test/package-summary#(androidx.compose.ui.test.SemanticsNodeInteraction).performKeyInput(kotlin.Function1))and`pressKey`:
+Next, we’ll need to perform some keyboard input actions. We can do that with[<VPIcon icon="fa-brands fa-android"/>performKeyInput](https://developer.android.com/reference/kotlin/androidx/compose/ui/test/package-summary#(androidx.compose.ui.test.SemanticsNodeInteraction).performKeyInput(kotlin.Function1))and`pressKey`:
 
 ```kotlin
 @Test
@@ -322,7 +322,7 @@ Do you test for these interactions and navigation alternatives? If so, do you ha
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/testing-different-navigation-options-with-compose-80f180ee10e6)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/testing-different-navigation-options-with-compose-80f180ee10e6)
 
 <SiteInfo
   name="Testing Different Navigation Options with Compose"

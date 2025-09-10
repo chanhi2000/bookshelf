@@ -112,7 +112,7 @@ The sequence diagram illustrates how the Outbox pattern solves our consistency c
 
 A separate Outbox processor handles the actual message sending. It continuously checks for unsent messages in the Outbox table and publishes them to the message queue. The processor marks messages as sent after successful publishing, preventing duplicates.
 
-An important thing to realize here is that the Outbox pattern gives us [<FontIcon icon="fas fa-globe"/>at-least-once delivery](https://cloudcomputingpatterns.org/at_least_once_delivery/). The Outbox message will be sent at least once, but it could also be sent multiple times in case of retries. This means we have to make our message consumers idempotent.
+An important thing to realize here is that the Outbox pattern gives us [<VPIcon icon="fas fa-globe"/>at-least-once delivery](https://cloudcomputingpatterns.org/at_least_once_delivery/). The Outbox message will be sent at least once, but it could also be sent multiple times in case of retries. This means we have to make our message consumers idempotent.
 
 ---
 
@@ -253,7 +253,7 @@ public class OutboxProcessorJob(
 
 This approach uses polling to periodically fetch unprocessed messages from the database. Polling can increase the load on the database, as we'll need to query for unprocessed messages frequently.
 
-An alternative way to process Outbox messages is by using [<FontIcon icon="fas fa-globe"/>Transaction log tailing](https://microservices.io/patterns/data/transaction-log-tailing.html). We can implement this using [<FontIcon icon="fas fa-globe"/>Postgres logical replication](https://npgsql.org/doc/replication.html). The database will stream changes from the Write-Ahead Log (WAL) to our application, and we'll process these messages and publish them to the message broker. You can use this to implement a push-based Outbox processor.
+An alternative way to process Outbox messages is by using [<VPIcon icon="fas fa-globe"/>Transaction log tailing](https://microservices.io/patterns/data/transaction-log-tailing.html). We can implement this using [<VPIcon icon="fas fa-globe"/>Postgres logical replication](https://npgsql.org/doc/replication.html). The database will stream changes from the Write-Ahead Log (WAL) to our application, and we'll process these messages and publish them to the message broker. You can use this to implement a push-based Outbox processor.
 
 ---
 

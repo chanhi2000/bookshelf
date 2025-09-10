@@ -56,7 +56,7 @@ If a more complex layout presents itself, people often reach for a grid framewor
 
 ::: note
 
-Note that this article was published in 2012. Floats was still the primary method for a grid system, and this article focuses on *really* simple methods for that, like just floating four 25% elements and not getting crazy with math and exotic gutter systems. These days, I’d highly recommend using CSS [<FontIcon icon="iconfont icon-css-tricks"/>grid](https://css-tricks.com/snippets/css/complete-guide-grid/) or [<FontIcon icon="iconfont icon-css-tricks"/>flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for your grid system, if you even need to create an abstracted grid at all. It’s arguably even easier and definitely more flexible and powerful.
+Note that this article was published in 2012. Floats was still the primary method for a grid system, and this article focuses on *really* simple methods for that, like just floating four 25% elements and not getting crazy with math and exotic gutter systems. These days, I’d highly recommend using CSS [<VPIcon icon="iconfont icon-css-tricks"/>grid](https://css-tricks.com/snippets/css/complete-guide-grid/) or [<VPIcon icon="iconfont icon-css-tricks"/>flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for your grid system, if you even need to create an abstracted grid at all. It’s arguably even easier and definitely more flexible and powerful.
 
 :::
 
@@ -134,7 +134,7 @@ The parent element will collapse to zero height since it has only floated childr
 
 The hardest part about grids is gutters. So far we’ve made our grid flexible by using percentages for widths. We could make the math all complicated and use percentages for gutters as well, but personally I don’t like percentage gutters anyway, I like fixed pixel size gutters. Plus, we’re trying to keep too much thinking out of this.
 
-**The first step** toward this is using [<FontIcon icon="iconfont icon-css-tricks"/>`box-sizing`](https://css-tricks.com/almanac/properties/b/box-sizing/): `border-box`;. I like using it on absolutely everything.
+**The first step** toward this is using [<VPIcon icon="iconfont icon-css-tricks"/>`box-sizing`](https://css-tricks.com/almanac/properties/b/box-sizing/): `border-box`;. I like using it on absolutely everything.
 
 ```css
 *, *:after, *:before {
@@ -300,7 +300,7 @@ It feels nice breaking up content into bits this way. The bonus side effect bein
 
 ## Result
 
-Here’s [a demo on CodePen (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/eGcLw).
+Here’s [a demo on CodePen (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](http://codepen.io/chriscoyier/pen/eGcLw).
 
 <CodePen
   user="chriscoyier"
@@ -315,7 +315,7 @@ Here’s [a demo on CodePen (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier
 
 Works just great in IE 8 and up and all the other standard stuff. If you need IE 7 support, you’ll have to do something else.
 
-Also, [<FontIcon icon="iconfont icon-css-tricks"/>Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) is going to make this even easier and better (in various ways, including reordering on demand), but I think we need about a year until we can start to think about using it.
+Also, [<VPIcon icon="iconfont icon-css-tricks"/>Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) is going to make this even easier and better (in various ways, including reordering on demand), but I think we need about a year until we can start to think about using it.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

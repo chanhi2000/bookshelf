@@ -52,9 +52,9 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 [**I just blogged about**](/frontendmasters.com/scroll-driven-sections.md) a way to pass information from an element that had a view timeline on itself down to it’s descendent elements. The idea is to set up CSS custom properties with `@property` and the `@keyframe` would animate those, thus the descendent’s would have access to them.
 
-It [worked fine (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/gOVXVjj) (noting that scroll-driven animations are, so far, only in Chrome).
+It [worked fine (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/gOVXVjj) (noting that scroll-driven animations are, so far, only in Chrome).
 
-But Bramus [<FontIcon icon="fas fa-globe"/>noted](https://frontendmasters.com/blog/scroll-driven-sections/#comment-14255) that another possibility there was to *name* the view timeline and have the children reference that *instead*. His [<FontIcon icon="fa-brands fa-youtube"/>video on this](https://youtu.be/Dk1YA8dCgE0?list=PLNYkxOF6rcICM3ttukz9x5LCNOHfWBVnn&index=6&t=4s) is informative.
+But Bramus [<VPIcon icon="fas fa-globe"/>noted](https://frontendmasters.com/blog/scroll-driven-sections/#comment-14255) that another possibility there was to *name* the view timeline and have the children reference that *instead*. His [<VPIcon icon="fa-brands fa-youtube"/>video on this](https://youtu.be/Dk1YA8dCgE0?list=PLNYkxOF6rcICM3ttukz9x5LCNOHfWBVnn&index=6&t=4s) is informative.
 
 ::: info Article Series
 
@@ -96,7 +96,7 @@ blockquote {
 }
  ```
 
-[Here’s an updated demo (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/GRVdWwr?editors=0100) using that technique instead of animating all custom properties.
+[Here’s an updated demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/GRVdWwr?editors=0100) using that technique instead of animating all custom properties.
 
 <CodePen
   user="chriscoyier"
@@ -115,7 +115,7 @@ you can name a view (or scroll) animation timeline (`view-timeline` or `scroll-t
 
 :::
 
-The fact that it works for descendents only is interesting to me. When I was playing with this to try to understand it, my first thought was to try to make a random element on the page have a `scroll-timeline` and another totally random element on the page “listen” to that one for it’s `animation-timeline`. I made them *siblings* and was confused why it wasn’t working. That ain’t gonna work, apparently, gotta have that parent/child thing going on. (Bramus’ [<FontIcon icon="fa-brands fa-youtube"/>video](https://youtu.be/Dk1YA8dCgE0?list=PLNYkxOF6rcICM3ttukz9x5LCNOHfWBVnn&index=6&t=4s) notes another gotcha: intermediary parents with `overflow: hidden` ruining the effect, and a perfect solution: `overflow: clip`).
+The fact that it works for descendents only is interesting to me. When I was playing with this to try to understand it, my first thought was to try to make a random element on the page have a `scroll-timeline` and another totally random element on the page “listen” to that one for it’s `animation-timeline`. I made them *siblings* and was confused why it wasn’t working. That ain’t gonna work, apparently, gotta have that parent/child thing going on. (Bramus’ [<VPIcon icon="fa-brands fa-youtube"/>video](https://youtu.be/Dk1YA8dCgE0?list=PLNYkxOF6rcICM3ttukz9x5LCNOHfWBVnn&index=6&t=4s) notes another gotcha: intermediary parents with `overflow: hidden` ruining the effect, and a perfect solution: `overflow: clip`).
 
 I updated my playing to make it a parent/child relationship, and here’s that silly idea:
 

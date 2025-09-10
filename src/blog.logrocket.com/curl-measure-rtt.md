@@ -120,7 +120,7 @@ These may look alien to you, but they essentially describe the process by which 
 
 Simply put, when a connection is established, the client sends a `SYN` (Synchronize) packet to the host. The server receives the `SYN` and replies with a `SYN-ACK` (Synchronize-Acknowledgment). If everything goes well, the client receives the server’s `SYN-ACK` and sends an `ACK` (Acknowledge).
 
-You can learn more about the TCP three-way handshake on the [<FontIcon icon="fa-brands fa-firefox"/>MDN docs](https://developer.mozilla.org/en-US/docs/Glossary/TCP_handshake).
+You can learn more about the TCP three-way handshake on the [<VPIcon icon="fa-brands fa-firefox"/>MDN docs](https://developer.mozilla.org/en-US/docs/Glossary/TCP_handshake).
 
 ### **Time** **t**o **f**irst **b**yte (TTFB)
 
@@ -147,7 +147,7 @@ Now that we understand what round-trip time is and how cURL uses multiple protoc
 
 Before diving into the nitty gritty of RTT measurement, you must ensure cURL is properly installed on your machine.
 
-Most Unix-like systems, such as Linux and macOS, come with cURL pre-installed. For Windows users, you can download it from the [<FontIcon icon="iconfont icon-curl"/>official cURL website](https://curl.se/windows/) or install it via Chocolatey using the following command, assuming you have [<FontIcon icon="iconfont icon-chocolatey"/>Chocolatey](https://chocolatey.org/install) installed on your machine:
+Most Unix-like systems, such as Linux and macOS, come with cURL pre-installed. For Windows users, you can download it from the [<VPIcon icon="iconfont icon-curl"/>official cURL website](https://curl.se/windows/) or install it via Chocolatey using the following command, assuming you have [<VPIcon icon="iconfont icon-chocolatey"/>Chocolatey](https://chocolatey.org/install) installed on your machine:
 
 ```sh
 choco install curl
@@ -228,7 +228,7 @@ Content Transfer:  %{time_starttransfer}s
 Total Time:        %{time_total}s
 ```
 
-Typing them in the command-line tool one by one would not only become tedious but also time-consuming. Instead, you can create a custom <FontIcon icon="fas fa-file-lines"/>`.txt` file, add the variables, and then use it with cURL like so:
+Typing them in the command-line tool one by one would not only become tedious but also time-consuming. Instead, you can create a custom <VPIcon icon="fas fa-file-lines"/>`.txt` file, add the variables, and then use it with cURL like so:
 
 ```sh
 curl -w "@curl-format.txt" -o /dev/null -s https://bing.com
@@ -429,7 +429,7 @@ As mentioned earlier, these tools have distinct functionalities, so let’s comp
 
 ### Ping
 
-Ping sends ICMP echo request packets to a target host and measures the time it takes for the response to be received. Think of [<FontIcon icon="fas fa-globe"/>ICMP echo requests](https://firewall.cx/networking/network-protocols/icmp-protocol/icmp-echo-ping.html) as a type of network message used primarily for diagnostic purposes.
+Ping sends ICMP echo request packets to a target host and measures the time it takes for the response to be received. Think of [<VPIcon icon="fas fa-globe"/>ICMP echo requests](https://firewall.cx/networking/network-protocols/icmp-protocol/icmp-echo-ping.html) as a type of network message used primarily for diagnostic purposes.
 
 However, unlike cURL, Ping primarily measures the time it takes for basic network-level communication. It doesn’t provide information about higher-level protocols like HTTP or HTTPS. It also doesn’t capture the time taken for server-side processing.
 

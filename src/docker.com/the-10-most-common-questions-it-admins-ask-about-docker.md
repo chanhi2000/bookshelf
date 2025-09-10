@@ -54,7 +54,7 @@ cover: https://docker.com/app/uploads/2022/12/admins-ask-about-docker-1.jpeg
 
 ![admins ask about docker 1](https://docker.com/app/uploads/2022/12/admins-ask-about-docker-1.jpeg)
 
-Over the past few months we have attended a string of industry tradeshow events, helping to teach the world about [<FontIcon icon="fa-brands fa-docker"/>Docker for enterprise.](https://docker.com/enterprise) We were at HPE Discover, DockerCon, RedHat Summit and Cisco Live all within the past 6weeks! I had the pleasure of helping to represent Docker at each events and spoke with attendees. Some folks worked in IT ops, while others worked in development. I also spoke with a lot of folks working as IT admins within their company’s infrastructure team, and over time, I began to notice some trends when it came to the types of questions they asked. This got me thinking. Why not put together a list of the most common questions from IT administrators? I mean there’s a good chance there are other IT infrastructure folks out there who have the very same questions, right?
+Over the past few months we have attended a string of industry tradeshow events, helping to teach the world about [<VPIcon icon="fa-brands fa-docker"/>Docker for enterprise.](https://docker.com/enterprise) We were at HPE Discover, DockerCon, RedHat Summit and Cisco Live all within the past 6weeks! I had the pleasure of helping to represent Docker at each events and spoke with attendees. Some folks worked in IT ops, while others worked in development. I also spoke with a lot of folks working as IT admins within their company’s infrastructure team, and over time, I began to notice some trends when it came to the types of questions they asked. This got me thinking. Why not put together a list of the most common questions from IT administrators? I mean there’s a good chance there are other IT infrastructure folks out there who have the very same questions, right?
 
 So here it is. The list IT admins have being waiting for. The ten most common questions (and their answers) from IT Admins.
 
@@ -88,7 +88,7 @@ IT Ops teams can manage and secure their environment while allowing developers t
 
 In addition, IT ops teams have the ability to manage deploy and scale their Dockerized applications across any environment. For example, the portability of Docker containers allows teams to migrate workloads running in AWS over to Azure, without having to recode and with no downtime. Team cans also migrate workloads from their cloud environment, down to their physical datacenter, and back. This enables teams to utilize the best infrastructure for their business needs, rather than being locked into a particular infrastructure type.
 
-The lightweight nature of Docker containers compared to traditional tools like virtualization, combined with the ability for Docker containers to run within VMs, allowing teams to optimize their [<FontIcon icon="fa-brands fa-youtube"/>infrastructure by 20X,](https://youtu.be/cJEFE1qnMS8?list=PLkA60AVN3hh9hh7lbvw_FKS83HRJonv6h) and save money in the process.
+The lightweight nature of Docker containers compared to traditional tools like virtualization, combined with the ability for Docker containers to run within VMs, allowing teams to optimize their [<VPIcon icon="fa-brands fa-youtube"/>infrastructure by 20X,](https://youtu.be/cJEFE1qnMS8?list=PLkA60AVN3hh9hh7lbvw_FKS83HRJonv6h) and save money in the process.
 
 :::
 
@@ -104,7 +104,7 @@ The Docker Engine itself is very lightweight, weighing in around 80 MB total.
 
 A Dockerized node is anything i.e a bare metal server, VM or public cloud instance that has the Docker Engine installed and running on it.
 
-Docker can manage nodes that exist on-premises as well as in the cloud. [<FontIcon icon="fa-brands fa-docker"/>Docker Datacenter](https://docker.com/products/docker-datacenter) is an on-premises solution that enterprises use to create, manage, deploy and scale their applications and comes with support from the Docker team. It can manage hosts that exist in your datacenter as well as in your virtual private cloud or public cloud provider (AWS, Azure, Digital Ocean, SoftLayer etc.).
+Docker can manage nodes that exist on-premises as well as in the cloud. [<VPIcon icon="fa-brands fa-docker"/>Docker Datacenter](https://docker.com/products/docker-datacenter) is an on-premises solution that enterprises use to create, manage, deploy and scale their applications and comes with support from the Docker team. It can manage hosts that exist in your datacenter as well as in your virtual private cloud or public cloud provider (AWS, Azure, Digital Ocean, SoftLayer etc.).
 
 :::
 
@@ -116,7 +116,7 @@ Docker containers do not package up the OS. They package up the applications wit
 
 ::: details 7. What OS can the Docker Engine run on?
 
-The Docker Engine runs on all modern Linux distributions. We also provide a [<FontIcon icon="fa-brands fa-docker"/>commercially supported Docker Engine](https://docs.docker.com/engine/release-notes/prior-releases/) for Ubuntu, CentOS, OpenSUSE, RHEL. There is also a technical preview of Docker running on Windows Server 2016. 8. How does Docker help manage my infrastructure? Do I containerize all my infrastructure or something?
+The Docker Engine runs on all modern Linux distributions. We also provide a [<VPIcon icon="fa-brands fa-docker"/>commercially supported Docker Engine](https://docs.docker.com/engine/release-notes/prior-releases/) for Ubuntu, CentOS, OpenSUSE, RHEL. There is also a technical preview of Docker running on Windows Server 2016. 8. How does Docker help manage my infrastructure? Do I containerize all my infrastructure or something?
 
 Docker isn’t focused on managing your infrastructure. The platform, which is infrastructure agnostic, manages your applications and helps ensure that they can run smoothly, regardless of infrastructure type via solutions like Docker Datacenter. This gives your company the agility, portability and control you require. Your team is responsible for managing the actual infrastructure.
 
@@ -130,9 +130,9 @@ As far as the number of containers that can be run, this really depends on your 
 
 ::: details 10. What do I have to do to begin the “Dockerization process”
 
-The best way for your team to get started is for your developers to download [<FontIcon icon="fa-brands fa-docker"/>Docker for Mac or Docker Windows](https://docker.com/products/docker#/mac). These are native installations of Docker on a Mac or Windows device. From their, developers will take their applications and create a Dockerfile. The Dockerfile is where all of the application configuration is specified. It is essentially the blueprint for the Docker Image. The image is a snapshot of your application and is what the Docker Engine looks at so it knows what the container it is spinning up should look like.
+The best way for your team to get started is for your developers to download [<VPIcon icon="fa-brands fa-docker"/>Docker for Mac or Docker Windows](https://docker.com/products/docker#/mac). These are native installations of Docker on a Mac or Windows device. From their, developers will take their applications and create a Dockerfile. The Dockerfile is where all of the application configuration is specified. It is essentially the blueprint for the Docker Image. The image is a snapshot of your application and is what the Docker Engine looks at so it knows what the container it is spinning up should look like.
 
-If your developers aren’t using Docker quite yet. Feel free to point them to our website where they can learn more at [<FontIcon icon="fa-brands fa-docker"/>www.docker.com](https://docker.com/)
+If your developers aren’t using Docker quite yet. Feel free to point them to our website where they can learn more at [<VPIcon icon="fa-brands fa-docker"/>www.docker.com](https://docker.com/)
 
 :::
 
@@ -142,7 +142,7 @@ I added this in because this is one of the biggest misconceptions about Docker. 
 
 In the case of microservices, customers typically containerize each service and use tools like Docker Compose to deploy these multi-container distributed applications into their production environment as a single running application.
 
-We’ve even seen some companies have a hybrid environment where they are slowly restructuring their dockerized monolithic applications to become dockerized distributed applications over time. This is the [<FontIcon icon="fa-brands fa-youtube"/>case with ADP,](https://youtu.be/4ywzwCmML2Y) a Docker Datacenter customer of ours.
+We’ve even seen some companies have a hybrid environment where they are slowly restructuring their dockerized monolithic applications to become dockerized distributed applications over time. This is the [<VPIcon icon="fa-brands fa-youtube"/>case with ADP,](https://youtu.be/4ywzwCmML2Y) a Docker Datacenter customer of ours.
 
 <VidStack src="youtube/4ywzwCmML2Y" />
 
@@ -152,7 +152,7 @@ So there it is. The list of the top ten questions that IT admins ask about Docke
 
 Now, I have a question for you. Has YOUR team started using Docker? If not, it may be time for you to try the new hotness.
 
-If you are looking to learn more about containers vs. VMs, take a look at this webinar recording from a few weeks ago called [<FontIcon icon="fas fa-globe"/>“Containers for The Virtualization Admin”](https://docker.wistia.com/medias/8jzv09k4xw)
+If you are looking to learn more about containers vs. VMs, take a look at this webinar recording from a few weeks ago called [<VPIcon icon="fas fa-globe"/>“Containers for The Virtualization Admin”](https://docker.wistia.com/medias/8jzv09k4xw)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -49,9 +49,9 @@ cover: https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL_Watermarked.dce4d5791b83.jpg"/>
 
-Most versions of the Python interpreter support code editing when running in [<FontIcon icon="fa-brands fa-python"/>interactive](https://docs.python.org/3/tutorial/interactive.html) mode. These editing features include code history and basic code completion. If you usually work on Unix-like systems, such as Linux and macOS, then you may be familiar with some of these features, which are present in the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>Korn](https://en.wikipedia.org/wiki/KornShell) shells.
+Most versions of the Python interpreter support code editing when running in [<VPIcon icon="fa-brands fa-python"/>interactive](https://docs.python.org/3/tutorial/interactive.html) mode. These editing features include code history and basic code completion. If you usually work on Unix-like systems, such as Linux and macOS, then you may be familiar with some of these features, which are present in the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) and [<VPIcon icon="fa-brands fa-wikipedia-w"/>Korn](https://en.wikipedia.org/wiki/KornShell) shells.
 
-These editing features are implemented using the [<FontIcon icon="fas fa-globe"/>GNU Readline](https://tiswww.case.edu/php/chet/readline/rltop.html) library, which supports several useful styles of editing.
+These editing features are implemented using the [<VPIcon icon="fas fa-globe"/>GNU Readline](https://tiswww.case.edu/php/chet/readline/rltop.html) library, which supports several useful styles of editing.
 
 ::: note
 
@@ -119,7 +119,7 @@ if True:
 # KeyboardInterrupt
 ```
 
-When you press <kbd>Ctrl</kbd>+<kbd>C</kbd> on the primary or secondary prompt, the interpreter raises a [<FontIcon icon="fa-brands fa-python"/>`KeyboardInterrupt`](https://docs.python.org/3/library/exceptions.html#KeyboardInterrupt) exception and immediately returns to the primary prompt.
+When you press <kbd>Ctrl</kbd>+<kbd>C</kbd> on the primary or secondary prompt, the interpreter raises a [<VPIcon icon="fa-brands fa-python"/>`KeyboardInterrupt`](https://docs.python.org/3/library/exceptions.html#KeyboardInterrupt) exception and immediately returns to the primary prompt.
 
 If you press <kbd>Ctrl</kbd>+<kbd>C</kbd> while some piece of code is running, then the interpreter raises a `KeyboardInterrupt` exception, interrupting the code’s execution and returning to the primary prompt.
 
@@ -156,4 +156,4 @@ The standard REPL provides many other interesting and useful keyboard shortcuts.
 | <kbd>Ctrl</kbd>+<kbd>K</kbd> | Kills, or deletes, the text from the current cursor position to the end of the line |
 | <kbd>Ctrl</kbd>+<kbd>W</kbd> | Kills from the cursor to the previous whitespace |
 
-These keyboard shortcuts will help you be more proficient when typing and editing code in an interactive session. You’ll find a few more keyboard shortcuts in the official documentation of the [<FontIcon icon="fas fa-globe"/>GNU Readline](https://tiswww.case.edu/php/chet/readline/rluserman.html#Readline-Bare-Essentials) library.
+These keyboard shortcuts will help you be more proficient when typing and editing code in an interactive session. You’ll find a few more keyboard shortcuts in the official documentation of the [<VPIcon icon="fas fa-globe"/>GNU Readline](https://tiswww.case.edu/php/chet/readline/rluserman.html#Readline-Bare-Essentials) library.

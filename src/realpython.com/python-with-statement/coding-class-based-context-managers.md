@@ -179,7 +179,7 @@ In `.__exit__()`, you check if `exc_value` is an instance of `IndexError`. If so
 
 In this example, if no `IndexError` occurs, then the method returns `None` and the exception propagates out. However, if you want to be more explicit, then you can return `False` from outside the `if` block.
 
-If you run <FontIcon icon="fa-brands fa-python"/>`exc_handling.py` from your command line, then you get the following output:
+If you run <VPIcon icon="fa-brands fa-python"/>`exc_handling.py` from your command line, then you get the following output:
 
 ```sh
 python exc_handling.py
@@ -231,7 +231,7 @@ After running this code, your `hello.txt` file contains the `"Hello, World!"` st
 
 A subtle detail to consider when you’re writing your own context managers is that sometimes you don’t have a useful object to return from `.__enter__()` and therefore to assign to the `with` target variable. In those cases, you can return [**`None`**](/realpython.com/null-in-python.md) explicitly or you can just rely on Python’s [**implicit return**](/realpython.com/python-return-statement.md#implicit-return-statements) value, which is `None` as well.
 
-For example, say you need to temporarily redirect the standard output, [<FontIcon icon="fa-brands fa-python"/>`sys.stdout`](https://docs.python.org/3/library/sys.html#sys.stdout), to a given file on your disk. To do this, you can create a context manager like this:
+For example, say you need to temporarily redirect the standard output, [<VPIcon icon="fa-brands fa-python"/>`sys.stdout`](https://docs.python.org/3/library/sys.html#sys.stdout), to a given file on your disk. To do this, you can create a context manager like this:
 
 ```py :collapsed-lines title="redirect.py"
 import sys
@@ -278,7 +278,7 @@ In this examples, `print()` takes your `hello.txt` file as an argument. This cau
 
 ## Measuring Execution Time
 
-Just like every other class, a context manager can encapsulate some internal [<FontIcon icon="fa-brands fa-wikipedia-w"/>state](https://en.wikipedia.org/wiki/State_(computer_science)). The following example shows how to create a **stateful** context manager to measure the execution time of a given code block or function:
+Just like every other class, a context manager can encapsulate some internal [<VPIcon icon="fa-brands fa-wikipedia-w"/>state](https://en.wikipedia.org/wiki/State_(computer_science)). The following example shows how to create a **stateful** context manager to measure the execution time of a given code block or function:
 
 ```py title="timing.py"
 from time import perf_counter
@@ -293,7 +293,7 @@ class Timer:
         self.end = perf_counter()
 ```
 
-When you use `Timer` in a `with` statement, `.__enter__()` gets called. This method uses [<FontIcon icon="fa-brands fa-python"/>`time.perf_counter()`](https://docs.python.org/3/library/time.html#time.perf_counter) to get the time at the beginning of the `with` code block and stores it in `.start`. It also initializes `.end` and returns a [**`lambda` function**](/realpython.com/python-lambda.md) that computes a time delta. In this case, `.start` holds the initial state or time measurement.
+When you use `Timer` in a `with` statement, `.__enter__()` gets called. This method uses [<VPIcon icon="fa-brands fa-python"/>`time.perf_counter()`](https://docs.python.org/3/library/time.html#time.perf_counter) to get the time at the beginning of the `with` code block and stores it in `.start`. It also initializes `.end` and returns a [**`lambda` function**](/realpython.com/python-lambda.md) that computes a time delta. In this case, `.start` holds the initial state or time measurement.
 
 ::: note
 

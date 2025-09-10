@@ -61,23 +61,23 @@ ES6 was a massive release that came *six years* after its predecessor, ES5. Brow
 
 This yearly release cycle involves *proposing* any new features, which are then discussed, evaluated, then voted on by a committee before they're added to the language. This process also allows browsers to try to implement the proposals before they're officially added to the language, which may help iron out any implementation problems.
 
-As mentioned, new features for JavaScript (or ECMAScript) are decided by [<FontIcon icon="fas fa-globe"/>Technical Committee 39 (TC39)](https://tc39.es/). TC39 is made up of representatives from all the major browser vendors as well as JavaScript experts. They meet regularly to discuss new features for the language and how they can be implemented. The new features are put forward as proposals (made by anyone) and the committee members then vote on whether each proposal can move forward to the next stage. There are 4 Stages for each proposal; once a proposal reaches Stage 4, it's expected to be included in the next version of ES.
+As mentioned, new features for JavaScript (or ECMAScript) are decided by [<VPIcon icon="fas fa-globe"/>Technical Committee 39 (TC39)](https://tc39.es/). TC39 is made up of representatives from all the major browser vendors as well as JavaScript experts. They meet regularly to discuss new features for the language and how they can be implemented. The new features are put forward as proposals (made by anyone) and the committee members then vote on whether each proposal can move forward to the next stage. There are 4 Stages for each proposal; once a proposal reaches Stage 4, it's expected to be included in the next version of ES.
 
 An important part of the ES specification is that it has to be *backwards compatible*. This means that any new features can't *break the Internet* by changing how previous versions of ES worked. So they can't change how existing methods work, they can only add new methods, as any website running with a potentially pre-existent method would be at risk of breaking.
 
-The full list of all the current proposals can be seen [<FontIcon icon="iconfont icon-terminal"/>`tc39/proposals`](https://github.com/tc39/proposals).
+The full list of all the current proposals can be seen [<VPIcon icon="iconfont icon-terminal"/>`tc39/proposals`](https://github.com/tc39/proposals).
 
 ---
 
 ## Temporal
 
-In the [<FontIcon icon="fas fa-globe"/>State of JS 2022 survey](https://2022.stateofjs.com/en-US/opinions/#top_currently_missing_from_js), the *third* most common answer to “What do you feel is currently missing from JavaScript?” was **Better Date Management**.
+In the [<VPIcon icon="fas fa-globe"/>State of JS 2022 survey](https://2022.stateofjs.com/en-US/opinions/#top_currently_missing_from_js), the *third* most common answer to “What do you feel is currently missing from JavaScript?” was **Better Date Management**.
 
-This has led to the `Temporal` [<FontIcon icon="iconfont icon-github"/>`tc39/proposal-temporal`](https://github.com/tc39/proposal-temporal), which offers a standard global object to replace the Date object and fixes a number of the issues that have caused developers much pain when working with dates in JavaScript over the years.
+This has led to the `Temporal` [<VPIcon icon="iconfont icon-github"/>`tc39/proposal-temporal`](https://github.com/tc39/proposal-temporal), which offers a standard global object to replace the Date object and fixes a number of the issues that have caused developers much pain when working with dates in JavaScript over the years.
 
 Working with dates in JavaScript is almost always a dreaded task; having to deal with small but infuriating inconsistencies, such as the craziness of months being zero-indexed but days of the month starting at 1.
 
-The difficulty of dates has resulted in popular libraries such as [<FontIcon icon="fas fa-globe"/>Moment](https://momentjs.com/), [<FontIcon icon="fas fa-globe"/>Day.JS](https://day.js.org/) and [<FontIcon icon="fas fa-globe"/>date-fns](https://date-fns.org/) popping up to try to fix the issues. However, the `Temporal` API aims to fix all the problems natively.
+The difficulty of dates has resulted in popular libraries such as [<VPIcon icon="fas fa-globe"/>Moment](https://momentjs.com/), [<VPIcon icon="fas fa-globe"/>Day.JS](https://day.js.org/) and [<VPIcon icon="fas fa-globe"/>date-fns](https://date-fns.org/) popping up to try to fix the issues. However, the `Temporal` API aims to fix all the problems natively.
 
 `Temporal` will support multiple time-zones and non-Gregorian calendars out of the box, and will provide a simple-to-use API that will make it much easier to parse dates from strings. Furthermore, all `Temporal` objects will be immutable, which will help avoid any accidental date change bugs.
 
@@ -168,7 +168,7 @@ There are also other properties such as `dayOfWeek` (returns `1` for Monday and 
 
 `Temporal` date objects will also have a `compare` method that can be used to order dates using various sorting algorithms.
 
-Temporal is currently a Stage 3 proposal that's in the process of being implemented by browser vendors, so it seems as if its time has come (pun intended). You can see the full documentation [<FontIcon icon="fas fa-globe"/>here](https://tc39.es/proposal-temporal/docs/). There's also a useful cookbook of use cases [<FontIcon icon="fas fa-globe"/>here](https://tc39.es/proposal-temporal/docs/cookbook.html). When paired with the [<FontIcon icon="fas fa-globe"/>Intl.DateTimeFormat API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat) you'll be able to do some very nifty date manipulation.
+Temporal is currently a Stage 3 proposal that's in the process of being implemented by browser vendors, so it seems as if its time has come (pun intended). You can see the full documentation [<VPIcon icon="fas fa-globe"/>here](https://tc39.es/proposal-temporal/docs/). There's also a useful cookbook of use cases [<VPIcon icon="fas fa-globe"/>here](https://tc39.es/proposal-temporal/docs/cookbook.html). When paired with the [<VPIcon icon="fas fa-globe"/>Intl.DateTimeFormat API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat) you'll be able to do some very nifty date manipulation.
 
 ---
 
@@ -176,7 +176,7 @@ Temporal is currently a Stage 3 proposal that's in the process of being implemen
 
 In the [State of JS 2022 survey](https://2022.stateofjs.com/en-US/opinions/#top_currently_missing_from_js), the sixth top answer to “What do you feel is currently missing from JavaScript?” was a **Pipe Operator**.
 
-You can see the [<FontIcon icon="iconfont icon-github"/>`tc39/proposal-pipeline-operator`](https://github.com/tc39/proposal-pipeline-operator).
+You can see the [<VPIcon icon="iconfont icon-github"/>`tc39/proposal-pipeline-operator`](https://github.com/tc39/proposal-pipeline-operator).
 
 A pipe operator is a standard feature in functional languages that allows you to “pipe” a value from one function to another, with the output of the previous function being used as the input to the next (in a similar way that the Fetch API passes any data it returns from one promise to the next).
 
@@ -217,7 +217,7 @@ text.listen().exclaim().uppercase()
 
 This solves a lot of problems from nested functions. The argument being passed is at the beginning, and each function appears in the order it's applied in, so `listen()` is applied first, then `exclaim()` then `uppercase()`.
 
-Unfortunately, this example won't work, because the `listen`, `exclaim` and `uppercase` functions aren't methods of the `String` class. They could be added by [<FontIcon icon="fa-brands fa-wikipedia-w"/>monkey patching](https://en.wikipedia.org/wiki/Monkey_patch) the `String` class, but this is generally frowned on as a technique.
+Unfortunately, this example won't work, because the `listen`, `exclaim` and `uppercase` functions aren't methods of the `String` class. They could be added by [<VPIcon icon="fa-brands fa-wikipedia-w"/>monkey patching](https://en.wikipedia.org/wiki/Monkey_patch) the `String` class, but this is generally frowned on as a technique.
 
 This means that, although chaining looks a lot better than function nesting, it can only really be used with built-in functions (as is frequently done with Array methods).
 
@@ -231,11 +231,11 @@ The `%` token is a placeholder used to represent the value of the output of the 
 
 Piping combines the ease of chaining but can be used with any custom functions that you've written. The only condition is that you need to ensure that the output type of one function matches the input type of the next function in the chain.
 
-Piping works best with [curried functions](https://www.sitepoint.com/currying-in-functional-javascript/) that only accept a single argument that's piped from the return value of any previous function. It makes functional programming much easier, as small, building-block functions can be chained together to make more complex composite functions. It also makes [<FontIcon icon="fa-brands fa-free-code-camp"/>partial application](https://freecodecamp.org/news/how-to-use-partial-application-to-improve-your-javascript-code-5af9ad877833/) easier to implement.
+Piping works best with [curried functions](https://www.sitepoint.com/currying-in-functional-javascript/) that only accept a single argument that's piped from the return value of any previous function. It makes functional programming much easier, as small, building-block functions can be chained together to make more complex composite functions. It also makes [<VPIcon icon="fa-brands fa-free-code-camp"/>partial application](https://freecodecamp.org/news/how-to-use-partial-application-to-improve-your-javascript-code-5af9ad877833/) easier to implement.
 
 Despite its popularity, the pipe operator has struggled to move forward beyond Stage 2 of the process. This is due to disagreements over how the notation should be expressed and concerns over memory performance and how it might work with `await`. It seems that the committee is slowly reaching some sort of agreement, though, so hopefully the pipe operator might move quickly through the stages and make an appearance this year.
 
-Thankfully, the pipeline operator has been [<FontIcon icon="fas fa-globe"/>implemented in Babel from version 7.15](https://babeljs.io/blog/2021/07/26/7.15.0#hack-style-pipeline-operator-support-13191httpsgithubcombabelbabelpull13191-13416httpsgithubcombabelbabelpull13416).
+Thankfully, the pipeline operator has been [<VPIcon icon="fas fa-globe"/>implemented in Babel from version 7.15](https://babeljs.io/blog/2021/07/26/7.15.0#hack-style-pipeline-operator-support-13191httpsgithubcombabelbabelpull13191-13416httpsgithubcombabelbabelpull13416).
 
 Personally, we would love the pipe operator to be implemented and rolled out this year, as it would really help improve the credentials of JavaScript as a serious functional programming language.
 

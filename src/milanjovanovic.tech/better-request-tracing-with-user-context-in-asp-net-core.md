@@ -164,7 +164,7 @@ Make sure to place it after the authentication and authorization middleware so t
 
 ## Handling PII Concerns
 
-When adding user IDs to your logs and traces, you need to be careful about [<FontIcon icon="fa-brands fa-wikipedia-w"/>Personally Identifiable Information](https://en.wikipedia.org/wiki/Personal_data) (PII). Here are some important points to consider:
+When adding user IDs to your logs and traces, you need to be careful about [<VPIcon icon="fa-brands fa-wikipedia-w"/>Personally Identifiable Information](https://en.wikipedia.org/wiki/Personal_data) (PII). Here are some important points to consider:
 
 - User IDs should be opaque identifiers (like GUIDs) that don't reveal personal information
 - Avoid logging email addresses, names, or other personal data

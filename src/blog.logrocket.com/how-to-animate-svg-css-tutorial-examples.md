@@ -62,7 +62,7 @@ Web animations are more than just eye candy. When used effectively, they can enh
 
 Web animations come in many flavors, and it’s advisable to avoid bulky GIFs and videos that can hinder website speed. Instead, choose lightweight options like SVGs with CSS for optimal speed, which help you create better animations that load faster, ensuring a smoother UX and faster page loads.
 
-In this article, we’ll explore the creation of simple and scalable animations using SVG and CSS. The only requirements are a basic understanding of CSS and some knowledge of SVGs. Access [this GitHub repository (<FontIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations) for the complete source code, including HTML/SVG and CSS.
+In this article, we’ll explore the creation of simple and scalable animations using SVG and CSS. The only requirements are a basic understanding of CSS and some knowledge of SVGs. Access [this GitHub repository (<VPIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations) for the complete source code, including HTML/SVG and CSS.
 
 <VidStack src="youtube/eZT-OrhxiMY" />
 
@@ -100,7 +100,7 @@ Let’s start by exploring simple SVG code for animations, beginning with code p
 
 ### Optimizing the SVG code
 
-Optimization is essential for minimizing the file size of your SVG and removing redundant tags and metadata. A generated SVG may include unnecessary code, so it is advisable to use a tool such as [<FontIcon icon="fas fa-globe"/>SVG Cleaner](https://iconly.io/tools/svg-cleaner) to clean it up.
+Optimization is essential for minimizing the file size of your SVG and removing redundant tags and metadata. A generated SVG may include unnecessary code, so it is advisable to use a tool such as [<VPIcon icon="fas fa-globe"/>SVG Cleaner](https://iconly.io/tools/svg-cleaner) to clean it up.
 
 ### Creating intentional groupings
 
@@ -125,7 +125,7 @@ SVG shapes are painted sequentially from top to bottom. To place a shape in the 
 
 ### Setting SVG styling to the preferred initial state
 
-SVGs use [<FontIcon icon="fa-brands fa-firefox"/>presentation attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation) (e.g., fill, stroke, stroke-width) directly in the code, prioritized until overridden by external CSS (without `!important`). Consider retaining width and height attributes for smoother loading on slower connections, avoiding the [<FontIcon icon="fas fa-globe"/>flash of unstyled SVG (FOUS)](https://sarasoueidan.com/blog/svg-style-inheritance-and-fousvg/) scenario.
+SVGs use [<VPIcon icon="fa-brands fa-firefox"/>presentation attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation) (e.g., fill, stroke, stroke-width) directly in the code, prioritized until overridden by external CSS (without `!important`). Consider retaining width and height attributes for smoother loading on slower connections, avoiding the [<VPIcon icon="fas fa-globe"/>flash of unstyled SVG (FOUS)](https://sarasoueidan.com/blog/svg-style-inheritance-and-fousvg/) scenario.
 
 ---
 
@@ -169,7 +169,7 @@ Because SVG integrates seamlessly with HTML, it supports inline CSS styling. Her
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The second method for applying styles to an SVG involves using the CSS `@import` rule. This rule is placed within the `<style>` tag inside the SVG to reference and import an external CSS stylesheet. You can refer to [this example in the GitHub repo (<FontIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/blob/main/styling-svg/svg-external-styles.html) for a clearer understanding, which looks something like the code below:
+The second method for applying styles to an SVG involves using the CSS `@import` rule. This rule is placed within the `<style>` tag inside the SVG to reference and import an external CSS stylesheet. You can refer to [this example in the GitHub repo (<VPIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/blob/main/styling-svg/svg-external-styles.html) for a clearer understanding, which looks something like the code below:
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg">
@@ -231,7 +231,7 @@ These four methods are sufficient to apply CSS to SVG effectively. If you know a
 
 ## What can you animate with CSS?
 
-CSS enables you to create dynamic visual effects by animating various properties. While [<FontIcon icon="fa-brands fa-firefox"/>not every property is “animatable”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties), many can be seamlessly transitioned or animated using CSS with SVGs.
+CSS enables you to create dynamic visual effects by animating various properties. While [<VPIcon icon="fa-brands fa-firefox"/>not every property is “animatable”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties), many can be seamlessly transitioned or animated using CSS with SVGs.
 
 Let’s dive into some demos showcasing the power of pure CSS animation, which transforms static SVGs with properties like `transform`, `opacity`, and `color`. These animations incorporate basic math to create dynamic menu toggles, loading animations, fluid line movements, lively illustrations, and smooth text animations.
 
@@ -318,7 +318,7 @@ Rotate the top bar 45 degrees clockwise and the bottom bar -45 degrees counter-c
 }
 ```
 
-A working demonstration of the above explanation can be found below. If you wish to try it out locally in your development environment, you can find it in the [GitHub repository linked here (<FontIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/hamburger-icon):
+A working demonstration of the above explanation can be found below. If you wish to try it out locally in your development environment, you can find it in the [GitHub repository linked here (<VPIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/hamburger-icon):
 
 <CodePen
   user="c99rahul"
@@ -396,7 +396,7 @@ To enhance the animation, use SVG’s `linearGradient` and `stop` elements to in
 
 Assign a class to each `stop` element for external CSS control. Using the `stop-color` property in the external CSS, manage color and settings with custom properties.
 
-Here’s the combined code for a loading spinner animation; the full code is available in [this file of the GitHub repo (<FontIcon icon="iconfont icon-github"/>`9rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/spinner-animation):
+Here’s the combined code for a loading spinner animation; the full code is available in [this file of the GitHub repo (<VPIcon icon="iconfont icon-github"/>`9rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/spinner-animation):
 
 ### Morphing bars loader
 
@@ -481,7 +481,7 @@ And that’s it! Feel free to adjust the timings, colors, and transition functio
 
 ### Creating a line drawing animation
 
-To achieve a line drawing effect in SVG, it’s important to utilize stroke properties effectively. For example, when working with a camera icon from [<FontIcon icon="fas fa-globe"/>Tabler Icons](https://tabler.io/icons), I modified its dimensions and transferred certain attributes, such as stroke width, to CSS for enhanced control and customization after examining the icon’s structure.
+To achieve a line drawing effect in SVG, it’s important to utilize stroke properties effectively. For example, when working with a camera icon from [<VPIcon icon="fas fa-globe"/>Tabler Icons](https://tabler.io/icons), I modified its dimensions and transferred certain attributes, such as stroke width, to CSS for enhanced control and customization after examining the icon’s structure.
 
 The paths now rely on CSS-animated `stroke-dasharray` and `stroke-dashoffset` properties, a technique I covered in another SVG-powered circular progress component for React:
 
@@ -565,11 +565,11 @@ In the animation section, we can create a CSS keyframe to transition `stroke-das
 }
 ```
 
-Now, set the animation direction to `forwards`. Find the [complete code for this demo here (<FontIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/line-drawing-animation). See the final effect in the CodePen demo below:
+Now, set the animation direction to `forwards`. Find the [complete code for this demo here (<VPIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/line-drawing-animation). See the final effect in the CodePen demo below:
 
 ### Animated illustration
 
-Let’s choose some pre-made SVG illustrations and icons and create something by combining them. I transformed a PNG popsicle illustration from [<FontIcon icon="fas fa-globe"/>Cori George’s collection](https://heyletsmakestuff.com/popsicle/) into SVG format using an online tool.
+Let’s choose some pre-made SVG illustrations and icons and create something by combining them. I transformed a PNG popsicle illustration from [<VPIcon icon="fas fa-globe"/>Cori George’s collection](https://heyletsmakestuff.com/popsicle/) into SVG format using an online tool.
 
 Then, I incorporated a drop icon from Tabler Icons below the SVG paths of the popsicle, assigning unique IDs for CSS customization. We can animate these drops with CSS translation and opacity changes. By varying the animation durations for each drop, we can achieve a random falling pattern:
 
@@ -616,7 +616,7 @@ Then, I incorporated a drop icon from Tabler Icons below the SVG paths of the po
 }
 ```
 
-Check out the working demonstration in the CodePen below, and find the [complete code for this example here (<FontIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/animated-illustration):
+Check out the working demonstration in the CodePen below, and find the [complete code for this example here (<VPIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/animated-illustration):
 
 <CodePen
   user="c99rahul"
@@ -708,7 +708,7 @@ The initial opacity for each `tspan` is set to 0%, and then we can add a strateg
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Find the full code for this [example here in the GitHub repo (<FontIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/blinking-chars). For such animations, be aware of the text string’s character count to set up CSS accordingly. While this can be achieved more efficiently with JavaScript, it is beyond the scope of this tutorial.
+Find the full code for this [example here in the GitHub repo (<VPIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/blinking-chars). For such animations, be aware of the text string’s character count to set up CSS accordingly. While this can be achieved more efficiently with JavaScript, it is beyond the scope of this tutorial.
 
 ### Wavy SVG text
 
@@ -755,13 +755,13 @@ By taking this approach, we have traded the automatic character alignment provid
 
 Animating SVGs with only CSS has limitations, such as the inability to dynamically count elements and set up CSS accordingly. To overcome these challenges and create more advanced animations for complex SVG shapes, various tools simplify the process significantly:
 
-- [<FontIcon icon="fas fa-globe"/>SVG.js](https://svgjs.dev/docs/3.0/): A lightweight JavaScript library for manipulating and animating SVGs
-- [<FontIcon icon="fas fa-globe"/>Vivus.js](http://maxwellito.github.io/vivus/): A JavaScript class with no dependencies that enables SVG animation, creating a drawn effect similar to what we covered in the line animation section
-- [<FontIcon icon="fas fa-globe"/>mo.js](https://mojs.github.io/): Aimed at motion graphics on the web, offering fast and robust animations through its API, and the best part is that it’s open source
-- [<FontIcon icon="fas fa-globe"/>Framer Motion](https://framer.com/motion/): A production-ready animation library for React with a declarative syntax — an awesome open source project for SVG animations
-- [<FontIcon icon="fas fa-globe"/>Animate.css](https://daneden.github.io/animate.css/): A collection of pre-made CSS animations you can copy and paste into your workflow to apply different effects to your SVGs
-- [<FontIcon icon="fas fa-globe"/>GSAP](https://greensock.com/gsap/): Provides premium access to animate nearly everything you can select with JavaScript
-- [<FontIcon icon="fas fa-globe"/>SVGator](https://svgator.com/): Another paid tool that simplifies the animation task with SVGs through its UI, allowing you to import, animate, and export the output
+- [<VPIcon icon="fas fa-globe"/>SVG.js](https://svgjs.dev/docs/3.0/): A lightweight JavaScript library for manipulating and animating SVGs
+- [<VPIcon icon="fas fa-globe"/>Vivus.js](http://maxwellito.github.io/vivus/): A JavaScript class with no dependencies that enables SVG animation, creating a drawn effect similar to what we covered in the line animation section
+- [<VPIcon icon="fas fa-globe"/>mo.js](https://mojs.github.io/): Aimed at motion graphics on the web, offering fast and robust animations through its API, and the best part is that it’s open source
+- [<VPIcon icon="fas fa-globe"/>Framer Motion](https://framer.com/motion/): A production-ready animation library for React with a declarative syntax — an awesome open source project for SVG animations
+- [<VPIcon icon="fas fa-globe"/>Animate.css](https://daneden.github.io/animate.css/): A collection of pre-made CSS animations you can copy and paste into your workflow to apply different effects to your SVGs
+- [<VPIcon icon="fas fa-globe"/>GSAP](https://greensock.com/gsap/): Provides premium access to animate nearly everything you can select with JavaScript
+- [<VPIcon icon="fas fa-globe"/>SVGator](https://svgator.com/): Another paid tool that simplifies the animation task with SVGs through its UI, allowing you to import, animate, and export the output
 
 ---
 
@@ -769,7 +769,7 @@ Animating SVGs with only CSS has limitations, such as the inability to dynamical
 
 Now that you’ve explored various ways to animate SVGs using CSS, I hope you feel inspired to create your own web animations! It’s fun to bring static SVGs to life using just a bit of CSS.
 
-Once you get the hang of a few techniques, tackling more complex animations will become easier. You can discover endless inspiration online, particularly on sites like CodePen. To get started, explore [<FontIcon icon="fa-brands fa-codepen"/>the CodePen collection featuring examples covered in this tutorial](https://codepen.io/collection/JGxjqv). Have fun animating!
+Once you get the hang of a few techniques, tackling more complex animations will become easier. You can discover endless inspiration online, particularly on sites like CodePen. To get started, explore [<VPIcon icon="fa-brands fa-codepen"/>the CodePen collection featuring examples covered in this tutorial](https://codepen.io/collection/JGxjqv). Have fun animating!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

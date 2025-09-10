@@ -91,7 +91,7 @@ After [**the flower shapes**](/frontendmasters.com/creating-flower-shapes-using-
 
 :::
 
-Before we start, take a look at[<FontIcon icon="fas fa-globe"/>my blob shape generator](https://css-generators.com/blob/). Unlike the flower shapes, blobs have the random factor so having a generator to get the code is a lifesaver. This said, stay with me to understand the logic behind creating them, maybe you will want to make your own generator of blobs.
+Before we start, take a look at[<VPIcon icon="fas fa-globe"/>my blob shape generator](https://css-generators.com/blob/). Unlike the flower shapes, blobs have the random factor so having a generator to get the code is a lifesaver. This said, stay with me to understand the logic behind creating them, maybe you will want to make your own generator of blobs.
 
 For this shape, we are going to rely on the`curve`command, so let’s start by understanding how it works.
 
@@ -122,7 +122,7 @@ And a demo:
 
 I won’t detail the exact geometry behind the curves, but notice their behavior close to the starting and ending points. The curve is tangent to the lines that link the starting and ending points with the control points. This will be the key to create our blob shape.
 
-[<FontIcon icon="fas fa-globe"/>Here is an online demo](https://desmos.com/calculator/ebdtbxgbq0) where you can drag the different points to see how the curve behaves.
+[<VPIcon icon="fas fa-globe"/>Here is an online demo](https://desmos.com/calculator/ebdtbxgbq0) where you can drag the different points to see how the curve behaves.
 
 The code of this command is:
 
@@ -183,7 +183,7 @@ Similar to the flower shape, the code will be a bunch of curve commands like bel
 }
 ```
 
-`[Xi, Yi]`are the starting/ending points (the blue ones), and`[Xci, Yci]`are the control points (the black ones). For the sake of simplicity, I will use pseudo-code to illustrate the calculation. The real implementation can be done using JavaScript like in[<FontIcon icon="fas fa-globe"/>my generator](https://css-generators.com/blob/), or using Sass (I will share a demo using Sass later).
+`[Xi, Yi]`are the starting/ending points (the blue ones), and`[Xci, Yci]`are the control points (the black ones). For the sake of simplicity, I will use pseudo-code to illustrate the calculation. The real implementation can be done using JavaScript like in[<VPIcon icon="fas fa-globe"/>my generator](https://css-generators.com/blob/), or using Sass (I will share a demo using Sass later).
 
 We first start by defining the control points:
 
@@ -266,7 +266,7 @@ You copy both codes from the generator, apply a transition, and you have a cool 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The bouncing effect you get is made with the`linear()`function which is another cool feature for custom easing. I am [<FontIcon icon="fas fa-globe"/>getting the code from here](https://linear-easing-generator.netlify.app/).
+The bouncing effect you get is made with the`linear()`function which is another cool feature for custom easing. I am [<VPIcon icon="fas fa-globe"/>getting the code from here](https://linear-easing-generator.netlify.app/).
 
 Now, if you update the Shape ID and still keep the same number of points, you can have a transition between two different blobs.
 
@@ -294,7 +294,7 @@ Cool, right? The code may look complex but in the end everything is generated fo
 
 I hope you enjoyed this`shape()`exploration through this series of articles. Once this feature becomes widely supported, it will be a game changer and we can forget about all the hacky workarounds to create CSS shapes.
 
-Don’t forget to keep an eye on my[<FontIcon icon="fas fa-globe"/>CSS Shapes](https://css-shape.com/)and[<FontIcon icon="fas fa-globe"/>CSS Generators](https://css-generators.com/)websites from where you can easily copy the code of any CSS shape.
+Don’t forget to keep an eye on my[<VPIcon icon="fas fa-globe"/>CSS Shapes](https://css-shape.com/)and[<VPIcon icon="fas fa-globe"/>CSS Generators](https://css-generators.com/)websites from where you can easily copy the code of any CSS shape.
 
 ::: info Article Series
 

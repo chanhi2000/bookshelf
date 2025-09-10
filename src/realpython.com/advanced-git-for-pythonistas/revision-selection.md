@@ -93,7 +93,7 @@ It’s a bit more powerful than that, however. The double dot notation actually 
 
 ![Branch1-A->B->C, Branch2 A->D->E->F](https://files.realpython.com/media/drawio-git-diff-example-big.95fa2c7990ad.png)
 
-As you can see, we have two branches in our example repo, <FontIcon icon="fas fa-code-branch"/>`branch1` and <FontIcon icon="fas fa-code-branch"/>`branch2`, which diverged after commit `A`. For starters, let’s look at the simple situation. I’ve modified the log output so that it matches the diagram:
+As you can see, we have two branches in our example repo, <VPIcon icon="fas fa-code-branch"/>`branch1` and <VPIcon icon="fas fa-code-branch"/>`branch2`, which diverged after commit `A`. For starters, let’s look at the simple situation. I’ve modified the log output so that it matches the diagram:
 
 ```sh
 git log --oneline D..F
@@ -102,7 +102,7 @@ git log --oneline D..F
 # F "Commit message for F"
 ```
 
-`D..F` gives you all of the commits on <FontIcon icon="fas fa-code-branch"/>`branch2` **after** commit `D`.
+`D..F` gives you all of the commits on <VPIcon icon="fas fa-code-branch"/>`branch2` **after** commit `D`.
 
 A more interesting example, and one I learned about while writing this tutorial, is the following:
 
@@ -155,13 +155,13 @@ This is probably a good time to review what branches are in Git and how they rel
 
 ![Four Commits With No Branches](https://files.realpython.com/media/drawio-git-branch-step1-big.a431ad80dd56.png)
 
-At this point, you discover that you accidentally committed a Python logging statement in commit B. Rats. Now, most people would add a new commit, `E`, push that to <FontIcon icon="fas fa-code-branch"/>`master` and be done. But you are learning Git and want to fix this the hard way and hide the fact that you made a mistake in the history.
+At this point, you discover that you accidentally committed a Python logging statement in commit B. Rats. Now, most people would add a new commit, `E`, push that to <VPIcon icon="fas fa-code-branch"/>`master` and be done. But you are learning Git and want to fix this the hard way and hide the fact that you made a mistake in the history.
 
 So you move `HEAD` back to `B` using `git checkout B`, which looks like this:
 
 ![Four Commits, HEAD Points to Second Commit](https://files.realpython.com/media/drawio-git-branch-step2-big.6c63995367f6.png)
 
-You can see that <FontIcon icon="fas fa-code-branch"/>`master` hasn’t changed position, but `HEAD` now points to `B`. In the Intro to Git tutorial, we talked about the “detached HEAD” state. This is that state again!
+You can see that <VPIcon icon="fas fa-code-branch"/>`master` hasn’t changed position, but `HEAD` now points to `B`. In the Intro to Git tutorial, we talked about the “detached HEAD” state. This is that state again!
 
 Since you want to commit changes, you create a new branch with `git checkout -b temp`:
 
@@ -173,7 +173,7 @@ Now you edit the file and remove the offending log statement. Once that is done,
 
 Whoa! There’s a new commit here called `B'`. Just like `B`, it has `A` as its parent, but `C` doesn’t know anything about it. Now we want master to be based on this new commit, `B'`.
 
-Because you have a sharp memory, you remember that the rebase command does just that. So you get back to the <FontIcon icon="fas fa-code-branch"/>`master` branch by typing `git checkout master`:
+Because you have a sharp memory, you remember that the rebase command does just that. So you get back to the <VPIcon icon="fas fa-code-branch"/>`master` branch by typing `git checkout master`:
 
 ![HEAD Moved Back To master](https://files.realpython.com/media/drawio-git-branch-step5-big.29af45f4ac7c.png)
 
@@ -187,6 +187,6 @@ As I mentioned earlier, you normally wouldn’t go to this much trouble just to 
 
 ::: info More
 
-Git has even more tricks up its sleeve, but I’ll stop here as I’ve rarely seen the other methods used in the wild. If you’d like to learn about how to do similar operations with more than two branches, checkout the excellent write-up on Revision Selection in the [<FontIcon icon="iconfont icon-git"/>Pro Git book](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection).
+Git has even more tricks up its sleeve, but I’ll stop here as I’ve rarely seen the other methods used in the wild. If you’d like to learn about how to do similar operations with more than two branches, checkout the excellent write-up on Revision Selection in the [<VPIcon icon="iconfont icon-git"/>Pro Git book](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection).
 
 :::

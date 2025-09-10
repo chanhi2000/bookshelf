@@ -56,7 +56,7 @@ With `@media` queries, there’s a tight coupling of the styling of a component�
 
 With `@container` queries, we can instead tightly couple the styling of a component’s content with *the size of the component itself*, regardless of how that component fits into the larger layout. In short, you can set up components to respond to the container size without having to know the breakpoints of the overall page layout. Yay for increased isolation!
 
-Let’s think through an example to illustrate this. Pulling from [<FontIcon icon="fa-brands fa-firefox"/>Michelle Barker’s helpful MDN article about container queries](https://developer.mozilla.org/en-US/blog/getting-started-with-css-container-queries/), here’s a mockup:
+Let’s think through an example to illustrate this. Pulling from [<VPIcon icon="fa-brands fa-firefox"/>Michelle Barker’s helpful MDN article about container queries](https://developer.mozilla.org/en-US/blog/getting-started-with-css-container-queries/), here’s a mockup:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2023/12/layout-desktop-01.webp?resize=1024%2C731&ssl=1)
 
@@ -70,7 +70,7 @@ Container queries can help us more easily address this sort of situation in a mu
 
 ::: note
 
-Container queries are separate from, but can be in used in combination with, [<FontIcon icon="fa-brands fa-firefox"/>the `contain` property](https://developer.mozilla.org/en-US/docs/Web/CSS/contain) The `contain` property is useful for performance and preventing re-renders and, crucially, the thing that made `@container` queries possible under the hood.
+Container queries are separate from, but can be in used in combination with, [<VPIcon icon="fa-brands fa-firefox"/>the `contain` property](https://developer.mozilla.org/en-US/docs/Web/CSS/contain) The `contain` property is useful for performance and preventing re-renders and, crucially, the thing that made `@container` queries possible under the hood.
 
 :::
 
@@ -80,15 +80,15 @@ Container queries are separate from, but can be in used in combination with, [<F
 
 Before diving further into container queries, it’s important to make sure we have a good understanding of block and inline sizing as it has a large impact on the `container-type` and the container unit(s) we use.
 
-[<FontIcon icon="fa-brands fa-firefox"/>Inline size](https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size) is equivalent to width for horizontal [<FontIcon icon="fa-brands fa-firefox"/>writing mode](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode) and equivalent to the height for vertical writing modes. The [<FontIcon icon="fa-brands fa-firefox"/>block size](https://developer.mozilla.org/en-US/docs/Web/CSS/block-size) is the respective opposite.
+[<VPIcon icon="fa-brands fa-firefox"/>Inline size](https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size) is equivalent to width for horizontal [<VPIcon icon="fa-brands fa-firefox"/>writing mode](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode) and equivalent to the height for vertical writing modes. The [<VPIcon icon="fa-brands fa-firefox"/>block size](https://developer.mozilla.org/en-US/docs/Web/CSS/block-size) is the respective opposite.
 
-Make sure you keep this in mind! The terms “block” and “inline” are from the concept of [<FontIcon icon="fa-brands fa-firefox"/>“logical properties”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values) and the direction CSS has been heading for a while.
+Make sure you keep this in mind! The terms “block” and “inline” are from the concept of [<VPIcon icon="fa-brands fa-firefox"/>“logical properties”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values) and the direction CSS has been heading for a while.
 
 ---
 
 ## How to use container queries
 
-To use container queries, you must first define a [<FontIcon icon="fa-brands fa-firefox"/>`container-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/container-type) and optionally a [<FontIcon icon="fa-brands fa-firefox"/>`container-name`](https://developer.mozilla.org/en-US/docs/Web/CSS/container-name).
+To use container queries, you must first define a [<VPIcon icon="fa-brands fa-firefox"/>`container-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/container-type) and optionally a [<VPIcon icon="fa-brands fa-firefox"/>`container-name`](https://developer.mozilla.org/en-US/docs/Web/CSS/container-name).
 
 The `container-type` can have a value of `size`, `inline-size`, or `normal`.
 
@@ -96,11 +96,11 @@ The `container-type` can have a value of `size`, `inline-size`, or `normal`.
 - `inline-size` establishes a query container for the inline dimensions as well as for style.You’ll likely use this 99% of the time.
 - `normal` establishes a query container only for style.
 
-One potential gotcha is that if you use `container-type: size` you need to add an explicit height. It will ignore the height of children elements. This is [<FontIcon icon="fas fa-globe"/>how it is specced](https://drafts.csswg.org/css-contain-2/#containment-size) to behave.
+One potential gotcha is that if you use `container-type: size` you need to add an explicit height. It will ignore the height of children elements. This is [<VPIcon icon="fas fa-globe"/>how it is specced](https://drafts.csswg.org/css-contain-2/#containment-size) to behave.
 
 Most often, using `container-type: inline-size` probably makes the most sense.
 
-The `container-name` is a value of the [<FontIcon icon="fa-brands fa-firefox"/>`<custom-indent>`](https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident) type (essentially some name you make up).
+The `container-name` is a value of the [<VPIcon icon="fa-brands fa-firefox"/>`<custom-indent>`](https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident) type (essentially some name you make up).
 
 You can also use the `container` shorthand to define both properties. Such as:
 
@@ -144,7 +144,7 @@ But you don’t *have to* refer to the container element in the selector, meanin
 }
 ```
 
-You can also use [<FontIcon icon="fas fa-globe"/>nesting](https://caniuse.com/css-nesting).
+You can also use [<VPIcon icon="fas fa-globe"/>nesting](https://caniuse.com/css-nesting).
 
 ```css
 .my-component {
@@ -162,7 +162,7 @@ You can also use [<FontIcon icon="fas fa-globe"/>nesting](https://caniuse.com/cs
 
 Instead of using explicit container sizes for container queries, we can also make use of `orientation` and its more generic form, `aspect-ratio`.
 
-For example, here’s [a Pen (<FontIcon icon="fa-brands fa-codepen"/>`ZachSaucier`)](https://codepen.io/ZachSaucier/pen/JjxeEyG?editors=1100) where we have the image on the left for larger screens and on top for smaller screens (a non-aspect ratio version of this sort of thing is in the section below).
+For example, here’s [a Pen (<VPIcon icon="fa-brands fa-codepen"/>`ZachSaucier`)](https://codepen.io/ZachSaucier/pen/JjxeEyG?editors=1100) where we have the image on the left for larger screens and on top for smaller screens (a non-aspect ratio version of this sort of thing is in the section below).
 
 <CodePen
   user="ZachSaucier"
@@ -185,7 +185,7 @@ What’s more, you’re not restricted to using container query units inside of 
 
 ### A shortened name for container query units?
 
-“Container query units” is kind of a mouthful to say. Given that they can be used outside of container queries (so long as a container is defined), I think we can refer to these as “container units” [<FontIcon icon="fas fa-globe"/>like Chris Coyier did](https://css-tricks.com/container-units-should-be-pretty-handy/) when he wrote about them a while back. I’m going to call them that for the rest of this article.
+“Container query units” is kind of a mouthful to say. Given that they can be used outside of container queries (so long as a container is defined), I think we can refer to these as “container units” [<VPIcon icon="fas fa-globe"/>like Chris Coyier did](https://css-tricks.com/container-units-should-be-pretty-handy/) when he wrote about them a while back. I’m going to call them that for the rest of this article.
 
 ### Available container units
 
@@ -221,7 +221,7 @@ Perhaps the most common use case for container queries is to change the layout o
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Accessibility note: It’s best to [<FontIcon icon="fas fa-globe"/>keep the logical order](https://devyarns.com/logical-focus-order/) of elements in the markup.
+Accessibility note: It’s best to [<VPIcon icon="fas fa-globe"/>keep the logical order](https://devyarns.com/logical-focus-order/) of elements in the markup.
 
 Taken to an extreme, you can make HTML and CSS components function kinda like an SVG like Dan Christofi did:
 
@@ -245,7 +245,7 @@ A great example of this is Chris Coyier’s calendar layout demo, where the vita
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-(You may want to open [this one full screen (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/full/jOeBzNN) to have play.)
+(You may want to open [this one full screen (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/full/jOeBzNN) to have play.)
 
 ### Fluid typography
 
@@ -260,7 +260,7 @@ Check out this demo by Chris Coyier where you can drag to divvy up width between
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Stephanie Eckles wrote a more in-depth article about [<FontIcon icon="fas fa-globe"/>using container query units for typography](https://moderncss.dev/container-query-units-and-fluid-typography/) that I highly recommend!
+Stephanie Eckles wrote a more in-depth article about [<VPIcon icon="fas fa-globe"/>using container query units for typography](https://moderncss.dev/container-query-units-and-fluid-typography/) that I highly recommend!
 
 ---
 
@@ -274,9 +274,9 @@ Another time to use media queries is when you’re wanting to check certain devi
 
 ## Browser support and style queries
 
-Container queries for sizing [<FontIcon icon="fas fa-globe"/>have pretty solid browser support](https://caniuse.com/css-container-queries) these days, as do [<FontIcon icon="fas fa-globe"/>container units](https://caniuse.com/css-container-query-units).
+Container queries for sizing [<VPIcon icon="fas fa-globe"/>have pretty solid browser support](https://caniuse.com/css-container-queries) these days, as do [<VPIcon icon="fas fa-globe"/>container units](https://caniuse.com/css-container-query-units).
 
-There’s also discussion around creating *style* container queries. This would make certain things easier, like alternating between nested italic and normal text. Since the values of CSS variables can also be used in style queries, they could also be used as a more legitimate alternative to [<FontIcon icon="fas fa-globe"/>the CSS variable/custom property toggle hack](https://css-tricks.com/the-css-custom-property-toggle-trick/). But at the moment they are only partially supported [<FontIcon icon="fas fa-globe"/>in WebKit-based browsers](https://caniuse.com/css-container-queries-style).
+There’s also discussion around creating *style* container queries. This would make certain things easier, like alternating between nested italic and normal text. Since the values of CSS variables can also be used in style queries, they could also be used as a more legitimate alternative to [<VPIcon icon="fas fa-globe"/>the CSS variable/custom property toggle hack](https://css-tricks.com/the-css-custom-property-toggle-trick/). But at the moment they are only partially supported [<VPIcon icon="fas fa-globe"/>in WebKit-based browsers](https://caniuse.com/css-container-queries-style).
 
 ---
 
@@ -284,7 +284,7 @@ There’s also discussion around creating *style* container queries. This would 
 
 Container queries and container units enable us to create more isolated components. This makes it easier for components to be used across multiple pages, layouts, and systems. They’re prime for use in design systems!
 
-If you’re interested in what other new CSS features I used when recreating my blog, [<FontIcon icon="fas fa-globe"/>check out my blog post about the process](https://zachsaucier.com/blog/blog-refresh-2023).
+If you’re interested in what other new CSS features I used when recreating my blog, [<VPIcon icon="fas fa-globe"/>check out my blog post about the process](https://zachsaucier.com/blog/blog-refresh-2023).
 
 ### Bonus demo
 

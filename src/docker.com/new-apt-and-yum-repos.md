@@ -54,7 +54,7 @@ cover: https://docker.com/app/uploads/2015/07/oprah_binary.jpg
 
 ::: note
 
-written by [Jessie Frazelle (<FontIcon icon="fa-brands fa-x-twitter"/>`frazelledazzell`)](https://x.com/frazelledazzell), Core Maintainer at [Docker, Inc. (<FontIcon icon="fa-brands fa-x-twitter"/>`docker`)](https://x.com/docker)
+written by [Jessie Frazelle (<VPIcon icon="fa-brands fa-x-twitter"/>`frazelledazzell`)](https://x.com/frazelledazzell), Core Maintainer at [Docker, Inc. (<VPIcon icon="fa-brands fa-x-twitter"/>`docker`)](https://x.com/docker)
 
 :::
 
@@ -162,11 +162,11 @@ Each rpm and deb is built inside a Docker container that’s base is the specifi
 
 If you are interested in the actual code used for this, check out:
 
-• [the Dockerfiles for these images (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/tree/master/contrib/builder)  
-•[the code for the deb builds (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/hack/make/build-deb)  
-•[rpm builds (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/hack/make/build-rpm)  
-•[deb release (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/hack/make/release-deb)  
-•[rpm release (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/hack/make/release-rpm)
+• [the Dockerfiles for these images (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/tree/master/contrib/builder)  
+•[the code for the deb builds (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/hack/make/build-deb)  
+•[rpm builds (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/hack/make/build-rpm)  
+•[deb release (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/hack/make/release-deb)  
+•[rpm release (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/hack/make/release-rpm)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

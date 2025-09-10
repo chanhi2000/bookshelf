@@ -51,7 +51,7 @@ cover: https://blog.gangnamunni.com/_nuxt/img/ae65a45.jpg
   logo="https://blog.gangnamunni.com/favicon.ico"
   preview="https://blog.gangnamunni.com/_nuxt/img/ae65a45.jpg"/>
 
-안녕하세요 힐링페이퍼에서 백엔드 엔지니어로 근무하고 있는 Manggo입니다. 여러분들이 해결하고 있는 도메인 문제들 중 변경 사항 하나하나가 중요하거나, 변경 사항별로 레포트를 제공한다거나, 변경한 시점으로 돌아가 무언가를 해야 하는 경우가 있으실까요? 그럴 때 아주 좋은 패턴이 바로 [<FontIcon icon="fas fa-globe"/>이벤트 소싱](https://martinfowler.com/eaaDev/EventSourcing.html) 입니다. 이벤트 소싱은 마틴 파울러가 쓴  [<FontIcon icon="fas fa-globe"/>Development of Further Patterns of Enterprise Application Architecture](https://martinfowler.com/eaaDev/) 에서 소개되었습니다.
+안녕하세요 힐링페이퍼에서 백엔드 엔지니어로 근무하고 있는 Manggo입니다. 여러분들이 해결하고 있는 도메인 문제들 중 변경 사항 하나하나가 중요하거나, 변경 사항별로 레포트를 제공한다거나, 변경한 시점으로 돌아가 무언가를 해야 하는 경우가 있으실까요? 그럴 때 아주 좋은 패턴이 바로 [<VPIcon icon="fas fa-globe"/>이벤트 소싱](https://martinfowler.com/eaaDev/EventSourcing.html) 입니다. 이벤트 소싱은 마틴 파울러가 쓴  [<VPIcon icon="fas fa-globe"/>Development of Further Patterns of Enterprise Application Architecture](https://martinfowler.com/eaaDev/) 에서 소개되었습니다.
 
 마틴파울러의 글에 적혀있는 이벤트 소싱의 설명은 다음과 같습니다.
 
@@ -319,7 +319,7 @@ public class ScheduleEventStore implements EventStore {
 
 이벤트 스토어 레코드 별로 메세지가 발행되었는지 안되었는지 체크를 하고, 발행이 되지 않은 모든 이벤트를 메세지 브로커로 전달하게 됩니다. 이를 통해서 이벤트가 At Least Once 발행이 될 수 있도록 합니다.
 
-`MessageBus`는 <FontIcon icon="iconfont icon-kafka"/>Apache Kafka, Kinesis, AWS SNS + SQS, Azure EventHub 등 다양한 메세지 브로커중 순서를 보장할 수 있는 메세지 브로커를 이용하여 구현합니다. 저희는 Kinesis를 통해서 구현하였습니다.
+`MessageBus`는 <VPIcon icon="iconfont icon-kafka"/>Apache Kafka, Kinesis, AWS SNS + SQS, Azure EventHub 등 다양한 메세지 브로커중 순서를 보장할 수 있는 메세지 브로커를 이용하여 구현합니다. 저희는 Kinesis를 통해서 구현하였습니다.
 
 ### Event Stream
 
@@ -400,7 +400,7 @@ public class ScheduleHeadspring extends Headspring<Schedule> {
 
 - DDD에 소개되어 있는 애그리것(Aggregate)패턴을 적용하기 너무 좋았습니다. 이벤트 스트림을 하나의 애그리것으로 정의하면 DDD에서 이야기 하는 애그리것 패턴을 만족하게 됩니다.
 - 도메인 문제를 해결하기 위해서 웹프레임워크, ORM등 실제 도메인에 없는 컨텍스트들을 주입하지 않고 개발하기 수월합니다. 순수 프로그래밍 언어를 이용하여 이벤트를 생성하고 상태를 복원하는 로직만 작성하면 되기 때문에 실제 도메인을 써드파티로 오염시키지 않고 프로그램으로 작성이 가능합니다. 즉 도메인 관심사가 아닌 기술들을 의존하지 않고 도메인 로직을 작성하기 수월합니다.
-- 비교적 복잡한 도메인문제를 해결하기 위해서 팀에서 종종 [<FontIcon icon="fas fa-globe"/>EventStorming](https://www.eventstorming.com/)을 이용하는데, 이벤트 스토밍을 통해 팀에서 정의한 명령 및 이벤트들을 기반으로 개발을 하면 되기 때문에 실제 도메인을 프로그램으로 반영하기 수월합니다.
+- 비교적 복잡한 도메인문제를 해결하기 위해서 팀에서 종종 [<VPIcon icon="fas fa-globe"/>EventStorming](https://www.eventstorming.com/)을 이용하는데, 이벤트 스토밍을 통해 팀에서 정의한 명령 및 이벤트들을 기반으로 개발을 하면 되기 때문에 실제 도메인을 프로그램으로 반영하기 수월합니다.
 
 ### 챌린징
 

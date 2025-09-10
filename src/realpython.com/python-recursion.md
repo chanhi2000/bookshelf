@@ -85,9 +85,9 @@ Then you’ll study several Python programming problems that use recursion and c
 
 The word **recursion** comes from the Latin word *recurrere*, meaning to run or hasten back, return, revert, or recur. Here are some online definitions of recursion:
 
-- [<FontIcon icon="fas fa-globe"/>**Dictionary.com**:](https://dictionary.com/browse/recursion) The act or process of returning or running back
-- [<FontIcon icon="fas fa-globe"/>**Wiktionary**:](https://en.wiktionary.org/wiki/recursion) The act of defining an object (usually a function) in terms of that object itself
-- [<FontIcon icon="fas fa-globe"/>**The Free Dictionary**:](https://thefreedictionary.com/recursion) A method of defining a sequence of objects, such as an expression, function, or set, where some number of initial objects are given and each successive object is defined in terms of the preceding objects
+- [<VPIcon icon="fas fa-globe"/>**Dictionary.com**:](https://dictionary.com/browse/recursion) The act or process of returning or running back
+- [<VPIcon icon="fas fa-globe"/>**Wiktionary**:](https://en.wiktionary.org/wiki/recursion) The act of defining an object (usually a function) in terms of that object itself
+- [<VPIcon icon="fas fa-globe"/>**The Free Dictionary**:](https://thefreedictionary.com/recursion) A method of defining a sequence of objects, such as an expression, function, or set, where some number of initial objects are given and each successive object is defined in terms of the preceding objects
 
 A **recursive** definition is one in which the defined term appears in the definition itself. Self-referential situations often crop up in real life, even if they aren’t immediately recognizable as such. For example, suppose you wanted to describe the set of people that make up your ancestors. You could describe them this way:
 
@@ -105,7 +105,7 @@ Most programming problems are solvable without recursion. So, strictly speaking,
 
 However, some situations particularly lend themselves to a **self-referential** definition—for example, the definition of ancestors shown above. If you were devising an algorithm to handle such a case programmatically, a recursive solution would likely be cleaner and more concise.
 
-Traversal of [<FontIcon icon="fa-brands fa-wikipedia-w"/>tree-like data structures](https://en.wikipedia.org/wiki/Tree_(data_structure)) is another good example. Because these are nested structures, they readily fit a recursive definition. A non-recursive algorithm to walk through a nested structure is likely to be somewhat clunky, while a recursive solution will be relatively elegant. An example of this appears later in this tutorial.
+Traversal of [<VPIcon icon="fa-brands fa-wikipedia-w"/>tree-like data structures](https://en.wikipedia.org/wiki/Tree_(data_structure)) is another good example. Because these are nested structures, they readily fit a recursive definition. A non-recursive algorithm to walk through a nested structure is likely to be somewhat clunky, while a recursive solution will be relatively elegant. An example of this appears later in this tutorial.
 
 On the other hand, recursion isn’t for every situation. Here are some other factors to consider:
 
@@ -119,7 +119,7 @@ Typically, the readability of the code will be the biggest determining factor. B
 
 ## Recursion in Python
 
-When you call a function in Python, the interpreter creates a new [**local namespace**](/realpython.com/python-namespaces-scope.md) so that names defined within that function don’t [<FontIcon icon="fa-brands fa-wikipedia-w"/>collide](https://en.wikipedia.org/wiki/Name_collision) with identical names defined elsewhere. One function can call another, and even if they both define objects with the same name, it all works out fine because those objects exist in separate **namespaces**.
+When you call a function in Python, the interpreter creates a new [**local namespace**](/realpython.com/python-namespaces-scope.md) so that names defined within that function don’t [<VPIcon icon="fa-brands fa-wikipedia-w"/>collide](https://en.wikipedia.org/wiki/Name_collision) with identical names defined elsewhere. One function can call another, and even if they both define objects with the same name, it all works out fine because those objects exist in separate **namespaces**.
 
 The same holds true if multiple instances of the same function are running concurrently. For example, consider the following definition:
 
@@ -252,7 +252,7 @@ This is a case where the non-recursive solution is at least as clear and intuiti
 
 ## Calculate Factorial
 
-The next example involves the mathematical concept of [<FontIcon icon="fa-brands fa-wikipedia-w"/>factorial](https://en.wikipedia.org/wiki/Factorial). The factorial of a positive integer $n$, denoted as $n!$, is defined as follows:
+The next example involves the mathematical concept of [<VPIcon icon="fa-brands fa-wikipedia-w"/>factorial](https://en.wikipedia.org/wiki/Factorial). The factorial of a positive integer $n$, denoted as $n!$, is defined as follows:
 
 $$
 n! = 1\times2\times\hdots\times{n}
@@ -353,7 +353,7 @@ Another factor to take into consideration is execution speed. There can be signi
 
 ### Speed Comparison of Factorial Implementations
 
-To evaluate execution time, you can use a function called [<FontIcon icon="fa-brands fa-python"/>`timeit()`](https://docs.python.org/3/library/timeit.html#timeit.timeit) from a module that is also called `timeit`. This function supports a number of different formats, but you’ll use the following format in this tutorial:
+To evaluate execution time, you can use a function called [<VPIcon icon="fa-brands fa-python"/>`timeit()`](https://docs.python.org/3/library/timeit.html#timeit.timeit) from a module that is also called `timeit`. This function supports a number of different formats, but you’ll use the following format in this tutorial:
 
 ```py
 timeit(<command>, setup=<setup_string>, number=<iterations>)
@@ -464,13 +464,13 @@ Wow! `math.factorial()` performs better than the best of the other three impleme
 
 ::: note Technical note
 
-The fact that `math.factorial()` is so much speedier probably has nothing to do with whether it’s implemented recursively. More likely it’s because the function is implemented in [<FontIcon icon="fa-brands fa-wikipedia-w"/>C](https://en.wikipedia.org/wiki/C_(programming_language)) rather than Python. For more reading on Python and C, see these resources:
+The fact that `math.factorial()` is so much speedier probably has nothing to do with whether it’s implemented recursively. More likely it’s because the function is implemented in [<VPIcon icon="fa-brands fa-wikipedia-w"/>C](https://en.wikipedia.org/wiki/C_(programming_language)) rather than Python. For more reading on Python and C, see these resources:
 
 - [Python Bindings: Calling C or C++ From Python](/realpython.com/python-bindings-overview.md)
 - [Building a Python C Extension Module](/realpython.com/build-python-c-extension-module.md)
 - [C for Python Programmers](/realpython.com/c-for-python-programmers.md)
 - [Your Guide to the CPython Source Code](/realpython.com/cpython-source-code-guide.md)
-- [<FontIcon icon="fas fa-globe"/>*CPython Internals* book](https://realpython.com/products/cpython-internals-book/)
+- [<VPIcon icon="fas fa-globe"/>*CPython Internals* book](https://realpython.com/products/cpython-internals-book/)
 
 :::
 
@@ -543,7 +543,7 @@ Note the self-referential nature of this description: *Walk through the list*. I
 
 ### Traverse a Nested List Recursively
 
-Recursion fits this problem very nicely. To solve it, you need to be able to determine whether a given list item is leaf item or not. For that, you can use the built-in Python function [<FontIcon icon="fa-brands fa-python"/>`isinstance()`](https://docs.python.org/3/library/functions.html#isinstance).
+Recursion fits this problem very nicely. To solve it, you need to be able to determine whether a given list item is leaf item or not. For that, you can use the built-in Python function [<VPIcon icon="fa-brands fa-python"/>`isinstance()`](https://docs.python.org/3/library/functions.html#isinstance).
 
 In the case of the `names` list, if an item is an instance of type `list`, then it’s a sublist. Otherwise, it’s a leaf item:
 
@@ -835,7 +835,7 @@ It’s an interesting exercise to think recursively, even when it isn’t especi
 
 ## Sort With Quicksort
 
-The final example presented, like the nested list traversal, is a good example of a problem that very naturally suggests a recursive approach. The [**Quicksort algorithm**](/realpython.com/sorting-algorithms-python/the-quicksort-algorithm-in-python.md) is an efficient sorting algorithm developed by British computer scientist Tony Hoare in 1959. Quicksort is a [<FontIcon icon="fa-brands fa-wikipedia-w"/>sdivide-and-conquer algorithm](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm). Suppose you have a list of objects to sort. You start by choosing an item in the list, called the **pivot** item. This can be any item in the list. You then **partition** the list into two sublists based on the pivot item and recursively sort the sublists.
+The final example presented, like the nested list traversal, is a good example of a problem that very naturally suggests a recursive approach. The [**Quicksort algorithm**](/realpython.com/sorting-algorithms-python/the-quicksort-algorithm-in-python.md) is an efficient sorting algorithm developed by British computer scientist Tony Hoare in 1959. Quicksort is a [<VPIcon icon="fa-brands fa-wikipedia-w"/>sdivide-and-conquer algorithm](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm). Suppose you have a list of objects to sort. You start by choosing an item in the list, called the **pivot** item. This can be any item in the list. You then **partition** the list into two sublists based on the pivot item and recursively sort the sublists.
 
 The steps of the algorithm are as follows:
 

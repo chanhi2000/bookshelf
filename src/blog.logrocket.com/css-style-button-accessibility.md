@@ -213,15 +213,15 @@ One of the main problems developers face is not knowing when to use buttons. It 
 
 When a screen reader or any sort of assistive device scans a webpage, it gets information about the HTML structure of the page and reads the contents out loud, so using a link element `<a>` when you should use the `<button>` element can be problematic for users who have to use these assistive technologies to interact with the page.
 
-Knowing when to use either element is simple. According to [<FontIcon icon="fa-brands fa-angular"/>Angular](https://material.angular.io/components/button/overview), the `<button>` element should be used for any interaction that performs an action on the current page, and the `<a>` element should be used for any interaction that navigates to another view or page. It’s that simple!
+Knowing when to use either element is simple. According to [<VPIcon icon="fa-brands fa-angular"/>Angular](https://material.angular.io/components/button/overview), the `<button>` element should be used for any interaction that performs an action on the current page, and the `<a>` element should be used for any interaction that navigates to another view or page. It’s that simple!
 
 As a developer, you should know how to use the right semantic HTML element when creating a button. It gives users a reasonable expectation of the control’s behavior, allows you to write lighter and better code, and makes your site easier to maintain.
 
-You can check out [<FontIcon icon="fas fa-globe"/>this article](https://marcysutton.com/links-vs-buttons-in-modern-web-applications) to learn more about modern web applications’ links vs. buttons.
+You can check out [<VPIcon icon="fas fa-globe"/>this article](https://marcysutton.com/links-vs-buttons-in-modern-web-applications) to learn more about modern web applications’ links vs. buttons.
 
 ### Button size
 
-Button sizes are a vital part of styling buttons in 2022. So vital, in fact, that Apple included a recommended button size of 44x44px in the [<FontIcon icon="fa-brands fa-apple"/>iPhone Human Interface Guidelines.](http://developer.apple.com/iphone/library/documentation/UserExperience/Conceptual/MobileHIG/DesigningNativeApp/DesigningNativeApp.html#//apple_ref/doc/uid/TP40006556-CH4-SW1) Smaller buttons lead to poor accessibility for people who have reduced dexterity, and increase error rates for your site.
+Button sizes are a vital part of styling buttons in 2022. So vital, in fact, that Apple included a recommended button size of 44x44px in the [<VPIcon icon="fa-brands fa-apple"/>iPhone Human Interface Guidelines.](http://developer.apple.com/iphone/library/documentation/UserExperience/Conceptual/MobileHIG/DesigningNativeApp/DesigningNativeApp.html#//apple_ref/doc/uid/TP40006556-CH4-SW1) Smaller buttons lead to poor accessibility for people who have reduced dexterity, and increase error rates for your site.
 
 Using the right sized buttons also improves your site’s SEO or web app, because Google and other search engines rank pages based on how mobile-friendly they are. Making sure your buttons are both big and far enough apart increases the accessibility of your page and allows it to rank higher.
 

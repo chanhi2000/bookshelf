@@ -52,9 +52,9 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_122.png
 
 "Your task is to rewrite this system. It powers our entire operation. Oh, and it's written in APL."
 
-That's how my journey with this legacy rewrite began. For those unfamiliar with [<FontIcon icon="fa-brands fa-wikipedia-w"/>APL](https://en.wikipedia.org/wiki/APL_(programming_language)), it's a programming language from the 1960s known for its unique mathematical notation and array manipulation capabilities. Finding developers who know APL today is about as easy as finding a floppy disk drive in a modern computer.
+That's how my journey with this legacy rewrite began. For those unfamiliar with [<VPIcon icon="fa-brands fa-wikipedia-w"/>APL](https://en.wikipedia.org/wiki/APL_(programming_language)), it's a programming language from the 1960s known for its unique mathematical notation and array manipulation capabilities. Finding developers who know APL today is about as easy as finding a floppy disk drive in a modern computer.
 
-The system has grown over four decades. It started as a simple inventory management tool and evolved into a comprehensive [<FontIcon icon="fa-brands fa-wikipedia-w"/>ERP](https://en.wikipedia.org/wiki/Enterprise_resource_planning) system. More than 460+ database tables. Countless business rules embedded in the code. Complex integrations with every part of the business process. The system is the backbone of a manufacturing operation, that generates over $10 million in annual revenue.
+The system has grown over four decades. It started as a simple inventory management tool and evolved into a comprehensive [<VPIcon icon="fa-brands fa-wikipedia-w"/>ERP](https://en.wikipedia.org/wiki/Enterprise_resource_planning) system. More than 460+ database tables. Countless business rules embedded in the code. Complex integrations with every part of the business process. The system is the backbone of a manufacturing operation, that generates over $10 million in annual revenue.
 
 Our mission was clear but daunting: modernize this system using .NET, PostgreSQL, and React.
 
@@ -124,7 +124,7 @@ During the discovery phase, we identified distinct business domains within the s
 
 ## The Data Sync Challenge
 
-The two-way data synchronization was more complex than initially anticipated. Here's why we couldn't use existing [<FontIcon icon="fa-brands fa-wikipedia-w"/>change data capture](https://en.wikipedia.org/wiki/Change_data_capture) (CDC) solutions like [<FontIcon icon="fas fa-globe"/>Debezium](https://debezium.io/):
+The two-way data synchronization was more complex than initially anticipated. Here's why we couldn't use existing [<VPIcon icon="fa-brands fa-wikipedia-w"/>change data capture](https://en.wikipedia.org/wiki/Change_data_capture) (CDC) solutions like [<VPIcon icon="fas fa-globe"/>Debezium](https://debezium.io/):
 
 1. **Complex transformations**: Many legacy tables required data from multiple new tables. This wasn't a simple one-to-one mapping that CDC tools excel at.
 2. **Business logic in sync**: The sync process needed to apply business rules during transformation. This went beyond what most replication tools provide.

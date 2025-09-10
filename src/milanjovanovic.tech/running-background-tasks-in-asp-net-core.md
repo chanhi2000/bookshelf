@@ -161,7 +161,7 @@ public class PeriodicBackgroundTask : BackgroundService
 }
 ```
 
-We're using a [<FontIcon icon="fa-brands fa-microsoft"/>PeriodicTimer](https://learn.microsoft.com/en-us/dotnet/api/system.threading.periodictimer?view=net-6.0) to asynchronously wait for a given period, before executing our **background task**.
+We're using a [<VPIcon icon="fa-brands fa-microsoft"/>PeriodicTimer](https://learn.microsoft.com/en-us/dotnet/api/system.threading.periodictimer?view=net-6.0) to asynchronously wait for a given period, before executing our **background task**.
 
 ---
 
@@ -189,7 +189,7 @@ Here are two popular solutions for running **background tasks** that I worked wi
   logo="https://www.hangfire.io/apple-touch-icon.png"
   preview="https://www.hangfire.io/img/twitter-crd.png"/>
 
-I also have an example of [<FontIcon icon="fa-brands fa-youtube"/>using Quartz for processing Outbox messages](https://youtu.be/XALvnX7MPeo) on my YouTube channel that you can take a look at.
+I also have an example of [<VPIcon icon="fa-brands fa-youtube"/>using Quartz for processing Outbox messages](https://youtu.be/XALvnX7MPeo) on my YouTube channel that you can take a look at.
 
 <VidStack src="youtube/XALvnX7MPeo" />
 

@@ -61,13 +61,13 @@ To install Material UI, we run:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add @material-ui/core
 ```
 
-@tab <FontIcon icon="fa-brands fa-name"/>
+@tab <VPIcon icon="fa-brands fa-name"/>
 
 ```sh
 npm i @material-ui/core

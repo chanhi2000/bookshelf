@@ -112,7 +112,7 @@ Because the middleware performs **response compression** at the **application le
 
 If you are hosting your application and you can't use server-based compression, then using the response compression middleware is justified.
 
-One more concern should be **security**, because using **response compression over HTTPS** can expose you to [<FontIcon icon="fa-brands fa-wikipedia-w"/>CRIME](https://en.wikipedia.org/wiki/CRIME) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>BREACH](https://en.wikipedia.org/wiki/BREACH) attacks
+One more concern should be **security**, because using **response compression over HTTPS** can expose you to [<VPIcon icon="fa-brands fa-wikipedia-w"/>CRIME](https://en.wikipedia.org/wiki/CRIME) and [<VPIcon icon="fa-brands fa-wikipedia-w"/>BREACH](https://en.wikipedia.org/wiki/BREACH) attacks
 
 Here's what you can do to improve security:
 
@@ -205,7 +205,7 @@ One more thing I noticed is that using `CompressionLevel.SmallestSize` has a not
 
 ## In Summary
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Response compression](https://learn.microsoft.com/en-us/aspnet/core/performance/response-compression?view=aspnetcore-7.0) is an interesting technique to improve API performance and reduce network costs.
+[<VPIcon icon="fa-brands fa-microsoft"/>Response compression](https://learn.microsoft.com/en-us/aspnet/core/performance/response-compression?view=aspnetcore-7.0) is an interesting technique to improve API performance and reduce network costs.
 
 Ideally, you'd want to be using **server-based response compression** if it's supported by your application server. If that's not the case, **application-based compression** is available in .NET with the response compression middleware.
 

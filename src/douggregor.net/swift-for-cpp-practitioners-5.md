@@ -62,7 +62,7 @@ isOriginal: false
 }
 ```
 
-What do you do in C++ when you want to support different types, but don't want to have one template instantiation per type? Yes, you can introduce a class hierarchy with virtual functions, but more often a better answer is to use *type erasure*. Type erasure is a mechanism for *runtime polymorphism*, allowing you to provide different types at runtime while using the same code expressed with a single, concrete type. The C++ standard library contains two type-erased utility types: [<FontIcon icon="iconfont icon-cpp"/>`std::any`](https://en.cppreference.com/w/cpp/utility/any) and [<FontIcon icon="iconfont icon-cpp"/>`std::function`](https://en.cppreference.com/w/cpp/utility/functional/function). In both cases, you can have a concrete value whose underlying type can change:
+What do you do in C++ when you want to support different types, but don't want to have one template instantiation per type? Yes, you can introduce a class hierarchy with virtual functions, but more often a better answer is to use *type erasure*. Type erasure is a mechanism for *runtime polymorphism*, allowing you to provide different types at runtime while using the same code expressed with a single, concrete type. The C++ standard library contains two type-erased utility types: [<VPIcon icon="iconfont icon-cpp"/>`std::any`](https://en.cppreference.com/w/cpp/utility/any) and [<VPIcon icon="iconfont icon-cpp"/>`std::function`](https://en.cppreference.com/w/cpp/utility/functional/function). In both cases, you can have a concrete value whose underlying type can change:
 
 ```cpp
 std::any a = 17;              // okay, stores an int
@@ -72,7 +72,7 @@ std::function<int(int, int)> op = [](int a, int b) { return a + b; }; // okay, i
 op = [](int a, int b) { return a * b; }                               // now it multiplies them!
 ```
 
-Type erasure in C++ has been around for a long time, and it's a useful technique. [<FontIcon icon="fas fa-globe"/>Boost.Any](https://www.boost.org/doc/libs/1_84_0/doc/html/any.html) popularized the idea, and now there are numerous blog posts describing implementation techniques and C++ libraries implementing them.
+Type erasure in C++ has been around for a long time, and it's a useful technique. [<VPIcon icon="fas fa-globe"/>Boost.Any](https://www.boost.org/doc/libs/1_84_0/doc/html/any.html) popularized the idea, and now there are numerous blog posts describing implementation techniques and C++ libraries implementing them.
 In Swift, it's part of the language, and you can type-erase any protocol using the keyword `any`. In this post, we're going to dive into how Swift handles type erasure, and explore related features like *metatypes* and *opaque types*.
 
 ---
@@ -251,7 +251,7 @@ extension Person: InitByName {
 }
 ```
 
-Why do we need `required`? Making `Person` conform to `InitByName` implies that every subclass of `Person` also conforms to `InitByName`, because one should always be able to substitute an instance of a subclass where the superclass was expected (this is the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Liskov Substitution Principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)). That means you need to be able to create an instance of any subclass by calling `init(name:)`. Making an initializer `required` ensures that all subclasses (and subclasses of subclasses, and so on) implement it.
+Why do we need `required`? Making `Person` conform to `InitByName` implies that every subclass of `Person` also conforms to `InitByName`, because one should always be able to substitute an instance of a subclass where the superclass was expected (this is the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Liskov Substitution Principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)). That means you need to be able to create an instance of any subclass by calling `init(name:)`. Making an initializer `required` ensures that all subclasses (and subclasses of subclasses, and so on) implement it.
 At this point, we could build a simple registry mapping from the serialized class names to actual `Person` types:
 
 ```swift
@@ -648,7 +648,7 @@ Note that the identity of the underlying type is hidden from clients of the func
 
 ### Hiding complicated result types
 
-Opaque result types really shine when they're used to hide unnecessary implementation details. To see what I mean, think about the types that are produced from a C++ library that uses [<FontIcon icon="fa-brands fa-wikipedia-w"/>expression templates](https://en.wikipedia.org/wiki/Expression_templates): every single operator introduces another wrapper type (often two of them), producing a final result whose type encodes the entire operation. For example, one might have a `parallel_array` type that uses expression templates, and an expression like:
+Opaque result types really shine when they're used to hide unnecessary implementation details. To see what I mean, think about the types that are produced from a C++ library that uses [<VPIcon icon="fa-brands fa-wikipedia-w"/>expression templates](https://en.wikipedia.org/wiki/Expression_templates): every single operator introduces another wrapper type (often two of them), producing a final result whose type encodes the entire operation. For example, one might have a `parallel_array` type that uses expression templates, and an expression like:
 
 ```cpp
 auto result = a * x + b

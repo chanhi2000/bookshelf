@@ -406,7 +406,7 @@ To deploy your Node.js application, run the following command and update the hig
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-shell"/>Shell
+@tab:active <VPIcon icon="iconfont icon-shell"/>Shell
 
 ```sh
 kn service create node-service \
@@ -426,7 +426,7 @@ kn service create node-service \
 # http://node-service.serverless-workload.138.197.231.61.sslip.io
 ```
 
-@tab <FontIcon icon="iconfont icon-powershell"/>Powershell
+@tab <VPIcon icon="iconfont icon-powershell"/>Powershell
 
 ```powershell
 kn service create node-service `
@@ -446,7 +446,7 @@ kn service create node-service `
 # http://node-service.serverless-workload.138.197.231.61.sslip.io
 ```
 
-@tab <FontIcon icon="fas fa-gears"/>Cmd
+@tab <VPIcon icon="fas fa-gears"/>Cmd
 
 ```batch
 kn service create node-service ^
@@ -494,15 +494,15 @@ First, you will create a subdirectory in the directory containing your `Dockerfi
 mkdir knative
 ```
 
-Next, you will create a YAML file called <FontIcon icon="iconfont icon-yaml"/>`service.yaml` in the `knative` directory:
+Next, you will create a YAML file called <VPIcon icon="iconfont icon-yaml"/>`service.yaml` in the `knative` directory:
 
 ```sh
 nano knative/service.yaml
 ```
 
-In the newly created <FontIcon icon="iconfont icon-yaml"/>`service.yaml` file, add the following lines to define a `Service` that will deploy your Node.js app:
+In the newly created <VPIcon icon="iconfont icon-yaml"/>`service.yaml` file, add the following lines to define a `Service` that will deploy your Node.js app:
 
-> <FontIcon icon="fas fa-folder-open"/>`~/node_project/knative/`<FontIcon icon="iconfont icon-yaml"/>`service.yaml`
+> <VPIcon icon="fas fa-folder-open"/>`~/node_project/knative/`<VPIcon icon="iconfont icon-yaml"/>`service.yaml`
 
 ```yml
 apiVersion: serving.knative.dev/v1

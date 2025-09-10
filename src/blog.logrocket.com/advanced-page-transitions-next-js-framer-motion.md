@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/advanced-page-transitions-next-js-framer
 
 ::: note Editor’s note
 
-This article was updated by [<FontIcon icon="fas fa-globe"/>Paul Akinyemi](https://blog.logrocket.com/author/paulakinyemi/) on 28 December 2023 to add relevant information about the Next.js App Router, the new mode for `AnimatePresence`, and dealing with scroll issues.
+This article was updated by [<VPIcon icon="fas fa-globe"/>Paul Akinyemi](https://blog.logrocket.com/author/paulakinyemi/) on 28 December 2023 to add relevant information about the Next.js App Router, the new mode for `AnimatePresence`, and dealing with scroll issues.
 
 :::
 
@@ -78,7 +78,7 @@ Webpage content generally loads quickly, but if you’re fetching data from a se
 
 One option is to add a quick loading bar, which provides feedback to the user regarding the page load progress. This feedback informs them to stay put and not navigate away when content takes an extra couple of seconds to load.
 
-Anything faster than 200ms is perceived by the brain to be instant. Meanwhile, slower page load times — even a delay of just three seconds — have been shown to [<FontIcon icon="fas fa-globe"/>negatively impact UX](https://blog.logrocket.com/ux-design/finding-fixing-rage-clicks/#why-do-users-rage-click). However, it’s really hard to get a page to load that fast.
+Anything faster than 200ms is perceived by the brain to be instant. Meanwhile, slower page load times — even a delay of just three seconds — have been shown to [<VPIcon icon="fas fa-globe"/>negatively impact UX](https://blog.logrocket.com/ux-design/finding-fixing-rage-clicks/#why-do-users-rage-click). However, it’s really hard to get a page to load that fast.
 
 Adding a page transition that lasts between half a second to two seconds buys you time to load data and get things ready. Then, when the next page is revealed to the user, you can just deliver the requested content.
 
@@ -104,7 +104,7 @@ For example, you might want to add some movement to elements as users enter the 
 
 ## Building page transitions with Next.js and Framer Motion
 
-Page transitions can be built in just about any frontend framework or library, such as React. In this demonstration, we’ll use Next.js to provide the cue for when pages transition to trigger the animation. We’ll also use [<FontIcon icon="fas fa-globe"/>Framer Motion](https://framer.com/motion/) to perform the actual page transitions.
+Page transitions can be built in just about any frontend framework or library, such as React. In this demonstration, we’ll use Next.js to provide the cue for when pages transition to trigger the animation. We’ll also use [<VPIcon icon="fas fa-globe"/>Framer Motion](https://framer.com/motion/) to perform the actual page transitions.
 
 Framer Motion has dubbed itself “[**the production-ready motion library for React**](/blog.logrocket.com/react-scroll-animations-framer-motion.md),” and it’s a real treat to use. What I like most about this library is its declarative way of achieving animations. You can simply declare what you want the start and end to look like, and Framer Motion fills in the gaps.
 
@@ -126,7 +126,7 @@ Here’s what we’ll end up with:
 
 Each photo page is a new dynamic page in Next.js. You can see the Framer Motion page transitions at work as we navigate between the list and detail pages.
 
-If you’d like, you can also grab the [source code for the above example (<FontIcon icon="iconfont icon-github"/>`fbrill/react-page-transitions`)](https://github.com/fbrill/react-page-transitions) to browse and follow along.
+If you’d like, you can also grab the [source code for the above example (<VPIcon icon="iconfont icon-github"/>`fbrill/react-page-transitions`)](https://github.com/fbrill/react-page-transitions) to browse and follow along.
 
 ### Setting the scene
 
@@ -150,25 +150,25 @@ In the new App Router, there’s no longer an `_app.js` file. Its job is instead
 
 The `template.js` files wrap the page components and re-render on navigation. The `layout.js` files wrap the `template.js` files and page components in that order, and they preserve state and do not rerender on navigation.
 
-As of Next.js 14, using [`AnimatePresence` for page transitions doesn’t work (<FontIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/issues/49279) because of the way Next.js renders pages. There’s a [fragile workaround (<FontIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/issues/49279#issuecomment-1674914893), but it relies on unexposed Next.js internal methods to freeze the routing state and can break at any time.
+As of Next.js 14, using [`AnimatePresence` for page transitions doesn’t work (<VPIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/issues/49279) because of the way Next.js renders pages. There’s a [fragile workaround (<VPIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/issues/49279#issuecomment-1674914893), but it relies on unexposed Next.js internal methods to freeze the routing state and can break at any time.
 
 That said, let’s look at how you can implement page transitions in Next.js, starting with the Pages Router. Later in this tutorial, we’ll explore how to [implement page transitions with the App Router.](#implementing-page-transitions-app-router)
 
 ### Starting a new Next.js site
 
-To showcase how we can achieve animated page transitions, let’s create a quick [<FontIcon icon="iconfont icon-tailwindcss"/>Next.js site with the Tailwind CSS starter](https://tailwindcss.com/docs/guides/nextjs) to handle our styling.
+To showcase how we can achieve animated page transitions, let’s create a quick [<VPIcon icon="iconfont icon-tailwindcss"/>Next.js site with the Tailwind CSS starter](https://tailwindcss.com/docs/guides/nextjs) to handle our styling.
 
 Next, we’ll need to install Framer Motion, like so:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add framer-motion
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i framer-motion
@@ -178,7 +178,7 @@ npm i framer-motion
 
 ### Adding `AnimatePresence`
 
-Now, we’ll work on setting up the page transitions using Framer Motion. First, we add `AnimatePresence` to <FontIcon icon="fa-brands fa-js"/>`_app.js`:
+Now, we’ll work on setting up the page transitions using Framer Motion. First, we add `AnimatePresence` to <VPIcon icon="fa-brands fa-js"/>`_app.js`:
 
 ```js title="_app.js"
 import { AnimatePresence } from 'framer-motion'
@@ -250,7 +250,7 @@ These are some great default settings to start with, but you can [explore other 
 
 For example, you could use `initial` to specify a transition starting point, or where the element should “come from.” While `animate` would specify the “end state,” or where you want things to end up, `exit` is used to specify the target of where the animated component should end up.
 
-These properties can be used to fine-tune any Framer Motion page transitions in your Next.js project, as well as the `transition` properties. If these names sound confusing, you can also [<FontIcon icon="fas fa-globe"/>define your own `variants`](https://framer.com/docs/component/###variants) to make it easier to follow.
+These properties can be used to fine-tune any Framer Motion page transitions in your Next.js project, as well as the `transition` properties. If these names sound confusing, you can also [<VPIcon icon="fas fa-globe"/>define your own `variants`](https://framer.com/docs/component/###variants) to make it easier to follow.
 
 ### Using the layout component
 
@@ -348,7 +348,7 @@ First, all Next.js components that use Framer Motion need to be designated as cl
 
 Next, `AnimatePresence` doesn’t play well with the App Router, so you don’t get exit animations on your pages. However, the entry animations on `Layout` will still work as they should.
 
-Instead of manually wrapping every page with the `Layout` component, you can create a <FontIcon icon="fa-brands fa-js"/>`template.js` file in the root of the `app` folder and use it to wrap all your pages:
+Instead of manually wrapping every page with the `Layout` component, you can create a <VPIcon icon="fa-brands fa-js"/>`template.js` file in the root of the `app` folder and use it to wrap all your pages:
 
 ```jsx title="template.js"
 import Layout from "@/components/Layout";

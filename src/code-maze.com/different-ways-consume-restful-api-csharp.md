@@ -87,9 +87,9 @@ Ok, let’s go to the meaty part of this whole story.
 
 Each has pros and cons, so let us go through them and see what they offer.
 
-As an example, we’ll collect information about RestSharp repo releases and publish dates via GitHub API. This information is available publicly and you can see how raw JSON response looks here: [<FontIcon icon="iconfont icon-github"/>RestSharp releases](https://api.github.com/repos/restsharp/restsharp/releases)
+As an example, we’ll collect information about RestSharp repo releases and publish dates via GitHub API. This information is available publicly and you can see how raw JSON response looks here: [<VPIcon icon="iconfont icon-github"/>RestSharp releases](https://api.github.com/repos/restsharp/restsharp/releases)
 
-We are going to utilize the help of the Json.NET library to deserialize the response we get. Also, for some examples, we are going to use the inbuilt deserialization mechanisms of the libraries. It’s up to you to choose which way you prefer because no way is the right way. (You can see the implementation for both mechanisms in the [source code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/ConsumeRestfulApisExamples`)](https://github.com/CodeMazeBlog/ConsumeRestfulApisExamples)).
+We are going to utilize the help of the Json.NET library to deserialize the response we get. Also, for some examples, we are going to use the inbuilt deserialization mechanisms of the libraries. It’s up to you to choose which way you prefer because no way is the right way. (You can see the implementation for both mechanisms in the [source code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/ConsumeRestfulApisExamples`)](https://github.com/CodeMazeBlog/ConsumeRestfulApisExamples)).
 
 What I expect to get as a result of the next few examples is a deserialized `JArray` (for simplicity) that contains RestSharp release information. After that, we can iterate through it to get the following result.
 
@@ -164,7 +164,7 @@ Much easier, right?
 
 Other then `DownloadString` method, `WebClient` class offers a host of other useful methods to make our life easier. We can easily manipulate strings, files, or byte arrays using it, and for a price of just a few milliseconds slower than `HttpWebRequest`/`HttpWebResponse` approach.
 
-Both the `HttpWebRequest`/`HttpWebResponse` and `WebClient` classes are available in the older versions of .NET. Be sure to check out the [<FontIcon icon="fa-brands fa-microsoft"/>MSDN](https://msdn.microsoft.com/en-us/library/system.net.webclient(v=vs.110).aspx) if you are interested what else `WebClient` has to offer.
+Both the `HttpWebRequest`/`HttpWebResponse` and `WebClient` classes are available in the older versions of .NET. Be sure to check out the [<VPIcon icon="fa-brands fa-microsoft"/>MSDN](https://msdn.microsoft.com/en-us/library/system.net.webclient(v=vs.110).aspx) if you are interested what else `WebClient` has to offer.
 
 ---
 
@@ -172,7 +172,7 @@ Both the `HttpWebRequest`/`HttpWebResponse` and `WebClient` classes are availabl
 
 `HttpClient` is the “new kid on the block”, and offers some of the modern .NET functionalities that older libraries lack. For example, you can send multiple requests with a single instance, it is not tied to the particular HTTP server or host and makes use of the async/await mechanism.
 
-You can find out about the [<FontIcon icon="fas fa-globe"/>five good reasons to use HttpClient in this video](https://channel9.msdn.com/Events/Build/2013/4-092):
+You can find out about the [<VPIcon icon="fas fa-globe"/>five good reasons to use HttpClient in this video](https://channel9.msdn.com/Events/Build/2013/4-092):
 
 - Strongly typed headers
 - Shared Caches, cook­ies, and credentials
@@ -199,7 +199,7 @@ public string GetReleases(string url)
 
 For simplicity’s sake, I implemented it synchronously. Every `HttpClient` method is meant to be used asynchronously and SHOULD be used that way.
 
-Also, I need to mention one more thing. **There is a debate about whether `HttpClient` should be wrapped in a using block or statically on the app level. Although it implements `IDisposable`, it seems that by wrapping it in the using block you can [<FontIcon icon="fas fa-globe"/>make your app malfunction and get the SocketException](https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/).** As Ankit blogs, the performance test results are [<FontIcon icon="fas fa-globe"/>much in favor of static initialization](https://ankitvijay.net/2016/09/25/dispose-httpclient-or-have-a-static-instance/) of the `HttpClient`. **Be sure to read these blog posts** as they can help you be more informed about the correct usage of the `HttpClient` library.
+Also, I need to mention one more thing. **There is a debate about whether `HttpClient` should be wrapped in a using block or statically on the app level. Although it implements `IDisposable`, it seems that by wrapping it in the using block you can [<VPIcon icon="fas fa-globe"/>make your app malfunction and get the SocketException](https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/).** As Ankit blogs, the performance test results are [<VPIcon icon="fas fa-globe"/>much in favor of static initialization](https://ankitvijay.net/2016/09/25/dispose-httpclient-or-have-a-static-instance/) of the `HttpClient`. **Be sure to read these blog posts** as they can help you be more informed about the correct usage of the `HttpClient` library.
 
 This class is the base for many different libraries, so if you want to learn more about it check out our [**HttpClient series of articles**](/code-maze.com/httpclient-with-asp-net-core-tutorial.md).
 
@@ -209,9 +209,9 @@ This class is the base for many different libraries, so if you want to learn mor
 
 RestSharp is the open-source alternative to standard .NET libraries and one of the coolest .NET libraries out there. It is available as a NuGet package, and there are a few reasons why you should consider trying it out.
 
-Like `HttpClient`, RestSharp is a modern and comprehensive library, easy and pleasant to use, while still having support for older versions of the .NET Framework. It has inbuilt [Authentication (<FontIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp/wiki/Authenticators) and [Serialization/Deserialization mechanisms (<FontIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp/wiki/Deserialization) but allows you to override them with your custom ones. It is [available across platforms (<FontIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp/wiki/Cross-Platform-Support) and supports OAuth1, OAuth2, Basic, NTLM, and Parameter-based Authentication. You can choose to work both synchronously or asynchronously.
+Like `HttpClient`, RestSharp is a modern and comprehensive library, easy and pleasant to use, while still having support for older versions of the .NET Framework. It has inbuilt [Authentication (<VPIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp/wiki/Authenticators) and [Serialization/Deserialization mechanisms (<VPIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp/wiki/Deserialization) but allows you to override them with your custom ones. It is [available across platforms (<VPIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp/wiki/Cross-Platform-Support) and supports OAuth1, OAuth2, Basic, NTLM, and Parameter-based Authentication. You can choose to work both synchronously or asynchronously.
 
-There is a lot more to this library, and these are just some of the great benefits it offers. For detailed information on the usage and capabilities of RestSharp, you can visit our [**article on RestSharp in C#**](/code-maze.com/aspnetcore-using-restsharp-consume-api.md) or the RestSharp [page on GitHub (<FontIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp/wiki/Getting-Started).
+There is a lot more to this library, and these are just some of the great benefits it offers. For detailed information on the usage and capabilities of RestSharp, you can visit our [**article on RestSharp in C#**](/code-maze.com/aspnetcore-using-restsharp-consume-api.md) or the RestSharp [page on GitHub (<VPIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp/wiki/Getting-Started).
 
 Now let’s try to get a list of RestSharp releases using RestSharp 😀
 
@@ -257,7 +257,7 @@ A pretty straightforward and elegant way to get our data.
 
 There is a lot more to RestSharp than sending `GET` requests, so explore and see for yourself how cool it can be.
 
-One final note to add to the RestSharp case is that its repository is in need of maintainers. If you want to learn more about this cool library, I urge you to head over to the [RestSharp repo (<FontIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp) and help this project stay alive and be even better.
+One final note to add to the RestSharp case is that its repository is in need of maintainers. If you want to learn more about this cool library, I urge you to head over to the [RestSharp repo (<VPIcon icon="iconfont icon-github"/>`restsharp/RestSharp`)](https://github.com/restsharp/RestSharp) and help this project stay alive and be even better.
 
 ---
 
@@ -265,7 +265,7 @@ One final note to add to the RestSharp case is that its repository is in need of
 
 Another library, but unlike RestSharp, ServiceStack seems to be properly maintained and keeping pace with modern [**API**](/code-maze.com/ultimate-aspnet-core-3-web-api.md) trends. The list of ServiceStack features is impressive and it certainly has various applications.
 
-What is most useful to us here is to demonstrate how to consume an external RESTful API. ServiceStack has a specialized way of dealing with 3rd Party HTTP APIs called [<FontIcon icon="fas fa-globe"/>HTTP Utils](http://docs.servicestack.net/http-utils).
+What is most useful to us here is to demonstrate how to consume an external RESTful API. ServiceStack has a specialized way of dealing with 3rd Party HTTP APIs called [<VPIcon icon="fas fa-globe"/>HTTP Utils](http://docs.servicestack.net/http-utils).
 
 Let us see what fetching RestSharp releases looks like using ServiceStack HTTP Utils first using the Json.NET parser.
 
@@ -374,7 +374,7 @@ Which shows off the full potential of the Flurl library.
 
 If you want to learn more about how to use Flurl in different real-life scenarios, check out our [**Consuming GitHub API (REST) With Flurl**](/code-maze.com/consuming-github-api-rest-with-flurl.md) article
 
-In summary, it’s like advertised: easy to use, modern, readable, and testable. What more can you expect of a library? To be open source? Check out the [Flurl repo (<FontIcon icon="iconfont icon-github"/>`tmenier/Flurl`)](https://github.com/tmenier/Flurl) and contribute if you like it!
+In summary, it’s like advertised: easy to use, modern, readable, and testable. What more can you expect of a library? To be open source? Check out the [Flurl repo (<VPIcon icon="iconfont icon-github"/>`tmenier/Flurl`)](https://github.com/tmenier/Flurl) and contribute if you like it!
 
 ---
 
@@ -436,19 +436,19 @@ It’s also worth mentioning that the JSON response we get is automatically type
 
 Besides being easy to understand and use, DalSoft.RestClient has everything a modern library should have. It is **configurable, asynchronous, extensible, testable and it supports multiple platforms**.
 
-We’ve demonstrated just a small portion of the DalSoft.RestClient features. If this got you interested in using DalSoft.RestClient, head over to [**our article about it**](/code-maze.com/dalsoft-restclient-consume-any-rest-api.md) to learn how to use it in different scenarios, or refer to the [official GitHub repo (<FontIcon icon="iconfont icon-github"/>`DalSoft/DalSoft`)](https://github.com/DalSoft/DalSoft.RestClient) and [<FontIcon icon="fas fa-globe"/>documentation](https://restclient.dalsoft.io/).
+We’ve demonstrated just a small portion of the DalSoft.RestClient features. If this got you interested in using DalSoft.RestClient, head over to [**our article about it**](/code-maze.com/dalsoft-restclient-consume-any-rest-api.md) to learn how to use it in different scenarios, or refer to the [official GitHub repo (<VPIcon icon="iconfont icon-github"/>`DalSoft/DalSoft`)](https://github.com/DalSoft/DalSoft.RestClient) and [<VPIcon icon="fas fa-globe"/>documentation](https://restclient.dalsoft.io/).
 
 ---
 
 ## Other Options
 
-There are a lot of other options available for your specific problems. You can use any of these libraries to consume a specific RESTful API. For example, [<FontIcon icon="iconfont icon-github"/>`octokit/octokit.net`](https://github.com/octokit/octokit.net) is used to work with GitHub API specifically, [Facebook SDK (<FontIcon icon="iconfont icon-github"/>`facebook-csharp-sdk/facebook-csharp-sdk`)](https://github.com/facebook-csharp-sdk/facebook-csharp-sdk) is used for consuming Facebook API and there are many others for almost anything.
+There are a lot of other options available for your specific problems. You can use any of these libraries to consume a specific RESTful API. For example, [<VPIcon icon="iconfont icon-github"/>`octokit/octokit.net`](https://github.com/octokit/octokit.net) is used to work with GitHub API specifically, [Facebook SDK (<VPIcon icon="iconfont icon-github"/>`facebook-csharp-sdk/facebook-csharp-sdk`)](https://github.com/facebook-csharp-sdk/facebook-csharp-sdk) is used for consuming Facebook API and there are many others for almost anything.
 
 While these libraries are made specifically for those APIs and may be great at doing what they are meant for, their usefulness is limited because you often need to connect with more than one [**API**](/code-maze.com/ultimate-aspnet-core-3-web-api.md) in your applications. This may result in having different implementations for each one, and more dependencies which potentially leads to repetitiveness and is error-prone. The more specific the library, the less flexibility it has.
 
 ::: info Source Code on GitHub
 
-To download the source code for this article, you can visit our [GitHub repository (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/ConsumeRestfulApisExamples`)](https://github.com/CodeMazeBlog/ConsumeRestfulApisExamples).
+To download the source code for this article, you can visit our [GitHub repository (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/ConsumeRestfulApisExamples`)](https://github.com/CodeMazeBlog/ConsumeRestfulApisExamples).
 
 <SiteInfo
   name="CodeMazeBlog/ConsumeRestfulApisExamples"

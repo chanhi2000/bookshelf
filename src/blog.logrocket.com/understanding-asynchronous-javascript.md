@@ -61,7 +61,7 @@ In this article, we will learn how to use asynchronous JavaScript more effective
 
 ## Introduction
 
-JavaScript is a single-threaded language, meaning it only allows one logic to be performed at a time, because of this you can’t perform complex long functions that will block JavaScript’s main thread. To solve this, callbacks — which are [<FontIcon icon="fas fa-globe"/>functions](https://javascripttutorial.net/javascript-function/) passed into other functions as an argument to be executed later — were used to perform asynchronous functions. Using async JavaScript, you can perform large functions without blocking the main thread of JavaScript.
+JavaScript is a single-threaded language, meaning it only allows one logic to be performed at a time, because of this you can’t perform complex long functions that will block JavaScript’s main thread. To solve this, callbacks — which are [<VPIcon icon="fas fa-globe"/>functions](https://javascripttutorial.net/javascript-function/) passed into other functions as an argument to be executed later — were used to perform asynchronous functions. Using async JavaScript, you can perform large functions without blocking the main thread of JavaScript.
 
 To better understand this, let’s look at what we mean by synchronous and asynchronous JavaScript.
 
@@ -283,7 +283,7 @@ In the code block above, we are wrapping the response from the request in a prom
 
 ## Conclusion
 
-In this article, we learned what asynchronous JavaScript is and how to write asynchronous JavaScript using promises and async/await. We’ve also seen how to send requests using the fetch API and async/await and how to return a response to asynchronous calls. You can read more on asynchronous JavaScript [<FontIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous).
+In this article, we learned what asynchronous JavaScript is and how to write asynchronous JavaScript using promises and async/await. We’ve also seen how to send requests using the fetch API and async/await and how to return a response to asynchronous calls. You can read more on asynchronous JavaScript [<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous).
 
 <SiteInfo
   name="Asynchronous JavaScript - Learn web development | MDN"

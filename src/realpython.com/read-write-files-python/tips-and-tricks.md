@@ -56,7 +56,7 @@ Now that you’ve mastered the basics of reading and writing files, here are som
 
 ## `__file__`
 
-The `__file__` attribute is a [<FontIcon icon="fa-brands fa-python"/>special attribute](https://docs.python.org/3/reference/datamodel.html) of modules, similar to `__name__`. It is:
+The `__file__` attribute is a [<VPIcon icon="fa-brands fa-python"/>special attribute](https://docs.python.org/3/reference/datamodel.html) of modules, similar to `__name__`. It is:
 
 ::: info 3. Data model — Python 3.13.2 documentation (<code>docs.python.org</code>)
 
@@ -91,7 +91,7 @@ project/
 └── main.py
 ```
 
-Running <FontIcon icon="fa-brands fa-python"/>`main.py` produces the following:
+Running <VPIcon icon="fa-brands fa-python"/>`main.py` produces the following:
 
 ```sh
 python main.py
@@ -119,7 +119,7 @@ with open('dog_breeds.txt', 'a') as a_writer:
     a_writer.write('\nBeagle')
 ```
 
-When you examine <FontIcon icon="fas fa-file-lines"/>`dog_breeds.txt` again, you’ll see that the beginning of the file is unchanged and `Beagle` is now added to the end of the file:
+When you examine <VPIcon icon="fas fa-file-lines"/>`dog_breeds.txt` again, you’ll see that the beginning of the file is unchanged and `Beagle` is now added to the end of the file:
 
 ```py
 with open('dog_breeds.txt', 'r') as reader:
@@ -156,7 +156,7 @@ with open(d_path, 'r') as reader, open(d_r_path, 'w') as writer:
 
 ## Creating Your Own Context Manager
 
-There may come a time when you’ll need finer control of the file object by placing it inside a custom class. When you do this, using the `with` statement can no longer be used unless you add a few magic methods: `__enter__` and `__exit__`. By adding these, you’ll have created what’s called a [<FontIcon icon="fa-brands fa-python"/>context manager](https://docs.python.org/3/library/stdtypes.html#typecontextmanager).
+There may come a time when you’ll need finer control of the file object by placing it inside a custom class. When you do this, using the `with` statement can no longer be used unless you add a few magic methods: `__enter__` and `__exit__`. By adding these, you’ll have created what’s called a [<VPIcon icon="fa-brands fa-python"/>context manager](https://docs.python.org/3/library/stdtypes.html#typecontextmanager).
 
 `__enter__()` is invoked when calling the `with` statement. `__exit__()` is called upon exiting from the `with` statement block.
 
@@ -186,7 +186,7 @@ with my_file_reader('dog_breeds.txt') as reader:
     pass
 ```
 
-Here’s a good example. Remember the cute Jack Russell image we had? Perhaps you want to open other `.png` files but don’t want to parse the header file each time. Here’s an example of how to do this. This example also uses custom iterators. If you’re not familiar with them, check out [<FontIcon icon="fas fa-globe"/>Python Iterators](https://dbader.org/blog/python-iterators):
+Here’s a good example. Remember the cute Jack Russell image we had? Perhaps you want to open other `.png` files but don’t want to parse the header file each time. Here’s an example of how to do this. This example also uses custom iterators. If you’re not familiar with them, check out [<VPIcon icon="fas fa-globe"/>Python Iterators](https://dbader.org/blog/python-iterators):
 
 ```py :collapsed-lines
 class PngReader():

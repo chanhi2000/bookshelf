@@ -51,11 +51,11 @@ cover: /assets/image/blog.logrocket.com/building-telegram-bot-grammy/banner.png
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/building-telegram-bot-grammy/banner.png"/>
 
-One feature that makes [<FontIcon icon="fa-brands fa-telegram"/>Telegram](https://telegram.org/) stand out from other messaging apps is how easy it is to build bots in it. Telegram bots are lightweight, programmable applications that run within the Telegram app. They use the Telegram interface to accept commands and display results, allowing users to seamlessly interact with them.
+One feature that makes [<VPIcon icon="fa-brands fa-telegram"/>Telegram](https://telegram.org/) stand out from other messaging apps is how easy it is to build bots in it. Telegram bots are lightweight, programmable applications that run within the Telegram app. They use the Telegram interface to accept commands and display results, allowing users to seamlessly interact with them.
 
 ![Building A Telegram Bot With GrammY](/assets/image/blog.logrocket.com/building-telegram-bot-grammy/banner.png)
 
-Telegram bots don’t only run inside the app; they use the [<FontIcon icon="fa-brands fa-telegram"/>Telegram Bot API](https://core.telegram.org/bots) to perform tasks like messaging a user, joining [<FontIcon icon="fa-brands fa-telegram"/>groups](https://telegram.org/tour/groups) or [<FontIcon icon="fa-brands fa-telegram"/>channels](https://telegram.org/tour/channels), and more. Bots can do most things a human user of the app can do — with the help of the API. And because bots are computer programs, they can be written in any programming language, making them highly flexible and adaptable.
+Telegram bots don’t only run inside the app; they use the [<VPIcon icon="fa-brands fa-telegram"/>Telegram Bot API](https://core.telegram.org/bots) to perform tasks like messaging a user, joining [<VPIcon icon="fa-brands fa-telegram"/>groups](https://telegram.org/tour/groups) or [<VPIcon icon="fa-brands fa-telegram"/>channels](https://telegram.org/tour/channels), and more. Bots can do most things a human user of the app can do — with the help of the API. And because bots are computer programs, they can be written in any programming language, making them highly flexible and adaptable.
 
 Because they’re programmable, Telegram bots can automate tasks, perform logical operations, and offer custom interaction interfaces that aren’t available to regular users. In Telegram, bots are easily distinguishable from human users.
 
@@ -67,12 +67,12 @@ This article starts by exploring the many use cases of Telegram bots. It then wa
 
 Here are some key benefits Telegram users gain from bots:
 
-- **Improving** **the** **messaging experience**: Telegram offers several bots designed to improve the messaging experience in the app. These bots help with tasks like moderating groups, setting up polls, and translating text. Examples include [<FontIcon icon="fa-brands fa-telegram"/>Rose](https://t.me/MissRose_bot) for community moderation, [<FontIcon icon="fa-brands fa-telegram"/>VoteBot](https://t.me/vote) for polls, and [<FontIcon icon="fa-brands fa-telegram"/>Translator](https://t.me/TgTranslatorBot) for language translation within groups
+- **Improving** **the** **messaging experience**: Telegram offers several bots designed to improve the messaging experience in the app. These bots help with tasks like moderating groups, setting up polls, and translating text. Examples include [<VPIcon icon="fa-brands fa-telegram"/>Rose](https://t.me/MissRose_bot) for community moderation, [<VPIcon icon="fa-brands fa-telegram"/>VoteBot](https://t.me/vote) for polls, and [<VPIcon icon="fa-brands fa-telegram"/>Translator](https://t.me/TgTranslatorBot) for language translation within groups
 - **Customer service support**: Telegram bots also make great chatbots for customer service. Businesses can set up bots to handle common customer inquiries, saving time and offering quick responses to users who already use the app. With the integration of AI-powered large language models, these bots can provide natural-sounding replies and handle complex queries
-- **Automated notifications**: Telegram bots are a great platform to set up automated alerts from third-party applications like email, GitHub, or Trello. You can even configure these bots so users can reply directly to those notifications within Telegram without needing to open the third-party app that triggered the notification. Examples of bots like this are [<FontIcon icon="fa-brands fa-telegram"/>GmailBot](https://t.me/GmailBot), [<FontIcon icon="fa-brands fa-telegram"/>GitHub](https://t.me/GitHubbot), and many others
-- **Facilitating payments**: With Telegram bots, you can run a fully functional [<FontIcon icon="fa-brands fa-telegram"/>ecommerce store](https://core.telegram.org/bots/payments#payments-for-physical-products). Telegram allows bot developers to generate invoices for customers and accept payments
+- **Automated notifications**: Telegram bots are a great platform to set up automated alerts from third-party applications like email, GitHub, or Trello. You can even configure these bots so users can reply directly to those notifications within Telegram without needing to open the third-party app that triggered the notification. Examples of bots like this are [<VPIcon icon="fa-brands fa-telegram"/>GmailBot](https://t.me/GmailBot), [<VPIcon icon="fa-brands fa-telegram"/>GitHub](https://t.me/GitHubbot), and many others
+- **Facilitating payments**: With Telegram bots, you can run a fully functional [<VPIcon icon="fa-brands fa-telegram"/>ecommerce store](https://core.telegram.org/bots/payments#payments-for-physical-products). Telegram allows bot developers to generate invoices for customers and accept payments
 
-Telegram bots have a wide range of uses, including serving as an alternative to mobile apps. Since they function similarly to [<FontIcon icon="fa-brands fa-telegram"/>apps](https://core.telegram.org/bots/webapps), they can even run [<FontIcon icon="fa-brands fa-telegram"/>games](https://core.telegram.org/bots/games). Developers can also use bots to quickly prototype CRUD applications
+Telegram bots have a wide range of uses, including serving as an alternative to mobile apps. Since they function similarly to [<VPIcon icon="fa-brands fa-telegram"/>apps](https://core.telegram.org/bots/webapps), they can even run [<VPIcon icon="fa-brands fa-telegram"/>games](https://core.telegram.org/bots/games). Developers can also use bots to quickly prototype CRUD applications
 
 ---
 
@@ -82,20 +82,20 @@ The rest of the article will focus on how to build a custom telegram bot in Node
 
 The following tutorial is an implementation of a Telegram bot any Telegram user can chat with about anything. The chatbot will be able to respond to text, photo, and voice messages. Our project will be implemented using the following tools:
 
-- [<FontIcon icon="fas fa-globe"/>grammY](https://grammy.dev/): A simple library for building Telegram bots. It runs on different JavaScript runtimes (Node.js and Deno). grammY’s API maps to the official [<FontIcon icon="fa-brands fa-telegram"/>Telegram HTTP Bot API](https://core.telegram.org/bots/api) so developers don’t miss out on any functionality when using this library
-- [<FontIcon icon="fa-brands fa-google"/>Google Gemini](https://ai.google.dev/gemini-api/docs): Gemini is a set of generative AI models from Google. The tutorial uses the [<FontIcon icon="fa-brands fa-google"/>`gemini-1.5-flash` AI model](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash) to generate the responses sent to users. It also uses that model to respond to voice notes and images
+- [<VPIcon icon="fas fa-globe"/>grammY](https://grammy.dev/): A simple library for building Telegram bots. It runs on different JavaScript runtimes (Node.js and Deno). grammY’s API maps to the official [<VPIcon icon="fa-brands fa-telegram"/>Telegram HTTP Bot API](https://core.telegram.org/bots/api) so developers don’t miss out on any functionality when using this library
+- [<VPIcon icon="fa-brands fa-google"/>Google Gemini](https://ai.google.dev/gemini-api/docs): Gemini is a set of generative AI models from Google. The tutorial uses the [<VPIcon icon="fa-brands fa-google"/>`gemini-1.5-flash` AI model](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash) to generate the responses sent to users. It also uses that model to respond to voice notes and images
 
 ::: info
 
-The final source code of the project can be found in this [GitHub repository (<FontIcon icon="iconfont icon-github"/>`enyichiaagu/telegram-bot`)](https://github.com/enyichiaagu/telegram-bot).
+The final source code of the project can be found in this [GitHub repository (<VPIcon icon="iconfont icon-github"/>`enyichiaagu/telegram-bot`)](https://github.com/enyichiaagu/telegram-bot).
 
 :::
 
-The first step to creating a new Telegram Bot is to message [<FontIcon icon="fa-brands fa-telegram"/>BotFather](https://t.me/BotFather) in the app. Open the Telegram App and give BotFather the `/start` command. BotFather will then provide a comprehensive menu of all the services it offers. Follow the menu to create a new bot.
+The first step to creating a new Telegram Bot is to message [<VPIcon icon="fa-brands fa-telegram"/>BotFather](https://t.me/BotFather) in the app. Open the Telegram App and give BotFather the `/start` command. BotFather will then provide a comprehensive menu of all the services it offers. Follow the menu to create a new bot.
 
 For this example, the bot’s name is `Gemini AI Bot` with the username `gemini01_bot`. You’ll have to create a unique username for your use case.
 
-Finally, BotFather will generate a bot token for you. This token is a unique [<FontIcon icon="fas fa-globe"/>authentication token](https://frontegg.com/blog/token-based-authentication) for your new bot. Anyone with access to it can make changes to the bot, so be sure to copy it and store it somewhere safe — you’ll need it soon.
+Finally, BotFather will generate a bot token for you. This token is a unique [<VPIcon icon="fas fa-globe"/>authentication token](https://frontegg.com/blog/token-based-authentication) for your new bot. Anyone with access to it can make changes to the bot, so be sure to copy it and store it somewhere safe — you’ll need it soon.
 
 ---
 
@@ -114,7 +114,7 @@ cd telegram-bot
 npm init -y
 ```
 
-Next, install grammY, TypeScript, and Node.js type definitions ([<FontIcon icon="fa-brands fa-npm"/>`@types/node`](https://npmjs.com/package/@types/node)) from npm:
+Next, install grammY, TypeScript, and Node.js type definitions ([<VPIcon icon="fa-brands fa-npm"/>`@types/node`](https://npmjs.com/package/@types/node)) from npm:
 
 ```sh
 npm install grammy 
@@ -129,7 +129,7 @@ Initialize TypeScript:
 npx tsc --init
 ```
 
-Inside the newly created <FontIcon icon="iconfont icon-json"/>`tsconfig.json` file, set the configuration below. This makes sure the project can use [**ESmodules**](/blog.logrocket.com/es-modules-in-node-today.md):
+Inside the newly created <VPIcon icon="iconfont icon-json"/>`tsconfig.json` file, set the configuration below. This makes sure the project can use [**ESmodules**](/blog.logrocket.com/es-modules-in-node-today.md):
 
 ```json title="tsconfig.json
 {
@@ -154,7 +154,7 @@ Set up the following file structure for the project:
 └── tsconfig.json
 ```
 
-Inside the <FontIcon icon="iconfont icon-git"/>`.gitignore` file, exclude the following from git commits:
+Inside the <VPIcon icon="iconfont icon-git"/>`.gitignore` file, exclude the following from git commits:
 
 ```sh
 node_modules/
@@ -162,7 +162,7 @@ node_modules/
 bot.js
 ```
 
-Finally, open the <FontIcon icon="fas fa-file-lines"/>`.env` file and bind the Telegram Bot token to a constant:
+Finally, open the <VPIcon icon="fas fa-file-lines"/>`.env` file and bind the Telegram Bot token to a constant:
 
 ```sh title=".env"
 TELEGRAM_BOT_TOKEN=xxxxx
@@ -174,22 +174,22 @@ With that done, the folder is now set up for the project.
 
 ## How to set up the Google Gemini API
 
-To get started with Google Gemini, you need to first create an API key. You can do so in the [<FontIcon icon="fa-brands fa-google"/>Google AI Studio](https://aistudio.google.com/app/apikey).
+To get started with Google Gemini, you need to first create an API key. You can do so in the [<VPIcon icon="fa-brands fa-google"/>Google AI Studio](https://aistudio.google.com/app/apikey).
 
-After obtaining the API key, open the <FontIcon icon="fas fa-file-lines"/>`.env` file and bind the API key to a constant:
+After obtaining the API key, open the <VPIcon icon="fas fa-file-lines"/>`.env` file and bind the API key to a constant:
 
 ```sh title=".env"
 ...
 GEMINI_API_KEY=xxxxx
 ```
 
-After that, install the [Google AI JavaScript SDK (<FontIcon icon="fa-brands fa-npm "/>`@google/generative-ai`)](https://npmjs.com/package/@google/generative-ai):
+After that, install the [Google AI JavaScript SDK (<VPIcon icon="fa-brands fa-npm "/>`@google/generative-ai`)](https://npmjs.com/package/@google/generative-ai):
 
 ```sh
 npm install @google/generative-ai 
 ```
 
-With the library installed, open the <FontIcon icon="iconfont icon-typescript"/>`bot.ts` file and use the constants in the <FontIcon icon="fas fa-file-lines"/>`.env` file to configure both Gemini and grammY:
+With the library installed, open the <VPIcon icon="iconfont icon-typescript"/>`bot.ts` file and use the constants in the <VPIcon icon="fas fa-file-lines"/>`.env` file to configure both Gemini and grammY:
 
 ```ts :collapsed-lines title="bot.ts"
 import { Bot } from 'grammy';
@@ -212,7 +212,7 @@ const model = genAI.getGenerativeModel({
 const chat = model.startChat();
 ```
 
-As you can see from the <FontIcon icon="iconfont icon-typescript"/>`bot.ts` file, it also imported some [**types**](/blog.logrocket.com/types-vs-interfaces-typescript.md) from `grammy/types`, which will be important later. Also, observe the `systemInstruction` given in the Gemini Configuration. This lets you define consistent behavior for the responses to user queries in the chatbot.
+As you can see from the <VPIcon icon="iconfont icon-typescript"/>`bot.ts` file, it also imported some [**types**](/blog.logrocket.com/types-vs-interfaces-typescript.md) from `grammy/types`, which will be important later. Also, observe the `systemInstruction` given in the Gemini Configuration. This lets you define consistent behavior for the responses to user queries in the chatbot.
 
 To get your first response using the Gemini API with the chatbot, set up a response to the bot with the `/start` command. It is the first command any user will give a bot:
 
@@ -230,7 +230,7 @@ bot.command('start', async (ctx) => {
 bot.start();
 ```
 
-To make type checking and running the bot easier, set up your <FontIcon icon="iconfont icon-json"/>`package.json` with the following scripts:
+To make type checking and running the bot easier, set up your <VPIcon icon="iconfont icon-json"/>`package.json` with the following scripts:
 
 ```json title="package.json"
 {
@@ -251,7 +251,7 @@ Finally, use the following CLI command to start the application:
 npm run watch & npm run dev
 ```
 
-The command type checks the <FontIcon icon="iconfont icon-typescript"/>`bot.ts` file on any changes, compiles the file, and then runs the resulting `bot.js` file. After running the command, test your telegram bot using the URL`https://t.me/<BOT USERNAME>`. Start the bot with the `/start` command and watch the bot respond. Make sure to keep the bot server running on your local host device:
+The command type checks the <VPIcon icon="iconfont icon-typescript"/>`bot.ts` file on any changes, compiles the file, and then runs the resulting `bot.js` file. After running the command, test your telegram bot using the URL`https://t.me/<BOT USERNAME>`. Start the bot with the `/start` command and watch the bot respond. Make sure to keep the bot server running on your local host device:
 
 ![The Gemini AI Bot Responding To The Start Command From A User](https://blog.logrocket.com/wp-content/uploads/2025/02/Gemini-AI-bot-responding-start-command.png)
 
@@ -261,7 +261,7 @@ The command type checks the <FontIcon icon="iconfont icon-typescript"/>`bot.ts` 
 
 As stated earlier, this bot will respond to texts using the Google Gemini API. We’ll learn how to implement that in this section.
 
-In the <FontIcon icon="iconfont icon-typescript"/>`bot.ts` file, add the following:
+In the <VPIcon icon="iconfont icon-typescript"/>`bot.ts` file, add the following:
 
 ```ts title="bot.ts"
 ...
@@ -370,7 +370,7 @@ Now, the Telegram chatbot can respond to images as well:
 
 ## Catching errors with grammY
 
-One great benefit grammY offers is the ease of [<FontIcon icon="fas fa-globe"/>handling errors](https://grammy.dev/guide/errors). With the library, a developer can use the `bot.catch()` method to catch and handle whatever errors a bot application encounters. Below is a simple error-handling script in grammY:
+One great benefit grammY offers is the ease of [<VPIcon icon="fas fa-globe"/>handling errors](https://grammy.dev/guide/errors). With the library, a developer can use the `bot.catch()` method to catch and handle whatever errors a bot application encounters. Below is a simple error-handling script in grammY:
 
 ```ts title="bot.ts"
 
@@ -392,7 +392,7 @@ The snippet above logs the error to the command line and then replies to a bot u
 
 For a Telegram bot to keep running at all times, it needs to be deployed to a host that is always up and active. The developer’s local host is most likely unreliable as it could go off at any time.
 
-The grammY documentation offers [<FontIcon icon="fas fa-globe"/>several guides](https://grammy.dev/hosting/comparison) for deploying a bot to different platforms. Fundamentally, a grammY application is a lightweight backend server (in Node.js or Deno), which means you can easily deploy it as you would deploy any other server. After deploying it, anybody can now interact with your Telegram bot at any point in time.
+The grammY documentation offers [<VPIcon icon="fas fa-globe"/>several guides](https://grammy.dev/hosting/comparison) for deploying a bot to different platforms. Fundamentally, a grammY application is a lightweight backend server (in Node.js or Deno), which means you can easily deploy it as you would deploy any other server. After deploying it, anybody can now interact with your Telegram bot at any point in time.
 
 ---
 
@@ -400,7 +400,7 @@ The grammY documentation offers [<FontIcon icon="fas fa-globe"/>several guides](
 
 This article introduced Telegram bots and walked through the process of building one with Node.js. It began by exploring various use cases for bots, then covered how to obtain a bot token, set up a grammY project in Node.js, and get a Gemini API key. The tutorial then demonstrated how to use grammY and Google Gemini to respond to text, audio, and images.
 
-As we’ve seen, Telegram bots can solve a wide range of problems, offering powerful automation and interaction capabilities. Use this guide as a starting point to experiment and build your own custom Telegram bot. You can find the complete source code for this project [here (<FontIcon icon="iconfont icon-github"/>`enyichiaagu/telegram-bot`)](https://github.com/enyichiaagu/telegram-bot).
+As we’ve seen, Telegram bots can solve a wide range of problems, offering powerful automation and interaction capabilities. Use this guide as a starting point to experiment and build your own custom Telegram bot. You can find the complete source code for this project [here (<VPIcon icon="iconfont icon-github"/>`enyichiaagu/telegram-bot`)](https://github.com/enyichiaagu/telegram-bot).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

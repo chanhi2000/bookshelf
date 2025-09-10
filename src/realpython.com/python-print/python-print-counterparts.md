@@ -144,12 +144,12 @@ There are external [**Python packages**](/realpython.com/python-modules-packages
 - Searchable history of typed commands
 - Syntax highlighting
 
-Demonstrating such tools is outside of the scope of this article, but you may want to try them out. I personally got to know about some of those through the [<FontIcon icon="fas fa-globe"/>Python Bytes Podcast](https://pythonbytes.fm/). Here they are:
+Demonstrating such tools is outside of the scope of this article, but you may want to try them out. I personally got to know about some of those through the [<VPIcon icon="fas fa-globe"/>Python Bytes Podcast](https://pythonbytes.fm/). Here they are:
 
-- [<FontIcon icon="iconfont icon-github"/>`Mckinsey666/bullet`](https://github.com/Mckinsey666/bullet)
-- [<FontIcon icon="iconfont icon-pypi"/>`cooked-input`](https://pypi.org/project/cooked-input/)
-- [<FontIcon icon="iconfont icon-pypi"/>`prompt_toolkit`](https://pypi.org/project/prompt_toolkit/)
-- [<FontIcon icon="iconfont icon-github"/>`kylebebak/questionnaire`](https://github.com/kylebebak/questionnaire)
+- [<VPIcon icon="iconfont icon-github"/>`Mckinsey666/bullet`](https://github.com/Mckinsey666/bullet)
+- [<VPIcon icon="iconfont icon-pypi"/>`cooked-input`](https://pypi.org/project/cooked-input/)
+- [<VPIcon icon="iconfont icon-pypi"/>`prompt_toolkit`](https://pypi.org/project/prompt_toolkit/)
+- [<VPIcon icon="iconfont icon-github"/>`kylebebak/questionnaire`](https://github.com/kylebebak/questionnaire)
 
 Nonetheless, it’s worth mentioning a command line tool called `rlwrap` that adds powerful line editing capabilities to your Python scripts for free. You don’t have to do anything for it to work!
 

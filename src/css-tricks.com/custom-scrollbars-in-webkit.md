@@ -50,9 +50,9 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2011/05/scrollbarpart
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2011/05/scrollbarparts.png"/>
 
-Way back in the day, you could customize scrollbars in IE (e.g. v5.5) with non-standard CSS properties like `scrollbar-base-color` which you would use on the element that scrolls (like the `<body>`) and do [<FontIcon icon="fas fa-file-image"/>totally rad things](https://css-tricks.com/wp-content/uploads/2011/05/rad-scrollbars.gif). IE dropped that.
+Way back in the day, you could customize scrollbars in IE (e.g. v5.5) with non-standard CSS properties like `scrollbar-base-color` which you would use on the element that scrolls (like the `<body>`) and do [<VPIcon icon="fas fa-file-image"/>totally rad things](https://css-tricks.com/wp-content/uploads/2011/05/rad-scrollbars.gif). IE dropped that.
 
-These days, customizing scrollbars is back, but it’s WebKit this time. It’s a bit better now, because the properties are vendor-prefixed (e.g. `::-webkit-scrollbar`) and use the “[<FontIcon icon="fas fa-globe"/>Shadow DOM](https://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/)“. This has been around for a couple of years. David Hyatt [<FontIcon icon="iconfont icon-webkit"/>blogged it](https://webkit.org/blog/363/styling-scrollbars/) in early 2009. ### The Goods
+These days, customizing scrollbars is back, but it’s WebKit this time. It’s a bit better now, because the properties are vendor-prefixed (e.g. `::-webkit-scrollbar`) and use the “[<VPIcon icon="fas fa-globe"/>Shadow DOM](https://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/)“. This has been around for a couple of years. David Hyatt [<VPIcon icon="iconfont icon-webkit"/>blogged it](https://webkit.org/blog/363/styling-scrollbars/) in early 2009. ### The Goods
 
 ---
 
@@ -94,7 +94,7 @@ These are the pseudo-class selectors. They allow for more specific selection of 
 
 I’m going to steal this whole section from [David’s blog post](http://webkit.org/blog/363/styling-scrollbars/) on the WebKit blog because it explains each part well:
 
-::: info Dave Hyatt (<FontIcon icon="fas fa-globe"/><code>webkit.org</code>)
+::: info Dave Hyatt (<VPIcon icon="fas fa-globe"/><code>webkit.org</code>)
 
 > **:horizontal** - The horizontal pseudo-class applies to any scrollbar pieces that have a horizontal orientation.
 > 
@@ -166,23 +166,23 @@ In which we’d get this on a simple div with vertically overflowing text:
 
 ### In The Wild
 
-Check out the very subtle and nice scrollbars on Tim Van Damme’s blog [<FontIcon icon="fas fa-globe"/>Maxvoltar](http://maxvoltar.com/) (**Update September 2012**: Tim’s site no longer uses this design):
+Check out the very subtle and nice scrollbars on Tim Van Damme’s blog [<VPIcon icon="fas fa-globe"/>Maxvoltar](http://maxvoltar.com/) (**Update September 2012**: Tim’s site no longer uses this design):
 
 ![Maxvoltar](https://i0.wp.com/css-tricks.com/wp-content/uploads/2011/05/Maxvoltar.gif?resize=570%2C476)
 
 The particularly nice bit here is that the scrollbar is on the body element, yet the scrollbar isn’t stuck to the top, bottom, or right edge of the browser window as scroll bars normally are. I made a test page with copy-and-pasteable code to achieve that a similar effect:
 
-[<FontIcon icon="iconfont icon-css-tricks"/>View Demo](https://css-tricks.com/examples/WebKitScrollbars/)
+[<VPIcon icon="iconfont icon-css-tricks"/>View Demo](https://css-tricks.com/examples/WebKitScrollbars/)
 
-On [<FontIcon icon="fas fa-globe"/>Forrst](http://forrst.com/), they use custom scollbars on code snippets which are also pretty nice. They are less visually intense and so don’t fight as much with the code highlighting.
+On [<VPIcon icon="fas fa-globe"/>Forrst](http://forrst.com/), they use custom scollbars on code snippets which are also pretty nice. They are less visually intense and so don’t fight as much with the code highlighting.
 
 ![webkitvsnot](https://i0.wp.com/css-tricks.com/wp-content/uploads/2011/05/webkitvsnot.png?resize=570%2C219)
 
 ### Related
 
-- Dion Almaer has a useful little [<FontIcon icon="fas fa-globe"/>“debug” page](http://almaer.com/scrollbar/debug.html) for scrollbars with all the parts in bold colors to see what’s what. (from [<FontIcon icon="fas fa-globe"/>this article](http://almaer.com/blog/creating-custom-scrollbars-with-css-how-css-isnt-great-for-every-task))
-- [<FontIcon icon="fas fa-globe"/>Similar article](http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/) on Beautiful Pixels.
-- Google Wave [<FontIcon icon="fas fa-globe"/>went kinda overboard](http://ignorethecode.net/blog/2009/11/15/google_waves_scrollbars/) with them back when that was still a thing.
+- Dion Almaer has a useful little [<VPIcon icon="fas fa-globe"/>“debug” page](http://almaer.com/scrollbar/debug.html) for scrollbars with all the parts in bold colors to see what’s what. (from [<VPIcon icon="fas fa-globe"/>this article](http://almaer.com/blog/creating-custom-scrollbars-with-css-how-css-isnt-great-for-every-task))
+- [<VPIcon icon="fas fa-globe"/>Similar article](http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/) on Beautiful Pixels.
+- Google Wave [<VPIcon icon="fas fa-globe"/>went kinda overboard](http://ignorethecode.net/blog/2009/11/15/google_waves_scrollbars/) with them back when that was still a thing.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

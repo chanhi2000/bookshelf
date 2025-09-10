@@ -106,7 +106,7 @@ stream.getvalue()
 # 'name: John\n'
 ```
 
-When called with a single argument, the function returns a string representing the serialized object. However, you can optionally pass a second argument to specify the target stream to write to. It can be a file or any [<FontIcon icon="fa-brands fa-python"/>file-like object](https://docs.python.org/3/glossary.html#term-file-like-object). When you pass this optional argument, the function returns [**`None`**](/realpython.com/null-in-python.md), and you need to extract data from the stream as necessary.
+When called with a single argument, the function returns a string representing the serialized object. However, you can optionally pass a second argument to specify the target stream to write to. It can be a file or any [<VPIcon icon="fa-brands fa-python"/>file-like object](https://docs.python.org/3/glossary.html#term-file-like-object). When you pass this optional argument, the function returns [**`None`**](/realpython.com/null-in-python.md), and you need to extract data from the stream as necessary.
 
 If you want to dump your YAML into a file, then be sure to open the file in **write mode**. Additionally, you must specify the character encoding through an optional keyword argument to the `yaml.dump()` function when the file is open in binary mode:
 
@@ -161,7 +161,7 @@ Note that `dump_all()` is the only function used under the hood because all the 
 
 The dumping functions in PyYAML accept a few positional arguments and a number of optional keyword arguments, which let you control the output’s formatting. The only required parameter is the Python object or a sequence of objects to serialize, passed as the first argument in all dumping functions. You’ll take a closer look at the available parameters in this section.
 
-The three wrappers that delegate to `yaml.dump_all()` have the following [<FontIcon icon="fa-brands fa-wikipedia-w"/>function signatures](https://en.wikipedia.org/wiki/Type_signature#Signature), which reveal their positional arguments:
+The three wrappers that delegate to `yaml.dump_all()` have the following [<VPIcon icon="fa-brands fa-wikipedia-w"/>function signatures](https://en.wikipedia.org/wiki/Type_signature#Signature), which reveal their positional arguments:
 
 ```py
 def dump(data, stream=None, Dumper=Dumper, **kwargs): ...
@@ -194,7 +194,7 @@ There are also several parameters of other data types that give you more freedom
 | `tags` | `dict` | Additional tag directives comprised of tag handles |
 | `version` | `tuple` | Major and minor YAML version, such as `(1, 2)` for version 1.2 |
 
-Most of them are self-explanatory. However, the `tags` argument must be a dictionary that maps custom **tag handles** to valid [<FontIcon icon="fa-brands fa-wikipedia-w"/>URI prefixes](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) recognized by a YAML parser:
+Most of them are self-explanatory. However, the `tags` argument must be a dictionary that maps custom **tag handles** to valid [<VPIcon icon="fa-brands fa-wikipedia-w"/>URI prefixes](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) recognized by a YAML parser:
 
 ```py
 {"!model!": "tag:yaml.org,2002:python/object:models."}
@@ -236,7 +236,7 @@ It’s a dynamic web page that uses [**JavaScript**](/realpython.com/python-vs-j
 }
 ```
 
-The sample object above is a dictionary comprising integer and string fields, which contain Unicode characters. To run the server, you must first install the FastAPI library and an [<FontIcon icon="fa-brands fa-wikipedia-w"/>ASGI](https://en.wikipedia.org/wiki/Asynchronous_Server_Gateway_Interface) web server such as [<FontIcon icon="iconfont icon-pypi"/>`uvicorn`](https://pypi.org/project/uvicorn/) into your virtual environment, where you had installed PyYAML before:
+The sample object above is a dictionary comprising integer and string fields, which contain Unicode characters. To run the server, you must first install the FastAPI library and an [<VPIcon icon="fa-brands fa-wikipedia-w"/>ASGI](https://en.wikipedia.org/wiki/Asynchronous_Server_Gateway_Interface) web server such as [<VPIcon icon="iconfont icon-pypi"/>`uvicorn`](https://pypi.org/project/uvicorn/) into your virtual environment, where you had installed PyYAML before:
 
 ```sh
 python -m pip install fastapi uvicorn

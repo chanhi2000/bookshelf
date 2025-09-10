@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/build-micro-frontend-application-react/b
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Muhammed Ali](https://blog.logrocket.com/author/muhammedali/) on 4 November 2024 to cover common issues when building micro-frontends and their solutions, as well as examples of micro-frontend communication strategies such as event-based communication and [**using React’s Context API**](/blog.logrocket.com/react-context-tutorial.md).
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Muhammed Ali](https://blog.logrocket.com/author/muhammedali/) on 4 November 2024 to cover common issues when building micro-frontends and their solutions, as well as examples of micro-frontend communication strategies such as event-based communication and [**using React’s Context API**](/blog.logrocket.com/react-context-tutorial.md).
 
 :::
 
@@ -80,9 +80,9 @@ The term micro-frontend extends the concept of microservices to the frontend; a 
 
 Micro-frontends don’t follow any particular structure and have no fixed boundaries. Your project will likely evolve as time passes, and you may need to revise your micro-frontend as you go along:
 
-![Micro Frontend Structure Diagram<br/>Image source: [<FontIcon icon="fas fa-globe"/>https://microfrontends.com/](https://microfrontends.com/)](https://blog.logrocket.com/wp-content/uploads/2023/02/1-micro-frontend-structure-diagram.png)
+![Micro Frontend Structure Diagram<br/>Image source: [<VPIcon icon="fas fa-globe"/>https://microfrontends.com/](https://microfrontends.com/)](https://blog.logrocket.com/wp-content/uploads/2023/02/1-micro-frontend-structure-diagram.png)
 
-React is a popular frontend tech stack, so it’s a great choice for implementing a micro-frontend. The micro-frontend architecture is still fairly new and being adopted by different frameworks, so best practices are still evolving. Therefore, you may find it challenging to implement a micro-frontend from scratch. Here is where the [<FontIcon icon="iconfont icon-github"/>`jherr/create-mf-app`](https://github.com/jherr/create-mf-app) package comes in.
+React is a popular frontend tech stack, so it’s a great choice for implementing a micro-frontend. The micro-frontend architecture is still fairly new and being adopted by different frameworks, so best practices are still evolving. Therefore, you may find it challenging to implement a micro-frontend from scratch. Here is where the [<VPIcon icon="iconfont icon-github"/>`jherr/create-mf-app`](https://github.com/jherr/create-mf-app) package comes in.
 
 According to its docs, create-mf-app creates either a module federation application, API server, or library based on one of its templates. It is framework agnostic, meaning it supports multiple frameworks and libraries including Preact, React, and Svelte.
 
@@ -118,9 +118,9 @@ Now, let’s understand the most valuable benefits of using a micro-frontend.
 
 ### Deployment and security
 
-A significant advantage of the micro-frontend architecture is that you can separate a single body into individual pieces that can be deployed independently. [<FontIcon icon="fas fa-globe"/>Vercel](https://vercel.com/blog/monorepos) can support an individual repo with different frontends regardless of the language or framework, deploying them together. Otherwise, you can use deployment services like [<FontIcon icon="fas fa-globe"/>Netlify](https://netlify.com/). Once the micro-frontend is deployed, you can use it as an individual frontend only.
+A significant advantage of the micro-frontend architecture is that you can separate a single body into individual pieces that can be deployed independently. [<VPIcon icon="fas fa-globe"/>Vercel](https://vercel.com/blog/monorepos) can support an individual repo with different frontends regardless of the language or framework, deploying them together. Otherwise, you can use deployment services like [<VPIcon icon="fas fa-globe"/>Netlify](https://netlify.com/). Once the micro-frontend is deployed, you can use it as an individual frontend only.
 
-To secure your micro-frontend, you can use an SSL certificate like Wildcard, a single or multi-domain, or a [<FontIcon icon="fas fa-globe"/>SAN SSL certificate](https://cheapsslshop.com/uc-san-ssl-certificates). One SAN or multi-domain SSL certificate can secure multiple sites and subdomains.
+To secure your micro-frontend, you can use an SSL certificate like Wildcard, a single or multi-domain, or a [<VPIcon icon="fas fa-globe"/>SAN SSL certificate](https://cheapsslshop.com/uc-san-ssl-certificates). One SAN or multi-domain SSL certificate can secure multiple sites and subdomains.
 
 ### Technology agnosticism and scalability
 
@@ -167,13 +167,13 @@ In this tutorial, we’ll build a micro-frontend with React. To follow along, yo
 - Basic knowledge of JavaScript, React, and webpack
 - The latest version of [**Node.js installed in your system**](/blog.logrocket.com/exploring-competitive-features-node-js-v18-v19.md) (v19 at the time of writing)
 
-To follow along with the code, you can [check out the GitHub repo (<FontIcon icon="iconfont icon-github"/>`lawrenceagles/micro-frontend-react`)](https://github.com/lawrenceagles/micro-frontend-react) for this project.
+To follow along with the code, you can [check out the GitHub repo (<VPIcon icon="iconfont icon-github"/>`lawrenceagles/micro-frontend-react`)](https://github.com/lawrenceagles/micro-frontend-react) for this project.
 
 ---
 
 ## Bootstrapping micro-frontends
 
-Create an application folder called <FontIcon icon="fas fa-folder-open"/>`micro-frontend-react`. To bootstrap a React micro-frontend app, from this folder, run `npx create-mf-app` and pass the following data to the interactive terminal:
+Create an application folder called <VPIcon icon="fas fa-folder-open"/>`micro-frontend-react`. To bootstrap a React micro-frontend app, from this folder, run `npx create-mf-app` and pass the following data to the interactive terminal:
 
 - Name: `home`
 - Project type: `Application`
@@ -205,7 +205,7 @@ Finally, to test the app, install the required dependencies by running `yarn ins
 
 In our micro-frontend implementation, the `home` application will contain and expose two components, `Header` and `Footer`. The `about` application imports and consumes these components.
 
-To implement this, in the <FontIcon icon="fas fa-folder-open"/>`src` directory in the `home` application, create two components, <FontIcon icon="fa-brands fa-react"/>`Header.jsx` and <FontIcon icon="fa-brands fa-react"/>`Footer.jsx`. Add the following respective code snippets to <FontIcon icon="fa-brands fa-react"/>`Header.jsx` and <FontIcon icon="fa-brands fa-react"/>`Footer.jsx`:
+To implement this, in the <VPIcon icon="fas fa-folder-open"/>`src` directory in the `home` application, create two components, <VPIcon icon="fa-brands fa-react"/>`Header.jsx` and <VPIcon icon="fa-brands fa-react"/>`Footer.jsx`. Add the following respective code snippets to <VPIcon icon="fa-brands fa-react"/>`Header.jsx` and <VPIcon icon="fa-brands fa-react"/>`Footer.jsx`:
 
 ```jsx title="Header.jsx"
 import React from "react"
@@ -230,7 +230,7 @@ export default function Footer() {
 }
 ```
 
-Next, update the <FontIcon icon="fa-brands fa-react"/>`App.jsx` component to use the following navbars:
+Next, update the <VPIcon icon="fa-brands fa-react"/>`App.jsx` component to use the following navbars:
 
 ```jsx title="App.jsx"
 import React from "react";
@@ -256,7 +256,7 @@ Test the app by restarting the server, and you’ll get the following:
 
 ![Update App JSX Component Use Navbar](https://blog.logrocket.com/wp-content/uploads/2023/02/5-update-app-jsx-component-use-navbar.png)
 
-We need to build the `about` page in the `about` app. To do so, update the <FontIcon icon="fa-brands fa-react"/>`App.jsx` component in the `about` app, as shown below:
+We need to build the `about` page in the `about` app. To do so, update the <VPIcon icon="fa-brands fa-react"/>`App.jsx` component in the `about` app, as shown below:
 
 ```jsx title="App.jsx"
 import React from "react";
@@ -294,7 +294,7 @@ We noted above that the `about` page in the `about` app needs to consume the `He
 
 We’ll begin by turning the `Header` and `Footer` components of the `home` application into micro-frontends so that components in other applications can consume them.
 
-Open the <FontIcon icon="fa-brands fa-js"/>`webpack.config.js` file in the `home` app, which is already created and configured by the `create-mf-app` package. First, update the `exposes` property in the `ModuleFederationPlugin` configuration, as seen below:
+Open the <VPIcon icon="fa-brands fa-js"/>`webpack.config.js` file in the `home` app, which is already created and configured by the `create-mf-app` package. First, update the `exposes` property in the `ModuleFederationPlugin` configuration, as seen below:
 
 ```js title="webpack.config.js"
 exposes: {
@@ -316,9 +316,9 @@ Although nothing changes in the UI, a remote entry file has been created for us 
 
 ![React Micro Service Entry File](https://blog.logrocket.com/wp-content/uploads/2023/02/7-react-micro-service-entry-file.png)
 
-This remote entry file, <FontIcon icon="fa-brands fa-js"/>`remoteEntry.js`, is a manifest file of all the modules that are exposed by the `home` application.
+This remote entry file, <VPIcon icon="fa-brands fa-js"/>`remoteEntry.js`, is a manifest file of all the modules that are exposed by the `home` application.
 
-To complete our setup, copy the link of the manifest file `localhost:3000/remoteEntry.js`, then update the `remotes` property of the `ModuleFederationPlugin` configuration in the <FontIcon icon="fa-brands fa-js"/>`webpack.config.js` file in the `about` app, as seen below:
+To complete our setup, copy the link of the manifest file `localhost:3000/remoteEntry.js`, then update the `remotes` property of the `ModuleFederationPlugin` configuration in the <VPIcon icon="fa-brands fa-js"/>`webpack.config.js` file in the `about` app, as seen below:
 
 ```js title="webpack.config.js"
 remotes: {
@@ -383,19 +383,19 @@ While building micro-frontends, there are some challenges you might encounter. I
 
 ### Styling consistency
 
-Ensuring a consistent styling across different micro-frontends can be tasking especially when they are being developed by different teams. Adopting CSS-in-JS libraries like [<FontIcon icon="fas fa-globe"/>Styled Components](https://styled-components.com/) or [<FontIcon icon="iconfont icon-github"/>`emotion-js/emotion`](https://github.com/emotion-js/emotion/tree/main#readme) in React micro-frontends can encapsulate styles at the component level, avoiding global conflicts.
+Ensuring a consistent styling across different micro-frontends can be tasking especially when they are being developed by different teams. Adopting CSS-in-JS libraries like [<VPIcon icon="fas fa-globe"/>Styled Components](https://styled-components.com/) or [<VPIcon icon="iconfont icon-github"/>`emotion-js/emotion`](https://github.com/emotion-js/emotion/tree/main#readme) in React micro-frontends can encapsulate styles at the component level, avoiding global conflicts.
 
 ### State management across micro-frontends
 
 Managing state across micro-frontends, especially when actions in one micro-frontend need to update the state in another, can complicate state management.
 
-You can handle shared state management libraries like Redux or [<FontIcon icon="fas fa-globe"/>Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) with careful namespace management ensures smooth state synchronization. Implementing a global event bus or leveraging the Context API can also enable state sharing and actions across micro-frontends.
+You can handle shared state management libraries like Redux or [<VPIcon icon="fas fa-globe"/>Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) with careful namespace management ensures smooth state synchronization. Implementing a global event bus or leveraging the Context API can also enable state sharing and actions across micro-frontends.
 
 ### Versioning and dependency management
 
 Micro-frontends may depend on different versions of libraries or React itself, leading to potential runtime issues or bloated bundle sizes.
 
-webpack’s [<FontIcon icon="fas fa-globe"/>Module Federation](https://webpack.js.org/concepts/module-federation/) allows you to share libraries across micro-frontends, ensuring that only a single version of React and other shared libraries are loaded.
+webpack’s [<VPIcon icon="fas fa-globe"/>Module Federation](https://webpack.js.org/concepts/module-federation/) allows you to share libraries across micro-frontends, ensuring that only a single version of React and other shared libraries are loaded.
 
 ---
 

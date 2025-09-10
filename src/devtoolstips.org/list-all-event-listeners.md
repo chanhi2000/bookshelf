@@ -86,11 +86,11 @@ $$("*").map(el => {
 
 So, to list all elements that have listeners on a page:
 
-1. Open the **Console** tool, by pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd> on <FontIcon icon="fa-brands fa-windows"/>Windows or <FontIcon icon="fa-brands fa-linux"/>Linux, or <kbd>Cmd</kbd>+<kbd>Option</kbd>+<kbd>J</kbd> on <FontIcon icon="iconfont icon-macos"/>macOS.
+1. Open the **Console** tool, by pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd> on <VPIcon icon="fa-brands fa-windows"/>Windows or <VPIcon icon="fa-brands fa-linux"/>Linux, or <kbd>Cmd</kbd>+<kbd>Option</kbd>+<kbd>J</kbd> on <VPIcon icon="iconfont icon-macos"/>macOS.
 2. Paste the code snippet above in the **Console**, and press <kbd>Enter</kbd>.
 3. The list of all elements with listeners is displayed in the **Console**.
 
-![<FontIcon icon="fa-brands fa-chrome"/>Chrome, with the `devtoolstips.org` website loaded, and the DevTools Console on the side, showing the result of the above script](https://devtoolstips.org/assets/img/list-all-event-listeners.png)
+![<VPIcon icon="fa-brands fa-chrome"/>Chrome, with the `devtoolstips.org` website loaded, and the DevTools Console on the side, showing the result of the above script](https://devtoolstips.org/assets/img/list-all-event-listeners.png)
 
 ::: details See also
 

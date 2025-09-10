@@ -83,7 +83,7 @@ This CocoaPods tutorial requires basic familiarity with iOS and Swift developmen
 
 ## Getting Started
 
-Download the starter project by clicking the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
+Download the starter project by clicking the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of the tutorial.
 
 Throughout this tutorial, you’ll work with an app called __Ice Cream Shop, Inc__. You’ll use CocoaPods to add dependencies to the app the easy way, instead of writing your own.
 
@@ -109,7 +109,7 @@ Finally, enter this command in Terminal to complete the setup:
 pod setup --verbose
 ```
 
-This process takes a few minutes because it clones the [<FontIcon icon="iconfont icon-github"/>CocoaPods Master Specs repository](https://github.com/CocoaPods/Specs) into <FontIcon icon="fas fa-folder-open"/>`~/.cocoapods/` on your computer.
+This process takes a few minutes because it clones the [<VPIcon icon="iconfont icon-github"/>CocoaPods Master Specs repository](https://github.com/CocoaPods/Specs) into <VPIcon icon="fas fa-folder-open"/>`~/.cocoapods/` on your computer.
 
 The `verbose` option logs progress as the process runs, allowing you to watch the process instead of seeing a seemingly “frozen” screen.
 
@@ -121,15 +121,15 @@ Awesome, you’re now set up to use CocoaPods!
 
 Your top client is Ice Cream Shop, Inc. Their ice cream is so popular they can’t keep up with customer orders at the counter. They’ve recruited you to create a sleek iOS app that allows customers to order ice cream right from their iPhones.
 
-You’ve started developing the app and it’s coming along well. Take a look at your progress by opening <FontIcon icon="fas fa-file-lines"/>`IceCreamShop.xcodeproj`, then building and running. You’ll see a mouth-watering vanilla ice cream cone:
+You’ve started developing the app and it’s coming along well. Take a look at your progress by opening <VPIcon icon="fas fa-file-lines"/>`IceCreamShop.xcodeproj`, then building and running. You’ll see a mouth-watering vanilla ice cream cone:
 
 ![Ice Cream Shop, Inc.'s start page](https://koenig-media.raywenderlich.com/uploads/2015/03/icecreamshop_starter.png =240x)
 
 The user should be able to choose an ice cream flavor from this screen, but that’s not possible yet. Your first step is to finish implementing this functionality.
 
-Open <FontIcon icon="fas fa-file-lines"/>`Main.storyboard` from the `Views/Storyboards & Nibs` group to see the app’s layout. Here’s a quick overview of the heart of the app, the <FontIcon icon="iconfont icon-select"/>`[Choose Your Flavor]` scene:
+Open <VPIcon icon="fas fa-file-lines"/>`Main.storyboard` from the `Views/Storyboards & Nibs` group to see the app’s layout. Here’s a quick overview of the heart of the app, the <VPIcon icon="iconfont icon-select"/>`[Choose Your Flavor]` scene:
 
-![Components of the <FontIcon icon="iconfont icon-select"/>`[Choose Your Flavor]` scene](https://koenig-media.raywenderlich.com/uploads/2017/04/ChooseYourFlavor-427x500.png)
+![Components of the <VPIcon icon="iconfont icon-select"/>`[Choose Your Flavor]` scene](https://koenig-media.raywenderlich.com/uploads/2017/04/ChooseYourFlavor-427x500.png)
 
 - `PickFlavorViewController` is the view controller for this scene. It handles user interaction and provides the data for the collection view that displays the different ice cream flavors.
 - `IceCreamView` is a custom view that displays an ice cream cone based on the backing mode, `Flavor`.
@@ -139,7 +139,7 @@ While every Ice Cream Shop, Inc. location has signature flavors in common, each 
 
 However, this still doesn’t explain why users can’t select their ice cream flavors.
 
-Open <FontIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift`, found under the `Controllers` group, and you’ll see a stubbed method:
+Open <VPIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift`, found under the `Controllers` group, and you’ll see a stubbed method:
 
 ```swift
 private func loadFlavors() {
@@ -149,7 +149,7 @@ private func loadFlavors() {
 
 Aha, there are no flavors! You need to implement the function!
 
-While you could use `URLSession` and write your own networking classes, there’s an easier way: Use [<FontIcon icon="iconfont icon-github"/>`Alamofire/Alamofire`](https://github.com/Alamofire/Alamofire)!
+While you could use `URLSession` and write your own networking classes, there’s an easier way: Use [<VPIcon icon="iconfont icon-github"/>`Alamofire/Alamofire`](https://github.com/Alamofire/Alamofire)!
 
 You might be tempted to download this library and drag the source files right into your project. However, that’d be doing it the hard way. CocoaPods provides a much more elegant and nimble solution.
 
@@ -159,7 +159,7 @@ You might be tempted to download this library and drag the source files right in
 
 Your first step is to __close Xcode__. Yeah, you read that right.
 
-It’s time to create the <FontIcon icon="fas fa-file-lines"/>`Podfile`, where you’ll define your project’s dependencies.
+It’s time to create the <VPIcon icon="fas fa-file-lines"/>`Podfile`, where you’ll define your project’s dependencies.
 
 Open __Terminal__ and navigate to the directory that contains your __IceCreamShop__ project by using the `cd` command:
 
@@ -231,7 +231,7 @@ iOS 8 introduced __dynamic frameworks__, which allow you to bundle code, images 
 
 ### Back to Installing Your First Dependency
 
-It’s finally time to add your first dependency using CocoaPods. Add the following to your<FontIcon icon="fas fa-file-lines"/>`Podfile`, right after `use_frameworks!`:
+It’s finally time to add your first dependency using CocoaPods. Add the following to your<VPIcon icon="fas fa-file-lines"/>`Podfile`, right after `use_frameworks!`:
 
 ```rb
 pod 'Alamofire', '4.9.1'
@@ -239,11 +239,11 @@ pod 'Alamofire', '4.9.1'
 
 This tells CocoaPods you want to include Alamofire version 4.9.1 as a dependency for your project.
 
-Save and close the <FontIcon icon="fas fa-file-lines"/>`Podfile`.
+Save and close the <VPIcon icon="fas fa-file-lines"/>`Podfile`.
 
 You now need to tell CocoaPods to install the dependencies for your project.
 
-Enter the following command in __Terminal__, after ensuring you’re still in the directory containing the `IceCreamShop` project and <FontIcon icon="fas fa-file-lines"/>`Podfile`:
+Enter the following command in __Terminal__, after ensuring you’re still in the directory containing the `IceCreamShop` project and <VPIcon icon="fas fa-file-lines"/>`Podfile`:
 
 ```sh
 pod install
@@ -260,7 +260,7 @@ pod install
 ```
 
 
-Open the __project folder__ using __Finder__ and you’ll see CocoaPods created a new <FontIcon icon="fas fa-file-lines"/>`IceCreamShop.xcworkspace` file and a Pods folder to store all the project’s dependencies.
+Open the __project folder__ using __Finder__ and you’ll see CocoaPods created a new <VPIcon icon="fas fa-file-lines"/>`IceCreamShop.xcworkspace` file and a Pods folder to store all the project’s dependencies.
 
 ::: tip Note
 
@@ -276,9 +276,9 @@ Excellent! You’ve just added your first dependency using CocoaPods!
 
 Now, you’ll use your brand new dependency, Alamofire.
 
-If the Xcode project is open, close it now and open <FontIcon icon="fas fa-file-lines"/>`IceCreamShop.xcworkspace`.
+If the Xcode project is open, close it now and open <VPIcon icon="fas fa-file-lines"/>`IceCreamShop.xcworkspace`.
 
-Open <FontIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift` and add the following just below the existing import:
+Open <VPIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift` and add the following just below the existing import:
 
 ```swift
 import Alamofire
@@ -339,13 +339,13 @@ The app looks good, but you can still improve it.
 
 Did you notice the app takes a second to download the flavors file? If you’re on a fast Internet connection, you might not notice the delay, but your customers won’t always be so lucky.
 
-Your next step is to show a loading indicator in your app, to help customers understand it’s loading data and not just twiddling its libraries. [<FontIcon icon="iconfont icon-github"/>`jdg/MBProgressHUD`](https://github.com/jdg/MBProgressHUD) is a really nice indicator that will work well here. And it supports CocoaPods; what a coincidence!
+Your next step is to show a loading indicator in your app, to help customers understand it’s loading data and not just twiddling its libraries. [<VPIcon icon="iconfont icon-github"/>`jdg/MBProgressHUD`](https://github.com/jdg/MBProgressHUD) is a really nice indicator that will work well here. And it supports CocoaPods; what a coincidence!
 
 To use this pod, you need to add it to your Podfile. Rather than opening the Podfile from the command line, you can now find it in the Pods target in the workspace:
 
 ![Pods in Workspace](https://koenig-media.raywenderlich.com/uploads/2015/03/pods_in_workspace-365x320.png)
 
-Open <FontIcon icon="fas fa-file-lines"/>`Podfile` and add the following, right after the __Alamofire__ line:
+Open <VPIcon icon="fas fa-file-lines"/>`Podfile` and add the following, right after the __Alamofire__ line:
 
 ```rb
 pod 'MBProgressHUD', '~> 1.0'
@@ -437,7 +437,7 @@ Now that you’ve learned how operators work with your CocoaPods, it’s time to
 
 If you recall, you were building a progress indicator to show your users when flavors are loading in the app.
 
-To finish this feature, go back to <FontIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift` and add the following right after the other imports:
+To finish this feature, go back to <VPIcon icon="fa-brands fa-swift"/>`PickFlavorViewController.swift` and add the following right after the other imports:
 
 ```swift
 import MBProgressHUD
@@ -485,7 +485,7 @@ Great work! Customers can now select their favorite ice cream flavor and they se
 
 ## Where to Go From Here?
 
-You can download the completed project using the [<FontIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this page.
+You can download the completed project using the [<VPIcon icon="fas fa-download"/>`[Download Materials]`][download-material] button at the top or bottom of this page.
 
 Congratulations! You now know the basics of using CocoaPods, including creating and modifying dependencies and understanding semantic versioning. You're now ready to start using them in your own projects!
 

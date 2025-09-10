@@ -58,14 +58,14 @@ JavaScript build tools have changed and shaped the way we build things that run 
 
 These tools help developers build efficiently and make development processes much easier(although, configuring them can get complicated).
 
-In this article, we will take a look at a build tool called [<FontIcon icon="iconfont icon-github"/>`vitejs/vite`](https://github.com/vitejs/vite), what it is, why we need it, how it might improve our development workflow, and how to get started with it.
+In this article, we will take a look at a build tool called [<VPIcon icon="iconfont icon-github"/>`vitejs/vite`](https://github.com/vitejs/vite), what it is, why we need it, how it might improve our development workflow, and how to get started with it.
 
 ::: note Prerequisites
 
 This tutorial assumes the reader has the following:
 
-- [<FontIcon icon="fa-brands fa-node"/>Node.js 10x](https://nodejs.org/en/download/) or higher
-- [<FontIcon icon="fa-brands fa-yarn"/>Yarn](https://yarnpkg.com/lang/en/) / [<FontIcon icon="fa-brands fa-npm"/>npm 5.2 or higher](https://npmjs.com/get-npm) installed on their PC
+- [<VPIcon icon="fa-brands fa-node"/>Node.js 10x](https://nodejs.org/en/download/) or higher
+- [<VPIcon icon="fa-brands fa-yarn"/>Yarn](https://yarnpkg.com/lang/en/) / [<VPIcon icon="fa-brands fa-npm"/>npm 5.2 or higher](https://npmjs.com/get-npm) installed on their PC
 - Basic knowledge of JavaScript and how frameworks work
 
 :::
@@ -78,11 +78,11 @@ Vite was originally intended as a development server for just Vue single file co
 
 Vite doesn’t bundle our projects in development environments, rather it uses native ES module imports.
 
-According to its official [documentation (<FontIcon icon="iconfont icon-github"/>`vitejs/vite`)](https://github.com/vitejs/vite):
+According to its official [documentation (<VPIcon icon="iconfont icon-github"/>`vitejs/vite`)](https://github.com/vitejs/vite):
 
 ::: info Documentation (<code>vitejs/vite</code>)
 
-> Vite is an opinionated web dev build tool that serves your code via native ES Module imports during development and bundles it with [<FontIcon icon="fas fa-globe"/>Rollup](https://rollupjs.org/) for production.
+> Vite is an opinionated web dev build tool that serves your code via native ES Module imports during development and bundles it with [<VPIcon icon="fas fa-globe"/>Rollup](https://rollupjs.org/) for production.
 
 :::
 
@@ -94,15 +94,15 @@ It is important to note that Vite is still very much experimental and is undergo
 
 ## How does it work?
 
-One of the reasons module bundlers are popular today is the poor support for [<FontIcon icon="fa-brands fa-firefox"/>ES6 modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) by the browser when ES modules were first introduced in [<FontIcon icon="fa-brands fa-google"/>ES2016](https://developers.google.com/web/shows/ttt/series-2/es2015). Many modern browsers now support native ES modules and you can use the [<FontIcon icon="fa-brands fa-firefox"/>`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [<FontIcon icon="fa-brands fa-firefox"/>`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements natively, we can include our imports in our HTML using the `type="module"` attribute in our script tag to specify we’re importing a module:
+One of the reasons module bundlers are popular today is the poor support for [<VPIcon icon="fa-brands fa-firefox"/>ES6 modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) by the browser when ES modules were first introduced in [<VPIcon icon="fa-brands fa-google"/>ES2016](https://developers.google.com/web/shows/ttt/series-2/es2015). Many modern browsers now support native ES modules and you can use the [<VPIcon icon="fa-brands fa-firefox"/>`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [<VPIcon icon="fa-brands fa-firefox"/>`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements natively, we can include our imports in our HTML using the `type="module"` attribute in our script tag to specify we’re importing a module:
 
 ```html
 <script type="module" src="filename.js"></script>
 ```
 
-According to the [documentation (<FontIcon icon="iconfont icon-github "/>`vitejs/vite`)](https://github.com/vitejs/vite), the ES import syntax in our source code is served directly to the browser and any browser that supports the native `<script module>` automatically parses them, then makes HTTP requests for each import. The dev server intercepts the HTTP requests from the browser and performs code transformations where necessary.
+According to the [documentation (<VPIcon icon="iconfont icon-github "/>`vitejs/vite`)](https://github.com/vitejs/vite), the ES import syntax in our source code is served directly to the browser and any browser that supports the native `<script module>` automatically parses them, then makes HTTP requests for each import. The dev server intercepts the HTTP requests from the browser and performs code transformations where necessary.
 
-This makes the Vite server insanely fast, [<FontIcon icon="fas fa-globe"/>Vite Cold start clocks at around 140ms compared to Vue-CLI 1900ms](https://getrevue.co/profile/vuenewsletter/issues/180-say-hi-to-vite-a-brand-new-extremely-fast-development-setup-for-vue-so-fast-it-feels-instant-242032).
+This makes the Vite server insanely fast, [<VPIcon icon="fas fa-globe"/>Vite Cold start clocks at around 140ms compared to Vue-CLI 1900ms](https://getrevue.co/profile/vuenewsletter/issues/180-say-hi-to-vite-a-brand-new-extremely-fast-development-setup-for-vue-so-fast-it-feels-instant-242032).
 
 ---
 
@@ -116,24 +116,24 @@ Browsers do not yet support bare module imports where you import from a package 
 
 ### Hot module replacement(HMR)
 
-Hot module replacement is a feature available in JavaScript bundlers where your JavaScript file changes are updated in the browser without needing a browser refresh, with Vite all your file changes are reflected in the browser almost immediately and you do not need to reload the browser. According to the [documentation (<FontIcon icon="iconfont icon-github"/>`vitejs/vite`)](https://github.com/vitejs/vite), “the hot module replacement (HMR) performance is decoupled from the total number of modules. This makes HMR in your project consistently fast no matter how big your app is”.
+Hot module replacement is a feature available in JavaScript bundlers where your JavaScript file changes are updated in the browser without needing a browser refresh, with Vite all your file changes are reflected in the browser almost immediately and you do not need to reload the browser. According to the [documentation (<VPIcon icon="iconfont icon-github"/>`vitejs/vite`)](https://github.com/vitejs/vite), “the hot module replacement (HMR) performance is decoupled from the total number of modules. This makes HMR in your project consistently fast no matter how big your app is”.
 
 HMR speed is a huge pain point for developers who use Webpack.
 
 ### On-demand compilation
 
-Vite compiles source files as they are requested by the browser so the only code that is imported and required on the current screen is compiled, and unchanged files return a [<FontIcon icon="fa-brands fa-firefox"/>304 (Not Modified)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304#:~:text=The%20HTTP%20304%20Not%20Modified,redirection%20to%20a%20cached%20resource.&text=The%20equivalent%20200%20OK%20response,ETag%20%2C%20Expires%20%2C%20and%20Vary%20.) error code. This is different from what current bundlers do because they compile all the files in your project and bundle them before you can begin making changes to them. This makes Vite suitable for larger projects.
+Vite compiles source files as they are requested by the browser so the only code that is imported and required on the current screen is compiled, and unchanged files return a [<VPIcon icon="fa-brands fa-firefox"/>304 (Not Modified)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304#:~:text=The%20HTTP%20304%20Not%20Modified,redirection%20to%20a%20cached%20resource.&text=The%20equivalent%20200%20OK%20response,ETag%20%2C%20Expires%20%2C%20and%20Vary%20.) error code. This is different from what current bundlers do because they compile all the files in your project and bundle them before you can begin making changes to them. This makes Vite suitable for larger projects.
 
 ### Configuration option
 
 If you like to have more controls over your project, You can extend the default configuration of your project with the `vite.config.js` or `vite.config.ts` file in the base root directory of your project or the current working directory. You can also explicitly specify a config file via `vite --config my-config.js`.
 
-You can add support for custom file transforms by adding a [Koa middleware (<FontIcon icon="iconfont icon-github"/>`koajs/koa`)](https://github.com/koajs/koa) in your configuration file in development mode and a [Rollup plugin (<FontIcon icon="iconfont icon-github"/>`rollup/plugins`)](https://github.com/rollup/plugins) for build.
+You can add support for custom file transforms by adding a [Koa middleware (<VPIcon icon="iconfont icon-github"/>`koajs/koa`)](https://github.com/koajs/koa) in your configuration file in development mode and a [Rollup plugin (<VPIcon icon="iconfont icon-github"/>`rollup/plugins`)](https://github.com/rollup/plugins) for build.
 
 ### Other features of Vite include:
 
-- Support for `.tsx` and `.jsx` files using [<FontIcon icon="iconfont icon-github"/>`evanw/esbuild`](https://github.com/evanw/esbuild) for transpilation
-- Out of the box support for TypeScript also using [<FontIcon icon="iconfont icon-github"/>`evanw/esbuild`](https://github.com/evanw/esbuild) for transpilation
+- Support for `.tsx` and `.jsx` files using [<VPIcon icon="iconfont icon-github"/>`evanw/esbuild`](https://github.com/evanw/esbuild) for transpilation
+- Out of the box support for TypeScript also using [<VPIcon icon="iconfont icon-github"/>`evanw/esbuild`](https://github.com/evanw/esbuild) for transpilation
 - Asset URL handling
 - Support for CSS Preprocessors, PostCSS, and CSS modules
 - Support for mode options and environment variables
@@ -142,19 +142,19 @@ You can add support for custom file transforms by adding a [Koa middleware (<Fon
 
 ## Basic usage
 
-To get started using Vite, we will be making use of [<FontIcon icon="iconfont icon-github"/>`vitejs/create-vite-app`](https://github.com/vitejs/create-vite-app), a boilerplate to bootstrap new Vite projects, we will not have to worry about configurations to get started with using our app as it comes with Vue as the default starter and we can configure what template we want to use with the `--template` flag as it also supports React and Preact.
+To get started using Vite, we will be making use of [<VPIcon icon="iconfont icon-github"/>`vitejs/create-vite-app`](https://github.com/vitejs/create-vite-app), a boilerplate to bootstrap new Vite projects, we will not have to worry about configurations to get started with using our app as it comes with Vue as the default starter and we can configure what template we want to use with the `--template` flag as it also supports React and Preact.
 
 Run this command to create a new Vite app with the boilerplate:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn create vite-app testing-vite
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npx create-vite-app testing-vite
@@ -176,13 +176,13 @@ Then proceed to install the necessary packages required for our project to work:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i
@@ -194,13 +194,13 @@ We can then spin up our development server in the browser by running the command
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn dev
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm run dev
@@ -230,7 +230,7 @@ The documentation says, “the build step is configurable by passing on most opt
 
 With Vite, you have a very fast development server that would improve your development workflow and increase productivity.
 
-The result of your file changes are instantaneous in the browser and you can bundle your app for production using Rollup. The code repository to this article can be accessed on [GitHub (<FontIcon icon="iconfont icon-github"/>`Jolaolu/vite-demo`)](https://github.com/Jolaolu/vite-demo).
+The result of your file changes are instantaneous in the browser and you can bundle your app for production using Rollup. The code repository to this article can be accessed on [GitHub (<VPIcon icon="iconfont icon-github"/>`Jolaolu/vite-demo`)](https://github.com/Jolaolu/vite-demo).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

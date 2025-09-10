@@ -362,7 +362,7 @@ Now, we should be able to see the expected result without using the `!important`
 
 ![Result With Important Notation](/assets/image/blog.logrocket.com/css-important-declaration-when-why/result-with-important-notation.png)
 
-You can see for yourself [<FontIcon icon="iconfont icon-codesandbox"/>on CodeSandbox](https://codesandbox.io/s/falling-cookies-2ddlhx?file=/index.html).
+You can see for yourself [<VPIcon icon="iconfont icon-codesandbox"/>on CodeSandbox](https://codesandbox.io/s/falling-cookies-2ddlhx?file=/index.html).
 
 ---
 
@@ -427,7 +427,7 @@ The page now looks as we expect:
 
 ![New Subscribe Page](/assets/image/blog.logrocket.com/css-important-declaration-when-why/new-subscribe-page.webp)
 
-See for yourself [<FontIcon icon="iconfont icon-codesandbox"/>on CodeSandbox](https://codesandbox.io/s/quirky-cherry-39qdom?file=/style.css).
+See for yourself [<VPIcon icon="iconfont icon-codesandbox"/>on CodeSandbox](https://codesandbox.io/s/quirky-cherry-39qdom?file=/style.css).
 
 ### The style rules we cannot override
 

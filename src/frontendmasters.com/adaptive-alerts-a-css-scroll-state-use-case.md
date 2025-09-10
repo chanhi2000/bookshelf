@@ -54,13 +54,13 @@ Sometimes it’s useful to adapt the controls available to users based on whethe
 
 Here’s an example: a user scrolls through a Terms & Conditions page. If they click “agree” *without* having scrolled down until the end, we could prompt them with a “please confirm you’ve read these terms” before continuing. Whereas if they *have* scrolled down the whole way, that could imply they have read the terms, so we don’t need the additional prompt.
 
-Implementing something like this is relatively easy with the recent CSS scroll-state queries ([<FontIcon icon="fas fa-globe"/>browser support](https://frontendmasters.com/blog/wp-admin/post.php?post=6397&action=edit)).
+Implementing something like this is relatively easy with the recent CSS scroll-state queries ([<VPIcon icon="fas fa-globe"/>browser support](https://frontendmasters.com/blog/wp-admin/post.php?post=6397&action=edit)).
 
 The following is an example of exactly as described above. If you click the “Sign Up” button without having scrolled down until the end, you’ll see an additional prompt reminding that you might not have read the terms yet and if you’d still like to sign up. And if the “Sign Up” is clicked after the text has been scrolled to the end, the sign-up acknowledgement pops up without any confirmation prompt first.
 
 <VidStack src="https://videopress.com/embed/KZkpkHaK" />
 
-This is a video version of the demo, because [<FontIcon icon="iconfont icon-caniuse"/>browser support is Chrome-only](https://caniuse.com/mdn-css_at-rules_container_scroll-state_queries) as this article is published.
+This is a video version of the demo, because [<VPIcon icon="iconfont icon-caniuse"/>browser support is Chrome-only](https://caniuse.com/mdn-css_at-rules_container_scroll-state_queries) as this article is published.
 
 Here’s a live demo:
 
@@ -136,7 +136,7 @@ If the article has been scrolled down to the end, the button will have an `appea
 
 ---
 
-Learn aboutscroll-state queries([<FontIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries) and/or [here](https://developer.chrome.com/blog/css-scroll-state-queries)) to know the different kinds of scrolling scenarios that you can work with. Based on scroll states and positions, you’ll be able to change the appearance, content, or even functionality (as seen in this article) of an element or module.
+Learn aboutscroll-state queries([<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries) and/or [here](https://developer.chrome.com/blog/css-scroll-state-queries)) to know the different kinds of scrolling scenarios that you can work with. Based on scroll states and positions, you’ll be able to change the appearance, content, or even functionality (as seen in this article) of an element or module.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

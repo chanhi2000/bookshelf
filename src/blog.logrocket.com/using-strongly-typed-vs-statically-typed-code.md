@@ -72,7 +72,7 @@ It’s also important to note that “weak” and “strong” don’t have univ
 
 It makes much more sense to use these terms in a relative sense. For example, you could say that Java is more strongly typed than C or that C is more strongly typed than JavaScript.
 
-Let’s look at what these concepts are about in further detail. You can also [check out this GitHub repo (<FontIcon icon="iconfont icon-github"/>`justinbiebur/Strong-Static-Examples`)](https://github.com/justinbiebur/Strong-Static-Examples/tree/main) to explore the code samples in this guide.
+Let’s look at what these concepts are about in further detail. You can also [check out this GitHub repo (<VPIcon icon="iconfont icon-github"/>`justinbiebur/Strong-Static-Examples`)](https://github.com/justinbiebur/Strong-Static-Examples/tree/main) to explore the code samples in this guide.
 
 ---
 
@@ -306,7 +306,7 @@ Statically typed languages such as C require you to explicitly declare variable 
 
 TypeScript stands out as a language that successfully combines the benefits of both strong and static typing. Despite some instances of weak typing, TypeScript’s emphasis on type safety fosters better code reliability and maintainability.
 
-I hope you found this guide to strongly typed vs. statically typed code helpful! If you have any further questions, feel free to comment them below. You can also explore the code samples used throughout this article in [this GitHub repo (<FontIcon icon="iconfont icon-github"/>`justinbiebur/Strong-Static-Examples`)](https://github.com/justinbiebur/Strong-Static-Examples).
+I hope you found this guide to strongly typed vs. statically typed code helpful! If you have any further questions, feel free to comment them below. You can also explore the code samples used throughout this article in [this GitHub repo (<VPIcon icon="iconfont icon-github"/>`justinbiebur/Strong-Static-Examples`)](https://github.com/justinbiebur/Strong-Static-Examples).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

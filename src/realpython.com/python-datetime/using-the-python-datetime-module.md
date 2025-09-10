@@ -51,19 +51,19 @@ cover: https://files.realpython.com/media/How-to-Use-Python-datetime-With-Exampl
 
 As you can see, working with dates and times in programming can be complicated. Fortunately, you rarely need to implement complicated features from scratch these days since many open-source libraries are available to help out. This is definitely the case in Python, which includes three separate modules in the standard library to work with dates and times:
 
-1. [<FontIcon icon="fa-brands fa-python"/>`calendar`](https://docs.python.org/3/library/calendar.html#module-calendar) outputs calendars and provides functions using an idealized [<FontIcon icon="fa-brands fa-wikipedia-w"/>Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar).
-2. [<FontIcon icon="fa-brands fa-python"/>`datetime`](https://docs.python.org/3/library/datetime.html) supplies classes for manipulating dates and times.
-3. [<FontIcon icon="fa-brands fa-python"/>`time`](https://docs.python.org/3/library/time.html) provides time-related functions where dates are not needed.
+1. [<VPIcon icon="fa-brands fa-python"/>`calendar`](https://docs.python.org/3/library/calendar.html#module-calendar) outputs calendars and provides functions using an idealized [<VPIcon icon="fa-brands fa-wikipedia-w"/>Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar).
+2. [<VPIcon icon="fa-brands fa-python"/>`datetime`](https://docs.python.org/3/library/datetime.html) supplies classes for manipulating dates and times.
+3. [<VPIcon icon="fa-brands fa-python"/>`time`](https://docs.python.org/3/library/time.html) provides time-related functions where dates are not needed.
 
 In this tutorial, you’ll focus on using the Python `datetime` module. The main focus of `datetime` is to make it less complicated to access attributes of the object related to dates, times, and time zones. Since these objects are so useful, `calendar` also returns instances of classes from `datetime`.
 
-[**`time`**](/realpython.com/python-time-module.md) is less powerful and more complicated to use than `datetime`. Many functions in `time` return a special [<FontIcon icon="fa-brands fa-python"/>`struct_time`](https://docs.python.org/3/library/time.html#time.struct_time) instance. This object has a [**named tuple**](/realpython.com/python-namedtuple.md) interface for accessing stored data, making it similar to an instance of `datetime`. However, it doesn’t support all of the features of `datetime`, especially the ability to perform arithmetic with time values.
+[**`time`**](/realpython.com/python-time-module.md) is less powerful and more complicated to use than `datetime`. Many functions in `time` return a special [<VPIcon icon="fa-brands fa-python"/>`struct_time`](https://docs.python.org/3/library/time.html#time.struct_time) instance. This object has a [**named tuple**](/realpython.com/python-namedtuple.md) interface for accessing stored data, making it similar to an instance of `datetime`. However, it doesn’t support all of the features of `datetime`, especially the ability to perform arithmetic with time values.
 
 `datetime` provides three classes that make up the high-level interface that most people will use:
 
-1. [<FontIcon icon="fa-brands fa-python"/>`datetime.date`](https://docs.python.org/3/library/datetime.html#date-objects) is an idealized date that assumes the Gregorian calendar extends infinitely into the future and past. This object stores the `year`, `month`, and `day` as attributes.
-2. [<FontIcon icon="fa-brands fa-python"/>`datetime.time`](https://docs.python.org/3/library/datetime.html#time-objects) is an idealized time that assumes there are 86,400 seconds per day with no leap seconds. This object stores the `hour`, `minute`, `second`, `microsecond`, and `tzinfo` (time zone information).
-3. [<FontIcon icon="fa-brands fa-python"/>`datetime.datetime`](https://docs.python.org/3/library/datetime.html#datetime-objects) is a combination of a `date` and a `time`. It has all the attributes of both classes.
+1. [<VPIcon icon="fa-brands fa-python"/>`datetime.date`](https://docs.python.org/3/library/datetime.html#date-objects) is an idealized date that assumes the Gregorian calendar extends infinitely into the future and past. This object stores the `year`, `month`, and `day` as attributes.
+2. [<VPIcon icon="fa-brands fa-python"/>`datetime.time`](https://docs.python.org/3/library/datetime.html#time-objects) is an idealized time that assumes there are 86,400 seconds per day with no leap seconds. This object stores the `hour`, `minute`, `second`, `microsecond`, and `tzinfo` (time zone information).
+3. [<VPIcon icon="fa-brands fa-python"/>`datetime.datetime`](https://docs.python.org/3/library/datetime.html#datetime-objects) is a combination of a `date` and a `time`. It has all the attributes of both classes.
 
 ---
 
@@ -84,13 +84,13 @@ datetime(year=2020, month=1, day=31, hour=13, minute=14, second=31)
 # datetime.datetime(2020, 1, 31, 13, 14, 31)
 ```
 
-In this code, you [**import**](/realpython.com/absolute-vs-relative-python-imports.md) the three main classes from `datetime` and **instantiate** each of them by passing arguments to the constructor. You can see that this code is somewhat verbose, and if you don’t have the information you need as [<FontIcon icon="fas fa-globe"/>integers](https://realpython.com/lessons/integers/), these techniques can’t be used to create `datetime` instances.
+In this code, you [**import**](/realpython.com/absolute-vs-relative-python-imports.md) the three main classes from `datetime` and **instantiate** each of them by passing arguments to the constructor. You can see that this code is somewhat verbose, and if you don’t have the information you need as [<VPIcon icon="fas fa-globe"/>integers](https://realpython.com/lessons/integers/), these techniques can’t be used to create `datetime` instances.
 
 Fortunately, `datetime` provides several other convenient ways to create `datetime` instances. These methods don’t require you to use integers to specify each attribute, but instead allow you to use some other information:
 
-1. [<FontIcon icon="fa-brands fa-python"/>`date.today()`](https://docs.python.org/3/library/datetime.html#datetime.date.today) creates a `datetime.date` instance with the current local date.
-2. [<FontIcon icon="fa-brands fa-python"/>`datetime.now()`](https://docs.python.org/3/library/datetime.html#datetime.datetime.now) creates a `datetime.datetime` instance with the current local date and time.
-3. [<FontIcon icon="fa-brands fa-python"/>`datetime.combine()`](https://docs.python.org/3/library/datetime.html#datetime.datetime.combine) combines instances of `datetime.date` and `datetime.time` into a single `datetime.datetime` instance.
+1. [<VPIcon icon="fa-brands fa-python"/>`date.today()`](https://docs.python.org/3/library/datetime.html#datetime.date.today) creates a `datetime.date` instance with the current local date.
+2. [<VPIcon icon="fa-brands fa-python"/>`datetime.now()`](https://docs.python.org/3/library/datetime.html#datetime.datetime.now) creates a `datetime.datetime` instance with the current local date and time.
+3. [<VPIcon icon="fa-brands fa-python"/>`datetime.combine()`](https://docs.python.org/3/library/datetime.html#datetime.datetime.combine) combines instances of `datetime.date` and `datetime.time` into a single `datetime.datetime` instance.
 
 These three ways of creating `datetime` instances are helpful when you don’t know in advance what information you need to pass into the basic initializers. You can try out this code to see how the alternate initializers work:
 
@@ -120,9 +120,9 @@ On the last line, you combine the date information in `today` with the time info
 
 ::: warning
 
-`datetime` also provides `datetime.utcnow()`, which returns an instance of `datetime` at the current UTC. However, the Python [<FontIcon icon="fa-brands fa-python"/>documentation](https://docs.python.org/3/library/datetime.html#datetime.datetime.utcnow) recommends against using this method because it doesn’t include any time zone information in the resulting instance.
+`datetime` also provides `datetime.utcnow()`, which returns an instance of `datetime` at the current UTC. However, the Python [<VPIcon icon="fa-brands fa-python"/>documentation](https://docs.python.org/3/library/datetime.html#datetime.datetime.utcnow) recommends against using this method because it doesn’t include any time zone information in the resulting instance.
 
-Using `datetime.utcnow()` may produce some [<FontIcon icon="fas fa-globe"/>surprising results](https://blog.ganssle.io/articles/2019/11/utcnow.html) when doing arithmetic or comparisons between `datetime` instances. In a [later section](/realpython.com/python-datetime/working-with-time-zones.md), you’ll see how to assign time zone information to `datetime` instances.
+Using `datetime.utcnow()` may produce some [<VPIcon icon="fas fa-globe"/>surprising results](https://blog.ganssle.io/articles/2019/11/utcnow.html) when doing arithmetic or comparisons between `datetime` instances. In a [later section](/realpython.com/python-datetime/working-with-time-zones.md), you’ll see how to assign time zone information to `datetime` instances.
 
 :::
 
@@ -130,7 +130,7 @@ Using `datetime.utcnow()` may produce some [<FontIcon icon="fas fa-globe"/>surpr
 
 ## Using Strings to Create Python `datetime` Instances
 
-Another way to create `date` instances is to use [<FontIcon icon="fa-brands fa-python"/>`.fromisoformat()`](https://docs.python.org/3/library/datetime.html#datetime.date.fromisoformat). To use this method, you provide a [**string**](/realpython.com/python-strings.md) with the date in the ISO 8601 format that you learned about [**earlier**](/realpython.com/python-datetime/programming-with-dates-and-times.md#how-standard-dates-can-be-reported). For instance, you might provide a string with the year, month, and date specified:
+Another way to create `date` instances is to use [<VPIcon icon="fa-brands fa-python"/>`.fromisoformat()`](https://docs.python.org/3/library/datetime.html#datetime.date.fromisoformat). To use this method, you provide a [**string**](/realpython.com/python-strings.md) with the date in the ISO 8601 format that you learned about [**earlier**](/realpython.com/python-datetime/programming-with-dates-and-times.md#how-standard-dates-can-be-reported). For instance, you might provide a string with the year, month, and date specified:
 
 ```plaintext
 2020-01-31
@@ -147,7 +147,7 @@ date.fromisoformat("2020-01-31")
 
 In this code, you use `date.fromisoformat()` to create a `date` instance for January 31, 2020. This method is very useful because it’s based on the ISO 8601 standard. But what if you have a string that represents a date and time but isn’t in the ISO 8601 format?
 
-Fortunately, Python `datetime` provides a method called [<FontIcon icon="fa-brands fa-python"/>`.strptime()`](https://docs.python.org/3/library/datetime.html#datetime.datetime.strptime) to handle this situation. This method uses a special **mini-language** to tell Python which parts of the string are associated with the `datetime` attributes.
+Fortunately, Python `datetime` provides a method called [<VPIcon icon="fa-brands fa-python"/>`.strptime()`](https://docs.python.org/3/library/datetime.html#datetime.datetime.strptime) to handle this situation. This method uses a special **mini-language** to tell Python which parts of the string are associated with the `datetime` attributes.
 
 To construct a `datetime` from a string using `.strptime()`, you have to tell Python what each of the parts of the string represents using formatting codes from the mini-language. You can try this example to see how `.strptime()` works:
 
@@ -169,7 +169,7 @@ In `format_string`, you include several formatting codes and all of the dashes (
 | Minute (as zero-padded decimal) | `%M` | 45 |
 | Second (as zero-padded decimal) | `%S` | 37 |
 
-A complete listing of all of the options in the mini-language is outside the scope of this tutorial, but you can find several good references on the web, including in Python’s [<FontIcon icon="fa-brands fa-python"/>documentation](https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior) and on a website called [<FontIcon icon="fas fa-globe"/>strftime.org](https://strftime.org/).
+A complete listing of all of the options in the mini-language is outside the scope of this tutorial, but you can find several good references on the web, including in Python’s [<VPIcon icon="fa-brands fa-python"/>documentation](https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior) and on a website called [<VPIcon icon="fas fa-globe"/>strftime.org](https://strftime.org/).
 
 Now that `date_string` and `format_string` are defined, you can use them to create a `datetime` instance. Here’s an example of how `.strptime()` works:
 
@@ -184,7 +184,7 @@ In this code, you import `datetime` on **line 3** and use `datetime.strptime()` 
 
 ::: note
 
-There are more advanced ways to create `datetime` instances, but they involve using third-party libraries that must be installed. One particularly neat library is called [<FontIcon icon="fas fa-globe"/>`dateparser`](https://dateparser.readthedocs.io/en/latest/), which allows you to provide natural language string inputs. The input is even supported in a number of languages:
+There are more advanced ways to create `datetime` instances, but they involve using third-party libraries that must be installed. One particularly neat library is called [<VPIcon icon="fas fa-globe"/>`dateparser`](https://dateparser.readthedocs.io/en/latest/), which allows you to provide natural language string inputs. The input is even supported in a number of languages:
 
 ```py
 import dateparser

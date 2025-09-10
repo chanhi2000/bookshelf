@@ -82,7 +82,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4692"/>
 
-[<FontIcon icon="fas fa-globe"/>Drizzle ORM](https://orm.drizzle.team/) is an incredibly impressive[<FontIcon icon="fa-brands fa-wikipedia-w"/>object-relational mapper](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)(ORM). Like traditional ORMs, it offers a domain-specific language (DSL) for querying entire object graphs. Imagine grabbing some “tasks”, along with “comments” on those tasks from your database. But unlike traditional ORMs, it also exposes SQL itself via a thin, strongly typed API. This allows you to write complex queries using things like`MERGE`,`UNION`, CTEs, and so on, but in a strongly typed API that looks incredibly similar to the SQL you already know (and hopefully love).
+[<VPIcon icon="fas fa-globe"/>Drizzle ORM](https://orm.drizzle.team/) is an incredibly impressive[<VPIcon icon="fa-brands fa-wikipedia-w"/>object-relational mapper](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)(ORM). Like traditional ORMs, it offers a domain-specific language (DSL) for querying entire object graphs. Imagine grabbing some “tasks”, along with “comments” on those tasks from your database. But unlike traditional ORMs, it also exposes SQL itself via a thin, strongly typed API. This allows you to write complex queries using things like`MERGE`,`UNION`, CTEs, and so on, but in a strongly typed API that looks incredibly similar to the SQL you already know (and hopefully love).
 
 [**I wrote about Drizzlepreviously.**](/frontendmasters.com/introducing-drizzle.md) That post focused exclusively on the typed SQL API. This post will look at another drizzle feature: database migrations. Not only will Drizzle allow you to query your database via a strongly typed API, but it will also keep your object model and database in sync. Let’s get started!
 
@@ -90,7 +90,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 ## Our Database
 
-Drizzle supports Postgres, MySQL, and SQLite. For this post we’ll be using Postgres, but the idea is the same for all of them. If you’d like to follow along at home, I urge you to use [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) to spin up a Postgres database (or MySQL, if that’s your preference). If you’re completely new to Docker, it’s not terribly hard to get it installed. Once you have it installed, run this:
+Drizzle supports Postgres, MySQL, and SQLite. For this post we’ll be using Postgres, but the idea is the same for all of them. If you’d like to follow along at home, I urge you to use [<VPIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) to spin up a Postgres database (or MySQL, if that’s your preference). If you’re completely new to Docker, it’s not terribly hard to get it installed. Once you have it installed, run this:
 
 ```sh
 docker container run \
@@ -113,7 +113,7 @@ docker container run \
 postgres:17.2-alpine3.20
 ```
 
-That does the same thing, while telling Docker to alias the directory in its image of<FontIcon icon="fas fa-folder-open"/>`/var/lib/postgresql/data`(where Postgres stores its data) onto the directory on your laptop at<FontIcon icon="fas fa-folder-open"/>`/Users/arackis/Documents/pg-data`. Adjust the latter path as desired. (The other path isn’t up for debate, as that’s what Postgres uses.)
+That does the same thing, while telling Docker to alias the directory in its image of<VPIcon icon="fas fa-folder-open"/>`/var/lib/postgresql/data`(where Postgres stores its data) onto the directory on your laptop at<VPIcon icon="fas fa-folder-open"/>`/Users/arackis/Documents/pg-data`. Adjust the latter path as desired. (The other path isn’t up for debate, as that’s what Postgres uses.)
 
 ---
 
@@ -123,13 +123,13 @@ We’ll get an empty app up (`npm init` is all we need), and then install a few 
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add drizzle-orm drizzle-kit pg
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i drizzle-orm drizzle-kit pg
@@ -137,13 +137,13 @@ npm i drizzle-orm drizzle-kit pg
 
 :::
 
-The<FontIcon icon="fa-brands fa-npm"/>`drizzle-orm`package is the main ORM that handles querying your database. The <FontIcon icon="fa-brands fa-npm"/>`drizzle-kit`package is what handles database migrations, which will be particularly relevant for this post. Lastly, the<FontIcon icon="fa-brands fa-npm"/>`pg`package is the Node Postgres drivers.
+The<VPIcon icon="fa-brands fa-npm"/>`drizzle-orm`package is the main ORM that handles querying your database. The <VPIcon icon="fa-brands fa-npm"/>`drizzle-kit`package is what handles database migrations, which will be particularly relevant for this post. Lastly, the<VPIcon icon="fa-brands fa-npm"/>`pg`package is the Node Postgres drivers.
 
 ---
 
 ## Configuring Drizzle
 
-Let’s start by adding a<FontIcon icon="iconfont icon-typescript"/>`drizzle.config.ts`to the root of our project.
+Let’s start by adding a<VPIcon icon="iconfont icon-typescript"/>`drizzle.config.ts`to the root of our project.
 
 ```ts :collapsed-lines title="drizzle.config.ts"
 import { defineConfig } from "drizzle-kit";
@@ -162,9 +162,9 @@ export default defineConfig({
 });
 ```
 
-We tell Drizzle what kind of database we’re using (Postgres), where to put the generated schema code (the <FontIcon icon="fas fa-folder-open"/>`drizzle-schema` folder), and then the database connection info.
+We tell Drizzle what kind of database we’re using (Postgres), where to put the generated schema code (the <VPIcon icon="fas fa-folder-open"/>`drizzle-schema` folder), and then the database connection info.
 
-Wanna see more real-world use cases of Drizzle in action? Check out Scott Moss’ course [<FontIcon icon="fas fa-globe"/>Intermediate Next.js](https://frontendmasters.com/courses/intermediate-next-js/) which uses it and gets into it when the project gets into data fetching needs.
+Wanna see more real-world use cases of Drizzle in action? Check out Scott Moss’ course [<VPIcon icon="fas fa-globe"/>Intermediate Next.js](https://frontendmasters.com/courses/intermediate-next-js/) which uses it and gets into it when the project gets into data fetching needs.
 
 ---
 
@@ -250,7 +250,7 @@ This tells Drizzle to look at our database and generate a schema from it.
 
 ### Files generated
 
-Inside the<FontIcon icon="fas fa-folder-open"/>`drizzle-schema`folder there’s now a<FontIcon icon="iconfont icon-typescript"/>`schema.ts`file with our Drizzle schema. Here’s a small sample of it.
+Inside the<VPIcon icon="fas fa-folder-open"/>`drizzle-schema`folder there’s now a<VPIcon icon="iconfont icon-typescript"/>`schema.ts`file with our Drizzle schema. Here’s a small sample of it.
 
 ```ts :collapsed-lines title="drizzle-schema/schema.ts"
 import { pgTable, serial, varchar, foreignKey, integer } from "drizzle-orm/pg-core";
@@ -294,7 +294,7 @@ In Postgres, foreign keys merely create a constraint that’s checked on inserts
 
 #### Relations
 
-The other file Drizzle created is<FontIcon icon="iconfont icon-typescript"/>`relations.ts`. Here’s a bit of it:
+The other file Drizzle created is<VPIcon icon="iconfont icon-typescript"/>`relations.ts`. Here’s a bit of it:
 
 ```ts title="relations.ts"
 import { relations } from "drizzle-orm/relations";
@@ -365,9 +365,9 @@ Note the new columns being added, and the new index being created. Again, the in
 
 ## The Code First Approach
 
-Let’s go the other way. Let’s start with a Drizzle schema, and generate an SQL script from it. In order to get a Drizzle schema, let’s just cheat and grab the <FontIcon icon="iconfont icon-typescript"/>`schema.ts` and <FontIcon icon="iconfont icon-typescript"/>`relations.ts` files Drizzle created above. We’ll paste them into the <FontIcon icon="fas fa-folder-open"/>`drizzle-schema` folder, and remove anything else Drizzle created: any snapshots, and anything in the meta folder Drizzle uses to track our history.
+Let’s go the other way. Let’s start with a Drizzle schema, and generate an SQL script from it. In order to get a Drizzle schema, let’s just cheat and grab the <VPIcon icon="iconfont icon-typescript"/>`schema.ts` and <VPIcon icon="iconfont icon-typescript"/>`relations.ts` files Drizzle created above. We’ll paste them into the <VPIcon icon="fas fa-folder-open"/>`drizzle-schema` folder, and remove anything else Drizzle created: any snapshots, and anything in the meta folder Drizzle uses to track our history.
 
-Next, since we want Drizzle to*read*our schema files, rather than just generate them, we need to tell Drizzle where they are. We’ll go back into our <FontIcon icon="iconfont icon-typescript"/>`drizzle.config.ts` file, and add this line:
+Next, since we want Drizzle to*read*our schema files, rather than just generate them, we need to tell Drizzle where they are. We’ll go back into our <VPIcon icon="iconfont icon-typescript"/>`drizzle.config.ts` file, and add this line:
 
 ```ts title="drizzle.config.ts"
 schema: ["./drizzle-schema/schema.ts", "./drizzle-schema/relations.ts"],
@@ -383,7 +383,7 @@ Voila! We have database assets being created.
 
 ![Drizzle pull changes](https://i0.wp.com/adam-rackis-blog-staging.fly.dev/drizzle-migrations/drizzle-generate.png?ssl=1)
 
-The resulting sql file is huge. Mine is named<FontIcon icon="iconfont icon-postgresql"/>`0000_quick_wild_pack.sql`(Drizzle will add these silly names to make the files stand out) and looks like this, in part.
+The resulting sql file is huge. Mine is named<VPIcon icon="iconfont icon-postgresql"/>`0000_quick_wild_pack.sql`(Drizzle will add these silly names to make the files stand out) and looks like this, in part.
 
 ```sql :collapsed-lines title="0000_quick_wild_pack.sql"
 CREATE TABLE IF NOT EXISTS "epics" (
@@ -418,7 +418,7 @@ And now we’ll run`npx drizzle-kit generate` and you should see:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/drizzle-generate-2-1.png?resize=1024%2C349&ssl=1)
 
-As before, Drizzle generated a new sql file, this time called<FontIcon icon="iconfont icon-postgresql"/>`0001_curved_warhawk.sql`which looks like this:
+As before, Drizzle generated a new sql file, this time called<VPIcon icon="iconfont icon-postgresql"/>`0001_curved_warhawk.sql`which looks like this:
 
 ```sql :collapsed-lines title="0001_curved_warhawk.sql"
 ALTER TABLE "tasks" DROP CONSTRAINT "fk_task_user";
@@ -445,7 +445,7 @@ Make no mistake, you do not have to go all in on code-first, or database-first. 
 
 ## Going Further
 
-Believe it or not, we’re only scratching the surface of what drizzle-kit can do. If you like what you’ve seen so far, be sure to check out[<FontIcon icon="fas fa-globe"/>the docs](https://orm.drizzle.team/docs/kit-overview).
+Believe it or not, we’re only scratching the surface of what drizzle-kit can do. If you like what you’ve seen so far, be sure to check out[<VPIcon icon="fas fa-globe"/>the docs](https://orm.drizzle.team/docs/kit-overview).
 
 ---
 

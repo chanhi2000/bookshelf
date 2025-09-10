@@ -52,7 +52,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_026.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_026.png"/>
 
-Working with **Microservices**, or any distributed system for that matter, is difficult. In a distributed system many things can go wrong, and there are even research papers about this. If you want to explore this topic further, I suggest that you read about the [<FontIcon icon="fas fa-file-pdf"/>fallacies of distributed computing](https://se.rit.edu/~se442/doc/fallacies.pdf).
+Working with **Microservices**, or any distributed system for that matter, is difficult. In a distributed system many things can go wrong, and there are even research papers about this. If you want to explore this topic further, I suggest that you read about the [<VPIcon icon="fas fa-file-pdf"/>fallacies of distributed computing](https://se.rit.edu/~se442/doc/fallacies.pdf).
 
 <PDF url="https://se.rit.edu/~se442/doc/fallacies.pdf" />
 
@@ -168,9 +168,9 @@ After reading this newsletter you should have a pretty good understanding of wha
 
 What's missing is more details about how to implement the **Outbox pattern**, so here are a few videos you can watch:
 
-- [<FontIcon icon="fa-brands fa-youtube"/>How to use the Domain Events pattern](https://youtu.be/BimfDeDV4yU)
-- [<FontIcon icon="fa-brands fa-youtube"/>How to implement the Outbox pattern](https://youtu.be/XALvnX7MPeo)
-- [<FontIcon icon="fa-brands fa-youtube"/>How to add retries to the Outbox with Polly](https://youtu.be/xajVttkZntU)
+- [<VPIcon icon="fa-brands fa-youtube"/>How to use the Domain Events pattern](https://youtu.be/BimfDeDV4yU)
+- [<VPIcon icon="fa-brands fa-youtube"/>How to implement the Outbox pattern](https://youtu.be/XALvnX7MPeo)
+- [<VPIcon icon="fa-brands fa-youtube"/>How to add retries to the Outbox with Polly](https://youtu.be/xajVttkZntU)
 
 <VidStack src="youtube/BimfDeDV4yU" />
 <VidStack src="youtube/XALvnX7MPeo" />

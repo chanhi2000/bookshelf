@@ -52,7 +52,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_078.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_078.png"/>
 
-In ASP.NET Core applications using [<FontIcon icon="fa-brands fa-microsoft"/>Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-8.0), registering each API endpoint with `app.MapGet`, `app.MapPost`, etc., can introduce repetitive code. As projects grow, this manual process becomes increasingly time-consuming and prone to maintenance headaches.
+In ASP.NET Core applications using [<VPIcon icon="fa-brands fa-microsoft"/>Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-8.0), registering each API endpoint with `app.MapGet`, `app.MapPost`, etc., can introduce repetitive code. As projects grow, this manual process becomes increasingly time-consuming and prone to maintenance headaches.
 
 You can try grouping the Minimal API endpoints using extension methods so as not to clutter the `Program` file. This approach scales well as the project grows. However, it feels like reinventing controllers.
 

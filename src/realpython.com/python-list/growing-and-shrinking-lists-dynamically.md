@@ -207,11 +207,11 @@ Now that you’ve learned how to add items to an existing list using different t
 
 ## Deleting Items From a List
 
-Python also allows you to remove one or more items from an existing list. Again, deleting items from lists is such a common operation that the `list` class already has [<FontIcon icon="fa-brands fa-python"/>methods](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) to help you with that. You’ll have the following methods:
+Python also allows you to remove one or more items from an existing list. Again, deleting items from lists is such a common operation that the `list` class already has [<VPIcon icon="fa-brands fa-python"/>methods](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) to help you with that. You’ll have the following methods:
 
 | Method | Description |
 | --- | --- |
-| `.remove(item)` | Removes the first occurrence of `item` from the list. It raises a [<FontIcon icon="fa-brands fa-python"/>`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError) if there’s no such item. |
+| `.remove(item)` | Removes the first occurrence of `item` from the list. It raises a [<VPIcon icon="fa-brands fa-python"/>`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError) if there’s no such item. |
 | `.pop([index])` | Removes the item at `index` and returns it back to the caller. If you don’t provide a target `index`, then `.pop()` removes and returns the last item in the list. Note that the square brackets around `index` mean that the argument is optional. The brackets aren’t part of the syntax. |
 | `.clear()` | Removes all items from the list. |
 
@@ -375,7 +375,7 @@ for value in range(100):
 # ...
 ```
 
-In this code snippet, you first import [<FontIcon icon="fa-brands fa-python"/>`getsizeof()`](https://docs.python.org/3/library/sys.html#sys.getsizeof) from the [<FontIcon icon="fa-brands fa-python"/>`sys`](https://docs.python.org/3/library/sys.html#module-sys) module. This function allows you to get the size of an object in bytes. Then you define `numbers` as an empty list.
+In this code snippet, you first import [<VPIcon icon="fa-brands fa-python"/>`getsizeof()`](https://docs.python.org/3/library/sys.html#sys.getsizeof) from the [<VPIcon icon="fa-brands fa-python"/>`sys`](https://docs.python.org/3/library/sys.html#module-sys) module. This function allows you to get the size of an object in bytes. Then you define `numbers` as an empty list.
 
 Inside the `for` loop, you get and [**print**](/realpython.com/python-print/README.md) your list object’s size in bytes. The first iteration shows that the size of your empty list is `56` bytes, which is the baseline size of every list in Python.
 
@@ -387,6 +387,6 @@ If you follow the loop’s output, then you’ll notice that the next steps add 
 
 In practice, if you’re working with small lists, then the overall impact of this internal behavior is negligible. However, in performance-critical situations or when your lists are large, you may want to use more efficient data types, such as [**`collections.deque`**](/realpython.com/python-deque.md), for example.
 
-Check out the [<FontIcon icon="fa-brands fa-python"/>time complexity Wiki page](https://wiki.python.org/moin/TimeComplexity) for a detailed summary of how time-efficient `list` operations are. For example, the `.append()` method has a time complexity of $O\left(1\right)$, which means that appending an item to a list takes constant time. However, when Python has to grow the list to make room for the new item, this performance will be a bit poorer.
+Check out the [<VPIcon icon="fa-brands fa-python"/>time complexity Wiki page](https://wiki.python.org/moin/TimeComplexity) for a detailed summary of how time-efficient `list` operations are. For example, the `.append()` method has a time complexity of $O\left(1\right)$, which means that appending an item to a list takes constant time. However, when Python has to grow the list to make room for the new item, this performance will be a bit poorer.
 
 Being aware of the time complexity of common list operations will significantly improve your ability to choose the right tool for the job, depending on your specific needs.

@@ -60,7 +60,7 @@ cover: /assets/image/blog.logrocket.com/react-usecallback/banner.png
 
 ![React `useCallback`: When And How To Use It For Better Performance](/assets/image/blog.logrocket.com/react-usecallback/banner.png)
 
-React applications often suffer from unnecessary re-renders, which can negatively impact performance. One common cause is when functions are recreated on every render, leading to inefficiencies, especially when passed as props to memoized components. This is where [<FontIcon icon="fa-brands fa-react"/>`useCallback`](https://react.dev/reference/react/useCallback) comes in.
+React applications often suffer from unnecessary re-renders, which can negatively impact performance. One common cause is when functions are recreated on every render, leading to inefficiencies, especially when passed as props to memoized components. This is where [<VPIcon icon="fa-brands fa-react"/>`useCallback`](https://react.dev/reference/react/useCallback) comes in.
 
 By the end of this guide, you’ll have a clear understanding of `useCallback` and how to use it properly in your React applications.
 

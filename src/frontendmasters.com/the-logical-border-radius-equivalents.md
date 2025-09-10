@@ -67,7 +67,7 @@ The syntax is:
 border-<BLOCK_DIRECTION>-<INLINE_DIRECTION>-radius
 ```
 
-You’d choose the logical versions if you were using border-radius on elements where the flow was relevant. Here’s an example of a [“tag” shape (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/azozXNW/c42db23b0d5f93105fe3769d69065606) on some inline text, and you’d potentially *want* the direction to flip.
+You’d choose the logical versions if you were using border-radius on elements where the flow was relevant. Here’s an example of a [“tag” shape (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/azozXNW/c42db23b0d5f93105fe3769d69065606) on some inline text, and you’d potentially *want* the direction to flip.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/Screenshot-2024-11-29-at-3.59.05%E2%80%AFPM.png?resize=886%2C552&ssl=1)
 
@@ -77,7 +77,7 @@ I feel these newer logical properties for border-radius took an understandabilit
 
 Something like `border-inline-start-block-end-radius` would solve that, but I do understand that is an awfully long property name and might suffer from confusion. If someone accidentally mentally grouped it like “border-inline” “start-block” “end-radius”, that’s, uh, a meaningless jumble.
 
-There is an interesting gotcha Michelle Barker found in [<FontIcon icon="fas fa-globe"/>Logical Border Radius](https://css-irl.info/logical-border-radius/) with vertical writing modes, so if that comes up for you read what she’s got to say there.
+There is an interesting gotcha Michelle Barker found in [<VPIcon icon="fas fa-globe"/>Logical Border Radius](https://css-irl.info/logical-border-radius/) with vertical writing modes, so if that comes up for you read what she’s got to say there.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

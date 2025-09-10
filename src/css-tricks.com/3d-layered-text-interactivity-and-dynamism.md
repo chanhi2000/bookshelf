@@ -263,7 +263,7 @@ Now we can finally start responding to user input and adding a bit of interactio
 
 We will start with this simple markup, just a paragraph of Lorem ipsum, but with two links inside. Each link has the `.layeredText` class. Right now, those links will already have depth and layers applied, but that is not what we want. We want the 3D effect to appear only on hover.
 
-To make that happen, we will define a new `:hover` block in `.layeredText` and move all the 3D related styles into it. That includes the color and shadow of the `span`, the color and `translateZ` of each `.layer`, and to make it look even better, we will also animate the [<FontIcon icon="iconfont icon-css-tricks"/>`opacity`](https://css-tricks.com/almanac/properties/o/opacity/) of the layers.
+To make that happen, we will define a new `:hover` block in `.layeredText` and move all the 3D related styles into it. That includes the color and shadow of the `span`, the color and `translateZ` of each `.layer`, and to make it look even better, we will also animate the [<VPIcon icon="iconfont icon-css-tricks"/>`opacity`](https://css-tricks.com/almanac/properties/o/opacity/) of the layers.
 
 ```css
 .layeredText {
@@ -369,7 +369,7 @@ That is it. We are officially done writing JavaScript for this article. At this 
 
 Great. So, what do we do with them?
 
-Remember the examples from the previous chapter where we used [<FontIcon icon="iconfont icon-css-tricks"/>`background-image`](https://css-tricks.com/almanac/properties/b/background-image/)? That is the key. Let us take that same idea and use a simple radial gradient, from red to white.
+Remember the examples from the previous chapter where we used [<VPIcon icon="iconfont icon-css-tricks"/>`background-image`](https://css-tricks.com/almanac/properties/b/background-image/)? That is the key. Let us take that same idea and use a simple radial gradient, from red to white.
 
 ```css
 .layer {
@@ -469,7 +469,7 @@ Keep in mind, this makes the text nearly unreadable when the hover effect is not
 
 This is it. The only thing left is to fine tune the size of the gradient for each layer. And we are done. But I do not want the bulge to have a linear shape. Using the normalized value alone will give me evenly spaced steps across all layers. That results in a shape with straight edges, like a cone.
 
-To get a more convex appearance, we can take advantage of the new trigonometric functions available in CSS. We will take the normalized value, multiply it by 90 degrees, and pass it through a [<FontIcon icon="fa-brands fa-firefox"/>`cos()`](https://developer.mozilla.org/en-US/docs/Web/CSS/cos) function. Just like the normalized value, the cosine will return a number between `0` and `1`, but with a very different distribution. The spacing between values is non-linear, which gives us that smooth convex curve.
+To get a more convex appearance, we can take advantage of the new trigonometric functions available in CSS. We will take the normalized value, multiply it by 90 degrees, and pass it through a [<VPIcon icon="fa-brands fa-firefox"/>`cos()`](https://developer.mozilla.org/en-US/docs/Web/CSS/cos) function. Just like the normalized value, the cosine will return a number between `0` and `1`, but with a very different distribution. The spacing between values is non-linear, which gives us that smooth convex curve.
 
 ```css
 --cos: calc(cos(var(--n) * 90deg));

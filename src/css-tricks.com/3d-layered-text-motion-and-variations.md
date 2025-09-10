@@ -128,7 +128,7 @@ If we want to take this a few steps further, we can combine the wobble with a **
 }
 ```
 
-To really sell the effect, we will leave the original span in place — like a shadowed anchor — change its color to transparent, and animate the blur factor of its [<FontIcon icon="iconfont icon-css-tricks"/>`text-shadow`](https://css-tricks.com/almanac/properties/t/text-shadow/):
+To really sell the effect, we will leave the original span in place — like a shadowed anchor — change its color to transparent, and animate the blur factor of its [<VPIcon icon="iconfont icon-css-tricks"/>`text-shadow`](https://css-tricks.com/almanac/properties/t/text-shadow/):
 
 ```css
 span {
@@ -158,7 +158,7 @@ OK, this is starting to look a lot better now that things are moving. But the wh
 
 It is absolutely possible to split each word into a separate letters and animate them individually. But it also means a lot more elements moving on the screen, and that can lead to performance issues. If you go this route, try not to animate too many letters at once, and consider reducing the number of layers.
 
-In the next example, for instance, I reduced the layer count to sixteen. There are five letters, and to place them side by side, I gave the `.scene` a `display: flex`, then added a small delay to each letter using [<FontIcon icon="iconfont icon-css-tricks"/>`:nth-child`](https://css-tricks.com/almanac/pseudo-selectors/n/nth-child/):
+In the next example, for instance, I reduced the layer count to sixteen. There are five letters, and to place them side by side, I gave the `.scene` a `display: flex`, then added a small delay to each letter using [<VPIcon icon="iconfont icon-css-tricks"/>`:nth-child`](https://css-tricks.com/almanac/pseudo-selectors/n/nth-child/):
 <CodePen
   user=""
   slug-hash="Angles"
@@ -235,7 +235,7 @@ But we can apply the animation to each layer separately and give each one a slig
 }
 ```
 
-Here I am using the [<FontIcon icon="iconfont icon-css-tricks"/>`:is`](https://css-tricks.com/almanac/pseudo-selectors/i/is/) selector to target both the individual layers and the `span` itself with the same animation. The result is a much more lively and engaging effect:
+Here I am using the [<VPIcon icon="iconfont icon-css-tricks"/>`:is`](https://css-tricks.com/almanac/pseudo-selectors/i/is/) selector to target both the individual layers and the `span` itself with the same animation. The result is a much more lively and engaging effect:
 
 <CodePen
   link="htps://codepen.io/amit_sheen/ogjxgMo/4154f7659c6bfe2ccac29fe75e5ad939"
@@ -352,7 +352,7 @@ We’ll start with the colors. First, we give all the layers a `transparent` tex
 
 Now let’s define the background, and we’ll say we want a moving **checkerboard** pattern. We can create it using `repeating-conic-gradient` with two colors. The first will be our `--color` variable, and the second could be `transparent`. But in this case, I think black with very low opacity works better.
 
-We just need to set the [<FontIcon icon="iconfont icon-css-tricks"/>`background-size`](https://css-tricks.com/almanac/properties/b/background-size/) to control the pattern scale, and of course, make sure to apply `background-clip: text` here too:
+We just need to set the [<VPIcon icon="iconfont icon-css-tricks"/>`background-size`](https://css-tricks.com/almanac/properties/b/background-size/) to control the pattern scale, and of course, make sure to apply `background-clip: text` here too:
 
 ```css
 .layer {
@@ -373,7 +373,7 @@ We just need to set the [<FontIcon icon="iconfont icon-css-tricks"/>`background-
 }
 ```
 
-As you can see, I have already added the [<FontIcon icon="iconfont icon-css-tricks"/>`animation`](https://css-tricks.com/almanac/properties/a/animation/) property. In this case, it is very simple to animate the pattern. Just slowly move the [<FontIcon icon="iconfont icon-css-tricks"/>`background-position`](https://css-tricks.com/almanac/properties/b/background-position/), and that is it. Now we have text with a moving 3D pattern:
+As you can see, I have already added the [<VPIcon icon="iconfont icon-css-tricks"/>`animation`](https://css-tricks.com/almanac/properties/a/animation/) property. In this case, it is very simple to animate the pattern. Just slowly move the [<VPIcon icon="iconfont icon-css-tricks"/>`background-position`](https://css-tricks.com/almanac/properties/b/background-position/), and that is it. Now we have text with a moving 3D pattern:
 
 <CodePen
   link="htps://codepen.io/amit_sheen/bNVEoWE/049e2c0741eefc70e1c983af7bcbb11f"
@@ -387,7 +387,7 @@ As you can see, I have already added the [<FontIcon icon="iconfont icon-css-tric
 
 So far, we have been using a single font, and as I mentioned earlier, font choice is mostly a matter of taste or brand guidelines. But since we are already working with layered text, we absolutely have to try it with [**variable fonts**](/css-tricks.com/one-file-many-options-using-variable-fonts-web.md). The idea behind variable fonts is that each one includes axes you can manipulate to change its appearance. These can include width, weight, slant, or just about anything else.
 
-Here are a few examples I really like. The first one uses the [<FontIcon icon="fa-brands fa-google"/>Climate Crisis](https://fonts.google.com/specimen/Climate+Crisis) font, which has a `YEAR` axis that ranges from 1979 to 2025. With each year, the letters melt slightly and shrink a bit. It is a powerful ecological statement, and when you stack the text in layers, you can actually see the changes and get a pretty striking 3D effect:
+Here are a few examples I really like. The first one uses the [<VPIcon icon="fa-brands fa-google"/>Climate Crisis](https://fonts.google.com/specimen/Climate+Crisis) font, which has a `YEAR` axis that ranges from 1979 to 2025. With each year, the letters melt slightly and shrink a bit. It is a powerful ecological statement, and when you stack the text in layers, you can actually see the changes and get a pretty striking 3D effect:
 
 <CodePen
   link="htps://codepen.io/amit_sheen/bNVpeKa/e10f6983bf27b1b037cc42c5786c1b77"
@@ -395,7 +395,7 @@ Here are a few examples I really like. The first one uses the [<FontIcon icon="f
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Another great option is [<FontIcon icon="fa-brands fa-google"/>Bitcount](https://fonts.google.com/specimen/Bitcount), a variable font with a classic weight axis ranging from 100 to 900. By changing the weight based on the layer index, you get a layered effect that looks like peaks rising across the text:
+Another great option is [<VPIcon icon="fa-brands fa-google"/>Bitcount](https://fonts.google.com/specimen/Bitcount), a variable font with a classic weight axis ranging from 100 to 900. By changing the weight based on the layer index, you get a layered effect that looks like peaks rising across the text:
 
 <CodePen
   link="htps://codepen.io/amit_sheen/EaVKyQz/294d460943eccd531e10b20652fcc6f7"
@@ -403,7 +403,7 @@ Another great option is [<FontIcon icon="fa-brands fa-google"/>Bitcount](https:/
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-And here is an example that might give your browser a bit of a workout. The font [<FontIcon icon="fa-brands fa-google"/>Kablammo](https://fonts.google.com/specimen/Kablammo) includes a `MORF` axis, and adjusting it completely changes the shape of each letter. So, I figured it would be fun to animate that axis (yes, `font-variation-settings` is animatable), and add a short delay between the layers, like we saw earlier, to give the animation a more dynamic and lively feel.
+And here is an example that might give your browser a bit of a workout. The font [<VPIcon icon="fa-brands fa-google"/>Kablammo](https://fonts.google.com/specimen/Kablammo) includes a `MORF` axis, and adjusting it completely changes the shape of each letter. So, I figured it would be fun to animate that axis (yes, `font-variation-settings` is animatable), and add a short delay between the layers, like we saw earlier, to give the animation a more dynamic and lively feel.
 
 <CodePen
   link="htps://codepen.io/amit_sheen/empZzLX/91f672b29cf098e5ddfde7d51480c4fa"

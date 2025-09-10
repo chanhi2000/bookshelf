@@ -52,7 +52,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4338"/>
 
-Back in the old days, when I was building web sites by hand, in the snow, uphill, both ways,[<FontIcon icon="iconfont icon-jQuery"/>jQuery](https://jquery.com/)was my default tool when building any kind of interactivity on a web page. Way before I even considered building apps, jQuery was the workhorse that made cross-browser web development easy, or at least a little less painful. In 2024, it’s still in use on the vast majority of web sites. (I’ve seen various numbers, but all point to*at least*roughly three fourths of the web sites in use today.)
+Back in the old days, when I was building web sites by hand, in the snow, uphill, both ways,[<VPIcon icon="iconfont icon-jQuery"/>jQuery](https://jquery.com/)was my default tool when building any kind of interactivity on a web page. Way before I even considered building apps, jQuery was the workhorse that made cross-browser web development easy, or at least a little less painful. In 2024, it’s still in use on the vast majority of web sites. (I’ve seen various numbers, but all point to*at least*roughly three fourths of the web sites in use today.)
 
 I think part of the reason jQuery was so successful is that, along with patching browser incompatibilities (looking at you,Safari & Internet Explorer), it was a laser focused set of utilities for common things developers needed to do. Mainly:
 
@@ -60,7 +60,7 @@ I think part of the reason jQuery was so successful is that, along with patching
 - Listening for events in the DOM
 - Making changes in the DOM
 
-It did a lot more than that, but those three items are part of every interactive web page I’ve built since the introduction of JavaScript. This is why I’ve been so enamored of late with[<FontIcon icon="fas fa-globe"/>Alpine.js](https://alpinejs.dev/). Alpine.js is lightweight (44kb minified, around half of jQuery’s size) and simple enough that the entire thing (at a high level), is documented *on the home page*. Let’s quickly go over the basics, and hopefully you’ll fall in love as well!
+It did a lot more than that, but those three items are part of every interactive web page I’ve built since the introduction of JavaScript. This is why I’ve been so enamored of late with[<VPIcon icon="fas fa-globe"/>Alpine.js](https://alpinejs.dev/). Alpine.js is lightweight (44kb minified, around half of jQuery’s size) and simple enough that the entire thing (at a high level), is documented *on the home page*. Let’s quickly go over the basics, and hopefully you’ll fall in love as well!
 
 ---
 
@@ -257,7 +257,7 @@ You can play with this below:
 
 CodePen Embed Fallback
 
-Alpine also supports various modifies for event handling including the ability to run events once, prevent default behavior, throttle, and more. Check the[<FontIcon icon="fas fa-globe"/>modifiers](https://alpinejs.dev/directives/on#modifiers)docs for more examples.
+Alpine also supports various modifies for event handling including the ability to run events once, prevent default behavior, throttle, and more. Check the[<VPIcon icon="fas fa-globe"/>modifiers](https://alpinejs.dev/directives/on#modifiers)docs for more examples.
 
 ---
 
@@ -320,13 +320,13 @@ Alpine Article 8
 
 I just spent the last two thousand or so words explaining the basics of Alpine and raving about how much I love it so it would be crazy for me to tell you*not*to use it, right? Years ago, when I was much younger and foolish, I*always*reached for a JavaScript framework. First Angular, than Vue. Now that I’m much more mature and rarely make mistakes (ahem), my default is vanilla JavaScript, and by that I mean, no framework. If I just need a few lines of code, it would be silly to load anything I don’t need, even Alpine. That being said, when I’m building something that is doing a lot of DOM manipulation, needs proper two-way binding, or just feels like, mentally, I need an “assistant”, Alpine is what I go to first.
 
-With that, let me leave you with not one, but two Alpine examples I’m particularly proud of. The first is[<FontIcon icon="fas fa-globe"/>IdletFleet](https://idlefleet.netlify.app/), a simple “idle clicker” game where you work to build a space trading empire. Emphasis on the simple.
+With that, let me leave you with not one, but two Alpine examples I’m particularly proud of. The first is[<VPIcon icon="fas fa-globe"/>IdletFleet](https://idlefleet.netlify.app/), a simple “idle clicker” game where you work to build a space trading empire. Emphasis on the simple.
 
-Next is[<FontIcon icon="fas fa-globe"/>Cat Herder](https://catherder.netlify.app/), another “idle clicker” game but since it involves cats, you can’t be quite as idle.
+Next is[<VPIcon icon="fas fa-globe"/>Cat Herder](https://catherder.netlify.app/), another “idle clicker” game but since it involves cats, you can’t be quite as idle.
 
 Both games have links to their respective repositories where you can dig into the code and how Alpine helped, but I encourage you to play both a bit before you peek behind the curtains.
 
-Also be sure to[<FontIcon icon="fas fa-globe"/>perusethe Alpine docs](https://alpinejs.dev/) as I didn’t cover quite everything, but you can easily read the complete docs in less than an hour.[](https://github.com/cfjedimaster/writing/blob/main/intro_to_alpine/article.md#why-alpine-is-the-new-jquery-and-why-that-is-an-awesome-thing)
+Also be sure to[<VPIcon icon="fas fa-globe"/>perusethe Alpine docs](https://alpinejs.dev/) as I didn’t cover quite everything, but you can easily read the complete docs in less than an hour.[](https://github.com/cfjedimaster/writing/blob/main/intro_to_alpine/article.md#why-alpine-is-the-new-jquery-and-why-that-is-an-awesome-thing)
 
 <SiteInfo
   name="writing/intro_to_alpine/article.md at main · cfjedimaster/writing"

@@ -65,13 +65,13 @@ The startup file may contain any Python code. This code will execute before the 
 
 It’s important to highlight that the startup file runs in the same namespace where you’ll be running your interactive code. So, objects defined or imported in this file will be available in your interactive session. This behavior is useful when you want to load tools and customize the features of your interactive shell.
 
-Before doing some cool stuff with a startup file, you need to learn how to tell the interpreter which file you want to use as your startup file. You do this by setting the [<FontIcon icon="fa-brands fa-python"/>`PYTHONSTARTUP`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONSTARTUP) environment variable in your system’s shell.
+Before doing some cool stuff with a startup file, you need to learn how to tell the interpreter which file you want to use as your startup file. You do this by setting the [<VPIcon icon="fa-brands fa-python"/>`PYTHONSTARTUP`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONSTARTUP) environment variable in your system’s shell.
 
 If you’re on Linux or macOS, then you can go to your home folder and open your shell’s configuration file. Once you’ve opened that file, add the following line at the end of it:
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-linux"/>
+@tab:active <VPIcon icon="fa-brands fa-linux"/>
 
 ```sh title=".bashrc"
 # ...
@@ -79,7 +79,7 @@ If you’re on Linux or macOS, then you can go to your home folder and open your
 export PYTHONSTARTUP=~/.pythonstartup
 ```
 
-@tab <FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="iconfont icon-macos"/>
 
 ```sh title=".zshrc"
 # ...
@@ -123,7 +123,7 @@ Cool! The `pp()` function is already available for use. Note that `reload()` als
 
 You can add whatever imports you need in your REPL’s startup file. This is a nice and quick way to have useful tools at your disposal whenever you run an interactive session.
 
-Another interesting customization that you make in your REPL’s startup file is to change the characters used to identify the primary (`>>>`) and secondary (`...`) prompts. To do this, you can change the [<FontIcon icon="fa-brands fa-python"/>`sys.ps1`](https://docs.python.org/3/library/sys.html#sys.ps1) and [<FontIcon icon="fa-brands fa-python"/>`sys.ps2`](https://docs.python.org/3/library/sys.html#sys.ps2) variables.
+Another interesting customization that you make in your REPL’s startup file is to change the characters used to identify the primary (`>>>`) and secondary (`...`) prompts. To do this, you can change the [<VPIcon icon="fa-brands fa-python"/>`sys.ps1`](https://docs.python.org/3/library/sys.html#sys.ps1) and [<VPIcon icon="fa-brands fa-python"/>`sys.ps2`](https://docs.python.org/3/library/sys.html#sys.ps2) variables.
 
 Go ahead and add the following code to your startup file:
 
@@ -152,7 +152,7 @@ You’ll find many other interesting tweaks and customizations to add to your RE
 
 ## Colorizing REPL Output With Rich
 
-The Rich library allows you to use [<FontIcon icon="fa-brands fa-wikipedia-w"/>rich text](https://en.wikipedia.org/wiki/Formatted_text) and pretty formatting in the terminal. [Rich 5.1.0 (<FontIcon icon="iconfont icon-github"/>`willmcgugan/rich`)](https://github.com/willmcgugan/rich) included highlighted pretty printing. You can use this feature to colorize the standard REPL’s output. However, you first need to [**`pip`**](/realpython.com/what-is-pip.md) install Rich from [**PyPI, the Python package index**](/realpython.com/pypi-publish-python-package.md), with the following command:
+The Rich library allows you to use [<VPIcon icon="fa-brands fa-wikipedia-w"/>rich text](https://en.wikipedia.org/wiki/Formatted_text) and pretty formatting in the terminal. [Rich 5.1.0 (<VPIcon icon="iconfont icon-github"/>`willmcgugan/rich`)](https://github.com/willmcgugan/rich) included highlighted pretty printing. You can use this feature to colorize the standard REPL’s output. However, you first need to [**`pip`**](/realpython.com/what-is-pip.md) install Rich from [**PyPI, the Python package index**](/realpython.com/pypi-publish-python-package.md), with the following command:
 
 ```sh
 python -m pip install rich

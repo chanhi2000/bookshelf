@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5489"/>
 
-Are you as excited about[<FontIcon icon="fas fa-globe"/>CSS Day](https://cssday.nl/)as I am? While browsing the conference website, I couldn’t help but notice their big firebrick-red buttons. A website isn’t just about displaying content, it’s about creating excitement. Every interaction should feel polished and engaging, especially buttons, which are the primary way users navigate the site.
+Are you as excited about[<VPIcon icon="fas fa-globe"/>CSS Day](https://cssday.nl/)as I am? While browsing the conference website, I couldn’t help but notice their big firebrick-red buttons. A website isn’t just about displaying content, it’s about creating excitement. Every interaction should feel polished and engaging, especially buttons, which are the primary way users navigate the site.
 
 A well-animated button can capture attention, reinforce branding, and make the experience more enjoyable. In this article, we’ll take a closer look at the existing buttons and explore ways to enhance them with modern CSS techniques.
 

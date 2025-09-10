@@ -316,7 +316,7 @@ See you next week!
 
 ::: important Today's action step
 
-Take a look at [<FontIcon icon="fa-brands fa-youtube"/>**this video**](https://youtu.be/AHzWJ_SMqLo), where I explain how to implement domain events to build a decoupled system that scales.
+Take a look at [<VPIcon icon="fa-brands fa-youtube"/>**this video**](https://youtu.be/AHzWJ_SMqLo), where I explain how to implement domain events to build a decoupled system that scales.
 
 <VidStack src="youtube/AHzWJ_SMqLo" />
 

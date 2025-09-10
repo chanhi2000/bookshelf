@@ -179,10 +179,10 @@ If you're thinking we can use LINQ's `Select` method somehow, you're thinking in
 
 We only scratched the surface of what functional programming is, and what you can do with it. If you want to learn more, here are some learning materials:
 
-- [<FontIcon icon="fas fa-globe"/>Functional Programming in C#, by Enrico Buonanno](https://manning.com/books/functional-programming-in-c-sharp)
-- [<FontIcon icon="fa-brands fa-youtube"/>Functional Programming With C# Using Railway-Oriented Programming](https://youtu.be/dDasAmowFts)
-- [<FontIcon icon="fa-brands fa-youtube"/>How Function Composition Can Make Your Code Better](https://youtu.be/zuy2j8vxgYc)
-- [<FontIcon icon="fa-brands fa-youtube"/>Make Your ASP.NET Core API Controllers Incredibly Simple With Functional Programming](https://youtu.be/AVA2mKG4WOc)
+- [<VPIcon icon="fas fa-globe"/>Functional Programming in C#, by Enrico Buonanno](https://manning.com/books/functional-programming-in-c-sharp)
+- [<VPIcon icon="fa-brands fa-youtube"/>Functional Programming With C# Using Railway-Oriented Programming](https://youtu.be/dDasAmowFts)
+- [<VPIcon icon="fa-brands fa-youtube"/>How Function Composition Can Make Your Code Better](https://youtu.be/zuy2j8vxgYc)
+- [<VPIcon icon="fa-brands fa-youtube"/>Make Your ASP.NET Core API Controllers Incredibly Simple With Functional Programming](https://youtu.be/AVA2mKG4WOc)
 
 <VidStack src="youtube/dDasAmowFts" />
 <VidStack src="youtube/zuy2j8vxgYc" />

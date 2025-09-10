@@ -84,13 +84,13 @@ Launch your terminal and paste the code below to create a React application:
 
 npx create-react-app render-list
 
-Run the code below to install the [<FontIcon icon="fas fa-globe"/>Faker library](https://fakerjs.dev), which we’ll use to generate random data to use in our application:
+Run the code below to install the [<VPIcon icon="fas fa-globe"/>Faker library](https://fakerjs.dev), which we’ll use to generate random data to use in our application:
 
 ```sh
 npm i @faker-js/faker
 ```
 
-Next, go to the `App` component in the <FontIcon icon="fas fa-folder-open"/>`src` directory and enter the code below:
+Next, go to the `App` component in the <VPIcon icon="fas fa-folder-open"/>`src` directory and enter the code below:
 
 ```jsx :collapsed-lines title="App.jsx"
 import React from 'react';
@@ -119,7 +119,7 @@ function App() {
 export default App;
 ```
 
-Go the <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file and add the lines of code below to add a little styling to the list:
+Go the <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` file and add the lines of code below to add a little styling to the list:
 
 ```css :collaspsed-lines title="App.css"
 .post {
@@ -162,7 +162,7 @@ To better demonstrate, let’s cover five ways to solve list-related performance
 
 Pagination allows you to render data in pages as opposed to rendering all the information at once. This way, you basically control the amount of data that is shown on the page so you don’t have to put too much stress on the DOM tree.
 
-Most UI libraries in React come with a pagination component, but if you want to quickly implement pagination without having to install a UI library, you might want to check out [<FontIcon icon="fa-brands fa-npm"/>`react-paginate`](https://npmjs.com/package/react-paginate). The library renders a pagination component that accepts some props helps you navigate through your data.
+Most UI libraries in React come with a pagination component, but if you want to quickly implement pagination without having to install a UI library, you might want to check out [<VPIcon icon="fa-brands fa-npm"/>`react-paginate`](https://npmjs.com/package/react-paginate). The library renders a pagination component that accepts some props helps you navigate through your data.
 
 To install the library, run the code below in your terminal:
 
@@ -243,7 +243,7 @@ Below is a screenshot of how the app looks after pagination has been added to it
 
 Another way to render a large amount of data is with infinite scroll. Infinite scroll involves appending data to the end of the page as you scroll down the list. When the page initially loads, only a subset of data is loaded. As you scroll down the page, more data is appended.
 
-There are several ways to implement infinite scroll in React. Personally, I prefer to use [<FontIcon icon="fa-brands fa-npm"/>`react-infinite-scroller`](https://npmjs.com/package/react-infinite-scroller). To install it, run the following code in your terminal:
+There are several ways to implement infinite scroll in React. Personally, I prefer to use [<VPIcon icon="fa-brands fa-npm"/>`react-infinite-scroller`](https://npmjs.com/package/react-infinite-scroller). To install it, run the following code in your terminal:
 
 npm i react-infinite-scroller
 
@@ -307,7 +307,7 @@ Basically, whenever the user scrolls to the end of the page, it checks if the `h
 
 ## `react-virtualized`
 
-[<FontIcon icon="fa-brands fa-npm"/>`react-virtualized`](https://npmjs.com/package/react-virtualized) was specifically designed for rendering large lists and tabular data. It uses a technique similar to infinite scroll called windowing that renders only thevisible parts of a list to the screen.
+[<VPIcon icon="fa-brands fa-npm"/>`react-virtualized`](https://npmjs.com/package/react-virtualized) was specifically designed for rendering large lists and tabular data. It uses a technique similar to infinite scroll called windowing that renders only thevisible parts of a list to the screen.
 
 One advantage `react-virtualized` has over the aforementioned solutions is its wealth of useful components, including `Collection`, `Grid`, `List`, `Masonryf`, and `Table`.
 
@@ -361,7 +361,7 @@ The `List` component takes the `width` and `height` props to set the dimensions 
 
 ## `react-window`
 
-[<FontIcon icon="fa-brands fa-npm"/>`react-window`](https://npmjs.com/package/react-window) is a set of components for efficiently rendering large lists in React. A complete rewrite of `react-virtualized`, the library aims to address shortcomings related to size and speed. `react-window` also covers more edge cases than `react-virtualized`.
+[<VPIcon icon="fa-brands fa-npm"/>`react-window`](https://npmjs.com/package/react-window) is a set of components for efficiently rendering large lists in React. A complete rewrite of `react-virtualized`, the library aims to address shortcomings related to size and speed. `react-window` also covers more edge cases than `react-virtualized`.
 
 Install `react-window` by running the code below in your terminal:
 
@@ -409,13 +409,13 @@ export default App;
 
 The code is very similar to that of `react-virtualized`. We used a `List` component, which accepts a set of props that defines the list, and passed in a `Row` component function, which is responsible for rendering each row in the list.
 
-The author of the library outlined the [differences between `react-window`and `react-virtualized` (<FontIcon icon="iconfont icon-github"/>`bvaughn/react-window#how-is-react-window-different-from-react-virtualized`)](https://github.com/bvaughn/react-window#how-is-react-window-different-from-react-virtualized) at this GitHub repository.
+The author of the library outlined the [differences between `react-window`and `react-virtualized` (<VPIcon icon="iconfont icon-github"/>`bvaughn/react-window#how-is-react-window-different-from-react-virtualized`)](https://github.com/bvaughn/react-window#how-is-react-window-different-from-react-virtualized) at this GitHub repository.
 
 ---
 
 ## React ViewPort List
 
-Like `react-virtualized`, [React ViewPort List (<FontIcon icon="fa-brands fa-npm"/>`react-viewport-list`)](https://npmjs.com/package/react-viewport-list) utilizes a technique called windowing, which renders only a portion of the list at a time, significantly reducing the time it takes to re-render components as well as the number of DOM nodes created. React ViewPort List has some interesting features like:
+Like `react-virtualized`, [React ViewPort List (<VPIcon icon="fa-brands fa-npm"/>`react-viewport-list`)](https://npmjs.com/package/react-viewport-list) utilizes a technique called windowing, which renders only a portion of the list at a time, significantly reducing the time it takes to re-render components as well as the number of DOM nodes created. React ViewPort List has some interesting features like:
 
 - Support for vertical and horizontal lists️️
 - Support for scroll to index

@@ -96,7 +96,7 @@ Definitely. Custom properties can be just about anything. It’s almost weird ho
 
 ## Bugs?
 
-I figured I’d have [a play (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/XJWxVpv) for old times sake. While I was doing that, I noticed a few oddities.
+I figured I’d have [a play (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/XJWxVpv) for old times sake. While I was doing that, I noticed a few oddities.
 
 ```css
 body {
@@ -163,7 +163,7 @@ Here’s a video of that and some other stuff working together. No custom proper
 
 <VidStack src="https://videopress.com/embed/JlJiTKxm?cover=1&autoPlay=0&controls=1&loop=0&muted=0&persistVolume=1&playsinline=0&preloadContent=metadata&useAverageColor=1&hd=0" />
 
-I have stuck in my memory [<FontIcon icon="fas fa-globe"/>a Simurai post from 2014](https://simurai.com/blog/2014/05/04/cssconf) where he showed off the power of this as well.
+I have stuck in my memory [<VPIcon icon="fas fa-globe"/>a Simurai post from 2014](https://simurai.com/blog/2014/05/04/cssconf) where he showed off the power of this as well.
 
 ![Nice.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/04/cssconf-color3.gif?resize=1008%2C560&ssl=1)
 

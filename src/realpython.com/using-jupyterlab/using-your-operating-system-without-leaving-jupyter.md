@@ -56,7 +56,7 @@ JupyterLab allows you to directly access your operating system’s [**command-li
 
 ![jupyter lab terminal button](https://files.realpython.com/media/ie-terminal-buttonCR.68ea9e4a7209.png)
 
-In Windows, this opens [<FontIcon icon="fa-brands fa-wikipedia-w"/>PowerShell](https://en.wikipedia.org/wiki/PowerShell). In Linux, it’s usually a [<FontIcon icon="fa-brands fa-wikipedia-w"/>Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) shell, while macOS usually uses a [<FontIcon icon="fa-brands fa-wikipedia-w"/>Zshell](https://en.wikipedia.org/wiki/Z_shell). Once you have a command line, you can then enter the operating system commands that you need. Just remember that you’re running the commands with the same privileges as those that you’ve used to access JupyterLab, so unless you run with administrator privileges, you won’t be able to run all commands.
+In Windows, this opens [<VPIcon icon="fa-brands fa-wikipedia-w"/>PowerShell](https://en.wikipedia.org/wiki/PowerShell). In Linux, it’s usually a [<VPIcon icon="fa-brands fa-wikipedia-w"/>Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) shell, while macOS usually uses a [<VPIcon icon="fa-brands fa-wikipedia-w"/>Zshell](https://en.wikipedia.org/wiki/Z_shell). Once you have a command line, you can then enter the operating system commands that you need. Just remember that you’re running the commands with the same privileges as those that you’ve used to access JupyterLab, so unless you run with administrator privileges, you won’t be able to run all commands.
 
 The screenshot below shows a Windows PowerShell terminal that you’ve accessed from within JupyterLab:
 

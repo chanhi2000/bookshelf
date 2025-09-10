@@ -57,7 +57,7 @@ The CSS`corner-shape`property represents one of the most exciting additions to w
 
 ::: note
 
-As of this writing (June 2025),`corner-shape`is **a very new feature** with limited browser support, currently only available in Chrome (version M139 and above). The specification may still undergo changes. Try [<FontIcon icon="fa-brands fa-chrome"/>Chrome Canary](https://google.com/chrome/canary/) right now to view these demos.
+As of this writing (June 2025),`corner-shape`is **a very new feature** with limited browser support, currently only available in Chrome (version M139 and above). The specification may still undergo changes. Try [<VPIcon icon="fa-brands fa-chrome"/>Chrome Canary](https://google.com/chrome/canary/) right now to view these demos.
 
 :::
 
@@ -344,7 +344,7 @@ So far, we’ve explored the predefined keywords of `corner-shape`, which are gr
 
 ![A colorful geometric design featuring lines and curves arranged in a symmetrical pattern, resembling a superellipse with a vibrant gradient from black to neon colors.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/vihaX6Fo.png?resize=820%2C620&ssl=1)
 
-As a mathematical concept, the superellipse has existed for about a hundred years, and I love it because someone took something that had existed for centuries (the ellipse formula) and said, “let’s do this differently”.[<FontIcon icon="fa-brands fa-wikipedia-w"/>Gabriel Lamé](https://en.wikipedia.org/wiki/Gabriel_Lam%C3%A9)took the formula for an ellipse $\left[x^{2}+y^{2}=1\right]$ and asked, what happens if we replace the $^2$ with something else?! The result: hundred years goes by, his formula is embedded in browsers, making thousands of web developers happier.
+As a mathematical concept, the superellipse has existed for about a hundred years, and I love it because someone took something that had existed for centuries (the ellipse formula) and said, “let’s do this differently”.[<VPIcon icon="fa-brands fa-wikipedia-w"/>Gabriel Lamé](https://en.wikipedia.org/wiki/Gabriel_Lam%C3%A9)took the formula for an ellipse $\left[x^{2}+y^{2}=1\right]$ and asked, what happens if we replace the $^2$ with something else?! The result: hundred years goes by, his formula is embedded in browsers, making thousands of web developers happier.
 
 ::: note
 
@@ -404,7 +404,7 @@ If this were possible, we could create some really interesting shapes like this:
 
 ## Beyond Two Dimensions
 
-While it’s completely outside the scope of this article, if you’ve made it this far, you might be interested to know that the superellipse concept extends to higher dimensions as well. There’s the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Superellipsoid](https://en.wikipedia.org/wiki/Superellipsoid) that exists in three dimensions, and you can represent a hyperellipsoid in $d$ dimensions using the following formula:
+While it’s completely outside the scope of this article, if you’ve made it this far, you might be interested to know that the superellipse concept extends to higher dimensions as well. There’s the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Superellipsoid](https://en.wikipedia.org/wiki/Superellipsoid) that exists in three dimensions, and you can represent a hyperellipsoid in $d$ dimensions using the following formula:
 
 $$
 x_{1}^{n}+x_{2}^{n}+\cdots+x_{d}^{n}=1
@@ -416,11 +416,11 @@ $$
 
 This article walked us through the evolution from a simple rounded edges to a full geometric vocabulary with the new CSS`corner‑shape`property. We explored the predefined shapes, and discover how they map directly to points on the superellipse spectrum, and dive into the true power of the superellipse function. We saw how we can mix multiple values to craft wild shapes, how to animate and transition the corners, and how to exploit even the weird edge case to our advantage.
 
-Now it’s your turn: bring these ideas into your own work. [<FontIcon icon="fa-brands fa-codepen"/>Open a new Pen](https://pen.new), add a`corner‑shape`to a simple box or button, and watch how a tiny tweak changes the whole feel of your design. Don’t forget to share your experiments with the community, inspire others with unexpected curves and help drive this bold new CSS feature into everyday use.
+Now it’s your turn: bring these ideas into your own work. [<VPIcon icon="fa-brands fa-codepen"/>Open a new Pen](https://pen.new), add a`corner‑shape`to a simple box or button, and watch how a tiny tweak changes the whole feel of your design. Don’t forget to share your experiments with the community, inspire others with unexpected curves and help drive this bold new CSS feature into everyday use.
 
 ::: note
 
-I’d like to give special thanks to Noam Rosenthal for reviewing the code and examples, helping refine the ideas, and of course, for authoring the[<FontIcon icon="fas fa-globe"/>spec for `corner-shape`](https://drafts.csswg.org/css-borders-4/#corner-shaping)and implementing it in chromium.
+I’d like to give special thanks to Noam Rosenthal for reviewing the code and examples, helping refine the ideas, and of course, for authoring the[<VPIcon icon="fas fa-globe"/>spec for `corner-shape`](https://drafts.csswg.org/css-borders-4/#corner-shaping)and implementing it in chromium.
 
 :::
 

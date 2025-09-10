@@ -51,7 +51,7 @@ cover: https://files.realpython.com/media/building_with_python_watermark.2ebe5be
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/building_with_python_watermark.2ebe5beb5b1e.jpg"/>
 
-You’ve finished a course or finally made it to the end of a [<FontIcon icon="fas fa-globe"/>book](https://realpython.com/products/python-basics-book/) that teaches you the [<FontIcon icon="fas fa-globe"/>basics of programming with Python](https://realpython.com/learning-paths/python3-introduction/). You’ve learned about [**variables**](/realpython.com/python-variables.md), [**lists, tuples**](/realpython.com/python-lists-tuples.md), [**dictionaries**](/realpython.com/python-dicts.md), [**`for`**](/realpython.com/python-for-loop.md) and [**`while`**](/realpython.com/python-while-loop.md) loops, [**conditional statements**](/realpython.com/python-conditional-statements.md), [**object-oriented concepts**](/realpython.com/python3-object-oriented-programming.md), and more. So, what’s next? What can you do with Python nowadays?
+You’ve finished a course or finally made it to the end of a [<VPIcon icon="fas fa-globe"/>book](https://realpython.com/products/python-basics-book/) that teaches you the [<VPIcon icon="fas fa-globe"/>basics of programming with Python](https://realpython.com/learning-paths/python3-introduction/). You’ve learned about [**variables**](/realpython.com/python-variables.md), [**lists, tuples**](/realpython.com/python-lists-tuples.md), [**dictionaries**](/realpython.com/python-dicts.md), [**`for`**](/realpython.com/python-for-loop.md) and [**`while`**](/realpython.com/python-while-loop.md) loops, [**conditional statements**](/realpython.com/python-conditional-statements.md), [**object-oriented concepts**](/realpython.com/python3-object-oriented-programming.md), and more. So, what’s next? What can you do with Python nowadays?
 
 Python is a versatile programming language with many use cases in a variety of different fields. If you’ve grasped the basics of Python and are itching to build something with the language, then it’s time to figure out what your next step should be.
 
@@ -70,17 +70,17 @@ You’ll also find ideas for practical projects, resources, and tutorials that y
 
 ## Python in the Real World
 
-Python is a high-level and general-purpose programming language. As this definition implies, you can use Python for [<FontIcon icon="iconfont icon-jetbrains"/>several purposes](https://jetbrains.com/lp/python-developers-survey-2020/#PurposesUsingPython), from [<FontIcon icon="fas fa-globe"/>web development](https://realpython.com/tutorials/web-dev/) to [<FontIcon icon="fas fa-globe"/>data science](https://realpython.com/tutorials/data-science/), [<FontIcon icon="fas fa-globe"/>machine learning](https://realpython.com/tutorials/machine-learning/), and [<FontIcon icon="fas fa-globe"/>robotics](https://talkpython.fm/episodes/show/232/become-a-robot-developer-with-python). Python’s real-world use cases are limitless.
+Python is a high-level and general-purpose programming language. As this definition implies, you can use Python for [<VPIcon icon="iconfont icon-jetbrains"/>several purposes](https://jetbrains.com/lp/python-developers-survey-2020/#PurposesUsingPython), from [<VPIcon icon="fas fa-globe"/>web development](https://realpython.com/tutorials/web-dev/) to [<VPIcon icon="fas fa-globe"/>data science](https://realpython.com/tutorials/data-science/), [<VPIcon icon="fas fa-globe"/>machine learning](https://realpython.com/tutorials/machine-learning/), and [<VPIcon icon="fas fa-globe"/>robotics](https://talkpython.fm/episodes/show/232/become-a-robot-developer-with-python). Python’s real-world use cases are limitless.
 
-You’re probably wondering what people are [<FontIcon icon="fa-brands fa-python"/>successfully building](https://python.org/success-stories/) with Python. If you take a quick look at companies using the language, then you’ll find [**world-class companies**](/realpython.com/world-class-companies-using-python.md), such as Google, YouTube, Facebook, Instagram, Spotify, Netflix, and more.
+You’re probably wondering what people are [<VPIcon icon="fa-brands fa-python"/>successfully building](https://python.org/success-stories/) with Python. If you take a quick look at companies using the language, then you’ll find [**world-class companies**](/realpython.com/world-class-companies-using-python.md), such as Google, YouTube, Facebook, Instagram, Spotify, Netflix, and more.
 
-Google has used Python [<FontIcon icon="fa-brands fa-stack-overflow"/>from the start](https://stackoverflow.com/questions/2560310/heavy-usage-of-python-at-google/2561008#2561008), and it’s gained a place as one of the tech giant’s main server-side languages. [Guido van Rossum (<FontIcon icon="fa-brands fa-x-twitter"/>)](https://x.com/gvanrossum), Python’s creator, worked there for several years, overseeing the language’s development.
+Google has used Python [<VPIcon icon="fa-brands fa-stack-overflow"/>from the start](https://stackoverflow.com/questions/2560310/heavy-usage-of-python-at-google/2561008#2561008), and it’s gained a place as one of the tech giant’s main server-side languages. [Guido van Rossum (<VPIcon icon="fa-brands fa-x-twitter"/>)](https://x.com/gvanrossum), Python’s creator, worked there for several years, overseeing the language’s development.
 
-[<FontIcon icon="fas fa-globe"/>Instagram likes Python](https://pyfound.blogspot.com/2021/05/the-2021-python-language-summit-cpython.html) for its simplicity. The service [is known for (<FontIcon icon="fa-brands fa-medium"/>`instagram-engineering`)](https://instagram-engineering.com/web-service-efficiency-at-instagram-with-python-4976d078e366) running “the world’s largest deployment of the Django web framework, which is written entirely in Python.”
+[<VPIcon icon="fas fa-globe"/>Instagram likes Python](https://pyfound.blogspot.com/2021/05/the-2021-python-language-summit-cpython.html) for its simplicity. The service [is known for (<VPIcon icon="fa-brands fa-medium"/>`instagram-engineering`)](https://instagram-engineering.com/web-service-efficiency-at-instagram-with-python-4976d078e366) running “the world’s largest deployment of the Django web framework, which is written entirely in Python.”
 
 Spotify uses the language for data analysis and back-end services. According to its team, Python’s ease of use leads to a lightning-fast development pipeline. Spotify performs a ton of analysis to give recommendations to its users, so it needs a productive tool that works well. Python to the rescue!
 
-You’ll also find that Python has been vital for science and [**space exploration**](/realpython.com/python-news-march-2021.md#python-lands-on-mars), with a lot of exciting use cases in [<FontIcon icon="fa-brands fa-wikipedia-w"/>robotics](https://en.wikipedia.org/wiki/Robotics) and hardware control.
+You’ll also find that Python has been vital for science and [**space exploration**](/realpython.com/python-news-march-2021.md#python-lands-on-mars), with a lot of exciting use cases in [<VPIcon icon="fa-brands fa-wikipedia-w"/>robotics](https://en.wikipedia.org/wiki/Robotics) and hardware control.
 
 In this article, you’ll see how you can use your Python skills in a wide range of areas.
 
@@ -88,7 +88,7 @@ In this article, you’ll see how you can use your Python skills in a wide range
 
 ## Develop Cool Software
 
-Python’s ecosystem provides a rich set of [<FontIcon icon="fa-brands fa-wikipedia-w"/>frameworks](https://en.wikipedia.org/wiki/Software_framework), tools, and libraries that allow you to write almost any kind of application. You can use Python to build applications for the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Web](https://en.wikipedia.org/wiki/World_Wide_Web) as well as [<FontIcon icon="fa-brands fa-wikipedia-w"/>desktop](https://en.wikipedia.org/wiki/Desktop_metaphor) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>mobile](https://en.wikipedia.org/wiki/Mobile_computing) platforms. You can even use Python to [**create video games**](/realpython.com/top-python-game-engines.md).
+Python’s ecosystem provides a rich set of [<VPIcon icon="fa-brands fa-wikipedia-w"/>frameworks](https://en.wikipedia.org/wiki/Software_framework), tools, and libraries that allow you to write almost any kind of application. You can use Python to build applications for the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Web](https://en.wikipedia.org/wiki/World_Wide_Web) as well as [<VPIcon icon="fa-brands fa-wikipedia-w"/>desktop](https://en.wikipedia.org/wiki/Desktop_metaphor) and [<VPIcon icon="fa-brands fa-wikipedia-w"/>mobile](https://en.wikipedia.org/wiki/Mobile_computing) platforms. You can even use Python to [**create video games**](/realpython.com/top-python-game-engines.md).
 
 ### Web Development
 
@@ -96,37 +96,37 @@ Developing web applications with Python is one of the most in-demand skills, wit
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-django"/>Django
+@tab <VPIcon icon="iconfont icon-django"/>Django
 
 https://djangoproject.com/
 
 Django is a high-level framework that encourages rapid web application development with a clean and pragmatic design. It allows you to focus on writing your applications without having to reinvent the wheel.
 
-@tab <FontIcon icon="iconfont icon-fastapi"/>FastAPI
+@tab <VPIcon icon="iconfont icon-fastapi"/>FastAPI
 
 https://fastapi.tiangolo.com/
 
 FastAPI is a fast and performant web framework for building web APIs. It’s built on top of modern Python type hint features and enables [**asynchronous**](/realpython.com/async-io-python.md) programming.
 
-@tab <FontIcon icon="iconfont icon-flask"/>Flask
+@tab <VPIcon icon="iconfont icon-flask"/>Flask
 
 https://palletsprojects.com/p/flask/
 
-Flask is a lightweight framework for creating [<FontIcon icon="fas fa-globe"/>WSGI](https://wsgi.readthedocs.io/) web applications. It allows you to get started quickly and to scale up to complex applications if needed.
+Flask is a lightweight framework for creating [<VPIcon icon="fas fa-globe"/>WSGI](https://wsgi.readthedocs.io/) web applications. It allows you to get started quickly and to scale up to complex applications if needed.
 
 @tab Tornado
 
 https://tornadoweb.org/en/stable/
 
-Tornado is a web framework and asynchronous networking library. It uses non-blocking network [<FontIcon icon="fa-brands fa-wikipedia-w"/>I/O](https://en.wikipedia.org/wiki/Input/output), so you can write applications that can scale to tens of thousands of open connections.
+Tornado is a web framework and asynchronous networking library. It uses non-blocking network [<VPIcon icon="fa-brands fa-wikipedia-w"/>I/O](https://en.wikipedia.org/wiki/Input/output), so you can write applications that can scale to tens of thousands of open connections.
 
 :::
 
 ::: tip To get started with web development, check out
 
-- [<FontIcon icon="fas fa-globe"/>Python Web Development Tutorials](https://realpython.com/tutorials/web-dev/)
-- [<FontIcon icon="fas fa-globe"/>Django Tutorials](https://realpython.com/tutorials/django/)
-- [<FontIcon icon="fas fa-globe"/>Flask Tutorials](https://realpython.com/tutorials/flask/)
+- [<VPIcon icon="fas fa-globe"/>Python Web Development Tutorials](https://realpython.com/tutorials/web-dev/)
+- [<VPIcon icon="fas fa-globe"/>Django Tutorials](https://realpython.com/tutorials/django/)
+- [<VPIcon icon="fas fa-globe"/>Flask Tutorials](https://realpython.com/tutorials/flask/)
 - [**FastAPI Tutorial**](/realpython.com/fastapi-python-web-apis.md)
 
 :::
@@ -135,7 +135,7 @@ If you want some practical project ideas for applying your web development skill
 
 ### CLI Development
 
-Another field in which Python shines is [<FontIcon icon="fa-brands fa-wikipedia-w"/>command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface) application development. CLI applications are everywhere and allow you to automate repetitive and boring tasks in your day-to-day work by creating small and large tools for your command line.
+Another field in which Python shines is [<VPIcon icon="fa-brands fa-wikipedia-w"/>command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface) application development. CLI applications are everywhere and allow you to automate repetitive and boring tasks in your day-to-day work by creating small and large tools for your command line.
 
 In Python, you have an impressive set of CLI libraries and frameworks that can make your life more pleasant and help you build command-line tools quickly:
 
@@ -145,7 +145,7 @@ In Python, you have an impressive set of CLI libraries and frameworks that can m
 
 https://docs.python.org/3/library/argparse.html#module-argparse
 
-`argparse` is a [<FontIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html) module that allows you to write user-friendly command-line interfaces. You can define the arguments you want to take at the command line and parse them nicely. It automatically generates help and usage messages and issues errors when your users provide invalid input.
+`argparse` is a [<VPIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html) module that allows you to write user-friendly command-line interfaces. You can define the arguments you want to take at the command line and parse them nicely. It automatically generates help and usage messages and issues errors when your users provide invalid input.
 
 @tab Click
 
@@ -157,7 +157,7 @@ Click is a Python package for creating beautiful command-line interfaces with as
 
 https://typer.tiangolo.com/
 
-Typer is a library for building CLI applications that users will love using and developers will love creating. It provides automatic help messages and automatic completion for all [<FontIcon icon="fa-brands fa-wikipedia-w"/>shells](https://en.wikipedia.org/wiki/Shell_(computing)). It minimizes code duplication and facilitates debugging.
+Typer is a library for building CLI applications that users will love using and developers will love creating. It provides automatic help messages and automatic completion for all [<VPIcon icon="fa-brands fa-wikipedia-w"/>shells](https://en.wikipedia.org/wiki/Shell_(computing)). It minimizes code duplication and facilitates debugging.
 
 :::
 
@@ -169,33 +169,33 @@ Typer is a library for building CLI applications that users will love using and 
 
 :::
 
-Additionally, if you want to jump into building a CLI application project, then you can start by creating a [**directory tree generator tool**](/realpython.com/directory-tree-generator-python.md) for your command line. In this step-by-step project, you’ll build a command-line tool for generating ASCII diagrams that display the contents of a [<FontIcon icon="fa-brands fa-wikipedia-w"/>directory](https://en.wikipedia.org/wiki/Directory_(computing)) or folder in your file system. You can also work with ASCII to create a [**hangman game**](/realpython.com/python-hangman.md).
+Additionally, if you want to jump into building a CLI application project, then you can start by creating a [**directory tree generator tool**](/realpython.com/directory-tree-generator-python.md) for your command line. In this step-by-step project, you’ll build a command-line tool for generating ASCII diagrams that display the contents of a [<VPIcon icon="fa-brands fa-wikipedia-w"/>directory](https://en.wikipedia.org/wiki/Directory_(computing)) or folder in your file system. You can also work with ASCII to create a [**hangman game**](/realpython.com/python-hangman.md).
 
 Creating applications with a user-friendly and intuitive command-line interface is a valuable skill for any Python developer.
 
 ### GUI Development
 
-Creating traditional [<FontIcon icon="fa-brands fa-wikipedia-w"/>graphical user interface (GUI)](https://en.wikipedia.org/wiki/Graphical_user_interface) applications for [<FontIcon icon="fa-brands fa-wikipedia-w"/>desktop environments](https://en.wikipedia.org/wiki/Desktop_environment) is also an attractive option in Python. If you’re interested in building this kind of application, then Python has you covered with a wide range of GUI libraries, frameworks, and toolkits to choose from:
+Creating traditional [<VPIcon icon="fa-brands fa-wikipedia-w"/>graphical user interface (GUI)](https://en.wikipedia.org/wiki/Graphical_user_interface) applications for [<VPIcon icon="fa-brands fa-wikipedia-w"/>desktop environments](https://en.wikipedia.org/wiki/Desktop_environment) is also an attractive option in Python. If you’re interested in building this kind of application, then Python has you covered with a wide range of GUI libraries, frameworks, and toolkits to choose from:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-kivy"/>Kivy
+@tab:active <VPIcon icon="iconfont icon-kivy"/>Kivy
 
 https://kivy.org/#home
 
 Kivy is a library for rapid development of applications with innovative user interfaces, such as [multi-touch](https://en.wikipedia.org/wiki/Multi-touch) applications. It runs on Linux, Windows, macOS, Android, iOS, and [Raspberry Pi](https://realpython.com/python-raspberry-pi/).
 
-@tab <FontIcon icon="iconfont icon-qt"/>PyQt
+@tab <VPIcon icon="iconfont icon-qt"/>PyQt
 
 https://riverbankcomputing.com/static/Docs/PyQt6/
 
-PyQt is a set of Python bindings for the [<FontIcon icon="iconfont icon-qt"/>Qt](https://wiki.qt.io/About_Qt) application framework. It includes classes for building GUI applications. It also provides classes for networking, [**threads**](/realpython.com/ppython-pyqt-qthread.md), [**SQL databases**](/realpython.com/python-pyqt-database.md), and more. It supports the Windows, Linux, and macOS platforms.
+PyQt is a set of Python bindings for the [<VPIcon icon="iconfont icon-qt"/>Qt](https://wiki.qt.io/About_Qt) application framework. It includes classes for building GUI applications. It also provides classes for networking, [**threads**](/realpython.com/ppython-pyqt-qthread.md), [**SQL databases**](/realpython.com/python-pyqt-database.md), and more. It supports the Windows, Linux, and macOS platforms.
 
 @tab PySimpleGUI
 
 https://pysimplegui.readthedocs.io/en/latest/
 
-PySimpleGUI is a library that aims to transform the tkinter, Qt, wxPython, and [<FontIcon icon="iconfont icon-github"/>`dddomodossola/remi`](https://github.com/dddomodossola/remi) GUI frameworks into a simpler interface. It uses Python core data types to define windows and simplify event handling.
+PySimpleGUI is a library that aims to transform the tkinter, Qt, wxPython, and [<VPIcon icon="iconfont icon-github"/>`dddomodossola/remi`](https://github.com/dddomodossola/remi) GUI frameworks into a simpler interface. It uses Python core data types to define windows and simplify event handling.
 
 @tab Qt for Python (<code>PySide6</code>)
 
@@ -207,13 +207,13 @@ Qt for Python is a project that provides the official set of Python bindings (`P
 
 https://docs.python.org/3/library/tkinter.html#module-tkinter
 
-tkinter is a standard Python interface to the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Tk GUI toolkit](https://en.wikipedia.org/wiki/Tk_(software)). It allows you to build GUI applications without the need for third-party dependencies. It’s available on most Unix platforms as well as on Windows systems. 
+tkinter is a standard Python interface to the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Tk GUI toolkit](https://en.wikipedia.org/wiki/Tk_(software)). It allows you to build GUI applications without the need for third-party dependencies. It’s available on most Unix platforms as well as on Windows systems. 
 
 @tab wxPython
 
 https://wxpython.org/
 
-wxPython is a Python binding for the [wxWidgets](https://wxwidgets.org/) [<FontIcon icon="fa-brands fa-wikipedia-w"/>C++](https://en.wikipedia.org/wiki/C%2B%2B) library. It allows you to create applications for Windows, macOS, and Linux with a single code base. It gives applications a native look and feel because it uses the platform’s native [**API**](/realpython.com/python-api.md).
+wxPython is a Python binding for the [wxWidgets](https://wxwidgets.org/) [<VPIcon icon="fa-brands fa-wikipedia-w"/>C++](https://en.wikipedia.org/wiki/C%2B%2B) library. It allows you to create applications for Windows, macOS, and Linux with a single code base. It gives applications a native look and feel because it uses the platform’s native [**API**](/realpython.com/python-api.md).
 
 :::
 
@@ -227,7 +227,7 @@ A quick way to start building your GUI applications is to use [`tkinter`](https:
 
 :::
 
-Building [<FontIcon icon="fa-brands fa-wikipedia-w"/>back-end](https://en.wikipedia.org/wiki/Front_end_and_back_end) services is an essential part of development. However, you also need a front end. Creating applications that users can effectively interact with is paramount.
+Building [<VPIcon icon="fa-brands fa-wikipedia-w"/>back-end](https://en.wikipedia.org/wiki/Front_end_and_back_end) services is an essential part of development. However, you also need a front end. Creating applications that users can effectively interact with is paramount.
 
 If you want to start creating real-world GUI applications, then you can [**build a calculator using PyQt**](/realpython.com/python-pyqt-gui-calculator.md). Completing this calculator project will help you grasp the fundamentals of this full-featured GUI framework, so you can start building nice things for your desktop immediately.
 
@@ -244,7 +244,7 @@ These projects will guide you through the process of building GUI applications w
 
 ### Game Development
 
-Creating computer games is a great way to learn how to program not only in Python but also in any other language. To develop games, you’ll need to use [**variables**](/realpython.com/python-variables.md), [**loops**](/realpython.com/python-for-loop.md), [**conditional statements**](/realpython.com/python-conditional-statements.md), [**functions**](/realpython.com/defining-your-own-python-function.md), [<FontIcon icon="fas fa-globe"/>object-oriented programming](https://realpython.com/courses/intro-object-oriented-programming-oop-python/), and more. Game development is an excellent option to integrate multiple skills.
+Creating computer games is a great way to learn how to program not only in Python but also in any other language. To develop games, you’ll need to use [**variables**](/realpython.com/python-variables.md), [**loops**](/realpython.com/python-for-loop.md), [**conditional statements**](/realpython.com/python-conditional-statements.md), [**functions**](/realpython.com/defining-your-own-python-function.md), [<VPIcon icon="fas fa-globe"/>object-oriented programming](https://realpython.com/courses/intro-object-oriented-programming-oop-python/), and more. Game development is an excellent option to integrate multiple skills.
 
 Computer games have played an important role in programming. Many people get into programming because they love games and want to re-create their favorite games or build their own. Developing computer games can be a fun and rewarding adventure, in which you can live the great experience of playing the game you just created.
 
@@ -262,19 +262,19 @@ Arcade is a Python library for creating 2D video games. It’s ideal for people 
 
 https://pygame.org/wiki/about
 
-PyGame is a set of Python modules designed for writing video games. It adds functionality on top of the [<FontIcon icon="fas fa-globe"/>SDL](http://www.libsdl.org/) library. It allows you to create full-featured games and multimedia programs. The library is highly portable and runs on several platforms and operating systems.
+PyGame is a set of Python modules designed for writing video games. It adds functionality on top of the [<VPIcon icon="fas fa-globe"/>SDL](http://www.libsdl.org/) library. It allows you to create full-featured games and multimedia programs. The library is highly portable and runs on several platforms and operating systems.
 
 @tab pyglet
 
 http://pyglet.org/
 
-pyglet is a powerful Python library for creating games and other visually rich applications on Windows, macOS, and Linux. It supports windowing, user interface event handling, [<FontIcon icon="fa-brands fa-wikipedia-w"/>OpenGL](https://en.wikipedia.org/wiki/OpenGL) graphics, loading images, and playing videos and music.
+pyglet is a powerful Python library for creating games and other visually rich applications on Windows, macOS, and Linux. It supports windowing, user interface event handling, [<VPIcon icon="fa-brands fa-wikipedia-w"/>OpenGL](https://en.wikipedia.org/wiki/OpenGL) graphics, loading images, and playing videos and music.
 
 :::
 
 ::: tip To get started with game programming, check out:
 
-- [<FontIcon icon="fas fa-globe"/>Python Game Development Tutorials](https://realpython.com/tutorials/gamedev/)
+- [<VPIcon icon="fas fa-globe"/>Python Game Development Tutorials](https://realpython.com/tutorials/gamedev/)
 - [**PyGame: A Primer on Game Programming in Python**](/realpython.com/pygame-a-primer.md)
 
 :::
@@ -287,21 +287,21 @@ If you want to dive into building your first game, then you can start by [**buil
 
 ## Dive Into Data Science and Math
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Data science](https://en.wikipedia.org/wiki/Data_science) is a field that involves cleaning, preparing, and analyzing data to extract knowledge from it. Data science combines [<FontIcon icon="fa-brands fa-wikipedia-w"/>statistics](https://en.wikipedia.org/wiki/Statistic), [<FontIcon icon="fa-brands fa-wikipedia-w"/>mathematics](https://en.wikipedia.org/wiki/Mathematics), [<FontIcon icon="fa-brands fa-wikipedia-w"/>programming](https://en.wikipedia.org/wiki/Computer_programming), and problem-solving skills to extract useful information from data.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Data science](https://en.wikipedia.org/wiki/Data_science) is a field that involves cleaning, preparing, and analyzing data to extract knowledge from it. Data science combines [<VPIcon icon="fa-brands fa-wikipedia-w"/>statistics](https://en.wikipedia.org/wiki/Statistic), [<VPIcon icon="fa-brands fa-wikipedia-w"/>mathematics](https://en.wikipedia.org/wiki/Mathematics), [<VPIcon icon="fa-brands fa-wikipedia-w"/>programming](https://en.wikipedia.org/wiki/Computer_programming), and problem-solving skills to extract useful information from data.
 
-Python plays a fundamental role in the fields of [<FontIcon icon="fas fa-globe"/>data science](https://realpython.com/tutorials/data-science/) and math. The language has become popular among scientists because of its readability, productivity, flexibility, and portability. The Python ecosystem around science has grown immensely. You’ll find mature Python solutions in almost every major field in math and science.
+Python plays a fundamental role in the fields of [<VPIcon icon="fas fa-globe"/>data science](https://realpython.com/tutorials/data-science/) and math. The language has become popular among scientists because of its readability, productivity, flexibility, and portability. The Python ecosystem around science has grown immensely. You’ll find mature Python solutions in almost every major field in math and science.
 
-Python includes tools for [<FontIcon icon="fa-brands fa-wikipedia-w"/>machine learning (ML)](https://en.wikipedia.org/wiki/Machine_learning), [<FontIcon icon="fa-brands fa-wikipedia-w"/>artificial intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence), [<FontIcon icon="fa-brands fa-wikipedia-w"/>scientific computing](https://en.wikipedia.org/wiki/Computational_science), [<FontIcon icon="fa-brands fa-wikipedia-w"/>data analysis](https://en.wikipedia.org/wiki/Data_analysis), and [<FontIcon icon="fa-brands fa-wikipedia-w"/>data visualization](https://en.wikipedia.org/wiki/Data_visualization). The language also provides efficient tools for collecting, [<FontIcon icon="fa-brands fa-wikipedia-w"/>mining](https://en.wikipedia.org/wiki/Data_mining), and manipulating data.
+Python includes tools for [<VPIcon icon="fa-brands fa-wikipedia-w"/>machine learning (ML)](https://en.wikipedia.org/wiki/Machine_learning), [<VPIcon icon="fa-brands fa-wikipedia-w"/>artificial intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence), [<VPIcon icon="fa-brands fa-wikipedia-w"/>scientific computing](https://en.wikipedia.org/wiki/Computational_science), [<VPIcon icon="fa-brands fa-wikipedia-w"/>data analysis](https://en.wikipedia.org/wiki/Data_analysis), and [<VPIcon icon="fa-brands fa-wikipedia-w"/>data visualization](https://en.wikipedia.org/wiki/Data_visualization). The language also provides efficient tools for collecting, [<VPIcon icon="fa-brands fa-wikipedia-w"/>mining](https://en.wikipedia.org/wiki/Data_mining), and manipulating data.
 
 ### Machine Learning
 
-Machine learning can be the first step for someone interested in artificial intelligence. Machine learning studies algorithms that learn through experience. These algorithms build models based on samples of [<FontIcon icon="fa-brands fa-wikipedia-w"/>training data](https://en.wikipedia.org/wiki/Training_data) to make predictions and decisions.
+Machine learning can be the first step for someone interested in artificial intelligence. Machine learning studies algorithms that learn through experience. These algorithms build models based on samples of [<VPIcon icon="fa-brands fa-wikipedia-w"/>training data](https://en.wikipedia.org/wiki/Training_data) to make predictions and decisions.
 
 Machine learning can be an intimidating field to get started with because the space is fast and ever-changing. Here’s a summary of some of the most popular tools for doing machine learning with Python:
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-keras"/>Keras
+@tab <VPIcon icon="iconfont icon-keras"/>Keras
 
 https://keras.io/
 
@@ -313,19 +313,19 @@ https://nltk.org/
 
 NLTK is a platform for building Python programs to [**work with human language data**](/realpython.com/nltk-nlp-python.md). It provides libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning.
 
-@tab <FontIcon icon="iconfont icon-pytorch"/>PyTorch
+@tab <VPIcon icon="iconfont icon-pytorch"/>PyTorch
 
 https://pytorch.org/
 
 PyTorch is an open source machine learning framework that accelerates the path from research prototyping to production deployment.
 
-@tab <FontIcon icon="iconfont icon-scikit-learn"/>scikit-learn
+@tab <VPIcon icon="iconfont icon-scikit-learn"/>scikit-learn
 
 http://scikit-learn.org/
 
-scikit-learn is an open source machine learning library that supports [<FontIcon icon="fa-brands fa-wikipedia-w"/>supervised](https://en.wikipedia.org/wiki/Supervised_learning) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning). It’s an efficient tool for predictive data analysis that’s accessible to everybody and reusable in various contexts.
+scikit-learn is an open source machine learning library that supports [<VPIcon icon="fa-brands fa-wikipedia-w"/>supervised](https://en.wikipedia.org/wiki/Supervised_learning) and [<VPIcon icon="fa-brands fa-wikipedia-w"/>unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning). It’s an efficient tool for predictive data analysis that’s accessible to everybody and reusable in various contexts.
 
-@tab <FontIcon icon="iconfont icon-tensorflow"/>TensorFlow
+@tab <VPIcon icon="iconfont icon-tensorflow"/>TensorFlow
 
 https://tensorflow.org/
 
@@ -335,20 +335,20 @@ TensorFlow is an end-to-end open source platform for machine learning. It has a 
 
 ::: tip To get started with machine learning, check out:
 
-- [<FontIcon icon="fas fa-globe"/>Python Machine Learning Tutorials](https://realpython.com/tutorials/machine-learning/)
-- [<FontIcon icon="fas fa-globe"/>Machine Learning With Python Learning Path](https://realpython.com/learning-paths/machine-learning-python/)
+- [<VPIcon icon="fas fa-globe"/>Python Machine Learning Tutorials](https://realpython.com/tutorials/machine-learning/)
+- [<VPIcon icon="fas fa-globe"/>Machine Learning With Python Learning Path](https://realpython.com/learning-paths/machine-learning-python/)
 
 :::
 
 ### Scientific Computing
 
-Another field in which Python plays a significant role is scientific computing. Scientists use advanced [<FontIcon icon="fa-brands fa-wikipedia-w"/>computing](https://en.wikipedia.org/wiki/Computing) capabilities available through [<FontIcon icon="fa-brands fa-wikipedia-w"/>supercomputers](https://en.wikipedia.org/wiki/Supercomputer), [<FontIcon icon="fa-brands fa-wikipedia-w"/>clusters of computers](https://en.wikipedia.org/wiki/Computer_cluster), and even desktop and laptop computers to understand and solve complex problems.
+Another field in which Python plays a significant role is scientific computing. Scientists use advanced [<VPIcon icon="fa-brands fa-wikipedia-w"/>computing](https://en.wikipedia.org/wiki/Computing) capabilities available through [<VPIcon icon="fa-brands fa-wikipedia-w"/>supercomputers](https://en.wikipedia.org/wiki/Supercomputer), [<VPIcon icon="fa-brands fa-wikipedia-w"/>clusters of computers](https://en.wikipedia.org/wiki/Computer_cluster), and even desktop and laptop computers to understand and solve complex problems.
 
 Here are some of the libraries and tools you can use for scientific computing in Python these days:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-numpy"/>NumPy
+@tab:active <VPIcon icon="iconfont icon-numpy"/>NumPy
 
 https://numpy.org/
 
@@ -370,7 +370,7 @@ SimPy is a process-based discrete-event simulation framework based on Python. It
 
 ::: tip To get started with scientific computing, check out
 
-- [<FontIcon icon="fas fa-globe"/>Math for Data Science Learning Path](https://realpython.com/learning-paths/math-data-science/)
+- [<VPIcon icon="fas fa-globe"/>Math for Data Science Learning Path](https://realpython.com/learning-paths/math-data-science/)
 - [**NumPy, SciPy, and Pandas: Correlation With Python**](/realpython.com/numpy-scipy-pandas-correlation-python.md)
 - [**SimPy: Simulating Real-World Processes With Python**](/realpython.com/simpy-simulating-with-python.md)
 
@@ -380,7 +380,7 @@ The libraries and tools in this section are fundamental pieces in the data scien
 
 ### Data Analysis and Visualization
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Data analysis](https://en.wikipedia.org/wiki/Data_analysis) is a process of collecting, inspecting, [<FontIcon icon="fa-brands fa-wikipedia-w"/>cleansing](https://en.wikipedia.org/wiki/Data_cleansing), [<FontIcon icon="fa-brands fa-wikipedia-w"/>transforming](https://en.wikipedia.org/wiki/Data_transformation), and [<FontIcon icon="fa-brands fa-wikipedia-w"/>modeling](https://en.wikipedia.org/wiki/Data_modeling) data to discover useful information, make predictions, arrive at conclusions, support decision-making processes, and more. Data analysis is closely related to [<FontIcon icon="fa-brands fa-wikipedia-w"/>data visualization](https://en.wikipedia.org/wiki/Data_visualization), which deals with the graphical representation of data.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Data analysis](https://en.wikipedia.org/wiki/Data_analysis) is a process of collecting, inspecting, [<VPIcon icon="fa-brands fa-wikipedia-w"/>cleansing](https://en.wikipedia.org/wiki/Data_cleansing), [<VPIcon icon="fa-brands fa-wikipedia-w"/>transforming](https://en.wikipedia.org/wiki/Data_transformation), and [<VPIcon icon="fa-brands fa-wikipedia-w"/>modeling](https://en.wikipedia.org/wiki/Data_modeling) data to discover useful information, make predictions, arrive at conclusions, support decision-making processes, and more. Data analysis is closely related to [<VPIcon icon="fa-brands fa-wikipedia-w"/>data visualization](https://en.wikipedia.org/wiki/Data_visualization), which deals with the graphical representation of data.
 
 In Python, you’ll also find mature and well-established libraries for data analysis and data visualization. Here are some of them:
 
@@ -398,13 +398,13 @@ https://plotly.com/dash/
 
 Dash is a Python framework for building web analytic applications quickly. It’s ideal for building data visualization applications with custom user interfaces that render in the browser.
 
-@tab <FontIcon icon="iconfont icon-matplotlib"/>Matplotlib
+@tab <VPIcon icon="iconfont icon-matplotlib"/>Matplotlib
 
 https://matplotlib.org/
 
 Matplotlib is a library for creating static, animated, and interactive data visualizations in Python.
 
-@tab <FontIcon icon="iconfont icon-pandas"/>pandas
+@tab <VPIcon icon="iconfont icon-pandas"/>pandas
 
 https://pandas.pydata.org/
 
@@ -420,10 +420,10 @@ Seaborn is a Python data visualization library based on Matplotlib. It provides 
 
 ::: tip To get started with data analysis and visualization, check out
 
-- [<FontIcon icon="fas fa-globe"/>Data Collection & Storage Learning Path](https://realpython.com/learning-paths/data-collection-storage/)
-- [<FontIcon icon="fas fa-globe"/>Data Visualization With Python Learning Path](https://realpython.com/learning-paths/data-visualization-python/)
-- [<FontIcon icon="fas fa-globe"/>Data Science With Python Core Skills Learning Path](https://realpython.com/learning-paths/data-science-python-core-skills/)
-- [<FontIcon icon="fas fa-globe"/>Pandas for Data Science Learning Path Learning Path](https://realpython.com/learning-paths/pandas-data-science/)
+- [<VPIcon icon="fas fa-globe"/>Data Collection & Storage Learning Path](https://realpython.com/learning-paths/data-collection-storage/)
+- [<VPIcon icon="fas fa-globe"/>Data Visualization With Python Learning Path](https://realpython.com/learning-paths/data-visualization-python/)
+- [<VPIcon icon="fas fa-globe"/>Data Science With Python Core Skills Learning Path](https://realpython.com/learning-paths/data-science-python-core-skills/)
+- [<VPIcon icon="fas fa-globe"/>Pandas for Data Science Learning Path Learning Path](https://realpython.com/learning-paths/pandas-data-science/)
 - [**Develop Data Visualization Interfaces in Python With Dash**](/realpython.com/python-dash/README.md)
 
 :::
@@ -432,7 +432,7 @@ If you want to level up your data analysis skills by building a practical projec
 
 ### Web Scraping
 
-One of the most significant sources of information for doing data science is the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Web](https://en.wikipedia.org/wiki/World_Wide_Web). The process of collecting and parsing raw data from the Web with an automated tool ([<FontIcon icon="fa-brands fa-wikipedia-w"/>crawler](https://en.wikipedia.org/wiki/Web_crawler)) is known as [<FontIcon icon="fa-brands fa-wikipedia-w"/>web scraping](https://en.wikipedia.org/wiki/Web_scraping).
+One of the most significant sources of information for doing data science is the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Web](https://en.wikipedia.org/wiki/World_Wide_Web). The process of collecting and parsing raw data from the Web with an automated tool ([<VPIcon icon="fa-brands fa-wikipedia-w"/>crawler](https://en.wikipedia.org/wiki/Web_crawler)) is known as [<VPIcon icon="fa-brands fa-wikipedia-w"/>web scraping](https://en.wikipedia.org/wiki/Web_scraping).
 
 Python has a great set of tools and libraries for scraping data from the Web. Here are some of them:
 
@@ -448,7 +448,7 @@ Beautiful Soup is a Python library for pulling data out of HTML and XML files in
 
 https://requests.readthedocs.io/en/latest/
 
-`requests` is an elegant and powerful [<FontIcon icon="fa-brands fa-wikipedia-w"/>HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) library for Python. It provides an intuitive and concise API designed for human beings.
+`requests` is an elegant and powerful [<VPIcon icon="fa-brands fa-wikipedia-w"/>HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) library for Python. It provides an intuitive and concise API designed for human beings.
 
 @tab Scrapy
 
@@ -460,14 +460,14 @@ Scrapy is a fast, high-level web crawling and web scraping framework. It allows 
 
 https://realpython.com/urllib-request/
 
-`urllib.request` is a standard library module that defines functions and classes to help you open URLs. It also allows you to work with basic and [<FontIcon icon="fa-brands fa-wikipedia-w"/>digest authentication](https://en.wikipedia.org/wiki/Digest_access_authentication), redirections, cookies, and more.
+`urllib.request` is a standard library module that defines functions and classes to help you open URLs. It also allows you to work with basic and [<VPIcon icon="fa-brands fa-wikipedia-w"/>digest authentication](https://en.wikipedia.org/wiki/Digest_access_authentication), redirections, cookies, and more.
 
 :::
 
 ::: tip To scrape data from the web, check out
 
-- [<FontIcon icon="fas fa-globe"/>Python Web Scraping Tutorials](https://realpython.com/tutorials/web-scraping/)
-- [<FontIcon icon="fas fa-globe"/>Python Web Scraping Learning Path](https://realpython.com/learning-paths/python-web-scraping/)
+- [<VPIcon icon="fas fa-globe"/>Python Web Scraping Tutorials](https://realpython.com/tutorials/web-scraping/)
+- [<VPIcon icon="fas fa-globe"/>Python Web Scraping Learning Path](https://realpython.com/learning-paths/python-web-scraping/)
 
 :::
 
@@ -481,7 +481,7 @@ Before using your Python skills for web scraping, you should check the use polic
 
 A second project you can build right away is a [**Bitcoin price notification service**](/realpython.com/python-bitcoin-ifttt.md). Since topping out at a price of just over $40,000 in January 2021, the cryptocurrency has been on the minds of millions. Its price continues to fluctuate, but many people out there would consider it a worthwhile investment.
 
-If you’re looking to cash in on the virtual gold rush and just need to know when to make your move, then you’ll need to stay on top of Bitcoin’s prices. The foundation of this project is the creation of [<FontIcon icon="fas fa-globe"/>IFTTT](https://ifttt.com/) (If This Then That) applets. You’ll learn how to use [**`requests`**](/realpython.com/python-requests.md) to send HTTP requests and how to use a [<FontIcon icon="fa-brands fa-wikipedia-w"/>webhook](https://en.wikipedia.org/wiki/Webhook) to connect your application to external services.
+If you’re looking to cash in on the virtual gold rush and just need to know when to make your move, then you’ll need to stay on top of Bitcoin’s prices. The foundation of this project is the creation of [<VPIcon icon="fas fa-globe"/>IFTTT](https://ifttt.com/) (If This Then That) applets. You’ll learn how to use [**`requests`**](/realpython.com/python-requests.md) to send HTTP requests and how to use a [<VPIcon icon="fa-brands fa-wikipedia-w"/>webhook](https://en.wikipedia.org/wiki/Webhook) to connect your application to external services.
 
 This Bitcoin price notification service is the perfect starter project for a [**beginner**](/realpython.com/python-beginner-tips.md) Pythonista with interest in crypto. Then you can extend the service you’ll build in this tutorial to monitor other currencies as well.
 
@@ -489,7 +489,7 @@ Thanks to the Internet—and, increasingly, the Internet of Things—you now hav
 
 Analytics is a huge part of any field that works with data. What are people talking about? What patterns can you see in their behavior? Twitter is a great place to get answers to some of these questions. If you’re interested in data analysis, then a [**Twitter sentiment analysis project**](/realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana.md) is a great way to use your Python skills to answer questions about the world around you.
 
-In this project, you’ll learn how to mine Twitter data and analyze user sentiment with a [**Docker**](/realpython.com/python-versions-docker.md) environment. You’ll learn how to register an application with Twitter, which you’ll need to do in order to access their streaming API. You’ll see how to use [<FontIcon icon="fas fa-globe"/>Tweepy](https://tweepy.org/) to filter which tweets you want to pull, [<FontIcon icon="fas fa-globe"/>TextBlob](https://textblob.readthedocs.io/en/dev/) to calculate the sentiment of those tweets, [<FontIcon icon="iconfont icon-elasticsearch"/>Elasticsearch](https://elasticsearch.org/) to analyze their content, and [<FontIcon icon="iconfont icon-elasticsearch"/>Kibana](https://elasticsearch.org/overview/kibana/) to visualize the results.
+In this project, you’ll learn how to mine Twitter data and analyze user sentiment with a [**Docker**](/realpython.com/python-versions-docker.md) environment. You’ll learn how to register an application with Twitter, which you’ll need to do in order to access their streaming API. You’ll see how to use [<VPIcon icon="fas fa-globe"/>Tweepy](https://tweepy.org/) to filter which tweets you want to pull, [<VPIcon icon="fas fa-globe"/>TextBlob](https://textblob.readthedocs.io/en/dev/) to calculate the sentiment of those tweets, [<VPIcon icon="iconfont icon-elasticsearch"/>Elasticsearch](https://elasticsearch.org/) to analyze their content, and [<VPIcon icon="iconfont icon-elasticsearch"/>Kibana](https://elasticsearch.org/overview/kibana/) to visualize the results.
 
 ---
 
@@ -497,11 +497,11 @@ In this project, you’ll learn how to mine Twitter data and analyze user sentim
 
 Computers are extremely good at performing repetitive and boring tasks. They can be doing the same thing for a long time without making mistakes. This is a valuable feature that can help you make your day-to-day work more pleasant and productive.
 
-With Python, you can automate a lot of tasks in your workflow. You can automate and manage your [<FontIcon icon="fa-brands fa-wikipedia-w"/>DevOps](https://en.wikipedia.org/wiki/DevOps) operations, build an effective [**Python development environment**](/realpython.com/effective-python-environment.md), handle the packaging and [<FontIcon icon="fa-brands fa-wikipedia-w"/>deployment](https://en.wikipedia.org/wiki/Software_deployment) process in your development cycle, test your software, manage your database systems, and more.
+With Python, you can automate a lot of tasks in your workflow. You can automate and manage your [<VPIcon icon="fa-brands fa-wikipedia-w"/>DevOps](https://en.wikipedia.org/wiki/DevOps) operations, build an effective [**Python development environment**](/realpython.com/effective-python-environment.md), handle the packaging and [<VPIcon icon="fa-brands fa-wikipedia-w"/>deployment](https://en.wikipedia.org/wiki/Software_deployment) process in your development cycle, test your software, manage your database systems, and more.
 
 ### DevOps
 
-DevOps comprises software development and general [<FontIcon icon="fa-brands fa-wikipedia-w"/>IT operations](https://en.wikipedia.org/wiki/IT_operations). DevOps allows you to handle the entire life cycle of your applications and software products. It includes development, testing, packaging and deployment, and other related operations.
+DevOps comprises software development and general [<VPIcon icon="fa-brands fa-wikipedia-w"/>IT operations](https://en.wikipedia.org/wiki/IT_operations). DevOps allows you to handle the entire life cycle of your applications and software products. It includes development, testing, packaging and deployment, and other related operations.
 
 Python is one of the primary technologies people use for DevOps. Its flexibility and accessibility make Python an excellent fit for this job, enabling development teams to improve their workflow and to be more efficient and productive.
 
@@ -509,24 +509,24 @@ In the Python ecosystem, you’ll find that some popular DevOps tools are writte
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-ansible"/>Ansible
+@tab:active <VPIcon icon="iconfont icon-ansible"/>Ansible
 
 https://ansible.com/
 
 Ansible is a tool for software [provisioning](https://en.wikipedia.org/wiki/Provisioning), configuration management, and [application deployment](https://en.wikipedia.org/wiki/Application_deployment). It enables [infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_code).
 
-@tab <FontIcon icon="fa-brands fa-docker"/>Docker Compose
+@tab <VPIcon icon="fa-brands fa-docker"/>Docker Compose
 
 https://docs.docker.com/compose/
 
-Docker Compose is a tool for defining and running multicontainer [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docs.docker.com/) applications. You can configure your application’s services with a [<FontIcon icon="iconfont icon-yaml"/>YAML](https://yaml.org/) file. Then, with a single command, you can create and start all the services from your configuration file. It works on production, staging, development, testing, and more.
+Docker Compose is a tool for defining and running multicontainer [<VPIcon icon="fa-brands fa-docker"/>Docker](https://docs.docker.com/) applications. You can configure your application’s services with a [<VPIcon icon="iconfont icon-yaml"/>YAML](https://yaml.org/) file. Then, with a single command, you can create and start all the services from your configuration file. It works on production, staging, development, testing, and more.
 
 :::
 
 ::: tip To get started with DevOps, check out
 
-- [<FontIcon icon="fas fa-globe"/>Python DevOps Tutorials](https://realpython.com/tutorials/devops/)
-- [<FontIcon icon="fas fa-globe"/>DevOps With Python Learning Path](https://realpython.com/learning-paths/python-devops/)
+- [<VPIcon icon="fas fa-globe"/>Python DevOps Tutorials](https://realpython.com/tutorials/devops/)
+- [<VPIcon icon="fas fa-globe"/>DevOps With Python Learning Path](https://realpython.com/learning-paths/python-devops/)
 
 :::
 
@@ -540,7 +540,7 @@ Here are some of the most popular tools:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-anaconda"/>Conda
+@tab:active <VPIcon icon="iconfont icon-anaconda"/>Conda
 
 https://docs.conda.io/en/latest/
 
@@ -550,12 +550,12 @@ https://docs.conda.io/en/latest/
 
 https://pip.pypa.io/en/stable/
 
-`pip` is a [<FontIcon icon="fa-brands fa-python"/>package management tool for Python](https://packaging.python.org/guides/tool-recommendations/). It allows you to install packages from [<FontIcon icon="iconfont icon-pypi"/>PyPI](https://pypi.org/) and other indexes.
+`pip` is a [<VPIcon icon="fa-brands fa-python"/>package management tool for Python](https://packaging.python.org/guides/tool-recommendations/). It allows you to install packages from [<VPIcon icon="iconfont icon-pypi"/>PyPI](https://pypi.org/) and other indexes.
 @tab Pipenv
 
 https://pipenv.pypa.io/en/latest/
 
-Pipenv is a tool that aims to bring the best of all packaging worlds to the Python world. It allows you to create and manage virtual environments for your projects. It provides a way to use `pip` and [<FontIcon icon="fas fa-globe"/>`virtualenv`](https://virtualenv.pypa.io/en/latest/) together through a unified interface.
+Pipenv is a tool that aims to bring the best of all packaging worlds to the Python world. It allows you to create and manage virtual environments for your projects. It provides a way to use `pip` and [<VPIcon icon="fas fa-globe"/>`virtualenv`](https://virtualenv.pypa.io/en/latest/) together through a unified interface.
 
 @tab pipx
 
@@ -573,8 +573,8 @@ pyenv is a tool for installing and managing multiple Python versions. It lets yo
 
 ::: tip To build an effective development environment, check out:
 
-- [<FontIcon icon="fas fa-globe"/>Python Development Tools Tutorials](https://realpython.com/tutorials/tools/)
-- [<FontIcon icon="fas fa-globe"/>Perfect Your Python Development Setup Learning Path](https://realpython.com/learning-paths/perfect-your-python-development-setup/)
+- [<VPIcon icon="fas fa-globe"/>Python Development Tools Tutorials](https://realpython.com/tutorials/tools/)
+- [<VPIcon icon="fas fa-globe"/>Perfect Your Python Development Setup Learning Path](https://realpython.com/learning-paths/perfect-your-python-development-setup/)
 - [**An Effective Python Environment: Making Yourself at Home**](/realpython.com/effective-python-environment.md)
 
 :::
@@ -583,7 +583,7 @@ Learning how to build an effective Python environment for your development adven
 
 ### Software Packaging and Deployment
 
-Another critical part of your software development cycle is to [<FontIcon icon="fa-brands fa-python"/>package](https://packaging.python.org/tutorials/packaging-projects/), distribute, and [<FontIcon icon="fa-brands fa-wikipedia-w"/>deploy](https://en.wikipedia.org/wiki/Software_deployment) your products to your end users or clients. In Python, a quick and popular way to deploy applications and libraries is to publish them to PyPI.
+Another critical part of your software development cycle is to [<VPIcon icon="fa-brands fa-python"/>package](https://packaging.python.org/tutorials/packaging-projects/), distribute, and [<VPIcon icon="fa-brands fa-wikipedia-w"/>deploy](https://en.wikipedia.org/wiki/Software_deployment) your products to your end users or clients. In Python, a quick and popular way to deploy applications and libraries is to publish them to PyPI.
 
 Here are some of the tools you can use for this purpose:
 
@@ -595,7 +595,7 @@ https://flit.readthedocs.io/en/latest/index.html
 
 Flit is a tool that provides a quick way to put your Python packages and modules on PyPI. It helps you set up the information about your package, so you can publish it to PyPI with minimal effort.
 
-@tab <FontIcon icon="iconfont icon-poetry"/>Poetry
+@tab <VPIcon icon="iconfont icon-poetry"/>Poetry
 
 https://python-poetry.org/
 
@@ -611,9 +611,9 @@ PyInstaller is a tool that freezes Python applications into stand-alone executab
 
 https://packaging.python.org/key_projects/#setuptools
 
-setuptools is a collection of enhancements to the Python [<FontIcon icon="fa-brands fa-python"/>distutils](https://packaging.python.org/key_projects/#distutils) that allows you to build and distribute Python [<FontIcon icon="fa-brands fa-python"/>distributions](https://packaging.python.org/glossary/#term-Distribution-Package), especially those that depend on other packages.
+setuptools is a collection of enhancements to the Python [<VPIcon icon="fa-brands fa-python"/>distutils](https://packaging.python.org/key_projects/#distutils) that allows you to build and distribute Python [<VPIcon icon="fa-brands fa-python"/>distributions](https://packaging.python.org/glossary/#term-Distribution-Package), especially those that depend on other packages.
 
-@tab <FontIcon icon="iconfont icon-twine"/>Twine
+@tab <VPIcon icon="iconfont icon-twine"/>Twine
 
 https://twine.readthedocs.io/en/latest/
 
@@ -628,15 +628,15 @@ Twine is a utility for publishing Python packages on PyPI. It allows you to uplo
 
 :::
 
-With these resources, you can get started with packaging and deploying your Python applications, libraries, and packages to your end users, clients, and colleges. Also, the [<FontIcon icon="fa-brands fa-python"/>Python Packaging Authority](https://packaging.python.org/) provides a lot of useful information and tutorials to help you distribute Python packages with modern tools.
+With these resources, you can get started with packaging and deploying your Python applications, libraries, and packages to your end users, clients, and colleges. Also, the [<VPIcon icon="fa-brands fa-python"/>Python Packaging Authority](https://packaging.python.org/) provides a lot of useful information and tutorials to help you distribute Python packages with modern tools.
 
 ### Database Systems
 
-Most of the applications you’ll build in your career as a developer will interact with data in some way. This interaction commonly happens through a [<FontIcon icon="fa-brands fa-wikipedia-w"/>database management system (DBMS)](https://en.wikipedia.org/wiki/Database#Database_management_system) that allows you to define, create, maintain, and control access to your database or databases.
+Most of the applications you’ll build in your career as a developer will interact with data in some way. This interaction commonly happens through a [<VPIcon icon="fa-brands fa-wikipedia-w"/>database management system (DBMS)](https://en.wikipedia.org/wiki/Database#Database_management_system) that allows you to define, create, maintain, and control access to your database or databases.
 
-To connect and manipulate your databases with Python, you have several options that include both standard library packages and third-party packages and libraries. You also have options for <FontIcon icon="fa-brands fa-wikipedia-w"/>[SQL](https://en.wikipedia.org/wiki/SQL) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>NoSQL](https://en.wikipedia.org/wiki/NoSQL) databases in Python.
+To connect and manipulate your databases with Python, you have several options that include both standard library packages and third-party packages and libraries. You also have options for <VPIcon icon="fa-brands fa-wikipedia-w"/>[SQL](https://en.wikipedia.org/wiki/SQL) and [<VPIcon icon="fa-brands fa-wikipedia-w"/>NoSQL](https://en.wikipedia.org/wiki/NoSQL) databases in Python.
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Object-relational mapping tools (ORMs)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) are another important type of tool you’ll probably use to work with databases in Python. These tools allow you to use [**object-oriented programming**](/realpython.com/python3-object-oriented-programming.md) to create and manipulate your databases.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Object-relational mapping tools (ORMs)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) are another important type of tool you’ll probably use to work with databases in Python. These tools allow you to use [**object-oriented programming**](/realpython.com/python3-object-oriented-programming.md) to create and manipulate your databases.
 
 Here are some Python libraries you can use for connecting and operating databases:
 
@@ -694,8 +694,8 @@ https://docs.python.org/3/library/sqlite3.html#module-sqlite3
 
 ::: tip To get started with databases, check out:
 
-- [<FontIcon icon="fas fa-globe"/>Python Database Tutorials](https://realpython.com/tutorials/databases/)
-- [<FontIcon icon="fas fa-globe"/>Data Collection & Storage Learning Path](https://realpython.com/learning-paths/data-collection-storage/)
+- [<VPIcon icon="fas fa-globe"/>Python Database Tutorials](https://realpython.com/tutorials/databases/)
+- [<VPIcon icon="fas fa-globe"/>Data Collection & Storage Learning Path](https://realpython.com/learning-paths/data-collection-storage/)
 
 :::
 
@@ -705,7 +705,7 @@ Creating and working with databases is a powerful way to manage data in your Pyt
 
 When you’re beginning with Python or with programming, you probably start by creating small programs and scripts that you can [**run**](/realpython.com/run-python-scripts.md) and test manually to make sure they work as you expect. However, when your programs grow and get more complex, testing them by hand is near to impossible. This is when automated testing comes into the scene.
 
-Unfortunately, developers make mistakes, and no code is perfect. So, you’ll need a testing process that helps you identify bugs and avoid getting them into production. Testing can also [<FontIcon icon="fa-brands fa-wikipedia-w"/>drive your code’s design](https://en.wikipedia.org/wiki/Test-driven_development) and help you check non-functional features, such as performance, security, usability, regulatory compliance, and more. Testing, therefore, is an important component of software development.
+Unfortunately, developers make mistakes, and no code is perfect. So, you’ll need a testing process that helps you identify bugs and avoid getting them into production. Testing can also [<VPIcon icon="fa-brands fa-wikipedia-w"/>drive your code’s design](https://en.wikipedia.org/wiki/Test-driven_development) and help you check non-functional features, such as performance, security, usability, regulatory compliance, and more. Testing, therefore, is an important component of software development.
 
 Python has some of the best tools when it comes to testing. You can use these tools to write consistent tests and to run them automatically. Here’s a small sample of these tools:
 
@@ -720,8 +720,8 @@ Python has some of the best tools when it comes to testing. You can use these to
 
 ::: tip To get started with testing, check out:
 
-- [<FontIcon icon="fas fa-globe"/>Python Testing Tutorials](https://realpython.com/tutorials/testing/)
-- [<FontIcon icon="fas fa-globe"/>Test Your Python Apps Learning Path](https://realpython.com/learning-paths/test-your-python-apps/)
+- [<VPIcon icon="fas fa-globe"/>Python Testing Tutorials](https://realpython.com/tutorials/testing/)
+- [<VPIcon icon="fas fa-globe"/>Test Your Python Apps Learning Path](https://realpython.com/learning-paths/test-your-python-apps/)
 
 :::
 
@@ -761,7 +761,7 @@ https://atsushisakai.github.io/PythonRobotics/
 
 PythonRobotics is a compilation of various robotics algorithms with visualizations. It’s focused on autonomous navigation. Its goal is to allow you to understand the basic ideas behind each robotic algorithm it provides.
 
-@tab <FontIcon icon="fa-brands fa-raspberry-pi"/>Raspberry Pi
+@tab <VPIcon icon="fa-brands fa-raspberry-pi"/>Raspberry Pi
 
 https://raspberrypi.org/about/
 
@@ -771,15 +771,15 @@ Raspberry Pi is a general-purpose, Linux-based computer. It has a complete opera
 
 http://wiki.ros.org/rospy
 
-rospy is a client library for [<FontIcon icon="fas fa-globe"/>ROS (Robot Operating System)](https://ros.org/). Its API enables Python programmers to quickly interface with ROS to create complex and reliable robot behaviors.
+rospy is a client library for [<VPIcon icon="fas fa-globe"/>ROS (Robot Operating System)](https://ros.org/). Its API enables Python programmers to quickly interface with ROS to create complex and reliable robot behaviors.
 
 :::
 
 ::: tip To get started with embedded Python, check out
 
 - [**MicroPython: An Intro to Programming Hardware in Python**](/realpython.com/micropython.md)
-- [<FontIcon icon="fas fa-globe"/>Episode 5: Exploring CircuitPython](https://realpython.com/podcasts/rpp/5/)
-- [<FontIcon icon="fas fa-globe"/>Episode 161: Resources and Advice for Building CircuitPython Projects](https://realpython.com/podcasts/rpp/161/)
+- [<VPIcon icon="fas fa-globe"/>Episode 5: Exploring CircuitPython](https://realpython.com/podcasts/rpp/5/)
+- [<VPIcon icon="fas fa-globe"/>Episode 161: Resources and Advice for Building CircuitPython Projects](https://realpython.com/podcasts/rpp/161/)
 - [**Embedded Python: Build a Game on the BBC micro:bit**](/realpython.com/embedded-python.md)
 
 :::
@@ -800,11 +800,11 @@ However, even that might not be true for long. As a testament to Python’s flex
 
 ## What Else Can I Do With Python?
 
-The list of ideas in this tutorial isn’t exhaustive. There are countless other fields you can work on with Python. If you’re looking for practical [<FontIcon icon="fa-brands fa-youtube"/>projects](https://youtu.be/7BiLUehbOb8) that Python is well suited for, then check out [**13 Project Ideas for Intermediate Python Developers**](/realpython.com/intermediate-python-project-ideas.md) to find inspiration.
+The list of ideas in this tutorial isn’t exhaustive. There are countless other fields you can work on with Python. If you’re looking for practical [<VPIcon icon="fa-brands fa-youtube"/>projects](https://youtu.be/7BiLUehbOb8) that Python is well suited for, then check out [**13 Project Ideas for Intermediate Python Developers**](/realpython.com/intermediate-python-project-ideas.md) to find inspiration.
 
 <VidStack src="youtube/7BiLUehbOb8" />
 
-You can also do your own research to find projects that pique your interest. If you’re not sure where to begin, then [follow *Real Python* on Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`realpython`)](https://x.com/realpython). You’ll find cool and interesting Python projects from the community there. Maybe you’ll find something you can’t wait to contribute to!
+You can also do your own research to find projects that pique your interest. If you’re not sure where to begin, then [follow *Real Python* on Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`realpython`)](https://x.com/realpython). You’ll find cool and interesting Python projects from the community there. Maybe you’ll find something you can’t wait to contribute to!
 
 ---
 

@@ -82,7 +82,7 @@ In this tutorial, you’ll explore how to use `zip()` for parallel iteration. Yo
 
 ## Understanding the Python `zip()` Function
 
-`zip()` is available in the [<FontIcon icon="fa-brands fa-python"/>built-in namespace](https://docs.python.org/3/library/builtins.html). If you use `dir()` to inspect `__builtins__`, then you’ll see `zip()` at the end of the list:
+`zip()` is available in the [<VPIcon icon="fa-brands fa-python"/>built-in namespace](https://docs.python.org/3/library/builtins.html). If you use `dir()` to inspect `__builtins__`, then you’ll see `zip()` at the end of the list:
 
 ```py
 >>> dir(__builtins__)
@@ -91,7 +91,7 @@ In this tutorial, you’ll explore how to use `zip()` for parallel iteration. Yo
 
 You can see that `'zip'` is the last entry in the list of available objects.
 
-According to the [<FontIcon icon="fa-brands fa-python"/>official documentation](https://docs.python.org/3/library/functions.html#zip), Python’s `zip()` function behaves as follows:
+According to the [<VPIcon icon="fa-brands fa-python"/>official documentation](https://docs.python.org/3/library/functions.html#zip), Python’s `zip()` function behaves as follows:
 
 ::: info Built-in Functions - zip(*iterables, strict=False) (<code>docs.python.org</code>)
 
@@ -112,7 +112,7 @@ You’ll unpack this definition throughout the rest of the tutorial. As you work
 
 ## Using `zip()` in Python
 
-The signature of Python’s `zip()` function is `zip(*iterables, strict=False)`. You’ll learn more about `strict` later. The function takes in [<FontIcon icon="fa-brands fa-python"/>iterables](https://docs.python.org/3/glossary.html#term-iterable) as arguments and returns an **iterator**. This iterator generates a series of tuples containing elements from each iterable. `zip()` can accept any type of iterable, such as [**files**](/realpython.com/read-write-files-python.md), [**lists, tuples**](/realpython.com/python-lists-tuples.md), [**dictionaries**](/realpython.com/python-dicts.md), [**sets**](/realpython.com/python-sets.md), and so on.
+The signature of Python’s `zip()` function is `zip(*iterables, strict=False)`. You’ll learn more about `strict` later. The function takes in [<VPIcon icon="fa-brands fa-python"/>iterables](https://docs.python.org/3/glossary.html#term-iterable) as arguments and returns an **iterator**. This iterator generates a series of tuples containing elements from each iterable. `zip()` can accept any type of iterable, such as [**files**](/realpython.com/read-write-files-python.md), [**lists, tuples**](/realpython.com/python-lists-tuples.md), [**dictionaries**](/realpython.com/python-dicts.md), [**sets**](/realpython.com/python-sets.md), and so on.
 
 ### Passing `n` Arguments
 
@@ -177,7 +177,7 @@ next(zipped)
 # StopIteration
 ```
 
-When you call [<FontIcon icon="fa-brands fa-python"/>`next()`](https://docs.python.org/3/library/functions.html#next) on `zipped`, Python tries to retrieve the next item. However, since `zipped` holds an empty iterator, there’s nothing to pull out, so Python raises a `StopIteration` exception.
+When you call [<VPIcon icon="fa-brands fa-python"/>`next()`](https://docs.python.org/3/library/functions.html#next) on `zipped`, Python tries to retrieve the next item. However, since `zipped` holds an empty iterator, there’s nothing to pull out, so Python raises a `StopIteration` exception.
 
 ### Passing One Argument
 
@@ -221,7 +221,7 @@ list(zip(range(5), range(100)))
 
 Since `5` is the length of the first (and shortest) [**`range()`**](/realpython.com/python-range.md) object, `zip()` outputs a list of five tuples. There are still 95 unmatched elements from the second `range()` object. These are all ignored by `zip()` since there are no more elements from the first `range()` object to complete the pairs.
 
-If trailing or unmatched values are important to you, then you can use [<FontIcon icon="fa-brands fa-python"/>`itertools.zip_longest()`](https://docs.python.org/3/library/itertools.html#itertools.zip_longest) instead of `zip()`. With this function, the missing values will be replaced with whatever you pass to the `fillvalue` argument (defaults to [**`None`**](/realpython.com/null-in-python.md)). The iteration will continue until the longest iterable is exhausted:
+If trailing or unmatched values are important to you, then you can use [<VPIcon icon="fa-brands fa-python"/>`itertools.zip_longest()`](https://docs.python.org/3/library/itertools.html#itertools.zip_longest) instead of `zip()`. With this function, the missing values will be replaced with whatever you pass to the `fillvalue` argument (defaults to [**`None`**](/realpython.com/null-in-python.md)). The iteration will continue until the longest iterable is exhausted:
 
 ```py
 from itertools import zip_longest
@@ -236,7 +236,7 @@ list(zipped)
 
 Here, you use `itertools.zip_longest()` to yield five tuples with elements from `letters`, `numbers`, and `longest`. The iteration only stops when `longest` is exhausted. The missing elements from `numbers` and `letters` are filled with a question mark `?`, which is what you specified with `fillvalue`.
 
-Since [**Python 3.10**](/realpython.com/python310-new-features.md), `zip()` has a new optional keyword argument called [<FontIcon icon="fa-brands fa-python"/>`strict`](https://docs.python.org/3/library/functions.html#zip), which was introduced through [<FontIcon icon="fa-brands fa-python"/>PEP 618—Add Optional Length-Checking To zip](https://python.org/dev/peps/pep-0618/). This argument’s main goal is to provide a **safe way** to handle **iterables of unequal length**.
+Since [**Python 3.10**](/realpython.com/python310-new-features.md), `zip()` has a new optional keyword argument called [<VPIcon icon="fa-brands fa-python"/>`strict`](https://docs.python.org/3/library/functions.html#zip), which was introduced through [<VPIcon icon="fa-brands fa-python"/>PEP 618—Add Optional Length-Checking To zip](https://python.org/dev/peps/pep-0618/). This argument’s main goal is to provide a **safe way** to handle **iterables of unequal length**.
 
 The default value of `strict` is `False`, which ensures that `zip()` remains backward compatible and has a default behavior that matches its behavior in older Python 3 versions:
 
@@ -248,7 +248,7 @@ list(zip(range(5), range(100)))
 
 In Python 3.10 and later, calling `zip()` without altering the default value to `strict` still gives you a list of five tuples, with the unmatched elements from the second `range()` object ignored.
 
-Alternatively, if you set `strict` to `True`, then `zip()` checks if the input iterables you provided as arguments have the same length, raising a [<FontIcon icon="fa-brands fa-python"/>`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError) if they don’t:
+Alternatively, if you set `strict` to `True`, then `zip()` checks if the input iterables you provided as arguments have the same length, raising a [<VPIcon icon="fa-brands fa-python"/>`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError) if they don’t:
 
 ```py
 list(zip(range(5), range(100), strict=True))
@@ -268,7 +268,7 @@ Looping over multiple iterables is one of the most common use cases for Python�
 
 ### Traversing Lists in Parallel
 
-Python’s `zip()` function allows you to iterate in parallel over two or more iterables. Since `zip()` generates tuples, you can unpack these in the header of a [<FontIcon icon="fas fa-globe"/>`for` loop](https://realpython.com/courses/python-for-loop/):
+Python’s `zip()` function allows you to iterate in parallel over two or more iterables. Since `zip()` generates tuples, you can unpack these in the header of a [<VPIcon icon="fas fa-globe"/>`for` loop](https://realpython.com/courses/python-for-loop/):
 
 ```py
 letters = ["a", "b", "c"]
@@ -285,7 +285,7 @@ for letter, number in zip(letters, numbers):
 # Number: 2
 ```
 
-Here, you iterate through the series of tuples returned by `zip()` and unpack the elements into `letter` and `number`. When you combine `zip()`, `for` loops, and [**tuple unpacking**](/realpython.com/python-tuple.md#packing-and-unpacking-tuples), you can get a useful and [<FontIcon icon="fas fa-globe"/>Pythonic](https://realpython.com/courses/idiomatic-python-101/) idiom for traversing two or more iterables at once.
+Here, you iterate through the series of tuples returned by `zip()` and unpack the elements into `letter` and `number`. When you combine `zip()`, `for` loops, and [**tuple unpacking**](/realpython.com/python-tuple.md#packing-and-unpacking-tuples), you can get a useful and [<VPIcon icon="fas fa-globe"/>Pythonic](https://realpython.com/courses/idiomatic-python-101/) idiom for traversing two or more iterables at once.
 
 You can also iterate through more than two iterables in a single `for` loop. Consider the following example, which has three input iterables:
 
@@ -319,7 +319,7 @@ If you want to dive deeper into Python `for` loops, check out [**Python “for�
 
 ### Traversing Dictionaries in Parallel
 
-In Python 3.6 and beyond, dictionaries are [<FontIcon icon="fa-brands fa-python"/>ordered collections](https://docs.python.org/3/whatsnew/3.6.html#whatsnew36-compactdict), meaning they keep their elements in the same order in which they were introduced. If you take advantage of this feature, then you can use the Python `zip()` function to iterate through multiple dictionaries in a safe and coherent way:
+In Python 3.6 and beyond, dictionaries are [<VPIcon icon="fa-brands fa-python"/>ordered collections](https://docs.python.org/3/whatsnew/3.6.html#whatsnew36-compactdict), meaning they keep their elements in the same order in which they were introduced. If you take advantage of this feature, then you can use the Python `zip()` function to iterate through multiple dictionaries in a safe and coherent way:
 
 ```py
 dict_one = {"name": "John", "last_name": "Doe", "job": "Python Consultant"}

@@ -64,7 +64,7 @@ It’s finally time to bring your app online. But first, your code needs a place
 
 Read through the setup process below step by step. You can compare what you see in your browser with the screenshots. The project name used in the example screenshots is `hello-app`.
 
-Start by signing in to the [<FontIcon icon="iconfont icon-gcp"/>Google Cloud Platform](https://console.cloud.google.com/). Navigate to the [<FontIcon icon="iconfont icon-gcp"/>dashboard view](https://console.cloud.google.com/home/dashboard), where you’ll see a toolbar at the top of the window. Select the downward-facing arrow button toward the left side of the toolbar. This will pop up a modal containing a list of your Google projects:
+Start by signing in to the [<VPIcon icon="iconfont icon-gcp"/>Google Cloud Platform](https://console.cloud.google.com/). Navigate to the [<VPIcon icon="iconfont icon-gcp"/>dashboard view](https://console.cloud.google.com/home/dashboard), where you’ll see a toolbar at the top of the window. Select the downward-facing arrow button toward the left side of the toolbar. This will pop up a modal containing a list of your Google projects:
 
 ![Dropdown for viewing all of your Google projects](https://files.realpython.com/media/gae-all-projects.96d8de4948a3.png)
 
@@ -106,7 +106,7 @@ When you see this page, it means you have completed setting up a new project on 
 
 ## Set Up Locally for Deployment
 
-After successfully [<FontIcon icon="iconfont icon-gcp"/>installing the Google Cloud SDK](https://cloud.google.com/sdk/docs/install), you have access to the `gcloud` command-line interface. This program comes with helpful instructions that guide you through deploying your web app. Start by typing the command that was suggested to you when you created a new project on the Google App Engine website:
+After successfully [<VPIcon icon="iconfont icon-gcp"/>installing the Google Cloud SDK](https://cloud.google.com/sdk/docs/install), you have access to the `gcloud` command-line interface. This program comes with helpful instructions that guide you through deploying your web app. Start by typing the command that was suggested to you when you created a new project on the Google App Engine website:
 
 ![New project page with gcloud CLI command suggested highlighted](https://files.realpython.com/media/gae-05-command.ed682136cd05.png)
 

@@ -50,13 +50,13 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4594"/>
 
-About half a decade ago, I got an idea about how to create a halftone effect with pure CSS. My original idea (which Michelle Barker[<FontIcon icon="fas fa-globe"/>wrote about](https://css-irl.info/css-halftone-patterns/)a couple of years ago) was a bit inefficient, but in the years that followed, I’ve managed to polish it and reduce it to a single `<div>`, no pseudos and just three CSS properties.
+About half a decade ago, I got an idea about how to create a halftone effect with pure CSS. My original idea (which Michelle Barker[<VPIcon icon="fas fa-globe"/>wrote about](https://css-irl.info/css-halftone-patterns/)a couple of years ago) was a bit inefficient, but in the years that followed, I’ve managed to polish it and reduce it to a single `<div>`, no pseudos and just three CSS properties.
 
 ---
 
 ## What’s a halftone effect?
 
-If you don’t know what a[<FontIcon icon="fa-brands fa-wikipedia-w"/>halftone](https://en.wikipedia.org/wiki/Halftone)effect is, a very basic pattern looks like this:
+If you don’t know what a[<VPIcon icon="fa-brands fa-wikipedia-w"/>halftone](https://en.wikipedia.org/wiki/Halftone)effect is, a very basic pattern looks like this:
 
 ![The simplest possible halftone pattern](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/1c35b289ba9c002b.png?resize=900%2C368&ssl=1)
 
@@ -74,7 +74,7 @@ background:
   linear-gradient(90deg, #000, #fff);
 ```
 
-We’ve made sure we have an integer number of dots along both axes by using the[<FontIcon icon="fas fa-globe"/>`space`](https://mastodon.social/@anatudor/113470617581654218)value for`background-repeat`.
+We’ve made sure we have an integer number of dots along both axes by using the[<VPIcon icon="fas fa-globe"/>`space`](https://mastodon.social/@anatudor/113470617581654218)value for`background-repeat`.
 
 Taken separately, the two layers look like this:
 
@@ -86,9 +86,9 @@ Dead in the middle we have`grey`, which is`rgb(50%, 50%, 50%)`or`hsl(0, 0%, 50%)
 
 Note that in the case of*any*grey, wherever it may be situated in between black and white, the saturation (the ‘S’ in HSL) is always`0%`, while the hue (the ‘H’ in HSL) is irrelevant, so we just use`0`. The only value that changes is the lightness (the ‘L’ in HSL), which goes from`0%`for`black`to`100%`for`white`.
 
-Basically, going from`0%`to`100%`along the gradient line means going from`0%`to`100%`along the lightness axis of the[HSL bicone (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/NvKEpd).
+Basically, going from`0%`to`100%`along the gradient line means going from`0%`to`100%`along the lightness axis of the[HSL bicone (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/NvKEpd).
 
-![HSL bicone slice showing the lightness axis<br/>([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/ZELeqVN))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/76247481aa23bfc8.png?resize=720%2C620&ssl=1)
+![HSL bicone slice showing the lightness axis<br/>([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/ZELeqVN))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/76247481aa23bfc8.png?resize=720%2C620&ssl=1)
 
 So in general, any`p%`grey can be written as`rgb(p%, p%, p%)`or`hsl(0, 0%, p%)`.
 
@@ -232,7 +232,7 @@ filter: contrast(80) blur(2px) contrast(5)
 
 ![tiny blur + contrast smoothing fix](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/13512b65def103c7.png?resize=900%2C368&ssl=1)
 
-An[<FontIcon icon="fas fa-globe"/>even better fix](https://mastodon.social/@anatudor/112523336154596358)would involve using a custom SVG`filter`, but SVG filters are outside the scope of this article, so we’re not going there.
+An[<VPIcon icon="fas fa-globe"/>even better fix](https://mastodon.social/@anatudor/112523336154596358)would involve using a custom SVG`filter`, but SVG filters are outside the scope of this article, so we’re not going there.
 
 ---
 
@@ -499,7 +499,7 @@ width: round(down, 100vw, var(--d));
 height: round(down, 100vh, var(--d));
 ```
 
-But it’s[not enough (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/dyxBXgm). In order for our dots to always be perfectly round, we need an SVG`filter`[solution (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/rNXjzLq). However, that’s outside the scope of this article, so we’re not discussing it here.
+But it’s[not enough (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/dyxBXgm). In order for our dots to always be perfectly round, we need an SVG`filter`[solution (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/rNXjzLq). However, that’s outside the scope of this article, so we’re not discussing it here.
 
 Even more interestingly, our map can be an image too. Taking any random image as it is won’t work well.
 
@@ -507,11 +507,11 @@ Even more interestingly, our map can be an image too. Taking any random image as
 
 We need to bring its saturation down to zero and, for this particular technique, we need to make sure the lightness of its pixels is pretty much in the`[50%, 100%]`interval.
 
-The[`filter()` (<FontIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717)function[could help (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/rNgBqNy)here, but, sadly, for[<FontIcon icon="fas fa-globe"/>almost a decade now](https://iamvdo.me/en/blog/advanced-css-filters#filter), Safari has remained the only browser implementing it. We could make the pattern and the map layer each be a pseudo of an element, blend them together and apply the contrast`filter`on the pseudo-elements’ parent. This way, the map pseudo could have a`filter`applied on it too. However, here we’re looking for solutions that don’t involve extra elements or pseudo-elements.
+The[`filter()` (<VPIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717)function[could help (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/rNgBqNy)here, but, sadly, for[<VPIcon icon="fas fa-globe"/>almost a decade now](https://iamvdo.me/en/blog/advanced-css-filters#filter), Safari has remained the only browser implementing it. We could make the pattern and the map layer each be a pseudo of an element, blend them together and apply the contrast`filter`on the pseudo-elements’ parent. This way, the map pseudo could have a`filter`applied on it too. However, here we’re looking for solutions that don’t involve extra elements or pseudo-elements.
 
 Something we can do is make the map be the result of multiple blended background layers. Making the`background-color`*any*grey and blending it with the map image using the`luminosity`blend mode gives us a result that has the luminosity of the map image on top, the saturation of the`background-color`below and, since this is a grey (its saturation is`0%`), the hue becomes irrelevant.
 
-Note that luminosity is[not the same as lightness (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/RwoOMOZ)(which is the ‘L’ in HSL), though in a lot of cases, they’re close enough.
+Note that luminosity is[not the same as lightness (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/RwoOMOZ)(which is the ‘L’ in HSL), though in a lot of cases, they’re close enough.
 
 ```css
 --pattern: 
@@ -551,7 +551,7 @@ filter: contrast(16)
 
 Much better!
 
-![using a fully desaturared and brightened map via blending<br/>([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/MWNMjGO))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/e26625a9ee83b58f.png?resize=800%2C542&ssl=1)
+![using a fully desaturared and brightened map via blending<br/>([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/MWNMjGO))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/e26625a9ee83b58f.png?resize=800%2C542&ssl=1)
 
 Again, some of the dots aren’t fully round, but in order to get fully round dots, we’d need an SVG`filter`and that’s a way too big of a topic to discuss here.
 
@@ -571,7 +571,7 @@ background-blend-mode: screen;
 filter: contrast(16)
 ```
 
-![inverted halftone dots pattern<br/>([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/YzmmaXp))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/da3b0c684bccb94d.png?resize=800%2C600&ssl=1)
+![inverted halftone dots pattern<br/>([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/YzmmaXp))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/da3b0c684bccb94d.png?resize=800%2C600&ssl=1)
 
 But we’re not limited to just black and white.
 
@@ -590,7 +590,7 @@ You can play with various scenarios in the interactive demo below:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-We can of course also have more interesting palettes and we can even have halftone dots on top of image backgrounds using the pure CSS[blending technique (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/qBGWXNR)I detailed in[a talk on the topic (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/project/full/ZjwjBe)I used to give in 2020 or by using[SVG (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/abMvzoo)[filters (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bGXeGoa). Both of these approaches however require more than just one element with no pseudos and three CSS properties, so we won’t be going into details about them here.
+We can of course also have more interesting palettes and we can even have halftone dots on top of image backgrounds using the pure CSS[blending technique (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/qBGWXNR)I detailed in[a talk on the topic (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/project/full/ZjwjBe)I used to give in 2020 or by using[SVG (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/abMvzoo)[filters (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bGXeGoa). Both of these approaches however require more than just one element with no pseudos and three CSS properties, so we won’t be going into details about them here.
 
 ### Combining these variations (and more!)
 
@@ -614,9 +614,9 @@ We can also animate a map’s`background-position`to get a blinds effect like be
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-In the demo above, we’ve also blended the halftone pattern with an image. Here’s another such example (note that this doesn’t work in Firefox due to[<FontIcon icon="fa-brands fa-firefox"/>bug 1481498](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498), which has everything to do with the text on the right side and nothing to do with the halftone part):
+In the demo above, we’ve also blended the halftone pattern with an image. Here’s another such example (note that this doesn’t work in Firefox due to[<VPIcon icon="fa-brands fa-firefox"/>bug 1481498](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498), which has everything to do with the text on the right side and nothing to do with the halftone part):
 
-![card with halftone effect<br/>([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/GRNKqRv))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/6f1546f3d6c887ad.png?resize=800%2C540&ssl=1)
+![card with halftone effect<br/>([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/GRNKqRv))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/6f1546f3d6c887ad.png?resize=800%2C540&ssl=1)
 
 Note that the code for all these demos so far is heavily commented, explaining the purpose of pretty much every CSS declaration in there.
 
@@ -638,7 +638,7 @@ For a bit of a different effect, here’s a rhombic halftone one created by usin
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The demo below is a combination of two halftone patterns stacked one on top of the other, the top one being masked using a`conic-gradient()`[<FontIcon icon="fas fa-globe"/>checkerboard](https://css-tricks.com/background-patterns-simplified-by-conic-gradients/#aa-checkerboard)`mask`.
+The demo below is a combination of two halftone patterns stacked one on top of the other, the top one being masked using a`conic-gradient()`[<VPIcon icon="fas fa-globe"/>checkerboard](https://css-tricks.com/background-patterns-simplified-by-conic-gradients/#aa-checkerboard)`mask`.
 
 <CodePen
   user="thebabydino"
@@ -668,9 +668,9 @@ Even more such halftone samples can be found in this gallery:
 We aren’t limited to 2D. We can also use such paterns in 3D and even animate them.
 
 <VidStack src="https://videos.files.wordpress.com/eeDElcKd/6256426a4cb6efcf-1_mp4_hd.mp4" />
-<!-- excavated cube with animated halftone<br/>([live demo (<FontIcon icon="fa-brands fa-codepen"/>)](https://codepen.io/thebabydino/pen/RwQjpmQ)) -->
+<!-- excavated cube with animated halftone<br/>([live demo (<VPIcon icon="fa-brands fa-codepen"/>)](https://codepen.io/thebabydino/pen/RwQjpmQ)) -->
 
-Finally, even more demos showcasing halftone patterns can be found in[<FontIcon icon="fa-brands fa-codepen"/>this CodePen collection](https://codepen.io/collection/JYoLNJ):
+Finally, even more demos showcasing halftone patterns can be found in[<VPIcon icon="fa-brands fa-codepen"/>this CodePen collection](https://codepen.io/collection/JYoLNJ):
 
 ![the CodePen collection](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/14cc30f5f74044f0.png?resize=1024%2C781&ssl=1)
 

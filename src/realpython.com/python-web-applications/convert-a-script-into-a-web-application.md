@@ -94,7 +94,7 @@ You already learned how to tell Flask to execute a specific piece of code by add
 
 Flask separates different tasks into different functions that are each assigned a route through the `@app.route` decorator. When the user visits the specified route via its URL, the code inside the corresponding function gets executed.
 
-Start by adding `fahrenheit_from()` to your <FontIcon icon="fa-brands fa-python"/>`main.py` file and wrapping it with the `@app.route` decorator:
+Start by adding `fahrenheit_from()` to your <VPIcon icon="fa-brands fa-python"/>`main.py` file and wrapping it with the `@app.route` decorator:
 
 ```py{9}
 from flask import Flask
@@ -206,7 +206,7 @@ Refactor `index()`. It should return text that explains how to use the temperatu
 
 After successfully deploying your temperature conversion web app to the Internet, you now have a link that you can share with other people and allow them to convert Celsius temperatures to Fahrenheit temperatures.
 
-However, the interface still looks quite basic and the web app functions more like an [<FontIcon icon="fas fa-globe"/>API](https://realpython.com/tutorials/api/) than a front-end web app. Many users might not know how to interact with your Python web application in its current state. This shows you the limitations of using pure Python for web development.
+However, the interface still looks quite basic and the web app functions more like an [<VPIcon icon="fas fa-globe"/>API](https://realpython.com/tutorials/api/) than a front-end web app. Many users might not know how to interact with your Python web application in its current state. This shows you the limitations of using pure Python for web development.
 
 If you want to create more intuitive interfaces, then you’ll need to start using at least a little bit of HTML.
 

@@ -138,7 +138,7 @@ So if your goal is to abstract away a bunch of HTML to make your component easie
 
 But you probably should get on board with delivering a good set of HTML within your custom elements right in the delivered HTML. For one, that’s the fallback when JavaScript fails to load or run, which matters. But it’s not just a “fallback” or progressive enhancement technique entirely, it’s what is required for SSR (server-side rendering) which is also a performance concern and I think we all generally agree is a good idea.
 
-While I think the possibility that *not* having a build process for Web Components is attractive, if what the build process buys you is good, solid, HTML, then it’s probably worth it. (I’m mostly thinking of [WebC (<FontIcon icon="iconfont icon-github"/>`11ty/webc`)](https://github.com/11ty/webc) and [<FontIcon icon="fas fa-globe"/>Enhance](https://enhance.dev/) here).
+While I think the possibility that *not* having a build process for Web Components is attractive, if what the build process buys you is good, solid, HTML, then it’s probably worth it. (I’m mostly thinking of [WebC (<VPIcon icon="iconfont icon-github"/>`11ty/webc`)](https://github.com/11ty/webc) and [<VPIcon icon="fas fa-globe"/>Enhance](https://enhance.dev/) here).
 
 ```html
 <my-component>
@@ -148,7 +148,7 @@ While I think the possibility that *not* having a build process for Web Componen
 </my-component>
 ```
 
-Take, for example, [<FontIcon icon="fas fa-globe"/>the Image Comparison Slider](https://cloudfour.com/thinks/building-an-accessible-image-comparison-web-component/) that Cloud Four put out as a Web Component:
+Take, for example, [<VPIcon icon="fas fa-globe"/>the Image Comparison Slider](https://cloudfour.com/thinks/building-an-accessible-image-comparison-web-component/) that Cloud Four put out as a Web Component:
 
 ```html
 <image-compare>
@@ -163,9 +163,9 @@ Their slider *does* use the Shadow DOM, which is fine of course. And actually, t
 
 [Jim Nielsen has a nice way of saying it](https://blog.jim-nielsen.com/2023/html-web-components/):
 
-::: info Jim Nielsen (<FontIcon icon="fas fa-globe"/><code>blog.jim-nielsen.com</code>)
+::: info Jim Nielsen (<VPIcon icon="fas fa-globe"/><code>blog.jim-nielsen.com</code>)
 
-> This feature of web components[<FontIcon icon="fas fa-globe"/>encourages a design of composability](https://blog.jim-nielsen.com/2023/as-good-as-html/). Rather than an empty “shell component” that takes data and (using JavaScript exclusively) renders the entirety of its contents, web components encourage an approach of composing core content with HTML and then wrapping it in a custom element that enhances its contents with additional functionality.
+> This feature of web components[<VPIcon icon="fas fa-globe"/>encourages a design of composability](https://blog.jim-nielsen.com/2023/as-good-as-html/). Rather than an empty “shell component” that takes data and (using JavaScript exclusively) renders the entirety of its contents, web components encourage an approach of composing core content with HTML and then wrapping it in a custom element that enhances its contents with additional functionality.
 
 ```component VPCard
 {
@@ -190,7 +190,7 @@ That’s kind of the rub here, for me. The main reason I’m so hot on Light DOM
 - Styling by injecting a `<style>` tag into some template literal in the JavaScript itself feels awkward and ad hoc to me and I’m not a fan.
 - Styling with an adopted stylesheet means an additional web request for each component or back to the template literal thing which is either awkward or slow.
 
-I don’t dislike that these options exist, I just don’t… like them. I’d rather be able to use the best styling API ever: regular CSS. There is some hope here, the idea of [“open stylable shadow roots” (<FontIcon icon="iconfont icon-github"/>`WICG/webcomponents`)](https://github.com/WICG/webcomponents/issues/909) might take hold.
+I don’t dislike that these options exist, I just don’t… like them. I’d rather be able to use the best styling API ever: regular CSS. There is some hope here, the idea of [“open stylable shadow roots” (<VPIcon icon="iconfont icon-github"/>`WICG/webcomponents`)](https://github.com/WICG/webcomponents/issues/909) might take hold.
 
 ---
 
@@ -209,7 +209,7 @@ You gain the ability to use regular ol’ CSS from the parent page to style the 
 
 They certainly resonate with Eric Meyer!
 
-::: info Blinded By the Light DOM (<FontIcon icon="fas fa-globe"/><code>meyerweb.com</code>)
+::: info Blinded By the Light DOM (<VPIcon icon="fas fa-globe"/><code>meyerweb.com</code>)
 
 > I*like*the Light DOM. It’s designed to work together pretty well. This whole high-fantasy-flavored Shadowlands of the DOM thing just doesn’t sit right with me.
 > 
@@ -226,9 +226,9 @@ They certainly resonate with Eric Meyer!
 
 Some baby bear just-right porridge from Jeremy Keith:
 
-::: info HTML web components (<FontIcon icon="fas fa-globe"/><code>adactio.com</code>)
+::: info HTML web components (<VPIcon icon="fas fa-globe"/><code>adactio.com</code>)
 
-> Dave talks about how web components can be[<FontIcon icon="fas fa-globe"/>HTML with superpowers](https://daverupert.com/2021/10/html-with-superpowers/). I think that’s a good attitude to have. Instead of all-singing, all-dancing web components, it feels a lot more elegant to use web components to augment your existing markup with just enough extra behaviour.
+> Dave talks about how web components can be[<VPIcon icon="fas fa-globe"/>HTML with superpowers](https://daverupert.com/2021/10/html-with-superpowers/). I think that’s a good attitude to have. Instead of all-singing, all-dancing web components, it feels a lot more elegant to use web components to augment your existing markup with just enough extra behaviour.
 > 
 > Where does the shadow DOM come into all of this? It doesn’t. And that’s okay. I’m not saying it should be avoided completely, but it should be a last resort. See how far you can get with the composibility of regular HTML first.
 
@@ -243,7 +243,7 @@ Some baby bear just-right porridge from Jeremy Keith:
 
 Mayank has a pretty hardline stance, and gets into similar problems I have with styling.
 
-::: info Mayank (<FontIcon icon="fas fa-globe"/><code>mayank.co</code>)
+::: info Mayank (<VPIcon icon="fas fa-globe"/><code>mayank.co</code>)
 
 > I’ve previously said[“shadow DOM is not fit for production use”](https://mayank.co/blog/web-components-are-not-components#shadow-dom-is-not-fit-for-production-use), a statement which attracted a surprising amount of heat. Maybe I’m asking for too much, but I would think that every respectable production-grade application has core needs — like accessibility, form participation, and the ability to work without JavaScript.
 >
@@ -263,9 +263,9 @@ Mayank has a pretty hardline stance, and gets into similar problems I have with 
 
 Jim Neilsen used Light DOM only, found it useful, and even felt weird about it (*which you should not, Jim*)!
 
-::: info Jim Neilsen (<FontIcon icon="fas fa-globe"/><code>blog.jim-nielsen.com</code>)
+::: info Jim Neilsen (<VPIcon icon="fas fa-globe"/><code>blog.jim-nielsen.com</code>)
 
-> Maybe I shouldn’t be using the term “web component” for what I’ve done here. I’m not using shadow DOM. I’m not using the templates or slots. I’m really only using[<FontIcon icon="fa-brands fa-firefox"/>custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)to attach functionality to a specific kind of component.
+> Maybe I shouldn’t be using the term “web component” for what I’ve done here. I’m not using shadow DOM. I’m not using the templates or slots. I’m really only using[<VPIcon icon="fa-brands fa-firefox"/>custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)to attach functionality to a specific kind of component.
 > 
 > But it still kinda feels like web components. All of this could’ve been accomplished with regular ole’ web techniques
 
@@ -285,11 +285,11 @@ Adam Stoddard is into it:
 
 > No shadow DOM, no templates, just the regular old DOM, which we now get to call the much cooler sounding “light DOM”.
 
-Adam specifically call out how cool the `connectedCallback` is. Whenever a custom element appears in the DOM it essentially auto-instantiates itself, which is an “unsung hero” of Web Components. Dave Rupert’s [<FontIcon icon="fas fa-globe"/>simple and useful `<fit-vids>`](https://daverupert.com/2023/10/fitvids-has-a-web-component-now/) has [no Shadow DOM in sight (<FontIcon icon="iconfont icon-github"/>`davatron5000/fit-vids`)](https://github.com/davatron5000/fit-vids/blob/main/fit-vids.js), it just applies a few styles to what it finds in the Light DOM, but another reason to use it is how it automatically applies the styles when it shows up in the DOM. If you were to use the old school fitvids.js library, you would have to re-call the library if new videos were injected after it ran the first time.
+Adam specifically call out how cool the `connectedCallback` is. Whenever a custom element appears in the DOM it essentially auto-instantiates itself, which is an “unsung hero” of Web Components. Dave Rupert’s [<VPIcon icon="fas fa-globe"/>simple and useful `<fit-vids>`](https://daverupert.com/2023/10/fitvids-has-a-web-component-now/) has [no Shadow DOM in sight (<VPIcon icon="iconfont icon-github"/>`davatron5000/fit-vids`)](https://github.com/davatron5000/fit-vids/blob/main/fit-vids.js), it just applies a few styles to what it finds in the Light DOM, but another reason to use it is how it automatically applies the styles when it shows up in the DOM. If you were to use the old school fitvids.js library, you would have to re-call the library if new videos were injected after it ran the first time.
 
 I’ll end with Miriam Suzanne:
 
-::: info Miriam Suzanne (<FontIcon icon="fas fa-globe"/><code>oddbird.net</code>)
+::: info Miriam Suzanne (<VPIcon icon="fas fa-globe"/><code>oddbird.net</code>)
 
 > Let the lightDOMhandle content wherever possible.
 

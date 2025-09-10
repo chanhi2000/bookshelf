@@ -81,7 +81,7 @@ In this section, you’ll implement three hands-on examples of these low-level f
 
 ### Tokenize a YAML Document
 
-You’ll get the most granular control by scanning a YAML document to obtain a stream of [<FontIcon icon="fa-brands fa-wikipedia-w"/>tokens](https://en.wikipedia.org/wiki/Lexical_analysis#Token). Each token has a unique meaning and tells you where it starts and where it ends, including the exact line and column number, as well as the offset from the beginning of the document:
+You’ll get the most granular control by scanning a YAML document to obtain a stream of [<VPIcon icon="fa-brands fa-wikipedia-w"/>tokens](https://en.wikipedia.org/wiki/Lexical_analysis#Token). Each token has a unique meaning and tells you where it starts and where it ends, including the exact line and column number, as well as the offset from the beginning of the document:
 
 ```py :collapsed-lines
 import yaml
@@ -185,7 +185,7 @@ def colorize(text):
 
 This new function iterates over a tokenized text in [**reverse**](/realpython.com/python-reverse-list.md) and inserts escape code sequences where indicated by `start` and `end`. Note that it’s not the most efficient way of doing this, because you essentially end up making lots of text copies due to slicing and concatenating.
 
-The final piece of the puzzle is taking YAML from the [<FontIcon icon="fa-brands fa-wikipedia-w"/>standard input](https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin)) and presenting it onto the standard output stream:
+The final piece of the puzzle is taking YAML from the [<VPIcon icon="fa-brands fa-wikipedia-w"/>standard input](https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin)) and presenting it onto the standard output stream:
 
 ```py{2,6-7} title="colorize.py"
 import sys
@@ -201,7 +201,7 @@ You import the `sys` module from Python’s standard library and pass the `sys.s
 
 <VidStack src="vimeo/673193047" />
 
-Note that the `cat` command isn’t available on Windows. If that’s your operating system, then use its [<FontIcon icon="fa-brands fa-microsoft"/>`type`](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/type) counterpart, and make sure to run the command through the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Terminal](https://en.wikipedia.org/wiki/Terminal_(Windows)) application instead of the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Command Prompt (`cmd.exe`)](https://en.wikipedia.org/wiki/Cmd.exe) or [<FontIcon icon="fa-brands fa-wikipedia-w"/>Windows PowerShell](https://en.wikipedia.org/wiki/PowerShell) to have the ANSI escape code support enabled by default.
+Note that the `cat` command isn’t available on Windows. If that’s your operating system, then use its [<VPIcon icon="fa-brands fa-microsoft"/>`type`](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/type) counterpart, and make sure to run the command through the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Terminal](https://en.wikipedia.org/wiki/Terminal_(Windows)) application instead of the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Command Prompt (`cmd.exe`)](https://en.wikipedia.org/wiki/Cmd.exe) or [<VPIcon icon="fa-brands fa-wikipedia-w"/>Windows PowerShell](https://en.wikipedia.org/wiki/PowerShell) to have the ANSI escape code support enabled by default.
 
 Expand the collapsible section below for the complete source code of your script:
 
@@ -286,9 +286,9 @@ You can imagine how these events could naturally translate to opening and closin
 </ul>
 ```
 
-A single list item gets wrapped between the `<li>` and `</li>` tags, while a key-value mapping takes advantage of the [<FontIcon icon="fa-brands fa-firefox"/>description list (`<dl>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl), which contains alternating [<FontIcon icon="fa-brands fa-firefox"/>terms (`<dt>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt) and [<FontIcon icon="fa-brands fa-firefox"/>definitions (`<dd>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd). This is the tricky part because it requires counting the subsequent YAML events on a given nesting level to determine whether an event should become a term or a definition in HTML.
+A single list item gets wrapped between the `<li>` and `</li>` tags, while a key-value mapping takes advantage of the [<VPIcon icon="fa-brands fa-firefox"/>description list (`<dl>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl), which contains alternating [<VPIcon icon="fa-brands fa-firefox"/>terms (`<dt>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt) and [<VPIcon icon="fa-brands fa-firefox"/>definitions (`<dd>`)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd). This is the tricky part because it requires counting the subsequent YAML events on a given nesting level to determine whether an event should become a term or a definition in HTML.
 
-Ultimately, you want to design an `HTMLBuilder` class to help you with parsing multiple YAML documents from a stream in a lazy manner. Assuming you’ve already defined such a class, you can create the following helper function in a file named <FontIcon icon="fa-brands fa-python"/>`yaml2html.py`:
+Ultimately, you want to design an `HTMLBuilder` class to help you with parsing multiple YAML documents from a stream in a lazy manner. Assuming you’ve already defined such a class, you can create the following helper function in a file named <VPIcon icon="fa-brands fa-python"/>`yaml2html.py`:
 
 ```py title="yaml2html.py"
 import yaml
@@ -421,9 +421,9 @@ class HTMLBuilder:
 # ...
 ```
 
-If there’s something on the stack already, then you check the last item pushed onto it. If it was a list, then you open or close a list item. Otherwise, depending on the [<FontIcon icon="fa-brands fa-wikipedia-w"/>parity of the number](https://en.wikipedia.org/wiki/Parity_(mathematics)) of key-value mappings, it’s time to open or close a term or definition from a description list.
+If there’s something on the stack already, then you check the last item pushed onto it. If it was a list, then you open or close a list item. Otherwise, depending on the [<VPIcon icon="fa-brands fa-wikipedia-w"/>parity of the number](https://en.wikipedia.org/wiki/Parity_(mathematics)) of key-value mappings, it’s time to open or close a term or definition from a description list.
 
-You can optionally turn your Python module into an executable script by adding the [<FontIcon icon="fa-brands fa-python"/>`if __name__` idiom](https://docs.python.org/3/library/__main__.html#idiomatic-usage) at the bottom:
+You can optionally turn your Python module into an executable script by adding the [<VPIcon icon="fa-brands fa-python"/>`if __name__` idiom](https://docs.python.org/3/library/__main__.html#idiomatic-usage) at the bottom:
 
 ```py title="yaml2html.py"
 import sys
@@ -434,7 +434,7 @@ if __name__ == "__main__":
     print("".join(yaml2html("".join(sys.stdin.readlines()))))
 ```
 
-It’ll let you preview the visual representation of YAML in your terminal when you pipe the HTML output to a [<FontIcon icon="fa-brands fa-wikipedia-w"/>text-based web browser](https://en.wikipedia.org/wiki/Text-based_web_browser) like [<FontIcon icon="fa-brands fa-wikipedia-w"/>Lynx](https://en.wikipedia.org/wiki/Lynx_(web_browser)) or the [<FontIcon icon="iconfont icon-github"/>`grobian/html2text`](https://github.com/grobian/html2text) converter:
+It’ll let you preview the visual representation of YAML in your terminal when you pipe the HTML output to a [<VPIcon icon="fa-brands fa-wikipedia-w"/>text-based web browser](https://en.wikipedia.org/wiki/Text-based_web_browser) like [<VPIcon icon="fa-brands fa-wikipedia-w"/>Lynx](https://en.wikipedia.org/wiki/Lynx_(web_browser)) or the [<VPIcon icon="iconfont icon-github"/>`grobian/html2text`](https://github.com/grobian/html2text) converter:
 
 ```sh
 echo '[42, {pi: 3.14, e: 2.72}]' | python yaml2html.py | html2text
@@ -446,7 +446,7 @@ echo '[42, {pi: 3.14, e: 2.72}]' | python yaml2html.py | html2text
 #         2.72
 ```
 
-The `echo` command should work on all major operating systems. It prints a piece of text in the terminal, which you can hook up to another command [<FontIcon icon="fa-brands fa-wikipedia-w"/>pipeline](https://en.wikipedia.org/wiki/Pipeline_(Unix)) using the vertical bar character (`|`). In this case, you process a short YAML document with your `yaml2html.py` script and then convert the resulting HTML to a simplified textual form that you can preview in the terminal without starting a full-fledged web browser.
+The `echo` command should work on all major operating systems. It prints a piece of text in the terminal, which you can hook up to another command [<VPIcon icon="fa-brands fa-wikipedia-w"/>pipeline](https://en.wikipedia.org/wiki/Pipeline_(Unix)) using the vertical bar character (`|`). In this case, you process a short YAML document with your `yaml2html.py` script and then convert the resulting HTML to a simplified textual form that you can preview in the terminal without starting a full-fledged web browser.
 
 Click the collapsible section below to reveal the complete source code:
 
@@ -627,7 +627,7 @@ def cast(value, tag):
             return str(value)
 ```
 
-You can leverage the new `match` and `case` keywords introduced in Python 3.10 with the [**structural pattern matching**](/realpython.com/python310-new-features.md#structural-pattern-matching) syntax, or you can rewrite this example using a plain old `if` statement. The bottom line is that you should now be getting values of native Python types when you [<FontIcon icon="fa-brands fa-python"/>reload the module](https://docs.python.org/3/library/importlib.html#importlib.reload) in your interactive interpreter session:
+You can leverage the new `match` and `case` keywords introduced in Python 3.10 with the [**structural pattern matching**](/realpython.com/python310-new-features.md#structural-pattern-matching) syntax, or you can rewrite this example using a plain old `if` statement. The bottom line is that you should now be getting values of native Python types when you [<VPIcon icon="fa-brands fa-python"/>reload the module](https://docs.python.org/3/library/importlib.html#importlib.reload) in your interactive interpreter session:
 
 ```py
 import importlib, tree
@@ -680,7 +680,7 @@ def html_map(node):
     return f"<ul>{pairs}</ul>"
 ```
 
-Both helper functions take a node instance and return a piece of HTML string. The `html_list()` function expects a `SequenceNode` iterated over with a [**generator expression**](/realpython.com/introduction-to-python-generators.md#building-generators-with-generator-expressions), while `html_map()` iterates over keys and values of a `MappingNode`. This is where knowing the entire tree structure in advance helps. If the mapping value is a `ScalarNode`, then you replace it with a `<span>` element. Other node types get wrapped in a collapsible [<FontIcon icon="fa-brands fa-firefox"/>`<details>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) tag.
+Both helper functions take a node instance and return a piece of HTML string. The `html_list()` function expects a `SequenceNode` iterated over with a [**generator expression**](/realpython.com/introduction-to-python-generators.md#building-generators-with-generator-expressions), while `html_map()` iterates over keys and values of a `MappingNode`. This is where knowing the entire tree structure in advance helps. If the mapping value is a `ScalarNode`, then you replace it with a `<span>` element. Other node types get wrapped in a collapsible [<VPIcon icon="fa-brands fa-firefox"/>`<details>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) tag.
 
 Because you’ll produce HTML output, you may streamline the typecasting function by returning only plain strings. At the same time, you can return an HTML `<img>` element for the Base64-encoded data and display that element instead of showing raw bytes. Other than that, regular scalars could be wrapped in either a `<span>` or an appropriately styled `<div>` element depending on if they contain single or multiline content:
 
@@ -735,27 +735,27 @@ if __name__ == "__main__":
     print(html_tree("".join(sys.stdin.readlines())))
 ```
 
-This HTML uses an embedded [<FontIcon icon="fa-brands fa-google"/>Google Font](https://fonts.google.com/) for a more pleasant look. The inline [<FontIcon icon="fa-brands fa-wikipdia-w"/>CSS styling](https://en.wikipedia.org/wiki/CSS) removes bullet points from regular unordered lists because you use bullet points for key-value mappings. However, lists explicitly marked as sequences use a dash in front of every item. Mapping keys are displayed in bold font, and multiline strings preserve the whitespace.
+This HTML uses an embedded [<VPIcon icon="fa-brands fa-google"/>Google Font](https://fonts.google.com/) for a more pleasant look. The inline [<VPIcon icon="fa-brands fa-wikipdia-w"/>CSS styling](https://en.wikipedia.org/wiki/CSS) removes bullet points from regular unordered lists because you use bullet points for key-value mappings. However, lists explicitly marked as sequences use a dash in front of every item. Mapping keys are displayed in bold font, and multiline strings preserve the whitespace.
 
 When you run the script against some test data, then it’ll output a piece of HTML code that you can redirect to a local file, which you can open with your default web browser:
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-windows"/>
+@tab:active <VPIcon icon="fa-brands fa-windows"/>
 
 ```batchfile
 type data.yaml | python tree.py > index.html
 start index.html
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>
 
 ```sh
 cat data.yaml | python tree.py > index.html
 xdg-open index.html
 ```
 
-@tab <FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 cat data.yaml | python tree.py > index.html

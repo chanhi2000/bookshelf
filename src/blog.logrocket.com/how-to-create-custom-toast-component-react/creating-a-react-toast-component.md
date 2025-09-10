@@ -54,7 +54,7 @@ cover: /assets/image/blog.logrocket.com/how-to-create-custom-toast-component-rea
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/how-to-create-custom-toast-component-react/banner.png"/>
 
-To create a toast component, first create a folder called <FontIcon icon="fas fa-folder-open"/>`toast` inside the <FontIcon icon="fas fa-folder-open"/>`components` directory and add two files: <FontIcon icon="fa-brands fa-react"/>`Toast.js` and <FontIcon icon="fa-brands fa-css3-alt"/>`Toast.css`. We are using the `.jsx` extension for our JavaScript files and using the traditional CSS. Optionally, you can use SCSS files as well.
+To create a toast component, first create a folder called <VPIcon icon="fas fa-folder-open"/>`toast` inside the <VPIcon icon="fas fa-folder-open"/>`components` directory and add two files: <VPIcon icon="fa-brands fa-react"/>`Toast.js` and <VPIcon icon="fa-brands fa-css3-alt"/>`Toast.css`. We are using the `.jsx` extension for our JavaScript files and using the traditional CSS. Optionally, you can use SCSS files as well.
 
 ---
 
@@ -62,7 +62,7 @@ To create a toast component, first create a folder called <FontIcon icon="fas fa
 
 Let’s discuss the structure of the Toast UI and prepare some basic markup before we move on to the steps for styling and componentizing.
 
-The first element to consider is the toast, which will contain and wrap up the contents of every toast notification that will be displayed. Let’s also provide it with a role attribute to make the notifications [<FontIcon icon="fa-brands fa-firefox"/>ARIA-friendly](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA):
+The first element to consider is the toast, which will contain and wrap up the contents of every toast notification that will be displayed. Let’s also provide it with a role attribute to make the notifications [<VPIcon icon="fa-brands fa-firefox"/>ARIA-friendly](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA):
 
 ```jsx
 <div className="toast" role="alert">
@@ -89,7 +89,7 @@ The button in the code above will be used to close a particular toast notificati
 
 ## Styling the toast component
 
-Before moving on to the React part, let’s now discuss the styling. Inside the <FontIcon icon="fa-brands fa-css3-alt"/>`Toast.css` file, we’ll add CSS custom properties that contain color and spacing information. These properties will be used in various parts of our toast component:
+Before moving on to the React part, let’s now discuss the styling. Inside the <VPIcon icon="fa-brands fa-css3-alt"/>`Toast.css` file, we’ll add CSS custom properties that contain color and spacing information. These properties will be used in various parts of our toast component:
 
 ```css
 :root {
@@ -191,7 +191,7 @@ Let’s wrap up the toast stylesheet by adding color themes for the different ty
 
 ## Defining the toast component in React
 
-Taking the above defined CSS styles and HTML structure into account, let’s now work on the React part. Inside the <FontIcon icon="fa-brands fa-react"/>`Toast.jsx` file, create an arrow function called `Toast` and set the export function as `default`. Set the parent element to empty tags for now:
+Taking the above defined CSS styles and HTML structure into account, let’s now work on the React part. Inside the <VPIcon icon="fa-brands fa-react"/>`Toast.jsx` file, create an arrow function called `Toast` and set the export function as `default`. Set the parent element to empty tags for now:
 
 ```jsx title="components/toast/Toast.jsx"
 import React from 'react';
@@ -208,7 +208,7 @@ export default Toast;
 
 The function above will always return a React element. As already discussed, our toast will essentially have three types: success, failure, and warning. The toast can only be one of these three types at a time. The toast notification icon will be added based on the selected type. Additionally, the toast should have a customizable message and a button to close it.
 
-Now, let’s return to <FontIcon icon="fa-brands fa-react"/>`Toast.jsx` and add some props. Import React above the previously discussed <FontIcon icon="fa-brands fa-css3-alt"/>`Toast.css` file, as well as the SVG icons we defined in the first segment:
+Now, let’s return to <VPIcon icon="fa-brands fa-react"/>`Toast.jsx` and add some props. Import React above the previously discussed <VPIcon icon="fa-brands fa-css3-alt"/>`Toast.css` file, as well as the SVG icons we defined in the first segment:
 
 ```jsx title="components/toast/Toast.jsx"
 import React from "react";
@@ -293,6 +293,6 @@ As shown above, the toast receives a CSS class dynamically through the `type` pr
 
 Furthermore, the `onClick` event handler for the close button is passed through `onClose` callback, which will be utilized in the parent components of our toast component.
 
-You may use [<FontIcon icon="fa-brands fa-npm"/>`prop-types`](https://npmjs.com/package/prop-types) to set the prop types and their default values, which you have to install additionally. However, this isn’t strictly required in our project. I have used it in the [GitHub repository (<FontIcon icon="iconfont icon-github"/>`c99rahul/react-toast`)](https://github.com/c99rahul/react-toast/) to demonstrate it for React beginners.
+You may use [<VPIcon icon="fa-brands fa-npm"/>`prop-types`](https://npmjs.com/package/prop-types) to set the prop types and their default values, which you have to install additionally. However, this isn’t strictly required in our project. I have used it in the [GitHub repository (<VPIcon icon="iconfont icon-github"/>`c99rahul/react-toast`)](https://github.com/c99rahul/react-toast/) to demonstrate it for React beginners.
 
 Now that we’ve completed our toast component, we need to create a container component that can act as a list of multiple toast components, hold them together, and intelligently managing their positioning.

@@ -63,7 +63,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5939"/>
 
-I recently made [an experiment (<FontIcon icon="fa-brands fa-codepen"/>`amit_sheen`)](https://codepen.io/amit_sheen/embed/gbbzbeR) about*Proximity Reactions*. The idea was to create an interactive effect according to the mouse position relative to elements. Then I made a *less JavaScript, more CSS* version where the only thing JavaScript does is to pass the mouse position into a couple of CSS custom properties. That’s it. All the heavy lifting happened inside the CSS itself, safely away from the JavaScript thread.
+I recently made [an experiment (<VPIcon icon="fa-brands fa-codepen"/>`amit_sheen`)](https://codepen.io/amit_sheen/embed/gbbzbeR) about*Proximity Reactions*. The idea was to create an interactive effect according to the mouse position relative to elements. Then I made a *less JavaScript, more CSS* version where the only thing JavaScript does is to pass the mouse position into a couple of CSS custom properties. That’s it. All the heavy lifting happened inside the CSS itself, safely away from the JavaScript thread.
 
 <CodePen
   user="amit_sheen"

@@ -80,7 +80,7 @@ If you want to see complete navigation of this tutorial, you can do that here [*
 
 ::: info
 
-To download the source code, you can visit [Properties in C# Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/csharp-intermediate-module`)](https://github.com/CodeMazeBlog/csharp-intermediate-module/tree/properties).
+To download the source code, you can visit [Properties in C# Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/csharp-intermediate-module`)](https://github.com/CodeMazeBlog/csharp-intermediate-module/tree/properties).
 
 :::
 

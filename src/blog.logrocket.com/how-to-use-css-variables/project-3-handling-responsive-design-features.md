@@ -174,7 +174,7 @@ Test this project by resizing the browser window:
 
 ![Example Of Project With Responsive Webpage Styles Adjusting As Viewport Shrinks](/assets/image/blog.logrocket.com/how-to-use-css-variables/img7-Responsive-webpage-styles-adjust-screen-size.gif)
 
-Try adjusting these CSS variables and creating new ones to improve this login screen further. You can use the same strategy to use CSS variables with [**container queries**](/blog.logrocket.com/css-container-queries-guide.md). Check the complete source code and see a live preview from [this CodePen (<FontIcon icon="fa-brands fa-codepen"/>`shalithasuranga`)](https://codepen.io/shalithasuranga/pen/QWoBaWr).
+Try adjusting these CSS variables and creating new ones to improve this login screen further. You can use the same strategy to use CSS variables with [**container queries**](/blog.logrocket.com/css-container-queries-guide.md). Check the complete source code and see a live preview from [this CodePen (<VPIcon icon="fa-brands fa-codepen"/>`shalithasuranga`)](https://codepen.io/shalithasuranga/pen/QWoBaWr).
 
 <CodePen
   user="shalithasuranga"

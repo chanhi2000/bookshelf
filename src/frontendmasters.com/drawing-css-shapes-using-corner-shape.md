@@ -50,13 +50,13 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6235"/>
 
-We recently got [<FontIcon icon="fas fa-globe"/>the new`shape()`function](https://frontendmasters.com/blog/tag/shape/) for`clip-path`which is a game changer for creating CSS shape. Another cool feature is on the way and will soon be available: `corner-shape`.
+We recently got [<VPIcon icon="fas fa-globe"/>the new`shape()`function](https://frontendmasters.com/blog/tag/shape/) for`clip-path`which is a game changer for creating CSS shape. Another cool feature is on the way and will soon be available: `corner-shape`.
 
-I will not call it “new” because it’s something that has been around for quite a while and you can find countless GitHub discussions around it. There is even[an 11-year old Github Repo made by Lea Verou (<FontIcon icon="iconfont icon-github"/>`LeaVerou/corner-shape`)](https://github.com/LeaVerou/corner-shape)with an interactive demo showing a few examples! After all that time, It finally has[<FontIcon icon="fas fa-globe"/>its own specification](https://drafts.csswg.org/css-borders-4/#corner-shaping)and is ready to be implemented and shipped.
+I will not call it “new” because it’s something that has been around for quite a while and you can find countless GitHub discussions around it. There is even[an 11-year old Github Repo made by Lea Verou (<VPIcon icon="iconfont icon-github"/>`LeaVerou/corner-shape`)](https://github.com/LeaVerou/corner-shape)with an interactive demo showing a few examples! After all that time, It finally has[<VPIcon icon="fas fa-globe"/>its own specification](https://drafts.csswg.org/css-borders-4/#corner-shaping)and is ready to be implemented and shipped.
 
 ::: note
 
-At the time of writing, `corner-shape` is [<FontIcon icon="fas fa-globe"/>available in Chrome v139](https://chromestatus.com/feature/5357329815699456) or 136+ with the experimental web features flag turned on, but no other browsers yet.
+At the time of writing, `corner-shape` is [<VPIcon icon="fas fa-globe"/>available in Chrome v139](https://chromestatus.com/feature/5357329815699456) or 136+ with the experimental web features flag turned on, but no other browsers yet.
 
 :::
 
@@ -77,7 +77,7 @@ The value `round`is the default (the classic rounded corners). As you can see ab
 }
 ```
 
-We can also use the`superellipse(K)`value that can define all the different variations and more by adjusting the`K`variable. I will not detail that part as it’s not important for the article but it’s good to know so I invite you to check[<FontIcon icon="fas fa-globe"/>the (draft) specification](https://drafts.csswg.org/css-borders-4/#corner-shaping)for more detail.
+We can also use the`superellipse(K)`value that can define all the different variations and more by adjusting the`K`variable. I will not detail that part as it’s not important for the article but it’s good to know so I invite you to check[<VPIcon icon="fas fa-globe"/>the (draft) specification](https://drafts.csswg.org/css-borders-4/#corner-shaping)for more detail.
 
 ![Diagram illustrating various 'superellipse()' values for corner shapes with labeled corners and arrows indicating direction. Shows how the corner shape changes with different K values.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/6tnTLi91.png?resize=777%2C501&ssl=1)
 
@@ -128,7 +128,7 @@ Now what if we keep increasing the radius? We get a Rhombus shape at`50%`.
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Some of you might ask if this method is better than what we already have. In[<FontIcon icon="fas fa-globe"/>my shape collection](https://css-shape.com/), you can easily find the code of the above shapes made using`clip-path`so why another method?
+Some of you might ask if this method is better than what we already have. In[<VPIcon icon="fas fa-globe"/>my shape collection](https://css-shape.com/), you can easily find the code of the above shapes made using`clip-path`so why another method?
 
 First of all, the syntax is a bit easier than the`clip-path`one so this can improve the readability of the code as we have fewer values to deal with. But the most important advantage is that we can add a border to the shape! Adding borders to custom shapes is always a nightmare but`corner-shape`made it easy.
 
@@ -165,7 +165,7 @@ Do you see that? We have an “almost” hexagon shape. All that is missing is t
 }
 ```
 
-We can definitely say that we have[<FontIcon icon="fas fa-globe"/>the easiest and simplest way to create hexagon shapes](https://css-tip.com/hexagon/)!
+We can definitely say that we have[<VPIcon icon="fas fa-globe"/>the easiest and simplest way to create hexagon shapes](https://css-tip.com/hexagon/)!
 
 <CodePen
   user="t_afif"

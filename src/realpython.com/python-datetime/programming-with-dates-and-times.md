@@ -55,33 +55,33 @@ If you’ve ever worked on software that needed to keep track of times across se
 
 If you want to learn more about why time can be so complicated to deal with, then there are many great resources available on the web. Here are a few good places to start:
 
-- [<FontIcon icon="fa-brands fa-youtube"/>Computerphile: The Problem With Time & Timezones](https://youtu.be/-5wpm-gesOY)
-- [<FontIcon icon="fa-brands fa-youtube"/>Working With Time Zones: Everything You Wish You Didn’t Need to Know](https://youtu.be/rz3D8VG_2TY)
-- [<FontIcon icon="fas fa-globe"/>The Complexity of Time Data Programming](https://mojotech.com/blog/the-complexity-of-time-data-programming/)
+- [<VPIcon icon="fa-brands fa-youtube"/>Computerphile: The Problem With Time & Timezones](https://youtu.be/-5wpm-gesOY)
+- [<VPIcon icon="fa-brands fa-youtube"/>Working With Time Zones: Everything You Wish You Didn’t Need to Know](https://youtu.be/rz3D8VG_2TY)
+- [<VPIcon icon="fas fa-globe"/>The Complexity of Time Data Programming](https://mojotech.com/blog/the-complexity-of-time-data-programming/)
 
 :::
 
-One great example of this irregularity is [<FontIcon icon="fa-brands fa-wikipedia-w"/>daylight saving time](https://en.wikipedia.org/wiki/Daylight_saving_time). In the United States and Canada, clocks are set forward by one hour on the second Sunday in March and set back by one hour on the first Sunday in November. However, this has only been the case [<FontIcon icon="fas fa-globe"/>since 2007](https://nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst). Prior to 2007, clocks were set forward on the first Sunday in April and set back on the last Sunday in October.
+One great example of this irregularity is [<VPIcon icon="fa-brands fa-wikipedia-w"/>daylight saving time](https://en.wikipedia.org/wiki/Daylight_saving_time). In the United States and Canada, clocks are set forward by one hour on the second Sunday in March and set back by one hour on the first Sunday in November. However, this has only been the case [<VPIcon icon="fas fa-globe"/>since 2007](https://nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst). Prior to 2007, clocks were set forward on the first Sunday in April and set back on the last Sunday in October.
 
-Things get even more complicated when you consider [<FontIcon icon="fa-brands fa-wikipedia-w"/>time zones](https://en.wikipedia.org/wiki/Time_zone). Ideally, time zone boundaries would follow lines of longitude exactly. However, for historical and political reasons, time zone lines are rarely straight. Often, areas that are separated by large distances find themselves in the same time zone, and adjacent areas are in different time zones. There are some time zones out there with [<FontIcon icon="fas fa-globe"/>pretty funky shapes](https://upload.wikimedia.org/wikipedia/commons/8/88/World_Time_Zones_Map.png).
+Things get even more complicated when you consider [<VPIcon icon="fa-brands fa-wikipedia-w"/>time zones](https://en.wikipedia.org/wiki/Time_zone). Ideally, time zone boundaries would follow lines of longitude exactly. However, for historical and political reasons, time zone lines are rarely straight. Often, areas that are separated by large distances find themselves in the same time zone, and adjacent areas are in different time zones. There are some time zones out there with [<VPIcon icon="fas fa-globe"/>pretty funky shapes](https://upload.wikimedia.org/wikipedia/commons/8/88/World_Time_Zones_Map.png).
 
 ---
 
 ## How Computers Count Time
 
-Nearly all computers count time from an instant called the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Unix epoch](https://en.wikipedia.org/wiki/Unix_time). This occurred on January 1, 1970, at 00:00:00 UTC. UTC stands for [<FontIcon icon="fa-brands fa-wikipedia-w"/>Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) and refers to the time at a longitude of 0°. UTC is often also called [<FontIcon icon="fa-brands fa-wikipedia-w"/>Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time), or GMT. UTC is not adjusted for daylight saving time, so it consistently keeps twenty-four hours in every day.
+Nearly all computers count time from an instant called the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Unix epoch](https://en.wikipedia.org/wiki/Unix_time). This occurred on January 1, 1970, at 00:00:00 UTC. UTC stands for [<VPIcon icon="fa-brands fa-wikipedia-w"/>Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) and refers to the time at a longitude of 0°. UTC is often also called [<VPIcon icon="fa-brands fa-wikipedia-w"/>Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time), or GMT. UTC is not adjusted for daylight saving time, so it consistently keeps twenty-four hours in every day.
 
-By definition, Unix time elapses at the same rate as UTC, so a one-second step in UTC corresponds to a one-second step in Unix time. You can usually figure out the date and time in UTC of any given instant since January 1, 1970, by counting the number of seconds since the Unix epoch, with the exception of [<FontIcon icon="fa-brands fa-youtube"/>leap seconds](https://youtu.be/Uqjg8Kk1HXo). Leap seconds are occasionally added to UTC to account for the slowing of the Earth’s rotation but are not added to Unix time.
+By definition, Unix time elapses at the same rate as UTC, so a one-second step in UTC corresponds to a one-second step in Unix time. You can usually figure out the date and time in UTC of any given instant since January 1, 1970, by counting the number of seconds since the Unix epoch, with the exception of [<VPIcon icon="fa-brands fa-youtube"/>leap seconds](https://youtu.be/Uqjg8Kk1HXo). Leap seconds are occasionally added to UTC to account for the slowing of the Earth’s rotation but are not added to Unix time.
 
 ::: note
 
 There’s an interesting bug associated with Unix time. Since many older operating systems are 32-bit, they store the Unix time in a 32-bit signed integer.
 
-This means that at 03:14:07 on January 19, 2038, the integer will overflow, resulting in what’s known as the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem), or Y2038. Similar to the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Y2K problem](https://en.wikipedia.org/wiki/Year_2000_problem), Y2038 will need to be corrected to avoid catastrophic consequences for critical systems.
+This means that at 03:14:07 on January 19, 2038, the integer will overflow, resulting in what’s known as the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem), or Y2038. Similar to the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Y2K problem](https://en.wikipedia.org/wiki/Year_2000_problem), Y2038 will need to be corrected to avoid catastrophic consequences for critical systems.
 
 :::
 
-Nearly all programming languages, including [<FontIcon icon="fa-brands fa-python"/>Python](https://docs.python.org/3/library/time.html), incorporate the concept of Unix time. Python’s standard library includes a module called `time` that can print the number of seconds since the Unix epoch:
+Nearly all programming languages, including [<VPIcon icon="fa-brands fa-python"/>Python](https://docs.python.org/3/library/time.html), incorporate the concept of Unix time. Python’s standard library includes a module called `time` that can print the number of seconds since the Unix epoch:
 
 ```py
 import time
@@ -90,11 +90,11 @@ time.time()
 # 1579718137.550164
 ```
 
-In this example, you [<FontIcon icon="fas fa-globe"/>import](https://realpython.com/lessons/import-statement/) the [**`time` module**](/realpython.com/python-time-module.md) and execute [<FontIcon icon="fa-brands fa-python"/>`time()`](https://docs.python.org/3/library/time.html#time.time) to print the Unix time, or number of seconds (excluding leap seconds) since the epoch.
+In this example, you [<VPIcon icon="fas fa-globe"/>import](https://realpython.com/lessons/import-statement/) the [**`time` module**](/realpython.com/python-time-module.md) and execute [<VPIcon icon="fa-brands fa-python"/>`time()`](https://docs.python.org/3/library/time.html#time.time) to print the Unix time, or number of seconds (excluding leap seconds) since the epoch.
 
 In addition to Unix time, computers need a way to convey time information to users. As you saw in the last example, Unix time is nearly impossible for a human to parse. Instead, Unix time is typically converted to UTC, which can then be converted into a local time using **time zone offsets**.
 
-The **Internet Assigned Numbers Authority (IANA)** maintains a [<FontIcon icon="fas fa-globe"/>database](https://iana.org/time-zones) of all of the values of time zone offsets. IANA also releases regular updates that include any changes in time zone offsets. This database is often included with your operating system, although certain applications may include an updated copy.
+The **Internet Assigned Numbers Authority (IANA)** maintains a [<VPIcon icon="fas fa-globe"/>database](https://iana.org/time-zones) of all of the values of time zone offsets. IANA also releases regular updates that include any changes in time zone offsets. This database is often included with your operating system, although certain applications may include an updated copy.
 
 The database contains a copy of all the designated time zones and how many hours and minutes they’re offset from UTC. So, during the winter, when daylight saving time is not in effect, the US Eastern time zone has an offset of -05:00, or negative five hours from UTC. Other regions have different offsets, which may not be integer hours. The UTC offset for Nepal, for example, is +05:45, or positive five hours and forty-five minutes from UTC.
 
@@ -108,7 +108,7 @@ For instance, in the United States, dates are usually written starting with the 
 
 However, most of Europe and many other areas write the date starting with the day, then the month, then the year. This means that January 31, 2020, is written as **31-01-2020**. These differences can cause all sorts of confusion when communicating across cultures.
 
-To help avoid communication mistakes, the International Organization for Standardization (ISO) developed [<FontIcon icon="fa-brands fa-wikipedia-w"/>ISO 8601](https://en.wikipedia.org/wiki/ISO_8601). This standard specifies that all dates should be written in order of most-to-least-significant data. This means the format is year, month, day, hour, minute, and second:
+To help avoid communication mistakes, the International Organization for Standardization (ISO) developed [<VPIcon icon="fa-brands fa-wikipedia-w"/>ISO 8601](https://en.wikipedia.org/wiki/ISO_8601). This standard specifies that all dates should be written in order of most-to-least-significant data. This means the format is year, month, day, hour, minute, and second:
 
 ```plaintext
 YYYY-MM-DD HH:MM:SS
@@ -130,10 +130,10 @@ However, a problem can happen if a user of your program inputs a future date in 
 
 There are a number of excellent resources available to help you determine the appropriate way to store time data in your application. Here are a few places to start:
 
-- [<FontIcon icon="fa-brands fa-stack-overflow"/>Daylight saving time and time zone best practices](https://stackoverflow.com/a/2532962)
-- [<FontIcon icon="fas fa-globe"/>Storing UTC is not a Silver Bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
-- [<FontIcon icon="fas fa-globe"/>How to save datetimes for future events](http://creativedeletion.com/2015/03/19/persisting_future_datetimes.html)
-- [<FontIcon icon="fa-brands fa-microsoft"/>Coding Best Practices Using DateTime in the .NET Framework](https://docs.microsoft.com/en-us/previous-versions/dotnet/articles/ms973825(v=msdn.10))
+- [<VPIcon icon="fa-brands fa-stack-overflow"/>Daylight saving time and time zone best practices](https://stackoverflow.com/a/2532962)
+- [<VPIcon icon="fas fa-globe"/>Storing UTC is not a Silver Bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
+- [<VPIcon icon="fas fa-globe"/>How to save datetimes for future events](http://creativedeletion.com/2015/03/19/persisting_future_datetimes.html)
+- [<VPIcon icon="fa-brands fa-microsoft"/>Coding Best Practices Using DateTime in the .NET Framework](https://docs.microsoft.com/en-us/previous-versions/dotnet/articles/ms973825(v=msdn.10))
 
 :::
 

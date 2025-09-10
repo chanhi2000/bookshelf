@@ -153,7 +153,7 @@ The `Asp.Versioning.Http` library has a few `IApiVersionReader` implementations:
 - `QueryStringApiVersionReader`
 - `MediaTypeApiVersionReader`
 
-[Microsoft's API versioning guidelines (<FontIcon icon="iconfont icon-github"/>`Microsoft/api-guidelines`)](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#12-versioning) suggest using URL or query string parameter versioning.
+[Microsoft's API versioning guidelines (<VPIcon icon="iconfont icon-github"/>`Microsoft/api-guidelines`)](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#12-versioning) suggest using URL or query string parameter versioning.
 
 I use URL versioning almost exclusively in the applications I'm developing.
 

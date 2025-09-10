@@ -56,7 +56,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5672"/>
 
-[<FontIcon icon="fa-brands fa-react"/>`useEffect`](https://react.dev/reference/react/useEffect) is one of the most commonly used hooks in the React community. Regardless of how much experience you have with React, you’ve probably used it before.
+[<VPIcon icon="fa-brands fa-react"/>`useEffect`](https://react.dev/reference/react/useEffect) is one of the most commonly used hooks in the React community. Regardless of how much experience you have with React, you’ve probably used it before.
 
 But have you ever run into situations where **`useEffect` hooks run in an unexpected order** when multiple layers of components are involved?
 
@@ -112,7 +112,7 @@ Let’s explore why children components are rendered last but their effects are 
 
 ## Overview of React Internals
 
-According to [<FontIcon icon="fa-brands fa-react"/>React official documentation](https://react.dev/learn/render-and-commit), the entire React’s component lifecycle can be roughly divided into 3 phases: **_Trigger → Render → Commit_**
+According to [<VPIcon icon="fa-brands fa-react"/>React official documentation](https://react.dev/learn/render-and-commit), the entire React’s component lifecycle can be roughly divided into 3 phases: **_Trigger → Render → Commit_**
 
 ### Triggering a render
 
@@ -156,7 +156,7 @@ Every time there is a state update, React will construct a new fiber tree and co
 
 ::: note
 
-If you’re interested in the detail, please check out [<FontIcon icon="fas fa-globe"/>JSer’s blog](https://jser.dev/series/react-source-code-walkthrough) or his super cool project [<FontIcon icon="fas fa-globe"/>React Internal Explorer](https://jser.pro/ddir/rie?reactVersion=18.3.1&snippetKey=hq8jm2ylzb9u8eh468)!
+If you’re interested in the detail, please check out [<VPIcon icon="fas fa-globe"/>JSer’s blog](https://jser.dev/series/react-source-code-walkthrough) or his super cool project [<VPIcon icon="fas fa-globe"/>React Internal Explorer](https://jser.pro/ddir/rie?reactVersion=18.3.1&snippetKey=hq8jm2ylzb9u8eh468)!
 
 :::
 
@@ -194,7 +194,7 @@ React traverses the fiber tree and recursively performs **two steps** on each fi
 
 ::: info
 
-In the React source code, the process is named [`workLoop` (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/c44e4a250557e53b120e40db8b01fb5fd93f1e35/packages/react-reconciler/src/ReactFiberWorkLoop.js#L2484). The first step is [`beginWork()` (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/c44e4a250557e53b120e40db8b01fb5fd93f1e35/packages/react-reconciler/src/ReactFiberWorkLoop.js#L2811). The second step is [`completeWork()` (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/c44e4a250557e53b120e40db8b01fb5fd93f1e35/packages/react-reconciler/src/ReactFiberWorkLoop.js#L2831).
+In the React source code, the process is named [`workLoop` (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/c44e4a250557e53b120e40db8b01fb5fd93f1e35/packages/react-reconciler/src/ReactFiberWorkLoop.js#L2484). The first step is [`beginWork()` (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/c44e4a250557e53b120e40db8b01fb5fd93f1e35/packages/react-reconciler/src/ReactFiberWorkLoop.js#L2811). The second step is [`completeWork()` (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/c44e4a250557e53b120e40db8b01fb5fd93f1e35/packages/react-reconciler/src/ReactFiberWorkLoop.js#L2831).
 
 :::
 
@@ -220,7 +220,7 @@ This depth-first traversal explains why child effects are run before parent effe
 
 ::: note
 
-In the React source code, the recursive function for committing effects is named [`recursivelyTraversePassiveMountEffect` (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/c44e4a250557e53b120e40db8b01fb5fd93f1e35/packages/react-reconciler/src/ReactFiberCommitWork.js#L3283).
+In the React source code, the recursive function for committing effects is named [`recursivelyTraversePassiveMountEffect` (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/blob/c44e4a250557e53b120e40db8b01fb5fd93f1e35/packages/react-reconciler/src/ReactFiberCommitWork.js#L3283).
 
 :::
 

@@ -59,9 +59,9 @@ This tutorial has a related video course created by the Real Python team. Watch 
 
 :::
 
-[<FontIcon icon="fa-brands fa-python"/>Python 3.9 is here!](https://python.org/downloads/release/python-390/) Volunteers from all over the world have been working on improvements to Python for the past year. While beta versions have been available for some time, the first official version of Python 3.9 was released on [<FontIcon icon="fa-brands fa-python"/>October 5, 2020](https://python.org/dev/peps/pep-0596/).
+[<VPIcon icon="fa-brands fa-python"/>Python 3.9 is here!](https://python.org/downloads/release/python-390/) Volunteers from all over the world have been working on improvements to Python for the past year. While beta versions have been available for some time, the first official version of Python 3.9 was released on [<VPIcon icon="fa-brands fa-python"/>October 5, 2020](https://python.org/dev/peps/pep-0596/).
 
-Every release of Python includes new, improved, and deprecated features, and Python 3.9 is no different. The [<FontIcon icon="fa-brands fa-python"/>documentation](https://docs.python.org/3.9/whatsnew/3.9.html) gives a complete list of the changes. Below, you’ll take an in-depth look at the coolest features that the latest version of Python brings to the table.
+Every release of Python includes new, improved, and deprecated features, and Python 3.9 is no different. The [<VPIcon icon="fa-brands fa-python"/>documentation](https://docs.python.org/3.9/whatsnew/3.9.html) gives a complete list of the changes. Below, you’ll take an in-depth look at the coolest features that the latest version of Python brings to the table.
 
 ::: important In this tutorial, you’ll learn about
 
@@ -72,7 +72,7 @@ Every release of Python includes new, improved, and deprecated features, and Pyt
 
 :::
 
-To try out the new features yourself, you need to have Python 3.9 installed. You can download and install it from the [<FontIcon icon="fa-brands fa-python"/>Python home page](https://python.org/download/pre-releases/). Alternatively, you can try it out using the [<FontIcon icon="fa-brands fa-docker"/>official Docker image](https://hub.docker.com/_/python/). See [**Run Python Versions in Docker: How to Try the Latest Python Release**](/realpython.com/python-versions-docker.md) for more details.
+To try out the new features yourself, you need to have Python 3.9 installed. You can download and install it from the [<VPIcon icon="fa-brands fa-python"/>Python home page](https://python.org/download/pre-releases/). Alternatively, you can try it out using the [<VPIcon icon="fa-brands fa-docker"/>official Docker image](https://hub.docker.com/_/python/). See [**Run Python Versions in Docker: How to Try the Latest Python Release**](/realpython.com/python-versions-docker.md) for more details.
 
 ```component VPCard
 {
@@ -158,7 +158,7 @@ To try out the new features yourself, you need to have Python 3.9 installed. You
 
 ## Proper Time Zone Support
 
-Python has extensive support for working with dates and times through the [`datetime`](/realpython.com/python-datetime/README.md) module in the standard library. However, support for working with time zones has been somewhat lacking. Until now, the [**recommended way**](/realpython.com/python-datetime/working-with-time-zones.md) of working with time zones has been to use third-party libraries like [<FontIcon icon="fas fa-globe"/>`dateutil`](https://dateutil.readthedocs.io/en/stable/).
+Python has extensive support for working with dates and times through the [`datetime`](/realpython.com/python-datetime/README.md) module in the standard library. However, support for working with time zones has been somewhat lacking. Until now, the [**recommended way**](/realpython.com/python-datetime/working-with-time-zones.md) of working with time zones has been to use third-party libraries like [<VPIcon icon="fas fa-globe"/>`dateutil`](https://dateutil.readthedocs.io/en/stable/).
 
 The biggest challenge to working with time zones in plain Python has been that you’ve had to implement time zones rules yourself. A `datetime` supports setting time zones, but only [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) is immediately available. Other time zones need to be implemented on top of the abstract [`tzinfo`](https://docs.python.org/3/library/datetime.html#tzinfo-objects) base class.
 

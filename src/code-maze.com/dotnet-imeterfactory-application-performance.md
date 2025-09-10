@@ -56,7 +56,7 @@ cover: https://code-maze.com/wp-content/uploads/2021/12/social-dotnet-core.png
 
 Performance monitoring is essential for ensuring that our applications run efficiently and reliably. .NET offers a set of tools to help with this, accessible via **IMeterFactory**. In this article, we’ll learn how to use these tools to check the health of our applications, measure performance, and collect data for optimization.
 
-To download the source code for this article, you can visit our [GitHub repository (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/CodeMazeGuides`)](https://github.com/CodeMazeBlog/CodeMazeGuides/tree/main/aspnetcore-features/PerformanceMonitoringWithIMeterFactory).
+To download the source code for this article, you can visit our [GitHub repository (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/CodeMazeGuides`)](https://github.com/CodeMazeBlog/CodeMazeGuides/tree/main/aspnetcore-features/PerformanceMonitoringWithIMeterFactory).
 
 So let’s get going.
 
@@ -254,7 +254,7 @@ This will enable the Swagger UI and make it easier to visualize and run the API 
 
 ## Visualize the Metrics
 
-Let’s run the API application, which should display the Swagger UI. To view the metrics, we’ll use the [<FontIcon icon="fa-brands fa-microsoft"/>dotnet-counters](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters) tool.
+Let’s run the API application, which should display the Swagger UI. To view the metrics, we’ll use the [<VPIcon icon="fa-brands fa-microsoft"/>dotnet-counters](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters) tool.
 
 First, we need to install the `dotnet-counters` tool using the `dotnet tool update` command:
 
@@ -573,13 +573,13 @@ The `MetricCollector` simplifies the process of writing tests for the various me
 
 Let’s explore best practices for choosing and implementing **IMeterFactory** instruments. **For DI-aware libraries, avoid static variables and opt for dependency injection (DI) instead**.
 
-When creating a Meter, it’s important to choose a unique name. As discussed earlier, follow [OpenTelemetry naming guidelines (<FontIcon icon="iconfont icon-github"/>`open-telemetry/semantic-conventions`)](https://github.com/open-telemetry/semantic-conventions/blob/main/docs/general/metrics.md#general-guidelines) using a lowercase, dotted hierarchical structure and underscores to separate words for naming all constructs. Ensure the instrument name is unique across the system, often incorporating assembly or namespace names.
+When creating a Meter, it’s important to choose a unique name. As discussed earlier, follow [OpenTelemetry naming guidelines (<VPIcon icon="iconfont icon-github"/>`open-telemetry/semantic-conventions`)](https://github.com/open-telemetry/semantic-conventions/blob/main/docs/general/metrics.md#general-guidelines) using a lowercase, dotted hierarchical structure and underscores to separate words for naming all constructs. Ensure the instrument name is unique across the system, often incorporating assembly or namespace names.
 
 We should always choose the appropriate instrument based on need; however, keep in mind that the Observable equivalents may perform better in performance-intensive scenarios, such as when there are more than one million calls per second per thread.
 
 If we need to understand the distribution’s tail, such as the 90th, 95th, and 99th percentiles, instead of just averages, use a histogram to measure event timings. For measuring cache, queue, and file sizes, opt for an `UpDownCounter` or `ObservableUpDownCounter` based on ease of integration into existing code, either through API calls for increments and decrements or a callback for current values from a maintained variable.
 
-.NET APIs allow any string as a unit, but utilizing [<FontIcon icon="fas fa-globe"/>UCUM](https://ucum.org/), the international standard for unit names is advisable. For multi-dimensional metrics, the API accepts any object as the tag value. However, collection tools typically expect numeric types and strings, making it crucial to provide these formats. Additionally, it’s recommended to follow the naming guidelines for tag names.
+.NET APIs allow any string as a unit, but utilizing [<VPIcon icon="fas fa-globe"/>UCUM](https://ucum.org/), the international standard for unit names is advisable. For multi-dimensional metrics, the API accepts any object as the tag value. However, collection tools typically expect numeric types and strings, making it crucial to provide these formats. Additionally, it’s recommended to follow the naming guidelines for tag names.
 
 ---
 

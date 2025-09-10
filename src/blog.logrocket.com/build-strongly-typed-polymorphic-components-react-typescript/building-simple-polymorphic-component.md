@@ -75,7 +75,7 @@ const MyComponent = ({ as, children }) => {
 };
 ```
 
-When [<FontIcon icon="fas fa-globe"/>rendering an element type at runtime](https://reactjs.org/docs/jsx-in-depth.html#choosing-the-type-at-runtime), you must first assign it to a capitalized variable, and then render the capitalized variable.
+When [<VPIcon icon="fas fa-globe"/>rendering an element type at runtime](https://reactjs.org/docs/jsx-in-depth.html#choosing-the-type-at-runtime), you must first assign it to a capitalized variable, and then render the capitalized variable.
 
 ![Using A Capitalized Variable](/assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-components-react-typescript/using-capitalized-variable.png)
 

@@ -409,7 +409,7 @@ Note that, in the SCSS code, there is no real`.parent`selector, as in no element
 
 Hence, the downside of an`&`that represents a selector-syntax string rather than a viable selector is that it might mislead us into thinking elements matching the perceived selector exist when they don’t, something that we don’t have to worry with the native`&`selector.
 
-::: info <FontIcon icon="iconfont icon-w3c"/>CSS Nesting Module 1, W3C (<code>w3.org</code>)
+::: info <VPIcon icon="iconfont icon-w3c"/>CSS Nesting Module 1, W3C (<code>w3.org</code>)
 
 ```component VPCard
 {

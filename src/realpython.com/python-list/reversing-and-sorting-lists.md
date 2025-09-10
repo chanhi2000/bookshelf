@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/Pythons-list-Built-in-Data-Type-A-Deep
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Pythons-list-Built-in-Data-Type-A-Deep-Dive-With-Examples_Watermarked.1f6291ed72f5.jpg"/>
 
-Reversing and specially sorting lists of values are commonplace tasks in programming. In Python, you’ll have the built-in [<FontIcon icon="fa-brands fa-python"/>`reversed()`](https://docs.python.org/3/library/functions.html#reversed) and [<FontIcon icon="fa-brands fa-python"/>`sorted()`](https://docs.python.org/3/library/functions.html#sorted) functions to perform these tasks. When you’re working with lists, then you also have the `.reverse()` and `.sort()` methods, which reverse and sort the target list in place.
+Reversing and specially sorting lists of values are commonplace tasks in programming. In Python, you’ll have the built-in [<VPIcon icon="fa-brands fa-python"/>`reversed()`](https://docs.python.org/3/library/functions.html#reversed) and [<VPIcon icon="fa-brands fa-python"/>`sorted()`](https://docs.python.org/3/library/functions.html#sorted) functions to perform these tasks. When you’re working with lists, then you also have the `.reverse()` and `.sort()` methods, which reverse and sort the target list in place.
 
 In the following sections, you’ll learn how to reverse and sort lists using the tools that Python provides for these tasks.
 
@@ -149,7 +149,7 @@ By setting `step` to a negative number, such as `-1`, you tell the slicing opera
 
 ## Sorting a List: `sorted()` and `.sort()`
 
-When you need to sort a list of values without altering the original list, you can use the built-in [<FontIcon icon="fa-brands fa-python"/>`sorted()`](https://docs.python.org/3/library/functions.html#sorted) function. This function takes an iterable of values and returns a list of sorted values:
+When you need to sort a list of values without altering the original list, you can use the built-in [<VPIcon icon="fa-brands fa-python"/>`sorted()`](https://docs.python.org/3/library/functions.html#sorted) function. This function takes an iterable of values and returns a list of sorted values:
 
 ```py
 numbers = [2, 9, 5, 1, 6]
@@ -181,7 +181,7 @@ sorted(words)
 # ['Hello,', 'I', 'Pythonista!', 'World!', 'a', 'am']
 ```
 
-What? The sorted list isn’t in alphabetical order. Why? Python sorts strings character by character using each character’s [**Unicode**](/realpython.com/python-encodings-guide.md) **code point**. Because uppercase letters come before lowercase letters in Python’s [<FontIcon icon="fa-brands fa-python"/>default character set](https://docs.python.org/3/howto/unicode.html#the-string-type), [<FontIcon icon="fa-brands fa-wikipedia-w"/>UTF-8](https://en.wikipedia.org/wiki/UTF-8), you end up with `"Hello"` in the first position and `"am"` in the last.
+What? The sorted list isn’t in alphabetical order. Why? Python sorts strings character by character using each character’s [**Unicode**](/realpython.com/python-encodings-guide.md) **code point**. Because uppercase letters come before lowercase letters in Python’s [<VPIcon icon="fa-brands fa-python"/>default character set](https://docs.python.org/3/howto/unicode.html#the-string-type), [<VPIcon icon="fa-brands fa-wikipedia-w"/>UTF-8](https://en.wikipedia.org/wiki/UTF-8), you end up with `"Hello"` in the first position and `"am"` in the last.
 
 ::: note
 
@@ -189,7 +189,7 @@ To dive deeper into sorting tools, check out [**How to Use `sorted()` and `.sort
 
 :::
 
-You can use the built-in [<FontIcon icon="fa-brands fa-python"/>`ord()`](https://docs.python.org/3/library/functions.html#ord) function to get the Unicode code point of a character in Python:
+You can use the built-in [<VPIcon icon="fa-brands fa-python"/>`ord()`](https://docs.python.org/3/library/functions.html#ord) function to get the Unicode code point of a character in Python:
 
 ```py
 ord("H")
@@ -232,7 +232,7 @@ In practice, you won’t find heterogeneous lists in many use cases. Sequences o
 
 :::
 
-To illustrate how `sorted()` can help you in the real world, say that you want to calculate the [<FontIcon icon="fa-brands fa-wikipedia-w"/>median](https://en.wikipedia.org/wiki/Median) of a numeric dataset or sample. The median is the value that lies in the middle when you sort the data. In most cases, your data won’t be sorted, so sorting will be the first step. Then you just need to locate the value in the middle.
+To illustrate how `sorted()` can help you in the real world, say that you want to calculate the [<VPIcon icon="fa-brands fa-wikipedia-w"/>median](https://en.wikipedia.org/wiki/Median) of a numeric dataset or sample. The median is the value that lies in the middle when you sort the data. In most cases, your data won’t be sorted, so sorting will be the first step. Then you just need to locate the value in the middle.
 
 If the number of values in your dataset is even, then the median is the average of the two values in the middle. Here’s a Python function that allows you to compute the median of a sample of values:
 
@@ -313,6 +313,6 @@ sorted_numbers is None
 # True
 ```
 
-The `.sort()` method sorts the list in place and returns `None` to remind users that it operates by [<FontIcon icon="fa-brands fa-wikipedia-w"/>side effect](https://en.wikipedia.org/wiki/Side_effect_(computer_science)). You must keep this behavior in mind because it can lead to subtle bugs.
+The `.sort()` method sorts the list in place and returns `None` to remind users that it operates by [<VPIcon icon="fa-brands fa-wikipedia-w"/>side effect](https://en.wikipedia.org/wiki/Side_effect_(computer_science)). You must keep this behavior in mind because it can lead to subtle bugs.
 
 You can also use the `reverse` and `key` keyword-only arguments with `.sort()`. They have the same meaning and functionality as the equivalent arguments in the `sorted()` function. Go ahead and give them a try!

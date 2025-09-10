@@ -60,7 +60,7 @@ In this article, we’ll explore `grid-template-columns` in CSS, understand what
 
 ::: note Editor’s note:
 
-This article was updated by [<FontIcon icon="fas fa-globe"/>David Omotayo](https://blog.logrocket.com/author/davidomotayo/) in February 2025 to add more detailed explanations of column values, expand on advanced techniques such as `fr`, `px`, `auto`, `repeat()`, `minmax()`, auto-fit, and auto-fill, and offer solutions to common grid-template-columns pitfalls.
+This article was updated by [<VPIcon icon="fas fa-globe"/>David Omotayo](https://blog.logrocket.com/author/davidomotayo/) in February 2025 to add more detailed explanations of column values, expand on advanced techniques such as `fr`, `px`, `auto`, `repeat()`, `minmax()`, auto-fit, and auto-fill, and offer solutions to common grid-template-columns pitfalls.
 
 :::
 
@@ -511,7 +511,7 @@ The example above, when using auto-fit, will look like this:
 
 ### `[linename]`
 
-Named grid lines, also known as `[linename]`, are not a `grid-template-columns` value in themselves. Instead, they provide a way to assign custom names to the lines that define the boundaries of the grid column, instead of the usual numerical way of identifying them. This makes it easier to reference and position grid items within the [<FontIcon icon="fas fa-globe"/>grid layout](https://blog.logrocket.com/ux-design/ux-grid-system-principles-best-practices/), especially in complex designs.
+Named grid lines, also known as `[linename]`, are not a `grid-template-columns` value in themselves. Instead, they provide a way to assign custom names to the lines that define the boundaries of the grid column, instead of the usual numerical way of identifying them. This makes it easier to reference and position grid items within the [<VPIcon icon="fas fa-globe"/>grid layout](https://blog.logrocket.com/ux-design/ux-grid-system-principles-best-practices/), especially in complex designs.
 
 Grid lines can be assigned names using square brackets. Here’s the basic syntax:
 
@@ -670,11 +670,11 @@ Another potential solution is to verify that the `gap` property is not being uni
 
 The `grid-template-columns` property has been around for quite some time. It was initially proposed as a candidate recommendation by the W3C in 2011. However, it gained full browser support in 2017 when all major browsers (Chrome, Firefox, Safari, Edge) adopted the standard CSS Grid specification.
 
-Here’s a [<FontIcon icon="fas fa-globe"/>caniuse](https://caniuse.com/?search=grid-template-columns) browser compatibility chart for the `grid-template-columns` properties:
+Here’s a [<VPIcon icon="fas fa-globe"/>caniuse](https://caniuse.com/?search=grid-template-columns) browser compatibility chart for the `grid-template-columns` properties:
 
 ![browser compatibility for grid template rows](/assets/image/blog.logrocket.com/css-grid-template-columns/21_browser-compatability-for-grid-template-rows.png)
 
-However, certain values, such as the [<FontIcon icon="fa-brands fa-firefox"/>`[masonry]` keyword](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout), which is currently in Editor’s Draft status, remain experimental and lack full browser support. it can only be enabled behind the `layout.css.grid-template-masonry-value.enabled` flag in Firefox and the technology preview in Safari or using a [**polyfill**](/blog.logrocket.com/creating-css-masonry-style-layouts.md#achieving-masonry-layout-css-grid-experimental-feature):
+However, certain values, such as the [<VPIcon icon="fa-brands fa-firefox"/>`[masonry]` keyword](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout), which is currently in Editor’s Draft status, remain experimental and lack full browser support. it can only be enabled behind the `layout.css.grid-template-masonry-value.enabled` flag in Firefox and the technology preview in Safari or using a [**polyfill**](/blog.logrocket.com/creating-css-masonry-style-layouts.md#achieving-masonry-layout-css-grid-experimental-feature):
 
 ![browser compatibility of masonry keyword](/assets/image/blog.logrocket.com/css-grid-template-columns/22_browser-compatability-of-masonry-keyword.png)
 

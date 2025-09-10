@@ -57,23 +57,23 @@ In this section, you’re going to learn the basic facts about YAML, including i
 
 ### Historical Context
 
-YAML, which rhymes with *camel*, is a [<FontIcon icon="fa-brands fa-wikipedia-w"/>recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) that stands for **YAML Ain’t Markup Language** because it’s *not* a markup language! Interestingly enough, the [<FontIcon icon="iconfont icon-yaml"/>original draft](https://yaml.org/spec/history/2001-05-26.html) for the YAML specification defined the language as *Yet Another Markup Language*, but later the current [<FontIcon icon="fa-brands fa-wikipedia-w"/>backronym](https://en.wikipedia.org/wiki/Backronym) was adopted to more accurately describe the language’s purpose.
+YAML, which rhymes with *camel*, is a [<VPIcon icon="fa-brands fa-wikipedia-w"/>recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) that stands for **YAML Ain’t Markup Language** because it’s *not* a markup language! Interestingly enough, the [<VPIcon icon="iconfont icon-yaml"/>original draft](https://yaml.org/spec/history/2001-05-26.html) for the YAML specification defined the language as *Yet Another Markup Language*, but later the current [<VPIcon icon="fa-brands fa-wikipedia-w"/>backronym](https://en.wikipedia.org/wiki/Backronym) was adopted to more accurately describe the language’s purpose.
 
-An actual [<FontIcon icon="fa-brands fa-wikipedia-w"/>markup language](https://en.wikipedia.org/wiki/Markup_language), such as Markdown or HTML, lets you annotate text with formatting or processing instructions intermixed with your content. Markup languages are, therefore, primarily concerned with text documents, whereas YAML is a [**<FontIcon icon="fa-brands fa-wikipedia-w"/>data serialization format**](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats) that integrates well with common data types native to many programming languages. There’s no inherent text in YAML, only data to represent.
+An actual [<VPIcon icon="fa-brands fa-wikipedia-w"/>markup language](https://en.wikipedia.org/wiki/Markup_language), such as Markdown or HTML, lets you annotate text with formatting or processing instructions intermixed with your content. Markup languages are, therefore, primarily concerned with text documents, whereas YAML is a [**<VPIcon icon="fa-brands fa-wikipedia-w"/>data serialization format**](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats) that integrates well with common data types native to many programming languages. There’s no inherent text in YAML, only data to represent.
 
-YAML was originally meant to simplify [<FontIcon icon="fa-brands fa-wikipedia-w"/>Extensible Markup Language (XML)](https://en.wikipedia.org/wiki/XML), but in reality, it has a lot more in common with [<FontIcon icon="fa-brands fa-wikipedia-w"/>JavaScript Object Notation (JSON)](https://en.wikipedia.org/wiki/JSON). In fact, it’s a superset of JSON.
+YAML was originally meant to simplify [<VPIcon icon="fa-brands fa-wikipedia-w"/>Extensible Markup Language (XML)](https://en.wikipedia.org/wiki/XML), but in reality, it has a lot more in common with [<VPIcon icon="fa-brands fa-wikipedia-w"/>JavaScript Object Notation (JSON)](https://en.wikipedia.org/wiki/JSON). In fact, it’s a superset of JSON.
 
 Even though XML was initially designed to be a metalanguage for creating markup languages for documents, people quickly adopted it as the standard data serialization format. The HTML-like syntax of angle brackets made XML look familiar. Suddenly, everyone wanted to use XML as their configuration, persistence, or messaging format.
 
-As the first kid on the block, XML dominated the scene for many years. It became a mature and trusted **data interchange format** and helped shape new concepts like building interactive web applications. After all, the letter *X* in [<FontIcon icon="fa-brands fa-wikipedia-w"/>AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)), a technique for getting data from the server without reloading the page, stands for none other than XML.
+As the first kid on the block, XML dominated the scene for many years. It became a mature and trusted **data interchange format** and helped shape new concepts like building interactive web applications. After all, the letter *X* in [<VPIcon icon="fa-brands fa-wikipedia-w"/>AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)), a technique for getting data from the server without reloading the page, stands for none other than XML.
 
 Ironically, it was AJAX that ultimately led to XML’s decline in popularity. The verbose, complex, and redundant XML syntax wasted a lot of bandwidth when data was sent over the network. Parsing XML documents in JavaScript was slow and tedious because of XML’s fixed [**document object model (DOM)**](/realpython.com/python-xml-parser.md#document-object-model-dom), which wouldn’t match the application’s data model. The community finally acknowledged that they’d been using the wrong tool for the job.
 
 That’s when [**JSON**](/realpython.com/python-json/README.md) entered the picture. It was built from the ground up with data serialization in mind. Web browsers could parse it effortlessly because JSON is a subset of JavaScript, which they already supported. Not only was JSON’s minimalistic syntax appealing to developers, but it also made porting to other platforms easier than XML did. To this day, JSON remains the slimmest, fastest, and most versatile textual data interchange format on the Internet.
 
-[<FontIcon icon="iconfont icon-yaml"/>YAML](https://yaml.org/) came into existence the same year as JSON, and by pure coincidence, it was almost a complete superset of JSON on the syntactical and semantic levels. Starting from YAML 1.2, the format officially became a strict **superset of JSON**, meaning that every valid JSON document also happens to be a YAML document.
+[<VPIcon icon="iconfont icon-yaml"/>YAML](https://yaml.org/) came into existence the same year as JSON, and by pure coincidence, it was almost a complete superset of JSON on the syntactical and semantic levels. Starting from YAML 1.2, the format officially became a strict **superset of JSON**, meaning that every valid JSON document also happens to be a YAML document.
 
-In practice, however, the two formats look different, as the [<FontIcon icon="iconfont icon-yaml"/>YAML specification](https://yaml.org/spec/1.2.2/) puts more emphasis on human readability by adding a lot more [<FontIcon icon="fa-brands fa-wikipedia-w"/>syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar) and features on top of JSON. As a result, YAML is more applicable to configuration files edited by hand rather than as a [<FontIcon icon="fa-brands fa-wikipedia-w"/>transport layer](https://en.wikipedia.org/wiki/Transport_layer).
+In practice, however, the two formats look different, as the [<VPIcon icon="iconfont icon-yaml"/>YAML specification](https://yaml.org/spec/1.2.2/) puts more emphasis on human readability by adding a lot more [<VPIcon icon="fa-brands fa-wikipedia-w"/>syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar) and features on top of JSON. As a result, YAML is more applicable to configuration files edited by hand rather than as a [<VPIcon icon="fa-brands fa-wikipedia-w"/>transport layer](https://en.wikipedia.org/wiki/Transport_layer).
 
 ### Comparison With XML and JSON
 
@@ -83,13 +83,13 @@ If you’re familiar with [**XML**](/realpython.com/python-xml-parser.md) or [**
 
 There are other, popular textual data formats like [**TOML**](/realpython.com/python-toml.md), which the new build system in Python is based on. Currently, only external packaging and dependency management tools like [**Poetry**](/realpython.com/dependency-management-python-poetry.md) can read TOML, but since Python 3.11 there’s a [**TOML parser in the standard library**](/realpython.com/python311-tomllib/).
 
-Common binary data serialization formats you’d find in the wild include Google’s [<FontIcon icon="fa-brands fa-wikipedia-w"/>Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers) and Apache’s [<FontIcon icon="fa-brands fa-wikipedia-w"/>Avro](https://en.wikipedia.org/wiki/Apache_Avro).
+Common binary data serialization formats you’d find in the wild include Google’s [<VPIcon icon="fa-brands fa-wikipedia-w"/>Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers) and Apache’s [<VPIcon icon="fa-brands fa-wikipedia-w"/>Avro](https://en.wikipedia.org/wiki/Apache_Avro).
 
 Now have a look at a sample document expressed in all three data formats but representing the same person. You can click to expand the collapsible sections and reveal data serialized in those formats:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-code"/>XML
+@tab:active <VPIcon icon="iconfont icon-code"/>XML
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -105,7 +105,7 @@ Now have a look at a sample document expressed in all three data formats but rep
 </person>
 ```
 
-@tab <FontIcon icon="iconfont icon-json"/>JSON
+@tab <VPIcon icon="iconfont icon-json"/>JSON
 
 ```json
 {
@@ -123,7 +123,7 @@ Now have a look at a sample document expressed in all three data formats but rep
 }
 ```
 
-@tab <FontIcon icon="iconfont icon-yaml"/>YAML
+@tab <VPIcon icon="iconfont icon-yaml"/>YAML
 
 ```yaml
 ---
@@ -157,7 +157,7 @@ Here’s a somewhat subjective comparison of XML, JSON, and YAML to give you an 
 | **Read and Write Speed** | ⭐⭐ | ⭐⭐⭐⭐ | ⭐ |
 | **File Size** | ⭐ | ⭐⭐⭐ | ⭐⭐ |
 
-When you look at [<FontIcon icon="fa-brands fa-google"/>Google Trends](https://trends.google.com/trends/explore?date=all&q=XML,JSON,YAML) to track interest in the three search phrases, then you’ll conclude that JSON is the current winner. However, XML isn’t far behind, with YAML attracting the *least interest*. Also, it looks like XML’s popularity has been on a steady decline ever since Google started collecting data.
+When you look at [<VPIcon icon="fa-brands fa-google"/>Google Trends](https://trends.google.com/trends/explore?date=all&q=XML,JSON,YAML) to track interest in the three search phrases, then you’ll conclude that JSON is the current winner. However, XML isn’t far behind, with YAML attracting the *least interest*. Also, it looks like XML’s popularity has been on a steady decline ever since Google started collecting data.
 
 ::: note
 
@@ -167,11 +167,11 @@ YAML is arguably the *easiest on the eyes*, as readability has always been one o
 
 In Python, performance when working with these data formats will vary, and it’ll be highly sensitive to the implementation you choose. A pure Python implementation will always lose to a compiled C library. In addition to this, using different XML processing models—([**DOM**](/realpython.com/python-xml-parser.md#document-object-model-dom), [**SAX**](/realpython.com/python-xml-parser.md#simple-api-for-xml-sax), or [**StAX**](/realpython.com/python-xml-parser.md#streaming-api-for-xml-stax))—will also impact performance.
 
-Implementations aside, YAML’s versatile, liberal, and complex syntax makes it by far the *slowest* to parse and serialize. On the other side of the spectrum, you’ll find JSON, whose grammar [can fit on a business card (<FontIcon icon="fa-brands fa-x-twtiter"/>`jeresig`)](https://x.com/jeresig/status/2875994605). In contrast, YAML’s own [grammar documentation (<FontIcon icon="iconfont icon-github"/>`yaml/yaml-grammar`)](https://github.com/yaml/yaml-grammar) claims that creating a fully compliant parser has proven almost impossible.
+Implementations aside, YAML’s versatile, liberal, and complex syntax makes it by far the *slowest* to parse and serialize. On the other side of the spectrum, you’ll find JSON, whose grammar [can fit on a business card (<VPIcon icon="fa-brands fa-x-twtiter"/>`jeresig`)](https://x.com/jeresig/status/2875994605). In contrast, YAML’s own [grammar documentation (<VPIcon icon="iconfont icon-github"/>`yaml/yaml-grammar`)](https://github.com/yaml/yaml-grammar) claims that creating a fully compliant parser has proven almost impossible.
 
 ::: info Fun Fact
 
-The official [<FontIcon icon="iconfont icon-yaml"/>yaml.org](https://yaml.org/) website is written as a valid YAML document.
+The official [<VPIcon icon="iconfont icon-yaml"/>yaml.org](https://yaml.org/) website is written as a valid YAML document.
 
 :::
 
@@ -181,13 +181,13 @@ Historically, XML has had the best support across a wide range of technologies. 
 
 ### Practical Uses of YAML
 
-As noted earlier, YAML is mostly praised for its readability, which makes it perfect for storing all kinds of configuration data in a human-readable format. It became especially popular among [<FontIcon icon="fas fa-globe"/>DevOps](https://realpython.com/learning-paths/python-devops/) engineers, who’ve built automation tools around it. A few examples of such tools include:
+As noted earlier, YAML is mostly praised for its readability, which makes it perfect for storing all kinds of configuration data in a human-readable format. It became especially popular among [<VPIcon icon="fas fa-globe"/>DevOps](https://realpython.com/learning-paths/python-devops/) engineers, who’ve built automation tools around it. A few examples of such tools include:
 
-- [**<FontIcon icon="iconfont icon-ansible"/>Ansible**](https://ansible.com/): Uses YAML to describe the desired state of the remote infrastructure, manage the configuration, and orchestrate IT processes
-- [**<FontIcon icon="fa-brands fa-docker"/>Docker Compose**](https://docs.docker.com/compose/): Uses YAML to describe the microservices comprising your Dockerized application
-- [**<FontIcon icon="iconfont icon-k8s"/>Kubernetes**](https://kubernetes.io/): Uses YAML to define various objects in a computer cluster to orchestrate and manage
+- [**<VPIcon icon="iconfont icon-ansible"/>Ansible**](https://ansible.com/): Uses YAML to describe the desired state of the remote infrastructure, manage the configuration, and orchestrate IT processes
+- [**<VPIcon icon="fa-brands fa-docker"/>Docker Compose**](https://docs.docker.com/compose/): Uses YAML to describe the microservices comprising your Dockerized application
+- [**<VPIcon icon="iconfont icon-k8s"/>Kubernetes**](https://kubernetes.io/): Uses YAML to define various objects in a computer cluster to orchestrate and manage
 
-Apart from that, some general-purpose tools, libraries, and services give you the option to configure them through YAML, which you may find more convenient than other data formats. For example, platforms like [<FontIcon icon="fas fa-globe"/>CircleCI](https://circleci.com/) and [<FontIcon icon="iconfont icon-github"/>GitHub](https://github.com/features/actions) frequently turn to YAML to define [<FontIcon icon="fa-brands fa-wikipedia-w"/>continuous integration, deployment, and delivery (CI/CD)](https://en.wikipedia.org/wiki/CI/CD) pipelines. The [<FontIcon icon="iconfont icon-swagger"/>OpenAPI Specification](https://swagger.io/specification/) allows for code stub generation based on a YAML description of [**RESTful APIs**](/realpython.com/api-integration-in-python.md).
+Apart from that, some general-purpose tools, libraries, and services give you the option to configure them through YAML, which you may find more convenient than other data formats. For example, platforms like [<VPIcon icon="fas fa-globe"/>CircleCI](https://circleci.com/) and [<VPIcon icon="iconfont icon-github"/>GitHub](https://github.com/features/actions) frequently turn to YAML to define [<VPIcon icon="fa-brands fa-wikipedia-w"/>continuous integration, deployment, and delivery (CI/CD)](https://en.wikipedia.org/wiki/CI/CD) pipelines. The [<VPIcon icon="iconfont icon-swagger"/>OpenAPI Specification](https://swagger.io/specification/) allows for code stub generation based on a YAML description of [**RESTful APIs**](/realpython.com/api-integration-in-python.md).
 
 ::: note
 
@@ -214,7 +214,7 @@ This sample document defines a family tree with `grandparent` as the root elemen
 
 ::: note
 
-The YAML specification forbids using [<FontIcon icon="fa-brands fa-wikipedia-w"/>tabs](https://en.wikipedia.org/wiki/Tab_key) for indentation and considers their use a syntax error. This coincides with Python’s [**PEP 8**](/realpython.com/python-pep8.md) recommendation about preferring spaces over tabs.
+The YAML specification forbids using [<VPIcon icon="fa-brands fa-wikipedia-w"/>tabs](https://en.wikipedia.org/wiki/Tab_key) for indentation and considers their use a syntax error. This coincides with Python’s [**PEP 8**](/realpython.com/python-pep8.md) recommendation about preferring spaces over tabs.
 
 :::
 
@@ -237,13 +237,13 @@ Notice how you can mix the indented and inline blocks in one document. Also, you
 
 Don’t worry if that looks confusing. You’ll want to specify unquoted string literals in YAML for the most part, anyway. One notable exception would be declaring a string that the parser could misinterpret as the wrong data type. For example, `True` written without any quotation marks might be treated as a [**Python Boolean**](/realpython.com/python-boolean.md).
 
-The three fundamental **data structures** in YAML are essentially the same as in [<FontIcon icon="fas fa-globe"/>Perl](https://perl.org/), which was once a popular scripting language. They’re the following:
+The three fundamental **data structures** in YAML are essentially the same as in [<VPIcon icon="fas fa-globe"/>Perl](https://perl.org/), which was once a popular scripting language. They’re the following:
 
 1. **Scalars:** Simple values like numbers, strings, or Booleans
 2. **Arrays:** Sequences of scalars or other collections
 3. **Hashes:** Associative arrays, also known as maps, dictionaries, objects, or records comprised of key-value pairs
 
-You can define a YAML scalar similarly to a corresponding [<FontIcon icon="fa-brands fa-python"/>Python literal](https://docs.python.org/3/reference/lexical_analysis.html#literals). Here are a few examples:
+You can define a YAML scalar similarly to a corresponding [<VPIcon icon="fa-brands fa-python"/>Python literal](https://docs.python.org/3/reference/lexical_analysis.html#literals). Here are a few examples:
 
 | Data Type | YAML |
 | --- | --- |
@@ -258,7 +258,7 @@ You can write reserved words in YAML in lowercase (`null`), uppercase (`NULL`), 
 
 ::: note
 
-This implicit typing in YAML seems convenient, but it’s like playing with fire, and it can cause [<FontIcon icon="fas fa-globe"/>serious problems](https://hitchdev.com/strictyaml/why/implicit-typing-removed/) in edge cases. As a result, the YAML 1.2 specification dropped support for some built-in literals like `yes` and `no`.
+This implicit typing in YAML seems convenient, but it’s like playing with fire, and it can cause [<VPIcon icon="fas fa-globe"/>serious problems](https://hitchdev.com/strictyaml/why/implicit-typing-removed/) in edge cases. As a result, the YAML 1.2 specification dropped support for some built-in literals like `yes` and `no`.
 
 :::
 
@@ -325,11 +325,11 @@ While XML is all about text, and JSON inherits JavaScript’s few data types, YA
 | `23:59:59` | `86399` |
 | `59:59` | `3599` |
 
-YAML understands various date and time formats, including the [<FontIcon icon="fa-brands fa-wikipedia-w"/>ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard, and can work with optional time zones. Timestamps such as 23:59:59 get deserialized into the number of seconds elapsed since midnight.
+YAML understands various date and time formats, including the [<VPIcon icon="fa-brands fa-wikipedia-w"/>ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard, and can work with optional time zones. Timestamps such as 23:59:59 get deserialized into the number of seconds elapsed since midnight.
 
 ::: note
 
-The PyYAML library used in this tutorial is based on the older YAML 1.1 specification, which supports [<FontIcon icon="fa-brands fa-wikipedia-w"/>base-60 numbers](https://en.wikipedia.org/wiki/Sexagesimal) through the colon (`:`) notation. This means that a literal like `59:59` gets interpreted as an integer value of $3,599$ because $59\times{601}+59\times{600}$ adds up to it.
+The PyYAML library used in this tutorial is based on the older YAML 1.1 specification, which supports [<VPIcon icon="fa-brands fa-wikipedia-w"/>base-60 numbers](https://en.wikipedia.org/wiki/Sexagesimal) through the colon (`:`) notation. This means that a literal like `59:59` gets interpreted as an integer value of $3,599$ because $59\times{601}+59\times{600}$ adds up to it.
 
 On the surface, this looks like a convenient way of converting timestamps to the number of elapsed seconds. Unfortunately, the rules governing the parsing process of such literals in YAML 1.1 can be confusing and potentially error-prone. When your literal starts with a leading zero (`05:59`), a YAML 1.1 parser will interpret it as a string instead of a Python `datetime` object!
 
@@ -337,7 +337,7 @@ Therefore, you might consider using a different library than PyYAML in your prod
 
 :::
 
-To resolve potential ambiguities, you can cast values to specific data types by using **YAML tags**, which start with the double exclamation point (`!!`). There are a few [<FontIcon icon="iconfont icon-yaml"/>language-independent tags](https://yaml.org/type/index.html), but different parsers might provide additional extensions only relevant to your programming language. For example, the library that you’ll be using later lets you convert values to native Python types and even serialize your custom classes:
+To resolve potential ambiguities, you can cast values to specific data types by using **YAML tags**, which start with the double exclamation point (`!!`). There are a few [<VPIcon icon="iconfont icon-yaml"/>language-independent tags](https://yaml.org/type/index.html), but different parsers might provide additional extensions only relevant to your programming language. For example, the library that you’ll be using later lets you convert values to native Python types and even serialize your custom classes:
 
 ```yaml
 text: !!str 2022-01-16
@@ -365,7 +365,7 @@ person: !!python/object:package_name.module_name.ClassName
 
 The use of the `!!str` tag next to a date object makes YAML treat it as a regular string. Question marks (`?`) denote a mapping key in YAML. They’re usually unnecessary but can help you define a compound key from another collection or a key that contains reserved characters. In this case, you want to define blank keys to create a [**set data structure**](/realpython.com/python-sets.md), which is equivalent to a mapping without the keys.
 
-Moreover, you can use the `!!binary` tag to embed [<FontIcon icon="fa-brands fa-wikipedia-w"/>Base64-encoded](https://en.wikipedia.org/wiki/Base64) binary files such as images or other resources, which will become instances of [**`bytes`**](/realpython.com/python-strings.md#bytes-objects) in Python. The tags prefixed with `!!python/` are provided by PyYAML.
+Moreover, you can use the `!!binary` tag to embed [<VPIcon icon="fa-brands fa-wikipedia-w"/>Base64-encoded](https://en.wikipedia.org/wiki/Base64) binary files such as images or other resources, which will become instances of [**`bytes`**](/realpython.com/python-strings.md#bytes-objects) in Python. The tags prefixed with `!!python/` are provided by PyYAML.
 
 The YAML document above would translate into the following Python dictionary:
 
@@ -388,7 +388,7 @@ Other powerful features of YAML are **anchors and aliases**, which let you defin
 - Rotating meals in a meal plan
 - Referencing exercises in a training program
 
-To declare an anchor, which you can think of as a named variable, you’d use the [<FontIcon icon="fa-brands fa-wikipedia-w"/>ampersand (`&`)](https://en.wikipedia.org/wiki/Ampersand) symbol, while to dereference that anchor later on, you’d use the [<FontIcon icon="fa-brands fa-wikipedia-w"/>asterisk (`*`)](https://en.wikipedia.org/wiki/Asterisk) symbol:
+To declare an anchor, which you can think of as a named variable, you’d use the [<VPIcon icon="fa-brands fa-wikipedia-w"/>ampersand (`&`)](https://en.wikipedia.org/wiki/Ampersand) symbol, while to dereference that anchor later on, you’d use the [<VPIcon icon="fa-brands fa-wikipedia-w"/>asterisk (`*`)](https://en.wikipedia.org/wiki/Asterisk) symbol:
 
 ```yaml
 recursive: &cycle [*cycle]
@@ -418,11 +418,11 @@ schedule:
     - *plank
 ```
 
-Here, you’ve created a workout plan from the exercises that you defined earlier, repeating them across various daily routines. Additionally, the `recursive` property demonstrates an example of a [<FontIcon icon="fa-brands fa-wikipedia-w"/>circular reference](https://en.wikipedia.org/wiki/Circular_reference). This property is a sequence whose only element is the sequence itself. In other words, `recursive[0]` is the same as `recursive`.
+Here, you’ve created a workout plan from the exercises that you defined earlier, repeating them across various daily routines. Additionally, the `recursive` property demonstrates an example of a [<VPIcon icon="fa-brands fa-wikipedia-w"/>circular reference](https://en.wikipedia.org/wiki/Circular_reference). This property is a sequence whose only element is the sequence itself. In other words, `recursive[0]` is the same as `recursive`.
 
 ::: note
 
-Unlike plain XML and JSON, which can only represent [<FontIcon icon="fa-brands fa-wikipedia-w"/>tree-like hierarchies](https://en.wikipedia.org/wiki/Tree_structure) with a single root element, YAML also makes it possible to describe [<FontIcon icon="fa-brands fa-wikipedia-w"/>directed graph](https://en.wikipedia.org/wiki/Directed_graph) structures with [**recursive**](/realpython.com/python-recursion.md) cycles. Cross-referencing in XML and JSON can be possible, though, with the help of custom extensions or dialects.
+Unlike plain XML and JSON, which can only represent [<VPIcon icon="fa-brands fa-wikipedia-w"/>tree-like hierarchies](https://en.wikipedia.org/wiki/Tree_structure) with a single root element, YAML also makes it possible to describe [<VPIcon icon="fa-brands fa-wikipedia-w"/>directed graph](https://en.wikipedia.org/wiki/Directed_graph) structures with [**recursive**](/realpython.com/python-recursion.md) cycles. Cross-referencing in XML and JSON can be possible, though, with the help of custom extensions or dialects.
 
 :::
 
@@ -461,9 +461,9 @@ Lorem ipsum dolor sit amet
 Lorem ipsum dolor sit amet
 ```
 
-And, in case you were wondering, [<FontIcon icon="fa-brands fa-wikipedia-w"/>*Lorem ipsum*](https://en.wikipedia.org/wiki/Lorem_ipsum) is a common placeholder text used in writing and web design to fill up the available space. It doesn’t carry any meaning, as it’s deliberately nonsensical and written in improper Latin to let you focus on the form rather than the content.
+And, in case you were wondering, [<VPIcon icon="fa-brands fa-wikipedia-w"/>*Lorem ipsum*](https://en.wikipedia.org/wiki/Lorem_ipsum) is a common placeholder text used in writing and web design to fill up the available space. It doesn’t carry any meaning, as it’s deliberately nonsensical and written in improper Latin to let you focus on the form rather than the content.
 
-In contrast to flow scalars, block scalars allow for changing how to deal with the [<FontIcon icon="iconfont icon-yaml"/>newlines](https://yaml.org/spec/1.2-old/spec.html#id2795688), [<FontIcon icon="iconfont icon-yaml"/>trailing newlines](https://yaml.org/spec/1.2-old/spec.html#id2794534), or [<FontIcon icon="iconfont icon-yaml"/>indentation](https://yaml.org/spec/1.2-old/spec.html#id2793979). For example, the pipe (`|`) indicator placed right after the property name preserves the newlines literally, which can be handy for embedding [<FontIcon icon="fa-brands fa-wikipedia-w"/>shell scripts](https://en.wikipedia.org/wiki/Shell_script) in your YAML file:
+In contrast to flow scalars, block scalars allow for changing how to deal with the [<VPIcon icon="iconfont icon-yaml"/>newlines](https://yaml.org/spec/1.2-old/spec.html#id2795688), [<VPIcon icon="iconfont icon-yaml"/>trailing newlines](https://yaml.org/spec/1.2-old/spec.html#id2794534), or [<VPIcon icon="iconfont icon-yaml"/>indentation](https://yaml.org/spec/1.2-old/spec.html#id2793979). For example, the pipe (`|`) indicator placed right after the property name preserves the newlines literally, which can be handy for embedding [<VPIcon icon="fa-brands fa-wikipedia-w"/>shell scripts](https://en.wikipedia.org/wiki/Shell_script) in your YAML file:
 
 ```yaml
 script: |
@@ -476,7 +476,7 @@ script: |
       main()
 ```
 
-The YAML document above defines a property named `script`, which holds a short Python script consisting of a few lines of code. Without the pipe indicator, a YAML parser would’ve treated the following lines as nested elements rather than as a whole. Ansible is a [<FontIcon icon="iconfont icon-ansible"/>notable example](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module.html#examples) that takes advantage of this feature of YAML.
+The YAML document above defines a property named `script`, which holds a short Python script consisting of a few lines of code. Without the pipe indicator, a YAML parser would’ve treated the following lines as nested elements rather than as a whole. Ansible is a [<VPIcon icon="iconfont icon-ansible"/>notable example](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module.html#examples) that takes advantage of this feature of YAML.
 
 If you’d like to only fold lines with indentation determined by the first line in a paragraph, then use the greater than sign (`>`) indicator:
 

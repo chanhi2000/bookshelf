@@ -62,6 +62,6 @@ You can use `sorted()` to sort any list as long as the values inside are compara
 
 ::: note
 
-For a deeper dive into how Python’s built-in sorting functionality works, check out [**How to Use `sorted()` and `.sort()` in Python**](/realpython.com/python-sort.md) and [<FontIcon icon="fas fa-globe"/>Sorting Data With Python](https://realpython.com/courses/python-sorting-data/).
+For a deeper dive into how Python’s built-in sorting functionality works, check out [**How to Use `sorted()` and `.sort()` in Python**](/realpython.com/python-sort.md) and [<VPIcon icon="fas fa-globe"/>Sorting Data With Python](https://realpython.com/courses/python-sorting-data/).
 
 :::

@@ -55,7 +55,7 @@ cover: https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg
 
 ::: note
 
-This is a chapter from the book [Effective Kotlin](/book/effectivekotlin). You can find it on [<FontIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<FontIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
+This is a chapter from the book [Effective Kotlin](/book/effectivekotlin). You can find it on [<VPIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<VPIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
 
 :::
 
@@ -941,7 +941,7 @@ Cancellation is a powerful feature. It is generally easy to use, but it can some
 
 A properly used cancellation means fewer wasted resources and fewer memory leaks. This is important for our application's performance, so I hope you will use these advantages from now on.
 
-[^1]: A good example is `CoroutineWorker` on Android, where according to the presentation [<FontIcon icon="fa-brands fa-youtube"/>*Understand Kotlin Coroutines on Android* on Google I/O'19](https://youtu.be/BOHK_w09pVA) by Sean McQuillan and Yigit Boyar (both working on Android at Google), support for coroutines was added primarily to use the cancellation mechanism.
+[^1]: A good example is `CoroutineWorker` on Android, where according to the presentation [<VPIcon icon="fa-brands fa-youtube"/>*Understand Kotlin Coroutines on Android* on Google I/O'19](https://youtu.be/BOHK_w09pVA) by Sean McQuillan and Yigit Boyar (both working on Android at Google), support for coroutines was added primarily to use the cancellation mechanism.
 [^2]: Actually, it's worth much more since the code is currently not very heavy (it used to be when it was stored on punched cards).
 [^3]: If true, the function is called in the "Cancelling" state (i.e., before "Cancelled"). `false` by default.
 [^4]: This parameter determines whether the handler should be called immediately if the handler is set when a coroutine is already in the desired state. `true` by default.

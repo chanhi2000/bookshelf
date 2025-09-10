@@ -74,7 +74,7 @@ It was a lovely day on the internet when someone asked how to CSS animated gradi
 
 <VidStack src="https://videopress.com/a6d5e9a3-67f7-4e11-b01f-715e618a5273" />
 
-Both the question and this answer have since been deleted. But we still have[<FontIcon icon="iconfont icon-openai"/>the chat link](https://chatgpt.com/share/68109ae9-9068-8000-8b23-eef6e849d296)that got posted in the answer and we’re going to look into it.
+Both the question and this answer have since been deleted. But we still have[<VPIcon icon="iconfont icon-openai"/>the chat link](https://chatgpt.com/share/68109ae9-9068-8000-8b23-eef6e849d296)that got posted in the answer and we’re going to look into it.
 
 ::: details Screenshot of ChatGPT Generated Code
 
@@ -200,11 +200,11 @@ This answer only included`-webkit-text-fill-color`, though I’ve seen versions 
         text-fill-color: transparent;
 ```
 
-There is no such thing as`text-fill-color`. There isn’t even a standard spec for it. It’s just something that was implemented in WebKit with a prefix[<FontIcon icon="iconfont icon-webkit"/>almost 2 decades ago](https://webkit.org/blog/85/introducing-text-stroke/)and then became used enough on the web that other browsers had to support it too. With the`-webkit-`prefix. So the prefixed version is the*only*one that has ever been implemented in*any*browser.
+There is no such thing as`text-fill-color`. There isn’t even a standard spec for it. It’s just something that was implemented in WebKit with a prefix[<VPIcon icon="iconfont icon-webkit"/>almost 2 decades ago](https://webkit.org/blog/85/introducing-text-stroke/)and then became used enough on the web that other browsers had to support it too. With the`-webkit-`prefix. So the prefixed version is the*only*one that has ever been implemented in*any*browser.
 
-While WebKit introduced this property alongside`-webkit-text-stroke`, its usage would end up far exceeding that of`-webkit-text-stroke`. This is something that started about 15 years ago when`-webkit-text-fill-color`became a common tactic for making text transparent*only*in WebKit browsers. Precisely for[<FontIcon icon="fas fa-globe"/>image text](https://trentwalton.com/2010/03/24/css3-background-clip-text/)in general and then a lot more often for gradient text in particular.
+While WebKit introduced this property alongside`-webkit-text-stroke`, its usage would end up far exceeding that of`-webkit-text-stroke`. This is something that started about 15 years ago when`-webkit-text-fill-color`became a common tactic for making text transparent*only*in WebKit browsers. Precisely for[<VPIcon icon="fas fa-globe"/>image text](https://trentwalton.com/2010/03/24/css3-background-clip-text/)in general and then a lot more often for gradient text in particular.
 
-At the time, clipping backgrounds to`text`was[<FontIcon icon="iconfont icon-webkit"/>only supported in WebKit browsers](https://webkit.org/blog/164/background-clip-text/)via the (back then) non-standard`-webkit-background-clip: text`. If we wanted to get a visible gradient text this way, we had to be able to see through the actual text on top of the clipped`background`. Problem was, back in 2010, if we set`color`to`transparent`, then we’d get:
+At the time, clipping backgrounds to`text`was[<VPIcon icon="iconfont icon-webkit"/>only supported in WebKit browsers](https://webkit.org/blog/164/background-clip-text/)via the (back then) non-standard`-webkit-background-clip: text`. If we wanted to get a visible gradient text this way, we had to be able to see through the actual text on top of the clipped`background`. Problem was, back in 2010, if we set`color`to`transparent`, then we’d get:
 
 - Gradient text as desired in browsers supporting both`-webkit-background-clip: text`and CSS gradients
 - No visible text and a gradient rectangle in browsers supporting CSS gradients, but not`-webkit-background-clip: text`(in 2010, this would have been the case for Firefox)
@@ -225,9 +225,9 @@ background:
 -webkit-text-fill-color: transparent
 ```
 
-Note that at the time, this was seen as a temporary WebKit-only solution, as other options for getting such gradient text[<FontIcon icon="iconfont icon-w3s"/>were being discussed](https://w3.org/Style/CSS/Tracker/issues/17). The “temporary” solution stuck, I guess. And so[<FontIcon icon="fas fa-globe"/>it’s now in the spec](https://drafts.csswg.org/css-backgrounds-4/#background-clip).
+Note that at the time, this was seen as a temporary WebKit-only solution, as other options for getting such gradient text[<VPIcon icon="iconfont icon-w3s"/>were being discussed](https://w3.org/Style/CSS/Tracker/issues/17). The “temporary” solution stuck, I guess. And so[<VPIcon icon="fas fa-globe"/>it’s now in the spec](https://drafts.csswg.org/css-backgrounds-4/#background-clip).
 
-And yes, that is[<FontIcon icon="iconfont icon-webkit"/>a different gradient syntax](https://webkit.org/blog/175/introducing-css-gradients/)(which, by the way, is still supported to this day in Chrome). The syntax for CSS gradients went through multiple iterations. After this one, we had another`-webkit-`prefixed version, a lot more similar to what we have today, but still not the same. If you’re curious, you can see a bit more about the support timeline in[my 10 year old rant(<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/pjxVWp)about using gradient generators without understanding the code they spit out and without having a clue how much of it is really necessary. Because before we had AI chatbots spitting out too much needless CSS for the desired result, we had all these CSS3 generators doing pretty much the same! Like a song says, oh, it was different… and yet the same!
+And yes, that is[<VPIcon icon="iconfont icon-webkit"/>a different gradient syntax](https://webkit.org/blog/175/introducing-css-gradients/)(which, by the way, is still supported to this day in Chrome). The syntax for CSS gradients went through multiple iterations. After this one, we had another`-webkit-`prefixed version, a lot more similar to what we have today, but still not the same. If you’re curious, you can see a bit more about the support timeline in[my 10 year old rant(<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/pjxVWp)about using gradient generators without understanding the code they spit out and without having a clue how much of it is really necessary. Because before we had AI chatbots spitting out too much needless CSS for the desired result, we had all these CSS3 generators doing pretty much the same! Like a song says, oh, it was different… and yet the same!
 
 Using`-webkit-text-fill-color`to override`color`just for WebKit browsers, we got:
 
@@ -241,17 +241,17 @@ I first thought that anyone who’d be using one of these browsers that would al
 
 Wrong! Some months later, I went to a job interview. I’ve always been a show-off, I’m like a fish in the water when live coding, so I jumped on the chance to actually get in front of a computer and impress with all the cool things I could do thanks to the new CSS features. They were using a Chrome version that was quite a bit behind the then current one. CSS gradients did not work.
 
-I started using[<FontIcon icon="fas fa-globe"/>Modernizr](https://modernizr.com/)to test for CSS gradient support after that. We didn’t have`@supports`back then, so Modernizr was the way to go for many years.
+I started using[<VPIcon icon="fas fa-globe"/>Modernizr](https://modernizr.com/)to test for CSS gradient support after that. We didn’t have`@supports`back then, so Modernizr was the way to go for many years.
 
-Then there was[<FontIcon icon="fas fa-globe"/>the Android problem](https://css-tricks.com/image-under-text/#aa-but-there-is-no-perfect-system-for-this)- CSS gradients being supported, but not`-webkit-background-clip: text`, though support tests returned false positives. Since I didn’t have a smartphone and I don’t think I even knew anyone who had one at the time, I couldn’t test if any fix found on the internet would work and I don’t recall anyone ever complaining, so I confess I never even bothered with trying to cover this case.
+Then there was[<VPIcon icon="fas fa-globe"/>the Android problem](https://css-tricks.com/image-under-text/#aa-but-there-is-no-perfect-system-for-this)- CSS gradients being supported, but not`-webkit-background-clip: text`, though support tests returned false positives. Since I didn’t have a smartphone and I don’t think I even knew anyone who had one at the time, I couldn’t test if any fix found on the internet would work and I don’t recall anyone ever complaining, so I confess I never even bothered with trying to cover this case.
 
 Then things started to get even funnier.
 
-In 2011, WebKit browsers started supporting a newer, different gradient syntax. Still with a prefix, still different from the standard one. Most notably, angles were going[<FontIcon icon="fas fa-globe"/>in the opposite direction](https://kittygiraudel.com/2013/02/04/dig-deep-into-css-gradients/)and the gradient start was offset by`90°`relative to the current version, meaning the`0°`gradient start was taken to be at 3 o’clock, rather than at 12 o’clock like in the case of the current standard one.
+In 2011, WebKit browsers started supporting a newer, different gradient syntax. Still with a prefix, still different from the standard one. Most notably, angles were going[<VPIcon icon="fas fa-globe"/>in the opposite direction](https://kittygiraudel.com/2013/02/04/dig-deep-into-css-gradients/)and the gradient start was offset by`90°`relative to the current version, meaning the`0°`gradient start was taken to be at 3 o’clock, rather than at 12 o’clock like in the case of the current standard one.
 
-This really caught on. Prefixes[<FontIcon icon="fas fa-globe"/>were meant to solve a problem](https://alistapart.com/article/prefix-or-posthack/), but a lot of developers skipped reading the instructions on the box, so they wrote code with either too many prefixed versions of the same properties or, more commonly, not enough… usually just the WebKit one. Which meant other browsers started considering supporting the`-webkit-`prefix too.
+This really caught on. Prefixes[<VPIcon icon="fas fa-globe"/>were meant to solve a problem](https://alistapart.com/article/prefix-or-posthack/), but a lot of developers skipped reading the instructions on the box, so they wrote code with either too many prefixed versions of the same properties or, more commonly, not enough… usually just the WebKit one. Which meant other browsers started considering supporting the`-webkit-`prefix too.
 
-There was[<FontIcon icon="fas fa-globe"/>a lot](http://glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION:-THE-OPEN-WEB-NEEDS-YOU-NOW)[<FontIcon icon="fas fa-globe"/>written](https://christianheilmann.com/2012/02/09/now-vendor-prefixes-have-become-a-problem-want-to-help-fix-it/)[<FontIcon icon="fas fa-globe"/>about it](https://sitepoint.com/w3c-css-webkit-prefix-crisis/)at the time, but basically what this meant was that Opera first implemented`-webkit-`prefixes in 2012 and then[<FontIcon icon="fas fa-globe"/>switched away](https://tobiasahlin.com/blog/opera-moves-to-webkit/)from Presto altogether a year later, at around the same time Blink[<FontIcon icon="fa-brands fa-chrome"/>was announced](https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html). Another year later, IE[<FontIcon icon="fa-brands fa-edge"/>added](https://blogs.windows.com/msedgedev/2015/06/17/building-a-more-interoperable-web-with-microsoft-edge/)the`-webkit-`prefix too. This would carry over to Edge and then Edge would also move to Blink. And then in[<FontIcon icon="fa-brands fa-firefox"/>2015](https://bugzilla.mozilla.org/show_bug.cgi?id=1107378)-[<FontIcon icon="fa-brands fa-firefox"/>2016](https://hacks.mozilla.org/2016/09/firefox-49-fixes-sites-designed-with-webkit-in-mind-and-more/), Firefox also implemented some non-standard`-webkit-`prefixed properties and mapped some other`-webkit-`prefixed properties to their`-moz-`or standard equivalents.
+There was[<VPIcon icon="fas fa-globe"/>a lot](http://glazman.org/weblog/dotclear/index.php?post/2012/02/09/CALL-FOR-ACTION:-THE-OPEN-WEB-NEEDS-YOU-NOW)[<VPIcon icon="fas fa-globe"/>written](https://christianheilmann.com/2012/02/09/now-vendor-prefixes-have-become-a-problem-want-to-help-fix-it/)[<VPIcon icon="fas fa-globe"/>about it](https://sitepoint.com/w3c-css-webkit-prefix-crisis/)at the time, but basically what this meant was that Opera first implemented`-webkit-`prefixes in 2012 and then[<VPIcon icon="fas fa-globe"/>switched away](https://tobiasahlin.com/blog/opera-moves-to-webkit/)from Presto altogether a year later, at around the same time Blink[<VPIcon icon="fa-brands fa-chrome"/>was announced](https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html). Another year later, IE[<VPIcon icon="fa-brands fa-edge"/>added](https://blogs.windows.com/msedgedev/2015/06/17/building-a-more-interoperable-web-with-microsoft-edge/)the`-webkit-`prefix too. This would carry over to Edge and then Edge would also move to Blink. And then in[<VPIcon icon="fa-brands fa-firefox"/>2015](https://bugzilla.mozilla.org/show_bug.cgi?id=1107378)-[<VPIcon icon="fa-brands fa-firefox"/>2016](https://hacks.mozilla.org/2016/09/firefox-49-fixes-sites-designed-with-webkit-in-mind-and-more/), Firefox also implemented some non-standard`-webkit-`prefixed properties and mapped some other`-webkit-`prefixed properties to their`-moz-`or standard equivalents.
 
 What this meant was that for a while, we had support for`-webkit-`prefixed gradients in non-WebKit browsers… but not support for`-webkit-text-fill-color`,`-webkit-background-clip: text`, so the following code:
 
@@ -266,7 +266,7 @@ would for example produce a mid blue text on an aqua to blue gradient rectangle 
 
 ![The text 'Loading...' in an in-between blue on top of a left to right, aqua to blue gradient. The contrast between the text and the background is poor. It could at most pass AA for large text (above 18pt or bold above 14pt) and AA for user interface components and graphical objects on the left end, but would fail WCAG 2.0 and 2.1 everywhere else.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/439339272-c6f54d56-4f55-4094-bcb7-d8c25760e568.png?resize=800%2C320&ssl=1)
 
-So the[<FontIcon icon="fas fa-globe"/>solution for that](https://nimbupani.com/using-background-clip-for-text-with-css-fallback.html)was to add another fully transparent`-o-`prefixed gradient*after*the`-webkit-`one:
+So the[<VPIcon icon="fas fa-globe"/>solution for that](https://nimbupani.com/using-background-clip-for-text-with-css-fallback.html)was to add another fully transparent`-o-`prefixed gradient*after*the`-webkit-`one:
 
 ```css
 color: #07f;
@@ -326,7 +326,7 @@ Similar to how we can omit the second`background-size`value, we can also omit it
 
 We can also easily omit one of the two end keyframes and set its`background-position`in the shorthand. Then the missing end keyframe gets generated out of there. This is not a new feature, I’ve been using this for over a decade.
 
-Then I’m not a fan of those`body`styles. Firstly, without zeroing its[def<FontIcon icon="fas fa-globe"/>ault](https://miriamsuzanne.com/2022/07/04/body-margin-8px/)`margin`, setting itsheight to`100vh` creates a scrollbar. Secondly, it[<FontIcon icon="fa-brands fa-chrome"/>can also be problematic](https://issues.chromium.org/issues/41390045#comment5)even when setting`margin: 0`. Just don’t do it and do this instead, it has better support than`dvh`:
+Then I’m not a fan of those`body`styles. Firstly, without zeroing its[def<VPIcon icon="fas fa-globe"/>ault](https://miriamsuzanne.com/2022/07/04/body-margin-8px/)`margin`, setting itsheight to`100vh` creates a scrollbar. Secondly, it[<VPIcon icon="fa-brands fa-chrome"/>can also be problematic](https://issues.chromium.org/issues/41390045#comment5)even when setting`margin: 0`. Just don’t do it and do this instead, it has better support than`dvh`:
 
 ```css
 html, body { display: grid }
@@ -366,7 +366,7 @@ Here’s a CodePen demo:
 
 ChatGPT is in the title because it was what got used in this case. But this “dump in old popular solutions and sprinkle in some modern CSS to create a grotesque hybrid” is not unique to ChatGPT.
 
-I saw Gemini spit out this monstruosity (that doesn’t even produce the desired result)[<FontIcon icon="fas fa-globe"/>just a day earlier](https://mastodon.social/@anatudor/114413999066444872):
+I saw Gemini spit out this monstruosity (that doesn’t even produce the desired result)[<VPIcon icon="fas fa-globe"/>just a day earlier](https://mastodon.social/@anatudor/114413999066444872):
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/439663969-ce0535bf-4441-4e9e-bbc2-3a401013ce25.png?resize=725%2C729&ssl=1)
 

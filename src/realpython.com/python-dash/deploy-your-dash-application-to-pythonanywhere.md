@@ -52,7 +52,7 @@ cover: https://files.realpython.com/media/Data-Visualization-With-Dash_Watermark
 
 You’re done building your application, and you have a beautiful, fully interactive dashboard. Now you’ll learn how to deploy it.
 
-Dash apps are Flask apps, so both share the same [<FontIcon icon="iconfont icon-flask"/>deployment options](https://flask.palletsprojects.com/en/2.2.x/deploying/). In this section, you’ll deploy your app on PythonAnywhere, which offers a free tier for hosting Python web applications in the cloud.
+Dash apps are Flask apps, so both share the same [<VPIcon icon="iconfont icon-flask"/>deployment options](https://flask.palletsprojects.com/en/2.2.x/deploying/). In this section, you’ll deploy your app on PythonAnywhere, which offers a free tier for hosting Python web applications in the cloud.
 
 ---
 
@@ -61,14 +61,14 @@ Dash apps are Flask apps, so both share the same [<FontIcon icon="iconfont icon-
 Before you get started, make sure you’ve signed up for a PythonAnywhere **beginner account**, which is completely free of charge and doesn’t require you to provide any payment details. That said, it comes with a few limitations that you should be aware of. The most important ones will prevent you from doing the following:
 
 - Running more than one web application at a time
-- Defining a custom [<FontIcon icon="fa-brands fa-wikipedia-w"/>domain name](https://en.wikipedia.org/wiki/Domain_name)
+- Defining a custom [<VPIcon icon="fa-brands fa-wikipedia-w"/>domain name](https://en.wikipedia.org/wiki/Domain_name)
 - Exceeding the available disk quota (512 MB)
 - Using the CPU for longer than 100 seconds per day
 - Making unrestricted HTTP requests from your app
 
 For this tutorial, though, you won’t need any of that!
 
-If you’re based in Europe, then consider signing up through [<FontIcon icon="fas fa-globe"/>eu.pythonanywhere.com](https://eu.pythonanywhere.com/) instead of the [<FontIcon icon="fas fa-globe"/>pythonanywhere.com](https://pythonanywhere.com/). It’ll ensure [<FontIcon icon="fa-brands fa-wikipedia-w"/>GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliance for your data, which PythonAnywhere will store on servers in Germany. Because of that, you may also experience slightly faster response times. Finally, if you decide to become a paid customer one day, then you’ll be charged in euros instead of US dollars.
+If you’re based in Europe, then consider signing up through [<VPIcon icon="fas fa-globe"/>eu.pythonanywhere.com](https://eu.pythonanywhere.com/) instead of the [<VPIcon icon="fas fa-globe"/>pythonanywhere.com](https://pythonanywhere.com/). It’ll ensure [<VPIcon icon="fa-brands fa-wikipedia-w"/>GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliance for your data, which PythonAnywhere will store on servers in Germany. Because of that, you may also experience slightly faster response times. Finally, if you decide to become a paid customer one day, then you’ll be charged in euros instead of US dollars.
 
 Feel free to follow either of the two PythonAnywhere links above if you don’t care about any of these features at the moment. Note, however, that once you register a username on one domain, then you won’t be able to reuse it on the other!
 
@@ -79,13 +79,13 @@ http://realpython.pythonanywhere.com/
 http://realpython.eu.pythonanywhere.com/
 ```
 
-Once you register a new account on PythonAnywhere, you must confirm your email address so that you can reset the password if you forget it. Also, it might be a good idea to enable [<FontIcon icon="fa-brands fa-wikipedia-w"/>two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) on the *Security* tab in your *Account* settings as an extra security measure.
+Once you register a new account on PythonAnywhere, you must confirm your email address so that you can reset the password if you forget it. Also, it might be a good idea to enable [<VPIcon icon="fa-brands fa-wikipedia-w"/>two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) on the *Security* tab in your *Account* settings as an extra security measure.
 
-If you’ve just created a new account, then you’re already good to go. But if you registered a PythonAnywhere account a while ago, then you might need to [<FontIcon icon="fas fa-globe"/>change your system image](https://help.pythonanywhere.com/pages/ChangingSystemImage) to a newer one, which comes with a more recent Python version and newer third-party libraries. At the time of writing, the latest image, called *haggis*, shipped with Python 3.10.5, pandas 1.3.5, and Dash 2.4.1. 
+If you’ve just created a new account, then you’re already good to go. But if you registered a PythonAnywhere account a while ago, then you might need to [<VPIcon icon="fas fa-globe"/>change your system image](https://help.pythonanywhere.com/pages/ChangingSystemImage) to a newer one, which comes with a more recent Python version and newer third-party libraries. At the time of writing, the latest image, called *haggis*, shipped with Python 3.10.5, pandas 1.3.5, and Dash 2.4.1. 
 
 ::: note
 
-You can always check the [<FontIcon icon="fas fa-globe"/>available batteries](https://pythonanywhere.com/batteries_included/) for a given image and Python version.
+You can always check the [<VPIcon icon="fas fa-globe"/>available batteries](https://pythonanywhere.com/batteries_included/) for a given image and Python version.
 
 With that out of the way, it’s time to create your first web app on PythonAnywhere!
 
@@ -95,15 +95,15 @@ With that out of the way, it’s time to create your first web app on PythonAnyw
 
 Because Dash apps are Flask apps with some extra frills, you can take advantage of PythonAnywhere’s excellent support for this popular Python web framework.
 
-When you’re logged in to your PythonAnywhere account, create a new [<FontIcon icon="fa-brands fa-wikipedia-w"/>Bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) console, either from the *Dashboard* or the *Consoles* tab. This will throw you into an interactive prompt of the virtual server, letting you remotely execute commands straight from your web browser.
+When you’re logged in to your PythonAnywhere account, create a new [<VPIcon icon="fa-brands fa-wikipedia-w"/>Bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) console, either from the *Dashboard* or the *Consoles* tab. This will throw you into an interactive prompt of the virtual server, letting you remotely execute commands straight from your web browser.
 
-There are already several useful programs installed for you, including a [**Git**](/realpython.com/python-git-github-intro.md) client, which you’ll use to get your project’s source code into PythonAnywhere. You can also upload files in other ways, but using Git seems the most convenient. If you haven’t made your own repository yet, then you might clone Real Python’s [<FontIcon icon="iconfont icon-github"/>`realpython/materials`](https://github.com/realpython/materials) repository with your sample Dash application in it:
+There are already several useful programs installed for you, including a [**Git**](/realpython.com/python-git-github-intro.md) client, which you’ll use to get your project’s source code into PythonAnywhere. You can also upload files in other ways, but using Git seems the most convenient. If you haven’t made your own repository yet, then you might clone Real Python’s [<VPIcon icon="iconfont icon-github"/>`realpython/materials`](https://github.com/realpython/materials) repository with your sample Dash application in it:
 
 ```sh
 git clone --depth=1 https://github.com/realpython/materials.git
 ```
 
-The `--depth=1` option tells Git only to clone the latest commit, which saves time and disk space. Note that if you don’t want to configure [<FontIcon icon="iconfont icon-github"/>SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for your PythonAnywhere machine, then you’ll have to clone a *public* repository using the HTTPS protocol. Since August 2021, cloning private repositories has been possible only after configuring a [<FontIcon icon="iconfont icon-github"/>personal access token](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls) in GitHub.
+The `--depth=1` option tells Git only to clone the latest commit, which saves time and disk space. Note that if you don’t want to configure [<VPIcon icon="iconfont icon-github"/>SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for your PythonAnywhere machine, then you’ll have to clone a *public* repository using the HTTPS protocol. Since August 2021, cloning private repositories has been possible only after configuring a [<VPIcon icon="iconfont icon-github"/>personal access token](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls) in GitHub.
 
 When the repository is cloned, you can move and rename a subfolder with the finished avocado app to your home folder on PythonAnywhere, and then remove the rest of the materials:
 
@@ -143,15 +143,15 @@ In the next step, you’ll need to update the file path leading up to the main P
 
 ![Quickstart a New Flask Project in PythonAnywhere](https://files.realpython.com/media/pythonanywhere-wizard-03.ac55fabe1126.png)
 
-While you can change it later, it’s much easier if you do it right now, so make sure to rename the default <FontIcon icon="fas fa-folder-open"/>`mysite/` folder with <FontIcon icon="fas fa-folder-open"/>`avocado_analytics/` to match your project’s name. At the same time, you want to keep the suggested <FontIcon icon="fa-brands fa-python"/>`flask_app.py` filename intact. PythonAnywhere will generate this file and populate it with a demo app, so if you renamed it to <FontIcon icon="fa-brands fa-python"/>`app.py`, then the code that you cloned from GitHub would get overwritten!
+While you can change it later, it’s much easier if you do it right now, so make sure to rename the default <VPIcon icon="fas fa-folder-open"/>`mysite/` folder with <VPIcon icon="fas fa-folder-open"/>`avocado_analytics/` to match your project’s name. At the same time, you want to keep the suggested <VPIcon icon="fa-brands fa-python"/>`flask_app.py` filename intact. PythonAnywhere will generate this file and populate it with a demo app, so if you renamed it to <VPIcon icon="fa-brands fa-python"/>`app.py`, then the code that you cloned from GitHub would get overwritten!
 
-Once this is done, you’ll be presented with a number of configuration options for your new web app. First, you need to update the [<FontIcon icon="fa-brands fa-wikipedia-w"/>working directory](https://en.wikipedia.org/wiki/Working_directory) of the app to be the same as the source code:
+Once this is done, you’ll be presented with a number of configuration options for your new web app. First, you need to update the [<VPIcon icon="fa-brands fa-wikipedia-w"/>working directory](https://en.wikipedia.org/wiki/Working_directory) of the app to be the same as the source code:
 
 ![Specify the Working Directory in PythonAnywhere](https://files.realpython.com/media/pythonanywhere-working-dir.f44322deccc0.png)
 
-This will ensure that Python can find your <FontIcon icon="fas fa-file-csv"/>`avocado.csv` file at runtime and open it for reading.
+This will ensure that Python can find your <VPIcon icon="fas fa-file-csv"/>`avocado.csv` file at runtime and open it for reading.
 
-Next, you’ll need to tweak the default [<FontIcon icon="fa-brands fa-python"/>WSGI server](https://python.org/dev/peps/pep-3333/) configuration, which is slightly different for Dash apps than it is for Flask. PythonAnywhere uses the [<FontIcon icon="fas fa-globe"/>uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) server behind the scenes, which reads the configuration from a special Python module located in the <FontIcon icon="fas fa-folder-open"/>`/var/www/` folder.
+Next, you’ll need to tweak the default [<VPIcon icon="fa-brands fa-python"/>WSGI server](https://python.org/dev/peps/pep-3333/) configuration, which is slightly different for Dash apps than it is for Flask. PythonAnywhere uses the [<VPIcon icon="fas fa-globe"/>uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) server behind the scenes, which reads the configuration from a special Python module located in the <VPIcon icon="fas fa-folder-open"/>`/var/www/` folder.
 
 Click the *WSGI configuration file* option visible in the screenshot above to open it in an editor in your web browser:
 
@@ -176,7 +176,7 @@ if project_home not in sys.path:
 +application = app.server #[!code ++]
 ```
 
-You need to rename the `flask_app` module generated by the wizard to the actual `app` module that came with your avocado project. Besides that, you must expose the callable WSGI application through the Dash app’s `.server` field, as described in the official [<FontIcon icon="fas fa-globe"/>help page](https://help.pythonanywhere.com/pages/DashWSGIConfig/) on PythonAnywhere. You might as well double-check if the path in your `project_home` variable is correct.
+You need to rename the `flask_app` module generated by the wizard to the actual `app` module that came with your avocado project. Besides that, you must expose the callable WSGI application through the Dash app’s `.server` field, as described in the official [<VPIcon icon="fas fa-globe"/>help page](https://help.pythonanywhere.com/pages/DashWSGIConfig/) on PythonAnywhere. You might as well double-check if the path in your `project_home` variable is correct.
 
 Finally, save the file by hitting <kbd>Ctrl</kbd>+<kbd>S</kbd>, go back to the *Web* tab, and click the green button to reload your web app:
 
@@ -188,11 +188,11 @@ When you visit the corresponding URL of your web app deployed to PythonAnywhere,
 
 Avocado Analytics Web App Deployed to PythonAnywhere
 
-That’s it! Note that you never installed Dash or pandas because they were already shipped with PythonAnywhere. Also, you didn’t have to configure [<FontIcon icon="fas fa-globe"/>static resources](https://help.pythonanywhere.com/pages/StaticFiles), which are typically served by the web server rather than Flask, because Dash takes care of them automatically.
+That’s it! Note that you never installed Dash or pandas because they were already shipped with PythonAnywhere. Also, you didn’t have to configure [<VPIcon icon="fas fa-globe"/>static resources](https://help.pythonanywhere.com/pages/StaticFiles), which are typically served by the web server rather than Flask, because Dash takes care of them automatically.
 
 ::: note
 
-If you need more control over the external library versions, then you can use [<FontIcon icon="fas fa-globe"/>virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) to create a virtual environment for the platform and manually install those dependencies. Unfortunately, doing so will likely consume all of your disk space and drain your CPU bandwidth to the point you’ll end up in the [<FontIcon icon="fas fa-globe"/>tarpit](https://pythonanywhere.com/tarpit/).
+If you need more control over the external library versions, then you can use [<VPIcon icon="fas fa-globe"/>virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) to create a virtual environment for the platform and manually install those dependencies. Unfortunately, doing so will likely consume all of your disk space and drain your CPU bandwidth to the point you’ll end up in the [<VPIcon icon="fas fa-globe"/>tarpit](https://pythonanywhere.com/tarpit/).
 
 :::
 

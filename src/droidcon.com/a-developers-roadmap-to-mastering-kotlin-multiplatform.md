@@ -56,9 +56,9 @@ In modern mobile development, cross-platform frameworks are gaining popularity b
 
 By allowing developers to write shareable code, these frameworks enable faster development and easier maintenance, making them attractive not only to startups and large companies but also to individual developers. With a single codebase, it’s possible to build multiple platform-specific apps, making cross-platform solutions highly efficient for both time and cost management.
 
-[<FontIcon icon="iconfont icon-kotlin"/>Kotlin Multiplatform (KMP)](https://kotlinlang.org/docs/multiplatform.html)is another rising star in cross-platform development driven by the collaboration between[<FontIcon icon="iconfont icon-jetbrains"/>JetBrains](https://jetbrains.com/)and Google. It allows developers to share business logic seamlessly across multiple platforms, including Android, iOS, Desktop, and Web, all while using Kotlin. Compared to other cross-platform solutions like[<FontIcon icon="fa-brands fa-react"/>React Native](https://reactnative.dev/)or[<FontIcon icon="fa-brands fa-dart-lang"/>Flutter](https://flutter.dev/), Kotlin Multiplatform offers performance that is closer to native, making it an attractive choice for developers seeking efficiency and native-like performance without sacrificing the benefits of cross-platform development.
+[<VPIcon icon="iconfont icon-kotlin"/>Kotlin Multiplatform (KMP)](https://kotlinlang.org/docs/multiplatform.html)is another rising star in cross-platform development driven by the collaboration between[<VPIcon icon="iconfont icon-jetbrains"/>JetBrains](https://jetbrains.com/)and Google. It allows developers to share business logic seamlessly across multiple platforms, including Android, iOS, Desktop, and Web, all while using Kotlin. Compared to other cross-platform solutions like[<VPIcon icon="fa-brands fa-react"/>React Native](https://reactnative.dev/)or[<VPIcon icon="fa-brands fa-dart-lang"/>Flutter](https://flutter.dev/), Kotlin Multiplatform offers performance that is closer to native, making it an attractive choice for developers seeking efficiency and native-like performance without sacrificing the benefits of cross-platform development.
 
-In this article, you’ll explore the Kotlin Multiplatform (KMP) ecosystem using the[Kotlin Multiplatform Developer Roadmap (<FontIcon icon="iconfont icon-github"/>`skydoves/kmp-developer-roadmap`)](https://github.com/skydoves/kmp-developer-roadmap)as your guide. The roadmap is designed to offer a comprehensive overview of the current KMP ecosystem, which provides suggested learning paths to help you better understand the various concepts involved in KMP development.
+In this article, you’ll explore the Kotlin Multiplatform (KMP) ecosystem using the[Kotlin Multiplatform Developer Roadmap (<VPIcon icon="iconfont icon-github"/>`skydoves/kmp-developer-roadmap`)](https://github.com/skydoves/kmp-developer-roadmap)as your guide. The roadmap is designed to offer a comprehensive overview of the current KMP ecosystem, which provides suggested learning paths to help you better understand the various concepts involved in KMP development.
 
 <SiteInfo
   name="skydoves/kmp-developer-roadmap"
@@ -77,7 +77,7 @@ Kotlin Multiplatform doesn’t inherently provide a UI framework. Instead, it fo
 
 Let’s jump into the architecture with some code exploration! Before setting up your first Kotlin Multiplatform (KMP) project, ensure the following prerequisites:
 
-- Install the[<FontIcon icon="iconfont icon-jetbrains"/>Kotlin Multiplatform Plugin](https://plugins.jetbrains.com/plugin/14936-kotlin-multiplatform)in Android Studio.
+- Install the[<VPIcon icon="iconfont icon-jetbrains"/>Kotlin Multiplatform Plugin](https://plugins.jetbrains.com/plugin/14936-kotlin-multiplatform)in Android Studio.
 - Launch Xcode at least once and accept the terms of use if you plan to build iOS apps.
 
 <SiteInfo
@@ -87,7 +87,7 @@ Let’s jump into the architecture with some code exploration! Before setting up
   logo="https://resources.jetbrains.com/storage/ui/favicons/favicon.ico"
   preview="https://plugins.jetbrains.com/plugin/files/14936/645310/icon/pluginIcon.png"/>
 
-After meeting these requirements, open the[<FontIcon icon="iconfont icon-kotlin"/>Kotlin Multiplatform Wizard](https://kmp.jetbrains.com/). This will generate a project structure similar to the one below, giving you a foundation for cross-platform development.
+After meeting these requirements, open the[<VPIcon icon="iconfont icon-kotlin"/>Kotlin Multiplatform Wizard](https://kmp.jetbrains.com/). This will generate a project structure similar to the one below, giving you a foundation for cross-platform development.
 
 ![](https://droidcon.com/wp-content/uploads/2024/11/0_nTOrALojvKjBDQsQ-600x1024.webp)
 
@@ -151,7 +151,7 @@ You can set up the targets below to configure KMP project platform architecture:
 
 Each target broadens the reach of your KMP project by allowing the core business logic to run across different operating systems and architectures. This flexibility helps maximize code reuse while supporting the specifics of each platform’s native capabilities.
 
-If you’re ready to dive into building your first Android and iOS mobile applications with Kotlin Multiplatform, check out this guide:[<FontIcon icon="fas fa-globe"/>Build Your First Android and iOS Mobile App With Kotlin Multiplatform](https://getstream.io/blog/build-app-kotlin-multiplatform/).
+If you’re ready to dive into building your first Android and iOS mobile applications with Kotlin Multiplatform, check out this guide:[<VPIcon icon="fas fa-globe"/>Build Your First Android and iOS Mobile App With Kotlin Multiplatform](https://getstream.io/blog/build-app-kotlin-multiplatform/).
 
 <SiteInfo
   name="Build Your First Android and iOS Mobile App With Kotlin Multiplatform"
@@ -192,7 +192,7 @@ actual fun log(message: String) {
 
 <!-- @include: https://gist.github.com/skydoves/abff98159e6f280735cc10f1013e4480/raw/d24490291bd19133a157469482f69e98cdd23aa5/actual_log.kt -->
 
-Now, you can use the`log`function across the common module. This approach provides flexibility by allowing platform-specific code without altering the common code. Additionally, it enables you to maintain platform-independent logic in the common module, maximizing code reuse. For more information about the`expect`and`actual`declarations, check out[<FontIcon icon="iconfont icon-kotlin"/>Expected and actual declarations](https://kotlinlang.org/docs/multiplatform-expect-actual.html).
+Now, you can use the`log`function across the common module. This approach provides flexibility by allowing platform-specific code without altering the common code. Additionally, it enables you to maintain platform-independent logic in the common module, maximizing code reuse. For more information about the`expect`and`actual`declarations, check out[<VPIcon icon="iconfont icon-kotlin"/>Expected and actual declarations](https://kotlinlang.org/docs/multiplatform-expect-actual.html).
 
 ---
 
@@ -200,7 +200,7 @@ Now, you can use the`log`function across the common module. This approach provid
 
 You’ve discovered that Kotlin Multiplatform is designed to share business logic across platforms but doesn’t include any UI solutions by default. This can be confusing, as most cross-platform frameworks provide UI components or layers that enable building screens with a unified codebase across different platforms.
 
-A great solution for cross-platform UI in Kotlin Multiplatform is[<FontIcon icon="iconfont icon-jetbrains"/>Compose Multiplatform](https://jetbrains.com/compose-multiplatform/), which builds on Kotlin Multiplatform and enables developers to share UI code written in[<FontIcon icon="fa-brands fa-android"/>Jetpack Compose](https://developer.android.com/compose)across various platforms. JetBrains has forked the Jetpack Compose library (for Android) into the[<FontIcon icon="iconfont icon-github"/>`JetBrains/compose-multiplatform`](https://github.com/JetBrains/compose-multiplatform)repository and created compatible Compose UI clients for multiple platforms, including iOS, Desktop, and WebAssembly (WASM).
+A great solution for cross-platform UI in Kotlin Multiplatform is[<VPIcon icon="iconfont icon-jetbrains"/>Compose Multiplatform](https://jetbrains.com/compose-multiplatform/), which builds on Kotlin Multiplatform and enables developers to share UI code written in[<VPIcon icon="fa-brands fa-android"/>Jetpack Compose](https://developer.android.com/compose)across various platforms. JetBrains has forked the Jetpack Compose library (for Android) into the[<VPIcon icon="iconfont icon-github"/>`JetBrains/compose-multiplatform`](https://github.com/JetBrains/compose-multiplatform)repository and created compatible Compose UI clients for multiple platforms, including iOS, Desktop, and WebAssembly (WASM).
 
 <SiteInfo
   name="JetBrains/compose-multiplatform"
@@ -211,7 +211,7 @@ A great solution for cross-platform UI in Kotlin Multiplatform is[<FontIcon icon
 
 ![](https://droidcon.com/wp-content/uploads/2024/11/0_mfz3dofAjirktQ5N-1024x590.webp)
 
-With Compose Multiplatform, you can develop both Android and iOS applications using a unified UI implementation while sharing business logic written in Kotlin. Currently, Android and Desktop (Windows, macOS, Linux) support is stable, iOS is in beta, and Web is in alpha. For more details on future plans, check out the[<FontIcon icon="iconfont icon-jetbrains"/>Kotlin Multiplatform Development Roadmap for 2025](https://blog.jetbrains.com/kotlin/2024/10/kotlin-multiplatform-development-roadmap-for-2025/).
+With Compose Multiplatform, you can develop both Android and iOS applications using a unified UI implementation while sharing business logic written in Kotlin. Currently, Android and Desktop (Windows, macOS, Linux) support is stable, iOS is in beta, and Web is in alpha. For more details on future plans, check out the[<VPIcon icon="iconfont icon-jetbrains"/>Kotlin Multiplatform Development Roadmap for 2025](https://blog.jetbrains.com/kotlin/2024/10/kotlin-multiplatform-development-roadmap-for-2025/).
 
 ---
 
@@ -219,14 +219,14 @@ With Compose Multiplatform, you can develop both Android and iOS applications us
 
 If you’re an Android developer, you might be wondering about the best ways to minimize migration costs from native Android to Kotlin Multiplatform, and that must be using the same tech stacks as much as possible, such as Jetpack libraries. The Android team is aware of this and has begun officially supporting KMP for several Jetpack libraries, as listed below:
 
-- [<FontIcon icon="fa-brands fa-android"/>Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle): Lifecycle-aware components that react to changes in the lifecycle state of other components.
-- [<FontIcon icon="fa-brands fa-android"/>Room Database](https://developer.android.com/jetpack/androidx/releases/room): A persistence library that provides an abstraction layer over SQLite, enabling robust database access with the full power of SQLite.
-- [<FontIcon icon="fa-brands fa-android"/>DataStore](https://developer.android.com/jetpack/androidx/releases/datastore): Enables asynchronous, consistent, and transactional data storage, addressing limitations of SharedPreferences.
-- [<FontIcon icon="fa-brands fa-android"/>Paging](https://developer.android.com/jetpack/androidx/releases/paging): Facilitates gradual and efficient data loading.
-- [<FontIcon icon="fa-brands fa-android"/>Annotation](https://developer.android.com/jetpack/androidx/releases/annotation): Provides metadata to enhance code understanding for tools and developers.
-- [<FontIcon icon="fa-brands fa-android"/>Collection](https://developer.android.com/jetpack/androidx/releases/collection): Optimizes memory usage for small collections.
+- [<VPIcon icon="fa-brands fa-android"/>Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle): Lifecycle-aware components that react to changes in the lifecycle state of other components.
+- [<VPIcon icon="fa-brands fa-android"/>Room Database](https://developer.android.com/jetpack/androidx/releases/room): A persistence library that provides an abstraction layer over SQLite, enabling robust database access with the full power of SQLite.
+- [<VPIcon icon="fa-brands fa-android"/>DataStore](https://developer.android.com/jetpack/androidx/releases/datastore): Enables asynchronous, consistent, and transactional data storage, addressing limitations of SharedPreferences.
+- [<VPIcon icon="fa-brands fa-android"/>Paging](https://developer.android.com/jetpack/androidx/releases/paging): Facilitates gradual and efficient data loading.
+- [<VPIcon icon="fa-brands fa-android"/>Annotation](https://developer.android.com/jetpack/androidx/releases/annotation): Provides metadata to enhance code understanding for tools and developers.
+- [<VPIcon icon="fa-brands fa-android"/>Collection](https://developer.android.com/jetpack/androidx/releases/collection): Optimizes memory usage for small collections.
 
-Jetpack library releases for Android and iOS meet strict quality and compatibility standards. As Jetpack expands its Kotlin Multiplatform (KMP) support to other platforms, however, tooling and infrastructure are still developing. Check out the[sample project on GitHub (<FontIcon icon="iconfont icon-github"/>`android/kotlin-multiplatform-samples`)](https://github.com/android/kotlin-multiplatform-samples)for KMP-supported Jetpack libraries.
+Jetpack library releases for Android and iOS meet strict quality and compatibility standards. As Jetpack expands its Kotlin Multiplatform (KMP) support to other platforms, however, tooling and infrastructure are still developing. Check out the[sample project on GitHub (<VPIcon icon="iconfont icon-github"/>`android/kotlin-multiplatform-samples`)](https://github.com/android/kotlin-multiplatform-samples)for KMP-supported Jetpack libraries.
 
 <SiteInfo
   name="android/kotlin-multiplatform-samples"
@@ -235,13 +235,13 @@ Jetpack library releases for Android and iOS meet strict quality and compatibili
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/9003ec6f9d14f43262b1446cc2f5c391ae40fa38cbbf29f03d1b5b4147689970/android/kotlin-multiplatform-samples"/>
 
-According to the[<FontIcon icon="fa-brands fa-android"/>official documentation](https://developer.android.com/kotlin/multiplatform#supported-platforms), Jetpack libraries categorize platform support into three tiers:
+According to the[<VPIcon icon="fa-brands fa-android"/>official documentation](https://developer.android.com/kotlin/multiplatform#supported-platforms), Jetpack libraries categorize platform support into three tiers:
 
 - Tier 1: Android, JVM, iOS
 - Tier 2: macOS, Linux
 - Tier 3: watchOS, tvOS, Windows, WASM
 
-For additional information on Kotlin Multiplatform support for Jetpack libraries, refer to the[<FontIcon icon="fa-brands fa-android"/>Kotlin Multiplatform Overview](https://developer.android.com/kotlin/multiplatform).
+For additional information on Kotlin Multiplatform support for Jetpack libraries, refer to the[<VPIcon icon="fa-brands fa-android"/>Kotlin Multiplatform Overview](https://developer.android.com/kotlin/multiplatform).
 
 ---
 
@@ -249,11 +249,11 @@ For additional information on Kotlin Multiplatform support for Jetpack libraries
 
 Asynchronous solutions are essential in mobile development due to limited resources compared to desktops. Both Android and iOS use the main thread (or UI thread) to handle all UI-related tasks, such as rendering elements, dispatching events, and managing interactions within the user interface.
 
-For I/O or computationally intensive tasks like network requests or database queries, it’s best to offload them to a worker thread. This keeps the main thread free for rendering and user interactions, ensuring a responsive UI. In Kotlin,[<FontIcon icon="iconfont icon-kotlin"/>Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)provide a powerful asynchronous solution, supported at the language level and enhanced through libraries, making it ideal for efficient concurrency.
+For I/O or computationally intensive tasks like network requests or database queries, it’s best to offload them to a worker thread. This keeps the main thread free for rendering and user interactions, ensuring a responsive UI. In Kotlin,[<VPIcon icon="iconfont icon-kotlin"/>Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)provide a powerful asynchronous solution, supported at the language level and enhanced through libraries, making it ideal for efficient concurrency.
 
 Coroutines fully support Kotlin Multiplatform, allowing you to use them seamlessly across multiple platforms. They offer a lightweight concurrency solution with robust error-handling APIs, providing greater flexibility than traditional threads. This makes Coroutines one of the most promising asynchronous solutions for Kotlin Multiplatform development.
 
-If you’re an avid[<FontIcon icon="fas fa-globe"/>ReactiveX](https://reactivex.io/)user, consider exploring[Reaktive on GitHub (<FontIcon icon="iconfont icon-github"/>`badoo/Reaktive`)](https://github.com/badoo/Reaktive), which brings ReactiveX extensions to Kotlin Multiplatform.
+If you’re an avid[<VPIcon icon="fas fa-globe"/>ReactiveX](https://reactivex.io/)user, consider exploring[Reaktive on GitHub (<VPIcon icon="iconfont icon-github"/>`badoo/Reaktive`)](https://github.com/badoo/Reaktive), which brings ReactiveX extensions to Kotlin Multiplatform.
 
 <SiteInfo
   name="badoo/Reaktive"
@@ -266,7 +266,7 @@ If you’re an avid[<FontIcon icon="fas fa-globe"/>ReactiveX](https://reactivex.
 
 ## Network
 
-On Android, Retrofit and OkHttp are the go-to solutions for handling type-safe HTTP network requests, streaming, and more. However, they don’t support Kotlin Multiplatform. Instead, there is another excellent HTTP asynchronous library[<FontIcon icon="fas fa-globe"/>r](https://ktor.io/), designed for creating multiplatform microservices and HTTP clients. Ktor is lightweight, flexible, and fully compatible with Coroutines, making them ideal for Kotlin Multiplatform projects.
+On Android, Retrofit and OkHttp are the go-to solutions for handling type-safe HTTP network requests, streaming, and more. However, they don’t support Kotlin Multiplatform. Instead, there is another excellent HTTP asynchronous library[<VPIcon icon="fas fa-globe"/>r](https://ktor.io/), designed for creating multiplatform microservices and HTTP clients. Ktor is lightweight, flexible, and fully compatible with Coroutines, making them ideal for Kotlin Multiplatform projects.
 
 Ktor is an asynchronous framework created by JetBrains for building applications and microservices in Kotlin. It supports both client-side and server-side development, making it versatile for building HTTP clients, REST APIs, web applications, and microservices across multiple platforms, including Android, JVM, JavaScript, and iOS. The key features of Ktor are:
 
@@ -276,7 +276,7 @@ Ktor is an asynchronous framework created by JetBrains for building applications
 4. Flexible Routing: Ktor’s routing system is flexible, supporting path parameters, query parameters, and more. It enables organized API endpoints in server applications.
 5. Built-In Serialization: Ktor integrates with Kotlin’s serialization library, making it easy to handle JSON, XML, and other serialization formats.
 
-On the other hand, a solution called[<FontIcon icon="iconfont icon-github"/>`Foso/Ktorfit`](https://github.com/Foso/Ktorfit)is built on top of Ktor. Ktorfit is an HTTP client and Kotlin Symbol Processor designed for Kotlin Multiplatform, inspired by Retrofit. It offers a similar interface-based approach to define HTTP request methods, making it familiar for those who have used Retrofit.
+On the other hand, a solution called[<VPIcon icon="iconfont icon-github"/>`Foso/Ktorfit`](https://github.com/Foso/Ktorfit)is built on top of Ktor. Ktorfit is an HTTP client and Kotlin Symbol Processor designed for Kotlin Multiplatform, inspired by Retrofit. It offers a similar interface-based approach to define HTTP request methods, making it familiar for those who have used Retrofit.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

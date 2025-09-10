@@ -104,7 +104,7 @@ The SignalR `Hub` exposes a few useful properties:
 - `Groups` - an abstraction for adding and removing connections from groups
 - `Context` - used for accessing information about the hub caller connection
 
-You can learn more about the `Hub` class [<FontIcon icon="fa-brands fa-microsoft"/>here](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.signalr.hub?view=aspnetcore-7.0).
+You can learn more about the `Hub` class [<VPIcon icon="fa-brands fa-microsoft"/>here](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.signalr.hub?view=aspnetcore-7.0).
 
 Lastly, you need to register the SignalR services by calling the `AddSignalR` method. You also need to call the `MapHub<T>` method, where you specify the `NotificationsHub` class and the path clients will use to connect to the hub.
 

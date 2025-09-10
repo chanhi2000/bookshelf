@@ -97,7 +97,7 @@ Still, no matter which way you choose, I believe that Pongo is a decent tool for
 **Why Pongo?**
 
 - It’s a Node.js tool, so it’s a lightweight and accessible environment with a big, vibrant community. You should not have issues with potential hiring,
-- It runs on PostgreSQL, so it’s easy operational-wise, and it’s easy to set up your hosting in cloud providers, on-premise or services like [<FontIcon icon="fas fa-globe"/>Neon](https://neon.tech), [<FontIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/), [<FontIcon icon="fas fa-globe"/>Vercel](https://vercel.com), etc.
+- It runs on PostgreSQL, so it’s easy operational-wise, and it’s easy to set up your hosting in cloud providers, on-premise or services like [<VPIcon icon="fas fa-globe"/>Neon](https://neon.tech), [<VPIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/), [<VPIcon icon="fas fa-globe"/>Vercel](https://vercel.com), etc.
 - MongoDB-like API is easy to learn and is well-known to many of us.
 - The document approach and denormalised data help make it easier to set up your data. It’s well suited for the CRUD model, where you want to store and retrieve data in the same form as you put it,
 - Pongo will get you covered with built-in migrations, so there is no need to care a lot about the database schema.
@@ -113,7 +113,7 @@ For basics, you can check previous articles:
 - [**Pongo gets strongly-typed client, migrations, and command line tooling**](/event-driven.io/pongo-strongly-typed-client.md)
 - [**Running a regular SQL on Pongo documents**](/event-driven.io/sql-support-in-pongo.md)
 
-And [<FontIcon icon="fas fa-globe"/>documentation](https://event-driven-io.github.io/Pongo/getting-started.html).
+And [<VPIcon icon="fas fa-globe"/>documentation](https://event-driven-io.github.io/Pongo/getting-started.html).
 
 :::
 

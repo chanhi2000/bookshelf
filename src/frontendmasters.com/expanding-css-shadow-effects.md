@@ -165,7 +165,7 @@ Add a thin border matching the page’s background to the element if there’s a
 
 ## Animating Only Parts of a Shadow
 
-We can take this a step further. So far we’ve been animating the `box-shadow` property as a whole, but how about [<FontIcon icon="fas fa-globe"/>pin-pointing the animation to individual values](https://css-tricks.com/now-css-custom-properties-thing-value-parts-can-changed-individually/) of a shadow? That will not only produce a different result, but you can also assign different animation times for different aspects of a shadow:
+We can take this a step further. So far we’ve been animating the `box-shadow` property as a whole, but how about [<VPIcon icon="fas fa-globe"/>pin-pointing the animation to individual values](https://css-tricks.com/now-css-custom-properties-thing-value-parts-can-changed-individually/) of a shadow? That will not only produce a different result, but you can also assign different animation times for different aspects of a shadow:
 
 ```css
 @property --l {

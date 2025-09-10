@@ -58,13 +58,13 @@ When applying for a job as an Android developer, you’ll need expertise in Andr
 
 The best way to prepare for an interview is to review the minimum requirements and preferred qualifications for the role, ensuring you align with the team’s needs. Interview questions can vary widely depending on the team, the company’s industry, and its development culture. As a result, tailoring your preparation to the specific team and company is crucial for success.
 
-While preferred requirements can vary greatly between teams, some common questions tend to surface universally for Android developer roles. In this article, you’ll discover the top nine Android developer interview questions featured in[*Dove Letter* (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).[**_Dove Letter_** (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter)is a subscription repository where you can learn, discuss, and share new insights about Android and Kotlin with industrial Android developer interview questions, tips with code, articles, discussion, and trending news. If you’re interested in joining, be sure to check out “[Learn Kotlin and Android With Dove Letter (<FontIcon icon="fa-brands fa-medium"/>`skydoves`)](https://medium.com/@skydoves/learn-kotlin-and-android-with-dove-letter-26265da11903).”
+While preferred requirements can vary greatly between teams, some common questions tend to surface universally for Android developer roles. In this article, you’ll discover the top nine Android developer interview questions featured in[*Dove Letter* (<VPIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).[**_Dove Letter_** (<VPIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter)is a subscription repository where you can learn, discuss, and share new insights about Android and Kotlin with industrial Android developer interview questions, tips with code, articles, discussion, and trending news. If you’re interested in joining, be sure to check out “[Learn Kotlin and Android With Dove Letter (<VPIcon icon="fa-brands fa-medium"/>`skydoves`)](https://medium.com/@skydoves/learn-kotlin-and-android-with-dove-letter-26265da11903).”
 
 ---
 
 ## Android
 
-Android boasts over a decade of history, with[<FontIcon icon="fa-brands fa-android"/>Android 15 announced](https://developer.android.com/about/versions/15)already, reflecting significant technical advancements over time. Despite these changes, the core systems and components, such as the Activity and Fragment lifecycles or Intents, have remained largely consistent. Understanding these fundamental systems, even if they feel like “old-school” technologies, is still crucial for any Android developer.
+Android boasts over a decade of history, with[<VPIcon icon="fa-brands fa-android"/>Android 15 announced](https://developer.android.com/about/versions/15)already, reflecting significant technical advancements over time. Despite these changes, the core systems and components, such as the Activity and Fragment lifecycles or Intents, have remained largely consistent. Understanding these fundamental systems, even if they feel like “old-school” technologies, is still crucial for any Android developer.
 
 ### 1. Describe the Activity Lifecycle
 
@@ -84,11 +84,11 @@ The activity lifecycle
 
 #### Summary
 
-An activity goes through these methods based on user interactions and the Android system’s management of app resources. Developers use these callbacks to manage transitions, conserve resources, and provide a smooth experience for users. For more details, check out[<FontIcon icon="fa-brands fa-android"/>the Android official documentation](https://developer.android.com/reference/android/app/Activity).
+An activity goes through these methods based on user interactions and the Android system’s management of app resources. Developers use these callbacks to manage transitions, conserve resources, and provide a smooth experience for users. For more details, check out[<VPIcon icon="fa-brands fa-android"/>the Android official documentation](https://developer.android.com/reference/android/app/Activity).
 
 ::: note
 
-You might also encounter related questions, such as those about the Fragment lifecycle or View lifecycle in Android. For more insights, be sure to check out[Dove Letter (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).
+You might also encounter related questions, such as those about the Fragment lifecycle or View lifecycle in Android. For more insights, be sure to check out[Dove Letter (<VPIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).
 
 :::
 
@@ -189,11 +189,11 @@ In general,`Parcelable`is the recommended approach for Android applications due 
 
 ## Kotlin
 
-Since Google announced its[<FontIcon icon="fa-brands fa-android"/>Kotlin-first approach to Android development](https://developer.android.com/kotlin/first)at Google I/O 2019, the adoption of Kotlin has skyrocketed. By the end of 2024, the majority of Android projects have transitioned to Kotlin, especially with [<FontIcon icon="iconfont icon-jetpack-compose"/>Jetpack Compose reaching its stable release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html)and gaining widespread popularity. So, in most cases, most of the team is likely using Kotlin instead of Java in most cases nowadays.
+Since Google announced its[<VPIcon icon="fa-brands fa-android"/>Kotlin-first approach to Android development](https://developer.android.com/kotlin/first)at Google I/O 2019, the adoption of Kotlin has skyrocketed. By the end of 2024, the majority of Android projects have transitioned to Kotlin, especially with [<VPIcon icon="iconfont icon-jetpack-compose"/>Jetpack Compose reaching its stable release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html)and gaining widespread popularity. So, in most cases, most of the team is likely using Kotlin instead of Java in most cases nowadays.
 
 ### 1. What is data class in Kotlin? How does a data class in Kotlin differ from a regular class?
 
-In Kotlin, the[<FontIcon icon="iconfont icon-kotlin"/>data class](https://kotlinlang.org/docs/data-classes.html)is a special type of class specifically designed to hold data. Kotlin generates several useful methods automatically for data classes, which makes them ideal for representing simple data-holding objects.
+In Kotlin, the[<VPIcon icon="iconfont icon-kotlin"/>data class](https://kotlinlang.org/docs/data-classes.html)is a special type of class specifically designed to hold data. Kotlin generates several useful methods automatically for data classes, which makes them ideal for representing simple data-holding objects.
 
 ::: important Key Features of Data Classes
 
@@ -245,7 +245,7 @@ Data classes are used for objects that only contain data, and Kotlin automatical
 
 ### 2. What’s the Extension, and what are its pros and cons?
 
-The[<FontIcon icon="iconfont icon-kotlin"/>Extensions](https://kotlinlang.org/docs/extensions.html)is a way to add new functionality to existing classes without modifying their code directly. Kotlin allows you to “extend” a class with new functions or properties using extension functions and extension properties. This is especially useful for enhancing classes from third-party libraries or the standard library where you don’t have access to the source code.
+The[<VPIcon icon="iconfont icon-kotlin"/>Extensions](https://kotlinlang.org/docs/extensions.html)is a way to add new functionality to existing classes without modifying their code directly. Kotlin allows you to “extend” a class with new functions or properties using extension functions and extension properties. This is especially useful for enhancing classes from third-party libraries or the standard library where you don’t have access to the source code.
 
 ::: tip Example of an Extension Function
 
@@ -316,7 +316,7 @@ Extensions in Kotlin are powerful tools that enhance functionality in a clean, m
 
 ### 3. What’s the difference between Coroutines and Thread?
 
-The difference between[<FontIcon icon="iconfont icon-kotlin"/>Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)and Threads in Android (and Kotlin in general) lies in how they manage concurrency, resource consumption, and performance.
+The difference between[<VPIcon icon="iconfont icon-kotlin"/>Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)and Threads in Android (and Kotlin in general) lies in how they manage concurrency, resource consumption, and performance.
 
 #### A. Lightweight vs. Heavyweight
 
@@ -352,7 +352,7 @@ Coroutines are more suitable for managing large numbers of tasks concurrently wi
 
 ::: note
 
-You might also encounter related questions, such as those about the sealed/companion classes or Flow, StateFlow, and SharedFlow. For more insights, be sure to check out[Dove Letter (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).
+You might also encounter related questions, such as those about the sealed/companion classes or Flow, StateFlow, and SharedFlow. For more insights, be sure to check out[Dove Letter (<VPIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter).
 
 :::
 
@@ -360,7 +360,7 @@ You might also encounter related questions, such as those about the sealed/compa
 
 ## Jetpack Compose
 
-Jetpack Compose, Google’s modern UI toolkit, has demonstrated tremendous potential since[<FontIcon icon="iconfont icon-jetpack-compose"/>its stable 1.0 release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html). Its adoption for production has soared, with over 125,000 apps built with Jetpack Compose now live on the Google Play Store,[according to Google (<FontIcon icon="fa-brands fa-x-twitter"/>`AndroidDev`)](https://x.com/AndroidDev/status/1726662755724181663).
+Jetpack Compose, Google’s modern UI toolkit, has demonstrated tremendous potential since[<VPIcon icon="iconfont icon-jetpack-compose"/>its stable 1.0 release](https://android-developers.googleblog.com/2021/07/jetpack-compose-announcement.html). Its adoption for production has soared, with over 125,000 apps built with Jetpack Compose now live on the Google Play Store,[according to Google (<VPIcon icon="fa-brands fa-x-twitter"/>`AndroidDev`)](https://x.com/AndroidDev/status/1726662755724181663).
 
 However, many companies are still in the process of adopting Jetpack Compose or considering a migration from traditional View systems, as transitioning an entire large-scale project can be costly. Whether Jetpack Compose-related questions are part of an interview will largely depend on the specific company.
 
@@ -463,7 +463,7 @@ These benefits collectively improve the overall structure, maintainability, and 
 
 #### Summary
 
-You should hoist UI state to the lowest common ancestor of all the composables that need to read or modify that state. Keeping the state as close as possible to where it is consumed helps maintain a clean separation of concerns and ensures efficient data flow. From the state owner, expose an immutable state to consumers along with events or callbacks that allow them to modify the state as needed. For more details, refer to[<FontIcon icon="fa-brands fa-android"/>Where to hoist state](https://developer.android.com/develop/ui/compose/state-hoisting).
+You should hoist UI state to the lowest common ancestor of all the composables that need to read or modify that state. Keeping the state as close as possible to where it is consumed helps maintain a clean separation of concerns and ensures efficient data flow. From the state owner, expose an immutable state to consumers along with events or callbacks that allow them to modify the state as needed. For more details, refer to[<VPIcon icon="fa-brands fa-android"/>Where to hoist state](https://developer.android.com/develop/ui/compose/state-hoisting).
 
 ### 3. What are side-effects
 
@@ -535,7 +535,7 @@ fun MyComposableWithListener(listener: SomeListener) {
 
 #### Summary
 
-Using these side-effect APIs properly allows you to manage external resources, events, and state changes efficiently within the composable lifecycle, maintaining a clean, predictable UI. For more information, check out the official Android docs[<FontIcon icon="fa-brands fa-android"/>Side-effects in Compose](https://developer.android.com/develop/ui/compose/side-effects).
+Using these side-effect APIs properly allows you to manage external resources, events, and state changes efficiently within the composable lifecycle, maintaining a clean, predictable UI. For more information, check out the official Android docs[<VPIcon icon="fa-brands fa-android"/>Side-effects in Compose](https://developer.android.com/develop/ui/compose/side-effects).
 
 - `LaunchedEffect`: Triggers a coroutine based on state changes; ideal for async actions like data loading.
 - `SideEffect`: Executes non-restartable code after each recomposition; useful for logging or relevant actions.
@@ -547,7 +547,7 @@ Using these side-effect APIs properly allows you to manage external resources, e
 
 In this article, you’ve explored the top nine Android developer interview questions you might encounter during the hiring process. Remember, interview questions can vary significantly based on the role, team culture, industry, and even the interviewers themselves. It’s essential to tailor your preparation to align with the specific company and position you’re applying for.
 
-All these interview questions are covered in[Dove Letter (<FontIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter/), a private repository offering daily insights on Android and Kotlin, including topics like Compose, architecture, industry interview questions, and practical code tips.**In just 15 weeks since its launch, Dove Letter has surpassed 350 individual subscribers and 8 business/lifetime subscribers**. If you’re eager to deepen your knowledge of Android, Kotlin, and Compose, be sure to check out ‘[Learn Kotlin and Android With Dove Letter (<FontIcon icon="fa-brands fa-medium"/>`skydoves`)](https://medium.com/@skydoves/learn-kotlin-and-android-with-dove-letter-26265da11903)’.
+All these interview questions are covered in[Dove Letter (<VPIcon icon="iconfont icon-github"/>`doveletter`)](https://github.com/doveletter/), a private repository offering daily insights on Android and Kotlin, including topics like Compose, architecture, industry interview questions, and practical code tips.**In just 15 weeks since its launch, Dove Letter has surpassed 350 individual subscribers and 8 business/lifetime subscribers**. If you’re eager to deepen your knowledge of Android, Kotlin, and Compose, be sure to check out ‘[Learn Kotlin and Android With Dove Letter (<VPIcon icon="fa-brands fa-medium"/>`skydoves`)](https://medium.com/@skydoves/learn-kotlin-and-android-with-dove-letter-26265da11903)’.
 
 As always, happy coding!
 
@@ -560,7 +560,7 @@ As always, happy coding!
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/top-9-android-developer-interview-questions-you-should-know-05e8fe2acd2c)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/top-9-android-developer-interview-questions-you-should-know-05e8fe2acd2c)
 
 <SiteInfo
   name="Top Nine Android Developer Interview Questions You Should Know"

@@ -93,9 +93,9 @@ While running these examples, note how after executing each expression, the inte
 
 ## Running Compound Statements
 
-With the examples in the previous section, you’ve executed [<FontIcon icon="fa-brands fa-python"/>simple statements](https://docs.python.org/3/reference/simple_stmts.html) in a Python interactive session. These expressions are known as simple statements because they don’t have an indented code block.
+With the examples in the previous section, you’ve executed [<VPIcon icon="fa-brands fa-python"/>simple statements](https://docs.python.org/3/reference/simple_stmts.html) in a Python interactive session. These expressions are known as simple statements because they don’t have an indented code block.
 
-Python also has [<FontIcon icon="fa-brands fa-python"/>compound statements](https://docs.python.org/3/reference/compound_stmts.html), such as [**conditionals**](/realpython.com/python-conditional-statements.md), loops, and [**`with`**](/realpython.com/python-with-statement/README.md) statements. Compound statements require an indented code block. The Python interpreter has a secondary prompt that lets you enter the code block of compound statements.
+Python also has [<VPIcon icon="fa-brands fa-python"/>compound statements](https://docs.python.org/3/reference/compound_stmts.html), such as [**conditionals**](/realpython.com/python-conditional-statements.md), loops, and [**`with`**](/realpython.com/python-with-statement/README.md) statements. Compound statements require an indented code block. The Python interpreter has a secondary prompt that lets you enter the code block of compound statements.
 
 Consider the following example of a conditional statement:
 
@@ -140,7 +140,7 @@ In the Python standard REPL, you must provide the appropriate [**indentation**](
 
 ## Dealing With Explicit and Implicit Line Continuations
 
-Another situation where the REPL’s secondary prompt appears is when you need to use **line continuations**. A line continuation occurs when you [<FontIcon icon="fa-brands fa-python"/>explicitly join](https://docs.python.org/3/reference/lexical_analysis.html#explicit-line-joining) multiple [<FontIcon icon="fa-brands fa-python"/>physical lines](https://docs.python.org/3/reference/lexical_analysis.html#physical-lines) into a single [<FontIcon icon="fa-brands fa-python"/>logical line](https://docs.python.org/3/reference/lexical_analysis.html#logical-lines) using the backslash (``) character:
+Another situation where the REPL’s secondary prompt appears is when you need to use **line continuations**. A line continuation occurs when you [<VPIcon icon="fa-brands fa-python"/>explicitly join](https://docs.python.org/3/reference/lexical_analysis.html#explicit-line-joining) multiple [<VPIcon icon="fa-brands fa-python"/>physical lines](https://docs.python.org/3/reference/lexical_analysis.html#physical-lines) into a single [<VPIcon icon="fa-brands fa-python"/>logical line](https://docs.python.org/3/reference/lexical_analysis.html#logical-lines) using the backslash (``) character:
 
 ```py
 number = 42
@@ -171,7 +171,7 @@ inventory = {
 }
 ```
 
-Once you open a bracket, such as `[]`, `()`, or `{}`, and press <kbd>Enter</kbd>, you get the REPL’s secondary prompt. This is known as [<FontIcon icon="fa-brands fa-python"/>implicit line joining](https://docs.python.org/3/reference/lexical_analysis.html#implicit-line-joining).
+Once you open a bracket, such as `[]`, `()`, or `{}`, and press <kbd>Enter</kbd>, you get the REPL’s secondary prompt. This is known as [<VPIcon icon="fa-brands fa-python"/>implicit line joining](https://docs.python.org/3/reference/lexical_analysis.html#implicit-line-joining).
 
 You can also use implicit line joining in other contexts, such as math and [**Boolean**](/realpython.com/python-operators-expressions.md#logical-expressions-involving-boolean-operands) expressions, [**function**](/realpython.com/defining-your-own-python-function.md) definitions and calls, [**list comprehensions**](/realpython.com/list-comprehension-python.md), and [**generator expressions**](/realpython.com/introduction-to-python-generators.md#building-generators-with-generator-expressions). In short, implicit line continuation will appear in all those Python constructs that accept some type of brackets, including `[]`, `()`, or `{}`.
 
@@ -198,7 +198,7 @@ numbers.append(5)
 
 Because these method calls don’t issue any output to the screen, it may seem that they didn’t perform any real action. However, they did.
 
-Most list methods run their intended transformation or computation [<FontIcon icon="fa-brands fa-wikipedia-w"/>in place](https://en.wikipedia.org/wiki/In-place_algorithm). In other words, list methods often modify the underlying list object instead of creating a new one. Because of this, most list methods return `None`, which the REPL automatically ignores. As a result, nothing shows up on your screen.
+Most list methods run their intended transformation or computation [<VPIcon icon="fa-brands fa-wikipedia-w"/>in place](https://en.wikipedia.org/wiki/In-place_algorithm). In other words, list methods often modify the underlying list object instead of creating a new one. Because of this, most list methods return `None`, which the REPL automatically ignores. As a result, nothing shows up on your screen.
 
 If you ever need to display `None` in a REPL session, then you must use the `print()` function:
 
@@ -297,7 +297,7 @@ _
 # 16
 ```
 
-The built-in [<FontIcon icon="fa-brands fa-python"/>`pow()`](https://docs.python.org/3/library/functions.html#pow) function computes the power of a number to a given exponent, returning the result. Because the function’s result differs from `None`, the `_` variable is automatically reassigned. In contrast, if you call a function that returns `None`, like `print()`, then the `_` variable remains unchanged.
+The built-in [<VPIcon icon="fa-brands fa-python"/>`pow()`](https://docs.python.org/3/library/functions.html#pow) function computes the power of a number to a given exponent, returning the result. Because the function’s result differs from `None`, the `_` variable is automatically reassigned. In contrast, if you call a function that returns `None`, like `print()`, then the `_` variable remains unchanged.
 
 In the example below, you use an [**assignment statement**](/realpython.com/python-assignment-operator.md) to create and initialize a `counter` variable:
 
@@ -385,9 +385,9 @@ greeting.greet("Pythonista", upper=True)
 # TypeError: greet() got an unexpected keyword argument 'upper'
 ```
 
-What? You have an unexpected argument? For [**efficiency reasons**](/realpython.com/python-import.md#reloading-modules), running the import again after updating something in <FontIcon icon="fa-brands fa-python"/>`greeting.py` doesn’t reload the module. Python doesn’t load imported modules again when you rerun the import.
+What? You have an unexpected argument? For [**efficiency reasons**](/realpython.com/python-import.md#reloading-modules), running the import again after updating something in <VPIcon icon="fa-brands fa-python"/>`greeting.py` doesn’t reload the module. Python doesn’t load imported modules again when you rerun the import.
 
-If you want to work around this behavior without closing your current REPL session and opening a new one, then you can use the [<FontIcon icon="fa-brands fa-python"/>`reload()`](https://docs.python.org/3/library/importlib.html#importlib.reload) function from [<FontIcon icon="fa-brands fa-python"/>`importlib`](https://docs.python.org/3/library/importlib.html?highlight=reload#module-importlib):
+If you want to work around this behavior without closing your current REPL session and opening a new one, then you can use the [<VPIcon icon="fa-brands fa-python"/>`reload()`](https://docs.python.org/3/library/importlib.html#importlib.reload) function from [<VPIcon icon="fa-brands fa-python"/>`importlib`](https://docs.python.org/3/library/importlib.html?highlight=reload#module-importlib):
 
 ```py
 import importlib

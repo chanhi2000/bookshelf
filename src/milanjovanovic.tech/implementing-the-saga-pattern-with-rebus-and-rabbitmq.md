@@ -69,7 +69,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_031.png
 
 Designing long-lived processes in a distributed environment is an interesting engineering challenge.
 
-And a well known pattern for solving this problem is a [<FontIcon icon="fas fa-globe"/>**Saga**](https://microservices.io/patterns/data/saga.html).
+And a well known pattern for solving this problem is a [<VPIcon icon="fas fa-globe"/>**Saga**](https://microservices.io/patterns/data/saga.html).
 
 A **Saga** is a sequence of local transactions, where each local transaction updates the **Saga** state and publishes a message triggering the next step in the **Saga**.
 
@@ -90,7 +90,7 @@ Let's dive in.
 
 ## Rebus Configuration
 
-[<FontIcon icon="iconfont icon-github"/>`rebus-org/Rebus`](https://github.com/rebus-org/Rebus) is a free .NET “service bus”, and it's practical for implementing asynchronous messaging-based
+[<VPIcon icon="iconfont icon-github"/>`rebus-org/Rebus`](https://github.com/rebus-org/Rebus) is a free .NET “service bus”, and it's practical for implementing asynchronous messaging-based
 communication between the components of an application.
 
 Let's install the following libraries:
@@ -310,7 +310,7 @@ We didn't cover a few important topics in this newsletter:
 
 I think you'll have some fun researching these on your own.
 
-Take a look at the [**source code for the example used in this newsletter** (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/newsletter-orchestrated-saga`)](https://github.com/m-jovanovic/newsletter-orchestrated-saga) if you want to learn more about implementing Sagas.
+Take a look at the [**source code for the example used in this newsletter** (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/newsletter-orchestrated-saga`)](https://github.com/m-jovanovic/newsletter-orchestrated-saga) if you want to learn more about implementing Sagas.
 
 <SiteInfo
   name="m-jovanovic/newsletter-orchestrated-saga"

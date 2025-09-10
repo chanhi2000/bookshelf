@@ -693,7 +693,7 @@ That's all for today. Hope this was helpful.
 
 ::: info P.S.
 
-You can find the [source code (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/outbox-scaling`)](https://github.com/m-jovanovic/outbox-scaling) here.
+You can find the [source code (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/outbox-scaling`)](https://github.com/m-jovanovic/outbox-scaling) here.
 
 <SiteInfo
   name="m-jovanovic/outbox-scaling"

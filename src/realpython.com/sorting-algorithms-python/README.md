@@ -173,7 +173,7 @@ In this tutorial, you learned:
 
 You also learned about different techniques such as **recursion**, **divide and conquer**, and **randomization**. These are fundamental building blocks for solving a long list of different algorithms, and they’ll come up again and again as you keep researching.
 
-Take the code presented in this tutorial, create new experiments, and explore these algorithms further. Better yet, try implementing other sorting algorithms in Python. The list is vast, but [<FontIcon icon="fa-brands fa-wikipedia-w"/>selection sort](https://en.wikipedia.org/wiki/Selection_sort), [<FontIcon icon="fa-brands fa-wikipedia-w"/>heapsort](https://en.wikipedia.org/wiki/Heapsort), and [<FontIcon icon="fa-brands fa-wikipedia-w"/>tree sort](https://en.wikipedia.org/wiki/Tree_sort) are three excellent options to start with.
+Take the code presented in this tutorial, create new experiments, and explore these algorithms further. Better yet, try implementing other sorting algorithms in Python. The list is vast, but [<VPIcon icon="fa-brands fa-wikipedia-w"/>selection sort](https://en.wikipedia.org/wiki/Selection_sort), [<VPIcon icon="fa-brands fa-wikipedia-w"/>heapsort](https://en.wikipedia.org/wiki/Heapsort), and [<VPIcon icon="fa-brands fa-wikipedia-w"/>tree sort](https://en.wikipedia.org/wiki/Tree_sort) are three excellent options to start with.
 
 ::: info Watch Now
 

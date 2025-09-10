@@ -266,7 +266,7 @@ So, when you open the `modal`, you should see the text box focused by default:
 
 Remember that you need to access the element through the `current` property.
 
-Check out the [<FontIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/adoring-haibt-v8u28p) for the example above.
+Check out the [<VPIcon icon="iconfont icon-codesandbox"/>CodeSandbox](https://codesandbox.io/s/adoring-haibt-v8u28p) for the example above.
 
 ### Detect if an element is contained
 
@@ -463,7 +463,7 @@ const LabelledInput = (props, ref) => {
 export default React.forwardRef(LabelledInput)
 ```
 
-See this [<FontIcon icon="iconfont icon-codesandbox"/>example in action](https://codesandbox.io/s/input-modal-example-l2wst?module=%2Fsrc%2Flabelled-input.js).
+See this [<VPIcon icon="iconfont icon-codesandbox"/>example in action](https://codesandbox.io/s/input-modal-example-l2wst?module=%2Fsrc%2Flabelled-input.js).
 
 ::: sandpack#react jeremenichelli / Drafts / input-modal-example [rtl theme=dark]
 
@@ -921,7 +921,7 @@ React refs are a powerful and versatile feature that empowers developers to brea
 
 While refs can be helpful in specific scenarios, it’s essential to exercise caution and use them sparingly, as overuse can lead to complex and less maintainable code.
 
-For more information, read the [<FontIcon icon="fas fa-globe"/>official React documentation](https://beta.reactjs.org/reference/react/createRef) about refs.
+For more information, read the [<VPIcon icon="fas fa-globe"/>official React documentation](https://beta.reactjs.org/reference/react/createRef) about refs.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

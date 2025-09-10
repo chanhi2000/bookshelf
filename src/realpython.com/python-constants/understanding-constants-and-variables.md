@@ -98,7 +98,7 @@ A descriptive name representing a given value throughout a program is always mor
 
 ### Clear communication of intent
 
-Most people will assume that `3.14` may refer to the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Pi](https://en.wikipedia.org/wiki/Pi) constant. However, using the `Pi`, `pi`, or `PI` name will communicate your intent more clearly than using the value directly. This practice will allow other developers to understand your code quickly and accurately.
+Most people will assume that `3.14` may refer to the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Pi](https://en.wikipedia.org/wiki/Pi) constant. However, using the `Pi`, `pi`, or `PI` name will communicate your intent more clearly than using the value directly. This practice will allow other developers to understand your code quickly and accurately.
 
 ### Better maintainability
 
@@ -114,7 +114,7 @@ Constants will remain unchanged during the program’s lifetime. Because they’
 
 ### Thread-safe data storage
 
-Constants can only be accessed, not written. This feature makes them [<FontIcon icon="fa-brands fa-wikipedia-w"/>thread-safe](https://en.wikipedia.org/wiki/Thread_safety) objects, which means that several threads can simultaneously use a constant without the risk of corrupting or losing the underlying data. |
+Constants can only be accessed, not written. This feature makes them [<VPIcon icon="fa-brands fa-wikipedia-w"/>thread-safe](https://en.wikipedia.org/wiki/Thread_safety) objects, which means that several threads can simultaneously use a constant without the risk of corrupting or losing the underlying data. |
 
 As you’ve learned in this table, constants are an important concept in programming for good reason. They can make your life more pleasant and your code more reliable, maintainable, and readable. Now, when should you use constants?
 
@@ -124,10 +124,10 @@ As you’ve learned in this table, constants are an important concept in program
 
 Life, and particularly science, is full of examples of constant values, or values that never change. A few examples include:
 
-- $3.141592653589793$: A constant denoted by $\pi$, spelled as *Pi* in English, which represents the ratio of a circle’s [<FontIcon icon="fa-brands fa-wikipedia-w"/>circumference](https://en.wikipedia.org/wiki/Circumference) to its diameter
-- $2.718281828459045$: A constant denoted by $e$ and known as [<FontIcon icon="fa-brands fa-wikipedia-w"/>Euler’s number](https://en.wikipedia.org/wiki/E_(mathematical_constant)), which is closely related to the [<FontIcon icon="fa-brands fa-wikipedia-w"/>natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>compound interest](https://en.wikipedia.org/wiki/Compound_interest)
-- $3,600$: The number of seconds in one hour, which is considered constant in most applications, even though [<FontIcon icon="fa-brands fa-wikipedia-w"/>leap seconds](https://en.wikipedia.org/wiki/Leap_second) sometimes are added to account for variability in the Earth’s rotation speed
-- $-273.15$: A constant representing [<FontIcon icon="fa-brands fa-wikipedia-w"/>absolute zero](https://en.wikipedia.org/wiki/Absolute_zero) in degrees Celsius, which is equal to 0 kelvins on the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Kelvin](https://en.wikipedia.org/wiki/Kelvin) temperature scale
+- $3.141592653589793$: A constant denoted by $\pi$, spelled as *Pi* in English, which represents the ratio of a circle’s [<VPIcon icon="fa-brands fa-wikipedia-w"/>circumference](https://en.wikipedia.org/wiki/Circumference) to its diameter
+- $2.718281828459045$: A constant denoted by $e$ and known as [<VPIcon icon="fa-brands fa-wikipedia-w"/>Euler’s number](https://en.wikipedia.org/wiki/E_(mathematical_constant)), which is closely related to the [<VPIcon icon="fa-brands fa-wikipedia-w"/>natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm) and [<VPIcon icon="fa-brands fa-wikipedia-w"/>compound interest](https://en.wikipedia.org/wiki/Compound_interest)
+- $3,600$: The number of seconds in one hour, which is considered constant in most applications, even though [<VPIcon icon="fa-brands fa-wikipedia-w"/>leap seconds](https://en.wikipedia.org/wiki/Leap_second) sometimes are added to account for variability in the Earth’s rotation speed
+- $-273.15$: A constant representing [<VPIcon icon="fa-brands fa-wikipedia-w"/>absolute zero](https://en.wikipedia.org/wiki/Absolute_zero) in degrees Celsius, which is equal to 0 kelvins on the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Kelvin](https://en.wikipedia.org/wiki/Kelvin) temperature scale
 
 All the above examples are constant values that people commonly use in life and science. In programming, you’ll often find yourself dealing with these and many other similar values that you can consider and treat as constants.
 

@@ -75,15 +75,15 @@ You could have seen the decision as such in hindsight, but that doesn’t happen
 That’s why I wrote [Small rant about Software Design](/en/small_rant_about_software_design/), which is being triggered by yet another tool that thinks too soon about the advanced user. Too often, we forget that we won’t get advanced users if the newbies don’t pass the very first steps of the learning ladder.
 <!-- TODO: /event-driven.io/small-rant-about-software-design.md -->
 
-**That’s why, in [<FontIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`](https://github.com/event-driven-io/Pongo), I’m trying to join two accessibilities: muscle memory and the Node.js community by reusing the MongoDB client API and PostgreSQL operation easiness and familiarity.** I think that enables me to ramp up quickly and deliver business value by deploying the first version of your software to production.
+**That’s why, in [<VPIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`](https://github.com/event-driven-io/Pongo), I’m trying to join two accessibilities: muscle memory and the Node.js community by reusing the MongoDB client API and PostgreSQL operation easiness and familiarity.** I think that enables me to ramp up quickly and deliver business value by deploying the first version of your software to production.
 
-To use [<FontIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`](https://github.com/event-driven-io/Pongo), you just need to install it:
+To use [<VPIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`](https://github.com/event-driven-io/Pongo), you just need to install it:
 
 ```sh
 npm install @event-driven-io/pongo
 ```
 
-Have a PostgreSQL instance working somewhere (e.g. [with Docker (<FontIcon icon="fa-brands fa-docker"/>`postgres`)](https://hub.docker.com/_/postgres)).
+Have a PostgreSQL instance working somewhere (e.g. [with Docker (<VPIcon icon="fa-brands fa-docker"/>`postgres`)](https://hub.docker.com/_/postgres)).
 
 Connect the client to the instance using database:
 
@@ -207,7 +207,7 @@ As you see, we’re querying the nested content of the JSON kept in the *data* c
 
 Your SQL will be placed in the WHERE statement.
 
-If you’re wondering what’s **@event-driven-io/dumbo**, then it’s a shared package between [<FontIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`](https://github.com/event-driven-io/Pongo) and [<FontIcon icon="iconfont icon-github"/>`event-driven-io/emmett`](https://github.com/event-driven-io/emmett).
+If you’re wondering what’s **@event-driven-io/dumbo**, then it’s a shared package between [<VPIcon icon="iconfont icon-github"/>`event-driven-io/Pongo`](https://github.com/event-driven-io/Pongo) and [<VPIcon icon="iconfont icon-github"/>`event-driven-io/emmett`](https://github.com/event-driven-io/emmett).
 
 ---
 
@@ -299,14 +299,14 @@ I think that’s pretty neat and powerful.
 
 So, if you’re afraid of using Pongo, you’ll get a showstopper in compatibility; hey, I have you covered!
 
-It’s the same if your favourite language is SQL; you can do whatever you want. Underneath, Pongo uses [<FontIcon icon="fas fa-globe"/>node-postgres](https://node-postgres.com) with connection pooling enabled by default, so the additional performance issue should not hit you.
+It’s the same if your favourite language is SQL; you can do whatever you want. Underneath, Pongo uses [<VPIcon icon="fas fa-globe"/>node-postgres](https://node-postgres.com) with connection pooling enabled by default, so the additional performance issue should not hit you.
 
 See also the videos where [**I showed all of that live**](/en/pongo_behind_the_scenes/).
 <!-- TODO: /event-driven.io/pongo-behind-the-scenes.md -->
 
 Thoughts? Yay or Nay?
 
-If you have more questions, join our [<FontIcon icon="fa-brands fa-discord"/>Discord server](https://discord.gg/fTpqUTMmVa) and let’s tackle that together!
+If you have more questions, join our [<VPIcon icon="fa-brands fa-discord"/>Discord server](https://discord.gg/fTpqUTMmVa) and let’s tackle that together!
 
 Cheers!
 

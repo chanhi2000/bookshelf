@@ -66,8 +66,8 @@ Without further ado, let’s *Blob, Blob, Blob* right in.
 
 I know it’s disenchanting to click on an article about making blobs in CSS just for me to say you can generate them outside CSS. Still, it’s probably the most common way to create blobs on the web, so to be thorough, these are some online tools I’ve used before to create **SVG** blobs.
 
-- [<FontIcon icon="fas fa-globe"/>Haikei](https://app.haikei.app/). Probably the one I have used the most since, besides blobs, it can also generate lots of SVG backgrounds.
-- [<FontIcon icon="fas fa-globe"/>Blobmaker](https://blobmaker.app/). A dedicated tool for making blobs. It’s apparently part of Haikei now, so you can use both.
+- [<VPIcon icon="fas fa-globe"/>Haikei](https://app.haikei.app/). Probably the one I have used the most since, besides blobs, it can also generate lots of SVG backgrounds.
+- [<VPIcon icon="fas fa-globe"/>Blobmaker](https://blobmaker.app/). A dedicated tool for making blobs. It’s apparently part of Haikei now, so you can use both.
 - Lastly, almost all graphic programs let you hand-draw blobs and export them as SVGs.
 
 For example, this is one I generated just now. Keep it around, as it will come in handy later.
@@ -88,7 +88,7 @@ For example, this is one I generated just now. Keep it around, as it will come i
 
 ## Using `border-radius`
 
-While counterintuitive, we can use the [<FontIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/)` property to create blobs. This technique isn’t new by any means; it was [<FontIcon icon="fas fa-globe"/>first described by Nils Binder](https://9elements.com/blog/css-border-radius-can-do-that/) in 2018, but it is still fairly unknown. Even for those who use it, the inner workings are not entirely clear.
+While counterintuitive, we can use the [<VPIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/)` property to create blobs. This technique isn’t new by any means; it was [<VPIcon icon="fas fa-globe"/>first described by Nils Binder](https://9elements.com/blog/css-border-radius-can-do-that/) in 2018, but it is still fairly unknown. Even for those who use it, the inner workings are not entirely clear.
 
 To start, you may know the `border-radius` is a shorthand to each individual corner’s radius, going from the top left corner clockwise. For example, we can set each corner’s `border-radius` to get a bubbly square shape:
 
@@ -158,7 +158,7 @@ We can now shape each corner like an ellipse, and it is the combination of all f
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The syntax isn’t too intuitive, so designing a blob from scratch will likely be a headache. Luckily, [<FontIcon icon="fas fa-globe"/>Nils Binder made a tool](https://9elements.github.io/fancy-border-radius/) exactly for that!
+The syntax isn’t too intuitive, so designing a blob from scratch will likely be a headache. Luckily, [<VPIcon icon="fas fa-globe"/>Nils Binder made a tool](https://9elements.github.io/fancy-border-radius/) exactly for that!
 
 ### Blobbing blobs together
 
@@ -203,7 +203,7 @@ It works by first blurring shapes nearby, creating some connected shadows. Then 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-If you look at the code, you’ll notice Chris uses the [<FontIcon icon="iconfont icon-css-tricks"/>`filter`](https://css-tricks.com/almanac/properties/f/filter/) property along the `blur()` and `contrast()` functions, which I’ve also seen in other blob demos. To be specific, it applies `blur()` on each individual circle and then `contrast()` on the parent element. So, if we have the following HTML:
+If you look at the code, you’ll notice Chris uses the [<VPIcon icon="iconfont icon-css-tricks"/>`filter`](https://css-tricks.com/almanac/properties/f/filter/) property along the `blur()` and `contrast()` functions, which I’ve also seen in other blob demos. To be specific, it applies `blur()` on each individual circle and then `contrast()` on the parent element. So, if we have the following HTML:
 
 ```html
 <div class="blob">
@@ -285,7 +285,7 @@ What’s left is to place the `.subblob` elements together such that they make a
 
 ### Making it one element
 
-This works well, but it has a similar issue to the blob we made by morphing several `border-radius` instances: too many elements for a simple blob. Luckily, we can take advantage of the [<FontIcon icon="iconfont icon-css-tricks"/>`background`](https://css-tricks.com/almanac/properties/b/background/) property to create multiple shapes and morph them together using SVG filters, all in a single element. Since we are keeping it to one element, we will go back to just one empty `.blob` div:
+This works well, but it has a similar issue to the blob we made by morphing several `border-radius` instances: too many elements for a simple blob. Luckily, we can take advantage of the [<VPIcon icon="iconfont icon-css-tricks"/>`background`](https://css-tricks.com/almanac/properties/b/background/) property to create multiple shapes and morph them together using SVG filters, all in a single element. Since we are keeping it to one element, we will go back to just one empty `.blob` div:
 
 ```html
 <div class="blob"></div>
@@ -364,9 +364,9 @@ Again, all these tricks are awesome, but not enough for what we want! We accompl
 
 Fortunately, there is a new way to make blobs that just dropped to CSS: the `shape()` function!
 
-I’ll explain `shape()`‘s syntax briefly, but for an in-depth explanation, you’ll want to check out both [<FontIcon icon="iconfont icon-css-tricks"/>this explainer from the CSS-Tricks Almanac](https://css-tricks.com/almanac/functions/s/shape/) as well as [<FontIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/)‘s three-part [**series on the `shape()` function**](/css-tricks.com/better-css-shapes-using-shape-part-1-lines-and-arcs.md), as well as [**his recent article about blobs**](/frontendmasters.com/creating-blob-shapes-using-clip-path-shape.md).
+I’ll explain `shape()`‘s syntax briefly, but for an in-depth explanation, you’ll want to check out both [<VPIcon icon="iconfont icon-css-tricks"/>this explainer from the CSS-Tricks Almanac](https://css-tricks.com/almanac/functions/s/shape/) as well as [<VPIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/)‘s three-part [**series on the `shape()` function**](/css-tricks.com/better-css-shapes-using-shape-part-1-lines-and-arcs.md), as well as [**his recent article about blobs**](/frontendmasters.com/creating-blob-shapes-using-clip-path-shape.md).
 
-First off, the CSS `shape()` function is used alongside the [<FontIcon icon="iconfont icon-css-tricks"/>`clip-path`](https://css-tricks.com/almanac/properties/c/clip-path/) property to cut elements into any shape we want. More specifically, it uses a verbal version of SVG’s `path` syntax. The syntax has lots of commands for lots of types of lines, but when blobbing with `shape()`, we’ll define curves using the `curve` command:
+First off, the CSS `shape()` function is used alongside the [<VPIcon icon="iconfont icon-css-tricks"/>`clip-path`](https://css-tricks.com/almanac/properties/c/clip-path/) property to cut elements into any shape we want. More specifically, it uses a verbal version of SVG’s `path` syntax. The syntax has lots of commands for lots of types of lines, but when blobbing with `shape()`, we’ll define curves using the `curve` command:
 
 ```css
 .blob {
@@ -385,7 +385,7 @@ Let’s break down each parameter:
 - `curve` starts the curve where `X1 Y1` is the next point of the shape, while `Xc1 Yc1` defines a control point used in Bézier curves.
 - The next parameter is similar, but we used `Xc21 Yc21 / Xc22 Yc22` instead to define two control points on the Bézier curve.
 
-I honestly don’t understand Bézier curves and control points completely, but luckily, we don’t need them to use `shape()` and blobs! Again, `shape()` uses a verbal version of SVG’s `path` syntax, so it can draw any shape an SVG can, which means that we can translate the SVG blobs we generated earlier… and CSS-ify them. To do so, we’ll grab the `d` attribute (which defines the `path`) from our SVG and paste it into Temani’s [<FontIcon icon="fas fa-globe"/>SVG to `shape()` generator](https://css-generators.com/svg-to-css/).
+I honestly don’t understand Bézier curves and control points completely, but luckily, we don’t need them to use `shape()` and blobs! Again, `shape()` uses a verbal version of SVG’s `path` syntax, so it can draw any shape an SVG can, which means that we can translate the SVG blobs we generated earlier… and CSS-ify them. To do so, we’ll grab the `d` attribute (which defines the `path`) from our SVG and paste it into Temani’s [<VPIcon icon="fas fa-globe"/>SVG to `shape()` generator](https://css-generators.com/svg-to-css/).
 
 This is the exact code the tool generated for me:
 

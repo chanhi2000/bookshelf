@@ -70,11 +70,11 @@ I remember the days of deploying .NET applications by hand: publishing locally, 
 
 But those days are over.
 
-After implementing [<FontIcon icon="fa-brands fa-wikipedia-w"/>CI/CD](https://en.wikipedia.org/wiki/CI/CD) pipelines for dozens of projects, I've seen firsthand how automation transforms the deployment process from a dreaded chore into a reliable, even boring, part of development.
+After implementing [<VPIcon icon="fa-brands fa-wikipedia-w"/>CI/CD](https://en.wikipedia.org/wiki/CI/CD) pipelines for dozens of projects, I've seen firsthand how automation transforms the deployment process from a dreaded chore into a reliable, even boring, part of development.
 
 And boring deployments are good deployments.
 
-In this article, I'll walk you through setting up a robust CI/CD pipeline for .NET 9 applications using [<FontIcon icon="iconfont icon-github"/>GitHub Actions](https://github.com/features/actions) and [<FontIcon icon="iconfont icon-microsoftazure"/>Azure App Service](https://azure.microsoft.com/en-us/products/app-service). I'll cover:
+In this article, I'll walk you through setting up a robust CI/CD pipeline for .NET 9 applications using [<VPIcon icon="iconfont icon-github"/>GitHub Actions](https://github.com/features/actions) and [<VPIcon icon="iconfont icon-microsoftazure"/>Azure App Service](https://azure.microsoft.com/en-us/products/app-service). I'll cover:
 
 - What CI/CD is and why it matters for .NET developers
 - A complete workflow that builds, tests, and deploys your application
@@ -201,7 +201,7 @@ This workflow does two main things: it builds and tests the code and then deploy
 
 The first job checks out our repository, sets up .NET 9, and runs through a standard build process: restore packages, build the solution, run tests, and publish the application. The detailed comments in the YAML explain each step. Once everything passes, it packages the application as an artifact for the next job.
 
-The second job takes that artifact and deploys it to Azure App Service using a publish profile. I store the publish profile as a [<FontIcon icon="iconfont icon-github"/>GitHub secret](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions) for security. The `needs: [build-and-test]` line ensures deployment only happens if all tests pass, which protects our production environment from broken code.
+The second job takes that artifact and deploys it to Azure App Service using a publish profile. I store the publish profile as a [<VPIcon icon="iconfont icon-github"/>GitHub secret](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions) for security. The `needs: [build-and-test]` line ensures deployment only happens if all tests pass, which protects our production environment from broken code.
 
 ![An example of what a workflow run looks like from the GitHub UI.](https://milanjovanovic.tech/blogs/mnw_133/ci_cd_pipeline.png?imwidth=3840)
 
@@ -263,7 +263,7 @@ To minimize risks, I test migrations in a staging environment first and always b
 
 ### 2. Code Coverage Reports
 
-I like knowing how much of my code is covered by tests. Here's an example of how to generate and publish code coverage reports to [<FontIcon icon="fas fa-globe"/>Codecov](https://about.codecov.io/):
+I like knowing how much of my code is covered by tests. Here's an example of how to generate and publish code coverage reports to [<VPIcon icon="fas fa-globe"/>Codecov](https://about.codecov.io/):
 
 ```yaml
 - name: Generate coverage report

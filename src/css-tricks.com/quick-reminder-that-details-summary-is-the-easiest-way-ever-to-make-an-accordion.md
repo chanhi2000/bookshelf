@@ -72,13 +72,13 @@ Works great for FAQs.
 
 There is really no limit to how you can style them. If you don’t like the default focus ring, you can remove that, but make sure to put some kind of styling back.
 
-[<FontIcon icon="fa-brands fa-codepen"/>Here](https://codepen.io/challenges/2018/march/) I’ve used a header element for each expandable section, which has a focus state that mimics other interactive elements on the page.
+[<VPIcon icon="fa-brands fa-codepen"/>Here](https://codepen.io/challenges/2018/march/) I’ve used a header element for each expandable section, which has a focus state that mimics other interactive elements on the page.
 
 The only browser that doesn’t support this are the Microsoft ones (and Opera Mini which makes sense—it doesn’t really do interactive).
 
 ::: info
 
-This browser support data is from [<FontIcon icon="iconfont icon-caniuse"/>Caniuse](http://caniuse.com/#feat=details), which has more detail. A number indicates that browser supports the feature at that version and up.
+This browser support data is from [<VPIcon icon="iconfont icon-caniuse"/>Caniuse](http://caniuse.com/#feat=details), which has more detail. A number indicates that browser supports the feature at that version and up.
 
 #### Desktop
 
@@ -134,8 +134,8 @@ But that seems to be limited to WebKit and Blink and, even then, the arrow will 
 
 ## Accessibility
 
-- Know that the `<summary>` element wipes out any semantics of other elements inside it, so don’t think you can put a `<h3>` or something inside there and screen readers will pick it up, because they won’t. [<FontIcon icon="fas fa-globe"/>Dave has more details.](https://daverupert.com/2019/12/why-details-is-not-an-accordion/)
-- Adrian also has an article about [<FontIcon icon="fas fa-globe"/>how details/summary may not be a good replacement](https://adrianroselli.com/2019/04/details-summary-are-not-insert-control-here.html) for a variety of interaction patterns.
+- Know that the `<summary>` element wipes out any semantics of other elements inside it, so don’t think you can put a `<h3>` or something inside there and screen readers will pick it up, because they won’t. [<VPIcon icon="fas fa-globe"/>Dave has more details.](https://daverupert.com/2019/12/why-details-is-not-an-accordion/)
+- Adrian also has an article about [<VPIcon icon="fas fa-globe"/>how details/summary may not be a good replacement](https://adrianroselli.com/2019/04/details-summary-are-not-insert-control-here.html) for a variety of interaction patterns.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -99,7 +99,7 @@ If you wanted the logo, you could do:
 const logo = document.querySelector(".logo");
 ```
 
-You might be thinking to yourself: but CSS classes might apply to *lots* of elements, how does it know which one to get? The `querySelector` function will select the *first* one it finds as it starts looking from the top of the HTML. If you intentionally want to look for and get a reference to a whole set of elements, look at [<FontIcon icon="fa-brands fa-firefox"/>`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
+You might be thinking to yourself: but CSS classes might apply to *lots* of elements, how does it know which one to get? The `querySelector` function will select the *first* one it finds as it starts looking from the top of the HTML. If you intentionally want to look for and get a reference to a whole set of elements, look at [<VPIcon icon="fa-brands fa-firefox"/>`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
 
 ---
 
@@ -129,7 +129,7 @@ In fact, think about how you can change classes all the way up on the `<html>` e
 document.documentElement.classList.add("paying-user");
 ```
 
-That [<FontIcon icon="fa-brands fa-firefox"/>`classList` API](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) allows you to add, remove, replace, and toggle classes, as well as check to see if an element contains a certain class, so you’ve got a lot of control there.
+That [<VPIcon icon="fa-brands fa-firefox"/>`classList` API](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) allows you to add, remove, replace, and toggle classes, as well as check to see if an element contains a certain class, so you’ve got a lot of control there.
 
 ```js
 element.classList.add("javascript-enabled");
@@ -289,7 +289,7 @@ More:
 
 - If you want parts of a page to be editable (that aren’t already form elements), you can always put `contentEditable` on them.
 - Just poking around and changing stuff like styles and content in DevTools is essentially doing the same things (behind the scenes) as we’ve learned so far: manipulating the page with JavaScript.
-- If you’re *really* into editing websites as they are in the browser as a design tool, check out more elaborate tools like [<FontIcon icon="fas fa-globe"/>VisBug](https://chromewebstore.google.com/detail/visbug/cdockenadnadldjbbgcallicgledbeoc?pli=1).
+- If you’re *really* into editing websites as they are in the browser as a design tool, check out more elaborate tools like [<VPIcon icon="fas fa-globe"/>VisBug](https://chromewebstore.google.com/detail/visbug/cdockenadnadldjbbgcallicgledbeoc?pli=1).
 
 ---
 
@@ -311,13 +311,13 @@ Here’s a silly example where the only job this Web Component has is to inject 
 
 CodePen Embed Fallback
 
-Think: “A small, re-usable bit of styling and/or functionality that wraps a bit of otherwise perfectly usable HTML”. Jeremy Keith [<FontIcon icon="fas fa-globe"/>listed some examples](https://adactio.com/journal/tags/webcomponents) recently:
+Think: “A small, re-usable bit of styling and/or functionality that wraps a bit of otherwise perfectly usable HTML”. Jeremy Keith [<VPIcon icon="fas fa-globe"/>listed some examples](https://adactio.com/journal/tags/webcomponents) recently:
 
-> - [<FontIcon icon="iconfont icon-github"/>`jgarber623/aria-collapsible`](https://github.com/jgarber623/aria-collapsible)for toggling the display of one element when you click on another.
-> - [<FontIcon icon="iconfont icon-github"/>`daviddarnes/play-button`](https://github.com/daviddarnes/play-button)for adding a play button to an`audio`or`video`element.
+> - [<VPIcon icon="iconfont icon-github"/>`jgarber623/aria-collapsible`](https://github.com/jgarber623/aria-collapsible)for toggling the display of one element when you click on another.
+> - [<VPIcon icon="iconfont icon-github"/>`daviddarnes/play-button`](https://github.com/daviddarnes/play-button)for adding a play button to an`audio`or`video`element.
 > - Chris’s[`ajax-form`](https://gomakethings.com/html-web-components/)for sending a form via Ajax instead of a full page refresh.
 > - Jim’s[`user-avatar`](https://blog.jim-nielsen.com/2023/html-web-components-an-example/)for adding a tooltip to an image.
-> - [<FontIcon icon="iconfont icon-github"/>`zachleat/table-saw`](https://github.com/zachleat/table-saw)for making tables responsive.
+> - [<VPIcon icon="iconfont icon-github"/>`zachleat/table-saw`](https://github.com/zachleat/table-saw)for making tables responsive.
 
 ---
 

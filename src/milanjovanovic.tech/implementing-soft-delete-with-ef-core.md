@@ -93,13 +93,13 @@ FROM bookings.Reviews
 WHERE IsDeleted = 0;
 ```
 
-Let's see how we can implement soft delete with [<FontIcon icon="fa-brands fa-microsoft"/>EF Core](https://learn.microsoft.com/en-us/ef/core/).
+Let's see how we can implement soft delete with [<VPIcon icon="fa-brands fa-microsoft"/>EF Core](https://learn.microsoft.com/en-us/ef/core/).
 
 ---
 
 ## Soft Deletes Using EF Core Interceptors
 
-[<FontIcon icon="fa-brands fa-microsoft"/>EF Core interceptors](https://learn.microsoft.com/en-us/ef/core/logging-events-diagnostics/interceptors) provide a powerful mechanism for intercepting and modifying database operations. For example, you can intercept the saving changes operation to implement soft delete functionality.
+[<VPIcon icon="fa-brands fa-microsoft"/>EF Core interceptors](https://learn.microsoft.com/en-us/ef/core/logging-events-diagnostics/interceptors) provide a powerful mechanism for intercepting and modifying database operations. For example, you can intercept the saving changes operation to implement soft delete functionality.
 
 Let's create an `ISoftDeletable` marker interface to represent soft-deletable entities:
 
@@ -206,7 +206,7 @@ dbContex.Reviews
 
 To enhance query performance, especially in tables with a significant number of soft-deleted records, you can use **filtered indexes**. A filtered index only includes records that meet the specified criteria. This reduces the index size and improves query execution times for operations that exclude filtered records. Most popular databases support filtered indexes.
 
-Here's how you can configure a [<FontIcon icon="fa-brands fa-microsoft"/>filtered index with EF Core](https://learn.microsoft.com/en-us/ef/core/modeling/indexes?tabs=data-annotations#index-filter):
+Here's how you can configure a [<VPIcon icon="fa-brands fa-microsoft"/>filtered index with EF Core](https://learn.microsoft.com/en-us/ef/core/modeling/indexes?tabs=data-annotations#index-filter):
 
 ```cs{10-12}
 public sealed class ApplicationDbContext(

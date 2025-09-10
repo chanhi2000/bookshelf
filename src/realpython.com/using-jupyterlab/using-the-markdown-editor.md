@@ -153,7 +153,7 @@ Here’s how you used Markdown symbols:
 - To create the table, you separated its data with `|` and used `:-` to specify left alignment.
 - To define a code block, you wrote its code between triple backticks (\`\`\`) followed by the word `python`, and you put another set of triple backticks at the end of the code block. This not only formats it neatly but also allows you to run the code by clicking inside the box.
 
-As you can see, you can quickly create a neatly formatted document using a few common pieces of Markdown syntax. These will most likely meet most of your needs, but [<FontIcon icon="iconfont icon-jupyter"/>more involved formatting options](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html) are available if you need them. However, writing Markdown isn’t the only thing you can do with your Markdown files in JupyterLab.
+As you can see, you can quickly create a neatly formatted document using a few common pieces of Markdown syntax. These will most likely meet most of your needs, but [<VPIcon icon="iconfont icon-jupyter"/>more involved formatting options](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html) are available if you need them. However, writing Markdown isn’t the only thing you can do with your Markdown files in JupyterLab.
 
 ---
 
@@ -169,7 +169,7 @@ Now that you’ve created a console and linked a kernel to your Markdown file, y
 
 ![running code in a markdown file](https://files.realpython.com/media/ie-run-code-in-markdown.c3e6b5a21005.png)
 
-As you can see, the code gets passed to the console and runs. In this test case, the zero that you entered as the second input caused your code to raise and handle a [<FontIcon icon="fa-brands fa-python"/>`ZeroDivisionError`](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError). Feel free to run the cell once more, but this time, enter `"ten"` as the first input and see how your code reacts.
+As you can see, the code gets passed to the console and runs. In this test case, the zero that you entered as the second input caused your code to raise and handle a [<VPIcon icon="fa-brands fa-python"/>`ZeroDivisionError`](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError). Feel free to run the cell once more, but this time, enter `"ten"` as the first input and see how your code reacts.
 
 One of the other cool things that JupyterLab allows you to do is to run small snippets of your code. This can be useful if you’re analyzing a specific part of it. To do this, select the lines of code that you want to run and tap <kbd>Shift</kbd>+<kbd>Enter</kbd> to run that portion:
 

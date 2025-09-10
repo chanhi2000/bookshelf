@@ -63,7 +63,7 @@ with Indenter() as indent:
     indent.print("hey")
 ```
 
-This almost reads like a [<FontIcon icon="fa-brands fa-wikipedia-w"/>domain-specific language (DSL)](https://en.wikipedia.org/wiki/Domain-specific_language) for indenting text. Also, notice how this code enters and leaves the same context manager multiple times to switch between different indentation levels. Running this code snippet leads to the following output and prints neatly formatted text:
+This almost reads like a [<VPIcon icon="fa-brands fa-wikipedia-w"/>domain-specific language (DSL)](https://en.wikipedia.org/wiki/Domain-specific_language) for indenting text. Also, notice how this code enters and leaves the same context manager multiple times to switch between different indentation levels. Running this code snippet leads to the following output and prints neatly formatted text:
 
 ```plaintext title="output"
 hi!

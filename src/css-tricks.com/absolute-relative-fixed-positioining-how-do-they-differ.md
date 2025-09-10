@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-socia
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png"/>
 
-Let’s talk about [<FontIcon icon="fas fa-globe"/>the `position` property](https://css-tricks.com/almanac/properties/p/position/). I know beginners are curious about this. Here’s a question I got recently:
+Let’s talk about [<VPIcon icon="fas fa-globe"/>the `position` property](https://css-tricks.com/almanac/properties/p/position/). I know beginners are curious about this. Here’s a question I got recently:
 
 > I am fairly new to web design, and haven’t mastered the differences in positioning of elements. I know there is `absolute`, `fixed`, and `relative`. Are there any others? Also, do they majorly differ? And when should you use which?
 
@@ -111,7 +111,7 @@ Sticky positioning is really unique! A `sticky` element will just sit there like
 
 ## Related Concepts
 
-- Layout like [**float**](/css-tricks.com/all-about-floats.md), [<FontIcon icon="iconfont icon-css-tricks"/>flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), and [<FontIcon icon="iconfont icon-css-tricks"/>grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+- Layout like [**float**](/css-tricks.com/all-about-floats.md), [<VPIcon icon="iconfont icon-css-tricks"/>flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), and [<VPIcon icon="iconfont icon-css-tricks"/>grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
 - [**The Box Model**](/css-tricks.com/the-css-box-model.md)
 
 <!-- TODO: add ARTICLE CARD -->

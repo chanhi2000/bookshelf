@@ -60,17 +60,17 @@ If you’ve developed any React application with a decent level of complexity in
 
 ![React State Management Signia](/assets/image/blog.logrocket.com/implement-react-state-management-signia/banner.png)
 
-[<FontIcon icon="fas fa-globe"/>Redux](https://redux.js.org/) is the most popular library that helped to solve this problem; it had a great run for several years, and, to overcome the minor gaps that it had, a great ecosystem grew around it in the form of libraries like [<FontIcon icon="iconfont icon-github"/>`reduxjs/reselect`](https://github.com/reduxjs/reselect) and [<FontIcon icon="fas fa-globe"/>Redux-Saga](https://redux-saga.js.org/). More recently, other alternatives like [**MobX, Zustand, and Jotai**](/blog.logrocket.com/guide-choosing-right-react-state-management-solution.md) have gained popularity. In this article, we’ll learn about [<FontIcon icon="fas fa-globe"/>Signia](https://signia.tldraw.dev/), a state management library that uses [<FontIcon icon="fas fa-globe"/>signals](https://signia.tldraw.dev/docs/using-signals) to solve the same problems.
+[<VPIcon icon="fas fa-globe"/>Redux](https://redux.js.org/) is the most popular library that helped to solve this problem; it had a great run for several years, and, to overcome the minor gaps that it had, a great ecosystem grew around it in the form of libraries like [<VPIcon icon="iconfont icon-github"/>`reduxjs/reselect`](https://github.com/reduxjs/reselect) and [<VPIcon icon="fas fa-globe"/>Redux-Saga](https://redux-saga.js.org/). More recently, other alternatives like [**MobX, Zustand, and Jotai**](/blog.logrocket.com/guide-choosing-right-react-state-management-solution.md) have gained popularity. In this article, we’ll learn about [<VPIcon icon="fas fa-globe"/>Signia](https://signia.tldraw.dev/), a state management library that uses [<VPIcon icon="fas fa-globe"/>signals](https://signia.tldraw.dev/docs/using-signals) to solve the same problems.
 
 ---
 
 ## What is Signia?
 
-As mentioned in the announcement blog post by the [<FontIcon icon="fas fa-globe"/>tldraw](https://tldraw.dev/) team, “Signia is an original library for working with fine-grained reactive values, called signals, using a new lazy reactivity model based on logical clocks”.
+As mentioned in the announcement blog post by the [<VPIcon icon="fas fa-globe"/>tldraw](https://tldraw.dev/) team, “Signia is an original library for working with fine-grained reactive values, called signals, using a new lazy reactivity model based on logical clocks”.
 
 In simpler terms, Signia uses primitives called signals for state management, which can efficiently calculate computed values by performing incremental calculations. In addition, with the help of internal clocks that provide support for the rollback of the entire transaction, they can implement the concept of transactions if required.
 
-Although the core library is framework agnostic, the tldraw team has also released a set of [<FontIcon icon="fas fa-globe"/>React bindings](https://signia.tldraw.dev/docs/react-bindings) that make integrating Signia into a React application a breeze.
+Although the core library is framework agnostic, the tldraw team has also released a set of [<VPIcon icon="fas fa-globe"/>React bindings](https://signia.tldraw.dev/docs/react-bindings) that make integrating Signia into a React application a breeze.
 
 ---
 
@@ -78,7 +78,7 @@ Although the core library is framework agnostic, the tldraw team has also releas
 
 Let’s first understand what a signal is conceptually before getting into Signia’s functionality. According to the official documentation, “a signal is a value that changes over time and whose change events can trigger side effects”. In other words, a signal is a pure, reactive value that can be observed for changes. It is then the responsibility of the signal’s library to observe these changes, notify the subscribers, and trigger the required side effects.
 
-In theory, signals are somewhat similar to the concept of observables provided by the [<FontIcon icon="fas fa-globe"/>RxJS](https://rxjs.dev/) library, but with a few fundamental differences. One of them is the need to create a subscription and pass a callback function to access the value of the observable.
+In theory, signals are somewhat similar to the concept of observables provided by the [<VPIcon icon="fas fa-globe"/>RxJS](https://rxjs.dev/) library, but with a few fundamental differences. One of them is the need to create a subscription and pass a callback function to access the value of the observable.
 
 ---
 
@@ -88,7 +88,7 @@ Let’s review a few concepts that are necessary to understand Signia.
 
 ### Atom
 
-An [<FontIcon icon="fas fa-globe"/>Atom in Signia](https://signia.tldraw.dev/docs/API/signia/interfaces/Atom) represents the signals that correspond to the root state, i.e., the source of truth for your app. Its value can be read and updated as well as built upon to create computed values.
+An [<VPIcon icon="fas fa-globe"/>Atom in Signia](https://signia.tldraw.dev/docs/API/signia/interfaces/Atom) represents the signals that correspond to the root state, i.e., the source of truth for your app. Its value can be read and updated as well as built upon to create computed values.
 
 ### Creating an Atom
 
@@ -153,7 +153,7 @@ As shown above, the value of the computed signal is updated to reflect the lates
 
 ## React bindings for Signia
 
-The code examples we’ve reviewed so far are generic, using the Signia core library. But, as mentioned earlier, the tldraw team has also released a set of React bindings that make it easier to integrate Signia into a React application. The official React bindings are shipped in two packages, namely, [<FontIcon icon="fas fa-globe"/>`signia-react` and `signia-react-jsx`](https://signia.tldraw.dev/docs/react-bindings).
+The code examples we’ve reviewed so far are generic, using the Signia core library. But, as mentioned earlier, the tldraw team has also released a set of React bindings that make it easier to integrate Signia into a React application. The official React bindings are shipped in two packages, namely, [<VPIcon icon="fas fa-globe"/>`signia-react` and `signia-react-jsx`](https://signia.tldraw.dev/docs/react-bindings).
 
 `signia-react` provides Hooks like `useAtom` and `useComputed`, which help with managing local state in a React component.`signia-react` also provides utilities like `track` and `useValue`, which you can use to provide reactivity to components but aren’t required if you’re using the `signia-react-jsx` library.
 
@@ -183,7 +183,7 @@ Now, let’s install the Signia-specific libraries:
 npm install --save signia-react signia-react-jsx
 ```
 
-We’ll set up reactivity for our components so that we don’t need to manually wrap each component in a `track` function. To set this up, we open the <FontIcon icon="iconfont icon-json"/>`tsconfig.json` file in our newly created boilerplate Vite project and add the following code to the `compilerOptions` object:
+We’ll set up reactivity for our components so that we don’t need to manually wrap each component in a `track` function. To set this up, we open the <VPIcon icon="iconfont icon-json"/>`tsconfig.json` file in our newly created boilerplate Vite project and add the following code to the `compilerOptions` object:
 
 ```json title="tsconfig.json"
 "compilerOptions": {
@@ -196,13 +196,13 @@ Now, we can start working with Signia in our boilerplate.
 
 ### Setting up Chakra UI
 
-Let’s also install a component library called [<FontIcon icon="fas fa-globe"/>Chakra UI](https://chakra-ui.com/), which we’ll use to [**build our UI components**](/blog.logrocket.com/building-responsive-components-chakra-ui.md), making them look clean and organized. To install Chakra UI and its peer dependencies, run the following command:
+Let’s also install a component library called [<VPIcon icon="fas fa-globe"/>Chakra UI](https://chakra-ui.com/), which we’ll use to [**build our UI components**](/blog.logrocket.com/building-responsive-components-chakra-ui.md), making them look clean and organized. To install Chakra UI and its peer dependencies, run the following command:
 
 ```sh
 npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion react-icons
 ```
 
-Make the following changes in <FontIcon icon="fa-brands fa-react"/>`App.tsx`:
+Make the following changes in <VPIcon icon="fa-brands fa-react"/>`App.tsx`:
 
 ```tsx title="App.tsx"
 import { ChakraProvider } from '@chakra-ui/react'
@@ -376,7 +376,7 @@ There’s one thing left; we iterate over the list of to-do items and display th
 </List>
 ```
 
-That completes all of the code changes required for our minimal to-do list app to work. You can check the complete set of code changes and even run it yourself by cloning this GitHub [repo (<FontIcon icon="iconfont icon-github"/>`kokanek/todo-list-with-signia`)](https://github.com/kokanek/todo-list-with-signia).
+That completes all of the code changes required for our minimal to-do list app to work. You can check the complete set of code changes and even run it yourself by cloning this GitHub [repo (<VPIcon icon="iconfont icon-github"/>`kokanek/todo-list-with-signia`)](https://github.com/kokanek/todo-list-with-signia).
 
 ### Testing the UI
 
@@ -398,7 +398,7 @@ Our UI is working as expected, and we can add more tasks as desired.
 
 One last thing that we need to explore is sharing state among different React components. The example that we’ve built in this tutorial has the state class as well as the consumers of that state in the same file.
 
-But, in real-life use cases, the point of storage of state and consumption are far apart. How do we manage sharing state in those scenarios? Signia recommends using [<FontIcon icon="fa-brands fa-react"/>React.context](https://react.dev/reference/react/createContext). We first create a context using the state class, then, we wrap our entire application in that context provider, passing the instantiated state class as the value:
+But, in real-life use cases, the point of storage of state and consumption are far apart. How do we manage sharing state in those scenarios? Signia recommends using [<VPIcon icon="fa-brands fa-react"/>React.context](https://react.dev/reference/react/createContext). We first create a context using the state class, then, we wrap our entire application in that context provider, passing the instantiated state class as the value:
 
 ```jsx
 const TodoContext = React.createContext<Todo | null>(null)
@@ -418,7 +418,7 @@ const App = () => {
 }
 ```
 
-Let’s make these changes in our example and test it out. To do so, we make the changes above in the `App` component. We then create a new file named <FontIcon icon="fa-brands fa-react"/>`TodoList.jsx` and duplicate the code to render the list items inside of it. We also place the code to consume the state object from the context inside of this file:
+Let’s make these changes in our example and test it out. To do so, we make the changes above in the `App` component. We then create a new file named <VPIcon icon="fa-brands fa-react"/>`TodoList.jsx` and duplicate the code to render the list items inside of it. We also place the code to consume the state object from the context inside of this file:
 
 ```jsx title="TodoList.jsx"
 import { TodoContext } from './App';

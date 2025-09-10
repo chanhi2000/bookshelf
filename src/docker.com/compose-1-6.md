@@ -89,9 +89,9 @@ networks:
     driver: overlay
 ```
 
-Hopefully this sparks your imagination as to what is now possible! [Check out this GitHub repository for a full example that you can try out (<FontIcon icon="iconfont icon-github"/>`docker/example-voting-app`)](https://github.com/docker/example-voting-app).
+Hopefully this sparks your imagination as to what is now possible! [Check out this GitHub repository for a full example that you can try out (<VPIcon icon="iconfont icon-github"/>`docker/example-voting-app`)](https://github.com/docker/example-voting-app).
 
-It’s really easy to convert your existing applications to the new format. It’s mostly a case of adding the lines `version: "2"` and `services:` to the top of your file, but there are a few caveats, so [<FontIcon icon="fa-brands fa-docker"/>check out these instructions if you run into issues](https://docs.docker.com/compose/compose-file/#upgrading). If you’re not quite ready to make the jump yet, that’s fine - Compose 1.6 still works just fine with the old format.
+It’s really easy to convert your existing applications to the new format. It’s mostly a case of adding the lines `version: "2"` and `services:` to the top of your file, but there are a few caveats, so [<VPIcon icon="fa-brands fa-docker"/>check out these instructions if you run into issues](https://docs.docker.com/compose/compose-file/#upgrading). If you’re not quite ready to make the jump yet, that’s fine - Compose 1.6 still works just fine with the old format.
 
 As well as the new Compose file, there are also a couple of other new things in this release:
 
@@ -99,9 +99,9 @@ As well as the new Compose file, there are also a couple of other new things in 
 - **`docker-compose events`:** A new command that streams the Engine events for your application, which can be used as a building block for tools which react to events such as containers starting and stopping.
 - **Build arguments:** You can now pass arguments to builds from your Compose file.
 
-[Check out the release notes for a full list of what’s new. (<FontIcon icon="iconfont icon-github"/>`docker/compose`)](https://github.com/docker/compose/releases/tag/1.6.0) To install or upgrade Compose, [<FontIcon icon="fa-brands fa-docker"/>the easiest way is to download Docker Toolbox](https://docker.com/products/docker-toolbox).
+[Check out the release notes for a full list of what’s new. (<VPIcon icon="iconfont icon-github"/>`docker/compose`)](https://github.com/docker/compose/releases/tag/1.6.0) To install or upgrade Compose, [<VPIcon icon="fa-brands fa-docker"/>the easiest way is to download Docker Toolbox](https://docker.com/products/docker-toolbox).
 
-To read more about running Compose in production, [<FontIcon icon="fa-brands fa-docker"/>there is a guide available in the documentation](https://docs.docker.com/compose/production/).
+To read more about running Compose in production, [<VPIcon icon="fa-brands fa-docker"/>there is a guide available in the documentation](https://docs.docker.com/compose/production/).
 
 ::: info Watch this video on the new version of Docker Compose files
 

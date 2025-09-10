@@ -60,11 +60,11 @@ I mostly find Safari and Safari iOS not terribly different either, but if there 
 
 I also like to link to a source that is known to update. That typically means whatever the relevant MDN page is or caniuse, which is more and more MDN powered anyway.
 
-I’ve been talking about scroll-driven animations a bunch, so linking to a highly relevant property like [<FontIcon icon="fas fa-globe"/>`animation-timeline` on caniuse](https://caniuse.com/mdn-css_properties_animation-timeline) I feel like is a pertinent thing to do, while also saying something like:
+I’ve been talking about scroll-driven animations a bunch, so linking to a highly relevant property like [<VPIcon icon="fas fa-globe"/>`animation-timeline` on caniuse](https://caniuse.com/mdn-css_properties_animation-timeline) I feel like is a pertinent thing to do, while also saying something like:
 
 > At the time of this writing, scroll-driven animations are only a Chrome ‘n’ Friends feature, but I see feature flags in both Safari and Firefox so it’s coming!
 
-That caniuse page pulls data directly from MDN anyway, so a link [<FontIcon icon="fa-brands fa-firefox"/>directly to the browser support for that property](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline#browser_compatibility) is probably even better. That’s what hash links are for I suppose.
+That caniuse page pulls data directly from MDN anyway, so a link [<VPIcon icon="fa-brands fa-firefox"/>directly to the browser support for that property](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline#browser_compatibility) is probably even better. That’s what hash links are for I suppose.
 
 ---
 
@@ -76,7 +76,7 @@ Screenshots of browser support tables. It’s just going to go out of date, prob
 
 ## Live Updating Embeds
 
-Ire Aderinokun’s [<FontIcon icon="fas fa-globe"/>CanIUse Embed](https://caniuse.bitsofco.de/) takes this job on. It sucks the data in from caniuse (or MDN) then produces an iframe of that feature. Here’s what it produces for the `text-decoration-skip-ink` feature:
+Ire Aderinokun’s [<VPIcon icon="fas fa-globe"/>CanIUse Embed](https://caniuse.bitsofco.de/) takes this job on. It sucks the data in from caniuse (or MDN) then produces an iframe of that feature. Here’s what it produces for the `text-decoration-skip-ink` feature:
 
 <!-- TODO: embed -->
 
@@ -84,10 +84,10 @@ That’s pretty neat, but…
 
 ### The CanIUse Embed is probably worth avoiding for now
 
-While it’s still mostly functional, I think [<FontIcon icon="fas fa-globe"/>the page](https://caniuse.bitsofco.de) has fallen just enough out of date that it’s best to avoid using.
+While it’s still mostly functional, I think [<VPIcon icon="fas fa-globe"/>the page](https://caniuse.bitsofco.de) has fallen just enough out of date that it’s best to avoid using.
 
 - The “Select Feature” dropdown doesn’t have much by way of new features. Nothing I was trying to use it for was there: scroll-driven animations, anchor positioning, etc.
-- The data seems weirdly wrong. Try the CSS selector `:has()` — it lists no support in any browser. That `text-decoration-skip-ink` chart above? That’s also kinda wrong. [<FontIcon icon="fas fa-firefox"/>The MDN chart](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-skip-ink#browser_compatibility) is much more nuanced, listing support by sub-feature, and accurate.
+- The data seems weirdly wrong. Try the CSS selector `:has()` — it lists no support in any browser. That `text-decoration-skip-ink` chart above? That’s also kinda wrong. [<VPIcon icon="fas fa-firefox"/>The MDN chart](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-skip-ink#browser_compatibility) is much more nuanced, listing support by sub-feature, and accurate.
 - It gives you invalid HTML, with nested `<p>` tags.
 - It doesn’t link out to a useful canonical source for the specific data.
 
@@ -97,7 +97,7 @@ It’s a cool idea and it could be fixed up, but it’s pretty busted for right 
 
 ## Using Baseline
 
-Google has been working on [<FontIcon icon="iconfont icon-webdev"/>Baseline](https://web.dev/baseline) for years now. It’s a bit of a simplified version of understanding browser support. They’ve just recently [released a web component (<FontIcon icon="iconfont icon-github"/>`web-platform-dx/baseline-status`)](https://github.com/web-platform-dx/baseline-status?tab=readme-ov-file) for displaying the Baseline widget wherever.
+Google has been working on [<VPIcon icon="iconfont icon-webdev"/>Baseline](https://web.dev/baseline) for years now. It’s a bit of a simplified version of understanding browser support. They’ve just recently [released a web component (<VPIcon icon="iconfont icon-github"/>`web-platform-dx/baseline-status`)](https://github.com/web-platform-dx/baseline-status?tab=readme-ov-file) for displaying the Baseline widget wherever.
 
 Here is their example usage:
 
@@ -107,7 +107,7 @@ Here is their example usage:
 <baseline-status featureId="anchor-positioning"></baseline-status>
 ```
 
-It requires you know what the `featureId` is for whatever you want to embed, and it looks like the place to find that information is [this folder on GitHub (<FontIcon icon="iconfont icon-github"/>`web-platform-dx/web-features`)](https://github.com/web-platform-dx/web-features/tree/main/features).
+It requires you know what the `featureId` is for whatever you want to embed, and it looks like the place to find that information is [this folder on GitHub (<VPIcon icon="iconfont icon-github"/>`web-platform-dx/web-features`)](https://github.com/web-platform-dx/web-features/tree/main/features).
 
 So it’s useful, compact, and up-to-date, it’s also limited to what they’ve got data on at the moment, which ain’t everything. I couldn’t find the `animation-timeline` I’ve been using as an example, for instance.
 
@@ -128,7 +128,7 @@ I’d love it if these browser support charts/widgets could be more clear about 
 
 ## The “When”
 
-::: info Rachel Andrew (<FontIcon icon="fas fa-globe"/><code>rachelandrew.co.uk</code>)
+::: info Rachel Andrew (<VPIcon icon="fas fa-globe"/><code>rachelandrew.co.uk</code>)
 
 ```component VPCard
 {

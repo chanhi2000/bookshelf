@@ -137,9 +137,9 @@ There’s a lot of ground to cover, so let’s get going.
 
 You’ve covered a lot of ground in these tutorials, but there is so much more to Git. If you’d like to take a deeper dive into Git, I can recommend these resources:
 
-- The Real Python Podcast [<FontIcon icon="fas fa-globe"/>Episode 179: Improving Your Git Developer Experience in Python](https://realpython.com/podcasts/rpp/179/) with Adam Johnson will help you become more efficient with the Git command line.
-- The free, on-line, [<FontIcon icon="iconfont icon-git"/>Pro Git](https://git-scm.com/book/en/v2) is a very handy reference.
-- For those of you who like to read on paper, there’s a print version of [<FontIcon icon="fas fa-globe"/>Pro Git](https://realpython.com/asins/1484200772/), and I found O’Reilly’s [<FontIcon icon="fas fa-globe"/>Version Control with Git](https://realpython.com/asins/1449316387/) to be useful when I read it.
+- The Real Python Podcast [<VPIcon icon="fas fa-globe"/>Episode 179: Improving Your Git Developer Experience in Python](https://realpython.com/podcasts/rpp/179/) with Adam Johnson will help you become more efficient with the Git command line.
+- The free, on-line, [<VPIcon icon="iconfont icon-git"/>Pro Git](https://git-scm.com/book/en/v2) is a very handy reference.
+- For those of you who like to read on paper, there’s a print version of [<VPIcon icon="fas fa-globe"/>Pro Git](https://realpython.com/asins/1484200772/), and I found O’Reilly’s [<VPIcon icon="fas fa-globe"/>Version Control with Git](https://realpython.com/asins/1449316387/) to be useful when I read it.
 - `--help` is useful for any of the subcommands you know. `git diff --help` produces almost 1000 lines of information. While portions of these are quite detailed, and some of them assume a deep knowledge of Git, reading the help for commands you use frequently can teach you new tricks on how to use them.
 
 <!-- TODO: add ARTICLE CARD -->

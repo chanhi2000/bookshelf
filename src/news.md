@@ -25,14 +25,14 @@ head:
 
 ---
 
-## <FontIcon icon="fas fa-clock-rotate-left"/>Dashboard
+## <VPIcon icon="fas fa-clock-rotate-left"/>Dashboard
 
 <DevGithubItems />
 <DevHackerNewsItems /> 
 
 ---
 
-## <FontIcon icon="fas fa-bookmark"/>Bookmarks
+## <VPIcon icon="fas fa-bookmark"/>Bookmarks
 
 ::: tabs
 
@@ -767,7 +767,7 @@ https://paperlined.org/
 
 <!-- END: Trending Korea -->
 
-@tab <FontIcon icon="fas fa-globe"/>Tech Blog
+@tab <VPIcon icon="fas fa-globe"/>Tech Blog
 
 <SiteInfo
   name="freeCodeCamp Programming Tutorials: Python, JavaScript, Git & More"
@@ -1226,7 +1226,7 @@ https://devblogs.microsoft.com/engineering-at-microsoft/
 
 <!-- END: Tech Blog -->
 
-@tab <FontIcon icon="fas fa-blog"/>Tech Blog (Korea)
+@tab <VPIcon icon="fas fa-blog"/>Tech Blog (Korea)
 
 ```component VPCard
 {
@@ -1625,13 +1625,13 @@ https://devblogs.microsoft.com/engineering-at-microsoft/
 
 <!-- END: App -->
 
-@tab <FontIcon icon="fas fa-database"/>Data Science
+@tab <VPIcon icon="fas fa-database"/>Data Science
 
 - [Analytics Vidhya](https://www.analyticsvidhya.com/blog)
 - [Data Science Central](https://www.datasciencecentral.com)
 - [KDnuggets](https://www.kdnuggets.com)
   - [Fine-Tuning OpenAI Language Models with Noisily Labeled Data](https://www.kdnuggets.com/2023/04/finetuning-openai-language-models-noisily-labeled-data.html)
-- [<FontIcon icon="fa-brands fa-reddit"/>`r/datascience`](https://www.reddit.com/r/datascience)
+- [<VPIcon icon="fa-brands fa-reddit"/>`r/datascience`](https://www.reddit.com/r/datascience)
 - [SmartDataCollective](https://www.smartdatacollective.com)
 - [Codementor Blog](https://www.codementor.io/blog)
 - [Kaggle Blog](https://medium.com/kaggle-blog)
@@ -1641,7 +1641,7 @@ https://devblogs.microsoft.com/engineering-at-microsoft/
 - [inside BIGDATA](https://insidebigdata.com)
 - [Analytics Insight](https://www.analyticsinsight.net/category/latest-news)
 
-@tab <FontIcon icon="fas fa-comments"/>Community
+@tab <VPIcon icon="fas fa-comments"/>Community
 
 ```component VPCard
 {
@@ -1744,7 +1744,7 @@ https://devblogs.microsoft.com/engineering-at-microsoft/
 
 <!-- END: Community -->
 
-@tab <FontIcon icon="fas fa-person-running"/>Hackerthon
+@tab <VPIcon icon="fas fa-person-running"/>Hackerthon
 
 ```component VPCard
 {
@@ -1834,7 +1834,7 @@ https://devblogs.microsoft.com/engineering-at-microsoft/
 
 https://woowacon.com/presentations
 
-::: details <FontIcon icon="iconfont icon-github"/>kilimchoi/engineering-blogs
+::: details <VPIcon icon="iconfont icon-github"/>kilimchoi/engineering-blogs
 
 <!-- @include: ./engineering-blogs.md -->
 

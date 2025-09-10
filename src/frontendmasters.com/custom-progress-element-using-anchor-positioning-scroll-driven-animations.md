@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4369"/>
 
-In[**a previous article**](/frontendmasters.com/custom-range-slider-using-anchor-positioning-scroll-driven-animations.md), we made [a cool CSS-only range slider (<FontIcon icon="fa-brands fa-codepen"/>`t_afif`)](https://codepen.io/t_afif/pen/MWdmZPL) powered by anchor positioning and scroll-driven animations. Using minimal HTML and a few CSS tricks we created something that would have required a lot of JavaScript if we built it 2 years ago.
+In[**a previous article**](/frontendmasters.com/custom-range-slider-using-anchor-positioning-scroll-driven-animations.md), we made [a cool CSS-only range slider (<VPIcon icon="fa-brands fa-codepen"/>`t_afif`)](https://codepen.io/t_afif/pen/MWdmZPL) powered by anchor positioning and scroll-driven animations. Using minimal HTML and a few CSS tricks we created something that would have required a lot of JavaScript if we built it 2 years ago.
 
 In this article, we will do the same with the`<progress>`element and try to make it as cool as the range slider above.
 
@@ -161,7 +161,7 @@ That’s it for the initial configuration, let’s move to the interesting parts
 
 ## Adding The Tooltip
 
-To create the tooltip I will rely on the`::before`pseudo-element (or the`::after`if you want) and I will pick the code of shape from[<FontIcon icon="fas fa-globe"/>my online collection](https://css-generators.com/tooltip-speech-bubble/). I will be using #5 and #6 but you have up to 100 choices!
+To create the tooltip I will rely on the`::before`pseudo-element (or the`::after`if you want) and I will pick the code of shape from[<VPIcon icon="fas fa-globe"/>my online collection](https://css-generators.com/tooltip-speech-bubble/). I will be using #5 and #6 but you have up to 100 choices!
 
 ```css
 progress {
@@ -314,9 +314,9 @@ After that, we define a linear animation that animates an integer variable from`
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/s_C72B641192C43333719DB09FE368DD770798849971BE8F1E36E6A0C4EFB7ACED_1730716083456_image.png?resize=697%2C389&ssl=1)
 
-::: info MDN (<FontIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>)
+::: info MDN (<VPIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>)
 
-From[<FontIcon icon="fa-brands fa-firefox"/>the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range), we can read:
+From[<VPIcon icon="fa-brands fa-firefox"/>the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range), we can read:
 
 > `entry`Represents the range of a named view progress timeline from the point where the subject element first starts to enter the scroll port (0% progress), to the point where it has completely entered the scroll port (100%).
 
@@ -439,7 +439,7 @@ When`--y`will animate, the width of the gradient will also animate from`0%`to`10
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-If you are wondering what’s going on with that gradient syntax, check this “[<FontIcon icon="fas fa-globe"/>How to correctly define a one-color gradient](https://css-tip.com/one-color-gradient/)”
+If you are wondering what’s going on with that gradient syntax, check this “[<VPIcon icon="fas fa-globe"/>How to correctly define a one-color gradient](https://css-tip.com/one-color-gradient/)”
 
 Now, we need to do the same with the tooltip position. We update the following:
 
@@ -465,9 +465,9 @@ We need the tooltip to slide the whole progress value so we have to consider a n
 
 The use of`position-area: top center`will apply a default alignment for the tooltip that we need to override to be able to use`left`. That’s the purpose of`justify-self: start`.
 
-As for the`unsafe`keyword, it’s related to a quirk you will face at least once when working with anchor positioning. In[<FontIcon icon="iconfont icon-w3c"/>the specification](https://w3.org/TR/css-anchor-position-1/#position-area), you can read:
+As for the`unsafe`keyword, it’s related to a quirk you will face at least once when working with anchor positioning. In[<VPIcon icon="iconfont icon-w3c"/>the specification](https://w3.org/TR/css-anchor-position-1/#position-area), you can read:
 
-::: info CSS Anchor Positioning - W3 (<FontIcon icon="iconfont icon-w3c"/><code>w3.org</code>)
+::: info CSS Anchor Positioning - W3 (<VPIcon icon="iconfont icon-w3c"/><code>w3.org</code>)
 
 ```component VPCard
 {

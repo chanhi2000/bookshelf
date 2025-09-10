@@ -59,7 +59,7 @@ Many developers have embraced Go because of its garbage collection, memory safet
 
 ::: note Editor’s note:
 
-This article was updated by [<FontIcon icon="fas fa-globe"/>*Jude Miracle*](https://blog.logrocket.com/author/judemiracle/) in April 2025 to include information on new, emerging Go frameworks (FastHTTP, Gorilla, Chi, Hertz) and remove commentary on more outdated frameworks (Iris, Revel).
+This article was updated by [<VPIcon icon="fas fa-globe"/>*Jude Miracle*](https://blog.logrocket.com/author/judemiracle/) in April 2025 to include information on new, emerging Go frameworks (FastHTTP, Gorilla, Chi, Hertz) and remove commentary on more outdated frameworks (Iris, Revel).
 
 :::
 
@@ -136,7 +136,7 @@ In the following sections, we’ll explore the top eight Go frameworks to see wh
 
 [**Gin is an HTTP web framework written in Go**](/blog.logrocket.com/gin-binding-in-go-a-tutorial-with-examples.md) that is very popular, with over 81k stars on GitHub at the time of writing. Currently, Gin is the most popular framework for building microservices because it offers a simple way to build a request-handling pipeline where you can plug in middleware.
 
-Gin also boasts a [Martini-like API (<FontIcon icon="iconfont icon-github"/>`go-martini/martini`)](https://github.com/go-martini/martini) and, according to Gin’s GitHub page, is [40x faster because of httprouter (<FontIcon icon="iconfont icon-github"/>`julienschmidt/httprouter`)](https://github.com/julienschmidt/httprouter). Below are some of its amazing features.
+Gin also boasts a [Martini-like API (<VPIcon icon="iconfont icon-github"/>`go-martini/martini`)](https://github.com/go-martini/martini) and, according to Gin’s GitHub page, is [40x faster because of httprouter (<VPIcon icon="iconfont icon-github"/>`julienschmidt/httprouter`)](https://github.com/julienschmidt/httprouter). Below are some of its amazing features.
 
 ### Error management
 
@@ -170,7 +170,7 @@ Its fast performance is also thanks to its small memory, which Gin uses or refer
 Finally, Gin provides support for JSON validation. Using JSON to send requests can validate required values, like input data from the client. These values must be validated before saving in memory, so by validating them, developers can avoid saving inaccurate values.  
 Gin is a simple, easy-to-use framework. This makes it the ideal framework for those just starting with Go, because it is minimal and straightforward to use.
 
-Check out this [<FontIcon icon="fas fa-globe"/>quickstart Gin tutorial](https://gin-gonic.com/docs/quickstart/) for more information.
+Check out this [<VPIcon icon="fas fa-globe"/>quickstart Gin tutorial](https://gin-gonic.com/docs/quickstart/) for more information.
 
 ---
 
@@ -178,7 +178,7 @@ Check out this [<FontIcon icon="fas fa-globe"/>quickstart Gin tutorial](https://
 
 ![echo go web framework](/assets/image/blog.logrocket.com/top-go-frameworks-2025/2_echo.png)
 
-[<FontIcon icon="fas fa-globe"/>Echo](https://echo.labstack.com/) is another promising framework created by Labstack with nearly [30k stars on GitHub (<FontIcon icon="iconfont icon-github"/>`labstack/echo`)](https://github.com/labstack/echo). Echo is also regarded as a micro framework, which is more of a standard library and a router, and has fully baked documentation for developers to follow.
+[<VPIcon icon="fas fa-globe"/>Echo](https://echo.labstack.com/) is another promising framework created by Labstack with nearly [30k stars on GitHub (<VPIcon icon="iconfont icon-github"/>`labstack/echo`)](https://github.com/labstack/echo). Echo is also regarded as a micro framework, which is more of a standard library and a router, and has fully baked documentation for developers to follow.
 
 This framework is great for people who want to learn how to create APIs from scratch, thanks to its extensive documentation.
 
@@ -196,7 +196,7 @@ Finally, Echo supports a variety of templating engines, providing the flexibilit
 
 ![fiber go web framework](/assets/image/blog.logrocket.com/top-go-frameworks-2025/3_fiber.png)
 
-[Fiber (<FontIcon icon="iconfont icon-github"/>`gofiber/fiber`)](https://github.com/gofiber/fiber) is another Express.js-like web framework written in Go that boasts low memory usage and rich routing. Built on top of the [fasthttp HTTP engine for Go (<FontIcon icon="iconfont icon-github"/>`valyala/fasthttp`)](https://github.com/valyala/fasthttp), which is the fastest HTTP engine for Go, Fiber is one of the fastest Go frameworks.
+[Fiber (<VPIcon icon="iconfont icon-github"/>`gofiber/fiber`)](https://github.com/gofiber/fiber) is another Express.js-like web framework written in Go that boasts low memory usage and rich routing. Built on top of the [fasthttp HTTP engine for Go (<VPIcon icon="iconfont icon-github"/>`valyala/fasthttp`)](https://github.com/valyala/fasthttp), which is the fastest HTTP engine for Go, Fiber is one of the fastest Go frameworks.
 
 Created with the main focus of minimalism and the Unix philosophy to provide simple and modular software technology, the idea for Fiber was to allow new Go developers to begin creating web applications quickly.
 
@@ -216,7 +216,7 @@ Like the other Go frameworks we’ve mentioned in this post, Fiber has versatile
 
 ![beego go web framework](/assets/image/blog.logrocket.com/top-go-frameworks-2025/4_beego.png)
 
-[<FontIcon icon="fas fa-globe"/>Beego](https://beego.wiki/) is another Go web framework that is mostly used to build enterprise web applications with rapid development.
+[<VPIcon icon="fas fa-globe"/>Beego](https://beego.wiki/) is another Go web framework that is mostly used to build enterprise web applications with rapid development.
 
 Beego has four main parts that make it a viable Go framework:
 
@@ -233,7 +233,7 @@ Because Beego focuses on enterprise applications, which tend to be very large wi
 
 The modular structure of the Beego framework supports features like a configuration module, logging module, and caching module.
 
-Beego also uses [a regular MVC architecture (<FontIcon icon="iconfont icon-github"/>`beego/beedoc`)](https://github.com/beego/beedoc/tree/master/en-US/mvc) to handle specific development aspects in an app, which is also beneficial for enterprise applications.
+Beego also uses [a regular MVC architecture (<VPIcon icon="iconfont icon-github"/>`beego/beedoc`)](https://github.com/beego/beedoc/tree/master/en-US/mvc) to handle specific development aspects in an app, which is also beneficial for enterprise applications.
 
 ### Supports namespace routing
 
@@ -290,7 +290,7 @@ web.Include(&WeatherController{})
 
 ![fast http go web framework](/assets/image/blog.logrocket.com/top-go-frameworks-2025/5_fasthttp.png)
 
-[<FontIcon icon="fa-brands fa-golang"/>FastHTTP](https://pkg.go.dev/github.com/valyala/fasthttp), as the name suggests, is a very fast HTTP framework for Go. It focuses on high performance and efficiency. Unlike many other Go web frameworks, FastHTTP does not use the standard `net/http` package. Instead, it builds its own HTTP server and client from the ground up, which is optimized for speed and low memory use. As of now, FastHTTP is quite popular, with over [22k stars on GitHub (<FontIcon icon="iconfont icon-github"/>`valyala/fasthttp`)](https://github.com/valyala/fasthttp).
+[<VPIcon icon="fa-brands fa-golang"/>FastHTTP](https://pkg.go.dev/github.com/valyala/fasthttp), as the name suggests, is a very fast HTTP framework for Go. It focuses on high performance and efficiency. Unlike many other Go web frameworks, FastHTTP does not use the standard `net/http` package. Instead, it builds its own HTTP server and client from the ground up, which is optimized for speed and low memory use. As of now, FastHTTP is quite popular, with over [22k stars on GitHub (<VPIcon icon="iconfont icon-github"/>`valyala/fasthttp`)](https://github.com/valyala/fasthttp).
 
 FastHTTP works well for situations that need high speed and low delay, such as real-time APIs, microservices, and web applications with high user traffic. It can handle over 100,000 requests per second, manage over 1 million active connections at once, and work with different types of data like JSON, XML, and form-data. Here are some of its key features.
 
@@ -365,7 +365,7 @@ requestHandler := func(ctx *fasthttp.RequestCtx) {
 }
 ```
 
-To get started with this high-performance framework, explore its documentation and visit its [GitHub (<FontIcon icon="iconfont icon-github"/>`valyala/fasthttp`)](https://github.com/valyala/fasthttp) repo.
+To get started with this high-performance framework, explore its documentation and visit its [GitHub (<VPIcon icon="iconfont icon-github"/>`valyala/fasthttp`)](https://github.com/valyala/fasthttp) repo.
 
 ---
 
@@ -373,13 +373,13 @@ To get started with this high-performance framework, explore its documentation a
 
 ![gorilla web toolkit](/assets/image/blog.logrocket.com/top-go-frameworks-2025/6_gorilla.png)
 
-[<FontIcon icon="fas fa-globe"/>Gorilla](https://gorilla.github.io/) is not exactly a web framework; it’s a set of modular packages that help developers build web applications in Go. It is known for being flexible and simple, making it popular among developers who like to create their own toolkit instead of using a strict framework. As of now, the Gorilla toolkit has gained a lot of popularity, with its individual packages receiving thousands of [stars on GitHub (<FontIcon icon="iconfont icon-github"/>`gorilla`)](https://github.com/gorilla).
+[<VPIcon icon="fas fa-globe"/>Gorilla](https://gorilla.github.io/) is not exactly a web framework; it’s a set of modular packages that help developers build web applications in Go. It is known for being flexible and simple, making it popular among developers who like to create their own toolkit instead of using a strict framework. As of now, the Gorilla toolkit has gained a lot of popularity, with its individual packages receiving thousands of [stars on GitHub (<VPIcon icon="iconfont icon-github"/>`gorilla`)](https://github.com/gorilla).
 
 Gorilla’s modular approach lets developers choose the components they need, making it adaptable for various use cases. Below are some of its standout packages and features.
 
 ### Routing using Gorilla Mux
 
-[Gorilla Mux (<FontIcon icon="iconfont icon-github"/>`gorilla/mux`)](https://github.com/gorilla/mux) is a popular package in the Gorilla toolkit. It offers a strong and flexible router for building HTTP services. Unlike the default Go router, Gorilla Mux supports advanced routing features like route parameters, query parameters, and HTTP method-based routing.
+[Gorilla Mux (<VPIcon icon="iconfont icon-github"/>`gorilla/mux`)](https://github.com/gorilla/mux) is a popular package in the Gorilla toolkit. It offers a strong and flexible router for building HTTP services. Unlike the default Go router, Gorilla Mux supports advanced routing features like route parameters, query parameters, and HTTP method-based routing.
 
 Here’s a simple example of how to set up a basic Gorilla Mux router:
 
@@ -403,7 +403,7 @@ func main() {
 
 ### Session management
 
-[Gorilla Sessions (<FontIcon icon="iconfont icon-github"/>`gorilla/sessions`)](https://github.com/gorilla/sessions) helps you manage user sessions easily in your web application. It works with different types of session storage, like cookies and server-side options such as Redis or MySQL. This package is great for setting up user authentication and storing user data. Here’s an example of how to use Gorilla Sessions:
+[Gorilla Sessions (<VPIcon icon="iconfont icon-github"/>`gorilla/sessions`)](https://github.com/gorilla/sessions) helps you manage user sessions easily in your web application. It works with different types of session storage, like cookies and server-side options such as Redis or MySQL. This package is great for setting up user authentication and storing user data. Here’s an example of how to use Gorilla Sessions:
 
 ```go
 package main
@@ -429,7 +429,7 @@ func main() {
 
 ### Real-time communication
 
-[Gorilla Websocket (<FontIcon icon="iconfont icon-github"/>`gorilla/websocket`)](https://github.com/gorilla/websocket) is a popular tool for using WebSocket communication in Go. It offers a simple and user-friendly way to build real-time applications, such as chat servers, live notifications, and collaborative tools. Here’s how to set up a WebSocket server using Gorilla Websocket:
+[Gorilla Websocket (<VPIcon icon="iconfont icon-github"/>`gorilla/websocket`)](https://github.com/gorilla/websocket) is a popular tool for using WebSocket communication in Go. It offers a simple and user-friendly way to build real-time applications, such as chat servers, live notifications, and collaborative tools. Here’s how to set up a WebSocket server using Gorilla Websocket:
 
 ```go
 package main
@@ -503,7 +503,7 @@ func main() {
 
 ![chi go web framework](/assets/image/blog.logrocket.com/top-go-frameworks-2025/7_chi.png)
 
-[<FontIcon icon="fas fa-globe"/>Chi](https://go-chi.io/) is a lightweight and easy-to-use router for building HTTP services in Go. Its simplicity and flexibility make it a popular choice for Go developers creating RESTful APIs and web applications. As of now, Chi has over [19k stars on GitHub (<FontIcon icon="iconfont icon-github"/>`go-chi/chi`)](https://github.com/go-chi/chi), showing its wide use and strong community support.
+[<VPIcon icon="fas fa-globe"/>Chi](https://go-chi.io/) is a lightweight and easy-to-use router for building HTTP services in Go. Its simplicity and flexibility make it a popular choice for Go developers creating RESTful APIs and web applications. As of now, Chi has over [19k stars on GitHub (<VPIcon icon="iconfont icon-github"/>`go-chi/chi`)](https://github.com/go-chi/chi), showing its wide use and strong community support.
 
 Chi has a modular design that helps developers create robust and scalable applications without unnecessary complexity. It offers a clear and straightforward API for routing and middleware, making it suitable for both beginners and experienced developers. Here are some of its key features.
 
@@ -553,7 +553,7 @@ Chi is a framework that builds on Go’s standard `net/http` package and uses th
 
 Chi also uses `context.Context` for values related to requests, as well as for timeouts and cancellations. This fits well with Go’s approach to handling multiple tasks at the same time.
 
-For more information, check out the [Chi GitHub repository (<FontIcon icon="iconfont icon-github"/>`go-chi/chi`)](https://github.com/go-chi/chi) and explore its documentation to get started with this powerful framework today!
+For more information, check out the [Chi GitHub repository (<VPIcon icon="iconfont icon-github"/>`go-chi/chi`)](https://github.com/go-chi/chi) and explore its documentation to get started with this powerful framework today!
 
 ---
 
@@ -561,7 +561,7 @@ For more information, check out the [Chi GitHub repository (<FontIcon icon="icon
 
 ![hertz web go framework](/assets/image/blog.logrocket.com/top-go-frameworks-2025/8_hertz.png)
 
-[<FontIcon icon="fas fa-globe"/>Hertz](https://cloudwego.io/docs/hertz/overview/) is a high-performance, extensible HTTP web framework designed for building efficient and scalable web applications in Go. Developed by [<FontIcon icon="fas fa-globe"/>CloudWeGo](https://cloudwego.io/), Hertz is optimized for modern cloud-native environments and has quickly gained traction in the Go community for its speed, flexibility, and developer-friendly features. At the time of writing, Hertz has over [6k stars on GitHub (<FontIcon icon="iconfont icon-github"/>`cloudwego/hertz`)](https://github.com/cloudwego/hertz) and active contributors.
+[<VPIcon icon="fas fa-globe"/>Hertz](https://cloudwego.io/docs/hertz/overview/) is a high-performance, extensible HTTP web framework designed for building efficient and scalable web applications in Go. Developed by [<VPIcon icon="fas fa-globe"/>CloudWeGo](https://cloudwego.io/), Hertz is optimized for modern cloud-native environments and has quickly gained traction in the Go community for its speed, flexibility, and developer-friendly features. At the time of writing, Hertz has over [6k stars on GitHub (<VPIcon icon="iconfont icon-github"/>`cloudwego/hertz`)](https://github.com/cloudwego/hertz) and active contributors.
 
 Hertz is built to handle high-concurrency scenarios, making it an excellent choice for microservices, APIs, and real-time applications. It combines the simplicity of Go with advanced features like high-performance routing, middleware support, and seamless integration with other CloudWeGo ecosystem tools. Below are some of its standout features.
 
@@ -615,7 +615,7 @@ The Hertz framework supports HTTP 1.1 and the ALPN protocol right out of the box
 
 Hertz is easy to extend, allowing developers to add third-party libraries and tools without trouble. It is part of the CloudWeGo ecosystem, which also includes other high-performance tools like Kitex, a Go RPC framework, and Volo, a Rust RPC framework. This makes Hertz a great option for building complete cloud-native applications.
 
-For more information, check out the official [Hertz GitHub repository (<FontIcon icon="iconfont icon-github"/>`cloudwego/hertz`)](https://github.com/cloudwego/hertz) and explore its documentation to get started with this powerful framework today!
+For more information, check out the official [Hertz GitHub repository (<VPIcon icon="iconfont icon-github"/>`cloudwego/hertz`)](https://github.com/cloudwego/hertz) and explore its documentation to get started with this powerful framework today!
 
 ---
 
@@ -623,7 +623,7 @@ For more information, check out the official [Hertz GitHub repository (<FontIcon
 
 The performance of a web framework is important for the scalability and responsiveness of web applications.
 
-The [<FontIcon icon="iconfont icon-github"/>`smallnest/go-web-framework-benchmark`](https://github.com/smallnest/go-web-framework-benchmark) repository offers helpful insights into how different popular Go web frameworks compare in terms of performance. By looking at the benchmark results, we can better understand the strengths and weaknesses of each framework based on different levels of concurrent users and processing tasks. The benchmarks show how well each framework works in various situations.
+The [<VPIcon icon="iconfont icon-github"/>`smallnest/go-web-framework-benchmark`](https://github.com/smallnest/go-web-framework-benchmark) repository offers helpful insights into how different popular Go web frameworks compare in terms of performance. By looking at the benchmark results, we can better understand the strengths and weaknesses of each framework based on different levels of concurrent users and processing tasks. The benchmarks show how well each framework works in various situations.
 
 We ran the tests in four main scenarios:
 
@@ -683,7 +683,7 @@ For complex, enterprise-level applications, look at Beego. For lightweight, simp
 
 ## Reddit & GitHub community insights
 
-The Go web framework community is active on [Reddit (<FontIcon icon="fa-brands fa-reddit"/>`golang`)](https://reddit.com/r/golang/comments/11044h8/best_web_sever_framework/) and GitHub. The most popular frameworks on GitHub are Gin and Echo. [Gin has the most stars and forks (<FontIcon icon="iconfont icon-github"/>`mingrammer/go-web-framework-stars`)](https://github.com/mingrammer/go-web-framework-stars), making it a top choice for fast APIs. Fiber is also becoming popular due to its Express.js-like syntax and good performance, although there are some worries about how well it works with Go’s standard library.
+The Go web framework community is active on [Reddit (<VPIcon icon="fa-brands fa-reddit"/>`golang`)](https://reddit.com/r/golang/comments/11044h8/best_web_sever_framework/) and GitHub. The most popular frameworks on GitHub are Gin and Echo. [Gin has the most stars and forks (<VPIcon icon="iconfont icon-github"/>`mingrammer/go-web-framework-stars`)](https://github.com/mingrammer/go-web-framework-stars), making it a top choice for fast APIs. Fiber is also becoming popular due to its Express.js-like syntax and good performance, although there are some worries about how well it works with Go’s standard library.
 
 Chi and Gorilla are known for their simplicity. Chi focuses on middleware, while Gorilla provides a modular toolkit. Hertz, which is supported by ByteDance, is growing in use, especially for larger applications. FastHTTP is very fast but has compatibility issues.
 

@@ -72,21 +72,21 @@ To get the most out of this tutorial, you should have previous knowledge of how 
 
 ## Get to Know Python Zip Imports
 
-Since Python [<FontIcon icon="fa-brands fa-python"/>2.3](https://docs.python.org/3/whatsnew/2.3.html#pep-273-importing-modules-from-zip-archives), you can import [**modules and packages**](/realpython.com/python-modules-packages.md) from inside [**ZIP files**](/realpython.com/python-zipfile.md#what-is-a-zip-file). This feature is known as **Zip imports** and is quite helpful when you need to distribute a complete package as a single file, which is its most common use case.
+Since Python [<VPIcon icon="fa-brands fa-python"/>2.3](https://docs.python.org/3/whatsnew/2.3.html#pep-273-importing-modules-from-zip-archives), you can import [**modules and packages**](/realpython.com/python-modules-packages.md) from inside [**ZIP files**](/realpython.com/python-zipfile.md#what-is-a-zip-file). This feature is known as **Zip imports** and is quite helpful when you need to distribute a complete package as a single file, which is its most common use case.
 
-[<FontIcon icon="fa-brands fa-python"/>PEP 273](https://python.org/dev/peps/pep-0273/) introduced Zip imports as a built-in feature. The feature was widely accepted as a must-have among the Python community because distributing several separate `.py`, `.pyc`, and `.pyo` files isn’t always appropriate and efficient.
+[<VPIcon icon="fa-brands fa-python"/>PEP 273](https://python.org/dev/peps/pep-0273/) introduced Zip imports as a built-in feature. The feature was widely accepted as a must-have among the Python community because distributing several separate `.py`, `.pyc`, and `.pyo` files isn’t always appropriate and efficient.
 
 Zip imports can simplify the process of sharing and distributing your code so that your colleagues and end users don’t have to fumble around trying to extract the files into the right location to get the code working.
 
 ::: note
 
-The `.pyo` file extension is no longer used, as of [<FontIcon icon="fa-brands fa-python"/>Python 3.5](https://docs.python.org/3/whatsnew/3.5.html#pep-488-elimination-of-pyo-files). See [<FontIcon icon="fa-brands fa-python"/>PEP 488](https://python.org/dev/peps/pep-0488/) for details.
+The `.pyo` file extension is no longer used, as of [<VPIcon icon="fa-brands fa-python"/>Python 3.5](https://docs.python.org/3/whatsnew/3.5.html#pep-488-elimination-of-pyo-files). See [<VPIcon icon="fa-brands fa-python"/>PEP 488](https://python.org/dev/peps/pep-0488/) for details.
 
 :::
 
-[<FontIcon icon="fa-brands fa-python"/>PEP 302](https://python.org/dev/peps/pep-0302/) added a series of **import [<FontIcon icon="fa-brands fa-wikipedia-w"/>hooks](https://en.wikipedia.org/wiki/Hooking)** that provides built-in support for Zip imports. If you want to import modules and packages from a ZIP file, then you just need the file to appear in Python’s [**module search path**](/realpython.com/python-modules-packages.md#the-module-search-path).
+[<VPIcon icon="fa-brands fa-python"/>PEP 302](https://python.org/dev/peps/pep-0302/) added a series of **import [<VPIcon icon="fa-brands fa-wikipedia-w"/>hooks](https://en.wikipedia.org/wiki/Hooking)** that provides built-in support for Zip imports. If you want to import modules and packages from a ZIP file, then you just need the file to appear in Python’s [**module search path**](/realpython.com/python-modules-packages.md#the-module-search-path).
 
-The module search path is a list of directories and ZIP files. It lives in [<FontIcon icon="fa-brands fa-python"/>`sys.path`](https://docs.python.org/3/library/sys.html#sys.path). Python automatically searches through items in this list when you run an [**`import`**](/realpython.com/python-import.md) statement in your code.
+The module search path is a list of directories and ZIP files. It lives in [<VPIcon icon="fa-brands fa-python"/>`sys.path`](https://docs.python.org/3/library/sys.html#sys.path). Python automatically searches through items in this list when you run an [**`import`**](/realpython.com/python-import.md) statement in your code.
 
 In the following sections, you’ll learn how to create ready-to-import ZIP files using different Python tools and techniques. You’ll also learn about a few ways to add those files to your current Python’s module search path. Finally, you’ll dig into `zipimport`, the module that supports the Zip import feature behind the scenes.
 
@@ -94,12 +94,12 @@ In the following sections, you’ll learn how to create ready-to-import ZIP file
 
 ## Create Your Own Importable ZIP Files
 
-Zip imports allow you to quickly distribute code that’s organized across several modules and packages as a single file. Python has you covered when it comes to creating **importable ZIP files**. The [<FontIcon icon="fa-brands fa-python"/>`zipfile`](https://docs.python.org/3/library/zipfile.html) module from the [<FontIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html) includes a class called [<FontIcon icon="fa-brands fa-python"/>`ZipFile`](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile) for manipulating ZIP files. It also includes a more specialized class called [<FontIcon icon="fa-brands fa-python"/>`PyZipFile`](https://docs.python.org/3.9/library/zipfile.html#zipfile.PyZipFile), which facilitates the creation of importable ZIP files.
+Zip imports allow you to quickly distribute code that’s organized across several modules and packages as a single file. Python has you covered when it comes to creating **importable ZIP files**. The [<VPIcon icon="fa-brands fa-python"/>`zipfile`](https://docs.python.org/3/library/zipfile.html) module from the [<VPIcon icon="fa-brands fa-python"/>standard library](https://docs.python.org/3/library/index.html) includes a class called [<VPIcon icon="fa-brands fa-python"/>`ZipFile`](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile) for manipulating ZIP files. It also includes a more specialized class called [<VPIcon icon="fa-brands fa-python"/>`PyZipFile`](https://docs.python.org/3.9/library/zipfile.html#zipfile.PyZipFile), which facilitates the creation of importable ZIP files.
 
 `PyZipFile` lets you bundle Python code into ZIP files quickly and efficiently. The class inherits from `ZipFile`, so it shares the same base interface. However, there are two main differences between these classes:
 
-1. The initializer of `PyZipFile` takes an optional argument called `optimize`, which allows you to optimize the Python code by compiling it to [<FontIcon icon="fa-brands fa-python"/>bytecode](https://docs.python.org/3/glossary.html#term-bytecode) before archiving it.
-2. The `PyZipFile` class provides a method called [<FontIcon icon="fa-brands fa-python"/>`.writepy()`](https://docs.python.org/3/library/zipfile.html#pyzipfile-objects), which accepts a Python module or package as an argument and adds it to a target ZIP file.
+1. The initializer of `PyZipFile` takes an optional argument called `optimize`, which allows you to optimize the Python code by compiling it to [<VPIcon icon="fa-brands fa-python"/>bytecode](https://docs.python.org/3/glossary.html#term-bytecode) before archiving it.
+2. The `PyZipFile` class provides a method called [<VPIcon icon="fa-brands fa-python"/>`.writepy()`](https://docs.python.org/3/library/zipfile.html#pyzipfile-objects), which accepts a Python module or package as an argument and adds it to a target ZIP file.
 
 If `optimize` is `-1`, its default value, then the input `.py` files are automatically compiled to `.pyc` files and then added to the target archive. Why does this happen? Packaging `.pyc` files rather than the original `.py` files makes the importing process way more efficient by skipping the compilation step. You’ll learn more about this topic in upcoming sections.
 
@@ -107,7 +107,7 @@ In the following two sections, you’ll get your hands dirty and start creating 
 
 ### Bundle Python Modules Into ZIP Files
 
-In this section, you’ll use `PyZipFile.writepy()` to compile a `.py` file down to bytecode and add the resulting `.pyc` file to a ZIP archive. To try `.writepy()` out, say that you have a <FontIcon icon="fa-brands fa-python"/>`hello.py` module:
+In this section, you’ll use `PyZipFile.writepy()` to compile a `.py` file down to bytecode and add the resulting `.pyc` file to a ZIP archive. To try `.writepy()` out, say that you have a <VPIcon icon="fa-brands fa-python"/>`hello.py` module:
 
 ```py title="hello.py"
 """Print a greeting message."""
@@ -133,17 +133,17 @@ with zipfile.PyZipFile("hello.zip", mode="r") as zip_module:
 # hello.pyc                                      2021-10-18 05:40:04          313
 ```
 
-After running this code, you’ll have a `hello.zip` file in your current working directory. The call to `.writepy()` on `zip_module` automatically compiles `hello.py` to `hello.pyc` and stores it in the underlying ZIP file, `hello.zip`. That’s why [<FontIcon icon="fa-brands fa-python"/>`.printdir()`](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile.printdir) displays `hello.pyc` instead of your original `hello.py` file. This automatic compilation ensures an efficient import process.
+After running this code, you’ll have a `hello.zip` file in your current working directory. The call to `.writepy()` on `zip_module` automatically compiles `hello.py` to `hello.pyc` and stores it in the underlying ZIP file, `hello.zip`. That’s why [<VPIcon icon="fa-brands fa-python"/>`.printdir()`](https://docs.python.org/3/library/zipfile.html#zipfile.ZipFile.printdir) displays `hello.pyc` instead of your original `hello.py` file. This automatic compilation ensures an efficient import process.
 
 ::: note
 
-The `PyZipFile` class doesn’t compress your Python modules and packages by default. It just stores them in a ZIP file container. If you want to squeeze your source files, you need to explicitly supply a compression method through the `compression` argument of `PyZipFile`. Currently, Python supports the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Deflate](https://en.wikipedia.org/wiki/Deflate), [<FontIcon icon="fa-brands fa-wikipedia-w"/>bzip2](https://en.wikipedia.org/wiki/Bzip2), and [<FontIcon icon="fa-brands fa-wikipedia-w"/>LZMA](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm) compression methods.
+The `PyZipFile` class doesn’t compress your Python modules and packages by default. It just stores them in a ZIP file container. If you want to squeeze your source files, you need to explicitly supply a compression method through the `compression` argument of `PyZipFile`. Currently, Python supports the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Deflate](https://en.wikipedia.org/wiki/Deflate), [<VPIcon icon="fa-brands fa-wikipedia-w"/>bzip2](https://en.wikipedia.org/wiki/Bzip2), and [<VPIcon icon="fa-brands fa-wikipedia-w"/>LZMA](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm) compression methods.
 
-In this tutorial, you’ll rely on the default value of `compression`, [<FontIcon icon="fa-brands fa-python"/>`ZIP_STORED`](https://docs.python.org/3/library/zipfile.html#zipfile.ZIP_STORED), which means that your source files won’t be compressed. Compressing the source files can impact the performance of import operations, as you’ll learn later in this tutorial.
+In this tutorial, you’ll rely on the default value of `compression`, [<VPIcon icon="fa-brands fa-python"/>`ZIP_STORED`](https://docs.python.org/3/library/zipfile.html#zipfile.ZIP_STORED), which means that your source files won’t be compressed. Compressing the source files can impact the performance of import operations, as you’ll learn later in this tutorial.
 
 :::
 
-You can also manually package `.py` and `.pyc` files into a ZIP file by using any regular [<FontIcon icon="fa-brands fa-wikipedia-w"/>file archiver](https://en.wikipedia.org/wiki/File_archiver). If the resulting archive contains `.py` files without the corresponding `.pyc` files, then Python will compile them the first time you import from that specific ZIP file.
+You can also manually package `.py` and `.pyc` files into a ZIP file by using any regular [<VPIcon icon="fa-brands fa-wikipedia-w"/>file archiver](https://en.wikipedia.org/wiki/File_archiver). If the resulting archive contains `.py` files without the corresponding `.pyc` files, then Python will compile them the first time you import from that specific ZIP file.
 
 Python won’t modify the underlying ZIP file to add the newly compiled `.pyc` files. So the next time you run the import, Python will compile the code again. This behavior will make the import process slower.
 
@@ -167,7 +167,7 @@ You can also bundle Python packages into ZIP files by using `PyZipFile` and its 
 
 On the other hand, if the input directory is a Python package, then `.writepy()` compiles all the `.py` files and adds them to the ZIP file, keeping the package’s internal structure.
 
-To try `.writepy()` with a Python package, create a new <FontIcon icon="fas fa-folder-open"/>`hello/` directory and copy your <FontIcon icon="fa-brands fa-python"/>`hello.py` file into it. Then add an empty <FontIcon icon="fa-brands fa-python"/>`__init__.py` module to turn the directory into a package. You should end up with the following structure:
+To try `.writepy()` with a Python package, create a new <VPIcon icon="fas fa-folder-open"/>`hello/` directory and copy your <VPIcon icon="fa-brands fa-python"/>`hello.py` file into it. Then add an empty <VPIcon icon="fa-brands fa-python"/>`__init__.py` module to turn the directory into a package. You should end up with the following structure:
 
 ```plaintext title="file structure"
 hello/
@@ -208,7 +208,7 @@ You can work around this limitation by extracting dynamic modules from your ZIP 
 
 Zip imports can also imply a performance compromise, as you learned earlier in this tutorial. If your archive contains `.py` modules, then Python will compile them to satisfy the imports. However, it won’t save the corresponding `.pyc` files. This behavior may reduce the performance of import operations.
 
-Finally, if you need to import code from a compressed ZIP file, then [<FontIcon icon="fa-brands fa-python"/>`zlib`](https://docs.python.org/3/library/zlib.html) must be available in your working environment for decompression purposes. Importing code from compressed archives fails with a missing `zlib` message if this library isn’t available. Additionally, the decompression step adds extra performance overhead to the import process. For these reasons, you’ll use uncompressed ZIP files in this tutorial.
+Finally, if you need to import code from a compressed ZIP file, then [<VPIcon icon="fa-brands fa-python"/>`zlib`](https://docs.python.org/3/library/zlib.html) must be available in your working environment for decompression purposes. Importing code from compressed archives fails with a missing `zlib` message if this library isn’t available. Additionally, the decompression step adds extra performance overhead to the import process. For these reasons, you’ll use uncompressed ZIP files in this tutorial.
 
 ---
 
@@ -220,7 +220,7 @@ For Python to import code from a ZIP file, that file must be available in Python
 
 - The directory containing the script that you’re [**running**](/realpython.com/run-python-scripts.md)
 - The current directory, if you’ve run the interpreter [**interactively**](/realpython.com/interacting-with-python.md)
-- The directories in the [<FontIcon icon="fa-brands fa-python"/>`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH) environment variable, if set
+- The directories in the [<VPIcon icon="fa-brands fa-python"/>`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH) environment variable, if set
 - A directory list that depends on your specific Python installation
 - The directories listed in any path configuration files (`.pth` files)
 
@@ -238,9 +238,9 @@ In the following sections, you’ll explore these three ways to add items to `sy
 
 Because `sys.path` is a `list` object, you can manipulate it from your Python code by using regular `list` methods. In general, to add new items to a `list` object, you can use `.insert()`, [**`.append()`**](/realpython.com/python-append.md), or `.extend()`.
 
-Typically, you’ll use `.insert(0, item)` to add new items to `sys.path` from your Python code. Calling `.insert()` this way inserts `item` at the beginning of the list, ensuring that your newly added item has precedence over the existing ones. Having `item` at the beginning enables you to [<FontIcon icon="fa-brands fa-wikipedia-w"/>shadow](https://en.wikipedia.org/wiki/Variable_shadowing) existing modules and packages when name collisions are possible.
+Typically, you’ll use `.insert(0, item)` to add new items to `sys.path` from your Python code. Calling `.insert()` this way inserts `item` at the beginning of the list, ensuring that your newly added item has precedence over the existing ones. Having `item` at the beginning enables you to [<VPIcon icon="fa-brands fa-wikipedia-w"/>shadow](https://en.wikipedia.org/wiki/Variable_shadowing) existing modules and packages when name collisions are possible.
 
-Now say that you need to add the <FontIcon icon="fas fa-file-zipper"/>`hello.zip` file containing your <FontIcon icon="fa-brands fa-python"/>`hello.py` module to your current Python’s `sys.path`. In this case, you can run the  xample to work on your machine, you need to provide the correct path to <FontIcon icon="fas fa-file-zipper"/>`hello.zip`:
+Now say that you need to add the <VPIcon icon="fas fa-file-zipper"/>`hello.zip` file containing your <VPIcon icon="fa-brands fa-python"/>`hello.py` module to your current Python’s `sys.path`. In this case, you can run the  xample to work on your machine, you need to provide the correct path to <VPIcon icon="fas fa-file-zipper"/>`hello.zip`:
 
 ```py
 import sys
@@ -260,9 +260,9 @@ hello.greet("Pythonista")
 # Hello, Pythonista! Welcome to Real Python!
 ```
 
-Once you’ve added the path to <FontIcon icon="fas fa-file-zipper"/>`hello.zip` to your `sys.path`, then you can import objects from <FontIcon icon="fa-brands fa-python"/>`hello.py` as you would with any regular module.
+Once you’ve added the path to <VPIcon icon="fas fa-file-zipper"/>`hello.zip` to your `sys.path`, then you can import objects from <VPIcon icon="fa-brands fa-python"/>`hello.py` as you would with any regular module.
 
-If, like <FontIcon icon="fas fa-file-zipper"/>`hello_pkg.zip`, your ZIP file contains a Python package, then you can add it to `sys.path` too. In this case, the imports should be package-relative:
+If, like <VPIcon icon="fas fa-file-zipper"/>`hello_pkg.zip`, your ZIP file contains a Python package, then you can add it to `sys.path` too. In this case, the imports should be package-relative:
 
 ```py
 import sys
@@ -302,9 +302,9 @@ You can also use `.append()` in a loop to add several files to `sys.path`, or yo
 
 In some situations, you may need a given ZIP file to be available for importing its content from any script or program that you run on your computer. In these situations, you can use the `PYTHONPATH` environment variable to make Python automatically load your archive into `sys.path` whenever you run the interpreter.
 
-`PYTHONPATH` uses the same format as the [**`PATH`**](/realpython.com/add-python-to-path.md) environment variable, a list of directory paths separated by [<FontIcon icon="fa-brands fa-python"/>`os.pathsep`](https://docs.python.org/3/library/os.html#os.pathsep). On [<FontIcon icon="fa-brands fa-wikipedia-w"/>Unix](https://en.wikipedia.org/wiki/Unix) systems, such as Linux and macOS, this function returns a colon (`:`), while on Windows, it returns a semicolon (`;`).
+`PYTHONPATH` uses the same format as the [**`PATH`**](/realpython.com/add-python-to-path.md) environment variable, a list of directory paths separated by [<VPIcon icon="fa-brands fa-python"/>`os.pathsep`](https://docs.python.org/3/library/os.html#os.pathsep). On [<VPIcon icon="fa-brands fa-wikipedia-w"/>Unix](https://en.wikipedia.org/wiki/Unix) systems, such as Linux and macOS, this function returns a colon (`:`), while on Windows, it returns a semicolon (`;`).
 
-For example, if you’re on Linux or macOS, then you can add your <FontIcon icon="fas fa-file-zipper"/>`hello.zip` file to `PYTHONPATH` by running the following command:
+For example, if you’re on Linux or macOS, then you can add your <VPIcon icon="fas fa-file-zipper"/>`hello.zip` file to `PYTHONPATH` by running the following command:
 
 ```sh
 export PYTHONPATH="$PYTHONPATH:/path/to/hello.zip"
@@ -316,7 +316,7 @@ This command adds `/path/to/hello.zip` to your current `PYTHONPATH` and exports 
 
 The above command exports a custom version of `PYTHONPATH` that includes the path to `hello.zip`. This custom version of the variable is only available in your current command-line session and will be lost once you close the session.
 
-If you’re running [<FontIcon icon="fa-brands fa-wikipedia-w"/>Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) as your current [<FontIcon icon="fa-brands fa-wikipedia-w"/>shell](https://en.wikipedia.org/wiki/Unix_shell), then you can make this custom version of `PYTHONPATH` available for all your command-line sessions by adding the following code to your `.bashrc` file:
+If you’re running [<VPIcon icon="fa-brands fa-wikipedia-w"/>Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) as your current [<VPIcon icon="fa-brands fa-wikipedia-w"/>shell](https://en.wikipedia.org/wiki/Unix_shell), then you can make this custom version of `PYTHONPATH` available for all your command-line sessions by adding the following code to your `.bashrc` file:
 
 ```sh title=".bashrc"
 
@@ -341,19 +341,19 @@ sys.path
 
 Cool! Your `hello.zip` file is in the list. From this point on, you’ll be able to import objects from `hello.py` as you did in the above section. Go ahead and give it a try!
 
-An important point to note in the above output is that your `hello.zip` file isn’t at the beginning of `sys.path`, which implies that a same-named module that appears earlier will take precedence over your `hello` module, according to how Python handles its [<FontIcon icon="fa-brands fa-python"/>module seach path](https://docs.python.org/3/tutorial/modules.html#the-module-search-path).
+An important point to note in the above output is that your `hello.zip` file isn’t at the beginning of `sys.path`, which implies that a same-named module that appears earlier will take precedence over your `hello` module, according to how Python handles its [<VPIcon icon="fa-brands fa-python"/>module seach path](https://docs.python.org/3/tutorial/modules.html#the-module-search-path).
 
-To add an item to `PYTHONPATH` on a Windows system, you can execute a command in your <FontIcon icon="fas fa-gears"/>`cmd.exe` window:
+To add an item to `PYTHONPATH` on a Windows system, you can execute a command in your <VPIcon icon="fas fa-gears"/>`cmd.exe` window:
 
 ```batchfile
 SET PYTHONPATH=%PYTHONPATH%;C:\path\to\hello.zip
 ```
 
-This command adds <FontIcon icon="fas fa-folder-open"/>`C:\path\to\`<FontIcon icon="fas fa-file-zipper"/>`hello.zip` to the current content of the `PYTHONPATH` variable on your Windows machine. To check it out, run the Python interpreter in the same command prompt session and look at the content of `sys.path`, as you did before.
+This command adds <VPIcon icon="fas fa-folder-open"/>`C:\path\to\`<VPIcon icon="fas fa-file-zipper"/>`hello.zip` to the current content of the `PYTHONPATH` variable on your Windows machine. To check it out, run the Python interpreter in the same command prompt session and look at the content of `sys.path`, as you did before.
 
 ::: note
 
-Again, the `PYTHONPATH` variable that you set with the above command will be available in your current terminal session only. To set the `PYTHONPATH` variable permanently on Windows, learn [<FontIcon icon="fa-brands fa-stack-overflow"/>how to add to the PYTHONPATH in Windows](https://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows-so-it-finds-my-modules-packages)
+Again, the `PYTHONPATH` variable that you set with the above command will be available in your current terminal session only. To set the `PYTHONPATH` variable permanently on Windows, learn [<VPIcon icon="fa-brands fa-stack-overflow"/>how to add to the PYTHONPATH in Windows](https://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows-so-it-finds-my-modules-packages)
 
 :::
 
@@ -373,7 +373,7 @@ Python’s `.pth` files have a straightforward format:
 - Blank lines and lines beginning with a number sign (`#`) are skipped.
 - Lines starting with `import` are executed.
 
-Once you have a suitable `.pth` file, you need to copy it to one of the **site directories** so that Python can find it and load its content. To get the site directories of your current Python environment, you can call [<FontIcon icon="fa-brands fa-python"/>`getusersitepackages()`](https://docs.python.org/3/library/site.html#site.getusersitepackages) from the [<FontIcon icon="fa-brands fa-python"/>`site`](https://docs.python.org/3/library/site.html) module. If you don’t have admin privileges on your current machine, then you can use the user site directory at [<FontIcon icon="fa-brands fa-python"/>`site.USER_SITE`](https://docs.python.org/3/library/site.html#site.USER_SITE).
+Once you have a suitable `.pth` file, you need to copy it to one of the **site directories** so that Python can find it and load its content. To get the site directories of your current Python environment, you can call [<VPIcon icon="fa-brands fa-python"/>`getusersitepackages()`](https://docs.python.org/3/library/site.html#site.getusersitepackages) from the [<VPIcon icon="fa-brands fa-python"/>`site`](https://docs.python.org/3/library/site.html) module. If you don’t have admin privileges on your current machine, then you can use the user site directory at [<VPIcon icon="fa-brands fa-python"/>`site.USER_SITE`](https://docs.python.org/3/library/site.html#site.USER_SITE).
 
 ::: note
 
@@ -387,7 +387,7 @@ For example, the following command creates a `hello.pth` path configuration file
 sudo nano /usr/lib/python3/dist-packages/hello.pth
 ```
 
-This command creates `hello.pth`, using the [<FontIcon icon="fa-brands fa-wikipedia-w"/>GNU nano](https://en.wikipedia.org/wiki/GNU_nano) text editor as `root`. Once there, type in the path to your `hello.zip` file. Save the file by pressing Ctrl+X, then Y, and finally Enter. Now this ZIP file will be available in `sys.path` when you launch the system Python interpreter again:
+This command creates `hello.pth`, using the [<VPIcon icon="fa-brands fa-wikipedia-w"/>GNU nano](https://en.wikipedia.org/wiki/GNU_nano) text editor as `root`. Once there, type in the path to your `hello.zip` file. Save the file by pressing Ctrl+X, then Y, and finally Enter. Now this ZIP file will be available in `sys.path` when you launch the system Python interpreter again:
 
 ```py
 import sys
@@ -397,7 +397,7 @@ sys.path
 # [..., '/path/to/hello.zip', ...]
 ```
 
-That’s it! From this point on, you can import objects from <FontIcon icon="fa-brands fa-python"/>`hello.py` as long as you use the system-wide Python interpreter.
+That’s it! From this point on, you can import objects from <VPIcon icon="fa-brands fa-python"/>`hello.py` as long as you use the system-wide Python interpreter.
 
 Again, nonexistent directories and ZIP files won’t be added to `sys.path` when Python reads and loads the content of a given `.pth` file. Finally, repeated entries in a `.pth` file are added only once to `sys.path`.
 
@@ -405,11 +405,11 @@ Again, nonexistent directories and ZIP files won’t be added to `sys.path` when
 
 ## Explore Python’s `zipimport`: The Tool Behind Zip Imports
 
-You’ve already used the [<FontIcon icon="fa-brands fa-python"/>`zipimport`](https://docs.python.org/3/library/zipimport.html#module-zipimport) module from the standard library without even knowing it. Behind the scenes, Python’s built-in import mechanism uses this module automatically when a `sys.path` item holds the path to a ZIP file. In this section, you’ll learn how `zipimport` works and how to use it explicitly in your code with a practical example.
+You’ve already used the [<VPIcon icon="fa-brands fa-python"/>`zipimport`](https://docs.python.org/3/library/zipimport.html#module-zipimport) module from the standard library without even knowing it. Behind the scenes, Python’s built-in import mechanism uses this module automatically when a `sys.path` item holds the path to a ZIP file. In this section, you’ll learn how `zipimport` works and how to use it explicitly in your code with a practical example.
 
 ### Understand the Basics of `zipimport`
 
-The main component of `zipimport` is [<FontIcon icon="fa-brands fa-python"/>`zipimporter`](https://docs.python.org/3/library/zipimport.html#zipimport.zipimporter). This class takes the path to a ZIP file as an argument and creates an importer instance. Here’s an example of how to use `zipimporter` and some of its attributes and methods:
+The main component of `zipimport` is [<VPIcon icon="fa-brands fa-python"/>`zipimporter`](https://docs.python.org/3/library/zipimport.html#zipimport.zipimporter). This class takes the path to a ZIP file as an argument and creates an importer instance. Here’s an example of how to use `zipimporter` and some of its attributes and methods:
 
 ```py
 from zipimport import zipimporter
@@ -436,7 +436,7 @@ hello.greet("Pythonista")
 
 In this example, you first import `zipimporter` from `zipimport`. Then you create a `zipimporter` instance with the path to your `hello.zip` file.
 
-The `zipimporter` class provides several useful attributes and methods. For example, [<FontIcon icon="fa-brands fa-python"/>`.is_package()`](https://docs.python.org/3/library/zipimport.html#zipimport.zipimporter.is_package) returns `True` if the input name is a package and `False` otherwise. The [<FontIcon icon="fa-brands fa-python"/>`.get_filename()`](https://docs.python.org/3/library/zipimport.html#zipimport.zipimporter.get_filename) method returns the path ([<FontIcon icon="fa-brands fa-python"/>`.__file__`](https://docs.python.org/3/reference/import.html#file__)) to a given module inside the archive.
+The `zipimporter` class provides several useful attributes and methods. For example, [<VPIcon icon="fa-brands fa-python"/>`.is_package()`](https://docs.python.org/3/library/zipimport.html#zipimport.zipimporter.is_package) returns `True` if the input name is a package and `False` otherwise. The [<VPIcon icon="fa-brands fa-python"/>`.get_filename()`](https://docs.python.org/3/library/zipimport.html#zipimport.zipimporter.get_filename) method returns the path ([<VPIcon icon="fa-brands fa-python"/>`.__file__`](https://docs.python.org/3/reference/import.html#file__)) to a given module inside the archive.
 
 If you want to bring the module’s name into your current [**namespace**](/realpython.com/python-namespaces-scope.md), then you can use `.load_module()`, which returns a reference to the input module. With that reference, you can access any code object from the module as usual.
 
@@ -446,7 +446,7 @@ As you learned above, Python internally uses `zipimport` to load code from ZIP f
 
 To experience this example in action, you’ll implement two toy plugins that take a message and a title and show them in both your default web browser and a [**Tkinter**](/realpython.com/python-gui-tkinter.md) message box. Each plugin should live in its own directory, in a module called `plugin.py`. This module should implement the plugin’s functionality and provide a [**`main()`**](/realpython.com/python-main-function.md) function as the plugin’s entry point.
 
-Go ahead and create a folder called <FontIcon icon="fas fa-folder-open"/>`web_message/` with a <FontIcon icon="fa-brands fa-python"/>`plugin.py` file in it. Open the file in your favorite [**code editor or IDE**](/realpython.com/python-ides-code-editors-guide.md/) and type in the following code for the web browser plugin:
+Go ahead and create a folder called <VPIcon icon="fas fa-folder-open"/>`web_message/` with a <VPIcon icon="fa-brands fa-python"/>`plugin.py` file in it. Open the file in your favorite [**code editor or IDE**](/realpython.com/python-ides-code-editors-guide.md/) and type in the following code for the web browser plugin:
 
 ```py :collapsed-lines title="web_message/plugin.py"
 """A plugin that displays a message using webbrowser."""
@@ -475,9 +475,9 @@ def main(text, title="Alert"):
     webbrowser.open(path)
 ```
 
-The `main()` function in this code takes a `text` message and a window `title`. Then it creates a [<FontIcon icon="fa-brands fa-python"/>`NamedTemporaryFile`](https://docs.python.org/3/library/tempfile.html#tempfile.NamedTemporaryFile) in a `with` statement. The file will contain a minimal HTML document showing `title` and `text` on the page. To open this file in your default web browser, you use `webbrowser.open()`.
+The `main()` function in this code takes a `text` message and a window `title`. Then it creates a [<VPIcon icon="fa-brands fa-python"/>`NamedTemporaryFile`](https://docs.python.org/3/library/tempfile.html#tempfile.NamedTemporaryFile) in a `with` statement. The file will contain a minimal HTML document showing `title` and `text` on the page. To open this file in your default web browser, you use `webbrowser.open()`.
 
-The next plugin provides similar functionality but uses the `Tkinter` toolkit. The code for this plugin should also live in a module called <FontIcon icon="fa-brands fa-python"/>`plugin.py`. You can place the module in a directory called <FontIcon icon="fas fa-folder-open"/>`tk_message/` in your file system:
+The next plugin provides similar functionality but uses the `Tkinter` toolkit. The code for this plugin should also live in a module called <VPIcon icon="fa-brands fa-python"/>`plugin.py`. You can place the module in a directory called <VPIcon icon="fas fa-folder-open"/>`tk_message/` in your file system:
 
 ```py title="tk_message/plugin.py"
 """A plugin that displays a message using Tkinter."""
@@ -491,9 +491,9 @@ def main(text, title="Alert"):
     messagebox.showinfo(title, text)
 ```
 
-Following the same pattern as the web browser plugin, `main()` takes `text` and `title`. In this case, the function creates a [<FontIcon icon="fa-brands fa-python"/>`Tk`](https://docs.python.org/3/library/tkinter.html#tkinter.Tk) instance to hold the plugin’s top-level window. However, you don’t need to show that window, only a message box. So, you use `.withdraw()` to hide the root windows and then call `.showinfo()` on `messagebox` to show a dialog with the input `text` and `title`.
+Following the same pattern as the web browser plugin, `main()` takes `text` and `title`. In this case, the function creates a [<VPIcon icon="fa-brands fa-python"/>`Tk`](https://docs.python.org/3/library/tkinter.html#tkinter.Tk) instance to hold the plugin’s top-level window. However, you don’t need to show that window, only a message box. So, you use `.withdraw()` to hide the root windows and then call `.showinfo()` on `messagebox` to show a dialog with the input `text` and `title`.
 
-Now you need to pack each plugin into its own ZIP file. To do so, start a Python [**interactive session**](/realpython.com/interacting-with-python.md) in the directory containing the <FontIcon icon="fas fa-folder-open"/>`web_message/` and <FontIcon icon="fas fa-folder-open"/>`tk_message/` folders and run the following code:
+Now you need to pack each plugin into its own ZIP file. To do so, start a Python [**interactive session**](/realpython.com/interacting-with-python.md) in the directory containing the <VPIcon icon="fas fa-folder-open"/>`web_message/` and <VPIcon icon="fas fa-folder-open"/>`tk_message/` folders and run the following code:
 
 ```py
 import zipfile
@@ -506,7 +506,7 @@ for plugin in plugins:
 
 ```
 
-The next step is to create a root folder for your plugin system. This folder must contain a <FontIcon icon="fas fa-folder-open"/>`plugins/` directory with the newly created ZIP files in it. Here’s how your directory should look:
+The next step is to create a root folder for your plugin system. This folder must contain a <VPIcon icon="fas fa-folder-open"/>`plugins/` directory with the newly created ZIP files in it. Here’s how your directory should look:
 
 ```plaintext title="file structure"
 rp_plugins/
@@ -519,7 +519,7 @@ rp_plugins/
 └── main.py
 ```
 
-In <FontIcon icon="fa-brands fa-python"/>`main.py`, you’ll place the client code for your plugin system. Go ahead and populate <FontIcon icon="fa-brands fa-python"/>`main.py` with the following code:
+In <VPIcon icon="fa-brands fa-python"/>`main.py`, you’ll place the client code for your plugin system. Go ahead and populate <VPIcon icon="fa-brands fa-python"/>`main.py` with the following code:
 
 ```py collapsed-lines title="main.py"
 import zipimport

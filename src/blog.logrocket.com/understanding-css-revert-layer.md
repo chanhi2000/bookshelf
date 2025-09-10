@@ -431,19 +431,19 @@ This could also apply to style management or versioning.
 
 CSS cascade layers, including the `revert-layer` keyword, offer promising capabilities for CSS architecture. However, it’s essential to consider browser compatibility. Additionally, `revert-layer` is not easily polyfillable, which further complicates its adoption in projects targeting a wide range of browsers.
 
-Officially, [<FontIcon icon="fas fa-globe"/>CanIUse said in their documentation](https://caniuse.com/?search=revert-layer) that its browser support is limited. But having tested it myself, as of now, the `revert-layer` keyword is compatible and supported across multiple browsers like Chrome, Firefox, Opera, and Brave. Safari should also be supported.
+Officially, [<VPIcon icon="fas fa-globe"/>CanIUse said in their documentation](https://caniuse.com/?search=revert-layer) that its browser support is limited. But having tested it myself, as of now, the `revert-layer` keyword is compatible and supported across multiple browsers like Chrome, Firefox, Opera, and Brave. Safari should also be supported.
 
 You should first test it with your preferred browser to see if it is supported too.
 
 ### More great articles from LogRocket:
 
-- Don't miss a moment with [<FontIcon icon="fas fa-globe"/>The Replay](https://lp.logrocket.com/subscribe-thereplay), a curated newsletter from LogRocket
-- [<FontIcon icon="fas fa-globe"/>Learn](https://blog.logrocket.com/rethinking-error-tracking-product-analytics/) how LogRocket's Galileo cuts through the noise to proactively resolve issues in your app
-- Use React's `useEffect` [<FontIcon icon="fas fa-globe"/>to optimize your application's performance](https://blog.logrocket.com/understanding-react-useeffect-cleanup-function/)
-- Switch between [<FontIcon icon="fas fa-globe"/>multiple versions of Node](https://blog.logrocket.com/switching-between-node-versions-during-development/)
-- [<FontIcon icon="fas fa-globe"/>Discover](https://blog.logrocket.com/using-react-children-prop-with-typescript/) how to use the React children prop with TypeScript
-- [<FontIcon icon="fas fa-globe"/>Explore](https://blog.logrocket.com/creating-custom-mouse-cursor-css/) creating a custom mouse cursor with CSS
-- Advisory boards aren’t just for executives. [<FontIcon icon="fas fa-globe"/>Join LogRocket’s Content Advisory Board.](https://lp.logrocket.com/blg/content-advisory-board-signup) You’ll help inform the type of content we create and get access to exclusive meetups, social accreditation, and swag.
+- Don't miss a moment with [<VPIcon icon="fas fa-globe"/>The Replay](https://lp.logrocket.com/subscribe-thereplay), a curated newsletter from LogRocket
+- [<VPIcon icon="fas fa-globe"/>Learn](https://blog.logrocket.com/rethinking-error-tracking-product-analytics/) how LogRocket's Galileo cuts through the noise to proactively resolve issues in your app
+- Use React's `useEffect` [<VPIcon icon="fas fa-globe"/>to optimize your application's performance](https://blog.logrocket.com/understanding-react-useeffect-cleanup-function/)
+- Switch between [<VPIcon icon="fas fa-globe"/>multiple versions of Node](https://blog.logrocket.com/switching-between-node-versions-during-development/)
+- [<VPIcon icon="fas fa-globe"/>Discover](https://blog.logrocket.com/using-react-children-prop-with-typescript/) how to use the React children prop with TypeScript
+- [<VPIcon icon="fas fa-globe"/>Explore](https://blog.logrocket.com/creating-custom-mouse-cursor-css/) creating a custom mouse cursor with CSS
+- Advisory boards aren’t just for executives. [<VPIcon icon="fas fa-globe"/>Join LogRocket’s Content Advisory Board.](https://lp.logrocket.com/blg/content-advisory-board-signup) You’ll help inform the type of content we create and get access to exclusive meetups, social accreditation, and swag.
 
 ---
 

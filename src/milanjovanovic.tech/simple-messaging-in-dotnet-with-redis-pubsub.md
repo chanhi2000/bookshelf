@@ -92,7 +92,7 @@ Let's dive in.
 
 ## Redis Channels
 
-Redis channels are named communication channels that implement the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Publish/Subscribe messaging paradigm](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern). Each channel is identified by a unique name (e.g., `notifications`, `updates`). Channels facilitate message delivery from publishers to subscribers.
+Redis channels are named communication channels that implement the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Publish/Subscribe messaging paradigm](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern). Each channel is identified by a unique name (e.g., `notifications`, `updates`). Channels facilitate message delivery from publishers to subscribers.
 
 Publishers use the `PUBLISH` command to send messages to a specific channel. Subscribers use the `SUBSCRIBE` command to register interest in receiving messages from a channel.
 
@@ -134,7 +134,7 @@ Let's start by installing it:
 Install-Package StackExchange.Redis
 ```
 
-You can run [<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) locally in a Docker container. The default port is `6379`.
+You can run [<VPIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) locally in a Docker container. The default port is `6379`.
 
 ```sh
 docker run -it -p 6379:6379 redis

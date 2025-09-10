@@ -51,7 +51,7 @@ cover: https://files.realpython.com/media/How-to-Use-Python-datetime-With-Exampl
 
 As you saw earlier, storing the time zone in which a date occurs is an important aspect of ensuring your code is correct. Python `datetime` provides `tzinfo`, which is an abstract base class that allows `datetime.datetime` and `datetime.time` to include time zone information, including an idea of daylight saving time.
 
-However, `datetime` does not provide a direct way to interact with the IANA time zone database. The Python `datetime.tzinfo` documentation [<FontIcon icon="fa-brands fa-python"/>recommends](https://docs.python.org/3/library/datetime.html#tzinfo-objects) using a third-party package called `dateutil`. You can install `dateutil` with [`pip`](https://realpython.com/what-is-pip/):
+However, `datetime` does not provide a direct way to interact with the IANA time zone database. The Python `datetime.tzinfo` documentation [<VPIcon icon="fa-brands fa-python"/>recommends](https://docs.python.org/3/library/datetime.html#tzinfo-objects) using a third-party package called `dateutil`. You can install `dateutil` with [`pip`](https://realpython.com/what-is-pip/):
 
 ```sh
 python -m pip install python-dateutil
@@ -77,13 +77,13 @@ now.tzname()
 # 'Eastern Standard Time'
 ```
 
-In this example, you [<FontIcon icon="fas fa-globe"/>import](https://realpython.com/courses/absolute-vs-relative-imports-python/) `tz` from `dateutil` and `datetime` from `datetime`. You then create a `datetime` instance set to the current time using `.now()`.
+In this example, you [<VPIcon icon="fas fa-globe"/>import](https://realpython.com/courses/absolute-vs-relative-imports-python/) `tz` from `dateutil` and `datetime` from `datetime`. You then create a `datetime` instance set to the current time using `.now()`.
 
 You also pass the `tz` keyword to `.now()` and set `tz` equal to `tz.tzlocal()`. In `dateutil`, `tz.tzlocal()` returns a concrete instance of `datetime.tzinfo`. This means that it can represent all the necessary time zone offset and daylight saving time information that `datetime` needs.
 
 You also print the name of the time zone using `.tzname()`, which prints `'Eastern Standard Time'`. This is the output for Windows, but on macOS or Linux, your output might read `'EST'` if you’re in the US Eastern time zone during the winter.
 
-You can also create time zones that are not the same as the time zone reported by your computer. To do this, you’ll use `tz.gettz()` and pass the official [<FontIcon icon="fa-brands fa-wikipedia-w"/>IANA name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) for the time zone you’re interested in. Here’s an example of how to use `tz.gettz()`:
+You can also create time zones that are not the same as the time zone reported by your computer. To do this, you’ll use `tz.gettz()` and pass the official [<VPIcon icon="fa-brands fa-wikipedia-w"/>IANA name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) for the time zone you’re interested in. Here’s an example of how to use `tz.gettz()`:
 
 ```py
 from dateutil import tz
@@ -104,7 +104,7 @@ On Windows, this gives the `tzinfo` attribute the value `tzfile('GB-Eire')`. On 
 
 You also use `tzname()` to print the name of the time zone, which is now `'GMT'`, meaning Greenwich Mean Time. This output is the same on Windows, macOS, and Linux.
 
-In an earlier [section](/realpython.com/python-datetimes/using-the-python-datetime-module.md#creating-python-datetime-instances), you learned that you shouldn’t use `.utcnow()` to create a `datetime` instance at the current UTC. Now you know how to use `dateutil.tz` to supply a time zone to the `datetime` instance. Here’s an example modified from the [<FontIcon icon="fa-brands fa-python"/>recommendation](https://docs.python.org/3/library/datetime.html#datetime.datetime.utcnow) in the Python documentation:
+In an earlier [section](/realpython.com/python-datetimes/using-the-python-datetime-module.md#creating-python-datetime-instances), you learned that you shouldn’t use `.utcnow()` to create a `datetime` instance at the current UTC. Now you know how to use `dateutil.tz` to supply a time zone to the `datetime` instance. Here’s an example modified from the [<VPIcon icon="fa-brands fa-python"/>recommendation](https://docs.python.org/3/library/datetime.html#datetime.datetime.utcnow) in the Python documentation:
 
 ```py
 from dateutil import tz
@@ -114,7 +114,7 @@ datetime.now(tz=tz.UTC)
 # datetime.datetime(2020, 3, 14, 19, 1, 20, 228415, tzinfo=tzutc())
 ```
 
-In this code, you use [<FontIcon icon="fas fa-globe"/>`tz.UTC`](https://dateutil.readthedocs.io/en/stable/tz.html#dateutil.tz.dateutil.tz.UTC) to set the time zone of `datetime.now()` to the UTC time zone. This method is recommended over using `utcnow()` because `utcnow()` returns a *naive* `datetime` instance, whereas the method demonstrated here returns an *aware* `datetime` instance.
+In this code, you use [<VPIcon icon="fas fa-globe"/>`tz.UTC`](https://dateutil.readthedocs.io/en/stable/tz.html#dateutil.tz.dateutil.tz.UTC) to set the time zone of `datetime.now()` to the UTC time zone. This method is recommended over using `utcnow()` because `utcnow()` returns a *naive* `datetime` instance, whereas the method demonstrated here returns an *aware* `datetime` instance.
 
 Next, you’ll take a small detour to learn about **naive** vs **aware** `datetime` instances. If you already know all about this, then you can [skip ahead](/realpython.com/python-datetime/improving-your-pycon-countdown.md) to improve your PyCon countdown with time zone information.
 
@@ -149,9 +149,9 @@ In Python, the difference between naive and aware `datetime` instances is determ
 
 [**Python 3.8**](/realpython.com/python38-new-features.md) and below provide one concrete implementation of `tzinfo` called `timezone`. However, `timezone` is limited to expressing fixed offsets from UTC that cannot change throughout the year, so it isn’t that useful when you need to account for changes such as daylight saving time.
 
-[**Python 3.9**](/realpython.com/python39-new-features.md) includes a new module called [<FontIcon icon="fa-brands fa-python"/>`zoneinfo`](https://docs.python.org/3.9/library/zoneinfo.html) that provides a concrete implementation of `tzinfo` that tracks the IANA database, so it includes changes like daylight saving time. However, until Python 3.9 becomes widely used, it probably makes sense to rely on `dateutil` if you need to support multiple Python versions.
+[**Python 3.9**](/realpython.com/python39-new-features.md) includes a new module called [<VPIcon icon="fa-brands fa-python"/>`zoneinfo`](https://docs.python.org/3.9/library/zoneinfo.html) that provides a concrete implementation of `tzinfo` that tracks the IANA database, so it includes changes like daylight saving time. However, until Python 3.9 becomes widely used, it probably makes sense to rely on `dateutil` if you need to support multiple Python versions.
 
-`dateutil` also provides several concrete implementations of `tzinfo` in the `tz` module that you used earlier. You can check out the [<FontIcon icon="fas fa-globe"/>`dateutil.tz` documentation](https://dateutil.readthedocs.io/en/stable/tz.html) for more information.
+`dateutil` also provides several concrete implementations of `tzinfo` in the `tz` module that you used earlier. You can check out the [<VPIcon icon="fas fa-globe"/>`dateutil.tz` documentation](https://dateutil.readthedocs.io/en/stable/tz.html) for more information.
 
 :::
 

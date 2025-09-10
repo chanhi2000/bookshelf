@@ -182,7 +182,7 @@ const ToastList = ({ data, position, removeToast }) => {
 };  
 ```
 
-This concludes our `ToastList` component. You can view its [full code here (<FontIcon icon="iconfont icon-github"/>`c99rahul/react-toast`)](https://github.com/c99rahul/react-toast/blob/main/src/components/ToastList/ToastList.jsx). If you are wondering what kind of data would be passed to `ToastList`, here’s the structure of the object array that will be provided to the `data` prop:
+This concludes our `ToastList` component. You can view its [full code here (<VPIcon icon="iconfont icon-github"/>`c99rahul/react-toast`)](https://github.com/c99rahul/react-toast/blob/main/src/components/ToastList/ToastList.jsx). If you are wondering what kind of data would be passed to `ToastList`, here’s the structure of the object array that will be provided to the `data` prop:
 
 ```js 
 [

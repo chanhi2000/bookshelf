@@ -80,13 +80,13 @@ Note how the container ID changes as you transition from the container running D
 
 ## What’s special in my `dind` image?
 
-Almost nothing! It is built with a regular [Dockerfile (<FontIcon icon="iconfont icon-github"/>`jpetazzo/dind`)](https://github.com/jpetazzo/dind/blob/master/Dockerfile). Let’s see what is in that Dockerfile.
+Almost nothing! It is built with a regular [Dockerfile (<VPIcon icon="iconfont icon-github"/>`jpetazzo/dind`)](https://github.com/jpetazzo/dind/blob/master/Dockerfile). Let’s see what is in that Dockerfile.
 
 First, it installs a few packages: `lxc` and `iptables` (because Docker needs them), and `ca-certificates` (because when communicating with the Docker index and registry, Docker needs to validate their SSL certificates).
 
 The Dockerfile also indicates that `/var/lib/docker` should be a volume. This is important, because the filesystem of a container is an AUFS mountpoint, composed of multiple *branches*; and those branches have to be “normal” filesystems (i.e. not AUFS mountpoints). In other words, `/var/lib/docker`, the place where Docker stores its containers, cannot be an AUFS filesystem. Therefore, we instruct Docker that this path should be a *volume*. Volumes have many purposes, but in this scenario, we use them as a pass-through to the “normal” filesystem of the host machine. The`/var/lib/docker` directory of the nested Docker will live somewhere in `/var/lib/docker/volumes` on the host system.
 
-And of course, the Dockerfile injects the Docker binary in the image, as well as a [helper script (<FontIcon icon="iconfont icon-github"/>`jpetazzo/dind`)](https://github.com/jpetazzo/dind/blob/master/wrapdocker). The helper script deals with three things.
+And of course, the Dockerfile injects the Docker binary in the image, as well as a [helper script (<VPIcon icon="iconfont icon-github"/>`jpetazzo/dind`)](https://github.com/jpetazzo/dind/blob/master/wrapdocker). The helper script deals with three things.
 
 1. It ensures that the cgroup pseudo-filesystems are properly mounted, because Docker (or, more accurately, `lxc-start`) needs them.
 2. It closes extraneous file descriptors which might have been leaked from the parent process. This is not strictly necessary, but you might notice weird side effects if you don’t do it; so I took care of it for you.
@@ -104,7 +104,7 @@ If you just want to experiment with Docker-in-Docker, just start the image inter
 docker run -privileged -d -p 1234 -e PORT=1234 jpetazzo/dind
 ```
 
-Then use `docker inspect` to retrieve the public port allocated to that container, and give it to your user. They will be able to create containers on this “private Docker” by pointing their Docker client to the IP address and port that you gave them. (See [<FontIcon icon="fas fa-globe"/>Memcached-as-a-Service](http://memcachedasaservice.com/) for a similar example.)
+Then use `docker inspect` to retrieve the public port allocated to that container, and give it to your user. They will be able to create containers on this “private Docker” by pointing their Docker client to the IP address and port that you gave them. (See [<VPIcon icon="fas fa-globe"/>Memcached-as-a-Service](http://memcachedasaservice.com/) for a similar example.)
 
 Note, however, that there are serious security implications there: since the private Docker instances run in privileged mode, they can easily escalate to the host, and you probably don’t want this! If you really want to run something like this and expose it to the public, you will have to fine-tune the LXC template file, to restrict the capabilities and devices available to the Docker instances. In the future, Docker will allow fine-grained permission management; but for now, we think that the ability to switch between “locked down” and “privileged” is a great first step.
 
@@ -132,7 +132,7 @@ root@bc9f450caf22:/# exit
 jpetazzo@tarrasque:~/Work/DOTCLOUD/dind$
 ```
 
-At that point, you should blast Hans Zimmer’s [<FontIcon icon="fa-brands fa-youtube"/>Dream Is Collapsing](http://youtu.be/_IdA7aV4ftY) on your loudspeakers while twirling a spinning top 😀
+At that point, you should blast Hans Zimmer’s [<VPIcon icon="fa-brands fa-youtube"/>Dream Is Collapsing](http://youtu.be/_IdA7aV4ftY) on your loudspeakers while twirling a spinning top 😀
 
 ---
 
@@ -165,9 +165,9 @@ The Dockerfile, the wrapper, and some extra documentation is available on my git
 
 ![Jérôme Petazzoni](https://docker.com/app/uploads/2013/08/jerome_docker_in_docker_squ.jpg)
 
-Jérôme is a senior engineer at dotCloud, where he rotates between Ops, Support and Evangelist duties and has earned the nickname of “master Yoda”. In a previous life he built and operated large scale Xen hosting back when EC2 was [<FontIcon icon="fa-brands fa-wikipedia-w"/>just the name of a plane](http://en.wikipedia.org/wiki/Cessna_EC-2), supervized the deployment of fiber interconnects through the French subway, built a specialized GIS to visualize fiber infrastructure, specialized in commando deployments of large-scale computer systems in bandwidth-constrained environments such as conference centers, and various other feats of technical wizardry. He cares for the servers powering dotCloud, helps our users feel at home on the platform, and documents the many ways to use dotCloud in articles, tutorials and sample applications. He’s also an avid dotCloud power user who has deployed just about anything on dotCloud - look for one of his many custom services on our Github repository.
+Jérôme is a senior engineer at dotCloud, where he rotates between Ops, Support and Evangelist duties and has earned the nickname of “master Yoda”. In a previous life he built and operated large scale Xen hosting back when EC2 was [<VPIcon icon="fa-brands fa-wikipedia-w"/>just the name of a plane](http://en.wikipedia.org/wiki/Cessna_EC-2), supervized the deployment of fiber interconnects through the French subway, built a specialized GIS to visualize fiber infrastructure, specialized in commando deployments of large-scale computer systems in bandwidth-constrained environments such as conference centers, and various other feats of technical wizardry. He cares for the servers powering dotCloud, helps our users feel at home on the platform, and documents the many ways to use dotCloud in articles, tutorials and sample applications. He’s also an avid dotCloud power user who has deployed just about anything on dotCloud - look for one of his many custom services on our Github repository.
 
-*Connect with Jérôme on Twitter! [<FontIcon icon="fa-brands fa-x-twitter"/>`@jpetazzo`](https://x.com/jpetazzo)*
+*Connect with Jérôme on Twitter! [<VPIcon icon="fa-brands fa-x-twitter"/>`@jpetazzo`](https://x.com/jpetazzo)*
 
 :::
 

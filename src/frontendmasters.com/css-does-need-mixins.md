@@ -173,7 +173,7 @@ But that’s a no-go. The `@container` style query either needs to be nested wit
 }
 ```
 
-That works ([<FontIcon icon="iconfont icon-caniuse"/>where supported](https://caniuse.com/css-container-queries-style)):
+That works ([<VPIcon icon="iconfont icon-caniuse"/>where supported](https://caniuse.com/css-container-queries-style)):
 
 <CodePen
   user="chriscoyier"
@@ -186,7 +186,7 @@ I just don’t love it. You have to set the Custom Property higher up in the nes
 
 This is *not* to say that Style Queries aren’t useful. They totally are, and I’m sure we’ll uncover lots of cool use cases in the coming years. I’m just saying that shoehorning them to behave exactly like mixins isn’t great.
 
-It sure would be nice if [<FontIcon icon="fas fa-globe"/>CSS got native mixins](https://css.oddbird.net/sasslike/mixins-functions/)!
+It sure would be nice if [<VPIcon icon="fas fa-globe"/>CSS got native mixins](https://css.oddbird.net/sasslike/mixins-functions/)!
 
 It would be yet another Sass feature making it’s way into the platform. In the case of mixins, it would be a great win, because the CSS would be more efficient than the way Sass had to express the mixin concept back in CSS. If you used a `@mixin` 10 times under different selectors, those styles blocks would be barfed out 10 duplicate times in the CSS. Perhaps not the worlds biggest deal thanks to file compression, but certainly not as efficient as the language itself just referring to a single block of styles.
 

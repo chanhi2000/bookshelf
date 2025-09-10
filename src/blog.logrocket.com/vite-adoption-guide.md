@@ -245,7 +245,7 @@ Furthermore, shipping unbundled ESM in production is not efficient, as the addit
 Basically, Rollup has it all. Although it’s primarily known as the bundler tool that creates small and efficient bundles of code to improve performance, it is much more than that. Vite’s build customization options provide a testament to how powerful Rollup is:
 
 - **Chunking strategy**: Allows you to control how Vite splits your code into chunks. You can choose to have Vite split your code into chunks based on file path, function, or component
-- **Rebuilding on file change**: Enables the Rollup watcher with the `vite build --watch command`, allowing you to have Vite rebuild your code whenever the <FontIcon icon="fa-brands fa-js"/>`vite.config.js` file changes, or when any code to be bundled changes. This can be useful for development, as it ensures that your code is always up-to-date
+- **Rebuilding on file change**: Enables the Rollup watcher with the `vite build --watch command`, allowing you to have Vite rebuild your code whenever the <VPIcon icon="fa-brands fa-js"/>`vite.config.js` file changes, or when any code to be bundled changes. This can be useful for development, as it ensures that your code is always up-to-date
 - **Library mode**: Allows you to use Vite as a library in another project. This can be useful if you want to use Vite’s features in a project that is not using Vite as its main build tool
 
 In addition to these customizations, you can also customize Vite’s other settings, such as its port, watch options, and polyfills.

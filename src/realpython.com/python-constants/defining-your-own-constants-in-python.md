@@ -65,7 +65,7 @@ Then, how would Python developers know that a given variable represents a consta
 
 ## User-Defined Constants
 
-To tell other programmers that a given value should be *treated as a constant*, you must use a widely accepted naming convention for the constant’s identifier or name. You should write the name in capital letters with underscores separating words, as stated in the [<FontIcon icon="fa-brands fa-python"/>Constants](https://peps.python.org/pep-0008/#constants) section of [**PEP 8**](/realpython.com/python-pep8.md).
+To tell other programmers that a given value should be *treated as a constant*, you must use a widely accepted naming convention for the constant’s identifier or name. You should write the name in capital letters with underscores separating words, as stated in the [<VPIcon icon="fa-brands fa-python"/>Constants](https://peps.python.org/pep-0008/#constants) section of [**PEP 8**](/realpython.com/python-pep8.md).
 
 Here are a few example of user-defined Python constants:
 
@@ -113,15 +113,15 @@ The recommended practice is to define constants at the top of any `.py` file rig
 
 ## Module-Level Dunder Constants
 
-[<FontIcon icon="fa-brands fa-python"/>Module-level dunder names](https://peps.python.org/pep-0008/#module-level-dunder-names) are special names that start and end with a [**double underscore**](/realpython.com/python-double-underscore.md). Some examples include names such as `__all__`, `__author__`, and `__version__`. These names are typically treated as constants in Python projects.
+[<VPIcon icon="fa-brands fa-python"/>Module-level dunder names](https://peps.python.org/pep-0008/#module-level-dunder-names) are special names that start and end with a [**double underscore**](/realpython.com/python-double-underscore.md). Some examples include names such as `__all__`, `__author__`, and `__version__`. These names are typically treated as constants in Python projects.
 
 ::: note
 
-In Python, a **dunder name** is a name with special meaning. It starts and ends in double underscores, and the word *dunder* is a [<FontIcon icon="fa-brands fa-wikipedia-w"/>portmanteau](https://en.wikipedia.org/wiki/Portmanteau) of **d**ouble **under**score.
+In Python, a **dunder name** is a name with special meaning. It starts and ends in double underscores, and the word *dunder* is a [<VPIcon icon="fa-brands fa-wikipedia-w"/>portmanteau](https://en.wikipedia.org/wiki/Portmanteau) of **d**ouble **under**score.
 
 :::
 
-According to Python’s coding style guide, [<FontIcon icon="fa-brands fa-python"/>PEP 8](https://peps.python.org/pep-0008/), module-level dunder names should appear after the module’s [**docstring**](/realpython.com/documenting-python-code.md) and before any `import` statement except for `__future__` imports.
+According to Python’s coding style guide, [<VPIcon icon="fa-brands fa-python"/>PEP 8](https://peps.python.org/pep-0008/), module-level dunder names should appear after the module’s [**docstring**](/realpython.com/documenting-python-code.md) and before any `import` statement except for `__future__` imports.
 
 Here’s a sample module that includes a bunch of dunder names:
 
@@ -148,7 +148,7 @@ In this example, `__all__` defines up front the list of names that Python will i
 
 The `from module import *` construct allows you to import all the names defined in a given module in one go. The `__all__` attribute restricts the imported names to only those in the underlying list.
 
-The Python community strongly [<FontIcon icon="fa-brands fa-python"/>discourages](https://peps.python.org/pep-0008/#imports) this `import` construct, commonly known as **wildcard imports**, because it tends to clutter your current [**namespace**](/realpython.com/python-namespaces-scope.md) with names that you probably won’t use in your code.
+The Python community strongly [<VPIcon icon="fa-brands fa-python"/>discourages](https://peps.python.org/pep-0008/#imports) this `import` construct, commonly known as **wildcard imports**, because it tends to clutter your current [**namespace**](/realpython.com/python-namespaces-scope.md) with names that you probably won’t use in your code.
 
 :::
 
@@ -166,4 +166,4 @@ greet()
 # Yours, Real Python!
 ```
 
-In general, there are no hard rules that prevent you from defining your own module-level dunder names. However, the Python documentation strongly [<FontIcon icon="fa-brands fa-python"/>warns](https://docs.python.org/3/reference/lexical_analysis.html#reserved-classes-of-identifiers) against using dunder names other than those generally accepted and used by the community. The core developers may introduce new dunder names to the language in the future without any warning.
+In general, there are no hard rules that prevent you from defining your own module-level dunder names. However, the Python documentation strongly [<VPIcon icon="fa-brands fa-python"/>warns](https://docs.python.org/3/reference/lexical_analysis.html#reserved-classes-of-identifiers) against using dunder names other than those generally accepted and used by the community. The core developers may introduce new dunder names to the language in the future without any warning.

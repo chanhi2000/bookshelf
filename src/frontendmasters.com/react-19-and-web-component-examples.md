@@ -56,7 +56,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4800"/>
 
-There is lots of news of [<FontIcon icon="fa-brands fa-react"/>React 19 and going stable](https://react.dev/blog/2024/12/05/react-19) and now supporting Web Components. Or… “custom elements” I should say, as that refers to the HTML expression of them as `<dashed-elements>`, which is where the trouble laid. Apparently it was hard for React to know, in JSX, if props should be treated as [<FontIcon icon="fas fa-globe"/>a property or an attribute](https://jakearchibald.com/2024/attributes-vs-properties/). So they’ve just decided this is how it will work:
+There is lots of news of [<VPIcon icon="fa-brands fa-react"/>React 19 and going stable](https://react.dev/blog/2024/12/05/react-19) and now supporting Web Components. Or… “custom elements” I should say, as that refers to the HTML expression of them as `<dashed-elements>`, which is where the trouble laid. Apparently it was hard for React to know, in JSX, if props should be treated as [<VPIcon icon="fas fa-globe"/>a property or an attribute](https://jakearchibald.com/2024/attributes-vs-properties/). So they’ve just decided this is how it will work:
 
 ::: tabs
 
@@ -70,7 +70,7 @@ props that match a property on the Custom Element instance will be assigned as p
 
 :::
 
-That’s enough to pass all the tests at [<FontIcon icon="fas fa-globe"/>Custom Elements Everywhere](https://custom-elements-everywhere.com/), which tracks such things. (And apparently every single framework is now 100% fine. Cool.)
+That’s enough to pass all the tests at [<VPIcon icon="fas fa-globe"/>Custom Elements Everywhere](https://custom-elements-everywhere.com/), which tracks such things. (And apparently every single framework is now 100% fine. Cool.)
 
 This got me thinking about what this actually means and how I might make use of it. I use both React and Web Components sometimes, but only rarely do I combine them, and the last time I did I had more issues with the Shadow DOM than I did with React doing anything funky.
 
@@ -125,7 +125,7 @@ Here’s that with a “raw” Web Component:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-I took that idea from Jared White’s article [<FontIcon icon="fas fa-globe"/>Oh Happy Day! React Finally Speaks Web Components](https://thathtml.blog/2024/12/oh-happy-day-react-finally-speaks-web-component/). Where he’s got some other examples. Another is passing in a “complex object” which is one of those things that would have been impossible in React 18 and under apparently, and now we can do:
+I took that idea from Jared White’s article [<VPIcon icon="fas fa-globe"/>Oh Happy Day! React Finally Speaks Web Components](https://thathtml.blog/2024/12/oh-happy-day-react-finally-speaks-web-component/). Where he’s got some other examples. Another is passing in a “complex object” which is one of those things that would have been impossible in React 18 and under apparently, and now we can do:
 
 <CodePen
   user="chriscoyier"

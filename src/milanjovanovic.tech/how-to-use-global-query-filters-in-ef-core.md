@@ -62,7 +62,7 @@ Also, it's practical if you're working in a multi-tenant system and need to spec
 
 **EF Core** has a powerful feature that can help you remove repetitive conditions from your code.
 
-I'm talking about [<FontIcon icon="fa-brands fa-microsoft"/>Query Filters](https://learn.microsoft.com/en-us/ef/core/querying/filters).
+I'm talking about [<VPIcon icon="fa-brands fa-microsoft"/>Query Filters](https://learn.microsoft.com/en-us/ef/core/querying/filters).
 
 Let's see how we can implement it.
 

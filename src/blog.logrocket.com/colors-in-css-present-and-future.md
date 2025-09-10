@@ -50,7 +50,7 @@ cover: /assets/image/blog.logrocket.com/colors-in-css-present-and-future/banner.
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/colors-in-css-present-and-future/banner.jpg"/>
 
-In a [**previous blog post with LogRocket**](/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript.md), I covered the RGB and HSL color models and how to manipulate their various color properties. One aspect that I did not have the chance to cover was some of the upcoming models coming to CSS. This post will overview all of the color models, new and old, that will be a part of the [<FontIcon icon="iconfont icon-w3c"/>CSS Color Module Level 4](https://w3.org/TR/css-color-4/), their properties, and when they might be useful.
+In a [**previous blog post with LogRocket**](/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript.md), I covered the RGB and HSL color models and how to manipulate their various color properties. One aspect that I did not have the chance to cover was some of the upcoming models coming to CSS. This post will overview all of the color models, new and old, that will be a part of the [<VPIcon icon="iconfont icon-w3c"/>CSS Color Module Level 4](https://w3.org/TR/css-color-4/), their properties, and when they might be useful.
 
 ---
 
@@ -122,7 +122,7 @@ Where might you use HWB? Because of its intuitiveness, the HWB color model works
 
 ## LCH
 
-We discussed the problems with the HSL version of lightness. The alternative is to use models that use the [<FontIcon icon="fas fa-globe"/>International Commission on Illumination (CIE)](http://cie.co.at/) scale of lightness. It differs from the HSL model in two ways.
+We discussed the problems with the HSL version of lightness. The alternative is to use models that use the [<VPIcon icon="fas fa-globe"/>International Commission on Illumination (CIE)](http://cie.co.at/) scale of lightness. It differs from the HSL model in two ways.
 
 First, whereas the HSL lightness is relative to its base color, the CIE lightness is an absolute model. This means the CIE lightness is based around the total amount of light being emitted. Secondly, CIE lightness adjusts for the fact that human eyes don’t perceive all colors equally. Together, this means that the CIE lightness is perceived equally between different hues.
 
@@ -130,7 +130,7 @@ First, whereas the HSL lightness is relative to its base color, the CIE lightnes
 
 LCH is one of the color models that uses CIE lightness. It stands for lightness, chroma, hue. Chroma is related to saturation, but is subtly different.
 
-The CIE’s definition of chroma is “colourfulness of an area judged as a proportion of the brightness of a similarly illuminated area that appears white or highly transmitting.” This is portrayed as a number. As per the [<FontIcon icon="iconfont icon-w3c"/>CSS spec](https://w3.org/TR/css-color-4/#specifying-lab-lch), this value is “theoretically unbounded (but in practice does not exceed 230).”
+The CIE’s definition of chroma is “colourfulness of an area judged as a proportion of the brightness of a similarly illuminated area that appears white or highly transmitting.” This is portrayed as a number. As per the [<VPIcon icon="iconfont icon-w3c"/>CSS spec](https://w3.org/TR/css-color-4/#specifying-lab-lch), this value is “theoretically unbounded (but in practice does not exceed 230).”
 
 The hue in LCH is similar to that in HSL, but in a perceptually uniform space. If you compare sampling of a color wheel from HSL to LCH, you’ll notice that certain colors are over-sampled in the HSL wheel.
 

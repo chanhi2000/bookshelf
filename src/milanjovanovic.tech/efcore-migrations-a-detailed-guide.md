@@ -72,7 +72,7 @@ We have many examples to cover, so let's dive in.
 
 ## Creating Migrations
 
-If you're completely new to EF migrations, I recommend checking out the [<FontIcon icon="fa-brands fa-microsoft"/>EF migrations docs](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations) to grasp the fundamentals. Moving forward, I'll assume you have some prior knowledge of EF Core.
+If you're completely new to EF migrations, I recommend checking out the [<VPIcon icon="fa-brands fa-microsoft"/>EF migrations docs](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations) to grasp the fundamentals. Moving forward, I'll assume you have some prior knowledge of EF Core.
 
 We'll need an entity and a database context before we can create migrations with EF.
 
@@ -353,8 +353,8 @@ Update-Database -Migration <ToMigration> -Connection <ConnectionString>
 
 Here are the documentation links if you want to learn more:
 
-- [<FontIcon icon="fa-brands fa-microsoft"/>EF Core CLI documentation](https://learn.microsoft.com/en-us/ef/core/cli)
-- [<FontIcon icon="fa-brands fa-microsoft"/>EF Core PowerShell documentation](https://learn.microsoft.com/en-us/ef/core/cli/powershell)
+- [<VPIcon icon="fa-brands fa-microsoft"/>EF Core CLI documentation](https://learn.microsoft.com/en-us/ef/core/cli)
+- [<VPIcon icon="fa-brands fa-microsoft"/>EF Core PowerShell documentation](https://learn.microsoft.com/en-us/ef/core/cli/powershell)
 
 ### Applying Migrations through Code
 
@@ -399,9 +399,9 @@ You can use the `Bundle-Migration` command to create a migration bundle:
 Bundle-Migration -Connection <ConnectionString>
 ```
 
-This will create an <FontIcon icon="fas fa-gears"/>`efbundle.exe` file that we can run to apply any pending database migrations.
+This will create an <VPIcon icon="fas fa-gears"/>`efbundle.exe` file that we can run to apply any pending database migrations.
 
-I recommend reading the [<FontIcon icon="fa-brands fa-microsoft"/>migration bundles documentation](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/applying#bundles) to learn more.
+I recommend reading the [<VPIcon icon="fa-brands fa-microsoft"/>migration bundles documentation](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/applying#bundles) to learn more.
 
 ---
 
@@ -411,10 +411,10 @@ What can you do if you don't want to use EF Core migrations?
 
 I wanted to mention some additional tools you can use for database schema versioning and running migrations:
 
-- [<FontIcon icon="iconfont icon-github"/>`fluentmigrator/fluentmigrator`](https://github.com/fluentmigrator/fluentmigrator): A migration framework for .NET with a fluent API for defining migrations.
-- [<FontIcon icon="iconfont icon-github"/>`DbUp/DbUp`](https://github.com/DbUp/DbUp): A lightweight library for applying SQL scripts to databases.
-- [<FontIcon icon="fas fa-globe"/>Grate](https://erikbra.github.io/grate/): An automated database deployment (change management) system that relies on SQL scripts.
-- [<FontIcon icon="fas fa-globe"/>Flyway](https://flywaydb.org/): An open-source database migration tool that simplifies the management and versioning of database schema changes.
+- [<VPIcon icon="iconfont icon-github"/>`fluentmigrator/fluentmigrator`](https://github.com/fluentmigrator/fluentmigrator): A migration framework for .NET with a fluent API for defining migrations.
+- [<VPIcon icon="iconfont icon-github"/>`DbUp/DbUp`](https://github.com/DbUp/DbUp): A lightweight library for applying SQL scripts to databases.
+- [<VPIcon icon="fas fa-globe"/>Grate](https://erikbra.github.io/grate/): An automated database deployment (change management) system that relies on SQL scripts.
+- [<VPIcon icon="fas fa-globe"/>Flyway](https://flywaydb.org/): An open-source database migration tool that simplifies the management and versioning of database schema changes.
 
 We won't do a deep dive on these tools, but I recommend you check out their documentation.
 

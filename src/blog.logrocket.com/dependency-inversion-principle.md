@@ -117,7 +117,7 @@ By the end of this guide, you will have a clear understanding of the dependency 
 
 ::: info
 
-This post was updated by [<FontIcon icon="fas fa-globe"/>Oyinkansola Awosan*](https://blog.logrocket.com/author/oyinkansolaawosan/) in February 2025 to explain DIP more conceptually with broader applications, including expanding the scope of the article beyond TypeScript to Java, Python, and C#.
+This post was updated by [<VPIcon icon="fas fa-globe"/>Oyinkansola Awosan*](https://blog.logrocket.com/author/oyinkansolaawosan/) in February 2025 to explain DIP more conceptually with broader applications, including expanding the scope of the article beyond TypeScript to Java, Python, and C#.
 
 :::
 
@@ -177,7 +177,7 @@ The dependency inversion principle helps to ease updating, fixing, or improving 
 
 ### Improves testability
 
-[<FontIcon icon="fas fa-globe"/>Test-driven development](https://blog.logrocket.com/product-management/unit-testing-guide/) is proven to reduce bugs, errors, and defects while improving the maintainability of a codebase It also requires some additional effort. Testing can be done in two ways: manually or automated.
+[<VPIcon icon="fas fa-globe"/>Test-driven development](https://blog.logrocket.com/product-management/unit-testing-guide/) is proven to reduce bugs, errors, and defects while improving the maintainability of a codebase It also requires some additional effort. Testing can be done in two ways: manually or automated.
 
 #### Manual testing
 
@@ -213,7 +213,7 @@ To demonstrate DIP in practice, we will cover implementations in various languag
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-python"/>Python
+@tab:active <VPIcon icon="fa-brands fa-python"/>Python
 
 Use abstract base classes (ABC) to define abstractions:
 
@@ -249,7 +249,7 @@ class UserService:
         self.db.query(f"SELECT * FROM users WHERE id = {id}")
 ```
 
-@tab <FontIcon icon="fa-brands fa-java"/>Java
+@tab <VPIcon icon="fa-brands fa-java"/>Java
 
 Define an interface:
 
@@ -283,7 +283,7 @@ class UserService {
 }
 ```
 
-@tab <FontIcon icon="iconfont icon-typescript"/>TypeScript
+@tab <VPIcon icon="iconfont icon-typescript"/>TypeScript
 
 Define an interface:
 
@@ -317,9 +317,9 @@ class UserService {
 }
 ```
 
-@tab <FontIcon icon="iconfont icon-spring"/>Spring (Java with IoC)
+@tab <VPIcon icon="iconfont icon-spring"/>Spring (Java with IoC)
 
-[<FontIcon icon="iconfont icon-spring"/>Spring’s Inversion of Control (IoC)](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html) container helps achieve DIP by injecting dependencies at runtime:
+[<VPIcon icon="iconfont icon-spring"/>Spring’s Inversion of Control (IoC)](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html) container helps achieve DIP by injecting dependencies at runtime:
 
 ```java :collapsed-lines
 import org.springframework.stereotype.Service;
@@ -366,7 +366,7 @@ public class Main {
 }
 ```
 
-@tab <FontIcon icon="iconfont icon-csharp"/>.NET Core (C#)
+@tab <VPIcon icon="iconfont icon-csharp"/>.NET Core (C#)
 
 In .NET Core, the built-in dependency injection (DI) container makes it easy to implement DIP:
 
@@ -418,7 +418,7 @@ The dependency inversion principle has many use cases in different areas of soft
 - **Microservices architectures** — Ensuring services communicate through well-defined abstractions rather than direct dependencies
 - **Event-driven architectures** — Allowing components to subscribe to events instead of directly calling each other
 - **Enterprise software** — Managing business logic layers that interact with multiple data sources and APIs
-- **Payment processing systems** — Applications requiring multiple payment gateways like [<FontIcon icon="fas fa-globe"/>Stripe](https://stripe.com/) and [<FontIcon icon="fas fa-globe"/>PayPal](https://paypal.com/us/home) benefit from DIP by abstracting the payment processing logic. This allows seamless switching of payment providers without altering core business logic
+- **Payment processing systems** — Applications requiring multiple payment gateways like [<VPIcon icon="fas fa-globe"/>Stripe](https://stripe.com/) and [<VPIcon icon="fas fa-globe"/>PayPal](https://paypal.com/us/home) benefit from DIP by abstracting the payment processing logic. This allows seamless switching of payment providers without altering core business logic
 - **Notification services** — Systems that send notifications through multiple channels (e.g., email, SMS, push notifications) can use DIP to decouple business logic from specific notification implementations, making it easier to add new communication methods
 - **Database access layer** — Applications that start with a single database technology but later need to support multiple databases (SQL, NoSQL, cache systems) can leverage DIP for greater flexibility
 

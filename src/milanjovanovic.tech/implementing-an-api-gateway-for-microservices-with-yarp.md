@@ -182,7 +182,7 @@ Here's an example **YARP configuration** with a `{**catch-all}` pattern that wil
 
 We can use **YARP** to build an **API gateway** by providing the configuration for the services we want to route traffic to.
 
-I created a sample [API gateway implementation with YARP (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-api-gateway-sample`)](https://github.com/m-jovanovic/yarp-api-gateway-sample) on GitHub, so you can give it a try. The system has two services, the `Users.Api` and `Products.Api`, which are .NET 7 applications.
+I created a sample [API gateway implementation with YARP (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-api-gateway-sample`)](https://github.com/m-jovanovic/yarp-api-gateway-sample) on GitHub, so you can give it a try. The system has two services, the `Users.Api` and `Products.Api`, which are .NET 7 applications.
 
 If a request comes in matching the `/users-service/{**catch-all}`, for example `/users-service/users`, it will be routed to the `users-cluster`.
 The same logic applies for the `products-cluster`. We can apply more advanced transformations through the `Transforms` section.
@@ -331,19 +331,19 @@ An **API gateway** is a critical component for a robust **microservices system**
 
 And **YARP** is an excellent option if you want to build an **API gateway** with .NET.
 
-I created a sample API gateway implementation with YARP, which you can find [here (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-api-gateway-sample`)](https://github.com/m-jovanovic/yarp-api-gateway-sample). The system consists of two APIs, and the API gateway is configured to route requests between them. It also implements:
+I created a sample API gateway implementation with YARP, which you can find [here (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-api-gateway-sample`)](https://github.com/m-jovanovic/yarp-api-gateway-sample). The system consists of two APIs, and the API gateway is configured to route requests between them. It also implements:
 
-- [<FontIcon icon="fa-brands fa-microsoft"/>Authentication](https://microsoft.github.io/reverse-proxy/articles/authn-authz.html)
+- [<VPIcon icon="fa-brands fa-microsoft"/>Authentication](https://microsoft.github.io/reverse-proxy/articles/authn-authz.html)
 - [Rate limiting](/milanjovanovic.tech/how-to-use-rate-limiting-in-aspnet-core.md)
 
 In this newsletter, we only scratched the surface of what's possible with **YARP**.
 
 Here are some useful resources if you want to learn more:
 
-- [<FontIcon icon="fa-brands fa-microsoft"/>YARP docs](https://microsoft.github.io/reverse-proxy/articles/index.html)
-- [<FontIcon icon="fa-brands fa-microsoft"/>Load balancing](https://microsoft.github.io/reverse-proxy/articles/load-balancing.html)
-- [<FontIcon icon="fa-brands fa-microsoft"/>Session affinity](https://microsoft.github.io/reverse-proxy/articles/session-affinity.html)
-- [<FontIcon icon="fa-brands fa-microsoft"/>Request/response transformations](https://microsoft.github.io/reverse-proxy/articles/transforms.html)
+- [<VPIcon icon="fa-brands fa-microsoft"/>YARP docs](https://microsoft.github.io/reverse-proxy/articles/index.html)
+- [<VPIcon icon="fa-brands fa-microsoft"/>Load balancing](https://microsoft.github.io/reverse-proxy/articles/load-balancing.html)
+- [<VPIcon icon="fa-brands fa-microsoft"/>Session affinity](https://microsoft.github.io/reverse-proxy/articles/session-affinity.html)
+- [<VPIcon icon="fa-brands fa-microsoft"/>Request/response transformations](https://microsoft.github.io/reverse-proxy/articles/transforms.html)
 
 That's all for today.
 
@@ -351,7 +351,7 @@ Hope it was helpful.
 
 ::: info Today's action step
 
-Download the [source code (<FontIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-api-gateway-sample`)](https://github.com/m-jovanovic/yarp-api-gateway-sample) for the sample application implementing an API gateway with YARP, and take it for a spin. You can challenge yourself by creating multiple instances of a single service and configuring load balancing with the various load balancing algorithms.
+Download the [source code (<VPIcon icon="iconfont icon-github"/>`m-jovanovic/yarp-api-gateway-sample`)](https://github.com/m-jovanovic/yarp-api-gateway-sample) for the sample application implementing an API gateway with YARP, and take it for a spin. You can challenge yourself by creating multiple instances of a single service and configuring load balancing with the various load balancing algorithms.
 
 <SiteInfo
   name="m-jovanovic/yarp-api-gateway-sample"

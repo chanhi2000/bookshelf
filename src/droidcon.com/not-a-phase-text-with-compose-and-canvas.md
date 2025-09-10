@@ -175,7 +175,7 @@ There is just one thing left for the drawing — using custom fonts. Let’s tal
 
 For this animation, I wanted to have custom fonts. After playing around with Google Fonts, I decided that the two fonts I’m using are Poppins and Damion.
 
-Android documentation has a page about adding fonts to your project:[<FontIcon icon="fa-brands fa-androd"/>Work with fonts](https://developer.android.com/develop/ui/compose/text/fonts#downloadable-fonts). However, I accidentally found that Android Studio lets you add Google Fonts as XML files straightforwardly. Here’s how it happens:
+Android documentation has a page about adding fonts to your project:[<VPIcon icon="fa-brands fa-androd"/>Work with fonts](https://developer.android.com/develop/ui/compose/text/fonts#downloadable-fonts). However, I accidentally found that Android Studio lets you add Google Fonts as XML files straightforwardly. Here’s how it happens:
 
 1. Go to Resource Manager and select the “Font”-tab.
 2. Click the “+” button to add new resource.
@@ -334,7 +334,7 @@ val phaseText =
 
 We use the`animationPosition`value to define if the colors for that text are animated. For the first text, we change the colors from white to the bi flag colors if the`animationPosition`is between 0.5f and 1.5f, and for the second, if the value is between 2f and 3.5f.
 
-These changes get us the animation you can see at the beginning of this blog post. You can find[<FontIcon icon="iconfont icon-github"/>the complete code in this code snippet](https://gist.github.com/eevajonnapanula/f47b5eab078cf903648555559ba50b2d).
+These changes get us the animation you can see at the beginning of this blog post. You can find[<VPIcon icon="iconfont icon-github"/>the complete code in this code snippet](https://gist.github.com/eevajonnapanula/f47b5eab078cf903648555559ba50b2d).
 
 <SiteInfo
   name="not-a-phase.kt"
@@ -385,7 +385,7 @@ I hope you’ve enjoyed this blog post and learned something. If you want to sha
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/not-a-phase-text-with-compose-and-canvas-97cacc35a5f7)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/not-a-phase-text-with-compose-and-canvas-97cacc35a5f7)
 
 <SiteInfo
   name="Not a Phase — Text with Compose and Canvas"

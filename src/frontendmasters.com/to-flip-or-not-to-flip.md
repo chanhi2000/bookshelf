@@ -50,11 +50,11 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5890"/>
 
-[<FontIcon icon="fas fa-globe"/>My personal website](https://chriscoyier.net/) was designed in English, because that’s the only language I speak. English is a left-to-right language (LTR).
+[<VPIcon icon="fas fa-globe"/>My personal website](https://chriscoyier.net/) was designed in English, because that’s the only language I speak. English is a left-to-right language (LTR).
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Screenshot-2025-05-16-at-7.52.17%E2%80%AFAM.png?resize=1024%2C888&ssl=1)
 
-Anybody can translate the website though. There are a variety of site translation tools. I don’t have any data on popularity, but I gotta imagine [<FontIcon icon="fa-brands fa-google"/>Google Translate](https://translate.google.com/?source=gtx&sl=ar&tl=en&op=translate) is up there, which is a website and Chrome Extension and, to some degree, automatic translation is just built into Chrome (and other browsers).
+Anybody can translate the website though. There are a variety of site translation tools. I don’t have any data on popularity, but I gotta imagine [<VPIcon icon="fa-brands fa-google"/>Google Translate](https://translate.google.com/?source=gtx&sl=ar&tl=en&op=translate) is up there, which is a website and Chrome Extension and, to some degree, automatic translation is just built into Chrome (and other browsers).
 
 So let’s say I translate my website from English to Arabic, a right-to-left language (RTL). Here’s what I get:
 
@@ -100,7 +100,7 @@ Or it could have injected CSS like:
 
 But it doesn’t. I don’t know for sure, but my guess is that it intentionally doesn’t do that, because it jacks up more layouts than it helps.
 
-But let’s say you’re *me* (perfect, handsome) and you’ve changed your muscle memory for writing a lot of CSS properties to using [<FontIcon icon="fas fa-globe"/>logical properties](https://frontendmasters.com/courses/pro-css/css-reset/?t=460). That is, stuff like `padding-inline-start` instead of `padding-left`, and the like. That, plus using layout like flexbox and grid, will reflow naturally with direction changes. So if you change the direction to `rtl` on *my* site, you get:
+But let’s say you’re *me* (perfect, handsome) and you’ve changed your muscle memory for writing a lot of CSS properties to using [<VPIcon icon="fas fa-globe"/>logical properties](https://frontendmasters.com/courses/pro-css/css-reset/?t=460). That is, stuff like `padding-inline-start` instead of `padding-left`, and the like. That, plus using layout like flexbox and grid, will reflow naturally with direction changes. So if you change the direction to `rtl` on *my* site, you get:
 
 ![The whole layout flips.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Screenshot-2025-05-16-at-8.04.20%E2%80%AFAM.png?resize=1024%2C884&ssl=1)
 
@@ -112,7 +112,7 @@ Meaning: does it read better for native Arabic speakers? Does it generally *feel
 
 I have a friend who speaks/reads Arabic, just for one anecdotal bit of data. I showed them a site and translated it, and they were like “it’s fine”. But then I showed them a tweaked one where things like the header and hero text and stuff was actually flipped, and they thought it was better. They were like “I never actually see this done, but it’s better this way.”
 
-It’s likely that this no One True Answer here. Even if you’ve done a good job with a layout that flips and looks sensible. [<FontIcon icon="fas fa-globe"/>Alda Vigdís told me](https://topspicy.social/@alda/114501106378371396):
+It’s likely that this no One True Answer here. Even if you’ve done a good job with a layout that flips and looks sensible. [<VPIcon icon="fas fa-globe"/>Alda Vigdís told me](https://topspicy.social/@alda/114501106378371396):
 
 > As someone who has worked on bi-lingual content, dir=”rtl” should of course be indicated for textual content, but the layout question depends on a lot more factors.
 > 
@@ -132,7 +132,7 @@ If you land on “leave the layout alone, but flip the `dir` for text”, like A
 
 That feels a little 😬 to me, like you’ll miss some and make it worse instead of better or something. (I just picked those selectors randomly quick, to illustrate.) So much testing needed.
 
-A flipped layout can be preferable even here though, as [<FontIcon icon="fas fa-globe"/>Naman told me](https://indieweb.social/@nmn/114503173952548664):
+A flipped layout can be preferable even here though, as [<VPIcon icon="fas fa-globe"/>Naman told me](https://indieweb.social/@nmn/114503173952548664):
 
 > There are somethings that work both ways. The sidebar can be on either side and it makes sense.
 > 

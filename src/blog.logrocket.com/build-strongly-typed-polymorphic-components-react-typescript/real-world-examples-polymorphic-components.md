@@ -64,7 +64,7 @@ Let’s consider some you may be familiar with: the Chakra UI `as` prop and MUI 
 f
 ![Chakra UI](/assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-components-react-typescript/chakra-ui.jpeg)
 
-How does [<FontIcon icon="fas fa-globe"/>Chakra UI](https://chakra-ui.com/) implement polymorphic props? The answer is by exposing an `as` prop. The `as` prop is passed to a component to determine what container element it should eventually render.
+How does [<VPIcon icon="fas fa-globe"/>Chakra UI](https://chakra-ui.com/) implement polymorphic props? The answer is by exposing an `as` prop. The `as` prop is passed to a component to determine what container element it should eventually render.
 
 ![Chakra UI As Prop](/assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-components-react-typescript/chakra-ui-as-prop.png)
 
@@ -100,7 +100,7 @@ That’s a polymorphic component at work! It can be rendered to entirely unique 
 
 Similar to Chakra UI, [**MUI**](/blog.logrocket.com/definitive-guide-react-material/) allows for a polymorphic prop called `component`, which is implemented similarly: you pass it to a component and state the element or custom component you’d like to render.
 
-Here’s an example from [<FontIcon icon="fas fa-globe"/>the official docs](https://mui.com/material-ui/guides/composition/#component-prop):
+Here’s an example from [<VPIcon icon="fas fa-globe"/>the official docs](https://mui.com/material-ui/guides/composition/#component-prop):
 
 ![The MUI Component Prop](/assets/image/blog.logrocket.com/build-strongly-typed-polymorphic-components-react-typescript/MUI-component-prop-1.jpeg)
 
@@ -124,7 +124,7 @@ Another user may use the same component, but not for navigation; instead, they m
 
 And in this case, `List` will render an ordered list `ol` element.
 
-Talk about flexibility! See a [summary of the use cases (<FontIcon icon="iconfont icon-github"/>`ohansemmanuel/polymorphic-react-component`)](https://github.com/ohansemmanuel/polymorphic-react-component/blob/master/use-cases.pdf) for polymorphic components.
+Talk about flexibility! See a [summary of the use cases (<VPIcon icon="iconfont icon-github"/>`ohansemmanuel/polymorphic-react-component`)](https://github.com/ohansemmanuel/polymorphic-react-component/blob/master/use-cases.pdf) for polymorphic components.
 
 As you’ll come to see in the following sections of this article, polymorphic components are powerful. Apart from just accepting a prop of an element type, they can also accept custom components as props.
 

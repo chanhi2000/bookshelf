@@ -94,7 +94,7 @@ This isn’t about changing what your elements look like. It’s about changing 
 
 ::: note
 
-The above demo uses [<FontIcon icon="iconfont icon-caniuse"/>the `shape()` syntax which has less browser support](https://caniuse.com/mdn-css_types_basic-shape_shape) than other features talked about in this series, like `offset-path` and `clip-path`.
+The above demo uses [<VPIcon icon="iconfont icon-caniuse"/>the `shape()` syntax which has less browser support](https://caniuse.com/mdn-css_types_basic-shape_shape) than other features talked about in this series, like `offset-path` and `clip-path`.
 
 :::
 

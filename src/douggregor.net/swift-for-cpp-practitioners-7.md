@@ -328,7 +328,7 @@ func haveFun(f: () -> Int) -> Int {
 }
 ```
 
-Swift does have a mechanism to deal with such cases, using the standard library function [<FontIcon icon="fa-brands fa-apple"/>`withoutActuallyEscaping`](https://developer.apple.com/documentation/swift/withoutactuallyescaping(_:do:)): the basic idea is that `withoutActuallyEscaping` lets you temporarily convert a non-escaping closure into an escaping one. The escaping one is passed into a second closure that is immediately evaluated and its result returned. So `haveFun` can be implemented as follows:
+Swift does have a mechanism to deal with such cases, using the standard library function [<VPIcon icon="fa-brands fa-apple"/>`withoutActuallyEscaping`](https://developer.apple.com/documentation/swift/withoutactuallyescaping(_:do:)): the basic idea is that `withoutActuallyEscaping` lets you temporarily convert a non-escaping closure into an escaping one. The escaping one is passed into a second closure that is immediately evaluated and its result returned. So `haveFun` can be implemented as follows:
 
 ```swift
 func haveFun(f: () -> Int) -> Int {
@@ -391,7 +391,7 @@ auto localFib = [&&](int i) {
 };
 ```
 
-Now, we can get around this by using [<FontIcon icon="iconfont icon-cpp"/>`std::function`](https://en.cppreference.com/w/cpp/utility/functional/function):
+Now, we can get around this by using [<VPIcon icon="iconfont icon-cpp"/>`std::function`](https://en.cppreference.com/w/cpp/utility/functional/function):
 
 ```swift
 std::function<int(int)> localFib;
@@ -401,7 +401,7 @@ localFib = [&&](int i) {
 };
 ```
 
-This works because we've separated out the declaration of `localFib` and given it a type, so it can be captured in the lambda that's eventually assigned into it. It's uglier, but it works. And it's most likely going to cause a heap allocation in `std::function` unless your C++ library implements the [<FontIcon icon="fa-brands fa-microsoft"/>small object optimization for `std::function`](https://devblogs.microsoft.com/oldnewthing/20200514-00/?p=103749) and your lambda fits into it.
+This works because we've separated out the declaration of `localFib` and given it a type, so it can be captured in the lambda that's eventually assigned into it. It's uglier, but it works. And it's most likely going to cause a heap allocation in `std::function` unless your C++ library implements the [<VPIcon icon="fa-brands fa-microsoft"/>small object optimization for `std::function`](https://devblogs.microsoft.com/oldnewthing/20200514-00/?p=103749) and your lambda fits into it.
   
 In Swift, local functions are just like functions at module scope. Here's a more explicit Swift `uniquing` that uses the local function:
 
@@ -446,7 +446,7 @@ std::copy_if(numbers.begin(), numbers.end(), std::back_inserter(even_numbers), [
 });
 ```
 
-I know, it's just syntax. It shouldn't be a big deal. But these standard algorithms are supposed to feel like extensions of the language. It turns out that Ruby has a nice approach here, which allows a closure to be juxtaposed with a function name or call to be passed like a normal parameter. The `std::copy_if` above, in Swift, would be a [<FontIcon icon="fa-brands fa-apple"/>`filter`](https://developer.apple.com/documentation/swift/string/filter(_:)) operation that looks more like this:
+I know, it's just syntax. It shouldn't be a big deal. But these standard algorithms are supposed to feel like extensions of the language. It turns out that Ruby has a nice approach here, which allows a closure to be juxtaposed with a function name or call to be passed like a normal parameter. The `std::copy_if` above, in Swift, would be a [<VPIcon icon="fa-brands fa-apple"/>`filter`](https://developer.apple.com/documentation/swift/string/filter(_:)) operation that looks more like this:
 
 ```swift
 numbers.filter { $0 % 2 == 0 }
@@ -478,7 +478,7 @@ numbers.filtering(removingAtMost: 17, isIncluded: { ... }) // same as A
 numbers.filtering(isIncluded: { ... })                     // same as B, maxRemovals defaults to nil
 ```
 
-You may have noticed that the trailing closure is unlabeled: the responsibiity is on the author of the function to ensure that the name of the function strongly implies what the trailing closure does, so that code using the function reads clearly. After all, *clarity at the point of use* is one of the central tenets of Swift's [<FontIcon icon="fa-brands fa-swift"/>API design guidelines](https://swift.org/documentation/api-design-guidelines/).
+You may have noticed that the trailing closure is unlabeled: the responsibiity is on the author of the function to ensure that the name of the function strongly implies what the trailing closure does, so that code using the function reads clearly. After all, *clarity at the point of use* is one of the central tenets of Swift's [<VPIcon icon="fa-brands fa-swift"/>API design guidelines](https://swift.org/documentation/api-design-guidelines/).
 
 ### Multiple trailing closures
 

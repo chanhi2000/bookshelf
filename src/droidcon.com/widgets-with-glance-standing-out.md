@@ -56,7 +56,7 @@ cover: https://droidcon.com/wp-content/uploads/2024/11/1_cMIA8nBu_GImuIfLIgioxQ-
 
 ![All good so far](https://droidcon.com/wp-content/uploads/2024/11/1_cMIA8nBu_GImuIfLIgioxQ-600x360.webp)
 
-Widgets can look great against a home screen wallpaper when they have a solid background (check out my article[Widgets with Glance: Blending in (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-blending-in-ae1e52a6cb6f)to see how to pick a color that matches the app icons) but what if instead the background is transparent? It looks fine if the text or graphics are a good contrast from the wallpaper:
+Widgets can look great against a home screen wallpaper when they have a solid background (check out my article[Widgets with Glance: Blending in (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-blending-in-ae1e52a6cb6f)to see how to pick a color that matches the app icons) but what if instead the background is transparent? It looks fine if the text or graphics are a good contrast from the wallpaper:
 
 But what about if the wallpaper is not a good contrast? How do you choose a suitable color?
 
@@ -64,7 +64,7 @@ But what about if the wallpaper is not a good contrast? How do you choose a suit
 
 Even if you are using dynamic colors in your`GlanceTheme`(as I am in the image above), the theme system won’t automatically check for contrast against the background. So we must do this ourselves.
 
-First thing, we need to detect the device wallpaper. This can be done using the[<FontIcon icon="fa-brands fa-android"/>WallpaperManager API](https://developer.android.com/reference/android/app/WallpaperManager).
+First thing, we need to detect the device wallpaper. This can be done using the[<VPIcon icon="fa-brands fa-android"/>WallpaperManager API](https://developer.android.com/reference/android/app/WallpaperManager).
 
 First, get the`WallpaperManager`instance, then fetch the dominant colors. A list is available, arranged in order of priority (note: a minimum color occurrence percentage`MIN_COLOR_OCCURRENCE`— 5% by default — is applied for the color to appear in this list), from here we need to get the primary color and decide whether dark or light text should be used.
 
@@ -149,7 +149,7 @@ fun getUseDarkColorOnWallpaper(colors: WallpaperColors?, type: Int): Boolean? {
 
 ::: note
 
-I did not originally write this code, I found it on this *[<FontIcon icon="fa-brands fa-stack-overflow"/>StackOverflow answer](https://stackoverflow.com/a/41491220/4714860) from [SudoPlz (<FontIcon icon="fa-brands fa-stack-overflow"/>`sudoplz`)](https://stackoverflow.com/users/1658268/sudoplz). You could replace this with whichever algorithm you prefer.*
+I did not originally write this code, I found it on this *[<VPIcon icon="fa-brands fa-stack-overflow"/>StackOverflow answer](https://stackoverflow.com/a/41491220/4714860) from [SudoPlz (<VPIcon icon="fa-brands fa-stack-overflow"/>`sudoplz`)](https://stackoverflow.com/users/1658268/sudoplz). You could replace this with whichever algorithm you prefer.*
 
 :::
 
@@ -217,7 +217,7 @@ Now, every time the wallpaper is changed the widget will update!
 
 ![Looking good in all situations!](https://droidcon.com/wp-content/uploads/2024/11/1_mky0GpsMOkUNapd6diKK2A-600x360.webp)
 
-To see a full example, see my[sample widget app (<FontIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/workshop/Activity-12):
+To see a full example, see my[sample widget app (<VPIcon icon="iconfont icon-github"/>`KatieBarnett/MotivateMe`)](https://github.com/KatieBarnett/MotivateMe/tree/workshop/Activity-12):
 
 <SiteInfo
   name="KatieBarnett/MotivateMe"
@@ -226,11 +226,11 @@ To see a full example, see my[sample widget app (<FontIcon icon="iconfont icon-g
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/e48744e1af1e9e66eb80f2b5d2e02dc223574c5da2a50758e30a7af1b5bb0d3f/KatieBarnett/MotivateMe"/>
 
-Check out my article[Widgets with Glance: Blending in (<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-blending-in-ae1e52a6cb6f)to see how to pick a color that matches the app icons and device dynamic colours.
+Check out my article[Widgets with Glance: Blending in (<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-blending-in-ae1e52a6cb6f)to see how to pick a color that matches the app icons and device dynamic colours.
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-standing-out-33834eee2dee).
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`)](https://proandroiddev.com/widgets-with-glance-standing-out-33834eee2dee).
 
 <SiteInfo
   name="Widgets with Glance: Standing out"

@@ -58,13 +58,13 @@ cover: /assets/image/blog.logrocket.com/getting-started-with-create-react-app/ba
 
 ::: note Editor’s Note
 
-This post was updated on 28 March 2023 to include new sections on how to run tests with the React testing library, styling our React app with CSS, and a section on why you should use Create React App. To learn more about React, [<FontIcon icon="fas fa-globe"/>visit our archives here](https://blog.logrocket.com/tag/react/).
+This post was updated on 28 March 2023 to include new sections on how to run tests with the React testing library, styling our React app with CSS, and a section on why you should use Create React App. To learn more about React, [<VPIcon icon="fas fa-globe"/>visit our archives here](https://blog.logrocket.com/tag/react/).
 
 :::
 
 ![Getting Started With Create React App](/assets/image/blog.logrocket.com/getting-started-with-create-react-app/banner.png)
 
-[<FontIcon icon="fas fa-globe"/>Create React App](https://blog.logrocket.com/tag/create-react-app/) is a popular toolchain for building simple React apps. The goal of this post is to explain the components of Create React App at a deeper level to give you much better control and confidence over the development environment.
+[<VPIcon icon="fas fa-globe"/>Create React App](https://blog.logrocket.com/tag/create-react-app/) is a popular toolchain for building simple React apps. The goal of this post is to explain the components of Create React App at a deeper level to give you much better control and confidence over the development environment.
 
 ---
 
@@ -80,7 +80,7 @@ In React development, different toolchains satisfy different requirements for pr
 
 Create React App is also a toolchain. It is specifically recommended by the React community for building [**single-page applications**](/blog.logrocket.com/single-page-applications-css-transitions.md) (SPAs) and for learning React (for building “Hello, World!” applications). It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production.
 
-Create React App was created by [Joe Haddad (<FontIcon icon="iconfont icon-github"/>`timer`)](https://github.com/timer) and [Dan Abramov (<FontIcon icon="iconfont icon-github"/>`gaearon`)](https://github.com/gaearon). The GitHub repository is very active and maintained by the creators, along with many open source developers from different parts of the world. If you’re interested in contributing, the repository’s [contributing page (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/CONTRIBUTING.md) is an excellent place to start.
+Create React App was created by [Joe Haddad (<VPIcon icon="iconfont icon-github"/>`timer`)](https://github.com/timer) and [Dan Abramov (<VPIcon icon="iconfont icon-github"/>`gaearon`)](https://github.com/gaearon). The GitHub repository is very active and maintained by the creators, along with many open source developers from different parts of the world. If you’re interested in contributing, the repository’s [contributing page (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/master/CONTRIBUTING.md) is an excellent place to start.
 
 ### Why should you use Create React App?
 
@@ -99,27 +99,27 @@ Now that we have relevant context about Create React App let’s start by instal
 
 ### Installation and folders
 
-Run the following [<FontIcon icon="fa-brands fa-npm"/>`npx`](https://npmjs.com/package/npx) command on a terminal to install and bootstrap the application using Create React App. Let’s call our application `rate-restaurants`:
+Run the following [<VPIcon icon="fa-brands fa-npm"/>`npx`](https://npmjs.com/package/npx) command on a terminal to install and bootstrap the application using Create React App. Let’s call our application `rate-restaurants`:
 
 ```sh
 npx create-react-app rate-restaurants
 ```
 
-This command runs for a few seconds and exits happily after creating a bare-bones React application under a new directory called <FontIcon icon="fas fa-folder-open"/>`rate-restaurants`. Now, `cd` into the <FontIcon icon="fas fa-folder-open"/>`rate-restaurants` directory. The directory looks something like this:
+This command runs for a few seconds and exits happily after creating a bare-bones React application under a new directory called <VPIcon icon="fas fa-folder-open"/>`rate-restaurants`. Now, `cd` into the <VPIcon icon="fas fa-folder-open"/>`rate-restaurants` directory. The directory looks something like this:
 
 ![Create React App Directory Structure](/assets/image/blog.logrocket.com/getting-started-with-create-react-app/create-react-app-directory-structure.png)
 
-### <FontIcon icon="fas fa-folder-open"/>`node_modules`
+### <VPIcon icon="fas fa-folder-open"/>`node_modules`
 
-This folder is part of the npm system. [<FontIcon icon="fa-brands fa-npm"/>npm](https://docs.npmjs.com/files/folders.html) puts local installs of packages in <FontIcon icon="fas fa-folder-open"/>`./node_modules` of the current package root. Basically, the packages you want to use by calling an `import` statement go here.
+This folder is part of the npm system. [<VPIcon icon="fa-brands fa-npm"/>npm](https://docs.npmjs.com/files/folders.html) puts local installs of packages in <VPIcon icon="fas fa-folder-open"/>`./node_modules` of the current package root. Basically, the packages you want to use by calling an `import` statement go here.
 
-### <FontIcon icon="fas fa-folder-open"/>`public`
+### <VPIcon icon="fas fa-folder-open"/>`public`
 
-This folder contains the <FontIcon icon="fa-brands fa-html5"/>`index.html` and <FontIcon icon="iconfont icon-json"/>`manifest.json` files. Let’s look at the files inside the <FontIcon icon="fas fa-folder-open"/>`public` folder.
+This folder contains the <VPIcon icon="fa-brands fa-html5"/>`index.html` and <VPIcon icon="iconfont icon-json"/>`manifest.json` files. Let’s look at the files inside the <VPIcon icon="fas fa-folder-open"/>`public` folder.
 
-### <FontIcon icon="fa-brands fa-html5"/>`index.html`
+### <VPIcon icon="fa-brands fa-html5"/>`index.html`
 
-This <FontIcon icon="fa-brands fa-html5"/>`index.html` serves as a template for generating <FontIcon icon="fas fa-folder-open"/>`build/`<FontIcon icon="fa-brands fa-html5"/>`index.html`, which is ultimately the main file served on the browser. Let’s take a look at this file’s contents:
+This <VPIcon icon="fa-brands fa-html5"/>`index.html` serves as a template for generating <VPIcon icon="fas fa-folder-open"/>`build/`<VPIcon icon="fa-brands fa-html5"/>`index.html`, which is ultimately the main file served on the browser. Let’s take a look at this file’s contents:
 
 ```html :collapsed-lines title="index.html"
 <!DOCTYPE html>
@@ -167,19 +167,19 @@ This <FontIcon icon="fa-brands fa-html5"/>`index.html` serves as a template for 
 
 ### `Title` and `meta` tags
 
-The [<FontIcon icon="fas fa-globe"/>`<meta>` tags](https://create-react-app.dev/docs/title-and-meta-tags/) provide [<FontIcon icon="iconfont icon-w3c"/>metadata about the HTML document](https://w3schools.com/tags/tag_meta.asp). They describe the content of the page. `<meta>` tags usually aren’t displayed on the webpage but are machine parsable. The bundled scripts are finally placed into the `<body> title` of this HTML file.
+The [<VPIcon icon="fas fa-globe"/>`<meta>` tags](https://create-react-app.dev/docs/title-and-meta-tags/) provide [<VPIcon icon="iconfont icon-w3c"/>metadata about the HTML document](https://w3schools.com/tags/tag_meta.asp). They describe the content of the page. `<meta>` tags usually aren’t displayed on the webpage but are machine parsable. The bundled scripts are finally placed into the `<body> title` of this HTML file.
 
 ---
 
 ## What are bundled scripts?
 
-In order to understand this, we need to learn about one more concept in the world of modern JavaScript toolchains, which is [<FontIcon icon="fas fa-globe"/>webpack](https://blog.logrocket.com/tag/webpack/). Think of webpack as a tool that bundles up all your source files and creates a single <FontIcon icon="fa-brands fa-js"/>`bundle.js` file that can be served from the <FontIcon icon="fa-brands fa-html5"/>`index.html` file inside a `<script>` tag.
+In order to understand this, we need to learn about one more concept in the world of modern JavaScript toolchains, which is [<VPIcon icon="fas fa-globe"/>webpack](https://blog.logrocket.com/tag/webpack/). Think of webpack as a tool that bundles up all your source files and creates a single <VPIcon icon="fa-brands fa-js"/>`bundle.js` file that can be served from the <VPIcon icon="fa-brands fa-html5"/>`index.html` file inside a `<script>` tag.
 
 This way, the number of HTTP requests made within the app is significantly reduced, which directly improves the app’s performance on the network. Besides, webpack also helps in making the code modular and flexible when you supply it with additional config options. Here’s a visual of it:
 
 ![Webpack Diagram](/assets/image/blog.logrocket.com/getting-started-with-create-react-app/webpack-diagram.png)
 
-The above figure shows an example recipe app built using React and bundled using webpack. Webpack has a <FontIcon icon="fa-brands fa-js"/>`webpack.config.js` file, which is used to specify the configuration settings. It typically looks something like this:
+The above figure shows an example recipe app built using React and bundled using webpack. Webpack has a <VPIcon icon="fa-brands fa-js"/>`webpack.config.js` file, which is used to specify the configuration settings. It typically looks something like this:
 
 ```js title="webpack.config.js"
 const path = require('path');
@@ -193,15 +193,15 @@ module.exports = {
 };
 ```
 
-The `entry` key specifies the [<FontIcon icon="fas fa-globe"/>entry point](https://webpack.js.org/concepts/#entry) for webpack, and `output` specifies the location where the <FontIcon icon="fa-brands fa-js"/>`bundle.js` file will be stored after the build process.
+The `entry` key specifies the [<VPIcon icon="fas fa-globe"/>entry point](https://webpack.js.org/concepts/#entry) for webpack, and `output` specifies the location where the <VPIcon icon="fa-brands fa-js"/>`bundle.js` file will be stored after the build process.
 
-Coming back to <FontIcon icon="fa-brands fa-html5"/>`index.html`, Create React App uses [<FontIcon icon="fa-brands fa-npm"/>`html-webpack-plugin`](https://npmjs.com/package/html-webpack-plugin) for bundling. If you look at the <FontIcon icon="fa-brands fa-js"/>`webpack.config.js` [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/21fe19ab0fbae8ca403572beb55b4d11e45a75cf/packages/react-scripts/config/webpack.config.dev.js), the `entry` key points to <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-js"/>`index.js`, which specifies the entry point for webpack. When webpack compiles the assets, it produces a single bundle (or several, if you use [**code splitting**](/blog.logrocket.com/tree-shaking-and-code-splitting-in-webpack.md)). It makes their final paths available to all plugins  —  one such plugin is for injecting scripts into HTML.
+Coming back to <VPIcon icon="fa-brands fa-html5"/>`index.html`, Create React App uses [<VPIcon icon="fa-brands fa-npm"/>`html-webpack-plugin`](https://npmjs.com/package/html-webpack-plugin) for bundling. If you look at the <VPIcon icon="fa-brands fa-js"/>`webpack.config.js` [here (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/blob/21fe19ab0fbae8ca403572beb55b4d11e45a75cf/packages/react-scripts/config/webpack.config.dev.js), the `entry` key points to <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-js"/>`index.js`, which specifies the entry point for webpack. When webpack compiles the assets, it produces a single bundle (or several, if you use [**code splitting**](/blog.logrocket.com/tree-shaking-and-code-splitting-in-webpack.md)). It makes their final paths available to all plugins  —  one such plugin is for injecting scripts into HTML.
 
-The html-webpack-plugin is also enabled to generate the HTML file. In Create React App’s <FontIcon icon="fa-brands fa-js"/>`webpack.config.js`, it is [specified (<FontIcon icon="iconfont icon-github"/>`facebookincubator/create-react-app`)](https://github.com/facebookincubator/create-react-app/blob/21fe19ab0fbae8ca403572beb55b4d11e45a75cf/packages/react-scripts/config/webpack.config.prod.js#L233-L235) that it should read <FontIcon icon="fas fa-folder-open"/>`public/`<FontIcon icon="fa-brands fa-html5"/>`index.html` as a template. The `inject` option is also set to `true`. With that option, html-webpack-plugin adds a `<script>` with the path provided by webpack right into the final HTML page.
+The html-webpack-plugin is also enabled to generate the HTML file. In Create React App’s <VPIcon icon="fa-brands fa-js"/>`webpack.config.js`, it is [specified (<VPIcon icon="iconfont icon-github"/>`facebookincubator/create-react-app`)](https://github.com/facebookincubator/create-react-app/blob/21fe19ab0fbae8ca403572beb55b4d11e45a75cf/packages/react-scripts/config/webpack.config.prod.js#L233-L235) that it should read <VPIcon icon="fas fa-folder-open"/>`public/`<VPIcon icon="fa-brands fa-html5"/>`index.html` as a template. The `inject` option is also set to `true`. With that option, html-webpack-plugin adds a `<script>` with the path provided by webpack right into the final HTML page.
 
-This final page is the one you get in <FontIcon icon="fas fa-folder-open"/>`build/`<FontIcon icon="fa-brands fa-html5"/>`index.html` after running `npm run build`, and the one that gets served from `/` when you run `npm start`. Now that we understand <FontIcon icon="fa-brands fa-html5"/>`index.html`, let’s move on to <FontIcon icon="iconfont icon-json"/>`manifest.json`.
+This final page is the one you get in <VPIcon icon="fas fa-folder-open"/>`build/`<VPIcon icon="fa-brands fa-html5"/>`index.html` after running `npm run build`, and the one that gets served from `/` when you run `npm start`. Now that we understand <VPIcon icon="fa-brands fa-html5"/>`index.html`, let’s move on to <VPIcon icon="iconfont icon-json"/>`manifest.json`.
 
-This is a [<FontIcon icon="fa-brands fa-firefox"/>web app manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) that describes your application, and it’s used by mobile phones if a shortcut is added to the home screen. Let’s look at the contents to understand it further:
+This is a [<VPIcon icon="fa-brands fa-firefox"/>web app manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) that describes your application, and it’s used by mobile phones if a shortcut is added to the home screen. Let’s look at the contents to understand it further:
 
 ```json title="manifest.json"
 {
@@ -221,27 +221,27 @@ This is a [<FontIcon icon="fa-brands fa-firefox"/>web app manifest](https://deve
 }
 ```
 
-The contents of this file are pretty self-explanatory. But where are these values used? When a user adds a web app to their home screen using Google Chrome or Firefox on Android — or Safari on iOS — the metadata in `manifest.json` determines what icons, names, and branding colors to use when the web app is displayed. [<FontIcon icon="fa-brands fa-google"/>The web app manifest guide](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) provides more context about what each field means, and how your customizations will affect your users’ experience. Basically, the information read from this file is used to populate the web app’s icons, colors, names, etc.
+The contents of this file are pretty self-explanatory. But where are these values used? When a user adds a web app to their home screen using Google Chrome or Firefox on Android — or Safari on iOS — the metadata in `manifest.json` determines what icons, names, and branding colors to use when the web app is displayed. [<VPIcon icon="fa-brands fa-google"/>The web app manifest guide](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) provides more context about what each field means, and how your customizations will affect your users’ experience. Basically, the information read from this file is used to populate the web app’s icons, colors, names, etc.
 
-### <FontIcon icon="fas fa-file-image"/>`favicon.ico`
+### <VPIcon icon="fas fa-file-image"/>`favicon.ico`
 
-This is simply the icon image file used for our application. You can see this linked inside <FontIcon icon="fa-brands fa-html5"/>`index.html` and <FontIcon icon="iconfont icon-json"/>`manifest.json`. Before moving on to the <FontIcon icon="fas fa-folder-open"/>`src/` directory, let’s look at a couple other files on our root.
+This is simply the icon image file used for our application. You can see this linked inside <VPIcon icon="fa-brands fa-html5"/>`index.html` and <VPIcon icon="iconfont icon-json"/>`manifest.json`. Before moving on to the <VPIcon icon="fas fa-folder-open"/>`src/` directory, let’s look at a couple other files on our root.
 
-### <FontIcon icon="iconfont icon-json"/>`package.json`
+### <VPIcon icon="iconfont icon-json"/>`package.json`
 
-This file lists the packages your project depends on and [<FontIcon icon="fa-brands fa-npm"/>which versions of a package](https://docs.npmjs.com/about-semantic-versioning) your project can use. In tandem with either <FontIcon icon="iconfont icon-json"/>`package-lock.json` or <FontIcon icon="fas fa-file-lines"/>`yarn.lock` (more on these files below), it also makes your build reproducible and, therefore, easier to share with other developers.
+This file lists the packages your project depends on and [<VPIcon icon="fa-brands fa-npm"/>which versions of a package](https://docs.npmjs.com/about-semantic-versioning) your project can use. In tandem with either <VPIcon icon="iconfont icon-json"/>`package-lock.json` or <VPIcon icon="fas fa-file-lines"/>`yarn.lock` (more on these files below), it also makes your build reproducible and, therefore, easier to share with other developers.
 
 The `scripts` field is of particular interest here. You can see that the `start`, `build`, `test`, and `eject` commands point to react-scripts’ version of `start`, `build`, `test`, and `eject`. This specifies that when you run npm commands like `npm start`, it will actually run `react-scripts start`.
 
-react-scripts is a set of scripts from the Create React App starter pack. `react-scripts start` sets up the development environment and starts a server, as well as convenient development features such as hot module reloading. You can read [here (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app#whats-included) to see everything it does for you.
+react-scripts is a set of scripts from the Create React App starter pack. `react-scripts start` sets up the development environment and starts a server, as well as convenient development features such as hot module reloading. You can read [here (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app#whats-included) to see everything it does for you.
 
-### <FontIcon icon="fas fa-file-lines"/>`yarn.lock / package-lock.json`
+### <VPIcon icon="fas fa-file-lines"/>`yarn.lock / package-lock.json`
 
-Before learning the purpose of <FontIcon icon="fas fa-file-lines"/>`yarn.lock`, let’s first understand what Yarn is. [**Yarn is a package manager**](/blog.logrocket.com/javascript-package-managers-compared.md) for JavaScript dependencies. It is an alternative to the default package manager that ships with every Node.js installation, which is called npm. Package managers allow you to use other developers’ solutions to different problems, making it easier for you to develop your own software. Code is shared through packages, sometimes referred to as modules.
+Before learning the purpose of <VPIcon icon="fas fa-file-lines"/>`yarn.lock`, let’s first understand what Yarn is. [**Yarn is a package manager**](/blog.logrocket.com/javascript-package-managers-compared.md) for JavaScript dependencies. It is an alternative to the default package manager that ships with every Node.js installation, which is called npm. Package managers allow you to use other developers’ solutions to different problems, making it easier for you to develop your own software. Code is shared through packages, sometimes referred to as modules.
 
-Create React App will detect if you have Yarn installed and if so will use that to install dependencies rather than npm. If you don’t have Yarn installed, npm will be used and you will see a <FontIcon icon="iconfont icon-json"/>`package-lock.json` file rather than the <FontIcon icon="fas fa-file-lines"/>`yarn.lock` file.
+Create React App will detect if you have Yarn installed and if so will use that to install dependencies rather than npm. If you don’t have Yarn installed, npm will be used and you will see a <VPIcon icon="iconfont icon-json"/>`package-lock.json` file rather than the <VPIcon icon="fas fa-file-lines"/>`yarn.lock` file.
 
-In order to get consistent installs across machines, Yarn needs more information than the dependencies you configure in your <FontIcon icon="iconfont icon-json"/>`package.json`. Yarn needs to store exactly which versions of each dependency were installed. That’s what the <FontIcon icon="fas fa-file-lines"/>`yarn.lock` file (or <FontIcon icon="iconfont icon-json"/>`package-lock.json` file if npm is used) in the root of your project is for.
+In order to get consistent installs across machines, Yarn needs more information than the dependencies you configure in your <VPIcon icon="iconfont icon-json"/>`package.json`. Yarn needs to store exactly which versions of each dependency were installed. That’s what the <VPIcon icon="fas fa-file-lines"/>`yarn.lock` file (or <VPIcon icon="iconfont icon-json"/>`package-lock.json` file if npm is used) in the root of your project is for.
 
 ---
 
@@ -249,13 +249,13 @@ In order to get consistent installs across machines, Yarn needs more information
 
 Now, let’s fire up the application. To run the app, you can either run `npm start` or `yarn start`. Once you run the command, open `http://localhost:3000` to view the application.
 
-Note that `npm run build` or `yarn build` will build the app for production and store it inside the <FontIcon icon="fas fa-folder-open"/>`build/` folder, which can be deployed to production. For the sake of this tutorial, let’s use `npm start` for development instead of building the app for production. Your app should look like this:
+Note that `npm run build` or `yarn build` will build the app for production and store it inside the <VPIcon icon="fas fa-folder-open"/>`build/` folder, which can be deployed to production. For the sake of this tutorial, let’s use `npm start` for development instead of building the app for production. Your app should look like this:
 
 ![Create React App Home Screen](/assets/image/blog.logrocket.com/getting-started-with-create-react-app/create-react-app-home.png)
 
-Let’s try and understand what the entry point is for this app. When we looked at webpack, I mentioned that webpack’s entry is <FontIcon icon="fa-brands fa-js"/>`index.js`, which is the entry point for the React application.
+Let’s try and understand what the entry point is for this app. When we looked at webpack, I mentioned that webpack’s entry is <VPIcon icon="fa-brands fa-js"/>`index.js`, which is the entry point for the React application.
 
-The <FontIcon icon="fa-brands fa-js"/>`index.js` file has the following line:
+The <VPIcon icon="fa-brands fa-js"/>`index.js` file has the following line:
 
 ```js title="index.js"
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -266,9 +266,9 @@ root.render(
 );
 ```
 
-This line calls [**`ReactDOM`**](/blog.logrocket.com/managing-dom-components-reactdom.md)’s `render()` method, which renders a React element into the DOM in the supplied container and returns a [<FontIcon icon="fa-brands fa-react"/>`reference`](https://reactjs.org/docs/more-about-refs.html) to the component. The React element here is the `<App>` component, and the supplied container is the DOM element `root` (which is referenced in <FontIcon icon="fa-brands fa-html5"/>`index.html`).
+This line calls [**`ReactDOM`**](/blog.logrocket.com/managing-dom-components-reactdom.md)’s `render()` method, which renders a React element into the DOM in the supplied container and returns a [<VPIcon icon="fa-brands fa-react"/>`reference`](https://reactjs.org/docs/more-about-refs.html) to the component. The React element here is the `<App>` component, and the supplied container is the DOM element `root` (which is referenced in <VPIcon icon="fa-brands fa-html5"/>`index.html`).
 
-`<App>` is the root component of this app. Let’s look at <FontIcon icon="fa-brands fa-react"/>`App.js`, where it is defined:
+`<App>` is the root component of this app. Let’s look at <VPIcon icon="fa-brands fa-react"/>`App.js`, where it is defined:
 
 ```jsx title="App.js"
 import logo from './logo.svg';
@@ -289,13 +289,13 @@ function App () {
 export default App;
 ```
 
-The `App` component is a function for defining a React component. This is the code that we are interested in. Any application can be built by stripping stuff out and tweaking the <FontIcon icon="fa-brands fa-react"/>`App.js`. We can even build React components separately inside a <FontIcon icon="fas fa-folder-open"/>`src/components/` folder and import these components inside <FontIcon icon="fa-brands fa-react"/>`App.js`. A typical React application looks something like this:
+The `App` component is a function for defining a React component. This is the code that we are interested in. Any application can be built by stripping stuff out and tweaking the <VPIcon icon="fa-brands fa-react"/>`App.js`. We can even build React components separately inside a <VPIcon icon="fas fa-folder-open"/>`src/components/` folder and import these components inside <VPIcon icon="fa-brands fa-react"/>`App.js`. A typical React application looks something like this:
 
 ![Diagram of a React App](/assets/image/blog.logrocket.com/getting-started-with-create-react-app/react-app-diagram.png)
 
 There is a root component, `<App>`, that imports other child components, which in turn import other child components. Data flows from root to children through React properties (called `props`) and flows back up using callback functions. This is the design pattern used by any basic React application.
 
-At this point, we should be able to start building any simple [**single-page application**](/blog.logrocket.com/5-things-not-do-building-react-applications.md) by tweaking <FontIcon icon="fa-brands fa-react"/>`App.js` and adding the necessary components. The <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file can be used for styling the application.
+At this point, we should be able to start building any simple [**single-page application**](/blog.logrocket.com/5-things-not-do-building-react-applications.md) by tweaking <VPIcon icon="fa-brands fa-react"/>`App.js` and adding the necessary components. The <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` file can be used for styling the application.
 
 ### How to run tests with the React Testing Library
 
@@ -303,7 +303,7 @@ At this point, we should be able to start building any simple [**single-page app
 
 Instead of concentrating on implementation details, React Testing Library encourages developers to build tests that mimic how consumers interact with the application. As a result, tests created with the React Testing Library ought to be more reliable and less prone to fail when a component’s implementation is changed.
 
-The React Testing Library comes inbuilt with Create React App. This means that you do not have to install additional dependencies before getting started with it in a React application. The first step in using the React testing library is by creating a file ending in <FontIcon icon="fa-brands fa-js"/>`.test.js`. Next, we import React Testing Library into the file by adding the following line at the top of the file:
+The React Testing Library comes inbuilt with Create React App. This means that you do not have to install additional dependencies before getting started with it in a React application. The first step in using the React testing library is by creating a file ending in <VPIcon icon="fa-brands fa-js"/>`.test.js`. Next, we import React Testing Library into the file by adding the following line at the top of the file:
 
 ```js
 import { render, screen } from '@testing-library/react';
@@ -340,7 +340,7 @@ Our final app will look something like this:
 
 ### Writing our app’s stateless components
 
-The first step is to write our app’s stateless components, which we’ll need to build the cards with the data and rating system in them. In order to do this, we create a folder called <FontIcon icon="fas fa-folder-open"/>`components/`inside <FontIcon icon="fas fa-folder-open"/>`src/`and add a file called <FontIcon icon="fa-brands fa-js"/>`Card.js`:
+The first step is to write our app’s stateless components, which we’ll need to build the cards with the data and rating system in them. In order to do this, we create a folder called <VPIcon icon="fas fa-folder-open"/>`components/`inside <VPIcon icon="fas fa-folder-open"/>`src/`and add a file called <VPIcon icon="fa-brands fa-js"/>`Card.js`:
 
 ```jsx :collapsed-lines title="components/Card.js"
 import React from 'react';
@@ -452,7 +452,7 @@ function App() {
 export default App;
 ```
 
-In the <FontIcon icon="fa-brands fa-react"/>`App.js`, we import `Card`. The restaurant data is modeled as the `state` of this app. Saving the state separately in a file outside of <FontIcon icon="fa-brands fa-react"/>`App.js` is a better design as the app and its restaurant data grow. In the `return()` function, we pass this data to the `Card` component as props.
+In the <VPIcon icon="fa-brands fa-react"/>`App.js`, we import `Card`. The restaurant data is modeled as the `state` of this app. Saving the state separately in a file outside of <VPIcon icon="fa-brands fa-react"/>`App.js` is a better design as the app and its restaurant data grow. In the `return()` function, we pass this data to the `Card` component as props.
 
 Data flows down to child components as properties and flows back up through callbacks, the `OnChange` callback used for updating the star ratings. That’s it! Now, when you go to `http://localhost:3000/`, you should see the rate restaurant app, ready to go.
 
@@ -460,7 +460,7 @@ Data flows down to child components as properties and flows back up through call
 
 ## Styling our React app with CSS
 
-We are done building the functionality of the application. The next step is how to go about styling the application and making it look exactly how we want. Create React App makes it easier for us to use CSS as it comes with inbuilt CSS support. All we need to do is copy the code below and paste it into the <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file:
+We are done building the functionality of the application. The next step is how to go about styling the application and making it look exactly how we want. Create React App makes it easier for us to use CSS as it comes with inbuilt CSS support. All we need to do is copy the code below and paste it into the <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` file:
 
 ```css :collapsed-lines title="App.css"
 .main-body {
@@ -561,7 +561,7 @@ With that done, we see our tastefully styled application when you navigate to th
 
 Hot Module Replacement (HMR) is a feature in webpack to inject updated modules into the active runtime. It’s like LiveReload for every module. HMR is opt-in, so you need to input some code at chosen points of your application. The dependencies are handled by the module system.
 
-So, how do you enable this in a project created using Create React App? This is quite simple! Just add the following code inside <FontIcon icon="fa-brands fa-js"/>`index.js`, and HMR is ready to go:
+So, how do you enable this in a project created using Create React App? This is quite simple! Just add the following code inside <VPIcon icon="fa-brands fa-js"/>`index.js`, and HMR is ready to go:
 
 ```jsx title="index.js"
 // regular imports
@@ -584,7 +584,7 @@ Finally, for some motivation to use Create React App for building apps, let’s 
 - Dropbox: Dropbox, the cloud storage and file hosting service, uses CRA for building its web application. The web application allows users to upload, store, and share files online. The app is built using React, Redux, and CRA, and it is available on multiple platforms, including Windows, macOS, and Linux
 - Slack: Slack, the collaboration hub for teams, uses CRA for building its web application. The web application is used by teams to communicate, share files, and collaborate on projects. The app is built using React, Redux, and CRA, and it is available on multiple platforms, including Windows, macOS, and Linux
 
-[This (<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/issues/2980) GitHub comments section also has a long list of production-ready apps built using Create React App. A couple of the ideas are even part of Y-Combinator.
+[This (<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`)](https://github.com/facebook/create-react-app/issues/2980) GitHub comments section also has a long list of production-ready apps built using Create React App. A couple of the ideas are even part of Y-Combinator.
 
 ---
 

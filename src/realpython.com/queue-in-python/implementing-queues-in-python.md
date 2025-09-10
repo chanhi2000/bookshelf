@@ -57,7 +57,7 @@ That being said, trying to build something from scratch can be an invaluable lea
 
 ## Representing FIFO and LIFO Queues With a Deque
 
-To represent a FIFO queue in the computer’s memory, you’ll need a [<FontIcon icon="fa-brands fa-python"/>sequence](https://docs.python.org/3/glossary.html#term-sequence) that has O(1), or constant time, performance for the enqueue operation on one end, and a similarly efficient dequeue operation on the other end. As you already know by now, a deque or double-ended queue satisfies those requirements. Plus, it’s universal enough to adapt for a LIFO queue as well.
+To represent a FIFO queue in the computer’s memory, you’ll need a [<VPIcon icon="fa-brands fa-python"/>sequence](https://docs.python.org/3/glossary.html#term-sequence) that has O(1), or constant time, performance for the enqueue operation on one end, and a similarly efficient dequeue operation on the other end. As you already know by now, a deque or double-ended queue satisfies those requirements. Plus, it’s universal enough to adapt for a LIFO queue as well.
 
 However, because coding one would be out of scope of this tutorial, you’re going to leverage Python’s [`deque`](https://realpython.com/python-deque/) collection from the standard library.
 

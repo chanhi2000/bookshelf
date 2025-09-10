@@ -76,7 +76,7 @@ Besides, the **context management protocol** allows you to create your own conte
 
 :::
 
-With this knowledge, you’ll write more expressive code and avoid [<FontIcon icon="fa-brands fa-wikipedia-w"/>resource leaks](https://en.wikipedia.org/wiki/Resource_leak) in your programs. The `with` statement helps you implement some common resource management patterns by abstracting their functionality and allowing them to be factored out and reused.
+With this knowledge, you’ll write more expressive code and avoid [<VPIcon icon="fa-brands fa-wikipedia-w"/>resource leaks](https://en.wikipedia.org/wiki/Resource_leak) in your programs. The `with` statement helps you implement some common resource management patterns by abstracting their functionality and allowing them to be factored out and reused.
 
 ::: info Quiz - Context Managers and Python's with Statement
 

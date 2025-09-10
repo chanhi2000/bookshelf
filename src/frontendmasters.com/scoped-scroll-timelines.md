@@ -54,7 +54,7 @@ I keep learning little details about scroll-driven animations!
 
 I started this little journey thinking about if you wanted to do [**special styling when a page scrolled through a certain section**](/frontendmasters.com/scroll-driven-sections.md). I thought then that in order to pass scrolling information to descendants, you’d have to do it with `--custom-properties`. That’s sometimes still a decent idea, but it’s not strictly true, as [**those descendants can inherit a named timeline**](/frontendmasters.com/named-scroll-view-timelines.md) and tap into that to do styling on themselves.
 
-Then I thought, while that’s a nice improvement, it’s still limited in the sense that only descendants can tap into a higher-up-the-DOM element’s timeline. Like an enforced parent/child situation. Turns out this isn’t true either, and again [<FontIcon icon="fas fa-globe"/>thanks to Bramus](https://frontendmasters.com/blog/named-scroll-view-timelines/#comment-14690) for showing me how it works.
+Then I thought, while that’s a nice improvement, it’s still limited in the sense that only descendants can tap into a higher-up-the-DOM element’s timeline. Like an enforced parent/child situation. Turns out this isn’t true either, and again [<VPIcon icon="fas fa-globe"/>thanks to Bramus](https://frontendmasters.com/blog/named-scroll-view-timelines/#comment-14690) for showing me how it works.
 
 Since we’re three-deep here on this journey, I figure calling it a series makes sense:
 

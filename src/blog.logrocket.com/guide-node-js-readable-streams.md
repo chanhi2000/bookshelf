@@ -89,7 +89,7 @@ Common readable stream implementations include:
 - `http.IncomingMessage`: Handle incoming HTTP request bodies, commonly used in Express/Node.js servers
 - `**process.stdin**`: Capture real-time user input from the command line
 
-Here is an example of reading the contents of the <FontIcon icon="fas fa-file-lines"/>`input.txt` file using a readable stream:
+Here is an example of reading the contents of the <VPIcon icon="fas fa-file-lines"/>`input.txt` file using a readable stream:
 
 ```js
 const fs = require("fs");
@@ -455,7 +455,7 @@ Node.js readable streams are more than just a tool — they’re a core pattern 
 
 In this guide, we explored how readable streams process data in small chunks, manage data flow with paused/flowing modes, handle errors, and ensure resource cleanup. We also discussed chaining, transforming, and piping streams like modular components. Whether parsing terabytes of logs or streaming live sensor data, readable streams provide an efficient way to handle data.
 
-The code snippets in the article can be found [here (<FontIcon icon="iconfont icon-github"/>`sunnyy02/node_readableStreams`)](https://github.com/sunnyy02/node_readableStreams). For more details and best practices, refer to the [<FontIcon icon="fa-brands fa-node"/>Node.js Stream API documentation](https://nodejs.org/api/stream.html).
+The code snippets in the article can be found [here (<VPIcon icon="iconfont icon-github"/>`sunnyy02/node_readableStreams`)](https://github.com/sunnyy02/node_readableStreams). For more details and best practices, refer to the [<VPIcon icon="fa-brands fa-node"/>Node.js Stream API documentation](https://nodejs.org/api/stream.html).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

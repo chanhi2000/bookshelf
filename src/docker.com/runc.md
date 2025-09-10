@@ -83,7 +83,7 @@ Starting today we will begin spinning out ALL INFRASTRUCTURE PLUMBING from the D
 - If you are deploying Docker in production: this makes Docker more ops-friendly. Because its underlying plumbing will be more cleanly separated, the platform becomes more modular; which in turn makes it *easier to scale*, *easier to troubleshoot, easier to secure* and *easier to customize.*
 - If you want to integrate Docker with your favorite tool: because all plumbing exposes standard interfaces, each component becomes a potential integration point.
 
-Starting today at [<FontIcon icon="fa-brands fa-docker"/>DockerCon, we have started to announce the first plumbing components to be spun out.](https://dockercon.com) But there is still plenty of work to do. WE ARE CALLING TO ALL DOCKER CONTRIBUTORS, AND ALL INFRASTRUCTURE PLUMBERS EVERYWHERE, TO JOIN THE EFFORT AND HELP US CONTRIBUTE BACK DOCKER’S PLUMBING.
+Starting today at [<VPIcon icon="fa-brands fa-docker"/>DockerCon, we have started to announce the first plumbing components to be spun out.](https://dockercon.com) But there is still plenty of work to do. WE ARE CALLING TO ALL DOCKER CONTRIBUTORS, AND ALL INFRASTRUCTURE PLUMBERS EVERYWHERE, TO JOIN THE EFFORT AND HELP US CONTRIBUTE BACK DOCKER’S PLUMBING.
 
 Today we are introducing our most famous piece of plumbing: our OS container runtime.
 
@@ -120,7 +120,7 @@ runC is available today and is already under active development. Because it is b
 
 ::: info 
 
-runC is available today at [<FontIcon icon="iconfont icon-github"/>`opencontainers/runc`](https://github.com/opencontainers/runc)
+runC is available today at [<VPIcon icon="iconfont icon-github"/>`opencontainers/runc`](https://github.com/opencontainers/runc)
 
 <SiteInfo
   name="opencontainers/runc"
@@ -140,7 +140,7 @@ runC is available today at [<FontIcon icon="iconfont icon-github"/>`opencontaine
   logo="https://secure.meetupstatic.com/next/images/general/m_swarm_196x196.png"
   preview="https://secure.meetupstatic.com/photos/event/c/b/8/d/600_505012109.jpeg"/>
 
-Join our next Docker online meetup recapping all of the news from DockerCon including demos of the latest features of Docker 1.7. The meetup is on Monday, June 29 at 10:00 PDT / 19:00 CEST - [<FontIcon icon="fas fa-globe"/>click here](http://meetup.com/Docker-Online-Meetup/events/222855066/) to register!
+Join our next Docker online meetup recapping all of the news from DockerCon including demos of the latest features of Docker 1.7. The meetup is on Monday, June 29 at 10:00 PDT / 19:00 CEST - [<VPIcon icon="fas fa-globe"/>click here](http://meetup.com/Docker-Online-Meetup/events/222855066/) to register!
 
 :::
 

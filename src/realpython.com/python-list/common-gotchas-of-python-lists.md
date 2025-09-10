@@ -114,4 +114,4 @@ append_to(3)
 # [3]
 ```
 
-Great! You’ve solved the issue. Now your function returns single-item lists as expected. That’s because the function doesn’t retain the [<FontIcon icon="fa-brands fa-wikipedia-w"/>state](https://en.wikipedia.org/wiki/State_(computer_science)) between calls.
+Great! You’ve solved the issue. Now your function returns single-item lists as expected. That’s because the function doesn’t retain the [<VPIcon icon="fa-brands fa-wikipedia-w"/>state](https://en.wikipedia.org/wiki/State_(computer_science)) between calls.

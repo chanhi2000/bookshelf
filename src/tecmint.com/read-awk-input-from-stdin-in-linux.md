@@ -101,7 +101,7 @@ The command above includes the `(==)` comparison operator to help us filter out 
 
 Let us look at another example of where we use an [**awk comparison operator**](/tecmint.com/comparison-operators-in-awk.md) to match a certain string.
 
-Here, we have used the [**`cat` command**](/tecmint.com/13-basic-cat-command-examples-in-linux.md) to view the contents of a file named <FontIcon icon="fas fa-file-lines"/>`tecmint_deals.txt` and we want to view the deals of type **Tech** only, so we shall run the following commands:
+Here, we have used the [**`cat` command**](/tecmint.com/13-basic-cat-command-examples-in-linux.md) to view the contents of a file named <VPIcon icon="fas fa-file-lines"/>`tecmint_deals.txt` and we want to view the deals of type **Tech** only, so we shall run the following commands:
 
 ```sh
 cat tecmint_deals.txt

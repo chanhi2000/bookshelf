@@ -114,7 +114,7 @@ git log --oneline
 
 You can see that the `--oneline` option, as you might expect, shows just the SHA and the commit message for each commit. Your branch has two commits after the one labeled `2512d27 Common Ancestor Commit`.
 
-You need a second branch if you’re going to do a rebase and <FontIcon icon="fas fa-code-branch"/>`master` seems like a good choice. Here’s the current state of the <FontIcon icon="fas fa-code-branch"/>`master` branch:
+You need a second branch if you’re going to do a rebase and <VPIcon icon="fas fa-code-branch"/>`master` seems like a good choice. Here’s the current state of the <VPIcon icon="fas fa-code-branch"/>`master` branch:
 
 ```sh
 git log --oneline master
@@ -125,7 +125,7 @@ git log --oneline master
 # 2512d27 Common Ancestor Commit
 ```
 
-There are three commits on <FontIcon icon="fas fa-code-branch"/>`master` after `2512d27 Common Ancestor Commit`. While you still have <FontIcon icon="fas fa-code-branch"/>`my_feature_branch` checked out, you can do a `rebase` to put the two feature commits **after** the three commits on master:
+There are three commits on <VPIcon icon="fas fa-code-branch"/>`master` after `2512d27 Common Ancestor Commit`. While you still have <VPIcon icon="fas fa-code-branch"/>`my_feature_branch` checked out, you can do a `rebase` to put the two feature commits **after** the three commits on master:
 
 ```sh
 git rebase master
@@ -149,7 +149,7 @@ There are two things to notice in this log listing:
 
 2) The SHAs of those two feature commits have changed.
 
-The SHAs are different because the repo is slightly different. The commits represent the same changes to the files, but since they were added on top of the changes already in <FontIcon icon="fas fa-code-branch"/>`master`, the state of the repo is different, so they have different SHAs.
+The SHAs are different because the repo is slightly different. The commits represent the same changes to the files, but since they were added on top of the changes already in <VPIcon icon="fas fa-code-branch"/>`master`, the state of the repo is different, so they have different SHAs.
 
 If you had done a `merge` instead of a `rebase`, there would have been a new commit with the message `Merge branch 'master' into my_feature_branch`, and the SHAs of the two feature commits would be unchanged. Doing a rebase avoids the extra merge commit and makes your revision history cleaner.
 
@@ -265,7 +265,7 @@ git log --oneline
 # af21a53 [older stuff here]
 ```
 
-Cool! You just hid any evidence that you had to do more than one commit to solve this issue. Good work! Be warned that deciding **when** to do a squash merge is frequently more difficult than the actual process. There’s a great [<FontIcon icon="fas fa-globe"/>article](https://jamescooke.info/git-to-squash-or-not-to-squash.html) that does a nice job of laying out the complexities.
+Cool! You just hid any evidence that you had to do more than one commit to solve this issue. Good work! Be warned that deciding **when** to do a squash merge is frequently more difficult than the actual process. There’s a great [<VPIcon icon="fas fa-globe"/>article](https://jamescooke.info/git-to-squash-or-not-to-squash.html) that does a nice job of laying out the complexities.
 
 As you probably guessed, `git rebase -i` will allow you to do far more complex operations. Let’s look at one more example.
 
@@ -490,11 +490,11 @@ Using `git clean` can wipe out files that are not committed to the repo that you
 
 In its simple form, `git clean` simply removes files that are not “under version control.” This means that files that show up in the `Untracked files` section when you look at `git status` will be removed from the working tree. There is not a way to recover if you do this accidentally, as those files were not in version control.
 
-That’s handy, but what if you want to remove all of the `pyc` files created with your Python modules? Those are in your <FontIcon icon="iconfont icon-git"/>`.gitignore` file, so they don’t show up as Untracked and they don’t get deleted by `git clean`.
+That’s handy, but what if you want to remove all of the `pyc` files created with your Python modules? Those are in your <VPIcon icon="iconfont icon-git"/>`.gitignore` file, so they don’t show up as Untracked and they don’t get deleted by `git clean`.
 
 The `-x` option tells `git clean` to remove untracked and ignored files, so `git clean -x` will take care of that problem. Almost.
 
-Git is a little conservative with the `clean` command and won’t remove untracked directories unless you tell it to do so. Python 3 likes to create <FontIcon icon="fas fa-folder-open"/>`__pycache__` directories, and it’d be nice to clean these up, too. To solve this, you would add the `-d` option. `git clean -xd` will clean up all of the untracked and ignored files and directories.
+Git is a little conservative with the `clean` command and won’t remove untracked directories unless you tell it to do so. Python 3 likes to create <VPIcon icon="fas fa-folder-open"/>`__pycache__` directories, and it’d be nice to clean these up, too. To solve this, you would add the `-d` option. `git clean -xd` will clean up all of the untracked and ignored files and directories.
 
 Now, if you’ve raced ahead and tested this out, you’ve noticed that it doesn’t actually work. Remember that warning I gave at the beginning of this section? Git tries to be cautious when it comes to deleting files that you can’t recover. So, if you try the above command, you see an error message:
 

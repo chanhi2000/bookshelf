@@ -62,7 +62,7 @@ You could do that with plenty of magic numbers, especially in how big the main c
 
 ::: note
 
-I was playing with this trick because I remember Adam Argyle talking about it one time, but couldn’t find where he used it. So I wrote this article up to re-learn and document it. [<FontIcon icon="fas fa-globe"/>Then of course I find the original article.](https://nerdy.dev/carousel-adaptive-anchor-positioning-with-calc-in-a-container-query) So full credit to Adam here. Mine approach here is super similar of course. I think I prefer how his `@container` query uses `cqi` units inside of it in case the parent isn’t the viewport. Clever.
+I was playing with this trick because I remember Adam Argyle talking about it one time, but couldn’t find where he used it. So I wrote this article up to re-learn and document it. [<VPIcon icon="fas fa-globe"/>Then of course I find the original article.](https://nerdy.dev/carousel-adaptive-anchor-positioning-with-calc-in-a-container-query) So full credit to Adam here. Mine approach here is super similar of course. I think I prefer how his `@container` query uses `cqi` units inside of it in case the parent isn’t the viewport. Clever.
 
 :::
 

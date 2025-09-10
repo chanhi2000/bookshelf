@@ -229,7 +229,7 @@ You can also face the need to compare lists. Fortunately, list objects support t
 # True
 ```
 
-When you compare two lists, Python uses [<FontIcon icon="fa-brands fa-python"/>lexicographical ordering](https://docs.python.org/3/tutorial/datastructures.html#comparing-sequences-and-other-types). It compares the first two items from each list. If they’re different, this difference determines the comparison result. If they’re equal, then Python compares the next two items, and so on, until either list is exhausted.
+When you compare two lists, Python uses [<VPIcon icon="fa-brands fa-python"/>lexicographical ordering](https://docs.python.org/3/tutorial/datastructures.html#comparing-sequences-and-other-types). It compares the first two items from each list. If they’re different, this difference determines the comparison result. If they’re equal, then Python compares the next two items, and so on, until either list is exhausted.
 
 In these examples, you compare lists of numbers using the standard comparison operators. In the first expression above, Python compares `2` and `2`, which are equal. Then it compares `3` and `3` to conclude that both lists are equal.
 

@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sor
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sort-vs-Bubble-Sort_Watermarked.5c97ff618265.jpg"/>
 
-**Merge sort** is a very efficient sorting algorithm. It’s based on the [<FontIcon icon="fa-brands fa-wikipedia-w"/>divide-and-conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm) approach, a powerful algorithmic technique used to solve complex problems.
+**Merge sort** is a very efficient sorting algorithm. It’s based on the [<VPIcon icon="fa-brands fa-wikipedia-w"/>divide-and-conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm) approach, a powerful algorithmic technique used to solve complex problems.
 
 To properly understand divide and conquer, you should first understand the concept of **recursion**. Recursion involves breaking a problem down into smaller subproblems until they’re small enough to manage. In programming, recursion is usually expressed by a function calling itself.
 
@@ -123,7 +123,7 @@ def merge(left, right):
 `merge()` receives two different sorted arrays that need to be merged together. The process to accomplish this is straightforward:
 
 - **Lines 4 and 9** check whether either of the arrays is empty. If one of them is, then there’s nothing to merge, so the function returns the other array.
-- **Line 17** starts a [<FontIcon icon="fas fa-globe"/>`while` loop](https://realpython.com/courses/mastering-while-loops/) that ends whenever the result contains all the elements from both of the supplied arrays. The goal is to look into both arrays and combine their items to produce a sorted list.
+- **Line 17** starts a [<VPIcon icon="fas fa-globe"/>`while` loop](https://realpython.com/courses/mastering-while-loops/) that ends whenever the result contains all the elements from both of the supplied arrays. The goal is to look into both arrays and combine their items to produce a sorted list.
 - **Line 21** compares the elements at the head of both arrays, selects the smaller value, and [**appends**](/realpython.com/python-append.md) it to the end of the resultant array.
 - **Lines 31 and 35** append any remaining items to the result if all the elements from either of the arrays were already used.
 
@@ -209,7 +209,7 @@ Compared to bubble sort and insertion sort, the merge sort implementation is ext
 
 ## Analyzing the Strengths and Weaknesses of Merge Sort
 
-Thanks to its runtime complexity of $O\left(n\:\log_{2}{n}\right)$, merge sort is a very efficient algorithm that scales well as the size of the input array grows. It’s also straightforward to [<FontIcon icon="fa-brands fa-wikipedia-w"/>parallelize](https://en.wikipedia.org/wiki/Parallel_algorithm) because it breaks the input array into chunks that can be distributed and processed in parallel if necessary.
+Thanks to its runtime complexity of $O\left(n\:\log_{2}{n}\right)$, merge sort is a very efficient algorithm that scales well as the size of the input array grows. It’s also straightforward to [<VPIcon icon="fa-brands fa-wikipedia-w"/>parallelize](https://en.wikipedia.org/wiki/Parallel_algorithm) because it breaks the input array into chunks that can be distributed and processed in parallel if necessary.
 
 That said, for small lists, the time cost of the recursion allows algorithms such as bubble sort and insertion sort to be faster. For example, running an experiment with a list of ten elements results in the following times:
 

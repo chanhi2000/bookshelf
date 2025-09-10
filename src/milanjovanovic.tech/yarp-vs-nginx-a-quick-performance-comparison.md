@@ -95,7 +95,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_144.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_144.png"/>
 
-When you're building .NET applications, choosing the right **reverse proxy** can make a huge difference. Two popular options keep coming up: Microsoft's [**YARP**](/milanjovanovic.tech//milanjovanovic.tech/implementing-an-api-gateway-for-microservices-with-yarp.md) (Yet Another Reverse Proxy) and the tried-and-true [<FontIcon icon="iconfont icon-nginx"/>Nginx](https://nginx.org/).
+When you're building .NET applications, choosing the right **reverse proxy** can make a huge difference. Two popular options keep coming up: Microsoft's [**YARP**](/milanjovanovic.tech//milanjovanovic.tech/implementing-an-api-gateway-for-microservices-with-yarp.md) (Yet Another Reverse Proxy) and the tried-and-true [<VPIcon icon="iconfont icon-nginx"/>Nginx](https://nginx.org/).
 
 Here's the thing - everyone talks about which one is "better," but rarely do you see actual numbers. So I decided to put both through the same tests and see what happens.
 

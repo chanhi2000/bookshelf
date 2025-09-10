@@ -51,7 +51,7 @@ cover: https://files.realpython.com/media/Context-Managers--the-Python-with-Stat
 
 You’ve already worked with context managers from the standard library and third-party libraries. There’s nothing special or magical about `open()`, `threading.Lock`, `decimal.localcontext()`, or the others. They just return objects that implement the context management protocol.
 
-You can provide the same functionality by implementing both the `.__enter__()` and the `.__exit__()` special methods in your **class-based** context managers. You can also create custom **function-based** context managers using the [<FontIcon icon="fa-brands fa-python"/>`contextlib.contextmanager`](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager) decorator from the standard library and an appropriately coded [**generator**](/realpython.com/introduction-to-python-generators.md) function.
+You can provide the same functionality by implementing both the `.__enter__()` and the `.__exit__()` special methods in your **class-based** context managers. You can also create custom **function-based** context managers using the [<VPIcon icon="fa-brands fa-python"/>`contextlib.contextmanager`](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager) decorator from the standard library and an appropriately coded [**generator**](/realpython.com/introduction-to-python-generators.md) function.
 
 In general, context managers and the `with` statement aren’t limited to resource management. They allow you to provide and reuse common setup and teardown code. In other words, with context managers, you can perform any pair of operations that needs to be done *before* and *after* another operation or procedure, such as:
 

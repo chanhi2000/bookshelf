@@ -103,7 +103,7 @@ On the **Configure Activity** view, click **Finish** to complete the project cre
 
 Android Studio will use Gradle to build your project. This may take a few seconds.
 
-Open <FontIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt`. It should look like this:
+Open <VPIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt`. It should look like this:
 
 ```kotlin
 package com.raywenderlich.android.cityguide
@@ -160,7 +160,7 @@ The template adds the following in the **manifests/AndroidManifest.xml**:
 1. A declaration of the `ACCESS_FINE_LOCATION` permission. This is required to access the user’s precise location.
 2. The `com.google.android.geo.API_KEY` meta-data. This is used to specify the API key.
 
-The template also adds a **Google Play Services** dependency to <FontIcon icon="iconfont icon-gradle"/>`build.gradle`. This dependency exposes the Google Maps and Location Services APIs to the application.
+The template also adds a **Google Play Services** dependency to <VPIcon icon="iconfont icon-gradle"/>`build.gradle`. This dependency exposes the Google Maps and Location Services APIs to the application.
 
 ```groovy
 implementation 'com.google.android.gms:play-services-maps:11.8.0'
@@ -172,7 +172,7 @@ All you have is a blank screen with no map; you haven’t yet set up the API key
 
 ::: note
 
-If you’re using an emulator, the emulator’s installed version will have to satisfy the version of Google Play Services required in your <FontIcon icon="iconfont icon-gradle"/>`build.gradle` file. If you see a message that you need to update the emulator’s Google Play Services version, you can either download the latest Google APIs using your Android Studio SDK Manager and install on your Virtual Device, or lower the version in your gradle dependency.
+If you’re using an emulator, the emulator’s installed version will have to satisfy the version of Google Play Services required in your <VPIcon icon="iconfont icon-gradle"/>`build.gradle` file. If you see a message that you need to update the emulator’s Google Play Services version, you can either download the latest Google APIs using your Android Studio SDK Manager and install on your Virtual Device, or lower the version in your gradle dependency.
 
 :::
 
@@ -180,27 +180,27 @@ If you’re using an emulator, the emulator’s installed version will have to s
 
 ## Using the Google Maps APIs
 
-To use any of the [<FontIcon icon="fa-brands fa-android"/>Google Maps APIs](https://developers.google.com/maps/android/), you need to create an API key and enable any required APIs from the [<FontIcon icon="fa-brands fa-google"/>developer console](https://console.developers.google.com). If you don’t already have a Google account, [<FontIcon icon="fa-brands fa-google"/>create one](https://accounts.google.com/SignUpWithoutGmail) now — it’s free!
+To use any of the [<VPIcon icon="fa-brands fa-android"/>Google Maps APIs](https://developers.google.com/maps/android/), you need to create an API key and enable any required APIs from the [<VPIcon icon="fa-brands fa-google"/>developer console](https://console.developers.google.com). If you don’t already have a Google account, [<VPIcon icon="fa-brands fa-google"/>create one](https://accounts.google.com/SignUpWithoutGmail) now — it’s free!
 
 ### Creating API Keys
 
-Open <FontIcon icon="fas fa-folder-open"/>`res/values/`<FontIcon icon="iconfont icon-code"/>`google_maps_api.xml`. You will see the following:
+Open <VPIcon icon="fas fa-folder-open"/>`res/values/`<VPIcon icon="iconfont icon-code"/>`google_maps_api.xml`. You will see the following:
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/api_key.png)
 
 Now copy and paste the link shown above into your browser.
 
-![On the **Enable an API** page, select **Create a project** and click <FontIcon icon="iconfont icon-select"/>`[Continue]`.](https://koenig-media.raywenderlich.com/uploads/2016/09/mapping_start_project_8_create_api_2.png)
+![On the **Enable an API** page, select **Create a project** and click <VPIcon icon="iconfont icon-select"/>`[Continue]`.](https://koenig-media.raywenderlich.com/uploads/2016/09/mapping_start_project_8_create_api_2.png)
 
-![On the next screen, click the <FontIcon icon="iconfont icon-select"/>`[Create API key]` button to continue.](https://koenig-media.raywenderlich.com/uploads/2016/09/mapping_start_project_9_create_api_3.png)
+![On the next screen, click the <VPIcon icon="iconfont icon-select"/>`[Create API key]` button to continue.](https://koenig-media.raywenderlich.com/uploads/2016/09/mapping_start_project_9_create_api_3.png)
 
-![When that’s done, copy the API key shown in the **API key created** dialog and click <FontIcon icon="iconfont icon-select"/>`[Close]`.](https://koenig-media.raywenderlich.com/uploads/2018/01/api_key2.png)
+![When that’s done, copy the API key shown in the **API key created** dialog and click <VPIcon icon="iconfont icon-select"/>`[Close]`.](https://koenig-media.raywenderlich.com/uploads/2018/01/api_key2.png)
 
-Head back to <FontIcon icon="iconfont icon-code"/>`google_maps_api.xml`, replace the value of `google_maps_key` key with the copied API key. 
+Head back to <VPIcon icon="iconfont icon-code"/>`google_maps_api.xml`, replace the value of `google_maps_key` key with the copied API key. 
 
 ![Build and run again. You should see a map with a red marker on the screen.](https://koenig-media.raywenderlich.com/uploads/2018/01/first_map.png =240x)
 
-Go back to the [<FontIcon icon="fa-brands fa-google"/>developer console](https://console.developers.google.com/apis/library) and enable the **Google Places API for Android**. You will be using this later on to search for a place:
+Go back to the [<VPIcon icon="fa-brands fa-google"/>developer console](https://console.developers.google.com/apis/library) and enable the **Google Places API for Android**. You will be using this later on to search for a place:
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/enable_google_places.png)
 
@@ -212,13 +212,13 @@ Go to your Android Studio Preferences (or Settings on PC) and go to **Editor > G
 
 ![](https://koenig-media.raywenderlich.com/uploads/2018/01/imports.png)
 
-Open <FontIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt` and first rename the `GoogleMap` property to `map` by setting the cursor on it and hitting <kbd>Shift</kbd>+<kbd>F6</kbd>: 
+Open <VPIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt` and first rename the `GoogleMap` property to `map` by setting the cursor on it and hitting <kbd>Shift</kbd>+<kbd>F6</kbd>: 
 
 ```kotlin
 private lateinit var map: GoogleMap
 ```
 
-Open your app <FontIcon icon="iconfont icon-gradle"/>`build.gradle` file and add the Google Maps location dependency:
+Open your app <VPIcon icon="iconfont icon-gradle"/>`build.gradle` file and add the Google Maps location dependency:
 
 ```groovy
 implementation 'com.google.android.gms:play-services-location:11.8.0'
@@ -249,7 +249,7 @@ Now you need to implement all methods declared in each of the interfaces added a
 
 ![Place the cursor anywhere on the class declaration and click on the red light bulb icon that appears above the class declaration.<br/>Select **Implement members** from the options that appear.](https://koenig-media.raywenderlich.com/uploads/2018/01/implement_members.png)
 
-![On the **Implement members** dialog, click <FontIcon icon="iconfont icon-select"/>`[OK]`.](https://koenig-media.raywenderlich.com/uploads/2018/01/implement_members.png)
+![On the **Implement members** dialog, click <VPIcon icon="iconfont icon-select"/>`[OK]`.](https://koenig-media.raywenderlich.com/uploads/2018/01/implement_members.png)
 
 
 
@@ -302,9 +302,9 @@ Your app needs the `ACCESS_FINE_LOCATION` permission for getting the user’s lo
 
 Starting with Android 6.0, user permissions are handled a little differently than before. You don’t request permission during the installation of your app; rather, you request them at run time when the permission is actually required. 
 
-Permissions are classified into two categories: **[<FontIcon icon="fa-brands fa-android"/>normal](https://developer.android.com/guide/topics/security/normal-permissions.html)** and **[<FontIcon icon="fa-brands fa-android"/>dangerous](https://developer.android.com/guide/topics/security/permissions.html#perm-groups)** categories. Permissions that belong to the dangerous category require run time permission from the user. Permissions that request access to the user’s private information such as the user’s [<FontIcon icon="fa-brands fa-android"/>CONTACTS](https://developer.android.com/reference/android/Manifest.permission_group.html#CONTACTS), [<FontIcon icon="fa-brands fa-android"/>CALENDAR](https://developer.android.com/reference/android/Manifest.permission_group.html#CALENDAR), [<FontIcon icon="fa-brands fa-android"/>LOCATION](https://developer.android.com/reference/android/Manifest.permission_group.html#LOCATION) etc. are categorised as dangerous permissions.
+Permissions are classified into two categories: **[<VPIcon icon="fa-brands fa-android"/>normal](https://developer.android.com/guide/topics/security/normal-permissions.html)** and **[<VPIcon icon="fa-brands fa-android"/>dangerous](https://developer.android.com/guide/topics/security/permissions.html#perm-groups)** categories. Permissions that belong to the dangerous category require run time permission from the user. Permissions that request access to the user’s private information such as the user’s [<VPIcon icon="fa-brands fa-android"/>CONTACTS](https://developer.android.com/reference/android/Manifest.permission_group.html#CONTACTS), [<VPIcon icon="fa-brands fa-android"/>CALENDAR](https://developer.android.com/reference/android/Manifest.permission_group.html#CALENDAR), [<VPIcon icon="fa-brands fa-android"/>LOCATION](https://developer.android.com/reference/android/Manifest.permission_group.html#LOCATION) etc. are categorised as dangerous permissions.
 
-Open <FontIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt` and add a `companion object` with the code to request location permission:
+Open <VPIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt` and add a `companion object` with the code to request location permission:
 
 ```kotlin
 companion object {
@@ -329,11 +329,11 @@ The code above checks if the app has been granted the `ACCESS_FINE_LOCATION` per
 
 Add a call to `setUpMap()` at the end of `onMapReady()`.
 
-![Build and run; click <FontIcon icon="iconfont icon-select"/>`[Allow]` to grant permission.](https://koenig-media.raywenderlich.com/uploads/2018/01/allow.png =240x)
+![Build and run; click <VPIcon icon="iconfont icon-select"/>`[Allow]` to grant permission.](https://koenig-media.raywenderlich.com/uploads/2018/01/allow.png =240x)
 
 ::: note
 
-A thorough discussion of user permissions is beyond the scope of this tutorial, but check out [<FontIcon icon="fa-brands fa-android"/>this](https://developer.android.com/training/permissions/requesting.html) document on requesting permissions at run time.
+A thorough discussion of user permissions is beyond the scope of this tutorial, but check out [<VPIcon icon="fa-brands fa-android"/>this](https://developer.android.com/training/permissions/requesting.html) document on requesting permissions at run time.
 
 :::
 
@@ -343,7 +343,7 @@ A thorough discussion of user permissions is beyond the scope of this tutorial, 
 
 One of the most common uses for location services is finding the user’s current location. You do this by requesting the last known location of the user’s device from the Google Play services location APIs.
 
-In <FontIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt`, add the following new property:
+In <VPIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt`, add the following new property:
 
 ```kotlin
 private lateinit var lastLocation: Location
@@ -398,7 +398,7 @@ One way to do this is by using the emulator’s extended controls. Here’s how 
 
 ![2. Select the **Location** item on the left hand side of the **Extended Controls** dialog.](https://koenig-media.raywenderlich.com/uploads/2016/09/Screen-Shot-2016-09-20-at-10.40.22-AM.png)
 
-Enter the latitude and longitude values in the specified fields and click <FontIcon icon="iconfont icon-select"/>`[Send]`.
+Enter the latitude and longitude values in the specified fields and click <VPIcon icon="iconfont icon-select"/>`[Send]`.
 
 ---
 
@@ -406,7 +406,7 @@ Enter the latitude and longitude values in the specified fields and click <FontI
 
 As you may have noticed from the last run, the blue dot on the user’s location is not very prominent. The Android Maps API lets you use a marker object, which is an icon that can be placed at a particular point on the map’s surface.
 
-In <FontIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt` add the following code.
+In <VPIcon icon="iconfont icon-kotlin"/>`MapsActivity.kt` add the following code.
 
 ```kotlin
 private fun placeMarkerOnMap(location: LatLng) {
@@ -459,9 +459,9 @@ markerOptions.icon(
 )
 ```
 
-Download custom pins named `ic_user_location` [<FontIcon icon="fas fa-file-zipper"/>from this link](https://koenig-media.raywenderlich.com/uploads/2016/09/ic_user_location.zip) and unzip it.
+Download custom pins named `ic_user_location` [<VPIcon icon="fas fa-file-zipper"/>from this link](https://koenig-media.raywenderlich.com/uploads/2016/09/ic_user_location.zip) and unzip it.
 
-![Switch to the **Project** view in the Project pane and copy all the files to the corresponding <FontIcon icon="fas fa-folder-open"/>`mipmap` folders of the project](https://koenig-media.raywenderlich.com/uploads/2018/01/mipmap.png)
+![Switch to the **Project** view in the Project pane and copy all the files to the corresponding <VPIcon icon="fas fa-folder-open"/>`mipmap` folders of the project](https://koenig-media.raywenderlich.com/uploads/2018/01/mipmap.png)
 
 Build and run to view your progress so far.
 
@@ -608,8 +608,8 @@ companion object {
 }
 ```
 
-1. Declare a [<FontIcon icon="fa-brands fa-android"/>`LocationCallback`](https://developers.google.com/android/reference/com/google/android/gms/location/LocationCallback) property.
-2. Declare a [<FontIcon icon="fa-brands fa-android"/>`LocationRequest`](https://developers.google.com/android/reference/com/google/android/gms/location/LocationRequest) property and a location updated state property.
+1. Declare a [<VPIcon icon="fa-brands fa-android"/>`LocationCallback`](https://developers.google.com/android/reference/com/google/android/gms/location/LocationCallback) property.
+2. Declare a [<VPIcon icon="fa-brands fa-android"/>`LocationRequest`](https://developers.google.com/android/reference/com/google/android/gms/location/LocationRequest) property and a location updated state property.
 3. `REQUEST_CHECK_SETTINGS` is used as the request code passed to `onActivityResult`.
 
 Next add the following:
@@ -698,7 +698,7 @@ Since this app is supposed to be a guide, a user should be able to search for pl
 
 That’s where the Google Places API comes in; it provides your app the functionality to search for millions of institutions and places of interest. It’s Android Library provides a number of cool functionalities, one of them being the **Place Picker**, which is a UI widget that lets you provide a place search functionality with very few lines of code. Too good to be true? Try it!
 
-Add the places API to your app <FontIcon icon="iconfont icon-gradle"/>`build.gradle`:
+Add the places API to your app <VPIcon icon="iconfont icon-gradle"/>`build.gradle`:
 
 Once again, open `MapsActivity`.
 
@@ -716,7 +716,7 @@ You are almost ready to try out the place search — you just need to call **loa
 
 You’ll create a floating action button (FAB) at the bottom-right of the map to trigger this method. FAB requires `CoordinatorLayout` which is part of the design support library.
 
-Go back to <FontIcon icon="iconfont icon-gradle"/>`build.gradle` for the app and add the **Android support design library** as a dependency:
+Go back to <VPIcon icon="iconfont icon-gradle"/>`build.gradle` for the app and add the **Android support design library** as a dependency:
 
 Then replace the contents of **res > layout > activity_maps.xml** with the following lines of code:
 
@@ -728,13 +728,13 @@ Build and run.
 
 ![Now when you click the search button at the bottom of the map the place picker will load](https://koenig-media.raywenderlich.com/uploads/2018/01/harvard.gif =240x)
 
-You can download the final project from this tutorial [<FontIcon icon="fas fa-file-zipper"/>here][download-material-final]. Remember to put a valid Google Maps API key in <FontIcon icon="iconfont icon-code"/>`google_maps_api.xml` when running the final project.
+You can download the final project from this tutorial [<VPIcon icon="fas fa-file-zipper"/>here][download-material-final]. Remember to put a valid Google Maps API key in <VPIcon icon="iconfont icon-code"/>`google_maps_api.xml` when running the final project.
 
-This Google Maps API tutorial only brushed the surface of what you can do with the Google Maps APIs. The official Google documentation has much more about [<FontIcon icon="fa-brands fa-google"/>web services](https://developers.google.com/maps/web-services/) and [<FontIcon icon="fa-brands fa-android"/>and the Android API here](https://developers.google.com/maps/documentation/android-api/).
+This Google Maps API tutorial only brushed the surface of what you can do with the Google Maps APIs. The official Google documentation has much more about [<VPIcon icon="fa-brands fa-google"/>web services](https://developers.google.com/maps/web-services/) and [<VPIcon icon="fa-brands fa-android"/>and the Android API here](https://developers.google.com/maps/documentation/android-api/).
 
-You can also check out the developer page on other ways to [<FontIcon icon="fa-brands fa-android"/>customize the marker](https://developers.google.com/maps/documentation/android-api/marker#customize_a_marker). User permission checks for run-time permissions need a better implementation than what you’ve done in this Google Maps API tutorial; the docs also have some great information [<FontIcon icon="fa-brands fa-android"/>about more advanced permission granting here](https://developer.android.com/training/permissions/requesting.html).
+You can also check out the developer page on other ways to [<VPIcon icon="fa-brands fa-android"/>customize the marker](https://developers.google.com/maps/documentation/android-api/marker#customize_a_marker). User permission checks for run-time permissions need a better implementation than what you’ve done in this Google Maps API tutorial; the docs also have some great information [<VPIcon icon="fa-brands fa-android"/>about more advanced permission granting here](https://developer.android.com/training/permissions/requesting.html).
 
-Check out the developer pages for extensive reading on the [<FontIcon icon="fa-brands fa-android"/>Google Places API for Android](https://developers.google.com/places/android-api/), [receiving location updates](https://developer.android.com/training/location/change-location-settings.html#location-request) and mocking location data via the [<FontIcon icon="fa-brands fa-android"/>emulator’s extended controls](https://developer.android.com/studio/run/emulator.html#extended).
+Check out the developer pages for extensive reading on the [<VPIcon icon="fa-brands fa-android"/>Google Places API for Android](https://developers.google.com/places/android-api/), [receiving location updates](https://developer.android.com/training/location/change-location-settings.html#location-request) and mocking location data via the [<VPIcon icon="fa-brands fa-android"/>emulator’s extended controls](https://developer.android.com/studio/run/emulator.html#extended).
 
 If you have any questions or comments, please feel free to join the forum discussion below!
 
@@ -818,7 +818,7 @@ Since this app is supposed to be a guide, a user should be able to search for pl
 
 That’s where the Google Places API comes in; it provides your app the functionality to search for millions of institutions and places of interest. It’s Android Library provides a number of cool functionalities, one of them being the **Place Picker**, which is a UI widget that lets you provide a place search functionality with very few lines of code. Too good to be true? Try it!
 
-Add the places API to your app <FontIcon icon="iconfont icon-gradle"/>`build.gradle`:
+Add the places API to your app <VPIcon icon="iconfont icon-gradle"/>`build.gradle`:
 
 ```groovy
 implementation 'com.google.android.gms:play-services-places:11.8.0'
@@ -871,7 +871,7 @@ You are almost ready to try out the place search — you just need to call `load
 
 You’ll create a floating action button (FAB) at the bottom-right of the map to trigger this method. FAB requires `CoordinatorLayout` which is part of the design support library.
 
-Go back to <FontIcon icon="iconfont icon-gradle"/>`build.gradle` for the app and add the **Android support design library** as a dependency:
+Go back to <VPIcon icon="iconfont icon-gradle"/>`build.gradle` for the app and add the **Android support design library** as a dependency:
 
 ```groovy
 implementation 'com.android.support:design:26.1.0'
@@ -930,13 +930,13 @@ Build and run.
 
 ## Where to Go From Here?
 
-You can download the final project from this tutorial [<FontIcon icon="fas fa-file-zipper"/>here][download-material-final]. Remember to put a valid Google Maps API key in **google_maps_api.xml** when running the final project.
+You can download the final project from this tutorial [<VPIcon icon="fas fa-file-zipper"/>here][download-material-final]. Remember to put a valid Google Maps API key in **google_maps_api.xml** when running the final project.
 
-This Google Maps API tutorial only brushed the surface of what you can do with the Google Maps APIs. The official Google documentation has much more about [<FontIcon icon="fa-brands fa-google"/>web services](https://developers.google.com/maps/web-services/) and [<FontIcon icon="fa-brands fa-android"/>and the Android API here](https://developers.google.com/maps/documentation/android-api/).
+This Google Maps API tutorial only brushed the surface of what you can do with the Google Maps APIs. The official Google documentation has much more about [<VPIcon icon="fa-brands fa-google"/>web services](https://developers.google.com/maps/web-services/) and [<VPIcon icon="fa-brands fa-android"/>and the Android API here](https://developers.google.com/maps/documentation/android-api/).
 
-You can also check out the developer page on other ways to [<FontIcon icon="fa-brands fa-android"/>customize the marker](https://developers.google.com/maps/documentation/android-api/marker#customize_a_marker). User permission checks for run-time permissions need a better implementation than what you’ve done in this Google Maps API tutorial; the docs also have some great information [<FontIcon icon="fa-brands fa-android"/>about more advanced permission granting here](https://developer.android.com/training/permissions/requesting.html).
+You can also check out the developer page on other ways to [<VPIcon icon="fa-brands fa-android"/>customize the marker](https://developers.google.com/maps/documentation/android-api/marker#customize_a_marker). User permission checks for run-time permissions need a better implementation than what you’ve done in this Google Maps API tutorial; the docs also have some great information [<VPIcon icon="fa-brands fa-android"/>about more advanced permission granting here](https://developer.android.com/training/permissions/requesting.html).
 
-Check out the developer pages for extensive reading on the [<FontIcon icon="fa-brands fa-android"/>Google Places API for Android](https://developers.google.com/places/android-api/), [receiving location updates](https://developer.android.com/training/location/change-location-settings.html#location-request) and mocking location data via the [<FontIcon icon="fa-brands fa-android"/>emulator’s extended controls](https://developer.android.com/studio/run/emulator.html#extended).
+Check out the developer pages for extensive reading on the [<VPIcon icon="fa-brands fa-android"/>Google Places API for Android](https://developers.google.com/places/android-api/), [receiving location updates](https://developer.android.com/training/location/change-location-settings.html#location-request) and mocking location data via the [<VPIcon icon="fa-brands fa-android"/>emulator’s extended controls](https://developer.android.com/studio/run/emulator.html#extended).
 
 If you have any questions or comments, please feel free to join the forum discussion below!
 

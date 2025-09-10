@@ -62,15 +62,15 @@ However iSCSI components were not designed with containers in mind, which makes 
 
 ## iSCSI components overview
 
-To provide iSCSI support, Kubernetes relies on the standard Linux iSCSI implementation, [<FontIcon icon="iconfont icon-github"/>`open-iscsi/open-iscsi`](https://github.com/open-iscsi/open-iscsi). open-iscsi packages are expected to be installed on cluster nodes. The `open-iscsi` package provides:
+To provide iSCSI support, Kubernetes relies on the standard Linux iSCSI implementation, [<VPIcon icon="iconfont icon-github"/>`open-iscsi/open-iscsi`](https://github.com/open-iscsi/open-iscsi). open-iscsi packages are expected to be installed on cluster nodes. The `open-iscsi` package provides:
 
 - iscsiadm – the iSCSI management tool
 - iscsid – the iSCSI daemon process
 
 The iSCSI kernel modules implementing the data path are loaded and managed as part of the host kernel.
 
-Kubernetes uses *iscsiadm* to execute iSCSI commands on the node. For example, `kubelet` performs the attach and detach of a persistent volume to a node as well as the mount and unmount of a persistent volume to a pod by *exec-ing iscsiadm* commands. Apart from the in-tree plugin, iSCSI is also supported by [<FontIcon icon="fas fa-globe"/>CSI](https://kubernetes-csi.github.io/docs/) (Container Storage Interface) plugins.  
-*iscsiadm* works in conjunction with iscsid and the iscsi kernel modules. *iscsiadm* and *iscsid* communicate over a Unix domain socket. *iscsid* communicates with the kernel modules over a [<FontIcon icon="fas fa-globe"/>netlink](http://man7.org/linux/man-pages/man7/netlink.7.html) socket. It’s worth mentioning that the netlink control code in the kernel is [<FontIcon icon="fa-brands fa-google"/>not network namespace aware](https://groups.google.com/forum/#!msg/open-iscsi/kgjck_GixsM/U_FqTbYhCgAJ) (1)
+Kubernetes uses *iscsiadm* to execute iSCSI commands on the node. For example, `kubelet` performs the attach and detach of a persistent volume to a node as well as the mount and unmount of a persistent volume to a pod by *exec-ing iscsiadm* commands. Apart from the in-tree plugin, iSCSI is also supported by [<VPIcon icon="fas fa-globe"/>CSI](https://kubernetes-csi.github.io/docs/) (Container Storage Interface) plugins.  
+*iscsiadm* works in conjunction with iscsid and the iscsi kernel modules. *iscsiadm* and *iscsid* communicate over a Unix domain socket. *iscsid* communicates with the kernel modules over a [<VPIcon icon="fas fa-globe"/>netlink](http://man7.org/linux/man-pages/man7/netlink.7.html) socket. It’s worth mentioning that the netlink control code in the kernel is [<VPIcon icon="fa-brands fa-google"/>not network namespace aware](https://groups.google.com/forum/#!msg/open-iscsi/kgjck_GixsM/U_FqTbYhCgAJ) (1)
 
 ![blog iSCSI components 1](https://docker.com/app/uploads/engineering/2019/07/blog_iSCSI_components-1-533x300.png)
 
@@ -92,7 +92,7 @@ Typically, there are two components to a CSI Volume Plugin, the Controller plugi
 
 ## open-iscsi in various distributions
 
-Most modern Linux distros use the [<FontIcon icon="iconfont icon-github"/>`open-iscsi/open-iscsi`](https://github.com/open-iscsi/open-iscsi) project to build their iSCSI packages. Different distros use different versions of *open-iscsi.* Some versions of `open-iscsi` have additional library dependencies. Our experiments revealed the following:
+Most modern Linux distros use the [<VPIcon icon="iconfont icon-github"/>`open-iscsi/open-iscsi`](https://github.com/open-iscsi/open-iscsi) project to build their iSCSI packages. Different distros use different versions of *open-iscsi.* Some versions of `open-iscsi` have additional library dependencies. Our experiments revealed the following:
 
 - open-iscsi version 2.0.874 introduced a dependency on a new library, *libisns0*, an implementation of the Internet Storage Name Service (iSNS). For example, this version of `open-iscsi` is used by Ubuntu 18.04.
 - open-iscsi version 2.0.876 introduced a dependency on a new library, *libopeniscsiusr,* iSCSI user level library. For example, this version of `open-iscsi` is shipped as part of SLES 15. These dependencies imply that the container should have access to the libraries as well.
@@ -149,11 +149,11 @@ Add this file to the container image and grant the right permissions.
 
 ![blog netapp add](https://docker.com/app/uploads/engineering/2019/07/blog_netapp_add-730x85.png)
 
-This ensures that every invocation of *iscsiadm* by the container calls the above chroot script. [<FontIcon icon="iconfont icon-github"/>`NetApp/trident`](https://github.com/NetApp/trident) uses this solution to containerize their Docker Volume Plugin.
+This ensures that every invocation of *iscsiadm* by the container calls the above chroot script. [<VPIcon icon="iconfont icon-github"/>`NetApp/trident`](https://github.com/NetApp/trident) uses this solution to containerize their Docker Volume Plugin.
 
 ::: warning Cons:
 
-Container needs host rootfs (or specific host system directories such as <FontIcon icon="fas fa-folder-open"/>`/sbin`, <FontIcon icon="fas fa-folder-open"/>`/usr/sbin`, <FontIcon icon="fas fa-folder-open"/>`/etc`, <FontIcon icon="fas fa-folder-open"/>`/lib64`, <FontIcon icon="fas fa-folder-open"/>`/usr/lib64`, etc) to be bind mounted.
+Container needs host rootfs (or specific host system directories such as <VPIcon icon="fas fa-folder-open"/>`/sbin`, <VPIcon icon="fas fa-folder-open"/>`/usr/sbin`, <VPIcon icon="fas fa-folder-open"/>`/etc`, <VPIcon icon="fas fa-folder-open"/>`/lib64`, <VPIcon icon="fas fa-folder-open"/>`/usr/lib64`, etc) to be bind mounted.
 
 :::
 

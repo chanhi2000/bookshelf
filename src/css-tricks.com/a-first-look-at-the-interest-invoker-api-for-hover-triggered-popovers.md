@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/03/long-hover-ic
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/03/long-hover-icon-tooltip-cursor.jpg"/>
 
-Chrome 139 is experimenting with Open UI’s proposed [<FontIcon icon="fas fa-globe"/>Interest Invoker API](https://open-ui.org/components/interest-invokers.explainer/), which would be used to create tooltips, hover menus, hover cards, quick actions, and other types of UIs for showing more information with hover interactions. The Interest Invoker API makes these components declarative and hover-triggered, meaning that you create them with HTML, and then the web browser handles the `mouseenter` and `mouseleave` events for you, sans JavaScript.
+Chrome 139 is experimenting with Open UI’s proposed [<VPIcon icon="fas fa-globe"/>Interest Invoker API](https://open-ui.org/components/interest-invokers.explainer/), which would be used to create tooltips, hover menus, hover cards, quick actions, and other types of UIs for showing more information with hover interactions. The Interest Invoker API makes these components declarative and hover-triggered, meaning that you create them with HTML, and then the web browser handles the `mouseenter` and `mouseleave` events for you, sans JavaScript.
 
 You’d use it like this:
 
@@ -76,7 +76,7 @@ Ready to dive in?
 
 ## The interest trigger
 
-The *trigger* is what the user will hover ([<FontIcon icon="fas fa-globe"/>or long-press on touchscreen devices](https://open-ui.org/components/interest-invokers.explainer/#touchscreen)) to reveal the interest target. I’d call it an “invoker,” but to avoid confusing it with the [**Invoker Commands API**](/css-tricks.com/invoker-commands-additional-ways-to-work-with-dialog-popover-and-more.md) (which is kind of similar), I’ll stick with “trigger” or “interest trigger” for now.
+The *trigger* is what the user will hover ([<VPIcon icon="fas fa-globe"/>or long-press on touchscreen devices](https://open-ui.org/components/interest-invokers.explainer/#touchscreen)) to reveal the interest target. I’d call it an “invoker,” but to avoid confusing it with the [**Invoker Commands API**](/css-tricks.com/invoker-commands-additional-ways-to-work-with-dialog-popover-and-more.md) (which is kind of similar), I’ll stick with “trigger” or “interest trigger” for now.
 
 The interest trigger can be:
 
@@ -151,11 +151,11 @@ The interest target is what’s revealed when the user hovers (or long-presses) 
 
 However, Open UI’s explainer and Chrome’s current implementation suggest that interest targets disappear on `mouseleave` regardless of the type of popover we’re working with. But redefining popover behavior in this context (or any context) feels wrong to me. If the interest target’s `popover` attribute is set to `manual`, for example, shouldn’t it persist after `mouseleave`?
 
-[<FontIcon icon="fas fa-globe"/>Open UI discusses browsers baking the accessibility in](https://open-ui.org/components/interest-invokers.explainer/#accessibility) depending on the popover type, which justifies interest invokers building off of popovers, but I think accessibility should depend on the content (unless overwritten using ARIA attributes) rather than the popover type.
+[<VPIcon icon="fas fa-globe"/>Open UI discusses browsers baking the accessibility in](https://open-ui.org/components/interest-invokers.explainer/#accessibility) depending on the popover type, which justifies interest invokers building off of popovers, but I think accessibility should depend on the content (unless overwritten using ARIA attributes) rather than the popover type.
 
 In short, it seems like interest invokers are designed to be used with popovers but for all the wrong reasons (in my opinion anyway). That said, it’s early days still. Interest invokers are very experimental and it’s certainly possible that I’m overlooking something.
 
-They’re otherwise straightforward, which is on-brand for Open UI (look at the [<FontIcon icon="fas fa-globe"/>Customizable Select](https://open-ui.org/components/customizableselect/), after all). They take commonly-used JavaScript-powered components (such as [<FontIcon icon="fas fa-globe"/>exclusive accordions](https://open-ui.org/components/accordion.explainer/), [<FontIcon icon="fas fa-globe"/>invoker commands](https://open-ui.org/components/invokers.explainer/), and yes, [<FontIcon icon="fas fa-globe"/>popovers](https://open-ui.org/components/popover.research.explainer/)) and make them possible with declarative HTML.
+They’re otherwise straightforward, which is on-brand for Open UI (look at the [<VPIcon icon="fas fa-globe"/>Customizable Select](https://open-ui.org/components/customizableselect/), after all). They take commonly-used JavaScript-powered components (such as [<VPIcon icon="fas fa-globe"/>exclusive accordions](https://open-ui.org/components/accordion.explainer/), [<VPIcon icon="fas fa-globe"/>invoker commands](https://open-ui.org/components/invokers.explainer/), and yes, [<VPIcon icon="fas fa-globe"/>popovers](https://open-ui.org/components/popover.research.explainer/)) and make them possible with declarative HTML.
 
 That said, there are some JavaScript events that we can use, too. Let’s take a look at those.
 
@@ -285,7 +285,7 @@ Nothing really new here as far as what we’ve already discussed, but I find it 
 
 On the surface, interest invokers are simply hover-triggered popovers, but touchscreen devices have never handled hovering well. In addition, hovering is susceptible to human-error, and we certainly don’t want to force keyboards and screen readers to tab into a minefield of focusables. There’s a lot to consider, and Open UI have done a wonderful job of ensuring that user agents do the lion’s share of it.
 
-But there’s still more to consider. For example, [<FontIcon icon="fas fa-globe"/>how exactly would we open interest targets on touchscreen devices?](https://open-ui.org/components/interest-invokers.explainer/#touchscreen) Long-press + “View more info” from the context menu seems to be the best approach at the moment, but that’s a tough one!
+But there’s still more to consider. For example, [<VPIcon icon="fas fa-globe"/>how exactly would we open interest targets on touchscreen devices?](https://open-ui.org/components/interest-invokers.explainer/#touchscreen) Long-press + “View more info” from the context menu seems to be the best approach at the moment, but that’s a tough one!
 
 And, as we’ve discussed, there’s a lot for us to consider, too, such as those delay timings and how interest invokers should be styled. What should interest triggers and targets look like when they have interest? What about the hotkey instruction? We’re talking about some new concepts here, that might require new UX conventions.
 

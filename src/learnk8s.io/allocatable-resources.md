@@ -113,13 +113,13 @@ The operating system and the kubelet require memory and CPU, too, and you should
 If you look closely at a single Node, you can divide the available resources into:
 
 1. Resources needed to run the operating system and system daemons such as SSH, systemd, etc.
-2. Resources necessary to run Kubernetes agents such as the Kubelet, the container runtime, [node problem detector (<FontIcon icon="iconfont icon-github"/>`kubernetes/node-problem-detector`)](https://github.com/kubernetes/node-problem-detector), etc.
+2. Resources necessary to run Kubernetes agents such as the Kubelet, the container runtime, [node problem detector (<VPIcon icon="iconfont icon-github"/>`kubernetes/node-problem-detector`)](https://github.com/kubernetes/node-problem-detector), etc.
 3. Resources available to Pods.
-4. Resources reserved to the [<FontIcon icon="iconfont icon-k8s"/>eviction threshold](https://kubernetes.io/docs/tasks/administer-cluster/reserve-compute-resources/#eviction-thresholds).
+4. Resources reserved to the [<VPIcon icon="iconfont icon-k8s"/>eviction threshold](https://kubernetes.io/docs/tasks/administer-cluster/reserve-compute-resources/#eviction-thresholds).
 
 ![The amount of compute resources that are available to Pods](https://learnk8s.io/a/35bda739ecd82613ebe2bc144122a051.svg)
 
-As you can guess, [<FontIcon icon="iconfont icon-k8s"/>all of those quotas are customisable.](https://kubernetes.io/docs/tasks/administer-cluster/reserve-compute-resources/#eviction-thresholds)
+As you can guess, [<VPIcon icon="iconfont icon-k8s"/>all of those quotas are customisable.](https://kubernetes.io/docs/tasks/administer-cluster/reserve-compute-resources/#eviction-thresholds)
 
 However, please note that reserving 100MB of memory for the operating system doesn't mean that the OS is limited to using only that amount.
 
@@ -129,13 +129,13 @@ It could use more (or less) resources—you're just allocating and estimating me
 
 Unfortunately, there isn't a *fixed* answer, as it depends on your cluster.
 
-However, there's consensus in the major managed Kubernetes services [<FontIcon icon="fa-brands fa-google"/>Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine), <FontIcon icon="iconfont icon-microsoftazure"/>[Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes), and [<FontIcon icon="fa-brands fa-aws"/>Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/), and it's worth discussing how they partition the available resources.
+However, there's consensus in the major managed Kubernetes services [<VPIcon icon="fa-brands fa-google"/>Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine), <VPIcon icon="iconfont icon-microsoftazure"/>[Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes), and [<VPIcon icon="fa-brands fa-aws"/>Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/), and it's worth discussing how they partition the available resources.
 
 ---
 
 ## Google Kubernetes Engine (GKE)
 
-Google Kubernetes Engine (GKE) has [<FontIcon icon="fa-brands fa-google"/>a well-defined list of rules to assign memory and CPU to a Node](https://cloud.google.com/kubernetes-engine/docs/concepts/plan-node-sizes#memory_and_cpu_reservations).
+Google Kubernetes Engine (GKE) has [<VPIcon icon="fa-brands fa-google"/>a well-defined list of rules to assign memory and CPU to a Node](https://cloud.google.com/kubernetes-engine/docs/concepts/plan-node-sizes#memory_and_cpu_reservations).
 
 For memory resources, GKE reserves the following:
 
@@ -204,7 +204,7 @@ Let's explore Elastic Kubernetes Service (EKS) allocations.
 
 ::: note
 
-Unfortunately, Elastic Kubernetes Service (EKS) doesn't offer documentation for allocatable resources. You can [rely on their code implementation (<FontIcon icon="iconfont icon-github"/>`awslabs/amazon-eks-ami`)](https://github.com/awslabs/amazon-eks-ami/blob/d87c6c49638216907cbd6630b6cadfd4825aed20/templates/al2/runtime/bootstrap.sh#L517) to extract the values.
+Unfortunately, Elastic Kubernetes Service (EKS) doesn't offer documentation for allocatable resources. You can [rely on their code implementation (<VPIcon icon="iconfont icon-github"/>`awslabs/amazon-eks-ami`)](https://github.com/awslabs/amazon-eks-ami/blob/d87c6c49638216907cbd6630b6cadfd4825aed20/templates/al2/runtime/bootstrap.sh#L517) to extract the values.
 
 :::
 
@@ -225,11 +225,11 @@ For example, an `m5.large` instance can only run 29 Pods, but an `m5.4xlarge` ca
 
 The Container Network Interface (CNI) uses and assigns those IP addresses to Pods.
 
-However, this limit doesn't apply if you use [<FontIcon icon="fa-brands fa-aws"/>EC2 prefix delegation via the AWS-CNI](https://docs.aws.amazon.com/eks/latest/userguide/cni-increase-ip-addresses.html) or any other CNI that supports it (e.g. [<FontIcon icon="fas fa-globe"/>Cilium](https://isovalent.com/blog/post/cilium-release-112/)).
+However, this limit doesn't apply if you use [<VPIcon icon="fa-brands fa-aws"/>EC2 prefix delegation via the AWS-CNI](https://docs.aws.amazon.com/eks/latest/userguide/cni-increase-ip-addresses.html) or any other CNI that supports it (e.g. [<VPIcon icon="fas fa-globe"/>Cilium](https://isovalent.com/blog/post/cilium-release-112/)).
 
 So, figuring out the limit for your EC2 instances isn't exactly obvious.
 
-For this, [<FontIcon icon="fa-brands fa-aws"/>AWS offers a script you can execute to estimate the maximum number of pods per instance.](https://docs.aws.amazon.com/eks/latest/userguide/choosing-instance-type.html)
+For this, [<VPIcon icon="fa-brands fa-aws"/>AWS offers a script you can execute to estimate the maximum number of pods per instance.](https://docs.aws.amazon.com/eks/latest/userguide/choosing-instance-type.html)
 
 Let's have a look at an example.
 
@@ -266,7 +266,7 @@ $$
 \end{align*}
 $$
 
-For CPU resources, [EKS follows the GKE implementation (<FontIcon icon="iconfont icon-github"/>`awslabs/amazon-eks-ami`)](https://github.com/awslabs/amazon-eks-ami/blob/d87c6c49638216907cbd6630b6cadfd4825aed20/templates/al2/runtime/bootstrap.sh#L285) and reserves:
+For CPU resources, [EKS follows the GKE implementation (<VPIcon icon="iconfont icon-github"/>`awslabs/amazon-eks-ami`)](https://github.com/awslabs/amazon-eks-ami/blob/d87c6c49638216907cbd6630b6cadfd4825aed20/templates/al2/runtime/bootstrap.sh#L285) and reserves:
 
 - 6% of the first core
 - 1% of the following core (up to 2 cores)
@@ -289,7 +289,7 @@ It's interesting to note that the memory allocatable to Pods is 90% when prefix 
 
 ## Azure Kubernetes Service
 
-Azure offers [<FontIcon icon="iconfont icon-microsoftazure"/>a detailed explanation of their resource allocations](https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads#resource-reservations).
+Azure offers [<VPIcon icon="iconfont icon-microsoftazure"/>a detailed explanation of their resource allocations](https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads#resource-reservations).
 
 The memory reserved for AKS with Kubernetes 1.29 and above is:
 

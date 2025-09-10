@@ -117,7 +117,7 @@ public class ExceptionHandlingMiddleware
 }
 ```
 
-The `ExceptionHandlingMiddleware` will catch any unhandled exception and return a [<FontIcon icon="fas fa-globe"/>Problem Details](https://rfc-editor.org/rfc/rfc7807.html) response. You can decide how much information you want to return to the caller. In this example, I'm hiding the exception details.
+The `ExceptionHandlingMiddleware` will catch any unhandled exception and return a [<VPIcon icon="fas fa-globe"/>Problem Details](https://rfc-editor.org/rfc/rfc7807.html) response. You can decide how much information you want to return to the caller. In this example, I'm hiding the exception details.
 
 You also need to add this middleware to the ASP.NET Core request pipeline:
 
@@ -129,7 +129,7 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 ## New Way: IExceptionHandler
 
-[<FontIcon icon="fa-brands fa-microsoft"/>ASP.NET Core 8](https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-8.0) introduces a new [<FontIcon icon="fa-brands fa-microsoft"/>`IExceptionHandler`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.diagnostics.iexceptionhandler?view=aspnetcore-8.0) abstraction for managing exceptions. The built-in exception handler middleware uses `IExceptionHandler` implementations to handle exceptions.
+[<VPIcon icon="fa-brands fa-microsoft"/>ASP.NET Core 8](https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-8.0) introduces a new [<VPIcon icon="fa-brands fa-microsoft"/>`IExceptionHandler`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.diagnostics.iexceptionhandler?view=aspnetcore-8.0) abstraction for managing exceptions. The built-in exception handler middleware uses `IExceptionHandler` implementations to handle exceptions.
 
 This interface has only one `TryHandleAsync` method.
 
@@ -178,11 +178,11 @@ internal sealed class GlobalExceptionHandler : IExceptionHandler
 You need two things to add an `IExceptionHandler` implementation to the ASP.NET Core request pipeline:
 
 1. Register the `IExceptionHandler` service with dependency injection
-2. Register the [<FontIcon icon="fa-brands fa-microsoft"/>`ExceptionHandlerMiddleware`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.diagnostics.exceptionhandlermiddleware?view=aspnetcore-8.0) with the request pipeline
+2. Register the [<VPIcon icon="fa-brands fa-microsoft"/>`ExceptionHandlerMiddleware`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.diagnostics.exceptionhandlermiddleware?view=aspnetcore-8.0) with the request pipeline
 
 You call the `AddExceptionHandler` method to register the `GlobalExceptionHandler` as a service. It's registered with a [**singleton lifetime**](/milanjovanovic.tech/improving-aspnetcore-dependency-injection-with-scrutor.md). So be careful about injecting services with a different lifetime.
 
-I'm also calling `AddProblemDetails` to generate a [<FontIcon icon="fas fa-globe"/>Problem Details](https://rfc-editor.org/rfc/rfc7807.html) response for common exceptions.
+I'm also calling `AddProblemDetails` to generate a [<VPIcon icon="fas fa-globe"/>Problem Details](https://rfc-editor.org/rfc/rfc7807.html) response for common exceptions.
 
 ```cs
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
@@ -308,11 +308,11 @@ Using middleware for exception handling is an excellent solution in ASP.NET Core
 
 I'm very much against using exceptions for flow control. Exceptions are a last resort when you can't continue normal application execution. The [**Result pattern**](/milanjovanovic.tech/functional-error-handling-in-dotnet-with-the-result-pattern.md) is a better alternative.
 
-Exceptions are also [extremely expensive (<FontIcon icon="iconfont icon-github"/>`dotnet/aspnetcore`)](https://github.com/dotnet/aspnetcore/issues/46280#issuecomment-1527898867), as David Fowler noted:
+Exceptions are also [extremely expensive (<VPIcon icon="iconfont icon-github"/>`dotnet/aspnetcore`)](https://github.com/dotnet/aspnetcore/issues/46280#issuecomment-1527898867), as David Fowler noted:
 
 ![](https://milanjovanovic.tech/blogs/mnw_066/fowler_comment.png?imwidth=3840)
 
-If you want to get rid of exceptions in your code, [<FontIcon icon="fa-brands fa-youtube"/>**check out this video.**](https://youtu.be/WCCkEe_Hy2Y)
+If you want to get rid of exceptions in your code, [<VPIcon icon="fa-brands fa-youtube"/>**check out this video.**](https://youtu.be/WCCkEe_Hy2Y)
 
 <VidStack src="youtube/WCCkEe_Hy2Y" />
 

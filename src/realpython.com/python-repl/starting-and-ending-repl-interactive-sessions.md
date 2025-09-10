@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL_Watermarked.dce4d5791b83.jpg"/>
 
-The Python standard REPL is available in every Python installation. To start a new REPL or interactive session, you just need to run the Python interpreter in interactive mode from your command line. This mode will put you into a [<FontIcon icon="fa-brands fa-wikipedia-w"/>shell](https://en.wikipedia.org/wiki/Shell_(computing)) environment where you can execute Python code. Learning how the input code works is basically a way of getting immediate feedback on it.
+The Python standard REPL is available in every Python installation. To start a new REPL or interactive session, you just need to run the Python interpreter in interactive mode from your command line. This mode will put you into a [<VPIcon icon="fa-brands fa-wikipedia-w"/>shell](https://en.wikipedia.org/wiki/Shell_(computing)) environment where you can execute Python code. Learning how the input code works is basically a way of getting immediate feedback on it.
 
 In the following sections, you’ll learn how to start a new Python interactive shell using the `python` command and some of its command-line options.
 
@@ -79,7 +79,7 @@ The last line, which is highlighted in the output, shows the **primary prompt** 
 
 ::: note
 
-The Python standard REPL doesn’t support [<FontIcon icon="fa-brands fa-wikipedia-w"/>syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting). However, in this tutorial, you’ll find that the examples are rendered using a syntax highlighter. Keep this detail in mind because you won’t get syntax highlighting when you run the examples on your computer.
+The Python standard REPL doesn’t support [<VPIcon icon="fa-brands fa-wikipedia-w"/>syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting). However, in this tutorial, you’ll find that the examples are rendered using a syntax highlighter. Keep this detail in mind because you won’t get syntax highlighting when you run the examples on your computer.
 
 :::
 
@@ -89,7 +89,7 @@ The interpreter also has a **secondary prompt** represented by three dots (`...`
 
 ## Passing Command-Line Options to the `python` Command
 
-The `python` command can take a bunch of command-line options. A few of them can be useful when working in a REPL session. One of the most relevant options in this context is the `-i` flag. This option makes the interpreter enter the interactive mode after running a script or executing a piece of code using the [<FontIcon icon="fa-brands fa-python"/>`-c`](https://docs.python.org/3/using/cmdline.html#cmdoption-c) option.
+The `python` command can take a bunch of command-line options. A few of them can be useful when working in a REPL session. One of the most relevant options in this context is the `-i` flag. This option makes the interpreter enter the interactive mode after running a script or executing a piece of code using the [<VPIcon icon="fa-brands fa-python"/>`-c`](https://docs.python.org/3/using/cmdline.html#cmdoption-c) option.
 
 ::: note
 
@@ -122,9 +122,9 @@ Go ahead and run the script with the following command:
 python -i sample.py
 ```
 
-Once you press <kbd>Enter</kbd>, this command runs the code in <FontIcon icon="fa-brands fa-python"/>`sample.py` and takes you directly to an interactive session. You’ll recognize this session because your screen will present the REPL’s primary prompt (`>>>`).
+Once you press <kbd>Enter</kbd>, this command runs the code in <VPIcon icon="fa-brands fa-python"/>`sample.py` and takes you directly to an interactive session. You’ll recognize this session because your screen will present the REPL’s primary prompt (`>>>`).
 
-From this point on, you can inspect, test, and debug the code in <FontIcon icon="fa-brands fa-python"/>`sample.py` as needed:
+From this point on, you can inspect, test, and debug the code in <VPIcon icon="fa-brands fa-python"/>`sample.py` as needed:
 
 ```py :collapsed-lines
 globals()
@@ -162,7 +162,7 @@ The final example calls `mean()` with an empty list as an argument. In this case
 
 ::: note
 
-When you use the `-i` command-line option with the `python` command, keep in mind that the [<FontIcon icon="fa-brands fa-python"/>`PYTHONSTARTUP`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONSTARTUP) environment variable won’t be read. You’ll learn more about this environment variable in the [Providing a Startup File](/realpython.com/python-repl/customizing-the-standard-repl.md##providing-a-startup-file) section.
+When you use the `-i` command-line option with the `python` command, keep in mind that the [<VPIcon icon="fa-brands fa-python"/>`PYTHONSTARTUP`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONSTARTUP) environment variable won’t be read. You’ll learn more about this environment variable in the [Providing a Startup File](/realpython.com/python-repl/customizing-the-standard-repl.md##providing-a-startup-file) section.
 
 The `-b` flag is another command-line option to consider when you run Python in interactive mode. This option comes in handy when you’re running code that compares [**`bytes`**](/realpython.com/python-data-structures.md#bytes-immutable-arrays-of-single-bytes) objects, and you want to get a warning if a [**string**](/realpython.com/python-strings.md) or integer value gets in the middle of a comparison:
 
@@ -201,10 +201,10 @@ This may be the case when you’re using Python in interactive mode. Once inside
 
 There are a few ways to exit an interactive session. You can use either of the following Python functions:
 
-- [<FontIcon icon="fa-brands fa-python"/>`quit()`](https://docs.python.org/3/library/constants.html#quit)
-- [<FontIcon icon="fa-brands fa-python"/>`exit()`](https://docs.python.org/3/library/constants.html?highlight=quit#exit)
+- [<VPIcon icon="fa-brands fa-python"/>`quit()`](https://docs.python.org/3/library/constants.html#quit)
+- [<VPIcon icon="fa-brands fa-python"/>`exit()`](https://docs.python.org/3/library/constants.html?highlight=quit#exit)
 
-These two functions are built into Python. Therefore, they’re available to you at any moment in an interactive session. Both functions allow you to exit the current session by implicitly raising a [<FontIcon icon="fa-brands fa-python"/>`SystemExit`](https://docs.python.org/3/library/exceptions.html#SystemExit) exception.
+These two functions are built into Python. Therefore, they’re available to you at any moment in an interactive session. Both functions allow you to exit the current session by implicitly raising a [<VPIcon icon="fa-brands fa-python"/>`SystemExit`](https://docs.python.org/3/library/exceptions.html#SystemExit) exception.
 
 Alternatively, you can explicitly raise the `SystemExit` exception manually with an exit code of `0`. You’ll get the same result, and your current REPL session will terminate.
 

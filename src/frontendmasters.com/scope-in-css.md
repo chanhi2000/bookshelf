@@ -52,11 +52,11 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 ::: info
 
-This is a written adaptation of my talk at CSS Day 2025. It was a lovely event, but I realize life is complicated and not everyone can make it to events like this. There are videos up paywalled at [<FontIcon icon="fas fa-globe"/>conffab.com](https://conffab.com/). I figure this written version can make my points as well.
+This is a written adaptation of my talk at CSS Day 2025. It was a lovely event, but I realize life is complicated and not everyone can make it to events like this. There are videos up paywalled at [<VPIcon icon="fas fa-globe"/>conffab.com](https://conffab.com/). I figure this written version can make my points as well.
 
 If it’s helpful to have the slides, here ya go:
 
-[<FontIcon icon="fas fa-file-pdf"/>`scope_slides.pdf` Download](https://frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.pdf)
+[<VPIcon icon="fas fa-file-pdf"/>`scope_slides.pdf` Download](https://frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.pdf)
 
 :::
 
@@ -136,7 +136,7 @@ If it’s helpful to have the slides, here ya go:
 
 ![The first time I came across the shadow DOM was when I advocated for `<use>` in SVG as a better alternative for icons than using icon fonts. When you `<use>` another bit of SVG, it clones it into a shadow root and becomes an `<svg>` of it’s own.<br/><br/>Form elements often use shadow roots to abstract away their UI implementations as well.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.041.jpeg?resize=1024%2C576&ssl=1)
 
-![We can make our own shadow DOM now with [<FontIcon icon="fas fa-globe"/>Web Components](https://frontendmasters.com/courses/web-components/). But bear in mind you don’t have to. Keeping to the light DOM [**can be awfully nice**](/frontendmasters.com/light-dom-only.md).](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.042.jpeg?resize=1024%2C576&ssl=1)
+![We can make our own shadow DOM now with [<VPIcon icon="fas fa-globe"/>Web Components](https://frontendmasters.com/courses/web-components/). But bear in mind you don’t have to. Keeping to the light DOM [**can be awfully nice**](/frontendmasters.com/light-dom-only.md).](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.042.jpeg?resize=1024%2C576&ssl=1)
 
 ![As we’ve covered, scoping can be kinda great, and the fact that we can opt-in to it in Web Components is nice. It’s a one-liner to make a custom element have a shadow DOM.<br/><br/>Here, I’m injecting a `<style>` tag into that shadow DOM, which will inherently be scoped.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.043.jpeg?resize=1024%2C576&ssl=1)
 
@@ -148,7 +148,7 @@ If it’s helpful to have the slides, here ya go:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.047-1.jpeg?resize=1024%2C576&ssl=1)
 
-![When we talk about styling via classes, there used to be several different names of projects we could point to, but these days let’s be real: it’s [<FontIcon icon="iconfont icon-tailwindcss"/>Tailwind](https://tailwindcss.com/).](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.048.jpeg?resize=1024%2C576&ssl=1)
+![When we talk about styling via classes, there used to be several different names of projects we could point to, but these days let’s be real: it’s [<VPIcon icon="iconfont icon-tailwindcss"/>Tailwind](https://tailwindcss.com/).](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.048.jpeg?resize=1024%2C576&ssl=1)
 
 ![Since you aren’t writing classes or other selectors to do styling in Tailwind, the styles you are applying are already scoped.<br/><br/>Even if it’s not the main reason people choose a tool like Tailwind, it is a potential benefit.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.049.jpeg?resize=1024%2C576&ssl=1)
 
@@ -156,9 +156,9 @@ If it’s helpful to have the slides, here ya go:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.052.jpeg?resize=1024%2C576&ssl=1)
 
-![CSS actually has a thing called [<FontIcon icon="fa-brands fa-firefox"/>`@scope`](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope) now. Props to Miriam Suzanne for brainchilding and shepherding it.<br/><br/>My knowledge of `@scope` is just from playing around and reading the work of people who write on MDN and for Google’s sites and fellow bloggers. So thank you to everyone who makes technical content. I probably read it.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.053.jpeg?resize=1024%2C576&ssl=1)
+![CSS actually has a thing called [<VPIcon icon="fa-brands fa-firefox"/>`@scope`](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope) now. Props to Miriam Suzanne for brainchilding and shepherding it.<br/><br/>My knowledge of `@scope` is just from playing around and reading the work of people who write on MDN and for Google’s sites and fellow bloggers. So thank you to everyone who makes technical content. I probably read it.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.053.jpeg?resize=1024%2C576&ssl=1)
 
-![If you’re wondering about browser support, basically the story is it’s waiting for Firefox, which already has it under a flag. It’s in [<FontIcon icon="iconfont icon-webdev"/>Interop 2025](https://web.dev/blog/interop-2025), so it shouldn’t be too long.<br/><br/>I’d say it doesn’t progressively enhance terribly well, so chill on it a sec.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.054.jpeg?resize=1024%2C576&ssl=1)
+![If you’re wondering about browser support, basically the story is it’s waiting for Firefox, which already has it under a flag. It’s in [<VPIcon icon="iconfont icon-webdev"/>Interop 2025](https://web.dev/blog/interop-2025), so it shouldn’t be too long.<br/><br/>I’d say it doesn’t progressively enhance terribly well, so chill on it a sec.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.054.jpeg?resize=1024%2C576&ssl=1)
 
 ![The first glance at the syntax had me feeling it left, uh, something to be desired.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.055.jpeg?resize=1024%2C576&ssl=1)
 
@@ -166,13 +166,13 @@ If it’s helpful to have the slides, here ya go:
 
 ![Rather than writing `.card {}` we could write `@scope (.card) {}` and it’s… almost exactly the same functionality just more characters to type.<br/><br/>At least, that was my initial impression.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.057.jpeg?resize=1024%2C576&ssl=1)
 
-![For the record, we should be able to test the support of it like this. But we can’t. Because `at-rule()`, [while agreed upon (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/2463#issuecomment-1016720310), isn’t implemented anywhere yet. When it is, it’s likely any browser that supports it will also support `@scope` so this will probably never be a useful combo.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.058.jpeg?resize=1024%2C576&ssl=1)
+![For the record, we should be able to test the support of it like this. But we can’t. Because `at-rule()`, [while agreed upon (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/2463#issuecomment-1016720310), isn’t implemented anywhere yet. When it is, it’s likely any browser that supports it will also support `@scope` so this will probably never be a useful combo.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.058.jpeg?resize=1024%2C576&ssl=1)
 
 ![While that very basic demo of the syntax isn’t dripping with usefulness, there are some somewhat niche things that `@scope` can do that do have their uses.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.059.jpeg?resize=1024%2C576&ssl=1)
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.060.jpeg?resize=1024%2C576&ssl=1)
 
-![Nicole Sullivan blogged [<FontIcon icon="fas fa-globe"/>scope donuts](https://stubbornella.org/2011/10/08/scope-donuts/) in 2011 and it’s just now a thing. So that’s a lesson for you. If you want something in the web platform, make a good case for it then wait 15 years.<br/><br/>Donut scoping is a way to select an element and allow descendent selectors as usual, *up until a point you specify* where descendent selectors no longer apply.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.061.jpeg?resize=1024%2C576&ssl=1)
+![Nicole Sullivan blogged [<VPIcon icon="fas fa-globe"/>scope donuts](https://stubbornella.org/2011/10/08/scope-donuts/) in 2011 and it’s just now a thing. So that’s a lesson for you. If you want something in the web platform, make a good case for it then wait 15 years.<br/><br/>Donut scoping is a way to select an element and allow descendent selectors as usual, *up until a point you specify* where descendent selectors no longer apply.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.061.jpeg?resize=1024%2C576&ssl=1)
 
 ![I always think of element that contain body copy as a use case. Like chunks of converted markdown are special little bubbles with their own styles and you want to prevent other styles leaking int there that you don’t want.<br/><br/>Here’s an example of an article on WIRED where we can clearly see some body copy (and non-body copy).](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.062.jpeg?resize=1024%2C576&ssl=1)
 
@@ -233,7 +233,7 @@ If it’s helpful to have the slides, here ya go:
 
 ![What if we just did this “instead” of linking up CSS files and finding scoping solutions there? Maybe this is just how we style most everything on the page. Perhaps from the “component” level on down. Is that a reasonable thing to do?](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.087.jpeg?resize=1024%2C576&ssl=1)
 
-![[I did attempt to build a demo (<FontIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/YPXyYqW) with 1,000 cards where one page loaded CSS “regularly” with one stylesheet that applies to all the cards. Then another page where each of the 1,000 cards has a `@scope`-d `<style>` block within it.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.088.jpeg?resize=1024%2C576&ssl=1)
+![[I did attempt to build a demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/editor/chriscoyier/pen/YPXyYqW) with 1,000 cards where one page loaded CSS “regularly” with one stylesheet that applies to all the cards. Then another page where each of the 1,000 cards has a `@scope`-d `<style>` block within it.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.088.jpeg?resize=1024%2C576&ssl=1)
 
 ![You’d think the 1,000 extra `<style>` blocks would be awful for performance, but, quite weirdly, the difference was almost undetectable. **I think this was a poor test though** as there was so much of the exact same code the browser was probably great at optimizing it. A better test would be tons of totally different components and include interactivity.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.089.jpeg?resize=1024%2C576&ssl=1)
 

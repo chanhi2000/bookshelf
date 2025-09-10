@@ -58,7 +58,7 @@ isOriginal: false
 }
 ```
 
-C++ has a few different mechanisms for handling errors. One is [<FontIcon icon="iconfont icon-cpp"/>`std::expected`](https://en.cppreference.com/w/cpp/utility/expected), where the return type of a function is either the expected value or an error value. Another is [<FontIcon icon="iconfont icon-cpp"/>exceptions](https://cplusplus.com/doc/tutorial/exceptions/), which come with a whole host of downsides (we'll get there in a moment). Personally, I find that I end up hand-rolling something more like `std::expected` in C++ more often than not, and the experience isn't great.
+C++ has a few different mechanisms for handling errors. One is [<VPIcon icon="iconfont icon-cpp"/>`std::expected`](https://en.cppreference.com/w/cpp/utility/expected), where the return type of a function is either the expected value or an error value. Another is [<VPIcon icon="iconfont icon-cpp"/>exceptions](https://cplusplus.com/doc/tutorial/exceptions/), which come with a whole host of downsides (we'll get there in a moment). Personally, I find that I end up hand-rolling something more like `std::expected` in C++ more often than not, and the experience isn't great.
 
 Swift takes some of the syntax of C++ exceptions (`throw` and `catch`), but the underlying philosophy of error handling in Swift is a bit different from C++. To get to it, let's start by looking at some of the issues with C++ exceptions, as they will help inform the choices made in Swift.
 
@@ -66,7 +66,7 @@ Swift takes some of the syntax of C++ exceptions (`throw` and `catch`), but the 
 
 ## Issues with C++ exceptions
 
-Herb Sutter did quite an excellent job of laying out the issues with C++ exceptions in [<FontIcon icon="fas fa-file-pdf"/>P0709](https://open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0709r4.pdf). Rather than come up with my own formulation from scratch, I'll quote directly from his abstract and refine from there:
+Herb Sutter did quite an excellent job of laying out the issues with C++ exceptions in [<VPIcon icon="fas fa-file-pdf"/>P0709](https://open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0709r4.pdf). Rather than come up with my own formulation from scratch, I'll quote directly from his abstract and refine from there:
 
 <PDF url="https://open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0709r4.pdf" />
 
@@ -75,7 +75,7 @@ Herb Sutter did quite an excellent job of laying out the issues with C++ excepti
 - §4.3: Allocation failure is not like other recoverable run-time errors and should be treated separately.
 - §4.5: Some users don’t use exceptions because exceptional control flow is invisible.
 
-I think Herb missed one overarching problem, which is that C++ got the defaults wrong with respect to exceptions. In C++, a function is assumed to throw unless it is explicitly marked [<FontIcon icon="iconfont icon-cpp"/>`noexcept`](https://en.cppreference.com/w/cpp/language/noexcept_spec)(or `throw()` in the pre-C++11 beforetimes). This means that nearly every C++ function out there can throw, because only the most diligent C++ developer is going to carefully audit each function to make sure it is marked `noexcept`, and suffer the unexpected [<FontIcon icon="iconfont icon-cpp"/>`std::terminate`](https://en.cppreference.com/w/cpp/error/terminate) call if they got it wrong. The problem with getting this default wrong is that it undercuts everything else you'd like to fix with the C++ exceptions design. The space and time costs for exceptions (Herb's §4.1) might be perfectly acceptable if you only paid for them where you used exceptions, but because of throwing-by-default, you're paying those costs across the entire code base even if only a narrow portion of it actually uses exceptions. Additionally, you can't change the language to make exceptional control flow visible (Herb's §4.5) when the default is "everything throws", because exceptional control flow is *everywhere* in C++. And while you could eliminate `std::bad_alloc` (Herb's §4.3) to reduce the number of places that could automatically throw, it barely makes a dent in the user experience when everything is already assumed to throw.
+I think Herb missed one overarching problem, which is that C++ got the defaults wrong with respect to exceptions. In C++, a function is assumed to throw unless it is explicitly marked [<VPIcon icon="iconfont icon-cpp"/>`noexcept`](https://en.cppreference.com/w/cpp/language/noexcept_spec)(or `throw()` in the pre-C++11 beforetimes). This means that nearly every C++ function out there can throw, because only the most diligent C++ developer is going to carefully audit each function to make sure it is marked `noexcept`, and suffer the unexpected [<VPIcon icon="iconfont icon-cpp"/>`std::terminate`](https://en.cppreference.com/w/cpp/error/terminate) call if they got it wrong. The problem with getting this default wrong is that it undercuts everything else you'd like to fix with the C++ exceptions design. The space and time costs for exceptions (Herb's §4.1) might be perfectly acceptable if you only paid for them where you used exceptions, but because of throwing-by-default, you're paying those costs across the entire code base even if only a narrow portion of it actually uses exceptions. Additionally, you can't change the language to make exceptional control flow visible (Herb's §4.5) when the default is "everything throws", because exceptional control flow is *everywhere* in C++. And while you could eliminate `std::bad_alloc` (Herb's §4.3) to reduce the number of places that could automatically throw, it barely makes a dent in the user experience when everything is already assumed to throw.
 
 Error handling is hard: it's hard to anticipate what failures can occur, hard to figure out how to respond appropriately to get back to a reasonable state after an error, and hard to simulate those errors in a test to be sure you got it right. A language needs to help you identify and deal with errors, and most-everything-can-throw does the opposite.
 
@@ -83,7 +83,7 @@ Error handling is hard: it's hard to anticipate what failures can occur, hard to
 
 ## Swift's approach to error handling
 
-Swift's error handling model is similar in spirit to C++: an error is thrown with `throw`, can propagate through multiple stack frames (tearing down local values and running `defer` blocks along the way), and is eventually caught with a `catch` block. Nearly any type can be thrown: the only constraint is that the type must conform to the [<FontIcon icon="fa-brands fa-swift"/>`Error`](https://developer.apple.com/documentation/swift/error) protocol. By default, errors in Swift are type-erased to `any Error`; see my prior post on type erasure if you want to learn more about type erasure.
+Swift's error handling model is similar in spirit to C++: an error is thrown with `throw`, can propagate through multiple stack frames (tearing down local values and running `defer` blocks along the way), and is eventually caught with a `catch` block. Nearly any type can be thrown: the only constraint is that the type must conform to the [<VPIcon icon="fa-brands fa-swift"/>`Error`](https://developer.apple.com/documentation/swift/error) protocol. By default, errors in Swift are type-erased to `any Error`; see my prior post on type erasure if you want to learn more about type erasure.
 
 The differences are mainly in the defaults, but they make a world of difference. A Swift function cannot throw unless it explicitly specifies that it `throws`, and memory allocation failure is not handled via a thrown error (Herb's §4.3), so the vast majority of Swift functions are non-throwing.
 
@@ -91,7 +91,7 @@ Thrown errors are checked at compile time: a throwing operation must be marked v
 
 ### An example
 
-Let's see Swift's error handling in action by writing a simple function to parse a string into an integer. Because I love generic programming, we're going to make it generic over any fixed-with integer type by turning it into an extension of the [<FontIcon icon="fa-brands fa-swift"/>`FixedWidthInteger` protocol](https://developer.apple.com/documentation/swift/fixedwidthinteger). But first, let's think about what can go wrong: the easiest thing that can go wrong is that one of the characters in the string isn't a digit. Let's capture that case in a new `Error`-conforming `enum` that will describe errors that occur during integer parsing:
+Let's see Swift's error handling in action by writing a simple function to parse a string into an integer. Because I love generic programming, we're going to make it generic over any fixed-with integer type by turning it into an extension of the [<VPIcon icon="fa-brands fa-swift"/>`FixedWidthInteger` protocol](https://developer.apple.com/documentation/swift/fixedwidthinteger). But first, let's think about what can go wrong: the easiest thing that can go wrong is that one of the characters in the string isn't a digit. Let's capture that case in a new `Error`-conforming `enum` that will describe errors that occur during integer parsing:
 
 ```swift
 enum IntegerParseError: Error {
@@ -99,11 +99,11 @@ enum IntegerParseError: Error {
 }
 ```
 
-We haven't talked about the [<FontIcon icon="fa-brands fa-swift"/>`String`](https://developer.apple.com/documentation/swift/string) type much, so allow me a slight digression...
+We haven't talked about the [<VPIcon icon="fa-brands fa-swift"/>`String`](https://developer.apple.com/documentation/swift/string) type much, so allow me a slight digression...
 
 ::: info Digression
 
-A proper discussion of `String` could fill up its own post, so here's the short version: `String` is a fully Unicode-aware string type and always contains a valid Unicode string. It's generally best to form and manipulate them with string literals, string interpolations, or other high-level operations. For lower-level operations you can treat them as a collection of [<FontIcon icon="fa-brands fa-swift"/>`Character`](https://developer.apple.com/documentation/swift/character) instances. `Character` is about as far from the C++ `char` type as you can get, because it captures the notion of a *grapheme cluster*, which is the nearest approximation Unicode has to what a human would consider a single character on screen. This covers everything from simple ASCII characters to composed multi-byte sequences like flag emoji (🇺🇦) and family emoji (👩‍👩‍👦‍👦).
+A proper discussion of `String` could fill up its own post, so here's the short version: `String` is a fully Unicode-aware string type and always contains a valid Unicode string. It's generally best to form and manipulate them with string literals, string interpolations, or other high-level operations. For lower-level operations you can treat them as a collection of [<VPIcon icon="fa-brands fa-swift"/>`Character`](https://developer.apple.com/documentation/swift/character) instances. `Character` is about as far from the C++ `char` type as you can get, because it captures the notion of a *grapheme cluster*, which is the nearest approximation Unicode has to what a human would consider a single character on screen. This covers everything from simple ASCII characters to composed multi-byte sequences like flag emoji (🇺🇦) and family emoji (👩‍👩‍👦‍👦).
 
 :::
 
@@ -125,7 +125,7 @@ extension FixedWidthInteger {
 }
 ```
 
-I chose to make this an initializer, so that it can be used as (e.g.) `Int8(parsing: string)`. The code itself walks through each of the indices in the string, extracting each character, turning it into a [<FontIcon icon="fa-brands fa-swift"/>whole number value](https://developer.apple.com/documentation/swift/character/wholenumbervalue), and accumulating the result into `self`. If at any point it finds a character that isn't a whole number value, it will `throw` an instance of `IntegerParseError` that describes what the problem is.
+I chose to make this an initializer, so that it can be used as (e.g.) `Int8(parsing: string)`. The code itself walks through each of the indices in the string, extracting each character, turning it into a [<VPIcon icon="fa-brands fa-swift"/>whole number value](https://developer.apple.com/documentation/swift/character/wholenumbervalue), and accumulating the result into `self`. If at any point it finds a character that isn't a whole number value, it will `throw` an instance of `IntegerParseError` that describes what the problem is.
 
 There is no error-handling code within this initializer, so it must be marked as `throws` to indicate that an error can propagate out of a call to the initializer. The Swift compiler will produce an error if the `throws` is missing.
 
@@ -189,7 +189,7 @@ I snuck another minor Swift feature into that `print` statement, raw string lite
 
 Any errors that don't match that first `catch` clause will fall into the second catch clause. As a little shortcut, if the catch clause doesn't specify anything to match, it's equivalent to `let error`, i.e., it introduces local `error` value of type `any Error`.
 
-Note that this second `catch` block throws `error` again: Swift doesn't have (nor need) a special "rethrows" syntax, because errors are just values. So if we want to "rethrow", we can `throw` the error we got. Or we can package it up---there's no need for special mechanisms like [<FontIcon icon="iconfont icon-cpp"/>`std::exception_ptr`](https://en.cppreference.com/w/cpp/error/exception_ptr) in C++.
+Note that this second `catch` block throws `error` again: Swift doesn't have (nor need) a special "rethrows" syntax, because errors are just values. So if we want to "rethrow", we can `throw` the error we got. Or we can package it up---there's no need for special mechanisms like [<VPIcon icon="iconfont icon-cpp"/>`std::exception_ptr`](https://en.cppreference.com/w/cpp/error/exception_ptr) in C++.
 
 ### `try?`
 
@@ -226,7 +226,7 @@ func commaSeparatedIntegers(string: String) throws -> [Int8] {
 }
 ```
 
-A few things to note: the [<FontIcon icon="fa-brands fa-swift"/>`split(separator:)`](https://developer.apple.com/documentation/swift/sequence/split(separator:maxsplits:omittingemptysubsequences:)) operation on a collection turns an array of subcollections that are separated by the `Equatable` element provided by the `separator` argument. In this example, we then `map` over those substrings (a [<FontIcon icon="iconfont icon-cpp"/>`std::transform`](https://en.cppreference.com/w/cpp/algorithm/transform) in C++ STL-speak) to parse each of them into an integer. Because the initializer of the `UInt8` `throws`, we must mark the closure's return expression with `try`. Now, when giving a throwing closure, the `map` operation itself also throws, so we need to mark the `map` call with a `try` as well. Therefore, all of the exceptional control flow (out of the closure, and out of the map call) is indicated in the program.
+A few things to note: the [<VPIcon icon="fa-brands fa-swift"/>`split(separator:)`](https://developer.apple.com/documentation/swift/sequence/split(separator:maxsplits:omittingemptysubsequences:)) operation on a collection turns an array of subcollections that are separated by the `Equatable` element provided by the `separator` argument. In this example, we then `map` over those substrings (a [<VPIcon icon="iconfont icon-cpp"/>`std::transform`](https://en.cppreference.com/w/cpp/algorithm/transform) in C++ STL-speak) to parse each of them into an integer. Because the initializer of the `UInt8` `throws`, we must mark the closure's return expression with `try`. Now, when giving a throwing closure, the `map` operation itself also throws, so we need to mark the `map` call with a `try` as well. Therefore, all of the exceptional control flow (out of the closure, and out of the map call) is indicated in the program.
 
 Now, we don't *have* to mark a closure as throwing when it throws, because it can be inferred. A closure that contains a `throw` or a `try` (that isn't swallowed up in a `do..catch` / `try?` / `try!`) is known to throw, so the above can be written more succinctly as:
 
@@ -320,7 +320,7 @@ Both `precondition` and `assert` have defaulted `file` and `line` arguments. If 
 
 ### Arithmetic overflow is a program bug
 
-In the C++ community, we've spent a *lot* of time [<FontIcon icon="fas fa-globe"/>fretting](https://open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0907r4.html) over what to do about arithmetic overflow. It's been undefined behavior since the dawn of time, and undefined behavior is bad, so there's been a push to define it somehow. The most reasonable answer is to define it as basically every system out there implements it, which is [<FontIcon icon="fas fa-globe"/>two's complement wrapping](https://ccrma.stanford.edu/~jos/fp/Two_s_Complement_Wrap_Around.html). That's better, but it's not great: arithmetic overflow that is guaranteed to wrap can open up security vulnerabilities if an attacker can manager to wrap a buffer index to get access to other data they shouldn't.
+In the C++ community, we've spent a *lot* of time [<VPIcon icon="fas fa-globe"/>fretting](https://open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0907r4.html) over what to do about arithmetic overflow. It's been undefined behavior since the dawn of time, and undefined behavior is bad, so there's been a push to define it somehow. The most reasonable answer is to define it as basically every system out there implements it, which is [<VPIcon icon="fas fa-globe"/>two's complement wrapping](https://ccrma.stanford.edu/~jos/fp/Two_s_Complement_Wrap_Around.html). That's better, but it's not great: arithmetic overflow that is guaranteed to wrap can open up security vulnerabilities if an attacker can manager to wrap a buffer index to get access to other data they shouldn't.
 
 Swift's answer is to define arithmetic overflow as a programmer error, and trap when it occurs. You can see the effect of this by trying to pass a string for a too-large integer into our parsing initializer:
 
@@ -330,7 +330,7 @@ let value = try Int8(parsing: "155")
 
 The program will trap (crash) when trying to multiply 15 * 10 as an `Int8`. This is not great for our parsing function, so let's fix it!
 
-Swift has two ways of dealing with arithmetic overflow programmatically. The first is a set of [<FontIcon icon="fa-brands fa-swift"/>"wrapping" arithmetic operators](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/advancedoperators/#Overflow-Operators) with the `&` prefix that wrap their results according to two's complement arithmetic. If we replace the `*` and `+` in our `init(parsing:)` implementation with `&*` and `&+`, respectively, the crash will go away! Yay! Except that the answers are going to be wrong, because `try Int8(parsing: "155")` will now produce the result `-101`. Use the wrapping arithmetic operations when the algorithm you're implementing is designed for two's complement arithmetic, not as a "please make it not crash" hammer.
+Swift has two ways of dealing with arithmetic overflow programmatically. The first is a set of [<VPIcon icon="fa-brands fa-swift"/>"wrapping" arithmetic operators](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/advancedoperators/#Overflow-Operators) with the `&` prefix that wrap their results according to two's complement arithmetic. If we replace the `*` and `+` in our `init(parsing:)` implementation with `&*` and `&+`, respectively, the crash will go away! Yay! Except that the answers are going to be wrong, because `try Int8(parsing: "155")` will now produce the result `-101`. Use the wrapping arithmetic operations when the algorithm you're implementing is designed for two's complement arithmetic, not as a "please make it not crash" hammer.
 
 The second way of dealing with overflow is through the `*ReportingOverflow` family of methods on `FixedWidthInteger`, which form the appropriate operation and return the partial value along with a flag that indicates whether it overflowed or not. This allows us to detect an react to the overflow. Let's do that, and report the overflow via a thrown error. We can represent the failure condition with a new case in the `IntegerParseError` enum:
 
@@ -408,7 +408,7 @@ Thus far, all the functions and closures we've seen have used "untyped" thows, w
 
 There are a few cases where untyped throws are insufficient, though:
 
-1. In performance-critical or very low-level code that cannot afford the runtime cost of type erasure or perhaps cannot allocate at all along the error path. This includes [Embedded Swift (<FontIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/visions/embedded-swift.md), which doesn't allow for type erasure in any form. (Note that this restriction is captured by Herb's §4.1).
+1. In performance-critical or very low-level code that cannot afford the runtime cost of type erasure or perhaps cannot allocate at all along the error path. This includes [Embedded Swift (<VPIcon icon="iconfont icon-github"/>`apple/swift-evolution`)](https://github.com/apple/swift-evolution/blob/main/visions/embedded-swift.md), which doesn't allow for type erasure in any form. (Note that this restriction is captured by Herb's §4.1).
 2. In generic code that will only propagate errors that are introduced by operations on its generic inputs, such as the `map` operation throwing an error only when its closure parameter throws.
 
 In such cases, it can be valuable to specify the exact type of the error that can be thrown. Swift allows this with typed throws, which allows one to specify a concrete thrown error type in parentheses after the `throws` keyword. Our parsing code could adopt typed throws like this:
@@ -438,7 +438,7 @@ That's the basics of typed throws: you can specify the type of a thrown error, w
 
 ::: warning
 
-As of the time of this writing (April, 2024), typed throws has been accepted into the upcoming Swift 6.0 and is available in [<FontIcon icon="fa-brands fa-swift"/>nightly snapshots](https://swift.org/download/), but has not yet made it into a Swift release. While it's not terribly likely, it's possible that details may change.
+As of the time of this writing (April, 2024), typed throws has been accepted into the upcoming Swift 6.0 and is available in [<VPIcon icon="fa-brands fa-swift"/>nightly snapshots](https://swift.org/download/), but has not yet made it into a Swift release. While it's not terribly likely, it's possible that details may change.
 
 :::
 
@@ -458,7 +458,7 @@ enum Never { /* empty */ }
 
 Now, because there can never be an instance of type `Never`, any computation that *produces* a value of type `Never` must be unreachable. Dead code. An impossible state.
 
-`Never` came into Swift as a more composable way to indicate that a function could never return. C++11 has [<FontIcon icon="iconfont icon-cpp"/>the `noreturn` attribute](https://en.cppreference.com/w/cpp/language/attributes/noreturn) to say that a function could never return, but it's an attribute tacked on to a function, and doesn't get any real checking. In Swift, we give that function the result type `Never`:
+`Never` came into Swift as a more composable way to indicate that a function could never return. C++11 has [<VPIcon icon="iconfont icon-cpp"/>the `noreturn` attribute](https://en.cppreference.com/w/cpp/language/attributes/noreturn) to say that a function could never return, but it's an attribute tacked on to a function, and doesn't get any real checking. In Swift, we give that function the result type `Never`:
 
 ```swift
 func explode() -> Never {
@@ -535,7 +535,7 @@ Prior to the introduction of typed throws, a different feature called `rethrows`
 
 ### The `Result` type
 
-Swift has a standard type [<FontIcon icon="fa-brands fa-swift"/>`Result`](https://developer.apple.com/documentation/swift/result) type for packaging up either a successful result, or a failure condition, and is intended to be used in much the same way as `std::expected`. Personally, I've found a lot less of a need for `Result` now that Swift has `async`/`await` (the subject of a later post, I promise), but you may see it in Swift code and it's good for exposition. `Result` is an enum with two cases:
+Swift has a standard type [<VPIcon icon="fa-brands fa-swift"/>`Result`](https://developer.apple.com/documentation/swift/result) type for packaging up either a successful result, or a failure condition, and is intended to be used in much the same way as `std::expected`. Personally, I've found a lot less of a need for `Result` now that Swift has `async`/`await` (the subject of a later post, I promise), but you may see it in Swift code and it's good for exposition. `Result` is an enum with two cases:
 
 ```swift
 enum Result<Success, Failure: Error> {

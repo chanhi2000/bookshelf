@@ -52,13 +52,13 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5784"/>
 
-Let’s say you’ve got a set of static files (HTML, CSS, JavaScript, images, etc) that build your website. Perhaps it’s your portfolio website, thanks to having taken Jen Kramer’s course [<FontIcon icon="fas fa-globe"/>Web Development Project: Personal Portfolio Website](https://frontendmasters.com/courses/portfolio-website/), for example, but it could be anything.
+Let’s say you’ve got a set of static files (HTML, CSS, JavaScript, images, etc) that build your website. Perhaps it’s your portfolio website, thanks to having taken Jen Kramer’s course [<VPIcon icon="fas fa-globe"/>Web Development Project: Personal Portfolio Website](https://frontendmasters.com/courses/portfolio-website/), for example, but it could be anything.
 
-![A file directory labeled 'portfolio' showing three files: <FontIcon icon="fa-brands fa-html5"/>`index.html`, <FontIcon icon="fa-brands fa-js"/>`script.js`, and <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`, with their sizes and types displayed.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Screenshot-2025-05-20-at-2.46.02%E2%80%AFPM.png?resize=1024%2C622&ssl=1)
+![A file directory labeled 'portfolio' showing three files: <VPIcon icon="fa-brands fa-html5"/>`index.html`, <VPIcon icon="fa-brands fa-js"/>`script.js`, and <VPIcon icon="fa-brands fa-css3-alt"/>`style.css`, with their sizes and types displayed.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Screenshot-2025-05-20-at-2.46.02%E2%80%AFPM.png?resize=1024%2C622&ssl=1)
 
 Hey, what do you know, I’ve got some static files that make a nice personal portfolio page right here.
 
-We’ve covered [**the very fastest way**](/frontendmasters.com/exactly-how-to-deploy-local-files-to-make-a-live-website.md) to get those files turned into a deployed website on the internet already, using [<FontIcon icon="fas fa-globe"/>Netlify’s tool](https://app.netlify.com/drop). That totally works, but we can take things a little further to make things easier on our future selves.
+We’ve covered [**the very fastest way**](/frontendmasters.com/exactly-how-to-deploy-local-files-to-make-a-live-website.md) to get those files turned into a deployed website on the internet already, using [<VPIcon icon="fas fa-globe"/>Netlify’s tool](https://app.netlify.com/drop). That totally works, but we can take things a little further to make things easier on our future selves.
 
 Websites tend to need to be *updated.* Technically, you can keep using that tool to drag-and-drop your entire site again. But since we’re here to learn to be a better developer, **let’s do better** than that. We’re going to start using Git and GitHub. Let’s do the steps.
 
@@ -107,7 +107,7 @@ Git is the name of the technology we’ll use, which is what they call a VCS or 
 
 ## 1) Make sure you have a GitHub account
 
-There is a 99.99% chance you’ll need/want a GitHub account in your developer career. If you don’t already have one, [<FontIcon icon="iconfont icon-github"/>get one](https://github.com/signup?source=login):
+There is a 99.99% chance you’ll need/want a GitHub account in your developer career. If you don’t already have one, [<VPIcon icon="iconfont icon-github"/>get one](https://github.com/signup?source=login):
 
 ![GitHub sign-up page showing fields for email, password, username, country/region, and email preferences, with a dark background and cartoonish character icons.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Screenshot-2025-05-26-at-10.15.42%E2%80%AFAM.png?resize=1024%2C725&ssl=1)
 
@@ -117,7 +117,7 @@ There is a 99.99% chance you’ll need/want a GitHub account in your developer c
 
 ## 2) Get the GitHub Desktop App
 
-We’re baby-steppin’ here, and I think it will be easier for us to use [<FontIcon icon="iconfont icon-github"/>the official GitHub app](https://github.com/apps/desktop) than it will be to use what developers call “the command line” to work with Git (but [<FontIcon icon="fas fa-globe"/>someday you can level up](https://frontendmasters.com/courses/everything-git/)).
+We’re baby-steppin’ here, and I think it will be easier for us to use [<VPIcon icon="iconfont icon-github"/>the official GitHub app](https://github.com/apps/desktop) than it will be to use what developers call “the command line” to work with Git (but [<VPIcon icon="fas fa-globe"/>someday you can level up](https://frontendmasters.com/courses/everything-git/)).
 
 ![Screenshot of the GitHub Desktop application showcasing the interface with an emphasis on simplifying the Git workflow.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Screenshot-2025-05-26-at-10.17.15%E2%80%AFAM.png?resize=1024%2C968&ssl=1)
 
@@ -129,7 +129,7 @@ Honestly, I’ve been using Git for a hot long while and I still use GUI apps li
 
 ## 3) Make a Repo
 
-“Repo” is just short for “repository”. You could make one locally and push it up to GitHub as a second step, but for whatever reason I prefer [<FontIcon icon="iconfont icon-github"/>making it on GitHub](https://github.com/new), “pulling it down” and going from there.
+“Repo” is just short for “repository”. You could make one locally and push it up to GitHub as a second step, but for whatever reason I prefer [<VPIcon icon="iconfont icon-github"/>making it on GitHub](https://github.com/new), “pulling it down” and going from there.
 
 ![Screenshot of the GitHub interface for creating a new repository, featuring fields for repository name, description, and options for initializing and licensing.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Screenshot-2025-05-26-at-10.21.12%E2%80%AFAM.png?resize=833%2C1024&ssl=1)
 
@@ -147,7 +147,7 @@ One reason to use the GitHub Desktop app we downloaded is that the GitHub websit
 
 I have a folder just called “GitHub” I put all my repos in.
 
-This folder will essentially be empty. (In truth, it has a <FontIcon icon="fas fa-folder-open"/>`.git` folder inside of it, but most operating systems and code editors hide folders and files that start with a `.` by default so you don’t see it while browsing files.)
+This folder will essentially be empty. (In truth, it has a <VPIcon icon="fas fa-folder-open"/>`.git` folder inside of it, but most operating systems and code editors hide folders and files that start with a `.` by default so you don’t see it while browsing files.)
 
 ---
 
@@ -157,7 +157,7 @@ Now you can drag your static files into that “empty” folder that is your rep
 
 ![Screen displaying a GitHub Desktop application with a portfolio repository, showing files index.html, script.js, and style.css marked as changed, along with a code window for editing index.html.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/Screenshot-2025-05-26-at-10.28.21%E2%80%AFAM.png?resize=1024%2C723&ssl=1)
 
-(That <FontIcon icon="fas fa-file-lines"/>`.DS_Store` file is just an awkward thing macOS does. Try right-clicking that file and ignoring it and seeing what that does.)
+(That <VPIcon icon="fas fa-file-lines"/>`.DS_Store` file is just an awkward thing macOS does. Try right-clicking that file and ignoring it and seeing what that does.)
 
 ---
 
@@ -177,7 +177,7 @@ After you’ve done that, you’ll see the files you “pushed” up right on Gi
 
 ## 7) Now that your website files are on GitHub, we can deploy them to a live website
 
-Just so you’re aware, GitHub has a product called [<FontIcon icon="iconfont icon-github"/>GitHub Pages](https://pages.github.com/) where we could just make GitHub itself the home of your website. That can be a good option, but we’re also fans of [<FontIcon icon="fas fa-globe"/>Netlify](https://netlify.com/) here and generally think that’s the best option for projects like this, so [<FontIcon icon="fas fa-globe"/>sign up for a free account at Netlify](https://app.netlify.com/signup) if you don’t have one.
+Just so you’re aware, GitHub has a product called [<VPIcon icon="iconfont icon-github"/>GitHub Pages](https://pages.github.com/) where we could just make GitHub itself the home of your website. That can be a good option, but we’re also fans of [<VPIcon icon="fas fa-globe"/>Netlify](https://netlify.com/) here and generally think that’s the best option for projects like this, so [<VPIcon icon="fas fa-globe"/>sign up for a free account at Netlify](https://app.netlify.com/signup) if you don’t have one.
 
 ---
 

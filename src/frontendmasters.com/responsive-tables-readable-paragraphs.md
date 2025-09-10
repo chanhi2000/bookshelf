@@ -83,7 +83,7 @@ Maybe those things are custom properties that could be grabbed, which would be e
 
 Notice in the screenshot above they also added `position: sticky;` and stuck it to the `left` side, which is a super classy touch! That way when the table is scrolled to see the other bits of information in a row, the readable paragraphs stay readable, rather than scroll over into just blank white nothingness.
 
-I did a fork of the classic [<FontIcon icon="fas fa-globe"/>Under-Engineered Responsive Tables](https://adrianroselli.com/2020/11/under-engineered-responsive-tables.html) to include this feature.
+I did a fork of the classic [<VPIcon icon="fas fa-globe"/>Under-Engineered Responsive Tables](https://adrianroselli.com/2020/11/under-engineered-responsive-tables.html) to include this feature.
 
 <CodePen
   user="chriscoyier"

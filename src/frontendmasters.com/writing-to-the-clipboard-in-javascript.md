@@ -145,7 +145,7 @@ As a quick note, the UX of this demo could be improved, for example, notifying t
 
 Now let's kick it up a notch and look into how to support binary data with the `write` method.
 
-The basic interface for `write` is to pass an array of [<FontIcon icon="fa-brands fa-firefox"/>`ClipboardItem`](https://developer.mozilla.org/en-US/docs/Web/API/ClipboardItem) objects. The MDN docs for [<FontIcon icon="fa-brands fa-firefox"/>write](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/write) provide this example:
+The basic interface for `write` is to pass an array of [<VPIcon icon="fa-brands fa-firefox"/>`ClipboardItem`](https://developer.mozilla.org/en-US/docs/Web/API/ClipboardItem) objects. The MDN docs for [<VPIcon icon="fa-brands fa-firefox"/>write](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/write) provide this example:
 
 ```js
 const type = "text/plain";
@@ -217,7 +217,7 @@ Confirms that it works. You can see this yourself below (and again, [hit that â€
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-So remember above when I said I didn't want to use a canvas? I did some Googling and turns out: I need to use a canvas. I found an excellent example of this on StackOverflow in this [<FontIcon icon="fa-brands fa-stack-overflow"/>answer](https://stackoverflow.com/a/62911176/52160). In it, the author uses a temporary canvas, writes the image data to it, and uses `toBlob` while specifying a PNG image type. Whew. So let's see if we can build a generic solution.
+So remember above when I said I didn't want to use a canvas? I did some Googling and turns out: I need to use a canvas. I found an excellent example of this on StackOverflow in this [<VPIcon icon="fa-brands fa-stack-overflow"/>answer](https://stackoverflow.com/a/62911176/52160). In it, the author uses a temporary canvas, writes the image data to it, and uses `toBlob` while specifying a PNG image type. Whew. So let's see if we can build a generic solution.
 
 First, I updated my HTML to support two images:
 

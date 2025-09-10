@@ -54,7 +54,7 @@ cover: https://marcinmoskala.com/coroutines_book/promotion/101_why.jpg
 
 ::: note
 
-This is a chapter from the book [<FontIcon icon="fas fa-globe"/>Effective Kotlin](https://kt.academy/book/effectivekotlin). You can find it on [<FontIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<FontIcon icon="fa-brands fa-amazon"/>Amazon](https://www.amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
+This is a chapter from the book [<VPIcon icon="fas fa-globe"/>Effective Kotlin](https://kt.academy/book/effectivekotlin). You can find it on [<VPIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/effectivekotlin) or [<VPIcon icon="fa-brands fa-amazon"/>Amazon](https://www.amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/).
 
 :::
 

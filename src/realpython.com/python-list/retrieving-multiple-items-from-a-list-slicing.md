@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/Pythons-list-Built-in-Data-Type-A-Deep
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Pythons-list-Built-in-Data-Type-A-Deep-Dive-With-Examples_Watermarked.1f6291ed72f5.jpg"/>
 
-Another common requirement when working with lists is to extract a portion, or [<FontIcon icon="fa-brands fa-python"/>slice](https://docs.python.org/3/glossary.html#term-slice), of a given list. You can do this with a [<FontIcon icon="fa-brands fa-python"/>slicing](https://docs.python.org/dev/whatsnew/2.3.html#extended-slices) operation, which has the following syntax:
+Another common requirement when working with lists is to extract a portion, or [<VPIcon icon="fa-brands fa-python"/>slice](https://docs.python.org/3/glossary.html#term-slice), of a given list. You can do this with a [<VPIcon icon="fa-brands fa-python"/>slicing](https://docs.python.org/dev/whatsnew/2.3.html#extended-slices) operation, which has the following syntax:
 
 ```py
 list_object[start:stop:step]
@@ -140,7 +140,7 @@ every_three
 
 In these examples, the variable names reflect the portion of the list that you’re extracting in every slicing operation. As you can conclude, the slicing operator is pretty flexible and versatile. It even allows you to use negative indices.
 
-Every slicing operation uses a `slice` object internally. The built-in [<FontIcon icon="fa-brands fa-python"/>`slice()`](https://docs.python.org/dev/library/functions.html#slice) function provides an alternative way to create `slice` objects that you can use to extract multiple items from a list. The signature of this built-in function is the following:
+Every slicing operation uses a `slice` object internally. The built-in [<VPIcon icon="fa-brands fa-python"/>`slice()`](https://docs.python.org/dev/library/functions.html#slice) function provides an alternative way to create `slice` objects that you can use to extract multiple items from a list. The signature of this built-in function is the following:
 
 ```py
 slice(start, stop, step)

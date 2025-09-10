@@ -52,7 +52,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_135.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_135.png"/>
 
-Unless you've been living under a rock, you know that [<FontIcon icon="fa-brands fa-microsoft   "/>.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview) is changing (for the better) how we build distributed applications in .NET. A simple way to think about Aspire: it makes all the difficult things in software development easy.
+Unless you've been living under a rock, you know that [<VPIcon icon="fa-brands fa-microsoft   "/>.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview) is changing (for the better) how we build distributed applications in .NET. A simple way to think about Aspire: it makes all the difficult things in software development easy.
 
 .NET Aspire is a cloud-native application stack that simplifies the development and deployment of distributed applications. One of the key challenges when building multi-service applications is building reliable [**communication between services**](/milanjovanovic.tech/modular-monolith-communication-patterns.md).
 
@@ -62,7 +62,7 @@ In this week's newsletter, I want to focus on one aspect of .NET Aspire - [**ser
 
 ## Understanding Service Discovery
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Service discovery**](https://learn.microsoft.com/en-us/dotnet/core/extensions/service-discovery) is the process by which services in a distributed application locate and communicate with each other. As applications scale and evolve, keeping track of service endpoints becomes increasingly challenging. Services might run on different ports during development or be deployed to different environments in production, making hard-coded service URLs impractical.
+[<VPIcon icon="fa-brands fa-microsoft"/>Service discovery**](https://learn.microsoft.com/en-us/dotnet/core/extensions/service-discovery) is the process by which services in a distributed application locate and communicate with each other. As applications scale and evolve, keeping track of service endpoints becomes increasingly challenging. Services might run on different ports during development or be deployed to different environments in production, making hard-coded service URLs impractical.
 
 Traditional approaches to service discovery often introduce complexity:
 
@@ -91,7 +91,7 @@ var webFrontend = builder.AddProject<Projects.WebFrontend>("web-frontend")
 builder.Build().Run();
 ```
 
-In this App Host definition, we're creating two services: a weather API and a web frontend. The `.WithReference()` method establishes a connection between these services, which enables service discovery. This simple declaration tells [**.NET Aspire**](/milanjovanovic.tech/dotnet-aspire-a-game-changer-for-cloud-native-development.md) that the web frontend depends on the weather API and needs to communicate with it. Note that the `web-frontend` has to be a server-side application (like [<FontIcon icon="fa-brands fa-microsoft"/>Blazor Server](https://learn.microsoft.com/en-us/aspnet/core/blazor/hosting-models)) for Aspire to be able to inject the service URL.
+In this App Host definition, we're creating two services: a weather API and a web frontend. The `.WithReference()` method establishes a connection between these services, which enables service discovery. This simple declaration tells [**.NET Aspire**](/milanjovanovic.tech/dotnet-aspire-a-game-changer-for-cloud-native-development.md) that the web frontend depends on the weather API and needs to communicate with it. Note that the `web-frontend` has to be a server-side application (like [<VPIcon icon="fa-brands fa-microsoft"/>Blazor Server](https://learn.microsoft.com/en-us/aspnet/core/blazor/hosting-models)) for Aspire to be able to inject the service URL.
 
 With this configuration in place, the web frontend can now reach the API using the service name `weather-api` without additional service discovery code:
 
@@ -175,7 +175,7 @@ A significant advantage of Aspire's service discovery is its consistent behavior
 
 Your code remains unchanged across these scenarios because the service name abstraction shields you from the underlying networking details.
 
-Note that you don't have to use .NET Aspire to benefit from [<FontIcon icon="fa-brands fa-microsoft"/>service discovery](https://learn.microsoft.com/en-us/dotnet/core/extensions/service-discovery). It's available as a standalone library (`Microsoft.Extensions.ServiceDiscovery`) and you can use it in any .NET application.
+Note that you don't have to use .NET Aspire to benefit from [<VPIcon icon="fa-brands fa-microsoft"/>service discovery](https://learn.microsoft.com/en-us/dotnet/core/extensions/service-discovery). It's available as a standalone library (`Microsoft.Extensions.ServiceDiscovery`) and you can use it in any .NET application.
 
 ---
 

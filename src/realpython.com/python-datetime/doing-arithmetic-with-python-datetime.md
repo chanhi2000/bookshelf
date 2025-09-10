@@ -85,7 +85,7 @@ now + delta
 # datetime.datetime(2020, 1, 29, 5, 37, 46, 380905)
 ```
 
-In this example, you add three days and subtract four hours, so the new `datetime` is at January 29 at 5:37 AM. `timedelta` is very useful in this way, but it’s somewhat limited because it cannot add or subtract intervals larger than a day, such as a month or a year. Fortunately, `dateutil` provides a more powerful replacement called [<FontIcon icon="fas fa-globe"/>`relativedelta`](https://dateutil.readthedocs.io/en/stable/relativedelta.html).
+In this example, you add three days and subtract four hours, so the new `datetime` is at January 29 at 5:37 AM. `timedelta` is very useful in this way, but it’s somewhat limited because it cannot add or subtract intervals larger than a day, such as a month or a year. Fortunately, `dateutil` provides a more powerful replacement called [<VPIcon icon="fas fa-globe"/>`relativedelta`](https://dateutil.readthedocs.io/en/stable/relativedelta.html).
 
 The basic syntax of `relativedelta` is very similar to `timedelta`. You can provide keyword arguments that produce changes of any number of years, months, days, hours, seconds, or microseconds. You can reproduce the first `timedelta` example with this code:
 
@@ -122,4 +122,4 @@ relativedelta(now, tomorrow)
 
 In this example, you create a new `datetime` instance for `tomorrow` by incrementing the `days` field by one. Then, you use `relativedelta` and pass `now` and `tomorrow` as the two arguments. `dateutil` then takes the difference between these two `datetime` instances and returns the result as a `relativedelta` instance. In this case, the difference is `-1` days, since `now` happens before `tomorrow`.
 
-`dateutil.relativedelta` objects have countless other uses. You can use them to find complex calendar information, such as the next year in which October the 13th falls on a Friday or what the date will be on the last Friday of the current month. You can even use them to replace attributes of a `datetime` instance and create, for example, a `datetime` one week in the future at 10:00 AM. You can read all about these other uses in the `dateutil` [<FontIcon icon="fas fa-globe"/>documentation](https://dateutil.readthedocs.io/en/stable/examples.html#relativedelta-examples).
+`dateutil.relativedelta` objects have countless other uses. You can use them to find complex calendar information, such as the next year in which October the 13th falls on a Friday or what the date will be on the last Friday of the current month. You can even use them to replace attributes of a `datetime` instance and create, for example, a `datetime` one week in the future at 10:00 AM. You can read all about these other uses in the `dateutil` [<VPIcon icon="fas fa-globe"/>documentation](https://dateutil.readthedocs.io/en/stable/examples.html#relativedelta-examples).

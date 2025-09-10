@@ -52,7 +52,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/07/Screen-Shot-2
 
 A page element with **relative positioning** gives you the control to **absolutely position** children elements inside of it.
 
-To some, this is obvious. To others, this may be one of those [<FontIcon icon="iconfont icon-css-tricks"/>CSS “Ah-ha!” Moments](https://css-tricks.com/people-share-their-css-ah-ha-moments/). I remember it being a big deal for me when I first “got it”.
+To some, this is obvious. To others, this may be one of those [<VPIcon icon="iconfont icon-css-tricks"/>CSS “Ah-ha!” Moments](https://css-tricks.com/people-share-their-css-ah-ha-moments/). I remember it being a big deal for me when I first “got it”.
 
 Here is a visual:
 
@@ -89,7 +89,7 @@ I’d be delighted.
 
 ![“Back to top” links to be placed in the lower right of each big block of text.](https://i0.wp.com/css-tricks.com/wp-content/csstricks-uploads/abs-pos-top.png?resize=70%2C70)
 
-[<FontIcon icon="iconfont icon-css-tricks"/>View Demo](https://css-tricks.com/examples/AbsoluteInsideRelative) [<FontIcon icon="fas fa-file-zipper"/>Download Files](https://css-tricks.com/examples/AbsoluteInsideRelative.zip)
+[<VPIcon icon="iconfont icon-css-tricks"/>View Demo](https://css-tricks.com/examples/AbsoluteInsideRelative) [<VPIcon icon="fas fa-file-zipper"/>Download Files](https://css-tricks.com/examples/AbsoluteInsideRelative.zip)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

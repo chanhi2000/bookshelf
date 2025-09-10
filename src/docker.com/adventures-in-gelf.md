@@ -62,20 +62,20 @@ When you run applications in containers, the easiest logging method is to write 
 
 Other approaches are still possible, of course; for instance:
 
-- you can use syslog, by running a syslog daemon in your container or [<FontIcon icon="fas fa-globe"/>exposing a /dev/log socket](https://jpetazzo.github.io/2014/08/24/syslog-docker/);
+- you can use syslog, by running a syslog daemon in your container or [<VPIcon icon="fas fa-globe"/>exposing a /dev/log socket](https://jpetazzo.github.io/2014/08/24/syslog-docker/);
 - you can write to regular files and [**share these log files with your host, or with other containers, by placing them on a volume**](https://digitalocean.com/community/tutorials/how-to-work-with-docker-data-volumes-on-ubuntu-14-04);
 <!-- TODO: /digitalocean.com/how-to-work-with-docker-data-volumes-on-ubuntu-14-04.md -->
 - your code can directly talk to the API of a logging service.
 
 In the last scenario, this service can be:
 
-- a proprietary logging mechanism operated by your cloud provider, e.g. [<FontIcon icon="fa-brands fa-aws"/>AWS CloudWatch](https://aws.amazon.com/cloudwatch/) or [<FontIcon icon="iconfont icon-gcp"/>Google Stackdriver](https://cloud.google.com/stackdriver/);
-- provided by a third-party specialized in managing logs or events, e.g. [<FontIcon icon="fas fa-globe"/>Honeycomb](https://honeycomb.io/), [<FontIcon icon="fas fa-globe"/>Loggly](https://loggly.com/), [<FontIcon icon="iconfont icon-splunk"/>Splunk](https://splunk.com/), etc.;
+- a proprietary logging mechanism operated by your cloud provider, e.g. [<VPIcon icon="fa-brands fa-aws"/>AWS CloudWatch](https://aws.amazon.com/cloudwatch/) or [<VPIcon icon="iconfont icon-gcp"/>Google Stackdriver](https://cloud.google.com/stackdriver/);
+- provided by a third-party specialized in managing logs or events, e.g. [<VPIcon icon="fas fa-globe"/>Honeycomb](https://honeycomb.io/), [<VPIcon icon="fas fa-globe"/>Loggly](https://loggly.com/), [<VPIcon icon="iconfont icon-splunk"/>Splunk](https://splunk.com/), etc.;
 - something running in-house, that you deploy and maintain yourself.
 
-If your application is very terse, or if it serves very little traffic (because it has three users, including you and your dog), you can certainly run your logging service in-house. My [<FontIcon icon="fas fa-globe"/>orchestration workshop](http://jpetazzo.github.io/orchestration-workshop/) even has a [<FontIcon icon="fas fa-globe"/>chapter on logging](https://jpetazzo.github.io/orchestration-workshop/#logging) which might give you the false idea that running your own [<FontIcon icon="fas fa-globe"/>ELK](https://elastic.co/webinars/introduction-elk-stack) cluster is all unicorns and rainbows, while the [truth is very different (<FontIcon icon="fa-brands fa-x-twitter"/>`alicegoldfuss`)](https://twitter.com/alicegoldfuss/status/811009771583074304) and [running reliable logging systems at scale is hard (<FontIcon icon="fa-brands fa-x-twitter"/>`alicegoldfuss`)](https://twitter.com/alicegoldfuss/status/725534286351233024).
+If your application is very terse, or if it serves very little traffic (because it has three users, including you and your dog), you can certainly run your logging service in-house. My [<VPIcon icon="fas fa-globe"/>orchestration workshop](http://jpetazzo.github.io/orchestration-workshop/) even has a [<VPIcon icon="fas fa-globe"/>chapter on logging](https://jpetazzo.github.io/orchestration-workshop/#logging) which might give you the false idea that running your own [<VPIcon icon="fas fa-globe"/>ELK](https://elastic.co/webinars/introduction-elk-stack) cluster is all unicorns and rainbows, while the [truth is very different (<VPIcon icon="fa-brands fa-x-twitter"/>`alicegoldfuss`)](https://twitter.com/alicegoldfuss/status/811009771583074304) and [running reliable logging systems at scale is hard (<VPIcon icon="fa-brands fa-x-twitter"/>`alicegoldfuss`)](https://twitter.com/alicegoldfuss/status/725534286351233024).
 
-Therefore, you certainly want the possibility to send your logs to somebody else who will deal with the complexity (and pain) that comes with real-time storing, indexing, and querying of semi-structured data. It’s worth mentioning that these people can do more than just managing your logs. Some systems like [<FontIcon icon="fas fa-globe"/>Sentry](https://sentry.io/welcome/) are particularly suited to extract insights from errors (think traceback dissection); and many modern tools like [<FontIcon icon="fas fa-globe"/>Honeycomb](https://honeycomb.io/) will deal not only with logs but also any kind of event, letting you crossmatch everything together to find out the actual cause of that nasty 3am outage.
+Therefore, you certainly want the possibility to send your logs to somebody else who will deal with the complexity (and pain) that comes with real-time storing, indexing, and querying of semi-structured data. It’s worth mentioning that these people can do more than just managing your logs. Some systems like [<VPIcon icon="fas fa-globe"/>Sentry](https://sentry.io/welcome/) are particularly suited to extract insights from errors (think traceback dissection); and many modern tools like [<VPIcon icon="fas fa-globe"/>Honeycomb](https://honeycomb.io/) will deal not only with logs but also any kind of event, letting you crossmatch everything together to find out the actual cause of that nasty 3am outage.
 
 But before getting there, you want to start with something easy to implement, and free (as much as possible).
 
@@ -96,7 +96,7 @@ The `json-file` driver, however, has (at least) two pain points:
 - by default, the log files will grow without bounds, until you run out of disk space;
 - you cannot make complex queries such as “show me all the HTTP requests for virtual host `api.container.church` between 2am and 7am having a response time of more than 250ms but only if the HTTP status code was `200/OK`.”
 
-The first issue can easily be fixed by giving [<FontIcon icon="fa-brands fa-docker"/>some extra parameters](https://docs.docker.com/engine/admin/logging/overview/#/json-file) to the `json-file` driver in Docker to enable log rotation. The second one, however, requires one of these fancy log services that I was alluding to.
+The first issue can easily be fixed by giving [<VPIcon icon="fa-brands fa-docker"/>some extra parameters](https://docs.docker.com/engine/admin/logging/overview/#/json-file) to the `json-file` driver in Docker to enable log rotation. The second one, however, requires one of these fancy log services that I was alluding to.
 
 Even if your queries are not as complex, you will want to centralize your logs somehow, so that:
 
@@ -113,7 +113,7 @@ Alright, you can start developing (and even deploying) with the default `json-fi
 
 That’s where the logging drivers come handy: without changing a single line of code in your application, you can ask your faithful container engine to send the logs somewhere else. Neat.
 
-Docker supports [<FontIcon icon="fa-brands fa-docker"/>many other logging drivers](https://docs.docker.com/engine/admin/logging/overview/#/supported-logging-drivers), including but not limited to:
+Docker supports [<VPIcon icon="fa-brands fa-docker"/>many other logging drivers](https://docs.docker.com/engine/admin/logging/overview/#/supported-logging-drivers), including but not limited to:
 
 - `awslogs`, if you’re running on Amazon’s cloud and don’t plan to migrate to anything else, ever;
 - `gcplogs`, if you’re more a Google person;
@@ -126,7 +126,7 @@ I’m going to stop the list here because GELF has a few features that make it p
 
 ## GELF
 
-GELF stands for [<FontIcon icon="fas fa-globe"/>Graylog Extended Log Format](http://docs.graylog.org/en/2.1/pages/gelf.html). It was initially designed for the [<FontIcon icon="fas fa-globe"/>Graylog](https://graylog.org/) logging system. If you haven’t heard about Graylog before, it’s an open source project that pioneered “modern” logging systems like [<FontIcon icon="fas fa-globe"/>ELK](https://elastic.co/webinars/introduction-elk-stack). In fact, if you want to send Docker logs to your ELK cluster, you will probably use the GELF protocol! It is an open standard implemented by many logging systems (open or proprietary).
+GELF stands for [<VPIcon icon="fas fa-globe"/>Graylog Extended Log Format](http://docs.graylog.org/en/2.1/pages/gelf.html). It was initially designed for the [<VPIcon icon="fas fa-globe"/>Graylog](https://graylog.org/) logging system. If you haven’t heard about Graylog before, it’s an open source project that pioneered “modern” logging systems like [<VPIcon icon="fas fa-globe"/>ELK](https://elastic.co/webinars/introduction-elk-stack). In fact, if you want to send Docker logs to your ELK cluster, you will probably use the GELF protocol! It is an open standard implemented by many logging systems (open or proprietary).
 
 What’s so nice about the GELF protocol? It addresses some (if not most) of the shortcomings of the syslog protocol.
 
@@ -176,7 +176,7 @@ You get a dict like that:
 
 This also means that the logs get stored as structured objects, instead of raw strings. As a result, you can make elaboarate queries (something close to SQL) instead of carving regexes with grep like a caveperson.
 
-OK, so GELF is a convenient format that Docker can emit, and that is understood by a number of tools like [<FontIcon icon="fas fa-globe"/>Graylog](https://graylog.org/), [<FontIcon icon="fas fa-globe"/>Logstash](https://elastic.co/products/logstash), [<FontIcon icon="fas fa-globe"/>Fluentd](https://fluentd.org/), and many more.
+OK, so GELF is a convenient format that Docker can emit, and that is understood by a number of tools like [<VPIcon icon="fas fa-globe"/>Graylog](https://graylog.org/), [<VPIcon icon="fas fa-globe"/>Logstash](https://elastic.co/products/logstash), [<VPIcon icon="fas fa-globe"/>Fluentd](https://fluentd.org/), and many more.
 
 Moreover, you can switch from the default `json-file` to GELF very easily; which means that you can start with `json-file` (i.e. not setup anything in your Docker cluster), and later, when you decide that these log entries could be useful after all, switch to GELF without changing anything in your application, and automatically have your logs centralized and indexed somewhere.
 
@@ -195,7 +195,7 @@ These options can be passed to `docker run`, indicating that you want this one s
 
 (If you are using the Docker API to start your containers, these options are passed to the `create` call, within the `HostConfig.LogConfig` structure.)
 
-The “arbitrary options” vary for each driver. In the case of the GELF driver, you can specify [<FontIcon icon="fa-brands fa-docker"/>a bunch of options](https://docs.docker.com/engine/admin/logging/overview/#/options-3) but there is one that is mandatory: the address of the GELF receiver.
+The “arbitrary options” vary for each driver. In the case of the GELF driver, you can specify [<VPIcon icon="fa-brands fa-docker"/>a bunch of options](https://docs.docker.com/engine/admin/logging/overview/#/options-3) but there is one that is mandatory: the address of the GELF receiver.
 
 If we have a GELF receiver on the machine 1.2.3.4 on the default UDP port 12201, you can start your container as follows:
 
@@ -220,7 +220,7 @@ Hopefully.
 
 ---
 
-## I would tell you an UDP [<FontIcon icon="fas fa-globe"/>joke](http://imgur.com/gallery/kxBtzL3), but
+## I would tell you an UDP [<VPIcon icon="fas fa-globe"/>joke](http://imgur.com/gallery/kxBtzL3), but
 
 If you have ever been on-call or responsible for other people’s code, you are probably cringing by now. Our precious logging message is within a UDP packet that might or might not arrive to our logging server (UDP has no transmission guarantees). If our logging server goes away (a nice wording for “crashes horribly”), our packet might arrive, but our message will be obliviously ignored, and we won’t know anything about it. (Technically, we might get an ICMP message telling us that the host or port is unreachable, but at that point, it will be too late, because we won’t even know which message this is about!)
 
@@ -267,11 +267,11 @@ At this point, if you’re still with us, you might have concluded that computin
 
 Before drawing hasty conclusions, let’s have a look at the code.
 
-When you create a container using the GELF driver, [this function (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L43) is invoked, and it creates a new `gelfWriter` object by [calling (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L88) [gelf.NewWriter (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L88).
+When you create a container using the GELF driver, [this function (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L43) is invoked, and it creates a new `gelfWriter` object by [calling (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L88) [gelf.NewWriter (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L88).
 
-Then, when the container prints something out, eventually, [the Log function (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L122) of the GELF driver is invoked. It essentially [writes the message to the gelfWriter (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L137).
+Then, when the container prints something out, eventually, [the Log function (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L122) of the GELF driver is invoked. It essentially [writes the message to the gelfWriter (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/a33105626870bfcbca97052b25b114e005a145ac/daemon/logger/gelf/gelf.go#L137).
 
-This GELF writer object is implemented by an external dependency, [<FontIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`](https://github.com/Graylog2/go-gelf).
+This GELF writer object is implemented by an external dependency, [<VPIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`](https://github.com/Graylog2/go-gelf).
 
 Look, I see it coming, he’s going to do some nasty fingerpointing and put the blame on someone else’s code. Despicable!
 
@@ -279,7 +279,7 @@ Look, I see it coming, he’s going to do some nasty fingerpointing and put the 
 
 ## Hot potato
 
-Let’s investigate this package, in particular the [NewWriter function (<FontIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`)](https://github.com/Graylog2/go-gelf/blob/f80b0a83dd6533b222823ef4f649fa3acb726cf3/gelf/writer.go#L102), the [Write method (<FontIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`)](https://github.com/Graylog2/go-gelf/blob/f80b0a83dd6533b222823ef4f649fa3acb726cf3/gelf/writer.go#L308), and the other methods called by the latter, [WriteMessage (<FontIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`)](https://github.com/Graylog2/go-gelf/blob/f80b0a83dd6533b222823ef4f649fa3acb726cf3/gelf/writer.go#L199) and [writeChunked (<FontIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`)](https://github.com/Graylog2/go-gelf/blob/f80b0a83dd6533b222823ef4f649fa3acb726cf3/gelf/writer.go#L125). Even if you aren’t very familiar with Go, you will see that these functions do not implement any kind of reconnection logic. If anything bad happens, the error bubbles up to the caller, and that’s it.
+Let’s investigate this package, in particular the [NewWriter function (<VPIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`)](https://github.com/Graylog2/go-gelf/blob/f80b0a83dd6533b222823ef4f649fa3acb726cf3/gelf/writer.go#L102), the [Write method (<VPIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`)](https://github.com/Graylog2/go-gelf/blob/f80b0a83dd6533b222823ef4f649fa3acb726cf3/gelf/writer.go#L308), and the other methods called by the latter, [WriteMessage (<VPIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`)](https://github.com/Graylog2/go-gelf/blob/f80b0a83dd6533b222823ef4f649fa3acb726cf3/gelf/writer.go#L199) and [writeChunked (<VPIcon icon="iconfont icon-github"/>`Graylog2/go-gelf`)](https://github.com/Graylog2/go-gelf/blob/f80b0a83dd6533b222823ef4f649fa3acb726cf3/gelf/writer.go#L125). Even if you aren’t very familiar with Go, you will see that these functions do not implement any kind of reconnection logic. If anything bad happens, the error bubbles up to the caller, and that’s it.
 
 If we conduct the same investigation with the code on the Docker side (with the links in the previous section), we reach the same conclusions. If an error occurs while sending a log message, the error is passed to the layer above. There is no reconnection attempt, neither in Docker’s code, nor in go-gelf’s.
 
@@ -311,7 +311,7 @@ This needs to run on each container host. It is very lightweight, and whenever `
 
 Another option is to run Logstash on each node (instead of just `socat`). It might seem overkill at first, but it will give you a lot of extra flexibility with your logs: you can do some local parsing, filtering, and even “forking,” i.e. deciding to send your logs to multiple places at the same time. This is particularly convenient if you are switching from one logging system to another, because it will let you feed both systems in parallel for a while (during a transition period).
 
-Running Logstash (or another logging tool) on each node is also very useful if you want to be sure that you don’t lose any log message, because it would be the perfect place to insert a queue (using [<FontIcon icon="iconfont icon-redis"/>Redis](https://redislabs.com/ebook/redis-in-action/part-2-core-concepts-2/chapter-5-using-redis-for-application-support/5-1-logging-to-redis) for simple scenarios, or [<FontIcon icon="iconfont icon-kafka"/>Kafka](https://kafka.apache.org/intro) if you have stricter requirements).
+Running Logstash (or another logging tool) on each node is also very useful if you want to be sure that you don’t lose any log message, because it would be the perfect place to insert a queue (using [<VPIcon icon="iconfont icon-redis"/>Redis](https://redislabs.com/ebook/redis-in-action/part-2-core-concepts-2/chapter-5-using-redis-for-application-support/5-1-logging-to-redis) for simple scenarios, or [<VPIcon icon="iconfont icon-kafka"/>Kafka](https://kafka.apache.org/intro) if you have stricter requirements).
 
 Even if you end up sending your logs to a service using a different protocol, the GELF driver is probably the easiest one to setup to connect Docker to e.g. Logstash or Fluentd, and then have Logstash or Fluentd speak to the logging service with the other protocol.
 
@@ -323,13 +323,13 @@ UDP packets sent to `localhost` can’t be lost, except if the UDP socket runs o
 
 Even if running a cluster-wide `socat` is relatively easy (especially with Swarm mode and `docker service create --mode global`), we would rather have a good behavior out of the box.
 
-There are already some GitHub issues related to this: [#23679 (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/23679), [#17904 (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/17904), and [#16330 (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/16330). One of the maintainers [has joined the conversation (<FontIcon icon="fa-brands fa-x-twitter"/>`berndahlers`)](https://twitter.com/berndahlers/status/822508266190237698) and there are some people at Docker Inc. who would love to see this improved.
+There are already some GitHub issues related to this: [#23679 (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/23679), [#17904 (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/17904), and [#16330 (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/16330). One of the maintainers [has joined the conversation (<VPIcon icon="fa-brands fa-x-twitter"/>`berndahlers`)](https://twitter.com/berndahlers/status/822508266190237698) and there are some people at Docker Inc. who would love to see this improved.
 
 One possible fix is to re-resolve the GELF server name once in a while, and when a change is detected, update the socket destination address. Since DNS provides TTL information, it could even be used to know how long the IP address can be cached.
 
 If you need better GELF support, I have good news: you can help! I’m not going to tell you “just send us a pull request, ha ha ha!” because I know that only a very small number of people have both the time and expertise to do that — but if you are one of them, then by all means, do it! There are other ways to help, though.
 
-First, you can monitor the GitHub issues mentioned above ([#23679 (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/23679) and [#17904 (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/17904)). If the contributors and maintainers ask for feedback, indicate what would (or wouldn’t) work for you. If you see a proposition that makes sense, and you just want to say “+1” you can do it with GitHub reactions (the “thumbs up” emoji works perfectly for that). And if somebody proposes a pull request, testing it will be extremely helpful and instrmental to get it accepted.
+First, you can monitor the GitHub issues mentioned above ([#23679 (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/23679) and [#17904 (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/issues/17904)). If the contributors and maintainers ask for feedback, indicate what would (or wouldn’t) work for you. If you see a proposition that makes sense, and you just want to say “+1” you can do it with GitHub reactions (the “thumbs up” emoji works perfectly for that). And if somebody proposes a pull request, testing it will be extremely helpful and instrmental to get it accepted.
 
 If you look at one of these GitHub issues, you will see that there was already a patch proposed a long time ago; but the person who asked for the feature in the first place never tested it, and as a result, it was never merged. Don’t get me wrong, I’m not putting the blame on that person! It’s a good start to have a GitHub issue as a kind of “meeting point” for people needing a feature, and people who can implement it.
 

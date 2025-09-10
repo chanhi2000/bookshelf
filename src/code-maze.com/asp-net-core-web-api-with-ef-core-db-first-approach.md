@@ -59,7 +59,7 @@ There are 3 types of relationships in relational database design:
 
 ::: info
 
-You can download the source code for this article, on the [EF DB First Approach Source Code repo (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/ef-db-first"`)](https://github.com/CodeMazeBlog/ef-db-first).
+You can download the source code for this article, on the [EF DB First Approach Source Code repo (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/ef-db-first"`)](https://github.com/CodeMazeBlog/ef-db-first).
 
 <SiteInfo
   name="CodeMazeBlog/ef-db-first"

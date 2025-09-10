@@ -107,43 +107,43 @@ To install `htop` on Linux, use the following appropriate command for your speci
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 ```sh
 sudo apt install htop
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 ```sh
 sudo dnf install htop
 ```
 
-@tab <FontIcon icon="iconfont icon-gentoo"/>
+@tab <VPIcon icon="iconfont icon-gentoo"/>
 
 ```sh
 sudo emerge -a sys-apps/htop
 ```
 
-@tab <FontIcon icon="iconfont icon-alpine"/>
+@tab <VPIcon icon="iconfont icon-alpine"/>
 
 ```sh
 sudo apk add htop
 ```
 
-@tab <FontIcon icon="iconfont icon-archlinux"/>
+@tab <VPIcon icon="iconfont icon-archlinux"/>
 
 ```sh
 sudo pacman -S htop
 ```
 
-@tab <FontIcon icon="fa-brands fa-opensuse"/>
+@tab <VPIcon icon="fa-brands fa-opensuse"/>
 
 ```sh
 sudo zypper install htop
 ```
 
-@tab <FontIcon icon="fa-brands fa-freebsd"/>
+@tab <VPIcon icon="fa-brands fa-freebsd"/>
 
 ```sh
 sudo pkg install htop
@@ -235,7 +235,7 @@ To check the current swappiness value:
 cat /proc/sys/vm/swappiness
 ```
 
-The default value is usually `60`, but to reduce swappiness you need to edit the <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`sysctl.conf` file.
+The default value is usually `60`, but to reduce swappiness you need to edit the <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`sysctl.conf` file.
 
 ```sh
 sudo nano /etc/sysctl.conf
@@ -287,7 +287,7 @@ This command clears pagecache, dentries, and inodes. Use it cautiously, as it ma
 
 ## 7. Optimize Kernel Parameters
 
-To tune or optimize kernel parameters, you need to edit <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`sysctl.conf` file and add the following or adjust parameters to improve system performance.
+To tune or optimize kernel parameters, you need to edit <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`sysctl.conf` file and add the following or adjust parameters to improve system performance.
 
 ```sh title="/etc/sysctl.conf"
 vm.dirty_background_ratio=5
@@ -309,7 +309,7 @@ sudo apt install zram-config
 sudo systemctl start zram-config
 ```
 
-Once installed, you need to edit the GRUB configuration file (<FontIcon icon="fas fa-folder-open"/>`/etc/default/`<FontIcon icon="fas fa-file-lines"/>`grub`) and add:
+Once installed, you need to edit the GRUB configuration file (<VPIcon icon="fas fa-folder-open"/>`/etc/default/`<VPIcon icon="fas fa-file-lines"/>`grub`) and add:
 
 ```sh title="/etc/default/grub"
 GRUB_CMDLINE_LINUX_DEFAULT="zswap.enabled=1"
@@ -353,13 +353,13 @@ Keeping your system updated ensures you have the latest performance improvements
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>
 
 ```sh
 sudo apt update && sudo apt upgrade
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 ```sh
 sudo yum update

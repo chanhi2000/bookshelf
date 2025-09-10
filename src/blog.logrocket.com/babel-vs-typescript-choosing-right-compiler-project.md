@@ -53,7 +53,7 @@ cover: /assets/image/blog.logrocket.com/babel-vs-typescript-choosing-right-compi
 
 ::: note Editor’s note
 
-This post was last updated on 10 July 2023 to be accurate with the updates in* [*Babel 7.21.0* (<FontIcon icon="iconfont icon-github"/>`babel/babel`)](https://github.com/babel/babel/releases/tag/v7.21.0).
+This post was last updated on 10 July 2023 to be accurate with the updates in* [*Babel 7.21.0* (<VPIcon icon="iconfont icon-github"/>`babel/babel`)](https://github.com/babel/babel/releases/tag/v7.21.0).
 
 :::
 
@@ -69,7 +69,7 @@ Babel is a widely used JavaScript compiler that enables developers to write mode
 
 As new JavaScript features are introduced, not all browsers support them immediately, which leads to potential compatibility issues for developers targeting broader audiences. Babel solves this problem by transforming modern JavaScript code into an older version of JavaScript that is widely supported across various browsers and environments. This process allows developers to use cutting-edge language features without sacrificing compatibility.
 
-Here are the new updates since the latest feature at the time of writing, [v7.21.0 (<FontIcon icon="iconfont icon-github"/>`babel/babel`)](https://github.com/babel/babel/releases/tag/v7.21.0):
+Here are the new updates since the latest feature at the time of writing, [v7.21.0 (<VPIcon icon="iconfont icon-github"/>`babel/babel`)](https://github.com/babel/babel/releases/tag/v7.21.0):
 
 1. **`PrivateFieldsAsSymbols`assumption for Classes:** This update introduces the `privateFieldAsSymbols` assumption for classes, allowing private fields in classes to be treated as symbols. Private fields are declared using the `#` symbols before the field name
 2. **Support for the Regexp Modifiers Proposal**: Babel now supports the `regexp` modifiers proposal, which allows regular expressions to have custom flags or modifiers
@@ -152,9 +152,9 @@ The advantage of auto polyfilling is that it reduces the size of the output bund
 
 ### TypeScript’s approach to polyfilling
 
-TypeScript itself does not provide built-in polyfilling like Babel. TypeScript focuses on static type checking and transpilation, leaving polyfilling to be handled separately. TypeScript users typically use Babel as part of their build process, and Babel takes care of both transpilation and polyfilling using the <FontIcon icon="fa-brands fa-npm"/>`@babel/preset-env`.
+TypeScript itself does not provide built-in polyfilling like Babel. TypeScript focuses on static type checking and transpilation, leaving polyfilling to be handled separately. TypeScript users typically use Babel as part of their build process, and Babel takes care of both transpilation and polyfilling using the <VPIcon icon="fa-brands fa-npm"/>`@babel/preset-env`.
 
-When TypeScript code is transpiled by Babel, the auto polyfilling mechanism comes into play, ensuring that any missing features required by the TypeScript code are properly polyfilled. Additionally, TypeScript developers often use other tools, like <FontIcon icon="fa-brands fa-npm"/>`core-js` or <FontIcon icon="fa-brands fa-npm"/>`@babel/polyfill`, directly to include specific polyfills based on the project’s needs and the targeted environments.
+When TypeScript code is transpiled by Babel, the auto polyfilling mechanism comes into play, ensuring that any missing features required by the TypeScript code are properly polyfilled. Additionally, TypeScript developers often use other tools, like <VPIcon icon="fa-brands fa-npm"/>`core-js` or <VPIcon icon="fa-brands fa-npm"/>`@babel/polyfill`, directly to include specific polyfills based on the project’s needs and the targeted environments.
 
 To include explicit polyfills in a TypeScript project, you can import the necessary polyfills at the entry point of their application. For example:
 
@@ -194,13 +194,13 @@ However, this is no longer true since [Babel 7.15](https://babeljs.io/blog/2021/
 
 TypeScript was a bit early to the decorator party (if you’re unsure what a decorator is, [**this is a good introduction to decorators**](/blog.logrocket.com/practical-guide-typescript-decorators.md)). After TypeScript implemented decorators, the decorator proposal has changed multiple times and is still not finalized.
 
-What this means is that, currently, the [**ECMAScript**](/blog.logrocket.com/how-to-use-ecmascript-modules-with-node-js.md) spec and TypeScript don’t quite see eye-to-eye on how decorators should behave. Babel’s plugins follow the ECMAScript spec, which means that Babel doesn’t compile decorators the same way that TypeScript does. Luckily for us, Babel has a `legacy` mode to compile decorators with the old behavior. Simply add the Babel plugin <FontIcon icon="fa-brands fa-npm"/>`@babel/plugin-proposal-decorators` with the `legacy` option set to `true`.
+What this means is that, currently, the [**ECMAScript**](/blog.logrocket.com/how-to-use-ecmascript-modules-with-node-js.md) spec and TypeScript don’t quite see eye-to-eye on how decorators should behave. Babel’s plugins follow the ECMAScript spec, which means that Babel doesn’t compile decorators the same way that TypeScript does. Luckily for us, Babel has a `legacy` mode to compile decorators with the old behavior. Simply add the Babel plugin <VPIcon icon="fa-brands fa-npm"/>`@babel/plugin-proposal-decorators` with the `legacy` option set to `true`.
 
 There’s one other TypeScript decorators feature we should talk about: `emitDecoratorMetadata`. TypeScript normally erases all type information so it doesn’t exist at runtime. `emitDecoratorMetadata` is a feature that keeps the types around for classes and methods that have a decorator applied to them.
 
 Having the type at runtime allows us to do all sorts of fancy things, such as dependency injection and mapping the TypeScript types to types in an SQL database. The feature sees reasonably heavy use in those two areas, with libraries such as TypeORM, TypeGoose, inversifyJS, and even [**Angular’s dependency injection system**](/blog.logrocket.com/how-to-use-ecmascript-modules-with-node-js.md) depending on this feature.
 
-As Babel doesn’t care about your type information, this feature requires a custom plugin, [<FontIcon icon="fa-brands fa-npm"/>`babel-plugin-transform-typescript-metadata`](https://npmjs.com/package/babel-plugin-transform-typescript-metadata). Adding that plugin along with `plugin-proposal-decorators`, which we mentioned earlier, should give Babel feature parity with TypeScript in regards to decorators.
+As Babel doesn’t care about your type information, this feature requires a custom plugin, [<VPIcon icon="fa-brands fa-npm"/>`babel-plugin-transform-typescript-metadata`](https://npmjs.com/package/babel-plugin-transform-typescript-metadata). Adding that plugin along with `plugin-proposal-decorators`, which we mentioned earlier, should give Babel feature parity with TypeScript in regards to decorators.
 
 ### Babel excels at custom transformations
 
@@ -212,7 +212,7 @@ If you need custom transformations, you’ll need to use Babel. The good news is
 
 Comparing Babel and TypeScript in regards to performance is difficult and probably won’t give you the full picture. TypeScript that performs type-checking will definitely be slower than Babel because there are extra steps included there.
 
-To reach approximately equal speed, you can mitigate that slowdown by using something like [<FontIcon icon="iconfont icon-github"/>`TypeStrong/fork-ts-checker-webpack-plugin`](https://github.com/TypeStrong/fork-ts-checker-webpack-plugin), which runs the compilation without types in one process and the type-checking in a background process.
+To reach approximately equal speed, you can mitigate that slowdown by using something like [<VPIcon icon="iconfont icon-github"/>`TypeStrong/fork-ts-checker-webpack-plugin`](https://github.com/TypeStrong/fork-ts-checker-webpack-plugin), which runs the compilation without types in one process and the type-checking in a background process.
 
 Of course, as anyone who’s tried to configure webpack knows, JavaScript toolchains feel immensely complicated. You have source map plugins, caching, choices between how many threads you should use  —  the list goes on. No simple benchmark can take the full story into account, but if you’re expecting a many-fold increase using Babel over the TypeScript compiler, you’ll have to look for performance gains elsewhere  —  [**perhaps your bundler**](/blog.logrocket.com/benchmarking-bundlers-2020-rollup-parcel-webpack.md)?
 
@@ -222,9 +222,9 @@ Of course, as anyone who’s tried to configure webpack knows, JavaScript toolch
 
 At this point, TypeScript and Babel are approximately equal in the role they can play in your build chain. Babel now has full support for `const enums`, decorators, and decorator metadata. The only downside to using Babel is that you will need to run your type-checking as a separate process.
 
-If you already have a build pipeline that works for you, I don’t see any compelling reason to switch. However, if you’re starting out on a project, I would probably tend towards using the TypeScript compiler, potentially via something like [<FontIcon icon="iconfont icon-github"/>`TypeStrong/ts-loader`](https://github.com/TypeStrong/ts-loader). Then later on if you find you need some transformation only Babel provides, you can pass the transpiled TypeScript output to Babel afterwards. It’s a little too complicated for my tastes, but hey  —  nobody ever said JavaScript build toolchains were easy.
+If you already have a build pipeline that works for you, I don’t see any compelling reason to switch. However, if you’re starting out on a project, I would probably tend towards using the TypeScript compiler, potentially via something like [<VPIcon icon="iconfont icon-github"/>`TypeStrong/ts-loader`](https://github.com/TypeStrong/ts-loader). Then later on if you find you need some transformation only Babel provides, you can pass the transpiled TypeScript output to Babel afterwards. It’s a little too complicated for my tastes, but hey  —  nobody ever said JavaScript build toolchains were easy.
 
-*Do you have any experiences with TypeScript and Babel? I’d love to hear about them. ([<FontIcon icon="fa-brands fa-x-twitter"/>`GeeWengel`](https://x.com/GeeWengel))*
+*Do you have any experiences with TypeScript and Babel? I’d love to hear about them. ([<VPIcon icon="fa-brands fa-x-twitter"/>`GeeWengel`](https://x.com/GeeWengel))*
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

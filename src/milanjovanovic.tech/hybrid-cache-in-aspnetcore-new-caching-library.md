@@ -64,12 +64,12 @@ In this week's issue, I'll show you how to use `HybridCache` in your application
 
 The traditional caching options in ASP.NET Core have limitations. In-memory caching is fast but limited to one server. Distributed caching works across servers but is slower.
 
-[<FontIcon icon="fa-brands fa-microsoft"/>HybridCache](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/hybrid) combines both approaches and adds important features:
+[<VPIcon icon="fa-brands fa-microsoft"/>HybridCache](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/hybrid) combines both approaches and adds important features:
 
 - Two-level caching (L1/L2)
   - L1: Fast in-memory cache
   - L2: Distributed cache (Redis, SQL Server, etc.)
-- Protection against [<FontIcon icon="fa-brands fa-wikipedia-w"/>cache stampede](https://en.wikipedia.org/wiki/Cache_stampede) (when many requests hit an empty cache at once)
+- Protection against [<VPIcon icon="fa-brands fa-wikipedia-w"/>cache stampede](https://en.wikipedia.org/wiki/Cache_stampede) (when many requests hit an empty cache at once)
 - Tag-based cache invalidation
 - Configurable serialization
 - Metrics and monitoring
@@ -262,7 +262,7 @@ Remember that `HybridCache` handles all the complexity of distributed caching, s
 
 ## Adding Redis as L2 Cache
 
-To use [<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) as your distributed cache:
+To use [<VPIcon icon="iconfont icon-redis"/>Redis](https://redis.io/) as your distributed cache:
 
 ::: tabs
 

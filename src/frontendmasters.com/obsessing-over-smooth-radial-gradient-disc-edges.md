@@ -66,9 +66,9 @@ However, if we do something like this:
 radial-gradient(var(--r), var(--c) 100%, #0000)
 ```
 
-Where `r` is the gradient disc radius, then we get [<FontIcon icon="fa-brands fa-wikipedia-w"/>jaggies](https://en.wikipedia.org/wiki/Jaggies), a step-like effect along the `radial-gradient()` disc, whereas one created with a pseudo-element has smooth-looking edges!
+Where `r` is the gradient disc radius, then we get [<VPIcon icon="fa-brands fa-wikipedia-w"/>jaggies](https://en.wikipedia.org/wiki/Jaggies), a step-like effect along the `radial-gradient()` disc, whereas one created with a pseudo-element has smooth-looking edges!
 
-Note that we aren’t setting a stop position explicitly for the final stop because the stop position of the final stop defaults to `100%` (of the `radial-gradient()` radius, which is `r` here), which is what we want in this case anyway. If you need a refresher on `radial-gradient()`, check out this [<FontIcon icon="fas fa-globe"/>detailed explainer](https://patrickbrosset.com/articles/2022-10-24-do-you-really-understand-CSS-radial-gradients/) by Patrick Brosset.
+Note that we aren’t setting a stop position explicitly for the final stop because the stop position of the final stop defaults to `100%` (of the `radial-gradient()` radius, which is `r` here), which is what we want in this case anyway. If you need a refresher on `radial-gradient()`, check out this [<VPIcon icon="fas fa-globe"/>detailed explainer](https://patrickbrosset.com/articles/2022-10-24-do-you-really-understand-CSS-radial-gradients/) by Patrick Brosset.
 
 You can see the difference between a pseudo-element disc (smooth edges) and a `radial-gradient()` one (jaggies) in this live demo:
 
@@ -125,7 +125,7 @@ This works well regardless of disc size… until it doesn’t!
 
 ## A pixel is not always a pixel
 
-So there are situations when my “bulletproof” solution fails. For example, in two cases I’ve never really considered before, since my main laptop is almost two decades old: with a hi-DPI display or with “those pesky users doing their nasty zooms” ([credit for this gem (<FontIcon icon="fa-brands fa-x-twitter"/>`myfonj`)](https://x.com/myfonj/status/1939739313903710299)).
+So there are situations when my “bulletproof” solution fails. For example, in two cases I’ve never really considered before, since my main laptop is almost two decades old: with a hi-DPI display or with “those pesky users doing their nasty zooms” ([credit for this gem (<VPIcon icon="fa-brands fa-x-twitter"/>`myfonj`)](https://x.com/myfonj/status/1939739313903710299)).
 
 In this case, when we **_zoom in_** up to a zoom level of `500%`, we get again blurry edges…
 
@@ -147,7 +147,7 @@ So what can we do in this case?
 
 ## Underrated CSS feature: resolution!
 
-Up until this summer, when I got fixated on this zoom problem, I had no idea that CSS provides [<FontIcon icon="fa-brands fa-firefox"/>resolution](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution) media queries! These allow us to style things differently based on the device pixel density or zoom level.
+Up until this summer, when I got fixated on this zoom problem, I had no idea that CSS provides [<VPIcon icon="fa-brands fa-firefox"/>resolution](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution) media queries! These allow us to style things differently based on the device pixel density or zoom level.
 
 I don’t think I have access to any device with a higher pixel ratio display, but I can certainly test zoom. For zoom, this thing really works! For example, if we’re zoomed in to `500%`, we’re in the `5x` case:
 
@@ -167,7 +167,7 @@ div {
 @media (resolution: 5x) { div { --f: 5 } }
 ```
 
-Note that the `x` unit is an alias for the `dppx` unit, an alias that was only added in [<FontIcon icon="fas fa-globe"/>Level 4](https://drafts.csswg.org/css-values-4/#resolution-value) of the CSS Values and Units Module ([Level 3](https://drafts.csswg.org/css-values-3/#resolution-value) did not include x). However, at this point, I’d say it’s safe to use since all major current desktop and mobile browsers have been supporting it for over half a decade.
+Note that the `x` unit is an alias for the `dppx` unit, an alias that was only added in [<VPIcon icon="fas fa-globe"/>Level 4](https://drafts.csswg.org/css-values-4/#resolution-value) of the CSS Values and Units Module ([Level 3](https://drafts.csswg.org/css-values-3/#resolution-value) did not include x). However, at this point, I’d say it’s safe to use since all major current desktop and mobile browsers have been supporting it for over half a decade.
 
 I prefer using `x` as it’s shorter and it feels more intuitive and consistent with `picture` sources.
 
@@ -276,7 +276,7 @@ Is this overkill? Something only a psycho would do? It depends.
 
 In some cases, having smooth edges may be worth obsessing about. For example, if we use a `mask` as a fallback for `shape()` in the case of a component (like a `header`) with both convex and concave roundings.
 
-![screenshot of a header component with both convex and concave roundings ([live demo (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/azOgOKE/09e91c7726a4d5340e38735298ef7bd0))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/08/header.png?resize=1024%2C303&ssl=1)
+![screenshot of a header component with both convex and concave roundings ([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/azOgOKE/09e91c7726a4d5340e38735298ef7bd0))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/08/header.png?resize=1024%2C303&ssl=1)
 
 While newer Chrome and Safari versions have supported `shape()` for a few months now, Firefox support isn’t there yet. We could set the `layout.css.basic-shape-shape.enabled` flag to true in `about:config` to play with it there too, but remember, most people won’t have it enabled, and there is a reason why it’s still behind the flag in Firefox: not all commands work. We can use the lines and arcs we need for this particular shape, but Bézier curves don’t work yet. Furthermore, some people may be stuck on older hardware/ operating systems and may be unable to update Chrome or Safari to the latest version. So having a fallback for `shape()` is very much necessary.
 

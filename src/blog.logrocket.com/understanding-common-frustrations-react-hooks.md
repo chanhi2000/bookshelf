@@ -75,9 +75,9 @@ In this article, we’ll go over the common frustrations with React Hooks. We’
 Before I detail my frustrations with [**React Hooks**](https://blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems/), I want to state for the record that I am, for the most part, a fan of React Hooks.
 <!-- TODO: /blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems.md -->
 
-I often hear that the main reason for the existence of Hooks is to replace class components. Sadly, the main heading in the official React site’s post [<FontIcon icon="fa-brands fa-react"/>introducing Hooks](https://reactjs.org/docs/hooks-intro.html) undersells Hooks with this not-so-bold statement:
+I often hear that the main reason for the existence of Hooks is to replace class components. Sadly, the main heading in the official React site’s post [<VPIcon icon="fa-brands fa-react"/>introducing Hooks](https://reactjs.org/docs/hooks-intro.html) undersells Hooks with this not-so-bold statement:
 
-::: info <FontIcon icon="fa-brands fa-react"/>legacy.reactjs.org
+::: info <VPIcon icon="fa-brands fa-react"/>legacy.reactjs.org
 
 > Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
 
@@ -92,7 +92,7 @@ I often hear that the main reason for the existence of Hooks is to replace class
 
 “This explanation does not give me a lot of motivation to use React Hooks apart from “Classes are not cool, man!””
 
-For my money, React Hooks allow us to address cross-cutting concerns in a much more elegant way than the previous patterns such as [<FontIcon icon="fa-brands fa-react"/>mixins](https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html), [<FontIcon icon="fa-brands fa-react"/>higher-order components](https://reactjs.org/docs/higher-order-components.html), and [<FontIcon icon="fa-brands fa-react"/>render props](https://reactjs.org/docs/render-props.html). Functionalities such as logging and authentication are not component-specific and React Hooks allow us to attach this type of reusable behavior to components.
+For my money, React Hooks allow us to address cross-cutting concerns in a much more elegant way than the previous patterns such as [<VPIcon icon="fa-brands fa-react"/>mixins](https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html), [<VPIcon icon="fa-brands fa-react"/>higher-order components](https://reactjs.org/docs/higher-order-components.html), and [<VPIcon icon="fa-brands fa-react"/>render props](https://reactjs.org/docs/render-props.html). Functionalities such as logging and authentication are not component-specific and React Hooks allow us to attach this type of reusable behavior to components.
 
 ---
 
@@ -130,7 +130,7 @@ async componentDidUpdate(prevProps) {
 
 If you have used React for any length of time, you will have encountered this problem.
 
-With React Hooks, this side effect code can be handled in one place using the [<FontIcon icon="fa-brands fa-react"/>effect Hook](https://reactjs.org/docs/hooks-effect.html).
+With React Hooks, this side effect code can be handled in one place using the [<VPIcon icon="fa-brands fa-react"/>effect Hook](https://reactjs.org/docs/hooks-effect.html).
 
 ```js
 const UsersContainer: React.FC = () => {
@@ -156,17 +156,17 @@ The `useEffect` Hook is a considerable improvement, but this is a big step away 
 
 ## Yet another JavaScript paradigm to learn
 
-For the record, I am a 50-year-old React fanboy. The one-way data flow will always have a place in my heart after working on an [<FontIcon icon="fas fa-globe"/>ember](https://emberjs.com/) application with the insanity of observers and computed properties.
+For the record, I am a 50-year-old React fanboy. The one-way data flow will always have a place in my heart after working on an [<VPIcon icon="fas fa-globe"/>ember](https://emberjs.com/) application with the insanity of observers and computed properties.
 
 The problem with `useEffect` and friends is that it exists nowhere else in the JavaScript landscape. It is unusual and has quirks, and the only way for me to become proficient and iron out these quirks is to use it in the real world and experience some pain.
 
-No tutorial using counters is going to get me into the flow. I am a freelancer and use other frameworks apart from React, and this gives me fatigue. The fact that I need to set up the [<FontIcon icon="fa-brands fa-npm"/>`eslint-plugin-react-hooks`](https://npmjs.com/package/eslint-plugin-react-hooks) to keep me on the straight and narrow for this specific paradigm does make me feel a bit wary.
+No tutorial using counters is going to get me into the flow. I am a freelancer and use other frameworks apart from React, and this gives me fatigue. The fact that I need to set up the [<VPIcon icon="fa-brands fa-npm"/>`eslint-plugin-react-hooks`](https://npmjs.com/package/eslint-plugin-react-hooks) to keep me on the straight and narrow for this specific paradigm does make me feel a bit wary.
 
 ---
 
 ## To hell and back with the dependencies array
 
-The [<FontIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-effect.html) Hook can take an optional second argument called the dependencies array that allows you to optimize when React would execute the effect callback. React will make a comparison between each of the values via [<FontIcon icon="fa-brands fa-firefox"/>`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine whether anything has changed. If any of the elements are different than the last render cycle, then the effect will be run against the new values.
+The [<VPIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-effect.html) Hook can take an optional second argument called the dependencies array that allows you to optimize when React would execute the effect callback. React will make a comparison between each of the values via [<VPIcon icon="fa-brands fa-firefox"/>`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine whether anything has changed. If any of the elements are different than the last render cycle, then the effect will be run against the new values.
 
 The comparison works great for primitive JavaScript types, but problems can arise if one of the elements is an object or an array. `Object.is` will compare objects and arrays by reference, and there is no way to override this functionality and supply a custom comparator.
 
@@ -193,11 +193,11 @@ const App: React.FC = () => {
 
 On line 14, a new object is passed into `useFetch` on each render if we do not do something to ensure the same object is used each time. In this scenario, it would be preferable to check this object’s fields and not the object reference.
 
-I do understand why React has not gone down the route of doing deep object compares. You can get into some serious performance problems if not careful. I do seem to revisit this problem a lot, and there are a [number of fixes for this (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/issues/14476#issuecomment-471199055). The more dynamic your objects are, the more workarounds you start adding.
+I do understand why React has not gone down the route of doing deep object compares. You can get into some serious performance problems if not careful. I do seem to revisit this problem a lot, and there are a [number of fixes for this (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/issues/14476#issuecomment-471199055). The more dynamic your objects are, the more workarounds you start adding.
 
-There is an [ESLint plugin (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) that you really should be using with [<FontIcon icon="fas fa-globe"/>the automatic -fix setup](https://oprea.rocks/blog/automatically-fix-eslint-code-validation-errors-in-visual-studio-code/) in your text editor of choice to apply ESLint fixes automatically. I do worry about any new feature that requires an external plugin to check correctness.
+There is an [ESLint plugin (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) that you really should be using with [<VPIcon icon="fas fa-globe"/>the automatic -fix setup](https://oprea.rocks/blog/automatically-fix-eslint-code-validation-errors-in-visual-studio-code/) in your text editor of choice to apply ESLint fixes automatically. I do worry about any new feature that requires an external plugin to check correctness.
 
-The fact that [<FontIcon icon="iconfont icon-github"/>`kentcdodds/use-deep-compare-effect`](https://github.com/kentcdodds/use-deep-compare-effect), [<FontIcon icon="iconfont icon-github"/>`alexreardon/use-memo-one`](https://github.com/alexreardon/use-memo-one), and others exist is a testimony to this being a common enough problem, or, at the very least, a point of confusion.
+The fact that [<VPIcon icon="iconfont icon-github"/>`kentcdodds/use-deep-compare-effect`](https://github.com/kentcdodds/use-deep-compare-effect), [<VPIcon icon="iconfont icon-github"/>`alexreardon/use-memo-one`](https://github.com/alexreardon/use-memo-one), and others exist is a testimony to this being a common enough problem, or, at the very least, a point of confusion.
 
 ---
 
@@ -271,7 +271,7 @@ The rules of React Hooks clearly state:
 
 > Don’t call Hooks inside loops, conditions, or nested functions. Instead, always use Hooks at the top level of your React function.
 
-React Hooks need to be called in the same order each time the component renders. [<FontIcon icon="fas fa-globe"/>Overreacted](https://overreacted.io/why-do-hooks-rely-on-call-order/) beautifully articulates several reasons why this is the case.
+React Hooks need to be called in the same order each time the component renders. [<VPIcon icon="fas fa-globe"/>Overreacted](https://overreacted.io/why-do-hooks-rely-on-call-order/) beautifully articulates several reasons why this is the case.
 
 You definitely cannot do this:
 
@@ -289,7 +289,7 @@ Calling the `useFetch` Hook from an event handler breaks the rules of Hooks beca
 
 Many Hooks now return a function that can be called from outside of the top-level declaration. The rules of React Hooks still hold and the call to `/api/user/1` can be triggered from an event handler.
 
-The code below is from a package I wrote called [react-abortable-fetch (<FontIcon icon="iconfont icon-github"/>`dagda1/cuttingedge`)](https://github.com/dagda1/cuttingedge/tree/main/packages/react-abortable-fetch):
+The code below is from a package I wrote called [react-abortable-fetch (<VPIcon icon="iconfont icon-github"/>`dagda1/cuttingedge`)](https://github.com/dagda1/cuttingedge/tree/main/packages/react-abortable-fetch):
 
 ```jsx
 const { run, state } = useFetch(`/api/users/1`, { executeOnMount: false });

@@ -288,7 +288,7 @@ In this case, since `*args` comes after `**kwargs`, the Python interpreter throw
 
 You are now able to use `*args` and `**kwargs` to define Python functions that take a varying number of input arguments. Let’s go a little deeper to understand something more about the **unpacking operators**.
 
-The single and double asterisk unpacking operators were introduced in Python 2. As of the 3.5 release, they have become even more powerful, thanks to [<FontIcon icon="fa-brands fa-python"/>PEP 448](https://python.org/dev/peps/pep-0448/). In short, the unpacking operators are operators that unpack the values from iterable objects in Python. The single asterisk operator `*` can be used on any iterable that Python provides, while the double asterisk operator `**` can only be used on dictionaries.
+The single and double asterisk unpacking operators were introduced in Python 2. As of the 3.5 release, they have become even more powerful, thanks to [<VPIcon icon="fa-brands fa-python"/>PEP 448](https://python.org/dev/peps/pep-0448/). In short, the unpacking operators are operators that unpack the values from iterable objects in Python. The single asterisk operator `*` can be used on any iterable that Python provides, while the double asterisk operator `**` can only be used on dictionaries.
 
 Let’s start with an example:
 
@@ -324,9 +324,9 @@ python print_unpacked_list.py
 # 1 2 3
 ```
 
-Can you see the difference between this execution and the one from <FontIcon icon="fa-brands fa-python"/>`print_list.py`? Instead of a list, `print()` has taken three separate arguments as the input.
+Can you see the difference between this execution and the one from <VPIcon icon="fa-brands fa-python"/>`print_list.py`? Instead of a list, `print()` has taken three separate arguments as the input.
 
-Another thing you’ll notice is that in <FontIcon icon="fa-brands fa-python"/>`print_unpacked_list.py`, you used the unpacking operator `*` to call a function, instead of in a function definition. In this case, `print()` takes all the items of a list as though they were single arguments.
+Another thing you’ll notice is that in <VPIcon icon="fa-brands fa-python"/>`print_unpacked_list.py`, you used the unpacking operator `*` to call a function, instead of in a function definition. In this case, `print()` takes all the items of a list as though they were single arguments.
 
 You can also use this method to call your own functions, but if your function requires a specific number of arguments, then the iterable you unpack must have the same number of arguments.
 
@@ -532,7 +532,7 @@ You’ve learned:
 - How to use a single asterisk (`*`) to unpack iterables
 - How to use two asterisks (`**`) to unpack dictionaries
 
-If you still have questions, don’t hesitate to reach out in the comments section below! To learn more about the use of the asterisks in Python, have a look at [<FontIcon icon="fas fa-globe"/>Trey Hunner’s article on the subject](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/).
+If you still have questions, don’t hesitate to reach out in the comments section below! To learn more about the use of the asterisks in Python, have a look at [<VPIcon icon="fas fa-globe"/>Trey Hunner’s article on the subject](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/).
 
 <SiteInfo
   name="Asterisks in Python: what they are and how to use them"

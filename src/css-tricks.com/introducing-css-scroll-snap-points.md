@@ -52,9 +52,9 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2016/02/scroll-snap-a
 
 Before this new CSS I’m about to introduce existed, locking an element into the viewport *on scroll* required rigging up some JavaScript. As you may know, JavaScript has a well-earned reputation to be tricky when paired with scrolling behavior.
 
-The new [<FontIcon icon="fas fa-globe"/>CSS Scroll Snap Points spec](https://drafts.csswg.org/css-snappoints/) promises to help, allowing for this kind of behavior using very few lines of CSS.
+The new [<VPIcon icon="fas fa-globe"/>CSS Scroll Snap Points spec](https://drafts.csswg.org/css-snappoints/) promises to help, allowing for this kind of behavior using very few lines of CSS.
 
-As happens with very new web tech, this spec has changed over time. There is “old” and “new” properties and values. It’s promising though, as [<FontIcon icon="iconfont icon-caniuse"/>support](http://caniuse.com/#feat=css-snappoints) has shot up quickly. I’ll teach you how to get the widest support in this in-between stage.
+As happens with very new web tech, this spec has changed over time. There is “old” and “new” properties and values. It’s promising though, as [<VPIcon icon="iconfont icon-caniuse"/>support](http://caniuse.com/#feat=css-snappoints) has shot up quickly. I’ll teach you how to get the widest support in this in-between stage.
 
 ---
 
@@ -62,7 +62,7 @@ As happens with very new web tech, this spec has changed over time. There is “
 
 The demo below has horizontal scrolling. It’s responsive: each “panel” is the width and height of the viewport (thanks to `vh` and `vw` units).
 
-It uses a [polyfill (<FontIcon icon="iconfont icon-github"/>`ckrack/scrollsnap-polyfill`)](https://github.com/ckrack/scrollsnap-polyfill), but in order to use it (and support is still low enough that I suggest you do), you have to support the “old” values, which is why I’ll cover them, too.
+It uses a [polyfill (<VPIcon icon="iconfont icon-github"/>`ckrack/scrollsnap-polyfill`)](https://github.com/ckrack/scrollsnap-polyfill), but in order to use it (and support is still low enough that I suggest you do), you have to support the “old” values, which is why I’ll cover them, too.
 
 <CodePen
   user="css-tricks"
@@ -73,7 +73,7 @@ It uses a [polyfill (<FontIcon icon="iconfont icon-github"/>`ckrack/scrollsnap-p
 
 - **If you’re looking in Firefox:** it has the best current support, so you can mostly clearly see how the native behavior looks and feels.
 - **If you’re looking Chrome or Opera:** don’t have any support, so any behavior you notice in those browsers can be attributed to the polyfill entirely.
-- **If you’re looking in Edge or IE:** it probably won’t work at all. These browsers [<FontIcon icon="iconfont icon-caniuse"/>have partial support](http://caniuse.com/#feat=css-snappoints), but apparently not enough to make this work.
+- **If you’re looking in Edge or IE:** it probably won’t work at all. These browsers [<VPIcon icon="iconfont icon-caniuse"/>have partial support](http://caniuse.com/#feat=css-snappoints), but apparently not enough to make this work.
 - **If you’re looking on a mobile device:** iOS 9 supports it (tested on an iPhone 6), but I’ve seen the easing behavior act pretty weird. No Chrome/Android support, but the polyfill kicks in and handles it pretty well (tested on an Android Nexus 6).
 
 Note I’m using [**Autoprefixer**](/css-tricks.com/autoprefixer.md) in the Pen to automatically give me all the necessary vendor-prefixed properties.
@@ -127,7 +127,7 @@ This property refers to how an element’s scroll snap margin aligns with its pa
 
 ::: note
 
-Heads up, `scroll-snap-padding` has been [renamed (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/commit/0befd3eed0d69b1abdab069e3605daae6cb46cd5) to `scroll-padding`.
+Heads up, `scroll-snap-padding` has been [renamed (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/commit/0befd3eed0d69b1abdab069e3605daae6cb46cd5) to `scroll-padding`.
 
 :::
 
@@ -224,7 +224,7 @@ These last two properties, `scroll-snap-destination` and `scroll-snap-coordinate
 
 ::: info Browser Support
 
-This browser support data is from [<FontIcon icon="iconfont icon-caniuse"/>Caniuse](http://caniuse.com/#feat=css-snappoints), which has more detail. A number indicates that browser supports the feature at that version and up.
+This browser support data is from [<VPIcon icon="iconfont icon-caniuse"/>Caniuse](http://caniuse.com/#feat=css-snappoints), which has more detail. A number indicates that browser supports the feature at that version and up.
 
 ### Desktop
 

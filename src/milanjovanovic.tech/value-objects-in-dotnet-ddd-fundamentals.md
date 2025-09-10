@@ -65,9 +65,9 @@ Today, I'll show you some best practices for implementing Value Objects.
 Let's start with the definition from the Domain-Driven Design book:
 
 > An object that represents a descriptive aspect of the domain with no conceptual identity is called a Value Object. Value Objects are instantiated to represent elements of the design that we care about only for what they are, not who or which they are.
->> *[<FontIcon icon="fa-brands fa-amazon"/>Eric Evans](http://amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)*
+>> *[<VPIcon icon="fa-brands fa-amazon"/>Eric Evans](http://amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)*
 
-Value objects are different from entities - they don't have a concept of identity. They encapsulate primitive types in the domain and solve [<FontIcon icon="fas fa-globe"/>primitive obsession.](https://refactoring.guru/smells/primitive-obsession)
+Value objects are different from entities - they don't have a concept of identity. They encapsulate primitive types in the domain and solve [<VPIcon icon="fas fa-globe"/>primitive obsession.](https://refactoring.guru/smells/primitive-obsession)
 
 There are two main qualities of Value Objects:
 
@@ -115,7 +115,7 @@ But how do you implement value objects?
 
 You can use C# [records](/milanjovanovic.tech/records-anonymous-types-non-destructive-mutation.md) to represent value objects. Records are immutable by design, and they have structural equality. We want both of these qualities for our value objects.
 
-For example, you can represent an `Address` value object using a `record` with a [<FontIcon icon="fa-brands fa-microsoft"/>primary constructor](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors#primary-constructors).
+For example, you can represent an `Address` value object using a `record` with a [<VPIcon icon="fa-brands fa-microsoft"/>primary constructor](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors#primary-constructors).
 The advantage of this approach is conciseness.
 
 ```cs
@@ -274,11 +274,11 @@ Here are a few more things you should consider to decide if you need value objec
 
 Value objects are part of domain entities, and you need to save them in the database.
 
-I'll show you how to use EF [<FontIcon icon="fa-brands fa-microsoft"/>Owned Types](https://learn.microsoft.com/en-us/ef/core/modeling/owned-entities) and [<FontIcon icon="fa-brands fa-microsoft"/>Complex Types](https://devblogs.microsoft.com/dotnet/announcing-ef8-rc1/#complex-types-as-value-objects) to persist value objects.
+I'll show you how to use EF [<VPIcon icon="fa-brands fa-microsoft"/>Owned Types](https://learn.microsoft.com/en-us/ef/core/modeling/owned-entities) and [<VPIcon icon="fa-brands fa-microsoft"/>Complex Types](https://devblogs.microsoft.com/dotnet/announcing-ef8-rc1/#complex-types-as-value-objects) to persist value objects.
 
 ### Owned Types
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Owned Types](https://learn.microsoft.com/en-us/ef/core/modeling/owned-entities) can be configured by calling the `OwnsOne` method when configuring the entity. This tells EF to persist the `Address` and `Price` value objects to the same table as the `Apartment` entity. The value objects are represented with additional columns in the `apartments` table.
+[<VPIcon icon="fa-brands fa-microsoft"/>Owned Types](https://learn.microsoft.com/en-us/ef/core/modeling/owned-entities) can be configured by calling the `OwnsOne` method when configuring the entity. This tells EF to persist the `Address` and `Price` value objects to the same table as the `Apartment` entity. The value objects are represented with additional columns in the `apartments` table.
 
 ```cs{5,7-13}
 public void Configure(EntityTypeBuilder<Apartment> builder)
@@ -306,7 +306,7 @@ A few more remarks about owned types:
 
 ### Complex Types
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Complex Types](https://devblogs.microsoft.com/dotnet/announcing-ef8-rc1/#complex-types-as-value-objects) are a new EF feature available in .NET 8. They aren't identified or tracked by a key value. Complex types have to be part of an entity type.
+[<VPIcon icon="fa-brands fa-microsoft"/>Complex Types](https://devblogs.microsoft.com/dotnet/announcing-ef8-rc1/#complex-types-as-value-objects) are a new EF feature available in .NET 8. They aren't identified or tracked by a key value. Complex types have to be part of an entity type.
 
 Complex types are more appropriate for representing value objects with EF.
 
@@ -336,8 +336,8 @@ You can use a `record` or `ValueObject` base class to represent value objects. T
 
 More learning material about value objects:
 
-- [<FontIcon icon="fa-brands fa-youtube"/>Solving primitive obsession with value objects](https://youtu.be/P5CRea21R2E)
-- [<FontIcon icon="fa-brands fa-youtube"/>Using EF 8 Complex types for value objects](https://youtu.be/LhCD5CUSP6g)
+- [<VPIcon icon="fa-brands fa-youtube"/>Solving primitive obsession with value objects](https://youtu.be/P5CRea21R2E)
+- [<VPIcon icon="fa-brands fa-youtube"/>Using EF 8 Complex types for value objects](https://youtu.be/LhCD5CUSP6g)
 
 Hope this was helpful.
 

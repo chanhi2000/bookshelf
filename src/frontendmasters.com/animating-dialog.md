@@ -175,7 +175,7 @@ What `transition-behavior: allow-discrete` usually does is allow us to request t
 
 Since the value changes at the beginning or end of the transition, it doesn’t matter what value we use for `animation-timing-function` so feel free to omit it from the shorthand.
 
-`transition-behavior` is currently not available in Firefox or Safari, but as it’s also an [<FontIcon icon="fas fa-globe"/>Interop 2024](https://wpt.fyi/interop-2024) target along with `@starting-style`, we can be optimistic that it’ll be widely available by the end of the year.
+`transition-behavior` is currently not available in Firefox or Safari, but as it’s also an [<VPIcon icon="fas fa-globe"/>Interop 2024](https://wpt.fyi/interop-2024) target along with `@starting-style`, we can be optimistic that it’ll be widely available by the end of the year.
 
 It’s also not available in a non-American spelling, so make sure you leave out the ‘u’.
 

@@ -126,7 +126,7 @@ By default, every shape you define with `clip-path` is calculated relative to th
 
 ::: note
 
-Note that you’re not limited to the border-box; the `clip-path` property also accepts an optional [<FontIcon icon="fa-brands fa-firefox"/>`<geometry-box>`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path#geometry-box) value, which lets you choose the reference box for your shape, giving you more control over how the clip is applied.
+Note that you’re not limited to the border-box; the `clip-path` property also accepts an optional [<VPIcon icon="fa-brands fa-firefox"/>`<geometry-box>`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path#geometry-box) value, which lets you choose the reference box for your shape, giving you more control over how the clip is applied.
 
 :::
 
@@ -275,7 +275,7 @@ clip-path: path("M 10,10 L 50,10 L 50,50 Z");
 
 You can use any SVG path command: `M` for move, `L` for line, `C` for cubic curves, `Q` for quadratic curves, and so on. This gives you incredible precision and the ability to create complex shapes with smooth curves and sharp angles exactly where you want them.
 
-If you’re not comfortable writing path commands by hand, there are plenty of free online SVG path editors like [<FontIcon icon="fas fa-globe"/>SVG Path Editor](https://yqnn.github.io/svg-path-editor/) or [<FontIcon icon="fas fa-globe"/>Boxy SVG](https://boxy-svg.com/) that can generate the path string for you.
+If you’re not comfortable writing path commands by hand, there are plenty of free online SVG path editors like [<VPIcon icon="fas fa-globe"/>SVG Path Editor](https://yqnn.github.io/svg-path-editor/) or [<VPIcon icon="fas fa-globe"/>Boxy SVG](https://boxy-svg.com/) that can generate the path string for you.
 
 Here’s a simple heart shape as an example:
 

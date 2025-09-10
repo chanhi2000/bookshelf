@@ -50,7 +50,7 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_052.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_052.png?imwidth=1920"/>
 
-More than 63%+ of organizations said in a [<FontIcon icon="fas fa-globe"/>Dzone survey](https://dzone.com/articles/new-research-shows-63-percent-of-enterprises-are-a) that they are adopting **Microservices** for some or all of their applications.
+More than 63%+ of organizations said in a [<VPIcon icon="fas fa-globe"/>Dzone survey](https://dzone.com/articles/new-research-shows-63-percent-of-enterprises-are-a) that they are adopting **Microservices** for some or all of their applications.
 
 As more businesses adopt the use of Microservice architectures, we as developers have to become more skilled with Microservices communication.
 

@@ -56,13 +56,13 @@ cover: https://files.realpython.com/media/Python-driven-Web-Applications_Waterma
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Python-driven-Web-Applications_Watermarked.c5692cb81de8.jpg"/>
 
-Google App Engine requires you to use a web framework for creating your web application in a Python 3 environment. Since you’re trying to use a minimal setup to get your local Python code up on the Internet, a microframework such as [<FontIcon icon="iconfont icon-flask"/>Flask](https://flask.palletsprojects.com/en/1.1.x/) is a good choice. A minimal implementation of Flask is so small that you might not even notice that you’re using a web framework.
+Google App Engine requires you to use a web framework for creating your web application in a Python 3 environment. Since you’re trying to use a minimal setup to get your local Python code up on the Internet, a microframework such as [<VPIcon icon="iconfont icon-flask"/>Flask](https://flask.palletsprojects.com/en/1.1.x/) is a good choice. A minimal implementation of Flask is so small that you might not even notice that you’re using a web framework.
 
 ::: note
 
-If you’ve previously worked with Google App Engine on a Python 2.7 environment, then you’ll notice that the process [<FontIcon icon="iconfont icon-gcp"/>has changed significantly](https://cloud.google.com/appengine/docs/standard/python/migrate-to-python3).
+If you’ve previously worked with Google App Engine on a Python 2.7 environment, then you’ll notice that the process [<VPIcon icon="iconfont icon-gcp"/>has changed significantly](https://cloud.google.com/appengine/docs/standard/python/migrate-to-python3).
 
-Two notable changes are that [<FontIcon icon="iconfont icon-gcp"/>webapp2](https://cloud.google.com/appengine/docs/standard/python/tools/webapp2) has been retired and that you’re no longer able to specify URLs for dynamic content in the <FontIcon icon="iconfont icon-yaml"/>`app.yaml` file. The reason for both of these changes is that Google App Engine now requires you to use a Python web framework.
+Two notable changes are that [<VPIcon icon="iconfont icon-gcp"/>webapp2](https://cloud.google.com/appengine/docs/standard/python/tools/webapp2) has been retired and that you’re no longer able to specify URLs for dynamic content in the <VPIcon icon="iconfont icon-yaml"/>`app.yaml` file. The reason for both of these changes is that Google App Engine now requires you to use a Python web framework.
 
 :::
 
@@ -74,19 +74,19 @@ The application you’re going to create will rely on several different files, s
 
 Create a project folder and give it a name that’s descriptive of your project. For this practice project, call the folder `hello-app`. You’ll need three files inside this folder:
 
-1. <FontIcon icon="fa-brands fa-python"/>`main.py` contains your Python code wrapped in a minimal implementation of the Flask web framework.
-2. <FontIcon icon="fas fa-file-lines"/>`requirements.txt` lists all the dependencies your code needs to work properly.
-3. <FontIcon icon="iconfont icon-yaml"/>`app.yaml` helps Google App Engine decide which settings to use on its server.
+1. <VPIcon icon="fa-brands fa-python"/>`main.py` contains your Python code wrapped in a minimal implementation of the Flask web framework.
+2. <VPIcon icon="fas fa-file-lines"/>`requirements.txt` lists all the dependencies your code needs to work properly.
+3. <VPIcon icon="iconfont icon-yaml"/>`app.yaml` helps Google App Engine decide which settings to use on its server.
 
 While three files might sound like a lot, you’ll see that this project uses fewer than ten lines of code across all three files. This represents the minimal setup you need to provide to Google App Engine for any Python project you may launch. The rest will be your own Python code.
 
-Next, you’ll take a look at the content of each of the files starting with the most complex one, <FontIcon icon="fa-brands fa-python"/>`main.py`.
+Next, you’ll take a look at the content of each of the files starting with the most complex one, <VPIcon icon="fa-brands fa-python"/>`main.py`.
 
 ---
 
-## Create <FontIcon icon="fa-brands fa-python"/>`main.py`
+## Create <VPIcon icon="fa-brands fa-python"/>`main.py`
 
-<FontIcon icon="fa-brands fa-python"/>`main.py` is the file that Flask uses to deliver your content. At the top of the file, you [**import**](/realpython.com/python-import.md) the `Flask` class on line 1, then you create an instance of a Flask app on line 3:
+<VPIcon icon="fa-brands fa-python"/>`main.py` is the file that Flask uses to deliver your content. At the top of the file, you [**import**](/realpython.com/python-import.md) the `Flask` class on line 1, then you create an instance of a Flask app on line 3:
 
 ```py
 from flask import Flask
@@ -98,7 +98,7 @@ def index():
     return "Congratulations, it's a web app!"
 ```
 
-After you create the Flask `app`, you write a [**Python decorator**](/realpython.com/primer-on-python-decorators.md) on line 5 called `@app.route` that Flask uses to connect [<FontIcon icon="fa-brands fa-wikipedia-w"/>URL](https://en.wikipedia.org/wiki/URL) endpoints with code contained in functions. The argument to `@app.route` defines the URL’s path component, which is the root path (`"/"`) in this case.
+After you create the Flask `app`, you write a [**Python decorator**](/realpython.com/primer-on-python-decorators.md) on line 5 called `@app.route` that Flask uses to connect [<VPIcon icon="fa-brands fa-wikipedia-w"/>URL](https://en.wikipedia.org/wiki/URL) endpoints with code contained in functions. The argument to `@app.route` defines the URL’s path component, which is the root path (`"/"`) in this case.
 
 The code on lines 6 and 7 makes up `index()`, which is wrapped by the decorator. This function defines what should be executed if the defined URL endpoint is requested by a user. Its [**return value**](/realpython.com/python-return-statement.md) determines what a user will see when they load the page.
 
@@ -114,23 +114,23 @@ You can render more complex content, and you can also create more than one funct
 
 ---
 
-## Create <FontIcon icon="fas fa-file-lines"/>`requirements.txt`
+## Create <VPIcon icon="fas fa-file-lines"/>`requirements.txt`
 
-The next file to look at is <FontIcon icon="fas fa-file-lines"/>`requirements.txt`. Since Flask is the only dependency of this project, that’s all you need to specify:
+The next file to look at is <VPIcon icon="fas fa-file-lines"/>`requirements.txt`. Since Flask is the only dependency of this project, that’s all you need to specify:
 
 ```plaintext title="requirements.txt"
 Flask==2.1.2
 ```
 
-If your app has other dependencies, then you’ll need to add them to your <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file as well.
+If your app has other dependencies, then you’ll need to add them to your <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file as well.
 
-Google App Engine will use <FontIcon icon="fas fa-file-lines"/>`requirements.txt` to install the necessary Python dependencies for your project when setting it up on the server. This is similar to what you would do after creating and activating a new [**virtual environment**](/realpython.com/python-virtual-environments-a-primer.md) locally.
+Google App Engine will use <VPIcon icon="fas fa-file-lines"/>`requirements.txt` to install the necessary Python dependencies for your project when setting it up on the server. This is similar to what you would do after creating and activating a new [**virtual environment**](/realpython.com/python-virtual-environments-a-primer.md) locally.
 
 ---
 
-## Create <FontIcon icon="iconfont icon-yaml"/>`app.yaml`
+## Create <VPIcon icon="iconfont icon-yaml"/>`app.yaml`
 
-The third file, <FontIcon icon="iconfont icon-yaml"/>`app.yaml`, helps Google App Engine set up the right server environment for your code. This file requires only one line, which defines the Python runtime:
+The third file, <VPIcon icon="iconfont icon-yaml"/>`app.yaml`, helps Google App Engine set up the right server environment for your code. This file requires only one line, which defines the Python runtime:
 
 ```yaml title="app.yaml"
 runtime: python38
@@ -140,11 +140,11 @@ The line shown above clarifies that the right runtime for your Python code is Py
 
 ::: note
 
-Make sure that the [<FontIcon icon="iconfont icon-gcp"/>Python 3 Runtime Environment](https://cloud.google.com/appengine/docs/standard/python3/runtime) you want to use is available on Google App Engine.
+Make sure that the [<VPIcon icon="iconfont icon-gcp"/>Python 3 Runtime Environment](https://cloud.google.com/appengine/docs/standard/python3/runtime) you want to use is available on Google App Engine.
 
 :::
 
-You can use Google App Engine’s <FontIcon icon="iconfont icon-yaml"/>`app.yaml` file for additional setup, such as adding environment variables to your application. You can also use it to define the path to static content for your app, such as images, CSS or JavaScript files. This tutorial won’t go into these additional settings, but you can consult Google App Engine’s documentation on the [<FontIcon icon="iconfont icon-gcp"/>`app.yaml` Configuration File](https://cloud.google.com/appengine/docs/standard/python3/config/appref) if you want to add such functionality.
+You can use Google App Engine’s <VPIcon icon="iconfont icon-yaml"/>`app.yaml` file for additional setup, such as adding environment variables to your application. You can also use it to define the path to static content for your app, such as images, CSS or JavaScript files. This tutorial won’t go into these additional settings, but you can consult Google App Engine’s documentation on the [<VPIcon icon="iconfont icon-gcp"/>`app.yaml` Configuration File](https://cloud.google.com/appengine/docs/standard/python3/config/appref) if you want to add such functionality.
 
 These nine lines of code complete the necessary setup for this app. Your project is now ready for deployment.
 
@@ -177,16 +177,16 @@ After executing this command, your prompt will change to indicate that you’re 
 python3 -m pip install -r requirements.txt
 ```
 
-This command fetches all packages listed in <FontIcon icon="fas fa-file-lines"/>`requirements.txt` from PyPI and installs them in your virtual environment. In this case, the only package installed will be Flask.
+This command fetches all packages listed in <VPIcon icon="fas fa-file-lines"/>`requirements.txt` from PyPI and installs them in your virtual environment. In this case, the only package installed will be Flask.
 
-Wait for the installation to complete, then open up <FontIcon icon="fa-brands fa-python"/>`main.py` and add the following two lines of code at the bottom of the file:
+Wait for the installation to complete, then open up <VPIcon icon="fa-brands fa-python"/>`main.py` and add the following two lines of code at the bottom of the file:
 
 ```py title="main.py"
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080, debug=True)
 ```
 
-These two lines tell Python to start Flask’s development server when the script is executed from the command line. It’ll be used only when you run the script locally. When you deploy the code to Google App Engine, a professional web server process, such as [<FontIcon icon="fas fa-globe"/>Gunicorn](https://gunicorn.org/), will serve the app instead. You won’t need to change anything to make this happen.
+These two lines tell Python to start Flask’s development server when the script is executed from the command line. It’ll be used only when you run the script locally. When you deploy the code to Google App Engine, a professional web server process, such as [<VPIcon icon="fas fa-globe"/>Gunicorn](https://gunicorn.org/), will serve the app instead. You won’t need to change anything to make this happen.
 
 You can now start Flask’s development server and interact with your Python app in your browser. To do so, you need to run the Python script that starts the Flask app by typing the following command:
 
@@ -221,7 +221,7 @@ Follow the instructions and open a browser tab at `http://127.0.0.1:8080/`. You 
 
 The URL `127.0.0.1` is also called the **localhost**, which means that it points to your own computer. The number `8080` that follows after the colon (`:`) is called the **port number**. The port can be thought of as a particular channel, similar to broadcasting a television or radio channel.
 
-You’ve defined these values in `app.run()` in your <FontIcon icon="fa-brands fa-python"/>`main.py` file. Running the application on port `8080` means that you can tune in to this port number and receive communication from the development server. Port `8080` is commonly used for local testing, but you could also use a different number.
+You’ve defined these values in `app.run()` in your <VPIcon icon="fa-brands fa-python"/>`main.py` file. Running the application on port `8080` means that you can tune in to this port number and receive communication from the development server. Port `8080` is commonly used for local testing, but you could also use a different number.
 
 :::
 

@@ -89,7 +89,7 @@ python3 -m pip install <your-package-name>
 
 After you’ve successfully published your code to PyPI, this command will install your package, including its dependencies, on any of your users’ computers, provided that they have an Internet connection.
 
-If you don’t want to publish your code as a PyPI package, then you can still use Python’s built-in `sdist` command to create a [<FontIcon icon="fa-brands fa-python"/>source distribution](https://docs.python.org/3/distutils/sourcedist.html) or a [**Python wheel**](/realpython.com/python-wheels.md) to create a [<FontIcon icon="fa-brands fa-python"/>built distribution](https://packaging.python.org/glossary/#term-built-distribution) to share with your users.
+If you don’t want to publish your code as a PyPI package, then you can still use Python’s built-in `sdist` command to create a [<VPIcon icon="fa-brands fa-python"/>source distribution](https://docs.python.org/3/distutils/sourcedist.html) or a [**Python wheel**](/realpython.com/python-wheels.md) to create a [<VPIcon icon="fa-brands fa-python"/>built distribution](https://packaging.python.org/glossary/#term-built-distribution) to share with your users.
 
 Distributing your code like this keeps it close to the original script you wrote and adds only what’s necessary for others to run it. However, using this approach also means that your users will need to run your code with Python. Many people who want to use your script’s functionality won’t have Python installed or won’t be familiar with the processes required to work directly with your code.
 
@@ -102,11 +102,11 @@ Computer programs come in different shapes and forms, and there are multiple opt
 1. Packaging your code
 2. Building a GUI
 
-Programs such as [<FontIcon icon="fas fa-globe"/>PyInstaller](https://pyinstaller.org/), [<FontIcon icon="fas fa-globe"/>py2app](https://py2app.readthedocs.io/en/latest/), [<FontIcon icon="fas fa-globe"/>py2exe](https://py2exe.org/), or [<FontIcon icon="fas fa-globe"/>Briefcase](https://briefcase.readthedocs.io/en/latest/) can help with packaging your code. They turn Python scripts into executable programs that can be used on different platforms without requiring your users to explicitly run the Python interpreter.
+Programs such as [<VPIcon icon="fas fa-globe"/>PyInstaller](https://pyinstaller.org/), [<VPIcon icon="fas fa-globe"/>py2app](https://py2app.readthedocs.io/en/latest/), [<VPIcon icon="fas fa-globe"/>py2exe](https://py2exe.org/), or [<VPIcon icon="fas fa-globe"/>Briefcase](https://briefcase.readthedocs.io/en/latest/) can help with packaging your code. They turn Python scripts into executable programs that can be used on different platforms without requiring your users to explicitly run the Python interpreter.
 
 ::: note
 
-To learn more about packaging your code, check out [**Using PyInstaller to Easily Distribute Python Applications**](/realpython.com/pyinstaller-python/) or listen to the Real Python Podcast episode [<FontIcon icon="fas fa-globe"/>Options for Packaging Your Python Application](https://realpython.com/podcasts/rpp/24/).
+To learn more about packaging your code, check out [**Using PyInstaller to Easily Distribute Python Applications**](/realpython.com/pyinstaller-python/) or listen to the Real Python Podcast episode [<VPIcon icon="fas fa-globe"/>Options for Packaging Your Python Application](https://realpython.com/podcasts/rpp/24/).
 
 :::
 
@@ -114,7 +114,7 @@ While packaging your code can resolve dependency problems, your code still just 
 
 ::: note
 
-There are different packages that can help you with building a GUI, including [**Tkinter**](/realpython.com/python-gui-tkinter.md), [**wxPython**](/realpython.com/python-gui-with-wxpython.md), and [**PySimpleGUI**](/realpython.com/pysimplegui-python.md). If you want to build a native desktop-based app, then check out the learning path for [<FontIcon icon="fas fa-globe"/>Python GUI Programming](https://realpython.com/learning-paths/python-gui-programming/).
+There are different packages that can help you with building a GUI, including [**Tkinter**](/realpython.com/python-gui-tkinter.md), [**wxPython**](/realpython.com/python-gui-with-wxpython.md), and [**PySimpleGUI**](/realpython.com/pysimplegui-python.md). If you want to build a native desktop-based app, then check out the learning path for [<VPIcon icon="fas fa-globe"/>Python GUI Programming](https://realpython.com/learning-paths/python-gui-programming/).
 
 :::
 
@@ -126,7 +126,7 @@ It makes sense that many developers instead build web applications that can be a
 
 The advantage of web applications is that they’re platform independent and can be run by anyone who has access to the Internet. Their code is implemented on a back-end **server**, where the program processes incoming requests and responds through a shared protocol that’s understood by all browsers.
 
-Python powers many large web applications and is a common choice as a back-end language. Many Python-driven web applications are planned from the start as web applications and are built using Python web frameworks such as [<FontIcon icon="fas fa-globe"/>Flask](https://realpython.com/learning-paths/flask-by-example/), which you’ll use in this tutorial.
+Python powers many large web applications and is a common choice as a back-end language. Many Python-driven web applications are planned from the start as web applications and are built using Python web frameworks such as [<VPIcon icon="fas fa-globe"/>Flask](https://realpython.com/learning-paths/flask-by-example/), which you’ll use in this tutorial.
 
 However, instead of the web-first approach described above, you’re going to take a different angle. After all, you weren’t *planning* to build a web application. You just created a useful Python script, and now you want to share with the world. To make it accessible to a broad range of users, you’ll refactor it into a web application and then deploy it to the Internet.
 
@@ -138,7 +138,7 @@ It’s time to go over what a web application is and how it’s different from o
 
 Historically, websites had fixed content that was the same for every user who accessed that page. These web pages are called **static** because their content doesn’t change when you interact with them. When serving a static web page, a web server responds to your request by sending back the content of that page, regardless of who you are or what other actions you took.
 
-You can browse an example of a static website at the [<FontIcon icon="fas fa-globe"/>first URL that ever went online](http://info.cern.ch/hypertext/WWW/TheProject.html), as well as the pages it links to:
+You can browse an example of a static website at the [<VPIcon icon="fas fa-globe"/>first URL that ever went online](http://info.cern.ch/hypertext/WWW/TheProject.html), as well as the pages it links to:
 
 ![Screenshot of one of the first static webpages, displaying the history of the project as envisioned at CERN](https://files.realpython.com/media/Screenshot_2020-12-08_at_19.57.40.4740435d7767.png)
 
@@ -154,7 +154,7 @@ A single-page Webmail application
 
 **Python-driven web applications** use Python code to determine what actions to take and what content to show. Your code is run by the web server that hosts your website, which means that your users don’t need to install anything. All they need to interact with your code is a browser and an Internet connection.
 
-Getting Python to run on a website can be complicated, but there are a number of different [<FontIcon icon="fa-brands fa-wikipedia-w"/>web frameworks](http://en.wikipedia.org/wiki/Web_framework) that automatically take care of the details. As mentioned above, you’ll build a basic Flask application in this tutorial.
+Getting Python to run on a website can be complicated, but there are a number of different [<VPIcon icon="fa-brands fa-wikipedia-w"/>web frameworks](http://en.wikipedia.org/wiki/Web_framework) that automatically take care of the details. As mentioned above, you’ll build a basic Flask application in this tutorial.
 
 In the upcoming section, you’ll get a high-level perspective on the main processes that need to happen to run your Python code on a server and deliver a response to your users.
 
@@ -171,7 +171,7 @@ Serving dynamic content over the Internet involves a lot of different pieces, an
 5. **Delivering:** The program then delivers this response back to your user through the web server.
 6. **Viewing:** Finally, the user can view the web server’s response. For example, the resulting web page can be displayed in a browser.
 
-This is a general process of how content is delivered over the Internet. The programming language used on the server, as well as the technologies used to establish that connection, can differ. However, the concept used to communicate across [<FontIcon icon="fa-brands fa-wikipedia-w"/>HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) **requests** and **responses** remains the same and is called the **HTTP Request-Response Cycle**.
+This is a general process of how content is delivered over the Internet. The programming language used on the server, as well as the technologies used to establish that connection, can differ. However, the concept used to communicate across [<VPIcon icon="fa-brands fa-wikipedia-w"/>HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) **requests** and **responses** remains the same and is called the **HTTP Request-Response Cycle**.
 
 ::: note
 
@@ -183,23 +183,23 @@ To allow Flask to handle requests on the server side, you’ll need to find a pl
 
 ## Choose a Hosting Provider: Google App Engine
 
-When choosing a web hosting provider, you need to confirm that it supports running Python code. Many of them cost money, but this tutorial will stick with a free option that’s professional and highly scalable yet still reasonable to set up: [<FontIcon icon="iconfont icon-gcp"/>Google App Engine](https://cloud.google.com/appengine/docs/standard/python3).
+When choosing a web hosting provider, you need to confirm that it supports running Python code. Many of them cost money, but this tutorial will stick with a free option that’s professional and highly scalable yet still reasonable to set up: [<VPIcon icon="iconfont icon-gcp"/>Google App Engine](https://cloud.google.com/appengine/docs/standard/python3).
 
 ::: note
 
-Google App Engine enforces daily [<FontIcon icon="iconfont icon-gcp"/>quotas](https://cloud.google.com/appengine/quotas) for each application. If your web application exceeds these quotas, then Google will start billing you. If you’re a new Google Cloud customer, then you can get a [<FontIcon icon="iconfont icon-gcp"/>promotional free credit](https://cloud.google.com/free) when signing up.
+Google App Engine enforces daily [<VPIcon icon="iconfont icon-gcp"/>quotas](https://cloud.google.com/appengine/quotas) for each application. If your web application exceeds these quotas, then Google will start billing you. If you’re a new Google Cloud customer, then you can get a [<VPIcon icon="iconfont icon-gcp"/>promotional free credit](https://cloud.google.com/free) when signing up.
 
 :::
 
-There are a number of other free options, such as [<FontIcon icon="fas fa-globe"/>PythonAnywhere](https://pythonanywhere.com/), [<FontIcon icon="fas fa-globe"/>Repl.it](https://repl.it/), or [<FontIcon icon="fas fa-globe"/>Heroku](https://heroku.com/) that you can explore later on. Using Google App Engine will give you a good start in learning about deploying Python code to the web as it strikes a balance between abstracting away complexity and allowing you to customize the setup.
+There are a number of other free options, such as [<VPIcon icon="fas fa-globe"/>PythonAnywhere](https://pythonanywhere.com/), [<VPIcon icon="fas fa-globe"/>Repl.it](https://repl.it/), or [<VPIcon icon="fas fa-globe"/>Heroku](https://heroku.com/) that you can explore later on. Using Google App Engine will give you a good start in learning about deploying Python code to the web as it strikes a balance between abstracting away complexity and allowing you to customize the setup.
 
-Google App Engine is part of the Google Cloud Platform (GCP), which is run by Google and represents one of the big cloud providers, along with [<FontIcon icon="iconfont icon-microsoftazure"/>Microsoft Azure](https://azure.microsoft.com/) and [<FontIcon icon="fa-brands fa-aws"/>Amazon Web Services (AWS)](http://aws.amazon.com/).
+Google App Engine is part of the Google Cloud Platform (GCP), which is run by Google and represents one of the big cloud providers, along with [<VPIcon icon="iconfont icon-microsoftazure"/>Microsoft Azure](https://azure.microsoft.com/) and [<VPIcon icon="fa-brands fa-aws"/>Amazon Web Services (AWS)](http://aws.amazon.com/).
 
-To get started with GCP, download and install the [<FontIcon icon="iconfont icon-gcp"/>Google Cloud SDK](https://cloud.google.com/sdk/docs/install) for your operating system. For additional guidance beyond what you’ll find in this tutorial, you can consult [Google App Engine’s documentation](https://cloud.google.com/appengine/docs/standard/python3).
+To get started with GCP, download and install the [<VPIcon icon="iconfont icon-gcp"/>Google Cloud SDK](https://cloud.google.com/sdk/docs/install) for your operating system. For additional guidance beyond what you’ll find in this tutorial, you can consult [Google App Engine’s documentation](https://cloud.google.com/appengine/docs/standard/python3).
 
 ::: note
 
-You’ll be working with the Python 3 standard environment. Google App Engine’s [<FontIcon icon="iconfont icon-gcp"/>standard environment](https://cloud.google.com/appengine/docs/standard) supports Python 3 runtimes and offers a free tier.
+You’ll be working with the Python 3 standard environment. Google App Engine’s [<VPIcon icon="iconfont icon-gcp"/>standard environment](https://cloud.google.com/appengine/docs/standard) supports Python 3 runtimes and offers a free tier.
 
 :::
 

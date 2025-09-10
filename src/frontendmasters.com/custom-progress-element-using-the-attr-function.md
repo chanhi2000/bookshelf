@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5537"/>
 
-In[**a previous article**](/frontendmasters.com/custom-progress-element-using-anchor-positioning-scroll-driven-animations.md), we combined two modern CSS features ([<FontIcon icon="fas fa-globe"/>anchor positioning](https://frontendmasters.com/blog/tag/anchor/) and [<FontIcon icon="fas fa-globe"/>scroll-driven animations](https://frontendmasters.com/blog/tag/scroll-driven-animations/)) to style the`<progress>`element without extra markup and create a cool component. Here’s that demo:
+In[**a previous article**](/frontendmasters.com/custom-progress-element-using-anchor-positioning-scroll-driven-animations.md), we combined two modern CSS features ([<VPIcon icon="fas fa-globe"/>anchor positioning](https://frontendmasters.com/blog/tag/anchor/) and [<VPIcon icon="fas fa-globe"/>scroll-driven animations](https://frontendmasters.com/blog/tag/scroll-driven-animations/)) to style the`<progress>`element without extra markup and create a cool component. Here’s that demo:
 
 <CodePen
   user="t_afif"
@@ -164,7 +164,7 @@ If your goal is to get the progress value and style the element itself then usin
 
 ## Progress element with dynamic coloration
 
-Now that we have our new way to get the value let’s create[<FontIcon icon="fas fa-globe"/>a progress element with dynamic coloration](https://css-tip.com/custom-progress/). This time, we will not fade between two colors like we did in the previous demo but the color will change based on the value.
+Now that we have our new way to get the value let’s create[<VPIcon icon="fas fa-globe"/>a progress element with dynamic coloration](https://css-tip.com/custom-progress/). This time, we will not fade between two colors like we did in the previous demo but the color will change based on the value.
 
 A demo worth a thousand words:
 
@@ -198,7 +198,7 @@ progress[value]::-webkit-progress-value {
 }
 ```
 
-We have two[<FontIcon icon="fas fa-globe"/>single-color gradients](https://css-tip.com/one-color-gradient/)(red and orange) and a `background-color` (green). If, for example, the progression is equal to 20%, the first gradient will have a size equal to`10% 1%`(visible) and the second gradient will have a size equal`40% 1%`(visible). Both are visible but you will only see the top layer so the color is red. If the progression is equal to 70%, both gradients will have a size equal to`0% 1%`(invisible) and the background-color will be visible: the color is green.
+We have two[<VPIcon icon="fas fa-globe"/>single-color gradients](https://css-tip.com/one-color-gradient/)(red and orange) and a `background-color` (green). If, for example, the progression is equal to 20%, the first gradient will have a size equal to`10% 1%`(visible) and the second gradient will have a size equal`40% 1%`(visible). Both are visible but you will only see the top layer so the color is red. If the progression is equal to 70%, both gradients will have a size equal to`0% 1%`(invisible) and the background-color will be visible: the color is green.
 
 Clever, right? We can easily scale this technique to consider as many colors as you want by adding more gradients. Simply pay attention to the order. The smallest value is for the top layer and we increase it until we reach the bottom layer (the `background-color`).
 
@@ -272,7 +272,7 @@ progress[value]::-webkit-progress-value {
 
 ### Using an `if()` condition
 
-What we have done until now is a conditional logic based on the progress value and CSS has recently introduced[<FontIcon icon="fas fa-globe"/>inline conditionals using an `if()` syntax](https://css-tricks.com/if-css-gets-inline-conditionals/).
+What we have done until now is a conditional logic based on the progress value and CSS has recently introduced[<VPIcon icon="fas fa-globe"/>inline conditionals using an `if()` syntax](https://css-tricks.com/if-css-gets-inline-conditionals/).
 
 The previous code can be written like below:
 
@@ -310,7 +310,7 @@ The code is self-explanatory and also more intuitive. It’s still too early to 
 
 ### Using Style Queries
 
-Similar to the `if()` syntax, we can also rely[<FontIcon icon="fa-brands fa-chrome"/>on style queries](https://developer.chrome.com/docs/css-ui/style-queries)and do the following:
+Similar to the `if()` syntax, we can also rely[<VPIcon icon="fa-brands fa-chrome"/>on style queries](https://developer.chrome.com/docs/css-ui/style-queries)and do the following:
 
 ```css
 @property --_i {
@@ -340,7 +340,7 @@ progress[value]::-webkit-progress-value {
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-We will also be able to have[a range syntax (<FontIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/8376)and the code can be simplified to something like the below:
+We will also be able to have[a range syntax (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/8376)and the code can be simplified to something like the below:
 
 ```css
 @property --_i {

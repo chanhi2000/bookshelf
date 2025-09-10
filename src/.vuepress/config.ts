@@ -5,6 +5,7 @@ import { visualizer } from "rollup-plugin-visualizer"
 
 /* plugins V2 */
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+import { markdownImagePlugin } from '@vuepress/plugin-markdown-image';
 
 /* plugins 3rd-party */
 import MdDefinePlugin from 'vuepress-plugin-markdown-define2';
@@ -12,7 +13,8 @@ import MdDefinePlugin from 'vuepress-plugin-markdown-define2';
 import theme from "./theme.js";
 
 const __dirname = getDirname(import.meta.url)
-const { description, version } = require('../../package.json')
+// const { description, version } = require('../../package.json')
+import { description, version } from '../../package.json';
 const CONSTS = {
   __VERSION__: version
 }
@@ -33,66 +35,111 @@ export default defineUserConfig({
   cache: 'src/.vuepress/.cache',
   bundler: viteBundler({
     viteOptions: {
-      plugins: [ 
-        visualizer({ 
-          emitFile: true, // Automatically open the report in the browser
-          filename: 'stats.html' // Output filename
-        })
-      ],
       build: {
         // minify: false,
         // sourcemap: false,
-        chunkSizeWarningLimit: 1200,
-        /* 
+        chunkSizeWarningLimit: 1500,
         rollupOptions: {
-          external: ['vue'],
           output: {
             manualChunks(id) {
-              // Chunk for searchIndex.js related to @vuepress/plugin-search
-              if (id.includes('useSearchIndex')) {
-                return 'searchIndex'; // This will create a chunk named 'searchIndex.js'
+              // Core VuePress and Theme Framework (keep these together if possible, but minimal)
+              /* 
+              if (
+                id.includes('node_modules/vue/') ||
+                id.includes('node_modules/vue-router/') ||
+                id.includes('node_modules/vuepress/') || // Core VuePress
+                id.includes('node_modules/@vuepress/') || // All @vuepress/* packages
+                id.includes('node_modules/vuepress-theme-hope/') ||
+                id.includes('node_modules/vuepress-shared/') || // vuepress-theme-hope dependency
+                id.includes('node_modules/vuepress-plugin-components/') || // vuepress-theme-hope dependency
+                id.includes('node_modules/vuepress-plugin-md-enhance/') // vuepress-theme-hope dependency
+              ) {
+                return 'vuepress-core-framework'; // A robust chunk for the essential framework
               }
-  
-              // Example: Chunk for JSX components (from previous example)
-              if (id.includes('jsx')) {
-                return 'jsxComponents';
+
+              // === Highly interactive / Large Libraries - Give them their OWN dedicated chunks ===
+              // These are known to be large and often come with their own environments
+              if (id.includes('node_modules/sandpack-vue3/')) {
+                return 'sandpack-vue3-lib';
               }
-  
-              // Example: Chunk for charting libraries
-              if (id.includes('chart.js') || id.includes('echarts')) {
-                return 'chartLibs';
+              if (id.includes('node_modules/@vue/repl/')) {
+                return 'vue-repl-lib';
               }
-  
-              // Example: Chunk for video libraries
-              if (id.includes('dashjs') || id.includes('hls.js')) {
-                return 'videoLibs';
+              if (id.includes('node_modules/kotlin-playground/')) {
+                return 'kotlin-playground-lib';
               }
-  
-              // Example: Chunk for mermaid library
-              if (id.includes('mermaid')) {
-                return 'mermaidLib';
+
+              // === Diagramming Libraries - Often heavy ===
+              if (id.includes('node_modules/mermaid/')) {
+                return 'mermaid-lib';
               }
-  
-              // Default vendor chunk for any node_modules dependency
+              if (id.includes('node_modules/flowchart.ts/')) {
+                return 'flowchart-lib';
+              }
+
+              // === Charting Libraries - Can be very large ===
+              if (id.includes('node_modules/chart.js/')) { // Chart.js itself
+                return 'chartjs-lib';
+              }
+              if (id.includes('node_modules/echarts/')) { // Echarts itself
+                return 'echarts-lib';
+              }
+
+              // === Video Streaming Libraries - Definitely large ===
+              if (id.includes('node_modules/dashjs/')) {
+                return 'dashjs-lib';
+              }
+              if (id.includes('node_modules/hls.js/')) {
+                return 'hlsjs-lib';
+              }
+              if (id.includes('node_modules/vidstack/')) {
+                return 'vidstack-lib';
+              }
+
+              // === Other potential large generic utilities ===
+              // axios and @vueuse/core are not typically huge, but if your stats.html shows them as significant,
+              // you could chunk them. For now, let's leave them in a general vendor.
+              // if (id.includes('node_modules/axios/')) {
+              //   return 'axios-lib';
+              // }
+              // if (id.includes('node_modules/@vueuse/core/')) {
+              //   return 'vueuse-lib';
+              // }
+
+              // === General Vendor Fallback ===
+              // All other node_modules that aren't specifically chunked above
               if (id.includes('node_modules')) {
-                return 'vendor';
+                return 'vendor'; // This should now be significantly smaller
               }
+
+              // VuePress theme specific styles and assets (if they end up in JS chunks)
+              if (id.includes(path.resolve(__dirname, './styles/'))) {
+                return 'theme-styles';
+              } */
+
             }
-          },
-        },
-        */
+          }
+        }
       },
+      plugins: [ 
+        visualizer({ 
+          emitFile: true, // Automatically open the report in the browser
+          filename: 'stats.html', // Output filename
+          open: true,
+        })
+      ],
     }
   }),
   theme,
   plugins: [
     registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, './components'),
+      componentsDir: path.resolve(__dirname, '../../shared/src/components'),
     }),
     MdDefinePlugin(CONSTS),
   ],
   // Enable it with pwa
-  // shouldPrefetch: false,
+  shouldPrefetch: false,
+  shouldPreload: false,
   extendsPage: (page) => {
   
   },

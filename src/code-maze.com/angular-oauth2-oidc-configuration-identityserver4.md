@@ -59,11 +59,11 @@ cover: /assets/image/code-maze.com/angular-oauth2-oidc-configuration-identityser
 
 In this article, we are going to continue our IdentityServer4 series by learning how to implement Angular OAuth2 OIDC security with IdentityServer4 using the Authorization Code flow.
 
-This article is heavily dependent on the previous articles from the series, so if you are not familiar with the IdentityServer4 concept or OAuth2 and OpenID Connect concepts, we strongly suggest reading all of our [<FontIcon icon="fas fa-globe"/>previous articles related to the IdentityServer4 series](https://code-maze.com/identityserver-4-series/).
+This article is heavily dependent on the previous articles from the series, so if you are not familiar with the IdentityServer4 concept or OAuth2 and OpenID Connect concepts, we strongly suggest reading all of our [<VPIcon icon="fas fa-globe"/>previous articles related to the IdentityServer4 series](https://code-maze.com/identityserver-4-series/).
 
 ::: info
 
-To download the source code for this article, you can visit the [Angular OAuth2 OIDC with the IdentityServer4 (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-identityserver4`)](https://github.com/CodeMazeBlog/angular-identityserver4/tree/angular-oauth2-oidc-configuration) repository. There, you will find the start folder for the starting projects and the end folder for the finished projects.
+To download the source code for this article, you can visit the [Angular OAuth2 OIDC with the IdentityServer4 (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/angular-identityserver4`)](https://github.com/CodeMazeBlog/angular-identityserver4/tree/angular-oauth2-oidc-configuration) repository. There, you will find the start folder for the starting projects and the end folder for the finished projects.
 
 <SiteInfo
   name="CodeMazeBlog/angular-identityserver4"

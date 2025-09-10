@@ -134,7 +134,7 @@ Fabric rendering architecture is React Native’s new rendering system that work
 
 ## C++ Turbo Native Modules
 
-The Native Module architecture supports [<FontIcon icon="fa-brands fa-react"/>modules written in C++](https://reactnative.dev/docs/the-new-architecture/pure-cxx-modules). While Native Modules allow you to write native iOS platform code with Swift or Objective C, and native Android platform code with Java or Kotlin, C++ Turbo Modules let you write your module in C++ and it works across all platforms, including Android, iOS, Windows, and macOS.
+The Native Module architecture supports [<VPIcon icon="fa-brands fa-react"/>modules written in C++](https://reactnative.dev/docs/the-new-architecture/pure-cxx-modules). While Native Modules allow you to write native iOS platform code with Swift or Objective C, and native Android platform code with Java or Kotlin, C++ Turbo Modules let you write your module in C++ and it works across all platforms, including Android, iOS, Windows, and macOS.
 
 If your app requires more performance optimizations and fine-grained memory management, you should consider using C++ Turbo Native Modules.
 
@@ -146,9 +146,9 @@ This section will show you how to write a custom Turbo Module to allow our React
 
 To make this work, we need to use the following Android APIs:
 
-- [<FontIcon icon="fa-brands fa-android"/>SystemClock](https://developer.android.com/reference/android/os/SystemClock)
-- [<FontIcon icon="fa-brands fa-android"/>SystemService](https://developer.android.com/reference/android/app/Service)
-- [<FontIcon icon="fa-brands fa-android"/>Build](https://developer.android.com/reference/android/os/Build)
+- [<VPIcon icon="fa-brands fa-android"/>SystemClock](https://developer.android.com/reference/android/os/SystemClock)
+- [<VPIcon icon="fa-brands fa-android"/>SystemService](https://developer.android.com/reference/android/app/Service)
+- [<VPIcon icon="fa-brands fa-android"/>Build](https://developer.android.com/reference/android/os/Build)
 
 ### Project setup
 
@@ -164,13 +164,13 @@ Run the following command to start your project:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn start
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm run start
@@ -184,17 +184,17 @@ Then press <kbd>A</kbd> to run on Android. You may encounter the following error
 Error: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
 ```
 
-If you do, navigate to the `Android` directory and create a file named <FontIcon icon="fas fa-file-lines"/>`local.properties`. Open the file and paste your Android SDK path like below:
+If you do, navigate to the `Android` directory and create a file named <VPIcon icon="fas fa-file-lines"/>`local.properties`. Open the file and paste your Android SDK path like below:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-macos"/>
+@tab:active <VPIcon icon="iconfont icon-macos"/>
 
 ```sh title="local.properties"
 sdk.dir=/Users/USERNAME/Library/Android/sdk
 ```
 
-@tab <FontIcon icon="fa-brands fa-windows"/>
+@tab <VPIcon icon="fa-brands fa-windows"/>
 
 ```sh title="local.properties"
 sdk.dir=C:\\Users\\UserName\\AppData\\Local\\Android\\sdk
@@ -230,7 +230,7 @@ Battery-related details can be accessed using `getBatteryStatus`, which indicate
 
 ### Configuring Codegen
 
-Next, we’ll configure the Codegen tools to use the typed specifications to generate platform-specific interfaces and boilerplate. To do this, update your <FontIcon icon="iconfont icon-json"/>`package.json` to include the following:
+Next, we’ll configure the Codegen tools to use the typed specifications to generate platform-specific interfaces and boilerplate. To do this, update your <VPIcon icon="iconfont icon-json"/>`package.json` to include the following:
 
 ```json title="package.json"
 "dependencies": {
@@ -262,7 +262,7 @@ BUILD SUCCESSFUL in 5s
 
 ### Implement the native platform code
 
-In your project root directory, navigate to the <FontIcon icon="fas fa-folder-open"/>`android/app/src/main/java/com` directory and create a folder named <FontIcon icon="fas fa-folder-open"/>`nativegetdeviceinfo`. Inside the folder, create a file named <FontIcon icon="iconfont icon-kotlin"/>`NativeGetDeviceInfoModule.kt` and add the following:
+In your project root directory, navigate to the <VPIcon icon="fas fa-folder-open"/>`android/app/src/main/java/com` directory and create a folder named <VPIcon icon="fas fa-folder-open"/>`nativegetdeviceinfo`. Inside the folder, create a file named <VPIcon icon="iconfont icon-kotlin"/>`NativeGetDeviceInfoModule.kt` and add the following:
 
 ```kotlin title="android/app/src/main/java/com/nativegetdeviceinfo/NativeGetDeviceInfoModule.kt"
 package com.nativegetdeviceinfo
@@ -420,7 +420,7 @@ The `getAndroidVersion` function retrieves the Android operating system version 
 
 Next, we need to package the `NativeGetDeviceInfoModule` and register it in the React Native runtime, by wrapping it as a Base Native Package.
 
-Create a file named <FontIcon icon="iconfont icon-kotiln"/>`NativeGetDeviceInfoPackage.kt` in the `nativegetdeviceinfo` folder and add the following:
+Create a file named <VPIcon icon="iconfont icon-kotiln"/>`NativeGetDeviceInfoPackage.kt` in the `nativegetdeviceinfo` folder and add the following:
 
 ```kotlin title="android/app/src/main/java/com/nativegetdeviceinfo/NativeGetDeviceInfoPackage.kt"
 package com.nativegetdeviceinfo
@@ -461,7 +461,7 @@ The `NativeGetDeviceInfoPackage` class defines a custom React Native package for
 
 Next, we need to inform React Native about how to locate this package in our main application.
 
-Import `NativeGetDeviceInfoPackage` in the <FontIcon icon="fas fa-folder-open"/>`android/app/src/main/java/com/turbomoduleexample/`<FontIcon icon="iconfont icon-kotlin"/>`MainApplication.kt` file as follows:
+Import `NativeGetDeviceInfoPackage` in the <VPIcon icon="fas fa-folder-open"/>`android/app/src/main/java/com/turbomoduleexample/`<VPIcon icon="iconfont icon-kotlin"/>`MainApplication.kt` file as follows:
 
 ```kotlin title="android/app/src/main/java/com/turbomoduleexample/MainApplication.kt"
 import com.nativegetdeviceinfo.NativeGetDeviceInfoPackage
@@ -558,7 +558,7 @@ The app includes functions to fetch and display information such as the battery 
 
 ## Testing the Turbo Native Module implementation
 
-The final step in our tutorial is to update <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` with the following permissions to allow network and Wi-Fi state access, and to enable the `getIPAddress` method to function properly:
+The final step in our tutorial is to update <VPIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` with the following permissions to allow network and Wi-Fi state access, and to enable the `getIPAddress` method to function properly:
 
 ```xml title="AndroidManifest.xml"
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -575,7 +575,7 @@ npm run start
 
 ![Final Code Project](/assets/image/blog.logrocket.com/build-custom-react-native-turbo-module-android/final-code-project.webp)
 
-You can get the code for the [final build here (<FontIcon icon="iconfont icon-github"/>`emmanuelhashy/TurboModuleExample`)](https://github.com/emmanuelhashy/TurboModuleExample).
+You can get the code for the [final build here (<VPIcon icon="iconfont icon-github"/>`emmanuelhashy/TurboModuleExample`)](https://github.com/emmanuelhashy/TurboModuleExample).
 
 ---
 

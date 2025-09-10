@@ -85,7 +85,7 @@ In this quiz, you'll test your understanding of documenting Python code. With th
 
 ## Why Documenting Your Code Is So Important
 
-Hopefully, if you’re reading this tutorial, you already know the importance of documenting your code. But if not, then let me quote something Guido mentioned to me at a recent [<FontIcon icon="fas fa-globe"/>PyCon](https://realpython.com/pycon-guide/):
+Hopefully, if you’re reading this tutorial, you already know the importance of documenting your code. But if not, then let me quote something Guido mentioned to me at a recent [<VPIcon icon="fas fa-globe"/>PyCon](https://realpython.com/pycon-guide/):
 
 > “Code is more often read than written.”
 >
@@ -99,7 +99,7 @@ After searching, you come to realize that the documentation is lacking or even w
 
 > “It doesn’t matter how good your software is, because **if the documentation is not good enough, people will not use it.**“
 >
-> - **[<FontIcon icon="fas fa-globe"/>Daniele Procida](https://divio.com/en/blog/documentation/)**
+> - **[<VPIcon icon="fas fa-globe"/>Daniele Procida](https://divio.com/en/blog/documentation/)**
 
 In this guide, you’ll learn from the ground up how to properly document your Python code from the smallest of scripts to the largest of [**Python projects**](/realpython.com/intermediate-python-project-ideas.md) to help prevent your users from ever feeling too frustrated to use or contribute to your project.
 
@@ -113,7 +113,7 @@ In general, commenting is describing your code to/for developers. The intended m
 
 > “Code tells you how; Comments tell you why.”
 >
-> - **[<FontIcon icon="fas fa-globe"/>Jeff Atwood](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) (aka Coding Horror)**
+> - **[<VPIcon icon="fas fa-globe"/>Jeff Atwood](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) (aka Coding Horror)**
 
 Documenting code is describing its use and functionality to your users. While it may be helpful in the development process, the main intended audience is the users. The following section describes how and when to comment your code.
 
@@ -127,7 +127,7 @@ def hello_world():
     print("Hello World")
 ```
 
-According to [<FontIcon icon="fa-brands fa-python"/>PEP 8](http://pep8.org/#maximum-line-length), comments should have a maximum length of 72 characters. This is true even if your project changes the max line length to be greater than the recommended 80 characters. If a comment is going to be greater than the comment char limit, using multiple lines for the comment is appropriate:
+According to [<VPIcon icon="fa-brands fa-python"/>PEP 8](http://pep8.org/#maximum-line-length), comments should have a maximum length of 72 characters. This is true even if your project changes the max line length to be greater than the recommended 80 characters. If a comment is going to be greater than the comment char limit, using multiple lines for the comment is appropriate:
 
 ```py
 def hello_long_world():
@@ -136,7 +136,7 @@ def hello_long_world():
     print("Hellooooooooooooooooooooooooooooooooooooooooooooooooooooooo World")
 ```
 
-Commenting your code serves [<FontIcon icon="fa-brands fa-wikipedia-w"/>multiple purposes, including](https://en.wikipedia.org/wiki/Comment_(computer_programming)#Uses):
+Commenting your code serves [<VPIcon icon="fa-brands fa-wikipedia-w"/>multiple purposes, including](https://en.wikipedia.org/wiki/Comment_(computer_programming)#Uses):
 
 ::: tabs
 
@@ -177,7 +177,7 @@ The use of tagging can be used to label specific sections of code where known is
 
 :::
 
-Comments to your code should be kept brief and focused. Avoid using long comments when possible. Additionally, you should use the following four essential rules as [<FontIcon icon="fas fa-globe"/>suggested by Jeff Atwood](https://blog.codinghorror.com/when-good-comments-go-bad/):
+Comments to your code should be kept brief and focused. Avoid using long comments when possible. Additionally, you should use the following four essential rules as [<VPIcon icon="fas fa-globe"/>suggested by Jeff Atwood](https://blog.codinghorror.com/when-good-comments-go-bad/):
 
 1. Keep comments as close to the code being described as possible. Comments that aren’t near their describing code are frustrating to the reader and easily missed when updates are made.
 2. Don’t use complex formatting (such as tables or ASCII figures). Complex formatting leads to distracting content and can be difficult to maintain over time.
@@ -197,7 +197,7 @@ def hello_name(name: str) -> str:
 
 From examining the type hinting, you can immediately tell that the function expects the input `name` to be of a type `str`, or [**string**](/realpython.com/python-strings.md). You can also tell that the expected output of the function will be of a type `str`, or string, as well. While type hinting helps reduce comments, take into consideration that doing so may also make extra work when you are creating or updating your project documentation.
 
-You can learn more about type hinting and type checking from [<FontIcon icon="fa-brands fa-youtube"/>this video created by Dan Bader](https://youtu.be/2xWhaALHTvU).
+You can learn more about type hinting and type checking from [<VPIcon icon="fa-brands fa-youtube"/>this video created by Dan Bader](https://youtu.be/2xWhaALHTvU).
 
 <VidStack src="youtube/2xWhaALHTvU" />
 
@@ -308,7 +308,7 @@ There you go! Now you understand the background of docstrings. Now it’s time t
 
 ### Docstring Types
 
-Docstring conventions are described within [<FontIcon icon="fa-brands fa-python"/>PEP 257](https://python.org/dev/peps/pep-0257/). Their purpose is to provide your users with a brief overview of the object. They should be kept concise enough to be easy to maintain but still be elaborate enough for new users to understand their purpose and how to use the documented object.
+Docstring conventions are described within [<VPIcon icon="fa-brands fa-python"/>PEP 257](https://python.org/dev/peps/pep-0257/). Their purpose is to provide your users with a brief overview of the object. They should be kept concise enough to be easy to maintain but still be elaborate enough for new users to understand their purpose and how to use the documented object.
 
 In all cases, the docstrings should use the triple-double quote (`"""`) string format. This should be done whether the docstring is multi-lined or not. At a bare minimum, a docstring should be a quick summary of whatever is it you’re describing and should be contained within a single line:
 
@@ -442,7 +442,7 @@ class Animal:
 
 #### Package and Module Docstrings
 
-Package docstrings should be placed at the top of the package’s <FontIcon icon="fa-brands fa-python"/>`__init__.py` file. This docstring should list the modules and sub-packages that are exported by the package.
+Package docstrings should be placed at the top of the package’s <VPIcon icon="fa-brands fa-python"/>`__init__.py` file. This docstring should list the modules and sub-packages that are exported by the package.
 
 Module docstrings are similar to class docstrings. Instead of classes and class methods being documented, it’s now the module and any functions found within. Module docstrings are placed at the top of the file even before any imports. Module docstrings should include the following:
 
@@ -535,10 +535,10 @@ You may have noticed that, throughout the examples given in this tutorial, there
 
 | Formatting Type | Description | Supported by Sphynx | Formal Specification |
 | --- | --- | --- | --- |
-| [Google docstrings (<FontIcon icon="iconfont icon-github"/>`google/styleguide`)](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings) | Google’s recommended form of documentation | Yes | No |
-| [<FontIcon icon="fas fa-globe"/>reStructuredText](http://docutils.sourceforge.net/rst.html) | Official Python documentation standard; Not beginner friendly but feature rich | Yes | Yes |
-| [<FontIcon icon="fas fa-globe"/>NumPy/SciPy docstrings](https://numpydoc.readthedocs.io/en/latest/format.html) | NumPy’s combination of reStructuredText and Google Docstrings | Yes | Yes |
-| [<FontIcon icon="fas fa-globe"/>Epytext](http://epydoc.sourceforge.net/epytext.html) | A Python adaptation of Epydoc; Great for Java developers | Not officially | Yes |
+| [Google docstrings (<VPIcon icon="iconfont icon-github"/>`google/styleguide`)](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings) | Google’s recommended form of documentation | Yes | No |
+| [<VPIcon icon="fas fa-globe"/>reStructuredText](http://docutils.sourceforge.net/rst.html) | Official Python documentation standard; Not beginner friendly but feature rich | Yes | Yes |
+| [<VPIcon icon="fas fa-globe"/>NumPy/SciPy docstrings](https://numpydoc.readthedocs.io/en/latest/format.html) | NumPy’s combination of reStructuredText and Google Docstrings | Yes | Yes |
+| [<VPIcon icon="fas fa-globe"/>Epytext](http://epydoc.sourceforge.net/epytext.html) | A Python adaptation of Epydoc; Great for Java developers | Not officially | Yes |
 
 The selection of the docstring format is up to you, but you should stick with the same format throughout your document/project. The following are examples of each type to give you an idea of how each documentation format looks.
 
@@ -638,7 +638,7 @@ Projects can be generally subdivided into three major types: Private, Shared, an
 Private projects are projects intended for personal use only and generally aren’t shared with other users or developers. Documentation can be pretty light on these types of projects. There are some recommended parts to add as needed:
 
 - **Readme:** A brief summary of the project and its purpose. Include any special requirements for installation or operating the project.
-- **<FontIcon icon="fa-brands fa-python"/>`examples.py`:** A Python script file that gives simple examples of how to use the project.
+- **<VPIcon icon="fa-brands fa-python"/>`examples.py`:** A Python script file that gives simple examples of how to use the project.
 
 Remember, even though private projects are intended for you personally, you are also considered a user. Think about anything that may be confusing to you down the road and make sure to capture those in either comments, docstrings, or the readme.
 
@@ -649,22 +649,22 @@ Shared projects are projects in which you collaborate with a few other people in
 Documentation should be a little more rigorous than it needs to be for a private project, mainly to help onboard new members to the project or alert contributors/users of new changes to the project. Some of the recommended parts to add to the project are the following:
 
 - **Readme:** A brief summary of the project and its purpose. Include any special requirements for installing or operating the project. Additionally, add any major changes since the previous version.
-- **<FontIcon icon="fa-brands fa-python"/>`examples.py`:** A Python script file that gives simple examples of how to use the projects.
+- **<VPIcon icon="fa-brands fa-python"/>`examples.py`:** A Python script file that gives simple examples of how to use the projects.
 - **How to Contribute:** This should include how new contributors to the project can start contributing.
 
 ### Public and Open Source Projects
 
 Public and Open Source projects are projects that are intended to be shared with a large group of users and can involve large development teams. These projects should place as high of a priority on project documentation as the actual development of the project itself. Some of the recommended parts to add to the project are the following:
 
-- **Readme:** A brief summary of the project and its purpose. Include any special requirements for installing or operating the projects. Additionally, add any major changes since the previous version. Finally, add links to further documentation, bug reporting, and any other important information for the project. Dan Bader has put together [<FontIcon icon="fas fa-globe"/>a great tutorial](https://dbader.org/blog/write-a-great-readme-for-your-github-project) on what all should be included in your readme.
+- **Readme:** A brief summary of the project and its purpose. Include any special requirements for installing or operating the projects. Additionally, add any major changes since the previous version. Finally, add links to further documentation, bug reporting, and any other important information for the project. Dan Bader has put together [<VPIcon icon="fas fa-globe"/>a great tutorial](https://dbader.org/blog/write-a-great-readme-for-your-github-project) on what all should be included in your readme.
 - **How to Contribute:** This should include how new contributors to the project can help. This includes developing new features, fixing known issues, adding documentation, adding new tests, or reporting issues.
-- **Code of Conduct:** Defines how other contributors should treat each other when developing or using your software. This also states what will happen if this code is broken. If you’re using Github, a Code of Conduct [<FontIcon icon="iconfont icon-github"/>template](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/) can be generated with recommended wording. For Open Source projects especially, consider adding this.
+- **Code of Conduct:** Defines how other contributors should treat each other when developing or using your software. This also states what will happen if this code is broken. If you’re using Github, a Code of Conduct [<VPIcon icon="iconfont icon-github"/>template](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/) can be generated with recommended wording. For Open Source projects especially, consider adding this.
 - **License:** A plaintext file that describes the license your project is using. For Open Source projects especially, consider adding this.
 - **docs:** A folder that contains further documentation. The next section describes more fully what should be included and how to organize the contents of this folder.
 
 #### The Four Main Sections of the `docs` Folder
 
-Daniele Procida gave a wonderful [<FontIcon icon="fa-brands fa-youtube"/>PyCon 2017 talk](https://youtu.be/azf6yzuJt54) and subsequent [<FontIcon icon="fas fa-globe"/>blog post](https://divio.com/en/blog/documentation/) about documenting Python projects. He mentions that all projects should have the following four major sections to help you focus your work:
+Daniele Procida gave a wonderful [<VPIcon icon="fa-brands fa-youtube"/>PyCon 2017 talk](https://youtu.be/azf6yzuJt54) and subsequent [<VPIcon icon="fas fa-globe"/>blog post](https://divio.com/en/blog/documentation/) about documenting Python projects. He mentions that all projects should have the following four major sections to help you focus your work:
 
 - **Tutorials**: Lessons that take the reader by the hand through a series of steps to complete a project (or meaningful exercise). Geared towards the user’s learning.
 - **How-To Guides**: Guides that take the reader through the steps required to solve a common problem (problem-oriented recipes).

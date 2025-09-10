@@ -49,16 +49,16 @@ cover: https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL_Watermarked.dce4d5791b83.jpg"/>
 
-Compared to a full-featured code editor, IDE, or REPL, the standard REPL is relatively minimal and doesn’t provide many features to help you code and make you more productive. This lack of features is probably due to the existence of [<FontIcon icon="fa-brands fa-python"/>IDLE](https://docs.python.org/3/glossary.html#term-IDLE), which also comes in the standard Python installation and provides a feature-rich REPL.
+Compared to a full-featured code editor, IDE, or REPL, the standard REPL is relatively minimal and doesn’t provide many features to help you code and make you more productive. This lack of features is probably due to the existence of [<VPIcon icon="fa-brands fa-python"/>IDLE](https://docs.python.org/3/glossary.html#term-IDLE), which also comes in the standard Python installation and provides a feature-rich REPL.
 
 Here’s a non-exhaustive list of IDE-like features that the standard REPL doesn’t support:
 
-- Automatic [<FontIcon icon="fa-brands fa-wikipedia-w"/>indentation](https://en.wikipedia.org/wiki/Indentation_(typesetting))
-- [<FontIcon icon="fa-brands fa-wikipedia-w"/>Syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting)
-- Contextual code or [<FontIcon icon="fa-brands fa-wikipedia-w"/>command history](https://en.wikipedia.org/wiki/Command_history)
-- [<FontIcon icon="fa-brands fa-wikipedia-w"/>Bracket matching](https://en.wikipedia.org/wiki/Bracket_matching)
-- Rich [<FontIcon icon="fa-brands fa-wikipedia-w"/>code completion](https://en.wikipedia.org/wiki/Autocomplete#In_source_code_editors) and code suggestions
-- Dynamic code and [<FontIcon icon="fa-brands fa-wikipedia-w"/>type introspection](https://en.wikipedia.org/wiki/Type_introspection)
+- Automatic [<VPIcon icon="fa-brands fa-wikipedia-w"/>indentation](https://en.wikipedia.org/wiki/Indentation_(typesetting))
+- [<VPIcon icon="fa-brands fa-wikipedia-w"/>Syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting)
+- Contextual code or [<VPIcon icon="fa-brands fa-wikipedia-w"/>command history](https://en.wikipedia.org/wiki/Command_history)
+- [<VPIcon icon="fa-brands fa-wikipedia-w"/>Bracket matching](https://en.wikipedia.org/wiki/Bracket_matching)
+- Rich [<VPIcon icon="fa-brands fa-wikipedia-w"/>code completion](https://en.wikipedia.org/wiki/Autocomplete#In_source_code_editors) and code suggestions
+- Dynamic code and [<VPIcon icon="fa-brands fa-wikipedia-w"/>type introspection](https://en.wikipedia.org/wiki/Type_introspection)
 - [**Session sharing**](https://realpython.com/bpython-alternative-python-repl.md#share-your-repl-session) capabilities
 - Dynamic help, source code, and documentation access
 

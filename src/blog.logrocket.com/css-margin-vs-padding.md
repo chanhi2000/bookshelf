@@ -195,7 +195,7 @@ As you can see, the padding area of the box has increased by 15 pixels, thereby 
 
 ## Differences between `margin` and `padding`
 
-Even though these two [<FontIcon icon="fas fa-globe"/>CSS properties](https://blog.logrocket.com/tag/css/) are similar and often mistakenly used interchangeably, they are quite different, and understanding their differences can be beneficial for web developers.
+Even though these two [<VPIcon icon="fas fa-globe"/>CSS properties](https://blog.logrocket.com/tag/css/) are similar and often mistakenly used interchangeably, they are quite different, and understanding their differences can be beneficial for web developers.
 
 ### Spacing
 
@@ -225,7 +225,7 @@ Due to the presence of the background color, the padding becomes more obvious wh
 
 If you set `margin: auto` to an element with a fixed width, it centers the element horizontally (or vertically when using a flexbox).
 
-And because centering elements has always been tricky for web developers to understand or remember (you can tell by the [funny memes about centering divs online (<FontIcon icon="fa-brands fa-x-twitter"/>`overflow_meme`)](https://x.com/overflow_meme/status/1233967116782579714?lang=en)), this feature comes in very handy.
+And because centering elements has always been tricky for web developers to understand or remember (you can tell by the [funny memes about centering divs online (<VPIcon icon="fa-brands fa-x-twitter"/>`overflow_meme`)](https://x.com/overflow_meme/status/1233967116782579714?lang=en)), this feature comes in very handy.
 
 On the other hand, it is impossible to set `padding` to `auto`.
 

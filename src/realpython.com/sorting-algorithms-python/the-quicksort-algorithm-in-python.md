@@ -125,7 +125,7 @@ On the other hand, if the algorithm consistently picks either the smallest or la
 
 As you can see, Quicksort’s efficiency often depends on the `pivot` selection. If the input array is unsorted, then using the first or last element as the `pivot` will work the same as a random element. But if the input array is sorted or almost sorted, using the first or last element as the `pivot` could lead to a worst-case scenario. Selecting the `pivot` at random makes it more likely Quicksort will select a value closer to the median and finish faster.
 
-Another option for selecting the `pivot` is to [<FontIcon icon="fas fa-globe"/>find the median value of the array](https://brilliant.org/wiki/median-finding-algorithm/) and force the algorithm to use it as the `pivot`. This can be done in $O\left(n\right)$ time. Although the process is little bit more involved, using the median value as the `pivot` for Quicksort guarantees you will have the best-case Big O scenario.
+Another option for selecting the `pivot` is to [<VPIcon icon="fas fa-globe"/>find the median value of the array](https://brilliant.org/wiki/median-finding-algorithm/) and force the algorithm to use it as the `pivot`. This can be done in $O\left(n\right)$ time. Although the process is little bit more involved, using the median value as the `pivot` for Quicksort guarantees you will have the best-case Big O scenario.
 
 ---
 

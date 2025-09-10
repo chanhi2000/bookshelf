@@ -54,7 +54,7 @@ cover: https://marcinmoskala.com/advanced-kotlin-book/promotion/12_compiler_plug
 
 ::: info
 
-This is a chapter from the book [<FontIcon icon="fas fa-globe"/>Advanced Kotlin](https://kt.academy/book/advanced_kotlin). You can find it on [<FontIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/advanced_kotlin/) or [<FontIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Advanced-Kotlin-Developers-Marcin-Moskala/dp/839668474X/).
+This is a chapter from the book [<VPIcon icon="fas fa-globe"/>Advanced Kotlin](https://kt.academy/book/advanced_kotlin). You can find it on [<VPIcon icon="fas fa-globe"/>LeanPub](https://leanpub.com/advanced_kotlin/) or [<VPIcon icon="fa-brands fa-amazon"/>Amazon](https://amazon.com/Advanced-Kotlin-Developers-Marcin-Moskala/dp/839668474X/).
 
 The Kotlin Compiler is a program that compiles Kotlin code but is also used by the IDE to provide analytics for code completion, warnings, and much more. Like many programs, the Kotlin Compiler can use plugins that change its behavior. We define a Kotlin Compiler plugin by extending a special class, called an extension, and then register it using a registrar. Each extension is called by the compiler in a certain phase of its work, thereby potentially changing the result of this phase. For example, you can register a plugin that will be called when the compiler generates supertypes for a class, thus adding additional supertypes to the result. When we write a compiler plugin, we are limited to what the supported extensions allow us to do. We will discuss the currently available extensions soon, but let's start with some essential knowledge about how the compiler works.
 
@@ -136,11 +136,11 @@ The majority of plugins use more than one extension, so let’s consider the sim
 - `FirDeclarationGenerationExtension` to generate the functions required for the project to compile.
 - `FirAdditionalCheckersExtension` to show errors and warnings.
 
-Kotlin compiler plugins are defined in <FontIcon icon="iconfont icon-kotlin"/>`build.gradle(.kts)` in the plugins section:
+Kotlin compiler plugins are defined in <VPIcon icon="iconfont icon-kotlin"/>`build.gradle(.kts)` in the plugins section:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-gradle"/>build.gradle
+@tab:active <VPIcon icon="iconfont icon-gradle"/>build.gradle
 
 ```groovy title='build.gradle"
 plugins {
@@ -148,7 +148,7 @@ plugins {
 }
 ```
 
-<!-- @tab <FontIcon icon="iconfont icon-kotlin"/>build.gradle.kts
+<!-- @tab <VPIcon icon="iconfont icon-kotlin"/>build.gradle.kts
 
 ```kotlin title="build.gradle.kts"
 plugins {
@@ -169,7 +169,7 @@ We’ll start our journey with a simple task: make all classes open. This behavi
 
 As a dependency, we only need `kotlin-compiler-embeddable` that offers us the classes we can use for defining plugins.
 
-Just like in KSP or Annotation Processing, we need to add a file to <FontIcon icon="fas fa-folder-open"/>`resources/META-INF/services` with the registrar's name. The name of this file should be `org.jetbrains.kotlin.compiler.plugin.CompilerPluginRegistrar`, which is the fully qualified name of the `CompilerPluginRegistrar` class. Inside it, you should place the fully qualified name of your registrar class. In our case, this will be `com.marcinmoskala.AllOpenComponentRegistrar`.
+Just like in KSP or Annotation Processing, we need to add a file to <VPIcon icon="fas fa-folder-open"/>`resources/META-INF/services` with the registrar's name. The name of this file should be `org.jetbrains.kotlin.compiler.plugin.CompilerPluginRegistrar`, which is the fully qualified name of the `CompilerPluginRegistrar` class. Inside it, you should place the fully qualified name of your registrar class. In our case, this will be `com.marcinmoskala.AllOpenComponentRegistrar`.
 
 ```kotlin
 // org.jetbrains.kotlin.compiler.plugin.

@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/01/2025-01-15-4.
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/01/2025-01-15-4.webp"/>
 
-Honestly, it’s difficult for me to come to terms with, but almost 20 years have passed since I wrote my first book, *Transcending CSS*. In it, I explained how and why to use what was the then-emerging [<FontIcon icon="iconfont icon-w3c"/>Multi-Column Layout](https://w3.org/TR/css-multicol-1/) [<FontIcon icon="iconfont icon-w3c"/>module](https://w3.org/TR/css-multicol-1/).
+Honestly, it’s difficult for me to come to terms with, but almost 20 years have passed since I wrote my first book, *Transcending CSS*. In it, I explained how and why to use what was the then-emerging [<VPIcon icon="iconfont icon-w3c"/>Multi-Column Layout](https://w3.org/TR/css-multicol-1/) [<VPIcon icon="iconfont icon-w3c"/>module](https://w3.org/TR/css-multicol-1/).
 
 ::: tip Hint
 
@@ -67,13 +67,13 @@ Perhaps because, before the web, I’d worked in print, I was over-excited at th
 For a long time, there were, and still are, plenty of holes in Multi-Column Layout. As Rachel Andrew — now a specification editor — [**noted in her article**](https://smashingmagazine.com/2019/01/css-multiple-column-layout-multicol/) five years ago:
 <!-- TODO: /smashingmagazine.com/css-multiple-column-layout-multicol.md -->
 
-::: info When And How To Use CSS Multi-Column Layout <FontIcon icon="fas fa-globe"/><code>smashingmagazine.com</code>
+::: info When And How To Use CSS Multi-Column Layout <VPIcon icon="fas fa-globe"/><code>smashingmagazine.com</code>
 
 > “The column boxes created when you use one of the column properties can’t be targeted. You can’t address them with JavaScript, nor can you style an individual box to give it a background colour or adjust the padding and margins. All of the column boxes will be the same size. The only thing you can do is add a rule between columns.”
 
 :::
 
-She’s right. And that’s *still* true. You can’t style columns, for example, by alternating background colours using some sort of `:nth-column()` pseudo-class selector. You can add a [<FontIcon icon="iconfont icon-css-tricks"/>`column-rule`](https://css-tricks.com/almanac/properties/c/column-rule/) between columns using [<FontIcon icon="iconfont icon-css-tricks"/>`border-style`](https://css-tricks.com/almanac/properties/b/border/) values like `dashed`, `dotted`, and `solid`, and who can forget those evergreen `groove` and `ridge` styles? But you can’t apply [<FontIcon icon="iconfont icon-css-tricks"/>`border-image`](https://css-tricks.com/almanac/properties/b/border-image/) values to a `column-rule`, which seems odd as they were introduced at roughly the same time. The Multi-Column Layout is imperfect, and there’s plenty I wish it could do in the future, but that doesn’t explain why most people ignore what it can do today.
+She’s right. And that’s *still* true. You can’t style columns, for example, by alternating background colours using some sort of `:nth-column()` pseudo-class selector. You can add a [<VPIcon icon="iconfont icon-css-tricks"/>`column-rule`](https://css-tricks.com/almanac/properties/c/column-rule/) between columns using [<VPIcon icon="iconfont icon-css-tricks"/>`border-style`](https://css-tricks.com/almanac/properties/b/border/) values like `dashed`, `dotted`, and `solid`, and who can forget those evergreen `groove` and `ridge` styles? But you can’t apply [<VPIcon icon="iconfont icon-css-tricks"/>`border-image`](https://css-tricks.com/almanac/properties/b/border-image/) values to a `column-rule`, which seems odd as they were introduced at roughly the same time. The Multi-Column Layout is imperfect, and there’s plenty I wish it could do in the future, but that doesn’t explain why most people ignore what it can do today.
 
 ---
 
@@ -89,7 +89,7 @@ Early on, support for Multi-Column Layout was patchy. However, browsers caught u
 
 Maybe the main reason designers and developers haven’t embraced Multi-Column Layout as they have CSS Grid and Flexbox isn’t in the specification or its implementation but in its usability. Rachel pointed this out in [**her article**](https://smashingmagazine.com/2019/01/css-multiple-column-layout-multicol):
 
-::: info When And How To Use CSS Multi-Column Layout <FontIcon icon="fas fa-globe"/><code>smashingmagazine.com</code>
+::: info When And How To Use CSS Multi-Column Layout <VPIcon icon="fas fa-globe"/><code>smashingmagazine.com</code>
 
 > “One reason we don’t see multicol used much on the web is that it would be very easy to end up with a reading experience which made the reader scroll in the block dimension. That would mean scrolling up and down vertically for those of us using English or another vertical writing mode. This is not a good reading experience!”
 
@@ -97,7 +97,7 @@ Maybe the main reason designers and developers haven’t embraced Multi-Column L
 
 That’s true. No one would enjoy repeatedly scrolling up and down to read a long passage of content set in columns. She [**went on**](https://smashingmagazine.com/2019/01/css-multiple-column-layout-multicol):
 
-::: info When And How To Use CSS Multi-Column Layout <FontIcon icon="fas fa-globe"/><code>smashingmagazine.com</code>
+::: info When And How To Use CSS Multi-Column Layout <VPIcon icon="fas fa-globe"/><code>smashingmagazine.com</code>
 
 > “Neither of these things is ideal, and using multicol on the web is something we need to think about very carefully in terms of the amount of content we might be aiming to flow into our columns.”
 
@@ -111,7 +111,7 @@ Sure, if you’re dumb enough to dump a large amount of content into columns wit
 
 ## A brief refresher on properties and values
 
-Let’s run through a refresher. There are two ways to flow content into multiple columns; first, by defining the number of columns you need using the [`column-count` (<FontIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-count/) property:
+Let’s run through a refresher. There are two ways to flow content into multiple columns; first, by defining the number of columns you need using the [`column-count` (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-count/) property:
 
 <CodePen
   user="malarkey"
@@ -120,7 +120,7 @@ Let’s run through a refresher. There are two ways to flow content into multipl
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Second, and often best, is specifying the column width, leaving a browser to decide how many columns will fit along the inline axis. For example, I’m using [`column-width` (<FontIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-width/) to specify that my columns are over `18rem`. A browser creates as many `18rem` columns as possible to fit and then shares any remaining space between them.
+Second, and often best, is specifying the column width, leaving a browser to decide how many columns will fit along the inline axis. For example, I’m using [`column-width` (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-width/) to specify that my columns are over `18rem`. A browser creates as many `18rem` columns as possible to fit and then shares any remaining space between them.
 
 <CodePen
   user="malarkey"
@@ -129,7 +129,7 @@ Second, and often best, is specifying the column width, leaving a browser to dec
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Then, there is the gutter (or [`column-gap` (<FontIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-gap/)) between columns, which you can specify using any length unit. I prefer using rem units to maintain the gutters’ relationship to the text size, but if your gutters need to be `1em`, you can leave this out, as that’s a browser’s default gap.
+Then, there is the gutter (or [`column-gap` (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-gap/)) between columns, which you can specify using any length unit. I prefer using rem units to maintain the gutters’ relationship to the text size, but if your gutters need to be `1em`, you can leave this out, as that’s a browser’s default gap.
 
 <CodePen
   user="malarkey"
@@ -138,7 +138,7 @@ Then, there is the gutter (or [`column-gap` (<FontIcon icon="iconfont icon-css-t
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-The final column property is that divider (or [`column-rule` (<FontIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-rule/)) to the gutters, which adds visual separation between columns. Again, you can set a thickness and use `border-style` values like `dashed`, `dotted`, and `solid`.
+The final column property is that divider (or [`column-rule` (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-rule/)) to the gutters, which adds visual separation between columns. Again, you can set a thickness and use `border-style` values like `dashed`, `dotted`, and `solid`.
 
 <CodePen
   user="malarkey"
@@ -147,7 +147,7 @@ The final column property is that divider (or [`column-rule` (<FontIcon icon="ic
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-These examples will be seen whenever you encounter a Multi-Column Layout tutorial, [including CSS-Tricks’ own Almanac (<FontIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/columns/). The Multi-Column Layout syntax is one of the simplest in the suite of CSS layout tools, which is another reason why there are few reasons not to use it.
+These examples will be seen whenever you encounter a Multi-Column Layout tutorial, [including CSS-Tricks’ own Almanac (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/columns/). The Multi-Column Layout syntax is one of the simplest in the suite of CSS layout tools, which is another reason why there are few reasons not to use it.
 
 ---
 
@@ -264,7 +264,7 @@ Open the final result in a desktop browser, when you’re in front of one. It’
 
 Almost every article I’ve ever read about Multi-Column Layout focuses on its flaws, especially usability. CSS-Tricks’ own Geoff Graham even mentioned the scrolling up and down issue when he asked, [**“When Do You Use CSS Columns?”**](/css-tricks.com/when-do-you-use-css-columns.md)
 
-::: info When Do You Use CSS Columns? (<FontIcon icon="iconfont icon-css-tricks"/><code>css-tricks.com</code>)
+::: info When Do You Use CSS Columns? (<VPIcon icon="iconfont icon-css-tricks"/><code>css-tricks.com</code>)
 
 > “But an entire long-form article split into columns? I love it in newspapers but am hesitant to scroll down a webpage to read one column, only to scroll back up to do it again.”
 
@@ -280,7 +280,7 @@ h1, h2, blockquote {
 
 But the solution to the scrolling up and down issue isn’t purely technical. It also requires content design. This means that content creators and designers must think carefully about the frequency and type of spanning elements, dividing a Multi-Column Layout into shallower sections, reducing the need to scroll and improving someone’s reading experience.
 
-Another prior problem was preventing headlines from becoming detached from their content and figures, dividing their images and captions between columns. Thankfully, the [`break-after` (<FontIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/b/break-after/)` property now also has widespread support, so orphaned images and captions are now a thing of the past:
+Another prior problem was preventing headlines from becoming detached from their content and figures, dividing their images and captions between columns. Thankfully, the [`break-after` (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/b/break-after/)` property now also has widespread support, so orphaned images and captions are now a thing of the past:
 
 ```css
 figure {

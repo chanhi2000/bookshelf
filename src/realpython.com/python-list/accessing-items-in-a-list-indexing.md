@@ -83,7 +83,7 @@ languages[5]
 # 'Rust'
 ```
 
-Indexing your list with different indices gives you direct access to the underlying items. If you use the [<FontIcon icon="fa-brands fa-wikipedia-w"/>Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) for [<FontIcon icon="fa-brands fa-wikipedia-w"/>time complexity](https://wiki.python.org/moin/TimeComplexity), then you can say that indexing is an $O\left(1\right)$ operation. This means that lists are quite good for those situations where you need to access random items from a series of items.
+Indexing your list with different indices gives you direct access to the underlying items. If you use the [<VPIcon icon="fa-brands fa-wikipedia-w"/>Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) for [<VPIcon icon="fa-brands fa-wikipedia-w"/>time complexity](https://wiki.python.org/moin/TimeComplexity), then you can say that indexing is an $O\left(1\right)$ operation. This means that lists are quite good for those situations where you need to access random items from a series of items.
 
 Here’s a more visual representation of how indices map to items in a list:
 
@@ -113,7 +113,7 @@ languages[6]
 
 In this example, you try to retrieve the item at index `6`. Because this index is greater than `5`, you get an `IndexError` as a result. Using out-of-range indices can be an incredibly common issue when you work with lists, so keep an eye on your target indices.
 
-Indexing operations are quite flexible in Python. For example, you can also use [<FontIcon icon="fa-brands fa-python"/>negative indices](https://docs.python.org/3/faq/programming.html#what-s-a-negative-index) while indexing lists. This kind of index gives you access to the list items in backward order:
+Indexing operations are quite flexible in Python. For example, you can also use [<VPIcon icon="fa-brands fa-python"/>negative indices](https://docs.python.org/3/faq/programming.html#what-s-a-negative-index) while indexing lists. This kind of index gives you access to the list items in backward order:
 
 ```py
 languages[-1]

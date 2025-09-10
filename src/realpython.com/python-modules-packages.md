@@ -104,7 +104,7 @@ A module’s contents are accessed the same way in all three cases: with the `im
 
 Here, the focus will mostly be on modules that are written in Python. The cool thing about modules written in Python is that they are exceedingly straightforward to build. All you need to do is create a file that contains legitimate Python code and then give the file a name with a `.py` extension. That’s it! No special syntax is necessary.
 
-For example, suppose you have created a file called <FontIcon icon="fa-brands fa-python"/>`mod.py` containing the following:
+For example, suppose you have created a file called <VPIcon icon="fa-brands fa-python"/>`mod.py` containing the following:
 
 ```py :collapsed-lines title="mod.py"
 s = "If Comrade Napoleon says it, it must be right."
@@ -117,14 +117,14 @@ class Foo:
     pass
 ```
 
-Several objects are defined in <FontIcon icon="fa-brands fa-python"/>`mod.py`:
+Several objects are defined in <VPIcon icon="fa-brands fa-python"/>`mod.py`:
 
 - `s` (a string)
 - `a` (a list)
 - `foo()` (a function)
 - `Foo` (a class)
 
-Assuming <FontIcon icon="fa-brands fa-python"/>`mod.py` is in an appropriate location, which you will learn more about shortly, these objects can be accessed by **importing** the module as follows:
+Assuming <VPIcon icon="fa-brands fa-python"/>`mod.py` is in an appropriate location, which you will learn more about shortly, these objects can be accessed by **importing** the module as follows:
 
 ```py :collapsed-lines title="mod.py"
 import mod
@@ -153,10 +153,10 @@ Continuing with the above example, let’s take a look at what happens when Pyth
 import mod
 ```
 
-When the interpreter executes the above `import` statement, it searches for <FontIcon icon="fa-brands fa-python"/>`mod.py` in a [**list**](/realpython.com/python-lists-tuples.md) of directories assembled from the following sources:
+When the interpreter executes the above `import` statement, it searches for <VPIcon icon="fa-brands fa-python"/>`mod.py` in a [**list**](/realpython.com/python-lists-tuples.md) of directories assembled from the following sources:
 
 - The directory from which the input script was run or the **current directory** if the interpreter is being run interactively
-- The list of directories contained in the [<FontIcon icon="fa-brands fa-python"/>`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH) environment variable, if it is set. (The format for `PYTHONPATH` is OS-dependent but should mimic the [**`PATH`**](/realpython.com/add-python-to-path.md) environment variable.)
+- The list of directories contained in the [<VPIcon icon="fa-brands fa-python"/>`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH) environment variable, if it is set. (The format for `PYTHONPATH` is OS-dependent but should mimic the [**`PATH`**](/realpython.com/add-python-to-path.md) environment variable.)
 - An installation-dependent list of directories configured at the time Python is installed
 
 The resulting search path is accessible in the Python variable `sys.path`, which is obtained from a module named `sys`:
@@ -178,12 +178,12 @@ The exact contents of `sys.path` are installation-dependent. The above will almo
 
 Thus, to ensure your module is found, you need to do one of the following:
 
-- Put <FontIcon icon="fa-brands fa-python"/>`mod.py` in the directory where the input script is located or the **current directory**, if interactive
-- Modify the `PYTHONPATH` environment variable to contain the directory where <FontIcon icon="fa-brands fa-python"/>`mod.py` is located before starting the interpreter
-  - **Or:** Put <FontIcon icon="fa-brands fa-python"/>`mod.py` in one of the directories already contained in the `PYTHONPATH` variable
-- Put <FontIcon icon="fa-brands fa-python"/>`mod.py` in one of the installation-dependent directories, which you may or may not have write-access to, depending on the OS
+- Put <VPIcon icon="fa-brands fa-python"/>`mod.py` in the directory where the input script is located or the **current directory**, if interactive
+- Modify the `PYTHONPATH` environment variable to contain the directory where <VPIcon icon="fa-brands fa-python"/>`mod.py` is located before starting the interpreter
+  - **Or:** Put <VPIcon icon="fa-brands fa-python"/>`mod.py` in one of the directories already contained in the `PYTHONPATH` variable
+- Put <VPIcon icon="fa-brands fa-python"/>`mod.py` in one of the installation-dependent directories, which you may or may not have write-access to, depending on the OS
 
-There is actually one additional option: you can put the module file in any directory of your choice and then modify `sys.path` at run-time so that it contains that directory. For example, in this case, you could put <FontIcon icon="fa-brands fa-python"/>`mod.py` in directory <FontIcon icon="fas fa-folder-open"/>`C:\Users\john` and then issue the following statements:
+There is actually one additional option: you can put the module file in any directory of your choice and then modify `sys.path` at run-time so that it contains that directory. For example, in this case, you could put <VPIcon icon="fa-brands fa-python"/>`mod.py` in directory <VPIcon icon="fas fa-folder-open"/>`C:\Users\john` and then issue the following statements:
 
 ```py
 sys.path.append(r'C:\Users\john')
@@ -515,7 +515,7 @@ dir()
 
 Any `.py` file that contains a **module** is essentially also a Python **script**, and there isn’t any reason it can’t be executed like one.
 
-Here again is <FontIcon icon="fa-brands fa-python"/>`mod.py` as it was defined above:
+Here again is <VPIcon icon="fa-brands fa-python"/>`mod.py` as it was defined above:
 
 ```py title="mod.py"
 s = "If Comrade Napoleon says it, it must be right."
@@ -625,7 +625,7 @@ mod.foo('grault')
 # arg = grault
 ```
 
-Modules are often designed with the capability to run as a standalone script for purposes of testing the functionality that is contained within the module. This is referred to as [**unit testing**](/realpython.com/python-testing.md). For example, suppose you have created a module <FontIcon icon="fa-brands fa-python"/>`fact.py` containing a **factorial** function, as follows:
+Modules are often designed with the capability to run as a standalone script for purposes of testing the functionality that is contained within the module. This is referred to as [**unit testing**](/realpython.com/python-testing.md). For example, suppose you have created a module <VPIcon icon="fa-brands fa-python"/>`fact.py` containing a **factorial** function, as follows:
 
 ```py title="fact.py"
 def fact(n):
@@ -660,7 +660,7 @@ python fact.py 6
 
 For reasons of efficiency, a module is only loaded once per interpreter session. That is fine for function and class definitions, which typically make up the bulk of a module’s contents. But a module can contain executable statements as well, usually for initialization. Be aware that these statements will only be executed the *first time* a module is imported.
 
-Consider the following file <FontIcon icon="fa-brands fa-python"/>`mod.py`:
+Consider the following file <VPIcon icon="fa-brands fa-python"/>`mod.py`:
 
 ```py title="mod.py"
 a = [100, 200, 300]
@@ -707,7 +707,7 @@ Creating a **package** is quite straightforward, since it makes use of the opera
 
 ![Image of a Python package](https://files.realpython.com/media/pkg1.9af1c7aea48f.png)
 
-Here, there is a directory named <FontIcon icon="fas fa-folder-open"/>`pkg` that contains two modules, <FontIcon icon="fa-brands fa-python"/>`mod1.py` and <FontIcon icon="fa-brands fa-python"/>`mod2.py`. The contents of the modules are:
+Here, there is a directory named <VPIcon icon="fas fa-folder-open"/>`pkg` that contains two modules, <VPIcon icon="fa-brands fa-python"/>`mod1.py` and <VPIcon icon="fa-brands fa-python"/>`mod2.py`. The contents of the modules are:
 
 ```py title="mod1.py"
 def foo():
@@ -725,7 +725,7 @@ class Bar:
     pass
 ```
 
-Given this structure, if the <FontIcon icon="fas fa-folder-open"/>`pkg` directory resides in a location where it can be found (in one of the directories contained in `sys.path`), you can refer to the two **modules** with **dot notation** (`pkg.mod1`, `pkg.mod2`) and import them with the syntax you are already familiar with:
+Given this structure, if the <VPIcon icon="fas fa-folder-open"/>`pkg` directory resides in a location where it can be found (in one of the directories contained in `sys.path`), you can refer to the two **modules** with **dot notation** (`pkg.mod1`, `pkg.mod2`) and import them with the syntax you are already familiar with:
 
 ```py
 import <module_name>[, <module_name> ...]
@@ -793,7 +793,7 @@ pkg
 # <module 'pkg' (namespace)>
 ```
 
-But this is of little avail. Though this is, strictly speaking, a syntactically correct Python statement, it doesn’t do much of anything useful. In particular, it *does not place* any of the modules in <FontIcon icon="fas fa-folder-open"/>`pkg` into the local namespace:
+But this is of little avail. Though this is, strictly speaking, a syntactically correct Python statement, it doesn’t do much of anything useful. In particular, it *does not place* any of the modules in <VPIcon icon="fas fa-folder-open"/>`pkg` into the local namespace:
 
 ```py
 pkg.mod1
@@ -822,16 +822,16 @@ To actually import the modules or their contents, you need to use one of the for
 
 ## Package Initialization
 
-If a file named <FontIcon icon="fa-brands fa-python"/>`__init__.py` is present in a package directory, it is invoked when the package or a module in the package is imported. This can be used for execution of package initialization code, such as initialization of package-level data.
+If a file named <VPIcon icon="fa-brands fa-python"/>`__init__.py` is present in a package directory, it is invoked when the package or a module in the package is imported. This can be used for execution of package initialization code, such as initialization of package-level data.
 
-For example, consider the following <FontIcon icon="fa-brands fa-python"/>`__init__.py` file:
+For example, consider the following <VPIcon icon="fa-brands fa-python"/>`__init__.py` file:
 
 ```py title="__init__.py"
 print(f'Invoking __init__.py for {__name__}')
 A = ['quux', 'corge', 'grault']
 ```
 
-Let’s add this file to the <FontIcon icon="fas fa-folder-open"/>`pkg` directory from the above example:
+Let’s add this file to the <VPIcon icon="fas fa-folder-open"/>`pkg` directory from the above example:
 
 ![Illustration of hierarchical file structure of Python packages](https://files.realpython.com/media/pkg2.dab97c2f9c58.png)
 
@@ -866,7 +866,7 @@ mod1.foo()
 # [mod1] foo() / A =  ['quux', 'corge', 'grault']
 ```
 
-<FontIcon icon="fa-brands fa-python"/>`__init__.py` can also be used to effect automatic importing of modules from a package. For example, earlier you saw that the statement `import pkg` only places the name <FontIcon icon="fas fa-folder-open"/>`pkg` in the caller’s local symbol table and doesn’t import any modules. But if <FontIcon icon="fa-brands fa-python"/>`__init__.py` in the <FontIcon icon="fas fa-folder-open"/>`pkg` directory contains the following:
+<VPIcon icon="fa-brands fa-python"/>`__init__.py` can also be used to effect automatic importing of modules from a package. For example, earlier you saw that the statement `import pkg` only places the name <VPIcon icon="fas fa-folder-open"/>`pkg` in the caller’s local symbol table and doesn’t import any modules. But if <VPIcon icon="fa-brands fa-python"/>`__init__.py` in the <VPIcon icon="fas fa-folder-open"/>`pkg` directory contains the following:
 
 ```py title="__init__.py"
 print(f'Invoking __init__.py for {__name__}')
@@ -889,11 +889,11 @@ pkg.mod2.bar()
 
 ::: note
 
-Much of the Python documentation states that an <FontIcon icon="fa-brands fa-python"/>`__init__.py` file **must** be present in the package directory when creating a package. This was once true. It used to be that the very presence of <FontIcon icon="fa-brands fa-python"/>`__init__.py` signified to Python that a package was being defined. The file could contain initialization code or even be empty, but it **had** to be present.
+Much of the Python documentation states that an <VPIcon icon="fa-brands fa-python"/>`__init__.py` file **must** be present in the package directory when creating a package. This was once true. It used to be that the very presence of <VPIcon icon="fa-brands fa-python"/>`__init__.py` signified to Python that a package was being defined. The file could contain initialization code or even be empty, but it **had** to be present.
 
 :::
 
-Starting with **Python 3.3**, [<FontIcon icon="fa-brands fa-python"/>Implicit Namespace Packages](https://python.org/dev/peps/pep-0420) were introduced. These allow for the creation of a package without any <FontIcon icon="fa-brands fa-python"/>`__init__.py` file. Of course, it **can** still be present if package initialization is needed. But it is no longer required. Check out [**What’s a Python Namespace Package, and What’s It For?**](/realpython.com/python-namespace-package.md) to learn more.
+Starting with **Python 3.3**, [<VPIcon icon="fa-brands fa-python"/>Implicit Namespace Packages](https://python.org/dev/peps/pep-0420) were introduced. These allow for the creation of a package without any <VPIcon icon="fa-brands fa-python"/>`__init__.py` file. Of course, it **can** still be present if package initialization is needed. But it is no longer required. Check out [**What’s a Python Namespace Package, and What’s It For?**](/realpython.com/python-namespace-package.md) to learn more.
 
 ---
 
@@ -903,7 +903,7 @@ For the purposes of the following discussion, the previously defined package is 
 
 ![Illustration of hierarchical file structure of Python packages](https://files.realpython.com/media/pkg3.d2160908ae77.png)
 
-There are now four modules defined in the <FontIcon icon="fas fa-folder-open"/>`pkg` directory. Their contents are as shown below:
+There are now four modules defined in the <VPIcon icon="fas fa-folder-open"/>`pkg` directory. Their contents are as shown below:
 
 ```py title="mod1.py"
 def foo():
@@ -980,9 +980,9 @@ dir()
 
 Hmph. Not much. You might have expected (assuming you had any expectations at all) that Python would dive down into the package directory, find all the modules it could, and import them all. But as you can see, by default that is not what happens.
 
-Instead, Python follows this convention: if the <FontIcon icon="fa-brands fa-python"/>`__init__.py` file in the **package** directory contains a **list** named `__all__`, it is taken to be a list of modules that should be imported when the statement `from <package_name> import *` is encountered.
+Instead, Python follows this convention: if the <VPIcon icon="fa-brands fa-python"/>`__init__.py` file in the **package** directory contains a **list** named `__all__`, it is taken to be a list of modules that should be imported when the statement `from <package_name> import *` is encountered.
 
-For the present example, suppose you create an <FontIcon icon="fa-brands fa-python"/>`__init__.py` in the <FontIcon icon="fas fa-folder-open"/>`pkg` directory like this:
+For the present example, suppose you create an <VPIcon icon="fa-brands fa-python"/>`__init__.py` in the <VPIcon icon="fas fa-folder-open"/>`pkg` directory like this:
 
 ```py title="pkg/__init__.py"
 __all__ = [
@@ -1014,7 +1014,7 @@ mod4.Qux
 
 Using `import *` still isn’t considered terrific form, any more for **packages** than for **modules**. But this facility at least gives the creator of the package some control over what happens when `import *` is specified. (In fact, it provides the capability to disallow it entirely, simply by declining to define `__all__` at all. As you have seen, the default behavior for packages is to import nothing.)
 
-By the way, `__all__` can be defined in a **module** as well and serves the same purpose: to control what is imported with `import *`. For example, modify <FontIcon icon="fa-brands fa-python"/>`mod1.py` as follows:
+By the way, `__all__` can be defined in a **module** as well and serves the same purpose: to control what is imported with `import *`. For example, modify <VPIcon icon="fa-brands fa-python"/>`mod1.py` as follows:
 
 ```py title="pkg/mod1.py"
 __all__ = ['foo']
@@ -1064,7 +1064,7 @@ Packages can contain nested **subpackages** to arbitrary depth. For example, let
 
 ![Illustration of hierarchical file structure of Python packages](https://files.realpython.com/media/pkg4.a830d6e144bf.png)
 
-The four modules (<FontIcon icon="fa-brands fa-python"/>`mod1.py`, <FontIcon icon="fa-brands fa-python"/>`mod2.py`, <FontIcon icon="fa-brands fa-python"/>`mod3.py` and <FontIcon icon="fa-brands fa-python"/>`mod4.py`) are defined as previously. But now, instead of being lumped together into the <FontIcon icon="fas fa-folder-open"/>`pkg` directory, they are split out into two **subpackage** directories, <FontIcon icon="fas fa-folder-open"/>`sub_pkg1` and <FontIcon icon="fas fa-folder-open"/>`sub_pkg2`.
+The four modules (<VPIcon icon="fa-brands fa-python"/>`mod1.py`, <VPIcon icon="fa-brands fa-python"/>`mod2.py`, <VPIcon icon="fa-brands fa-python"/>`mod3.py` and <VPIcon icon="fa-brands fa-python"/>`mod4.py`) are defined as previously. But now, instead of being lumped together into the <VPIcon icon="fas fa-folder-open"/>`pkg` directory, they are split out into two **subpackage** directories, <VPIcon icon="fas fa-folder-open"/>`sub_pkg1` and <VPIcon icon="fas fa-folder-open"/>`sub_pkg2`.
 
 Importing still works the same as shown previously. Syntax is similar, but additional **dot notation** is used to separate **package** name from **subpackage** name:
 
@@ -1114,7 +1114,7 @@ mod3.foo()
 
 Or you can use a **relative import**, where `..` refers to the package one level up. From within `mod3.py`, which is in subpackage `sub_pkg2`,
 
-- `..` evaluates to the parent package (<FontIcon icon="fas fa-folder-open"/>`pkg`), and
+- `..` evaluates to the parent package (<VPIcon icon="fas fa-folder-open"/>`pkg`), and
 - `..sub_pkg1` evaluates to subpackage `sub_pkg1` of the parent package.
 
 ```py title="pkg/sub__pkg2/mod3.py"

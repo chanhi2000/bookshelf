@@ -70,7 +70,7 @@ Integration tests with Testcontainers are powerful, but they can quickly become 
 
 I've seen teams struggle with flaky tests, slow test suites, and configuration headaches that could have been avoided with better practices from the start.
 
-Today, I'll show you the patterns that make [<FontIcon icon="fas fa-globe"/>Testcontainers](https://testcontainers.com/) tests reliable, fast, and easy to maintain.
+Today, I'll show you the patterns that make [<VPIcon icon="fas fa-globe"/>Testcontainers](https://testcontainers.com/) tests reliable, fast, and easy to maintain.
 
 ---
 
@@ -78,7 +78,7 @@ Today, I'll show you the patterns that make [<FontIcon icon="fas fa-globe"/>Test
 
 Traditional [**integration tests**](/milanjovanovic.tech/testcontainers-integration-testing-using-docker-in-dotnet.md) often rely on shared test databases or in-memory alternatives that don't match production behavior. You either deal with test pollution between runs or sacrifice realism for speed.
 
-Testcontainers solves this by spinning up real [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) containers for your dependencies. Your tests run against actual PostgreSQL, Redis, or any other service you use in production. When tests complete, containers are destroyed, giving you a clean slate every time.
+Testcontainers solves this by spinning up real [<VPIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) containers for your dependencies. Your tests run against actual PostgreSQL, Redis, or any other service you use in production. When tests complete, containers are destroyed, giving you a clean slate every time.
 
 The magic happens through Docker's API. Testcontainers manages the entire lifecycle: pulling images, starting containers, waiting for readiness, and cleanup. Your test code just needs to know how to connect.
 

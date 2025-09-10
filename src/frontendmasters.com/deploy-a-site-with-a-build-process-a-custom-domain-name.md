@@ -130,13 +130,13 @@ It’s true: *you don’t always need a build process*, and I think *avoiding* a
 - It can make content management easier. In our case, let’s build out some of the content with Markdown files, so that adding and changing content is potentially a bit easier and more flexible than editing one big HTML file.
 - The build process can help slot in additional tools for helping with things like performance, writing in other languages, or doing responsible things like running tests.
 
-We’ll be adding [<FontIcon icon="iconfont icon-astro"/>Astro](https://astro.build/) as the site-building tool for us, so it’s the tool that will be running the build process.
+We’ll be adding [<VPIcon icon="iconfont icon-astro"/>Astro](https://astro.build/) as the site-building tool for us, so it’s the tool that will be running the build process.
 
 ### Incorporating
 
 The trick here is to scaffold a new, bare-bones Astro site, then move the HTML/CSS/JavaScript assets from our existing project into place in the Astro project.
 
-Astro is clear that the right way to get started is using the command line. So far in this series, we’ve avoided the command line, using the GitHub Desktop app to do Git work, where git is natively a command line tool. But we’ve got no choice here, so let’s do it. I hope this isn’t a showstopper for anyone, but I think it’s outside the scope of this series to explain the command line. Naturally, there is a great course right here: [<FontIcon icon="fas fa-globe"/>Complete Intro to Linux and the Command-Line](https://frontendmasters.com/courses/linux-command-line/). The good news is that any operating system will have a free and perfectly serviceable command line app for you to use (like Terminal.app on macOS), and we won’t need it for long. We just need to get it open, then copy/paste the command Astro says to run on their homepage:
+Astro is clear that the right way to get started is using the command line. So far in this series, we’ve avoided the command line, using the GitHub Desktop app to do Git work, where git is natively a command line tool. But we’ve got no choice here, so let’s do it. I hope this isn’t a showstopper for anyone, but I think it’s outside the scope of this series to explain the command line. Naturally, there is a great course right here: [<VPIcon icon="fas fa-globe"/>Complete Intro to Linux and the Command-Line](https://frontendmasters.com/courses/linux-command-line/). The good news is that any operating system will have a free and perfectly serviceable command line app for you to use (like Terminal.app on macOS), and we won’t need it for long. We just need to get it open, then copy/paste the command Astro says to run on their homepage:
 
 ![A terminal window displaying a command prompt with the last login time and a command to create an Astro project using npm.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/07/terminal.png?resize=1024%2C710&ssl=1)
 
@@ -155,7 +155,7 @@ Now this looks absolutely nothing like our site, which is expected. We now need 
 - HTML needs to move into `.astro` files to take best advantage of Astro features. So it’s likey our simple setup will involve porting most of it to an `src/pages/index.astro` file.
 - Moving CSS and JavaScript assets into `src/assets` and linking them up how Astro likes to do it.
 
-It might be useful to look at [my Git Commit that does this conversion (<FontIcon icon="iconfont icon-github"/>`chriscoyier/my-portfolio`)](https://github.com/chriscoyier/my-portfolio/commit/632126a8d41843c7a1784956469781e98f5a1d7c).
+It might be useful to look at [my Git Commit that does this conversion (<VPIcon icon="iconfont icon-github"/>`chriscoyier/my-portfolio`)](https://github.com/chriscoyier/my-portfolio/commit/632126a8d41843c7a1784956469781e98f5a1d7c).
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/07/CleanShot-2025-07-11-at-12.59.39%402x.png?resize=1024%2C796&ssl=1)
 
@@ -169,23 +169,23 @@ Our plan was to build out some of our content using Markdown files. We’re jamm
 
 We’ve got these six images here. Let’s flesh out that section and make it actually powered by six Markdown files that link up the image but also have actual information about the project we worked on. This is a portfolio after all!
 
-This is a perfect situation for Astro’s [<FontIcon icon="iconfont icon-astro"/>content collections](https://docs.astro.build/en/guides/content-collections/). We can define what we want a work item to be like from a data perspective, then make Markdown files for each item.
+This is a perfect situation for Astro’s [<VPIcon icon="iconfont icon-astro"/>content collections](https://docs.astro.build/en/guides/content-collections/). We can define what we want a work item to be like from a data perspective, then make Markdown files for each item.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/07/CleanShot-2025-07-11-at-13.21.16%402x.png?resize=1024%2C766&ssl=1)
 
 You can absolutely do all this work by hand. I might argue that you should. More than once. But I also don’t want to be ignorant to the AI revolution in how developers are working these days. I also think that fairly rote tasks like this are done usually *quite well* by AI agents. That’s particularly true here, as we’re doing something very basic and with-the-grain in a fairly popular framework with good open documentation.
 
-I used an AI agent myself to do this job because I wanted to give it a whirl! I had just heard of [<FontIcon icon="fa-brands fa-google"/>Jules](https://jules.google.com/) from Google so I gave that one a try, but there are so many other choices. I’ve used Cursor a bunch which just launched [<FontIcon icon="iconfont icon-cursor"/>a web version of agents](https://cursor.com/agents) which seems interesting, for example.
+I used an AI agent myself to do this job because I wanted to give it a whirl! I had just heard of [<VPIcon icon="fa-brands fa-google"/>Jules](https://jules.google.com/) from Google so I gave that one a try, but there are so many other choices. I’ve used Cursor a bunch which just launched [<VPIcon icon="iconfont icon-cursor"/>a web version of agents](https://cursor.com/agents) which seems interesting, for example.
 
 I told Jules:
 
 > in index.astro, there is a div with class “work__container”. I want to turn that area into an Astro Collection. Each of those images should actually be a markdown file. That markdown file has more stuff in it like a title and description as well as the image.
 
-I’m sure it would have been happy to take follow-up instructions and all that, but this single prompt did the job just fine, and it ended up [as a PR (Pull Request) against the GitHub repo we set up (<FontIcon icon="iconfont icon-github"/>`chriscoyier/my-portfolio`)](https://github.com/chriscoyier/my-portfolio/pull/1).
+I’m sure it would have been happy to take follow-up instructions and all that, but this single prompt did the job just fine, and it ended up [as a PR (Pull Request) against the GitHub repo we set up (<VPIcon icon="iconfont icon-github"/>`chriscoyier/my-portfolio`)](https://github.com/chriscoyier/my-portfolio/pull/1).
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/07/Screenshot-2025-07-11-at-1.30.21%E2%80%AFPM.png?resize=1024%2C925&ssl=1)
 
-Just a little hand-tweaking of that new <FontIcon icon="iconfont icon-astro"/>`Work.astro` file, and we have a nice new section that will be easy to update in the future by simple editing Markdown files.
+Just a little hand-tweaking of that new <VPIcon icon="iconfont icon-astro"/>`Work.astro` file, and we have a nice new section that will be easy to update in the future by simple editing Markdown files.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/07/Screenshot-2025-07-11-at-1.48.28%E2%80%AFPM.png?resize=1024%2C736&ssl=1)
 
@@ -195,13 +195,13 @@ Just a little hand-tweaking of that new <FontIcon icon="iconfont icon-astro"/>`W
 
 We need to tell Netlify that our site is different now! No longer is it entirely static files. It’s true that Astro *makes* totally static files that can essentially be served in the same way, but when you use a site-building tool like Astro, the approach is to have the build process run when you deploy the site. That might sound a little strange if you’re learning about this for the first time, but it’s true.
 
-When Astro builds your site for you locally, it builds your website in a folder called <FontIcon icon="fas fa-folder-open"/>`dist`. You can see that in the <FontIcon icon="iconfont icon-git"/>`.gitignore` file that came into existence when we scaffolded Astro, dist is in there, which means “do not track any of the files in that folder in Git”, meaning they don’t go to GitHub at all, and don’t go to Netlify. The reason for that is generally that it’s just noisy. The changes to those “built” files will occur on almost every commit, and it’s not particularly interesting to see those files change in Git. It’s interesting to seewhat you, the author, changed, not the changes to the built files. So, because Netlify doesn’t have them, it can just build them for itself.
+When Astro builds your site for you locally, it builds your website in a folder called <VPIcon icon="fas fa-folder-open"/>`dist`. You can see that in the <VPIcon icon="iconfont icon-git"/>`.gitignore` file that came into existence when we scaffolded Astro, dist is in there, which means “do not track any of the files in that folder in Git”, meaning they don’t go to GitHub at all, and don’t go to Netlify. The reason for that is generally that it’s just noisy. The changes to those “built” files will occur on almost every commit, and it’s not particularly interesting to see those files change in Git. It’s interesting to seewhat you, the author, changed, not the changes to the built files. So, because Netlify doesn’t have them, it can just build them for itself.
 
 We need to go into the Netlify settings for our project into **Build & deploy > Continuous deployment > Build settings.**
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/07/Screenshot-2025-07-11-at-1.58.13%E2%80%AFPM.png?resize=1024%2C281&ssl=1)
 
-We update our “build command” to `npm run build` and the “publish directory” to <FontIcon icon="fas fa-folder-open"/>`dist`.
+We update our “build command” to `npm run build` and the “publish directory” to <VPIcon icon="fas fa-folder-open"/>`dist`.
 
 Netlify is smart enough to do this itself when you add an Astro project from the get-go, but here we’re changing the site from totally static to Astro, so it’s our job to update it.
 
@@ -223,7 +223,7 @@ Netlify itself will help you buy a domain name. And honestly, it’s almost sure
 
 But personally, I like to keep the domains I own registered separately from the web host. Let’s say you want to leave Netlify hosting one day, wouldn’t that be weird to manage the domain at Netlify while dealing with the hosting somewhere else? It feels weird to me, like the incentives are now off.
 
-I have most of my domains on[<FontIcon icon="fas fa-globe"/>GoDaddy](https://godaddy.com/),which is a big, popular choice, but I’ve heard good things about[<FontIcon icon="fas fa-globe"/>Porkbun](https://porkbun.com/), there is[<FontIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/products/registrar/), and a million others.
+I have most of my domains on[<VPIcon icon="fas fa-globe"/>GoDaddy](https://godaddy.com/),which is a big, popular choice, but I’ve heard good things about[<VPIcon icon="fas fa-globe"/>Porkbun](https://porkbun.com/), there is[<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/products/registrar/), and a million others.
 
 I own `coyier.dev` and I’ve never done anything with it, so what I’ll do is set it up as the domain for this project.
 

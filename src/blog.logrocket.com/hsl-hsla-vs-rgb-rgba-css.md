@@ -186,7 +186,7 @@ Similarly, you can create more variations like that; the below image depicts the
 
 ![Figma Color System](/assets/image/blog.logrocket.com/hsl-hsla-vs-rgb-rgba-css/figma-color-system.webp)
 
-Quick tip: always check your colors for contrast and accessibility standards with [<FontIcon icon="fa-brands fa-figma"/>the Color Contrast Checker Plugin](https://figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker).
+Quick tip: always check your colors for contrast and accessibility standards with [<VPIcon icon="fa-brands fa-figma"/>the Color Contrast Checker Plugin](https://figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker).
 
 ### Color variations with the CSS HSL function
 
@@ -223,7 +223,7 @@ All of these variations are pure, solid colors. For opaque colors, you can alway
 GRxLgax
 Timless Color Palettes with CSS HSL function and Custom properties
 
-A great eye for color automatically picks great colors. The only way to achieve that is to observe and work with colors frequently. If you don’t have an art or design background, I recommend you read more about [<FontIcon icon="fa-brands fa-wikipedia-w"/>the basics of color theory](https://en.wikipedia.org/wiki/Color_theory) before working with color professionally.
+A great eye for color automatically picks great colors. The only way to achieve that is to observe and work with colors frequently. If you don’t have an art or design background, I recommend you read more about [<VPIcon icon="fa-brands fa-wikipedia-w"/>the basics of color theory](https://en.wikipedia.org/wiki/Color_theory) before working with color professionally.
 
 ---
 

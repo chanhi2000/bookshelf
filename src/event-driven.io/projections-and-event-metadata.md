@@ -51,7 +51,7 @@ cover: https://event-driven.io/static/d3b3f36478db62c37631cf815bf85de9/2a4de/202
   logo="/assets/image/event-driven.io/favicon.jfif"
   preview="https://event-driven.io/static/d3b3f36478db62c37631cf815bf85de9/2a4de/2024-08-25-cover.png"/>
 
-In the [**previous article**](/event-driven.io/emmett-postgresql-event-store.md), I told what happened when [<FontIcon icon="fas fa-globe"/>Emmett](https://event-driven-io.github.io/emmett/getting-started.html) and [<FontIcon icon="fas fa-globe"/>Pongo](https://event-driven-io.github.io/Pongo/getting-started.html) walked into a bar. In other words, I announced that you can now do Event Sourcing in Node.js on top of PostgreSQL.** You can use Emmett as an event store and Pongo, changing PostgreSQL into a document Mongo-like database. With all the strong consistency benefits and integration happening behind the scenes.
+In the [**previous article**](/event-driven.io/emmett-postgresql-event-store.md), I told what happened when [<VPIcon icon="fas fa-globe"/>Emmett](https://event-driven-io.github.io/emmett/getting-started.html) and [<VPIcon icon="fas fa-globe"/>Pongo](https://event-driven-io.github.io/Pongo/getting-started.html) walked into a bar. In other words, I announced that you can now do Event Sourcing in Node.js on top of PostgreSQL.** You can use Emmett as an event store and Pongo, changing PostgreSQL into a document Mongo-like database. With all the strong consistency benefits and integration happening behind the scenes.
 
 **Let’s explore this in more detail today, focusing on the single-stream projection.**
 
@@ -71,13 +71,13 @@ Let’s install Emmett PostgreSQL package:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add @event-driven-io/emmett-postgresql
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i @event-driven-io/emmett-postgresql
@@ -125,7 +125,7 @@ type ShoppingCartEvent =
   | ShoppingCartConfirmed;
 ```
 
-We’ll skip the business logic part; you can learn about it in detail in [<FontIcon icon="fas fa-globe"/>Emmett’s Getting Started Guide](https://event-driven-io.github.io/emmett/getting-started.html#commands). Let’s go straight to thinking about read models.
+We’ll skip the business logic part; you can learn about it in detail in [<VPIcon icon="fas fa-globe"/>Emmett’s Getting Started Guide](https://event-driven-io.github.io/emmett/getting-started.html#commands). Let’s go straight to thinking about read models.
 
 Let’s say that we want to show the summary of the shopping cart, showing just the total items count and amount. This could be used, e.g., in the top menu bar, to give users quick feedback. It could be defined as:
 
@@ -593,7 +593,7 @@ The pattern looks the same, but the assertion is different.
 
 **I hope that this article shows you how powerful the combination of Emmett, Pongo, and PostgreSQL is.** I also wanted to show you that I intend to give you certainty and trust in the software you’re building. Having built-in support for tests should help you with that.
 
-Go ahead, play with it, check it, and drop me a line. [<FontIcon icon="fa-brands fa-discord"/>Joining our Discord](https://discord.gg/fTpqUTMmVa) is an excellent way to do this.
+Go ahead, play with it, check it, and drop me a line. [<VPIcon icon="fa-brands fa-discord"/>Joining our Discord](https://discord.gg/fTpqUTMmVa) is an excellent way to do this.
 
 Cheers!
 

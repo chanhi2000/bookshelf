@@ -276,7 +276,7 @@ It’s a pretty big chunk of HTML, so I’ll pop it in here as a `<details>`.
 
 But “it looks like this” is of course a gross simplification. Looks like this… where? The email client landscape is arguably even more complicated than the browser landscape. There are email clients that use Microsoft Word (?!) as the rendering engine. There are mobile-specific and desktop-specific clients. There are native clients across platforms. There are web-based clients. There are clients from two decades ago, and clients updated last week.
 
-I like the app [<FontIcon icon="fas fa-globe"/>Litmus](https://litmus.com/) for testing this stuff. It’s awfully expensive, but it allows you to see how your email will look across tons of clients and that’s pretty impressive and useful, so hey, you gotta do what you gotta do.
+I like the app [<VPIcon icon="fas fa-globe"/>Litmus](https://litmus.com/) for testing this stuff. It’s awfully expensive, but it allows you to see how your email will look across tons of clients and that’s pretty impressive and useful, so hey, you gotta do what you gotta do.
 
 ![Here’s a selection of screenshots of this email rendering](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/10/Screenshot-2024-10-17-at-10.34.57%E2%80%AFAM.png?resize=869%2C1024&ssl=1)
 
@@ -452,7 +452,7 @@ An explict goal of mine here was reigning in that width and centering it such th
 
 ---
 
-I’ve been enjoying playing with [<FontIcon icon="fas fa-globe"/>bolt.new](https://bolt.new/), an AI generator for websites from StackBlitz. Just for kicks I asked it to create an over-the-top HTML email to see if we could get a good example of doing too much for this blog post. It spun up a Next.js app to do this, which is definitely over-the-top (lol) but I also sorta get it since the point is building web apps that StackBlitz is good at running.
+I’ve been enjoying playing with [<VPIcon icon="fas fa-globe"/>bolt.new](https://bolt.new/), an AI generator for websites from StackBlitz. Just for kicks I asked it to create an over-the-top HTML email to see if we could get a good example of doing too much for this blog post. It spun up a Next.js app to do this, which is definitely over-the-top (lol) but I also sorta get it since the point is building web apps that StackBlitz is good at running.
 
 ![This is what I got though](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/10/Screenshot-2024-10-17-at-6.41.57%E2%80%AFAM.png?resize=725%2C1024&ssl=1)
 

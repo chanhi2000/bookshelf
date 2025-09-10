@@ -48,7 +48,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3569"/>
 
-[<FontIcon icon="fa-brands fa-firefox"/>Anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning)and[<FontIcon icon="fa-brands fa-firefox"/>scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)are among of the most popular and exciting CSS features of 2024. They unlock a lot of possibilities, and will continue to do so as browser support improves and developers get to know them.
+[<VPIcon icon="fa-brands fa-firefox"/>Anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning)and[<VPIcon icon="fa-brands fa-firefox"/>scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)are among of the most popular and exciting CSS features of 2024. They unlock a lot of possibilities, and will continue to do so as browser support improves and developers get to know them.
 
 Here is a demo of a custom range slider where I am relying on such features.
 
@@ -100,7 +100,7 @@ In addition to the HTML code, I am going to consider the styling of the range sl
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>  
 
-As for the tooltip, I have a[<FontIcon icon="fas fa-globe"/>big collection of 100 different tooltip shapes](https://css-generators.com/tooltip-speech-bubble/)and I am going to use the #41 and #42. I also have a[two-part article](/smashingmagazine.com/modern-css-tooltips-speech-bubbles-part1.md)detailing the creation of most of the tooltips.
+As for the tooltip, I have a[<VPIcon icon="fas fa-globe"/>big collection of 100 different tooltip shapes](https://css-generators.com/tooltip-speech-bubble/)and I am going to use the #41 and #42. I also have a[two-part article](/smashingmagazine.com/modern-css-tooltips-speech-bubbles-part1.md)detailing the creation of most of the tooltips.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/s_3FEC3DE430682F2526F00121B6B9A21346D04C3B20F98BA491C64590EEBAAF65_1723504367208_image.png?resize=989%2C307&ssl=1)
 
@@ -138,7 +138,7 @@ Defining the anchor is not enough, we also need to correctly position the elemen
 
 ::: info
 
-The`position-area`[<FontIcon icon="fas fa-firefox"/>CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)property enables an anchor-positioned element to be positioned relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3×3 grid, where the anchoring element is the center cell.
+The`position-area`[<VPIcon icon="fas fa-firefox"/>CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)property enables an anchor-positioned element to be positioned relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3×3 grid, where the anchoring element is the center cell.
 
 <SiteInfo
   name="position-area - CSS: Cascading Style Sheets | MDN"
@@ -149,7 +149,7 @@ The`position-area`[<FontIcon icon="fas fa-firefox"/>CSS](https://developer.mozil
 
 :::
 
-[<FontIcon icon="fas fa-globe"/>Here is an online tool](https://anchor-tool.com/) to visualize the different values.
+[<VPIcon icon="fas fa-globe"/>Here is an online tool](https://anchor-tool.com/) to visualize the different values.
 
 We’re using `position-area: top` on the `<output>`, and a `bottom` class flips that to `position-area: bottom` to re-position it and make the design work below.
 
@@ -164,7 +164,7 @@ Here is the demo so far:
 
 Hmmmm, there is an issue! Both tooltips are linked to the same thumb. This is understandable, because I used the same anchor name so the first one will get ignored.
 
-*Use a different name*, you say, and that’s correct but it’s not the optimal solution. We can still keep the same name and instead, limit the scope using[<FontIcon icon="iconfont icon-w3c"/>`anchor-scope`](https://w3.org/TR/css-anchor-position-1/#anchor-scope).
+*Use a different name*, you say, and that’s correct but it’s not the optimal solution. We can still keep the same name and instead, limit the scope using[<VPIcon icon="iconfont icon-w3c"/>`anchor-scope`](https://w3.org/TR/css-anchor-position-1/#anchor-scope).
 
 ```css
 label {
@@ -185,7 +185,7 @@ Another fix is to add`position: relative`to`label`. I won’t detail how it work
 
 Hmmmmm. We have fixed the scoping problem but the position of the tooltip is still not good. If you move the thumb to the edges, the tooltip is no longer following. It’s limited to the boundary of the slider. It’s kind of strange, but it’s by design.
 
-By adding `position: relative` we create a containing block for the tooltip and we trigger the following behavior described by[<FontIcon icon="iconfont icon-w3c"/>the specification](https://w3.org/TR/css-anchor-position-1/#anchor-scope):
+By adding `position: relative` we create a containing block for the tooltip and we trigger the following behavior described by[<VPIcon icon="iconfont icon-w3c"/>the specification](https://w3.org/TR/css-anchor-position-1/#anchor-scope):
 
 > If the box overflows its inset-modified containing block, but would still fit within its original containing block, by default it will “shift” to stay within its original containing block, even if that violates its normal alignment. This behavior makes it more likely that positioned boxes remain visible and within their intended bounds, even when their containing block ends up smaller than anticipated.
 
@@ -206,7 +206,7 @@ Of course, it applies to only this particular demo. You may need a different fix
 
 Now that our tooltip is correctly positioned, let’s move to the content. This is where scroll-driven animations enter the story. I know what you are thinking: *“We have nothing to scroll, so how are we going to use scroll-driven animations?”*
 
-If you read[<FontIcon icon="fa-brands fa-firefox"/>the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)you will find something called a “*view progress timeline*”:
+If you read[<VPIcon icon="fa-brands fa-firefox"/>the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)you will find something called a “*view progress timeline*”:
 
 > You progress this timeline based on the change in visibility of an element (known as the subject) inside a scroller. The visibility of the subject inside the scroller is tracked as a percentage of progress — by default, the timeline is at 0% when the subject is first visible at one edge of the scroller, and 100% when it reaches the opposite edge.
 
@@ -384,7 +384,7 @@ Here is the full demo again so you can play with it. Try different speeds of mov
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>  
 
-If you want to dig more into this technique and see more examples I advise you to [<FontIcon icon="fas fa-globe"/>read this article by Bramus](https://bram.us/2023/10/23/css-scroll-detection/).
+If you want to dig more into this technique and see more examples I advise you to [<VPIcon icon="fas fa-globe"/>read this article by Bramus](https://bram.us/2023/10/23/css-scroll-detection/).
 
 <SiteInfo
   name="Solved by CSS Scroll-Driven Animations: Style an element based on the active Scroll Direction and Scroll Speed"
@@ -408,7 +408,7 @@ Let’s try a different idea.
 
 This time, I am adjusting the tooltip position (and its tail) to remain within the horizontal boundary of the input element. Can you figure out how it’s done? This will be your homework!
 
-For the tooltip part, I already did the job for you. I will redirect you again to[<FontIcon icon="fas fa-globe"/>my online collection](https://css-generators.com/tooltip-speech-bubble/)where you can get the code of the tooltip shape. Within that code, I am already defining one variable that controls the tail position.
+For the tooltip part, I already did the job for you. I will redirect you again to[<VPIcon icon="fas fa-globe"/>my online collection](https://css-generators.com/tooltip-speech-bubble/)where you can get the code of the tooltip shape. Within that code, I am already defining one variable that controls the tail position.
 
 ---
 
@@ -416,7 +416,7 @@ For the tooltip part, I already did the job for you. I will redirect you again t
 
 CSS is cool. A few years ago, doing such stuff with CSS would have been impossible. You would probably need one or two JavaScript libraries to handle the position of the tooltip, the dynamic content, the motion, etc. Now, all it takes is a few lines of CSS.
 
-It’s still early to adopt those features and include them in real projects but I think it’s a good time to explore them and get an overview of what could be done in the near future. If you want more “futuristic” experimentation make sure to check[<FontIcon icon="fas fa-globe"/>my CSS Tip website](https://css-tip.com/)where I regularly share cool demos!
+It’s still early to adopt those features and include them in real projects but I think it’s a good time to explore them and get an overview of what could be done in the near future. If you want more “futuristic” experimentation make sure to check[<VPIcon icon="fas fa-globe"/>my CSS Tip website](https://css-tip.com/)where I regularly share cool demos!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

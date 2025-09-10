@@ -160,7 +160,7 @@ public class ReserveBookingCommandHandlerTests
 }
 ```
 
-I'm using [<FontIcon icon="fas fa-globe"/>NSubstitute](https://nsubstitute.github.io/) to create mocks of our dependencies. Each test starts with fresh mocks, preventing test interference. The static fields provide consistent values across all tests.
+I'm using [<VPIcon icon="fas fa-globe"/>NSubstitute](https://nsubstitute.github.io/) to create mocks of our dependencies. Each test starts with fresh mocks, preventing test interference. The static fields provide consistent values across all tests.
 
 Notice how I mock `IDateTimeProvider`. This is crucial for testing time-dependent code. Never use `DateTime.UtcNow` directly in your production code - it makes testing much harder.
 
@@ -198,7 +198,7 @@ This test follows the **Arrange-Act-Assert** pattern:
 2. Act: Call the handler
 3. Assert: Verify we get the correct error
 
-I use [<FontIcon icon="fas fa-globe"/>FluentAssertions](https://fluentassertions.com/) because it provides clear, readable assertions and better error messages than the standard Assert class.
+I use [<VPIcon icon="fas fa-globe"/>FluentAssertions](https://fluentassertions.com/) because it provides clear, readable assertions and better error messages than the standard Assert class.
 
 ---
 

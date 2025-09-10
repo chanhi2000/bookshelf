@@ -57,7 +57,7 @@ Once you’ve opened up a file, you’ll want to read or write to the file. Firs
 | [`.readline(size=-1)`](https://docs.python.org/3.7/library/io.html#io.IOBase.readline) | This reads at most `size` number of characters from the line. This continues to the end of the line and then wraps back around. If no argument is passed or `None` or `-1` is passed, then the entire line (or rest of the line) is read. |
 | [`.readlines()`](https://docs.python.org/3.7/library/io.html#io.IOBase.readlines) | This reads the remaining lines from the file object and returns them as a list. |
 
-Using the same <FontIcon icon="fas fa-file-lines"/>`dog_breeds.txt` file you used above, let’s go through some examples of how to use these methods. Here’s an example of how to open and read the entire file using `.read()`:
+Using the same <VPIcon icon="fas fa-file-lines"/>`dog_breeds.txt` file you used above, let’s go through some examples of how to use these methods. Here’s an example of how to open and read the entire file using `.read()`:
 
 ```py
 with open('dog_breeds.txt', 'r') as reader:
@@ -183,7 +183,7 @@ This final approach is more Pythonic and can be quicker and more memory efficien
 
 ::: note
 
-Some of the above examples contain `print('some text', end='')`. The `end=''` is to prevent Python from adding an additional newline to the text that is being printed and only [<FontIcon icon="fas fa-globe"/>print](https://realpython.com/courses/python-print/) what is being read from the file.
+Some of the above examples contain `print('some text', end='')`. The `end=''` is to prevent Python from adding an additional newline to the text that is being printed and only [<VPIcon icon="fas fa-globe"/>print](https://realpython.com/courses/python-print/) what is being read from the file.
 
 :::
 
@@ -212,7 +212,7 @@ with open('dog_breeds_reversed.txt', 'w') as writer:
 
 ### Working With Bytes
 
-Sometimes, you may need to work with files using [<FontIcon icon="fa-brands fa-python"/>byte strings](https://docs.python.org/3.7/glossary.html#term-bytes-like-object). This is done by adding the `'b'` character to the `mode` argument. All of the same methods for the file object apply. However, each of the methods expect and return a `bytes` object instead:
+Sometimes, you may need to work with files using [<VPIcon icon="fa-brands fa-python"/>byte strings](https://docs.python.org/3.7/glossary.html#term-bytes-like-object). This is done by adding the `'b'` character to the `mode` argument. All of the same methods for the file object apply. However, each of the methods expect and return a `bytes` object instead:
 
 ```py
 with open('dog_breeds.txt', 'rb') as reader:
@@ -221,11 +221,11 @@ with open('dog_breeds.txt', 'rb') as reader:
 # b'Pug\n'
 ```
 
-Opening a text file using the `b` flag isn’t that interesting. Let’s say we have this cute picture of a Jack Russell Terrier (<FontIcon icon="fas fa-file-image"/>`jack_russell.png`):
+Opening a text file using the `b` flag isn’t that interesting. Let’s say we have this cute picture of a Jack Russell Terrier (<VPIcon icon="fas fa-file-image"/>`jack_russell.png`):
 
-![Image: [<FontIcon icon="fas fa-globe"/>CC BY 3.0 (https://creativecommons.org/licenses/by/3.0) from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jack_Russell_Terrier_1.jpg)](https://files.realpython.com/media/jack_russell.92348cb14537.png)
+![Image: [<VPIcon icon="fas fa-globe"/>CC BY 3.0 (https://creativecommons.org/licenses/by/3.0) from Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jack_Russell_Terrier_1.jpg)](https://files.realpython.com/media/jack_russell.92348cb14537.png)
 
-You can actually open that file in Python and examine the contents! Since the [<FontIcon icon="fa-brands fa-wikipedia-w"/>`.png` file format](https://en.wikipedia.org/wiki/Portable_Network_Graphics) is well defined, the header of the file is 8 bytes broken up like this:
+You can actually open that file in Python and examine the contents! Since the [<VPIcon icon="fa-brands fa-wikipedia-w"/>`.png` file format](https://en.wikipedia.org/wiki/Portable_Network_Graphics) is well defined, the header of the file is 8 bytes broken up like this:
 
 | Value | Interpretation |
 | ---: | :--- |
@@ -252,9 +252,9 @@ with open('jack_russell.png', 'rb') as byte_reader:
 # b'\n'
 ```
 
-### A Full Example: <FontIcon icon="fa-brands fa-python"/>`dos2unix.py`
+### A Full Example: <VPIcon icon="fa-brands fa-python"/>`dos2unix.py`
 
-Let’s bring this whole thing home and look at a full example of how to read and write to a file. The following is a [<FontIcon icon="fa-brands fa-wikipedia-w"/>`dos2unix`](https://en.wikipedia.org/wiki/Unix2dos) like tool that will convert a file that contains line endings of `\r\n` to `\n`.
+Let’s bring this whole thing home and look at a full example of how to read and write to a file. The following is a [<VPIcon icon="fa-brands fa-wikipedia-w"/>`dos2unix`](https://en.wikipedia.org/wiki/Unix2dos) like tool that will convert a file that contains line endings of `\r\n` to `\n`.
 
 This tool is broken up into three major sections. The first is `str2unix()`, which converts a string from `\r\n` line endings to `\n`. The second is `dos2unix()`, which converts a string that contains `\r\n` characters into `\n`. `dos2unix()` calls `str2unix()` internally. Finally, there’s the [**`__main__`**](/realpython.com/if-name-main-python.md) block, which is called only when the file is executed as a script. Think of it as the `main` function found in other programming languages.
 

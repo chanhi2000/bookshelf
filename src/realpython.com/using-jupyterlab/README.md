@@ -53,7 +53,7 @@ cover: https://files.realpython.com/media/Jupyterlab-Tutorial_Watermarked.e68ba3
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Jupyterlab-Tutorial_Watermarked.e68ba3554953.jpg"/>
 
-Maybe you’ve already worked with Jupyter Notebooks from [<FontIcon icon="iconfont icon-jupyter"/>Project Jupyter](https://docs.jupyter.org/en/latest/) to create documents containing runnable code. You can achieve even more with **JupyterLab**, a tool kit that you can use to document and share your research, teaching, and learning activities. It’s useful in a wide range of disciplines, from data analysis and data visualization to scientific study.
+Maybe you’ve already worked with Jupyter Notebooks from [<VPIcon icon="iconfont icon-jupyter"/>Project Jupyter](https://docs.jupyter.org/en/latest/) to create documents containing runnable code. You can achieve even more with **JupyterLab**, a tool kit that you can use to document and share your research, teaching, and learning activities. It’s useful in a wide range of disciplines, from data analysis and data visualization to scientific study.
 
 JupyterLab enhances your notebooks by providing a **browser-based interface** that allows you to use **multiple notebooks** together effectively. In addition, it offers you a comprehensive Markdown editor, file manager, file viewer, and an infrastructure that enables you to run code from a wide range of files.
 
@@ -66,7 +66,7 @@ JupyterLab enhances your notebooks by providing a **browser-based interface** th
 - Manage and view **different file types** from a single interface
 - **Access** your operating system from within JupyterLab
 
-*Jupyter* is a [<FontIcon icon="fas fa-globe"/>portmanteau](https://britannica.com/topic/portmanteau-word) word blended from the three programming languages **Ju**lia, **Py**thon, and **R**. Although you’ll focus on Python in this tutorial, you can use Jupyter with the other languages as well. Plus, this free application works on macOS, Linux, and Windows environments.
+*Jupyter* is a [<VPIcon icon="fas fa-globe"/>portmanteau](https://britannica.com/topic/portmanteau-word) word blended from the three programming languages **Ju**lia, **Py**thon, and **R**. Although you’ll focus on Python in this tutorial, you can use Jupyter with the other languages as well. Plus, this free application works on macOS, Linux, and Windows environments.
 
 JupyterLab takes [**Jupyter Notebook**](/realpython.com/jupyter-notebook-introduction.md) usage to a different level, so you’ll get the most out of this tutorial if you’re already familiar with Jupyter Notebook.
 
@@ -180,7 +180,7 @@ When you close a Jupyter Notebook, you don’t close its kernel. This is because
 
 JupyterLab allows you to display multiple notebooks, move content and share code between them, and view different parts of them simultaneously. You can even debug their code. It also provides tools for working with Markdown files, text files, and several other common formats, as well as the ability to run code embedded within them.
 
-JupyterLab is part of [<FontIcon icon="iconfont icon-jupyter"/>Project Jupyter](https://docs.jupyter.org/en/latest/). This is an evolving project, so you’re encouraged to keep up with the latest developments and improvements. A good starting point for that is the [<FontIcon icon="iconfont icon-jupyter"/>official documentation](https://jupyterlab.readthedocs.io/en/stable/index.html). Why not get involved in the [<FontIcon icon="iconfont icon-jupyter"/>JupyterLab community](https://jupyter.org/community) and help make your favorite program even better?
+JupyterLab is part of [<VPIcon icon="iconfont icon-jupyter"/>Project Jupyter](https://docs.jupyter.org/en/latest/). This is an evolving project, so you’re encouraged to keep up with the latest developments and improvements. A good starting point for that is the [<VPIcon icon="iconfont icon-jupyter"/>official documentation](https://jupyterlab.readthedocs.io/en/stable/index.html). Why not get involved in the [<VPIcon icon="iconfont icon-jupyter"/>JupyterLab community](https://jupyter.org/community) and help make your favorite program even better?
 
 If you have any comments or want to share your use of JupyterLab, feel free to reach out in the comments section below.
 

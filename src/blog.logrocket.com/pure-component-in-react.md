@@ -60,9 +60,9 @@ As React applications grow in complexity, performance optimization becomes a pri
 
 ![pure components in react using Using PureComponent and React.memo](/assets/image/blog.logrocket.com/pure-component-in-react/banner.png)
 
-In this tutorial, we’ll learn how to memoize components in React using [<FontIcon icon="fa-brands fa-react"/>`React.PureComponent`](https://react.dev/reference/react/PureComponent) and the [<FontIcon icon="fa-brands fa-react"/>`React.memo`API](https://react.dev/reference/react/memo). We’ll cover some of the fundamentals of React components before we dive into an example.
+In this tutorial, we’ll learn how to memoize components in React using [<VPIcon icon="fa-brands fa-react"/>`React.PureComponent`](https://react.dev/reference/react/PureComponent) and the [<VPIcon icon="fa-brands fa-react"/>`React.memo`API](https://react.dev/reference/react/memo). We’ll cover some of the fundamentals of React components before we dive into an example.
 
-You can keep up with the changes and suggestions for the React framework on the [React RFCs repository (<FontIcon icon="iconfont icon-github"/>`reactjs/rfcs`)](https://github.com/reactjs/rfcs).
+You can keep up with the changes and suggestions for the React framework on the [React RFCs repository (<VPIcon icon="iconfont icon-github"/>`reactjs/rfcs`)](https://github.com/reactjs/rfcs).
 
 ---
 
@@ -99,7 +99,7 @@ function ReactHeader(props) {
 
 ::: note Editor’s note
 
-This post was updated by [<FontIcon icon="fas fa-globe"/>Chizaram Ken](https://blog.logrocket.com/author/emmanuelodioko/) in March 2025 to compare and contrast the use of `PureComponent` and the more modern `React.memo`.
+This post was updated by [<VPIcon icon="fas fa-globe"/>Chizaram Ken](https://blog.logrocket.com/author/emmanuelodioko/) in March 2025 to compare and contrast the use of `PureComponent` and the more modern `React.memo`.
 
 :::
 
@@ -122,7 +122,7 @@ Based on the concept of purity in functional programming paradigms, a function i
 
 A React component is considered pure if it renders the same output for the same state and props. For this type of class component, React provides the `PureComponent` base class. Class components that extend the `React.PureComponent` class are treated as pure components.
 
-Pure components have some performance improvements and render optimizations because React implements the [<FontIcon icon="fa-brands fa-react"/>`shouldComponentUpdate()`](https://reactjs.org/docs/react-component.html#shouldcomponentupdate) method for them with a shallow comparison of props and state.
+Pure components have some performance improvements and render optimizations because React implements the [<VPIcon icon="fa-brands fa-react"/>`shouldComponentUpdate()`](https://reactjs.org/docs/react-component.html#shouldcomponentupdate) method for them with a shallow comparison of props and state.
 
 ---
 
@@ -249,7 +249,7 @@ The term “stateless function components,” has been outdated since the introd
 
 In the past, optimizing a functional component so that React could treat it as a pure component wasn’t going to necessarily require that you convert the component to a class component.
 
-The [Recompose (<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose) package then provides a broad collection of [<FontIcon icon="fa-brands fa-react"/>higher-order components (HOCs)](https://reactjs.org/docs/higher-order-components.html) that are very useful for dealing with functional components. This package exports a [`{ pure }` (<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose/blob/master/docs/API.md#pure) HOC that tries to optimize a React component by preventing updates on the component unless a prop has changed, using `shallowEqual()` to test for changes.
+The [Recompose (<VPIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose) package then provides a broad collection of [<VPIcon icon="fa-brands fa-react"/>higher-order components (HOCs)](https://reactjs.org/docs/higher-order-components.html) that are very useful for dealing with functional components. This package exports a [`{ pure }` (<VPIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose/blob/master/docs/API.md#pure) HOC that tries to optimize a React component by preventing updates on the component unless a prop has changed, using `shallowEqual()` to test for changes.
 
 Using the pure HOC, our functional component can be wrapped as follows:
 

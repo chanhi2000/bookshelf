@@ -88,7 +88,7 @@ So, how does JavaScript not work in a way that we might expect? Let’s take a l
 
 The example listed at the outset is accepted by JavaScript interpreters but doesn’t yield the expected result. The reason is because of Automatic Semicolon Injection.
 
-Some languages, like C#, are dogmatic about ending each line with a semicolon. JavaScript also uses semicolons to indicate the end of a line, but the semicolon is actually optional. By optional, it means that JavaScript will apply a set of complex rules to [<FontIcon icon="fas fa-globe"/>work out whether a semicolon should have gone there or not](https://en.wikibooks.org/wiki/JavaScript/Automatic_semicolon_insertion).
+Some languages, like C#, are dogmatic about ending each line with a semicolon. JavaScript also uses semicolons to indicate the end of a line, but the semicolon is actually optional. By optional, it means that JavaScript will apply a set of complex rules to [<VPIcon icon="fas fa-globe"/>work out whether a semicolon should have gone there or not](https://en.wikibooks.org/wiki/JavaScript/Automatic_semicolon_insertion).
 
 In the example at the outset, because the opening bracket doesn’t occur on the same line as the `return`, ASI pops one in there for us. So, as far as JavaScript is concerned, our code actually looks like this:
 
@@ -167,7 +167,7 @@ And it would return `false`.
 
 It’s cute we can always just randomly jam our functions into the factory-defined implementation of how a `string` can act.
 
-Sure, all those good people broke their backs and spent tens of thousands of hours defining JavaScript in the [<FontIcon icon="fas fa-globe"/>TC39 specification](https://tc39.es/), but don’t let that dissuade you from banging in your random functions as you see fit.
+Sure, all those good people broke their backs and spent tens of thousands of hours defining JavaScript in the [<VPIcon icon="fas fa-globe"/>TC39 specification](https://tc39.es/), but don’t let that dissuade you from banging in your random functions as you see fit.
 
 If we’re not happy with that particular brand of pain, we can also randomly assign new functions to complex objects as we want to, ensuring that our code will be a very particular form of nonsense, understood only by yourself and God:
 

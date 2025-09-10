@@ -70,12 +70,12 @@ In this example, we’ll connect to the Twitter Streaming API, gather tweets (ba
 
 ::: info Tools
 
-- [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) v1.3.0
-- [<FontIcon icon="fas fa-globe"/>boot2docker](https://boot2docker.io/) v1.3.0
-- [<FontIcon icon="fas fa-globe"/>Tweepy](https://tweepy.org/) v2.3.0
-- [<FontIcon icon="fas fa-globe"/>TextBlob](http://textblob.readthedocs.org/en/dev/) v0.9.0
-- [<FontIcon icon="iconfont icon-elasticsearch"/>Elasticsearch](https://elasticsearch.org/) v1.3.5
-- [<FontIcon icon="iconfont icon-elasticsearch"/>Kibana](https://elasticsearch.org/overview/kibana/) v3.1.2
+- [<VPIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) v1.3.0
+- [<VPIcon icon="fas fa-globe"/>boot2docker](https://boot2docker.io/) v1.3.0
+- [<VPIcon icon="fas fa-globe"/>Tweepy](https://tweepy.org/) v2.3.0
+- [<VPIcon icon="fas fa-globe"/>TextBlob](http://textblob.readthedocs.org/en/dev/) v0.9.0
+- [<VPIcon icon="iconfont icon-elasticsearch"/>Elasticsearch](https://elasticsearch.org/) v1.3.5
+- [<VPIcon icon="iconfont icon-elasticsearch"/>Kibana](https://elasticsearch.org/overview/kibana/) v3.1.2
 
 :::
 
@@ -83,7 +83,7 @@ In this example, we’ll connect to the Twitter Streaming API, gather tweets (ba
 
 ## Docker Environment
 
-Follow the [<FontIcon icon="fa-brands fa-docker"/>official Docker documentation](https://docs.docker.com/installation/mac/) to install both Docker and boot2docker. Then with boot2docker up and running, run `docker version` to test the Docker installation. Create a directory to house your project, grab the Dockerfile from the [repository (<FontIcon icon="iconfont icon-github"/>`realpython/twitter-sentiment-elasticsearch`)](https://github.com/realpython/twitter-sentiment-elasticsearch), and build the image:
+Follow the [<VPIcon icon="fa-brands fa-docker"/>official Docker documentation](https://docs.docker.com/installation/mac/) to install both Docker and boot2docker. Then with boot2docker up and running, run `docker version` to test the Docker installation. Create a directory to house your project, grab the Dockerfile from the [repository (<VPIcon icon="iconfont icon-github"/>`realpython/twitter-sentiment-elasticsearch`)](https://github.com/realpython/twitter-sentiment-elasticsearch), and build the image:
 
 ```sh
 docker build -rm -t=elasticsearch-kibana .
@@ -108,7 +108,7 @@ Now you can access Elasticsearch at `http://localhost:9200` and Kibana at `http:
 
 ## Twitter Streaming API
 
-In order to access the [<FontIcon icon="fa-brands fa-x-twitter"/>Twitter Streaming API](https://dev.twitter.com/streaming/overview), you need to register an application at [http://apps.twitter.com](http://apps.twitter.com). Once created, you should be redirected to your app’s page, where you can get the consumer key and consumer secret and create an access token under the “Keys and Access Tokens” tab. Add these to a new file called *config.py*:
+In order to access the [<VPIcon icon="fa-brands fa-x-twitter"/>Twitter Streaming API](https://dev.twitter.com/streaming/overview), you need to register an application at [http://apps.twitter.com](http://apps.twitter.com). Once created, you should be redirected to your app’s page, where you can get the consumer key and consumer secret and create an access token under the “Keys and Access Tokens” tab. Add these to a new file called *config.py*:
 
 ```py
 consumer_key = "add_your_consumer_key"
@@ -123,11 +123,11 @@ Since this file contains sensitive information do **not** add it to your Git rep
 
 :::
 
-According to the Twitter Streaming [<FontIcon icon="fa-brands fa-x-twitter"/>documentation](https://dev.twitter.com/streaming/overview/connecting), “establishing a connection to the streaming APIs means making a very long lived HTTP request, and parsing the response incrementally. Conceptually, you can think of it as downloading an infinitely long file over HTTP.”
+According to the Twitter Streaming [<VPIcon icon="fa-brands fa-x-twitter"/>documentation](https://dev.twitter.com/streaming/overview/connecting), “establishing a connection to the streaming APIs means making a very long lived HTTP request, and parsing the response incrementally. Conceptually, you can think of it as downloading an infinitely long file over HTTP.”
 
 So, you make a request, filter it by a specific keyword, user, and/or geographic area and then leave the connection open, collecting as many tweets as possible.
 
-This sounds complicated, but [<FontIcon icon="fas fa-globe"/>Tweepy](https://tweepy.org/) makes it easy.
+This sounds complicated, but [<VPIcon icon="fas fa-globe"/>Tweepy](https://tweepy.org/) makes it easy.
 
 ---
 
@@ -137,7 +137,7 @@ Tweepy uses a “listener” to not only grab the streaming tweets, but filter t
 
 ### The code
 
-Save the following code as <FontIcon icon="fa-brands fa-python"/>`sentiment.py`:
+Save the following code as <VPIcon icon="fa-brands fa-python"/>`sentiment.py`:
 
 ```py :collapsed-lines title="sentiment.py"
 import json
@@ -214,7 +214,7 @@ if __name__ == '__main__':
 1. We connect to the Twitter Streaming API;
 2. Filter the data by the keyword `"congress"`;
 3. Decode the results (the tweets);
-4. Calculate sentiment analysis via [<FontIcon icon="fas fa-globe"/>TextBlob](https://textblob.readthedocs.org/en/dev/);
+4. Calculate sentiment analysis via [<VPIcon icon="fas fa-globe"/>TextBlob](https://textblob.readthedocs.org/en/dev/);
 5. Determine if the overall sentiment is positive, negative, or neutral; and,
 6. Finally the relevant sentiment and tweet data is added to the Elasticsearch DB.
 
@@ -222,7 +222,7 @@ Follow the inline comments for further details.
 
 ### TextBlob sentiment basics
 
-To calculate the overall sentiment, we look at the [<FontIcon icon="fas fa-globe"/>polarity](http://textblob.readthedocs.org/en/latest/_modules/textblob/blob.html#BaseBlob.polarity) score:
+To calculate the overall sentiment, we look at the [<VPIcon icon="fas fa-globe"/>polarity](http://textblob.readthedocs.org/en/latest/_modules/textblob/blob.html#BaseBlob.polarity) score:
 
 1. Positive: From `0.01` to `1.0`
 2. Neutral: `0`
@@ -230,7 +230,7 @@ To calculate the overall sentiment, we look at the [<FontIcon icon="fas fa-globe
 
 ::: info
 
-Refer to the [<FontIcon icon="fas fa-globe"/>official documentation](http://textblob.readthedocs.org/en/dev/) for more information on how TextBlob calculates sentiment.
+Refer to the [<VPIcon icon="fas fa-globe"/>official documentation](http://textblob.readthedocs.org/en/dev/) for more information on how TextBlob calculates sentiment.
 
 :::
 
@@ -240,7 +240,7 @@ Refer to the [<FontIcon icon="fas fa-globe"/>official documentation](http://text
 
 Over a two hour period, as I wrote this blog post, I pulled over 9,500 tweets with the keyword “congress”. At this point go ahead and perform a search of your own, on a subject of interest to you. Once you have a sizable number of tweets, stop the script. Now you can perform some quick searches/analysis…
 
-Using the index (`"sentiment"`) from the <FontIcon icon="fa-brands fa-python"/>`sentiment.py` script, you can use the [<FontIcon icon="iconfont icon-elasticsearch"/>Elasticsearch search API](https://elasticsearch.org/guide/en/elasticsearch/reference/current/search-search.html) to gather some basic insights.
+Using the index (`"sentiment"`) from the <VPIcon icon="fa-brands fa-python"/>`sentiment.py` script, you can use the [<VPIcon icon="iconfont icon-elasticsearch"/>Elasticsearch search API](https://elasticsearch.org/guide/en/elasticsearch/reference/current/search-search.html) to gather some basic insights.
 
 For example:
 
@@ -249,13 +249,13 @@ For example:
 - Sentiment search: [http://localhost:9200/sentiment/_search?q=sentiment:positive](http://localhost:9200/sentiment/_search?q=sentiment:positive)
 - Sentiment and “obama” search: [http://localhost:9200/sentiment/_search?q=sentiment:positive&message=obama](http://localhost:9200/sentiment/_search?q=sentiment:positive&message=obama)
 
-There’s much, *much* more you can do with Elasticsearch besides just searching and filtering results. Check out the [<FontIcon icon="iconfont icon-elasticsearch"/>Analyze API](https://elasticsearch.org/guide/en/elasticsearch/guide/current/analysis-intro.html) as well as the [<FontIcon icon="iconfont icon-elasticsearch"/>Elasticsearch - The Definitive Guide](https://elasticsearch.org/guide/en/elasticsearch/guide/current/index.html) for more ideas on how to analyze and model your data.
+There’s much, *much* more you can do with Elasticsearch besides just searching and filtering results. Check out the [<VPIcon icon="iconfont icon-elasticsearch"/>Analyze API](https://elasticsearch.org/guide/en/elasticsearch/guide/current/analysis-intro.html) as well as the [<VPIcon icon="iconfont icon-elasticsearch"/>Elasticsearch - The Definitive Guide](https://elasticsearch.org/guide/en/elasticsearch/guide/current/index.html) for more ideas on how to analyze and model your data.
 
 ---
 
 ## Kibana Visualizer
 
-[<FontIcon icon="iconfont icon-elasticsearch"/>Kibana](https://elasticsearch.org/overview/kibana/) lets “you see and interact with your data” in realtime, as you’re gathering data. Since it’s written in JavaScript, you access it directly from your browser. Check out the basics from the [<FontIcon icon="iconfont icon-elasticsearch"/>official introduction](https://elasticsearch.org/guide/en/kibana/current/_introduction.html) to quickly get started.
+[<VPIcon icon="iconfont icon-elasticsearch"/>Kibana](https://elasticsearch.org/overview/kibana/) lets “you see and interact with your data” in realtime, as you’re gathering data. Since it’s written in JavaScript, you access it directly from your browser. Check out the basics from the [<VPIcon icon="iconfont icon-elasticsearch"/>official introduction](https://elasticsearch.org/guide/en/kibana/current/_introduction.html) to quickly get started.
 
 The pie chart at the top of this post came direct from Kibana, which shows the proportion of each sentiment - positive, neutral, and negative - to the whole from the tweets I pulled. Here’s a few more graphs from Kibana…
 
@@ -269,7 +269,7 @@ Aside for these charts, it’s worth visualizing sentiment by location. Try this
 
 Finally -
 
-1. Grab the code from the [repository (<FontIcon icon="iconfont icon-github"/>`realpython/twitter-sentiment-elasticsearch`)](https://github.com/realpython/twitter-sentiment-elasticsearch).
+1. Grab the code from the [repository (<VPIcon icon="iconfont icon-github"/>`realpython/twitter-sentiment-elasticsearch`)](https://github.com/realpython/twitter-sentiment-elasticsearch).
 2. Leave comments/questions below.
 
 Cheers!

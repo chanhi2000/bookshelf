@@ -53,7 +53,7 @@ cover: https://files.realpython.com/media/Jupyterlab-Tutorial_Watermarked.e68ba3
 
 The cleanest way of installing JupyterLab on a computer is to use a [**virtual environment**](/realpython.com/python-virtual-environments-a-primer.md). This will ensure that your JupyterLab work doesn't interfere with any other Python projects or environments that you may already have. For this tutorial, you'll create a new virtual environment named `jl_venv`. Select your operating system to get JupyterLab up and running:
 
-### <FontIcon icon="fa-brands fa-windows"/>Powershell
+### <VPIcon icon="fa-brands fa-windows"/>Powershell
 
 If you haven't already done so, download and [**install Python**](/realpython.com/installing-python.md) on your Windows computer. Then fire up a `Windows PowerShell(Admin)` or `Terminal(Admin)` prompt depending on the version of Windows that you're using. Now type in the following commands:
 
@@ -65,7 +65,7 @@ jl_venv\Scripts\activate
 python -m pip install jupyterlab
 ```
 
-To keep things neat, you first create a new <FontIcon icon="fas fa-folder-open"/>`jupyterlab_projects` folder for all of your JupyterLab work. Later you'll create individual subfolders for each of your projects to keep everything organized.
+To keep things neat, you first create a new <VPIcon icon="fas fa-folder-open"/>`jupyterlab_projects` folder for all of your JupyterLab work. Later you'll create individual subfolders for each of your projects to keep everything organized.
 
 Next, you create a virtual environment named `jl_venv` within this folder, which you then activate. If the activation is successful, then the virtual environment's name will precede your Powershell prompt. If not, see the alert box below. Finally, you install JupyterLab into this virtual environment.
 
@@ -87,7 +87,7 @@ cd tutorial_project
 jupyter lab
 ```
 
-### <FontIcon icon="fa-brands fa-linux"/>Linux
+### <VPIcon icon="fa-brands fa-linux"/>Linux
 
 To install JupyterLab, fire up a terminal and run the following commands:
 
@@ -119,7 +119,7 @@ cd tutorial_project
 jupyter lab
 ```
 
-### <FontIcon icon="iconfont icon-macos"/>macOS
+### <VPIcon icon="iconfont icon-macos"/>macOS
 
 To install JupyterLab, fire up a terminal and run the following commands:
 
@@ -131,11 +131,11 @@ source jl_venv/bin/activate
 python -m pip install jupyterlab
 ```
 
-To keep things neat, you first create a new <FontIcon icon="fas fa-folder-open"/>`jupyterlab_projects` folder for all of your JupyterLab work. Later you can create individual subfolders for each of your projects to keep things organized.
+To keep things neat, you first create a new <VPIcon icon="fas fa-folder-open"/>`jupyterlab_projects` folder for all of your JupyterLab work. Later you can create individual subfolders for each of your projects to keep things organized.
 
 Next, you create a virtual environment named `jl_venv`. You then activate your virtual environment by running its activation script. Once the virtual environment is activated, its name precedes your terminal prompt. You install JupyterLab into this virtual environment.
 
-Finally, for neatness, you'll create a new folder named <FontIcon icon="fas fa-folder-open"/>`tutorial_project` and then start up JupyterLab from within it:
+Finally, for neatness, you'll create a new folder named <VPIcon icon="fas fa-folder-open"/>`tutorial_project` and then start up JupyterLab from within it:
 
 ```sh
 mkdir tutorial_project
@@ -143,18 +143,18 @@ cd tutorial_project
 jupyter lab
 ```
 
-Of course, once you've finished this tutorial, you can delete <FontIcon icon="fas fa-folder-open"/>`tutorial_project` and add in your own project-specific folders instead.
+Of course, once you've finished this tutorial, you can delete <VPIcon icon="fas fa-folder-open"/>`tutorial_project` and add in your own project-specific folders instead.
 
 ::: note
 
-If you wish, you could create a <FontIcon icon="fas fa-folder-open"/>`Samples` subfolder within <FontIcon icon="fas fa-folder-open"/>`tutorial_project` and save this tutorial's downloadable files into it. These include completed versions of the notebooks that you'll create later on, as well as some other files. This will also give you some files to play around with and will allow you to fully participate in the tutorial.
+If you wish, you could create a <VPIcon icon="fas fa-folder-open"/>`Samples` subfolder within <VPIcon icon="fas fa-folder-open"/>`tutorial_project` and save this tutorial's downloadable files into it. These include completed versions of the notebooks that you'll create later on, as well as some other files. This will also give you some files to play around with and will allow you to fully participate in the tutorial.
 
 :::
 
 JupyterLab will start in your web browser, all ready for you to use. But before you dive in, you might want to know how to end your session:
 
 - To shut JupyterLab down, make sure everything is saved, and then use *File* → *Shut Down* to close the application before closing your browser. This will close everything down cleanly. Closing the browser alone doesn't close the server, while crashing the server may cause data loss.
-- To restart, open either Powershell or your terminal, navigate to your <FontIcon icon="fas fa-folder-open"/>`jupyterlab_projects` folder, then activate `jl_venv`. Finally, create or enter your specific project's folder then start JupyterLab as before.
+- To restart, open either Powershell or your terminal, navigate to your <VPIcon icon="fas fa-folder-open"/>`jupyterlab_projects` folder, then activate `jl_venv`. Finally, create or enter your specific project's folder then start JupyterLab as before.
 - To deactivate your virtual environment, use the `deactivate` command. Your command prompt will return to normal.
 
 Once you've installed and started JupyterLab, its server will start, along with a web browser connection to it. It may take a moment, but soon you'll be looking at its main interface:

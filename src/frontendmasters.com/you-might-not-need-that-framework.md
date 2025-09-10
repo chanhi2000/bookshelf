@@ -141,7 +141,7 @@ When moving from a library to Vanilla JavaScript, certain technical challenges a
 
 ### Working with Components
 
-One key part of any UI library is the ability to create and use components. This pattern is also possible with vanilla JS using three different specs collectively known as [<FontIcon icon="fas fa-globe"/>“Web Components”:](https://frontendmasters.com/courses/web-components/) Custom Elements, HTML Templates, and Shadow DOM. These let you create custom HTML elements with their own behavior.
+One key part of any UI library is the ability to create and use components. This pattern is also possible with vanilla JS using three different specs collectively known as [<VPIcon icon="fas fa-globe"/>“Web Components”:](https://frontendmasters.com/courses/web-components/) Custom Elements, HTML Templates, and Shadow DOM. These let you create custom HTML elements with their own behavior.
 
 For example, you can create a Web Component like this:
 
@@ -218,13 +218,13 @@ You can then use DOM APIs to dynamically update your UI based on route changes.
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-A new API, the [<FontIcon icon="fa-brands fa-firefox"/>Navigation API](https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API), is also coming to make client-side routing even easier. It’s currently available in Chromium. When you have bigger needs, you can mix it with regular expressions, or use a micro-library that will help you only with this specific challenge.
+A new API, the [<VPIcon icon="fa-brands fa-firefox"/>Navigation API](https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API), is also coming to make client-side routing even easier. It’s currently available in Chromium. When you have bigger needs, you can mix it with regular expressions, or use a micro-library that will help you only with this specific challenge.
 
 ---
 
 ## Browser APIs
 
-How often have you searched for a plugin to handle a specific feature, like geolocation or authentication? Browser APIs can replace many of these needs. For a comprehensive list of available APIs, check out the[<FontIcon icon="fas fa-globe"/>Baseline Project](https://web.dev/baseline), the[<FontIcon icon="fas fa-globe"/>Learn PWA Capabilities list](https://web.dev/learn/pwa/capabilities?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fpwa%23article-https%3A%2F%2Fweb.dev%2Flearn%2Fpwa%2Fcapabilities), or my Frontend Masters courses on these topics.
+How often have you searched for a plugin to handle a specific feature, like geolocation or authentication? Browser APIs can replace many of these needs. For a comprehensive list of available APIs, check out the[<VPIcon icon="fas fa-globe"/>Baseline Project](https://web.dev/baseline), the[<VPIcon icon="fas fa-globe"/>Learn PWA Capabilities list](https://web.dev/learn/pwa/capabilities?continue=https%3A%2F%2Fweb.dev%2Flearn%2Fpwa%23article-https%3A%2F%2Fweb.dev%2Flearn%2Fpwa%2Fcapabilities), or my Frontend Masters courses on these topics.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/posterframe-1.webp?resize=1024%2C576&ssl=1)
 
@@ -267,7 +267,7 @@ Learning vanilla JS should be fun! While it may not be suitable for every projec
 
 We’ve seen that you can implement reusable, sandboxed components, reactive programming, templating, and client-side routing using modern web platform features—without libraries. The learning curve is small, so even if you don’t plan to use vanilla JS right away, learning these techniques and APIs will improve your knowledge of how everything works.
 
-Vanilla JS requires more decision-making and design pattern implementation from you, but it’s perfectly valid to use microlibraries like[<FontIcon icon="fas fa-globe"/>htmx](https://htmx.org/),[<FontIcon icon="fas fa-globe"/>Redux](https://redux.js.org/), or a[Signals library (<FontIcon icon="iconfont icon-github"/>`maverick-js/signals`)](https://github.com/maverick-js/signals)in your projects.
+Vanilla JS requires more decision-making and design pattern implementation from you, but it’s perfectly valid to use microlibraries like[<VPIcon icon="fas fa-globe"/>htmx](https://htmx.org/),[<VPIcon icon="fas fa-globe"/>Redux](https://redux.js.org/), or a[Signals library (<VPIcon icon="iconfont icon-github"/>`maverick-js/signals`)](https://github.com/maverick-js/signals)in your projects.
 
 Yes, vanilla JS can be more verbose and time-consuming compared to frameworks (if we don’t count the set up, the learning curve and the build system), but the benefits — like high performance — make it a suitable tool for many web apps.
 

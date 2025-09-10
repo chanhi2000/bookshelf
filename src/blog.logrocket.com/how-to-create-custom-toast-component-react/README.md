@@ -76,7 +76,7 @@ Here’s what the toast notifications will look like after we create and call th
 
 ![Completed Toast Notifications With Buttons And An Auto-Delete Feature](https://blog.logrocket.com/wp-content/uploads/2020/03/completed-toast-notifications-buttons-autodelete.webp)
 
-You can reference the full source code for this tutorial in the [GitHub repo (<FontIcon icon="iconfont icon-github"/>`c99rahul/react-toast`)](https://github.com/c99rahul/react-toast). Now, let’s dive in and get started!
+You can reference the full source code for this tutorial in the [GitHub repo (<VPIcon icon="iconfont icon-github"/>`c99rahul/react-toast`)](https://github.com/c99rahul/react-toast). Now, let’s dive in and get started!
 
 ```component VPCard
 {

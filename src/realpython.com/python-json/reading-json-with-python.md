@@ -176,7 +176,7 @@ Problems like the one described above can always be an issue when you’re doing
 
 ## Open an External JSON File With Python
 
-In a previous section, you created a <FontIcon icon="fa-brands fa-python"/>`hello_frieda.py` file that saved a <FontIcon icon="iconfont icon-json"/>`hello_frieda.json` file. If you need to refresh your memory, you can expand the collapsible section below that shows the code again:
+In a previous section, you created a <VPIcon icon="fa-brands fa-python"/>`hello_frieda.py` file that saved a <VPIcon icon="iconfont icon-json"/>`hello_frieda.json` file. If you need to refresh your memory, you can expand the collapsible section below that shows the code again:
 
 ```py title="hello_frieda.py"
 import json
@@ -210,7 +210,7 @@ Take a look at the data types of the `dog_data` dictionary. Is there a data type
 
 When you want to write content to a JSON file, you use `json.dump()`. The counterpart to `json.dump()` is `json.load()`. As the name suggests, you can use `json.load()` to load a JSON file into your Python program.
 
-Jump back into the Python REPL and load the <FontIcon icon="iconfont icon-json"/>`hello_frieda.json` JSON file from before:
+Jump back into the Python REPL and load the <VPIcon icon="iconfont icon-json"/>`hello_frieda.json` JSON file from before:
 
 ```py
 import json
@@ -253,4 +253,4 @@ As you learned before, there are Python data types like `tuple` that you can con
 
 Generally, being cautious about data type conversions should be the concern of the Python program that writes the JSON. With the knowledge you have about JSON files, you can always anticipate which Python data types you’ll end up with as long as the JSON file is valid.
 
-If you use `json.load()`, then the content of the file you load must contain valid JSON syntax. Otherwise, you’ll receive a [<FontIcon icon="fa-brands fa-python"/>`JSONDecodeError`](https://docs.python.org/3/library/json.html#json.JSONDecodeError). Luckily, Python caters to you with more tools you can use to interact with JSON. For example, it allows you to check a JSON file’s validity from the convenience of the terminal.
+If you use `json.load()`, then the content of the file you load must contain valid JSON syntax. Otherwise, you’ll receive a [<VPIcon icon="fa-brands fa-python"/>`JSONDecodeError`](https://docs.python.org/3/library/json.html#json.JSONDecodeError). Luckily, Python caters to you with more tools you can use to interact with JSON. For example, it allows you to check a JSON file’s validity from the convenience of the terminal.

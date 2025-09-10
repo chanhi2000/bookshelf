@@ -53,7 +53,7 @@ AutoMapper is a free .NET library that streamlines object mapping, reducing manu
 
 ::: info
 
-To download the source code for this article, you can visit our [GitHub repository (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/CodeMazeGuides`)](https://github.com/CodeMazeBlog/CodeMazeGuides/tree/main/dotnet-client-libraries/GettingPropertyMappingsWithAutomapper).
+To download the source code for this article, you can visit our [GitHub repository (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/CodeMazeGuides`)](https://github.com/CodeMazeBlog/CodeMazeGuides/tree/main/dotnet-client-libraries/GettingPropertyMappingsWithAutomapper).
 
 :::
 

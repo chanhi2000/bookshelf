@@ -52,11 +52,11 @@ cover: https://docker.com/app/uploads/2019/07/ef41db8f-fe5e-4a78-940a-6a929db792
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2019/07/ef41db8f-fe5e-4a78-940a-6a929db7929d-1.jpg"/>
 
-There are over one million [<FontIcon icon="fa-brands fa-docker"/>`Dockerfiles`](https://docs.docker.com/engine/reference/builder/) on GitHub today, but not all <FontIcon icon="fa-brands fa-docker"/>`Dockerfiles` are created equally. Efficiency is critical, and this blog series will cover five areas for Dockerfile best practices to help you write better <FontIcon icon="fa-brands fa-docker"/>`Dockerfiles`: incremental build time, image size, maintainability, security and repeatability. If you’re just beginning with Docker, this first blog post is for you! The next posts in the series will be more advanced.
+There are over one million [<VPIcon icon="fa-brands fa-docker"/>`Dockerfiles`](https://docs.docker.com/engine/reference/builder/) on GitHub today, but not all <VPIcon icon="fa-brands fa-docker"/>`Dockerfiles` are created equally. Efficiency is critical, and this blog series will cover five areas for Dockerfile best practices to help you write better <VPIcon icon="fa-brands fa-docker"/>`Dockerfiles`: incremental build time, image size, maintainability, security and repeatability. If you’re just beginning with Docker, this first blog post is for you! The next posts in the series will be more advanced.
 
 ::: note Important note
 
-the tips below follow the journey of ever-improving <FontIcon icon="fa-brands fa-docker"/>`Dockerfiles` for an example Java project based on Maven. The last Dockerfile is thus the recommended Dockerfile, while all intermediate ones are there only to illustrate specific best practices.
+the tips below follow the journey of ever-improving <VPIcon icon="fa-brands fa-docker"/>`Dockerfiles` for an example Java project based on Maven. The last Dockerfile is thus the recommended Dockerfile, while all intermediate ones are there only to illustrate specific best practices.
 
 :::
 
@@ -71,7 +71,7 @@ In a development cycle, when building a Docker image, making code changes, then 
 ![](https://docker.com/app/uploads/2019/07/ef41db8f-fe5e-4a78-940a-6a929db7929d-1.jpg)
 <!-- TODO: 코드화 -->
 
-However, the order of the build steps (<FontIcon icon="fa-brands fa-docker"/>`Dockerfile` instructions) matters, because when a step’s cache is invalidated by changing files or modifying lines in the <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`, subsequent steps of their cache will break. Order your steps from least to most frequently changing steps to optimize caching.
+However, the order of the build steps (<VPIcon icon="fa-brands fa-docker"/>`Dockerfile` instructions) matters, because when a step’s cache is invalidated by changing files or modifying lines in the <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`, subsequent steps of their cache will break. Order your steps from least to most frequently changing steps to optimize caching.
 
 ### Tip #2: More specific COPY to limit cache busts
 
@@ -127,7 +127,7 @@ Official images can save a lot of time spent on maintenance because all the inst
 
 Do not use the latest tag. It has the convenience of always being available for official images on Docker Hub but there can be breaking changes over time. Depending on how far apart in time you rebuild the Dockerfile without cache, you may have failing builds.
 
-Instead, use more specific tags for your base images. In this case, we’re using openjdk. There are a lot more tags available so check out the [Docker Hub documentation (<FontIcon icon="fa-brands fa-docker"/>`openjdk`)](https://hub.docker.com/_/openjdk) for that image which lists all the existing variants.
+Instead, use more specific tags for your base images. In this case, we’re using openjdk. There are a lot more tags available so check out the [Docker Hub documentation (<VPIcon icon="fa-brands fa-docker"/>`openjdk`)](https://hub.docker.com/_/openjdk) for that image which lists all the existing variants.
 
 ### Tip #8: Look for minimal flavors
 
@@ -151,16 +151,16 @@ The source code is the source of truth from which you want to build a Docker ima
 
 You should start by identifying all that’s needed to build your application. Our simple Java application requires Maven and the JDK, so let’s base our Dockerfile off of a specific minimal official maven image from Docker Hub, that includes the JDK. If you needed to install more dependencies, you could do so in a `RUN` step.
 
-The <FontIcon icon="iconfont icon-code"/>`pom.xml` and src folders are copied in as they are needed for the final RUN step that produces the app.jar application with `mvn package`. (The `-e` flag is to show errors and `-B` to run in non-interactive aka “batch” mode).
+The <VPIcon icon="iconfont icon-code"/>`pom.xml` and src folders are copied in as they are needed for the final RUN step that produces the app.jar application with `mvn package`. (The `-e` flag is to show errors and `-B` to run in non-interactive aka “batch” mode).
 
-We solved the inconsistent environment problem, but introduced another one: every time the code is changed, all the dependencies described in <FontIcon icon="iconfont icon-code"/>`pom.xml` are fetched. Hence the next tip.
+We solved the inconsistent environment problem, but introduced another one: every time the code is changed, all the dependencies described in <VPIcon icon="iconfont icon-code"/>`pom.xml` are fetched. Hence the next tip.
 
 #### Tip #10: Fetch dependencies in a separate step
 
 ![](https://docker.com/app/uploads/2019/07/41ea71ce-11c3-42a3-8d2b-05fe20901745.jpg)
 <!-- TODO: 코드화 -->
 
-By again thinking in terms of cacheable units of execution, we can decide that fetching dependencies is a separate cacheable unit that only needs to depend on changes to <FontIcon icon="iconfont icon-code"/>`pom.xml` and not the source code. The RUN step between the two COPY steps tells Maven to only fetch the dependencies.
+By again thinking in terms of cacheable units of execution, we can decide that fetching dependencies is a separate cacheable unit that only needs to depend on changes to <VPIcon icon="iconfont icon-code"/>`pom.xml` and not the source code. The RUN step between the two COPY steps tells Maven to only fetch the dependencies.
 
 There is one more problem that got introduced by building in consistent environments: our image is way bigger than before because it includes all the build-time dependencies that are not needed at runtime.
 `

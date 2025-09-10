@@ -79,9 +79,9 @@ Here’s a demo of a page that is set up in this way:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-It’s probably more interesting to just [<FontIcon icon="fas fa-globe"/>visit this hash-link URL](https://es-d-4410775920250828-0198e89f-8650-7d35-8384-959dbdbaf2e1.codepen.dev/#faq-13-content) and see it open right up and work.
+It’s probably more interesting to just [<VPIcon icon="fas fa-globe"/>visit this hash-link URL](https://es-d-4410775920250828-0198e89f-8650-7d35-8384-959dbdbaf2e1.codepen.dev/#faq-13-content) and see it open right up and work.
 
-This came up for me while working on [<FontIcon icon="fa-brands fa-codepen"/>this documentation page](https://blog.codepen.io/docs/pens/blocks/all-blocks/#babel-details-default-config-code) where I wanted to be able to link to specific things that were otherwise “buried” in details elements.
+This came up for me while working on [<VPIcon icon="fa-brands fa-codepen"/>this documentation page](https://blog.codepen.io/docs/pens/blocks/all-blocks/#babel-details-default-config-code) where I wanted to be able to link to specific things that were otherwise “buried” in details elements.
 
 As a bit of an enhancement, you might want to consider CSS like this:
 

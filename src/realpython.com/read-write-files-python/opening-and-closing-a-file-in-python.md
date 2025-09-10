@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/Reading-and-Writing-Files-in-Python_Wa
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Reading-and-Writing-Files-in-Python_Watermarked.0d394921fd90.jpg"/>
 
-When you want to work with a file, the first thing to do is to open it. This is done by invoking the [<FontIcon icon="fa-brands fa-python"/>`open()` built-in function](https://docs.python.org/3/library/functions.html#open). `open()` has a single required argument that is the path to the file. `open()` has a single return, the [<FontIcon icon="fa-brands fa-python"/>file object](https://docs.python.org/3/glossary.html#term-file-object):
+When you want to work with a file, the first thing to do is to open it. This is done by invoking the [<VPIcon icon="fa-brands fa-python"/>`open()` built-in function](https://docs.python.org/3/library/functions.html#open). `open()` has a single required argument that is the path to the file. `open()` has a single return, the [<VPIcon icon="fa-brands fa-python"/>file object](https://docs.python.org/3/glossary.html#term-file-object):
 
 ```py
 file = open('dog_breeds.txt')
@@ -93,7 +93,7 @@ with open('dog_breeds.txt', 'r') as reader:
     # Further file processing goes here
 ```
 
-Other options for modes are [<FontIcon icon="fa-brands fa-python"/>fully documented online](https://docs.python.org/3/library/functions.html#open), but the most commonly used ones are the following:
+Other options for modes are [<VPIcon icon="fa-brands fa-python"/>fully documented online](https://docs.python.org/3/library/functions.html#open), but the most commonly used ones are the following:
 
 | Character | Meaning |
 | :---: | :--- |

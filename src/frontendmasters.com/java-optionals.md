@@ -48,7 +48,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3683"/>
 
-There’s an old saying in computer science that null was the “billion dollar mistake.” It’s actually a quote from[<FontIcon icon="fa-brands fa-wikipedia-w"/>Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare), the creator of the null reference.
+There’s an old saying in computer science that null was the “billion dollar mistake.” It’s actually a quote from[<VPIcon icon="fa-brands fa-wikipedia-w"/>Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare), the creator of the null reference.
 
 It’s easy to understand the hate for `null`. We’ve all run into null reference exceptions in just about any language we’ve used. But as annoying as they can be, it’s easy to wonder how they can be avoided. After all, it’s inevitable that sometimes you have a variable pending assignment. If not null, how would the absence of a value be represented in a way that prevents a developer from creating exceptions when interacting with that non-value?
 

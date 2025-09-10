@@ -58,13 +58,13 @@ cover: /assets/image/blog.logrocket.com/using-recompose-to-write-clean-higher-or
 
 ::: note Editor’s note
 
-Active maintenance of the Recompose library was [discontinued (<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose/issues/756#issuecomment-438674573) as of 25 October 2018. The author recommends using [**React Hooks**](/blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems.md) instead.
+Active maintenance of the Recompose library was [discontinued (<VPIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose/issues/756#issuecomment-438674573) as of 25 October 2018. The author recommends using [**React Hooks**](/blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems.md) instead.
 
 :::
 
 ![Using Recompose To Write Clean Higher-Order Components](/assets/image/blog.logrocket.com/using-recompose-to-write-clean-higher-order-components/banner.png)
 
-If you like keeping things simple in React by creating small components with functional component syntax and then using them as pieces to create bigger ones, [<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`](https://github.com/acdlite/recompose) can help you to do the same with higher-order components (HOCs).
+If you like keeping things simple in React by creating small components with functional component syntax and then using them as pieces to create bigger ones, [<VPIcon icon="iconfont icon-github"/>`acdlite/recompose`](https://github.com/acdlite/recompose) can help you to do the same with higher-order components (HOCs).
 
 With Recompose, it is easier to create small higher-order components that can be composed into more complex ones. With the approach encouraged by Recompose, you won’t need more `Class` syntax to create React components.
 
@@ -76,7 +76,7 @@ But before going into details, let’s start reviewing some concepts…
 
 In JavaScript, we have a special type of function called higher-order functions:
 
-> A [<FontIcon icon="fa-brands fa-wikipedia-w"/>higher-order function](https://en.wikipedia.org/wiki/Higher-order_function) is a function that deals with other functions, either because it receives them as parameters (to execute them at some point of the function’s body), because it returns a new function when it’s called, or both.
+> A [<VPIcon icon="fa-brands fa-wikipedia-w"/>higher-order function](https://en.wikipedia.org/wiki/Higher-order_function) is a function that deals with other functions, either because it receives them as parameters (to execute them at some point of the function’s body), because it returns a new function when it’s called, or both.
 
 ```js
 const sum = (a, b) => a + b
@@ -94,7 +94,7 @@ console.log( getMultiplicationResult(2, 5) ) // The multiplication of 2 and 5 is
 
 In the example above, `getResultOperation` receives a function and returns a new one. So it is a higher-order function.
 
-> The most popular higher-order functions in JavaScript are the array methods [<FontIcon icon="fa-brands fa-firefox"/>`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [<FontIcon icon="fa-brands fa-firefox"/>`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) or [<FontIcon icon="fa-brands fa-firefox"/>`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). They all apply some function passed as a parameter over the elements of the array to get something as a result.
+> The most popular higher-order functions in JavaScript are the array methods [<VPIcon icon="fa-brands fa-firefox"/>`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [<VPIcon icon="fa-brands fa-firefox"/>`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) or [<VPIcon icon="fa-brands fa-firefox"/>`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). They all apply some function passed as a parameter over the elements of the array to get something as a result.
 
 ---
 
@@ -102,7 +102,7 @@ In the example above, `getResultOperation` receives a function and returns a new
 
 In React, we have the equivalent of higher-order functions, but for components, the so-called higher-order components.
 
-> A [<FontIcon icon="fa-brands fa-react"/>higher-order component](https://reactjs.org/docs/higher-order-components.html) is a function that takes a component and returns a new component.
+> A [<VPIcon icon="fa-brands fa-react"/>higher-order component](https://reactjs.org/docs/higher-order-components.html) is a function that takes a component and returns a new component.
 
 When are higher-order components useful? Well, mostly to reuse the logic involving behavior across components. Let’s explain this with the following scenario.
 
@@ -334,7 +334,7 @@ Recompose to the rescue!!🙂
 
 What is Recompose? In their own words:
 
-> [<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`](https://github.com/acdlite/recompose) is a React utility belt for function components and higher-order components. Think of it like [<FontIcon icon="fas fa-globe"/>lodash](https://lodash.com/docs/4.17.10#lodash) forReact.
+> [<VPIcon icon="iconfont icon-github"/>`acdlite/recompose`](https://github.com/acdlite/recompose) is a React utility belt for function components and higher-order components. Think of it like [<VPIcon icon="fas fa-globe"/>lodash](https://lodash.com/docs/4.17.10#lodash) forReact.
 
 So, it’s a set of methods we can use to improve the organization, creation and application of our HOC’s encouraging the use of functional stateless components combined with the composition of HOCs.
 
@@ -432,7 +432,7 @@ The `withHandlers` method takes an object map of handler creators. Each one of t
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/6f61e0300d7b95e5c062fb7d7b033293b1d413a2fe04015a2e01efaa5fc0f6dc/acdlite/recompose"/>
 
-In our example, if we debug the code with the [<FontIcon icon="fa-brands fa-chrome"/>React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) the component returned by `withDisplayTrack` is displayed as `Unknown`.
+In our example, if we debug the code with the [<VPIcon icon="fa-brands fa-chrome"/>React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) the component returned by `withDisplayTrack` is displayed as `Unknown`.
 
 To fix this, we can use Recompose’s `setDisplayName` to `export` a final HOC that will return a component with the name `ComponentWithDisplayTrack`.
 
@@ -573,9 +573,9 @@ The most important advantages of using only function components are:
 
 Basically, once you get how Recompose methods work, it simplifies the development and organization of React components.
 
-There are a [lot more of methods (<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose/blob/master/docs/API.md) that can be used to generate more higher-order components in an easier way.
+There are a [lot more of methods (<VPIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose/blob/master/docs/API.md) that can be used to generate more higher-order components in an easier way.
 
-In the [official repo (<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose), you can find some [Recompose recipes (<FontIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose/wiki/Recipes) that can be useful to your project.
+In the [official repo (<VPIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose), you can find some [Recompose recipes (<VPIcon icon="iconfont icon-github"/>`acdlite/recompose`)](https://github.com/acdlite/recompose/wiki/Recipes) that can be useful to your project.
 
 Also, here you have the code used in this post and a live demo of the result.
 

@@ -56,7 +56,7 @@ cover: https://itsfoss.com/content/images/2024/11/conky.png
 
 You might have seen such a screenshot of a Linux desktop in various discussion forums.
 
-![An example of Conky script, [shared by Mustafa (<FontIcon icon="iconfont icon-github"/>`mustafaozhan/GoogleIntegratedSystemConky`)](https://github.com/mustafaozhan/GoogleIntegratedSystemConky)](https://itsfoss.com/content/images/2024/11/conky-example.png)
+![An example of Conky script, [shared by Mustafa (<VPIcon icon="iconfont icon-github"/>`mustafaozhan/GoogleIntegratedSystemConky`)](https://github.com/mustafaozhan/GoogleIntegratedSystemConky)](https://itsfoss.com/content/images/2024/11/conky-example.png)
 
 And you may wonder how did the other guy displayed CPU, memory and other information on the desktop. The answer lies in one word: Conky.
 
@@ -72,11 +72,11 @@ Excited? Let's begin.
 
 ## What is Conky?
 
-[<FontIcon icon="fas fa-globe"/>Conky](http://conky.sourceforge.net/)is a lightweight [system monitor](/itsfoss.com/linux-system-monitoring-tools.md) available on Linux and BSD. It can display the system information and statistics such as CPU consumption, disk usage, RAM utilization, network speed, etc. in an elegant way. All the information is displayed on top of your wallpaper. It gives your desktop a live wallpaper feel.
+[<VPIcon icon="fas fa-globe"/>Conky](http://conky.sourceforge.net/)is a lightweight [system monitor](/itsfoss.com/linux-system-monitoring-tools.md) available on Linux and BSD. It can display the system information and statistics such as CPU consumption, disk usage, RAM utilization, network speed, etc. in an elegant way. All the information is displayed on top of your wallpaper. It gives your desktop a live wallpaper feel.
 
 The looks of the displayed information can be changed via Conky configuration file. For example, take a look at this 'hacker themed Conky':
 
-![HaxOS Conky: [<FontIcon icon="fas fa-globe"/>Image Source](https://deviantart.com/daviddavioblue/art/haxOS-Conky-454353060)](https://itsfoss.com/content/images/2024/11/conky-example.jpg)
+![HaxOS Conky: [<VPIcon icon="fas fa-globe"/>Image Source](https://deviantart.com/daviddavioblue/art/haxOS-Conky-454353060)](https://itsfoss.com/content/images/2024/11/conky-example.jpg)
 
 The problem with Conky is that it is more of a text-based application. Which means you have to change its configuration file to tweak the display.
 
@@ -233,7 +233,7 @@ Once you have installed this package, you can run the Conky using the following 
 conky
 ```
 
-It will display the default Conky installed with the above-mentioned package. The default config file is located in<FontIcon icon="fas fa-folder-open"/>`/etc/conky` directory. Conky actually relies on the config file <FontIcon icon="fas fa-file-lines"/>`.conkyrc` located in the home directory. If there is no such file in the system, it uses the <FontIcon icon="fas fa-folder-open"/>`/etc/conky/`<FontIcon icon="fas fa-file-lines"/>`conky.config` file.
+It will display the default Conky installed with the above-mentioned package. The default config file is located in<VPIcon icon="fas fa-folder-open"/>`/etc/conky` directory. Conky actually relies on the config file <VPIcon icon="fas fa-file-lines"/>`.conkyrc` located in the home directory. If there is no such file in the system, it uses the <VPIcon icon="fas fa-folder-open"/>`/etc/conky/`<VPIcon icon="fas fa-file-lines"/>`conky.config` file.
 
 And as you may see, it might not be the best-looking or well-integratedConky for your system.
 
@@ -245,7 +245,7 @@ To modify the Conky on your own, you need to know a thing or two about the Conky
 
 ### Where can you find Conky themes? How do you use different types of Conky themes?
 
-This is not something that can be easily answered. You can search for the term Conky on[<FontIcon icon="fas fa-globe"/>DeviantArt](https://deviantart.com/)or[<FontIcon icon="fas fa-globe"/>OpenDesktop](https://opendesktop.org/search?projectSearchText=conky). You can also search on GitHub.
+This is not something that can be easily answered. You can search for the term Conky on[<VPIcon icon="fas fa-globe"/>DeviantArt](https://deviantart.com/)or[<VPIcon icon="fas fa-globe"/>OpenDesktop](https://opendesktop.org/search?projectSearchText=conky). You can also search on GitHub.
 
 ::: caution 🚧
 
@@ -268,7 +268,7 @@ Let’s discuss the two of the common kinds with examples.
 
 ### Example 1: Install qclocktwo Conkyto display time in words
 
-Go to DeviantArt and[<FontIcon icon="fas fa-globe"/>download the qclocktwo Conky](https://mowgli-writes.deviantart.com/art/qlocktwo-conky-470067388). Extract the downloaded file and you’ll see a file named `qclocktwo`.
+Go to DeviantArt and[<VPIcon icon="fas fa-globe"/>download the qclocktwo Conky](https://mowgli-writes.deviantart.com/art/qlocktwo-conky-470067388). Extract the downloaded file and you’ll see a file named `qclocktwo`.
 
 ![Extract the downloaded "qclocktwo" archive file using Nautilus file manager right-click menu.](https://itsfoss.com/content/images/2024/11/extract-the-downloaded-conky-qclocktwo-archive-file.png)
 
@@ -280,9 +280,9 @@ Now you have two options to run this Conky. Either you use a command like this:
 conky -c ~/Downloads/qclocktwo
 ```
 
-Or you rename the file `qclocktwo` to <FontIcon icon="fas fa-file-lines"/>`.conkyrc` and move it to the home directory, i.e., `~/`. This way, when you run the command `conky`, the `qclocktwo` Conky will be run.
+Or you rename the file `qclocktwo` to <VPIcon icon="fas fa-file-lines"/>`.conkyrc` and move it to the home directory, i.e., `~/`. This way, when you run the command `conky`, the `qclocktwo` Conky will be run.
 
-The problem with the second approach is that if you ever use another Conky by renaming it to <FontIcon icon="fas fa-file-lines"/>`.conkyrc`, you’ll lose the previous Conky.
+The problem with the second approach is that if you ever use another Conky by renaming it to <VPIcon icon="fas fa-file-lines"/>`.conkyrc`, you’ll lose the previous Conky.
 
 In either case, you’ll see a beautiful Conky theme displaying time in the following fashion:
 
@@ -292,17 +292,17 @@ In either case, you’ll see a beautiful Conky theme displaying time in the foll
 
 You’ll find many Conky themes that have their own wallpapers, images along with a Lua file and Conky configuration file.
 
-Using[Lua scripts (<FontIcon icon="iconfont icon-github"/>`brndnmtthws/conky`)](https://github.com/brndnmtthws/conky/wiki/Using-Lua-scripts-in-conky:-How-does-a-lua-script-work), Conky themes can create some graphics (if I can call it that) such as rings, clocks etc. This further enhances the capability of Conky where you see the system information with more animated elements.
+Using[Lua scripts (<VPIcon icon="iconfont icon-github"/>`brndnmtthws/conky`)](https://github.com/brndnmtthws/conky/wiki/Using-Lua-scripts-in-conky:-How-does-a-lua-script-work), Conky themes can create some graphics (if I can call it that) such as rings, clocks etc. This further enhances the capability of Conky where you see the system information with more animated elements.
 
-Let’s see it with an example. Download the[<FontIcon icon="fas fa-globe"/>Kit-KatConky](https://etlesteam.deviantart.com/art/Conky-KIT-KAT-583590943). After extracting the downloaded files, you’ll see that there is a `conkyrc` file and a Lua file under the `scripts` folder.
+Let’s see it with an example. Download the[<VPIcon icon="fas fa-globe"/>Kit-KatConky](https://etlesteam.deviantart.com/art/Conky-KIT-KAT-583590943). After extracting the downloaded files, you’ll see that there is a `conkyrc` file and a Lua file under the `scripts` folder.
 
-The main thing to look for here is the path to the lua file in the Conky configuration file. So if you open the `conkyrc_Kit-kat` file, you’ll see that the path in`lua_load` expects the lua file to be in the location <FontIcon icon="fas fa-folder-open"/>`~/.conky/Kit-Kat/scripts/lua`.
+The main thing to look for here is the path to the lua file in the Conky configuration file. So if you open the `conkyrc_Kit-kat` file, you’ll see that the path in`lua_load` expects the lua file to be in the location <VPIcon icon="fas fa-folder-open"/>`~/.conky/Kit-Kat/scripts/lua`.
 
 ![The "lua_load" line in the Conky lua script, opened in GNOME Text Editor.](https://itsfoss.com/content/images/2024/11/location-of-the-lua-script-points-to-kitkat-config-conky.png)
 
 `lua_load` location in Config file
 
-You have two options here. Either you copy the entire Kit-Kat folder to the <FontIcon icon="fas fa-folder-open"/>`~/.conky` directory, or you change the Conky configuration file and set the path to the current location of the Lua script file. It is always better to put the files in <FontIcon icon="fas fa-folder-open"/>`~/.conky` to avoid unnecessary troubles.
+You have two options here. Either you copy the entire Kit-Kat folder to the <VPIcon icon="fas fa-folder-open"/>`~/.conky` directory, or you change the Conky configuration file and set the path to the current location of the Lua script file. It is always better to put the files in <VPIcon icon="fas fa-folder-open"/>`~/.conky` to avoid unnecessary troubles.
 
 Once you have done one of the above two things, you need to use the `conky` command with the path to the config file of Kit-Kat Conky.
 
@@ -330,9 +330,9 @@ Before you start experimenting with Conky, here are a few more things you should
 
 Here are a couple of Conky themes I liked.
 
-![[<FontIcon icon="fas fa-globe"/>Grey Minimalistic](https://deviantart.com/bryantlloyd/art/Grey-Minimalistic-634726564): Manual install possible. (Works in Ubuntu)](https://itsfoss.com/content/images/2024/11/grey-minimalist-conky.png)
+![[<VPIcon icon="fas fa-globe"/>Grey Minimalistic](https://deviantart.com/bryantlloyd/art/Grey-Minimalistic-634726564): Manual install possible. (Works in Ubuntu)](https://itsfoss.com/content/images/2024/11/grey-minimalist-conky.png)
 
-![[<FontIcon icon="fas fa-globe"/>Smooth Information](https://deviantart.com/speedracker/art/Smooth-information-updated-conky-Conky-Manager-506340482): Use it via Conky Manager. (Works in Ubuntu)](https://itsfoss.com/content/images/2024/11/smooth-information-updated-conky.png)
+![[<VPIcon icon="fas fa-globe"/>Smooth Information](https://deviantart.com/speedracker/art/Smooth-information-updated-conky-Conky-Manager-506340482): Use it via Conky Manager. (Works in Ubuntu)](https://itsfoss.com/content/images/2024/11/smooth-information-updated-conky.png)
 
 Overall, I found Conky Manager easy to use and quite useful. It has some nice Conkys to start with. It is a nice app for beginners to use Conky in GUI. What do you say? Do you like it? Let me know of your views.
 

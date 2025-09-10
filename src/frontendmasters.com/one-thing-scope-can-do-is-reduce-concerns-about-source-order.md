@@ -111,7 +111,7 @@ One change to the above CSS will fix this:
 }
 ```
 
-This is referred to as _**proximity.**_ It’s like a new part of the cascade (Bramus has [<FontIcon icon="fa-brands fa-chrome"/>a nice diagram here](https://developer.chrome.com/docs/css-ui/at-scope)). Above, because the specificity is the same in both cases, the closer-in-the-DOM proximity “wins”. And closer meaning “fewest generational or sibling-element hops”. Like:
+This is referred to as _**proximity.**_ It’s like a new part of the cascade (Bramus has [<VPIcon icon="fa-brands fa-chrome"/>a nice diagram here](https://developer.chrome.com/docs/css-ui/at-scope)). Above, because the specificity is the same in both cases, the closer-in-the-DOM proximity “wins”. And closer meaning “fewest generational or sibling-element hops”. Like:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/CleanShot-2025-03-20-at-07.12.40%402x.png?resize=1024%2C373&ssl=1)
 

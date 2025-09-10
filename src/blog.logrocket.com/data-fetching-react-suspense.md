@@ -64,7 +64,7 @@ This article was updated on 3 August 2023 to compare data fetching with and with
 
 ![Data Fetching With React Suspense](/assets/image/blog.logrocket.com/data-fetching-react-suspense/banner.png)
 
-Managing data loading in a frontend application can become complex over time, so much so that there is a whole ecosystem of libraries dedicated to state management. The React core team have responded by releasing a set of concurrent features to make data fetching in React easier. [<FontIcon icon="fa-brands fa-react"/>Suspense](https://react.dev/reference/react/Suspense) is among these features, and it aims to simplify managing loading states in React components.
+Managing data loading in a frontend application can become complex over time, so much so that there is a whole ecosystem of libraries dedicated to state management. The React core team have responded by releasing a set of concurrent features to make data fetching in React easier. [<VPIcon icon="fa-brands fa-react"/>Suspense](https://react.dev/reference/react/Suspense) is among these features, and it aims to simplify managing loading states in React components.
 
 In this article, we’ll look at how Suspense works by creating a simple app that fetches data from an API and renders it to the DOM. We’ll cover the following:
 
@@ -72,7 +72,7 @@ In this article, we’ll look at how Suspense works by creating a simple app tha
 
 ## What is React Suspense?
 
-[Suspense (<FontIcon icon="iconfont icon-github"/>`reactjs/rfcs`)](https://github.com/reactjs/rfcs/blob/main/text/0213-suspense-in-react-18.md) is a feature for managing asynchronous operations in a React app. It lets your components communicate to React that they are waiting for some data. It is important to note that Suspense is not a data fetching library like [<FontIcon icon="iconfont icon-github"/>`ghengeveld/react-async`](https://github.com/ghengeveld/react-async), nor is it a way to manage state like [**Redux**](/blog.logrocket.com/understanding-redux-saga-action-creators-sagas.md). It simply lets you render a fallback declaratively while a component is waiting for some asynchronous operation (i.e., a network request) to be completed.
+[Suspense (<VPIcon icon="iconfont icon-github"/>`reactjs/rfcs`)](https://github.com/reactjs/rfcs/blob/main/text/0213-suspense-in-react-18.md) is a feature for managing asynchronous operations in a React app. It lets your components communicate to React that they are waiting for some data. It is important to note that Suspense is not a data fetching library like [<VPIcon icon="iconfont icon-github"/>`ghengeveld/react-async`](https://github.com/ghengeveld/react-async), nor is it a way to manage state like [**Redux**](/blog.logrocket.com/understanding-redux-saga-action-creators-sagas.md). It simply lets you render a fallback declaratively while a component is waiting for some asynchronous operation (i.e., a network request) to be completed.
 
 As we’ll see further down, this allows us to synchronize loading states across different components to allow for a better user experience. Suspense does this in a non-intrusive way that doesn’t require a complete rewrite of existing applications.
 
@@ -114,7 +114,7 @@ Another important thing to note is the `fallback` property passed to Suspense. T
 
 But how exactly does React know that a network call is pending? As far as we’ve reviewed, Suspense only renders a fallback component while waiting. Where in the code do we communicate to React that we’re making a network call?
 
-This is where the data fetching libraries come in. Currently, [<FontIcon icon="fas fa-globe"/>Relay](https://relay.dev/docs/guided-tour/rendering/loading-states/#internaldocs-banner) and [<FontIcon icon="fas fa-globe"/>SWR](https://swr.vercel.app/docs/suspense) have integrations with Suspense to communicate loading states to React. I imagine more library authors will add integrations in the future.
+This is where the data fetching libraries come in. Currently, [<VPIcon icon="fas fa-globe"/>Relay](https://relay.dev/docs/guided-tour/rendering/loading-states/#internaldocs-banner) and [<VPIcon icon="fas fa-globe"/>SWR](https://swr.vercel.app/docs/suspense) have integrations with Suspense to communicate loading states to React. I imagine more library authors will add integrations in the future.
 
 Now, let’s explore some common data fetching approaches, their limitations, and how Suspense improves the developer and user experience.
 
@@ -224,7 +224,7 @@ The best thing about this pattern is that no component has to wait for others to
 
 ## Data fetching with and without Suspense
 
-While trivial client-side data fetching has existed in React for years, the new Suspense pattern is a good addition to the data fetching technique. From a user’s perspective, Suspense significantly improves data fetching because its subtle loaders not only provide immediate UI feedback, but also improve the [<FontIcon icon="iconfont icon-webdev"/>CLS score](https://web.dev/cls/) by a large margin.
+While trivial client-side data fetching has existed in React for years, the new Suspense pattern is a good addition to the data fetching technique. From a user’s perspective, Suspense significantly improves data fetching because its subtle loaders not only provide immediate UI feedback, but also improve the [<VPIcon icon="iconfont icon-webdev"/>CLS score](https://web.dev/cls/) by a large margin.
 
 From the developer’s perspective, the Suspense pattern pushes for a more reactive pattern than a declarative one. We don’t need to manually handle errors, loading state for each async call from the app.
 
@@ -234,7 +234,7 @@ The Suspense API is becoming more popular as it allows for more reactive and mai
 
 ## Building a sample app with React Suspense
 
-Using Suspense and the render-as-you-fetch approach, we will build a simple app that fetches data from an API and renders it to the DOM. I’m assuming you are already familiar with [**React Hooks**](/blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems.md). Check out the [code for this project here (<FontIcon icon="iconfont icon-github"/>`ovieokeh/suspense-data-fetching`)](https://github.com/ovieokeh/suspense-data-fetching).
+Using Suspense and the render-as-you-fetch approach, we will build a simple app that fetches data from an API and renders it to the DOM. I’m assuming you are already familiar with [**React Hooks**](/blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems.md). Check out the [code for this project here (<VPIcon icon="iconfont icon-github"/>`ovieokeh/suspense-data-fetching`)](https://github.com/ovieokeh/suspense-data-fetching).
 
 This is what our app will look like:
 
@@ -261,7 +261,7 @@ npm install --save-dev parcel parcel-bundler
 
 We’re installing `parcel` and `parcel-bundler` to help us transpile our code into something that the browser can understand. The reason I opted for Parcel instead of something like webpack is because it requires zero config and works really well.
 
-Next, add the following section in <FontIcon icon="iconfont icon-json"/>`package.json`:
+Next, add the following section in <VPIcon icon="iconfont icon-json"/>`package.json`:
 
 ```json title="package.json"
 "scripts": {
@@ -269,23 +269,23 @@ Next, add the following section in <FontIcon icon="iconfont icon-json"/>`package
 },
 ```
 
-Now that we have our project structure ready and the required dependencies installed, let’s start writing some code. To keep the tutorial succinct, I will leave out the code for the following files, which you can get from the linked repo: [`index.html` (<FontIcon icon="iconfont icon-github"/>`ovieokeh/suspense-data-fetching`)](https://github.com/ovieokeh/suspense-data-fetching/blob/master/public/index.html) and [`index.css` (<FontIcon icon="iconfont icon-github"/>`ovieokeh/suspense-data-fetching`)](https://github.com/ovieokeh/suspense-data-fetching/blob/master/public/index.css).
+Now that we have our project structure ready and the required dependencies installed, let’s start writing some code. To keep the tutorial succinct, I will leave out the code for the following files, which you can get from the linked repo: [`index.html` (<VPIcon icon="iconfont icon-github"/>`ovieokeh/suspense-data-fetching`)](https://github.com/ovieokeh/suspense-data-fetching/blob/master/public/index.html) and [`index.css` (<VPIcon icon="iconfont icon-github"/>`ovieokeh/suspense-data-fetching`)](https://github.com/ovieokeh/suspense-data-fetching/blob/master/public/index.css).
 
 ---
 
 ## Structuring the API folder
 
-Now, we can create our `API` folder where we will be writing most of our logic. In this folder, there will be two files. The first is <FontIcon icon="fa-brands fa-js"/>`wrapPromise.js`, which is simply a wrapper for handling various Promise states. The second file is <FontIcon icon="fa-brands fa-js"/>`fetchData.js` where we will fetch from an actual `URL` endpoint.
+Now, we can create our `API` folder where we will be writing most of our logic. In this folder, there will be two files. The first is <VPIcon icon="fa-brands fa-js"/>`wrapPromise.js`, which is simply a wrapper for handling various Promise states. The second file is <VPIcon icon="fa-brands fa-js"/>`fetchData.js` where we will fetch from an actual `URL` endpoint.
 
-### <FontIcon icon="fa-brands fa-js"/>`wrapPromise.js`
+### <VPIcon icon="fa-brands fa-js"/>`wrapPromise.js`
 
-This is probably the most important part of this whole tutorial because <FontIcon icon="fa-brands fa-js"/>`wrapPromise.js` is what communicates with Suspense, and what any library author writing abstractions for the Suspense API would spend most of their time on.
+This is probably the most important part of this whole tutorial because <VPIcon icon="fa-brands fa-js"/>`wrapPromise.js` is what communicates with Suspense, and what any library author writing abstractions for the Suspense API would spend most of their time on.
 
-<FontIcon icon="fa-brands fa-js"/>`wrapPromise.js` is a wrapper that wraps over a Promise and provides a method that allows you to determine whether the data being returned from the Promise is ready to be read. If the Promise resolves, it returns the resolved data. If it rejects, it throws the error. And if it is still pending, it throws back the Promise.
+<VPIcon icon="fa-brands fa-js"/>`wrapPromise.js` is a wrapper that wraps over a Promise and provides a method that allows you to determine whether the data being returned from the Promise is ready to be read. If the Promise resolves, it returns the resolved data. If it rejects, it throws the error. And if it is still pending, it throws back the Promise.
 
 This Promise argument is usually going to be a network request to retrieve some data from an API, but it could technically be any Promise object. The actual implementation is left for whoever is implementing it to figure out, so you could probably find other ways to do it.
 
-The <FontIcon icon="fa-brands fa-js"/>`wrapPromise.js` function has the following requirements:
+The <VPIcon icon="fa-brands fa-js"/>`wrapPromise.js` function has the following requirements:
 
 - It takes in a Promise as an argument
 - When the Promise is resolved, it returns the resolved value
@@ -293,7 +293,7 @@ The <FontIcon icon="fa-brands fa-js"/>`wrapPromise.js` function has the followin
 - When the Promise is still pending, it throws back the Promise
 - It exposes a method to read the status of the Promise
 
-With the requirements defined, it’s time to write some code. Open the <FontIcon icon="fas fa-folder-open"/>`api/`<FontIcon icon="fa-brands fa-js"/>`wrapPromise.js` file and we can get started:
+With the requirements defined, it’s time to write some code. Open the <VPIcon icon="fas fa-folder-open"/>`api/`<VPIcon icon="fa-brands fa-js"/>`wrapPromise.js` file and we can get started:
 
 ```jsx title="api/wrapPromise.js"
 function wrapPromise(promise) {
@@ -314,7 +314,7 @@ function wrapPromise(promise) {
 ...to be continued...
 ```
 
-What’s happening here? Inside the <FontIcon icon="fa-brands fa-js"/>`wrapPromise.js` function, we’re defining two variables:
+What’s happening here? Inside the <VPIcon icon="fa-brands fa-js"/>`wrapPromise.js` function, we’re defining two variables:
 
 - `status`: Tracks the status of the promise argument
 - `response`: Holds the result of the Promise (whether resolved or rejected)
@@ -344,17 +344,17 @@ export default wrapPromise
 
 Next, we create a new function called `read`, and inside this function, we have a `switch` statement that checks the value of the `status` variable. If the `status` of the promise is `pending`, we throw the `suspender` variable we just defined. If it is `error`, we throw the `response` variable. And, finally, if it is anything other than the two (i.e., `success`), we return the `response` variable.
 
-The reason we throw either the `suspender` variable or the error `response` variable is because we want to communicate back to Suspense that the Promise is not yet resolved. We’re doing that by simulating an error in the component (using [<FontIcon icon="fa-brands fa-firefox"/>`throw`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)), which will be intercepted by the Suspense component. The Suspense component then looks at the thrown value to determine if it’s an actual error or a Promise.
+The reason we throw either the `suspender` variable or the error `response` variable is because we want to communicate back to Suspense that the Promise is not yet resolved. We’re doing that by simulating an error in the component (using [<VPIcon icon="fa-brands fa-firefox"/>`throw`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)), which will be intercepted by the Suspense component. The Suspense component then looks at the thrown value to determine if it’s an actual error or a Promise.
 
-If it is a Promise, the Suspense component will recognize that the component is still waiting for some data, and it will render the fallback. If it’s an error, it bubbles the error back up to the nearest [<FontIcon icon="fa-brands fa-react"/>error boundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) until it is either caught or it crashes the application.
+If it is a Promise, the Suspense component will recognize that the component is still waiting for some data, and it will render the fallback. If it’s an error, it bubbles the error back up to the nearest [<VPIcon icon="fa-brands fa-react"/>error boundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) until it is either caught or it crashes the application.
 
-At the end of the <FontIcon icon="fa-brands fa-js"/>`wrapPromise.js` function, we return an object containing the `read` function as a method, and this is what our React components will interact with to retrieve the value of the Promise.
+At the end of the <VPIcon icon="fa-brands fa-js"/>`wrapPromise.js` function, we return an object containing the `read` function as a method, and this is what our React components will interact with to retrieve the value of the Promise.
 
-Lastly, we have a default export so that we can use the <FontIcon icon="fa-brands fa-js"/>`wrapPromise.js` function in other files. Now let’s move on to the <FontIcon icon="fa-brands fa-js"/>`fetchData.js` file.
+Lastly, we have a default export so that we can use the <VPIcon icon="fa-brands fa-js"/>`wrapPromise.js` function in other files. Now let’s move on to the <VPIcon icon="fa-brands fa-js"/>`fetchData.js` file.
 
-### <FontIcon icon="fa-brands fa-js"/>`fetchData.js`
+### <VPIcon icon="fa-brands fa-js"/>`fetchData.js`
 
-Inside this file, we’ll create a function to fetch the data that our components require. It will return a Promise wrapped with the <FontIcon icon="fa-brands fa-js"/>`wrapPromise.js` function we just reviewed:
+Inside this file, we’ll create a function to fetch the data that our components require. It will return a Promise wrapped with the <VPIcon icon="fa-brands fa-js"/>`wrapPromise.js` function we just reviewed:
 
 ```jsx title="api/fetchData.js"
 import wrapPromise from './wrapPromise'
@@ -372,7 +372,7 @@ export default fetchData
 
 The first thing we do here is import the `wrapPromise` function we created, and then define the `fetchData` function.
 
-Inside this function, we initialize a new variable, `promise`, and set its value to a [<FontIcon icon="fa-brands fa-firefox"/>fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) request Promise. When this request is completed, we get the data from the [<FontIcon icon="fa-brands fa-firefox"/>`Response` object](https://developer.mozilla.org/en-US/docs/Web/API/Response) using `res.json()` and then return `res.data`, which contains the data that we need.
+Inside this function, we initialize a new variable, `promise`, and set its value to a [<VPIcon icon="fa-brands fa-firefox"/>fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) request Promise. When this request is completed, we get the data from the [<VPIcon icon="fa-brands fa-firefox"/>`Response` object](https://developer.mozilla.org/en-US/docs/Web/API/Response) using `res.json()` and then return `res.data`, which contains the data that we need.
 
 Finally, we pass this `promise` to the `wrapPromise` function and return it. At the end of this file, we export the `fetchData` function. Now on to the components!
 
@@ -382,9 +382,9 @@ Finally, we pass this `promise` to the `wrapPromise` function and return it. At 
 
 We now have the “backend” for our app ready, so it’s time to build out the components.
 
-### <FontIcon icon="fa-brands fa-react"/>`index.jsx`
+### <VPIcon icon="fa-brands fa-react"/>`index.jsx`
 
-<FontIcon icon="fa-brands fa-react"/>`index.jsx` is the entry point of our application, and we’ll be creating it first. This is where we’ll mount our React app to the DOM:
+<VPIcon icon="fa-brands fa-react"/>`index.jsx` is the entry point of our application, and we’ll be creating it first. This is where we’ll mount our React app to the DOM:
 
 ```jsx title="index.jsx"
 import React from 'react'
@@ -397,7 +397,7 @@ ReactDOM.createRoot(mountNode).render(<App />)
 
 Notice, we are using React 18, which means that the new `createRoot` API is being used.
 
-### <FontIcon icon="fa-brands fa-react"/>`App.jsx`
+### <VPIcon icon="fa-brands fa-react"/>`App.jsx`
 
 This is where we will import and use the majority of our components, wrapped in `Suspense` API. Here, we have used Suspense’s `fallback` for nearly every component that is supposed to fetch or deal with an asynchronous operation:
 
@@ -424,9 +424,9 @@ const App = () => {
 export default App
 ```
 
-### <FontIcon icon="fa-brands fa-react"/>`UserWelcome.jsx`
+### <VPIcon icon="fa-brands fa-react"/>`UserWelcome.jsx`
 
-<FontIcon icon="fa-brands fa-react"/>`UserWelcome.jsx` is a component that renders username. Alternatively, you could have included this in <FontIcon icon="fa-brands fa-react"/>`App.jsx` itself but for the sake of clean code, you can also modularize it:
+<VPIcon icon="fa-brands fa-react"/>`UserWelcome.jsx` is a component that renders username. Alternatively, you could have included this in <VPIcon icon="fa-brands fa-react"/>`App.jsx` itself but for the sake of clean code, you can also modularize it:
 
 ```jsx title="UserWelcome.jsx"
 import React from 'react'
@@ -453,7 +453,7 @@ const UserWelcome = () => {
 export default UserWelcome
 ```
 
-### <FontIcon icon="fa-brands fa-react"/>`Todos.jsx`
+### <VPIcon icon="fa-brands fa-react"/>`Todos.jsx`
 
 This component reads `todos` and renders them on the UI:
 
@@ -509,7 +509,7 @@ If you want the `Todos` component to render only when the `UserWelcome` componen
 </Suspense>
 ```
 
-Another approach is to wrap both `Suspense` components in [<FontIcon icon="fa-brands fa-react"/>`SuspenseList`](https://reactjs.org/docs/concurrent-mode-patterns.html#suspenselist) and specify a “reveal order,” like so:
+Another approach is to wrap both `Suspense` components in [<VPIcon icon="fa-brands fa-react"/>`SuspenseList`](https://reactjs.org/docs/concurrent-mode-patterns.html#suspenselist) and specify a “reveal order,” like so:
 
 ```jsx
 <SuspenseList revealOrder="forwards">
@@ -594,7 +594,7 @@ However, in most cases, you want to delegate the error boundary close to each co
 
 We’re done coding our components, and it’s time to review what we’ve done so far:
 
-- We opted in to use concurrent features in our <FontIcon icon="fa-brands fa-react"/>`index.jsx` file
+- We opted in to use concurrent features in our <VPIcon icon="fa-brands fa-react"/>`index.jsx` file
 - We created an `App` component that had two children components, each wrapped in a `Suspense` component
 - In each of the children components, we kicked off our network request before they mounted
 
@@ -610,7 +610,7 @@ If we look at the **Waterfall** section, we can see that we have successfully im
 
 In this article, we took a look at the React Suspense component, and various data fetching approaches in React. We also built a simple app that uses Suspense for data fetching.
 
-The newly built [<FontIcon icon="fa-brands fa-react"/>React docs](https://react.dev) are a great resource for learning about data fetching from the server point of view, but for client-heavy interactions, you can always opt for the fetching patterns we discussed above.
+The newly built [<VPIcon icon="fa-brands fa-react"/>React docs](https://react.dev) are a great resource for learning about data fetching from the server point of view, but for client-heavy interactions, you can always opt for the fetching patterns we discussed above.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

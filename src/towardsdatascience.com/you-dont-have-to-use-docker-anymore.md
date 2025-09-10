@@ -73,7 +73,7 @@ If you've been a docker user for long time, I think it will take some persuading
 
 First of all, Docker is a monolithic tool. It's a tool that tries to do everything, which generally is not the best approach. Most of the time it's better to choose a specialized tool that does just one thing, but does it really well.
 
-If you are scared of switching to different set of tools, because you would have to learn to work with different CLI, different API or in general different concepts, then that won't be a problem. Choosing any of the tools shown in this article can be completely seamless as they all (including Docker) adhere to same specification under OCI, which is short for [Open Container Initiative](https://opencontainers.org). This initiative contains specifications for [<FontIcon icon="iconfont icon-github"/>`opencontainers/runtime-spec`](https://github.com/opencontainers/runtime-spec), [<FontIcon icon="iconfont icon-github"/>`opencontainers/distribution-spec`](https://github.com/opencontainers/distribution-spec) and [<FontIcon icon="iconfont icon-github"/>`opencontainers/image-spec`](https://github.com/opencontainers/image-spec), which covers all the features needed for working with containers.
+If you are scared of switching to different set of tools, because you would have to learn to work with different CLI, different API or in general different concepts, then that won't be a problem. Choosing any of the tools shown in this article can be completely seamless as they all (including Docker) adhere to same specification under OCI, which is short for [Open Container Initiative](https://opencontainers.org). This initiative contains specifications for [<VPIcon icon="iconfont icon-github"/>`opencontainers/runtime-spec`](https://github.com/opencontainers/runtime-spec), [<VPIcon icon="iconfont icon-github"/>`opencontainers/distribution-spec`](https://github.com/opencontainers/distribution-spec) and [<VPIcon icon="iconfont icon-github"/>`opencontainers/image-spec`](https://github.com/opencontainers/image-spec), which covers all the features needed for working with containers.
 
 Thanks to the OCI you can choose a set of tools that best suit your needs and at the same time you can still enjoy using the same APIs and same CLI commands as with Docker.
 
@@ -87,7 +87,7 @@ When comparing Docker with any other tool we need to break it down by its compon
 
 There are many container engines available, but the most prominent competitor to Docker is _Podman_, developed by _Red Hat_. Unlike Docker, Podman doesn't need daemon to run and also doesn't need root privileges which has been long-standing concern with Docker. Based on the name, Podman can not only run containers, but also _pods_. In case you are not familiar with concept of pods, then pod is the smallest compute unit for Kubernetes. It consists of one or more containers — the main one and so-called _sidecars_ — that perform supporting tasks. This makes it easier for Podman users to later migrate their workloads to Kubernetes. So, as a simple demonstration, this is how you would run 2 containers in a single pod:
 
-::: details <FontIcon icon="fas fa-terminal"/>podman.sh
+::: details <VPIcon icon="fas fa-terminal"/>podman.sh
 
 ```sh
 podman pod create --name mypod

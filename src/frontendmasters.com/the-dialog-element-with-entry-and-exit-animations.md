@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3559"/>
 
-Una Kravets blogged the other day that [<FontIcon icon="fas fa-globe"/>animating entry effects are now supported](https://web.dev/blog/baseline-entry-animations?hl=en#enabling_discrete_animations_with_allow-discrete) in the latest stable version of all major browsers. The *new cool* way to do it, that is. We’ve long had trickery like applying a `@keyframe` animation with a `to` frame that would behave like an “entry effect”, but it was a bit awkward and didn’t work in all situations. Specifically one like using the new and very useful `<dialog>` element.
+Una Kravets blogged the other day that [<VPIcon icon="fas fa-globe"/>animating entry effects are now supported](https://web.dev/blog/baseline-entry-animations?hl=en#enabling_discrete_animations_with_allow-discrete) in the latest stable version of all major browsers. The *new cool* way to do it, that is. We’ve long had trickery like applying a `@keyframe` animation with a `to` frame that would behave like an “entry effect”, but it was a bit awkward and didn’t work in all situations. Specifically one like using the new and very useful `<dialog>` element.
 
 This bit of code says a lot:
 

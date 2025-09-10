@@ -50,7 +50,7 @@ cover: https://files.realpython.com/media/Context-Managers--the-Python-with-Stat
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Context-Managers--the-Python-with-Statement_Watermarked.3774ffbe2514.jpg"/>
 
-To create an asynchronous context manager, you need to define the `.__aenter__()` and `.__aexit__()` methods. The script below is a reimplementation of the original script <FontIcon icon="fa-brands fa-python"/>`site_checker_v0.py` you saw before, but this time you provide a custom asynchronous context manager to wrap the session creation and closing functionalities:
+To create an asynchronous context manager, you need to define the `.__aenter__()` and `.__aexit__()` methods. The script below is a reimplementation of the original script <VPIcon icon="fa-brands fa-python"/>`site_checker_v0.py` you saw before, but this time you provide a custom asynchronous context manager to wrap the session creation and closing functionalities:
 
 ```py :collapsed-lines title="site_checker_v1.py"
 import aiohttp
@@ -98,7 +98,7 @@ python site_checker_v1.py
 # https://pycoders.com: type -> <!doctype html>
 ```
 
-Great! Your script works just like its first version. It sends [<FontIcon icon="fa-brands fa-wikipedia-w"/>`GET` requests](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) to both sites concurrently and processes the corresponding responses.
+Great! Your script works just like its first version. It sends [<VPIcon icon="fa-brands fa-wikipedia-w"/>`GET` requests](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) to both sites concurrently and processes the corresponding responses.
 
 Finally, a common practice when you’re writing asynchronous context managers is to implement the four special methods:
 

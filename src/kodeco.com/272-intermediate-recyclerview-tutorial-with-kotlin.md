@@ -75,7 +75,7 @@ You’re going to continue with the NASA site used in the previous `RecyclerView
 
 ## Getting Started
 
-Download the starter project [<FontIcon icon="iconfont icon-select"/>here][download-material]. Open it up in Android Studio 3.0.1 or later.
+Download the starter project [<VPIcon icon="iconfont icon-select"/>here][download-material]. Open it up in Android Studio 3.0.1 or later.
 
 Next, head to the NASA site ([https://api.nasa.gov/index.html#apply-for-an-api-key](https://api.nasa.gov/index.html#apply-for-an-api-key)) and get an API key to use for the rover photos.
 
@@ -85,7 +85,7 @@ Build and run your app on an emulator or phone. You should see a default “Hell
 
 ### Manifest
 
-Add the following to your <FontIcon icon="fa-brands fa-android"/>``AndroidManifest.xml` file before the application tag:
+Add the following to your <VPIcon icon="fa-brands fa-android"/>``AndroidManifest.xml` file before the application tag:
 
 
 ```xml
@@ -96,7 +96,7 @@ This will allow you to get information from the NASA website. Note that this is 
 
 ### String Data
 
-To populate the spinners on the main screen, you will need to add strings for the spinners to the <FontIcon icon="iconfont icon-code"/>`strings.xml` file. Open <FontIcon icon="iconfont icon-code"/>`strings.xml` in the <FontIcon icon="fas fa-folder-open"/>`res/values` folder and add the following after the `app_name` string:
+To populate the spinners on the main screen, you will need to add strings for the spinners to the <VPIcon icon="iconfont icon-code"/>`strings.xml` file. Open <VPIcon icon="iconfont icon-code"/>`strings.xml` in the <VPIcon icon="fas fa-folder-open"/>`res/values` folder and add the following after the `app_name` string:
 
 ```xml
 <string name="api_error">Problems getting Photos</string>
@@ -126,7 +126,7 @@ To populate the spinners on the main screen, you will need to add strings for th
 
 ## Main Layout
 
-You need to modify the main layout and add some code to the `MainActivity` class. Start out by replacing the layout in the <FontIcon icon="iconfont icon-code"/>`activity_main.xml` file.
+You need to modify the main layout and add some code to the `MainActivity` class. Start out by replacing the layout in the <VPIcon icon="iconfont icon-code"/>`activity_main.xml` file.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -200,7 +200,7 @@ You need to modify the main layout and add some code to the `MainActivity` class
 
 This uses Android's new `ConstraintLayout` to add two rows of spinners, one for the Rover and one for the camera. There’s a `RecyclerView` below the spinners. Below the `RecyclerView` there is a `ProgressBar` that will spin while the data is loading.
 
-Now, time to modify <FontIcon icon="iconfont icon-java"/>`MainActivity.kt`. In the `onCreate()` method, after the call to `setContentView`, add the following:
+Now, time to modify <VPIcon icon="iconfont icon-java"/>`MainActivity.kt`. In the `onCreate()` method, after the call to `setContentView`, add the following:
 
 ```kotlin
 recycler_view.visibility = View.GONE
@@ -208,7 +208,7 @@ recycler_view.layoutManager = LinearLayoutManager(this)
 ```
 
 
-When Android Studio gives you an error on `recycler_view`, put your cursor on `recycler_view` and hit <kbd>option</kbd>+<kbd>return</kbd> on Mac or <kbd>Alt</kbd>+<kbd>Enter</kbd> on PC and select <FontIcon icon="iconfont icon-select"/>`[Import]`. This uses the Kotlin Android Extensions to turn the `R.id.recycler_view` id into a `recycler_view` variable.
+When Android Studio gives you an error on `recycler_view`, put your cursor on `recycler_view` and hit <kbd>option</kbd>+<kbd>return</kbd> on Mac or <kbd>Alt</kbd>+<kbd>Enter</kbd> on PC and select <VPIcon icon="iconfont icon-select"/>`[Import]`. This uses the Kotlin Android Extensions to turn the `R.id.recycler_view` id into a `recycler_view` variable.
 
 Now, run the app and you should see the following:
 
@@ -232,7 +232,7 @@ You need to create the two layouts that will be used in the adapter, one for the
 
 ### Header Style
 
-Open the <FontIcon icon="iconfont icon-code"/>`styles.xml` file in the values resource folder and add the following style that will be used in the <FontIcon icon="iconfont icon-code"/>`header_item.xml` file:
+Open the <VPIcon icon="iconfont icon-code"/>`styles.xml` file in the values resource folder and add the following style that will be used in the <VPIcon icon="iconfont icon-code"/>`header_item.xml` file:
 
 ```xml
 <style name="header">
@@ -241,7 +241,7 @@ Open the <FontIcon icon="iconfont icon-code"/>`styles.xml` file in the values re
 </style>
 ```
 
-You can use any color you’d like. To create the header, go to the <FontIcon icon="fas fa-folder-open"/>`res/layout` folder. Right-click and choose <FontIcon icon="iconfont icon-select"/>`[New/Layout resource file]`. Name the file <FontIcon icon="iconfont icon-code"/>`header_item.xml`. You can leave the root element as suggested and then replace everything with the following:
+You can use any color you’d like. To create the header, go to the <VPIcon icon="fas fa-folder-open"/>`res/layout` folder. Right-click and choose <VPIcon icon="iconfont icon-select"/>`[New/Layout resource file]`. Name the file <VPIcon icon="iconfont icon-code"/>`header_item.xml`. You can leave the root element as suggested and then replace everything with the following:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -263,7 +263,7 @@ You can use any color you’d like. To create the header, go to the <FontIcon ic
 
 This is just a `TextView` for the header text.
 
-Next, right-click on the layout folder and create a new layout named <FontIcon icon="iconfont icon-code"/>`row_item.xml`. Again, leave the root element and replace with:
+Next, right-click on the layout folder and create a new layout named <VPIcon icon="iconfont icon-code"/>`row_item.xml`. Again, leave the root element and replace with:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -300,9 +300,9 @@ An easy way to test an API is to use the Postman Chrome extension or the Postman
 
 Hit the “Send” button in Postman and you’ll see the returned JSON in the Response section. Notice how it returns an object that has 1 item named photos, which is an array of objects. Now, you’ll create models to hold the data that comes back.
 
-In Android Studio, navigate to the `com.raywenderlich.marsrovers` package. Right click and select <FontIcon icon="iconfont icon-select"/>`[New/Package]` to create a new package named `models`.
+In Android Studio, navigate to the `com.raywenderlich.marsrovers` package. Right click and select <VPIcon icon="iconfont icon-select"/>`[New/Package]` to create a new package named `models`.
 
-Next, right-click on the `models` package and select <FontIcon icon="iconfont icon-select"/>`[New/Kotlin File/Class]`. Name the file `Camera`, choose `Class` as the “Kind” and replace the generated code with the following:
+Next, right-click on the `models` package and select <VPIcon icon="iconfont icon-select"/>`[New/Kotlin File/Class]`. Name the file `Camera`, choose `Class` as the “Kind” and replace the generated code with the following:
 
 ```kotlin
 data class Camera(val id: Int, val name: String, val rover_id: Int, val full_name: String)
@@ -340,7 +340,7 @@ The `type` property will distinguish between photos and headers. The row will ha
 
 ## Adapter
 
-Your adapter will extend the `RecyclerView.Adapter` class and use `DefaultViewHolder`. Navigate to the <FontIcon icon="fas fa-folder-open"/>`com.raywenderlich.marsrovers.recyclerview` package and add a new Kotlin class called `PhotoAdapter`.
+Your adapter will extend the `RecyclerView.Adapter` class and use `DefaultViewHolder`. Navigate to the <VPIcon icon="fas fa-folder-open"/>`com.raywenderlich.marsrovers.recyclerview` package and add a new Kotlin class called `PhotoAdapter`.
 
 The class will start out like so:
 
@@ -393,7 +393,7 @@ override fun onBindViewHolder(holder: DefaultViewHolder, position: Int) {
 ```
 
 
-You can see that you’re using [<FontIcon icon="iconfont icon-github"/>`bumptech/glide`](https://github.com/bumptech/glide) to load images into the `ImageView`. Glide seemed to work better for all of the Mars photos than [Picasso](http://square.github.io/picasso/), which was only able to load some of the images.
+You can see that you’re using [<VPIcon icon="iconfont icon-github"/>`bumptech/glide`](https://github.com/bumptech/glide) to load images into the `ImageView`. Glide seemed to work better for all of the Mars photos than [Picasso](http://square.github.io/picasso/), which was only able to load some of the images.
 
 `onCreateViewHolder` is where you inflate the layout and return the __ViewHolder__:
 
@@ -514,7 +514,7 @@ If you need to add an import for `Call`, be sure to use the one from the `retrof
 
 Next, you’ll need to create the actual service. Your service should be a Singleton and in Kotlin, creating one is extremely easy.
 
-Right click on the `service` package and select <FontIcon icon="iconfont icon-select"/>`[New/Kotlin File/Class]`, name it `NasaPhotos`, and change the __Kind__ to <FontIcon icon="iconfont icon-select"/>`[Object]`. That’s it! You now have a Kotlin Singleton.
+Right click on the `service` package and select <VPIcon icon="iconfont icon-select"/>`[New/Kotlin File/Class]`, name it `NasaPhotos`, and change the __Kind__ to <VPIcon icon="iconfont icon-select"/>`[Object]`. That’s it! You now have a Kotlin Singleton.
 
 Create a variable named `service` that is used in the `getPhotos` method:
 
@@ -768,7 +768,7 @@ Swiping is great way to let your user delete rows. You’re going to implement s
 
 __RecyclerView__ uses an `ItemTouchHelper` class along with a swipe callback to handle the movement. The callback is simple and you will just call your adapter’s `removeRow` method in the `onSwiped` callback.
 
-Open <FontIcon icon="iconfont icon-java"/>`MainActivity.kt` and add the following at the bottom of the class:
+Open <VPIcon icon="iconfont icon-java"/>`MainActivity.kt` and add the following at the bottom of the class:
 
 ```kotlin
 class SwipeHandler(val adapter: PhotoAdapter, dragDirs : Int, swipeDirs : Int) : ItemTouchHelper.SimpleCallback(dragDirs, swipeDirs) {
@@ -809,13 +809,13 @@ You’ve done a lot of work and now you know how to add animations, provide a sw
 
 A great next step would be to eliminate the `PhotoRow` model class and `DefaultViewHolder` and get the project working with separate Header and Photo model objects and a dedicated `ViewHolder` for each.
 
-The final project for this tutorial is available [<FontIcon icon="fas fa-file-zipper"/>here][download-material-final]. In the final project, be sure to remember to set the API key in <FontIcon icon="iconfont icon-java"/>`NasaApi.kt`.
+The final project for this tutorial is available [<VPIcon icon="fas fa-file-zipper"/>here][download-material-final]. In the final project, be sure to remember to set the API key in <VPIcon icon="iconfont icon-java"/>`NasaApi.kt`.
 
 If you need more information on `RecyclerView`s, you can check out the following Android developer documentation:
 
-- [<FontIcon icon="iconfont icon-android"/>Recyclerview Layouts](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=ko)
-- [<FontIcon icon="iconfont icon-android"/>RecyclerView Class](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)
-- [<FontIcon icon="iconfont icon-android"/>DiffUtil Class](https://developer.android.com/reference/android/support/v7/util/DiffUtil.html)
+- [<VPIcon icon="iconfont icon-android"/>Recyclerview Layouts](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=ko)
+- [<VPIcon icon="iconfont icon-android"/>RecyclerView Class](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)
+- [<VPIcon icon="iconfont icon-android"/>DiffUtil Class](https://developer.android.com/reference/android/support/v7/util/DiffUtil.html)
 
 I hope you enjoyed this Intermediate RecyclerView tutorial, and if you have any questions or comments, please join the forum discussion below!
 

@@ -72,13 +72,13 @@ cover: /assets/image/blog.logrocket.com/build-rest-api-node-express-mysql/banner
 
 ::: note Editor’s note
 
-This article was last updated by [<FontIcon icon="fas fa-globe"/>Ikeh Akinyemi](https://blog.logrocket.com/author/ikehakinyemi/) on 21 October 2024 to cover advanced MySQL query techniques like multi-table joins, full-text search, and transaction management.
+This article was last updated by [<VPIcon icon="fas fa-globe"/>Ikeh Akinyemi](https://blog.logrocket.com/author/ikehakinyemi/) on 21 October 2024 to cover advanced MySQL query techniques like multi-table joins, full-text search, and transaction management.
 
 :::
 
 ![Build A REST API With Node.js, Express, And MySQL](/assets/image/blog.logrocket.com/build-rest-api-node-express-mysql/banner.png)
 
-To use MySQL with Node.js, you need to integrate a MySQL driver into your Node.js application. The most popular and robust option is the <FontIcon icon="fa-brands fa-npm"/>`mysql2` package, which provides both callback-based and Promise-based interfaces for executing MySQL queries. Here’s a quick example of how to connect and query a MySQL database in Node.js:
+To use MySQL with Node.js, you need to integrate a MySQL driver into your Node.js application. The most popular and robust option is the <VPIcon icon="fa-brands fa-npm"/>`mysql2` package, which provides both callback-based and Promise-based interfaces for executing MySQL queries. Here’s a quick example of how to connect and query a MySQL database in Node.js:
 
 ```js :collapsed-lines
 const mysql = require('mysql2/promise');
@@ -117,7 +117,7 @@ To follow along with this article, you should have the following:
 
 :::
 
-The code in this tutorial is performed on a Mac with Node 14 LTS installed. You can use [**Node.js, Docker, and Docker Compose**](/blog.logrocket.com/node-js-docker-improve-dx.md) to improve your developer experience. You can also access the full code at this [GitHub repository (<FontIcon icon="iconfont icon-github"/>`atharvadeosthale/rest-api-mysql-article`)](https://github.com/atharvadeosthale/rest-api-mysql-article). Now, let’s get started!
+The code in this tutorial is performed on a Mac with Node 14 LTS installed. You can use [**Node.js, Docker, and Docker Compose**](/blog.logrocket.com/node-js-docker-improve-dx.md) to improve your developer experience. You can also access the full code at this [GitHub repository (<VPIcon icon="iconfont icon-github"/>`atharvadeosthale/rest-api-mysql-article`)](https://github.com/atharvadeosthale/rest-api-mysql-article). Now, let’s get started!
 
 ---
 
@@ -125,7 +125,7 @@ The code in this tutorial is performed on a Mac with Node 14 LTS installed. You 
 
 MySQL is a feature-packed relational database first released in 1995. It runs on all major operating systems, like Linux, Windows, and macOS.
 
-MySQL is one of the most popular databases worldwide. Per the [<FontIcon icon="fa-brands fa-stack-overflow"/>2023 Stack Overflow survey](https://survey.stackoverflow.co/2023/#databases:~:text=in%20that%20row.), MySQL was the most-loved database, with more than 41 percent of respondents using it. The [<FontIcon icon="iconfont icon-mysql"/>community edition](https://mysql.com/products/community/) is available for free, and it is supported by a large and active community.
+MySQL is one of the most popular databases worldwide. Per the [<VPIcon icon="fa-brands fa-stack-overflow"/>2023 Stack Overflow survey](https://survey.stackoverflow.co/2023/#databases:~:text=in%20that%20row.), MySQL was the most-loved database, with more than 41 percent of respondents using it. The [<VPIcon icon="iconfont icon-mysql"/>community edition](https://mysql.com/products/community/) is available for free, and it is supported by a large and active community.
 
 Because of its features and its cost-effectiveness, MySQL is used by big enterprises and new startups alike. For our example REST API, we’ll use a free MySQL service instead of setting up a local MySQL server.
 
@@ -133,7 +133,7 @@ Because of its features and its cost-effectiveness, MySQL is used by big enterpr
 
 ## Setting up our MySQL database
 
-To host our testing MySQL 8.0 database, we’ll use [<FontIcon icon="fas fa-globe"/>db4free.net](https://db4free.net/). First, go to the [<FontIcon icon="fas fa-globe"/>db4free signup page](https://db4free.net/signup.php), then fill out the required details by choosing your database name and username:
+To host our testing MySQL 8.0 database, we’ll use [<VPIcon icon="fas fa-globe"/>db4free.net](https://db4free.net/). First, go to the [<VPIcon icon="fas fa-globe"/>db4free signup page](https://db4free.net/signup.php), then fill out the required details by choosing your database name and username:
 
 ![Db4free Signup Page](/assets/image/blog.logrocket.com/build-rest-api-node-express-mysql/db4free-signup-page.png)
 
@@ -168,9 +168,9 @@ The code will return with a green check box and a message along the lines of `My
 
 The `name` column is unique, and we also added `released_year` for the programming language. We have three columns to input the rank of the programming language, sourced from the following resources:
 
-- [<FontIcon icon="fas fa-globe"/>GitHut](https://madnight.github.io/githut/#/pull_requests/2020/4): GitHub language stats for Q4 2020
-- [<FontIcon icon="fas fa-globe"/>PYPL](https://pypl.github.io/PYPL.html): The Popularity of Programming Language Index
-- [<FontIcon icon="fas fa-globe"/>TIOBE index](https://tiobe.com/tiobe-index/)
+- [<VPIcon icon="fas fa-globe"/>GitHut](https://madnight.github.io/githut/#/pull_requests/2020/4): GitHub language stats for Q4 2020
+- [<VPIcon icon="fas fa-globe"/>PYPL](https://pypl.github.io/PYPL.html): The Popularity of Programming Language Index
+- [<VPIcon icon="fas fa-globe"/>TIOBE index](https://tiobe.com/tiobe-index/)
 
 The `created_at` and `updated_at` columns store dates to keep track of when the rows were created and updated.
 
@@ -229,7 +229,7 @@ To set up a Node.js app with an Express.js server, we’ll first create a direct
 mkdir programming-languages-api && cd programming-languages-api
 ```
 
-Then, we can create a <FontIcon icon="iconfont icon-json"/>`package.json` file with `npm init -y` as follows:
+Then, we can create a <VPIcon icon="iconfont icon-json"/>`package.json` file with `npm init -y` as follows:
 
 ```json title="package.json"
 {
@@ -246,7 +246,7 @@ Then, we can create a <FontIcon icon="iconfont icon-json"/>`package.json` file w
 }
 ```
 
-To install Express, we’ll run `npm i express`, adding Express as a dependency in the <FontIcon icon="iconfont icon-json"/>`package.json` file. Next, we’ll create a slim server in the <FontIcon icon="fa-brands fa-js"/>`index.js` file. It will print an `ok` message on the main path `/`:
+To install Express, we’ll run `npm i express`, adding Express as a dependency in the <VPIcon icon="iconfont icon-json"/>`package.json` file. Next, we’ll create a slim server in the <VPIcon icon="fa-brands fa-js"/>`index.js` file. It will print an `ok` message on the main path `/`:
 
 ```js title="index.js"
 const express = require("express");
@@ -278,11 +278,11 @@ We’ll structure our project in the following manner to arrange our files logic
 
 ![Node Project Folder Structure Layout](/assets/image/blog.logrocket.com/build-rest-api-node-express-mysql/node-project-folder-structure-layout.png)
 
-<FontIcon icon="fa-brands fa-js"/>`config.js` will contain configuration for information like the database credentials and the rows we want to show per page when we paginate results. <FontIcon icon="fa-brands fa-js"/>`helper.js` is the home for any helper functions, like calculating offset for pagination.
+<VPIcon icon="fa-brands fa-js"/>`config.js` will contain configuration for information like the database credentials and the rows we want to show per page when we paginate results. <VPIcon icon="fa-brands fa-js"/>`helper.js` is the home for any helper functions, like calculating offset for pagination.
 
-The <FontIcon icon="fas fa-folder-open"/>`routes/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file will be the glue between the URI and the corresponding function in the <FontIcon icon="fas fa-folder-open"/>`services/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js` service. The <FontIcon icon="fas fa-folder-open"/>`services` folder will house all our services. One of them is <FontIcon icon="fa-brands fa-js"/>`db.js`, which we use to talk with the MySQL database.
+The <VPIcon icon="fas fa-folder-open"/>`routes/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file will be the glue between the URI and the corresponding function in the <VPIcon icon="fas fa-folder-open"/>`services/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js` service. The <VPIcon icon="fas fa-folder-open"/>`services` folder will house all our services. One of them is <VPIcon icon="fa-brands fa-js"/>`db.js`, which we use to talk with the MySQL database.
 
-Another service is <FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js`, which will have methods like `getMultiple`, `create`, etc., to get and create the programming language resource. Basic mapping of the URI and the related service function will look like the code below:
+Another service is <VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js`, which will have methods like `getMultiple`, `create`, etc., to get and create the programming language resource. Basic mapping of the URI and the related service function will look like the code below:
 
 ```plaintext
 GET /programming-languages → getMultiple()
@@ -322,7 +322,7 @@ const config = {
 module.exports = config;
 ```
 
-It is worth noting that we set the `connectTimeout` to 60 seconds. The default is ten seconds, which may not be enough. Consequently, we’ll create the <FontIcon icon="fa-brands fa-js"/>`helper.js` file with the code below:
+It is worth noting that we set the `connectTimeout` to 60 seconds. The default is ten seconds, which may not be enough. Consequently, we’ll create the <VPIcon icon="fa-brands fa-js"/>`helper.js` file with the code below:
 
 ```js title="helper.js"
 function getOffset(currentPage = 1, listPerPage) {
@@ -342,7 +342,7 @@ module.exports = {
 }
 ```
 
-For the fun part, we’ll add the route and link it to the services. First, we’ll connect to the database and enable running queries on the database in the <FontIcon icon="fas fa-folder-open"/>`services/`<FontIcon icon="fa-brands fa-js"/>`db.js` file:
+For the fun part, we’ll add the route and link it to the services. First, we’ll connect to the database and enable running queries on the database in the <VPIcon icon="fas fa-folder-open"/>`services/`<VPIcon icon="fa-brands fa-js"/>`db.js` file:
 
 ```js title="services/db.js"
 const mysql = require('mysql2/promise');
@@ -360,7 +360,7 @@ module.exports = {
 }
 ```
 
-Now, we’ll write up the <FontIcon icon="fas fa-folder-open"/>`services/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file that acts as the bridge between the route and the database:
+Now, we’ll write up the <VPIcon icon="fas fa-folder-open"/>`services/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file that acts as the bridge between the route and the database:
 
 ```js title="services/programmingLanguages.js"
 const db = require('./db');
@@ -387,7 +387,7 @@ module.exports = {
 }
 ```
 
-After that, we’ll create the `routes` file in <FontIcon icon="fas fa-folder-open"/>`routes/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js`, which looks like the following:
+After that, we’ll create the `routes` file in <VPIcon icon="fas fa-folder-open"/>`routes/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js`, which looks like the following:
 
 ```js title="routes/programmingLanguages.js"
 const express = require('express');
@@ -436,7 +436,7 @@ app.listen(port, () => {
 });
 ```
 
-We made two important changes to our entry point <FontIcon icon="fa-brands fa-js"/>`index.js` file. First, we added the code below:
+We made two important changes to our entry point <VPIcon icon="fa-brands fa-js"/>`index.js` file. First, we added the code below:
 
 ```js title="index.js"
 const programmingLanguagesRouter = require('./routes/programmingLanguages');
@@ -452,13 +452,13 @@ We also added an error handler middleware to handle errors and provide a proper 
 
 ![GET Endpoint Node Index Output](/assets/image/blog.logrocket.com/build-rest-api-node-express-mysql/GET-endpint-node-index-output.png)
 
-Depending on the extensions you have installed on your browser, your output might look a bit different. Note that we’ve already implemented pagination for our `GET` API, which is possible because of the `getOffset` function in `helper.js` and how we run the `SELECT` query in <FontIcon icon="fas fa-folder-open"/>`services/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguage.js`. Try `http://localhost:3000/programming-languages?page=2` to see languages 11-16. ---
+Depending on the extensions you have installed on your browser, your output might look a bit different. Note that we’ve already implemented pagination for our `GET` API, which is possible because of the `getOffset` function in `helper.js` and how we run the `SELECT` query in <VPIcon icon="fas fa-folder-open"/>`services/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguage.js`. Try `http://localhost:3000/programming-languages?page=2` to see languages 11-16. ---
 
 ## `POST` a new programming language
 
 Our `POST` API will allow us to create a new programming language in our table. To create a `POST` programming language API in the `/programming-languages` endpoint, we’ll add code to the `service` and the `routes` files. In the service method, we’ll get the name, the release year, and other ranks from the request body, then insert them into the `programming_languages` table.
 
-Append the following code to the <FontIcon icon="fas fa-folder-open"/>`services/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file:
+Append the following code to the <VPIcon icon="fas fa-folder-open"/>`services/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file:
 
 ```js title="services/programmingLanguages.js"
 async function create(programmingLanguage){
@@ -488,7 +488,7 @@ module.exports = {
 }
 ```
 
-For the function above to be accessible, we need to add a route to link it up in the <FontIcon icon="fas fa-folder-open"/>`routes/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file:
+For the function above to be accessible, we need to add a route to link it up in the <VPIcon icon="fas fa-folder-open"/>`routes/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file:
 
 ```js title="routes/programmingLanguages.js"
 /* POST programming language */
@@ -577,7 +577,7 @@ async function remove(id){
 }
 ```
 
-Don’t forget to export this function as well. Once again, to link up the service with the route, we’ll add the following code to the <FontIcon icon="fas fa-folder-open"/>`routes/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file:
+Don’t forget to export this function as well. Once again, to link up the service with the route, we’ll add the following code to the <VPIcon icon="fas fa-folder-open"/>`routes/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js` file:
 
 ```js title="routes/programmingLanguages.js"
 /* DELETE programming language */
@@ -617,7 +617,7 @@ Connection: keep-alive
 {"message":"Programming language created successfully"}
 ```
 
-You can remove the `X-Powered-By` header and add other security response headers using [Express.js Helmet (<FontIcon icon="iconfont icon-github"/>`helmetjs/helmet`)](https://github.com/helmetjs/helmet), which will greatly improve the API’s security. For now, let’s update the GitHut rank of `Dart` from 13 to 12:
+You can remove the `X-Powered-By` header and add other security response headers using [Express.js Helmet (<VPIcon icon="iconfont icon-github"/>`helmetjs/helmet`)](https://github.com/helmetjs/helmet), which will greatly improve the API’s security. For now, let’s update the GitHut rank of `Dart` from 13 to 12:
 
 ```sh
 curl -i -X PUT -H 'Accept: application/json' \
@@ -660,11 +660,11 @@ Connection: keep-alive
 {"message":"Programming language deleted successfully"}
 ```
 
-If you’re more used to a visual interface for testing, such as Postman, you can [<FontIcon icon="fa-brands fa-quora"/>import the cURL commands](https://quora.com/How-can-I-convert-cURL-code-to-Postman) into Postman.
+If you’re more used to a visual interface for testing, such as Postman, you can [<VPIcon icon="fa-brands fa-quora"/>import the cURL commands](https://quora.com/How-can-I-convert-cURL-code-to-Postman) into Postman.
 
 In this tutorial, we kept our example fairly simple. However, if this were a real-life API and not a demo, I’d highly recommend the following:
 
-- Use a robust validation library like [<FontIcon icon="iconfont icon-github"/>`sideway/joi`](https://github.com/sideway/joi) to validate the input precisely, for example, to ensure the programming language’s name is required. It doesn’t already exist in the database
+- Use a robust validation library like [<VPIcon icon="iconfont icon-github"/>`sideway/joi`](https://github.com/sideway/joi) to validate the input precisely, for example, to ensure the programming language’s name is required. It doesn’t already exist in the database
 - Improve security by adding Helmet.js to Express.js
 - Streamline logs in a more manageable way using a [**Node.js logging library**](/blog.logrocket.com/node-js-logging-best-practices.md) like Winston
 - Use Docker for the Node.js application
@@ -687,7 +687,7 @@ BEGIN
 END $$
 ```
 
-To use the newly created store procedure, we need to add this setting to the <FontIcon icon="fa-brands fa-js"/>`config.js`:
+To use the newly created store procedure, we need to add this setting to the <VPIcon icon="fa-brands fa-js"/>`config.js`:
 
 ```js title="config.js"
 const config = {
@@ -697,7 +697,7 @@ const config = {
     },
 ```
 
-Then, we can add a new helper function to <FontIcon icon="fa-brands fa-js"/>`db.js`:
+Then, we can add a new helper function to <VPIcon icon="fa-brands fa-js"/>`db.js`:
 
 ```js title="db.js"
 async function callSpSearch(id) {
@@ -717,7 +717,7 @@ module.exports = {
 }
 ```
 
-Next, add this function to the <FontIcon icon="fas fa-folder-open"/>`services/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js` and add it to the exports:
+Next, add this function to the <VPIcon icon="fas fa-folder-open"/>`services/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js` and add it to the exports:
 
 ```js title="services/programmingLanguages.js"
 async function search(id){
@@ -737,7 +737,7 @@ module.exports = {
 }
 ```
 
-The last step is to add a new route into <FontIcon icon="fas fa-folder-open"/>`routes/`<FontIcon icon="fa-brands fa-js"/>`programmingLanguages.js`:
+The last step is to add a new route into <VPIcon icon="fas fa-folder-open"/>`routes/`<VPIcon icon="fa-brands fa-js"/>`programmingLanguages.js`:
 
 ```js title="routes/programmingLanguages.js"
   router.get('/:id', async function(req, res, next) {
@@ -754,7 +754,7 @@ That’s it! Now, we can restart the server and give it a go. Enter the browser 
 
 ![Localhost Code Ouput](/assets/image/blog.logrocket.com/build-rest-api-node-express-mysql/code-output.png)
 
-Check out the full source code in [this CodeSandbox editor (<FontIcon icon="iconfont icon-codesandbox"/>`sandbox`)](https://codesandbox.io/p/sandbox/vibrant-germain-vys3gz?file=%2Fsrc%2Findex.js%3A1%2C1).
+Check out the full source code in [this CodeSandbox editor (<VPIcon icon="iconfont icon-codesandbox"/>`sandbox`)](https://codesandbox.io/p/sandbox/vibrant-germain-vys3gz?file=%2Fsrc%2Findex.js%3A1%2C1).
 
 Let’s discuss more advanced MySQL query techniques you should consider when expanding your Node.js application.
 

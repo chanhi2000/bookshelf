@@ -109,7 +109,7 @@ In the code above, the `userDataSchema` object acts as a schema, validating that
 
 Of course, the `validateSchema` function is not enough for any serious application. To validate a complex data structure and ensure that it doesn’t cause unwanted behavior, you’ll need something more powerful. This is where a schema validation library comes in.
 
-Fortunately, generous JavaScript developers around the world have shared myriad open source schema validation libraries on npm. [<FontIcon icon="iconfont icon-github"/>`jquense/yup`](https://github.com/jquense/yup) has been one of the most popular schema validation libraries for JavaScript, before [<FontIcon icon="iconfont icon-github"/>`vriad/zod`](https://github.com/vriad/zod) came onto the scene and stole some of Yup’s spotlight.
+Fortunately, generous JavaScript developers around the world have shared myriad open source schema validation libraries on npm. [<VPIcon icon="iconfont icon-github"/>`jquense/yup`](https://github.com/jquense/yup) has been one of the most popular schema validation libraries for JavaScript, before [<VPIcon icon="iconfont icon-github"/>`vriad/zod`](https://github.com/vriad/zod) came onto the scene and stole some of Yup’s spotlight.
 
 ---
 
@@ -279,7 +279,7 @@ Unlike other validations we’ve seen so far, function validation in Zod doesn�
 
 ### Zod’s union function
 
-Zod also has some unique APIs to define optional schema. For example, the [union method (<FontIcon icon="iconfont icon-github"/>`vriad/zod`)](https://github.com/vriad/zod#unions) can be used to compose “OR” types. For example, to create a schema where the data is a string “OR” a number:
+Zod also has some unique APIs to define optional schema. For example, the [union method (<VPIcon icon="iconfont icon-github"/>`vriad/zod`)](https://github.com/vriad/zod#unions) can be used to compose “OR” types. For example, to create a schema where the data is a string “OR” a number:
 
 ```js
 const productId = zod.union([zod.string(), zod.number()]);
@@ -291,7 +291,7 @@ productId.parse(false); // TypeError: Invalid input
 
 ### Zod’s intersection function
 
-Another one of Zod’s unique APIs is the [intersection method (<FontIcon icon="iconfont icon-github"/>`colinhacks/zod`)](https://github.com/colinhacks/zod#intersections:~:text=5%20items%20exactly-,Intersections,-Intersections%20are%20useful), which is particularly useful for combining two schemas, creating logical “AND” types. For example:
+Another one of Zod’s unique APIs is the [intersection method (<VPIcon icon="iconfont icon-github"/>`colinhacks/zod`)](https://github.com/colinhacks/zod#intersections:~:text=5%20items%20exactly-,Intersections,-Intersections%20are%20useful), which is particularly useful for combining two schemas, creating logical “AND” types. For example:
 
 ```js
 const userId = zod.object({
@@ -393,7 +393,7 @@ schema.validate([2]).then((res) => {
 
 Both Zod and Yup support TypeScript. Zod offers TypeScript first-class support. These libraries enable you to infer TypeScript type aliases that you can use to validate the data.
 
-In simple terms, you can validate whether a variable is the correct type of data by creating a [<FontIcon icon="iconfont icon-typescript"/>`type` alias](https://typescriptlang.org/docs/handbook/advanced-types.html#type-aliases) from Yup or Zod’s schema:
+In simple terms, you can validate whether a variable is the correct type of data by creating a [<VPIcon icon="iconfont icon-typescript"/>`type` alias](https://typescriptlang.org/docs/handbook/advanced-types.html#type-aliases) from Yup or Zod’s schema:
 
 ```js
 import * as yup from "yup";
@@ -430,17 +430,17 @@ Both Zod and Yup have comprehensive documentation, which makes learning easier a
 
 ### Integrations
 
-Though Yup is very popular for its easy integration with popular form libraries like [<FontIcon icon="fas fa-globe"/>Formik](https://formik.org/docs/tutorial#schema-validation-with-yup), Zod also integrates well with other form libraries like [React Hook Form (<FontIcon icon="iconfont icon-github"/>`react-hook-form/resolvers`)](https://github.com/react-hook-form/resolvers#zod). Sometimes it may require additional third-party libraries to make integrating Zod with these form libraries seamless.
+Though Yup is very popular for its easy integration with popular form libraries like [<VPIcon icon="fas fa-globe"/>Formik](https://formik.org/docs/tutorial#schema-validation-with-yup), Zod also integrates well with other form libraries like [React Hook Form (<VPIcon icon="iconfont icon-github"/>`react-hook-form/resolvers`)](https://github.com/react-hook-form/resolvers#zod). Sometimes it may require additional third-party libraries to make integrating Zod with these form libraries seamless.
 
 ---
 
 ## Other libraries for schema validation
 
-Zod and Yup are not the only JavaScript and TypeScript libraries for schema validation. In fact, they are not as popular as libraries like [<FontIcon icon="iconfont icon-github"/>`hapijs/joi`](https://github.com/hapijs/joi) and [<FontIcon icon="iconfont icon-github"/>`ajv-validator/ajv`](https://github.com/ajv-validator/ajv).
+Zod and Yup are not the only JavaScript and TypeScript libraries for schema validation. In fact, they are not as popular as libraries like [<VPIcon icon="iconfont icon-github"/>`hapijs/joi`](https://github.com/hapijs/joi) and [<VPIcon icon="iconfont icon-github"/>`ajv-validator/ajv`](https://github.com/ajv-validator/ajv).
 
 joi is a popular JavaScript validation library used primarily for defining and enforcing data validation rules. It’s widely used in both server-side and client-side applications. It has its own schema definition syntax similar to what we’ve seen in Yup and Zod.
 
-It’s safe to say that AJV is the most popular schema validation library. Unlike joi, which focuses on schema-based validation, AJV is specifically designed for JSON schema validation. It adheres to the [<FontIcon icon="fas fa-globe"/>JSON Schema standard](https://json-schema.org/) and provides efficient validation of JSON data against JSON schemas. AJV is often used in APIs and data processing pipelines.
+It’s safe to say that AJV is the most popular schema validation library. Unlike joi, which focuses on schema-based validation, AJV is specifically designed for JSON schema validation. It adheres to the [<VPIcon icon="fas fa-globe"/>JSON Schema standard](https://json-schema.org/) and provides efficient validation of JSON data against JSON schemas. AJV is often used in APIs and data processing pipelines.
 
 joi and AJV are more focused on complex validation scenarios and are suitable for handling large and intricate validation rules. Yup and Zod are often preferred for simpler use cases and form validation.
 

@@ -112,7 +112,7 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-code"/>`motion_layout_ex1.xml`
+@tab:active <VPIcon icon="iconfont icon-code"/>`motion_layout_ex1.xml`
 
 `id:button` 인 View 가 애니메이션 할 대상이며, 위치에 대한 정의는 하지 않아도 됩니다. `MotionLayout` 의 `app:layoutDescription` 속성으로 `scene_01` 을 설정해 주었는데, 바로 모든 애니메이션 관련 내용이 들어갈 `MotionScene` 을 정의한 파일입니다.
 
@@ -137,7 +137,7 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 </androidx.constraintlayout.motion.widget.MotionLayout>
 ```
 
-@tab <FontIcon icon="iconfont icon-code"/>`scene_01.xml`
+@tab <VPIcon icon="iconfont icon-code"/>`scene_01.xml`
 
 `MotionScene` 안에 `Transition` 을 정의하고, `motion:constraintSetStart` 와 `motion:constraintSetEnd` 속성으로 layout 들을 설정해주었습니다. 이 layout 들은 각각 애니메이션의 시작과 끝의 View 의 위치를 정의해놓은 파일입니다.
 
@@ -160,9 +160,9 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 </MotionScene>
 ```
 
-@tab <FontIcon icon="iconfont icon-code"/>`motion_cl_*.xml`
+@tab <VPIcon icon="iconfont icon-code"/>`motion_cl_*.xml`
 
-> <FontIcon icon="iconfont icon-code"/>`motion_cl_start.xml`
+> <VPIcon icon="iconfont icon-code"/>`motion_cl_start.xml`
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -184,7 +184,7 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-> <FontIcon icon="iconfont icon-code"/>`motion_cl_end.xml`
+> <VPIcon icon="iconfont icon-code"/>`motion_cl_end.xml`
 
 `Transition` 에 정의해둔 애니메이션의 시작과 끝 layout xml 파일입니다.
 
@@ -220,9 +220,9 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-code"/>`motion_layout_ex2.xml`
+@tab:active <VPIcon icon="iconfont icon-code"/>`motion_layout_ex2.xml`
 
-동일하게 MotionLayout layout xml 을 만들고, `layoutDescription` 으로 <FontIcon icon="iconfont icon-code"/>`scene_02.xml` 을 참조해주었습니다.
+동일하게 MotionLayout layout xml 을 만들고, `layoutDescription` 으로 <VPIcon icon="iconfont icon-code"/>`scene_02.xml` 을 참조해주었습니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -244,7 +244,7 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 </androidx.constraintlayout.motion.widget.MotionLayout>
 ```
 
-@tab <FontIcon icon="iconfont icon-code"/>`scene_02.xml`
+@tab <VPIcon icon="iconfont icon-code"/>`scene_02.xml`
 
 기본예제와 다르게, `Transition` 의 `motion:constraintSetStart`, `motion:constraintSetEnd` 속성에 레이아웃 파일이 아닌 `ConstraintSet` 의 id를 설정해주었습니다. `Constraint` 에는 `layout_height` 가 변경되도록 설정하고 `CustomAttribute` 로 `backgroundColor` 도 설정해주었습니다. `CustomAttribute` 는 타겟 뷰가 가지고 있는 여러 속성들을 설정해줄 수 있습니다. `attributeName` 은 타겟뷰의 getter/setter 메소드명과 동일하게 해주면 되고, value 는 color, Integer, Float, Dimension, String 등 값을 설정해줄 수 있습니다.
 
@@ -319,7 +319,7 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-code"/>`motion_layout_ex3.xml`
+@tab:active <VPIcon icon="iconfont icon-code"/>`motion_layout_ex3.xml`
 
 타겟뷰에 `ImageFilterView` 를 사용했습니다. `ImageFilterView` 는 `AppCompatImageView` 를 상속받는 뷰로 이미지에 여러가지 효과를 줄 수 있는 뷰입니다. `src` 에 변경전 이미지를, `altSrc` 에 변경후 이미지를 세팅해주었습니다. (png 이든 벡터 이미지든 상관없이 정상동작합니다)
 
@@ -345,7 +345,7 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 </androidx.constraintlayout.motion.widget.MotionLayout>
 ```
 
-@tab <FontIcon icon="iconfont icon-code"/>`scene_03.xml`
+@tab <VPIcon icon="iconfont icon-code"/>`scene_03.xml`
 
 이번에는 `CustomAttribute` 에 crossfade 라는 속성을 설정해주었습니다. `ImageFilterView` 에는 `public void setCrossfade(float crossfade)` 라는 함수가 있기에 가능한 것입니다.
 
@@ -413,9 +413,9 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-code"/>`motion_layout_ex4.xml`
+@tab:active <VPIcon icon="iconfont icon-code"/>`motion_layout_ex4.xml`
 
-`layoutDescription` 으로 <FontIcon icon="iconfont icon-code"/>`scene_04.xml` 을 설정해주었습니다.
+`layoutDescription` 으로 <VPIcon icon="iconfont icon-code"/>`scene_04.xml` 을 설정해주었습니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -437,7 +437,7 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 </androidx.constraintlayout.motion.widget.MotionLayout>
 ```
 
-@tab <FontIcon icon="iconfont icon-code"/>`scene_04.xml`
+@tab <VPIcon icon="iconfont icon-code"/>`scene_04.xml`
 
 `<Transition>` 안의<`KeyFrameSet>` 이라는 태그를 주목해서 보겠습니다.
 
@@ -636,9 +636,9 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-code"/>`quick_setting_activity.xml`
+@tab <VPIcon icon="iconfont icon-code"/>`quick_setting_activity.xml`
 
-움직일 아이콘 12개를 준비해주고, `layoutDescription` 으로 <FontIcon icon="iconfont icon-code"/>`scene_quick_setting.xml` 을 참조하도록 했습니다.
+움직일 아이콘 12개를 준비해주고, `layoutDescription` 으로 <VPIcon icon="iconfont icon-code"/>`scene_quick_setting.xml` 을 참조하도록 했습니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -788,7 +788,7 @@ MotionLayout 은 MotionScene 을 레퍼런싱 하고, 애니메이션 관련된 
 </androidx.constraintlayout.motion.widget.MotionLayout>
 ```
 
-@tab <FontIcon icon="iconfont icon-code"/>`scene_quick_setting.xml`
+@tab <VPIcon icon="iconfont icon-code"/>`scene_quick_setting.xml`
 
 상하로 터치할 것이므로 `OnSwipe` 방향을 `dragDown` 으로 하고, `constraintSetStart` 와 `constraintSetEnd` 를 설정해주었습니다.
 

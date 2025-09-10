@@ -61,7 +61,7 @@ The simplest example of using Python `print()` requires just a few keystrokes:
 print()
 ```
 
-You don’t pass any arguments, but you still need to put empty parentheses at the end, which tell Python to actually [<FontIcon icon="fas fa-globe"/>execute the function](https://realpython.com/lessons/example-function/) rather than just refer to it by name.
+You don’t pass any arguments, but you still need to put empty parentheses at the end, which tell Python to actually [<VPIcon icon="fas fa-globe"/>execute the function](https://realpython.com/lessons/example-function/) rather than just refer to it by name.
 
 This will produce an invisible newline character, which in turn will cause a blank line to appear on your screen. You can call `print()` multiple times like this to add vertical space. It’s just as if you were hitting Enter on your keyboard in a word processor.
 
@@ -82,7 +82,7 @@ os.linesep
 # '\r\n'
 ```
 
-On **Unix, Linux**, and recent versions of <FontIcon icon="iconfont icon-macos"/>macOS, it’s a single `\n` character:
+On **Unix, Linux**, and recent versions of <VPIcon icon="iconfont icon-macos"/>macOS, it’s a single `\n` character:
 
 ```py
 import os
@@ -164,7 +164,7 @@ This will print the message verbatim onto the screen.
 
 ### String Literals
 
-**String literals** in Python can be enclosed either in single quotes (`'`) or double quotes (`"`). According to the official [<FontIcon icon="fa-brands fa-python"/>PEP 8](https://python.org/dev/peps/pep-0008/#string-quotes) style guide, you should just pick one and keep using it consistently. There’s no difference, unless you need to nest one in another.
+**String literals** in Python can be enclosed either in single quotes (`'`) or double quotes (`"`). According to the official [<VPIcon icon="fa-brands fa-python"/>PEP 8](https://python.org/dev/peps/pep-0008/#string-quotes) style guide, you should just pick one and keep using it consistently. There’s no difference, unless you need to nest one in another.
 
 For example, you can’t use double quotes for the literal and also include double quotes inside of it, because that’s ambiguous for the Python interpreter:
 
@@ -478,7 +478,7 @@ div(4, 3)
 # 1.3333333333333333
 ```
 
-`print()` allows an [<FontIcon icon="fa-brands fa-python"/>arbitrary number of positional arguments](https://docs.python.org/dev/tutorial/controlflow.html#arbitrary-argument-lists) thanks to the `*args` parameter.
+`print()` allows an [<VPIcon icon="fa-brands fa-python"/>arbitrary number of positional arguments](https://docs.python.org/dev/tutorial/controlflow.html#arbitrary-argument-lists) thanks to the `*args` parameter.
 
 :::
 
@@ -587,7 +587,7 @@ Unpacking is effectively the same as calling `print()` with individual elements 
 
 :::
 
-One more interesting example could be exporting data to a [<FontIcon icon="fas fa-globe"/>comma-separated values](https://realpython.com/courses/reading-and-writing-csv-files/) (CSV) format:
+One more interesting example could be exporting data to a [<VPIcon icon="fas fa-globe"/>comma-separated values](https://realpython.com/courses/reading-and-writing-csv-files/) (CSV) format:
 
 ```py
 print(1, 'Python Tricks', 'Dan Bader', sep=',')
@@ -655,8 +655,8 @@ Here are a few examples of syntax in such languages:
 | Language | Example |
 | --- | --- |
 | Perl | `print "hello world\n"` |
-| <FontIcon icon="iconfont icon-c"/>C | `printf("hello world\n");` |
-| <FontIcon icon="iconfont icon-cpp"/>C++ | `std::cout << "hello world" << std::endl;` |
+| <VPIcon icon="iconfont icon-c"/>C | `printf("hello world\n");` |
+| <VPIcon icon="iconfont icon-cpp"/>C++ | `std::cout << "hello world" << std::endl;` |
 
 In contrast, Python’s `print()` function always adds `\n` without asking, because that’s what you want in most cases. To disable it, you can take advantage of yet another keyword argument, `end`, which dictates what to end the line with.
 
@@ -1046,7 +1046,7 @@ unicode_literal = u'\xfcber na\xefve caf\xe9'
 string_literal = '\xc3\xbcber na\xc3\xafve caf\xc3\xa9'
 ```
 
-Alternatively, you could specify source code encoding according to [<FontIcon icon="fa-brands fa-python"/>PEP 263](https://python.org/dev/peps/pep-0263/) at the top of the file, but that wasn’t the best practice due to portability issues:
+Alternatively, you could specify source code encoding according to [<VPIcon icon="fa-brands fa-python"/>PEP 263](https://python.org/dev/peps/pep-0263/) at the top of the file, but that wasn’t the best practice due to portability issues:
 
 ```py
 #!/usr/bin/env python2
@@ -1251,7 +1251,7 @@ print(jdoe)
 # Person(name='John Doe', age=43)
 ```
 
-The syntax for [<FontIcon icon="fa-brands fa-python"/>variable annotations](https://python.org/dev/peps/pep-0526/), which is required to specify class fields with their corresponding types, was defined in Python 3.6.
+The syntax for [<VPIcon icon="fa-brands fa-python"/>variable annotations](https://python.org/dev/peps/pep-0526/), which is required to specify class fields with their corresponding types, was defined in Python 3.6.
 
 :::
 

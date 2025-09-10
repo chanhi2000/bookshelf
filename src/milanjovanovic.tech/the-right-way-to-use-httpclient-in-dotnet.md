@@ -293,7 +293,7 @@ I showed you a few possible options for working with `HttpClient`.
 
 But which one should you use and when?
 
-Microsoft was kind enough to provide us with a set of best practices and [<FontIcon icon="fa-brands fa-microsoft"/>recommended use](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient-guidelines#recommended-use) for `HttpClient`.
+Microsoft was kind enough to provide us with a set of best practices and [<VPIcon icon="fa-brands fa-microsoft"/>recommended use](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient-guidelines#recommended-use) for `HttpClient`.
 
 - Use a `static` or **singleton** `HttpClient` instance with a `PooledConnectionLifetime` configured, since this solves both port exhaustion and tracking DNS changes
 - Use `IHttpClientFactory` if you want to move the configuration to one place, but remember that clients are meant to be **short-lived**

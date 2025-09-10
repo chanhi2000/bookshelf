@@ -50,15 +50,15 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/liquid-glass-
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/liquid-glass-still.png"/>
 
-Folks have a lot to say about “liquid glass,” the design aesthetic that Apple introduced at [<FontIcon icon="fa-brands fa-apple"/>WWDC 2025](https://developer.apple.com/wwdc25/). Some love it, some hate it, and others jumped straight into seeing how to they could create it in CSS.
+Folks have a lot to say about “liquid glass,” the design aesthetic that Apple introduced at [<VPIcon icon="fa-brands fa-apple"/>WWDC 2025](https://developer.apple.com/wwdc25/). Some love it, some hate it, and others jumped straight into seeing how to they could create it in CSS.
 
 There’s a lot to love, hate, and experience with liquid glass. You can love the way content reflects against backgrounds. You can hate the poor contrast between foreground and background. And you can be eager to work with it. All of those can be true at the same time.
 
-![Image credit: [<FontIcon icon="fa-brands fa-apple"/>Apple](https://apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/)](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/Apple-WWDC25-Liquid-Glass-Icon-Composer-250609_big.jpg.large_2x.jpg?resize=1960%2C1102&ssl=1)
+![Image credit: [<VPIcon icon="fa-brands fa-apple"/>Apple](https://apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/)](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/Apple-WWDC25-Liquid-Glass-Icon-Composer-250609_big.jpg.large_2x.jpg?resize=1960%2C1102&ssl=1)
 
-I, for one, am generally neutral with things like this for that exact reason. I’m intrigued by liquid glass, but hold some concern about legibility, particularly as someone who already struggles with the legibility of Apple’s existing design system (notably in Control Center). And I love looking at the [<FontIcon icon="fa-brands fa-codepen"/>many and clever ways](https://codepen.io/search/collections?q=Liquid%2520glass) that devs have tried to replicate liquid glass in their own experiments.
+I, for one, am generally neutral with things like this for that exact reason. I’m intrigued by liquid glass, but hold some concern about legibility, particularly as someone who already struggles with the legibility of Apple’s existing design system (notably in Control Center). And I love looking at the [<VPIcon icon="fa-brands fa-codepen"/>many and clever ways](https://codepen.io/search/collections?q=Liquid%2520glass) that devs have tried to replicate liquid glass in their own experiments.
 
-So, I’m in the process of gathering notes on the topic as I wrap my head around this “new” (or not-so-new, [<FontIcon icon="fas fa-globe"/>depending on who’s talking](https://bsky.app/profile/thomasfuchs.at/post/3lthgojtmbs27)) thing and figure out where it fits in my own work. These links are a choice selection of posts that I’ve found helpful and definitely not meant to be an exhaustive list of what’s out there.
+So, I’m in the process of gathering notes on the topic as I wrap my head around this “new” (or not-so-new, [<VPIcon icon="fas fa-globe"/>depending on who’s talking](https://bsky.app/profile/thomasfuchs.at/post/3lthgojtmbs27)) thing and figure out where it fits in my own work. These links are a choice selection of posts that I’ve found helpful and definitely not meant to be an exhaustive list of what’s out there.
 
 ---
 
@@ -72,7 +72,7 @@ In short:
 
 - It’s the first design system that is universally applied to all of Apple’s platforms, as opposed to a single platform like Apple’s last major overhaul, iOS 7.
 - It’s designed to refract light and dynamically react to user interactions.
-- By “dynamic” we’re referring to UI elements updating into others as the context changes, such as displaying additional controls. This sounds a lot like the [<FontIcon icon="fa-brands fa-apple"/>Dynamic Island](https://developer.apple.com/news/?id=mis6swzt), supporting shape-shifting animations.
+- By “dynamic” we’re referring to UI elements updating into others as the context changes, such as displaying additional controls. This sounds a lot like the [<VPIcon icon="fa-brands fa-apple"/>Dynamic Island](https://developer.apple.com/news/?id=mis6swzt), supporting shape-shifting animations.
 - There’s a focus on freeing up space by removing hard rectangular edges, allowing UI elements to become part of the content and respond to context.
 
 Apple also released a more in-depth video aimed at introducing liquid glass to designers and developers.
@@ -81,7 +81,7 @@ Apple also released a more in-depth video aimed at introducing liquid glass to d
 
 ::: important In short:
 
-- Liquid glass is an evolution of the “aqua” blue interface from [<FontIcon icon="fa-brands fa-wikipedia-w"/>macOS 10](https://en.wikipedia.org/wiki/Mac_OS_X_10.0), the real-time introduced in [<FontIcon icon="fa-brands fa-wikipedia-w"/>iOS 7](https://en.wikipedia.org/wiki/IOS_7), the “fluidity” of [<FontIcon icon="fa-brands fa-wikipedia-w"/>iOS 10](https://en.wikipedia.org/wiki/IOS_10), the flexibility of the Dynamic Island, and the immersive interface of [<FontIcon icon="fa-brands fa-apple"/>visionOS](https://developer.apple.com/visionos/).
+- Liquid glass is an evolution of the “aqua” blue interface from [<VPIcon icon="fa-brands fa-wikipedia-w"/>macOS 10](https://en.wikipedia.org/wiki/Mac_OS_X_10.0), the real-time introduced in [<VPIcon icon="fa-brands fa-wikipedia-w"/>iOS 7](https://en.wikipedia.org/wiki/IOS_7), the “fluidity” of [<VPIcon icon="fa-brands fa-wikipedia-w"/>iOS 10](https://en.wikipedia.org/wiki/IOS_10), the flexibility of the Dynamic Island, and the immersive interface of [<VPIcon icon="fa-brands fa-apple"/>visionOS](https://developer.apple.com/visionos/).
 - It’s a “digital meta-material” that dynamically bends and shapes light while moving fluidly like water.
 - It’s at least partially a response to hardware devices adopting deeper rounded corners.
 - Lensing: Background elements are bended and warped rather than scattering light as it’s been in previous designs. There’s gel-like feel to elements.
@@ -135,7 +135,7 @@ Right on cue, Apple has already made a number of developer resources available f
 
 ## ‘Beautiful’ and ‘Hard to Read’: Designers React to Apple’s Liquid Glass Update
 
-[<FontIcon icon="fas fa-globe"/>This Wired piece](https://wired.com/story/designers-react-to-apple-liquid-glass/) is a nice general overview of what liquid glass is and context about how it was introduced at WWDC 2025. I like getting a take on this from a general tech perspective as opposed to, say, someone’s quick hot take. It’s a helpful pulse on what’s happening from a high level without a bunch of hyperbole, setting the stage for digging deeper into things.
+[<VPIcon icon="fas fa-globe"/>This Wired piece](https://wired.com/story/designers-react-to-apple-liquid-glass/) is a nice general overview of what liquid glass is and context about how it was introduced at WWDC 2025. I like getting a take on this from a general tech perspective as opposed to, say, someone’s quick hot take. It’s a helpful pulse on what’s happening from a high level without a bunch of hyperbole, setting the stage for digging deeper into things.
 
 In short:
 
@@ -213,13 +213,13 @@ Traditionally, we fill backgrounds with solid or opaque solid color to establish
 
 It’s fun to see the difference approaches many folks have used to re-create the liquid glass effect in these early days. It amazes me that there is already a deluge of tutorials, generators, and even UI frameworks when we’re only a month past the WWDC 2025 introduction.
 
-- [<FontIcon icon="fa-brands fa-youtube"/>Create this trendy blurry glass effect with CSS](https://youtu.be/dsZ7RN9ItR4) (Kevin Powell)
-- [<FontIcon icon="fa-brands fa-youtube"/>Liquid Glass design using CSS](https://youtu.be/kTOLrsDlKQA) (Nordcraft)
-- [<FontIcon icon="fas fa-globe"/>Adopting Apple’s Liquid Glass: Examples and best practices](https://blog.logrocket.com/ux-design/adopting-liquid-glass-examples-best-practices/) (LogRocket)
-- [<FontIcon icon="fa-brands fa-figma"/>Liquid Glass Figma File](https://figma.com/community/file/1514237154489556536/ios-26-liquid-glass)
-- [<FontIcon icon="fas fa-globe"/>CSS Liquid Glass Effects](https://designfast.io/liquid-glass) (DesignFast)
-- [<FontIcon icon="fas fa-globe"/>Liquid Glass UI Framework](https://liquidglassui.org)
-- [<FontIcon icon="fas fa-globe"/>Liquid Glass CSS Generator](https://liquid-glass.pro/generator.html)
+- [<VPIcon icon="fa-brands fa-youtube"/>Create this trendy blurry glass effect with CSS](https://youtu.be/dsZ7RN9ItR4) (Kevin Powell)
+- [<VPIcon icon="fa-brands fa-youtube"/>Liquid Glass design using CSS](https://youtu.be/kTOLrsDlKQA) (Nordcraft)
+- [<VPIcon icon="fas fa-globe"/>Adopting Apple’s Liquid Glass: Examples and best practices](https://blog.logrocket.com/ux-design/adopting-liquid-glass-examples-best-practices/) (LogRocket)
+- [<VPIcon icon="fa-brands fa-figma"/>Liquid Glass Figma File](https://figma.com/community/file/1514237154489556536/ios-26-liquid-glass)
+- [<VPIcon icon="fas fa-globe"/>CSS Liquid Glass Effects](https://designfast.io/liquid-glass) (DesignFast)
+- [<VPIcon icon="fas fa-globe"/>Liquid Glass UI Framework](https://liquidglassui.org)
+- [<VPIcon icon="fas fa-globe"/>Liquid Glass CSS Generator](https://liquid-glass.pro/generator.html)
 
 ---
 

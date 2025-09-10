@@ -66,7 +66,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 
 `pip` is the standard package manager for Python, used to install and manage libraries that aren’t part of the Python standard library. You use `pip` to manage dependencies and install packages from the Python Package Index (PyPI).
 
-You can verify if you have `pip` by using commands like `where pip3` on Windows or `which pip3` on Linux and macOS. To install packages listed in a <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file, use the command `pip install -r requirements.txt`. This ensures your environment replicates the specified dependencies, maintaining consistency across different setups.
+You can verify if you have `pip` by using commands like `where pip3` on Windows or `which pip3` on Linux and macOS. To install packages listed in a <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file, use the command `pip install -r requirements.txt`. This ensures your environment replicates the specified dependencies, maintaining consistency across different setups.
 
 ::: info By the end of this tutorial, you’ll understand that
 
@@ -97,9 +97,9 @@ In this quiz, you'll test your understanding of Python's standard package manage
 
 ## Getting Started With `pip`
 
-So, what exactly does `pip` do? [<FontIcon icon="fas fa-globe"/>`pip`](https://pip.pypa.io/en/stable/) is a **package manager** for Python. That means it’s a tool that allows you to install and manage libraries and dependencies that aren’t distributed as part of the standard library. The name **pip** was introduced by Ian Bicking in 2008:
+So, what exactly does `pip` do? [<VPIcon icon="fas fa-globe"/>`pip`](https://pip.pypa.io/en/stable/) is a **package manager** for Python. That means it’s a tool that allows you to install and manage libraries and dependencies that aren’t distributed as part of the standard library. The name **pip** was introduced by Ian Bicking in 2008:
 
-::: info Ian Bicking (<FontIcon icon="fas fa-globe"/>ianbicking.org)
+::: info Ian Bicking (<VPIcon icon="fas fa-globe"/>ianbicking.org)
 
 > I’ve finished renaming pyinstall to its new name: pip. The name pip is \[an\] acronym and declaration: pip installs packages.
 
@@ -117,7 +117,7 @@ So, what exactly does `pip` do? [<FontIcon icon="fas fa-globe"/>`pip`](https://p
 
 Package management is so important that Python’s installers have included `pip` since versions 3.4 and 2.7.9, for Python 3 and Python 2, respectively. Many Python projects use `pip`, which makes it an essential tool for every Pythonista.
 
-The concept of a package manager might be familiar to you if you’re coming from another programming language. [<FontIcon icon="fa-brands fa-firefox"/>JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) uses [<FontIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/) for package management, [<FontIcon icon="iconfont icon-ruby"/>Ruby](https://ruby-lang.org/en/) uses [<FontIcon icon="iconfont icon-ruby"/>gem](https://rubygems.org/), and the [<FontIcon icon="fa-brands fa-microsoft"/>.NET platform](https://dotnet.microsoft.com/languages) uses [<FontIcon icon="fas fa-globe"/>NuGet](https://nuget.org/). In Python, `pip` has become the standard package manager.
+The concept of a package manager might be familiar to you if you’re coming from another programming language. [<VPIcon icon="fa-brands fa-firefox"/>JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) uses [<VPIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/) for package management, [<VPIcon icon="iconfont icon-ruby"/>Ruby](https://ruby-lang.org/en/) uses [<VPIcon icon="iconfont icon-ruby"/>gem](https://rubygems.org/), and the [<VPIcon icon="fa-brands fa-microsoft"/>.NET platform](https://dotnet.microsoft.com/languages) uses [<VPIcon icon="fas fa-globe"/>NuGet](https://nuget.org/). In Python, `pip` has become the standard package manager.
 
 ### Finding `pip` on Your System
 
@@ -133,7 +133,7 @@ You can verify that `pip` is available by looking for the `pip3` executable on y
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 where pip3
@@ -141,7 +141,7 @@ where pip3
 
 The `where` command on Windows will show you where you can find the executable of `pip3`. If Windows can’t find an executable named `pip3`, then you can also try looking for `pip` without the three (`3`) at the end.
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 which pip3
@@ -163,7 +163,7 @@ When you run your system `pip` directly, the command itself doesn’t reveal whi
 python -m pip
 ```
 
-Notice that you use `python -m` to run `pip`. The `-m` switch tells Python to run a module as an executable of the `python` interpreter. This way, you can ensure that your system default Python version runs the `pip` command. If you want to learn more about this way of running `pip`, then you can read Brett Cannon’s insightful article about [<FontIcon icon="fas fa-globe"/>the advantages of using `python -m pip`](https://snarky.ca/why-you-should-use-python-m-pip/).
+Notice that you use `python -m` to run `pip`. The `-m` switch tells Python to run a module as an executable of the `python` interpreter. This way, you can ensure that your system default Python version runs the `pip` command. If you want to learn more about this way of running `pip`, then you can read Brett Cannon’s insightful article about [<VPIcon icon="fas fa-globe"/>the advantages of using `python -m pip`](https://snarky.ca/why-you-should-use-python-m-pip/).
 
 ::: note
 
@@ -189,7 +189,7 @@ You can follow these steps to create a virtual environment and verify that you�
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m venv venv\
@@ -204,7 +204,7 @@ pip --version
 # pip 24.2 from ...\lib\site-packages\pip (python 3.12)
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m venv venv/
@@ -221,7 +221,7 @@ pip --version
 
 :::
 
-Here you initialize a virtual environment named `venv` by using Python’s built-in `venv` module. After running the command above, Python creates a directory named <FontIcon icon="fas fa-folder-pen"/>`venv/` in your current working directory. Then, you activate the virtual environment with the `source` command. The parentheses (`()`) surrounding your `venv` name indicate that you successfully activated the virtual environment.
+Here you initialize a virtual environment named `venv` by using Python’s built-in `venv` module. After running the command above, Python creates a directory named <VPIcon icon="fas fa-folder-pen"/>`venv/` in your current working directory. Then, you activate the virtual environment with the `source` command. The parentheses (`()`) surrounding your `venv` name indicate that you successfully activated the virtual environment.
 
 Finally, you check the version of the `pip3` and `pip` executables inside your activated virtual environment. Both point to the same `pip` module, so once your virtual environment is activated, you can use either `pip` or `pip3`. For consistency, you can also continue to use `python -m pip` inside the virtual environment.
 
@@ -229,9 +229,9 @@ Finally, you check the version of the `pip3` and `pip` executables inside your a
 
 When you run the `pip` command, you may get an error in some cases. Your specific error message will depend on your operating system:
 
-- <FontIcon icon="fa-brands fa-windows"/>: `'pip' is not recognized as an internal or external command, operable program or batch file.`
-- <FontIcon icon="fa-brands fa-linux"/>: `bash: pip: command not found`
-- <FontIcon icon="iconfont icon-macos"/>: `zsh: command not found: pip`
+- <VPIcon icon="fa-brands fa-windows"/>: `'pip' is not recognized as an internal or external command, operable program or batch file.`
+- <VPIcon icon="fa-brands fa-linux"/>: `bash: pip: command not found`
+- <VPIcon icon="iconfont icon-macos"/>: `zsh: command not found: pip`
 
 Error messages like these indicate that something went wrong with the installation of `pip`.
 
@@ -247,13 +247,13 @@ Although the error messages for various systems differ, they all point to the sa
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 echo $env:PATH
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 echo $PATH
@@ -263,22 +263,22 @@ echo $PATH
 
 The output of this command will show a list of locations (directories) on your disk where the operating system looks for executable programs. Depending on your system, locations can be separated by a colon (`:`) or a semicolon (`;`).
 
-By default, the directory that contains the `pip` executable should be present in `PATH` after you install Python or create a virtual environment. However, missing `pip` is a common issue. Two [<FontIcon icon="fas fa-globe"/>supported methods](https://pip.pypa.io/en/stable/installation/#supported-methods) can help you install `pip` again and add it to your `PATH`:
+By default, the directory that contains the `pip` executable should be present in `PATH` after you install Python or create a virtual environment. However, missing `pip` is a common issue. Two [<VPIcon icon="fas fa-globe"/>supported methods](https://pip.pypa.io/en/stable/installation/#supported-methods) can help you install `pip` again and add it to your `PATH`:
 
-1. The [<FontIcon icon="fa-brands fa-python"/>`ensurepip`](https://docs.python.org/3/library/ensurepip.html#module-ensurepip) module
-2. The [`get-pip.py` (<FontIcon icon="iconfont icon-github"/>`pypa/get-pip`)](https://github.com/pypa/get-pip) script
+1. The [<VPIcon icon="fa-brands fa-python"/>`ensurepip`](https://docs.python.org/3/library/ensurepip.html#module-ensurepip) module
+2. The [`get-pip.py` (<VPIcon icon="iconfont icon-github"/>`pypa/get-pip`)](https://github.com/pypa/get-pip) script
 
-The `ensurepip` module has been part of the standard library since Python 3.4. It was added to [<FontIcon icon="fa-brands fa-python"/>provide a straightforward way](https://python.org/dev/peps/pep-0453/) for you to reinstall `pip` if, for example, you skipped it when installing Python or you uninstalled `pip` at some point. Select your operating system below and run `ensurepip` accordingly:
+The `ensurepip` module has been part of the standard library since Python 3.4. It was added to [<VPIcon icon="fa-brands fa-python"/>provide a straightforward way](https://python.org/dev/peps/pep-0453/) for you to reinstall `pip` if, for example, you skipped it when installing Python or you uninstalled `pip` at some point. Select your operating system below and run `ensurepip` accordingly:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m ensurepip --upgrade
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m ensurepip --upgrade
@@ -294,17 +294,17 @@ The `ensurepip` module doesn’t access the Internet. The latest version of `pip
 
 :::
 
-Another way to fix your `pip` installation is to use the `get-pip.py` script. The `get-pip.py` file contains a full copy of `pip` as an encoded [**ZIP file**](/realpython.com/python-zip-import.md). You can download `get-pip.py` directly from the [<FontIcon icon="fas fa-globe"/>PyPA bootstrap page](https://bootstrap.pypa.io/get-pip.py). Once you have the script on your machine, then you [**run the Python script**](/realpython.com/run-python-scripts.md) like this:
+Another way to fix your `pip` installation is to use the `get-pip.py` script. The `get-pip.py` file contains a full copy of `pip` as an encoded [**ZIP file**](/realpython.com/python-zip-import.md). You can download `get-pip.py` directly from the [<VPIcon icon="fas fa-globe"/>PyPA bootstrap page](https://bootstrap.pypa.io/get-pip.py). Once you have the script on your machine, then you [**run the Python script**](/realpython.com/run-python-scripts.md) like this:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python get-pip.py
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python get-pip.py
@@ -312,17 +312,17 @@ python get-pip.py
 
 :::
 
-This script will install the latest version of `pip`, [<FontIcon icon="fas fa-globe"/>`setuptools`](https://setuptools.pypa.io/en/latest/), and [**`wheel`**](/realpython.com/python-wheels.md) in your current Python environment. If you only want to install `pip`, then you can add the `--no-setuptools` and `--no-wheel` options to your command.
+This script will install the latest version of `pip`, [<VPIcon icon="fas fa-globe"/>`setuptools`](https://setuptools.pypa.io/en/latest/), and [**`wheel`**](/realpython.com/python-wheels.md) in your current Python environment. If you only want to install `pip`, then you can add the `--no-setuptools` and `--no-wheel` options to your command.
 
-If none of the methods above work, then it might be worth trying to download the latest [<FontIcon icon="fa-brands fa-python"/>Python version](https://python.org/downloads/) for your current platform. You can follow the [**Python Installation & Setup Guide**](/realpython.com/installing-python.md) to make sure that `pip` is appropriately installed and works without errors.
+If none of the methods above work, then it might be worth trying to download the latest [<VPIcon icon="fa-brands fa-python"/>Python version](https://python.org/downloads/) for your current platform. You can follow the [**Python Installation & Setup Guide**](/realpython.com/installing-python.md) to make sure that `pip` is appropriately installed and works without errors.
 
 ---
 
 ## Installing Packages With `pip`
 
-Python is considered a [<FontIcon icon="fa-brands fa-python"/>batteries included](https://python.org/dev/peps/pep-0206/#id3) language. This means that the [<FontIcon icon="fa-brands fa-python"/>Python standard library](https://docs.python.org/3/py-modindex.html) contains an extensive set of [**packages and modules**](/realpython.com/python-modules-packages.md) to help developers with their coding projects.
+Python is considered a [<VPIcon icon="fa-brands fa-python"/>batteries included](https://python.org/dev/peps/pep-0206/#id3) language. This means that the [<VPIcon icon="fa-brands fa-python"/>Python standard library](https://docs.python.org/3/py-modindex.html) contains an extensive set of [**packages and modules**](/realpython.com/python-modules-packages.md) to help developers with their coding projects.
 
-At the same time, Python has an active community that contributes an even more extensive set of packages that can help you with your development needs. These packages are published to the [<FontIcon icon="fa-brands fa-python"/>Python Package Index](https://pypi.org/), also known as **PyPI** (pronounced *Pie Pea Eye*).
+At the same time, Python has an active community that contributes an even more extensive set of packages that can help you with your development needs. These packages are published to the [<VPIcon icon="fa-brands fa-python"/>Python Package Index](https://pypi.org/), also known as **PyPI** (pronounced *Pie Pea Eye*).
 
 ::: note
 
@@ -334,7 +334,7 @@ PyPI hosts an extensive collection of packages, including development frameworks
 
 ### Using the Python Package Index (PyPI)
 
-One of the many packages that PyPI hosts is called [**`requests`**](/realpython.com/python-requests.md). The `requests` library helps you to [**interact with web services**](/realpython.com/api-integration-in-python.md) by abstracting the complexities of [<FontIcon icon="fa-brands fa-wikipedia-w"/>HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) requests. You can learn all about `requests` on its official [<FontIcon icon="fa-brands fa-python"/>documentation site](http://docs.python-requests.org/en/master/).
+One of the many packages that PyPI hosts is called [**`requests`**](/realpython.com/python-requests.md). The `requests` library helps you to [**interact with web services**](/realpython.com/api-integration-in-python.md) by abstracting the complexities of [<VPIcon icon="fa-brands fa-wikipedia-w"/>HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) requests. You can learn all about `requests` on its official [<VPIcon icon="fa-brands fa-python"/>documentation site](http://docs.python-requests.org/en/master/).
 
 When you want to use the `requests` package in your project, you must first install it into your environment. If you don’t want to install it in your system Python site-packages, then you can create a virtual environment first, as shown above.
 
@@ -344,13 +344,13 @@ To install packages, `pip` provides an `install` command. You can run it to inst
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip install requests
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip install requests
@@ -366,13 +366,13 @@ It’s also possible to install multiple packages in a single command:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip install rptree codetiming
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip install rptree codetiming
@@ -380,7 +380,7 @@ python -m pip install rptree codetiming
 
 :::
 
-By chaining the packages `rptree` and `codetiming` in the `pip install` command, you install both packages at once. You can add as many packages as you want to the `pip install` command. In cases like this, a <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file can come in handy. Later in this tutorial, you’ll learn how to use a <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file to install many packages at once.
+By chaining the packages `rptree` and `codetiming` in the `pip install` command, you install both packages at once. You can add as many packages as you want to the `pip install` command. In cases like this, a <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file can come in handy. Later in this tutorial, you’ll learn how to use a <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file to install many packages at once.
 
 ::: note
 
@@ -392,7 +392,7 @@ You can use the `list` command to display the packages installed in your environ
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip list
@@ -409,7 +409,7 @@ python -m pip list
 # urllib3            x.y.z
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip list
@@ -434,7 +434,7 @@ To get more information about a specific package, you can look at the package’
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip show requests
@@ -447,7 +447,7 @@ python -m pip show requests
 # Required-by:
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip show requests
@@ -462,7 +462,7 @@ python -m pip show requests
 
 :::
 
-The output of this command on your system will list the package’s metadata. The `Requires` line lists packages, such as [<FontIcon icon="fas fa-globe"/>`certifi`](https://pypi.org/project/certifi/), [<FontIcon icon="fas fa-globe"/>`idna`](https://pypi.org/project/idna/), [<FontIcon icon="fas fa-globe"/>`charset-normalizer`](https://charset-normalizer.readthedocs.io/en/latest/), and [<FontIcon icon="fas fa-globe"/>`urllib3`](https://urllib3.readthedocs.io/en/stable/). These were installed because `requests` depends on them to work correctly.
+The output of this command on your system will list the package’s metadata. The `Requires` line lists packages, such as [<VPIcon icon="fas fa-globe"/>`certifi`](https://pypi.org/project/certifi/), [<VPIcon icon="fas fa-globe"/>`idna`](https://pypi.org/project/idna/), [<VPIcon icon="fas fa-globe"/>`charset-normalizer`](https://charset-normalizer.readthedocs.io/en/latest/), and [<VPIcon icon="fas fa-globe"/>`urllib3`](https://urllib3.readthedocs.io/en/stable/). These were installed because `requests` depends on them to work correctly.
 
 Now that you’ve installed `requests` and its dependencies, you can [**import**](/realpython.com/python-modules-packages.md) it just like any other regular package in your Python code. Start the [**interactive Python interpreter**](/realpython.com/interacting-with-python.md) and import the `requests` package:
 
@@ -484,19 +484,19 @@ By default, `pip` uses PyPI to look for packages. But `pip` also gives you the o
 
 Using `pip` with a custom index can be helpful when the PyPI domain is blocked on your network or if you want to work with packages that aren’t publicly available. Sometimes, system administrators also create their own internal package index to better control which package versions are available to `pip` users on the company’s network.
 
-A custom package index must comply with [<FontIcon icon="fa-brands fa-python"/>PEP 503 - Simple Repository API](https://python.org/dev/peps/pep-0503/) to work with `pip`. You can get an impression of how such an [<FontIcon icon="fa-brands fa-wikipedia-w"/>API (Application Programming Interface)](https://en.wikipedia.org/wiki/API) looks by visiting the [<FontIcon icon="fas fa-globe"/>PyPI Simple Index](https://pypi.org/simple/)—but be aware that this is a large page with a lot of hard-to-parse content. Any custom index that follows the same API can be targeted with the `--index-url` option. Instead of typing `--index-url`, you can also use the `-i` shorthand.
+A custom package index must comply with [<VPIcon icon="fa-brands fa-python"/>PEP 503 - Simple Repository API](https://python.org/dev/peps/pep-0503/) to work with `pip`. You can get an impression of how such an [<VPIcon icon="fa-brands fa-wikipedia-w"/>API (Application Programming Interface)](https://en.wikipedia.org/wiki/API) looks by visiting the [<VPIcon icon="fas fa-globe"/>PyPI Simple Index](https://pypi.org/simple/)—but be aware that this is a large page with a lot of hard-to-parse content. Any custom index that follows the same API can be targeted with the `--index-url` option. Instead of typing `--index-url`, you can also use the `-i` shorthand.
 
-For example, to install the [**`rptree`**](/realpython.com/directory-tree-generator-python.md) tool from the [<FontIcon icon="fas fa-globe"/>TestPyPI](https://test.pypi.org/) package index, you can run the following command:
+For example, to install the [**`rptree`**](/realpython.com/directory-tree-generator-python.md) tool from the [<VPIcon icon="fas fa-globe"/>TestPyPI](https://test.pypi.org/) package index, you can run the following command:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip install -i https://test.pypi.org/simple/ rptree
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip install -i https://test.pypi.org/simple/ rptree
@@ -506,17 +506,17 @@ python -m pip install -i https://test.pypi.org/simple/ rptree
 
 With the `-i` option, you tell `pip` to look at a different package index instead of PyPI, the default one. Here, you’re installing `rptree` from TestPyPI rather than from PyPI. You can use TestPyPI to fine-tune the [**publishing process for your Python packages**](/realpython.com/pypi-publish-python-package.md) without cluttering the production package index on PyPI.
 
-If you need to use an alternative index permanently, then you can set the `index-url` option in the `pip` [<FontIcon icon="fas fa-globe"/>configuration file](https://pip.pypa.io/en/stable/topics/configuration/). This file is called `pip.conf`, and you can find its location by running the following command:
+If you need to use an alternative index permanently, then you can set the `index-url` option in the `pip` [<VPIcon icon="fas fa-globe"/>configuration file](https://pip.pypa.io/en/stable/topics/configuration/). This file is called `pip.conf`, and you can find its location by running the following command:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip config list -vv
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip config list -vv
@@ -526,30 +526,30 @@ python -m pip config list -vv
 
 With the `pip config list` command, you can list the active configuration. This command only outputs something when you have custom configurations set. Otherwise, the output is empty. That’s when the additive `--verbose`, or `-vv`, option can be helpful. When you add `-vv`, `pip` shows you where it looks for the different configuration levels.
 
-If you want to add a <FontIcon icon="fas fa-file-lines"/>`pip.conf` file, then you can choose one of the locations that `pip config list -vv` listed. A `pip.conf` file with a custom package index looks like this:
+If you want to add a <VPIcon icon="fas fa-file-lines"/>`pip.conf` file, then you can choose one of the locations that `pip config list -vv` listed. A `pip.conf` file with a custom package index looks like this:
 
-Configuration File <FontIcon icon="fas fa-file-lines"/>`pip.conf`
+Configuration File <VPIcon icon="fas fa-file-lines"/>`pip.conf`
 
 ```toml title="pip.conf"
 [global]
 index-url = https://test.pypi.org/simple/
 ```
 
-When you have a `pip.conf` file like this, `pip` will use the defined `index-url` to look for packages. With this configuration, you don’t need to use the `--index-url` option in your `pip install` command to specify that you only want packages that can be found in the [<FontIcon icon="fas fa-globe"/>Simple API](https://test.pypi.org/simple/) of TestPyPI.
+When you have a `pip.conf` file like this, `pip` will use the defined `index-url` to look for packages. With this configuration, you don’t need to use the `--index-url` option in your `pip install` command to specify that you only want packages that can be found in the [<VPIcon icon="fas fa-globe"/>Simple API](https://test.pypi.org/simple/) of TestPyPI.
 
 ### Installing Packages From Your Git Repositories
 
-You’re not limited to packages hosted on PyPI or other package indexes. `pip` also provides the option to install packages from a [**Git repository**](/realpython.com/python-git-github-intro.md). But even when a package is hosted on PyPI, like the [<FontIcon icon="fas fa-globe"/>Real Python directory tree generator](https://pypi.org/project/rptree/), you can opt to install it from its [Git repository (<FontIcon icon="iconfont icon-github"/>`realpython/rptree`)](https://github.com/realpython/rptree):
+You’re not limited to packages hosted on PyPI or other package indexes. `pip` also provides the option to install packages from a [**Git repository**](/realpython.com/python-git-github-intro.md). But even when a package is hosted on PyPI, like the [<VPIcon icon="fas fa-globe"/>Real Python directory tree generator](https://pypi.org/project/rptree/), you can opt to install it from its [Git repository (<VPIcon icon="iconfont icon-github"/>`realpython/rptree`)](https://github.com/realpython/rptree):
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip install git+https://github.com/realpython/rptree
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip install git+https://github.com/realpython/rptree
@@ -570,7 +570,7 @@ After starting the interactive Python interpreter, you import the `rptree` modul
 
 ::: note
 
-If you’re using a version control system (VCS) other than Git, `pip` has you covered. To learn how to use `pip` with Mercurial, Subversion, or Bazaar, check out the [<FontIcon icon="fas fa-globe"/>VCS Support chapter](https://pip.pypa.io/en/stable/topics/vcs-support/) of the `pip` documentation.
+If you’re using a version control system (VCS) other than Git, `pip` has you covered. To learn how to use `pip` with Mercurial, Subversion, or Bazaar, check out the [<VPIcon icon="fas fa-globe"/>VCS Support chapter](https://pip.pypa.io/en/stable/topics/vcs-support/) of the `pip` documentation.
 
 :::
 
@@ -582,7 +582,7 @@ When working on your own package, installing it in an editable mode can make sen
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 clone https://github.com/realpython/rptree
@@ -592,7 +592,7 @@ venv\Scripts\activate.bat
 python -m pip install -e .
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 git clone https://github.com/realpython/rptree
@@ -619,7 +619,7 @@ If you hadn’t used the `-e` flag, `pip` would’ve installed the package norma
 ~/rptree/venv/lib/python3.12/site-packages/rptree.egg-link
 ```
 
-Using the `pip install` command with the `-e` flag is just one of many options that `pip install` offers. You can check out [<FontIcon icon="fas fa-globe"/>`pip install` examples](https://pip.pypa.io/en/stable/cli/pip_install/#examples) in the `pip` documentation. There you’ll learn how to install specific versions of a package or point `pip` to a different index that’s not PyPI.
+Using the `pip install` command with the `-e` flag is just one of many options that `pip install` offers. You can check out [<VPIcon icon="fas fa-globe"/>`pip install` examples](https://pip.pypa.io/en/stable/cli/pip_install/#examples) in the `pip` documentation. There you’ll learn how to install specific versions of a package or point `pip` to a different index that’s not PyPI.
 
 In the next section, you’ll learn how requirements files can help with your `pip` workflows.
 
@@ -635,19 +635,19 @@ You want to create a specification of the dependencies and versions that you use
 
 When you share your Python project with other developers, you may want them to use the same versions of external packages that you’re using. Maybe a specific version of a package contains a new feature that you rely on, or the version of a package that you’re using is incompatible with former versions.
 
-These external dependencies are also called requirements. You’ll often find Python projects that pin their requirements in a file called <FontIcon icon="fas fa-file-lines"/>`requirements.txt` or similar. The [<FontIcon icon="fas fa-globe"/>requirements file format](https://pip.pypa.io/en/stable/reference/requirements-file-format/) allows you to specify precisely which packages and versions should be installed.
+These external dependencies are also called requirements. You’ll often find Python projects that pin their requirements in a file called <VPIcon icon="fas fa-file-lines"/>`requirements.txt` or similar. The [<VPIcon icon="fas fa-globe"/>requirements file format](https://pip.pypa.io/en/stable/reference/requirements-file-format/) allows you to specify precisely which packages and versions should be installed.
 
 Running `pip help` shows that there’s a `freeze` command that outputs the installed packages in requirements format. You can use this command, redirecting the output to a file to generate a requirements file:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip freeze > requirements.txt
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip freeze > requirements.txt
@@ -655,9 +655,9 @@ python -m pip freeze > requirements.txt
 
 :::
 
-This command creates a <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file in your working directory with the following content:
+This command creates a <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file in your working directory with the following content:
 
-Python Requirements <FontIcon icon="fas fa-file-lines"/>`requirements.txt`
+Python Requirements <VPIcon icon="fas fa-file-lines"/>`requirements.txt`
 
 ```plaiintext title="requirements.txt"
 certifi==x.y.z
@@ -667,21 +667,21 @@ requests==x.y.z
 urllib3==x.y.z
 ```
 
-Remember that `x.y.z` displayed above is a placeholder format for the package versions. Your <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file will contain real version numbers.
+Remember that `x.y.z` displayed above is a placeholder format for the package versions. Your <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file will contain real version numbers.
 
-The `freeze` command dumps the name and version of the currently installed packages to standard output. You can redirect the output to a file that you can later use to install your exact requirements into another system. You can name the requirements file whatever you want. However, a widely adopted convention is to name it <FontIcon icon="fas fa-file-lines"/>`requirements.txt`.
+The `freeze` command dumps the name and version of the currently installed packages to standard output. You can redirect the output to a file that you can later use to install your exact requirements into another system. You can name the requirements file whatever you want. However, a widely adopted convention is to name it <VPIcon icon="fas fa-file-lines"/>`requirements.txt`.
 
 When you want to replicate the environment in another system, you can run `pip install`, using the `-r` switch to specify the requirements file:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip install -r requirements.txt
@@ -689,11 +689,11 @@ python -m pip install -r requirements.txt
 
 :::
 
-In the command above, you tell `pip` to install the packages listed in <FontIcon icon="fas fa-file-lines"/>`requirements.txt` into your current environment. The package versions will match the version constraints that the <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file contains. You can run `pip list` to display the packages you just installed, with their version numbers:
+In the command above, you tell `pip` to install the packages listed in <VPIcon icon="fas fa-file-lines"/>`requirements.txt` into your current environment. The package versions will match the version constraints that the <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file contains. You can run `pip list` to display the packages you just installed, with their version numbers:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip list
@@ -708,7 +708,7 @@ python -m pip list
 # urllib3            x.y.z
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip list
@@ -725,7 +725,7 @@ python -m pip list
 
 :::
 
-Now you’re ready to share your project! You can submit <FontIcon icon="fas fa-file-lines"/>`requirements.txt` into a version control system like Git and use it to replicate the same environment on other machines. But wait, what happens if new updates are released for these packages?
+Now you’re ready to share your project! You can submit <VPIcon icon="fas fa-file-lines"/>`requirements.txt` into a version control system like Git and use it to replicate the same environment on other machines. But wait, what happens if new updates are released for these packages?
 
 ### Fine-Tuning Requirements
 
@@ -733,9 +733,9 @@ The problem with hardcoding your packages’ versions and dependencies is that p
 
 The requirements file format allows you to specify dependency versions using comparison operators that give you some flexibility to ensure packages are updated while still defining the base version of a package.
 
-Open <FontIcon icon="fas fa-file-lines"/>`requirements.txt` in your favorite [**editor**](/realpython.com/python-ides-code-editors-guide.md) and turn the equality operators (`==`) into greater than or equal to operators (`>=`), like in the example below:
+Open <VPIcon icon="fas fa-file-lines"/>`requirements.txt` in your favorite [**editor**](/realpython.com/python-ides-code-editors-guide.md) and turn the equality operators (`==`) into greater than or equal to operators (`>=`), like in the example below:
 
-Python Requirements <FontIcon icon="fas fa-file-lines"/>`requirements.txt`
+Python Requirements <VPIcon icon="fas fa-file-lines"/>`requirements.txt`
 
 ```plaintext title="requirements.txt"
 certifi>=x.y.z
@@ -751,13 +751,13 @@ Next, you can upgrade the packages in your requirements file by running the `ins
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip install -U -r requirements.txt
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip install -U -r requirements.txt
@@ -767,7 +767,7 @@ python -m pip install -U -r requirements.txt
 
 If a new version is available for a listed package, then the package will be upgraded.
 
-In an ideal world, new versions of packages would be backward compatible and would never introduce new bugs. Unfortunately, new versions can introduce changes that’ll break your application. To fine-tune your requirements, the requirements file syntax supports additional [<FontIcon icon="fa-brands fa-python"/>version specifiers](https://python.org/dev/peps/pep-0440/#version-specifiers).
+In an ideal world, new versions of packages would be backward compatible and would never introduce new bugs. Unfortunately, new versions can introduce changes that’ll break your application. To fine-tune your requirements, the requirements file syntax supports additional [<VPIcon icon="fa-brands fa-python"/>version specifiers](https://python.org/dev/peps/pep-0440/#version-specifiers).
 
 Imagine that a new version, `3.0`, of `requests` is published but introduces an incompatible change that breaks your application. You can modify the requirements file to prevent `3.0` or higher from being installed:
 
@@ -778,36 +778,36 @@ idna==x.y.z
 requests>=x.y.z, <3.0 urllib3==x.y.z
 ```
 
-Changing the version specifier for the `requests` package ensures that any version greater than or equal to `3.0` doesn’t get installed. The `pip` documentation provides extensive information about the [<FontIcon icon="fas fa-globe"/>requirements file format](https://pip.pypa.io/en/stable/reference/requirements-file-format/), and you can consult it to learn more.
+Changing the version specifier for the `requests` package ensures that any version greater than or equal to `3.0` doesn’t get installed. The `pip` documentation provides extensive information about the [<VPIcon icon="fas fa-globe"/>requirements file format](https://pip.pypa.io/en/stable/reference/requirements-file-format/), and you can consult it to learn more.
 
 ### Separating Production and Development Dependencies
 
 Not all packages that you install during the development of your applications will be production dependencies. For example, you’ll probably want to test your application, so you need a test framework. A popular framework for testing is [**`pytest`**](/realpython.com/pytest-python-testing.md). You want to install it in your development environment, but you don’t want it in your production environment because it isn’t a production dependency.
 
-You create a second requirements file, <FontIcon icon="fas fa-file-lines"/>`requirements_dev.txt`, to list additional tools to set up a development environment:
+You create a second requirements file, <VPIcon icon="fas fa-file-lines"/>`requirements_dev.txt`, to list additional tools to set up a development environment:
 
 ```plaintext title="requirements_dev.txt"
 pytest>=x.y.z
 ```
 
-Having two requirements files will demand that you use `pip` to install both of them, <FontIcon icon="fas fa-file-lines"/>`requirements.txt` and <FontIcon icon="fas fa-file-lines"/>`requirements_dev.txt`. Fortunately, `pip` allows you to specify additional parameters within a requirements file, so you can modify <FontIcon icon="fas fa-file-lines"/>`requirements_dev.txt` to also install the requirements from the production <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file:
+Having two requirements files will demand that you use `pip` to install both of them, <VPIcon icon="fas fa-file-lines"/>`requirements.txt` and <VPIcon icon="fas fa-file-lines"/>`requirements_dev.txt`. Fortunately, `pip` allows you to specify additional parameters within a requirements file, so you can modify <VPIcon icon="fas fa-file-lines"/>`requirements_dev.txt` to also install the requirements from the production <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file:
 
 ```plaintext title="requirements_dev.txt"
 -r requirements.txt
 pytest>=x.y.z
 ```
 
-Notice that you use the same `-r` switch to install the production <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file. Now, in your development environment, you only have to run this single command to install all requirements:
+Notice that you use the same `-r` switch to install the production <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file. Now, in your development environment, you only have to run this single command to install all requirements:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip install -r requirements_dev.txt
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip install -r requirements_dev.txt
@@ -815,17 +815,17 @@ python -m pip install -r requirements_dev.txt
 
 :::
 
-Because <FontIcon icon="fas fa-file-lines"/>`requirements_dev.txt` contains the `-r requirements.txt` line, you’ll install not only `pytest` but also the pinned requirements of <FontIcon icon="fas fa-file-lines"/>`requirements.txt`. In a production environment, it’s sufficient to install the production requirements only:
+Because <VPIcon icon="fas fa-file-lines"/>`requirements_dev.txt` contains the `-r requirements.txt` line, you’ll install not only `pytest` but also the pinned requirements of <VPIcon icon="fas fa-file-lines"/>`requirements.txt`. In a production environment, it’s sufficient to install the production requirements only:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip install -r requirements.txt
@@ -833,7 +833,7 @@ python -m pip install -r requirements.txt
 
 :::
 
-With this command, you install the requirements listed in <FontIcon icon="fas fa-file-lines"/>`requirements.txt`. In contrast to your development environment, your production environment won’t have `pytest` installed.
+With this command, you install the requirements listed in <VPIcon icon="fas fa-file-lines"/>`requirements.txt`. In contrast to your development environment, your production environment won’t have `pytest` installed.
 
 ### Freezing Requirements for Production
 
@@ -848,11 +848,11 @@ After you’ve finished development with your current requirements, a workflow t
 | Step | Command | Explanation |
 | --- | --- | --- |
 | 1 | `pytest` | Run your tests and verify that your code is working properly. |
-| 2 | `pip install -U -r requirements.txt` | Upgrade your requirements to versions that match the constraints in your <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file. |
+| 2 | `pip install -U -r requirements.txt` | Upgrade your requirements to versions that match the constraints in your <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file. |
 | 3 | `pytest` | Run your tests and consider downgrading any dependency that introduced errors to your code. |
-| 4 | `pip freeze > requirements_lock.txt` | Once the project works correctly, freeze the dependencies into a <FontIcon icon="fas fa-file-lines"/>`requirements_lock.txt` file. |
+| 4 | `pip freeze > requirements_lock.txt` | Once the project works correctly, freeze the dependencies into a <VPIcon icon="fas fa-file-lines"/>`requirements_lock.txt` file. |
 
-With a workflow like this, the <FontIcon icon="fas fa-file-lines"/>`requirements_lock.txt` file will contain exact version specifiers and can be used to replicate your environment. You’ve ensured that when your users install the packages listed in <FontIcon icon="fas fa-file-lines"/>`requirements_lock.txt` into their own environments, they’ll be using the versions that you intend them to use.
+With a workflow like this, the <VPIcon icon="fas fa-file-lines"/>`requirements_lock.txt` file will contain exact version specifiers and can be used to replicate your environment. You’ve ensured that when your users install the packages listed in <VPIcon icon="fas fa-file-lines"/>`requirements_lock.txt` into their own environments, they’ll be using the versions that you intend them to use.
 
 Freezing your requirements is an important step to ensure that your Python project works the same way for your users in their environments as it did in yours.
 
@@ -868,7 +868,7 @@ Before you uninstall a package, make sure to run the `show` command for that pac
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip show requests
@@ -884,7 +884,7 @@ python -m pip show requests
 # Requires: certifi, idna, charset-normalizer, urllib3 Required-by:
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip show requests
@@ -919,13 +919,13 @@ The `uninstall` command shows you the files that will be removed and asks for co
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip uninstall urllib3 -y
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip uninstall urllib3 -y
@@ -939,13 +939,13 @@ In a single call, you can specify all the packages that you want to uninstall:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip uninstall -y charset-normalizer idna requests
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip uninstall -y charset-normalizer idna requests
@@ -959,13 +959,13 @@ You can also uninstall all the packages listed in a requirements file by providi
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-powershell"/>
+@tab:active <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 python -m pip uninstall -r requirements.txt -y
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>,<FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>,<VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 python -m pip uninstall -r requirements.txt -y
@@ -1005,7 +1005,7 @@ Here are some other package management tools that are available for Python:
 }
 ```
 
-**Conda** is a package, dependency, and environment manager for many languages, including Python. It comes from [<FontIcon icon="iconfont icon-anaconda"/>Anaconda](https://anaconda.com/), which started as a data science package for Python. Consequently, it’s widely used for data science and [**machine learning applications**](/realpython.com/python-windows-machine-learning-setup.md). Conda operates its own [<FontIcon icon="fas fa-globe"/>index](https://repo.continuum.io/) to host compatible packages.
+**Conda** is a package, dependency, and environment manager for many languages, including Python. It comes from [<VPIcon icon="iconfont icon-anaconda"/>Anaconda](https://anaconda.com/), which started as a data science package for Python. Consequently, it’s widely used for data science and [**machine learning applications**](/realpython.com/python-windows-machine-learning-setup.md). Conda operates its own [<VPIcon icon="fas fa-globe"/>index](https://repo.continuum.io/) to host compatible packages.
 
 @tab Poetry
 
@@ -1019,7 +1019,7 @@ Here are some other package management tools that are available for Python:
 }
 ```
 
-**Poetry** will look very familiar to you if you’re coming from [<FontIcon icon="fa-brands fa-firefox"/>JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [<FontIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/). Poetry goes beyond [**package management**](/realpython.com/dependency-management-python-poetry.md), helping you build distributions for your applications and libraries and deploying them to PyPI.
+**Poetry** will look very familiar to you if you’re coming from [<VPIcon icon="fa-brands fa-firefox"/>JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [<VPIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/). Poetry goes beyond [**package management**](/realpython.com/dependency-management-python-poetry.md), helping you build distributions for your applications and libraries and deploying them to PyPI.
 
 @tab Pipenv
 
@@ -1036,7 +1036,7 @@ Here are some other package management tools that are available for Python:
 
 https://pypi.org/project/uv/
 
-**uv** stands for *universal*, reflecting uv’s broad applicability planned for the future. The tool is being advertised as a [<FontIcon icon="fa-brands fa-rust"/>Cargo for Python](https://blog.rust-lang.org/2016/05/05/cargo-pillars.html#pillars-of-cargo), aiming to become a drop-in replacement for `pip`. The uv project was unveiled in [**February 2024**](/realpython.com/python-news-february-2024.md#astral-unveils-python-packaging-in-rust) by [<FontIcon icon="fas fa-globe"/>Astral](https://astral.sh/), the company founded by [<FontIcon icon="fas fa-globe"/>Charlie Marsh](https://crmarsh.com/), who gained fame after authoring [**Ruff**](/realpython.com/ruff-python.md).
+**uv** stands for *universal*, reflecting uv’s broad applicability planned for the future. The tool is being advertised as a [<VPIcon icon="fa-brands fa-rust"/>Cargo for Python](https://blog.rust-lang.org/2016/05/05/cargo-pillars.html#pillars-of-cargo), aiming to become a drop-in replacement for `pip`. The uv project was unveiled in [**February 2024**](/realpython.com/python-news-february-2024.md#astral-unveils-python-packaging-in-rust) by [<VPIcon icon="fas fa-globe"/>Astral](https://astral.sh/), the company founded by [<VPIcon icon="fas fa-globe"/>Charlie Marsh](https://crmarsh.com/), who gained fame after authoring [**Ruff**](/realpython.com/ruff-python.md).
 
 :::
 
@@ -1060,7 +1060,7 @@ Many Python projects use the `pip` package manager to manage their dependencies.
 
 In addition, you’ve learned about the importance of keeping dependencies up to date and alternatives to `pip` that can help you manage those dependencies.
 
-By taking a closer look at `pip`, you’ve explored an essential tool in your Python development workflows. With `pip`, you can install and manage any additional packages that you find on [<FontIcon icon="iconfont icon-pypi"/>PyPI](https://pypi.org/). You can use external packages from other developers as requirements and concentrate on the code that makes your project unique.
+By taking a closer look at `pip`, you’ve explored an essential tool in your Python development workflows. With `pip`, you can install and manage any additional packages that you find on [<VPIcon icon="iconfont icon-pypi"/>PyPI](https://pypi.org/). You can use external packages from other developers as requirements and concentrate on the code that makes your project unique.
 
 ---
 
@@ -1094,9 +1094,9 @@ You can check if you have `pip` by running a command like `where pip3` on Window
 
 :::
 
-::: details How can you install packages from a <FontIcon icon="fas fa-file-lines"/>`requirements.txt` with `pip`?
+::: details How can you install packages from a <VPIcon icon="fas fa-file-lines"/>`requirements.txt` with `pip`?
 
-You can install packages from a <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file by using the command `pip install -r requirements.txt`, which installs all listed packages with their specified versions.
+You can install packages from a <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file by using the command `pip install -r requirements.txt`, which installs all listed packages with their specified versions.
 
 :::
 

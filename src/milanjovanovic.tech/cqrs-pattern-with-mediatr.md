@@ -72,7 +72,7 @@ But first, we have to understand what CQRS is.
 
 ## What Exactly is CQRS?
 
-[<FontIcon icon="fa-brands fa-microsoft"/>CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs) stands for **Command Query Responsibility Segregation**. The CQRS pattern uses separate models for reading and updating data. The benefits of using CQRS are complexity management, improved performance, scalability, and security.
+[<VPIcon icon="fa-brands fa-microsoft"/>CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs) stands for **Command Query Responsibility Segregation**. The CQRS pattern uses separate models for reading and updating data. The benefits of using CQRS are complexity management, improved performance, scalability, and security.
 
 The standard approach for working with a database is using the same model to query and update data. This is simple and works great for most CRUD operations. However, in more complex applications, it becomes difficult to maintain. On the write side, you could have complex business logic and validation in the model. On the read side, you may need to perform many different queries.
 
@@ -84,7 +84,7 @@ Having separate models for commands and queries allows you to scale them indepen
 
 ## How Is It Different From CQS?
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>CQS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) stands for **Command Query Separation**. It's a term coined by Bertrand Meyer in his book [<FontIcon icon="fa-brands fa-wikipedia-w"/>Object-Oriented Software Construction.](https://en.wikipedia.org/wiki/Object-Oriented_Software_Construction)
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>CQS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) stands for **Command Query Separation**. It's a term coined by Bertrand Meyer in his book [<VPIcon icon="fa-brands fa-wikipedia-w"/>Object-Oriented Software Construction.](https://en.wikipedia.org/wiki/Object-Oriented_Software_Construction)
 
 The basic premise of CQS is splitting an object's methods into **Commands** and **Queries**.
 
@@ -109,7 +109,7 @@ Eventual consistency significantly increases the complexity of your application.
 
 There are many flavors of this approach:
 
-- SQL database on the write side and NoSQL database (for example, [<FontIcon icon="fas fa-globe"/>RavenDB](https://ravendb.net/)) on the read side
+- SQL database on the write side and NoSQL database (for example, [<VPIcon icon="fas fa-globe"/>RavenDB](https://ravendb.net/)) on the read side
 - Event sourcing on the write side and NoSQL database on the read side
 - Using Redis or some other distributed cache on the read side
 
@@ -119,15 +119,15 @@ Separating the models for updating and reading data allows you to choose the bes
 
 ## Logical CQRS Architecture
 
-How do you apply the CQRS pattern to your system? I prefer using [MediatR. (<FontIcon icon="iconfont icon-github"/>`jbogard/MediatR`)](https://github.com/jbogard/MediatR)
+How do you apply the CQRS pattern to your system? I prefer using [MediatR. (<VPIcon icon="iconfont icon-github"/>`jbogard/MediatR`)](https://github.com/jbogard/MediatR)
 
-MediatR implements the [<FontIcon icon="fas fa-globe"/>mediator pattern](https://refactoring.guru/design-patterns/mediator) to solve a simple problem - decoupling the in-process sending of messages from handling messages.
+MediatR implements the [<VPIcon icon="fas fa-globe"/>mediator pattern](https://refactoring.guru/design-patterns/mediator) to solve a simple problem - decoupling the in-process sending of messages from handling messages.
 
 You can extend MediatR's `IRequest` interface with a custom `ICommand` and `IQuery` abstraction. This allows you to define commands and queries in your system explicitly.
 
-On the write side, I typically use [<FontIcon icon="fa-brands fa-microsoft"/>EF Core](https://learn.microsoft.com/en-us/ef/core/) and a rich domain model to encapsulate business logic. The command flow uses EF to load an entity into memory, execute the domain logic, and save the changes to the database.
+On the write side, I typically use [<VPIcon icon="fa-brands fa-microsoft"/>EF Core](https://learn.microsoft.com/en-us/ef/core/) and a rich domain model to encapsulate business logic. The command flow uses EF to load an entity into memory, execute the domain logic, and save the changes to the database.
 
-On the read side, I want as little indirection as possible. Using [Dapper (<FontIcon icon="iconfont icon-github"/>`DapperLib/Dapper`)](https://github.com/DapperLib/Dapper) with raw SQL queries is an excellent choice. You can also create views in the database and query them. Alternatively, you could use EF Core to execute queries with projections.
+On the read side, I want as little indirection as possible. Using [Dapper (<VPIcon icon="iconfont icon-github"/>`DapperLib/Dapper`)](https://github.com/DapperLib/Dapper) with raw SQL queries is an excellent choice. You can also create views in the database and query them. Alternatively, you could use EF Core to execute queries with projections.
 
 ![Diagram of an application using CQRS on the architectural level.](https://milanjovanovic.tech/blogs/mnw_060/cqrs_application.png?imwidth=3840)
 
@@ -140,7 +140,7 @@ Implementing CQRS with MediatR has two components:
 - Defining your command or query class
 - Implementing the respective command or query handler
 
-I made an in-depth video explaining this process, and you can [<FontIcon icon="fa-brands fa-youtube"/>watch it here.](https://youtu.be/vdi-p9StmG0)
+I made an in-depth video explaining this process, and you can [<VPIcon icon="fa-brands fa-youtube"/>watch it here.](https://youtu.be/vdi-p9StmG0)
 
 <VidStack src="youtube/vdi-p9StmG0" />
 

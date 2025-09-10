@@ -73,9 +73,9 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_124.png
 
 I've been experimenting with different approaches to integrating LLMs into .NET apps, and I want to share what I've learned about using `Microsoft.Extensions.AI`.
 
-Large Language Models (LLMs) have revolutionized how we approach AI-powered applications. While many developers are familiar with cloud-based solutions like OpenAI's GPT models, running LLMs locally has become increasingly accessible thanks to projects like [<FontIcon icon="fa-brands fa-meta"/>Ollama](https://ollama.com/).
+Large Language Models (LLMs) have revolutionized how we approach AI-powered applications. While many developers are familiar with cloud-based solutions like OpenAI's GPT models, running LLMs locally has become increasingly accessible thanks to projects like [<VPIcon icon="fa-brands fa-meta"/>Ollama](https://ollama.com/).
 
-In this article, we'll explore how to use LLMs in .NET applications using `Microsoft.Extensions.AI`, a powerful abstraction that extends the [Semantic Kernel (<FontIcon icon="iconfont icon-github"/>`microsoft/semantic-kernel`)](https://github.com/microsoft/semantic-kernel) SDK.
+In this article, we'll explore how to use LLMs in .NET applications using `Microsoft.Extensions.AI`, a powerful abstraction that extends the [Semantic Kernel (<VPIcon icon="iconfont icon-github"/>`microsoft/semantic-kernel`)](https://github.com/microsoft/semantic-kernel) SDK.
 
 ---
 
@@ -85,7 +85,7 @@ In this article, we'll explore how to use LLMs in .NET applications using `Micro
 
 LLMs are deep learning models trained on vast amounts of data, capable of understanding and generating human-like text. These models can perform various tasks such as text completion, summarization, classification, and engaging in conversation. While traditionally accessed through cloud APIs, recent advances have made it possible to run them locally on standard hardware.
 
-![Timeline of large language models.<br/>Source: [<FontIcon icon="fas fa-globe"/>Weights & Biases](https://wandb.ai/vincenttu/blog_posts/reports/A-Survey-of-Large-Language-Models--VmlldzozOTY2MDM1)](https://milanjovanovic.tech/blogs/mnw_124/large_language_models.png?imwidth=3840)
+![Timeline of large language models.<br/>Source: [<VPIcon icon="fas fa-globe"/>Weights & Biases](https://wandb.ai/vincenttu/blog_posts/reports/A-Survey-of-Large-Language-Models--VmlldzozOTY2MDM1)](https://milanjovanovic.tech/blogs/mnw_124/large_language_models.png?imwidth=3840)
 
 ### Ollama
 
@@ -93,7 +93,7 @@ Ollama is an open-source project that simplifies running LLMs locally. It provid
 
 ### Microsoft.Extensions.AI
 
-[<FontIcon icon="fas fa-globe"/>Microsoft.Extensions.AI](https://nuget.org/packages/Microsoft.Extensions.AI) is a library that provides a unified interface for working with LLMs in .NET applications. Built on top of Microsoft's Semantic Kernel, it abstracts away the complexity of different LLM implementations, allowing developers to switch between providers (like Ollama, Azure, or OpenAI) without changing application code.
+[<VPIcon icon="fas fa-globe"/>Microsoft.Extensions.AI](https://nuget.org/packages/Microsoft.Extensions.AI) is a library that provides a unified interface for working with LLMs in .NET applications. Built on top of Microsoft's Semantic Kernel, it abstracts away the complexity of different LLM implementations, allowing developers to switch between providers (like Ollama, Azure, or OpenAI) without changing application code.
 
 ---
 
@@ -222,7 +222,7 @@ foreach (var post in posts)
 }
 ```
 
-Pro tip: Being specific about the output format (like requesting [<FontIcon icon="fas fa-globe"/>RFC8259](https://datatracker.ietf.org/doc/html/rfc8259) compliant JSON) helps get consistent results. I learned this the hard way after dealing with occasionally malformed responses!
+Pro tip: Being specific about the output format (like requesting [<VPIcon icon="fas fa-globe"/>RFC8259](https://datatracker.ietf.org/doc/html/rfc8259) compliant JSON) helps get consistent results. I learned this the hard way after dealing with occasionally malformed responses!
 
 ---
 

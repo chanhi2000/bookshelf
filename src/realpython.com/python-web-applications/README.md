@@ -164,7 +164,7 @@ You covered a lot of ground in this tutorial! You started with a local Python sc
 
 You can now take your local Python scripts and make them available online for the whole world to use. If you’d like to download the complete code for the application you built in this tutorial, then you can click the link below:
 
-If you want to learn more about web development with Python, then you’re now well equipped to experiment with Python web frameworks such as [<FontIcon icon="fas fa-globe"/>Flask](https://realpython.com/learning-paths/flask-by-example/) and [<FontIcon icon="fas fa-globe"/>Django](https://realpython.com/learning-paths/django-web-development/). Keep up the good work!
+If you want to learn more about web development with Python, then you’re now well equipped to experiment with Python web frameworks such as [<VPIcon icon="fas fa-globe"/>Flask](https://realpython.com/learning-paths/flask-by-example/) and [<VPIcon icon="fas fa-globe"/>Django](https://realpython.com/learning-paths/django-web-development/). Keep up the good work!
 
 ::: info Watch Now
 

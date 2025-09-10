@@ -305,7 +305,7 @@ var customerRepository = new CustomerRepository();
 
 Instead, we will inject them as constructor arguments.
 
-You can even use the [<FontIcon icon="fa-brands fa-microsoft"/>C# 12 primary constructor](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/primary-constructors) feature.
+You can even use the [<VPIcon icon="fa-brands fa-microsoft"/>C# 12 primary constructor](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/primary-constructors) feature.
 
 ```cs{2-4}
 public class CustomerService(
@@ -336,7 +336,7 @@ Multiple `if-else` statements based on the `Type` property make me wonder if I'l
 
 Adding a new rule would mean another `if-else` check.
 
-The [<FontIcon icon="fas fa-globe"/>strategy pattern](https://refactoring.guru/design-patterns/strategy) could be an alternative, but a `switch` statement will also work fine.
+The [<VPIcon icon="fas fa-globe"/>strategy pattern](https://refactoring.guru/design-patterns/strategy) could be an alternative, but a `switch` statement will also work fine.
 
 Another thing that stands out is the **code duplication** in the last two blocks.
 
@@ -393,11 +393,11 @@ public enum CompanyType
 
 The next thing that bothers me is that the credit limit calculation doesn't belong to the `CustomerService`.
 
-It violates the [<FontIcon icon="fa-brands fa-wikipedia-w"/>single responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).
+It violates the [<VPIcon icon="fa-brands fa-wikipedia-w"/>single responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).
 
 So I want to introduce a dedicated `CreditLimitCalculator` using an **extract class** refactoring.
 
-I replaced the `if-else` statements with a [<FontIcon icon="fa-brands fa-microsoft"/>switch expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression) that I can easily extend in the future.
+I replaced the `if-else` statements with a [<VPIcon icon="fa-brands fa-microsoft"/>switch expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression) that I can easily extend in the future.
 
 ```cs
 public class CreditLimitCalculator(

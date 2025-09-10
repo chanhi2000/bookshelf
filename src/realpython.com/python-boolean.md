@@ -159,7 +159,7 @@ True + (False / True)
 
 There aren’t many uses for the numerical nature of Boolean values, but there’s one technique you may find helpful. Because `True` is equal to `1` and `False` is equal to `0`, adding Booleans together is a quick way to count the number of `True` values. This can come in handy when you need to count the number of items that satisfy a condition.
 
-For example, if you want to analyze a verse in a [<FontIcon icon="fas fa-globe"/>classic children’s poem](https://poetryfoundation.org/poems/42916/jabberwocky) to see what fraction of lines contain the word `"the"`, then the fact that `True` is equal to `1` and `False` is equal to `0` can come in quite handy:
+For example, if you want to analyze a verse in a [<VPIcon icon="fas fa-globe"/>classic children’s poem](https://poetryfoundation.org/poems/42916/jabberwocky) to see what fraction of lines contain the word `"the"`, then the fact that `True` is equal to `1` and `False` is equal to `0` can come in quite handy:
 
 ```py
 lines="""
@@ -173,7 +173,7 @@ sum("the" in line.lower() for line in lines) / len(lines)
 # 0.5
 ```
 
-Summing all values in a [<FontIcon icon="fas fa-globe"/>generator expression](https://realpython.com/lessons/map-function-vs-generator-expressions/) like this lets you know how many times `True` appears in the generator. The number of times `True` is in the generator is equal to the number of lines that contain the word `"the"`, in a case-insensitive way. Dividing this number by the total number of lines gives you the ratio of matching lines to total lines.
+Summing all values in a [<VPIcon icon="fas fa-globe"/>generator expression](https://realpython.com/lessons/map-function-vs-generator-expressions/) like this lets you know how many times `True` appears in the generator. The number of times `True` is in the generator is equal to the number of lines that contain the word `"the"`, in a case-insensitive way. Dividing this number by the total number of lines gives you the ratio of matching lines to total lines.
 
 To see why this works, you can break the above code into smaller parts:
 
@@ -361,8 +361,8 @@ This table is verbose, but it has the same meaning as the explanation above.
 
 When used informally, the word *or* can have one of two meanings:
 
-- The [<FontIcon icon="fa-brands fa-wikipedia-w"/>**exclusive _or_**](https://en.wikipedia.org/wiki/Exclusive_or) is how *or* is used in the phrase “You can file for an extension or submit your homework on time.” In this case, you can’t both file for an extension and submit your homework on time.
-- The [<FontIcon icon="fa-brands fa-wikipedia-w"/>**inclusive _or_**](https://en.wikipedia.org/wiki/Logical_disjunction) is sometimes indicated by using the conjunction *and/or*. For example, “If you do well on this task, then you can get a raise and/or a promotion” means that you might get both a raise and a promotion.
+- The [<VPIcon icon="fa-brands fa-wikipedia-w"/>**exclusive _or_**](https://en.wikipedia.org/wiki/Exclusive_or) is how *or* is used in the phrase “You can file for an extension or submit your homework on time.” In this case, you can’t both file for an extension and submit your homework on time.
+- The [<VPIcon icon="fa-brands fa-wikipedia-w"/>**inclusive _or_**](https://en.wikipedia.org/wiki/Logical_disjunction) is sometimes indicated by using the conjunction *and/or*. For example, “If you do well on this task, then you can get a raise and/or a promotion” means that you might get both a raise and a promotion.
 
 When Python interprets the keyword `or`, it does so using the inclusive *or*. If both inputs are `True`, then the result of `or` is `True`.
 
@@ -404,7 +404,7 @@ Comparison operators are the most common source of Boolean values.
 
 The most common comparison operators are the **equality operator (`==`)** and the **inequality operator (`!=`)**. It’s almost impossible to write any meaningful amount of Python code without using at least one of those operators.
 
-The equality operator (`==`) is one of the most used operators in Python code. You often need to compare either an unknown result with a known result or two unknown results against each other. Some functions return values that need to be compared against a [<FontIcon icon="fa-brands fa-wikipedia-w"/>sentinel](https://en.wikipedia.org/wiki/Sentinel_value) to see if some edge condition has been detected. Sometimes you need to compare the results from two functions against each other.
+The equality operator (`==`) is one of the most used operators in Python code. You often need to compare either an unknown result with a known result or two unknown results against each other. Some functions return values that need to be compared against a [<VPIcon icon="fa-brands fa-wikipedia-w"/>sentinel](https://en.wikipedia.org/wiki/Sentinel_value) to see if some edge condition has been detected. Sometimes you need to compare the results from two functions against each other.
 
 The equality operator is often used to compare numbers:
 
@@ -472,7 +472,7 @@ Since the two choices are independent, you get `2 * 2 == 4` order comparison ope
 
 There are two options for direction and two options for strictness. This results in total of four order comparison operators.
 
-The order comparison operators aren’t defined for all objects. Some objects don’t have a meaningful order. Even though [**lists and tuples**](/realpython.com/python-lists-tuples.md) are ordered **lexicographically**, [<FontIcon icon="fas fa-globe"/>dictionaries](https://realpython.com/courses/dictionaries-python/) don’t have a meaningful order:
+The order comparison operators aren’t defined for all objects. Some objects don’t have a meaningful order. Even though [**lists and tuples**](/realpython.com/python-lists-tuples.md) are ordered **lexicographically**, [<VPIcon icon="fas fa-globe"/>dictionaries](https://realpython.com/courses/dictionaries-python/) don’t have a meaningful order:
 
 ```py
 {1: 3} < {2: 4}
@@ -527,7 +527,7 @@ Programmers often use comparison operators without realizing that they return a 
 
 ### The `is` Operator
 
-The [<FontIcon icon="fas fa-globe"/>`is` operator](https://realpython.com/lessons/is-operator/) checks for **object identity**. In other words, `x is y` evaluates to `True` only when `x` and `y` evaluate to the same object. The `is` operator has an opposite, the `is not` operator.
+The [<VPIcon icon="fas fa-globe"/>`is` operator](https://realpython.com/lessons/is-operator/) checks for **object identity**. In other words, `x is y` evaluates to `True` only when `x` and `y` evaluate to the same object. The `is` operator has an opposite, the `is not` operator.
 
 A typical usage of `is` and `is not` is to compare lists for identity:
 
@@ -546,7 +546,7 @@ True
 
 Even though `x == y`, they are not the same object. The `is not` operator always returns the opposite of `is`. There’s no difference between the expression `x is not y` and the expression `not (x is y)` except for readability.
 
-Keep in mind that the above examples show the `is` operator used only with lists. The behavior of the `is` operator on [<FontIcon icon="fas fa-globe"/>immutable](https://realpython.com/courses/immutability-python/) objects like numbers and strings is [**more complicated**](/realpython.com/python-is-identity-vs-equality.md#when-only-some-integers-are-interned).
+Keep in mind that the above examples show the `is` operator used only with lists. The behavior of the `is` operator on [<VPIcon icon="fas fa-globe"/>immutable](https://realpython.com/courses/immutability-python/) objects like numbers and strings is [**more complicated**](/realpython.com/python-is-identity-vs-equality.md#when-only-some-integers-are-interned).
 
 ### The `in` Operator
 
@@ -925,7 +925,7 @@ with decimal.localcontext(decimal.Context(prec=4)) as ctx:
 # True
 ```
 
-The number `22 / 7` is an approximation of Pi to two decimal places. This fact was discussed by [<FontIcon icon="fas fa-globe"/>Archimedes in the 3rd century BCE](https://archive.org/details/worksofarchimede029517mbp/page/n281/mode/2up). When the difference between `22 / 7` and Pi is computed with this precision, the result is falsy. When the difference is computed with higher precision, the difference isn’t equal to `0`, and so is truthy.
+The number `22 / 7` is an approximation of Pi to two decimal places. This fact was discussed by [<VPIcon icon="fas fa-globe"/>Archimedes in the 3rd century BCE](https://archive.org/details/worksofarchimede029517mbp/page/n281/mode/2up). When the difference between `22 / 7` and Pi is computed with this precision, the result is falsy. When the difference is computed with higher precision, the difference isn’t equal to `0`, and so is truthy.
 
 ### Sequences as Boolean Values
 
@@ -1115,7 +1115,7 @@ Even though `x` has a length of `100`, it’s still falsy.
 
 ### Example: NumPy Arrays
 
-The above example may seem like something that only happens when you write a class intended to demonstrate edge cases in Python. However, it’s possible to get similar results using one of the most popular libraries on [**PyPI**](/realpython.com/what-is-pip.md): [<FontIcon icon="iconfont icon-numpy"/>NumPy](https://numpy.org/).
+The above example may seem like something that only happens when you write a class intended to demonstrate edge cases in Python. However, it’s possible to get similar results using one of the most popular libraries on [**PyPI**](/realpython.com/what-is-pip.md): [<VPIcon icon="iconfont icon-numpy"/>NumPy](https://numpy.org/).
 
 [**Arrays**](/realpython.com/numpy-array-programming.md), like numbers, are falsy or truthy depending on how they compare to `0`:
 

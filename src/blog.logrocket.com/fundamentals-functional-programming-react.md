@@ -68,7 +68,7 @@ To follow this tutorial, ensure you have a basic understanding of React.
 
 ## A quick overview of functional programming
 
-Every program or application we write follows an approach or style(s) of writing, otherwise called [<FontIcon icon="fa-brands fa-wikipedia-w"/>a paradigm](https://en.wikipedia.org/wiki/Programming_paradigm). Functional programming, therefore, is a [<FontIcon icon="fa-brands fa-wikipedia-w"/>declarative programming paradigm](https://en.wikipedia.org/wiki/Declarative_programming) where programs are constructed by composing pure functions.
+Every program or application we write follows an approach or style(s) of writing, otherwise called [<VPIcon icon="fa-brands fa-wikipedia-w"/>a paradigm](https://en.wikipedia.org/wiki/Programming_paradigm). Functional programming, therefore, is a [<VPIcon icon="fa-brands fa-wikipedia-w"/>declarative programming paradigm](https://en.wikipedia.org/wiki/Declarative_programming) where programs are constructed by composing pure functions.
 
 Let’s pay attention to the words “composing” and “pure,” because they form the building blocks of functional programming, and we will discuss them in the following section.
 
@@ -489,7 +489,7 @@ In this code, the `Banner` component only knows about the `button` element becau
 
 This makes the component reusable and flexible to customize because we have control over the content that comes in as the `children`. We can now decide not to render the banner heading, `h1`, on another page of our application.
 
-All we must do is [<FontIcon icon="iconfont icon-codesandbox"/>exclude it from the content in between the `Banner` tag](https://codesandbox.io/s/angry-chebyshev-69hiw?file=/src/App.js).
+All we must do is [<VPIcon icon="iconfont icon-codesandbox"/>exclude it from the content in between the `Banner` tag](https://codesandbox.io/s/angry-chebyshev-69hiw?file=/src/App.js).
 
 <!-- TODO: sandpack  -->
 <!-- ::: sandpack#react eh3rrera / Drafts / useState 02 [rtl theme=dark]

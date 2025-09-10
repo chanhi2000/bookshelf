@@ -53,23 +53,23 @@ Dash is an open-source framework for building data visualization interfaces. Rel
 
 Three technologies constitute the core of Dash:
 
-1. <FontIcon icon="iconfont icon-flask"/>Flask supplies the web server functionality.
-2. <FontIcon icon="fa-brands fa-react"/>React.js renders the user interface of the web page.
+1. <VPIcon icon="iconfont icon-flask"/>Flask supplies the web server functionality.
+2. <VPIcon icon="fa-brands fa-react"/>React.js renders the user interface of the web page.
 3. **Plotly.js** generates the charts used in your application.
 
 But you don’t have to worry about making all these technologies work together. Dash will do that for you. You just need to write Python, R, Julia, or F# and sprinkle in a bit of CSS.
 
-[<FontIcon icon="iconfont icon-plotly"/>Plotly](https://plotly.com/), a Canada-based company, built Dash and supports its development. You may know the company from the [<FontIcon icon="iconfont icon-plotly"/>popular graphing libraries](https://plotly.com/graphing-libraries/) that share its name. The company released Dash as open source under an [<FontIcon icon="fas fa-globe"/>MIT license](https://tldrlegal.com/license/mit-license), so you can use Dash at no cost.
+[<VPIcon icon="iconfont icon-plotly"/>Plotly](https://plotly.com/), a Canada-based company, built Dash and supports its development. You may know the company from the [<VPIcon icon="iconfont icon-plotly"/>popular graphing libraries](https://plotly.com/graphing-libraries/) that share its name. The company released Dash as open source under an [<VPIcon icon="fas fa-globe"/>MIT license](https://tldrlegal.com/license/mit-license), so you can use Dash at no cost.
 
-Plotly also offers a commercial companion to Dash called [<FontIcon icon="iconfont icon-plotly"/>Dash Enterprise](https://plotly.com/dash/). This paid service provides companies with support services such as hosting, deploying, and handling authentication on Dash applications. But these features live outside of Dash’s open-source ecosystem.
+Plotly also offers a commercial companion to Dash called [<VPIcon icon="iconfont icon-plotly"/>Dash Enterprise](https://plotly.com/dash/). This paid service provides companies with support services such as hosting, deploying, and handling authentication on Dash applications. But these features live outside of Dash’s open-source ecosystem.
 
 Dash will help you build dashboards quickly. If you’re used to analyzing data or building data visualizations using Python, then Dash will be a useful addition to your toolbox. Here are a few examples of what you can make with Dash:
 
-- [<FontIcon icon="fas fa-globe"/>A dashboard showing object detection for self-driving cars](https://dash.gallery/self-driving/)
-- [<FontIcon icon="fas fa-globe"/>A visualization of millions of Uber rides](https://dash.gallery/dash-uber-rides-demo/)
-- [<FontIcon icon="fas fa-globe"/>An interactive tool for analyzing soccer match data](https://dash.gallery/soccer-match-analytics/)
+- [<VPIcon icon="fas fa-globe"/>A dashboard showing object detection for self-driving cars](https://dash.gallery/self-driving/)
+- [<VPIcon icon="fas fa-globe"/>A visualization of millions of Uber rides](https://dash.gallery/dash-uber-rides-demo/)
+- [<VPIcon icon="fas fa-globe"/>An interactive tool for analyzing soccer match data](https://dash.gallery/soccer-match-analytics/)
 
-This is just a tiny sample. If you’d like to see other interesting use cases, then go check out the [<FontIcon icon="fas fa-globe"/>Dash App Gallery](https://dash.gallery/).
+This is just a tiny sample. If you’d like to see other interesting use cases, then go check out the [<VPIcon icon="fas fa-globe"/>Dash App Gallery](https://dash.gallery/).
 
 ::: note
 
@@ -78,8 +78,8 @@ You don’t need advanced knowledge of web development to follow this tutorial, 
 You should know the basics of the following topics, though:
 
 - Python graphing libraries such as Plotly, [**Bokeh**](/realpython.com/python-data-visualization-bokeh.md), and [**Matplotlib**](/realpython.com/python-matplotlib-guide.md)
-- HTML and the [<FontIcon icon="fa-brands fa-firefox"/>structure of an HTML file](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-- [<FontIcon icon="fa-brands fa-firefox"/>CSS and style sheets](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
+- HTML and the [<VPIcon icon="fa-brands fa-firefox"/>structure of an HTML file](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+- [<VPIcon icon="fa-brands fa-firefox"/>CSS and style sheets](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
 
 :::
 

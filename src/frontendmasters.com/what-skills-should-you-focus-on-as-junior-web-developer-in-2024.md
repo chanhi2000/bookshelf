@@ -68,11 +68,11 @@ Here’s an example regarding images on the web
 
 All frameworks will handle images differently. They’ll all have their reasons for that.
 
-For instance, Rails has [<FontIcon icon="iconfont icon-rails"/>a helper method like this: `image_tag()`](https://api.rubyonrails.org/v7.1.3.4/classes/ActionView/Helpers/AssetTagHelper.html). This helps you generate an `<img />` with a `src` that points to the image correctly, and helpfully generates browser-cache busting URL parameters. You’re on your own for optimization. If you want to try to use the responsive images syntax, only recently do they have [<FontIcon icon="fas fa-globe"/>rudimentary support](https://eagerworks.com/blog/rails-picture-tag-responsive-image-support).
+For instance, Rails has [<VPIcon icon="iconfont icon-rails"/>a helper method like this: `image_tag()`](https://api.rubyonrails.org/v7.1.3.4/classes/ActionView/Helpers/AssetTagHelper.html). This helps you generate an `<img />` with a `src` that points to the image correctly, and helpfully generates browser-cache busting URL parameters. You’re on your own for optimization. If you want to try to use the responsive images syntax, only recently do they have [<VPIcon icon="fas fa-globe"/>rudimentary support](https://eagerworks.com/blog/rails-picture-tag-responsive-image-support).
 
-[<FontIcon icon="iconfont icon-nextjs"/>The Next.js `<Image />` component](https://nextjs.org/docs/app/api-reference/components/image) is quite different in that it wants to *optimize* the image for you and output the image with the `srcset` syntax in order to serve right-size images to different devices, as well as provide a blur-up loading style. This is much fancier and helpful, but if you are trying to do something custom, like any `<picture>` element usage, you’ve gotta keep going down [<FontIcon icon="iconfont icon-nextjs"/>a proprietary rabbit hole](https://nextjs.org/docs/app/api-reference/components/image#getimageprops).
+[<VPIcon icon="iconfont icon-nextjs"/>The Next.js `<Image />` component](https://nextjs.org/docs/app/api-reference/components/image) is quite different in that it wants to *optimize* the image for you and output the image with the `srcset` syntax in order to serve right-size images to different devices, as well as provide a blur-up loading style. This is much fancier and helpful, but if you are trying to do something custom, like any `<picture>` element usage, you’ve gotta keep going down [<VPIcon icon="iconfont icon-nextjs"/>a proprietary rabbit hole](https://nextjs.org/docs/app/api-reference/components/image#getimageprops).
 
-[<FontIcon icon="fas fa-globe"/>The Eleventy Image utility](https://11ty.dev/docs/plugins/image/) helps provide optimized image output for you to use however you want to construct your image HTML. It’s quite powerful in how many options it offers and features and formats it supports. But it’s intentionally unopinionated leaving much of a final implementation on your shoulders.
+[<VPIcon icon="fas fa-globe"/>The Eleventy Image utility](https://11ty.dev/docs/plugins/image/) helps provide optimized image output for you to use however you want to construct your image HTML. It’s quite powerful in how many options it offers and features and formats it supports. But it’s intentionally unopinionated leaving much of a final implementation on your shoulders.
 
 Those are all *very* different approaches.
 
@@ -86,7 +86,7 @@ This is literally what the term “front end” means. It means **the browser.**
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/browsers-complex.png?resize=1012%2C1024&ssl=1)
 
-Browsers are much less *known* — that is — *one* browser will produce identical and reliable results when used, but users visit your website from thousands of different permutations of browsers, versions of those browsers, devices they run on, screen sizes they are looking at, with different features enabled, and more. The browser space is [<FontIcon icon="fas fa-globe"/>pretty complex and unpredictable](https://daverupert.com/2024/02/ui-states/).
+Browsers are much less *known* — that is — *one* browser will produce identical and reliable results when used, but users visit your website from thousands of different permutations of browsers, versions of those browsers, devices they run on, screen sizes they are looking at, with different features enabled, and more. The browser space is [<VPIcon icon="fas fa-globe"/>pretty complex and unpredictable](https://daverupert.com/2024/02/ui-states/).
 
 Learning what the browser is doing and how to work with it is immensely useful. Your main tool in this endeavor is that browsers DevTools. [DevTools are very worth learning.](https://frontendmasters.com/courses/dev-tools/) DevTools allow you to do all sorts of inspection and analysis on a website like:
 
@@ -236,7 +236,7 @@ Layout might be the most important single thing you can learn in CSS, and thanks
 
 Putting elements side by side is no small part of the job.
 
-Setting up [<FontIcon icon="fa-brands fa-firefox"/>custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) (variables) is also a good practice, and colors is the perfect use. Giving yourself a set of colors to pick from will help keep your design consistent and easier to work with:
+Setting up [<VPIcon icon="fa-brands fa-firefox"/>custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) (variables) is also a good practice, and colors is the perfect use. Giving yourself a set of colors to pick from will help keep your design consistent and easier to work with:
 
 ```css
 html {
@@ -264,9 +264,9 @@ html {
 }
 ```
 
-Oliver Reichenstein once famously wrote that [<FontIcon icon="fas fa-globe"/>Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period). He’s not wrong. There is awful lot of words on the web trying to communicate with us, and they can be objectively well presented… or not.
+Oliver Reichenstein once famously wrote that [<VPIcon icon="fas fa-globe"/>Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period). He’s not wrong. There is awful lot of words on the web trying to communicate with us, and they can be objectively well presented… or not.
 
-Even if you learn and use a framework that abstracts aways CSS into HTML like [<FontIcon icon="iconfont icon-tailwindcss"/>Tailwind](https://tailwindcss.com/) (which is probably a smart choice particularly if you’re job hunting — [here’s a course](https://frontendmasters.com/courses/tailwind-css/)), the styles are ultimately applied with CSS and so knowing it behooves you.
+Even if you learn and use a framework that abstracts aways CSS into HTML like [<VPIcon icon="iconfont icon-tailwindcss"/>Tailwind](https://tailwindcss.com/) (which is probably a smart choice particularly if you’re job hunting — [here’s a course](https://frontendmasters.com/courses/tailwind-css/)), the styles are ultimately applied with CSS and so knowing it behooves you.
 
 There is a lot to know about CSS alone, but between a good foundation of layout, colors, and typography, you’ll be in good shape.
 
@@ -288,7 +288,7 @@ We have a fantastic learning path covering all the [essentials of web developmen
 
 ## But… only fundamentals isn’t enough
 
-It’s a tough job market out there. Employers are often looking for skills in a specific technology, especially in lieu of a lot of experience. If you find yourself clicking with some aspect of web design and development, you’d do well do go deep on it, as it will likely feel fulfilling to you while being easier to stick with. Plus, that helps turn you into someone [<FontIcon icon="fa-brands fa-wikipedia-w"/>T-shaped](https://en.wikipedia.org/wiki/T-shaped_skills) (deep experience in one area, wide experience with other areas) which is a common and desirable thing for web developers.
+It’s a tough job market out there. Employers are often looking for skills in a specific technology, especially in lieu of a lot of experience. If you find yourself clicking with some aspect of web design and development, you’d do well do go deep on it, as it will likely feel fulfilling to you while being easier to stick with. Plus, that helps turn you into someone [<VPIcon icon="fa-brands fa-wikipedia-w"/>T-shaped](https://en.wikipedia.org/wiki/T-shaped_skills) (deep experience in one area, wide experience with other areas) which is a common and desirable thing for web developers.
 
 - If working with data clicks with you, lean into that.
 - If you’re attracted to building systems, design systems are a big thing these days with companies have dedicated design system teams.
@@ -329,9 +329,9 @@ Pick one!
 
 It’s actually probably better to pick *one* (and a relatively popular one at that) and build something real/significant on it. Right now, the big front-end frameworks are:
 
-1. [<FontIcon icon="iconfont icon-nextjs"/>Next.js](https://nextjs.org/) (React) — [React Learning Path](https://frontendmasters.com/learn/react/)
-2. [<FontIcon icon="iconfont icon-nuxtjs"/>Nuxt](https://nuxt.com/) (Vue) — [Vue Learning Path](https://frontendmasters.com/learn/vue/)
-3. [<FontIcon icon="iconfont icon-astro"/>Astro](https://astro.build/) (Multi-framework capable) — [Astro Course](https://frontendmasters.com/courses/astro/)
+1. [<VPIcon icon="iconfont icon-nextjs"/>Next.js](https://nextjs.org/) (React) — [React Learning Path](https://frontendmasters.com/learn/react/)
+2. [<VPIcon icon="iconfont icon-nuxtjs"/>Nuxt](https://nuxt.com/) (Vue) — [Vue Learning Path](https://frontendmasters.com/learn/vue/)
+3. [<VPIcon icon="iconfont icon-astro"/>Astro](https://astro.build/) (Multi-framework capable) — [Astro Course](https://frontendmasters.com/courses/astro/)
 
 And if you’re intentionally *not* wanting to use a site where you’re writing JavaScript to build it:
 
@@ -343,12 +343,12 @@ If what you’re building is a pure content site a classic Content Management Sy
 
 - [WordPress](https://wordpress.org/) (PHP)
 - [CraftCMS](https://craftcms.com/) (PHP)
-- [<FontIcon icon="iconfont icon-strapi"/>Strapi](https://strapi.io/) (Node)
+- [<VPIcon icon="iconfont icon-strapi"/>Strapi](https://strapi.io/) (Node)
 
 If you’re interested in more of a full stack framework that helps with back-end needs as well:
 
-1. [<FontIcon icon="iconfont icon-rails"/>Ruby on Rails](https://rubyonrails.org/) (Ruby)
-2. [<FontIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) (Python)
+1. [<VPIcon icon="iconfont icon-rails"/>Ruby on Rails](https://rubyonrails.org/) (Ruby)
+2. [<VPIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) (Python)
 3. [Laravel](https://laravel.com/) (PHP)
 
 You may hear advice that you should learn fundamentals and understand what a framework is doing before you leap into using the framework. That’s an understandable opinion, but frameworks are so common and come up in job descriptions enough that learning them early is not going to hurt you. Many people learn and framework and the underlaying technology together and over time.

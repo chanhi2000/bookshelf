@@ -53,7 +53,7 @@ Dash provides you with a lot of flexibility to customize the look of your applic
 
 ::: note
 
-In this tutorial, you’ll see how to show off your own style with CSS. There are several [<FontIcon icon="iconfont icon-pypi"/>packages on PyPI](https://pypi.org/search/?q=dash%20components) that provide styled Dash components. For example, [<FontIcon icon="iconfont icon-pypi"/>`dash-bootstrap-components`](https://pypi.org/project/dash-bootstrap-components/) are [<FontIcon icon="fas fa-globe"/>Bootstrap](https://getbootstrap.com/) themed.
+In this tutorial, you’ll see how to show off your own style with CSS. There are several [<VPIcon icon="iconfont icon-pypi"/>packages on PyPI](https://pypi.org/search/?q=dash%20components) that provide styled Dash components. For example, [<VPIcon icon="iconfont icon-pypi"/>`dash-bootstrap-components`](https://pypi.org/project/dash-bootstrap-components/) are [<VPIcon icon="fas fa-globe"/>Bootstrap](https://getbootstrap.com/) themed.
 
 :::
 
@@ -76,7 +76,7 @@ When specifying CSS properties in the `style` argument, you should use mixedCase
 
 :::
 
-If you wanted to change the size and color of the `H1` element in <FontIcon icon="fa-brands fa-python"/>`app.py`, then you could set the element’s `style` argument as follows:
+If you wanted to change the size and color of the `H1` element in <VPIcon icon="fa-brands fa-python"/>`app.py`, then you could set the element’s `style` argument as follows:
 
 ```py{3}
 html.H1(
@@ -89,9 +89,9 @@ Here, you provide to `style` a dictionary with the properties and the correspond
 
 The downside of using the `style` argument is that it doesn’t scale well as your codebase grows. If your dashboard has multiple components that you want to look the same, then you’ll end up repeating a lot of your code. Instead, you can use a custom CSS file.
 
-If you want to include your own local CSS or JavaScript files, then you need to create a folder called <FontIcon icon="fas fa-folder-open"/>`assets/` in the root directory of your project and save the files that you want to add there. By default, Dash automatically serves any file included in <FontIcon icon="fas fa-folder-open"/>`assets/`. This will also work for adding a favicon or embedding images, as you’ll see in a bit.
+If you want to include your own local CSS or JavaScript files, then you need to create a folder called <VPIcon icon="fas fa-folder-open"/>`assets/` in the root directory of your project and save the files that you want to add there. By default, Dash automatically serves any file included in <VPIcon icon="fas fa-folder-open"/>`assets/`. This will also work for adding a favicon or embedding images, as you’ll see in a bit.
 
-Then you can use the `className` or `id` arguments of the components to adjust their styles using CSS. These arguments correspond with the [<FontIcon icon="fas fa-globe"/>`class`](https://w3schools.com/html/html_classes.asp) and [<FontIcon icon="fas fa-globe"/>`id`](https://w3schools.com/html/html_id.asp) attributes when they’re transformed into HTML tags.
+Then you can use the `className` or `id` arguments of the components to adjust their styles using CSS. These arguments correspond with the [<VPIcon icon="fas fa-globe"/>`class`](https://w3schools.com/html/html_classes.asp) and [<VPIcon icon="fas fa-globe"/>`id`](https://w3schools.com/html/html_id.asp) attributes when they’re transformed into HTML tags.
 
 If you wanted to adjust the font size and text color of the `H1` element in `app.py`, then you could use the `className` argument as follows:
 
@@ -111,7 +111,7 @@ Setting the `className` argument will define the class attribute for the `<h1>` 
 }
 ```
 
-You use a [<FontIcon icon="fas fa-glboe"/>class selector](https://w3schools.com/cssref/sel_class.asp) to format the heading in your CSS file. This selector will adjust the heading format. You could also use it with another element that needs to share the format by setting `className="header-title"`.
+You use a [<VPIcon icon="fas fa-glboe"/>class selector](https://w3schools.com/cssref/sel_class.asp) to format the heading in your CSS file. This selector will adjust the heading format. You could also use it with another element that needs to share the format by setting `className="header-title"`.
 
 Next, you’ll style your dashboard.
 
@@ -129,7 +129,7 @@ You’ll start by learning how to use external assets in your application. That�
 
 ### Adding External Assets to Your Application
 
-Create a folder called <FontIcon icon="fas fa-folder-open"/>`assets/` in your project’s root directory. [<FontIcon icon="iconfont icon-github"/>Download a favicon](https://raw.githubusercontent.com/realpython/materials/master/python-dash/avocado_analytics_3/assets/favicon.ico) from the [Twemoji open-source project (<FontIcon icon="iconfont icon-github"/>`twitter/twemoji`)](https://github.com/twitter/twemoji) and save it as `favicon.ico` in <FontIcon icon="fas fa-folder-open"/>`assets/`. Finally, create a CSS file in <FontIcon icon="fas fa-folder-open"/>`assets/` called <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` and add the code in the collapsible section below:
+Create a folder called <VPIcon icon="fas fa-folder-open"/>`assets/` in your project’s root directory. [<VPIcon icon="iconfont icon-github"/>Download a favicon](https://raw.githubusercontent.com/realpython/materials/master/python-dash/avocado_analytics_3/assets/favicon.ico) from the [Twemoji open-source project (<VPIcon icon="iconfont icon-github"/>`twitter/twemoji`)](https://github.com/twitter/twemoji) and save it as `favicon.ico` in <VPIcon icon="fas fa-folder-open"/>`assets/`. Finally, create a CSS file in <VPIcon icon="fas fa-folder-open"/>`assets/` called <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` and add the code in the collapsible section below:
 
 ```css :collapsed-lines title="assets/style.css"
 body {
@@ -182,7 +182,7 @@ body {
 }
 ```
 
-The <FontIcon icon="fas fa-folder-open"/>`assets/`<FontIcon icon="fa-brands fa-css3-alt"/><FontIcon icon="fa-brands fa-css3-alt"/>`style.css` file contains the styles that you’ll apply to components in your application’s layout. By now, your project structure should look like this:
+The <VPIcon icon="fas fa-folder-open"/>`assets/`<VPIcon icon="fa-brands fa-css3-alt"/><VPIcon icon="fa-brands fa-css3-alt"/>`style.css` file contains the styles that you’ll apply to components in your application’s layout. By now, your project structure should look like this:
 
 ```plaintext title="file structure"
 avocado_analytics/
@@ -197,9 +197,9 @@ avocado_analytics/
 └── avocado.csv
 ```
 
-Once you start the server, Dash will automatically serve the files located in <FontIcon icon="fas fa-folder-open"/>`assets/`. You include two files, `favicon.ico` and <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`, in <FontIcon icon="fas fa-folder-open"/>`assets/`. To set a default favicon, you don’t have to take any additional steps. To use the styles that you defined in <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`, you’ll need to use the `className` argument in Dash components.
+Once you start the server, Dash will automatically serve the files located in <VPIcon icon="fas fa-folder-open"/>`assets/`. You include two files, `favicon.ico` and <VPIcon icon="fa-brands fa-css3-alt"/>`style.css`, in <VPIcon icon="fas fa-folder-open"/>`assets/`. To set a default favicon, you don’t have to take any additional steps. To use the styles that you defined in <VPIcon icon="fa-brands fa-css3-alt"/>`style.css`, you’ll need to use the `className` argument in Dash components.
 
-You need to make a few changes in <FontIcon icon="fa-brands fa-python"/>`app.py`. You’ll include an external style sheet, add a title to your dashboard, and style the components using the <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` file. Review the changes below. Then, in the last part of this section, you’ll find the full code for your updated version of `app.py`.
+You need to make a few changes in <VPIcon icon="fa-brands fa-python"/>`app.py`. You’ll include an external style sheet, add a title to your dashboard, and style the components using the <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` file. Review the changes below. Then, in the last part of this section, you’ll find the full code for your updated version of `app.py`.
 
 Here’s how you include an external style sheet and add a title to your dashboard:
 
@@ -227,7 +227,7 @@ You also set the title of your application. This is the text that appears in the
 
 ### Customizing the Styles of Components
 
-To use the styles in <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`, you’ll need to use the `className` argument in Dash components. The code below adds a `className` with a corresponding class selector to each of the components in the header of your dashboard:
+To use the styles in <VPIcon icon="fa-brands fa-css3-alt"/>`style.css`, you’ll need to use the `className` argument in Dash components. The code below adds a `className` with a corresponding class selector to each of the components in the header of your dashboard:
 
 ```py{4,6,8,15,18} :collapsed-lines title="app.py"
 # ...
@@ -256,9 +256,9 @@ In the highlighted lines, you can see that you’ve made three changes to the in
 
 1. There’s a new `<div>` element that wraps all the header components.
 2. There’s a new paragraph element with an avocado emoji, 🥑, that’ll serve as a logo on the page.
-3. There’s a `className` argument in each component. These class names match a class selector in <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`, which defines the looks of each component.
+3. There’s a `className` argument in each component. These class names match a class selector in <VPIcon icon="fa-brands fa-css3-alt"/>`style.css`, which defines the looks of each component.
 
-For example, the `header-description` class assigned to the paragraph component starting with `"Analyze the behavior of avocado prices"` has a corresponding selector in <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`. In that file, you’ll see the following:
+For example, the `header-description` class assigned to the paragraph component starting with `"Analyze the behavior of avocado prices"` has a corresponding selector in <VPIcon icon="fa-brands fa-css3-alt"/>`style.css`. In that file, you’ll see the following:
 
 ```css
 .header-description {

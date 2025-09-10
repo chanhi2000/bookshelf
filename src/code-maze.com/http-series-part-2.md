@@ -104,7 +104,7 @@ High-end Web servers should be able to open many simultaneous connections. This 
 
 Since Web servers are primarily the resource providers, they have multiple ways to map and access the resources.
 
-The simplest way is to map the resource is to use the request URI to find the file in the Web server’s filesystem. Typically, the web server puts them in a special folder, called docroot. For example, docroot on the Windows server can be located on `F:\\WebResources\`. If a GET request wants to access the file on the <FontIcon icon="fas fa-folder-open"/>`/images/`<FontIcon icon="fas fa-file-lines"/>`codemazeblog.txt`, the server translates this to `F:\\WebResources\images\codemazeblog.txt` and returns that file in the response message. When more than one website is hosted on a Web server, each one can have its separate docroot.
+The simplest way is to map the resource is to use the request URI to find the file in the Web server’s filesystem. Typically, the web server puts them in a special folder, called docroot. For example, docroot on the Windows server can be located on `F:\\WebResources\`. If a GET request wants to access the file on the <VPIcon icon="fas fa-folder-open"/>`/images/`<VPIcon icon="fas fa-file-lines"/>`codemazeblog.txt`, the server translates this to `F:\\WebResources\images\codemazeblog.txt` and returns that file in the response message. When more than one website is hosted on a Web server, each one can have its separate docroot.
 
 If a Web server receives a request for a directory instead of a file, it can resolve it in a few ways. It can return an error message, return the default index file instead of the directory or scan the directory and return the HTML file with contents.
 
@@ -228,9 +228,9 @@ Also, popularly called spiders, they are bots that crawl over the World Wide Web
 
 The web crawler is a fully automated piece of software and it doesn’t need human interaction to work. The complexity of web crawlers can vary greatly and some of the web crawlers are pretty sophisticated pieces of software (like the ones search engines use).
 
-Web crawlers consume the resources of the website they are visiting. For this reason, public websites have a mechanism to tell the crawlers which parts of the website to crawl, or to tell them not to crawl anything at all. You can do this by using the **<FontIcon icon="fas fa-folder-open"/>`robots.txt` (robots exclusion standard).**
+Web crawlers consume the resources of the website they are visiting. For this reason, public websites have a mechanism to tell the crawlers which parts of the website to crawl, or to tell them not to crawl anything at all. You can do this by using the **<VPIcon icon="fas fa-folder-open"/>`robots.txt` (robots exclusion standard).**
 
-Of course, since it is just a standard, robots.txt cannot prevent uninvited web crawlers to crawl the website. Some of the malicious robots include [<FontIcon icon="fa-brands fa-wikipedia-w"/>email harvesters](https://en.wikipedia.org/wiki/Email_address_harvesting), [<FontIcon icon="fa-brands fa-wikipedia-w"/>spambots](https://en.wikipedia.org/wiki/Spambots), and [<FontIcon icon="fa-brands fa-wikipedia-w"/>malware](https://en.wikipedia.org/wiki/Malware).
+Of course, since it is just a standard, robots.txt cannot prevent uninvited web crawlers to crawl the website. Some of the malicious robots include [<VPIcon icon="fa-brands fa-wikipedia-w"/>email harvesters](https://en.wikipedia.org/wiki/Email_address_harvesting), [<VPIcon icon="fa-brands fa-wikipedia-w"/>spambots](https://en.wikipedia.org/wiki/Spambots), and [<VPIcon icon="fa-brands fa-wikipedia-w"/>malware](https://en.wikipedia.org/wiki/Malware).
 
 Here are a few examples of the robots.txt files:  
 

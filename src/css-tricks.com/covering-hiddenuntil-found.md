@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/10/in-page-searc
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/10/in-page-search.jpg"/>
 
-Filing this in the “Missed First Time Around” category. It popped up in the [<FontIcon icon="fa-brands fa-firefox"/>Firefox 139 release notes](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/139#html) and I was, like, *ooo neat*. Then I saw [<FontIcon icon="fa-brands fa-chrome"/>it’s been in Chrome since at least 2022](https://developer.chrome.com/blog/new-in-chrome-102/#more). And as I wrote this, [<FontIcon icon="iconfont icon-webkit"/>it landed in Safari Technology Preview 125](https://webkit.org/blog/17216/release-notes-for-safari-technology-preview-225/). So there you have it.
+Filing this in the “Missed First Time Around” category. It popped up in the [<VPIcon icon="fa-brands fa-firefox"/>Firefox 139 release notes](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/139#html) and I was, like, *ooo neat*. Then I saw [<VPIcon icon="fa-brands fa-chrome"/>it’s been in Chrome since at least 2022](https://developer.chrome.com/blog/new-in-chrome-102/#more). And as I wrote this, [<VPIcon icon="iconfont icon-webkit"/>it landed in Safari Technology Preview 125](https://webkit.org/blog/17216/release-notes-for-safari-technology-preview-225/). So there you have it.
 
 Turns out there are a few good posts and tutorials about `hidden=until-found` floating out there, so I thought I’d jot down a few key takeaways for later reference.
 
@@ -88,17 +88,17 @@ If we do a <kbd>Ctrl</kbd>+<kbd>F</kbd> on the keyboard to activate in-page sear
 
 ## Why we need this
 
-That’s what I was asking myself when I started digging into this a little deeper. The most prominent example of it being used is from the [<FontIcon icon="fa-brands fa-chrome"/>Chrome for Developers docs](https://developer.chrome.com/docs/css-ui/hidden-until-found) as a faux-accordion. You know, a series of panels that open and close on click.
+That’s what I was asking myself when I started digging into this a little deeper. The most prominent example of it being used is from the [<VPIcon icon="fa-brands fa-chrome"/>Chrome for Developers docs](https://developer.chrome.com/docs/css-ui/hidden-until-found) as a faux-accordion. You know, a series of panels that open and close on click.
 
 CodePen Embed Fallback
 https://codepen.io/web-dot-dev/pen/JjMxmom
 hidden="until-found" demo
 
-But isn’t that a solved deal now that we have the [**`<details>` element**](/css-tricks.com/using-styling-the-details-element.md) at the ready? May as well use a semantic disclosure widget to, you know, *disclose content*. Indeed, browsers also set `content-visibility: hidden` on the [<FontIcon icon="iconfont icon-css-tricks"/>`::details-content`](https://css-tricks.com/almanac/pseudo-selectors/d/details-content/) portion of the element that holds the content.
+But isn’t that a solved deal now that we have the [**`<details>` element**](/css-tricks.com/using-styling-the-details-element.md) at the ready? May as well use a semantic disclosure widget to, you know, *disclose content*. Indeed, browsers also set `content-visibility: hidden` on the [<VPIcon icon="iconfont icon-css-tricks"/>`::details-content`](https://css-tricks.com/almanac/pseudo-selectors/d/details-content/) portion of the element that holds the content.
 
 ![Inspecting the details element's Shadow DOM in Chrome DevTools.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/details-content-visibility.png?resize=2402%2C1856&ssl=1)
 
-I’m pretty sure `<details>` was not as widely supported in 2022 as it is today. It’s actually part of [<FontIcon icon="iconfont icon-webkit"/>Interop 2025](https://webkit.org/blog/16458/announcing-interop-2025/#details-element) and notice that one of the functionalities mentioned is the capability for in-page search. Chrome already supports it. Firefox recently shipped it (ostensibly as part of the `hidden=until-found` release). And Safari will presumably get there with Interop 2025. The example from the Chrome for Developers post demonstrates an approach for working around a not-fully-supported `<details>` element and now we have it.
+I’m pretty sure `<details>` was not as widely supported in 2022 as it is today. It’s actually part of [<VPIcon icon="iconfont icon-webkit"/>Interop 2025](https://webkit.org/blog/16458/announcing-interop-2025/#details-element) and notice that one of the functionalities mentioned is the capability for in-page search. Chrome already supports it. Firefox recently shipped it (ostensibly as part of the `hidden=until-found` release). And Safari will presumably get there with Interop 2025. The example from the Chrome for Developers post demonstrates an approach for working around a not-fully-supported `<details>` element and now we have it.
 
 So, why `hidden=until-closed`?
 
@@ -110,11 +110,11 @@ I don’t know. I’m sure there’s a good use case for hiding content accessib
 
 ## Browser support and polyfill
 
-We’ve already established that Chrome and Firefox are on board. Safari is the bigger holdout, but knowing that making the hidden content in `<details>` findable is part of Interop 2025 (and Firefox’s corresponding support for it as part of that effort) makes me think it’s around the corner. (Turns out that hunch was correct because [<FontIcon icon="iconfont icon-webkit"/>it landed in Safari Technology Preview 125](https://webkit.org/blog/17216/release-notes-for-safari-technology-preview-225/) after writing this.)
+We’ve already established that Chrome and Firefox are on board. Safari is the bigger holdout, but knowing that making the hidden content in `<details>` findable is part of Interop 2025 (and Firefox’s corresponding support for it as part of that effort) makes me think it’s around the corner. (Turns out that hunch was correct because [<VPIcon icon="iconfont icon-webkit"/>it landed in Safari Technology Preview 125](https://webkit.org/blog/17216/release-notes-for-safari-technology-preview-225/) after writing this.)
 
 In the meantime, though, is it worth using `hidden=until-found`? Because if we’re aiming for a consistent cross-browser experience, we’d need to do some sort of swap between `content-visibility: hidden` to hide the content and `content-visible: auto` to reveal it.
 
-Nathan Knowler [<FontIcon icon="fas fa-globe"/>expertly explains](https://knowler.dev/blog/polyfilling-hidden-until-found) the conundrum this creates. We can’t set `content-visibility: hidden` on something without also removing it from in-page search. The `hidden=until-found` attribute works exactly like `content-visibility: hidden` but maintains that in-page search still works. In other words, we can’t polyfill the feature with `content-visibility`.
+Nathan Knowler [<VPIcon icon="fas fa-globe"/>expertly explains](https://knowler.dev/blog/polyfilling-hidden-until-found) the conundrum this creates. We can’t set `content-visibility: hidden` on something without also removing it from in-page search. The `hidden=until-found` attribute works exactly like `content-visibility: hidden` but maintains that in-page search still works. In other words, we can’t polyfill the feature with `content-visibility`.
 
 Thanks, Nathan, for going down the massive rabbit hole and finding a solution that leverages the Shadow DOM to look for the HTML attribute, check support, and revert its properties when needed to accessibly hide the content visually without fully nuking it from being found.
 
@@ -142,7 +142,7 @@ If you’re thinking we might get to mix-and-match `::search-text` with the corr
 
 ## Anything else?
 
-Not really, but I do like the note at the end of Christian Shaefer’s [<FontIcon icon="fas fa-globe"/>“Rethinking Find-in-Page Accessibility”](https://schepp.dev/posts/rethinking-find-in-page-accessibility-making-hidden-text-work-for-everyone/) post that says consideration needs to go into what happens *after* a search query matches content on the page. Currently, the content remains visible even after in-page search is closed or canceled. Perhaps we’ll need some other HTML hint for that.
+Not really, but I do like the note at the end of Christian Shaefer’s [<VPIcon icon="fas fa-globe"/>“Rethinking Find-in-Page Accessibility”](https://schepp.dev/posts/rethinking-find-in-page-accessibility-making-hidden-text-work-for-everyone/) post that says consideration needs to go into what happens *after* a search query matches content on the page. Currently, the content remains visible even after in-page search is closed or canceled. Perhaps we’ll need some other HTML hint for that.
 
 ::: info Links
 

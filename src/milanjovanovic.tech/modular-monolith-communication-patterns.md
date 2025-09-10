@@ -56,7 +56,7 @@ The allure of **Microservices** is becoming less compelling. We also have season
 
 > You shouldn't start a new project with microservices, even if you're sure your application will be big enough to make it worthwhile.
 >
->> *[<FontIcon icon="fas fa-globe"/>Martin Fowler](https://martinfowler.com/bliki/MonolithFirst.html)*
+>> *[<VPIcon icon="fas fa-globe"/>Martin Fowler](https://martinfowler.com/bliki/MonolithFirst.html)*
 
 Modular monoliths give you the **logical architecture** of Microservices without the operational complexity. You can safely determine the boundaries between modules. And refactoring is straightforward and less risky. They can also be easily migrated into Microservices if you decide to do so.
 

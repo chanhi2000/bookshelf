@@ -327,7 +327,7 @@ With this method, the test does not break as a result of changes in implementati
 
 ## Conclusion
 
-In this article, we’ve looked at some common mistakes that occur when transitioning to React Hooks. We’ve also seen how to avoid those mistakes and best practices to follow. Learn more about React Hooks [<FontIcon icon="fa-brands fa-react"/>here](https://reactjs.org/docs/hooks-intro.html).
+In this article, we’ve looked at some common mistakes that occur when transitioning to React Hooks. We’ve also seen how to avoid those mistakes and best practices to follow. Learn more about React Hooks [<VPIcon icon="fa-brands fa-react"/>here](https://reactjs.org/docs/hooks-intro.html).
 
 <SiteInfo
   name="Introducing Hooks - React"

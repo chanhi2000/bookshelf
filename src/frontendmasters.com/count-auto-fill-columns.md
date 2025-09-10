@@ -64,7 +64,7 @@ Let’s see how!
 
 ### Setup
 
-We start with a `.grid` with a lot of items, let’s say `100`. I normally prefer to generate them in a loop using a preprocessor to avoid clutter in the HTML and to make it easy to change their number, but it’s also possible to do so using Emmet. For the demos illustrating the concept here, we’re using [<FontIcon icon="iconfont icon-pug"/>Pug](https://pugjs.org/api/getting-started.html), and also numbering our items via their text content:
+We start with a `.grid` with a lot of items, let’s say `100`. I normally prefer to generate them in a loop using a preprocessor to avoid clutter in the HTML and to make it easy to change their number, but it’s also possible to do so using Emmet. For the demos illustrating the concept here, we’re using [<VPIcon icon="iconfont icon-pug"/>Pug](https://pugjs.org/api/getting-started.html), and also numbering our items via their text content:
 
 ```pug
 .grid  
@@ -86,11 +86,11 @@ Our `.grid` has `auto-fit` columns:
 
 This means our `.grid` has as many columns of unit width `u` as can fit within its own `content-box` width. This width is flexible and is given by the page layout, we don’t know it. However, its children (the `.item` elements) can know it as `100cqw` in container query units. To have these container units available for the `.grid` element’s children (and pseudos), we’ve made the `.grid` an inline container.
 
-This *should* work just fine. And it does, in both Chrome and Firefox. However, if we try it out in Safari, we see our `.grid` is collapsed into a point. Unfortunately, in Safari, `auto-fit` grids break if they are also containers. (Note: this [<FontIcon icon="iconfont icon-webkit"/>Safari bug is actually fixed](https://bugs.webkit.org/show_bug.cgi?id=282326), it’s just waiting to make it’s way to a stable release.)
+This *should* work just fine. And it does, in both Chrome and Firefox. However, if we try it out in Safari, we see our `.grid` is collapsed into a point. Unfortunately, in Safari, `auto-fit` grids break if they are also containers. (Note: this [<VPIcon icon="iconfont icon-webkit"/>Safari bug is actually fixed](https://bugs.webkit.org/show_bug.cgi?id=282326), it’s just waiting to make it’s way to a stable release.)
 
 We have two options in this case.
 
-The first would be to replace `auto-fit` with `auto-fill`. When we have as many items as we do in this case, we can use either of them, the difference between them is only noticeable [when we don’t even have enough items to fill one row (<FontIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/gOayvpb).
+The first would be to replace `auto-fit` with `auto-fill`. When we have as many items as we do in this case, we can use either of them, the difference between them is only noticeable [when we don’t even have enough items to fill one row (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/full/gOayvpb).
 
 ```css
 .grid {
@@ -127,7 +127,7 @@ In theory, we could get the number `n` of columns on the `.item` children of the
 --n: round(down, 100cqw/var(--u))
 ```
 
-In practice, while this *should* work, it only works in Safari (since [<FontIcon icon="iconfont icon-webkit"/>Sept 2024](https://webkit.org/blog/15860/release-notes-for-safari-technology-preview-203/)) in Chrome (since [<FontIcon icon="fa-brands fa-chrome"/>June 2025](https://developer.chrome.com/release-notes/138?authuser=1&hl=en)), and where we can test it out by displaying it using [<FontIcon icon="fa-brands fa-stack-overflow"/>the counter hack](https://stackoverflow.com/a/40179718/1397351):
+In practice, while this *should* work, it only works in Safari (since [<VPIcon icon="iconfont icon-webkit"/>Sept 2024](https://webkit.org/blog/15860/release-notes-for-safari-technology-preview-203/)) in Chrome (since [<VPIcon icon="fa-brands fa-chrome"/>June 2025](https://developer.chrome.com/release-notes/138?authuser=1&hl=en)), and where we can test it out by displaying it using [<VPIcon icon="fa-brands fa-stack-overflow"/>the counter hack](https://stackoverflow.com/a/40179718/1397351):
 
 ```css
 .grid::before {
@@ -163,11 +163,11 @@ You can see it in action in demo below, but keep in mind it can only compute the
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-Great, but what Firefox? The [<FontIcon icon="fa-brands fa-firefox"/>Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1827404) looks like it’s dormant, so we cannot get the ratio between two length values there.
+Great, but what Firefox? The [<VPIcon icon="fa-brands fa-firefox"/>Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1827404) looks like it’s dormant, so we cannot get the ratio between two length values there.
 
 ### Extending support
 
-However, we have [a clever hack (<FontIcon icon="fa-brands fa-dev"/>`janeori`)](https://dev.to/janeori/css-type-casting-to-numeric-tanatan2-scalars-582j) to solve the problem!
+However, we have [a clever hack (<VPIcon icon="fa-brands fa-dev"/>`janeori`)](https://dev.to/janeori/css-type-casting-to-numeric-tanatan2-scalars-582j) to solve the problem!
 
 The idea behind is the following: the tangent of an acute angle in a right triangle is the ratio between the length of the cathetus opposing the angle and the length of the cathetus adjacent to it. So basically, the tangent is a ratio between two length values and *such a ratio is precisely what we need*.
 
@@ -212,7 +212,7 @@ So we can write it all as follows, introducing also the correction that the numb
 --n: max(1, round(down, var(--f)))
 ```
 
-That’s it, that’s the formula for `--n` in the case when we don’t have support for getting the ratio of two length values! There is one catch, though: both `--w` and `--u` have to be registered as lengths in order for `atan2()` [<FontIcon icon="fas fa-globe"/>to work properly](https://bsky.app/profile/anatudor.bsky.social/post/3kxmt5qlbbi2e)!
+That’s it, that’s the formula for `--n` in the case when we don’t have support for getting the ratio of two length values! There is one catch, though: both `--w` and `--u` have to be registered as lengths in order for `atan2()` [<VPIcon icon="fas fa-globe"/>to work properly](https://bsky.app/profile/anatudor.bsky.social/post/3kxmt5qlbbi2e)!
 
 Putting it all together, the relevant code for our demo looks as follows:
 

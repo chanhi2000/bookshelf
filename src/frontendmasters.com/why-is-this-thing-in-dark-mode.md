@@ -61,7 +61,7 @@ I was looking at an email in a web app the other day, and it was showing it to m
 
 ![Email in “Light Mode” in Front](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/07/light-email.png?resize=1016%2C1024&ssl=1)
 
-But then I was like… *why* am I looking at this email in Dark Mode? While I was working on the email, it was in Light Mode. I made it using [<FontIcon icon="fas fa-globe"/>MJML](https://mjml.io/) and the VS Code Extension which gave me a preview of the email, it was was in Light Mode there, so it looked surprising to me in Dark Mode that first time.
+But then I was like… *why* am I looking at this email in Dark Mode? While I was working on the email, it was in Light Mode. I made it using [<VPIcon icon="fas fa-globe"/>MJML](https://mjml.io/) and the VS Code Extension which gave me a preview of the email, it was was in Light Mode there, so it looked surprising to me in Dark Mode that first time.
 
 First I checked my System Settings on macOS to see what was going on there:
 
@@ -97,7 +97,7 @@ So in terms of *power*, It’s like:
 
 And those top two typically have an option to allow the setting to fall through to the next level.
 
-That’s a lot of stuff to check when you’re trying to figure out what is controlling a color theme! I’m tempted to say *too many*, but when it comes to user control over websites, I tend to be in the camp of giving as much control to the user as possible. That leaves me extra conflicted about [<FontIcon icon="fas fa-globe"/>*adding* browser level color mode switches](https://bram.us/2024/04/13/what-if-you-had-real-control-over-light-mode-dark-mode-on-a-per-site-basis/) on a per-side basis, as it will likely lead to a 4-level system of diagnosing what mode is active.
+That’s a lot of stuff to check when you’re trying to figure out what is controlling a color theme! I’m tempted to say *too many*, but when it comes to user control over websites, I tend to be in the camp of giving as much control to the user as possible. That leaves me extra conflicted about [<VPIcon icon="fas fa-globe"/>*adding* browser level color mode switches](https://bram.us/2024/04/13/what-if-you-had-real-control-over-light-mode-dark-mode-on-a-per-site-basis/) on a per-side basis, as it will likely lead to a 4-level system of diagnosing what mode is active.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -101,7 +101,7 @@ We will dedicate our attention to the first two models.
 
 Let’s explain a server-side Blazor first.
 
-This type of application executes fully on the server within the ASP.NET Core application. To communicate with the HTML, the server-side application uses SignalR. This is provided through the JavaScript file called <FontIcon icon="fa-brands fa-js"/>`blazor.server.js`. If you are not familiar with the SignalR, we strongly recommend reading our [**SignalR Real-Time Charts with ASP.NET Core and Angular**](/code-maze.com/netcore-signalr-angular.md) article, where you can learn more about it and its implementation.
+This type of application executes fully on the server within the ASP.NET Core application. To communicate with the HTML, the server-side application uses SignalR. This is provided through the JavaScript file called <VPIcon icon="fa-brands fa-js"/>`blazor.server.js`. If you are not familiar with the SignalR, we strongly recommend reading our [**SignalR Real-Time Charts with ASP.NET Core and Angular**](/code-maze.com/netcore-signalr-angular.md) article, where you can learn more about it and its implementation.
 
 Because the server-side application remains in the memory all the time, the instance is created per user while the client-server interaction is happening.
 
@@ -171,7 +171,7 @@ For the first application, we are going to choose the Blazor Server App, and for
 
 Now, let’s open both applications and inspect the differences.
 
-If we inspect the <FontIcon icon="fas fa-folder-open"/>`www/root` folders of both applications, we can see that the WebAssembly application has the <FontIcon icon="fa-brands fa-html5"/>`index.html` file which doesn’t exist in the server-side app:
+If we inspect the <VPIcon icon="fas fa-folder-open"/>`www/root` folders of both applications, we can see that the WebAssembly application has the <VPIcon icon="fa-brands fa-html5"/>`index.html` file which doesn’t exist in the server-side app:
 
 ```html title="index.html"
 <!DOCTYPE html>
@@ -201,9 +201,9 @@ If we inspect the <FontIcon icon="fas fa-folder-open"/>`www/root` folders of bot
 </html>
 ```
 
-This file contains the reference to the <FontIcon icon="fa-brands fa-js"/>`blazor.webassebly.js` file that is responsible for downloading all of the application’s assets. This .js file also initiates the runtime to start the application.
+This file contains the reference to the <VPIcon icon="fa-brands fa-js"/>`blazor.webassebly.js` file that is responsible for downloading all of the application’s assets. This .js file also initiates the runtime to start the application.
 
-A similar thing happens on the server-side application in the <FontIcon icon="fas fa-folder-open"/>`Page/`<FontIcon icon="fa-brands fa-html5"/>`_Layout.cshtml` file:
+A similar thing happens on the server-side application in the <VPIcon icon="fas fa-folder-open"/>`Page/`<VPIcon icon="fa-brands fa-html5"/>`_Layout.cshtml` file:
 
 ```html title="Page/_Layout.cshtml"
 @using Microsoft.AspNetCore.Components.Web
@@ -240,9 +240,9 @@ A similar thing happens on the server-side application in the <FontIcon icon="fa
 </html>
 ```
 
-This file references the <FontIcon icon="fa-brands fa-js"/>`blazor.server.js` file (which we talked about), and it establishes the client WebSocket connection to the server.
+This file references the <VPIcon icon="fa-brands fa-js"/>`blazor.server.js` file (which we talked about), and it establishes the client WebSocket connection to the server.
 
-If we inspect the <FontIcon icon="fas fa-folder-open"/>`Pages` folder of both projects, we can see they have the same files (FetchData, Index, Counter). This means we can reuse our component files from one to another project without any problem.
+If we inspect the <VPIcon icon="fas fa-folder-open"/>`Pages` folder of both projects, we can see they have the same files (FetchData, Index, Counter). This means we can reuse our component files from one to another project without any problem.
 
 ### Download Files Inspection
 

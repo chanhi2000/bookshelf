@@ -68,11 +68,11 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_158.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_158.png"/>
 
-I implemented [**full-text search**](/milanjovanovic.tech/how-i-implemented-full-text-search-on-my-website.md) on my static website using Lunr.js. It works great for exact matches or phrases, but it doesn't understand meaning. Someone searches for [<FontIcon icon="fas fa-globe"/>"modular monolith"](https://milanjovanovic.tech/search?q=modular%20monolith) and finds posts that contain these phrases. But when they search for "database performance issues," they might miss my articles about query optimization and index tuning, even though that's exactly what they need.
+I implemented [**full-text search**](/milanjovanovic.tech/how-i-implemented-full-text-search-on-my-website.md) on my static website using Lunr.js. It works great for exact matches or phrases, but it doesn't understand meaning. Someone searches for [<VPIcon icon="fas fa-globe"/>"modular monolith"](https://milanjovanovic.tech/search?q=modular%20monolith) and finds posts that contain these phrases. But when they search for "database performance issues," they might miss my articles about query optimization and index tuning, even though that's exactly what they need.
 
 [**Amazon S3 is now also a vector database**](https://aws.amazon.com/blogs/aws/introducing-amazon-s3-vectors-first-cloud-storage-with-native-vector-support-at-scale/), and it's 90% cheaper (according to the announcement) than the alternatives.
 
-For those of us running static sites or simple web apps, it means we can finally add semantic search without the operational overhead of running a vector database like [<FontIcon icon="fas fa-globe"/>Pinecone](https://pinecone.io/), [<FontIcon icon="fas fa-globe"/>Weaviate](https://weaviate.io/), or [<FontIcon icon="fas fa-globe"/>Qdrant](https://qdrant.tech/).
+For those of us running static sites or simple web apps, it means we can finally add semantic search without the operational overhead of running a vector database like [<VPIcon icon="fas fa-globe"/>Pinecone](https://pinecone.io/), [<VPIcon icon="fas fa-globe"/>Weaviate](https://weaviate.io/), or [<VPIcon icon="fas fa-globe"/>Qdrant](https://qdrant.tech/).
 
 Instead, we can just use S3 buckets that understand vectors.
 
@@ -82,7 +82,7 @@ I'm adding it alongside my existing full-text search implementation, and the who
 
 ## How Semantic Search Works
 
-The entire [<FontIcon icon="iconfont icon-gcp"/>semantic search](https://cloud.google.com/discover/what-is-semantic-search) flow is straightforward:
+The entire [<VPIcon icon="iconfont icon-gcp"/>semantic search](https://cloud.google.com/discover/what-is-semantic-search) flow is straightforward:
 
 ![Semantic search flow](https://milanjovanovic.tech/blogs/mnw_158/semantic_search_flow.png?imwidth=3840)
 
@@ -98,7 +98,7 @@ If you want to understand the fundamentals, I wrote an article explaining what [
 
 ## Generating Embeddings with Semantic Kernel
 
-Microsoft's [<FontIcon icon="fa-brands fa-microsoft"/>Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) makes working with Bedrock surprisingly clean.
+Microsoft's [<VPIcon icon="fa-brands fa-microsoft"/>Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) makes working with Bedrock surprisingly clean.
 
 We'll need to install a few NuGet packages:
 
@@ -151,11 +151,11 @@ Pick a unique name for your vector bucket:
 
 ![Creating S3 Vectors bucket](https://milanjovanovic.tech/blogs/mnw_158/s3_vectors_bucket_create.png?imwidth=3840)
 
-And finally, you can create a **vector index** for your bucket. You get to choose the number of dimensions in each vector. This is dictated by the embedding model you use. All vectors within a vector index should use the same embedding model. Otherwise, you won't get the correct results when searching. You also have to choose the [<FontIcon icon="fa-brands fa-wikipedia-w"/>distance metric](https://en.wikipedia.org/wiki/Metric_space) (e.g., cosine similarity, Euclidean distance) for your vector index. I went with [<FontIcon icon="fa-brands fa-wikipedia-w"/>cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity), which is a common choice for text embeddings. The additional settings let you configure non-filterable metadata. By default, all metadata is filterable.
+And finally, you can create a **vector index** for your bucket. You get to choose the number of dimensions in each vector. This is dictated by the embedding model you use. All vectors within a vector index should use the same embedding model. Otherwise, you won't get the correct results when searching. You also have to choose the [<VPIcon icon="fa-brands fa-wikipedia-w"/>distance metric](https://en.wikipedia.org/wiki/Metric_space) (e.g., cosine similarity, Euclidean distance) for your vector index. I went with [<VPIcon icon="fa-brands fa-wikipedia-w"/>cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity), which is a common choice for text embeddings. The additional settings let you configure non-filterable metadata. By default, all metadata is filterable.
 
 ![Creating S3 Vectors bucket](https://milanjovanovic.tech/blogs/mnw_158/s3_vectors_index_create.png?imwidth=3840)
 
-The UI is not polished at all, and you can't do much else. I expect this will improve over time, but for now, everything else is done via the SDK or CLI. There are certain limitations to be aware of, you can check out the docs [<FontIcon icon="fa-brands fa-aws"/>here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-limitations.html).
+The UI is not polished at all, and you can't do much else. I expect this will improve over time, but for now, everything else is done via the SDK or CLI. There are certain limitations to be aware of, you can check out the docs [<VPIcon icon="fa-brands fa-aws"/>here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-limitations.html).
 
 ---
 
@@ -239,7 +239,7 @@ public async Task<List<SearchResult>> SemanticSearch(
 }
 ```
 
-I omitted metadata filtering here, but you can explore the [<FontIcon icon="fa-brands fa-aws"/>documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-metadata-filtering.html) for more details.
+I omitted metadata filtering here, but you can explore the [<VPIcon icon="fa-brands fa-aws"/>documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-metadata-filtering.html) for more details.
 
 ---
 

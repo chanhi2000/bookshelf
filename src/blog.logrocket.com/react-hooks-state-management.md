@@ -64,7 +64,7 @@ This React Hooks state management tutorial was last updated on 25 May 2021.
 
 ![Using React Hooks for State Management Without Redux](/assets/image/blog.logrocket.com/react-hooks-state-management/banner.png)
 
-The [<FontIcon icon="fa-brands fa-react"/>React Hooks API](https://reactjs.org/docs/hooks-reference.html) has introduced a whole new way of writing and thinking about React apps. One of my favorite React Hooks is [**`useReducer`**](/blog.logrocket.com/react-usereducer-hook-ultimate-guide.md), which you can use to share states between components.
+The [<VPIcon icon="fa-brands fa-react"/>React Hooks API](https://reactjs.org/docs/hooks-reference.html) has introduced a whole new way of writing and thinking about React apps. One of my favorite React Hooks is [**`useReducer`**](/blog.logrocket.com/react-usereducer-hook-ultimate-guide.md), which you can use to share states between components.
 
 In this tutorial, we’ll show you how to handle complex state updates in React using the `useReducer` Hook.
 
@@ -74,7 +74,7 @@ In this tutorial, we’ll show you how to handle complex state updates in React 
 
 Managing state in React, particularly in large apps, used to involve pulling in third-party libraries such as Redux and MobX. These third-party tools made it easier to update your application’s state in a more predictable and fine-grained way, but they usually came with extra overhead and a steep learning curve.
 
-Thanks to `useReducer`, one of the [**custom Hooks**](/blog.logrocket.com/create-your-own-custom-react-hooks.md) introduced with [<FontIcon icon="fa-brands fa-react"/>React v16.8](https://reactjs.org/docs/hooks-intro.html), you can now reap the benefits of using third-party libraries without the extra packages and learning curve — OK, maybe just a tiny curve.
+Thanks to `useReducer`, one of the [**custom Hooks**](/blog.logrocket.com/create-your-own-custom-react-hooks.md) introduced with [<VPIcon icon="fa-brands fa-react"/>React v16.8](https://reactjs.org/docs/hooks-intro.html), you can now reap the benefits of using third-party libraries without the extra packages and learning curve — OK, maybe just a tiny curve.
 
 By the end of this tutorial, you’ll be able to manage and share your application’s state in a predictable manner with React Hooks.
 
@@ -278,7 +278,7 @@ function LoginPage(props) {
 
 We’ve now been able to update a store variable that is being read from several other components. These components get the new value of `user` and `permissions` as soon as the reducer returns the new state determined by the action.
 
-This is a very modular way to share dynamic data between different components while still keeping the code relatively simple and free from boilerplate. You could improve on this further by using the [<FontIcon icon="fa-brands fa-react"/>`useContext` Hook](https://reactjs.org/docs/hooks-reference.html#usecontext) to make the store and dispatch function available to all components without having to manually pass it down by hand.
+This is a very modular way to share dynamic data between different components while still keeping the code relatively simple and free from boilerplate. You could improve on this further by using the [<VPIcon icon="fa-brands fa-react"/>`useContext` Hook](https://reactjs.org/docs/hooks-reference.html#usecontext) to make the store and dispatch function available to all components without having to manually pass it down by hand.
 
 ---
 

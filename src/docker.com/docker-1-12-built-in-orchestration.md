@@ -81,7 +81,7 @@ It all starts with creating a swarm-a self-healing group of engines-which for th
 docker swarm init
 ```
 
-Under the hood this creates a [<FontIcon icon="fas fa-globe"/>Raft](https://raft.github.io/raft.pdf)consensus group of one node. This first node has the role of manager, meaning it accepts commands and schedule tasks. As you join more nodes to the swarm, they will by default be workers, which simply execute containers dispatched by the manager. You can optionally add additional manager nodes.The manager nodes will be part of the Raft consensus group. We use an optimized Raft store in which reads are serviced directly from memorywhich makes scheduling performance fast.
+Under the hood this creates a [<VPIcon icon="fas fa-globe"/>Raft](https://raft.github.io/raft.pdf)consensus group of one node. This first node has the role of manager, meaning it accepts commands and schedule tasks. As you join more nodes to the swarm, they will by default be workers, which simply execute containers dispatched by the manager. You can optionally add additional manager nodes.The manager nodes will be part of the Raft consensus group. We use an optimized Raft store in which reads are serviced directly from memorywhich makes scheduling performance fast.
 
 ---
 
@@ -96,7 +96,7 @@ docker service create -name frontend \
 nginx:latest
 ```
 
-This command declares a desired state on your swarmof 5 nginx containers, reachable as a single, internally load balanced service on port 80 of any node in your swarm. Internally, we make this work using [<FontIcon icon="fa-brands fa-linux"/>Linux IPVS](http://linuxvirtualserver.org/software/ipvs.html),an in-kernel Layer 4 multi-protocol load balancer that’s been in the Linux kernel for more than 15 years. With IPVS routing packets inside the kernel, swarm’s routing mesh delivers high performance container-aware load-balancing.
+This command declares a desired state on your swarmof 5 nginx containers, reachable as a single, internally load balanced service on port 80 of any node in your swarm. Internally, we make this work using [<VPIcon icon="fa-brands fa-linux"/>Linux IPVS](http://linuxvirtualserver.org/software/ipvs.html),an in-kernel Layer 4 multi-protocol load balancer that’s been in the Linux kernel for more than 15 years. With IPVS routing packets inside the kernel, swarm’s routing mesh delivers high performance container-aware load-balancing.
 
 When you create services, you can optionally create replicated or global services. Replicated services mean any number of containers that you define will be spread across the available hosts.Global services, by contrast, schedule one instance the same container on every host in the swarm.
 
@@ -143,7 +143,7 @@ If you would like to use your own Certificate Authority, we also support an exte
 
 ## Bundles
 
-Docker 1.12 introduces a new file format called a [Distributed Application Bundle (<FontIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/experimental/docker-stacks-and-bundles.md)(experimental build only).Bundleis a new abstraction on top of servicefocused on the full stack application.
+Docker 1.12 introduces a new file format called a [Distributed Application Bundle (<VPIcon icon="iconfont icon-github"/>`docker/docker`)](https://github.com/docker/docker/blob/master/experimental/docker-stacks-and-bundles.md)(experimental build only).Bundleis a new abstraction on top of servicefocused on the full stack application.
 
 A Docker Bundle file is a declarative specification of a set of services that mandates:
 
@@ -161,7 +161,7 @@ Bundles are an efficient mechanism for moving multi-service apps from developer 
 
 ## Under the hood of Docker 1.12
 
-When you take a look under the hood, Docker 1.12 uses a number of other interesting technologies.Inter-node communication is done using [<FontIcon icon="fas fa-globe"/>gRPC](http://grpc.io/), which gives us HTTP/2 benefits like connection multiplexing and header compression. Our data structures are transmitted efficiently thanks to [<FontIcon icon="fa-brands fa-google"/>protobufs](https://developers.google.com/protocol-buffers/).  
+When you take a look under the hood, Docker 1.12 uses a number of other interesting technologies.Inter-node communication is done using [<VPIcon icon="fas fa-globe"/>gRPC](http://grpc.io/), which gives us HTTP/2 benefits like connection multiplexing and header compression. Our data structures are transmitted efficiently thanks to [<VPIcon icon="fa-brands fa-google"/>protobufs](https://developers.google.com/protocol-buffers/).  
 
 <VidStack src="youtube/F7hoq0KwHD4" />
 

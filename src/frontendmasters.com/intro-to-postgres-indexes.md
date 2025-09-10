@@ -89,13 +89,13 @@ There are other types of database indexes beside B Tree, but B Tree indexes are 
 
 :::
 
-Everything in these posts will use [<FontIcon icon="iconfont icon-postgresql"/>Postgres](https://postgresql.org/), but everything is directly applicable to other relational databases (like MySQL). All the queries I’ll be running are against a simple books database which I scaffolded, and had [<FontIcon icon="fas fa-globe"/>Cursor](https://cursor.com/en) populate with about 90 million records. The schema for the database, as well as the code to fill it are in [this repo (<FontIcon icon="iconfont icon-github"/>`arackaf/postgres-indexing-post`)](https://github.com/arackaf/postgres-indexing-post). If you’d like to follow along on your own: <FontIcon icon="fas fa-folder-open"/>`sql/`<FontIcon icon="fas fa-file-lines"/>`db_create.sql` has the DDL, and `npx tsx insert-data/fill-database.ts` will run the code to fill it.
+Everything in these posts will use [<VPIcon icon="iconfont icon-postgresql"/>Postgres](https://postgresql.org/), but everything is directly applicable to other relational databases (like MySQL). All the queries I’ll be running are against a simple books database which I scaffolded, and had [<VPIcon icon="fas fa-globe"/>Cursor](https://cursor.com/en) populate with about 90 million records. The schema for the database, as well as the code to fill it are in [this repo (<VPIcon icon="iconfont icon-github"/>`arackaf/postgres-indexing-post`)](https://github.com/arackaf/postgres-indexing-post). If you’d like to follow along on your own: <VPIcon icon="fas fa-folder-open"/>`sql/`<VPIcon icon="fas fa-file-lines"/>`db_create.sql` has the DDL, and `npx tsx insert-data/fill-database.ts` will run the code to fill it.
 
-We’ll be looking at some B Tree visualizations as we go. Those were put together with [a web app I had Cursor help me build (<FontIcon icon="iconfont icon-github"/>`arackaf/btree-visualizer`)](https://github.com/arackaf/btree-visualizer).
+We’ll be looking at some B Tree visualizations as we go. Those were put together with [a web app I had Cursor help me build (<VPIcon icon="iconfont icon-github"/>`arackaf/btree-visualizer`)](https://github.com/arackaf/btree-visualizer).
 
 ::: note Editors’ note
 
-Need to bone up on PostgreSQL all around? Our course [<FontIcon icon="fas fa-globe"/>Complete Intro to SQL & PostgreSQL](https://frontendmasters.com/courses/sql/) from Brian Holt will be perfect for you.
+Need to bone up on PostgreSQL all around? Our course [<VPIcon icon="fas fa-globe"/>Complete Intro to SQL & PostgreSQL](https://frontendmasters.com/courses/sql/) from Brian Holt will be perfect for you.
 
 :::
 
@@ -550,7 +550,7 @@ Hopefully this post has you thinking about indexes the right way. Thinking about
 
 ::: note Editor’s note
 
-our [<FontIcon icon="fas fa-globe"/>The Complete Course for Building Backend Web Apps with Go](https://frontendmasters.com/courses/complete-go/) includes setting up a PostgreSQL database and running it in Docker, all from scratch.
+our [<VPIcon icon="fas fa-globe"/>The Complete Course for Building Backend Web Apps with Go](https://frontendmasters.com/courses/complete-go/) includes setting up a PostgreSQL database and running it in Docker, all from scratch.
 
 :::
 

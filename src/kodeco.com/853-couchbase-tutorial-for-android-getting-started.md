@@ -110,17 +110,17 @@ You’ll use the Couchbase Lite database and the Sync Gateway in this tutorial i
 
 Since Couchbase Lite runs right on the device, you can bundle a prebuilt database in your application. This is optional; most apps start with an empty database and add data entered by the user or synchronized through Sync Gateway.
 
-In this Couchbase tutorial, you will use a database containing a list of questions. [Download the database](https://koenig-media.raywenderlich.com/uploads/2016/07/quizzdroid.cblite2.zip) and move the zip file to <FontIcon icon="fas fa-folder-open"/> __app/src/main/assets/__ in the starter project:
+In this Couchbase tutorial, you will use a database containing a list of questions. [Download the database](https://koenig-media.raywenderlich.com/uploads/2016/07/quizzdroid.cblite2.zip) and move the zip file to <VPIcon icon="fas fa-folder-open"/> __app/src/main/assets/__ in the starter project:
 
 ![couchbase tutorial drag-db-finder](https://koenig-media.raywenderlich.com/uploads/2016/07/drag-db-finder-1.png)
 
-The database starts in the <FontIcon icon="fas fa-folder-open"/> __assets__ folder, but Couchbase Lite reads from and persists to the <FontIcon icon="fas fa-folder-open"/> `data/data/com.raywenderlich.quizzdroid/files` folder. In the next section you’ll add code to move the database to its final location.
+The database starts in the <VPIcon icon="fas fa-folder-open"/> __assets__ folder, but Couchbase Lite reads from and persists to the <VPIcon icon="fas fa-folder-open"/> `data/data/com.raywenderlich.quizzdroid/files` folder. In the next section you’ll add code to move the database to its final location.
 
 ---
 
 ## Initializing the Database
 
-Open <FontIcon icon="fa-brands fa-java"/>`DataManager.java`. This is a singleton class providing access to the database instance throughout the application. Add the following to the constructor:
+Open <VPIcon icon="fa-brands fa-java"/>`DataManager.java`. This is a singleton class providing access to the database instance throughout the application. Add the following to the constructor:
 
 ```java
 Manager manager = null;
@@ -153,7 +153,7 @@ Here’s what this code does:
 
 1. Instantiates the Couchbase Lite `Manager`. A Manager is the top-level object managing a collection of Couchbase Lite Database instances. You must create a Manager instance before working with Couchbase Lite objects. The `Manager.DEFAULT_OPTIONS` parameter indicates default options, including read/write support.
 2. Checks for an existing `Database` named “quizzdroid”. This line returns `null` if the database doesn’t exist, as would be the case on first launch.
-3. If the database doesn’t exist, the `ZipUtils.unzip` method unzips the zip database file into the <FontIcon icon="fas fa-folder-open"/> __files__ directory; otherwise, nothing further needs to be done.
+3. If the database doesn’t exist, the `ZipUtils.unzip` method unzips the zip database file into the <VPIcon icon="fas fa-folder-open"/> __files__ directory; otherwise, nothing further needs to be done.
 4. The database is instantiated using the `getDatabase` method.
 
 ---
@@ -169,7 +169,7 @@ The image below illustrates the Couchbase system architecture. Notice that a dat
 
 ![diagrams.002](https://koenig-media.raywenderlich.com/uploads/2016/07/diagrams.002.png)
 
-Back in <FontIcon icon="fa-brands fa-java"/>`DataManager.java`, add the following below the existing code in the constructor method:
+Back in <VPIcon icon="fa-brands fa-java"/>`DataManager.java`, add the following below the existing code in the constructor method:
 
 ```java
 View.setCompiler(new JavaScriptViewCompiler());
@@ -235,7 +235,7 @@ Data records are called documents, and there are two document types: `question` 
 
 In order to manage the Couchbase documents, you will create POJO (Plain Old Java Object) classes to map the Couchbase documents to Java objects.
 
-Open <FontIcon icon="fas fa-folder-open"/>`model`/<FontIcon icon="fa-brands fa-java"/>`Question.java` and add the following instance variables:
+Open <VPIcon icon="fas fa-folder-open"/>`model`/<VPIcon icon="fa-brands fa-java"/>`Question.java` and add the following instance variables:
 
 ```java
 private String _id;
@@ -271,7 +271,7 @@ First, you will define the view to index the documents of type __question__. The
 
 Remember that a view index is a list of key-value pairs, sorted by key. The view’s logic is written in the native language of the platform you’re developing on.
 
-Add the following static method to <FontIcon icon="fas fa-folder-open"/>`model`/<FontIcon icon="fa-brands fa-java"/>`Question.java`:
+Add the following static method to <VPIcon icon="fas fa-folder-open"/>`model`/<VPIcon icon="fa-brands fa-java"/>`Question.java`:
 
 ```java
 public static Query getQuestions(Database database) {
@@ -307,7 +307,7 @@ This method returns a query from a database View. Walking through the code:
 
 With the view now defined, you are ready to run a `Query` on it. The result of a query is an instance of `QueryEnumerator`, which provides a list of `QueryRow` objects, each one describing a single row from the view’s index.
 
-Add the following code to the end of the `onCreate` method in <FontIcon icon="fa-brands fa-java"/>`HomeActivity.java`:
+Add the following code to the end of the `onCreate` method in <VPIcon icon="fa-brands fa-java"/>`HomeActivity.java`:
 
 ```java
 // 1
@@ -337,9 +337,9 @@ This code does the following:
 2. Loops over the query rows and deserializes the `Question` model objects.
 3. Connects the questions to the RecyclerView
 
-Notice the call to `ModelHelper.modelForDocument`. Open <FontIcon icon="fa-brands fa-java"/>`ModelHelper.java`, and take a look at `modelForDocument`. It uses the Jackson library to convert the properties in the question `QueryRow` object to the `Question` object.
+Notice the call to `ModelHelper.modelForDocument`. Open <VPIcon icon="fa-brands fa-java"/>`ModelHelper.java`, and take a look at `modelForDocument`. It uses the Jackson library to convert the properties in the question `QueryRow` object to the `Question` object.
 
-If you run the app, the screen will still be blank because the Recycler View isn’t drawing the rows. In <FontIcon icon="fas fa-folder-open"/>`adapter`/<FontIcon icon="fa-brands fa-java"/>`HomeAdapter.java`, add the following code to `onBindViewHolder`:
+If you run the app, the screen will still be blank because the Recycler View isn’t drawing the rows. In <VPIcon icon="fas fa-folder-open"/>`adapter`/<VPIcon icon="fa-brands fa-java"/>`HomeAdapter.java`, add the following code to `onBindViewHolder`:
 
 ```java
 // 1
@@ -404,7 +404,7 @@ Run the same query using the Listener. The result has the same questions you see
 
 ## Home Activity → Question Activity
 
-Head back to <FontIcon icon="fa-brands fa-java"/>`HomeActivity.java` and add the following code to the end of `onCreate`:
+Head back to <VPIcon icon="fa-brands fa-java"/>`HomeActivity.java` and add the following code to the end of `onCreate`:
 
 ```java
 adapter.setOnItemClickListener(new HomeAdapter.OnItemClickListener() {
@@ -432,7 +432,7 @@ Your first task is to load the full question document from the database and use 
 
 ### Loading the Question Data
 
-Open <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java` and paste the following at the end of `onCreate`:
+Open <VPIcon icon="fa-brands fa-java"/>`QuestionActivity.java` and paste the following at the end of `onCreate`:
 
 ```java
 // 1 
@@ -462,9 +462,9 @@ Build and run your app, and click on a question to display each question detail:
 
 The data modeling diagram lists the `options` property as an array of strings. Those are the possible choices shown to the user.
 
-Add the following method to<FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java:`
+Add the following method to<VPIcon icon="fa-brands fa-java"/>`QuestionActivity.java:`
 
-To display the choices, add the following to the end of onCreate in <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`:
+To display the choices, add the following to the end of onCreate in <VPIcon icon="fa-brands fa-java"/>`QuestionActivity.java`:
 
 ```java
 mQuestionOptions = (GridView) findViewById(R.id.question_options);
@@ -496,7 +496,7 @@ In the next section you’ll add a Submit button to save your answer to a new do
 
 User answers will be stored in the database as Answer documents. First, you’ll create an Answer model class.
 
-Create a new file <FontIcon icon="fas fa-folder-open"/>`model/`<FontIcon icon="fa-brands fa-java"/>`Answer.java` and add to it the following instance variables:
+Create a new file <VPIcon icon="fas fa-folder-open"/>`model/`<VPIcon icon="fa-brands fa-java"/>`Answer.java` and add to it the following instance variables:
 
 ```java
 private String _id;
@@ -510,7 +510,7 @@ These property names match the ones on the data modeling diagram. Next, add a ge
 
 ![image06](https://koenig-media.raywenderlich.com/uploads/2016/07/image06-1.gif)
 
-To create Answer instances, add the following constructor in <FontIcon icon="fas fa-folder-open"/>`mode/`<FontIcon icon="fa-brands fa-java"/>`Answer.java`:
+To create Answer instances, add the following constructor in <VPIcon icon="fas fa-folder-open"/>`mode/`<VPIcon icon="fa-brands fa-java"/>`Answer.java`:
 
 ```java
 public Answer(String question_id, String type, String user_answer) {
@@ -520,7 +520,7 @@ public Answer(String question_id, String type, String user_answer) {
 }
 ```
 
-To save an answer, you’ll add a button with a click handler. Open <FontIcon icon="iconfont icon-code"/>`activity_question.xml` and add the following Button element below the GridView:
+To save an answer, you’ll add a button with a click handler. Open <VPIcon icon="iconfont icon-code"/>`activity_question.xml` and add the following Button element below the GridView:
 
 ```xml
 <Button
@@ -531,7 +531,7 @@ To save an answer, you’ll add a button with a click handler. Open <FontIcon ic
     android:text="Submit" />
 ```
 
-Within <FontIcon icon="iconfont icon-code"/>`activity_question.xml`, create a click handler with the <kbd>Alt</kbd>+<kbd>Enter</kbd> shortcut:
+Within <VPIcon icon="iconfont icon-code"/>`activity_question.xml`, create a click handler with the <kbd>Alt</kbd>+<kbd>Enter</kbd> shortcut:
 
 ![onclick](https://koenig-media.raywenderlich.com/uploads/2016/07/onclick.gif)
 
@@ -561,7 +561,7 @@ One more feature to add before you dive into synchronization is to display the i
 
 ### Using Attachments
 
-Add the following code to the end of `onCreate` in <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`:
+Add the following code to the end of `onCreate` in <VPIcon icon="fa-brands fa-java"/>`QuestionActivity.java`:
 
 ```java
 Revision revision = document.getCurrentRevision();
@@ -606,7 +606,7 @@ You will use Sync Gateway in what’s known as _walrus_ mode, which is an in-mem
 
 ### Installing Sync Gateway
 
-[Download Sync Gateway community edition](http://www.couchbase.com/nosql-databases/downloads#couchbase-mobile) and unzip the file. The executable is located in the <FontIcon icon="fas fa-folder-open"/> `bin` folder. If you unzipped the file to the Downloads folder, start it with this command:
+[Download Sync Gateway community edition](http://www.couchbase.com/nosql-databases/downloads#couchbase-mobile) and unzip the file. The executable is located in the <VPIcon icon="fas fa-folder-open"/> `bin` folder. If you unzipped the file to the Downloads folder, start it with this command:
 
 ```sh
 $ ~/Downloads/couchbase-sync-gateway/bin/sync_gateway -dbname="quizzdroid"
@@ -622,7 +622,7 @@ Now that the Sync Gateway is running, you’ll add some code to replicate the da
 
 ### Synchronization
 
-Set up the push and pull replications by adding the following code to the end of the constructor in <FontIcon icon="fa-brands fa-java"/>`DataManager.java`.
+Set up the push and pull replications by adding the following code to the end of the constructor in <VPIcon icon="fa-brands fa-java"/>`DataManager.java`.
 
 ```java
 // 1
@@ -692,7 +692,7 @@ The requirements for this query are:
 
 With that in mind, you can emit the `question_id` and `user_answer` fields as a compound key with a null value, while using a reduce function to count the number of emitted rows.
 
-Add the following class method to <FontIcon icon="fa-brands fa-java"/>`Answer.java`:
+Add the following class method to <VPIcon icon="fa-brands fa-java"/>`Answer.java`:
 
 ```java
 public static Query getAnswersForQuestion(Database database, String questionId) {
@@ -733,7 +733,7 @@ You can read more about `setStartKey()` and `setEndKey()` in the Couchbase [docu
 
 ## Run the Query
 
-Time to run the query and use the results. Add the following method to <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`:
+Time to run the query and use the results. Add the following method to <VPIcon icon="fa-brands fa-java"/>`QuestionActivity.java`:
 
 ```java
 private Map<String,Integer> getAnswerCounts(QueryEnumerator answers) {
@@ -783,7 +783,7 @@ This passes the `Map` returned from `getAnswerCounts()` into the GridView adapte
 
 Next, you’ll add the method to set up a LiveQuery to keep the answer counts updated. A LiveQuery is a great way to keep your interface updated with database changes. It automatically refreshes any time Database changes affect your query.
 
-In <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`, add the following method:
+In <VPIcon icon="fa-brands fa-java"/>`QuestionActivity.java`, add the following method:
 
 ```java
 private void showAnswers() {
@@ -823,7 +823,7 @@ Next, you use the previously created `getAnswerCounts` to return the map of answ
 
 `Activity.runOnUiThread` updates the GridView on the UI thread.
 
-Add the following line to the end of `onCreate` in <FontIcon icon="fa-brands fa-java"/>`QuestionActivity.java`.
+Add the following line to the end of `onCreate` in <VPIcon icon="fa-brands fa-java"/>`QuestionActivity.java`.
 
 ```java
 showAnswers();
@@ -880,9 +880,9 @@ Well done! You’ve built a shareable quiz application that works equally well w
 
 ## Where to Go From Here?
 
-You can get the full source code for this project as a [downloadable zip](https://koenig-media.raywenderlich.com/uploads/2016/09/quizzdroid-final.zip) or as a [<FontIcon icon="iconfont icon-github"/> repo](https://github.com/jamiltz/quizzdroid) on GitHub.
+You can get the full source code for this project as a [downloadable zip](https://koenig-media.raywenderlich.com/uploads/2016/09/quizzdroid-final.zip) or as a [<VPIcon icon="iconfont icon-github"/> repo](https://github.com/jamiltz/quizzdroid) on GitHub.
 
-The [Couchbase Lite Guides](http://developer.couchbase.com/documentation/mobile/1.2/develop/guides/couchbase-lite/native-api/index.html) have detailed explanation for every concept covered in this Couchbase tutorial. Also check out [<FontIcon icon="iconfont icon-github"/> `couchbaselabs/photo-drop`](https://github.com/couchbaselabs/photo-drop), a peer-to-peer photo sharing application and [<FontIcon icon="iconfont icon-github"/> `couchbaselabs/todolite-android`](https://github.com/couchbaselabs/todolite-android), a multi-user todo list application, both built on Couchbase.
+The [Couchbase Lite Guides](http://developer.couchbase.com/documentation/mobile/1.2/develop/guides/couchbase-lite/native-api/index.html) have detailed explanation for every concept covered in this Couchbase tutorial. Also check out [<VPIcon icon="iconfont icon-github"/> `couchbaselabs/photo-drop`](https://github.com/couchbaselabs/photo-drop), a peer-to-peer photo sharing application and [<VPIcon icon="iconfont icon-github"/> `couchbaselabs/todolite-android`](https://github.com/couchbaselabs/todolite-android), a multi-user todo list application, both built on Couchbase.
 
 If you found this tutorial interesting, you might want to try adding peer-to-peer sync capabilities. Start by replacing the remote URL pointing to a Sync Gateway instance with one from another device on the same local network. The challenge in this case is discovering the IP addresses of peer devices. One solution that works well is to use [NsdManager](https://developer.android.com/reference/android/net/nsd/NsdManager.html), the Android implementation of mDNS.
 

@@ -49,7 +49,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3381"/>
 
-We’ve known it for a while now, but JavaScript is eventually getting native support for decorators. The proposal is in[stage 3 (<FontIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators)— it’s inevitable! I’m just coming around to explore the feature, and I’m kinda kicking myself for waiting so long, because I’m finding it to be tremendously helpful. Let’s spend some time exploring it.
+We’ve known it for a while now, but JavaScript is eventually getting native support for decorators. The proposal is in[stage 3 (<VPIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators)— it’s inevitable! I’m just coming around to explore the feature, and I’m kinda kicking myself for waiting so long, because I’m finding it to be tremendously helpful. Let’s spend some time exploring it.
 
 <SiteInfo
   name="tc39/proposal-decorators"
@@ -66,7 +66,7 @@ It’s probably worth clarifying what’s meant by a “decorator.” Most of th
 
 ### The decorator*design pattern*
 
-This is the[<FontIcon icon="fa-brands fa-wikipedia-w"/>higher-level concept](https://en.wikipedia.org/wiki/Decorator_pattern)of augmenting or extending a function’s behavior by “decorating” it. Logging is a common example. You might want to know*when*and*with what*parameters it’s called, so you wrap it with another function:
+This is the[<VPIcon icon="fa-brands fa-wikipedia-w"/>higher-level concept](https://en.wikipedia.org/wiki/Decorator_pattern)of augmenting or extending a function’s behavior by “decorating” it. Logging is a common example. You might want to know*when*and*with what*parameters it’s called, so you wrap it with another function:
 
 ```js
 function add(a, b) {
@@ -123,15 +123,15 @@ class Calculator {
 new Calculator().add(1, 2); // method: add | arguments: 1, 2
 ```
 
-Despite being non-standard, there are a number of popular, mature libraries out there that have used this implementation.[TypeORM](https://typeorm.io/),[<FontIcon icon="fa-brands fa-angular"/>Angular](https://angular.io/features), and[<FontIcon icon="iconfont icon-nestjs"/>NestJS](https://docs.nestjs.com/controllers)are just a few of the big ones. And I’m glad they have. It’s made building applications with them feel cleaner, more expressive, and easier to maintain.
+Despite being non-standard, there are a number of popular, mature libraries out there that have used this implementation.[TypeORM](https://typeorm.io/),[<VPIcon icon="fa-brands fa-angular"/>Angular](https://angular.io/features), and[<VPIcon icon="iconfont icon-nestjs"/>NestJS](https://docs.nestjs.com/controllers)are just a few of the big ones. And I’m glad they have. It’s made building applications with them feel cleaner, more expressive, and easier to maintain.
 
-But because it’s non-standard, it could become problematic. For example,[there’s some nuance (<FontIcon icon="iconfont icon-github"/>`babel/babel`)](https://github.com/babel/babel/issues/8864#issuecomment-688535867)between how it’s implemented by Babel and TypeScript, which probably caused frustration for engineers moving between applications with different build tooling. Standardization would serve them well.
+But because it’s non-standard, it could become problematic. For example,[there’s some nuance (<VPIcon icon="iconfont icon-github"/>`babel/babel`)](https://github.com/babel/babel/issues/8864#issuecomment-688535867)between how it’s implemented by Babel and TypeScript, which probably caused frustration for engineers moving between applications with different build tooling. Standardization would serve them well.
 
 ---
 
 ## The Slightly Different Official API
 
-Fortunately, both TypeScript ([<FontIcon icon="iconfont icon-typescript"/>as of v5](https://typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html#decorators)) and Babel ([via plugin](https://babeljs.io/docs/babel-plugin-proposal-decorators)) now support the TC39 version of the API, which is even simpler:
+Fortunately, both TypeScript ([<VPIcon icon="iconfont icon-typescript"/>as of v5](https://typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html#decorators)) and Babel ([via plugin](https://babeljs.io/docs/babel-plugin-proposal-decorators)) now support the TC39 version of the API, which is even simpler:
 
 ```js
 function log(func, context) {
@@ -274,7 +274,7 @@ That’s a lot of value for minimal code wrangling, especially support being pro
 
 ### Memoization
 
-Whenever I think of great memoization that’s syntactically beautiful, Ruby first comes to mind. I’ve written about[<FontIcon icon="fas fa-globe"/>how elegant it is](https://macarthur.me/posts/memoization-with-tap-in-ruby/)in the past; the`||=`operator is all you really need:
+Whenever I think of great memoization that’s syntactically beautiful, Ruby first comes to mind. I’ve written about[<VPIcon icon="fas fa-globe"/>how elegant it is](https://macarthur.me/posts/memoization-with-tap-in-ruby/)in the past; the`||=`operator is all you really need:
 
 ```rb
 def results
@@ -506,7 +506,7 @@ But now you’ve cluttered your constructor with parameters that’ll never othe
 
 Now, let’s create a basic dependency injection mechanism with decorators. It’ll be in charge of registering dependencies, instantiating them when necessary, and storing references to them in a centralized container.
 
-In a separate file (<FontIcon icon="fa-brands fa-js"/>`container.js`), we’ll build a simple decorator used to register any classes we want to make available to the container.
+In a separate file (<VPIcon icon="fa-brands fa-js"/>`container.js`), we’ll build a simple decorator used to register any classes we want to make available to the container.
 
 ```js
 const registry = new Map();
@@ -612,7 +612,7 @@ That makes for less responsibility on us, tidy inversion of control, and straigh
 
 ## Just Scratching the Surface
 
-If you read through[the proposal (<FontIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators?tab=readme-ov-file#adding-initialization-logic-with-addinitializer), you’ll see that the decorator specification is far deeper than what’s been explored here, and will certainly open up some novel use cases in the future, especially once more runtimes support it. But you don’t need to master the depths of the feature in order to benefit. At its foundation, the decorator feature is still firmly seated on the decorator pattern. If you keep that in mind, you’ll be in a strong position to greatly benefit from it in your own code.
+If you read through[the proposal (<VPIcon icon="iconfont icon-github"/>`tc39/proposal-decorators`)](https://github.com/tc39/proposal-decorators?tab=readme-ov-file#adding-initialization-logic-with-addinitializer), you’ll see that the decorator specification is far deeper than what’s been explored here, and will certainly open up some novel use cases in the future, especially once more runtimes support it. But you don’t need to master the depths of the feature in order to benefit. At its foundation, the decorator feature is still firmly seated on the decorator pattern. If you keep that in mind, you’ll be in a strong position to greatly benefit from it in your own code.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

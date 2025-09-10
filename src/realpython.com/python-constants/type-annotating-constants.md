@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/Python-Constants_Watermarked.4cc3aa373
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Python-Constants_Watermarked.4cc3aa373268.jpg"/>
 
-Since Python [**3.8**](/realpython.com/python38-new-features.md), the [**`typing`**](/realpython.com/python-type-checking.md) module includes a [<FontIcon icon="fa-brands fa-python"/>`Final`](https://docs.python.org/3/library/typing.html#typing.Final) class that allows you to type-annotate constants. If you use this class when defining your constants, then you’ll tell static type checkers like [<FontIcon icon="fas fa-globe"/>mypy](https://mypy.readthedocs.io/en/latest/index.html) that your constants shouldn’t be reassigned. This way, the type checker can help you detect unauthorized assignments on your constants.
+Since Python [**3.8**](/realpython.com/python38-new-features.md), the [**`typing`**](/realpython.com/python-type-checking.md) module includes a [<VPIcon icon="fa-brands fa-python"/>`Final`](https://docs.python.org/3/library/typing.html#typing.Final) class that allows you to type-annotate constants. If you use this class when defining your constants, then you’ll tell static type checkers like [<VPIcon icon="fas fa-globe"/>mypy](https://mypy.readthedocs.io/en/latest/index.html) that your constants shouldn’t be reassigned. This way, the type checker can help you detect unauthorized assignments on your constants.
 
 Here are some examples of using `Final` to define your constants:
 

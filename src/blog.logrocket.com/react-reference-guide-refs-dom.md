@@ -456,7 +456,7 @@ class Parent extends React.Component {
 }
 ```
 
-Note that the approach above requires some code to be added to the child component. In more stringent use cases, you may have no control over the child component implementation. Your best bet is to use [<FontIcon icon="fa-brands fa-react"/>`findDOMNode()`](https://reactjs.org/docs/react-dom.html#finddomnode), but note that this is discouraged and deprecated in [<FontIcon icon="fa-brands fa-react"/>`StrictMode`](https://reactjs.org/docs/strict-mode.html#warning-about-deprecated-finddomnode-usage)`.
+Note that the approach above requires some code to be added to the child component. In more stringent use cases, you may have no control over the child component implementation. Your best bet is to use [<VPIcon icon="fa-brands fa-react"/>`findDOMNode()`](https://reactjs.org/docs/react-dom.html#finddomnode), but note that this is discouraged and deprecated in [<VPIcon icon="fa-brands fa-react"/>`StrictMode`](https://reactjs.org/docs/strict-mode.html#warning-about-deprecated-finddomnode-usage)`.
 
 It is highly recommended to avoid exposing DOM nodes if you don’t need do.
 
@@ -566,7 +566,7 @@ This shouldn’t matter so much in most cases, but to avoid this, define the `re
 
 It is worth mentioning that an older ref API supported `ref` attributes as plain strings, e.g., `myTextInput` and the DOM node accessed as `this.refs.myTextInput`.
 
-Don’t do this anymore. String refs are now considered legacy, they have some [issues (<FontIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/pull/8333#issuecomment-271648615), and they are likely going to be removed in a future release of React.
+Don’t do this anymore. String refs are now considered legacy, they have some [issues (<VPIcon icon="iconfont icon-github"/>`facebook/react`)](https://github.com/facebook/react/pull/8333#issuecomment-271648615), and they are likely going to be removed in a future release of React.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

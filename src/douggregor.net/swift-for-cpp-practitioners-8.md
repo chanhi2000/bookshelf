@@ -147,7 +147,7 @@ class Registry<T> {
 }
 ```
 
-Here, `untypedSharedRegistry` maps from the metatype for `T` (represented as an [<FontIcon icon="fa-brands fa-apple"/>`ObjectIdentifier`](https://developer.apple.com/documentation/swift/objectidentifier), which is a fancy way of saying "identity for something with a stable address") to a type-erased value of type `Any`. All of the `Any` instances in the dictionary are actually `Registry<T>` instances matching the type `T` that went into the `ObjectIdentifier`, so we force-cast (with `as!`) the element on the way out. So long as nobody fiddles with `untypedSharedRegistry`, that force-cast will never fail.
+Here, `untypedSharedRegistry` maps from the metatype for `T` (represented as an [<VPIcon icon="fa-brands fa-apple"/>`ObjectIdentifier`](https://developer.apple.com/documentation/swift/objectidentifier), which is a fancy way of saying "identity for something with a stable address") to a type-erased value of type `Any`. All of the `Any` instances in the dictionary are actually `Registry<T>` instances matching the type `T` that went into the `ObjectIdentifier`, so we force-cast (with `as!`) the element on the way out. So long as nobody fiddles with `untypedSharedRegistry`, that force-cast will never fail.
   
 So far, Swift global and static variables are the same as C++ global and static variables, except that Swift static variables can't be generic. Things will start to diverge more when we get to initialization.
 
@@ -155,9 +155,9 @@ So far, Swift global and static variables are the same as C++ global and static 
 
 ## Static initialization in C++
 
-Initialization of C++ globals and statics is [<FontIcon icon="fas fa-globe"/>known by the State of California to cause headaches and lost productivity](https://p65warnings.ca.gov). Indeed, doing a web search for C++ static initialization order turns up a page titled [<FontIcon icon="iconfont icon-cpp"/>Static Initialization Order Fiasco](https://en.cppreference.com/w/cpp/language/siof) as its second hit.
+Initialization of C++ globals and statics is [<VPIcon icon="fas fa-globe"/>known by the State of California to cause headaches and lost productivity](https://p65warnings.ca.gov). Indeed, doing a web search for C++ static initialization order turns up a page titled [<VPIcon icon="iconfont icon-cpp"/>Static Initialization Order Fiasco](https://en.cppreference.com/w/cpp/language/siof) as its second hit.
   
-It's useful to understand why static initialization is tricky in C++, so that we can explain the path Swift took. C++ initializes global and static variables on a per-translation-unit basis, starting at the first global or static variable and proceeding to the last. However, it is unspecified in what order the different translation units in a program get to run their initializers. So if you have a global variable in translation unit `x.cpp` that somehow depends on a global variable in `y.cpp`, you might be okay (if `y.cpp` has its initializers run first) or your code might crash (if `x.cpp` has its initializers run first). I don't want to go into all of the solutions for C++ here(this [<FontIcon icon="fas fa-globe"/>blog post on C++ Initialization of Static Variables](https://pabloariasal.github.io/2020/01/02/static-variable-initialization/) covers some). However, I will point out that the most general solution is [<FontIcon icon="fas fa-globe"/>Initialize on First Use](https://isocpp.org/wiki/faq/ctors#static-init-order-on-first-use), which uses a function-local static instead of a global variable or static class member:
+It's useful to understand why static initialization is tricky in C++, so that we can explain the path Swift took. C++ initializes global and static variables on a per-translation-unit basis, starting at the first global or static variable and proceeding to the last. However, it is unspecified in what order the different translation units in a program get to run their initializers. So if you have a global variable in translation unit `x.cpp` that somehow depends on a global variable in `y.cpp`, you might be okay (if `y.cpp` has its initializers run first) or your code might crash (if `x.cpp` has its initializers run first). I don't want to go into all of the solutions for C++ here(this [<VPIcon icon="fas fa-globe"/>blog post on C++ Initialization of Static Variables](https://pabloariasal.github.io/2020/01/02/static-variable-initialization/) covers some). However, I will point out that the most general solution is [<VPIcon icon="fas fa-globe"/>Initialize on First Use](https://isocpp.org/wiki/faq/ctors#static-init-order-on-first-use), which uses a function-local static instead of a global variable or static class member:
 
 ```cpp
 Registry& sharedRegistry() {
@@ -166,7 +166,7 @@ Registry& sharedRegistry() {
 }
 ```
 
-C++ function-local statics are interesting because they are guaranteed to be initialized on first use, and for most (all?) C++ implementations that initialization uses something like [<FontIcon icon="fas fa-globe"/>`pthread_once`](https://pubs.opengroup.org/onlinepubs/7908799/xsh/pthread_once.html) to ensure that the initialization is thread-safe. Such a nice model, that...
+C++ function-local statics are interesting because they are guaranteed to be initialized on first use, and for most (all?) C++ implementations that initialization uses something like [<VPIcon icon="fas fa-globe"/>`pthread_once`](https://pubs.opengroup.org/onlinepubs/7908799/xsh/pthread_once.html) to ensure that the initialization is thread-safe. Such a nice model, that...
   
 While we're here, there's another reason to dislike static initialization in C++: you always pay the runtime cost for running the initializers of global and static variables, even if you never use them. This cost can come at unfortunate times in your program, such as program startup and when loading a shared library. Many code bases prohibit global initializers to prevent this cost, using something like Clang's `-Wglobal-constructors` warning.
 
@@ -230,7 +230,7 @@ Unlike global and static variables, a `lazy var` does *not* provide thread-safe 
 
 ## No guaranteed constant initialization
 
-One feature of C++ initialization is that has no analogue yet in Swift is constant initialization. For example, with C++ [<FontIcon icon="iconfont icon-cpp"/>`constinit`](https://en.cppreference.com/w/cpp/language/constinit) it's possible to guarantee that there is no runtime initialization for a declaration:
+One feature of C++ initialization is that has no analogue yet in Swift is constant initialization. For example, with C++ [<VPIcon icon="iconfont icon-cpp"/>`constinit`](https://en.cppreference.com/w/cpp/language/constinit) it's possible to guarantee that there is no runtime initialization for a declaration:
 
 ```swift
 constinit int buckets = 17;

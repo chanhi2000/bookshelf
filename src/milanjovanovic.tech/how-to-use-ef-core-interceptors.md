@@ -68,7 +68,7 @@ Today I want to show you three unique use cases for EF Core interceptors:
 
 ## What are EF Interceptors?
 
-[<FontIcon icon="fa-brands fa-microsoft"/>EF Core interceptors](https://learn.microsoft.com/en-us/ef/core/logging-events-diagnostics/interceptors) allow you to intercept, change, or suppress EF Core operations. Every interceptor implements the `IInterceptor` interface. A few common derived interfaces include `IDbCommandInterceptor`, `IDbConnectionInterceptor`, and `IDbTransactionInterceptor`.
+[<VPIcon icon="fa-brands fa-microsoft"/>EF Core interceptors](https://learn.microsoft.com/en-us/ef/core/logging-events-diagnostics/interceptors) allow you to intercept, change, or suppress EF Core operations. Every interceptor implements the `IInterceptor` interface. A few common derived interfaces include `IDbCommandInterceptor`, `IDbConnectionInterceptor`, and `IDbTransactionInterceptor`.
 
 The most popular one is the `ISaveChangesInterceptor`. It allows you to add behavior before or after saving changes.
 
@@ -338,9 +338,9 @@ I showed you a few practical use cases for EF interceptors in this week's issue.
 
 But, if you want to see more examples, I have a few videos about:
 
-- [<FontIcon icon="fa-brands fa-youtube"/>**Auditing logging**](https://youtu.be/mAlO3OuoQvo)
-- [<FontIcon icon="fa-brands fa-youtube"/>**Publishing domain events**](https://youtu.be/AHzWJ_SMqLo)
-- [<FontIcon icon="fa-brands fa-youtube"/>**Implementing the Outbox pattern**](https://youtu.be/XALvnX7MPeo)
+- [<VPIcon icon="fa-brands fa-youtube"/>**Auditing logging**](https://youtu.be/mAlO3OuoQvo)
+- [<VPIcon icon="fa-brands fa-youtube"/>**Publishing domain events**](https://youtu.be/AHzWJ_SMqLo)
+- [<VPIcon icon="fa-brands fa-youtube"/>**Implementing the Outbox pattern**](https://youtu.be/XALvnX7MPeo)
 
 <VidStack src="youtube/mAlO3OuoQvo" />
 <VidStack src="youtube/AHzWJ_SMqLo" />

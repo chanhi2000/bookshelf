@@ -85,7 +85,7 @@ You've built a distributed .NET application. Multiple services, databases, messa
 
 **The Aspire Dashboard runs perfectly as a standalone container**, giving you [**distributed tracing**](/milanjovanovic.tech/introduction-to-distributed-tracing-with-opentelemetry-in-dotnet.md), [**structured logs**](/milanjovanovic.tech/5-serilog-best-practices-for-better-structured-logging.md), and real-time metrics without the full orchestration framework.
 
-While [**Aspire's orchestration**](/milanjovanovic.tech/dotnet-aspire-a-game-changer-for-cloud-native-development.md) is incredibly powerful for managing distributed applications, sometimes you just need the observability piece. Maybe you're already using [**Docker Compose**](/milanjovanovic.tech/using-dotnet-aspire-with-the-docker-publisher.md) or [<FontIcon icon="fas fa-globe"/>Kubernetes](https://doineedkubernetes.com/). Maybe you're debugging an existing system. The standalone dashboard gives you valuable telemetry visualization with minimal setup.
+While [**Aspire's orchestration**](/milanjovanovic.tech/dotnet-aspire-a-game-changer-for-cloud-native-development.md) is incredibly powerful for managing distributed applications, sometimes you just need the observability piece. Maybe you're already using [**Docker Compose**](/milanjovanovic.tech/using-dotnet-aspire-with-the-docker-publisher.md) or [<VPIcon icon="fas fa-globe"/>Kubernetes](https://doineedkubernetes.com/). Maybe you're debugging an existing system. The standalone dashboard gives you valuable telemetry visualization with minimal setup.
 
 Let's get it running in under 5 minutes.
 
@@ -104,7 +104,7 @@ The standalone **Aspire Dashboard** hits a sweet spot **for development**:
 
 ::: note One caveat
 
-it's **in-memory only**. Perfect for development and debugging, not for production. For production, you'll want something like [**Jaeger**](/milanjovanovic.tech/introduction-to-distributed-tracing-with-opentelemetry-in-dotnet.md), [<FontIcon icon="iconfont icon-prometheus"/>Prometheus](https://prometheus.io/), or a commercial APM solution.
+it's **in-memory only**. Perfect for development and debugging, not for production. For production, you'll want something like [**Jaeger**](/milanjovanovic.tech/introduction-to-distributed-tracing-with-opentelemetry-in-dotnet.md), [<VPIcon icon="iconfont icon-prometheus"/>Prometheus](https://prometheus.io/), or a commercial APM solution.
 
 :::
 
@@ -114,7 +114,7 @@ But for understanding what your code is doing right now? It's exactly what you n
 
 ## Step 1: Add the Dashboard Container
 
-Drop this into your <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml`:
+Drop this into your <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml`:
 
 ```yaml title="docker-compose.yaml"
 aspire-dashboard:
@@ -162,7 +162,7 @@ Notice port `18889`? That's the OTLP ingestion endpoint. The dashboard listens o
 
 ## Step 3: Configure OpenTelemetry in Your Code
 
-Install the necessary [<FontIcon icon="fas fa-globe"/>OpenTelemetry packages](https://nuget.org/packages?q=OpenTelemetry):
+Install the necessary [<VPIcon icon="fas fa-globe"/>OpenTelemetry packages](https://nuget.org/packages?q=OpenTelemetry):
 
 ```xml
 <PackageReference Include="Npgsql.OpenTelemetry" Version="9.0.3" />
@@ -172,7 +172,7 @@ Install the necessary [<FontIcon icon="fas fa-globe"/>OpenTelemetry packages](ht
 <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.12.0" />
 ```
 
-Then configure OpenTelemetry in your <FontIcon icon="iconfont icon-csharp"/>`Program.cs`:
+Then configure OpenTelemetry in your <VPIcon icon="iconfont icon-csharp"/>`Program.cs`:
 
 ```cs title="Program.cs"
 builder.Services.AddOpenTelemetry()
@@ -237,7 +237,7 @@ Response times, error rates, throughput, all updating live. Perfect for load tes
 
 The standalone **Aspire Dashboard** is perfect for local development and debugging. Spin up your stack, make requests, and instantly see what's happening across all your services. Find bottlenecks in the trace view, correlate logs with requests, watch metrics update in real-time.
 
-Remember: this is for development only since data is in-memory and disappears on restart. That last part might be fixed soon, according to the [<FontIcon icon="fa-brands fa-youtube"/>Aspire roadmap](https://youtu.be/zvBu0OOCVos). For production, you'll want proper solutions like Jaeger for tracing, Prometheus for metrics, or a commercial APM like Application Insights.
+Remember: this is for development only since data is in-memory and disappears on restart. That last part might be fixed soon, according to the [<VPIcon icon="fa-brands fa-youtube"/>Aspire roadmap](https://youtu.be/zvBu0OOCVos). For production, you'll want proper solutions like Jaeger for tracing, Prometheus for metrics, or a commercial APM like Application Insights.
 
 <VidStack src="youtube/zvBu0OOCVos" />
 

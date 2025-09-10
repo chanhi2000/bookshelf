@@ -119,11 +119,11 @@ Create a repository for your project
 
 @tab 2.
 
-In the repository, you'll create a directory for the workflow using the <FontIcon icon="fas fa-folder-open"/>`.github/workflows` command. Keep in mind that you can have multiple workflows
+In the repository, you'll create a directory for the workflow using the <VPIcon icon="fas fa-folder-open"/>`.github/workflows` command. Keep in mind that you can have multiple workflows
 
 @tab 3.
 
-In your repository, click on the **Actions** tab. You'll find a number of preset workflows you can select and configure. Alternatively, you can set up a workflow yourself. GitHub Actions uses YAML syntax, so you'll create a new file in the <FontIcon icon="iconfont icon-yaml"/>`filename.yml` workflows directory:
+In your repository, click on the **Actions** tab. You'll find a number of preset workflows you can select and configure. Alternatively, you can set up a workflow yourself. GitHub Actions uses YAML syntax, so you'll create a new file in the <VPIcon icon="iconfont icon-yaml"/>`filename.yml` workflows directory:
 
 ![Get Started Page For Github Actions Showing How To Configure A Workflow From A Preset Or From Scratch](/assets/image/blog.logrocket.com/best-practices-ci-cd-pipeline-frontend/Get-started-GitHub-Actions.png)
 
@@ -183,7 +183,7 @@ For both commits and deployments, small code changes are easier to maintain. It'
 
 ### Use feature flags
 
-[<FontIcon icon="fas fa-globe"/>Feature flags](https://blog.logrocket.com/product-management/feature-flags-overview/) allow you to isolate, or disable, features in your app without having to release a new version. This will allow you to experiment with new features.
+[<VPIcon icon="fas fa-globe"/>Feature flags](https://blog.logrocket.com/product-management/feature-flags-overview/) allow you to isolate, or disable, features in your app without having to release a new version. This will allow you to experiment with new features.
 
 Another way to experiment with new features is by creating a branch from the main repository. However, this method requires cloning the entire project. Feature flags are more flexible. It's like how changing one light bulb in a chandelier doesn't require cutting the power to every other bulb.
 
@@ -237,7 +237,7 @@ Let's go over the components you need to build an effective CI/CD pipeline.
 
 ### Version control system
 
-You need [<FontIcon icon="fas fa-globe"/>version control for source code management](https://blog.logrocket.com/product-management/version-control-systems-definition-types/). Git is a good example of an effective version control system. This controls everything that's relevant to the project and allows teams to collaborate on the code.
+You need [<VPIcon icon="fas fa-globe"/>version control for source code management](https://blog.logrocket.com/product-management/version-control-systems-definition-types/). Git is a good example of an effective version control system. This controls everything that's relevant to the project and allows teams to collaborate on the code.
 
 A version control system has [**features such as branching**](/blog.logrocket.com/git-workflow-strategies-multiple-teams-single-repository.md) to allow teams to work on different versions of software at the same time. You can also review and merge code changes. It allows you to track these changes over time, and it stores previous versions so you can roll back changes if something goes wrong.
 

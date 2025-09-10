@@ -58,9 +58,9 @@ He said he could *not* remove that formatting no matter what he did. It looks ki
 
 Here’s the thing: that text *isn’t* formatted.
 
-That first “C” you see above isn’t a regular uppercase character C, our typical friend `U+0043 : LATIN CAPITAL LETTER C`, [<FontIcon icon="fas fa-globe"/>it’s “𝐂”](https://babelstone.co.uk/Unicode/whatisit.html), that is, `U+1D402 : MATHEMATICAL BOLD CAPITAL C`. It’s literally a different character in Unicode. There are… a lot of Unicode characters:
+That first “C” you see above isn’t a regular uppercase character C, our typical friend `U+0043 : LATIN CAPITAL LETTER C`, [<VPIcon icon="fas fa-globe"/>it’s “𝐂”](https://babelstone.co.uk/Unicode/whatisit.html), that is, `U+1D402 : MATHEMATICAL BOLD CAPITAL C`. It’s literally a different character in Unicode. There are… a lot of Unicode characters:
 
-::: info <FontIcon icon="fa-brands fa-wikipedia-w"/>List of Unicode characters
+::: info <VPIcon icon="fa-brands fa-wikipedia-w"/>List of Unicode characters
 
 <SiteInfo
   name="List of Unicode characters - Wikipedia"
@@ -69,13 +69,13 @@ That first “C” you see above isn’t a regular uppercase character C, our ty
   logo="https://en.wikipedia.org/static/favicon/wikipedia.ico"
   preview="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/New_Unicode_logo.svg/640px-New_Unicode_logo.svg.png"/>
 
-> As of[<FontIcon icon="fa-brands fa-wikipedia-w"/>Unicode](https://en.wikipedia.org/wiki/Unicode)version 16.0, there are 155,063[<FontIcon icon="fa-brands fa-wikipedia-w"/>characters](https://en.wikipedia.org/wiki/Character_(computing))with[<FontIcon icon="fa-brands fa-wikipedia-w"/>code points](https://en.wikipedia.org/wiki/Code_point), covering 168 modern and historical[<FontIcon icon="fa-brands fa-wikipedia-w"/>scripts](https://en.wikipedia.org/wiki/Script_(Unicode)), as well as multiple symbol sets.
+> As of[<VPIcon icon="fa-brands fa-wikipedia-w"/>Unicode](https://en.wikipedia.org/wiki/Unicode)version 16.0, there are 155,063[<VPIcon icon="fa-brands fa-wikipedia-w"/>characters](https://en.wikipedia.org/wiki/Character_(computing))with[<VPIcon icon="fa-brands fa-wikipedia-w"/>code points](https://en.wikipedia.org/wiki/Code_point), covering 168 modern and historical[<VPIcon icon="fa-brands fa-wikipedia-w"/>scripts](https://en.wikipedia.org/wiki/Script_(Unicode)), as well as multiple symbol sets.
 
 :::
 
 It could be written like 𝕮𝖆𝖑𝖑𝖊 𝕭𝖑𝖆𝖓𝖈𝖔𝖘, 𝕮𝖔𝖘𝖙𝖆 𝕽𝖎𝖈𝖆 instead, or 𝗖𝗮𝗹𝗹𝗲 𝗕𝗹𝗮𝗻𝗰𝗼𝘀, 𝗖𝗼𝘀𝘁𝗮 𝗥𝗶𝗰𝗮.
 
-Should you do this to get super sweet effects in places you otherwise couldn’t? Probably not. The accessibility is rough. Listen to the audio output [<FontIcon icon="fas fa-globe"/>in this blog post](https://blog.nytsoi.net/2019/12/12/alt-text-for-text). ~If you’re going to do it on the web where you have HTML control, do something like:~
+Should you do this to get super sweet effects in places you otherwise couldn’t? Probably not. The accessibility is rough. Listen to the audio output [<VPIcon icon="fas fa-globe"/>in this blog post](https://blog.nytsoi.net/2019/12/12/alt-text-for-text). ~If you’re going to do it on the web where you have HTML control, do something like:~
 
 ```html
 <!-- Don't do this! Leaving for posterity. -->
@@ -86,7 +86,7 @@ Should you do this to get super sweet effects in places you otherwise couldn’t
 
 ::: note Update
 
-[<FontIcon icon="fas fa-globe"/>See Ben’s comment](https://frontendmasters.com/blog/cant-seem-to-remove-the-formatting-from-a-string-of-text/#comment-16908) on why not to do the above. Instead, make a [<FontIcon icon="fas fa-globe"/>visually hidden version](https://a11yproject.com/posts/how-to-hide-content/) that a screen reader would still see, and an ARIA hidden one that will be seen visually. (Noting potential concerns about copy/paste that started this whole article.)
+[<VPIcon icon="fas fa-globe"/>See Ben’s comment](https://frontendmasters.com/blog/cant-seem-to-remove-the-formatting-from-a-string-of-text/#comment-16908) on why not to do the above. Instead, make a [<VPIcon icon="fas fa-globe"/>visually hidden version](https://a11yproject.com/posts/how-to-hide-content/) that a screen reader would still see, and an ARIA hidden one that will be seen visually. (Noting potential concerns about copy/paste that started this whole article.)
 
 ```html
 <span class="visually-hidden">Calle Blancos, Costa Rica</span>

@@ -815,11 +815,11 @@ So, that’s it. with a real-life example, we were able to:
 - Adapt some UI customization to make it similar to the Agile/Kanban board
 - handle the business logic using ViewModel.
 
-You can find the full repository on[GitHub (<FontIcon icon="iconfont icon-github"/>`MustafaKhaled/DragAndDropBoard`)](https://github.com/MustafaKhaled/DragAndDropBoard).
+You can find the full repository on[GitHub (<VPIcon icon="iconfont icon-github"/>`MustafaKhaled/DragAndDropBoard`)](https://github.com/MustafaKhaled/DragAndDropBoard).
 
 ::: info
 
-This article is previously published on [<FontIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/how-easy-is-drag-and-drop-in-compose-e66d47ae8e5f)
+This article is previously published on [<VPIcon icon="fa-brands fa-medium"/>`proandroiddev`](https://proandroiddev.com/how-easy-is-drag-and-drop-in-compose-e66d47ae8e5f)
 
 <SiteInfo
   name="How easy is drag-and-drop in Compose?"

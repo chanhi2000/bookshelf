@@ -64,7 +64,7 @@ Let's explore this new capability, why it matters, and some practical ways to us
 
 ## What Are Query Filters?
 
-If you've used EF Core for a while, you may already be familiar with [<FontIcon icon="fa-brands fa-microsoft"/>global query filters](https://learn.microsoft.com/en-us/ef/core/querying/filters). A query filter is a condition that EF automatically applies to all queries for a particular entity type. Under the hood, EF adds a `WHERE` clause whenever that entity is queried. Typical uses include:
+If you've used EF Core for a while, you may already be familiar with [<VPIcon icon="fa-brands fa-microsoft"/>global query filters](https://learn.microsoft.com/en-us/ef/core/querying/filters). A query filter is a condition that EF automatically applies to all queries for a particular entity type. Under the hood, EF adds a `WHERE` clause whenever that entity is queried. Typical uses include:
 
 - **Soft deletion**: filtering out rows where IsDeleted is true so that deleted records don't show up in queries by default
 - **Multi-tenancy**: filtering by a TenantId so that each tenant only sees its own data

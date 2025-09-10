@@ -57,13 +57,13 @@ cover: https://itsfoss.com/content/images/wordpress/2020/04/multiple-timezone-cl
 
 If you have family members or colleagues in another country or if you live in a country with multiple time zones, keeping a track of the time difference becomes important. After all, you don’t want to disturb someone by calling at 4’o clock in the morning.
 
-Some Linux users also keep a tab on the [<FontIcon icon="fa-brands fa-wiikipedia-w"/>UTC time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) because an overwhelming majority of servers use UTC.
+Some Linux users also keep a tab on the [<VPIcon icon="fa-brands fa-wiikipedia-w"/>UTC time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) because an overwhelming majority of servers use UTC.
 
 Situations like these can be managed better if you have multiple clocks. You can set one clock to your local time and sync other clock(s) to other time zone(s). It makes keep an eye on the different times easier.
 
 In this quick tutorial, I’ll show you how to add additional clocks in Ubuntu and other Linux distributions that use GNOME desktop environment.
 
-[Subscribe to It's FOSS YouTube Channel (<FontIcon icon="fa-brands fa-youtube"/>`@itsfoss`)](https://youtube.com/@itsfoss)
+[Subscribe to It's FOSS YouTube Channel (<VPIcon icon="fa-brands fa-youtube"/>`@itsfoss`)](https://youtube.com/@itsfoss)
 
 ---
 
@@ -71,7 +71,7 @@ In this quick tutorial, I’ll show you how to add additional clocks in Ubuntu a
 
 Please [**check which desktop environment you are using**](/itsfoss.com/find-desktop-environment.md). This tutorial is suitable for GNOME desktop only.
 
-To add additional clocks, you can use a nifty little app unsurprisingly called [<FontIcon icon="fas fa-globe"/>GNOME Clocks](https://wiki.gnome.org/Apps/Clocks).
+To add additional clocks, you can use a nifty little app unsurprisingly called [<VPIcon icon="fas fa-globe"/>GNOME Clocks](https://wiki.gnome.org/Apps/Clocks).
 
 GNOME Clocks is a simple application that shows the time and date in multiple locations. You can also use it to set alarms or timers. Stopwatch feature is also included.
 

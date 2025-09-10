@@ -49,7 +49,7 @@ cover: https://files.realpython.com/media/Working-With-JSON-Data-in-Python_Water
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg"/>
 
-Python supports the JSON format through the built-in module named [<FontIcon icon="fa-brands fa-python"/>`json`](https://docs.python.org/3/library/json.html). The `json` module is specifically designed for reading and writing strings formatted as JSON. That means you can conveniently convert Python data types into JSON data and the other way around.
+Python supports the JSON format through the built-in module named [<VPIcon icon="fa-brands fa-python"/>`json`](https://docs.python.org/3/library/json.html). The `json` module is specifically designed for reading and writing strings formatted as JSON. That means you can conveniently convert Python data types into JSON data and the other way around.
 
 The act of converting data into the JSON format is referred to as **serialization**. This process involves transforming data into a series of bytes for storage or transmission over a network. The opposite process, **deserialization**, involves decoding data from the JSON format back into a usable form within Python.
 
@@ -69,7 +69,7 @@ json.dumps(food_ratings)
 # '{"organic dog food": 2, "human food": 10}'
 ```
 
-After importing the `json` module, you can use [<FontIcon icon="fa-brands fa-python"/>`.dumps()`](https://docs.python.org/3/library/json.html#json.dumps) to convert a Python dictionary to a **JSON-formatted string**, which represents a JSON object.
+After importing the `json` module, you can use [<VPIcon icon="fa-brands fa-python"/>`.dumps()`](https://docs.python.org/3/library/json.html#json.dumps) to convert a Python dictionary to a **JSON-formatted string**, which represents a JSON object.
 
 It’s important to understand that when you use `.dumps()`, you get a Python string in return. In other words, you don’t create any kind of JSON data type. The result is similar to what you’d get if you used Python’s built-in [**`str()` function**](/realpython.com/python-strings.md):
 
@@ -173,11 +173,11 @@ When you set `skipkeys` in `json.dumps()` to `True`, then Python skips the keys 
 
 ::: note
 
-If you’re ever in a situation where you need to convert an unsupported object into JSON, then you can consider creating a [**subclass**](/realpython.com/python-classes.md#class-hierarchies) of the `JSONEncoder` and implementing a [<FontIcon icon="fa-brands fa-python"/>`.default()`](https://docs.python.org/3/library/json.html#json.JSONEncoder.default) method.
+If you’re ever in a situation where you need to convert an unsupported object into JSON, then you can consider creating a [**subclass**](/realpython.com/python-classes.md#class-hierarchies) of the `JSONEncoder` and implementing a [<VPIcon icon="fa-brands fa-python"/>`.default()`](https://docs.python.org/3/library/json.html#json.JSONEncoder.default) method.
 
 :::
 
-When you use `json.dumps()`, you can use [<FontIcon icon="fas fa-globe"/>additional arguments](https://docs.python.org/3/library/json.html#json.dumps) to control the look of the resulting JSON-formatted string. For example, you can sort the dictionary keys by setting the `sort_keys` parameter to `True`:
+When you use `json.dumps()`, you can use [<VPIcon icon="fas fa-globe"/>additional arguments](https://docs.python.org/3/library/json.html#json.dumps) to control the look of the resulting JSON-formatted string. For example, you can sort the dictionary keys by setting the `sort_keys` parameter to `True`:
 
 ```py
 toy_conditions = {"chew bone": 7, "ball": 3, "sock": -1}
@@ -249,4 +249,4 @@ The `json.dump()` function has two required arguments:
 1. The object you want to write
 2. The file you want to write into
 
-Other than that, there are a bunch of [<FontIcon icon="fa-brands fa-python"/>optional parameters for `json.dump()`](https://docs.python.org/3/library/json.html#json.dump). The optional parameters of `json.dump()` are the same as for `json.dumps()`. You’ll investigate some of them later in this tutorial when you prettify and minify JSON files.
+Other than that, there are a bunch of [<VPIcon icon="fa-brands fa-python"/>optional parameters for `json.dump()`](https://docs.python.org/3/library/json.html#json.dump). The optional parameters of `json.dump()` are the same as for `json.dumps()`. You’ll investigate some of them later in this tutorial when you prettify and minify JSON files.

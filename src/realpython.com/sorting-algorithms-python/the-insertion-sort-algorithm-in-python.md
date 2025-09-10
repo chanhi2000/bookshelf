@@ -160,6 +160,6 @@ Notice how the insertion sort implementation took around `17` fewer seconds than
 
 Just like bubble sort, the insertion sort algorithm is very uncomplicated to implement. Even though insertion sort is an $O\left(n^{2}\right)$ algorithm, it’s also much more efficient in practice than other quadratic implementations such as bubble sort.
 
-There are more powerful algorithms, including merge sort and Quicksort, but these implementations are recursive and usually fail to beat insertion sort when working on small lists. Some Quicksort implementations even use insertion sort internally if the list is small enough to provide a faster overall implementation. [<FontIcon icon="fa-brands fa-wikipedia-w"/>Timsort](https://en.wikipedia.org/wiki/Timsort) also uses insertion sort internally to sort small portions of the input array.
+There are more powerful algorithms, including merge sort and Quicksort, but these implementations are recursive and usually fail to beat insertion sort when working on small lists. Some Quicksort implementations even use insertion sort internally if the list is small enough to provide a faster overall implementation. [<VPIcon icon="fa-brands fa-wikipedia-w"/>Timsort](https://en.wikipedia.org/wiki/Timsort) also uses insertion sort internally to sort small portions of the input array.
 
 That said, insertion sort is not practical for large arrays, opening the door to algorithms that can scale in more efficient ways.

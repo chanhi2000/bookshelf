@@ -88,19 +88,19 @@ If you’re more of a hands-on learner, check out our [**MERN stack tutorial**](
 
 The MERN stack is a JavaScript stack consisting of four technologies:
 
-- [<FontIcon icon="iconfont icon-mongodb"/>**M**ongoDB](https://mongodb.com/) — A NoSQL-based document database that stores data in flexible, JSON-like BSON format, ideal for modern applications that need scalability and speed
-- [<FontIcon icon="iconfont icon-express"/>**E**xpress.js](https://expressjs.com/)— A lightweight Node.js framework that simplifies backend development by handling routing, middleware, and API requests efficiently
-- [<FontIcon icon="fa-brands fa-react"/>**R**eact](https://react.dev/) — A popular frontend library for building dynamic user interfaces, allowing developers to create fast, interactive, and reusable UI components
-- [<FontIcon icon="fa-brands fa-node"/>**N**ode.js](https://nodejs.org/en) — A JavaScript runtime environment that enables server-side execution of JavaScript, allowing developers to build scalable backend services using a single programming language
+- [<VPIcon icon="iconfont icon-mongodb"/>**M**ongoDB](https://mongodb.com/) — A NoSQL-based document database that stores data in flexible, JSON-like BSON format, ideal for modern applications that need scalability and speed
+- [<VPIcon icon="iconfont icon-express"/>**E**xpress.js](https://expressjs.com/)— A lightweight Node.js framework that simplifies backend development by handling routing, middleware, and API requests efficiently
+- [<VPIcon icon="fa-brands fa-react"/>**R**eact](https://react.dev/) — A popular frontend library for building dynamic user interfaces, allowing developers to create fast, interactive, and reusable UI components
+- [<VPIcon icon="fa-brands fa-node"/>**N**ode.js](https://nodejs.org/en) — A JavaScript runtime environment that enables server-side execution of JavaScript, allowing developers to build scalable backend services using a single programming language
 
 ![Components and architecture of the MERN stack](https://paper-attachments.dropboxusercontent.com/s_B5A9487B8E93C2D596818BB443FFECA3635AB7A655E8B0A316EC63944E48D7A3_1738373583500_1.+MERN+stack+architecture.png)
 
 ### React (frontend framework)
 
-[<FontIcon icon="fas fa-globe"/>React](https://blog.logrocket.com/tag/react/) is a popular JavaScript framework for handling the frontend and user interface of websites and web apps. It was released on May 29, 2013, and has become one of the leading [**frontend solutions in web development**](/blog.logrocket.com/history-of-frontend-frameworks.md). It has also led to the creation of meta frameworks such as [**Next.js**](/blog.logrocket.com/next-js-vs-react-developer-experience.md), [**Remix**](/blog.logrocket.com/guide-to-remix-react-framework.md), and [**Preact**](https://blog.logrocket.com/introduction-to-preact-a-smaller-faster-react-alternative-ad5532eb6d79/), which all use React as their foundation.
+[<VPIcon icon="fas fa-globe"/>React](https://blog.logrocket.com/tag/react/) is a popular JavaScript framework for handling the frontend and user interface of websites and web apps. It was released on May 29, 2013, and has become one of the leading [**frontend solutions in web development**](/blog.logrocket.com/history-of-frontend-frameworks.md). It has also led to the creation of meta frameworks such as [**Next.js**](/blog.logrocket.com/next-js-vs-react-developer-experience.md), [**Remix**](/blog.logrocket.com/guide-to-remix-react-framework.md), and [**Preact**](https://blog.logrocket.com/introduction-to-preact-a-smaller-faster-react-alternative-ad5532eb6d79/), which all use React as their foundation.
 <!-- TODO: /blog.logrocket.com/introduction-to-preact-a-smaller-faster-react-alternative.md -->
 
-The [<FontIcon icon="fa-brands fa-stack-overflow"/>2024 Stack Overflow developer survey](https://survey.stackoverflow.co/2024/technology#1-web-frameworks-and-technologies) ranks React as the second most popular web framework, while the [<FontIcon icon="fas fa-globe"/>State of JavaScript 2024](https://2024.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_ratios) places it as the most-used web framework.
+The [<VPIcon icon="fa-brands fa-stack-overflow"/>2024 Stack Overflow developer survey](https://survey.stackoverflow.co/2024/technology#1-web-frameworks-and-technologies) ranks React as the second most popular web framework, while the [<VPIcon icon="fas fa-globe"/>State of JavaScript 2024](https://2024.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_ratios) places it as the most-used web framework.
 
 React is used by various top brands, including Dropbox, Yahoo, Airbnb, and Netflix. A major reason for React’s wide and continued adoption is the features it provides. The latest version of React, [**React 19**](/blog.logrocket.com/how-react-19-can-help-you-make-faster-websites.md), includes the following features:
 
@@ -112,11 +112,11 @@ React is used by various top brands, including Dropbox, Yahoo, Airbnb, and Netfl
 
 ### MongoDB (database management)
 
-[<FontIcon icon="iconfont icon-mongodb"/>MongoDB](https://mongodb.com/) is an open-source [**NoSQL**](/blog.logrocket.com/nosql-wide-column-stores-guide.md) document database. Since it release in 2009, MongoDB has become the [<FontIcon icon="fa-brands fa-stack-overflow"/>most popular NoSQL database](https://survey.stackoverflow.co/2024/technology#most-popular-technologies).
+[<VPIcon icon="iconfont icon-mongodb"/>MongoDB](https://mongodb.com/) is an open-source [**NoSQL**](/blog.logrocket.com/nosql-wide-column-stores-guide.md) document database. Since it release in 2009, MongoDB has become the [<VPIcon icon="fa-brands fa-stack-overflow"/>most popular NoSQL database](https://survey.stackoverflow.co/2024/technology#most-popular-technologies).
 
 Companies like L’Oréal, Adobe, Delivery Hero, and Forbes use MongoDB to meet their data storage needs.
 
-While it has several applications, MongoDB is mainly used to store structured, semi-structured, and unstructured data. Its [<FontIcon icon="iconfont icon-mongodb"/>features](https://mongodb.com/resources/products/capabilities/features) include:
+While it has several applications, MongoDB is mainly used to store structured, semi-structured, and unstructured data. Its [<VPIcon icon="iconfont icon-mongodb"/>features](https://mongodb.com/resources/products/capabilities/features) include:
 
 - **Document model** — A document-oriented structure that allows for flexible schema designs
 - **Sharding** — Helps with horizontal scalability by distributing large datasets across multiple servers. Sharding improves query performance and load management for large-scale applications
@@ -147,7 +147,7 @@ Here’s a sample of employee data in BSON format:
 
 ### Node.js (runtime environment)
 
-[<FontIcon icon="fas fa-globe"/>Node.js](https://blog.logrocket.com/tag/node/) is an open-source runtime environment that runs on various platforms, including Windows, Unix, Mac OS X, Linux, etc. Created in May 2009, Node.js has become the most popular web framework out there, according to [<FontIcon icon="fas fa-globe"/>Statista](https://statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/) and [<FontIcon icon="fas fa-globe"/>Stack Overflow](https://survey.stackoverflow.co/2024/technology#1-web-frameworks-and-technologies).
+[<VPIcon icon="fas fa-globe"/>Node.js](https://blog.logrocket.com/tag/node/) is an open-source runtime environment that runs on various platforms, including Windows, Unix, Mac OS X, Linux, etc. Created in May 2009, Node.js has become the most popular web framework out there, according to [<VPIcon icon="fas fa-globe"/>Statista](https://statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/) and [<VPIcon icon="fas fa-globe"/>Stack Overflow](https://survey.stackoverflow.co/2024/technology#1-web-frameworks-and-technologies).
 
 Node.js enables developers to execute JavaScript outside the browser. This is a game-changer because, before Node.js, JavaScript was mostly limited to web pages. With Node.js, you can use JavaScript for server-side scripting, file system operations, and even building full-fledged applications.
 
@@ -157,7 +157,7 @@ Node.js powers applications for companies like WhatsApp, Slack, LinkedIn, and Gi
 
 - **Asynchronous and event-driven** — Node.js is designed to manage various operations simultaneously. This makes it great for applications that need to process multiple requests, like chat apps or real-time updates
 - **Single-threaded with scalability** — Though it is [**single-threaded**](/blog.logrocket.com/complete-guide-threads-node-js.md), Node.js handles numerous simultaneous connections through its event loop and [**worker threads**](/blog.logrocket.com/multithreading-node-js-worker-threads.md)
-- **NPM (Node Package Manager)** — Node.js includes npm, a vast library of [<FontIcon icon="fa-brands fa-node"/>over 2.1 million JavaScript packages](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager) developers can integrate into their projects
+- **NPM (Node Package Manager)** — Node.js includes npm, a vast library of [<VPIcon icon="fa-brands fa-node"/>over 2.1 million JavaScript packages](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager) developers can integrate into their projects
 - **Built on the V8 JavaScript engine** — Node.js operates on the fast [**V8 engine**](/blog.logrocket.com/how-javascript-works-optimizing-the-v8-compiler-for-efficiency.md), which provides high performance by compiling JavaScript directly into native machine code
 - **Universal JavaScript** — Node.js supports universal JavaScript, which allows you to use JavaScript code on both the server and the client
 
@@ -269,7 +269,7 @@ If everything is correct, it [**hashes the password**](/blog.logrocket.com/passw
 
 #### Step 3: MongoDB stores the data
 
-MongoDB stores the user’s details, including the hashed password, in a “users” collection. You can use [<FontIcon icon="fas fa-globe"/>Mongoose](https://mongoosejs.com/), a popular ODM library, to define a schema for the user data and ensure the required fields, such as email and password, are always present.
+MongoDB stores the user’s details, including the hashed password, in a “users” collection. You can use [<VPIcon icon="fas fa-globe"/>Mongoose](https://mongoosejs.com/), a popular ODM library, to define a schema for the user data and ensure the required fields, such as email and password, are always present.
 
 Once the user data is stored, the backend sends a “success” response.
 
@@ -295,7 +295,7 @@ There’s no limit to what you can build with the MERN stack — except maybe a 
 
 ### Expedia
 
-Here’s how [<FontIcon icon="iconfont icon-mongodb"/>Expedia](https://mongodb.com/solutions/customer-case-studies/expedia) uses the MERN stack to deliver personalized travel recommendations:
+Here’s how [<VPIcon icon="iconfont icon-mongodb"/>Expedia](https://mongodb.com/solutions/customer-case-studies/expedia) uses the MERN stack to deliver personalized travel recommendations:
 
 - MongoDB: Manages travel data, user preferences, and booking information, ensuring travelers get tailored recommendations
 - Node.js and Express.js handle different backend operations. They provide real-time pricing updates and ensure fast and secure [**API**](/blog.logrocket.com/build-rest-api-node-express-mysql.md) communication between Expedia’s booking system and external travel providers
@@ -303,7 +303,7 @@ Here’s how [<FontIcon icon="iconfont icon-mongodb"/>Expedia](https://mongodb.c
 
 ### Sega
 
-[<FontIcon icon="iconfont icon-mongodb"/>Sega](https://mongodb.com/solutions/customer-case-studies/sega) uses the MERN stack to personalize gaming experiences:
+[<VPIcon icon="iconfont icon-mongodb"/>Sega](https://mongodb.com/solutions/customer-case-studies/sega) uses the MERN stack to personalize gaming experiences:
 
 - MongoDB handles dynamic gaming data, enabling Sega to enhance player engagement by providing real-time, personalized stats that users can track and share
 - Node.js and Express.js enable instant updates for player achievements and leaderboards and ensure smooth data flow between game servers and the database
@@ -311,7 +311,7 @@ Here’s how [<FontIcon icon="iconfont icon-mongodb"/>Expedia](https://mongodb.c
 
 ### Verizon
 
-[<FontIcon icon="iconfont icon-mongodb"/>Verizon](https://mongodb.com/solutions/customer-case-studies/verizon) uses the MERN stack to power 5G and IoT data:
+[<VPIcon icon="iconfont icon-mongodb"/>Verizon](https://mongodb.com/solutions/customer-case-studies/verizon) uses the MERN stack to power 5G and IoT data:
 
 - With the rise of 5G and IoT, Verizon needed a robust data pipeline to handle billions of data points from connected devices. MongoDB became the core of their real-time data storage and processing
 - Node.js and Express.js support millions of simultaneous device connections, ensuring Verizon can scale its 5G infrastructure without bottlenecks
@@ -319,15 +319,15 @@ Here’s how [<FontIcon icon="iconfont icon-mongodb"/>Expedia](https://mongodb.c
 
 ### Coinbase
 
-[<FontIcon icon="iconfont icon-mongodb"/>Coinbase](https://mongodb.com/solutions/customer-case-studies/coinbase?tck=customer) uses the MERN stack to scale cryptocurrency trading:
+[<VPIcon icon="iconfont icon-mongodb"/>Coinbase](https://mongodb.com/solutions/customer-case-studies/coinbase?tck=customer) uses the MERN stack to scale cryptocurrency trading:
 
-- To handle unpredictable trading surges, Coinbase turned to [<FontIcon icon="fas fa-globe"/>MongoDB](https://coinbase.com/blog/how-we-do-mongodb-migrations-at-coinbase) for its scalable, flexible database
+- To handle unpredictable trading surges, Coinbase turned to [<VPIcon icon="fas fa-globe"/>MongoDB](https://coinbase.com/blog/how-we-do-mongodb-migrations-at-coinbase) for its scalable, flexible database
 - They use Node.js and Express.js to keep API calls secure and optimized, process real-time buy/sell orders, and prevent delays in price updates and order execution
 - React powers the interactive trading dashboard, giving users up-to-the-second market data.
 
 ### eBay
 
-[<FontIcon icon="iconfont icon-mongodb"/>eBay](https://mongodb.com/blog/post/ebay-building-mission-critical-multi-data-center-applications-with-mongodb) uses the MERN stack to handle high-volume transactions:
+[<VPIcon icon="iconfont icon-mongodb"/>eBay](https://mongodb.com/blog/post/ebay-building-mission-critical-multi-data-center-applications-with-mongodb) uses the MERN stack to handle high-volume transactions:
 
 - MongoDB acts as their scalable database that powers mission-critical, multi-user applications. This helps them manage millions of daily transactions.
 - Node.js ensures fast API responses, allowing users to browse, bid, and make purchases in real-time.
@@ -343,7 +343,7 @@ Benefits of working with the MERN stack include:
 - **Full-stack JavaScript development** — The MERN stack allows developers to use a single language — JavaScript — across the frontend and backend of an application. This consistency means developers don’t need to switch between different languages, improving productivity
 - **Component-based development with React** — Instead of rewriting code for the same UI elements, React allows you to build [**reusable components**](/blog.logrocket.com/building-reusable-ui-components-with-react-hooks.md) that manage their own state, styling, and logic. This helps keep your code DRY and organized
 - **Efficient JSON data exchange** — MongoDB stores data in a JSON-like BSON format, making it a natural fit for JavaScript applications. This simplifies [**API**](/blog.logrocket.com/modern-api-data-fetching-methods-react.md) interactions between the frontend and backend and eliminates the need for complex data transformation processes
-- **Battle-tested** — MERN is widely adopted and has been used in many production-ready applications across various industries. Its proven reliability makes it a solid choice for [<FontIcon icon="fas fa-globe"/>startups](https://blog.logrocket.com/product-management/incubators-guide/) and enterprises alike
+- **Battle-tested** — MERN is widely adopted and has been used in many production-ready applications across various industries. Its proven reliability makes it a solid choice for [<VPIcon icon="fas fa-globe"/>startups](https://blog.logrocket.com/product-management/incubators-guide/) and enterprises alike
 - **Strong community support and ecosystem** — Every tool in the MERN stack has a large and active community that gives you access to a wealth of documentation, tutorials, open-source libraries, and third-party tools
 
 ---
@@ -376,11 +376,11 @@ You can structure the app to suit your preferences. However, if you’d like to 
 
 ![Folder structure for MERN to-do app](https://paper-attachments.dropboxusercontent.com/s_B5A9487B8E93C2D596818BB443FFECA3635AB7A655E8B0A316EC63944E48D7A3_1739283808182_image.png)
 
-_Here’s the [GitHub repo (<FontIcon icon="iconfont icon-github"/>`nefejames/logrocket-mern-todo-app`)](https://github.com/nefejames/logrocket-mern-todo-app) for the complete app if you’d like to jump straight to the code._
+_Here’s the [GitHub repo (<VPIcon icon="iconfont icon-github"/>`nefejames/logrocket-mern-todo-app`)](https://github.com/nefejames/logrocket-mern-todo-app) for the complete app if you’d like to jump straight to the code._
 
 ### Step 1: Set up the MongoDB schema
 
-First, we need to define the structure of our to-do items. Create a <FontIcon icon="fa-brands fa-js"/>`todoSchema.js` file and update it with the below code:
+First, we need to define the structure of our to-do items. Create a <VPIcon icon="fa-brands fa-js"/>`todoSchema.js` file and update it with the below code:
 
 ```js title="todoSchema.js"
 const mongoose = require('mongoose');
@@ -410,13 +410,13 @@ Run the following command to install the required packages:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add express mongoose cors body-parser
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i express mongoose cors body-parser
@@ -623,17 +623,17 @@ JAMstack uses JavaScript for interactivity, APIs for backend services, and [**Ma
 
 ### MERN stack vs. PERN stack
 
-When it comes to MERN vs. PERN, the database is the differentiator, as the PERN stack uses [**PostgreSQL**](/blog.logrocket.com/crud-rest-api-node-js-express-postgresql.md) as its database. PostgreSQL is an open-source relational database that uses SQL for queries. It is currently [<FontIcon icon="fa-brands fa-stack-overflow"/>the most popular database](https://survey.stackoverflow.co/2024/technology#1-databases) out there for the second year in a row.
+When it comes to MERN vs. PERN, the database is the differentiator, as the PERN stack uses [**PostgreSQL**](/blog.logrocket.com/crud-rest-api-node-js-express-postgresql.md) as its database. PostgreSQL is an open-source relational database that uses SQL for queries. It is currently [<VPIcon icon="fa-brands fa-stack-overflow"/>the most popular database](https://survey.stackoverflow.co/2024/technology#1-databases) out there for the second year in a row.
 
 PostgreSQL is a schema-based database that supports structured data. This means the structure of the data must be defined before it is stored. Meanwhile, MongoDB is schema-less and offers greater flexibility on how you store and modify your data.
 
 ### MERN stack vs. T3 stack
 
-The [T3 stack](https://create.t3.gg/) takes a completely different approach from the other stacks we’ve explored. It introduces a completely new set of tools and is built around [TypeScript](https://blog.logrocket.com/how-to-use-typescript-react-tutorial-examples/), [**Next.js**](/blog.logrocket.com/using-next-js-with-typescript.md), [**tRPC**](/blog.logrocket.com/trpc-vs-graphql-better-projects.md), [**Tailwind CSS**](/blog.logrocket.com/getting-ready-tailwind-v4/), and [**Prisma**](/blog.logrocket.com/prisma-orm-adoption-guide.md). Companies like [<FontIcon icon="fas fa-globe"/>Zoom](https://developers.zoom.us/blog/why-we-chose-to-build-with-the-t3-stack/) are already using this stack in production.
+The [T3 stack](https://create.t3.gg/) takes a completely different approach from the other stacks we’ve explored. It introduces a completely new set of tools and is built around [TypeScript](https://blog.logrocket.com/how-to-use-typescript-react-tutorial-examples/), [**Next.js**](/blog.logrocket.com/using-next-js-with-typescript.md), [**tRPC**](/blog.logrocket.com/trpc-vs-graphql-better-projects.md), [**Tailwind CSS**](/blog.logrocket.com/getting-ready-tailwind-v4/), and [**Prisma**](/blog.logrocket.com/prisma-orm-adoption-guide.md). Companies like [<VPIcon icon="fas fa-globe"/>Zoom](https://developers.zoom.us/blog/why-we-chose-to-build-with-the-t3-stack/) are already using this stack in production.
 
 The T3 stack was created as a modern alternative that uses the latest technologies and prioritizes type safety and developer experience.
 
-However, this stack is not as popular or battle-tested as other stacks. I recommend experimenting with it on personal projects before adopting it for larger-scale or production applications. Also, [<FontIcon icon="fa-brands fa-reddit"/>review online discussions](https://reddit.com/r/nextjs/comments/13u8se0/t3_stack_in_the_future/) to learn what the community is saying about the T3 stack.
+However, this stack is not as popular or battle-tested as other stacks. I recommend experimenting with it on personal projects before adopting it for larger-scale or production applications. Also, [<VPIcon icon="fa-brands fa-reddit"/>review online discussions](https://reddit.com/r/nextjs/comments/13u8se0/t3_stack_in_the_future/) to learn what the community is saying about the T3 stack.
 
 Here’s a tabular summary of how the MERN stack compared with other JavaScript stacks:
 
@@ -785,7 +785,7 @@ The first step to becoming a MERN stack developer is gaining the right knowledge
 
 ::: note
 
-In truth, this is just a low-level overview of a MERN stack developer roadmap. For a more detailed guide, check out the [<FontIcon icon="fas fa-globe"/>Roadmap.sh](https://roadmap.sh/full-stack) *full-stack developer roadmap*.
+In truth, this is just a low-level overview of a MERN stack developer roadmap. For a more detailed guide, check out the [<VPIcon icon="fas fa-globe"/>Roadmap.sh](https://roadmap.sh/full-stack) *full-stack developer roadmap*.
 
 :::
 
@@ -795,9 +795,9 @@ There are varying opinions about certificates in the tech space. Some believe th
 
 Regardless of what segment you fall into, one thing is certain: it doesn’t hurt to grab a few certificates, especially in today’s competitive job market. Anything that gives you an edge above other job applicants is definitely good. These are some certifications you should consider getting:
 
-- [<FontIcon icon="fas fa-globe"/>IBM Full-stack software developer professional certificate](https://coursera.org/professional-certificates/ibm-full-stack-cloud-developer)
-- [<FontIcon icon="fas fa-globe"/>Simplilearn Full-stack (MERN Stack) developer Masters program](https://simplilearn.com/full-stack-developer-course-mern-certification-training)
-- [<FontIcon icon="fas fa-globe"/>Noble Desktop Full-stack web development certificate](https://nobledesktop.com/certificates/full-stack-development)
+- [<VPIcon icon="fas fa-globe"/>IBM Full-stack software developer professional certificate](https://coursera.org/professional-certificates/ibm-full-stack-cloud-developer)
+- [<VPIcon icon="fas fa-globe"/>Simplilearn Full-stack (MERN Stack) developer Masters program](https://simplilearn.com/full-stack-developer-course-mern-certification-training)
+- [<VPIcon icon="fas fa-globe"/>Noble Desktop Full-stack web development certificate](https://nobledesktop.com/certificates/full-stack-development)
 
 ### MERN stack developer roles and skills
 
@@ -815,12 +815,12 @@ Potential employers expect MERN stack developers to have numerous skills. Some o
 
 One of the best ways to learn is by studying what others have built. You can dive into these projects, study their codebase, and gain inspiration:
 
-- [Social media web app (<FontIcon icon="iconfont icon-github"/>`Faizan2911/Social-Media-Web-App-Mern-Stack-`)](https://github.com/Faizan2911/Social-Media-Web-App-Mern-Stack-)
-- [Ecommerce platform project (<FontIcon icon="iconfont icon-github"/>`ajaybor0/MERN-eCommerce`)](https://github.com/ajaybor0/MERN-eCommerce)
-- [Chat stream (<FontIcon icon="iconfont icon-github"/>`ankanmitra2002/Chat_Stream`)](https://github.com/ankanmitra2002/Chat_Stream)
-- [ERP CRM software (<FontIcon icon="iconfont icon-github"/>`idurar/idurar-erp-crm`)](https://github.com/idurar/idurar-erp-crm)
-- [Full-stack doctor appointment website (<FontIcon icon="iconfont icon-github"/>`Ujjalzaman/Doctor-Appointment`)](https://github.com/Ujjalzaman/Doctor-Appointment)
-- [Todo web app (<FontIcon icon="iconfont icon-github"/>`himanshu1221/To-Do-Web-App`)](https://github.com/himanshu1221/To-Do-Web-App)
+- [Social media web app (<VPIcon icon="iconfont icon-github"/>`Faizan2911/Social-Media-Web-App-Mern-Stack-`)](https://github.com/Faizan2911/Social-Media-Web-App-Mern-Stack-)
+- [Ecommerce platform project (<VPIcon icon="iconfont icon-github"/>`ajaybor0/MERN-eCommerce`)](https://github.com/ajaybor0/MERN-eCommerce)
+- [Chat stream (<VPIcon icon="iconfont icon-github"/>`ankanmitra2002/Chat_Stream`)](https://github.com/ankanmitra2002/Chat_Stream)
+- [ERP CRM software (<VPIcon icon="iconfont icon-github"/>`idurar/idurar-erp-crm`)](https://github.com/idurar/idurar-erp-crm)
+- [Full-stack doctor appointment website (<VPIcon icon="iconfont icon-github"/>`Ujjalzaman/Doctor-Appointment`)](https://github.com/Ujjalzaman/Doctor-Appointment)
+- [Todo web app (<VPIcon icon="iconfont icon-github"/>`himanshu1221/To-Do-Web-App`)](https://github.com/himanshu1221/To-Do-Web-App)
 
 Explore the [mern-project GitHub topic](https://github.com/topics/mern-project) to see more great projects and templates.
 
@@ -829,10 +829,10 @@ Explore the [mern-project GitHub topic](https://github.com/topics/mern-project) 
 The World Wide Web is saturated with many resources for learning about the MERN stack — and anything, really — but these are some great ones to start with:
 
 - [**How to build a MERN stack CRUD app from scratch**](/blog.logrocket.com/mern-stack-tutorial.md)
-- [<FontIcon icon="fa-brands fa-youtube"/>Book store project](https://youtu.be/-42K44A1oMA) by FreeCodeCamp
-- [<FontIcon icon="fa-brands fa-youtube"/>MERN stack crash course tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE) by Net Ninja
-- [<FontIcon icon="fa-brands fa-youtube"/>Build and deploy a Full-stack MERN social media app](https://youtu.be/VsUzmlZfYNg) with auth, pagination, and comments by JavaScript Mastery
-- [<FontIcon icon="fas fa-globe"/>CareerFoundry Full-stack developer program](https://careerfoundry.com/en/courses/become-a-web-developer/)
+- [<VPIcon icon="fa-brands fa-youtube"/>Book store project](https://youtu.be/-42K44A1oMA) by FreeCodeCamp
+- [<VPIcon icon="fa-brands fa-youtube"/>MERN stack crash course tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE) by Net Ninja
+- [<VPIcon icon="fa-brands fa-youtube"/>Build and deploy a Full-stack MERN social media app](https://youtu.be/VsUzmlZfYNg) with auth, pagination, and comments by JavaScript Mastery
+- [<VPIcon icon="fas fa-globe"/>CareerFoundry Full-stack developer program](https://careerfoundry.com/en/courses/become-a-web-developer/)
 
 ---
 
@@ -840,11 +840,11 @@ The World Wide Web is saturated with many resources for learning about the MERN 
 
 While knowing the roadmap for becoming a MERN stack developer is important, understanding the job market demand is just as critical. Many people pursue MERN stack development not just for personal projects but also to secure a job in the field. So, how in-demand are MERN stack developers today?
 
-There are no recent stats specifically tracking the demand for MERN stack developers. However, after searching various job boards — [<FontIcon icon="fas fa-globe"/>Glassdoor](https://glassdoor.com/Job/united-states-mern-stack-jobs-SRCH_IL.0,13_IN1_KO14,24.htm), [<FontIcon icon="fas fa-globe"/>Himalayas](https://himalayas.app/jobs/mern-stack), [<FontIcon icon="fas fa-globe"/>Indeed](https://indeed.com/jobs?q=mern+stack&l=new+york%2C+ny&from=searchOnDesktopSerp%2Cwhatautocomplete&cf-turnstile-response=0.G_5_JBvJ6s4byXQiwIQLc22Vc3Srpx8El34Bgu8UClRXEeVOlnw2lKGsmzxMevZ9iAIuy0DpsdBdAtD3PjUFcRBmf-fMyLlwi8xN2PYMiKMeSW-zx9t7i8L7KvVaiBKc9-fH63uvy3mf52R2TnHezVtnuzuN780DcEhP5Nvy3AKZcBbt82ZXehvGA4fnlNaB_qsi0VJXMf67AMj17jcZme3lMrSy6JsJoeipqqW-PvXamCoJnXCPDfS5kRmwt-zhq6IG9DrDfJrQFQj8-GoIiYLgY-ilCtd-N-DxGlsPtzS2zgJDDr-WoWdqg1R-QV5o6BOG0zsFKt-JNIgEdyGi4awNmqt5u21BmstIiBdgkPw2Yv8P5AhR93TlbzR1FPhBk4BZBDM-hpR8WsmEuT-a6GqsRCf8Mw5Q8cemV5fUYqD1Otv5OSvUD1iHNwqlTeSmIBeGMfNcQxP5wZqw21jwJd26VSYn-UhyMiXhj2Q2kOqQt2vJC1-qspOsc8vrHQzo2Sjn-BpqPS3zjMQ8RpMkh4E1H0-7deJhSFmkmAx0iDt-F86gU36ZZ5ensevHmnEusHzH0bqS_MO-k9D9wVWoDAO2ACej6bE7sTtjjkBHzwrnfPhXZWujrNdSWdQonT7Zte2MkcnQ9FMZDRcDkJ8ZJKm0YssJnayaB18h7QDYyDLtQb4_e9a0HGITsT9OeKgsdFu7Eioj1KKp4OYkF9nEaFKTD3469ixIFSSs-Ent4dauxmxWZKhrVRmazLEn452irBOblhkk7XvxJAxPX1JJfj5FilotGlkIIlsdirCLhXOXF2wys2RpH-zdbXTFQsBHatbBQ8vxdfWY9t01hXUEFg.C769ApksE2--i4KEt8VGCg.6285e17777c8a1e26fd0cc6898fa75dde00b2f8758cba6f3cf99a5037fad6697&vjk=85b6ee5eae1f676f), [<FontIcon icon="fa-brands fa-linkedin"/>LinkedIn](https://linkedin.com/jobs/search/?currentJobId=4141666084&geoId=103644278&keywords=mern%20stack%20developer&origin=JOB_SEARCH_PAGE_SEARCH_BUTTON&refresh=true), and [<FontIcon icon="fas fa-globe"/>Y Combinator’s Work at a Startup](https://workatastartup.com/companies?demographic=any&hasEquity=any&hasSalary=any&industry=any&interviewProcess=any&jobType=any&layout=list-compact&query=MERN&role=eng&sortBy=keyword&tab=any&usVisaNotRequired=any) — for terms like “mern stack developer,” “fullstack developer,” and “web developer,” I noticed that less than 25 percent of job postings requested the MERN stack, and these are conservative figures.
+There are no recent stats specifically tracking the demand for MERN stack developers. However, after searching various job boards — [<VPIcon icon="fas fa-globe"/>Glassdoor](https://glassdoor.com/Job/united-states-mern-stack-jobs-SRCH_IL.0,13_IN1_KO14,24.htm), [<VPIcon icon="fas fa-globe"/>Himalayas](https://himalayas.app/jobs/mern-stack), [<VPIcon icon="fas fa-globe"/>Indeed](https://indeed.com/jobs?q=mern+stack&l=new+york%2C+ny&from=searchOnDesktopSerp%2Cwhatautocomplete&cf-turnstile-response=0.G_5_JBvJ6s4byXQiwIQLc22Vc3Srpx8El34Bgu8UClRXEeVOlnw2lKGsmzxMevZ9iAIuy0DpsdBdAtD3PjUFcRBmf-fMyLlwi8xN2PYMiKMeSW-zx9t7i8L7KvVaiBKc9-fH63uvy3mf52R2TnHezVtnuzuN780DcEhP5Nvy3AKZcBbt82ZXehvGA4fnlNaB_qsi0VJXMf67AMj17jcZme3lMrSy6JsJoeipqqW-PvXamCoJnXCPDfS5kRmwt-zhq6IG9DrDfJrQFQj8-GoIiYLgY-ilCtd-N-DxGlsPtzS2zgJDDr-WoWdqg1R-QV5o6BOG0zsFKt-JNIgEdyGi4awNmqt5u21BmstIiBdgkPw2Yv8P5AhR93TlbzR1FPhBk4BZBDM-hpR8WsmEuT-a6GqsRCf8Mw5Q8cemV5fUYqD1Otv5OSvUD1iHNwqlTeSmIBeGMfNcQxP5wZqw21jwJd26VSYn-UhyMiXhj2Q2kOqQt2vJC1-qspOsc8vrHQzo2Sjn-BpqPS3zjMQ8RpMkh4E1H0-7deJhSFmkmAx0iDt-F86gU36ZZ5ensevHmnEusHzH0bqS_MO-k9D9wVWoDAO2ACej6bE7sTtjjkBHzwrnfPhXZWujrNdSWdQonT7Zte2MkcnQ9FMZDRcDkJ8ZJKm0YssJnayaB18h7QDYyDLtQb4_e9a0HGITsT9OeKgsdFu7Eioj1KKp4OYkF9nEaFKTD3469ixIFSSs-Ent4dauxmxWZKhrVRmazLEn452irBOblhkk7XvxJAxPX1JJfj5FilotGlkIIlsdirCLhXOXF2wys2RpH-zdbXTFQsBHatbBQ8vxdfWY9t01hXUEFg.C769ApksE2--i4KEt8VGCg.6285e17777c8a1e26fd0cc6898fa75dde00b2f8758cba6f3cf99a5037fad6697&vjk=85b6ee5eae1f676f), [<VPIcon icon="fa-brands fa-linkedin"/>LinkedIn](https://linkedin.com/jobs/search/?currentJobId=4141666084&geoId=103644278&keywords=mern%20stack%20developer&origin=JOB_SEARCH_PAGE_SEARCH_BUTTON&refresh=true), and [<VPIcon icon="fas fa-globe"/>Y Combinator’s Work at a Startup](https://workatastartup.com/companies?demographic=any&hasEquity=any&hasSalary=any&industry=any&interviewProcess=any&jobType=any&layout=list-compact&query=MERN&role=eng&sortBy=keyword&tab=any&usVisaNotRequired=any) — for terms like “mern stack developer,” “fullstack developer,” and “web developer,” I noticed that less than 25 percent of job postings requested the MERN stack, and these are conservative figures.
 
 This suggests that demand for the MERN stack as a whole has declined compared to a few years or a decade ago.
 
-The insights I gathered from the job boards match [<FontIcon icon="fa-brands fa-google"/>Google search trends](https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=mern%20stack,fullstack&hl=en), which show that the search volume for “mern stack developers” far outweighs that of “full stack developer”:
+The insights I gathered from the job boards match [<VPIcon icon="fa-brands fa-google"/>Google search trends](https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=mern%20stack,fullstack&hl=en), which show that the search volume for “mern stack developers” far outweighs that of “full stack developer”:
 
 ![Google search trends for MERN stack vs full stack developer](https://paper-attachments.dropboxusercontent.com/s_B5A9487B8E93C2D596818BB443FFECA3635AB7A655E8B0A316EC63944E48D7A3_1739036073955_image.png)
 
