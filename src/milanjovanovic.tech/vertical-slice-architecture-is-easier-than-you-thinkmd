@@ -1,0 +1,319 @@
+---
+lang: en-US
+title: "Vertical Slice Architecture Is Easier Than You Think"
+description: "Article(s) > Vertical Slice Architecture Is Easier Than You Think"
+icon: iconfont icon-csharp
+category:
+  - C#
+  - DotNet
+  - Design
+  - System
+  - Article(s)
+tag:
+  - blog
+  - milanjovanovic.tech
+  - cs
+  - c#
+  - csharp
+  - dotnet
+  - system
+  - design
+head:
+  - - meta:
+    - property: og:title
+      content: "Article(s) > Vertical Slice Architecture Is Easier Than You Think"
+    - property: og:description
+      content: "Vertical Slice Architecture Is Easier Than You Think"
+    - property: og:url
+      content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/vertical-slice-architecture-is-easier-than-you-think.html
+prev: /programming/cs/articles/README.md
+date: 2025-09-13
+isOriginal: false
+author: Milan Jovanović
+cover: https://milanjovanovic.tech/blog-covers/mnw_159.png
+---
+
+# {{ $frontmatter.title }} 관련
+
+```component VPCard
+{
+  "title": "C# > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/cs/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "System Design > Article(s)",
+  "desc": "Article(s)",
+  "link": "/academics/system-design/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+[[toc]]
+
+---
+
+<SiteInfo
+  name="Vertical Slice Architecture Is Easier Than You Think"
+  desc="Learn how Vertical Slice Architecture organizes .NET code by business features instead of technical layers, keeping related functionality together and making your codebase easier to navigate and maintain."
+  url="https://milanjovanovic.tech/blog/vertical-slice-architecture-is-easier-than-you-think"
+  logo="https://milanjovanovic.tech/profile_favicon.png"
+  preview="https://milanjovanovic.tech/blog-covers/mnw_159.png"/>
+
+Let's say you need to add an "export user data" **feature** to your .NET application. Users click a button, your system generates their data export, uploads it to cloud storage, and emails them a secure download link.
+
+In your current **layered architecture** with a **technical folder structure**, you'll probably touch six different folders: `Controllers`, `Services`, `Models`, `DTOs`, `Repositories`, and `Validators`. You'll scroll up and down your solution explorer, lose your train of thought, and wonder why adding one feature requires editing files scattered across your entire codebase.
+
+If this sounds familiar, you're not alone. Most .NET developers start with the "standard" layered architecture, organizing code by **technical concerns** rather than **business features**.
+
+But there's a better way: [**Vertical Slice Architecture**](/milanjovanovic.tech/vertical-slice-architecture.md).
+
+---
+
+## What is Vertical Slice Architecture?
+
+Instead of organizing your code by technical layers (`Controllers`, `Services`, `Repositories`), **Vertical Slice Architecture** organizes it by **business features**. Each feature becomes a **self-contained** "slice" that includes **everything needed for that specific functionality**.
+
+Think of it this way: traditional [**layered architecture**](/milanjovanovic.tech/clean-architecture-folder-structure.md) is like organizing a library by book size or color, while [**vertical slices**](/milanjovanovic.tech/vertical-slice-architecture-structuring-vertical-slices.md) are like organizing by subject. When you want to learn about history, you don't want to hunt through the entire library, you want all the history books in one place.
+
+![](https://milanjovanovic.tech/blogs/mnw_159/vertical_slice_architecture.png?imwidth=1080)
+
+Let's look at a practical example.
+
+---
+
+## The Traditional Approach vs. Vertical Slices
+
+Let's look at our data export example. Here's how a typical .NET project would structure this feature:
+
+**Traditional Layered Structure:**
+
+```plaintext title="file structure"
+📁 Controllers/
+└── UsersController.cs (export endpoint)
+📁 Services/
+├── IDataExportService.cs
+├── DataExportService.cs
+├── ICloudStorageService.cs
+├── CloudStorageService.cs
+├── IEmailService.cs
+└── EmailService.cs
+📁 Models/
+├── ExportDataRequest.cs
+└── ExportDataResponse.cs
+📁 Repositories/
+├── IUserRepository.cs
+└── UserRepository.cs
+```
+
+Now here's the same functionality organized as vertical slices:
+
+**Vertical Slice Structure:**
+
+```plaintext title="file structure"
+📁 Features/
+└──📁 Users/
+   └──📁 ExportData/
+      ├── ExportUserData.cs
+      └── ExportUserDataEndpoint.cs
+      📁 Create/
+      └── CreateUser.cs
+      📁 GetById/
+      └── GetUserById.cs
+```
+
+The `ExportData` folder **contains everything related** to exporting user data: the request, response, business logic, and API endpoint.
+
+Notice I'm still injecting `ICloudStorageClient` and `IEmailSender` rather than putting that logic directly in the handler. These are genuine **cross-cutting concerns** that **multiple features will use**. The key is distinguishing between 'shared because it should be' vs 'shared because this pattern told me to'.
+
+---
+
+## Show Me the Code
+
+I organize by domain first (`Users`), then by feature (`ExportData`). Some teams prefer `Features/ExportUserData` directly, but I find the domain grouping helps when you have many features. Related features stay visually grouped.
+
+Here's what our data export **feature slice** looks like using a request, handler, and minimal APIs:
+
+```cs title="Features/Users/ExportData/ExportUserData.cs"
+public static class ExportUserData
+{
+    public record Request(Guid UserId) : IRequest<Response>;
+
+    public record Response(string DownloadUrl, DateTime ExpiresAt);
+
+    public class Handler(
+        AppDbContext dbContext,
+        ICloudStorageClient storageClient,
+        IEmailSender emailSender)
+        : IRequestHandler<Request, Response>
+    {
+        public async Task<Response> Handle(Request request, CancellationToken ct = default)
+        {
+            // Get user data
+            var user = await dbContext.Users
+                .Include(u => u.Orders)
+                .Include(u => u.Preferences)
+                .FirstOrDefaultAsync(u => u.Id == request.UserId, ct);
+
+            if (user == null)
+            {
+                throw new NotFoundException($"User {request.UserId} not found");
+            }
+
+            // Generate export data
+            var exportData = new
+            {
+                user.Email,
+                user.Name,
+                user.CreatedAt,
+                Orders = user.Orders.Select(o => new { o.Id, o.Total, o.Date }),
+                Preferences = user.Preferences
+            };
+
+            // Upload to cloud storage
+            var fileName = $"user-data-{user.Id}-{DateTime.UtcNow:yyyyMMdd}.json";
+            var expiresAtUtc = DateTime.UtcNow.AddDays(7);
+
+            var downloadUrl = await storageClient.UploadAsJsonAsync(
+                fileName,
+                exportData,
+                expiresAtUtc,
+                ct);
+
+            // Send email notification
+            await emailSender.SendDataExportEmailAsync(user.Email, downloadUrl, ct);
+
+            return new Response(downloadUrl, expiresAtUtc);
+        }
+    }
+
+    // Simple validation using FluentValidation
+    public sealed class Validator : AbstractValidator<Request>
+    {
+        public Validator()
+        {
+            RuleFor(r => r.UserId).NotEmpty();
+        }
+    }
+}
+```
+
+Everything related to exporting user data is in one place: the database query, validation, business logic, cloud storage integration, and email notification.
+
+The minimal API endpoint is straightforward:
+
+```cs
+public static class ExportUserDataEndpoint
+{
+    public static void Map(IEndpointRouteBuilder app)
+    {
+        app.MapPost("/users/{userId}/export", async (
+            Guid userId,
+            IRequestHandler<ExportUserData.Request, ExportUserData.Response> handler) =>
+        {
+            var response = await handler.Handle(new ExportUserData.Request(userId));
+            return Results.Ok(response);
+        });
+    }
+}
+```
+
+We could even define the endpoint inside the <FontIcon icon="iconfont icon-csharp"/>`ExportUserData.cs` file if we wanted to keep everything together. This is more a matter of preference and team conventions. Either approach works well, from my experience.
+
+---
+
+## One File vs. Multiple Files: Your Choice
+
+You might have noticed something: I put everything in a single file. This is a design choice with trade-offs.
+
+### Single File Approach (<FontIcon icon="iconfont icon-csharp"/>`ExportUserData.cs`)
+
+```cs title="ExportUserData.cs"
+public static class ExportUserData
+{
+    public record Request(Guid UserId) : IRequest<Response>;
+    public record Response(string DownloadUrl, DateTime ExpiresAt);
+    public class Handler : IRequestHandler<Request, Response> { /* ... */ }
+    public class Validator : AbstractValidator<Request> { /* ... */ }
+}
+```
+
+### Multiple Files Approach
+
+```title="file structure"
+📁 ExportData/
+├── ExportUserDataCommand.cs
+├── ExportUserDataResponse.cs
+├── ExportUserDataHandler.cs
+├── ExportUserDataValidator.cs
+└── ExportUserDataEndpoint.cs
+```
+
+**Single file is great when**: the feature is straightforward, you want **maximum locality**, and the file doesn't exceed a few hundred lines of code.
+
+Lines of code isn't a strict rule, but if a file grows beyond 300-400 lines, consider splitting it up for readability. Again, this is a matter of team preference and not a hard rule I go by. It's important to trust your instincts and what feels right for your team.
+
+**Multiple files work better when**: you have complex validation logic, multiple response types, or when the handler grows large enough that you want to focus on one concern at a time.
+
+You can even mix both approaches within the same project.
+
+Both approaches keep related code together. And this is what matters most in Vertical Slice Architecture.
+
+---
+
+## Why This Actually Works (And How to Start)
+
+The benefits of vertical slices become obvious once you try it. Your brain doesn't have to remember which files are related to which features. Everything lives together.
+
+Need to modify the data export feature? Everything's in the `ExportData` folder. No hunting across `Controllers`, `Services`, and `Repositories` layers. Each slice can evolve independently, so simple CRUD operations stay simple while complex features like data export can use sophisticated approaches.
+
+You don't need to rewrite your entire application overnight. Start with new features using vertical slices. As you touch existing code, gradually move related pieces into feature folders.
+
+Good architecture is about making your codebase easier to understand and modify. When all the code for a feature lives together, you spend less mental energy navigating your solution and more time solving actual problems.
+
+Here are a few resources if you want to learn more:
+
+
+```component VPCard
+{
+  "title": "Clean Architecture: The Missing Chapter",
+  "desc": "Clean Architecture's famous diagram is often misinterpreted as a project structure, leading developers to create artificial technical layers that scatter business logic across their codebase. Learn what the diagram really means and how to properly organize your code around business capabilities using components and clear boundaries.",
+  "link": "/milanjovanovic.tech/clean-architecture-the-missing-chapter.md",
+  "logo": "https://milanjovanovic.tech/profile_favicon.png",
+  "background": "rgba(79,70,229,0.2)"
+}
+```
+
+
+```component VPCard
+{
+  "title": "What Is a Modular Monolith?",
+  "desc": "Modular monoliths blend the simplicity and robustness of traditional monolithic applications with the flexibility and scalability of microservices. Today, I'll introduce you to the modular monolith architecture and why you should know about it.",
+  "link": "/milanjovanovic.tech/what-is-a-modular-monolith.md",
+  "logo": "https://milanjovanovic.tech/profile_favicon.png",
+  "background": "rgba(79,70,229,0.2)"
+}
+```
+
+- [**Screaming Architecture**](/milanjovanovic.tech/screaming-architecture.md)
+
+All of these concepts tie together to help you build maintainable, scalable .NET applications.
+
+---
+
+<!-- TODO: add ARTICLE CARD -->
+```component VPCard
+{
+  "title": "Vertical Slice Architecture Is Easier Than You Think",
+  "desc": "Learn how Vertical Slice Architecture organizes .NET code by business features instead of technical layers, keeping related functionality together and making your codebase easier to navigate and maintain.",
+  "link": "https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/vertical-slice-architecture-is-easier-than-you-think.html",
+  "logo": "https://milanjovanovic.tech/profile_favicon.png",
+  "background": "rgba(79,70,229,0.2)"
+}
+```

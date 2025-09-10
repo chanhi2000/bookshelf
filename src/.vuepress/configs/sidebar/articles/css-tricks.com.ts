@@ -5,6 +5,15 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "is-it-time-to-un-sass", // 2025-09-17
+    "the-most-hated-css-feature-cos-and-sin", // 2025-09-15
+    "what-can-we-actually-do-with-corner-shape", // 2025-09-12
+    "compiling-multiple-css-files-into-one", // 2025-09-11
+    
+    "composition-in-css", // 2025-09-08
+    "what-you-need-to-know-about-css-color-interpolation", // 2025-09-05
+    "should-the-css-light-dark-function-support-more-than-light-and-dark-values", // 2025-09-02
+    "css-elevator-a-pure-css-state-machine-with-floor-navigation", // 2025-08-29
     "a-radio-button-shopping-cart-trick", // 2025-08-27
     "getting-creative-with-images-in-long-form-content", // 2025-08-25
     "3d-layered-text-interactivity-and-dynamism", // 2025-08-22
@@ -130,6 +139,7 @@ const Y2015: SidebarYeargroupTemplate = {
   children: [
     // END: 2015
     "box-sizing", // 2015-05-06
+    "spriting-img", // 2015-02-06
   ],
 }
 
@@ -176,6 +186,7 @@ export const template: SidebarInfoTemplate = {
       "inheriting-box-sizing-probably-slightly-better-best-practice", // 2014-09-23
       "shape-blobbing-css", // 2014-10-28
       // END: 2014css
+      "spriting-img", // 2015-02-06
       "box-sizing", // 2015-05-06
       // END: 2015css
       "international-box-sizing-awareness-day", // 2016-03-04
@@ -229,11 +240,20 @@ export const template: SidebarInfoTemplate = {
       "3d-layered-text-interactivity-and-dynamism", // 2025-08-22
       "getting-creative-with-images-in-long-form-content", // 2025-08-25
       "a-radio-button-shopping-cart-trick", // 2025-08-27
+      "css-elevator-a-pure-css-state-machine-with-floor-navigation", // 2025-08-29
+      "should-the-css-light-dark-function-support-more-than-light-and-dark-values", // 2025-09-02
+      "what-you-need-to-know-about-css-color-interpolation", // 2025-09-05
+      "composition-in-css", // 2025-09-08
+
+      "what-can-we-actually-do-with-corner-shape", // 2025-09-12
+      "the-most-hated-css-feature-cos-and-sin", // 2025-09-15
+      "is-it-time-to-un-sass", // 2025-09-17
       // END: 2025css
       // END: css
     ]],[
     "js-node",[
       "a-primer-on-focus-trapping", // 2025-07-22
+      "compiling-multiple-css-files-into-one", // 2025-09-11
       // END: 2025js-node
       // END: js-node
     ]],[

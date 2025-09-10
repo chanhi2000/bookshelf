@@ -29,7 +29,7 @@ prev: /programming/php/articles/README.md
 date: 2025-07-04
 isOriginal: false
 author:
-  - name: Programming Ocean Academy (@programmingoceanacademy)
+  - name: Mohammed Al Abrah (@programmingoceanacademy)
     url : https://youtube.com/@programmingoceanacademy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751631421687/ecb8f621-7ba8-4100-8e54-d51dc3866578.jpeg
 ---

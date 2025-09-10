@@ -5,6 +5,14 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "3356", // 2025-09-19
+    "3353", // 2025-09-18
+    "3349", // 2025-09-17
+
+    "3339", // 2025-09-11
+    "3334", // 2025-09-09
+    "3332", // 2025-09-08
+    "3328", // 2025-09-04
     "3325", // 2025-09-03
     "3318", // 2025-09-01
     "3317", // 2025-09-01
@@ -441,6 +449,7 @@ export const template: SidebarInfoTemplate = {
         "3254", // 2025-07-24
         "3273", // 2025-08-06
         "3317", // 2025-09-01
+        "3332", // 2025-09-08
         // END: 2025js
         // END: js
       ]], [
@@ -615,14 +624,23 @@ export const template: SidebarInfoTemplate = {
         "2745", // 2024-09-04
         // END: 2024github
         "3097", // 2025-04-30
+        "3334", // 2025-09-09
         // END: 2025github
         // END: github
       ]],[
       "jira", [
         "2295", // 2023-10-31
+        // END: 2023jira
+        // END: 2024jira
+        // END: 2025jira
+        // END: jira
       ]],[
       "confluence", [
         "2295", // 2023-10-31
+        // END: 2023confluence
+        // END: 2024confluence
+        // END: 2025confluence
+        // END: confluence
       ]],[
       "macos", [
         "2658", // 2024-07-04
@@ -856,6 +874,9 @@ export const template: SidebarInfoTemplate = {
         "3276", // 2025-08-08
         "3286", // 2025-08-12
         "3302", // 2025-08-22
+        
+        "3349", // 2025-09-17
+        "3356", // 2025-09-19
         // END: 2025llm
         // END: llm
       ]],[
@@ -883,6 +904,13 @@ export const template: SidebarInfoTemplate = {
         // END: 2025gemini
         // END: gemini
       ]],[
+      "claude", [
+        "3334", // 2025-09-09
+        "3339", // 2025-09-11
+        "3353", // 2025-09-18
+        // END: 2025claude
+        // END: claude
+      ]],[
       "llama", [
         "2751", // 2024-09-06
         // END: llama
@@ -893,6 +921,8 @@ export const template: SidebarInfoTemplate = {
         "2868", // 2024-11-29
         "2879", // 2024-12-06
         "2889", // 2024-12-13
+        // END: 2024langchain
+        // END: 2025langchain
         // END: langchain
       ]],[
       "deepseek", [
@@ -985,6 +1015,7 @@ export const template: SidebarInfoTemplate = {
         "3286", // 2025-08-12
         "3300", // 2025-08-20
         "3318", // 2025-09-01
+        "3328", // 2025-09-04
         // END: 2025career
         // END: career
       ]],[
@@ -1005,6 +1036,7 @@ export const template: SidebarInfoTemplate = {
         "3095", // 2025-04-29
         "3160", // 2025-05-30
         "3319", // 2025-08-29
+        "3349", // 2025-09-17
         // END: 2025coen
         // END: coen
       ]],[

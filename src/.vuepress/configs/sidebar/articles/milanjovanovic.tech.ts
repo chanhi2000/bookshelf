@@ -15,6 +15,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "distributed-locking-in-dotnet-coordinating-work-across-multiple-instances", // 2025-09-20
+    "vertical-slice-architecture-is-easier-than-you-think", // 2025-09-13
     "building-semantic-search-with-amazon-s3-vectors", // 2025-09-06
     "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
     "the-real-cost-of-abstractions-in-dotnet", // 2025-08-23
@@ -348,6 +350,8 @@ export const template: SidebarInfoTemplate = {
       "the-real-cost-of-abstractions-in-dotnet", // 2025-08-23
       "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
       "building-semantic-search-with-amazon-s3-vectors", // 2025-09-06
+      "vertical-slice-architecture-is-easier-than-you-think", // 2025-09-13
+      "distributed-locking-in-dotnet-coordinating-work-across-multiple-instances", // 2025-09-20
       // END: 2025cs
       // END: cs
     ]],[
@@ -432,12 +436,14 @@ export const template: SidebarInfoTemplate = {
       // END: 2024postgres
       "understanding-cursor-pagination-and-why-its-so-fast-deep-dive", // 2025-02-15
       "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
+      "distributed-locking-in-dotnet-coordinating-work-across-multiple-instances", // 2025-09-20
       // END: 2025postgres
       // END: postgres
     ]],[
     "redis", [
       "caching-in-aspnetcore-improving-application-performance", // 2024-06-08
       "simple-messaging-in-dotnet-with-redis-pubsub", // 2024-07-27
+      "distributed-locking-in-dotnet-coordinating-work-across-multiple-instances", // 2025-09-20
       // END: 2024redis
       // END: redis
     ]],[
@@ -462,6 +468,7 @@ export const template: SidebarInfoTemplate = {
       "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
       "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
       "the-5-most-common-rest-api-design-mistakes-and-how-to-avoid-them", // 2025-08-08
+      "vertical-slice-architecture-is-easier-than-you-think", // 2025-09-13
       // END: 2025system-design
       // END: system-design
     ]],[
