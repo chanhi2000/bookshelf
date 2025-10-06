@@ -1,40 +1,86 @@
-// /bookshelf/scripts/combine-dists.js
+// scripts/combine-dists.js
 import fs from "fs-extra";
 import path from "path";
 
+// --- Configuration ---
+// Define the paths to your different project source directories.
+// This makes it easy to add more projects later.
 const rootDir = process.cwd();
-const mainDocsDist = path.join(rootDir, "packages/main-docs/src/.vuepress/dist");
-const archivedDocsDist = path.join(rootDir, "packages/archived-docs/src/.vuepress/dist");
 const finalDist = path.join(rootDir, "dist");
 
+const mainProject = {
+  name: 'main-docs',
+  // Path to the source directory containing '.vuepress'
+  distPath: path.join(rootDir, 'src/.vuepress/dist')
+};
+
+const subProjects = [
+  {
+    name: 'freecodecamp-org',
+    // Path to the source directory containing '.vuepress'
+    distPath: path.join(rootDir, 'docs/freecodecamp-org/src/.vuepress/dist'),
+    // The name of the sub-directory it will live in within the final output
+    targetSubdir: 'fcc'
+  },
+  // You can add more sub-projects here in the future
+  // {
+  //   name: 'archived-docs',
+  //   distPath: path.join(rootDir, 'packages/archived-docs/src/.vuepress/dist'),
+  //   targetSubdir: 'archive'
+  // }
+];
+
+// --- Main Execution ---
 async function combine() {
-  console.log("Combining build outputs...");
+  console.log("🚀 Starting build combination process...");
 
-  // 1. Clean previous final output
+  // 1. Clean previous final output to ensure a fresh build
   await fs.remove(finalDist);
+  console.log("🧹 Cleaned previous final /dist directory.");
 
-  // 2. Copy the main documentation build as the base
-  if (await fs.pathExists(mainDocsDist)) {
-    await fs.copy(mainDocsDist, finalDist);
-    console.log("Copied main-docs.");
+  // 2. Copy the main project's entire dist folder as the base
+  if (await fs.pathExists(mainProject.distPath)) {
+    await fs.copy(mainProject.distPath, finalDist);
+    console.log(`✅ Copied base project '${mainProject.name}' to /dist.`);
   } else {
-    console.error("Main docs dist folder not found!");
+    console.error(`❌ Dist folder for main project '${mainProject.name}' not found! Build cannot continue.`);
     process.exit(1);
   }
 
-  // 3. Create a subdirectory for the archived docs
-  const archiveTargetPath = path.join(finalDist, "archive");
-  
-  // 4. Copy the archived documentation build into the subdirectory
-  if (await fs.pathExists(archivedDocsDist)) {
-    await fs.copy(archivedDocsDist, archiveTargetPath);
-    console.log("Copied archived-docs into /archive/.");
-  } else {
-    console.error("Archived docs dist folder not found!");
-    // This might not be a fatal error, depending on your setup
+  // 3. Process each sub-project
+  for (const project of subProjects) {
+    console.log(`\nProcessing sub-project: '${project.name}'...`);
+    
+    if (!(await fs.pathExists(project.distPath))) {
+      console.warn(`⚠️ Dist folder for '${project.name}' not found. Skipping.`);
+      continue;
+    }
+
+    const assetsSourcePath = path.join(project.distPath, 'assets');
+    const assetsTargetPath = path.join(finalDist, 'assets');
+
+    // 3a. MERGE the 'assets' directory from the sub-project into the root /dist/assets
+    if (await fs.pathExists(assetsSourcePath)) {
+      await fs.copy(assetsSourcePath, assetsTargetPath, { overwrite: true });
+      console.log(`- Merged 'assets' from '${project.name}' into /dist/assets.`);
+    }
+
+    // 3b. COPY everything ELSE from the sub-project's dist into its target subdirectory
+    // We use a filter to EXCLUDE the 'assets' folder from this copy operation,
+    // as we have already handled it.
+    const filterFunc = (src) => {
+      // Return 'false' to skip copying the 'assets' directory itself.
+      // All other files and directories will return 'true'.
+      return src !== assetsSourcePath;
+    };
+    
+    const targetPath = path.join(finalDist, project.targetSubdir);
+    await fs.copy(project.distPath, targetPath, { filter: filterFunc });
+    console.log(`- Copied other content from '${project.name}' to '/${project.targetSubdir}/'.`);
   }
 
-  console.log("✅ Combination complete! Final output is in /dist.");
+  console.log("\n🎉 Combination complete! Final output is in /dist.");
 }
 
+// Run the function
 combine();

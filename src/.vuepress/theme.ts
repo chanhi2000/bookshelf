@@ -88,6 +88,16 @@ export default hopeTheme({
       theme: "dracula",
       notationDiff: true,
       notationFocus: true,
+      notationHighlight: true,
+      notationErrorLevel: true,
+      // collapsedLines: 12,
+      // twoslash: {
+      //   twoslashOptions: {
+      //     compilerOptions: {
+      //       moduleResolution: /* bundler */ 100,
+      //     },
+      //   },
+      // }
     },
     figure: true,
     imgLazyload: true,

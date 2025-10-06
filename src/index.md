@@ -1,5 +1,6 @@
 ---
 home: true
+# layout: Blog
 title: 📚Bookshelf
 icon: home
 heroImage: https://avatars.githubusercontent.com/u/6296241?v=4

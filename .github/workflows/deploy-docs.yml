@@ -42,14 +42,21 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=16384
         run: |-
-          npm run build
+          pnpm run build
           > src/.vuepress/dist/.nojekyll
+        
+      # - name: Build freecodecamp-org
+      #   env:
+      #     NODE_OPTIONS: --max_old_space_size=16384
+      #   run: |-
+      #     pnpm run --stream build:freecodecamp-org && pnpm run combine
 
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # Deploy Docs
           branch: gh-pages
+          # folder: dist
           folder: src/.vuepress/dist
           token: ${{ secrets.ACCESS_TOKEN }}
           single-commit: true

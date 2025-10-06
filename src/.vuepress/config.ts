@@ -32,7 +32,7 @@ export default defineUserConfig({
   title: "📚Bookshelf",
   description: description,
   head: [['link', { rel: 'icon', href: imgLogoPath }]],
-  cache: 'src/.vuepress/.cache',
+  cache: 'docs/freecodecamp-org/src/.vuepress/.cache',
   bundler: viteBundler({
     viteOptions: {
       build: {

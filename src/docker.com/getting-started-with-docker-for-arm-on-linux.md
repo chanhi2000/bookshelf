@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Getting started with Dopcker for Arm on Linux"
-description: "Article(s) > Getting started with Dopcker for Arm on Linux"
+title: "Getting started with Docker for Arm on Linux"
+description: "Article(s) > Getting started with Docker for Arm on Linux"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Getting started with Dopcker for Arm on Linux"
+      content: "Article(s) > Getting started with Docker for Arm on Linux"
     - property: og:description
-      content: "Getting started with Dopcker for Arm on Linux"
+      content: "Getting started with Docker for Arm on Linux"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/docker.com/getting-started-with-docker-for-arm-on-linux.html
 prev: /devops/docker/articles/README.md
@@ -46,13 +46,17 @@ cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583
 ---
 
 <SiteInfo
-  name="Getting started with Dopcker for Arm on Linux"
+  name="Getting started with Docker for Arm on Linux"
   desc="Learn from Docker experts to simplify and advance your app development and management with Docker. Stay up to date on Docker events and new version"
   url="https://docker.com/blog/getting-started-with-docker-for-arm-on-linux"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png"/>
 
-*This blog post is the result of collaboration between Arm and Docker.  Special thanks to Jason Andrews @ Arm for creating much of the original content.*
+::: note
+
+This blog post is the result of collaboration between Arm and Docker. Special thanks to Jason Andrews @ Arm for creating much of the original content.
+
+:::
 
 Arm and Docker announced a [<VPIcon icon="iconfont icon-arm"/>strategic partnership](https://arm.com/company/news/2019/04/docker-and-arm-partnership) earlier this year to unify software development and deployment across a diverse set of devices, from IoT endpoints to the edge of the network, and into the heart of the data center. Docker has simplified enterprise software development and deployment leading to true multi-platform portability and cost savings on Arm-based cloud instances. Even more exciting is how Docker is changing the way embedded software is being developed and deployed.
 
@@ -86,7 +90,7 @@ sudo usermod -aG docker $USER
 
 Make sure to log out and back in again. Now test the install with a quick hello-world run.  
 
-```sh
+```sh :collapsed-lines
 docker run hello-world 
 #
 # Hello from Docker!
@@ -383,7 +387,7 @@ As we have seen, building multi-architecture containers can be created with buil
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Getting started with Dopcker for Arm on Linux",
+  "title": "Getting started with Docker for Arm on Linux",
   "desc": "Learn from Docker experts to simplify and advance your app development and management with Docker. Stay up to date on Docker events and new version",
   "link": "https://chanhi2000.github.io/bookshelf/docker.com/getting-started-with-docker-for-arm-on-linux.html",
   "logo": "https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png",

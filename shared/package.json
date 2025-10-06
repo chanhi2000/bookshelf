@@ -1,7 +1,13 @@
 {
   "name": "@bookshelf/shared",
-  "version": "0.2.0",
   "private": true,
+  "description": "Components used all around this project",
+  "license": "MIT",
+  "author": {
+    "name": "Chan hee Lee",
+    "email": "chanhi2000@gmail.com",
+    "url": "https://chanhi2000.github.io"
+  },
   "main": "src/index.ts",
   "peerDependencies": {
     "vue": "^3.0.0"

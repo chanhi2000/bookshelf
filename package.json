@@ -1,29 +1,35 @@
 {
   "name": "bookshelf",
+  "version": "0.2.1",
   "description": "Bookshelf",
-  "version": "0.2.0",
-  "license": "MIT",
-  "type": "module",
   "private": true,
-  "repository": "https://github.com/chanhi2000/bookshelf",
-  "workspaces": [
-    "shared"
-  ],
+  "license": "MIT",
   "authors": {
     "name": "Chan Hee Lee",
-    "email": "chanhi2000@gmail.com"
+    "email": "chanhi2000@gmail.com",
+    "url": "https://chanhi2000.github.io"
   },
+  "type": "module",
+  "repository": "https://github.com/chanhi2000/bookshelf",
+  "workspaces": [
+    "shared",
+    "docs/*"
+  ],
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' vuepress-vite dev src",
+    "dev:freecodecamp-org": "pnpm run --stream -r docs:dev",
     "clean-dev": "cross-env NODE_OPTIONS='--inspect' vuepress-vite dev src --clean-cache",
     "build": "cross-env NODE_OPTIONS=--max-old-space-size=16432 vuepress-vite build src",
     "clean-build": "cross-env NODE_OPTIONS=--max-old-space-size=16432 vuepress-vite build src --clean-cache",
+    "build:freecodecamp-org": "pnpm run --stream -r docs:build",
+    "combine": "node scripts/combine-dists.js",
     "mem-check": "node -e 'console.log(v8.getHeapStatistics().heap_size_limit/(1024*1024))'"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
     "@vuepress/plugin-register-components": "2.0.0-rc.112",
     "axios": "1.7.7",
+    "fs-extra": "^11.2.0",
     "rollup-plugin-visualizer": "5.12.0",
     "sandpack-vue3": "3.1.12",
     "vue": "3.5.17",
@@ -47,6 +53,7 @@
     "sass-loader": "^16.0.2",
     "sass-embedded": "^1.89.2",
     "vidstack": "^1.11.29",
-    "@bookshelf/shared": "workspace:*"
+    "@bookshelf/shared": "workspace:*",
+    "@bookshelf/freecodecamp-org": "workspace:*"
   }
 }

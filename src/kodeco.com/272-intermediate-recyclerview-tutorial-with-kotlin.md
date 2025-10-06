@@ -61,7 +61,7 @@ The `RecyclerView` layout was introduced in the Lollipop support library and And
 
 However, you may not know all that you can do with it. In this tutorial, you’ll see how to add sections, animations, dividers, and swipe gestures.
 
-You should be familiar with the basics of using `ReyclerView`. If not, you can read an introduction to using `RecyclerView` [here](https://www.raywenderlich.com/126528/android-recyclerview-tutorial).
+You should be familiar with the basics of using `ReyclerView`. If not, you can read an introduction to using `RecyclerView` [<FontIcon icon="fas fa-globe"/>here](https://raywenderlich.com/126528/android-recyclerview-tutorial).
 
 Here is a screenshot from the final version of our app:
 

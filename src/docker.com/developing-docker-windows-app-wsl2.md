@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Developing Docker-Powered Apps on Windows with WSL 2Docker"
-description: "Article(s) > Developing Docker-Powered Apps on Windows with WSL 2Docker"
+title: "Developing Docker-Powered Apps on Windows with WSL 2"
+description: "Article(s) > Developing Docker-Powered Apps on Windows with WSL 2"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -24,9 +24,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Developing Docker-Powered Apps on Windows with WSL 2Docker"
+      content: "Article(s) > Developing Docker-Powered Apps on Windows with WSL 2"
     - property: og:description
-      content: "Developing Docker-Powered Apps on Windows with WSL 2Docker"
+      content: "Developing Docker-Powered Apps on Windows with WSL 2"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/docker.com/developing-docker-windows-app-wsl2.html
 prev: /devops/docker/articles/README.md
@@ -75,7 +75,7 @@ cover: https://docker.com/app/uploads/2019/08/antonis-kalipetis.jpeg
 ---
 
 <SiteInfo
-  name="Developing Docker-Powered Apps on Windows with WSL 2Docker"
+  name="Developing Docker-Powered Apps on Windows with WSL 2"
   desc="WSL 2 is Microsoft's second take on shipping a Linux Kernel with Windows that includes a full fledged virtual machine. It was only natural that Docker would embrace this change and ship a Docker Desktop for Windows version that runs on WSL 2. In this blog, I’ll show you an example of how to develop Docker-powered applications using the Docker Desktop WSL 2 Tech Preview."
   url="https://docker.com/blog/developing-docker-windows-app-wsl2"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
@@ -251,7 +251,7 @@ If you’d like to get on board, read the instructions and install the technical
 <!-- ToDO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Developing Docker-Powered Apps on Windows with WSL 2Docker",
+  "title": "Developing Docker-Powered Apps on Windows with WSL 2",
   "desc": "WSL 2 is Microsoft's second take on shipping a Linux Kernel with Windows that includes a full fledged virtual machine. It was only natural that Docker would embrace this change and ship a Docker Desktop for Windows version that runs on WSL 2. In this blog, I’ll show you an example of how to develop Docker-powered applications using the Docker Desktop WSL 2 Tech Preview.",
   "link": "https://chanhi2000.github.io/bookshelf/docker.com/developing-docker-windows-app-wsl2.html",
   "logo": "https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png",

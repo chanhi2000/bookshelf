@@ -16,7 +16,7 @@ export const navbarEn = navbar([
       }, {
         text: 'freecodecamp.org',
         icon: 'https://cdn.freecodecamp.org/universal/favicons/favicon.ico',
-        link: '/freecodecamp.org/README.md'
+        link: '/fcc/README.md'
       }, {
         text: 'kodeco.com',
         icon: 'https://kodeco.com/favicon.ico',
