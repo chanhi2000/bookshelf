@@ -71,7 +71,7 @@ Then click on the Save button in the top right corner to generate your API key. 
 
 ## Set User Roles and Permissions
 
-You’ll also need to set the user roles and permissions using the [<FontIcon icon="iconfont icon-strapi"/>User and Permission Plugin](https://docs.strapi.io/dev-docs/plugins/users-permissions). It allows you to manage what both authenticated and non-authenticated users can do in your application.
+You’ll also need to set the user roles and permissions using the [<VPIcon icon="iconfont icon-strapi"/>User and Permission Plugin](https://docs.strapi.io/dev-docs/plugins/users-permissions). It allows you to manage what both authenticated and non-authenticated users can do in your application.
 
 Head to the Settings section of the dashboard and go to Roles under the User and Permission plugin.
 

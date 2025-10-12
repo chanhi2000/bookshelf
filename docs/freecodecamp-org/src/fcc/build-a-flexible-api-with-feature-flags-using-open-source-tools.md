@@ -59,9 +59,9 @@ To understand things more deeply, we will build an app from scratch, look at fea
 
 ::: note Prerequisites
 
-- [<FontIcon icon="fa-brands fa-golang"/>Golang](https://go.dev/) installed and a medium-level understanding of it.
-- A running [<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io) instance (Remote or local instance)
-- [<FontIcon icon="fas fa-globe"/>Flagsmith](https://flagsmith.com/) Account (It’s Free. We will cover this later in the article.)
+- [<VPIcon icon="fa-brands fa-golang"/>Golang](https://go.dev/) installed and a medium-level understanding of it.
+- A running [<VPIcon icon="iconfont icon-redis"/>Redis](https://redis.io) instance (Remote or local instance)
+- [<VPIcon icon="fas fa-globe"/>Flagsmith](https://flagsmith.com/) Account (It’s Free. We will cover this later in the article.)
 
 :::
 
@@ -85,7 +85,7 @@ To demonstrate this, we will go through building a demo app. The demo app is cur
 
 ## Why Use Open Source Tools?
 
-We will be using open source tools to build this app (Golang, [<FontIcon icon="iconfont icon-redis"/>Redis](https://redis.io/), and [<FontIcon icon="fas fa-globe"/>Flagsmith](https://flagsmith.com/)). Open source brings more transparency and trust and encourages collaboration with the global community of backend developers.
+We will be using open source tools to build this app (Golang, [<VPIcon icon="iconfont icon-redis"/>Redis](https://redis.io/), and [<VPIcon icon="fas fa-globe"/>Flagsmith](https://flagsmith.com/)). Open source brings more transparency and trust and encourages collaboration with the global community of backend developers.
 
 By integrating open source tools, we get full visibility as we build and test. For example, we will integrate feature flags with GitHub, which lets us track the lifecycle of a feature by linking a Flagsmith feature flag with a GitHub Pull Request or Issue. This lets us stay updated with the changes to our features without having to manually track each modification. We can easily track the status of our features across different environments.
 
@@ -95,7 +95,7 @@ By integrating open source tools, we get full visibility as we build and test. F
 
 In this tutorial, you’ll see how the functionality of an app changes before and after testing with feature flagging mechanisms. The tools and frameworks we’ll use are Golang, Docker, Redis, Flagsmith, and GitHub. As discussed, all are open source and free to create an account to test.
 
-To get started, open your favourite IDE, initialize a Golang project, and then copy the below code in the <FontIcon icon="fa-brands fa-golang"/>`main.go` file. Then run `go mod tidy` to install all the dependencies it needs.
+To get started, open your favourite IDE, initialize a Golang project, and then copy the below code in the <VPIcon icon="fa-brands fa-golang"/>`main.go` file. Then run `go mod tidy` to install all the dependencies it needs.
 
 Let’s understand what’s going on in the below code snippet:
 
@@ -211,7 +211,7 @@ At the top, we declare variables to store Redis and Rate limiter clients to reus
 
 In `main()`, first, we load the environment variables from the system or the .env file. Then we call `initClients()`. This will create clients and store them in the variables we created.
 
-Next, we create a **Gin** router that handles all our incoming requests. These are the environment variables we need in our <FontIcon icon="iconfont icon-file-lines"/>`.env` file. For this demo, we need a Redis instance running to store all the data for rate-limiting functionality. We can use Docker or any remote machine - just remember to update `REDIS_URL` accordingly. I am going to use Docker.
+Next, we create a **Gin** router that handles all our incoming requests. These are the environment variables we need in our <VPIcon icon="iconfont icon-file-lines"/>`.env` file. For this demo, we need a Redis instance running to store all the data for rate-limiting functionality. We can use Docker or any remote machine - just remember to update `REDIS_URL` accordingly. I am going to use Docker.
 
 We could also go a mile ahead and get all the environment variables from the feature flags, but we won’t do this here.
 
@@ -254,7 +254,7 @@ Apart from the `/ping` endpoint, we have another endpoint `/beta`. It returns a 
 
 ### How to Add Feature Flagging
 
-Now it’s time to add feature flagging capabilities to our app. We are going to use [<FontIcon icon="fas fa-globe"/>Flagsmith](https://flagsmith.com/). Flagsmith is an open source software that lets us easily create and manage feature flags across web, mobile, and server-side applications.
+Now it’s time to add feature flagging capabilities to our app. We are going to use [<VPIcon icon="fas fa-globe"/>Flagsmith](https://flagsmith.com/). Flagsmith is an open source software that lets us easily create and manage feature flags across web, mobile, and server-side applications.
 
 Using Flagsmith, we can wrap features in a flag and then toggle them on or off for different environments, users, or user segments. And then you’ll be able to manage all of them from the Flagsmith dashboard without needing to redeploy.
 
@@ -438,11 +438,11 @@ FLAGSMITH_ENVIRONMENT_KEY=ser.ZRd***********469
 
 ### How to Create Feature Flags in the Flasgsmith Dashboard
 
-Let’s head to the Flagsmith dashboard to create the flags we used above and get the access key. If you don’t have a Flagsmith account you can sign up for free [<FontIcon icon="fas fa-globe"/>here](https://app.flagsmith.com/signup).
+Let’s head to the Flagsmith dashboard to create the flags we used above and get the access key. If you don’t have a Flagsmith account you can sign up for free [<VPIcon icon="fas fa-globe"/>here](https://app.flagsmith.com/signup).
 
 After you sign up you will be prompted to create an organisation and a project. Project separation is good, as it helps us isolate logic for different projects. Once you are done, you will see a dashboard, just like the screenshot below.
 
-We have loads of functionalities from integrations to scheduling the flags to compare the changes. Apart from Go, Flagsmith provides many [<FontIcon icon="fas fa-globe"/>SDKs](https://docs.flagsmith.com/clients/). You can click on where the language name is written and it will give you some boilerplate code for that language.
+We have loads of functionalities from integrations to scheduling the flags to compare the changes. Apart from Go, Flagsmith provides many [<VPIcon icon="fas fa-globe"/>SDKs](https://docs.flagsmith.com/clients/). You can click on where the language name is written and it will give you some boilerplate code for that language.
 
 ![Screenshot of a web interface labeled "Features" for managing feature flags and remote config. It includes examples of Go code for installing the SDK and initializing a project, with options to test API values. There are buttons and tabs for navigation and settings.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730544211942/57f3651f-b62a-4b8f-beb7-4320ef0e0a8e.png)
 
@@ -466,7 +466,7 @@ Let’s now create a second, `beta` feature flag. It will be the same process as
 
 ### Getting the Access Key
 
-To get the Access Key, click on the **SDK Keys** from the sidebar, and click the **Create Server-side Environment Key** button to generate a key. As our app is server-side, it’s good to use that one only. Then copy and paste that key into the value placed in <FontIcon icon="fas fa-lines"/>`.env` for the `FLAGSMITH_ENVIRONMENT_KEY` key.
+To get the Access Key, click on the **SDK Keys** from the sidebar, and click the **Create Server-side Environment Key** button to generate a key. As our app is server-side, it’s good to use that one only. Then copy and paste that key into the value placed in <VPIcon icon="fas fa-lines"/>`.env` for the `FLAGSMITH_ENVIRONMENT_KEY` key.
 
 ![Screenshot of a software interface showing "Client-side Environment Key" and "Server-side Environment Keys" sections. A button labeled "Create Server-side Environment Key" is displayed prominently. The sidebar menu includes options like "SDK Keys" and "Environment Settings."](https://cdn.hashnode.com/res/hashnode/image/upload/v1730544280780/fc37cb29-3069-4e2f-b35b-eea7632c47cd.png)
 
@@ -502,7 +502,7 @@ Now that we’ve set up the functionality and demoed the feature flagging capabi
 
 ### How to Integrate Feature Flags with the GitHub App
 
-First, make sure you have pushed your app to GitHub. After that, install the GitHub Flasgsmith App on your repo from the [<FontIcon icon="iconfont icon-github"/>GitHub Marketplace](https://github.com/apps/flagsmith).
+First, make sure you have pushed your app to GitHub. After that, install the GitHub Flasgsmith App on your repo from the [<VPIcon icon="iconfont icon-github"/>GitHub Marketplace](https://github.com/apps/flagsmith).
 
 By integrating GitHub and Falagsmith, we can view updates on your feature flags/features as comments in GitHub Issues and Pull Requests. This allows us to easily track features, from creating an issue to merging a PR and deploying the changes.
 
@@ -544,9 +544,9 @@ To sum it up, you now know how you can leverage feature flags as a backend devel
 
 To take things to the next level, we integrated our demo app with the Flagsmith GitHub app so it could stay updated with the changes to our feature flags’ status on Pull Requests/Issues without having to manually update them.
 
-Check out the Flagsmith [repo here (<FontIcon icon="iconfont icon-github"/>`Flagsmith/flagsmith`)](https://github.com/Flagsmith/flagsmith) and don't forget to give each of these projects a star to show your support. You can also join their amazing [<FontIcon icon="fa-brands fa-discord"/>community](https://discord.com/invite/hFhxNtXzgm) to get technical support.
+Check out the Flagsmith [repo here (<VPIcon icon="iconfont icon-github"/>`Flagsmith/flagsmith`)](https://github.com/Flagsmith/flagsmith) and don't forget to give each of these projects a star to show your support. You can also join their amazing [<VPIcon icon="fa-brands fa-discord"/>community](https://discord.com/invite/hFhxNtXzgm) to get technical support.
 
-You can connect with me - Pradumna Saraf, on socials [<FontIcon icon="fas fa-globe"/>here](https://links.pradumnasaraf.dev/).
+You can connect with me - Pradumna Saraf, on socials [<VPIcon icon="fas fa-globe"/>here](https://links.pradumnasaraf.dev/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

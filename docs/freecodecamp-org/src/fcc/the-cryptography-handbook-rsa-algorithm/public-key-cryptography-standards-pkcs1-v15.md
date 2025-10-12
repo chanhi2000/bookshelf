@@ -158,4 +158,4 @@ $$
 
 This property which makes the range predictable, paved the way for the Bleichenbacher attack (also known as the “padding oracle” attack). If a system reveals whether a decrypted block is “correctly padded,” an attacker can systematically probe different ciphertexts and narrow down the plaintext - because the attacker knows it must lie in that narrow range. Let’s take a detailed look at the Bleichenbacher attack in the next sections and understand how the exploit works.
 
-[^1]: RFC 2313: [<FontIcon icon="fas fa-globe"/>PKCS #1: RSA Encryption](https://rfc-editor.org/rfc/rfc2313.html)
+[^1]: RFC 2313: [<VPIcon icon="fas fa-globe"/>PKCS #1: RSA Encryption](https://rfc-editor.org/rfc/rfc2313.html)

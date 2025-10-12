@@ -136,12 +136,12 @@ If DevOps feels out of reach because you’re also concerned about the cost, don
 
 | **Tool** | Purpose | Installation Link |
 | ---: | --- | --- |
-| **Git** | Version control | [<FontIcon icon="iconfont icon-git"/>Install Git](https://git-scm.com/downloads) |
-| **Docker** | Containerization | [<FontIcon icon="fa-brands fa-docker"/>Install Docker](https://docs.docker.com/get-docker/) |
-| **Node.js & npm** | Sample app & builds | [<FontIcon icon="fa-brands fa-node"/>Install Node.js](https://nodejs.org/) |
-| **Terraform** | Infrastructure as Code | [<FontIcon icon="iconfont icon-terraform"/>Install Terraform](https://terraform.io/downloads) |
-| `kubectl` | Kubernetes CLI | [<FontIcon icon="iconfont icon-k8s"/>Install `kubectl`](https://kubernetes.io/docs/tasks/tools/) |
-| `k3d` | Lightweight Kubernetes | [<FontIcon icon="fas fa-globe"/>Install k3d](https://k3d.io/) |
+| **Git** | Version control | [<VPIcon icon="iconfont icon-git"/>Install Git](https://git-scm.com/downloads) |
+| **Docker** | Containerization | [<VPIcon icon="fa-brands fa-docker"/>Install Docker](https://docs.docker.com/get-docker/) |
+| **Node.js & npm** | Sample app & builds | [<VPIcon icon="fa-brands fa-node"/>Install Node.js](https://nodejs.org/) |
+| **Terraform** | Infrastructure as Code | [<VPIcon icon="iconfont icon-terraform"/>Install Terraform](https://terraform.io/downloads) |
+| `kubectl` | Kubernetes CLI | [<VPIcon icon="iconfont icon-k8s"/>Install `kubectl`](https://kubernetes.io/docs/tasks/tools/) |
+| `k3d` | Lightweight Kubernetes | [<VPIcon icon="fas fa-globe"/>Install k3d](https://k3d.io/) |
 | Trivy | Container security scanning | [**Install Trivy**](https://aquasecurity.github.io/trivy/v0.18.3/) |
 | OWASP ZAP | Web security scanning | [**Install ZAP**](https://zaproxy.org/download/) |
 
@@ -149,7 +149,7 @@ If DevOps feels out of reach because you’re also concerned about the cost, don
 
 ::: note Optional but Helpful:
 
-- [<FontIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/) or any good code editor
+- [<VPIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/) or any good code editor
 - Postman for testing APIs
 - Understanding of YAML and Dockerfiles
 
@@ -188,11 +188,11 @@ A clean repo is the foundation of your pipeline. We will set up:
 
 - Separate folders for `frontend`, `backend`, and `infrastructure`
 - A `.github` folder to hold workflow configurations
-- Clear naming conventions and a well-written <FontIcon icon="fa-brands fa-markdown"/>`README.md`
+- Clear naming conventions and a well-written <VPIcon icon="fa-brands fa-markdown"/>`README.md`
 
 ::: tip
 
-Use semantic commit messages and consider adopting [<FontIcon icon="fas fa-globe"/>Conventional Commits](https://conventionalcommits.org/) for clarity in versioning and changelogs.
+Use semantic commit messages and consider adopting [<VPIcon icon="fas fa-globe"/>Conventional Commits](https://conventionalcommits.org/) for clarity in versioning and changelogs.
 
 :::
 
@@ -238,7 +238,7 @@ This setup lays the groundwork for GitOps practices later on.
 
 ### 5. Advanced Technique: Set Up Custom Validation Scripts as Pre-Commit Hooks
 
-Before code ever hits GitHub, you can catch issues locally with Git hooks. Using a tool like [<FontIcon icon="fas fa-globe"/>Husky](https://typicode.github.io/husky/) or [<FontIcon icon="fas fa-globe"/>pre-commit](https://pre-commit.com/), you can:
+Before code ever hits GitHub, you can catch issues locally with Git hooks. Using a tool like [<VPIcon icon="fas fa-globe"/>Husky](https://typicode.github.io/husky/) or [<VPIcon icon="fas fa-globe"/>pre-commit](https://pre-commit.com/), you can:
 
 - Lint code before it's committed
 - Run tests or formatters automatically
@@ -255,7 +255,7 @@ npx husky add .husky/pre-commit "npm test"
 
 Our CRUD app manages users (create, read, update, delete). Below is the minimal code with comments to explain each part:
 
-#### Backend (<FontIcon icon="fas fa-folder-open"/>`backend/`)
+#### Backend (<VPIcon icon="fas fa-folder-open"/>`backend/`)
 
 ```json title="backend/package.json"
 {
@@ -306,7 +306,7 @@ app.post('/users', async (req, res) => {
 app.listen(3000, () => console.log('Backend running on port 3000'));
 ```
 
-#### Frontend (<FontIcon icon="fas fa-folder-open"/>`frontend/`):
+#### Frontend (<VPIcon icon="fas fa-folder-open"/>`frontend/`):
 
 ```json title="frontend/package.json"
 {
@@ -403,7 +403,7 @@ This app provides a `/users` endpoint (GET/POST) and a frontend to list/add user
 
 First, let’s create a basic workflow that automatically builds, tests, and lints your app every time you push code or open a pull request. This ensures your app stays healthy and any issues are caught early.
 
-Create a file at <FontIcon icon="fas fa-folder-open"/>`.github/workflows/`<FontIcon icon="iconfont icon-yaml"/>`ci.yml` and add the following:
+Create a file at <VPIcon icon="fas fa-folder-open"/>`.github/workflows/`<VPIcon icon="iconfont icon-yaml"/>`ci.yml` and add the following:
 
 ```yaml :collapsed-lines title=".github/workflows/ci.yml"
 # CI workflow to build, test, and lint the CRUD app on push or pull request
@@ -432,12 +432,12 @@ jobs:
       - run: npm run lint # Run ESLint to ensure code quality
 ```
 
-This workflow automatically runs on every push and pull request to the <FontIcon icon="fas fa-code-branch"/>`main` branch. It installs dependencies, runs tests, and performs code linting, with dependency caching to make builds faster over time.
+This workflow automatically runs on every push and pull request to the <VPIcon icon="fas fa-code-branch"/>`main` branch. It installs dependencies, runs tests, and performs code linting, with dependency caching to make builds faster over time.
 
 ::: tip Common Issues and Fixes
 
 - **“Secret not found”**: Ensure `AWS_ACCESS_KEY_ID` is in repository secrets (Settings → Secrets).
-- **Tests fail**: Check <FontIcon icon="fas fa-folder-open"/>`test/`<FontIcon icon="fa-brands fa-js"/>`users.test.js` for database connectivity.
+- **Tests fail**: Check <VPIcon icon="fas fa-folder-open"/>`test/`<VPIcon icon="fa-brands fa-js"/>`users.test.js` for database connectivity.
 
 :::
 
@@ -450,7 +450,7 @@ If you are working on private repositories, you get 2,000 free minutes per month
 To avoid hitting limits quickly:
 
 - Cache your dependencies to cut down install times.
-- Only trigger workflows on meaningful branches (like <FontIcon icon="fas fa-code-branch"/>`main` or <FontIcon icon="fas fa-code-branch"/>`release`).
+- Only trigger workflows on meaningful branches (like <VPIcon icon="fas fa-code-branch"/>`main` or <VPIcon icon="fas fa-code-branch"/>`release`).
 - Skip unnecessary steps when you can.
 
 ### 2. Creating a Multi-Stage Build Pipeline
@@ -580,7 +580,7 @@ This approach keeps your production images lightweight and secure by excluding u
 
 ### 3. Optimizing Layer Caching
 
-For even faster builds, order your <FontIcon icon="fa-brands fa-docker"/>`Dockerfile` instructions to maximize layer caching. Copy and install dependencies *before* copying your full source code.
+For even faster builds, order your <VPIcon icon="fa-brands fa-docker"/>`Dockerfile` instructions to maximize layer caching. Copy and install dependencies *before* copying your full source code.
 
 This way, Docker reuses the cached npm install step if your dependencies haven't changed, even if you edit your app's code:
 
@@ -663,7 +663,7 @@ This resource block describes exactly how your app should be deployed. Whenever 
 
 #### Provision PostgreSQL for Free
 
-Most applications need a database, but you don't have to pay for one when you're getting started. Platforms like [<FontIcon icon="fas fa-globe"/>Railway](https://railway.app/) offer free tiers that are perfect for development and small projects.
+Most applications need a database, but you don't have to pay for one when you're getting started. Platforms like [<VPIcon icon="fas fa-globe"/>Railway](https://railway.app/) offer free tiers that are perfect for development and small projects.
 
 You can quickly create a free PostgreSQL instance by signing up on the platform and clicking **"Create New Project"**. At the end, you'll get a `DATABASE_URL` a connection string that your app will use to talk to the database.
 
@@ -1371,11 +1371,11 @@ By following along with this tutorial, you now know how to build a production-re
 - **Monitoring**: Grafana, Prometheus, UptimeRobot.
 - **Security**: CodeQL, OWASP ZAP, Trivy for vulnerability scanning.
 
-This pipeline is scalable and secure, and it’s perfect for small projects. As your app grows, you might want to consider paid plans for more resources (for example, AWS larger instances, Grafana unlimited metrics). You can check [<FontIcon icon="fa-brands fa-aws"/>AWS Free Tier](https://aws.amazon.com/free/), [<FontIcon icon="iconfont icon-terraform"/>Terraform Docs](https://developer.hashicorp.com/terraform/docs), and [<FontIcon icon="iconfont icon-grafana"/>Grafana Docs](https://grafana.com/docs/) for more learning.
+This pipeline is scalable and secure, and it’s perfect for small projects. As your app grows, you might want to consider paid plans for more resources (for example, AWS larger instances, Grafana unlimited metrics). You can check [<VPIcon icon="fa-brands fa-aws"/>AWS Free Tier](https://aws.amazon.com/free/), [<VPIcon icon="iconfont icon-terraform"/>Terraform Docs](https://developer.hashicorp.com/terraform/docs), and [<VPIcon icon="iconfont icon-grafana"/>Grafana Docs](https://grafana.com/docs/) for more learning.
 
 ::: note PS
 
-I’d love to see what you build. Share your pipeline on [<FontIcon icon="fa-brands fa-free-code-camp"/>FreeCodeCamp’s forum](https://forum.freecodecamp.org/) or tag me on X [<FontIcon icon="fa-brands fa-x-twitter"/>`@Emidowojo`](https://x.com/Emidowojo) with #DevOpsOnABudget, and tell me about the challenges you faced. You can also connect with me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`emidowojo`)](https://linkedin.com/in/emidowojo/) if you’d like to stay in touch. If you made it to the end of this lengthy article, thanks for reading!
+I’d love to see what you build. Share your pipeline on [<VPIcon icon="fa-brands fa-free-code-camp"/>FreeCodeCamp’s forum](https://forum.freecodecamp.org/) or tag me on X [<VPIcon icon="fa-brands fa-x-twitter"/>`@Emidowojo`](https://x.com/Emidowojo) with #DevOpsOnABudget, and tell me about the challenges you faced. You can also connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`emidowojo`)](https://linkedin.com/in/emidowojo/) if you’d like to stay in touch. If you made it to the end of this lengthy article, thanks for reading!
 
 :::
 

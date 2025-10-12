@@ -142,7 +142,7 @@ This confirms that the packages have been successfully installed.
 
 Now let's create our database context.
 
-In the AppContext folder, create a new file named <FontIcon icon="iconfont icon-csharp"/>`ApplicationContext.cs` and add the following code:
+In the AppContext folder, create a new file named <VPIcon icon="iconfont icon-csharp"/>`ApplicationContext.cs` and add the following code:
 
 ```cs title="AppContext/ApplicationContext.cs"
 using bookapi_minimal.Models;
@@ -191,9 +191,9 @@ An extension method is a static method that adds new functionality to an existin
 
 Services are components that provide functionality to an application, such as database access, logging, and configuration. By creating an extension method for the `IServiceCollection` interface, you can simplify the process of registering your services in the dependency injection container.
 
-Instead of putting everything in the <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file, we will create an extension method to register our services in the dependency injection container. This will help us keep our code clean and organized.
+Instead of putting everything in the <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file, we will create an extension method to register our services in the dependency injection container. This will help us keep our code clean and organized.
 
-In the <FontIcon icon="fas fa-foler-open"/>`Extensions` folder, create a new file named <FontIcon icon="iconfont icon-csharp"/>`ServiceExtensions.cs` and add the following code:
+In the <VPIcon icon="fas fa-foler-open"/>`Extensions` folder, create a new file named <VPIcon icon="iconfont icon-csharp"/>`ServiceExtensions.cs` and add the following code:
 
 ```cs title="Extensions/ServiceExtensions.cs"
 using System.Reflection;
@@ -227,10 +227,10 @@ Let's break down the code above:
 
 - We define a static class named `ServiceExtensions` that contains an extension method named `AddApplicationServices`. This method extends the `IHostApplicationBuilder` interface, which is used to configure the application's request processing pipeline.
 - The `AddApplicationServices` method accepts an instance of `IHostApplicationBuilder` as a parameter. This parameter is used to access the application's configuration and services.
-- We add the `ApplicationContext` to the dependency injection container and configure it to use SQL Server as the database provider. We retrieve the connection string from the <FontIcon icon="iconfont icon-json"/>`appsettings.json` file using the `GetConnectionString` method.
+- We add the `ApplicationContext` to the dependency injection container and configure it to use SQL Server as the database provider. We retrieve the connection string from the <VPIcon icon="iconfont icon-json"/>`appsettings.json` file using the `GetConnectionString` method.
 - We add `validators` from the current `assembly` using the `AddValidatorsFromAssembly` method. This method scans the current assembly for classes that implement the IValidator interface and registers them in the dependency injection container.
 
-Next, we need to add the connection string to the <FontIcon icon="iconfont icon-json"/>`appsettings.json` file. Add the following code to your <FontIcon icon="iconfont icon-json"/>`appsettings.json` file:
+Next, we need to add the connection string to the <VPIcon icon="iconfont icon-json"/>`appsettings.json` file. Add the following code to your <VPIcon icon="iconfont icon-json"/>`appsettings.json` file:
 
 ```json title="appsettings.json"
 { 
@@ -242,7 +242,7 @@ Next, we need to add the connection string to the <FontIcon icon="iconfont icon-
 
 Make sure to replace `your_password` it with your actual SQL Server password.
 
-Your <FontIcon icon="iconfont icon-json"/>`appsettings.json` file should look like this:
+Your <VPIcon icon="iconfont icon-json"/>`appsettings.json` file should look like this:
 
 ```json title="appsettings.json"
 {

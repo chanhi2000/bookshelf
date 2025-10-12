@@ -222,15 +222,15 @@ Getting your first SaaS customers isn’t about being perfect. It’s about gett
 
 And keep improving a little every day.
 
-If you need a hand with SaaS marketing or growing your idea, I’m always happy to connect. You can find me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`_udemezue`)](https://x.com/_udemezue), or check out my portfolio: [<FontIcon icon="fas fa-globe"/>Udemezue.pages.dev](https://udemezue.pages.dev).
+If you need a hand with SaaS marketing or growing your idea, I’m always happy to connect. You can find me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`_udemezue`)](https://x.com/_udemezue), or check out my portfolio: [<VPIcon icon="fas fa-globe"/>Udemezue.pages.dev](https://udemezue.pages.dev).
 
 ::: info Further Resources
 
 If you want to dive deeper, check out:
 
-- [<FontIcon icon="fas fa-globe"/>The Mom Test (book)](https://momtestbook.com/) — How to talk to customers and get honest feedback.
-- [<FontIcon icon="fas fa-globe"/>Indie Hackers](https://indiehackers.com/) — A community where founders share how they got their first users.
-- [<FontIcon icon="fas fa-globe"/>First 1000 Users Guide (from Demand Curve)](https://demandcurve.com/) — Very detailed but still easy to follow.
+- [<VPIcon icon="fas fa-globe"/>The Mom Test (book)](https://momtestbook.com/) — How to talk to customers and get honest feedback.
+- [<VPIcon icon="fas fa-globe"/>Indie Hackers](https://indiehackers.com/) — A community where founders share how they got their first users.
+- [<VPIcon icon="fas fa-globe"/>First 1000 Users Guide (from Demand Curve)](https://demandcurve.com/) — Very detailed but still easy to follow.
 
 :::
 

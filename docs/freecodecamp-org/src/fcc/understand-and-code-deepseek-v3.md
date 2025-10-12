@@ -62,7 +62,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743528561674/7a60918
 
 DeepSeek V3 is a cutting-edge large language model. It leverages sophisticated techniques like a unique Multi-Head Latent Attention mechanism and a Mixture of Experts architecture for enhanced efficiency and capability. Understanding this model provides valuable insights into the latest advancements shaping the future of artificial intelligence.
 
-We've just launched a brand-new, in-depth course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you to understand & Code DeepSeek V3 From Scratch. Taught by Vuk Rosić of Beam.AI, this comprehensive course dives into one of the latest advancements in large language models.
+We've just launched a brand-new, in-depth course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you to understand & Code DeepSeek V3 From Scratch. Taught by Vuk Rosić of Beam.AI, this comprehensive course dives into one of the latest advancements in large language models.
 
 DeepSeek V3 has quickly gained attention, positioned as a top-performing non-reasoning model. This course offers a unique opportunity to truly understand its inner workings.
 
@@ -85,7 +85,7 @@ Throughout the course, Vuk emphasizes not just *what* these components do, but *
 
 If you're ready to deepen your understanding of state-of-the-art language models and gain hands-on experience, this course is for you.
 
-Head over to [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/5avSMc79V-w) now to watch the full course (4-hour watch).
+Head over to [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/5avSMc79V-w) now to watch the full course (4-hour watch).
 
 <VidStack src="youtube/5avSMc79V-w" />
 

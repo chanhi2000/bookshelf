@@ -54,7 +54,7 @@ If you were to glance at the folder structure of your system, could you tell wha
 
 Your architecture should communicate what problems it solves. Organizing your system around use cases leads to a structure aligned with the business domain. This approach is called **screaming architecture**.
 
-[<FontIcon icon="fas fa-globe"/>Screaming architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html) is a term coined by Robert Martin (Uncle Bob). He argues that a software system's structure should communicate what the system is about. He draws a parallel between looking at a blueprint for a building, where you can tell the purpose of the building based on the blueprint.
+[<VPIcon icon="fas fa-globe"/>Screaming architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html) is a term coined by Robert Martin (Uncle Bob). He argues that a software system's structure should communicate what the system is about. He draws a parallel between looking at a blueprint for a building, where you can tell the purpose of the building based on the blueprint.
 
 In this article, I want to show some practical examples and discuss the benefits of screaming architecture.
 
@@ -123,7 +123,7 @@ The benefits of organizing our system around use cases are:
 
 ## Bounded Contexts and Vertical Slices
 
-We have many techniques for discovering the high-level modules within our system. For example, we could use [<FontIcon icon="fas fa-globe"/>event storming](https://eventstorming.com/) to explore the system's use cases. Domain exploration happens before we write a single line of code.
+We have many techniques for discovering the high-level modules within our system. For example, we could use [<VPIcon icon="fas fa-globe"/>event storming](https://eventstorming.com/) to explore the system's use cases. Domain exploration happens before we write a single line of code.
 
 The next step is decomposing the larger problem domain into smaller sub-domains and later bounded contexts. This gives us loosely coupled high-level modules that we can translate into code.
 

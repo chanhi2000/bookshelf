@@ -130,9 +130,9 @@ Different from global installation, this command installs TypeScript as a develo
 
 Organizing a TypeScript project involves structuring its files with meaningful names and directories, separating concerns, and using modules for encapsulation and reusability.
 
-The <FontIcon icon="iconfont icon-typescript"/>`.ts` extension denotes typeScript files and contains code that converts into JavaScript for execution.
+The <VPIcon icon="iconfont icon-typescript"/>`.ts` extension denotes typeScript files and contains code that converts into JavaScript for execution.
 
-TypeScript also supports <FontIcon icon="iconfont icon-typescript"/>`.d.ts` files, also known as type definition files. These files offer type information about external JavaScript libraries or modules, aiding in better type-checking and code completion as well as improving development efficiency. Below is an example of a good TS project structure:
+TypeScript also supports <VPIcon icon="iconfont icon-typescript"/>`.d.ts` files, also known as type definition files. These files offer type information about external JavaScript libraries or modules, aiding in better type-checking and code completion as well as improving development efficiency. Below is an example of a good TS project structure:
 
 ```plaintext :collapsed-lines title="file structure"
 my-ts-project/
@@ -165,16 +165,16 @@ my-ts-project/
 
 Let’s understand what’s going on here:
 
-1. <FontIcon icon="fas fa-folder-open"/>`src/`: This directory houses all the source code for the project.
-    - <FontIcon icon="fas fa-folder-open"/>`components/`: Contains reusable UI components (for example, `Button`, `Input`, `Modal`). Using `.tsx` (TypeScript JSX) allows you to write JSX with type safety.
-    - <FontIcon icon="fas fa-folder-open"/>`services/`: Holds services that interact with external APIs or handle application logic (for example, `api.ts` for API calls, `authService.ts` for authentication).
-    - <FontIcon icon="fas fa-folder-open"/>`utils/`: Contains helper functions and utility classes for common tasks (for example, `helpers.ts` for date formatting, `validators.ts` for input validation).
-    - <FontIcon icon="fas fa-folder-open"/>`models/`: Defines TypeScript interfaces or classes to represent data structures (for example, `User.ts`, `Product.ts`).
-    - <FontIcon icon="fa-brands fa-react"/>`index.tsx`: The main entry point of the application.
-    - <FontIcon icon="fas fa-folder-open"/>`styles/`: Contains CSS or other styling files.
-2. <FontIcon icon="fas fa-folder-open"/>`public/`: This directory contains static assets that are not processed by TypeScript (for example, HTML, images, fonts).
-3. <FontIcon icon="iconfont icon-json"/>`tsconfig.json`: The TypeScript configuration file, specifying compiler options.
-4. <FontIcon icon="iconfont icon-json"/>`package.json`: The project's manifest file, listing dependencies, scripts, and other project metadata.
+1. <VPIcon icon="fas fa-folder-open"/>`src/`: This directory houses all the source code for the project.
+    - <VPIcon icon="fas fa-folder-open"/>`components/`: Contains reusable UI components (for example, `Button`, `Input`, `Modal`). Using `.tsx` (TypeScript JSX) allows you to write JSX with type safety.
+    - <VPIcon icon="fas fa-folder-open"/>`services/`: Holds services that interact with external APIs or handle application logic (for example, `api.ts` for API calls, `authService.ts` for authentication).
+    - <VPIcon icon="fas fa-folder-open"/>`utils/`: Contains helper functions and utility classes for common tasks (for example, `helpers.ts` for date formatting, `validators.ts` for input validation).
+    - <VPIcon icon="fas fa-folder-open"/>`models/`: Defines TypeScript interfaces or classes to represent data structures (for example, `User.ts`, `Product.ts`).
+    - <VPIcon icon="fa-brands fa-react"/>`index.tsx`: The main entry point of the application.
+    - <VPIcon icon="fas fa-folder-open"/>`styles/`: Contains CSS or other styling files.
+2. <VPIcon icon="fas fa-folder-open"/>`public/`: This directory contains static assets that are not processed by TypeScript (for example, HTML, images, fonts).
+3. <VPIcon icon="iconfont icon-json"/>`tsconfig.json`: The TypeScript configuration file, specifying compiler options.
+4. <VPIcon icon="iconfont icon-json"/>`package.json`: The project's manifest file, listing dependencies, scripts, and other project metadata.
 
 Just a quick note about naming conventions so you understand them here:
 
@@ -325,11 +325,11 @@ typescriptCopyEditlet status: boolean | string | { success: boolean; data: any }
 
 To master TypeScript, you must understand the various data types supported in TypeScript and how and when to use them.
 
-The [<FontIcon icon="fa-brands fa-firefox"/>JavaScript primitive types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values) such as *strings*, *numbers*, *booleans*, and more also define the fundamental building blocks of data in TypeScript. But in particular, `Objects`, `Arrays`, and `Functions` are essential for building robust applications. With objects, arrays, and functions, you can better handle data and use them efficiently in development.
+The [<VPIcon icon="fa-brands fa-firefox"/>JavaScript primitive types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values) such as *strings*, *numbers*, *booleans*, and more also define the fundamental building blocks of data in TypeScript. But in particular, `Objects`, `Arrays`, and `Functions` are essential for building robust applications. With objects, arrays, and functions, you can better handle data and use them efficiently in development.
 
 ### Object Types in TypeScript
 
-Object types represent the blueprint for creating objects in TypeScript. You can use objects to define their shape, similar to how [<FontIcon icon="fa-brands fa-firefox"/>classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are used in **object-oriented programming (OOP)**. But objects lack the behavioral aspects and encapsulation that classes offer.
+Object types represent the blueprint for creating objects in TypeScript. You can use objects to define their shape, similar to how [<VPIcon icon="fa-brands fa-firefox"/>classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are used in **object-oriented programming (OOP)**. But objects lack the behavioral aspects and encapsulation that classes offer.
 
 To define an object type, explicitly define the object's blueprint after the colon(`:`). For Example:
 
@@ -825,7 +825,7 @@ By understanding these merging techniques and their implications, you can struct
 
 Not every browser supports the latest JavaScript used by TypeScript. So you can use the **TypeScript compiler**, or `tsc`, to convert TypeScript code (.ts files) into conventional JavaScript (.js files) that’s universally compatible with all browsers. `tsc` translates TypeScript-specific elements like types and classes into JavaScript code that browsers can interpret.
 
-To execute TypeScript files, `tsc` is your go-to. You can install `tsc` using npm and then transform your .ts files into .js files. To use `tsc`, just specify the name of the TypeScript file before the `tsc` command. For instance, if you have a file named <FontIcon icon="iconfont icon-typescript"/>`app.ts`, you can run it by typing:
+To execute TypeScript files, `tsc` is your go-to. You can install `tsc` using npm and then transform your .ts files into .js files. To use `tsc`, just specify the name of the TypeScript file before the `tsc` command. For instance, if you have a file named <VPIcon icon="iconfont icon-typescript"/>`app.ts`, you can run it by typing:
 
 ```sh
 tsc app.ts

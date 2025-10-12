@@ -83,7 +83,7 @@ The **policyId** is a unique identifier for the policy. The **resource** specifi
 
 As you can see, the conditions in the policies are in a TypeScript-like, human-readable format. This is because they are written using Google's **Common Expression Language (CEL)**.
 
-CEL is an open-source, platform-independent language that is fast and safe for executing user-defined expressions ([<FontIcon icon="fas fa-globe"/>unlike `eval()`](https://owasp.org/www-community/attacks/Direct_Dynamic_Code_Evaluation_Eval%20Injection), especially on the server-side). Its performance is enhanced because CEL is compiled once into an abstract syntax tree, which is then used to evaluate against multiple inputs in nanoseconds or microseconds.
+CEL is an open-source, platform-independent language that is fast and safe for executing user-defined expressions ([<VPIcon icon="fas fa-globe"/>unlike `eval()`](https://owasp.org/www-community/attacks/Direct_Dynamic_Code_Evaluation_Eval%20Injection), especially on the server-side). Its performance is enhanced because CEL is compiled once into an abstract syntax tree, which is then used to evaluate against multiple inputs in nanoseconds or microseconds.
 
 Let’s redefine the structure as follows:
 
@@ -146,7 +146,7 @@ Here’s why:
   logo="https://c.staticblitz.com/assets/favicon_sb-4f3d9011b264e56e3f61cf6612c50dd3b8fcae038843ba2d10c8d0b6194d19d6.png"
   preview="https://social-img.staticblitz.com/projects/github-b9k23yjf-kbho9jtj/8f4defb49e6279008367e7cf45260927"/>
 
-To understand how string literals work in CEL for the above conditions, check out some examples [here (<FontIcon icon="iconfont icon-stackblitz"/>`github-b9k23yjf-kbho9jtj`)](https://stackblitz.com/edit/github-b9k23yjf-kbho9jtj?file=demo.ts).
+To understand how string literals work in CEL for the above conditions, check out some examples [here (<VPIcon icon="iconfont icon-stackblitz"/>`github-b9k23yjf-kbho9jtj`)](https://stackblitz.com/edit/github-b9k23yjf-kbho9jtj?file=demo.ts).
 
 :::
 
@@ -191,13 +191,13 @@ Then, install `cel-js`, a CEL evaluator for JavaScript to be used in your valida
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add cel-js
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm i cel-js

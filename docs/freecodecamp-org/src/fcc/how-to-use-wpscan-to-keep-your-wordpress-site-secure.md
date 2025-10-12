@@ -285,7 +285,7 @@ Options -Indexes
 
 ### File permissions
 
-Ensure critical files like <FontIcon icon="fa-brands fa-php"/>`wp-config.php` are read-only by setting permissions to `440` or `400` using the command:
+Ensure critical files like <VPIcon icon="fa-brands fa-php"/>`wp-config.php` are read-only by setting permissions to `440` or `400` using the command:
 
 ```sh
 chmod 400 wp-config.php
@@ -323,7 +323,7 @@ Here are some tips on how you can mitigate this issue:
 
 - **Stay informed**: Monitor WordPress security blogs, vulnerability databases like CVE or WPVulnDB, and community forums for emerging threats.
 - **Use a Web Application Firewall (WAF)**: Tools like Cloudflare or Sucuri can block suspicious activities and attempts to exploit unknown vulnerabilities.
-- **Conduct manual security reviews**: Periodically review your site for unusual behavior or unauthorized changes, particularly in critical files like <FontIcon icon="fa-brands fa-php"/>`wp-config.php` or your database.
+- **Conduct manual security reviews**: Periodically review your site for unusual behavior or unauthorized changes, particularly in critical files like <VPIcon icon="fa-brands fa-php"/>`wp-config.php` or your database.
 
 ### 2. No Real-Time Protection
 

@@ -224,7 +224,7 @@ Unlike using `parse`, which completely halts your application upon encountering 
 
 ## How to Build Zod Schemas for API Responses
 
-Building on our understanding of Zod’s core concepts, let’s create Zod schemas specifically for data received from API calls. We’ll leverage data from [<FontIcon icon="fas fa-globe"/>JSONPlaceholder](https://jsonplaceholder.typicode.com/posts), which offers information about posts.
+Building on our understanding of Zod’s core concepts, let’s create Zod schemas specifically for data received from API calls. We’ll leverage data from [<VPIcon icon="fas fa-globe"/>JSONPlaceholder](https://jsonplaceholder.typicode.com/posts), which offers information about posts.
 
 Here’s a sample JSON response representing a post from JSONPlaceholder:
 

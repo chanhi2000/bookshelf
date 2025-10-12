@@ -66,7 +66,7 @@ We are going to create the following exception classes:
 - `BookDoesNotExistException`: Thrown when a book with the specified ID does not exist.
 - `GlobalExceptionHandler`: Handles exceptions globally in the application.
 
-In the <FontIcon icon="fas fa-foler-open"/>`Exceptions` folder, create a new file named <FontIcon icon="iconfont icon-csharp"/>`NoBookFoundException.cs` and add the following code:
+In the <VPIcon icon="fas fa-foler-open"/>`Exceptions` folder, create a new file named <VPIcon icon="iconfont icon-csharp"/>`NoBookFoundException.cs` and add the following code:
 
 ```cs title="Exceptions/NoBookFoundException.cs"
 namespace bookapi_minimal.Exceptions
@@ -81,7 +81,7 @@ namespace bookapi_minimal.Exceptions
 
 In this code, we are creating a custom exception class named `NoBookFoundException` that inherits from the `Exception` class. The `NoBookFoundException` class is used to handle the scenario where no books are found in the database. We are also providing a custom error message for the exception.
 
-In the <FontIcon icon="fas fa-foler-open"/>`Exceptions` folder, create a new file named <FontIcon icon="iconfont icon-csharp"/>`BookDoesNotExistException.cs` and add the following code:
+In the <VPIcon icon="fas fa-foler-open"/>`Exceptions` folder, create a new file named <VPIcon icon="iconfont icon-csharp"/>`BookDoesNotExistException.cs` and add the following code:
 
 ```cs
 namespace bookapi_minimal.Exceptions
@@ -101,7 +101,7 @@ namespace bookapi_minimal.Exceptions
 
 In this code, we are creating a custom exception class named `BookDoesNotExistException` that inherits from the `Exception` class. The `BookDoesNotExistException` class is used to handle the scenario where a book with the specified ID does not exist in the database. We are also providing a custom error message for the exception.
 
-In the <FontIcon icon="fas fa-foler-open"/>`Exceptions` folder, create a new file named <FontIcon icon="iconfont icon-csharp"/>`GlobalExceptionHandler.cs` and add the following code:
+In the <VPIcon icon="fas fa-foler-open"/>`Exceptions` folder, create a new file named <VPIcon icon="iconfont icon-csharp"/>`GlobalExceptionHandler.cs` and add the following code:
 
 ```cs :collapsed-lines title="Exceptions/GlobalExceptionHandler.cs"
 using System.Net;

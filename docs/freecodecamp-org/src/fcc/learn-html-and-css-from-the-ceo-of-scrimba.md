@@ -24,7 +24,9 @@ head:
 prev: /programming/css/articles/README.md
 date: 2022-09-15
 isOriginal: false
-author: Per Borgen
+author:
+  - name: Per Borgen
+    url : https://github.com/perborgen
 cover: https://freecodecamp.org/news/content/images/2022/09/htmlcss.png
 ---
 
@@ -105,7 +107,7 @@ Here are some of the topics you will learn about in this course:
 - Using design tools
 - … and a lot more!
 
-Watch the full course below or on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/a_iQb1lnAEQ) (5-hour watch).
+Watch the full course below or on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/a_iQb1lnAEQ) (5-hour watch).
 
 <VidStack src="youtube/a_iQb1lnAEQ" />
 

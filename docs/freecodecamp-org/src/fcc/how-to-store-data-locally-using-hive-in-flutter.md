@@ -52,7 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757428555303/4228b0b
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1757428555303/4228b0b2-9edf-48af-a917-2535b6adffa3.png"/>
 
-In this tutorial, we’ll build a Flutter application that demonstrates how to perform CRUD (Create, Read, Update, Delete) operations using [<FontIcon icon="fas fa-globe"/>Hive](https://pub.dev/packages/hive) for local data storage.
+In this tutorial, we’ll build a Flutter application that demonstrates how to perform CRUD (Create, Read, Update, Delete) operations using [<VPIcon icon="fas fa-globe"/>Hive](https://pub.dev/packages/hive) for local data storage.
 
 Hive is a lightweight, fast key-value database written in pure Dart. Unlike SQLite, it doesn’t need a heavy SQL engine. It stores data in boxes, which you can think of as containers (similar to tables, but simpler).
 
@@ -91,7 +91,7 @@ flutter create flutter_hive_crud
 cd flutter_hive_crud
 ```
 
-Open <FontIcon icon="iconfont icon-yaml"/>`pubspec.yaml` and add the following dependencies:
+Open <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` and add the following dependencies:
 
 ```yaml title="pubspec.yaml"
 dependencies:
@@ -147,7 +147,7 @@ This structure keeps the app modular and maintainable.
 
 We'll go through the process file by file, and I’ll explain what each piece does as we go.
 
-### 1. <FontIcon icon="fa-brands fa-dart-lang"/>`main.dart`
+### 1. <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart`
 
 This is the entry point of the application. It initializes Hive and launches the app.
 
@@ -195,7 +195,7 @@ class MyApp extends StatelessWidget {
 
 :::
 
-### 2. <FontIcon icon="fa-brands fa-dart-lang"/>`item.dart` (Model)
+### 2. <VPIcon icon="fa-brands fa-dart-lang"/>`item.dart` (Model)
 
 Since Hive stores data as key-value pairs, we need to decide how to represent each item (like a shopping list entry or product in stock). To keep our code organized, we’ll wrap each item in a Dart class called `Item`. That way, we can easily create, update, and convert items to Maps when saving them into Hive.
 
@@ -230,7 +230,7 @@ Here’s what’s going on:
 - `Equatable` allows comparing items by value instead of reference.
 - `toMap()` and `fromMap()` convert between Dart objects and the Hive storage format.
 
-### 3. <FontIcon icon="fa-brands fa-dart-lang"/>`controller.dart` (Hive Controller)
+### 3. <VPIcon icon="fa-brands fa-dart-lang"/>`controller.dart` (Hive Controller)
 
 This controller handles all Hive CRUD operations and UI updates.
 
@@ -321,12 +321,12 @@ import '../model/item.dart';
 
 Here’s what’s happening:
 
-- <FontIcon icon="fas fa-folder-open"/>`flutter/`<FontIcon icon="fa-brands fa-dart-lang"/>`material.dart`: Provides Flutter’s material design widgets and utilities.
-- <FontIcon icon="fa-brands fa-dart-lang"/>`string_constants.dart`: Contains app-wide constants, for example the name of the Hive box.
-- <FontIcon icon="fa-brands fa-dart-lang"/>`toast.dart`: Utility to display toast messages for success or error feedback.
-- <FontIcon icon="fa-brands fa-dart-lang"/>`hive_flutter.dart`: Hive package integration with Flutter.
-- <FontIcon icon="fa-brands fa-dart-lang"/>`status.dart`: Enum representing status types (`error` or `success`) for toast messages.
-- <FontIcon icon="fa-brands fa-dart-lang"/>`item.dart`: The model class representing an individual item (title + quantity).
+- <VPIcon icon="fas fa-folder-open"/>`flutter/`<VPIcon icon="fa-brands fa-dart-lang"/>`material.dart`: Provides Flutter’s material design widgets and utilities.
+- <VPIcon icon="fa-brands fa-dart-lang"/>`string_constants.dart`: Contains app-wide constants, for example the name of the Hive box.
+- <VPIcon icon="fa-brands fa-dart-lang"/>`toast.dart`: Utility to display toast messages for success or error feedback.
+- <VPIcon icon="fa-brands fa-dart-lang"/>`hive_flutter.dart`: Hive package integration with Flutter.
+- <VPIcon icon="fa-brands fa-dart-lang"/>`status.dart`: Enum representing status types (`error` or `success`) for toast messages.
+- <VPIcon icon="fa-brands fa-dart-lang"/>`item.dart`: The model class representing an individual item (title + quantity).
 
 These imports allow the controller to manage Hive data and interact with the UI.
 
@@ -495,7 +495,7 @@ This method avoids repetition, centralizing the logic after any CRUD operation.
 
 :::
 
-### 4. <FontIcon icon="fa-brands fa-dart-lang"/>`string_constants.dart`
+### 4. <VPIcon icon="fa-brands fa-dart-lang"/>`string_constants.dart`
 
 This is centralized storage for string constants like Hive box names.
 
@@ -512,7 +512,7 @@ In this code:
 - `const`: Makes it a compile-time constant, so it can’t be modified anywhere in your code.
 - `'items'`: This is just a string value. In this case, it’s the name of the Hive box you’ll be opening.
 
-### 5. <FontIcon icon="fa-brands fa-dart-lang"/>`status.dart` (Enum)
+### 5. <VPIcon icon="fa-brands fa-dart-lang"/>`status.dart` (Enum)
 
 ```dart title="status.dart"
 enum Status { error, success }
@@ -545,7 +545,7 @@ toastInfo(msg: 'Failed to delete item', status: Status.error);
 
 This makes the code safer (you can’t accidentally pass `"sucess"` and break things), clearer (you can see the intent immediately), and easier to maintain (if you add more statuses later like `warning` or `info`, it’s just one place to update).
 
-### 6. <FontIcon icon="fa-brands fa-dart-lang"/>`yes_no.dart` (Enum)
+### 6. <VPIcon icon="fa-brands fa-dart-lang"/>`yes_no.dart` (Enum)
 
 ```dart title="yes_no.dart"
 enum YesNo { yes, no }
@@ -584,7 +584,7 @@ This is more descriptive than using a plain `bool` where you’d have to guess w
 
 :::
 
-### 7. <FontIcon icon="fa-brands fa-dart-lang"/>`toast.dart`
+### 7. <VPIcon icon="fa-brands fa-dart-lang"/>`toast.dart`
 
 ```dart title="toast.dart"
 import 'package:fluttertoast/fluttertoast.dart';
@@ -604,7 +604,7 @@ This is a helper function for showing toast messages in your Flutter app.
 
 A **toast** is a small, temporary popup message (usually at the bottom or top of the screen) used to quickly notify the user about something. For example, you might have *“Item saved successfully”* or *“Error deleting item”*.
 
-### 8. <FontIcon icon="fa-brands fa-dart-lang"/>`are_you_sure.dart` (Confirmation Dialog)
+### 8. <VPIcon icon="fa-brands fa-dart-lang"/>`are_you_sure.dart` (Confirmation Dialog)
 
 ```dart title="are_you_sure.dart"
 import 'dart:io';
@@ -662,7 +662,7 @@ This function shows a platform-aware confirmation dialog (`Are you sure?`) that:
 4. Closes the dialog when the user presses Dismiss.
 5. Optionally passes a `key` into the action function.
 
-### 9. <FontIcon icon="fa-brands fa-dart-lang"/>`single_list_tile.dart` (List Item Widget)
+### 9. <VPIcon icon="fa-brands fa-dart-lang"/>`single_list_tile.dart` (List Item Widget)
 
 ```dart :collapsed-lines title="single_list_tile.dart"
 import 'package:flutter/material.dart';
@@ -732,7 +732,7 @@ This widget represents **one item** (like a row in a shopping list, todo list, i
 2. Edit and delete buttons.
 3. A confirmation dialog before dismissing
 
-### 10. <FontIcon icon="fa-brands fa-dart-lang"/>`main_screen.dart` (UI + State Management)
+### 10. <VPIcon icon="fa-brands fa-dart-lang"/>`main_screen.dart` (UI + State Management)
 
 This is the main screen that puts everything together, including forms, lists, and modals.  
 Due to length, the full explanation is already well-commented in the original code, covering:
@@ -772,7 +772,7 @@ You now have a fully functional Flutter app with Hive for local data persistence
 - Confirm actions with dialogs for Android and iOS.
 - Clean, modular architecture with controllers, models, and widgets.
 
-You can explore Hive further in the [<FontIcon icon="fas fa-globe"/>Hive Package Documentation](https://pub.dev/packages/hive) if you want to learn more.
+You can explore Hive further in the [<VPIcon icon="fas fa-globe"/>Hive Package Documentation](https://pub.dev/packages/hive) if you want to learn more.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -61,7 +61,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743008871537/ad2be68
 
 Microservices architecture has become a popular approach for building scalable and maintainable applications. By breaking down large applications into smaller, independent services, developers can improve performance, maintainability, and scalability. If you're looking to master microservices with Nest.js, we have the perfect course for you.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you how to build microservices using Nest.js. Taught by Hhaider Malik, this course walks you through building a delivery service application that tracks rider activity by saving their coordinates every three hours. You'll develop two microservices—a Login Service and a Rider Service—and enable seamless communication between them. By the end of the course, you'll have the skills to design, develop, and deploy scalable microservices using Nest.js and MongoDB.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you how to build microservices using Nest.js. Taught by Hhaider Malik, this course walks you through building a delivery service application that tracks rider activity by saving their coordinates every three hours. You'll develop two microservices—a Login Service and a Rider Service—and enable seamless communication between them. By the end of the course, you'll have the skills to design, develop, and deploy scalable microservices using Nest.js and MongoDB.
 
 ---
 
@@ -81,7 +81,7 @@ This hands-on course covers essential topics for building microservices, includi
 
 Nest.js is a powerful framework that simplifies building scalable server-side applications with TypeScript. This course provides practical, real-world experience by guiding you through building and testing a real microservices-based project.
 
-Watch the full course now on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/t76UMpwFNs0) (2-hour watch).
+Watch the full course now on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/t76UMpwFNs0) (2-hour watch).
 
 <VidStack src="youtube/t76UMpwFNs0" />
 

@@ -164,11 +164,11 @@ In essence, it's a tiny computer-on-a-chip, optimized for specific control tasks
 
 By contrast, a microprocessor is just the CPU. It requires external memory and peripherals to function. Microcontrollers are self-contained and better suited for embedded applications.
 
-For example, this [<FontIcon icon="iconfont icon-st-microelectronics"/>reference manual](https://st.com/resource/en/reference_manual/dm00031020-stm32f405-415-stm32f407-417-stm32f427-437-and-stm32f429-439-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf) for the STM32F4 series (from STMicroelectronics) provides detailed documentation on not just the CPU but each peripheral’s functionality and the register map.
+For example, this [<VPIcon icon="iconfont icon-st-microelectronics"/>reference manual](https://st.com/resource/en/reference_manual/dm00031020-stm32f405-415-stm32f407-417-stm32f427-437-and-stm32f429-439-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf) for the STM32F4 series (from STMicroelectronics) provides detailed documentation on not just the CPU but each peripheral’s functionality and the register map.
 
 ### Instruction Set Architecture (ISA)
 
-A microprocessor executes a series of instructions defined by its Instruction Set Architecture (ISA). ISA as defined by [<FontIcon icon="iconfont icon-arm"/>ARM](https://arm.com/glossary/isa) is a part of the abstract model of a computer that defines how the CPU is controlled by the software. The ISA acts as an interface between the hardware and the software, specifying both what the processor is capable of doing as well as how it gets done.
+A microprocessor executes a series of instructions defined by its Instruction Set Architecture (ISA). ISA as defined by [<VPIcon icon="iconfont icon-arm"/>ARM](https://arm.com/glossary/isa) is a part of the abstract model of a computer that defines how the CPU is controlled by the software. The ISA acts as an interface between the hardware and the software, specifying both what the processor is capable of doing as well as how it gets done.
 
 For example:
 
@@ -177,7 +177,7 @@ For example:
 
 Many vendors (for example, STMicroelectronics, NXP, TI) manufacture MCUs that support ARM ISAs but include their own peripheral sets. Understanding the ISA is essential for low-level coding and interpreting assembly instructions.
 
-This [<FontIcon icon="iconfont icon-arm"/>ARMv7-M architecture reference manual](https://developer.arm.com/documentation/ddi0403/ee/?lang=en) provides more details on v7 Architecture.
+This [<VPIcon icon="iconfont icon-arm"/>ARMv7-M architecture reference manual](https://developer.arm.com/documentation/ddi0403/ee/?lang=en) provides more details on v7 Architecture.
 
 ### Memory in Microcontrollers
 
@@ -208,7 +208,7 @@ For power-sensitive applications, MCUs offer multiple low-power modes:
 
 These modes reduce power consumption by turning off clocks and disabling unused peripherals. Designing the system to switch in and out of low-power states effectively is a core skill in embedded software development.
 
-This article talks about [<FontIcon icon="fas fa-globe"/>Clock Trees and Oscillators](https://playembedded.org/blog/arm-cortex-clock-tree-101/) for the ARM Cortex microcontrollers.
+This article talks about [<VPIcon icon="fas fa-globe"/>Clock Trees and Oscillators](https://playembedded.org/blog/arm-cortex-clock-tree-101/) for the ARM Cortex microcontrollers.
 
 ### Interrupts
 
@@ -247,7 +247,7 @@ Here’s a figure showing multiple peripherals connected to a MCU:
 
 DMA or Direct Memory Access is an important peripheral which can be used to transfer data to/from memory without CPU involvement. It improves performance and allows the CPU to perform other tasks or enter low power mode to reduce power consumption.
 
-This [<FontIcon icon="fas fa-globe"/>article](https://parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/) provides a good overview of the communication protocols I2C, UART and SPI.
+This [<VPIcon icon="fas fa-globe"/>article](https://parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/) provides a good overview of the communication protocols I2C, UART and SPI.
 
 We’ve now covered the essential building blocks of microcontroller hardware - from memory and clocks to interrupts and communication buses.
 
@@ -289,10 +289,10 @@ Design patterns often need to be adapted for memory and timing constraints, but 
 
 There are lot of great resources on design patterns - here are a few that helped me:
 
-1. Book: [<FontIcon icon="fa-brands fa-amazon"/>Head-first Design patterns](https://amazon.com/Head-First-Design-Patterns-Object-Oriented/dp/149207800X/) - A great book to get understand the concept of design patterns
-2. Book: [<FontIcon icon="fa-brands fa-amazon"/>Design Patterns: Elements of Reusable Object-Oriented Software](https://amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/)
+1. Book: [<VPIcon icon="fa-brands fa-amazon"/>Head-first Design patterns](https://amazon.com/Head-First-Design-Patterns-Object-Oriented/dp/149207800X/) - A great book to get understand the concept of design patterns
+2. Book: [<VPIcon icon="fa-brands fa-amazon"/>Design Patterns: Elements of Reusable Object-Oriented Software](https://amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/)
 3. Course: [**Object-Oriented Programming and Design Patterns in C#**](/freecodecamp.org/master-object-oriented-programming-and-design-patterns-in-c.md)
-4. Article on HSM: [<FontIcon icon="fas fa-globe"/>Hierarchical State Machine Overview (Barr Group)](https://barrgroup.com/blog/introduction-hierarchical-state-machines)
+4. Article on HSM: [<VPIcon icon="fas fa-globe"/>Hierarchical State Machine Overview (Barr Group)](https://barrgroup.com/blog/introduction-hierarchical-state-machines)
 
 ### Programming Languages for Embedded Systems
 
@@ -306,7 +306,7 @@ Languages like Python (via MicroPython or CircuitPython) are used in educational
 
 Some resources on programming languages that might be helpful to understand concepts:
 
-1. [<FontIcon icon="fas fa-globe"/>The Embedded Rust Book](https://docs.rust-embedded.org/book/)
+1. [<VPIcon icon="fas fa-globe"/>The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 2. [**C Programming Language by K&R**](/freecodecamp.org/learn-c-programming-classic-book-dr-chuck.md)
 
 ### Data Structures Matter
@@ -321,7 +321,7 @@ Embedded systems require careful data handling due to strict memory and timing c
   
 You'll often build event queues, circular buffers, or timer lists, all of which rely on these foundational structures.
 
-There are a lot of resources for understanding data structures, but I have found this one to be helpful for learning and practicing: [<FontIcon icon="fas fa-globe"/>GeeksForGeeks DSA Tutorial](https://geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/). And [**here’s a full course on DSA**](/freecodecamp.org/learn-data-structures-and-algorithms-2.md) if you want to dive deeper.
+There are a lot of resources for understanding data structures, but I have found this one to be helpful for learning and practicing: [<VPIcon icon="fas fa-globe"/>GeeksForGeeks DSA Tutorial](https://geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/). And [**here’s a full course on DSA**](/freecodecamp.org/learn-data-structures-and-algorithms-2.md) if you want to dive deeper.
 
 ### Bit Manipulation: A Core Embedded Skill
 
@@ -333,7 +333,7 @@ Unlike general-purpose software, embedded systems often require low-level access
 
 Mastering bit hacks is essential for writing hardware drivers or manipulating control registers.
 
-This resource provides a good number of examples for bit manipulation: [<FontIcon icon="fas fa-globe"/>Stanford Bit Hacks](https://graphics.stanford.edu/~seander/bithacks.html).
+This resource provides a good number of examples for bit manipulation: [<VPIcon icon="fas fa-globe"/>Stanford Bit Hacks](https://graphics.stanford.edu/~seander/bithacks.html).
 
 ---
 
@@ -461,12 +461,12 @@ Descriptions of the above file:
 Here are some sources to understand Makefiles, cross-compilation, and Linkers. And just note that using Makefile in a project is the best way to learn and master Makefiles:
 
 1. Makefiles:
-    - [<FontIcon icon="fas fa-globe"/>GNU Make Manual](https://gnu.org/software/make/manual/make.pdf)
-    - [<FontIcon icon="fas fa-globe"/>Makefile Tutorial](https://makefiletutorial.com/)
-    - [<FontIcon icon="fas fa-globe"/>In Pyjama Makefile Article](https://gnu.org/software/make/manual/make.pdf)
+    - [<VPIcon icon="fas fa-globe"/>GNU Make Manual](https://gnu.org/software/make/manual/make.pdf)
+    - [<VPIcon icon="fas fa-globe"/>Makefile Tutorial](https://makefiletutorial.com/)
+    - [<VPIcon icon="fas fa-globe"/>In Pyjama Makefile Article](https://gnu.org/software/make/manual/make.pdf)
 2. Linker Scripts:
-    - [<FontIcon icon="fas fa-globe"/>Interrupt Blog on Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
-    - [Intro to Linker Files - Medium (<FontIcon icon="fa-brands fa-medium"/>`@pc0is0me`)](https://medium.com/@pc0is0me/an-introduction-to-linker-file-59ce2e9c5e73)
+    - [<VPIcon icon="fas fa-globe"/>Interrupt Blog on Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
+    - [Intro to Linker Files - Medium (<VPIcon icon="fa-brands fa-medium"/>`@pc0is0me`)](https://medium.com/@pc0is0me/an-introduction-to-linker-file-59ce2e9c5e73)
 
 ### Flashing the Binary
 
@@ -509,7 +509,7 @@ This tells OpenOCD to:
 - Reset the MCU
 - Exit the session
 
-For a detailed walkthrough, check out: [<FontIcon icon="fas fa-globe"/>OpenOCD Deep Dive - Kickstart Embedded](https://kickstartembedded.com/2024/03/26/openocd-one-software-to-rule-debug-them-all/)
+For a detailed walkthrough, check out: [<VPIcon icon="fas fa-globe"/>OpenOCD Deep Dive - Kickstart Embedded](https://kickstartembedded.com/2024/03/26/openocd-one-software-to-rule-debug-them-all/)
 
 ---
 
@@ -530,7 +530,7 @@ Most Modern 32-bit microcontrollers (for example, STM32, NXP, Renesas) come with
 - Peripheral drivers
 - Sometimes even middleware like USB, BLE, or file system stacks
 
-These tools (like [<FontIcon icon="iconfont icon-st-microelectronics"/>STM32Cube](https://st.com/en/ecosystems/stm32cube.html) Config Tools) simplify setup and peripheral configuration, helping you get started quickly, without needing to write low-level code manually.
+These tools (like [<VPIcon icon="iconfont icon-st-microelectronics"/>STM32Cube](https://st.com/en/ecosystems/stm32cube.html) Config Tools) simplify setup and peripheral configuration, helping you get started quickly, without needing to write low-level code manually.
 
 **Benefits of HALs**:
 
@@ -611,11 +611,11 @@ After calling `main()`, the system enters an infinite loop where your logic runs
 
 :::
 
-This resource provides good details and example on [Bare Metal Programming (<FontIcon icon="iconfont icon-github"/>`cpq/bare-metal-programming-guide`)](https://github.com/cpq/bare-metal-programming-guide). For more details, this book is great as well: [<FontIcon icon="fas fa-globe"/>ARM Baremetal Ebook](https://umanovskis.se/files/arm-baremetal-ebook.pdf).
+This resource provides good details and example on [Bare Metal Programming (<VPIcon icon="iconfont icon-github"/>`cpq/bare-metal-programming-guide`)](https://github.com/cpq/bare-metal-programming-guide). For more details, this book is great as well: [<VPIcon icon="fas fa-globe"/>ARM Baremetal Ebook](https://umanovskis.se/files/arm-baremetal-ebook.pdf).
 
 ### Real-Time Operating Systems (RTOS)
 
-A Real-Time Operating System (like [<FontIcon icon="fas fa-globe"/>FreeRTOS](https://freertos.org/Documentation/01-FreeRTOS-quick-start/01-Beginners-guide/00-Overview), [<FontIcon icon="fas fa-globe"/>Zephyr](https://docs.zephyrproject.org/latest/)) adds lightweight multitasking capabilities to your embedded application. It allows you to split your software into independent tasks that run concurrently and communicate through queues, semaphores, or message passing.
+A Real-Time Operating System (like [<VPIcon icon="fas fa-globe"/>FreeRTOS](https://freertos.org/Documentation/01-FreeRTOS-quick-start/01-Beginners-guide/00-Overview), [<VPIcon icon="fas fa-globe"/>Zephyr](https://docs.zephyrproject.org/latest/)) adds lightweight multitasking capabilities to your embedded application. It allows you to split your software into independent tasks that run concurrently and communicate through queues, semaphores, or message passing.
 
 RTOS kernels often support different scheduling strategies like:
 
@@ -655,7 +655,7 @@ RTOS kernels often support different scheduling strategies like:
 
 :::
 
-RTOS Scheduling techniques are interesting - this part of the docs talks about [<FontIcon icon="fas fa-globe"/>Zephyr](https://docs.zephyrproject.org/latest/kernel/services/scheduling/index.html#scheduling-algorithm) scheduling.
+RTOS Scheduling techniques are interesting - this part of the docs talks about [<VPIcon icon="fas fa-globe"/>Zephyr](https://docs.zephyrproject.org/latest/kernel/services/scheduling/index.html#scheduling-algorithm) scheduling.
 
 ### Embedded Operating Systems
 
@@ -679,7 +679,7 @@ This table provides a high level methodology for choosing the right type of OS b
 | **Learning Curve** | Steep for scaling | Moderate | Steeper (OS internals, tools) |
 | **Use Case Examples** | Blinking LED, sensor polling | Drones, medical devices | Gateways, touchscreens |
 
-To understand OS fundamentals, this is a great book: [<FontIcon icon="fa-brands fa-amazon"/>Operating System Concepts](https://amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/0470128720) and this is a great course: [<FontIcon icon="fa-brands fa-youtube"/>UC Berkeley: CS162](https://youtube.com/playlist?list=PLF2K2xZjNEf97A_uBCwEl61sdxWVP7VWC).
+To understand OS fundamentals, this is a great book: [<VPIcon icon="fa-brands fa-amazon"/>Operating System Concepts](https://amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/0470128720) and this is a great course: [<VPIcon icon="fa-brands fa-youtube"/>UC Berkeley: CS162](https://youtube.com/playlist?list=PLF2K2xZjNEf97A_uBCwEl61sdxWVP7VWC).
 
 So far, we’ve looked at how embedded applications are structured, whether using bare-metal loops, RTOS multitasking, or full operating systems. But regardless of which execution model you choose, your software ultimately needs to interact with the hardware.
 
@@ -808,7 +808,7 @@ Security should be layered, as no single mechanism is sufficient on its own. Bui
 
 Whether you're designing a consumer product or an industrial controller, proactive security practices are essential for protecting user data, system reliability, and device reputation.
 
-This resource provides a good understanding of Embedded Systems Security: [<FontIcon icon="fas fa-globe"/>BlackBerry QNX: Embedded System Security Guide](https://blackberry.qnx.com/en/ultimate-guides/embedded-system-security)
+This resource provides a good understanding of Embedded Systems Security: [<VPIcon icon="fas fa-globe"/>BlackBerry QNX: Embedded System Security Guide](https://blackberry.qnx.com/en/ultimate-guides/embedded-system-security)
 
 ---
 
@@ -872,7 +872,7 @@ These allow a debugger to:
 - Inspect and modify memory
 - Single-step through code
 
-[<FontIcon icon="iconfont icon-arm"/>ARM CoreSight](https://developer.arm.com/documentation/102520/0100) is a debug and trace architecture developed by ARM for its processor cores (like Cortex-M, Cortex-A, Cortex-R). It provides a set of hardware modules built into ARM-based chips that allow developers to:
+[<VPIcon icon="iconfont icon-arm"/>ARM CoreSight](https://developer.arm.com/documentation/102520/0100) is a debug and trace architecture developed by ARM for its processor cores (like Cortex-M, Cortex-A, Cortex-R). It provides a set of hardware modules built into ARM-based chips that allow developers to:
 
 - Debug the system while it's running (non-intrusively)
 - Trace code execution, memory accesses, and peripheral activity
@@ -911,7 +911,7 @@ Disassembly Files let you see the machine code generated from your source. This 
 - You’re diagnosing instruction-level failures
 - You’re working without source code (e.g., binary-only drivers)
 
-This resource provides a good overview on Map files, linkers and ELF format: [<FontIcon icon="fas fa-globe"/>Tenouk’s ELF/Map/Linker Guide](https://tenouk.com/ModuleW.html)
+This resource provides a good overview on Map files, linkers and ELF format: [<VPIcon icon="fas fa-globe"/>Tenouk’s ELF/Map/Linker Guide](https://tenouk.com/ModuleW.html)
 
 ### Common Bug: Buffer Overflows
 
@@ -935,7 +935,7 @@ Sometimes, a device fails in the field, where you can’t attach a debugger. Tha
 
 These techniques help you reconstruct what went wrong after the device has rebooted or been recovered.
 
-You can learn more here: [Debugging Techniques for Embedded Systems - Medium (<FontIcon icon="fa-brands fa-medium"/>`lanceharvieruntime`)](https://medium.com/@lanceharvieruntime/debugging-techniques-for-embedded-systems-94d00582074a).
+You can learn more here: [Debugging Techniques for Embedded Systems - Medium (<VPIcon icon="fa-brands fa-medium"/>`lanceharvieruntime`)](https://medium.com/@lanceharvieruntime/debugging-techniques-for-embedded-systems-94d00582074a).
 
 Debugging and forensics are invaluable when something goes wrong - but a robust system should aim to catch issues before they reach deployment.
 

@@ -70,7 +70,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737148633610/45e0af5
 
 It’s 2025, and Large Language Models (LLMs) still can’t access your private data. Ask them something personal, and they’ll either guess or give you the wrong answer. That’s the limitation—they’re trained on public information and don’t have access to your private context.
 
-Memory agents solve this by securely linking your private data to any LLM in real time. In this tutorial, I’ll walk you through turning an LLM into a conversational AI that chats with your personal documents using [<FontIcon icon="fas fa-globe"/>Langbase](http://langbase.com) memory agents.
+Memory agents solve this by securely linking your private data to any LLM in real time. In this tutorial, I’ll walk you through turning an LLM into a conversational AI that chats with your personal documents using [<VPIcon icon="fas fa-globe"/>Langbase](http://langbase.com) memory agents.
 
 ---
 
@@ -80,15 +80,15 @@ Memory is what makes interactions meaningful. It’s how systems can remember wh
 
 Here’s the thing: LLMs might seem human-like, but they don’t have memory built in. They’re **stateless by design**. To make them useful for real-world tasks, you need to add memory. That’s where memory agents step in.
 
-[<FontIcon icon="fas fa-globe"/>Langbase memory agents](https://langbase.com/docs/memory) (long-term memory solution) are designed to **acquire, process, retain, and retrieve** information seamlessly. They dynamically attach private data to any LLM, enabling context-aware responses in real time and reducing hallucinations.
+[<VPIcon icon="fas fa-globe"/>Langbase memory agents](https://langbase.com/docs/memory) (long-term memory solution) are designed to **acquire, process, retain, and retrieve** information seamlessly. They dynamically attach private data to any LLM, enabling context-aware responses in real time and reducing hallucinations.
 
 These agents combine vector storage, Retrieval-Augmented Generation (RAG), and internet access to create a powerful managed context search API. Developers can use them to build smarter, more capable AI applications.
 
-In a RAG setup, memory - when connected directly to a [<FontIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe) - becomes a **memory agent**. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers—addressing the limitations of LLMs when it comes to handling private data.
+In a RAG setup, memory - when connected directly to a [<VPIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe) - becomes a **memory agent**. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers—addressing the limitations of LLMs when it comes to handling private data.
 
 ::: note
 
-Pipe is a serverless AI agent. It has agentic memory and tools. More details [<FontIcon icon="fas fa-globe"/>here](https://langbase.com/docs).
+Pipe is a serverless AI agent. It has agentic memory and tools. More details [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs).
 
 <SiteInfo
   name="Langbase Docs · Serverless AI Developer Platform"
@@ -134,14 +134,14 @@ Before we begin creating a memory agent that chats with your documents, you’ll
 
 In this tutorial, I’ll be using the following tech stack:
 
-- [<FontIcon icon="fas fa-globe"/>BaseAI](http://baseai.dev) — the web framework for building AI agents locally.
-- [<FontIcon icon="fas fa-globe"/>Langbase](http://langbase.com) — the platform to build and deploy your serverless AI agents.
-- [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com/) — to get the LLM key for the preferred model.
+- [<VPIcon icon="fas fa-globe"/>BaseAI](http://baseai.dev) — the web framework for building AI agents locally.
+- [<VPIcon icon="fas fa-globe"/>Langbase](http://langbase.com) — the platform to build and deploy your serverless AI agents.
+- [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com/) — to get the LLM key for the preferred model.
 
 You’ll also need to:
 
-- Sign up on [<FontIcon icon="fas fa-globe"/>Langbase](https://langbase.com/signup) to get access to the API key.
-- Sign up on [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/signup) to generate the LLM key for the model you want to use (for this demo, I’ll be using GPT-4o mini). You can generate the key [<FontIcon icon="iconfont icon-openai"/>here](https://platform.openai.com/api-keys).
+- Sign up on [<VPIcon icon="fas fa-globe"/>Langbase](https://langbase.com/signup) to get access to the API key.
+- Sign up on [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/signup) to generate the LLM key for the model you want to use (for this demo, I’ll be using GPT-4o mini). You can generate the key [<VPIcon icon="iconfont icon-openai"/>here](https://platform.openai.com/api-keys).
 
 :::
 
@@ -159,13 +159,13 @@ npm init -y
 npm install dotenv
 ```
 
-This command will create a <FontIcon icon="iconfont icon-json"/>`package.json` file in your project directory with default values. It will also install the `dotenv` package to read environment variables from the <FontIcon icon="fas fa-file-lines"/>`.env` file.
+This command will create a <VPIcon icon="iconfont icon-json"/>`package.json` file in your project directory with default values. It will also install the `dotenv` package to read environment variables from the <VPIcon icon="fas fa-file-lines"/>`.env` file.
 
 ---
 
 ## Step 2: Create a Pipe Agent
 
-Next, we’ll be creating a [<FontIcon icon="fas fa-globe"/>pipe agent](https://langbase.com/docs). Pipes are different from other agents, as they are serverless AI agents with agentic tools that can work with any language or framework. They are easily deployable, and with just one API they let you connect 100+ LLMs to any data to build any developer API workflow.
+Next, we’ll be creating a [<VPIcon icon="fas fa-globe"/>pipe agent](https://langbase.com/docs). Pipes are different from other agents, as they are serverless AI agents with agentic tools that can work with any language or framework. They are easily deployable, and with just one API they let you connect 100+ LLMs to any data to build any developer API workflow.
 
 To create your AI agent pipe, navigate to your project directory. Run the following command:
 
@@ -183,13 +183,13 @@ Status of the pipe? Public/Private
 System prompt? You are a helpful AI assistant
 ```
 
-Once you are done with the name, description, and status of the AI agent pipe, everything will be set up automatically for you. Your pipe will be created successfully at <FontIcon icon="fas fa-folder-open"/>`/baseai/pipes/`<FontIcon icon="iconfont icon-typescript"/>`pipe-with-memory.ts`.
+Once you are done with the name, description, and status of the AI agent pipe, everything will be set up automatically for you. Your pipe will be created successfully at <VPIcon icon="fas fa-folder-open"/>`/baseai/pipes/`<VPIcon icon="iconfont icon-typescript"/>`pipe-with-memory.ts`.
 
 ---
 
 ## Step 3: Add a .env File
 
-Create a <FontIcon icon="fas fa-file-lines"/>`.env` file in the root directory of your project and add the [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API key in it. You can access your Langbase API key from [<FontIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
+Create a <VPIcon icon="fas fa-file-lines"/>`.env` file in the root directory of your project and add the [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API key in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
 
 ---
 
@@ -209,13 +209,13 @@ Description of the pipe? FAQs docs
 Do you want to create memory from the current project git repository? Yes/No
 ```
 
-After this, everything will be set up automatically for you and you can access your memory created successfully at <FontIcon icon="fas fa-folder-open"/>`/baseai/memory/`<FontIcon icon="iconfont icon-typescript"/>`chat-with-docs-agent.ts`.
+After this, everything will be set up automatically for you and you can access your memory created successfully at <VPIcon icon="fas fa-folder-open"/>`/baseai/memory/`<VPIcon icon="iconfont icon-typescript"/>`chat-with-docs-agent.ts`.
 
 ---
 
 ## Step 5: Add Documents to the Memory Agent
 
-Inside <FontIcon icon="fas fa-folder-open"/>`/baseai/memory/`<FontIcon icon="iconfont icon-typescript"/>`chat-with-docs-agent.ts` you’ll see another folder called documents. This is where you’ll store the files you want your AI agent to access. For this demo, I’ll save the [<FontIcon icon="fas fa-globe"/>Pipe FAQs](https://langbase.com/docs/pipe/faqs) page as either a `.pdf` or `.txt` file. Then, I’ll convert it to a markdown file and place it in the <FontIcon icon="fas fa-folder-open"/>`baseai/memory/chat-with-docs/documents` directory.
+Inside <VPIcon icon="fas fa-folder-open"/>`/baseai/memory/`<VPIcon icon="iconfont icon-typescript"/>`chat-with-docs-agent.ts` you’ll see another folder called documents. This is where you’ll store the files you want your AI agent to access. For this demo, I’ll save the [<VPIcon icon="fas fa-globe"/>Pipe FAQs](https://langbase.com/docs/pipe/faqs) page as either a `.pdf` or `.txt` file. Then, I’ll convert it to a markdown file and place it in the <VPIcon icon="fas fa-folder-open"/>`baseai/memory/chat-with-docs/documents` directory.
 
 This step ensures the memory agent can **process and retrieve** information from your documents, making the AI agent capable of answering queries based on the content you provide.
 
@@ -247,7 +247,7 @@ Your memory is now ready to be connected with a Pipe (memory agent), enabling yo
 
 ## Step 7: Integrate Memory in Pipe Agent
 
-Next, you have to attach the memory you created to your Pipe agent to make it a memory agent. For that, go to <FontIcon icon="fas fa-folder-open"/>`/baseai/pipes/`<FontIcon icon="fas fa-typescript"/>`pipe-with-memory.ts`. This is what it will look like at the moment:
+Next, you have to attach the memory you created to your Pipe agent to make it a memory agent. For that, go to <VPIcon icon="fas fa-folder-open"/>`/baseai/pipes/`<VPIcon icon="fas fa-typescript"/>`pipe-with-memory.ts`. This is what it will look like at the moment:
 
 ```ts :collapsed-lines title="/baseai/pipes/pipe-with-memory.ts"
 import { PipeI } from '@baseai/core';
@@ -320,7 +320,7 @@ export default pipePipeWithMemory;
 
 Now we’ll integrate the memory agent you created into the Node.js project to build an interactive command-line interface (CLI) for the document attached. This Node.js project will serve as the base for testing and interacting with the memory agent (in the beginning of the tutorial, we set up a Node.js project by initializing npm).
 
-Now, create an <FontIcon icon="iconfont icon-typescript"/>`index.ts` file:
+Now, create an <VPIcon icon="iconfont icon-typescript"/>`index.ts` file:
 
 ```sh
 touch index.ts
@@ -328,7 +328,7 @@ touch index.ts
 
 In this TypeScript file, import the pipe agent you created. We will use the pipe primitive from `@baseai/core` to run the pipe.
 
-Add the following code to the <FontIcon icon="iconfont icon-typescript"/>`index.ts` file:
+Add the following code to the <VPIcon icon="iconfont icon-typescript"/>`index.ts` file:
 
 ```ts :collapsed-lines title="index.ts"
 import 'dotenv/config';
@@ -420,7 +420,7 @@ npx baseai@latest dev
 
 ## Step 10: Run the Memory Agent
 
-Run the <FontIcon icon="iconfont icon-typescript"/>`index.ts` file using the following command:
+Run the <VPIcon icon="iconfont icon-typescript"/>`index.ts` file using the following command:
 
 ```sh
 npx tsx index.ts

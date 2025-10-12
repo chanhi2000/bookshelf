@@ -55,7 +55,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755202477019/fbc6813
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1755202477019/fbc68131-107a-40ae-9dae-c14224d0866a.png"/>
 
-Recently, I set up WSL2 and Ubuntu on my Windows 11 to work on some open-source projects. Since I also maintain these projects, I installed [<FontIcon icon="iconfont icon-github"/>GitHub CLI](https://cli.github.com/) to ease my workflow. I successfully installed the GitHub CLI, but failed to authenticate it.
+Recently, I set up WSL2 and Ubuntu on my Windows 11 to work on some open-source projects. Since I also maintain these projects, I installed [<VPIcon icon="iconfont icon-github"/>GitHub CLI](https://cli.github.com/) to ease my workflow. I successfully installed the GitHub CLI, but failed to authenticate it.
 
 The error message `failed to authenticate via web browser: Too many requests have been made in the same timeframe. (slow_down)` appeared on my terminal, while on the web browser, it indicated that the authentication was successful.
 
@@ -72,7 +72,7 @@ Before getting started, ensure that you have these installed on your Windows mac
 - WSL2
 - A Linux distro
 - Windows PowerShell
-- [<FontIcon icon="fa-brands fa-windows"/>Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) (optional)
+- [<VPIcon icon="fa-brands fa-windows"/>Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) (optional)
 
 :::
 
@@ -86,7 +86,7 @@ Alternatively, if you have Windows Terminal installed, you can use the Linux ter
 
 ## How to Install GitHub CLI on WSL2
 
-You can use the installation process described here if you use Ubuntu, Debian, or Raspberry Pi OS (apt) distros. For other distros other than those mentioned here, you can walk through the installation process that's available on the [GitHub CLI official docs (<FontIcon icon="iconfont icon-github"/>`cli/cli`)](https://github.com/cli/cli/blob/trunk/docs/install_linux.md).
+You can use the installation process described here if you use Ubuntu, Debian, or Raspberry Pi OS (apt) distros. For other distros other than those mentioned here, you can walk through the installation process that's available on the [GitHub CLI official docs (<VPIcon icon="iconfont icon-github"/>`cli/cli`)](https://github.com/cli/cli/blob/trunk/docs/install_linux.md).
 
 To install GitHub CLI in WSL2:
 
@@ -184,7 +184,7 @@ And GitHub CLI is now successfully authenticated!
 
 ::: note
 
-> Credit goes to [username “ikeyan” on GitHub for their GitHub CLI authentication solution (<FontIcon icon="iconfont icon-github"/>`cli/cli`)](https://github.com/cli/cli/discussions/6884#discussioncomment-10176332)!
+> Credit goes to [username “ikeyan” on GitHub for their GitHub CLI authentication solution (<VPIcon icon="iconfont icon-github"/>`cli/cli`)](https://github.com/cli/cli/discussions/6884#discussioncomment-10176332)!
 
 <SiteInfo
   name="Failing to authenticate on new wsl setup · cli/cli · Discussion #6884"
@@ -266,7 +266,7 @@ Now, GitHub CLI doesn’t have access to your GitHub account.
 
 :::
 
-Thank you for reading! Last, you can find me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`AdiatiAyu`)](https://x.com/@AdiatiAyu) and [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`adiatiayu`)](https://linkedin.com/in/adiatiayu/). Let's connect! 😊
+Thank you for reading! Last, you can find me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`AdiatiAyu`)](https://x.com/@AdiatiAyu) and [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`adiatiayu`)](https://linkedin.com/in/adiatiayu/). Let's connect! 😊
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

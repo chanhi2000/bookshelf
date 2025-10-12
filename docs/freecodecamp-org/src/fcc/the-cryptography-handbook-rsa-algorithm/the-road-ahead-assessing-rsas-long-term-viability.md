@@ -64,4 +64,4 @@ It’s important to note that while OAEP and PSS improve the security of RSA aga
 
 In the near term, RSA remains in widespread use and, when implemented with padding schemes such as OAEP and PSS, continues to provide strong security against classical adversaries. But looking ahead, it’s expected that organizations will gradually migrate to post-quantum algorithms as they mature and become standardized.
 
-[^1]: [<FontIcon icon="fas fa-globe"/>Algorithms for quantum computation](https://ieeexplore.ieee.org/abstract/document/365700/): discrete logarithms and factoring
+[^1]: [<VPIcon icon="fas fa-globe"/>Algorithms for quantum computation](https://ieeexplore.ieee.org/abstract/document/365700/): discrete logarithms and factoring

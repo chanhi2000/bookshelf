@@ -127,7 +127,7 @@ Just keep in mind that everyone learns at a different pace, so it's hard to set 
 
 - Master troubleshooting techniques. Learn how to diagnose and [debug](/freecodecamp.org/python-debugging-handbook.md) backend applications effectively.
 - Jump into performance optimization techniques. Learn about [lazy loading](/freecodecamp.org/next-js-performance-optimization.md), [caching](/freecodecamp.org/caching-vs-content-delivery-network.md), [load balancing](/freecodecamp.org/auto-scaling-and-load-balancing.md), and [database indexing](/freecodecamp.org/postgresql-indexing-strategies.md).
-- Learn [monitoring](/freecodecamp.org/how-to-set-up-monitoring-for-nodejs-applications-using-elastic.md) and analytics tools. Use tools like [<FontIcon icon="fas fa-globe"/>New Relic](https://newrelic.com/) or [<FontIcon icon="fas fa-globe"/>Datadog](https://datadoghq.com) to monitor application performance. Learn how to generate and **analyze** performance metrics.
+- Learn [monitoring](/freecodecamp.org/how-to-set-up-monitoring-for-nodejs-applications-using-elastic.md) and analytics tools. Use tools like [<VPIcon icon="fas fa-globe"/>New Relic](https://newrelic.com/) or [<VPIcon icon="fas fa-globe"/>Datadog](https://datadoghq.com) to monitor application performance. Learn how to generate and **analyze** performance metrics.
 
 ### Step 5: Cloud Infrastructure and Deployment 🌥️
 
@@ -171,7 +171,7 @@ When choosing a web server, it depends on what kind of website or app you’re b
   logo="https://www.theknowledgeacademy.com/favicon.ico"
   preview="https://www.theknowledgeacademy.com/_public/images/home/tka-blue.svg"/>
 
-- **SSL/TLS Certificates:** [<FontIcon icon="fas fa-globe"/>These are cryptographic protocols that provide secure communication](https://theknowledgeacademy.com/blog/what-is-apache/) over a computer network. SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) encrypt data between the server and client, ensuring confidentiality and integrity in online connections.
+- **SSL/TLS Certificates:** [<VPIcon icon="fas fa-globe"/>These are cryptographic protocols that provide secure communication](https://theknowledgeacademy.com/blog/what-is-apache/) over a computer network. SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) encrypt data between the server and client, ensuring confidentiality and integrity in online connections.
 
 ### 4. Version Control System:
 
@@ -181,7 +181,7 @@ Next on your journey is to become familiar with version control systems. These s
 
 Back-end developers usually utilize these tools and software to build robust, scalable, and secure web applications that handle data storage, server hosting, and encryption of online communications.
 
-If you seek more knowledge regarding backend development, you can check out this [<FontIcon icon="fas fa-globe"/>in-depth visual guide to backend development](https://roadmap.sh/backend).
+If you seek more knowledge regarding backend development, you can check out this [<VPIcon icon="fas fa-globe"/>in-depth visual guide to backend development](https://roadmap.sh/backend).
 
 ### ✅ Printable Roadmap
 
@@ -189,7 +189,7 @@ You can also use this printable Backend Developer Notion template to track your 
 
 Beginner developers often struggle with choosing the right tech stack which leads them to waste their time and often lose motivation.
 
-To help you out, I created this easy-to-follow [<FontIcon icon="fas fa-globe"/>6-month backend developer roadmap](https://codewithshahan.gumroad.com/l/pcela) in Notion so that you can track your progress and stick with your goals in real-time.
+To help you out, I created this easy-to-follow [<VPIcon icon="fas fa-globe"/>6-month backend developer roadmap](https://codewithshahan.gumroad.com/l/pcela) in Notion so that you can track your progress and stick with your goals in real-time.
 
 ![Image of backend developer roadmap](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j23rj7fwvut4fphzqud5.png)
 
@@ -208,12 +208,12 @@ This roadmap:
 
 By following this roadmap and dedicating consistent effort to learning, you can acquire valuable backend development skills and be well-prepared to land a job in backend development.
 
-If you're curious about becoming a front-end developer as well, you can read this article as well. 👉 [<FontIcon icon="fa-brands fa-dev"/>The Roadmap to Become a Frontend Developer in 6 Months](https://dev.to/codewithshahan/must-have-frontend-development-skills-roadmap-2024-28jc)
+If you're curious about becoming a front-end developer as well, you can read this article as well. 👉 [<VPIcon icon="fa-brands fa-dev"/>The Roadmap to Become a Frontend Developer in 6 Months](https://dev.to/codewithshahan/must-have-frontend-development-skills-roadmap-2024-28jc)
 
-If you ever wonder about [<FontIcon icon="fa-brands fa-dev"/>the future of frontend development](https://dev.to/codewithshahan/the-future-of-frontend-development-1amd), you can also take a look at this article.
+If you ever wonder about [<VPIcon icon="fa-brands fa-dev"/>the future of frontend development](https://dev.to/codewithshahan/the-future-of-frontend-development-1amd), you can also take a look at this article.
 
-Stay tuned for more valuable content, and if you find it helpful, you may also like my [YouTube Channel (<FontIcon icon="fa-brands fa-youtube"/>`programmingwithshahan`)](https://youtube.com/programmingwithshahan).
+Stay tuned for more valuable content, and if you find it helpful, you may also like my [YouTube Channel (<VPIcon icon="fa-brands fa-youtube"/>`programmingwithshahan`)](https://youtube.com/programmingwithshahan).
 
-[🤳My Social: X (<FontIcon icon="fa-brands fa-x-twitter"/>`shahancd`)](https://x.com/shahancd)
+[🤳My Social: X (<VPIcon icon="fa-brands fa-x-twitter"/>`shahancd`)](https://x.com/shahancd)
 
 Thanks for taking the time to read this article.

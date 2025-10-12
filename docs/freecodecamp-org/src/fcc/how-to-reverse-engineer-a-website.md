@@ -63,7 +63,7 @@ If you understand how to access the data API on this website, you can use the sa
 
 This article should be accessible to anyone who knows the basics of programming. You will see examples in JavaScript, but you can use these techniques in your favorite language. Having some basic knowledge of how the web works will also be helpful.
 
-You need to install the project from [GitHub (<FontIcon icon="iconfont icon-github"/>`a0m0rajab/reverse-engineering-lab`)](https://github.com/a0m0rajab/reverse-engineering-lab) and run it to experiment with this tutorial.
+You need to install the project from [GitHub (<VPIcon icon="iconfont icon-github"/>`a0m0rajab/reverse-engineering-lab`)](https://github.com/a0m0rajab/reverse-engineering-lab) and run it to experiment with this tutorial.
 
 <SiteInfo
   name="a0m0rajab/reverse-engineering-lab"
@@ -371,7 +371,7 @@ In real-world examples, things are complicated, and you'll need to explore them 
 
 Reverse engineering is not easy and requires a fair bit of patience, dedication, and persistence. As you can see, understanding the website takes a lot of time. Not all websites have clean API calls, and some have the calls mixed with a different number of files needed for the website, such as CSS scripts or even images. All you need is to be patient and try to think outside the box.
 
-If you like this article, subscribe to my [newsletter](https://hadithtechen.substack.com/) and follow me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`a0m0rajab`)](https://x.com/a0m0rajab).
+If you like this article, subscribe to my [newsletter](https://hadithtechen.substack.com/) and follow me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`a0m0rajab`)](https://x.com/a0m0rajab).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

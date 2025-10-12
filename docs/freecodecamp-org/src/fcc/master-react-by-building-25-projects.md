@@ -99,7 +99,7 @@ Whether you're a beginner to React or an intermediate developer looking to deepe
 24. **Expense Tracker App**: Develop an app to track and manage expenses.
 25. **MERN Stack Blog App**: Combine React with MongoDB, Express.js, and Node.js to build a full-stack blog application.
 
-By the end of this journey, you'll have a portfolio brimming with projects that demonstrate your skills and a deep understanding of React's principles and best practices. Watch the full course [<FontIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/5ZdHfJVAY-s) (10-hour watch).
+By the end of this journey, you'll have a portfolio brimming with projects that demonstrate your skills and a deep understanding of React's principles and best practices. Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/5ZdHfJVAY-s) (10-hour watch).
 
 <VidStack src="youtube/5ZdHfJVAY-s" />
 

@@ -243,7 +243,7 @@ The `zip()` function is a handy tool in Python that lets you combine multiple it
 
 With the examples in this article, you should now have a good understanding of how to use `zip()` in various scenarios.
 
-If you found this explanation of Python's `zip()` function helpful, you might also enjoy more in-depth programming tutorials and concepts I cover on my [<FontIcon icon="fas fa-globe"/>blog](https://blog.theenthusiast.dev).
+If you found this explanation of Python's `zip()` function helpful, you might also enjoy more in-depth programming tutorials and concepts I cover on my [<VPIcon icon="fas fa-globe"/>blog](https://blog.theenthusiast.dev).
 
 Happy coding!
 

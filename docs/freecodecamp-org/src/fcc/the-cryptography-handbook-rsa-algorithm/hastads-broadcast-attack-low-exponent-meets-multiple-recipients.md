@@ -67,7 +67,7 @@ $$
 
 Eve, who intercepts all three $C_{1}$, $C_{2}$, $C_{3}$ can recover $M$ without breaking any single RSA key.
 
-Since each $N_{i}$ is different (and we assume they are pairwise coprime, as RSA keys should be), the attacker can use the Chinese Remainder Theorem (CRT) to combine the three congruences $x\equiv{C}_{i}\left(\text{mod}\:N_{i}\right)$. Note that at this point Eve only has $C_1$, $C_{2}$ and $C_{3}$. They do not have the plaintext $M$ or $M^{3}$ and yet they can reconstruct $M^{3}$ with the intercepted data. To understand the Chinese Remainder Theorem and this reconstruction, you may follow this: [<FontIcon icon="fa-brands fa-youtube"/>CRT, RSA, and Low Exponent Attacks](https://youtube.com/Mt9v7-xBuaA).
+Since each $N_{i}$ is different (and we assume they are pairwise coprime, as RSA keys should be), the attacker can use the Chinese Remainder Theorem (CRT) to combine the three congruences $x\equiv{C}_{i}\left(\text{mod}\:N_{i}\right)$. Note that at this point Eve only has $C_1$, $C_{2}$ and $C_{3}$. They do not have the plaintext $M$ or $M^{3}$ and yet they can reconstruct $M^{3}$ with the intercepted data. To understand the Chinese Remainder Theorem and this reconstruction, you may follow this: [<VPIcon icon="fa-brands fa-youtube"/>CRT, RSA, and Low Exponent Attacks](https://youtube.com/Mt9v7-xBuaA).
 
 <VidStack src="youtube/Mt9v7-xBuaA" />
 
@@ -121,7 +121,7 @@ $$
   - Then Eve computes $M_{c}=\left(N_{c}\right)^{−1}\:\text{mod}\:n_{c}$. Here $N_{c}=16269$. The inverse mod $115$ turns out to be $M_{c}=49$ (For verification: $16269\times{49}\equiv{1}\left(\text{mod}\:115\right)$).
   - Next up, Eve computes $M_{d}=\left(N_{d}\right)^{−1}\:\text{mod}\:n_{d}$. For $N_{d}=21505$, the inverse mod $87$ is $M_{d}=49$ as well (coincidentally the same value in this case, since $21505\times{49}\equiv{1}\left(\text{mod}\:87\right)$).
 
-Now Eve reconstructs the combined value using the Chinese Remainder Theorem for three congruencies. The construction of this formula is beyond the scope of this handbook, but to completely understand how this springs into action, you may go through this video: [<FontIcon icon="fa-brands fa-youtube"/>CRT, RSA and Low Exponent Attacks](https://youtu.be/Mt9v7-xBuaA).
+Now Eve reconstructs the combined value using the Chinese Remainder Theorem for three congruencies. The construction of this formula is beyond the scope of this handbook, but to completely understand how this springs into action, you may go through this video: [<VPIcon icon="fa-brands fa-youtube"/>CRT, RSA and Low Exponent Attacks](https://youtu.be/Mt9v7-xBuaA).
 
 $$
 \begin{align*}

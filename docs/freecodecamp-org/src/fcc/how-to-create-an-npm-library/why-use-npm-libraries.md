@@ -92,7 +92,7 @@ Some key features include:
 🔹 **Version control** - Specify package versions to avoid breaking changes.  
 🔹 **Peer dependencies** - Ensure compatibility between different libraries.
 
-For example, here’s how npm helps manage dependency versions in <FontIcon icon="iconfont icon-json"/>`package.json`:
+For example, here’s how npm helps manage dependency versions in <VPIcon icon="iconfont icon-json"/>`package.json`:
 
 ```json title="package.json
 "dependencies": {

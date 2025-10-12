@@ -108,9 +108,9 @@ Before we dive in, make sure you have the following:
 - Python 3.x installed on your system. The code examples should work in any recent Python version.
 - Basic familiarity with Python programming (looping, functions, using libraries) and an understanding of logs (for example, what a log entry looks like) will be helpful.
 - Python libraries: We’ll use a few common libraries that are lightweight and don’t require special hardware:
-  - [<FontIcon icon="iconfont icon-pandas"/>pandas](https://pandas.pydata.org/) for basic data handling (if your logs are in CSV or similar format).
-  - [<FontIcon icon="iconfont icon-numpy"/>numpy](https://numpy.org/) for numeric operations.
-  - [<FontIcon icon="fas fa-globe"/>scikit-learn](https://scikit-learn.org/) for the anomaly detection model (specifically, we’ll use the IsolationForest algorithm).
+  - [<VPIcon icon="iconfont icon-pandas"/>pandas](https://pandas.pydata.org/) for basic data handling (if your logs are in CSV or similar format).
+  - [<VPIcon icon="iconfont icon-numpy"/>numpy](https://numpy.org/) for numeric operations.
+  - [<VPIcon icon="fas fa-globe"/>scikit-learn](https://scikit-learn.org/) for the anomaly detection model (specifically, we’ll use the IsolationForest algorithm).
 - A set of log data to analyze. You can use any log file (system logs, application logs, and so on) in plain text or CSV format. For demonstration, we’ll simulate a small log dataset so you can follow along even without a ready-made log file.
 
 :::
@@ -129,7 +129,7 @@ pip install pandas numpy scikit-learn
 
 ## Setting Up the Project
 
-Let’s set up a simple project structure. Create a new directory for this SIEM anomaly detection project and navigate into it. Inside, you can have a Python script (for example, <FontIcon icon="fa-brands fa-python"/>`siem_anomaly_demo.py`) or a Jupyter Notebook to run the code step by step.
+Let’s set up a simple project structure. Create a new directory for this SIEM anomaly detection project and navigate into it. Inside, you can have a Python script (for example, <VPIcon icon="fa-brands fa-python"/>`siem_anomaly_demo.py`) or a Jupyter Notebook to run the code step by step.
 
 Make sure your working directory contains or can access your log data. If you’re using a log file, it might be a good idea to place a copy in this project folder. For our proof-of-concept, since we will generate synthetic log data, we won’t need an external file — but in a real scenario you would.
 
@@ -361,7 +361,7 @@ Detecting an anomaly is only half the battle — the next step is responding to 
 What could an AI-powered SIEM do when it flags something unusual? Here are some possibilities:
 
 - **Alerting:** The simplest action is to send an alert to security personnel. This could be an email, a Slack message, or creating a ticket in an incident management system. The alert would contain details of the anomaly (for example, “User *alice* had 50 failed login attempts in 1 minute, which is abnormal”). GenAI can help here by generating a clear natural-language summary of the incident for the analyst.
-- **Automated mitigation:** More advanced systems might take direct action. For instance, if an IP address is showing malicious behavior in logs, the system could automatically block that IP on the firewall. In our login spike example, the system might temporarily lock the user account or prompt for additional authentication, under the assumption that it might be a bot attack. AI-based SIEMs today can indeed trigger predefined response actions or even orchestrate complex workflows when certain threats are detected (refer to [<FontIcon icon="fas fa-globe"/>AI SIEM: How SIEM with AI/ML is Revolutionizing the SOC | Exabeam](https://exabeam.com/explainers/siem/ai-siem-how-siem-with-ai-ml-is-revolutionizing-the-soc/#:~:text=automatically%20trigger%20alerts%2C%20implement%20predefined,even%20orchestrate%20complex%20response%20workflows) for more information).
+- **Automated mitigation:** More advanced systems might take direct action. For instance, if an IP address is showing malicious behavior in logs, the system could automatically block that IP on the firewall. In our login spike example, the system might temporarily lock the user account or prompt for additional authentication, under the assumption that it might be a bot attack. AI-based SIEMs today can indeed trigger predefined response actions or even orchestrate complex workflows when certain threats are detected (refer to [<VPIcon icon="fas fa-globe"/>AI SIEM: How SIEM with AI/ML is Revolutionizing the SOC | Exabeam](https://exabeam.com/explainers/siem/ai-siem-how-siem-with-ai-ml-is-revolutionizing-the-soc/#:~:text=automatically%20trigger%20alerts%2C%20implement%20predefined,even%20orchestrate%20complex%20response%20workflows) for more information).
 - **Investigation support:** Generative AI could also be used to automatically gather context. For example, upon detecting the anomaly, the system could pull related logs (surrounding events, other actions by the same user or from the same IP) and provide an aggregated report. This saves the analyst from manually querying multiple data sources.
 
 It’s important to implement automated responses carefully — you don’t want the system to overreact to false positives. A common strategy is a tiered response: low-confidence anomalies might just log a warning or send a low-priority alert, whereas high-confidence anomalies (or combinations of anomalies) trigger active defense measures.

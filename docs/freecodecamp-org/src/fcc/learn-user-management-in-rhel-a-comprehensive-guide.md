@@ -105,11 +105,11 @@ sudo useradd Tanishka # Normal user
 
 :::
 
-Once you create a user, you can verify its existence in the <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`passwd` file. This file stores essential user account information (but **not passwords**, despite the name).
+Once you create a user, you can verify its existence in the <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`passwd` file. This file stores essential user account information (but **not passwords**, despite the name).
 
 #### How to check if a user is created
 
-To confirm the user entry in <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`passwd`, use one of the following methods:
+To confirm the user entry in <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`passwd`, use one of the following methods:
 
 ::: tabs
 
@@ -136,7 +136,7 @@ id Tanishka
 
 :::
 
-Let’s understand what’s going on in the <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`passwd` fields. Each line in <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`passwd` represents a user account and contains seven fields separated by colons (`:`):
+Let’s understand what’s going on in the <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`passwd` fields. Each line in <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`passwd` represents a user account and contains seven fields separated by colons (`:`):
 
 ```sh
 username:x:UID:GID:comment:home_directory:shell
@@ -149,7 +149,7 @@ username:x:UID:GID:comment:home_directory:shell
 | `UID` | User ID (for example, 1001 for a normal user, 0 for root). |
 | `GID` | Group ID (primary group of the user). |
 | `comment` | Optional user description (for example, full name or other info). |
-| `home_directory` | User’s home directory (for example <FontIcon icon="fas fa-folder-open"/>`/home/john`). |
+| `home_directory` | User’s home directory (for example <VPIcon icon="fas fa-folder-open"/>`/home/john`). |
 | `shell` | The default shell assigned to the user (for example, /bin/bash, /bin/sh, /usr/sbin/nologin). |
 
 ### How to Assign a Password
@@ -172,15 +172,15 @@ passwd Tanishka
 
 :::
 
-You will be prompted to enter the password. Enter the password and you’re all set! Even though user information is stored in <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`passwd` file, actual information about the password is stored in the <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`shadow` file (weird, I know…).
+You will be prompted to enter the password. Enter the password and you’re all set! Even though user information is stored in <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`passwd` file, actual information about the password is stored in the <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`shadow` file (weird, I know…).
 
-To see the content of the <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`shadow` file, use this command:
+To see the content of the <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`shadow` file, use this command:
 
 ```sh
 cat /etc/shadow
 ```
 
-Each line in <FontIcon icon="fas fa-folder-open"/>`/etc/`<FontIcon icon="fas fa-file-lines"/>`shadow` represents a user account password and contains nine fields separated by colons (`:`):
+Each line in <VPIcon icon="fas fa-folder-open"/>`/etc/`<VPIcon icon="fas fa-file-lines"/>`shadow` represents a user account password and contains nine fields separated by colons (`:`):
 
 ```sh
 username:password:lastchg:min:max:warn:inactive:expire:reserved
@@ -316,7 +316,7 @@ usermod -l tanishkamakode tanishka
 
 :::
 
-This renames `tanishka` to `tanishkamakode`. Just keep in mind that the home directory remains the same (<FontIcon icon="fas fa-folder-open"/>`/home/tanishka`), so you might need to rename it manually.
+This renames `tanishka` to `tanishkamakode`. Just keep in mind that the home directory remains the same (<VPIcon icon="fas fa-folder-open"/>`/home/tanishka`), so you might need to rename it manually.
 
 To rename the home directory as well, use:
 
@@ -432,7 +432,7 @@ usermod -d /home/tani tanishka
 
 :::
 
-This sets `tanishka`'s home directory to <FontIcon icon="fas fa-folder-open"/>`/home/tani`, but **it does not move existing files**. To move them, add the `-m` option:
+This sets `tanishka`'s home directory to <VPIcon icon="fas fa-folder-open"/>`/home/tani`, but **it does not move existing files**. To move them, add the `-m` option:
 
 ```sh
 usermod -d /home/tani -m tanishka
@@ -486,7 +486,7 @@ Keep practicing these commands, and soon they’ll become second nature to you. 
 
 Stay tuned for more articles. Get ready to take your RHEL skills to the next level.
 
-[<FontIcon icon="fas fa-globe"/>Let’s connect!](https://linktr.ee/tanishkamakode)
+[<VPIcon icon="fas fa-globe"/>Let’s connect!](https://linktr.ee/tanishkamakode)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -86,7 +86,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739971173263/869c0c1
 
 Cold emails can make a huge difference in your job search, but writing the perfect one takes time. You need to match your skills with the job description, find the right tone, and do it over and over again—it’s exhausting.
 
-This guide will walk you through building a cold email generator agent using serverless memory agents by [<FontIcon icon="fa-brands fa-globe"/>Langbase](http://langbase.com) to automate this entire process. We’ll integrate the memory agent into a Node.js project, enabling it to read your résumé, analyze the job description, and generate a personalized, high-impact cold email in seconds.
+This guide will walk you through building a cold email generator agent using serverless memory agents by [<VPIcon icon="fa-brands fa-globe"/>Langbase](http://langbase.com) to automate this entire process. We’ll integrate the memory agent into a Node.js project, enabling it to read your résumé, analyze the job description, and generate a personalized, high-impact cold email in seconds.
 
 ---
 
@@ -106,15 +106,15 @@ By integrating **Memory Agents** by Langbase, we can give LLMs long-term memory�
 
 ## What Are Memory Agents?
 
-[<FontIcon icon="fas fa-globe"/>Langbase serverless memory agents](https://langbase.com/docs/memory) (long-term memory solution) are designed to acquire, process, retain, and retrieve information seamlessly. They dynamically attach private data to any LLM, enabling context-aware responses in real time and reducing hallucinations.
+[<VPIcon icon="fas fa-globe"/>Langbase serverless memory agents](https://langbase.com/docs/memory) (long-term memory solution) are designed to acquire, process, retain, and retrieve information seamlessly. They dynamically attach private data to any LLM, enabling context-aware responses in real time and reducing hallucinations.
 
 These agents combine vector storage, Retrieval-Augmented Generation (RAG), and internet access to create a powerful managed context search API. Developers can use them to build smarter, more capable AI applications.
 
-In a RAG setup, memory - when connected directly to a [<FontIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe/quickstart) - becomes a memory agent. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers—addressing the limitations of LLMs when it comes to handling private data.
+In a RAG setup, memory - when connected directly to a [<VPIcon icon="fas fa-globe"/>Langbase Pipe Agent](https://langbase.com/docs/pipe/quickstart) - becomes a memory agent. This pairing gives the LLM the ability to fetch relevant data and deliver precise, contextually accurate answers—addressing the limitations of LLMs when it comes to handling private data.
 
 Memory agents ensure secure local memory storage. Data used to create memory embeddings stays protected, processed within secure environments, and only sent externally if explicitly configured. Access is strictly controlled via API keys, ensuring sensitive information remains safe.
 
-Note that pipe is a serverless AI agent. It has agentic memory and tools. More details [<FontIcon icon="fas fa-globe"/>here](https://langbase.com/docs/pipe/quickstart).
+Note that pipe is a serverless AI agent. It has agentic memory and tools. More details [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/pipe/quickstart).
 
 ::: note Prerequisites
 
@@ -122,14 +122,14 @@ Before we begin creating a cold email generator agent, you’ll need to have the
 
 In this tutorial, I’ll be using this tech stack:
 
-- [<FontIcon icon="fas fa-globe"/>BaseAI](http://baseai.dev/) — the web framework for building AI agents locally.
-- [<FontIcon icon="fas fa-globe"/>Langbase](http://langbase.com/) — the platform to build and deploy your serverless AI agents.
-- [<FontIcon icon="iconfont icon-openapi"/>OpenAI](https://openai.com/) — to get the LLM key for the preferred model.
+- [<VPIcon icon="fas fa-globe"/>BaseAI](http://baseai.dev/) — the web framework for building AI agents locally.
+- [<VPIcon icon="fas fa-globe"/>Langbase](http://langbase.com/) — the platform to build and deploy your serverless AI agents.
+- [<VPIcon icon="iconfont icon-openapi"/>OpenAI](https://openai.com/) — to get the LLM key for the preferred model.
 
 You’ll also need to:
 
-- Sign up on [<FontIcon icon="fas fa-globe"/>Langbase](https://langbase.com/signup) to get access to the API key.
-- Sign up on [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/signup) to generate the LLM key for the model you want to use (for this demo, I’ll be using GPT-4o mini). You can generate the key [<FontIcon icon="iconfont icon-openai"/>here](https://platform.openai.com/api-keys).
+- Sign up on [<VPIcon icon="fas fa-globe"/>Langbase](https://langbase.com/signup) to get access to the API key.
+- Sign up on [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/signup) to generate the LLM key for the model you want to use (for this demo, I’ll be using GPT-4o mini). You can generate the key [<VPIcon icon="iconfont icon-openai"/>here](https://platform.openai.com/api-keys).
 
 :::
 
@@ -161,7 +161,7 @@ This command will create a package.json file in your project directory with defa
 
 ## Step 2: Create a Serverless Pipe Agent
 
-Next, we’ll be creating a [<FontIcon icon="fas fa-globe"/>pipe agent](https://langbase.com/docs/pipe/quickstart). Pipes are different from other agents, as they are serverless AI agents with agentic tools that can work with any language or framework. They are easily deployable, and with just one API they let you connect more than 250 LLMs to any data to build any developer API workflow.
+Next, we’ll be creating a [<VPIcon icon="fas fa-globe"/>pipe agent](https://langbase.com/docs/pipe/quickstart). Pipes are different from other agents, as they are serverless AI agents with agentic tools that can work with any language or framework. They are easily deployable, and with just one API they let you connect more than 250 LLMs to any data to build any developer API workflow.
 
 To create your AI agent pipe, navigate to your project directory. Run the following command:
 
@@ -179,13 +179,13 @@ Status of the pipe? Public/Private
 System prompt? You are a helpful AI assistant
 ```
 
-Once you are done with the name, description, and status of the AI agent pipe, everything will be set up automatically for you. Your pipe will be created successfully at <FontIcon icon="fas fa-folder-open"/>`/baseai/pipes/`<FontIcon icon="iconfont icon-typescript"/>`email-generator-agent.ts`.
+Once you are done with the name, description, and status of the AI agent pipe, everything will be set up automatically for you. Your pipe will be created successfully at <VPIcon icon="fas fa-folder-open"/>`/baseai/pipes/`<VPIcon icon="iconfont icon-typescript"/>`email-generator-agent.ts`.
 
 ---
 
 ## Step 3: Add a .env File
 
-Create a `.env` file in the root directory of your project and add the [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API keys in it. You can access your Langbase API key from [<FontIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
+Create a `.env` file in the root directory of your project and add the [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API keys in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
 
 ---
 
@@ -205,13 +205,13 @@ Description of the memory? Contains my resume
 Do you want to create memory from the current project git repository? Yes/No
 ```
 
-After this, everything will be set up automatically for you and you can access your memory created successfully at <FontIcon icon="fas fa-folder-open"/>`/baseai/memory/`<FontIcon icon="iconfont icon-typescript"/>`email-generator-memory.ts`.
+After this, everything will be set up automatically for you and you can access your memory created successfully at <VPIcon icon="fas fa-folder-open"/>`/baseai/memory/`<VPIcon icon="iconfont icon-typescript"/>`email-generator-memory.ts`.
 
 ---
 
 ## Step 5: Add Documents to the Memory Agent
 
-Inside <FontIcon icon="fas fa-folder-open"/>`/baseai/memory/`<FontIcon icon="iconfont icon-typescript"/>`email-generator-memory.ts` you’ll see another folder called documents. This is where you’ll store the files you want your AI agent to access. Let’s save your résumé as either a `.pdf` or `.txt` file. Then, I’ll convert it to a markdown file and place it in the <FontIcon icon="fas fa-folder-open"/>`/baseai/memory/email-generator-memory/documents` directory.
+Inside <VPIcon icon="fas fa-folder-open"/>`/baseai/memory/`<VPIcon icon="iconfont icon-typescript"/>`email-generator-memory.ts` you’ll see another folder called documents. This is where you’ll store the files you want your AI agent to access. Let’s save your résumé as either a `.pdf` or `.txt` file. Then, I’ll convert it to a markdown file and place it in the <VPIcon icon="fas fa-folder-open"/>`/baseai/memory/email-generator-memory/documents` directory.
 
 This step ensures that the memory agent can process and retrieve information from your documents, making the AI agent capable of generating accurate cold emails based on the experiences and skills provided in the résumé attached.
 
@@ -241,7 +241,7 @@ Your memory is now ready to be connected with a Pipe (memory agent), enabling yo
 
 ## Step 7: Integrate Memory in Pipe Agent
 
-Next, you have to attach the memory you created to your Pipe agent to make it a memory agent. For that, go to <FontIcon icon="fas fa-folder-open"/>`/baseai/pipes/`<FontIcon icon="iconfont icon-typescript"/>`email-generator-agent.ts`. This is what it will look like at the moment:
+Next, you have to attach the memory you created to your Pipe agent to make it a memory agent. For that, go to <VPIcon icon="fas fa-folder-open"/>`/baseai/pipes/`<VPIcon icon="iconfont icon-typescript"/>`email-generator-agent.ts`. This is what it will look like at the moment:
 
 ```ts :collapsed-lines
 import { PipeI } from '@baseai/core';
@@ -419,7 +419,7 @@ npx baseai@latest dev
 
 ## Step 10: Run the Memory Agent
 
-Run the <FontIcon icon="iconfont icon-typescript"/>`index.ts` file using the following command:
+Run the <VPIcon icon="iconfont icon-typescript"/>`index.ts` file using the following command:
 
 ```sh
 npx tsx index.ts
@@ -439,9 +439,9 @@ Thank you for reading!
 
 ::: info Connect with me by 🙌
 
-- Subscribing to my [YouTube (<FontIcon icon="fa-brands fa-youtube"/>`AIwithMahamCodes`)](https://youtube.com/@AIwithMahamCodes) Channel. If you are willing to learn about AI and agents.
-- Subscribing to my free newsletter [<FontIcon icon="fas fa-globe"/>“The Agentic Engineer”](https://mahamcodes.substack.com/) where I share all the latest AI and agents news/trends/jobs and much more.
-- Follow me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`MahamDev`)](https://x.com/MahamDev).
+- Subscribing to my [YouTube (<VPIcon icon="fa-brands fa-youtube"/>`AIwithMahamCodes`)](https://youtube.com/@AIwithMahamCodes) Channel. If you are willing to learn about AI and agents.
+- Subscribing to my free newsletter [<VPIcon icon="fas fa-globe"/>“The Agentic Engineer”](https://mahamcodes.substack.com/) where I share all the latest AI and agents news/trends/jobs and much more.
+- Follow me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`MahamDev`)](https://x.com/MahamDev).
 
 :::
 

@@ -112,7 +112,7 @@ The change command allows us to replace portions of text efficiently, while the 
 
 ## Conclusion
 
-By the end of this course, you'll have a solid foundation in VIM, enabling you to use it effectively in your development work. Watch the full course on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/JYNA9j8SXs4) (4-hour watch).
+By the end of this course, you'll have a solid foundation in VIM, enabling you to use it effectively in your development work. Watch the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/JYNA9j8SXs4) (4-hour watch).
 
 <VidStack src="youtube/JYNA9j8SXs4" />
 

@@ -71,15 +71,15 @@ If you’re a YouTube content creator, you’ll make data-driven decisions when 
 
 YouTube Studio provides YouTube Analytics, where you can get comprehensive data about your channel. But there is a caveat: most of the statistics provided by YouTube Analytics are descriptive and not predictive. This means information like future views, subscriber counts, and factors influencing watch time or earnings are unavailable. This means you’ll need to calculate these metrics yourself.
 
-In this article, you’ll learn how to export data from YouTube Analytics to Python so you can analyze it further or create visualizations. You can even build your own custom dashboard using various Python libraries like [<FontIcon icon="fas fa-globe"/>Streamlit](https://streamlit.io/), [<FontIcon icon="fas fa-globe"/>Shiny](https://shiny.posit.co/py/), or [<FontIcon icon="fas fa-globe"/>Dash](https://dash.plotly.com/).
+In this article, you’ll learn how to export data from YouTube Analytics to Python so you can analyze it further or create visualizations. You can even build your own custom dashboard using various Python libraries like [<VPIcon icon="fas fa-globe"/>Streamlit](https://streamlit.io/), [<VPIcon icon="fas fa-globe"/>Shiny](https://shiny.posit.co/py/), or [<VPIcon icon="fas fa-globe"/>Dash](https://dash.plotly.com/).
 
 ::: note Prerequisites
 
 - Active YouTube and YouTube Studio Account
 - Jupyter Notebook, Google Colab, Kaggle, or any other environment that supports Python
-- [<FontIcon icon="iconfont icon-pandas"/>Pandas](https://pandas.pydata.org/) library installed
-- [<FontIcon icon="fas fa-globe"/>Seaborn](https://seaborn.pydata.org/) library installed
-- [<FontIcon icon="iconfont icon-matplotlib"/>Matplotlib](https://matplotlib.org/) library installed
+- [<VPIcon icon="iconfont icon-pandas"/>Pandas](https://pandas.pydata.org/) library installed
+- [<VPIcon icon="fas fa-globe"/>Seaborn](https://seaborn.pydata.org/) library installed
+- [<VPIcon icon="iconfont icon-matplotlib"/>Matplotlib](https://matplotlib.org/) library installed
 
 :::
 
@@ -132,9 +132,9 @@ This will display two options: whether to open the data in Google Sheets in a ne
 
 ![Image showing the download options to open the data in a google sheets new tab or download the csv](https://cdn.hashnode.com/res/hashnode/image/upload/v1742548490620/c8829a2b-228b-45fd-8789-45dfb397f2da.png)
 
-Since we want to use the data in Python, select the option to download the CSV file. After downloading the file, extract the files from the zip folder, and inside the extracted folder, you will see three CSV files: <FontIcon icon="fas fa-file-csv"/>`Chart data.csv`, <FontIcon icon="fas fa-file-csv"/>`Table data.csv`, and <FontIcon icon="fas fa-file-csv"/>`Totals.csv`.
+Since we want to use the data in Python, select the option to download the CSV file. After downloading the file, extract the files from the zip folder, and inside the extracted folder, you will see three CSV files: <VPIcon icon="fas fa-file-csv"/>`Chart data.csv`, <VPIcon icon="fas fa-file-csv"/>`Table data.csv`, and <VPIcon icon="fas fa-file-csv"/>`Totals.csv`.
 
-For this tutorial, we are interested in the <FontIcon icon="fas fa-file-csv"/>`Table data.csv`. Click the data to open and view it in Excel to do some manual data cleaning before importing the data in Python.
+For this tutorial, we are interested in the <VPIcon icon="fas fa-file-csv"/>`Table data.csv`. Click the data to open and view it in Excel to do some manual data cleaning before importing the data in Python.
 
 ![Image showing the Table data in Excel](https://cdn.hashnode.com/res/hashnode/image/upload/v1742548741025/ace69aaf-bb0e-40de-aa1e-e716bb4182aa.png)
 
@@ -174,7 +174,7 @@ df = pd.read_csv("/content/Table data.csv")
 
 ### Correlation Analysis
 
-Concerning our problem statement, we are going to plot a [<FontIcon icon="fas fa-globe"/>correlation heatmap](https://quanthub.com/how-to-read-a-correlation-heatmap/) between the following variables: `Views`, `Watch time (hours)`, `Subscribers`, `Average view duration`, and `Impressions-click-through rate (%)` to see the strength and direction of the relationship between them.
+Concerning our problem statement, we are going to plot a [<VPIcon icon="fas fa-globe"/>correlation heatmap](https://quanthub.com/how-to-read-a-correlation-heatmap/) between the following variables: `Views`, `Watch time (hours)`, `Subscribers`, `Average view duration`, and `Impressions-click-through rate (%)` to see the strength and direction of the relationship between them.
 
 ```py
 # Convert "Average view duration" (formatted as H:M:S) to seconds
@@ -268,7 +268,7 @@ plt.show()
 
 ![Scatter plot showing audience retention against video duration](https://cdn.hashnode.com/res/hashnode/image/upload/v1742634776775/e024b61c-d86f-45d6-b8fb-13ff87e101e9.png)
 
-The [<FontIcon icon="fas fa-globe"/>scatter plot](https://byjus.com/commerce/scatter-diagram/) above shows the relationship between audience retention rate (y-axis, measured as a percentage) and video duration (x-axis, measured in seconds) for various videos. Here are the following key observations:
+The [<VPIcon icon="fas fa-globe"/>scatter plot](https://byjus.com/commerce/scatter-diagram/) above shows the relationship between audience retention rate (y-axis, measured as a percentage) and video duration (x-axis, measured in seconds) for various videos. Here are the following key observations:
 
 - There's a clear negative correlation between video duration and retention rate - as videos get longer, the retention rate generally decreases.
 - The highest retention rates (35-40%) are found in shorter videos, mostly under 500 seconds (around 8 minutes).
@@ -287,7 +287,7 @@ What we’ve learned from my data is just the tip of the iceberg. YouTube has ma
 
 But after reading this article, I hope that you can think of endless information you want to get based on these metrics. You can even forecast your views, subscriber counts, and revenue for the next days or months. You can also perform a multivariate time series analysis to see how these factors affect your primary variable of interest.
 
-If you find this article interesting, don’t forget to check out my [<FontIcon icon="fas fa-globe"/>blog](https://learndata.xyz/blog) for other interesting articles, follow me on [Medium (<FontIcon icon="fa-brands fa-medium"/>`adejumo999`)](https://medium.com/@adejumo999), connect on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`adejumoridwan`)](https://linkedin.com/in/adejumoridwan/), and subscribe to my [YouTube channel (<FontIcon icon="fa-brands fa-youtube"/>`learndata_xyz`)](http://youtube.com/@learndata_xyz).
+If you find this article interesting, don’t forget to check out my [<VPIcon icon="fas fa-globe"/>blog](https://learndata.xyz/blog) for other interesting articles, follow me on [Medium (<VPIcon icon="fa-brands fa-medium"/>`adejumo999`)](https://medium.com/@adejumo999), connect on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`adejumoridwan`)](https://linkedin.com/in/adejumoridwan/), and subscribe to my [YouTube channel (<VPIcon icon="fa-brands fa-youtube"/>`learndata_xyz`)](http://youtube.com/@learndata_xyz).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

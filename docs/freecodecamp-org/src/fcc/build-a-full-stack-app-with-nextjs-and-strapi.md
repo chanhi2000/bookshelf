@@ -61,7 +61,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738855654744/dd05c62
 
 Building modern, dynamic websites requires a combination of powerful front-end frameworks and flexible content management systems. Whether you're a developer looking to enhance your skills or a beginner wanting to create your first web project, learning how to integrate Next.js with a headless CMS like Strapi can give you the tools to build scalable and maintainable applications.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you how to build a **fully functional summer camp website using Next.js 15 and Strapi 5**. This project-based course walks you through the entire process, from setting up the project to implementing complex features like dynamic content loading, search functionality, and form submissions. By the end of the course, you will have a professional-quality website that is both developer-friendly and easy for clients to manage. Paul Bratslavsky developed this course.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you how to build a **fully functional summer camp website using Next.js 15 and Strapi 5**. This project-based course walks you through the entire process, from setting up the project to implementing complex features like dynamic content loading, search functionality, and form submissions. By the end of the course, you will have a professional-quality website that is both developer-friendly and easy for clients to manage. Paul Bratslavsky developed this course.
 
 ---
 
@@ -93,7 +93,7 @@ This course is designed to take you step by step through the development of a re
 
 This course is perfect for developers looking to improve their **Next.js and Strapi skills** while building a practical project. Whether you are a front-end developer wanting to explore full-stack development or a beginner eager to learn modern web technologies, this course will provide you with valuable knowledge and experience.
 
-Watch the full course now on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/Q-cPtlYG1cY), and start building your own content-rich, dynamic website.
+Watch the full course now on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/Q-cPtlYG1cY), and start building your own content-rich, dynamic website.
 
 <VidStack src="youtube/Q-cPtlYG1cY" />
 

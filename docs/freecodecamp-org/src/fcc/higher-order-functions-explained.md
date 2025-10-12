@@ -580,7 +580,7 @@ Throughout this article, you've explored the core concepts of HOFs, discussed po
 
 As you move forward, keep these powerful tools in your JavaScript arsenal. By mastering HOFs, you'll write cleaner, more concise, and expressive code, propelling your development skills to new heights. Remember, the journey doesn't end here! Explore functional programming concepts that seamlessly integrate with HOFs. There's always more to learn and discover.
 
-Connect with me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://ng.linkedin.com/in/joan-ayebola)
+Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://ng.linkedin.com/in/joan-ayebola)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

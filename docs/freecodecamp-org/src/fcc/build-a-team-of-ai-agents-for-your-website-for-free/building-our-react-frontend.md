@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742397437476/0ffa13b
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1742397437476/0ffa13b0-c668-40d7-864f-596f523f6101.png"/>
 
-We have reached halfway point, and all that's left is to build your front end. We’ll build the front end using [<FontIcon icon="iconfont icon-vite"/>Vite](https://vite.dev/), and the website will have six pages. Make sure that you are now inside the root folder for the `ai-agent-app` project. You can leave the Python server running because your front end is going to connect to the API routes you created.
+We have reached halfway point, and all that's left is to build your front end. We’ll build the front end using [<VPIcon icon="iconfont icon-vite"/>Vite](https://vite.dev/), and the website will have six pages. Make sure that you are now inside the root folder for the `ai-agent-app` project. You can leave the Python server running because your front end is going to connect to the API routes you created.
 
 Now, run the commands below to setup your React project using Vite, Tailwind CSS, react-router and Axios, which we need for page routing and fetch requests:
 
@@ -78,7 +78,7 @@ Our React frontend should now have a project structure like the example shown be
 
 We are now ready to start writing some code.
 
-Up first is the <FontIcon icon="fa-brands fa-js"/>`tailwind.config.js` file. This is the only configuration file you’ll need to work on, as the others already have the configuration we need. Replace all of the code in the file with the code below:
+Up first is the <VPIcon icon="fa-brands fa-js"/>`tailwind.config.js` file. This is the only configuration file you’ll need to work on, as the others already have the configuration we need. Replace all of the code in the file with the code below:
 
 ```js title="tailwind.config.js"
 /** @type {import('tailwindcss').Config} */
@@ -93,9 +93,9 @@ export default {
 
 All this code does is add the paths to all of your template files.
 
-Ok, next, you are going to work on your styles and Tailwind CSS. There are three CSS files to work on: <FontIcon icon="fa-brands fa-css3-alt"/>`App.css`, `<FontIcon icon="fa-brands fa-css3-alt"/>index.css`, and <FontIcon icon="fa-brands fa-css3-alt"/>`style.css`.
+Ok, next, you are going to work on your styles and Tailwind CSS. There are three CSS files to work on: <VPIcon icon="fa-brands fa-css3-alt"/>`App.css`, `<VPIcon icon="fa-brands fa-css3-alt"/>index.css`, and <VPIcon icon="fa-brands fa-css3-alt"/>`style.css`.
 
-First up is the <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file. Replace all of the code with this code here:
+First up is the <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` file. Replace all of the code with this code here:
 
 ```css title="App.css"
 #root {
@@ -115,7 +115,7 @@ main {
 
 We just have some basic layout styles here for `root` and `main`.
 
-Next is the <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` file. Below is the code you’ll need, so replace everything in the file with it:
+Next is the <VPIcon icon="fa-brands fa-css3-alt"/>`index.css` file. Below is the code you’ll need, so replace everything in the file with it:
 
 ```css title="index.css"
 @tailwind base;
@@ -203,7 +203,7 @@ Next is the <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` file. Below is t
 
 All of these styles relate to your Tailwind CSS setup throughout your project.
 
-Just one file remains for the CSS and it’s the <FontIcon icon="fa-brands fa-css3-alt"/>`style.css` file. This is a big file, so I will split the code into two parts - just copy and paste them into the file.
+Just one file remains for the CSS and it’s the <VPIcon icon="fa-brands fa-css3-alt"/>`style.css` file. This is a big file, so I will split the code into two parts - just copy and paste them into the file.
 
 Here is the first part:
 
@@ -413,9 +413,9 @@ And here is the second part:
 }
 ```
 
-This code has the main styles for the layout of the website’s content. That takes care of the styling. We just have the components and pages left, and then you can run your app. Before we start on those folders, let’s quickly do the <FontIcon icon="fa-brands fa-react"/>`App.jsx` and <FontIcon icon="fa-brands fa-react"/>`main.jsx` files in the <FontIcon icon="fas fa-folder-open"/>`src` folder.
+This code has the main styles for the layout of the website’s content. That takes care of the styling. We just have the components and pages left, and then you can run your app. Before we start on those folders, let’s quickly do the <VPIcon icon="fa-brands fa-react"/>`App.jsx` and <VPIcon icon="fa-brands fa-react"/>`main.jsx` files in the <VPIcon icon="fas fa-folder-open"/>`src` folder.
 
-So, add this code to the <FontIcon icon="fa-brands fa-react"/>`App.jsx` file:
+So, add this code to the <VPIcon icon="fa-brands fa-react"/>`App.jsx` file:
 
 ```jsx :collapsed-lines title="App.jsx"
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
@@ -450,7 +450,7 @@ export default App;
 
 In this file, you have all of your routes. This is how you’ll navigate between pages using `BrowserRouter`.
 
-Finally, replace and update all of the code inside of <FontIcon icon="fa-brands fa-react"/>`main.jsx` with this:
+Finally, replace and update all of the code inside of <VPIcon icon="fa-brands fa-react"/>`main.jsx` with this:
 
 ```jsx title="main.jsx"
 import { StrictMode } from 'react';
@@ -468,7 +468,7 @@ createRoot(document.getElementById('root')).render(
 
 The only update we did here was add an import for `import './style.css'` so now you can access the styles from this file across your application.
 
-Time to work on your component files, starting with the <FontIcon icon="fa-brands fa-react"/>`Chat.jsx` file. I split the codebase because it’s a big file, so make sure you add it all together.
+Time to work on your component files, starting with the <VPIcon icon="fa-brands fa-react"/>`Chat.jsx` file. I split the codebase because it’s a big file, so make sure you add it all together.
 
 Like before, here is the first part:
 
@@ -718,7 +718,7 @@ export default Chat;
 
 The second part of the code mostly has the JSX for the components.
 
-Right, next let’s do the <FontIcon icon="fa-brands fa-react"/>`Footer.jsx` file by adding this code to the file:
+Right, next let’s do the <VPIcon icon="fa-brands fa-react"/>`Footer.jsx` file by adding this code to the file:
 
 ```jsx :collapsed-lines title="Footer.jsx"
 function Footer() {
@@ -756,7 +756,7 @@ export default Footer;
 
 The code is pretty much self-explanatory - it has some contact details which will show up at the bottom of your page in the footer section.
 
-Now we can work on the <FontIcon icon="fa-brands fa-react"/>`Layout.jsx`. I have also split it into two parts.
+Now we can work on the <VPIcon icon="fa-brands fa-react"/>`Layout.jsx`. I have also split it into two parts.
 
 Add the first part of the codebase here:
 
@@ -997,7 +997,7 @@ export default Layout;
 
 This code has more components, which completes the Layout component.
 
-We’re almost done. Now for the last component, <FontIcon icon="fa-brands fa-react"/>`Navbar.jsx`, before we move on to the pages.
+We’re almost done. Now for the last component, <VPIcon icon="fa-brands fa-react"/>`Navbar.jsx`, before we move on to the pages.
 
 This is the code you need for the file:
 
@@ -1097,7 +1097,7 @@ The navbar component has your navigation links, which lets you navigate between 
 
 Alright, the component codebase is ready! All that remains is the six page routes in our pages folder.
 
-The first file we’ll work on will be the <FontIcon icon="fa-brands fa-react"/>`Career.jsx` file. I will split the codebase for readability like before, so copy the different sections starting with the first part here:
+The first file we’ll work on will be the <VPIcon icon="fa-brands fa-react"/>`Career.jsx` file. I will split the codebase for readability like before, so copy the different sections starting with the first part here:
 
 ```jsx :collapsed-lines title="Career.jsx"
 import { useState } from "react";
@@ -1464,9 +1464,9 @@ There is a lot more component code here for the career page. Lastly, lets add th
 export default Career;
 ```
 
-And this completes our <FontIcon icon="fa-brands fa-react"/>`Career.jsx` page: we have forms and more components in this part of the code.
+And this completes our <VPIcon icon="fa-brands fa-react"/>`Career.jsx` page: we have forms and more components in this part of the code.
 
-Next is our <FontIcon icon="fa-brands fa-react"/>`Contact.jsx` page. Like before, I will split the codebase for readability, so add the first part of this code to it:
+Next is our <VPIcon icon="fa-brands fa-react"/>`Contact.jsx` page. Like before, I will split the codebase for readability, so add the first part of this code to it:
 
 ```jsx :collapsed-lines title="Contact.jsx"
 import { useState } from "react";
@@ -1725,7 +1725,7 @@ With that, this page is now done, and we have the rest of the components and for
 
 Ok just four pages left: let’s work on the home page first. The code is not that big so we can do it all at once.
 
-This is the code to add to the <FontIcon icon="fa-brands fa-react"/>`Home.jsx` page file:
+This is the code to add to the <VPIcon icon="fa-brands fa-react"/>`Home.jsx` page file:
 
 ```jsx :collapsed-lines title="Home.jsx"
 import { Link } from 'react-router';
@@ -1880,7 +1880,7 @@ export default Home;
 
 This has the code for our home page and WelcomeAgent.
 
-Alright, now let's work on the <FontIcon icon="fa-brands fa-react"/>`Projects.jsx` page. For readability it's easier to split the code in half again. So here is the first part:
+Alright, now let's work on the <VPIcon icon="fa-brands fa-react"/>`Projects.jsx` page. For readability it's easier to split the code in half again. So here is the first part:
 
 ```jsx :collapsed-lines title="Projects.jsx"
 import { useState } from "react";
@@ -2154,7 +2154,7 @@ export default Projects;
 
 With the remaining components added, this page is now complete.
 
-Its time to do the <FontIcon icon="fa-brands fa-react"/>`Research.jsx` page, starting with the first half of the codebase:
+Its time to do the <VPIcon icon="fa-brands fa-react"/>`Research.jsx` page, starting with the first half of the codebase:
 
 ```jsx :collapsed-lines title="Research.jsx"
 import { useState } from "react";
@@ -2725,10 +2725,10 @@ export default Services;
 
 Our services page is complete, and so is the application!
 
-Make sure that the Python backend server is running, and then start your React frontend with the usual Vite run script here inside the <FontIcon icon="fas fa-folder-open"/>`frontend` folder:
+Make sure that the Python backend server is running, and then start your React frontend with the usual Vite run script here inside the <VPIcon icon="fas fa-folder-open"/>`frontend` folder:
 
 ```sh
 npm run dev
 ```
 
-You should see the website up and running on `http://localhost:5173/` with working AI agents on all pages (apart from the contact page, which does not have one). Remember that every time you use one of the AI agents to ask a question, it will use 1 API call on Groq Cloud, so check the [<FontIcon icon="iconfont icon-groq"/>Rate Limits](https://console.groq.com/docs/rate-limits) for the different LLMs.
+You should see the website up and running on `http://localhost:5173/` with working AI agents on all pages (apart from the contact page, which does not have one). Remember that every time you use one of the AI agents to ask a question, it will use 1 API call on Groq Cloud, so check the [<VPIcon icon="iconfont icon-groq"/>Rate Limits](https://console.groq.com/docs/rate-limits) for the different LLMs.

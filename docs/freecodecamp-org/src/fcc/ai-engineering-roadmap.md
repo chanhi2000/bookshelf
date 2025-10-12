@@ -58,7 +58,7 @@ Artificial Intelligence is rapidly transforming industries, and AI Engineers are
 
 Mastering AI requires a blend of mathematics, machine learning, deep learning, and hands-on engineering experience to build and deploy intelligent systems effectively.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that provides a **comprehensive AI Engineering roadmap**, guiding you through the essential skills and techniques you need to master by 2025. Developed by Tatev Aslanyan from LunarTech, this course covers everything from fundamental mathematics and key machine learning algorithms to large language models, AI best practices, and industry applications. Alongside hands-on implementation in Python, this roadmap also offers invaluable career insights to help you succeed in the evolving AI landscape.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that provides a **comprehensive AI Engineering roadmap**, guiding you through the essential skills and techniques you need to master by 2025. Developed by Tatev Aslanyan from LunarTech, this course covers everything from fundamental mathematics and key machine learning algorithms to large language models, AI best practices, and industry applications. Alongside hands-on implementation in Python, this roadmap also offers invaluable career insights to help you succeed in the evolving AI landscape.
 
 ---
 
@@ -90,7 +90,7 @@ This course is designed to provide a structured path into AI Engineering, includ
 
 This roadmap is perfect for beginners looking to enter AI Engineering, as well as professionals who want to expand their knowledge and stay ahead in the field. Whether you aim to build machine learning models, work with generative AI, or develop cutting-edge AI applications, this course will equip you with the skills you need.
 
-You can watch the full course now on the [<FontIcon icon="fas fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/nYXVvK-Wmn0) (1 hour watch).
+You can watch the full course now on the [<VPIcon icon="fas fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/nYXVvK-Wmn0) (1 hour watch).
 
 <VidStack src="youtube/nYXVvK-Wmn0" />
 

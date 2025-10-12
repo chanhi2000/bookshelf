@@ -56,7 +56,7 @@ cover: https://freecodecamp.org/news/content/images/2022/06/cover-template.jpg
 
 React is a JavaScript library for creating user interfaces. It's used in over 30,000 live websites and has over 70,000 GitHub stars.
 
-According to the [<FontIcon icon="fas fa-globe"/>2021 Stack Overflow developer survey](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-web-frameworks), React has surpassed jQuery as the most popular web framework, and holds approximately 40.14% of the market share. React was also the most sought-after, with one out of every four developers using it.
+According to the [<VPIcon icon="fas fa-globe"/>2021 Stack Overflow developer survey](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-web-frameworks), React has surpassed jQuery as the most popular web framework, and holds approximately 40.14% of the market share. React was also the most sought-after, with one out of every four developers using it.
 
 Over 8,000 industry leaders, including LinkedIn, Twitter, and AirBnB, use React.
 
@@ -80,7 +80,7 @@ React has many features that set it apart, but here are a few highlights:
 
 - React employs the Virtual DOM as opposed to a real/browser DOM.
 - React uses unidirectional one-way data binding.
-- It is used to develop web applications as well as mobile applications using [<FontIcon icon="fa-brands fa-react"/>React Native](https://reactnative.dev/), which allows us to build cross-platform applications.
+- It is used to develop web applications as well as mobile applications using [<VPIcon icon="fa-brands fa-react"/>React Native](https://reactnative.dev/), which allows us to build cross-platform applications.
 
 ---
 
@@ -164,11 +164,11 @@ You can read more about [JSX in React in this article](/freecodecamp.org/jsx-in-
 
 ## Why can't Browsers Read JSX?
 
-JSX is not a valid JavaScript code, and there is no built-in implementation that allows the browser to read and understand it. We need to transpile the code from JSX into valid JavaScript code that the browser can understand, and we use [<FontIcon icon="fas fa-globe"/>Babel](https://babeljs.io/), a JavaScript compiler/transpiler, to accomplish this.
+JSX is not a valid JavaScript code, and there is no built-in implementation that allows the browser to read and understand it. We need to transpile the code from JSX into valid JavaScript code that the browser can understand, and we use [<VPIcon icon="fas fa-globe"/>Babel](https://babeljs.io/), a JavaScript compiler/transpiler, to accomplish this.
 
 ::: note
 
-[<FontIcon icon="iconfont icon-github"/>`facebook/create-react-app`](https://github.com/facebook/create-react-app) uses Babel internally for the JSX to JavaScript conversion, but you can also set up your own babel configuration using Webpack.
+[<VPIcon icon="iconfont icon-github"/>`facebook/create-react-app`](https://github.com/facebook/create-react-app) uses Babel internally for the JSX to JavaScript conversion, but you can also set up your own babel configuration using Webpack.
 
 :::
 

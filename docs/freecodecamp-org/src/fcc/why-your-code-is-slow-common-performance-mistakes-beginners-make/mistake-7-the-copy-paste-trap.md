@@ -123,7 +123,7 @@ Every `map`, `filter`, or `slice` creates a new array. Chain three operations? Y
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>JavaScript Example:
+::: tip <VPIcon icon="fa-brands fa-js"/>JavaScript Example:
 
 ```js
 // A 10,000-element array  
@@ -175,7 +175,7 @@ Deep cloning complex objects (especially in loops) is like photocopying a dictio
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-python"/>Python Example:
+::: tip <VPIcon icon="fa-brands fa-python"/>Python Example:
 
 ```py
 import copy  
@@ -215,5 +215,5 @@ for user in users:
 1. **Ask: “Do I need a copy?”**: 90% of the time, you don’t. Use views, generators, or in-place edits.
 2. **Profile memory usage**: Tools like `memory_profiler` (Python) or Chrome DevTools (JS) show copy overhead.
 3. **Learn your language’s quirks**:
-    - <FontIcon icon="fa-brands fa-python"/>Python: Slicing lists copies, slicing NumPy arrays doesn’t.
-    - <FontIcon icon="fa-brands fa-js"/>JavaScript: `[...array]` clones, `array.subarray` (TypedArray) doesn’t.
+    - <VPIcon icon="fa-brands fa-python"/>Python: Slicing lists copies, slicing NumPy arrays doesn’t.
+    - <VPIcon icon="fa-brands fa-js"/>JavaScript: `[...array]` clones, `array.subarray` (TypedArray) doesn’t.

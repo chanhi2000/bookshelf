@@ -242,7 +242,7 @@ nmcli connection show
 
 Now you’ll want to ensure `br0` is active, `enp4s0` is enslaved, and `virbr0` is separate. First, test the internet with `ping 8.8.8.8`.
 
-Then you need to define `br0` in libvirt (to appear in Cockpit’s VM network dropdown). To do this, create <FontIcon icon="iconfont icon-code"/>`br0.xml` in your home directory:
+Then you need to define `br0` in libvirt (to appear in Cockpit’s VM network dropdown). To do this, create <VPIcon icon="iconfont icon-code"/>`br0.xml` in your home directory:
 
 ```sh
 nano ~/br0.xml
@@ -274,7 +274,7 @@ Verify like this:
 virsh net-list --all
 ```
 
-You can now delete `~/`<FontIcon icon="iconfont icon-code"/>`br0.xml` after defining, as libvirt stores it in <FontIcon icon="fas fa-folder-open"/>`/etc/libvirt/qemu/networks/`.
+You can now delete `~/`<VPIcon icon="iconfont icon-code"/>`br0.xml` after defining, as libvirt stores it in <VPIcon icon="fas fa-folder-open"/>`/etc/libvirt/qemu/networks/`.
 
 ```sh
 rm ~/br0.xml
@@ -390,15 +390,15 @@ You’ll see Cockpit’s dashboard. Turn on administrative access by clicking on
 
 Let’s create a guest VM using Cockpit. We’ll use an Ubuntu 24.04 Desktop ISO as an example:
 
-To start, download the Ubuntu 24.04 Desktop ISO from ubuntu.com and save it (for example, <FontIcon icon="fas fa-folder-open"/>`/home/ranju/Downloads/`<FontIcon icon="fas fa-file-zipper"/>`ubuntu-24.04.1-desktop-amd64.iso`).
+To start, download the Ubuntu 24.04 Desktop ISO from ubuntu.com and save it (for example, <VPIcon icon="fas fa-folder-open"/>`/home/ranju/Downloads/`<VPIcon icon="fas fa-file-zipper"/>`ubuntu-24.04.1-desktop-amd64.iso`).
 
 In Cockpit, go to “Virtual Machines” and click “Create VM”. Here are the specs:
 
 - **Name**: TestVM
 - **Installation Type**: Local install media (or your desired installation type)
-- **Installation Source**: Browse to your ISO (for example, <FontIcon icon="fas fa-folder-open"/>`/home/ranju/Downloads/`<FontIcon icon="fas fa-file-zipper"/>`ubuntu-24.04.1-desktop-amd64.iso`).
+- **Installation Source**: Browse to your ISO (for example, <VPIcon icon="fas fa-folder-open"/>`/home/ranju/Downloads/`<VPIcon icon="fas fa-file-zipper"/>`ubuntu-24.04.1-desktop-amd64.iso`).
 - **OS**: Select “Ubuntu 24.04” (usually Cockpit auto-detects).
-- **Storage**: Create new qcow2 volume (preferred). *Note: disk is created in* <FontIcon icon="fas fa-folder-open"/>`/var/lib/libvirt/images/`.
+- **Storage**: Create new qcow2 volume (preferred). *Note: disk is created in* <VPIcon icon="fas fa-folder-open"/>`/var/lib/libvirt/images/`.
 - **Storage limit**: 20GB (adjust as needed).
 - **Memory**: 4GB (adjust as needed).
 

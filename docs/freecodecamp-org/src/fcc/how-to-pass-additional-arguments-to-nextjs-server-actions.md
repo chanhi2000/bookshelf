@@ -62,7 +62,7 @@ Next.js provides us with `Server Actions` which are asynchronous functions that 
 
 Server actions are a great way to handle form submissions by executing the action when the form data gets submitted. In this article, we will look into a practical use case of handling additional arguments in Next.js server actions.
 
-If you are interested in learning Next.js Server Actions with design patterns and project building, I have created a crash course for you that you can find [<FontIcon icon="fa-brands fa-youtube"/>here](https://youtu.be/gQ2bVQPFS4U).
+If you are interested in learning Next.js Server Actions with design patterns and project building, I have created a crash course for you that you can find [<VPIcon icon="fa-brands fa-youtube"/>here](https://youtu.be/gQ2bVQPFS4U).
 
 <VidStack src="youtube/gQ2bVQPFS4U" />
 
@@ -118,7 +118,7 @@ Right, that’s the use case we’re talking about. As we understand why we need
 
 ## A Form With a Server Action
 
-Create a directory called `actions` under the `app` directory of your Next.js application. Now create a <FontIcon icon="iconfont icon-nextjs"/>`user.js` file under the `actions` folder with the following code:
+Create a directory called `actions` under the `app` directory of your Next.js application. Now create a <VPIcon icon="iconfont icon-nextjs"/>`user.js` file under the `actions` folder with the following code:
 
 ```jsx
 "use server"
@@ -289,10 +289,10 @@ That's all for now. Did you enjoy reading this article and have you learned some
 
 Additionally, you can connect with me by:
 
-- Subscribing to my [YouTube Channel (<FontIcon icon="fa-brands fa-youtube"/>`tapasadhikary`)](https://youtube.com/tapasadhikary?sub_confirmation=1). If you are willing to learn <FontIcon icon="fa-brands fa-react"/>React and its ecosystem, like <FontIcon icon="iconfont icon-nextjs"/>Next.js, with both fundamental concepts and projects, I have great news for you: you can [check out this playlist on my YouTube](https://youtu.be/VSB2h7mVhPg&list=PLIJrr73KDmRwz_7QUvQ9Az82aDM9I8L_8) channel with 25+ video tutorials and 15+ hours of engaging content so far, for free. I hope you like them as well.
-- [Following me on X (<FontIcon icon="fa-brands fa-x-twitter"/>`tapasadhikary`)](https://x.com/tapasadhikary) or [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`tapasadhikary`)](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
-- Checking out and follow my Open Source work on [GitHub (<FontIcon icon="iconfont icon-github"/>`atapas`)](https://github.com/atapas).
-- I regularly publish meaningful posts on my [<FontIcon icon="fas fa-globe"/>GreenRoots Blog](https://blog.greenroots.info/), you may find them helpful, too.
+- Subscribing to my [YouTube Channel (<VPIcon icon="fa-brands fa-youtube"/>`tapasadhikary`)](https://youtube.com/tapasadhikary?sub_confirmation=1). If you are willing to learn <VPIcon icon="fa-brands fa-react"/>React and its ecosystem, like <VPIcon icon="iconfont icon-nextjs"/>Next.js, with both fundamental concepts and projects, I have great news for you: you can [check out this playlist on my YouTube](https://youtu.be/VSB2h7mVhPg&list=PLIJrr73KDmRwz_7QUvQ9Az82aDM9I8L_8) channel with 25+ video tutorials and 15+ hours of engaging content so far, for free. I hope you like them as well.
+- [Following me on X (<VPIcon icon="fa-brands fa-x-twitter"/>`tapasadhikary`)](https://x.com/tapasadhikary) or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`tapasadhikary`)](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
+- Checking out and follow my Open Source work on [GitHub (<VPIcon icon="iconfont icon-github"/>`atapas`)](https://github.com/atapas).
+- I regularly publish meaningful posts on my [<VPIcon icon="fas fa-globe"/>GreenRoots Blog](https://blog.greenroots.info/), you may find them helpful, too.
 
 See you soon with my next article. Until then, please take care of yourself, and keep learning.
 

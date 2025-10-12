@@ -56,11 +56,11 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727813989960/b0a7ab2
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727813989960/b0a7ab29-d87c-4d87-9847-70b7e1c341b1.jpeg"/>
 
-When I wrote my [<FontIcon icon="fa-brands fa-medium"/>last article about Jetpack Compose](https://medium.com/better-programming/is-jetpack-compose-ready-for-you-eae6c93ad3f8), I stated there that Jetpack Compose is missing some (in my opinion) basic components, and one of them is the tooltip.
+When I wrote my [<VPIcon icon="fa-brands fa-medium"/>last article about Jetpack Compose](https://medium.com/better-programming/is-jetpack-compose-ready-for-you-eae6c93ad3f8), I stated there that Jetpack Compose is missing some (in my opinion) basic components, and one of them is the tooltip.
 
 At the time, there was no built-in composable to display tooltips and there were several alternative solutions circling online. The problem with those solutions was that once Jetpack Compose released newer versions, those solutions might break. So it wasn’t ideal and the community was left hoping that sometime in the future, support would be added for tooltips.
 
-I’m glad to say that since [<FontIcon icon="fa-brands fa-android"/>version 1.1.0 of Compose Material 3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.1.0), we now have built in tooltip support. 👏
+I’m glad to say that since [<VPIcon icon="fa-brands fa-android"/>version 1.1.0 of Compose Material 3](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.1.0), we now have built in tooltip support. 👏
 
 While this in itself is great, more than a year has passed since that version was released. And with subsequent versions, the API related to tooltips changed drastically as well.
 
@@ -234,13 +234,13 @@ Another scenario where the tooltip state does not reset is if instead of calling
 
 Our logic that calls the tooltip’s onDispose method does not get triggered, so how can we reset the tooltip’s state?
 
-Currently, I haven’t been able to figure this out. It might be related to the tooltip’s [<FontIcon icon="fa-brands fa-android"/>`MutatorMutex`](https://developer.android.com/reference/kotlin/androidx/compose/foundation/MutatorMutex). Maybe with upcoming releases, there will be an API for this. I did notice that if other tooltips are present on the screen and they are pressed, this resets the previously clicked upon tooltip.
+Currently, I haven’t been able to figure this out. It might be related to the tooltip’s [<VPIcon icon="fa-brands fa-android"/>`MutatorMutex`](https://developer.android.com/reference/kotlin/androidx/compose/foundation/MutatorMutex). Maybe with upcoming releases, there will be an API for this. I did notice that if other tooltips are present on the screen and they are pressed, this resets the previously clicked upon tooltip.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727602790121/25a81994-a508-4c71-8424-c45370a7999d.gif)
 
-If you would like to see the code featured here, you can go to [this GitHub repository (<FontIcon icon="iconfont icon-github"/>`TomerPacific/MediumArticles`)](https://github.com/TomerPacific/MediumArticles/tree/master/TooltipExample)
+If you would like to see the code featured here, you can go to [this GitHub repository (<VPIcon icon="iconfont icon-github"/>`TomerPacific/MediumArticles`)](https://github.com/TomerPacific/MediumArticles/tree/master/TooltipExample)
 
-If you would like to see tooltips in an application, you can check it out [<FontIcon icon="fa-brands fa-google-play"/>here](https://play.google.com/store/apps/details?id=com.tomerpacific.laundry).
+If you would like to see tooltips in an application, you can check it out [<VPIcon icon="fa-brands fa-google-play"/>here](https://play.google.com/store/apps/details?id=com.tomerpacific.laundry).
 
 https://play.google.com/store/apps/details?id=com.tomerpacific.laundry
 

@@ -127,7 +127,7 @@ Here’s how to protect yourself.
 
 ### Use a VPN
 
-A [<FontIcon icon="fas fa-globe"/>Virtual Private Network](https://ncsc.gov.uk/collection/device-security-guidance/infrastructure/virtual-private-networks) (VPN) is your best defense. It creates a private tunnel between your device and the internet.
+A [<VPIcon icon="fas fa-globe"/>Virtual Private Network](https://ncsc.gov.uk/collection/device-security-guidance/infrastructure/virtual-private-networks) (VPN) is your best defense. It creates a private tunnel between your device and the internet.
 
 Even if someone intercepts your data, it’s encrypted - scrambled so they can’t read it.
 
@@ -137,7 +137,7 @@ Good VPNs are easy to use and work quietly in the background. Just tap it on bef
 
 When a website starts with “https”, it means the connection is encrypted. Look for the little padlock icon next to the URL. It’s not perfect, but it helps.
 
-Avoid typing passwords or doing any banking on sites that only use “http”. As always, use a [<FontIcon icon="fas fa-globe"/>password manager](https://nordpass.com/password-manager/) to manage your passwords.
+Avoid typing passwords or doing any banking on sites that only use “http”. As always, use a [<VPIcon icon="fas fa-globe"/>password manager](https://nordpass.com/password-manager/) to manage your passwords.
 
 ### Avoid Logging into Sensitive Accounts
 
@@ -175,7 +175,7 @@ You don’t have to be a cybersecurity expert. Just treat public Wi-Fi the way y
 
 Stay safe out there.
 
-Learn how to earn money by building a private community - [<FontIcon icon="fas fa-globe"/>Join Skool](https://skool.com/signup?ref=a621cf49638346c5a8c019771713a299).
+Learn how to earn money by building a private community - [<VPIcon icon="fas fa-globe"/>Join Skool](https://skool.com/signup?ref=a621cf49638346c5a8c019771713a299).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

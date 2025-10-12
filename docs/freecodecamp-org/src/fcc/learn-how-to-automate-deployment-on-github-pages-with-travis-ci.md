@@ -58,7 +58,7 @@ This story is not sponsored by any of the tools that has been described into the
 
 :::
 
-You have created a project in React.js and deployed it on the GitHub-pages (not yet ?? — [create your first project in React.js (<FontIcon icon="fa-brands fa-medium"/>`free-code-camp`)](https://medium.com/free-code-camp/portfolio-app-using-react-618814e35843)) But what if you are making frequent changes into the code base and also want to keep the deployed version updated to the latest ? … You will find yourself in the tedious process of running the deployment scripts again and again !!!
+You have created a project in React.js and deployed it on the GitHub-pages (not yet ?? — [create your first project in React.js (<VPIcon icon="fa-brands fa-medium"/>`free-code-camp`)](https://medium.com/free-code-camp/portfolio-app-using-react-618814e35843)) But what if you are making frequent changes into the code base and also want to keep the deployed version updated to the latest ? … You will find yourself in the tedious process of running the deployment scripts again and again !!!
 
 > What if the deployment process can be automated ??
 
@@ -70,7 +70,7 @@ After some quick google search session, I found that it is possible and can be a
 
 In this article, you will be able to learn how to implement the system which will trigger the react deployment scripts using the TRAVIS-CI to deploy the project onto the GitHub-pages whenever there are any changes found in the master branch of the code repository.
 
-- Setup Automated deployment of ‘[react-portfolio (<FontIcon icon="fa-brands fa-medium"/>`free-code-camp`)](https://medium.com/free-code-camp/portfolio-app-using-react-618814e35843)’ project
+- Setup Automated deployment of ‘[react-portfolio (<VPIcon icon="fa-brands fa-medium"/>`free-code-camp`)](https://medium.com/free-code-camp/portfolio-app-using-react-618814e35843)’ project
 - Learn about some frequent errors encountered while the process
 - Learn about some concepts related to ‘**continuous deployment’**
 
@@ -82,7 +82,7 @@ In this article, you will be able to learn how to implement the system which wil
 
 ### Continuous Integration(CI) & Continuous Delivery(CD)
 
-> “In [<FontIcon icon="fa-brands fa-wikipedia-w"/>software engineering](https://en.wikipedia.org/wiki/Software_engineering), continuous integration (CI) is the practice of merging all developers’ working copies to a shared [<FontIcon icon="fa-brands fa-wikipedia-w"/>mainline](https://en.wikipedia.org/wiki/Trunk_%28software%29) several times a day” — [<FontIcon icon="fa-brands fa-wikipedia-w"/>wikipedia](https://en.wikipedia.org/wiki/Continuous_integration)
+> “In [<VPIcon icon="fa-brands fa-wikipedia-w"/>software engineering](https://en.wikipedia.org/wiki/Software_engineering), continuous integration (CI) is the practice of merging all developers’ working copies to a shared [<VPIcon icon="fa-brands fa-wikipedia-w"/>mainline](https://en.wikipedia.org/wiki/Trunk_%28software%29) several times a day” — [<VPIcon icon="fa-brands fa-wikipedia-w"/>wikipedia](https://en.wikipedia.org/wiki/Continuous_integration)
 
 In other words, the developers will try to merge their feature code into the master branch as frequent as possible. Following this practice enables the developers and product managers to release the product more frequently.
 
@@ -92,11 +92,11 @@ There are some extended versions of the CI pipelines in which these changes are 
 
 **Travis CI** is a hosted continuous integration service used to build and test software projects hosted at GitHub. Open source projects can be tested without any charges !!
 
-Travis CI can be configured by adding a <FontIcon icon="iconfont icon-yaml"/>`.travis.yml` file to the repository. when Travis CI has been activated for a given repository, GitHub will notify whenever new commits are pushed to the repository or any pull request is submitted then according to the rules defined in the <FontIcon icon="iconfont icon-yaml"/>`.travis.yml` file, Travis CI will perform the steps which can be anything — from running tests, building the application or deployment scripts. Travis CI offers a wide range of options to build the software and of course, our beloved ❤️`javascript` is one of them.
+Travis CI can be configured by adding a <VPIcon icon="iconfont icon-yaml"/>`.travis.yml` file to the repository. when Travis CI has been activated for a given repository, GitHub will notify whenever new commits are pushed to the repository or any pull request is submitted then according to the rules defined in the <VPIcon icon="iconfont icon-yaml"/>`.travis.yml` file, Travis CI will perform the steps which can be anything — from running tests, building the application or deployment scripts. Travis CI offers a wide range of options to build the software and of course, our beloved ❤️`javascript` is one of them.
 
 ::: note
 
-Github has [<FontIcon icon="iconfont icon-github"/>**student developer pack**](https://education.github.com/pack) *available with a bunch of premium features from different platforms (Travis CI is one of them) for free to students who wish to learn new things — get your student pack now !!
+Github has [<VPIcon icon="iconfont icon-github"/>**student developer pack**](https://education.github.com/pack) *available with a bunch of premium features from different platforms (Travis CI is one of them) for free to students who wish to learn new things — get your student pack now !!
 
 <SiteInfo
   name="GitHub Student Developer Pack"
@@ -109,7 +109,7 @@ Github has [<FontIcon icon="iconfont icon-github"/>**student developer pack**](h
 
 ### DevOps
 
-**DevOps** is a set of software development practices that combines [<FontIcon icon="fa-brands fa-wikipedia-w"/>software development](https://en.wikipedia.org/wiki/Software_development) (*Dev*) and [<FontIcon icon="fa-brands fa-wikipedia-w"/>information technology operations](https://en.wikipedia.org/wiki/Information_technology_operations)(*Ops*) to shorten the [<FontIcon icon="fa-brands fa-wikipedia-w"/>systems development life cycle](https://en.wikipedia.org/wiki/Systems_development_life_cycle) while [<FontIcon icon="fa-brands fa-wikipedia-w"/>delivering features, fixes, and updates](https://en.wikipedia.org/wiki/Continuous_delivery) frequently. The concept of DevOps is founded on building a culture of collaboration between teams.
+**DevOps** is a set of software development practices that combines [<VPIcon icon="fa-brands fa-wikipedia-w"/>software development](https://en.wikipedia.org/wiki/Software_development) (*Dev*) and [<VPIcon icon="fa-brands fa-wikipedia-w"/>information technology operations](https://en.wikipedia.org/wiki/Information_technology_operations)(*Ops*) to shorten the [<VPIcon icon="fa-brands fa-wikipedia-w"/>systems development life cycle](https://en.wikipedia.org/wiki/Systems_development_life_cycle) while [<VPIcon icon="fa-brands fa-wikipedia-w"/>delivering features, fixes, and updates](https://en.wikipedia.org/wiki/Continuous_delivery) frequently. The concept of DevOps is founded on building a culture of collaboration between teams.
 
 > “DevOps is more than practice — it’s about culture”
 
@@ -123,13 +123,13 @@ Continuous Integration, Continuous Delivery, Continuous Deployment are some of t
 
 ## Enough talking !!! Let’s do some action
 
-As you have already deployed on the GitHub pages using the <FontIcon icon="fas fa-code-branch"/>`gh-pages` node module, there will be a branch called <FontIcon icon="fas fa-code-branch"/>`gh-pages`on the repository which holds the files which are deployed onto the Github pages servers. After the integration of the Travis CI, we would ab able to implement the system where any changes made by the user on the <FontIcon icon="fas fa-code-branch"/>`master` branch will automatically trigger a build. If the build is successful, then the build scripts will be triggered which will update the <FontIcon icon="fas fa-code-branch"/>`gh-pages` branch. User will be notified about the status of the build via email notifications from the Travis CI
+As you have already deployed on the GitHub pages using the <VPIcon icon="fas fa-code-branch"/>`gh-pages` node module, there will be a branch called <VPIcon icon="fas fa-code-branch"/>`gh-pages`on the repository which holds the files which are deployed onto the Github pages servers. After the integration of the Travis CI, we would ab able to implement the system where any changes made by the user on the <VPIcon icon="fas fa-code-branch"/>`master` branch will automatically trigger a build. If the build is successful, then the build scripts will be triggered which will update the <VPIcon icon="fas fa-code-branch"/>`gh-pages` branch. User will be notified about the status of the build via email notifications from the Travis CI
 
 ![](https://cdn-media-1.freecodecamp.org/images/1*athThq_0-5cg1foDqt0v5w.png)
 
 ### Create an account on Travis-C
 
-- Go to [<FontIcon icon="iconfont icon-travis-ci"/>Travis-ci.com](https://travis-ci.com/) and [*Sign up with GitHub*](https://travis-ci.com/signin).
+- Go to [<VPIcon icon="iconfont icon-travis-ci"/>Travis-ci.com](https://travis-ci.com/) and [*Sign up with GitHub*](https://travis-ci.com/signin).
 - Accept the terms & conditions of Travis CI. You’ll be redirected to GitHub.
 - Click the *Activate* button, and select the repositories you want to use with Travis CI.
 - Add authorization token ( This will be done automatically when you sign-in with GitHub)
@@ -140,7 +140,7 @@ This file contains the instructions which tell Travis-CI — what?..how?..wh
 
 ::: note
 
-When you trigger a job in the Travis-CI, it will boot up a virtual machine with the appropriate deployment environment configured in the <FontIcon icon="iconfont icon-yaml"/>`.travis.yml`
+When you trigger a job in the Travis-CI, it will boot up a virtual machine with the appropriate deployment environment configured in the <VPIcon icon="iconfont icon-yaml"/>`.travis.yml`
 
 :::
 
@@ -165,7 +165,7 @@ deploy:
 ```
 
 - `on` : Travis-CI will automatically trigger a job whenever there are some changes made on the branch specified in this field.
-- `deploy` : In this filed we have declared that we will use the deployment [<FontIcon icon="iconfont icon-travis-ci"/>provider for the GitHub pages](https://docs.travis-ci.com/user/deployment/pages/) provided by the Travis-CI which is nothing but the configuration instructions for setting up the environment for deployment.
+- `deploy` : In this filed we have declared that we will use the deployment [<VPIcon icon="iconfont icon-travis-ci"/>provider for the GitHub pages](https://docs.travis-ci.com/user/deployment/pages/) provided by the Travis-CI which is nothing but the configuration instructions for setting up the environment for deployment.
 - `script` : This filed contains the build scripts which will be executed while running the job. For this case that is the build script, you can also add test scrips ( code-coverage, fusion test, etc.) before the build.
 - `cache` : Travis-CI provides an option to cache the library files and modules which will be the constant for all the builds. Cached files can be used again by the later build jobs which decreases the end-to-end running time of the job.
 
@@ -195,7 +195,7 @@ This is the time when your most valuable “googling” skills will come handy. 
 
 ### Token errors
 
-If your builds are failing due permissions error then there are high chances that there is some [<FontIcon icon="iconfont icon-travis-ci"/>problem with tokens](https://docs.travis-ci.com/user/deployment/pages/#setting-the-github-token). You need to go to the token URL [<FontIcon icon="iconfont icon-github"/>https://github.com/settings/tokens](https://github.com/settings/tokens) and see when it was used lately, if it shows **_never_** then you have found your culprit.
+If your builds are failing due permissions error then there are high chances that there is some [<VPIcon icon="iconfont icon-travis-ci"/>problem with tokens](https://docs.travis-ci.com/user/deployment/pages/#setting-the-github-token). You need to go to the token URL [<VPIcon icon="iconfont icon-github"/>https://github.com/settings/tokens](https://github.com/settings/tokens) and see when it was used lately, if it shows **_never_** then you have found your culprit.
 
 ![](https://cdn-media-1.freecodecamp.org/images/1*9NrQnLn0Mrp7Oex9H_F-Og.png)
 
@@ -213,7 +213,7 @@ There are plenty of security practices we ignore while coding & building web app
 
 I will mention the errors I encountered while working on my project(I would encourage you to mention the errors you have encountered) The great thing is that most of them have their own dedicated web-pages which explain the underlying problem and offers the solutions/workarounds ( Workarounds — we all love it even knowing that we shouldn’t !! )
 
-- **Using `target=_blank` in HTML tag :** This is more serious security flaw than it looks. You can learn more about it [<FontIcon icon="fas fa-globe"/>here.](https://mathiasbynens.github.io/rel-noopener/)
+- **Using `target=_blank` in HTML tag :** This is more serious security flaw than it looks. You can learn more about it [<VPIcon icon="fas fa-globe"/>here.](https://mathiasbynens.github.io/rel-noopener/)
 - **Redundancy in HTML code**: There were many redundant tags/class names which were making the code look like junk.
 
 Best way to prevent these errors is to install the `es-lint` plug-in in whichever text-editor you are using.

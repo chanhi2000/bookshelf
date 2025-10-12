@@ -57,13 +57,13 @@ In this guide, you’ll learn what Phaser is and then use it to build the popula
 
 By the end, you’ll be able to understand and copy the code, run it, and tweak it. You’ll also learn why each part exists and how it fits into the Phaser way of doing things.
 
-[<FontIcon icon="fas fa-globe"/>Play the game](https://manishshivanandhan.com/snake-game-with-phaser/) here to get a feel for what you’ll be building.
+[<VPIcon icon="fas fa-globe"/>Play the game](https://manishshivanandhan.com/snake-game-with-phaser/) here to get a feel for what you’ll be building.
 
 ---
 
 ## What is Phaser.js?
 
-[<FontIcon icon="fas fa-globe"/>Phaser](https://phaser.io/) is a free JavaScript library for 2D games. You write plain JavaScript and let Phaser do the heavy lifting. You don’t need a build system or a game engine installer. You can start with a single HTML file and one JavaScript file.
+[<VPIcon icon="fas fa-globe"/>Phaser](https://phaser.io/) is a free JavaScript library for 2D games. You write plain JavaScript and let Phaser do the heavy lifting. You don’t need a build system or a game engine installer. You can start with a single HTML file and one JavaScript file.
 
 Phaser organizes code into scenes. A scene has three common steps. You load assets in `preload`, you set up images and variables in `create`, and you update your game each frame in `update`. That small loop is the core of most arcade games.
 
@@ -73,7 +73,7 @@ Now let’s setup the project.
 
 ## Project Setup
 
-Create a folder with two files named <FontIcon icon="fa-brands fa-html5"/>`index.html` and <FontIcon icon="fa-brands fa-js"/>`main.js`. The HTML page loads Phaser from a CDN and then loads your script.
+Create a folder with two files named <VPIcon icon="fa-brands fa-html5"/>`index.html` and <VPIcon icon="fa-brands fa-js"/>`main.js`. The HTML page loads Phaser from a CDN and then loads your script.
 
 ```html title="index.html"
 <!DOCTYPE html>
@@ -92,7 +92,7 @@ Create a folder with two files named <FontIcon icon="fa-brands fa-html5"/>`index
 </html>
 ```
 
-This page adds a container div and includes Phaser 3 from jsDelivr. Your <FontIcon icon="fa-brands fa-js"/>`main.js` file will create the game and attach it to that div.
+This page adds a container div and includes Phaser 3 from jsDelivr. Your <VPIcon icon="fa-brands fa-js"/>`main.js` file will create the game and attach it to that div.
 
 ---
 
@@ -575,7 +575,7 @@ You started with a blank page and ended with a working browser game. You set up 
 
 From here, you can branch out to other grid games like Tetris or Minesweeper, or you can try a different style like Pong or Breakout. The structure will be similar. A scene to set things up, a timer or physics step to move things along, and a few rules that define the fun. That’s the beauty of Phaser for beginners.
 
-If you’re into online gaming, [<FontIcon icon="fas fa-globe"/>GameBoost](https://gameboost.com/) is the place to be. Discover [<FontIcon icon="fas fa-globe"/>GTA Modded Accounts](https://gameboost.com/grand-theft-auto-v/accounts) packed with exclusive upgrades. You’ll also find accounts for other fan-favorite titles like Fortnite, Grow a Garden, Clash of Clans, and more - all in one trusted marketplace.
+If you’re into online gaming, [<VPIcon icon="fas fa-globe"/>GameBoost](https://gameboost.com/) is the place to be. Discover [<VPIcon icon="fas fa-globe"/>GTA Modded Accounts](https://gameboost.com/grand-theft-auto-v/accounts) packed with exclusive upgrades. You’ll also find accounts for other fan-favorite titles like Fortnite, Grow a Garden, Clash of Clans, and more - all in one trusted marketplace.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

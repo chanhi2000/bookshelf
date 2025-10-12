@@ -64,7 +64,7 @@ You should know how to write basic PHP code, such as functions, and be able to w
 
 ## Understanding Arrow Functions in PHP
 
-The [<FontIcon icon="fas fa-globe"/>PHP arrow function](https://flatcoding.com/tutorials/php/arrow-functions/) is a shorthand syntax. It defines an anonymous function and is designed for simple operations and expressions.
+The [<VPIcon icon="fas fa-globe"/>PHP arrow function](https://flatcoding.com/tutorials/php/arrow-functions/) is a shorthand syntax. It defines an anonymous function and is designed for simple operations and expressions.
 
 Arrow functions in PHP are best used when:
 
@@ -116,7 +116,7 @@ Key rules of arrow function syntax:
 - Automatic variable capture from the outer scope.
 - It cannot contain multiple statements or control structures (like `if`, `foreach`, and so on).
 
-Let’s move on to the following section to take a look at the difference between arrow functions and [<FontIcon icon="fas fa-globe"/>anonymous functions in PHP](https://flatcoding.com/tutorials/php-programming/php-anonymous-functions/).
+Let’s move on to the following section to take a look at the difference between arrow functions and [<VPIcon icon="fas fa-globe"/>anonymous functions in PHP](https://flatcoding.com/tutorials/php-programming/php-anonymous-functions/).
 
 ---
 

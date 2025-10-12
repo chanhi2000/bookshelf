@@ -134,7 +134,7 @@ The result set is just the data the client needs:
 
 This is a simple example showing the benefit of not over-fetching data, but GraphQL has many other advantages. One of them is the separation between client and server. Since both parties leverage and respect the GraphQL type schema, both teams can operate more independently with the back end defining where the data resides and the front end only asking for data it needs.
 
-So how does GraphQL know how to populate data for every field in your schema? It does this through [<FontIcon icon="iconfont icon-graphql"/>resolvers](https://apollographql.com/docs/apollo-server/data/resolvers). Resolvers can fetch data from a back-end databases or third-party API such as REST APIs, gRPC, and so on. These functions comprise procedural code compiled and maintained for each field in the schema. Thus, one field can have a resolver that queries a REST API and another can query a gRPC endpoint.
+So how does GraphQL know how to populate data for every field in your schema? It does this through [<VPIcon icon="iconfont icon-graphql"/>resolvers](https://apollographql.com/docs/apollo-server/data/resolvers). Resolvers can fetch data from a back-end databases or third-party API such as REST APIs, gRPC, and so on. These functions comprise procedural code compiled and maintained for each field in the schema. Thus, one field can have a resolver that queries a REST API and another can query a gRPC endpoint.
 
 To illustrate resolvers, consider the example above. Let’s add a field, status, that queries a REST API to determine if the user is full-time, part-time, or terminated.
 
@@ -240,16 +240,16 @@ Creating a trigger may feel tedious and repetitive in a microservices setup. But
 To follow along in this tutorial, you will need to have a basic understanding of AWS Lambda functions as well as AWS security. You’ll also need access to the following:
 
 - An AWS account with permissions to create IAM Users and Policies
-- An Apollo GraphQL account, you can [<FontIcon icon="iconfont icon-graphql"/>sign up for a free plan here](https://studio.apollographql.com/signup).
+- An Apollo GraphQL account, you can [<VPIcon icon="iconfont icon-graphql"/>sign up for a free plan here](https://studio.apollographql.com/signup).
 
 :::
 
 We will also use the following tools:
 
-- [<FontIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/): Microsoft VS Code is a free source code editor from Microsoft
-- [<FontIcon icon="iconfont icon-graphql"/>Apollo Rover CLI](https://apollographql.com/docs/rover/getting-started): Rover is the command-line interface for managing and maintaining graphs
-- [<FontIcon icon="iconfont icon-graphql"/>Apollo Studio](https://studio.apollographql.com/signup): A web-based portal used for managing all aspects of your graph
-- [<FontIcon icon="iconfont icon-graphql"/>Apollo Connectors Mapping Playground](https://apollographql.com/connectors-mapping-playground): A website that takes a JSON document and helps developers create the selection mapping used with Apollo Connectors
+- [<VPIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/): Microsoft VS Code is a free source code editor from Microsoft
+- [<VPIcon icon="iconfont icon-graphql"/>Apollo Rover CLI](https://apollographql.com/docs/rover/getting-started): Rover is the command-line interface for managing and maintaining graphs
+- [<VPIcon icon="iconfont icon-graphql"/>Apollo Studio](https://studio.apollographql.com/signup): A web-based portal used for managing all aspects of your graph
+- [<VPIcon icon="iconfont icon-graphql"/>Apollo Connectors Mapping Playground](https://apollographql.com/connectors-mapping-playground): A website that takes a JSON document and helps developers create the selection mapping used with Apollo Connectors
 
 ---
 
@@ -289,11 +289,11 @@ In your AWS console, create a new NodeJS AWS Lambda function, “products”.
 
 ![AWS create function dialog](https://cdn.hashnode.com/res/hashnode/image/upload/v1742754922858/b2a307c2-8b43-4417-b022-0113803a3b5d.jpeg)
 
-Select “Node.JS” for the runtime then click “Create function”. Once created, paste in the the function code [from this Gist (<FontIcon icon="iconfont icon-github"/>`RWaltersMA`)](https://gist.github.com/RWaltersMA/25264ff22a5cbc26814a00dbb78a16e2).
+Select “Node.JS” for the runtime then click “Create function”. Once created, paste in the the function code [from this Gist (<VPIcon icon="iconfont icon-github"/>`RWaltersMA`)](https://gist.github.com/RWaltersMA/25264ff22a5cbc26814a00dbb78a16e2).
 
 ![AWS function showing code source](https://cdn.hashnode.com/res/hashnode/image/upload/v1742755096066/90e96036-41cd-4b45-8841-0bb3acb5af6b.jpeg)
 
-Repeat this process, creating another function for, “product-price” and use the function code [from this Gist (<FontIcon icon="iconfont icon-github"/>`RWaltersMA`)](https://gist.github.com/RWaltersMA/d75d9eb02264829c1392dbdf7f238bad).
+Repeat this process, creating another function for, “product-price” and use the function code [from this Gist (<VPIcon icon="iconfont icon-github"/>`RWaltersMA`)](https://gist.github.com/RWaltersMA/d75d9eb02264829c1392dbdf7f238bad).
 
 ---
 
@@ -301,11 +301,11 @@ Repeat this process, creating another function for, “product-price” and use 
 
 In this section, we will install the Apollo Rover CLI tool, create an Apollo Studio free tier account, and clone the Apollo Connectors repository. If you already have an Apollo environment available, you can skip steps 1 and 2. ### Step 1: Install Rover
 
-Rover is the command-line interface for managing and maintaining graphs. It also provides a modern hot-reloading experience for developing and running your connectors locally. If you don’t have Rover installed, install it by [<FontIcon icon="iconfont icon-graphql"/>following the steps here](https://apollographql.com/docs/rover/getting-started).
+Rover is the command-line interface for managing and maintaining graphs. It also provides a modern hot-reloading experience for developing and running your connectors locally. If you don’t have Rover installed, install it by [<VPIcon icon="iconfont icon-graphql"/>following the steps here](https://apollographql.com/docs/rover/getting-started).
 
 ### Step 2: Create an Apollo Studio Free Tier Account
 
-Apollo Studio is a cloud-based management platform designed to explore, deliver, and collaborate on graphs. If you do not have an Apollo Studio account, create one on a free plan [<FontIcon icon="iconfont icon-graphql"/>by navigating here](https://studio.apollographql.com/signup).
+Apollo Studio is a cloud-based management platform designed to explore, deliver, and collaborate on graphs. If you do not have an Apollo Studio account, create one on a free plan [<VPIcon icon="iconfont icon-graphql"/>by navigating here](https://studio.apollographql.com/signup).
 
 ![Apollo Studio](https://cdn.hashnode.com/res/hashnode/image/upload/v1742755870123/4b38b025-064c-4a9a-b836-53a563152e43.jpeg)
 
@@ -313,13 +313,13 @@ Apollo Studio is a cloud-based management platform designed to explore, deliver,
 
 To help you start your first Apollo Connector, a GitHub repository provides sample connectors and a template script. When run, this script will create all the necessary files and configurations you need to begin.
 
-Go ahead and [clone the repository from here (<FontIcon icon="iconfont icon-github"/>`apollographql/connectors-community`)](https://github.com/apollographql/connectors-community).
+Go ahead and [clone the repository from here (<VPIcon icon="iconfont icon-github"/>`apollographql/connectors-community`)](https://github.com/apollographql/connectors-community).
 
 Note: While not required, I recommended using VS Code, as this repo leverages VS Code-specific settings files.
 
 ### Step 4: Create a .env File
 
-Before you run the Create Connectors template script, create a .env locally with a user API key from your Apollo Studio. You can [<FontIcon icon="iconfont icon-graphql"/>create and obtain this key here](https://studio.apollographql.com/user-settings/api-keys). Populating this .env file will add this API key to the connector template you create in the next step.
+Before you run the Create Connectors template script, create a .env locally with a user API key from your Apollo Studio. You can [<VPIcon icon="iconfont icon-graphql"/>create and obtain this key here](https://studio.apollographql.com/user-settings/api-keys). Populating this .env file will add this API key to the connector template you create in the next step.
 
 ![.env file](https://cdn.hashnode.com/res/hashnode/image/upload/v1742755977271/860ef610-e802-4ec1-9cca-e881881a0968.jpeg)
 
@@ -351,7 +351,7 @@ Note: In this step, we saved the key to the settings.json file. While this is ac
 
 ### Step 7: Configure the Graph
 
-The <FontIcon icon="iconfont icon-yaml"/>`supergraph.yaml` file is used to define all the subgraphs that are part of this federation. Modify the <FontIcon icon="iconfont icon-yaml"/>`supergraph.yaml` file as follows:
+The <VPIcon icon="iconfont icon-yaml"/>`supergraph.yaml` file is used to define all the subgraphs that are part of this federation. Modify the <VPIcon icon="iconfont icon-yaml"/>`supergraph.yaml` file as follows:
 
 ```yaml title="supergraph.yaml"
 federation_version: =2.10.0
@@ -364,7 +364,7 @@ subgraphs:
 
 ### Step 8: Configure Apollo Router
 
-Apollo Router supports AWS SigV4 authentication. To configure the connector to use this, modify the <FontIcon icon="iconfont icon-yaml"/>`router.yaml` file and add an authentication section as follows:
+Apollo Router supports AWS SigV4 authentication. To configure the connector to use this, modify the <VPIcon icon="iconfont icon-yaml"/>`router.yaml` file and add an authentication section as follows:
 
 ```yaml title="router.yaml"
 authentication:
@@ -377,11 +377,11 @@ authentication:
             service_name: "lambda"
 ```
 
-There are other AWS security configuration options available, including using assume role. The full documentation for subgraph authentication [<FontIcon icon="iconfont icon-graphql"/>is available here](https://apollographql.com/docs/graphos/routing/security/subgraph-authentication).
+There are other AWS security configuration options available, including using assume role. The full documentation for subgraph authentication [<VPIcon icon="iconfont icon-graphql"/>is available here](https://apollographql.com/docs/graphos/routing/security/subgraph-authentication).
 
 ### Step 9: Build the connector
 
-Now that we have configured the environment variables and authentication information, we are ready to build the connector. Open the <FontIcon icon="iconfont icon-graphql"/>`connector.graphql` file and erase the contents. Next, copy the following extend schema:
+Now that we have configured the environment variables and authentication information, we are ready to build the connector. Open the <VPIcon icon="iconfont icon-graphql"/>`connector.graphql` file and erase the contents. Next, copy the following extend schema:
 
 ```graphql
 extend schema
@@ -435,7 +435,7 @@ type Product {
 
 Notice our query Products has an @connect directive that defines, at a minimum, the source name. Here, you can add the HTTP-specific configuration you need for this field, such as Authorizations headers. In this scenario, since we only defined a baseUrl in the extend schema section, we need to put the specific URL for the InvokeFunction, which is **/2015-03-31/functions/product-price/invocations**.
 
-The selection field allows you to transform and map values returned from the REST API using the mapping definition defined in the selection field. While a complete discussion of selection mapping is beyond the scope of this article, check out the documentation for a detailed look at [<FontIcon icon="iconfont icon-graphql"/>Mapping GraphQL Responses](https://apollographql.com/docs/graphos/schema-design/connectors/responses). Apollo [<FontIcon icon="iconfont icon-graphql"/>provides a free online tool](https://apollographql.com/connectors-mapping-playground) that makes building mappings intuitive and fast.
+The selection field allows you to transform and map values returned from the REST API using the mapping definition defined in the selection field. While a complete discussion of selection mapping is beyond the scope of this article, check out the documentation for a detailed look at [<VPIcon icon="iconfont icon-graphql"/>Mapping GraphQL Responses](https://apollographql.com/docs/graphos/schema-design/connectors/responses). Apollo [<VPIcon icon="iconfont icon-graphql"/>provides a free online tool](https://apollographql.com/connectors-mapping-playground) that makes building mappings intuitive and fast.
 
 ![connectors mapping playground](https://cdn.hashnode.com/res/hashnode/image/upload/v1742756290237/91d17c59-a2d0-4a22-8acf-1faec0c0f36f.jpeg)
 
@@ -474,7 +474,7 @@ type Query {
 }
 ```
 
-Now we're ready to run our connector and issue queries to our graph! The complete configuration script is available [at this Gist (<FontIcon icon="iconfont icon-github"/>`RWaltersMA`)](https://gist.github.com/RWaltersMA/e44813a89c748e175d6997f659162b33.).
+Now we're ready to run our connector and issue queries to our graph! The complete configuration script is available [at this Gist (<VPIcon icon="iconfont icon-github"/>`RWaltersMA`)](https://gist.github.com/RWaltersMA/e44813a89c748e175d6997f659162b33.).
 
 ### Step 10: Run the Connector
 
@@ -503,7 +503,7 @@ If everything is configured correctly, you’ll see the following:
 
 ## Section 3: How to Use Apollo Sandbox
 
-The `rover dev` command you launched in the previous step configures a local Apollo Router instance for [<FontIcon icon="iconfont icon-graphql"/>development mode](https://apollographql.com/docs/graphos/reference/router/configuration). This mode makes it easy for developers to create, execute, and debug ad-hoc GraphQL queries using the Apollo Sandbox web portal. This portal is located at `http://localhost:4000` by default.
+The `rover dev` command you launched in the previous step configures a local Apollo Router instance for [<VPIcon icon="iconfont icon-graphql"/>development mode](https://apollographql.com/docs/graphos/reference/router/configuration). This mode makes it easy for developers to create, execute, and debug ad-hoc GraphQL queries using the Apollo Sandbox web portal. This portal is located at `http://localhost:4000` by default.
 
 Launch the portal and click on the products field. This will populate the Operation pane with all the available fields in the schema. In the operation pane, you can modify and build your GraphQL query. Clicking the Run button (which displays the query name, Products, in our example) will execute the query and show the results in the Response panel, as illustrated in the figure above.
 

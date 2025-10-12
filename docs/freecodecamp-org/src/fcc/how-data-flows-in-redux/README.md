@@ -1236,7 +1236,7 @@ Whether handling asynchronous operations with middleware like Redux Thunk or Red
 
 By mastering these techniques, you can leverage Redux to streamline data flow, enhance application performance, and simplify the complexities of managing state in modern web development.
 
-That's all for this article! If you'd like to continue the conversation or have questions, suggestions, or feedback, feel free to reach out to connect with me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://ng.linkedin.com/in/joan-ayebola). And if you enjoyed this content, consider [<FontIcon icon="fas fa-globe"/>buying me a coffee](https://buymeacoffee.com/joanayebola) to support the creation of more developer-friendly contents.
+That's all for this article! If you'd like to continue the conversation or have questions, suggestions, or feedback, feel free to reach out to connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://ng.linkedin.com/in/joan-ayebola). And if you enjoyed this content, consider [<VPIcon icon="fas fa-globe"/>buying me a coffee](https://buymeacoffee.com/joanayebola) to support the creation of more developer-friendly contents.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

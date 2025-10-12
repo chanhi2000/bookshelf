@@ -162,8 +162,8 @@ Follow me on Twitter or connect on LinkedIn for more awesome cloud tips and tric
 
 You can follow me on
 
-- [X (<FontIcon icon="fa-brands fa-x-twitter"/>`Kedar__98`)](https://twitter.com/Kedar__98)
-- [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`kedar-makode-9833321ab`)](https://linkedin.com/in/kedar-makode-9833321ab)
+- [X (<VPIcon icon="fa-brands fa-x-twitter"/>`Kedar__98`)](https://twitter.com/Kedar__98)
+- [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`kedar-makode-9833321ab`)](https://linkedin.com/in/kedar-makode-9833321ab)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

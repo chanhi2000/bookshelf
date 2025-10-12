@@ -920,5 +920,5 @@ Understanding and effectively using HTML attributes for accessibility is crucial
 
 Thank you so much for reading, I hope this guide helps you create more accessible web content. If you found it helpful, consider sharing.
 
-You can connect with me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`elizabeth-meshioye`)](https://linkedin.com/in/elizabeth-meshioye/).
+You can connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`elizabeth-meshioye`)](https://linkedin.com/in/elizabeth-meshioye/).
 

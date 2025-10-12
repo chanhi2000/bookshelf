@@ -85,4 +85,4 @@ Since we’ve already set up the Next.js app, the next step is to create a minim
   - Users can ask questions about the database using natural language.
   - The chatbot processes these queries, converts them into SQL, and fetches the results seamlessly.
 
-The front end will look something like this: [<FontIcon icon="fas fa-globe"/>https://replit-mongodb.vercel.app/](https://replit-mongodb.vercel.app/)
+The front end will look something like this: [<VPIcon icon="fas fa-globe"/>https://replit-mongodb.vercel.app/](https://replit-mongodb.vercel.app/)

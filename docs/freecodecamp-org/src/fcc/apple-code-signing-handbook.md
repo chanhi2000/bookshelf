@@ -219,7 +219,7 @@ This is a point of no return: Once you upload a build of an app to App Store Con
 
 In addition, after an upload, you can’t delete the associated explicit App ID registered in the Developer Portal. This immutability highlights the need for *careful planning and verification* of the Bundle ID before any uploads occur.
 
-If you prefer programmatic management or automation, the App Store Connect API provides resources for managing Bundle IDs. You can [<FontIcon icon="fa-brands fa-apple"/>read more on that here](https://developer.apple.com/documentation/appstoreconnectapi).
+If you prefer programmatic management or automation, the App Store Connect API provides resources for managing Bundle IDs. You can [<VPIcon icon="fa-brands fa-apple"/>read more on that here](https://developer.apple.com/documentation/appstoreconnectapi).
 
 ---
 
@@ -301,12 +301,12 @@ For our purposes, you’ll generate a CSR on your Mac and then submit it to Appl
 
 To create a CSR using Keychain Access on macOS:
 
-1. Launch Keychain Access (you can find it at <FontIcon icon="fas fa-folder-open"/>`/Applications/Utilities/` or use spotlight).
+1. Launch Keychain Access (you can find it at <VPIcon icon="fas fa-folder-open"/>`/Applications/Utilities/` or use spotlight).
 2. From the menu bar, choose Keychain Access > Certificate Assistant > Request a Certificate From a Certificate Authority.... (Here the Certificate Authority would be Apple).
 3. In the dialog, enter your email address and a common name for the key (for example, "My Mac Key" or "[Your Name] Dev Key"). This name is primarily for your identification in the Keychain.
 4. Leave the "CA Email Address" field empty - we won’t email it to the Certificate Authority (Apple).
 5. Select the "Saved to disk" option and click "Continue".
-6. Save the file, which will have a <FontIcon icon="fas fa-file-lines"/>`.certSigningRequest` extension. The corresponding private key is now stored in the login keychain. **This private key is irreplaceable by Apple and you must store it yourself.**
+6. Save the file, which will have a <VPIcon icon="fas fa-file-lines"/>`.certSigningRequest` extension. The corresponding private key is now stored in the login keychain. **This private key is irreplaceable by Apple and you must store it yourself.**
 
 ![Dialog for the CSR creation](https://cdn.hashnode.com/res/hashnode/image/upload/v1748288861336/50f20da3-69d9-476d-97e7-331f9b9b5c76.png)
 
@@ -317,52 +317,52 @@ Once you’ve created a CSR, you can request a certificate from the Apple Develo
 1. Navigate to "Certificates, Identifiers & Profiles" and select "Certificates".
 2. Click the add button (+).
 3. Choose the desired certificate type
-4. Follow the prompts, and when asked, upload the <FontIcon icon="fas fa-file-lines"/>`.certSigningRequest` file generated earlier.
-5. After Apple processes the request, the certificate will be available for download as a <FontIcon icon="fas fa-key"/>`.cer` file.
+4. Follow the prompts, and when asked, upload the <VPIcon icon="fas fa-file-lines"/>`.certSigningRequest` file generated earlier.
+5. After Apple processes the request, the certificate will be available for download as a <VPIcon icon="fas fa-key"/>`.cer` file.
 
 ![Prompt to upload the CSR after selecting the type of certificate](https://cdn.hashnode.com/res/hashnode/image/upload/v1748289386364/78f46b4e-b232-4484-98c2-dcb75120fd61.png)
 
-To install the certificate, double-click the downloaded <FontIcon icon="fas fa-key"/>`.cer` file. It will be added to the Keychain Access application - usually appearing in the "login" keychain under the "My Certificates" category, where it should be paired with the private key generated during the CSR generation process earlier.
+To install the certificate, double-click the downloaded <VPIcon icon="fas fa-key"/>`.cer` file. It will be added to the Keychain Access application - usually appearing in the "login" keychain under the "My Certificates" category, where it should be paired with the private key generated during the CSR generation process earlier.
 
 You can see my certificate and private key in the image below for reference.
 
 ![An example of how your certificate and the private key will look like in the keychain](https://cdn.hashnode.com/res/hashnode/image/upload/v1748289120657/38f711dd-887a-4fae-844d-e389c65234cf.png)
 
-To recap, the CSR certifies that you generated the request from your mac. The certificate certifies that Apple (in this case, an intermediary like the "Apple Worldwide Developer Relations Certification Authority") confirms that they verified the CSR and that it is indeed you who will sign with the certificate (<FontIcon icon="fas fa-key"/>`.cer`) file.
+To recap, the CSR certifies that you generated the request from your mac. The certificate certifies that Apple (in this case, an intermediary like the "Apple Worldwide Developer Relations Certification Authority") confirms that they verified the CSR and that it is indeed you who will sign with the certificate (<VPIcon icon="fas fa-key"/>`.cer`) file.
 
 This is enforced by only you having access to the private key - if you lose it, you cannot use this certificate anymore.
 
 So, if you use this certificate (and the private key) to sign an app, the app store / operating system knows that it is you for sure since Apple confirmed it.
 
-### How to Store Your Keys: What are <FontIcon icon="fas fa-key"/>`.p12` Files?
+### How to Store Your Keys: What are <VPIcon icon="fas fa-key"/>`.p12` Files?
 
 As I mentioned in the previous section, to code sign an app you need your certificate (containing the public key) and the corresponding private key. This is created along with the CSR, and you can find it in the `Keychain Access` app.
 
 We call the combination of the certificate and the private key a digital identity. This proves your identity when you sign an app with them.
 
-#### <FontIcon icon="fas fa-key"/>`.p12` Files (Personal Information Exchange):
+#### <VPIcon icon="fas fa-key"/>`.p12` Files (Personal Information Exchange):
 
-A <FontIcon icon="fas fa-key"/>`.p12` file is a password-protected archive format used to bundle a certificate along with its private key. Its primary purposes are:
+A <VPIcon icon="fas fa-key"/>`.p12` file is a password-protected archive format used to bundle a certificate along with its private key. Its primary purposes are:
 
 - Backing up the digital identity in case you lose access to your Mac.
 - Transferring the digital identity to another Mac (for example, for another team member or a new development machine).
 - Providing the identity to automated build systems or third-party build services.
 
-Historically, I have stored the <FontIcon icon="fas fa-key"/>`.p12` file on a shared drive with my team and shared the password to it verbally - you can also store it in a local backup disk.
+Historically, I have stored the <VPIcon icon="fas fa-key"/>`.p12` file on a shared drive with my team and shared the password to it verbally - you can also store it in a local backup disk.
 
 Great. So how do you create one?
 
-#### To export a <FontIcon icon="fas fa-key"/>`.p12` file from Keychain Access:
+#### To export a <VPIcon icon="fas fa-key"/>`.p12` file from Keychain Access:
 
 1. Open Keychain Access, select the "login" keychain, and go to the "My Certificates" category.
 2. Locate the desired certificate. It should have an expandable disclosure triangle indicating an associated private key (look at the image of my certificate above).
 3. Select *both* the certificate and its private key (or right-click the certificate and choose "Export").
 4. Right-click and choose "Export \[X\] items...".
 5. In the save dialog, choose the "Personal Information Exchange (`.p12`)" file format.
-6. Assign a strong password to protect the <FontIcon icon="fas fa-key"/>`.p12` file. This password will be required when importing the file elsewhere. It is crucial for security.
+6. Assign a strong password to protect the <VPIcon icon="fas fa-key"/>`.p12` file. This password will be required when importing the file elsewhere. It is crucial for security.
 7. Save the file to a secure location.
 
-![Image of exporting my certificate and private key as a <FontIcon icon="fas fa-key"/>`.p12` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1748297124625/f9d2cfe0-3538-405e-8fb0-af08276c4326.png)
+![Image of exporting my certificate and private key as a <VPIcon icon="fas fa-key"/>`.p12` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1748297124625/f9d2cfe0-3538-405e-8fb0-af08276c4326.png)
 
 ---
 
@@ -372,7 +372,7 @@ Provisioning profiles are the final link between an App ID, developer certificat
 
 ### What Exactly is a Provisioning Profile?
 
-A provisioning profile is a <FontIcon icon="fas fa-file-lines"/>`.mobileprovision` (for iOS / VisionOS) or <FontIcon icon="fas fa-file-lines"/>`.provisionprofile` (for macOS) file that holds several key pieces of information:
+A provisioning profile is a <VPIcon icon="fas fa-file-lines"/>`.mobileprovision` (for iOS / VisionOS) or <VPIcon icon="fas fa-file-lines"/>`.provisionprofile` (for macOS) file that holds several key pieces of information:
 
 - **The App ID:** Specifies which application (or set of applications, if using a wildcard App ID) the profile applies to.
 - **Certificates:** Contains one or more developer or distribution certificates that can be used to sign the app.
@@ -442,7 +442,7 @@ General steps for manual creation in the Developer Portal:
 5. Select the certificate(s) to include in the profile. Development profiles can include multiple development certificates - so you can include all the team member certificates here. Ad Hoc and App Store profiles include a single distribution certificate.
 6. If creating a Development or Ad Hoc profile, select the registered devices to include.
 7. Provide a name for the provisioning profile (this is for identification in the portal and Xcode).
-8. Click "Generate" and then "Download" the <FontIcon icon="fas fa-file-lines"/>`.mobileprovision` or <FontIcon icon="fas fa-file-lines"/>`.provisionprofile` file.
+8. Click "Generate" and then "Download" the <VPIcon icon="fas fa-file-lines"/>`.mobileprovision` or <VPIcon icon="fas fa-file-lines"/>`.provisionprofile` file.
 
 You need to make downloaded profiles available to Xcode. You can often do this by double-clicking the downloaded file or by refreshing profiles within Xcode's account settings (Preferences > Accounts).
 
@@ -482,7 +482,7 @@ There are several ways to find a device's UDID:
 
 ### How to Register Devices in the Apple Developer Portal
 
-Device registration is managed through the "Certificates, Identifiers & Profiles" section of the Apple Developer Portal ([<FontIcon icon="fa-brands fa-apple"/>`developer.apple.com`](https://developer.apple.com)) and typically requires an Account Holder or Admin role.
+Device registration is managed through the "Certificates, Identifiers & Profiles" section of the Apple Developer Portal ([<VPIcon icon="fa-brands fa-apple"/>`developer.apple.com`](https://developer.apple.com)) and typically requires an Account Holder or Admin role.
 
 To manually register a single device:
 
@@ -492,7 +492,7 @@ To manually register a single device:
 4. Enter a descriptive "Device Name" (this is for your reference, for example, "Sravan’s iPhone 11 Pro") and the device's UDID obtained in the previous step.
 5. Click "Continue," review the information to make sure everything is correct, and then click "Register".
 
-For registering multiple devices, the portal supports uploading a specially formatted text file (a <FontIcon icon="fas fa-file-lines"/>`.txt` or a <FontIcon icon="fas fa-file-lines"/>`.deviceids` file) containing device names and UDIDs.
+For registering multiple devices, the portal supports uploading a specially formatted text file (a <VPIcon icon="fas fa-file-lines"/>`.txt` or a <VPIcon icon="fas fa-file-lines"/>`.deviceids` file) containing device names and UDIDs.
 
 If "Automatically manage signing" is enabled in Xcode, Xcode can automatically register a connected device when it's selected as a build target. This is the way I managed all of my personal projects and devices. On the other hand, the file upload was really useful at my workplace to keep track of all the devices and add them at once.
 
@@ -563,7 +563,7 @@ While all of these might seem daunting, Apple’s automatic process should handl
 
 While signing and handling certificates is not the most exciting part of the App development process, it is a necessary skill to have. In my next article, I will go over distributing an app from start to finish (which includes these processes and more restrictions).
 
-You can follow me at [<FontIcon icon="fas fa-globe"/>Sravan Karuturi](https://hashnode.com/@sravankaruturi) for my other posts.
+You can follow me at [<VPIcon icon="fas fa-globe"/>Sravan Karuturi](https://hashnode.com/@sravankaruturi) for my other posts.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

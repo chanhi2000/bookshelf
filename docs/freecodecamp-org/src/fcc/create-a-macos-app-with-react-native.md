@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724355029103/aba230f
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1724355029103/aba230f3-c814-43f5-afc0-4682355a1ddd.png"/>
 
-We are excited to announce the release of our latest course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you how to use React Native to build a MacOS application. This course will guide you through the development of a fully integrated MacOS application using React Native.
+We are excited to announce the release of our latest course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you how to use React Native to build a MacOS application. This course will guide you through the development of a fully integrated MacOS application using React Native.
 
 You'll learn how to create an app that allows users to search and explore books using the Google Books API, manage personal bookshelves, and even generate AI-powered summaries. By the end of this course, you'll have a comprehensive understanding of building advanced MacOS applications.
 
@@ -119,7 +119,7 @@ The course is structured into detailed sections, each focusing on a specific asp
 
 ## Join Us Today
 
-Head over to the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/-kizZZrh1zM) to watch the course (3-hour watch). Whether you're looking to enhance your current projects or embark on new ones, this course will help you master MacOS application development.
+Head over to the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/-kizZZrh1zM) to watch the course (3-hour watch). Whether you're looking to enhance your current projects or embark on new ones, this course will help you master MacOS application development.
 
 <VidStack src="youtube/kizZZrh1zM" />
 

@@ -167,7 +167,7 @@ As demonstrated, developing a smart contract with Gear Protocol becomes straight
 
 While this article didn't delve into handling transactions such as token transfers, minting, or NFTs, I will cover these topics in a future article.
 
-For now, you can explore the repository of the project we built together: [Battle-Showdown (<FontIcon icon="iconfont icon-github"/>`rockyessel/battle-showdown`)](https://github.com/rockyessel/battle-showdown), and if you have any question to ask, feel free to reach @rockyessel on X.
+For now, you can explore the repository of the project we built together: [Battle-Showdown (<VPIcon icon="iconfont icon-github"/>`rockyessel/battle-showdown`)](https://github.com/rockyessel/battle-showdown), and if you have any question to ask, feel free to reach @rockyessel on X.
 
 <SiteInfo
   name="rockyessel/battle-showdown: Embark on your journey into smart contract development with Gear Protocol through this beginner-friendly tutorial, covering everything from basic concepts to hands-on implementation."

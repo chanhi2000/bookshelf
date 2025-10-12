@@ -85,13 +85,13 @@ But as the language and the ecosystem grew, developers started to see the need f
 
 Of the many available, we're only going to take a look at CommonJS and ESmodules, which are the most recent and widely used ones.
 
-Side comment: Did you know that [<FontIcon icon="fas fa-globe"/>Javascript was originally created in just 10 days of work](https://thenewstack.io/brendan-eich-on-creating-javascript-in-10-days-and-what-hed-do-differently-today/)?
+Side comment: Did you know that [<VPIcon icon="fas fa-globe"/>Javascript was originally created in just 10 days of work](https://thenewstack.io/brendan-eich-on-creating-javascript-in-10-days-and-what-hed-do-differently-today/)?
 
 When analyzing the complexities of JavaScript and understanding how the language has evolved, I think it's important to have in mind that the language wasn't originally created to do what it does nowadays. It's the growth of the Javascript ecosystem that pushed for many of the changes that have come about.
 
 ### CommonJS modules
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>CommonJS](https://en.wikipedia.org/wiki/CommonJS) is a set of standards used to implement modules on JavaScript. The project was started by Mozilla engineer Kevin Dangoor in 2009. CommonJS is mainly used in server-side JS apps with Node, as browsers don't support the use of CommonJS.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>CommonJS](https://en.wikipedia.org/wiki/CommonJS) is a set of standards used to implement modules on JavaScript. The project was started by Mozilla engineer Kevin Dangoor in 2009. CommonJS is mainly used in server-side JS apps with Node, as browsers don't support the use of CommonJS.
 
 As a side comment, Node used to only support CommonJS to implement modules, but nowadays it also supports ESmodules which is a more modern approach.
 
@@ -99,7 +99,7 @@ So let's see how CommonJS looks in actual code.
 
 To implement modules, you need a Node app on your computer first. So create one by running `npm init -y`.
 
-First let's create a <FontIcon icon="fa-brands fa-js"/>`main.js` file with a simple function in it.
+First let's create a <VPIcon icon="fa-brands fa-js"/>`main.js` file with a simple function in it.
 
 ```js title="main.js"
 const testFunction = () => {
@@ -109,7 +109,7 @@ const testFunction = () => {
 testFunction()
 ```
 
-Ok now let's say we want to have another function called from our main file, but we don't want the function in it as it's not part of our core feature. For this, let's create a <FontIcon icon="fa-brands fa-js"/>`mod1.js` file and add this code to it:
+Ok now let's say we want to have another function called from our main file, but we don't want the function in it as it's not part of our core feature. For this, let's create a <VPIcon icon="fa-brands fa-js"/>`mod1.js` file and add this code to it:
 
 ```js title="mod1.js"
 const mod1Function = () => console.log('Mod1 is alive!')
@@ -118,7 +118,7 @@ module.exports = mod1Function
 
 `module.exports` is the keyword we use to declare all we want to export from that file.
 
-To use this function in our <FontIcon icon="fa-brands fa-js"/>`main.js` file, we can do it like this:
+To use this function in our <VPIcon icon="fa-brands fa-js"/>`main.js` file, we can do it like this:
 
 ```js title="main.js"
 mod1Function = require('./mod1.js')
@@ -142,7 +142,7 @@ const mod1Function2 = () => console.log('Mod1 is rolling, baby!')
 module.exports = { mod1Function, mod1Function2 }
 ```
 
-And on the <FontIcon icon="fa-brands fa-js"/>`main.js` file we can use both functions like this:
+And on the <VPIcon icon="fa-brands fa-js"/>`main.js` file we can use both functions like this:
 
 ```js title="main.js"
 ({ mod1Function, mod1Function2 } = require('./mod1.js'))
@@ -166,7 +166,7 @@ ESmodules is a more modern approach that is currently supported by browser and s
 
 Let's see this in code. Once again we start by creating a Node app with `npm init -y`.
 
-Now we go to our <FontIcon icon="iconfont icon-json"/>`package.json` and add `"type": "module"` to it, like this:
+Now we go to our <VPIcon icon="iconfont icon-json"/>`package.json` and add `"type": "module"` to it, like this:
 
 ```json title="package.json"
 {
@@ -192,7 +192,7 @@ If we don't do this and try to implement ESmodules on Node, we'll get an error l
 SyntaxError: Cannot use import statement outside a module
 ```
 
-Now let's repeat the exact same example. In our <FontIcon icon="fa-brands fa-js"/>`main.js` file we'll have the following code:
+Now let's repeat the exact same example. In our <VPIcon icon="fa-brands fa-js"/>`main.js` file we'll have the following code:
 
 ```js title="main.js"
 import { mod1Function } from './mod1.js'
@@ -313,7 +313,7 @@ And that pretty much sums it up about ESmodules too. Straightforward I hope.
 
 Ok now that we're clear about the different types of modules available and how they work, let's see how we can implement modules in a website using HMTL and Vanilla JS.
 
-Let's create a simple HTML file with a heading, two buttons, and a script tag linking to our <FontIcon icon="fa-brands fa-js"/>`main.js` file.
+Let's create a simple HTML file with a heading, two buttons, and a script tag linking to our <VPIcon icon="fa-brands fa-js"/>`main.js` file.
 
 ```html title="index.html"
 <!DOCTYPE html>
@@ -343,7 +343,7 @@ If we open our HTML file we should get something like this:
 
 ![](https://freecodecamp.org/news/content/images/2022/04/screenshot-2.png)
 
-Our <FontIcon icon="fa-brands fa-js"/>`main.js` file will have this code:
+Our <VPIcon icon="fa-brands fa-js"/>`main.js` file will have this code:
 
 ```js title="main.js"
 import { mod1Function, mod1Function2 } from './mod1.js'
@@ -356,7 +356,7 @@ document.getElementById('isRolling').addEventListener('click', () => mod1Functio
 testFunction()
 ```
 
-We're just adding a click event listener to each button so the functions that come from the <FontIcon icon="fa-brands fa-js"/>`mod1.js` file get executed.
+We're just adding a click event listener to each button so the functions that come from the <VPIcon icon="fa-brands fa-js"/>`mod1.js` file get executed.
 
 Ok so now we can serve our HTML file and see if this works. We need to serve the file, we can't just open the HTML in the browser because we would get a CORS error like this:
 
@@ -370,7 +370,7 @@ Anyway, once the file is served we can click on each button and test that our fu
 
 ![](https://freecodecamp.org/news/content/images/2022/04/screenshot_1-1.png)
 
-But there's one more thing about this. If we go to the network tab of the browser's developer tools, and filter by JS files, we can see that the website is loading two files, <FontIcon icon="fa-brands fa-js"/>`main.js` and <FontIcon icon="fa-brands fa-js"/>`mod1.js`:
+But there's one more thing about this. If we go to the network tab of the browser's developer tools, and filter by JS files, we can see that the website is loading two files, <VPIcon icon="fa-brands fa-js"/>`main.js` and <VPIcon icon="fa-brands fa-js"/>`mod1.js`:
 
 ![](https://freecodecamp.org/news/content/images/2022/04/screenshot_3.png)
 
@@ -378,7 +378,7 @@ Of course if we're going to use the code inside each file, both need to be loade
 
 We should always try to reduce the requests to the minimun to increase the performance of our projects. So let's see how we can do this with the help of a module bundler.
 
-Side comment: if you'd like a video explanation, [<FontIcon icon="fas fa-globe"/>Kent C Dodds has a great one](https://egghead.io/lessons/javascript-use-javascript-modules-in-the-browser). I really recommend that you follow him, he's one of the best JS teachers out there. And [<FontIcon icon="fa-brands fa-youtube"/>here's another cool video](https://youtu.be/qgRUr-YUk1Q) by Fireship.
+Side comment: if you'd like a video explanation, [<VPIcon icon="fas fa-globe"/>Kent C Dodds has a great one](https://egghead.io/lessons/javascript-use-javascript-modules-in-the-browser). I really recommend that you follow him, he's one of the best JS teachers out there. And [<VPIcon icon="fa-brands fa-youtube"/>here's another cool video](https://youtu.be/qgRUr-YUk1Q) by Fireship.
 
 <VidStack src="youtube/qgRUr-YUk1Q" />
 
@@ -396,16 +396,16 @@ Thanks to this, as developers we can code our project dividing it into nicely or
 
 This step of converting "development code" to "production code" is normally recognized as "build".
 
-There're many options to use for this (like [<FontIcon icon="fas fa-globe"/>Browserify](https://browserify.org/), [<FontIcon icon="fas fa-globe"/>Parcel](https://parceljs.org/), [<FontIcon icon="fas fa-globe"/>Rollup.js](https://rollupjs.org/guide/en/), [<FontIcon icon="fas fa-globe"/>Snowpack](https://snowpack.dev/)...) but the most widely used is [<FontIcon icon="fas fa-globe"/>Webpack](https://webpack.js.org/). So let's see an example using Webpack.
+There're many options to use for this (like [<VPIcon icon="fas fa-globe"/>Browserify](https://browserify.org/), [<VPIcon icon="fas fa-globe"/>Parcel](https://parceljs.org/), [<VPIcon icon="fas fa-globe"/>Rollup.js](https://rollupjs.org/guide/en/), [<VPIcon icon="fas fa-globe"/>Snowpack](https://snowpack.dev/)...) but the most widely used is [<VPIcon icon="fas fa-globe"/>Webpack](https://webpack.js.org/). So let's see an example using Webpack.
 
-- Side comment 1: If you want to dig deeper into module bundlers and how they work, [<FontIcon icon="fa-brands fa-youtube"/>this awesome video by Fireship](https://youtu.be/5IG4UmULyoA&t=382s) might be a good place to start.
-- Side comment 2: Webpack is a very robust and sophisticated tool that can do many things besides bundling JS files. Check out [<FontIcon icon="fas fa-globe"/>their docs](https://webpack.js.org/) if you want to learn more.
+- Side comment 1: If you want to dig deeper into module bundlers and how they work, [<VPIcon icon="fa-brands fa-youtube"/>this awesome video by Fireship](https://youtu.be/5IG4UmULyoA&t=382s) might be a good place to start.
+- Side comment 2: Webpack is a very robust and sophisticated tool that can do many things besides bundling JS files. Check out [<VPIcon icon="fas fa-globe"/>their docs](https://webpack.js.org/) if you want to learn more.
 
 <VidStack src="youtube/5IG4UmULyoA" />
 
 Great, so now we can start off by creating a Node app (if you haven't already) by running `npm init -y`. Then we'll need to install Webpack and the Webpack CLI by running `npm i --save-dev webpack webpack-cli`.
 
-Next we'll create a <FontIcon icon="fa-brands fa-js"/>`webpack.config.js` file and put this code inside it:
+Next we'll create a <VPIcon icon="fa-brands fa-js"/>`webpack.config.js` file and put this code inside it:
 
 ```js title="webpack.config.js"
 /* webpack.config.js */
@@ -433,7 +433,7 @@ output: {
 },
 ```
 
-Super! Now let's go to our <FontIcon icon="iconfont icon-json"/>`package.json` file and add a `build` script, like this:
+Super! Now let's go to our <VPIcon icon="iconfont icon-json"/>`package.json` file and add a `build` script, like this:
 
 ```json title="package.json"
 {
@@ -455,7 +455,7 @@ Super! Now let's go to our <FontIcon icon="iconfont icon-json"/>`package.json` f
 }
 ```
 
-Then we can go back to our terminal and run `npm run build`. That should create a <FontIcon icon="fas fa-folder-open"/>`dist` directory within our project, and inside it a <FontIcon icon="fa-brands fa-js"/>`bundle.js` file.
+Then we can go back to our terminal and run `npm run build`. That should create a <VPIcon icon="fas fa-folder-open"/>`dist` directory within our project, and inside it a <VPIcon icon="fa-brands fa-js"/>`bundle.js` file.
 
 If you check that file out, you'll see this code within it:
 
@@ -465,7 +465,7 @@ If you check that file out, you'll see this code within it:
 
 You'll see that it's practically the same code we had distributed in our files, but all bundled in a single file and minified.
 
-The only thing left is to change the script tag in our <FontIcon icon="fa-brands fa-html5"/>`index.html` file so it consumes the bundled JS now, like this:
+The only thing left is to change the script tag in our <VPIcon icon="fa-brands fa-html5"/>`index.html` file so it consumes the bundled JS now, like this:
 
 ```html title="index.html"
 <!DOCTYPE html>
@@ -497,9 +497,9 @@ I hope this simple example helped you understand the relevance of module bundler
 
 Well, we're done for today. In this article we've seen what modules are, why are they cool, the different ways you can implement modules in JavaScript, and a practical example of bundling our code with Webpack.
 
-For a complete guide on JS modules, you can take a look [<FontIcon icon="fa-brands fa-firefox"/>at this article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
+For a complete guide on JS modules, you can take a look [<VPIcon icon="fa-brands fa-firefox"/>at this article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
 
-As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [linkedin (<FontIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<FontIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman).
+As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<VPIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman).
 
 Cheers and see you in the next one! =D
 

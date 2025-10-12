@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741916554049/a4eaed0
 
 Whether you're building a web app, mobile app, or API, understanding how to implement robust authentication and authorization is a critical skill. AWS Cognito is a powerful ability that simplifies user management, authentication, and access control, making it an essential technology for developers and businesses alike. By mastering AWS Cognito, you can build secure, scalable applications while integrating seamlessly with other AWS services. If you're looking to enhance your skills in this area, we have the perfect resource for you.
 
-We just posted a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel about AWS Cognito that will take you from beginner to expert. This comprehensive course covers everything you need to know about AWS Cognito, from understanding User Pools and Identity Pools to implementing OAuth 2.0 workflows and JWT authentication.
+We just posted a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel about AWS Cognito that will take you from beginner to expert. This comprehensive course covers everything you need to know about AWS Cognito, from understanding User Pools and Identity Pools to implementing OAuth 2.0 workflows and JWT authentication.
 
 You'll also learn how to integrate Cognito with popular frameworks like React and Node.js, implement role-based access control, and secure APIs using Cognito authorizers. The course is packed with hands-on exercises, including building a secure file-sharing application using AWS Cognito, S3, and React, so you can apply what you learn in real-world scenarios. Rishi Tiwari developed this course.
 
@@ -80,7 +80,7 @@ The course is divided into clear, easy-to-follow chapters, including:
 - Secure the AWS API Gateway Using Cognito User Pools
 - ShareMyFiles - Secure File Sharing App
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/ajExOgOCJXY) (4-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/ajExOgOCJXY) (4-hour watch).
 
 <VidStack src="youtube/ajExOgOCJXY" />
 

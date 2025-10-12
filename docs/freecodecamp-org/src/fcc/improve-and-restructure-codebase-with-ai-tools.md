@@ -309,7 +309,7 @@ This command will prompt you to answer a few configuration questions. You can ch
 
 @tab 3. Example Code with Issues
 
-Here’s a sample JavaScript file (<FontIcon icon="fa-brands fa-js"/>`example.js`) with a few common issues:
+Here’s a sample JavaScript file (<VPIcon icon="fa-brands fa-js"/>`example.js`) with a few common issues:
 
 ```js title="example.js"
 // 
@@ -336,7 +336,7 @@ if (y > 3) {
 npx eslint example.js
 ```
 
-After running this command, ESLint will analyze <FontIcon icon="fa-brands fa-js"/>`example.js` and report any issues based on the configured rules.
+After running this command, ESLint will analyze <VPIcon icon="fa-brands fa-js"/>`example.js` and report any issues based on the configured rules.
 
 @tab 5. ESLint Output
 
@@ -661,13 +661,13 @@ With a solid approach, even the messiest codebase can become clean, efficient, a
 
 ### Resources
 
-- AI tools have been developed to assist with the Git branching, Pull Request reviews and approval. Check out [this article (<FontIcon icon="fa-brands fa-dev"/>`oluwadamisisamuel1`)](https://dev.to/oluwadamisisamuel1/merge-mastery-elevating-your-pull-request-game-in-open-source-projects-25fo) to read more on one of my favorites.
-- If you want a step by step tutorial on how to revive and refactor your code, check out [<FontIcon icon="fa-brands fa-youtube"/>this youtube video](https://youtu.be/yMQJUaUtiJo?si=CGd2WBcD117p7lrS).
+- AI tools have been developed to assist with the Git branching, Pull Request reviews and approval. Check out [this article (<VPIcon icon="fa-brands fa-dev"/>`oluwadamisisamuel1`)](https://dev.to/oluwadamisisamuel1/merge-mastery-elevating-your-pull-request-game-in-open-source-projects-25fo) to read more on one of my favorites.
+- If you want a step by step tutorial on how to revive and refactor your code, check out [<VPIcon icon="fa-brands fa-youtube"/>this youtube video](https://youtu.be/yMQJUaUtiJo?si=CGd2WBcD117p7lrS).
 - Check out [this freecodecamp article](/freecodecamp.org/best-practices-for-refactoring-code.md) on code restructuring to dive deeper.
 
 <VidStack src="youtube/yMQJUaUtiJo" />
 
-Connect with me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`samuel-oluwadamisi-01b3a4236`)](https://linkedin.com/in/samuel-oluwadamisi-01b3a4236), [X (<FontIcon icon="fa-brands fa-x-twitter"/>`Data_Steve_`)](https://x.com/Data_Steve_), and [my peronal blog (<FontIcon icon="fa-brands fa-dev"/>`dashboard`)](https://dev.to/dashboard) if you found this helpful.
+Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`samuel-oluwadamisi-01b3a4236`)](https://linkedin.com/in/samuel-oluwadamisi-01b3a4236), [X (<VPIcon icon="fa-brands fa-x-twitter"/>`Data_Steve_`)](https://x.com/Data_Steve_), and [my peronal blog (<VPIcon icon="fa-brands fa-dev"/>`dashboard`)](https://dev.to/dashboard) if you found this helpful.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

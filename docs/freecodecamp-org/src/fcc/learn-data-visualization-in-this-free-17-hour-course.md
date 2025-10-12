@@ -122,7 +122,7 @@ Here is the list of topics covered in this thorough course:
 - Line Chart with Voronoi Tooltips
 - Organization Graph Diagram
 
-**Watch the full course on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/2LhoCfjm8R4) (17-hour watch).**
+**Watch the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/2LhoCfjm8R4) (17-hour watch).**
 
 <VidStack src="youtube/2LhoCfjm8R4" />
 

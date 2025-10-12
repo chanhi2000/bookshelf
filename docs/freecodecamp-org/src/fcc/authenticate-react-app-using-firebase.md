@@ -81,7 +81,7 @@ By the end of this article, you'll have a fully functional authentication system
 
 Before we begin, you need to have the following:
 
-- **A Google Account**: Firebase is a Google product, and you need a Google account to access the Firebase Console and use Firebase services. If you don’t have a Google account, [<FontIcon icon="fa-brands fa-google"/>you can create one here](https://support.google.com/mail/answer/56256?hl=en).
+- **A Google Account**: Firebase is a Google product, and you need a Google account to access the Firebase Console and use Firebase services. If you don’t have a Google account, [<VPIcon icon="fa-brands fa-google"/>you can create one here](https://support.google.com/mail/answer/56256?hl=en).
 
 :::
 
@@ -112,7 +112,7 @@ Before using Firebase Authentication, you need to set up a Firebase project.
 
 @tab:active i. Create a Firebase Project
 
-Go to the [<FontIcon icon="iconfont icon-firebase"/>Firebase Console.](https://firebase.google.com/)
+Go to the [<VPIcon icon="iconfont icon-firebase"/>Firebase Console.](https://firebase.google.com/)
 
 ![Firebase website](https://cdn.hashnode.com/res/hashnode/image/upload/v1723410569746/560dfa39-e8d5-4b22-bb84-94946daeac08.png)
 
@@ -156,8 +156,8 @@ After installing Firebase, the next step is to initialize it in your project usi
 **To set this up:**
 
 1. Create a folder named **config** in your project directory.
-2. Inside the folder, create a file called <FontIcon icon="fa-brands fa-js"/>`firebase.js`.
-3. Paste the SDK snippet you obtained from the Firebase console into the <FontIcon icon="fa-brands fa-js"/>`firebase.js` file.
+2. Inside the folder, create a file called <VPIcon icon="fa-brands fa-js"/>`firebase.js`.
+3. Paste the SDK snippet you obtained from the Firebase console into the <VPIcon icon="fa-brands fa-js"/>`firebase.js` file.
 
 Here’s what your project setup should look like:
 
@@ -279,7 +279,7 @@ In the return statement, I will use a form, so we need to import the `useState()
 </div>
 ```
 
-Putting all code together (<FontIcon icon="fa-brands fa-react"/>`Sign-up.jsx`):
+Putting all code together (<VPIcon icon="fa-brands fa-react"/>`Sign-up.jsx`):
 
 ```jsx
 import { useState } from 'react';
@@ -382,8 +382,8 @@ Now that you've created the sign-up function, it's time to add a sign-in functio
 
 Here's how to create a simple sign-in function:
 
-- In your project, create a new file named <FontIcon icon="fa-brands fa-react"/>`sign-in.jsx`.
-- Import the initialized `auth` instance from <FontIcon icon="fa-brands fa-js"/>`firebase.js` into <FontIcon icon="fa-brands fa-react"/>`sign-in.jsx`.
+- In your project, create a new file named <VPIcon icon="fa-brands fa-react"/>`sign-in.jsx`.
+- Import the initialized `auth` instance from <VPIcon icon="fa-brands fa-js"/>`firebase.js` into <VPIcon icon="fa-brands fa-react"/>`sign-in.jsx`.
 - Use the `signInWithEmailAndPassword` function from Firebase to allow users to sign in.
 
 Here’s the structure for the sign-in function:
@@ -460,8 +460,8 @@ Now that you've enabled Google authentication, you can create a Google sign-up a
 
 Let's go through how to set up a Google sign-up function:
 
-- First, create a file named <FontIcon icon="fa-brands fa-react"/>`Google.jsx` in your project.
-- Import `auth` and `GoogleAuthProvider` from the <FontIcon icon="fa-brands fa-js"/>`firebase.js` file
+- First, create a file named <VPIcon icon="fa-brands fa-react"/>`Google.jsx` in your project.
+- Import `auth` and `GoogleAuthProvider` from the <VPIcon icon="fa-brands fa-js"/>`firebase.js` file
 
 ```js
 // Import the functions you need from the SDKs you need
@@ -566,18 +566,18 @@ Make sure your Firebase project is configured to handle authentication correctly
 
 Before pushing your project to GitHub, make sure to store your Firebase API key in an environment variable to keep it secure. This will prevent sensitive information from being exposed in your shared code.
 
-### Creating a <FontIcon icon="fas fa-file-lines"/>`.env` file
+### Creating a <VPIcon icon="fas fa-file-lines"/>`.env` file
 
-- At the root of your application, create a <FontIcon icon="fas fa-file-lines"/>`.env` file.
+- At the root of your application, create a <VPIcon icon="fas fa-file-lines"/>`.env` file.
 
-![Storing the API keys in <FontIcon icon="fas fa-file-lines"/>`.env` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1727813941388/5e647b8c-c76b-4671-b44b-21ac4dcddc89.png)
+![Storing the API keys in <VPIcon icon="fas fa-file-lines"/>`.env` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1727813941388/5e647b8c-c76b-4671-b44b-21ac4dcddc89.png)
 
-- Add your Firebase API key to the <FontIcon icon="fa-brands fa-js"/>`firebase.js` file.
+- Add your Firebase API key to the <VPIcon icon="fa-brands fa-js"/>`firebase.js` file.
 - Use `import` or `process.env` to access your Firebase API key. Since the app was created with Vite, I used `import`.
 
 ![Firebase file](https://cdn.hashnode.com/res/hashnode/image/upload/v1727814253953/514db02f-44f8-44fc-b03c-4cf77cb5c4ba.png)
 
-- Finally, update your **.gitignore** file to include the<FontIcon icon="fas fa-file-lines"/>`.env` file. This step also protects other sensitive files and directories, like <FontIcon icon="fas fa-folder-open"/>`node_modules`.
+- Finally, update your **.gitignore** file to include the<VPIcon icon="fas fa-file-lines"/>`.env` file. This step also protects other sensitive files and directories, like <VPIcon icon="fas fa-folder-open"/>`node_modules`.
 
 ```gitignore
 # Logs
@@ -596,8 +596,8 @@ By setting up a Firebase project, installing, and initializing it in your app, y
 
 If you found this article helpful, share it with others who may also find it interesting.
 
-Stay updated with my projects by following me on [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`ijaydimples`)](https://x.com/ijaydimples), [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`ijeoma-igboagu`)](https://linkedin.com/in/ijeoma-igboagu/) and [GitHub (<FontIcon icon="iconfont icon-github"/>`ijayhub`)](https://github.com/ijayhub).
+Stay updated with my projects by following me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`ijaydimples`)](https://x.com/ijaydimples), [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`ijeoma-igboagu`)](https://linkedin.com/in/ijeoma-igboagu/) and [GitHub (<VPIcon icon="iconfont icon-github"/>`ijayhub`)](https://github.com/ijayhub).
 
-The code I used for this tutorial article can be found on my [GitHub (<FontIcon icon="iconfont icon-github"/>`ijayhub/authentication-example-tutorial`)](https://github.com/ijayhub/authentication-example-tutorial).
+The code I used for this tutorial article can be found on my [GitHub (<VPIcon icon="iconfont icon-github"/>`ijayhub/authentication-example-tutorial`)](https://github.com/ijayhub/authentication-example-tutorial).
 
 Thank you for reading.

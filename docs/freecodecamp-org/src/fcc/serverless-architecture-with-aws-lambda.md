@@ -266,7 +266,7 @@ Lambda expects your code to be organized around functions - not full web servers
 
 So if you’ve got a full-blown Node.js Express server, you’ll need to do a tiny bit of “translation” to fit Lambda’s expectations - and that’s where the lambda.js file comes in.
 
-#### The <FontIcon icon="fa-brands fa-js"/>`lambda.js` File — Your Lambda Translator 🔀
+#### The <VPIcon icon="fa-brands fa-js"/>`lambda.js` File — Your Lambda Translator 🔀
 
 Here’s what the file looks like:
 
@@ -294,9 +294,9 @@ app.listen(5000, () => {
 
 You’re handing your app over to Lambda and letting it handle incoming requests, scale, and run the app only when it’s needed.
 
-#### The <FontIcon icon="fa-brands fa-js"/>`app.js` File — Your Classic Express App 💻
+#### The <VPIcon icon="fa-brands fa-js"/>`app.js` File — Your Classic Express App 💻
 
-Your <FontIcon icon="fa-brands fa-js"/>`app.js` is where the main application logic lives. Here is usually where you:
+Your <VPIcon icon="fa-brands fa-js"/>`app.js` is where the main application logic lives. Here is usually where you:
 
 - Set up Express.
 - Define routes (like `/api`, `/users`, `/hello`).
@@ -311,14 +311,14 @@ But since we’re deploying to Lambda, you don’t directly start the server her
 module.exports = app;
 ```
 
-This way, your application stays “server-agnostic” - it’s not hardcoded to run on a traditional server. Lambda (via the <FontIcon icon="fa-brands fa-js"/>`lambda.js` file) takes care of starting and stopping your app whenever it’s triggered by an event (like an HTTP request). Smart, right? 💡
+This way, your application stays “server-agnostic” - it’s not hardcoded to run on a traditional server. Lambda (via the <VPIcon icon="fa-brands fa-js"/>`lambda.js` file) takes care of starting and stopping your app whenever it’s triggered by an event (like an HTTP request). Smart, right? 💡
 
 Why this setup? 🤔
 
 This little separation gives you flexibility:
 
-- You can write your Node.js app like you always would (using `Express`) inside <FontIcon icon="fa-brands fa-js"/>`app.js`.
-- And you only tweak the entry point (via <FontIcon icon="fa-brands fa-js"/>`lambda.js`) to fit AWS Lambda’s expectations.
+- You can write your Node.js app like you always would (using `Express`) inside <VPIcon icon="fa-brands fa-js"/>`app.js`.
+- And you only tweak the entry point (via <VPIcon icon="fa-brands fa-js"/>`lambda.js`) to fit AWS Lambda’s expectations.
 
 ---
 
@@ -334,7 +334,7 @@ Docker is a software for creating images of your applications and running those 
 
 ### Let’s Take a Look at the Dockerfile 🔍
 
-Inside your project folder, you’ll find a file named <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`. This is basically the recipe that Docker uses to build your app’s container image.
+Inside your project folder, you’ll find a file named <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`. This is basically the recipe that Docker uses to build your app’s container image.
 
 Here’s what it looks like:
 
@@ -368,8 +368,8 @@ CMD [ "lambda.handler" ]
 Let’s break down the important steps— in plain English: 😎
 
 - `FROM node:18-slim AS builder`: We start by using a lightweight version of Node.js called `node:18-slim` and give it a tag named `builder` (think of it as Stage 1). This gives us the tools we need to build a Node.js app, but without extra stuff that makes the image heavy. The tag `builder` enables us to re-use the content of this build in the next stage
-- `WORKDIR /app`: We set the working directory inside the container to <FontIcon icon="fas fa-folder-open"/>`/app`. Think of this as telling Docker: *"Hey, this is the folder where I’ll be working from!"*
-- `COPY package.json .`: This copies the <FontIcon icon="iconfont icon-json"/>`package.json` file (which lists your app’s dependencies) into the <FontIcon icon="fas fa-folder-open"/>`/app` folder inside the container.
+- `WORKDIR /app`: We set the working directory inside the container to <VPIcon icon="fas fa-folder-open"/>`/app`. Think of this as telling Docker: *"Hey, this is the folder where I’ll be working from!"*
+- `COPY package.json .`: This copies the <VPIcon icon="iconfont icon-json"/>`package.json` file (which lists your app’s dependencies) into the <VPIcon icon="fas fa-folder-open"/>`/app` folder inside the container.
 - `RUN npm i -f`: This installs all the Node.js dependencies (the packages your app needs to work).  
     The `-f` flag forces npm to resolve conflicts if any pop up.
 - `COPY . .`: This copies the rest of your project files from your computer into the container.
@@ -378,14 +378,14 @@ Let’s break down the important steps— in plain English: 😎
 - `ENV PORT=5000`: We set an environment variable for the server port. Our app will listen on port 5000.
 - `COPY --from=builder /app/ ${LAMBDA_TASK_ROOT}`: This grabs all the files from the builder stage and copies them into Lambda’s special working directory (`${LAMBDA_TASK_ROOT}`).
 - `COPY --from=builder /app/node_modules ${LAMBDA_TASK_ROOT}/node_modules`: Same thing, but this one specifically copies the node_modules folder (all your installed dependencies) into Lambda’s working directory.
-- `COPY --from=builder /app/package.json ${LAMBDA_TASK_ROOT}`: Copies the <FontIcon icon="iconfont icon-json"/>`package.json` file into Lambda’s working directory.
+- `COPY --from=builder /app/package.json ${LAMBDA_TASK_ROOT}`: Copies the <VPIcon icon="iconfont icon-json"/>`package.json` file into Lambda’s working directory.
 - `COPY --from=builder /app/package-lock.json ${LAMBDA_TASK_ROOT}`: Copies the lock file for your dependencies - so Lambda knows exactly which versions of libraries to use.
 - `EXPOSE 5000`: This tells Docker, *“Hey, my app is going to listen for requests on port 5000!"* (Though Lambda doesn’t use this directly, it’s useful for local testing.)
 - `CMD [ "lambda.handler" ]`: This tells AWS Lambda which function to run when the container starts.<br/>In this case, it’s looking for a `handler` function inside your app - that’s the entry point!
 
 ### How to Create Our Own Docker Image
 
-Before we proceed, you need to have Docker running on your machine. If you haven’t installed Docker yet, check out the official installation guide here: [<FontIcon icon="fa-brands fa-docker"/>Docker Installation Tutorial](https://docs.docker.com/engine/install/). It’s a great resource to get Docker up and running.
+Before we proceed, you need to have Docker running on your machine. If you haven’t installed Docker yet, check out the official installation guide here: [<VPIcon icon="fa-brands fa-docker"/>Docker Installation Tutorial](https://docs.docker.com/engine/install/). It’s a great resource to get Docker up and running.
 
 #### Ensure Docker is Running
 
@@ -416,7 +416,7 @@ Okay, let’s dive into creating an image registry on AWS Elastic Container Regi
 
 ### Step 1: Sign In and Navigate to AWS ECR
 
-Log in to your AWS Management Console: [<FontIcon icon="fa-brands fa-aws"/>https://console.aws.amazon.com/console/home](https://console.aws.amazon.com/console/home).
+Log in to your AWS Management Console: [<VPIcon icon="fa-brands fa-aws"/>https://console.aws.amazon.com/console/home](https://console.aws.amazon.com/console/home).
 
 In the search bar at the top, type "ECR". You should see Amazon ECR pop up in the dropdown results. Click on it to navigate to the Elastic Container Registry section.
 
@@ -459,7 +459,7 @@ To do that, we’ll create an IAM user with the appropriate permissions.
 
 ### Step 1: Access the IAM Console
 
-Start by logging in to your AWS Management Console: [<FontIcon icon="fa-brands fa-aws"/>https://console.aws.amazon.com/console/home](https://console.aws.amazon.com/console/home).
+Start by logging in to your AWS Management Console: [<VPIcon icon="fa-brands fa-aws"/>https://console.aws.amazon.com/console/home](https://console.aws.amazon.com/console/home).
 
 In the search bar at the top, type "IAM" and select the IAM service from the dropdown. This brings you to the IAM dashboard where you can manage users, roles, policies, and more.
 
@@ -511,7 +511,7 @@ Now that we have our IAM user set up and the access keys in hand, it’s time to
 
 #### Step 1: Install the AWS CLI
 
-If you haven’t installed the AWS CLI on your machine yet, download and install it using the official guide here: [<FontIcon icon="fa-brands fa-aws"/>Install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+If you haven’t installed the AWS CLI on your machine yet, download and install it using the official guide here: [<VPIcon icon="fa-brands fa-aws"/>Install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 This tool allows you to interact with your AWS account right from the command line, which is essential for pushing images to ECR.
 
@@ -860,7 +860,7 @@ We also discussed the advantages of adopting the Serverless model in deploying y
 
 Hi, I’m Prince! I’m a DevOps engineer and Cloud architect passionate about building, deploying, and managing scalable applications and sharing knowledge with the tech community.
 
-If you enjoyed this article, you can learn more about me by exploring more of my blogs and projects on my [LinkedIn profile (<FontIcon icon="fa-brands fa-linkedin"/>`prince-onukwili-a82143233`)](https://linkedin.com/in/prince-onukwili-a82143233/). You can find my [LinkedIn articles here (<FontIcon icon="fa-brands fa-linkedin"/>`prince-onukwili-a82143233`)](https://linkedin.com/in/prince-onukwili-a82143233/details/publications/). You can also [<FontIcon icon="fas fa-globe"/>visit my website](https://prince-onuk.vercel.app/achievements#articles) to read more of my articles as well. Let’s connect and grow together! 😊
+If you enjoyed this article, you can learn more about me by exploring more of my blogs and projects on my [LinkedIn profile (<VPIcon icon="fa-brands fa-linkedin"/>`prince-onukwili-a82143233`)](https://linkedin.com/in/prince-onukwili-a82143233/). You can find my [LinkedIn articles here (<VPIcon icon="fa-brands fa-linkedin"/>`prince-onukwili-a82143233`)](https://linkedin.com/in/prince-onukwili-a82143233/details/publications/). You can also [<VPIcon icon="fas fa-globe"/>visit my website](https://prince-onuk.vercel.app/achievements#articles) to read more of my articles as well. Let’s connect and grow together! 😊
 
 :::
 

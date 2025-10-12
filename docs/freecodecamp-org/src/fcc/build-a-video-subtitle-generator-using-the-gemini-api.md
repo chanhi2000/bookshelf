@@ -89,7 +89,7 @@ To build this project, you should know the basics of React and Express.
 
 An API key acts as a unique identifier and authenticates your requests to the service. It's essential for accessing and using Gemini AI’s capabilities. This key will allow our application to communicate with Gemini and help us build our project.
 
-Go to [<FontIcon icon="iconfont icon-gemini"/>Google AI Studio](https://aistudio.google.com/prompts/new_chat), then click “Get API Key”:
+Go to [<VPIcon icon="iconfont icon-gemini"/>Google AI Studio](https://aistudio.google.com/prompts/new_chat), then click “Get API Key”:
 
 ![Screenshot of Google AI Studio showing the 'Get API Key' button](https://cdn.hashnode.com/res/hashnode/image/upload/v1733571839232/f5636fd0-c3cd-4c1b-bf7f-5200bce41444.png)
 
@@ -105,9 +105,9 @@ This is your API key. This key is used to authenticate your application's reques
 
 ## Project Setup
 
-Start by creating a new folder for your project. Let's call it <FontIcon icon="fas fa-folder-open"/>`ai-subtitle-generator`.
+Start by creating a new folder for your project. Let's call it <VPIcon icon="fas fa-folder-open"/>`ai-subtitle-generator`.
 
-Inside the <FontIcon icon="fas fa-folder-open"/>`ai-subtitle-generator` folder, create two subfolders: <FontIcon icon="fas fa-folder-open"/>`client` and <FontIcon icon="fas fa-folder-open"/>`server`. The <FontIcon icon="fas fa-folder-open"/>`client` folder will contain the React frontend, and the <FontIcon icon="fas fa-folder-open"/>`server` folder will contain the Express backend.
+Inside the <VPIcon icon="fas fa-folder-open"/>`ai-subtitle-generator` folder, create two subfolders: <VPIcon icon="fas fa-folder-open"/>`client` and <VPIcon icon="fas fa-folder-open"/>`server`. The <VPIcon icon="fas fa-folder-open"/>`client` folder will contain the React frontend, and the <VPIcon icon="fas fa-folder-open"/>`server` folder will contain the Express backend.
 
 ---
 
@@ -115,7 +115,7 @@ Inside the <FontIcon icon="fas fa-folder-open"/>`ai-subtitle-generator` folder, 
 
 First, we will focus on the front end and set up a basic React application.
 
-Navigate to the <FontIcon icon="fas fa-folder-open"/>`client` folder:
+Navigate to the <VPIcon icon="fas fa-folder-open"/>`client` folder:
 
 ```sh
 cd client
@@ -143,7 +143,7 @@ npm run dev
 
 ### How to Handle File Uploads in the Frontend
 
-Now in <FontIcon icon="fas fa-folder-open"/>`client/src/`<FontIcon icon="fa-brands fa-react"/>`App.tsx`, add the following code:
+Now in <VPIcon icon="fas fa-folder-open"/>`client/src/`<VPIcon icon="fa-brands fa-react"/>`App.tsx`, add the following code:
 
 ```tsx title="client/src/App.tsx"
 const App = () => {
@@ -184,7 +184,7 @@ This is why we are using the `FormData` object. When we create a new `FormData` 
 
 Now that we have our API key, let's set up the backend server. This server will handle video uploads from the frontend and communicate with the Gemini API for subtitle generation.
 
-Navigate to <FontIcon icon="fas fa-folder-open"/>`server` folder:
+Navigate to <VPIcon icon="fas fa-folder-open"/>`server` folder:
 
 ```sh
 cd server
@@ -204,25 +204,25 @@ npm install express dotenv cors @google/generative-ai express-fileupload nodemon
 
 These are the back-end dependencies we’re using in this project:
 
-- <FontIcon icon="fa-brands fa-npm"/>`express`: The web framework for creating the backend API.
-- <FontIcon icon="fa-brands fa-npm"/>`dotenv`: Loads environment variables from a `.env` file.
-- <FontIcon icon="fa-brands fa-npm"/>`cors`: Enables Cross-Origin Resource Sharing, allowing your frontend to communicate with your backend.
-- <FontIcon icon="fa-brands fa-npm"/>`@google/generative-ai`: The Google AI library for interacting with the Gemini API.
-- <FontIcon icon="fa-brands fa-npm"/>`express-fileupload`: Handles file uploads, making it easy to access uploaded files on the server.
-- <FontIcon icon="fa-brands fa-npm"/>`nodemon`: Automatically restarts the server when you make changes to your code.
+- <VPIcon icon="fa-brands fa-npm"/>`express`: The web framework for creating the backend API.
+- <VPIcon icon="fa-brands fa-npm"/>`dotenv`: Loads environment variables from a `.env` file.
+- <VPIcon icon="fa-brands fa-npm"/>`cors`: Enables Cross-Origin Resource Sharing, allowing your frontend to communicate with your backend.
+- <VPIcon icon="fa-brands fa-npm"/>`@google/generative-ai`: The Google AI library for interacting with the Gemini API.
+- <VPIcon icon="fa-brands fa-npm"/>`express-fileupload`: Handles file uploads, making it easy to access uploaded files on the server.
+- <VPIcon icon="fa-brands fa-npm"/>`nodemon`: Automatically restarts the server when you make changes to your code.
 
 ### Set Up the Environment Variables
 
-Now, create a file called <FontIcon icon="fas fa-file-lines"/>`.env`. This is where you’ll manage your API keys.
+Now, create a file called <VPIcon icon="fas fa-file-lines"/>`.env`. This is where you’ll manage your API keys.
 
 ```properties title=".env"
 API_KEY = YOUR_API_API
 PORT = 3000
 ```
 
-### Update the <FontIcon icon="iconfont icon-json"/>`package.json`
+### Update the <VPIcon icon="iconfont icon-json"/>`package.json`
 
-For this project, we are using ES6 modules instead of CommonJS. To enable this, update your <FontIcon icon="iconfont icon-json"/>`package.json` file with the following code:
+For this project, we are using ES6 modules instead of CommonJS. To enable this, update your <VPIcon icon="iconfont icon-json"/>`package.json` file with the following code:
 
 ```json title="package.json"
 {
@@ -251,7 +251,7 @@ For this project, we are using ES6 modules instead of CommonJS. To enable this, 
 
 ### Basic Setup of Express
 
-Create a file <FontIcon icon="iconfont icon-expressjs"/>`server.js`. Now, let’s set up a basic Express application.
+Create a file <VPIcon icon="iconfont icon-expressjs"/>`server.js`. Now, let’s set up a basic Express application.
 
 ```js tiitle="server/server.js"
 import express from "express";
@@ -305,7 +305,7 @@ Don’t worry about creating this folder structure now. This is just for referen
 
 ### Create the Routes
 
-Now create a <FontIcon icon="fas fa-folder-open"/>`routes` folder and then create <FontIcon icon="fa-brands fa-js"/>`subs.routes.js`:
+Now create a <VPIcon icon="fas fa-folder-open"/>`routes` folder and then create <VPIcon icon="fa-brands fa-js"/>`subs.routes.js`:
 
 ```js tiitle="server/routes/subs.routes.js"
 import express from "express"
@@ -328,7 +328,7 @@ Finally, we export the router so that it can be used in our main server file `(s
 
 Now, let's configure how our application will interact with Gemini.
 
-Create a <FontIcon icon="fas fa-folder-open"/>`gemini` folder and then create a new file called <FontIcon icon="fa-brands fa-js"/>`gemini.config.js`:
+Create a <VPIcon icon="fas fa-folder-open"/>`gemini` folder and then create a new file called <VPIcon icon="fa-brands fa-js"/>`gemini.config.js`:
 
 ```js tiitle="server/gemini/gemini.config.js"
 import {
@@ -370,7 +370,7 @@ export default model;    //export the model
 
 In the code above, the `safetySettings` are optional. These settings allow you to define thresholds for potentially harmful content (like hate speech, violence, or explicit material) in Gemini's output.
 
-You can read more about Gemini’s safety settings [<FontIcon icon="iconfont icon-gemini"/>here](https://ai.google.dev/gemini-api/docs/safety-settings).
+You can read more about Gemini’s safety settings [<VPIcon icon="iconfont icon-gemini"/>here](https://ai.google.dev/gemini-api/docs/safety-settings).
 
 <SiteInfo
   name="Safety settings | Gemini API | Google AI for Developers"
@@ -381,9 +381,9 @@ You can read more about Gemini’s safety settings [<FontIcon icon="iconfont ico
 
 ### Create a Controller to Handle Endpoint Logic
 
-Now, create a <FontIcon icon="fas fa-folder-open"/>`controller` folder, and inside it create a file named <FontIcon icon="fa-brands fa-js"/>`subs.controller.js`. In this file, you'll handle the endpoint logic for interacting with the Gemini model.
+Now, create a <VPIcon icon="fas fa-folder-open"/>`controller` folder, and inside it create a file named <VPIcon icon="fa-brands fa-js"/>`subs.controller.js`. In this file, you'll handle the endpoint logic for interacting with the Gemini model.
 
-In <FontIcon icon="fas fa-folder-open"/>`server/controller/`<FontIcon icon="fa-brands fa-js"/>`subs.controller.js`, add this code:
+In <VPIcon icon="fas fa-folder-open"/>`server/controller/`<VPIcon icon="fa-brands fa-js"/>`subs.controller.js`, add this code:
 
 ```js tiitle="server/controller/subs.controller.js"
 import { fileURLToPath } from "url";
@@ -421,13 +421,13 @@ export const uploadFile = async (req, res) => {
 
 Since we are using an ES6 module, the `__dirname` is not available by default. The file handling mechanism is different compared to CommonJS. Because of this, we’ll use `fileURLToPath` to handle file paths.
 
-We moved the file from the default temporary location which is the buffer to the <FontIcon icon="fas fa-folder-open"/>`uploads` folder.
+We moved the file from the default temporary location which is the buffer to the <VPIcon icon="fas fa-folder-open"/>`uploads` folder.
 
 But the file upload process is not yet complete. We still need to send the file to Google AI File Manager, and after uploading, it will return a URI. This URI will then be passed to the model for video analysis.
 
 ### How to Upload a File to the Google AI File Manager
 
-Create a folder <FontIcon icon="fas fa-folder-open"/>`utils` and create a file <FontIcon icon="fa-brands fa-js"/>`fileUpload.js`. You can refer to the folder structure provided above.
+Create a folder <VPIcon icon="fas fa-folder-open"/>`utils` and create a file <VPIcon icon="fa-brands fa-js"/>`fileUpload.js`. You can refer to the folder structure provided above.
 
 ```js tiitle="server/utils/fileUpload.js"
 import { GoogleAIFileManager, FileState } from "@google/generative-ai/server";
@@ -469,7 +469,7 @@ The function then checks if the processing was successful. If so, it returns the
 
 ### Pass the URI to the Gemini Model
 
-Now in the <FontIcon icon="fas fa-folder-open"/>`utils` folder, create a file called <FontIcon icon="fa-brands fa-js"/>`genContent.js`:
+Now in the <VPIcon icon="fas fa-folder-open"/>`utils` folder, create a file called <VPIcon icon="fa-brands fa-js"/>`genContent.js`:
 
 ```js tiitle="server/utils/genContent.js"
 import model from "../gemini/gemini.config.js";
@@ -500,11 +500,11 @@ Import the model that we configured earlier. Create a function called `getConten
 
 Pass the file URI and the `mimi` to the model. Then we’ll provide a prompt instructing the model to generate subtitles for the entire video in SRT format. You can also add your prompt if you want. Then return the response.
 
-### Update the <FontIcon icon="fa-brands fa-js"/>`subs.controller.js` File
+### Update the <VPIcon icon="fa-brands fa-js"/>`subs.controller.js` File
 
 Finally, we need to update the controller file. We've created the `fileUpload` and `getContent` functions, and now we'll use them in the controller and provide the required arguments.
 
-In the <FontIcon icon="fas fa-folder-open"/>`server/controller/`<FontIcon icon="fa-brands fa-js"/>`subs.controller.js`:
+In the <VPIcon icon="fas fa-folder-open"/>`server/controller/`<VPIcon icon="fa-brands fa-js"/>`subs.controller.js`:
 
 ```js :collapsed-lines tiitle="server/controller/subs.controller.js"
 import { fileURLToPath } from "url";
@@ -554,7 +554,7 @@ With this, the backend API is complete. Now, we'll move on to updating the front
 
 Our frontend currently only allows users to select a video. In this section, we'll update it to send the video data to our backend for processing. The frontend will then receive the generated subtitles from the backend and initiate a download of the `.srt` file.
 
-Navigate to the <FontIcon icon="fas fa-folder-open"/>`client` folder:
+Navigate to the <VPIcon icon="fas fa-folder-open"/>`client` folder:
 
 ```sh
 cd client
@@ -566,7 +566,7 @@ Install `axios`. We’ll use it to handle HTTP requests.
 npm install axios
 ```
 
-In the <FontIcon icon="fas fa-folder-open"/>`client/src/`<FontIcon icon="fa-brands fa-react"/>`App.tsx`:
+In the <VPIcon icon="fas fa-folder-open"/>`client/src/`<VPIcon icon="fa-brands fa-react"/>`App.tsx`:
 
 ```tsx title="client/src/App.tsx"
 import axios from "axios";
@@ -624,9 +624,9 @@ That's it! You've successfully built an AI-powered subtitle generator using the 
 
 Want to create a customizable video prompting application? Just add an input field to let users enter their prompts, send that prompt to the server, and use it in place of the hardcoded prompt. That's all it takes.
 
-For more information about the Gemini API, refer to the official [<FontIcon icon="iconfont icon-gemini"/>Gemini API Docs](https://ai.google.dev/gemini-api/docs#node.js)
+For more information about the Gemini API, refer to the official [<VPIcon icon="iconfont icon-gemini"/>Gemini API Docs](https://ai.google.dev/gemini-api/docs#node.js)
 
-You can find the full code here: [AI-Subtitle-Generator (<FontIcon icon="iconfont icon-github"/>`sanjayr-12/ai-subtitle-generator`)](https://github.com/sanjayr-12/ai-subtitle-generator)
+You can find the full code here: [AI-Subtitle-Generator (<VPIcon icon="iconfont icon-github"/>`sanjayr-12/ai-subtitle-generator`)](https://github.com/sanjayr-12/ai-subtitle-generator)
 
 <SiteInfo
   name="sanjayr-12/ai-subtitle-generator"
@@ -635,7 +635,7 @@ You can find the full code here: [AI-Subtitle-Generator (<FontIcon icon="iconfon
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/c3114fb94eb33506b7fdb5bd4c53faee8bc2bb1baa248d9e6f02b8f7a415ffd9/sanjayr-12/ai-subtitle-generator"/>
 
-If there are any mistakes or you have any questions, contact me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`sanjay-r-ab6064294`)](https://linkedin.com/in/sanjay-r-ab6064294/) or [Instagram (<FontIcon icon="fa-brands fa-instagram"/>`heheheh_pet`)](https://instagram.com/heheheh_pet/profilecard/).
+If there are any mistakes or you have any questions, contact me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`sanjay-r-ab6064294`)](https://linkedin.com/in/sanjay-r-ab6064294/) or [Instagram (<VPIcon icon="fa-brands fa-instagram"/>`heheheh_pet`)](https://instagram.com/heheheh_pet/profilecard/).
 
 Thank you for reading!
 

@@ -75,7 +75,7 @@ In the first part of the course, you'll get a solid grounding in JavaScript by c
 
 You’ll start by understanding why JavaScript is a great choice for game development and learn how to set up your coding environment. The course covers key concepts such as variables, constants, conditional statements, boolean operations, complex data types (arrays and objects), loops, and functions. It also explores parameter passing, local and global scoping, comments, and how JavaScript's import/export system works.
 
-You’ll also set up a modern development environment using Node.js, NPM, and Vite. With these tools in place, you'll be ready to build your first complete JavaScript game. The course then guides you through the process of exporting and deploying your game to a platform like [<FontIcon icon="fas fa-globe"/>itch.io](http://itch.io), allowing you to share your creations with others.
+You’ll also set up a modern development environment using Node.js, NPM, and Vite. With these tools in place, you'll be ready to build your first complete JavaScript game. The course then guides you through the process of exporting and deploying your game to a platform like [<VPIcon icon="fas fa-globe"/>itch.io](http://itch.io), allowing you to share your creations with others.
 
 ### Game Development with the Kaplay Library
 
@@ -93,7 +93,7 @@ This crash course is beginner-friendly and doesn’t require prior coding experi
 
 By the end of this course, you’ll have the skills to create your own JavaScript games and the confidence to explore more advanced game development techniques. With the Kaplay library, you’ll also have a powerful tool to speed up your development process and make your games more interactive.
 
-If you're ready to get started with game development, check out the [<FontIcon icon="fa-brands fa-youtube"/>course on the freeCodeCamp.org YouTube channel](https://youtu.be/KHxX0CgMGs4) (4-hour watch).
+If you're ready to get started with game development, check out the [<VPIcon icon="fa-brands fa-youtube"/>course on the freeCodeCamp.org YouTube channel](https://youtu.be/KHxX0CgMGs4) (4-hour watch).
 
 <VidStack src="youtube/KHxX0CgMGs4" />
 

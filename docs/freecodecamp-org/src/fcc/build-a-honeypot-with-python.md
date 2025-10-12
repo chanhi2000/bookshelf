@@ -87,7 +87,7 @@ LOG_DIR = Path("honeypot_logs")
 LOG_DIR.mkdir(exist_ok=True)
 ```
 
-We will be sticking to the built in libraries so won’t be needing to install any external dependencies. We will be storing our logs in the <FontIcon icon="fas fa-folder-open"/>`honeypot_logs` directory.
+We will be sticking to the built in libraries so won’t be needing to install any external dependencies. We will be storing our logs in the <VPIcon icon="fas fa-folder-open"/>`honeypot_logs` directory.
 
 ---
 

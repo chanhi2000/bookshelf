@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6c-9a48-4037-9cc2-3b35a92b6006.png"/>
 
-Once you have [<FontIcon icon="iconfont icon-flutter"/>set up Flutte](https://docs.flutter.dev/get-started/install/windows/desktop)[r](https://docs.flutter.dev/get-started/install/windows/desktop) in your environment, run the following command to bootstrap a new application in your favorite directory:
+Once you have [<VPIcon icon="iconfont icon-flutter"/>set up Flutte](https://docs.flutter.dev/get-started/install/windows/desktop)[r](https://docs.flutter.dev/get-started/install/windows/desktop) in your environment, run the following command to bootstrap a new application in your favorite directory:
 
 ```sh
 flutter create flutter_recipe_app
@@ -115,18 +115,18 @@ flutter_recipe_app/
 
 The structure is organized as follows:
 
-- <FontIcon icon="fas fa-folder-open"/>`.dart_tool/`: Contains Dart tools and build outputs.
-- <FontIcon icon="fas fa-folder-open"/>`.idea/`: IDE-specific settings.
-- <FontIcon icon="fas fa-folder-open"/>`android/`: Android-specific project files, including custom assets like images and translations.
-- <FontIcon icon="fas fa-folder-open"/>`build/`: Generated files from the build process.
-- <FontIcon icon="fas fa-folder-open"/>`ios/`: iOS-specific project files.
-- <FontIcon icon="fas fa-folder-open"/>`lib/`: The main source directory for Dart code, which includes:
-    - <FontIcon icon="fas fa-folder-open"/>`components/`: Reusable widgets or UI components like `appBar` and `drawer`.
-    - <FontIcon icon="fas fa-folder-open"/>`models/`: Data models for your application, like `recipe`.
-    - <FontIcon icon="fas fa-folder-open"/>`screens/`: Individual screens of the app, such as the `recipe details`, `home`, `login`, `profile`, `request recipe` and `signUp` screens of the app
-    - <FontIcon icon="fas fa-folder-open"/>`utils/`: Utilities and helper functions, like `server2.dart` for the server communication logic.
-    - <FontIcon icon="fa-brands fa-dart-lang"/>`main.dart`: The entry point of the Flutter application.
-- <FontIcon icon="fas fa-folder-open"/>`test/`: Directory for test files.
-- <FontIcon icon="fas fa-file-lines"/>`.env`: Environment-specific variables file.
+- <VPIcon icon="fas fa-folder-open"/>`.dart_tool/`: Contains Dart tools and build outputs.
+- <VPIcon icon="fas fa-folder-open"/>`.idea/`: IDE-specific settings.
+- <VPIcon icon="fas fa-folder-open"/>`android/`: Android-specific project files, including custom assets like images and translations.
+- <VPIcon icon="fas fa-folder-open"/>`build/`: Generated files from the build process.
+- <VPIcon icon="fas fa-folder-open"/>`ios/`: iOS-specific project files.
+- <VPIcon icon="fas fa-folder-open"/>`lib/`: The main source directory for Dart code, which includes:
+    - <VPIcon icon="fas fa-folder-open"/>`components/`: Reusable widgets or UI components like `appBar` and `drawer`.
+    - <VPIcon icon="fas fa-folder-open"/>`models/`: Data models for your application, like `recipe`.
+    - <VPIcon icon="fas fa-folder-open"/>`screens/`: Individual screens of the app, such as the `recipe details`, `home`, `login`, `profile`, `request recipe` and `signUp` screens of the app
+    - <VPIcon icon="fas fa-folder-open"/>`utils/`: Utilities and helper functions, like `server2.dart` for the server communication logic.
+    - <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart`: The entry point of the Flutter application.
+- <VPIcon icon="fas fa-folder-open"/>`test/`: Directory for test files.
+- <VPIcon icon="fas fa-file-lines"/>`.env`: Environment-specific variables file.
 
 This setup is typical for a moderately complex Flutter application, segregating functionality into manageable, logical sections for better organization and maintainability.

@@ -56,7 +56,7 @@ In this tutorial, you’ll learn how to create a clone of the mobile game Crossy
 
 There's a lot to cover in this tutorial: we will start with setting up the scene, the camera, and the lights. Then you’ll learn how to draw the player and the map with the trees and the cars. We’ll also cover how to animate the vehicles, and we’ll add event handlers to move the player through the map. Finally, we’ll add hit detection between the cars and the player.
 
-This article is a shortened version of the Crossy Road tutorial from my site [<FontIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](https://javascriptgametutorials.com/). The extended tutorial is also available as a video on [<FontIcon icon="fa-brands fa-youtube"/>YouTube](https://youtu.be/vNr3_hQ3Bws?ab_channel=HunorM%C3%A1rtonBorb%C3%A9ly).
+This article is a shortened version of the Crossy Road tutorial from my site [<VPIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](https://javascriptgametutorials.com/). The extended tutorial is also available as a video on [<VPIcon icon="fa-brands fa-youtube"/>YouTube](https://youtu.be/vNr3_hQ3Bws?ab_channel=HunorM%C3%A1rtonBorb%C3%A9ly).
 
 <VidStack src="youtube/vNr3_hQ3Bws" />
 
@@ -82,7 +82,7 @@ When generating the project, select **Vanilla** because we won't use any front-e
 
 ### The Drawing Canvas
 
-Now, let's look into this project. The entry point of this project is the <FontIcon icon="fa-brands fa-html5"/>`index.html` file in the root folder. Let's replace the div element with a canvas element with the ID **game**. This is the drawing canvas that Three.js will use to render the scene. This file also has a script tag that points to the main JavaScript file.
+Now, let's look into this project. The entry point of this project is the <VPIcon icon="fa-brands fa-html5"/>`index.html` file in the root folder. Let's replace the div element with a canvas element with the ID **game**. This is the drawing canvas that Three.js will use to render the scene. This file also has a script tag that points to the main JavaScript file.
 
 ```xml title="index.html"
 <!DOCTYPE html>
@@ -100,9 +100,9 @@ Now, let's look into this project. The entry point of this project is the <FontI
 </html>
 ```
 
-### The <FontIcon icon="fa-brands fa-js"/>`main.js` file
+### The <VPIcon icon="fa-brands fa-js"/>`main.js` file
 
-The <FontIcon icon="fa-brands fa-js"/>`main.js` file is the root of our game. Let's replace its content. We’ll define a Three.js scene containing all the 3D elements, including the player, that we will soon define. The scene also includes a camera that we’ll use together with the renderer to render a static frame of it. We’ll define these in the following steps.
+The <VPIcon icon="fa-brands fa-js"/>`main.js` file is the root of our game. Let's replace its content. We’ll define a Three.js scene containing all the 3D elements, including the player, that we will soon define. The scene also includes a camera that we’ll use together with the renderer to render a static frame of it. We’ll define these in the following steps.
 
 ```js title="main.js"
 import * as THREE from "three";
@@ -685,7 +685,7 @@ export const metadata = [
 . . .
 ```
 
-This article does not cover truck lanes, but they follow a similar structure. The code for it can be found at [<FontIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](http://JavaScriptGameTutorials.com).
+This article does not cover truck lanes, but they follow a similar structure. The code for it can be found at [<VPIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](http://JavaScriptGameTutorials.com).
 
 ---
 
@@ -1169,9 +1169,9 @@ Congratulations, you’ve reached the end of this tutorial, and we’ve covered 
 
 I hope you had great fun creating this game. This game, of course, is far from perfect, and there are various improvements you can make if you’d like to keep working on it.
 
-You can find the extended tutorial with interactive demos on [<FontIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](http://JavaScriptGameTutorials.com). There, we also cover how to add shadows and truck lanes and how to generate an infinite number of rows as the player moves forward. We also add UI elements for the controls and the score indicator, and we add a result screen with a button to reset the game.
+You can find the extended tutorial with interactive demos on [<VPIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](http://JavaScriptGameTutorials.com). There, we also cover how to add shadows and truck lanes and how to generate an infinite number of rows as the player moves forward. We also add UI elements for the controls and the score indicator, and we add a result screen with a button to reset the game.
 
-Alternatively, you can find the extended tutorial on [<FontIcon icon="fa-brands fa-youtube"/>YouTube](https://youtu.be/vNr3_hQ3Bws?ab_channel=HunorM%C3%A1rtonBorb%C3%A9ly).
+Alternatively, you can find the extended tutorial on [<VPIcon icon="fa-brands fa-youtube"/>YouTube](https://youtu.be/vNr3_hQ3Bws?ab_channel=HunorM%C3%A1rtonBorb%C3%A9ly).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -67,8 +67,8 @@ This naturally leads us to think of a “ToDo” item as an object, and if you�
 
 Before writing any code, create two files in the same folder:
 
-- <FontIcon icon="fa-brands fa-html5"/>`index.html`: This is the webpage structure.
-- <FontIcon icon="fa-brands fa-js"/>`script.js`: This is where your JavaScript code with classes will live.
+- <VPIcon icon="fa-brands fa-html5"/>`index.html`: This is the webpage structure.
+- <VPIcon icon="fa-brands fa-js"/>`script.js`: This is where your JavaScript code with classes will live.
 
 You can use any text editor (like VS Code, Sublime Text, or even Notepad) to create these files.
 
@@ -76,7 +76,7 @@ You can use any text editor (like VS Code, Sublime Text, or even Notepad) to cre
 
 ## Creating the ToDo Class
 
-Let’s start by building our `ToDo` class. Copy and paste the following code into your <FontIcon icon="fa-brands fa-js"/>`script.js` file:
+Let’s start by building our `ToDo` class. Copy and paste the following code into your <VPIcon icon="fa-brands fa-js"/>`script.js` file:
 
 ```js title="script.js"
 class ToDo {
@@ -99,7 +99,7 @@ Notice how clean that is. The `constructor` sets up the description and complete
 
 ## Building the ToDoList Class
 
-Next, we’ll build a `ToDoList` class to manage our collection of to-dos. Add the following code to your <FontIcon icon="fa-brands fa-js"/>`script.js` file, below the `ToDo` class:
+Next, we’ll build a `ToDoList` class to manage our collection of to-dos. Add the following code to your <VPIcon icon="fa-brands fa-js"/>`script.js` file, below the `ToDo` class:
 
 ```js :collapsed-lines title="script.js"
 class ToDoList {
@@ -156,7 +156,7 @@ In this class:
 
 ## Creating the HTML Structure
 
-Next, open your <FontIcon icon="fa-brands fa-html5"/>`index.html` file and paste in the following HTML code:
+Next, open your <VPIcon icon="fa-brands fa-html5"/>`index.html` file and paste in the following HTML code:
 
 ```html title="index.html
 <!DOCTYPE html>
@@ -187,13 +187,13 @@ This HTML file sets up:
 - An input box (with `id="todoInput"`) for entering new to-dos.
 - An “Add To-Do” button (with `id="addButton"`).
 - An empty unordered list (with `id="todoList"`) where your to-dos will appear.
-- A link to the <FontIcon icon="fa-brands fa-js"/>`script.js` file that contains your JavaScript code.
+- A link to the <VPIcon icon="fa-brands fa-js"/>`script.js` file that contains your JavaScript code.
 
 ---
 
 ## Making It All Work Together
 
-Finally, let’s hook up our HTML elements with our JavaScript. At the bottom of your <FontIcon icon="fa-brands fa-js"/>`script.js` file, add this code:
+Finally, let’s hook up our HTML elements with our JavaScript. At the bottom of your <VPIcon icon="fa-brands fa-js"/>`script.js` file, add this code:
 
 ```js title="script.js"
 const myTodoList = new ToDoList(); // Create an instance of ToDoList

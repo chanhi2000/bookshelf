@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
 
 The following quote from the official Webpack documentation explains the concept of lazy loading:
 
-::: info Lazy Loading (<FontIcon icon="fas fa-globe"/><code>webpack.docschina.org</code>)
+::: info Lazy Loading (<VPIcon icon="fas fa-globe"/><code>webpack.docschina.org</code>)
 
 > "Lazy loading or on-demand loading is a great way to optimize a website or application. This approach actually separates your code at some logical breakpoints, and then immediately references or is about to reference some new code blocks after completing certain operations in some code blocks. This speeds up the initial loading of the application and lightens its overall volume because some code blocks may never be loaded." 
 
@@ -202,7 +202,7 @@ npm i -D @babel/plugin-transform-runtime @babel/runtime
 
 **Usage:**
 
-In the <FontIcon icon="fas fa-file-lines"/>`.babelrc` file,
+In the <VPIcon icon="fas fa-file-lines"/>`.babelrc` file,
 
 ```json title=".babelrc"
 "plugins": [

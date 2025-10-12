@@ -55,7 +55,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941922431/cfb485a
 
 Type annotations in TypeScript enable you to explicitly specify the type of a variable. This ensures that the variable is assigned only values of the specified type, enhancing type safety and making your code easier to maintain.
 
-To define a type annotation in TypeScript, you simply append a colon `:` followed by the desired type after the variable name. This allows you to specify the type that a variable will hold, adding a layer of clarity and precision to your code. For instance, let’s specify a variable of type `string` in our <FontIcon icon="iconfont icon-typescript"/>`test.ts` file, ensuring that only a string value is assigned:
+To define a type annotation in TypeScript, you simply append a colon `:` followed by the desired type after the variable name. This allows you to specify the type that a variable will hold, adding a layer of clarity and precision to your code. For instance, let’s specify a variable of type `string` in our <VPIcon icon="iconfont icon-typescript"/>`test.ts` file, ensuring that only a string value is assigned:
 
 ```ts title="test.ts"
 let name: string = 'Stephen';
@@ -65,7 +65,7 @@ In this example, we have declared a variable `name` and specified that its type 
 
 ::: note
 
-All code snippets are in a file called <FontIcon icon="iconfont icon-typescript"/>`test.ts` for demonstration purposes. You can rename the file or copy the snippets into your TypeScript project as needed. I don’t follow consistent file naming in this article.
+All code snippets are in a file called <VPIcon icon="iconfont icon-typescript"/>`test.ts` for demonstration purposes. You can rename the file or copy the snippets into your TypeScript project as needed. I don’t follow consistent file naming in this article.
 
 :::
 

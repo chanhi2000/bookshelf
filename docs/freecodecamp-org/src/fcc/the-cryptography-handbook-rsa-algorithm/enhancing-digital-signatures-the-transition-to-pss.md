@@ -171,5 +171,5 @@ $$
 m'=s^{e}\text{mod}\:N
 $$
 
-[^1]: <FontIcon icon="fa-brands fa-wikipedia-w"/>[Probabilistic signature scheme](https://en.wikipedia.org/wiki/Probabilistic_signature_scheme)
-[^2]: RFC 8017: [<FontIcon icon="fas fa-globe"/>RSASSA-PSS](https://rfc-editor.org/rfc/rfc8017#section-8.1)
+[^1]: <VPIcon icon="fa-brands fa-wikipedia-w"/>[Probabilistic signature scheme](https://en.wikipedia.org/wiki/Probabilistic_signature_scheme)
+[^2]: RFC 8017: [<VPIcon icon="fas fa-globe"/>RSASSA-PSS](https://rfc-editor.org/rfc/rfc8017#section-8.1)

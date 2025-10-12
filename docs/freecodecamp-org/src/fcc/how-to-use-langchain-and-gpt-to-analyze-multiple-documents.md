@@ -69,9 +69,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730909200914/e75f372
 
 Over the past year or so, the developer universe has exploded with ingenious new tools, applications, and processes for working with large language models and generative AI.
 
-One particularly versatile example is [<FontIcon icon="iconfont icon-langchain"/>the LangChain project](https://langchain.com/). The overall goal involves providing easy integrations with various LLM models. But the LangChain ecosystem is also host to a growing number of (sometimes experimental) projects pushing the limits of the humble LLM.
+One particularly versatile example is [<VPIcon icon="iconfont icon-langchain"/>the LangChain project](https://langchain.com/). The overall goal involves providing easy integrations with various LLM models. But the LangChain ecosystem is also host to a growing number of (sometimes experimental) projects pushing the limits of the humble LLM.
 
-Spend some time browsing [<FontIcon icon="iconfont icon-langchain"/>LangChain’s website](https://langchain.com/) to get a sense of what's possible. You'll see how many tools are designed to help you build more powerful applications.
+Spend some time browsing [<VPIcon icon="iconfont icon-langchain"/>LangChain’s website](https://langchain.com/) to get a sense of what's possible. You'll see how many tools are designed to help you build more powerful applications.
 
 But you can also use it as an alternative for connecting your favorite AI with the live internet. Specifically, this demo will show you how to use it to programmatically access, summarize, and analyze long and complex online documents.
 
@@ -83,7 +83,7 @@ To make it all happen, you’ll need a Python runtime environment (like Jupyter 
 
 One popular use for LangChain involves loading multiple PDF files in parallel and asking GPT to analyze and compare their contents.
 
-As you can see for yourself in [<FontIcon icon="iconfont icon-langchain"/>the LangChain documentation,](https://python.langchain.com/docs/integrations/toolkits/document_comparison_toolkit) existing modules can be loaded to permit PDF consumption and natural language parsing. I'm going to walk you through a use-case sample that's loosely based on the example in that documentation. Here's how that begins:
+As you can see for yourself in [<VPIcon icon="iconfont icon-langchain"/>the LangChain documentation,](https://python.langchain.com/docs/integrations/toolkits/document_comparison_toolkit) existing modules can be loaded to permit PDF consumption and natural language parsing. I'm going to walk you through a use-case sample that's loosely based on the example in that documentation. Here's how that begins:
 
 ```py
 import os
@@ -199,7 +199,7 @@ With these tools, you’ll be able to automate applying the power of AI engines 
 
 ::: note
 
-This article is excerpted from [<FontIcon icon="fa-brands fa-amazon"/>my Manning book, The Complete Obsolete Guide to Generative AI](https://amazon.com/dp/1633436985). But you can find plenty more technology goodness at [<FontIcon icon="fas fa-globe"/>my website](https://bootstrap-it.com/).
+This article is excerpted from [<VPIcon icon="fa-brands fa-amazon"/>my Manning book, The Complete Obsolete Guide to Generative AI](https://amazon.com/dp/1633436985). But you can find plenty more technology goodness at [<VPIcon icon="fas fa-globe"/>my website](https://bootstrap-it.com/).
 
 :::
 

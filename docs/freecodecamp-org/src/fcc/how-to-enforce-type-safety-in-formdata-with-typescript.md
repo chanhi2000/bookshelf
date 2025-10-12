@@ -69,7 +69,7 @@ To get the most out of this article, you should have a basic understanding of th
 
 :::
 
-If you’re new to TypeScript or FormData, I recommend checking out [<FontIcon icon="iconfont icon-typescript"/>TypeScript’s official documentation](https://typescriptlang.org/docs/) and [<FontIcon icon="fa-brands fa-firefox"/>MDN’s guide on FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) before proceeding.
+If you’re new to TypeScript or FormData, I recommend checking out [<VPIcon icon="iconfont icon-typescript"/>TypeScript’s official documentation](https://typescriptlang.org/docs/) and [<VPIcon icon="fa-brands fa-firefox"/>MDN’s guide on FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) before proceeding.
 
 ---
 
@@ -112,7 +112,7 @@ type MyAllowedData = {
 }
 ```
 
-You can use either types or interfaces, it’s just a matter of preference. You can find out more about how they differ in this [<FontIcon icon="iconfont icon-typescript"/>official TypeScript documentation playground](https://typescriptlang.org/play/?#example/types-vs-interfaces).
+You can use either types or interfaces, it’s just a matter of preference. You can find out more about how they differ in this [<VPIcon icon="iconfont icon-typescript"/>official TypeScript documentation playground](https://typescriptlang.org/play/?#example/types-vs-interfaces).
 
 Next, define a union type from each key in your interface.
 
@@ -196,7 +196,7 @@ const handleSubmitForm = () => {
 };
 ```
 
-In the snippet above, we’re using `Object.entries` to iterate over each key/value pair in an object so it can be appended to the FormData object. Note that the value in each pair, whether it’s a string or a number, is passed as a string using [<FontIcon icon="fa-brands fa-firefox"/>template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) to prevent a TypeScript type mismatch from the `value` argument in our helper function.
+In the snippet above, we’re using `Object.entries` to iterate over each key/value pair in an object so it can be appended to the FormData object. Note that the value in each pair, whether it’s a string or a number, is passed as a string using [<VPIcon icon="fa-brands fa-firefox"/>template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) to prevent a TypeScript type mismatch from the `value` argument in our helper function.
 
 ---
 

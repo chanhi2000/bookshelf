@@ -78,7 +78,7 @@ Memory is laid out linearly, but CPUs prefetch data in chunks (cache lines). Tra
 
 :::
 
-::: tip Example in <FontIcon icon="iconfont icon-c"/>C
+::: tip Example in <VPIcon icon="iconfont icon-c"/>C
 
 ```c
 // A "tiny" 1024x1024 matrix  
@@ -116,7 +116,7 @@ In C/C++, arrays are row-major. But in Fortran, MATLAB, or Julia, they’re colu
 
 In C and Python (NumPy default), arrays use row-major order. But in Fortran, MATLAB, and Julia, arrays are column-major. If you assume the wrong layout, your loops will be slow for no apparent reason.
 
-::: tip <FontIcon icon="fa-brands fa-python"/>Python Example
+::: tip <VPIcon icon="fa-brands fa-python"/>Python Example
 
 ```py
 import numpy as np  

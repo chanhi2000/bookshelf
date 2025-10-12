@@ -58,7 +58,7 @@ This can be done by updating the resource link addresses referenced in the page,
 
 The specific approach is to associate the URL modification of the resource address with the file content, which means that only when the file content changes, the corresponding URL will change. This achieves file-level precise cache control.
 
-So what is related to file content? We naturally think of using [<FontIcon icon="fas fa-globe"/>digest algorithms](https://okta.com/identity-101/md5/) to derive digest information for the file. The digest information corresponds one-to-one with the file content, providing a basis for cache control that's precise to the granularity of individual files.
+So what is related to file content? We naturally think of using [<VPIcon icon="fas fa-globe"/>digest algorithms](https://okta.com/identity-101/md5/) to derive digest information for the file. The digest information corresponds one-to-one with the file content, providing a basis for cache control that's precise to the granularity of individual files.
 
 ---
 
@@ -107,8 +107,8 @@ module.exports = {
 
 This will produce output files like:
 
-- <FontIcon icon="fa-brands fa-js"/>`main.8e0d62a10c151dad4f8e.js`
-- <FontIcon icon="fa-brands fa-css3-alt"/>`styles.f4e3a77c616562b26ca1.css`
+- <VPIcon icon="fa-brands fa-js"/>`main.8e0d62a10c151dad4f8e.js`
+- <VPIcon icon="fa-brands fa-css3-alt"/>`styles.f4e3a77c616562b26ca1.css`
 
 When you change the content of a file, its hash will change, forcing the browser to download the new file instead of using the cached version.
 

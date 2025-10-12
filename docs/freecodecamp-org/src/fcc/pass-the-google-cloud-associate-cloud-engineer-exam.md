@@ -80,7 +80,7 @@ Here are the sections in this course:
 - Monitoring and Logging
 - Cloud identity and directory services
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/OlAmyf8_4O4) (11-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/OlAmyf8_4O4) (11-hour watch).
 
 <VidStack src="youtube/OlAmyf8_4O4" />
 

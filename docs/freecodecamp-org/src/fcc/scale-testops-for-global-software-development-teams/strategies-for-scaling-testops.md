@@ -90,7 +90,7 @@ For example, you can standardize testing using frameworks like **Jest** to ensur
 npm install --save-dev jest
 ```
 
-In your <FontIcon icon="iconfont icon-json"/>`package.json`:
+In your <VPIcon icon="iconfont icon-json"/>`package.json`:
 
 ```json title="package.json"
 {

@@ -95,7 +95,7 @@ Every npm package needs a unique name. Run the following command to check if you
 npm search my-awesome-library
 ```
 
-If the name is already taken, you’ll need to modify <FontIcon icon="iconfont icon-json"/>`package.json` and change the `"name"` field.
+If the name is already taken, you’ll need to modify <VPIcon icon="iconfont icon-json"/>`package.json` and change the `"name"` field.
 
 ### Step 4: Add Metadata and Keywords
 
@@ -145,7 +145,7 @@ Your package is now available at:
 
 ### Step 6: Making Changes and Updating the Package
 
-If you want to release a new version, update the `version` field in <FontIcon icon="iconfont icon-json"/>`package.json`. npm follows Semantic Versioning (SemVer):
+If you want to release a new version, update the `version` field in <VPIcon icon="iconfont icon-json"/>`package.json`. npm follows Semantic Versioning (SemVer):
 
 - **Patch:** Bug fixes (1.0.0 → 1.0.1)
 - **Minor:** New features, backward-compatible (1.0.0 → 1.1.0)

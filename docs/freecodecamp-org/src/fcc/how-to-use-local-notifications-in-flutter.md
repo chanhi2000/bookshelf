@@ -99,7 +99,7 @@ cd app_notifications
 
 ### Configure Project Dependencies
 
-Now, we need to add the necessary packages to our project. Open the <FontIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file located at the root of your project and add the following dependencies under the `dependencies` section:
+Now, we need to add the necessary packages to our project. Open the <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file located at the root of your project and add the following dependencies under the `dependencies` section:
 
 ```yaml title="pubspec.yaml"
 dependencies:
@@ -120,7 +120,7 @@ dependencies:
 
 :::
 
-Next, still in your <FontIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file, configure `flutter_launcher_icons` by adding the following code below the `dev_dependencies` section:
+Next, still in your <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file, configure `flutter_launcher_icons` by adding the following code below the `dev_dependencies` section:
 
 ```yaml title="pubspec.yaml"
 flutter_icons:
@@ -145,16 +145,16 @@ flutter_icons:
 
 ### Add Project Assets
 
-Applications often need static assets like images. Add the following to your <FontIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file to declare your asset folder:
+Applications often need static assets like images. Add the following to your <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file to declare your asset folder:
 
 ```yaml
 assets:
   - assets/imgs/
 ```
 
-This tells Flutter where to find your image assets. Now, create a folder named <FontIcon icon="fas fa-folder-open"/>`assets` at the root of your project, and inside it, create another folder named `imgs`. Place your image files (<FontIcon icon="fas fa-file-image"/>`icon.png`, <FontIcon icon="fas fa-file-image"/>`cancel.png`, <FontIcon icon="fas fa-file-image"/>`eco.png`, <FontIcon icon="fas fa-file-image"/>`eco_large.png`, <FontIcon icon="fas fa-file-image"/>`network.png`, <FontIcon icon="fas fa-file-image"/>`res_notification_icon.png`, <FontIcon icon="fas fa-file-image"/>`rocket.png`, <FontIcon icon="fas fa-file-image"/>`stats.png`) into this <FontIcon icon="fas fa-folder-open"/>`imgs` folder.
+This tells Flutter where to find your image assets. Now, create a folder named <VPIcon icon="fas fa-folder-open"/>`assets` at the root of your project, and inside it, create another folder named `imgs`. Place your image files (<VPIcon icon="fas fa-file-image"/>`icon.png`, <VPIcon icon="fas fa-file-image"/>`cancel.png`, <VPIcon icon="fas fa-file-image"/>`eco.png`, <VPIcon icon="fas fa-file-image"/>`eco_large.png`, <VPIcon icon="fas fa-file-image"/>`network.png`, <VPIcon icon="fas fa-file-image"/>`res_notification_icon.png`, <VPIcon icon="fas fa-file-image"/>`rocket.png`, <VPIcon icon="fas fa-file-image"/>`stats.png`) into this <VPIcon icon="fas fa-folder-open"/>`imgs` folder.
 
-After modifying <FontIcon icon="iconfont icon-yaml"/>`pubspec.yaml` and adding your assets, run the following commands in your terminal to apply the changes and generate the launcher icons:
+After modifying <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` and adding your assets, run the following commands in your terminal to apply the changes and generate the launcher icons:
 
 ```sh
 flutter pub get
@@ -166,7 +166,7 @@ flutter pub run flutter_launcher_icons
 
 ### Define App Constants
 
-It's good practice to centralize frequently used strings and keys. Inside your <FontIcon icon="fas fa-folder-open"/>`lib` directory, create a folder named <FontIcon icon="fas fa-folder-open"/>`constants`. Inside this folder, create a file named <FontIcon icon="fa-brands fa-dart-lang"/>`app_strings.dart` and add the following code:
+It's good practice to centralize frequently used strings and keys. Inside your <VPIcon icon="fas fa-folder-open"/>`lib` directory, create a folder named <VPIcon icon="fas fa-folder-open"/>`constants`. Inside this folder, create a file named <VPIcon icon="fa-brands fa-dart-lang"/>`app_strings.dart` and add the following code:
 
 ```dart title="lib/constants/app_strings.dart"
 class AppStrings {
@@ -197,7 +197,7 @@ This file contains string constants that will be used throughout the application
 
 ### Define App Colors
 
-For consistent theming, define your application's color palette in one place. Inside the <FontIcon icon="fas fa-folder-open"/>`constants` folder, create a file named <FontIcon icon="fa-brands fa-dart-lang"/>`colors.dart` and add the following code:
+For consistent theming, define your application's color palette in one place. Inside the <VPIcon icon="fas fa-folder-open"/>`constants` folder, create a file named <VPIcon icon="fa-brands fa-dart-lang"/>`colors.dart` and add the following code:
 
 ```dart title="lib/constants/colors.dart"
 import 'dart:ui';
@@ -212,7 +212,7 @@ This file defines color constants that you can use for consistent theming in you
 
 ### Implement Notification Utilities
 
-This is where the core logic for handling notifications resides. Create a folder inside <FontIcon icon="fas fa-folder-open"/>`lib` called <FontIcon icon="fas fa-folder-open"/>`utilities`. Inside this folder, create a file named <FontIcon icon="fa-brands fa-dart-lang"/>`notification_util.dart` and add the following code:
+This is where the core logic for handling notifications resides. Create a folder inside <VPIcon icon="fas fa-folder-open"/>`lib` called <VPIcon icon="fas fa-folder-open"/>`utilities`. Inside this folder, create a file named <VPIcon icon="fa-brands fa-dart-lang"/>`notification_util.dart` and add the following code:
 
 ```dart :collapsed-lines title="lib/utilities/notification_util.dart"
 import 'dart:io';
@@ -387,7 +387,7 @@ This class is the heart of our notification logic. It encapsulates methods for:
 
 ### Generate Unique IDs
 
-Every notification needs a unique identifier. Inside the <FontIcon icon="fas fa-folder-open"/>`utilities` folder, create a file named <FontIcon icon="fa-brands fa-dart-lang"/>`create_uid.dart` and add the following code:
+Every notification needs a unique identifier. Inside the <VPIcon icon="fas fa-folder-open"/>`utilities` folder, create a file named <VPIcon icon="fa-brands fa-dart-lang"/>`create_uid.dart` and add the following code:
 
 ```dart title="lib/utilities/create_uid.dart"
 int createUniqueId() {
@@ -399,9 +399,9 @@ int createUniqueId() {
 
 ### Create Reusable UI Components
 
-To maintain a clean and modular codebase, we'll create several reusable UI components. Create a folder named <FontIcon icon="fas fa-folder-open"/>`components` inside <FontIcon icon="fas fa-folder-open"/>`lib`. Inside this folder, create the following files: <FontIcon icon="fa-brands fa-dart-lang"/>`custom_alert_dialog.dart`, <FontIcon icon="fa-brands fa-dart-lang"/>`custom_rich_text.dart`, <FontIcon icon="fa-brands fa-dart-lang"/>`custom_elevated_button.dart`, <FontIcon icon="fa-brands fa-dart-lang"/>`stats_container.dart`, and <FontIcon icon="fa-brands fa-dart-lang"/>`k_cool_alert.dart`.
+To maintain a clean and modular codebase, we'll create several reusable UI components. Create a folder named <VPIcon icon="fas fa-folder-open"/>`components` inside <VPIcon icon="fas fa-folder-open"/>`lib`. Inside this folder, create the following files: <VPIcon icon="fa-brands fa-dart-lang"/>`custom_alert_dialog.dart`, <VPIcon icon="fa-brands fa-dart-lang"/>`custom_rich_text.dart`, <VPIcon icon="fa-brands fa-dart-lang"/>`custom_elevated_button.dart`, <VPIcon icon="fa-brands fa-dart-lang"/>`stats_container.dart`, and <VPIcon icon="fa-brands fa-dart-lang"/>`k_cool_alert.dart`.
 
-#### <FontIcon icon="fa-brands fa-dart-lang"/>`custom_alert_dialog.dart`
+#### <VPIcon icon="fa-brands fa-dart-lang"/>`custom_alert_dialog.dart`
 
 ```dart :collapsed-lines title="lib/components/custom_alert_dialog.dart"
 import 'dart:io';
@@ -531,7 +531,7 @@ The `customAlertDialog` function provides a customizable alert dialog that adapt
 
 This ensures a consistent user experience across different devices. It takes a `title`, `content`, `context`, an `action` function for the primary button, and titles for both buttons.
 
-#### <FontIcon icon="fa-brands fa-dart-lang"/>`custom_rich_text.dart`:
+#### <VPIcon icon="fa-brands fa-dart-lang"/>`custom_rich_text.dart`:
 
 ```dart :collapsed-lines title="lib/components/custom_rich_text.dart"
 import 'package:flutter/material.dart';
@@ -571,7 +571,7 @@ class CustomRichText extends StatelessWidget {
 
 The `CustomRichText` widget is a simple `RichText` component designed to display a `title` and `content` with different text styles. The `title` is bold and dark grey, while the `content` is a lighter grey, making it ideal for displaying labels and their corresponding values.
 
-#### <FontIcon icon="fa-brands fa-dart-lang"/>`custom_elevated_button.dart`:
+#### <VPIcon icon="fa-brands fa-dart-lang"/>`custom_elevated_button.dart`:
 
 ```dart collapsed-lines title="lib/components/custom_elevated_button.dart"
 import 'package:flutter/material.dart';
@@ -613,7 +613,7 @@ class CustomElevatedButton extends StatelessWidget {
 
 The `CustomElevatedButton` widget is a reusable `ElevatedButton` with an icon and a text label. It takes a `function` to execute when pressed, an `icon`, and a `title`. It uses our `secondaryColor` for its background, ensuring a consistent look and feel for primary actions.
 
-#### <FontIcon icon="fa-brands fa-dart-lang"/>`k_cool_alert.dart`:
+#### <VPIcon icon="fa-brands fa-dart-lang"/>`k_cool_alert.dart`:
 
 ```dart :collapsed-lines title="lib/components/k_cool_alert.dart"
 import 'package:cool_alert/cool_alert.dart';
@@ -641,7 +641,7 @@ Future kCoolAlert({
 
 The `kCoolAlert` function leverages the `cool_alert` package to display aesthetically pleasing alert dialogs. It allows you to specify the `message`, `context`, `alert type` (for example, success, error, warning), whether it's `barrierDismissible`, and the `confirmBtnText`. It uses our `primaryColor` and `secondaryColor` for styling.
 
-#### <FontIcon icon="fa-brands fa-dart-lang"/>`stats_container.dart`:
+#### <VPIcon icon="fa-brands fa-dart-lang"/>`stats_container.dart`:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -697,9 +697,9 @@ The `StatsContainer` widget is a simple container designed to display an icon an
 
 ### Build Application Pages
 
-Now, let's create the main screens of our application. Create a new folder inside <FontIcon icon="fas fa-folder-open"/>`lib` called `pages`. Inside this folder, create two files: <FontIcon icon="fa-brands fa-dart-lang"/>`home_page.dart` and <FontIcon icon="fa-brands fa-dart-lang"/>`stats_page.dart`.
+Now, let's create the main screens of our application. Create a new folder inside <VPIcon icon="fas fa-folder-open"/>`lib` called `pages`. Inside this folder, create two files: <VPIcon icon="fa-brands fa-dart-lang"/>`home_page.dart` and <VPIcon icon="fa-brands fa-dart-lang"/>`stats_page.dart`.
 
-#### <FontIcon icon="fa-brands fa-dart-lang"/>`home_page.dart`:
+#### <VPIcon icon="fa-brands fa-dart-lang"/>`home_page.dart`:
 
 ```dart :collapsed-lines title="lib/pages/home_page.dart"
 import 'package:app_notifications/pages/stats_page.dart';
@@ -968,9 +968,9 @@ The `HomePage` is the main interactive screen of our application.
   - It initializes `notificationUtil` to interact with our notification helper class.
   - **Crucially, it sets up the** `awesome_notifications` **listeners** (`setListeners`). These listeners connect the global static methods in `NotificationUtil` to the various notification events (creation, display, dismissal, and action received). This ensures our app can react to notification interactions even when it's not actively in the foreground.
 - `dispose()`: This method is called when the widget is removed from the widget tree. It calls `AwesomeNotifications().dispose()` to release any resources held by the notification package, which is good practice.
-- `build()` Method: This describes the UI of the home page, including the app bar, a <FontIcon icon="fas fa-file-image"/>`rocket.png` image, and three `CustomElevatedButton` widgets that trigger the different notification functionalities. It also conditionally displays the selected day and time if a scheduled notification has been initiated.
+- `build()` Method: This describes the UI of the home page, including the app bar, a <VPIcon icon="fas fa-file-image"/>`rocket.png` image, and three `CustomElevatedButton` widgets that trigger the different notification functionalities. It also conditionally displays the selected day and time if a scheduled notification has been initiated.
 
-#### <FontIcon icon="fa-brands fa-dart-lang"/>`stats_page.dart`:
+#### <VPIcon icon="fa-brands fa-dart-lang"/>`stats_page.dart`:
 
 ```dart :collapsed-lines title="lib/pages/stats_page.dart"
 import 'package:flutter/material.dart';
@@ -1038,7 +1038,7 @@ The `StatsPage` is a simple screen designed to display some hypothetical statist
 
 ### Initialize and Run the Application
 
-Finally, let's set up the main entry point of our Flutter application. Open <FontIcon icon="fa-brands fa-dart-lang"/>`main.dart` and replace its content with the following code:
+Finally, let's set up the main entry point of our Flutter application. Open <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart` and replace its content with the following code:
 
 ```dart :collapsed-lines title="main.dart"
 import 'package:awesome_notifications/awesome_notifications.dart';
@@ -1117,7 +1117,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-The <FontIcon icon="fa-brands fa-dart-lang"/>`main.dart` file is the entry point of your Flutter application.
+The <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart` file is the entry point of your Flutter application.
 
 - `main()` Function:
   - `WidgetsFlutterBinding.ensureInitialized();`: This line is vital to ensure that the Flutter widget binding is initialized before `AwesomeNotifications().initialize()` is called. This prevents potential errors, especially when dealing with platform channels.

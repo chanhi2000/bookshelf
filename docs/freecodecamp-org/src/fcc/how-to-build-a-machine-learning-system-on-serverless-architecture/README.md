@@ -202,7 +202,7 @@ Our goal is to leverage AI models to recommend the best price for a selected pro
 
 ![What the UI will look like](https://cdn.hashnode.com/res/hashnode/image/upload/v1755873936847/ecf696ef-e161-4453-a6ad-e97d92ac1677.png)
 
-You can explore the UI from [<FontIcon icon="fas fa-globe"/>here](https://kuriko-iwai.vercel.app/online-commerce-intelligence-hub).
+You can explore the UI from [<VPIcon icon="fas fa-globe"/>here](https://kuriko-iwai.vercel.app/online-commerce-intelligence-hub).
 
 ### The Models
 
@@ -215,7 +215,7 @@ The backup models are prioritized based on learning capabilities.
 
 ### Tuning and Training
 
-The primary model was trained on a dataset of around 500,000 samples ([<FontIcon icon="fas fa-globe"/>source)](https://archive.ics.uci.edu/dataset/352/online+retail) and fine-tuned using `Optuna`'s Bayesian Optimization, with grid search available for further refinement.
+The primary model was trained on a dataset of around 500,000 samples ([<VPIcon icon="fas fa-globe"/>source)](https://archive.ics.uci.edu/dataset/352/online+retail) and fine-tuned using `Optuna`'s Bayesian Optimization, with grid search available for further refinement.
 
 The backups are also trained on the same samples and tuned using the `Scikit-Optimize` framework.
 
@@ -238,7 +238,7 @@ We’ll evaluate model performance using different metrics for the transformed a
 
 We’re going to build a complete ecosystem around an **AWS Lambda function** to create a scalable ML system:
 
-![Fig. The system architecture (Created by [<FontIcon icon="fas fa-globe"/>Kuriko IWAI](https://kuriko-iwai.vercel.app/))](https://miro.medium.com/v2/resize:fit:4680/0*ulcNtwJeU5EOfhTg.png)
+![Fig. The system architecture (Created by [<VPIcon icon="fas fa-globe"/>Kuriko IWAI](https://kuriko-iwai.vercel.app/))](https://miro.medium.com/v2/resize:fit:4680/0*ulcNtwJeU5EOfhTg.png)
 
 **AWS Lambda** is a **serverless production** where a service provider can run the application without managing servers. Once they upload the code, AWS takes on the responsibility of managing the underlying infrastructure.
 
@@ -401,7 +401,7 @@ source .venv/bin/activate
 uv run src/main.py
 ```
 
-The <FontIcon icon="fa-brands fa-python"/>`main.py` script includes several key components.
+The <VPIcon icon="fa-brands fa-python"/>`main.py` script includes several key components.
 
 #### Scripts for Data Handling
 
@@ -878,9 +878,9 @@ s3_upload(file_path=PROCESSOR_PATH)
 
 Next, we’ll create a Flask application with API endpoints.
 
-Flask needs to configure Python scripts in the <FontIcon icon="fa-brands fa-python"/>`app.py` file located at the root of the project repository.
+Flask needs to configure Python scripts in the <VPIcon icon="fa-brands fa-python"/>`app.py` file located at the root of the project repository.
 
-As showed in the code snippets, the <FontIcon icon="fa-brands fa-python"/>`app.py` file needs to contain the components in order of:
+As showed in the code snippets, the <VPIcon icon="fa-brands fa-python"/>`app.py` file needs to contain the components in order of:
 
 1. AWS Boto3 client setup,
 2. Flask app configuration and API endpoint setup,
@@ -1156,7 +1156,7 @@ While a Lambda function can run for up to 15 minutes, its associated API Gateway
 
 So, any heavy tasks like loading preprocessors, input data, or models should be performed once outside of the `handler` function, ensuring they are ready *before* the API endpoint is called.
 
-Here are the loading functions called in <FontIcon icon="fa-brands fa-python"/>`app.py`.
+Here are the loading functions called in <VPIcon icon="fa-brands fa-python"/>`app.py`.
 
 ```py :collapsed-liens title="app.py"
 import joblib
@@ -1217,9 +1217,9 @@ Docker creates a container image based on the instructions defined in a Dockerfi
 
 In this project, we’ll upload the Docker container image to ECR, so the Lambda function can access it in production.
 
-After this, we’ll define the <FontIcon icon="fa-brands fa-docker"/>`.dockerignore` file to optimize the container image:
+After this, we’ll define the <VPIcon icon="fa-brands fa-docker"/>`.dockerignore` file to optimize the container image:
 
-```dockerignore title=".dockerignore"
+```sh title=".dockerignore"
 # any irrelevant data
 __pycache__/
 .ruff_cache/
@@ -1272,7 +1272,7 @@ Then, we’ll run the container with the `waitress` server in local:
 docker run -p 5002:5002 -e ENV=local my-app app.py
 ```
 
-The `-e ENV=local` flag sets the environment variable inside the container, which will trigger the `waitress.serve()` call in the <FontIcon icon="fa-brands fa-python"/>`app.py`.
+The `-e ENV=local` flag sets the environment variable inside the container, which will trigger the `waitress.serve()` call in the <VPIcon icon="fa-brands fa-python"/>`app.py`.
 
 In the terminal, you’ll find a message saying the following:
 
@@ -1290,7 +1290,7 @@ curl http://localhost:5002/v1/predict-price/{STOCKCODE}
 To publish the Docker image, we first need to configure the default AWS credentials and region:
 
 - From the AWS account console, issue an access token and check the default region.
-- Store them in the <FontIcon icon="fas fa-folder-open"/>`~/aws/`<FontIcon icon="fas fa-file-lines"/>`credentials` and <FontIcon icon="fas fa-folder-open"/>`~/aws/`<FontIcon icon="fas fa-file-lines"/>`config` files:
+- Store them in the <VPIcon icon="fas fa-folder-open"/>`~/aws/`<VPIcon icon="fas fa-file-lines"/>`credentials` and <VPIcon icon="fas fa-folder-open"/>`~/aws/`<VPIcon icon="fas fa-file-lines"/>`config` files:
 
 ```ini title="~/aws/credentials"
 [default] 
@@ -1358,7 +1358,7 @@ First, visit the API Gateway console and create **REST API methods** using the A
 Then, add resources to the created API gateway to create an endpoint:  
 `API Gateway > APIs > Resources > Create Resource`
 
-- Align the resource endpoint with the API endpoint defined in the <FontIcon icon="fa-brands fa-python"/>`app.py`.
+- Align the resource endpoint with the API endpoint defined in the <VPIcon icon="fa-brands fa-python"/>`app.py`.
 - Configure CORS (for example, accept specific origins).
 - Deploy the resource to the stage.
 
@@ -1479,9 +1479,9 @@ For logging and debugging, we’ll use the LiveTail of CloudWatch: `CloudWatch >
 
 ## Building a Client Application (Optional)
 
-For full-stack deployment, we’ll build a simple React application to display the prediction using the [<FontIcon icon="fas fa-globe"/>recharts](https://recharts.org/en-US) library for visualization.
+For full-stack deployment, we’ll build a simple React application to display the prediction using the [<VPIcon icon="fas fa-globe"/>recharts](https://recharts.org/en-US) library for visualization.
 
-Other options for quick frontend deployment include [<FontIcon icon="fas fa-globe"/>Streamlit](https://streamlit.io/) or [<FontIcon icon="fas fa-globe"/>Gradio](https://gradio.app/).
+Other options for quick frontend deployment include [<VPIcon icon="fas fa-globe"/>Streamlit](https://streamlit.io/) or [<VPIcon icon="fas fa-globe"/>Gradio](https://gradio.app/).
 
 ### The React Application
 
@@ -1636,9 +1636,9 @@ export default App
 
 Now, the application is ready to serve.
 
-You can explore the UI from [<FontIcon icon="fas fa-globe"/>here](https://kuriko-iwai.vercel.app/online-commerce-intelligence-hub).
+You can explore the UI from [<VPIcon icon="fas fa-globe"/>here](https://kuriko-iwai.vercel.app/online-commerce-intelligence-hub).
 
-All code (backend) is available in [my Github Repo (<FontIcon icon="iconfont icon-github"/>`krik8235/ml-sales-prediction`)](https://github.com/krik8235/ml-sales-prediction).
+All code (backend) is available in [my Github Repo (<VPIcon icon="iconfont icon-github"/>`krik8235/ml-sales-prediction`)](https://github.com/krik8235/ml-sales-prediction).
 
 <SiteInfo
   name="krik8235/ml-sales-prediction"
@@ -1667,9 +1667,9 @@ To scale the application effectively, extracting functionalities into a new micr
 
 I’m Kuriko IWAI, and you can find more of my work and learn more about me here:
 
-- [<FontIcon icon="fas fa-globe"/>Portfolio](https://kuriko-iwai.vercel.app/) 
-- [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`k-i-i`)](https://linkedin.com/in/k-i-i/)
-- [Github (<FontIcon icon="iconfont icon-github"/>`krik8235`)](https://github.com/krik8235)
+- [<VPIcon icon="fas fa-globe"/>Portfolio](https://kuriko-iwai.vercel.app/) 
+- [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`k-i-i`)](https://linkedin.com/in/k-i-i/)
+- [Github (<VPIcon icon="iconfont icon-github"/>`krik8235`)](https://github.com/krik8235)
 
 ::: note
 

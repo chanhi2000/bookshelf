@@ -69,7 +69,7 @@ A well-documented library helps other developers understand how to use it effect
 
 :::
 
-For example, a simple <FontIcon icon="fa-brands fa-markdown"/>`README.md` file for my-awesome-library:
+For example, a simple <VPIcon icon="fa-brands fa-markdown"/>`README.md` file for my-awesome-library:
 
 ```md
 # my-awesome-library
@@ -146,13 +146,13 @@ Regularly updating dependencies improves security, performance, and compatibilit
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn outdated
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm outdated
@@ -164,13 +164,13 @@ npm outdated
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn upgrade
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm update
@@ -190,7 +190,7 @@ Testing ensures your package works correctly before publishing updates.
 npm install --save-dev jest
 ```
 
-### Create a Test File (<FontIcon icon="fa-brands fa-js"/>`index.test.js`)
+### Create a Test File (<VPIcon icon="fa-brands fa-js"/>`index.test.js`)
 
 ```js
 const { formatDate } = require("./index");
@@ -222,7 +222,7 @@ You can use CI/CD (for example, GitHub Actions) to run tests automatically on ev
 
 ### Automate Publishing with GitHub Actions
 
-Create a <FontIcon icon="fas fa-folder-open"/>`.github/workflows/`<FontIcon icon="iconfont icon-yaml"/>`publish.yml` file:
+Create a <VPIcon icon="fas fa-folder-open"/>`.github/workflows/`<VPIcon icon="iconfont icon-yaml"/>`publish.yml` file:
 
 ```yaml title=".github/workflows/publish.yml"
 name: Publish to npm

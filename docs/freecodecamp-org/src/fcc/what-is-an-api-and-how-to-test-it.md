@@ -122,7 +122,7 @@ REST APIs are stateless and can be used for separation of concerns between the c
 
 ### Service Object Access Protocol (SOAP)
 
-According to the definition by [<FontIcon icon="fa-brands fa-microsoft"/>Microsoft](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wusp/5daaa9d9-26aa-42fc-a431-c011166dc58f), SOAP is a lightweight protocol for exchanging structured information in a decentralized, distributed environment.
+According to the definition by [<VPIcon icon="fa-brands fa-microsoft"/>Microsoft](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wusp/5daaa9d9-26aa-42fc-a431-c011166dc58f), SOAP is a lightweight protocol for exchanging structured information in a decentralized, distributed environment.
 
 This contains rules guiding requests and responses sent from web applications using XML between systems through Hypertext Transfer Protocol (HTTP).
 
@@ -279,7 +279,7 @@ Here are some tools you can use for APIs documentation so you don't have these i
 
 Building and testing your API should be fun, shouldn't it? I hope you found this resource useful and it helps you have fun with your APIs.
 
-You can reach out to me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`olanetsoft`)](https://twitter.com/olanetsoft).
+You can reach out to me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`olanetsoft`)](https://twitter.com/olanetsoft).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

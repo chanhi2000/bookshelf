@@ -60,7 +60,7 @@ The strength of a programming language often lies in its community, ecosystem, a
 
 Both Python and JavaScript have centralized repositories for distributing and installing open-source libraries: **PyPI (Python Package Index)** for Python and **NPM (Node Package Manager)** for JavaScript.
 
-### <FontIcon icon="iconfont icon-pypi"/>Python: PyPI
+### <VPIcon icon="iconfont icon-pypi"/>Python: PyPI
 
 - PyPI hosts over 400,000 packages, supporting fields like data science, web development, machine learning, and automation.
 - Popular libraries include:
@@ -84,7 +84,7 @@ print(response.json())
 
 :::
 
-### <FontIcon icon="fa-brands fa-npm"/>JavaScript: NPM
+### <VPIcon icon="fa-brands fa-npm"/>JavaScript: NPM
 
 - NPM is the world’s largest software registry, with over 2 million packages for frontend, backend, and full-stack development.
 - Popular libraries include:

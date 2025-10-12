@@ -89,7 +89,7 @@ Here are the sections in this course:
 - Inference & Text Generation
 - Final Results
 
-Watch the full course [<FontIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/Jaj_SQsF-BI) (1-hour watch).
+Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/Jaj_SQsF-BI) (1-hour watch).
 
 <VidStack src="youtube/Jaj_SQsF-BI" />
 

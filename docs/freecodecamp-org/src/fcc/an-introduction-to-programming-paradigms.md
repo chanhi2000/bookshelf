@@ -79,7 +79,7 @@ All this results in the fact that today we have many options to choose from when
 
 Programming paradigms are not languages or tools. You can't "build" anything with a paradigm. They're more like a set of ideals and guidelines that many people have agreed on, followed, and expanded upon.
 
-Programming languages aren't always tied to a specific paradigm. There are languages that have been built with a certain paradigm in mind and have features that facilitate that kind of programming more than others ([<FontIcon icon="iconfont icon-haskell"/>Haskel](https://haskell.org/) and functional programming is a good example).
+Programming languages aren't always tied to a specific paradigm. There are languages that have been built with a certain paradigm in mind and have features that facilitate that kind of programming more than others ([<VPIcon icon="iconfont icon-haskell"/>Haskel](https://haskell.org/) and functional programming is a good example).
 
 But there are also "multi-paradigm" languages, meaning you can adapt your code to fit a certain paradigm or another (JavaScript and Python are good examples).
 
@@ -257,7 +257,7 @@ An important thing to notice about declarative programming is that under the hoo
 
 Following the array example, the computer still iterates over the array like in a for loop, but as programmers we don't need to code that directly. What declarative programming does is to **hide away** that complexity from the direct view of the programmer.
 
-Here's a nice [<FontIcon icon="fa-brands fa-youtube"/>comparison between imperative and declarative programming.](https://youtu.be/E7Fbf7R3x6I)
+Here's a nice [<VPIcon icon="fa-brands fa-youtube"/>comparison between imperative and declarative programming.](https://youtu.be/E7Fbf7R3x6I)
 
 <VidStack src="youtube/E7Fbf7R3x6I" />
 
@@ -321,7 +321,7 @@ In this example I've just scratched the surface of the many features of OOP. If 
 
 <VidStack src="youtube/pTB0EiLXUC8" />
 
-And [<FontIcon icon="fa-brands fa-youtube"/>here's a nice comparison between imperative, functional and object-oriented programming.](https://youtu.be/08CWw_VD45w)
+And [<VPIcon icon="fa-brands fa-youtube"/>here's a nice comparison between imperative, functional and object-oriented programming.](https://youtu.be/08CWw_VD45w)
 
 <VidStack src="youtube/08CWw_VD45w" />
 
@@ -333,7 +333,7 @@ As we've seen, programming paradigms are different ways in which we can face pro
 
 Imperative, procedural, functional, declarative, and object oriented paradigms are some of the most popular and widely used paradigms today. And knowing the basics about them is good for general knowledge and also for better understanding other topics of the coding world.
 
-As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [linkedin (<FontIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<FontIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman).
+As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<VPIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman).
 
 Cheers and see you in the next one!
 

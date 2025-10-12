@@ -70,16 +70,16 @@ In this article, you’ll learn how to set up a VPN which you can host on a Rasp
 
 This VPN will allow you to access your home network from anywhere as if you’re still at home. So why is this useful, you might ask? Well, it allows you to use your home network IP, no matter where you are, which is a good for privacy.
 
-In this article, we’ll use [<FontIcon icon="iconfont icon-github"/>`tailscale/tailscale`](https://github.com/tailscale/tailscale), an open-source mesh VPN (Virtual Private Network) service that streamlines connecting devices and services securely across different networks. It enables encrypted point-to-point connections using the open-source [<FontIcon icon="fas fa-globe"/>WireGuard](https://wireguard.com/) protocol. This means that only devices on your private network can communicate with each other.
+In this article, we’ll use [<VPIcon icon="iconfont icon-github"/>`tailscale/tailscale`](https://github.com/tailscale/tailscale), an open-source mesh VPN (Virtual Private Network) service that streamlines connecting devices and services securely across different networks. It enables encrypted point-to-point connections using the open-source [<VPIcon icon="fas fa-globe"/>WireGuard](https://wireguard.com/) protocol. This means that only devices on your private network can communicate with each other.
 
 ::: note Prerequisites
 
 - Raspberry Pi (I am working with a Raspberry Pi 5)
-- [<FontIcon icon="fa-brands fa-raspberry-pi"/>Raspberry Pi Imager](https://raspberrypi.com/software/)
+- [<VPIcon icon="fa-brands fa-raspberry-pi"/>Raspberry Pi Imager](https://raspberrypi.com/software/)
 - A Micro SD Card (8GB is enough)
 - A Micro SD Card reader for your computer.
 - Home Router
-- A [<FontIcon icon="fas fa-globe"/>Tailscale](https://tailscale.com/) account
+- A [<VPIcon icon="fas fa-globe"/>Tailscale](https://tailscale.com/) account
 
 :::
 
@@ -87,7 +87,7 @@ In this article, we’ll use [<FontIcon icon="iconfont icon-github"/>`tailscale/
 
 ## Install Raspberry Pi OS Lite (32-bit)
 
-We’ll start this process by installing the Raspberry Pi OS Lite (32-bit) on the micro SD card we have. We will be making use of the Raspberry Pi Imager software which is available for free [<FontIcon icon="fa-brands fa-raspberry-pi"/>here](https://raspberrypi.com/software/).
+We’ll start this process by installing the Raspberry Pi OS Lite (32-bit) on the micro SD card we have. We will be making use of the Raspberry Pi Imager software which is available for free [<VPIcon icon="fa-brands fa-raspberry-pi"/>here](https://raspberrypi.com/software/).
 
 When you run the imager software, pick the Raspberry Pi Device, which for me is a Raspberry Pi 5. Then in Operating System, click on Raspberry Pi OS (other), then scroll down to Raspberry Pi OS Lite (32-bit)
 
@@ -193,7 +193,7 @@ If the re-authentication does not occur, keys expire and the connection stops wo
 
 I will be disabling the key expiry on the Raspberry Pi, as I fully trust it. To do this, you need to:
 
-- Open the [<FontIcon icon="fas fa-globe"/>Machines](https://login.tailscale.com/admin/machines) page of the Tailscale admin console.
+- Open the [<VPIcon icon="fas fa-globe"/>Machines](https://login.tailscale.com/admin/machines) page of the Tailscale admin console.
 - Find the Raspberry Pi on the row and select the option menu there.
 - Click on the Disable Key Expiry option. You should see an Expiry Disable label below the machine name.
 
@@ -227,7 +227,7 @@ sudo sysctl -p /etc/sysctl.conf
 sudo tailscale up --advertise-exit-node
 ```
 
-- Open the [<FontIcon icon="fas fa-globe"/>Machines](https://login.tailscale.com/admin/machines) page of the Tailscale admin console.
+- Open the [<VPIcon icon="fas fa-globe"/>Machines](https://login.tailscale.com/admin/machines) page of the Tailscale admin console.
 - Find the Raspberry Pi on the row. You should see an Exit Node label on its name.
 - Click on the options menu there and select Edit Route Settings.
 - Check the box for Use as an exit node, then save.
@@ -238,7 +238,7 @@ Now you should see the option of routing the internet through an exit node when 
 
 ## Conclusion
 
-Using the Tailscale app on other devices, you can now route traffic securely through the Raspberry Pi by selecting it as an exit node. Tailscale also provides clear, [<FontIcon icon="fas fa-globe"/>step-by-step guides](https://tailscale.com/kb/1408/quick-guide-exit-nodes#use-an-exit-node) tailored to each device type for setting up and using an exit node.
+Using the Tailscale app on other devices, you can now route traffic securely through the Raspberry Pi by selecting it as an exit node. Tailscale also provides clear, [<VPIcon icon="fas fa-globe"/>step-by-step guides](https://tailscale.com/kb/1408/quick-guide-exit-nodes#use-an-exit-node) tailored to each device type for setting up and using an exit node.
 
 You can now be away from your home internet but still connect to the internet as if you were home. See you next time.
 

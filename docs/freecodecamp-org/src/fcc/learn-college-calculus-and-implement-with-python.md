@@ -68,7 +68,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745940136487/3bf6eb1
 
 Calculus is one of the cornerstones of higher mathematics and a powerful tool for understanding change, motion, and growth across countless disciplines. But for many students, Calculus can seem intimidating or abstract. What if you could learn it step by step from a seasoned university professor, and simultaneously see how each concept works in code? That’s exactly what this new course offers: a practical, intuitive, and coding-friendly approach to mastering Calculus.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about Calculus through the lens of Python programming. Taught by experienced mathematics professor Ed Pratowski, this course walks you through essential topics in college-level Calculus while showing you how to implement these concepts using Python.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about Calculus through the lens of Python programming. Taught by experienced mathematics professor Ed Pratowski, this course walks you through essential topics in college-level Calculus while showing you how to implement these concepts using Python.
 
 The course begins with foundational concepts like limits and the idea of a "hole in the graph" before moving into derivative rules, slope interpretation, and real-world applications like financial modeling and projectile motion. You'll explore important theorems like Rolle's and the Mean Value Theorem, as well as integral calculus topics like Riemann sums, the Fundamental Theorem of Calculus, and calculating volume using solids of revolution. You'll also learn how to apply symbolic math libraries like SymPy for graphing and computation.
 
@@ -112,7 +112,7 @@ Here is the full list of topics covered.
 - Surface Area
 - Integral Formulas
 
-Ready to bring math to life with code? Check out this comprehensive Calculus with Python course on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/VDFRpjQVaME).
+Ready to bring math to life with code? Check out this comprehensive Calculus with Python course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/VDFRpjQVaME).
 
 <VidStack src="youtube/VDFRpjQVaME" />
 

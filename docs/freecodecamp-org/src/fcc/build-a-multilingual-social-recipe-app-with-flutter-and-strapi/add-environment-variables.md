@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6c-9a48-4037-9cc2-3b35a92b6006.png"/>
 
-You will store configuration data such as API keys, environment-specific URLs (base URL, recipe endpoints, comments endpoints), and other sensitive or configurable data outside your codebase using the `flutter_dotenv` package you installed earlier. Create an <FontIcon icon="fas fa-file-lines"/>`.env` file in your root directory and add your environment variables:
+You will store configuration data such as API keys, environment-specific URLs (base URL, recipe endpoints, comments endpoints), and other sensitive or configurable data outside your codebase using the `flutter_dotenv` package you installed earlier. Create an <VPIcon icon="fas fa-file-lines"/>`.env` file in your root directory and add your environment variables:
 
 ```sh title=".env"
 BASE_URL=your-base-url

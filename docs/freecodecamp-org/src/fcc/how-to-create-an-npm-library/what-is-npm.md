@@ -72,7 +72,7 @@ npm operates through three key components:
 2. **The npm CLI (Command Line Interface)** - A tool that allows developers to install, update, and manage packages from the command line.
 3. **The package.json File** - A metadata file that keeps track of dependencies, scripts, and project configurations.
 
-When you install a package using npm, it pulls the package from the registry and saves it in the <FontIcon icon="fas fa-folder-open"/>`node_modules` folder within your project.
+When you install a package using npm, it pulls the package from the registry and saves it in the <VPIcon icon="fas fa-folder-open"/>`node_modules` folder within your project.
 
 For example, to install **Lodash**, a popular utility library, you would run:
 
@@ -83,21 +83,21 @@ npm install lodash
 This will:
 
 - Download the latest version of `lodash` from the npm registry
-- Add it to your <FontIcon icon="fas fa-folder-open"/>`node_modules` folder
-- Update the <FontIcon icon="iconfont icon-json"/>`package.json` and <FontIcon icon="iconfont icon-json"/>`package-lock.json` files to reflect the new dependency
+- Add it to your <VPIcon icon="fas fa-folder-open"/>`node_modules` folder
+- Update the <VPIcon icon="iconfont icon-json"/>`package.json` and <VPIcon icon="iconfont icon-json"/>`package-lock.json` files to reflect the new dependency
 
 ---
 
-## The Role of <FontIcon icon="iconfont icon-json"/>`package.json`
+## The Role of <VPIcon icon="iconfont icon-json"/>`package.json`
 
-The <FontIcon icon="iconfont icon-json"/>`package.json` file is the heart of any npm project. It serves as a blueprint, containing information about the project, including:
+The <VPIcon icon="iconfont icon-json"/>`package.json` file is the heart of any npm project. It serves as a blueprint, containing information about the project, including:
 
 - **Project metadata** (name, version, description)
 - **Dependencies** (external packages required for the project)
 - **Scripts** (commands to automate tasks like starting a server or running tests)
 - **Versioning information** (ensuring compatibility between different versions of dependencies)
 
-A typical <FontIcon icon="iconfont icon-json"/>`package.json` file looks like this:
+A typical <VPIcon icon="iconfont icon-json"/>`package.json` file looks like this:
 
 ```json title="package.json"
 {
@@ -124,7 +124,7 @@ A typical <FontIcon icon="iconfont icon-json"/>`package.json` file looks like th
 - `devDependencies` - Includes development-only dependencies (for example, testing and linting tools).
 - `scripts` - Defines CLI commands for automating tasks.
 
-To install all dependencies listed in <FontIcon icon="iconfont icon-json"/>`package.json`, simply run:
+To install all dependencies listed in <VPIcon icon="iconfont icon-json"/>`package.json`, simply run:
 
 ```sh
 npm install
@@ -140,10 +140,10 @@ Here are some essential npm commands you’ll use frequently:
 
 | Command | Description |
 | --- | --- |
-| `npm init -y` | Creates a default <FontIcon icon="iconfont icon-json"/>`package.json` file |
+| `npm init -y` | Creates a default <VPIcon icon="iconfont icon-json"/>`package.json` file |
 | `npm install <package-name>` | Installs a package and adds it to `dependencies` |
 | `npm install <package-name> --save-dev` | Installs a package and adds it to `devDependencies` |
 | `npm uninstall <package-name>` | Removes a package from the project |
 | `npm update` | Updates all installed dependencies |
 | `npm outdated` | Checks for outdated dependencies |
-| `npm run <script-name>` | Runs a script defined in <FontIcon icon="iconfont icon-json"/>`package.json` |
+| `npm run <script-name>` | Runs a script defined in <VPIcon icon="iconfont icon-json"/>`package.json` |

@@ -72,7 +72,7 @@ Simply put, a flowchart is a diagrammatic representation of an algorithm. It's c
 
 In many cases, a flowchart is considered part of a larger family of diagrams, usually referred to as **flow diagrams**. And although both names are commonly used, we'll stick to the use of flowcharts to represent algorithms for now.
 
-![[<FontIcon icon="fas fa-globe"/>An example of a flow diagram](https://visual-paradigm.com/tutorials/flowchart-tutorial/)](https://cdn.hashnode.com/res/hashnode/image/upload/v1732568840505/37302d26-7815-468c-86cf-45fbae2e843a.webp)
+![[<VPIcon icon="fas fa-globe"/>An example of a flow diagram](https://visual-paradigm.com/tutorials/flowchart-tutorial/)](https://cdn.hashnode.com/res/hashnode/image/upload/v1732568840505/37302d26-7815-468c-86cf-45fbae2e843a.webp)
 
 You'll notice that it uses certain different shapes and colors - we'll discuss these further below.
 
@@ -121,7 +121,7 @@ What are the advantages of using a visualization based on symbols to understand 
 
 Physically, our brain has to make more of an effort to extract meaning from either text or numbers than it does from visual attributes and shapes. For example, after some learning and under the relevant context, it is easy to get the meaning of this street sign:
 
-![[<FontIcon icon="fas fa-globe"/>children crossing road sign](https://media-studies.com/triadic-model-semiotics/)](https://media-studies.com/wp-content/uploads/2021/07/barthes-road-sign-268x225.jpg)
+![[<VPIcon icon="fas fa-globe"/>children crossing road sign](https://media-studies.com/triadic-model-semiotics/)](https://media-studies.com/wp-content/uploads/2021/07/barthes-road-sign-268x225.jpg)
 
 This sign may work better than writing a board explaining that drivers should be careful as there are kids crossing the road.
 
@@ -129,13 +129,13 @@ In our example, if you have to pause to read the explanatory board, by the time 
 
 Also, visual attributes and shapes can not only refer to concrete, tangible objects, but also to *concepts and actions*. For example, if you have done arithmetics before, you'll know the meaning of the following symbols:
 
-![[<FontIcon icon="fas fa-globe"/>Math arithmetic operators like multiplication, subtraction, division, and so on](https://onlinemathcenter.com/blog/math/math-symbols-and-their-meanings-part-i-arithmetic-operators/))](https://b2990823.smushcdn.com/2990823/wp-content/uploads/2021/11/86-860869_math-math-symbol-math-clip-art-1-300x251.png?lossy=1&strip=1&webp=1)
+![[<VPIcon icon="fas fa-globe"/>Math arithmetic operators like multiplication, subtraction, division, and so on](https://onlinemathcenter.com/blog/math/math-symbols-and-their-meanings-part-i-arithmetic-operators/))](https://b2990823.smushcdn.com/2990823/wp-content/uploads/2021/11/86-860869_math-math-symbol-math-clip-art-1-300x251.png?lossy=1&strip=1&webp=1)
 
 When we use a symbol to convey meaning, whether concrete or intangible, we usually talk about [**semiosis**](https://en.wikipedia.org/wiki/Semiosis). Semiosis is the process of producing and interpreting signs and symbols to convey meaning. It involves the interaction between a symbol, its meaning, and the person or machine interpreting it. This process is central to the communication, understanding, and creation of knowledge in both people and machines.
 
 Symbolic communication takes advantage of our innate visual processing skills. This helps reduce the need for long-winded explanations because the observer has learned somehow what the sign means. Instead of “semiosis”, some people prefer the term **abstraction** to refer to the same process.
 
-![[<FontIcon icon="fas fa-globe"/>Model of Semiotics Theory](https://opentext.wsu.edu/theoreticalmodelsforteachingandresearch/chapter/semiotic-theory/)](https://cdn.hashnode.com/res/hashnode/image/upload/v1736344070987/cede4eac-ca8c-4fa9-9a76-280d08f655d7.png)
+![[<VPIcon icon="fas fa-globe"/>Model of Semiotics Theory](https://opentext.wsu.edu/theoreticalmodelsforteachingandresearch/chapter/semiotic-theory/)](https://cdn.hashnode.com/res/hashnode/image/upload/v1736344070987/cede4eac-ca8c-4fa9-9a76-280d08f655d7.png)
 
 That it is what we do with flowcharts: abstracting meanings through symbols.
 
@@ -155,13 +155,13 @@ To address this, clear textual explanations should accompany the shapes, ensurin
 
 When creating a flowchart, you can use custom symbols, but it's typically a good idea to stick to certain conventions. Conventions ensure better communication as well as consistency of messaging across different flowcharts.
 
-The [<FontIcon icon="fas fa-globe"/>ANSI/ISO standards](https://the9000store.com/articles/iso-9000-tips-iso-9001-flowchart-basics/) list more than 30 recognized flowchart **shapes**, though their usage isn't strictly regulated. This allows vendors and developers to agree on best practices.
+The [<VPIcon icon="fas fa-globe"/>ANSI/ISO standards](https://the9000store.com/articles/iso-9000-tips-iso-9001-flowchart-basics/) list more than 30 recognized flowchart **shapes**, though their usage isn't strictly regulated. This allows vendors and developers to agree on best practices.
 
 Since these symbols require textual and styling support anyway, some devs argue that you can reduce the number of shapes to a “necessary few” versatile symbols instead. I refer to these as "wildcards”. Wildcards can represent broader abstractions when paired with clear text and or styling. But don't hesitate to use other standard symbols if you think that they bring more clarity to your flowchart.
 
 For our example, we will focus on the most common shapes. Some of the most common and most versatile shapes are:
 
-![[<FontIcon icon="fas fa-globe"/>Main flowchart shapes table.](https://www.smartdraw.com/flowchart/flowchart-symbols.htm)](https://cdn.hashnode.com/res/hashnode/image/upload/v1733765176295/06d45bcd-38c1-4c88-854d-c91bdb7e0a7c.jpeg)
+![[<VPIcon icon="fas fa-globe"/>Main flowchart shapes table.](https://www.smartdraw.com/flowchart/flowchart-symbols.htm)](https://cdn.hashnode.com/res/hashnode/image/upload/v1733765176295/06d45bcd-38c1-4c88-854d-c91bdb7e0a7c.jpeg)
 
 As you can see in the table above, we have the following shapes:
 
@@ -385,7 +385,7 @@ I've found that these AI tools are still not quite up to the task for more compl
 
 Even before the AI tools came around, there were the parsers. They map steps and relationships into shapes based on well-established syntax rules. Some of those parsers are turning to AI instead, as the AI generators are easier to program and require less maintenance. But sometimes the rule-based parsers can be more precise if the rules they are based on remain without changes.
 
-Some of those tools read on binary code, which is a better proxy to follow the full workflow, something that popular AI tools are not capable of. Some IDEs, like Eclipse, allow you to add plugins to draw a flowchart of your code based on binaries. One example is [<FontIcon icon="fas fa-globe"/>drgarbagetools](https://sourceforge.net/projects/drgarbagetools/) which works only for Java in Eclipse.
+Some of those tools read on binary code, which is a better proxy to follow the full workflow, something that popular AI tools are not capable of. Some IDEs, like Eclipse, allow you to add plugins to draw a flowchart of your code based on binaries. One example is [<VPIcon icon="fas fa-globe"/>drgarbagetools](https://sourceforge.net/projects/drgarbagetools/) which works only for Java in Eclipse.
 
 #### General-purpose tools
 
@@ -534,7 +534,7 @@ If that makes you uncomfortable, try to think in the following way: the flowchar
 
 A flowchart is similar to this TODO list. But instead of writing all those steps as comments or even pseudo-code, you are using (conventional) symbols.
 
-But barring the advances of AI or any use of [<FontIcon icon="fa-brands fa-wikipedia-w"/>flow-based programming](https://en.wikipedia.org/wiki/No-code_development_platform), comments are not code, no matter how detailed they are.
+But barring the advances of AI or any use of [<VPIcon icon="fa-brands fa-wikipedia-w"/>flow-based programming](https://en.wikipedia.org/wiki/No-code_development_platform), comments are not code, no matter how detailed they are.
 
 So the decision of whether the flowchart is working or not is left to you and your audience. The most important question to resolve here is: is the information provided by the flowchart enough to understand what you need to understand about the process? Is it revealing something new? Is it helping you organize your ideas more clearly?
 
@@ -546,9 +546,9 @@ Also, try to be faithful as much as possible to the actual way in which the proc
 
 Let's go back to our example. I did some quick research to find out how others might interpret a for-loop in a flowchart.
 
-![I found [<FontIcon icon="fa-brands fa-wikipedia-w"/>this reference useful](https://en.wikipedia.org/wiki/For_loop#/media/File:For_loop_example.svg) to guide my own description:](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/For_loop_example.svg/220px-For_loop_example.svg.png)
+![I found [<VPIcon icon="fa-brands fa-wikipedia-w"/>this reference useful](https://en.wikipedia.org/wiki/For_loop#/media/File:For_loop_example.svg) to guide my own description:](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/For_loop_example.svg/220px-For_loop_example.svg.png)
 
-This approach seems to be fairly standard and I will try to include some of those steps in my flowchart. I also found that according to JavaScript documentation, the kind of for-loop we are about to represent repeats [<FontIcon icon="fa-brands fa-firefox"/>until a specified condition evaluates to false](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration), just like in the flowchart above.
+This approach seems to be fairly standard and I will try to include some of those steps in my flowchart. I also found that according to JavaScript documentation, the kind of for-loop we are about to represent repeats [<VPIcon icon="fa-brands fa-firefox"/>until a specified condition evaluates to false](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration), just like in the flowchart above.
 
 Let's start by working on the first for-loop only:
 
@@ -598,9 +598,9 @@ flowchart TD
 
 Perfect.
 
-Let's now focus on the second for-loop. It turns out that it's syntactically different from the previous one. And in fact, there are [<FontIcon icon="fa-brands fa-wikipedia-w"/>different kinds of loops in programming](https://en.wikipedia.org/wiki/For_loop). The one we refined earlier is usually known as the “traditional” one, or better a *numeric range* type for-loop. The second one is an *iterator* type for-loop.
+Let's now focus on the second for-loop. It turns out that it's syntactically different from the previous one. And in fact, there are [<VPIcon icon="fa-brands fa-wikipedia-w"/>different kinds of loops in programming](https://en.wikipedia.org/wiki/For_loop). The one we refined earlier is usually known as the “traditional” one, or better a *numeric range* type for-loop. The second one is an *iterator* type for-loop.
 
-An [<FontIcon icon="fas fa-globe"/>iterator](https://refactoring.guru/design-patterns/iterator) is a functionality that moves incrementally along a group of values or *items*. That functionality can have subprocesses to initialize the iterator - one to get the current value the iterator is pointing to, as well as a subprocess to go to the next one.
+An [<VPIcon icon="fas fa-globe"/>iterator](https://refactoring.guru/design-patterns/iterator) is a functionality that moves incrementally along a group of values or *items*. That functionality can have subprocesses to initialize the iterator - one to get the current value the iterator is pointing to, as well as a subprocess to go to the next one.
 
 Also, remember that a for-loop stops repeating a workflow branch as soon as the condition evaluates to `false`.
 

@@ -390,7 +390,7 @@ Note that the width of the gradient is equal to `N+1` multiplied by the width of
 
 ## Conclusion
 
-I hope you enjoyed this tutorial. If you are interested, [<FontIcon icon="fas fa-globe"/>I have made more than 500 CSS-only single div loaders](https://css-loaders.com/). I also wrote another [tutorial to explain how to create the Dots loader using only background properties (<FontIcon icon="fa-brands fa-dev"/>`afif`)](https://dev.to/afif/build-your-css-loader-with-only-one-div-the-dots-3882).
+I hope you enjoyed this tutorial. If you are interested, [<VPIcon icon="fas fa-globe"/>I have made more than 500 CSS-only single div loaders](https://css-loaders.com/). I also wrote another [tutorial to explain how to create the Dots loader using only background properties (<VPIcon icon="fa-brands fa-dev"/>`afif`)](https://dev.to/afif/build-your-css-loader-with-only-one-div-the-dots-3882).
 
 Find below useful links to get more detail about some properties I have used that I didn't explain thoroughly due to their complexity:
 

@@ -293,7 +293,7 @@ When the code execution encounters a `throw` statement,
 
 - It stops the execution of the current code block immediately.
 - The control moves to the nearest catch block (if any).
-- If the catch block is not found, the error will not be caught. The error gets bubbled up, and may end up crashing the program. You can learn more in-depth about events and event bubbling from [<FontIcon icon="fa-brands fa-youtube"/>here](https://youtu.be/ybgI5vVE668).
+- If the catch block is not found, the error will not be caught. The error gets bubbled up, and may end up crashing the program. You can learn more in-depth about events and event bubbling from [<VPIcon icon="fa-brands fa-youtube"/>here](https://youtu.be/ybgI5vVE668).
 
 ### Rethrowing
 
@@ -491,7 +491,7 @@ Using the generic Error and its existing types, like ReferenceError, SyntaxError
 - More readable logs
 - The ability to handle multiple error cases conditionally.
 
-A custom error in JavaScript is a user-defined error type that extends the built-in Error class. The custom error should be an [<FontIcon icon="fa-brands fa-youtube"/>ES6 Class](https://youtu.be/kG5t34ciG9w) that extends JavaScript’s Error class. We can use the `super()` in the constructor function to inherit the message property of the Error class. You can optionally assign a name and clean the stack trace for the custom error.
+A custom error in JavaScript is a user-defined error type that extends the built-in Error class. The custom error should be an [<VPIcon icon="fa-brands fa-youtube"/>ES6 Class](https://youtu.be/kG5t34ciG9w) that extends JavaScript’s Error class. We can use the `super()` in the constructor function to inherit the message property of the Error class. You can optionally assign a name and clean the stack trace for the custom error.
 
 ```js
 class MyCustomError extends Error {
@@ -579,7 +579,7 @@ Hint: You can think of creating a Custom Error here.
 
 ## 40 Days of JavaScript Challenge Initiative
 
-There are 101 ways of learning something. But nothing can beat structured and progressive learning methodologies. After spending more than two decades in Software Engineering, I’ve been able to gather the best of JavaScript together to create the [<FontIcon icon="fa-brands fa-youtube"/>40 Days of JavaScript](https://youtube.com/playlist?list=PLIJrr73KDmRw2Fwwjt6cPC_tk5vcSICCu) challenge initiative.
+There are 101 ways of learning something. But nothing can beat structured and progressive learning methodologies. After spending more than two decades in Software Engineering, I’ve been able to gather the best of JavaScript together to create the [<VPIcon icon="fa-brands fa-youtube"/>40 Days of JavaScript](https://youtube.com/playlist?list=PLIJrr73KDmRw2Fwwjt6cPC_tk5vcSICCu) challenge initiative.
 
 Check it out if you want to learn JavaScript with fundamental concepts, projects, and assignments for free (forever). Focusing on the fundamentals of JavaScript will prepare you well for a future in web development.
 
@@ -591,9 +591,9 @@ That’s all! I hope you found this article insightful.
 
 Let’s connect:
 
-- Subscribe to my [YouTube Channel (<FontIcon icon="fa-brands fa-youtube"/>`tapasadhikary`)](https://youtube.com/tapasadhikary?sub_confirmation=1).
-- Follow on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`tapasadhikary`)](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
-- Check out and follow my open-source work on [GitHub (<FontIcon icon="iconfont icon-github"/>`atapas`)](https://github.com/atapas).
+- Subscribe to my [YouTube Channel (<VPIcon icon="fa-brands fa-youtube"/>`tapasadhikary`)](https://youtube.com/tapasadhikary?sub_confirmation=1).
+- Follow on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`tapasadhikary`)](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
+- Check out and follow my open-source work on [GitHub (<VPIcon icon="iconfont icon-github"/>`atapas`)](https://github.com/atapas).
     
 
 See you soon with my next article. Until then, please take care of yourself and keep learning.

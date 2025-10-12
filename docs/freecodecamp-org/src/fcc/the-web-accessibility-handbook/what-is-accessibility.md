@@ -57,6 +57,6 @@ What kind of disabilities should we consider? In broad terms:
 - Mobility Impairments: difficulty with physical movement(s)
 - Cognitive Impairments: like Dyslexia and ADHD
 
-People with visual impairments commonly use devices like [<FontIcon icon="fas fa-globe"/>screen readers](https://axesslab.com/what-is-a-screen-reader/) to visualise and understand a website’s content, for example. So a big part of web accessibility is designing a website that can be easily accessed by a screen reader.
+People with visual impairments commonly use devices like [<VPIcon icon="fas fa-globe"/>screen readers](https://axesslab.com/what-is-a-screen-reader/) to visualise and understand a website’s content, for example. So a big part of web accessibility is designing a website that can be easily accessed by a screen reader.
 
 There are various practices that you, as a developer, can follow to make a website accessible, which I’ll cover in this handbook.

@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756299743551/aa4a130
 
 Do you want to improve you JavaScript skills and create 3D web experiences?
 
-We just posted a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that is designed to help anyone master JavaScript and Three.js by building five impressive and practical projects. The goal of the course is to provide a tangible portfolio of work and a clear roadmap for getting started with Three.js.
+We just posted a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that is designed to help anyone master JavaScript and Three.js by building five impressive and practical projects. The goal of the course is to provide a tangible portfolio of work and a clear roadmap for getting started with Three.js.
 
 Each project is completely standalone, which means you can jump right to the topic that interests you most, whether that's creating fire effects or building a 3D globe. Bobby Roe developed this course. He has created many popular Three.js tutorials.
 
@@ -70,7 +70,7 @@ Here’s a look at the projects you’ll build in this series:
 - **Dynamic Particle Effects:** Learn to build effects like fire, smoke, and sparkles. You'll learn how to control the velocity, size, and color of particles over their lifespan to achieve different visual effects.
 - **Interactive Physics:** This project is all about making things collide and interact in a realistic way. Using the Rapier physics engine, you'll build a scene where objects respond to mouse controls and each other, with polished details like HDR lighting and custom colliders.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/tPkJLnDqAKk) (2-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/tPkJLnDqAKk) (2-hour watch).
 
 <VidStack src="youtube/tPkJLnDqAKk" />
 

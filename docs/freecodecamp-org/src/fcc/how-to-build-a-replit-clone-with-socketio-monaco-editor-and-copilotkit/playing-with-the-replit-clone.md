@@ -56,9 +56,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740064335866/a058fbf
   preview="https://freecodecamp.org/news/author/prankurpandeyy/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740064335866/a058fbf3-2d89-4e95-9d3b-07224f3985be.png"/>
 
-You can explore the live project via the following link and ask the chatbot to build something in React. [<FontIcon icon="fas fa-globe"/>Live Project Link](https://replit-mongodb.vercel.app/).
+You can explore the live project via the following link and ask the chatbot to build something in React. [<VPIcon icon="fas fa-globe"/>Live Project Link](https://replit-mongodb.vercel.app/).
 
-For a deeper understanding of the code, check out the GitHub repository here: [GitHub Repository (<FontIcon icon="iconfont icon-github"/>`prankurpandeyy/replit-mongodb`)](https://github.com/prankurpandeyy/replit-mongodb).
+For a deeper understanding of the code, check out the GitHub repository here: [GitHub Repository (<VPIcon icon="iconfont icon-github"/>`prankurpandeyy/replit-mongodb`)](https://github.com/prankurpandeyy/replit-mongodb).
 
 Also, here’s a screenshot showcasing its practical use. In this example, instead of manually creating project files, you can simply ask the **CopilotKit** chatbot to generate those files for you. You can then edit and play around with them.
 

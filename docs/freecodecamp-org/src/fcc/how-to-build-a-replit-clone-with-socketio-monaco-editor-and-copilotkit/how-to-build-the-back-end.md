@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740064335866/a058fbf
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1740064335866/a058fbf3-2d89-4e95-9d3b-07224f3985be.png"/>
 
-Before we start building the back end, you’ll need to put all important credentials into your <FontIcon icon="fas fa-file-lines"/>`.env` file, which should look like this:
+Before we start building the back end, you’ll need to put all important credentials into your <VPIcon icon="fas fa-file-lines"/>`.env` file, which should look like this:
 
 ```sh title=".env"
 NEXT_PUBLIC_GROQ_CLOUD_API_KEY=<your-key-here>
@@ -80,7 +80,7 @@ Open your Next.js app in any code editor
 
 ![I prefer VSCode—and go to the root folder, which looks like this:](https://cdn.hashnode.com/res/hashnode/image/upload/v1738858655371/f648cb98-62a0-4bdd-9d03-994c7bbf758f.png)
 
-Inside the <FontIcon icon="fas fa-folder-open"/>`app` folder, make a new folder called <FontIcon icon="fas fa-folder-open"/>`api`. Inside the API folder, make another folder called <FontIcon icon="fas fa-folder-open"/>`copilotkit`. Then in there, make a new file called <FontIcon icon="fa-brands fa-js"/>`route.js` and paste this code inside the file:
+Inside the <VPIcon icon="fas fa-folder-open"/>`app` folder, make a new folder called <VPIcon icon="fas fa-folder-open"/>`api`. Inside the API folder, make another folder called <VPIcon icon="fas fa-folder-open"/>`copilotkit`. Then in there, make a new file called <VPIcon icon="fa-brands fa-js"/>`route.js` and paste this code inside the file:
 
 ```jsx :collapsed-lines title="app/api/copilotkit/route.js"
 import {
@@ -264,7 +264,7 @@ export default Button;
 
 So far, we've covered how to integrate CopilotKit into the backend. Now, we need to handle file operations, so we'll create another route to manage files with the database.
 
-To develop the backend for file handling, I'll create a new folder inside the API folder and name it `files`. Inside the `files` folder, I’ll create a simple <FontIcon icon="fa-brands fa-react"/>`route.tsx` file. Here’s the code I’ll be using inside the file:
+To develop the backend for file handling, I'll create a new folder inside the API folder and name it `files`. Inside the `files` folder, I’ll create a simple <VPIcon icon="fa-brands fa-react"/>`route.tsx` file. Here’s the code I’ll be using inside the file:
 
 ```tsx :collapsed-lines title="app/api/files/route.tsx"
 import { NextResponse } from "next/server";
@@ -577,7 +577,7 @@ curl -X DELETE http://localhost:3000/api/files \
 
 ## Creating MongoDB Schemas
 
-Now, create a <FontIcon icon="fas fa-folder-open"/>`lib` folder inside the <FontIcon icon="fas fa-folder-open"/>`app` folder. This <FontIcon icon="fas fa-folder-open"/>`lib` folder will handle essential database tasks, such as database schema and connectivity. Inside the <FontIcon icon="fas fa-folder-open"/>`lib` folder, create another folder named <FontIcon icon="fas fa-folder-open"/>`models`. Within this <FontIcon icon="fas fa-folder-open"/>`models` folder, create a new file called <FontIcon icon="fa-brands fa-js"/>`File.js` and paste the following code into it.
+Now, create a <VPIcon icon="fas fa-folder-open"/>`lib` folder inside the <VPIcon icon="fas fa-folder-open"/>`app` folder. This <VPIcon icon="fas fa-folder-open"/>`lib` folder will handle essential database tasks, such as database schema and connectivity. Inside the <VPIcon icon="fas fa-folder-open"/>`lib` folder, create another folder named <VPIcon icon="fas fa-folder-open"/>`models`. Within this <VPIcon icon="fas fa-folder-open"/>`models` folder, create a new file called <VPIcon icon="fa-brands fa-js"/>`File.js` and paste the following code into it.
 
 This version simplifies the instructions and improves clarity while maintaining the original meaning.
 
@@ -645,7 +645,7 @@ This code defines a Mongoose schema and model for a File document in MongoDB. He
 
 ## Connecting to database
 
-Half of the work is done! Now, it’s time to connect our app to the database. To do this, I’ll create a new file inside the <FontIcon icon="fas fa-folder-open"/>`lib` folder, where we previously created the database schema. I’ll name the file <FontIcon icon="fa-brands fa-react"/>`mongodb.tsx` and paste the following code inside it:
+Half of the work is done! Now, it’s time to connect our app to the database. To do this, I’ll create a new file inside the <VPIcon icon="fas fa-folder-open"/>`lib` folder, where we previously created the database schema. I’ll name the file <VPIcon icon="fa-brands fa-react"/>`mongodb.tsx` and paste the following code inside it:
 
 ```ts :collapsed-lines title="app/lib/mongodb.tsx"
 import mongoose, { Schema, Model, Connection } from "mongoose";
@@ -754,7 +754,7 @@ This code sets up a MongoDB connection and defines a Mongoose schema and model f
 
 ## Ensuring type safety
 
-Since we are using TypeScript, we will have to declare the file type `files` , `socket` and an `index`. To do so, create a new folder in root directory of the project and name it `types` and make three files <FontIcon icon="iconfont icon-typescript"/>`socket.ts` ,<FontIcon icon="iconfont icon-typescript"/>`files.ts` and <FontIcon icon="iconfont icon-typescript"/>`index.ts` inside the folder. Inside each file, paste the given code for their respective file.
+Since we are using TypeScript, we will have to declare the file type `files` , `socket` and an `index`. To do so, create a new folder in root directory of the project and name it `types` and make three files <VPIcon icon="iconfont icon-typescript"/>`socket.ts` ,<VPIcon icon="iconfont icon-typescript"/>`files.ts` and <VPIcon icon="iconfont icon-typescript"/>`index.ts` inside the folder. Inside each file, paste the given code for their respective file.
 
 ```ts title="index.ts"
 export interface IFile {

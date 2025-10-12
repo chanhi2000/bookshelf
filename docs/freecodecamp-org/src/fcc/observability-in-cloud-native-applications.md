@@ -88,7 +88,7 @@ I had the same questions when I started learning about cloud-native technologies
 
 ## My Introduction to Cloud Native Technologies
 
-I recently got selected as a mentee for the Linux Foundation Mentorship to work on the [<FontIcon icon="fas fa-globe"/>CNCF - Prometheus project](https://mentorship.lfx.linuxfoundation.org/project/36e3f336-ce78-4074-b833-012015eb59be). The project is UX-focused, and for the next few months, I'll be working with my mentors to understand how users expect to use OpenTelemetry Line Protocol (OTLP) Resource Attributes in Prometheus.
+I recently got selected as a mentee for the Linux Foundation Mentorship to work on the [<VPIcon icon="fas fa-globe"/>CNCF - Prometheus project](https://mentorship.lfx.linuxfoundation.org/project/36e3f336-ce78-4074-b833-012015eb59be). The project is UX-focused, and for the next few months, I'll be working with my mentors to understand how users expect to use OpenTelemetry Line Protocol (OTLP) Resource Attributes in Prometheus.
 
 That's quite a mouthful, I know. I was overwhelmed at first, and honestly, I’m still figuring it out. This is my third week, and although I still have a lot to learn—given that I had no knowledge of cloud native technologies when I applied for this internship—I've already learned quite a bit.
 
@@ -153,7 +153,7 @@ Observability tools give you visibility into what’s going on within your appli
 
 ### Prometheus
 
-[<FontIcon icon="iconfont icon-prometheus"/>Prometheus](https://prometheus.io/) is an open-source monitoring and alerting toolkit. It does two things:
+[<VPIcon icon="iconfont icon-prometheus"/>Prometheus](https://prometheus.io/) is an open-source monitoring and alerting toolkit. It does two things:
 
 - Collects data from applications, specifically metrics (remember the data types we talked about earlier)
 - and stores them in a time-series database.
@@ -164,7 +164,7 @@ Prometheus uses what's called a **pull-based model** to collect metrics from app
 
 ### OpenTelemetry
 
-[<FontIcon icon="fas fa-globe"/>OpenTelemetry (OTel)](https://opentelemetry.io/) collects, processes, and exports observability data. Unlike Prometheus, which mainly focuses on metrics, OpenTelemetry provides a standardized way to instrument applications for all three types of observability data: logs, metrics, and traces.
+[<VPIcon icon="fas fa-globe"/>OpenTelemetry (OTel)](https://opentelemetry.io/) collects, processes, and exports observability data. Unlike Prometheus, which mainly focuses on metrics, OpenTelemetry provides a standardized way to instrument applications for all three types of observability data: logs, metrics, and traces.
 
 OpenTelemetry is designed to be vendor-agnostic. This means you can instrument your applications once with OpenTelemetry and then send that telemetry data to any supported observability backend, which could be an open-source solution like Jaeger or Prometheus, or commercial platforms like Datadog, New Relic, Dynatrace, or Honeycomb.
 
@@ -195,7 +195,7 @@ These attributes tell you exactly which service, which version, and in which env
 
 Resource attributes are not arbitrary. OpenTelemetry provides a standardized set of attribute names and formats that everyone should follow, similar to having an agreed-upon language for describing services and their properties.
 
-For example, OpenTelemetry specifies that you should use `service.name` (not `app_name` or `service_id`) to identify your service. They've created these standardized naming conventions (called [<FontIcon icon="fas fa-globe"/>semantic conventions](https://opentelemetry.io/docs/concepts/semantic-conventions/)) so that:
+For example, OpenTelemetry specifies that you should use `service.name` (not `app_name` or `service_id`) to identify your service. They've created these standardized naming conventions (called [<VPIcon icon="fas fa-globe"/>semantic conventions](https://opentelemetry.io/docs/concepts/semantic-conventions/)) so that:
 
 1. All tools in the ecosystem can understand the same attributes
 2. Engineers across different companies use consistent terminology

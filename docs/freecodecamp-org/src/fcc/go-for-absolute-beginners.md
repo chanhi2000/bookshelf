@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719850928140/5e7216e
 
 Are you looking to dive into a new programming language that is both powerful and efficient? Go, also known as Golang, is a modern language that has quickly become a favorite among developers for its simplicity and performance. Whether you're a seasoned developer looking to expand your skill set or a beginner eager to learn a versatile language, this course has something for you.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about the fundamentals of Go by building a full stack payment application. This course, developed by Georgio Tunson, is designed to take you from the basics to more advanced concepts, ensuring you gain a solid understanding of Go while working on a practical project.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about the fundamentals of Go by building a full stack payment application. This course, developed by Georgio Tunson, is designed to take you from the basics to more advanced concepts, ensuring you gain a solid understanding of Go while working on a practical project.
 
 ![Go gopher typing on computer.](https://cdn.hashnode.com/res/hashnode/image/upload/v1719850975110/5005f20b-e7f9-4227-85cf-b3529c1b30bd.gif)
 
@@ -67,7 +67,7 @@ Finally, the course brings everything together by connecting the frontend and ba
 
 By following this course, you'll not only learn the ins and outs of Go but also gain hands-on experience in full stack development. This practical approach ensures that you can apply what you've learned to real-world projects, enhancing your coding skills and making you a more versatile developer.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/akosxcqJorU) (5-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/akosxcqJorU) (5-hour watch).
 
 <VidStack src="youtube/akosxcqJorU" />
 

@@ -269,7 +269,7 @@ Remember that with great power comes great responsibility. Use magic methods jud
 
 ### Further Reading
 
-If you enjoyed this article, you might find these Python-related articles on my [<FontIcon icon="fas fa-globe"/>personal blog](https://wewake.dev) useful:
+If you enjoyed this article, you might find these Python-related articles on my [<VPIcon icon="fas fa-globe"/>personal blog](https://wewake.dev) useful:
 
 ```component VPCard
 {

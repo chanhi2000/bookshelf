@@ -116,7 +116,7 @@ To make things clear, we are going to use a simple „Sum Calculator“ example,
 
 ::: info
 
-To download the source code for this project, check out the [Liskov Substitution Principle Project Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/liskov-substitution-principle).
+To download the source code for this project, check out the [Liskov Substitution Principle Project Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/liskov-substitution-principle).
 
 <SiteInfo
   name="CodeMazeBlog/solid-principles-csharp at liskov-substitution-principle"

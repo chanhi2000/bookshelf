@@ -99,7 +99,7 @@ In this hands-on tutorial, you’ll build linked lists from scratch in TypeScrip
 
 To get started with this tutorial, you’ll use a playground project designed to help you implement linked lists and follow each step hands-on.
 
-Clone the project from the [GitHub repository (<FontIcon icon="iconfont icon-github"/>`Yazdun/fcc-linked-list`)](https://github.com/Yazdun/fcc-linked-list) and code along with the tutorial.
+Clone the project from the [GitHub repository (<VPIcon icon="iconfont icon-github"/>`Yazdun/fcc-linked-list`)](https://github.com/Yazdun/fcc-linked-list) and code along with the tutorial.
 
 The project structure is as follows:
 
@@ -162,7 +162,7 @@ To start building a singly linked list, you need a `Node` structure that holds t
 - **data**: Stores the node’s value.
 - **Next pointer**: Links to the next node in the list or `null` if there’s no next node.
 
-Open <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`singly.ts`, where you'll find a class named `N`. Change it to the following code to set up the node structure:
+Open <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`singly.ts`, where you'll find a class named `N`. Change it to the following code to set up the node structure:
 
 ```ts title="src/playground/singly.ts"
 class N<T> {
@@ -180,7 +180,7 @@ class N<T> {
 
 Here’s how the node structure works:
 
-1. Builds a [<FontIcon icon="iconfont icon-typescript"/>generic](https://typescriptlang.org/fr/docs/handbook/2/generics.html) `Node`: Uses `<T>` to handle any data type.
+1. Builds a [<VPIcon icon="iconfont icon-typescript"/>generic](https://typescriptlang.org/fr/docs/handbook/2/generics.html) `Node`: Uses `<T>` to handle any data type.
 2. Stores the node’s value: Assigns the value to the `data` property.
 3. Link to the next node: Sets the `next` pointer to the next node or `null` if there isn't one.
 4. Initializes the node: Takes a value in the constructor and assigns it to `data`.
@@ -191,7 +191,7 @@ Now, you can use the `N` class to create nodes in your singly linked list.
 
 Let's use the Node class you just created to build your singly linked list.
 
-Open <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`singly.ts` where you'll find the `SinglyLinkedList` class with a `head` pointer and several methods:
+Open <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`singly.ts` where you'll find the `SinglyLinkedList` class with a `head` pointer and several methods:
 
 ```ts :collapsed-lines title="src/playground/singly.ts"
 class N<T> {
@@ -257,7 +257,7 @@ With this knowledge, you're ready to start working on the operations.
 
 The goal is to add a new node to the beginning of your singly linked list and update the `head` pointer to this new node.
 
-Modify the `prepend` method in your `SinglyLinkedList` class in <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`singly.ts`:
+Modify the `prepend` method in your `SinglyLinkedList` class in <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`singly.ts`:
 
 ```ts title="src/playground/singly.ts"
 prepend(data: T): void {
@@ -669,7 +669,7 @@ After you finish the implementation, run the following command to test your sing
 npm run test:file singly
 ```
 
-If any tests fail, you can use <FontIcon icon="fas fa-folder-open"/>`src/examples/`<FontIcon icon="iconfont icon-typescript"/>`singly.ts` to find and fix the issue, and then run the tests again.
+If any tests fail, you can use <VPIcon icon="fas fa-folder-open"/>`src/examples/`<VPIcon icon="iconfont icon-typescript"/>`singly.ts` to find and fix the issue, and then run the tests again.
 
 That's it! You've successfully built a linked list and learned how to create nodes that point to the next node and perform operations on them.
 
@@ -699,7 +699,7 @@ The Node structure in a doubly linked list consists of three parts:
 - **Next pointer**: Links to the next node in the list or `null` if there’s no next node.
 - **Previous pointer**: Links to the previous node in the list or `null` if there’s no previous node.
 
-Open <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`doubly.ts` and modify the `N` class with the following code to set up the node structure:
+Open <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`doubly.ts` and modify the `N` class with the following code to set up the node structure:
 
 ```ts title="src/playground/doubly.ts"
 export class N<T> {
@@ -717,7 +717,7 @@ export class N<T> {
 
 Here’s how the node structure works:
 
-- It builds a [<FontIcon icon="iconfont icon-typescript"/>generic](https://typescriptlang.org/fr/docs/handbook/2/generics.html) `Node`: Uses `<T>` to handle any data type, such as numbers or strings.
+- It builds a [<VPIcon icon="iconfont icon-typescript"/>generic](https://typescriptlang.org/fr/docs/handbook/2/generics.html) `Node`: Uses `<T>` to handle any data type, such as numbers or strings.
 - It stores the node’s value: Assigns the value to the `data` property.
 - It links to the next node: Sets the `next` pointer to the next node or `null` if there isn’t one.
 - It links to the previous node: Sets the `prev` pointer to the previous node or `null` if there isn’t one.
@@ -728,7 +728,7 @@ Then, the `constructor` sets the `data` when you create a new node.
 
 Now that the Node class is ready, you can start building the actual list.
 
-Open <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`doubly.ts` and take a look at the `DoublyLinkedList` class:
+Open <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`doubly.ts` and take a look at the `DoublyLinkedList` class:
 
 ```ts :collapsed-lines title="src/playground/doubly.ts"
 export class N<T> {
@@ -812,7 +812,7 @@ Now, let's move on to the next section and see how you can add a node to your do
 
 The goal is to add a new node to the beginning of your doubly linked list and update the `head` pointer to this new node.
 
-Modify the `prepend` method in your `DoublyLinkedList` class located in <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`doubly.ts`:
+Modify the `prepend` method in your `DoublyLinkedList` class located in <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`doubly.ts`:
 
 ```ts title="src/playground/doubly.ts"
 prepend(data: T): void {
@@ -1344,7 +1344,7 @@ Run the following command to make sure that your implementation is correct:
 npm run test:file doubly
 ```
 
-If the tests run successfully, you're good to go! If any tests fail, check <FontIcon icon="fas fa-folder-open"/>`src/examples/`<FontIcon icon="iconfont icon-typescript"/>`doubly.ts`, fix the issue, and run the tests again.
+If the tests run successfully, you're good to go! If any tests fail, check <VPIcon icon="fas fa-folder-open"/>`src/examples/`<VPIcon icon="iconfont icon-typescript"/>`doubly.ts`, fix the issue, and run the tests again.
 
 You've learned how to implement a linked node with two pointers. Doubly linked lists are useful in many scenarios, but like singly linked lists, they have a limitation you need to consider.
 
@@ -1389,7 +1389,7 @@ The `Node` structure in a circular singly linked list has two parts: the data an
 
 The `data` property holds the node's value, and `next` points to the next node in the list.
 
-Open <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`circular-1.ts` and modify the `N` class:
+Open <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`circular-1.ts` and modify the `N` class:
 
 ```ts title="src/playground/circular-1.ts"
 /** Node for circular singly linked list */
@@ -1409,7 +1409,7 @@ export class N<T> {
 
 Here’s how the node structure works:
 
-- It builds a [<FontIcon icon="iconfont icon-typescript"/>generic](https://typescriptlang.org/fr/docs/handbook/2/generics.html) Node: Uses `<T>` to handle any data type, such as numbers or strings.
+- It builds a [<VPIcon icon="iconfont icon-typescript"/>generic](https://typescriptlang.org/fr/docs/handbook/2/generics.html) Node: Uses `<T>` to handle any data type, such as numbers or strings.
 - It stores the node’s value: Assigns the value to the data property.
 - It links to the next node: Sets the `next` pointer to the next node, `null` only during initialization. In a valid circular list, next always connects to a node.
 - It initializes the node: Takes a value in the constructor and assigns it to data.
@@ -1420,7 +1420,7 @@ In a valid circular linked list, `next` never stays `null`.
 
 Once you have created your Node structure, you can start implementing the linked list.
 
-To get started, let’s open <FontIcon icon="fas fa-folder-open"/>`src/playground/circular-1.ts`, where you'll find the `CircularSinglyLinkedList` class:
+To get started, let’s open <VPIcon icon="fas fa-folder-open"/>`src/playground/circular-1.ts`, where you'll find the `CircularSinglyLinkedList` class:
 
 ```ts :collapsed-lines title="src/playground/circular-1.ts"
 export class N<T> {
@@ -1480,7 +1480,7 @@ Now, let's go to the first method and learn how to add a node to the start of a 
 
 The goal is to add a new node to the beginning of your circular singly linked list and update the head pointer to this new node.
 
-Modify the prepend method in your `CircularSinglyLinkedList` class located in <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`circular-singly.ts`:
+Modify the prepend method in your `CircularSinglyLinkedList` class located in <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`circular-singly.ts`:
 
 ```ts title="src/playground/circular-singly.ts"
 prepend(data: T) {
@@ -2043,7 +2043,7 @@ Now, let’s run the following command to test the linked list:
 npm run test:file circular-1
 ```
 
-If the tests run successfully, you're all set! If any tests fail, check <FontIcon icon="fas fa-folder-open"/>`src/examples/`<FontIcon icon="iconfont icon-typescript"/>`circular-1.ts`, fix the issue, and run the tests again.
+If the tests run successfully, you're all set! If any tests fail, check <VPIcon icon="fas fa-folder-open"/>`src/examples/`<VPIcon icon="iconfont icon-typescript"/>`circular-1.ts`, fix the issue, and run the tests again.
 
 That's it, you've completed your first circular linked list implementation.
 
@@ -2065,7 +2065,7 @@ The `Node` structure in a circular doubly linked list has three parts: the data,
 
 The `data` property holds the node’s value, `next` points to the next node, and `prev` points to the previous node in the list.
 
-Open <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`circular-2.ts` and modify the `N` class:
+Open <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`circular-2.ts` and modify the `N` class:
 
 ```ts title="src/playground/circular-2.ts"
 /** Node for circular doubly linked list */
@@ -2088,7 +2088,7 @@ export class N<T> {
 
 Here’s how the node structure works:
 
-- It builds a [<FontIcon icon="iconfont icon-typescript"/>generic](https://typescriptlang.org/fr/docs/handbook/2/generics.html) `Node`: Uses `<T>` to handle any data type.
+- It builds a [<VPIcon icon="iconfont icon-typescript"/>generic](https://typescriptlang.org/fr/docs/handbook/2/generics.html) `Node`: Uses `<T>` to handle any data type.
 - It stores the node’s value: Assigns the value to the `data` property.
 - It links to the next node: Sets the `next` pointer to the next node, `null` only during initialization. In a valid circular list, `next` always connects to a node.
 - It links to the previous node: Sets the `prev` pointer to the previous node, `null` only during initialization. In a valid circular list, `prev` always connects to a node.
@@ -2098,7 +2098,7 @@ In a valid circular doubly linked list, `next` and `prev` never stay `null`.
 
 ### How to Implement a Circular Doubly Linked List
 
-You’ve created the `Node` structure for your circular doubly linked list. Now, you can start building the linked list itself. To get started, open <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`circular-2.ts`, where you’ll find the `CircularDoublyLinkedList` class:
+You’ve created the `Node` structure for your circular doubly linked list. Now, you can start building the linked list itself. To get started, open <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`circular-2.ts`, where you’ll find the `CircularDoublyLinkedList` class:
 
 ```ts :collapsed-lines title="src/playground/circular-2.ts"
 export class N<T> {
@@ -2182,7 +2182,7 @@ Now, let’s move to the first method and learn how to add a node to the start o
 
 The goal is to add a new node to the beginning of your circular doubly linked list and update the head pointer to this new node.
 
-Modify the prepend method in your `CircularDoublyLinkedList` class located in <FontIcon icon="fas fa-folder-open"/>`src/playground/`<FontIcon icon="iconfont icon-typescript"/>`circular-2.ts`:
+Modify the prepend method in your `CircularDoublyLinkedList` class located in <VPIcon icon="fas fa-folder-open"/>`src/playground/`<VPIcon icon="iconfont icon-typescript"/>`circular-2.ts`:
 
 ```ts title="src/playground/circular-2.ts"
 prepend(data: T): void {
@@ -2739,7 +2739,7 @@ Run the following command to test the linked list:
 npm run test:file circular-2
 ```
 
-If the tests pass successfully, you’re all set! If any tests fail, review <FontIcon icon="fas fa-folder-open"/>`src/examples/`<FontIcon icon="iconfont icon-typescript"/>`circular-2.ts`, fix the issues, and run the tests again.
+If the tests pass successfully, you’re all set! If any tests fail, review <VPIcon icon="fas fa-folder-open"/>`src/examples/`<VPIcon icon="iconfont icon-typescript"/>`circular-2.ts`, fix the issues, and run the tests again.
 
 ---
 
@@ -2796,7 +2796,7 @@ Congratulations on finishing this handbook! 🥳 You've learned how to implement
 
 By understanding these linked lists, you're well-prepared to work with more complex data structures.
 
-Thanks for following along with this tutorial. You can follow me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`Yazdun`)](https://x.com/Yazdun), where I share more useful tips on data structures and web development.
+Thanks for following along with this tutorial. You can follow me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`Yazdun`)](https://x.com/Yazdun), where I share more useful tips on data structures and web development.
 
 Happy coding!
 

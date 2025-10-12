@@ -96,7 +96,7 @@ The `fetchArticles()` function accesses the URLs, extracts and processes the HTM
 
 The `HomePage` component is a client side component that has another component in it, named `HomeClient`. This `HomeClient` is a client side component. It has to be because it has useState hooks.
 
-But the `HomePage` component calls the `fetchArticles()` function and sets the `articles` constant (which is an array of `Article` objects, as defined by the interface in the <FontIcon icon="fa-brands fa-react"/>`ArticleCard.tsx` file). The `articles` constant is then passed down to the `HomeClient` component as a prop.
+But the `HomePage` component calls the `fetchArticles()` function and sets the `articles` constant (which is an array of `Article` objects, as defined by the interface in the <VPIcon icon="fa-brands fa-react"/>`ArticleCard.tsx` file). The `articles` constant is then passed down to the `HomeClient` component as a prop.
 
 ![The HomePage component, and its child component, HomeClient.](https://cdn.hashnode.com/res/hashnode/image/upload/v1746881308147/1fedcbb0-f9d4-47dd-afea-b7f231595a58.png)
 
@@ -184,7 +184,7 @@ Here, the `filtered` constant is equal to the filtered values of `articles`.
 const filtered = articles.filter();
 ```
 
-Inside the [<FontIcon icon="fa-brands fa-firefox"/>filter method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) is where the arrow function with the logic for filtering is written - `(article) => {//logic}`. We have two constants: `tagMatch` and `searchMatch`. The `searchMatch` constant is true when the title, description, tags, site name, or published date includes the search term. Else, it's false. The `tagMatch` constant is true when any tag from the article's array of tag is present in the tag list, and also has a corresponding `isActive` value of true.
+Inside the [<VPIcon icon="fa-brands fa-firefox"/>filter method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) is where the arrow function with the logic for filtering is written - `(article) => {//logic}`. We have two constants: `tagMatch` and `searchMatch`. The `searchMatch` constant is true when the title, description, tags, site name, or published date includes the search term. Else, it's false. The `tagMatch` constant is true when any tag from the article's array of tag is present in the tag list, and also has a corresponding `isActive` value of true.
 
 If any tag at all is active, then the results for both `tagMatch` and `searchMatch` are returned, but if no tag at all is active, then only the `searchMatch` is returned as true.
 
@@ -246,13 +246,13 @@ npm install cheerio
 
 The title is what shows up at the top of your browser tab when you open up the website. Right now, it should be showing 'Create Next App.' We don't want that.
 
-Since this is not just HTML, there is no <FontIcon icon="fa-brands fa-html5"/>`index.html` to change the title in the header element. Rather, Next.js provides us a `Metadata` object we can use to change things like that. And it'll be in the <FontIcon icon="fa-brands fa-react"/>`layout.tsx` file in the <FontIcon icon="fas fa-folder-open"/>`app` or <FontIcon icon="fas fa-folder-open"/>`src` folder. Head over there and change it to whatever you want the title to be. I’m using “Chidiadi Portfolio Blog”.
+Since this is not just HTML, there is no <VPIcon icon="fa-brands fa-html5"/>`index.html` to change the title in the header element. Rather, Next.js provides us a `Metadata` object we can use to change things like that. And it'll be in the <VPIcon icon="fa-brands fa-react"/>`layout.tsx` file in the <VPIcon icon="fas fa-folder-open"/>`app` or <VPIcon icon="fas fa-folder-open"/>`src` folder. Head over there and change it to whatever you want the title to be. I’m using “Chidiadi Portfolio Blog”.
 
 ![Changing metadata](https://cdn.hashnode.com/res/hashnode/image/upload/v1746882205569/b652a7de-00b7-4f0d-943c-4f80a62a7f91.png)
 
 ### 4. Create the necessary components
 
-Navigate to the side panel, and under the <FontIcon icon="fas fa-folder-open"/>`src` folder, create a components folder. This is where the components will live. Here, create the article card, footer, main body and nav bar.
+Navigate to the side panel, and under the <VPIcon icon="fas fa-folder-open"/>`src` folder, create a components folder. This is where the components will live. Here, create the article card, footer, main body and nav bar.
 
 ![Components folder](https://cdn.hashnode.com/res/hashnode/image/upload/v1746882335350/69d1f7ed-ea67-47e7-8b0a-e25429190a3e.png)
 
@@ -508,9 +508,9 @@ Our fail-safe here is an empty array of six objects with the Tailwind `animate-p
 )))
 ```
 
-I could have made this part much better, but I was feeling a little lazy. I also used the `Image` from Next, instead of the regular `img`. This requires that you edit the <FontIcon icon="iconfont icon-typescript"/>`next.config.ts` file. I had to go add all the paths that the images could possibly be loaded from:
+I could have made this part much better, but I was feeling a little lazy. I also used the `Image` from Next, instead of the regular `img`. This requires that you edit the <VPIcon icon="iconfont icon-typescript"/>`next.config.ts` file. I had to go add all the paths that the images could possibly be loaded from:
 
-![<FontIcon icon="iconfont icon-typescript"/>`next.config.ts`](https://cdn.hashnode.com/res/hashnode/image/upload/v1746882422600/e3ad4762-1199-4276-a524-d27519a37c52.png)
+![<VPIcon icon="iconfont icon-typescript"/>`next.config.ts`](https://cdn.hashnode.com/res/hashnode/image/upload/v1746882422600/e3ad4762-1199-4276-a524-d27519a37c52.png)
 
 Just like in the screenshot above, the syntax is:
 
@@ -562,9 +562,9 @@ This `new Date().getFullYear()` helps me get the current year all the time.
 
 ### 5. Place the components properly
 
-The nav bar and footer components are things that will not change no matter the page you visit. So they should be placed in a more permanent and untouched location. We can put both of them in the root <FontIcon icon="fa-brands fa-react"/>`layout.tsx` file like this:
+The nav bar and footer components are things that will not change no matter the page you visit. So they should be placed in a more permanent and untouched location. We can put both of them in the root <VPIcon icon="fa-brands fa-react"/>`layout.tsx` file like this:
 
-![<FontIcon icon="fa-brands fa-react"/>`layout.tsx` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1746882493175/3d7381ca-48c6-43c1-becc-8692c6b090c4.png)
+![<VPIcon icon="fa-brands fa-react"/>`layout.tsx` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1746882493175/3d7381ca-48c6-43c1-becc-8692c6b090c4.png)
 
 ```tsx
 <body className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}>
@@ -574,9 +574,9 @@ The nav bar and footer components are things that will not change no matter the 
 </body>
 ```
 
-`{children}` is where the contents from <FontIcon icon="fa-brands fa-react"/>`page.tsx` will enter. So, we sandwiched all the other content in the Nav bar and footer. Apart from adding `<link />` tags for fonts (because this is where the root HTML is), we really don't have business with this file again.
+`{children}` is where the contents from <VPIcon icon="fa-brands fa-react"/>`page.tsx` will enter. So, we sandwiched all the other content in the Nav bar and footer. Apart from adding `<link />` tags for fonts (because this is where the root HTML is), we really don't have business with this file again.
 
-Now, in the same <FontIcon icon="fas fa-folder-open"/>`app/` folder where this layout file is, create the `<HomeClient />` file. This is how it looks:
+Now, in the same <VPIcon icon="fas fa-folder-open"/>`app/` folder where this layout file is, create the `<HomeClient />` file. This is how it looks:
 
 ```tsx title="HomeClient.tsx"
 'use client';
@@ -603,7 +603,7 @@ export default function HomeClient({ initialArticles }: Props) {
 }
 ```
 
-Then, put the `HomeClient` component inside the <FontIcon icon="fa-brands fa-react"/>`page.tsx` file:
+Then, put the `HomeClient` component inside the <VPIcon icon="fa-brands fa-react"/>`page.tsx` file:
 
 ```tsx title="page.tsx"
 import { fetchArticles } from '../utils/fetchArticles';
@@ -622,7 +622,7 @@ The server is set to fetch the articles at build time, and fetch again (revalida
 
 Initially, it worked by fetching any time the component was mounted, but I noticed that this caused the page to load very slowly. The articles didn't pop-up on time, because there's a lot of fetching to be done.
 
-In that same <FontIcon icon="fas fa-folder-open"/>`app/` directory, create an <FontIcon icon="fas fa-folder-open"/>`about/` folder, and create the <FontIcon icon="fa-brands fa-react"/>`page.tsx` for that route:
+In that same <VPIcon icon="fas fa-folder-open"/>`app/` directory, create an <VPIcon icon="fas fa-folder-open"/>`about/` folder, and create the <VPIcon icon="fa-brands fa-react"/>`page.tsx` for that route:
 
 ```tsx :collapsed-lines title="page.tsx"
 import Image from "next/image";
@@ -665,13 +665,13 @@ export default function About() {
 }
 ```
 
-### 6. Create the <FontIcon icon="fas fa-folder-open"/>`utils` folder and all the functions
+### 6. Create the <VPIcon icon="fas fa-folder-open"/>`utils` folder and all the functions
 
 The next step is to create all these files.
 
-![<FontIcon icon="fas fa-folder-open"/>`utils` folder](https://cdn.hashnode.com/res/hashnode/image/upload/v1746947058303/01b6fd3d-3666-46fe-8928-1ad5b1532625.png)
+![<VPIcon icon="fas fa-folder-open"/>`utils` folder](https://cdn.hashnode.com/res/hashnode/image/upload/v1746947058303/01b6fd3d-3666-46fe-8928-1ad5b1532625.png)
 
-Under the same <FontIcon icon="fas fa-folder-open"/>`app/` directory, create the <FontIcon icon="fas fa-folder-open"/>`utils/` folder. <FontIcon icon="fas fa-folder-open"/>`app/utils/`. Then start with the `fetchArticles()` function. The `fetchArticles()` function is what accesses the API route in the project to obtain the array of Article objects from an array of URLs. The `fetchArticles()` function returns an array of those objects which are then stored in the `articles` variable. It looks like this:
+Under the same <VPIcon icon="fas fa-folder-open"/>`app/` directory, create the <VPIcon icon="fas fa-folder-open"/>`utils/` folder. <VPIcon icon="fas fa-folder-open"/>`app/utils/`. Then start with the `fetchArticles()` function. The `fetchArticles()` function is what accesses the API route in the project to obtain the array of Article objects from an array of URLs. The `fetchArticles()` function returns an array of those objects which are then stored in the `articles` variable. It looks like this:
 
 ```tsx :collapsed-lines
 import { getPublishedDate } from './getPublishedDate';
@@ -768,7 +768,7 @@ export async function fetchArticles(): Promise<Article[]> {
 }
 ```
 
-It maps through the articles in the articleFile, which is the JSON file with an array of objects with article URLs. For each of them, it sends a request to the URL, and from the data gotten, returns an Article object. Then, the array of objects created, `results`, is first filtered to remove null objects, and [<FontIcon icon="fa-brands fa-firefox"/>sorted](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) in descending order by their date properties. So, the latest article shows up first.
+It maps through the articles in the articleFile, which is the JSON file with an array of objects with article URLs. For each of them, it sends a request to the URL, and from the data gotten, returns an Article object. Then, the array of objects created, `results`, is first filtered to remove null objects, and [<VPIcon icon="fa-brands fa-firefox"/>sorted](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) in descending order by their date properties. So, the latest article shows up first.
 
 It’s then assigned in the `HomeClient` component:
 
@@ -776,7 +776,7 @@ It’s then assigned in the `HomeClient` component:
 const articles = await fetchArticles();
 ```
 
-In the `fetchArticles()` code above, you can see that some other functions were used to extract the properties from the URLs, and assign them. Also, during deployment, I found that Substack couldn’t be accessed by the server, so I’m going to add code to allow creation of Article objects from an RSS feed. That will be in the [project repository (<FontIcon icon="iconfont icon-github"/>`chidiadi01/simple-writer-portfolio`)](https://github.com/chidiadi01/simple-writer-portfolio/tree/main/01-simple-blog).
+In the `fetchArticles()` code above, you can see that some other functions were used to extract the properties from the URLs, and assign them. Also, during deployment, I found that Substack couldn’t be accessed by the server, so I’m going to add code to allow creation of Article objects from an RSS feed. That will be in the [project repository (<VPIcon icon="iconfont icon-github"/>`chidiadi01/simple-writer-portfolio`)](https://github.com/chidiadi01/simple-writer-portfolio/tree/main/01-simple-blog).
 
 Now, let's talk about the other functions.
 
@@ -942,15 +942,15 @@ export function getPublishedDate(data: any): string {
 }
 ```
 
-This function is especially useful because of the need to convert the date from the ISO 8601 format (2025-04-07T10:47:19+00:00) to the more readable format I want (April 7, 2025). Here, I used the `.toLocaleDateString()` JavaScript function to make it work (see the ([<FontIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)).
+This function is especially useful because of the need to convert the date from the ISO 8601 format (2025-04-07T10:47:19+00:00) to the more readable format I want (April 7, 2025). Here, I used the `.toLocaleDateString()` JavaScript function to make it work (see the ([<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)).
 
 ### 7. Create your JSON file
 
 Now, remember that we're building this to be able to pull URLs from a JSON file to put together and render the web page. That JSON file is the starting point of everything. I believe by now you're getting an error concerning that. So we need to create the JSON file.
 
-In the <FontIcon icon="fas fa-folder-open"/>`app/` directory, create a new file and name it <FontIcon icon="iconfont icon-json"/>`articles.json`.
+In the <VPIcon icon="fas fa-folder-open"/>`app/` directory, create a new file and name it <VPIcon icon="iconfont icon-json"/>`articles.json`.
 
-![The <FontIcon icon="fas fa-folder-open"/>`app/` directory](https://cdn.hashnode.com/res/hashnode/image/upload/v1746947297567/ed6b282b-971e-428b-a7b6-9d6bf5e44520.png)
+![The <VPIcon icon="fas fa-folder-open"/>`app/` directory](https://cdn.hashnode.com/res/hashnode/image/upload/v1746947297567/ed6b282b-971e-428b-a7b6-9d6bf5e44520.png)
 
 Then populate it like in this file below - an array of objects with id, URL, tags, and so on. Even though we are not trying to get the title, description, and everything from this file directly, I put in that feature. If you go back to our `fetchArticles()` function, you'll see that for most of the properties, whatever you write here will override what was gotten from the URLs.
 
@@ -991,7 +991,7 @@ Here, we have an "articles" object with an array of objects, each of which have 
 
 ### 8. Add the finishing touches
 
-Now you can add your own favicon in the app directory. It could be a 24px by 24px file, or 48px by 48px file. It doesn't necessarily have to be in the app directory or be an icon file or be named 'favicon' - but I did it that way. You can just add this in the HTML header of your layout.tsx file which is your Next.js version of <FontIcon icon="fa-brands fa-html5"/>`index.html`. The favicon is the icon that shows on the tab in your browser when you open the page.
+Now you can add your own favicon in the app directory. It could be a 24px by 24px file, or 48px by 48px file. It doesn't necessarily have to be in the app directory or be an icon file or be named 'favicon' - but I did it that way. You can just add this in the HTML header of your layout.tsx file which is your Next.js version of <VPIcon icon="fa-brands fa-html5"/>`index.html`. The favicon is the icon that shows on the tab in your browser when you open the page.
 
 ```html title="index.html"
 <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -1015,9 +1015,9 @@ npm run dev
 
 ## Conclusion
 
-If you've read this far, then you must be really interested in seeing the results of all this :) I already have that covered. [<FontIcon icon="fas fa-globe"/>Here's the blog](https://chidiadi-portfolio.vercel.app/). You can go through it and interact with it.
+If you've read this far, then you must be really interested in seeing the results of all this :) I already have that covered. [<VPIcon icon="fas fa-globe"/>Here's the blog](https://chidiadi-portfolio.vercel.app/). You can go through it and interact with it.
 
-Also, [this is the codebase (<FontIcon icon="iconfont icon-github"/>`chidiadi01/simple-writer-portfolio`)](https://github.com/chidiadi01/simple-writer-portfolio/tree/main/01-simple-blog). Feel free to fork it, clone it, and interact with it as well. If you enjoyed the article, please share it with others. You can also connect with me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`chidiadi-anyanwu`)](https://linkedin.com/in/chidiadi-anyanwu) or [X](https://x.com/chidiadi01). Thanks for reading.
+Also, [this is the codebase (<VPIcon icon="iconfont icon-github"/>`chidiadi01/simple-writer-portfolio`)](https://github.com/chidiadi01/simple-writer-portfolio/tree/main/01-simple-blog). Feel free to fork it, clone it, and interact with it as well. If you enjoyed the article, please share it with others. You can also connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`chidiadi-anyanwu`)](https://linkedin.com/in/chidiadi-anyanwu) or [X](https://x.com/chidiadi01). Thanks for reading.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

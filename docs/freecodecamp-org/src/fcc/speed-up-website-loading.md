@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740094347867/d1097d7
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1740094347867/d1097d7b-776f-4228-8088-7726b827271f.png"/>
 
-Let’s start with an interesting fact: according to research done by [<FontIcon icon="fas fa-globe"/>Akamai](https://akamai.com/newsroom/press-release/akamai-releases-spring-2017-state-of-online-retail-performance-report), a 1-second delay in loading a website’s page can decrease the conversion rate by 7%.
+Let’s start with an interesting fact: according to research done by [<VPIcon icon="fas fa-globe"/>Akamai](https://akamai.com/newsroom/press-release/akamai-releases-spring-2017-state-of-online-retail-performance-report), a 1-second delay in loading a website’s page can decrease the conversion rate by 7%.
 
 We are currently living in a fast-paced world, where time is money for everyone. People expect their favorite websites to load lightning-fast. A slow loading speed will not only make them go to the competitor but will also hurt the [**website's ranking**](/freecodecamp.org/how-to-use-on-page-seo-techniques-to-rank-on-the-first-page.md) in the SERP.
 
@@ -66,7 +66,7 @@ There are several reasons why the loading speed of a website is considered essen
 
 ### 1. Google Ranking Factor:
 
-Website loading speed is a confirmed ranking factor. This means that search engines like Google definitely consider the loading time when evaluating a website’s quality. Usually, the [<FontIcon icon="fas fa-globe"/>ideal loading speed](https://sematext.com/glossary/page-load-time/) is between 0 and 2 seconds. However, 3 seconds is also sometimes acceptable.
+Website loading speed is a confirmed ranking factor. This means that search engines like Google definitely consider the loading time when evaluating a website’s quality. Usually, the [<VPIcon icon="fas fa-globe"/>ideal loading speed](https://sematext.com/glossary/page-load-time/) is between 0 and 2 seconds. However, 3 seconds is also sometimes acceptable.
 
 In case your site does not fulfill this criteria, then there is a high probability that it may receive a penalty from Google. This will result in lower rankings in the targeted niche - which no webmaster or business wants.
 
@@ -84,7 +84,7 @@ This negative impression will not only reduce customer engagement but also conve
 
 ### 4. Retaining Mobile Users:
 
-Mobile contributes to [<FontIcon icon="fas fa-globe"/>58% of the global internet traffic](https://mobiloud.com/blog/what-percentage-of-internet-traffic-is-mobile). It is also true mobile networks often have slow internet speed issues as compared to Wi-Fi. This can be especially true for people living in rural areas. So, that’s why you should always prioritize loading speed to efficiently retain mobile users.
+Mobile contributes to [<VPIcon icon="fas fa-globe"/>58% of the global internet traffic](https://mobiloud.com/blog/what-percentage-of-internet-traffic-is-mobile). It is also true mobile networks often have slow internet speed issues as compared to Wi-Fi. This can be especially true for people living in rural areas. So, that’s why you should always prioritize loading speed to efficiently retain mobile users.
 
 ---
 
@@ -141,9 +141,9 @@ Just keep in mind that there are multiple downsides of code minification. For in
 
 ### 2.  Image & Media Optimization:
 
-Apart from code, unoptimized images, [<FontIcon icon="fas fa-globe"/>logo files](https://logocreator.io/blog/logo-file-formats/) and other media files are often the main culprits behind the slow [**loading speed**](/freecodecamp.org/developers-guide-to-website-speed-optimization.md) of a website. This means that you also need to optimize them as well. There are numerous things you can do in this regard.
+Apart from code, unoptimized images, [<VPIcon icon="fas fa-globe"/>logo files](https://logocreator.io/blog/logo-file-formats/) and other media files are often the main culprits behind the slow [**loading speed**](/freecodecamp.org/developers-guide-to-website-speed-optimization.md) of a website. This means that you also need to optimize them as well. There are numerous things you can do in this regard.
 
-First of all - you should reduce the image size in terms of storage. It is generally recommended that each [<FontIcon icon="fas fa-globe"/>picture should be less than 500 KB in size](https://foregroundweb.com/image-size/). But note that this size can vary depending on the use case.
+First of all - you should reduce the image size in terms of storage. It is generally recommended that each [<VPIcon icon="fas fa-globe"/>picture should be less than 500 KB in size](https://foregroundweb.com/image-size/). But note that this size can vary depending on the use case.
 
 It’s also a good idea to choose next-generation picture formats like WebP instead of typical ones like JPEG or PNG. When it comes to video files, it’s also helpful if you go with the embedded ones from platforms like YouTube.
 
@@ -171,21 +171,21 @@ Your website may contain unused plugins and scripts that can cause bloat. So, to
 
 First, make sure you deactivate and delete all the plugins that aren’t needed. Then, start exploring more lightweight alternatives for plugins that you are actively using. If you find any, go for them and uninstall the bulky ones to improve performance and enhance security, especially for processes like identity verification. Ensure you’re using the latest, most optimized version..
 
-For example, Revolution Slider is a heavy plugin. It loads large scripts and images on every page, even when not needed. This ultimately affects the overall website speed. Some of its lightweight alternatives that you might consider for this include [<FontIcon icon="fas fa-globe"/>Smart Slider 3](https://smartslider3.com/), or any other CSS-based slider.
+For example, Revolution Slider is a heavy plugin. It loads large scripts and images on every page, even when not needed. This ultimately affects the overall website speed. Some of its lightweight alternatives that you might consider for this include [<VPIcon icon="fas fa-globe"/>Smart Slider 3](https://smartslider3.com/), or any other CSS-based slider.
 
 Next comes script management. Here you should first limit any third-party scripts, such as excessive code tracking, social media widgets, and embedded content. Apart from this, don’t forget to totally disable scripts on the pages where they aren’t required.
 
-One useful example here is Google Analytics which loads tracking scripts on every page, increasing the request time. To fix this issue, you can use [<FontIcon icon="fa-brands fa-google"/>Google Tag Manager](https://tagmanager.google.com/) to load the scripts only when they are needed.
+One useful example here is Google Analytics which loads tracking scripts on every page, increasing the request time. To fix this issue, you can use [<VPIcon icon="fa-brands fa-google"/>Google Tag Manager](https://tagmanager.google.com/) to load the scripts only when they are needed.
 
-Additionally, you can use [<FontIcon icon="fas fa-globe"/>no-code workflow automation tools](https://blaze.tech/post/no-code-automation-how-to-streamline-your-business-now) like Zapier, Make, or Uncanny Automator which help streamline processes by reducing reliance on heavy plugins and scripts.
+Additionally, you can use [<VPIcon icon="fas fa-globe"/>no-code workflow automation tools](https://blaze.tech/post/no-code-automation-how-to-streamline-your-business-now) like Zapier, Make, or Uncanny Automator which help streamline processes by reducing reliance on heavy plugins and scripts.
 
 ### 4. Server & Hosting Upgrades:
 
 This is the final strategy that you can consider. Your hosting provider plays a key role in deciding the loading speed of the website. So, it’s a good idea to upgrade your hosting plan and get it from a reputable and credible service.
 
-Also, do not forget to enable server-side compression. Doing so will automatically reduce the file sizes before transmission. Optimizing database performance is equally crucial, as [<FontIcon icon="fas fa-globe"/>database observability enables database pipeline analytics](https://liquibase.com/resources/guides/database-observability), helping to identify inefficiencies, reduce query execution time, and enhance overall site responsiveness.
+Also, do not forget to enable server-side compression. Doing so will automatically reduce the file sizes before transmission. Optimizing database performance is equally crucial, as [<VPIcon icon="fas fa-globe"/>database observability enables database pipeline analytics](https://liquibase.com/resources/guides/database-observability), helping to identify inefficiencies, reduce query execution time, and enhance overall site responsiveness.
 
-Also, take steps to optimize the database queries. You can do this by removing unnecessary data while also caching data mechanisms. There are also specialized plugins available for this like [<FontIcon icon="fas fa-globe"/>WP-Optimize](https://wordpress.org/plugins/wp-optimize/). It effectively cleans up all the unnecessary data saving valuable time and effort.
+Also, take steps to optimize the database queries. You can do this by removing unnecessary data while also caching data mechanisms. There are also specialized plugins available for this like [<VPIcon icon="fas fa-globe"/>WP-Optimize](https://wordpress.org/plugins/wp-optimize/). It effectively cleans up all the unnecessary data saving valuable time and effort.
 
 You should also start caching queries. Store all the frequent ones in memory. This will significantly reduce database load.
 

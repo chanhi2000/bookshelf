@@ -86,7 +86,7 @@ Before you write your first line of code or fix your first typo, ask yourself: W
 
 People contribute to open source for many reasons. Some land new jobs, build businesses, or form partnerships with big companies. Others win prizes, gain recognition, or simply enjoy being part of a collaborative community.
 
-For example, my friend [Param (<FontIcon icon="fa-brands fa-linkedin"/>`paramsiddharth`)](https://linkedin.com/in/paramsiddharth/) joined the MLH Fellowship to grow as a software engineer by working alongside mentors and peers. Since then, his career has taken off.
+For example, my friend [Param (<VPIcon icon="fa-brands fa-linkedin"/>`paramsiddharth`)](https://linkedin.com/in/paramsiddharth/) joined the MLH Fellowship to grow as a software engineer by working alongside mentors and peers. Since then, his career has taken off.
 
 Maybe you want to sharpen your technical skills, find mentorship, or give back to a project that helped you grow. Whatever your reason is, write it down and be clear about it.
 
@@ -108,7 +108,7 @@ To find beginner-friendly tasks, you can search for your preferred programming l
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeg4C-_JHD5uzo-9UN_EXPKVObWKbQpuq8sEyb083_dchXQlrZ9HFzR2j0xtfAeNeY8JMqXiBc2ayCQ26PttfJTuGGi9LMgpwBbbhmKeW4jkoNmrdAgDAomiYo5kOH0MS0BAsK4PA?key=5pXEvcqHzwuwd-lKS3C88S61)
 
-But manually checking each GitHub result for suitable issues can get overwhelming over time. To avoid burnout and save time, try using platforms like [<FontIcon icon="fas fa-globe"/>First Contributions](https://firstcontributions.github.io/), [<FontIcon icon="fas fa-globe"/>Up For Grabs](https://up-for-grabs.net/), or [<FontIcon icon="fas fa-globe"/>CodeTriage](https://codetriage.com/). These platforms help you discover projects that are actively looking for contributors like you.
+But manually checking each GitHub result for suitable issues can get overwhelming over time. To avoid burnout and save time, try using platforms like [<VPIcon icon="fas fa-globe"/>First Contributions](https://firstcontributions.github.io/), [<VPIcon icon="fas fa-globe"/>Up For Grabs](https://up-for-grabs.net/), or [<VPIcon icon="fas fa-globe"/>CodeTriage](https://codetriage.com/). These platforms help you discover projects that are actively looking for contributors like you.
 
 Here’s how each works:
 
@@ -139,7 +139,7 @@ At the end of the day, humans are running the open-source projects, from maintai
 
 Join the project’s Discord, Slack, or mailing list to stay updated and get a feel for the team culture. Comment on issues, even if it's just to ask for clarification or thank someone for their work. Attend community calls or syncs when you can.
 
-You can also join general open-source communities like [<FontIcon icon="fa-brands fa-reddit"/>`r/opensource` on Reddit](https://reddit.com/r/opensource/) or [<FontIcon icon="fas fa-gloibe"/>The Programmer’s Hangout](https://theprogrammershangout.com/).
+You can also join general open-source communities like [<VPIcon icon="fa-brands fa-reddit"/>`r/opensource` on Reddit](https://reddit.com/r/opensource/) or [<VPIcon icon="fas fa-gloibe"/>The Programmer’s Hangout](https://theprogrammershangout.com/).
 
 You don’t need to be the loudest voice. Being present, respectful, and curious is often enough to build trust. And if you’re stuck, ask. Many maintainers are open to guiding contributors who show initiative and a willingness to learn.
 
@@ -184,11 +184,11 @@ If you’re going deeper into open source and need to host a test version of you
 - Set up your own CI pipelines or preview environments
 - Run a dashboard, webhook listener, or static site
 
-You don’t need anything fancy to start. Some of the most affordable and reliable VPS options include [<FontIcon icon="fas fa-globe"/>InstanceHost](https://instancehost.com/), [<FontIcon icon="fas fa-globe"/>OVH](https://ovhcloud.com/asia/vps/), and [<FontIcon icon="iconfont icon-hostinger"/>Hostinger](https://hostinger.com/). They offer solid performance without burning through your wallet. There are plenty of other options out there, but I’ve personally used these three and can vouch for them.
+You don’t need anything fancy to start. Some of the most affordable and reliable VPS options include [<VPIcon icon="fas fa-globe"/>InstanceHost](https://instancehost.com/), [<VPIcon icon="fas fa-globe"/>OVH](https://ovhcloud.com/asia/vps/), and [<VPIcon icon="iconfont icon-hostinger"/>Hostinger](https://hostinger.com/). They offer solid performance without burning through your wallet. There are plenty of other options out there, but I’ve personally used these three and can vouch for them.
 
 ### 6. Take It to the Next Level With Structured Programs
 
-If you're feeling motivated and ready to take on bigger goals, consider applying to open source programs that offer mentorship, structure, and real-world experience. Programs like [<FontIcon icon="fas fa-globe"/>OnlyDust](https://onlydust.com/), [<FontIcon icon="fas fa-globe"/>Outreachy](https://outreachy.org/), [<FontIcon icon="fas fa-globe"/>MLH Fellowship](https://fellowship.mlh.io/), [<FontIcon icon="fas fa-globe"/>Season of KDE](https://mentorship.kde.org/sok/), and [<FontIcon icon="fas fa-globe"/>FOSSASIA Codeheat](https://codeheat.org/) help you grow as a contributor while working on meaningful projects with experienced mentors.
+If you're feeling motivated and ready to take on bigger goals, consider applying to open source programs that offer mentorship, structure, and real-world experience. Programs like [<VPIcon icon="fas fa-globe"/>OnlyDust](https://onlydust.com/), [<VPIcon icon="fas fa-globe"/>Outreachy](https://outreachy.org/), [<VPIcon icon="fas fa-globe"/>MLH Fellowship](https://fellowship.mlh.io/), [<VPIcon icon="fas fa-globe"/>Season of KDE](https://mentorship.kde.org/sok/), and [<VPIcon icon="fas fa-globe"/>FOSSASIA Codeheat](https://codeheat.org/) help you grow as a contributor while working on meaningful projects with experienced mentors.
 
 These opportunities often lead to full-time roles. Many participants have landed jobs at top tech companies by showcasing the skills and contributions they built during these programs.
 

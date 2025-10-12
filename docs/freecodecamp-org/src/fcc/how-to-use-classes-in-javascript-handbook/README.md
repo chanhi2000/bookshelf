@@ -192,7 +192,7 @@ Congratulations! You’ve built a basic, interactive to-do app using JavaScript 
 
 Your next step? Experiment with the prototype approach and compare it with the class-based approach. The more you code, the more natural these concepts will become. Happy coding, and keep building cool stuff.
 
-If you have any questions, feel free to find me on Twitter at [<FontIcon icon="fa-brands fa-x-twitter"/>`@sprucekhalifa`](https://x.com/sprucekhalifa), and don’t forget to follow me for more tips and updates. Happy coding!
+If you have any questions, feel free to find me on Twitter at [<VPIcon icon="fa-brands fa-x-twitter"/>`@sprucekhalifa`](https://x.com/sprucekhalifa), and don’t forget to follow me for more tips and updates. Happy coding!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

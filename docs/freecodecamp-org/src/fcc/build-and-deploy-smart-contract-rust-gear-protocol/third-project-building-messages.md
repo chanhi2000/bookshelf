@@ -48,25 +48,25 @@ cover: https://freecodecamp.org/news/content/images/2024/06/How-to-Build-and-Dep
 
 In our last project `input-msg`, we didn't keep track of the messages that got sent. So in this project, we'll cover the metadata and state.
 
-Run the command below to create your project in <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol`:
+Run the command below to create your project in <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol`:
 
 ```sh
 cargo new --lib messages
 ```
 
-Next, add your **build.rs** file, and make the workspace dependencies available to the <FontIcon icon="fas fa-folder-open"/>`/freecodecamp-gear-protocol/messages`.
+Next, add your **build.rs** file, and make the workspace dependencies available to the <VPIcon icon="fas fa-folder-open"/>`/freecodecamp-gear-protocol/messages`.
 
 ---
 
 ## Adding Metadata to Messages
 
-To setup a metadata for your project, you need to create an additional crate to manage that, so `cd` into <FontIcon icon="fas fa-folder-open"/>`messages`, and run the command below.
+To setup a metadata for your project, you need to create an additional crate to manage that, so `cd` into <VPIcon icon="fas fa-folder-open"/>`messages`, and run the command below.
 
 ```sh
 cargo new --lib io
 ```
 
-In your `freecodecamp-gear-protocol/messages/io/`<FontIcon icon="iconfont icon-toml"/>`Cargo.toml`, copy and paste the following code:
+In your `freecodecamp-gear-protocol/messages/io/`<VPIcon icon="iconfont icon-toml"/>`Cargo.toml`, copy and paste the following code:
 
 ```toml title="messages/io/Cargo.toml"
 [package]
@@ -82,9 +82,9 @@ gmeta.workspace = true
 
 Here, I changed the name from `io` to `messages-io`, and the reason is for me to identify, and separate it for other `io`'s in the workspace. And add the dependencies.
 
-In order to use the `io` in your workspace, you need to go the <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/`<FontIcon icon="iconfont icon-toml"/>`Cargo.toml`, and add a path from your `io` to your workspace, which you can then use in any of the projects that need `struct`, `enum`, and `method`.
+In order to use the `io` in your workspace, you need to go the <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/`<VPIcon icon="iconfont icon-toml"/>`Cargo.toml`, and add a path from your `io` to your workspace, which you can then use in any of the projects that need `struct`, `enum`, and `method`.
 
-In <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/`<FontIcon icon="iconfont icon-toml"/>`Cargo.toml`:
+In <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/`<VPIcon icon="iconfont icon-toml"/>`Cargo.toml`:
 
 ```toml title="Cargo.toml"
 [workspace]
@@ -134,11 +134,11 @@ gear-wasm-builder.workspace = true
 messages-io.workspace = true < ---
 ```
 
-The reason for adding `messages-io.workspace` to both the `[dependencies]` and `[build-dependencies]` is to make the `struct`, `enums`, `pub variables` and `methods` accessible to <FontIcon icon="fas fa-folder-open"/>`messages/src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs`, and <FontIcon icon="fas fa-folder-open"/>`messages/`<FontIcon icon="fa-brands fa-rust"/>`build.rs` using `messages-io.workspace`.
+The reason for adding `messages-io.workspace` to both the `[dependencies]` and `[build-dependencies]` is to make the `struct`, `enums`, `pub variables` and `methods` accessible to <VPIcon icon="fas fa-folder-open"/>`messages/src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs`, and <VPIcon icon="fas fa-folder-open"/>`messages/`<VPIcon icon="fa-brands fa-rust"/>`build.rs` using `messages-io.workspace`.
 
 ---
 
-## Metadata in <FontIcon icon="fas fa-folder-open"/>`io/src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs`
+## Metadata in <VPIcon icon="fas fa-folder-open"/>`io/src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs`
 
 ```rs title="io/src/lib.rs"
 #![no_std]
@@ -186,13 +186,13 @@ In this system, the metadata definition specifies how the smart contract should 
 
 After deployment, the contract can handle new messages using the `Handle` type, which expects a `Message` type as input and returns a `String` as a response. This functionality is useful for adding new messages to the `MESSAGES` vector. For state management (`State`), the contract’s state is a list of messages (`Vec<Message>`), and it doesn’t accept any input to retrieve the state but outputs the current state when queried.
 
-So to summarize, the code in <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/messages/io/src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs` defines the structure and behavior of a message-handling smart contract, specifying how it initializes, handles messages, and manages state.
+So to summarize, the code in <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/messages/io/src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs` defines the structure and behavior of a message-handling smart contract, specifying how it initializes, handles messages, and manages state.
 
 ---
 
 ## Building the Metadata
 
-In order to build your project with the metadata, you need to modify the <FontIcon icon="fa-brands fa-rust"/>`build.rs`, which initially looks like below:
+In order to build your project with the metadata, you need to modify the <VPIcon icon="fa-brands fa-rust"/>`build.rs`, which initially looks like below:
 
 ```rs title="build.rs"
 fn main() {
@@ -212,9 +212,9 @@ fn main() {
 }
 ```
 
-Finally, you would be handling the logic for your smart contract in the <FontIcon icon="fas fa-folder-open"/>`messages/src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs` using the `handle()` function.
+Finally, you would be handling the logic for your smart contract in the <VPIcon icon="fas fa-folder-open"/>`messages/src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs` using the `handle()` function.
 
-Here is the code for the <FontIcon icon="fa-brands fa-rust"/>`lib.rs`:
+Here is the code for the <VPIcon icon="fa-brands fa-rust"/>`lib.rs`:
 
 ```rs title="messages/src/lib.rs"
 #![no_std]
@@ -326,4 +326,4 @@ So this code simply defines a smart contract with three main functions: `init` f
 
 Now you're done with this project, and hope you learned and have understood most of what I've written. In our next project, you'll be building something a bit more complex than this. So let's begin.
 
-[<FontIcon icon="fas fa-globe"/>Here is the program deployed on Vara Network](https://idea.gear-tech.io/programs/0x58acd467aa011554b0dc167f741e745b336a03943df6f1eba635e9c28ca9824e), and this is the [<FontIcon icon="fas fa-globe"/>entire repository for the 3 projects](https://github.com/rockyessel/freecodecamp-gear-protocol) we've built so far. The next project is going to be stand-alone project so you won't use the workspace.
+[<VPIcon icon="fas fa-globe"/>Here is the program deployed on Vara Network](https://idea.gear-tech.io/programs/0x58acd467aa011554b0dc167f741e745b336a03943df6f1eba635e9c28ca9824e), and this is the [<VPIcon icon="fas fa-globe"/>entire repository for the 3 projects](https://github.com/rockyessel/freecodecamp-gear-protocol) we've built so far. The next project is going to be stand-alone project so you won't use the workspace.

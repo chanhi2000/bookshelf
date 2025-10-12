@@ -58,7 +58,7 @@ A font icon is an icon made into a font. When using it, it's just like a font, a
 
 ## Compress Font Files
 
-Use the [<FontIcon icon="iconfont icon-github"/>`patrickhulce/fontmin-webpack`](https://github.com/patrickhulce/fontmin-webpack) plugin to compress font files (thanks to [<FontIcon icon="fas fa-globe"/>Frontend Xiaowei](https://juejin.im/user/237150239985165) for providing this).
+Use the [<VPIcon icon="iconfont icon-github"/>`patrickhulce/fontmin-webpack`](https://github.com/patrickhulce/fontmin-webpack) plugin to compress font files (thanks to [<VPIcon icon="fas fa-globe"/>Frontend Xiaowei](https://juejin.im/user/237150239985165) for providing this).
 
 ![Showing difference between uncompressed and compressed files](https://camo.githubusercontent.com/8aec44850415bdf6f23aa59cae5daa0c6d06ec9414766ddfe34c294b663fcde4/68747470733a2f2f696d672d626c6f672e6373646e696d672e636e2f696d675f636f6e766572742f37376232656235653365303933323030383765333337303638366461393330302e706e67)
 

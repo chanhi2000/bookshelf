@@ -298,7 +298,7 @@ Then, the event loop pushes the `findMin` function onto the call stack for execu
 
 Node.js is a JavaScript runtime environment that enables JavaScript to run outside the browser, like on the command line interface, servers, and hardware.
 
-Node.js has an event loop that is similar to the JavaScript event loop. The Node.js event loop and the JavaScript event loop have a call stack and a callback queue. The Node.js event loop is implemented and managed by a library named [<FontIcon icon="fas fa-globe"/>libuv](https://libuv.org/) written in C.
+Node.js has an event loop that is similar to the JavaScript event loop. The Node.js event loop and the JavaScript event loop have a call stack and a callback queue. The Node.js event loop is implemented and managed by a library named [<VPIcon icon="fas fa-globe"/>libuv](https://libuv.org/) written in C.
 
 The Node.js event loop has six phases, which are:
 
@@ -350,7 +350,7 @@ fs.readFile(__filename, (err, data) => {
 
 The idle phase is not a normal phase of the Node.js event loop. It is a period whereby the event loop has nothing to do but perform background tasks like checking for low-priority results or running garbage collection.
 
-To skip the idle phase and not perform background tasks, you can call the `idle.ignore()` method from the [<FontIcon icon="fa-brands fa-npm"/>idle-gc](https://npmjs.com/package/idle-gc) package in your code.
+To skip the idle phase and not perform background tasks, you can call the `idle.ignore()` method from the [<VPIcon icon="fa-brands fa-npm"/>idle-gc](https://npmjs.com/package/idle-gc) package in your code.
 
 ```js
 const { idle } = require("idle-gc");

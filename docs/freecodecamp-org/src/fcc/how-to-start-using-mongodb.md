@@ -95,7 +95,7 @@ No-SQL databases can also be more scalable than relational databases, which is i
 
 ## How to Get Started with MongoDB - Install Guide
 
-Install MongoDB using [<FontIcon icon="iconfont icon-mongodb"/>this link](https://mongodb.com/docs/manual/administration/install-community/) or use the instructions below if you are using Ubuntu:
+Install MongoDB using [<VPIcon icon="iconfont icon-mongodb"/>this link](https://mongodb.com/docs/manual/administration/install-community/) or use the instructions below if you are using Ubuntu:
 
 ```sh
 # Import the public key

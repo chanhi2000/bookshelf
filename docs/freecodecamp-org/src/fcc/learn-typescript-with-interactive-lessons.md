@@ -75,7 +75,7 @@ Here are the topics covered in the course:
 - Utility types
 - Generics
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/SpwzRDUQ1GI) (6-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/SpwzRDUQ1GI) (6-hour watch).
 
 <VidStack src="youtube/SpwzRDUQ1GI" />
 

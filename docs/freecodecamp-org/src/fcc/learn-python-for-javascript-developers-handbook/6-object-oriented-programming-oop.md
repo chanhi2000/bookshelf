@@ -64,7 +64,7 @@ At its core, OOP involves defining **classes** (blueprints for objects), creatin
 
 ::: tip Example Basic Class Definition
 
-**<FontIcon icon="fa-brands fa-python"/>**
+**<VPIcon icon="fa-brands fa-python"/>**
 
 ```py
 class Animal:
@@ -86,7 +86,7 @@ print(generic_animal.speak())  # Output: Generic Animal makes a sound.
 print(dog.speak())             # Output: Buddy barks.
 ```
 
-**<FontIcon icon="fa-brands fa-js"/>**
+**<VPIcon icon="fa-brands fa-js"/>**
 
 ```js :collapsed-lines
 class Animal {
@@ -126,7 +126,7 @@ In both examples, you see:
 
 One key difference in OOP syntax between Python and JavaScript lies in how constructors are defined and how the instance is referenced within a class.
 
-### <FontIcon icon="fa-brands fa-python"/>Constructor and `self`
+### <VPIcon icon="fa-brands fa-python"/>Constructor and `self`
 
 Python uses `__init__` as a special method to initialize an object. It explicitly requires `self` as the first parameter in all instance methods to refer to the object itself.
 
@@ -147,7 +147,7 @@ print(person.greet())  # Output: My name is Alice and I am 30 years old.
 
 :::
 
-### <FontIcon icon="fa-brands fa-js"/>Constructor and `this`
+### <VPIcon icon="fa-brands fa-js"/>Constructor and `this`
 
 JavaScript uses a `constructor` method to initialize an object. Inside methods, `this` is used to reference the current instance, but `this` can behave differently depending on the context.
 
@@ -184,7 +184,7 @@ console.log(person.greet()); // Output: My name is Alice and I am 30 years old.
 
 Polymorphism allows methods to behave differently depending on the object that calls them. This is a fundamental OOP concept and is supported in both Python and JavaScript.
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 class Bird:
@@ -207,7 +207,7 @@ get_flight_ability(penguin)  # Output: Penguins cannot fly.
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 class Bird {

@@ -134,7 +134,7 @@ The `nyc` tool, built on Istanbul, is commonly used to measure test coverage in 
 npm install --save-dev mocha nyc
 ```
 
-Add a test script to <FontIcon icon="iconfont icon-json"/>`package.json`:
+Add a test script to <VPIcon icon="iconfont icon-json"/>`package.json`:
 
 ```json title="package.json"
 "scripts": {

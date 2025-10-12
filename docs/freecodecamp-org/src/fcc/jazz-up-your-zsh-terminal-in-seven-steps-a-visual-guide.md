@@ -53,7 +53,7 @@ In this blog I’ll cover installing ITerm2, ZSH shell, "oh my ZSH", Themes, ITe
 
 ::: note
 
-If you want to just make your regular Bash Terminal powerful, take a look at my previous blog: "[Jazz Up Your Bash Terminal (<FontIcon icon="fa-brands fa-medium"/>`rajaraodv`)](https://medium.com/@rajaraodv/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22)". But ZSH explained in this blog is more powerful stuff.
+If you want to just make your regular Bash Terminal powerful, take a look at my previous blog: "[Jazz Up Your Bash Terminal (<VPIcon icon="fa-brands fa-medium"/>`rajaraodv`)](https://medium.com/@rajaraodv/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22)". But ZSH explained in this blog is more powerful stuff.
 
 :::
 
@@ -77,7 +77,7 @@ We’ll be covering a lot of things. This may be confusing, so here is the summa
 
 ## Step 1 - Install ITerm2
 
-A lot of programmers like [<FontIcon icon="fas fa-globe"/>ITerm2](https://iterm2.com) instead of the default Terminal. It is similar to the Terminal, but has lots of features of its own. It of course can run ZSH, Bash, and other shells inside it.
+A lot of programmers like [<VPIcon icon="fas fa-globe"/>ITerm2](https://iterm2.com) instead of the default Terminal. It is similar to the Terminal, but has lots of features of its own. It of course can run ZSH, Bash, and other shells inside it.
 
 The following video shows some of the new features of Item 2 (v3).
 
@@ -233,7 +233,7 @@ It should look something like below. Notice that the prompt has changed and the 
 
 ## Step 4 - Change Themes And Install Fonts
 
-In this step, we’ll add two different "Oh My ZSH" Themes. "Oh My ZSH" comes with [tons of themes (<FontIcon icon="iconfont icon-github"/>`robbyrussell/oh-my-zsh`)](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
+In this step, we’ll add two different "Oh My ZSH" Themes. "Oh My ZSH" comes with [tons of themes (<VPIcon icon="iconfont icon-github"/>`robbyrussell/oh-my-zsh`)](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
 
 ::: note PS
 
@@ -245,7 +245,7 @@ To set a Theme, simply open `~/.zshrc` file (created by "Oh My ZSH") and change 
 
 :::  note PS
 
-<FontIcon icon="fas fa-file-lines"/>`.zshrc` is the config file for ZSH shell. People who don’t use "Oh My ZSH" will have to manually create this file and add any configs themselves. "Oh My ZSH" automatically creates this file if it doesn’t exist and then adds its own set of configs into this file.
+<VPIcon icon="fas fa-file-lines"/>`.zshrc` is the config file for ZSH shell. People who don’t use "Oh My ZSH" will have to manually create this file and add any configs themselves. "Oh My ZSH" automatically creates this file if it doesn’t exist and then adds its own set of configs into this file.
 
 :::
 
@@ -255,7 +255,7 @@ To set a Theme, simply open `~/.zshrc` file (created by "Oh My ZSH") and change 
 
 @tab:active 1.
 
-Open <FontIcon icon="fas fa-file-lines"/>`.zshrc`
+Open <VPIcon icon="fas fa-file-lines"/>`.zshrc`
 
 ```sh
 open ~/.zshrc
@@ -265,7 +265,7 @@ open ~/.zshrc
 
 **Change the Theme to "Avit"**
 
-You can browse all the "Oh My ZSH" Themes [here (<FontIcon icon="iconfont icon-github"/>`robbyrussell/oh-my-zsh`)](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes). To change the Theme, simply change the `ZSH_THEME` value in `~/.zshrc` file from **robbyrussell** to **Avit**.
+You can browse all the "Oh My ZSH" Themes [here (<VPIcon icon="iconfont icon-github"/>`robbyrussell/oh-my-zsh`)](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes). To change the Theme, simply change the `ZSH_THEME` value in `~/.zshrc` file from **robbyrussell** to **Avit**.
 
 ![](https://cdn-media-1.freecodecamp.org/images/1*yzCfQpf-7oVs3SPelf1Imw.png)
 
@@ -299,7 +299,7 @@ OK, Let’s install a different Theme that needs fonts.
 
 #### Theme 2 - Installing "agnoster" Oh My ZSH theme
 
-This is a popular theme because it emulates the [<FontIcon icon="fas fa-globe"/>Powerline](https://powerline.readthedocs.io/en/latest/overview.html#screenshots) Python app that enhances the terminal. The following picture shows how it looks. But this theme also needs us to install Powerline themes.
+This is a popular theme because it emulates the [<VPIcon icon="fas fa-globe"/>Powerline](https://powerline.readthedocs.io/en/latest/overview.html#screenshots) Python app that enhances the terminal. The following picture shows how it looks. But this theme also needs us to install Powerline themes.
 
 ![agnoster Oh My ZSH theme](https://cdn-media-1.freecodecamp.org/images/1*vLlx2GBxwk1NAOa-eLOCyw.png)
 
@@ -307,7 +307,7 @@ This is a popular theme because it emulates the [<FontIcon icon="fas fa-globe"/>
 
 @tab:active 1.
 
-**Install [Powerline fonts (<FontIcon icon="iconfont icon-github"/>`powerline/fonts`)](https://github.com/powerline/fonts.git)**
+**Install [Powerline fonts (<VPIcon icon="iconfont icon-github"/>`powerline/fonts`)](https://github.com/powerline/fonts.git)**
 
 ```sh
 git clone https://github.com/powerline/fonts.git
@@ -354,7 +354,7 @@ All Done
 
 ## Step 5 - Install iTerm2 "color schemes" (ITerm2 Themes)
 
-There are plenty of gorgeous color schemes for iTerm2. These schemes change the foreground color, background color, cursor color, and so on. You can find them at [<FontIcon icon="iconfont icon-github"/>`mbadolato/iTerm2-Color-Schemes`](https://github.com/mbadolato/iTerm2-Color-Schemes) Github repo.
+There are plenty of gorgeous color schemes for iTerm2. These schemes change the foreground color, background color, cursor color, and so on. You can find them at [<VPIcon icon="iconfont icon-github"/>`mbadolato/iTerm2-Color-Schemes`](https://github.com/mbadolato/iTerm2-Color-Schemes) Github repo.
 
 ::: note
 
@@ -364,7 +364,7 @@ These are just color schemes of the ITerm2 UI and don’t deal with the command 
 
 Follow these steps to install them.
 
-1. Download the [<FontIcon icon="iconfont icon-github"/>`mbadolato/iTerm2-Color-Schemes`](https://github.com/mbadolato/iTerm2-Color-Schemes) as a zip file and extract it
+1. Download the [<VPIcon icon="iconfont icon-github"/>`mbadolato/iTerm2-Color-Schemes`](https://github.com/mbadolato/iTerm2-Color-Schemes) as a zip file and extract it
 2. The "Schemes" folder contains all the color scheme files - they end with `.itermcolors`
 3. Open `iTerm2 > Preferences > Profile > Colors > Color Presets > Import`
 4. In the import window, navigate to the "Schemes" folder (from step 2)
@@ -463,9 +463,9 @@ There are various fonts that help make operators like less than, double equals, 
 
 ![](https://cdn-media-1.freecodecamp.org/images/1*OIpApVPLobonxDMEkaAbaA.png)
 
-To use this, we need fonts that support ligatures. We also need to enable it in ITerm2. [<FontIcon icon="iconfont icon-github"/>`tonsky/FiraCode`](https://github.com/tonsky/FiraCode) is one such font. Follow the steps to install and enable ligatures.
+To use this, we need fonts that support ligatures. We also need to enable it in ITerm2. [<VPIcon icon="iconfont icon-github"/>`tonsky/FiraCode`](https://github.com/tonsky/FiraCode) is one such font. Follow the steps to install and enable ligatures.
 
-1. Download the [<FontIcon icon="iconfont icon-github"/>`tonsky/FiraCode`](https://github.com/tonsky/FiraCode) repo and extract the zip file (or clone it)
+1. Download the [<VPIcon icon="iconfont icon-github"/>`tonsky/FiraCode`](https://github.com/tonsky/FiraCode) repo and extract the zip file (or clone it)
 2. Open the `dstr > ttf` folder and double click on all the `*.ttf` files and select the "Install font" button to install each of the font variations.
 3. Navigate to `ITerm2 | Preferences | Profiles | Text`
 4. **Select `Use Ligatures` checkbox**
@@ -535,7 +535,7 @@ We have covered a lot in this blog starting from installing latest ZSH via Homeb
 
 #### If this was useful, please click the clap ? button below a few times to show your support! ⬇⬇⬇ ??
 
-If you have questions, please feel free to ask me on [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`rajaraodv`)](https://x.com/rajaraodv)
+If you have questions, please feel free to ask me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`rajaraodv`)](https://x.com/rajaraodv)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

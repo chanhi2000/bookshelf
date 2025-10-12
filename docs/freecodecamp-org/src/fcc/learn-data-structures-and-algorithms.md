@@ -379,7 +379,7 @@ After you understand the theory, the next thing is practicals. Learn how to impl
 
 Here are several online video and text-based resources for learning algorithms:
 
-If you’re just starting out with JavaScript, the freeCodeCamp’s [<FontIcon icon="fa-brands fa-free-code-camp"/>JavaScript Algorithms and Data Structures Certification](https://freecodecamp.org/learn/javascript-algorithms-and-data-structures) curriculum would make a great start.
+If you’re just starting out with JavaScript, the freeCodeCamp’s [<VPIcon icon="fa-brands fa-free-code-camp"/>JavaScript Algorithms and Data Structures Certification](https://freecodecamp.org/learn/javascript-algorithms-and-data-structures) curriculum would make a great start.
 
 Here are some videos from the freeCodeCamp YouTube channel that can help you learn algorithms:
 

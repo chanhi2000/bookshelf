@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731103973241/e1277a4
 
 Are you ready to take your web hosting skills to the next level by using a CSS template? Hosting a professional looking website doesn’t have to be complicated, and with AWS EC2, you can have your website live in no time!
 
-In this guide, I’ll show you how to host a website using a pre-designed template from [<FontIcon icon="fas fa-globe"/>**CSS templates**](https://free-css.com/free-css-templates) directly on your EC2 instance.
+In this guide, I’ll show you how to host a website using a pre-designed template from [<VPIcon icon="fas fa-globe"/>**CSS templates**](https://free-css.com/free-css-templates) directly on your EC2 instance.
 
 Before we dive into this guide, make sure you’ve gone through my [previous blog](/freecodecamp.org/how-to-launch-an-ec2-instance-and-a-web-server-using-httpd.md) on how to launch and connect to an EC2 instance. If you haven’t set up an EC2 instance yet, head over to that post first to get your instance up and running. Once that’s done, you’re all set to proceed!
 
@@ -63,7 +63,7 @@ Before we dive into this guide, make sure you’ve gone through my [previous blo
 
 For this tutorial, we’ll use the Built Better template, which is free and easy to set up.
 
-Head over to [<FontIcon icon="fas fa-globe"/>this link](https://free-css.com/free-css-templates/page284/built-better) and download the template.
+Head over to [<VPIcon icon="fas fa-globe"/>this link](https://free-css.com/free-css-templates/page284/built-better) and download the template.
 
 Right-click on the download button and select "Copy clean link". We’ll use this link to download the template directly into your EC2 instance.
 
@@ -73,7 +73,7 @@ Right-click on the download button and select "Copy clean link". We’ll use thi
 
 Now that you have the link to the template, let’s download it straight to your EC2 instance using `wget`.
 
-Log in to your EC2 instance via SSH or MobaXterm (as covered in my [previous blog](/freecodecamp.org/connect-to-your-ec2-instance-using-mobaxterm.md)) and navigate to the <FontIcon icon="fas fa-folder-open"/>`/var/www/html` directory where your website files will be stored:
+Log in to your EC2 instance via SSH or MobaXterm (as covered in my [previous blog](/freecodecamp.org/connect-to-your-ec2-instance-using-mobaxterm.md)) and navigate to the <VPIcon icon="fas fa-folder-open"/>`/var/www/html` directory where your website files will be stored:
 
 ```sh
 cd /var/www/html
@@ -111,15 +111,15 @@ Then unzip the template:
 sudo unzip built-better.zip -d /var/www/html/
 ```
 
-After unzipping, make sure to check the folder name where the files were extracted from. You can do this by listing the contents of the <FontIcon icon="fas fa-folder-open"/>`/var/www/html` directory:
+After unzipping, make sure to check the folder name where the files were extracted from. You can do this by listing the contents of the <VPIcon icon="fas fa-folder-open"/>`/var/www/html` directory:
 
 ```sh
 ls /var/www/html/
 ```
 
-In this case, the unzipped contents are located inside a folder named <FontIcon icon="fas fa-folder-open"/>`html`. This folder contains all the template files. If the folder name is different in your case, adjust the following steps accordingly.
+In this case, the unzipped contents are located inside a folder named <VPIcon icon="fas fa-folder-open"/>`html`. This folder contains all the template files. If the folder name is different in your case, adjust the following steps accordingly.
 
-First, move the files from the <FontIcon icon="fas fa-folder-open"/>`html` folder to the root <FontIcon icon="fas fa-folder-open"/>`/var/www/html/` directory:
+First, move the files from the <VPIcon icon="fas fa-folder-open"/>`html` folder to the root <VPIcon icon="fas fa-folder-open"/>`/var/www/html/` directory:
 
 ```sh
 sudo mv /var/www/html/html/* /var/www/html/
@@ -185,8 +185,8 @@ With just a few steps, you’ve moved from launching an EC2 instance to hosting 
 
 You can follow me on
 
-- [X (<FontIcon icon="fa-brands fa-x-twitter"/>`Kedar__98`)](https://x.com/Kedar__98)
-- [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`kedar-makode-9833321ab`)](https://linkedin.com/in/kedar-makode-9833321ab/)
+- [X (<VPIcon icon="fa-brands fa-x-twitter"/>`Kedar__98`)](https://x.com/Kedar__98)
+- [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`kedar-makode-9833321ab`)](https://linkedin.com/in/kedar-makode-9833321ab/)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

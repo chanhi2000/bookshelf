@@ -68,9 +68,9 @@ In this application, users will be able to view recipes, request a specific reci
 
 To follow along with this tutorial, make sure you have:
 
-- [<FontIcon icon="fa-brands fa-noe"/>Node.js](https://nodejs.org/en) installed.
-- Basic knowledge of [<FontIcon icon="fa-brands fa-dart-lang"/>Flutter](https://flutter.dev/)
-- Basic understanding of Strapi with this [<FontIcon icon="fas fa-globe"/>quick guide](https://docs.strapi.io/dev-docs/quick-start)
+- [<VPIcon icon="fa-brands fa-noe"/>Node.js](https://nodejs.org/en) installed.
+- Basic knowledge of [<VPIcon icon="fa-brands fa-dart-lang"/>Flutter](https://flutter.dev/)
+- Basic understanding of Strapi with this [<VPIcon icon="fas fa-globe"/>quick guide](https://docs.strapi.io/dev-docs/quick-start)
 
 :::
 
@@ -80,12 +80,12 @@ To follow along with this tutorial, make sure you have:
 
 Here’s what you will be building in the tutorial:
 
-1. Authentication and Authorization: [<FontIcon icon="fa-brands fa-google-drive"/>Demo](https://drive.google.com/file/d/1cjnnRD38wQsj_sYHl5EG5uM3AyHJUWdf/view?usp=sharing)
-2. Comment and Likes: [<FontIcon icon="fa-brands fa-google-drive"/>Demo](https://drive.google.com/file/d/1wM0xQ2R7inL90gAkiYjLcGV5df4AmzH1/view?usp=sharing)
-3. Request recipe: [<FontIcon icon="fa-brands fa-google-drive"/>Demo](https://drive.google.com/file/d/1xlxSFD2qU2rOE4kICiX-py_JxvgrphqK/view?usp=sharing)
-4. Language Switch: [<FontIcon icon="fa-brands fa-google-drive"/>Demo](https://drive.google.com/file/d/14lmBCIgX4VIKOFmS9pG71cIHH7HLaW1J/view?usp=sharing)
+1. Authentication and Authorization: [<VPIcon icon="fa-brands fa-google-drive"/>Demo](https://drive.google.com/file/d/1cjnnRD38wQsj_sYHl5EG5uM3AyHJUWdf/view?usp=sharing)
+2. Comment and Likes: [<VPIcon icon="fa-brands fa-google-drive"/>Demo](https://drive.google.com/file/d/1wM0xQ2R7inL90gAkiYjLcGV5df4AmzH1/view?usp=sharing)
+3. Request recipe: [<VPIcon icon="fa-brands fa-google-drive"/>Demo](https://drive.google.com/file/d/1xlxSFD2qU2rOE4kICiX-py_JxvgrphqK/view?usp=sharing)
+4. Language Switch: [<VPIcon icon="fa-brands fa-google-drive"/>Demo](https://drive.google.com/file/d/14lmBCIgX4VIKOFmS9pG71cIHH7HLaW1J/view?usp=sharing)
 
-You can get the full code of the application from [this GitHub repository (<FontIcon icon="iconfont icon-github"/>`Gunkev/flutter_strapi_multilingual_app`)](https://github.com/Gunkev/flutter_strapi_multilingual_app).
+You can get the full code of the application from [this GitHub repository (<VPIcon icon="iconfont icon-github"/>`Gunkev/flutter_strapi_multilingual_app`)](https://github.com/Gunkev/flutter_strapi_multilingual_app).
 
 ```component VPCard
 {

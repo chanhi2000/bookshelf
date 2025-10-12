@@ -141,7 +141,7 @@ It’s loved for its simplicity. Git push to deploy, Heroku Postgres/Redis add-o
 
 For indie hackers building backend-heavy apps with Node.js, Rails, Django, or Go, Heroku offers instant productivity. You don’t worry about servers or containers.
 
-Each app runs in your [<FontIcon icon="iconfont icon-heroku"/>isolated containers, aka dynos](https://heroku.com/dynos/), which can spin up or down based on demand. Add-on services like email, monitoring, logging, and databases are just clicks away.
+Each app runs in your [<VPIcon icon="iconfont icon-heroku"/>isolated containers, aka dynos](https://heroku.com/dynos/), which can spin up or down based on demand. Add-on services like email, monitoring, logging, and databases are just clicks away.
 
 Heroku’s free tier used to be popular with hobbyists, though now it’s more limited. Monthly pricing scales by dyno count and type.
 
@@ -172,7 +172,7 @@ Set up is streamlined: pick a plan, register a domain from their dashboard, and 
 
 The control panel is custom, but intuitive  with E-mail setup, SSL, file manager, and one-click installs for popular software. They also offer a handy staging environment and LiteSpeed caching.
 
-For indie hackers launching static sites, simple landing pages, or early-stage MVPs, Hostinger gives enough horsepower without breaking the bank. Hostinger also has a [<FontIcon icon="iconfont icon-hostinger"/>no-code web app builder](https://hostinger.com/horizons), dramatically lowering the barrier to launching a product.
+For indie hackers launching static sites, simple landing pages, or early-stage MVPs, Hostinger gives enough horsepower without breaking the bank. Hostinger also has a [<VPIcon icon="iconfont icon-hostinger"/>no-code web app builder](https://hostinger.com/horizons), dramatically lowering the barrier to launching a product.
 
 You won’t have the nicest DevOps tools, but if your goal is to validate quickly and cheaply, Hostinger is your tool. And when traffic grows, you can upgrade to VPS or cloud hosting plans.
 
@@ -201,7 +201,7 @@ Vercel’s free tier is generous. It has unlimited personal projects, preview de
 
 They’re all drop-in billing by usage, so no surprises. And their integrations suite (like analytics, search, e-commerce) helps indie hackers build richer tools quickly.
 
-A couple of tradeoffs in Vercel include backends running as edge or [<FontIcon icon="fas fa-globe"/>serverless functions](https://splunk.com/en_us/blog/learn/serverless-functions.html), not persistent processes. If your use case doesn’t fit serverless models, you may need a separate backend provider.
+A couple of tradeoffs in Vercel include backends running as edge or [<VPIcon icon="fas fa-globe"/>serverless functions](https://splunk.com/en_us/blog/learn/serverless-functions.html), not persistent processes. If your use case doesn’t fit serverless models, you may need a separate backend provider.
 
 Overall, if you’re building a modern frontend-first product, Vercel gives you speed, simplicity, and scale from day one.
 
@@ -266,7 +266,7 @@ If you prioritize smooth backend deployment and simplicity, Heroku remains a cla
 
 If you want ultra-low cost and just need a static site or WordPress blog, Hostinger is the best. It’s cheap, fast, and in charge of most backend details.
 
-If your project is frontend-first, or built on Next.js or [<FontIcon icon="fas fa-globe"/>Jamstack](https://jamstack.org/) frameworks, Vercel offers fast builds, preview links, and edge function capabilities. It’s built for your stack, with a seamless developer experience.
+If your project is frontend-first, or built on Next.js or [<VPIcon icon="fas fa-globe"/>Jamstack](https://jamstack.org/) frameworks, Vercel offers fast builds, preview links, and edge function capabilities. It’s built for your stack, with a seamless developer experience.
 
 If you want a modern all-in-one PaaS with flexibility and granular billing, Railway is an exciting choice. It supports Docker, databases, and more with minimal config and strong UX.
 
@@ -280,7 +280,7 @@ Every host shines in its niche. There’s no one-size-fits-all, but knowing your
 
 As indie hackers ourselves, we want our tech to empower our creativity, not slow it down. Choose tools that support your curiosity and let you learn, pivot, and launch. Happy hosting, and even happier hacking.
 
-Hope you enjoyed this article. You can [<FontIcon icon="fas fa-globe"/>learn more about me](https://manishshivanandhan.com/) or [connect with me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva/).
+Hope you enjoyed this article. You can [<VPIcon icon="fas fa-globe"/>learn more about me](https://manishshivanandhan.com/) or [connect with me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

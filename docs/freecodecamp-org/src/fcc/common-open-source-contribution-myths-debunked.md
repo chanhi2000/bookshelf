@@ -64,13 +64,13 @@ Open source refers to software that has its code publicly available for viewing,
 
 Although open source software code is publicly accessible, it doesn’t mean that the software has to be free. Creators of the software can make money by charging a fee for things like optional plugins, consultation about the software, and so on.
 
-[Nginx (<FontIcon icon="iconfont icon-github"/>`nginx`)](https://github.com/nginx) is an example of open source software that charges a fee for additional but optional plugins. [NestJS (<FontIcon icon="iconfont icon-github"/>`nestjs`)](https://github.com/nestjs) is open source too, but has an official paid course (and its maintainers charge a consultation fee for more complex uses of the software).
+[Nginx (<VPIcon icon="iconfont icon-github"/>`nginx`)](https://github.com/nginx) is an example of open source software that charges a fee for additional but optional plugins. [NestJS (<VPIcon icon="iconfont icon-github"/>`nestjs`)](https://github.com/nestjs) is open source too, but has an official paid course (and its maintainers charge a consultation fee for more complex uses of the software).
 
 ---
 
 ## Key Factors Influencing Open Source Contributions
 
-In 2023, roughly [<FontIcon icon="fa-brands fa-google"/>10% of Alphabet’s full-time workforce](https://opensource.googleblog.com/2024/08/2023-open-source-contribution-report.html) actively contributed to open source projects. And according to [<FontIcon icon="fas fa-globe"/>GitHub’s 2024 Open Source Survey](https://opensourcesurvey.org/2024/), respondents reported that the top five factors that influenced their contribution to open source projects, in order of importance, were:
+In 2023, roughly [<VPIcon icon="fa-brands fa-google"/>10% of Alphabet’s full-time workforce](https://opensource.googleblog.com/2024/08/2023-open-source-contribution-report.html) actively contributed to open source projects. And according to [<VPIcon icon="fas fa-globe"/>GitHub’s 2024 Open Source Survey](https://opensourcesurvey.org/2024/), respondents reported that the top five factors that influenced their contribution to open source projects, in order of importance, were:
 
 - Whether the project had an open source license or not. Having an open source license was considered favourable.
 - The responsiveness of the project’s maintainers. Fast and positive responses are encouraging.
@@ -117,7 +117,7 @@ Put in the work to resolve it yourself first, and if you have any issues, then y
 
 :::
 
-I shared my experience in an article titled [<FontIcon icon="fas fa-globe"/>You Don't Need to Know It All to Contribute](https://orimdominic.vercel.app/posts/you-dont-need-to-know-it-all-to-contribute/) where I found out that the author of a popular JavaScript project was not the one that wrote the TypeScript part of the project and he was happy to receive my contribution.
+I shared my experience in an article titled [<VPIcon icon="fas fa-globe"/>You Don't Need to Know It All to Contribute](https://orimdominic.vercel.app/posts/you-dont-need-to-know-it-all-to-contribute/) where I found out that the author of a popular JavaScript project was not the one that wrote the TypeScript part of the project and he was happy to receive my contribution.
 
 If you still feel like you are not good enough, try to look at it as an opportunity to learn from a codebase built by developers with a wide range of experiences and expertise. If you dive into the code and try to improve it, you’ll learn things that you won’t find in online tutorials and blog posts.
 
@@ -131,13 +131,13 @@ By doing this, you provide value to these projects. What matters is your interes
 
 ### You have to do it for free
 
-Another misconception is that devs always do open source without getting paid. But this isn't true for all cases. Some open source repositories reward contributors via bounties, for example. With bounties, prize money is placed on an an issue and whoever solves it gets the prize money or reward. I earned money through this via [<FontIcon icon="fas fa-globe"/>my first contribution to Remotion](https://orimdominic.vercel.app/posts/my-first-open-source-contribution-to-remotion/).
+Another misconception is that devs always do open source without getting paid. But this isn't true for all cases. Some open source repositories reward contributors via bounties, for example. With bounties, prize money is placed on an an issue and whoever solves it gets the prize money or reward. I earned money through this via [<VPIcon icon="fas fa-globe"/>my first contribution to Remotion](https://orimdominic.vercel.app/posts/my-first-open-source-contribution-to-remotion/).
 
 And there are other benefits of contributing to open source projects aside from getting paid. And often, people contribute primarily for these other reasons.
 
 For example, for beginner developers, there aren’t many opportunities to get hands-on experience building “real” projects, or to learn what working on a tech team is really like.
 
-But by contributing to an open source project and becoming part of that community, you get to practice teamwork, contribute to code that’s constantly changing and growing, and solve real-life problems. This gives you valuable experience that’ll help prepare you for the workforce (and that you can put on your résumé). The image below is a screenshot of two people who received a [<FontIcon icon="fas fa-globe"/>scholarship from the Linux Foundation](https://training.linuxfoundation.org/blog/500-promising-individuals-worldwide-receive-linux-foundation-it-training-certification-scholarships/) for their contributions to open source.
+But by contributing to an open source project and becoming part of that community, you get to practice teamwork, contribute to code that’s constantly changing and growing, and solve real-life problems. This gives you valuable experience that’ll help prepare you for the workforce (and that you can put on your résumé). The image below is a screenshot of two people who received a [<VPIcon icon="fas fa-globe"/>scholarship from the Linux Foundation](https://training.linuxfoundation.org/blog/500-promising-individuals-worldwide-receive-linux-foundation-it-training-certification-scholarships/) for their contributions to open source.
 
 ![Screenshot of open source scholarship winners](https://cdn.hashnode.com/res/hashnode/image/upload/v1756482636970/e3fe1fad-7edb-4748-b760-00e054dd4e61.png)
 
@@ -149,7 +149,7 @@ So as you can see, even if you don’t get monetary rewards, contributing to ope
 - Prove yourself to be a self-motivated developer
 - Work asynchronously with people across multiple time zones
 
-You also get the opportunity to network with other developers and grow your reputation and credibility in the software development space. [Prosper Otemuyiwa (<FontIcon icon="iconfont icon-github"/>`unicodeveloper`)](https://github.com/unicodeveloper) and [Anthony Fu (<FontIcon icon="iconfont icon-github"/>`antfu`)](https://github.com/antfu) are great examples and beneficiaries of this type of career growth.
+You also get the opportunity to network with other developers and grow your reputation and credibility in the software development space. [Prosper Otemuyiwa (<VPIcon icon="iconfont icon-github"/>`unicodeveloper`)](https://github.com/unicodeveloper) and [Anthony Fu (<VPIcon icon="iconfont icon-github"/>`antfu`)](https://github.com/antfu) are great examples and beneficiaries of this type of career growth.
 
 ### You have a busy schedule
 
@@ -206,7 +206,7 @@ So consider contributing today by visiting the issues tab of any of the open sou
 
 If you see an issue that you are interested in, take the following steps as a new contributor:
 
-- Look for a <FontIcon icon="fa-brands fa-markdown"/>`CONTRIBUTING.md` file and read it for guidance on how to contribute
+- Look for a <VPIcon icon="fa-brands fa-markdown"/>`CONTRIBUTING.md` file and read it for guidance on how to contribute
 - Clone the repository and set it up locally
 - State your intention to work on the issue by making a comment on the issue
 

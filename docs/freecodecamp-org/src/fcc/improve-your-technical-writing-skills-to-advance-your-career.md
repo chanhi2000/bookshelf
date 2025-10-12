@@ -87,7 +87,7 @@ Here are the sections in this course:
 - How to Write a Formal Report - The Main Body
 - How to Write a Formal Report - The Prefatory Part
 
-Watch the full course [<FontIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/vT5pcc30Ffw) (1-hour watch).
+Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/vT5pcc30Ffw) (1-hour watch).
 
 <VidStack src="youtube/vT5pcc30Ffw" />
 

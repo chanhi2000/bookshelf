@@ -81,7 +81,7 @@ To fully understand and follow the steps in this tutorial, you need the followin
 
 :::
 
-If you don’t have an Azure account yet, you can sign up for [<FontIcon icon="iconfont icon-microsoftazure"/>Azure for Students](https://azure.microsoft.com/en-us/free/students), the [GitHub Student Developer Pack (<FontIcon icon="iconfont icon-github"/>`edu/students`)](https://github.com/edu/students), or an [<FontIcon icon="iconfont icon-microsoftazure"/>Azure Free Trial](https://azure.microsoft.com/en-us/free). These options provide various benefits and free credits to get you started.
+If you don’t have an Azure account yet, you can sign up for [<VPIcon icon="iconfont icon-microsoftazure"/>Azure for Students](https://azure.microsoft.com/en-us/free/students), the [GitHub Student Developer Pack (<VPIcon icon="iconfont icon-github"/>`edu/students`)](https://github.com/edu/students), or an [<VPIcon icon="iconfont icon-microsoftazure"/>Azure Free Trial](https://azure.microsoft.com/en-us/free). These options provide various benefits and free credits to get you started.
 
 Now let's get into building our model. Follow the steps below to begin! Make sure you read till the end to learn the entire process.
 
@@ -93,7 +93,7 @@ To start working with `Azure Machine Learning`, you first need to create a `work
 
 ### Step 1: Create a Resource Group
 
-Start by signing in to the [<FontIcon icon="iconfont icon-microsoftazure"/>Azure Portal](https://azure.microsoft.com/en-us/get-started/azure-portal). Click the `Create a resource` button (the plus icon) on the left-hand navigation bar.
+Start by signing in to the [<VPIcon icon="iconfont icon-microsoftazure"/>Azure Portal](https://azure.microsoft.com/en-us/get-started/azure-portal). Click the `Create a resource` button (the plus icon) on the left-hand navigation bar.
 
 In the search bar, type “Machine Learning” and select `Azure Machine Learning` from the list.
 
@@ -397,7 +397,7 @@ If you have finished exploring Azure Machine Learning, you can delete the Azure 
 
 To delete your workspace:
 
-1. In the [<FontIcon icon="iconfont icon-microsoftazure"/>Azure portal](https://portal.azure.com/?azure-portal=true), in the **Resource groups** page, open the resource group you specified when creating your Azure Machine Learning workspace.
+1. In the [<VPIcon icon="iconfont icon-microsoftazure"/>Azure portal](https://portal.azure.com/?azure-portal=true), in the **Resource groups** page, open the resource group you specified when creating your Azure Machine Learning workspace.
 2. Click **Delete resource group**, type the resource group name to confirm you want to delete it, and select **Delete**.
 
 ---

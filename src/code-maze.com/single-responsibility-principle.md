@@ -123,7 +123,7 @@ In this article, we are going to show you, through an example, how to create a c
 
 ::: info
 
-To download the source code for this project, check out [the Single Responsibility Principle Project Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/single-responsibility-principle).
+To download the source code for this project, check out [the Single Responsibility Principle Project Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/single-responsibility-principle).
 
 <SiteInfo
   name="CodeMazeBlog/solid-principles-csharp at single-responsibility-principle"

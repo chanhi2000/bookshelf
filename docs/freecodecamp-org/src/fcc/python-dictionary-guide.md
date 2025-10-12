@@ -272,9 +272,9 @@ When working on a project, you will know how to copy dictionaries the right way.
 
 Make sure you go through the code snippets once again and understand how and why they work. This will make you a much better Python programmer.
 
-If you are interested in more content like this, you can check out my YouTube channel [<FontIcon icon="fa-brands fa-youtube"/>`@NeuralNine`](https://youtube.com/@NeuralNine) or my website [<FontIcon icon="fas fa-globe"/>neuralnine.com](https://neuralnine.com/).
+If you are interested in more content like this, you can check out my YouTube channel [<VPIcon icon="fa-brands fa-youtube"/>`@NeuralNine`](https://youtube.com/@NeuralNine) or my website [<VPIcon icon="fas fa-globe"/>neuralnine.com](https://neuralnine.com/).
 
-For Python enthusiasts I have a special Python book series that teaches you the language from scratch and also goes into more advanced topics like machine learning and computer vision. You can find it [<FontIcon icon="fas fa-globe"/>here](https://neuralnine.com/books).
+For Python enthusiasts I have a special Python book series that teaches you the language from scratch and also goes into more advanced topics like machine learning and computer vision. You can find it [<VPIcon icon="fas fa-globe"/>here](https://neuralnine.com/books).
 
 I hope you enjoyed this article and I wish you a great day!
 

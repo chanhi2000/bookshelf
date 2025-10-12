@@ -218,10 +218,10 @@ I plan to create many more projects involving AI and other cutting-edge tools. A
 
 That’s all from my side. If you found this article helpful, feel free to share it and connect with me. I’m always open to new opportunities:
 
-- Follow me on X: [Prankur's Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`prankurpandeyy`)](https://x.com/prankurpandeyy)
-- Connect with me on LinkedIn: [Prankur's LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`prankurpandeyy`)](https://linkedin.com/in/prankurpandeyy)
-- Follow me on Github: [Prankur’s Github (<FontIcon icon="iconfont icon-github"/>`prankurpandeyy`)](https://github.com/prankurpandeyy)
-- View my Portfolio: [<FontIcon icon="fas fa-globe"/>Prankur's Portfolio](https://prankurpandeyy.netlify.app/)
+- Follow me on X: [Prankur's Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`prankurpandeyy`)](https://x.com/prankurpandeyy)
+- Connect with me on LinkedIn: [Prankur's LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`prankurpandeyy`)](https://linkedin.com/in/prankurpandeyy)
+- Follow me on Github: [Prankur’s Github (<VPIcon icon="iconfont icon-github"/>`prankurpandeyy`)](https://github.com/prankurpandeyy)
+- View my Portfolio: [<VPIcon icon="fas fa-globe"/>Prankur's Portfolio](https://prankurpandeyy.netlify.app/)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -67,7 +67,7 @@ cd my-awesome-library
 
 ### Step 2: Initialize npm
 
-Run the following command to create a <FontIcon icon="iconfont icon-json"/>`package.json` file:
+Run the following command to create a <VPIcon icon="iconfont icon-json"/>`package.json` file:
 
 ```sh
 npm init
@@ -78,11 +78,11 @@ You will be prompted to enter details such as:
 - Package name
 - Version
 - Description
-- Entry point (default: <FontIcon icon="fa-brands fa-js"/>`index.js`)
+- Entry point (default: <VPIcon icon="fa-brands fa-js"/>`index.js`)
 - Author
 - License
 
-💡 To skip the prompts and create a default <FontIcon icon="iconfont icon-json"/>`package.json`, use:
+💡 To skip the prompts and create a default <VPIcon icon="iconfont icon-json"/>`package.json`, use:
 
 ```sh
 npm init -y
@@ -94,7 +94,7 @@ npm init -y
 
 Now, let’s create a simple utility library that provides a function to format dates.
 
-### Step 3: Create an <FontIcon icon="fa-brands fa-js"/>`index.js` File
+### Step 3: Create an <VPIcon icon="fa-brands fa-js"/>`index.js` File
 
 Inside the project folder, create a file named `index.js` and add the following code:
 

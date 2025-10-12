@@ -332,7 +332,7 @@ You need to make sure your Python code can find and use your OpenAI API key. Thi
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-macos"/>,<FontIcon icon="fa-brands fa-linux"/>
+@tab:active <VPIcon icon="iconfont icon-macos"/>,<VPIcon icon="fa-brands fa-linux"/>
 
 On macOS/Linux, run this in your terminal (replace `your-api-key` with your actual key):
 
@@ -342,7 +342,7 @@ export OPENAI_API_KEY="your-api-key"
 
 This command sets an environment variable named `OPENAI_API_KEY`. Environment variables are a secure way for applications (like your Python script) to access sensitive information without hardcoding it directly into the code itself.
 
-@tab <FontIcon icon="fa-brands fa-windows"/>
+@tab <VPIcon icon="fa-brands fa-windows"/>
 
 On Windows (using Command Prompt), do this:
 

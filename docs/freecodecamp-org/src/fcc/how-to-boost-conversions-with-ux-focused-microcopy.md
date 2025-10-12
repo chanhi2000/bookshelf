@@ -98,7 +98,7 @@ A few well-chosen words can smooth the path, ease anxieties, and encourage users
 In simple terms, microcopy is the text that guides users throughout your product. Think of microcopy as the tiny linguistic signposts and friendly nudges that guide users within your interface. Examples of microcopy include a:
 
 - Call to Action (CTA) on a button: **"Add to Cart"** vs **"Get Yours Now!"**
-- Hint text in a form field: "e.g., [<FontIcon icon="fas fa-envelope"/>`name@example.com`](mailto:name@example.com)"
+- Hint text in a form field: "e.g., [<VPIcon icon="fas fa-envelope"/>`name@example.com`](mailto:name@example.com)"
 - Error messages: **"Oops! That password isn't quite right. Try again?"**
 - Success messages: **"Woohoo! Your order is confirmed!"**
 - Tooltips and helper text: **"Your CVV is the 3-digit code on the back of your card."**

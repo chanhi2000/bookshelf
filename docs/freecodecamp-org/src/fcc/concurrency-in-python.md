@@ -611,7 +611,7 @@ I hope you now have a clear understanding of the concepts that may have seemed s
 
 Until then, your friend here, Hemachandra, is signing off…
 
-For more courses, you can visit my personal [<FontIcon icon="fas fa-globe"/>website](https://datatechs.in/).
+For more courses, you can visit my personal [<VPIcon icon="fas fa-globe"/>website](https://datatechs.in/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

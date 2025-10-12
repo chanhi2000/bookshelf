@@ -58,7 +58,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749830866913/e732db4
 
 Vue composables are a very helpful tool when developing Vue applications. They give developers an easy way to reuse logic across our applications. In addition to allowing for “stateless” logic (things like formatting or routine calculations), composables also give us the ability to reuse stateful logic throughout the app.
 
-Before diving into the tutorial below, I want to mention that the documentation for Vue is *really* good. [<FontIcon icon="iconfont icon-vuejs"/>The page on composables](https://vuejs.org/guide/reusability/composables) explains the basics really well and will get you 90 percent of the way there. I am writing this article because I think the examples in the docs could go a little deeper in explaining how things can work inside of a composable. I will be reiterating some of the information from the docs, but I will also provide an example of a more complex composable.
+Before diving into the tutorial below, I want to mention that the documentation for Vue is *really* good. [<VPIcon icon="iconfont icon-vuejs"/>The page on composables](https://vuejs.org/guide/reusability/composables) explains the basics really well and will get you 90 percent of the way there. I am writing this article because I think the examples in the docs could go a little deeper in explaining how things can work inside of a composable. I will be reiterating some of the information from the docs, but I will also provide an example of a more complex composable.
 
 ---
 
@@ -385,7 +385,7 @@ In those `tr` tags, you can see the template rendering different things dependin
 
 ::: info
 
-For a more complete look at the code, you can visit [the GitHub repo (<FontIcon icon="iconfont icon-github"/>`briancbarrow/understanding-composables`)](https://github.com/briancbarrow/understanding-composables). You can also look at how VueUse, a collection of composables, handles similar functionality:
+For a more complete look at the code, you can visit [the GitHub repo (<VPIcon icon="iconfont icon-github"/>`briancbarrow/understanding-composables`)](https://github.com/briancbarrow/understanding-composables). You can also look at how VueUse, a collection of composables, handles similar functionality:
 
 <SiteInfo
   name="VueUse"
@@ -406,7 +406,7 @@ Composables are an incredibly useful tool in Vue 3. As projects grow in size and
 
 The key is identifying when you have stateful logic that needs to be reused across components, then extracting it into a well-structured composable that handles edge cases properly.
 
-For more real world examples you can check out the [<FontIcon icon="iconfont icon-vuejs"/>VueUse library](https://vueuse.org/) and [repo (<FontIcon icon="iconfont icon-github"/>`vueuse/vueuse`)](https://github.com/vueuse/vueuse).
+For more real world examples you can check out the [<VPIcon icon="iconfont icon-vuejs"/>VueUse library](https://vueuse.org/) and [repo (<VPIcon icon="iconfont icon-github"/>`vueuse/vueuse`)](https://github.com/vueuse/vueuse).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

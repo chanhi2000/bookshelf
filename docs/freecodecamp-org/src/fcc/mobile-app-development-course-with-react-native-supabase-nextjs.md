@@ -85,7 +85,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729089105157/93e6481
 
 Mobile app development has evolved tremendously, and creating a robust, full-featured app today involves mastering both the front-end and back-end. If you're looking to build something practical, like an e-commerce platform, and want to learn the ins and outs of native mobile app development, this course has you covered. You'll be guided through the process of building a complete gadgets-selling platform, starting from the front-end design with React Native to setting up a secure back-end with Supabase, handling payments with Stripe, and even deploying the app with Next.js for the admin panel.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about developing native mobile apps using React Native, Supabase, Stripe, and Next.js. This course is designed to take you through the entire process of building a complete e-commerce platform, making it an ideal project for anyone looking to strengthen their full-stack development skills. Whether you're new to mobile development or looking to expand your knowledge, this course covers everything step by step. Alaribe Bright developed this course.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about developing native mobile apps using React Native, Supabase, Stripe, and Next.js. This course is designed to take you through the entire process of building a complete e-commerce platform, making it an ideal project for anyone looking to strengthen their full-stack development skills. Whether you're new to mobile development or looking to expand your knowledge, this course covers everything step by step. Alaribe Bright developed this course.
 
 ---
 
@@ -104,7 +104,7 @@ We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/
 
 By the end of this course, you'll have a fully functioning e-commerce mobile app with an admin panel, payment integration, real-time updates, and secure authentication. This project is an excellent addition to your portfolio, demonstrating your ability to handle complex, full-stack development.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/2esQdKzRUCw) (12-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/2esQdKzRUCw) (12-hour watch).
 
 <VidStack src="youtube/2esQdKzRUCw" />
 

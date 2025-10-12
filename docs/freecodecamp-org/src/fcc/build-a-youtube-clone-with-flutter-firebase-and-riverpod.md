@@ -101,7 +101,7 @@ The course is divided into multiple sections, each focusing on a different aspec
 - **Video Features**: Develop functionalities for uploading, displaying, and managing long and short videos, including creating thumbnails, playing videos, and displaying suggested videos.
 - **Social Interaction**: Add features for commenting on videos, liking videos, viewing video details, and subscribing to channels.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/NEYcKvwbW-w) (8-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/NEYcKvwbW-w) (8-hour watch).
 
 <VidStack src="youtube/NEYcKvwbW-w" />
 

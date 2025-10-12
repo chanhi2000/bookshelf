@@ -126,7 +126,7 @@ Say you have these migrations for an app called `store`:
 0003_change_price_field.py
 ```
 
-If you want to undo the <FontIcon icon="fa-brands fa-python"/>`0003_change_price_field.py` migration, you’d run:
+If you want to undo the <VPIcon icon="fa-brands fa-python"/>`0003_change_price_field.py` migration, you’d run:
 
 ```sh
 python manage.py migrate store 0002
@@ -149,11 +149,11 @@ Maybe you ran `makemigrations`, but not `migrate`. So you just created the migra
 
 In that case, you can safely delete the migration file.
 
-Just go into your app’s <FontIcon icon="fas fa-folder-open"/>`migrations/` folder, and delete the unwanted migration file (for example: <FontIcon icon="fa-brands fa-python"/>`0003_change_price_field.py`).
+Just go into your app’s <VPIcon icon="fas fa-folder-open"/>`migrations/` folder, and delete the unwanted migration file (for example: <VPIcon icon="fa-brands fa-python"/>`0003_change_price_field.py`).
 
 Then you can re-run `makemigrations` with the correct changes.
 
-Quick tip: Don't delete <FontIcon icon="fa-brands fa-python"/>`__init__.py` or the <FontIcon icon="fa-brands fa-python"/>`0001_initial.py` file unless you know what you’re doing. That first one is usually required.
+Quick tip: Don't delete <VPIcon icon="fa-brands fa-python"/>`__init__.py` or the <VPIcon icon="fa-brands fa-python"/>`0001_initial.py` file unless you know what you’re doing. That first one is usually required.
 
 ---
 
@@ -165,7 +165,7 @@ This is common when you're still in development, and your database structure is 
 
 Here's how I usually do it:
 
-1. **Delete the migration files** inside the <FontIcon icon="fas fa-folder-open"/>`migrations/` folder of your app (except for <FontIcon icon="fa-brands fa-python"/>`__init__.py`)
+1. **Delete the migration files** inside the <VPIcon icon="fas fa-folder-open"/>`migrations/` folder of your app (except for <VPIcon icon="fa-brands fa-python"/>`__init__.py`)
 2. **Drop the database** or just clear the tables if you're using SQLite or a test DB
 3. Run:
 
@@ -174,7 +174,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-If you're using SQLite, you can also just delete the <FontIcon icon="iconfont icon-sqlite"/>`.sqlite3` file and start fresh.
+If you're using SQLite, you can also just delete the <VPIcon icon="iconfont icon-sqlite"/>`.sqlite3` file and start fresh.
 
 For PostgreSQL or MySQL, you'll need to drop and recreate the database, or reset it using a tool like `pgAdmin` or `DBeaver`.
 
@@ -291,7 +291,7 @@ Reverting migrations in Django isn't scary once you get the hang of it. It's lik
 
 So now that you know how to revert a migration in Django, what’s the trickiest migration issue you've run into—and how did you fix it?
 
-Shoot me a [message (<FontIcon icon="fa-brands fa-x-twitter"/>`_udemezue`)](http://x.com/_udemezue/) - I’d love to hear your story.
+Shoot me a [message (<VPIcon icon="fa-brands fa-x-twitter"/>`_udemezue`)](http://x.com/_udemezue/) - I’d love to hear your story.
 
 ::: info Further Resources
 

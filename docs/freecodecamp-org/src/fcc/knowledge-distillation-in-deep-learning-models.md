@@ -83,7 +83,7 @@ Knowledge distillation uses the teacher model soft targets to reflect not just t
 
 The soft labels give a smoother gradient during training, allowing the student model to benefit more from the teacher’s knowledge. This procedure helps the student model to generalize more well and frequently results in a smaller model that retains a considerable percentage of the teacher’s performance.
 
-The temperature parameter used in the [<FontIcon icon="fa-brands fa-wikipedia-w"/>softmax](https://en.wikipedia.org/wiki/Softmax_function) function during the knowledge distillation process influences the sharpness of the probability distributions. Higher temperatures cause softer probability distributions, emphasizing information transfer, whereas lower temperatures produce sharper distributions, favoring precise predictions.
+The temperature parameter used in the [<VPIcon icon="fa-brands fa-wikipedia-w"/>softmax](https://en.wikipedia.org/wiki/Softmax_function) function during the knowledge distillation process influences the sharpness of the probability distributions. Higher temperatures cause softer probability distributions, emphasizing information transfer, whereas lower temperatures produce sharper distributions, favoring precise predictions.
 
 Overall, knowledge distillation is the process of transferring gained knowledge from a powerful and complicated model to a smaller one, making it more suitable for use in circumstances with limited computational resources.
 

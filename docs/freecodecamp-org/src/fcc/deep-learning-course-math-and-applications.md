@@ -88,7 +88,7 @@ The course also goes into the practical applications of calculus in deep learnin
 
 In the later sections, the course introduces the fundamental principles of machine learning and deep learning, exploring the architecture of neural networks, the significance of activation functions, and the backpropagation algorithm essential for training deep learning models.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/HJd1I3FdSnY) (14-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/HJd1I3FdSnY) (14-hour watch).
 
 <VidStack src="youtube/HJd1I3FdSnY" />
 

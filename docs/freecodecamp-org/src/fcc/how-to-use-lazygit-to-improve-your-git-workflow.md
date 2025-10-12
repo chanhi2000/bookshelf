@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744293114488/5332db8
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1744293114488/5332db88-bff6-4aef-91eb-3423f3b95e1a.png"/>
 
-[<FontIcon icon="iconfont icon-github"/>`jesseduffield/lazygit`](https://github.com/jesseduffield/lazygit) is an open-source command line terminal UI for Git commands that I’ve used for the last couple of years, and it’s become my new best friend.
+[<VPIcon icon="iconfont icon-github"/>`jesseduffield/lazygit`](https://github.com/jesseduffield/lazygit) is an open-source command line terminal UI for Git commands that I’ve used for the last couple of years, and it’s become my new best friend.
 
 Basically, the Lazygit tool is a wrapper for the Git command line that replaces it with a UI. Instead of typing out Git commands again and again in your terminal, you can use keyboard shortcuts to commit, push, pull, create, edit, and delete branches in your project.
 
@@ -66,17 +66,17 @@ Before we start, you’ll need to make sure it’s installed on your machine. Yo
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="iconfont icon-macos"/>
+@tab:active <VPIcon icon="iconfont icon-macos"/>
 
-You can [<FontIcon icon="iconfont icon-homebrew"/>install lazygit](https://formulae.brew.sh/formula/lazygit#default) in macOS using Homebrew like this:
+You can [<VPIcon icon="iconfont icon-homebrew"/>install lazygit](https://formulae.brew.sh/formula/lazygit#default) in macOS using Homebrew like this:
 
 ```sh
 brew install lazygit
 ```
 
-@tab <FontIcon icon="fa-brands fa-windows"/>
+@tab <VPIcon icon="fa-brands fa-windows"/>
 
-You can [<FontIcon icon="iconfont icon-scoop"/>install lazygit](https://scoop.sh/#/apps?q=lazygit) in Windows using Scoop like this:
+You can [<VPIcon icon="iconfont icon-scoop"/>install lazygit](https://scoop.sh/#/apps?q=lazygit) in Windows using Scoop like this:
 
 ```sh
 # Add the extras bucket
@@ -86,15 +86,15 @@ scoop bucket add extras
 scoop install lazygit
 ```
 
-@tab <FontIcon icon="iconfont icon-archlinux"/>
+@tab <VPIcon icon="iconfont icon-archlinux"/>
 
-You can [<FontIcon icon="iconfont icon-archlinux"/>install lazygit](https://aur.archlinux.org/packages/lazygit-git) in Arch using Pacman like this:
+You can [<VPIcon icon="iconfont icon-archlinux"/>install lazygit](https://aur.archlinux.org/packages/lazygit-git) in Arch using Pacman like this:
 
 ```sh
 sudo pacman -S lazygit
 ```
 
-@tab <FontIcon icon="fa-brands fa-debian"/>,<FontIcon icon="fa-brands fa-ubuntu"/>,<FontIcon icon="iconfont icon-linuxmint"/>
+@tab <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
 
 You can install lazygit in Ubuntu and Debian using the following command:
 
@@ -113,7 +113,7 @@ lazygit --version
 # commit=, build date=, build source=nix, version=0.44.1, os=linux, arch=amd64, git version=2.47.0
 ```
 
-@tab <FontIcon icon="fa-brands fa-fedora"/>,<FontIcon icon="fa-brands fa-centos"/>,<FontIcon icon="fa-brands fa-redhat"/>,<FontIcon icon="iconfont icon-rockylinux"/>
+@tab <VPIcon icon="fa-brands fa-fedora"/>,<VPIcon icon="fa-brands fa-centos"/>,<VPIcon icon="fa-brands fa-redhat"/>,<VPIcon icon="iconfont icon-rockylinux"/>
 
 You can install lazygit in Fedora and RHEL using DNF like this:
 
@@ -122,9 +122,9 @@ sudo dnf copr enable atim/lazygit -y
 sudo dnf install lazygit
 ```
 
-@tab <FontIcon icon="iconfont icon-nixos"/>
+@tab <VPIcon icon="iconfont icon-nixos"/>
 
-You can [<FontIcon icon="iconfont icon-nixos"/>install lazygit](https://search.nixos.org/packages?channel=24.11&from=0&size=50&sort=relevance&type=packages&query=lazygit) in NixOS using the following method:
+You can [<VPIcon icon="iconfont icon-nixos"/>install lazygit](https://search.nixos.org/packages?channel=24.11&from=0&size=50&sort=relevance&type=packages&query=lazygit) in NixOS using the following method:
 
 ```sh
 # with nix-shell
@@ -151,7 +151,7 @@ To use Lazygit, you don’t need any advanced knowledge about Lazygit or the Git
 
 The main thing to understand is how the key mappings (shortcut keys) work. In this tutorial, I won’t discuss every key mapping, but I’ll teach you about some of the most common Lazygit key mappings which you’ll use on a daily basis. They’ll help you build a solid base for using the tool effectively.
 
-To use Lazygit, first open the terminal you use. For example, I’m using the GNOME distro, so I’ll use the [<FontIcon icon="fa-brands fa-gitlab"/>Ptyxis terminal](https://gitlab.gnome.org/chergert/ptyxis).
+To use Lazygit, first open the terminal you use. For example, I’m using the GNOME distro, so I’ll use the [<VPIcon icon="fa-brands fa-gitlab"/>Ptyxis terminal](https://gitlab.gnome.org/chergert/ptyxis).
 
 Type the `lazygit` command in your terminal:
 
@@ -312,7 +312,7 @@ To merge a branch, press <kbd>M</kbd> (capital M). To open the merge options, ch
 
 To resolve merge conflicts in Lazygit, first merge a branch by pressing <kbd>M</kbd>, then choose the merge type (which I describe in the subsection on how to merge a branch) and hit <kbd>Enter</kbd>.
 
-If any merge conflicts occur, the conflicting file(s) appear in the files panel. Press <kbd>Enter</kbd> to view the merge conflicts in the preview panel and navigate between conflicts using the <kbd><FontIcon icon="fas fa-arrow-up"/></kbd> and <kbd><FontIcon icon="fas fa-arrow-down"/></kbd> keys. Select the correct merge conflicts, press the <kbd>space</kbd> key, and your merge issue will be resolved.
+If any merge conflicts occur, the conflicting file(s) appear in the files panel. Press <kbd>Enter</kbd> to view the merge conflicts in the preview panel and navigate between conflicts using the <kbd><VPIcon icon="fas fa-arrow-up"/></kbd> and <kbd><VPIcon icon="fas fa-arrow-down"/></kbd> keys. Select the correct merge conflicts, press the <kbd>space</kbd> key, and your merge issue will be resolved.
 
 ![resolve merge conflicts in lazygit](https://cdn.hashnode.com/res/hashnode/image/upload/v1743921640247/e5b7f971-f027-47df-be4c-a90b356e24f8.gif)
 
@@ -346,12 +346,12 @@ Lazygit helps you become more productive when working with Git or Git commands. 
 
 If you are a first-time Lazygit user, my suggestion is to avoid using Lazygit on a working repository. Instead, create a demo repository and try it out/practice.
 
-To learn more about [LazyGit keybindings or shortcuts (<FontIcon icon="iconfont icon-github"/>`jesseduffield/lazygit`)](https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md), you can refer to the Lazygit documentation. You can also check out the following YouTube tutorials for beginners:
+To learn more about [LazyGit keybindings or shortcuts (<VPIcon icon="iconfont icon-github"/>`jesseduffield/lazygit`)](https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md), you can refer to the Lazygit documentation. You can also check out the following YouTube tutorials for beginners:
 
-- [<FontIcon icon="fa-brands fa-youtube"/>LazyGIt - A Faster, Easier Way to Use Git on Terminal & NeoVim](https://youtu.be/A6F_8ajlrYQ)
-- [<FontIcon icon="fa-brands fa-youtube"/>Lazygit - The Best Way To Use Git On The Terminal & Neovim](https://youtu.be/Ihg37znaiBo)
-- [<FontIcon icon="fa-brands fa-youtube"/>My new favorite way to use Git](https://youtu.be/06lEP59XAgM)
-- [<FontIcon icon="fa-brands fa-youtube"/>LazyGit: Effortless Git in Your Terminal!](https://youtu.be/dSWJKcEiAaM)
+- [<VPIcon icon="fa-brands fa-youtube"/>LazyGIt - A Faster, Easier Way to Use Git on Terminal & NeoVim](https://youtu.be/A6F_8ajlrYQ)
+- [<VPIcon icon="fa-brands fa-youtube"/>Lazygit - The Best Way To Use Git On The Terminal & Neovim](https://youtu.be/Ihg37znaiBo)
+- [<VPIcon icon="fa-brands fa-youtube"/>My new favorite way to use Git](https://youtu.be/06lEP59XAgM)
+- [<VPIcon icon="fa-brands fa-youtube"/>LazyGit: Effortless Git in Your Terminal!](https://youtu.be/dSWJKcEiAaM)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

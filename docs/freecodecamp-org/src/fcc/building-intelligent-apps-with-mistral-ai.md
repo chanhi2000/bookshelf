@@ -26,6 +26,9 @@ head:
 prev: /ai/llm/articles/README.md
 date: 2024-06-18
 isOriginal: false
+author:
+  - name: Per Borgen
+    url : https://github.com/perborgen
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718723463563/f1439b8b-194b-4f96-a854-03d516b791fc.jpeg
 ---
 

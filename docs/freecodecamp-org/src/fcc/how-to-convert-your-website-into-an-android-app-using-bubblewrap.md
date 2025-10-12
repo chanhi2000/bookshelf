@@ -120,7 +120,7 @@ This is where the "secret handshake" comes in. Android needs to be sure that the
 
 This trust is verified using a system called **Digital Asset Links**. You place a special file on your website (we'll do this in the implementation part) that contains your app's unique digital fingerprint. When a user opens your app, the Android OS checks this file. If the fingerprints match, it grants your app "trusted" status, removes the address bar, and enables other features like deep linking.
 
-You can check this relationship yourself using Google's official testing tool: [<FontIcon icon="fa-brands fa-google"/>Digital Asset Links Verifier](https://developers.google.com/digital-asset-links/tools/generator).
+You can check this relationship yourself using Google's official testing tool: [<VPIcon icon="fa-brands fa-google"/>Digital Asset Links Verifier](https://developers.google.com/digital-asset-links/tools/generator).
 
 Now that you understand the project and tools, let’s start building.
 
@@ -136,15 +136,15 @@ This guide is based on a project built with Vite, which makes this process easy 
 
 Before we touch any code, we need the icons for our app. Android requires specific sizes for the app's launcher icon (what you see on your home screen) and the splash screen (what you see when the app starts).
 
-You'll need two main sizes: `192x192` pixels and `512x512` pixels. You can use this [<FontIcon icon="fas fa-globe"/>Favicon Generator](https://realfavicongenerator.net/) to generate your logo in the respective sizes. You can upload your main logo, and it will generate all the necessary sizes for you.
+You'll need two main sizes: `192x192` pixels and `512x512` pixels. You can use this [<VPIcon icon="fas fa-globe"/>Favicon Generator](https://realfavicongenerator.net/) to generate your logo in the respective sizes. You can upload your main logo, and it will generate all the necessary sizes for you.
 
-Then just download the generated files and place the `192x192` and `512x512` files into the <FontIcon icon="fas fa-folder-open"/>`public` folder of your project.
+Then just download the generated files and place the `192x192` and `512x512` files into the <VPIcon icon="fas fa-folder-open"/>`public` folder of your project.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755067586673/f7e06fc2-4b55-4ec3-af05-b2e78bf19273.png)
 
 ### Install the Vite PWA plugin
 
-A PWA requires a manifest file and a service worker. We can create these manually, but this plugin automates that entire process. It will automatically generate a <FontIcon icon="iconfont icon-json"/>`manifest.json` and <FontIcon icon="fa-brands fa-js"/>`service-worker.js` for you every time you build your project.
+A PWA requires a manifest file and a service worker. We can create these manually, but this plugin automates that entire process. It will automatically generate a <VPIcon icon="iconfont icon-json"/>`manifest.json` and <VPIcon icon="fa-brands fa-js"/>`service-worker.js` for you every time you build your project.
 
 ```sh
 npm install vite-plugin-pwa -D
@@ -152,7 +152,7 @@ npm install vite-plugin-pwa -D
 
 ### Configure the Plugin
 
-In this step, we’ll use this plugin and configure our app's manifest. Edit the <FontIcon icon="iconfont icon-typescript"/>`vite.config.ts` file. This configuration will tell the plugin what to name your app, which icons to use, and so on.
+In this step, we’ll use this plugin and configure our app's manifest. Edit the <VPIcon icon="iconfont icon-typescript"/>`vite.config.ts` file. This configuration will tell the plugin what to name your app, which icons to use, and so on.
 
 ```ts title="vite.config.ts"
 export default defineConfig({
@@ -194,7 +194,7 @@ Now that your website is a PWA, let’s use Bubblewrap to package it into an And
 
 ### Create a Build Folder
 
-Create a dedicated folder for your Android project files. In your project's root, create a new folder. I'll call mine <FontIcon icon="fas fa-folder-open"/>`android`.
+Create a dedicated folder for your Android project files. In your project's root, create a new folder. I'll call mine <VPIcon icon="fas fa-folder-open"/>`android`.
 
 ```plaintext title="file structure"
 project/
@@ -235,7 +235,7 @@ As you run the `init` command, Bubblewrap will need two key software packages: t
 In my case, when I let Bubblewrap install the JDK, the process downloaded the files but then failed at the "decompressing" step. If you face this same problem, don't worry! The fix is to install it manually.
 
 - Say **No** to the prompt.
-- Download the recommended version (usually JDK 17) from a source like [<FontIcon icon="fa-brands fa-java"/>Adoptium](https://adoptium.net/temurin/releases/?version=17).
+- Download the recommended version (usually JDK 17) from a source like [<VPIcon icon="fa-brands fa-java"/>Adoptium](https://adoptium.net/temurin/releases/?version=17).
 - Install it and set up your system's environment variables to include the JDK's `bin` path. If you’re not sure how to set environment variables, you can check out this site: [**Set Environment Variables**](/c-sharpcorner.com/how-to-addedit-path-environment-variable-in-windows-11.md).
 - When Bubblewrap asks for the path, provide it directly, such as `C:\java\jdk-17.0.16.8-hotspot`.
 
@@ -256,7 +256,7 @@ If you face any problem in setting up on Android SDK, just set it up manually an
 
 ## Step 3 - Answer Bubblewrap Questions
 
-After the SDK is set up, Bubblewrap will ask a bunch of questions to configure your app. This information is used to create the <FontIcon icon="iconfont icon-json"/><FontIcon icon="iconfont icon-json"/>`twa-manifest.json` file, which is the blueprint for your App.
+After the SDK is set up, Bubblewrap will ask a bunch of questions to configure your app. This information is used to create the <VPIcon icon="iconfont icon-json"/><VPIcon icon="iconfont icon-json"/>`twa-manifest.json` file, which is the blueprint for your App.
 
 ```plaintext
 Domain: Press Enter (auto-filled from your manifest)
@@ -298,7 +298,7 @@ Password for key: Re-enter the same password
 
 ::: note
 
-These passwords for both the key store and key should be the same, or else it will throw an error. **Refer to this issue:** [Bubblewrap Issue (<FontIcon icon="iconfont icon-github"/>`GoogleChromeLabs/bubblewrap`)](https://github.com/GoogleChromeLabs/bubblewrap/issues/713).
+These passwords for both the key store and key should be the same, or else it will throw an error. **Refer to this issue:** [Bubblewrap Issue (<VPIcon icon="iconfont icon-github"/>`GoogleChromeLabs/bubblewrap`)](https://github.com/GoogleChromeLabs/bubblewrap/issues/713).
 
 :::
 
@@ -318,7 +318,7 @@ This command starts building your application. Here, the flag `universalApk` wil
 
 Once the build is done, you’ll get the APK. Transfer it to your phone and test it. When you open the app, you’ll see the browser address bar. This is because we haven't set up the "trust" between your app and your website yet. Let's fix that now.
 
-In your frontend project, go to the <FontIcon icon="fas fa-folder-open"/>`public` folder, create a new folder called <FontIcon icon="fas fa-folder-open"/>`.well-known`, and inside that, create a file called <FontIcon icon="iconfont icon-json"/>`assetlinks.json`.
+In your frontend project, go to the <VPIcon icon="fas fa-folder-open"/>`public` folder, create a new folder called <VPIcon icon="fas fa-folder-open"/>`.well-known`, and inside that, create a file called <VPIcon icon="iconfont icon-json"/>`assetlinks.json`.
 
 ```plaintext title="file structure"
 frontend/
@@ -327,11 +327,11 @@ frontend/
         └── assetlinks.json
 ```
 
-### What is the <FontIcon icon="fas fa-folder-open"/>`.well-known` folder?
+### What is the <VPIcon icon="fas fa-folder-open"/>`.well-known` folder?
 
 A well-known folder is used to store files that define configurations for protocols, as it’s used for external sources to find the validation for your website. In our case, our app checks the well-known folder from our website and verifies the validation.
 
-Paste the following into <FontIcon icon="iconfont icon-json"/>`assetlinks.json`:
+Paste the following into <VPIcon icon="iconfont icon-json"/>`assetlinks.json`:
 
 ```json title="assetlinks.json"
 [
@@ -352,7 +352,7 @@ Paste the following into <FontIcon icon="iconfont icon-json"/>`assetlinks.json`:
 
 This is a special flag that opens all the links from the app instead of the domain. Simply put, it acts as a deeplink. After you install the app, if you click your website link from WhatsApp or from somewhere, it will open your app instead of opening in a browser, acting as a deeplink.
 
-The `package_name` field should be the `packageId`, which you can get from your Android build folder in <FontIcon icon="iconfont icon-json"/>`twa-manifest.json`.
+The `package_name` field should be the `packageId`, which you can get from your Android build folder in <VPIcon icon="iconfont icon-json"/>`twa-manifest.json`.
 
 Now, get your fingerprints. Run the following command to do so:
 
@@ -360,7 +360,7 @@ Now, get your fingerprints. Run the following command to do so:
 keytool -list -v -keystore android.keystore -alias android
 ```
 
-The alias name should be the value that you created. Once you enter this command, it’ll ask for the key store password. Enter that, and you’ll get your `SHA256` fingerprint. Copy that and paste it into the <FontIcon icon="iconfont icon-json"/>`assetslinks.json` file in the `sha256_cert_fingerprints` array. Now push these changes to production. You can verify the validation in [<FontIcon icon="fa-brands fa-google"/>Digital Asset Links](https://developers.google.com/digital-asset-links/tools/generator)
+The alias name should be the value that you created. Once you enter this command, it’ll ask for the key store password. Enter that, and you’ll get your `SHA256` fingerprint. Copy that and paste it into the <VPIcon icon="iconfont icon-json"/>`assetslinks.json` file in the `sha256_cert_fingerprints` array. Now push these changes to production. You can verify the validation in [<VPIcon icon="fa-brands fa-google"/>Digital Asset Links](https://developers.google.com/digital-asset-links/tools/generator)
 
 That’s it! Now you can install the app and test it.
 
@@ -370,7 +370,7 @@ That’s it! Now you can install the app and test it.
 
 Now, additionally, there will be some cases where we want to show different content to users on the website vs the mobile app. Can we do that? Yes!
 
-In your Android build folder, in <FontIcon icon="iconfont icon-json"/>`twa-manifest.json`, there will be a field called `startUrl`. If not, add it and add the value `"startUrl": "/?twa=true"`. The `startUrl` is the entry point. I have a query parameter of value `twa=true`.
+In your Android build folder, in <VPIcon icon="iconfont icon-json"/>`twa-manifest.json`, there will be a field called `startUrl`. If not, add it and add the value `"startUrl": "/?twa=true"`. The `startUrl` is the entry point. I have a query parameter of value `twa=true`.
 
 Run the build again with `bubblewrap build --universalApk`.
 
@@ -409,7 +409,7 @@ In the code above, we check for the `twa=true` query parameter in the URL. If it
 
 That's it. We have created an App.
 
-If you want to change any name, colour, or splash screen, you can change it in <FontIcon icon="iconfont icon-json"/>`twa-manifest.json` and run the build again.
+If you want to change any name, colour, or splash screen, you can change it in <VPIcon icon="iconfont icon-json"/>`twa-manifest.json` and run the build again.
 
 ---
 
@@ -426,7 +426,7 @@ By the way, you can check out the App that I made using Bubblewrap here:
   logo="https://strangertalk.chat/favicon.ico"
   preview="https://strangertalk.chat/preview.png"/>
 
-If there are any mistakes or you have any questions, contact me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`sanjay-r-ab6064294`)](https://linkedin.com/in/sanjay-r-ab6064294/) or [Instagram (<FontIcon icon="fa-brands fa-instagram"/>`heheheh_pet`)](https://instagram.com/heheheh_pet/profilecard/?igsh=eXh3MWw4ZzZ3NTRq).
+If there are any mistakes or you have any questions, contact me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`sanjay-r-ab6064294`)](https://linkedin.com/in/sanjay-r-ab6064294/) or [Instagram (<VPIcon icon="fa-brands fa-instagram"/>`heheheh_pet`)](https://instagram.com/heheheh_pet/profilecard/?igsh=eXh3MWw4ZzZ3NTRq).
 
 Thank you for reading!
 

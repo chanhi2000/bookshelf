@@ -54,9 +54,9 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/trpc-imag
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/07/trpc-image.png"/>
 
-For a while now, I've been noticing a technology named [<FontIcon icon="fas fa-globe"/>tRPC](https://trpc.io/) that's cited in many modern tech stacks, including [<FontIcon icon="fas fa-globe"/>T3](https://create.t3.gg/). But I didn't know what it was or why it had become so popular.
+For a while now, I've been noticing a technology named [<VPIcon icon="fas fa-globe"/>tRPC](https://trpc.io/) that's cited in many modern tech stacks, including [<VPIcon icon="fas fa-globe"/>T3](https://create.t3.gg/). But I didn't know what it was or why it had become so popular.
 
-So I began researching and learning about it. I didn't know what it meant or what its purpose was. So, I dug deeper into [<FontIcon icon="fa-brands fa-wikipedia-w"/>RPC](https://en.wikipedia.org/wiki/Remote_procedure_call), [<FontIcon icon="fa-brands fa-wikipedia-w"/>gRPC](https://en.wikipedia.org/wiki/GRPC), and other technologies to find out.
+So I began researching and learning about it. I didn't know what it meant or what its purpose was. So, I dug deeper into [<VPIcon icon="fa-brands fa-wikipedia-w"/>RPC](https://en.wikipedia.org/wiki/Remote_procedure_call), [<VPIcon icon="fa-brands fa-wikipedia-w"/>gRPC](https://en.wikipedia.org/wiki/GRPC), and other technologies to find out.
 
 I found out that tRPC is a type-safe architectural style for designing APIs. But that definition is only the tip of the iceberg.
 
@@ -77,7 +77,7 @@ Note that I'm a fellow learner writing this article. I'm exploring tRPC for the 
 
 :::
 
-You can find the GitHub repository and all other resources for this article [here (<FontIcon icon="iconfont icon-github"/>`whyafan/trpc-demo`)](https://github.com/whyafan/trpc-demo).
+You can find the GitHub repository and all other resources for this article [here (<VPIcon icon="iconfont icon-github"/>`whyafan/trpc-demo`)](https://github.com/whyafan/trpc-demo).
 
 <SiteInfo
   name="whyafan/trpc-demo"
@@ -90,15 +90,15 @@ You can find the GitHub repository and all other resources for this article [her
 
 ## What is tRPC?
 
-[<FontIcon icon="fas fa-globe"/>tRPC](https://trpc.io/) is a type safe TypeScript-based library that leverages the RPC API design to process API requests and deliver a response.
+[<VPIcon icon="fas fa-globe"/>tRPC](https://trpc.io/) is a type safe TypeScript-based library that leverages the RPC API design to process API requests and deliver a response.
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) stands for Remote Procedural Call. Our tRPC builds on RPC. RPC is an architectural style to design APIs like [<FontIcon icon="iconfont icon-ibm"/>REST](https://ibm.com/topics/rest-apis). Using RPC, you get rid of the [<FontIcon icon="fa-brands fa-firefox"/>Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) and [<FontIcon icon="iconfont icon-ibm"/>REST API](https://ibm.com/topics/rest-apis).
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) stands for Remote Procedural Call. Our tRPC builds on RPC. RPC is an architectural style to design APIs like [<VPIcon icon="iconfont icon-ibm"/>REST](https://ibm.com/topics/rest-apis). Using RPC, you get rid of the [<VPIcon icon="fa-brands fa-firefox"/>Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) and [<VPIcon icon="iconfont icon-ibm"/>REST API](https://ibm.com/topics/rest-apis).
 
-As the name suggests, tRPC puts a type safe layer on the RPC architectural design. Traditionally, we use the REST API. It has [<FontIcon icon="fas fa-globe"/>GET, POST, PULL, and other request types](https://restfulapi.net/http-methods/). In tRPC, there are no request types.
+As the name suggests, tRPC puts a type safe layer on the RPC architectural design. Traditionally, we use the REST API. It has [<VPIcon icon="fas fa-globe"/>GET, POST, PULL, and other request types](https://restfulapi.net/http-methods/). In tRPC, there are no request types.
 
 Every request to the tRPC back end passes through a query system and gets a response from the tRPC back end based on the input and query.
 
-![Source: [<FontIcon icon="fas fa-globe"/>Adeesh Sharma](https://adeesh.hashnode.dev/building-an-express-trpc-and-react-monorepo-setup-with-yarn-workspaces-tailwind-zod-and-react-query)](https://freecodecamp.org/news/content/images/2024/07/image-10.png)
+![Source: [<VPIcon icon="fas fa-globe"/>Adeesh Sharma](https://adeesh.hashnode.dev/building-an-express-trpc-and-react-monorepo-setup-with-yarn-workspaces-tailwind-zod-and-react-query)](https://freecodecamp.org/news/content/images/2024/07/image-10.png)
 
 And instead, built-in functions are available with tRPC and react-query that will process your requests. Every request gets treated the same. It depends on whether the API endpoint accepts an input, throws an output, mutates it, and so on.
 
@@ -114,9 +114,9 @@ If the client tries to do this, you'll immediately receive an error — **Invali
 
 ![tRPC Type safe Error after submitting unexpected datatype value](https://freecodecamp.org/news/content/images/2024/07/type-error.png)
 
-Type safety is crucial for applications using JavaScript. So tRPC leverages [<FontIcon icon="iconfont icon-typescript"/>TypeScript](https://typescriptlang.org/). This makes it easier to create routes and perform operations on the back end.
+Type safety is crucial for applications using JavaScript. So tRPC leverages [<VPIcon icon="iconfont icon-typescript"/>TypeScript](https://typescriptlang.org/). This makes it easier to create routes and perform operations on the back end.
 
-tRPC requires a library named [<FontIcon icon="fas fa-globe"/>Zod](https://zod.dev/). It helps tRPC to build the data schema of each route. A schema is an object with properties and an equivalent datatype linked to each property.
+tRPC requires a library named [<VPIcon icon="fas fa-globe"/>Zod](https://zod.dev/). It helps tRPC to build the data schema of each route. A schema is an object with properties and an equivalent datatype linked to each property.
 
 For example, if an API route requires the user's details, you would create an object on the back end and assign a datatype to each property using Zod.
 
@@ -136,11 +136,11 @@ Let's start by creating the client side using React and the server side using Ex
 
 ### Folder Structure
 
-First, create a directory named `tRPC Demo`. Inside this directory, create another directory named <FontIcon icon="fas fa-folder-open"/>`trpclibrary` to separate the client and server sides and execute them together as a library later.
+First, create a directory named `tRPC Demo`. Inside this directory, create another directory named <VPIcon icon="fas fa-folder-open"/>`trpclibrary` to separate the client and server sides and execute them together as a library later.
 
-Inside the <FontIcon icon="fas fa-folder-open"/>`trpclibrary` directory, you'll place your server (Express) and client (React) soon.
+Inside the <VPIcon icon="fas fa-folder-open"/>`trpclibrary` directory, you'll place your server (Express) and client (React) soon.
 
-Inside the `tRPC Demo` root directory, insert a <FontIcon icon="iconfont icon-json"/>`package.json` file with the following code to interconnect all the folders and run the client and server-side with a single command.
+Inside the `tRPC Demo` root directory, insert a <VPIcon icon="iconfont icon-json"/>`package.json` file with the following code to interconnect all the folders and run the client and server-side with a single command.
 
 ```json
 {
@@ -162,7 +162,7 @@ Inside the `tRPC Demo` root directory, insert a <FontIcon icon="iconfont icon-js
 }
 ```
 
-After setting up the <FontIcon icon="iconfont icon-JSON"/>`package.json` in the root directory, you'll start by setting up your Express server inside the <FontIcon icon="fas fa-folder-open"/>`trpclibrary` directory.
+After setting up the <VPIcon icon="iconfont icon-JSON"/>`package.json` in the root directory, you'll start by setting up your Express server inside the <VPIcon icon="fas fa-folder-open"/>`trpclibrary` directory.
 
 Tip: Use the `cd <folder_name>` command to enter into a folder using the terminal and execute commands. In our case, you are in the root directory. So `cd .\trpclibrary` will help you. You can use the VS Code terminal, too.
 
@@ -172,13 +172,13 @@ You will use the `npx create-mf-app` starter command to initiate your server wit
 
 You may get errors stating that you don't have Express or other libraries installed. Don't worry - you'll install every required library shortly.
 
-After creating the server, let's make the client using React and the same command in the same <FontIcon icon="fas fa-folder-open"/>`trpclibrary` directory.
+After creating the server, let's make the client using React and the same command in the same <VPIcon icon="fas fa-folder-open"/>`trpclibrary` directory.
 
 ![Client-Side Setup](https://freecodecamp.org/news/content/images/2024/07/image-11.png)
 
 That's your React client-side ready. But you might be overwhelmed with all the errors concerning modules and packages. So, let's download them first.
 
-I'm using yarn, and I recommend you do the same. Use the `yarn` command in the root <FontIcon icon="fas fa-folder-open"/>`trpcDemo` directory.
+I'm using yarn, and I recommend you do the same. Use the `yarn` command in the root <VPIcon icon="fas fa-folder-open"/>`trpcDemo` directory.
 
 Tip: You can use the `cd ..` command to escape the current directory and enter the outer one.
 
@@ -190,11 +190,11 @@ Your server-side, client-side, or both might not have the TS Configuration file.
 
 Now, you need to download tRPC, CORS, and Zod to your server side of the project.
 
-As of 2nd July 2024, the [<FontIcon icon="fa-brands fa-npm"/>`@trpc/server`](https://npmjs.com/package/@trpc/server)_ package is at the latest version 10.45.2. Remember, even the [client-side tRPC package (<FontIcon icon="fa-brands fa-npm"/>`@trpc/client`)](https://npmjs.com/package/@trpc/client) should be 10.45.2.
+As of 2nd July 2024, the [<VPIcon icon="fa-brands fa-npm"/>`@trpc/server`](https://npmjs.com/package/@trpc/server)_ package is at the latest version 10.45.2. Remember, even the [client-side tRPC package (<VPIcon icon="fa-brands fa-npm"/>`@trpc/client`)](https://npmjs.com/package/@trpc/client) should be 10.45.2.
 
-![Installing Zod, CORS, and <FontIcon icon="fa-brands fa-npm"/>`@trpc/server` to the Server-Side](https://freecodecamp.org/news/content/images/2024/07/image-16.png)
+![Installing Zod, CORS, and <VPIcon icon="fa-brands fa-npm"/>`@trpc/server` to the Server-Side](https://freecodecamp.org/news/content/images/2024/07/image-16.png)
 
-Then, you need to install [<FontIcon icon="fa-brands fa-npm"/>`@trpc/client`](https://npmjs.com/package/@trpc/client), [<FontIcon icon="fa-brands fa-npm"/>`@trpc/react-query`](https://npmjs.com/package/@trpc/react-query), [<FontIcon icon="fa-brands fa-npm"/>`@tanstack/react-query`](https://npmjs.com/package/@tanstack/react-query), [<FontIcon icon="fa-brands fa-npm"/>`@trpc/server`](https://npmjs.com/package/@trpc/server), and [<FontIcon icon="fa-brands fa-npm"/>`zod`](https://npmjs.com/package/zod) for the client side. You'll use the same "[yarn add](https://classic.yarnpkg.com/lang/en/docs/cli/add/) " command.
+Then, you need to install [<VPIcon icon="fa-brands fa-npm"/>`@trpc/client`](https://npmjs.com/package/@trpc/client), [<VPIcon icon="fa-brands fa-npm"/>`@trpc/react-query`](https://npmjs.com/package/@trpc/react-query), [<VPIcon icon="fa-brands fa-npm"/>`@tanstack/react-query`](https://npmjs.com/package/@tanstack/react-query), [<VPIcon icon="fa-brands fa-npm"/>`@trpc/server`](https://npmjs.com/package/@trpc/server), and [<VPIcon icon="fa-brands fa-npm"/>`zod`](https://npmjs.com/package/zod) for the client side. You'll use the same "[yarn add](https://classic.yarnpkg.com/lang/en/docs/cli/add/) " command.
 
 This time, I won't share the screenshot. Refer to the previous steps and try downloading them.
 
@@ -217,7 +217,7 @@ Here's what we will do in this section:
 3. Set up a base URL
 4. Set up CORS
 
-Let's begin by creating a tRPC instance in the <FontIcon icon="iconfont icon-typescript"/>`index.ts` file of the server-side directory. As per the documentation, you should only initiate one instance per application.
+Let's begin by creating a tRPC instance in the <VPIcon icon="iconfont icon-typescript"/>`index.ts` file of the server-side directory. As per the documentation, you should only initiate one instance per application.
 
 Using the tRPC instance, create a router. A router helps you register routes where API requests arrive and are processed.
 
@@ -235,11 +235,11 @@ type Context = Awaited<ReturnType<typeof createContext>>;
 const trpc = initTRPC.context<Context>().create();
 ```
 
-You must place this code above the existing boilerplate code in the <FontIcon icon="iconfont icon-typescript"/>`index.ts` file and below the import statements. It should be above the app and port variable declarations and below the express import statement.
+You must place this code above the existing boilerplate code in the <VPIcon icon="iconfont icon-typescript"/>`index.ts` file and below the import statements. It should be above the app and port variable declarations and below the express import statement.
 
-Voilà! I created a tRPC instance using the `initTRPC` Builder from the <FontIcon icon="fa-brands fa-npm"/>`@trpc/server` package. We'll use this instance for everything related to the back end.
+Voilà! I created a tRPC instance using the `initTRPC` Builder from the <VPIcon icon="fa-brands fa-npm"/>`@trpc/server` package. We'll use this instance for everything related to the back end.
 
-Additionally, I've added a [<FontIcon icon="fas fa-globe"/>Context](https://trpc.io/docs/v10/server/context) to the tRPC Router. It's a feature by tRPC. It allows you to put details like database connections and authentication information.
+Additionally, I've added a [<VPIcon icon="fas fa-globe"/>Context](https://trpc.io/docs/v10/server/context) to the tRPC Router. It's a feature by tRPC. It allows you to put details like database connections and authentication information.
 
 tRPC shares the Context between all tRPC procedures. It's an information and storage place to avoid code duplication and keep the code organized.
 
@@ -277,9 +277,9 @@ You can create unlimited routes inside the `router()` procedure. It is like a ro
 
 You'll require the procedure builder to access procedures like `query()`, `input()`, and so on. So we've bound it with the tRPC instance and accessed those methods.
 
-Now, it's time to set the base URL. You will use the Express adapter from the <FontIcon icon="fa-brands fa-npm"/>`@trpc/server` library to set the base URL.
+Now, it's time to set the base URL. You will use the Express adapter from the <VPIcon icon="fa-brands fa-npm"/>`@trpc/server` library to set the base URL.
 
-Place the following code above the `app.get()` routes inside the <FontIcon icon="iconfont icon-typescript"/>`index.ts` file:
+Place the following code above the `app.get()` routes inside the <VPIcon icon="iconfont icon-typescript"/>`index.ts` file:
 
 ```ts
 app.use(
@@ -293,7 +293,7 @@ app.use(
 
 `/api` represents your base URL. Every route will be on top of the `/api` URL. Now, your `hello` API endpoint has become [`http://localhost:3005/api/hello`](http://localhost:3005/api/hello).
 
-Let's try to test this using your browser. Do you remember that I asked you to create a <FontIcon icon="iconfont icon-json"/>`package.json` file with a pre-written code in the root tRPC Demo directory?
+Let's try to test this using your browser. Do you remember that I asked you to create a <VPIcon icon="iconfont icon-json"/>`package.json` file with a pre-written code in the root tRPC Demo directory?
 
 It was to run both the server and client-side as a library. Set your terminal to the root directory. Then, execute `yarn start` to run the server and client-side together and head to the `http://localhost:3005/api/hello` URL.
 
@@ -307,7 +307,7 @@ tRPC expected an object with a string-based property named `name` with a value. 
 
 "That's all good, but what now?" You must connect the front end with the server side to send the object with the expected data.
 
-There's one more thing left for the server side. CORS! It's simple to set it up. Find the Express Initialisation code in the <FontIcon icon="iconfont icon-typescript"/>`index.ts` file. It came with the Express template. Then, insert the following line:
+There's one more thing left for the server side. CORS! It's simple to set it up. Find the Express Initialisation code in the <VPIcon icon="iconfont icon-typescript"/>`index.ts` file. It came with the Express template. Then, insert the following line:
 
 ```ts
 import cors from "cors";
@@ -315,37 +315,37 @@ import cors from "cors";
 app.use(cors());
 ```
 
-Here's a hint: Search the port and app variable declaration in your <FontIcon icon="iconfont icon-typescript"/>`index.ts` file.
+Here's a hint: Search the port and app variable declaration in your <VPIcon icon="iconfont icon-typescript"/>`index.ts` file.
 
-Once you insert the line, it might give you an error because you haven't installed the types of CORS yet. Go to your terminal and install <FontIcon icon="fa-brands fa-npm"/>`@types/cors` inside the server-side directory.
+Once you insert the line, it might give you an error because you haven't installed the types of CORS yet. Go to your terminal and install <VPIcon icon="fa-brands fa-npm"/>`@types/cors` inside the server-side directory.
 
-![<FontIcon icon="fa-brands fa-npm"/>`@types/cors` download.](https://freecodecamp.org/news/content/images/2024/07/image-24.png)
+![<VPIcon icon="fa-brands fa-npm"/>`@types/cors` download.](https://freecodecamp.org/news/content/images/2024/07/image-24.png)
 
 CORS is ready and secure. Your server side is ready! Now, let's try to connect the server side with the client side using the respective libraries.
 
 Before we shift to the client side, I want to make sure that we're on the same page. So far, you've coded an instance of tRPC, formed a Router, set a base URL, and tested the API endpoints with optional Context.
 
-You coded all this inside the server-side <FontIcon icon="iconfont icon-typescript"/>`index.ts` file. Let's move to the client side and conquer the last part of this tutorial.
+You coded all this inside the server-side <VPIcon icon="iconfont icon-typescript"/>`index.ts` file. Let's move to the client side and conquer the last part of this tutorial.
 
 ### Client-Side
 
-We've already downloaded the required packages. We'll start by creating a <FontIcon icon="iconfont icon-typescript"/>`trpc.ts` file in the `/src` directory of the client-side directory. It will handle the queries and requests issued by the front end.
+We've already downloaded the required packages. We'll start by creating a <VPIcon icon="iconfont icon-typescript"/>`trpc.ts` file in the `/src` directory of the client-side directory. It will handle the queries and requests issued by the front end.
 
-You created a tRPC instance to build the router and other components on the server side, right? Well, now you have to do the same on the client side. You need to create a client-side tRPC instance using <FontIcon icon="fa-brands fa-npm"/>`@trpc/react-query`.
+You created a tRPC instance to build the router and other components on the server side, right? Well, now you have to do the same on the client side. You need to create a client-side tRPC instance using <VPIcon icon="fa-brands fa-npm"/>`@trpc/react-query`.
 
 Also, since you want to link your client-side tRPC instance with the server-side one, you have to import the server-side tRPC instance and its type.
 
-To import the server-side tRPC instance, insert a `main` property inside the <FontIcon icon="iconfont icon-json"/>`package.json` file on the server side. It sets the <FontIcon icon="iconfont icon-typescript"/>`index.ts` as the entry file when you import the server-side folder on your client side.
+To import the server-side tRPC instance, insert a `main` property inside the <VPIcon icon="iconfont icon-json"/>`package.json` file on the server side. It sets the <VPIcon icon="iconfont icon-typescript"/>`index.ts` as the entry file when you import the server-side folder on your client side.
 
-![Server-Side <FontIcon icon="iconfont icon-json"/>`package.json` file.](https://freecodecamp.org/news/content/images/2024/07/image-25.png)
+![Server-Side <VPIcon icon="iconfont icon-json"/>`package.json` file.](https://freecodecamp.org/news/content/images/2024/07/image-25.png)
 
-After setting that property, you can import the tRPC instance into the client side using the terminal. For me, the back end is called `server-side` in my <FontIcon icon="iconfont icon-json"/>`package.json` file inside the server-side directory with version `1.0.0`.
+After setting that property, you can import the tRPC instance into the client side using the terminal. For me, the back end is called `server-side` in my <VPIcon icon="iconfont icon-json"/>`package.json` file inside the server-side directory with version `1.0.0`.
 
 So I'll execute `yarn add server-side@1.0.0` inside the client-side terminal. The installation might look familiar because this is how developers build libraries.
 
-This command should add your server-side folder as a package in the client-side node modules directory. You can verify that with the <FontIcon icon="iconfont icon-json"/>`package.json` file on the client side.
+This command should add your server-side folder as a package in the client-side node modules directory. You can verify that with the <VPIcon icon="iconfont icon-json"/>`package.json` file on the client side.
 
-![Client-Side <FontIcon icon="iconfont icon-json"/>`package.json` file.](https://freecodecamp.org/news/content/images/2024/07/image-26.png)
+![Client-Side <VPIcon icon="iconfont icon-json"/>`package.json` file.](https://freecodecamp.org/news/content/images/2024/07/image-26.png)
 
 It should contain your server-side package name as a dependency.
 
@@ -353,7 +353,7 @@ In other words, you installed the server-side package in your client-side applic
 
 If you remember earlier, we added an extra export AppRouter line while creating the router on the server side. We did that because we had to import the AppRouter type on the client side to use the server-side tRPC instance on the client side.
 
-Here's how the <FontIcon icon="iconfont icon-typescript"/>`trpc.ts` file should look like now:
+Here's how the <VPIcon icon="iconfont icon-typescript"/>`trpc.ts` file should look like now:
 
 ```ts
 import { createTRPCReact } from "@trpc/react-query";
@@ -364,9 +364,9 @@ export const trpc = createTRPCReact<AppRouter>();
 
 With this code, you've created a client-side tRPC instance using the characteristics of the server-side tRPC instance.
 
-Perfect. Now, let's create another file named <FontIcon icon="fa-brands fa-react"/>`AppComponent.tsx` in the <FontIcon icon="fas fa-folder-open"/>`/src` directory.
+Perfect. Now, let's create another file named <VPIcon icon="fa-brands fa-react"/>`AppComponent.tsx` in the <VPIcon icon="fas fa-folder-open"/>`/src` directory.
 
-This file will hold your main App component. It will import the `trpc` client instance from the <FontIcon icon="iconfont icon-typescript"/>`trpc.ts` file and use it to call your `hello` API endpoint.
+This file will hold your main App component. It will import the `trpc` client instance from the <VPIcon icon="iconfont icon-typescript"/>`trpc.ts` file and use it to call your `hello` API endpoint.
 
 ```tsx
 import React from "react";
@@ -396,11 +396,11 @@ If you remember, the `hello` API endpoint requires an object with the string-bas
 
 Inside the JSX code, you'll destructure the API response sent by the API endpoint using the `JSON.stringify()` method and access the result by the API endpoint.
 
-Your <FontIcon icon="fa-brands fa-reaft"/>`AppComponent.tsx` file is a standard React component. So you need to import this component into the main <FontIcon icon="fa-brands fa-react"/>`App.tsx` file. <FontIcon icon="fa-brands fa-react"/>`App.tsx` on the client side is equivalent to <FontIcon icon="iconfont icon-typescript"/>`index.ts` on the server side.
+Your <VPIcon icon="fa-brands fa-reaft"/>`AppComponent.tsx` file is a standard React component. So you need to import this component into the main <VPIcon icon="fa-brands fa-react"/>`App.tsx` file. <VPIcon icon="fa-brands fa-react"/>`App.tsx` on the client side is equivalent to <VPIcon icon="iconfont icon-typescript"/>`index.ts` on the server side.
 
-For the `App.tsx` file, you will follow a similar setup. Import the client tRPC instance from the <FontIcon icon="iconfont icon-typescript"/>`trpc.ts` file. Then, set the base URL and set up React Query.
+For the `App.tsx` file, you will follow a similar setup. Import the client tRPC instance from the <VPIcon icon="iconfont icon-typescript"/>`trpc.ts` file. Then, set the base URL and set up React Query.
 
-You'll import React Query from TanStack, trpc from the <FontIcon icon="iconfont icon-typescript"/>`./trpc.ts` file, `httpBatchLink` from <FontIcon icon="fa-brands fa-npm"/>`@trpc/client`, `useState` from React, and your `AppComponent` from the <FontIcon icon="fa-brands fa-react"/>`AppComponent.tsx` file.
+You'll import React Query from TanStack, trpc from the <VPIcon icon="iconfont icon-typescript"/>`./trpc.ts` file, `httpBatchLink` from <VPIcon icon="fa-brands fa-npm"/>`@trpc/client`, `useState` from React, and your `AppComponent` from the <VPIcon icon="fa-brands fa-react"/>`AppComponent.tsx` file.
 
 ```tsx
 // Default Import Statements
@@ -459,7 +459,7 @@ const App = () => {
 };
 ```
 
-Your <FontIcon icon="fa-brands fa-react"/>`App.tsx` file should look like this:
+Your <VPIcon icon="fa-brands fa-react"/>`App.tsx` file should look like this:
 
 ```tsx
 import React from "react";
@@ -500,7 +500,7 @@ root.render(<App />);
 
 I haven't talked much about the `return` statement yet. So, let's do that now. We won't keep the `return` statement empty.
 
-It will display the data returned by the API endpoint, which should be the string you submitted using the `useQuery()` method in the <FontIcon icon="fa-brands fa-react"/>`AppComponent.tsx` component file.
+It will display the data returned by the API endpoint, which should be the string you submitted using the `useQuery()` method in the <VPIcon icon="fa-brands fa-react"/>`AppComponent.tsx` component file.
 
 The `return` statement is for the wrappers and the AppComponent component. If you require your components and pages to use tRPC, React Query, and so on, you must wrap your components like `AppComponent` with `Providers` of these libraries.
 
@@ -541,6 +541,6 @@ It acts as an alternative to REST and Fetch. I'll use it for the foreseeable fut
 
 I've enjoyed learning about this newer technology. There may be some flaws in this article, but I'm a fellow learner, so report my mistakes whenever you can and help me improve.
 
-Subscribe to [<FontIcon icon="fa-brands fa-free-code-camp"/>my newsletter](https://freecodecamp.org/news/p/96029b5d-38ad-4b3c-a021-661b70eb6dd3/) for the weekly emails about Software Engineering, Tech Jobs and Careers, and resources, including paid articles for free, to help you excel in your career.
+Subscribe to [<VPIcon icon="fa-brands fa-free-code-camp"/>my newsletter](https://freecodecamp.org/news/p/96029b5d-38ad-4b3c-a021-661b70eb6dd3/) for the weekly emails about Software Engineering, Tech Jobs and Careers, and resources, including paid articles for free, to help you excel in your career.
 
 *Hope to see you in the next one ✌️*

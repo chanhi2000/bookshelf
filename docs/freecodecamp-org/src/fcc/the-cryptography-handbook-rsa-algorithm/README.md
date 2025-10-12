@@ -100,7 +100,7 @@ You can also watch the associated video here:
 
 A foundational understanding of Linear Algebra and Modular Arithmetic will help you understand certain sections of the handbook, though it is not an absolute requirement. This handbook provides comprehensive explanations of mathematical expressions and their underlying concepts as they arise.
 
-For a concise and relevant introduction to the Chinese Remainder Theorem (CRT) in the context of the handbook, you may find this resource helpful: [<FontIcon icon="fa-brands fa-youtube"/>CRT, RSA, and Low Exponent Attacks](https://youtu.be/Mt9v7-xBuaA).
+For a concise and relevant introduction to the Chinese Remainder Theorem (CRT) in the context of the handbook, you may find this resource helpful: [<VPIcon icon="fa-brands fa-youtube"/>CRT, RSA, and Low Exponent Attacks](https://youtu.be/Mt9v7-xBuaA).
 
 <VidStack src="youtube/Mt9v7-xBuaA" />
 

@@ -87,7 +87,7 @@ The course is structured to guide you step-by-step, starting from the basics and
 
 ## Conclusion
 
-Gavin Lon's hands-on teaching approach will help you learn video editing with DaVinci Resolve. Watch the full course on [<FontIcon icon="fa-brands fa-tyoutube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/mgCqndlTWFU) (4-hour watch).
+Gavin Lon's hands-on teaching approach will help you learn video editing with DaVinci Resolve. Watch the full course on [<VPIcon icon="fa-brands fa-tyoutube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/mgCqndlTWFU) (4-hour watch).
 
 <VidStack src="youtube/mgCqndlTWFU" />
 

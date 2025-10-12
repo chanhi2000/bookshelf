@@ -50,13 +50,13 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1757081374239_Screenshot2025-09-05at8.08.39AM.png"/>
 
-When I first started messing around with code, rounded corners required five background images or an [**image sprite**](/css-tricks.com/spriting-img.md) likely created in Photoshop, so when [<FontIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/) came onto the scene, I remember everybody thinking that it was the best thing ever. Web designs were very square at the time, so to have `border-radius` was super cool, and it saved us a lot of time, too.
+When I first started messing around with code, rounded corners required five background images or an [**image sprite**](/css-tricks.com/spriting-img.md) likely created in Photoshop, so when [<VPIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/) came onto the scene, I remember everybody thinking that it was the best thing ever. Web designs were very square at the time, so to have `border-radius` was super cool, and it saved us a lot of time, too.
 
-[<FontIcon icon="iconfont icon-css-tricks"/>Chris’ `border-radius` article from 2009](https://css-tricks.com/snippets/css/rounded-corners/), which at the time of writing is 16 years old (wait, how old am *I*?!), includes vendor prefixes for older web browsers, including “old Konqueror browsers” (`-khtml-border-radius`). What a time to be alive!
+[<VPIcon icon="iconfont icon-css-tricks"/>Chris’ `border-radius` article from 2009](https://css-tricks.com/snippets/css/rounded-corners/), which at the time of writing is 16 years old (wait, how old am *I*?!), includes vendor prefixes for older web browsers, including “old Konqueror browsers” (`-khtml-border-radius`). What a time to be alive!
 
 We’re much less excited about rounded corners nowadays. In fact, sharp corners have made a comeback and are just as popular now, as are squircles (square-ish circles or circle-y squares, take your pick), which is exactly what the `corner-shape` CSS property enables us to create (in addition to many other cool UI effects that I’ll be walking you through today).
 
-At the time of writing, only [<FontIcon icon="fa-brands fa-chrome"/>Chrome 139 and above supports `corner-shape`](https://developer.chrome.com/release-notes/139#corner_shaping_corner-shape_superellipse_squircle), which must be used with the `border-radius` property or/and any of the related individual properties (i.e., `border-top-left-radius`, `border-top-right-radius`, `border-bottom-right-radius`, and `border-bottom-left-radius`):
+At the time of writing, only [<VPIcon icon="fa-brands fa-chrome"/>Chrome 139 and above supports `corner-shape`](https://developer.chrome.com/release-notes/139#corner_shaping_corner-shape_superellipse_squircle), which must be used with the `border-radius` property or/and any of the related individual properties (i.e., `border-top-left-radius`, `border-top-right-radius`, `border-bottom-right-radius`, and `border-bottom-left-radius`):
 
 <CodePen
   user="mrdanielschwarz"
@@ -71,7 +71,7 @@ At the time of writing, only [<FontIcon icon="fa-brands fa-chrome"/>Chrome 139 a
 
 ## Snipped corners using `corner-shape: bevel`
 
-[<FontIcon icon="fas fa-globe"/>These snipped corners](https://thekernference.com/) are becoming more and more popular as UI designers embrace [**brutalist aesthetics**](/css-tricks.com/this-page-is-a-truly-naked-brutalist-html-quine.md).
+[<VPIcon icon="fas fa-globe"/>These snipped corners](https://thekernference.com/) are becoming more and more popular as UI designers embrace [**brutalist aesthetics**](/css-tricks.com/this-page-is-a-truly-naked-brutalist-html-quine.md).
 
 ![Black button with snipped corners at the upper-left and lower-right that reads ‘Grab your ticket.’](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756911883220_Screenshot2025-09-03at9.04.22AM.png?resize=712%2C236&ssl=1)
 
@@ -178,7 +178,7 @@ Yep, same thing.
 
 ![A rounded rectangular box in three purple arrow-shaped segments pointing towards the right. Each segment is a breadcrumb, labeled Step 1, Step 2, and Step 3 in white. The first segment is a darker shade of purple.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756921412654_Screenshot2025-09-03at11.43.19AM.png?resize=1446%2C390&ssl=1)
 
-We essentially have a grid row with negative margins, but because we can’t create ‘inset’ arrows or use borders/outlines, we have to create an effect where the fake borders of certain arrows bleed into the next. This is done by nesting the exact same shape in the arrows and then applying something to the effect of `padding-right: 3px`, where `3px` is the value of the would-be border. The code comments below should explain it in more detail (the complete code in [the Pen (<FontIcon icon="fa-brands fa-codepen"/>`mrdanielschwarz`)](https://codepen.io/mrdanielschwarz/pen/GgpgQNN) is quite interesting, though):
+We essentially have a grid row with negative margins, but because we can’t create ‘inset’ arrows or use borders/outlines, we have to create an effect where the fake borders of certain arrows bleed into the next. This is done by nesting the exact same shape in the arrows and then applying something to the effect of `padding-right: 3px`, where `3px` is the value of the would-be border. The code comments below should explain it in more detail (the complete code in [the Pen (<VPIcon icon="fa-brands fa-codepen"/>`mrdanielschwarz`)](https://codepen.io/mrdanielschwarz/pen/GgpgQNN) is quite interesting, though):
 
 ```html
 <nav>
@@ -361,7 +361,7 @@ Same thing, only larger. Kind of looks like a hand-drawn box?
 
 ![Solid white rectangular box with thick, black borders that look hand-drawn.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756922141714_Screenshot2025-09-03at11.55.29AM.png?resize=1794%2C768&ssl=1)
 
-Admittedly, this effect doesn’t look as awesome on a larger scale, so if you’re really looking to wow and create something more akin to the [<FontIcon icon="fas fa-globe"/>Red Dead Redemption aesthetic](https://rockstargames.com/reddeadredemption2), [**this `border-image` approach**](/css-tricks.com/revisiting-css-border-image.md) would be better.
+Admittedly, this effect doesn’t look as awesome on a larger scale, so if you’re really looking to wow and create something more akin to the [<VPIcon icon="fas fa-globe"/>Red Dead Redemption aesthetic](https://rockstargames.com/reddeadredemption2), [**this `border-image` approach**](/css-tricks.com/revisiting-css-border-image.md) would be better.
 
 ---
 

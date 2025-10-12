@@ -86,7 +86,7 @@ setTimeout(function() {
 }, 25)
 ```
 
-If you're interested in learning more, check out [<FontIcon icon="fa-brands fa-aws"/>High Performance JavaScript](https://amazon.com/High-Performance-JavaScript-Application-Interfaces/dp/059680279X) Chapter 6. 
+If you're interested in learning more, check out [<VPIcon icon="fa-brands fa-aws"/>High Performance JavaScript](https://amazon.com/High-Performance-JavaScript-Application-Interfaces/dp/059680279X) Chapter 6. 
 
 ::: info Reference:
 

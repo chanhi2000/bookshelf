@@ -73,7 +73,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756907810696/792bacf
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1756907810696/792bacff-78f6-4142-924b-03d48f3cf474.png"/>
 
-This isn’t just your average AI agent tutorial. We just posted a course on the freeCodeCamp.org YouTube channel that is all about action! Lane Wagner of [<FontIcon icon="fas fa-globe"/>boot.dev](http://boot.dev) will teach you to build your very own AI coding agent from scratch. Using Python and the free Gemini API, you'll learn the mechanics behind the magic of modern AI tools.
+This isn’t just your average AI agent tutorial. We just posted a course on the freeCodeCamp.org YouTube channel that is all about action! Lane Wagner of [<VPIcon icon="fas fa-globe"/>boot.dev](http://boot.dev) will teach you to build your very own AI coding agent from scratch. Using Python and the free Gemini API, you'll learn the mechanics behind the magic of modern AI tools.
 
 You'll implement the important agentic loop and use tool calling to give your agent the power to read, write, and execute code within a project. It’s a deep dive into building an AI that can actually *do* things, not just talk about them.
 
@@ -81,7 +81,7 @@ You’ll put your new agent to the test by tasking it with fixing a buggy progra
 
 This is a perfect project to level up your Python and AI development skills.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/YtHdaXuOAks) (2-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/YtHdaXuOAks) (2-hour watch).
 
 <VidStack src="youtube/YtHdaXuOAks" />
 

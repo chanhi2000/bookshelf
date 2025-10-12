@@ -66,7 +66,7 @@ CSS Media Queries allow you to create responsive websites across all screen size
 
 ![Here's a demo of the magic of Media Queries](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bb0qwxrhg0705lvs6ihs.png)
 
-We'll build this in project 2 below. This layout is called the **Card Layout**. You can see more Layout Examples [<FontIcon icon="fas fa-globe"/>here!](https://csslayout.io/patterns/)
+We'll build this in project 2 below. This layout is called the **Card Layout**. You can see more Layout Examples [<VPIcon icon="fas fa-globe"/>here!](https://csslayout.io/patterns/)
 
 ---
 
@@ -78,7 +78,7 @@ For this project, you need to know little bit of HTML, CSS, and how to work with
 
 1. Create a folder named "Project-1"
 2. Open VS Code
-3. Create <FontIcon icon="fa-brands fa-html5"/>`index.html`, <FontIcon icon="fa-brands fa-css3-alt"/>`style.scss`, and <FontIcon icon="fa-brands fa-js"/><FontIcon icon="fa-brands fa-js"/>`main.js` files
+3. Create <VPIcon icon="fa-brands fa-html5"/>`index.html`, <VPIcon icon="fa-brands fa-css3-alt"/>`style.scss`, and <VPIcon icon="fa-brands fa-js"/><VPIcon icon="fa-brands fa-js"/>`main.js` files
 4. Install Live Server and SASS Compiler
 5. Run Live Server and SASS Compiler
 
@@ -162,7 +162,7 @@ Remember the additional id we wrote in HTML? We'll style it and position it in o
 
 ## JavaScript
 
-We need to update our screen size inside our id every time we resize our window. So, write this code in your <FontIcon icon="fa-brands fa-js"/>`main.js` file:
+We need to update our screen size inside our id every time we resize our window. So, write this code in your <VPIcon icon="fa-brands fa-js"/>`main.js` file:
 
 ```js title="main.js"
 // 'screen' is name 👇 of a function
@@ -184,10 +184,10 @@ function screen() {
 
 ![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u72rvfe5181640ikqa32.png)
 
-Responsive website also means **Responsive Images**. So we're also going to make our images responsive in this project. The images are on my **[GitHub repository (<FontIcon icon="iconfont icon-github"/>`JoyShaheb/Project-image-repo`)](https://github.com/JoyShaheb/Project-image-repo/tree/main/Media-Query-Project)**. Here's how to get them:
+Responsive website also means **Responsive Images**. So we're also going to make our images responsive in this project. The images are on my **[GitHub repository (<VPIcon icon="iconfont icon-github"/>`JoyShaheb/Project-image-repo`)](https://github.com/JoyShaheb/Project-image-repo/tree/main/Media-Query-Project)**. Here's how to get them:
 
 1. Visit and copy the link above ☝️
-2. Go to **[<FontIcon icon="fas fa-globe"/>downgit](https://minhaskamal.github.io/DownGit/#/home)** and paste the link you copied
+2. Go to **[<VPIcon icon="fas fa-globe"/>downgit](https://minhaskamal.github.io/DownGit/#/home)** and paste the link you copied
 3. Follow the steps in this video 👇
 
 ![Down Git Steps to follow](https://cloud.githubusercontent.com/assets/5456665/17822364/940bded8-6678-11e6-9603-b84d75bccec1.gif)
@@ -252,7 +252,7 @@ $color-3 : #52b788 ; // Laptop
 $color-4 : #bee1e6 ; // Desktop
 ```
 
-You can find more colors at [<FontIcon icon="fas fa-globe"/>coolors.co](https://coolors.co/palettes/trending) if you want to choose your own.
+You can find more colors at [<VPIcon icon="fas fa-globe"/>coolors.co](https://coolors.co/palettes/trending) if you want to choose your own.
 
 Now, at the bottom, target the `.container` and `.text` classes. We'll also center our text like this👇
 
@@ -360,11 +360,11 @@ If you have three conditions or more, you can use a **comma**, like this:
 
 Let's discuss the Most important component of a media query, screen breakpoints.
 
-To be honest, there's no such thing as a standard screen break-point guide because there are so many screen sizes on the market. But, for our project, we'll follow [<FontIcon icon="fas fa-globe"/>The Official Bootstrap 5](https://getbootstrap.com/docs/5.0/layout/breakpoints/) screen break-point values. 
+To be honest, there's no such thing as a standard screen break-point guide because there are so many screen sizes on the market. But, for our project, we'll follow [<VPIcon icon="fas fa-globe"/>The Official Bootstrap 5](https://getbootstrap.com/docs/5.0/layout/breakpoints/) screen break-point values. 
 
 ![Here they are](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7pqqlkxksxgouje83vhw.png)
 
-Here's a list of every device screen resolution on [<FontIcon icon="fas fa-globe"/>CSS-Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/).
+Here's a list of every device screen resolution on [<VPIcon icon="fas fa-globe"/>CSS-Tricks](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/).
 
 ### The `max-width` function
 
@@ -443,7 +443,7 @@ We will have four screen breakpoints:
 - Laptop -> 992px
 - Desktop -> 1200px
 
-Yes, we are following the official [<FontIcon icon="fas fa-globe"/>bootstrap 5](https://getbootstrap.com/docs/5.0/layout/breakpoints/) screen breakpoints.
+Yes, we are following the official [<VPIcon icon="fas fa-globe"/>bootstrap 5](https://getbootstrap.com/docs/5.0/layout/breakpoints/) screen breakpoints.
 
 ![And each breakpoint will get these colors](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d42pdgggmovcrsq8p61n.png)
 
@@ -559,7 +559,7 @@ Okay then, let's start coding! First, let's work with the desktop view by taking
 
 ### Before we start
 
-Create a folder named 'images' inside our Project-1 Folder. Place all the images you downloaded from my [GitHub Repository (<FontIcon icon="iconfont icon-github"/>`JoyShaheb/Project-image-repo`)](https://github.com/JoyShaheb/Project-image-repo/tree/main/Media-Query-Project) inside the images folder.
+Create a folder named 'images' inside our Project-1 Folder. Place all the images you downloaded from my [GitHub Repository (<VPIcon icon="iconfont icon-github"/>`JoyShaheb/Project-image-repo`)](https://github.com/JoyShaheb/Project-image-repo/tree/main/Media-Query-Project) inside the images folder.
 
 ### The HTML
 
@@ -1214,9 +1214,9 @@ Here's your medal for reading all the way until the end ❤️
 
 ::: info Joy Shaheb
 
-- [Youtube (<FontIcon icon="fa-brands fa-youtube"/>`JoyShaheb`)](https://youtube.com/@JoyShaheb)
-- [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`JoyShaheb`)](https://x.com/JoyShaheb)
-- [Instagram (<FontIcon icon="fa-brands fa-instagram"/>`joyshaheb`)](https://instagram.com/joyshaheb/)
+- [Youtube (<VPIcon icon="fa-brands fa-youtube"/>`JoyShaheb`)](https://youtube.com/@JoyShaheb)
+- [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`JoyShaheb`)](https://x.com/JoyShaheb)
+- [Instagram (<VPIcon icon="fa-brands fa-instagram"/>`joyshaheb`)](https://instagram.com/joyshaheb/)
 
 :::
 

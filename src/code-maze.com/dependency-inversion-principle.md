@@ -119,7 +119,7 @@ We are going to make all of this easier to understand with an example and additi
 
 ::: info
 
-To download the source code for this project, check out the [Dependency Inversion Principle Project Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/dependency-inversion-principle).
+To download the source code for this project, check out the [Dependency Inversion Principle Project Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/dependency-inversion-principle).
 
 <SiteInfo
   name="CodeMazeBlog/solid-principles-csharp at dependency-inversion-principle"

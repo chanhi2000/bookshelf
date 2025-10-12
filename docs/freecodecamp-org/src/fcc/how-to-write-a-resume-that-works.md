@@ -74,7 +74,7 @@ As someone who has reviewed a lot of résumés (good and bad), here's the most i
 
 ## Don't create your own résumé format
 
-If you do, you risk having your résumé be difficult to read or end up with formatting issues. There are tons of freely available résumé templates available, such as the ones [<FontIcon icon="fas fa-globe"/>here](http://macc.ath.umich.edu/index.php/professional-templates/), [<FontIcon icon="fas fa-globe"/>here](https://ocs.fas.harvard.edu/guide-template-library), and [<FontIcon icon="fas fa-globe"/>here](https://careereducation.columbia.edu/topics/resumes-cvs#gsc.tab=0). Use them.
+If you do, you risk having your résumé be difficult to read or end up with formatting issues. There are tons of freely available résumé templates available, such as the ones [<VPIcon icon="fas fa-globe"/>here](http://macc.ath.umich.edu/index.php/professional-templates/), [<VPIcon icon="fas fa-globe"/>here](https://ocs.fas.harvard.edu/guide-template-library), and [<VPIcon icon="fas fa-globe"/>here](https://careereducation.columbia.edu/topics/resumes-cvs#gsc.tab=0). Use them.
 
 When you write a résumé, you want the focus to be on your achievements, not how you've formatted them. You don't need unusual formatting for your résumé to stick out (and you don't want that to be the reason your résumé sticks out).
 
@@ -204,7 +204,7 @@ Note that this advice only applies to resumes. CVs, which are more common in Eur
 
 ## Proofread your résumé 10 times
 
-Then go back and review it again. If you struggle with grammar and spelling, or English isn't your first language, check out [<FontIcon icon="fas fa-globe"/>Grammarly](https://grammarly.com/). It's free and will help you identify changes you should make to your writing. If you can, ask a friend (or two) to help you out.
+Then go back and review it again. If you struggle with grammar and spelling, or English isn't your first language, check out [<VPIcon icon="fas fa-globe"/>Grammarly](https://grammarly.com/). It's free and will help you identify changes you should make to your writing. If you can, ask a friend (or two) to help you out.
 
 This is similar to the issue of formatting. If your résumé is difficult to read due to spelling and grammatical mistakes, the focus won't be on your achievements.
 

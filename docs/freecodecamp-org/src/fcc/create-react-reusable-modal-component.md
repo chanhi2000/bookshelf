@@ -280,7 +280,7 @@ For example, a confirmation modal might only need a title like 'Are you sure?' a
 
 ## React `useEffect`
 
-If you’re not familiar with `useEffect` and plan on using React more, l’d highly recommend reading about it [<FontIcon icon="fa-brands fa-react"/>here](https://react.dev/reference/react/useEffect), as it is one of the backbones of React’s ecosystem.
+If you’re not familiar with `useEffect` and plan on using React more, l’d highly recommend reading about it [<VPIcon icon="fa-brands fa-react"/>here](https://react.dev/reference/react/useEffect), as it is one of the backbones of React’s ecosystem.
 
 In essence, `useEffect` is like a helper that makes sure you do things at the right time in your app.
 
@@ -486,7 +486,7 @@ However, it’s essential to balance between flexibility and simplicity—too mu
 
 Overall, this approach keeps your code DRY, improves maintainability, and empowers you to create scalable UI components. By applying these practices and enhancements, you can build highly adaptable modals that cater to diverse requirements, improving both the developer experience and the final product's quality.
 
-As always, feel free to drop me a follow or reach out on [Twitter/X (<FontIcon icon="fa-brands fa-x-twitter"/>`grantdotdev`)](https://x.com/grantdotdev).
+As always, feel free to drop me a follow or reach out on [Twitter/X (<VPIcon icon="fa-brands fa-x-twitter"/>`grantdotdev`)](https://x.com/grantdotdev).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

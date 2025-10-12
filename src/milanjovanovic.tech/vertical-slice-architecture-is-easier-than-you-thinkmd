@@ -224,7 +224,7 @@ public static class ExportUserDataEndpoint
 }
 ```
 
-We could even define the endpoint inside the <FontIcon icon="iconfont icon-csharp"/>`ExportUserData.cs` file if we wanted to keep everything together. This is more a matter of preference and team conventions. Either approach works well, from my experience.
+We could even define the endpoint inside the <VPIcon icon="iconfont icon-csharp"/>`ExportUserData.cs` file if we wanted to keep everything together. This is more a matter of preference and team conventions. Either approach works well, from my experience.
 
 ---
 
@@ -232,7 +232,7 @@ We could even define the endpoint inside the <FontIcon icon="iconfont icon-cshar
 
 You might have noticed something: I put everything in a single file. This is a design choice with trade-offs.
 
-### Single File Approach (<FontIcon icon="iconfont icon-csharp"/>`ExportUserData.cs`)
+### Single File Approach (<VPIcon icon="iconfont icon-csharp"/>`ExportUserData.cs`)
 
 ```cs title="ExportUserData.cs"
 public static class ExportUserData

@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756310343452/8db020d
 
 Permissions are crucial when building mobile applications that require access to device features such as location, camera, contacts, microphone, storage, and more. And handling permissions effectively ensures that your app provides a seamless user experience while respecting privacy and security requirements.
 
-In Flutter, one of the most popular packages to manage permissions is [<FontIcon icon="fas fa-globe"/>`permission_handler`](https://pub.dev/packages/permission_handler). This article will guide you through how to:
+In Flutter, one of the most popular packages to manage permissions is [<VPIcon icon="fas fa-globe"/>`permission_handler`](https://pub.dev/packages/permission_handler). This article will guide you through how to:
 
 1. Install and set up `permission_handler` and `fluttertoast`
 2. Request and handle different permissions
@@ -80,7 +80,7 @@ Before starting, ensure you have the following:
 
 ## 2. Installing Dependencies
 
-To get started, add the following to your <FontIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file:
+To get started, add the following to your <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file:
 
 ```yaml title="pubspec.yaml"
 dependencies:
@@ -324,7 +324,7 @@ await handlePermission(Permission.appTrackingTransparency, "App Tracking");
 
 ## 6. Android Manifest Configuration
 
-On **Android**, all apps must declare the permissions they intend to use in the <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` file. This acts as the app’s “contract” with the system, letting Android know what sensitive resources (like internet, location, camera) the app might request.
+On **Android**, all apps must declare the permissions they intend to use in the <VPIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` file. This acts as the app’s “contract” with the system, letting Android know what sensitive resources (like internet, location, camera) the app might request.
 
 Without declaring these in the manifest, runtime permission requests will fail, even if you’ve added the `permission_handler` package.
 
@@ -408,9 +408,9 @@ Below is a comprehensive list of common permissions:
 
 ---
 
-## 7. iOS <FontIcon icon="fa-brands fa-apple"/>`Info.plist` Configuration
+## 7. iOS <VPIcon icon="fa-brands fa-apple"/>`Info.plist` Configuration
 
-For iOS, you must provide descriptive keys in the <FontIcon icon="fa-brands fa-apple"/>`Info.plist` file to inform users why your app needs specific permissions. Below are the configurations for each permission example:
+For iOS, you must provide descriptive keys in the <VPIcon icon="fa-brands fa-apple"/>`Info.plist` file to inform users why your app needs specific permissions. Below are the configurations for each permission example:
 
 ### 1. Camera Permission
 
@@ -601,7 +601,7 @@ Future<void> _showPermissionRationale(BuildContext context) async {
 
 ### 3. Use runtime permission requests
 
-On Android 6.0+ and iOS, permissions must be requested **at runtime** (not just declared in <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` or <FontIcon icon="fa-brands fa-apple"/>`Info.plist`).
+On Android 6.0+ and iOS, permissions must be requested **at runtime** (not just declared in <VPIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` or <VPIcon icon="fa-brands fa-apple"/>`Info.plist`).
 
 ```dart
 final status = await Permission.location.request();
@@ -657,7 +657,7 @@ Always test all scenarios:
 
 Make sure your manifest and Info.plist contain clear explanations.
 
-::: tip <FontIcon icon="fa-brands fa-apple"/>`Info.plist` example (iOS)
+::: tip <VPIcon icon="fa-brands fa-apple"/>`Info.plist` example (iOS)
 
 ```xml
 <key>NSCameraUsageDescription</key>

@@ -74,13 +74,13 @@ With React 19, the developer community has received a list of enhancements and f
 - Improvements in asset loading for styles, images, and fonts.
 - A much smoother integration with Web Components.
 
-If these are exciting to you, I recommend [<FontIcon icon="fa-brands fa-youtube"/>watching this video](https://youtu.be/hiiGUjEkzbM) that explains how each feature will impact you as a React developer. I hope you like it 😊.
+If these are exciting to you, I recommend [<VPIcon icon="fa-brands fa-youtube"/>watching this video](https://youtu.be/hiiGUjEkzbM) that explains how each feature will impact you as a React developer. I hope you like it 😊.
 
 <VidStack src="youtube/hiiGUjEkzbM" />
 
 The introduction of a `compiler` with `React 19` is set to be a game-changer. From now on, we can let the compiler handle the optimization headache rather than keeping it on us.
 
-Does this mean we do not have to use `memo`, `useMemo()`, `useCallback`, and so on anymore? No - we mostly don't. The compiler can take care of these things automatically if you understand and follow the [<FontIcon icon="fa-brands fa-react"/>Rules of React](https://react.dev/reference/rules) for components and hooks.
+Does this mean we do not have to use `memo`, `useMemo()`, `useCallback`, and so on anymore? No - we mostly don't. The compiler can take care of these things automatically if you understand and follow the [<VPIcon icon="fa-brands fa-react"/>Rules of React](https://react.dev/reference/rules) for components and hooks.
 
 How will it do this? Well, we'll get to it. But before that, let's understand what a `compiler` is and whether it's justified to call this new optimizer for React code the `React Compiler`.
 
@@ -347,7 +347,7 @@ Here, you've added the `babel-plugin-react-compiler` to the configuration. The `
 
 That's it. You are done configuring the React compiler with your code base to utilize its power. From now on, the React compiler will look into every component and hook in your project to try and apply optimizations to it.
 
-If you want to configure the React compiler with Next.js, Remix, Webpack, and so on, you can [<FontIcon icon="fa-brands fa-react"/>follow this guide](https://react.dev/learn/react-compiler#installation).
+If you want to configure the React compiler with Next.js, Remix, Webpack, and so on, you can [<VPIcon icon="fa-brands fa-react"/>follow this guide](https://react.dev/learn/react-compiler#installation).
 
 ### Optimized React App with React Compiler
 
@@ -355,7 +355,7 @@ Now you should have an optimized React app with the inclusion of the React compi
 
 This time, you will not see the child components re-rendering. So the timestamp will not be updated either. But you will see the portion of the component where the data changed, as it will reflect the changes alone. Also, you won't have to use `memo`, `useMemo()`, or `useCallback()` in your code anymore.
 
-You can see it working visually [<FontIcon icon="fa-brands fa-youtube"/>from here](https://youtu.be/bdWUVp0TbTU?t=1326).
+You can see it working visually [<VPIcon icon="fa-brands fa-youtube"/>from here](https://youtu.be/bdWUVp0TbTU?t=1326).
 
 <VidStack src="youtube/bdWUVp0TbTU" />
 
@@ -363,7 +363,7 @@ You can see it working visually [<FontIcon icon="fa-brands fa-youtube"/>from her
 
 ## React Compiler in React DevTools
 
-[<FontIcon icon="fa-brands fa-react"/>React DevTools](https://react.dev/learn/react-developer-tools) version 5.0+ has built-in support for the React compiler. You will see a badge with the text `Memo ✨` beside the components optimized by the React compiler. This is fantastic!
+[<VPIcon icon="fa-brands fa-react"/>React DevTools](https://react.dev/learn/react-developer-tools) version 5.0+ has built-in support for the React compiler. You will see a badge with the text `Memo ✨` beside the components optimized by the React compiler. This is fantastic!
 
 ![React DevTools](https://cdn.hashnode.com/res/hashnode/image/upload/v1724303700810/2888b91c-bcec-4da2-88a6-840c51876d83.png)
 
@@ -371,7 +371,7 @@ You can see it working visually [<FontIcon icon="fa-brands fa-youtube"/>from her
 
 ## Diving Deep - How Does the React Compiler Work?
 
-Now that you've seen how the React compiler works on React 19 code, let's deep dive into understanding what's happening in the background. We will use the React [<FontIcon icon="fa-brands fa-react"/>Compiler Playground](https://playground.react.dev/) to explore the translated code and the optimization steps.
+Now that you've seen how the React compiler works on React 19 code, let's deep dive into understanding what's happening in the background. We will use the React [<VPIcon icon="fa-brands fa-react"/>Compiler Playground](https://playground.react.dev/) to explore the translated code and the optimization steps.
 
 ![React Compiler Playground](https://cdn.hashnode.com/res/hashnode/image/upload/v1724740109843/a5047d83-4407-491f-8e11-6522c1381313.png)
 
@@ -516,12 +516,12 @@ function AComponent() {
 
 ## Can We Use the React Compiler with React 18.x?
 
-It is recommended to use the React compiler with React 19 as there are required compatibilities. If you can't upgrade your application to React 19, you'll need to have a custom implementation of the cache function. You can go over [this thread (<FontIcon icon="iconfont icon-github"/>`reactwg/react-compiler`)](https://github.com/reactwg/react-compiler/discussions/6) describing the workaround.
+It is recommended to use the React compiler with React 19 as there are required compatibilities. If you can't upgrade your application to React 19, you'll need to have a custom implementation of the cache function. You can go over [this thread (<VPIcon icon="iconfont icon-github"/>`reactwg/react-compiler`)](https://github.com/reactwg/react-compiler/discussions/6) describing the workaround.
 
 ### Repositories to Look Into
 
-- All the source code used in this article is [in this repository (<FontIcon icon="iconfont icon-github"/>`tapascript/react-compiler-lesson`)](https://github.com/tapascript/react-compiler-lesson).
-- If you want to start coding with React 19 and its features, [here is a template repository (<FontIcon icon="iconfont icon-github"/>`atapas/code-in-react-19`)](https://github.com/atapas/code-in-react-19) configured with React 19 RC, Vite, and TailwindCSS. You may want to try it out.
+- All the source code used in this article is [in this repository (<VPIcon icon="iconfont icon-github"/>`tapascript/react-compiler-lesson`)](https://github.com/tapascript/react-compiler-lesson).
+- If you want to start coding with React 19 and its features, [here is a template repository (<VPIcon icon="iconfont icon-github"/>`atapas/code-in-react-19`)](https://github.com/atapas/code-in-react-19) configured with React 19 RC, Vite, and TailwindCSS. You may want to try it out.
 
 ---
 
@@ -529,16 +529,16 @@ It is recommended to use the React compiler with React 19 as there are required 
 
 To learn further,
 
-- Check out the official documentation of React Compiler [<FontIcon icon="fa-brands fa-react"/>from here](https://react.dev/learn/react-compiler).
-- Check out the [discussions (<FontIcon icon="iconfont icon-github"/>`reactwg/react-compiler`)](https://github.com/reactwg/react-compiler/discussions) in the Working Group.
+- Check out the official documentation of React Compiler [<VPIcon icon="fa-brands fa-react"/>from here](https://react.dev/learn/react-compiler).
+- Check out the [discussions (<VPIcon icon="iconfont icon-github"/>`reactwg/react-compiler`)](https://github.com/reactwg/react-compiler/discussions) in the Working Group.
 
-Up next, if you are willing to learn `React` and its ecosystem-like `Next.js` with both fundamental concepts and projects, I have great news for you: you can [<FontIcon icon="fa-brands fa-youtube"/>check out this playlist on my YouTube](https://youtu.be/VSB2h7mVhPg?list=PLIJrr73KDmRwz_7QUvQ9Az82aDM9I8L_8) channel with 22+ video tutorials and 12+ hours of engaging content so far, for free. I hope you like them as well.
+Up next, if you are willing to learn `React` and its ecosystem-like `Next.js` with both fundamental concepts and projects, I have great news for you: you can [<VPIcon icon="fa-brands fa-youtube"/>check out this playlist on my YouTube](https://youtu.be/VSB2h7mVhPg?list=PLIJrr73KDmRwz_7QUvQ9Az82aDM9I8L_8) channel with 22+ video tutorials and 12+ hours of engaging content so far, for free. I hope you like them as well.
 
 That's all for now. Did you enjoy reading this article and have you learned something new? If so, I would love to know if the content was helpful.
 
-- [Follow me on X (<FontIcon icon="fa-brands fa-x-twitter"/>`@tapasadhikary`)](https://x.com/tapasadhikary) or [<FontIcon icon="fa-brands fa-linkedin"/>LinkedIn](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
-- Check out and follow my Open Source work on [<FontIcon icon="iconfont icon-github"/>GitHub](https://github.com/atapas).
-- I regularly publish meaningful posts on my [<FontIcon icon="fas fa-globe"/>GreenRoots Blog](https://blog.greenroots.info/), you may find them helpful, too.
+- [Follow me on X (<VPIcon icon="fa-brands fa-x-twitter"/>`@tapasadhikary`)](https://x.com/tapasadhikary) or [<VPIcon icon="fa-brands fa-linkedin"/>LinkedIn](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
+- Check out and follow my Open Source work on [<VPIcon icon="iconfont icon-github"/>GitHub](https://github.com/atapas).
+- I regularly publish meaningful posts on my [<VPIcon icon="fas fa-globe"/>GreenRoots Blog](https://blog.greenroots.info/), you may find them helpful, too.
 
 See you soon with my next article. Until then, please take care of yourself, and keep learning.
 

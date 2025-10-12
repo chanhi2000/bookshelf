@@ -109,7 +109,7 @@ And here are the key sections in the course:
 
 This course is ideal for university students looking to enhance their academic understanding of Operating Systems, GATE aspirants preparing comprehensively for their exams, and anyone wanting to build a rock-solid foundation in OS fundamentals. To get the most out of this course, a basic understanding of C and Computer Organization and Architecture (COA) concepts is recommended.
 
-Watch the full course on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/yK1uBHPdp30) (25-hour watch).
+Watch the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/yK1uBHPdp30) (25-hour watch).
 
 <VidStack src="youtube/yK1uBHPdp30" />
 

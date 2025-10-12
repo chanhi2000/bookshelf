@@ -113,7 +113,7 @@ If you opt for creating a landing zone via the Control Tower dashboard, the foll
 - Identity management through the default directory in AWS IAM Identity Center.
 - Federated access to accounts using IAM Identity Center.
 - Centralized logging from AWS CloudTrail and AWS Config stored in Amazon Simple Storage Service (Amazon S3).
-- Enabled cross-account [<FontIcon icon="fa-brands fa-aws"/>security audits](https://docs.aws.amazon.com/general/latest/gr/aws-security-audit-guide.html) using IAM Identity Center.
+- Enabled cross-account [<VPIcon icon="fa-brands fa-aws"/>security audits](https://docs.aws.amazon.com/general/latest/gr/aws-security-audit-guide.html) using IAM Identity Center.
 
 ### What is an AWS Organizational Unit?
 
@@ -264,11 +264,11 @@ When you run this code, the Core OU and two accounts are created under the Core 
 
 A *Terraform module* is a set of standard configuration files in a specific directory. Terraform modules group resources for a specific task, which reduces the amount of code needed for similar infrastructure components.
 
-I have imported both the core account creation and landing zone creation modules into the same [<FontIcon icon="iconfont icon-terraform"/>`main.tf` (<FontIcon icon="iconfont icon-github"/>`nitheeshp-irl/aws-landing-zone`)](https://github.com/nitheeshp-irl/aws-landing-zone/blob/main/main.tf) file. This is necessary because the landing zone creation depends on the core account module. Including them together ensures all dependencies are managed properly and the deployment process is efficient.
+I have imported both the core account creation and landing zone creation modules into the same [<VPIcon icon="iconfont icon-terraform"/>`main.tf` (<VPIcon icon="iconfont icon-github"/>`nitheeshp-irl/aws-landing-zone`)](https://github.com/nitheeshp-irl/aws-landing-zone/blob/main/main.tf) file. This is necessary because the landing zone creation depends on the core account module. Including them together ensures all dependencies are managed properly and the deployment process is efficient.
 
 This method also simplifies the project structure and helps avoid potential issues from managing these components separately.
 
-The AWS Control Tower [<FontIcon icon="fa-brands fa-aws"/>`CreateLandingZone`](https://docs.aws.amazon.com/controltower/latest/APIReference/API_CreateLandingZone.html) API needs a landing zone version and a manifest file as input parameters. Below is an example <FontIcon icon="iconfont icon-json"/>`LandingZoneManifest.json` manifest.
+The AWS Control Tower [<VPIcon icon="fa-brands fa-aws"/>`CreateLandingZone`](https://docs.aws.amazon.com/controltower/latest/APIReference/API_CreateLandingZone.html) API needs a landing zone version and a manifest file as input parameters. Below is an example <VPIcon icon="iconfont icon-json"/>`LandingZoneManifest.json` manifest.
 
 ```json title="LandingZoneManifest.json"
 {
@@ -369,7 +369,7 @@ module "aws_landingzone" {
 
 ::: note
 
-You can find the full code here: [<FontIcon icon="iconfont icon-github"/>`nitheeshp-irl/aws-landing-zone`](https://github.com/nitheeshp-irl/aws-landing-zone).
+You can find the full code here: [<VPIcon icon="iconfont icon-github"/>`nitheeshp-irl/aws-landing-zone`](https://github.com/nitheeshp-irl/aws-landing-zone).
 
 <SiteInfo
   name="nitheeshp-irl/aws-landing-zone"
@@ -384,7 +384,7 @@ You can find the full code here: [<FontIcon icon="iconfont icon-github"/>`nithee
 
 ## How to Create an Organizational Unit
 
-When you run this code, different organizational units (OUs) are created according to the specifications in the [variable (<FontIcon icon="iconfont icon-github"/>`github.com/nitheeshp-irl/aws-orgunits`)](https://github.com/nitheeshp-irl/aws-orgunits/blob/main/variables.auto.tfvars) file.
+When you run this code, different organizational units (OUs) are created according to the specifications in the [variable (<VPIcon icon="iconfont icon-github"/>`github.com/nitheeshp-irl/aws-orgunits`)](https://github.com/nitheeshp-irl/aws-orgunits/blob/main/variables.auto.tfvars) file.
 
 Once the landing zone setup is finished, we can create an OU as per our business requirements. This will take the OU name from the variable file and create the OU.
 
@@ -432,7 +432,7 @@ You can see the code here:
 
 Once you have created the OU units using the above repository, this repository will apply Control Tower controls to the OUs.
 
-After creating the required objects, you can attach controls to the OU if you need them. Here is the [<FontIcon icon="iconfont icon-terraform"/>`main.tf`](https://github.com/nitheeshp-irl/controltower_controls/blob/main/main.tf) file:
+After creating the required objects, you can attach controls to the OU if you need them. Here is the [<VPIcon icon="iconfont icon-terraform"/>`main.tf`](https://github.com/nitheeshp-irl/controltower_controls/blob/main/main.tf) file:
 
 ```tf title="main.tf"
 provider "aws" {

@@ -69,9 +69,9 @@ This tutorial will show you how to:
 
 This tutorial is beginner-friendly, but there are some tools you’ll need to have or know in order to follow along:
 
-- [<FontIcon icon="iconfont icon-vscode"/>VSCode IDE (or other IDE of your choice)](https://code.visualstudio.com/download).
-- [<FontIcon icon="fa-brands fa-node"/>Node.js and npm installed.](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- [<FontIcon icon="iconfont icon-github"/>A GitHub account.](https://github.com/)
+- [<VPIcon icon="iconfont icon-vscode"/>VSCode IDE (or other IDE of your choice)](https://code.visualstudio.com/download).
+- [<VPIcon icon="fa-brands fa-node"/>Node.js and npm installed.](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [<VPIcon icon="iconfont icon-github"/>A GitHub account.](https://github.com/)
 - [**A reasonable knowledge of how to use Git and GitHub.**](/freecodecamp.org/gitting-things-done-book/README.md)
 
 :::
@@ -82,7 +82,7 @@ This tutorial is beginner-friendly, but there are some tools you’ll need to ha
 
 Before we dive in, let’s quickly talk about what "docs as code" is and why it matters. Back in 2015, two technical writers at Google came up with the idea to make it easier for developers to contribute to documentation and to better organize their company documents. There were times when they needed to write about an application they were working on, but things were really disorganized. So they came up with this process. Since then, many companies have adopted the approach.
 
-Docs as code is now a popular approach to managing documentation, and it’s supported by many tools that are designed to treat documentation like code. Tom Johnson explains this concept in more detail in [<FontIcon icon="fas fa-globe"/>his article on docs as code](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html).
+Docs as code is now a popular approach to managing documentation, and it’s supported by many tools that are designed to treat documentation like code. Tom Johnson explains this concept in more detail in [<VPIcon icon="fas fa-globe"/>his article on docs as code](https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html).
 
 Traditional documentation relies on Word documents and PDFs, where changes are tracked manually or through document revision history. Writers must update and publish content manually, with no way to automate routine tasks.
 
@@ -108,7 +108,7 @@ Open your command line terminal and enter the following:
 npx create-docusaurus@latest docs-as-code-tutorial classic
 ```
 
-`docs-as-code-tutorial` is the name I am using for the site. You can replace it with any other site name if you wish. Select JavaScript as the language you want to use. This will begin to create a new Docusaurus site. After running the code, you’ll see the <FontIcon icon="fas fa-folder-open"/>`docs-as-code-tutorial` folder in your VSCode workspace. Navigate to the folder.
+`docs-as-code-tutorial` is the name I am using for the site. You can replace it with any other site name if you wish. Select JavaScript as the language you want to use. This will begin to create a new Docusaurus site. After running the code, you’ll see the <VPIcon icon="fas fa-folder-open"/>`docs-as-code-tutorial` folder in your VSCode workspace. Navigate to the folder.
 
 Next, start the development server so you can see your docs.
 
@@ -147,7 +147,7 @@ With that, you have linked the repository, and Git will start tracking your chan
 
 ---
 
-## Step 3: Customize your Docs in the <FontIcon icon="fa-brands fa-js"/>`docusaurus.config.js` File
+## Step 3: Customize your Docs in the <VPIcon icon="fa-brands fa-js"/>`docusaurus.config.js` File
 
 Before you begin customizing, create a branch where you can make your changes as you push it to the main branch.
 
@@ -155,7 +155,7 @@ Before you begin customizing, create a branch where you can make your changes as
 git checkout -b "new_branch"
 ```
 
-The <FontIcon icon="fa-brands fa-js"/>`docusaurus.config.js` file is where you can make most of the edits to your site. Change the `title` property to `Docs as code`.
+The <VPIcon icon="fa-brands fa-js"/>`docusaurus.config.js` file is where you can make most of the edits to your site. Change the `title` property to `Docs as code`.
 
 ```js
 const config = {
@@ -184,7 +184,7 @@ git push --set-upstream origin new_branch
 
 ## Step 4: Edit Your Docs
 
-For this tutorial, I’ll be making edits in the <FontIcon icon="fas fa-folder-open"/>`docs` section. Go to <FontIcon icon="fa-brands fa-markdown"/>`intro.md` and replace the markdown text with this writeup:
+For this tutorial, I’ll be making edits in the <VPIcon icon="fas fa-folder-open"/>`docs` section. Go to <VPIcon icon="fa-brands fa-markdown"/>`intro.md` and replace the markdown text with this writeup:
 
 ```md :collapsed-lines
 # How to set up docs-as-code
@@ -200,7 +200,7 @@ Documentation-as-code is a great means to push changes made in your local machin
 
 After making the edits, preview your docs.
 
-![<FontIcon icon="fa-brands fa-markdown"/>`intro.md` displaying the writeup ](https://cdn.hashnode.com/res/hashnode/image/upload/v1737870301247/dba83233-a11c-4ec0-aeaf-b11e525ca090.png)
+![<VPIcon icon="fa-brands fa-markdown"/>`intro.md` displaying the writeup ](https://cdn.hashnode.com/res/hashnode/image/upload/v1737870301247/dba83233-a11c-4ec0-aeaf-b11e525ca090.png)
 
 ---
 
@@ -210,19 +210,19 @@ Add the Vale linter to your docs to review errors. To do that, install the Vale 
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-windows"/>
+@tab:active <VPIcon icon="fa-brands fa-windows"/>
 
 ```sh
 choco install vale
 ```
 
-@tab <FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="iconfont icon-macos"/>
 
 ```sh
 brew install vale
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>
 
 ```sh
 snap install vale
@@ -236,7 +236,7 @@ As I mentioned earlier, Vale is a customizable style and grammer checking tool. 
 
 Vale uses the Vale style guide when performing reviews to spot errors and make suggestions. But you can add your company’s style guide or any other style guide to it if you prefer. There are public style guides you can use like the Google style guide, Microsoft style guide, and so on. For this tutorial, we’ll be using the Microsoft style guide.
 
-If you don’t already have it, you’ll need to [get the Microsoft style guide (<FontIcon icon="iconfont icon-github"/>`errata-ai/Microsoft`)](https://github.com/errata-ai/Microsoft/releases/download/v0.7.0/Microsoft.zip), download it, and unzip it. Create a styles folder and move the Microsoft folder to the styles folder.
+If you don’t already have it, you’ll need to [get the Microsoft style guide (<VPIcon icon="iconfont icon-github"/>`errata-ai/Microsoft`)](https://github.com/errata-ai/Microsoft/releases/download/v0.7.0/Microsoft.zip), download it, and unzip it. Create a styles folder and move the Microsoft folder to the styles folder.
 
 This should be your file path:
 
@@ -248,7 +248,7 @@ This should be your file path:
   //other folders
 ```
 
-In your docs, create a <FontIcon icon="fas fa-file-lines"/>`.vale.ini` file and add it to your root.
+In your docs, create a <VPIcon icon="fas fa-file-lines"/>`.vale.ini` file and add it to your root.
 
 Add this code in it:
 
@@ -290,7 +290,7 @@ There are different hosting platforms where you can host your live site. This tu
 
 ### Deploy with GitHub Pages
 
-To deploy to GitHub Pages, you’ll need to set your repository name and GitHub username/organization name in the <FontIcon icon="fa-brands fa-js"/>`docusauraus.config.js` file.
+To deploy to GitHub Pages, you’ll need to set your repository name and GitHub username/organization name in the <VPIcon icon="fa-brands fa-js"/>`docusauraus.config.js` file.
 
 ```js
 {
@@ -315,19 +315,19 @@ You can deploy the site to GitHub Pages in the following ways:
 
 ::: tabs
 
-@tab:active <FontIcon icon="fas fa-gears"/>
+@tab:active <VPIcon icon="fas fa-gears"/>
 
 ```batch
 CMD /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"
 ```
 
-@tab <FontIcon icon="iconfont icon-powershell"/>
+@tab <VPIcon icon="iconfont icon-powershell"/>
 
 ```powershell
 cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy'
 ```
 
-@tab <FontIcon icon="fa-brands fa-linux"/>
+@tab <VPIcon icon="fa-brands fa-linux"/>
 
 ```sh
 GIT_USER=<GITHUB_USERNAME> yarn deploy
@@ -337,7 +337,7 @@ GIT_USER=<GITHUB_USERNAME> yarn deploy
 
 Just make sure you replace `<GITHUB_USERNAME>` with your username on GitHub.
 
-![Voilà! The site is deployed at [<FontIcon icon="fas fa-globe"/>https://ezinneanne.github.io/docs-as-code-tutorial/](https://ezinneanne.github.io/docs-as-code-tutorial/).](https://cdn.hashnode.com/res/hashnode/image/upload/v1737918709225/3eb12747-4a13-4c17-a7ad-ab6ee84b64ff.png)
+![Voilà! The site is deployed at [<VPIcon icon="fas fa-globe"/>https://ezinneanne.github.io/docs-as-code-tutorial/](https://ezinneanne.github.io/docs-as-code-tutorial/).](https://cdn.hashnode.com/res/hashnode/image/upload/v1737918709225/3eb12747-4a13-4c17-a7ad-ab6ee84b64ff.png)
 
 ### Deploy with Netlify
 
@@ -353,7 +353,7 @@ To deploy to Netlify, you only need the production URL and base URL:
 }
 ```
 
-1. Go to your [<FontIcon icon="fas fa-globe"/>Netlify account](https://netlify.com/) and link your repository.
+1. Go to your [<VPIcon icon="fas fa-globe"/>Netlify account](https://netlify.com/) and link your repository.
 2. Click on `Add new site`.
 3. Click on `import an existing project`.
 4. Connect to your GitHub account and select the `docs-as-code-tutorial` repository.
@@ -361,9 +361,9 @@ To deploy to Netlify, you only need the production URL and base URL:
 6. Add the publish directory which is `build` and the build command which is `npm run build`. Then Netlify will deploy to your default branch `main`, unless you specify otherwise.
 7. Finally, deploy!
 
-You should see the site running at [<FontIcon icon="fas fa-globe"/>https://docs-as-code-tutorial.netlify.app/](https://docs-as-code-tutorial.netlify.app/).
+You should see the site running at [<VPIcon icon="fas fa-globe"/>https://docs-as-code-tutorial.netlify.app/](https://docs-as-code-tutorial.netlify.app/).
 
-For other deployment options, [<FontIcon icon="fas fa-globe"/>you can check out the Docusauraus documentation](https://docusaurus.io/docs/deployment).
+For other deployment options, [<VPIcon icon="fas fa-globe"/>you can check out the Docusauraus documentation](https://docusaurus.io/docs/deployment).
 
 ---
 
@@ -373,7 +373,7 @@ Now we’ll set up a workflow for the documentation. In GitHub, when you deploy 
 
 Netlify also automates deployments but does not create a workflow file in your repository. Instead, it manages the process through its platform, monitoring your repository for changes and running builds based on your settings. In this tutorial, we will set up a workflow with GitHub Actions that automates Vale running linting checks through the docs.
 
-Create a <FontIcon icon="fas fa-folder-open"/>`.github/workflows` directory and add a <FontIcon icon="iconfont icon-yaml"/>`vale-linter.yml` file in it.
+Create a <VPIcon icon="fas fa-folder-open"/>`.github/workflows` directory and add a <VPIcon icon="iconfont icon-yaml"/>`vale-linter.yml` file in it.
 
 Add this code in it:
 
@@ -426,7 +426,7 @@ Finally push to the repository with `git push`.
 
 ![Click on the `changes` button and click on the job `prose`.](https://cdn.hashnode.com/res/hashnode/image/upload/v1737970927236/632e2753-5d2e-474b-a05e-74a9affa634d.png)
 
-Now, you should see all the lines in your <FontIcon icon="fa-brands fa-markdown"/>`.md` files highlighted by Vale.
+Now, you should see all the lines in your <VPIcon icon="fa-brands fa-markdown"/>`.md` files highlighted by Vale.
 
 With this, your docs are set up to run like a codebase! You can make changes, and when you push, review, and merge, it will sync automatically.
 
@@ -438,7 +438,7 @@ Keep in mind that this is for Netlify. For GitHub Pages, you’ll need to set up
 
 In this tutorial, you have learned how to set up documentation as code using Docusaurus. You also saw how to deploy your documentation to a live site, and automate the linting workflow with Vale and GitHub Actions.
 
-[<FontIcon icon="iconfont icon-github"/>There are other workflows](https://docs.github.com/en/actions/use-cases-and-examples/creating-an-example-workflow) you can set up to ease the workload in managing your doc site. Remember, the main point is to organize and structure your docs while automating regular documentation practices using software development tools. This lets you focus on the most important thing which is creating quality content for your readers.
+[<VPIcon icon="iconfont icon-github"/>There are other workflows](https://docs.github.com/en/actions/use-cases-and-examples/creating-an-example-workflow) you can set up to ease the workload in managing your doc site. Remember, the main point is to organize and structure your docs while automating regular documentation practices using software development tools. This lets you focus on the most important thing which is creating quality content for your readers.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

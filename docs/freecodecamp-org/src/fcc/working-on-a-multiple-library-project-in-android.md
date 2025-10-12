@@ -71,7 +71,7 @@ But, what if your library relies on another library you are developing?
 
 If you are not aware of it, you should know that a library (read aar) cannot contain another local library within it. It can rely on libraries remotely (via dependencies), but not on something local. 
 
-This is not supported in Android, and while some solutions popped up during the years ([FatAar (<FontIcon icon="iconfont icon-github"/>`kezong/fat-aar-android`)](https://github.com/kezong/fat-aar-android)), these didn’t always solve the problem and are not up to date. There is even a [<FontIcon icon="fa-brands fa-google"/>Google Issue Tracker](https://issuetracker.google.com/issues/62121508?pli=1) requesting this feature that has been open for quite some time and is receiving plenty of attention from the community. But let’s identify which walls we can break and which we cannot.
+This is not supported in Android, and while some solutions popped up during the years ([FatAar (<VPIcon icon="iconfont icon-github"/>`kezong/fat-aar-android`)](https://github.com/kezong/fat-aar-android)), these didn’t always solve the problem and are not up to date. There is even a [<VPIcon icon="fa-brands fa-google"/>Google Issue Tracker](https://issuetracker.google.com/issues/62121508?pli=1) requesting this feature that has been open for quite some time and is receiving plenty of attention from the community. But let’s identify which walls we can break and which we cannot.
 
 Imagine your project hierarchy looks like this:
 
@@ -102,7 +102,7 @@ To answer our first question, where can InnerLib reside, we have several options
 1. Make InnerLib a submodule of our original project
 2. Make InnerLib a remote dependency of its own
 
-If you are not aware of submodules in Git, [<FontIcon icon="iconfont icon-git"/>Git’s documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules) is a good place to familiarize yourself with them. Quoting from it (the first paragraph):
+If you are not aware of submodules in Git, [<VPIcon icon="iconfont icon-git"/>Git’s documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules) is a good place to familiarize yourself with them. Quoting from it (the first paragraph):
 
 > It often happens that while working on one project, you need to use another project from within it. 👉 Perhaps it’s a library that a third party developed or that you’re developing separately and using in multiple parent projects. 👈 A common issue arises in these scenarios: you want to be able to treat the two projects as separate yet still be able to use one from within the other.
 
@@ -118,7 +118,7 @@ If the first option sounds problematic for you, then hosting your library in ano
 
 ## Working Locally
 
-Now that we've gotten our project set up properly, we will probably have a line similar to this in our OuterLib <FontIcon icon="iconfont icon-gradle"/>`build.gradle` file:
+Now that we've gotten our project set up properly, we will probably have a line similar to this in our OuterLib <VPIcon icon="iconfont icon-gradle"/>`build.gradle` file:
 
 ```groovy
 dependencies {
@@ -128,7 +128,7 @@ dependencies {
 
 How can we make the development cycle efficient and easy to work with? If we develop some feature in `InnerLib`, how do we test things out in `OuterLib`? Or in our application?
 
-One solution that might come up is to import our InnerLib locally to our `OuterLib` project, while having `InnerLib` .gitignored in our `OuterLib` project. You can do so easily by right clicking on the name of the project in the left hand side menu in Android Studio and going to <FontIcon icon="iconfont icon-select"/>`[New]` → `[Module]`.
+One solution that might come up is to import our InnerLib locally to our `OuterLib` project, while having `InnerLib` .gitignored in our `OuterLib` project. You can do so easily by right clicking on the name of the project in the left hand side menu in Android Studio and going to <VPIcon icon="iconfont icon-select"/>`[New]` → `[Module]`.
 
 ![How to import a module (Step 1)](https://freecodecamp.org/news/content/images/2024/04/1.jpg)
 
@@ -142,17 +142,17 @@ Each time you modify a file that belongs to `InnerLib`, the changes won’t be r
 
 This doesn’t seem right. There must be a better way of doing this.
 
-With just a few lines in our <FontIcon icon="iconfont icon-gradle"/>`settings.gradle` file, we can make sure our files stay in sync when we make changes in `InnerLib`. 
+With just a few lines in our <VPIcon icon="iconfont icon-gradle"/>`settings.gradle` file, we can make sure our files stay in sync when we make changes in `InnerLib`. 
 
 When we imported `InnerLib` into our project, Android Studio made a copy of InnerLib and cached it. That is why we needed to re-import the library for every change we made inside of it. We can tell Android Studio where to reference the files from using the `projectDir` attribute. 
 
-Our <FontIcon icon="iconfont icon-gradle"/>`settings.gradle` might look something like this:
+Our <VPIcon icon="iconfont icon-gradle"/>`settings.gradle` might look something like this:
 
 ```groovy
 include ':outerLib', ':innerLib', ':app'
 ```
 
-To reference our `InnerLib` locally, we would have to change <FontIcon icon="iconfont icon-gradle"/>`settings.gradle` into this:
+To reference our `InnerLib` locally, we would have to change <VPIcon icon="iconfont icon-gradle"/>`settings.gradle` into this:
 
 ```groovy
 include ':outerLib', ':innerLib', ':app'
@@ -173,17 +173,17 @@ Below are the paths for `mavenLocal` depending on the operating system of your m
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-macos"/>Mac
+@tab:active <VPIcon icon="iconfont icon-macos"/>Mac
 
-<FontIcon icon="fas fa-folder-open"/>`/Users/YOUR_USERNAME/.m2`
+<VPIcon icon="fas fa-folder-open"/>`/Users/YOUR_USERNAME/.m2`
 
-@tab <FontIcon icon="fa-brands fa-linux"/>Linux
+@tab <VPIcon icon="fa-brands fa-linux"/>Linux
 
-<FontIcon icon="fas fa-folder-open"/>`/home/YOUR_USERNAME/.m2`
+<VPIcon icon="fas fa-folder-open"/>`/home/YOUR_USERNAME/.m2`
 
-@tab <FontIcon icon="fa-brands fa-windows"/>Windows
+@tab <VPIcon icon="fa-brands fa-windows"/>Windows
 
-<FontIcon icon="fas fa-folder-open"/>`C:\Users\YOUR_USERNAME\.m2`
+<VPIcon icon="fas fa-folder-open"/>`C:\Users\YOUR_USERNAME\.m2`
 
 :::
 
@@ -219,7 +219,7 @@ Change our implementation line inside our dependencies clause to reference our I
 
 @tab 3.
 
-To publish `InnerLib` locally, we will create a file called <FontIcon icon="iconfont icon-gradle"/>`publishingLocally.gradle` that will contain the following:
+To publish `InnerLib` locally, we will create a file called <VPIcon icon="iconfont icon-gradle"/>`publishingLocally.gradle` that will contain the following:
 
 ```groovy
 apply plugin: 'maven-publish' 
@@ -249,7 +249,7 @@ project.afterEvaluate {
 
 @tab 4.
 
-Inside your application level <FontIcon icon="iconfont icon-gradle"/>`build.gradle` file, add the line:
+Inside your application level <VPIcon icon="iconfont icon-gradle"/>`build.gradle` file, add the line:
 
 ```groovy
 apply from: '/.publishingLocally.gradle
@@ -265,7 +265,7 @@ If this option seems a bit too good to be true, **it is**. While on one hand, we
 
 We want to avoid the constant need to re-publish our InnerLib package whenever we make a change locally. We need to figure out a way to make our project be aware of those changes.
 
-In the Working Locally section, we found out how to do that, but we had an issue with committing the settings.gradle file. To solve this problem so we can work both locally and remotely with our InnerLib, we will use a parameter we will define in our <FontIcon icon="fas fa-file-lines"/>`gradle.properties` file.
+In the Working Locally section, we found out how to do that, but we had an issue with committing the settings.gradle file. To solve this problem so we can work both locally and remotely with our InnerLib, we will use a parameter we will define in our <VPIcon icon="fas fa-file-lines"/>`gradle.properties` file.
 
 The gradle.properties file is a place where you can store project level settings that configure your development environment. This helps make sure that all the developers on a team have a consistent development environment. 
 
@@ -277,7 +277,7 @@ To help us solve our situation, we can add a parameter here to indicate whether 
 workingLocally = false
 ```
 
-This parameter will grant us the ability to distinguish between which settings we are working with, either locally or with production code. First, let’s alter what we have in our <FontIcon icon="iconfont icon-gradle"/>`settings.gradle` file by wrapping it in a condition that checks if our parameter is true:
+This parameter will grant us the ability to distinguish between which settings we are working with, either locally or with production code. First, let’s alter what we have in our <VPIcon icon="iconfont icon-gradle"/>`settings.gradle` file by wrapping it in a condition that checks if our parameter is true:
 
 ```groovy
 include ':outerLib', ':innerLib', ':app'
@@ -288,7 +288,7 @@ if (workingLocally.booleanValue()) {
 
 This way, we indicate to the project to get the files for our InnerLib locally from our machine. 
 
-Another place where we need to change our logic is in our <FontIcon icon="iconfont icon-gradle"/>`build.gradle` file. Here, instead of getting the code to our library remotely in our dependencies block, we can indicate whether we are depending on it locally or not.
+Another place where we need to change our logic is in our <VPIcon icon="iconfont icon-gradle"/>`build.gradle` file. Here, instead of getting the code to our library remotely in our dependencies block, we can indicate whether we are depending on it locally or not.
 
 ```groovy
 dependencies {
@@ -302,7 +302,7 @@ dependencies {
 
 ::: warning Word of warning
 
-You should never commit the <FontIcon icon="fas fa-file-lines"/>`gradle.properties` file when working locally.
+You should never commit the <VPIcon icon="fas fa-file-lines"/>`gradle.properties` file when working locally.
 
 :::
 

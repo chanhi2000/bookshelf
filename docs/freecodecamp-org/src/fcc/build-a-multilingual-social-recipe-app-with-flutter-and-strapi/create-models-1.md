@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6c-9a48-4037-9cc2-3b35a92b6006.png"/>
 
-Once you have set up a Strapi project with [<FontIcon icon="iconfont icon-strapi"/>this quick guide](https://docs.strapi.io/dev-docs/installation/cli), create two models, Recipe and RecipeRequest, in the Strapi admin panel.
+Once you have set up a Strapi project with [<VPIcon icon="iconfont icon-strapi"/>this quick guide](https://docs.strapi.io/dev-docs/installation/cli), create two models, Recipe and RecipeRequest, in the Strapi admin panel.
 
 A recipe typically has the following elements:
 

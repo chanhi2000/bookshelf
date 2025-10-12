@@ -117,9 +117,9 @@ The Python cryptography library (PyCA cryptography) explicitly documents[^5] tha
 
 This shift to the Carmichael function ensures that under the hood your RSA key is a bit more efficient than the ones from the late 1970s while providing the same level of security.
 
-[^1]: FIPS 186-5: [<FontIcon icon="fas fa-globe"/>Digital Signature Standard (DSS)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf)
-[^2]: RFC 8017 PKCS #1: [<FontIcon icon="fas fa-globe"/>RSA Cryptography Specifications](https://rfc-editor.org/rfc/rfc8017.html)
-[^3]: [<FontIcon icon="fa-brands fa-wikipedia-w"/>Lagrange's theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_\(number_theory\))
+[^1]: FIPS 186-5: [<VPIcon icon="fas fa-globe"/>Digital Signature Standard (DSS)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf)
+[^2]: RFC 8017 PKCS #1: [<VPIcon icon="fas fa-globe"/>RSA Cryptography Specifications](https://rfc-editor.org/rfc/rfc8017.html)
+[^3]: [<VPIcon icon="fa-brands fa-wikipedia-w"/>Lagrange's theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_\(number_theory\))
 [^4]: Ronald L. Rivest, Robert D. Silverman: [Are Strong Primes Needed for RSA](https://people.csail.mit.edu/rivest/pubs/pubs/RS01.version-1999-11-22.pdf)?
-[^5]: [<FontIcon icon="fas fa-globe"/>pyca/cryptography](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/)
-[^6]: [OpenSSL Github (<FontIcon icon="iconfont icon-github"/>`openssl/openssl`)](https://github.com/openssl/openssl/blob/85cabd94958303859b1551364a609d4ff40b67a5/crypto/rsa/rsa_chk.c): `rsa_chk.c`
+[^5]: [<VPIcon icon="fas fa-globe"/>pyca/cryptography](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/)
+[^6]: [OpenSSL Github (<VPIcon icon="iconfont icon-github"/>`openssl/openssl`)](https://github.com/openssl/openssl/blob/85cabd94958303859b1551364a609d4ff40b67a5/crypto/rsa/rsa_chk.c): `rsa_chk.c`

@@ -142,7 +142,7 @@ INSTALLED_APPS = [
 
 ### 2. Add a Simple Model
 
-Here’s a quick model to work with. In <FontIcon icon="fas fa-folder-open"/>`myapp/`<FontIcon icon="fa-brands fa-python"/>`models.py`:
+Here’s a quick model to work with. In <VPIcon icon="fas fa-folder-open"/>`myapp/`<VPIcon icon="fa-brands fa-python"/>`models.py`:
 
 ```py title="models.py"
 from django.db import models
@@ -165,7 +165,7 @@ python manage.py migrate
 
 ### 3. Create a Schema
 
-In <FontIcon icon="fas fa-folder-open"/>`myapp/`<FontIcon icon="fa-brands fa-python"/>`schema.py`, start with:
+In <VPIcon icon="fas fa-folder-open"/>`myapp/`<VPIcon icon="fa-brands fa-python"/>`schema.py`, start with:
 
 ```py title="schema.py"
 import graphene
@@ -227,7 +227,7 @@ Boom. You just queried your database using GraphQL.
 
 GraphQL isn’t just for reading data. You can also create, update, and delete. Here’s how to add a mutation for creating a post:
 
-In <FontIcon icon="fas fa-folder-open"/>`myapp/`<FontIcon icon="fa-brands fa-python"/>`schema.py`:
+In <VPIcon icon="fas fa-folder-open"/>`myapp/`<VPIcon icon="fa-brands fa-python"/>`schema.py`:
 
 ```py title="schema.py"
 class CreatePost(graphene.Mutation):
@@ -316,7 +316,7 @@ In this code,
 - We’re creating a new `graphene.Schema`.
 - We pass in a `Query` class (assumed to be defined elsewhere for read operations) and our `Mutation` class for write operations.
 
-This is the GraphQL equivalent of wiring up Django's <FontIcon icon="fa-brands fa-python"/>`urls.py` - it's what gets exposed to clients when they hit your `/graphql/` endpoint.
+This is the GraphQL equivalent of wiring up Django's <VPIcon icon="fa-brands fa-python"/>`urls.py` - it's what gets exposed to clients when they hit your `/graphql/` endpoint.
 
 ---
 
@@ -367,7 +367,7 @@ And get a response like:
 
 - Ensure you have `graphene-django` installed.
 - Add `'graphene_django'` to your `INSTALLED_APPS`.
-- Wire up the schema in your Django project’s <FontIcon icon="fa-brands fa-python"/>`urls.py`.
+- Wire up the schema in your Django project’s <VPIcon icon="fa-brands fa-python"/>`urls.py`.
 
 ```py
 from django.urls import path

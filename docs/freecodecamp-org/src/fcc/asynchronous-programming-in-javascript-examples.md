@@ -292,7 +292,7 @@ Asynchronous programming in JavaScript is used to make tasks in a program run co
 
 This article explains how to use these asynchronous programming techniques and how to handle errors with them.
 
-You can check the [<FontIcon icon="fas fa-globe"/>promises and async/await section on the JavaScript.info website](https://javascript.info/async) to learn more about asynchronous programming in JavaScript.
+You can check the [<VPIcon icon="fas fa-globe"/>promises and async/await section on the JavaScript.info website](https://javascript.info/async) to learn more about asynchronous programming in JavaScript.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

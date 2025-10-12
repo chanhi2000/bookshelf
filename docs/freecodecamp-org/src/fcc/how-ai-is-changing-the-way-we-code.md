@@ -110,19 +110,19 @@ However, it’s critical to understand that these tools don’t replace foundati
 
 Thanks to OpenAI’s GPT-4 and now GPT-4o, AI is no longer just sitting on the sidelines. It’s woven into IDEs like VS Code and JetBrains, as well as browser-based tools. You write a comment and it writes the function. You paste a bug and it suggests a fix. You ask for a performance boost and it rewrites the loop.
 
-Even advanced software like an [<FontIcon icon="fas fa-globe"/>AI voice generator](https://murf.ai/) is being built into dev tools, so developers can talk instead of typing. Devs are already building a lightweight to-do app just by speaking commands through AI voice generators integrated with their IDE.
+Even advanced software like an [<VPIcon icon="fas fa-globe"/>AI voice generator](https://murf.ai/) is being built into dev tools, so developers can talk instead of typing. Devs are already building a lightweight to-do app just by speaking commands through AI voice generators integrated with their IDE.
 
 It’s not just your average fancy plugin - but a new baseline.
 
 ### Everyone’s Using It
 
-What started with early adopters has gone mainstream. Freelancers, small dev shops, and global enterprises are building faster with AI. Startups use it to ship MVPs. Enterprises use it to refactor legacy code. [<FontIcon icon="fas fa-globe"/>Cybersecurity specialists use AI](https://stickypassword.com/blog/ai-in-cybersecurity-key-benefits-defense-strategies-future-trends-3218) to detect malware, strengthen digital defenses, and automate threat response.
+What started with early adopters has gone mainstream. Freelancers, small dev shops, and global enterprises are building faster with AI. Startups use it to ship MVPs. Enterprises use it to refactor legacy code. [<VPIcon icon="fas fa-globe"/>Cybersecurity specialists use AI](https://stickypassword.com/blog/ai-in-cybersecurity-key-benefits-defense-strategies-future-trends-3218) to detect malware, strengthen digital defenses, and automate threat response.
 
 Still, simply using the tool isn't enough. As a developer, especially if you’re just starting out, you need to learn how to interpret the code AI gives you. AI might write a function that works, but unless you understand its logic and implications, you can’t guarantee its correctness or security. This is where core programming knowledge becomes your superpower.
 
 One team recently migrated a decade-old [**Java codebase**](/freecodecamp.org/javascript-algorithms-and-data-structures-v8.md) with the help of Copilot, resulting in cleaner, safer, and clearer logic. No massive rewrite was required.
 
-Another emerging trend is the intersection of [<FontIcon icon="fas fa-globe"/>AI and QR codes](https://qrcode-tiger.com/ai-and-qr-codes), where developers are utilizing AI to generate dynamic, context-aware QR codes that adapt to user behavior or location. These smart QR codes are integrated into applications for seamless user onboarding, multi-language content delivery, or dynamic promotions - all generated or managed with minimal manual coding thanks to AI.
+Another emerging trend is the intersection of [<VPIcon icon="fas fa-globe"/>AI and QR codes](https://qrcode-tiger.com/ai-and-qr-codes), where developers are utilizing AI to generate dynamic, context-aware QR codes that adapt to user behavior or location. These smart QR codes are integrated into applications for seamless user onboarding, multi-language content delivery, or dynamic promotions - all generated or managed with minimal manual coding thanks to AI.
 
 ![`ai-v2-img3`<br/>[Image Source](https://aitimejournal.com/what-is-artificial-intelligence-ai/29625/)](https://codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg)
 
@@ -150,7 +150,7 @@ Autocomplete is no longer just about closing parentheses. It’s full-function s
 
 With AI, it’s like coding with a buddy who never gets tired. You type a few lines and it fills in the next block. You tweak it. It adapts.
 
-A front-end developer in a remote team codes with GPT-4 side by side. One line at a time, like [<FontIcon icon="fas fa-globe"/>pair programming](https://railsware.com/blog/what-is-pair-programming/), but with much more patience.
+A front-end developer in a remote team codes with GPT-4 side by side. One line at a time, like [<VPIcon icon="fas fa-globe"/>pair programming](https://railsware.com/blog/what-is-pair-programming/), but with much more patience.
 
 :::: tip Example Prompt
 
@@ -221,7 +221,7 @@ Tired of squinting at error logs? AI now reads them for you and explains them in
 
 Say you feed it an error message. It tells you what’s wrong, how to fix it, and even features examples.
 
-Now, developers use tools like ChatGPT for [<FontIcon icon="fas fa-globe"/>instant code debugging](https://techinformed.com/how-to-use-ai-in-coding-and-debugging/) by simply pasting in the buggy chunk and asking what’s wrong. No waiting for a teammate or filtering through logs for hours.
+Now, developers use tools like ChatGPT for [<VPIcon icon="fas fa-globe"/>instant code debugging](https://techinformed.com/how-to-use-ai-in-coding-and-debugging/) by simply pasting in the buggy chunk and asking what’s wrong. No waiting for a teammate or filtering through logs for hours.
 
 ::: tip Example Prompt
 
@@ -278,7 +278,7 @@ Legacy code is hard to touch. But AI makes it easier.
 
 You prompt, “optimize for performance,” and it rewrites loops, applies patterns, and removes dead code.
 
-AI tools now help [<FontIcon icon="fas fa-globe"/>developers spot and fix performance issues](https://cogentuniversity.com/post/ai-powered-code-optimization-redefining-software-engineering-standards?utm_source=chatgpt.com) like redundant loops or inefficient logic without manual rewrites.
+AI tools now help [<VPIcon icon="fas fa-globe"/>developers spot and fix performance issues](https://cogentuniversity.com/post/ai-powered-code-optimization-redefining-software-engineering-standards?utm_source=chatgpt.com) like redundant loops or inefficient logic without manual rewrites.
 
 ::: tip Example Prompt
 
@@ -371,7 +371,7 @@ For learning, the best prompts are concept + example requests. They help AI give
 
 AI has also blurred the line between devs and non-devs. A non-developer can now understand what the site requires by leveraging the power of AI. You engineer a prompt according to your requirements, use the output, and get on with your life.
 
-AI prompts now power tools like Bubble, Glide, and Webflow. Users describe what they want. [<FontIcon icon="fas fa-globe"/>AI builds workflows](https://brandcrowd.com/blog/how-to-use-ai-to-launch-your-business/), creates logic, and connects data sources.
+AI prompts now power tools like Bubble, Glide, and Webflow. Users describe what they want. [<VPIcon icon="fas fa-globe"/>AI builds workflows](https://brandcrowd.com/blog/how-to-use-ai-to-launch-your-business/), creates logic, and connects data sources.
 
 However, this doesn’t mean AI replaces the need for a knowledgeable developer—especially if you’re aiming to build a secure, accessible, and production-ready application. While AI can generate working prototypes or components, it won’t always account for performance optimization, data privacy, or UX best practices. These areas still require human judgment, technical know-how, and experience.
 
@@ -449,7 +449,7 @@ The prompt is clear and specific, so the AI produced a working, minimal solution
 
 AI doesn’t just touch code - it touches the entire development lifecycle. And automation is just one facet of what AI can do.
 
-AI now auto-generates test cases. It syncs documentation. It creates changelogs from commits. It even suggests sprint tasks based on new PRs. It can also turn your user requirements into [<FontIcon icon="fas fa-globe"/>slide decks generated with AI](https://slidemodel.com/how-to-use-ai-to-generate-a-powerpoint-presentation/), ready for presenting to the stakeholders.
+AI now auto-generates test cases. It syncs documentation. It creates changelogs from commits. It even suggests sprint tasks based on new PRs. It can also turn your user requirements into [<VPIcon icon="fas fa-globe"/>slide decks generated with AI](https://slidemodel.com/how-to-use-ai-to-generate-a-powerpoint-presentation/), ready for presenting to the stakeholders.
 
 ::: tip Example Prompt
 
@@ -509,7 +509,7 @@ For workflow automation, prompts work best when they clearly define the input fo
 
 Every workplace, whether a small startup or a big tech company, relies on automation today. Chats, follow-ups, and performance marketing are all automated.
 
-![[Image Source (<FontIcon icon="fa-brands fa-medium"/>`seattlewebsitedesign`)](https://seattlewebsitedesign.medium.com/top-language-for-ai-5516d92d1cc1)](https://miro.medium.com/v2/resize:fit:1000/1*zZvxP-_EpDJpyIDd8WLxiw.png)
+![[Image Source (<VPIcon icon="fa-brands fa-medium"/>`seattlewebsitedesign`)](https://seattlewebsitedesign.medium.com/top-language-for-ai-5516d92d1cc1)](https://miro.medium.com/v2/resize:fit:1000/1*zZvxP-_EpDJpyIDd8WLxiw.png)
 
 ---
 
@@ -549,7 +549,7 @@ In 2025, “prompt engineer” is more than just a trend. It’s a real skill. K
 
 New roles are emerging: AI trainers, code curators, and integration specialists.
 
-AI is changing coding, but it’s not replacing coders. The [<FontIcon icon="fas fa-globe"/>future of AI](https://infinitysofthint.com/blog/impact-of-artificial-intelligence/) is reshaping how we work, what we focus on, and how we solve problems.
+AI is changing coding, but it’s not replacing coders. The [<VPIcon icon="fas fa-globe"/>future of AI](https://infinitysofthint.com/blog/impact-of-artificial-intelligence/) is reshaping how we work, what we focus on, and how we solve problems.
 The shift is here: from writing every line by hand to steering intelligent tools. From debugging blindly to spotting issues with clarity. From repetitive tasks to higher-level thinking.
 
 We’re not in the age of AI dominance. We’re in the age of AI partnership.

@@ -59,7 +59,7 @@ I think a demo is worth thousands of words, so check out this Codepen:
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-In the above Pen, I’m showing you four different CSS filler-style loaders - but we can make even more. You can check out [<FontIcon icon="fas fa-globe"/>this collection](https://css-loaders.com/filling/) I created to see more than 20 different loaders.
+In the above Pen, I’m showing you four different CSS filler-style loaders - but we can make even more. You can check out [<VPIcon icon="fas fa-globe"/>this collection](https://css-loaders.com/filling/) I created to see more than 20 different loaders.
 
 You might think the article is going to be super long - I mean, how long will it take to explain how to create 20 different CSS loaders?
 
@@ -69,7 +69,7 @@ Well don’t worry - this tutorial will be super quick, because I’ll show a fe
 
 ## The Initial Loader Configuration
 
-Like all [<FontIcon icon="fas fa-globe"/>the CSS Loaders](https://css-loaders.com/) I create, the HTML code is a simple as a single element. Nothing more! Here’s what it looks like:
+Like all [<VPIcon icon="fas fa-globe"/>the CSS Loaders](https://css-loaders.com/) I create, the HTML code is a simple as a single element. Nothing more! Here’s what it looks like:
 
 ```html
 <div class="loader">Loading</div>
@@ -90,7 +90,7 @@ Nothing fancy so far. We make the text transparent and we add a black stroke to 
 
 ![The "loading" text with a black stroke and transparent color](https://cdn.hashnode.com/res/hashnode/image/upload/v1729506785632/fe01d18e-6d7d-4d49-a5d0-ef6766c51241.png)
 
-The `-webkit-text-stroke` is still tagged as experimental, but it has [<FontIcon icon="fas fa-globe"/>good browser support](https://caniuse.com/mdn-css_properties_-webkit-text-stroke) so you should be able to use it without any issues. This said, it’s always good to test your code in different browsers to make sure everything works fine.
+The `-webkit-text-stroke` is still tagged as experimental, but it has [<VPIcon icon="fas fa-globe"/>good browser support](https://caniuse.com/mdn-css_properties_-webkit-text-stroke) so you should be able to use it without any issues. This said, it’s always good to test your code in different browsers to make sure everything works fine.
 
 ---
 
@@ -122,7 +122,7 @@ Or the shorthand version if you prefer more compact code:
 
 The above figure illustrates the difference between using or not using `background-clip: text`. It’s pretty clear that the left result is what we are aiming for. We are limiting the background coloration to only the text instead of the whole element.
 
-The `conic-gradient(#000 0 0)` looks strange, right? It lets you have a one-color gradient. I wrote a small tip about it that I invite you to read to understand why we’re using that particular syntax in this article, “[<FontIcon icon="fas fa-globe"/>How to correctly define a one-color gradient](https://css-tip.com/one-color-gradient/)“.
+The `conic-gradient(#000 0 0)` looks strange, right? It lets you have a one-color gradient. I wrote a small tip about it that I invite you to read to understand why we’re using that particular syntax in this article, “[<VPIcon icon="fas fa-globe"/>How to correctly define a one-color gradient](https://css-tip.com/one-color-gradient/)“.
 
 ---
 
@@ -200,7 +200,7 @@ Now if you check the animation, I’m simply animating the height of each gradie
 
 It may look difficult at first glance, but if you think about it one gradient at a time, it’s pretty simple.
 
-What about the third loader, you might ask? For that one, I will rely on [<FontIcon icon="fas fa-globe"/>my online generator for wavy shapes](https://css-generators.com/wavy-shapes/) to generate the gradient configuration:
+What about the third loader, you might ask? For that one, I will rely on [<VPIcon icon="fas fa-globe"/>my online generator for wavy shapes](https://css-generators.com/wavy-shapes/) to generate the gradient configuration:
 
 ![Screenshot of the wavy shape generator](https://cdn.hashnode.com/res/hashnode/image/upload/v1729635835522/2f8726a3-e6bb-4949-8846-8408dad56a64.png)
 
@@ -222,7 +222,7 @@ Then I animate the `background-position` like below:
 
 This one is probably a bit trickier, but it’s another example to illustrate all the possibilities. From the simple gradient configuration to the most complex one, we can create as many loaders as we want.
 
-What about creating your own CSS loader? You can use what you have learned from the article and try to create a loader that is not part of [<FontIcon icon="fas fa-globe"/>my collection](https://css-loaders.com/filling/). The best way to learn is to practice - so give it a try!
+What about creating your own CSS loader? You can use what you have learned from the article and try to create a loader that is not part of [<VPIcon icon="fas fa-globe"/>my collection](https://css-loaders.com/filling/). The best way to learn is to practice - so give it a try!
 
 ---
 
@@ -230,7 +230,7 @@ What about creating your own CSS loader? You can use what you have learned from 
 
 By creating some cool loaders, we went through a bunch of CSS tricks related to gradients and backgrounds. Even if creating loaders is not your goal, you can always re-use the same tricks to do something else.
 
-Don’t forget to check my [<FontIcon icon="fas fa-globe"/>CSS Tip blog](https://css-tip.com/) where I am sharing cool CSS tricks and demos.
+Don’t forget to check my [<VPIcon icon="fas fa-globe"/>CSS Tip blog](https://css-tip.com/) where I am sharing cool CSS tricks and demos.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -193,9 +193,9 @@ In this article, we'll dive into the world of minimal APIs in .NET 8 and guide y
 
 Before we get going, make sure you have the following prerequisites installed on your machine:
 
-- [<FontIcon icon="fa-brands fa-microsoft"/>.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- [<FontIcon icon="iconfont icon-vscode"/>Visual Studio Code](https://code.visualstudio.com/download) or any other code editor of your choice
-- [<FontIcon icon="iconfont icon-vscode"/>C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) for Visual Studio Code
+- [<VPIcon icon="fa-brands fa-microsoft"/>.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [<VPIcon icon="iconfont icon-vscode"/>Visual Studio Code](https://code.visualstudio.com/download) or any other code editor of your choice
+- [<VPIcon icon="iconfont icon-vscode"/>C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) for Visual Studio Code
 
 :::
 
@@ -207,7 +207,7 @@ When you create a new project, it will automatically install the necessary packa
 
 Run your application, and the Swagger UI will automatically open in your browser - but since we are using VS Code, we need to click on the port number on our terminal.
 
-You can find the source code for this project on [GitHub (<FontIcon icon="iconfont icon-github"/>`Clifftech123/bookapi-minimal`)](https://github.com/Clifftech123/bookapi-minimal).
+You can find the source code for this project on [GitHub (<VPIcon icon="iconfont icon-github"/>`Clifftech123/bookapi-minimal`)](https://github.com/Clifftech123/bookapi-minimal).
 
 <SiteInfo
   name="Clifftech123/bookapi-minimal"
@@ -228,9 +228,9 @@ I hope you found this tutorial both helpful and informative. Thank you for readi
 
 Feel free to connect with me on social media:
 
-- [X (<FontIcon icon="fa-brands fa-x-twitter"/>`Clifftech_Dev`)](https://x.com/Clifftech_Dev)
-- [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`isaiah-clifford-opoku`)](https://linkedin.com/in/isaiah-clifford-opoku/)
-- [GitHub (<FontIcon icon="iconfont icon-github"/>`Clifftech123`)](https://github.com/Clifftech123)
+- [X (<VPIcon icon="fa-brands fa-x-twitter"/>`Clifftech_Dev`)](https://x.com/Clifftech_Dev)
+- [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`isaiah-clifford-opoku`)](https://linkedin.com/in/isaiah-clifford-opoku/)
+- [GitHub (<VPIcon icon="iconfont icon-github"/>`Clifftech123`)](https://github.com/Clifftech123)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

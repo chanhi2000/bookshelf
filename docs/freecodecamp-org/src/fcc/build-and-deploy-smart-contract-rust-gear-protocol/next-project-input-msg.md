@@ -46,20 +46,20 @@ cover: https://freecodecamp.org/news/content/images/2024/06/How-to-Build-and-Dep
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/2024/06/How-to-Build-and-Deploy-a-Smart-Contract-With-Rust-and-the-Gear-Protocol-Cover.png"/>
 
-Just like the illustration earlier, you're going to interact with your program by sending an input value to your smart contract deployed on [<FontIcon icon="fas fa-globe"/>IDEA](https://idea.gear-tech.io/programs?node=wss%3A%2F%2Ftestnet.vara.network). [<FontIcon icon="fas fa-globe"/>IDEA](https://idea.gear-tech.io/programs?node=wss%3A%2F%2Ftestnet.vara.network) is your deployment environment where you deploy your smart contract on the Vara Network.  
+Just like the illustration earlier, you're going to interact with your program by sending an input value to your smart contract deployed on [<VPIcon icon="fas fa-globe"/>IDEA](https://idea.gear-tech.io/programs?node=wss%3A%2F%2Ftestnet.vara.network). [<VPIcon icon="fas fa-globe"/>IDEA](https://idea.gear-tech.io/programs?node=wss%3A%2F%2Ftestnet.vara.network) is your deployment environment where you deploy your smart contract on the Vara Network.  
 The point here is for you to load input values from your user, and process it by concatenating a string to the user's input value: "We've received your query. {user's-input}".
 
 This is the reply you'll send back to the user that sends a message (input value).
 
-So in your <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol` directory, run the command below to add another member to your <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/`<FontIcon icon="iconfont icon-toml"/>`Cargo.toml`.
+So in your <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol` directory, run the command below to add another member to your <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/`<VPIcon icon="iconfont icon-toml"/>`Cargo.toml`.
 
 ```sh
 cargo new --lib input-msg
 ```
 
-After adding another member or project in the <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol`, your path should be <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/input-msg`.
+After adding another member or project in the <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol`, your path should be <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/input-msg`.
 
-Earlier, I made mention of how to access input values into the smart contract or program by using `gstd`, which has a function or method called `load()`. For the next step, clear your <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/input-msg/src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs`, and paste the following code and run `cargo check`.
+Earlier, I made mention of how to access input values into the smart contract or program by using `gstd`, which has a function or method called `load()`. For the next step, clear your <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/input-msg/src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs`, and paste the following code and run `cargo check`.
 
 ```rs title="input-msg/src/lib.rs"
 #![no_std]
@@ -181,4 +181,4 @@ Submit and approve and head back to your program, then select your `reply_messag
 
 ![Smart Contract - Reply Message](https://freecodecamp.org/news/content/images/2024/04/Screenshot-2024-04-06-080437.png)
 
-[<FontIcon icon="fas fa-globe"/>You can find the program here on the Vara Network](https://idea.gear-tech.io/programs/0x25629eaa3c7a51ec407f89bbaae7ccb4f58c6026283758d0fccb50e3bb042bdd).
+[<VPIcon icon="fas fa-globe"/>You can find the program here on the Vara Network](https://idea.gear-tech.io/programs/0x25629eaa3c7a51ec407f89bbaae7ccb4f58c6026283758d0fccb50e3bb042bdd).

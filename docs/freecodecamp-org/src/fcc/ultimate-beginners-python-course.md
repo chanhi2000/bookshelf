@@ -104,7 +104,7 @@ Here are the different chapters in this course. The topics cover everything you 
 
 Python is an incredibly versatile language with applications in web development, data science, artificial intelligence, and more. Whether you're eyeing a career change, a hobby, or just the sheer joy of learning something new, Python is an excellent place to start.
 
-You can watch the full course [<FontIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/qwAFL1597eM) (9-hour watch).
+You can watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/qwAFL1597eM) (9-hour watch).
 
 <VidStack src="youtube/qwAFL1597eM" />
 

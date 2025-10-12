@@ -69,7 +69,7 @@ In this guide, I will share my notes as a concise and practical reference. These
 
 Since React is based on JavaScript, it’s essential to have a good grasp of the language before you start learning React.
 
-I recommend a comprehensive resource like [<FontIcon icon="fas fa-globe"/>The Modern JavaScript Tutorial](https://javascript.info/) for an in-depth review. But if you feel confident about most of JavaScript and just need a brush-up, here’s my recommended list of crucial topics:
+I recommend a comprehensive resource like [<VPIcon icon="fas fa-globe"/>The Modern JavaScript Tutorial](https://javascript.info/) for an in-depth review. But if you feel confident about most of JavaScript and just need a brush-up, here’s my recommended list of crucial topics:
 
 ---
 
@@ -177,7 +177,7 @@ const squares = numbers.map(num => num * num);
 console.log(squares); // [1, 4, 9, 16]
 ```
 
-To learn more about how arrow functions compare with other ways to define functions, you may read this blog on [<FontIcon icon="fa-brands fa-medium"/>ways to write JS functions](https://medium.com/stackademic/3-common-ways-of-writing-functions-1fc62f478fe3).
+To learn more about how arrow functions compare with other ways to define functions, you may read this blog on [<VPIcon icon="fa-brands fa-medium"/>ways to write JS functions](https://medium.com/stackademic/3-common-ways-of-writing-functions-1fc62f478fe3).
 
 ---
 
@@ -229,7 +229,7 @@ const { name, age } = user;
 console.log(name); // Alice
 ```
 
-Destructuring is commonly used in React for handling props and state. To see more specific use cases of destructuring with code examples, read this [<FontIcon icon="fa-brands fa-medium"/>quick reference on destructuring](https://medium.com/@codenil/destructuring-a-quick-reference-a7b2fa09c88a).
+Destructuring is commonly used in React for handling props and state. To see more specific use cases of destructuring with code examples, read this [<VPIcon icon="fa-brands fa-medium"/>quick reference on destructuring](https://medium.com/@codenil/destructuring-a-quick-reference-a7b2fa09c88a).
 
 ---
 
@@ -417,7 +417,7 @@ The `map()` and `filter()` methods are easier to grasp because they follow a sim
 
 In contrast, `reduce()` is more complex, as it accumulates values into a single result rather than maintaining a one-to-one relationship. It requires managing both the current value and an accumulator, making it conceptually different and harder to interpret than `map()` or `filter()`.
 
-The optional initial value in `reduce()` adds to the complexity, as it sets the starting point for the accumulation. Without it, the first array element is used as the accumulator, which can cause unexpected results with empty arrays or non-numeric data. To get consistent results for your use of the `reduce()` method, you may read about [<FontIcon icon="fa-brands fa-medium"/>the importance of an initial value](https://medium.com/@codenil/the-importance-of-initial-value-in-array-reduce-method-86284878d1e4).
+The optional initial value in `reduce()` adds to the complexity, as it sets the starting point for the accumulation. Without it, the first array element is used as the accumulator, which can cause unexpected results with empty arrays or non-numeric data. To get consistent results for your use of the `reduce()` method, you may read about [<VPIcon icon="fa-brands fa-medium"/>the importance of an initial value](https://medium.com/@codenil/the-importance-of-initial-value-in-array-reduce-method-86284878d1e4).
 
 ---
 
@@ -458,7 +458,7 @@ console.log(message);
 //Output: Please login
 ```
 
-In React, it is an efficient replacement for the if-else statements in certain scenarios — like [<FontIcon icon="fas fa-globe"/>conditional rendering](https://blog.stackademic.com/conditional-rendering-in-react-four-different-approaches-f25faddf0161), which delivers elements and components based on certain conditions or values of state or props data.
+In React, it is an efficient replacement for the if-else statements in certain scenarios — like [<VPIcon icon="fas fa-globe"/>conditional rendering](https://blog.stackademic.com/conditional-rendering-in-react-four-different-approaches-f25faddf0161), which delivers elements and components based on certain conditions or values of state or props data.
 
 ---
 
@@ -512,7 +512,7 @@ function UserProfile({ username }) {
 
 Note that the **nullish coalescing operator (**`??`**)** is similar to the logical OR operator (`||`), but with a key difference in how they treat **falsy** values.
 
-The nullish coalescing operator (`??`) specifically checks if the left-hand side is either `null` **or** `undefined`. If the value is `null` or `undefined`, it returns the right-hand side. This allows `0`, `false`, and `''` to be treated as valid values and not overridden. You can read about this and more such [<FontIcon icon="fa-brands fa-medium"/>nuances associated with JavaScript Operators](https://medium.com/@codenil/javascript-operators-some-nuances-57300eb2c354).
+The nullish coalescing operator (`??`) specifically checks if the left-hand side is either `null` **or** `undefined`. If the value is `null` or `undefined`, it returns the right-hand side. This allows `0`, `false`, and `''` to be treated as valid values and not overridden. You can read about this and more such [<VPIcon icon="fa-brands fa-medium"/>nuances associated with JavaScript Operators](https://medium.com/@codenil/javascript-operators-some-nuances-57300eb2c354).
 
 ### 3. Combining `&&` and `||` for Complex Logic
 
@@ -741,7 +741,7 @@ async function getUserAndPosts() {
 }
 ```
 
-Understanding the evolution of asynchronous JavaScript helps you write efficient, non-blocking code. For more details, you can read this article on [<FontIcon icon="fa-brands fa-medium"/>the evolutionary progress of Asynchronous JavaScript](https://medium.com/stackademic/mastering-asynchronous-javascript-from-callbacks-to-async-await-8449e1f5f9c0).
+Understanding the evolution of asynchronous JavaScript helps you write efficient, non-blocking code. For more details, you can read this article on [<VPIcon icon="fa-brands fa-medium"/>the evolutionary progress of Asynchronous JavaScript](https://medium.com/stackademic/mastering-asynchronous-javascript-from-callbacks-to-async-await-8449e1f5f9c0).
 
 ---
 

@@ -56,7 +56,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751301060182/df4d483
 
 The Web Content Accessibility Guidelines (WCAG 2.1 Level AA) is an internationally recognized standard for digital accessibility. Meeting these guidelines helps you make sure that your website is usable by people with visual, motor, hearing, and cognitive impairments.
 
-Google’s [<FontIcon icon="fa-brands fa-google-play"/>Accessibility Scanner](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&hl=en_US) on Google Play is a free app that offers developers, designers, and product leaders the ability to audit their app to find accessibility issues. The app is designed to highlight accessibility issues that might not meet the WCAG 2.1 Level AA standards.
+Google’s [<VPIcon icon="fa-brands fa-google-play"/>Accessibility Scanner](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&hl=en_US) on Google Play is a free app that offers developers, designers, and product leaders the ability to audit their app to find accessibility issues. The app is designed to highlight accessibility issues that might not meet the WCAG 2.1 Level AA standards.
 
 Once installed, the Accessibility Scanner allows you to take screenshots or video recordings of your app, then highlights areas that may not meet accessibility requirements, like small touch targets, low color contrast, or missing content labels.
 

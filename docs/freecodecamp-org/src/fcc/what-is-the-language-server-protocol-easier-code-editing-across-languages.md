@@ -57,7 +57,7 @@ On the other hand, there were (and still are) more general-purpose editors, but 
 
 With the growing number of code editors and programming languages available, this became the classic **M\*N** complexity problem.
 
-But then Microsoft introduced the [<FontIcon icon="fas fa-globe"/>Language Server Protocol](https://microsoft.github.io/language-server-protocol/) (LSP) as a solution to the problem above, which elegantly transforms this **M\*N** complexity into a more manageable **M+N** situation.
+But then Microsoft introduced the [<VPIcon icon="fas fa-globe"/>Language Server Protocol](https://microsoft.github.io/language-server-protocol/) (LSP) as a solution to the problem above, which elegantly transforms this **M\*N** complexity into a more manageable **M+N** situation.
 
 ---
 
@@ -71,7 +71,7 @@ The LSP was initially driven by the needs of VS Code. VS Code had to work with h
 
 Exactly because of that, Microsoft introduced LSP to standardize the communication between language tools and editors, allowing language servers to be written in any language, run separately for better performance, and easily integrate with any LSP-compliant editor. This simplifies language support for both tool providers and editor vendors.
 
-You can find more info in this [<FontIcon icon="iconfont icon-vscode"/>Language Server Extension Guide](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide).
+You can find more info in this [<VPIcon icon="iconfont icon-vscode"/>Language Server Extension Guide](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide).
 
 <SiteInfo
   name="Language Server Extension Guide"
@@ -105,17 +105,17 @@ The list of features may vary for each individual language server, but usually t
 
 And more.
 
-For example, [here (<FontIcon icon="iconfont icon-github"/>`golang/tools`)](https://github.com/golang/tools/blob/master/gopls/doc/features/README.md) you can see the list of editor features that **gopls** (the Go Language Server) provides.
+For example, [here (<VPIcon icon="iconfont icon-github"/>`golang/tools`)](https://github.com/golang/tools/blob/master/gopls/doc/features/README.md) you can see the list of editor features that **gopls** (the Go Language Server) provides.
 
-And [<FontIcon icon="fas fa-globe"/>here](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#languageFeatures) you can see the full LSP specification for available features.
+And [<VPIcon icon="fas fa-globe"/>here](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#languageFeatures) you can see the full LSP specification for available features.
 
-There are hundreds of Language Servers out there. Typically, every mature programming language (or markup language) has at least one Language Server. You can see the full list of language servers that implement LSP [<FontIcon icon="fas fa-globe"/>here](https://microsoft.github.io/language-server-protocol/implementors/servers/).
+There are hundreds of Language Servers out there. Typically, every mature programming language (or markup language) has at least one Language Server. You can see the full list of language servers that implement LSP [<VPIcon icon="fas fa-globe"/>here](https://microsoft.github.io/language-server-protocol/implementors/servers/).
 
 ---
 
 ## How Does LSP Work?
 
-The Language Server Protocol is built upon [<FontIcon icon="fas fa-globe"/>JSON-RPC](https://jsonrpc.org/). It specifically uses JSON RPC 2.0. You can think of JSON-RPC as a remote procedure call protocol that uses JSON for data encoding.
+The Language Server Protocol is built upon [<VPIcon icon="fas fa-globe"/>JSON-RPC](https://jsonrpc.org/). It specifically uses JSON RPC 2.0. You can think of JSON-RPC as a remote procedure call protocol that uses JSON for data encoding.
 
 In a nutshell, it works like this. First, the editor establishes a connection with the language server. Then as the developer types code, the editor sends incremental changes to the language server. It then sends back insights like code completion suggestions and diagnostics.
 
@@ -171,7 +171,7 @@ Language server can access this file, analyze it, and respond with suggestions:
 
 ## Language Server for Go
 
-The most popular and commonly used language server for Go is [gopls (<FontIcon icon="iconfont icon-github"/>`golang/tools`)](https://github.com/golang/tools/tree/master/gopls). It is used by many editors, for example by the [Visual Studio Code Go extension (<FontIcon icon="iconfont icon-github"/>`golang/vscode-go`)](https://github.com/golang/vscode-go). Previously, there was another popular Language Server for Go by the Sourcegraph team called [go-langserver (<FontIcon icon="iconfont icon-github"/>`golang/vscode-go`)](https://github.com/sourcegraph/go-langserver), but this is no longer under active maintenance.
+The most popular and commonly used language server for Go is [gopls (<VPIcon icon="iconfont icon-github"/>`golang/tools`)](https://github.com/golang/tools/tree/master/gopls). It is used by many editors, for example by the [Visual Studio Code Go extension (<VPIcon icon="iconfont icon-github"/>`golang/vscode-go`)](https://github.com/golang/vscode-go). Previously, there was another popular Language Server for Go by the Sourcegraph team called [go-langserver (<VPIcon icon="iconfont icon-github"/>`golang/vscode-go`)](https://github.com/sourcegraph/go-langserver), but this is no longer under active maintenance.
 
 Many editors install gopls Language Server automatically if it’s not present on the host machine. But you can install it manually as well:
 
@@ -200,7 +200,7 @@ But it's important to note that not all editors use LSP. Classic editors like **
 
 Also, when your editor uses a Language Server, it can have a noticeable impact on CPU and memory, especially for large projects or complex languages. The good news is that you can choose a more efficient language server or disable them in your editor.
 
-Here is how I can inspect what language servers my [<FontIcon icon="fas fa-globe"/>Zed](https://zed.dev/) editor is currently running:
+Here is how I can inspect what language servers my [<VPIcon icon="fas fa-globe"/>Zed](https://zed.dev/) editor is currently running:
 
 ```sh
 ps aux | grep language-server

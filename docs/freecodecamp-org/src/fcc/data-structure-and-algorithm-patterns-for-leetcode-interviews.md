@@ -103,7 +103,7 @@ Here is the full list of sections in this course:
 - Priority Queue/heap
 - Priority Queue/heap practice problems
 
-Watch the full course [<FontIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/Z_c4byLrNBU) (1-hour course).
+Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/Z_c4byLrNBU) (1-hour course).
 
 <VidStack src="youtube/Z_c4byLrNBU" />
 

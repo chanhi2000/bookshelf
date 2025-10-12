@@ -55,7 +55,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755043537289/20e1752
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1755043537289/20e17529-88fd-4fbd-94c4-69cf72d8a470.png"/>
 
-Building a website with [<FontIcon icon="fa-brands fa-wordpress"/>WordPress](https://wordpress.com/) used to take a lot of time. You had to install the platform, choose a theme, add plugins, write all the content by hand, and make sure everything worked well together.
+Building a website with [<VPIcon icon="fa-brands fa-wordpress"/>WordPress](https://wordpress.com/) used to take a lot of time. You had to install the platform, choose a theme, add plugins, write all the content by hand, and make sure everything worked well together.
 
 Even skilled developers spent hours setting up a basic site. This process was slow and often frustrating, especially for new users.
 
@@ -77,7 +77,7 @@ That leads to frustration. And for many hosting companies, it leads to churn. Ne
 
 ## How AI Is Changing WordPress Development
 
-In the last two years, AI tools have started to shift how websites are created. Platforms like v0 and [<FontIcon icon="fas fa-globe"/>Lovable](https://lovable.dev/) showed that you could describe your business and get a working site generated in seconds. These tools are fast and exciting. But they had a downside: they weren’t built for WordPress.
+In the last two years, AI tools have started to shift how websites are created. Platforms like v0 and [<VPIcon icon="fas fa-globe"/>Lovable](https://lovable.dev/) showed that you could describe your business and get a working site generated in seconds. These tools are fast and exciting. But they had a downside: they weren’t built for WordPress.
 
 So users had to choose between fast results and long-term flexibility. WordPress is still the most powerful content management system in the world, and runs over 40% of all websites.
 
@@ -99,19 +99,19 @@ This changes the job of a WordPress developer. But doesn’t remove the need for
 
 ## AI Tools for Wordpress
 
-The rise of AI inside the WordPress ecosystem has opened the door to a [<FontIcon icon="fa-brands fa-wordpress"/>new generation of tools](https://wordpress.com/plugins/browse/ai), ones that don’t just speed up development but also rethink how websites get built, edited, and maintained.
+The rise of AI inside the WordPress ecosystem has opened the door to a [<VPIcon icon="fa-brands fa-wordpress"/>new generation of tools](https://wordpress.com/plugins/browse/ai), ones that don’t just speed up development but also rethink how websites get built, edited, and maintained.
 
 Rather than starting from a blank canvas, these tools give you a solid foundation in seconds. And just as importantly, they do so without locking users into closed ecosystems.
 
-One of the most widely used WordPress building tools today is [<FontIcon icon="fas fa-globe"/>10Web](https://10web.io/), which takes the idea of AI-native website creation a step further compared to other tools that help with individual tasks like text generation or layout tweaks.
+One of the most widely used WordPress building tools today is [<VPIcon icon="fas fa-globe"/>10Web](https://10web.io/), which takes the idea of AI-native website creation a step further compared to other tools that help with individual tasks like text generation or layout tweaks.
 
 With 10Web, you describe your business, and within seconds, it generates a complete website with design, content, structure, and e-commerce-ready pages. For hosting providers, this AI site generation is delivered through a fully white-labeled WordPress plugin that integrates directly into their infrastructure, branded and automated. It runs on the host’s stack and allows further edits via a drag-and-drop interface or an AI Co-Pilot.
 
-The company is backed by [<FontIcon icon="fa-brands fa-wikipedia-w"/>Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng), often called the father of modern deep learning, making it a serious contender in shaping the future of WordPress development.
+The company is backed by [<VPIcon icon="fa-brands fa-wikipedia-w"/>Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng), often called the father of modern deep learning, making it a serious contender in shaping the future of WordPress development.
 
 What sets 10Web apart is its integration into the hosting provider’s provisioning flow. Instead of being another plugin or third-party builder, it becomes part of the WordPress provisioning process itself.
 
-For developers and infrastructure providers, this means clients get a fully working site at signup, without any extra integrations or tools required. You can use 10Web’s AI-native [<FontIcon icon="fas fa-globe"/>website builder](https://10web.io/website-builder-api/hosting-solution/) to generate WordPress sites for your clients, under your own brand.
+For developers and infrastructure providers, this means clients get a fully working site at signup, without any extra integrations or tools required. You can use 10Web’s AI-native [<VPIcon icon="fas fa-globe"/>website builder](https://10web.io/website-builder-api/hosting-solution/) to generate WordPress sites for your clients, under your own brand.
 
 ---
 
@@ -167,7 +167,7 @@ The old model of “sell hosting and leave the rest to the user” is fading. Th
 
 While platforms like 10Web offer a seamless, integrated way to build AI-powered WordPress sites, they’re not the only option. For developers who prefer more transparency, or the ability to customize every layer of the stack, open source AI tools can be an attractive path.
 
-Projects like [<FontIcon icon="fa-brands fa-wordpress"/>WordPress Playground AI](https://playground.wordpress.net/), and [<FontIcon icon="fas fa-globe"/>CodeWP](https://app.codewp.ai/login) are community-driven solutions that bring AI-assisted content generation, image creation, and even block-level design suggestions directly into the WordPress editor. Because they’re open source or built with open APIs, you’re free to host models yourself, extend features, or integrate with other workflows without being tied to a single vendor.
+Projects like [<VPIcon icon="fa-brands fa-wordpress"/>WordPress Playground AI](https://playground.wordpress.net/), and [<VPIcon icon="fas fa-globe"/>CodeWP](https://app.codewp.ai/login) are community-driven solutions that bring AI-assisted content generation, image creation, and even block-level design suggestions directly into the WordPress editor. Because they’re open source or built with open APIs, you’re free to host models yourself, extend features, or integrate with other workflows without being tied to a single vendor.
 
 The trade-off is that open source AI solutions often require more setup and technical know-how. You may need to configure your own AI backend, manage API keys for services like OpenAI or Hugging Face, and handle updates manually. But in return, you get better flexibility, and the ability to adapt the tools to your exact needs.
 
@@ -189,7 +189,7 @@ WordPress has always been about freedom. Freedom to build what you want, extend 
 
 AI doesn’t replace the developer. It empowers them. It doesn’t remove the need for creativity. It gives creators a head start. And it doesn’t lock users into closed systems. It opens the door to faster, better, and more flexible websites built on the world’s most popular platform.
 
-Hope you enjoyed this article. You can [find me on Linkedin (<FontIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva) to stay in touch.
+Hope you enjoyed this article. You can [find me on Linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva) to stay in touch.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

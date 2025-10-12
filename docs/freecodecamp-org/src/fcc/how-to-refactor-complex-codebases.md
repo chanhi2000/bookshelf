@@ -67,7 +67,7 @@ By following these steps, you can turn complex, fragile code into a clean, relia
 
 ## The Issue of Technical Debt
 
-As projects grow and evolve, [<FontIcon icon="fa-brands fa-wikipedia-w"/>technical debt](https://en.wikipedia.org/wiki/Technical_debt) increases. Code that was once functional and manageable turns into an unmaintainable mess, where even small changes become risky and time-consuming.
+As projects grow and evolve, [<VPIcon icon="fa-brands fa-wikipedia-w"/>technical debt](https://en.wikipedia.org/wiki/Technical_debt) increases. Code that was once functional and manageable turns into an unmaintainable mess, where even small changes become risky and time-consuming.
 
 Despite the obvious need for cleanup, refactoring rarely gets prioritized because there's always something more urgent, new features, bug fixes, and client demands.
 
@@ -174,7 +174,7 @@ For example, SonarQube will mark code smells (like high complexity or long metho
 
 Before refactoring code, define the goal.
 
-Goals must be specific and measurable. For example, you might aim to reduce a class’s size or a function’s [<FontIcon icon="iconfont icon-ibm"/>cyclomatic complexity](https://ibm.com/docs/en/raa/6.1.0?topic=metrics-cyclomatic-complexity) by a certain amount or to increase unit test coverage from 60% to 90%.
+Goals must be specific and measurable. For example, you might aim to reduce a class’s size or a function’s [<VPIcon icon="iconfont icon-ibm"/>cyclomatic complexity](https://ibm.com/docs/en/raa/6.1.0?topic=metrics-cyclomatic-complexity) by a certain amount or to increase unit test coverage from 60% to 90%.
 
 Each goal is tied to a measurable outcome: shorter methods, fewer if statements or classes with a single responsibility, faster execution for processing orders, higher test coverage, and no unused code. These targets will guide our refactoring plan and let us verify when we’ve succeeded.
 
@@ -579,7 +579,7 @@ Refactoring code is an ongoing process, not a one-time event - AI code review to
 
 ![CodeRabbi AI Code Reviewer Tool](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWs-ZM80TK_JcjwyPEnywdJl6Tf4G6gYFa1cN_J2ugTlniaGr4a397JuUj721m7kUw0EKMnzYHykpHJdG_aW7w3_B2J91bLL1UoaabdNsmH1uckMJHcFVpAhqZM2r855AsVYwDJg?key=nBTgfzmVkL2-N7DBMJ6e6gyk)
 
-One powerful option is [<FontIcon icon="fas fa-globe"/>CodeRabbit](https://coderabbit.ai/), an AI-driven review platform designed to cut review time and bugs in half.
+One powerful option is [<VPIcon icon="fas fa-globe"/>CodeRabbit](https://coderabbit.ai/), an AI-driven review platform designed to cut review time and bugs in half.
 
 Here’s how it works and why it can boost your refactoring workflow:
 
@@ -593,7 +593,7 @@ Some other features include:
 - **Real-time collaboration and AI chat** - Chat with the AI for clarifications, alternate code snippets, and instant feedback.
 - **Integrates with popular dev platforms** - Supports GitHub, GitLab, and Azure DevOps for seamless PR scanning.
 
-CodeRabbit even has a free AI code reviews in VS Code and with this [VS Code extension (<FontIcon icon="iconfont icon-vscode"/>`CodeRabbit.coderabbit-vscode`)](https://marketplace.visualstudio.com/items?itemName=CodeRabbit.coderabbit-vscode), you can get the most advanced AI code reviews directly in your code editor, saving review time, catching more bugs, and helping you in refactoring.
+CodeRabbit even has a free AI code reviews in VS Code and with this [VS Code extension (<VPIcon icon="iconfont icon-vscode"/>`CodeRabbit.coderabbit-vscode`)](https://marketplace.visualstudio.com/items?itemName=CodeRabbit.coderabbit-vscode), you can get the most advanced AI code reviews directly in your code editor, saving review time, catching more bugs, and helping you in refactoring.
 
 ---
 
@@ -603,11 +603,11 @@ Refactoring a complex enterprise codebase is like renovating a large building wh
 
 Refactoring should be an ongoing process. You prevent the codebase from decaying by incorporating these practices into your regular development (perhaps allocating some time each sprint for refactoring or doing it opportunistically when touching your code). Each minor refactoring should not be too complex, and the cumulative effect is significant.
 
-As [<FontIcon icon="fas fa-globe"/>Martin Fowler](https://martinfowler.com/) puts it, a series of small changes can lead to a significant improvement in design.
+As [<VPIcon icon="fas fa-globe"/>Martin Fowler](https://martinfowler.com/) puts it, a series of small changes can lead to a significant improvement in design.
 
 That's it for this blog. I hope you learned something new today.
 
-If you want to read more interesting articles about developer tools, React, Next.js, AI and more, then I'll encourage you to checkout my [<FontIcon icon="fas fa-globe"/>blog](https://devtoolsacademy.com/).
+If you want to read more interesting articles about developer tools, React, Next.js, AI and more, then I'll encourage you to checkout my [<VPIcon icon="fas fa-globe"/>blog](https://devtoolsacademy.com/).
 
 Some of the new and interesting articles I've written in the last 24 months.
 
@@ -656,7 +656,7 @@ You can get in touch if you have any questions or corrections. I’m expecting t
 
 And if you found this blog useful, please share it with your friends and colleagues who might benefit from it as well. Your support enables me to continue producing useful content for the tech community.
 
-Now it’s time to take the next step by subscribing to my [<FontIcon icon="fas fa-globe"/>newsletter](https://bytesizedbets.com/) and following me on [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`theankurtyagi`)](https://x.com/theankurtyagi).
+Now it’s time to take the next step by subscribing to my [<VPIcon icon="fas fa-globe"/>newsletter](https://bytesizedbets.com/) and following me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`theankurtyagi`)](https://x.com/theankurtyagi).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -98,7 +98,7 @@ It offers a bunch of features out of the box like file-based routing, API routes
 When using WordPress as a headless CMS, there are two primary ways to connect your Next.js application to your WordPress backend:
 
 1. **WP REST API**: WordPress comes with a built-in REST API, which allows you to retrieve content from WordPress in JSON format.
-2. **WPGraphQL**: WordPress supports headless content management through the use of GraphQL (with plugins such as [<FontIcon icon="fas fa-globe"/>WPGraphQL](https://wpgraphql.com/)), making it easy to query and retrieve specific content, like blog posts, for use in a front-end framework like React.
+2. **WPGraphQL**: WordPress supports headless content management through the use of GraphQL (with plugins such as [<VPIcon icon="fas fa-globe"/>WPGraphQL](https://wpgraphql.com/)), making it easy to query and retrieve specific content, like blog posts, for use in a front-end framework like React.
 
 While the REST API is popular, we’ll to go with WPGraphQL because it allows for more precise queries and flexibility. With GraphQL, you can ask for exactly the data you need, which can reduce the amount of data transferred and improve performance.
 

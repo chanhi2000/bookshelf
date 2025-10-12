@@ -111,7 +111,7 @@ I’ve also created a video to go along with this handbook. If you’re the type
 
 Let's start from the very beginning: what exactly is the MCP? MCP stands for **Model Context Protocol**. And if we break it down word by word - "model", "context", and "protocol" - it actually becomes quite easy to understand.
 
-But before diving in, here's a quick background: Model Context Protocol was developed by a company called [<FontIcon icon="iconfont icon-anthropic"/>Anthropic](https://anthropic.com). You've probably heard of them. They're the ones who built [<FontIcon icon="iconfont icon-claude"/>Claude](https://claude.ai), the popular AI assistant. They first introduced MCP in November of 2024, and in a short time it’s become a standard adopted by tons of other companies as well, including Microsoft.
+But before diving in, here's a quick background: Model Context Protocol was developed by a company called [<VPIcon icon="iconfont icon-anthropic"/>Anthropic](https://anthropic.com). You've probably heard of them. They're the ones who built [<VPIcon icon="iconfont icon-claude"/>Claude](https://claude.ai), the popular AI assistant. They first introduced MCP in November of 2024, and in a short time it’s become a standard adopted by tons of other companies as well, including Microsoft.
 
 Now, let's explore what MCP really means by understanding each term.
 
@@ -199,7 +199,7 @@ This is one reason AI won’t replace developers just yet
 
 ### Beyond Built-in Integrations
 
-Let's compare that with what used to happen before. For example, today, ChatGPT lets you do web searches - you can just ask it to find something online, and it'll fetch the result. But this feature is only there because [<FontIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com), the makers of ChatGPT, built it into the app.
+Let's compare that with what used to happen before. For example, today, ChatGPT lets you do web searches - you can just ask it to find something online, and it'll fetch the result. But this feature is only there because [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com), the makers of ChatGPT, built it into the app.
 
 Now imagine your own product - like my logicBase Labs website. Let's say students come to the site and ask questions through a chat box you’ve built. That AI assistant belongs to you - it's part of your software. You can connect it to any model, like GPT, Claude, whatever, that understands natural language. But you still need to feed it the right information so it can respond meaningfully.
 
@@ -219,7 +219,7 @@ But if I wasn’t using MCP, what would I have to do? I’d need to build everyt
 
 Let me give you another solid example. Suppose you want to connect your GitHub to Cursor. You want to say something like: "*Hey, push my code to GitHub*" - and it just works. To make that happen without MCP, what would you normally need to do? You'd have to:
 
-- Read through the [<FontIcon icon="iconfont icon-github"/>GitHub API documentation](https://docs.github.com/en/rest)
+- Read through the [<VPIcon icon="iconfont icon-github"/>GitHub API documentation](https://docs.github.com/en/rest)
 - Write integration logic
 - Handle OAuth authentication
 - Deal with access tokens and API limits
@@ -230,7 +230,7 @@ It's complex. It's messy. But imagine this: What if GitHub themselves released t
 - Let the model discover the capabilities
 - Say: "*Push my code*"
 
-And boom - it works! You don't need to write any custom integration logic. That's the magic of MCP. And here's the best part: GitHub already released their [official MCP server (<FontIcon icon="iconfont icon-github"/>`github/github-mcp-server`)](https://github.com/github/github-mcp-server). You can use it right now.
+And boom - it works! You don't need to write any custom integration logic. That's the magic of MCP. And here's the best part: GitHub already released their [official MCP server (<VPIcon icon="iconfont icon-github"/>`github/github-mcp-server`)](https://github.com/github/github-mcp-server). You can use it right now.
 
 ### Why MCP Matters for Developers
 
@@ -240,7 +240,7 @@ So I hope you now see the bigger picture. MCP servers are a game-changer. They d
 
 ## RAG vs MCP
 
-Now that we’ve covered MCP, let’s look at another popular approach called [<FontIcon icon="fa-brands fa-wikipedia-w"/>RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) and see how they differ. Many AI builders start by using RAG to ground their models in static knowledge, so it’s helpful to see how that approach compares to streaming live data with MCP.
+Now that we’ve covered MCP, let’s look at another popular approach called [<VPIcon icon="fa-brands fa-wikipedia-w"/>RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) and see how they differ. Many AI builders start by using RAG to ground their models in static knowledge, so it’s helpful to see how that approach compares to streaming live data with MCP.
 
 ### What is RAG?
 
@@ -280,9 +280,9 @@ MCP is great for scenarios needing up-to-the-minute info (like live dashboards, 
 
 ## MCP Documentation
 
-Now let's check out the [<FontIcon icon="iconfont icon-mcp"/>official MCP documentation](https://modelcontextprotocol.io/introduction). It’ll help things start to feel much clearer. So what does the definition say?
+Now let's check out the [<VPIcon icon="iconfont icon-mcp"/>official MCP documentation](https://modelcontextprotocol.io/introduction). It’ll help things start to feel much clearer. So what does the definition say?
 
-::: info MCP Documentation (<FontIcon icon="iconfont icon-mcp"/><code>modelcontextprotocol.io</code>)
+::: info MCP Documentation (<VPIcon icon="iconfont icon-mcp"/><code>modelcontextprotocol.io</code>)
 
 > MCP is an open protocol that standardizes how applications provide context to LLMs.
 
@@ -442,7 +442,7 @@ And that makes it fast, secure, and incredibly flexible.
 
 ## The MCP Architecture — How It All Fits Together
 
-Let's now take a look at the MCP architecture. Once you see the structure, everything we've discussed will make even more sense. Here's what the diagram shows (the diagram was collected from the [<FontIcon icon="iconfont icon-mcp"/>MCP documentation](https://modelcontextprotocol.io/introduction)):
+Let's now take a look at the MCP architecture. Once you see the structure, everything we've discussed will make even more sense. Here's what the diagram shows (the diagram was collected from the [<VPIcon icon="iconfont icon-mcp"/>MCP documentation](https://modelcontextprotocol.io/introduction)):
 
 ![MCP architecture diagram from the docs](https://cdn.hashnode.com/res/hashnode/image/upload/v1750672357388/9d07577d-447e-4a13-b205-1d0e72b5d18a.png)
 
@@ -464,7 +464,7 @@ Next, we have the MCP client. So what's the client in this context? Well, in web
 
 Let's take Cursor again as an example.
 
-If you go into Cursor's settings, you'll see something called **MCP Tools**. That's where you can add any custom MCP server. Cursor has a built-in client that lets you plug in your own server. If you were building your own editor like Cursor, you'd need to write this client logic yourself to handle things like discovering servers, formatting requests, and reading responses. Good news is, there's [<FontIcon icon="iconfont icon-mcp"/>already a spec and libraries](https://modelcontextprotocol.io/quickstart/client) to help with that too.
+If you go into Cursor's settings, you'll see something called **MCP Tools**. That's where you can add any custom MCP server. Cursor has a built-in client that lets you plug in your own server. If you were building your own editor like Cursor, you'd need to write this client logic yourself to handle things like discovering servers, formatting requests, and reading responses. Good news is, there's [<VPIcon icon="iconfont icon-mcp"/>already a spec and libraries](https://modelcontextprotocol.io/quickstart/client) to help with that too.
 
 ### 3. MCP Server
 
@@ -531,11 +531,11 @@ So yes, now let's go ahead and build our first MCP server - quickly and in a way
 
 ## MCP Server Setup and Integration
 
-So, to build an MCP server, we've landed on the official GitHub repo page for [MCP's TypeScript SDK (<FontIcon icon="iconfont icon-github"/>`modelcontextprotocol/typescript-sdk`)](https://github.com/modelcontextprotocol/typescript-sdk). Now, for those of you who don't know TypeScript, there's nothing to worry about. Because TypeScript is basically a superset of JavaScript. So even if you're not familiar with TypeScript, it's totally fine. You can write your code in plain JavaScript, and since every valid JavaScript code is also valid TypeScript, you're good to go.
+So, to build an MCP server, we've landed on the official GitHub repo page for [MCP's TypeScript SDK (<VPIcon icon="iconfont icon-github"/>`modelcontextprotocol/typescript-sdk`)](https://github.com/modelcontextprotocol/typescript-sdk). Now, for those of you who don't know TypeScript, there's nothing to worry about. Because TypeScript is basically a superset of JavaScript. So even if you're not familiar with TypeScript, it's totally fine. You can write your code in plain JavaScript, and since every valid JavaScript code is also valid TypeScript, you're good to go.
 
 And if you're a regular JavaScript developer, you'll find everything here familiar - just like you'd expect from any typical docs. They've provided a small, simple template for a TypeScript server. It's a single, minimal server setup, and that's exactly the template I would use to build my own server. Let's walk through the setup.
 
-My project is a Node.js project. I've created a <FontIcon icon="fa-brands fa-js"/>`server.js` file, and honestly, that's the only file I've used in this project. All the code is written inside that one file.
+My project is a Node.js project. I've created a <VPIcon icon="fa-brands fa-js"/>`server.js` file, and honestly, that's the only file I've used in this project. All the code is written inside that one file.
 
 Step-by-step, here's what I did:
 
@@ -545,11 +545,11 @@ Step-by-step, here's what I did:
 npm init
 ```
 
-This creates the <FontIcon icon="iconfont icon-json"/>`package.json` file.
+This creates the <VPIcon icon="iconfont icon-json"/>`package.json` file.
 
 #### 2. Install the required MCP package
 
-Run the install command (mentioned in the [docs (<FontIcon icon="iconfont icon-github"/>`modelcontextprotocol/typescript-sdk`)](https://github.com/modelcontextprotocol/typescript-sdk)).
+Run the install command (mentioned in the [docs (<VPIcon icon="iconfont icon-github"/>`modelcontextprotocol/typescript-sdk`)](https://github.com/modelcontextprotocol/typescript-sdk)).
 
 ```sh
 npm install @modelcontextprotocol/sdk
@@ -603,7 +603,7 @@ The callback receives the validated date and uses it to call an async controller
 
 #### 5. Google Calendar Integration
 
-First we need to install the <FontIcon icon="fa-brands fa-npm"/>`googleapis` package with the below command in the terminal:
+First we need to install the <VPIcon icon="fa-brands fa-npm"/>`googleapis` package with the below command in the terminal:
 
 ```sh
 npm install googleapis
@@ -615,7 +615,7 @@ Then import `google` object from the installed the package.
 import { google } from "googleapis";
 ```
 
-Now let’s write the function `getMyCalendarDataByDate` and call the `google.calendar` method according to [<FontIcon icon="fa-brands fa-google"/>Google Calendar API](https://developers.google.com/workspace/calendar/api/quickstart/nodejs). This `google.calendar()` method receives an object as parameter and we need to mention `version` and `auth` here. `version` is simply the Calendar API version number and `auth` is the Google API Public Key for authentication.
+Now let’s write the function `getMyCalendarDataByDate` and call the `google.calendar` method according to [<VPIcon icon="fa-brands fa-google"/>Google Calendar API](https://developers.google.com/workspace/calendar/api/quickstart/nodejs). This `google.calendar()` method receives an object as parameter and we need to mention `version` and `auth` here. `version` is simply the Calendar API version number and `auth` is the Google API Public Key for authentication.
 
 ```js
 async function getMyCalendarDataByDate(date) {
@@ -626,13 +626,13 @@ async function getMyCalendarDataByDate(date) {
 }
 ```
 
-Here, you can see that I’ve used the Google API public key as an environment variable. So, we’ll create a <FontIcon icon="fas fa-file-lines"/>`.env` file in the root of the project directory and add the following inside that file:
+Here, you can see that I’ve used the Google API public key as an environment variable. So, we’ll create a <VPIcon icon="fas fa-file-lines"/>`.env` file in the root of the project directory and add the following inside that file:
 
 ```sh title=".env"
 GOOGLE_PUBLIC_API_KEY=WRITE_YOUR_GOOGLE_PUBLIC_API_KEY
 ```
 
-Don’t forget to replace with your own Google Public API Key. You can grab your public key from [<FontIcon icon="iconfont icon-gcp"/>Google Cloud Console](https://cloud.google.com/cloud-console).
+Don’t forget to replace with your own Google Public API Key. You can grab your public key from [<VPIcon icon="iconfont icon-gcp"/>Google Cloud Console](https://cloud.google.com/cloud-console).
 
 Now we need to calculate the `start` and `end` of the given date (UTC) received as `string` in the `date` parameter of the `getMyCalendarDataByDate` function.
 
@@ -657,7 +657,7 @@ const res = await calendar.events.list({
 });
 ```
 
-Here you can see, I have mentioned my Public Calendar ID using another environment variable called `CALENDAR_ID`. So go back to your <FontIcon icon="fas fa-file-lines"/>`.env` file and set the new environment variable:
+Here you can see, I have mentioned my Public Calendar ID using another environment variable called `CALENDAR_ID`. So go back to your <VPIcon icon="fas fa-file-lines"/>`.env` file and set the new environment variable:
 
 ```sh title=".env"
 CALENDAR_ID=YOUR_OWN_PUBLIC_CALENDAR_ID
@@ -669,7 +669,7 @@ To make your Google Calendar public, you need to adjust the calendar's sharing s
 
 Here's a step-by-step guide:
 
-- Go to [<FontIcon icon="fa-brands fa-google"/>Google Calendar](https://calendar.google.com/) on your computer.
+- Go to [<VPIcon icon="fa-brands fa-google"/>Google Calendar](https://calendar.google.com/) on your computer.
 - Find the calendar you want to share under the "My calendars" section on the left side of the screen.
 - Click on the three dots (More) next to the calendar name and select "Settings and sharing".
 - Under "Access permissions for events," check the box next to "Make available to public".
@@ -751,7 +751,7 @@ init();
 
 #### 6. Final Source Code
 
-So below is the complete code for my <FontIcon icon="fa-brands fa-js"/>`server.js` file:
+So below is the complete code for my <VPIcon icon="fa-brands fa-js"/>`server.js` file:
 
 ```js :collapsed-lines title="server.js"
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
@@ -849,7 +849,7 @@ Then install the necessary `dotenv`, `googleapis`, and `zod` packages with the b
 npm install dotenv googleapis zod
 ```
 
-Now you can start the server with the command `node server.js` in your terminal and check whether everything is working properly or not. In case you get any warning to add a `type: “module”` line inside your <FontIcon icon="iconfont icon-json"/>`package.json` file, go ahead and do that. This warning is expected because we are using ES Module syntax for importing our packages instead of default Common JS syntax.
+Now you can start the server with the command `node server.js` in your terminal and check whether everything is working properly or not. In case you get any warning to add a `type: “module”` line inside your <VPIcon icon="iconfont icon-json"/>`package.json` file, go ahead and do that. This warning is expected because we are using ES Module syntax for importing our packages instead of default Common JS syntax.
 
 Finally, we are done with the coding part.
 
@@ -865,7 +865,7 @@ Inside the object, provide a new object with the below properties according to [
 
 - A name: `Sumit's Calendar Data`
 - Command: `node`
-- Arguments: full path to <FontIcon icon="fa-brands fa-js"/>`server.js`
+- Arguments: full path to <VPIcon icon="fa-brands fa-js"/>`server.js`
 - Environment variables: API key and Calendar ID
 
 ::: tip Example
@@ -925,9 +925,9 @@ Let me know if you would like to build one for your own project! And if this han
 
 ## Summary
 
-You can find all the source code from this handbook in [this GitHub repository (<FontIcon icon="iconfont icon-github"/>`logicbaselabs/mcp-tutorial`)](https://github.com/logicbaselabs/mcp-tutorial). If it helped you in any way, consider giving it a star to show your support!
+You can find all the source code from this handbook in [this GitHub repository (<VPIcon icon="iconfont icon-github"/>`logicbaselabs/mcp-tutorial`)](https://github.com/logicbaselabs/mcp-tutorial). If it helped you in any way, consider giving it a star to show your support!
 
-Also, if you found the handbook valuable, feel free to share it with others who might benefit from it. I’d really appreciate your thoughts - mention me on X [<FontIcon icon="fa-brands fa-x-twitter"/>`@sumit_analyzen`](https://x.com/sumit_analyzen), watch my [coding tutorials (<FontIcon icon="fa-brands fa-youtube"/>`logicBaseLabs`)](https://youtube.com/@logicBaseLabs), or simply [connect with me on LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`sumitanalyzen`)](https://linkedin.com/in/sumitanalyzen).
+Also, if you found the handbook valuable, feel free to share it with others who might benefit from it. I’d really appreciate your thoughts - mention me on X [<VPIcon icon="fa-brands fa-x-twitter"/>`@sumit_analyzen`](https://x.com/sumit_analyzen), watch my [coding tutorials (<VPIcon icon="fa-brands fa-youtube"/>`logicBaseLabs`)](https://youtube.com/@logicBaseLabs), or simply [connect with me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`sumitanalyzen`)](https://linkedin.com/in/sumitanalyzen).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

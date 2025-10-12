@@ -166,7 +166,7 @@ Here are the topics you will learn about in this comprehensive course:
 - Local storage with React
 - Lazy state initialization
 
-Watch the full course below or on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/bMknfKXIFA8) (12-hour watch).
+Watch the full course below or on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/bMknfKXIFA8) (12-hour watch).
 
 <VidStack src="youtube/bMknfKXIFA8" />
 

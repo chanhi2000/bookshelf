@@ -74,13 +74,13 @@ GitHub, Gitlab, or Gitea all have similar functionalities with the same name.
 
 ![Label example in GitHub](https://cdn.hashnode.com/res/hashnode/image/upload/v1725176936595/be0c22c3-d182-40a9-917a-2b0b3f2ba87b.png)
 
-The [<FontIcon icon="iconfont icon-github"/>label](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) helps categorize issues, pull requests, and discussions. By default, GitHub comes with some built-in labels.
+The [<VPIcon icon="iconfont icon-github"/>label](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) helps categorize issues, pull requests, and discussions. By default, GitHub comes with some built-in labels.
 
 ![Default Github label list](https://cdn.hashnode.com/res/hashnode/image/upload/v1725177106112/5ceb58b0-985b-4582-bb67-e4313dd833b4.png)
 
 You can also create a custom label. You can use the label on any issue, pull request, or discussion within your repository.
 
-You can find the list of [<FontIcon icon="iconfont icon-github"/>default labels in the GitHub documentation](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels).
+You can find the list of [<VPIcon icon="iconfont icon-github"/>default labels in the GitHub documentation](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels).
 
 ### How to Create a Label in Your Repository
 
@@ -110,7 +110,7 @@ Click on the **Edit** button to edit a label, and click on the **Delete** button
 
 ![Project pag](https://freecodecamp.org/news/content/images/2024/08/project.png)
 
-The [<FontIcon icon="iconfont icon-github"/>Github Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects) tool is a versatile and flexible tool for planning and managing your repository work in one central location.
+The [<VPIcon icon="iconfont icon-github"/>Github Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects) tool is a versatile and flexible tool for planning and managing your repository work in one central location.
 
 It functions similarly to a spreadsheet, task board, and road map, allowing you to plan and track your repository work in one place. The GitHub project is fully integrated with GitHub.
 
@@ -173,7 +173,7 @@ In the project settings page, you can edit the project title and description, de
 
 ![Milestones in Github](https://cdn.hashnode.com/res/hashnode/image/upload/v1725179667880/661d75ba-1212-4987-a4db-1344cf8fb487.png)
 
-The [<FontIcon icon="iconfont icon-github"/>milestone feature](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) allows you to track the progress of issues or pull requests in a repository. With milestones, you can prioritize open issues and pull requests and set a due date for a group of related items.
+The [<VPIcon icon="iconfont icon-github"/>milestone feature](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) allows you to track the progress of issues or pull requests in a repository. With milestones, you can prioritize open issues and pull requests and set a due date for a group of related items.
 
 In simple terms, milestones operate like a to-do list, where you can detail the amount of completed or pending work. It functions like a progress bar, helping your team manage the project more effectively and communicate the importance of specific issues to both your team and the open-source community.
 
@@ -201,7 +201,7 @@ Our next task is to assign an issue to the milestone. Go to the issue and assign
 
 ![Assign the milestone into a issue](https://cdn.hashnode.com/res/hashnode/image/upload/v1725180104276/ad15123a-acf9-4577-90cb-3aa294f03d8a.png)
 
-If you have [<FontIcon icon="iconfont icon-github"/>multiple milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones), you can select one of them.
+If you have [<VPIcon icon="iconfont icon-github"/>multiple milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones), you can select one of them.
 
 ![Select the milestone](https://cdn.hashnode.com/res/hashnode/image/upload/v1725180261186/4e506d15-613b-4d10-818c-2ff8168a6459.png)
 

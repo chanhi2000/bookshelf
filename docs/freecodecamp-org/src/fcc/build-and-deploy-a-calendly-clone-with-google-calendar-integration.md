@@ -136,7 +136,7 @@ Here’s a quick look at what’s covered:
 
 ::: info Watch the Course
 
-If you’re serious about full-stack development, this is the kind of project that can make a big difference in your skillset and your portfolio. You can watch the full course now for free on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/cCuvlQvU1eg) (4-hour watch).
+If you’re serious about full-stack development, this is the kind of project that can make a big difference in your skillset and your portfolio. You can watch the full course now for free on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/cCuvlQvU1eg) (4-hour watch).
 
 <VidStack src="youtube/cCuvlQvU1eg" />
 

@@ -175,7 +175,7 @@ You can feel confident learning about DevOps as DevOps isn't going anywhere. Dev
 
 I hope that I have added some value 🚀
 
-You can follow me on [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`triposat`)](https://twitter.com/triposat) & [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`triposat`)](https://linkedin.com/in/triposat/).
+You can follow me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`triposat`)](https://twitter.com/triposat) & [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`triposat`)](https://linkedin.com/in/triposat/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

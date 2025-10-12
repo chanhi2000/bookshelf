@@ -109,7 +109,7 @@ print(f"Predicted irrigation schedule: {predicted_irrigation[0]:.2f}% water")
 print(f"Predicted fertilizer plan: {predicted_fertilizer[0]:.2f} kg/ha")
 ```
 
-![[<FontIcon icon="fas fa-globe"/>A screenshot of a Python code script. The script uses the RandomForestRegressor from the sklearn.ensemble module to predict irrigation schedules and fertilizer plans based on soil moisture, temperature, and crop yield data. The code creates arrays for each variable and trains models for irrigation and fertilizer schedules. It then simulates new data for prediction and prints the predicted irrigation schedule and fertilizer plan.](https://cdn.hashnode.com/res/hashnode/image/upload/v1725970849931/b3f762f2-03d5-4ec2-ac45-4369737be093.png)
+![[<VPIcon icon="fas fa-globe"/>A screenshot of a Python code script. The script uses the RandomForestRegressor from the sklearn.ensemble module to predict irrigation schedules and fertilizer plans based on soil moisture, temperature, and crop yield data. The code creates arrays for each variable and trains models for irrigation and fertilizer schedules. It then simulates new data for prediction and prints the predicted irrigation schedule and fertilizer plan.](https://cdn.hashnode.com/res/hashnode/image/upload/v1725970849931/b3f762f2-03d5-4ec2-ac45-4369737be093.png)
 
 ---
 

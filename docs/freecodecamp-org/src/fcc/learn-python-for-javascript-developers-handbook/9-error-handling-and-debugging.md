@@ -252,13 +252,13 @@ Both Python and JavaScript have robust tools for debugging, ranging from built-i
 
 ::: tabs
 
-@tab <FontIcon icon="fa-brands fa-python"/>
+@tab <VPIcon icon="fa-brands fa-python"/>
 
 1. **Built-In Debugger (**`pdb`): A command-line tool for inspecting and controlling execution.
 2. **IDE Debugging**: IDEs like PyCharm and VS Code provide graphical debugging with breakpoints and variable inspection.
 3. **Logging**: The `logging` module can be configured to capture detailed runtime information.
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+@tab <VPIcon icon="fa-brands fa-js"/>
 
 1. **Browser Developer Tools**: Chrome DevTools, Firefox Developer Tools, and Edge DevTools are indispensable for frontend debugging.
 2. **Node.js Debugger**: Debug Node.js applications using `node inspect` or `--inspect` with a compatible debugger like Chrome DevTools.

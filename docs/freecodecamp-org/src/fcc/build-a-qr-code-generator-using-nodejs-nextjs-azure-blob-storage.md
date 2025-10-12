@@ -76,7 +76,7 @@ So, let dive in.
 
 ::: note Prerequisites
 
-Before you begin you'll need an active [<FontIcon icon="iconfont icon-microsoftazure"/>Azure](https://azure.microsoft.com/en-us/get-started/azure-portal) account and subscription to create an Azure blob storage.
+Before you begin you'll need an active [<VPIcon icon="iconfont icon-microsoftazure"/>Azure](https://azure.microsoft.com/en-us/get-started/azure-portal) account and subscription to create an Azure blob storage.
 
 :::
 
@@ -86,7 +86,7 @@ Before you begin you'll need an active [<FontIcon icon="iconfont icon-microsofta
 
 ## What is a QR Code?
 
-According to [<FontIcon icon="fas fa-globe"/>Investopedia](https://investopedia.com/terms/q/quick-response-qr-code.asp), a Quick Response (QR) code functions as a specialized barcode, scannable by digital devices, that stores data within a grid of square pixels. 
+According to [<VPIcon icon="fas fa-globe"/>Investopedia](https://investopedia.com/terms/q/quick-response-qr-code.asp), a Quick Response (QR) code functions as a specialized barcode, scannable by digital devices, that stores data within a grid of square pixels. 
 
 QR codes are extensively employed in digital payments, cryptocurrency, and transmitting web addresses to mobile devices. They can encode URLs, facilitating webpage access.
 
@@ -96,7 +96,7 @@ Now, let's delve into the process of programmatically generating QR codes. Today
 
 ## How to Set Up Azure Blob Storage
 
-[<FontIcon icon="fa-brands fa-microsoft"/>Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview) is a cloud-based storage service provided by Microsoft Azure. It is part of the Azure Storage suite, which also includes services such as Azure Files, Azure Queues, and Azure Tables.
+[<VPIcon icon="fa-brands fa-microsoft"/>Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview) is a cloud-based storage service provided by Microsoft Azure. It is part of the Azure Storage suite, which also includes services such as Azure Files, Azure Queues, and Azure Tables.
 
 Azure Blob Storage is designed to store large amounts of unstructured data, such as text or binary data, in the form of objects called blobs. If you are familiar with AWS, Azure Blob Storage is similar to an S3 bucket. Storage accounts are primarily accessed via REST API.
 
@@ -136,7 +136,7 @@ Next, you will be diving into coding, specifically around `Nodejs` and and then 
 
 ## Node.js QR Code
 
-First, you need to install `Node.js` and `npm` on your computer. Go to the [<FontIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/) website and download the version for your computer if you don't have it already.
+First, you need to install `Node.js` and `npm` on your computer. Go to the [<VPIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/) website and download the version for your computer if you don't have it already.
 
 Once you've installed them, check if Node.js and npm are installed correctly by typing these commands in your terminal:
 
@@ -145,11 +145,11 @@ node -v
 npm -v
 ```
 
-Next, go to this GitHub [link (<FontIcon icon="iconfont icon-github"/>`ayowilfred95/azure-qr-code-generator`)](https://github.com/ayowilfred95/azure-qr-code-generator) to fork the project and then clone it to your preferred directory on your computer.
+Next, go to this GitHub [link (<VPIcon icon="iconfont icon-github"/>`ayowilfred95/azure-qr-code-generator`)](https://github.com/ayowilfred95/azure-qr-code-generator) to fork the project and then clone it to your preferred directory on your computer.
 
 ![Github Repository Project](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-07-at-17.26.39--2-.jpeg)
 
-Once you've cloned the project repository, open the project with your code editor. I'm using [<FontIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/download). You'll notice that the project has of two folders: `server` and `frontend`. You'll start by navigating to the `server` folder by typing `cd server` in your terminal and then press `Enter`.
+Once you've cloned the project repository, open the project with your code editor. I'm using [<VPIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/download). You'll notice that the project has of two folders: `server` and `frontend`. You'll start by navigating to the `server` folder by typing `cd server` in your terminal and then press `Enter`.
 
 ![Change the current directory to a directory named "server."](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-07-at-17.48.03.jpeg)
 
@@ -175,7 +175,7 @@ Now, for the `AZURE_STORAGE_CONNECTION_STRING`, you'll need to obtain the secret
 
 Once you've added these environment variables to the `.env` file, save it and you're all set to run the server-side of the application!
 
-Before you run the application, let me quickly explain the code. Click on the <FontIcon icon="fa-brands fa-js"/>`index.js` file.
+Before you run the application, let me quickly explain the code. Click on the <VPIcon icon="fa-brands fa-js"/>`index.js` file.
 
 ![View Index.js file](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-07-at-18.18.28.png)
 
@@ -465,7 +465,7 @@ Now I'll give a detailed explanation of the frontend application's code structur
 
 - When the form is submitted, the `handleSubmit` function is triggered.
 - This function prevents the default form submission behavior by using `e.preventDefault()`.
-- It sends a POST request to the server (`http://localhost:8000/generate-qr`) with the input URL using the [<FontIcon icon="fas fa-globe"/>Axios](https://axios-http.com/docs/intro) library.
+- It sends a POST request to the server (`http://localhost:8000/generate-qr`) with the input URL using the [<VPIcon icon="fas fa-globe"/>Axios](https://axios-http.com/docs/intro) library.
 - Upon successful response, the generated QR code URL is stored in the `qrCodeUrl` state variable.
 
 @tab Rendering
@@ -486,15 +486,15 @@ Now I'll give a detailed explanation of the frontend application's code structur
 
 Now, you can start the application locally.
 
-To start the application, simply run `npm run dev` as shown below. If all goes well, you'll observe the message [<FontIcon icon="fas fa-globe"/>`http://localhost:3000`](http://localhost:3000) printed in your console.
+To start the application, simply run `npm run dev` as shown below. If all goes well, you'll observe the message [<VPIcon icon="fas fa-globe"/>`http://localhost:3000`](http://localhost:3000) printed in your console.
 
 ![Application ready to start](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-08-at-15.18.18.png)
 
-Open your browser and paste the URL [<FontIcon icon="fas fa-globe"/>`http://localhost:3000`](http://localhost:3000). The browser should render the application and look exactly as shown below.
+Open your browser and paste the URL [<VPIcon icon="fas fa-globe"/>`http://localhost:3000`](http://localhost:3000). The browser should render the application and look exactly as shown below.
 
 ![Application running in Browser](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-09-at-11.32.04.png)
 
-Paste in the URL of a website - either your portfolio website or any website you wish to generate a QR code for. I pasted my portfolio website URL, [<FontIcon icon="fas fa-globe"/>`https://wilfred-portfolio.vercel.app/`](https://wilfred-portfolio.vercel.app), into the URL box. See the result below:
+Paste in the URL of a website - either your portfolio website or any website you wish to generate a QR code for. I pasted my portfolio website URL, [<VPIcon icon="fas fa-globe"/>`https://wilfred-portfolio.vercel.app/`](https://wilfred-portfolio.vercel.app), into the URL box. See the result below:
 
 ![QR Code generated successfully](https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-07-at-20.32.40.png)
 

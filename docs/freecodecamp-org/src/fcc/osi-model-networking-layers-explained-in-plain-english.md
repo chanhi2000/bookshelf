@@ -94,7 +94,7 @@ A node is a physical electronic device hooked up to a network, for example a com
 
 Nodes may be set up adjacent to one other, wherein Node A can connect directly to Node B, or there may be an intermediate node, like a switch or a router, set up between Node A and Node B.
 
-Typically, routers connect networks to the Internet and switches operate within a network to facilitate intra-network communication. [<FontIcon icon="fas fa-globe"/>Learn more about hub vs. switch vs. router.](https://themillergroup.com/differences-hubs-switches-routers/)
+Typically, routers connect networks to the Internet and switches operate within a network to facilitate intra-network communication. [<VPIcon icon="fas fa-globe"/>Learn more about hub vs. switch vs. router.](https://themillergroup.com/differences-hubs-switches-routers/)
 
 Here's an example:
 
@@ -132,7 +132,7 @@ While anyone can create a protocol, the most widely adopted protocols are often 
 
 A network is a general term for a group of computers, printers, or any other device that wants to share data.
 
-Network types include LAN, HAN, CAN, MAN, WAN, BAN, or VPN. Think I’m just randomly rhyming things with the word *can*? I *can*’t say I am - these are all real network types. [<FontIcon icon="fas fa-globe"/>Learn more here](https://c1c.net/blog/network-101/).
+Network types include LAN, HAN, CAN, MAN, WAN, BAN, or VPN. Think I’m just randomly rhyming things with the word *can*? I *can*’t say I am - these are all real network types. [<VPIcon icon="fas fa-globe"/>Learn more here](https://c1c.net/blog/network-101/).
 
 ### Topology
 
@@ -267,7 +267,7 @@ Each frame contains a frame header, body, and a frame trailer:
 
 ![Example of frames, the network layer, and the physical layer](https://freecodecamp.org/news/content/images/2021/11/5-Frame-Example.jpeg)
 
-Typically there is a maximum frame size limit, called an Maximum Transmission Unit, MTU. Jumbo frames exceed the standard MTU, [<FontIcon icon="fas fa-globe"/>learn more about jumbo frames here](https://kb.netgear.com/25091/Guidance-on-the-use-of-jumbo-frames).
+Typically there is a maximum frame size limit, called an Maximum Transmission Unit, MTU. Jumbo frames exceed the standard MTU, [<VPIcon icon="fas fa-globe"/>learn more about jumbo frames here](https://kb.netgear.com/25091/Guidance-on-the-use-of-jumbo-frames).
 
 ### How to Troubleshoot OSI Layer 2 Problems
 
@@ -340,13 +340,13 @@ Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are two of 
 
 TCP explicitly establishes a connection with the destination node and requires a handshake between the source and destination nodes when data is transmitted. The handshake confirms that data was received. If the destination node does not receive all of the data, TCP will ask for a retry.
 
-TCP also ensures that packets are delivered or reassembled in the correct order. [<FontIcon icon="fa-brands fa-cloudflare"/>Learn more about TCP here](https://cloudflare.com/learning/ddos/glossary/tcp-ip/).
+TCP also ensures that packets are delivered or reassembled in the correct order. [<VPIcon icon="fa-brands fa-cloudflare"/>Learn more about TCP here](https://cloudflare.com/learning/ddos/glossary/tcp-ip/).
 
 UDP, a connectionless protocol, prioritizes speed over data quality. UDP does not require a handshake, which is why it’s called connectionless.
 
 Because UDP doesn’t have to wait for this acknowledgement, it can send data at a faster rate, but not all of the data may be successfully transmitted and we’d never know.
 
-If information is split up into multiple datagrams, unless those datagrams contain a sequence number, UDP does not ensure that packets are reassembled in the correct order. [<FontIcon icon="fa-brands fa-cloudflare"/>Learn more about UDP here](https://cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/).
+If information is split up into multiple datagrams, unless those datagrams contain a sequence number, UDP does not ensure that packets are reassembled in the correct order. [<VPIcon icon="fa-brands fa-cloudflare"/>Learn more about UDP here](https://cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/).
 
 TCP and UDP both send data to specific ports on a network device, which has an IP address. The combination of the IP address and the port number is called a socket.
 
@@ -493,14 +493,14 @@ Here are some resources I used when writing this article:
 - The Illustrated Network, 2nd Edition
 - Protocol Data Unit (PDU): [https://www.geeksforgeeks.org/difference-between-segments-packets-and-frames/](https://geeksforgeeks.org/difference-between-segments-packets-and-frames/)
 - Troubleshooting Along the OSI Model: [https://www.pearsonitcertification.com/articles/article.aspx?p=1730891](https://pearsonitcertification.com/articles/article.aspx?p=1730891)
-- [<FontIcon icon="fa-brands fa-youtube"/>The OSI Model Demystified](https://youtu.be/HEEnLZV2wGI)
+- [<VPIcon icon="fa-brands fa-youtube"/>The OSI Model Demystified](https://youtu.be/HEEnLZV2wGI)
 - OSI Model for Dummies: [https://www.dummies.com/programming/networking/layers-in-the-osi-model-of-a-computer-network/](https://dummies.com/programming/networking/layers-in-the-osi-model-of-a-computer-network/)
 
 <VidStack src="youtube/HEEnLZV2wGI" />
 
 ### About Me
 
-Chloe Tucker is an artist and computer science enthusiast based in Portland, Oregon. As a former educator, she's continuously searching for the intersection of learning and teaching, or technology and art. Reach out to her on [Twitter <FontIcon icon="fa-brands fa-x-twitter"/>`_chloetucker`](https://x.com/_chloetucker) and check out her website at [chloe.dev](https://chloe.dev/).
+Chloe Tucker is an artist and computer science enthusiast based in Portland, Oregon. As a former educator, she's continuously searching for the intersection of learning and teaching, or technology and art. Reach out to her on [Twitter <VPIcon icon="fa-brands fa-x-twitter"/>`_chloetucker`](https://x.com/_chloetucker) and check out her website at [chloe.dev](https://chloe.dev/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

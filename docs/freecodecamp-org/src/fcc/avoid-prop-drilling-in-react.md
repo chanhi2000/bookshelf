@@ -55,11 +55,11 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2023/11/Purple-Cr
 
 In order to write scalable, reusable, and maintainable applications with React, you'll need to go beyond the surface of using React components, useEffect, useContext, useState, and the like. It involves learning in detail how React works in more depth. 
 
-And if you don't properly understand these key React concepts, you can run into various issues, like [<FontIcon icon="fa-brands fa-quora"/>prop drilling](https://quora.com/What-is-prop-drilling-in-ReactJS).
+And if you don't properly understand these key React concepts, you can run into various issues, like [<VPIcon icon="fa-brands fa-quora"/>prop drilling](https://quora.com/What-is-prop-drilling-in-ReactJS).
 
 In this tutorial,  you'll learn what prop drilling is. I'll also teach you how to intuitively avoid it without relying on React context. In the end, you'll understand how to identify prop drilling without thinking and fix it with precision.
 
-If you prefer a visual guide, here's a video version of this tutorial on my [<FontIcon icon="fa-brands fa-youtube"/>YouTube channel here](https://youtu.be/ELZZnqHJhlw) (approximately 15 minutes).
+If you prefer a visual guide, here's a video version of this tutorial on my [<VPIcon icon="fa-brands fa-youtube"/>YouTube channel here](https://youtu.be/ELZZnqHJhlw) (approximately 15 minutes).
 
 <VidStack src="youtube/ELZZnqHJhlw" />
 
@@ -442,7 +442,7 @@ In the above code, we enhance the component composition solution we previously i
 It's essential to highlight what to avoid when dealing with prop drilling to prevent unnecessary challenges.
 
 - **Avoid React Context, if possible, to fix prop drilling.** This approach ties your component to a specific context, restricting its usability outside of that context and hindering composition and reusability.
-- **Steer clear of redundant components by employing a children-parent replacement approach.** This approach naturally incorporates [<FontIcon icon="fas fa-globe"/>component composition](https://codementor.io/@dinerismail/the-power-of-component-composition-in-react-21goassg4m) without introducing redundant components or states when resolving prop drilling.
+- **Steer clear of redundant components by employing a children-parent replacement approach.** This approach naturally incorporates [<VPIcon icon="fas fa-globe"/>component composition](https://codementor.io/@dinerismail/the-power-of-component-composition-in-react-21goassg4m) without introducing redundant components or states when resolving prop drilling.
 
 By avoiding elongated props, you pave the way for crafting maintainable, high-performing, reusable, and scalable React components. It simplifies the process of lifting states and components by removing the struggle of deciding where to place them. 
 
@@ -452,5 +452,5 @@ In short, you can now discover prop drilling intuitively by paying attention to 
 
 Thanks for reading - cheers!
 
-Hey wait! I am [Ayobami Ogundiran (<FontIcon icon="fa-brands fa-x-twitter"/>`codingnninja`)](https://x.com/codingnninja) and I am about to start showing how to build your own React, Redux, TypeScript, Zod or Ecommerce websites on my YouTube channel. [<FontIcon icon="fa-brands fa-youtube"/>Click to subscribe](https://youtube.com/youtoocancode) to stay connected.
+Hey wait! I am [Ayobami Ogundiran (<VPIcon icon="fa-brands fa-x-twitter"/>`codingnninja`)](https://x.com/codingnninja) and I am about to start showing how to build your own React, Redux, TypeScript, Zod or Ecommerce websites on my YouTube channel. [<VPIcon icon="fa-brands fa-youtube"/>Click to subscribe](https://youtube.com/youtoocancode) to stay connected.
 

@@ -68,7 +68,7 @@ To get the absolute most out of this project, it’s important to have some basi
 
 - JavaScript: Having a good fundamental understanding of how JS works will make it easier to follow along with the project.
 - React.js and Chakra UI: You should have a good understanding of how `usestate` works and how you can apply it in a project. It’s also important that you’re familiar with Chakra Ui and know how to use it to style your web application.
-- A little background on [<FontIcon icon="fas fa-globe"/>Nodemailer](https://nodemailer.com/about/) would be helpful as well.
+- A little background on [<VPIcon icon="fas fa-globe"/>Nodemailer](https://nodemailer.com/about/) would be helpful as well.
 
 :::
 
@@ -104,7 +104,7 @@ First things first, you have to set up your environment. When setting up my envi
 
 ### Install Node.js
 
-Before starting this process, make that Node is installed on your computer. If it’s not, head to their [<FontIcon icon="fa-brands fa-node"/>website](https://nodejs.org/en) to download and install it from there.
+Before starting this process, make that Node is installed on your computer. If it’s not, head to their [<VPIcon icon="fa-brands fa-node"/>website](https://nodejs.org/en) to download and install it from there.
 
 You can also use your command line to install Node by running the command `nvm install -lts`.
 
@@ -128,7 +128,7 @@ Next, let’s set up your frontend interface.
 
 As I mentioned above, I’m using React for my front-end and Chakra UI for styling. I won’t be going over how to install React here, but if you need help with that for your project, [**check out my article on it**](/freecodecamp.org/how-to-install-react-a-step-by-step-guide.md).
 
-Next, make sure you have Chakra UI set up. You can do this by following the steps on the [<FontIcon icon="fas fa-globe"/>Chakra Ui official website](https://chakra-ui.com/docs/get-started/frameworks/vite).
+Next, make sure you have Chakra UI set up. You can do this by following the steps on the [<VPIcon icon="fas fa-globe"/>Chakra Ui official website](https://chakra-ui.com/docs/get-started/frameworks/vite).
 
 Note: The web application is a full web application, which consists of various pages like Home, Services, Pricing, Contact, and so on. But for the sake of this article, we’ll focus on only the contact page.
 
@@ -359,7 +359,7 @@ Note that `cors` plays an important role in ensuring effective communication bet
 
 Now before you finish setting up the send email function, you first need to configure `OAuth2` to get access to the tokens and keys you’re using, such as `CLIENT_ID`, `CLIENT_SECRET`, `REFRESH_TOKEN`, and so on.
 
-To set up OAuth2, [<FontIcon icon="fa-brands fa-google"/>go here](https://console.cloud.google.com/projectselector2/home) to visit your Google Cloud dashboard. Once it opens, it should look like this:
+To set up OAuth2, [<VPIcon icon="fa-brands fa-google"/>go here](https://console.cloud.google.com/projectselector2/home) to visit your Google Cloud dashboard. Once it opens, it should look like this:
 
 ![Google Cloud Dashboard](https://cdn.hashnode.com/res/hashnode/image/upload/v1742477897924/e6879a15-6835-42e8-a869-8e49b725101a.png)
 
@@ -411,7 +411,7 @@ After that, your `Client ID` and `Client Secret` token should finally be generat
 
 ![Client ID and Client Secret generation Successful](https://cdn.hashnode.com/res/hashnode/image/upload/v1742479023599/004465be-cce9-4b20-aa32-5a4f676f4d03.png)
 
-Next, head to the [<FontIcon icon="fa-brands fa-google"/>OAuth Playground](https://developers.google.com/oauthplayground/) where you’ll complete the final setup. Once there, click on the gear button at the top right of the screen. There, just add your `client ID` and `Client Secret` which you generated before.
+Next, head to the [<VPIcon icon="fa-brands fa-google"/>OAuth Playground](https://developers.google.com/oauthplayground/) where you’ll complete the final setup. Once there, click on the gear button at the top right of the screen. There, just add your `client ID` and `Client Secret` which you generated before.
 
 ![Refresh token generation process step 1 ](https://cdn.hashnode.com/res/hashnode/image/upload/v1742479184829/7885b38b-de54-46fb-9c0d-a0739110dd98.png)
 
@@ -562,7 +562,7 @@ return res
 
 At this point, you have successfully set up both your frontend and backend applications. Now you may want to host them. I decided to host both applications using Vercel and link their URLs together.
 
-Here is the source code to access both the [frontend (<FontIcon icon="iconfont icon-github"/>`Derekvibe/ExesEnergyFrontend`)](https://github.com/Derekvibe/ExesEnergyFrontend) and the [backend (<FontIcon icon="iconfont icon-github"/>`Derekvibe/ExesEnergyFrontend`)](https://github.com/Derekvibe/ExesEnergyBackend/blob/main/api/send-email.js).
+Here is the source code to access both the [frontend (<VPIcon icon="iconfont icon-github"/>`Derekvibe/ExesEnergyFrontend`)](https://github.com/Derekvibe/ExesEnergyFrontend) and the [backend (<VPIcon icon="iconfont icon-github"/>`Derekvibe/ExesEnergyFrontend`)](https://github.com/Derekvibe/ExesEnergyBackend/blob/main/api/send-email.js).
 
 Here is the final result:
 

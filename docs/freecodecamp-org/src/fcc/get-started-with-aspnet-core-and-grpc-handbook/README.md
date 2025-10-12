@@ -71,7 +71,7 @@ In this handbook, I’ll take you on a journey from absolute beginner to buildin
 
 Let's dive in and discover how gRPC can revolutionize your API development experience!
 
-You can find all the code in this [GitHub Repository (<FontIcon icon="iconfont icon-github"/>`Clifftech123/IsaiahCliffordOpokuBlog`)](https://github.com/Clifftech123/IsaiahCliffordOpokuBlog).
+You can find all the code in this [GitHub Repository (<VPIcon icon="iconfont icon-github"/>`Clifftech123/IsaiahCliffordOpokuBlog`)](https://github.com/Clifftech123/IsaiahCliffordOpokuBlog).
 
 ::: note Perquisites
 
@@ -223,7 +223,7 @@ ProductGrpc/
 
 - `Protos/greet.proto`: Defines the service contract using Protocol Buffers
 - `Services/GreeterService.cs`: Contains the actual service implementation
-- <FontIcon icon="iconfont icon-csharp"/>`Program.cs`: Configures and starts the gRPC server title="settings"
+- <VPIcon icon="iconfont icon-csharp"/>`Program.cs`: Configures and starts the gRPC server title="settings"
 :::
 
 ### Verifying the Setup
@@ -266,7 +266,7 @@ Models serve several important purposes:
 
 Let’s organize our code by creating a dedicated folder for our models called `Models` in your project root directory.
 
-Inside the Models folder, create a new file called <FontIcon icon="iconfont icon-csharp"/>`Product.cs`.
+Inside the Models folder, create a new file called <VPIcon icon="iconfont icon-csharp"/>`Product.cs`.
 
 Your project structure should now look like this:
 
@@ -281,7 +281,7 @@ ProductGrpc/
 
 ### Implementing the Product Model
 
-Add the following code to your <FontIcon icon="iconfont icon-csharp"/>`Product.cs` file:
+Add the following code to your <VPIcon icon="iconfont icon-csharp"/>`Product.cs` file:
 
 ```cs title="Models/Product.cs"
 using System.ComponentModel.DataAnnotations;
@@ -370,7 +370,7 @@ info : PackageReference for 'Microsoft.EntityFrameworkCore.Sqlite' version 'x.x.
 
 Now let's create our database context, which acts as a bridge between our .NET objects and the database.
 
-First, create a new folder called `Data` In your project root. Inside the Data folder, create a file called <FontIcon icon="iconfont icon-csharp"/>`AppDbContext.cs`.
+First, create a new folder called `Data` In your project root. Inside the Data folder, create a file called <VPIcon icon="iconfont icon-csharp"/>`AppDbContext.cs`.
 
 Your project structure should now look like this:
 
@@ -385,7 +385,7 @@ ProductGrpc/
 └── ...
 ```
 
-Add the following code to your <FontIcon icon="iconfont icon-csharp"/>`AppDbContext.cs` file:
+Add the following code to your <VPIcon icon="iconfont icon-csharp"/>`AppDbContext.cs` file:
 
 ```cs title="Data/AppDbContext.cs"
 using Microsoft.EntityFrameworkCore;
@@ -413,7 +413,7 @@ Let’s understand the key components of DbContext:
 
 Now we need to register our `AppDbContext` With the dependency injection container so our application can use it.
 
-Open your <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file and add the database configuration:
+Open your <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file and add the database configuration:
 
 ```cs title="Program.cs"
 using ProductGrpc.Data;
@@ -437,7 +437,7 @@ app.Run();
 app.Run();
 ```
 
-`Data Source=ProductGrpc.db` creates a SQLite database file named <FontIcon icon="fas fa-database"/>`ProductGrpc.db` in your project directory.
+`Data Source=ProductGrpc.db` creates a SQLite database file named <VPIcon icon="fas fa-database"/>`ProductGrpc.db` in your project directory.
 
 ### Creating and Running Migrations
 
@@ -452,7 +452,7 @@ dotnet ef migrations add InitialCreate
 This command will:
 
 - Analyze your models and DbContext
-- Generate migration files in a <FontIcon icon="fas fa-folder-open"/>`Migrations` folder
+- Generate migration files in a <VPIcon icon="fas fa-folder-open"/>`Migrations` folder
 - Create SQL commands needed to build your database schema
 
 You should see output like this:
@@ -471,7 +471,7 @@ dotnet ef database update
 ::: info This command will:
 
 - Execute the migration SQL commands
-- Create the <FontIcon icon="fas fa-database"/>`ProductGrpc.db` file in your project directory
+- Create the <VPIcon icon="fas fa-database"/>`ProductGrpc.db` file in your project directory
 - Set up the Products table with all the correct columns
 
 :::
@@ -488,8 +488,8 @@ Done.
 
 After running the migration, you should see:
 
-1. A new <FontIcon icon="fas fa-folder-open"/>`Migrations` folder in your project with migration files
-2. A <FontIcon icon="fas fa-database"/>`ProductGrpc.db` file in your project root (this is your SQLite database)
+1. A new <VPIcon icon="fas fa-folder-open"/>`Migrations` folder in your project with migration files
+2. A <VPIcon icon="fas fa-database"/>`ProductGrpc.db` file in your project root (this is your SQLite database)
 3. No errors in the terminal output
 
 Your project structure should now look like this:
@@ -610,7 +610,7 @@ Here's a quick comparison table to summarize these differences:
 
 ### Creating the Product Proto File
 
-Navigate to the <FontIcon icon="fas fa-folder-open"/>`Protos` folder in your project and create a new file called <FontIcon icon="iconfont icon-protobuf"/>`product.proto`. Make sure the file extension is `.proto`.
+Navigate to the <VPIcon icon="fas fa-folder-open"/>`Protos` folder in your project and create a new file called <VPIcon icon="iconfont icon-protobuf"/>`product.proto`. Make sure the file extension is `.proto`.
 
 Your project structure should look like this:
 
@@ -624,7 +624,7 @@ ProductGrpc/
 
 ### Setting Up the Proto File Header
 
-Add the following header to your <FontIcon icon="iconfont icon-protobuf"/>`product.proto` file:
+Add the following header to your <VPIcon icon="iconfont icon-protobuf"/>`product.proto` file:
 
 ```proto title="Protos/product.proto"
 syntax = "proto3";
@@ -774,7 +774,7 @@ Keep in mind that field numbers must be unique within a message, field numbers 1
 
 ### Complete Product Proto File
 
-Here's your complete <FontIcon icon="iconfont icon-protobuf"/>`product.proto` file:
+Here's your complete <VPIcon icon="iconfont icon-protobuf"/>`product.proto` file:
 
 ```proto :collapsed-lines title="Protos/product.proto"
 syntax = "proto3";
@@ -931,9 +931,9 @@ Protocol Buffer (.proto) → Generated C# Code → Our Service Implementation �
 
 ### Configuring Proto File Build
 
-First, we need to ensure our <FontIcon icon="iconfont icon-protobuf"/>`product.proto` file gets compiled into C# code during the build process.
+First, we need to ensure our <VPIcon icon="iconfont icon-protobuf"/>`product.proto` file gets compiled into C# code during the build process.
 
-Open your <FontIcon icon="iconfont icon-code"/>`ProductGrpc.csproj` file and locate the `<ItemGroup>` section that references proto files:
+Open your <VPIcon icon="iconfont icon-code"/>`ProductGrpc.csproj` file and locate the `<ItemGroup>` section that references proto files:
 
 ```xml title="ProductGrpc.csproj"
 <Project Sdk="Microsoft.NET.Sdk.Web">
@@ -986,7 +986,7 @@ Build succeeded.
 
 ### Creating the ProductService Class
 
-Navigate to the `Services` folder and create a new file called <FontIcon icon="iconfont icon-csharp"/>`ProductService.cs`. This will contain our gRPC service implementation.
+Navigate to the `Services` folder and create a new file called <VPIcon icon="iconfont icon-csharp"/>`ProductService.cs`. This will contain our gRPC service implementation.
 
 Your project structure should now look like this:
 
@@ -1119,7 +1119,7 @@ public override async Task<ResponseType> MethodName(
 
 ### Registering the Service
 
-Before we implement the methods, we need to register our service with the application. Open <FontIcon icon="iconfont icon-csharp"/>`Program.cs` and add the service:
+Before we implement the methods, we need to register our service with the application. Open <VPIcon icon="iconfont icon-csharp"/>`Program.cs` and add the service:
 
 ```cs title="Program.cs"
 using ProductGrpc.Data;
@@ -1603,7 +1603,7 @@ public override async Task<DeleteProductResponse> DeleteProduct(
 
 ### Complete ProductService Implementation
 
-Here's your complete <FontIcon icon="iconfont icon-csharp"/>`ProductService.cs` file with all CRUD operations:
+Here's your complete <VPIcon icon="iconfont icon-csharp"/>`ProductService.cs` file with all CRUD operations:
 
 ```cs :collapsed-lines title="Services/ProductService.cs"
 using Grpc.Core;
@@ -1723,8 +1723,8 @@ Locate the "Service definition" section in the gRPC request interface. Then clic
 
 1. Click "Select Files" or "Import" button
 2. Navigate to your project directory
-3. Go to the <FontIcon icon="fas fa-folder-open"/>`Protos` folder
-4. Select <FontIcon icon="iconfont icon-protobuf"/>`product.proto` file
+3. Go to the <VPIcon icon="fas fa-folder-open"/>`Protos` folder
+4. Select <VPIcon icon="iconfont icon-protobuf"/>`product.proto` file
 5. Click "Open" to import
 
 ```plaintext title="file structure"
@@ -2220,13 +2220,13 @@ Thank you for following along with this comprehensive tutorial. Your dedication 
 
 **Happy coding, and may your services be fast, reliable, and scalable!**
 
-If you want to learn more about .NET Core, you can subscribe to my YouTube channel [here (<FontIcon icon="fa-brands fa-youtube"/>`clifftech`)](https://youtube.com/@clifftech)
+If you want to learn more about .NET Core, you can subscribe to my YouTube channel [here (<VPIcon icon="fa-brands fa-youtube"/>`clifftech`)](https://youtube.com/@clifftech)
 
 ::: info 🔗 Connect with the author:
 
-- GitHub: [<FontIcon icon="iconfont icon-github"/>`@CliffTech123`](https://github.com/Clifftech123)
-- Twitter: [<FontIcon icon="fa-brands fa-x-twitter"/>`@Clifftech_Dev`](https://x.com/Clifftech_Dev)
-- LinkedIn: [Isaiah Clifford Opoku (<FontIcon icon="fa-brands fa-linkedin"/>`isaiah-clifford-opoku`)](https://linkedin.com/in/isaiah-clifford-opoku/)
+- GitHub: [<VPIcon icon="iconfont icon-github"/>`@CliffTech123`](https://github.com/Clifftech123)
+- Twitter: [<VPIcon icon="fa-brands fa-x-twitter"/>`@Clifftech_Dev`](https://x.com/Clifftech_Dev)
+- LinkedIn: [Isaiah Clifford Opoku (<VPIcon icon="fa-brands fa-linkedin"/>`isaiah-clifford-opoku`)](https://linkedin.com/in/isaiah-clifford-opoku/)
 
 :::
 

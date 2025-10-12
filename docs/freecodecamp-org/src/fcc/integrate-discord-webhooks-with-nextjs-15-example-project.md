@@ -60,7 +60,7 @@ You’ve likely seen (or used) contact forms on websites that ask for customer f
 
 In this case, there is no database to store the information. Rather, you just have a free Discord text channel that keeps the data as a sequence of messages in chat. And an admin/moderator/user with the required access rights can read through these messages and take the appropriate action.
 
-In case you are new to Discord, it’s a great platform for chatting, playing video games, having calls, and even running a virtual team for your startup. It’s free, and you can download it from [<FontIcon icon="fa-brands fa-discord"/>here](https://discord.com/).
+In case you are new to Discord, it’s a great platform for chatting, playing video games, having calls, and even running a virtual team for your startup. It’s free, and you can download it from [<VPIcon icon="fa-brands fa-discord"/>here](https://discord.com/).
 
 Alright, coming back to the topic, I had a requirement like this to implement using Discord’s webhook and Next.js. I learned a lot from the activity. So I wrote this step-by-step tutorial about that process.
 
@@ -134,15 +134,15 @@ With that, you’ve created a Next.js project you can use for the rest of the tu
 
 ## How to Set Environment Variables
 
-Create a <FontIcon icon="fas fa-file-lines"/>`.env` file at the root of your project. We will now create an environment variable secret with the webhook URL you had copied before. Create an entry in the .env file like this:
+Create a <VPIcon icon="fas fa-file-lines"/>`.env` file at the root of your project. We will now create an environment variable secret with the webhook URL you had copied before. Create an entry in the .env file like this:
 
 ```properties title=".env"
 DISCORD_WEBHOOK_URL=<YOUR_DISCORD_WEBHOOK_URL>
 ```
 
-Make sure you replace the `<YOUR_DISCORD_WEBHOOK_URL>` with your actual webhook URL in the <FontIcon icon="fas fa-file-lines"/>`.env` file. Remember, you must not commit and push this file to your version control. So, make sure that the <FontIcon icon="fas fa-file-lines"/>`.env` file has been added to the <FontIcon icon="iconfont icon-git"/>`.gitignore` file of the project.
+Make sure you replace the `<YOUR_DISCORD_WEBHOOK_URL>` with your actual webhook URL in the <VPIcon icon="fas fa-file-lines"/>`.env` file. Remember, you must not commit and push this file to your version control. So, make sure that the <VPIcon icon="fas fa-file-lines"/>`.env` file has been added to the <VPIcon icon="iconfont icon-git"/>`.gitignore` file of the project.
 
-![<FontIcon icon="iconfont icon-git"/>`.gitignore`](https://cdn.hashnode.com/res/hashnode/image/upload/v1736912358788/d98af5b1-ab61-46c3-92d5-a8772d34e4f2.png)
+![<VPIcon icon="iconfont icon-git"/>`.gitignore`](https://cdn.hashnode.com/res/hashnode/image/upload/v1736912358788/d98af5b1-ab61-46c3-92d5-a8772d34e4f2.png)
 
 ---
 
@@ -150,19 +150,19 @@ Make sure you replace the `<YOUR_DISCORD_WEBHOOK_URL>` with your actual webhook 
 
 Now, we will create the user interface to capture inputs from the user and send those to the Discord text channel using the webhook.
 
-Let’s create a simple message form using the `<Form />` component from Next.js. The `<Form/>` component is an extension of HTML’s native form with more flexibilities and features introduced by the release of Next.js 15. I would suggest that you [<FontIcon icon="fa-brands fa-youtube"/>go over this project-based video](https://youtu.be/vl_aGFMShg0) tutorial if you are interested in learning more about this new addition to Next.js.
+Let’s create a simple message form using the `<Form />` component from Next.js. The `<Form/>` component is an extension of HTML’s native form with more flexibilities and features introduced by the release of Next.js 15. I would suggest that you [<VPIcon icon="fa-brands fa-youtube"/>go over this project-based video](https://youtu.be/vl_aGFMShg0) tutorial if you are interested in learning more about this new addition to Next.js.
 
 Our strategy here is very straightforward:
 
 - We will create a form and add an action to it using the form’s `action` prop.
-- We will then create a [<FontIcon icon="fa-brands fa-youtube"/>Server Action](https://youtu.be/gQ2bVQPFS4U) using the webhook URL to communicate with Discord.
+- We will then create a [<VPIcon icon="fa-brands fa-youtube"/>Server Action](https://youtu.be/gQ2bVQPFS4U) using the webhook URL to communicate with Discord.
 - The action will be invoked when the user fills up the form and submits it. Thus the webhook communication will be done.
 
 Let’s write the code for these functionalities now.
 
 ### Create the Form
 
-Create a folder called <FontIcon icon="fas fa-folder-open"/>`_components` under the <FontIcon icon="fas fa-folder-open"/>`app/` directory. Now, create a file <FontIcon icon="fa-brands fa-react"/>`message-form.jsx` under the <FontIcon icon="fas fa-folder-open"/>`app/_components/` folder with the following code:
+Create a folder called <VPIcon icon="fas fa-folder-open"/>`_components` under the <VPIcon icon="fas fa-folder-open"/>`app/` directory. Now, create a file <VPIcon icon="fa-brands fa-react"/>`message-form.jsx` under the <VPIcon icon="fas fa-folder-open"/>`app/_components/` folder with the following code:
 
 ```jsx :collapsed-lines title="_components/message-form.jsx"
 import Form from "next/form";
@@ -239,7 +239,7 @@ Now, let’s create the server action so that we can submit the form with it.
 
 ### Create the Server Action
 
-We’ll use a server action to send messages to Discord using webhooks. Create a folder called <FontIcon icon="fas fa-folder-open"/>`actions` under the <FontIcon icon="fas fa-folder-open"/>`app/` directory. It’s a convention to keep all the actions colocated under the <FontIcon icon="fas fa-folder-open"/>`actions/` directory. Now, create a file called <FontIcon icon="fa-brands fa-js"/>`index.js` under the <FontIcon icon="fas fa-folder-open"/>`app/actions/` directory with the following code:
+We’ll use a server action to send messages to Discord using webhooks. Create a folder called <VPIcon icon="fas fa-folder-open"/>`actions` under the <VPIcon icon="fas fa-folder-open"/>`app/` directory. It’s a convention to keep all the actions colocated under the <VPIcon icon="fas fa-folder-open"/>`actions/` directory. Now, create a file called <VPIcon icon="fa-brands fa-js"/>`index.js` under the <VPIcon icon="fas fa-folder-open"/>`app/actions/` directory with the following code:
 
 ```jsx title="actions/index.js"
 "use server";
@@ -286,7 +286,7 @@ export const sendDiscordMessage = async (formData) => {
 Let’s understand what’s going on in the above code:
 
 - In Next.js (or with React 19), a server function (aka server action) needs a special directive called `”use server”` at the top of the file. So we have declared that.
-- A server action is an async function that gets the `formData` as a parameter. The `formData` will contain the values of all the form fields submitted by the user. We can use the `Object.formEntries()` API to get a key-value pair from the `formData`. [<FontIcon icon="fa-brands fa-youtube"/>Check this out](https://youtu.be/gNIO_6FcRrE) to learn the best way to handle formData in JavaScript.
+- A server action is an async function that gets the `formData` as a parameter. The `formData` will contain the values of all the form fields submitted by the user. We can use the `Object.formEntries()` API to get a key-value pair from the `formData`. [<VPIcon icon="fa-brands fa-youtube"/>Check this out](https://youtu.be/gNIO_6FcRrE) to learn the best way to handle formData in JavaScript.
 - Next, we used the Discord webhook URL to make a `POST` call with the required payload to create the message.
 - Let’s understand the payload format well. We need to follow a specific payload structure for the discord webhook to create the message. It follows a schema to have the following:
   - `username`: the name of the message sender. It appears at the top of the message. We’re reading the name field from the submitted data and populating the `username` field.
@@ -298,7 +298,7 @@ Let’s understand what’s going on in the above code:
 
 ## How to Update the App Page
 
-Finally, let’s update the application’s page with our form component so that everything gets stitched together. Open the <FontIcon icon="fa-brands fa-react"/>`page.js` file under the `app/` directory and paste in the following code:
+Finally, let’s update the application’s page with our form component so that everything gets stitched together. Open the <VPIcon icon="fa-brands fa-react"/>`page.js` file under the `app/` directory and paste in the following code:
 
 ```jsx :collapsed-lines title="page.js"
 import MessageForm from "./_components/message-form";
@@ -333,7 +333,7 @@ TADA! We have done it. But hold on - we can make it even better. Did you notice 
 
 ## How to Improve the Message Feedback using React 19’s useActionState Hook
 
-`React 19` introduced a hook called [<FontIcon icon="fa-brands fa-youtube"/>useActionState](https://youtu.be/PWFKgdGmhxg) that helps you update the state based on the result of a server action. Let’s use this hook to enhance the message form and the server action so that when the action gets executed successfully (or fails), we can notify the form component to change its state and show the success/error messages accordingly.
+`React 19` introduced a hook called [<VPIcon icon="fa-brands fa-youtube"/>useActionState](https://youtu.be/PWFKgdGmhxg) that helps you update the state based on the result of a server action. Let’s use this hook to enhance the message form and the server action so that when the action gets executed successfully (or fails), we can notify the form component to change its state and show the success/error messages accordingly.
 
 ### Set up a toaster
 
@@ -625,10 +625,10 @@ Here are the resources I mentioned in the article that you may find helpful:
 
 Also, you can connect with me by:
 
-- Subscribing to my [YouTube Channel (<FontIcon icon="fa-brands fa-youtube"/>`tapasadhikary`)](https://youtube.com/@tapasadhikary). If you are willing to learn `React` and its ecosystem, like `Next.js`, with both fundamental concepts and projects, I have great news for you: you can [<FontIcon icon="fa-brands fa-youtube"/>check out this playlist on my YouTube](https://youtu.be/VSB2h7mVhPg&list=PLIJrr73KDmRwz_7QUvQ9Az82aDM9I8L_8) channel with 30+ video tutorials and 20+ hours of engaging content so far, for free. I hope you like them as well.
-- [Following me on X (<FontIcon icon="fa-brands fa-x-twitter"/>`tapasadhikary`)](https://twitter.com/tapasadhikary) or [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`tapasadhikary`)](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
-- Checking out and following my Open Source work on [GitHub (<FontIcon icon="iconfont icon-github"/>`atapas`)](https://github.com/atapas).
-- I regularly publish meaningful posts on my [<FontIcon icon="fas fa-globe"/>GreenRoots Blog](https://blog.greenroots.info/), you may find them helpful, too.
+- Subscribing to my [YouTube Channel (<VPIcon icon="fa-brands fa-youtube"/>`tapasadhikary`)](https://youtube.com/@tapasadhikary). If you are willing to learn `React` and its ecosystem, like `Next.js`, with both fundamental concepts and projects, I have great news for you: you can [<VPIcon icon="fa-brands fa-youtube"/>check out this playlist on my YouTube](https://youtu.be/VSB2h7mVhPg&list=PLIJrr73KDmRwz_7QUvQ9Az82aDM9I8L_8) channel with 30+ video tutorials and 20+ hours of engaging content so far, for free. I hope you like them as well.
+- [Following me on X (<VPIcon icon="fa-brands fa-x-twitter"/>`tapasadhikary`)](https://twitter.com/tapasadhikary) or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`tapasadhikary`)](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
+- Checking out and following my Open Source work on [GitHub (<VPIcon icon="iconfont icon-github"/>`atapas`)](https://github.com/atapas).
+- I regularly publish meaningful posts on my [<VPIcon icon="fas fa-globe"/>GreenRoots Blog](https://blog.greenroots.info/), you may find them helpful, too.
 
 See you soon with my next article. Until then, please take care of yourself, and keep learning.
 

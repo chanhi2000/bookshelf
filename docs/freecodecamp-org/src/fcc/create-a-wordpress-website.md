@@ -110,7 +110,7 @@ In this comprehensive course, you’ll go from zero to a fully functioning WordP
 
 By the end of the course, you’ll have a fully customized WordPress website and the confidence to manage and update it independently. Whether you’re a business owner, a creative professional, or someone who wants an online presence, this course will empower you to bring your vision to life.
 
-Ready to get started? Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org’s YouTube channel](https://youtu.be/R4v_7hh4Yys) (1-hour watch).
+Ready to get started? Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org’s YouTube channel](https://youtu.be/R4v_7hh4Yys) (1-hour watch).
 
 <VidStack src="youtube/R4v_7hh4Yys" />
 

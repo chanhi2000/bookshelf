@@ -250,7 +250,7 @@ Similar to the old path, we find the new path using the new file name as an argu
 
 Ok, here’s how you can actually use these scripts:
 
-1. Replace <FontIcon icon="fas fa-folder-open"/>`/path/to/your/folder` with the actual directory containing the files.
+1. Replace <VPIcon icon="fas fa-folder-open"/>`/path/to/your/folder` with the actual directory containing the files.
 2. Run the script in the corresponding environment:
     - **Bash:** Save as a `.sh` file, then execute with `bash script.sh`
     - **Python:** Save as a `.py` file, then execute with `python script.py`
@@ -385,7 +385,7 @@ I wrote a script to generate those 100 files. I would also recommend that you tr
 
 This may sound difficult at the beginning, but believe me you just need to write 5 lines of bash code to generate 100 files. Not just 100 - you can even generate a million/billion/trillion files with just 5 lines of code.
 
-If you wish to learn more about Scripts, subscribe to my [<FontIcon icon="iconfont icon-globe"/>email newsletter](https://5minslearn.gogosoon.com/) and follow me on social media.
+If you wish to learn more about Scripts, subscribe to my [<VPIcon icon="iconfont icon-globe"/>email newsletter](https://5minslearn.gogosoon.com/) and follow me on social media.
 
 Happy scripting!
 

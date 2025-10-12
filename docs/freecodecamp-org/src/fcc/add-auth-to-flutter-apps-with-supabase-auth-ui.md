@@ -63,7 +63,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/supa-auth
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w1000/2024/05/supa-auth-2.png"/>
 
-In this article, you will learn how to use Supabase's [<FontIcon icon="fas fa-globe"/>auth package](https://pub.dev/packages/supabase_auth_ui) to quickly and efficiently add authentication functionality to your Flutter apps. We will go through the entire process, from setting up a Flutter project to configuring Email/Password, OAuth, and Magic link flows.
+In this article, you will learn how to use Supabase's [<VPIcon icon="fas fa-globe"/>auth package](https://pub.dev/packages/supabase_auth_ui) to quickly and efficiently add authentication functionality to your Flutter apps. We will go through the entire process, from setting up a Flutter project to configuring Email/Password, OAuth, and Magic link flows.
 
 In the end, you'll have a complete authentication system with theming, localisation, and native support.
 
@@ -73,11 +73,11 @@ In the end, you'll have a complete authentication system with theming, localisat
 
 This article assumes that you have:
 
-- A basic understanding of [<FontIcon icon="fa-brands fa-flutter"/>Flutter](https://docs.flutter.dev/)
-- Flutter [<FontIcon icon="fa-brands fa-flutter"/>installed](https://docs.flutter.dev/get-started/install) and ready to go
-- A basic understanding of [<FontIcon icon="fas fa-globe"/>Backend-as-a-Service concepts](https://cloudflare.com/en-gb/learning/serverless/glossary/backend-as-a-service-baas/)
+- A basic understanding of [<VPIcon icon="fa-brands fa-flutter"/>Flutter](https://docs.flutter.dev/)
+- Flutter [<VPIcon icon="fa-brands fa-flutter"/>installed](https://docs.flutter.dev/get-started/install) and ready to go
+- A basic understanding of [<VPIcon icon="fas fa-globe"/>Backend-as-a-Service concepts](https://cloudflare.com/en-gb/learning/serverless/glossary/backend-as-a-service-baas/)
 - A basic understanding of [authentication](/freecodecamp.org/set-up-authentication-in-apps-with-supabase.md)
-- An IDE (Integrated Developer Environment) or a [<FontIcon icon="iconfont icon-vscode"/>text editor](https://code.visualstudio.com/download) to work in
+- An IDE (Integrated Developer Environment) or a [<VPIcon icon="iconfont icon-vscode"/>text editor](https://code.visualstudio.com/download) to work in
 
 :::
 
@@ -119,18 +119,18 @@ Back in the integrated terminal, run `cd auth_example` to change into the correc
 
 ## How to Connect to a Supabase Project
 
-Go to your Supabase dashboard or [<FontIcon icon="iconfont icon-supabase"/>create an account](https://supabase.com/) if you don't have one. In the dashboard, go to Project settings at the bottom then click on API under configuration. Copy the URL and the project anon key from the right hand side of the page as illustrated below:
+Go to your Supabase dashboard or [<VPIcon icon="iconfont icon-supabase"/>create an account](https://supabase.com/) if you don't have one. In the dashboard, go to Project settings at the bottom then click on API under configuration. Copy the URL and the project anon key from the right hand side of the page as illustrated below:
 
 ![A screenshot of the API settings page in Supabase dashboard. The left sidebar shows various menu options under "Project Settings," "Configuration," and "Billing." The "API" option under "Configuration" is highlighted. The main section displays fields for "Project URL" and "Project API keys," with options to copy or reveal the keys.](https://cdn.hashnode.com/res/hashnode/image/upload/v1716932440241/1f5c49a5-5ef8-449f-8bec-557e0492e950.png)
 
-Back in your Flutter app, create a <FontIcon icon="fas fa-file-lines"/>`.env` file at the root of the folder and paste the following, replacing with the values you copied above:
+Back in your Flutter app, create a <VPIcon icon="fas fa-file-lines"/>`.env` file at the root of the folder and paste the following, replacing with the values you copied above:
 
 ```sh
 SUPABASE_URL=your_url
 SUPABASE_ANON_KEY=your_project_anon_key
 ```
 
-Add the environment file to the `.gitignore` file to keep it out of version control, then add the `flutter_dotenv` package to the list of dependencies right below `supabase_auth_ui` dependency. Finally add the <FontIcon icon="fas fa-file-lines"/>`.env` file as a path under the assets key in the pubspec.yaml file. 
+Add the environment file to the `.gitignore` file to keep it out of version control, then add the `flutter_dotenv` package to the list of dependencies right below `supabase_auth_ui` dependency. Finally add the <VPIcon icon="fas fa-file-lines"/>`.env` file as a path under the assets key in the pubspec.yaml file. 
 
 The file should look like so:
 
@@ -150,7 +150,7 @@ void main() async {
 }
 ```
 
-This loads the <FontIcon icon="fas fa-file-lines"/>`.env` file and initialises Supabase.
+This loads the <VPIcon icon="fas fa-file-lines"/>`.env` file and initialises Supabase.
 
 ---
 
@@ -180,7 +180,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-Create a <FontIcon icon="fa-brands fa-dart-lang"/>`splash_screen.dart` file in the `lib` folder and paste the following in it:
+Create a <VPIcon icon="fa-brands fa-dart-lang"/>`splash_screen.dart` file in the `lib` folder and paste the following in it:
 
 ```dart
 import 'package:auth_ui_example/auth_screen.dart';
@@ -260,7 +260,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 This creates a stateful widget class that checks for an active session and redirects to the authentications screen if there is no active session. It also displays some text and a button that allows the user to sign out of the application.
 
-Finally, create <FontIcon icon="fa-brands fa-dart-lang"/>`auth_screen.dart` in the <FontIcon icon="fas fa-folder-open"/>`lib` folder and paste the following into it:
+Finally, create <VPIcon icon="fa-brands fa-dart-lang"/>`auth_screen.dart` in the <VPIcon icon="fas fa-folder-open"/>`lib` folder and paste the following into it:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -334,9 +334,9 @@ To have Supabase auth UI work properly on both mobile and web, you will need to 
 
 Under authentication > URL configurations, add "[http://localhost:3000/](http://localhost:3000/)" as the site URL.
 
-Then under "redirect URLs" add "YOUR_SCHEME://YOUR_HOSTNAME" as the value, where YOUR_SCHEME is a unique identifier that you decide for your app and YOUR_HOSTNAME is the package name in your <FontIcon icon="iconfont icon-gradle"/>`build.gradle` file as applicationID under <FontIcon icon="fas fa-folder-open"/>`android/src/`<FontIcon icon="iconfont icon-gradle"/>`build.gradle`. Something like this: "myapptest://com.example.auth_ui_example".
+Then under "redirect URLs" add "YOUR_SCHEME://YOUR_HOSTNAME" as the value, where YOUR_SCHEME is a unique identifier that you decide for your app and YOUR_HOSTNAME is the package name in your <VPIcon icon="iconfont icon-gradle"/>`build.gradle` file as applicationID under <VPIcon icon="fas fa-folder-open"/>`android/src/`<VPIcon icon="iconfont icon-gradle"/>`build.gradle`. Something like this: "myapptest://com.example.auth_ui_example".
 
-Complete configuring Android by going to the `AndroidManifest` file under <FontIcon icon="fas fa-folder-open"/>`android/src/main/`<FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`, and adding this code below the existing `<intent-filter>`, above the closing `</activity>` tag:
+Complete configuring Android by going to the `AndroidManifest` file under <VPIcon icon="fas fa-folder-open"/>`android/src/main/`<VPIcon icon="fa-brands fa-android"/>`AndroidManifest.xml`, and adding this code below the existing `<intent-filter>`, above the closing `</activity>` tag:
 
 ```xml
 <intent-filter>
@@ -373,8 +373,8 @@ To set up email auth, in the Supabase dashboard, go to authentication > provider
 
 To enable GitHub as an authentication provider, scroll down the list of providers until you get to GitHub. Open the dropdown, enable it, and copy the callback URL. Then follow these steps:
 
-1. Create a new OAuth App [here (<FontIcon icon="iconfont icon-github"/>`settings/developers`)](https://github.com/settings/developers), fill in the required information, and add the copied URL under the authorization URL field.
-2. Add the homepage URL as "[<FontIcon icon="fas fa-globe"/>http://localhost:3000/](http://localhost:3000/)".
+1. Create a new OAuth App [here (<VPIcon icon="iconfont icon-github"/>`settings/developers`)](https://github.com/settings/developers), fill in the required information, and add the copied URL under the authorization URL field.
+2. Add the homepage URL as "[<VPIcon icon="fas fa-globe"/>http://localhost:3000/](http://localhost:3000/)".
 3. Copy the clientID from GitHub and add it to the Supabase GitHub provider settings.
 4. Generate a new secret and paste it into the client secret field in the Supabase GitHub provider settings.
 
@@ -384,7 +384,7 @@ Save it, and you are done with setting up GitHub as a provider.
 
 Go back to the Supabase dashboard and enable the Google provider. Copy the callback URL, then follow these steps:
 
-1. Create a new [<FontIcon icon="iconfont icon-gcp"/>Google cloud project](https://cloud.google.com/).
+1. Create a new [<VPIcon icon="iconfont icon-gcp"/>Google cloud project](https://cloud.google.com/).
 2. Go to Credentials, click on the create credentials button, and then choose OAuth client ID.
 3. Go on and configure the consent screen to external users.
 4. Go back to credentials, click create credentials, and choose web application in the application type field.
@@ -463,7 +463,7 @@ To add native sign in with Google support across Android, Web, and iOS, you'll n
 
 Go back to your Google cloud project and create a new credential. Choose OAuth client ID. Click on Android from the application type dropdown.
 
-Next, add the package name. You can find this in the <FontIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` file under android > src > main > AndroidManifest.xml or in the <FontIcon icon="iconfont icon-gradle"/>`build.gradle` file as applicationID under android > src > build.gradle.
+Next, add the package name. You can find this in the <VPIcon icon="fa-brands fa-android"/>`AndroidManifest.xml` file under android > src > main > AndroidManifest.xml or in the <VPIcon icon="iconfont icon-gradle"/>`build.gradle` file as applicationID under android > src > build.gradle.
 
 To generate the SHA1 certificate fingerprint, paste the following code into a terminal window.
 
@@ -559,7 +559,7 @@ To this:
 
 ### Localization and Translation Ready
 
-Supabase auth UI is [translation ready (<FontIcon icon="iconfont icon-github"/>`supabase-community/flutter-auth-ui`)](https://github.com/supabase-community/flutter-auth-ui/pull/76), and you can change the labels to any language you wish.
+Supabase auth UI is [translation ready (<VPIcon icon="iconfont icon-github"/>`supabase-community/flutter-auth-ui`)](https://github.com/supabase-community/flutter-auth-ui/pull/76), and you can change the labels to any language you wish.
 
 Replace the code in `auth_screen` with the following:
 
@@ -632,7 +632,7 @@ Type a wrong email and press sign in button to trigger the error messages. Your 
 
 Supabase auth UI is a package that makes it exceptionally easy to get started with adding authentication flows in your flutter apps. It provides customizable, translation -ready widgets out of the box.
 
-It is open-source and always looking for more contributions. Remember to leave a star on the [repository (<FontIcon icon="iconfont icon-github"/>`supabase-community/flutter-auth-ui`)](https://github.com/supabase-community/flutter-auth-ui).
+It is open-source and always looking for more contributions. Remember to leave a star on the [repository (<VPIcon icon="iconfont icon-github"/>`supabase-community/flutter-auth-ui`)](https://github.com/supabase-community/flutter-auth-ui).
 
 ---
 
@@ -640,8 +640,8 @@ It is open-source and always looking for more contributions. Remember to leave a
 
 Here are some links that might be useful:
 
-- [<FontIcon icon="fas fa-globe"/>Supabase docs on native deep linking](https://supabase.com/docs/guides/auth/native-mobile-deep-linking?platform=flutter&queryGroups=platform&queryGroups=os&os=android#setting-up-deep-linking)
-- [<FontIcon icon="fas fa-globe"/>Supabase Flutter auth UI docs](https://supabase.com/docs/guides/auth/auth-helpers/flutter-auth-ui)
+- [<VPIcon icon="fas fa-globe"/>Supabase docs on native deep linking](https://supabase.com/docs/guides/auth/native-mobile-deep-linking?platform=flutter&queryGroups=platform&queryGroups=os&os=android#setting-up-deep-linking)
+- [<VPIcon icon="fas fa-globe"/>Supabase Flutter auth UI docs](https://supabase.com/docs/guides/auth/auth-helpers/flutter-auth-ui)
 
 <VidStack src="youtube/utMg6fVmX0U " />
 

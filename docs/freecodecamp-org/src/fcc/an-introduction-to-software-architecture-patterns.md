@@ -78,7 +78,7 @@ For each topic I'll give a brief and theoretical introduction. Then I'll share s
 
 ## What is software architecture?
 
-According to [<FontIcon icon="fas fa-globe"/>this source](https://sei.cmu.edu/our-work/software-architecture/):
+According to [<VPIcon icon="fas fa-globe"/>this source](https://sei.cmu.edu/our-work/software-architecture/):
 
 > The software architecture of a system represents the design decisions related to overall system structure and behavior.
 
@@ -196,7 +196,7 @@ Following our example, before we only had a single server responsible for all fe
 
 The client-side apps will communicate with the authentication server when a user wants to login, with the payments server when the user wants to pay, and with the streaming server when the user wants to watch something.
 
-All **this communication happens through APIs** just like with a regular monolithic server (or through other communication systems like [<FontIcon icon="iconfont icon-apachekafka"/>Kafka](https://kafka.apache.org/) or [<FontIcon icon="iconfont icon-rabbitmq"/>RabbitMQ](https://rabbitmq.com/)). The only difference is that now we have different servers responsible for different actions instead of a single one that does it all.
+All **this communication happens through APIs** just like with a regular monolithic server (or through other communication systems like [<VPIcon icon="iconfont icon-apachekafka"/>Kafka](https://kafka.apache.org/) or [<VPIcon icon="iconfont icon-rabbitmq"/>RabbitMQ](https://rabbitmq.com/)). The only difference is that now we have different servers responsible for different actions instead of a single one that does it all.
 
 This sounds a bit more complex, and it is, but microservices offer us the following benefits:
 
@@ -206,7 +206,7 @@ This sounds a bit more complex, and it is, but microservices offer us the follow
 
 Microservices is an architecture that is more complex to set up and manage, which is why it makes sense only for very big projects. Most projects will start out as monoliths and migrate to microservices only when needed for performance reasons.
 
-If you'd like to know more about microservices, [<FontIcon icon="fa-brands fa-youtube"/>here's a very nice explanation](https://youtu.be/CdBtNQZH8a4).
+If you'd like to know more about microservices, [<VPIcon icon="fa-brands fa-youtube"/>here's a very nice explanation](https://youtu.be/CdBtNQZH8a4).
 
 <VidStack src="youtube/CdBtNQZH8a4" />
 
@@ -234,7 +234,7 @@ Before we mentioned that **vertically scaling** means adding more resources (RAM
 
 Instead of having a single server responsible for streaming we'll now have three. Then the requests performed by the clients will be balanced between those three servers so that all handle an acceptable load.
 
-This distribution of requests is normally performed by a thing called a **load balancer**. Load balancers act as [<FontIcon icon="fas fa-globe"/>reverse proxys](https://strongdm.com/blog/difference-between-proxy-and-reverse-proxy#:~:text=A%20traditional%20forward%20proxy%20server,on%20behalf%20of%20multiple%20servers.) to our servers, intercepting client requests before they get to the server and redirecting that request to the corresponding server.
+This distribution of requests is normally performed by a thing called a **load balancer**. Load balancers act as [<VPIcon icon="fas fa-globe"/>reverse proxys](https://strongdm.com/blog/difference-between-proxy-and-reverse-proxy#:~:text=A%20traditional%20forward%20proxy%20server,on%20behalf%20of%20multiple%20servers.) to our servers, intercepting client requests before they get to the server and redirecting that request to the corresponding server.
 
 While a typical client-server connection might look like this:
 
@@ -255,11 +255,11 @@ So after implementing a load balancer, horizontal scaling and DB replication, ou
 
 ![Our horizontally scaled architecture](https://freecodecamp.org/news/content/images/2022/07/Untitled-Diagram.drawio--3--2.png)
 
-Here's [<FontIcon icon="fa-brands fa-youtube"/>an awesome video explanation of load balancers](https://youtu.be/sCR3SAVdyCc) if you're interested in knowing more.
+Here's [<VPIcon icon="fa-brands fa-youtube"/>an awesome video explanation of load balancers](https://youtu.be/sCR3SAVdyCc) if you're interested in knowing more.
 
 <VidStack src="youtube/sCR3SAVdyCc" />
 
-Side comment: when we talk about microservices, load balancers, and scaling we're likely always talking about back-end apps. For front-end apps, they're mostly always developed as monoliths, though there's also a weird interesting thing called [<FontIcon icon="fa-brands fa-youtube"/>micro-frontends](https://youtu.be/w58aZjACETQ) as well.🧐
+Side comment: when we talk about microservices, load balancers, and scaling we're likely always talking about back-end apps. For front-end apps, they're mostly always developed as monoliths, though there's also a weird interesting thing called [<VPIcon icon="fa-brands fa-youtube"/>micro-frontends](https://youtu.be/w58aZjACETQ) as well.🧐
 
 <VidStack src="youtube/w58aZjACETQ" />
 
@@ -295,7 +295,7 @@ What's great about this option is that you don't need to worry about anything ha
 
 Another cool thing is that scaling up or down is easy and risk free. If you need more hardware, you pay for it. And if you don't need it anymore, you just stop paying.
 
-An example of a well known server provider is [<FontIcon icon="fas fa-globe"/>hostinger](https://hostinger.com).
+An example of a well known server provider is [<VPIcon icon="fas fa-globe"/>hostinger](https://hostinger.com).
 
 ### Hosting on the Cloud
 
@@ -333,7 +333,7 @@ What's very nice about serverless architecture is that you forget all about serv
 
 As a costumer, you pay only for the amount of times the function gets executed and the amount of processing time each execution lasts.
 
-If you'd like to learn more, here's an [<FontIcon icon="fa-brands fa-youtube"/>explanation of the serverless pattern.](https://youtu.be/vxJobGtqKVM)
+If you'd like to learn more, here's an [<VPIcon icon="fa-brands fa-youtube"/>explanation of the serverless pattern.](https://youtu.be/vxJobGtqKVM)
 
 <VidStack src="youtube/vxJobGtqKVM" />
 
@@ -343,11 +343,11 @@ You can probably see how elastic and serverless services offer a very simple and
 
 And besides server-related services, cloud providers offer tons of other solutions such as relational and non-relational databases, file storage services, caching services, authentication services, machine learning and data processing services, monitoring and performance analysis, and more. With everything hosted in the cloud.
 
-Through tools like [Terraform](https://terraform.io/) or AWS [<FontIcon icon="fa-brands fa-aws"/>Cloud formation](https://aws.amazon.com/es/cloudformation/) we can even set up our infrastructure as code. Meaning we can write a script that sets up a server, database, and whatever else we might need on the cloud just in a matter of minutes.
+Through tools like [Terraform](https://terraform.io/) or AWS [<VPIcon icon="fa-brands fa-aws"/>Cloud formation](https://aws.amazon.com/es/cloudformation/) we can even set up our infrastructure as code. Meaning we can write a script that sets up a server, database, and whatever else we might need on the cloud just in a matter of minutes.
 
 This is mind-blowing from an engineering point of view, and really convenient for us as developers. Cloud computing nowadays offers a very complete set of solutions that can easily adapt from tiny small projects to the biggest digital products on earth. This is why more and more software projects nowadays choose to host their infrastructure in the cloud.
 
-As previously mentioned, the most used and well known cloud providers are [<FontIcon icon="fa-brands fa-aws"/>AWS](https://aws.amazon.com/), [<FontIcon icon="iconfont icon-gcp"/>Google Cloud](https://cloud.google.com/) and [Azure](https://azure.microsoft.com/). Though there are other options too like [<FontIcon icon="iconfont icon-ibm"/>IBM](https://ibm.com/cloud), [DigitalOcean](https://digitalocean.com/), and [Oracle](https://oracle.com/cloud/).
+As previously mentioned, the most used and well known cloud providers are [<VPIcon icon="fa-brands fa-aws"/>AWS](https://aws.amazon.com/), [<VPIcon icon="iconfont icon-gcp"/>Google Cloud](https://cloud.google.com/) and [Azure](https://azure.microsoft.com/). Though there are other options too like [<VPIcon icon="iconfont icon-ibm"/>IBM](https://ibm.com/cloud), [DigitalOcean](https://digitalocean.com/), and [Oracle](https://oracle.com/cloud/).
 
 Most of these providers offer the same kind of services, though they might have different names. For example, serverless functions are called "lambdas" on AWS and "cloud functions" on Google cloud.
 
@@ -361,7 +361,7 @@ Ok, so far we've seen how architecture can refer to infrastructure organization 
 
 To illustrate why folder structures are important, let's build a dummy example API. We'll have a mock database of rabbits 🐰🐰 and the API will perform [CRUD](/freecodecamp.org/crud-operations-explained.md) actions on it. We'll build this with Node and Express.
 
-Here's our first approach, with no folder structure at all. Our repo will be composed of the `node modules` folder, and the <FontIcon icon="fa-brands fa-js"/>`app.js`, <FontIcon icon="iconfont icon-json"/>`package-lock.json` and <FontIcon icon="iconfont icon-json"/>`package.json` files.
+Here's our first approach, with no folder structure at all. Our repo will be composed of the `node modules` folder, and the <VPIcon icon="fa-brands fa-js"/>`app.js`, <VPIcon icon="iconfont icon-json"/>`package-lock.json` and <VPIcon icon="iconfont icon-json"/>`package.json` files.
 
 ![](https://freecodecamp.org/news/content/images/2022/07/image-227.png)
 
@@ -468,7 +468,7 @@ Let's see some code now. Using the layers architecture, our folder structure mig
 
 - We have a new folder called `db` that will hold our database file.
 - And another folder called `rabbits` that will hold the routes, controllers and models related to that entity.
-- <FontIcon icon="fa-brands fa-js"/>`App.js` sets up our server and connects to the routes.
+- <VPIcon icon="fa-brands fa-js"/>`App.js` sets up our server and connects to the routes.
 
 ```js title="App.js"
 const express = require('express');
@@ -484,7 +484,7 @@ app.use('/rabbits', rabbitRoutes)
 app.listen(port, () => console.log(`⚡️[server]: Server is running at http://localhost:${port}`))
 ```
 
-- <FontIcon icon="fa-brands fa-js"/>`rabbits.routes.js` holds each of the endpoints related to this entity and links them to the corresponding controller (the function we want to execute when the request hits that endpoint).
+- <VPIcon icon="fa-brands fa-js"/>`rabbits.routes.js` holds each of the endpoints related to this entity and links them to the corresponding controller (the function we want to execute when the request hits that endpoint).
 
 ```js title="rabbits.routes.js"
 const express = require('express')
@@ -674,10 +674,10 @@ As we're going to see in a sec, we'll create EJS files for each kind of page we'
 
 ![Our folder structure will look like this](https://freecodecamp.org/news/content/images/2022/07/image-230.png)
 
-- See that we got rid of most of some of the folders we had before and kept the <FontIcon icon="fas fa-folder-open"/>`db`, <FontIcon icon="fas fa-folder-open"/>`controllers` and <FontIcon icon="fas fa-folder-open"/>`models` folders.
-- We added a <FontIcon icon="fas fa-folder-open"/>`views` folders that corresponds with each of the pages/responses we'd like to render.
-- <FontIcon icon="fa-brands fa-js"/>`db.js` and <FontIcon icon="fa-brands fa-js"/>`models.js` files stay exactly the same.
-- Our <FontIcon icon="fa-brands fa-js"/>`app.js` would look like this:
+- See that we got rid of most of some of the folders we had before and kept the <VPIcon icon="fas fa-folder-open"/>`db`, <VPIcon icon="fas fa-folder-open"/>`controllers` and <VPIcon icon="fas fa-folder-open"/>`models` folders.
+- We added a <VPIcon icon="fas fa-folder-open"/>`views` folders that corresponds with each of the pages/responses we'd like to render.
+- <VPIcon icon="fa-brands fa-js"/>`db.js` and <VPIcon icon="fa-brands fa-js"/>`models.js` files stay exactly the same.
+- Our <VPIcon icon="fa-brands fa-js"/>`app.js` would look like this:
 
 ```js title="App.js"
 const express = require("express");
@@ -825,9 +825,9 @@ Here, we've introduced infrastructure patterns and systems, hosting options and 
 
 We've learned about vertical and horizontal scaling, monolithic applications and microservices, elastic and serverless cloud computing...lots of things. But this is only the tip of the iceberg! So keep learning and doing research on your own. 💪💪
 
-As always, I hope you enjoyed the handbook and learned something new. If you want, you can also follow me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<FontIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://twitter.com/CoccaGerman).
+As always, I hope you enjoyed the handbook and learned something new. If you want, you can also follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<VPIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://twitter.com/CoccaGerman).
 
-And [<FontIcon icon="fa-brands fa-youtube"/>here's a little goodbye song](https://youtu.be/PDilu87kQCk) for you, cause... why not? 🤷‍♂️
+And [<VPIcon icon="fa-brands fa-youtube"/>here's a little goodbye song](https://youtu.be/PDilu87kQCk) for you, cause... why not? 🤷‍♂️
 
 <VidStack src="youtube/PDilu87kQCk" />
 

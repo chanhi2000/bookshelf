@@ -106,7 +106,7 @@ Let's explain each step in a little more detail:
 
 ### Code Integration
 
-The first step in the CI/CD pipeline is code integration. In this step, developers commit their code changes to a remote repository (like [<FontIcon icon="iconfont icon-github"/>GitHub](https://github.com/), [<FontIcon icon="fa-brands fa-gitlab"/>GitLab](https://about.gitlab.com/) or [<FontIcon icon="fa-brands fa-bitbucket"/>BitBucket](https://bitbucket.org/product/)), where the code is integrated with the main codebase.
+The first step in the CI/CD pipeline is code integration. In this step, developers commit their code changes to a remote repository (like [<VPIcon icon="iconfont icon-github"/>GitHub](https://github.com/), [<VPIcon icon="fa-brands fa-gitlab"/>GitLab](https://about.gitlab.com/) or [<VPIcon icon="fa-brands fa-bitbucket"/>BitBucket](https://bitbucket.org/product/)), where the code is integrated with the main codebase.
 
 This step aims to ensure that the code changes are compatible with the rest of the codebase and do not break the build.
 
@@ -158,7 +158,7 @@ There are several tools available for implementing CI/CD pipelines in software d
 
 ### Jenkins
 
-[<FontIcon icon="fa-brands fa-jenkins"/>Jenkins](https://jenkins.io/) is an open-source automation server that is widely used in CI/CD pipelines. It is highly customizable and supports a wide range of plugins, making it suitable for various development environments. Some of its key features include:
+[<VPIcon icon="fa-brands fa-jenkins"/>Jenkins](https://jenkins.io/) is an open-source automation server that is widely used in CI/CD pipelines. It is highly customizable and supports a wide range of plugins, making it suitable for various development environments. Some of its key features include:
 
 ::: tabs
 
@@ -180,7 +180,7 @@ If you want to learn more about Jenkins, [here's a full course for you](/freecod
 
 ### Travis CI
 
-[<FontIcon icon="iconfont icon-travis-ci"/>Travis CI](https://travis-ci.com/) is a cloud-based CI/CD platform that provides automated testing and deployment for software projects. It supports several programming languages and frameworks, making it suitable for various development environments. Some of its key features include:
+[<VPIcon icon="iconfont icon-travis-ci"/>Travis CI](https://travis-ci.com/) is a cloud-based CI/CD platform that provides automated testing and deployment for software projects. It supports several programming languages and frameworks, making it suitable for various development environments. Some of its key features include:
 
 ::: tabs
 
@@ -203,7 +203,7 @@ Here's a helpful tutorial about [how to automate deployment on GitHub Pages with
 
 ### GitHub actions
 
-[<FontIcon icon="iconfont icon-github"/>GitHub Actions](https://github.com/features/actions) is a powerful CI/CD tool that allows developers to automate workflows, run tests, and deploy code directly from their GitHub repositories.
+[<VPIcon icon="iconfont icon-github"/>GitHub Actions](https://github.com/features/actions) is a powerful CI/CD tool that allows developers to automate workflows, run tests, and deploy code directly from their GitHub repositories.
 
 ::: tabs
 
@@ -246,7 +246,7 @@ Here's a tutorial about [how to deploy a front-end app with Netlify](/freecodeca
 
 ## How to Set Up a CI/CD Pipeline with GitHub Actions
 
-Cool, so now that we have a clear idea of what CI/CD is, let's see how we can implement a simple example with an actual project using [<FontIcon icon="iconfont icon-github"/>GitHub actions](https://github.com/features/actions).
+Cool, so now that we have a clear idea of what CI/CD is, let's see how we can implement a simple example with an actual project using [<VPIcon icon="iconfont icon-github"/>GitHub actions](https://github.com/features/actions).
 
 ---
 
@@ -312,9 +312,9 @@ GitHub Actions workflows can be run on a schedule, manually, or automatically wh
 
 Great, so as we've seen, basically GitHub actions are a feature that allows us to define workflows four our projects. These workflows are nothing but a series of tasks or steps that will execute on GitHub's cloud after a given event we declare.
 
-The way GitHub reads and executes these workflows is by automatically reading files within the <FontIcon icon="fas fa-folder-open"/>`.github/workflows` directory in the root of our project. These workflow files should have the `.yaml` extension and use the [<FontIcon icon="fa-brands fa-redhat"/>YAML](https://redhat.com/en/topics/automation/what-is-yaml) syntax.
+The way GitHub reads and executes these workflows is by automatically reading files within the <VPIcon icon="fas fa-folder-open"/>`.github/workflows` directory in the root of our project. These workflow files should have the `.yaml` extension and use the [<VPIcon icon="fa-brands fa-redhat"/>YAML](https://redhat.com/en/topics/automation/what-is-yaml) syntax.
 
-To create a new workflow we just have to create a new YAML file within that directory. We'll call ours <FontIcon icon="iconfont icon-yaml"/>`prod.yaml` since we'll use it to deploy the production branch of our project.
+To create a new workflow we just have to create a new YAML file within that directory. We'll call ours <VPIcon icon="iconfont icon-yaml"/>`prod.yaml` since we'll use it to deploy the production branch of our project.
 
 Keep in mind a single project can have many different workflows that run different tasks on different occasions. For example, we could have a workflow for dev and staging branches as well, as those environments could require different tasks to execute and will probably deploy on different sites.
 
@@ -396,7 +396,7 @@ Once you have these two tokens, you need to declare them as repository secrets i
 
 ![Configure both Netlify secret tokens in your repo](https://freecodecamp.org/news/content/images/2023/04/image-32.png)
 
-With this in place, now our <FontIcon icon="iconfont icon-yaml"/>`prod.yaml` file will be able to read these two tokens and execute the Netlify deploy action.
+With this in place, now our <VPIcon icon="iconfont icon-yaml"/>`prod.yaml` file will be able to read these two tokens and execute the Netlify deploy action.
 
 ---
 
@@ -434,7 +434,7 @@ With the availability of several CI/CD tools, it has become easier for teams to 
 
 Well everyone, as always, I hope you enjoyed the article and learned something new.
 
-If you want, you can also follow me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`germancocca`))](https://linkedin.com/in/germancocca/) or [X (<FontIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman). See you in the next one!
+If you want, you can also follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`germancocca`))](https://linkedin.com/in/germancocca/) or [X (<VPIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman). See you in the next one!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

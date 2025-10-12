@@ -54,9 +54,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721941268910/0997661
 
 Unity is a very popular and powerful game engine that relies on C# as its primary scripting language. Learn how to bring your games to life with Unity and C#.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org Spanish YouTube channel](https://youtube.com/@freecodecampespanol) that will guide you step by step through the fundamentals of C# for Unity. You will learn the core concepts that you need to know to start developing games in Unity with C#.
+We just published a course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org Spanish YouTube channel](https://youtube.com/@freecodecampespanol) that will guide you step by step through the fundamentals of C# for Unity. You will learn the core concepts that you need to know to start developing games in Unity with C#.
 
-If you have Spanish-speaking friends, you are welcome to share the [<FontIcon icon="fa-brands fa-free-code-camp"/>Spanish version of this article](https://freecodecamp.org/espanol/news/aprende-c-sharp-para-unity-curso-desde-cero/) with them.
+If you have Spanish-speaking friends, you are welcome to share the [<VPIcon icon="fa-brands fa-free-code-camp"/>Spanish version of this article](https://freecodecamp.org/espanol/news/aprende-c-sharp-para-unity-curso-desde-cero/) with them.
 
 Luis Canary created this course. He is the Principal Gameplay Programmer at Pendulo Studios, a Madrid-based video game development company. He has taught courses at universities, schools, and companies and loves to share his passion for game development on his YouTube channel.
 
@@ -119,7 +119,7 @@ Awesome. Now that you know more about C# and Unity, let's see what you will lear
 
 By the end of the course, you will know the fundamentals of C# for Unity and you will be ready to start developing games in this programming language.
 
-If you are ready to start learning C# for Unity, check out the course on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org Spanish YouTube channel](https://youtu.be/Wa5Wcb2AW28):
+If you are ready to start learning C# for Unity, check out the course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org Spanish YouTube channel](https://youtu.be/Wa5Wcb2AW28):
 
 <VidStack src="youtube/Wa5Wcb2AW28" />
 

@@ -77,7 +77,7 @@ You’ll start by creating your first React project with Vite in just minutes. F
 
 One of the standout segments of this course is the deep dive into what makes Vite fast. You'll learn about the technical innovations behind Vite’s performance, such as native ES modules, optimized dependency pre-bundling, and intelligent caching. You’ll also see how Vite compares to traditional tools like Webpack in terms of both speed and developer experience.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/do62-z3z6FM) (1-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/do62-z3z6FM) (1-hour watch).
 
 <VidStack src="youtube/do62-z3z6FM" />
 

@@ -161,7 +161,7 @@ I've developed several variations to keep the process engaging:
 
 ## The Mathematics of Team Improvement
 
-Here's something rarely discussed in Agile circles but frequently mentioned in finance: [<FontIcon icon="fa-brands fa-wikipedia-w"/>the power of compounding](https://en.wikipedia.org/wiki/Compound_interest). Just as compound interest transforms modest savings into significant wealth, small team improvements compound over time.
+Here's something rarely discussed in Agile circles but frequently mentioned in finance: [<VPIcon icon="fa-brands fa-wikipedia-w"/>the power of compounding](https://en.wikipedia.org/wiki/Compound_interest). Just as compound interest transforms modest savings into significant wealth, small team improvements compound over time.
 
 Consider this: A team implementing just one meaningful improvement per sprint will see huge results after a year. If each improvement increases efficiency by just 2%, the compounding effect after 26 two-week sprints is remarkable.
 
@@ -194,7 +194,7 @@ Having implemented this across multiple organizations, from startups to establis
 
 The best retrospectives I've facilitated didn't just improve processes—they transformed team cultures by establishing continuous improvement as a fundamental value.
 
-For more content, follow me on my personal Blog, [<FontIcon icon="fas fa-globe"/>Just Another Tech Lead](https://justanothertechlead.com) or on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`jatechlead`)](https://x.com/jatechlead).
+For more content, follow me on my personal Blog, [<VPIcon icon="fas fa-globe"/>Just Another Tech Lead](https://justanothertechlead.com) or on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`jatechlead`)](https://x.com/jatechlead).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

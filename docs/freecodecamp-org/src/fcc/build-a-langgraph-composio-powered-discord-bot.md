@@ -97,7 +97,7 @@ This project is designed to demonstrate how you can build a bot powered by LangG
 
 :::
 
-If you’re not confident about any of these, try following along anyway. You might pick things up just fine. And if it ever gets confusing, you can always check out the full source code [here (<FontIcon icon="iconfont icon-github"/>`shricodev/discord-bot-langgraph-composio`)](https://github.com/shricodev/discord-bot-langgraph-composio).
+If you’re not confident about any of these, try following along anyway. You might pick things up just fine. And if it ever gets confusing, you can always check out the full source code [here (<VPIcon icon="iconfont icon-github"/>`shricodev/discord-bot-langgraph-composio`)](https://github.com/shricodev/discord-bot-langgraph-composio).
 
 ---
 
@@ -126,11 +126,11 @@ Now, that our Node.js application is ready, let's install some dependencies.
 
 We'll be using the following main packages and some other helper packages:
 
-- [<FontIcon icon="fas fa-globe"/>discord.js](https://discord.js.org): Interacts with the Discord API
-- [<FontIcon icon="fas fa-globe"/>composio](https://composio.dev): Adds tools integration support to the bot
-- [<FontIcon icon="fas fa-globe"/>openai](https://platform.openai.com): Enables AI-powered responses
-- [<FontIcon icon="fas fa-globe"/>langchain](https://langchain.com): Manages LLM workflows
-- [<FontIcon icon="fas fa-globe"/>zod](https://zod.dev): Validates and parses data safely
+- [<VPIcon icon="fas fa-globe"/>discord.js](https://discord.js.org): Interacts with the Discord API
+- [<VPIcon icon="fas fa-globe"/>composio](https://composio.dev): Adds tools integration support to the bot
+- [<VPIcon icon="fas fa-globe"/>openai](https://platform.openai.com): Enables AI-powered responses
+- [<VPIcon icon="fas fa-globe"/>langchain](https://langchain.com): Manages LLM workflows
+- [<VPIcon icon="fas fa-globe"/>zod](https://zod.dev): Validates and parses data safely
 
 ```sh
 bun add discord.js openai @langchain/core @langchain/langgraph \
@@ -143,7 +143,7 @@ langchain composio-core dotenv zod uuid
 
 First, before moving forward, you need to get access to a Composio API key.
 
-Go ahead and create an account on Composio, get your API key, and paste it in the <FontIcon icon="fas fa-file-lines"/>`.env` file in the root of the project:
+Go ahead and create an account on Composio, get your API key, and paste it in the <VPIcon icon="fas fa-file-lines"/>`.env` file in the root of the project:
 
 ![Composio dashboard](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lkr1pys0txedp9vam4tt.png)
 
@@ -187,7 +187,7 @@ Once finished, run the `composio integrations` command to verify if it worked. Y
 
 This is a bit off topic for this tutorial, but basically, you’ll create an application/bot on Discord and add it to your server.
 
-You can find a guide on how to create and add a bot to your server in the [<FontIcon icon="fas fa-globe"/>Discord.js](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links) documentation.
+You can find a guide on how to create and add a bot to your server in the [<VPIcon icon="fas fa-globe"/>Discord.js](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links) documentation.
 
 And yes, it’s free if you’re wondering whether any step here requires a pro account or anything. 😉
 
@@ -203,7 +203,7 @@ DISCORD_BOT_CHANNEL_ID=<YOUR_DISCORD_BOT_CHANNEL_ID>
 
 You’ll require a few other environment variables, including the OpenAI API key, for the bot to work.
 
-Your final <FontIcon icon="fas fa-file-lines"/>`.env` file should look something like this:
+Your final <VPIcon icon="fas fa-file-lines"/>`.env` file should look something like this:
 
 ```sh title=".env"
 OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
@@ -227,7 +227,7 @@ Let’s start by writing some helper functions and defining the types of data yo
 
 It's important in any application, especially ones like the one we're building - which is prone to errors due to multiple API calls - that we set up decent logging so we know when and how things go wrong.
 
-Create a new file named <FontIcon icon="iconfont icon-typescript"/>`logger.ts` inside the <FontIcon icon="fas fa-folder-open"/>`utils` directory and add the following lines of code:
+Create a new file named <VPIcon icon="iconfont icon-typescript"/>`logger.ts` inside the <VPIcon icon="fas fa-folder-open"/>`utils` directory and add the following lines of code:
 
 ```ts title="utils/logger.ts"
 export const DEBUG = "DEBUG";
@@ -257,7 +257,7 @@ export function log(level: LogLevel, message: string, ...data: any[]) {
 
 This is already looking great. Why not write a small environment variables validator? Run this during the initial program startup, and if something goes wrong, the application will exit with clear logs so users know if any environment variables are missing.
 
-Create a new file named <FontIcon icon="iconfont icon-typescript"/>`env-validator.ts` in the <FontIcon icon="fas fa-folder-open"/>`utils` directory and add the following lines of code:
+Create a new file named <VPIcon icon="iconfont icon-typescript"/>`env-validator.ts` in the <VPIcon icon="fas fa-folder-open"/>`utils` directory and add the following lines of code:
 
 ```ts :collapsed-lines title="utils/env-validator.ts"
 import { log, ERROR } from "./logger.js";
@@ -292,7 +292,7 @@ export const validateEnvVars = (requiredEnvVars: string[]): void => {
 
 Now, let's also define the type of data you'll be working with:
 
-Create a new file named <FontIcon icon="iconfont icon-typescript"/>`types.ts` inside the <FontIcon icon="fas fa-folder-open"/>`types` directory and add the following lines of code:
+Create a new file named <VPIcon icon="iconfont icon-typescript"/>`types.ts` inside the <VPIcon icon="fas fa-folder-open"/>`types` directory and add the following lines of code:
 
 ```ts :collapsed-lines title="types/types.ts"
 export const QUESTION = "QUESTION";
@@ -351,7 +351,7 @@ The graph returns a `FinalAction`, which can be a direct reply, a reply in a thr
 
 For tool-based responses, `ToolCallRequestAction` stores the status and an internal log used for debugging.
 
-Now, you need one last helper function to use in your nodes to extract the response from the LLM. Create a new file named <FontIcon icon="iconfont icon-typescript"/>`helpers.ts` and add the following code:
+Now, you need one last helper function to use in your nodes to extract the response from the LLM. Create a new file named <VPIcon icon="iconfont icon-typescript"/>`helpers.ts` and add the following code:
 
 ```ts title="utils/helpers.ts"
 import type { AIMessage } from "@langchain/core/messages";
@@ -381,7 +381,7 @@ You're all set for now with these helper functions in place. Now, you can start 
 
 Now that you have the types defined, structure your graph and connect it with some edges.
 
-Create a new file named <FontIcon icon="iconfont icon-typescript"/>`graph.ts` inside the <FontIcon icon="fas fa-folder-open"/>`src` directory and add the following lines of code:
+Create a new file named <VPIcon icon="iconfont icon-typescript"/>`graph.ts` inside the <VPIcon icon="fas fa-folder-open"/>`src` directory and add the following lines of code:
 
 ```ts :collapsed-lines title="src/graph.ts"
 import { Annotation, END, START, StateGraph } from "@langchain/langgraph";
@@ -463,7 +463,7 @@ To help you visualize how things will shape up, here’s how the graph looks wit
 
 To wire everything together, you need to define edges between nodes, including conditional edges that dynamically decide the next step based on the state.
 
-Create a new file named <FontIcon icon="iconfont icon-typescript"/>`edges.ts` inside the <FontIcon icon="fas fa-folder-open"/>`src` directory and add the following lines of code:
+Create a new file named <VPIcon icon="iconfont icon-typescript"/>`edges.ts` inside the <VPIcon icon="fas fa-folder-open"/>`src` directory and add the following lines of code:
 
 ```ts :collapsed-lines title="src/edges.ts"
 import { END } from "@langchain/langgraph";
@@ -510,7 +510,7 @@ These are the edges that connect different nodes in your application. They direc
 
 Things are really shaping up - so let’s finish the core logic by implementing all the nodes for your application.
 
-Create a new file named <FontIcon icon="iconfont icon-typescript"/>`nodes.ts` inside the <FontIcon icon="fas fa-folder-open"/>`src` directory and add the following lines of code:
+Create a new file named <VPIcon icon="iconfont icon-typescript"/>`nodes.ts` inside the <VPIcon icon="fas fa-folder-open"/>`src` directory and add the following lines of code:
 
 ```ts :collapsed-lines title="src/nodes.ts"
 import { type State, type Update } from "./graph.js";
@@ -699,7 +699,7 @@ The `process-tool-call` node that’s supposed to handle the workflow when the u
 
 It’s a bit longer, so I’ll explain it separately.
 
-Modify the above <FontIcon icon="iconfont icon-typescript"/>`nodes.ts` file to add the missing node:
+Modify the above <VPIcon icon="iconfont icon-typescript"/>`nodes.ts` file to add the missing node:
 
 ```ts :collapsed-lines title="src/nodes.ts"
 
@@ -971,7 +971,7 @@ Now with that, you’re done with the difficult part (I mean, it was pretty easy
 
 In this application, you’re using slash commands. To use slash commands in Discord, you need to register them first. You can do this manually, but why not automate it as well? 😉
 
-Create a new file named <FontIcon icon="iconfont icon-typescript"/>`slash-deploy.ts` inside the <FontIcon icon="fas fa-folder-open"/>`utils` directory and add the following lines of code:
+Create a new file named <VPIcon icon="iconfont icon-typescript"/>`slash-deploy.ts` inside the <VPIcon icon="fas fa-folder-open"/>`utils` directory and add the following lines of code:
 
 ```ts :collapsed-lines title="utils/slash-deploy.ts"
 import { REST, Routes } from "discord.js";
@@ -1038,15 +1038,15 @@ See your `validateEnvVars` function in action? Here, you’re specifying the env
 
 ![Command failed output for deploying slash command to Discord](https://cdn.hashnode.com/res/hashnode/image/upload/v1750340614800/ce0b37bc-647c-4b94-9099-2e396b0ffa93.png)
 
-The way you deploy the slash commands to Discord is using the `REST` API provided by <FontIcon icon="fa-brands fa-js"/>`discord.js`, specifically by calling `rest.put` with your command data and target guild.
+The way you deploy the slash commands to Discord is using the `REST` API provided by <VPIcon icon="fa-brands fa-js"/>`discord.js`, specifically by calling `rest.put` with your command data and target guild.
 
 Now, simply run the `commands:deploy` bun script and you should have `/ask` registered as a slash command in your Discord.
 
 ![2d5b22df-cd43-4e54-b985-b64576831316](https://cdn.hashnode.com/res/hashnode/image/upload/v1750340646555/2d5b22df-cd43-4e54-b985-b64576831316.png)
 
-At this point, you should see the `/ask` slash command available in your server. All that’s left is to create the <FontIcon icon="iconfont icon-typescript"/>`index.ts` file, which will be the entry point to your Discord bot.
+At this point, you should see the `/ask` slash command available in your server. All that’s left is to create the <VPIcon icon="iconfont icon-typescript"/>`index.ts` file, which will be the entry point to your Discord bot.
 
-Create a new file named <FontIcon icon="iconfont icon-typescript"/>`index.ts` inside the <FontIcon icon="fas fa-folder-open"/>`src` directory and add the following lines of code:
+Create a new file named <VPIcon icon="iconfont icon-typescript"/>`index.ts` inside the <VPIcon icon="fas fa-folder-open"/>`src` directory and add the following lines of code:
 
 ```ts :collapsed-lines title="src/index.ts"
 import dotenv from "dotenv";
@@ -1213,7 +1213,7 @@ const token = process.env.DISCORD_BOT_TOKEN!;
 client.login(token);
 ```
 
-At the core of our bot is the `Client` object from <FontIcon icon="fa-brands fa-js"/>`discord.js`. This represents your bot and handles everything from connecting to Discord’s API to listening for events like user messages or interactions.
+At the core of our bot is the `Client` object from <VPIcon icon="fa-brands fa-js"/>`discord.js`. This represents your bot and handles everything from connecting to Discord’s API to listening for events like user messages or interactions.
 
 What’s with that intent? Discord uses intents as a way for bots to declare what kind of data they want access to. In our case:
 
@@ -1221,7 +1221,7 @@ What’s with that intent? Discord uses intents as a way for bots to declare wha
 - `GuildMessages` allows it to see messages
 - `MessageContent` gives access to the actual content of messages
 
-These are quite standard, and there are many more based on different use cases. You can always check them all out [<FontIcon icon="fas fa-globe"/>here](https://discordjs.guide/popular-topics/intents.html#privileged-intents).
+These are quite standard, and there are many more based on different use cases. You can always check them all out [<VPIcon icon="fas fa-globe"/>here](https://discordjs.guide/popular-topics/intents.html#privileged-intents).
 
 You also keep a `Map` to store per-channel message history so the bot can respond with context across multiple channels:
 
@@ -1264,15 +1264,15 @@ By now you should have a good idea of how LangGraph works and also how to power 
 
 This is just a fraction of what you can do. Try adding more features and more integration support to the bot to fit your workflow. This can come in really handy.
 
-If you got lost somewhere while coding along, you can find the source code [here (<FontIcon icon="iconfont icon-github"/>`aeQKN0nMGRg`)](https://github.com/shricodev/discord-bot-langgraph-composio).
+If you got lost somewhere while coding along, you can find the source code [here (<VPIcon icon="iconfont icon-github"/>`aeQKN0nMGRg`)](https://github.com/shricodev/discord-bot-langgraph-composio).
 
 So, that is it for this article. Thank you so much for reading! See you next time. 🫡
 
 Love to build cool stuff like this? I regularly build such stuff every few weeks. Feel free to reach out to me here:
 
-- GitHub: [<FontIcon icon="iconfont icon-github"/>`shricodev`](http://github.com/shricodev)
-- Portfolio: [<FontIcon icon="fas fa-globe"/>techwithshrijal.com](http://techwithshrijal.com)
-- LinkedIn: [<FontIcon icon="fa-brands fa-linkedin"/>`iamshrijal`](http://linkedin.com/in/iamshrijal)
+- GitHub: [<VPIcon icon="iconfont icon-github"/>`shricodev`](http://github.com/shricodev)
+- Portfolio: [<VPIcon icon="fas fa-globe"/>techwithshrijal.com](http://techwithshrijal.com)
+- LinkedIn: [<VPIcon icon="fa-brands fa-linkedin"/>`iamshrijal`](http://linkedin.com/in/iamshrijal)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

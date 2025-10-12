@@ -70,7 +70,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719591920182/350c938
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1719591920182/350c938e-9faa-4292-9a9c-826cbcf43bc7.jpeg"/>
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will help you master Shadcn. This comprehensive course dives deep into the versatile world of Shadcn, a powerful toolset for building modern web applications with customizable and reusable components. Mathew from CodeByDesign designed this course.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will help you master Shadcn. This comprehensive course dives deep into the versatile world of Shadcn, a powerful toolset for building modern web applications with customizable and reusable components. Mathew from CodeByDesign designed this course.
 
 ---
 
@@ -92,7 +92,7 @@ Shadcn offers a flexible and efficient way to build modern web applications with
 - Maintain complete control over your component styling and behavior.
 - Ensure your application is accessible and user-friendly with components designed with accessibility in mind.
 
-Whether you are a beginner looking to get started with React UI components or an experienced developer aiming to enhance your toolkit, this course provides valuable insights and practical knowledge to help you succeed. Watch the [<FontIcon icon="fa-brands fa-youtube"/>course on the freeCodeCamp.org YouTube channel](https://youtu.be/oidnyW71W0A) (3-hour watch).
+Whether you are a beginner looking to get started with React UI components or an experienced developer aiming to enhance your toolkit, this course provides valuable insights and practical knowledge to help you succeed. Watch the [<VPIcon icon="fa-brands fa-youtube"/>course on the freeCodeCamp.org YouTube channel](https://youtu.be/oidnyW71W0A) (3-hour watch).
 
 <VidStack src="youtube/oidnyW71W0A" />
 

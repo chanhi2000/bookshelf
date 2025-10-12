@@ -57,7 +57,7 @@ This means that, however optimally you intend to make your code run, it’s also
 
 In this article, we’ll look at an example function: `createOrUpdateUserOnLogin`. It lives in a JavaScript codebase far away and it’s begging to be made delightful to read. We will look at `createOrUpdateUserOnLogin`, highlight what makes it hard to read and why, and eventually refactor it to make it easier to read and understand.
 
-The function is written in JavaScript and uses [<FontIcon icon="fas fa-globe"/>JSDoc](https://jsdoc.app/) to document its parameters. Knowledge of JavaScript is not necessarily important because the logic in the function will be explained in detail. JSDoc is only used to document what the function’s parameters represent.
+The function is written in JavaScript and uses [<VPIcon icon="fas fa-globe"/>JSDoc](https://jsdoc.app/) to document its parameters. Knowledge of JavaScript is not necessarily important because the logic in the function will be explained in detail. JSDoc is only used to document what the function’s parameters represent.
 
 ---
 
@@ -229,7 +229,7 @@ Using everyday grammar is key to making code read like a story.
 
 Code that is delightful to read promotes maintainability and thus, longevity of software. Contributors can read it, understand it, and eventually update it with ease. Like reading a well-written story, reading code can be an enjoyable activity.
 
-Image credit: [<FontIcon icon="fas fa-globe"/>Work illustrations by Storyset](https://storyset.com/work)
+Image credit: [<VPIcon icon="fas fa-globe"/>Work illustrations by Storyset](https://storyset.com/work)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

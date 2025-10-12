@@ -58,7 +58,7 @@ Both Python and JavaScript excel in various practical applications, but their st
 
 ## Writing a Simple Web Scraper
 
-### <FontIcon icon="fa-brands fa-python"/>Python: Using BeautifulSoup
+### <VPIcon icon="fa-brands fa-python"/>Python: Using BeautifulSoup
 
 Python’s libraries, such as BeautifulSoup and Requests, make web scraping straightforward and efficient.
 
@@ -83,7 +83,7 @@ for title in titles:
 
 :::
 
-### <FontIcon icon="fa-brands fa-js"/>JavaScript: Using Puppeteer
+### <VPIcon icon="fa-brands fa-js"/>JavaScript: Using Puppeteer
 
 JavaScript can also scrape web content using libraries like Puppeteer, which allows headless browsing.
 
@@ -117,7 +117,7 @@ const puppeteer = require('puppeteer');
 
 ## Creating a REST API
 
-### <FontIcon icon="iconfont icon-flask"/>Python: Flask
+### <VPIcon icon="iconfont icon-flask"/>Python: Flask
 
 Python’s Flask framework is lightweight and ideal for quickly building APIs.
 
@@ -138,7 +138,7 @@ if __name__ == '__main__':
 
 :::
 
-### <FontIcon icon="iconfont icon-expressjs"/>JavaScript: Express
+### <VPIcon icon="iconfont icon-expressjs"/>JavaScript: Express
 
 Express is a popular framework for creating REST APIs in JavaScript.
 

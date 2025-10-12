@@ -250,7 +250,7 @@ The code for a linear search function in JavaScript is shown below. This functio
 
 ::: tabs
 
-@tab <FontIcon icon="iconfont icon-cpp"/>
+@tab <VPIcon icon="iconfont icon-cpp"/>
 
 ```cpp
 int linearSearch(int arr[], int num)
@@ -265,7 +265,7 @@ int linearSearch(int arr[], int num)
 }
 ```
 
-@tab <FontIcon icon="fa-brands fa-js"/>
+@tab <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 function linearSearch(arr, item) {
@@ -281,7 +281,7 @@ function linearSearch(arr, item) {
 }
 ```
 
-@tab <FontIcon icon="iconfont icon-ruby"/>
+@tab <VPIcon icon="iconfont icon-ruby"/>
 
 ```rb
 def linear_search(target, array)
@@ -298,7 +298,7 @@ def linear_search(target, array)
 end
 ```
 
-@tab <FontIcon icon="iconfont icon-cpp"/>
+@tab <VPIcon icon="iconfont icon-cpp"/>
 
 ```cpp
 int linear_search(int arr[],int n,int num)
@@ -312,7 +312,7 @@ int linear_search(int arr[],int n,int num)
 }
 ```
 
-@tab <FontIcon icon="fa-brands fa-python"/>
+@tab <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 def linear_search(array, num):
@@ -322,7 +322,7 @@ def linear_search(array, num):
     return -1
 ```
 
-@tab <FontIcon icon="fa-brands fa-swift"/>
+@tab <VPIcon icon="fa-brands fa-swift"/>
 
 ```swift
 func linearSearch(for number: Int, in array: [Int]) -> Int? {
@@ -333,7 +333,7 @@ func linearSearch(for number: Int, in array: [Int]) -> Int? {
 }
 ```
 
-@tab <FontIcon icon="fa-brands fa-java"/>
+@tab <VPIcon icon="fa-brands fa-java"/>
 
 ```java
 int linearSearch(int[] arr, int element)
@@ -347,7 +347,7 @@ int linearSearch(int[] arr, int element)
 }
 ```
 
-@tab <FontIcon icon="fa-brands fa-php"/>
+@tab <VPIcon icon="fa-brands fa-php"/>
 
 ```php
 function linear_search($arr=[],$num=0)
@@ -496,7 +496,7 @@ The code for recursive binary search is shown below:
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-js"/>
+@tab:active <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 function binarySearch(arr, item, low, high) {
@@ -543,7 +543,7 @@ function binary_search(a, v) {
 }
 ```
 
-@tab <FontIcon icon="iconfont icon-ruby"/>
+@tab <VPIcon icon="iconfont icon-ruby"/>
 
 ```rb
 def binary_search(target, array)
@@ -566,7 +566,7 @@ def binary_search(target, array)
 end
 ```
 
-@tab <FontIcon icon="iconfont icon-c"/>
+@tab <VPIcon icon="iconfont icon-c"/>
 
 ```c
 int binarySearch(int a[], int l, int r, int x) {
@@ -582,7 +582,7 @@ int binarySearch(int a[], int l, int r, int x) {
 }
 ```
 
-@tab <FontIcon icon="fa-brands fa-python"/>
+@tab <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 def binary_search(arr, l, r, target):
@@ -598,7 +598,7 @@ def binary_search(arr, l, r, target):
         return -1
 ```
 
-@tab <FontIcon icon="iconfont icon-cpp"/>
+@tab <VPIcon icon="iconfont icon-cpp"/>
 
 Recursive approach!
 
@@ -640,7 +640,7 @@ int binarySearch(int arr[], int start, int end, int x)
 }
 ```
 
-@tab <FontIcon icon="fa-brands fa-swift"/>
+@tab <VPIcon icon="fa-brands fa-swift"/>
 
 ```swift
 func binarySearch(for number: Int, in numbers: [Int]) -> Int? {
@@ -660,7 +660,7 @@ func binarySearch(for number: Int, in numbers: [Int]) -> Int? {
 }
 ```
 
-@tab <FontIcon icon="fa-brands fa-java"/>
+@tab <VPIcon icon="fa-brands fa-java"/>
 
 ```java
 // Iterative Approach in Java

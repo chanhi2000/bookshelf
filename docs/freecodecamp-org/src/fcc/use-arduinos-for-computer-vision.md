@@ -85,7 +85,7 @@ Along the way, you’ll learn how to:
 
 The instructor, Yılmaz ALACA, walks you through the process step by step and explains the hardware and software in a clear way.
 
-You can watch the full course [<FontIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/Q5U-b6gRTaY) (3-hour watch).
+You can watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/Q5U-b6gRTaY) (3-hour watch).
 
 <VidStack src="youtube/Q5U-b6gRTaY" />
 

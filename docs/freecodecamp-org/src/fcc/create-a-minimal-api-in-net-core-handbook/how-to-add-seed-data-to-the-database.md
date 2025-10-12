@@ -135,4 +135,4 @@ Now that we have created the `BookTypeConfigurations` class, we need to register
 
 We’re finally almost ready to test our API. But before we do that, we need to perform migrations to create the database and apply the seed data.
 
-Remember that we added our database connection string in the <FontIcon icon="iconfont icon-json"/>`appsettings.json` file? Now let's perform a migration and later update our database for the migration to take effect.
+Remember that we added our database connection string in the <VPIcon icon="iconfont icon-json"/>`appsettings.json` file? Now let's perform a migration and later update our database for the migration to take effect.

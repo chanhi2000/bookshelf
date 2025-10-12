@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738695897990/7a5962c
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1738695897990/7a5962ce-9c4a-4e7c-bdeb-520dccc5d240.png"/>
 
-[<FontIcon icon="fas fa-globe"/>CASL](https://casl.js.org/v6/en) is an open-source, isomorphic JavaScript library that makes managing permissions in your app much easier with its simple, declarative API.
+[<VPIcon icon="fas fa-globe"/>CASL](https://casl.js.org/v6/en) is an open-source, isomorphic JavaScript library that makes managing permissions in your app much easier with its simple, declarative API.
 
 What this means is that you can use CASL on both the client-side (front-end) and server-side (back-end). This is especially great for full-stack applications, as it ensures consistency in access control. The same permission logic can be applied across your entire app, no matter where the request is coming from.
 
@@ -62,7 +62,7 @@ With CASL, you get **declarative access control**, which means you define *what*
 
 The best part? You can define permissions using a clear, expressive syntax. This makes it easy to manage even complex permission rules. For example, you can control what a user can (or cannot) do based on their role, the resources they own, and other factors.
 
-And it’s not just for React/React Native - they provide supporting packages for [<FontIcon icon="fas fa-globe"/>Angular](https://casl.js.org/v6/en/package/casl-angular), [<FontIcon icon="fas fa-globe"/>Vue](https://casl.js.org/v6/en/package/casl-vue) and [<FontIcon icon="fas fa-globe"/>Aurelia](https://casl.js.org/v6/en/package/casl-aurelia) too.
+And it’s not just for React/React Native - they provide supporting packages for [<VPIcon icon="fas fa-globe"/>Angular](https://casl.js.org/v6/en/package/casl-angular), [<VPIcon icon="fas fa-globe"/>Vue](https://casl.js.org/v6/en/package/casl-vue) and [<VPIcon icon="fas fa-globe"/>Aurelia](https://casl.js.org/v6/en/package/casl-aurelia) too.
 
 ---
 
@@ -72,13 +72,13 @@ First, install CASL using a package manager. I have used v6 for the code example
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add @casl/react @casl/ability
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install @casl/react @casl/ability
@@ -97,7 +97,7 @@ In CASL, think of "abilities" as a set of rules that define what actions a user 
 - An Admin can manage everything.
 - An Author can create and edit their own posts within assigned categories, but they cannot delete published posts.
 
-Now, create a <FontIcon icon="iconfont icon-typescript"/>`defineAbilities.ts` file to define the abilities in a high-level, declarative manner using DSL.
+Now, create a <VPIcon icon="iconfont icon-typescript"/>`defineAbilities.ts` file to define the abilities in a high-level, declarative manner using DSL.
 
 Start by defining the `Actions` that a user can perform (for example, `create`, `read`, `update`, `delete`, `manage`) and the `Subjects` (the entities that actions are performed on, such as `‘User’`, `‘Post‘`, or objects like `User` or `Post`).
 
@@ -121,7 +121,7 @@ export type AppAbility = PureAbility<[Actions, Subjects]>
 export const createAppAbility = createMongoAbility as CreateAbility<AppAbility>
 ```
 
-Note that `createMongoAbility` is only used to support simple operators from [<FontIcon icon="iconfont icon-mongodb"/>MongoDB Query Language](https://mongodb.com/docs/manual/reference/operator/query/), like $in, $lte, $eq that are used to specify conditions for your rules. Don't worry - this doesn't mean your app has to use MongoDB, nor do you need to be familiar with the query language. You can also skip these entirely and create custom operators.
+Note that `createMongoAbility` is only used to support simple operators from [<VPIcon icon="iconfont icon-mongodb"/>MongoDB Query Language](https://mongodb.com/docs/manual/reference/operator/query/), like $in, $lte, $eq that are used to specify conditions for your rules. Don't worry - this doesn't mean your app has to use MongoDB, nor do you need to be familiar with the query language. You can also skip these entirely and create custom operators.
 
 Next, define a function called `defineAbilityFor`, which takes a `user` object as its argument and returns an ability instance. The `user` object is expected to have a `role` property (such as 'admin' or 'author') that determines the user's permissions.
 
@@ -243,7 +243,7 @@ const LoginComponent = () => {
 
 ## Step 4: Provide ability instance to the entire app
 
-[<FontIcon icon="fa-brands fa-react"/>Contexts](https://react.dev/reference/react/createContext) are used in React to share data across components without having to pass props through the component tree. Add the below code in a `can.ts` file:
+[<VPIcon icon="fa-brands fa-react"/>Contexts](https://react.dev/reference/react/createContext) are used in React to share data across components without having to pass props through the component tree. Add the below code in a `can.ts` file:
 
 ```ts title="can.ts"
 import {createContext} from 'react'

@@ -66,11 +66,11 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731772751529/58ee130
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1731772751529/58ee1304-a5d9-4be4-a709-1026de99ab3e.png"/>
 
-In modern system design, [<FontIcon icon="fa-brands fa-wikipedia"/>Event-Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_programming) (EDA) focuses on creating, detecting, using, and responding to events within a system. Events are significant occurrences that can affect a system’s hardware or software, such as user actions, state changes, or data updates.
+In modern system design, [<VPIcon icon="fa-brands fa-wikipedia"/>Event-Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_programming) (EDA) focuses on creating, detecting, using, and responding to events within a system. Events are significant occurrences that can affect a system’s hardware or software, such as user actions, state changes, or data updates.
 
 EDA enables different parts of an application to interact in a decoupled way, allowing them to communicate through events instead of direct calls. This setup lets components work independently, respond to events asynchronously, and adjust to changing business needs without major system reconfiguration, promoting agility.
 
-New and [<FontIcon icon="fa-brands fa-wikipedia-w"/>modern applications now heavily rely on real-time data processing and responsiveness](https://en.wikipedia.org/wiki/Event-driven_architecture). The EDA’s importance cannot be overstated because it provides the framework that supports those requirements. By using asynchronous communication and event-driven interactions, systems can efficiently handle high volumes of transactions and maintain performance under unstable loads. These features are particularly appreciated in environments where changes are very spontaneous, such as e-commerce platforms or IoT applications.
+New and [<VPIcon icon="fa-brands fa-wikipedia-w"/>modern applications now heavily rely on real-time data processing and responsiveness](https://en.wikipedia.org/wiki/Event-driven_architecture). The EDA’s importance cannot be overstated because it provides the framework that supports those requirements. By using asynchronous communication and event-driven interactions, systems can efficiently handle high volumes of transactions and maintain performance under unstable loads. These features are particularly appreciated in environments where changes are very spontaneous, such as e-commerce platforms or IoT applications.
 
 Some key components of EDA include:
 
@@ -82,7 +82,7 @@ In this article, you will learn how to implement event-driven data processing us
 
 ::: info
 
-Here is a [simple application hosted on GitHub (<FontIcon icon="iconfont icon-github"/>`Abraham12611/EventMesh`)](https://github.com/Abraham12611/EventMesh) that you can quickly run to get an overview of what you will be building today.
+Here is a [simple application hosted on GitHub (<VPIcon icon="iconfont icon-github"/>`Abraham12611/EventMesh`)](https://github.com/Abraham12611/EventMesh) that you can quickly run to get an overview of what you will be building today.
 
 <SiteInfo
   name="Abraham12611/EventMesh"
@@ -209,7 +209,7 @@ mkdir ~/kafka-traefik-setup && cd ~/kafka-traefik-setup
 
 @tab 2.
 
-Create a <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml` file.
+Create a <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml` file.
 
 ```sh
 nano docker-compose.yml
@@ -280,7 +280,7 @@ To produce events in Kafka, you will need to implement a Kafka producer. Below i
 
 @tab:active 1.
 
-Create a file <FontIcon icon="fa-brands fa-java"/>`kafka-producer.java`
+Create a file <VPIcon icon="fa-brands fa-java"/>`kafka-producer.java`
 
 ```sh
 nano kafka-producer.java
@@ -338,7 +338,7 @@ Before producing or consuming messages, you need to create topics in Kafka.
 
 @tab:active 1.
 
-Use the <FontIcon icon="iconfont icon-shell"/>`kafka-topics.sh` script included with your Kafka installation to create a topic.
+Use the <VPIcon icon="iconfont icon-shell"/>`kafka-topics.sh` script included with your Kafka installation to create a topic.
 
 ```sh
 kafka-topics.sh --bootstrap-server localhost:9092 \
@@ -380,7 +380,7 @@ After you have created your producers and topics, you can create consumers to re
 
 @tab 1.
 
-Create a file <FontIcon icon="fa-brands fa-java"/>`kafka-consumer.java`
+Create a file <VPIcon icon="fa-brands fa-java"/>`kafka-consumer.java`
 
 ```sh
 nano kafka-consumer.java
@@ -450,7 +450,7 @@ Integrating Traefik as a reverse proxy for Kafka allows you to manage incoming t
 
 @tab 1.
 
-Update the <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml` file.
+Update the <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml` file.
 
 ```yaml title="docker-compose.yml"
 version: '3.8'
@@ -521,7 +521,7 @@ If you require that requests from a specific client always go to the same instan
 
 #### 3. Health Checks:
 
-Configure health checks in Traefik to ensure that traffic is only routed to healthy instances of your Kafka services. You can do this by adding health check parameters in the service definitions within your <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml` file:
+Configure health checks in Traefik to ensure that traffic is only routed to healthy instances of your Kafka services. You can do this by adding health check parameters in the service definitions within your <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml` file:
 
 ```yaml title="docker-compose.yml"
     labels:
@@ -594,7 +594,7 @@ Kafka exposes numerous metrics that can be monitored using JMX (Java Management 
 To visualize Kafka metrics, you can set up Prometheus to scrape metrics from your Kafka brokers. Follow these steps:
 
 - Enable JMX Exporter on your Kafka brokers by adding it as a Java agent in your broker configuration.
-- Configure Prometheus by adding a scrape job in its configuration file (<FontIcon icon="iconfont icon-yaml"/>`prometheus.yml`) that points to your JMX Exporter endpoint.
+- Configure Prometheus by adding a scrape job in its configuration file (<VPIcon icon="iconfont icon-yaml"/>`prometheus.yml`) that points to your JMX Exporter endpoint.
 - Use Grafana to create dashboards that visualize these metrics in real-time.
 
 ### How to Implement Monitoring for Traefik

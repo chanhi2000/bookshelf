@@ -61,7 +61,7 @@ Here are the contracts we are going to create:
 - ErrorResponse: Represents the error response returned when an exception occurs.
 - ApiResponse: Represents the response returned by the API.
 
-In the <FontIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `CreateBookRequest` and add the following code:
+In the <VPIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `CreateBookRequest` and add the following code:
 
 ```cs title="Contracts/CreateBookRequest.cs"
 namespace bookapi_minimal.Contracts
@@ -78,7 +78,7 @@ namespace bookapi_minimal.Contracts
 }
 ```
 
-In the <FontIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `UpdateBookRequest` and add the following code:
+In the <VPIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `UpdateBookRequest` and add the following code:
 
 ```cs title="Contracts/UpdateBookRequest.cs"
 namespace bookapi_minimal.Contracts
@@ -95,7 +95,7 @@ namespace bookapi_minimal.Contracts
 }
 ```
 
-In the <FontIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `BookResponse` and add the following code:
+In the <VPIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `BookResponse` and add the following code:
 
 ```cs title="Contracts/BookResponse.cs"
 namespace bookapi_minimal.Contracts
@@ -113,7 +113,7 @@ namespace bookapi_minimal.Contracts
 }
 ```
 
-In the <FontIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `ErrorResponse` and add the following code:
+In the <VPIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `ErrorResponse` and add the following code:
 
 ```cs
 
@@ -130,7 +130,7 @@ namespace bookapi_minimal.Contracts
 }
 ```
 
-In the <FontIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `ApiResponse` and add the following code:
+In the <VPIcon icon="fas fa-foler-open"/>`Contracts` folder, create a new file named `ApiResponse` and add the following code:
 
 ```cs title="Contracts/ApiResponse.cs"
 namespace bookapi_minimal.Contracts

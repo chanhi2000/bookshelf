@@ -333,7 +333,7 @@ my-nest-app/
 └── nest-cli.json             # CLI configuration
 ```
 
-#### <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="iconfont icon-typescript"/>`main.ts`
+#### <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="iconfont icon-typescript"/>`main.ts`
 
 The “bootstrap” script. It creates a Nest application instance and starts listening on a port:
 
@@ -349,7 +349,7 @@ async function bootstrap() {
 bootstrap();
 ```
 
-#### <FontIcon icon="fas fa-foler-open"/>`src/`<FontIcon icon="iconfont icon-tpescript"/>`app.module.ts`
+#### <VPIcon icon="fas fa-foler-open"/>`src/`<VPIcon icon="iconfont icon-tpescript"/>`app.module.ts`
 
 The root module. It ties together controllers and providers:
 
@@ -366,7 +366,7 @@ import { AppService } from './app.service';
 export class AppModule {}
 ```
 
-#### `src/`<FontIcon icon="iconfont icon-typescript"/>`app.controller.ts` / <FontIcon icon="iconfont icon-typescript"/>`app.service.ts`
+#### `src/`<VPIcon icon="iconfont icon-typescript"/>`app.controller.ts` / <VPIcon icon="iconfont icon-typescript"/>`app.service.ts`
 
 A simple example that shows dependency injection in action:
 
@@ -405,7 +405,7 @@ nest g controller tasks
 nest g service tasks
 ```
 
-Each command will drop a new <FontIcon icon="iconfont icon-typescript"/>`.ts` file in the appropriate folder and update your module’s metadata. In the next section, we’ll dive into core Nest building blocks like modules, controllers, and providers in more detail.
+Each command will drop a new <VPIcon icon="iconfont icon-typescript"/>`.ts` file in the appropriate folder and update your module’s metadata. In the next section, we’ll dive into core Nest building blocks like modules, controllers, and providers in more detail.
 
 ---
 
@@ -1213,7 +1213,7 @@ export class LoggingExceptionFilter extends BaseExceptionFilter {
 }
 ```
 
-**Apply globally** in <FontIcon icon="iconfont icon-typescript"/>`main.ts`:
+**Apply globally** in <VPIcon icon="iconfont icon-typescript"/>`main.ts`:
 
 ```ts
 async function bootstrap() {
@@ -1652,7 +1652,7 @@ npm install --save pg
 
 #### 2. Configure the root module:
 
-In <FontIcon icon="iconfont icon-typescript"/>`app.module.ts`, import `TypeOrmModule.forRoot()` with connection options. These can come from environment variables (discussed later in Configuration Management).
+In <VPIcon icon="iconfont icon-typescript"/>`app.module.ts`, import `TypeOrmModule.forRoot()` with connection options. These can come from environment variables (discussed later in Configuration Management).
 
 ```ts title="app.module.ts"
 import { Module } from '@nestjs/common';
@@ -2045,11 +2045,11 @@ npm install -D prisma
 npx prisma init
 ```
 
-This creates a <FontIcon icon="fas fa-folder-open"/>`prisma/`<FontIcon icon="iconfont icon-prisma"/>`schema.prisma` file and a <FontIcon icon="fas fa-file-lines"/>`.env` with `DATABASE_URL`.
+This creates a <VPIcon icon="fas fa-folder-open"/>`prisma/`<VPIcon icon="iconfont icon-prisma"/>`schema.prisma` file and a <VPIcon icon="fas fa-file-lines"/>`.env` with `DATABASE_URL`.
 
 #### 2. Define the schema:
 
-In <FontIcon icon="fas fa-folder-open"/>`prisma/`<FontIcon icon="iconfont icon-prisma"/>`schema.prisma`:
+In <VPIcon icon="fas fa-folder-open"/>`prisma/`<VPIcon icon="iconfont icon-prisma"/>`schema.prisma`:
 
 ```prisma title="schema.prisma"
 datasource db {
@@ -2452,9 +2452,9 @@ By relying on environment variables, you ensure that the same application bundle
 
 **Here’s how to use it**:
 
-#### 1. <FontIcon icon="fas fa-file-lines"/>`.env` files**
+#### 1. <VPIcon icon="fas fa-file-lines"/>`.env` files**
 
-- Create a <FontIcon icon="fas fa-file-lines"/>`.env` file at project root with key-value pairs:
+- Create a <VPIcon icon="fas fa-file-lines"/>`.env` file at project root with key-value pairs:
 
 ```sh title=".env"
 PORT=3000
@@ -2467,8 +2467,8 @@ JWT_SECRET=supersecretjwtkey
 JWT_EXPIRES_IN=2h
 ```
 
-- Optionally create <FontIcon icon="fas fa-file-lines"/>`.env.development`, <FontIcon icon="fas fa-file-lines"/>`.env.test`, <FontIcon icon="fas fa-file-lines"/>`.env.production`, and load them based on `NODE_ENV`.
-- Ensure <FontIcon icon="fas fa-file-lines"/>`.env` files are in <FontIcon icon="iconfont icon-git"/>`.gitignore` to avoid committing secrets.
+- Optionally create <VPIcon icon="fas fa-file-lines"/>`.env.development`, <VPIcon icon="fas fa-file-lines"/>`.env.test`, <VPIcon icon="fas fa-file-lines"/>`.env.production`, and load them based on `NODE_ENV`.
+- Ensure <VPIcon icon="fas fa-file-lines"/>`.env` files are in <VPIcon icon="iconfont icon-git"/>`.gitignore` to avoid committing secrets.
 
 #### 2. Loading order
 
@@ -2485,7 +2485,7 @@ ConfigModule.forRoot({
 });
 ```
 
-- This tries <FontIcon icon="fas fa-file-lines"/>`.env.development.local`, then <FontIcon icon="fas fa-file-lines"/>`.env.development`, then <FontIcon icon="fas fa-file-lines"/>`.env`. CI/CD can set actual environment variables that override values in files.
+- This tries <VPIcon icon="fas fa-file-lines"/>`.env.development.local`, then <VPIcon icon="fas fa-file-lines"/>`.env.development`, then <VPIcon icon="fas fa-file-lines"/>`.env`. CI/CD can set actual environment variables that override values in files.
 
 #### 3. Accessing raw environment variables
 
@@ -2780,7 +2780,7 @@ npm install @nestjs/passport passport passport-google-oauth20
 
 #### 2. Configuration
 
-Add OAuth credentials to <FontIcon icon="fas fa-file-lines"/>`.env` and `ConfigModule`:
+Add OAuth credentials to <VPIcon icon="fas fa-file-lines"/>`.env` and `ConfigModule`:
 
 ```sh title=".env"
 GOOGLE_CLIENT_ID=your-google-client-id

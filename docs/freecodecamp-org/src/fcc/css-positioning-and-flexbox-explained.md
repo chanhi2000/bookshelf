@@ -514,7 +514,7 @@ These Flexbox properties can also be used together.
 
 ![For example, if we want to arrange the items in the very center, we can use both **`align-items: center`** and **`justify-content: center`.**](https://freecodecamp.org/news/content/images/2021/03/Screenshot-2021-03-07-16-31-13.png)
 
-You can [find the code on Github (<FontIcon icon="iconfont icon-github"/>`nishant-666/CSS-Positioning-and-Flexbox`)](https://github.com/nishant-666/CSS-Positioning-and-Flexbox) if you want to experiment some more.
+You can [find the code on Github (<VPIcon icon="iconfont icon-github"/>`nishant-666/CSS-Positioning-and-Flexbox`)](https://github.com/nishant-666/CSS-Positioning-and-Flexbox) if you want to experiment some more.
 
 <SiteInfo
   name="nishant-666/CSS-Positioning-and-Flexbox"

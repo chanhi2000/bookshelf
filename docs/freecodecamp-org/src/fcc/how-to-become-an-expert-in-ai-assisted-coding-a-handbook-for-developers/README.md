@@ -170,7 +170,7 @@ Use AI to speed up implementation, but keep architectural decisions to yourself.
 Before starting this tutorial, you should have:
 
 - **Basic programming experience**: You can write simple programs in any language
-- **A code editor installed**: VS Code is recommended (free from [<FontIcon icon="iconfont icon-vscode"/>code.visualstudio.com](http://code.visualstudio.com/))
+- **A code editor installed**: VS Code is recommended (free from [<VPIcon icon="iconfont icon-vscode"/>code.visualstudio.com](http://code.visualstudio.com/))
 - **Basic Git knowledge**: You know how to commit and push code
 - **Free to start**: Many tools now have generous free tiers, and paid plans start around $10-20/month
 
@@ -220,13 +220,13 @@ GitHub Copilot has a free tier (2000 code completions + 50 chat requests per mon
 
 ::: tip
 
-Students, teachers, and OSS maintainers [<FontIcon icon="iconfont icon-github"/>can get the Pro plan for free](https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer), which provides unlimited usage instead of the free tier limits.
+Students, teachers, and OSS maintainers [<VPIcon icon="iconfont icon-github"/>can get the Pro plan for free](https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer), which provides unlimited usage instead of the free tier limits.
 
 :::
 
 ### Your First AI Suggestion
 
-Once installed, create a new file called <FontIcon icon="fa-brands fa-js"/>`test.js` and type:
+Once installed, create a new file called <VPIcon icon="fa-brands fa-js"/>`test.js` and type:
 
 ```js title="test.js"
 // function to calculate the area of a circle
@@ -278,11 +278,11 @@ For your first stage, I recommend starting with either GitHub Copilot. You can a
 
 ##### 1. Open VS Code.
 
-If you don't have it, download from [<FontIcon icon="iconfont icon-vscode"/>code.visualstudio.com](https://code.visualstudio.com/).
+If you don't have it, download from [<VPIcon icon="iconfont icon-vscode"/>code.visualstudio.com](https://code.visualstudio.com/).
 
 ##### 2. Install the Extension
 
-- Press <kbd>Ctrl</kbd>+<kbd>v</kbd>+<kbd>X</kbd> (<FontIcon icon="fa-brands fa-windows"/><FontIcon icon="fa-brands fa-linux"/>) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (<FontIcon icon="iconfont icon-macos"/>)
+- Press <kbd>Ctrl</kbd>+<kbd>v</kbd>+<kbd>X</kbd> (<VPIcon icon="fa-brands fa-windows"/><VPIcon icon="fa-brands fa-linux"/>) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (<VPIcon icon="iconfont icon-macos"/>)
 - Type "GitHub Copilot" in the search box
 - Click the blue "Install" button
 - You'll see a pop-up asking you to sign in
@@ -291,7 +291,7 @@ If you don't have it, download from [<FontIcon icon="iconfont icon-vscode"/>code
 
 - Click "Sign in to GitHub"
 - Your browser will open
-- Log in with your GitHub account (create one free at [<FontIcon icon="iconfont icon-github"/>github.com](http://github.com/) if needed)
+- Log in with your GitHub account (create one free at [<VPIcon icon="iconfont icon-github"/>github.com](http://github.com/) if needed)
 - Click "Authorize GitHub Copilot"
 
 ##### 4. Start using Copilot
@@ -300,7 +300,7 @@ If you don't have it, download from [<FontIcon icon="iconfont icon-vscode"/>code
 
 ### Step 4: Mastering Tab Completion
 
-Let's make sure it's working. Create a new file: <FontIcon icon="fa-brands fa-python"/>`hello.py`. Type this comment and press Enter:
+Let's make sure it's working. Create a new file: <VPIcon icon="fa-brands fa-python"/>`hello.py`. Type this comment and press Enter:
 
 ```py title="hello.py"
 # function to greet a user by name
@@ -318,7 +318,7 @@ def greet_user(name):
 
 If you see this, congratulations! You're now using AI to help you write code.
 
-If you’re having setup issues you can check the [<FontIcon icon="fas fa-globe"/>Troubleshooting Quick Reference](http://localhost:3333/#troubleshooting-quick-reference) for solutions.
+If you’re having setup issues you can check the [<VPIcon icon="fas fa-globe"/>Troubleshooting Quick Reference](http://localhost:3333/#troubleshooting-quick-reference) for solutions.
 
 ### Step 5: Essential Keyboard Shortcuts & First Practice
 
@@ -333,13 +333,13 @@ When you're ready for more, try these:
 
 ::: tabs
 
-@tab:active <FontIcon icon="fa-brands fa-windows"/>,<FontIcon icon="fa-brands fa-linux"/>
+@tab:active <VPIcon icon="fa-brands fa-windows"/>,<VPIcon icon="fa-brands fa-linux"/>
 
 - <kbd>Alt</kbd>+<kbd>]</kbd> – See the next suggestion
 - <kbd>Alt</kbd>+<kbd>[</kbd> – See the previous suggestion
 - <kbd>Ctrl</kbd>+<kbd>Enter</kbd> – See all suggestions in a panel
 
-@tab <FontIcon icon="iconfont icon-macos"/>
+@tab <VPIcon icon="iconfont icon-macos"/>
 
 - <kbd>Option</kbd>+<kbd>]</kbd> (or <kbd>Alt</kbd>+<kbd>]</kbd>): See the next suggestion
 - <kbd>Option</kbd>+<kbd>[</kbd> (or <kbd>Alt</kbd>+<kbd>[</kbd>): See the previous suggestion
@@ -351,7 +351,7 @@ When you're ready for more, try these:
 
 #### Exercise: Build a Simple Todo App
 
-1. Create a new file called <FontIcon icon="fa-brands fa-js"/>`todo.js`
+1. Create a new file called <VPIcon icon="fa-brands fa-js"/>`todo.js`
 2. Start with this comment: `// TODO app with add, remove, and list functions`
 3. Add this comment and wait for AI suggestions: `// function to add a new todo item`
 4. Accept the suggestion with Tab if they look good to you
@@ -364,7 +364,7 @@ Learn to "converse" with AI through clear comments and build confidence acceptin
 
 :::
 
-Need help? See the [<FontIcon icon="fas fa-globe"/>Troubleshooting Quick Reference](http://localhost:3333/#troubleshooting-quick-reference) for common issues and solutions.
+Need help? See the [<VPIcon icon="fas fa-globe"/>Troubleshooting Quick Reference](http://localhost:3333/#troubleshooting-quick-reference) for common issues and solutions.
 
 ### Ready for the next stage? Before moving on, make sure you can:
 
@@ -402,15 +402,15 @@ Here's a pro tip that will save you hours: **Keep related files open in tabs**.
 
 If you're writing a React component:
 
-- Have your component file open (<FontIcon icon="fa-brands fa-react"/>`Button.jsx`)
-- Also, open your CSS file (<FontIcon icon="fa-brands fa-css3-alt"/>`Button.css`)
-- Keep your test file visible too (<FontIcon icon="fa-brands fa-js"/>`Button.test.js`)
+- Have your component file open (<VPIcon icon="fa-brands fa-react"/>`Button.jsx`)
+- Also, open your CSS file (<VPIcon icon="fa-brands fa-css3-alt"/>`Button.css`)
+- Keep your test file visible too (<VPIcon icon="fa-brands fa-js"/>`Button.test.js`)
 
 :::
 
 You can then share these additional files as context with the AI in several ways:
 
-- **@mention files**: Type <FontIcon icon="fa-brands fa-js"/>`@filename.js` in chat to reference specific files
+- **@mention files**: Type <VPIcon icon="fa-brands fa-js"/>`@filename.js` in chat to reference specific files
 - **Use @workspace**: This chat participant can see all files in your project
 - **Drag and drop**: Simply drag files from the explorer into the chat window
 - **Select code**: Highlight code and right-click "Ask Copilot" to include it in context
@@ -462,7 +462,7 @@ Here’s a formula for writing solid prompts: What + How + Return type.
 
 #### Repository-Level Customization with Copilot Instructions
 
-GitHub Copilot now supports repository-level customization through <FontIcon icon="fas fa-folder-open"/>`.github/`<FontIcon icon="fa-brands fa-markdown"/>`copilot-instructions.md` files. This feature helps Copilot understand your project's specific patterns and conventions.
+GitHub Copilot now supports repository-level customization through <VPIcon icon="fas fa-folder-open"/>`.github/`<VPIcon icon="fa-brands fa-markdown"/>`copilot-instructions.md` files. This feature helps Copilot understand your project's specific patterns and conventions.
 
 Here’s how to set up Copilot instructions:
 
@@ -472,7 +472,7 @@ mkdir -p .github
 touch .github/copilot-instructions.md
 ```
 
-::: tip Example <FontIcon icon="fa-brands fa-markdown"/>`copilot-instructions.md` file:
+::: tip Example <VPIcon icon="fa-brands fa-markdown"/>`copilot-instructions.md` file:
 
 ```md title="copilot-instructions.md"
 # Copilot Instructions
@@ -506,9 +506,9 @@ touch .github/copilot-instructions.md
 
 ## Naming Conventions
 
-- Components: PascalCase (e.g., <FontIcon icon="fa-brands fa-react"/>`UserProfile.tsx`)
-- Hooks: camelCase starting with 'use' (e.g., <FontIcon icon="iconfont icon-typescript"/>`useUserData.ts`)
-- Utilities: camelCase (e.g., <FontIcon icon="iconfont icon-typescript"/>`formatDate.ts`)
+- Components: PascalCase (e.g., <VPIcon icon="fa-brands fa-react"/>`UserProfile.tsx`)
+- Hooks: camelCase starting with 'use' (e.g., <VPIcon icon="iconfont icon-typescript"/>`useUserData.ts`)
+- Utilities: camelCase (e.g., <VPIcon icon="iconfont icon-typescript"/>`formatDate.ts`)
 ```
 
 ### What this enables
@@ -620,7 +620,7 @@ For autonomous development:
 "Migrate this codebase from Vue 2 to Vue 3"
 ```
 
-- Press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>I</kbd> (<FontIcon icon="iconfont icon-macos"/>) or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> (<FontIcon icon="fa-brands fa-windows"/>/<FontIcon icon="fa-brands fa-linux"/>)
+- Press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>I</kbd> (<VPIcon icon="iconfont icon-macos"/>) or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> (<VPIcon icon="fa-brands fa-windows"/>/<VPIcon icon="fa-brands fa-linux"/>)
 - Works independently for hours
 - Installs packages, creates files, runs tests automatically
 
@@ -876,13 +876,13 @@ Alternative installs:
 
 ::: tabs
 
-@tab:active <FontIcon icon="iconfont icon-macos"/>/<FontIcon icon="fa-brands fa-linux"/>
+@tab:active <VPIcon icon="iconfont icon-macos"/>/<VPIcon icon="fa-brands fa-linux"/>
 
 ```sh
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-@tab <FontIcon icon="fa-brands fa-windows"/>
+@tab <VPIcon icon="fa-brands fa-windows"/>
 
 ```powershell
 irm https://claude.ai/install.ps1 | iex
@@ -1016,9 +1016,9 @@ Use `think` for quick code reviews, `think hard` for debugging complex issues, `
 
 #### Project-Level Customization with Claude.md
 
-One of Claude Code's most powerful features is project-level customization using <FontIcon icon="fas fa-folder-open"/>`.claude/`<FontIcon icon="fa-brands fa-markdown"/>`CLAUDE.md` files. This lets you give Claude context about your specific project, coding standards, and preferences.
+One of Claude Code's most powerful features is project-level customization using <VPIcon icon="fas fa-folder-open"/>`.claude/`<VPIcon icon="fa-brands fa-markdown"/>`CLAUDE.md` files. This lets you give Claude context about your specific project, coding standards, and preferences.
 
-Set up <FontIcon icon="fa-brands fa-markdown"/>`CLAUDE.md` like this:
+Set up <VPIcon icon="fa-brands fa-markdown"/>`CLAUDE.md` like this:
 
 ```sh
 # Create project-level configuration
@@ -1026,7 +1026,7 @@ mkdir -p .claude
 touch .claude/CLAUDE.md
 ```
 
-Here’s an example <FontIcon icon="fa-brands fa-markdown"/>`CLAUDE.md` file:
+Here’s an example <VPIcon icon="fa-brands fa-markdown"/>`CLAUDE.md` file:
 
 ```md title=".claude/CLAUDE.md"
 # Project Context
@@ -1064,7 +1064,7 @@ This helps Claude understand your project structure automatically. It also helps
 
 ::: tip Pro tip
 
-Update your <FontIcon icon="fa-brands fa-markdown"/>`CLAUDE.md` as your project evolves to keep Claude's suggestions relevant and accurate.
+Update your <VPIcon icon="fa-brands fa-markdown"/>`CLAUDE.md` as your project evolves to keep Claude's suggestions relevant and accurate.
 
 :::
 
@@ -1164,13 +1164,13 @@ You can use these keyboard shortcuts to be even more productive:
 - <kbd>Ctrl</kbd>+<kbd>C</kbd>: Cancel current input or generation
 - <kbd>Ctrl</kbd>+<kbd>D</kbd>: Exit Claude Code session
 - <kbd>Ctrl</kbd>+<kbd>L</kbd>: Clear terminal screen
-- <kbd><FontIcon icon="fas fa-arrow-up"/></kbd>/<kbd><FontIcon icon="fas fa-arrow-down"/></kbd>: Navigate command history
+- <kbd><VPIcon icon="fas fa-arrow-up"/></kbd>/<kbd><VPIcon icon="fas fa-arrow-down"/></kbd>: Navigate command history
 - <kbd>Esc</kbd>+<kbd>Esc</kbd>: Edit previous message
 
 ##### Multiline Input
 
 - <kbd>`\`</kbd>+<kbd>Enter</kbd>: Quick escape to create newline (works in all terminals)
-- <kbd>Option</kbd>+<kbd>Enter</kbd> (<FontIcon icon="iconfont icon-macos"/>) / <kbd>Shift</kbd>+<kbd>Enter</kbd> (configured): Insert newline
+- <kbd>Option</kbd>+<kbd>Enter</kbd> (<VPIcon icon="iconfont icon-macos"/>) / <kbd>Shift</kbd>+<kbd>Enter</kbd> (configured): Insert newline
 
 ### Step 12: Google Gemini CLI
 
@@ -1433,7 +1433,7 @@ Example workflow – building a user dashboard:
 
 A quick switching setup refers to configuring your development environment so you can rapidly move between different AI tools without friction. Instead of typing long commands or navigating through multiple setup steps, you create shortcuts that let you instantly access the right AI tool for your current task.
 
-Add to your shell config (<FontIcon icon="fas fa-file-lines"/>`.zshrc` or <FontIcon icon="fas fa-file-lines"/>`.bashrc`):
+Add to your shell config (<VPIcon icon="fas fa-file-lines"/>`.zshrc` or <VPIcon icon="fas fa-file-lines"/>`.bashrc`):
 
 ```sh title=".bashrc"
 # Quick AI commands for interactive mode
@@ -1472,7 +1472,7 @@ alias analyze="gemini -p 'analyze:'"
 3. Use interactive Gemini session for codebase analysis and documentation
 4. Practice seamlessly moving between tools
 
-Need help with CLI tools? See the [<FontIcon icon="fas fa-globe"/>Troubleshooting Quick Reference](http://localhost:3333/#troubleshooting-quick-reference) for setup and common issues.
+Need help with CLI tools? See the [<VPIcon icon="fas fa-globe"/>Troubleshooting Quick Reference](http://localhost:3333/#troubleshooting-quick-reference) for setup and common issues.
 
 ---
 
@@ -1637,14 +1637,14 @@ Each AI tool checks for MCP configurations in multiple locations, prioritizing m
 
 Claude Code configuration hierarchy (checked in order):
 
-1. **Project level**: <FontIcon icon="fas fa-folder-open"/>`.claude/`<FontIcon icon="iconfont icon-json"/>`mcp.json` (highest priority)
-2. **Local settings**: <FontIcon icon="fas fa-folder-open"/>`.claude/`<FontIcon icon="iconfont icon-json"/>`settings.local.json`
-3. **Global config**: <FontIcon icon="fas fa-folder-open"/>`~/.claude/`<FontIcon icon="iconfont icon-json"/>`mcp.json` (fallback)
+1. **Project level**: <VPIcon icon="fas fa-folder-open"/>`.claude/`<VPIcon icon="iconfont icon-json"/>`mcp.json` (highest priority)
+2. **Local settings**: <VPIcon icon="fas fa-folder-open"/>`.claude/`<VPIcon icon="iconfont icon-json"/>`settings.local.json`
+3. **Global config**: <VPIcon icon="fas fa-folder-open"/>`~/.claude/`<VPIcon icon="iconfont icon-json"/>`mcp.json` (fallback)
 
 Other tools:
 
-- **VS Code**: <FontIcon icon="fas fa-folder-open"/>`.vscode/`<FontIcon icon="iconfont icon-json"/>`mcp.json` (project-level only)
-- **Cursor**: <FontIcon icon="fas fa-folder-open"/>`.cursor/`<FontIcon icon="iconfont icon-json"/>`mcp.json` (project-level only)
+- **VS Code**: <VPIcon icon="fas fa-folder-open"/>`.vscode/`<VPIcon icon="iconfont icon-json"/>`mcp.json` (project-level only)
+- **Cursor**: <VPIcon icon="fas fa-folder-open"/>`.cursor/`<VPIcon icon="iconfont icon-json"/>`mcp.json` (project-level only)
 - **Windsurf**: Uses VS Code's configuration format
 
 Here’s an example configuration (works in any tool, just adjust the file location):
@@ -1801,7 +1801,7 @@ gemini -p "implement these test specifications using Jest"
 
 #### Setting Up Your Environment
 
-##### 1. VS Code Settings (vf<FontIcon icon="iconfont icon-json"/>`settings.json`):
+##### 1. VS Code Settings (vf<VPIcon icon="iconfont icon-json"/>`settings.json`):
 
 ```json title="settings.json"
 {
@@ -1815,7 +1815,7 @@ gemini -p "implement these test specifications using Jest"
 }
 ```
 
-##### 2. Claude Code Configuration (<FontIcon icon="fas fa-folder-open"/>`~/.claude/`<FontIcon icon="iconfont icon-json"/>`settings.json`):
+##### 2. Claude Code Configuration (<VPIcon icon="fas fa-folder-open"/>`~/.claude/`<VPIcon icon="iconfont icon-json"/>`settings.json`):
 
 ```json title=".claude/settings.json"
 {
@@ -1833,7 +1833,7 @@ gemini -p "implement these test specifications using Jest"
 }
 ```
 
-##### 3. Gemini Setup (<FontIcon icon="fas fa-folder-open"/>`~/.gemini/`<FontIcon icon="iconfont icon-json"/>`config.json`):
+##### 3. Gemini Setup (<VPIcon icon="fas fa-folder-open"/>`~/.gemini/`<VPIcon icon="iconfont icon-json"/>`config.json`):
 
 ```json title=".gemini/config.json"
 {
@@ -2127,8 +2127,8 @@ AI suggests old patterns or deprecated methods
 | **Problem** | **Solution** |
 | --- | --- |
 | No suggestions in VS Code | Check bottom-right for "GitHub Copilot" status |
-| Free tier expired | Check [<FontIcon icon="iconfont icon-github"/>free access for students/maintainers](https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer) |
-| Agent Mode not working | Try <kbd>Shift</kbd>+<kbd>v</kbd>+<kbd>I</kbd> (<FontIcon icon="iconfont icon-macos"/>) or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> (<FontIcon icon="fa-brands fa-windows"/>/<FontIcon icon="fa-brands fa-Linux"/>) |
+| Free tier expired | Check [<VPIcon icon="iconfont icon-github"/>free access for students/maintainers](https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer) |
+| Agent Mode not working | Try <kbd>Shift</kbd>+<kbd>v</kbd>+<kbd>I</kbd> (<VPIcon icon="iconfont icon-macos"/>) or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> (<VPIcon icon="fa-brands fa-windows"/>/<VPIcon icon="fa-brands fa-Linux"/>) |
 | Chat not responding | Try restarting VS Code, check internet connection |
 
 #### Claude Code Issues
@@ -2138,7 +2138,7 @@ AI suggests old patterns or deprecated methods
 | "Command not found" | Reinstall: `npm uninstall -g @anthropic-ai/claude-code && npm install -g @anthropic-ai/claude-code` |
 | Authentication failed | Run `claude auth login`, check API credits remaining |
 | Slow responses | Check network: `ping api.anthropic.com`, try lighter model with `--model claude-3-haiku` |
-| MCP servers not working | Check <FontIcon icon="fas fa-foler-open"/>`~/.claude/`<FontIcon icon="iconfont icon-json"/>`mcp.json` syntax, test server: `npx @mcp/server-github --help` |
+| MCP servers not working | Check <VPIcon icon="fas fa-foler-open"/>`~/.claude/`<VPIcon icon="iconfont icon-json"/>`mcp.json` syntax, test server: `npx @mcp/server-github --help` |
 | Commands hang/freeze | Press <kbd>Ctrl</kbd>+<kbd>C</kbd> to cancel, restart terminal, check background processes |
 
 #### Gemini CLI Issues

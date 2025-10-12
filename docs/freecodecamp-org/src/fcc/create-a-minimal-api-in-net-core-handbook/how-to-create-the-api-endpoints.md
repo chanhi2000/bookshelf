@@ -53,11 +53,11 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733158500882/9af04a1
 
 In the context of minimal APIs in ASP.NET Core, there are many ways to set up your endpoints.
 
-You can define them directly in your <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file. But as your project grows and you need to add more endpoints or functionality, it’s helpful to organize your code better. One way to achieve this is by creating a separate class to handle all the endpoints.
+You can define them directly in your <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file. But as your project grows and you need to add more endpoints or functionality, it’s helpful to organize your code better. One way to achieve this is by creating a separate class to handle all the endpoints.
 
 As we’ve discussed above, minimal APIs don’t use controllers or views like traditional ASP.NET Core applications. Instead, they use methods such as `MapGet`, `MapPost`, `MapPut`, and `MapDelete` to define HTTP methods and routes for API endpoints.
 
-To get started, navigate to the <FontIcon icon="fas fa-folder-open"/>`Endpoints` folder and create a new file named <FontIcon icon="iconfont icon-csharp"/>`BookEndpoints.cs`. Add the following code to the file:
+To get started, navigate to the <VPIcon icon="fas fa-folder-open"/>`Endpoints` folder and create a new file named <VPIcon icon="iconfont icon-csharp"/>`BookEndpoints.cs`. Add the following code to the file:
 
 ```cs title="Endpoints/BookEndpoints.cs"
 namespace bookapi_minimal.Endpoints
@@ -266,9 +266,9 @@ Congratulations! You have created all the endpoints for the book API. The endpoi
 
 ## How to Register the Endpoints
 
-After defining the API endpoints for the book API, the next step is to register these endpoints in the <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file. We will use the `MapBookEndpoints` method to register the book endpoints.
+After defining the API endpoints for the book API, the next step is to register these endpoints in the <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file. We will use the `MapBookEndpoints` method to register the book endpoints.
 
-We should also clean up our <FontIcon icon="iconfont icon-csharp"/>`Program.cs` class to ensure it remains organized and maintainable.
+We should also clean up our <VPIcon icon="iconfont icon-csharp"/>`Program.cs` class to ensure it remains organized and maintainable.
 
 ```cs title="Program.cs"
 using System.Reflection;
@@ -310,7 +310,7 @@ app.MapGroup("/api/v1/")
 app.Run();
 ```
 
-Let's break down the key components of the <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file:
+Let's break down the key components of the <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file:
 
 - **AddApplicationServices**: This method registers the necessary services for the API. It is an extension method we created earlier to add services to the dependency injection container.
 - **AddSwaggerGen**: This method registers the Swagger generator, which is used to create the Swagger documentation for the API. We specify the title, version, and description of the API in the Swagger document.
@@ -327,7 +327,7 @@ Add the following line to your `.csproj` file:
 </PropertyGroup>
 ```
 
-By the end, <FontIcon icon="iconfont icon-code"/>`bookapi-minimal.csproj` should look like this:
+By the end, <VPIcon icon="iconfont icon-code"/>`bookapi-minimal.csproj` should look like this:
 
 ```xml :collapsed-lines title="bookapi-minimal.csproj"
 <Project Sdk="Microsoft.NET.Sdk.Web">
@@ -358,10 +358,10 @@ By the end, <FontIcon icon="iconfont icon-code"/>`bookapi-minimal.csproj` should
 </Project>
 ```
 
-Now that we have registered the book endpoints in the <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file, we can run the application and test the API endpoints using Swagger.
+Now that we have registered the book endpoints in the <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file, we can run the application and test the API endpoints using Swagger.
 
 When you run the application, you should see the Swagger documentation at the following URL: `https://localhost:5001/swagger/index.html`. The Swagger documentation provides information about the API endpoints, request and response models, and allows you to test the endpoints directly from the browser. You should see something like this:
 
 ![Book API Endpoints Swagger UI](https://cdn.hashnode.com/res/hashnode/image/upload/v1732624213627/e1e3b3d1-2ecb-486a-b95b-28b958f52462.png)
 
-Congratulations! You have implemented the business logic for the book service, created custom exceptions, defined API endpoints, and registered the endpoints in the <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file. You have also enabled Swagger documentation to test the API endpoints.
+Congratulations! You have implemented the business logic for the book service, created custom exceptions, defined API endpoints, and registered the endpoints in the <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file. You have also enabled Swagger documentation to test the API endpoints.

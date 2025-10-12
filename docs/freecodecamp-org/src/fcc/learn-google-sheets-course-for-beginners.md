@@ -36,6 +36,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733249376070/af3b622
 
 ```component VPCard
 {
+  "title": "Google Drive > Article(s)",
+  "desc": "Article(s)",
+  "link": "/tool/google-drive/articles/README.md",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
   "title": "Excel > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/xls/articles/README.md",

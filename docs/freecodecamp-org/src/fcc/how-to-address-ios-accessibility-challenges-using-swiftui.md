@@ -335,12 +335,12 @@ Adjust text size in iOS Accessibility settings, and ensure the app’s text scal
 ### 1. Apple Developer Documentation: SwiftUI Accessibility
 
 - Comprehensive guide to accessibility in SwiftUI, covering accessibility properties like `.accessibilityLabel`, `.accessibilityHint`, `.accessibilityElement`, and more.
-- [<FontIcon icon="fa-brands fa-apple"/>SwiftUI Accessibility Guide](https://developer.apple.com/documentation/swiftui/accessibility)
+- [<VPIcon icon="fa-brands fa-apple"/>SwiftUI Accessibility Guide](https://developer.apple.com/documentation/swiftui/accessibility)
 
 ### 2. Apple Human Interface Guidelines: Accessibility
 
 - Apple's best practices for designing accessible apps, including color contrast and touch target size recommendations.
-- [<FontIcon icon="fa-brands fa-apple"/>Apple Human Interface Guidelines: Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/)
+- [<VPIcon icon="fa-brands fa-apple"/>Apple Human Interface Guidelines: Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/)
 
 ### 3. Color Contrast Analyzer
 
@@ -350,8 +350,8 @@ Adjust text size in iOS Accessibility settings, and ensure the app’s text scal
 ### 4. VoiceOver and Accessibility Inspector
 
 - Tools for testing accessibility features, available in iOS and Xcode for simulating screen reader usage and checking accessibility properties.
-- [<FontIcon icon="fa-brands fa-apple"/>VoiceOver Documentation](https://support.apple.com/guide/voiceover/welcome/mac)
-- [<FontIcon icon="fa-brands fa-apple"/>Accessibility Inspector Documentation](https://developer.apple.com/documentation/accessibility-testing/accessibility-inspector)
+- [<VPIcon icon="fa-brands fa-apple"/>VoiceOver Documentation](https://support.apple.com/guide/voiceover/welcome/mac)
+- [<VPIcon icon="fa-brands fa-apple"/>Accessibility Inspector Documentation](https://developer.apple.com/documentation/accessibility-testing/accessibility-inspector)
 
 ### 5. Chandarana, N., & Gada, T. (2024). Accessibility Challenges in Current Mobile Applications: A Comprehensive Overview
 

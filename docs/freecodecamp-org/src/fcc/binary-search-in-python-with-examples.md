@@ -403,7 +403,7 @@ You might not realize it, but we perform binary search all the time. Here are a 
 
 At the end of this article, you should be familiar with how binary search algorithms work and how to implement them in code.
 
-It's fine if you could not grasp everything at once - just give yourself some time and practice. If you encounter any errors or have questions, you can reach out to me on [X (<FontIcon icon="fa-brands fa-x-twitter   "/>`HeritageAlabi1`)](https://twitter.com/HeritageAlabi1).
+It's fine if you could not grasp everything at once - just give yourself some time and practice. If you encounter any errors or have questions, you can reach out to me on [X (<VPIcon icon="fa-brands fa-x-twitter   "/>`HeritageAlabi1`)](https://twitter.com/HeritageAlabi1).
 
 ‌‌
 

@@ -128,13 +128,13 @@ Alright hopefully you’re sold - so now how do you implement this into your pro
 
 We’ll now take a look at a practical example so you can understand how you can implement this in a project. This involves:
 
-- Creating an <FontIcon icon="iconfont icon-yaml"/>`openapi.yaml` file to describe the API specification.
+- Creating an <VPIcon icon="iconfont icon-yaml"/>`openapi.yaml` file to describe the API specification.
 - Configuring and integrating `swift-openapi-generator` into a SwiftUI application.
-- Prototyping an app that fetches and displays a list of posts from the [<FontIcon icon="fas fa-globe"/>jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/)
+- Prototyping an app that fetches and displays a list of posts from the [<VPIcon icon="fas fa-globe"/>jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/)
 
 To follow along, you will need Xcode installed and a basic understanding of Swift programming and SwiftUI for App development.
 
-### Step 1: Create a good <FontIcon icon="iconfont icon-yaml"/>`openapi.yaml` file (the specification)
+### Step 1: Create a good <VPIcon icon="iconfont icon-yaml"/>`openapi.yaml` file (the specification)
 
 The quality of a specification is really important because it directly determines the quality of the code produced by `swift-openapi-generator`. If you don’t have a good specification, you might run into several issues that developers often complain about, like confusing and long method names.
 
@@ -142,7 +142,7 @@ For example, it might generate something like `get_all_my_meal_recipes_hyphen_de
 
 Since we’re using the `jsonplaceholder` as our backend server, we are limited by what tweaks we can make - but it is a fantastic project that lets us mimic a backend server.
 
-In general, an <FontIcon icon="iconfont icon-yaml"/>`OpenAPI.yaml` file contains:
+In general, an <VPIcon icon="iconfont icon-yaml"/>`OpenAPI.yaml` file contains:
 
 1. OpenAPI Info and servers - This will provide the metadata about the API like the OpenAPI version, which server to point to for calls, and so on.
 2. Paths - This will provide the available endpoints. In our case, it can contain /posts as one of them. We also will have to mention the kind of endpoint (get, post, put, and so on)
@@ -211,9 +211,9 @@ Create a new SwiftUI project. For the purpose of this tutorial, we’ll use an i
 
 ![Basic SwiftUI App after it's created](https://cdn.hashnode.com/res/hashnode/image/upload/v1753047246793/3491aa5d-c35c-4157-adf2-789fe5e9cd96.png)
 
-Add the <FontIcon icon="iconfont icon-yaml"/>`openapi.yaml` file we just created to this project. (You can also create this file in Xcode and copy, paste from the script above.)
+Add the <VPIcon icon="iconfont icon-yaml"/>`openapi.yaml` file we just created to this project. (You can also create this file in Xcode and copy, paste from the script above.)
 
-![Adding the <FontIcon icon="iconfont icon-yaml"/>`openapi.yaml` file to our project](https://cdn.hashnode.com/res/hashnode/image/upload/v1753047290178/fc31b759-b1c4-4b48-b58b-d90109614cd0.png)
+![Adding the <VPIcon icon="iconfont icon-yaml"/>`openapi.yaml` file to our project](https://cdn.hashnode.com/res/hashnode/image/upload/v1753047290178/fc31b759-b1c4-4b48-b58b-d90109614cd0.png)
 
 Now, add the following swift packages to the project. (**Note: Please read the entire section about adding packages before you proceed.**)
 
@@ -270,7 +270,7 @@ The easiest way to fix this is removing the package and adding it again. Or you 
 
 ![Where to check if you encounter that error](https://cdn.hashnode.com/res/hashnode/image/upload/v1753048265985/100428a4-e46a-4aa1-8fcf-4c74e26ffed6.png)
 
-Now that we added these generator and runtime plugins, we need to give the generator some instructions on what to generate. You can do this with an <FontIcon icon="iconfont icon-yaml"/>`openapi-generator-config.yaml` file. For our project, use the following file. It’s really simple:
+Now that we added these generator and runtime plugins, we need to give the generator some instructions on what to generate. You can do this with an <VPIcon icon="iconfont icon-yaml"/>`openapi-generator-config.yaml` file. For our project, use the following file. It’s really simple:
 
 ```yaml title="openapi-generator-config.yaml"
 generate:
@@ -280,9 +280,9 @@ generate:
 
 This tells our generator to generate the **types** - the swift structs, enums, and so on from the schema section of the file, and the **client** - the main class which interacts with the networking logic.
 
-![<FontIcon icon="iconfont icon-yaml"/>`openapi-generator-config.yaml` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1753048237863/963d6bc0-a368-427b-add3-75dcf4bd3edf.png)
+![<VPIcon icon="iconfont icon-yaml"/>`openapi-generator-config.yaml` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1753048237863/963d6bc0-a368-427b-add3-75dcf4bd3edf.png)
 
-Save this into an <FontIcon icon="iconfont icon-yaml"/>`openapi-generator-config.yaml` file as shown.
+Save this into an <VPIcon icon="iconfont icon-yaml"/>`openapi-generator-config.yaml` file as shown.
 
 And finally, we want the generator to run whenever we want to build this application/target. We can specify this in the Build Phases tab of the target. Under the “ Target → Build Phases → Run Build Tool Plug-ins” , add the OpenAPIGenerator Plugin.
 
@@ -375,7 +375,7 @@ Let’s go through this file to understand what we’re doing.
 
 First, we import `OpenAPIUrlSession` along with `Foundation`. This allows us to call the server, get a response and parse that response.
 
-Next, we define the new `AppPost` struct. This is meant to be the representation of a `Post` in the App. In the generated <FontIcon icon="fa-brands fa-swift"/>`Types.Swift` file, we have the generated `Post` structure. This is defined as:
+Next, we define the new `AppPost` struct. This is meant to be the representation of a `Post` in the App. In the generated <VPIcon icon="fa-brands fa-swift"/>`Types.Swift` file, we have the generated `Post` structure. This is defined as:
 
 ```swift title="Type.swift"
 /// - Remark: Generated from `#/components/schemas/Post`.
@@ -501,7 +501,7 @@ If you have very verbose or ugly generated code, the problem is almost always th
 
 ### Large Specs and Performance Issues
 
-If you have a very large Spec file, generating a client for this entire specification can significantly increase the compile time. It can also result in absolutely massive <FontIcon icon="fa-brands fa-swift"/>`Types.swift` and <FontIcon icon="fa-brands fa-swift"/>`Client.swift` files.
+If you have a very large Spec file, generating a client for this entire specification can significantly increase the compile time. It can also result in absolutely massive <VPIcon icon="fa-brands fa-swift"/>`Types.swift` and <VPIcon icon="fa-brands fa-swift"/>`Client.swift` files.
 
 There is a filter option in the `openapi-generator-config.yaml` file that will allow the generator to include only parts of the spec that are relevant to the application to improve build times and so on. But if you want everything in an API that has hundreds of endpoints, the only way to reduce compile times is to avoid regenerating this every time and decouple this step from the regular build process.
 
@@ -532,7 +532,7 @@ For developers ready to explore further, please checkout the official `swift-ope
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/af3f30cf5471a7fdf8c2e69b5d2af4be26de959dabd4a04a27f22e8a85023eea/apple/swift-openapi-generator"/>
 
-You can follow me on [GitHub (<FontIcon icon="iconfont icon-github"/>`sravankaruturi`)](https://github.com/sravankaruturi) and [<FontIcon icon="fas fa-globe"/>Hashnode](https://hashnode.com/@sravankaruturi) for my other posts and projects.
+You can follow me on [GitHub (<VPIcon icon="iconfont icon-github"/>`sravankaruturi`)](https://github.com/sravankaruturi) and [<VPIcon icon="fas fa-globe"/>Hashnode](https://hashnode.com/@sravankaruturi) for my other posts and projects.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

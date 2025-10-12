@@ -808,7 +808,7 @@ fetch("https://type.fit/api/quotes")
   .catch((err) => console.log(err));
 ```
 
-You can read more about Fetch API errors [<FontIcon icon="fas fa-globe"/>here](https://tjvantoll.com/2015/09/13/fetch-and-errors/).
+You can read more about Fetch API errors [<VPIcon icon="fas fa-globe"/>here](https://tjvantoll.com/2015/09/13/fetch-and-errors/).
 
 ---
 
@@ -872,7 +872,7 @@ In this article, we have learned over 10 JavaScript methods and concepts that ev
 
 There are so many other methods and concepts you should know, but these are the ones you might not really pay attention to while learning JavaScript. These are important to understand before you learn React.
 
-Suppose you are just getting started with JavaScript - I have curated an awesome list of resources that will help you learn JavaScript concepts and topics [here (<FontIcon icon="iconfont icon-github"/>`olawanlejoel/Awesome-Javascript`)](https://github.com/olawanlejoel/Awesome-Javascript). Don’t forget to star and share!
+Suppose you are just getting started with JavaScript - I have curated an awesome list of resources that will help you learn JavaScript concepts and topics [here (<VPIcon icon="iconfont icon-github"/>`olawanlejoel/Awesome-Javascript`)](https://github.com/olawanlejoel/Awesome-Javascript). Don’t forget to star and share!
 
 You can access over 200 of my articles by [visiting my website](https://joelolawanle.com/contents). You can also use the search field to see if I've written a specific article.
 

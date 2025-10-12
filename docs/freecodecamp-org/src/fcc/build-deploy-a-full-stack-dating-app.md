@@ -59,7 +59,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731508907850/33dee9f
 
 Creating a modern, full-stack web application has never been more exciting, thanks to the wide array of powerful tools available to developers today. If you’ve ever thought about building a dynamic, feature-rich app but weren’t sure where to start, this comprehensive guide is for you.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you how to build and deploy a modern dating application from scratch. This course uses cutting-edge tools and frameworks, including **Next.js**, **Prisma**, **NextAuth**, **Cloudinary**, and **Pusher**, to create a professional-grade app with features like authentication, real-time messaging, media uploads, and more. By the end of the course, you’ll also learn how to deploy your app to **Vercel**, ensuring it’s production-ready and accessible to users. Eric Tech developed this course. Eric is a software developer at Microsoft.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you how to build and deploy a modern dating application from scratch. This course uses cutting-edge tools and frameworks, including **Next.js**, **Prisma**, **NextAuth**, **Cloudinary**, and **Pusher**, to create a professional-grade app with features like authentication, real-time messaging, media uploads, and more. By the end of the course, you’ll also learn how to deploy your app to **Vercel**, ensuring it’s production-ready and accessible to users. Eric Tech developed this course. Eric is a software developer at Microsoft.
 
 ---
 
@@ -120,7 +120,7 @@ Finalize and deploy your app to Vercel for seamless hosting.
 
 This hands-on guide provides a holistic understanding of full-stack development, emphasizing both coding and the logic behind each feature. By the end of this course, you’ll have built a sophisticated dating app and gained the skills to create similar projects in the future.
 
-Check out the course now on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/JTNBJHba_sE) and start building your next big project (7-hour watch).
+Check out the course now on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/JTNBJHba_sE) and start building your next big project (7-hour watch).
 
 <VidStack src="youtube/JTNBJHba_sE" />
 

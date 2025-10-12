@@ -72,7 +72,7 @@ second.onchange = function() {
 }
 ```
 
-In the worker, after receiving the message, you can write an event handler function code as a response (<FontIcon icon="fa-brands fa-js"/>`worker.js`):
+In the worker, after receiving the message, you can write an event handler function code as a response (<VPIcon icon="fa-brands fa-js"/>`worker.js`):
 
 ```js
 onmessage = function(e) {

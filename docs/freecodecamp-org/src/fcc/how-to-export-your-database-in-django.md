@@ -128,7 +128,7 @@ This is the easiest and most common way to export your data.
 python manage.py dumpdata > db.json
 ```
 
-That’s it. You’ve just exported all your data into a JSON file called <FontIcon icon="iconfont icon-json"/>`db.json`.
+That’s it. You’ve just exported all your data into a JSON file called <VPIcon icon="iconfont icon-json"/>`db.json`.
 
 #### What’s happening here?
 
@@ -153,7 +153,7 @@ This is useful if your database is big and you only need a slice of it.
 
 #### A Quick Tip About Fixtures
 
-The file you just created (<FontIcon icon="iconfont icon-json"/>`db.json`) is called a *fixture* in Django. You can use it to load data into another project using:
+The file you just created (<VPIcon icon="iconfont icon-json"/>`db.json`) is called a *fixture* in Django. You can use it to load data into another project using:
 
 ```sh
 python manage.py loaddata db.json
@@ -167,7 +167,7 @@ Depending on what database you're using, you can also use tools that work outsid
 
 #### For SQLite (Django’s default)
 
-Your database is just a file, usually named <FontIcon icon="iconfont icon-sqlite"/>`db.sqlite3`.
+Your database is just a file, usually named <VPIcon icon="iconfont icon-sqlite"/>`db.sqlite3`.
 
 You can copy it like any other file:
 
@@ -195,7 +195,7 @@ pg_dump -U your_username your_database > backup.sql
 
 You might need to enter your password, depending on how your database is set up.
 
-You can [<FontIcon icon="iconfont icon-postgresql"/>find more info on `pg_dump` here](https://postgresql.org/docs/current/app-pgdump.html).
+You can [<VPIcon icon="iconfont icon-postgresql"/>find more info on `pg_dump` here](https://postgresql.org/docs/current/app-pgdump.html).
 
 ### Method 3: Export to CSV for Excel or Google Sheets
 
@@ -237,7 +237,7 @@ Run this script with Django’s shell:
 python manage.py shell < export_books.py
 ```
 
-Now you have a <FontIcon icon="fas fa-file-csv"/>`books.csv` file you can open in Excel or Google Sheets.
+Now you have a <VPIcon icon="fas fa-file-csv"/>`books.csv` file you can open in Excel or Google Sheets.
 
 :::
 

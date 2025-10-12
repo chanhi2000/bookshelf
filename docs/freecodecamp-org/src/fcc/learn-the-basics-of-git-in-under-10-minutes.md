@@ -113,11 +113,11 @@ I’m assuming you already have a file the you want to place under version contr
 
 ### Step 0: Make a GitHub Account. Duh.
 
-If you don't already have one, you can make one [<FontIcon icon="iconfont icon-github"/>here](https://github.com/join).
+If you don't already have one, you can make one [<VPIcon icon="iconfont icon-github"/>here](https://github.com/join).
 
 ### Step 1: Make sure you have Git installed on you machine.
 
-If you are on a <FontIcon icon="iconfont icon-macos"/>**Mac**, fire up the terminal and enter the following command:
+If you are on a <VPIcon icon="iconfont icon-macos"/>**Mac**, fire up the terminal and enter the following command:
 
 ```sh
 git --version
@@ -125,13 +125,13 @@ git --version
 
 This will prompt open an installer if you don’t already have git. So set it up using the installer. If you have git already, it’ll just show you which version of git you have installed.
 
-If you are running <FontIcon icon="fa-brands fa-linux"/>**Linux**(deb), enter the following in the terminal:
+If you are running <VPIcon icon="fa-brands fa-linux"/>**Linux**(deb), enter the following in the terminal:
 
 ```sh
 sudo apt install git-all
 ```
 
-If you are on <FontIcon icon="fa-brands fa-windows"/>**Windows**:
+If you are on <VPIcon icon="fa-brands fa-windows"/>**Windows**:
 
 ```sh
 get a mac
@@ -139,7 +139,7 @@ get a mac
 
 Just kidding… Relax… The amount of people I triggered… Phew…  
 
-Go to this [<FontIcon icon="fa-brands fa-apple"/>**link**](https://apple.com/macos/what-is/) or this [<FontIcon icon="iconfont icon-git"/>link](https://gitforwindows.org/) for more info on how to get it.
+Go to this [<VPIcon icon="fa-brands fa-apple"/>**link**](https://apple.com/macos/what-is/) or this [<VPIcon icon="iconfont icon-git"/>link](https://gitforwindows.org/) for more info on how to get it.
 
 ### Step 2: Tell Git who you are.
 
@@ -157,11 +157,11 @@ git config --global --list # To check the info you just provided
 
 Why you ask? Using the **SSH protocol**, you can **connect and authenticate** to r**emote servers and services**. With SSH keys, you can connect to GitHub without supplying your username or password at each visit.
 
-- Follow this [<FontIcon icon="iconfont icon-github"/>link](https://help.github.com/articles/about-ssh/) to learn more about SSH.  
-- [<FontIcon icon="iconfont icon-github"/>**Go here**](https://help.github.com/articles/checking-for-existing-ssh-keys/) to check if you have an existing SSH key.  
-- [<FontIcon icon="iconfont icon-github"/>**Go here**](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) to generate a SSH Key.  
-- [<FontIcon icon="iconfont icon-github"/>**Go here**](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to add the SSH key to your GitHub account.  
-- And finally [<FontIcon icon="iconfont icon-github"/>**go here**](https://help.github.com/articles/testing-your-ssh-connection/) to test its connection.
+- Follow this [<VPIcon icon="iconfont icon-github"/>link](https://help.github.com/articles/about-ssh/) to learn more about SSH.  
+- [<VPIcon icon="iconfont icon-github"/>**Go here**](https://help.github.com/articles/checking-for-existing-ssh-keys/) to check if you have an existing SSH key.  
+- [<VPIcon icon="iconfont icon-github"/>**Go here**](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) to generate a SSH Key.  
+- [<VPIcon icon="iconfont icon-github"/>**Go here**](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to add the SSH key to your GitHub account.  
+- And finally [<VPIcon icon="iconfont icon-github"/>**go here**](https://help.github.com/articles/testing-your-ssh-connection/) to test its connection.
 
 If you did setup SSH, every git command that has a link you replace it by:
 
@@ -175,7 +175,7 @@ Note       : You can use both ways alternatively
 
 ### Step 4: Let’s Git
 
-Create a new repository on GitHub. Follow this [<FontIcon icon="iconfont icon-github"/>link](https://github.com/new).   Now, locate to the folder you want to place under git in your terminal.
+Create a new repository on GitHub. Follow this [<VPIcon icon="iconfont icon-github"/>link](https://github.com/new).   Now, locate to the folder you want to place under git in your terminal.
 
 ```sh
 cd Desktop/MuskCult
@@ -330,13 +330,13 @@ Locate to the directory you want to clone the repo. Copy the link of the reposit
 git clone remote_repository_URL
 ```
 
-Feel free to go ahead and clone the repo I created above using: [<FontIcon icon="iconfont icon-github"/>`Gothamv/MuskCult`](https://github.com/Gothamv/MuskCult)
+Feel free to go ahead and clone the repo I created above using: [<VPIcon icon="iconfont icon-github"/>`Gothamv/MuskCult`](https://github.com/Gothamv/MuskCult)
 
 ![](https://cdn-media-1.freecodecamp.org/images/1*6NACk8-IiBjbauM-k-aesQ.gif)
 
 #### Pushing Changes to the Git Repo
 
-Now you can work on the files you want and commit to changes locally. If you want to push changes to that repository you either have to be [<FontIcon icon="iconfont icon-github"/>added as a collaborator](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/) for the repository or you have create something known as pull request. Go and check out how to do one [<FontIcon icon="iconfont icon-github"/>here](https://help.github.com/articles/creating-a-pull-request/) and give me a pull request with your code file.
+Now you can work on the files you want and commit to changes locally. If you want to push changes to that repository you either have to be [<VPIcon icon="iconfont icon-github"/>added as a collaborator](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/) for the repository or you have create something known as pull request. Go and check out how to do one [<VPIcon icon="iconfont icon-github"/>here](https://help.github.com/articles/creating-a-pull-request/) and give me a pull request with your code file.
 
 #### Collaborating
 
@@ -380,13 +380,13 @@ When you `git fetch`, Git gathers any commits from the target branch that do not
 
 So what is it?
 
-<FontIcon icon="iconfont icon-git"/>`.gitignore` tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files from your working directory that aren't useful to other collaborators, such as compilation products, temporary files IDEs create, etc.
+<VPIcon icon="iconfont icon-git"/>`.gitignore` tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files from your working directory that aren't useful to other collaborators, such as compilation products, temporary files IDEs create, etc.
 
 ![](https://cdn-media-1.freecodecamp.org/images/1*3NFtOjfz0NvNSwba7YCmDA.png)
 
-So in the above example, files like **pycache**, .DS_Store are used by the system to store information for faster access. This is not useful for other collaborators. So we can tell git to ignore them by adding a <FontIcon icon="iconfont icon-git"/>`.gitignore` file.
+So in the above example, files like **pycache**, .DS_Store are used by the system to store information for faster access. This is not useful for other collaborators. So we can tell git to ignore them by adding a <VPIcon icon="iconfont icon-git"/>`.gitignore` file.
 
-Use the touch command to create the <FontIcon icon="iconfont icon-git"/>`.gitignore` file:
+Use the touch command to create the <VPIcon icon="iconfont icon-git"/>`.gitignore` file:
 
 ```sh
 touch .gitignore

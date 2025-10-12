@@ -69,7 +69,7 @@ If you haven’t come across a kata yet, trust me—you will soon enough.
 
 There’s a reason why developers love katas, whether they use them to sharpen their skills for personal projects or prepare for interviews.
 
-A kata is all about **deliberate** practice. It comes from martial arts like Karate and Judo, and, according to Wikipedia, it’s defined as a pre-determined sequence of movements, techniques, and patterns that follow a specific order (source: [<FontIcon icon="fa-brands fa-wikipedia-w"/>wikipedia](https://en.wikipedia.org/wiki/Kata)).
+A kata is all about **deliberate** practice. It comes from martial arts like Karate and Judo, and, according to Wikipedia, it’s defined as a pre-determined sequence of movements, techniques, and patterns that follow a specific order (source: [<VPIcon icon="fa-brands fa-wikipedia-w"/>wikipedia](https://en.wikipedia.org/wiki/Kata)).
 
 Kata Machines come from this idea: learning through drills and deliberate, conscious (choreographed) practice.
 
@@ -147,7 +147,7 @@ If that sounds like you, we’re ready to proceed.
 
 ## Form 1: Server-Side Frameworks
 
-The term "server-side framework" is broad. Think about it: `mysql2` could be considered a framework depending on how you classify frameworks and libraries. Even <FontIcon icon="fa-brands fa-js"/>`sharp.js` for image editing could fit under the umbrella of server-side frameworks, right?
+The term "server-side framework" is broad. Think about it: `mysql2` could be considered a framework depending on how you classify frameworks and libraries. Even <VPIcon icon="fa-brands fa-js"/>`sharp.js` for image editing could fit under the umbrella of server-side frameworks, right?
 
 But the question is, what type of framework is Express.js?
 
@@ -169,7 +169,7 @@ Once you’re set, we can dive right in with our first deep dive.
 
 ### First Drill: Unpacking Express.js
 
-Open your Express source code in an editor. You’ll find the entry file <FontIcon icon="fa-brands fa-js"/>`express.js` in the <FontIcon icon="fas fa-folder-open"/>`lib` folder.
+Open your Express source code in an editor. You’ll find the entry file <VPIcon icon="fa-brands fa-js"/>`express.js` in the <VPIcon icon="fas fa-folder-open"/>`lib` folder.
 
 You can skim the file, but we’re going to focus on lines 42 and 43—the heart of it all:
 
@@ -180,7 +180,7 @@ mixin(app, proto, false);
 
 What you’re looking at is object composition: a design pattern where an object is created by combining the properties and methods of other objects.
 
-Our target object here is `proto`, which is imported from <FontIcon icon="fa-brands fa-js"/>`application.js`, the core of Express.
+Our target object here is `proto`, which is imported from <VPIcon icon="fa-brands fa-js"/>`application.js`, the core of Express.
 
 Let’s open that file. There’s a lot of code, but remember, our goal is to figure out where the server is within Express.
 
@@ -223,8 +223,8 @@ The communication itself is complex, which is where protocols come in to facilit
 
 The most common protocols are UDP and TCP:
 
-- **UDP** is a connectionless protocol and does not guarantee reliable communication, but allows for low-latency and efficient data transfer. This is ideal for time-sensitive applications such as video conferencing, online gaming, and voice over IP (VoIP) (source [<FontIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia](https://en.wikipedia.org/wiki/User_Datagram_Protocol)).
-- **TCP** is a connection-oriented protocol with reliable, ordered, and error-checked data transmission between applications on networked devices. It’s a major part of internet applications (source [<FontIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)).
+- **UDP** is a connectionless protocol and does not guarantee reliable communication, but allows for low-latency and efficient data transfer. This is ideal for time-sensitive applications such as video conferencing, online gaming, and voice over IP (VoIP) (source [<VPIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia](https://en.wikipedia.org/wiki/User_Datagram_Protocol)).
+- **TCP** is a connection-oriented protocol with reliable, ordered, and error-checked data transmission between applications on networked devices. It’s a major part of internet applications (source [<VPIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)).
 
 TCP is the most widely used protocol due to its reliability, and most server-side applications you’ll work with, including Express, are TCP-based.
 
@@ -343,7 +343,7 @@ ObjectSetPrototypeOf(Server.prototype, EventEmitter.prototype);
 
 In plain English: our `Server` object is inheriting all the behavior from other objects like `EventEmitter`, for example. This is a common pattern in JavaScript libraries - remember the mixin in Express?
 
-At this point, if you’ve never worked with prototypes or Object-Oriented JavaScript (OOJS), this might feel like advanced territory. But don’t worry - the good folks at [<FontIcon icon="fa-brands fa-wikipedia-w"/>MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain) have an excellent guide on prototypes to get you up to speed.
+At this point, if you’ve never worked with prototypes or Object-Oriented JavaScript (OOJS), this might feel like advanced territory. But don’t worry - the good folks at [<VPIcon icon="fa-brands fa-wikipedia-w"/>MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain) have an excellent guide on prototypes to get you up to speed.
 
 Now, what’s one thing we know for sure about a Node.js server? It has a `listen` function. We use it all the time in server-side code (even in frameworks like Express). So, let’s check if our `Server` object has a `listen` function.
 
@@ -567,7 +567,7 @@ function requestWrapper(req, res) {
 }
 ```
 
-In more advanced frameworks like [<FontIcon icon="fas fa-globe"/>Hono.js](https://hono.dev/), the request wrapper might add additional functionality, such as helper methods for setting headers or parsing body content. For now, we’re keeping things simple and just returning the request and response with the URL and method.
+In more advanced frameworks like [<VPIcon icon="fas fa-globe"/>Hono.js](https://hono.dev/), the request wrapper might add additional functionality, such as helper methods for setting headers or parsing body content. For now, we’re keeping things simple and just returning the request and response with the URL and method.
 
 ### Testing the Queue
 
@@ -749,6 +749,6 @@ It’s a powerful learning exercise, because we stripped away the magic and dug 
 
 I left out more advanced topics like updating our queue with a linked list and simulating concurrent requests, so this is something you can explore.
 
-Thanks for reading! I hope you enjoyed this exploration as much as I did writing it. If you have any thoughts, questions, or just want to connect I am on [x (<FontIcon icon="fa-brands fa-x-twitter"/>`codelit09`)](https://x.com/codelit09), feel free to reach out.
+Thanks for reading! I hope you enjoyed this exploration as much as I did writing it. If you have any thoughts, questions, or just want to connect I am on [x (<VPIcon icon="fa-brands fa-x-twitter"/>`codelit09`)](https://x.com/codelit09), feel free to reach out.
 
 And of course, enjoy your timezone!

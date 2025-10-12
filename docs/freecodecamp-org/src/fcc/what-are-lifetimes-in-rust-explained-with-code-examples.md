@@ -66,7 +66,7 @@ To get the most out of this tutorial, you'll need the following:
 
 ## So, What are Lifetimes in Rust?
 
-For Rust's [<FontIcon icon="fa-brands fa-rust"/>borrow checker](https://doc.rust-lang.org/rust-by-example/scope/borrow.html) to ensure safety throughout your code, it needs to know how long all the data in the program will live during its execution. This becomes difficult to do in certain situations, and those situations are where you need to use explicit lifetime annotations.
+For Rust's [<VPIcon icon="fa-brands fa-rust"/>borrow checker](https://doc.rust-lang.org/rust-by-example/scope/borrow.html) to ensure safety throughout your code, it needs to know how long all the data in the program will live during its execution. This becomes difficult to do in certain situations, and those situations are where you need to use explicit lifetime annotations.
 
 Lifetimes in Rust are mechanisms for ensuring that all borrows that occur within your code are valid. A variable's lifetime is how long it lives within the program's execution, starting from when it's initialized and ending when it's destroyed in the program.
 

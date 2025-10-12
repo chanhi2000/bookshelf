@@ -89,7 +89,7 @@ Here are the sections covered in this course:
 - Fine-Tuning Benefits & Demerits
 - Step-by-Step Fine-Tuning Process
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/H-oCV5brtU4) (2-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/H-oCV5brtU4) (2-hour watch).
 
 <VidStack src="youtube/H-oCV5brtU4" />
 

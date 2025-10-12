@@ -145,7 +145,7 @@ There are a few other variations of implementing a singleton class, but we will 
 
 ## Factory Method Design Pattern
 
-In the book "[<FontIcon icon="fas fa-globe"/>Design Patterns: Elements of Reusable Object-Oriented Software](https://oreilly.com/library/view/design-patterns-elements/0201633612/)" the authors (referred to as the Gang of Four or GoF) define the factory method as follows:
+In the book "[<VPIcon icon="fas fa-globe"/>Design Patterns: Elements of Reusable Object-Oriented Software](https://oreilly.com/library/view/design-patterns-elements/0201633612/)" the authors (referred to as the Gang of Four or GoF) define the factory method as follows:
 
 > defines an interface for creating an object, but let subclasses decide which class to instantiate
 
@@ -231,7 +231,7 @@ This way, we can ensure that the client code is decoupled from the specific clas
 
 ## Abstract Factory Design Pattern
 
-We will once again refer to the book "[<FontIcon icon="fas fa-globe"/>Design Patterns: Elements of Reusable Object-Oriented Software](https://oreilly.com/library/view/design-patterns-elements/0201633612/)" for the definition of abstract factory. It states:
+We will once again refer to the book "[<VPIcon icon="fas fa-globe"/>Design Patterns: Elements of Reusable Object-Oriented Software](https://oreilly.com/library/view/design-patterns-elements/0201633612/)" for the definition of abstract factory. It states:
 
 > Abstract Factory provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
@@ -563,7 +563,7 @@ public class Main {
 
 In this article, we explored the creational design patterns and delved into code examples and use cases. Understanding these patterns and their application will help you make your code more extensible and maintainable.
 
-Connect with me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`abaradwaj`)](https://linkedin.com/in/abaradwaj/)
+Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`abaradwaj`)](https://linkedin.com/in/abaradwaj/)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

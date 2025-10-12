@@ -56,7 +56,7 @@ The Drawer is a side panel that slides in from the left (by default) and provide
 
 In our app, the drawer will include links to the Request recipe screen, Profile, Logout, and languages for authenticated users.
 
-In the <FontIcon icon="fas fa-folder-open"/>`lib/components/`<FontIcon icon="fa-brands fa-dart-lang"/>`drawer.dart` file, add the code below:
+In the <VPIcon icon="fas fa-folder-open"/>`lib/components/`<VPIcon icon="fa-brands fa-dart-lang"/>`drawer.dart` file, add the code below:
 
 ```dart title="lib/components/drawer.dart"
 import 'package:easy_localization/easy_localization.dart';
@@ -228,7 +228,7 @@ On startup, the drawer checks the user's authentication status using `SharedPref
 
 The AppBar is the top bar of your app’s screen. It typically contains the app’s title, a back button (if needed), and sometimes actions like search, settings, or a language toggle. In our multilingual recipe app, we’ll use the `AppBar` to show the current page title and allow easy navigation through the drawer.
 
-In the <FontIcon icon="fas fa-folder-open"/>`lib/components/`<FontIcon icon="fa-brands fa-dart-lang"/>`appBar.dart` file, add the code below:
+In the <VPIcon icon="fas fa-folder-open"/>`lib/components/`<VPIcon icon="fa-brands fa-dart-lang"/>`appBar.dart` file, add the code below:
 
 ```dart :collpased-lines title="lib/components/appBar.dart"
 import 'package:flutter/material.dart';

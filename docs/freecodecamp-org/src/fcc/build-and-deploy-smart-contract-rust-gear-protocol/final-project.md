@@ -143,7 +143,7 @@ This process is repeated until either the player's lives (( `Lp` )) or the Boss'
 
 ## Windows Error
 
-If you use Windows, you may encounter an error with the <FontIcon icon="fas fa-gears"/>`link.exe`. Honestly, I cannot explain the reason behind the error, but in the Gear docs, it was made clear that Windows users might experience some problems when building their project.
+If you use Windows, you may encounter an error with the <VPIcon icon="fas fa-gears"/>`link.exe`. Honestly, I cannot explain the reason behind the error, but in the Gear docs, it was made clear that Windows users might experience some problems when building their project.
 
 But rest assured, there's a solution, and I'm going to guide you through it. So please follow these steps carefully so you don't have to deal with bugs along the way.
 
@@ -163,7 +163,7 @@ After excutting the command, run the command below to list other Linux releases.
 wsl -l -o
 ```
 
-This command shows a list of other Linux distros, and you can select anyone you've used before. If you're new to Linux distros, I recommend selecting the <FontIcon icon="fa-brands fa-ubuntu"/>`Ubuntu-22.04`.
+This command shows a list of other Linux distros, and you can select anyone you've used before. If you're new to Linux distros, I recommend selecting the <VPIcon icon="fa-brands fa-ubuntu"/>`Ubuntu-22.04`.
 
 These are just lists and are read-only. In order to select your system, run the command below.
 
@@ -256,7 +256,7 @@ battle-showdown
     └── lib.rs
 ```
 
-So head-over to to your <FontIcon icon="fas fa-folder-open"/>`io/src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs` and paste the follow code:
+So head-over to to your <VPIcon icon="fas fa-folder-open"/>`io/src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs` and paste the follow code:
 
 ```rs title="io/src/lib.rs"
 #![no_std]
@@ -285,7 +285,7 @@ So for now, we're saying that these handlers do not send or receive data as such
 
 ## Building Our Game
 
-First off, let's make register the io in your parent directory <FontIcon icon="iconfont icon-toml"/>`cargo.toml`. So head over to <FontIcon icon="iconfont icon-toml"/>`./cargo.toml` and paste the code below:
+First off, let's make register the io in your parent directory <VPIcon icon="iconfont icon-toml"/>`cargo.toml`. So head over to <VPIcon icon="iconfont icon-toml"/>`./cargo.toml` and paste the code below:
 
 ```toml title="Cargo.toml"
 workspace = { members = ["io"] }
@@ -305,11 +305,11 @@ gear-wasm-builder = "1.4.1"
 battle-showdown-io={path = "io"}
 ```
 
-I've ensured that the "battle-showdown-io" path is included in both the dependencies and build-dependencies sections. This decision was intentional because when it's added solely to build-dependencies, only the structs, enums, and other data types or functions within the build.rs file gain access to them, not the dependencies in your <FontIcon icon="fas fa-folder-open"/>`./src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs`. This is important because I'll be utilizing `battle-showdown-io` in both build-dependencies (<FontIcon icon="fa-brands fa-rust"/>`build.rs`) and dependencies (<FontIcon icon="fas fa-folder-open"/>`./src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs`).
+I've ensured that the "battle-showdown-io" path is included in both the dependencies and build-dependencies sections. This decision was intentional because when it's added solely to build-dependencies, only the structs, enums, and other data types or functions within the build.rs file gain access to them, not the dependencies in your <VPIcon icon="fas fa-folder-open"/>`./src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs`. This is important because I'll be utilizing `battle-showdown-io` in both build-dependencies (<VPIcon icon="fa-brands fa-rust"/>`build.rs`) and dependencies (<VPIcon icon="fas fa-folder-open"/>`./src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs`).
 
 This step is crucial because overlooking it can lead to frustrating import errors.
 
-Next, is the file <FontIcon icon="fas fa-folder-open"/>`./io/`<FontIcon icon="fa-brands fa-rust"/>`cargo.toml`, paste the following code below.
+Next, is the file <VPIcon icon="fas fa-folder-open"/>`./io/`<VPIcon icon="fa-brands fa-rust"/>`cargo.toml`, paste the following code below.
 
 ```toml title="io/cargo.toml"
 [package]
@@ -518,7 +518,7 @@ pub struct BattleShowdownState {
 
 Therefore, whenever you call the state function, you should expect to see the result in this format. Now, add the `BattleShowdownState` to the state in the metadata, like so: `type State = Out<BattleShowdownState>;`.
 
-With that, the setup is complete. Here is the entire code for the <FontIcon icon="fas fa-folder-open"/>`./io/src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs` file.
+With that, the setup is complete. Here is the entire code for the <VPIcon icon="fas fa-folder-open"/>`./io/src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs` file.
 
 ```rs :collapsed-lines title="io/src/lib.rs"
 #![no_std]
@@ -631,7 +631,7 @@ pub enum BattleShowdownEvent {
 
 ## `build.rs`
 
-Import `BattleShowdown` to the <FontIcon icon="fa-brands fa-rust"/>`build.rs` from your parent directory at <FontIcon icon="fas fa-folder-open"/>`./src/`<FontIcon icon="fa-brands fa-rust"/>`build.rs`. If you encounter an import error, make sure that in your <FontIcon icon="iconfont icon-toml"/>`cargo.toml`, you're registering `battle-showdown-io={path = "io"}` there.
+Import `BattleShowdown` to the <VPIcon icon="fa-brands fa-rust"/>`build.rs` from your parent directory at <VPIcon icon="fas fa-folder-open"/>`./src/`<VPIcon icon="fa-brands fa-rust"/>`build.rs`. If you encounter an import error, make sure that in your <VPIcon icon="iconfont icon-toml"/>`cargo.toml`, you're registering `battle-showdown-io={path = "io"}` there.
 
 ```rs title="src/build.rs"
 use battle_showdown_io::BattleShowdown;
@@ -641,11 +641,11 @@ fn main() {
 }
 ```
 
-That's it for the <FontIcon icon="fa-brands fa-rust"/>`build.rs`, and what it does is to build your project into `wasm` and then build the `metadata` for `BattleShown` for you.
+That's it for the <VPIcon icon="fa-brands fa-rust"/>`build.rs`, and what it does is to build your project into `wasm` and then build the `metadata` for `BattleShown` for you.
 
 ---
 
-## Game Logic Implementation - <FontIcon icon="fas fa-folder-open"/>`./src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs`
+## Game Logic Implementation - <VPIcon icon="fas fa-folder-open"/>`./src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs`
 
 For this section, I'll write the code below, then I'll explain this as we go. There's going to be a problem I'd want you to solve, which will be about the state.
 
@@ -1069,7 +1069,7 @@ And that's that for this project. There are some exciting features you can consi
   logo="https://cdn.loom.com/assets/favicons-loom/android-chrome-192x192.png"
   preview="https://cdn.loom.com/assets/img/og/loom-banner.png"/>
 
-In the video you could see I added another method for resetting everything back to it inital state. Though I didn't guide you through the process of doing that, you should know it is easy to implement, and I've added [a GitHub repository (<FontIcon icon="iconfont icon-github"/>`rockyessel/battle-showdown`)](https://github.com/rockyessel/battle-showdown) for the entire code.
+In the video you could see I added another method for resetting everything back to it inital state. Though I didn't guide you through the process of doing that, you should know it is easy to implement, and I've added [a GitHub repository (<VPIcon icon="iconfont icon-github"/>`rockyessel/battle-showdown`)](https://github.com/rockyessel/battle-showdown) for the entire code.
 
 <SiteInfo
   name="rockyessel/battle-showdown: Embark on your journey into smart contract development with Gear Protocol through this beginner-friendly tutorial, covering everything from basic concepts to hands-on implementation."

@@ -65,5 +65,5 @@ Beyond performance, having an unnecessarily large $d$ can increase storage size 
 
 To combat these issues, cryptographers utilized the Carmichael function to generate RSA keys. Before we dive into how the Carmichael function helps our case, let’s quickly understand what the Carmichael function actually is.
 
-[^1]: FIPS 186-5: [<FontIcon icon="fas fa-globe"/>Digital Signature Standard (DSS)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf)
-[^2]: RFC 8017 PKCS #1: [<FontIcon icon="fas fa-globe"/>RSA Cryptography Specifications](https://rfc-editor.org/rfc/rfc8017.html)
+[^1]: FIPS 186-5: [<VPIcon icon="fas fa-globe"/>Digital Signature Standard (DSS)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf)
+[^2]: RFC 8017 PKCS #1: [<VPIcon icon="fas fa-globe"/>RSA Cryptography Specifications](https://rfc-editor.org/rfc/rfc8017.html)

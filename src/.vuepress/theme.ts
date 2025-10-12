@@ -224,10 +224,6 @@ export default hopeTheme({
       }
     },
     nprogress: true,
-     /* git: {
-      createdTime: false,
-      updatedTime: false,
-    },*/
     git: {
       contributors: false,
       createdTime: false,

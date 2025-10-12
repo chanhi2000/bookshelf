@@ -97,7 +97,7 @@ Since we will be focusing on how to build a project, there are a few prerequisit
 
 ::: info Completed Code
 
-[You can find the completed code on GitHub by clicking here (<FontIcon icon="iconfont icon-github"/>`chrisblakely01/react-node-recipe-app`)](https://github.com/chrisblakely01/react-node-recipe-app) or clone the repo:
+[You can find the completed code on GitHub by clicking here (<VPIcon icon="iconfont icon-github"/>`chrisblakely01/react-node-recipe-app`)](https://github.com/chrisblakely01/react-node-recipe-app) or clone the repo:
 
 ```sh
 git clone git@github.com:chrisblakely01/react-node-recipe-app.git
@@ -107,7 +107,7 @@ git clone git@github.com:chrisblakely01/react-node-recipe-app.git
 
 ### Starter Code
 
-If you want to save some time and skip the initial setup, [you can find the starter code here. (<FontIcon icon="iconfont icon-github"/>`chrisblakely01/react-node-recipe-app-starter`)](https://github.com/chrisblakely01/react-node-recipe-app-starter) This has a skeleton frontend/backend project already setup, as well as the basic layout and CSS. Or clone the repo:
+If you want to save some time and skip the initial setup, [you can find the starter code here. (<VPIcon icon="iconfont icon-github"/>`chrisblakely01/react-node-recipe-app-starter`)](https://github.com/chrisblakely01/react-node-recipe-app-starter) This has a skeleton frontend/backend project already setup, as well as the basic layout and CSS. Or clone the repo:
 
 ```sh
 git clone git@github.com:chrisblakely01/react-node-recipe-app-starter.git
@@ -151,7 +151,7 @@ Let’s start by setting up our workspace:
 
 ### Step 1: Setup Your Workspace
 
-Start by opening Visual Studio Code (or your preferred code editor). Create a new folder named <FontIcon icon="fas fa-folder-open"/>`recipe-app` on your desktop or another location. Then drag this folder into the Visual Studio Code window to open it.
+Start by opening Visual Studio Code (or your preferred code editor). Create a new folder named <VPIcon icon="fas fa-folder-open"/>`recipe-app` on your desktop or another location. Then drag this folder into the Visual Studio Code window to open it.
 
 Your folder structure should now look like this:
 
@@ -161,9 +161,9 @@ recipe-app
 
 ### Step 2: Setup the Backend
 
-In the <FontIcon icon="fas fa-folder-open"/>`recipe-app` folder, create another folder named <FontIcon icon="fas fa-folder-open"/>`backend`.
+In the <VPIcon icon="fas fa-folder-open"/>`recipe-app` folder, create another folder named <VPIcon icon="fas fa-folder-open"/>`backend`.
 
-Navigate to `View -> Terminal` in Visual Studio Code to open a terminal. Change your directory to the <FontIcon icon="fas fa-folder-open"/>`backend` folder using the command `cd backend`.
+Navigate to `View -> Terminal` in Visual Studio Code to open a terminal. Change your directory to the <VPIcon icon="fas fa-folder-open"/>`backend` folder using the command `cd backend`.
 
 Type `npm init` to initialize a new npm package, then hit Enter to move through the prompts. For the entry point, type `./src/index.ts` and hit <kbd>Enter</kbd>.
 
@@ -201,7 +201,7 @@ recipe-app
 
 ### Step 4: Setup Your Backend Code
 
-In the <FontIcon icon="fas fa-folder-open"/>`backend` folder, create a new folder named <FontIcon icon="fas fa-folder-open"/>`src`. Inside <FontIcon icon="fas fa-folder-open"/>`src`, create a file named <FontIcon icon="iconfont icon-typescript"/>`index.ts`.
+In the <VPIcon icon="fas fa-folder-open"/>`backend` folder, create a new folder named <VPIcon icon="fas fa-folder-open"/>`src`. Inside <VPIcon icon="fas fa-folder-open"/>`src`, create a file named <VPIcon icon="iconfont icon-typescript"/>`index.ts`.
 
 Add the following code to `index.ts`:
 
@@ -225,7 +225,7 @@ app.listen(5000, () => {
 
 ### Step 5: Add the Start Script
 
-First, open <FontIcon icon="iconfont icon-json"/>`package.json` in the <FontIcon icon="fas fa-folder-open"/>`backend` folder. In the <FontIcon icon="fas fa-folder-open"/>`scripts` section, replace the `test` script with a `start` script as follows:
+First, open <VPIcon icon="iconfont icon-json"/>`package.json` in the <VPIcon icon="fas fa-folder-open"/>`backend` folder. In the <VPIcon icon="fas fa-folder-open"/>`scripts` section, replace the `test` script with a `start` script as follows:
 
 ```json title="package.json"
 "scripts": {
@@ -235,7 +235,7 @@ First, open <FontIcon icon="iconfont icon-json"/>`package.json` in the <FontIcon
 
 ### Step 6: Run Your Backend
 
-In the terminal, ensure you are in the <FontIcon icon="fas fa-folder-open"/>`backend` folder, then type `npm start` to run your backend server.
+In the terminal, ensure you are in the <VPIcon icon="fas fa-folder-open"/>`backend` folder, then type `npm start` to run your backend server.
 
 Then open a browser and go to `http://localhost:5000/api/recipe/search`. You should see a response with the message `success`.
 
@@ -249,11 +249,11 @@ In this section, we'll focus on setting up a Postgres database using ElephantSQL
 
 ### Step 1: Set Up the ElephantSQL Database
 
-Start by navigating to [<FontIcon icon="fas fa-globe"/>ElephantSQL](https://elephantsql.com/). Click on "Get a managed database today," followed by selecting the "Tiny Turtle" plan for a free instance.
+Start by navigating to [<VPIcon icon="fas fa-globe"/>ElephantSQL](https://elephantsql.com/). Click on "Get a managed database today," followed by selecting the "Tiny Turtle" plan for a free instance.
 
 Sign in or create an account to proceed to the "Create new instance" page.
 
-Then enter a name for your database (for example, <FontIcon icon="fas fa-database"/>`recipe-app-db`), keep the plan on the free tier, and choose a region closest to you.
+Then enter a name for your database (for example, <VPIcon icon="fas fa-database"/>`recipe-app-db`), keep the plan on the free tier, and choose a region closest to you.
 
 Click on "Review," verify the details, and then click on "Create instance."
 
@@ -265,9 +265,9 @@ Locate and copy the URL under the "Details" section. This URL contains the crede
 
 ### Step 3: Create an Environment File
 
-Now, return to your code editor and open the <FontIcon icon="fas fa-folder-open"/>`backend` folder.
+Now, return to your code editor and open the <VPIcon icon="fas fa-folder-open"/>`backend` folder.
 
-Create a new file named <FontIcon icon="fas fa-file-lines"/>`.env`. Inside the <FontIcon icon="fas fa-file-lines"/>`.env` file, add the following line:
+Create a new file named <VPIcon icon="fas fa-file-lines"/>`.env`. Inside the <VPIcon icon="fas fa-file-lines"/>`.env` file, add the following line:
 
 ```plaintext title=".env"
 DATABASE_URL=<Your-Copied-Database-URL>
@@ -279,17 +279,17 @@ Replace `<Your-Copied-Database-URL>` with the URL you copied from ElephantSQL.
 
 Stop your server if it's running by pressing <kbd>Ctrl</kbd>+<kbd>C</kbd> (or <kbd>Cmd</kbd>+<kbd>C</kbd> on Mac) in the terminal.
 
-In the terminal, ensure you are in the <FontIcon icon="fas fa-folder-open"/>`backend` directory, and type the following command to initialize Prisma:
+In the terminal, ensure you are in the <VPIcon icon="fas fa-folder-open"/>`backend` directory, and type the following command to initialize Prisma:
 
 ```sh
 npx prisma init
 ```
 
-This command will create a new folder named <FontIcon icon="fas fa-folder-open"/>`prisma` with a file named <FontIcon icon="fas fa-file-lines"/>`schema.prisma`.
+This command will create a new folder named <VPIcon icon="fas fa-folder-open"/>`prisma` with a file named <VPIcon icon="fas fa-file-lines"/>`schema.prisma`.
 
 ### Step 5: Verify Prisma Integration
 
-Now, open <FontIcon icon="fas fa-folder-open"/>`prisma/`<FontIcon icon="fas fa-file-lines"/>`schema.prisma` to ensure your `DATABASE_URL` has been detected correctly.
+Now, open <VPIcon icon="fas fa-folder-open"/>`prisma/`<VPIcon icon="fas fa-file-lines"/>`schema.prisma` to ensure your `DATABASE_URL` has been detected correctly.
 
 Start your server again with the command `npm start`. Then navigate to `http://localhost:5000/api/recipe/search` in your browser to ensure your API still works and returns the success message.
 
@@ -310,13 +310,13 @@ recipe-app
 
 ### Step 1: Obtain an API Key from Spoonacular
 
-To do this, navigate to [<FontIcon icon="fas fa-globe"/>Spoonacular](https://spoonacular.com/) and click on "Start Now." Sign up for an account and proceed to the dashboard.
+To do this, navigate to [<VPIcon icon="fas fa-globe"/>Spoonacular](https://spoonacular.com/) and click on "Start Now." Sign up for an account and proceed to the dashboard.
 
 Within the dashboard, click on “Profile” on the left-hand side, and find the section related to API keys. Generate a new API key, and copy it to your clipboard.
 
 ### Step 2: Store the API Key Securely
 
-Now, return to your code editor and open the <FontIcon icon="fas fa-file-lines"/>`.env` file in the <FontIcon icon="fas fa-folder-open"/>`backend` folder.
+Now, return to your code editor and open the <VPIcon icon="fas fa-file-lines"/>`.env` file in the <VPIcon icon="fas fa-folder-open"/>`backend` folder.
 
 Add a new environment variable to store your API key as follows:
 
@@ -353,9 +353,9 @@ Then hit "Send" to issue the request and observe the response. You should see a 
 
 ### Step 1: Setup a New File for Recipe API Logic
 
-First, navigate to your <FontIcon icon="fas fa-folder-open"/>`backend/src` folder and create a new file named <FontIcon icon="iconfont icon-typescript"/>`recipe-api.ts`.
+First, navigate to your <VPIcon icon="fas fa-folder-open"/>`backend/src` folder and create a new file named <VPIcon icon="iconfont icon-typescript"/>`recipe-api.ts`.
 
-In <FontIcon icon="iconfont icon-typescript"/>`recipe-api.ts`, initiate a constant to store your API key from the environment variables:
+In <VPIcon icon="iconfont icon-typescript"/>`recipe-api.ts`, initiate a constant to store your API key from the environment variables:
 
 ```ts title="backend/src/recipe-api.ts"
 const API_KEY = process.env.API_KEY;
@@ -395,9 +395,9 @@ export const searchRecipes = async (searchTerm: string, page: number) => {
 
 ### Step 3: Import and Use `searchRecipes` in `index.ts`
 
-Now, navigate back to <FontIcon icon="iconfont icon-typescript"/>`index.ts` in the <FontIcon icon="fas fa-folder-open"/>`backend/src` folder.
+Now, navigate back to <VPIcon icon="iconfont icon-typescript"/>`index.ts` in the <VPIcon icon="fas fa-folder-open"/>`backend/src` folder.
 
-Import the `searchRecipes` function from <FontIcon icon="iconfont icon-typescript"/>`recipe-api.ts` at the top of your file:
+Import the `searchRecipes` function from <VPIcon icon="iconfont icon-typescript"/>`recipe-api.ts` at the top of your file:
 
 ```ts title="backend/src/recipe-api.ts"
 import * as RecipeAPI from "./recipe-api";
@@ -445,11 +445,11 @@ Now, initiate a new React project with Vite by running:
 npx create-vite frontend --template react-ts
 ```
 
-This command creates a new folder named <FontIcon icon="fas fa-folder-open"/>`frontend`, sets it up as a React project, and specifies TypeScript as the language.
+This command creates a new folder named <VPIcon icon="fas fa-folder-open"/>`frontend`, sets it up as a React project, and specifies TypeScript as the language.
 
 ### Step 2: Navigate to Your New React App
 
-Change your directory to the <FontIcon icon="fas fa-folder-open"/>`frontend` folder:
+Change your directory to the <VPIcon icon="fas fa-folder-open"/>`frontend` folder:
 
 ```sh
 cd frontend
@@ -473,13 +473,13 @@ Your default web browser should now open displaying the initial setup of your Re
 
 ### Step 4: Clean Up and Personalize Your React App
 
-Now you can head back to your code editor and navigate to <FontIcon icon="fas fa-folder-open"/>`frontend/src`. Delete the <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` file as it won't be needed.
+Now you can head back to your code editor and navigate to <VPIcon icon="fas fa-folder-open"/>`frontend/src`. Delete the <VPIcon icon="fa-brands fa-css3-alt"/>`index.css` file as it won't be needed.
 
-In <FontIcon icon="fa-brands fa-react"/>`main.tsx`, remove the import statement for <FontIcon icon="fa-brands fa-css3-alt"/>`index.css`.
+In <VPIcon icon="fa-brands fa-react"/>`main.tsx`, remove the import statement for <VPIcon icon="fa-brands fa-css3-alt"/>`index.css`.
 
-Now, open <FontIcon icon="fa-brands fa-react"/>`App.tsx`. Here, you'll see code for a counter. Delete all the content inside <FontIcon icon="fa-brands fa-react"/>`App.tsx`.
+Now, open <VPIcon icon="fa-brands fa-react"/>`App.tsx`. Here, you'll see code for a counter. Delete all the content inside <VPIcon icon="fa-brands fa-react"/>`App.tsx`.
 
-Let’s start fresh by adding the following code to <FontIcon icon="fa-brands fa-react"/>`App.tsx`:
+Let’s start fresh by adding the following code to <VPIcon icon="fa-brands fa-react"/>`App.tsx`:
 
 ```jsx title="frontend/src/App.tsx"
 const App = () => {
@@ -489,11 +489,11 @@ const App = () => {
 export default App;
 ```
 
-Save <FontIcon icon="fa-brands fa-react"/>`App.tsx` and check your browser to see the updated text: "Hello from Recipe App".
+Save <VPIcon icon="fa-brands fa-react"/>`App.tsx` and check your browser to see the updated text: "Hello from Recipe App".
 
 ### Step 5: Setup Your Stylesheet
 
-Go to <FontIcon icon="fas fa-folder-open"/>`src` and open <FontIcon icon="fa-brands fa-css3-alt"/>`App.css`. Delete all the pre-filled styles but keep the `.root` class definition empty for now.
+Go to <VPIcon icon="fas fa-folder-open"/>`src` and open <VPIcon icon="fa-brands fa-css3-alt"/>`App.css`. Delete all the pre-filled styles but keep the `.root` class definition empty for now.
 
 Add a `font-family` property to the `.root` class:
 
@@ -503,7 +503,7 @@ Add a `font-family` property to the `.root` class:
 }
 ```
 
-Then head back to <FontIcon icon="fa-brands fa-react"/>`App.tsx` and import your stylesheet:
+Then head back to <VPIcon icon="fa-brands fa-react"/>`App.tsx` and import your stylesheet:
 
 ```jsx title="frontend/src/App.tsx"
 import "./App.css";
@@ -513,7 +513,7 @@ const App = () => {
 };
 ```
 
-Then save <FontIcon icon="fa-brands fa-react"/>`App.tsx` and check your browser to see the updated font.
+Then save <VPIcon icon="fa-brands fa-react"/>`App.tsx` and check your browser to see the updated font.
 
 Now you have a clean slate to start building out the frontend of your recipe app with React and TypeScript, using Vite as your build tool. As you progress, you can now start adding components, routing, and state management to build out your application's UI and functionality.
 
@@ -544,7 +544,7 @@ Each recipe object contains an `id`, `title`, `image`, and `imageType`. We will 
 
 ### Step 1: Setup State
 
-In your <FontIcon icon="fa-brands fa-react"/>`App.tsx`, setup state to store the `searchTerm` and `recipes`.
+In your <VPIcon icon="fa-brands fa-react"/>`App.tsx`, setup state to store the `searchTerm` and `recipes`.
 
 ```jsx title="frontend/src/App.tsx"
 import React, { useState } from "react";
@@ -704,7 +704,7 @@ cd recipe-search-ui
 
 ### Step 2: Create State Hooks for User Input and Data
 
-In your <FontIcon icon="fas fa-folder-open"/>`src` folder, create a new file named <FontIcon icon="fa-brands fa-react"/>`App.tsx` and import the necessary dependencies:
+In your <VPIcon icon="fas fa-folder-open"/>`src` folder, create a new file named <VPIcon icon="fa-brands fa-react"/>`App.tsx` and import the necessary dependencies:
 
 ```jsx title="frontend/src/App.tsx"
 import React, { useState, FormEvent } from "react";
@@ -778,7 +778,7 @@ const handleSearchSubmit = async (event: FormEvent) => {
 
 ### Step 5: Display Recipe Data
 
-Create a new folder named <FontIcon icon="fas fa-folder-open"/>`components` in your <FontIcon icon="fas fa-folder-open"/>`src` directory. Inside this folder, create a file named <FontIcon icon="fa-brands fa-react"/>`RecipeCard.tsx`. This component will display individual recipe data.
+Create a new folder named <VPIcon icon="fas fa-folder-open"/>`components` in your <VPIcon icon="fas fa-folder-open"/>`src` directory. Inside this folder, create a file named <VPIcon icon="fa-brands fa-react"/>`RecipeCard.tsx`. This component will display individual recipe data.
 
 ```jsx title="frontend/src/components/RecipeCard.tsx"
 import { Recipe } from "../types";
@@ -801,7 +801,7 @@ const RecipeCard = ({ recipe }: Props) => {
 export default RecipeCard;
 ```
 
-Now, go back to <FontIcon icon="fa-brands fa-react"/>`App.tsx` and import `RecipeCard`. Map over the `recipes` state to display each recipe using the `RecipeCard` component.
+Now, go back to <VPIcon icon="fa-brands fa-react"/>`App.tsx` and import `RecipeCard`. Map over the `recipes` state to display each recipe using the `RecipeCard` component.
 
 ```jsx title="frontend/src/App.tsx"
 import RecipeCard from "./components/RecipeCard";
@@ -1081,7 +1081,7 @@ Now, when a user clicks on a recipe, the modal will appear displaying the summar
 
 First, we need to extend our database schema to include a table for storing favorite recipes by their IDs.
 
-First, navigate to the <FontIcon icon="fas fa-folder-open"/>`Prisma` folder within the <FontIcon icon="fas fa-folder-open"/>`backend` directory of your project. Then open the <FontIcon icon="fas fa-file-lines"/>`schema.prisma` file.
+First, navigate to the <VPIcon icon="fas fa-folder-open"/>`Prisma` folder within the <VPIcon icon="fas fa-folder-open"/>`backend` directory of your project. Then open the <VPIcon icon="fas fa-file-lines"/>`schema.prisma` file.
 
 Define a new model for favorite recipes as follows:
 
@@ -1330,7 +1330,7 @@ In the `RecipeCard` component, add the heart icon within a `span` element just a
 
 ### Step 9: Add CSS Styling
 
-In your <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file, add the following CSS to style the icon and ensure it appears on the same line as the title. Using `flex` and `align-items` means the icon and title will be aligned nicely beneath the image:
+In your <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` file, add the following CSS to style the icon and ensure it appears on the same line as the title. Using `flex` and `align-items` means the icon and title will be aligned nicely beneath the image:
 
 ```css title="frontend/src/App.css"
 .recipe-card-title {
@@ -1342,7 +1342,7 @@ In your <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` file, add the followin
 
 ### Step 10: Create an Add Favourite Event Handler
 
-In <FontIcon icon="fa-brands fa-react"/>`App.tsx`, create an event handler for favoriting a recipe. This is what will get called when the user clicks the heart icon on an recipe that hasn't yet been favorited:
+In <VPIcon icon="fa-brands fa-react"/>`App.tsx`, create an event handler for favoriting a recipe. This is what will get called when the user clicks the heart icon on an recipe that hasn't yet been favorited:
 
 ```jsx title="frontend/src/App.tsx"
 const addfavoriteRecipe = async (recipe) => {
@@ -1357,7 +1357,7 @@ const addfavoriteRecipe = async (recipe) => {
 
 ### Step 11: API Logic
 
-In a new file called <FontIcon icon="iconfont icon-typescript"/>`API.ts`, create a function to handle the API call to save a favorite recipe. This will call our endpoint which we created earlier in the backend:
+In a new file called <VPIcon icon="iconfont icon-typescript"/>`API.ts`, create a function to handle the API call to save a favorite recipe. This will call our endpoint which we created earlier in the backend:
 
 ```jsx
 export const addFavoriteRecipe = async (recipe) => {
@@ -1408,7 +1408,7 @@ const removeFavoriteRecipe = async (recipe) => {
 
 ### Step 14: API Logic
 
-In <FontIcon icon="iconfont icon-typescript"/>`API.ts`, create a function to handle the API call to remove a favorite recipe. Again, this will call the backend API to remove a recipe which we created earlier:
+In <VPIcon icon="iconfont icon-typescript"/>`API.ts`, create a function to handle the API call to remove a favorite recipe. Again, this will call the backend API to remove a recipe which we created earlier:
 
 ```ts title="frontend/src/API.ts"
 export const removeFavoriteRecipe = async (recipe) => {
@@ -1477,7 +1477,7 @@ In `RecipeCard`, conditionally render a filled or outlined heart icon based on t
 
 We've added some basic styling so far, so lets complete the CSS so that our app looks polished!
 
-Firstly obtain an image from a source like [<FontIcon icon="fas fa-globe"/>Pexels](https://pexels.com) or any other image repository. This will be used in the Hero section of our app at the top, and will have our title overlaid on it. Ensure the image has a horizontal orientation for better handling of aspect ratios.
+Firstly obtain an image from a source like [<VPIcon icon="fas fa-globe"/>Pexels](https://pexels.com) or any other image repository. This will be used in the Hero section of our app at the top, and will have our title overlaid on it. Ensure the image has a horizontal orientation for better handling of aspect ratios.
 
 Place the image in the `public` folder of your project.
 
@@ -1490,7 +1490,7 @@ project-folder
 
 ### Step 2: Structure the Header
 
-Open <FontIcon icon="fa-brands fa-react"/>`App.tsx` and locate the JSX markup. Add a `className` of `app-container` to the top `div` element.
+Open <VPIcon icon="fa-brands fa-react"/>`App.tsx` and locate the JSX markup. Add a `className` of `app-container` to the top `div` element.
 
 Inside the `app-container` div, add a new `div` with a `className` of `header`. Within the `header` div, add an `img` element with a `src` attribute pointing to your image, and a `div` element with a `className` of `title` containing the app's title.
 
@@ -1506,7 +1506,7 @@ Inside the `app-container` div, add a new `div` with a `className` of `header`. 
 
 ### Step 3: Style the Header
 
-Open <FontIcon icon="fa-brands fa-css3-alt"/>`App.css` and scroll to the top. Add the following CSS to style the `app-container`, `header`, `img`, and `title` elements. This makes the `title` appear on top of the image, with a translucent background:
+Open <VPIcon icon="fa-brands fa-css3-alt"/>`App.css` and scroll to the top. Add the following CSS to style the `app-container`, `header`, `img`, and `title` elements. This makes the `title` appear on top of the image, with a translucent background:
 
 ```css title="frontend/src/App.css"
 .app-container {
@@ -1565,14 +1565,14 @@ body {
 
 Currently its not clear which tab the user has selected. What we want to do is add an orange underline to the selected tab. To do this, we can use a combination of CSS classes and conditional rendering.
 
-Within <FontIcon icon="fa-brands fa-react"/>`App.tsx`, locate your `h1` elements representing tabs, and dynamically apply a `className` of `tab-active` based on the selected tab.
+Within <VPIcon icon="fa-brands fa-react"/>`App.tsx`, locate your `h1` elements representing tabs, and dynamically apply a `className` of `tab-active` based on the selected tab.
 
 ```tsx title="frontend/src/App.tsx"
 <h1 className={selectedTab === 'search' ? 'tab-active' : ''}>Search</h1>
 <h1 className={selectedTab === 'favorites' ? 'tab-active' : ''}>Favorites</h1>
 ```
 
-In <FontIcon icon="fa-brands fa-css3-alt"/>`App.css`, define the `tab-active` class:
+In <VPIcon icon="fa-brands fa-css3-alt"/>`App.css`, define the `tab-active` class:
 
 ```css title="frontend/src/App.css"
 .tab-active {
@@ -1585,7 +1585,7 @@ In <FontIcon icon="fa-brands fa-css3-alt"/>`App.css`, define the `tab-active` cl
 
 We want our search bar to take up the width of the container, and we want to add an icon instead of the search button, which makes our UI more interesting.
 
-In <FontIcon icon="fa-brands fa-react"/>`App.tsx`, locate the `form` element within the `Search` tab. Replace the text "Submit" in the `button` element with an icon from a library like React Icons.
+In <VPIcon icon="fa-brands fa-react"/>`App.tsx`, locate the `form` element within the `Search` tab. Replace the text "Submit" in the `button` element with an icon from a library like React Icons.
 
 ```tsx title="frontend/src/App.tsx"
 <button>
@@ -1593,7 +1593,7 @@ In <FontIcon icon="fa-brands fa-react"/>`App.tsx`, locate the `form` element wit
 </button>
 ```
 
-In <FontIcon icon="fa-brands fa-css3-alt"/>`App.css`, style the `form`, `input`, and `button` elements:
+In <VPIcon icon="fa-brands fa-css3-alt"/>`App.css`, style the `form`, `input`, and `button` elements:
 
 ```css title="frontend/src/App.css"
 form {
@@ -1624,7 +1624,7 @@ button {
 
 Currently our Recipe Cards are stacked horizontally. We'll use CSS grid to make the recipe cards appear in a grid layout, which will also make things more responsive.
 
-Within <FontIcon icon="fa-brands fa-react"/>`App.tsx`, create a new `div` with a `className` of `recipe-grid` just above where you map over your recipes, and place the logic to rendering the recipes inside this `div`.
+Within <VPIcon icon="fa-brands fa-react"/>`App.tsx`, create a new `div` with a `className` of `recipe-grid` just above where you map over your recipes, and place the logic to rendering the recipes inside this `div`.
 
 ```tsx title="frontend/src/App.tsx"
 <div className="recipe-grid">
@@ -1644,7 +1644,7 @@ Within <FontIcon icon="fa-brands fa-react"/>`App.tsx`, create a new `div` with a
 </div>
 ```
 
-In <FontIcon icon="fa-brands fa-css3-alt"/>`App.css`, style the `recipe-grid` and `recipe-card` elements:
+In <VPIcon icon="fa-brands fa-css3-alt"/>`App.css`, style the `recipe-grid` and `recipe-card` elements:
 
 ```css title="frontend/src/App.css"
 .recipe-grid {
@@ -1693,7 +1693,7 @@ Style the "View More" button to make sure it matches the style of our app, and i
 
 Congrats on making it to the end! Hopefully you've learned a few things about full stack development using React and Node.
 
-If you enjoyed this project, you can find more at [<FontIcon icon="fas fa-globe"/>CodeCoyotes.com](https://codecoyotes.com/), where you can also send me a message if you need to get in contact.
+If you enjoyed this project, you can find more at [<VPIcon icon="fas fa-globe"/>CodeCoyotes.com](https://codecoyotes.com/), where you can also send me a message if you need to get in contact.
 
 Thanks for reading, see you in the next one!
 

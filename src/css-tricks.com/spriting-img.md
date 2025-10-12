@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-socia
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png"/>
 
-Sprites aren’t limited to background-image, as with the [<FontIcon icon="iconfont icon-css-tricks"/>object-fit](https://css-tricks.com/almanac/properties/o/object-fit/) and [<FontIcon icon="iconfont icon-css-tricks"/>object-position](https://css-tricks.com/almanac/properties/o/object-position/) properties we can nudge an inline image around its content-box to act just like a sprite. For example, let’s say we want the image below to be added to our HTML page like a regular ol’ image:
+Sprites aren’t limited to background-image, as with the [<VPIcon icon="iconfont icon-css-tricks"/>object-fit](https://css-tricks.com/almanac/properties/o/object-fit/) and [<VPIcon icon="iconfont icon-css-tricks"/>object-position](https://css-tricks.com/almanac/properties/o/object-position/) properties we can nudge an inline image around its content-box to act just like a sprite. For example, let’s say we want the image below to be added to our HTML page like a regular ol’ image:
 
 ![Sprite](https://i0.wp.com/css-tricks.com/wp-content/uploads/2015/02/sprite.png?ssl=1)
 
@@ -107,7 +107,7 @@ Using a dab of JavaScript, we can actually use this same concept to create an im
 
 ## Support
 
-Keep this in mind for the future, since unfortunately the browser support for `object-fit` isn’t particularly great at the moment. The current desktop versions of Safari and Firefox don’t support it and neither does iOS. So make sure to double check the [<FontIcon icon="fas fa-globe"/>almanac entry for `object-fit`](https://css-tricks.com/almanac/properties/o/object-fit/) before using this trick anytime soon.
+Keep this in mind for the future, since unfortunately the browser support for `object-fit` isn’t particularly great at the moment. The current desktop versions of Safari and Firefox don’t support it and neither does iOS. So make sure to double check the [<VPIcon icon="fas fa-globe"/>almanac entry for `object-fit`](https://css-tricks.com/almanac/properties/o/object-fit/) before using this trick anytime soon.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -85,8 +85,8 @@ Before we begin, make sure you’ve got a few things installed:
 - **Python 3** (any version that Django supports)
 - **Django** (of course)
 - **Docker and Docker Compose**  
-  - 👉 [<FontIcon icon="fa-brands fa-docker"/>Install Docker](https://docs.docker.com/engine/install/)  
-  - 👉 [<FontIcon icon="fa-brands fa-docker"/>Install Docker Compose](https://docs.docker.com/compose/install/linux/)
+  - 👉 [<VPIcon icon="fa-brands fa-docker"/>Install Docker](https://docs.docker.com/engine/install/)  
+  - 👉 [<VPIcon icon="fa-brands fa-docker"/>Install Docker Compose](https://docs.docker.com/compose/install/linux/)
 
 You don’t need to be an expert in Docker. I’ll explain what each part does as we build it together.
 
@@ -107,7 +107,7 @@ django-admin startproject myproject
 cd myproject
 ```
 
-This will create a new Django project called <FontIcon icon="fas fa-folder-open"/>`myproject`. You’ll see a structure like this:
+This will create a new Django project called <VPIcon icon="fas fa-folder-open"/>`myproject`. You’ll see a structure like this:
 
 ```output title="file structure"
 myproject/
@@ -124,7 +124,7 @@ Let’s say this is your app that you want to run inside Docker.
 
 ### Step 2: Create a Dockerfile
 
-In the root of your project (same folder as <FontIcon icon="fa-brands fa-python"/>`manage.py`), create a file called <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`. No file extension -just <FontIcon icon="fa-brands fa-docker"/>`Dockerfile`.
+In the root of your project (same folder as <VPIcon icon="fa-brands fa-python"/>`manage.py`), create a file called <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`. No file extension -just <VPIcon icon="fa-brands fa-docker"/>`Dockerfile`.
 
 Here’s what goes inside:
 
@@ -154,11 +154,11 @@ Let me break that down:
 - `WORKDIR /app`: This sets the default working directory inside the container.
 - `COPY` and `RUN`: These lines copy your code into the container and install your Python packages.
 
-### Step 3: Add a <FontIcon icon="fas fa-file-lines"/>`requirements.txt`
+### Step 3: Add a <VPIcon icon="fas fa-file-lines"/>`requirements.txt`
 
 You’ll need a file listing your Python packages.
 
-Create a file called <FontIcon icon="fas fa-file-lines"/>`requirements.txt` in the root folder and add:
+Create a file called <VPIcon icon="fas fa-file-lines"/>`requirements.txt` in the root folder and add:
 
 ```plaintext title="requirements.txt"
 Django>=4.0,<5.0
@@ -172,11 +172,11 @@ To generate a full list of dependencies from your local virtual environment, run
 pip freeze > requirements.txt
 ```
 
-### Step 4: Create <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml`
+### Step 4: Create <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml`
 
 Now let’s create the file that tells Docker how to run everything together.
 
-In your root folder, create <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml`:
+In your root folder, create <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml`:
 
 ```yaml title="docker-compose.yml"
 version: '3.9'
@@ -193,7 +193,7 @@ services:
 
 Let’s go line-by-line:
 
-- `build: .`: This tells Docker to use the <FontIcon icon="fa-brands fa-docker"/>`Dockerfile` in the current folder.
+- `build: .`: This tells Docker to use the <VPIcon icon="fa-brands fa-docker"/>`Dockerfile` in the current folder.
 - `command`: This runs Django’s development server inside the container.
 - `volumes`: This mounts your code into the container so changes are reflected live.
 - `ports`: This maps port 8000 inside Docker to port 8000 on your machine.
@@ -224,7 +224,7 @@ You should see the Django welcome screen.
 
 ### Port Already in Use?
 
-If port 8000 is busy, change this line in <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml`:
+If port 8000 is busy, change this line in <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml`:
 
 ```yaml title="docker-compose.yml"
 ports:
@@ -235,7 +235,7 @@ Then go to `http://localhost:8001`.
 
 ### Database Not Working?
 
-If you need a database (like PostgreSQL), you can add another service to <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml`. Here's an example with PostgreSQL:
+If you need a database (like PostgreSQL), you can add another service to <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml`. Here's an example with PostgreSQL:
 
 ```yaml title="docker-compose.yml"
 services:
@@ -290,11 +290,11 @@ docker-compose down
 
 ---
 
-## Extra Tip: Use <FontIcon icon="fa-brands fa-docker"/>`.dockerignore`
+## Extra Tip: Use <VPIcon icon="fa-brands fa-docker"/>`.dockerignore`
 
-Just like <FontIcon icon="iconfont icon-git"/>`.gitignore`, you can create a <FontIcon icon="fa-brands fa-docker"/>`.dockerignore` file to avoid copying unnecessary files into the Docker container. Here’s a simple one:
+Just like <VPIcon icon="iconfont icon-git"/>`.gitignore`, you can create a <VPIcon icon="fa-brands fa-docker"/>`.dockerignore` file to avoid copying unnecessary files into the Docker container. Here’s a simple one:
 
-```plaintext title=".dockerignore"
+```sh title=".dockerignore"
 __pycache__
 *.pyc
 *.pyo

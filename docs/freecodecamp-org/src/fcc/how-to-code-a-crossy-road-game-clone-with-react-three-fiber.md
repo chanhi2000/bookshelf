@@ -62,7 +62,7 @@ The goal of this game is to move a character through an endless path of static a
 
 There's a lot to cover in this tutorial: we will start with setting up the scene, the camera, and the lights. Then you’ll learn how to draw the player and the map with the trees and the cars. We’ll also cover how to animate the vehicles, and we’ll add event handlers to move the player through the map. Finally, we’ll add hit detection between the cars and the player.
 
-This article is a shortened version of the Crossy Road tutorial from my site [<FontIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](https://javascriptgametutorials.com/). The extended tutorial is also available as a video on [<FontIcon icon="fa-brands fa-youtube"/>YouTube](https://youtu.be/ccYrSACDNsw).
+This article is a shortened version of the Crossy Road tutorial from my site [<VPIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](https://javascriptgametutorials.com/). The extended tutorial is also available as a video on [<VPIcon icon="fa-brands fa-youtube"/>YouTube](https://youtu.be/ccYrSACDNsw).
 
 <VidStack src="youtube/ccYrSACDNsw" />
 
@@ -117,7 +117,7 @@ Finally, you can go to the terminal and type `npm run dev` to start a developmen
 
 ### The Drawing Canvas
 
-Let’s create a new component called <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`Game.jsx`. This will be the root of our game.
+Let’s create a new component called <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`Game.jsx`. This will be the root of our game.
 
 The `Scene` component will contain the drawing canvas, the camera, and the lights. We’ll pass on the `Player` component as its child, which will render a box. Later, we will add the `Map` component, including the trees, cars, and trucks. This component is also where the score indicator and the controls come later.
 
@@ -136,11 +136,11 @@ export default function Game() {
 
 ### The main.jsx file
 
-To use the new `Game` component as our root, we need to replace the original `App` component in the <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`main.jsx` file.
+To use the new `Game` component as our root, we need to replace the original `App` component in the <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`main.jsx` file.
 
 This will give you an error for now because we didn’t implement the `Scene` and `Player` components.
 
-Now that we’ve replaced the `App` component, we can delete the original <FontIcon icon="fa-brands fa-react"/>`App.jsx`, <FontIcon icon="fa-brands fa-css3-alt"/>`App.css`, and the <FontIcon icon="fas fa-folder-open"/>`assets` folder.
+Now that we’ve replaced the `App` component, we can delete the original <VPIcon icon="fa-brands fa-react"/>`App.jsx`, <VPIcon icon="fa-brands fa-css3-alt"/>`App.css`, and the <VPIcon icon="fas fa-folder-open"/>`assets` folder.
 
 ```jsx title="main.jsx"
 import { StrictMode } from "react";
@@ -155,7 +155,7 @@ createRoot(document.getElementById("root")).render(
 );
 ```
 
-Let’s also update the <FontIcon icon="fa-brands fa-css3-alt"/>`index.css` file to make sure our drawing canvas fills the entire screen.
+Let’s also update the <VPIcon icon="fa-brands fa-css3-alt"/>`index.css` file to make sure our drawing canvas fills the entire screen.
 
 ```css title="index.css"
 body {
@@ -252,7 +252,7 @@ export const Scene = ({ children }) => {
 };
 ```
 
-We use the `Canvas` component from <FontIcon icon="fa-brands fa-npm"/>`@react-three/fiber`. This component will contain every 3D object on the scene, so it has a `children` prop.
+We use the `Canvas` component from <VPIcon icon="fa-brands fa-npm"/>`@react-three/fiber`. This component will contain every 3D object on the scene, so it has a `children` prop.
 
 We set the `orthographic` prop to `true` to use an orthographic camera and the `camera` prop to define the camera’s position and orientation. The camera props require vectors or coordinates that are defined by the x, y, and z values.
 
@@ -624,7 +624,7 @@ export const rows = [
 ];
 ```
 
-This article does not cover truck lanes, but they follow a similar structure. The code for it can be found at [<FontIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](http://javascriptgametutorials.com/).
+This article does not cover truck lanes, but they follow a similar structure. The code for it can be found at [<VPIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](http://javascriptgametutorials.com/).
 
 ---
 
@@ -632,7 +632,7 @@ This article does not cover truck lanes, but they follow a similar structure. Th
 
 Let's move on and animate the cars in their lanes according to their speed and direction.
 
-This is where things start to diverge from how you would typically use React. The React way would be to update a state or a prop and let React re-render the whole component. This is fast when working with HTML elements, but it is not very effective when working with 3D objects. We want to [<FontIcon icon="fas fa-globe"/>avoid re-rendering](https://r3f.docs.pmnd.rs/advanced/pitfalls#avoid-setstate-in-loops) the whole scene and, instead, update the position of the underlying objects directly.
+This is where things start to diverge from how you would typically use React. The React way would be to update a state or a prop and let React re-render the whole component. This is fast when working with HTML elements, but it is not very effective when working with 3D objects. We want to [<VPIcon icon="fas fa-globe"/>avoid re-rendering](https://r3f.docs.pmnd.rs/advanced/pitfalls#avoid-setstate-in-loops) the whole scene and, instead, update the position of the underlying objects directly.
 
 We only use React to set up the scene and the objects, and then we let Three.js do the heavy lifting. React Three Fiber is just a thin layer on top of Three.js, so we can access the underlying Three.js objects directly to update the position of the cars and trucks.
 
@@ -902,7 +902,7 @@ If you did everything right, the player should be able to move around the game b
 
 We defined the camera in the `Scene` component. By default, it has a static position. Instead of that, we want to move it with the player. We could adjust its position at every animation frame just like the player, but it’s easier to attach the camera to the `Player` component so that they move together.
 
-We can access the camera using the `useThree` hook from <FontIcon icon="fa-brands fa-npm"/>`@react-three/fiber`. This returns a Three.js camera object that we can add to the player group.
+We can access the camera using the `useThree` hook from <VPIcon icon="fa-brands fa-npm"/>`@react-three/fiber`. This returns a Three.js camera object that we can add to the player group.
 
 We already have a reference to the group representing the player. We can attach the camera to the player by adding it as a child of the player group. Because the player reference is undefined on the first render, we need to use the `useEffect` hook to attach the camera only once the player reference is set.
 
@@ -1170,9 +1170,9 @@ Congratulations, you’ve reached the end of this tutorial, and we’ve covered 
 
 I hope you had great fun creating this game. This game, of course, is far from perfect, and there are various improvements you can make if you’d like to keep working on it.
 
-You can find the extended tutorial with interactive demos on [<FontIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](http://javascriptgametutorials.com/). There, we also cover how to add shadows and truck lanes and how to generate an infinite number of rows as the player moves forward. We also add UI elements for the controls and the score indicator, and we add a result screen with a button to reset the game.
+You can find the extended tutorial with interactive demos on [<VPIcon icon="fas fa-globe"/>JavaScriptGameTutorials.com](http://javascriptgametutorials.com/). There, we also cover how to add shadows and truck lanes and how to generate an infinite number of rows as the player moves forward. We also add UI elements for the controls and the score indicator, and we add a result screen with a button to reset the game.
 
-Alternatively, you can find the extended tutorial on [<FontIcon icon="fa-brands fa-youtube"/>YouTube](https://youtube.com/ccYrSACDNsw).
+Alternatively, you can find the extended tutorial on [<VPIcon icon="fa-brands fa-youtube"/>YouTube](https://youtube.com/ccYrSACDNsw).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -55,7 +55,7 @@ For this tutorial I will be using macOS, and the commands should also work on Li
 
 ## Creating An Account On Groq Cloud
 
-As mentioned earlier, we will use Meta’s LLaMA 3 via Groq Cloud, which is ideal. So, first, we have to create an account on [<FontIcon icon="iconfont icon-groq"/>Groq Cloud](https://console.groq.com/login), as shown here.
+As mentioned earlier, we will use Meta’s LLaMA 3 via Groq Cloud, which is ideal. So, first, we have to create an account on [<VPIcon icon="iconfont icon-groq"/>Groq Cloud](https://console.groq.com/login), as shown here.
 
 ![Creating an account on Groq Cloud](https://cdn.hashnode.com/res/hashnode/image/upload/v1741977123301/80f8a1a6-de52-4a3d-870a-25c1067c13eb.png)
 
@@ -75,7 +75,7 @@ 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
 
 Ok, now let's quickly set up our project. Navigate to a location on your computer, like the desktop, and create a folder called `ai-agent-app`. `cd` into the project folder and get ready - we’re going to start building our backend using Python.
 
-I recommend installing `agno` and `groq` locally in a Python virtual environment. First, use this terminal command to setup a Python virtual environment inside of your <FontIcon icon="fas fa-folder-open"/>`ai-agent-app` folder:
+I recommend installing `agno` and `groq` locally in a Python virtual environment. First, use this terminal command to setup a Python virtual environment inside of your <VPIcon icon="fas fa-folder-open"/>`ai-agent-app` folder:
 
 ```sh
 python3 -m venv venv
@@ -87,19 +87,19 @@ Note: depending on your local Python environment, you might need to use either t
 
 The same applies when using either `pip` or `pip3` when installing Python packages. You can check to see which version of Python and pip you have installed with the `python --version`, `python3 --version` , `pip --version` and `pip3 --version` commands in your terminal window.
 
-The above command should create a <FontIcon icon="fas fa-folder-open"/>`venv` folder inside of your `ai-agent-app` folder. This will be your REST backend with all of your API endpoints which your React frontend will use later on in this tutorial. Your Python virtual environment has also been activated.
+The above command should create a <VPIcon icon="fas fa-folder-open"/>`venv` folder inside of your `ai-agent-app` folder. This will be your REST backend with all of your API endpoints which your React frontend will use later on in this tutorial. Your Python virtual environment has also been activated.
 
 To activate and deactivate your Python environment, you can use these commands:
 
 ::: tab
 
-@tab:active <FontIcon icon="fa-brands fa-windows"/>
+@tab:active <VPIcon icon="fa-brands fa-windows"/>
 
 ```batchfile
 venv\Scripts\activate
 ```
 
-@tab <FontIcon icon="fa-brands fa-macos"/>,<FontIcon icon="fa-brands fa-linux"/>
+@tab <VPIcon icon="fa-brands fa-macos"/>,<VPIcon icon="fa-brands fa-linux"/>
 
 ```sh
 source venv/bin/activate
@@ -124,13 +124,13 @@ pip install python-dotenv
 
 With these Python packages installed, you’re now ready to set up your API for this project. We’ll be using the Python web application framework Flask, along with the CORS package so that we can access the server anywhere. At the same time, we’ll also use the requests module, which allows us to send HTTP requests using Python.
 
-Note that you’ll also need a <FontIcon icon="fas fa-file-lines"/>`.env` file for your API keys, so make sure you have installed the `python-dotenv` package in your Python environment, although in some cases, it's installed automatically.
+Note that you’ll also need a <VPIcon icon="fas fa-file-lines"/>`.env` file for your API keys, so make sure you have installed the `python-dotenv` package in your Python environment, although in some cases, it's installed automatically.
 
 ---
 
 ## Working On The Python Codebase
 
-Alright, time to make a start on the codebase. But first, let's generate all of the files for your project. You can do this simply by running the run script I created for the project. Run this command in the <FontIcon icon="fas fa-folder-open"/>`venv` folder:
+Alright, time to make a start on the codebase. But first, let's generate all of the files for your project. You can do this simply by running the run script I created for the project. Run this command in the <VPIcon icon="fas fa-folder-open"/>`venv` folder:
 
 ```sh
 mkdir agents
@@ -141,17 +141,17 @@ touch __init__.py base_agent.py career_agent.py client_agent.py project_agent.py
 
 With this script, you should now have:
 
-- Created a <FontIcon icon="fas fa-file-lines"/>`.env` file for your API Keys
+- Created a <VPIcon icon="fas fa-file-lines"/>`.env` file for your API Keys
 - Created an agents folder with all of the files for creating your different AI agents
-- Created a <FontIcon icon="fa-brands fa-python"/>`main.py` file, which will be the main project file for your entire backend app
+- Created a <VPIcon icon="fa-brands fa-python"/>`main.py` file, which will be the main project file for your entire backend app
 
-Ok, your files are set. All that’s left is to add the codebase, and the backend is complete. Let's start with the <FontIcon icon="fas fa-file-lines"/>`.env` file, as it only needs one line of code and that is for your API key. See my example and update it with your own API Key:
+Ok, your files are set. All that’s left is to add the codebase, and the backend is complete. Let's start with the <VPIcon icon="fas fa-file-lines"/>`.env` file, as it only needs one line of code and that is for your API key. See my example and update it with your own API Key:
 
 ```sh title=".env"
 GROQ_API_KEY="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"
 ```
 
-Your application now has an API key, which gives you access to Groq Cloud. Now let’s start to add the code for all the various AI agents. The first file we’ll work on will be the <FontIcon icon="fa-brands fa-python"/>`__init__.py` which holds the imports for all of the AI agent files.
+Your application now has an API key, which gives you access to Groq Cloud. Now let’s start to add the code for all the various AI agents. The first file we’ll work on will be the <VPIcon icon="fa-brands fa-python"/>`__init__.py` which holds the imports for all of the AI agent files.
 
 Add this code to the file:
 
@@ -166,9 +166,9 @@ from agents.research_agent import ResearchAgent
 __all__ = ['WelcomeAgent', 'ProjectAgent', 'CareerAgent', 'ClientAgent', 'ResearchAgent']
 ```
 
-As you can see, all of the classes for the AI agents will be imported and exported from here so you can use them in your <FontIcon icon="fa-brands fa-python"/>`main.py` file later.
+As you can see, all of the classes for the AI agents will be imported and exported from here so you can use them in your <VPIcon icon="fa-brands fa-python"/>`main.py` file later.
 
-Ok, good. Now, we have 6 AI agent files to work on, beginning with the <FontIcon icon="fa-brands fa-python"/>`base_agent.py` file.
+Ok, good. Now, we have 6 AI agent files to work on, beginning with the <VPIcon icon="fa-brands fa-python"/>`base_agent.py` file.
 
 Make sure that you add this code to the file:
 
@@ -200,7 +200,7 @@ This class uses the `agno` framework to create AI agents powered by Groq's LLama
 
 The model we chose is available on the Groq Cloud platform, and we can change it if we want to. Each model has pros and cons, and a cut-off date for how up-to-date it is, so you can expect to get different results. Just keep in mind that using an up to date LLM like OpenAI will provide better results, but you might have to pay for it.
 
-The next file we will work on will be the `<FontIcon icon="fa-brands fa-python"/>career_agent.py` file.
+The next file we will work on will be the `<VPIcon icon="fa-brands fa-python"/>career_agent.py` file.
 
 And this is this code required for it:
 
@@ -328,7 +328,7 @@ This agent is designed to help users with career-related tasks such as:
 
 The agent uses the LLM capabilities of the base agent (using Groq's LLama 3.3 70B model) to generate natural language responses that are formatted in markdown, making them suitable for inclusion in portfolio websites, résumés, or job applications. This file has sample career data, and in a real implementation, this would come from a database
 
-Ok time for the next AI agent - this time it’s <FontIcon icon="fa-brands fa-python"/>`client_agent.py`, which receives this code:
+Ok time for the next AI agent - this time it’s <VPIcon icon="fa-brands fa-python"/>`client_agent.py`, which receives this code:
 
 ```py :collapsed-lines title="client_agent.py"
 from agents.base_agent import BaseAgent
@@ -464,7 +464,7 @@ This agent is designed to help users with client and business-related tasks such
 
 The agent also uses the LLM capabilities of the base agent (using Groq's LLama 3.3 70B model) to generate professional, business-oriented content formatted in markdown. Like before, this file also has sample service data.
 
-Now we can start to work on the <FontIcon icon="fa-brands fa-python"/>`project_agent.py` file and add this code to its codebase:
+Now we can start to work on the <VPIcon icon="fa-brands fa-python"/>`project_agent.py` file and add this code to its codebase:
 
 ```py :collapsed-lines title="project_agent.py"
 from agents.base_agent import BaseAgent
@@ -564,7 +564,7 @@ This agent is designed to help users with project-related tasks such as:
 
 The agent, like in the previous examples, uses the LLM capabilities of the base agent (using Groq's LLama 3.3 70B model) to generate technical, project-oriented content formatted in markdown. This is good for technical documentation, or when responding to inquiries about project implementations. We’re using mock data here as opposed to a database.
 
-With that file completed, we have two left. The next is the <FontIcon icon="fa-brands fa-python"/>`research_agent.py` file, so go ahead and add this code:
+With that file completed, we have two left. The next is the <VPIcon icon="fa-brands fa-python"/>`research_agent.py` file, so go ahead and add this code:
 
 ```py :collapsed-lines title="research_agent.py"
 from agents.base_agent import BaseAgent
@@ -685,7 +685,7 @@ This agent is designed to help users with research-related tasks such as:
 
 What makes this agent unique compared to the other agents is that it actively fetches real-time information from the web using the Groq Toolhouse API's web search capability instead of relying solely on pre-defined data or the LLM's training data. This allows it to provide more current and comprehensive information about rapidly evolving technology topics.
 
-Ok, now we have one last AI agent to create and it’s the <FontIcon icon="fa-brands fa-python"/>`welcome_agent.py` file. Add this code to the file:
+Ok, now we have one last AI agent to create and it’s the <VPIcon icon="fa-brands fa-python"/>`welcome_agent.py` file. Add this code to the file:
 
 ```py :collapsed-lines title="welcome_agent.py"
 from agents.base_agent import BaseAgent
@@ -736,9 +736,9 @@ This agent is designed to serve as the initial point of contact for visitors to 
 
 The `WelcomeAgent` is simpler than some of the other agents we've looked at because it focuses on creating a positive first impression and helping visitors navigate to the content most relevant to their needs. It uses the LLM capabilities of the base agent to generate natural, contextually appropriate responses.
 
-Ok good - your backend API is almost ready. You just have one last file to work on: the <FontIcon icon="fa-brands fa-python"/>`main.py` file that completes your codebase. This file is quite big, so I will split it into three parts. You’ll need to copy and paste each section into the file. If you have not done so already, its worth installing the [<FontIcon icon="fas fa-globe"/>Python](https://open-vsx.org/extension/ms-python/python) extension for VS Code as this has debugging, linting, and formatting for Python files.
+Ok good - your backend API is almost ready. You just have one last file to work on: the <VPIcon icon="fa-brands fa-python"/>`main.py` file that completes your codebase. This file is quite big, so I will split it into three parts. You’ll need to copy and paste each section into the file. If you have not done so already, its worth installing the [<VPIcon icon="fas fa-globe"/>Python](https://open-vsx.org/extension/ms-python/python) extension for VS Code as this has debugging, linting, and formatting for Python files.
 
-Alright, here is the first part of the codebase for our <FontIcon icon="fa-brands fa-python"/>`main.py` file:
+Alright, here is the first part of the codebase for our <VPIcon icon="fa-brands fa-python"/>`main.py` file:
 
 ```py :collapsed-lines title="main.py"
 from flask import Flask, request, jsonify
@@ -1082,7 +1082,7 @@ The file is now complete, and you’ve created the rest of your AI API routes.
 
 ## Running Our Python Backend
 
-All that's left is to run your Flask server and get the backend up and running. You can do that with this run script inside the <FontIcon icon="fas fa-folder-open"/>`venv` folder:
+All that's left is to run your Flask server and get the backend up and running. You can do that with this run script inside the <VPIcon icon="fas fa-folder-open"/>`venv` folder:
 
 ```sh
 python3 main.py
@@ -1098,7 +1098,7 @@ The requested URL was not found on the server. If you entered the URL manually p
 
 This is expected, because if you have checked the codebase, you’ll realise that there are no GET routes, only POST routes. To see them working, you need to use an HTTP client like Postman. Another option is to create some `curl` commands that send a POST request, which you can run from your terminal. Let's use `curl` because there is less setup. You’ll need to copy and paste the commands.
 
-Each POST request will use exactly one API call on Groq Cloud for your API Key which you can view here [<FontIcon icon="iconfont icon-groq"/>https://console.groq.com/keys](https://console.groq.com/keys). Remember that it’s free to use but there are usage limits which you can read about in their documentation on [<FontIcon icon="iconfont icon-groq"/>Rate Limits](https://console.groq.com/docs/rate-limits).
+Each POST request will use exactly one API call on Groq Cloud for your API Key which you can view here [<VPIcon icon="iconfont icon-groq"/>https://console.groq.com/keys](https://console.groq.com/keys). Remember that it’s free to use but there are usage limits which you can read about in their documentation on [<VPIcon icon="iconfont icon-groq"/>Rate Limits](https://console.groq.com/docs/rate-limits).
 
 I have provided some sample curl commands below - just copy and paste them into your terminal and hit enter, and you should see the response message:
 

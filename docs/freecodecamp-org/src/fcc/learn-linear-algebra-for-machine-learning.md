@@ -72,7 +72,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740666382320/d655b14
 
 Linear algebra is a fundamental building block of machine learning. Whether you are working with deep learning models, optimization algorithms, or computer vision applications, understanding linear algebra concepts can give you a solid mathematical foundation to grasp how these models function under the hood. If you've ever wondered how matrices, vectors, and transformations play a role in AI, now is the perfect time to dive into this essential topic.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about **linear algebra for machine learning**. This comprehensive course is created by **Tatev Aslanyan from Lunar Tech**, and it is designed to provide a deep understanding of the mathematical concepts that power modern machine learning algorithms. Whether you are a beginner looking to strengthen your math skills or a machine learning practitioner aiming to refine your understanding, this course will equip you with the necessary tools to work confidently with linear algebra in AI and data science.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about **linear algebra for machine learning**. This comprehensive course is created by **Tatev Aslanyan from Lunar Tech**, and it is designed to provide a deep understanding of the mathematical concepts that power modern machine learning algorithms. Whether you are a beginner looking to strengthen your math skills or a machine learning practitioner aiming to refine your understanding, this course will equip you with the necessary tools to work confidently with linear algebra in AI and data science.
 
 ::: important Why Linear Algebra Matters for Machine Learning
 
@@ -110,7 +110,7 @@ This course is perfect for:
 
 By the end of this course, you'll have a solid grasp of linear algebra concepts and be ready to apply them in real-world machine learning scenarios.
 
-Watch the full course now on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/QCPJ0VdpM00)!
+Watch the full course now on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/QCPJ0VdpM00)!
 
 <VidStack src="youtube/QCPJ0VdpM00" />
 

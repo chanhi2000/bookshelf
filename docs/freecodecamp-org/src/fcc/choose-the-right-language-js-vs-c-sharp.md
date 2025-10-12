@@ -79,7 +79,7 @@ This article will help you understand what each language is, what they’re good
 
 [**JavaScript**](/freecodecamp.org/what-is-javascript-definition-of-js.md) is the language of the web. It runs in your browser and powers everything from simple websites to complex web apps. Want to make a button do something when clicked? That’s JavaScript. Want to load data without reloading the page? JavaScript again.
 
-But here’s the cool part, JavaScript isn’t just for the front end anymore. With [<FontIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en), it can run on servers too. This means JavaScript is now used to build entire applications, front to back. You can build APIs, handle databases, run background jobs, and more, all with the same language.
+But here’s the cool part, JavaScript isn’t just for the front end anymore. With [<VPIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en), it can run on servers too. This means JavaScript is now used to build entire applications, front to back. You can build APIs, handle databases, run background jobs, and more, all with the same language.
 
 This makes JavaScript beginner-friendly. You can write your first script in a browser and still use the same language to build large systems. It’s fast to start, and you’ll find lots of resources and jobs if you go down this path.
 
@@ -89,7 +89,7 @@ This makes JavaScript beginner-friendly. You can write your first script in a br
 
 [**C# (pronounced “C sharp”)**](/freecodecamp.org/learn-c-sharp-programming-1.md) is a language built by Microsoft. It’s often used in combination with the .NET framework to create desktop apps, web services, and enterprise software. If a business runs a Windows-based software, chances are that it’s built with C#.
 
-C# is also a top choice for game development, thanks to its strong connection with [<FontIcon icon="iconfont icon-unity"/>Unity](https://unity.com/), one of the most popular game engines in the world.
+C# is also a top choice for game development, thanks to its strong connection with [<VPIcon icon="iconfont icon-unity"/>Unity](https://unity.com/), one of the most popular game engines in the world.
 
 Unlike JavaScript, C# is statically typed. This means you need to define your variables clearly and follow more rules. That sounds like a lot at first, but it actually helps you catch errors early and keep big projects neat and tidy.
 
@@ -109,7 +109,7 @@ JavaScript works differently. It’s an interpreted language, which means the co
 
 This approach offers flexibility and makes it easy to develop and deploy scripts quickly, which is a big reason why JavaScript dominates web development. But because it doesn’t have the same direct link to the machine as compiled languages do, it can struggle in situations that require extremely high performance, like processing massive datasets, rendering complex graphics, or building high-frequency trading systems.
 
-However, modern JavaScript engines have come a long way. Engines like V8, which powers Chrome and Node.js, use [<FontIcon icon="fa-brands fa-wikipedia-w"/>Just-In-Time (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation) compilation to optimize code while it’s running. They can identify patterns and compile parts of the code into machine instructions on the fly, dramatically improving speed compared to older interpreters.
+However, modern JavaScript engines have come a long way. Engines like V8, which powers Chrome and Node.js, use [<VPIcon icon="fa-brands fa-wikipedia-w"/>Just-In-Time (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation) compilation to optimize code while it’s running. They can identify patterns and compile parts of the code into machine instructions on the fly, dramatically improving speed compared to older interpreters.
 
 This means that for most everyday web applications, the difference in performance between JavaScript and C# won’t be noticeable. Web dashboards, e-commerce sites, and typical server-side APIs run perfectly fine in JavaScript. But if your project involves raw computational power, game graphics, or real-time simulations, C# will still give you a clear edge.
 
@@ -151,7 +151,7 @@ In simple terms, JavaScript gives you the quickest path to start coding and see 
 
 Learning JavaScript unlocks a wide range of career opportunities because it powers so much of the modern digital world.
 
-Starting with front-end development, you can build interactive websites and web applications that run in the browser using frameworks like [<FontIcon icon="fa-brands fa-react"/>React](https://react.dev/), Vue, or Angular. If you want to go deeper, Node.js allows you to use JavaScript for back-end development as well, which means you can handle server logic, databases, and APIs without ever switching languages.
+Starting with front-end development, you can build interactive websites and web applications that run in the browser using frameworks like [<VPIcon icon="fa-brands fa-react"/>React](https://react.dev/), Vue, or Angular. If you want to go deeper, Node.js allows you to use JavaScript for back-end development as well, which means you can handle server logic, databases, and APIs without ever switching languages.
 
 This flexibility makes full-stack roles especially accessible to JavaScript developers, since you can manage both the front-end and back-end with a single skillset. On top of that, JavaScript extends into mobile app development with tools like React Native and Ionic, letting you build apps for both iOS and Android.
 
@@ -173,7 +173,7 @@ If you're new to coding and want to see results fast, start with JavaScript. If 
 
 You don’t have to choose forever. Many developers learn both. Start with one, explore the other later, and you’ll become a well-rounded coder ready for anything.
 
-[<FontIcon icon="fas fa-globe"/>Join my newsletter](https://blog.manishshivanandhan.com/) for a summary of my articles every Friday. You can also [connect with me on Linkedin (<FontIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva).
+[<VPIcon icon="fas fa-globe"/>Join my newsletter](https://blog.manishshivanandhan.com/) for a summary of my articles every Friday. You can also [connect with me on Linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

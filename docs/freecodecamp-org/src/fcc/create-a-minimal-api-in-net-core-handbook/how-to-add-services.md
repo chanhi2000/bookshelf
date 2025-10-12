@@ -55,7 +55,7 @@ Services are components that provide functionality to an application. In our app
 
 In ASP.NET Core, services are registered in the dependency injection container and can be injected into other components, such as controllers and endpoints, But this is a minimal API so we will inject the services directly into the endpoints.
 
-Let's create an interface for our services. In the <FontIcon icon="fas fa-foler-open"/>`Interfaces` folder, create a new file named <FontIcon icon="iconfont icon-csharp"/>`IBookService.cs` and add the following code:
+Let's create an interface for our services. In the <VPIcon icon="fas fa-foler-open"/>`Interfaces` folder, create a new file named <VPIcon icon="iconfont icon-csharp"/>`IBookService.cs` and add the following code:
 
 ```cs title="Interfaces/IBookService.cs"
 using bookapi_minimal.Contracts;
@@ -88,7 +88,7 @@ Now that we have created the interface, let's create the service class that impl
 
 ## How to Implement the Book Service
 
-This service will implement the `IBookService` interface and provide the business logic for our application. In the <FontIcon icon="fas fa-foler-open"/>`Services` folder, create a new file named <FontIcon icon="iconfont icon-csharp"/>`BookService.cs` . Your initial file should look like this:
+This service will implement the `IBookService` interface and provide the business logic for our application. In the <VPIcon icon="fas fa-foler-open"/>`Services` folder, create a new file named <VPIcon icon="iconfont icon-csharp"/>`BookService.cs` . Your initial file should look like this:
 
 ```cs title="Services/BookService.cs"
 namespace bookapi_minimal.Services
@@ -691,7 +691,7 @@ Congratulations! You have successfully implemented the business logic for the `A
 
 There's one thing we need to do: we need to register the service in our extension method. Let's go ahead and do that.
 
-In your <FontIcon icon="iconfont icon-csharp"/>`ServiceExtensions.cs` file, add the following code:
+In your <VPIcon icon="iconfont icon-csharp"/>`ServiceExtensions.cs` file, add the following code:
 
 ```cs title="Extensions/ServiceExtensions.cs"
 //...

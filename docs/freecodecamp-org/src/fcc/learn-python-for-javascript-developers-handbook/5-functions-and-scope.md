@@ -60,16 +60,16 @@ Both Python and JavaScript support first-class functions, meaning functions can 
 
 ## Defining Functions in Python vs. JavaScript
 
-### <FontIcon icon="fa-brands fa-python"/>Python Functions
+### <VPIcon icon="fa-brands fa-python"/>Python Functions
 
 In Python, functions are defined using the `def` keyword, followed by the function name, parameters in parentheses, and a colon. Python uses indentation to define the function body, which makes the syntax clean and readable.
 
-### <FontIcon icon="fa-brands fa-js"/>JavaScript Functions
+### <VPIcon icon="fa-brands fa-js"/>JavaScript Functions
 
 
 In JavaScript, functions can be defined in several ways: using the `function` keyword, as an arrow function (`=>`), or as a method within an object. Modern JavaScript commonly uses arrow functions for their brevity and lexical `this` behavior.
 
-::: tip <FontIcon icon="fa-brands fa-python"/>Example Basic Function Definition
+::: tip <VPIcon icon="fa-brands fa-python"/>Example Basic Function Definition
 
 ```py
 def greet(name):
@@ -78,7 +78,7 @@ def greet(name):
 print(greet("Alice"))  # Output: Hello, Alice!
 ```
 
-::: tip <FontIcon icon="fa-brands fa-js"/>Example Basic Function Definition
+::: tip <VPIcon icon="fa-brands fa-js"/>Example Basic Function Definition
 
 ```js
 function greet(name) {
@@ -90,7 +90,7 @@ console.log(greet("Alice")); // Output: Hello, Alice!
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>Arrow Functions in JavaScript:
+::: tip <VPIcon icon="fa-brands fa-js"/>Arrow Functions in JavaScript:
 
 ```js
 const greet = (name) => `Hello, ${name}!`;
@@ -112,7 +112,7 @@ console.log(greet("Alice")); // Output: Hello, Alice!
 
 **Scope** refers to where a variable is accessible in your code. Both Python and JavaScript have rules for variable scoping, but they are implemented differently.
 
-### <FontIcon icon="fa-brands fa-python"/>Python’s LEGB Rule
+### <VPIcon icon="fa-brands fa-python"/>Python’s LEGB Rule
 
 Python uses the LEGB rule to determine variable scope:
 
@@ -141,7 +141,7 @@ print(x)          # Output: global
 
 :::
 
-### <FontIcon icon="fa-brands fa-js"/>JavaScript Closures
+### <VPIcon icon="fa-brands fa-js"/>JavaScript Closures
 
 JavaScript handles scope using function-level and block-level scoping. Variables declared with `let` and `const` have block scope, while `var` has function scope.
 
@@ -177,7 +177,7 @@ outerFunction(); // Output: local
 
 ## Anonymous Functions: Lambda Expressions vs. Arrow Functions
 
-### <FontIcon icon="fa-brands fa-python"/>Python’s Lambda Expressions
+### <VPIcon icon="fa-brands fa-python"/>Python’s Lambda Expressions
 
 Python’s `lambda` allows you to define small, unnamed functions in a single line. They are typically used for short-lived operations, like filtering or mapping, where defining a full function would be unnecessary.
 
@@ -193,7 +193,7 @@ squared = map(lambda x: x ** 2, numbers)
 print(list(squared))  # Output: [1, 4, 9, 16]
 ```
 
-### <FontIcon icon="fa-brands fa-js"/>JavaScript’s Arrow Functions
+### <VPIcon icon="fa-brands fa-js"/>JavaScript’s Arrow Functions
 
 Arrow functions in JavaScript serve a similar purpose but are more versatile. They provide a concise way to define functions and automatically bind `this` to the enclosing context, which is particularly useful in object-oriented or asynchronous programming.
 
@@ -224,7 +224,7 @@ console.log(squared); // Output: [1, 4, 9, 16]
 
 Both Python and JavaScript support default parameter values, but Python offers additional features like keyword arguments and variable-length arguments (`*args` and `**kwargs`).
 
-### <FontIcon icon="fa-brands fa-python"/>Python Default and Variable-Length Arguments:
+### <VPIcon icon="fa-brands fa-python"/>Python Default and Variable-Length Arguments:
 
 ```py
 def greet(name="World", *args, **kwargs):
@@ -239,7 +239,7 @@ greet("Alice", 1, 2, color="blue", age=30)
 # Keyword Arguments: {'color': 'blue', 'age': 30}
 ```
 
-### <FontIcon icon="fa-brands fa-js"/>JavaScript Default Parameters:
+### <VPIcon icon="fa-brands fa-js"/>JavaScript Default Parameters:
 
 ```js
 function greet(name = "World", ...args) {

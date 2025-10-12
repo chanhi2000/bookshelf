@@ -65,14 +65,14 @@ The `dotnet new webapi` command creates a new minimal API project named `BookSto
 
 Let's explore the project structure:
 
-- <FontIcon icon="iconfont icon-csharp"/>`Program.cs`: The entry point of the application, where the host is configured.
+- <VPIcon icon="iconfont icon-csharp"/>`Program.cs`: The entry point of the application, where the host is configured.
 - `bookapi-minimal.sln`: The solution file that contains the project.
 - `bookapi-minimal.http`: A file that contains sample HTTP requests to test the API.
 - `bookapi-minimal.csproj`: The project file that contains the project configuration.
 - `appsettings.json`: The configuration file that stores application settings.
 - `appsettings.Development.json` : The configuration file for the development environment.
 
-When you open the program.cs file, you'll notice that the code is minimal. The <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file contains the following code:
+When you open the program.cs file, you'll notice that the code is minimal. The <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file contains the following code:
 
 ```cs :collapsed-lines title="Program.cs"
 var builder = WebApplication.CreateBuilder(args);

@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6c-9a48-4037-9cc2-3b35a92b6006.png"/>
 
-Now that your environment variables are set up, you can create different services for communicating with the server. In your <FontIcon icon="fas fa-folder-open"/>`lib/utils/`<FontIcon icon="fa-brands fa-dart-lang"/>`server.dart` file, add the code below:
+Now that your environment variables are set up, you can create different services for communicating with the server. In your <VPIcon icon="fas fa-folder-open"/>`lib/utils/`<VPIcon icon="fa-brands fa-dart-lang"/>`server.dart` file, add the code below:
 
 ```dart :collapsed-lines title="lib/utils/server.dart"
 import 'dart:convert';

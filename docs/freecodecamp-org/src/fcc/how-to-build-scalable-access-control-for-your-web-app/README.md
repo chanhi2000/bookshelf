@@ -154,7 +154,7 @@ Let’s dive in!
 
 Whether you choose CASL for its simplicity and power or implement your own custom solution for more flexibility, you now have the tools and knowledge to integrate access control into your React applications, ensuring your users can only access what they’re authorized to.
 
-If you enjoyed reading this (or even if you didn’t), drop me a message on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`samhitharamaprasad`)](https://linkedin.com/in/samhitharamaprasad/) with your feedback.
+If you enjoyed reading this (or even if you didn’t), drop me a message on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`samhitharamaprasad`)](https://linkedin.com/in/samhitharamaprasad/) with your feedback.
 
 Happy coding, and may your app's permissions be as scalable as your user base!
 

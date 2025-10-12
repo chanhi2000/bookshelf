@@ -62,7 +62,7 @@ In this article, I'll walk you through the process of building the game for your
 
 We'll begin by exploring the game features, then cover the tech stack and project structure—both of which are straightforward. Finally, we'll discuss optimizations and ensuring smooth gameplay on mobile devices 📱.
 
-If you want to skip the reading, [here (<FontIcon icon="iconfont icon-github"/>`mihailgaberov/memory-card`)](https://github.com/mihailgaberov/memory-card) 💁 is the GitHub repository 🙌. And [<FontIcon icon="fas fa-globe"/>here](https://memory-card-blush-pi.vercel.app/) you can see the live demo.
+If you want to skip the reading, [here (<VPIcon icon="iconfont icon-github"/>`mihailgaberov/memory-card`)](https://github.com/mihailgaberov/memory-card) 💁 is the GitHub repository 🙌. And [<VPIcon icon="fas fa-globe"/>here](https://memory-card-blush-pi.vercel.app/) you can see the live demo.
 
 <SiteInfo
   name="mihailgaberov/memory-card"
@@ -247,9 +247,9 @@ npm install
 
 **Install the Required Dependencies**
 
-The only dependencies we will use in this project are the hook package from UI.dev (by the way, [<FontIcon icon="fas fa-globe"/>here](https://ui.dev/why-react-renders) you can find a well-explained article on how rendering in React works).
+The only dependencies we will use in this project are the hook package from UI.dev (by the way, [<VPIcon icon="fas fa-globe"/>here](https://ui.dev/why-react-renders) you can find a well-explained article on how rendering in React works).
 
-The other dependency is the famous CSS preprocessor, [<FontIcon icon="iconfont icon-sass"/>SASS](https://sass-lang.com/), that we’ll need to be able to write our CSS modules in SASS instead of regular CSS.
+The other dependency is the famous CSS preprocessor, [<VPIcon icon="iconfont icon-sass"/>SASS](https://sass-lang.com/), that we’ll need to be able to write our CSS modules in SASS instead of regular CSS.
 
 ```sh
 npm install @uidotdev/usehooks sass
@@ -1021,7 +1021,7 @@ This project showcases how seemingly simple games can be excellent vehicles for 
 
 While the game successfully achieves its primary goal of providing an ad-free, enjoyable experience, the documented future improvements provide a clear roadmap for evolution. Whether it's implementing additional optimizations or adding new features, the foundation is solid and ready for expansion.
 
-The Memory Card Game stands as a testament to how personal projects can both solve real-world problems and serve as platforms for implementing best practices in modern web development. Feel free to explore the [<FontIcon icon="iconfont icon-github"/>`mihailgaberov/memory-card`](https://github.com/mihailgaberov/memory-card), contribute, or use it as inspiration for your own projects!
+The Memory Card Game stands as a testament to how personal projects can both solve real-world problems and serve as platforms for implementing best practices in modern web development. Feel free to explore the [<VPIcon icon="iconfont icon-github"/>`mihailgaberov/memory-card`](https://github.com/mihailgaberov/memory-card), contribute, or use it as inspiration for your own projects!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

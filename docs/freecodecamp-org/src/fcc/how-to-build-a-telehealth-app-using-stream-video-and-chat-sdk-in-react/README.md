@@ -68,9 +68,9 @@ Remember when the COVID-19 pandemic moved everything online - doctor’s visits 
 
 That moment kicked off a massive shift in how healthcare gets delivered.
 
-[<FontIcon icon="fas fa-globe"/>Telehealth](https://getstream.io/chat/solutions/healthcare/) became more than a workaround. It’s now a core part of modern care. As demand grows, developers are stepping up to build secure, real-time platforms that connect patients and providers from anywhere.
+[<VPIcon icon="fas fa-globe"/>Telehealth](https://getstream.io/chat/solutions/healthcare/) became more than a workaround. It’s now a core part of modern care. As demand grows, developers are stepping up to build secure, real-time platforms that connect patients and providers from anywhere.
 
-In this article, you’ll learn how to build a telehealth application with Stream’s [<FontIcon icon="fas fa-globe"/>React Video](https://getstream.io/video/sdk/react/) and [<FontIcon icon="fas fa-globe"/>Chat](https://getstream.io/chat/sdk/react/) SDKs. You’ll set up authentication, create video calls, enable messaging, and design a functional user interface that mimics real-world telehealth workflows.
+In this article, you’ll learn how to build a telehealth application with Stream’s [<VPIcon icon="fas fa-globe"/>React Video](https://getstream.io/video/sdk/react/) and [<VPIcon icon="fas fa-globe"/>Chat](https://getstream.io/chat/sdk/react/) SDKs. You’ll set up authentication, create video calls, enable messaging, and design a functional user interface that mimics real-world telehealth workflows.
 
 Let’s dive in.
 
@@ -93,7 +93,7 @@ Before you start this tutorial, make sure you have:
 
 - A basic understanding of React.
 - Node.js and npm/yarn installed on your computer
-- A [<FontIcon icon="fas fa-globe"/>free account with Stream](https://getstream.io/try-for-free/)
+- A [<VPIcon icon="fas fa-globe"/>free account with Stream](https://getstream.io/try-for-free/)
 - Familiarity with Stream SDKs
 - A basic understanding of Tailwind CSS for styling
 - Experience with VS Code and Postman (for testing APIs)
@@ -154,13 +154,13 @@ Once there, install the required dependencies by running:
 npm install
 ```
 
-This command installs both the <FontIcon icon="fas fa-folder-open"/>`node_modules` folder (which contains all your project's packages) and the <FontIcon icon="iconfont icon-json"/>`package-lock.json` file (which records exact versions of installed packages).
+This command installs both the <VPIcon icon="fas fa-folder-open"/>`node_modules` folder (which contains all your project's packages) and the <VPIcon icon="iconfont icon-json"/>`package-lock.json` file (which records exact versions of installed packages).
 
-Next, you’ll need to install Tailwind CSS for styling. Follow the [<FontIcon icon="iconfont icon-tailwindcss"/>Tailwind Docs](https://v3.tailwindcss.com/docs/guides/vite) for step-by-step instructions.
+Next, you’ll need to install Tailwind CSS for styling. Follow the [<VPIcon icon="iconfont icon-tailwindcss"/>Tailwind Docs](https://v3.tailwindcss.com/docs/guides/vite) for step-by-step instructions.
 
 Then, it’s time to set up the website. Using React, you’ll create the home sign-in/log-in pages. Both will be nested together using `React-router-dom`.
 
-Here’s what the [home page (<FontIcon icon="iconfont icon-github"/>`Derekvibe/Telehealth_Frontend`)](https://github.com/Derekvibe/Telehealth_Frontend/tree/main/src/pages/Home) looks like:
+Here’s what the [home page (<VPIcon icon="iconfont icon-github"/>`Derekvibe/Telehealth_Frontend`)](https://github.com/Derekvibe/Telehealth_Frontend/tree/main/src/pages/Home) looks like:
 
 ![Telehealth Home Page](https://cdn.hashnode.com/res/hashnode/image/upload/v1752705718347/ed5dd289-2998-41f7-8d10-352aa35fe614.gif)
 
@@ -180,7 +180,7 @@ Start by moving into the backend folder using the command: `cd Backend`
 
 Inside the Backend directory, initialize your Node.js project using `npm install`
 
-This will create a <FontIcon icon="iconfont icon-json"/>`package.json` file, which stores metadata and dependencies for your project.
+This will create a <VPIcon icon="iconfont icon-json"/>`package.json` file, which stores metadata and dependencies for your project.
 
 Next, install all the dependencies needed to build your backend. Run the following command:
 
@@ -196,7 +196,7 @@ Here’s a brief overview of what each package does:
 - bcryptjs: Encrypts user passwords for secure storage.
 - Cookie-parser: Handles cookies in your application.
 - CORS: Middleware that enables cross-origin requests - essential for frontend-backend communication.
-- dotenv: Loads environment variables from a <FontIcon icon="fas fa-file-lines"/>`.env` file into process.env.
+- dotenv: Loads environment variables from a <VPIcon icon="fas fa-file-lines"/>`.env` file into process.env.
 - Express: The core framework for building your server and API routes.
 - jsonwebtoken: Generates and verifies JWT tokens for authentication.
 - Mongoose: Connects your app to a MongoDB database.
@@ -204,9 +204,9 @@ Here’s a brief overview of what each package does:
 - Validator: Validates user inputs like email, strings, and so on.
 - nodemon: Automatically restarts your server when changes are made to files.
 
-Once your packages are installed, create two key files in the backend directory: <FontIcon icon="fa-brands fa-js"/>`App.js`, which contains your app logic, middleware, and route handlers, and <FontIcon icon="fa-brands fa-js"/>`server.js`, responsible for initializing and configuring your server.
+Once your packages are installed, create two key files in the backend directory: <VPIcon icon="fa-brands fa-js"/>`App.js`, which contains your app logic, middleware, and route handlers, and <VPIcon icon="fa-brands fa-js"/>`server.js`, responsible for initializing and configuring your server.
 
-Next, you have to update your <FontIcon icon="iconfont icon-json"/>`package.json` start script. Head to the <FontIcon icon="iconfont icon-json"/>`package.json` file in your backend directory and replace the default script:
+Next, you have to update your <VPIcon icon="iconfont icon-json"/>`package.json` start script. Head to the <VPIcon icon="iconfont icon-json"/>`package.json` file in your backend directory and replace the default script:
 
 ```json title="package.json"
 "scripts": {
@@ -224,13 +224,13 @@ with this:
 
 This setup allows you to run your server using `nodemon`, automatically reloading it when changes are made. This helps boost productivity during development.
 
-To check if your backend setup is correct, open the <FontIcon icon="fa-brands fa-js"/>`server.js` file and add a test log: `console.log (“Any of your Log Message”)`. Then, head to your terminal in the backend directory, and run npm start. You should see the log message in the terminal, confirming that your backend is running.
+To check if your backend setup is correct, open the <VPIcon icon="fa-brands fa-js"/>`server.js` file and add a test log: `console.log (“Any of your Log Message”)`. Then, head to your terminal in the backend directory, and run npm start. You should see the log message in the terminal, confirming that your backend is running.
 
 ![Backend Server Testing](https://cdn.hashnode.com/res/hashnode/image/upload/v1752703046663/dc06ce5a-3b6c-4846-bd33-53c423a57235.png)
 
-### <FontIcon icon="fa-brands fa-js"/>`App.js` Setup
+### <VPIcon icon="fa-brands fa-js"/>`App.js` Setup
 
-In the <FontIcon icon="fa-brands fa-js"/>`App.js` file, start by importing the packages you initially installed.
+In the <VPIcon icon="fa-brands fa-js"/>`App.js` file, start by importing the packages you initially installed.
 
 ```js title="App.js"
 const express = require("express");
@@ -266,15 +266,15 @@ The `app.use(express.json({ limit: "10kb" }));` command is a middleware function
 
 The `app.use(cookieParser());` command makes cookies available via `req.cookies`.
 
-Last, the `module.exports = app;` command allows the app to be imported in other files, especially in <FontIcon icon="fa-brands fa-js"/>`server.js`, which is where the app will be started.
+Last, the `module.exports = app;` command allows the app to be imported in other files, especially in <VPIcon icon="fa-brands fa-js"/>`server.js`, which is where the app will be started.
 
-### <FontIcon icon="fa-brands fa-js"/>`server.js` Setup
+### <VPIcon icon="fa-brands fa-js"/>`server.js` Setup
 
-Once <FontIcon icon="fa-brands fa-js"/>`App.js` is set up, the next step is to create and configure your server in a new file called <FontIcon icon="fa-brands fa-js"/>`server.js`.
+Once <VPIcon icon="fa-brands fa-js"/>`App.js` is set up, the next step is to create and configure your server in a new file called <VPIcon icon="fa-brands fa-js"/>`server.js`.
 
-Before doing that, ensure you have a **MongoDB database** set up. If you don’t have one yet, you can [<FontIcon icon="fa-brands fa-youtube"/>follow this video tutorial](https://youtu.be/pO6m0nmo1k0?si=Rqi_50fnsfQrM-ww) to set up a MongoDB database.
+Before doing that, ensure you have a **MongoDB database** set up. If you don’t have one yet, you can [<VPIcon icon="fa-brands fa-youtube"/>follow this video tutorial](https://youtu.be/pO6m0nmo1k0?si=Rqi_50fnsfQrM-ww) to set up a MongoDB database.
 
-After setting up MongoDB, you will receive a `username` and `password`. Copy the password, head to your backend directory, and create a <FontIcon icon="fas fa-file-lines"/>`.env` file to store it.
+After setting up MongoDB, you will receive a `username` and `password`. Copy the password, head to your backend directory, and create a <VPIcon icon="fas fa-file-lines"/>`.env` file to store it.
 
 After you have stored the password, head back to complete your database setup.
 
@@ -282,7 +282,7 @@ Next, click on the “Create Database User” button, then click on the `choose 
 
 ![Database-String-Auth](https://cdn.hashnode.com/res/hashnode/image/upload/v1752706253668/ad0cdbb4-453c-4291-ab4c-395d14ce297c.gif)
 
-Then head to your <FontIcon icon="fas fa-file-lines"/>`.env` and paste it there, and add `auth` immediately after you have “.net/”.
+Then head to your <VPIcon icon="fas fa-file-lines"/>`.env` and paste it there, and add `auth` immediately after you have “.net/”.
 
 Here’s what it looks like:
 
@@ -300,7 +300,7 @@ To allow your application to connect to the database:
 - Click on “ADD IP ADDRESS.”
 - Choose “Allow Access from Anywhere”, then click on Confirm.
 
-At this point, you can set up your <FontIcon icon="fa-brands fa-js"/>`server.js`
+At this point, you can set up your <VPIcon icon="fa-brands fa-js"/>`server.js`
 
 ```js :collapsed-lines title="server.js"
 require("dotenv").config();
@@ -332,23 +332,23 @@ app.listen(port, () => {
 });
 ```
 
-The <FontIcon icon="fa-brands fa-js"/>`server.js` file is responsible for handling all server-related functions and logic. From the code above, the <FontIcon icon="fa-brands fa-js"/>`server.js` file loads the environment variables using `dotenv`, connects your backend to MongoDB using `mongoose`, and starts the Express server. It gets the database URL and port from the <FontIcon icon="fas fa-file-lines"/>`config.env` file, connects to the database, then runs your application on the specified port (`8000`).
+The <VPIcon icon="fa-brands fa-js"/>`server.js` file is responsible for handling all server-related functions and logic. From the code above, the <VPIcon icon="fa-brands fa-js"/>`server.js` file loads the environment variables using `dotenv`, connects your backend to MongoDB using `mongoose`, and starts the Express server. It gets the database URL and port from the <VPIcon icon="fas fa-file-lines"/>`config.env` file, connects to the database, then runs your application on the specified port (`8000`).
 
 If the specified port is not found, it falls back to port `3000` and a confirmation message is printed to the console indicating that the server is up and running on the specified port.
 
-![<FontIcon icon="fa-brands fa-js"/>`server.js` Telehealth App](https://cdn.hashnode.com/res/hashnode/image/upload/v1752703203108/a94c724c-ad9c-4653-9081-894ac6e44dd6.png)
+![<VPIcon icon="fa-brands fa-js"/>`server.js` Telehealth App](https://cdn.hashnode.com/res/hashnode/image/upload/v1752703203108/a94c724c-ad9c-4653-9081-894ac6e44dd6.png)
 
 ### Connect the Database to MongoDB Compass
 
-First, download the MongoDB Compass app. ([<FontIcon icon="iconfont icon-mongodb"/>Go here to download and install](https://mongodb.com/try/download/compass)). The MongoDB Compass app makes it easy for us to manage our data.
+First, download the MongoDB Compass app. ([<VPIcon icon="iconfont icon-mongodb"/>Go here to download and install](https://mongodb.com/try/download/compass)). The MongoDB Compass app makes it easy for us to manage our data.
 
-Once the installation is complete, open the app and click on `Click to add new connection`. Go to your <FontIcon icon="fas fa-file-lines"/>`.env` file, copy the connection string you initially got when setting up MongoDB, paste it in the URL section, and then click on “connect.” This setup helps you manage your data when you create and delete users.
+Once the installation is complete, open the app and click on `Click to add new connection`. Go to your <VPIcon icon="fas fa-file-lines"/>`.env` file, copy the connection string you initially got when setting up MongoDB, paste it in the URL section, and then click on “connect.” This setup helps you manage your data when you create and delete users.
 
 ![Mongo-DB-Compass](https://cdn.hashnode.com/res/hashnode/image/upload/v1752703344533/8dff0ff6-66e9-4359-a2c0-fe7a4bd5e4ba.png)
 
 ### Set up an Advanced Error Handling Method
 
-You’ll now create an advanced error-handling mechanism. To do so, create a utils folder in your backend, a <FontIcon icon="fa-brands fa-js"/>`catchAsync.js` file in the utils folder, and add this code:
+You’ll now create an advanced error-handling mechanism. To do so, create a utils folder in your backend, a <VPIcon icon="fa-brands fa-js"/>`catchAsync.js` file in the utils folder, and add this code:
 
 ```js title="catchAsync.js"
 module.exports = (fn) => {
@@ -358,7 +358,7 @@ module.exports = (fn) => {
 };
 ```
 
-Next, create an <FontIcon icon="fa-brands fa-js"/>`appError.js` file still in your utils folder. In the <FontIcon icon="fa-brands fa-js"/>`appError.js` file, add the following command:
+Next, create an <VPIcon icon="fa-brands fa-js"/>`appError.js` file still in your utils folder. In the <VPIcon icon="fa-brands fa-js"/>`appError.js` file, add the following command:
 
 ```js title="appError.js"
 class AppError extends Error {
@@ -378,11 +378,11 @@ module.exports = AppError;
 
 The code above is helpful in tracking and tracing errors. It also provides you with the URL and file location where your error might be occurring, which helps with cleaner error handling and debugging.
 
-Next, let’s create a global error handler. Start by creating a new folder in the backend directory, and name it “controller”. In the controller folder, create your global error handling file. You can name it anything you like. In this example, it’s called <FontIcon icon="fa-brands fa-js"/>`globalErrorHandler.js`.
+Next, let’s create a global error handler. Start by creating a new folder in the backend directory, and name it “controller”. In the controller folder, create your global error handling file. You can name it anything you like. In this example, it’s called <VPIcon icon="fa-brands fa-js"/>`globalErrorHandler.js`.
 
 Your `globalErrorHandler` file will define several functions that handle specific error types, such as database issues, validation failures, or even JWT problems and return a nicely formatted error response for users. For the `globalErrorHandler` to work properly, you have to create a controller function.
 
-So, next, create an <FontIcon icon="fa-brands fa-js"/>`errorController.js` file (still inside the controller folder). The <FontIcon icon="fa-brands fa-js"/>`errorController.js` file responds to the user whenever an error is caught, sending the error in JSON format.
+So, next, create an <VPIcon icon="fa-brands fa-js"/>`errorController.js` file (still inside the controller folder). The <VPIcon icon="fa-brands fa-js"/>`errorController.js` file responds to the user whenever an error is caught, sending the error in JSON format.
 
 ```js :collapsed-lines title="globalErrorHandler.js"
 const AppError = require("../utils/appError");
@@ -428,7 +428,7 @@ The `const handleValidationErrorDB = (err) =>...` handles Mongoose validation er
 
 The `const handleJWTError = () =>` and `const handleJWTExpiredError = () =>` handle errors which might occur as a result of invalid, tampered, or expired JWT tokens and return a `401 Unauthorized` error response.
 
-The `module.exports = {……};` section exports all the individual error handlers so they can be used in the <FontIcon icon="fa-brands fa-js"/>`errorController.js` file.
+The `module.exports = {……};` section exports all the individual error handlers so they can be used in the <VPIcon icon="fa-brands fa-js"/>`errorController.js` file.
 
 ```js title="errorController.js"
 const errorHandlers = require("./globalErrorHandler");
@@ -461,7 +461,7 @@ module.exports = (err, req, res, next) => {
 };
 ```
 
-To ensure your error-handling function works properly, head to your <FontIcon icon="fa-brands fa-js"/>`App.js` and add the command:
+To ensure your error-handling function works properly, head to your <VPIcon icon="fa-brands fa-js"/>`App.js` and add the command:
 
 ```js title="App.js"
 const globalErrorHandler = require("./controller/errorController");
@@ -478,9 +478,9 @@ This ensures that all errors are properly handled and sends the error response t
 
 ### Create User Model
 
-To build a user model, create a new folder in the backend directory and name it “model.” Inside the model folder, create a new file named <FontIcon icon="fa-brands fa-js"/>`userModel.js`.
+To build a user model, create a new folder in the backend directory and name it “model.” Inside the model folder, create a new file named <VPIcon icon="fa-brands fa-js"/>`userModel.js`.
 
-The <FontIcon icon="fa-brands fa-js"/>`userModel.js` file is built essentially for user authentication and security. It provides a validation-rich schema for managing users using Mongoose, which maps how user data is structured in the MongoDB database. It includes validations, password hashing, and methods to compare user passwords securely.
+The <VPIcon icon="fa-brands fa-js"/>`userModel.js` file is built essentially for user authentication and security. It provides a validation-rich schema for managing users using Mongoose, which maps how user data is structured in the MongoDB database. It includes validations, password hashing, and methods to compare user passwords securely.
 
 ```js :collapsed-lines title="userModel.js"
 const mongoose = require("mongoose");
@@ -520,7 +520,7 @@ module.exports = User;
 
 Now, you can create logic that regulates your user's authentication process. This authentication logic consists of the sign-up, sign-in (log-in), OTP, and so on.
 
-To do so, first head to your controller folder and create a new file. Call it <FontIcon icon="fa-brands fa-js"/>`authController.js` because it handles the authentication flow of your project.
+To do so, first head to your controller folder and create a new file. Call it <VPIcon icon="fa-brands fa-js"/>`authController.js` because it handles the authentication flow of your project.
 
 After you’ve created the file, you’ll create your sign-up function.
 
@@ -585,7 +585,7 @@ If the email fails to send or something goes wrong, `await User.findByIdAndDelet
 
 ### Generate OTP
 
-To ensure that your users' OTP is successfully sent to them, in the utils folder, create a new file and name it <FontIcon icon="fa-brands fa-js"/>`generateOtp.js`. Then add the code:
+To ensure that your users' OTP is successfully sent to them, in the utils folder, create a new file and name it <VPIcon icon="fa-brands fa-js"/>`generateOtp.js`. Then add the code:
 
 ```js
 module.exports = () => {
@@ -595,7 +595,7 @@ module.exports = () => {
 
 The code above is a function that generates a user's random 4-digit OTP and returns it as a string.
 
-After completing the code above, go to your authController.js and ensure you import the <FontIcon icon="fa-brands fa-js"/>`generateOtp.js` in the import section.
+After completing the code above, go to your authController.js and ensure you import the <VPIcon icon="fa-brands fa-js"/>`generateOtp.js` in the import section.
 
 ### Create User Token
 
@@ -630,7 +630,7 @@ const createSendToken = (user, statusCode, res, message) => {
   user.otp = undefined;
 ```
 
-Before the code above can work perfectly, create a JWT in your <FontIcon icon="fas fa-file-lines"/>`.env` file.
+Before the code above can work perfectly, create a JWT in your <VPIcon icon="fas fa-file-lines"/>`.env` file.
 
 ```sh title=".env"
 JWT_SECRET = kaklsdolrnnhjfsnlsoijfbwhjsioennbandksd;
@@ -638,15 +638,15 @@ JWT_EXPIRES_IN = 90d
 JWT_COOKIE_EXPIRES_IN = 90
 ```
 
-The code above is how the <FontIcon icon="fas fa-file-lines"/>`.env` file should look. Your `JWT_SECRET` can be anything, just as you can see in the code.
+The code above is how the <VPIcon icon="fas fa-file-lines"/>`.env` file should look. Your `JWT_SECRET` can be anything, just as you can see in the code.
 
 Note: The user token creation logic should run before the sign-in logic. So in that case, the `signToken` and `createSendToken` logic should be placed at the top before the `signup` logic.
 
 ### Send Email
 
-Next, you need to configure your email sending functionality so you can automatically send the user's OTP to their email whenever they sign in. To configure the email, head to the utils folder, create a new file, and give it a name. In this example, the name is <FontIcon icon="fa-brands fa-js"/>`email.js`.
+Next, you need to configure your email sending functionality so you can automatically send the user's OTP to their email whenever they sign in. To configure the email, head to the utils folder, create a new file, and give it a name. In this example, the name is <VPIcon icon="fa-brands fa-js"/>`email.js`.
 
-In <FontIcon icon="fa-brands fa-js"/>`email.js`, we will send emails using the `nodemailer` package and Gmail as a provider.
+In <VPIcon icon="fa-brands fa-js"/>`email.js`, we will send emails using the `nodemailer` package and Gmail as a provider.
 
 ```js title="email.js"
 const nodemailer = require('nodemailer');
@@ -676,17 +676,17 @@ module.exports = sendEmail;
 
 From the code above, the `const nodemailer = require('nodemailer');` command imports the `nodemailer` package. This is a popular Node.js library for sending emails.
 
-The `const transporter = nodemailer.createTransport({…..})` is an email transporter. Since we will be using the Gmail service provider, `service` will be assigned to `Gmail` and `auth` pulls your Gmail address and password from the <FontIcon icon="fas fa-file-lines"/>`.env` file where it’s stored.
+The `const transporter = nodemailer.createTransport({…..})` is an email transporter. Since we will be using the Gmail service provider, `service` will be assigned to `Gmail` and `auth` pulls your Gmail address and password from the <VPIcon icon="fas fa-file-lines"/>`.env` file where it’s stored.
 
-Note: The password is not your actual Gmail password but rather your Gmail app password. You can see how you can get your [<FontIcon icon="fa-brands fa-youtube"/>Gmail password here](https://youtu.be/MkLX85XU5rU?si=yBIj4MJDLY7-k-c4).
+Note: The password is not your actual Gmail password but rather your Gmail app password. You can see how you can get your [<VPIcon icon="fa-brands fa-youtube"/>Gmail password here](https://youtu.be/MkLX85XU5rU?si=yBIj4MJDLY7-k-c4).
 
-Once you’ve successfully gotten your Gmail app password, store it in your <FontIcon icon="fas fa-file-lines"/>`.env` file.
+Once you’ve successfully gotten your Gmail app password, store it in your <VPIcon icon="fas fa-file-lines"/>`.env` file.
 
 ### Route Creation
 
 At this point, you have finished setting up your project's signup function. Next, you need to test whether your signup works properly using Postman. But before that, let’s set up and define a route where the signup function will be executed.
 
-To set up your route, create a new folder in your backend directory named "routes" and a file named <FontIcon icon="fa-brands fa-js"/>`userRouter.js`.
+To set up your route, create a new folder in your backend directory named "routes" and a file named <VPIcon icon="fa-brands fa-js"/>`userRouter.js`.
 
 ```js title="userRouter.js"
 const express = require("express");
@@ -698,7 +698,7 @@ router.post("/signup", signup);
 module.exports = router;
 ```
 
-Next, go to your <FontIcon icon="fa-brands fa-js"/>`App.js` file and add the router to it.
+Next, go to your <VPIcon icon="fa-brands fa-js"/>`App.js` file and add the router to it.
 
 ```js title="App.js"
 const userRouter = require("./routes/userRouters"); // Route import statement
@@ -721,7 +721,7 @@ From the image above, you can see that the user details are obtained and the pas
 
 In this section, you’ll create a Verify Account controller function. This function verifies a user’s account using the OTP code sent to their email address.
 
-First, go to your <FontIcon icon="fa-brands fa-js"/>`authController.js` file and add:
+First, go to your <VPIcon icon="fa-brands fa-js"/>`authController.js` file and add:
 
 ```js :collapsed-lines title="authController.js"
 exports.verifyAccount = catchAsync(async (req, res, next) => {
@@ -763,7 +763,7 @@ exports.verifyAccount = catchAsync(async (req, res, next) => {
 
 Next, create a middleware function to authenticate the currently logged-in user.
 
-In your backend directory, create a new folder called `middlewares`. Inside the `middlewares` folder, create a file named <FontIcon icon="fa-brands fa-js"/>`isAuthenticated.js`.
+In your backend directory, create a new folder called `middlewares`. Inside the `middlewares` folder, create a file named <VPIcon icon="fa-brands fa-js"/>`isAuthenticated.js`.
 
 Add the following code:
 
@@ -823,7 +823,7 @@ const isAuthenticated = catchAsync(async (req, res, next) => {
 module.exports = isAuthenticated;
 ```
 
-Now, go to your <FontIcon icon="fa-brands fa-js"/>`userRouter.js` file and add the route for the verify account function:
+Now, go to your <VPIcon icon="fa-brands fa-js"/>`userRouter.js` file and add the route for the verify account function:
 
 ```js title="userRouter.js"
 const { verifyAccount} = require("../controller/authController");
@@ -851,7 +851,7 @@ If you’ve reached this point, you’ve successfully signed up and verified a u
 
 Now it’s time to create the login function, which allows a verified user to access their account. Here’s how you can do that:
 
-Go to your <FontIcon icon="fa-brands fa-js"/>`authController.js` file and create your login function by adding the following:
+Go to your <VPIcon icon="fa-brands fa-js"/>`authController.js` file and create your login function by adding the following:
 
 ```js :collapsed-lines title="authController.js"
 exports.login = catchAsync(async (req, res, next) => {
@@ -899,7 +899,7 @@ exports.login = catchAsync(async (req, res, next) => {
 
 `if (!user || !(await user.correctPassword(…))) {…}` checks if the user exists and if the password entered matches the one stored in the database (after hashing comparison). If either is wrong, it throws: `Incorrect email or password`.
 
-The line `signToken(user._id)` generates a JWT using the user's unique ID. The `cookieOptions` object configures how the cookie behaves - it sets the cookie to expire after a specific number of days defined in the <FontIcon icon="fas fa-file-lines"/>`.env` file, marks it as `httpOnly` to prevent JavaScript access for security, sets `secure` to `false` since the app is currently in development, and uses `sameSite: "Lax"` to allow cross-origin requests during local testing.
+The line `signToken(user._id)` generates a JWT using the user's unique ID. The `cookieOptions` object configures how the cookie behaves - it sets the cookie to expire after a specific number of days defined in the <VPIcon icon="fas fa-file-lines"/>`.env` file, marks it as `httpOnly` to prevent JavaScript access for security, sets `secure` to `false` since the app is currently in development, and uses `sameSite: "Lax"` to allow cross-origin requests during local testing.
 
 Finally, `res.cookie(...)` sends the token as a cookie attached to the HTTP response, enabling the client to store the token for authentication purposes.
 
@@ -907,7 +907,7 @@ From the code above, you may have noticed that the password stored in the databa
 
 To fix this, you need to compare the entered password with the hashed one using the `bcryptjs` package.
 
-Head over to your <FontIcon icon="fa-brands fa-js"/>`userModel.js` file and create a method that handles password comparison. This method will take the plain text password provided by the user and compare it to the hashed password stored in the database.
+Head over to your <VPIcon icon="fa-brands fa-js"/>`userModel.js` file and create a method that handles password comparison. This method will take the plain text password provided by the user and compare it to the hashed password stored in the database.
 
 ```js title="userModel.js"
 // create a method responsible for comparing the password stored in the database
@@ -919,7 +919,7 @@ userSchema.methods.correctPassword = async function (password, userPassword) {
 
 This `correctPassword` method uses `bcrypt.compare()`, which internally hashes the plain password and checks if it matches the stored hashed version. This ensures that login validation works correctly and securely, even though the actual password is not stored in plain text.
 
-Next, add the Login functionality to the <FontIcon icon="fa-brands fa-js"/>`userRouter.js` file.
+Next, add the Login functionality to the <VPIcon icon="fa-brands fa-js"/>`userRouter.js` file.
 
 ```js title="userRouter.js"
 const {login} = require("../controller/authController");
@@ -932,7 +932,7 @@ You can test this endpoint using Postman with a `POST` request to: `http://local
 
 ### Logout Function
 
-At this point, you can implement the logout function to end a user's session securely. To do this, navigate to your <FontIcon icon="fa-brands fa-js"/>`authController.js` file and add the following function:
+At this point, you can implement the logout function to end a user's session securely. To do this, navigate to your <VPIcon icon="fa-brands fa-js"/>`authController.js` file and add the following function:
 
 ```js title="authController.js"
 // creating a log out function
@@ -973,7 +973,7 @@ Now that your backend is up and running, you can integrate it into your frontend
 
 First, navigate to the frontend directory using the command `cd Frontend`.
 
-Create a new folder in the <FontIcon icon="fas fa-folder-open"/>`src` folder where your authentication-related files will live. Depending on your preference or app structure, you can name it something like <FontIcon icon="fas fa-folder-open"/>`auth` or <FontIcon icon="fas fa-folder-open"/>`pages`. Then, create a new file called <FontIcon icon="fa-brands fa-js"/>`NewUser.js`. This file will handle user signup functionality.
+Create a new folder in the <VPIcon icon="fas fa-folder-open"/>`src` folder where your authentication-related files will live. Depending on your preference or app structure, you can name it something like <VPIcon icon="fas fa-folder-open"/>`auth` or <VPIcon icon="fas fa-folder-open"/>`pages`. Then, create a new file called <VPIcon icon="fa-brands fa-js"/>`NewUser.js`. This file will handle user signup functionality.
 
 ```jsx :collapsed-lines title="NewUser.js"
 import axios from 'axios';
@@ -1089,7 +1089,7 @@ When the OTP has been added and the form is submitted, the 4-digit code is joine
 
 ### Log In
 
-Now you can create the login interface for your application. First, create a <FontIcon icon="fa-brands fa-jsx"/>`Login.jsx` file and input the code:
+Now you can create the login interface for your application. First, create a <VPIcon icon="fa-brands fa-jsx"/>`Login.jsx` file and input the code:
 
 ```jsx :collapsed-lines title="Login.jsx"
 import React, { useState } from 'react';
@@ -1161,11 +1161,11 @@ If login is successful, it extracts the JWT token, user data, and Stream Chat to
 
 Just as you set up the backend route, you have to do the same for the frontend.
 
-Head to <FontIcon icon="fa-brands fa-react"/>`App.jsx`. Before adding the route, make sure you have installed the `react-router-dom` package. If not, run this command in the frontend terminal:
+Head to <VPIcon icon="fa-brands fa-react"/>`App.jsx`. Before adding the route, make sure you have installed the `react-router-dom` package. If not, run this command in the frontend terminal:
 
 `npm install react-router-dom`
 
-Then, add the command to your <FontIcon icon="fa-brands fa-react"/>`App.jsx` file:
+Then, add the command to your <VPIcon icon="fa-brands fa-react"/>`App.jsx` file:
 
 ```jsx :collapsed-lines title="App.jsx"
 import React from 'react';
@@ -1226,20 +1226,20 @@ export default App;
 
 ## Stream Chat and Video Integration
 
-Before proceeding to the dashboard, let’s integrate the Stream [<FontIcon icon="fas fa-globe"/>Chat](https://getstream.io/chat/) and [<FontIcon icon="fas fa-globe"/>Video](https://getstream.io/video/) functionality into the project.
+Before proceeding to the dashboard, let’s integrate the Stream [<VPIcon icon="fas fa-globe"/>Chat](https://getstream.io/chat/) and [<VPIcon icon="fas fa-globe"/>Video](https://getstream.io/video/) functionality into the project.
 
-First, [<FontIcon icon="fas fa-globe"/>create a free Stream account](https://getstream.io/try-for-free/), start a new project in your dashboard, and get your `APP KEY` and `API_SECRET`.
+First, [<VPIcon icon="fas fa-globe"/>create a free Stream account](https://getstream.io/try-for-free/), start a new project in your dashboard, and get your `APP KEY` and `API_SECRET`.
 
 ```sh title=".env"
 STREAM_API_KEY=your_app_key
 STREAM_API_SECRET=your_api_secret
 ```
 
-Watch the Stream [<FontIcon icon="fa-brands fa-youtube"/>Chat React Quick Start Guide](https://youtu.be/kGKq4giL4ok?si=M_nkWAiq4IzGNYD_) to see how you can set it up.
+Watch the Stream [<VPIcon icon="fa-brands fa-youtube"/>Chat React Quick Start Guide](https://youtu.be/kGKq4giL4ok?si=M_nkWAiq4IzGNYD_) to see how you can set it up.
 
 <VidStack src="youtube/kGKq4giL4ok" />
 
-Next, store your Stream `APP KEY` and `API_SECRET` in your <FontIcon icon="fas fa-file-lines"/>`.env`.
+Next, store your Stream `APP KEY` and `API_SECRET` in your <VPIcon icon="fas fa-file-lines"/>`.env`.
 
 ### Install Stream Packages (Frontend)
 
@@ -1253,7 +1253,7 @@ npm install @stream-io/stream-chat-css
 
 ### Stream Token Handler
 
-First, create a new file in your frontend Src directory and name it. In this example, it’s <FontIcon icon="fa-brands fa-react"/>`StreamContext.jsx`. This file sets up a context to fetch and manage the Stream Chat token on login and includes logout functionality.
+First, create a new file in your frontend Src directory and name it. In this example, it’s <VPIcon icon="fa-brands fa-react"/>`StreamContext.jsx`. This file sets up a context to fetch and manage the Stream Chat token on login and includes logout functionality.
 
 ```jsx :collapsed-lines title="StreamContext.jsx"
 import React, { createContext, useContext, useEffect, useState } from "react";
@@ -1328,7 +1328,7 @@ The code above creates a StreamContext using React’s Context API. In the `useE
 
 Finally, it adds a `Logout` method that hits the logout endpoint and clears all stored auth data from `localStorage`.
 
-Next, open your <FontIcon icon="fa-brands fa-react"/>`main.jsx` and wrap your entire application with the `StreamProvider` so all child components can access the Stream context.
+Next, open your <VPIcon icon="fa-brands fa-react"/>`main.jsx` and wrap your entire application with the `StreamProvider` so all child components can access the Stream context.
 
 ```jsx title="main.jsx"
 import { createRoot } from 'react-dom/client';
@@ -1356,14 +1356,14 @@ npm install getstream
 npm install stream-chat stream-chat-react
 ```
 
-Open your <FontIcon icon="fas fa-file-lines"/>`.env` file and add your Stream `API KEY` and `API_SECRET`:
+Open your <VPIcon icon="fas fa-file-lines"/>`.env` file and add your Stream `API KEY` and `API_SECRET`:
 
 ```sh title=".env"
 STREAM_API_KEY=your_app_key
 STREAM_API_SECRET=your_api_secret
 ```
 
-Next, open your <FontIcon icon="fa-brands fa-js"/>`authController.js` and create your Stream Chat logic:
+Next, open your <VPIcon icon="fa-brands fa-js"/>`authController.js` and create your Stream Chat logic:
 
 ```js :collapsed-lines title="authController.js"
 //Initialize the Stream Client
@@ -1420,7 +1420,7 @@ user.password = undefined;
 
 ### `streamRoutes` Endpoint
 
-Next, create an endpoint from which the Stream token can be called. To do this, go to your routes folder and create a new file called <FontIcon icon="fa-brands fa-js"/>`streamRoutes.js`. In <FontIcon icon="fa-brands fa-js"/>`streamRoutes.js`, add the command:
+Next, create an endpoint from which the Stream token can be called. To do this, go to your routes folder and create a new file called <VPIcon icon="fa-brands fa-js"/>`streamRoutes.js`. In <VPIcon icon="fa-brands fa-js"/>`streamRoutes.js`, add the command:
 
 ```js :collapsed-lines title="streamRoutes.js"
 const express = require("express");
@@ -1518,7 +1518,7 @@ module.exports = router;
 
 ## User Logout Endpoint
 
-Go to your <FontIcon icon="fa-brands fa-js"/>`authController.js` and create a functionality that handles logging out the user:
+Go to your <VPIcon icon="fa-brands fa-js"/>`authController.js` and create a functionality that handles logging out the user:
 
 ```js title="authController.js"
 exports.logout = catchAsync(async (req, res, next) => {
@@ -1535,7 +1535,7 @@ exports.logout = catchAsync(async (req, res, next) => {
 });
 ```
 
-Then register your logout route to your <FontIcon icon="fa-brands fa-js"/>`userRouters.js`:
+Then register your logout route to your <VPIcon icon="fa-brands fa-js"/>`userRouters.js`:
 
 ```js title="userRouters.js"
 const express = require("express");
@@ -1554,9 +1554,9 @@ module.exports = router;
 
 After setting up your backend Stream API, the last task is setting up chat and video in your frontend application.
 
-### <FontIcon icon="fa-brands fa-react"/>`Dashboard.jsx`
+### <VPIcon icon="fa-brands fa-react"/>`Dashboard.jsx`
 
-Create a new file <FontIcon icon="fa-brands fa-react"/>`Dashboard.jsx` in your frontend directory. This is where you will set up your Stream and video function.
+Create a new file <VPIcon icon="fa-brands fa-react"/>`Dashboard.jsx` in your frontend directory. This is where you will set up your Stream and video function.
 
 ```jsx :collapsed-lines title="Dashboard.jsx"
 import React, { useState, useEffect } from "react";
@@ -1670,7 +1670,7 @@ export default App;
 
 ### Video Setup
 
-You’ll now set up the video function for your frontend. To do so, create a new file <FontIcon icon="fa-brands fa-react"/>`VideoStream.jsx` and add the command:
+You’ll now set up the video function for your frontend. To do so, create a new file <VPIcon icon="fa-brands fa-react"/>`VideoStream.jsx` and add the command:
 
 ```jsx :collapsed-lines title="VideoStream.jsx"
 import React, { useEffect, useState } from "react";
@@ -1792,13 +1792,13 @@ export function MyUILayout() {
 
 And that’s a wrap!
 
-You’ve [<FontIcon icon="fas fa-globe"/>built a telehealth app](https://getstream.io/blog/telemedicine-app-development/) with secure video, real-time chat, and user authentication - all powered by Stream’s Chat and Video SDKs.
+You’ve [<VPIcon icon="fas fa-globe"/>built a telehealth app](https://getstream.io/blog/telemedicine-app-development/) with secure video, real-time chat, and user authentication - all powered by Stream’s Chat and Video SDKs.
 
 This foundation gives you the flexibility to expand further with features like appointment scheduling, patient history, or HIPPA-compliant file sharing.
 
-You can find the [frontend (<FontIcon icon="iconfont icon-github"/>`Derekvibe/Telehealth_Frontend`)](https://github.com/Derekvibe/Telehealth_Frontend) and [backend (<FontIcon icon="iconfont icon-github"/>`Derekvibe/Telehealth_Backend`)](https://github.com/Derekvibe/Telehealth_Backend) applications on GitHub. The frontend app is hosted using the Vercel hosting service, and the backend is hosted on Render.
+You can find the [frontend (<VPIcon icon="iconfont icon-github"/>`Derekvibe/Telehealth_Frontend`)](https://github.com/Derekvibe/Telehealth_Frontend) and [backend (<VPIcon icon="iconfont icon-github"/>`Derekvibe/Telehealth_Backend`)](https://github.com/Derekvibe/Telehealth_Backend) applications on GitHub. The frontend app is hosted using the Vercel hosting service, and the backend is hosted on Render.
 
-Check out the [<FontIcon icon="fas fa-globe"/>repository of the application](https://telehealth-frontend.vercel.app/).
+Check out the [<VPIcon icon="fas fa-globe"/>repository of the application](https://telehealth-frontend.vercel.app/).
 
 Happy coding! 🚀
 

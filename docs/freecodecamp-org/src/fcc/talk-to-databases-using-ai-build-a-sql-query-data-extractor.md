@@ -76,15 +76,15 @@ Here’s an overview of the tools we’ll use to create this cool app:
 
 @tab:active Database
 
-The database is a critical component where we’ll store data and later extract it for our AI model to use when performing NLP operations. Instead of hosting a database locally, I chose a cloud-based free database that allows data extraction via REST APIs. For this project, I opted for [<FontIcon icon="fas fa-globe"/>restdb.io](http://restdb.io) because it offers seamless SQL database provisioning and supports REST APIs.
+The database is a critical component where we’ll store data and later extract it for our AI model to use when performing NLP operations. Instead of hosting a database locally, I chose a cloud-based free database that allows data extraction via REST APIs. For this project, I opted for [<VPIcon icon="fas fa-globe"/>restdb.io](http://restdb.io) because it offers seamless SQL database provisioning and supports REST APIs.
 
 @tab AI Agent
 
-An AI Agent will act as the intermediary between the database and the AI model. This agent will manage the AI model’s operations and facilitate seamless communication. For this, I am using [<FontIcon icon="fas fa-globe"/>CopilotKit](https://copilotkit.ai/), which simplifies the integration process.
+An AI Agent will act as the intermediary between the database and the AI model. This agent will manage the AI model’s operations and facilitate seamless communication. For this, I am using [<VPIcon icon="fas fa-globe"/>CopilotKit](https://copilotkit.ai/), which simplifies the integration process.
 
 @tab AI (LLM) Model
 
-The AI model translates plain English queries into SQL queries. For this, I am using [<FontIcon icon="fas fa-globe"/>GroqAI](https://groq.com/), which supports various popular AI models and provides the flexibility needed for this project.
+The AI model translates plain English queries into SQL queries. For this, I am using [<VPIcon icon="fas fa-globe"/>GroqAI](https://groq.com/), which supports various popular AI models and provides the flexibility needed for this project.
 
 @tab Next.js
 
@@ -192,7 +192,7 @@ npm install @copilotkit/react-ui @copilotkit/react-core dotenv axios
 
 ### 3. Set Up the Database
 
-Visit [<FontIcon icon="fas fa-globe"/>RestDB.io](http://restdb.io) and either login or create an account.
+Visit [<VPIcon icon="fas fa-globe"/>RestDB.io](http://restdb.io) and either login or create an account.
 
 ![`restdb.io` login page](https://cdn.hashnode.com/res/hashnode/image/upload/v1736349488854/435a5574-54b8-40b4-a1e5-f31aa79eeae8.png)
 
@@ -242,7 +242,7 @@ After extensive experimentation, I chose the **Groq Adapter** because:
 
 #### How to Set Up Groq Cloud
 
-To get started with Groq Cloud, [<FontIcon icon="fas fa-globe"/>visit its website](https://console.groq.com/login) and either login if already have an account or create a new account if you’re new. Once logged in, navigate to the Groq Dashboard.
+To get started with Groq Cloud, [<VPIcon icon="fas fa-globe"/>visit its website](https://console.groq.com/login) and either login if already have an account or create a new account if you’re new. Once logged in, navigate to the Groq Dashboard.
 
 This is the homepage of groq cloud:
 
@@ -299,7 +299,7 @@ Since we have already set up the **Next.js app**, the next step is to build a mi
 
 ## How to Build the Back End
 
-Before we start building the back end, you’ll need to put all important credentials into your <FontIcon icon="fas fa-file-lines"/>`.env` file which will look something like this:
+Before we start building the back end, you’ll need to put all important credentials into your <VPIcon icon="fas fa-file-lines"/>`.env` file which will look something like this:
 
 ```properties title=".env"
 NEXT_PUBLIC_COPILOTKIT_BACKEND_URL=http://localhost:3000/api/copilotkit
@@ -328,7 +328,7 @@ We have successfully added the environment variables to our project. Now, it’s
 
 ![Open your Next.js app in any code editor - I prefer VSCode - and go to the root folder, which looks like this](https://cdn.hashnode.com/res/hashnode/image/upload/v1734968233629/f338c977-02dd-4ee1-ae66-7417f03e026b.png)
 
-Inside the app folder, make a new folder called `api`. Inside the API folder, make another folder called `copilotkit`. Then in there, make a new file called <FontIcon icon="fa-brands fa-js"/>`route.js` and inside the file paste this code:
+Inside the app folder, make a new folder called `api`. Inside the API folder, make another folder called `copilotkit`. Then in there, make a new file called <VPIcon icon="fa-brands fa-js"/>`route.js` and inside the file paste this code:
 
 ```js :collapsed-lines title="route.js"
 import {
@@ -481,10 +481,10 @@ npx shadcn@latest init
 This command:
 
 - Initialize ShadCN in your project.
-- Creates a <FontIcon icon="fas fa-folder-open"/>`components` folder for storing ShadCN components.
-- Updates the <FontIcon icon="fa-brands fa-js"/>`tailwind.config.js` file with required configurations.
+- Creates a <VPIcon icon="fas fa-folder-open"/>`components` folder for storing ShadCN components.
+- Updates the <VPIcon icon="fa-brands fa-js"/>`tailwind.config.js` file with required configurations.
 
-You will be asked a few questions to configure <FontIcon icon="iconfont icon-json"/>`components.json`:
+You will be asked a few questions to configure <VPIcon icon="iconfont icon-json"/>`components.json`:
 
 ```plaintext title="prompt"
 Which style would you like to use? › New York
@@ -504,9 +504,9 @@ For example, to add a table component:
 npx shadcn@latest add table
 ```
 
-![The <FontIcon icon="fas fa-folder-open"/>`components` folder now contains a ready-to-use `button` component](https://cdn.hashnode.com/res/hashnode/image/upload/v1734970231792/2e5ea193-f829-435e-b4dc-68bd8ce793ca.png)
+![The <VPIcon icon="fas fa-folder-open"/>`components` folder now contains a ready-to-use `button` component](https://cdn.hashnode.com/res/hashnode/image/upload/v1734970231792/2e5ea193-f829-435e-b4dc-68bd8ce793ca.png)
 
-In the frontend, we have a <FontIcon icon="fas fa-folder-open"/>`components` folder that contains the Table component. This component is responsible for displaying the database data in a structured tabular format.
+In the frontend, we have a <VPIcon icon="fas fa-folder-open"/>`components` folder that contains the Table component. This component is responsible for displaying the database data in a structured tabular format.
 
 Apart from the `Table` component, there are two additional files in the front end. These files serve different purposes and will be integrated later in the project for specific functionalities.
 
@@ -514,8 +514,8 @@ This modular structure ensures the front end remains clean and organized, making
 
 Let’s explore each file:
 
-1. <FontIcon icon="fa-brands fa-react"/>`Table.jsx`: This file is auto-generated by ShadCN when we installed the Table component. It contains the default configuration for the table component provided by the ShadCN library. **Do not modify this file**, as it is essential for the component’s proper functionality.
-2. <FontIcon icon="fa-brands fa-react"/>`Tabledata.jsx`: This file is where we populate the table with data fetched from the database through API calls. The `Tabledata.jsx` file bridges the gap between the backend API and the frontend table display.
+1. <VPIcon icon="fa-brands fa-react"/>`Table.jsx`: This file is auto-generated by ShadCN when we installed the Table component. It contains the default configuration for the table component provided by the ShadCN library. **Do not modify this file**, as it is essential for the component’s proper functionality.
+2. <VPIcon icon="fa-brands fa-react"/>`Tabledata.jsx`: This file is where we populate the table with data fetched from the database through API calls. The `Tabledata.jsx` file bridges the gap between the backend API and the frontend table display.
 
 Let’s take a closer look at the code:
 
@@ -584,11 +584,11 @@ This code renders a styled, dynamic table with data passed from a database or AP
 - **Data Cells**: Displays object fields (`_id`, `name`, `email`, and so on) in `TableCell` components with custom styles.
 - **Tailwind CSS**: Styles applied for alignment, font weight, and spacing.
 
-### <FontIcon icon="fa-brands fa-react"/>`NLQueryForm.jsx`
+### <VPIcon icon="fa-brands fa-react"/>`NLQueryForm.jsx`
 
 In this file, we handle the API calls, define CopilotKit actions, and pass the fetched data to the Table component. This file acts as the central logic hub for connecting the backend API, AI actions, and the frontend display.
 
-::: important Key functionalities of <FontIcon icon="fa-brands fa-react"/><code>NLQueryForm.jsx</code>
+::: important Key functionalities of <VPIcon icon="fa-brands fa-react"/><code>NLQueryForm.jsx</code>
 
 1. **API integration**: Fetches data from the database and handles errors or loading states.
 2. **CopilotKit actions**: Defines AI actions that allow querying and interacting with the database using natural language.
@@ -735,9 +735,9 @@ Here’s a detailed explanation of the `NLQueryForm` component:
 
 - Exports the `NLQueryForm` component as the default export.
 
-### <FontIcon icon="fa-brands fa-js"/>`page.js`
+### <VPIcon icon="fa-brands fa-js"/>`page.js`
 
-Now go to the <FontIcon icon="fa-brands fa-js"/>`page.js` file inside the app folder and add this code:
+Now go to the <VPIcon icon="fa-brands fa-js"/>`page.js` file inside the app folder and add this code:
 
 ```js
 "use client";
@@ -813,7 +813,7 @@ Here’s a simple explanation of the code above:
 
 ### Configuring CopilotKit for the Whole App
 
-This is going to be the last step of building the application. Navigate to the <FontIcon icon="fa-brands fa-js"/>`layout.js` file and add this code:
+This is going to be the last step of building the application. Navigate to the <VPIcon icon="fa-brands fa-js"/>`layout.js` file and add this code:
 
 ```js :collapsed-lines title="layout.js"
 import "./globals.css";
@@ -892,11 +892,11 @@ While this tutorial focuses on setting up and querying a database, the potential
 
 ## Playing with the Database
 
-You can explore the live project via the following link and ask any questions related to the database data: [<FontIcon icon="fas fa-globe"/>live link](https://talktodb-inky.vercel.app/) .
+You can explore the live project via the following link and ask any questions related to the database data: [<VPIcon icon="fas fa-globe"/>live link](https://talktodb-inky.vercel.app/) .
 
 ::: note 
 
-For a deeper understanding of the code, here’s the [GitHub repository link (<FontIcon icon="iconfont icon-github"/>`prankurpandeyy/talktodb`)](https://github.com/prankurpandeyy/talktodb).
+For a deeper understanding of the code, here’s the [GitHub repository link (<VPIcon icon="iconfont icon-github"/>`prankurpandeyy/talktodb`)](https://github.com/prankurpandeyy/talktodb).
 
 <SiteInfo
   name="prankurpandeyy/talktodb"
@@ -923,9 +923,9 @@ So this is the end from my side. If you found this article useful, then do share
 
 ::: info Prankur Pandey
 
-- Follow Me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`prankurpandeyy`)](https://x.com/prankurpandeyy)
-- Follow me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`prankurpandeyy`)](https://linkedin.com/in/prankurpandeyy)
-- Look at [<FontIcon icon="fas fa-globe"/>my Portfolio here](https://prankurpandeyy.netlify.app/)
+- Follow Me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`prankurpandeyy`)](https://x.com/prankurpandeyy)
+- Follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`prankurpandeyy`)](https://linkedin.com/in/prankurpandeyy)
+- Look at [<VPIcon icon="fas fa-globe"/>my Portfolio here](https://prankurpandeyy.netlify.app/)
 
 :::
 

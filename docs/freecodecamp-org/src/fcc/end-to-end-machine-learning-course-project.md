@@ -64,7 +64,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727365307979/f9db317
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1727365307979/f9db317b-7a72-40e8-a805-6515692e6b1c.jpeg"/>
 
-If you want to improve your skills in machine learning and MLOps, we have a great course for you. We just posted a comprehensive End-to-End Machine Learning course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel. It is designed to equip you with both foundational knowledge and advanced skills in machine learning operations. Whether you're a beginner or looking to enhance your expertise, this course offers valuable insights and practical experience. Ayush Singh developed this course. He is an experienced machine learning engineer and popular course creator.
+If you want to improve your skills in machine learning and MLOps, we have a great course for you. We just posted a comprehensive End-to-End Machine Learning course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel. It is designed to equip you with both foundational knowledge and advanced skills in machine learning operations. Whether you're a beginner or looking to enhance your expertise, this course offers valuable insights and practical experience. Ayush Singh developed this course. He is an experienced machine learning engineer and popular course creator.
 
 ---
 

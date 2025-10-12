@@ -63,9 +63,9 @@ So, grab your favorite code editor, and let's get started!
 
 1. **Create a New Folder**: Start by creating a new folder on your computer for this project. You can name it **color-picker-tool**.
 2. **Create Files**: Inside the folder, create three files:
-    - <FontIcon icon="fa-brands fa-html5"/>`index.html`
-    - <FontIcon icon="fa-brands fa-css3-alt"/>`styles.css`
-    - <FontIcon icon="fa-brands fa-js"/>`script.js`
+    - <VPIcon icon="fa-brands fa-html5"/>`index.html`
+    - <VPIcon icon="fa-brands fa-css3-alt"/>`styles.css`
+    - <VPIcon icon="fa-brands fa-js"/>`script.js`
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723707100431/55c7cc93-7b0d-4d67-abb1-8104dbeda18d.png)
 
@@ -73,13 +73,13 @@ So, grab your favorite code editor, and let's get started!
 
 ## Step 2: Build the HTML Structure
 
-### 1. Open the <FontIcon icon="fa-brands fa-html5"/>`index.html` file in your code editor.
+### 1. Open the <VPIcon icon="fa-brands fa-html5"/>`index.html` file in your code editor.
 
 **Add Basic HTML Structure**
 
-Add the following code into <FontIcon icon="fa-brands fa-html5"/>`index.html`: or press <kbd>Shift</kbd>+<kbd>!</kbd> then press <kbd>Enter</kbd> to set the Emmet structure, then change the document title to `"Color Picker Tool".`
+Add the following code into <VPIcon icon="fa-brands fa-html5"/>`index.html`: or press <kbd>Shift</kbd>+<kbd>!</kbd> then press <kbd>Enter</kbd> to set the Emmet structure, then change the document title to `"Color Picker Tool".`
 
-### 2. Link your <FontIcon icon="fa-brands fa-css3-alt"/>`styles.css` and <FontIcon icon="fa-brands fa-js"/>`script.js` files too.
+### 2. Link your <VPIcon icon="fa-brands fa-css3-alt"/>`styles.css` and <VPIcon icon="fa-brands fa-js"/>`script.js` files too.
 
 ```html title="index.html"
 <!DOCTYPE html>
@@ -136,11 +136,11 @@ Add the following code into <FontIcon icon="fa-brands fa-html5"/>`index.html`: o
 
 ## Step 3: Style with CSS
 
-### 1. Open the <FontIcon icon="fa-brands fa-css3-alt"/>`styles.css` file in your code editor.
+### 1. Open the <VPIcon icon="fa-brands fa-css3-alt"/>`styles.css` file in your code editor.
 
 **Add CSS Styles**
 
-Copy and paste the following code into <FontIcon icon="fa-brands fa-css3-alt"/>`styles.css`:
+Copy and paste the following code into <VPIcon icon="fa-brands fa-css3-alt"/>`styles.css`:
 
 ```css title="styles.css"
 body {
@@ -191,11 +191,11 @@ At this point, we can pick a color but the color codes won't be displayed. To ha
 
 ## Step 4: Add JavaScript Functionality
 
-### 1. Open the <FontIcon icon="fa-brands fa-js"/>`script.js` file in your code editor.
+### 1. Open the <VPIcon icon="fa-brands fa-js"/>`script.js` file in your code editor.
 
 **Add JavaScript Code**
 
-Add the following code into <FontIcon icon="fa-brands fa-js"/>`script.js`:
+Add the following code into <VPIcon icon="fa-brands fa-js"/>`script.js`:
 
 ```js
 document.getElementById('colorInput').addEventListener('input', function() {
@@ -232,7 +232,7 @@ function hexToRgb(hex) {
 
 ### 1. Open the Project in a Browser
 
-Open the <FontIcon icon="fa-brands fa-html5"/>`index.html` file in a web browser to view your color picker tool.
+Open the <VPIcon icon="fa-brands fa-html5"/>`index.html` file in a web browser to view your color picker tool.
 
 **Interact with the Tool**
 

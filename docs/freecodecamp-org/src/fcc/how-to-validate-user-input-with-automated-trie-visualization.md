@@ -73,7 +73,7 @@ Choosing the right data structure for a large-scale problem is a critical decisi
 
 So, in order to fully grasp their significance, you need to understand their inner workings and analyze their strengths and weaknesses.
 
-![An example of a Rope data structure. Mainly udes to manage large raw strings. Image gotten from [<FontIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia](https://en.wikipedia.org/wiki/Rope*%28data*structure%29)](https://freecodecamp.org/news/content/images/2023/04/1920px-Vector_Rope_example.svg-1-.png)
+![An example of a Rope data structure. Mainly udes to manage large raw strings. Image gotten from [<VPIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia](https://en.wikipedia.org/wiki/Rope*%28data*structure%29)](https://freecodecamp.org/news/content/images/2023/04/1920px-Vector_Rope_example.svg-1-.png)
 
 ---
 
@@ -305,7 +305,7 @@ The Trie class provides methods for inserting, searching, splitting *(which is a
 
 ## How to Visualize a Trie
 
-Finally, after functionally implementing the Trie, we will use the Python library [<FontIcon icon="fas fa-globe"/>pyvis](https://pyvis.readthedocs.io/en/latest/) to define a function inside the Trie class that automatically produces a graph visualization of the data structure. This will result in an HTML file in which we can interact with the elements it contains.
+Finally, after functionally implementing the Trie, we will use the Python library [<VPIcon icon="fas fa-globe"/>pyvis](https://pyvis.readthedocs.io/en/latest/) to define a function inside the Trie class that automatically produces a graph visualization of the data structure. This will result in an HTML file in which we can interact with the elements it contains.
 
 ```py
 def toGraph(self):      
@@ -330,7 +330,7 @@ def toGraph(self):
       g.show('nx.html')
 ```
 
-As you can observe in the `toGraph()` function, we perform a [<FontIcon icon="fa-brands fa-youtube"/>Breadth-First Search](https://youtu.be/xlVX7dXLS64) all over the Trie while creating the necessary nodes and edges *(connections between them)* inside a `pyvis.network.Network` object.
+As you can observe in the `toGraph()` function, we perform a [<VPIcon icon="fa-brands fa-youtube"/>Breadth-First Search](https://youtu.be/xlVX7dXLS64) all over the Trie while creating the necessary nodes and edges *(connections between them)* inside a `pyvis.network.Network` object.
 
 Also, it gives the end nodes a different color from the rest. This will help us understand the benefits that this visualization provides so we can simplify the execution of functions related to the processing and validation of strings in the previous example.
 

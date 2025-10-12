@@ -66,7 +66,7 @@ Unlike JavaScript, which uses braces (`{}`) to define code blocks, Python uses i
 
 In both languages, the "Hello, World!" example highlights the difference in syntax:
 
-::: tip <FontIcon icon="fa-brands fa-python"/>Example: Hello World and Simple Loops
+::: tip <VPIcon icon="fa-brands fa-python"/>Example: Hello World and Simple Loops
 
 ```py
 print("Hello, World!")
@@ -74,7 +74,7 @@ print("Hello, World!")
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>Example: Hello World and Simple Loops
+::: tip <VPIcon icon="fa-brands fa-js"/>Example: Hello World and Simple Loops
 
 ```js
 console.log("Hello, World!");
@@ -86,7 +86,7 @@ Python’s built-in `print` function makes printing straightforward without addi
 
 Now, consider a simple loop that prints numbers from 0 to 4:
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 for i in range(5):
@@ -95,7 +95,7 @@ for i in range(5):
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -119,7 +119,7 @@ JavaScript requires `let`, `const`, or `var` to declare variables. The use of `l
 
 In Python, there is no need to specify `let`, `const`, or `var` - you simply assign a value to a variable, and Python infers the type based on the value.
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 let age = 25;  // Using 'let' for a block-scoped variable
@@ -128,7 +128,7 @@ const name = "Alice";  // Using 'const' for an immutable variable
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 age = 25  # Python infers type automatically
@@ -141,7 +141,7 @@ name = "Alice"  # No need to declare as const or let
 
 Python’s type-checking system is more consistent, while JavaScript sometimes has quirky behavior due to type coercion, where values of different types are implicitly converted for comparison. For example:
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 console.log(0 == "");  // true due to type coercion
@@ -150,7 +150,7 @@ console.log(0 === ""); // false due to strict equality
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 print(0 == "")  # Raises a TypeError: 'int' and 'str' cannot be compared
@@ -181,7 +181,7 @@ Both JavaScript and Python offer various data structures to handle collections, 
 
 Python’s `list` type is analogous to JavaScript’s array, but it’s more versatile, as Python lists can store elements of different types and support built-in functions for manipulation. In contrast, JavaScript arrays are specialized objects with numerical indices.
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 my_list = [1, "apple", 3.14]
@@ -189,7 +189,7 @@ my_list = [1, "apple", 3.14]
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 let myArray = [1, "apple", 3.14];
@@ -201,7 +201,7 @@ let myArray = [1, "apple", 3.14];
 
 Python offers `tuple` as an immutable version of a list, useful when data should not be modified. JavaScript has no direct equivalent, though `const` can create a similar effect by enforcing immutability.
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 my_tuple = (1, "apple", 3.14)
@@ -213,7 +213,7 @@ my_tuple = (1, "apple", 3.14)
 
 Both languages offer a set data type for collections of unique elements. Python has `set`, while JavaScript uses `Set`.
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 my_set = {1, 2, 3}
@@ -221,7 +221,7 @@ my_set = {1, 2, 3}
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 let mySet = new Set([1, 2, 3]);
@@ -235,7 +235,7 @@ Python’s `dict` and JavaScript’s objects are both key-value structures, but 
 
 In Python, dictionaries are optimized for hashable keys, whereas JavaScript objects are more flexible but can lead to type-related issues when keys are non-string values.
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 my_dict = {"name": "Alice", "age": 25}
@@ -243,7 +243,7 @@ my_dict = {"name": "Alice", "age": 25}
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 let myObject = { name: "Alice", age: 25 };
@@ -259,7 +259,7 @@ Both Python and JavaScript have similar control structures, such as `if`, `for`,
 
 ### Conditionals
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 if age > 18:
@@ -270,7 +270,7 @@ else:
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 if (age > 18) {
@@ -290,7 +290,7 @@ Python’s syntax avoids the braces used in JavaScript, relying on indentation t
 
 Python’s `for` loop is often simpler, especially with the `range()` function. JavaScript’s traditional `for` loop has more structure but allows for flexibility.
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 for i in range(5):
@@ -299,7 +299,7 @@ for i in range(5):
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -313,7 +313,7 @@ for (let i = 0; i < 5; i++) {
 
 Both languages support `while` loops, and they’re functionally similar. But Python uses plain English for keywords and syntax, which some find more readable.
 
-::: tip <FontIcon icon="fa-brands fa-python"/>
+::: tip <VPIcon icon="fa-brands fa-python"/>
 
 ```py
 count = 0
@@ -324,7 +324,7 @@ while count < 5:
 
 :::
 
-::: tip <FontIcon icon="fa-brands fa-js"/>
+::: tip <VPIcon icon="fa-brands fa-js"/>
 
 ```js
 let count = 0;

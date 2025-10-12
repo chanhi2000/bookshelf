@@ -84,7 +84,7 @@ We'll just discuss the basics of deep learning, the lack of interpretability pro
 
 ## Artificial Intelligence and the Rise of Deep Learning
 
-![Photo by [<FontIcon icon="fas fa-globe"/>Tara Winstead](https://pexels.com/photo/robot-pointing-on-a-wall-8386440/)](https://freecodecamp.org/news/content/images/2024/07/AI.jpg)
+![Photo by [<VPIcon icon="fas fa-globe"/>Tara Winstead](https://pexels.com/photo/robot-pointing-on-a-wall-8386440/)](https://freecodecamp.org/news/content/images/2024/07/AI.jpg)
 
 ### What is Deep Learning in Artificial Intelligence?
 
@@ -110,7 +110,7 @@ This layered structure allows deep learning models to analyze and interpret comp
 
 ## A Big Problem in Deep Learning: Lack of Interpretability
 
-![Photo by [<FontIcon icon="fas fa-globe"/>Koshevaya_k](https://pexels.com/photo/crop-unrecognizable-woman-reading-book-on-soft-bed-4170628/)](https://freecodecamp.org/news/content/images/2024/07/interptret.jpg)
+![Photo by [<VPIcon icon="fas fa-globe"/>Koshevaya_k](https://pexels.com/photo/crop-unrecognizable-woman-reading-book-on-soft-bed-4170628/)](https://freecodecamp.org/news/content/images/2024/07/interptret.jpg)
 
 Deep Learning has revolutionized many fields by achieving great results in very complex tasks.
 
@@ -153,7 +153,7 @@ In addition to glass box models, there are also black box models.
 These models are essentially different neural network architectures used in various datasets. Some examples are:
 
 - **CNN (Convolutional Neural Networks)**: Designed specifically for image classification and interpretation.
-- **RNN (Recurrent Neural Networks) and LSTM (Long Short Term Memory)**: Primarily used for sequential data - text and time series data. In 2017, they were surpassed by a neural network architecture called transformers in a paper called [<FontIcon icon="fas fa-globe"/>tion is All You Need.](https://arxiv.org/abs/1706.03762)
+- **RNN (Recurrent Neural Networks) and LSTM (Long Short Term Memory)**: Primarily used for sequential data - text and time series data. In 2017, they were surpassed by a neural network architecture called transformers in a paper called [<VPIcon icon="fas fa-globe"/>tion is All You Need.](https://arxiv.org/abs/1706.03762)
 - **Transformer-based architectures**: Revolutionized AI in 2017 due to their ability to handle sequential data more efficiently. RNN and LSTM have limited capabilities in this regard.
 
 Nowadays, most models that process text are transformer-based models.
@@ -168,7 +168,7 @@ Achieving general intelligence, in my view, involves combining many of these nar
 
 ## Code Example: Solving the Problem with Explainable AI
 
-![Photo by [<FontIcon icon="fas fa-globe"/>Chokniti Khongchum](https://www.pexels.com/photo/person-holding-laboratory-flask-2280571/)](https://freecodecamp.org/news/content/images/2024/07/cancer-chokniti-khongchum-1197604-2280571.jpg)
+![Photo by [<VPIcon icon="fas fa-globe"/>Chokniti Khongchum](https://www.pexels.com/photo/person-holding-laboratory-flask-2280571/)](https://freecodecamp.org/news/content/images/2024/07/cancer-chokniti-khongchum-1197604-2280571.jpg)
 
 In this code example, we will create an interpretable AI model based on 30 characteristics.
 
@@ -253,11 +253,11 @@ import numpy as np
 
 These are the libraries we are going to use:
 
-- [<FontIcon icon="iconfont icon-pandas"/>Pandas](https://pandas.pydata.org/): This is a Python library used for data manipulation and analysis.
-- [<FontIcon icon="fas fa-globe"/>sklearn](https://scikit-learn.org/stable/index.html): The [<FontIcon icon="fas fa-globe"/>scikit-learn library](https://scikit-learn.org/stable/index.html) is used to implement machine learning algorithms. We're importing it for data pre processing and model evaluation.
-- [<FontIcon icon="fas fa-globe"/>Interpret](https://interpret.ml/): The [<FontIcon icon="fas fa-globe"/>interpretAI](https://interpret.ml/) Python library is what we'll use to import the model we'll use.
-- [<FontIcon icon="fas fa-globe"/>Matplotlib](https://matplotlib.org/): A Python library used to make graphs in Python.
-- [<FontIcon icon="iconfont icon-numpy"/>Numpy](https://numpy.org/): Used for very fast numerical computations.
+- [<VPIcon icon="iconfont icon-pandas"/>Pandas](https://pandas.pydata.org/): This is a Python library used for data manipulation and analysis.
+- [<VPIcon icon="fas fa-globe"/>sklearn](https://scikit-learn.org/stable/index.html): The [<VPIcon icon="fas fa-globe"/>scikit-learn library](https://scikit-learn.org/stable/index.html) is used to implement machine learning algorithms. We're importing it for data pre processing and model evaluation.
+- [<VPIcon icon="fas fa-globe"/>Interpret](https://interpret.ml/): The [<VPIcon icon="fas fa-globe"/>interpretAI](https://interpret.ml/) Python library is what we'll use to import the model we'll use.
+- [<VPIcon icon="fas fa-globe"/>Matplotlib](https://matplotlib.org/): A Python library used to make graphs in Python.
+- [<VPIcon icon="iconfont icon-numpy"/>Numpy](https://numpy.org/): Used for very fast numerical computations.
 
 ### Loading, Preparing the Dataset, and Splitting the Data
 
@@ -396,7 +396,7 @@ Instead of only using traditional statistics, surveys, and manual data analysis,
 
 But this is not the only way to have models built with explainable AI.
 
-In April 2024, a paper called [<FontIcon icon="fas fa-globe"/>KAN: Kolmogorov-Arnold Networks](https://arxiv.org/html/2404.19756v1) was published that might shake up the field even more.
+In April 2024, a paper called [<VPIcon icon="fas fa-globe"/>KAN: Kolmogorov-Arnold Networks](https://arxiv.org/html/2404.19756v1) was published that might shake up the field even more.
 
 Kolmogorov-Arnold Networks (KANs) promise to be more accurate and easier to understand than traditional models and perform better.
 

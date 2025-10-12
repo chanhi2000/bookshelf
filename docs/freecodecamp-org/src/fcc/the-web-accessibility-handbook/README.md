@@ -122,7 +122,7 @@ Let’s get started.
 
 ## Testing Accessibility with Tools
 
-There are several tools you can use to test the accessibility of your page. [<FontIcon icon="fa-brands fa-chrome"/>Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) in Chrome Developer Tools is an open source tool that analyses a web page for performance, accessibility, SEO, and more. It generates a report on how a page performs in these areas.
+There are several tools you can use to test the accessibility of your page. [<VPIcon icon="fa-brands fa-chrome"/>Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) in Chrome Developer Tools is an open source tool that analyses a web page for performance, accessibility, SEO, and more. It generates a report on how a page performs in these areas.
 
 Let’s see how it helps in analysing the accessibility of a page:
 
@@ -182,9 +182,9 @@ If you have added media queries like the following, you can select these prefere
 
 So, when you select `prefers-reduced-motion`, you can test if all the animations have been disabled, and how your website functions.
 
-Apart from the Developer Tools, there’s an NPM plugin called [<FontIcon icon="fa-brands fa-npm"/>`eslint-plugin-jsx-a11y`](https://npmjs.com/package/eslint-plugin-jsx-a11y) that evaluates React JSX code for accessibility issues.
+Apart from the Developer Tools, there’s an NPM plugin called [<VPIcon icon="fa-brands fa-npm"/>`eslint-plugin-jsx-a11y`](https://npmjs.com/package/eslint-plugin-jsx-a11y) that evaluates React JSX code for accessibility issues.
 
-You can find all the code snippets on [GitHub (<FontIcon icon="iconfont icon-github"/>`KunalN25/accessibilityguide`)](https://github.com/KunalN25/accessibilityguide).
+You can find all the code snippets on [GitHub (<VPIcon icon="iconfont icon-github"/>`KunalN25/accessibilityguide`)](https://github.com/KunalN25/accessibilityguide).
 
 ---
 
@@ -207,7 +207,7 @@ I hope this handbook becomes your go-to resource for anything related to accessi
   logo="https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png"
   preview="https://developer.mozilla.org/mdn-social-share.d893525a4fb5fb1f67a2.png"/>
 
-- [<FontIcon icon="fa-brands fa-youtube"/>Web Dev Simplified- Guide on Accessibility](https://youtu.be/2oiBKSjOOFE)
+- [<VPIcon icon="fa-brands fa-youtube"/>Web Dev Simplified- Guide on Accessibility](https://youtu.be/2oiBKSjOOFE)
 
 <VidStack src="youtube/2oiBKSjOOFE" />
 

@@ -52,9 +52,9 @@ This is just a simple project, and nothing too complex. I chose this example pro
 
 Currently, this project should be fine when running it on your Windows system. In case you get an error, scroll to the part of this article with a guide for setting up a Windows Subsystem for Linux (WSL), since it would allow you to run a Linux environment, including command-line tools and applications, directly on Windows, without the overhead of a traditional virtual machine or dual boot setup.
 
-To get started, create a directory named <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol`. Since you'll be building about fours projects, and I think it is important on how you can setup your projects for Gear Protocol.
+To get started, create a directory named <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol`. Since you'll be building about fours projects, and I think it is important on how you can setup your projects for Gear Protocol.
 
-So in your <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol` directory, create a <FontIcon icon="iconfont icon-toml"/>`Cargo.toml` file with the following code:
+So in your <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol` directory, create a <VPIcon icon="iconfont icon-toml"/>`Cargo.toml` file with the following code:
 
 ```toml title="Cargo.toml"
 [workspace]
@@ -87,7 +87,7 @@ A workspace in Rust is a set of packages (crates) that are managed together. Let
 The `[workspace]` section defines the overall workspace. It typically contains multiple members.
 
 - `resolver = "2"`: Specifies the version of Cargo's feature resolver to use, improving how dependencies are managed across the workspace.
-- `members`: Lists the crates that are part of the workspace. When you add a project with `cargo new --lib sneakers` or `boots`, the `members` section of the <FontIcon icon="iconfont icon-toml"/>`Cargo.toml` is populated with the name of the project you created.
+- `members`: Lists the crates that are part of the workspace. When you add a project with `cargo new --lib sneakers` or `boots`, the `members` section of the <VPIcon icon="iconfont icon-toml"/>`Cargo.toml` is populated with the name of the project you created.
 
 > If not added automatically, you can add them yourself.
 
@@ -153,7 +153,7 @@ polish = "1.0"
 
 ---
 
-## Example <FontIcon icon="iconfont icon-toml"/>`Cargo.toml`
+## Example <VPIcon icon="iconfont icon-toml"/>`Cargo.toml`
 
 Here's an example combining these sections:
 
@@ -181,7 +181,7 @@ polish = "1.0"
 
 So, here's how you set up a workspace for your project to manage multiple crates (sub-projects) and share dependencies and configuration settings across them. I spent quite some time understanding this, so I thought I'd share it with you all to make it easier.
 
-To build your first smart contract, run the command below in your parent directory (<FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol`) on your terminal.
+To build your first smart contract, run the command below in your parent directory (<VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol`) on your terminal.
 
 ```sh
 cargo new --lib receive-joke
@@ -196,7 +196,7 @@ cargo new --lib receive-joke
 # 2 directories, 3 files
 ```
 
-Head over to your <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/receive-joke/`<FontIcon icon="iconfont icon-toml"/>`Cargo.toml`, and this is how you access crates, and configuration from the workspace directory(main) using `.workspace=true`, like below;
+Head over to your <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/receive-joke/`<VPIcon icon="iconfont icon-toml"/>`Cargo.toml`, and this is how you access crates, and configuration from the workspace directory(main) using `.workspace=true`, like below;
 
 ```toml title="Cargo.toml"
 [package]
@@ -212,7 +212,7 @@ publish.workspace = true
 [dependencies]
 ```
 
-Next, create a `build` file in your <FontIcon icon="fas fa-folder-open"/>`receive-joke` directory with path like <FontIcon icon="fas fa-folder-open"/>`receive-joke/`<FontIcon icon="fa-brands fa-rust"/>`build.rs`, and paste the code below. Now, the <FontIcon icon="fa-brands fa-rust"/>`build.rs` helps you to build your project into `.wasm` file, that is used to deploy your smart contract.
+Next, create a `build` file in your <VPIcon icon="fas fa-folder-open"/>`receive-joke` directory with path like <VPIcon icon="fas fa-folder-open"/>`receive-joke/`<VPIcon icon="fa-brands fa-rust"/>`build.rs`, and paste the code below. Now, the <VPIcon icon="fa-brands fa-rust"/>`build.rs` helps you to build your project into `.wasm` file, that is used to deploy your smart contract.
 
 ```rust title="build.rs"
 fn main() {
@@ -248,7 +248,7 @@ parity-scale-codec = { version = "3.6.12", default-features = false }
 scale-info = { version = "2.11.3", default-features = false }
 ```
 
-For your first project, only `gstd` would be used, so like add that external crate to your `receive-joke`'s <FontIcon icon="iconfont icon-toml"/>`Cargo.toml`. Like below:
+For your first project, only `gstd` would be used, so like add that external crate to your `receive-joke`'s <VPIcon icon="iconfont icon-toml"/>`Cargo.toml`. Like below:
 
 ```toml title="Cargo.toml"
 [dependencies]
@@ -259,7 +259,7 @@ gstd.workspace = true
 gear-wasm-builder.workspace = true
 ```
 
-If you reached here without any errors, well done my friend. Next, is to clear any code in <FontIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/receive-joke/src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs`. Let's move on to the next step.
+If you reached here without any errors, well done my friend. Next, is to clear any code in <VPIcon icon="fas fa-folder-open"/>`freecodecamp-gear-protocol/receive-joke/src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs`. Let's move on to the next step.
 
 In Gear Protocol, there are entry points. An entry point serves as a gateway or door to your code. Gear has a few entry points, namely:
 
@@ -277,7 +277,7 @@ However, it's optional, meaning that you can choose to include or exclude it dep
 
 The `handle()` method is crucial as it contains most of the business logic. It's mandatory to include your program. More light will be shared on the entry points as you move forward.
 
-Now, paste the following code into your <FontIcon icon="fas fa-folder-open"/>`receive-joke/src/`<FontIcon icon="fa-brands fa-rust"/>`lib.rs`:
+Now, paste the following code into your <VPIcon icon="fas fa-folder-open"/>`receive-joke/src/`<VPIcon icon="fa-brands fa-rust"/>`lib.rs`:
 
 ```rust title="receive-joke/src/lib.rs"
 #![no_std]
@@ -297,7 +297,7 @@ extern "C" fn handle() {
 
 The code above defines a function `handle` that, when called, sends a message you've defined as a response using the `gstd::msg` functionality. This `gstd` is a crate provided by Gear Protocol**,** to send and receive messages, and this is crucial for programs running on Vara Network to communicate with each other and external systems. And the `reply_bytes` send a new message as a reply to the message that is currently being processed.
 
-Time to deploy and send your first message and recieve your joke reply. In your terminal, run the following command to build your program into <FontIcon icon="fas fa-file-lines"/>`.wasm`.
+Time to deploy and send your first message and recieve your joke reply. In your terminal, run the following command to build your program into <VPIcon icon="fas fa-file-lines"/>`.wasm`.
 
 Usually, I use `cargo check` for check for errors first, before using the `build` command below, either way is fine.
 
@@ -318,13 +318,13 @@ cargo build --release
 #             └── receive_joke.wasm
 ```
 
-After the build is completed, follow the structure below to locate your <FontIcon icon="fas fa-file-lines"/>`.wasm` file in the path below:
+After the build is completed, follow the structure below to locate your <VPIcon icon="fas fa-file-lines"/>`.wasm` file in the path below:
 
 ---
 
 ## How to Deploy Your Smart Contract
 
-Just like in other blockchain tools, that help you deploy your smart contract from the terminal, IDEA is where you deploy your smart contract and interact with it. We'll be exploring the interface in a bit. So finally, head over to [<FontIcon icon="fas fa-globe"/>IDEA](https://idea.gear-tech.io/) so start familiarizing yourself with your deployment environment.
+Just like in other blockchain tools, that help you deploy your smart contract from the terminal, IDEA is where you deploy your smart contract and interact with it. We'll be exploring the interface in a bit. So finally, head over to [<VPIcon icon="fas fa-globe"/>IDEA](https://idea.gear-tech.io/) so start familiarizing yourself with your deployment environment.
 
 ![Smart Contract Deplyment Web App- IDEA](https://freecodecamp.org/news/content/images/2024/03/Screenshot-2024-03-30-135927.png)
 

@@ -88,7 +88,7 @@ The course is structured to provide a comprehensive learning experience:
 
 This course is perfect for aspiring web developers, those looking to expand their skill set, or anyone interested in modern web development practices. By the end of this course, you'll have the skills to build and deploy your own full-stack web applications using the MERN stack.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/O3BUHwfHf84) (2-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/O3BUHwfHf84) (2-hour watch).
 
 <VidStack src="youtube/O3BUHwfHf84" />
 

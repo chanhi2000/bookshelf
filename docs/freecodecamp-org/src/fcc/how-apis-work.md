@@ -165,7 +165,7 @@ APIs follow the HTTP protocol to communicate, which has a specific request and r
 
 Different methods exist to perform different tasks and numerous status codes are available that indicate whether the request is successful, declined, or in a pending state.
 
-Interested in connecting on LinkedIn? Hit me up at [Tooba Jamal (<FontIcon icon="fa-brands fa-linkedin"/>`tooba-jamal`)](https://linkedin.com/in/tooba-jamal/).
+Interested in connecting on LinkedIn? Hit me up at [Tooba Jamal (<VPIcon icon="fa-brands fa-linkedin"/>`tooba-jamal`)](https://linkedin.com/in/tooba-jamal/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

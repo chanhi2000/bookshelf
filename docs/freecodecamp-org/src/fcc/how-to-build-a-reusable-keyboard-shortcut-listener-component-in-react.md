@@ -84,7 +84,7 @@ A **Keyboard Shortcut Listener component (KSLC)** is a component that listens fo
 
 ## How to Build the KSL Component
 
-I've prepared a GitHub repository with [starter files (<FontIcon icon="iconfont icon-github"/>`Daiveedjay/KSL-Component`)](https://github.com/Daiveedjay/KSL-Component/tree/starter) to speed things up. Simply clone this repo and install the dependencies.
+I've prepared a GitHub repository with [starter files (<VPIcon icon="iconfont icon-github"/>`Daiveedjay/KSL-Component`)](https://github.com/Daiveedjay/KSL-Component/tree/starter) to speed things up. Simply clone this repo and install the dependencies.
 
 <SiteInfo
   name="Daiveedjay/KSL-Component at starter"
@@ -103,7 +103,7 @@ For this project, we’re using Tailwind’s home page as our muse and creating 
 
 The reveal component is the component we want to show when we use the shortcut.
 
-To begin, create a file called <FontIcon icon="fa-brands fa-react"/>`search-box.tsx` and paste in this code:
+To begin, create a file called <VPIcon icon="fa-brands fa-react"/>`search-box.tsx` and paste in this code:
 
 ```tsx :collapsed-lines title="search-box.tsx"
 export default function SearchBox() {
@@ -150,7 +150,7 @@ Ok, so what’s happening in this code?
     - The content is centered using padding and flex utilities.
     - The `max-w-xl` makes sure that the search box stays within a reasonable width for readability.
 
-Then in your <FontIcon icon="fa-brands fa-react"/>`App.tsx`, create a state that dynamically shows that component:
+Then in your <VPIcon icon="fa-brands fa-react"/>`App.tsx`, create a state that dynamically shows that component:
 
 ```tsx title="App.tsx"
 const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -197,7 +197,7 @@ To make the reveal component open and close using a keyboard shortcut, we’ll u
 
 ### Step 1: Listen for Keyboard Events
 
-Add an `useEffect` hook in your <FontIcon icon="fa-brands fa-react"/>`App.tsx` file to listen for key presses:
+Add an `useEffect` hook in your <VPIcon icon="fa-brands fa-react"/>`App.tsx` file to listen for key presses:
 
 ```tsx title="App.tsx"
   useEffect(() => {
@@ -661,8 +661,8 @@ useKeyBindings([
 
 Here are links to all the resources you may need for this article:
 
-- [Starter files (<FontIcon icon="iconfont icon-github"/>`Daiveedjay/KSL-Component`)](https://github.com/Daiveedjay/KSL-Component/tree/starter)
-- [Final (<FontIcon icon="iconfont icon-github"/>`Daiveedjay/KSL-Component`)](https://github.com/Daiveedjay/KSL-Component/tree/main)
+- [Starter files (<VPIcon icon="iconfont icon-github"/>`Daiveedjay/KSL-Component`)](https://github.com/Daiveedjay/KSL-Component/tree/starter)
+- [Final (<VPIcon icon="iconfont icon-github"/>`Daiveedjay/KSL-Component`)](https://github.com/Daiveedjay/KSL-Component/tree/main)
 
 ---
 
@@ -674,7 +674,7 @@ I hope your shortcuts help you create apps that click with your users. After all
 
 ### Like my articles?
 
-Feel free to [<FontIcon icon="fas fa-globe"/>buy me a coffee here](https://buymeacoffee.com/JajaDavid), to keep my brain chugging and provide more articles like this.
+Feel free to [<VPIcon icon="fas fa-globe"/>buy me a coffee here](https://buymeacoffee.com/JajaDavid), to keep my brain chugging and provide more articles like this.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdVWaSayW-ZONciTLakWFfSKvOKoaQR3MTpyGmLR77hl58lDorTCRNfOZfP-dMf-2WcIwfSWZE_psVHr-4qU1CIy28hsLj755zJdEcsLp3blw6l1Wtu4EUxTZ8mSF--dCk6mEQRWg?key=ypBQIzv1TD8iWEKblpAC4CZM)
 
@@ -682,9 +682,9 @@ Feel free to [<FontIcon icon="fas fa-globe"/>buy me a coffee here](https://buyme
 
 Want to connect or contact me? Feel free to hit me up on the following:
 
-- [Twitter / X (<FontIcon icon="fa-brands fa-x-twitter"/>`JajaDavid8`)](https://x.com/JajaDavid8)
-- [LinkedIn: David Jaja (<FontIcon icon="fa-brands fa-linkedin"/>`david-jaja-8084251b4`)](https://linkedin.com/in/david-jaja-8084251b4/)
-- [<FontIcon icon="fas fa-envelope"/>Email: Jajadavidjid@gmail.com](http://Jajadavidjid@gmail.com)
+- [Twitter / X (<VPIcon icon="fa-brands fa-x-twitter"/>`JajaDavid8`)](https://x.com/JajaDavid8)
+- [LinkedIn: David Jaja (<VPIcon icon="fa-brands fa-linkedin"/>`david-jaja-8084251b4`)](https://linkedin.com/in/david-jaja-8084251b4/)
+- [<VPIcon icon="fas fa-envelope"/>Email: Jajadavidjid@gmail.com](http://Jajadavidjid@gmail.com)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

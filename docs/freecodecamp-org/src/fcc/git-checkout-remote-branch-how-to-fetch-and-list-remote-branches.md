@@ -52,7 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/UT8LMo-wlyk/up
 
 You can use branches in Git to work on different features without affecting your main codebase. For example, you can experiment with a new layout for your webpage on a different branch without affecting the main branch where your website is being deployed from.
 
-Branches are used for different purposes like feature development, bug fixes, versioning, experimentation, [<FontIcon icon="fa-brands fa-free-code-camp"/>contributing to open source projects](https://contribute.freecodecamp.org/#/), and so on.
+Branches are used for different purposes like feature development, bug fixes, versioning, experimentation, [<VPIcon icon="fa-brands fa-free-code-camp"/>contributing to open source projects](https://contribute.freecodecamp.org/#/), and so on.
 
 In this article, you'll learn how to use different Git commands to interact with remote branches.
 
@@ -60,7 +60,7 @@ In this article, you'll learn how to use different Git commands to interact with
 
 ## How to Fetch and List Remote Branches
 
-I've created a repository (repo) for this article with three different branches: main, feat/create-hobbies-list, and feat/create-language-list. You can download the repo [here (<FontIcon icon="iconfont icon-github"/>`ihechikara/git-branches-article`)](https://github.com/ihechikara/git-branches-article), or clone it to your computer using this command:
+I've created a repository (repo) for this article with three different branches: main, feat/create-hobbies-list, and feat/create-language-list. You can download the repo [here (<VPIcon icon="iconfont icon-github"/>`ihechikara/git-branches-article`)](https://github.com/ihechikara/git-branches-article), or clone it to your computer using this command:
 
 ```sh
 git clone https://github.com/ihechikara/git-branches-article.git
@@ -138,7 +138,7 @@ The command above compares the changes you just fetched with your local branch. 
 git merge
 ```
 
-The command above merges the changes into your local branch. In this case, the <FontIcon icon="fas fa-file-lines"/>`languages.txt` file will be updated with the new changes.
+The command above merges the changes into your local branch. In this case, the <VPIcon icon="fas fa-file-lines"/>`languages.txt` file will be updated with the new changes.
 
 In summary, `git fetch` retrieves the changes while `git merge` merges the changes to your local branch.
 

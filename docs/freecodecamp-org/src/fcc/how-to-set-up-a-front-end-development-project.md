@@ -58,7 +58,7 @@ The JavaScript ecosystem is changing so fast that it can be overwhelming to pick
 
 We'll cover things like must-have editor extensions, adding JavaScript libraries to your project, why you'll use Node.js even if you want to do front-end development, and setting up an application bundler that will generate a live preview as you code in your browser.
 
-You can also [<FontIcon icon="fa-brands fa-youtube"/>watch this article as a video](https://youtu.be/BiBjuphZQxA) on YouTube. Let's dive in.
+You can also [<VPIcon icon="fa-brands fa-youtube"/>watch this article as a video](https://youtu.be/BiBjuphZQxA) on YouTube. Let's dive in.
 
 <VidStack src="youtube/BiBjuphZQxA" />
 
@@ -70,9 +70,9 @@ Let’s start with the foundations. As a web developer, you mostly edit text, so
 
 Picking an editor is highly based on personal preference, as most editors have very similar features.
 
-If you don’t have a personal preference, I highly recommend [<FontIcon icon="iconfont icon-vscode"/>VS Code](https://vscode.dev/). Lately, it has become the de facto standard editor for web development.
+If you don’t have a personal preference, I highly recommend [<VPIcon icon="iconfont icon-vscode"/>VS Code](https://vscode.dev/). Lately, it has become the de facto standard editor for web development.
 
-![VS Code is by far the most used editor<br/>[<FontIcon icon="fa-brands fa-stack-overflow"/>(Source: StackOverflow)](https://survey.stackoverflow.co/2024/technology#1-integrated-development-environment)](https://cdn.hashnode.com/res/hashnode/image/upload/v1738945424232/9f41d802-e672-4cd7-ada3-5e8d54000446.png)
+![VS Code is by far the most used editor<br/>[<VPIcon icon="fa-brands fa-stack-overflow"/>(Source: StackOverflow)](https://survey.stackoverflow.co/2024/technology#1-integrated-development-environment)](https://cdn.hashnode.com/res/hashnode/image/upload/v1738945424232/9f41d802-e672-4cd7-ada3-5e8d54000446.png)
 
 One of the greatest features of all the mainstream editors is that you can add extensions to them. Let’s walk through two extensions that are must-haves.
 
@@ -121,7 +121,7 @@ With this configuration, you will have a different format once you save your fil
 }
 ```
 
-There are many more options, of course. If you want to dig deeper, check out [<FontIcon icon="fas fa-globe"/>Prettier's documentation.](https://prettier.io/docs/en/configuration.html)
+There are many more options, of course. If you want to dig deeper, check out [<VPIcon icon="fas fa-globe"/>Prettier's documentation.](https://prettier.io/docs/en/configuration.html)
 
 ---
 
@@ -157,7 +157,7 @@ For instance, you can run scripts on your machine to initialize a project. We ar
 
 In short, Node lets you run some tools that make your life much easier as a developer.
 
-To install Node, go to [<FontIcon icon="fa-brands fa-node"/>nodejs.org](http://nodejs.org) and install it. If you are unsure if you already have Node, you can also go to your terminal and run `node -v` to check. If you get a version number, you have Node.
+To install Node, go to [<VPIcon icon="fa-brands fa-node"/>nodejs.org](http://nodejs.org) and install it. If you are unsure if you already have Node, you can also go to your terminal and run `node -v` to check. If you get a version number, you have Node.
 
 ![The website of Node.js](https://cdn.hashnode.com/res/hashnode/image/upload/v1738949153110/c9e63db3-d52b-4122-a31c-6b871ed2e4b5.png)
 
@@ -181,13 +181,13 @@ This is what bundlers do. They make sure that you can use modern-day tooling whi
 
 How do you pick a bundler? There are several options, and essentially, they all do the same thing. The difference between them is in their performance, configuration options, and ease of use.
 
-The most used bundler is still [<FontIcon icon="fas fa-globe"/>webpack](https://webpack.js.org/), one of the earliest bundlers in the field. But the one that seems to have taken over the throne and gained more and more popularity is [<FontIcon icon="fas fa-globe"/>Vite](https://vite.dev/). Here's a chart from the latest edition of the State of JavaScript survey.
+The most used bundler is still [<VPIcon icon="fas fa-globe"/>webpack](https://webpack.js.org/), one of the earliest bundlers in the field. But the one that seems to have taken over the throne and gained more and more popularity is [<VPIcon icon="fas fa-globe"/>Vite](https://vite.dev/). Here's a chart from the latest edition of the State of JavaScript survey.
 
-![[<FontIcon icon="fas fa-globe"/>The sentiment towards WebPack and Vite]](https://2024.stateofjs.com/en-US/libraries/#all_tools_experience)](https://cdn.hashnode.com/res/hashnode/image/upload/v1738947476843/195adbd5-5aba-427e-9b00-c507542235d2.png)
+![[<VPIcon icon="fas fa-globe"/>The sentiment towards WebPack and Vite]](https://2024.stateofjs.com/en-US/libraries/#all_tools_experience)](https://cdn.hashnode.com/res/hashnode/image/upload/v1738947476843/195adbd5-5aba-427e-9b00-c507542235d2.png)
 
 This chart shows that while most developers have used Webpack, they don’t necessarily love it. At the same time, Vite's popularity is rising while still maintaining a positive sentiment.
 
-If you haven't checked out the [<FontIcon icon="fas fa-globe"/>State of JavaScript](https://stateofjs.com/en-US) survey before, I highly recommend going through it. It gives you an excellent overview of the latest trends with JavaScript. You can learn which tools and libraries people love to use and which they will abandon soon. If you feel overwhelmed by all the changes in the JavaScript ecosystem, the results of this survey can be a great guide.
+If you haven't checked out the [<VPIcon icon="fas fa-globe"/>State of JavaScript](https://stateofjs.com/en-US) survey before, I highly recommend going through it. It gives you an excellent overview of the latest trends with JavaScript. You can learn which tools and libraries people love to use and which they will abandon soon. If you feel overwhelmed by all the changes in the JavaScript ecosystem, the results of this survey can be a great guide.
 
 Once we have a folder for our project, let's navigate to it using our terminal. The easiest way to do this is to open the folder in VS Code and then use the built-in terminal. VS Code will open the terminal with the correct folder.
 
@@ -219,7 +219,7 @@ Now that we have Node, we can also use npm or Note Package Manager to add librar
 
 First, I will walk you through setting things up step by step the manual way so it's clear how the different parts come together. Then, I will show you how to automate most of these steps.
 
-Navigate to your current folder in the terminal and run the following command to initialize the project. This command initializes a <FontIcon icon="iconfont icon-json"/>`package.json` file with some metadata.
+Navigate to your current folder in the terminal and run the following command to initialize the project. This command initializes a <VPIcon icon="iconfont icon-json"/>`package.json` file with some metadata.
 
 ```sh
 npm init --yes
@@ -229,7 +229,7 @@ At this point, this file is not very interesting. It contains the project name, 
 
 Now, we can add libraries to our package with the npm install command. In a [**previous article**](/freecodecamp.org/render-3d-objects-in-browser-drawing-a-box-with-threejs.md), we used Three.js to render 3D boxes in the browser.
 
-So, as an example, let's install [<FontIcon icon="fas fa-globe"/>Three.js](https://threejs.org/). Go to your terminal again, make sure you are in the correct folder, and run the following command:
+So, as an example, let's install [<VPIcon icon="fas fa-globe"/>Three.js](https://threejs.org/). Go to your terminal again, make sure you are in the correct folder, and run the following command:
 
 ```sh
 npm install three
@@ -247,15 +247,15 @@ Another indicator you might want to look for is the weekly downloads and the dat
 
 Once you find the package you are looking for, you can see the command to install it at the top right corner: `npm i three`. The `i` here is just shorthand for install. Another way to learn how to install Three.js is to go to its official documentation and check the [installation guide](https://threejs.org/docs/index.html#manual/en/introduction/Installation).
 
-![The <FontIcon icon="iconfont icon-json"/>`package.json` file after initializing the project and installing Three.js](https://cdn.hashnode.com/res/hashnode/image/upload/v1738952468171/7a54e0bb-d88d-428b-911c-cf7a71676562.png)
+![The <VPIcon icon="iconfont icon-json"/>`package.json` file after initializing the project and installing Three.js](https://cdn.hashnode.com/res/hashnode/image/upload/v1738952468171/7a54e0bb-d88d-428b-911c-cf7a71676562.png)
 
 When we install a package, three things happen:
 
-- It adds the latest version of Three.js in our <FontIcon icon="iconfont icon-json"/>`package.json` file as a project dependency.
-- It also creates a package-lock file, which NPM uses to keep track of the dependencies. You should never edit the dependency section of your <FontIcon icon="iconfont icon-json"/>`package.json` file or the package-lock file manually. Instead, you should always use commands like npm install and uninstall to add, remove, or update packages.
-- Finally, the <FontIcon icon="fas fa-folder-open"/>`node_modules` folder gets created. This folder contains the source code of Three.js. When we import Three.js in our project, it looks for it in this folder. The content of this folder is also something that you should never change. You can look into it if you're interested in the source code of the library that you're using, but you shouldn't change it.
+- It adds the latest version of Three.js in our <VPIcon icon="iconfont icon-json"/>`package.json` file as a project dependency.
+- It also creates a package-lock file, which NPM uses to keep track of the dependencies. You should never edit the dependency section of your <VPIcon icon="iconfont icon-json"/>`package.json` file or the package-lock file manually. Instead, you should always use commands like npm install and uninstall to add, remove, or update packages.
+- Finally, the <VPIcon icon="fas fa-folder-open"/>`node_modules` folder gets created. This folder contains the source code of Three.js. When we import Three.js in our project, it looks for it in this folder. The content of this folder is also something that you should never change. You can look into it if you're interested in the source code of the library that you're using, but you shouldn't change it.
 
-If something goes wrong and you have an error with your dependencies that you can't figure out, then you can always safely delete the <FontIcon icon="fas fa-folder-open"/>`node_modules` folder and the package-lock file and reinstall your dependencies based on the <FontIcon icon="iconfont icon-json"/>`package.json` file. This is not something that you should do, but you can always go back to having a clean slate.
+If something goes wrong and you have an error with your dependencies that you can't figure out, then you can always safely delete the <VPIcon icon="fas fa-folder-open"/>`node_modules` folder and the package-lock file and reinstall your dependencies based on the <VPIcon icon="iconfont icon-json"/>`package.json` file. This is not something that you should do, but you can always go back to having a clean slate.
 
 Now that we have installed Three.js, we can create a simple website that displays a 3D box. It's a simple HTML file and a JavaScript file with the code for the 3D box. The key here is that we import Three.js with the import statement in the JavaScript file. This import will use the package that we just installed.
 
@@ -283,7 +283,7 @@ So how can we use ESLint in our projects? This time, we need to have an extensio
 
 ![To install ESLint go to the Extensions panel, search for ESLint, and install it](https://cdn.hashnode.com/res/hashnode/image/upload/v1738953594259/a6f02e96-069d-4463-8322-86a23c523df3.png)
 
-We also need to set up ESLint for our project. Before we do that, we need to make sure that the project already has a <FontIcon icon="iconfont icon-json"/>`package.json` file. If you don't already have a <FontIcon icon="iconfont icon-json"/>`package.json` file, we first have to run `npm init --yes` to initialize the project. Then, we can generate an ESLint config with the following command:
+We also need to set up ESLint for our project. Before we do that, we need to make sure that the project already has a <VPIcon icon="iconfont icon-json"/>`package.json` file. If you don't already have a <VPIcon icon="iconfont icon-json"/>`package.json` file, we first have to run `npm init --yes` to initialize the project. Then, we can generate an ESLint config with the following command:
 
 ```sh
 npm init @eslint/config@latest
@@ -304,9 +304,9 @@ This script will ask you a few questions. Based on your answers, it will customi
 
 These were a lot of questions. Let's see what happened after we ran this command.
 
-After this step, we have ESLint and some other dependencies based on the answers in the <FontIcon icon="iconfont icon-json"/>`package.json` file as development dependencies. Development dependency means that ESLint won't be part of your website's final code, but we need it during development.
+After this step, we have ESLint and some other dependencies based on the answers in the <VPIcon icon="iconfont icon-json"/>`package.json` file as development dependencies. Development dependency means that ESLint won't be part of your website's final code, but we need it during development.
 
-ESLint also became part of our <FontIcon icon="fas fa-folder-open"/>`node_modules` folder, and there are many more packages here now. This is because a dependency can have other dependencies, and the dependencies of the dependencies will also be part of the <FontIcon icon="fas fa-folder-open"/>`node_modules` folder.
+ESLint also became part of our <VPIcon icon="fas fa-folder-open"/>`node_modules` folder, and there are many more packages here now. This is because a dependency can have other dependencies, and the dependencies of the dependencies will also be part of the <VPIcon icon="fas fa-folder-open"/>`node_modules` folder.
 
 ESLint also created a config file that sets up the rules based on your answers. We will see how to customize the rules.
 
@@ -332,7 +332,7 @@ export default [
 ];
 ```
 
-But if you're a beginner, I recommend following the rules that ESLint has by default. Sometimes, it might be annoying to fix all the seemingly harmless issues, but all these rules are based on industry best practices, so it's good to follow them. For more details, check out [<FontIcon icon="fas fa-globe"/>ESLint's documentation](https://eslint.org/docs/latest/use/configure/rules).
+But if you're a beginner, I recommend following the rules that ESLint has by default. Sometimes, it might be annoying to fix all the seemingly harmless issues, but all these rules are based on industry best practices, so it's good to follow them. For more details, check out [<VPIcon icon="fas fa-globe"/>ESLint's documentation](https://eslint.org/docs/latest/use/configure/rules).
 
 ---
 
@@ -377,13 +377,13 @@ We can run this project with `npx vite` as we did before, but there’s a better
 }
 ```
 
-The <FontIcon icon="iconfont icon-json"/>`package.json` file shows that Vite has been added as a development dependency. To use this hardcoded version, we first have to install it via `npm install`. This command installs all the dependencies listed in the <FontIcon icon="iconfont icon-json"/>`package.json` file.
+The <VPIcon icon="iconfont icon-json"/>`package.json` file shows that Vite has been added as a development dependency. To use this hardcoded version, we first have to install it via `npm install`. This command installs all the dependencies listed in the <VPIcon icon="iconfont icon-json"/>`package.json` file.
 
 ```sh
 npm install
 ```
 
-This <FontIcon icon="iconfont icon-json"/>`package.json` file now also has a scripts section. This section can define scripts to run your app locally, create a production build, or test your application. You can run them with `npm run`. So, for instance, to run the application, you can open the terminal with the correct folder and run the following command.
+This <VPIcon icon="iconfont icon-json"/>`package.json` file now also has a scripts section. This section can define scripts to run your app locally, create a production build, or test your application. You can run them with `npm run`. So, for instance, to run the application, you can open the terminal with the correct folder and run the following command.
 
 ```sh
 npm run dev

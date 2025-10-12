@@ -60,7 +60,7 @@ Both JavaScript and Python are high-level, interpreted languages, but they were 
 
 Understanding these differences in paradigms and common use cases helps clarify when to use each language and the kind of projects they are best suited for.
 
-### <FontIcon icon="fa-brands fa-js"/>JavaScript
+### <VPIcon icon="fa-brands fa-js"/>JavaScript
 
 Known primarily as the language of the web, JavaScript was originally designed to add interactivity to HTML documents within browsers. Today, with the advent of frameworks like React, Angular, and Vue, JavaScript is at the core of modern, interactive frontend web development.
 
@@ -68,7 +68,7 @@ The language’s reach expanded even further with Node.js, which brought JavaScr
 
 JavaScript is event-driven and asynchronous by design, making it ideal for real-time applications such as chat apps, collaborative tools, and streaming services.
 
-### <FontIcon icon="fa-brands fa-python"/>Python
+### <VPIcon icon="fa-brands fa-python"/>Python
 
 Initially created with a focus on readability and simplicity, Python has become one of the most versatile languages in the world. While JavaScript is often tied to web applications, Python is more commonly used in fields like scientific computing, data analysis, machine learning, and artificial intelligence. Its readability and simplicity make it a great choice for scripting, automation, and rapid prototyping.
 

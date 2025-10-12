@@ -505,7 +505,7 @@ def fibonacci(n):
 fibonacci(10)
 ```
 
-Run [this function (<FontIcon icon="iconfont icon-github"/>`theSamyak`)](https://gist.github.com/theSamyak/09a54ed5a6cc0380ee34a1a527f2c9e8) to see the time difference when running Fibonacci function with or without memoization.
+Run [this function (<VPIcon icon="iconfont icon-github"/>`theSamyak`)](https://gist.github.com/theSamyak/09a54ed5a6cc0380ee34a1a527f2c9e8) to see the time difference when running Fibonacci function with or without memoization.
 
 - **Access Control and Authentication**:<br/>In web applications, access control and authentication are crucial for security. Decorators can be used to enforce user permissions, ensuring that only authorized users can access certain functions or endpoints.
 
@@ -540,7 +540,7 @@ Whether you're using function-based or class-based decorators, you can enhance y
 - The `@decorator` syntax is a cleaner and more readable way to apply decorators.
 - They help keep your code DRY (Don't Repeat Yourself) by abstracting common functionality.
 
-**Thank you for reading!** If you have any comments, criticism, or questions, feel free to tweet or reach out to me at [<FontIcon icon="fa-brands fa-x-twitter"/> `@OGsamyak`](https://x.com/OGsamyak). Your feedback helps me improve!
+**Thank you for reading!** If you have any comments, criticism, or questions, feel free to tweet or reach out to me at [<VPIcon icon="fa-brands fa-x-twitter"/> `@OGsamyak`](https://x.com/OGsamyak). Your feedback helps me improve!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

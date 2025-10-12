@@ -172,7 +172,7 @@ Instead of manually looking for slow code, pro developers rely on automated tool
 - **Python:** `py-spy` (lightweight sampling profiler)
 - **JavaScript:** Chrome DevTools Performance Monitoring
 - **Java:** JMH (Java Microbenchmark Harness)
-- **AI-assisted code reviews:** There are tools like [<FontIcon icon="fas fa-globe"/>CodeAnt](http://codeant.ai) that analyze and auto fix your code automatically when you push on GitHub(or anywhere) and suggest performance improvements.
+- **AI-assisted code reviews:** There are tools like [<VPIcon icon="fas fa-globe"/>CodeAnt](http://codeant.ai) that analyze and auto fix your code automatically when you push on GitHub(or anywhere) and suggest performance improvements.
 
 :::
 

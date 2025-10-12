@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6c-9a48-4037-9cc2-3b35a92b6006.png"/>
 
-Here you will create the different models of the app. You can create all the models in a single file or create them in individual files. In this tutorial, we’ll create all the models in a single file which is <FontIcon icon="fas fa-folder-open"/>`lib/models/`<FontIcon icon="fa-brands fa-dart-lang"/>`recipe.dart`:
+Here you will create the different models of the app. You can create all the models in a single file or create them in individual files. In this tutorial, we’ll create all the models in a single file which is <VPIcon icon="fas fa-folder-open"/>`lib/models/`<VPIcon icon="fa-brands fa-dart-lang"/>`recipe.dart`:
 
 ```dart title="lib/moidels/recipe.dart"
 import 'package:flutter_dotenv/flutter_dotenv.dart';

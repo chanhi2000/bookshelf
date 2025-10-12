@@ -119,7 +119,7 @@ Let’s see how this looks in an example.
 
 ::: info
 
-To download the source code for this project, check out the [Interface Segregation Principle Project Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/interface-segregation-principle).
+To download the source code for this project, check out the [Interface Segregation Principle Project Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/interface-segregation-principle).
 
 <SiteInfo
   name="CodeMazeBlog/solid-principles-csharp at interface-segregation-principle"

@@ -69,7 +69,7 @@ Here are just a few reasons why you should consider learning C++ audio plugin de
 - **Understand Audio Processing:** Gain a deep understanding of digital signal processing (DSP) concepts and how to implement them to create various audio effects like phaser, chorus, overdrive, and filters.
 - **Build Professional Tools:** Develop the skills to create plugins with responsive graphical interfaces (GUIs), parameter controls, metering, and state management.
 
-Ready to take the plunge into the world of audio plugin development and create your own signature sound? Check out the full tutorial on [<FontIcon icon="fa-brands fa-youtbe"/>the freeCodeCamp.org YouTube channel](https://youtu.be/G4A5T3y5bJM) (8-hour watch).
+Ready to take the plunge into the world of audio plugin development and create your own signature sound? Check out the full tutorial on [<VPIcon icon="fa-brands fa-youtbe"/>the freeCodeCamp.org YouTube channel](https://youtu.be/G4A5T3y5bJM) (8-hour watch).
 
 <VidStack src="youtube/G4A5T3y5bJM" />
 

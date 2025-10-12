@@ -170,7 +170,7 @@ for (int i = 0; i < 1_000_000; i++) {
 
 :::
 
-::: info The Fix for <FontIcon icon="iconfont icon-csharp"/>C#
+::: info The Fix for <VPIcon icon="iconfont icon-csharp"/>C#
 
 In C#, you can avoid unnecessary heap allocations by using `struct`s and `Span<T>`, which keep data on the stack or in contiguous memory rather than the heap.
 

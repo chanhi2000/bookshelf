@@ -77,13 +77,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736952806487/e25f259
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1736952806487/e25f259a-71e0-4998-ad29-b5da286e3fba.png"/>
 
-Packaging libraries and applications written in Python comes with its challenges. And [<FontIcon icon="fa-brands fa-python"/>while virtual environments are great](https://docs.python.org/3/tutorial/venv.html) for controlling and standardizing installations, there are some scenarios where using them may not be the best.
+Packaging libraries and applications written in Python comes with its challenges. And [<VPIcon icon="fa-brands fa-python"/>while virtual environments are great](https://docs.python.org/3/tutorial/venv.html) for controlling and standardizing installations, there are some scenarios where using them may not be the best.
 
-For example, say you need to install a Python library system wide. You could try to create a virtual environment on a shared well-known directory, or you could modify the environment variable [<FontIcon icon="fa-brands fa-python"/>PYTHONPATH](https://docs.python.org/3/using/cmdline.html) to change where to look for packages.
+For example, say you need to install a Python library system wide. You could try to create a virtual environment on a shared well-known directory, or you could modify the environment variable [<VPIcon icon="fa-brands fa-python"/>PYTHONPATH](https://docs.python.org/3/using/cmdline.html) to change where to look for packages.
 
-But it may be simpler with an package manager like [<FontIcon icon="fa-brands fa-redhat"/>RedHat RPM](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/packaging_and_distributing_software/introduction-to-rpm_packaging-and-distributing-software) or [<FontIcon icon="fa-brands fa-debian"/>Debian DPKG](https://dpkg.org/), which can also help you keep track of dependencies and can even check if a package’s contents are tampered with after the installation with a checksum.
+But it may be simpler with an package manager like [<VPIcon icon="fa-brands fa-redhat"/>RedHat RPM](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/packaging_and_distributing_software/introduction-to-rpm_packaging-and-distributing-software) or [<VPIcon icon="fa-brands fa-debian"/>Debian DPKG](https://dpkg.org/), which can also help you keep track of dependencies and can even check if a package’s contents are tampered with after the installation with a checksum.
 
-Also, system administration tools written in Python often require that you use an interpreter with all the required libraries ready to go. For example, imagine a system Python with the popular [<FontIcon icon="iconfont icon-numpy"/>numpy](https://numpy.org/) module installed by default, and such package is used by the tool - just calling the import without initializing any virtual environments.
+Also, system administration tools written in Python often require that you use an interpreter with all the required libraries ready to go. For example, imagine a system Python with the popular [<VPIcon icon="iconfont icon-numpy"/>numpy](https://numpy.org/) module installed by default, and such package is used by the tool - just calling the import without initializing any virtual environments.
 
 For the sake of argument, say you need to go the route of an RPM packaging. You’ll quickly realize that your RPM package has runtime dependencies (libraries than your Python library needs to run once installed) and build dependencies (libraries you need to build your library but that are not required to use the library).
 
@@ -115,17 +115,17 @@ BuildRequires:  git-core
 To complicate things further, you may:
 
 - Need to build your library for a totally different OS that you have installed (say you have Fedora 42 but need and RPM for Alma Linux 9.5)
-- Need to install an RPM that comes from a dubious source, and you want to make sure it doesn’t break your system while the packaging process is running (see the RPM [<FontIcon icon="fa-brands fa-fedora"/>scriptlets](https://docs.fedoraproject.org/en-US/packaging-guidelines/Scriptlets/)).
+- Need to install an RPM that comes from a dubious source, and you want to make sure it doesn’t break your system while the packaging process is running (see the RPM [<VPIcon icon="fa-brands fa-fedora"/>scriptlets](https://docs.fedoraproject.org/en-US/packaging-guidelines/Scriptlets/)).
 
 ::: note Prerequisites
 
-In this tutorial, I’ll show you how you can handle those concerns using an Open Source tool called [Mock (<FontIcon icon="iconfont icon-github"/>`rpm-software-management/mock`)](https://github.com/rpm-software-management/mock). But first you will need the following to be able to follow this tutorial:
+In this tutorial, I’ll show you how you can handle those concerns using an Open Source tool called [Mock (<VPIcon icon="iconfont icon-github"/>`rpm-software-management/mock`)](https://github.com/rpm-software-management/mock). But first you will need the following to be able to follow this tutorial:
 
 - A Linux distribution that uses RPM as packaging tool (RedHat Enterprise Edition, Fedora, Alma Linux, Rocky, and so on)
-- Ability to install RPM packages on your build server (like [<FontIcon icon="fa-brands fa-fedora"/>mock](https://fedoraproject.org/wiki/Using_Mock_to_test_package_builds), [<FontIcon icon="fa-brands fa-fedora"/>rpmdevtools](https://fedoraproject.org/wiki/Rpmdevtools)) using tools like [<FontIcon icon="fas fa-globe"/>DNF](https://rpm-software-management.github.io/) or YUM.
-- Understanding of how RPM packaging works (if you are unfamiliar, the [<FontIcon icon="fa-brands fa-fedora"/>Fedora RPM guide](https://fedoranews.org/alex/tutorial/rpm/) is a great starting point)
-- You should understand what a [<FontIcon icon="fa-brands fa-redhat"/>container](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#h.j2uq93kgxe0e) is and how [<FontIcon icon="iconfont icon-podman"/>PODMAN](https://docs.podman.io/en/latest/index.html) or [<FontIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) works.
-- Understanding how a [<FontIcon icon="fa-brands fa-python"/>Python virtual environment](https://docs.python.org/3/library/venv.html) works. We will not cover this here, but is useful to know that [<FontIcon icon="fa-brands fa-python"/>this alternative exists and how it works](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments).
+- Ability to install RPM packages on your build server (like [<VPIcon icon="fa-brands fa-fedora"/>mock](https://fedoraproject.org/wiki/Using_Mock_to_test_package_builds), [<VPIcon icon="fa-brands fa-fedora"/>rpmdevtools](https://fedoraproject.org/wiki/Rpmdevtools)) using tools like [<VPIcon icon="fas fa-globe"/>DNF](https://rpm-software-management.github.io/) or YUM.
+- Understanding of how RPM packaging works (if you are unfamiliar, the [<VPIcon icon="fa-brands fa-fedora"/>Fedora RPM guide](https://fedoranews.org/alex/tutorial/rpm/) is a great starting point)
+- You should understand what a [<VPIcon icon="fa-brands fa-redhat"/>container](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#h.j2uq93kgxe0e) is and how [<VPIcon icon="iconfont icon-podman"/>PODMAN](https://docs.podman.io/en/latest/index.html) or [<VPIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/) works.
+- Understanding how a [<VPIcon icon="fa-brands fa-python"/>Python virtual environment](https://docs.python.org/3/library/venv.html) works. We will not cover this here, but is useful to know that [<VPIcon icon="fa-brands fa-python"/>this alternative exists and how it works](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments).
 
 :::
 
@@ -133,23 +133,23 @@ In this tutorial, I’ll show you how you can handle those concerns using an Ope
 
 ## Why Mock?
 
-As we discussed above, we already have [<FontIcon icon="fa-brands fa-python"/>Python virtual environments](https://docs.python.org/3/library/venv.html) - so why bother to have an RPM of the same library?
+As we discussed above, we already have [<VPIcon icon="fa-brands fa-python"/>Python virtual environments](https://docs.python.org/3/library/venv.html) - so why bother to have an RPM of the same library?
 
 Well, if you want to ensure consistent deployment across different systems, RPM packaging can be beneficial. It allows for easier management and distribution of software, especially in environments where system-wide installations are preferred over virtual environments.
 
 Mock can help us with that. 
 
-::: Mock Git README (<FontIcon icon="iconfont icon-github"/><code></code>)
+::: Mock Git README (<VPIcon icon="iconfont icon-github"/><code></code>)
 
 > *A 'simple'* [*chroot*](https://en.wikipedia.org/wiki/Chroot) *build environment manager for building RPMs.*
 > 
 > *Mock is used by the Fedora Build system to populate a chroot environment, which is then used in building a source-RPM (SRPM). It can be used for long-term management of a chroot environment, but generally a chroot is populated (using* [*DNF*](https://rpm-software-management.github.io/)*), an SRPM is built in the chroot to generate binary RPMs, and the chroot is then discarded.*
 
-**This is very important:** it means mock will install dependencies on a [<FontIcon icon="fa-brands fa-wikipedia-w"/>chroot](https://en.wikipedia.org/wiki/Chroot) environment, separated from the regular system, which will be discarded once the packaging is done.
+**This is very important:** it means mock will install dependencies on a [<VPIcon icon="fa-brands fa-wikipedia-w"/>chroot](https://en.wikipedia.org/wiki/Chroot) environment, separated from the regular system, which will be discarded once the packaging is done.
 
 :::
 
-Mock by itself doesn’t provide perfect isolation but [<FontIcon icon="fa-brands fa-redhat"/>when used with a container](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#h.j2uq93kgxe0e) execution framework like [<FontIcon icon="iconfont icon-podman"/>PODMAN](https://docs.podman.io/en/latest/index.html), it helps to protect the integrity of your system when packaging an unknown RPM:
+Mock by itself doesn’t provide perfect isolation but [<VPIcon icon="fa-brands fa-redhat"/>when used with a container](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#h.j2uq93kgxe0e) execution framework like [<VPIcon icon="iconfont icon-podman"/>PODMAN](https://docs.podman.io/en/latest/index.html), it helps to protect the integrity of your system when packaging an unknown RPM:
 
 ::: warning
 
@@ -167,9 +167,9 @@ Let’s see a few scenarios that demonstrate where you can use mock.
 
 ### Packaging a newer version of the module on an older Linux distribution
 
-In this case, say we want to re-use the existing [<FontIcon icon="fas fa-globe"/>textual 0.6.2](https://textual.textualize.io/) package from Fedora 41 into Fedora 40. This is possible with mock, but to make it more secure we should run it inside a Podman container. This will give us more isolation from the real operating system.
+In this case, say we want to re-use the existing [<VPIcon icon="fas fa-globe"/>textual 0.6.2](https://textual.textualize.io/) package from Fedora 41 into Fedora 40. This is possible with mock, but to make it more secure we should run it inside a Podman container. This will give us more isolation from the real operating system.
 
-During testing, I found than my home directory was tool small when running Podman. To fix this, I created a configuration override to point Podman root storage to a bigger partition on my machine (<FontIcon icon="fas fa-folder-open"/>`/mnt/data/podman/`):
+During testing, I found than my home directory was tool small when running Podman. To fix this, I created a configuration override to point Podman root storage to a bigger partition on my machine (<VPIcon icon="fas fa-folder-open"/>`/mnt/data/podman/`):
 
 ```sh title=".bash_profile"
 mkdir --parent ---verbose $HOME/.config/containers/
@@ -276,7 +276,7 @@ Not all dependencies satisfied
 
 Looks like a game of trial an error. *How bad it can be?*
 
-Several tries later, I found that [Syrupy (pytest plugin) (<FontIcon icon="iconfont icon-github"/>`syrupy-project/syrupy`)](https://github.com/syrupy-project/syrupy) added a dependency on [<FontIcon icon="fas fa-globe"/>Poetry (packaging tool)](https://python-poetry.org/), which complicated things a little bit, as Fedora 37 expects an older version of Poetry (poetry-1.1.14-1.fc37).
+Several tries later, I found that [Syrupy (pytest plugin) (<VPIcon icon="iconfont icon-github"/>`syrupy-project/syrupy`)](https://github.com/syrupy-project/syrupy) added a dependency on [<VPIcon icon="fas fa-globe"/>Poetry (packaging tool)](https://python-poetry.org/), which complicated things a little bit, as Fedora 37 expects an older version of Poetry (poetry-1.1.14-1.fc37).
 
 What could you do next? Well, you could try to get a version of Syrupy that works with this older version of Poetry. But that could potentially introduce vulnerabilities on your system or force you to use a version of Syrupy that doesn't work at all with Textual because of API changes.
 
@@ -298,7 +298,7 @@ https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everythi
 do rpm -ihv $dep; done
 ```
 
-Then we update the [<FontIcon icon="fas fa-globe"/>RPM spec file](https://rpm-software-management.github.io/rpm/manual/spec.html) for Textual, which describes how the RPM is created, bumping the version from 0.62.0 to 1.0.0. What I like to do is to create a new SRPM for Textual. For that I do the following (I’m still inside the Podman container - yes you can reuse it as long it keeps running):
+Then we update the [<VPIcon icon="fas fa-globe"/>RPM spec file](https://rpm-software-management.github.io/rpm/manual/spec.html) for Textual, which describes how the RPM is created, bumping the version from 0.62.0 to 1.0.0. What I like to do is to create a new SRPM for Textual. For that I do the following (I’m still inside the Podman container - yes you can reuse it as long it keeps running):
 
 ::: tabs
 
@@ -320,7 +320,7 @@ do rpm -ihv $dep; done
 
 @tab 3.
 
-I bumped the version of the package from 0.6.2 on the SPEC file that gets extracted inside <FontIcon icon="fas fa-folder-open"/>`~/rpmbuild/SPECS/`<FontIcon icon="fas fa-file-lines"/>`python-textual.spec`
+I bumped the version of the package from 0.6.2 on the SPEC file that gets extracted inside <VPIcon icon="fas fa-folder-open"/>`~/rpmbuild/SPECS/`<VPIcon icon="fas fa-file-lines"/>`python-textual.spec`
 
 ```sh
 sed -i 's#0.62.0#1.0.0#' ~/rpmbuild/SPECS/python-textual.spec
@@ -423,7 +423,7 @@ sudo dnf install \
 
 :::
 
-*Not bad*, we can now build sophisticated [<FontIcon icon="fa-brands fa-wikipedia-w"/>TUIs](https://en.wikipedia.org/wiki/Text-based_user_interface) using Textual and the system Python, without the need to create a virtual environment nor force the installation of unwanted packages in our build server.
+*Not bad*, we can now build sophisticated [<VPIcon icon="fa-brands fa-wikipedia-w"/>TUIs](https://en.wikipedia.org/wiki/Text-based_user_interface) using Textual and the system Python, without the need to create a virtual environment nor force the installation of unwanted packages in our build server.
 
 ---
 

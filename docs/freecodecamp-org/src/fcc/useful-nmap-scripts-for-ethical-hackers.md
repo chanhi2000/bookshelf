@@ -77,7 +77,7 @@ Here is the basic syntax to use nmap:
 nmap <ip/url>
 ```
 
-Let’s do a quick scan and see what we can find. We can use the URL [<FontIcon icon="fas fa-globe"/>scanme.nmap.org](http://scanme.nmap.org) to try out a scan. Nmap allows us to use this server to practice scans.
+Let’s do a quick scan and see what we can find. We can use the URL [<VPIcon icon="fas fa-globe"/>scanme.nmap.org](http://scanme.nmap.org) to try out a scan. Nmap allows us to use this server to practice scans.
 
 ![Nmap sample scan](https://miro.medium.com/v2/resize:fit:1050/1*daqo4BGtxBZdWF2TLCxQHw.png)
 

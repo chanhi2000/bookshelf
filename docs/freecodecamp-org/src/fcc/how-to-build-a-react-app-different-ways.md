@@ -90,13 +90,13 @@ Before React.js, web development was heavily reliant on traditional client-side 
 
 Web developers used to build web applications by directly manipulating the Document Object Model (DOM) of web pages using JavaScript. This approach was often time-consuming and error-prone, especially for complex applications.
 
-[<FontIcon icon="iconfont icon-jquery"/>jQuery](https://jquery.com/), a popular JavaScript library, was introduced as a way to simplify the process of manipulating the DOM and handling browser events. It provided a concise and easy-to-use syntax for selecting and manipulating HTML elements on a page.
+[<VPIcon icon="iconfont icon-jquery"/>jQuery](https://jquery.com/), a popular JavaScript library, was introduced as a way to simplify the process of manipulating the DOM and handling browser events. It provided a concise and easy-to-use syntax for selecting and manipulating HTML elements on a page.
 
 jQuery was widely adopted by web developers due to its simplicity, and it helped to improve the efficiency of client-side scripting.
 
-Other JavaScript frameworks such as [<FontIcon icon="fa-brands fa-angularjs"/>AngularJS](https://angularjs.org/) and [<FontIcon icon="fas fa-globe"/>Backbone.js](https://backbonejs.org/) also gained popularity in the early 2010s.
+Other JavaScript frameworks such as [<VPIcon icon="fa-brands fa-angularjs"/>AngularJS](https://angularjs.org/) and [<VPIcon icon="fas fa-globe"/>Backbone.js](https://backbonejs.org/) also gained popularity in the early 2010s.
 
-AngularJS provided a more structured approach to building web applications and was heavily focused on [<FontIcon icon="fa-brands fa-youtube"/>data binding](https://youtu.be/OoLI8nb-VH8) and [<FontIcon icon="fa-brands fa-youtube"/>dependency injection](https://youtu.be/yunF2PgJlHU). Backbone.js was a lightweight framework that allowed developers to create simple web applications with minimal overhead.
+AngularJS provided a more structured approach to building web applications and was heavily focused on [<VPIcon icon="fa-brands fa-youtube"/>data binding](https://youtu.be/OoLI8nb-VH8) and [<VPIcon icon="fa-brands fa-youtube"/>dependency injection](https://youtu.be/yunF2PgJlHU). Backbone.js was a lightweight framework that allowed developers to create simple web applications with minimal overhead.
 
 <VidStack src="youtube/OoLI8nb-VH8" />
 
@@ -126,7 +126,7 @@ React.js brought several improvements over traditional client-side scripting usi
 
 Overall, React.js brought several significant improvements over traditional client-side scripting using vanilla JavaScript and libraries like jQuery, as well as over other JavaScript frameworks like Backbone.js, AngularJS, and Knockout.js. These improvements have made it easier for developers to build scalable, efficient, and maintainable web applications.
 
-If you want to dig deeper into this transition that happened between previous tools and frameworks like React, I recommend [<FontIcon icon="fa-brands fa-youtube"/>this video by uidotdev](https://youtu.be/Wm_xI7KntDs).
+If you want to dig deeper into this transition that happened between previous tools and frameworks like React, I recommend [<VPIcon icon="fa-brands fa-youtube"/>this video by uidotdev](https://youtu.be/Wm_xI7KntDs).
 
 <VidStack src="youtube/Wm_xI7KntDs" />
 
@@ -164,7 +164,7 @@ To build a React app we'll need to install the 4 following dependencies:
 
 @tab:active Webpack
 
-[<FontIcon icon="fas fa-globe"/>Webpack](https://webpack.js.org/) is a popular open-source module bundler for JavaScript applications. It takes multiple JavaScript files and their dependencies and packages them into a single optimized bundle for use in a web browser. It also has the capability to transform and bundle other types of assets such as CSS, images, and fonts.
+[<VPIcon icon="fas fa-globe"/>Webpack](https://webpack.js.org/) is a popular open-source module bundler for JavaScript applications. It takes multiple JavaScript files and their dependencies and packages them into a single optimized bundle for use in a web browser. It also has the capability to transform and bundle other types of assets such as CSS, images, and fonts.
 
 Keep in mind that Webpack is just an option between many other available bundlers. We're going to use it because it's quite a standard option.
 
@@ -172,7 +172,7 @@ If you're interested in knowing more about JS modules and how to bundle them wit
 
 @tab Babel
 
-[<FontIcon icon="fas fa-globe"/>Babel](https://babeljs.io/) is a popular open-source JavaScript compiler that allows developers to write code in the latest versions of JavaScript and translate it into code that can run on older browsers and environments. It supports the latest ECMAScript features and can also transpile other languages that compile to JavaScript, such as TypeScript and JSX.
+[<VPIcon icon="fas fa-globe"/>Babel](https://babeljs.io/) is a popular open-source JavaScript compiler that allows developers to write code in the latest versions of JavaScript and translate it into code that can run on older browsers and environments. It supports the latest ECMAScript features and can also transpile other languages that compile to JavaScript, such as TypeScript and JSX.
 
 Keep in mind Babel is just an option between many other available transpilers. We're going to use it because it's quite a standard option.
 
@@ -220,11 +220,11 @@ Here we're installing the 4 dependencies we previously mentioned and some extra 
 
 Since we're doing this for theoretical foundation, we won't get too deep into these things. Just keep in mind the core dependencies are React's libraries, a bundler, and a transpiler (plus some other minor stuff).
 
-If you're interested in a more detailed approach, you can take a look at [this article (<FontIcon icon="fa-brands fa-medium"/>`JedaiSaboteur`)](https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658).
+If you're interested in a more detailed approach, you can take a look at [this article (<VPIcon icon="fa-brands fa-medium"/>`JedaiSaboteur`)](https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658).
 
 @tab 3.
 
-Now create an SRC folder and two <FontIcon icon="fa-brands fa-js"/>`index.js` and <FontIcon icon="fa-brands fa-html5"/>`index.html` files within it by running the next two commands:
+Now create an SRC folder and two <VPIcon icon="fa-brands fa-js"/>`index.js` and <VPIcon icon="fa-brands fa-html5"/>`index.html` files within it by running the next two commands:
 
 ```sh
 mkdir src && cd src && touch index.js
@@ -233,7 +233,7 @@ touch index.html
 
 @tab 4.
 
-Hop onto the <FontIcon icon="fa-brands fa-html5"/>`index.html` file and put this within it:
+Hop onto the <VPIcon icon="fa-brands fa-html5"/>`index.html` file and put this within it:
 
 ```html title="index.html"
 <!doctype html>
@@ -252,7 +252,7 @@ This is the single HTML file that will be present in our project. When we finall
 
 @tab 5.
 
-Hop onto the <FontIcon icon="fa-brands fa-react"/>`index.js` file and put this within it:
+Hop onto the <VPIcon icon="fa-brands fa-react"/>`index.js` file and put this within it:
 
 ```jsx title="index.js"
 import ReactDOM from ‘react-dom’;
@@ -275,7 +275,7 @@ touch .babelrc && touch webpack.config.js
 
 @tab 7.
 
-Inside your <FontIcon icon="fa-brands fa-js"/>`webpack.config.js` file put the following:
+Inside your <VPIcon icon="fa-brands fa-js"/>`webpack.config.js` file put the following:
 
 ```js title="webpack.config.js"
 const HtmlWebPackPlugin = require("html-webpack-plugin");
@@ -315,7 +315,7 @@ Inside your `.babelrc` file put the following:
 
 @tab 9.
 
-Finally, go to your <FontIcon icon="iconfont icon-json"/>`package.json` file and add the following within the `scripts` section:
+Finally, go to your <VPIcon icon="iconfont icon-json"/>`package.json` file and add the following within the `scripts` section:
 
 ```json title="package.json"
 "start": "webpack serve --config webpack.config.js"
@@ -381,7 +381,7 @@ As we've seen, setting up a React app from scratch is not THAT complicated. But 
 
 And because of this problem, we got tools like Create-react-app (CRA).
 
-[<FontIcon icon="fa-brands fa-react"/>Create-React-App (CRA)](https://create-react-app.dev/) is a popular and officially supported tool for creating React applications quickly and easily. It is a command-line interface (CLI) tool that automates the setup of a new React project by generating a basic file structure, configuration files, and build scripts.
+[<VPIcon icon="fa-brands fa-react"/>Create-React-App (CRA)](https://create-react-app.dev/) is a popular and officially supported tool for creating React applications quickly and easily. It is a command-line interface (CLI) tool that automates the setup of a new React project by generating a basic file structure, configuration files, and build scripts.
 
 CRA provides a streamlined development experience by setting up a preconfigured development server, live-reloading, and automatic build optimization for production. It also comes with a built-in tool for running tests and generating code coverage reports.
 
@@ -399,7 +399,7 @@ After it runs, your folder structure should look like this:
 
 ![](https://freecodecamp.org/news/content/images/2023/03/image-19.png)
 
-And your <FontIcon icon="iconfont icon-json"/>`package.json` should contain the following:
+And your <VPIcon icon="iconfont icon-json"/>`package.json` should contain the following:
 
 ```json title="package.json"
 {
@@ -448,7 +448,7 @@ You can now see that the folder structure has a few more things in it:
 
 ![](https://freecodecamp.org/news/content/images/2023/03/image-20.png)
 
-And your <FontIcon icon="iconfont icon-json"/>`package.json` file contains the whole list of dependencies:
+And your <VPIcon icon="iconfont icon-json"/>`package.json` file contains the whole list of dependencies:
 
 ```json :collapsed-lines title="package.json"
 {
@@ -602,13 +602,13 @@ CRA sounds pretty cool, right? It was a really helpful tool for React devs, sinc
 
 But the problem with create-react-app is it's kind of slow. Especially in large applications, that have thousands of lines of code and hundreds of components and files, tools like Webpack take a long time to bundle and build the application. This is the kind of problem that tools like Vite.js have come to solve.
 
-For further info on why CRA is not the best building tool available today, I recommend [<FontIcon icon="fa-brands fa-youtube"/>this video](https://youtu.be/kvkAoCbTM3Q) and [<FontIcon icon="fa-brands fa-youtube"/>this video](https://youtu.be/7m14f0ZzMyY).
+For further info on why CRA is not the best building tool available today, I recommend [<VPIcon icon="fa-brands fa-youtube"/>this video](https://youtu.be/kvkAoCbTM3Q) and [<VPIcon icon="fa-brands fa-youtube"/>this video](https://youtu.be/7m14f0ZzMyY).
 
 <VidStack src="youtube/kvkAoCbTM3Q" />
 
 <VidStack src="youtube/7m14f0ZzMyY" />
 
-[Vite.js](https://vitejs.dev/) is a build tool and development server that is designed to optimize the development experience for modern web applications. It was created by [Evan You (<FontIcon icon="fa-brands fa-x-twitter"/>`youyuxi`)](https://twitter.com/youyuxi), the creator of the popular JavaScript framework [<FontIcon icon="fa-brands fa-vuejs"/>Vue.js](https://vuejs.org/).
+[Vite.js](https://vitejs.dev/) is a build tool and development server that is designed to optimize the development experience for modern web applications. It was created by [Evan You (<VPIcon icon="fa-brands fa-x-twitter"/>`youyuxi`)](https://twitter.com/youyuxi), the creator of the popular JavaScript framework [<VPIcon icon="fa-brands fa-vuejs"/>Vue.js](https://vuejs.org/).
 
 Vite.js is built on top of native ES modules, which allows for faster and more efficient module loading during development. This means that the development server can start up quickly and changes to the code can be reflected instantly in the browser, without the need for a full page reload.
 
@@ -642,7 +642,7 @@ Then follow the prompts in your command line (it will ask you to provide the pro
 
 See that it's quite similar to the one generated by CRA.
 
-And this will be your <FontIcon icon="iconfont icon-json"/>`package.json`:
+And this will be your <VPIcon icon="iconfont icon-json"/>`package.json`:
 
 ```json title="package.json"
 {
@@ -704,7 +704,7 @@ If you're interested in further exploring the many rendering options available i
 
 ## What is Astro?
 
-[<FontIcon icon="fas fa-globe"/>Astro](https://astro.build/) is a modern static site generator and web development framework that allows developers to build fast and efficient websites and web applications using a combination of server-side rendering and client-side rendering.
+[<VPIcon icon="fas fa-globe"/>Astro](https://astro.build/) is a modern static site generator and web development framework that allows developers to build fast and efficient websites and web applications using a combination of server-side rendering and client-side rendering.
 
 Astro uses a modular architecture that allows developers to mix and match different rendering strategies, allowing for maximum flexibility and performance.
 
@@ -753,37 +753,37 @@ And this will be your `package.json`:
 }
 ```
 
-From the [<FontIcon icon="fas fa-globe"/>Astro docs](https://docs.astro.build/en/core-concepts/project-structure/) we can see how the project structure works:
+From the [<VPIcon icon="fas fa-globe"/>Astro docs](https://docs.astro.build/en/core-concepts/project-structure/) we can see how the project structure works:
 
-#### <FontIcon icon="fas fa-folder-open"/>`src/components`
+#### <VPIcon icon="fas fa-folder-open"/>`src/components`
 
 Components are reusable units of code for your HTML pages. These could be Astro components, or UI framework components like React or Vue. It is common to group and organize all of your project components together in this folder.
 
-#### <FontIcon icon="fas fa-folder-open"/>`src/layouts`
+#### <VPIcon icon="fas fa-folder-open"/>`src/layouts`
 
-Layouts are a special kind of component that wrap some content in a larger page layout. These are most often used by Astro pages and Markdown or MDX pages to define the layout of the page. Just like <FontIcon icon="fas fa-folder-open"/>`src/components`, this directory is a common convention but not required.
+Layouts are a special kind of component that wrap some content in a larger page layout. These are most often used by Astro pages and Markdown or MDX pages to define the layout of the page. Just like <VPIcon icon="fas fa-folder-open"/>`src/components`, this directory is a common convention but not required.
 
-#### <FontIcon icon="fas fa-folder-open"/>`src/pages`
+#### <VPIcon icon="fas fa-folder-open"/>`src/pages`
 
-Pages are a special kind of component used to create new pages on your site. A page can be an Astro component, or a Markdown file that represents some page of content for your site. <FontIcon icon="fas fa-folder-open"/>`src/pages` is a required sub-directory in your Astro project. Without it, your site will have no pages or routes! 
+Pages are a special kind of component used to create new pages on your site. A page can be an Astro component, or a Markdown file that represents some page of content for your site. <VPIcon icon="fas fa-folder-open"/>`src/pages` is a required sub-directory in your Astro project. Without it, your site will have no pages or routes! 
 
-#### <FontIcon icon="fas fa-folder-open"/>`src/styles`
+#### <VPIcon icon="fas fa-folder-open"/>`src/styles`
 
-It is a common convention to store your CSS or Sass files in a <FontIcon icon="fas fa-folder-open"/>`src/styles` directory, but this is not required. As long as your styles live somewhere in the `src/` directory and are imported correctly, Astro will handle and optimize them.
+It is a common convention to store your CSS or Sass files in a <VPIcon icon="fas fa-folder-open"/>`src/styles` directory, but this is not required. As long as your styles live somewhere in the `src/` directory and are imported correctly, Astro will handle and optimize them.
 
-#### <FontIcon icon="fas fa-folder-open"/>`public/`
+#### <VPIcon icon="fas fa-folder-open"/>`public/`
 
-The <FontIcon icon="fas fa-folder-open"/>`public/` directory is for files and assets that do not need to be processed during Astro’s build process. These files will be copied into the <FontIcon icon="fas fa-folder-open"/>`build` folder untouched. This behavior makes <FontIcon icon="fas fa-folder-open"/>`public/` ideal for common assets like images and fonts, or special files such as robots.txt and manifest.webmanifest. You can place CSS and JavaScript in your <FontIcon icon="fas fa-folder-open"/>`public/` directory, but be aware that those files will not be bundled or optimized in your final build.
+The <VPIcon icon="fas fa-folder-open"/>`public/` directory is for files and assets that do not need to be processed during Astro’s build process. These files will be copied into the <VPIcon icon="fas fa-folder-open"/>`build` folder untouched. This behavior makes <VPIcon icon="fas fa-folder-open"/>`public/` ideal for common assets like images and fonts, or special files such as robots.txt and manifest.webmanifest. You can place CSS and JavaScript in your <VPIcon icon="fas fa-folder-open"/>`public/` directory, but be aware that those files will not be bundled or optimized in your final build.
 
 As you can see, Astro adds features on top of what React offers (like bundling optimization, Astro components, and out-of-the-box routing). This is what people call a "metaframework" (we'll take a closer look at that later on).
 
-If you'd like to get a more detailed overview of how Astro works, I recommend you [<FontIcon icon="fas fa-globe"/>check out their docs](https://docs.astro.build/en/getting-started/). They're really well-written and easy to follow.
+If you'd like to get a more detailed overview of how Astro works, I recommend you [<VPIcon icon="fas fa-globe"/>check out their docs](https://docs.astro.build/en/getting-started/). They're really well-written and easy to follow.
 
 ---
 
 ## What is Gatsby?
 
-[<FontIcon icon="iconfont icon-gatsby"/>Gatsby](https://gatsbyjs.com/) is a modern web framework based on React that allows developers to build fast, dynamic websites and applications using the latest web technologies. It was initially released in 2015 by [Kyle Mathews (<FontIcon icon="fa-brands fa-x-twitter"/>`kylemathews`)](https://x.com/kylemathews?lang=es), and has since grown to become one of the most popular static site generators and web frameworks in the world.
+[<VPIcon icon="iconfont icon-gatsby"/>Gatsby](https://gatsbyjs.com/) is a modern web framework based on React that allows developers to build fast, dynamic websites and applications using the latest web technologies. It was initially released in 2015 by [Kyle Mathews (<VPIcon icon="fa-brands fa-x-twitter"/>`kylemathews`)](https://x.com/kylemathews?lang=es), and has since grown to become one of the most popular static site generators and web frameworks in the world.
 
 One of the main characteristics of Gatsby is its focus on performance and speed. Gatsby uses a technique called pre-rendering to generate static HTML, CSS, and JavaScript files that can be served to users almost instantly, resulting in a faster and more responsive user experience.
 
@@ -814,13 +814,13 @@ Your folder structure might look something like this:
 
 ![](https://freecodecamp.org/news/content/images/2023/03/image-51.png)
 
-Within the <FontIcon icon="fas fa-folder-open"/>`pages` folder we have a file for each of the site's pages. Gatsby works with out-of-the box routing just like Astro.
+Within the <VPIcon icon="fas fa-folder-open"/>`pages` folder we have a file for each of the site's pages. Gatsby works with out-of-the box routing just like Astro.
 
 A typical React front-end application project that uses Gatsby.js as the static site generator will have the following structure:
 
-1. <FontIcon icon="fas fa-folder-open"/>`src/` folder: This folder contains all the source code of the application. It usually includes sub-folders for pages, components, images, styles, and data.
-2. <FontIcon icon="fa-brands fa-js"/>`gatsby-config.js`: This file contains the configuration settings for Gatsby. It includes metadata such as the site title, description, and author, as well as settings for plugins and other features.
-3. <FontIcon icon="fas fa-folder-open"/>`public/` folder: This folder contains the compiled static assets that Gatsby generates when the site is built. These assets can be deployed to a web server or CDN.
+1. <VPIcon icon="fas fa-folder-open"/>`src/` folder: This folder contains all the source code of the application. It usually includes sub-folders for pages, components, images, styles, and data.
+2. <VPIcon icon="fa-brands fa-js"/>`gatsby-config.js`: This file contains the configuration settings for Gatsby. It includes metadata such as the site title, description, and author, as well as settings for plugins and other features.
+3. <VPIcon icon="fas fa-folder-open"/>`public/` folder: This folder contains the compiled static assets that Gatsby generates when the site is built. These assets can be deployed to a web server or CDN.
 
 ---
 
@@ -832,8 +832,8 @@ They are designed to simplify the development of complex applications and provid
 
 Some examples of React.js metaframeworks include:
 
-1. **Next.js:** [<FontIcon icon="iconfont icon-nextjs"/>Next.js](https://nextjs.org/) is a metaframework that provides server-side rendering, automatic code splitting, and simplified client-side routing. It also includes built-in support for static site generation, API routes, and other advanced features.
-2. **Remix:** [<FontIcon icon="fas fa-globe"/>Remix](https://remix.run/) is a metaframework for building server-rendered React applications. It provides a unified data management system, a simple and intuitive routing system, and other features that can simplify building complex web applications. Remix aims to improve developer productivity by providing a simpler, more streamlined development experience for building large, complex web applications.
+1. **Next.js:** [<VPIcon icon="iconfont icon-nextjs"/>Next.js](https://nextjs.org/) is a metaframework that provides server-side rendering, automatic code splitting, and simplified client-side routing. It also includes built-in support for static site generation, API routes, and other advanced features.
+2. **Remix:** [<VPIcon icon="fas fa-globe"/>Remix](https://remix.run/) is a metaframework for building server-rendered React applications. It provides a unified data management system, a simple and intuitive routing system, and other features that can simplify building complex web applications. Remix aims to improve developer productivity by providing a simpler, more streamlined development experience for building large, complex web applications.
 
 Overall, React.js metaframeworks provide powerful abstractions and functionality that can simplify the development of complex applications and help developers to build high-quality, efficient, and maintainable code.
 
@@ -843,7 +843,7 @@ Side comment: Astro and Gatsby might be considered metaframeworks as well. I jus
 
 ## What is Next.js?
 
-Next.js is a popular metaframework for building server-side rendered (SSR) React applications. It is an open-source project developed by [<FontIcon icon="fas fa-globe"/>Vercel](https://vercel.com/) (formerly Zeit) and has gained popularity due to its ease of use, performance, and flexibility.
+Next.js is a popular metaframework for building server-side rendered (SSR) React applications. It is an open-source project developed by [<VPIcon icon="fas fa-globe"/>Vercel](https://vercel.com/) (formerly Zeit) and has gained popularity due to its ease of use, performance, and flexibility.
 
 Next.js provides a number of features out of the box, such as automatic code splitting, server-side rendering, and hot module replacement. It also has built-in support for various front-end features, including client-side routing, static file serving, and API routes.
 
@@ -869,12 +869,12 @@ Your folder structure might look something like this:
 
 A typical React front-end application project that uses Next.js as the framework will have the following structure:
 
-1. <FontIcon icon="fas fa-folder-open"/>`pages/` folder: This folder contains all the pages of the application. Each file in this folder represents a route in the application, and the file name corresponds to the route path. For example, a file named <FontIcon icon="fa-brands fa-js"/>`index.js` represents the root route (`/`), and a file named <FontIcon icon="fa-brands fa-js"/>`about.js` represents the `/about` route.
-2. <FontIcon icon="fas fa-folder-open"/>`public/` folder: This folder contains the static assets that are served directly by the web server, such as images, videos, and fonts.
-3. <FontIcon icon="fas fa-folder-open"/>`styles/` folder: This folder contains all the styles of the application. It includes global styles, such as the font family and color scheme, as well as component-specific styles.
-4. <FontIcon icon="fa-brands fa-js"/>`next.config.js`: This file contains the configuration settings for Next.js. It can be used to customize features such as webpack, CSS, and image handling.
+1. <VPIcon icon="fas fa-folder-open"/>`pages/` folder: This folder contains all the pages of the application. Each file in this folder represents a route in the application, and the file name corresponds to the route path. For example, a file named <VPIcon icon="fa-brands fa-js"/>`index.js` represents the root route (`/`), and a file named <VPIcon icon="fa-brands fa-js"/>`about.js` represents the `/about` route.
+2. <VPIcon icon="fas fa-folder-open"/>`public/` folder: This folder contains the static assets that are served directly by the web server, such as images, videos, and fonts.
+3. <VPIcon icon="fas fa-folder-open"/>`styles/` folder: This folder contains all the styles of the application. It includes global styles, such as the font family and color scheme, as well as component-specific styles.
+4. <VPIcon icon="fa-brands fa-js"/>`next.config.js`: This file contains the configuration settings for Next.js. It can be used to customize features such as webpack, CSS, and image handling.
 
-For a deeper dive into how Next works, refer to [<FontIcon icon="iconfont icon-nextjs"/>their awesome docs](https://nextjs.org/learn/foundations/about-nextjs).
+For a deeper dive into how Next works, refer to [<VPIcon icon="iconfont icon-nextjs"/>their awesome docs](https://nextjs.org/learn/foundations/about-nextjs).
 
 ---
 
@@ -902,12 +902,12 @@ Your folder structure might look something like this:
 
 A typical React front-end application project that uses Remix as the framework will have the following structure:
 
-- <FontIcon icon="fas fa-folder-open"/>`public/`: This directory contains the publicly accessible files of the application, such as the index.html file and other assets like images, fonts, etc.
-- <FontIcon icon="fas fa-folder-open"/>`app/`: This directory contains the source code of the application.
-- <FontIcon icon="fa-brands fa-js"/>`routes.js`: This file defines the routes of the application and maps them to the corresponding page components.
-- <FontIcon icon="fa-brands fa-js"/>`remix.config.js`: This file contains configuration options for Remix.js, such as setting up server-side rendering and defining routes.
+- <VPIcon icon="fas fa-folder-open"/>`public/`: This directory contains the publicly accessible files of the application, such as the index.html file and other assets like images, fonts, etc.
+- <VPIcon icon="fas fa-folder-open"/>`app/`: This directory contains the source code of the application.
+- <VPIcon icon="fa-brands fa-js"/>`routes.js`: This file defines the routes of the application and maps them to the corresponding page components.
+- <VPIcon icon="fa-brands fa-js"/>`remix.config.js`: This file contains configuration options for Remix.js, such as setting up server-side rendering and defining routes.
 
-For a deeper dive into how Next works, refer to [<FontIcon icon="fas fa-globe"/>their docs](https://remix.run/docs/en/1.14.1/tutorials/blog).
+For a deeper dive into how Next works, refer to [<VPIcon icon="fas fa-globe"/>their docs](https://remix.run/docs/en/1.14.1/tutorials/blog).
 
 ---
 
@@ -973,7 +973,7 @@ And for larger, more complex projects with complex routing, data management, or 
 
 Well everyone, that's all for today. As always, I hope you enjoyed the article and learned something new.
 
-If you want, you can also follow me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<FontIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman). See you in the next one!
+If you want, you can also follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<VPIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman). See you in the next one!
 
 ![](https://freecodecamp.org/news/content/images/2023/03/23b4b79490fdda967ee0fcc8d9c57402_w200.gif)
 

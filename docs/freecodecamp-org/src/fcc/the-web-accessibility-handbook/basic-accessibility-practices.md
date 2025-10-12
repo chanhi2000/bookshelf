@@ -62,9 +62,9 @@ Before we get into it, let’s start by understanding what semantic and non-sema
 
 Non-semantic HTML tags do not convey specific meaning or purpose. They can be used for anything, depending on the CSS styling and JavaScript functionality. Examples of non-semantic tags are: `<div>` and `<span>`. These tags are mostly used as containers for wrapping other elements.
 
-Semantic HTML tags clearly describe their purpose to the browser and the developers through their names. They improve code readability and also help with [<FontIcon icon="fas fa-globe"/>SEO (Search Engine Optimisation)](https://seo.co/semantic-html/). Examples of semantic tags include: `<button>`, `<a>`, `<header>`, `<footer>`.
+Semantic HTML tags clearly describe their purpose to the browser and the developers through their names. They improve code readability and also help with [<VPIcon icon="fas fa-globe"/>SEO (Search Engine Optimisation)](https://seo.co/semantic-html/). Examples of semantic tags include: `<button>`, `<a>`, `<header>`, `<footer>`.
 
-You can find a list of all semantic elements [<FontIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantic_elements).
+You can find a list of all semantic elements [<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantic_elements).
 
 ### Importance of using semantic HTML
 
@@ -152,7 +152,7 @@ You can test the above examples with Mac’s VoiceOver to see the difference.
 
 ### Emphasized Text
 
-Emphasized text refers to highlighted text that gives importance to certain words or phrases within a piece of content. When adding emphasized text, it’s important to use the right semantic elements like [<FontIcon icon="fa-brands fa-firefox"/>`<strong>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) and [`<em>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em).
+Emphasized text refers to highlighted text that gives importance to certain words or phrases within a piece of content. When adding emphasized text, it’s important to use the right semantic elements like [<VPIcon icon="fa-brands fa-firefox"/>`<strong>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) and [`<em>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em).
 
 ```html
 <p>For best results, use <em>fresh ingredients</em> when cooking.</p>
@@ -162,11 +162,11 @@ Emphasized text refers to highlighted text that gives importance to certain word
 
 These elements add some built-in styles to the text like *bold* and *italic*. Also, if you test with VoiceOver, you’ll notice that it puts some emphasis on the text inside these elements. This helps people using screen readers identify emphasised text.
 
-You may also add some colour to the emphasized text. But, there’s no need to add a lot of styles, else it may cause confusion. Visit [<FontIcon icon="fa-brands fa-firefox"/>MDN Docs-Emphasis and Importance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance) to learn more about text emphasis in HTML.
+You may also add some colour to the emphasized text. But, there’s no need to add a lot of styles, else it may cause confusion. Visit [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs-Emphasis and Importance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance) to learn more about text emphasis in HTML.
 
 ### Abbreviations
 
-Next, when writing abbreviations (or acronyms), it’s a good practice to make them visually different and also include the full expansion of the acronym. You can also add some simple styling to the abbreviation. Learn more about abbreviations in [<FontIcon icon="fa-brands fa-firefox"/>MDN Docs-Abbreviations](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features#abbreviations).
+Next, when writing abbreviations (or acronyms), it’s a good practice to make them visually different and also include the full expansion of the acronym. You can also add some simple styling to the abbreviation. Learn more about abbreviations in [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs-Abbreviations](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features#abbreviations).
 
 ### Other best practices
 
@@ -183,7 +183,7 @@ Also, when writing CSS for text content, remember these practices:
 - Your headings should stand out from the other text, in case you are using CSS styles. Usually, this is achieved by just using the right heading tags.
 - Text color should have 4.5:1 contrast with the background. See the [Color Contrast](/freecodecamp.org/the-web-accessibility-handbook/additional-css-and-javascript-practices.md#color-contrast) section for details.
 
-If you want more tips on styling text, visit [<FontIcon icon="fa-brands fa-firefox"/>MDN Docs - CSS Text Styling](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling).
+If you want more tips on styling text, visit [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs - CSS Text Styling](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling).
 
 ---
 
@@ -222,7 +222,7 @@ Let’s understand each tag used above (skip if you already know):
 - `<main>`: Represents the main content area that focusses on the primary purpose of the page or the website, excluding common elements like header, footer, or sidebar (may include sidebar depending on the website).
 - `<footer>`: Represents the bottom section of the web page, typically containing metadata, copyright information, or links to related resources.
 
-These elements are called [<FontIcon icon="fa-brands fa-firefox"/>sectioning elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning). Following are advantages of using these elements:
+These elements are called [<VPIcon icon="fa-brands fa-firefox"/>sectioning elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning). Following are advantages of using these elements:
 
 - The layout is clear with each element clearly describing its purpose, making the code readable and maintainable.
 - Using the right semantic elements makes screen readers identify each part of the layout, thus helping visually impaired users understand how the website is structured.
@@ -239,7 +239,7 @@ These consist of elements through which a user interacts with the web page. Thes
 
 Each interactive element on a web page should be navigable through the keyboard. This gives a user flexibility while navigating your website. Keyboard accessibility is really helpful for people with mobility impairments that may struggle to use a mouse.
 
-For instance, visit [<FontIcon icon="fas fa-globe"/>this](https://mdn.github.io/learning-area/tools-testing/cross-browser-testing/accessibility/native-keyboard-accessibility.html) page and try to navigate to each interactive element by pressing Tab on your keyboard. You can also press Enter/Spacebar to click on a button or a link. This should give you an idea of what a keyboard-accessible website looks like.
+For instance, visit [<VPIcon icon="fas fa-globe"/>this](https://mdn.github.io/learning-area/tools-testing/cross-browser-testing/accessibility/native-keyboard-accessibility.html) page and try to navigate to each interactive element by pressing Tab on your keyboard. You can also press Enter/Spacebar to click on a button or a link. This should give you an idea of what a keyboard-accessible website looks like.
 
 For the most part, using the right semantic elements should ensure keyboard accessibility, as they come with built-in functionality. Check out the following example:
 
@@ -257,7 +257,7 @@ For the most part, using the right semantic elements should ensure keyboard acce
 </div>
 ```
 
-Here, we have used the correct semantic elements for the hyperlink, button, and input element. All these elements can be accessed through Tab and interacted with using Enter/Spacebar. Check out other form-related elements in this [<FontIcon icon="fa-brands fa-firefox"/>list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#forms).
+Here, we have used the correct semantic elements for the hyperlink, button, and input element. All these elements can be accessed through Tab and interacted with using Enter/Spacebar. Check out other form-related elements in this [<VPIcon icon="fa-brands fa-firefox"/>list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#forms).
 
 Some people use a `div` or `span` and make them look like an anchor tag or a button with CSS styling. But this is bad for accessibility for two reasons:
 
@@ -272,7 +272,7 @@ But if you absolutely have to use a `div` to create a clickable element, include
 
 Here, we have added two attributes, `tabindex` and `role`. We’ll understand the `role` attribute in a later section.
 
-The [<FontIcon icon="fa-brands fa-firefox"/>`tabindex`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute takes an integer that specifies the tab order of tab-able elements, instead of the default top to bottom tab order. A positive integer means the element is focussed in an order specified by the attribute’s value.
+The [<VPIcon icon="fa-brands fa-firefox"/>`tabindex`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute takes an integer that specifies the tab order of tab-able elements, instead of the default top to bottom tab order. A positive integer means the element is focussed in an order specified by the attribute’s value.
 
 But using tabindex to change the default tab order is not recommended, as it may cause confusion for keyboard navigators and affect accessibility. And frankly, it’s not necessary.
 
@@ -320,12 +320,12 @@ This is not good for screen reader users, as it does not read out what the input
 
 The `for` attribute associates the label with the input field. With this, when the screen reader’s focus is on the input field, it reads out the label, followed by “edit field" to let the user know they should enter their name in the input field.
 
-Check out the [<FontIcon icon="fas fa-globe"/>form without label](https://mdn.github.io/learning-area/accessibility/html/good-form.html) and [<FontIcon icon="fas fa-globe"/>form with label](https://mdn.github.io/learning-area/accessibility/html/bad-form.html) examples for more clarity. Use Mac’s Voiceover (⌘+F5) or Windows’ Narrator (Ctrl+Windows+Enter) to see how it reads out the form elements.
+Check out the [<VPIcon icon="fas fa-globe"/>form without label](https://mdn.github.io/learning-area/accessibility/html/good-form.html) and [<VPIcon icon="fas fa-globe"/>form with label](https://mdn.github.io/learning-area/accessibility/html/bad-form.html) examples for more clarity. Use Mac’s Voiceover (⌘+F5) or Windows’ Narrator (Ctrl+Windows+Enter) to see how it reads out the form elements.
 
 Using `<label>` offers more advantages:
 
 - By linking a `<label>` to an input field with the `for` attribute (clickable association), clicking on the label focuses on the input field.
-- Clickable association with input field helps the user’s select small inputs like [<FontIcon icon="fa-brands fa-firefox"/>checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) or [<FontIcon icon="fa-brands fa-firefox"/>radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio).
+- Clickable association with input field helps the user’s select small inputs like [<VPIcon icon="fa-brands fa-firefox"/>checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) or [<VPIcon icon="fa-brands fa-firefox"/>radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio).
 - It follows semantic HTML and specifies that the text is being used as a form label.
 
 Lastly, remember that the label text should clearly describe what the user should enter into the field. For examples, “Enter name" or “Enter email".
@@ -405,15 +405,15 @@ To add a skip link, add an anchor tag at the very top, just under the body tag, 
 </body>
 ```
 
-The skip link is keyboard accessible and is also read out by the screen reader. Clicking on it takes you straight to the main content. Visit [<FontIcon icon="fas fa-globe"/>WebAIM](https://webaim.org/) and press Tab on your keyboard to see skip links in action.
+The skip link is keyboard accessible and is also read out by the screen reader. Clicking on it takes you straight to the main content. Visit [<VPIcon icon="fas fa-globe"/>WebAIM](https://webaim.org/) and press Tab on your keyboard to see skip links in action.
 
 ### Link Styling
 
-By default, links created with the anchor tag are visually different from non-link text. This is because the anchor tag has built-in styles like colour, [<FontIcon icon="fa-brands fa-firefox"/>text-decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration), focus-ring (displays when you tab on to the link with the keyboard) and hover effects.
+By default, links created with the anchor tag are visually different from non-link text. This is because the anchor tag has built-in styles like colour, [<VPIcon icon="fa-brands fa-firefox"/>text-decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration), focus-ring (displays when you tab on to the link with the keyboard) and hover effects.
 
 Links should look different from the other text so they’re easily distinguishable. As you saw above, the browser does that for you, so you don’t need to do much. But if you are adding custom styles to the link that fit in better with your theme, you need to follow some best practices:
 
-- Links should have different colors for default, [<FontIcon icon="fa-brands fa-firefox"/>visited](https://developer.mozilla.org/en-US/docs/Web/CSS/:visited), [<FontIcon icon="fa-brands fa-firefox"/>focus](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus) and [<FontIcon icon="fa-brands fa-firefox"/>hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover) states.
+- Links should have different colors for default, [<VPIcon icon="fa-brands fa-firefox"/>visited](https://developer.mozilla.org/en-US/docs/Web/CSS/:visited), [<VPIcon icon="fa-brands fa-firefox"/>focus](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus) and [<VPIcon icon="fa-brands fa-firefox"/>hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover) states.
 - Link text color should be different from the non-link text and should have different styling.
 - Link text color should have a contrast of 3:1 between other text and 4.5:1 contrast between background color. See the [Color Contrast](/freecodecamp.org/the-web-accessibility-handbook/additional-css-and-javascript-practices.md#color-contrast) section for more understanding
 
@@ -437,7 +437,7 @@ a:active {
 }
 ```
 
-With the help of [<FontIcon icon="fa-brands fa-firefox"/>pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes), this adds different styles for when link is hovered, previously visited, focussed (with the keyboard), or active (when the link is being clicked).
+With the help of [<VPIcon icon="fa-brands fa-firefox"/>pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes), this adds different styles for when link is hovered, previously visited, focussed (with the keyboard), or active (when the link is being clicked).
 
 You can experiment with different colors and styles, but don’t remove the `cursor: pointer` or `outline` properties. Both are important for people using keyboard navigation.
 
@@ -445,7 +445,7 @@ Remember, links already have built-in styles for all the link states. Only add y
 
 ### Avoid using onclick handlers
 
-Links are used to navigate to another web page on the same website or navigate to an external website. Specifying the link in the [<FontIcon icon="fa-brands fa-firefox"/>href](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href) attribute does this for you without any need to add JavaScript code.
+Links are used to navigate to another web page on the same website or navigate to an external website. Specifying the link in the [<VPIcon icon="fa-brands fa-firefox"/>href](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href) attribute does this for you without any need to add JavaScript code.
 
 But some people add an `onclick` attribute to anchor elements, to make them behave like buttons and set `href="#"` or `href="javascript:void(0)"` to avoid page refresh. This causes unexpected behaviour and may lead to the following problems:
 
@@ -479,13 +479,13 @@ Instead of the above, do this:
 </p>
 ```
 
-Check out the [<FontIcon icon="fas fa-globe"/>Good Links](https://mdn.github.io/learning-area/accessibility/html/good-links.html) and [<FontIcon icon="fas fa-globe"/>Bad Links](https://mdn.github.io/learning-area/accessibility/html/bad-links.html) examples from the docs. You can also test them with VoiceOver (⌘+F5).
+Check out the [<VPIcon icon="fas fa-globe"/>Good Links](https://mdn.github.io/learning-area/accessibility/html/good-links.html) and [<VPIcon icon="fas fa-globe"/>Bad Links](https://mdn.github.io/learning-area/accessibility/html/bad-links.html) examples from the docs. You can also test them with VoiceOver (⌘+F5).
 
 ### Link Proximity
 
-If your web page has a lot of interactive elements like links and buttons, ensure that they are spaced properly to prevent accidental clicks. This helps people with [<FontIcon icon="fas fa-globe"/>Motor Control Issues](https://axesslab.com/hand-tremors/) that may click on the wrong link.
+If your web page has a lot of interactive elements like links and buttons, ensure that they are spaced properly to prevent accidental clicks. This helps people with [<VPIcon icon="fas fa-globe"/>Motor Control Issues](https://axesslab.com/hand-tremors/) that may click on the wrong link.
 
-Using the [<FontIcon icon="fa-brands fa-firefox"/>`margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin) property should be enough to ensure spacing.
+Using the [<VPIcon icon="fa-brands fa-firefox"/>`margin`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin) property should be enough to ensure spacing.
 
 ---
 
@@ -493,4 +493,4 @@ Using the [<FontIcon icon="fa-brands fa-firefox"/>`margin`](https://developer.mo
 
 In the page layouts section, we saw that using tables for creating page layouts is an outdated practice. However, tables can still be used if you want to display a large amount of data in tabular form. Incorporating accessibility in tables helps screen readers interpret them and help visually impaired users.
 
-Check out [<FontIcon icon="fa-brands fa-firefox"/>MDN Docs - Table Accessibility](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility) to understand best practices.
+Check out [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs - Table Accessibility](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility) to understand best practices.

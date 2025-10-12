@@ -70,7 +70,7 @@ Before we proceed, you should have the following:
 
 :::
 
-If you want to learn more about C#, you can check out [my YouTube channel (<FontIcon icon="fa-brands fa-youtube"/>@CliffTech)](https://youtube.com/@CliffTech).
+If you want to learn more about C#, you can check out [my YouTube channel (<VPIcon icon="fa-brands fa-youtube"/>@CliffTech)](https://youtube.com/@CliffTech).
 
 The first type of class we’ll discuss is the Static Class. Let’s dive in.
 
@@ -123,9 +123,9 @@ In this example:
 - It contains three static methods: `Add`, `Subtract`, and `Multiply`.
 - These methods can be called directly on the `MathUtils` class without creating an instance.
 
-Before you can use this, you need to call it in your <FontIcon icon="iconfont icon-csharp"/>`Program.cs`. When you create any C# application, the entry point is <FontIcon icon="iconfont icon-csharp"/>`Program.cs`. You’ll need to go there and make sure to call these classes so that you can execute them. This is what we will be doing for the rest of the section.
+Before you can use this, you need to call it in your <VPIcon icon="iconfont icon-csharp"/>`Program.cs`. When you create any C# application, the entry point is <VPIcon icon="iconfont icon-csharp"/>`Program.cs`. You’ll need to go there and make sure to call these classes so that you can execute them. This is what we will be doing for the rest of the section.
 
-### How to Use Static Methods in <FontIcon icon="iconfont icon-csharp"/>`Program.cs`
+### How to Use Static Methods in <VPIcon icon="iconfont icon-csharp"/>`Program.cs`
 
 Now you can use the static methods defined in the `MathUtils` class as follows:
 
@@ -235,7 +235,7 @@ In this example:
 
 ### How to Use the Sealed Rectangle Class in the Program.cs
 
-Here's how you can use the `Rectangle` class in a <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file:
+Here's how you can use the `Rectangle` class in a <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file:
 
 ```cs title="Program.cs"
 namespace SealedClasses
@@ -317,7 +317,7 @@ In this example, the `Animal` class is a concrete class with a method `Speak` th
 
 ### How to Instantiate and Use Concrete Classes
 
-Here's how you can use the `Dog` class in a <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file:
+Here's how you can use the `Dog` class in a <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file:
 
 ```cs title="Program.cs"
 class Program
@@ -516,7 +516,7 @@ The `SavingsAccount` and `CheckingAccount` classes inherit from `BankAccount` an
 
 ### How to Use Abstract Classes in a Program
 
-Let's see how we can use the `SavingsAccount` and `CheckingAccount` classes in a <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file.
+Let's see how we can use the `SavingsAccount` and `CheckingAccount` classes in a <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file.
 
 ```cs :collapsed-lines title="Program.cs"
 namespace AbstractClasses
@@ -645,7 +645,7 @@ In this example, the `Singleton` class is defined with a private constructor, wh
 
 The `PrintMessage` method is just a simple example to show that the Singleton instance can be used like any other class instance.
 
-### How to Use the Singleton Class in <FontIcon icon="iconfont icon-csharp"/>`Program.cs`
+### How to Use the Singleton Class in <VPIcon icon="iconfont icon-csharp"/>`Program.cs`
 
 Now let’s see how you can use this Singleton class in your application:
 
@@ -774,7 +774,7 @@ In this example, the `Stack<T>` class is defined with a type parameter `T`. This
 
 Because `Stack<T>` is generic, you can use it with any data type, whether it's `int`, `string`, or even a custom class.
 
-### How to Use the Stack Class in <FontIcon icon="iconfont icon-csharp"/>`Program.cs`
+### How to Use the Stack Class in <VPIcon icon="iconfont icon-csharp"/>`Program.cs`
 
 Let’s see how this generic `Stack` class can be used in a program:
 
@@ -873,7 +873,7 @@ public class OrderProcessor
 
 In this example, the `DiscountCalculator` class is marked as `internal`, meaning it’s only accessible within the assembly. The `OrderProcessor` class, which is `public`, uses this internal class to process orders. External users of the library can call `ProcessOrder` without needing to know about or interact with the `DiscountCalculator` class.
 
-### How to Use the Internal Class in <FontIcon icon="iconfont icon-csharp"/>`Program.cs`
+### How to Use the Internal Class in <VPIcon icon="iconfont icon-csharp"/>`Program.cs`
 
 Now, let's see how this works in practice:
 
@@ -948,7 +948,7 @@ public class Car
 
 In this example, the `Car` class has a private field `model` and a method `StartCar` that starts the car. The `Engine` class is nested within the `Car` class and contains a `StartEngine` method. By nesting `Engine` inside `Car`, we express the close relationship between the two.
 
-### How to Use the Nested Class in <FontIcon icon="iconfont icon-csharp"/>`Program.cs`
+### How to Use the Nested Class in <VPIcon icon="iconfont icon-csharp"/>`Program.cs`
 
 Let’s see how we can use the `Car` class and its nested `Engine` class in a program:
 
@@ -1018,9 +1018,9 @@ public partial class EmployeeOperations
 
 In these examples, the `EmployeeOperations` class is split into two files, each containing a part of the class. The first file handles adding employees, while the second file handles removing them.
 
-### How to Use the Partial Class in <FontIcon icon="iconfont icon-csharp"/>`Program.cs`
+### How to Use the Partial Class in <VPIcon icon="iconfont icon-csharp"/>`Program.cs`
 
-Now, let’s use the `EmployeeOperations` class in our <FontIcon icon="iconfont icon-csharp"/>`Program.cs` file:
+Now, let’s use the `EmployeeOperations` class in our <VPIcon icon="iconfont icon-csharp"/>`Program.cs` file:
 
 ```cs title="Program.cs"
 class Program

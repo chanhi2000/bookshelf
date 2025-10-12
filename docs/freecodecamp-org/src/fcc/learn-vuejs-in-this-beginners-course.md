@@ -59,7 +59,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747944784614/489ca83
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1747944784614/489ca833-5acc-48ec-b96a-bc876ce43563.png"/>
 
-If you’ve been meaning to add Vue.js to your front-end toolbelt, today’s your day. We just published a full, 6-hour Vue 3 course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel. Instructor Bhrugen Patel walks you through everything you need to build modern, production-ready Vue apps, from the very first `{{ mustache }}` to scalable state management with Pinia.
+If you’ve been meaning to add Vue.js to your front-end toolbelt, today’s your day. We just published a full, 6-hour Vue 3 course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel. Instructor Bhrugen Patel walks you through everything you need to build modern, production-ready Vue apps, from the very first `{{ mustache }}` to scalable state management with Pinia.
 
 ---
 
@@ -77,7 +77,7 @@ The curriculum progresses logically through Vue Fundamentals with core concepts 
 
 The course covers Provide/Inject for dependency injection across components, Slots & Lifecycle Hooks for template composition and timing control, Routing for single-page application navigation, API Integration for connecting to backend services, and State Management with Pinia for global state.
 
-Watch the full course on the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/8pn9KEuXG28) (7-hour watch).
+Watch the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/8pn9KEuXG28) (7-hour watch).
 
 <VidStack src="youtube/8pn9KEuXG28" />
 

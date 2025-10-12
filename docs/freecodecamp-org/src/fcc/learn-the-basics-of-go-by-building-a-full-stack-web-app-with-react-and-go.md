@@ -97,7 +97,7 @@ Here are the sections in this course:
 
 ## Conclusion
 
-Whether you're a beginner looking to learn Go or an experienced developer wanting to expand your skill set, this course has something for everyone. Watch the course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/lNd7XlXwlho) (2-hour watch).
+Whether you're a beginner looking to learn Go or an experienced developer wanting to expand your skill set, this course has something for everyone. Watch the course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/lNd7XlXwlho) (2-hour watch).
 
 <VidStack src="youtube/lNd7XlXwlho" />
 

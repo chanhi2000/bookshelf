@@ -78,8 +78,8 @@ Let’s understand the colour contrast ratings:
 
 Choose a contrast ratio that aligns well with your design, but try to keep it to at least AA rating. To check colour contrast ratio between two colors, you can use the following tools:
 
-- [<FontIcon icon="fas fa-globe"/>Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
-- [<FontIcon icon="fa-brands fa-chrome"/>Chrome Developer Tools](https://developer.chrome.com/docs/devtools/accessibility/contrast) - Identifies text in your website not meeting AA and AAA ratings
+- [<VPIcon icon="fas fa-globe"/>Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [<VPIcon icon="fa-brands fa-chrome"/>Chrome Developer Tools](https://developer.chrome.com/docs/devtools/accessibility/contrast) - Identifies text in your website not meeting AA and AAA ratings
 
 ---
 
@@ -87,7 +87,7 @@ Choose a contrast ratio that aligns well with your design, but try to keep it to
 
 ### Mouse-specific events
 
-When you have functionality triggered by events like [<FontIcon icon="fa-brands fa-firefox"/>mouse-over](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event) and [<FontIcon icon="fa-brands fa-firefox"/>mouse-out](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event), they cannot be accessed by people that depend on keyboard navigation. So, to make the functionality accessible by keyboard, you need to add the same event handlers to events like [<FontIcon icon="fa-brands fa-firefox"/>focus](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event) and [<FontIcon icon="fa-brands fa-firefox"/>blur](https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event).
+When you have functionality triggered by events like [<VPIcon icon="fa-brands fa-firefox"/>mouse-over](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event) and [<VPIcon icon="fa-brands fa-firefox"/>mouse-out](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event), they cannot be accessed by people that depend on keyboard navigation. So, to make the functionality accessible by keyboard, you need to add the same event handlers to events like [<VPIcon icon="fa-brands fa-firefox"/>focus](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event) and [<VPIcon icon="fa-brands fa-firefox"/>blur](https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event).
 
 ### Client side form validations
 
@@ -95,7 +95,7 @@ When you submit data through a form, the data is validated to check if you have 
 
 To make the website user-friendly, it helps to add form validations on the client-side, so users can get instant feedback if they have entered incorrect data, since the server-side mechanism may take time. This is a very small step towards improving user experience.
 
-Check out the [<FontIcon icon="fas fa-globe"/>Form Validation](https://mdn.github.io/learning-area/accessibility/css/form-validation.html) Example to understand more.
+Check out the [<VPIcon icon="fas fa-globe"/>Form Validation](https://mdn.github.io/learning-area/accessibility/css/form-validation.html) Example to understand more.
 
 Apart from the above, one thing you should remember is not to use JavaScript for anything and everything. JavaScript can be used to generate any form of HTML and dynamically apply CSS styling. It is very helpful if you have dynamic content on your website.
 

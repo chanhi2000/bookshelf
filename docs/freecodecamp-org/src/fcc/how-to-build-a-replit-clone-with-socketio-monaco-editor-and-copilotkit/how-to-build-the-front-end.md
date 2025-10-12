@@ -66,18 +66,18 @@ To build these components, we won’t use any third-party UI libraries; instead,
 Now, let’s build the components:
 
 1. Open your VS Code.
-2. Open the Next.js folder where you created your project.<br/>Since I work without a <FontIcon icon="fas fa-folder-open"/>`src` folder, you’ll find only an <FontIcon icon="fas fa-folder-open"/>`app` folder. Inside the <FontIcon icon="fas fa-folder-open"/>`app` folder, create a new folder called components.
+2. Open the Next.js folder where you created your project.<br/>Since I work without a <VPIcon icon="fas fa-folder-open"/>`src` folder, you’ll find only an <VPIcon icon="fas fa-folder-open"/>`app` folder. Inside the <VPIcon icon="fas fa-folder-open"/>`app` folder, create a new folder called components.
 
 - After creating the folder, your project structure should look something like this:
-  - <FontIcon icon="fa-brands fa-js"/>`FileExplorer.tsx`: This is our file explorer
-  - <FontIcon icon="fa-brands fa-js"/>`ScreenOne.js`: This is our Monaco editor
-  - <FontIcon icon="fa-brands fa-js"/>`LivePreview.js`: This is our sandbox component
+  - <VPIcon icon="fa-brands fa-js"/>`FileExplorer.tsx`: This is our file explorer
+  - <VPIcon icon="fa-brands fa-js"/>`ScreenOne.js`: This is our Monaco editor
+  - <VPIcon icon="fa-brands fa-js"/>`LivePreview.js`: This is our sandbox component
 
 Let’s see how I build these components and you can too,
 
 ---
 
-## <FontIcon icon="fa-brands fa-react"/>`FileExploer.tsx`
+## <VPIcon icon="fa-brands fa-react"/>`FileExploer.tsx`
 
 The `FileExplorer` is a React component that displays a list of files fetched from a backend (MongoDB) and allows users to select, create, edit, and delete files. It uses React Hooks for state management and lifecycle effects, Tailwind CSS for styling, and `lucide-react` icons for UI actions.
 
@@ -443,7 +443,7 @@ All the operations on the application get saved in real-time for the demo you ca
 
 ---
 
-## <FontIcon icon="fa-brands fa-react"/>`ScreenOne.tsx`
+## <VPIcon icon="fa-brands fa-react"/>`ScreenOne.tsx`
 
 The `ScreenOne` component is a code editor panel that dynamically displays and updates code for a selected file. It integrates the Monaco Editor to highlight syntax based on the file type (for example, JavaScript, HTML, CSS).
 
@@ -562,9 +562,9 @@ This code defines a ScreenOne React component, which is a code editor using the 
 
 ---
 
-## <FontIcon icon="fa-brands fa-react"/>`LivePreview.tsx`
+## <VPIcon icon="fa-brands fa-react"/>`LivePreview.tsx`
 
-The `LivePreview` component dynamically generates a live code preview for either static projects (HTML, CSS, JS) or React-based projects. It detects the type of project, and sets up the required files (for example, <FontIcon icon="fa-brands fa-html5"/>`index.html`, <FontIcon icon="fa-brands fa-react"/>`App.js`), and renders a real-time preview using CodeSandbox's Sandpack. The preview adapts to the selected file and updates as the code changes, providing a seamless coding experience.
+The `LivePreview` component dynamically generates a live code preview for either static projects (HTML, CSS, JS) or React-based projects. It detects the type of project, and sets up the required files (for example, <VPIcon icon="fa-brands fa-html5"/>`index.html`, <VPIcon icon="fa-brands fa-react"/>`App.js`), and renders a real-time preview using CodeSandbox's Sandpack. The preview adapts to the selected file and updates as the code changes, providing a seamless coding experience.
 
 ```tsx :collapsed-lines title="LivePreview.tsx"
 import React, { useEffect, useState } from "react";
@@ -767,7 +767,7 @@ This code defines a LivePreview React component that uses Sandpack (from CodeSan
 
 - Converts a list of files (`files` prop) into a format compatible with Sandpack.
 - Automatically detects if the project is React-based (e.g., contains `.jsx` or React imports).
-- Ensures necessary files (for example, <FontIcon icon="fa-brands fa-react"/>`App.js`, <FontIcon icon="fa-brands fa-react"/>`index.js`, <FontIcon icon="fa-brands fa-html5"/>`index.html`, <FontIcon icon="iconfont icon-json"/>`package.json`) exist for React projects.
+- Ensures necessary files (for example, <VPIcon icon="fa-brands fa-react"/>`App.js`, <VPIcon icon="fa-brands fa-react"/>`index.js`, <VPIcon icon="fa-brands fa-html5"/>`index.html`, <VPIcon icon="iconfont icon-json"/>`package.json`) exist for React projects.
 
 **3. Template Switching**:
 
@@ -883,7 +883,7 @@ It’s a basic real-time server for file management with Next.js and Socket.IO.
 
 ## Clubbing all components together
 
-To do this we will have to tweak the <FontIcon icon="fa-brands fa-react"/>`page.tsx`. Just copy the given code and paste it into the `page.js`
+To do this we will have to tweak the <VPIcon icon="fa-brands fa-react"/>`page.tsx`. Just copy the given code and paste it into the `page.js`
 
 ```tsx :collapsed-lines title="page.tsx"
 "use client";
@@ -1202,7 +1202,7 @@ This setup creates a collaborative, real-time code editing environment with supp
 
 ## Configuring CopilotKit for the Whole App
 
-This is going to be the last step of building the application. Navigate to the <FontIcon icon="fa-brands fa-react"/>`layout.tsx` file and add this code:
+This is going to be the last step of building the application. Navigate to the <VPIcon icon="fa-brands fa-react"/>`layout.tsx` file and add this code:
 
 ```tsx :collapsed-lines title="layout.tsx"
 import { CopilotKit } from "@copilotkit/react-core";
@@ -1244,7 +1244,7 @@ This code defines a `RootLayout` component, which serves as the root layout for 
 
 **2. Global Styles**:
 
-- Imports global CSS styles (<FontIcon icon="fa-brands fa-css3-alt"/>`globals.css`) and CopilotKit UI styles (`@copilotkit/react-ui/styles.css`).
+- Imports global CSS styles (<VPIcon icon="fa-brands fa-css3-alt"/>`globals.css`) and CopilotKit UI styles (`@copilotkit/react-ui/styles.css`).
 
 **3. Metadata**:
 
@@ -1279,7 +1279,7 @@ I selected GroqCloud because it’s free and offers access to multiple large lan
 
 ## Security Best Practices
 
-Never expose your credentials publicly. Always store sensitive information like API keys in an <FontIcon icon="fas fa-file-lines"/>`.env` file to keep your project secure.
+Never expose your credentials publicly. Always store sensitive information like API keys in an <VPIcon icon="fas fa-file-lines"/>`.env` file to keep your project secure.
 
 ---
 

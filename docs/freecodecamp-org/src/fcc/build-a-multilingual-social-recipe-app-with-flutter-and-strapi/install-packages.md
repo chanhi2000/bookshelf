@@ -52,13 +52,13 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6
 
 In this tutorial, we’re using five main packages:
 
-- [<FontIcon icon="fa-brands fa-dart-lang"/>`flutter_dotenv`](https://pub.dev/packages/flutter_dotenv): to manage environment variables
-- [<FontIcon icon="fa-brands fa-dart-lang"/>`http`](https://pub.dev/packages/http): to handle HTTP requests and interact with [<FontIcon icon="iconfont icon-strapi"/>Strapi REST API](https://docs.strapi.io/dev-docs/api/rest)
-- [<FontIcon icon="fa-brands fa-dart-lang"/>`shared_preferences`](https://pub.dev/packages/shared_preferences): persists key-value data on the device like user login tokens
-- [<FontIcon icon="fa-brands fa-dart-lang"/>`provider`](https://pub.dev/packages/provider): for state management and updating your UI reactively when the underlying state changes
-- [<FontIcon icon="fa-brands fa-dart-lang"/>`easy_localization`](https://pub.dev/packages/easy_localization): for managing translations and locale data. It supports both JSON and YAML file formats for defining translations.
+- [<VPIcon icon="fa-brands fa-dart-lang"/>`flutter_dotenv`](https://pub.dev/packages/flutter_dotenv): to manage environment variables
+- [<VPIcon icon="fa-brands fa-dart-lang"/>`http`](https://pub.dev/packages/http): to handle HTTP requests and interact with [<VPIcon icon="iconfont icon-strapi"/>Strapi REST API](https://docs.strapi.io/dev-docs/api/rest)
+- [<VPIcon icon="fa-brands fa-dart-lang"/>`shared_preferences`](https://pub.dev/packages/shared_preferences): persists key-value data on the device like user login tokens
+- [<VPIcon icon="fa-brands fa-dart-lang"/>`provider`](https://pub.dev/packages/provider): for state management and updating your UI reactively when the underlying state changes
+- [<VPIcon icon="fa-brands fa-dart-lang"/>`easy_localization`](https://pub.dev/packages/easy_localization): for managing translations and locale data. It supports both JSON and YAML file formats for defining translations.
 
-In your <FontIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file, add the following lines:
+In your <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file, add the following lines:
 
 ```yaml title="pubspec.yaml"
 dependencies:
@@ -81,7 +81,7 @@ flutter pub get
 
 ## Add Assets
 
-Add the path to your assets in your <FontIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file found at the root of your project:
+Add the path to your assets in your <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file found at the root of your project:
 
 ```yaml title="pubspec.yaml"
 flutter:
@@ -96,9 +96,9 @@ The translations folder contains the list of your translations while the images 
 
 ---
 
-## Taking a look at <FontIcon icon="fa-brands fa-dart-lang"/>`main.dart`
+## Taking a look at <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart`
 
-In the <FontIcon icon="fa-brands fa-dart-lang"/>`main.dart` file, you need to set up your localization, load environment variables, and a list of providers for dependency injection:
+In the <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart` file, you need to set up your localization, load environment variables, and a list of providers for dependency injection:
 
 ```dart :collapsed-lines title="main.dart"
 import 'package:easy_localization/easy_localization.dart';
@@ -156,6 +156,6 @@ class MyApp extends StatelessWidget {
 
 From the code snippet above, the `WidgetsFlutterBinding.ensureInitialized()` ensures that all Flutter bindings are initialized before any other operations and the `EasyLocalization.ensureInitialized()` initializes the EasyLocalization package to handle translations.
 
-Load the environment variables with `dotenv.load(fileName: ".env")` to read variables from the <FontIcon icon="fas fa-file-lines"/>`.env` file. The `runApp` function wraps the `MyApp` widget with the `EasyLocalization` widget, which is configured to support English (`en`), French (`fr_FR`), and Japanese (`ja_JP`) locales. The path for translation files is set to `'assets/translations'`, and the fallback locale is set to English.
+Load the environment variables with `dotenv.load(fileName: ".env")` to read variables from the <VPIcon icon="fas fa-file-lines"/>`.env` file. The `runApp` function wraps the `MyApp` widget with the `EasyLocalization` widget, which is configured to support English (`en`), French (`fr_FR`), and Japanese (`ja_JP`) locales. The path for translation files is set to `'assets/translations'`, and the fallback locale is set to English.
 
 It also creates the main routes of the recipe application and sets `home` as the initial route.

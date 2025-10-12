@@ -321,13 +321,13 @@ Before you try the code above, you need to install Axios using npm or yarn.
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn add axios
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm install axios
@@ -335,7 +335,7 @@ npm install axios
 
 :::
 
-If you're not familiar with Axios, you can [learn more about it here (<FontIcon icon="fa-brands fa-npm"/>`axios`)](https://npmjs.com/package/axios).
+If you're not familiar with Axios, you can [learn more about it here (<VPIcon icon="fa-brands fa-npm"/>`axios`)](https://npmjs.com/package/axios).
 
 You can see that we used a `try` and `catch` block to handle errors. The `try` and `catch` block is a method for managing errors in TypeScript. So, whenever you make API calls like we just did, make sure you use a `try` and `catch` block to handle any errors.
 
@@ -610,7 +610,7 @@ type ApiCallback = (error: Error | null, data?: ApiResponse) => void;
 
 #### 4. Consider control flow libraries
 
-For complex async operations, use utilities like <FontIcon icon="fa-brands fa-js"/>`async.js` for:
+For complex async operations, use utilities like <VPIcon icon="fa-brands fa-js"/>`async.js` for:
 
 - Parallel execution
 - Series execution
@@ -668,15 +668,15 @@ Modern TypeScript projects often use a mix: callbacks for event-driven patterns 
 
 In this article, we have learned about the different ways to handle asynchronous code in TypeScript. We have learned about callbacks, promises, async/await, and how to use them in TypeScript. We have also learned about this concept.
 
-If you want to learn more about programming and how to become a better software engineer, you can subscribe to my YouTube channel [<FontIcon icon="fa-brands fa-youtube"/>`@CliffTech`](https://youtube.com/@CliffTech/videos).
+If you want to learn more about programming and how to become a better software engineer, you can subscribe to my YouTube channel [<VPIcon icon="fa-brands fa-youtube"/>`@CliffTech`](https://youtube.com/@CliffTech/videos).
 
 Thank you for reading my article. I hope you enjoyed it. If you have any questions, feel free to reach out to me.
 
 Connect with me on social media:
 
-- [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`Clifftech_Dev`)](https://twitter.com/Clifftech_Dev)
-- [Github (<FontIcon icon="iconfont icon-github"/>`Clifftech123`)](https://github.com/Clifftech123)
-- [Linkedin (<FontIcon icon="fa-brands fa-linkedin"/>`isaiah-clifford-opoku-a506a51b2`)](https://linkedin.com/in/isaiah-clifford-opoku-a506a51b2/)
+- [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`Clifftech_Dev`)](https://twitter.com/Clifftech_Dev)
+- [Github (<VPIcon icon="iconfont icon-github"/>`Clifftech123`)](https://github.com/Clifftech123)
+- [Linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`isaiah-clifford-opoku-a506a51b2`)](https://linkedin.com/in/isaiah-clifford-opoku-a506a51b2/)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

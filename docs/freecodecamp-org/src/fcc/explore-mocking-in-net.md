@@ -76,7 +76,7 @@ The aim of this tutorial is to give you the knowledge to make up your own mind o
 
 To speed up the process, I've made a public GitHub repo available for this tutorial,. You can clone and use it on your local machine to follow along.
 
-Simply navigate to [this link (<FontIcon icon="iconfont icon-github"/>`grant-dot-dev/mocking-tutorial`)](https://github.com/grant-dot-dev/mocking-tutorial) and clone the repo to your local machine.
+Simply navigate to [this link (<VPIcon icon="iconfont icon-github"/>`grant-dot-dev/mocking-tutorial`)](https://github.com/grant-dot-dev/mocking-tutorial) and clone the repo to your local machine.
 
 Quick refresher if you've forgotten to do that: go to the link above, and in the top right corner click "Code", and then copy the URL provided.
 
@@ -84,7 +84,7 @@ Quick refresher if you've forgotten to do that: go to the link above, and in the
 
 ![](https://freecodecamp.org/news/content/images/2024/04/image-3.png)
 
-Find your local <FontIcon icon="fas fa-folder-open"/>`git` folder, (if you don't have one, create one in your user root folder). Then in your preferred terminal navigate to your <FontIcon icon="fas fa-folder-open"/>`git` folder, and execute the following command.
+Find your local <VPIcon icon="fas fa-folder-open"/>`git` folder, (if you don't have one, create one in your user root folder). Then in your preferred terminal navigate to your <VPIcon icon="fas fa-folder-open"/>`git` folder, and execute the following command.
 
 ```sh
 # (replacing <url> with the url)
@@ -165,7 +165,7 @@ Mocking allows developers to simulate a wide range of scenarios and edge cases. 
 
 **Over-specification**: Mocking can lead to over-specifying the behavior of the code under test. This means that tests may become tightly coupled to the implementation details, making them brittle and prone to breaking when the implementation changes. It's essential to strike a balance between verifying behavior and focusing on the desired outcomes.
 
-**Be mindful of false-positive tests:** While mocking allows you to isolate units of code, it may also create a false sense of security. Mocks simulate dependencies, but they may not fully replicate the behaviour of the real dependencies. [<FontIcon icon="fas fa-globe"/>Integration](https://browserstack.com/guide/integration-testing) tests or [<FontIcon icon="fas fa-globe"/>end-to-end tests](https://browserstack.com/guide/end-to-end-testing) are still necessary to verify the system's behavior as a whole.
+**Be mindful of false-positive tests:** While mocking allows you to isolate units of code, it may also create a false sense of security. Mocks simulate dependencies, but they may not fully replicate the behaviour of the real dependencies. [<VPIcon icon="fas fa-globe"/>Integration](https://browserstack.com/guide/integration-testing) tests or [<VPIcon icon="fas fa-globe"/>end-to-end tests](https://browserstack.com/guide/end-to-end-testing) are still necessary to verify the system's behavior as a whole.
 
 :::
 
@@ -196,10 +196,10 @@ Each of these mocking libraries have their own syntax for creating mocks of obje
 
 If you open the solution, and navigate to the "Test" project, you can see that we have four files with each of the different mocking library tests in there.
 
-1. <FontIcon icon="iconfont icon-csharp"/>`FakeItEasyApiTests.cs`
-2. <FontIcon icon="iconfont icon-csharp"/>`MoqApiTests.cs`
-3. <FontIcon icon="iconfont icon-csharp"/>`NSubstituteApiTests.cs`
-4. <FontIcon icon="iconfont icon-csharp"/>`RhinoMocksApiTests.cs`
+1. <VPIcon icon="iconfont icon-csharp"/>`FakeItEasyApiTests.cs`
+2. <VPIcon icon="iconfont icon-csharp"/>`MoqApiTests.cs`
+3. <VPIcon icon="iconfont icon-csharp"/>`NSubstituteApiTests.cs`
+4. <VPIcon icon="iconfont icon-csharp"/>`RhinoMocksApiTests.cs`
 
 Within these files, you will see that we have four very basic XUnit tests. I've kept them brief and simple for the purpose of this tutorial.
 

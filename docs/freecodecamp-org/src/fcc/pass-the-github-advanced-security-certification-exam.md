@@ -55,7 +55,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721241358453/d5d3a16
 
 Ensuring the security of your code is important, and mastering GitHub Advanced Security (GHAS) can significantly enhance your ability to safeguard your projects. If you want to strengthen your security skills, obtaining the GitHub Advanced Security Certification is a great step. This certification validates your expertise in identifying vulnerabilities, securing workflows, and implementing robust security measures, thereby elevating the standards of software integrity within your organization.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about passing the GitHub Advanced Security Certification. This comprehensive course covers everything from the fundamentals of GitHub Advanced Security to intricate details of code scanning and dependency management. By the end of this course, you'll have a thorough understanding of how to use GitHub's security features to protect your code and manage vulnerabilities effectively. Ashish from Exam Pro developed this course.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about passing the GitHub Advanced Security Certification. This comprehensive course covers everything from the fundamentals of GitHub Advanced Security to intricate details of code scanning and dependency management. By the end of this course, you'll have a thorough understanding of how to use GitHub's security features to protect your code and manage vulnerabilities effectively. Ashish from Exam Pro developed this course.
 
 ---
 
@@ -107,7 +107,7 @@ We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/
 - *Purchasing and Enabling GHAS*: Considerations for purchasing GHAS licenses and enabling GHAS at various levels.
 - *Access and Logging*: Manage access to alerts and understand logging and API endpoints for security purposes.
 
-This course is designed to provide a thorough and practical understanding of GitHub Advanced Security, ensuring you are well-equipped to achieve certification and apply these skills in real-world scenarios. Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/i740xlsqxEM) (3-hour watch).
+This course is designed to provide a thorough and practical understanding of GitHub Advanced Security, ensuring you are well-equipped to achieve certification and apply these skills in real-world scenarios. Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/i740xlsqxEM) (3-hour watch).
 
 <VidStack src="youtube/i740xlsqxEM" />
 

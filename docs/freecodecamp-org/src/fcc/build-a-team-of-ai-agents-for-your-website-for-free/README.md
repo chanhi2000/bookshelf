@@ -100,9 +100,9 @@ For this tutorial, we’ll build a portfolio website. But you can use the ideas 
 ::: note Prerequisites
 
 - Prior knowledge of JavaScript, React, and Python
-- [<FontIcon icon="fa-brands fa-python"/>Python](https://python.org/) installed and setup locally on your computer
-- An account on [<FontIcon icon="iconfont icon-groq"/>Groq Cloud](https://groq.com/)
-- A code editor/IDE installed like [<FontIcon icon="fas fa-globe"/>Cursor](https://cursor.com/en), [<FontIcon icon="fas fa-globe"/>Windsurf](https://codeium.com/windsurf), or [<FontIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/)
+- [<VPIcon icon="fa-brands fa-python"/>Python](https://python.org/) installed and setup locally on your computer
+- An account on [<VPIcon icon="iconfont icon-groq"/>Groq Cloud](https://groq.com/)
+- A code editor/IDE installed like [<VPIcon icon="fas fa-globe"/>Cursor](https://cursor.com/en), [<VPIcon icon="fas fa-globe"/>Windsurf](https://codeium.com/windsurf), or [<VPIcon icon="iconfont icon-vscode"/>VS Code](https://code.visualstudio.com/)
 
 :::
 
@@ -120,7 +120,7 @@ Agno is a lightweight library that lets you build Multimodal Agents. It’s an A
 
 Groq Cloud is a cloud-based AI inference platform based on Groq LPU (Language Processing Unit) chips, which are optimised for ultra-low-latency AI workloads. Groq is great at high-speed token generation rates, making it perfect for real-time AI applications like chatbots, AI coding help, and other latency-sensitive workloads. The Groq Cloud platform offers free access to its large language models (LLMs) through a free tier, but there are some usage limits.
 
-If you go to the [<FontIcon icon="iconfont icon-gro"/>Groq Cloud Playground](https://console.groq.com/playground) you can find LLM models from different companies like:
+If you go to the [<VPIcon icon="iconfont icon-gro"/>Groq Cloud Playground](https://console.groq.com/playground) you can find LLM models from different companies like:
 
 - Qwen
 - DeepSeek R1
@@ -136,7 +136,7 @@ The platform is able to manage their conversations, task delegation, and memory.
 
 For this project, we will use Meta’s LLaMA 3 model because it strikes a strong balance between performance and accuracy and is openly accessible. This means that it is well-suited for the AI agents in our portfolio website.
 
-It's worth mentioning that we could have used the LLaMA model from [<FontIcon icon="fa-brands fa-meta"/>llama.com](http://llama.com). Still, instead we will use it via Groq Cloud, because, this way, we get better optimisation, more capabilities, and better-quality responses for each AI agent. This is because Groq Cloud gives us the flexibility to test and choose between different AI models if we wish to do so, and that means that we can get the best one for our needs.
+It's worth mentioning that we could have used the LLaMA model from [<VPIcon icon="fa-brands fa-meta"/>llama.com](http://llama.com). Still, instead we will use it via Groq Cloud, because, this way, we get better optimisation, more capabilities, and better-quality responses for each AI agent. This is because Groq Cloud gives us the flexibility to test and choose between different AI models if we wish to do so, and that means that we can get the best one for our needs.
 
 ---
 
@@ -219,7 +219,7 @@ So, whether it's a chatbot, content generator, or intelligent assistant, these t
 
 ### Stay up to date with tech, programming, productivity, and AI
 
-If you enjoyed these articles, connect and follow me across [<FontIcon icon="fas fa-globe"/>social media](https://limey.io/andrewbaisden), where I share content related to all of these topics 🔥
+If you enjoyed these articles, connect and follow me across [<VPIcon icon="fas fa-globe"/>social media](https://limey.io/andrewbaisden), where I share content related to all of these topics 🔥
 
 ![Andrew Baisden Software Developer and Technical Writer Social Media Banner](https://cdn.hashnode.com/res/hashnode/image/upload/v1741977770238/3766c236-f276-4939-996e-61ab1306cc26.png)
 

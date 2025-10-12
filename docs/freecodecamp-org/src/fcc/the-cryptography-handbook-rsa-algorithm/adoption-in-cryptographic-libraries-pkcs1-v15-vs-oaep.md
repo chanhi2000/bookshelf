@@ -73,5 +73,5 @@ This underscores that patching an insecure scheme is often error-prone - a desig
 
 PKCS#1 v1.5 continues to exist because of these patchwork security measures and the fact that it cannot be abruptly removed from all existing systems. It is generally regarded as "legacy" or maintained "for compatibility" purposes. The collective wisdom is clear: use OAEP for RSA encryption whenever possible.
 
-[^1]: RSA_public_encrypt: [<FontIcon icon="fas fa-globe"/>Warnings](https://docs.openssl.org/3.5/man3/RSA_public_encrypt/#warnings)
-[^2]: [<FontIcon icon="fas fa-globe"/>pyca/PKCS1v1](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/#cryptography.hazmat.primitives.asymmetric.padding.PKCS1v15)
+[^1]: RSA_public_encrypt: [<VPIcon icon="fas fa-globe"/>Warnings](https://docs.openssl.org/3.5/man3/RSA_public_encrypt/#warnings)
+[^2]: [<VPIcon icon="fas fa-globe"/>pyca/PKCS1v1](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/#cryptography.hazmat.primitives.asymmetric.padding.PKCS1v15)

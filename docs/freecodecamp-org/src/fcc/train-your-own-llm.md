@@ -59,7 +59,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744319158160/c373457
 
 Ever wondered how large language models like ChatGPT are actually built? Behind these impressive AI tools lies a complex but fascinating process of data preparation, model training, and fine-tuning. While it might seem like something only experts with massive resources can do, it’s actually possible to learn how to build your own language model from scratch. And with the right guidance, you can go from loading raw text data to chatting with your very own AI assistant.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about training a language model from start to finish. Created and taught by Imad Saddik, this course takes a beginner-friendly approach to one of the most powerful areas of machine learning. Using Moroccan Darija as a working example, Imad walks you through every step of the process, from tokenizing raw text to fine-tuning a functional chatbot. Whether you're interested in natural language processing, AI development, or simply want to deepen your understanding of how modern language models work, this course is a fantastic place to start.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will teach you all about training a language model from start to finish. Created and taught by Imad Saddik, this course takes a beginner-friendly approach to one of the most powerful areas of machine learning. Using Moroccan Darija as a working example, Imad walks you through every step of the process, from tokenizing raw text to fine-tuning a functional chatbot. Whether you're interested in natural language processing, AI development, or simply want to deepen your understanding of how modern language models work, this course is a fantastic place to start.
 
 The course begins with the basics: you’ll learn how to gather and prepare your training data. Then, you’ll dive into tokenization, where you’ll build a tokenizer from scratch using the Byte Pair Encoding (BPE) method. This step is important because language models don’t process raw text directly. They process sequences of tokens, which are smaller chunks of language. Once your tokenizer is ready, you’ll use it to encode your dataset, preparing it for the model training phase.
 
@@ -69,7 +69,7 @@ But the journey doesn’t stop there. You’ll then learn how to create a superv
 
 Finally, you’ll scale up your work, fine-tuning the model to become a conversational AI assistant that you can interact with in real-time. By the end of the course, you’ll have built your own end-to-end language model pipeline.
 
-Check it out now on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/9Ge0sMm65jo) and start building your AI assistant today (4-hour watch).
+Check it out now on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/9Ge0sMm65jo) and start building your AI assistant today (4-hour watch).
 
 <VidStack src="youtube/9Ge0sMm65jo" />
 

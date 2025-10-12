@@ -49,7 +49,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941922431/cfb485a
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1738941922431/cfb485ae-1c59-415a-ad56-393a9803d4d8.png"/>
 
-We will be using [<FontIcon icon="fas fa-globe"/>Vite](https://vite.dev/guide/) to set up our TypeScript project. Vite is a modern build tool designed to offer a faster and leaner development experience for web projects.
+We will be using [<VPIcon icon="fas fa-globe"/>Vite](https://vite.dev/guide/) to set up our TypeScript project. Vite is a modern build tool designed to offer a faster and leaner development experience for web projects.
 
 To get started, run the following command to create a new Vite project with TypeScript support:
 
@@ -79,15 +79,15 @@ After running `npm install`, run `npm run dev` to start the project on the local
 
 ![our landing page after running npm run dev in our project](https://cdn.hashnode.com/res/hashnode/image/upload/v1736772238962/36f9523c-d316-43e3-ae05-e1ebfa9398f1.png)
 
-But first, let's create our first TypeScript file, <FontIcon icon="iconfont icon-typescript"/>`test.ts` (you can choose to use `.ts` or `.tsx`). Create the <FontIcon icon="iconfont icon-typescript"/>`test.ts` file inside the <FontIcon icon="fas fa-folder-open"/>`src` folder of your project, and add the following code to log a test message:
+But first, let's create our first TypeScript file, <VPIcon icon="iconfont icon-typescript"/>`test.ts` (you can choose to use `.ts` or `.tsx`). Create the <VPIcon icon="iconfont icon-typescript"/>`test.ts` file inside the <VPIcon icon="fas fa-folder-open"/>`src` folder of your project, and add the following code to log a test message:
 
 ```ts title="test.ts"
 console.log('Testing our first TypeScript file');
 ```
 
-To view this in the console, import the <FontIcon icon="iconfont icon-typescript"/>`test.ts` file into the <FontIcon icon="fa-brands fa-react"/>`main.tsx` file located in the <FontIcon icon="fas fa-folder-open"/>`src` folder.
+To view this in the console, import the <VPIcon icon="iconfont icon-typescript"/>`test.ts` file into the <VPIcon icon="fa-brands fa-react"/>`main.tsx` file located in the <VPIcon icon="fas fa-folder-open"/>`src` folder.
 
-![highlighting the <FontIcon icon="fa-brands fa-react"/>`main.tsx` and <FontIcon icon="fa-brands fa-react"/>`test.tsx` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1736773745661/8492e586-7bc0-44a8-ac54-fb576119cdea.png)
+![highlighting the <VPIcon icon="fa-brands fa-react"/>`main.tsx` and <VPIcon icon="fa-brands fa-react"/>`test.tsx` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1736773745661/8492e586-7bc0-44a8-ac54-fb576119cdea.png)
 
 ```ts title="main.tsx"
 import { StrictMode } from "react";
@@ -103,7 +103,7 @@ createRoot(document.getElementById("root")!).render(
 );
 ```
 
-To view the log in the console, make sure to import the <FontIcon icon="iconfont icon-typescript"/>`test.ts` file into the <FontIcon icon="fa-brands fa-react"/>`main.tsx` file located in the <FontIcon icon="fas fa-folder-open"/>`src` folder. After that, check the console of your project running on the local server, and you should see the logged message displayed there.
+To view the log in the console, make sure to import the <VPIcon icon="iconfont icon-typescript"/>`test.ts` file into the <VPIcon icon="fa-brands fa-react"/>`main.tsx` file located in the <VPIcon icon="fas fa-folder-open"/>`src` folder. After that, check the console of your project running on the local server, and you should see the logged message displayed there.
 
 **Voilà!**
 

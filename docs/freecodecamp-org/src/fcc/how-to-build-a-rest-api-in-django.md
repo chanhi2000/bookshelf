@@ -127,13 +127,13 @@ INSTALLED_APPS = [
 ```
 
 - `rest_framework` is the Django REST Framework - it gives you tools to easily create APIs.
-- `'api'` tells Django to look in the <FontIcon icon="fas fa-folder-open"/>`api` folder for models, views, and so on.
+- `'api'` tells Django to look in the <VPIcon icon="fas fa-folder-open"/>`api` folder for models, views, and so on.
 
 ### Step 2: Create a Model
 
 Let’s make a simple model - a task list.
 
-In <FontIcon icon="fas fa-folder-open"/>`api/`<FontIcon icon="fa-brands fa-python"/>`models.py`:
+In <VPIcon icon="fas fa-folder-open"/>`api/`<VPIcon icon="fa-brands fa-python"/>`models.py`:
 
 ```py title="models.py"
 from django.db import models
@@ -164,7 +164,7 @@ python manage.py migrate
 
 Serializers turn your Django model into JSON (the data format used in APIs) and back.
 
-In <FontIcon icon="fas fa-folder-open"/>`api/`<FontIcon icon="fa-brands fa-python"/>`serializers.py`:
+In <VPIcon icon="fas fa-folder-open"/>`api/`<VPIcon icon="fa-brands fa-python"/>`serializers.py`:
 
 ```py title="serializers.py"
 from rest_framework import serializers
@@ -184,7 +184,7 @@ class TaskSerializer(serializers.ModelSerializer):
 
 Here’s where the logic goes. You can use class-based or function-based views. Let’s go with class-based using DRF’s `generics`.
 
-In <FontIcon icon="fas fa-folder-open"/>`api/`<FontIcon icon="fa-brands fa-python"/>`views.py`:
+In <VPIcon icon="fas fa-folder-open"/>`api/`<VPIcon icon="fa-brands fa-python"/>`views.py`:
 
 ```py title="views.py"
 from rest_framework import generics
@@ -212,7 +212,7 @@ These are **generic class-based views** provided by Django REST Framework to sav
 
 First, make a `urls.py` file in the `api` folder (if it doesn’t exist).
 
-In <FontIcon icon="fas fa-folder-open"/>`api/`<FontIcon icon="fa-brands fa-python"/>`urls.py`:
+In <VPIcon icon="fas fa-folder-open"/>`api/`<VPIcon icon="fa-brands fa-python"/>`urls.py`:
 
 ```py title="urls.py"
 from django.urls import path
@@ -227,9 +227,9 @@ urlpatterns = [
 - `tasks/`: The route to access or create tasks.
 - `tasks/<int:pk>/`: The route to get, update, or delete a single task by its primary key (`pk`).
 
-Then, in your main <FontIcon icon="fas fa-folder-open"/>`myproject/`<FontIcon icon="fa-brands fa-python"/>`urls.py`:
+Then, in your main <VPIcon icon="fas fa-folder-open"/>`myproject/`<VPIcon icon="fa-brands fa-python"/>`urls.py`:
 
-Now, hook this into the main <FontIcon icon="fa-brands fa-python"/>`urls.py` in your project folder:
+Now, hook this into the main <VPIcon icon="fa-brands fa-python"/>`urls.py` in your project folder:
 
 ```py title="urls.py"
 from django.contrib import admin

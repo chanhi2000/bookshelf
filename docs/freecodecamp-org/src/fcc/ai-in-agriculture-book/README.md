@@ -116,7 +116,7 @@ And finally, you will appreciate AI not as a complex, inaccessible science, but 
 
 As you turn the pages ahead, prepare to envision a new era of farming—one where the synergy of human expertise and AI capabilities ensure a prosperous, sustainable, and secure food supply for all.
 
-I’ve also [<FontIcon icon="fa-brands fa-spotify"/>recorded a podcast](https://open.spotify.com/episode/6hgUXtZnNjmgfl18fNWuLz?nd=1&dlsi=51481ed967be42da) on this topic if you’d like to listen to that as well.
+I’ve also [<VPIcon icon="fa-brands fa-spotify"/>recorded a podcast](https://open.spotify.com/episode/6hgUXtZnNjmgfl18fNWuLz?nd=1&dlsi=51481ed967be42da) on this topic if you’d like to listen to that as well.
 
 ```component VPCard
 {
@@ -267,9 +267,9 @@ Some examples of AI technology used in farming include:
 
 ### How Can You Dive Deeper?
 
-After studying this guide, if you're keen to dive even deeper and structured learning is your style, consider joining us at [<FontIcon icon="fas fa-globe"/>LunarTech](https://lunartech.ai/). We offer an [**AI Engineering Bootcamp, [<FontIcon icon="fas fa-globe"/>77+ individual courses**](https://academy.lunartech.ai/)**, and a **Bootcamp in Data Science, Machine Learning, and AI.**
+After studying this guide, if you're keen to dive even deeper and structured learning is your style, consider joining us at [<VPIcon icon="fas fa-globe"/>LunarTech](https://lunartech.ai/). We offer an [**AI Engineering Bootcamp, [<VPIcon icon="fas fa-globe"/>77+ individual courses**](https://academy.lunartech.ai/)**, and a **Bootcamp in Data Science, Machine Learning, and AI.**
 
-You can check out our [<FontIcon icon="fas fa-globe"/>Ultimate Data Science Bootcamp](https://lunartech.ai/bootcamp/data-science-bootcamp) and join [<FontIcon icon="fas fa-globe"/>a free trial](https://lunartech.ai/pricing/) to try the content first hand. This has earned the recognition of being one of the Best Data Science Bootcamps of 2023, and has been featured in esteemed publications like [<FontIcon icon="fas fa-globe"/>Forbes](https://forbes.com.au/brand-voice/uncategorized/not-just-for-tech-giants-heres-how-lunartech-revolutionizes-data-science-and-ai-learning/), [<FontIcon icon="fa-brands fa-yahoo"/>Yahoo](https://finance.yahoo.com/news/lunartech-launches-game-changing-data-115200373.html), [<FontIcon icon="fas fa-globe"/>Entrepreneur](https://entrepreneur.com/ka/business-news/outpacing-competition-how-lunartech-is-redefining-the/463038) and more. This is your chance to be a part of a community that thrives on innovation and knowledge. Here is the Welcome message:
+You can check out our [<VPIcon icon="fas fa-globe"/>Ultimate Data Science Bootcamp](https://lunartech.ai/bootcamp/data-science-bootcamp) and join [<VPIcon icon="fas fa-globe"/>a free trial](https://lunartech.ai/pricing/) to try the content first hand. This has earned the recognition of being one of the Best Data Science Bootcamps of 2023, and has been featured in esteemed publications like [<VPIcon icon="fas fa-globe"/>Forbes](https://forbes.com.au/brand-voice/uncategorized/not-just-for-tech-giants-heres-how-lunartech-revolutionizes-data-science-and-ai-learning/), [<VPIcon icon="fa-brands fa-yahoo"/>Yahoo](https://finance.yahoo.com/news/lunartech-launches-game-changing-data-115200373.html), [<VPIcon icon="fas fa-globe"/>Entrepreneur](https://entrepreneur.com/ka/business-news/outpacing-competition-how-lunartech-is-redefining-the/463038) and more. This is your chance to be a part of a community that thrives on innovation and knowledge. Here is the Welcome message:
 
 ### Transform Your Future with Data Science & AI
 

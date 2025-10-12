@@ -65,6 +65,6 @@ For example, if you enter the idea *“build a simple React app”*, CopilotKit 
 
 The generated files are then displayed in the File Explorer on the left side of the screen. You can easily browse through the files created by CopilotKit.
 
-To preview the code, simply click on a file like <FontIcon icon="fa-brands fa-react"/>`App.js`. The file’s code will load into the Monaco Editor on the left, while the Sandpack preview on the right will render a real-time output of the file.
+To preview the code, simply click on a file like <VPIcon icon="fa-brands fa-react"/>`App.js`. The file’s code will load into the Monaco Editor on the left, while the Sandpack preview on the right will render a real-time output of the file.
 
 You can now experiment with the files—tweak the code, change colours, fonts, or text, and even write your own logic, just like working with regular HTML, CSS, or React files. Any changes you make will be saved in real time to the database. So even if you accidentally close the project, your progress will be intact. Simply refresh the page, and your code will be right where you left it.

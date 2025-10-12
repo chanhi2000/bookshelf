@@ -65,7 +65,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724793636526/bd2fbf2
 
 Are you looking to enhance your skills in automated web testing?
 
-We just published a comprehensive video course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel, designed to teach you how to use Selenium with Java using the Page Object Model. Created by Rex Jones II, this course is perfect for developers and testers who want to master the art of automated web testing and ensure the functionality of web applications with precision and efficiency.
+We just published a comprehensive video course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel, designed to teach you how to use Selenium with Java using the Page Object Model. Created by Rex Jones II, this course is perfect for developers and testers who want to master the art of automated web testing and ensure the functionality of web applications with precision and efficiency.
 
 ---
 
@@ -86,7 +86,7 @@ Here are the core technologies and concepts in this course:
 
 ## Conclusion
 
-This course is a valuable resource for anyone looking to deepen their understanding of automated web testing using Selenium and Java. Whether you're a beginner or an experienced tester, the structured approach and practical examples will equip you with the skills needed to create robust and efficient test automation frameworks. Watch the full course [<FontIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/QQliGCtqD2w) (8-hour watch).
+This course is a valuable resource for anyone looking to deepen their understanding of automated web testing using Selenium and Java. Whether you're a beginner or an experienced tester, the structured approach and practical examples will equip you with the skills needed to create robust and efficient test automation frameworks. Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/QQliGCtqD2w) (8-hour watch).
 
 <VidStack src="youtube/QQliGCtqD2w" />
 

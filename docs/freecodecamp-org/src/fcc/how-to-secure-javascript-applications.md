@@ -63,9 +63,9 @@ This article will introduce you to the importance of security in your applicatio
 
 Nowadays, when building a project, most developers focus solely on making the application work and replicating the desired functionality. Security is often not prioritized, which has led to significant issues in recent years.
 
-Many companies have been affected by security attacks, resulting in loss of revenue, exposure of sensitive user information, and damage to the company's credibility. One real-world example that illustrates this scenario perfectly is the [<FontIcon icon="fas fa-globe"/>Segway Magecart attack](https://threatpost.com/segway-magecart-attack-favicon/177971/).
+Many companies have been affected by security attacks, resulting in loss of revenue, exposure of sensitive user information, and damage to the company's credibility. One real-world example that illustrates this scenario perfectly is the [<VPIcon icon="fas fa-globe"/>Segway Magecart attack](https://threatpost.com/segway-magecart-attack-favicon/177971/).
 
-In 2022, Segway, a company known for producing two-wheeled electric scooters, fell victim to a [<FontIcon icon="fas fa-globe"/>Magecart](https://akamai.com/glossary/what-is-magecart) attack in which users' sensitive payment information was exposed to attackers. The Segway Magecart attack is a well-known example of [<FontIcon icon="fas fa-globe"/>digital skimming](https://europol.europa.eu/operations-services-and-innovation/public-awareness-and-prevention-guides/digital-skimming).
+In 2022, Segway, a company known for producing two-wheeled electric scooters, fell victim to a [<VPIcon icon="fas fa-globe"/>Magecart](https://akamai.com/glossary/what-is-magecart) attack in which users' sensitive payment information was exposed to attackers. The Segway Magecart attack is a well-known example of [<VPIcon icon="fas fa-globe"/>digital skimming](https://europol.europa.eu/operations-services-and-innovation/public-awareness-and-prevention-guides/digital-skimming).
 
 The attackers were able to steal users' information by injecting a script that manipulated the code running in the web browser, allowing them to access the data entered on the users' web pages.
 
@@ -119,13 +119,13 @@ Now each time the user submits a comment, JavaScript takes that particular **com
 <script>alert('XSS Attack!')</script>
 ```
 
-JavaScript would take this code and **store** it in our webpage just as a regular comment, so each time a user loads the infected page, the script is executed. This type of XSS attack is known as [<FontIcon icon="fas fa-globe"/>stored XSS](https://portswigger.net/web-security/cross-site-scripting/stored).
+JavaScript would take this code and **store** it in our webpage just as a regular comment, so each time a user loads the infected page, the script is executed. This type of XSS attack is known as [<VPIcon icon="fas fa-globe"/>stored XSS](https://portswigger.net/web-security/cross-site-scripting/stored).
 
 To protect your application from XSS attacks, it is crucial to sanitize and validate inputs and regularly scan your code for vulnerabilities.
 
 ### 2\. Cross-Site Request Forgery (CSRF)
 
-Cross-Site Request Forgery (CSRF) refers to a type of attack where an attacker tricks an authenticated user’s browser into executing unwanted actions by using the user’s credentials. This often occurs through [<FontIcon icon="fa-brands fa-wikipedia-w"/>social engineering](https://en.wikipedia.org/wiki/Social_engineering_\(security\)) techniques that cause the browser to send requests without the user's knowledge or consent.
+Cross-Site Request Forgery (CSRF) refers to a type of attack where an attacker tricks an authenticated user’s browser into executing unwanted actions by using the user’s credentials. This often occurs through [<VPIcon icon="fa-brands fa-wikipedia-w"/>social engineering](https://en.wikipedia.org/wiki/Social_engineering_\(security\)) techniques that cause the browser to send requests without the user's knowledge or consent.
 
 In a CSRF attack, the attacker impersonates the victim by utilizing credentials stored in the user’s browser, such as session cookies, JWTs, or OAuth tokens. They use these credentials to send HTTP requests to the website’s server, carrying out unauthorized actions on the victim’s behalf, such as transferring funds, or changing the user's email address or password.
 
@@ -170,7 +170,7 @@ To prevent CSRF attacks, you can implement an anti-CSRF token in the web applica
 
 Developers often integrate external packages and libraries to enhance application functionality and speed up development. But integrating third-party libraries can introduce security risks to your JavaScript application.
 
-On March 26, 2019, the Bootstrap-Sass library version (3.2.0.2) was deleted from the official RubyGems repository and replaced with a compromised [<FontIcon icon="fas fa-globe"/>version (3.2.0.3) that allowed remote code execution](https://acunetix.com/blog/web-security-zone/remote-code-execution-bootstrap-sass-ruby-package/). Fortunately, a [user noticed this anomaly (<FontIcon icon="iconfont icon-github"/>`twbs/bootstrap-sass`)](https://github.com/twbs/bootstrap-sass/issues/1195) and informed the Bootstrap-Sass maintainers who resolved the issue promptly.
+On March 26, 2019, the Bootstrap-Sass library version (3.2.0.2) was deleted from the official RubyGems repository and replaced with a compromised [<VPIcon icon="fas fa-globe"/>version (3.2.0.3) that allowed remote code execution](https://acunetix.com/blog/web-security-zone/remote-code-execution-bootstrap-sass-ruby-package/). Fortunately, a [user noticed this anomaly (<VPIcon icon="iconfont icon-github"/>`twbs/bootstrap-sass`)](https://github.com/twbs/bootstrap-sass/issues/1195) and informed the Bootstrap-Sass maintainers who resolved the issue promptly.
 
 Before integrating a third-party library into your application, examine it for vulnerabilities and ensure it is regularly maintained and up-to-date. Avoid libraries that request excessive permissions. Taking these precautions will help protect your application's security.
 
@@ -352,7 +352,7 @@ Penetration testing aims to uncover vulnerabilities before attackers do. Penetra
 
 Think of penetration testing like building a house, installing a security system, and then hiring thieves to try and break in. If they succeed, you can identify the weaknesses in your defenses and make improvements to strengthen the house.
 
-You can conduct penetration testing by hiring professional and experienced pen testers or by using various tools like [**Burp Suite**](/freecodecamp.org/how-to-audit-web-apps-with-burpsuite.md), [<FontIcon icon="iconfont icon-nmap"/>Nmap](https://freecodecamp.org/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time.md), and [<FontIcon icon="iconfont icon-kalilinux"/>Kali Linux](/freecodecamp.org/how-to-install-kali-linux.md).
+You can conduct penetration testing by hiring professional and experienced pen testers or by using various tools like [**Burp Suite**](/freecodecamp.org/how-to-audit-web-apps-with-burpsuite.md), [<VPIcon icon="iconfont icon-nmap"/>Nmap](https://freecodecamp.org/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time.md), and [<VPIcon icon="iconfont icon-kalilinux"/>Kali Linux](/freecodecamp.org/how-to-install-kali-linux.md).
 
 ---
 
@@ -362,7 +362,7 @@ Security is a crucial aspect of JavaScript development that many developers ofte
 
 You’ve also learned why security is important and explored various steps to secure your JavaScript application, such as conducting regular code reviews, sanitizing and validating user input, and other examples.
 
-Thank you for reading this article. If you have any suggestions, comments, or questions, feel free to connect with me on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`sephjoe12`)](https://x.com/sephjoe12) or [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`bello-joseph-970727265`)](https://linkedin.com/in/bello-joseph-970727265).
+Thank you for reading this article. If you have any suggestions, comments, or questions, feel free to connect with me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`sephjoe12`)](https://x.com/sephjoe12) or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`bello-joseph-970727265`)](https://linkedin.com/in/bello-joseph-970727265).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

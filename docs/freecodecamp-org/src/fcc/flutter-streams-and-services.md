@@ -58,9 +58,9 @@ In this article, we’ll explore how to achieve this combination for app-wide st
 
 ## What is App-wide State in Flutter?
 
-App-wide state comprises all variables that are relevant to multiple widgets at the same time. By app-wide state, we don't mean the state that is attached to `StatefulWidgets`. Those are ephemeral state. Updating them requires local or scoped calls to [<FontIcon icon="fa-brands fa-dart-lang"/>`setState`](https://api.flutter.dev/flutter/widgets/State/setState.html).
+App-wide state comprises all variables that are relevant to multiple widgets at the same time. By app-wide state, we don't mean the state that is attached to `StatefulWidgets`. Those are ephemeral state. Updating them requires local or scoped calls to [<VPIcon icon="fa-brands fa-dart-lang"/>`setState`](https://api.flutter.dev/flutter/widgets/State/setState.html).
 
-In Flutter, app-wide state usually has a separate logical management from UI code. This separated logic is called a state management architecture. We have many state management architectures with which we can engineer app-wide state. Examples include [Provider (<FontIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [InheritedWidget (<FontIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [Riverpod (<FontIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [Bloc (<FontIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [Redux (<FontIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [Stacked (<FontIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), and so on. Each of these state management architectures are efficient, good, and opinionated.
+In Flutter, app-wide state usually has a separate logical management from UI code. This separated logic is called a state management architecture. We have many state management architectures with which we can engineer app-wide state. Examples include [Provider (<VPIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [InheritedWidget (<VPIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [Riverpod (<VPIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [Bloc (<VPIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [Redux (<VPIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), [Stacked (<VPIcon icon="iconfont icon-github"/>`obumnwabude/write`)](https://github.com/obumnwabude/write/blob/main/2024/flutter/get-the-link), and so on. Each of these state management architectures are efficient, good, and opinionated.
 
 While your choice of architecture could vary based on different factors, consider adopting the following architecture in your projects. It involves using Dart streams and services (singleton classes) for keeping track of your app's state.
 
@@ -68,9 +68,9 @@ While your choice of architecture could vary based on different factors, conside
 
 ## What is a Stream in Dart?
 
-A [<FontIcon icon="fa-brands fa-dart-lang"/>stream](https://dart.dev/libraries/dart-async#stream) continuously emits values. You can listen to a stream and constantly get new values when they are emitted. Streams in Dart are the equivalent of [<FontIcon icon="fas fa-globe"/>`Observable`](https://rxjs.dev/guide/observable) in JavaScript.
+A [<VPIcon icon="fa-brands fa-dart-lang"/>stream](https://dart.dev/libraries/dart-async#stream) continuously emits values. You can listen to a stream and constantly get new values when they are emitted. Streams in Dart are the equivalent of [<VPIcon icon="fas fa-globe"/>`Observable`](https://rxjs.dev/guide/observable) in JavaScript.
 
-In Dart, streams are different from [<FontIcon icon="fa-brands fa-dart-lang"/>futures](https://dart.dev/libraries/dart-async#future). The difference is that while a future resolves to one value, a stream will continuously emit various values during its life.
+In Dart, streams are different from [<VPIcon icon="fa-brands fa-dart-lang"/>futures](https://dart.dev/libraries/dart-async#future). The difference is that while a future resolves to one value, a stream will continuously emit various values during its life.
 
 Let's say we have a `counter` stream that keeps track of some current integer count. This count could be incremented or decremented. To use the values emitted by this `counter` stream, you listen to the `counter`. Listening implies calling the `.listen` method on the stream and handling the emitted value.
 
@@ -82,7 +82,7 @@ counter.listen((int value) => print('Got $value.'));
 
 ## How to Create a Stream in Dart
 
-The [<FontIcon icon="fa-brands fa-dart"/>`Stream`](https://dart.dev/libraries/dart-async#stream) class comes with multiple factory constructors. They allow you to create various streams for various purposes. They include:
+The [<VPIcon icon="fa-brands fa-dart"/>`Stream`](https://dart.dev/libraries/dart-async#stream) class comes with multiple factory constructors. They allow you to create various streams for various purposes. They include:
 
 - `Stream.empty`
 - `Stream.value`
@@ -110,7 +110,7 @@ void main() {
 
 The problem with the default `StreamController` from the `dart:async` library is that it allows only one listener. It is unicast. If you attempt attaching another listener to this stream obtained from `StreamController`, it will throw a "bad state" error.
 
-This issue is solved by the `BehaviorSubject` class from the [<FontIcon icon="fas fa-globe"/>`rxdart`](https://pub.dev/packages/rxdart) package. Technically, `BehaviorSubject` is a `StreamController`. The difference is that it has more features like:
+This issue is solved by the `BehaviorSubject` class from the [<VPIcon icon="fas fa-globe"/>`rxdart`](https://pub.dev/packages/rxdart) package. Technically, `BehaviorSubject` is a `StreamController`. The difference is that it has more features like:
 
 1. Allows multiple listeners (very important).
 2. Caches the latest emitted value or error.
@@ -152,7 +152,7 @@ To ensure that it is the same instance of streams that different parts of our Fl
 
 When something is called a singleton, it means only one of it exists. For example, we can say the sun is a singleton star because we have only one sun.
 
-When it comes to programming, we use a singleton when we need the same copy of an object everywhere. Already, the [<FontIcon icon="fa-brands fa-wikipedia-w"/>`static`](https://en.m.wikipedia.org/wiki/Static_variable) properties of a class are singletons to every instance of that class. When you declare a field or method as `static`, you're telling the runtime engine to always reuse the same static item.
+When it comes to programming, we use a singleton when we need the same copy of an object everywhere. Already, the [<VPIcon icon="fa-brands fa-wikipedia-w"/>`static`](https://en.m.wikipedia.org/wiki/Static_variable) properties of a class are singletons to every instance of that class. When you declare a field or method as `static`, you're telling the runtime engine to always reuse the same static item.
 
 This explains why `static` properties are used as constants. It's another reason why we use them without instantiating an object. Furthermore, in Flutter, we conventionally use static properties as a means to obtain new or existing instances of a class. For example, many Flutter classes (`MediaQuery`, `Navigator`, `ThemeData`, and so on) have a static `.of` method for obtaining their instances.
 
@@ -304,9 +304,9 @@ class AuthenticationService {
 }
 ```
 
-Another state manipulation point is at initializing services. Some streams may warrant an asynchronous initializer before they should be used. You can define `init` methods in the services, and call the methods before calling [<FontIcon icon="fa-brands fa-dart-lang"/>`runApp`](https://api.flutter.dev/flutter/widgets/runApp.html) in the topmost main method in Flutter.
+Another state manipulation point is at initializing services. Some streams may warrant an asynchronous initializer before they should be used. You can define `init` methods in the services, and call the methods before calling [<VPIcon icon="fa-brands fa-dart-lang"/>`runApp`](https://api.flutter.dev/flutter/widgets/runApp.html) in the topmost main method in Flutter.
 
-`init` methods may be "localStorage"-saved values from previous app runs. They can make API calls, check permissions, or set up [<FontIcon icon="fa-brands fa-dart-lang"/>EventChannel](https://api.flutter.dev/flutter/services/EventChannel-class.html) listeners. When you call them before `runApp`, be sure to call `ensureInitialized()` from [<FontIcon icon="fa-brands fa-dart-lang"/>`WidgetsFlutterBinding`](https://api.flutter.dev/flutter/widgets/WidgetsFlutterBinding-class.html) before initializing the services. This is especially mandatory if any of the service `init` code will access a [<FontIcon icon="fa-brands fa-dart-lang"/>`PlatformChannel`](https://docs.flutter.dev/platform-integration/platform-channels).
+`init` methods may be "localStorage"-saved values from previous app runs. They can make API calls, check permissions, or set up [<VPIcon icon="fa-brands fa-dart-lang"/>EventChannel](https://api.flutter.dev/flutter/services/EventChannel-class.html) listeners. When you call them before `runApp`, be sure to call `ensureInitialized()` from [<VPIcon icon="fa-brands fa-dart-lang"/>`WidgetsFlutterBinding`](https://api.flutter.dev/flutter/widgets/WidgetsFlutterBinding-class.html) before initializing the services. This is especially mandatory if any of the service `init` code will access a [<VPIcon icon="fa-brands fa-dart-lang"/>`PlatformChannel`](https://docs.flutter.dev/platform-integration/platform-channels).
 
 ```dart title="authentication_service.dart"
 // ... imports
@@ -339,7 +339,7 @@ Future<void> main() async {
 
 ## How to Use Dart Streams in Flutter Widgets
 
-Flutter comes with a built-in [<FontIcon icon="fa-brands fa-dart-lang"/>StreamBuilder](https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html) widget. It takes a stream and a builder function. This builder function will get a `BuildContext` and snapshot data about the stream. The function should always return a widget.
+Flutter comes with a built-in [<VPIcon icon="fa-brands fa-dart-lang"/>StreamBuilder](https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html) widget. It takes a stream and a builder function. This builder function will get a `BuildContext` and snapshot data about the stream. The function should always return a widget.
 
 When building UIs, you can wrap UI parts that depend on or display values emitted from app-wide streams in `StreamBuilders`. That way, once the stream emits a value, Flutter auto-rebuilds the children widget of the `StreamBuilders` with the latest values.
 
@@ -475,7 +475,7 @@ class CartService {
 }
 ```
 
-Watch out for [<FontIcon icon="fa-brands fa-wikipedia-w"/>circular dependency](https://en.wikipedia.org/wiki/Circular_dependency) problems when your services depend on each other. Circular dependency occurs when two services inter-depend on themselves. This scenario is usually inevitable as business logic grows.
+Watch out for [<VPIcon icon="fa-brands fa-wikipedia-w"/>circular dependency](https://en.wikipedia.org/wiki/Circular_dependency) problems when your services depend on each other. Circular dependency occurs when two services inter-depend on themselves. This scenario is usually inevitable as business logic grows.
 
 When faced with it, lift the state they want to co-share to a different service and import this new service into the others. Another solution is to use Dart’s `late` keywords when importing the interdependent services. You can also find ways to ensure that variable accessing is within functions and not at some top-level declaration.
 
@@ -485,7 +485,7 @@ When faced with it, lift the state they want to co-share to a different service 
 
 Asides from having service methods that update streams, you can also have new or improved streams based on existing ones, by using `rxdart` classes and extensions.
 
-An example class is [<FontIcon icon="fas fa-globe"/>`CombineLatestStream`](https://pub.dev/documentation/rxdart/latest/rx/CombineLatestStream-class.html). It takes multiple streams and a combiner function to return a new stream that will re-emit the combined latest values of the source streams (depending on the optional combiner).
+An example class is [<VPIcon icon="fas fa-globe"/>`CombineLatestStream`](https://pub.dev/documentation/rxdart/latest/rx/CombineLatestStream-class.html). It takes multiple streams and a combiner function to return a new stream that will re-emit the combined latest values of the source streams (depending on the optional combiner).
 
 ```dart
 import 'package:rxdart/rxdart.dart';
@@ -506,7 +506,7 @@ class MultipliedCounterService {
 }
 ```
 
-Another good stream method is [<FontIcon icon="fas fa-globe"/>`debounceTime`](https://pub.dev/documentation/rxdart/latest/rx/DebounceExtensions/debounceTime.html). This is a stream extension that is useful for ignoring frequent emissions and processing the latest value after a delay (like when searching). An emission will only occur after the set duration and when there is no other emission in between that time. It helps avoid excessive API calls by waiting for a period of inactivity before emitting the latest value.
+Another good stream method is [<VPIcon icon="fas fa-globe"/>`debounceTime`](https://pub.dev/documentation/rxdart/latest/rx/DebounceExtensions/debounceTime.html). This is a stream extension that is useful for ignoring frequent emissions and processing the latest value after a delay (like when searching). An emission will only occur after the set duration and when there is no other emission in between that time. It helps avoid excessive API calls by waiting for a period of inactivity before emitting the latest value.
 
 ```dart
 import 'package:rxdart/rxdart.dart';
@@ -539,7 +539,7 @@ Equally, if you are managing the contents of a specific File Explorer Directory 
 
 Sometimes, you may want to know when the user comes back to your application for authentication purposes, like terminating a session if they stayed away for too long and they need to re-authenticate. Other times, you may want to refresh app contents, to retain the user, as you can do if building a social media app.
 
-In all these cases, we need a way to programmatically know when our app comes back to the user's focus after the user had left. Luckily, Flutter provides us with [<FontIcon icon="fa-brands fa-dart-lang"/>`AppLifecycleState`](https://api.flutter.dev/flutter/dart-ui/AppLifecycleState.html) and a way to react to changes to them.
+In all these cases, we need a way to programmatically know when our app comes back to the user's focus after the user had left. Luckily, Flutter provides us with [<VPIcon icon="fa-brands fa-dart-lang"/>`AppLifecycleState`](https://api.flutter.dev/flutter/dart-ui/AppLifecycleState.html) and a way to react to changes to them.
 
 An app’s lifecycle refers to its various states while it is running. In Flutter, `AppLifecycleState` includes detached, resumed, inactive, hidden, and paused. In the above example cases, anytime the user comes back to the app, the app’s lifecycle state becomes `AppLifecycleState.resumed`.
 
@@ -573,7 +573,7 @@ There are multiple choices and flavors for state management in the Flutter commu
 
 With that in mind, be flexible with state management architectures in Flutter. They are not some hard cast rules. Bend and play around with them to suit your unique app cases as there is no "one size fits all" here.
 
-You can play around with streams and services. You could use [<FontIcon icon="fas fa-globe"/>`getIt`](https://pub.dev/packages/get_it) for obtaining singletons. `getIt` also allows you to obtain scoped singletons, that is, singletons attached to a navigator or a logical part of features (within a search for example).
+You can play around with streams and services. You could use [<VPIcon icon="fas fa-globe"/>`getIt`](https://pub.dev/packages/get_it) for obtaining singletons. `getIt` also allows you to obtain scoped singletons, that is, singletons attached to a navigator or a logical part of features (within a search for example).
 
 You can also combine this architecture with others. Like declaring and managing streams as explained here but in providers or cubits. Or bringing in features of other architectures into services you declare as described in this article.
 

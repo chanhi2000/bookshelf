@@ -94,7 +94,7 @@ You should also have a running order. Know who is presenting, in which order, an
 
 For instance, if you have six engineers - two working on a Login Page, two working on new back-end service, and two working on database performance - make sure that your running order groups these three distinct areas together.
 
-If two demos are fairly similar, you can explain the context once and then run through both demos back to back. Be efficient, as you have a lot of people in this meeting and everyone knows that [<FontIcon icon="fas fa-globe"/>meetings are expensive](https://calculatorlord.com/meeting-cost-calculator/).
+If two demos are fairly similar, you can explain the context once and then run through both demos back to back. Be efficient, as you have a lot of people in this meeting and everyone knows that [<VPIcon icon="fas fa-globe"/>meetings are expensive](https://calculatorlord.com/meeting-cost-calculator/).
 
 ---
 
@@ -135,7 +135,7 @@ After presentation 1 (by Larry), Product may ask why he chose 5 retries as the m
 
 After each of the six presentations, there could be questions, comments, and change requests by anyone in the audience. Typically this will then spark a conversation amongst the audience about the best approach.
 
-For instance, in Larry’s example again, some may argue that they should not even be using a username and password, but instead should use an email address and [<FontIcon icon="fas fa-globe"/>magic link](https://pingidentity.com/en/resources/blog/post/what-is-magic-link-login.html). This is the beauty of the review. You have a lot of smart people in a room bringing their own experience and expertise.
+For instance, in Larry’s example again, some may argue that they should not even be using a username and password, but instead should use an email address and [<VPIcon icon="fas fa-globe"/>magic link](https://pingidentity.com/en/resources/blog/post/what-is-magic-link-login.html). This is the beauty of the review. You have a lot of smart people in a room bringing their own experience and expertise.
 
 ---
 
@@ -167,9 +167,9 @@ This helps the entire group stay informed about the plan for the upcoming sprint
 
 You should be reviewing one scrum team’s work for one sprint (two or three weeks).
 
-If your meetings are running on for too long, it either means that your scrum team is too large (in which case, you should think about splitting your scrum team into [<FontIcon icon="fas fa-globe"/>smaller teams](https://namegenerators.online/scrum-team-name-generator/)), or you are not efficient enough with your demos.
+If your meetings are running on for too long, it either means that your scrum team is too large (in which case, you should think about splitting your scrum team into [<VPIcon icon="fas fa-globe"/>smaller teams](https://namegenerators.online/scrum-team-name-generator/)), or you are not efficient enough with your demos.
 
-People’s time and attention is expensive and in short supply. Keep the meetings to no more than one [<FontIcon icon="fa-brands fa-wikipedia-w"/>ultradian cycle](https://en.wikipedia.org/wiki/Basic_rest%E2%80%93activity_cycle). I personally try to limit all of the meetings I run to a max of 90 minutes.
+People’s time and attention is expensive and in short supply. Keep the meetings to no more than one [<VPIcon icon="fa-brands fa-wikipedia-w"/>ultradian cycle](https://en.wikipedia.org/wiki/Basic_rest%E2%80%93activity_cycle). I personally try to limit all of the meetings I run to a max of 90 minutes.
 
 Lastly, set a firm limit for the meeting so that participants feel confident bringing their feedback without dragging out the discussion.
 
@@ -183,7 +183,7 @@ A Sprint Review gives stakeholders a real-time look at completed work, ensures a
 
 If you focus on showing real progress, inviting open dialogue, and keeping things concise, you’ll see a steady improvement in how your team delivers.
 
-*Check out more insights on my blog, [<FontIcon icon="fas fa-globe"/>Just Another Tech Lead*](https://justanothertechlead.com/). Good luck with your next Sprint Review!*
+*Check out more insights on my blog, [<VPIcon icon="fas fa-globe"/>Just Another Tech Lead*](https://justanothertechlead.com/). Good luck with your next Sprint Review!*
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

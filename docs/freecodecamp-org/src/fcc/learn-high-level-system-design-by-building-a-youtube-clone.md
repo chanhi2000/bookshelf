@@ -86,6 +86,6 @@ This course leverages a range of modern technologies to build the YouTube clone:
 - **Frameworks**: Next.js for server-side rendering and improved performance.
 - **Other Tools**: Docker for containerization and Redis for caching to enhance performance and scalability.
 
-By the end of this course, you will have a deep understanding of high-level system design principles and practical experience in building a complex application. Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/FiXOaYnW64w) (2-hour watch).
+By the end of this course, you will have a deep understanding of high-level system design principles and practical experience in building a complex application. Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/FiXOaYnW64w) (2-hour watch).
 
 <VidStack src="youtube/FiXOaYnW64w" />

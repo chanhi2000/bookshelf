@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739971119374/b444d5f
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1739971119374/b444d5f6-6e42-4bc6-9136-84a1fe2f073c.png"/>
 
-Well-structured and well-documented APIs are a pleasure to work with. And nowadays the standard is [<FontIcon icon="iconfont icon-openapi"/>OpenAPI](https://openapis.org/), which comes with a good methodology for defining an API interface first, and only then constructing everything around it.
+Well-structured and well-documented APIs are a pleasure to work with. And nowadays the standard is [<VPIcon icon="iconfont icon-openapi"/>OpenAPI](https://openapis.org/), which comes with a good methodology for defining an API interface first, and only then constructing everything around it.
 
 This makes it easier to understand, implement, and consume those APIs. And standards matter, as they allow different teams, regardless of their technology stack, to effectively communicate about and work with the same API.
 
@@ -76,13 +76,13 @@ Before we dive in, it's helpful to have a basic understanding of the following:
 
 The OpenAPI Specification (OAS) provides a consistent means to carry information through each stage of the API lifecycle. It is a specification language for HTTP APIs that defines structure and syntax in a way that is not wedded to the programming language the API is created in.
 
-The [<FontIcon icon="iconfont icon-openapi"/>OpenAPI Specification (OAS)](https://spec.openapis.org/) was originally based on the Swagger 2.0 Specification from SmartBear Software. Later it was moved to the [<FontIcon icon="iconfont icon-openapi"/>OpenAPI Initiative (OAI)](https://openapis.org/), a consortium of industry experts under the Linux Foundation.
+The [<VPIcon icon="iconfont icon-openapi"/>OpenAPI Specification (OAS)](https://spec.openapis.org/) was originally based on the Swagger 2.0 Specification from SmartBear Software. Later it was moved to the [<VPIcon icon="iconfont icon-openapi"/>OpenAPI Initiative (OAI)](https://openapis.org/), a consortium of industry experts under the Linux Foundation.
 
 The main idea of OpenAPI is to be able to describe APIs in agnostic terms, decoupling them from any specific programming language. Consumers of your API specification do not need to understand the guts of your application or try to learn Lisp or Haskell if that’s what you chose to write it in. They can understand exactly what they need from your API specification, written in a simple and expressive language.
 
-This simple and expressive language is called [<FontIcon icon="iconfont icon-jetbrains"/>DSL (domain specific language)](https://jetbrains.com/mps/concepts/domain-specific-languages/). It can be written in either JSON or YAML.
+This simple and expressive language is called [<VPIcon icon="iconfont icon-jetbrains"/>DSL (domain specific language)](https://jetbrains.com/mps/concepts/domain-specific-languages/). It can be written in either JSON or YAML.
 
-The latest version of OAS is [<FontIcon icon="iconfont icon-openapi"/>v3.1.1](https://spec.openapis.org/oas/latest.html) and the specification itself is huge. There are many features and corner cases, but we will try to go through the most important ones.
+The latest version of OAS is [<VPIcon icon="iconfont icon-openapi"/>v3.1.1](https://spec.openapis.org/oas/latest.html) and the specification itself is huge. There are many features and corner cases, but we will try to go through the most important ones.
 
 ---
 
@@ -90,25 +90,25 @@ The latest version of OAS is [<FontIcon icon="iconfont icon-openapi"/>v3.1.1](ht
 
 It all starts with defining what the API should provide for its consumers and what it is for. While this stage isn't always purely technical, having a sketch of your API design in OAS when gathering requirements gives you a head start when starting the design.
 
-Once the requirements are ready, it's time to open your [<FontIcon icon="iconfont icon-openapi"/>OpenAPI editor](https://editor.swagger.io/) and collaborate with your teammates.
+Once the requirements are ready, it's time to open your [<VPIcon icon="iconfont icon-openapi"/>OpenAPI editor](https://editor.swagger.io/) and collaborate with your teammates.
 
 And it's important to understand that it's not only about writing the JSON/YAML spec, but actually agreeing on the API design.
 
-I recommend that you follow some API design guide - [<FontIcon icon="iconfont icon-gcp"/>Google has one](https://cloud.google.com/apis/design), for example. This will help you avoid mixed styles (like **/resourceName/{id}** and **/resource_name/{id}**, inconsistent use of HTTP methods, or unclear resource relationships.
+I recommend that you follow some API design guide - [<VPIcon icon="iconfont icon-gcp"/>Google has one](https://cloud.google.com/apis/design), for example. This will help you avoid mixed styles (like **/resourceName/{id}** and **/resource_name/{id}**, inconsistent use of HTTP methods, or unclear resource relationships.
 
 ### openapi.yaml
 
-The spec of your API starts in the entrypoint document <FontIcon icon="iconfont icon-yaml"/>`openapi.yaml` (recommended but not required name) or <FontIcon icon="iconfont icon-json"/>`openapi.json`. I've seen very big <FontIcon icon="iconfont icon-yaml"/>`openapi.yaml` files (50k lines), but it's possible to split your spec into multiple parts. Just keep in mind that this may not work well for some OpenAPI tools as they expect a single file. [Google Maps OAS](https://github.com/googlemaps/openapi-specification/) is a good example on how to split the schema, but also comes with a pre-processor to generate a single file.
+The spec of your API starts in the entrypoint document <VPIcon icon="iconfont icon-yaml"/>`openapi.yaml` (recommended but not required name) or <VPIcon icon="iconfont icon-json"/>`openapi.json`. I've seen very big <VPIcon icon="iconfont icon-yaml"/>`openapi.yaml` files (50k lines), but it's possible to split your spec into multiple parts. Just keep in mind that this may not work well for some OpenAPI tools as they expect a single file. [Google Maps OAS](https://github.com/googlemaps/openapi-specification/) is a good example on how to split the schema, but also comes with a pre-processor to generate a single file.
 
-There are some open source tools to bundle the OAS: [<FontIcon icon="iconfont icon-github"/>`APIDevTools/swagger-cli`](https://github.com/APIDevTools/swagger-cli) (archived) and [<FontIcon icon="iconfont icon-github"/>`Redocly/redocly-cli`](https://github.com/Redocly/redocly-cli) are great options.
+There are some open source tools to bundle the OAS: [<VPIcon icon="iconfont icon-github"/>`APIDevTools/swagger-cli`](https://github.com/APIDevTools/swagger-cli) (archived) and [<VPIcon icon="iconfont icon-github"/>`Redocly/redocly-cli`](https://github.com/Redocly/redocly-cli) are great options.
 
 ```sh
 swagger-cli bundle -o _bundle/openapi.yaml openapi.yaml
 ```
 
-As I mentioned earlier, the spec is huge, but let's break it into smaller parts. For this tutorial I created a dummy "Smart Home" API. You can see the full spec and code [here (<FontIcon icon="iconfont icon-github"/>`plutov/packagemain`)](https://github.com/plutov/packagemain/tree/master/oapi-example).
+As I mentioned earlier, the spec is huge, but let's break it into smaller parts. For this tutorial I created a dummy "Smart Home" API. You can see the full spec and code [here (<VPIcon icon="iconfont icon-github"/>`plutov/packagemain`)](https://github.com/plutov/packagemain/tree/master/oapi-example).
 
-The root object is called [<FontIcon icon="iconfont icon-openapi"/>OpenAPI Object](https://spec.openapis.org/oas/latest.html#openapi-object) and has the following structure:
+The root object is called [<VPIcon icon="iconfont icon-openapi"/>OpenAPI Object](https://spec.openapis.org/oas/latest.html#openapi-object) and has the following structure:
 
 ```yaml :collapsed-lines title="openapi.yaml"
 # schema version
@@ -215,7 +215,7 @@ responses:
 - headers
 - securitySchemes
 
-You can [<FontIcon icon="iconfont icon-openapi"/>see all here](https://spec.openapis.org/oas/latest.html#components-object).
+You can [<VPIcon icon="iconfont icon-openapi"/>see all here](https://spec.openapis.org/oas/latest.html#components-object).
 
 We could define our `Device` type like this:
 
@@ -265,7 +265,7 @@ components:
 
 ### Extensions
 
-OpenAPI schemas can be extended with internal properties that do not affect the schema itself, but are useful for server or client generators. A good example is our [<FontIcon icon="iconfont icon-github"/>`ulid/spec`](https://github.com/ulid/spec) type for ids:
+OpenAPI schemas can be extended with internal properties that do not affect the schema itself, but are useful for server or client generators. A good example is our [<VPIcon icon="iconfont icon-github"/>`ulid/spec`](https://github.com/ulid/spec) type for ids:
 
 ```yaml
 ULID:
@@ -287,11 +287,11 @@ The `x-` props will be used by the Go server generator to use existing Go types 
 
 ## How to Generate a Go Server
 
-We didn't go through all possible schema properties here and just covered the main ones - so if you’re not familiar with OAS, you should now have a good understanding of this standard. You can read the whole specification [<FontIcon icon="iconfont icon-openapi"/>here](https://spec.openapis.org/oas/latest.html). But now as our schema is ready, we can generate a Go server from it.
+We didn't go through all possible schema properties here and just covered the main ones - so if you’re not familiar with OAS, you should now have a good understanding of this standard. You can read the whole specification [<VPIcon icon="iconfont icon-openapi"/>here](https://spec.openapis.org/oas/latest.html). But now as our schema is ready, we can generate a Go server from it.
 
-You can find the full list of generators on [<FontIcon icon="iconfont icon-openapi"/>opeanapi.tools](https://openapi.tools/) - there are a lot of them. But the most popular one for Go servers is [<FontIcon icon="iconfont icon-github"/>`oapi-codegen/oapi-codegen`](https://github.com/oapi-codegen/oapi-codegen).
+You can find the full list of generators on [<VPIcon icon="iconfont icon-openapi"/>opeanapi.tools](https://openapi.tools/) - there are a lot of them. But the most popular one for Go servers is [<VPIcon icon="iconfont icon-github"/>`oapi-codegen/oapi-codegen`](https://github.com/oapi-codegen/oapi-codegen).
 
-> oapi-codegen currently doesn’t support this OAS 3.1. [issue (<FontIcon icon="iconfont icon-github"/>`oapi-codegen/oapi-codegen`)](https://github.com/oapi-codegen/oapi-codegen/issues/373). [<FontIcon icon="iconfont icon-github"/>`ogen-go/ogen`](https://github.com/ogen-go/ogen/) does, though.
+> oapi-codegen currently doesn’t support this OAS 3.1. [issue (<VPIcon icon="iconfont icon-github"/>`oapi-codegen/oapi-codegen`)](https://github.com/oapi-codegen/oapi-codegen/issues/373). [<VPIcon icon="iconfont icon-github"/>`ogen-go/ogen`](https://github.com/ogen-go/ogen/) does, though.
 
 You can install it via `go install`:
 
@@ -299,7 +299,7 @@ You can install it via `go install`:
 go install github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen@latest
 ```
 
-The configuration for the `oapi-codegen` generator is straightforward. You can either provide command line arguments or specify the same arguments in a yaml configuration file. You can choose which HTTP router to use for the server, where to put the output file, and more. In our case let's use the [<FontIcon icon="iconfont icon-github"/>`labstack/echo`](https://github.com/labstack/echo) router.
+The configuration for the `oapi-codegen` generator is straightforward. You can either provide command line arguments or specify the same arguments in a yaml configuration file. You can choose which HTTP router to use for the server, where to put the output file, and more. In our case let's use the [<VPIcon icon="iconfont icon-github"/>`labstack/echo`](https://github.com/labstack/echo) router.
 
 ```yaml title="oapi-codegen.yaml"
 package: api
@@ -317,7 +317,7 @@ We can now generate the server code using the following command:
 oapi-codegen --config=oapi-codegen.yaml openapi.yaml
 ```
 
-Let's now explore the generated <FontIcon icon="fa-brands fa-golang"/>`api.gen.go` file.
+Let's now explore the generated <VPIcon icon="fa-brands fa-golang"/>`api.gen.go` file.
 
 Since we enabled `strict-server`, which will generate code that parses request bodies and encodes responses automatically, the interface that we need to implement is called `StrictServerInterface`:
 
@@ -352,7 +352,7 @@ As well as code to parse the requests automatically and the Swagger definition.
 
 ### Implementation
 
-What's left for us to do is to create a server using echo, implement the generated interface, and glue everything together. We can write the following code in <FontIcon icon="fas fa-folder-open"/>`pkg/api/`<FontIcon icon="fa-brands fa-golang"/>`impl.go`:
+What's left for us to do is to create a server using echo, implement the generated interface, and glue everything together. We can write the following code in <VPIcon icon="fas fa-folder-open"/>`pkg/api/`<VPIcon icon="fa-brands fa-golang"/>`impl.go`:
 
 ```go :collapsed-lines title="pkg/api/impl.go"
 package api
@@ -414,7 +414,7 @@ Now when we run our server using `go run .`, we can curl `localhost:8080/devices
 
 Sometimes it's handy to have Swagger docs shipped together with your API - for testing, for example, or just as public documentation. `oapi-codegen` doesn't generate the Swagger UI out of the box, but we can have a simple HTML page that has a Swagger JS which loads our OAS.
 
-You can find the HTML code for our <FontIcon icon="fas fa-folder-open"/>`pkg/api/`<FontIcon icon="fa-brands fa-html5"/>`index.html` [<FontIcon icon="iconfont icon-swagger"/>here](https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/).
+You can find the HTML code for our <VPIcon icon="fas fa-folder-open"/>`pkg/api/`<VPIcon icon="fa-brands fa-html5"/>`index.html` [<VPIcon icon="iconfont icon-swagger"/>here](https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/).
 
 And then we can use `go:embed` to embed the static files and add our Swagger endpoint:
 
@@ -435,13 +435,13 @@ Now we can visit `localhost:8080/swagger/` to see the Swagger UI with our OAS.
 
 ![Swagger UI](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9d35f8f-e1e7-4e51-9149-e180bb192fd8_1092x922.png)
 
-Tools like Postman are very popular for API documentation, and it's also possible to [<FontIcon icon="iconfont icon-postman"/>import](http://learning.postman.com/docs/integrations/available-integrations/working-with-openAPI/) your existing OpenAPI 3.0 and 3.1 definitions into Postman. Postman supports both YAML and JSON formats.
+Tools like Postman are very popular for API documentation, and it's also possible to [<VPIcon icon="iconfont icon-postman"/>import](http://learning.postman.com/docs/integrations/available-integrations/working-with-openAPI/) your existing OpenAPI 3.0 and 3.1 definitions into Postman. Postman supports both YAML and JSON formats.
 
 ### Generate OAS from code
 
 There is also a practice to generate OpenAPI schemas from code, especially in typed languages. This approach has been popular, with the main selling point being that keeping your OpenAPI schema near the code will hopefully mean that developers keep it up to date as they work on the code.
 
-This is not always the case, which is one of a few reasons this practice is dying out. And I am also not a big fan, as I haven’t seen a big value in this. Anyway, you can have a look at the following projects: [<FontIcon icon="iconfont icon-github"/>`go-swagger/go-swagger`](https://github.com/go-swagger/go-swagger), [<FontIcon icon="iconfont icon-github"/>`swaggo/swag`](https://github.com/swaggo/swag), [<FontIcon icon="iconfont icon-github"/>`swaggest/rest`](https://github.com/swaggest/rest/).
+This is not always the case, which is one of a few reasons this practice is dying out. And I am also not a big fan, as I haven’t seen a big value in this. Anyway, you can have a look at the following projects: [<VPIcon icon="iconfont icon-github"/>`go-swagger/go-swagger`](https://github.com/go-swagger/go-swagger), [<VPIcon icon="iconfont icon-github"/>`swaggo/swag`](https://github.com/swaggo/swag), [<VPIcon icon="iconfont icon-github"/>`swaggest/rest`](https://github.com/swaggest/rest/).
 
 ---
 
@@ -451,7 +451,7 @@ As mentioned earlier, OpenAPI is very powerful for collaboration between teams, 
 
 This part can be automated to some extent by packaging your OpenAPI schema and making it available. I've seen devs use Git submodules for that or GitHub actions to publish the version schemas.
 
-Let's assume our client is a web application written in TypeScript, which is quite common for web APIs. Again, there are may generators available at [<FontIcon icon="iconfont icon-openapi"/>opeanapi.tools](https://openapi.tools/) online but the most popular one is [<FontIcon icon="iconfont icon-openapi"/>openapi-typescript](https://openapi-ts.dev/).
+Let's assume our client is a web application written in TypeScript, which is quite common for web APIs. Again, there are may generators available at [<VPIcon icon="iconfont icon-openapi"/>opeanapi.tools](https://openapi.tools/) online but the most popular one is [<VPIcon icon="iconfont icon-openapi"/>openapi-typescript](https://openapi-ts.dev/).
 
 Here's how you can generate the TypeScript code for local or remote schemas:
 

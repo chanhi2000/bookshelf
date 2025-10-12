@@ -89,7 +89,7 @@ Here are the algorithms and topics covered in this course:
 - Extensive Explanation
 - Difference b/w the Algorithms
 
-Watch the course below or [<FontIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/l7-f9gS8VOs) (1-hour watch).
+Watch the course below or [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/l7-f9gS8VOs) (1-hour watch).
 
 <VidStack src="youtube/l7-f9gS8VOs" />
 

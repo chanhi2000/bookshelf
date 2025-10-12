@@ -187,7 +187,7 @@ COPY . .
 CMD ["npm", "test"]
 ```
 
-**Example <FontIcon icon="iconfont icon-yaml"/>`docker-compose.yml`:**
+**Example <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yml`:**
 
 ```yaml title="docker-compose.yml"
 version: '3.8'

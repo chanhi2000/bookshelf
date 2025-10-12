@@ -301,7 +301,7 @@ Let's understand how to implement the autocomplete functionality in React.
 
 ### Auto-complete example
 
-Use `create-react-app` (or a modern build tool like Vite) to create the project. Remove the existing boilerplate code. There is no need to install any additional dependencies. Run `npm start` command to start the project. You can find the complete code on [GitHub (<FontIcon icon="iconfont icon-github"/>`KunalN25/react-debouncing`)](https://github.com/KunalN25/react-debouncing).
+Use `create-react-app` (or a modern build tool like Vite) to create the project. Remove the existing boilerplate code. There is no need to install any additional dependencies. Run `npm start` command to start the project. You can find the complete code on [GitHub (<VPIcon icon="iconfont icon-github"/>`KunalN25/react-debouncing`)](https://github.com/KunalN25/react-debouncing).
 
 <SiteInfo
   name="KunalN25/react-debouncing: This implements the auto-complete functionality with debouncing in javascript"
@@ -341,7 +341,7 @@ function App() {
 }
 ```
 
-The data will be stored as state and the results will only be shown if the data is non-empty. I'll skip over the CSS for this tutorial, you can find it in the [Git Repo (<FontIcon icon="fa-brands fa-react"/>)](https://github.com/KunalN25/react-debouncing).
+The data will be stored as state and the results will only be shown if the data is non-empty. I'll skip over the CSS for this tutorial, you can find it in the [Git Repo (<VPIcon icon="fa-brands fa-react"/>)](https://github.com/KunalN25/react-debouncing).
 
 <SiteInfo
   name="KunalN25/react-debouncing"

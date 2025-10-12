@@ -62,7 +62,7 @@ If you don’t have an existing React project, create one using Vite:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 npm create vite@latest my-react-app --template react
@@ -70,7 +70,7 @@ cd my-react-app
 npm install
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 yarn create vite@latest my-react-app --template react
@@ -84,13 +84,13 @@ Once the installation is complete, you can start the development server:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn dev
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm run dev
@@ -104,13 +104,13 @@ Now, install the npm library we created earlier (`my-awesome-library`).
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 npm install my-awesome-library
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 yarn add my-awesome-library
@@ -124,7 +124,7 @@ yarn add my-awesome-library
 
 Once installed, you can use the library inside a React component.
 
-Open <FontIcon icon="fas fa-folder-open"/>`src/`<FontIcon icon="fa-brands fa-react"/>`App.jsx` and modify it as follows:
+Open <VPIcon icon="fas fa-folder-open"/>`src/`<VPIcon icon="fa-brands fa-react"/>`App.jsx` and modify it as follows:
 
 ```jsx title="App.jsx"
 import React from "react";
@@ -147,13 +147,13 @@ Now, run your Vite React app:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn dev
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm run dev
@@ -171,13 +171,13 @@ To update your npm package in your project:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn upgrade my-awesome-library
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm update my-awesome-library
@@ -189,13 +189,13 @@ If you want to check outdated dependencies:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 yarn outdated
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 npm outdated
@@ -215,14 +215,14 @@ Go to your package’s project folder:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 cd ~/path-to-my-awesome-library
 yarn link
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 cd ~/path-to-my-awesome-library
@@ -237,7 +237,7 @@ Navigate to your React app and link the package:
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-yarn"/>
+@tab:active <VPIcon icon="fa-brands fa-yarn"/>
 
 ```sh
 cd ~/path-to-my-react-app
@@ -245,7 +245,7 @@ yarn link my-awesome-library
 
 ```
 
-@tab <FontIcon icon="fa-brands fa-npm"/>
+@tab <VPIcon icon="fa-brands fa-npm"/>
 
 ```sh
 cd ~/path-to-my-react-app
@@ -262,7 +262,7 @@ Now, when you import and use `my-awesome-library`, it will use the local version
 
 If you’ve made changes to your package and want to publish a new version:
 
-1️⃣ **Update the version number** in <FontIcon icon="iconfont icon-json"/>`package.json` (use `npm version patch` for small updates).  
+1️⃣ **Update the version number** in <VPIcon icon="iconfont icon-json"/>`package.json` (use `npm version patch` for small updates).  
 2️⃣ **Run** `npm publish` to upload the new version.  
 3️⃣ **Run** `npm update my-awesome-library` in your React project to get the latest version.
 

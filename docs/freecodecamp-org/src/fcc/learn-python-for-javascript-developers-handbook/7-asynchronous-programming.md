@@ -156,7 +156,7 @@ asyncio.run(fetch_data())
 
 Asynchronous programming is suitable for tasks that involve waiting, such as network requests, file I/O, or database queries. Here’s how Python and JavaScript handle common use cases:
 
-### <FontIcon icon="fa-brands fa-js"/>Real-Time Applications (JavaScript)
+### <VPIcon icon="fa-brands fa-js"/>Real-Time Applications (JavaScript)
 
 JavaScript’s event-driven model makes it ideal for real-time applications like chat systems, live streaming, or collaborative tools.
 
@@ -172,7 +172,7 @@ socket.onmessage = (event) => {
 
 :::
 
-### <FontIcon icon="fa-brands fa-python"/>I/O-Bound Tasks (Python)
+### <VPIcon icon="fa-brands fa-python"/>I/O-Bound Tasks (Python)
 
 Python’s asynchronous model excels at handling I/O-bound tasks such as file processing, web scraping, or database queries.
 

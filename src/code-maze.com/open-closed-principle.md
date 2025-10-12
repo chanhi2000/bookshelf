@@ -118,7 +118,7 @@ In this article, we will show you how to write the code by following the Open Cl
 
 ::: info
 
-To download the source code for this project, check out [the Open Closed Principle Project Source Code (<FontIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/open-closed-principle).
+To download the source code for this project, check out [the Open Closed Principle Project Source Code (<VPIcon icon="iconfont icon-github"/>`CodeMazeBlog/solid-principles-csharp`)](https://github.com/CodeMazeBlog/solid-principles-csharp/tree/open-closed-principle).
 
 <SiteInfo
   name="CodeMazeBlog/solid-principles-csharp at open-closed-principle"

@@ -701,9 +701,9 @@ By mastering template literals, destructuring, ternaries, arrow functions, short
 
 To deepen your understanding of React, consider checking out the following:
 
-- [<FontIcon icon="fa-brands fa-react"/>Official React Documentation](https:/legacy.reactjs.org/docs/getting-started.html)
-- [<FontIcon icon="fa-brands fa-react"/>Create React App](https://create-react-app.dev/): A popular tool for setting up React projects quickly
-- **Online Courses**: Platforms like [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp](https://freecodecamp.org/), **Udemy**, and **Coursera** offer comprehensive React courses.
+- [<VPIcon icon="fa-brands fa-react"/>Official React Documentation](https:/legacy.reactjs.org/docs/getting-started.html)
+- [<VPIcon icon="fa-brands fa-react"/>Create React App](https://create-react-app.dev/): A popular tool for setting up React projects quickly
+- **Online Courses**: Platforms like [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp](https://freecodecamp.org/), **Udemy**, and **Coursera** offer comprehensive React courses.
 - **React Community**: Engage with the React community on forums, social media, and meetups to learn from others and stay updated on the latest trends.
 
 ### Call to Action
@@ -718,7 +718,7 @@ The journey of mastering React is ongoing. Stay curious, keep learning, and enjo
 
 Don't forget to share and recommend this article for anyone who might need it.
 
-Thanks for reading. Let's connect on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`devtoheeb`)](https://x.com/devtoheeb) or [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`akande-olalekan-toheeb-2a69a0221`)](https://linkedin.com/in/akande-olalekan-toheeb-2a69a0221).
+Thanks for reading. Let's connect on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`devtoheeb`)](https://x.com/devtoheeb) or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`akande-olalekan-toheeb-2a69a0221`)](https://linkedin.com/in/akande-olalekan-toheeb-2a69a0221).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

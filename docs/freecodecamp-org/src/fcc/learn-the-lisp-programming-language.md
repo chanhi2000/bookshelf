@@ -83,7 +83,7 @@ This course is perfect for developers looking to expand their knowledge of progr
 
 ## Ready to Begin?
 
-Check out the [<FontIcon icon="fa-brands fa-youtube"/>Lisp for Beginners](https://youtu.be/cKK-Y1-jAHM) course now on the freeCodeCamp.org YouTube channel (3-hour watch).
+Check out the [<VPIcon icon="fa-brands fa-youtube"/>Lisp for Beginners](https://youtu.be/cKK-Y1-jAHM) course now on the freeCodeCamp.org YouTube channel (3-hour watch).
 
 <VidStack src="youtube/cKK-Y1-jAHM" />
 

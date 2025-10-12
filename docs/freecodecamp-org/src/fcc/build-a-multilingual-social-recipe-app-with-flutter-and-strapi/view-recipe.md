@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6c-9a48-4037-9cc2-3b35a92b6006.png"/>
 
-In the <FontIcon icon="fas fa-folder-open"/>`lib/screens/`<FontIcon icon="fa-brands fa-dart-lang"/>`detail.dart` file, add the code below:
+In the <VPIcon icon="fas fa-folder-open"/>`lib/screens/`<VPIcon icon="fa-brands fa-dart-lang"/>`detail.dart` file, add the code below:
 
 ```dart title="lib/screens/detail.dart"
 import 'dart:developer';

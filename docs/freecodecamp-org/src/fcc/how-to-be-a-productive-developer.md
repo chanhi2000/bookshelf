@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726233167534/1e4979f
 
 If you are having trouble accomplishing as much as you want to accomplish, we have a course for you.
 
-We just published a course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that is designed to equip software developers with essential soft skills for boosting productivity and effectiveness. Developed by Fatos Morina, this comprehensive course teaches the often-overlooked aspects of personal and professional development that can significantly enhance your career in software development.
+We just published a course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that is designed to equip software developers with essential soft skills for boosting productivity and effectiveness. Developed by Fatos Morina, this comprehensive course teaches the often-overlooked aspects of personal and professional development that can significantly enhance your career in software development.
 
 ---
 
@@ -92,7 +92,7 @@ And here are some of the things you will learn in this course:
 
 By focusing on personal development alongside technical skills, you can unlock your full potential and achieve greater success in the software development industry.
 
-Head over to the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/C_jQahOnGUU) to watch the course (1.5-hour watch).
+Head over to the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/C_jQahOnGUU) to watch the course (1.5-hour watch).
 
 <VidStack src="youtube/C_jQahOnGUU" />
 

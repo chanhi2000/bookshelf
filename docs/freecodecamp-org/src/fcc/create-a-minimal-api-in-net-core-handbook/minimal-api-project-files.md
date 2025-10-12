@@ -53,27 +53,27 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733158500882/9af04a1
 
 To organize our project, we will create a structured folder hierarchy. This will help keep our code clean and maintainable. Here is the folder structure we will use:
 
-- <FontIcon icon="fas fa-folder-open"/>`AppContext`: Contains the database context and related configurations.
-- <FontIcon icon="fas fa-foler-open"/>`Configurations`: Holds Entity Framework Core configurations and seed data for the database.
-- <FontIcon icon="fas fa-foler-open"/>`Contracts`: Contains Data Transfer Objects (DTOs) used in our application.
-- <FontIcon icon="fas fa-foler-open"/>`Endpoints`: Where we define and configure our minimal API endpoints.
-- <FontIcon icon="fas fa-foler-open"/>`Exceptions`: Contains custom exception classes used in the project.
-- <FontIcon icon="fas fa-foler-open"/>`Extensions`: Holds extension methods that we will use throughout the project.
-- <FontIcon icon="fas fa-foler-open"/>`Models`: Contains business logic models.
-- <FontIcon icon="fas fa-foler-open"/>`Services`: Contains service classes that implement business logic.
-- <FontIcon icon="fas fa-foler-open"/>`Interfaces`: Holds interface definitions used to map our services.
+- <VPIcon icon="fas fa-folder-open"/>`AppContext`: Contains the database context and related configurations.
+- <VPIcon icon="fas fa-foler-open"/>`Configurations`: Holds Entity Framework Core configurations and seed data for the database.
+- <VPIcon icon="fas fa-foler-open"/>`Contracts`: Contains Data Transfer Objects (DTOs) used in our application.
+- <VPIcon icon="fas fa-foler-open"/>`Endpoints`: Where we define and configure our minimal API endpoints.
+- <VPIcon icon="fas fa-foler-open"/>`Exceptions`: Contains custom exception classes used in the project.
+- <VPIcon icon="fas fa-foler-open"/>`Extensions`: Holds extension methods that we will use throughout the project.
+- <VPIcon icon="fas fa-foler-open"/>`Models`: Contains business logic models.
+- <VPIcon icon="fas fa-foler-open"/>`Services`: Contains service classes that implement business logic.
+- <VPIcon icon="fas fa-foler-open"/>`Interfaces`: Holds interface definitions used to map our services.
 
 In Visual Studio Code, you can create this folder structure as follows:
 
-- <FontIcon icon="fas fa-folder-open"/>`AppContext`
-- <FontIcon icon="fas fa-folder-open"/>`Configurat`
-- <FontIcon icon="fas fa-folder-open"/>`Contracts`
-- <FontIcon icon="fas fa-folder-open"/>`Endpoints`
-- <FontIcon icon="fas fa-folder-open"/>`Exceptions`
-- <FontIcon icon="fas fa-folder-open"/>`Extensions`
-- <FontIcon icon="fas fa-folder-open"/>`Models`
-- <FontIcon icon="fas fa-folder-open"/>`Services`
-- <FontIcon icon="fas fa-folder-open"/>`Interfaces`
+- <VPIcon icon="fas fa-folder-open"/>`AppContext`
+- <VPIcon icon="fas fa-folder-open"/>`Configurat`
+- <VPIcon icon="fas fa-folder-open"/>`Contracts`
+- <VPIcon icon="fas fa-folder-open"/>`Endpoints`
+- <VPIcon icon="fas fa-folder-open"/>`Exceptions`
+- <VPIcon icon="fas fa-folder-open"/>`Extensions`
+- <VPIcon icon="fas fa-folder-open"/>`Models`
+- <VPIcon icon="fas fa-folder-open"/>`Services`
+- <VPIcon icon="fas fa-folder-open"/>`Interfaces`
 
 After setting up, your project folder structure should look like this:
 

@@ -155,4 +155,4 @@ GET is ideal for retrieving data, POST and PUT help with creating and updating, 
 
 Using the appropriate HTTP methods ensures your application runs efficiently and securely, offering a smooth experience for users.
 
-If you have any questions or suggestions, feel free to reach out on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://ng.linkedin.com/in/joan-ayebola). If you enjoyed this content, consider [<FontIcon icon="fas fa-globe"/>buying me a coffee](https://buymeacoffee.com/joanayebola) to support the creation of more developer-friendly contents.
+If you have any questions or suggestions, feel free to reach out on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://ng.linkedin.com/in/joan-ayebola). If you enjoyed this content, consider [<VPIcon icon="fas fa-globe"/>buying me a coffee](https://buymeacoffee.com/joanayebola) to support the creation of more developer-friendly contents.

@@ -160,7 +160,7 @@ BaaS platforms provide ready-made backend solutions, making app development simp
 
 BaaS is a cloud platform that provides pre-built backend infrastructure and services. It eliminates the need for developers to manage servers, databases, and other backend tasks.
 
-![Graphical interface of BaaS<br/>[​​**Source:** <FontIcon icon="fa-brands fa-cloudflare"/>CloudFlare](https://cloudflare.com/fr-fr/learning/serverless/glossary/backend-as-a-service-baas/)](https://cdn.hashnode.com/res/hashnode/image/upload/v1739537937739/4ae3bb03-1196-4298-9299-a0a09c4bd41d.png)
+![Graphical interface of BaaS<br/>[​​**Source:** <VPIcon icon="fa-brands fa-cloudflare"/>CloudFlare](https://cloudflare.com/fr-fr/learning/serverless/glossary/backend-as-a-service-baas/)](https://cdn.hashnode.com/res/hashnode/image/upload/v1739537937739/4ae3bb03-1196-4298-9299-a0a09c4bd41d.png)
 
 ::: important ​​Key Features of BaaS
 
@@ -245,7 +245,7 @@ For developers, it comes with:
 - SDKs for React, Next.js, Vue, and so on
 - Custom email & SMS templates
 
-To learn more, click here: [<FontIcon icon="fas fa-globe"/>Clerk](https://clerk.com/)
+To learn more, click here: [<VPIcon icon="fas fa-globe"/>Clerk](https://clerk.com/)
 
 :::
 
@@ -253,7 +253,7 @@ To learn more, click here: [<FontIcon icon="fas fa-globe"/>Clerk](https://clerk.
 
 Clerk offers a **Free Plan** that includes up to 10,000 Monthly Active Users (MAUs) at no cost. For more advanced features, the **Pro Plan** is available at $25 per month, which also includes the first 10,000 MAUs.
 
-For detailed and up-to-date information on Clerk's pricing plans, please visit their [<FontIcon icon="fas fa-globe"/>official pricing page](https://clerk.com/pricing):
+For detailed and up-to-date information on Clerk's pricing plans, please visit their [<VPIcon icon="fas fa-globe"/>official pricing page](https://clerk.com/pricing):
 
 :::
 
@@ -299,13 +299,13 @@ Firebase provides:
 - Text recognition
 - Image labelling
 
-To learn more, click here: [<FontIcon icon="iconfont icon-supabase"/>Firebase](https://firebase.google.com/)
+To learn more, click here: [<VPIcon icon="iconfont icon-supabase"/>Firebase](https://firebase.google.com/)
 
 :::
 
 ::: important Pricing plan
 
-Firebase offers a **Spark Plan** (free tier) and a **Blaze Plan** (pay-as-you-go). The Spark Plan provides limited free usage, while the Blaze Plan charges based on your actual usage. For detailed and up-to-date information on Firebase's pricing plans, please visit their [<FontIcon icon="iconfont icon-supabase"/>official pricing page](https://firebase.google.com/pricing).
+Firebase offers a **Spark Plan** (free tier) and a **Blaze Plan** (pay-as-you-go). The Spark Plan provides limited free usage, while the Blaze Plan charges based on your actual usage. For detailed and up-to-date information on Firebase's pricing plans, please visit their [<VPIcon icon="iconfont icon-supabase"/>official pricing page](https://firebase.google.com/pricing).
 
 :::
 
@@ -323,7 +323,7 @@ Convex is a serverless BaaS platform. It provides real-time data sync and scalab
 - **Caching** - Faster data retrieval
 - **Webhooks & Crons** - Automate tasks & trigger events
 
-To learn more, click here: [<FontIcon icon="iconfont icon-convex"/>Convex](https://convex.dev/)
+To learn more, click here: [<VPIcon icon="iconfont icon-convex"/>Convex](https://convex.dev/)
 
 :::
 
@@ -332,7 +332,7 @@ To learn more, click here: [<FontIcon icon="iconfont icon-convex"/>Convex](https
 - **Free Plan** - Limited resources for small projects
 - **Pro Plan** - Pay-as-you-go based on usage
 
-Check out full details for [<FontIcon icon="iconfont icon-convex"/>convex pricing](https://convex.dev/pricing)
+Check out full details for [<VPIcon icon="iconfont icon-convex"/>convex pricing](https://convex.dev/pricing)
 
 :::
 
@@ -350,7 +350,7 @@ A low-code platform that allows developers to build serverless apps with minimal
 - **Authentication** - Built-in user login & access control.
 - **File Management** - Store and manage files.
 
-To learn more, click here: [<FontIcon icon="iconfont icon-8base"/>8base](https://8base.com/)
+To learn more, click here: [<VPIcon icon="iconfont icon-8base"/>8base](https://8base.com/)
 
 :::
 
@@ -361,7 +361,7 @@ To learn more, click here: [<FontIcon icon="iconfont icon-8base"/>8base](https:/
 - **Professional Plan** - $150/month (5 developers).
 - **Custom Plan** - Contact 8base for enterprise solutions.
 
-Check out full pricing details here: [<FontIcon icon="iconfont icon-8base"/>8base Pricing](https://8base.com/pricing)
+Check out full pricing details here: [<VPIcon icon="iconfont icon-8base"/>8base Pricing](https://8base.com/pricing)
 
 :::
 
@@ -379,7 +379,7 @@ Backendless is a no-code platform that makes app development easy. It provides A
 - **Cloud Code**: Implement custom server-side logic without managing servers.
 - **Push Notifications**: Send real-time alerts to users on various devices.
 
-To learn more, click here: [<FontIcon icon="iconfont icon-backendless"/>Backendless](https://backendless.com/)
+To learn more, click here: [<VPIcon icon="iconfont icon-backendless"/>Backendless](https://backendless.com/)
 
 :::
 
@@ -392,7 +392,7 @@ Backendless offers several plans to suit different needs:
 - **Scale Variable Plan**: Offers flexibility with usage-based billing, scaling as your app grows.
 - **Backendless Pro**: A self-hosted solution for enterprises requiring unlimited scalability and control.
 
-For more details on Backendless's pricing plans, please visit their [<FontIcon icon="iconfont icon-backendless"/>official pricing plan page](https://backendless.com/pricing/).
+For more details on Backendless's pricing plans, please visit their [<VPIcon icon="iconfont icon-backendless"/>official pricing plan page](https://backendless.com/pricing/).
 
 :::
 
@@ -410,7 +410,7 @@ Appwrite is an open-source BaaS that provides databases, authentication, file st
 - **Storage**: Manage and serve files with built-in security and privacy features.
 - **Real-Time**: Subscribe to database events for instant updates.
 
-To learn more, click here: [<FontIcon icon="iconfont icon-appwrite"/>write](https://appwrite.io/)
+To learn more, click here: [<VPIcon icon="iconfont icon-appwrite"/>write](https://appwrite.io/)
 
 :::
 
@@ -420,7 +420,7 @@ To learn more, click here: [<FontIcon icon="iconfont icon-appwrite"/>write](http
 - **Pro** - Starts at $15/month (more storage, bandwidth, & features).
 - **Scale** - Starts at $599/month (for large-scale projects).
 
-For more details on the pricing plan check their [<FontIcon icon="iconfont icon-appwrite"/>official pricing page](https://appwrite.io/pricing).
+For more details on the pricing plan check their [<VPIcon icon="iconfont icon-appwrite"/>official pricing page](https://appwrite.io/pricing).
 
 :::
 
@@ -438,7 +438,7 @@ Nhost is a full backend platform with a GraphQL API, database, authentication, a
 - **Storage** - Secure file hosting.
 - **Real-Time** - Instant updates on data changes.
 
-To learn more, click here: [<FontIcon icon="iconfont icon-nhost"/>Nhost](https://nhost.io/).
+To learn more, click here: [<VPIcon icon="iconfont icon-nhost"/>Nhost](https://nhost.io/).
 
 :::
 
@@ -448,7 +448,7 @@ To learn more, click here: [<FontIcon icon="iconfont icon-nhost"/>Nhost](https:/
 - **Pro** - $25/month (more resources & support).
 - **Dedicated Compute** - $50/month per vCPU/2GB RAM (for scaling apps).
 
-Check out full details here: [<FontIcon icon="iconfont icon-nhost"/>Nhost Pricing](https://nhost.io/pricing)
+Check out full details here: [<VPIcon icon="iconfont icon-nhost"/>Nhost Pricing](https://nhost.io/pricing)
 
 :::
 
@@ -466,7 +466,7 @@ Back4App is an open-source BaaS that simplifies backend development. It provides
 - **Push Notifications** - Send alerts to users.
 - **Cloud Functions** - Run custom backend code.
 
-To learn more, click here: [<FontIcon icon="iconfont icon-back4app"/>Back4apps](https://back4app.com/).
+To learn more, click here: [<VPIcon icon="iconfont icon-back4app"/>Back4apps](https://back4app.com/).
 
 :::
 
@@ -480,7 +480,7 @@ The **MVP Plan** in Back4App refers to a **Minimum Viable Product (MVP) Plan**. 
 
 While **Dedicated Plan** in Back4App provides a **private server with dedicated resources** for apps that need better performance, security, and scalability. It is ideal for production apps with high traffic or specific infrastructure requirements.
 
-Check out full details here: [<FontIcon icon="iconfont icon-back4app"/>Back4App Pricing](https://back4app.com/pricing).
+Check out full details here: [<VPIcon icon="iconfont icon-back4app"/>Back4App Pricing](https://back4app.com/pricing).
 
 :::
 
@@ -497,7 +497,7 @@ AWS Amplify is a development platform from Amazon Web Services (AWS). It simplif
 - **Storage** - Manage files and media with Amazon S3
 - **Hosting** - Deploy full-stack apps with continuous deployment
 
-To learn more, click here: [<FontIcon icon="fa-brands fa-aws"/>Aws Amplify](https://aws.amazon.com/amplify/?gclid=Cj0KCQjwpP63BhDYARIsAOQkATZlSP8VJyO8gGZMtrSp7JE6hMJjFPh1Am4F2eQv5Yex_okPLLvWjlUaAgDQEALw_wcB&trk=e37f908f-322e-4ebc-9def-9eafa78141b8&sc_channel=ps&ef_id=Cj0KCQjwpP63BhDYARIsAOQkATZlSP8VJyO8gGZMtrSp7JE6hMJjFPh1Am4F2eQv5Yex_okPLLvWjlUaAgDQEALw_wcB:G:s&s_kwcid=AL!4422!3!647301987559!p!!g!!amplify%20framework!19613610159!148358959649)
+To learn more, click here: [<VPIcon icon="fa-brands fa-aws"/>Aws Amplify](https://aws.amazon.com/amplify/?gclid=Cj0KCQjwpP63BhDYARIsAOQkATZlSP8VJyO8gGZMtrSp7JE6hMJjFPh1Am4F2eQv5Yex_okPLLvWjlUaAgDQEALw_wcB&trk=e37f908f-322e-4ebc-9def-9eafa78141b8&sc_channel=ps&ef_id=Cj0KCQjwpP63BhDYARIsAOQkATZlSP8VJyO8gGZMtrSp7JE6hMJjFPh1Am4F2eQv5Yex_okPLLvWjlUaAgDQEALw_wcB:G:s&s_kwcid=AL!4422!3!647301987559!p!!g!!amplify%20framework!19613610159!148358959649)
 
 :::
 
@@ -532,7 +532,7 @@ Supabase is an open-source alternative to Firebase. It uses PostgreSQL for its d
 - **Real-Time** - Get instant updates when data changes.
 - **Edge Functions** - Run serverless backend logic.
 
-To learn more, click here: [<FontIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/).
+To learn more, click here: [<VPIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/).
 
 :::
 
@@ -542,7 +542,7 @@ To learn more, click here: [<FontIcon icon="iconfont icon-supabase"/>Supabase](h
 - **Pro** - Starts at $25/month (includes $10 compute credits).
 - **Team** - Starts at $599/month (for advanced features & support).
 
-Full details here: [<FontIcon icon="iconfont icon-supabase"/>Supabase Pricing](https://supabase.com/pricing)
+Full details here: [<VPIcon icon="iconfont icon-supabase"/>Supabase Pricing](https://supabase.com/pricing)
 
 :::
 
@@ -552,7 +552,7 @@ Full details here: [<FontIcon icon="iconfont icon-supabase"/>Supabase Pricing](h
 
 Let’s go through a quick example to get started. In this tutorial, I’ll use Firebase as an example.
 
-- Go to the [<FontIcon icon="iconfont icon-supabase"/>Firebase website](https://firebase.google.com/) and sign up using your Google account.
+- Go to the [<VPIcon icon="iconfont icon-supabase"/>Firebase website](https://firebase.google.com/) and sign up using your Google account.
 - After signing in, create a new Firebase project by following the on-screen instructions.
 - Go to "Authentication" and enable a sign-in method, like email/password or Google login
 - In "Firestore Database," create a new database for your app's data.
@@ -572,7 +572,7 @@ Have you tried using BaaS for your applications? Share your experiences!
 
 If you found this article helpful, share it with others who may find it interesting.
 
-Stay updated with my projects by following me on [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`ijaydimples`)](https://twitter.com/ijaydimples), [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`ijaydimples`)](https://linkedin.com/in/ijaydimples) and [GitHub (<FontIcon icon="iconfont icon-github"/>`ijayhub`)](https://github.com/ijayhub).
+Stay updated with my projects by following me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`ijaydimples`)](https://twitter.com/ijaydimples), [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`ijaydimples`)](https://linkedin.com/in/ijaydimples) and [GitHub (<VPIcon icon="iconfont icon-github"/>`ijayhub`)](https://github.com/ijayhub).
 
 Thank you for reading.
 

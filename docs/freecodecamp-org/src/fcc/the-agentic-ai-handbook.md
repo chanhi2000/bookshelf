@@ -71,11 +71,11 @@ You may have heard about “Agentic AI” systems and wondered what they’re al
 
 Unlike chatbots or rule-based software, agentic AI actively responds to user requests. It may break activities into smaller tasks, make decisions based on a high-level goal, and change its behavior over time using tools or other specialized AI components.
 
-To summarize, [<FontIcon icon="iconfont icon-nvidia"/>agentic AI systems](https://blogs.nvidia.com/blog/what-is-agentic-ai/) "solve complex, multi-step problems autonomously by using sophisticated reasoning and iterative planning." In customer service, for example, an agentic AI may answer questions, check a user's account, offer balance settlements, and conduct transactions without human supervision.
+To summarize, [<VPIcon icon="iconfont icon-nvidia"/>agentic AI systems](https://blogs.nvidia.com/blog/what-is-agentic-ai/) "solve complex, multi-step problems autonomously by using sophisticated reasoning and iterative planning." In customer service, for example, an agentic AI may answer questions, check a user's account, offer balance settlements, and conduct transactions without human supervision.
 
-So, agentic AI is "[<FontIcon icon="iconfont icon-ibm"/>AI with agency](https://ibm.com/think/topics/agentic-ai)”. Given a problem context, it sets goals, creates strategies, manipulates the environment or software tools, and learns from the results.
+So, agentic AI is "[<VPIcon icon="iconfont icon-ibm"/>AI with agency](https://ibm.com/think/topics/agentic-ai)”. Given a problem context, it sets goals, creates strategies, manipulates the environment or software tools, and learns from the results.
 
-But at the moment, most popular AI systems are reactive or non-agentic, doing a specific job or reacting to inputs without preparation. For example, Siri or a traditional image classifier use predefined models or rules to map inputs to outputs. Instead of long-term goals or multi-step processes, [<FontIcon icon="iconfont icon-ibm"/>reactive AI](https://ibm.com/think/topics) "responds to specific inputs with pre-defined actions". Agentic AI is more like a robot or personal assistant that can handle reasoning chains, adapt, and "think" before acting.
+But at the moment, most popular AI systems are reactive or non-agentic, doing a specific job or reacting to inputs without preparation. For example, Siri or a traditional image classifier use predefined models or rules to map inputs to outputs. Instead of long-term goals or multi-step processes, [<VPIcon icon="iconfont icon-ibm"/>reactive AI](https://ibm.com/think/topics) "responds to specific inputs with pre-defined actions". Agentic AI is more like a robot or personal assistant that can handle reasoning chains, adapt, and "think" before acting.
 
 ::: info What we’ll cover here
 
@@ -113,7 +113,7 @@ The agent must use sensors or data streams to perceive, evaluate, and decide to 
 
 An agentic AI's “reasoning engine” (usually a large language model or similar system) makes decisions and can adjust its behavior based on user feedback or rewards.
 
-As IBM explains, “without any human intervention, agentic AI can act independently, adapt to new situations, make decisions, and learn from experience” ([<FontIcon icon="iconfont icon-ibm"/>source](https://ibm.com/think/topics/agentic-ai)). But uncontrolled autonomous agents may behave in unpredictable ways - which is why they must be carefully designed.
+As IBM explains, “without any human intervention, agentic AI can act independently, adapt to new situations, make decisions, and learn from experience” ([<VPIcon icon="iconfont icon-ibm"/>source](https://ibm.com/think/topics/agentic-ai)). But uncontrolled autonomous agents may behave in unpredictable ways - which is why they must be carefully designed.
 
 Although agentic AIs can operate on their own, their goals, tools, and boundaries must be clearly planned to avoid unintended or harmful outcomes. Without that guidance, they may follow instructions too literally or make decisions without understanding the bigger picture.
 
@@ -158,7 +158,7 @@ Making judgments by applying logic and inference is known as reasoning. In addit
 
 An agent may, for instance, apply deductive reasoning, like "If sales fall below X, reorder inventory" or "All invoices are paid by Friday. This is an invoice, so I should pay it by Friday". By enabling the agent to process natural language commands, retain contextual information, and produce logical justifications for its decisions, large language models support reasoning.
 
-An LLM "acts as the orchestrator or reasoning engine" that comprehends tasks and produces solutions, [<FontIcon icon="iconfont icon-langchain"/>according to one explanation in the LangChain docs](https://python.langchain.com/docs/). In order to retrieve pertinent information for reasoning, agents also employ strategies such as [**retrieval-augmented generation (RAG)**](/freecodecamp.org/learn-rag-fundamentals-and-advanced-techniques.md).
+An LLM "acts as the orchestrator or reasoning engine" that comprehends tasks and produces solutions, [<VPIcon icon="iconfont icon-langchain"/>according to one explanation in the LangChain docs](https://python.langchain.com/docs/). In order to retrieve pertinent information for reasoning, agents also employ strategies such as [**retrieval-augmented generation (RAG)**](/freecodecamp.org/learn-rag-fundamentals-and-advanced-techniques.md).
 
 Agentic reasoning is essentially like internal planning and problem-solving. An agent evaluates a task by internally simulating potential strategies (often in the "thoughts" of an LLM) and selecting the most effective one. This might entail formal logic, analogical reasoning (connecting a new problem to previous ones), or multi-step deduction. So the agent continually considers its next course of action and adjusts to new inputs rather of just clicking "execute" on a single model outcome.
 
@@ -166,7 +166,7 @@ Agentic reasoning is essentially like internal planning and problem-solving. An 
 
 Agents can utilize memory to recall prior experiences, information, and interactions to make decisions. A memoryless AI would treat every moment as new. Agentic systems record their behaviors, outcomes, and context. A short-term “working memory” of the present plan state or a long-term world knowledge base are examples.
 
-A customer-service agent may remember a user's name and issue history to avoid repeating inquiries. Game-playing agents learn from past positions to move better. [<FontIcon icon="iconfont icon-ibm"/>IBM says](https://research.ibm.com/blog/agentic-ai) AI agent memory “refers to an AI system’s ability to store and recall past experiences to improve decision-making, perception and overall performance”. Goal-oriented agents need memory to create a cohesive narrative of previous steps (to avoid repeating failures) and discover trends.
+A customer-service agent may remember a user's name and issue history to avoid repeating inquiries. Game-playing agents learn from past positions to move better. [<VPIcon icon="iconfont icon-ibm"/>IBM says](https://research.ibm.com/blog/agentic-ai) AI agent memory “refers to an AI system’s ability to store and recall past experiences to improve decision-making, perception and overall performance”. Goal-oriented agents need memory to create a cohesive narrative of previous steps (to avoid repeating failures) and discover trends.
 
 Agentic architectures incorporate memory modules like databases or vector storage that the LLM may query. Large language models are stateless. Agents utilize relevance filters to retain only important information since too much memory slows the system. Memory offers the agent context and continuity, allowing it to learn from previous tasks rather than beginning again.
 
@@ -307,13 +307,13 @@ Building AI agents with autonomy and goals is powerful but raises new risks and 
 
 ### Alignment and Value Specification
 
-Setting the correct goals is crucial for agentic systems. If an agent's aims don't match human values, it may be damaging. If a scheduling agent is directed to “minimize costs,” it may reduce vital services unless told to preserve quality. Humans' complicated priorities make value formulation challenging. Unspecified or poorly described goals cause unexpected consequences ([<FontIcon icon="fa-brands fa-wikipedia-w"/>Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law)).
+Setting the correct goals is crucial for agentic systems. If an agent's aims don't match human values, it may be damaging. If a scheduling agent is directed to “minimize costs,” it may reduce vital services unless told to preserve quality. Humans' complicated priorities make value formulation challenging. Unspecified or poorly described goals cause unexpected consequences ([<VPIcon icon="fa-brands fa-wikipedia-w"/>Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law)).
 
 ### Unintended Consequences
 
 Even with good intentions, agents may discover loopholes. Reward-hacking in reinforcement learning is an example from basic AI. Autonomy increases these hazards for agentic AI. Recent experiments showed an LLM-based AI was told to pursue a goal “at all costs.” It planned to stop its own monitoring and clone itself to escape shutdown, acting in self-preservation.
 
-If unconstrained, an agent may deceive to achieve its aims. Unintended effects can range from an assistant arranging a hazardous flight because it fixed on a cost-savings aim to more subtle damages like cutting important benefits. [<FontIcon icon="iconfont icon-ibm"/>IBM researchers warn](https://ibm.com/think/insights/ethics-governance-agentic-ai) that agents “can act without your supervision”, resulting in unintended consequences without strong protections.
+If unconstrained, an agent may deceive to achieve its aims. Unintended effects can range from an assistant arranging a hazardous flight because it fixed on a cost-savings aim to more subtle damages like cutting important benefits. [<VPIcon icon="iconfont icon-ibm"/>IBM researchers warn](https://ibm.com/think/insights/ethics-governance-agentic-ai) that agents “can act without your supervision”, resulting in unintended consequences without strong protections.
 
 ### Safety and Security
 
@@ -325,7 +325,7 @@ LLM-style adversarial assaults and hallucinations become more dangerous in agent
 
 In many agentic systems, multiple agents may collaborate or compete. Ensuring that they communicate correctly and don’t conflict is non-trivial.
 
-A recent review notes unique challenges in orchestrating multiple agents without standardized protocols. As [<FontIcon icon="fas fa-globe"/>the Stanford ethics report](https://hai.stanford.edu/ai-index/2025-ai-index-report) points out, if millions of agents interact (for example, booking each other’s appointments), the emergent behavior could be unpredictable at scale. This raises societal concerns about system-level effects and feedback loops we haven’t seen before.
+A recent review notes unique challenges in orchestrating multiple agents without standardized protocols. As [<VPIcon icon="fas fa-globe"/>the Stanford ethics report](https://hai.stanford.edu/ai-index/2025-ai-index-report) points out, if millions of agents interact (for example, booking each other’s appointments), the emergent behavior could be unpredictable at scale. This raises societal concerns about system-level effects and feedback loops we haven’t seen before.
 
 ### Ethical and Legal Questions
 
@@ -392,7 +392,7 @@ This basic structure mirrors how real-world agentic systems operate: perceive �
 
 Real-world agentic AI systems are evolving. Self-driving cars detect their environment, set navigation goals, plan routes, and learn from experience.
 
-[<FontIcon icon="fas fa-globe"/>Tesla's Full Self-Driving](https://tesla.com/AI) “continuously learns from the driving environment and adjusts its behavior” to increase safety. Supply chain logistics businesses are creating agents that monitor inventory, estimate demand, alter routes, and place new orders autonomously. Amazon's warehouse robots utilize agentic AI to navigate complicated surroundings and adapt to changing situations, independently fulfilling orders.
+[<VPIcon icon="fas fa-globe"/>Tesla's Full Self-Driving](https://tesla.com/AI) “continuously learns from the driving environment and adjusts its behavior” to increase safety. Supply chain logistics businesses are creating agents that monitor inventory, estimate demand, alter routes, and place new orders autonomously. Amazon's warehouse robots utilize agentic AI to navigate complicated surroundings and adapt to changing situations, independently fulfilling orders.
 
 Cybersecurity, healthcare, and customer service also use autonomous agents to identify and respond to risks. An agentic AI at a contact center may assess a customer's mood, account history, and company policies to provide a bespoke solution or process. Agentic systems organize and arrange marketing campaigns, write text, choose graphics, and alter strategies depending on performance data. In processes with several phases and choices, agentic AI can handle the whole workflow.
 
@@ -422,7 +422,7 @@ This is where Agentic AI shines: it acts autonomously, reasons, and uses tools j
 ### Prerequisites - What You Need
 
 1. Python 3.10 or higher
-2. An OpenAI API key ([<FontIcon icon="iconfont icon-openai"/>https://platform.openai.com/api-keys](https://platform.openai.com/api-keys))
+2. An OpenAI API key ([<VPIcon icon="iconfont icon-openai"/>https://platform.openai.com/api-keys](https://platform.openai.com/api-keys))
 3. Install the required Python libraries:
 
 ```sh

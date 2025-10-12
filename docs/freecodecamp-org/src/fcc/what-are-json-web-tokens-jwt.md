@@ -448,7 +448,7 @@ For situations requiring immediate revocation (for example, user password change
 
 ## Thanks for reading!
 
-I hope you’ve found this tutorial useful, and as always if you want to ask any questions or hear about upcoming articles, you can always follow me on ‘X’, my handle is @grantdotdev and follow by clicking [here (<FontIcon icon="fa-brands fa-x-twitter"/>`grantdotdev`)](https://x.com/grantdotdev).
+I hope you’ve found this tutorial useful, and as always if you want to ask any questions or hear about upcoming articles, you can always follow me on ‘X’, my handle is @grantdotdev and follow by clicking [here (<VPIcon icon="fa-brands fa-x-twitter"/>`grantdotdev`)](https://x.com/grantdotdev).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

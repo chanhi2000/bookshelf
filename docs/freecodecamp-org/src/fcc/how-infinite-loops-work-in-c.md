@@ -440,7 +440,7 @@ Infinite loops aren’t always dangerous. They can be very useful when used with
 
 So just make sure you check your loop conditions and test your code using print statements between the programs to discover any unexpected behavior. In sum, infinite loops can be very powerful when handled carefully but can be very risky if left unchecked.
 
-If you are beginner in C++, I’ve covered many programming topic in detail on the [<FontIcon icon="fas fa-globe"/>TutorialsPoint platform](https://tutorialspoint.com/authors/ayush-mishra-3), where I regularly write about beginner-friendly programming concepts.
+If you are beginner in C++, I’ve covered many programming topic in detail on the [<VPIcon icon="fas fa-globe"/>TutorialsPoint platform](https://tutorialspoint.com/authors/ayush-mishra-3), where I regularly write about beginner-friendly programming concepts.
 
 ::: info 📚 Other C++ tutorials you may like:
 

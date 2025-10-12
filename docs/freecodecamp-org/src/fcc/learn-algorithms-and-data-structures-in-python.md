@@ -141,7 +141,7 @@ Here is what is covered in the course:
 - Tips for solving coding challenges
 - Advice for cracking coding interviews
 
-Watch the course below or [<FontIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/pkYVOmU3MgA) (13-hour watch).
+Watch the course below or [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/pkYVOmU3MgA) (13-hour watch).
 
 <VidStack src="youtube/pkYVOmU3MgA" />
 

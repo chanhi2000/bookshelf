@@ -59,7 +59,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724354591577/afcfa42
 
 Gemini is a suite of AI models that can understand and generate human-like responses based on the input it receives.
 
-We just published a Gemini course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that is designed to guide you through the world of multimodal AI, focusing on building an application that can interpret images and answer questions about them.
+We just published a Gemini course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that is designed to guide you through the world of multimodal AI, focusing on building an application that can interpret images and answer questions about them.
 
 ---
 
@@ -96,7 +96,7 @@ By integrating Gemini into your projects, you can enhance user experiences, stre
 
 ## Conclusion
 
-Head over to the [<FontIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/vXjOywyMBN8) and start your journey with the Gemini AI MultiModal Model Course (1-hour watch).
+Head over to the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/vXjOywyMBN8) and start your journey with the Gemini AI MultiModal Model Course (1-hour watch).
 
 <VidStack src="youtube/vXjOywyMBN8" />
 

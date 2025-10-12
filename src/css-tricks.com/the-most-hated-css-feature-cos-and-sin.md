@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/most_hated_fe
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/most_hated_feature.jpg"/>
 
-No feature is truly “the worst” in CSS, right? After all, it’s all based on opinion and personal experience, but if we had to reach a consensus, checking the [<FontIcon icon="fas fa-globe"/>State of CSS 2025](https://2025.stateofcss.com/en-US/) results would be a good starting point. I did exactly that, jumped into the [<FontIcon icon="fas fa-globe"/>awards section](https://2025.stateofcss.com/en-US/awards/), and there I found it: the “Most Hated Feature,” a title no CSS should have bear…
+No feature is truly “the worst” in CSS, right? After all, it’s all based on opinion and personal experience, but if we had to reach a consensus, checking the [<VPIcon icon="fas fa-globe"/>State of CSS 2025](https://2025.stateofcss.com/en-US/) results would be a good starting point. I did exactly that, jumped into the [<VPIcon icon="fas fa-globe"/>awards section](https://2025.stateofcss.com/en-US/awards/), and there I found it: the “Most Hated Feature,” a title no CSS should have bear…
 
 ![State of CSS screenshot revealing the survey's most hated CSS feature, trigonometric functions.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/most_hated_feature.jpg?resize=1920%2C1080&ssl=1)
 
@@ -85,7 +85,7 @@ This section is for those who `cos()` and `sin()` don’t quite click yet, or si
 
 :::
 
-What I find funny about `cos()` and `sin()`— and also why I think there is confusion around them — is the many ways we can describe them. We don’t have to look too hard. A quick glance at this [<FontIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia page](https://en.wikipedia.org/wiki/Sine_and_cosine) has an eye-watering number of super nuanced definitions.
+What I find funny about `cos()` and `sin()`— and also why I think there is confusion around them — is the many ways we can describe them. We don’t have to look too hard. A quick glance at this [<VPIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia page](https://en.wikipedia.org/wiki/Sine_and_cosine) has an eye-watering number of super nuanced definitions.
 
 This is a [**learning problem in the web development field**](/css-tricks.com/now-you-see-it.md). I feel like some of those definitions are far too general and lack detail about the essence of what trigonometric functions like `sin()` and `cos()` can do. Conversely, other definitions are overly complex and academic, making them tough to grok without an advanced degree.
 
@@ -169,7 +169,7 @@ Say we want to place each circular item around the outline of a larger circle in
 
 ::: note
 
-This step will become *much* easier and concise when the [<FontIcon icon="iconfont icon-css-tricks"/>`sibling-index()`](https://css-tricks.com/almanac/functions/s/sibling-index/) and [<FontIcon icon="iconfont icon-css-tricks"/>`sibling-count()`](https://css-tricks.com/almanac/functions/s/sibling-count/)` functions gain support (and [**they’re _really_ neat**](/css-tricks.com/how-to-wait-for-the-sibling-count-and-sibling-index-functions.md)). I’m hardcoding the indexes with inline CSS variables in the meantime.
+This step will become *much* easier and concise when the [<VPIcon icon="iconfont icon-css-tricks"/>`sibling-index()`](https://css-tricks.com/almanac/functions/s/sibling-index/) and [<VPIcon icon="iconfont icon-css-tricks"/>`sibling-count()`](https://css-tricks.com/almanac/functions/s/sibling-count/)` functions gain support (and [**they’re _really_ neat**](/css-tricks.com/how-to-wait-for-the-sibling-count-and-sibling-index-functions.md)). I’m hardcoding the indexes with inline CSS variables in the meantime.
 
 :::
 
@@ -409,7 +409,7 @@ Oh, I told you this could be used in a practical, real-world way. How about addi
 
 The last example got me thinking: **is there a way to use `sin()` and `cos()`‘s back and forth movement for animations?** The first example that came to mind was an animation that also went back and forth, something like a pendulum or a bouncing ball.
 
-This is, of course, trivial since we can do it in a single [<FontIcon icon="iconfont icon-css-tricks"/>`animation`](https://css-tricks.com/almanac/properties/a/animation/) declaration:
+This is, of course, trivial since we can do it in a single [<VPIcon icon="iconfont icon-css-tricks"/>`animation`](https://css-tricks.com/almanac/properties/a/animation/) declaration:
 
 ```css
 .element {
@@ -435,7 +435,7 @@ There’s a specific term that describes this: *damped* oscillatory movement. An
 
 ::: note
 
-[<FontIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia has another animated example](https://en.wikipedia.org/wiki/File:Damped_Spring_Simulation.gif) that nicely demonstrates what damped oscillation looks like.
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia has another animated example](https://en.wikipedia.org/wiki/File:Damped_Spring_Simulation.gif) that nicely demonstrates what damped oscillation looks like.
 
 :::
 
@@ -449,7 +449,7 @@ It’s composed of three parts:
 - $a$: This is the initial amplitude of the oscillation, i.e., the element’s initial position.
 - $\cos{\left(\omega{t}−\alpha\right)}$: This gives the movement its oscillation as time passes. Time is multiplied by frequency (ω), which determines an element’s oscillation speed[^2](#footnote-2). We can also subtract from time α, which we can use to offset the initial oscillation of the system.
 
-[^2]: In reality, the damped constant and the frequency are closely related. You can read more about damped oscillation in [<FontIcon icon="fas fa-globe"/>this paper](https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.06%3A_Damped_Oscillations)
+[^2]: In reality, the damped constant and the frequency are closely related. You can read more about damped oscillation in [<VPIcon icon="fas fa-globe"/>this paper](https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.06%3A_Damped_Oscillations)
 
 Okay, enough with all the theory! How do we do it in CSS? We’ll set the stage with a single circle sitting all by itself.
 
@@ -473,7 +473,7 @@ We have a few CSS variables we can define that will come in handy since we alrea
 }
 ```
 
-Given these variables, we can peek at what the animation would look like on a graph using a tool like [<FontIcon icon="fas fa-globe"/>GeoGebra](https://geogebra.org/graphing):
+Given these variables, we can peek at what the animation would look like on a graph using a tool like [<VPIcon icon="fas fa-globe"/>GeoGebra](https://geogebra.org/graphing):
 
 ![Damped motion graph. The wave is short and steep, then evens out as it goes from left to right.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/damped_graph_w17bzc.webp?resize=1022%2C1090&ssl=1)
 
@@ -481,7 +481,7 @@ From the graph, we can see that the animation starts at `0px` (thanks to our off
 
 ::: note
 
-Remember that to animate or transition a custom property, we’ve gotta register it with the [<FontIcon icon="iconfont icon-css-tricks"/>`@property`](https://css-tricks.com/almanac/rules/p/property/) at-rule.
+Remember that to animate or transition a custom property, we’ve gotta register it with the [<VPIcon icon="iconfont icon-css-tricks"/>`@property`](https://css-tricks.com/almanac/rules/p/property/) at-rule.
 
 :::
 

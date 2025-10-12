@@ -60,7 +60,7 @@ There are many Authorization and Authentication methods, but in this tutorial we
 
 ## Registration
 
-In the <FontIcon icon="fas fa-folder-open"/>`lib/screen/`<FontIcon icon="fa-brands fa-dart-lang"/>`signUp.dart` file, add the code below:
+In the <VPIcon icon="fas fa-folder-open"/>`lib/screen/`<VPIcon icon="fa-brands fa-dart-lang"/>`signUp.dart` file, add the code below:
 
 ```dart :collapsed-lines title="lib/screen/signUp.dart"
 import 'package:easy_localization/easy_localization.dart';

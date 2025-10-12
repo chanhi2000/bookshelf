@@ -97,7 +97,7 @@ OSINT should always be used ethically. Respect privacy laws and understand the b
 
 Google Dorking is a technique that lets you use Google’s advanced search operators to find hidden data. These operators can narrow down your search results to exactly what you’re looking for, even if that data isn’t easy to find through a basic Google search.
 
-For example, using `financial report site: miscosoft.com filetype:pdf` will give us the PDF files that contain the text “financial report” from the site [<FontIcon icon="fa-brands fa-microsoft"/>microsoft.com](http://microsoft.com).
+For example, using `financial report site: miscosoft.com filetype:pdf` will give us the PDF files that contain the text “financial report” from the site [<VPIcon icon="fa-brands fa-microsoft"/>microsoft.com](http://microsoft.com).
 
 ![financial reports pdf](https://cdn.hashnode.com/res/hashnode/image/upload/v1730102651973/a1a2dc42-e130-45cd-8005-5bddfe7674ab.jpeg)
 
@@ -115,7 +115,7 @@ Using Google Dorking, you can find documents, exposed files, login pages, and ot
 
 ## Harvesting Emails, IPs, and more using theHarvester
 
-[<FontIcon icon="iconfont icon-github"/>`laramies/theHarvester`](https://github.com/laramies/theHarvester) is a tool specifically designed for OSINT gathering. It can collect email addresses, subdomains, IPs, and more by querying various search engines and databases.
+[<VPIcon icon="iconfont icon-github"/>`laramies/theHarvester`](https://github.com/laramies/theHarvester) is a tool specifically designed for OSINT gathering. It can collect email addresses, subdomains, IPs, and more by querying various search engines and databases.
 
 It’s incredibly useful when you want to quickly gather information on a specific target, like a company or website.
 
@@ -137,7 +137,7 @@ Metadata is data about data. Files, like PDFs and images, often contain metadata
 
 This could include information like the author of a document, the software used to create it, and even the location where a photo was taken.
 
-[<FontIcon icon="iconfont icon-github"/>`exiftool/exiftool`](https://github.com/exiftool/exiftool) specializes in extracting metadata from files. You can see information about where and when an image was taken, which can be crucial in certain investigations.
+[<VPIcon icon="iconfont icon-github"/>`exiftool/exiftool`](https://github.com/exiftool/exiftool) specializes in extracting metadata from files. You can see information about where and when an image was taken, which can be crucial in certain investigations.
 
 Using ExifTool is straightforward:
 
@@ -155,7 +155,7 @@ Be mindful when using metadata extraction tools, as some metadata may contain se
 
 ## Automating Information Collection using Photon
 
-[<FontIcon icon="iconfont icon-github"/>`s0md3v/Photon`](https://github.com/s0md3v/Photon) is a powerful web crawler designed to automate data collection from websites. Once you specify a target URL, Photon can go through the site, gathering information like links, images, emails, and even files.
+[<VPIcon icon="iconfont icon-github"/>`s0md3v/Photon`](https://github.com/s0md3v/Photon) is a powerful web crawler designed to automate data collection from websites. Once you specify a target URL, Photon can go through the site, gathering information like links, images, emails, and even files.
 
 Photon is particularly useful for large websites where manual data collection would take too long.
 
@@ -165,7 +165,7 @@ For instance:
 python3 photon.py -u https://example.com -o output_folder
 ```
 
-This command tells Photon to crawl `https://example.com` and save the collected data in a folder called <FontIcon icon="fas fa-folder-open"/>`output_folder`.
+This command tells Photon to crawl `https://example.com` and save the collected data in a folder called <VPIcon icon="fas fa-folder-open"/>`output_folder`.
 
 Here is a sample response from crawling the site archive.org:
 
@@ -195,7 +195,7 @@ This tool is especially useful for identifying the online presence of a person o
 
 ## Visualizing Relationships using Maltego
 
-[<FontIcon icon="fas fa-globe"/>Maltego](https://maltego.com/) is a unique OSINT tool that creates visual maps of relationships between people, companies, and entities. By using “transforms,” Maltego allows you to search across different data sources and map out connections.
+[<VPIcon icon="fas fa-globe"/>Maltego](https://maltego.com/) is a unique OSINT tool that creates visual maps of relationships between people, companies, and entities. By using “transforms,” Maltego allows you to search across different data sources and map out connections.
 
 ![Maltego](https://cdn.hashnode.com/res/hashnode/image/upload/v1730103285033/947347c9-4773-49b6-9b10-8c84eb9f1c53.jpeg)
 
@@ -205,7 +205,7 @@ Maltego’s visual approach is helpful for investigations where you need to unde
 
 ## Shodan — Search Engine for Internet-Connected Devices
 
-[<FontIcon icon="fas fa-globe"/>Shodan](https://shodan.io/) is a search engine specifically designed for finding Internet of Things (IoT) devices. It allows you to search for online devices like webcams, routers, servers, and more.
+[<VPIcon icon="fas fa-globe"/>Shodan](https://shodan.io/) is a search engine specifically designed for finding Internet of Things (IoT) devices. It allows you to search for online devices like webcams, routers, servers, and more.
 
 Shodan is widely used in cybersecurity to check for exposed devices that might have security vulnerabilities.
 
@@ -223,7 +223,7 @@ OSINT offers incredible power for gathering information, but with that power com
 
 The goal of OSINT should be responsible data gathering for purposes like research, cybersecurity, or investigations — not for invading privacy or illegal activities.
 
-For more tutorials on cybersecurity, [<FontIcon icon="fas fa-globe"/>**join our weekly newsletter**](https://stealthsecurity.sh/). If you are new to cybersecurity, check out the [<FontIcon icon="fas fa-globe"/>**Hacker’s Handbook**](https://book.stealthsecurity.sh/).
+For more tutorials on cybersecurity, [<VPIcon icon="fas fa-globe"/>**join our weekly newsletter**](https://stealthsecurity.sh/). If you are new to cybersecurity, check out the [<VPIcon icon="fas fa-globe"/>**Hacker’s Handbook**](https://book.stealthsecurity.sh/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
