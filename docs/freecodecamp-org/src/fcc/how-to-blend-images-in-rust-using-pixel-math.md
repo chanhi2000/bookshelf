@@ -19,7 +19,7 @@ head:
       content: How to Blend Images in Rust Using Pixel Math
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/how-to-blend-images-in-rust-using-pixel-math.html
-prev: /programming/rust/articles/README.md
+prev: /programming/rs/articles/README.md
 date: 2024-08-27
 isOriginal: false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724689572465/f03e4b74-1091-4673-af5b-c8827e74caf0.png
@@ -31,7 +31,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724689572465/f03e4b7
 {
   "title": "Rust > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/rust/articles/README.md",
+  "link": "/programming/rs/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

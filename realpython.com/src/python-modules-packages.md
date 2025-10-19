@@ -1161,14 +1161,14 @@ If you want to learn more, check out the following documentation at **Python.org
   name="5. The import system"
   desc="Python code in one module gains access to the code in another module by the process of importing it. The import statement is the most common way of invoking the import machinery, but it is not the ..."
   url="https://docs.python.org/3/reference/import.html/"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 <SiteInfo
   name="6. Modules"
   desc="If you quit from the Python interpreter and enter it again, the definitions you have made (functions and variables) are lost. Therefore, if you want to write a somewhat longer program, you are bett..."
   url="https://docs.python.org/3/tutorial/modules.html/"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 Happy Pythoning!

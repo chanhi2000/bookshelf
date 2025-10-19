@@ -66,7 +66,7 @@ The `__file__` attribute is a [<VPIcon icon="fa-brands fa-python"/>special attri
   name="3. Data model"
   desc="Objects, values and types: Objects are Python’s abstraction for data. All data in a Python program is represented by objects or by relations between objects. (In a sense, and in conformance to Von ..."
   url="https://docs.python.org/3/reference/datamodel.html/"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 :::

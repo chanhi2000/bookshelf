@@ -19,7 +19,7 @@ head:
       content: What are Lifetimes in Rust? Explained with Code Examples
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/what-are-lifetimes-in-rust-explained-with-code-examples.html
-prev: /programming/rust/articles/README.md
+prev: /programming/rs/articles/README.md
 date: 2024-09-06
 isOriginal: false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725652969333/ba8a3fb6-3ac8-40e0-91e6-3e32e7f7b4b4.jpeg
@@ -31,7 +31,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725652969333/ba8a3fb
 {
   "title": "Rust > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/rust/articles/README.md",
+  "link": "/programming/rs/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

@@ -19,7 +19,7 @@ head:
       content: Procedural Macros in Rust - A Handbook for Beginners
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/procedural-macros-in-rust.html
-prev: /programming/rust/articles/README.md
+prev: /programming/rs/articles/README.md
 date: 2024-04-24
 isOriginal: false
 cover: https://freecodecamp.org/news/content/images/size/w1000/2024/04/Procedural-Macros-in-Rust-Cover--1-.png
@@ -31,7 +31,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/04/Procedura
 {
   "title": "Rust > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/rust/articles/README.md",
+  "link": "/programming/rs/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

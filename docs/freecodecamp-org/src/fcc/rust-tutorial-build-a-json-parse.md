@@ -19,7 +19,7 @@ head:
       content: Rust Tutorial - Learn Advanced Iterators & Pattern Matching by Building a JSON Parser
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/rust-tutorial-build-a-json-parse.html
-prev: /programming/rust/articles/README.md
+prev: /programming/rs/articles/README.md
 date: 2024-05-29
 isOriginal: false
 cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/JSON-Parser-Cover.png
@@ -31,7 +31,7 @@ cover: https://freecodecamp.org/news/content/images/size/w1000/2024/05/JSON-Pars
 {
   "title": "Rust > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/rust/articles/README.md",
+  "link": "/programming/rs/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

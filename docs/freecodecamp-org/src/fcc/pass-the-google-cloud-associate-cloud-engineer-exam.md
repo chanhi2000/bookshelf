@@ -13,9 +13,9 @@ tag:
   - blog
   - freecodecamp.org
   - devops
+  - gcp
   - google
   - google-cloud
-  - gcp
   - youtube
   - crashcourse
 head:

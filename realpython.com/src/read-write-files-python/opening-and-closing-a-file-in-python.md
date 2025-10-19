@@ -111,7 +111,7 @@ Let’s go back and talk a little about file objects. A file object is:
   name="Glossary"
   desc="The default Python prompt of the interactive shell. Often seen for code examples which can be executed interactively in the interpreter.,,..., Can refer to:- The default Python prompt of the i..."
   url="https://docs.python.org/3/glossary.html#term-file-object"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 :::
@@ -188,7 +188,7 @@ A raw file type is:
   name="io — Core tools for working with streams — Python 3.7.17 documentation"
   desc="The io module provides Python’s main facilities for dealing with various types of I/O. There are three main types of I/O: text I/O, binary I/O and raw I/O. These are generic categories, and various backing stores can be used for each of them. A concrete object belonging to any of these categories is called a file object. Other common terms are stream and file-like object."
   url="https://docs.python.org/3.7/library/io.html#raw-i-o/"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 :::

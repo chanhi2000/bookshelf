@@ -19,7 +19,7 @@ head:
       content: "How Asynchronous Programming Works in Rust - Futures and Async/Await Explained with Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/how-asynchronous-programming-works-in-rust.html
-prev: /programming/rust/articles/README.md
+prev: /programming/rs/articles/README.md
 date: 2024-08-16
 isOriginal: false
 author:
@@ -34,7 +34,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723746256888/b046d85
 {
   "title": "Rust > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/rust/articles/README.md",
+  "link": "/programming/rs/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

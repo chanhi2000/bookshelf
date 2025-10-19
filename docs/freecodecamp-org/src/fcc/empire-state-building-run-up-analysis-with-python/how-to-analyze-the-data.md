@@ -294,7 +294,7 @@ I assume you are familiar with writing small, self-contained pieces of code to t
   name="unittest — Unit testing framework"
   desc="Source code: Lib/unittest/__init__.py(If you are already familiar with the basic concepts of testing, you might want to skip to the list of assert methods.) The unittest unit testing framework was ..."
   url="https://docs.python.org/3/library/unittest.html/"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3.13/_images/social_previews/summary_library_unittest_7f61b5f1.png"/>
 
 :::

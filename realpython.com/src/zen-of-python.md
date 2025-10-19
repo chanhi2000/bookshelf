@@ -67,7 +67,7 @@ According to the [<VPIcon icon="fa-brands fa-python"/>Python glossary](https://d
   name="Glossary"
   desc="The default Python prompt of the interactive shell. Often seen for code examples which can be executed interactively in the interpreter.,,..., Can refer to:- The default Python prompt of the i..."
   url="https://docs.python.org/3/glossary.html/"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 :::
