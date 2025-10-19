@@ -32,8 +32,10 @@ export default hopeTheme({
     avatar: 'https://avatars.githubusercontent.com/u/6296241?v=4',
     medias: {
       GitHub: "https://github.com/chanhi2000",
-      Facebook: "https://facebook.com/spamlove",
-      Instagram: "https://instagram.com/chanhi2000",
+      Notion: {
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg',
+        link: 'https://markiiimark.notion.site/MarkiiimarK-Fullstack-DevOps-c231ae6c157d4baba89a3713c92449dd'
+      },
       Linkedin: "https://linkedin.com/in/chanhi2000",
       Gmail: "chanhi2000@gmail.com",
     },
@@ -117,16 +119,6 @@ export default hopeTheme({
       components: [
         "CodePen"/* , "FontIcon" */, "Badge", "Share", "PDF", "SiteInfo", "VidStack", "VPCard", "VPBanner"
       ],
-      /* componentOptions: {
-        fontIcon: {
-          assets: [
-            "fontawesome", 
-            "fontawesome-with-brands",
-            "https://chanhi2000.github.io/iconfont.css", 
-            "https://chanhi2000.github.io/iconfont-more.css"
-          ],
-        }
-      }, */
       rootComponents: {
       }
     },
@@ -152,9 +144,23 @@ export default hopeTheme({
       }*/
      ]
     },
+    copyCode: {
+      locales: {
+        "/": {
+          // Override copy button label text
+          copy: "Copy Codes from code block",
+        }
+      }
+    },
     photoSwipe: {
       download: false,
     },
+    nprogress: true,
+    git: {
+      contributors: false,
+      createdTime: false,
+      updatedTime: false,
+    }
     /* prismjs: {
       theme: "dracula",
       notationDiff: true,
@@ -215,20 +221,6 @@ export default hopeTheme({
         presets: ["ts", "vue"],
       },
     },*/
-    copyCode: {
-      locales: {
-        "/": {
-          // Override copy button label text
-          copy: "Copy Codes from code block",
-        }
-      }
-    },
-    nprogress: true,
-    git: {
-      contributors: false,
-      createdTime: false,
-      updatedTime: false,
-    }
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",

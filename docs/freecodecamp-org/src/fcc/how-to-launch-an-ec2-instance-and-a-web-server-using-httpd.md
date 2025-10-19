@@ -79,7 +79,7 @@ Think of EC2 (Elastic Compute Cloud) as a hotel room in the cloud. Instead of bo
 Depending on your Linux distribution, you may encounter different names for the same basic software:
 
 - On RPM-based distributions (like Red Hat, CentOS, or Fedora), it’s called httpd.
-- On Debian-based distributions (like Ubuntu or Debian itself), it’s referred to as apache2.    
+- On Debian-based distributions (like Ubuntu or Debian itself), it’s referred to as apache2.
 
 Let’s look at the steps you can use to launch your EC2 instance, and how to set up a web server using HTTPD.
 

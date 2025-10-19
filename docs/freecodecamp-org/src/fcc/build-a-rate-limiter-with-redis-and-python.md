@@ -115,7 +115,7 @@ Let's get started!
 
 ::: note Prerequisites
 
-While not absolutely required to follow along, I’d recommend setting up a Proxmox server on an old laptop to implement the topics you learn and code along with the article. I recommend this [<FontIcon icon="fa-brands fa-youtube"/>YouTube playlist](https://youtu.be/5j0Zb6x_hOk&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo) for getting started. Please note that I am in no way affiliated with this channel. I just found it helpful for me.
+While not absolutely required to follow along, I’d recommend setting up a Proxmox server on an old laptop to implement the topics you learn and code along with the article. I recommend this [<VPIcon icon="fa-brands fa-youtube"/>YouTube playlist](https://youtu.be/5j0Zb6x_hOk&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo) for getting started. Please note that I am in no way affiliated with this channel. I just found it helpful for me.
 
 :::
 
@@ -135,19 +135,19 @@ However, If you do not have a local Proxmox server, you can skip that part and j
 
 ## The Big Picture: Our System Architecture
 
-Before we dive into the code, let's look at the architecture we're building. I will be using [<FontIcon icon="iconfont icon-proxmox"/>Proxmox Virtual Environment](https://proxmox.com/en/products/proxmox-virtual-environment/overview) to setup a server cluster just like you would have in a datacenter.
+Before we dive into the code, let's look at the architecture we're building. I will be using [<VPIcon icon="iconfont icon-proxmox"/>Proxmox Virtual Environment](https://proxmox.com/en/products/proxmox-virtual-environment/overview) to setup a server cluster just like you would have in a datacenter.
 
 ### How to Set Up Proxmox
 
 `Proxmox Virtual Environment` is an open source platform for virtualization. It lets you manage multiple VMs, ccontainers and other clusters with ease. For instance, I turned my old gaming computer into a Proxmox server which lets me run more than 20 virtual machines on it at the same time, making it similar to my very own datacenter. This lets me experiment with distributed applications by simulating datacenter environments.
 
-To setup your own cluster, all you need is an old computer. You can download the ISO image from [<FontIcon icon="iconfont icon-proxmox"/>here](https://proxmox.com/en/downloads) and boot from the USB drive. Once you install it, you can configure the host machine via a web browser on any other computer on the same network.
+To setup your own cluster, all you need is an old computer. You can download the ISO image from [<VPIcon icon="iconfont icon-proxmox"/>here](https://proxmox.com/en/downloads) and boot from the USB drive. Once you install it, you can configure the host machine via a web browser on any other computer on the same network.
 
 For example, my proxmox server is located at `10.0.0.108` and I can access it via the browser on my laptop.
 
 ![Example Proxmox cluster](https://cdn.hashnode.com/res/hashnode/image/upload/v1759194790299/35e9363f-b739-4085-a589-c1bafbac0504.png)
 
-We define all our virtual machines in our <FontIcon icon="iconfont icon-terraform"/>`main.tf` file. And run a simple command `terraform apply` to spin these servers up. For more reading on how to use Terraform with Proxmox, I recommend this [<FontIcon icon="fas fa-globe"/>blog post](https://spacelift.io/blog/terraform-proxmox-provider)
+We define all our virtual machines in our <VPIcon icon="iconfont icon-terraform"/>`main.tf` file. And run a simple command `terraform apply` to spin these servers up. For more reading on how to use Terraform with Proxmox, I recommend this [<VPIcon icon="fas fa-globe"/>blog post](https://spacelift.io/blog/terraform-proxmox-provider)
 
 Back to our use case, we’ll have a few virtual machines that will serve as different kinds of servers:
 
@@ -189,7 +189,7 @@ You can skip this section if you just want to see the rate limiter in action and
 
 :::
 
-Our [<FontIcon icon="iconfont icon-terraform"/>`main.tf` (<FontIcon icon="iconfont icon-github"/>`sravankaruturi/system-design`)](https://github.com/sravankaruturi/system-design/blob/main/infra/main.tf) file defines all the components of our system. Let's look at a key piece: the Redis VM.
+Our [<VPIcon icon="iconfont icon-terraform"/>`main.tf` (<VPIcon icon="iconfont icon-github"/>`sravankaruturi/system-design`)](https://github.com/sravankaruturi/system-design/blob/main/infra/main.tf) file defines all the components of our system. Let's look at a key piece: the Redis VM.
 
 ```tf :collapsed-lines title="main.tf"
 # --- Redis Cache for Rate Limiter ---
@@ -230,9 +230,9 @@ resource "proxmox_vm_qemu" "redis_cache" {
 }
 ```
 
-This block tells Terraform to create a `Proxmox QEMU virtual machine` with a specific IP address `(10.0.0.130)`. After the VM is created, it uses provisioners to connect via SSH and run commands. Here, it installs Docker, uploads our <FontIcon icon="iconfont icon-yaml"/>`redis-docker-compose.yml` file, and starts the Redis container.
+This block tells Terraform to create a `Proxmox QEMU virtual machine` with a specific IP address `(10.0.0.130)`. After the VM is created, it uses provisioners to connect via SSH and run commands. Here, it installs Docker, uploads our <VPIcon icon="iconfont icon-yaml"/>`redis-docker-compose.yml` file, and starts the Redis container.
 
-The <FontIcon icon="iconfont icon-yaml"/>`redis-docker-compose.yml` itself is very straightforward:
+The <VPIcon icon="iconfont icon-yaml"/>`redis-docker-compose.yml` itself is very straightforward:
 
 ```yaml title="redis-docker-compose.yml"
 version: '3.8'
@@ -260,7 +260,7 @@ Now, for the heart of our system: the Python code that implements the rate limit
 
 The idea is simple: for each user, we keep a log of the timestamps of their recent requests. We store this log in a Redis Sorted Set.
 
-Let's break down the code from [<FontIcon icon="fa-brands fa-python"/>`app.py` (<FontIcon icon="iconfont icon-github"/>`sravankaruturi/system-design`)](https://github.com/sravankaruturi/system-design/blob/main/web-servers/app.py).
+Let's break down the code from [<VPIcon icon="fa-brands fa-python"/>`app.py` (<VPIcon icon="iconfont icon-github"/>`sravankaruturi/system-design`)](https://github.com/sravankaruturi/system-design/blob/main/web-servers/app.py).
 
 ### The Flask `@app.before_request` Hook
 
@@ -406,11 +406,11 @@ This approach is incredibly fast and efficient. All the heavy lifting is done in
 
 ## Step 3: Containerizing and Testing
 
-To deploy our application consistently across multiple VMs, we use Docker. Our Dockerfile is standard for a Python application: it starts from a Python image, installs dependencies from <FontIcon icon="fas fa-file-lines"/>`requirements.txt`, copies the application code, and defines the command to run the app.
+To deploy our application consistently across multiple VMs, we use Docker. Our Dockerfile is standard for a Python application: it starts from a Python image, installs dependencies from <VPIcon icon="fas fa-file-lines"/>`requirements.txt`, copies the application code, and defines the command to run the app.
 
 But how do we know it works? We test it!
 
-We use `k6`, a modern load testing tool, to simulate heavy traffic. Our test script, <FontIcon icon="fa-brands fa-js"/>`rate-test.js`, is designed specifically to verify the rate limiter.
+We use `k6`, a modern load testing tool, to simulate heavy traffic. Our test script, <VPIcon icon="fa-brands fa-js"/>`rate-test.js`, is designed specifically to verify the rate limiter.
 
 ```js title="rate-test.js"
 import http from 'k6/http';
@@ -1055,7 +1055,7 @@ You've now seen how to build a complete, scalable, and resilient system that inc
 
 We've covered the entire stack:
 
-- **Infrastructure as Code** with Terraform to define our virtual machines. (check out my repo [here (<FontIcon icon="iconfont icon-github"/>`sravankaruturi/system-design`)](https://github.com/sravankaruturi/system-design) for all the code and any updates I make).
+- **Infrastructure as Code** with Terraform to define our virtual machines. (check out my repo [here (<VPIcon icon="iconfont icon-github"/>`sravankaruturi/system-design`)](https://github.com/sravankaruturi/system-design) for all the code and any updates I make).
 - A **centralized, high-speed cache** with Redis to store our rate limiting data.
 - An efficient **Sliding Window Log algorithm** implemented in Python with Flask.
 - **Containerization** with Docker for consistent deployment.
@@ -1064,7 +1064,7 @@ We've covered the entire stack:
 
 ::: info
 
-If you’d like to learn more of the concepts that are used when building large scale systems please follow me at [<FontIcon icon="fas fa-globe"/>Sravan Karuturi](https://hashnode.com/@sravankaruturi).
+If you’d like to learn more of the concepts that are used when building large scale systems please follow me at [<VPIcon icon="fas fa-globe"/>Sravan Karuturi](https://hashnode.com/@sravankaruturi).
 
 :::
 

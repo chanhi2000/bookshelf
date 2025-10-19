@@ -240,7 +240,7 @@ Drag and drop the Split Data module onto the canvas. Then connect the output of 
 In the settings panel of the Split Data module:
 
 - Set the `Fraction of rows` in the first output dataset to 0.7. This means 70% of the data will be used for training the model.
-- Set the `Randomized seed` to any number to ensure reproducibility. For this tutorial, use 123.    
+- Set the `Randomized seed` to any number to ensure reproducibility. For this tutorial, use 123.
 
 ### Step 2: Train the Model
 

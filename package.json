@@ -1,6 +1,6 @@
 {
   "name": "bookshelf",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Bookshelf",
   "private": true,
   "license": "MIT",
@@ -44,6 +44,7 @@
     "baseline-status": "^1.0.10",
     "chart.js": "^4.4.3",
     "cross-env": "^7.0.3",
+    "copyfiles": "2.4.1",
     "dashjs": "^4.7.4",
     "echarts": "^5.5.1",
     "flowchart.ts": "^3.0.0",

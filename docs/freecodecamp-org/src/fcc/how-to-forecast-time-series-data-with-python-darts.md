@@ -67,7 +67,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759775700643/6f7d18b
 
 When analyzing time series data, your main objective is to consider the period during which the data is collected and how your variable of interest changes over time.
 
-There are various libraries for time series forecasting in Python, and [<FontIcon icon="fas fa-globe"/>Darts](https://unit8co.github.io/darts/) is one of them. Unlike other forecasting libraries, Darts is a high-level forecasting library with algorithms to handle various time series data, regardless of the kind of trend they portray.
+There are various libraries for time series forecasting in Python, and [<VPIcon icon="fas fa-globe"/>Darts](https://unit8co.github.io/darts/) is one of them. Unlike other forecasting libraries, Darts is a high-level forecasting library with algorithms to handle various time series data, regardless of the kind of trend they portray.
 
 This tutorial will walk you through how you can forecast time series data using Python Darts. This will help you make meaningful insights whenever you come across time series data such as stock prices, weather measurements, and so on.
 
@@ -85,7 +85,7 @@ Before we proceed, you will need to have the following:
 
 - Python 3.9+ installed.
 - Jupyter Notebook, Google Colab, or Positron to run your code.
-- Download the [<FontIcon icon="iconfont icon-kaggle"/>Netflix stock data](https://kaggle.com/datasets/kalilurrahman/netflix-stock-data-live-and-latest).
+- Download the [<VPIcon icon="iconfont icon-kaggle"/>Netflix stock data](https://kaggle.com/datasets/kalilurrahman/netflix-stock-data-live-and-latest).
 - Have the following libraries installed:
   - `darts` for time series analysis
   - `pandas` for data wrangling
@@ -235,7 +235,7 @@ plt.legend()
 
 ![Image showing the ARIMA model forecast of netflix stock ](https://cdn.hashnode.com/res/hashnode/image/upload/v1758028284156/a40f2341-cfc6-4a9f-8297-e0511c2bb254.png)
 
-You can improve the model by adding some additional parameters to the `ARIMA()` class. You can read more about that in the [<FontIcon icon="fas fa-globe"/>Darts documentation](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.arima.html).
+You can improve the model by adding some additional parameters to the `ARIMA()` class. You can read more about that in the [<VPIcon icon="fas fa-globe"/>Darts documentation](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.arima.html).
 
 ### Machine Learning Models
 
@@ -266,7 +266,7 @@ plt.legend()
 
 ![Image showing the LightGBM model forecast of netflix stock ](https://cdn.hashnode.com/res/hashnode/image/upload/v1758029933172/54f34a69-4f6b-4b44-85ab-d0b45931d701.png)
 
-You can read more about tuning the LightGBM model from the [<FontIcon icon="fas fa-globe"/>Darts documentation](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.lgbm.html) to improve the above model.
+You can read more about tuning the LightGBM model from the [<VPIcon icon="fas fa-globe"/>Darts documentation](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.lgbm.html) to improve the above model.
 
 ### How to Forecast with Deep Learning models
 
@@ -290,7 +290,7 @@ plt.legend()
 
 ![Image showing the LSTM model forecast of Netflix stock ](https://cdn.hashnode.com/res/hashnode/image/upload/v1758116174578/2ff80218-2254-452d-8d4c-2f85c61612de.png)
 
-You can look up the [<FontIcon icon="fas fa-globe"/>Darts documentation](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.rnn_model.html) to improve the model and check out other deep learning models also.
+You can look up the [<VPIcon icon="fas fa-globe"/>Darts documentation](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.rnn_model.html) to improve the model and check out other deep learning models also.
 
 ---
 
@@ -408,7 +408,7 @@ Best ARIMA params: p=2, d=0, q=3 with MAPE=35.95%
 
 In the above code, you define a range of possible values for the `p`, `d` , and `q` components, iterating over each combination of those values and choosing the model with the best MAPE among them.
 
-Note that each model has its specific parameter you would have to tune, and you will need to check [<FontIcon icon="fas fa-globe"/>the Darts documentation](https://unit8co.github.io/darts/userguide/hyperparameter_optimization.html) for the hyperparameters of other models.
+Note that each model has its specific parameter you would have to tune, and you will need to check [<VPIcon icon="fas fa-globe"/>the Darts documentation](https://unit8co.github.io/darts/userguide/hyperparameter_optimization.html) for the hyperparameters of other models.
 
 ---
 
@@ -439,11 +439,11 @@ You already have an idea of what time series and forecasting are, and how you ca
 
 You also learned of various models for forecasting time series data, and how you can apply techniques such as backtesting and hyperparameter tuning to achieve better results.
 
-Another interesting thing with Darts is its ability to handle [<FontIcon icon="fas fa-globe"/>hierarchical time series](https://unit8co.github.io/darts/userguide/timeseries.html#hierarchical-time-series). Here, data is structured at aggregated levels.
+Another interesting thing with Darts is its ability to handle [<VPIcon icon="fas fa-globe"/>hierarchical time series](https://unit8co.github.io/darts/userguide/timeseries.html#hierarchical-time-series). Here, data is structured at aggregated levels.
 
-Darts is one of the most powerful time series libraries in Python and has a lot of models to handle various cases. You can proceed to explore models such as [<FontIcon icon="fas fa-globe"/>Transformers](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.transformer_model.html) and also [<FontIcon icon="fas fa-globe"/>multi-series forecasting](https://unit8co.github.io/darts/examples/01-multi-time-series-and-covariates.html), which are used for special use cases.
+Darts is one of the most powerful time series libraries in Python and has a lot of models to handle various cases. You can proceed to explore models such as [<VPIcon icon="fas fa-globe"/>Transformers](https://unit8co.github.io/darts/generated_api/darts.models.forecasting.transformer_model.html) and also [<VPIcon icon="fas fa-globe"/>multi-series forecasting](https://unit8co.github.io/darts/examples/01-multi-time-series-and-covariates.html), which are used for special use cases.
 
-If you are interested in more data science and statistics articles, don’t forget to check out [<FontIcon icon="fas fa-globe"/>my blog](https://learndata.xyz/blog).
+If you are interested in more data science and statistics articles, don’t forget to check out [<VPIcon icon="fas fa-globe"/>my blog](https://learndata.xyz/blog).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -414,7 +414,6 @@ Let’s say, this video player:
   controls="true"
 ></magic-player>
 ```
-    
 
 Now let’s get to implementation!
 

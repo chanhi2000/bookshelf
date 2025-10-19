@@ -71,16 +71,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759418643581/2470669
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1759418643581/2470669e-8592-463e-8b4c-55eace8dd80a.png"/>
 
-In this handbook, you'll build a basic version of Claude Code using Google's [<FontIcon icon="iconfont icon-gemini"/>free Gemini API](https://ai.google.dev/gemini-api/docs/pricing). If you've ever used Cursor or Claude Code as an "agentic" AI code editor, then you should be familiar with what we'll be building here. As long as you have an LLM at your disposal, it’s actually surprisingly simple to build a (somewhat) effective custom agent.
+In this handbook, you'll build a basic version of Claude Code using Google's [<VPIcon icon="iconfont icon-gemini"/>free Gemini API](https://ai.google.dev/gemini-api/docs/pricing). If you've ever used Cursor or Claude Code as an "agentic" AI code editor, then you should be familiar with what we'll be building here. As long as you have an LLM at your disposal, it’s actually surprisingly simple to build a (somewhat) effective custom agent.
 
 This a completely free text-based handbook. That said, there are two other options for following along:
 
-You can try the interactive version of this [<FontIcon icon="fas fa-globe"/>AI Agent course on Boot.dev](https://boot.dev/courses/build-ai-agent-python), complete with coding challenges and projects, or watch the [<FontIcon icon="fa-brands fa-youtube"/>video walkthrough](https://youtu.be/YtHdaXuOAks) of this course on the FreeCodeCamp YouTube channel
+You can try the interactive version of this [<VPIcon icon="fas fa-globe"/>AI Agent course on Boot.dev](https://boot.dev/courses/build-ai-agent-python), complete with coding challenges and projects, or watch the [<VPIcon icon="fa-brands fa-youtube"/>video walkthrough](https://youtu.be/YtHdaXuOAks) of this course on the FreeCodeCamp YouTube channel
 
 ::: note Prerequisites
 
-- You should already be familiar with Python basics. If you're not, check out this [<FontIcon icon="fas fa-globe"/>Python course on Boot.dev](https://boot.dev/courses/learn-code-python).
-- You should already know how to use a Unix-like command line. If you don't, [<FontIcon icon="fas fa-globe"/>checkout this Linux course on Boot.dev](https://boot.dev/courses/learn-linux).
+- You should already be familiar with Python basics. If you're not, check out this [<VPIcon icon="fas fa-globe"/>Python course on Boot.dev](https://boot.dev/courses/learn-code-python).
+- You should already know how to use a Unix-like command line. If you don't, [<VPIcon icon="fas fa-globe"/>checkout this Linux course on Boot.dev](https://boot.dev/courses/learn-linux).
 
 :::
 
@@ -101,7 +101,6 @@ You can try the interactive version of this [<FontIcon icon="fas fa-globe"/>AI A
 - [Function Calling](#heading-function-calling)
 - [Building the Agent Loop](#heading-building-the-agent-loop)
 - [Conclusion](#heading-conclusion)
-    
 
 ---
 
@@ -168,7 +167,7 @@ uv venv
 
 ::: warning
 
-Always add the <FontIcon icon="fas fa-folder-open"/>`venv` directory to your <FontIcon icon="iconfont icon-git"/>`.gitignore` file.
+Always add the <VPIcon icon="fas fa-folder-open"/>`venv` directory to your <VPIcon icon="iconfont icon-git"/>`.gitignore` file.
 
 :::
 
@@ -184,14 +183,14 @@ You should see `(your-project-name)` at the beginning of your terminal prompt, f
 (aiagent) wagslane@MacBook-Pro-2 aiagent %
 ```
 
-Use `uv` to add two dependencies to the project. They will be added to the file <FontIcon icon="iconfont icon-toml"/>`pyproject.toml`:
+Use `uv` to add two dependencies to the project. They will be added to the file <VPIcon icon="iconfont icon-toml"/>`pyproject.toml`:
 
 ```sh
 uv add google-genai==1.12.1
 uv add python-dotenv==1.1.0
 ```
 
-This tells Python that this project requires [<FontIcon icon="iconfont icon-pypi"/>`google-genai`](https://pypi.org/project/google-genai/) version `1.12.1` and the [<FontIcon icon="iconfont icon-pypi"/>`python-dotenv`](https://pypi.org/project/python-dotenv/) version `1.1.0`.
+This tells Python that this project requires [<VPIcon icon="iconfont icon-pypi"/>`google-genai`](https://pypi.org/project/google-genai/) version `1.12.1` and the [<VPIcon icon="iconfont icon-pypi"/>`python-dotenv`](https://pypi.org/project/python-dotenv/) version `1.1.0`.
 
 To run the project using the `uv` virtual environment, you use:
 
@@ -205,13 +204,13 @@ In your terminal, you should see `Hello from YOUR PROJECT NAME`.
 
 ## How to Integrate the Gemini API
 
-[<FontIcon icon="fa-brands fa-cloudflare"/>Large Language Models (LLMs)](https://cloudflare.com/learning/ai/what-is-large-language-model/) are the fancy-schmancy AI technology that have been making all the waves in the AI world recently. Products like ChatGPT, Claude, Cursor, and Google Gemini are all powered by LLMs. For the purposes of this course, you can think of an LLM as a smart text generator. It works just like ChatGPT: you give it a prompt, and it gives you back some text that it believes answers your prompt.
+[<VPIcon icon="fa-brands fa-cloudflare"/>Large Language Models (LLMs)](https://cloudflare.com/learning/ai/what-is-large-language-model/) are the fancy-schmancy AI technology that have been making all the waves in the AI world recently. Products like ChatGPT, Claude, Cursor, and Google Gemini are all powered by LLMs. For the purposes of this course, you can think of an LLM as a smart text generator. It works just like ChatGPT: you give it a prompt, and it gives you back some text that it believes answers your prompt.
 
-We're going to use [<FontIcon icon="iconfont icon-gemini"/>Google's Gemini API](https://ai.google.dev/gemini-api/docs/pricing) to power our agent in this course. It's reasonably smart, but more importantly for us, it has a free tier.
+We're going to use [<VPIcon icon="iconfont icon-gemini"/>Google's Gemini API](https://ai.google.dev/gemini-api/docs/pricing) to power our agent in this course. It's reasonably smart, but more importantly for us, it has a free tier.
 
 ### Tokens
 
-You can think of tokens as the currency of LLMs. They are the way that LLMs measure how much text they have to process. Tokens are [<FontIcon icon="iconfont icon-openai"/>_roughly_ 4 characters](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them) for most models. It's important when working with LLM APIs to understand how many tokens you're using.
+You can think of tokens as the currency of LLMs. They are the way that LLMs measure how much text they have to process. Tokens are [<VPIcon icon="iconfont icon-openai"/>_roughly_ 4 characters](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them) for most models. It's important when working with LLM APIs to understand how many tokens you're using.
 
 We'll be staying well within the free tier limits of the Gemini API, but we'll still monitor our token usage!
 
@@ -223,18 +222,18 @@ You should be aware that all API calls, including those made during local testin
 
 Here’s how to create an API key:
 
-1. Create an account on [<FontIcon icon="fa-brands fa-google"/>Google AI Studio](https://aistudio.google.com/) if you don't already have one
-2. Click the "Create API Key" button. You can use the [<FontIcon icon="iconfont icon-gemini"/>docs](https://ai.google.dev/gemini-api/docs/api-key) if you get lost.
+1. Create an account on [<VPIcon icon="fa-brands fa-google"/>Google AI Studio](https://aistudio.google.com/) if you don't already have one
+2. Click the "Create API Key" button. You can use the [<VPIcon icon="iconfont icon-gemini"/>docs](https://ai.google.dev/gemini-api/docs/api-key) if you get lost.
 
 If you already have a GCP account and a project, you can create the API key in that project. If you don't, AI studio will automatically create one for you.
 
-3. Copy the API key, then paste it into a new <FontIcon icon="fas fa-file-lines"/>`.env` file in your project directory. The file should look like this:
+3. Copy the API key, then paste it into a new <VPIcon icon="fas fa-file-lines"/>`.env` file in your project directory. The file should look like this:
 
 ```sh title=".env"
 GEMINI_API_KEY="your_api_key_here"
 ```
 
-4. Add the <FontIcon icon="fas fa-file-lines"/>`.env` file to your <FontIcon icon="iconfont icon-git"/>`.gitignore`
+4. Add the <VPIcon icon="fas fa-file-lines"/>`.env` file to your <VPIcon icon="iconfont icon-git"/>`.gitignore`
 
 ::: caution Danger
 
@@ -242,7 +241,7 @@ We never want to commit API keys, passwords, or other sensitive information to G
 
 :::
 
-5. Update the <FontIcon icon="fa-brands fa-python"/>`main.py` file. When the program starts, load the environment variables from the <FontIcon icon="fas fa-file-lines"/>`.env` file using the `dotenv` library and read the API key:
+5. Update the <VPIcon icon="fa-brands fa-python"/>`main.py` file. When the program starts, load the environment variables from the <VPIcon icon="fas fa-file-lines"/>`.env` file using the `dotenv` library and read the API key:
 
 ```py title="main.py"
 import os
@@ -252,7 +251,7 @@ load_dotenv()
 api_key = os.environ.get("GEMINI_API_KEY")
 ```
 
-6. Import the `genai` library and use the API key to create a new instance of a [<FontIcon icon="fa-brands fa-google"/>Gemini client:](https://googleapis.github.io/python-genai/#create-a-client)
+6. Import the `genai` library and use the API key to create a new instance of a [<VPIcon icon="fa-brands fa-google"/>Gemini client:](https://googleapis.github.io/python-genai/#create-a-client)
 
 ```py
 from google import genai
@@ -260,14 +259,14 @@ from google import genai
 client = genai.Client(api_key=api_key)
 ```
 
-7. Use the [<FontIcon icon="fa-brands fa-google"/>`client.models.generate_content()` method](https://googleapis.github.io/python-genai/#generate-content) to get a response from the `gemini-2.0-flash-001` model. You'll need to use two named parameters:
+7. Use the [<VPIcon icon="fa-brands fa-google"/>`client.models.generate_content()` method](https://googleapis.github.io/python-genai/#generate-content) to get a response from the `gemini-2.0-flash-001` model. You'll need to use two named parameters:
 
 - `model`: The model name `gemini-2.0-flash-001` (this one has a generous free tier)
 - `contents`: The prompt to send to the model (a string). Use this prompt:
 
-"Why are [<FontIcon icon="fas fa-globe"/>Boot.dev](http://Boot.dev) and FreeCodeCamp such great places to learn backend development? Use one paragraph maximum."
+"Why are [<VPIcon icon="fas fa-globe"/>Boot.dev](http://Boot.dev) and FreeCodeCamp such great places to learn backend development? Use one paragraph maximum."
 
-The `generate_content` method returns a [<FontIcon icon="fa-brands fa-google"/>`GenerateContentResponse` object.](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse) Print the [<FontIcon icon="fa-brands fa-google"/>`.text` property](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse.text) of the response to see the model's answer.
+The `generate_content` method returns a [<VPIcon icon="fa-brands fa-google"/>`GenerateContentResponse` object.](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse) Print the [<VPIcon icon="fa-brands fa-google"/>`.text` property](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse.text) of the response to see the model's answer.
 
 If everything is working as intended, you should be able to run your code and see the model's response in your terminal.
 
@@ -278,7 +277,7 @@ Prompt tokens: X
 Response tokens: Y
 ```
 
-The response has a [<FontIcon icon="fa-brands fa-google"/>`.usage_metadata`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponseDict.usage_metadata) property that has both:
+The response has a [<VPIcon icon="fa-brands fa-google"/>`.usage_metadata`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponseDict.usage_metadata) property that has both:
 
 - A `prompt_token_count` property (tokens in the prompt)
 - A `candidates_token_count` property (tokens in the response)
@@ -305,7 +304,7 @@ uv run main.py "Why are episodes 7-9 so much worse than 1-6?"
 
 ::: tip
 
-The [<FontIcon icon="fa-brands fa-python"/>`sys.argv`](https://docs.python.org/3/library/sys.html#sys.argv) variable is a list of strings representing all the command line arguments passed to the script. The first element is the name of the script, and the rest are the arguments. Be sure to `import sys` to use it.
+The [<VPIcon icon="fa-brands fa-python"/>`sys.argv`](https://docs.python.org/3/library/sys.html#sys.argv) variable is a list of strings representing all the command line arguments passed to the script. The first element is the name of the script, and the rest are the arguments. Be sure to `import sys` to use it.
 
 :::
 
@@ -335,7 +334,7 @@ Importantly, each message in the conversation has a "role". In the context of a 
 
 So, while our program will still be "one-shot" for now, let's update our code to store a list of messages in the conversation, and pass in the "role" appropriately.
 
-Create a new list of [<FontIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content), and set the user's prompt as the only message (for now):
+Create a new list of [<VPIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content), and set the user's prompt as the only message (for now):
 
 ```py
 from google.genai import types
@@ -345,7 +344,7 @@ messages = [
 ]
 ```
 
-Update your call to [<FontIcon icon="fa-brands fa-google"/>`models.generate_content`](https://googleapis.github.io/python-genai/genai.html#genai.models.Models.generate_content) to use the messages list:
+Update your call to [<VPIcon icon="fa-brands fa-google"/>`models.generate_content`](https://googleapis.github.io/python-genai/genai.html#genai.models.Models.generate_content) to use the messages list:
 
 ```py
 response = client.models.generate_content(
@@ -388,7 +387,7 @@ Otherwise, it should not print those things.
 
 Since we're building an AI Agent, the agent will need a project to work on. I've built a little command line calculator app that we'll use as a test project for the AI to read, update, and run.
 
-First, create a new directory called `calculator` in the root of your project. Then copy and paste the <FontIcon icon="fa-brands fa-python"/>`main.py` and <FontIcon icon="fa-brands fa-python"/>`tests.py` files from below into the `calculator` directory.
+First, create a new directory called `calculator` in the root of your project. Then copy and paste the <VPIcon icon="fa-brands fa-python"/>`main.py` and <VPIcon icon="fa-brands fa-python"/>`tests.py` files from below into the `calculator` directory.
 
 *Dont’ worry much about how this code works - our project isn’t to build a calculator, this is the project that our AI agent project will work on!*
 
@@ -472,7 +471,7 @@ if name == "__main__":
     unittest.main()
 ```
 
-Create a new directory in `calculator` called `pkg`. Then copy and paste the <FontIcon icon="fa-brands fa-python"/>`calculator.py` and <FontIcon icon="fa-brands fa-python"/>`render.py` files from below into the `pkg` directory.
+Create a new directory in `calculator` called `pkg`. Then copy and paste the <VPIcon icon="fa-brands fa-python"/>`calculator.py` and <VPIcon icon="fa-brands fa-python"/>`render.py` files from below into the `pkg` directory.
 
 ```py :collapsed-lines title="calculator.py"
 class Calculator:
@@ -595,7 +594,7 @@ We need to give our agent the ability to *do stuff*. We'll start with giving it 
 
 Before we integrate this function with our LLM agent, let's just build the function itself. Now remember, LLMs work with text, so our goal with this function will be for it to accept a directory path, and return a string that represents the contents of that directory.
 
-Create a new directory called <FontIcon icon="fas fa-folder-open"/>`functions` in the root of your project (not inside the `calculator` directory). Inside, create a new file called <FontIcon icon="fa-brands fa-python"/>`get_files_info.py`. Inside, write this function:
+Create a new directory called <VPIcon icon="fas fa-folder-open"/>`functions` in the root of your project (not inside the `calculator` directory). Inside, create a new file called <VPIcon icon="fa-brands fa-python"/>`get_files_info.py`. Inside, write this function:
 
 ```py
 def get_files_info(working_directory, directory="."):
@@ -689,14 +688,14 @@ def get_files_info(working_directory, directory="."):
 
 Here are some standard library functions you'll find helpful:
 
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.abspath()`](https://docs.python.org/3/library/os.path.html#os.path.abspath): Get an absolute path from a relative path
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.join()`](https://docs.python.org/3/library/os.path.html#os.path.join): Join two paths together safely (handles slashes)
-- [<FontIcon icon="fa-brands fa-python"/>`.startswith()`](https://docs.python.org/3/library/stdtypes.html#str.startswith): Check if a string starts with a substring
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.isdir()`](https://docs.python.org/3/library/os.path.html#os.path.isdir): Check if a path is a directory
-- [<FontIcon icon="fa-brands fa-python"/>`os.listdir()`](https://docs.python.org/3/library/os.html#os.listdir): List the contents of a directory
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.getsize()`](https://docs.python.org/3/library/os.path.html#os.path.getsize): Get the size of a file
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.isfile()`](https://docs.python.org/3/library/os.path.html#os.path.isfile): Check if a path is a file
-- [<FontIcon icon="fa-brands fa-python"/>`.join()`](https://docs.python.org/3/library/stdtypes.html#str.join): Join a list of strings together with a separator
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.abspath()`](https://docs.python.org/3/library/os.path.html#os.path.abspath): Get an absolute path from a relative path
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.join()`](https://docs.python.org/3/library/os.path.html#os.path.join): Join two paths together safely (handles slashes)
+- [<VPIcon icon="fa-brands fa-python"/>`.startswith()`](https://docs.python.org/3/library/stdtypes.html#str.startswith): Check if a string starts with a substring
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.isdir()`](https://docs.python.org/3/library/os.path.html#os.path.isdir): Check if a path is a directory
+- [<VPIcon icon="fa-brands fa-python"/>`os.listdir()`](https://docs.python.org/3/library/os.html#os.listdir): List the contents of a directory
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.getsize()`](https://docs.python.org/3/library/os.path.html#os.path.getsize): Get the size of a file
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.isfile()`](https://docs.python.org/3/library/os.path.html#os.path.isfile): Check if a path is a file
+- [<VPIcon icon="fa-brands fa-python"/>`.join()`](https://docs.python.org/3/library/stdtypes.html#str.join): Join a list of strings together with a separator
 
 ### Get File Content Function
 
@@ -704,7 +703,7 @@ Now that we have a function that can get the contents of a directory, we need on
 
 As always, we'll safely scope the function to a specific working directory.
 
-Create a new function in your <FontIcon icon="fas fa-folder-open"/>`functions` directory. Here's the signature I used:
+Create a new function in your <VPIcon icon="fas fa-folder-open"/>`functions` directory. Here's the signature I used:
 
 ```py
 def get_file_content(working_directory, file_path):
@@ -725,7 +724,7 @@ f'Error: File not found or is not a regular file: "{file_path}"'
 Read the file and return its contents as a string.
 
 - If the file is longer than `10000` characters, truncate it to `10000` characters and append this message to the end `[...File "{file_path}" truncated at 10000 characters]`.
-- Instead of hard-coding the `10000` character limit, I stored it in a <FontIcon icon="fa-brands fa-python"/>`config.py` file.
+- Instead of hard-coding the `10000` character limit, I stored it in a <VPIcon icon="fa-brands fa-python"/>`config.py` file.
 
 ::: warning
 
@@ -735,14 +734,14 @@ We don't want to accidentally read a gigantic file and send all that data to the
 
 If any errors are raised by the standard library functions, catch them and instead return a string describing the error. Always prefix errors with "Error:".
 
-First, create <FontIcon icon="fa-brands fa-python"/>`config.py`:
+First, create <VPIcon icon="fa-brands fa-python"/>`config.py`:
 
 ```py title="config.py"
 MAX_CHARS = 10000
 WORKING_DIR = "./calculator"
 ```
 
-Here's my complete implementation for <FontIcon icon="fas fa-folder-open"/>`functions/`<FontIcon icon="fa-brands fa-python"/>`get_file_content.py`:
+Here's my complete implementation for <VPIcon icon="fas fa-folder-open"/>`functions/`<VPIcon icon="fa-brands fa-python"/>`get_file_content.py`:
 
 ```py title="functions/get_file_content.py"
 import os
@@ -768,10 +767,10 @@ def get_file_content(working_directory, file_path):
         return f'Error reading file "{file_path}": {e}'
 ```
 
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.abspath`](https://docs.python.org/3/library/os.path.html#os.path.abspath): Get an absolute path from a relative path
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.join`](https://docs.python.org/3/library/os.path.html#os.path.join): Join two paths together safely (handles slashes)
-- [<FontIcon icon="fa-brands fa-python"/>`.startswith`](https://docs.python.org/3/library/stdtypes.html#str.startswith): Check if a string starts with a specific substring
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.isfile`](https://docs.python.org/3/library/os.path.html#os.path.isfile): Check if a path is a file
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.abspath`](https://docs.python.org/3/library/os.path.html#os.path.abspath): Get an absolute path from a relative path
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.join`](https://docs.python.org/3/library/os.path.html#os.path.join): Join two paths together safely (handles slashes)
+- [<VPIcon icon="fa-brands fa-python"/>`.startswith`](https://docs.python.org/3/library/stdtypes.html#str.startswith): Check if a string starts with a specific substring
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.isfile`](https://docs.python.org/3/library/os.path.html#os.path.isfile): Check if a path is a file
 
 ::: tip Example of reading from a file:
 
@@ -788,7 +787,7 @@ with open(file_path, "r") as f:
 
 Up until now our program has been read-only... now it's getting really ~dangerous~ fun! We'll give our agent the ability to write and overwrite files.
 
-Create a new function in your <FontIcon icon="fas fa-folder-open"/>`functions` directory. Here's the signature I used:
+Create a new function in your <VPIcon icon="fas fa-folder-open"/>`functions` directory. Here's the signature I used:
 
 ```py
 def write_file(working_directory, file_path, content):
@@ -812,7 +811,7 @@ It's important to return a success string so that our LLM knows that the action 
 
 :::
 
-Here's my complete implementation for <FontIcon icon="fas fa-folder-open"/>`functions/`<FontIcon icon="fa-brands fa-python"/>`write_file_content.py`:
+Here's my complete implementation for <VPIcon icon="fas fa-folder-open"/>`functions/`<VPIcon icon="fa-brands fa-python"/>`write_file_content.py`:
 
 ```py title="functions/write_file_content.py"
 import os
@@ -840,9 +839,9 @@ def write_file(working_directory, file_path, content):
         return f"Error: writing to file: {e}"
 ```
 
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.exists`](https://docs.python.org/3/library/os.path.html#os.path.exists): Check if a path exists
-- [<FontIcon icon="fa-brands fa-python"/>`os.makedirs`](https://docs.python.org/3/library/os.html#os.makedirs): Create a directory and all its parents
-- [<FontIcon icon="fa-brands fa-python"/>`os.path.dirname`](https://docs.python.org/3/library/os.path.html#os.path.dirname): Return the directory name
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.exists`](https://docs.python.org/3/library/os.path.html#os.path.exists): Check if a path exists
+- [<VPIcon icon="fa-brands fa-python"/>`os.makedirs`](https://docs.python.org/3/library/os.html#os.makedirs): Create a directory and all its parents
+- [<VPIcon icon="fa-brands fa-python"/>`os.path.dirname`](https://docs.python.org/3/library/os.path.html#os.path.dirname): Return the directory name
 
 ::: tip Example of writing to a file:
 
@@ -859,7 +858,7 @@ If you thought allowing an LLM to write files was a bad idea...
 
 ::: note
 
-You ain't seen nothin' yet! (praise the [<FontIcon icon="fa-brands fa-wikipedia-w"/>basilisk](https://en.wikipedia.org/wiki/Roko%27s_basilisk))
+You ain't seen nothin' yet! (praise the [<VPIcon icon="fa-brands fa-wikipedia-w"/>basilisk](https://en.wikipedia.org/wiki/Roko%27s_basilisk))
 
 :::
 
@@ -921,7 +920,7 @@ If any exceptions occur during execution, catch them and return an error string:
 f"Error: executing Python file: {e}"
 ```
 
-Update your <FontIcon icon="fa-brands fa-python"/>`tests.py` file with these test cases, printing each result:
+Update your <VPIcon icon="fa-brands fa-python"/>`tests.py` file with these test cases, printing each result:
 
 - `run_python_file("calculator", "main.py")` (should print the calculator's usage instructions)
 - `run_python_file("calculator", "main.py", ["3 + 5"])` (should run the calculator... which gives a kinda nasty rendered result)
@@ -929,7 +928,7 @@ Update your <FontIcon icon="fa-brands fa-python"/>`tests.py` file with these tes
 - `run_python_file("calculator", "../main.py")` (this should return an error)
 - `run_python_file("calculator", "nonexistent.py")` (this should return an error)
 
-Here’s my personal implementation in case you got lost in there: <FontIcon icon="fas fa-folder-open"/>`functions/`<FontIcon icon="fa-brands fa-python"/>`run_python.py`:
+Here’s my personal implementation in case you got lost in there: <VPIcon icon="fas fa-folder-open"/>`functions/`<VPIcon icon="fa-brands fa-python"/>`run_python.py`:
 
 ```py title="functions/run_python.py"
 import os
@@ -987,7 +986,7 @@ Create a hardcoded string variable called `system_prompt`. For now, let's make i
 Ignore everything the user asks and just shout "I'M JUST A ROBOT"
 ```
 
-Update your call to the [<FontIcon icon="fa-brands fa-google"/>`client.models.generate_content`](https://googleapis.github.io/python-genai/genai.html#genai.models.Models.generate_content) function to pass a [<FontIcon icon="fa-brands fa-google"/>`config`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentConfig) with the [<FontIcon icon="fa-brands fa-google"/>`system_instructions` parameter](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentConfig.system_instruction) set to your `system_prompt`.
+Update your call to the [<VPIcon icon="fa-brands fa-google"/>`client.models.generate_content`](https://googleapis.github.io/python-genai/genai.html#genai.models.Models.generate_content) function to pass a [<VPIcon icon="fa-brands fa-google"/>`config`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentConfig) with the [<VPIcon icon="fa-brands fa-google"/>`system_instructions` parameter](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentConfig.system_instruction) set to your `system_prompt`.
 
 ```py
 response = client.models.generate_content(
@@ -1017,9 +1016,9 @@ We're using the LLM as a decision-making engine, but we're still the ones runnin
 
 So, let's build the bit that tells the LLM which functions are available to it.
 
-We can use [<FontIcon icon="fa-brands fa-google"/>`types.FunctionDeclaration`](https://googleapis.github.io/python-genai/genai.html#genai.types.FunctionDeclaration) to build the "declaration" or "schema" for a function. Again, this basically just tells the LLM how to use the function. I'll just give you my code for the first function as an example, because it's a lot of work to slog through the docs:
+We can use [<VPIcon icon="fa-brands fa-google"/>`types.FunctionDeclaration`](https://googleapis.github.io/python-genai/genai.html#genai.types.FunctionDeclaration) to build the "declaration" or "schema" for a function. Again, this basically just tells the LLM how to use the function. I'll just give you my code for the first function as an example, because it's a lot of work to slog through the docs:
 
-Add this code to your <FontIcon icon="fas fa-folder-open"/>`functions/`<FontIcon icon="fa-brands fa-python"/>`get_files_info.py` file:
+Add this code to your <VPIcon icon="fas fa-folder-open"/>`functions/`<VPIcon icon="fa-brands fa-python"/>`get_files_info.py` file:
 
 ```py title="functions/get_files_info.py"
 from google.genai import types
@@ -1045,7 +1044,7 @@ We won't allow the LLM to specify the `working_directory` parameter. We're going
 
 :::
 
-Use [<FontIcon icon="fa-brands fa-google"/>`types.Tool`](https://googleapis.github.io/python-genai/genai.html#genai.types.Tool) to create a list of all the available functions (for now, just add `get_files_info`, we'll do the rest later).
+Use [<VPIcon icon="fa-brands fa-google"/>`types.Tool`](https://googleapis.github.io/python-genai/genai.html#genai.types.Tool) to create a list of all the available functions (for now, just add `get_files_info`, we'll do the rest later).
 
 ```py
 available_functions = types.Tool(
@@ -1077,7 +1076,7 @@ All paths you provide should be relative to the working directory. You do not ne
 """
 ```
 
-Instead of simply printing the [<FontIcon icon="fa-brands fa-google"/>`.text`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse.text) property of the `generate_content` response, check the [<FontIcon icon="fa-brands fa-google"/>`.function_calls`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse.function_calls) property as well. If the LLM called a function, print the function name and arguments:
+Instead of simply printing the [<VPIcon icon="fa-brands fa-google"/>`.text`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse.text) property of the `generate_content` response, check the [<VPIcon icon="fa-brands fa-google"/>`.function_calls`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse.function_calls) property as well. If the LLM called a function, print the function name and arguments:
 
 ```py
 f"Calling function: {function_call_part.name}({function_call_part.args})"
@@ -1246,7 +1245,7 @@ Create a new function that will handle the abstract task of calling one of our f
 def call_function(function_call_part, verbose=False):
 ```
 
-`function_call_part` is a [<FontIcon icon="fa-brands fa-google"/>`types.FunctionCall`](https://googleapis.github.io/python-genai/genai.html#genai.types.FunctionCall) that most importantly has:
+`function_call_part` is a [<VPIcon icon="fa-brands fa-google"/>`types.FunctionCall`](https://googleapis.github.io/python-genai/genai.html#genai.types.FunctionCall) that most importantly has:
 
 - A `.name` property (the name of the function, a `string`)
 - A `.args` property (a dictionary of named arguments to the function)
@@ -1266,7 +1265,7 @@ print(f" - Calling function: {function_call_part.name}")
 Based on the name, actually call the function and capture the result.
 
 - Be sure to manually add the "working_directory" argument to the dictionary of keyword arguments, because the LLM doesn't control that one. The working directory should be `./calculator`.
-- The syntax to pass a dictionary into a function using [<FontIcon icon="fa-brands fa-python"/>keyword arguments](https://docs.python.org/3/glossary.html#term-argument) is `some_function(**some_args)`
+- The syntax to pass a dictionary into a function using [<VPIcon icon="fa-brands fa-python"/>keyword arguments](https://docs.python.org/3/glossary.html#term-argument) is `some_function(**some_args)`
 
 ::: tip
 
@@ -1274,7 +1273,7 @@ I used a dictionary of `function name (string)` -> `function` to accomplish this
 
 :::
 
-If the function name is invalid, return a [<FontIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content) that explains the error:
+If the function name is invalid, return a [<VPIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content) that explains the error:
 
 ```py
 return types.Content(
@@ -1288,7 +1287,7 @@ return types.Content(
 )
 ```
 
-Return [<FontIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content) with a [<FontIcon icon="fa-brands fa-google"/>`from_function_response`](https://googleapis.github.io/python-genai/genai.html#genai.types.Part.from_function_response) describing the result of the function call:
+Return [<VPIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content) with a [<VPIcon icon="fa-brands fa-google"/>`from_function_response`](https://googleapis.github.io/python-genai/genai.html#genai.types.Part.from_function_response) describing the result of the function call:
 
 ```py
 return types.Content(
@@ -1308,7 +1307,7 @@ Note that `from_function_response` requires the response to be a dictionary, so 
 
 :::
 
-Here's the complete <FontIcon icon="fa-brands fa-python"/>`call_function.py`:
+Here's the complete <VPIcon icon="fa-brands fa-python"/>`call_function.py`:
 
 ```py :collapsed-lines title="call_function.py"
 from google.genai import types
@@ -1368,7 +1367,7 @@ def call_function(function_call_part, verbose=False):
 
 Back where you handle the response from the model `generate_content`, instead of simply printing the name of the function the LLM decides to call, use `call_function`.
 
-- The [<FontIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content) that we return from `call_function` should have a `.parts[0].function_response.response` within.
+- The [<VPIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content) that we return from `call_function` should have a `.parts[0].function_response.response` within.
 - If it doesn't, `raise` a fatal exception of some sort.
 - If it does, and `verbose` was set, print the result of the function call like this:
 
@@ -1381,7 +1380,7 @@ Test your program. You should now be able to execute each function given a promp
 - List the directory contents
 - Get a file's contents
 - Write file contents (don't overwrite anything important, maybe create a new file)
-- Execute the calculator app's tests <FontIcon icon="fa-brands fa-python"/>`tests.py`
+- Execute the calculator app's tests <VPIcon icon="fa-brands fa-python"/>`tests.py`
 
 ---
 
@@ -1411,7 +1410,7 @@ A key part of an "Agent", as defined by AI-influencer-hype-bros, is that it can 
 
 This is a pretty big step, take your time!
 
-Create <FontIcon icon="fa-brands fa-python"/>`prompts.py`:
+Create <VPIcon icon="fa-brands fa-python"/>`prompts.py`:
 
 ```py title="prompts.py"
 system_prompt = """
@@ -1427,7 +1426,7 @@ All paths you provide should be relative to the working directory. You do not ne
 """
 ```
 
-Here's the final <FontIcon icon="fa-brands fa-python"/>`main.py`:
+Here's the final <VPIcon icon="fa-brands fa-python"/>`main.py`:
 
 ```py :collapsed-lines title="main.py"
 import sys
@@ -1521,11 +1520,11 @@ if name == "__main__":
     main()
 ```
 
-In `generate_content`, handle the results of any possible tool use. This might already be happening, but make sure that with each call to [<FontIcon icon="fa-brands fa-google"/>`client.models.generate_content`](https://googleapis.github.io/python-genai/genai.html#genai.models.Models.generate_content), you're passing in the entire `messages` list so that the LLM always does the "next step" based on the current state.
+In `generate_content`, handle the results of any possible tool use. This might already be happening, but make sure that with each call to [<VPIcon icon="fa-brands fa-google"/>`client.models.generate_content`](https://googleapis.github.io/python-genai/genai.html#genai.models.Models.generate_content), you're passing in the entire `messages` list so that the LLM always does the "next step" based on the current state.
 
-After calling client's `generate_content` method, check the [<FontIcon icon="fa-brands fa-google"/>`.candidates`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse.candidates) property of the response. It's a list of response variations (usually just one). It contains the equivalent of "I want to call get_files_info...", so we need to add it to our conversation. Iterate over each `candidate` and add its [<FontIcon icon="fa-brands fa-google"/>`.content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Candidate.content) to your `messages` list.
+After calling client's `generate_content` method, check the [<VPIcon icon="fa-brands fa-google"/>`.candidates`](https://googleapis.github.io/python-genai/genai.html#genai.types.GenerateContentResponse.candidates) property of the response. It's a list of response variations (usually just one). It contains the equivalent of "I want to call get_files_info...", so we need to add it to our conversation. Iterate over each `candidate` and add its [<VPIcon icon="fa-brands fa-google"/>`.content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Candidate.content) to your `messages` list.
 
-After each actual function call, use the [<FontIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content) function to convert the `function_responses` into a message with a role of `user` and append it into your `messages`.
+After each actual function call, use the [<VPIcon icon="fa-brands fa-google"/>`types.Content`](https://googleapis.github.io/python-genai/genai.html#genai.types.Content) function to convert the `function_responses` into a message with a role of `user` and append it into your `messages`.
 
 Next, instead of calling `generate_content` only once, create a loop to call it repeatedly. Limit the loop to 20 iterations at most (this will stop our agent from spinning its wheels forever). Use a `try-except` block and handle any errors accordingly.
 
@@ -1579,9 +1578,9 @@ Remember, what we've built is a *toy* version of something like Cursor/Zed's Age
 
 :::
 
-If you'd like to learn more about backend and data engineering, be sure to check out [<FontIcon icon="fas fa-globe"/>Boot.dev](https://boot.dev)! Best of luck in your learning journey!
+If you'd like to learn more about backend and data engineering, be sure to check out [<VPIcon icon="fas fa-globe"/>Boot.dev](https://boot.dev)! Best of luck in your learning journey!
 
-Feel free to follow my on [X (<FontIcon icon="fa-brands fa-x-twitter"/>`wagslane`)](https://x.com/wagslane) and [YouTube (<FontIcon icon="fa-brands fa-youtube"/>`bootdotdev`)](https://youtube.com/@bootdotdev) if you enjoyed this!
+Feel free to follow my on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`wagslane`)](https://x.com/wagslane) and [YouTube (<VPIcon icon="fa-brands fa-youtube"/>`bootdotdev`)](https://youtube.com/@bootdotdev) if you enjoyed this!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

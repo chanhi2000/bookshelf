@@ -348,20 +348,21 @@ Now we’ll turn all the code in the Jupyter notebook into functions. So, add a 
 
 You can configure our endpoint in the following manner:
 
-    @app.route('/summary', methods=['POST'])
-    def summary():
-        url = request.form.get('Body')  # Get the JSON data from the request body
-        print(url)
-        if is_youtube_url(url):
-            response = summarise(url)
-        else:
-            response = "please check if this is a correct youtube video url"
-        print(response)
-        resp = MessagingResponse()
-        msg = resp.message()
-        msg.body(response)
-        return str(resp)
-    
+```py
+@app.route('/summary', methods=['POST'])
+def summary():
+    url = request.form.get('Body')  # Get the JSON data from the request body
+    print(url)
+    if is_youtube_url(url):
+        response = summarise(url)
+    else:
+    response = "please check if this is a correct youtube video url"
+    print(response)
+    resp = MessagingResponse()
+    msg = resp.message()
+    msg.body(response)
+    return str(resp)
+```
 
 Once your `app.py` is ready with your Flask API, run the Python script, and you should have your server running locally on your system.
 

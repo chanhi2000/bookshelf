@@ -109,7 +109,7 @@ Before we begin, make sure you have the following tools and accounts set up:
 1. Node.js v22+ and npm (check with `node --version`)
 2. Basic JavaScript knowledge for the scripts
 3. Familiarity with React and TypeScript for the web app
-4. An OpenAI API key with billing enabled (get one at [<FontIcon icon="iconfont icon-openai"/>platform.openai.com/docs/overview](https://platform.openai.com/docs/overview))
+4. An OpenAI API key with billing enabled (get one at [<VPIcon icon="iconfont icon-openai"/>platform.openai.com/docs/overview](https://platform.openai.com/docs/overview))
 5. A code editor
 
 You'll also need some content to train your model on. This could be blog posts, documentation, transcripts, or any text that represents the knowledge and style you want to impart to your AI.
@@ -181,7 +181,7 @@ npm install cheerio axios dotenv openai
 touch scraper.js fine-tune.js .gitignore .env
 ```
 
-Open the <FontIcon icon="fas fa-folder-open"/>`ai-fine-tuning-project` in a code editor and copy the following values into a <FontIcon icon="fas fa-file-lines"/>`.env` file in the scripts folder.
+Open the <VPIcon icon="fas fa-folder-open"/>`ai-fine-tuning-project` in a code editor and copy the following values into a <VPIcon icon="fas fa-file-lines"/>`.env` file in the scripts folder.
 
 ```sh title=".env"
 OPENAI_API_KEY=sk-...your-api-key-here...
@@ -190,10 +190,10 @@ OPENAI_ORG_ID=org-...your-org-id...
 
 Update the ENV variables with a valid API Key and Org ID from OpenAI.
 
-1. Generate an API Key using this guide: [<FontIcon icon="iconfont icon-openai"/>Where do I find my OpenAI API Key?](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key). Here are the best practices to keep your API Key safe: [<FontIcon icon="iconfont icon-openai"/>Best Practices for API Key Safety](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety).
-2. You can find your OpenAI Org ID here: [<FontIcon icon="iconfont icon-openai"/>OpenAI Organization Settings](https://platform.openai.com/settings/organization/general).
+1. Generate an API Key using this guide: [<VPIcon icon="iconfont icon-openai"/>Where do I find my OpenAI API Key?](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key). Here are the best practices to keep your API Key safe: [<VPIcon icon="iconfont icon-openai"/>Best Practices for API Key Safety](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety).
+2. You can find your OpenAI Org ID here: [<VPIcon icon="iconfont icon-openai"/>OpenAI Organization Settings](https://platform.openai.com/settings/organization/general).
 
-Add the following code to the <FontIcon icon="iconfont icon-git"/>`.gitignore` file:
+Add the following code to the <VPIcon icon="iconfont icon-git"/>`.gitignore` file:
 
 ```sh title=".gitignore"
 # Environment variables
@@ -224,7 +224,7 @@ Thumbs.db
 *.swo
 ```
 
-Update the scraper script (<FontIcon icon="fa-brands fa-js"/>`scraper.js`) with the following code:
+Update the scraper script (<VPIcon icon="fa-brands fa-js"/>`scraper.js`) with the following code:
 
 ```js :collapsed-lines title="scraper.js"
 const cheerio = require("cheerio");
@@ -527,7 +527,7 @@ The generated Q&A pairs are formatted into JSONL files according to OpenAI's fin
 
 However, this is a basic script that can be improved based on your website's design, audience, and goals. While it extracts various content sections and creates diverse question-and-answer pairs, you'll need to manually check the output to ensure quality and correct formatting, as OpenAI will reject improperly formatted data. In production environments, this verification process can be automated by updating the script with additional validation logic and quality checks.
 
-Now, let's create our <FontIcon icon="iconfont icon-json"/>`training_data.jsonl` file by running our scraper:
+Now, let's create our <VPIcon icon="iconfont icon-json"/>`training_data.jsonl` file by running our scraper:
 
 ```sh
 node scraper.js
@@ -549,7 +549,7 @@ Scraping complete!
 
 ::: tip Pro tip
 
-Quality is more important than quantity. Review the generated <FontIcon icon="iconfont icon-json"/>`training_data.jsonl` file and refine any examples that don't accurately reflect the content or tone you want your AI to adopt.
+Quality is more important than quantity. Review the generated <VPIcon icon="iconfont icon-json"/>`training_data.jsonl` file and refine any examples that don't accurately reflect the content or tone you want your AI to adopt.
 
 :::
 
@@ -559,7 +559,7 @@ Quality is more important than quantity. Review the generated <FontIcon icon="ic
 
 With our dataset prepared, let's create a script to submit it to OpenAI for fine-tuning. We'll use the GPT-4.1 models and handle the entire process from upload to completion.
 
-Update the fine-tuning script (<FontIcon icon="fa-brands fa-js"/>`fine-tune.js`):
+Update the fine-tuning script (<VPIcon icon="fa-brands fa-js"/>`fine-tune.js`):
 
 ```js :collapsed-lines title="fine-tune.js"
 const OpenAI = require("openai");
@@ -783,7 +783,7 @@ Trained on 50 examples
 
 ::: tip Pro tip
 
-Start with the nano model to test your dataset and workflow. It's the most cost-effective option and often enough for domain-specific knowledge. You can always train with a larger model later by updating configuration in <FontIcon icon="fa-brands fa-js"/>`fine-tune.js`.
+Start with the nano model to test your dataset and workflow. It's the most cost-effective option and often enough for domain-specific knowledge. You can always train with a larger model later by updating configuration in <VPIcon icon="fa-brands fa-js"/>`fine-tune.js`.
 
 :::
 
@@ -850,13 +850,13 @@ npx shadcn@latest add scroll-area
 npx shadcn@latest add avatar
 ```
 
-Create the <FontIcon icon="fas fa-file-lines"/>`.env.local` file using the following command:
+Create the <VPIcon icon="fas fa-file-lines"/>`.env.local` file using the following command:
 
 ```sh
 touch .env.local
 ```
 
-Add your environment variables in <FontIcon icon="fas fa-folder-open"/>`web/`<FontIcon icon="fas fa-file-lines"/>`.env.local`:
+Add your environment variables in <VPIcon icon="fas fa-folder-open"/>`web/`<VPIcon icon="fas fa-file-lines"/>`.env.local`:
 
 ```sh title="web/.env.local"
 OPENAI_API_KEY=sk-...your-api-key...
@@ -864,7 +864,7 @@ OPENAI_ORG_ID=org-...your-org-id...
 FINE_TUNED_MODEL=ft:gpt-4.1-nano-2025-04-14:... # Your model ID from fine-tuning
 ```
 
-In the <FontIcon icon="fas fa-folder-open"/>`src` directory, create a new folder named <FontIcon icon="fas fa-folder-open"/>`types`. Inside this folder, create a file called <FontIcon icon="iconfont icon-typescript"/>`chat.ts` and copy and paste the following code:
+In the <VPIcon icon="fas fa-folder-open"/>`src` directory, create a new folder named <VPIcon icon="fas fa-folder-open"/>`types`. Inside this folder, create a file called <VPIcon icon="iconfont icon-typescript"/>`chat.ts` and copy and paste the following code:
 
 ```ts title="web/src/types/chat.ts"
 export interface Message {
@@ -893,7 +893,7 @@ This TypeScript code defines the data structures (interfaces) for a chat applica
 
 Finally, the `ChatResponse` interface defines what you'll receive from the API: the assistant's reply message and optional usage statistics that show how many tokens were used for prompts and completions. This helps you track costs. By defining these interfaces, TypeScript ensures type safety throughout your application, catching errors during development and providing autocomplete suggestions in your code editor. This makes your chat application more robust and easier to maintain.
 
-Update the <FontIcon icon="fas fa-folder-open"/>`app/`<FontIcon icon="fa-brands fa-react"/>`layout.tsx` with meta information and chat layout:
+Update the <VPIcon icon="fas fa-folder-open"/>`app/`<VPIcon icon="fa-brands fa-react"/>`layout.tsx` with meta information and chat layout:
 
 ```tsx title="web/app/layout.tsx"
 import type { Metadata } from "next";
@@ -937,7 +937,7 @@ This layout ensures that every page in your chat application shares the same bas
 
 Let's build a beautiful, responsive chat interface using shadcn components and the Vercel AI SDK's powerful streaming features.
 
-First, create the main chat component in <FontIcon icon="fas fa-folder-open"/>`src/components/`<FontIcon icon="fa-brands fa-react"/>`chat.tsx`:
+First, create the main chat component in <VPIcon icon="fas fa-folder-open"/>`src/components/`<VPIcon icon="fa-brands fa-react"/>`chat.tsx`:
 
 ```tsx :collapsed-lines title="web/src/components/chat.tsx"
 export default function Chat() {
@@ -1384,9 +1384,9 @@ As you continue, remember that fine-tuning is a step-by-step process. Watch how 
 
 ::: info
 
-For founders considering AI adoption, I've created a free guide: [<FontIcon icon="fa-brands fa-notion"/>AI or No AI? The 2025 Founder's Decision Playbook](https://notion.so/AI-or-No-AI-The-2025-Founder-s-Decision-Playbook-25ec9ed724ec80668a8fc42bb804515a) - a framework to help decide when AI truly adds value.
+For founders considering AI adoption, I've created a free guide: [<VPIcon icon="fa-brands fa-notion"/>AI or No AI? The 2025 Founder's Decision Playbook](https://notion.so/AI-or-No-AI-The-2025-Founder-s-Decision-Playbook-25ec9ed724ec80668a8fc42bb804515a) - a framework to help decide when AI truly adds value.
 
-Feel free to connect with me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`sharvinshah`)](https://linkedin.com/in/sharvinshah/) and [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`sharvinshah`)](https://twitter.com/sharvinshah26).
+Feel free to connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`sharvinshah`)](https://linkedin.com/in/sharvinshah/) and [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`sharvinshah`)](https://twitter.com/sharvinshah26).
 
 :::
 

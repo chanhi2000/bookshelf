@@ -15,6 +15,11 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "the-interview-question-that-changed-how-i-think-about-system-design", // 2025-10-25
+    "6-steps-for-setting-up-a-new-dotnet-project-the-right-way", // 2025-10-18
+    "building-fast-serverless-apis-with-minimal-apis-on-aws-lambda", // 2025-10-11
+    "using-stored-procedures-and-functions-with-ef-core-and-postgresql", // 2205-10-04
+    "building-secure-apis-with-role-based-access-control-in-aspnetcore", // 2025-09-27
     "distributed-locking-in-dotnet-coordinating-work-across-multiple-instances", // 2025-09-20
     "building-semantic-search-with-amazon-s3-vectors", // 2025-09-06
     "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
@@ -350,6 +355,10 @@ export const template: SidebarInfoTemplate = {
       "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
       "building-semantic-search-with-amazon-s3-vectors", // 2025-09-06
       "distributed-locking-in-dotnet-coordinating-work-across-multiple-instances", // 2025-09-20
+      "building-secure-apis-with-role-based-access-control-in-aspnetcore", // 2025-09-27
+      "using-stored-procedures-and-functions-with-ef-core-and-postgresql", // 2205-10-04
+      "building-fast-serverless-apis-with-minimal-apis-on-aws-lambda", // 2025-10-11
+      "6-steps-for-setting-up-a-new-dotnet-project-the-right-way", // 2025-10-18
       // END: 2025cs
       // END: cs
     ]],[
@@ -392,6 +401,7 @@ export const template: SidebarInfoTemplate = {
       "testcontainers-best-practices-dotnet-integration-testing", // 2025-06-28
       "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
       "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
+      "6-steps-for-setting-up-a-new-dotnet-project-the-right-way", // 2025-10-18
       // END: 2025docker
       // END: docker
     ]],[
@@ -408,6 +418,7 @@ export const template: SidebarInfoTemplate = {
       "complete-guide-to-amazon-sqs-and-amazon-sns-with-masstransit", // 2024-08-17
       // END: 2024aws
       "building-semantic-search-with-amazon-s3-vectors", // 2025-09-06
+      "building-fast-serverless-apis-with-minimal-apis-on-aws-lambda", // 2025-10-11
       // END: 2025aws
       // END: aws
     ]],[
@@ -435,6 +446,7 @@ export const template: SidebarInfoTemplate = {
       "understanding-cursor-pagination-and-why-its-so-fast-deep-dive", // 2025-02-15
       "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
       "distributed-locking-in-dotnet-coordinating-work-across-multiple-instances", // 2025-09-20
+      "using-stored-procedures-and-functions-with-ef-core-and-postgresql", // 2205-10-04
       // END: 2025postgres
       // END: postgres
     ]],[
@@ -466,6 +478,7 @@ export const template: SidebarInfoTemplate = {
       "refactoring-overgrown-bounded-contexts-in-modular-monoliths", // 2025-04-26
       "how-to-keep-your-data-boundaries-intact-in-a-modular-monolith", // 2025-08-02
       "the-5-most-common-rest-api-design-mistakes-and-how-to-avoid-them", // 2025-08-08
+      "the-interview-question-that-changed-how-i-think-about-system-design", // 2025-10-25
       // END: 2025system-design
       // END: system-design
     ]],[

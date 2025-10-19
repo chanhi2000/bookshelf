@@ -20,7 +20,7 @@ head:
       content: "The 5 Most Common REST API Design Mistakes (and How to Avoid Them)"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/milanjovanovic.tech/the-5-most-common-rest-api-design-mistakes-and-how-to-avoid-them.html
-prev: /programming/cs/articles/README.md
+prev: /academics/system-design/articles/README.md
 date: 2025-08-09
 isOriginal: false
 author: Milan Jovanović

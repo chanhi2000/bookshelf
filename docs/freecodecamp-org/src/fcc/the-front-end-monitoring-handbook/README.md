@@ -1147,7 +1147,6 @@ You can use this data to:
 - Identify underperforming pages that need improvement
 - Analyze user flow through your application
 - Measure the effectiveness of new features or content
-    
 
 ### Page Stay Duration
 
@@ -1175,7 +1174,6 @@ With page stay duration data, you can:
 - Set benchmarks for content performance
 - Detect potential usability issues (extremely short durations)
 - Measure the effectiveness of content updates or redesigns
-    
 
 ### Page Access Depth
 
@@ -1191,7 +1189,6 @@ The page access depth calculation process is slightly more complex:
 2. When users scroll the page, the `scroll` event triggers. In the callback function, use the data from point 1 to calculate page access depth and stay duration.
 3. When users stop scrolling at a certain point to continue viewing the page, record the current time, scrollTop value, viewport height, and total page height.
 4. Repeat point 2...
-    
 
 Here's the specific code:
 
@@ -1266,7 +1263,6 @@ With page access depth data, you can:
 - Optimize content placement (put important elements where users actually look)
 - Improve long-form content structure with better hierarchy
 - Detect unusual user behavior patterns that might indicate fraud or bots
-    
 
 ### User Clicks
 
@@ -1318,7 +1314,6 @@ With this click data, you can:
 - Identify non-functional elements users try to interact with
 - Optimize button placement and size for better conversion
 - Detect rage clicks (multiple rapid clicks in the same area) indicating user frustration
-    
 
 ### Page Navigation
 
@@ -1368,7 +1363,6 @@ With navigation data, you can:
 - Detect navigation dead-ends or loops where users get stuck
 - Optimize navigation menus based on actual usage patterns
 - Improve information architecture to better match user behavior
-    
 
 ### Vue Router Changes
 
@@ -1411,7 +1405,6 @@ This data helps you:
 - Understand navigation patterns specific to your application's structure
 - Identify potential optimization opportunities in your routing setup
 - Measure the impact of UX improvements on navigation behavior
-    
 
 ---
 
@@ -1425,7 +1418,6 @@ Effective data reporting must balance several concerns:
 2. **Performance** - Minimizing impact on the user experience and application performance
 3. **Timing** - Deciding when to send data to avoid interference with user interactions
 4. **Bandwidth** - Managing the amount of data transmitted to reduce network usage
-    
 
 Let's explore the various methods and strategies for implementing efficient data reporting.
 
@@ -1436,7 +1428,6 @@ Data can be reported using the following methods:
 - [sendBeacon](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon)
 - [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 - image
-    
 
 My simple SDK uses a combination of the first and second methods for reporting. Using sendBeacon for reporting has very obvious advantages.
 
@@ -1511,13 +1502,11 @@ There are three reporting timings:
 1. Use `requestIdleCallback/setTimeout` for delayed reporting
 2. Report in the beforeunload callback function
 3. Cache reported data and report when reaching a certain amount
-    
 
 It's recommended to combine all three methods:
 
 1. First cache the reported data, and when reaching a certain amount, use `requestIdleCallback/setTimeout` for delayed reporting
 2. Report all unreported data when leaving the page
-    
 
 Here's how you might implement this combined approach:
 
@@ -1587,7 +1576,6 @@ This implementation:
 2. Uses `requestIdleCallback` (or `setTimeout` as fallback) to send data when the browser is idle
 3. Ensures any remaining data is sent when the user leaves the page
 4. Batches multiple reports together to reduce network requests
-    
 
 By combining these methods, you create a robust reporting system that minimizes performance impact while ensuring data reliability.
 
@@ -1598,36 +1586,22 @@ By combining these methods, you create a robust reporting system that minimizes 
 In this comprehensive guide, we've explored how to build a complete frontend monitoring SDK for collecting and reporting critical application data. Let's recap what we've covered:
 
 1. **Performance Monitoring**
-    
     - We implemented methods to capture key web vitals like FP, FCP, LCP, and CLS
-        
     - We tracked page load events, API request timing, and resource loading metrics
-        
     - We measured first screen rendering time and frame rates to ensure smooth user experiences
-        
     - We added support for SPA-specific metrics like Vue router change rendering time
-    2. **Error Monitoring**
-    
+2. **Error Monitoring**
     - We built systems to capture resource loading errors, JavaScript exceptions, and Promise rejections
-        
     - We explored how to use sourcemaps to make minified production errors readable
-        
     - We integrated with framework-specific error handling for Vue applications
-    3. **User Behavior Tracking**
-    
+3. **User Behavior Tracking**
     - We implemented tracking for page views, stay duration, and scroll depth
-        
     - We created methods to monitor user clicks and navigation patterns
-        
     - We built custom tracking for SPA navigation with Vue Router
-    4. **Data Reporting**
-    
+4. **Data Reporting**
     - We developed robust reporting mechanisms using sendBeacon and XMLHttpRequest
-        
     - We implemented intelligent reporting timing strategies to minimize performance impact
-        
     - We created batching mechanisms to reduce network requests
-        
 
 Building your own monitoring SDK gives you complete control over what data you collect and how you process it. This approach offers several advantages over third-party solutions:
 
@@ -1635,7 +1609,6 @@ Building your own monitoring SDK gives you complete control over what data you c
 - **Performance**: You can optimize the SDK specifically for your application's needs
 - **Customization**: You can add custom metrics unique to your business requirements
 - **Integration**: Your SDK can easily integrate with your existing systems
-    
 
 As you implement your own monitoring solution, remember these best practices:
 
@@ -1643,7 +1616,6 @@ As you implement your own monitoring solution, remember these best practices:
 2. **Minimize Performance Impact**: Ensure your monitoring doesn't degrade the user experience
 3. **Balance Detail and Volume**: More data isn't always better if it overwhelms your analysis
 4. **Act on Insights**: The ultimate goal is to improve your application based on the data
-    
 
 By following the approaches outlined in this article, you'll be well-equipped to build a comprehensive monitoring system that helps you deliver better user experiences through data-driven decision making.
 
@@ -1669,13 +1641,11 @@ By following the approaches outlined in this article, you'll be well-equipped to
 - [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
 - [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 - [sendBeacon](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon)
-    
 
 ### Error Monitoring
 
 - [noerror](https://github.com/joeyguo/noerror)
 - [source-map](https://github.com/mozilla/source-map)
-    
 
 ### Behavior Monitoring
 

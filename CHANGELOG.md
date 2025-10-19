@@ -5,8 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com)
 and this project adheres to [Semantic Versioning](http://semver.org).
 
-- [v0.2.2: 2025-10-19][v0.2.2]
-- [v0.2.1: 2025-10-11][v0.2.1]
+- [v0.2.3: 2025-10-26][v0.2.3]: 컨텐츠 추가
+- [v0.2.2: 2025-10-19][v0.2.2]: 컨텐츠 추가
+- [v0.2.1: 2025-10-11][v0.2.1]: 컨텐츠 추가
 - [v0.2.0: 2025-09-25][v0.2.0]
   - 컨텐츠 추가
   - vuepress-theme-hope: 버전 bump (2.0.0-rc.112)
@@ -109,3 +110,4 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 [v0.2.0]: https://github.com/chanhi2000/bookshelf/compare/v0.1.30...v0.2.0
 [v0.2.1]: https://github.com/chanhi2000/bookshelf/compare/v0.2.0...v0.2.1
 [v0.2.2]: https://github.com/chanhi2000/bookshelf/compare/v0.2.1...v0.2.2
+[v0.2.3]: https://github.com/chanhi2000/bookshelf/compare/v0.2.2...v0.2.3

@@ -294,6 +294,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "run-python-scripts", // 2024-12-08
     "python-input-output", // 2024-12-02
     "python-logging", // 2024-11-30
+    "python-concurrency", // 2024-11-25
     "python-zip-function", // 2024-11-17
     "ruff-python", // 2024-06-17
   ]
@@ -451,6 +452,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023py
       "ruff-python", // 2024-06-17
       "python-zip-function", // 2024-11-17
+      "python-concurrency", // 2024-11-25
       "python-logging", // 2024-11-30
       "python-input-output", // 2024-12-02
       "run-python-scripts", // 2024-12-08

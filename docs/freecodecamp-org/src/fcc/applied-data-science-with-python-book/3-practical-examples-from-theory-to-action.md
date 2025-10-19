@@ -203,7 +203,7 @@ print(df.describe().to_markdown(numalign="left", stralign="left"))
 df.dropna(inplace=True)  
 df['Sales'].fillna(df['Sales'].mean(), inplace=True) 
 df['Order Date'] = pd.to_datetime(df['Order Date'])  
-df['Sales'] = pd.to_numeric(df['Sales'])          
+df['Sales'] = pd.to_numeric(df['Sales'])
 
 z = np.abs(stats.zscore(df['Sales']))
 df = df[(z < 3)]  

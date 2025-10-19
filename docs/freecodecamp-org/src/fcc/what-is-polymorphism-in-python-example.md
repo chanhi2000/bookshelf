@@ -61,7 +61,6 @@ The word *polymorphism* is derived from Greek, and means "having multiple forms"
 
 - Poly = many
 - Morph = forms
-    
 
 **In programming, polymorphism is the ability of an object to take many forms**.
 

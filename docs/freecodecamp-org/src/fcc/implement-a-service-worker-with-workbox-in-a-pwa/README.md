@@ -90,7 +90,6 @@ In this tutorial, you’ll learn how to implement a service worker with WorkBox 
 - [How to Set Up App Installation](#heading-how-to-set-up-app-installation)
 - [How to Install the Weather App](#heading-how-to-install-the-weather-app)
 - [Conclusion](#heading-conclusion)
-    
 
 ---
 
@@ -99,28 +98,24 @@ In this tutorial, you’ll learn how to implement a service worker with WorkBox 
 - **Setting Up the Project:** We'll build a simple weather app using HTML, CSS, and JavaScript. This approach is perfect for this tutorial because it keeps things simple and accessible while focusing on core PWA concepts without the added complexity of frameworks like React or Vue.
 - **Turning the App into a PWA:** Next, we’ll walk through the concept of a Progressive Web App, covering the key features and best practices of PWAs.
 - **Implementing Service Worker via WorkBox:** Finally, we’ll dive deeper into how service workers function and explore why using Workbox simplifies the process.
-    
 
 Here’s what the final application will look like:
 
 ![Weatherly app interface showing Tokyo weather with 24°C temperature, overcast clouds, city search functionality, and location services button](https://cdn.hashnode.com/res/hashnode/image/upload/v1747272664555/8ec876bc-0881-4a63-8010-02136de91db3.png)
 
-### **Audience**
+### Audience
 
 This tutorial is for web developers of all levels. Whether you're new to Progressive Web Apps (PWAs) or just starting to explore service workers, this guide will walk you through the core concepts and demonstrate why using a Google-backed library like Workbox to implement service workers can be more efficient than manual implementation.
 
-### **Prerequisites**
+### Prerequisites
 
 Before you begin
 
 1. Get a free API key from the [OpenWeatherAPI](https://openweathermap.org/) website
 2. Make sure you’re familiar with HTML, CSS, and JavaScript.
 3. If you’re new to PWAs, you might want to read some introductory articles to get a quick overview.
-    
     - [Progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
-        
     - [Workbox](https://web.dev/articles/workbox)
-        
 
 ---
 
@@ -134,7 +129,6 @@ Think of apps like Instagram Web, Twitter Lite, or Spotify Web Player. Even thou
 - It works even on slow or unstable networks.
 - You can “install” it on your home screen and launch it like a regular app.
 - You even get push notifications just like a mobile app!
-    
 
 With PWAs, you get the reach of the web and the feel of an app without the heavy storage or installation process.
 
@@ -148,11 +142,10 @@ A PWA is not just any website. It’s built to progressively enhance the user ex
 - **Reliable**: Loads instantly, even when offline or on poor networks.
 - **Installable**: Can be added to the home screen without needing an app store.
 - **Engaging**: Supports features like push notifications and background sync.
-    
 
 ---
 
-## **Compone**nts of a PWA
+## Compone**nts of a P
 
 Before your web app can be considered a PWA, it must include the following:
 
@@ -168,7 +161,6 @@ Think of it like your app’s business card. It includes details like:
 - **Start URL** - The page that opens when the app is launched.
 - **Display mode** - Controls whether the app opens in a browser tab, fullscreen, or a native-like window.
 - **Screenshots** - Optional preview images that show how your app looks on different devices in app stores or installation prompts.
-    
 
 ### A Service Worker
 
@@ -183,9 +175,8 @@ PWAs must be served over HTTPS. This is not optional. Here’s why:
 - It protects users by ensuring secure data transfer.
 - It enables important features like service workers and push notifications.
 - Browsers won’t allow service workers to register on non-secure origins.
-    
 
-If you're testing locally, you can use [`localhost`](http://localhost) (which is treated as secure), But for production, your site must have an SSL certificate.
+If you're testing locally, you can use `localhot` (which is treated as secure), But for production, your site must have an SSL certificate.
 
 ---
 
@@ -197,7 +188,6 @@ In PWAs, a service worker is a JavaScript file that runs in the background, sepa
 - Intercept network requests and apply caching strategies
 - Handle background syncs
 - Manage push notifications
-    
 
 Think of it as your app’s behind-the-scenes assistant—makes it load fast, works offline, and stays updated, even when you're not looking.
 
@@ -210,7 +200,6 @@ Service workers are essential in creating a PWA, but getting started with them c
 - Manually configure caching strategies
 - Handle service worker updates
 - Write and maintain a lot of repetitive boilerplate code
-    
 
 Workbox, a library from Google, makes things easier by letting developers focus on what matters, without worrying about the complicated parts of service workers.
 
@@ -221,7 +210,6 @@ Here are key things a service worker (with or without Workbox) does:
 - **Install event**: Set up cache
 - **Activate event**: Clean up old caches
 - **Fetch event**: Intercept network requests and serve from cache
-    
 
 With Workbox, these are wrapped in easy-to-use functions.
 
@@ -234,7 +222,6 @@ Workbox is a collection of libraries that helps developers build efficient servi
 - `CacheFirst`: Load from cache, fall back to network
 - `NetworkFirst` : Try network, fall back to cache
 - `StaleWhileRevalidate`: Serve from cache and update in the background
-    
 
 ### Understanding Workbox Modules
 
@@ -243,7 +230,6 @@ Workbox is more than just a tool. It is a collection of powerful modules, each d
 - **Service Worker Context** - Inside your service worker file, where you handle caching, routing, and other background tasks.
 - **Window Context** - Inside your main application (the client-side JS), where you register and communicate with the service worker.
 - **Build Tools Integration** - Tools like Webpack use Workbox to generate service worker files and precache manifests during your build process.
-    
 
 Let’s break down some of the most popular and essential modules Workbox offers:
 
@@ -281,7 +267,6 @@ You can use WorkBox via:
 
 - npm
 - CDN (which we'll use here for simplicity)
-    
 
 ---
 
@@ -1189,7 +1174,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.5.4/workbox
 
 Here, we’ll implement the necessary functionalities needed to make the weather app a PWA
 
-### **Step 1:** Activate the New Service Worker Immediately
+### Step 1:** Activate the New Service Worker Immediate
 
 Add `workbox.core.skipWaiting()` to make the newly installed service worker activate right away instead of waiting for the old one to be removed in the `service-worker.js` file.
 
@@ -1197,7 +1182,7 @@ Add `workbox.core.skipWaiting()` to make the newly installed service worker acti
 workbox.core.skipWaiting();
 ```
 
-### **Step 2:** Take Control of Open Tabs
+### Step 2:** Take Control of Open Ta
 
 Add `workbox.core.clientsClaim()` to ensure that the activated service worker takes control of all currently open pages, so the latest version of your app works immediately across all tabs after it becomes active.
 
@@ -1291,7 +1276,7 @@ The commonly used static files (like HTML, CSS, JS, fonts, and so on) are served
   );
 ```
 
-### **Step 8: Cache** HTML Pages with Offline Support
+### Step 8: Cache** HTML Pages with Offline Suppo
 
 The `index.html` page will be handled using the NetworkFirst strategy. This means that the service worker tries to fetch the latest version from the network first. If the user is offline or the network fails, it falls back to the cached version. The cache is named `"pages-cache"` and the offline fallback page (`offline.html`) is returned when the requested page isn’t available. This ensures that users can still navigate the app even without an internet connection.
 
@@ -1329,7 +1314,7 @@ else {
 
 Once the service worker finishes handling the different conditions in the `if-else` block, we add a general cleanup step to remove any outdated or unused caches.
 
-### **Step 10:** Clean Up Outdated Caches
+### Step 10:** Clean Up Outdated Cach
 
 During the service worker's activation phase, old or unused caches are removed. It compares all existing cache names with a list of current ones (`precache`, `weather-api-cache`, `image-cache`, `pages-cache`, and `static-resources`). If a cache doesn’t match the current list, it gets deleted. This helps keep the app lightweight and ensures that outdated data doesn't persist.
 
@@ -1468,7 +1453,7 @@ self.addEventListener('activate', event => {
 
 The code to install the app will be written in `install.js` following the steps below:
 
-### **Step 1:** Register the Service Worker
+### Step 1:** Register the Service Work
 
 Register the service worker to activate and run it in your app.
 

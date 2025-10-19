@@ -78,7 +78,7 @@ class ViewController: UIViewController {
 
         let btn = UIButton()
         btn.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(btn)            
+        view.addSubview(btn)
 
         btn.widthAnchor.constraint(equalToConstant: 128).isActive = true
         btn.heightAnchor.constraint(equalToConstant: 128).isActive = true

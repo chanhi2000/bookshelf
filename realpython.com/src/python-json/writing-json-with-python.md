@@ -237,7 +237,7 @@ When you use [**`open()`**](/realpython.com/python-built-in-functions.md#opening
   name="json — JSON encoder and decoder"
   desc="Source code: Lib/json/__init__.py JSON (JavaScript Object Notation), specified by RFC 7159(which obsoletes RFC 4627) and by ECMA-404, is a lightweight data interchange format inspired by JavaScript..."
   url="https://docs.python.org/3/library/json.html/"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 > The RFC requires that JSON be represented using either UTF-8, UTF-16, or UTF-32, with UTF-8 being the recommended default for maximum interoperability.

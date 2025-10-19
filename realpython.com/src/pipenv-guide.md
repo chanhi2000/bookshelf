@@ -166,7 +166,7 @@ Unfortunately, pip itself doesn’t have real dependency resolution at the momen
 The way pip would handle the above scenario is as follows:
 
 1. It installs `package_a` and looks for a version of `package_c` that fulfills the first requirement (`package_c>=1.0`).
-2. Pip then installs the latest version of `package_c` to fulfill that requirement. Let’s say the latest version of `package_c` is 3.1.    
+2. Pip then installs the latest version of `package_c` to fulfill that requirement. Let’s say the latest version of `package_c` is 3.1.
 
 This is where the trouble (potentially) starts.
 
@@ -349,9 +349,8 @@ This reversed tree may be more useful when you are trying to figure out conflict
 
 The syntax for the `Pipfile` is [TOML](https://realpython.com/python-toml/), and the file is separated into sections. `[dev-packages]` for development-only packages, `[packages]` for minimally required packages, and `[requires]` for other requirements like a specific version of Python. See an example file below:
 
-Config File
-
-`[[source]]
+```toml title="Pipfile"
+[[source]]
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
@@ -527,34 +526,30 @@ In this situation, you could use `Pipfile`/`Pipfile.lock` combo for managing you
 
 If you run `pipenv install` it should automatically detect the <VPIcon icon="fas fa-file-lines"/>`requirements.txt` and convert it to a `Pipfile`, outputting something like the following:
 
-`requirements.txt found, instead of Pipfile! Converting…
-Warning: Your Pipfile now contains pinned versions, if your requirements.txt did.
-We recommend updating your Pipfile to specify the "*" version, instead.
-```
+`requirements.txt` found, instead of `Pipfile`! Converting…
+Warning: Your `Pipfile` now contains pinned versions, if your requirements.txt did.
+We recommend updating your `Pipfile` to specify the "*" version, instead.
 
 > Take note of the above warning.
 
 If you have pinned exact versions in your <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file, you’ll probably want to change your `Pipfile` to only specify exact versions you truly require. This will allow you to gain the real benefits of transitioning. For example, let’s say you have the following but really don’t need that exact version of `numpy`:
 
-Config File
-
-`[packages]
+```toml 
+[packages]
 numpy = "==1.14.1"
 ```
 
 If you don’t have any specific version requirements for your dependencies, you can use the wildcard character `*` to tell Pipenv that any version can be installed:
 
-Config File
-
-`[packages]
+```toml 
+[packages]
 numpy = "*"
 ```
 
 If you feel nervous about allowing any version with the `*`, it’s typically a safe bet to specify greater than or equal to the version you’re already on so you can still take advantage of new versions:
 
-Config File
-
-`[packages]
+```toml 
+[packages]
 numpy = ">=1.14.1"
 ```
 

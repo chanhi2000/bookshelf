@@ -128,7 +128,7 @@ In short: a virtual environment keeps your project’s tools separate, so nothin
 ### Windows (Command Prompt or PowerShell)/Mac (Terminal)
 
 1. Create or navigate to your project folder (create one if needed):
-2. Create the virtual environment: This creates a folder called <FontIcon icon="fas fa-folder-open"/>`venv/` inside your project.
+2. Create the virtual environment: This creates a folder called <VPIcon icon="fas fa-folder-open"/>`venv/` inside your project.
 3. Activate it
 4. Your terminal prompt will now look like step 4 in the code below
 
@@ -145,13 +145,13 @@ python -m venv venv
 
 step 3
 
-@tab:active <FontIcon icon="fa-brands fa-windows"/>
+@tab:active <VPIcon icon="fa-brands fa-windows"/>
 
 ```sh
 venv\Scripts\activate
 ```
 
-@tab <FontIcon icon="iconfont icon-macos"/>,<FontIcon icon="fa-brands fa-linux"/>
+@tab <VPIcon icon="iconfont icon-macos"/>,<VPIcon icon="fa-brands fa-linux"/>
 
 ```sh
 source venv/bin/activate
@@ -173,7 +173,7 @@ We’ll use DistilBERT (distilbert-base-uncased) since it’s small and easy to 
 
 This step downloads **DistilBERT** (a small, free LLM) and prepares it to run locally.
 
-In a file called <FontIcon icon="fa-brands fa-python"/>`app.py`, paste the following code.
+In a file called <VPIcon icon="fa-brands fa-python"/>`app.py`, paste the following code.
 
 ::: note
 
@@ -199,7 +199,7 @@ First, it imports the Transformers library and PyTorch, which provide the tools 
 
 This feeds in text and grabs the “hidden activations” (the neuron outputs inside the model).
 
-In the same <FontIcon icon="fa-brands fa-python"/>`app.py`, add this function below the step 1 code.
+In the same <VPIcon icon="fa-brands fa-python"/>`app.py`, add this function below the step 1 code.
 
 ```py title="app.py"
 def get_hidden_states(text):
@@ -225,7 +225,7 @@ You can use `python app.py` to run the code.
 
 This step plots how neuron values differ for happy vs. sad sentences. We’ll compare activations for positive and negative movie reviews.
 
-In the same <FontIcon icon="fa-brands fa-python"/>`app.py`, add this function below the step 2 code.
+In the same <VPIcon icon="fa-brands fa-python"/>`app.py`, add this function below the step 2 code.
 
 ```py :collapsed-lines title="app.py"
 import matplotlib.pyplot as plt
@@ -251,7 +251,7 @@ tokens_neg, hidden_neg = get_hidden_states("I hate this movie, it is terrible.")
 plot_token_activations(tokens_neg, hidden_neg, "Negative Sentiment Example", "negative_sentiment.png")
 ```
 
-After running the code `python app.py`, check your folder — you’ll see two image files: <FontIcon icon="fas fa-file-image"/>`positive_sentiment.png` and <FontIcon icon="fas fa-file-image"/>`negative_sentiment.png`. They’ll look like line graphs showing activations for each token.
+After running the code `python app.py`, check your folder — you’ll see two image files: <VPIcon icon="fas fa-file-image"/>`positive_sentiment.png` and <VPIcon icon="fas fa-file-image"/>`negative_sentiment.png`. They’ll look like line graphs showing activations for each token.
 
 ![Figure 1: Activations for a positive review. Words like “love” and “fantastic” activate distinctive neuron patterns.](https://cdn.hashnode.com/res/hashnode/image/upload/v1757910763307/5556cf9b-69a9-4f7b-b13e-76041d2d52b0.png)
 
@@ -263,7 +263,7 @@ After running the code `python app.py`, check your folder — you’ll see two i
 
 This step compares average neuron patterns between two sentences.
 
-Now in the same <FontIcon icon="fa-brands fa-python"/>`app.py`, add this function below the step 3 code.
+Now in the same <VPIcon icon="fa-brands fa-python"/>`app.py`, add this function below the step 3 code.
 
 ```py title="app.py"
 def compare_sentences(s1, s2, filename):
@@ -284,7 +284,7 @@ def compare_sentences(s1, s2, filename):
 compare_sentences("I love coding.", "I hate coding.", "sentence_comparison.png")
 ```
 
-After running the code `python app.py`, You’ll now get <FontIcon icon="fas fa-file-image"/>`sentence_comparison.png`, showing two curves — one for the happy sentence, one for the negative.
+After running the code `python app.py`, You’ll now get <VPIcon icon="fas fa-file-image"/>`sentence_comparison.png`, showing two curves — one for the happy sentence, one for the negative.
 
 ![Figure 3: Comparing “I love coding” vs “I hate coding”. Even averaged across tokens, neuron profiles differ significantly.](https://cdn.hashnode.com/res/hashnode/image/upload/v1757910867868/824567dd-b390-4305-aa87-44d076205d3a.png)
 
@@ -296,7 +296,7 @@ We can check if embeddings encode semantic analogies like man → woman :: king 
 
 This step projects word embeddings like *man, woman, king, queen* into 2D space so you can see relationships.
 
-Now in the same <FontIcon icon="fa-brands fa-python"/>`app.py`, add this function below the step 4 code.
+Now in the same <VPIcon icon="fa-brands fa-python"/>`app.py`, add this function below the step 4 code.
 
 ```py title="app.py"
 from sklearn.decomposition import PCA
@@ -330,7 +330,7 @@ embeddings = [get_sentence_embedding(w) for w in words]
 plot_embeddings(words, embeddings, "word_analogies.png")
 ```
 
-After running the code `python app.py` , you’ll have <FontIcon icon="fas fa-file-image"/>`word_analogies.png` showing the famous *man→woman* and *king→queen* relationship as almost parallel lines.
+After running the code `python app.py` , you’ll have <VPIcon icon="fas fa-file-image"/>`word_analogies.png` showing the famous *man→woman* and *king→queen* relationship as almost parallel lines.
 
 ![Figure 4: PCA visualization of word embeddings. Man–woman and king–queen form parallel relationships, reflecting analogy structure.](https://cdn.hashnode.com/res/hashnode/image/upload/v1757910904012/758e3245-5ec7-4108-ae18-9fba8632f1a0.png)
 

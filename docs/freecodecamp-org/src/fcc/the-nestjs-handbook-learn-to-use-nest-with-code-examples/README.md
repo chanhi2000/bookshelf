@@ -2754,7 +2754,6 @@ export class ProfileController {
 - Create a separate endpoint to issue new access token when the access token expires.
 - Verify refresh token validity (for example, compare stored token or a hashed version).
 - Implementation details vary - consider security best practices (rotate tokens, revoke on logout).
-        
 
 ### 13.2 OAuth2 / Social Login
 

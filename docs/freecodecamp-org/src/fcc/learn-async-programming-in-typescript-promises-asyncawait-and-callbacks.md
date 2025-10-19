@@ -615,7 +615,6 @@ For complex async operations, use utilities like <VPIcon icon="fa-brands fa-js"/
 - Parallel execution
 - Series execution
 - Error handling pipelines
-        
 
 ### When to Use Callbacks vs. Alternatives
 

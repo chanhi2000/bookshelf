@@ -289,7 +289,6 @@ Working with time zones can be [tricky](https://youtu.be/-5wpm-gesOY). However, 
 
 - **Civil times** like the time of a meeting, a train departure, or a concert, are best stored in their native time zone. You can often do this by storing a naive time stamp together with the IANA key of the time zone. One example of a civil time stored as a [string](https://realpython.com/python-strings/) would be `"2020-10-05T14:00:00,Europe/Oslo"`. Having information about the time zone ensures that you can always recover the information, even if the time zones themselves change.
 - **Time stamps** represent specific moments in time and typically record an order of events. Computer logs are an example of this. You don’t want your logs to be jumbled up just because your time zone changes from Daylight Saving Time to standard time. Usually, you would store these kinds of time stamps as naive datetimes in UTC.
-    
 
 Because the IANA time zone database is updated all the time, you should be conscious of keeping your local time zone database in sync. This is particularly important if you’re running any applications that are sensitive to time zones.
 

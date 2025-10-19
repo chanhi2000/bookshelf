@@ -2467,7 +2467,7 @@ print</span>(</span>df.</span>describe(</span>)</span>.</span>to_markdown(</span
 df.</span>dropna(</span>inplace=</span>True</span>)</span>  
 df[</span>'Sales'</span>]</span>.</span>fillna(</span>df[</span>'Sales'</span>]</span>.</span>mean(</span>)</span>,</span> inplace=</span>True</span>)</span> 
 df[</span>'Order Date'</span>]</span> =</span> pd.</span>to_datetime(</span>df[</span>'Order Date'</span>]</span>)</span>  
-df[</span>'Sales'</span>]</span> =</span> pd.</span>to_numeric(</span>df[</span>'Sales'</span>]</span>)</span>          
+df[</span>'Sales'</span>]</span> =</span> pd.</span>to_numeric(</span>df[</span>'Sales'</span>]</span>)</span>
 
 z =</span> np.</span>abs</span>(</span>stats.</span>zscore(</span>df[</span>'Sales'</span>]</span>)</span>)</span>
 df =</span> df[</span>(</span>z <</span> 3</span>)</span>]</span>  

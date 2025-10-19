@@ -296,7 +296,7 @@ Unlike lambda forms in other languages, where they add functionality, Python lam
   name="Design and History FAQ"
   desc="Contents: Design and History FAQ- Why does Python use indentation for grouping of statements?, Why am I getting strange results with simple arithmetic operations?, Why are floating-point calculatio..."
   url="https://docs.python.org/3/faq/design.html/"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 :::

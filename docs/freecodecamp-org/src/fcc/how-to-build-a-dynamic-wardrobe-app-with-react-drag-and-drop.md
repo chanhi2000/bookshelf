@@ -307,7 +307,6 @@ In this section:
 - `allowDrop` is called via `onDragOver` to enable dropping.
 - The pant SVG is drawn and its fill color is controlled by `selectedBottom`, which updates when a new color is dropped.
 - Extra details like a waistband (rect) and a seam (path) add realism.
-    
 
 That completes the UI section of our project.
 

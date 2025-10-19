@@ -537,7 +537,7 @@ public class Main {
         clonedCircle.setRadius(20);
 
         System.out.println(originalCircle);  
-        System.out.println(clonedCircle);    
+        System.out.println(clonedCircle);
 
         Rectangle originalRectangle = new Rectangle(15, 25);
         Rectangle clonedRectangle = (Rectangle) originalRectangle.clone();

@@ -59,7 +59,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759352860983/1c5a17c
 
 What if you could learn what you need to know to become a full stack developer in just one video.
 
-We just published a 48-hour course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will take you from square one to being a hireable full-stack developer. This course was developed by the team at Scrimba.
+We just published a 48-hour course on the [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel that will take you from square one to being a hireable full-stack developer. This course was developed by the team at Scrimba.
 
 This course starts right at the beginning with HTML and CSS, giving you the essential building blocks. Then, it dives deep into JavaScript, ensuring you understand the advanced concepts needed for complex applications.
 
@@ -69,7 +69,7 @@ The course also covers TypeScript, which is important for writing safer, more sc
 
 Finally, the course covers Tools of the Trade and a gives practical look at how AI Engineering is starting to change the way we code. By the time you finish this one course, you won't just have a beginner's understanding; you'll have a complete skill set ready to tackle your first job or build your own startup.
 
-Watch the full course on [<FontIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/LzMnsfqjzkA) (48-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/LzMnsfqjzkA) (48-hour watch).
 
 <VidStack src="youtube/LzMnsfqjzkA" />
 

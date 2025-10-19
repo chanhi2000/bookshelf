@@ -962,7 +962,6 @@ Sometimes things don't work perfectly on the first try. Here are some common pro
 
 - **Symptom**: Your frontend makes a request, but it either fails immediately, or you get a network error in the browser console.
 - **Solution**: Double-check that the `API_ENDPOINT` constant in your <VPIcon icon="fa-brands fa-js"/>`app.js` file is *exactly* the Invoke URL you copied from API Gateway. Even a tiny typo can break the connection.
-    
 
 ---
 

@@ -401,7 +401,7 @@ client.on('message', (topic, message) => {
             }
         } catch (err) { 
             console.error('Failed to parse message:', err.message);
-        }           
+        }
 
     }
 });

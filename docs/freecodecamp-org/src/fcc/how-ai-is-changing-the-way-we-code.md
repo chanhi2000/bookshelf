@@ -310,13 +310,11 @@ What’s good:
 - AI replaced a verbose loop with a highly optimized built-in function.
 - Improved readability dramatically.
 - Reduces the chance of introducing bugs during refactoring.
-    
 
 What could be better:
 
 - AI didn’t check if the numbers are guaranteed to be a list of numeric values.
 - No performance benchmark to show improvement.
-    
 
 The more specific you are with your optimization request (for example, “optimize for speed without losing readability”), the better AI can balance performance and maintainability. A good refactor isn’t just faster - it’s safer and easier to understand.
 
@@ -357,13 +355,11 @@ What’s good:
 - Clear explanation before showing the code.
 - Example demonstrates real-world usage with error handling.
 - Combines both concept explanation and practical application.
-    
 
 What could be better:
 
 - Could include a comparison with traditional .then() syntax for deeper understanding.
 - Doesn’t mention browser compatibility or polyfills for older environments.
-    
 
 For learning, the best prompts are concept + example requests. They help AI give explanations that stick and code you can directly experiment with - accelerating both understanding and hands-on skills.
 

@@ -5,6 +5,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "inset-shadows-directly-on-img-elements-part-1", // 2025-10-01
+    "learn-media-queries", // 2025-09-29
+    "the-coyier-css-starter", // 2025-09-24
     "what-you-need-to-know-about-modern-css-2025-edition", // 2025-09-19
     "css-offset-and-animation-composition-for-rotating-menus", // 2025-09-17
     "choosing-the-right-model-in-cursor", // 2025-09-09
@@ -424,6 +427,8 @@ export const template: SidebarInfoTemplate = {
       
       "css-offset-and-animation-composition-for-rotating-menus", // 2025-09-17
       "what-you-need-to-know-about-modern-css-2025-edition", // 2025-09-19
+      "the-coyier-css-starter", // 2025-09-24
+      "learn-media-queries", // 2025-09-29
       // END: 2025css
       // END: css
     ]],[

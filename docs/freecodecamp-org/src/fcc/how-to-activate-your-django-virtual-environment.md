@@ -120,7 +120,6 @@ However, some developers prefer `virtualenv` because:
 
 - It works with older Python versions
 - It can be slightly faster in larger environments
-    
 
 To install `virtualenv` just run:
 

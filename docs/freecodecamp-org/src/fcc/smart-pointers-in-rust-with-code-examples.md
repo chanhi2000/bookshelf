@@ -19,7 +19,7 @@ head:
       content: "What are Smart Pointers in Rust? Explained with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/smart-pointers-in-rust-with-code-examples.html
-prev: /programming/rust/articles/README.md
+prev: /programming/rs/articles/README.md
 date: 2024-10-30
 isOriginal: false
 author: Oduah Chigozie
@@ -32,7 +32,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730260779440/3d82425
 {
   "title": "Rust > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/rust/articles/README.md",
+  "link": "/programming/rs/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

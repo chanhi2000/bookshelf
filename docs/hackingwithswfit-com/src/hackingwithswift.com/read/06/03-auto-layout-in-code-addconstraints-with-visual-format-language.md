@@ -87,7 +87,7 @@ override func viewDidLoad() {
     label5.translatesAutoresizingMaskIntoConstraints = false
     label5.backgroundColor = UIColor.orange
     label5.text = "LABELS"
-    label5.sizeToFit()        
+    label5.sizeToFit()
 
     view.addSubview(label1)
     view.addSubview(label2)

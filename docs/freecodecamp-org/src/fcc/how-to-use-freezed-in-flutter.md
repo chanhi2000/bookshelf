@@ -177,7 +177,7 @@ This is verbose, and it’s easy to miss details like updating `hashCode` when a
 
 Now that you understand the challenges Freezed solves, let's see how it makes working with data models simpler and cleaner. In this section, you’ll install the necessary packages, set up a Freezed class, and generate boilerplate code. Once that setup is complete, we’ll dive into examples showing how to use the Freezed class, including copying objects and JSON serialization.
 
-First, install Freezed and its related packages. Add this to your <FontIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file:
+First, install Freezed and its related packages. Add this to your <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` file:
 
 ```yaml title="pubspec.yaml"
 dependencies:
@@ -205,7 +205,7 @@ dart pub get
 
 ### Defining a Freezed Class
 
-Create a file named <FontIcon icon="fa-brands fa-dart-lang"/>`user.dart` and add the following:
+Create a file named <VPIcon icon="fa-brands fa-dart-lang"/>`user.dart` and add the following:
 
 ```dart title="user.dart"
 import 'package:freezed_annotation/freezed_annotation.dart';
@@ -270,7 +270,7 @@ Here’s what’s happening:
 
 ### Adding JSON Serialization
 
-Update <FontIcon icon="fa-brands fa-dart-lang"/>`user.dart` to support JSON:
+Update <VPIcon icon="fa-brands fa-dart-lang"/>`user.dart` to support JSON:
 
 ```dart title="user.dart"
 import 'package:freezed_annotation/freezed_annotation.dart';
@@ -329,7 +329,7 @@ Unions allow you to represent multiple possible states of an object in a type-sa
 
 ### Defining a Union
 
-Create a new file called <FontIcon icon="fa-brands fa-dart-lang"/>`result.dart`:
+Create a new file called <VPIcon icon="fa-brands fa-dart-lang"/>`result.dart`:
 
 ```dart title="result.dart"
 import 'package:freezed_annotation/freezed_annotation.dart';
@@ -465,7 +465,7 @@ By handling repetitive code such as `copyWith`, equality checks, and JSON serial
 
 Whether you are a beginner or an experienced Flutter developer, Freezed can improve the readability, safety, and maintainability of your codebase.
 
-For advanced features and best practices, visit the official Freezed documentation on [<FontIcon icon="fas fa-globe"/>pub.dev](https://pub.dev/packages/freezed).
+For advanced features and best practices, visit the official Freezed documentation on [<VPIcon icon="fas fa-globe"/>pub.dev](https://pub.dev/packages/freezed).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

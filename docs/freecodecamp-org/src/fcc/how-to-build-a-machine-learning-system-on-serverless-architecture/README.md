@@ -1158,7 +1158,7 @@ So, any heavy tasks like loading preprocessors, input data, or models should be 
 
 Here are the loading functions called in <VPIcon icon="fa-brands fa-python"/>`app.py`.
 
-```py :collapsed-liens title="app.py"
+```py :collapsed-lines title="app.py"
 import joblib
 
 from src._utils import s3_load, s3_load_to_temp_file

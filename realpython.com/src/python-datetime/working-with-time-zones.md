@@ -130,7 +130,7 @@ Python `datetime` instances support two types of operation, naive and aware. The
   name="datetime — Basic date and time types"
   desc="Source code: Lib/datetime.py The datetime module supplies classes for manipulating dates and times. While date and time arithmetic is supported, the focus of the implementation is on efficient attr..."
   url="https://docs.python.org/3/library/datetime.html#id1"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 > An aware object represents a specific moment in time that is not open to interpretation. A naive object does not contain enough information to unambiguously locate itself relative to other date/time objects.

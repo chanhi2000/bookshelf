@@ -99,7 +99,7 @@ According to the [<VPIcon icon="fa-brands fa-python"/>official documentation](ht
   name="Built-in Functions"
   desc="The Python interpreter has a number of functions and types built into it that are always available. They are listed here in alphabetical order.,,,, Built-in Functions,,, A, abs(), aiter(), all(), a..."
   url="https://docs.python.org/3/library/functions.html#zip"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 Returns an iterator of tuples, where the *i*-th tuple contains the *i*-th element from each of the argument sequences or iterables. The iterator stops when the shortest input iterable is exhausted. With a single iterable argument, it returns an iterator of 1-tuples. With no arguments, it returns an empty iterator.

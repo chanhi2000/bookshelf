@@ -185,7 +185,7 @@ Let’s look at an example:
 #include <iostream>     
 #include <algorithm>    // Header file that includes the sort() function
 
-using namespace std;    
+using namespace std;
 
 int main()
 {
@@ -241,7 +241,7 @@ Let’s look at an example to better understand how it works:
 
 #include <algorithm>   // Required for the find() function
 #include <iostream>    
-#include <vector>      
+#include <vector>
 
 using namespace std;   
 
@@ -304,7 +304,7 @@ Let’s check out an example to see how it works:
 
 #include <algorithm>   
 #include <iostream>    
-#include <vector>      
+#include <vector>
 
 using namespace std;   
 

@@ -546,8 +546,6 @@ Here’s what happens under the hood:
 1. Go computes the hash of the key (`"alice"`) to find which bucket in the hash table to look in. A **bucket** is a small container within the hash table that holds one or more key-value pairs. When multiple keys hash to the same bucket, they are stored together inside it.
 2. It searches the bucket for the key.
 3. If the key exists, Go returns the associated value (`23` in this case).
-4. If the key doesn’t exist, Go returns the zero value of the map’s value type (`0` for `int`, `""` for `string`, `nil` for a pointer or slice, and so on).
-    
 
 To distinguish between a **key that doesn’t exist** and a key whose value happens to be the zero value of the map’s value type, Go provides a second return value when you access a map. Normally, `m[key]` just returns the value. But if you write:
 

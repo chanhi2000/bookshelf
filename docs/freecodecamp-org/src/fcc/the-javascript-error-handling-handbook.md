@@ -539,7 +539,7 @@ function validateUser(user) {
 In the code snippet above,
 
 - We throw an invalid email format validation error if the user’s email doesn’t include the `@` symbol.
-- We throw another validation error if the age information of the user is missing or is below 18.    
+- We throw another validation error if the age information of the user is missing or is below 18.
 
 A custom error gives us the power to create domain/usage-specific error types to keep the code more manageable and less error-prone.
 
@@ -594,7 +594,6 @@ Let’s connect:
 - Subscribe to my [YouTube Channel (<VPIcon icon="fa-brands fa-youtube"/>`tapasadhikary`)](https://youtube.com/tapasadhikary?sub_confirmation=1).
 - Follow on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`tapasadhikary`)](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
 - Check out and follow my open-source work on [GitHub (<VPIcon icon="iconfont icon-github"/>`atapas`)](https://github.com/atapas).
-    
 
 See you soon with my next article. Until then, please take care of yourself and keep learning.
 

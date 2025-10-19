@@ -178,7 +178,7 @@ public class FailingTestCases
         };
 
         // Act
-        orderService.ProcessOrder(order);      
+        orderService.ProcessOrder(order);
 
         // Assert
         mockLogger.Verify(x => x.LogInformation("Processing order..."), Times.Once);

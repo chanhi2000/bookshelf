@@ -428,7 +428,6 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**17. Paul's Disciples**](https://classcentral.com/course/youtube-17-paul-s-disciples-109407) from *Yale University*
 - [**LaTeX course**](https://classcentral.com/course/independent-latex-course-142181) from *University of Amsterdam*
 - [**JAVA程序设计进阶**](https://classcentral.com/course/computer-science-tsinghua-university-javacheng-xu-292123) from *Tsinghua University*
-    
 
 ---
 
@@ -1170,7 +1169,6 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**Andrew Wiles talks to Hannah Fry**](https://classcentral.com/course/youtube-andrew-wiles-talks-to-hannah-fry-142841) from *University of Oxford*
 - [**Apprivoiser l’apprentissage automatique**](https://classcentral.com/course/machine-learning-universite-de-montreal-apprivois-142758) from *Université de Montréal*
 - [**ChatGPT pour tous**](https://classcentral.com/course/chatgpt-universite-de-montreal-chatgpt-pour-tous-289214) from *Université de Montréal*
-    
 
 ---
 
@@ -1397,7 +1395,6 @@ The full list is split into subjects. Click on a subject below to go to the rele
 - [**데이터 과학자의 도구 상자**](https://classcentral.com/course/data-scientists-tools-ko-60063) from *Johns Hopkins University*
 - [**Next in Data Visualization | Arvind Satyanarayan || Radcliffe Institute**](https://classcentral.com/course/youtube-next-in-data-visualization-arvind-satyanarayan-radcliffe-institute-179690) from *Harvard University*
 - [**Communicating Complex Statistical Ideas to the Public: Lessons from the Pandemic - D. Spiegelhalter**](https://classcentral.com/course/youtube-communicating-complex-statistical-ideas-to-the-public-lessons-from-the-pandemic-d-spiegelhalter-142786) from *University of Oxford*
-    
 
 ---
 

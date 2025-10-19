@@ -276,13 +276,9 @@ This is the fundamental logical rule that dictates why, **if $P$ is False, $P\:\
 
 - If $P$ is False, that means NOT $P$ is True.
 - Using the rules of Logical operation:
-    
-    - True (P) OR True (Q) is True (**NOT P OR Q**)
-        
-    - True (P) OR False (Q) is True (**NOT P OR Q**)
-        
-    - **NOT P OR Q** is True regardless of what $Q$ is.
-        
+  - True (P) OR True (Q) is True (**NOT P OR Q**)
+  - True (P) OR False (Q) is True (**NOT P OR Q**)
+  - **NOT P OR Q** is True regardless of what $Q$ is.
 
 The above explains rows 3 and 4 of the truth table from the **NOT P OR Q** form. As an exercise, you can apply the inputs (P, Q) from the first two rows of the truth table to NOT P OR Q to arrive at the same results defined in the $P\:\Rightarrow\:Q$ column.
 
@@ -639,7 +635,6 @@ This truth table differs from a purely abstract logical truth table by being exp
 - **Specific Definitions:** Unlike a generic $P$ and $Q$, here they have precise meanings within the domain of code correctness and test outcomes.
 - **"Interpretation in Testing" Column:** This is the key distinguishing feature. It translates the raw logical outcomes of (P, Q, and $P\:\Rightarrow\:Q$) into actionable insights and common debugging/development scenarios for software engineers. It explains *what it means* when a particular row is observed in the context of testing.
 - **Probabilistic Confidence:** While formal logic operates in binary (True/False), real-world software testing often involves **probabilistic confidence**. A test doesn't provide absolute logical proof of correctness (for example, a passing test doesn't guarantee $P$ is 100% True due to the possibility of undiscovered bugs or false positives). Instead, test results *increase our confidence* that the code is correct, or *provide strong evidence* that it is incorrect. Testing is fundamentally about reducing uncertainty and increasing the probability that our code functions as intended.
-    
 
 Let's now explore how these logical outcomes are interpreted in two common testing scenarios:
 
@@ -661,7 +656,6 @@ This scenario occurs when a test that was previously passing, or a newly written
             - Conclusion: Therefore, the **code is not correct for this scenario ($\neg\:P$).**
                 
         - **Outcome:** This inference directly points us to a defect in the code. The test's failure, given its trusted nature, *reveals* that the actual state of the code for this scenario is **$P$ is False**. This effectively places the scenario in **Row 4 (P False, Q False)** of our truth table, confirming the presence of a bug that needs fixing. This is typical in **regression testing**, where a previously correct feature suddenly breaks.
-            
 
 ### Scenario 2: Validating/Refining the Specification (Falsifying $P\:\Rightarrow\:Q$ or Confirming Known Incorrectness)
 
@@ -670,33 +664,19 @@ This scenario arises when a test fails, and our primary focus is not immediately
 1. **Our Hypothesis (Being Challenged or Confirmed):** We are either actively evaluating the validity of the implication "$P\:\Rightarrow\:Q$" for a specific behavior, or we are running a test against code we know is incomplete or incorrect.
 2. **Test Execution and Observation:** We run the test with its defined preconditions and inputs.
 3. **If the Test Fails ($Q$ is False):** The interpretation here depends on our prior knowledge or intent about the code's state (P):
-    
     - **Sub-scenario 2A: Falsifying $P\:\Rightarrow\:Q$ and Rethinking Specification (Corresponds to Row 2: P True, Q False):**
-        
-        - We observe $Q$ is False (the test fails).
-            
-        - If we then examine the code and the requirements, and we conclude that the code *should* have been correct for this scenario (meaning, our expectation/belief was $P$ is True), then the test result means **the specific instance of our hypothesis "$P\:\Rightarrow\:Q$" is FALSE.**
-            
-        - This direct falsification reveals a contradiction. We must then investigate:
-            
-            - Is our initial belief that P was True mistaken (that is, is there a genuine bug in the code that makes P actually False, moving this to a Row 4 scenario)?
-                
-            - Or, is the test itself incorrect (its inputs or expected output are wrong), meaning our $P\:\Rightarrow\:Q$ premise needs to be re-evaluated and corrected?
-                
-            - Or, have the underlying requirements changed or been misunderstood?
-                
+      - We observe $Q$ is False (the test fails).
+      - If we then examine the code and the requirements, and we conclude that the code *should* have been correct for this scenario (meaning, our expectation/belief was $P$ is True), then the test result means **the specific instance of our hypothesis "$P\:\Rightarrow\:Q$" is FALSE.**
+      - This direct falsification reveals a contradiction. We must then investigate:
+        - Is our initial belief that P was True mistaken (that is, is there a genuine bug in the code that makes P actually False, moving this to a Row 4 scenario)?
+        - Or, is the test itself incorrect (its inputs or expected output are wrong), meaning our $P\:\Rightarrow\:Q$ premise needs to be re-evaluated and corrected?
+        - Or, have the underlying requirements changed or been misunderstood?
         - **Outcome:** This critical outcome prompts us to "rethink" - either the code needs fixing, or the test needs adjusting, or the specification needs clarification. This is common in **exploratory testing** or when working with new/evolving features where the exact behavior is still being defined.
-            
     - **Sub-scenario 2B: Confirming Known Incorrectness (Corresponds to Row 4: P False, Q False):**
-        
-        - We observe $Q$ is False (the test fails).
-            
-        - We *already know or intentionally designed* the code to be incorrect for this scenario (that is, we are actively developing a feature and haven't written the full code yet, or we're running a test against a known, un-fixed bug, so our expectation is $P$ is False).
-            
-        - The test result simply **confirms our prior knowledge that $P$ is False**. The test correctly highlights the missing or incorrect behavior. In this case, the $P\:\Rightarrow\:Q$ implication is vacuously true, and the test effectively served its purpose of showing the existing defect.
-            
-        - **Outcome:** This is typical in Test-Driven Development (TDD) in the Red phase, where a failing test for a not-yet-implemented feature confirms the "$P$ is False" state, guiding development to make P True. It also applies when verifying that a bug fix indeed works: the test initially fails (confirming the bug), and then passes after the fix (confirming $P$ is now True).
-            
+      - We observe $Q$ is False (the test fails).
+      - We *already know or intentionally designed* the code to be incorrect for this scenario (that is, we are actively developing a feature and haven't written the full code yet, or we're running a test against a known, un-fixed bug, so our expectation is $P$ is False).
+      - The test result simply **confirms our prior knowledge that $P$ is False**. The test correctly highlights the missing or incorrect behavior. In this case, the $P\:\Rightarrow\:Q$ implication is vacuously true, and the test effectively served its purpose of showing the existing defect.
+      - **Outcome:** This is typical in Test-Driven Development (TDD) in the Red phase, where a failing test for a not-yet-implemented feature confirms the "$P$ is False" state, guiding development to make P True. It also applies when verifying that a bug fix indeed works: the test initially fails (confirming the bug), and then passes after the fix (confirming $P$ is now True).
 
 ![girl looking into microscope](https://cdn.hashnode.com/res/hashnode/image/upload/v1749063701013/bc574591-90ec-4439-9b47-f0737d5a5384.jpeg)
 
@@ -734,7 +714,6 @@ Even without hardcoding, the output might match by coincidence, or because of fa
 - **Caching:** A previous successful operation might have cached the result, bypassing the actual logic.
 - **Fallback logic:** An unintended fallback mechanism produces the correct output despite an error in the primary path.
 - **Test harness bugs:** Flaws in the testing setup itself might obscure real issues.
-    
 
 ### The Role and Risks of Test Doubles
 
@@ -742,7 +721,6 @@ The challenges highlighted above are particularly relevant when using **test dou
 
 - **Stubs** focus on **state**: they provide pre-programmed fake data or return values to get the rest of the code under test working predictably, like the `get_user_role` example
 - **Mocks** focus on **behavior**: they allow you to verify interactions, such as the number of calls made to a certain API, or how control flow flows through specific parts of the system.
-    
 
 Both remove external dependencies, allowing you to isolate and focus on the internal logic of the code without noise or side effects. But using them without understanding their limitations can lead to **false confidence**.
 
@@ -758,7 +736,6 @@ Generally:
 
 - **Smaller-scoped tests** (for example, unit tests) have fewer assumptions baked in and a shorter chain of logical implications. This translates to less risk of committing fallacies in both test implementation and test result interpretation. They are excellent for quickly verifying isolated units of code.
 - **Larger-scoped tests** (for example, end-to-end integration tests) incorporate more real-world complexities and dependencies. While providing higher confidence in the system's overall behavior, they inherently increase the potential for confounding factors that can lead to false positives or make debugging more challenging.
-    
 
 Being acutely aware of the assumptions implicit in each test, at every scope level, is paramount. Passing tests for the wrong reasons will inevitably cause problems down the road.
 
@@ -769,7 +746,6 @@ Failing tests are not failures of the testing process but are, in fact, incredib
 - Run focused debugging experiments to pinpoint the exact cause of the failure.
 - Refine your **mental model of the code-to-outcome ($P\:\Rightarrow\:Q$) link**. A failing test (where $Q$ is False) tells you that your current understanding of P, or of the $P\:\Rightarrow\:Q$ relationship, is flawed. Use this feedback to update your understanding of the code's actual behavior.
 - Improve both the code and the tests themselves.
-    
 
 Enhance system **observability** to better detect and confirm outcomes (Q). The more clearly, from multiple angles, and through diverse methods we can observe Q (for example, logs, metrics, tracing, output inspection), the more confident we can be in its causes and, by extension, the actual state of P.
 
@@ -786,7 +762,6 @@ Some common culprits for unfalsifiable or "bad" tests include:
 - **Vague or Untestable Specifications:** Statements like "The system should behave well under most conditions," "It shouldn't crash randomly," or "The algorithm is robust" lack clear, measurable criteria. It's impossible to design a test that definitively passes or fails against such statements, thus rendering them effectively unfalsifiable.
 - **Broken Implementations of the Test Suite:** The test code itself might be flawed, perhaps due to logical errors or control flow issues that prevent assertions from ever being reached or correctly evaluated, inadvertently taking the same passing path regardless of the code under test.
 - **Insufficient Test Data or Edge Cases:** If tests only cover "happy path" scenarios and fail to include challenging inputs or boundary conditions, they might pass for incorrect code that only breaks under specific, untested circumstances.
-    
 
 A robust specification clearly defines what constitutes success and failure. Correspondingly, a good test suite correctly implements that specification, making its tests both accurate and truly falsifiable.
 
@@ -800,7 +775,6 @@ Specifically:
 
 - The first two points below show why the seemingly valid arguments of Modus Ponens and Modus Tollens may not always lead to reliable conclusions when applied to coding scenarios.
 - The last two points below show why the two common logical fallacies, Affirming the Consequent and Denying the Antecedent, may actually provide correct insights under specific real-world coding conditions.
-    
 
 ---
 
@@ -812,7 +786,6 @@ Here are the four arguments and their associated coding examples:
 2. **Modus Tollens:** There are no error messages ($\neg\:Q$), so the input data is valid ($\neg\:P$).
 3. **Affirming the Consequent (Fallacy):** The code showed an error (Q), so you provided invalid data (P).
 4. **Denying the Antecedent (Fallacy):** You provided valid data ($\neg\:P$), so you have no error ($\neg\:Q$).
-    
 
 Now, let's dive into the nuances of each:
 
@@ -820,25 +793,21 @@ Now, let's dive into the nuances of each:
 
 - **Our coding example:** If you provide invalid input data (P), then the code will show an error (Q).
 - **Why it may not always hold:** This application of Modus Ponens assumes that either your code or any third-party code it relies upon will *always* properly detect and explicitly raise exceptions or show errors on bad data. In reality, systems might automatically fix or sanitize bad input, silence errors, or simply proceed with unexpected behavior without explicitly signaling an error, leading to a passing (or non-failing) state ($\neg\:Q$) even when P (invalid input) was true.
-    
 
 ### Modus Tollens
 
 - **Our coding example:** There are no error messages ($\neg\:Q$), so the input data is valid ($\neg\:P$).
 - **Why it may not always hold:** This application of Modus Tollens assumes there are no automatic mechanisms within the system to fix or silence bad input *before* errors are typically displayed. If such "silent correction" or "error suppression" occurs, you might observe no error messages ($\neg\:Q$), but the input data could still be invalid (P), rendering the conclusion ($\neg\:P$) false despite the premise ($\neg\:Q$) being true. This highlights the dangers of incomplete observability.
-    
 
 ### Affirming the Consequent (Fallacy)
 
 - **Our coding example:** The code showed an error (Q), so you provided invalid data (P).
 - **Why it may actually be correct:** While logically a fallacy, in specific, highly constrained real-world conditions, this inference can gain practical validity. If the error message is so uniquely and specifically defined that it can *only* be caused by invalid input data (P) and no other known factor, then this statement can become reliable. This is rare and typically requires meticulous error handling design where each error message maps unambiguously to a single root cause.
-    
 
 ### Denying the Antecedent (Fallacy)
 
 - **Our coding example:** You provided valid data ($\neg\:P$), so you have no error ($\neg\:Q$).
 - **Why it may actually be correct:** Although a fallacy in general logic, this inference can hold a high degree of practical confidence under certain programming paradigms (**Functional Programming**). If the code is sufficiently simple, purely functional (meaning outputs depend *only* on inputs and have no side effects), and has no external dependencies (like network or database interactions), then the absence of invalid data ($\neg\:P$) can indeed make us reasonably confident that there will be no errors ($\neg\:Q$). The lack of external variables and internal state makes the code's behavior highly predictable and directly tied to its inputs.
-    
 
 ![dog with head tilted](https://cdn.hashnode.com/res/hashnode/image/upload/v1749061917858/db44dba5-2184-427a-8e28-27fc59904c49.jpeg)
 
@@ -857,8 +826,7 @@ But in many critical contexts, especially in rigorous scientific theories and ro
 When we assert "$P\:\Leftrightarrow\:Q$", we're making two distinct claims simultaneously:
 
 1. **If P, then Q** ($P\:\Rightarrow\:Q$): $P$ is a sufficient condition for Q. Whenever $P$ is true, $Q$ must also be true.
-2. **If Q, then P** ($Q\:\Rightarrow\:P$): $P$ is also a necessary condition for Q. Whenever $Q$ is true, $P$ must also be true. In other words, Q cannot be true without P being true.
-    
+2. **If Q, then P** ($Q\:\Rightarrow\:P$): $P$ is also a necessary condition for $Q$. Whenever $Q$ is true, $P$ must also be true. In other words, $Q$ cannot be true without $P$ being true.
 
 Notice the **significant increase in the strength** of the statement. "If P, then Q" merely states a consequence. "$P\:\Leftrightarrow\:Q$" declares a **definitive equivalence**, where $P$ and $Q$ are inextricably linked. They rise and fall together - one cannot be true without the other being true, and one cannot be false without the other being false.
 
@@ -1165,7 +1133,6 @@ The deliberate search for counterexamples is core to building reliable systems.
 - In algorithm design, testing edge cases is just falsification in disguise: finding where your logic breaks.
 - In code, **fuzz testing** (Atheris) throws diverse inputs at functions to expose falsifying examples.
 - **Property-based testing** (Hypothesis) goes further by generating inputs that satisfy certain rules, then shrinks failures to their minimal form. This greatly improves reproducibility and helps stress-test concurrency issues.
-    
 
 The more rigorously we attempt to falsify our assumptions, the more confidently we can reason about behavior using tools like Modus Ponens and Modus Tollens.
 

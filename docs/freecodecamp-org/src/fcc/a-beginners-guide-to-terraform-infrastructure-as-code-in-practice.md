@@ -182,7 +182,7 @@ You’ll also need to include a suitable resource region and resource availabili
 ```hcl
 resource "google_compute_instance" "vm_instance" {
   name         = "example-vm"      
-  machine_type = "e2-medium"          
+  machine_type = "e2-medium"
 
   boot_disk {
     initialize_params {
@@ -221,7 +221,7 @@ provider "google" {
 
 resource "google_compute_instance" "vm_instance" {
   name         = "example-vm"         
-  machine_type = "e2-medium"          
+  machine_type = "e2-medium"
 
   boot_disk {
     initialize_params {

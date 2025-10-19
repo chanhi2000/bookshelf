@@ -99,11 +99,9 @@ Let's go! =D
         
         - [A comment about customization](#heading-a-comment-about-customization)
 - [Most common and useful commands to use](#heading-most-common-and-useful-commands-to-use)
-    
     - [Git commands](#heading-git-commands)
 - [Our first script](#heading-our-first-script)
 - [Round up](#heading-round-up)
-    
 
 # Difference between console, command line (CLI), terminal and Shell
 
@@ -169,9 +167,10 @@ One interesting thing to mention here is that most operating systems have two di
 
 - The **CLI**, which takes commands as inputs in order for the computer to execute tasks.
 - The other is the **GUI** (graphical user interface), in which the user can see things on the screen and click on them and the computer will respond to those events by executing the corresponding task.
-    
 
-# Why should I even care about using the terminal?
+---
+
+## Why should I even care about using the terminal?
 
 We just mentioned that most operating systems come with a GUI. So if we can see things on the screen and click around to do whatever we want, you might wonder why you should learn this complicated terminal/cli/shell thing?
 
@@ -227,7 +226,6 @@ There are some slight differences you might want to know, though:
 - **Zsh** is very similar to Bash, but it was created after it and comes with some nice improvements over it. If you'd like to have more detail about its differences, [here's a cool article](https://linuxhint.com/differences_between_bash_zsh/#:~:text=It%20has%20many%20features%20like,by%20default%20with%20Linux%20distribution.) about it.
 - **Fish** is another commonly used shell that comes with some nice built-in features and configurations such as autocompletion and syntax highlighting. The thing about Fish is that it's not Posix complaint, while Bash and Zsh are. This means that some of the commands you'll be able to run on Bash and Zsh won't run on Fish and viceversa. This makes Fish scripting less compatible with most computers compared to Bash and Zsh.
 - There are also other shells like **Ash** or **Dash** (the naming just makes everything more confusing, I know...) that are stripped-down versions of Posix shells. This means they only offer the features required in Posix, and nothing else. While Bash and Zsh **add more features** than what Posix requires.
-    
 
 The fact that shells add more features makes them easier and friendlier to interact with, but slower to execute scripts and commands.
 
@@ -308,7 +306,6 @@ If I wanted to create a new directory called "Test" I would enter `mkdir test`.
 - **touch** allows you to create an empty file in your current directory. As parameters it takes the file name, like `touch test.txt`.
 - **rm** allows you to delete files, in the same way `rmdir` allows you to remove directories. `rm test.txt`
 - **cp** allows you to copy files or directories. This command takes two parameters: the first one is the file or directory you want to copy, and the second one is the destination of your copy (where do you want to copy your file/directory to).
-    
 
 If I want to make a copy of my txt file in the same directory, I can enter the following:
 
@@ -426,7 +423,6 @@ The meme is funny because everyone struggles with CLI text editors at first, as 
 - **exit** will close your terminal and (this is not a command but it's cool too) **ctrl+alt+t** will open a new terminal for you.
 - By pressing **up and down keys** you can navigate through the previous commands you entered.
 - By hitting **tab** you will get autocompletion based on the text you've written so far. By hitting **tab twice** you'll get suggestions based on the text you've written so far.
-    
 
 For example if I write `edit test` and **tab twice**, I get `testFolder/ test.txt`. If I write `edit test.` and hit **tab** my text autocompletes to `edit test.txt`
 
@@ -440,20 +436,21 @@ It's a whole lot more efficient to do it from the terminal than by clicking arou
 
 - **git init** will create a new local repository for you.
 
-```plaintext
-git init // output:
-Initialized empty Git repository in /home/German/Desktop/testFolder/.git/
+```sh
+git init 
+#
+# Initialized empty Git repository in /home/German/Desktop/testFolder/.git/
 ```
 
 - **git add** adds one or more files to staging. You can either detail a specific file to add to staging or add all changed files by typing `git add .`
 - **git commit** commits your changes to the repository. Commits must always be must be accompanied by the `-m` flag and commit message.
-    
 
-```plaintext
-git commit -m 'This is a test commit' // output:
-[master (root-commit) 6101dfe] This is a test commit
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 test.js
+```sh
+git commit -m 'This is a test commit'
+#
+# [master (root-commit) 6101dfe] This is a test commit
+#  1 file changed, 0 insertions(+), 0 deletions(-)
+#  create mode 100644 test.js
 ```
 
 - **git status** tells you what branch are you currently on and whether you have changes to commit or not.
@@ -587,7 +584,6 @@ As I mentioned previously, a script is nothing more than a series of commands or
 - First thing to do is create a `.sh` file. You can put it wherever want. I called mine `newGhRepo.sh`.
 - Then open it on your text/code editor of choice.
 - On our first line, we'll write the following: `#! /bin/sh`
-    
 
 This is called a **shebang**, and its function is to declare what shell is going to run this script.
 
@@ -631,7 +627,6 @@ What we're doing here is:
 1. While the repoName variable is not assigned (`while [ -z "$repoName" ]`)
 2. Write to the console this message (`echo 'Provide a repository name'`)
 3. Then read whatever input the user provides and assign the input to the repoName variable (`read -r -p $'Repository name:' repoName`)
-    
 
 - Now that we have our repo name in place, we can create our local Git repo like this:
 
@@ -744,7 +739,6 @@ I have a `.bash_aliases` file on my system, so let's edit that.
 - Then we can enter `ls -a` to list all files (includen hidden ones) and check if we have either a `.bashrc` or `.bash_aliases` file in our system.
 - We open the file with our text/code editor of choice.
 - And we write our new alias like this: `alias newghrepo="dash /home/German/Desktop/ger/code/projects/scripts/newGhRepo.sh"`
-    
 
 Here I'm declaring the alias name, the actual command I'm going to enter to run the script (`newghrepo`).
 

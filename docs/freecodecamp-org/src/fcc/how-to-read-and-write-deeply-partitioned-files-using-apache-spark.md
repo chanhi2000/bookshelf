@@ -79,7 +79,6 @@ In this tutorial, I have provided one such implementation using Spark.
 - [False Starts](#heading-false-starts)
 - [My Solution](#heading-my-solution)
 - [Conclusion](#heading-conclusion)
-    
 
 ---
 
@@ -90,7 +89,6 @@ To follow along in this tutorial, you need to have basic understanding of distri
 - Scala 2.12+
 - Java 17 (earlier versions might work)
 - Sbt
-    
 
 ---
 
@@ -170,7 +168,6 @@ Here’s what’s going on in the above code:
 3. Th next section contains the core logic where you can use `input_file_name()` to return the full path of the file and `regexp_extract()` to extract `year` , `month`, `day`, and `hour` from the corresponding subfolders in the path and store them as auxiliary columns on the dataframe.
 4. Finally, you write the dataframe using the `csv` format again and crucially use `partitionBy` to specify the previously created auxiliary columns as partition columns. Then save the dataframe in the `destinationBasePath`.
 5. After the copy is done, you stop the Spark session by calling the `stop()` API.
-    
 
 ---
 

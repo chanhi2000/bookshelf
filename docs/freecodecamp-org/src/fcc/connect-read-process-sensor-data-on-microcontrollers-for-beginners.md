@@ -171,7 +171,6 @@ For example, if the true temperature of an object is 12.53°C:
 
 - A precise sensor will consistently measure values like 12.52°C, 12.53°C, or 12.54°C, even if those values are slightly offset from the true temperature.
 - A highly accurate sensor, on the other hand, will measure values close to 12.53°C but may lack precision if those readings vary widely (e.g., 12.50°C, 12.53°C, and 12.56°C).
-    
 
 For applications requiring exact measurements, a sensor with both high accuracy (closeness to the true value) and high precision (low variability) is essential. This is especially important in distinguishing small differences, such as between 12.5°C and 12.53°C.
 

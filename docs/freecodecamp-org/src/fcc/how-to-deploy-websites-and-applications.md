@@ -400,7 +400,6 @@ Netlify has two ways to host your project:
 
 1. Drag-n-drop
 2. Importing the source code from your repository to the site.
-    
 
 #### Using the Drag-n-Drop feature:
 

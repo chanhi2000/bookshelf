@@ -222,7 +222,7 @@ mkdir my-landing-page
 cd my-landing-page
 ```
 
-Create the <FontIcon icon="fa-brands fa-html5"/>`index.html` file for the landing page layout:
+Create the <VPIcon icon="fa-brands fa-html5"/>`index.html` file for the landing page layout:
 
 ```sh
 touch index.html
@@ -234,13 +234,13 @@ Initialize the project with `npm`:
 npm init -y
 ```
 
-This will create a <FontIcon icon="iconfont icon-json"/>`package.json` file for the project.
+This will create a <VPIcon icon="iconfont icon-json"/>`package.json` file for the project.
 
 #### 2. Add Bootstrap 5 to the project:
 
 You can include Bootstrap 5 in two ways: by downloading the compiled CSS and JS files or by using a CDN. For simplicity, we’ll use the CDN links.
 
-In the `<head>` section of your <FontIcon icon="fa-brands fa-html5"/>`index.html`, add:
+In the `<head>` section of your <VPIcon icon="fa-brands fa-html5"/>`index.html`, add:
 
 ```html
 <link href="<https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css>" rel="stylesheet">
@@ -256,7 +256,7 @@ This ensures that Bootstrap 5 is integrated into the project for layout and comp
 
 #### 3. Basic Structure of the Landing Page:
 
-Start by setting up the basic layout in your <FontIcon icon="fa-brands fa-html5"/>`index.html` file:
+Start by setting up the basic layout in your <VPIcon icon="fa-brands fa-html5"/>`index.html` file:
 
 ```html title="index.html"
 <!DOCTYPE html>
@@ -287,7 +287,7 @@ Integrating Context7 MCP into your project is an essential step to streamline yo
 
 For a quick and easy installation, you can use the one-click setup to install Context7 MCP in VS Code. Simply click the link below to initiate the installation:
 
-[<FontIcon icon="iconfont icon-vscode"/>Install Context7 MCP in VS Code](https://insiders.vscode.dev/redirect?url=vscode:mcp%2Finstall?%7B%22name%22:%22context7%22,%22command%22:%22npx%22,%22args%22:%5B%22-y%22,%22@upstash%2Fcontext7-mcp@latest%22%5D%7D&utm_source=chatgpt.com)
+[<VPIcon icon="iconfont icon-vscode"/>Install Context7 MCP in VS Code](https://insiders.vscode.dev/redirect?url=vscode:mcp%2Finstall?%7B%22name%22:%22context7%22,%22command%22:%22npx%22,%22args%22:%5B%22-y%22,%22@upstash%2Fcontext7-mcp@latest%22%5D%7D&utm_source=chatgpt.com)
 
 This will automatically install Context7 MCP for you within VS Code, enabling it for use in your development environment.
 
@@ -297,7 +297,7 @@ Once Context7 MCP is installed, you’ll need to configure it within VS Code. Th
 
 To add the configuration, follow these steps:
 
-1. Open the <FontIcon icon="iconfont icon-json"/>`settings.json` file in VS Code by navigating to `File` > `Preferences` > `Settings` and clicking the {} Open Settings (JSON) icon.
+1. Open the <VPIcon icon="iconfont icon-json"/>`settings.json` file in VS Code by navigating to `File` > `Preferences` > `Settings` and clicking the {} Open Settings (JSON) icon.
 2. Add the following MCP configuration to the settings file:
 
 ```json title="settings.json"
@@ -324,7 +324,7 @@ If you prefer running Context7 MCP locally rather than using the hosted version,
 
 **To configure Context7 MCP to run locally:**
 
-1. Open your <FontIcon icon="iconfont icon-json"/>`settings.json` file in VS Code.
+1. Open your <VPIcon icon="iconfont icon-json"/>`settings.json` file in VS Code.
 2. Add the following configuration:
 
 ```json title="settings.json"
@@ -345,7 +345,7 @@ This setup runs Context7 MCP locally by invoking the `npx` command with the nece
 
 ### 4. Installing Context7 in Other Editors
 
-If you wish to set up Context7 MCP in other code editors, you can follow detailed installation guidelines available in the [Context7 Installation Documentation (<FontIcon icon="iconfont icon-github"/>`upstash/context7`)](https://github.com/upstash/context7?tab=readme-ov-file&utm_source=chatgpt.com#%EF%B8%8F-installation). This resource provides step-by-step instructions for configuring MCP in various environments, ensuring compatibility with your preferred editor.
+If you wish to set up Context7 MCP in other code editors, you can follow detailed installation guidelines available in the [Context7 Installation Documentation (<VPIcon icon="iconfont icon-github"/>`upstash/context7`)](https://github.com/upstash/context7?tab=readme-ov-file&utm_source=chatgpt.com#%EF%B8%8F-installation). This resource provides step-by-step instructions for configuring MCP in various environments, ensuring compatibility with your preferred editor.
 
 ---
 
@@ -355,7 +355,7 @@ To begin generating content with Context7 MCP, you first need to confirm whether
 
 A second confirmation will ensure that you want to generate content based on the prompt provided. Once you click 'Continue', the system will refer to the appropriate context (for example, Bootstrap documentation) and initiate the content generation process.
 
-![content generation & confirmation <FontIcon icon="fas fa-file-image"/>`process.png`](https://cdn.hashnode.com/res/hashnode/image/upload/v1758609079268/c0767ab9-0950-4055-a875-315e95af8cfb.png)
+![content generation & confirmation <VPIcon icon="fas fa-file-image"/>`process.png`](https://cdn.hashnode.com/res/hashnode/image/upload/v1758609079268/c0767ab9-0950-4055-a875-315e95af8cfb.png)
 
 ::: note
 
@@ -365,7 +365,7 @@ When writing a prompt and intending to use Context7, make sure to include `using
 
 ### How to Automate the Inclusion of Context7 Instructions
 
-If you'd like to avoid manually including the `using context7` instruction in every prompt, you can automate the process by setting default instructions in your project’s configuration files. To do this, add the following instructions to your <FontIcon icon="fas fa-folder-open"/>`.github/`<FontIcon icon="fa-brands fa-markdown"/>`copilot-instructions.md` file in the root directory of your project:
+If you'd like to avoid manually including the `using context7` instruction in every prompt, you can automate the process by setting default instructions in your project’s configuration files. To do this, add the following instructions to your <VPIcon icon="fas fa-folder-open"/>`.github/`<VPIcon icon="fa-brands fa-markdown"/>`copilot-instructions.md` file in the root directory of your project:
 
 ```md title=".github/copilot-instructions.md"
 always use context7 with bootstrap
@@ -421,7 +421,7 @@ You can access all the code for this landing page by cloning or downloading the 
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/9e3f6ec3e4c5aded9c5bd06825041d83373301cad9ea8517ee488ea14fea0b15/themeselection/bootstrap-landing-page"/>
 
-For the complete code, including the full layout template, visit the <FontIcon icon="fa-brands fa-html5"/>`full-prompt-landing-page.html` file in the repository directly:
+For the complete code, including the full layout template, visit the <VPIcon icon="fa-brands fa-html5"/>`full-prompt-landing-page.html` file in the repository directly:
 
 <SiteInfo
   name="bootstrap-landing-page/full-prompt-landing-page.html at main · themeselection/bootstrap-landing-page"
@@ -562,7 +562,7 @@ While a single comprehensive prompt can generate a landing page quickly, buildin
 
 By leveraging Bootstrap 5’s robust grid system and Context7’s AI-driven component generation, you can easily create landing pages that are not only visually appealing but also responsive and functional across all devices. This combination of tools makes the process faster, more efficient, and scalable.
 
-You can also consider using a ready made [<FontIcon icon="fas fa-globe"/>bootstrap template](https://themeselection.com/item/category/bootstrap-templates/) which comes with pre designed landing pages.
+You can also consider using a ready made [<VPIcon icon="fas fa-globe"/>bootstrap template](https://themeselection.com/item/category/bootstrap-templates/) which comes with pre designed landing pages.
 
 ::: info With this setup, you can expect
 
@@ -572,7 +572,7 @@ It also ensures that the generated code is fully responsive and in alignment wit
 
 :::
 
-I hope you find this article helpful and worth reading. I have prepared this article with help of [Smit Bhalodiya (<FontIcon icon="iconfont icon-github"/>`smitbhalodiya`)](https://github.com/smitbhalodiya), a Front End developer with 5+ years of experience in the field.
+I hope you find this article helpful and worth reading. I have prepared this article with help of [Smit Bhalodiya (<VPIcon icon="iconfont icon-github"/>`smitbhalodiya`)](https://github.com/smitbhalodiya), a Front End developer with 5+ years of experience in the field.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -194,7 +194,7 @@ Brute-forcing an HTTP login page can be a bit more complicated. You need to know
 
 ```sh
 medusa -h example.com -U usernames.txt -P passwords.txt -M http -m FORM:/login.php:username_field=password_field -t 5
-```    
+```
 
 In this example:
 

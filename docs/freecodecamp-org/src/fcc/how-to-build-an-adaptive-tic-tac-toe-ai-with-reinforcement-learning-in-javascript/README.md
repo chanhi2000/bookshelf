@@ -200,7 +200,7 @@ You will organize your code into two main classes in game.js:
 
 ## How to Build the HTML Interface with Tailwind CSS
 
-Create an <FontIcon icon="fa-brands fa-html5"/>`index.html` file with Tailwind CSS CDN:
+Create an <VPIcon icon="fa-brands fa-html5"/>`index.html` file with Tailwind CSS CDN:
 
 ```html :collapsed-lines title="index.html"
 <!DOCTYPE html>
@@ -394,19 +394,19 @@ Let’s talk in a bit more detail about some key parts of the code:
 - **AI Parameters**: Three range sliders with tooltips that let users adjust the core reinforcement learning hyperparameters in real-time. The tooltips appear on hover and explain what each parameter does.
 - **Statistics Panel**: A grid of six cards displaying real-time metrics including games played, wins/losses/draws, learned states, and AI win rate percentage.
 
-All interactive elements use `onclick` handlers that call methods from the `game` object defined in <FontIcon icon="fa-brands fa-js"/>`game.js`.
+All interactive elements use `onclick` handlers that call methods from the `game` object defined in <VPIcon icon="fa-brands fa-js"/>`game.js`.
 
 ---
 
 ## How to Implement the Q-Learning Algorithm
 
-Now, let's bring the theory to life. Create a <FontIcon icon="fa-brands fa-js"/>`game.js` file. We will build this file step-by-step, but if you get stuck at any point or want to see the complete code for reference, you can find the final version [on GitHub here (<FontIcon icon="iconfont icon-github"/>`mayur9210/tic-tac-toe-ai`)](https://github.com/mayur9210/tic-tac-toe-ai/blob/main/game.js).
+Now, let's bring the theory to life. Create a <VPIcon icon="fa-brands fa-js"/>`game.js` file. We will build this file step-by-step, but if you get stuck at any point or want to see the complete code for reference, you can find the final version [on GitHub here (<VPIcon icon="iconfont icon-github"/>`mayur9210/tic-tac-toe-ai`)](https://github.com/mayur9210/tic-tac-toe-ai/blob/main/game.js).
 
 Our code will be structured into two main classes: `QLearning`, which will handle the AI's "brain" and learning logic, and `TicTacToe`, which will manage the game state, rendering, and user interaction.
 
 ### The `QLearning` Class: The AI's Brain
 
-This class will contain all the logic for the [reinforcement learning agent (<FontIcon icon="iconfont icon-github"/>`mayur9210/tic-tac-toe-ai`)](https://github.com/mayur9210/tic-tac-toe-ai/blob/main/game.js). Let's build it piece by piece.
+This class will contain all the logic for the [reinforcement learning agent (<VPIcon icon="iconfont icon-github"/>`mayur9210/tic-tac-toe-ai`)](https://github.com/mayur9210/tic-tac-toe-ai/blob/main/game.js). Let's build it piece by piece.
 
 #### 1. Constructor and Q-Table Management
 
@@ -958,7 +958,7 @@ These methods orchestrate saving and loading the game state and AI's memory to `
 
 #### 10. Initializing the Game
 
-Finally, add this snippet at the end of <FontIcon icon="fa-brands fa-js"/>`game.js` to create an instance of the game once the HTML document is loaded.
+Finally, add this snippet at the end of <VPIcon icon="fa-brands fa-js"/>`game.js` to create an instance of the game once the HTML document is loaded.
 
 ```js
 let game;
@@ -967,7 +967,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 ```
 
-This completes our implementation! You now have a fully functional <FontIcon icon="fa-brands fa-js"/>`game.js` file. If you encountered any issues or want to double-check your work, you can compare your code against the complete source file available on GitHub: [https://github.com/mayur9210/tic-tac-toe-ai/blob/main/game.js](https://github.com/mayur9210/tic-tac-toe-ai/blob/main/game.js).
+This completes our implementation! You now have a fully functional <VPIcon icon="fa-brands fa-js"/>`game.js` file. If you encountered any issues or want to double-check your work, you can compare your code against the complete source file available on GitHub: [https://github.com/mayur9210/tic-tac-toe-ai/blob/main/game.js](https://github.com/mayur9210/tic-tac-toe-ai/blob/main/game.js).
 
 ---
 
@@ -982,7 +982,6 @@ The game supports three distinct difficulty modes to cater to different players:
 - **Beginner (🌱):** This mode is designed for new players. The AI makes random moves 70% of the time, providing a high chance for the player to win and learn the game's rules.
 - **Intermediate (🎯):** This is the standard mode where the AI uses the Q-learning algorithm with an epsilon-greedy strategy. It presents a challenging but fair opponent that improves over time.
 - **Expert (🔥):** This mode switches from reinforcement learning to the classic **minimax algorithm**. This algorithm plays a perfect game, meaning it is impossible to beat (the best a player can achieve is a draw). This serves as a benchmark for optimal play.
-    
 
 ### 2. Other Enhanced Features
 
@@ -991,7 +990,6 @@ In addition to the difficulty levels, the application includes:
 - **Real-time AI parameter tuning:** The sliders in the UI allow you to adjust the Learning Rate (α), Discount Factor (γ), and Exploration Rate (ϵ) on the fly. This lets you directly observe how different hyperparameters affect the AI's learning speed and performance.
 - **Persistence with localStorage:** The AI automatically saves its Q-table and your game statistics to the browser's local storage. When you close the tab and come back later, the AI will remember everything it has learned.
 - **Dedicated self-play training mode:** The "Train AI" button allows the AI to play 1,000 games against itself in a matter of seconds. This rapidly populates the Q-table and is far more efficient than learning from just human-played games.
-    
 
 ---
 
@@ -1022,7 +1020,6 @@ Now that you have a trained AI, experiment with the other features:
 - **Switch to 🔥 Expert:** Play against the minimax algorithm. Notice that you can't win. This demonstrates the power of a perfect-play algorithm.
 - **Tweak the parameters:** Set the Exploration Rate (ε) slider to 0. The AI will become completely deterministic, always picking the move with the highest Q-value. Set it to 0.5, and watch it become more erratic and experimental again.
 - **Reset the AI:** Click the "Reset AI Memory" button. This will wipe its Q-table. If you play against it now, you'll find it's back to its original, untrained state. This confirms that its "intelligence" was stored in the Q-table you just erased.
-    
 
 ### Verifying the Implementation with Automated Tests
 
@@ -1072,7 +1069,6 @@ How these tests work:
 1. **Difficulty switching:** The first test creates a game instance, sets the difficulty, and asserts that the AI's internal property was updated correctly.
 2. **Persistence:** The second test simulates saving the AI's state. It adds a dummy entry to the Q-table, saves it, creates a *new* game instance (simulating a page reload), and asserts that the new instance successfully loaded the saved data.
 3. **Expert mode correctness:** The third and most rigorous test plays 100 games against the expert AI using random moves for the player. It then asserts that the expert AI never lost a single game, proving the minimax implementation is correct.
-    
 
 You can run these tests in your browser's console after loading the game as shown in the below screenshot.
 
@@ -1127,7 +1123,6 @@ This symmetry reduction technique speeds up AI learning by recognizing equivalen
 - **rot180()**: Rotates 180° by reversing the board array
 - **rot270()**: Rotates 270° clockwise (or 90° counterclockwise)
 - **flip()**: Mirrors the board horizontally
-    
 
 **Why this matters:** By storing only canonical states in the Q-table, the AI reduces unique positions from ~5,500 to ~700, making learning **8x faster**.
 
@@ -1248,25 +1243,21 @@ This gives you instant visual feedback about which moves the AI considers most p
 
 - **Cause**: The learning rate is too low or there hasn't been enough training.
 - **Solution**: Increase the learning rate to between 0.2 and 0.3, and train for more than 2000 games.
-    
 
 ### Issue 2: AI Makes Random Moves
 
 - **Cause**: The exploration rate is too high after training.
 - **Solution**: Reduce the exploration rate to 0.01 once training is complete.
-    
 
 ### Issue 3: Slow Performance
 
 - **Cause**: The state representation or Q-table lookup is inefficient.
 - **Solution**: Use a Map instead of objects and implement state caching.
-    
 
 ### Issue 4: AI Overfits to One Strategy
 
 - **Cause**: There isn't enough exploration during training.
 - **Solution**: Begin with a high exploration rate (ε=0.5) and gradually decrease it.
-    
 
 ---
 
@@ -1277,7 +1268,6 @@ This framework adapts to other games:
 - **Connect Four**: 42-character state, 7 actions (columns)
 - **Blackjack**: State includes hand values and dealer card
 - **Snake**: Continuous states require function approximation
-    
 
 ---
 
@@ -1292,7 +1282,6 @@ You have built a complete reinforcement learning system in JavaScript. This proj
 - Three difficulty levels from beginner to expert
 - Data persistence with localStorage
 - Interactive tooltips for learning
-    
 
 The Q-learning foundation you have implemented powers more advanced techniques like Deep Q-Networks (DQN) used in modern game AI.
 
@@ -1307,7 +1296,6 @@ Here are some ways to continue learning:
 3. Create multiplayer mode with AI observation
 4. Build a neural network version with TensorFlow.js
 5. Extend to Connect Four or Chess endgames
-    
 
 ### Resources for Further Learning
 

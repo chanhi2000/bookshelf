@@ -112,9 +112,9 @@ Here's what happens when you run `docker build .`:
 
 When you run `docker build`, the command initiates a multi-step process with BuildKit (as illustrated in the above image).
 
-First, it sends a build request containing your Dockerfile, build arguments, export options, and cache options. BuildKit then intelligently requests only the files it needs when it needs them, starting with <FontIcon icon="iconfont icon-json"/>`package.json` to run `npm install` for dependency installation.
+First, it sends a build request containing your Dockerfile, build arguments, export options, and cache options. BuildKit then intelligently requests only the files it needs when it needs them, starting with <VPIcon icon="iconfont icon-json"/>`package.json` to run `npm install` for dependency installation.
 
-After that's complete, it requests the <FontIcon icon="fas fa-folder-open"/>`src/` directory containing your application code and copies those files into the image with the `COPY` command.
+After that's complete, it requests the <VPIcon icon="fas fa-folder-open"/>`src/` directory containing your application code and copies those files into the image with the `COPY` command.
 
 Once all build steps are finished, BuildKit sends back the completed image. Optionally, you can then push this image to a container registry for distribution or deployment.
 
@@ -459,7 +459,7 @@ EOF
 
 This mistake occurs when you run `docker build` from the wrong directory, causing the build context to be different from what your Dockerfile expects.
 
-In the example, running `docker build frontend/` from the <FontIcon icon="fas fa-folder-open"/>`/projects/` directory means the context is <FontIcon icon="fas fa-folder-open"/>`/projects/frontend/`, but the Dockerfile tries to access `../shared/utils.js`, which is outside this context. Docker can only access files within the build context, so any attempt to reference files outside it will fail.
+In the example, running `docker build frontend/` from the <VPIcon icon="fas fa-folder-open"/>`/projects/` directory means the context is <VPIcon icon="fas fa-folder-open"/>`/projects/frontend/`, but the Dockerfile tries to access `../shared/utils.js`, which is outside this context. Docker can only access files within the build context, so any attempt to reference files outside it will fail.
 
 ```plaintext title="file structure"
 # Project structure
@@ -480,8 +480,8 @@ docker build frontend/
 
 The key is aligning your build context with what your Dockerfile needs.
 
-- **Option 1** changes your working directory so the context matches your Dockerfile's expectations. You run the build from inside <FontIcon icon="fas fa-folder-open"/>`frontend/`, making that directory the context root.
-- **Option 2** keeps you in the parent directory but explicitly sets it as the context (the `.` argument) while telling Docker where to find the Dockerfile with the `-f` flag. Now both <FontIcon icon="fas fa-folder-open"/>`frontend/` and <FontIcon icon="fas fa-folder-open"/>`shared/` are accessible since they're both within the `<FontIcon icon="fas fa-folder-open"/>/projects/` context.
+- **Option 1** changes your working directory so the context matches your Dockerfile's expectations. You run the build from inside <VPIcon icon="fas fa-folder-open"/>`frontend/`, making that directory the context root.
+- **Option 2** keeps you in the parent directory but explicitly sets it as the context (the `.` argument) while telling Docker where to find the Dockerfile with the `-f` flag. Now both <VPIcon icon="fas fa-folder-open"/>`frontend/` and <VPIcon icon="fas fa-folder-open"/>`shared/` are accessible since they're both within the `<VPIcon icon="fas fa-folder-open"/>/projects/` context.
 
 ```sh
 # Option 1: Run from correct directory
@@ -494,7 +494,7 @@ docker build -f frontend/Dockerfile .
 
 ### Mistake 2: Including Massive Files
 
-::: info 👉 Optimized version with <FontIcon icon="fa-brands fa-docker"/>`.dockerignore`
+::: info 👉 Optimized version with <VPIcon icon="fa-brands fa-docker"/>`.dockerignore`
 
 <SiteInfo
   name="Learn-DevOps-by-building/beginner/docker/docker-build-architecture-examples/05-dockerignore-optimization at main · Caesarsage/Learn-DevOps-by-building"
@@ -507,7 +507,7 @@ docker build -f frontend/Dockerfile .
 
 This mistake happens when your build context contains large, unnecessary files that slow down the build process.
 
-Docker must transfer the entire context to the build daemon before starting, so including files like <FontIcon icon="fas fa-folder-open"/>`node_modules` (which can be hundreds of MB), git history, build artifacts, logs, and database dumps makes builds painfully slow. These files are rarely needed in the final image and should be excluded.
+Docker must transfer the entire context to the build daemon before starting, so including files like <VPIcon icon="fas fa-folder-open"/>`node_modules` (which can be hundreds of MB), git history, build artifacts, logs, and database dumps makes builds painfully slow. These files are rarely needed in the final image and should be excluded.
 
 ```plaintext title="file structure"
 # This context includes everything!
@@ -523,7 +523,7 @@ my-app/
 
 #### How to fix Docker build massive files:
 
-Use <FontIcon icon="fa-brands fa-docker"/>`.dockerignore` to exclude unnecessary files, dramatically reducing context size and build time. We’ll discuss this in more detail below.
+Use <VPIcon icon="fa-brands fa-docker"/>`.dockerignore` to exclude unnecessary files, dramatically reducing context size and build time. We’ll discuss this in more detail below.
 
 ### Mistake 3: Inefficient Layer Caching
 
@@ -551,7 +551,7 @@ CMD ["npm", "start"]
 
 #### How to fix docker build inefficient layer caching:
 
-Copy dependency files first, install dependencies, then copy source code. This way, `npm install` only runs when <FontIcon icon="iconfont icon-json"/>`package.json` actually changes:
+Copy dependency files first, install dependencies, then copy source code. This way, `npm install` only runs when <VPIcon icon="iconfont icon-json"/>`package.json` actually changes:
 
 ```dockerfile
 # GOOD - npm install only rebuilds when package.json changes
@@ -571,13 +571,13 @@ Understanding build performance metrics helps you identify bottlenecks and measu
 
 ### How to Optimize Docker Builds with .dockerignore
 
-The <FontIcon icon="fa-brands fa-docker"/>`.dockerignore` file is your secret weapon for faster, more secure builds. It tells Docker which files to exclude from the build context.
+The <VPIcon icon="fa-brands fa-docker"/>`.dockerignore` file is your secret weapon for faster, more secure builds. It tells Docker which files to exclude from the build context.
 
-#### Creating <FontIcon icon="fa-brands fa-docker"/>`.dockerignore` Patterns
+#### Creating <VPIcon icon="fa-brands fa-docker"/>`.dockerignore` Patterns
 
-Create a <FontIcon icon="fa-brands fa-docker"/>`.dockerignore` file in your project root. The syntax is similar to <FontIcon icon="iconfont icon-git"/>`.gitignore`, and you can use wildcards (`*`), match specific file extensions (`*.log`), exclude entire directories (<FontIcon icon="fas fa-folder-open"/>`node_modules/`), or use negation patterns (`!important.txt`) to include files that would otherwise be excluded. Each line represents a pattern, and comments start with `#`.
+Create a <VPIcon icon="fa-brands fa-docker"/>`.dockerignore` file in your project root. The syntax is similar to <VPIcon icon="iconfont icon-git"/>`.gitignore`, and you can use wildcards (`*`), match specific file extensions (`*.log`), exclude entire directories (<VPIcon icon="fas fa-folder-open"/>`node_modules/`), or use negation patterns (`!important.txt`) to include files that would otherwise be excluded. Each line represents a pattern, and comments start with `#`.
 
-::: tip Example of a <FontIcon icon="fa-brands fa-docker"/><code>.dockerignore</code> file:
+::: tip Example of a <VPIcon icon="fa-brands fa-docker"/><code>.dockerignore</code> file:
 
 ```sh :collapsed-lines title=".dockerignore"
 # Dependencies
@@ -658,7 +658,7 @@ docker buildx build --progress=plain .
 
 #### Profiling Context Transfer
 
-Monitor context transfer time to understand how build context size affects overall performance. Profile which directories contribute most to help target <FontIcon icon="fa-brands fa-docker"/>`.dockerignore` optimizations.
+Monitor context transfer time to understand how build context size affects overall performance. Profile which directories contribute most to help target <VPIcon icon="fa-brands fa-docker"/>`.dockerignore` optimizations.
 
 ```sh
 # Measure context transfer time
@@ -670,7 +670,7 @@ du -sh */ | sort -hr
 
 #### Measuring .dockerignore Impact
 
-Before <FontIcon icon="fa-brands fa-docker"/>`.dockerignore`, you'll notice that the `transfering context` size is 245.7MB in 15.2s:
+Before <VPIcon icon="fa-brands fa-docker"/>`.dockerignore`, you'll notice that the `transfering context` size is 245.7MB in 15.2s:
 
 ```sh
 docker build .
@@ -851,7 +851,7 @@ Understanding Docker build contexts and architecture is essential for achieving 
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/2559931b2066898d8bc349391401f04fcfa16c9fc625d7dd198a5e01801d84a6/Caesarsage/Learn-DevOps-by-building"/>
 
-As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [LinkedIn (<FontIcon icon="fa-brands fa-linkedin"/>`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor) or [Twitter (<FontIcon icon="fa-brands fa-x-twitter"/>`caesar_sage`)](https://x.com/caesar_sage).
+As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor) or [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`caesar_sage`)](https://x.com/caesar_sage).
 
 For more hands-on projects, follow and star this repository:
 

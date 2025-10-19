@@ -139,13 +139,13 @@ Activate the virtual environment
 
 ::: code-tabs#sh
 
-@tab:active <FontIcon icon="fa-brands fa-windows"/>
+@tab:active <VPIcon icon="fa-brands fa-windows"/>
 
 ```sh
 .venv\Scripts\Activate.ps1
 ```
 
-@tab <FontIcon icon="iconfont icon-macos"/>,<FontIcon icon="fa-brands fa-linux"/>
+@tab <VPIcon icon="iconfont icon-macos"/>,<VPIcon icon="fa-brands fa-linux"/>
 
 ```sh
 source .venv/bin/activate
@@ -163,7 +163,7 @@ The provided code snippet is a set of commands for setting up a new Python proje
 
 Activating a virtual environment ensures that the Python interpreter and any packages you install are isolated to this specific project, preventing conflicts with other projects or system-wide packages.
 
-Create a <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file:
+Create a <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file:
 
 ```plaintext title="requirements.txt"
 torch>=2.0
@@ -186,7 +186,7 @@ seaborn
 scikit-learn
 ```
 
-The list provided is a set of package dependencies typically found in a <FontIcon icon="fas fa-file-lines"/>`requirements.txt` file for a Python project. Here's a brief explanation of each package:
+The list provided is a set of package dependencies typically found in a <VPIcon icon="fas fa-file-lines"/>`requirements.txt` file for a Python project. Here's a brief explanation of each package:
 
 1. **torch>=2.0**: PyTorch is a popular open-source deep learning framework that provides a flexible and efficient platform for building and training neural networks. Version 2.0 and above includes improvements in performance and new features.
 2. **torchvision**: This library is part of the PyTorch ecosystem and provides tools for computer vision tasks, including datasets, model architectures, and image transformations.
@@ -209,7 +209,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-The command `pip install -r requirements.txt` is used to install all the Python packages listed in a file named <FontIcon icon="fas fa-file-lines"/>`requirements.txt`. This file typically contains a list of package dependencies required for a Python project, each specified with a package name and optionally a version number.
+The command `pip install -r requirements.txt` is used to install all the Python packages listed in a file named <VPIcon icon="fas fa-file-lines"/>`requirements.txt`. This file typically contains a list of package dependencies required for a Python project, each specified with a package name and optionally a version number.
 
 By running this command, `pip`, which is the Python package installer, reads the file and installs each package listed, ensuring that the project has all the necessary dependencies to run properly. This is a common practice in Python projects to manage and share dependencies easily.
 
@@ -229,9 +229,9 @@ We’ll use a small Python script that creates short `.mp4` clips of a moving (o
 - **swipe_right**: box moves from left to right
 - **stop**: box stays still in the center
 
-Save this script as <FontIcon icon="fa-brands fa-python"/>`generate_synthetic_gestures.py` in your project root:
+Save this script as <VPIcon icon="fa-brands fa-python"/>`generate_synthetic_gestures.py` in your project root:
 
-```py :collapsed-liens title="generate_synthetic_gestures.py"
+```py :collapsed-lines title="generate_synthetic_gestures.py"
 import os, cv2, numpy as np, random, argparse
 
 def ensure_dir(p): os.makedirs(p, exist_ok=True)
@@ -337,7 +337,7 @@ Now run it inside your virtual environment:
 python generate_synthetic_gestures.py --out data --clips 16 --seconds 1.5
 ```
 
-The command above runs a Python script named <FontIcon icon="fa-brands fa-python"/>`generate_synthetic_gestures.py`, which generates a synthetic gesture dataset with 16 clips per gesture, each lasting 1.5 seconds, and saves the output in a directory named "data".
+The command above runs a Python script named <VPIcon icon="fa-brands fa-python"/>`generate_synthetic_gestures.py`, which generates a synthetic gesture dataset with 16 clips per gesture, each lasting 1.5 seconds, and saves the output in a directory named "data".
 
 This creates a dataset like:
 
@@ -351,7 +351,7 @@ labels.txt
 
 Each folder contains short clips of a moving (or still) box that simulate gestures. This is perfect for testing the pipeline.
 
-### Training Script: <FontIcon icon="fa-brands fa-python"/>`train.py`
+### Training Script: <VPIcon icon="fa-brands fa-python"/>`train.py`
 
 Now that we have our dataset, let’s fine-tune a Vision Transformer with temporal pooling. This model applies ViT frame-by-frame, averages embeddings across time, and trains a classification head on your gestures.
 
@@ -465,7 +465,7 @@ Don’t worry if your accuracy is low at first, as with the synthetic dataset th
 
 ![Training logs](https://github.com/tayo4christ/transformer-gesture/blob/07c7071bdb17bc08585baeb60d787eadc3936ef5/images/training-logs.png?raw=true)
 
-Figure 1. Example training logs from <FontIcon icon="fa-brands fa-python"/>`train.py`, where the Vision Transformer with temporal pooling is fine-tuned on a tiny synthetic dataset.
+Figure 1. Example training logs from <VPIcon icon="fa-brands fa-python"/>`train.py`, where the Vision Transformer with temporal pooling is fine-tuned on a tiny synthetic dataset.
 
 ### Export the Model to ONNX
 
@@ -479,7 +479,7 @@ ONNX, which stands for Open Neural Network Exchange, is an open-source format de
 
 ONNX supports a wide range of operators and is continually updated to include new features, making it a versatile choice for deploying machine learning models across various platforms and devices.
 
-Create a file called <FontIcon icon="fa-brands fa-python"/>`export_onnx.py`:
+Create a file called <VPIcon icon="fa-brands fa-python"/>`export_onnx.py`:
 
 ```py title="export_onnx.py"
 import torch
@@ -512,7 +512,7 @@ Run it with `python export_onnx.py`.
 
 This generates a file `vit_temporal.onnx` in your project folder. ONNX lets us use onnxruntime, which is much faster for inference.
 
-Create a file called <FontIcon icon="fa-brands fa-python"/>`app.py`:
+Create a file called <VPIcon icon="fa-brands fa-python"/>`app.py`:
 
 ```py :collapsed-lines title="app.py"
 import os, tempfile, cv2, torch, onnxruntime, numpy as np
@@ -652,7 +652,7 @@ Now that the model runs in a demo app, let’s check how well it performs. There
 
 #### 1. Quick Accuracy Check
 
-Save this as <FontIcon icon="fa-brands fa-python"/>`eval.py` in the same folder as your other scripts:
+Save this as <VPIcon icon="fa-brands fa-python"/>`eval.py` in the same folder as your other scripts:
 
 ```py title="eval.py"
 import torch
@@ -688,7 +688,7 @@ print(f"Validation accuracy: {correct/total:.2%}")
 
 #### 2. Confusion Matrix
 
-Let’s also visualize which gestures are confused. Add this snippet at the bottom of <FontIcon icon="fa-brands fa-python"/>`eval.py`:
+Let’s also visualize which gestures are confused. Add this snippet at the bottom of <VPIcon icon="fa-brands fa-python"/>`eval.py`:
 
 ```py title="eval.py"
 import matplotlib.pyplot as plt
@@ -714,7 +714,7 @@ Figure 3. Confusion matrix on the validation set. Correct predictions appear alo
 
 #### 3. Latency Benchmark
 
-Finally, let’s see how fast inference runs. Save the following as <FontIcon icon="fa-brands fa-python"/>`benchmark.py`:
+Finally, let’s see how fast inference runs. Save the following as <VPIcon icon="fa-brands fa-python"/>`benchmark.py`:
 
 ```py title="benchmark.py"
 import time, numpy as np, onnxruntime
@@ -766,7 +766,7 @@ Both projects provide small `.mp4` videos you can use as realistic training exam
 
 ### Setting up your dataset folder
 
-Once you download a few clips, place them in the <FontIcon icon="fas fa-folder-open"/>`data/` folder under subfolders named after each gesture class. For example:
+Once you download a few clips, place them in the <VPIcon icon="fas fa-folder-open"/>`data/` folder under subfolders named after each gesture class. For example:
 
 ```plaintext title="file structure"
 data/
@@ -781,7 +781,7 @@ data/
     └── clip2.mp4
 ```
 
-And update <FontIcon icon="fas fa-file-lines"/>`labels.txt` to match the folder names:
+And update <VPIcon icon="fas fa-file-lines"/>`labels.txt` to match the folder names:
 
 ```plaintext title="labels.txt"
 swipe_left
@@ -789,7 +789,7 @@ swipe_right
 stop
 ```
 
-Now your dataset is ready, and the same training scripts from earlier (<FontIcon icon="fa-brands fa-python"/>`train.py`, <FontIcon icon="fa-brands fa-python"/>`eval.py`) will work without modification.
+Now your dataset is ready, and the same training scripts from earlier (<VPIcon icon="fa-brands fa-python"/>`train.py`, <VPIcon icon="fa-brands fa-python"/>`eval.py`) will work without modification.
 
 ### Why choose this option?
 
@@ -822,9 +822,9 @@ In other words: this demo is a **teaching scaffold**, not a production-ready acc
 
 If you’d like to push this project further, here are some directions to explore:
 
-- **Better models**: Try video-focused Transformers like [<FontIcon icon="fas fa-globe"/>TimeSformer](https://arxiv.org/abs/2102.05095) or [<FontIcon icon="fas fa-globe"/>VideoMAE](https://arxiv.org/abs/2203.12602) for stronger temporal reasoning.
-- **Larger vocabularies**: Add more gesture classes, build your own dataset, or use portions of public datasets like [<FontIcon icon="iconfont icon-kaggle"/>20BN Jester](https://kaggle.com/datasets/toxicmender/20bn-jester) or [<FontIcon icon="iconfont icon-kaggle"/>WLASL](https://kaggle.com/datasets/risangbaskoro/wlasl-processed).
-- **Pose fusion**: Combine gesture video with human pose keypoints from [<FontIcon icon="fas fa-globe"/>MediaPipe](https://mediapipe.readthedocs.io/en/latest/solutions/hands.html) or [<FontIcon icon="iconfont icon-github"/>`CMU-Perceptual-Computing-Lab/openpose`](https://github.com/CMU-Perceptual-Computing-Lab/openpose) for more robust predictions.
+- **Better models**: Try video-focused Transformers like [<VPIcon icon="fas fa-globe"/>TimeSformer](https://arxiv.org/abs/2102.05095) or [<VPIcon icon="fas fa-globe"/>VideoMAE](https://arxiv.org/abs/2203.12602) for stronger temporal reasoning.
+- **Larger vocabularies**: Add more gesture classes, build your own dataset, or use portions of public datasets like [<VPIcon icon="iconfont icon-kaggle"/>20BN Jester](https://kaggle.com/datasets/toxicmender/20bn-jester) or [<VPIcon icon="iconfont icon-kaggle"/>WLASL](https://kaggle.com/datasets/risangbaskoro/wlasl-processed).
+- **Pose fusion**: Combine gesture video with human pose keypoints from [<VPIcon icon="fas fa-globe"/>MediaPipe](https://mediapipe.readthedocs.io/en/latest/solutions/hands.html) or [<VPIcon icon="iconfont icon-github"/>`CMU-Perceptual-Computing-Lab/openpose`](https://github.com/CMU-Perceptual-Computing-Lab/openpose) for more robust predictions.
 - **Real-time smoothing**: Implement temporal smoothing or debounce logic in the app so predictions are more stable during live use.
 - **Quantization + edge devices**: Convert your ONNX model to an INT8 quantized version and deploy it on a Raspberry Pi or Jetson Nano for classroom-ready prototypes.
 
@@ -844,7 +844,7 @@ While this demo works with small datasets, real-world applications need larger, 
 
 ::: info
 
-Here’s the GitHub repo for full source code: [<FontIcon icon="iconfont icon-github"/>`tayo4christ/transformer-gesture`](https://github.com/tayo4christ/transformer-gesture).
+Here’s the GitHub repo for full source code: [<VPIcon icon="iconfont icon-github"/>`tayo4christ/transformer-gesture`](https://github.com/tayo4christ/transformer-gesture).
 
 <SiteInfo
   name="tayo4christ/transformer-gesture"

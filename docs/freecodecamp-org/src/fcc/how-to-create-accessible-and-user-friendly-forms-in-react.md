@@ -186,7 +186,6 @@ export const RegistrationForm = () => {
 - Lack of action feedback - no user feedback means that users can become confused as to whether an action has happened or not. No error messages or feedback offers the user no insight into what they need to do to correct the form.
 - No labels for form inputs - No labels for form inputs prevent screen readers from understanding their purpose. Some screen readers may miss placeholders, and once a user types within the input, the placeholder is replaced, losing context and making it hard to return to erroneous inputs.
 - Lack of accessibility markup to make the form optimised for screen readers and accessibility tools.
-    
 
 So how do we make this better? Let’s jump right in.
 
@@ -728,7 +727,6 @@ The screen reader **immediately** interrupts and announces it.
 
 - The element needs to **already exist** in the DOM when the update happens. So it’s smart to always render the `<p aria-live>` - just update its content.
 - Don’t overuse `assertive`, or you’ll annoy users and make apps feel super noisy and overwhelming.
-    
 
 ---
 

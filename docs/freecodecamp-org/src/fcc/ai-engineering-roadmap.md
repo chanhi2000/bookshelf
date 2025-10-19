@@ -86,7 +86,6 @@ This course is designed to provide a structured path into AI Engineering, includ
 - Mastering large language models, fine-tuning, and AI optimization techniques
 - Diving into AI ethics, safety, and best practices to ensure responsible AI development
 - Exploring career paths and additional resources for aspiring AI Engineers
-    
 
 This roadmap is perfect for beginners looking to enter AI Engineering, as well as professionals who want to expand their knowledge and stay ahead in the field. Whether you aim to build machine learning models, work with generative AI, or develop cutting-edge AI applications, this course will equip you with the skills you need.
 

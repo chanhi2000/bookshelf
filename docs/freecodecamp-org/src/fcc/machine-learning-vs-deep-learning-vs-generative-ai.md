@@ -83,7 +83,7 @@ At this stage, you clean the data by getting rid of mistakes and adding missing 
 
 ### Selecting Algorithm (Models)
 
-It's like choosing the right tools for the job. Models can find patterns in data or make predictions. You can find machine learning models for your data [<FontIcon icon="iconfont icon-ibm"/>here](https://ibm.com/think/topics/machine-learning-algorithms).
+It's like choosing the right tools for the job. Models can find patterns in data or make predictions. You can find machine learning models for your data [<VPIcon icon="iconfont icon-ibm"/>here](https://ibm.com/think/topics/machine-learning-algorithms).
 
 ### Training Phase
 

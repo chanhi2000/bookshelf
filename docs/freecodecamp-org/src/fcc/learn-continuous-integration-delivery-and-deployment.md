@@ -1012,7 +1012,6 @@ The pipeline consists of multiple stages:
 1. **Test Job:** The pipeline begins by setting up the environment and running tests using the `npm test` command. If the tests pass, the process moves forward.
 2. **Build Job:** The next step builds the Docker image of the Node.js application, tags it, and then pushes it to Docker Hub.
 3. **Deployment to GCP:** After the image is pushed, the workflow authenticates to Google Cloud and deploys the application. If the event is a release (that is, a push to the `main` branch), the application is deployed to the production environment. If the event is a push to <VPIcon icon="fas fa-code-branch"/>`staging`, the app is deployed to the staging environment.
-    
 
 The CD process ensures that any changes made to the <VPIcon icon="fas fa-code-branch"/>`staging` branch are automatically tested, built, and deployed to the staging environment, ready for further validation. When a release is published, it will trigger deployment to production, ensuring your app is always up to date.
 

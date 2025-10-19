@@ -106,7 +106,6 @@ console.log(canVote);  // Output: "Yes"
 
 - **Conciseness**: The ternary operator is significantly shorter, as it allows you to write conditionals in a single line. This can make your code cleaner and easier to read in certain scenarios.
 - **Readability**: just keep in mind that readability can suffer if the condition or expressions become too complex. If you're dealing with multiple conditions or long expressions, the ternary operator can make the code harder to understand. The traditional if-else statement is cleaner and a better choice in this case.
-    
 
 ### Ternary vs if-else: Which is Better?
 

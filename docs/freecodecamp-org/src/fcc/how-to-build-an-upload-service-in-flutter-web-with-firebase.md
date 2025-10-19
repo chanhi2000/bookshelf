@@ -192,7 +192,7 @@ Here’s what’s happening in this code:
 
 Now let’s implement the upload logic with Firebase Storage.
 
-```dart :collapsed-liens
+```dart :collapsed-lines
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:injectable/injectable.dart';

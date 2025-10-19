@@ -661,7 +661,7 @@ However, there are situations where it may make sense to handle messages for a s
   name="logging — Logging facility for Python"
   desc="Source code: Lib/logging/__init__.py Important: This page contains the API reference information. For tutorial information and discussion of more advanced topics, see Basic Tutorial, Advanced Tutor..."
   url="https://docs.python.org/3/library/logging.html/"
-  logo="https://docs.python.org/_static/py.svg"
+  logo="https://docs.python.org/3/_static/py.svg"
   preview="https://docs.python.org/3/_static/og-image.png"/>
 
 :::

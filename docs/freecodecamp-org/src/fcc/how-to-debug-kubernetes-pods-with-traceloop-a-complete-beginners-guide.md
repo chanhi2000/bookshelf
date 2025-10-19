@@ -291,7 +291,6 @@ Let's break down what we're seeing:
 - **SYSCALL**: The actual system call made (openat, write, exit_group)
 - **PARAMETERS**: Arguments passed to the system call
 - **RET**: Return value (0 usually means success)
-    
 
 This trace shows the `ls` command opening the `/lib` directory, reading directory entries, writing the output to stdout, and exiting successfully.
 
