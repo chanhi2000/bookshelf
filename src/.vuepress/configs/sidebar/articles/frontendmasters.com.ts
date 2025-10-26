@@ -5,6 +5,13 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "perfectly-pointed-tooltips-a-foundation", // 2025-10-28
+    "introducing-tanstack-start-middleware", // 2025-10-24
+    "the-two-button-problem", // 2025-10-21
+    "modern-css-round-out-tabs", // 2025-10-13
+    "css-counters-in-action", // 2025-10-09
+    "numbers-that-fall-scroll-driven-animations-sibling-index", // 2025-10-07
+    "a-progressive-enhancement-challenge", // 2025-10-03
     "inset-shadows-directly-on-img-elements-part-1", // 2025-10-01
     "learn-media-queries", // 2025-09-29
     "the-coyier-css-starter", // 2025-09-24
@@ -253,6 +260,7 @@ export const template: SidebarInfoTemplate = {
       "css-spotlight-effect", // 2025-05-26
       "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
       "using-the-custom-highlight-api", // 2025-08-07
+      "a-progressive-enhancement-challenge", // 2025-10-03
       // END: 2025js
       // END: js
     ]],[
@@ -289,6 +297,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-react
       "react-internals-which-useeffect-runs-first", // 2025-04-28
       "introducing-zustand", // 2025-07-21
+      "css-counters-in-action", // 2025-10-09
+      "introducing-tanstack-start-middleware", // 2025-10-24
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -429,6 +439,11 @@ export const template: SidebarInfoTemplate = {
       "what-you-need-to-know-about-modern-css-2025-edition", // 2025-09-19
       "the-coyier-css-starter", // 2025-09-24
       "learn-media-queries", // 2025-09-29
+      "a-progressive-enhancement-challenge", // 2025-10-03
+      "numbers-that-fall-scroll-driven-animations-sibling-index", // 2025-10-07
+      "css-counters-in-action", // 2025-10-09
+      "modern-css-round-out-tabs", // 2025-10-13
+      "the-two-button-problem", // 2025-10-21
       // END: 2025css
       // END: css
     ]],[

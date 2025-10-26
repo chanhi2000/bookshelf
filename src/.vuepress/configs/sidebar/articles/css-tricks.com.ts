@@ -5,6 +5,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
+    "an-introduction-to-javascript-expressions", // 2025-10-22
+    "building-a-honeypot-field-that-works", // 2025-10-20
     "composition-in-css", // 2025-09-08
     "what-you-need-to-know-about-css-color-interpolation", // 2025-09-05
     "should-the-css-light-dark-function-support-more-than-light-and-dark-values", // 2025-09-02
@@ -237,8 +240,15 @@ export const template: SidebarInfoTemplate = {
       "should-the-css-light-dark-function-support-more-than-light-and-dark-values", // 2025-09-02
       "what-you-need-to-know-about-css-color-interpolation", // 2025-09-05
       "composition-in-css", // 2025-09-08
+      
+      "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
       // END: 2025css
       // END: css
+    ]],[
+    "js-astro",[
+      "building-a-honeypot-field-that-works", // 2025-10-20
+      // END: 2025js-astro
+      // END: js-astro
     ]],[
     "js-node",[
       "a-primer-on-focus-trapping", // 2025-07-22
@@ -249,6 +259,8 @@ export const template: SidebarInfoTemplate = {
       "making-a-masonry-layout-that-works-today", // 2025-07-28
       "keeping-article-demos-alive-when-third-party-apis-die", // 2025-07-30
       "thinking-deeply-about-theming-and-color-naming", // 2025-08-04
+      
+      "an-introduction-to-javascript-expressions", // 2025-10-22
       // END: 2025js
       // END: js
     ]],[

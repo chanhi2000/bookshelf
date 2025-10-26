@@ -57,6 +57,7 @@ const Y2019: SidebarYeargroupTemplate = {
     "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
     "depend-on-docker-for-kubeflow", // 2019-11-07
     "developing-docker-windows-app-wsl2", // 2019-08-15
+    "maintainable-integration-tests-with-docker", // 2019-08-01
     "keep-nodejs-rockin-in-docker", // 2019-07-31
     "road-to-containing-iscsi", // 2019-07-16
     "intro-guide-to-dockerfile-best-practices", // 2019-07-03
@@ -174,6 +175,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2017java
       "improved-docker-container-integration-with-java-10", // 2018-04-04
       // END: 2018java
+      "maintainable-integration-tests-with-docker", // 2019-08-01
       // END: 2019java
       // END: 2020java
       // END: 2021java
@@ -223,6 +225,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2016go
       // END: 2017go
       // END: 2018go
+      "maintainable-integration-tests-with-docker", // 2019-08-01
       // END: 2019go
       // END: 2020go
       // END: 2021go
@@ -303,6 +306,7 @@ export const template: SidebarInfoTemplate = {
       "intro-guide-to-dockerfile-best-practices", // 2019-07-03
       "road-to-containing-iscsi", // 2019-07-16
       "keep-nodejs-rockin-in-docker", // 2019-07-31
+      "maintainable-integration-tests-with-docker", // 2019-08-01
       "developing-docker-windows-app-wsl2", // 2019-08-15
       "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
       // END: 2019docker
@@ -315,6 +319,22 @@ export const template: SidebarInfoTemplate = {
       "docker-compose-with-provider-services", // 2025-07-10
       // END: 2025docker
       // END: docker
+    ]],[
+    "testcontainer", [
+      // END: 2014testcontainer
+      // END: 2015testcontainer
+      // END: 2016testcontainer
+      // END: 2017testcontainer
+      // END: 2018testcontainer
+      "maintainable-integration-tests-with-docker", // 2019-08-01
+      // END: 2019testcontainer
+      // END: 2020testcontainer
+      // END: 2021testcontainer
+      // END: 2022testcontainer
+      // END: 2023testcontainer
+      // END: 2024testcontainer
+      // END: 2025testcontainer
+      // END: testcontainer
     ]],[
     "k8s", [
       "docker-mac-kubernetes", // 2018-01-10
