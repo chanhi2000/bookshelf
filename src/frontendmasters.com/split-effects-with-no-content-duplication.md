@@ -69,7 +69,7 @@ In my old article, the result of the blending operation was the negative of the 
   slug-hash="qBqqoXa"
   title="1 element image vs. negative"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Here’s a fancier version of it:
 
@@ -78,7 +78,7 @@ Here’s a fancier version of it:
   slug-hash="OJbmxPq"
   title="Original vs. negative card (hover card, drag slider)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 But we can also have other effects, for example desaturating an image (black and white photography effect).
 
@@ -87,7 +87,7 @@ But we can also have other effects, for example desaturating an image (black and
   slug-hash="MWMvxxX"
   title="Comparison slider: grayscale()-like effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This demo needs a single HTML element (`input[type=range]`), less than 20 CSS declarations (and that’s with having to duplicate a bunch of them for the`-webkit-`and`-moz-`cases) and under`100`bytes of JS (without even bothering to minify it).
 
@@ -104,7 +104,7 @@ We can also make a fully desaturated image monochrome. This only requires a coup
   slug-hash="ExBvJjz"
   title="Comparison slider: monochrome me"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Or why just monochrome it when we can duotone it?
 
@@ -113,7 +113,7 @@ Or why just monochrome it when we can duotone it?
   slug-hash="jOjLRyp"
   title="Comparison slider: duotone me"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Here, we just switched to an`exclusion`blend mode. How this works in the back is something I explained in a lot of detail in [<VPIcon icon="fas fa-globe"/>the blend modes article](https://css-tricks.com/taming-blend-modes-difference-and-exclusion/#aa-invert-just-an-area-of-an-element-or-a-background).
 
@@ -128,7 +128,7 @@ So the more flexible and overall better approach I’d go for nowadays involves 
   slug-hash="XWLawxg"
   title="Comparison slider v2: blur"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The trick is to make the wrapper a`grid`container with a single grid cell, stack and stretch inside this cell the`img`, then a wrapper pseudo-element and finally the`input[type=range]`on top of both.
 
@@ -141,7 +141,7 @@ The demo above shows a blur effect, but we have unlimited possibilities here, as
   slug-hash="qBzXGzK"
   title="Comparison slider v2: grain"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 One caveat though: as cool as in the browser image`filter`effects are, we only have access to the original image via the right click menu. We cannot save or copy the result we get after applying the`filter`this way. For the situation when we want that, stacking the filtered and clipped version of the image on top of the original is probably the better idea, even if we have to load two images.
 
@@ -162,7 +162,7 @@ This can be seen in the demo below where you can drag the separator line:
   slug-hash="oNOrXQj"
   title="Interactive text split - no text duplication - drag blue line"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The trick here is to put the text fill, the text stroke and the progress area each on one RGB channel. In my demo, the text fill uses the blue channel, the text stroke uses the red channel and the progress area uses the green channel. Note that the progress area is created using a[full coverage pseudo (<VPIcon icon="fa-brands fa-x-twitter"/>`anatudor`)](https://x.com/anatudor/status/1478412237295566850)on the element containing the text and that this pseudo is blended with its parent.
 
@@ -230,7 +230,7 @@ As you might suspect, we can do without duplication!
   slug-hash="RwzoqWj"
   title="Simple nav blob - no content duplication"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 What is going on here?
 
@@ -297,7 +297,7 @@ You can see a basic version of this below:
   slug-hash="poXrXqa"
   title="Almost pure CSS highlight nav: glitchy"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Now you may see a teeny tiny gap in the highlight during the`transition`.
 
@@ -318,7 +318,7 @@ That’s it!
   slug-hash="WNqZyeY"
   title="Almost pure CSS highlight nav: no glitch"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Okay, but what about the rounded corners and the text`color`change on intersecting the highlight? For that, we need an SVG`filter`that achieves two things. One,[<VPIcon icon="fas fa-globe"/>the blobby look](https://mastodon.social/@anatudor/112523336154596358)and two, something very similar to the one in the earlier text split example, a different look for the text where it intersects the highlight blob versus where it doesn’t. We also want to have a different look for the`:hover`/`:focus`state outside the blob.
 
@@ -341,7 +341,7 @@ Back when`:has()`was still a new feature in late 2022, I started toying with a b
   slug-hash="poKjWgW"
   title="theme swipe switch"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Let’s take a quick look at the idea behind!
 
@@ -352,7 +352,7 @@ It’s not very far from what I’m doing in this bubble theme switch (which I�
   slug-hash="mdgjMBv"
   title="Slider-controlled bubble via a CSS variable"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We have a custom property`--dark`that’s`0`in the light theme case and`1`in the dark theme case.
 
@@ -392,7 +392,7 @@ Click on either “dark” or “light” below:
   slug-hash="wvLrQpM"
   title="Theme swipe: basic setup"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This is the basic idea behind. There are two big issues with it.
 
@@ -412,7 +412,7 @@ Two, it doesn’t give any indication about whether any of these controls is foc
   slug-hash="zYVEMaa"
   title="Theme swipe: direction + highlights fix"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The same idea applies to all text and links.
 
@@ -421,7 +421,7 @@ The same idea applies to all text and links.
   slug-hash="XWLeOqj"
   title="Theme swipe: links"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 There are a couple of issues here.
 
@@ -440,7 +440,7 @@ So we’re forced to use a pseudo and make links`inline-block`or wrap each link�
   slug-hash="bGPoJPj"
   title="Theme swipe: better links"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In the future, being able to clip the`fixed`background to text*and*to a bottom border should do the trick without the need for the extra pseudo-element hack (see this[<VPIcon icon="fas fa-globe"/>proposal](https://verou.me/specs/#continuous-image-borders)by Lea Verou).
 
@@ -451,7 +451,7 @@ Also, for every element that needs to have both text content and a`background`(l
   slug-hash="YzormZw"
   title="Theme swipe: simple button"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Okay, but what if we want to have a patterned`background`? Or what if we want a more interesting link hover effect, for example a[XOR one](https://codepen.io/thebabydino/pen/JjGMZyM)? Or other kinds of XOR effects, for example one on a header? Blending (the`difference`blend mode in particular) to the rescue!
 
@@ -460,7 +460,7 @@ Okay, but what if we want to have a patterned`background`? Or what if we want a 
   slug-hash="ZEdXgNN"
   title="Theme swipe: blending for patterns, XOR effects"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 What about having some gradients on the page? For example, in the case of gradient buttons. That can be done using the same trick of putting the text, the gradient of the`button`and the gradient determining the progress of the theme swipe transition each on a different RGB channel. Then we use an SVG`filter`to extract the gradients and text for each of the two themes, paint them as desired and resolve how much of each is shown based on the progress of the theme swipe transition.
 
@@ -469,7 +469,7 @@ What about having some gradients on the page? For example, in the case of gradie
   slug-hash="LYKOXmJ"
   title="Theme swipe: gradient buttons"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 You may remember I said something about being tied to linear swipes here. But we can fix that in order to also have radial or conic ones!
 

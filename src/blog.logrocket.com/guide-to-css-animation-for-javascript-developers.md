@@ -120,7 +120,7 @@ When you apply this code to an element, the `animation` shorthand property anima
   slug-hash="KKWyRyz"
   title="Animation shorthand property - CSS Animation Tutorial"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 #### `Animation` **sub-properties**
 
@@ -147,7 +147,7 @@ Again, when you apply the code to the element, it renders an animated square:
   slug-hash="ZEeaoLp"
   title="Animation sub-properties - CSS Animation Tutorial"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Note that you can’t use the `animation` shorthand property and the `animation` sub-properties together because they produce the same thing. They should be used individually based on what you are trying to achieve.
 

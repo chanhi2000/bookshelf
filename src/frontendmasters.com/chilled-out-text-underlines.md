@@ -117,7 +117,7 @@ Is all this accessible? My guess is that as long as the color of the link has en
   slug-hash="mydqdPN"
   title="Chilled Out Text Underlines"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 
 <!-- TODO: add ARTICLE CARD -->

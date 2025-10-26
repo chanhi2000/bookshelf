@@ -273,7 +273,7 @@ There’s a bunch more CSS tucked in there to make it all happen, so you might a
   slug-hash="dPovqzz"
   title="Custom Select"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

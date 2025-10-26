@@ -98,7 +98,7 @@ The HTML code was a single element, which means we can apply the CSS to image el
   slug-hash="LYvPEeV"
   title="Flower shape using CSS mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In this article, we are redoing the same shapes using the new `shape()` function, which I think will become my favorite CSS feature.
 
@@ -143,7 +143,7 @@ Here is a demo to illustrate the different values:
   slug-hash="gbbKPPP"
   title="Overview of the arc command"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The points and the radii are the same. I am only changing the size and direction to choose one of the four possibilities. It should be noted that the size and direction aren’t mandatory. The defaults are`small`and`ccw`.
 
@@ -241,7 +241,7 @@ $n: 10;
   slug-hash="gbbKWZj"
   title="Flower shape using shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 *Wait, we get the inverted shape instead? Why is that?*
 
@@ -256,7 +256,7 @@ We didn’t define the size and the direction of the arcs so by default the brow
   slug-hash="vEErZEr"
   title="Adding CSS variable"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -297,7 +297,7 @@ I introduced a new variable`$c`within the loop that will have the value`small cc
   slug-hash="pvvKwgj"
   title="Wavy flower shape using shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Cool right? The compiled code will look like the below:
 
@@ -346,7 +346,7 @@ $n: 10;
   slug-hash="wBBXeoL"
   title="Optimizing the code"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can do the same for the main shape, but this time we can simplify the value of the radius and use`1%`.
 
@@ -374,7 +374,7 @@ $n: 10;
   slug-hash="yyyEXbJ"
   title="Optimizing the code"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This one is interesting because using`1%`as a radius is kind of strange and not intuitive. In the explanation of the arc command, I said that we have exactly two circles with the given radius that intersect with the two points, but what if the radius is smaller than half the distance between the points? No circles can meet that condition.
 
@@ -397,7 +397,7 @@ Let’s end with a last demo of a heart shape, where I am using the arc command.
   slug-hash="LEEbdrw"
   title="Heart shape using shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 And don’t forget to bookmark[<VPIcon icon="fas fa-globe"/>my online generators](https://css-generators.com/)from where you can get the code of the flower shapes and more!
 

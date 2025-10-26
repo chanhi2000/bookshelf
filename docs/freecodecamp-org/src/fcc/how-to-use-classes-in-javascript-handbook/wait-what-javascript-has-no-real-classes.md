@@ -135,7 +135,7 @@ Hello, I'm Spruce. I'm 25 years old, born in 2000, working as a Engineer from Ni
   slug-hash="mydbXKq"
   title="Meet Person Program"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 See how neat that is? Everything about a `Person`, their details (name, age, and so on) and what you can do with a person (validate age, get birth year, greet) is all bundled together, and nicely organized inside this single `Person` object. That's encapsulation in action. Pretty cool, right?
 

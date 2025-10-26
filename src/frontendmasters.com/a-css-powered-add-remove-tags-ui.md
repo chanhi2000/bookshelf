@@ -85,7 +85,7 @@ Because of modern CSS standards like Grid,`:has()`selector and such, there’s m
   slug-hash="xxejMyw"
   title="Arbitrary Radio with :has() Usage"
   :default-tab="['css','result']"
-  :theme="$isDarkmode? 'dark': 'light'"/>
+  :theme="$isDarkMode? 'dark': 'light'"/>
 
 ```html
 <div>
@@ -126,7 +126,7 @@ Now that we’ve got the basics covered. Here’s the final demo we’ll be work
   slug-hash="WNWXvve"
   title="CodePen Embed - CSS Dialog Animations (Max browser support with @keyframes)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode? 'dark': 'light'"/>
+  :theme="$isDarkMode? 'dark': 'light'"/>
 
 Let’s get started.
 
@@ -333,7 +333,7 @@ label {
   slug-hash="VwNQxvZ"
   title="CSS tags"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -394,7 +394,7 @@ Here’s the final demo:
   slug-hash="WNWXvve"
   title="CodePen Embed - CSS tags final"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

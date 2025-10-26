@@ -217,7 +217,7 @@ The example is a landing page for the artist [<VPIcon icon="fa-brands fa-wikiped
   slug-hash="BaBVWyL"
   title="Daily UI #003 - Landing Page"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ![Angele Landing Page](/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/angele-landing-page.png)
 

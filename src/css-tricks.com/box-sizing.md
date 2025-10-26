@@ -103,14 +103,14 @@ This demo shows how `border-box` can help make responsive layouts more manageabl
   slug-hash="NqGBym"
   title="Box Sizing Layout Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <!-- <CodePen
   user="css-tricks"
   slug-hash="NqGBym/970f26f621cfa3ae3eec7e2a6b0e8c97"
   title="Box Sizing Layout Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/> -->
+  :theme="$isDarkMode ? 'dark': 'light'"/> -->
 
 ---
 

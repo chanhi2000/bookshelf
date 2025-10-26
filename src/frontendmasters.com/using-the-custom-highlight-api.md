@@ -95,7 +95,7 @@ Here’s that demo:
   slug-hash="yyYMzKG"
   title="Basic Range Highlighting"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -173,7 +173,7 @@ All together, it makes a functional search experience:
   slug-hash="NPGbbJZ"
   title="Range Highlighting with Search"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -188,7 +188,7 @@ It feels like syntax highlighting code is a pretty good use case for this API. A
   slug-hash="GgpWMVy"
   title="Using <syntax-highlight>"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 :::
 

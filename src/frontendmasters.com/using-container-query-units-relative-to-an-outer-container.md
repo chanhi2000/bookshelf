@@ -155,7 +155,7 @@ Bingo,[this works (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://
   slug-hash="GggNemJ"
   title="Container query unit values relative to outer container"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ![Screenshot. Both the inner container and its child have a background sized to 20cqw, the container query units being relative to the outer container.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/05/437957622-82985165-4171-456f-9e16-319410410db1-1.png?resize=1024%2C633&ssl=1)
 

@@ -115,7 +115,7 @@ It works:
   slug-hash="NWXWPz"
   title="Easy to Reset Box-Sizing"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This isn’t a majorly huge thing. You might already be using the `box-sizing` reset the “old way” and never have gotten bit by it. That’s the case for me. But as long as we’re promoting a “best practice” style snippet, we might as well hone it to be the best it can be.
 

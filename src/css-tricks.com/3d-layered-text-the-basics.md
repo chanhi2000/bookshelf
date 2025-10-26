@@ -114,7 +114,7 @@ And the results can be super satisfying. There’s something unique about assemb
   link="https://codepen.io/amit_sheen/pen/dyBJQag"
   title="A bouncing robot (CSS only)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ### Layered
 
@@ -126,7 +126,7 @@ This technique is super flexible. Think of a cube of sticky memo papers, but ins
   link="https://codepen.io/amit_sheen/pen/KwpLrJe/a41446c5e20cbbdb945beb731d860f63"
   title="Layered Text"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ::: note Accessibility note:
 
@@ -296,7 +296,7 @@ This feels like a good moment to stop and look at what we have so far. We create
   link="https://codepen.io/amit_sheen/pen/ZYbWNre/b4c47914c67953f675f571b70c5440eb"
   title="Layered Text (Demo 1)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If you really try, and focus hard enough, you might see something that kind of looks like 3D. But let’s be honest, it does not look good. To create a real sense of depth, we need to bring in some color, add a bit of shadow, and maybe rotate things a bit for a more dynamic perspective.
 
@@ -326,7 +326,7 @@ Gradually changing the brightness between layers helps create a stronger sense o
   link="https://codepen.io/amit_sheen/pen/wBKGbOK/ef34c856ab93552647749842f1095b6f"
   title="Layered Text (Demo 1-2)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Second, remember that we wrapped the original text in a `span` so we could style it? Now is the time to use it. Since this text sits on the bottom layer, we want to give it a darker color than the rest. Black works well here, and in most cases, although in the next chapter we will look at examples where it actually needs to be `transparent`.
 
@@ -359,7 +359,7 @@ And there you have it, combining all the elements we’ve covered so far: the la
   link="https://codepen.io/amit_sheen/pen/KwpLjrR/50a7e560c572210526af33c95a478351"
   title="Layered Text (Demo 2)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

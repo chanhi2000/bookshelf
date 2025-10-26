@@ -89,7 +89,7 @@ Demo of that:
   slug-hash="LYwMdVq"
   title="Scroller and Changer Siblings"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <!-- TODO: 되는지 확인 -->
 
@@ -102,7 +102,7 @@ My ridiculous head thought of trying to make a quiz game or some kind of unlocki
   slug-hash="eYqPWjK"
   title="Scroll and Count in CSS Only"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 There are a bunch of abused CSS tricks in there:
 

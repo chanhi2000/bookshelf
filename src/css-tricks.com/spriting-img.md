@@ -88,7 +88,7 @@ These sprites can be in any regular image format but it’s also possible to use
   slug-hash="jEGbpa"
   title="Sprites with object-position"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -101,7 +101,7 @@ Using a dab of JavaScript, we can actually use this same concept to create an im
   slug-hash="RNLdNd"
   title="SVG sprite with object-position"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

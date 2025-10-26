@@ -107,7 +107,7 @@ To start, you may know the `border-radius` is a shorthand to each individual cor
   slug-hash="gbpRwZz"
   title="Recipes for Blobs in CSS - border-radius"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 However, what `border-radius` does — and also why it’s called “radius” — is to shape each corner following a circle of the given radius. For example, if we set the top left corner to `25%`, it will follow a circle with a radius `25%` the size of the shape.
 
@@ -122,7 +122,7 @@ However, what `border-radius` does — and also why it’s called “radius” �
   slug-hash="VYLWGve"
   title="Recipes for Blobs in CSS - border-radius Explanation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 What’s less known is that each corner property is still a *shortcut* towards its horizontal and vertical radii. Normally, you set both radii to the same value, getting a circle, but you can set them individually to create an ellipse. For example, the following sets the horizontal radius to `25%` of the element’s width and the vertical to `50%` of its height:
 
@@ -137,7 +137,7 @@ What’s less known is that each corner property is still a *shortcut* towards i
   slug-hash="WbvOYOo"
   title="Recipes for Blobs in CSS - border-radius Individual"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can now shape each corner like an ellipse, and it is the combination of all four ellipses that creates the illusion of a blob! Just take into consideration that to use the horizontal and vertical radii syntax through the `border-radius` property, we’ll need to separate the horizontal from the vertical radii using a forward slash (`/`).
 
@@ -156,7 +156,7 @@ We can now shape each corner like an ellipse, and it is the combination of all f
   slug-hash="dPoWMym"
   title="Recipes for Blobs in CSS - border-radius Blob"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The syntax isn’t too intuitive, so designing a blob from scratch will likely be a headache. Luckily, [<VPIcon icon="fas fa-globe"/>Nils Binder made a tool](https://9elements.github.io/fancy-border-radius/) exactly for that!
 
@@ -173,7 +173,7 @@ Just going off `border-radius`, we can try to minimize it a little by sticking m
   slug-hash="gbpxJKd"
   title="Recipes for Blobs in CSS - Blobbing Blobs Together"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 However, I don’t want to spend too much time on this technique since it is too impractical to be worth it. To name a few drawbacks:
 
@@ -192,7 +192,7 @@ This one is an improvement in the Gooey Effect, [**described here by Lucas Bebbe
   slug-hash="LELBEo"
   title="Gooey Menu"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 It works by first blurring shapes nearby, creating some connected shadows. Then we crank up the contrast, forcing the blur out and smoothly connecting them in the process. Take, for example, this demo by Chris Coyer (It’s from 2014, so more than 10 years ago!):
 
@@ -201,7 +201,7 @@ It works by first blurring shapes nearby, creating some connected shadows. Then 
   slug-hash="poXpNL"
   title="Blur vs Contrast"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If you look at the code, you’ll notice Chris uses the [<VPIcon icon="iconfont icon-css-tricks"/>`filter`](https://css-tricks.com/almanac/properties/f/filter/) property along the `blur()` and `contrast()` functions, which I’ve also seen in other blob demos. To be specific, it applies `blur()` on each individual circle and then `contrast()` on the parent element. So, if we have the following HTML:
 
@@ -234,7 +234,7 @@ However, there is a good reason why those demos stick to white shapes and black 
   slug-hash="yyNomvx"
   title="Recipes for Blobs in CSS - Ugly Blobs"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 To solve this, we will use an SVG filter instead. I don’t want to get too technical on SVG (if you want to, read Luca’s post!). In a nutshell, we can apply blurring and contrast filters using SVGs, but now, we can also pick which color channel we apply the contrast to, unlike normal `contrast()`, which modifies all colors.
 
@@ -267,7 +267,7 @@ And now we can even use it with gradient backgrounds!
   slug-hash="MYwvNZL"
   title="Recipes for Blobs in CSS - Better Blobs"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 That being said, this approach comes with two small, but important, changes to common CSS filters:
 
@@ -281,7 +281,7 @@ What’s left is to place the `.subblob` elements together such that they make a
   slug-hash="bNdrXZv"
   title="Recipes for Blobs in CSS - Better Blobs"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ### Making it one element
 
@@ -307,7 +307,7 @@ body {
   slug-hash="PwqJYZQ"
   title="Recipes for Blobs in CSS - Circle created using radial-gradient"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Here is what each parameter does:
 
@@ -329,7 +329,7 @@ body {
   slug-hash="PwqJYzR"
   title="Recipes for Blobs in CSS - Circle created using radial-gradient and moved around"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The first pair of percentages sets the shape’s horizontal and vertical position (taking as a reference the top-left corner), while the second pair sets the shape’s width and height (taking as a reference the element’s size).
 
@@ -352,7 +352,7 @@ What’s even better is that SVG filters don’t care whether shapes are made of
   slug-hash="vEOJqLQ"
   title="Recipes for Blobs in CSS - background and SVG filters"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 While this method may be a little too much for blobs, it unlocks squishing, stretching, dividing, and merging blobs [in seamless animations](/css-tricks.com/gooey-effect.md#making-things-stick).
 
@@ -412,7 +412,7 @@ As you might have guessed, it returns our beautiful blob:
   slug-hash="MYwEjoX"
   title="Recipes for Blobs in CSS - shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Let’s check if it passes our requirements:
 

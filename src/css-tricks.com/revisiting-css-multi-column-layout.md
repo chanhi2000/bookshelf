@@ -118,7 +118,7 @@ Let’s run through a refresher. There are two ways to flow content into multipl
   slug-hash="zxOaogR"
   title="Multi-column Layout example 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Second, and often best, is specifying the column width, leaving a browser to decide how many columns will fit along the inline axis. For example, I’m using [`column-width` (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-width/) to specify that my columns are over `18rem`. A browser creates as many `18rem` columns as possible to fit and then shares any remaining space between them.
 
@@ -127,7 +127,7 @@ Second, and often best, is specifying the column width, leaving a browser to dec
   slug-hash="PwYaWqw"
   title="Multi-column Layout example 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Then, there is the gutter (or [`column-gap` (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-gap/)) between columns, which you can specify using any length unit. I prefer using rem units to maintain the gutters’ relationship to the text size, but if your gutters need to be `1em`, you can leave this out, as that’s a browser’s default gap.
 
@@ -136,7 +136,7 @@ Then, there is the gutter (or [`column-gap` (<VPIcon icon="iconfont icon-css-tri
   slug-hash="EaYRZjL"
   title="Multi-column Layout example 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The final column property is that divider (or [`column-rule` (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/column-rule/)) to the gutters, which adds visual separation between columns. Again, you can set a thickness and use `border-style` values like `dashed`, `dotted`, and `solid`.
 
@@ -145,7 +145,7 @@ The final column property is that divider (or [`column-rule` (<VPIcon icon="icon
   slug-hash="wBwXgKM"
   title="Multi-column Layout example 4"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 These examples will be seen whenever you encounter a Multi-Column Layout tutorial, [including CSS-Tricks’ own Almanac (<VPIcon icon="iconfont icon-css-tricks"/>`almanac`)](https://css-tricks.com/almanac/properties/c/columns/). The Multi-Column Layout syntax is one of the simplest in the suite of CSS layout tools, which is another reason why there are few reasons not to use it.
 
@@ -252,7 +252,7 @@ Open the final result in a desktop browser, when you’re in front of one. It’
   slug-hash="PwYaWWP"
   title="Multi-column Layout example 5"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -295,7 +295,7 @@ Open this final example in a desktop browser:
   slug-hash="azoKJRN"
   title="Multi-column Layout example 6"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

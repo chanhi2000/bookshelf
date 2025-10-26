@@ -57,7 +57,7 @@ I think a demo is worth thousands of words, so check out this Codepen:
   slug-hash="ExqvRXO"
   title="Filling CSS loaders"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In the above Pen, I’m showing you four different CSS filler-style loaders - but we can make even more. You can check out [<VPIcon icon="fas fa-globe"/>this collection](https://css-loaders.com/filling/) I created to see more than 20 different loaders.
 
@@ -164,7 +164,7 @@ That’s basically the main trick. By animating the background properties, we cr
   slug-hash="bGXogOx"
   title="Filling CSS loaders"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Can you figure out how they work before checking my code? This will be your first homework!
 

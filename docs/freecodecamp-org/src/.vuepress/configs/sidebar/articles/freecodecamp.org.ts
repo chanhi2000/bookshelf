@@ -1440,7 +1440,7 @@ const REACT_HANDBOOK_FOR_BEGINNERS_LEARN_JSX_HOOKS_RENDERING: SidebarInfoSubgrou
 const HOW_TO_IMPLEMENT_MULTI_THREADING_IN_NODEJS_WITH_WORKER_THREADS_FULL_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-10-25
   text: "How to Implement Multi-Threading in Node.js With Worker Threads [Full Handbook]",
   collapsible: true,
-  icon: 'iconfont icon-expressjs',
+  icon: ' iconfont icon-expressjs',
   subPath:'how-to-implement-multi-threading-in-nodejs-with-worker-threads-full-handbook',
   children: [
     'README',
@@ -1453,6 +1453,24 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "learn-cybersecurity-from-harvard-university", // 2025-10-31
+    "clawing-out-of-underperformance", // 2025-10-31
+    "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
+    "mobile-app-development-with-dart-and-flutter", // 2025-10-30
+    "how-to-use-streams-in-flutter", // 2025-10-30
+    "how-to-parse-json-in-python-with-examples", // 2025-10-30
+    "mcp-vs-apis-whats-the-real-difference", // 2025-10-30
+    "build-a-website-screenshot-generator-with-python-and-flask", // 2025-10-30
+    "serverless-and-microservices-with-c-and-azure", // 2025-10-30
+    "prepare-for-the-kubernetes-administrator-certification-and-pass", // 2025-10-29
+    "how-to-manage-assets-in-flutter-using-fluttergen", // 2025-10-29
+    "how-to-build-responsive-uis-in-flutter", // 2025-10-29
+    "how-to-build-a-chrome-extension-using-javascript-and-manifest-v3", // 2025-10-29
+    "how-to-build-your-first-dynamic-performance-test-in-apache-jmeter", // 2025-10-29
+    "how-to-build-a-crud-app-with-tanstack-start-and-tanstackdb-with-rxdb-integration", // 2025-10-28
+    "how-to-build-secure-ios-apps-in-swift-common-security-pitfalls-and-how-to-fix-them", // 2025-10-28
+    "how-to-use-closures-in-go", // 2025-10-28
+    "how-to-set-up-a-registry-in-shadcn", // 2025-10-27
     "how-to-work-with-toml-files-in-python", // 2025-10-25
     "how-the-model-context-protocol-works", // 2025-10-25
     "how-to-use-the-model-context-protocol-mcp-with-flutter-and-dart", // 2025-10-25
@@ -2888,8 +2906,10 @@ export const template: SidebarInfoTemplate = {
       "how-to-implement-zero-trust-authentication-in-your-web-apps", // 2025-08-07
       "choose-the-right-language-js-vs-c-sharp", // 2025-08-07
       "how-to-build-a-tic-tac-toe-game-with-phaserjs", // 2025-08-21
+      "how-to-build-an-advice-generator-chrome-extension-with-manifest-v3", // 2025-08-26
       "optimize-search-in-javascript-with-debouncing", // 2025-09-24
       "how-to-securely-deploy-apis-to-amazon-lambda-a-practical-guide", // 2025-10-10
+      "how-to-build-a-chrome-extension-using-javascript-and-manifest-v3", // 2025-10-29
       // END: 2025js
       // END: js
     ]],[
@@ -3147,8 +3167,14 @@ export const template: SidebarInfoTemplate = {
       "how-to-optimize-a-graphical-react-codebase", // 2025-10-16
       "how-to-build-a-full-stack-serverless-app", // 2025-10-22
       REACT_HANDBOOK_FOR_BEGINNERS_LEARN_JSX_HOOKS_RENDERING, // 2025-10-23
+      "how-to-build-a-crud-app-with-tanstack-start-and-tanstackdb-with-rxdb-integration", // 2025-10-28
       // END: 2025js-react
       // END: js-react
+    ]],[
+    "js-shadcn", [
+      "how-to-set-up-a-registry-in-shadcn", // 2025-10-27
+      // END: 2025js-shadcn
+      // END: js-shadcn
     ]],[
     "js-vue", [
       "build-a-vue-ecommerce-app-using-msw", // 2024-07-08
@@ -3533,6 +3559,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-parse-ini-config-files-in-python-with-configparser", // 2025-10-18
       "how-to-turn-websites-into-llm-ready-data-using-firecrawl", // 2025-10-23
       "how-to-work-with-toml-files-in-python", // 2025-10-25
+      "mcp-vs-apis-whats-the-real-difference", // 2025-10-30
+      "how-to-parse-json-in-python-with-examples", // 2025-10-30
+      "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
       // END: 2025py
       // END: py
     ]],[
@@ -3574,6 +3603,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_A_MACHINE_LEARNING_SYSTEM_ON_SERVERLESS_ARCHITECTURE, // 2025-08-27
       "how-to-build-an-ai-study-planner-agent-using-gemini-in-python", // 2025-09-06
       "how-to-persist-state-in-time-series-models-with-docker-and-redis", // 2025-10-09
+      "build-a-website-screenshot-generator-with-python-and-flask", // 2025-10-30
       // END: 2025py-flask
       // END: py-flask
     ]],[
@@ -3723,6 +3753,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-freezed-in-flutter", // 2025-10-06
       HOW_TO_BUILD_SCALABLE_AND_PERFORMANT_FLUTTER_APPLICATIONS_A_HANDBOOK_FOR_DEVS, // 2025-10-23
       "how-to-use-the-model-context-protocol-mcp-with-flutter-and-dart", // 2025-10-25
+      "how-to-build-responsive-uis-in-flutter", // 2025-10-29
+      "how-to-manage-assets-in-flutter-using-fluttergen", // 2025-10-29
+      "how-to-use-streams-in-flutter", // 2025-10-30
       // END: 2025dart
       // END: dart
     ]],[
@@ -3780,6 +3813,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-full-stack-movie-streaming-app-with-go-react-mongodb-openai", // 2025-10-02
       "learn-how-to-use-pointers-in-go-with-example-code", // 2025-10-07
       "how-to-cache-golang-api-responses", // 2025-10-15
+      "how-to-use-closures-in-go", // 2025-10-28
       // END: 2025go
       // END: go
     ]],[
@@ -3826,6 +3860,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-loops-in-c", // 2025-09-17
       "master-authentication-and-authorization-in-aspnet", // 2025-09-19
       "improve-developer-experience-with-net-aspire", // 2025-10-24
+      "serverless-and-microservices-with-c-and-azure", // 2025-10-30
       // END: 2025cs
       // END: cs
     ]],[
@@ -4232,6 +4267,7 @@ export const template: SidebarInfoTemplate = {
       KUBERNETES_NETWORKING_TUTORIAL_FOR_DEVELOPERS, // 2025-06-24
       "how-to-deploy-a-kubernetes-app-on-aws-eks", // 2025-08-22
       HOW_TO_CREATE_KUBERNETES_CLUSTER_AND_SECURITY_GROUPS_FOR_PODS_IN_AWS_HANDBOOK, // 2025-10-16
+      "prepare-for-the-kubernetes-administrator-certification-and-pass", // 2025-10-29
       // END: 2025k8s
       // END: k8s
     ]],[
@@ -4318,6 +4354,7 @@ export const template: SidebarInfoTemplate = {
       "host-llms-locally-in-docker-on-azure", // 2025-03-27
       "deploy-a-restful-web-service-on-microsoft-azure-app-service", // 2025-03-29
       LOAD_BALANCING_WITH_AZURE_APPLICATION_GATEWAY_AND_AZURE_LOAD_BALANCER, // 2025-05-15
+      "serverless-and-microservices-with-c-and-azure", // 2025-10-30
       // END: 2025azure
       // END: azure
     ]],[
@@ -4363,6 +4400,7 @@ export const template: SidebarInfoTemplate = {
       "build-and-deploy-an-image-hosting-service-on-sevalla", // 2025-09-26
       "how-to-containerize-and-deploy-your-nodejs-applications", // 2025-10-10
       "how-to-turn-websites-into-llm-ready-data-using-firecrawl", // 2025-10-23
+      "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
       // END: 2025sevalla
       // END: sevalla
     ]],[
@@ -4525,6 +4563,7 @@ export const template: SidebarInfoTemplate = {
       "learn-devsecops-and-api-security", // 2025-08-12
       "how-to-fix-cross-origin-errors", // 2025-10-01
       "how-to-use-strix-the-open-source-ai-agent-for-security-testing", // 2025-10-14
+      "learn-cybersecurity-from-harvard-university", // 2025-10-31
       // END: 2025security
       // END: security
     ]],[
@@ -4545,6 +4584,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2024selenium
       // END: 2025selenium
       // END: selenium
+    ]],[
+    "jmeter", [
+      "how-to-build-your-first-dynamic-performance-test-in-apache-jmeter", // 2025-10-29
+      // END: 2025jmeter
+      // END: jmeter
     ]],[
     "vim", [
       COMMAND_LINE_FOR_BEGINNERS, // 2022-04-06
@@ -4781,6 +4825,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "chrome", [
       "how-to-build-an-advice-generator-chrome-extension-with-manifest-v3", // 2025-08-26
+      "how-to-build-a-chrome-extension-using-javascript-and-manifest-v3", // 2025-10-29
       // END: 2025chrome
       // END: chrome
     ]],[
@@ -5045,6 +5090,9 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_A_TO_DO_LIST_MCP_SERVER_USING_TYPESCRIPT, // 2025-10-23
       "how-to-use-the-model-context-protocol-mcp-with-flutter-and-dart", // 2025-10-25
       "how-the-model-context-protocol-works", // 2025-10-25
+      "mcp-vs-apis-whats-the-real-difference", // 2025-10-30
+      "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
+      // END: 2025mcp
       // END: mcp
     ]],[
     "firecrawl", [
@@ -5141,6 +5189,7 @@ export const template: SidebarInfoTemplate = {
       "algorithm-analysis-deep-dive", // 2025-08-01
       "how-to-choose-the-best-programming-languages-libraries-and-patterns", // 2025-08-11
       "master-technical-interviews-by-learning-data-structures-and-algorithms", // 2025-10-22
+      "clawing-out-of-underperformance", // 2025-10-31
       // END: 2025coen
       // END: coen
     ]],[

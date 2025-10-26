@@ -93,7 +93,7 @@ Here is a demo showing both cases. Resize the screen to notice the difference:
   slug-hash="mdNRvEB"
   title="pixel vs percentage radius"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 So what about the other variation? We just have to change “top” with “bottom”, right?
 
@@ -108,7 +108,7 @@ You can also get a more custom shape if you adjust the center of the ellipse usi
   slug-hash="vYogbZe"
   title="custom rounded edge"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 A lot of possibilities with only one line of code!
 
@@ -183,7 +183,7 @@ See it in play:
   slug-hash="VwoPOwm"
   title="Combining the shapes"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 And the opposite effect by changing `bottom` with `top`:
 
@@ -201,7 +201,7 @@ And the opposite effect by changing `bottom` with `top`:
   slug-hash="ZEgLNEZ"
   title="Combining the shapes"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 You will notice that I am either using `top` everywhere or `bottom` everywhere which makes both pieces of code easy to remember.
 
@@ -238,7 +238,7 @@ The shape is now perfect and both curves are aligned.
   slug-hash="GRVWKZM"
   title="Fixing the alignment"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If you don’t like to use magic numbers like the “-78%”, we can consider some math to get accurate results:
 

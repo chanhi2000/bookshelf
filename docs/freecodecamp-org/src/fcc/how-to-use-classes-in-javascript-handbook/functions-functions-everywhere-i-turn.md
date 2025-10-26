@@ -79,7 +79,7 @@ console.log(getBirthYear(25)); // Yep, it logs 2000!
   slug-hash="gbOYvvo"
   title="Birth Year Program Simple version"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Now, let's make it a bit more complex. What if we want to be a little smarter and make sure the age is actually a valid age? You know, not some crazy string or a negative number. Sticking with our function-loving brains, what's the natural next step? Another function, of course. We'd probably create a `validateAge` function:
 
@@ -102,7 +102,7 @@ console.log(validateAge(-5)); //  Output: Invalid age (negative)
   slug-hash="xbxKYjZ"
   title="Birth Year Program with Age Validation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 See how we're just piling up functions? `getBirthYear` does one thing, `validateAge` does another. They're separate little boxes of code.
 
@@ -134,7 +134,7 @@ function getZodiacSign(birthYear) {
   slug-hash="RNwbQxg"
   title="Birth Year Program"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Are you noticing the pattern here? For every new thing we want to do we're just adding more *and* more separate functions*.* Things are starting to feel a *bit...* scattered, right? And we're not even done adding features.
 

@@ -169,7 +169,7 @@ For example, here’s [a Pen (<VPIcon icon="fa-brands fa-codepen"/>`ZachSaucier`
   slug-hash="JjxeEyG"
   title="Container queries and units - Aspect ratio example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 When using `aspect-ratio`, remember that it’s width divided by the height, so `aspect-ratio < 1/1` would be when the width is larger than the height (this example is equivalent to `orientation: landscape`). You can also use `min-aspect-ratio` or `max-aspect-ratio` instead of plain `aspect-ratio` and a comparison symbol.
 
@@ -219,7 +219,7 @@ Perhaps the most common use case for container queries is to change the layout o
   slug-hash="MWLzJGM"
   title="Container queries and units - Card example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Accessibility note: It’s best to [<VPIcon icon="fas fa-globe"/>keep the logical order](https://devyarns.com/logical-focus-order/) of elements in the markup.
 
@@ -230,7 +230,7 @@ Taken to an extreme, you can make HTML and CSS components function kinda like an
   slug-hash="QWxameQ"
   title="Container Queries - Card Grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ### Adding non-vital detail when there’s more space available
 
@@ -243,7 +243,7 @@ A great example of this is Chris Coyier’s calendar layout demo, where the vita
   slug-hash="jOeBzNN"
   title="Container Query Calendar"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 (You may want to open [this one full screen (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/full/jOeBzNN) to have play.)
 
@@ -258,7 +258,7 @@ Check out this demo by Chris Coyier where you can drag to divvy up width between
   slug-hash="GREQGQY"
   title="resizeasaurus with container units"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Stephanie Eckles wrote a more in-depth article about [<VPIcon icon="fas fa-globe"/>using container query units for typography](https://moderncss.dev/container-query-units-and-fluid-typography/) that I highly recommend!
 
@@ -295,7 +295,7 @@ This demo by SitePoint shows responsive layout paired with container queries to 
   slug-hash="mdzJJaX"
   title="Container Queries for Cards"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

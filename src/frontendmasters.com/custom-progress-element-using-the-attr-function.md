@@ -57,7 +57,7 @@ In[**a previous article**](/frontendmasters.com/custom-progress-element-using-an
   slug-hash="JjQVYgJ"
   title="Progress element with tooltip II (Chrome only)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Anchor positioning was used to correctly place the tooltip shape while scroll-driven animations were used to get the progress value and show it inside the tooltip. Getting the value was the trickiest part of the experimentation. I invite you to read the previous article if you want to understand how scroll-driven animations helps us do it.
 
@@ -121,7 +121,7 @@ We also have the ability to define the types (`number`, in our case) and specify
   slug-hash="wBvRYbZ/525971de0ec4c06a27f76678c2cdee1d"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If we omit the tooltip and animation parts (explained in[**the previous article**](/frontendmasters.com/custom-progress-element-using-anchor-positioning-scroll-driven-animations.md)), the new code to get the value and use it to define the content of the tooltip and the color is **a lot easier**:
 
@@ -154,7 +154,7 @@ I won’t get into the detail (as to not repeat the previous article) but it has
   slug-hash="GgRPwwK/4ea1a6a9699fef4b341f6735c08a37a8"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The animation is defined on the`html`element (the uppermost element) which means all the elements will have access to the`--x`variable.
 
@@ -173,7 +173,7 @@ A demo worth a thousand words:
   slug-hash="OPJwbVJ"
   title="Progress bar with dynamic coloration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 As you can see, we have 3 different colors (red, orange and green) each one applied when the value is within a specific range. We have a kind of conditional logic that we can implement using various techniques.
 
@@ -217,7 +217,7 @@ Then be able to select the needed color using an index. Here is a demo taken fro
   slug-hash="KKrNYyp"
   title="Colors array using only CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This technique is limited to background coloration but it’s enough for our case.
 
@@ -233,7 +233,7 @@ I think you get the idea and here is a demo with four colors:
   slug-hash="LEYJGoQ"
   title="Progress bar with dynamic coloration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The main trick here is to convert the progress value into an index and to do this we can rely on the`round()`function:
 
@@ -306,7 +306,7 @@ The code is self-explanatory and also more intuitive. It’s still too early to 
   slug-hash="MYWLXdW"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ### Using Style Queries
 
@@ -338,7 +338,7 @@ progress[value]::-webkit-progress-value {
   slug-hash="ZYEwjXp"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We will also be able to have[a range syntax (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/8376)and the code can be simplified to something like the below:
 

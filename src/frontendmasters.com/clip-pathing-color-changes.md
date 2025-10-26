@@ -76,7 +76,7 @@ In Emil’s post, it’s done with React. That’s totally fine, but I figured I
   slug-hash="ZEdOmYO"
   title="Nav Bar Clip Path Color Change"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Here’s how this works:
 

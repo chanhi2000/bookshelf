@@ -65,7 +65,7 @@ I figured I’d toss together a Web Component that would actually display the co
   slug-hash="ZYzdgNN"
   title="Color Input"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 That basically does what I was picturing. This keeps it all Light DOM so it would be quite easy to style and customize. Since could be used inside a `<form>`, you might need to fiddle with [<VPIcon icon="fa-brands fa-firefox"/>`ElementInternals`](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals#examples) so that the input can participate in the form as expected. Since there are now *two* inputs that essentially have the same value, it’s likely you’ll only want one to submit as form data.
 
@@ -78,7 +78,7 @@ Erick Merchant had a clever idea where the color from the text input is coerced 
   slug-hash="JoPgGQY"
   title="Color Input"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Pretty clever if you ask me! It won’t handle transparency, so that’s something to consider for sure, but otherwise seems to do a pretty good job. I’d be tempted to take the color inputs value in a form generally, as it has automatic validation to ensure it’s a valid color. But in the case of this second demo, I’d be tempted to take the text input value instead since it honors the original intention of the color, albeit very hard to validate.
 

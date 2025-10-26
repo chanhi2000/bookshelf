@@ -208,9 +208,17 @@ function generateLayers(element) {
 
 And that is it. Our 3D text is ready, and all the layers are now built entirely through JavaScript. Try playing around with it. Change the text inside the `layeredText` element. Add your name, your project name, your brand. Let me know how it looks.
 
-CodePen Embed Fallback
+<CodePen
+  link="https://codepen.io/amit_sheen/pen/LEpZYaE/a254b6434a58b58ffbbffbbb530dccf8"
+  title="Layered Text (Demo 21)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
-**Quick note:** I also removed the `--layers-count` variable from the CSS, since it is now set dynamically with JavaScript. While I was at it, I moved the font settings out of the `.layeredText` element, since they should be applied globally or to a more appropriate wrapper. Just a bit of housekeeping to keep things clean.
+::: note Quick note
+
+I also removed the `--layers-count` variable from the CSS, since it is now set dynamically with JavaScript. While I was at it, I moved the font settings out of the `.layeredText` element, since they should be applied globally or to a more appropriate wrapper. Just a bit of housekeeping to keep things clean.
+
+:::
 
 ---
 
@@ -218,7 +226,13 @@ CodePen Embed Fallback
 
 Since we already added a way to set the number of layers dynamically, let us take advantage of it.
 
-Here is an example with three different `div` elements, each using a different number of layers. The first one (A) has 8 layers, the second (B) has 16, and the third (C) has 24. CodePen Embed Fallback
+Here is an example with three different `div` elements, each using a different number of layers. The first one (A) has 8 layers, the second (B) has 16, and the third (C) has 24. 
+
+<CodePen
+  link="https://codepen.io/amit_sheen/pen/yyYJJKK/be7a06bcfe9d12b1e36c7ee416e72738"
+  title="Layered Text (Demo 22-1)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 You can clearly see the difference in height between the letters, since the total height depends on the number of layers. When it comes to color though, we used the normalized value (remember that?), so the gradient looks consistent regardless of height or layer count.
 
@@ -237,7 +251,11 @@ We can just as easily normalize the total height of the layers. All we need to d
 }
 ```
 
-CodePen Embed Fallback
+<CodePen
+  link="https://codepen.io/amit_sheen/pen/dPYXXqP/32d78181d92ee889f97f63492c82197a"
+  title="Layered Text (Demo 22-2)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -301,7 +319,11 @@ Now we need to define the base appearance, the styles that apply when there is n
 
 Also, I added `display: inline-block;` to the `.layeredText` element. This helps prevent unwanted line breaks and allows us to apply transforms to the element, if needed. The result is a hover effect that literally makes each word pop right off the page:
 
-CodePen Embed Fallback
+<CodePen
+  link="https://codepen.io/amit_sheen/pen/LEpZNJB/57e9164865a7feab9acdc9fe299952f0"
+  title="Layered Text (Demo 23)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Of course, if you are using this as a hover effect but you also have some elements that should always appear with full depth, you can easily define that in your CSS.
 
@@ -317,7 +339,11 @@ For example, let us say we have both a heading and a link with the `.layeredText
 
 This way, links will only show the effect on hover, while the heading stays bold and dimensional all the time.
 
-CodePen Embed Fallback
+<CodePen
+  link="https://codepen.io/amit_sheen/pen/zxvBBdm/fe99e8f8bcebdebcb1b26fe5c57e6082"
+  title="Layered Text (Demo 24)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -395,7 +421,11 @@ But instead of placing the center of the circle in the middle of the element, we
 
 The result is text with depth and a small red dot that follows the movement of your mouse.
 
-CodePen Embed Fallback
+<CodePen
+  link="https://codepen.io/amit_sheen/pen/GgpqjOO/62a43277fbfe3ba79bf0be56968cfca9"
+  title="Layered Text (Demo 25)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Okay, a small red dot is not exactly mind blowing. But remember, you are not limited to that. Once you have the mouse position, you can use it to drive all sorts of dynamic effects. In just a bit, we will start building the bulging effect that kicked off this entire series, but in other cases, depending on your needs, you might want to normalize the mouse values first.
 
@@ -412,7 +442,11 @@ document.body.style.setProperty('--ny', e.pageY / document.body.clientHeight);
 
 Normalizing the mouse values lets us work with relative positioning that is independent of screen size. This is perfect for things like adding a responsive tilt to the text based on the mouse position.
 
-CodePen Embed Fallback
+<CodePen
+  link="https://codepen.io/amit_sheen/pen/JoYKKxg/4a388d81789a373f2de431736d3046ee"
+  title="Layered Text (Demo 26)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -438,7 +472,11 @@ Now we are finally ready to build the last example. The idea is very similar to 
 
 Now we get something similar to the red dot we saw earlier, but this time the effect spreads across all the layers.
 
-CodePen Embed Fallback
+<CodePen
+  link="https://codepen.io/amit_sheen/pen/QwjEGLX/1dc3b4f6bf1b379517a69f12702cb179"
+  title="Layered Text (Demo 27)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -491,7 +529,11 @@ background-image:
 
 And just like that, we get an interactive effect that follows the mouse and gives the impression of bulging 3D text:
 
-CodePen Embed Fallback
+<CodePen
+  link="https://codepen.io/amit_sheen/pen/VYvjmPx/a9d0192c9797c381bd6407a83bbc2a4b"
+  title="Layered Text (Demo 28)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

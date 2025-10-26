@@ -65,7 +65,7 @@ Roman’s trick is as close to that as can be. Check out [**his post**](/fronten
   slug-hash="ExqLrqg"
   title="Fit Text with Scroll Driven Aniamtions"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The absolute core of the idea is:
 
@@ -101,7 +101,7 @@ Like Roman’s original demo, it works great on multiple lines, actually showing
   slug-hash="bGXexKz"
   title="My Yard Sign"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 That demo has `contenteditable` on it so you can mess with the letters and see it work.
 

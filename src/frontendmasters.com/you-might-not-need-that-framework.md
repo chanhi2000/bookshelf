@@ -158,7 +158,7 @@ You can see a quick example on CodePen:
   slug-hash="KKOKyoa"
   title="Web Components Basic Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -173,7 +173,7 @@ Here’s a basic example using a Proxy, which lets you intercept and modify oper
   slug-hash="LYwYKWm"
   title="Reactivity Basic Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 :::
 
@@ -216,7 +216,7 @@ You can then use DOM APIs to dynamically update your UI based on route changes.
   slug-hash="PoMorOM"
   title="Client-side Routing Basic Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 A new API, the [<VPIcon icon="fa-brands fa-firefox"/>Navigation API](https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API), is also coming to make client-side routing even easier. It’s currently available in Chromium. When you have bigger needs, you can mix it with regular expressions, or use a micro-library that will help you only with this specific challenge.
 

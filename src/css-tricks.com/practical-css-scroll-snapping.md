@@ -152,7 +152,7 @@ The `mandatory` value means the browser *has* to snap to a snap point whenever t
   slug-hash="ZjrOpx"
   title="Scroll-snap-type “Mandatory” vs “Proximity”"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In my own work, I’ve found that `mandatory` makes for a more consistent user experience, but it can also be dangerous, as [the spec points out](https://w3.org/TR/css-scroll-snap-1/#valdef-scroll-snap-type-mandatory). Picture a scenario where an element inside a scrolling container is taller than the viewport:
 
@@ -215,7 +215,7 @@ Then, we define the snap points. Here, we’re specifying that the **top** of ea
   slug-hash="JBjROd"
   title="Vertical List"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -243,7 +243,7 @@ Then, we tell the container which points to snap to. To center the gallery, we d
   slug-hash="Yjzpzr"
   title="Horizontal, different sized images"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -275,7 +275,7 @@ section {
   slug-hash="tricks/pen/yLLqqgP"
   title="Vertical Full-Screen"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -300,7 +300,7 @@ section {
   slug-hash="pMRgwW"
   title="Horizontal Full-Screen"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -327,7 +327,7 @@ Then, we define the top-left corner of each tile as a snap point:
   slug-hash="MBWJKm"
   title="2d Snapping"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

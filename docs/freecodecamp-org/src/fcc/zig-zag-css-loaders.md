@@ -57,7 +57,7 @@ Here is an overview of what you’ll be building:
   slug-hash="RwXdvKj"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 You can also check [<VPIcon icon="fas fa-globe"/>my online collection](https://css-loaders.com/zig-zag/) to see up to 20 variations using a zig-zag shape.
 
@@ -169,7 +169,7 @@ $$
   slug-hash="poMBgQO"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We have our first loader! Actually, two loaders because we can easily change the direction of the movement by adding `animation-direction: reverse`.
 
@@ -199,7 +199,7 @@ By animating that right value from `100%` to `0` we create a reveal animation. A
   slug-hash="WNVWrVy"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If you inspect the code of the second animation, you will see that I did the same thing but with the left side.
 
@@ -223,7 +223,7 @@ The right value animates from `60%` to `0` and the left one from `0` to `60%`, s
   slug-hash="wvVZGwy"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 By trying different combinations of `inset()` values, you can get a lot of CSS loaders. Give it a try! You can also check [<VPIcon icon="fas fa-globe"/>my online collection](https://css-loaders.com/zig-zag/) and try to identify the variations that use `clip-path: inset()`.
 
@@ -238,7 +238,7 @@ To achieve a discrete animation, you can use the `steps()` timing function inste
   slug-hash="YzmbzGL"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can do the same with almost all the variations. Let’s try with the ones that use `clip-path: inset()`.
 
@@ -260,7 +260,7 @@ We have five repetitions so let’s see what we’ll get with `steps(5)`.
   slug-hash="JjgqjNr"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 At the moment, it’s not good because we don’t see all the repetition. The animation stops at 4 repetitions, but we need to see the whole element (5 repetitions). The count starts from 0 so what we really need is 6 steps instead of 5 to show all the repetitions.
 
@@ -280,7 +280,7 @@ At the moment, it’s not good because we don’t see all the repetition. The an
   slug-hash="RwXmKje"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Even with 6 steps, the result is still not good but don’t worry, it’s not a bug. The default behavior of `steps()` gives us that output but we can update it to get the expected output:
 
@@ -302,7 +302,7 @@ If you’re not familiar with `jump-none`, it’s a value that can fix most of y
   slug-hash="JjgqEpO"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Our animation looks perfect now! We can also make it an 11-step animation (`5×2 + 1`) and get another cool loader.
 
@@ -311,7 +311,7 @@ Our animation looks perfect now! We can also make it an 11-step animation (`5×2
   slug-hash="vYowgRV"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Even the sliding effect can have its discrete variation.
 
@@ -320,7 +320,7 @@ Even the sliding effect can have its discrete variation.
   slug-hash="bGXyZpO"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Can you figure out why I am using 4 and 7 steps? I’ll let you do the calculation as a small exercise.
 

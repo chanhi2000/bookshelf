@@ -113,7 +113,7 @@ Since we rotate on the z-axis and then reverse that rotation, the text keeps its
   link="htps://codepen.io/amit_sheen/VYLoLar/56c8a39dfb7030b9b270745d636b8071"
   title="Layered Text (Demo 3)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If we want to take this a few steps further, we can combine the wobble with a **floating** effect. We will animate the `.layers` slightly along the z-axis:
 
@@ -148,7 +148,7 @@ Syncing those two animations together gives the whole thing a more realistic fee
   link="htps://codepen.io/amit_sheen/raOeBJp/f60143e5e33d2cfa880ff7e0922da049"
   title="Layered Text (Demo 4)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -164,7 +164,7 @@ In the next example, for instance, I reduced the layer count to sixteen. There a
   slug-hash="Angles"
   title=""
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>Until now, we have only been moving the text along the z-axis, but we can definitely take it further. Each layer can be moved or rotated in any direction you like, and if we base those transformations on the `--n` variable, we can create all sorts of interesting effects. Here are a few I played with, just to give you some ideas.
+  :theme="$isDarkMode ? 'dark': 'light'"/>Until now, we have only been moving the text along the z-axis, but we can definitely take it further. Each layer can be moved or rotated in any direction you like, and if we base those transformations on the `--n` variable, we can create all sorts of interesting effects. Here are a few I played with, just to give you some ideas.
 
 In the first one, I am animating the `translateX` to create a **shifting** effect:
 
@@ -172,7 +172,7 @@ In the first one, I am animating the `translateX` to create a **shifting** effec
   link="htps://codepen.io/amit_sheen/wBKMdjW/e7c45a8f32b6458a85034e3c0a340812"
   title="Layered Text (Demo 5)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In the others, I am adding a bit of rotation. The first one is applied to the y-axis for the **sloping** effect:
 
@@ -180,7 +180,7 @@ In the others, I am adding a bit of rotation. The first one is applied to the y-
   link="htps://codepen.io/amit_sheen/bNVpGMa/1d260c5be84033b728d18bcf3b937402"
   title="Layered Text (Demo 6-2)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This next example applies rotation on the x-axis for the **tilting**:
 
@@ -188,7 +188,7 @@ This next example applies rotation on the x-axis for the **tilting**:
   link="htps://codepen.io/amit_sheen/azvNbRo/025b2aeee88554c5432bbeeb31daf939"
   title="Layered Text (Demo 6-3)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 And, finally, we can apply it on the z-axis for a **rotating** example:
 
@@ -196,7 +196,7 @@ And, finally, we can apply it on the z-axis for a **rotating** example:
   link="htps://codepen.io/amit_sheen/qEOZBJd/14051d996d62a18869974df58d70cad0"
   title="Layered Text (Demo 6-4)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -208,7 +208,7 @@ Working with separate layers does not just let us tweak the animation for each o
   link="htps://codepen.io/amit_sheen/qEOZEYj/3440dbe6c772792d9da7edda6e356ca8"
   title="Layered Text (Demo 7)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Right now, the animation is applied to the `.layeredText` element itself, and I am simply changing its scale:
 
@@ -241,7 +241,7 @@ Here I am using the [<VPIcon icon="iconfont icon-css-tricks"/>`:is`](https://css
   link="htps://codepen.io/amit_sheen/ogjxgMo/4154f7659c6bfe2ccac29fe75e5ad939"
   title="Layered Text (Demo 8)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -255,7 +255,7 @@ It can be anything from simple outlines to more playful shapes. Like **arrows**,
   link="htps://codepen.io/amit_sheen/VYveMmg/0f02404ccc551fd90270ae6915ab6e5f"
   title="Layered Text (Demo 9)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Notice that I am using the `:is` selector to include the `span` here, too, but sometimes we will not want to target all the layers — only a specific portion of them. In that case, we can use `:nth-child` to select just part of the stack. For example, if I want to target only the bottom twelve layers (out of twenty four total), the decoration only covers half the height of the text. I can do something like `:nth-child(-n + 12)` , and the full selector would be:
 
@@ -271,7 +271,7 @@ This is especially useful when the decoration overlaps with the text, and you do
   link="htps://codepen.io/amit_sheen/OPyNVvP/45741e6a4e668e2d96d8e74ee6a48068"
   title="Layered Text (Demo 10)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Of course, you can animate these pseudo elements too. So how about a 3D “**Loading**” text with a built-in spinner?
 
@@ -279,7 +279,7 @@ Of course, you can animate these pseudo elements too. So how about a 3D “**Loa
   link="htps://codepen.io/amit_sheen/EaVPQpe/9791bd762440035ae602783a54f1143d"
   title="Layered Text (Demo 11)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 I made a few changes to pull this off. First, I selected twelve layers from the middle of the stack using a slightly more advanced selector: `.layer:nth-child(n + 6):nth-child(-n + 18)`. This targets the layers from number six to eighteen.
 
@@ -323,7 +323,7 @@ Here is a small demo using striped **lines** with `repeating-linear-gradient`, a
   link="htps://codepen.io/amit_sheen/XJmddwY/cdd0ccb903ccef1fe86bed2a674436a7"
   title="Layered Text (Demo12)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 And, yes, you can absolutely use an **image** too:
 
@@ -331,7 +331,7 @@ And, yes, you can absolutely use an **image** too:
   link="htps://codepen.io/amit_sheen/pvjybba/fb4ee6af8d472b94be4123118ac64a89"
   title="Layered Text (Demo12-2)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -379,7 +379,7 @@ As you can see, I have already added the [<VPIcon icon="iconfont icon-css-tricks
   link="htps://codepen.io/amit_sheen/bNVEoWE/049e2c0741eefc70e1c983af7bcbb11f"
   title="Layered Text (Demo 14)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -393,7 +393,7 @@ Here are a few examples I really like. The first one uses the [<VPIcon icon="fa-
   link="htps://codepen.io/amit_sheen/bNVpeKa/e10f6983bf27b1b037cc42c5786c1b77"
   title="Layered Text (Demo 15-1)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Another great option is [<VPIcon icon="fa-brands fa-google"/>Bitcount](https://fonts.google.com/specimen/Bitcount), a variable font with a classic weight axis ranging from 100 to 900. By changing the weight based on the layer index, you get a layered effect that looks like peaks rising across the text:
 
@@ -401,7 +401,7 @@ Another great option is [<VPIcon icon="fa-brands fa-google"/>Bitcount](https://f
   link="htps://codepen.io/amit_sheen/EaVKyQz/294d460943eccd531e10b20652fcc6f7"
   title="Layered Text (Demo 15-2)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 And here is an example that might give your browser a bit of a workout. The font [<VPIcon icon="fa-brands fa-google"/>Kablammo](https://fonts.google.com/specimen/Kablammo) includes a `MORF` axis, and adjusting it completely changes the shape of each letter. So, I figured it would be fun to animate that axis (yes, `font-variation-settings` is animatable), and add a short delay between the layers, like we saw earlier, to give the animation a more dynamic and lively feel.
 
@@ -409,7 +409,7 @@ And here is an example that might give your browser a bit of a workout. The font
   link="htps://codepen.io/amit_sheen/empZzLX/91f672b29cf098e5ddfde7d51480c4fa"
   title="Layered Text (Demo 16)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -439,7 +439,7 @@ This is a more advanced technique, suited for more complex animations. It is not
   link="htps://codepen.io/amit_sheen/ogjxEPQ/59de89f3f74fbaae9cd856c8167b0fbe"
   title="Layered Text (Demo 17)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

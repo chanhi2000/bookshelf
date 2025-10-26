@@ -316,7 +316,7 @@ This is, of course, a simplified demo, but the same principles are used in real-
   slug-hash="qEdEJjy"
   title="3D Configurator 0.9"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

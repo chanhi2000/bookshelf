@@ -60,9 +60,12 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 Here’s where the refactor ends up:
 
-CodePen Embed Fallback
-https://codepen.io/chriscoyier/pen/GggQrQq
-Move Modal In on Path (Next Gen!)
+<CodePen
+  user="chriscoyier"
+  slug-hash="GggQrQq"
+  title="Move Modal In on Path (Next Gen!)"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

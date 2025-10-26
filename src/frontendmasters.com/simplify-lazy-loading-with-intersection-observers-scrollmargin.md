@@ -90,7 +90,7 @@ The following Pen lazy loads data *both* in the vertical and horizontal directio
   slug-hash="zxOPWMZ"
   title="no_scroll_margin_streaming"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

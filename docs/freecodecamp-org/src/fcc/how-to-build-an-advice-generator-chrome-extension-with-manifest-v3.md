@@ -7,6 +7,7 @@ category:
   - Google
   - Chrome
   - Chrome Extensions
+  - JavaScript
   - Article(s)
 tag:
   - blog
@@ -16,6 +17,8 @@ tag:
   - google-chrome
   - chrome-extensions
   - google-chrome-extensions
+  - js
+  - javascript
 head:
   - - meta:
     - property: og:title
@@ -24,7 +27,7 @@ head:
       content: "How to Build an Advice Generator Chrome Extension with Manifest V3"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-advice-generator-chrome-extension-with-manifest-v3.html
-prev: /articles/README.md
+prev: /tool/chrome/articles/README.md
 date: 2025-08-26
 isOriginal: false
 author:
@@ -40,6 +43,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756152220137/8717b80
   "title": "Google Chrome > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/chrome/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "JavaScript > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/js/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

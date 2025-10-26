@@ -255,7 +255,7 @@ For this function to be added easily to modern CSS, I could think of two possibl
 
 ### The container query method
 
-We already have stuff like `cqw` and `cqh` to denote [**container width and container height values**](/css-tricks.com/css-container-queries.md#aa-container-length-units). It’s not too far of a cry to say we could have a `cqem` (container-query `em`) unit or `cqlh` (container-query line-height).
+We already have stuff like `cqw` and `cqh` to denote [**container width and container height values**](/css-tricks.com/css-container-queries.md#container-length-units). It’s not too far of a cry to say we could have a `cqem` (container-query `em`) unit or `cqlh` (container-query line-height).
 
 There are downsides to this approach.
 

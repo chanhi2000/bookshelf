@@ -65,7 +65,7 @@ However, these days, playing around with SVG filters, I figured I could use them
   slug-hash="LELBEo"
   title="Gooey Menu"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -112,7 +112,7 @@ Let’s see a couple of examples:
   slug-hash="gbxGWy"
   title="svg blur demonstration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```xml
 <filter id="blur">
@@ -129,7 +129,7 @@ Now let’s see a common but more complex effect: a drop shadow filter. This wil
   slug-hash="JoyrNp"
   title="svg drop shadow demonstration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```xml
 <filter id="drop-shadow">
@@ -157,7 +157,7 @@ The basic technique has been already covered [**here**](/css-tricks.com/shape-bl
   slug-hash="ZYJXeB"
   title="metaballs demonstration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 However, as we’ve seen before, this also
 
@@ -238,7 +238,7 @@ And with that we have our basic effect ready! Here is it:
   slug-hash="OPjxZL"
   title="svg goo effect demonstration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 You can then customize it to your needs, like adding a drop shadow, using different colors for each element, or whatever have you!
 
@@ -266,7 +266,7 @@ You can then customize it to your needs, like adding a drop shadow, using differ
   slug-hash="razrxv"
   title="comparison between methods of applying the goo filter"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This way, we can use the filter not only to make that fancy goo effect, but also for simpler applications like, for example, rounding the corners of shapes that take multiple rectangles.
 

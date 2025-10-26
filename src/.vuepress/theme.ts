@@ -21,6 +21,7 @@ export default hopeTheme({
   docsDir: "src",
   navbar: navbarEn,
   sidebar: sidebarEn,
+  darkmode: "enable",
   encrypt: {
     config: {
     },

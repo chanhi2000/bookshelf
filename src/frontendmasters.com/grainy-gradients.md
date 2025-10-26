@@ -263,7 +263,7 @@ the desired result when having a shadow and text content ([live demo (<VPIcon ic
   slug-hash="gbbBWzL"
   title="Grainy background card + shadow & text - cross-browser"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ### Improving things for the future
 
@@ -304,7 +304,7 @@ Here is the[live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](http
   slug-hash="LEVxYoL"
   title="Grainy background card + shadow & text- Safari only"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This would come in really handy not just for the cases when we want to have text content or visual touches (like`box-shadow`) that remain unaffected by the noise `filter`, but especially for masking. Banding is always a problem when using `radial-gradient()` for a`mask`and, while we can layer multiple (pseudo)elements instead of`background`layers and/ or borders, masking is a trickier problem.
 
@@ -340,7 +340,7 @@ Here is the[live demo (<VPIcon icon="fa-brands fa-codepen"/>)](https://codepen.i
   slug-hash="dPoNXWp"
   title="Spotlight in a circle: banding (1st) vs. filter graininess (2nd) v2. Safari only"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Since we can’t yet do this cross-browser, our options depend today on our constraints, the exact result we’re going for.
 

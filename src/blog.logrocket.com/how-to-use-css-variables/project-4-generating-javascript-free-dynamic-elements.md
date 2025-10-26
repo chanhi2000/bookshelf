@@ -89,4 +89,4 @@ You can browse the complete source code and see a live preview from [this CodePe
   slug-hash="YzgjegB"
   title="Project #4: Dynamic elements with CSS variables"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>

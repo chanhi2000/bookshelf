@@ -104,7 +104,7 @@ This means that even the simplest clip-path, which visually mimics overflow clip
   link="https://codepen.io/amit_sheen/pen/raOMbgX/ce7dc33318784cefd665ea50d91f78ed"
   title="clip-path - clip vs overflow"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Also worth noting: just like `overflow`, `clip-path` lives entirely in two dimensions. No depth, no perspective. It flattens everything. That means `transform-style: preserve-3d` is ignored, and any 3D motion will stay locked to the element’s plane.
 
@@ -150,7 +150,7 @@ This demo shows a live preview of the `circle()` function in action. You can dra
   link="https://codepen.io/amit_sheen/pen/xbwEevZ/79b4ff8ccbd9fce6ea4a6f4634afc6c8"
   title="clip-path - circle()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Use the checkbox to toggle between pixel and percentage values to see how the result can be expressed in different units. This is particularly useful when you need responsive clipping that adapts to different screen sizes.
 
@@ -187,7 +187,7 @@ This demo shows the `ellipse()` function with three control nodes, that allow yo
   link="https://codepen.io/amit_sheen/pen/RNWGzmN/eda58b030b859497588eb14cbd2ba478"
   title="clip-path - ellipse()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -211,7 +211,7 @@ This demo lets you compare all three rectangular functions using the same visual
   link="https://codepen.io/amit_sheen/pen/bNVBLGM/e5304185d2ec86869e36d27e4116f9c4"
   title="clip-path - inset() vs rect() vs xywh()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The `inset()` function is generally the most intuitive since it works similarly to CSS padding, while `rect()` follows the traditional clipping rectangle approach. The newer `xywh()` function uses a more familiar x, y, width, height pattern commonly found in graphics programming.
 
@@ -243,7 +243,7 @@ Same coordinates, completely different shapes. The first creates a neat pentagon
   link="https://codepen.io/amit_sheen/pen/VYvMPeZ/a8b51dbc3eb711ccb5a38fd79eff356d"
   title="clip Path - Pentagram vs. Star"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -255,7 +255,7 @@ Here’s a demo that lets you create and modify polygons in real time. You can d
   link="https://codepen.io/amit_sheen/pen/yyYVvdY/f6d9e4d6efaba4304e21e95294efa05a"
   title="clip-path - polygon()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Use the “Add Node” button to introduce new points along your polygon’s edges, or “Remove Node” to simplify the shape. Notice how each modification creates a completely new path—and how the order of your points defines the final appearance.
 
@@ -310,7 +310,7 @@ This demo shows the same heart shape created with both methods. The key differen
   link="https://codepen.io/amit_sheen/pen/empGgRP/7d0e614618e7291a5c521467fbf803bc"
   title="clip Path - path vs. shape"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Notice how the `path()` version maintains its fixed pixel dimensions regardless of the container size, while the `shape()` version scales proportionally thanks to its percentage-based coordinates. This responsiveness is what makes `shape()` particularly powerful for modern web design and represents the future of CSS clipping paths.
 
@@ -348,7 +348,7 @@ CSS supports two fill rules: `evenodd` and `nonzero`. The difference becomes cle
   link="https://codepen.io/amit_sheen/pen/azvBQoW/20da0834588a5f2149422bd7264cf78e"
   title="clip-path - nonzero vs evenodd"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 - **Even-odd rule:** (on the left) Think of it as a simple counting game. Draw an imaginary line from any point to the edge of your element. Every time that line crosses a path edge, count it. If you end up with an odd number, that area gets filled. Even number? It stays transparent. This is why star centers appear hollow, the crossing lines create even-numbered intersections there.
 - **Nonzero rule**: (default value, on the right) This one’s about direction and flow. As your path travels around the shape, it creates a “winding” effect. Areas that get wound in one direction stay filled, while areas where clockwise and counter-clockwise paths cancel each other out become transparent. In most simple shapes like our star, everything winds the same way, so everything stays filled.

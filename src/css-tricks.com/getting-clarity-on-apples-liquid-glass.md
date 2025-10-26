@@ -234,7 +234,7 @@ Using a CSS-only approach with an SVG filter with `backdrop-filter` with a serie
   slug-hash="vEOWpYM"
   title="Liquid Glass Effect macOS (button background)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Same sort of deal here, but in the context of a theme toggle switch that demonstrates how glass can be tinted:
 
@@ -243,7 +243,7 @@ Same sort of deal here, but in the context of a theme toggle switch that demonst
   slug-hash="JodwNzX"
   title="Apple Liquid glass switcher"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Comparing a straight-up CSS blur with an SVG backdrop:
 
@@ -252,7 +252,7 @@ Comparing a straight-up CSS blur with an SVG backdrop:
   slug-hash="myJKQme"
   title="Apple Liquid Glass Experiments"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Contextual example of a slider component:
 
@@ -261,7 +261,7 @@ Contextual example of a slider component:
   slug-hash="VYLQJoy"
   title="Slider Button Liquid Glass Apple iOS 26 - 2025"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Using WebGL:
 
@@ -270,7 +270,7 @@ Using WebGL:
   slug-hash="jEPxMgW"
   title="Liquid Glass Shader"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

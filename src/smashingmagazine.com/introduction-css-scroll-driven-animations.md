@@ -81,7 +81,7 @@ Let’s start with a classic example: creating a scroll progress bar at the top 
   slug-hash="RNbRqoj"
   title="Scroll Progress Timeline example - before animation-timeline scroll()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 > See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - before animation-timeline scroll() \[forked\]](https://codepen.io/smashingmag/pen/RNbRqoj) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
@@ -114,7 +114,7 @@ No need to specify seconds for the duration — the scrolling behavior itsel
   slug-hash="ByBzGpO"
   title="Scroll Progress Timeline example - animation-timeline scroll()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 > See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - animation-timeline scroll() \[forked\]](https://codepen.io/smashingmag/pen/ByBzGpO) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
@@ -175,7 +175,7 @@ animation-range: 0% calc(100% - 500px);
   slug-hash="azoZQym"
   title="Scroll Progress Timeline example - animation-timeline, animation-range"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 > See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Scroll Progress Timeline example - animation-timeline, animation-range \[forked\]](https://codepen.io/smashingmag/pen/azoZQym) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
@@ -211,7 +211,7 @@ I think it’s easier to understand all this with a practical example. Here’s 
   slug-hash="pvzbQrM"
   title="Named Scroll Progress Timeline"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 > See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Named Scroll Progress Timeline \[forked\]](https://codepen.io/smashingmag/pen/pvzbQrM) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
@@ -281,7 +281,7 @@ Let’s illustrate this with a new example. This time, scrolling in one containe
   slug-hash="jENrQGo"
   title="Scroll Driven Animations - timeline-scope"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 > See the Pen [Scroll Driven Animations - timeline-scope \[forked\]](https://codepen.io/smashingmag/pen/jENrQGo) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
@@ -353,7 +353,7 @@ Here’s a simple example to help us see the basic idea of anonymous view timeli
   slug-hash="KwPMrQO"
   title="View Timeline Animation - view()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 > See the Pen [<VPIcon icon="fa-brands fa-codepen"/>View Timeline Animation - view() \[forked\]](https://codepen.io/smashingmag/pen/KwPMrQO) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
@@ -431,7 +431,7 @@ This makes it incredibly simple to create dynamic and engaging scroll animations
   slug-hash="mybEQLK"
   title="Parallax effect with CSS Scroll driven animations - view()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 See the Pen [<VPIcon icon="fa-brands fa-codepen"/>Parallax effect with CSS Scroll driven animations - view() \[forked\]](https://codepen.io/smashingmag/pen/mybEQLK) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
@@ -485,7 +485,7 @@ One of the powerful features of `timeline-range-names` is their ability to be us
   slug-hash="KwPMrQO"
   title="target range inside @keyframes - view-timeline, timeline-range-name"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 > See the Pen [<VPIcon icon="fa-brands fa-codepen"/>target range inside @keyframes - view-timeline, timeline-range-name \[forked\]](https://codepen.io/smashingmag/pen/zxOBMaK) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 
@@ -561,7 +561,7 @@ The `view-timeline` property works similarly to the `scroll-timeline` property. 
   slug-hash="KwPMrBP"
   title="View-timeline, timeline-scope"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 > See the Pen [<VPIcon icon="fa-brands fa-codepen"/>View-timeline, timeline-scope \[forked\]](https://codepen.io/smashingmag/pen/KwPMrBP) by [Mariana Beldi (<VPIcon icon="fa-brands fa-codepen"/>`marianab`)](https://codepen.io/marianab).
 

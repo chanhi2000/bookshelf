@@ -123,7 +123,7 @@ All I did here is put a couple of buttons on the page that append more `transfor
   slug-hash="RNPmRWP"
   title="Mr. Turtle the Multi-Transform Hero"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 But Mr. Turtle there doesn’t really have anything to do with `animation-composition`, which was the origin of this whole story. But it’s sets up understanding what *happens* with `animation-composition`. Remember this setup?
 

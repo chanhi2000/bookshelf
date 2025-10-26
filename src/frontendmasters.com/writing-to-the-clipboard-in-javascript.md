@@ -101,7 +101,7 @@ That's literally it. Here's a Pen demonstrating an example of this, but you will
   slug-hash="xxojZOL"
   title="Clipboard Writing"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 One pretty simple and actually practical use-case for something like this is quickly copying links to the user's clipboard. Let's consider some simple HTML:
 
@@ -139,7 +139,7 @@ I begin with a selector for the links I care about, and for each, I append a `<b
   slug-hash="bGPMEvN"
   title="Clipboard Writing 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 As a quick note, the UX of this demo could be improved, for example, notifying the user in some small way that the text was successfully copied.
 
@@ -215,7 +215,7 @@ Confirms that it works. You can see this yourself below (and again, [hit that â€
   slug-hash="XWLqXqe"
   title="Clipboard Writing <img>"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 So remember above when I said I didn't want to use a canvas? I did some Googling and turns out: I need to use a canvas. I found an excellent example of this on StackOverflow in this [<VPIcon icon="fa-brands fa-stack-overflow"/>answer](https://stackoverflow.com/a/62911176/52160). In it, the author uses a temporary canvas, writes the image data to it, and uses `toBlob` while specifying a PNG image type. Whew. So let's see if we can build a generic solution.
 
@@ -305,7 +305,7 @@ As without it, you get a tainted canvas error. Sounds dirty.
   slug-hash="dyBeGeg"
   title="Clipboard Writing Img 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

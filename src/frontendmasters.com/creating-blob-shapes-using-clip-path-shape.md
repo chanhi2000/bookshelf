@@ -118,7 +118,7 @@ And a demo:
   slug-hash="NPPEOej"
   title="curve command overview"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 I won’t detail the exact geometry behind the curves, but notice their behavior close to the starting and ending points. The curve is tangent to the lines that link the starting and ending points with the control points. This will be the key to create our blob shape.
 
@@ -225,7 +225,7 @@ Here is a Sass implementation:
   slug-hash="emmjoZE"
   title="Blob shape"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 One observation we can make is that the shape is responsive. It’s designed to work with square elements (`aspect-ratio: 1`), but the result is not bad for rectangular elements as well. Resize the element in the demo below and see how the shape behaves:
 
@@ -234,7 +234,7 @@ One observation we can make is that the shape is responsive. It’s designed to 
   slug-hash="NPPOWzJ"
   title="Resizing the blob"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The code can also be tweaked to create more variations. We can, for example, have a kind of wavy circle by removing the random part and applying a fixed distance to half the points.
 
@@ -243,7 +243,7 @@ The code can also be tweaked to create more variations. We can, for example, hav
   slug-hash="emmLdVy"
   title="Regular blob"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Can you think of other variations?
 
@@ -264,7 +264,7 @@ You copy both codes from the generator, apply a transition, and you have a cool 
   slug-hash="PwwJgyr"
   title="Blob shape with hover effect!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The bouncing effect you get is made with the`linear()`function which is another cool feature for custom easing. I am [<VPIcon icon="fas fa-globe"/>getting the code from here](https://linear-easing-generator.netlify.app/).
 
@@ -277,7 +277,7 @@ Now, if you update the Shape ID and still keep the same number of points, you ca
   slug-hash="yyyPONb"
   title="Blob shape with hover effect!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Cool, right? The code may look complex but in the end everything is generated for you, so it’s nothing but a few clicks to get a fancy shape with a nice animation! Speaking about animation, let’s end with a demo using a keyframes instead of a transition.
 
@@ -286,7 +286,7 @@ Cool, right? The code may look complex but in the end everything is generated fo
   slug-hash="xbbyxqV"
   title="blob animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

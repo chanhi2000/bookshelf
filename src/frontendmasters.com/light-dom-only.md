@@ -121,7 +121,7 @@ But notice the JavaScript *inside* the Web Component is adding a little extra fu
   slug-hash="PoVpZob"
   title="Light DOM Only Fun"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

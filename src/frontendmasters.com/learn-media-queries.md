@@ -301,7 +301,7 @@ You can see it in action here (make sure to toggle inverted colors to see the UI
   slug-hash="gbaZJLK"
   title="@media (inverted-colors: inverted) demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 While forced colors are better as long as users can choose themes, some operating systems don’t support it (macOS doesn’t).
 
@@ -436,7 +436,7 @@ body {
   slug-hash="jEWObrL"
   title="prefers-color-scheme demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ### `prefers-contrast`
 

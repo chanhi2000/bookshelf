@@ -136,7 +136,7 @@ class My Component extends LitElement {
   slug-hash="XJmppKN"
   title="Basic Demo for CSS Module Scripts in Web Components"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

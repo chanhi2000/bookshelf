@@ -61,7 +61,7 @@ I’m not sure who first discovered this was possible on the web, but the first 
   slug-hash="QWrLBE"
   title="Gooey Pagination"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 And then again by [Felix Hornoiu (<VPIcon icon="fa-brands fa-codepen"/>`felixhornoiu`)](http://codepen.io/felixhornoiu/pen/EjDwF/) (low framerate GIF for web practicality):
 
@@ -112,7 +112,7 @@ And then the fun happens when you add animation to blob those suckers all around
   slug-hash="qBzdmm"
   title="Blobbing Playground"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

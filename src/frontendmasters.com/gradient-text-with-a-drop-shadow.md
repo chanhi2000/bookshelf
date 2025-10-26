@@ -72,7 +72,7 @@ This creates a gradient background and then clips the background to the text. Th
   slug-hash="GRVKpbj"
   title="Simple Text Gradient"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Now I want to add a shadow behind it… sounds simple, right? Of course not.
 
@@ -83,7 +83,7 @@ The obvious way, using `text-shadow`, looks bad because `color: transparent` mak
   slug-hash="MWNgKxN"
   title="Why you can't use text gradient with text shadow"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 So that’s out.
 
@@ -114,7 +114,7 @@ Note the multiple shadows are in multiple directions simulating stroked text.
   slug-hash="GRVKZRd"
   title="Simple Text Gradient with Shadow with a Pseudo Element"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 It’s not ideal since we also have to add the text to the `data` attribute in order to be inserted into the pseudo element:
 
@@ -138,7 +138,7 @@ Although it’s the most complex of the methods, you can apply both effects to a
   slug-hash="RwXbaGy"
   title="Simple Text Gradient with Shadow with an SVG"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In the code we use the `linearGradient` SVG element to draw the text, and a series of `feDropShadow` filters to the text span element:
 
@@ -175,7 +175,7 @@ I did find this quick shot of gradient text and text shadow a nice reference of 
   slug-hash="vMavPr"
   title="A quick shot of gradient text and text-shadow"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Finally, Ana Tudor has some wild CodePens blending tons of SVG Filters together to make wild text effects:
 
@@ -184,7 +184,7 @@ Finally, Ana Tudor has some wild CodePens blending tons of SVG Filters together 
   slug-hash="gONbppb"
   title="No image dusty SVG filter effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Have fun!
 

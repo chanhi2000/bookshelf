@@ -98,7 +98,7 @@ So I made a demo of that and it works great:
   slug-hash="qEWeWLP"
   title="Rainbow Selection"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ![No dice on iOS But it seems to work everywhere else.](https://frontendmasters.com/blog/wp-content/uploads/2025/02/Screenshot-2025-02-14-at-7.54.12 AM.png)
 

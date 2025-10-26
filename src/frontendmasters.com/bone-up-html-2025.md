@@ -76,7 +76,7 @@ Here’s an example of the accordion pattern being used with a group of horizont
   slug-hash="bGZbGZP"
   title="Styling <details>: Horizontal Accordion"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Note that those `<details>` elements are in a flexbox layout and are themselves `display: flex;` and only recently has that improved. (See [<VPIcon icon="fas fa-globe"/>Stephanie Stimac’s article](https://blog.stephaniestimac.com/posts/2024/10/html-details-and-summary-update/) on recent improvements.)
 
@@ -94,7 +94,7 @@ Here’s a great demo of using that, as well as other brand new CSS features, to
   slug-hash="jOorzPv"
   title="Animate HTML Details Element Using Pure CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -118,7 +118,7 @@ select,
   slug-hash="LYKqgXZ"
   title="Currency picker -- customizable select"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Once you’ve opted in, you can apply styling to elements inside the `<select>` pretty freely, opening up huge doors to designing that experience.
 
@@ -171,7 +171,7 @@ And speaking of old school elements, you can put an `<hr>` within a `<select>` t
   slug-hash="OPLxpMV"
   title="Using an <hr/> in a <select> menu"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -198,7 +198,7 @@ The “targetting” you can see happening with those buttons is an example of a
   slug-hash="GgKvypJ"
   title="Popover Basics"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 You can’t close a popover with a form submission like you can a `<dialog>`, but a popover probably isn’t a great place for a form anyway so that’s fine. Another interesting sidenote is you can make a `<dialog popover>` if you like, getting you this button behavior for free.
 
@@ -225,7 +225,7 @@ I’m a fan here because the absolutely correct implementation of a toggle/switc
   slug-hash="QWREJPR"
   title="Safari Switch Control - Basic"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 [**Daniel Yuschick has an article**](/smashingmagazine.com/switching-it-up-html-latest-control.md) digging into the details. I like the idea that pseudo elements specific to this UI will be exposed, like `::thumb`and`::track`, but I can’t tell you what the status of that is right now. Even [<VPIcon icon="fas fa-globe"/>the official demos](https://webkit.org/demos/html-switch/) in Safari Nightly Preview *with* the flag turned on aren’t rendering properly for me.
 
@@ -330,7 +330,7 @@ So if you executed that JavaScript above from an HTML file that included an impo
   slug-hash="EaYbwKM"
   title="Using React with an Import Map"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 It would work and import the JavaScript from those locations instead. This opens up the door for *not needing to use a bundler* and still having the benefit of an abstraction for importing dependencies. Having the possibility to avoid tooling can be huge for long term maintenance of projects.
 
@@ -357,7 +357,7 @@ Here’s the demo [<VPIcon icon="fa-brands fa-chrome"/>from chrome for developer
   slug-hash="JjMxmom"
   title="hidden='until-found' demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 You’d think this would be useful for `<details>` elements in how they hide content, but this behavior is baked into them. This is more solid evidence for using native features — because they get the details right (generally) rather than you needing to replicate them.
 

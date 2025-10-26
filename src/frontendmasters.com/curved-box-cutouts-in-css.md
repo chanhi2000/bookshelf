@@ -59,7 +59,7 @@ An example:
   slug-hash="WbbZRYW"
   title="CSS rounded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -182,7 +182,7 @@ For ease of update, I’ll move the*length*values to CSS variables, and for clar
   slug-hash="NPPadJm"
   title="CSS rounded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -243,7 +243,7 @@ The larger box in the example is a square, so`100%`is used in calculating the*ra
   slug-hash="EaaPMax"
   title="CSS rounded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -256,7 +256,7 @@ Since the design uses an*imitation*of a gap, effects like drop shadow that requi
   slug-hash="WbbZRYW"
   title="CSS rounded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This doesn’t have to be limited to gap-like designs, either. The outline can be used in other ways, too. The rounded corners will be a subtle touch up.
 
@@ -272,7 +272,7 @@ This doesn’t have to be limited to gap-like designs, either. The outline can b
   slug-hash="KwwXaLP"
   title="CSS rounded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

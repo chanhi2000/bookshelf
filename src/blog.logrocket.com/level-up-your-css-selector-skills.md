@@ -92,7 +92,7 @@ Here’s an example of them both in action:
   slug-hash="RyvYXd"
   title="Combinator Selectors"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The New York row is selected because it immediately follows the first row, and the last two cities are highlighted, as the general sibling selector matches all cities after the fourth one.
 
@@ -107,7 +107,7 @@ I really like attribute selectors. They’re just so flexible when you need to m
   slug-hash="MGLZEK"
   title="Attribute Selectors #1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This example demonstrates selecting all checkbox input elements and applying styles to their associated labels to make them bold and colored blue.
 
@@ -128,7 +128,7 @@ Some more examples:
   slug-hash="pVGGye"
   title="Attribute Selectors #1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The first link doesn’t have a `target` attribute, so isn’t matched. The next two links are matched because they either have a blank `target` attribute or one with a specific value. Finally, the last link is set to `pink` as it matches the `fluffy` attribute. Its value is irrelevant and just has to exist to match the `a[fluffy]` selector.
 
@@ -147,7 +147,7 @@ img:not([alt]) {
   slug-hash="OZdqLp"
   title="Attribute Selectors #3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If you want to match a specific part of an attribute value, then there are some very useful selectors available.
 
@@ -164,7 +164,7 @@ Here’s an example of each one:
   slug-hash="MGLdvE"
   title="Attribute Selectors #4"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The first two examples are very similar, except that `A[attr|=val]` also matches the value, followed by a dash-separated string. This can be useful for matching language attributes. e.g. `<p lang="en-us">`.
 
@@ -181,7 +181,7 @@ All of the above examples of attribute selectors are case-sensitive. But we have
   slug-hash="LmaYzp"
   title="Attribute Selectors #5"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -200,7 +200,7 @@ For example, we can use `:checked` to style a simple to-do list.
   slug-hash="BxbjoO"
   title="User Interface Selectors #1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This is pretty standard, but there are some other interesting pseudo-classes that we have at our disposal.
 
@@ -209,7 +209,7 @@ This is pretty standard, but there are some other interesting pseudo-classes tha
   slug-hash="ELMoNK"
   title="User Interface Selectors #2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can use pseudo-classes to match whether input values are valid or not directly with CSS, as well as check if any elements are required before the form can be submitted.
 
@@ -223,7 +223,7 @@ We can use pseudo-classes to match whether input values are valid or not directl
   slug-hash="qYvpMP"
   title="User Interface Selectors #3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If you start typing into the personal email input field, then it has to be valid. However, the work email address is always required and needs to be valid, so it can’t be left empty. Notice, too, how we can chain pseudo-classes (e.g., `:required:invalid`) to achieve what we need.
 
@@ -237,7 +237,7 @@ Next, we have two pseudo-classes that can match if a form element (that supports
   slug-hash="Jvzpgz"
   title="User Interface Selectors #4"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Here, the valid range is between `10` and `20`. If it is outside of the range, you see the red background. Again, we can use the reset button type to reset the default value of the number input element.
 
@@ -248,7 +248,7 @@ To round off this section, let’s take a look at the `:read-only`,`:read-write`
   slug-hash="ZoPREB"
   title="User Interface Selectors #5"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Using these allows you to easily match elements that are read-only, or writable (editable). Matched elements don’t have to be from input fields either, as demonstrated in the example Pen.
 
@@ -301,7 +301,7 @@ You can use an index or an expression as the parameter for all of these structur
   slug-hash="MGxzEq"
   title="Structural Selectors #1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 `:nth-last-child()` and`:nth-last-of-type()` are very similar to`:nth-child()` and`:nth-of-type()`, except that they match from the last element rather than the first.
 
@@ -329,7 +329,7 @@ The next set of selectors are specialized structural selectors as they match spe
   slug-hash="JvzwJE"
   title="Structural Selectors #2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 At first glance, there’s a lot going on here and you need to be careful when using these types of selectors, as you might get results you weren’t expecting.
 
@@ -350,7 +350,7 @@ Content selectors belong to a specialized set of selectors for matching content.
   slug-hash="xjBBqN"
   title="Content Selectors #1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 `::first-line`and`::first-letter` only work if applied to block-level elements. Also, be careful to use `::first-letter` only on specific elements, otherwise, every single paragraph would have a drop cap, which is probably not what you want!
 
@@ -457,7 +457,7 @@ Here’s a Pen to demonstrate:
   slug-hash="xjBoNG"
   title="Misc Selectors"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

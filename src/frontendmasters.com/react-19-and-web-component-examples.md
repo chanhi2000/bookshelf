@@ -81,7 +81,7 @@ So here I’ve made a LitElement and rendered it within a React component:
   slug-hash="yyBJxdp"
   title="React 19 and Web Components"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 What I was thinking there was… *what if I make a `<designsystem-button>` and need a click handler on it?* Turns out that’s not really a problem. You can just slap a React `onClick` right on it and it’s fine.
 
@@ -123,7 +123,7 @@ Here’s that with a “raw” Web Component:
   slug-hash="RNboKBL"
   title="React 19 and Web Components"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 I took that idea from Jared White’s article [<VPIcon icon="fas fa-globe"/>Oh Happy Day! React Finally Speaks Web Components](https://thathtml.blog/2024/12/oh-happy-day-react-finally-speaks-web-component/). Where he’s got some other examples. Another is passing in a “complex object” which is one of those things that would have been impossible in React 18 and under apparently, and now we can do:
 
@@ -132,7 +132,7 @@ I took that idea from Jared White’s article [<VPIcon icon="fas fa-globe"/>Oh H
   slug-hash="GgKNrzx"
   title="React 19 and Web Components"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

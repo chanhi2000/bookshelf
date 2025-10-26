@@ -5,6 +5,18 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
+    "an-introduction-to-javascript-expressions", // 2025-10-22
+    "building-a-honeypot-field-that-works", // 2025-10-20
+    "sequential-linear-animation-with-n-elements", // 2025-10-15
+    "masonry-watching-a-css-feature-evolve", // 2025-10-15
+    "we-completely-missed-width-height-stretch", // 2025-10-10
+    "getting-creative-with-shape-outside", // 2025-10-06
+    "css-typed-arithmetic", // 2025-09-30
+    "touring-new-css-features-in-safari-26", // 2025-09-29
+    "recreating-gmails-google-gemini-animation", // 2025-09-26
+    "the-most-hated-css-feature-cos-and-sin", // 2025-09-15
+    "what-can-we-actually-do-with-corner-shape", // 2025-09-12
     "composition-in-css", // 2025-09-08
     "what-you-need-to-know-about-css-color-interpolation", // 2025-09-05
     "should-the-css-light-dark-function-support-more-than-light-and-dark-values", // 2025-09-02
@@ -237,8 +249,22 @@ export const template: SidebarInfoTemplate = {
       "should-the-css-light-dark-function-support-more-than-light-and-dark-values", // 2025-09-02
       "what-you-need-to-know-about-css-color-interpolation", // 2025-09-05
       "composition-in-css", // 2025-09-08
+      "what-can-we-actually-do-with-corner-shape", // 2025-09-12
+      "the-most-hated-css-feature-cos-and-sin", // 2025-09-15
+      "recreating-gmails-google-gemini-animation", // 2025-09-26
+      "css-typed-arithmetic", // 2025-09-30
+      "touring-new-css-features-in-safari-26", // 2025-09-29
+      "getting-creative-with-shape-outside", // 2025-10-06
+      "we-completely-missed-width-height-stretch", // 2025-10-10
+      "sequential-linear-animation-with-n-elements", // 2025-10-15
+      "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
       // END: 2025css
       // END: css
+    ]],[
+    "js-astro",[
+      "building-a-honeypot-field-that-works", // 2025-10-20
+      // END: 2025js-astro
+      // END: js-astro
     ]],[
     "js-node",[
       "a-primer-on-focus-trapping", // 2025-07-22
@@ -249,6 +275,8 @@ export const template: SidebarInfoTemplate = {
       "making-a-masonry-layout-that-works-today", // 2025-07-28
       "keeping-article-demos-alive-when-third-party-apis-die", // 2025-07-30
       "thinking-deeply-about-theming-and-color-naming", // 2025-08-04
+      
+      "an-introduction-to-javascript-expressions", // 2025-10-22
       // END: 2025js
       // END: js
     ]],[
@@ -257,6 +285,11 @@ export const template: SidebarInfoTemplate = {
       "toe-dipping-into-view-transitions", // 2025-02-21
       // END: 2025php
       // END: php
+    ]],[
+    "safari", [
+      "touring-new-css-features-in-safari-26", // 2025-09-29
+      // END: 2025safari
+      // END: safari
     ]],[
     "all", [
       Y2025,

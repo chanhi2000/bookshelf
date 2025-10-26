@@ -112,7 +112,12 @@ export default function FruitPage() {
 
 I’ll chuck that on CodePen here, which will run no build step here and just client side render it:
 
-CodePen Embed Fallback
+<CodePen
+  user="chriscoyier"
+  slug-hash="GRbzydJ"
+  title="Client Side Render"
+  :default-tab="['css','result']"
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The HTML that the browser receives for that page is sometime referred to as an “empty shell”. It’s an HTML document, but it doesn’t have any of the real content that we’re intending to put there. We get this:
 

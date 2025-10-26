@@ -292,7 +292,7 @@ You can check these examples for inspiration:
   slug-hash="BwBYOZ"
   title="Vintage (Retro) Fake Terminal Emulator in JavaScript"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <SiteInfo
   name="Examples for jQuery Terminal plugin"

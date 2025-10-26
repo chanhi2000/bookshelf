@@ -57,7 +57,7 @@ I recently shared a trick on [<VPIcon icon="fas fa-globe"/>how to create a Full-
   slug-hash="vEBBoWj"
   title="Full-bleed layout with modern CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The main content area is limited to a certain width and centered but a few elements “bleed” to the outside edges, filling the entire page width. There are already a lot of techniques to create such a layout but the one I came up with relies on modern features and *only 4 lines of code.*
 
@@ -89,7 +89,7 @@ Here is a quick demo to illustrate the issue:
   slug-hash="dPbdrzX"
   title="Scrollbar issue with 100vw"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The container has a height equal to 500px. If the page is tall enough to show the whole container, everything is fine but once the height gets smaller and we need to scroll the page, *another* scroll appears at the bottom!
 
@@ -104,7 +104,7 @@ Here is the previous demo using `100cqw` instead of `100vw`. No more issue this 
   slug-hash="LEPQazG"
   title="Fixing scrollbar issue using 100cqw"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Instead of relying on `100vw` like most of the techniques, I will use `100cqw` which is slightly better and for this, I have to make the `<html>` element a container.
 
@@ -146,7 +146,7 @@ Let's suppose that the `margin` is equal to `100px` at some points. If an elemen
   slug-hash="gbYKXMb"
   title="Negate margin"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Do you see the trick now? The same margin used to set the `max-width` and center the main container is also used (with a negative sign) on the “full-bleed” elements to make them “bleed” outside the container and extend to the edge of the screen!
 
@@ -244,7 +244,7 @@ Here is a demo to illustrate the behavior of each one. [Make it full screen (<VP
   slug-hash="PwYYMRX"
   title="Full-bleed layout variations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -257,7 +257,7 @@ Let's end with one last demo where it's only [<VPIcon icon="fas fa-globe"/>the b
   slug-hash="oNEaqQX"
   title="Full screen background color"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This demo relies on a single line of code where I'm using the outset feature of `border-image` to have overflowing coloration on both sides. The `border-image` property is a bit tricky to grasp, but I have a detailed article if you want to learn more about it: “[**The Complex but Awesome CSS border-image Property**](/smashingmagazine.com/css-border-image-property.md)“.
 

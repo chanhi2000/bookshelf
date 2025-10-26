@@ -204,7 +204,7 @@ Our shape is done!
   slug-hash="NWJQYNx"
   title="Flower shape using CSS mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The size of the shape is controlled by the radius of the small circles but we can do the opposite which is probably more convenient since we generally want to control the width/height of our element.
 
@@ -222,7 +222,7 @@ The size of the shape is controlled by the radius of the small circles but we ca
   slug-hash="VwRoXPR"
   title="Flower shape using CSS mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can even optimize the previous code a little and get rid the of `--w` variable. The latter is defining the width/height of the element and gradients can access such value using percentages we can write the code like below:
 
@@ -253,7 +253,7 @@ Now by adjusting the width you control the size of the whole shape. Here is an i
   slug-hash="abMeGEb"
   title="Responsive flower shape using CSS mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Voilà! We did a nice flower shape without hack or complex code and you can easily control it by adjusting a few variables. You either use the above code or you consider [<VPIcon icon="fas fa-globe"/>my online generator](https://css-generators.com/flower-shapes/) to get the generated CSS without the variables and Sass.
 
@@ -317,7 +317,7 @@ $n: 12; /* the number of circles/petals */
   slug-hash="zYbgaGr"
   title="Flower shape using CSS mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The `var(--alt,)` will default to nothing when the variable is not specified and we get the code of the first shape. By adding the composition value, we get the second shape. Two different shapes with the same code.
 
@@ -370,7 +370,7 @@ $n: 12; /* the number of circles/petals */
   slug-hash="poYMGpv"
   title="border-only circles around another circle"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Nothing complex so far. Instead of full circles, we are getting a border-only version. This time we don’t want them to touch each other but rather overlap a bit to have a continuous shape.
 
@@ -395,7 +395,7 @@ The result so far:
   slug-hash="abMeXYW"
   title="Adding the overlap"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Now, we use `mask-composite` with another gradient to hide some parts and get our final shapes. Here is a figure to illustrate the process for both shapes.
 
@@ -427,7 +427,7 @@ And here is the full code with both variations:
   slug-hash="xxBvBwW"
   title="Border-only flower shape using CSS mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If you have some trouble visualizing how `mask-composite` works, I invite you to read [<VPIcon icon="fas fa-globe"/>the crash course written by Ana Tudor](https://css-tricks.com/mask-compositing-the-crash-course/) where you will find a more in-depth exploration.
 
@@ -459,7 +459,7 @@ It is worth noting that since we are using `mask`, we can easily apply our shape
   slug-hash="LYvPEeV"
   title="Flower shape using CSS mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Don’t forget to bookmark [<VPIcon icon="fas fa-globe"/>my flower shapes generator](https://css-generators.com/flower-shapes/) so you can easily grab the code whenever you need it. I also have more [<VPIcon icon="fas fa-globe"/>CSS generators](http://css-generators.com/) that invite you to check. Most of them rely on CSS mask as well and I have a detailed article linked to each one.
 
@@ -470,21 +470,21 @@ I will close this article with a few mesmerizing animations involving some flowe
   slug-hash="NWJVdaw"
   title="Flower animation 🌺"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <CodePen
   user="t_afif"
   slug-hash="vYPwrPo"
   title="Flower animation 🌺"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <CodePen
   user="t_afif"
   slug-hash="BabgjVO"
   title="Flower animation 🌺"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ::: info Article Series
 

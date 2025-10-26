@@ -77,7 +77,7 @@ Here’s a demo of a page that is set up in this way:
   link="https://codepen.io/editor/team/CodePenTemplates/pen/0198e89f-8650-7d35-8384-959dbdbaf2e1"
   title="Open Details upon Hash Linktitle"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 It’s probably more interesting to just [<VPIcon icon="fas fa-globe"/>visit this hash-link URL](https://es-d-4410775920250828-0198e89f-8650-7d35-8384-959dbdbaf2e1.codepen.dev/#faq-13-content) and see it open right up and work.
 

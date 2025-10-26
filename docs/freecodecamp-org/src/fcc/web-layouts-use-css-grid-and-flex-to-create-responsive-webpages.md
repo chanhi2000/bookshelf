@@ -71,7 +71,7 @@ Check it out on Codepen [here (<VPIcon icon="fa-brands fa-codepen"/>`ophyboamah`
   slug-hash="KKRLoJr"
   title="Web Layout"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 **Project Functionality**
 

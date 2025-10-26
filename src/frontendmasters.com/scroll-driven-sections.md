@@ -122,7 +122,7 @@ Try it out (Chrome ‘n’ friends have stable browser support):
   slug-hash="gOVXVjj"
   title="Fixed Position Blockquote Only In Certain Section"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Here’s a video of it working in case you’re in a non-supporting browser:
 

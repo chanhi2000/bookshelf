@@ -145,4 +145,4 @@ You can access the complete source code and see a live preview of this project f
   slug-hash="dyrKEyd"
   title="Project #1: CSS Color Variations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>

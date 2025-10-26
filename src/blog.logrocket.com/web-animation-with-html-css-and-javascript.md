@@ -210,7 +210,7 @@ For the animation to function correctly, you need to follow the proper shorthand
   slug-hash="LYNmBdP"
   title="simple landing"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 
 Here is a very simple landing page for a shirt store.
@@ -234,7 +234,7 @@ We make use of JavaScript to control CSS animations and make it even better with
   slug-hash="XWdVOZy"
   title="Form Validation with Html, Css & Javascript"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In the above code, I created a form to collect user details, but I want the form fields to shake if there is no input.
 

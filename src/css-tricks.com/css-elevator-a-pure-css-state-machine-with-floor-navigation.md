@@ -59,7 +59,7 @@ In this article, I’ll walk you through how I used modern CSS features — like
   slug-hash="XWdwWwQ"
   title="Pure CSS State Machine Elevator"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

@@ -90,7 +90,7 @@ First, [with Sass (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://
   slug-hash="hgFno"
   title="Using a Sass variable inside `calc()`"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```scss
 $a: 4em
@@ -104,7 +104,7 @@ Here [is LESS (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://code
   slug-hash="JoXvyd"
   title="Using a LESS variable inside `calc()`"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```scss
 @a: 4em;
@@ -118,7 +118,7 @@ And [here is Stylus (<VPIcon icon="fa-brands fa-codepen"/>`OPNZjO`)](https://cod
   slug-hash="OPNZjO"
   title="Use a Stylus variable inside `calc()`"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```scss
 a = 4em
@@ -132,7 +132,7 @@ We can also use [native CSS variables (<VPIcon icon="fa-brands fa-thebabydino"/>
   slug-hash="WbwJyg"
   title="Using CSS variables inside `calc()`"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ::: note Update
 
@@ -167,7 +167,7 @@ Let’s say we want a rainbow gradient. The CSS for this is [really simple (<VPI
   slug-hash="VLOWaX"
   title="rainbow gradient"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 background: linear-gradient(#f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
@@ -209,7 +209,7 @@ Let’s say we want a background with a fixed `1em` stripe both at the top and a
   slug-hash="OVYgWq"
   title="top and down red stripes using two gradients"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 background:
@@ -224,7 +224,7 @@ But we’d need only [one gradient if we use `calc()` (<VPIcon icon="fa-brands f
   slug-hash="BNeZWe"
   title="top and down red stripes using calc()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 background:
@@ -240,7 +240,7 @@ This should work fine in all browsers that support `calc()` and gradients, and b
   slug-hash="NGGMaY"
   title="top and down red stripes using calc()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```scss
 $s: 1em;
@@ -267,7 +267,7 @@ Let’s say we want an element with a thick diagonal stripe extending on both si
   slug-hash="YyGPJo"
   title="fixed width diagonal gradient stripe"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 background:
@@ -283,7 +283,7 @@ In this case, the width of the stripe would depend on the element’s dimensions
   slug-hash="zvKxeL"
   title="Flag of Tanzania (pure CSS)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 background:
@@ -314,7 +314,7 @@ You can [test this live (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](ht
   slug-hash="YyGPJo"
   title="fixed width diagonal gradient stripe"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -327,7 +327,7 @@ You’ve likely seen the [little trick (<VPIcon icon="fa-brands fa-codepen"/>`th
   slug-hash="yYYEJB"
   title="absolute positioning child in the middle of parent"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 position: absolute;
@@ -345,7 +345,7 @@ With `calc()`, we can [get rid of the `margin` rule (<VPIcon icon="fa-brands fa-
   slug-hash="wKKXzQ"
   title="absolute positioning child in the middle of parent"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 position: absolute;
@@ -362,7 +362,7 @@ And we can make it more maintainable using [variables for width and height (<VPI
   slug-hash="LpprXQ"
   title="absolute positioning child in the middle of parent"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```scss
 $w: 5em;
@@ -394,7 +394,7 @@ The [system of coordinates and the grid part (<VPIcon icon="fa-brands fa-codepen
   slug-hash="NqVgYP"
   title="system of coordinates + grid #1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 background-image:
@@ -427,7 +427,7 @@ Again, we can make it all more maintainable by using variables:
   slug-hash="PqvjBr"
   title="system of coordinates + grid #2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -476,7 +476,7 @@ We can, of course, make things more flexible by not hardcoding the aspect ratio 
   slug-hash="IwvlL"
   title="Proportional box covering viewport"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```scss
 $a: 4;
@@ -505,7 +505,7 @@ Even better, we could [turn this into a mixin (<VPIcon icon="fa-brands fa-codepe
   slug-hash="MajxzY"
   title="Proportional box covering viewport (mixinized)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 @mixin proportional-box($a: 1, $b: $a) {
@@ -573,7 +573,7 @@ This was my initial idea, which, in theory, should work just fine. And it does [
   slug-hash="qObdVm"
   title="title in middle for flexible slide (FF bug)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -588,7 +588,7 @@ Setting a `perspective` on a scene ensures we’ll see everything that is closer
   slug-hash="QbRmYN"
   title="what changing perspective on the scene does"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Now, let’s say we have a very simple 3D shape — a cube, for example — right in the middle of our scene. It doesn’t look very 3D: It’s way too symmetrical, and if the faces are fully opaque, we can only see the front one.
 
@@ -605,7 +605,7 @@ Something else we could do is change our point of view. We do this via a propert
   slug-hash="MaeOoa"
   title="simple cube, top right point of view"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Changing scene dimensions changes how we see the cube.
 

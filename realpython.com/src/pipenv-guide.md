@@ -573,7 +573,6 @@ For example, if `numpy==1.15` gets installed after running `pipenv install` and 
     
     `[packages]
     numpy = ">=1.14.1,<1.15"` 
-    
 
 Option 1 is preferred as it ensures that your code is using the most up-to-date dependencies. However, Option 2 takes less time and doesn’t require code changes, just restrictions on dependencies.
 

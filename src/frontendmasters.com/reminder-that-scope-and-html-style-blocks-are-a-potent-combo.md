@@ -125,7 +125,7 @@ Here’s an example of using it where one of these three `<article>`s has a scop
   slug-hash="poMbRmG"
   title="Using Scope"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 I’m using the scoped styles as a “variation” there, but the whole block of styles of that component could be used like that whether it is a variation or not. It’s a way to apply styling *only* to a particular branch of the ol’ DOM tree. No tooling required. Any way you produce components that end up in the DOM could be done this way, from basic HTML includes to fancy framework components.
 

@@ -113,7 +113,7 @@ That’s it really. I just got a kick out of setting a variable in one place and
   slug-hash="MYgbXjv"
   title="Word Search Puzzle Maker"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Try changing the `size` above.
 

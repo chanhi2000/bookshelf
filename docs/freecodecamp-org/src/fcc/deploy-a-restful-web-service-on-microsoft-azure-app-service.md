@@ -16,6 +16,7 @@ tag:
   - docker
   - microsoft
   - azure
+  - microsoft-azure
 head:
   - - meta:
     - property: og:title

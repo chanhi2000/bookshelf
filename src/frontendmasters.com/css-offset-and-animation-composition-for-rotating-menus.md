@@ -57,21 +57,21 @@ Circular menu design exists as a space-saver or choice, and there’s an easy an
   slug-hash="JoYeQEe"
   title="Revolving Menu (Quad)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <CodePen
   user="rpsthecoder"
   slug-hash="jEbQjBm"
   title="Revolving Menu (Semi)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 <CodePen
   user="rpsthecoder"
   slug-hash="WbQmdxR"
   title="Revolving Menu (Semi)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 I’ll take you through the second example to cover the basics.
 

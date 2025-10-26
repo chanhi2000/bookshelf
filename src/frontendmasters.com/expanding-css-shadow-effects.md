@@ -75,7 +75,7 @@ The difference between box-shadow and drop-shadow() is worth knowing!
   slug-hash="zxYLrJz"
   title="Box Shadow Effects"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 All of this is proof that you’ll benefit from understanding CSS shadows and learning ways to expand their uses beyond simply creating a proverbial shadow.
 
@@ -92,7 +92,7 @@ Below is an example of what could be possible with the things I’ll be covering
   slug-hash="go ahead and animate a group of inset box shadows, via a `transition: box-shadow ... ;`, and see what we get."
   title=""
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>```html
+  :theme="$isDarkMode ? 'dark': 'light'"/>```html
 <div class="pokemon golduck">
  <div class="text">Golduck</div>
 </div>
@@ -122,7 +122,7 @@ Below is an example of what could be possible with the things I’ll be covering
   slug-hash="mydjVza"
   title="Box Shadow Effects"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The above shows off the `inset` keyword that `box-shadow` can use in a couple of different ways. Inward shadows make for terrific overlays, since it’s painted on *top* of an element’s background and originates from the edges of the element’s *padding box*. The other thing we got to confirm is that the `box-shadow` is indeed animate-able.
 
@@ -151,7 +151,7 @@ The element we’ll apply this to is already a circle, and this will make the sh
   slug-hash="ZYEjQmL"
   title="Box Shadow Effects"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In similar ways you can play around with a shadow’s *blur radius*, *spread distance* (in `box-shadow`), and *color*.
 
@@ -192,7 +192,7 @@ We can take this a step further. So far we’ve been animating the `box-shadow` 
   slug-hash="vEYaLQQ"
   title="Box Shadow Effects"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 You can also use `@keyframes`, instead of `transition`, for the animations to keep frame stops. For instance, in the following example, there’s multiple color changes throughout the animation sequence as defined by the `@keyframes` ruleset, `colorChange`:
 
@@ -218,7 +218,7 @@ You can also use `@keyframes`, instead of `transition`, for the animations to ke
   slug-hash="mydGZLE"
   title="Box Shadow Effects"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 
 For our main demo, let’s keep `transition`, and then combine the things we’ve seen so far as well as include a few more colors.
@@ -249,7 +249,7 @@ For our main demo, let’s keep `transition`, and then combine the things we’v
   slug-hash="emYjJbv"
   title="Box Shadow Effects"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ```css
 .selected {
@@ -272,7 +272,7 @@ For our main demo, let’s keep `transition`, and then combine the things we’v
   slug-hash="zxYLrJz"
   title="Box Shadow Effects"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 This is where you can really see how layering can be helpful.
 
@@ -287,7 +287,7 @@ Here’s a collection of a few on-hover animation designs using CSS shadows to h
   slug-hash="KwKyoKM"
   title="Crafting shadow effects"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If you want to keep exploring shadow animations further, I recommend combining them with other possible visual effects from CSS properties like *filter* and *blend modes*. Also, make sure to see how the animations work out both when individual values are animated and when the shadow as a whole property is animated.
 

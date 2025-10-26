@@ -90,7 +90,7 @@ dialog {
   slug-hash="JjqXLEb"
   title="CSS Dialog Animations (no @starting-style - doesn't work)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The problem here is when a `<dialog>` opens, the browser doesn’t know what opacity value it’s meant to transition from. The first style update our `<dialog open>` receives sets `opacity: 1` , and since that’s also our end value, no transition takes place. We see this problem pop up whenever we attempt to transition any element that changes to or from display: none. How do we fix this?
 
@@ -213,7 +213,7 @@ dialog {
   slug-hash="JjqGoPa"
   title="CSS Dialog Animations (Transition with @starting-style)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 And with that we have a `<dialog>` with both opening and closing transitions! If you’re looking for the simplest solution then you can stop here, it doesn’t come easier than this.
 

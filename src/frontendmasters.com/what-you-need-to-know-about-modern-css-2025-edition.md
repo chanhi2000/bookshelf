@@ -117,7 +117,7 @@ Not really. The old fallbacks including things like animating `max-height` to a 
   link="https://codepen.io/editor/chriscoyier/pen/01992602-6209-7ff6-9aec-9157440104cc"
   title="Animate to Auto"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 :::
 
@@ -179,7 +179,7 @@ Remember there are JavaScript APIs for popovers also, like `myPopover.showPopove
   link="https://codepen.io/editor/chriscoyier/pen/019948c7-09d1-7f29-b676-2b57fdec4f8f"
   title="Popovers with Invokers"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 *Also* — remember popovers pair particularly well with anchor positioning which is another CSS modern miracle.
 
@@ -236,7 +236,7 @@ Not really. Sass has functions but are not based on the same spec and will not w
   link="https://codepen.io/editor/chriscoyier/pen/019930ad-8e97-7b37-9330-e5cae3d2c938"
   title="Example of using @function in CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 :::
 
@@ -385,7 +385,7 @@ There is some [<VPIcon icon="fas fa-globe"/>very lightweight JavaScript](https:/
   link="https://codepen.io/editor/chriscoyier/pen/01993ac3-0511-7ca2-b400-43dac665e755"
   title="Demos for ield-sizing"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -433,7 +433,7 @@ select,
   slug-hash="eYojgZw"
   title="Country select with flags"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -473,7 +473,7 @@ Absolutely. As important as we might agree typography is, without these enhancem
   link="https://codepen.io/editor/chriscoyier/pen/01996388-9b45-7cdc-9c2e-089f052527c4"
   title="Fork of Jen Simmons Pen for Smaller Screens"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 :::
 
@@ -544,7 +544,7 @@ Not that I know of, but if fancy easing is very important to you, JavaScript lib
   link="https://codepen.io/editor/chriscoyier/pen/01993fdd-5fd1-751d-bf26-f43dd3140396"
   title="Checkbox Interactions"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ::: info Resources
 
@@ -627,7 +627,7 @@ The natural re-sizeability and more readable syntax is big advantage over `path(
   link="https://codepen.io/editor/chriscoyier/pen/0199597b-d364-76f2-a843-0e434ebaaac8"
   title="Compare Resizing path() vs. shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -671,7 +671,7 @@ Not that I know of.
   link="https://codepen.io/editor/chriscoyier/pen/0199597b-d364-76f2-a843-0e434ebaaac8"
   title="Compare Resizing path() vs. shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -720,7 +720,7 @@ Re-ordering a grid layout is perhaps of the most common things to re-order, and 
   slug-hash="jEEdewP"
   title="CSS reading-flow Test"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 :::
 

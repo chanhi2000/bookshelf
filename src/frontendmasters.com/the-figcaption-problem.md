@@ -94,7 +94,7 @@ Allow me to jump straight to the end and showcase the best solution, by Stephani
   slug-hash="JodpOOR"
   title="figure/figcaption issue"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 There it is, the perfect solution here.
 
@@ -192,7 +192,7 @@ figcaption {
   slug-hash="QwjENQj"
   title="Demo of figure/figcaption Issues"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

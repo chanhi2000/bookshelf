@@ -73,7 +73,7 @@ You can play with the above demo here:
   slug-hash="bGEZONq"
   title="Relative Children"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

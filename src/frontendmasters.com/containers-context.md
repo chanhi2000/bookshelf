@@ -57,7 +57,7 @@ I ran into what I thought was a `z-index` bug in Safari (or, Safari had it right
   slug-hash="KwPmYrJ"
   title="z-index bug on iOS?"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/12/CleanShot-2024-12-22-at-07.57.33%402x-1024x837-1.png?resize=1024%2C837&ssl=1)
 

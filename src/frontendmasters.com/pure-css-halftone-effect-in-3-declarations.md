@@ -99,7 +99,7 @@ This can be seen in the interactive demo below where you can drag the bar along 
   slug-hash="BaXNORo"
   title="lightness axis"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Going back to our`background`with the pattern dots layer on top of the`linear-gradient()`map layer, we cannot see the map layer because it’s fully covered by the pattern layer. So the next step is to blend these two`background`layers using the`multiply`blend mode.
 
@@ -154,7 +154,7 @@ You can see this in the interactive demo below - regardless of whether we apply 
   slug-hash="eYqpjOw"
   title="contrast() with subunitary value"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Note that`contrast(100%)`is the same as`contrast(1)`,`contrast(50%)`is the same as`contrast(.5)`and so on.
 
@@ -165,7 +165,7 @@ If the argument of the`contrast()`function is greater than`1`however, then each 
   slug-hash="jOgbeQK"
   title="contrast() with superunitary value"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If we have a large enough contrast, all channel values are either zeroed (`0%`) or maxed out (`100%`) meaning we can only get one of eight possible results.
 
@@ -210,7 +210,7 @@ Much better!
   slug-hash="dyoPdqj"
   title="Pure CSS halftone pattern, 1 elem, 3 declarations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Now one thing to note here is that the contrast value needs to be enough to compensate for the blur radius of our dots. So if we increase the pattern size (the`background-size`for the pattern layer), then we also need to increase the contrast value accordingly.
 
@@ -280,7 +280,7 @@ Something like this can even be animated or made interactive. We can place these
   slug-hash="GRVzeRa"
   title="Cursor following halftone rings (move fast)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We don’t have to limit ourselves to radial gradients. Linear ones work just as well. We can use a`repeating-linear-gradient()`, for example:
 
@@ -297,7 +297,7 @@ We can also animate the gradient angle (like in the demo below on hover) or make
   slug-hash="MWNLMwp"
   title="Animated halftone lines (hover)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can also restrict the`background-size`of a`linear-gradient()`:
 
@@ -324,7 +324,7 @@ For both of the previous ones, the gradient angle can also be animated. This can
   slug-hash="WNVmGqa"
   title="Halftone triangles/ fragments (hover)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can also play with conic gradients here. A simple repeating one produces rays that are thicker on the left than on the right.
 
@@ -349,7 +349,7 @@ The first would be to remove the`filter`from the element itself and apply it on 
   slug-hash="poMYWdz"
   title="smooth rays without fading edges #1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The second would be to make the element extend outwards a bit using a negative`margin`and then clip its edges by the same amount using`inset()`.
 
@@ -358,7 +358,7 @@ The second would be to make the element extend outwards a bit using a negative`m
   slug-hash="mdNopBO"
   title="smooth rays without fading edges #2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Things get a lot more fun if we limit the`background-size`of such a`conic-gradient()`pattern and then play with the start angle`--a`and the end percentage`--p`.
 
@@ -373,7 +373,7 @@ Things get a lot more fun if we limit the`background-size`of such a`conic-gradie
   slug-hash="bGXZvaE"
   title="conic-gradient halftone pattern variations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ### Map variations
 
@@ -392,7 +392,7 @@ The demo below shows this angle being animated on hover:
   slug-hash="PoMvave"
   title="Animated halftone direction (hover)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can also add an extra stop:
 
@@ -407,7 +407,7 @@ Again, hovering the demo below animates the map direction.
   slug-hash="aberjzm"
   title="Animated halftone direction #2 (hover)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can also make our gradient a repeating one:
 
@@ -421,7 +421,7 @@ We can also make our gradient a repeating one:
   slug-hash="bGXyKjK"
   title="Animated halftone direction #3 (hover)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Or we can switch to a`radial-gradient()`:
 
@@ -437,7 +437,7 @@ In the demo below, the radial gradient’s position follows the cursor:
   slug-hash="NWQVBjV"
   title="Animated halftone position (hover)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The radial gradient can be a repeating one too:
 
@@ -452,7 +452,7 @@ The radial gradient can be a repeating one too:
   slug-hash="MWNdxNJ"
   title="Animated halftone position #2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Same thing goes for conic gradients.
 
@@ -467,7 +467,7 @@ Same thing goes for conic gradients.
   slug-hash="vYoqKBJ"
   title="Animated halftone sweep (hover)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can use a repeating one and control the number of repetitions as well.
 
@@ -482,7 +482,7 @@ We can use a repeating one and control the number of repetitions as well.
   slug-hash="JjgQKbE"
   title="Animated halftone rays (hover)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 One thing that bugs me about some of the map variation demos, particularly about this last one, is the dot distortion. We can make it look less bad by sizing the element with the halftone`background`such that both its dimensions are multiples of the dot size and change the position in increments of the same dot size.
 
@@ -588,7 +588,7 @@ You can play with various scenarios in the interactive demo below:
   slug-hash="RwXmQYZ"
   title="palette variations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can of course also have more interesting palettes and we can even have halftone dots on top of image backgrounds using the pure CSS[blending technique (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/qBGWXNR)I detailed in[a talk on the topic (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/project/full/ZjwjBe)I used to give in 2020 or by using[SVG (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/abMvzoo)[filters (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bGXeGoa). Both of these approaches however require more than just one element with no pseudos and three CSS properties, so we won’t be going into details about them here.
 
@@ -603,7 +603,7 @@ By using top to bottom linear gradients for both the pattern and the map, with t
   slug-hash="jOvMQMO"
   title="Pure CSS retro wave"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We can also animate a map’s`background-position`to get a blinds effect like below:
 
@@ -612,7 +612,7 @@ We can also animate a map’s`background-position`to get a blinds effect like be
   slug-hash="MWPWXXw"
   title="1 div pure CSS blinds staggered animation in 13 declarations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In the demo above, we’ve also blended the halftone pattern with an image. Here’s another such example (note that this doesn’t work in Firefox due to[<VPIcon icon="fa-brands fa-firefox"/>bug 1481498](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498), which has everything to do with the text on the right side and nothing to do with the halftone part):
 
@@ -627,7 +627,7 @@ The example below uses a`repeating-radial-gradient()` pattern and a`conic-gradie
   slug-hash="oNWjoqN"
   title="Heart in ripples pattern - 1 div, 5 CSS declarations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 For a bit of a different effect, here’s a rhombic halftone one created by using two blended layers for the map - two otherwise identical linear gradients going in different directions:
 
@@ -636,7 +636,7 @@ For a bit of a different effect, here’s a rhombic halftone one created by usin
   slug-hash="xxYMOoQ"
   title="Varying stripes on rhombic tiling pattern"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 The demo below is a combination of two halftone patterns stacked one on top of the other, the top one being masked using a`conic-gradient()`[<VPIcon icon="fas fa-globe"/>checkerboard](https://css-tricks.com/background-patterns-simplified-by-conic-gradients/#aa-checkerboard)`mask`.
 
@@ -645,7 +645,7 @@ The demo below is a combination of two halftone patterns stacked one on top of t
   slug-hash="LYyNVJQ"
   title="1 div, pure CSS halftone dash dot pattern"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Here are a few more halftone samples as card backgrounds:
 
@@ -654,7 +654,7 @@ Here are a few more halftone samples as card backgrounds:
   slug-hash="QWMRWRQ"
   title="#codeVember #22/2021: 1 div halftone patterns"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Even more such halftone samples can be found in this gallery:
 
@@ -663,7 +663,7 @@ Even more such halftone samples can be found in this gallery:
   slug-hash="NWxBzRv"
   title="Pure CSS 1 div card patterns (no SVG, no images other than CSS gradients)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We aren’t limited to 2D. We can also use such paterns in 3D and even animate them.
 

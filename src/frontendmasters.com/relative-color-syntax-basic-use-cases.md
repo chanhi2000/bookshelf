@@ -153,7 +153,7 @@ Same deal here. I’m [<VPIcon icon="fas fa-globe"/>using OKLCH because I like i
   slug-hash="MWMOWdQ"
   title="Lighten a one-off color"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -183,7 +183,7 @@ html {
   slug-hash="ExBbaxO"
   title="Colored Grays with Relative Color Syntax"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

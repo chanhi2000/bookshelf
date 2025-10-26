@@ -90,7 +90,7 @@ Instead of a single`<img>`tag, try using a`<picture>`with the**`srcset`and`sizes
   slug-hash="NPKZVKL"
   title="Responsive Images"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In this example, any screen less than **1400px** wide will use an image from the `srcset` that is at least 100% of the viewport’s width. So if the screen is **1100px** wide, the browser will select and download the `hero-desktop-1024` version. This **automatically scales images** to match different devices, **saving bandwidth** and improving loading speed for smaller screens.
 

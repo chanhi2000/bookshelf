@@ -335,7 +335,7 @@ The interpolation syntax is just a convenient way to write parameterized queries
 
 The reason why is we're not actually passing in a `string` to the `SqlQuery` method, but a [<VPIcon icon="fa-brands fa-microsoft"/>`FormattableString`](https://learn.microsoft.com/en-us/dotnet/api/system.formattablestring). This is a special type that captures the format and arguments separately, allowing EF Core to handle parameters.
 
-Everything in this article works with [<VPIcon icon="iconfont icon-mssql"/>SQL Server](https://learn.microsoft.com/en-us/sql/), [<VPIcon icon="iconfont icon-mysql"/>MySQL](https://dev.mysql.com/), [<VPIcon icon="iconfont icon-sqlite"/>SQLite](https://sqlite.org/), and other databases EF Core supports. The differences are mostly syntax.
+Everything in this article works with [<VPIcon icon="iconfont icon-sqlserver"/>SQL Server](https://learn.microsoft.com/en-us/sql/), [<VPIcon icon="iconfont icon-mysql"/>MySQL](https://dev.mysql.com/), [<VPIcon icon="iconfont icon-sqlite"/>SQLite](https://sqlite.org/), and other databases EF Core supports. The differences are mostly syntax.
 
 ---
 

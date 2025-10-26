@@ -119,7 +119,7 @@ Unsurprisingly, this isn’t valid, and that’s why we get black as our color.
   slug-hash="wBvzxab"
   title="Custom Property Broken Fallbacks"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

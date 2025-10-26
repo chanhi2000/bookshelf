@@ -65,7 +65,7 @@ At the time of writing, only Chrome-based browsers have the full support of the 
   slug-hash="QwjGqEJ"
   title="Responsive infinite logo marquee"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In the demo above, we have an infinite marquee animation that works with **any number** of images. Simply add as many elements as you want in the HTML. There is no need to touch the CSS. You can easily control the number of visible images by adjusting one variable, and it’s responsive. Resize the screen and see how things adjust smoothly.
 
@@ -107,7 +107,7 @@ It would be perfect if we could have a native way to create a continuous animati
   slug-hash="JoYEPaE"
   title="Using path()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Inside path, I am using the SVG syntax to define a line, and I simply move the image along that line by animating `offset-distance` between 0% and 100%. This looks perfect at first glance since we have the animation we want but it’s not a flexible approach because `path()` accepts only hard-coded pixel values.
 
@@ -124,7 +124,7 @@ Here is the previous demo using `shape()`:
   slug-hash="jEbyEJx"
   title="using shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 If you are unfamiliar with `shape()`, don’t worry. Our use case is pretty basic as we are going to simply draw a horizontal line using the following syntax:
 
@@ -155,7 +155,7 @@ We make the container flexbox to remove the default space between the image and 
   slug-hash="RNWKPNK"
   title="initial structure"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Now, let’s suppose we want to see only N images at a time. For this, we need to define the width of the container to be equal to `N x size_of_image`.
 
@@ -178,7 +178,7 @@ img {
   slug-hash="qEORdbO"
   title="fixing the width"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Nothing complex so far. We introduced some variables to control the size and the number of visible images. Now let’s move to the animation.
 
@@ -195,7 +195,7 @@ What about the `X Y` values? Let’s try `0 0` and see what happens:
   slug-hash="azvpOBO"
   title="adding the animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Hmm, not quite good. All the images are above each other, and their position is a bit off. The first issue is logical since they share the same animation. We will fix it later by introducing a delay.
 
@@ -216,7 +216,7 @@ offset: shape(from 0 50%, hline by calc(sibling-count() * var(--s)));
   slug-hash="YPyNXEQ"
   title="fixing the position"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 It’s better, and we can already see the continuous animation. It’s still not perfect because we can see the “jump” of the image on the left. We need to update the position of the line so it starts outside the container and we don’t see the “jump” of the images. The `X` value should be equal to `-S/2` instead of 0. 
 
@@ -229,7 +229,7 @@ offset: shape(from calc(var(--s)/-2) 50%, hline by calc(sibling-count() * var(--
   slug-hash="RNWKPQj"
   title="fixing the jump"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 No more visible jump, the animation is perfect!
 
@@ -256,7 +256,7 @@ animation:
   slug-hash="PwPWqda"
   title="The final animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Everything is perfect! The final code is as follows:
 
@@ -335,7 +335,7 @@ Resize the container (or the screen) in the below demo and see the magic in play
   slug-hash="zxvNvrN"
   title="responsive animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 We have the responsive part but it’s still not perfect because if the container is too small, the images will overlap each other.
 
@@ -376,7 +376,7 @@ Here is again the demo I shared at the beginning of the article with all the adj
   slug-hash="QwjGqEJ"
   title="Responsive infinite logo marquee"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Do you still see the code as a complex one? I hope not!
 
@@ -399,7 +399,7 @@ We can have some text animations:
   slug-hash="vENyewr"
   title="Responsive Infinite marquee animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Or more complex elements with image + text:
 
@@ -408,7 +408,7 @@ Or more complex elements with image + text:
   slug-hash="vENyead"
   title="Responsive Infinite marquee animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 In both examples, I am using `flex-shrink: 0` to avoid the default shrinking effect of the flex items when the container gets smaller. We didn’t have this issue with images as they won’t shrink past their defined size.
 

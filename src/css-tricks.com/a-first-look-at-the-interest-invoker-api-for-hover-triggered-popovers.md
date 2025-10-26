@@ -64,7 +64,7 @@ You’d use it like this:
   slug-hash="myebBPB"
   title="Interest invokers demo (basic)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 It’s not stated anywhere that they must be declared as popovers, but they *do* bake the right accessibility hints in.
 
@@ -190,7 +190,7 @@ Here’s the demo again, so you can try it out (in Chrome 139 or Canary for now)
   slug-hash="myebBPB"
   title="Interest invokers demo (basic)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 One problem is that if you accidentally `mouseleave` the interest trigger and the target (which can be very easy to do when the target is too small), then it all disappears. This is even *more* annoying, but luckily the hide delay allows you some recovery time. Similarly, the show delay offers keyboard and screen reader users the opportunity to skip the interest target, while also preventing it from being triggered accidentally with a mouse pointer.
 
@@ -241,7 +241,7 @@ There’s even a message that we can customize by targeting `:target-of-partial-
   slug-hash="MYwMYmd"
   title="Interest invokers demo (better delays)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 While you probably shouldn’t change the message content (since it displays the correct keyboard shortcut for the user’s device by default), we can style it by selecting this way.
 
@@ -277,7 +277,7 @@ Nothing really new here as far as what we’ve already discussed, but I find it 
   slug-hash="VYvZBpG"
   title="Interest invokers demo (tooltip)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 

@@ -60,7 +60,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
   slug-hash="XWLxQEw"
   title="CPC Rock Paper Scissors"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 Amit is a prolific CodePen user who has been uploading about 2-3 projects per week since as early as 2021. Their most recent projects (year 2025) have increased in complexity and quality while maintaining the high productivity rate.
 

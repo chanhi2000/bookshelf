@@ -131,7 +131,7 @@ function SimpleSearch() {
   slug-hash="NPKJyyR"
   title="Simple Search Example in React"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 At first glance, this works fine: you type a query and get matching results. But in real-world applications, search needs to handle much more than just simple string comparisons. Here are some major limitations:
 
@@ -210,7 +210,7 @@ Want to see the difference in action? Compare a debounced search to one that upd
   slug-hash="pvzYaXp"
   title="Simple Search Example in React with Debounce"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ### How to Optimize Performance with `React.useMemo`
 
@@ -233,7 +233,7 @@ The live demo below compares two search implementations, one without `useMemo` a
   slug-hash="EaYMEar"
   title="Simple Search Example in React with Memoization"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 With `useMemo`, the search logic only runs when the query, filters, or data change, keeping performance smooth and avoiding unnecessary computations.
 
@@ -451,7 +451,7 @@ In this code, the pagination filter efficiently slices the data array, so you on
   slug-hash="bNbZQNW"
   title="Fuzzy Search Example in React"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -552,7 +552,7 @@ To see this in action and try it for yourself, check out the live demo below:
   slug-hash="xbKerxQ"
   title="Search with Pagination Example in React using our custom useSearch"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -675,7 +675,7 @@ Try it out on this [Live Demo (<VPIcon icon="fa-brands fa-codepen"/>`Spruce_khal
   slug-hash="bNbZQNW"
   title="Fuzzy Search Example in React"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 ---
 
@@ -755,7 +755,7 @@ Here is an example of it working with ten thousand records of data
   slug-hash="xbKeZYg"
   title="Search Example in React handling large data"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="$isDarkMode ? 'dark': 'light'"/>
 
 For more detailed usage and additional configuration options (like pagination, sorting, or grouping), check out the full documentation on npm: [<VPIcon icon="fa-brands fa-npm"/>`use-search-react` Docs](https://npmjs.com/package/use-search-react).
 
