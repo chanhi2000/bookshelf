@@ -5,6 +5,10 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "staggered-animation-with-css-sibling-functions", // 2025-11-07
+    "the-weird-parts-of-position-sticky", // 2025-11-05
+    "perfectly-pointed-tooltips-all-four-sides", // 2025-11-03
+    "super-simple-full-bleed-breakout-styles", // 2025-10-31
     "perfectly-pointed-tooltips-a-foundation", // 2025-10-28
     "introducing-tanstack-start-middleware", // 2025-10-24
     "the-two-button-problem", // 2025-10-21
@@ -444,6 +448,10 @@ export const template: SidebarInfoTemplate = {
       "css-counters-in-action", // 2025-10-09
       "modern-css-round-out-tabs", // 2025-10-13
       "the-two-button-problem", // 2025-10-21
+      "super-simple-full-bleed-breakout-styles", // 2025-10-31
+      "perfectly-pointed-tooltips-all-four-sides", // 2025-11-03
+      "the-weird-parts-of-position-sticky", // 2025-11-05
+      "staggered-animation-with-css-sibling-functions", // 2025-11-07
       // END: 2025css
       // END: css
     ]],[

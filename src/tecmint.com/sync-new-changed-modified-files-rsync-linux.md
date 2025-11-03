@@ -4,7 +4,6 @@ title: "How to Sync New and Changed Files Using ‘rsync’ Command"
 description: "Article(s) > How to Sync New and Changed Files Using ‘rsync’ Command"
 icon: iconfont icon-shell
 category:
-  - Linux
   - Shell
   - Article(s)
 tag: 

@@ -5,15 +5,20 @@ description: Article(s) > Makefile
 icon: iconfont icon-shell
 category: 
   - Shell
+  - GNU
+  - GNU Make
   - Article(s)
 tag: 
   - blog
   - devkuma.com
   - sh
+  - shell
+  - gnu
+  - gnu-make
+  - makefile
   - bash
   - c
   - cpp
-  - gnu
 head:
   - - meta:
     - property: og:title
@@ -22,7 +27,7 @@ head:
       content: Makefile
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/devkuma.com/makefile.html
-prev: /programming/sh/articles/README.md
+prev: /programming/sh-make/articles/README.md
 date: 2024-04-21
 isOriginal: false
 ---
@@ -31,9 +36,9 @@ isOriginal: false
 
 ```component VPCard
 {
-  "title": "Shell > Article(s)",
+  "title": "GNU Make > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/sh/articles/README.md",
+  "link": "/programming/sh-make/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

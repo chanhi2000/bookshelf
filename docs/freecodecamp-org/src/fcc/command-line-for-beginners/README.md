@@ -4,7 +4,6 @@ title: "Command Line for Beginners - How to Use the Terminal Like a Pro [Full Ha
 description: "Article(s) > Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]"
 icon: iconfont icon-shell
 category:
-  - Linux
   - Shell
   - Vim
   - Article(s)

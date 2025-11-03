@@ -6,7 +6,12 @@ export const template: SidebarInfoTemplate = {
   linksMap: new Map([
     [
     "sh",[
+    ]],[
+    "sh-make",[
       "makefile", // 2024-04-21
+      // END: 2024sh-make
+      // END: 2025sh-make
+      // END: sh-make
     ]],[
     "all", [
       "makefile", // 2024-04-21

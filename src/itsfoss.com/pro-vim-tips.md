@@ -4,7 +4,6 @@ title: "8 Vim Tips And Tricks That Will Make You A Pro User"
 description: "Article(s) > 8 Vim Tips And Tricks That Will Make You A Pro User"
 icon: iconfont icon-vim
 category:
-  - Linux
   - Shell
   - Vim
   - Article(s)

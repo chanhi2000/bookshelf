@@ -68,9 +68,12 @@ Short story: Slapping `hidden=until-found` on an element in HTML enables any hid
 
 You’ll see, or more accurately *not* see, that the content is hidden with that in place:
 
-CodePen Embed Fallback
-https://codepen.io/geoffgraham/pen/zxvrOoW
-Default hidden=until-found
+<CodePen
+  user="geoffgraham"
+  slug-hash="zxvrOoW"
+  title="Default hidden=until-found"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ---
 
@@ -90,9 +93,12 @@ If we do a <kbd>Ctrl</kbd>+<kbd>F</kbd> on the keyboard to activate in-page sear
 
 That’s what I was asking myself when I started digging into this a little deeper. The most prominent example of it being used is from the [<VPIcon icon="fa-brands fa-chrome"/>Chrome for Developers docs](https://developer.chrome.com/docs/css-ui/hidden-until-found) as a faux-accordion. You know, a series of panels that open and close on click.
 
-CodePen Embed Fallback
-https://codepen.io/web-dot-dev/pen/JjMxmom
-hidden="until-found" demo
+<CodePen
+  user="web-dot-dev"
+  slug-hash="JjMxmom"
+  title="hidden until-found demo"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 But isn’t that a solved deal now that we have the [**`<details>` element**](/css-tricks.com/using-styling-the-details-element.md) at the ready? May as well use a semantic disclosure widget to, you know, *disclose content*. Indeed, browsers also set `content-visibility: hidden` on the [<VPIcon icon="iconfont icon-css-tricks"/>`::details-content`](https://css-tricks.com/almanac/pseudo-selectors/d/details-content/) portion of the element that holds the content.
 

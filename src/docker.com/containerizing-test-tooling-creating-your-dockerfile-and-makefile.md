@@ -6,12 +6,20 @@ icon: fa-brands fa-docker
 category:
   - DevOps
   - Docker
+  - Shell
+  - GNU
+  - GNU Make
   - Article(s)
 tag:
   - blog
   - docker.com
   - devops
   - docker
+  - sh
+  - shell
+  - gnu
+  - gnu-make
+  - makefile
 head:
   - - meta:
     - property: og:title
@@ -37,6 +45,16 @@ cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",
   "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "GNU Make > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/sh-make/articles/README.md",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
 ```

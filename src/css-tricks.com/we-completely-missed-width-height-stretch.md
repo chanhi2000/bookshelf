@@ -72,9 +72,12 @@ div {
 }
 ```
 
-CodePen Embed Fallback
-https://codepen.io/mrdanielschwarz/pen/VYewxej
-width: stretch demo
+<CodePen
+  user="mrdanielschwarz"
+  slug-hash="VYewxej"
+  title="width: stretch demo"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 The more *technical* answer is that the `stretch` value sets the width or height of the element’s margin box (rather than the box determined by `box-sizing`) to match the width/height of its *containing* block.
 
@@ -145,9 +148,12 @@ Okay, I’m being dramatic. Or maybe I’m not? I don’t know. I’ve actually 
 
 Opinions aside, there’s one thing that `box-sizing` certainly isn’t and that’s *animatable*. If you didn’t catch it the first time, we do transition to and from `100%` and `stretch`:
 
-CodePen Embed Fallback
-https://codepen.io/mrdanielschwarz/pen/VYewxej
-width: stretch demo
+<CodePen
+  user="mrdanielschwarz"
+  slug-hash="VYewxej"
+  title="width: stretch demo"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 Because `stretch` is a keyword though, you’ll need to [<VPIcon icon="iconfont icon-css-tricks"/>interpolate its size](https://css-tricks.com/almanac/properties/i/interpolate-size/), and you can only do that by declaring `interpolate-size: allow-keywords` (on the `:root` if you want to activate interpolation globally):
 

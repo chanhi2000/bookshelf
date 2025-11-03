@@ -77,9 +77,12 @@ In this article, I’m gonna show you how it works. But first, here’s a demo f
 
 Anyway, here’s the demo:
 
-CodePen Embed Fallback
-https://codepen.io/zellwk/pen/QWoQwEy
-Masonry Layout with CSS Grid
+<CodePen
+  user="zellwk"
+  slug-hash="QWoQwEy"
+  title="Masonry Layout with CSS Grid"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ---
 

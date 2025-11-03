@@ -4,7 +4,6 @@ title: "Vim vs Nano: What Should You Choose?"
 description: "Article(s) > Vim vs Nano: What Should You Choose?"
 icon: iconfont icon-vim
 category:
-  - Linux
   - Shell
   - Vim
   - Article(s)

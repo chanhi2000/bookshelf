@@ -235,6 +235,18 @@ export const template: SidebarInfoTemplate = {
       // END: 2025go
       // END: go
     ]],[
+    "sh-make", [
+      // END: 2018sh-make
+      "containerizing-test-tooling-creating-your-dockerfile-and-makefile", // 2019-06-05
+      // END: 2019sh-make
+      // END: 2020sh-make
+      // END: 2021sh-make
+      // END: 2022sh-make
+      // END: 2023sh-make
+      // END: 2024sh-make
+      // END: 2025sh-make
+      // END: sh-make
+    ]],[
     "pwsh", [
       "docker-windows-server-1709", // 2017-09-26
       // END: 2017pwsh

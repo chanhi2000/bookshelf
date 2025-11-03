@@ -50,6 +50,30 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/7514"/>
 
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Perfectly Pointed Tooltips: A Foundation",
+  "desc": "The Anchor Positioning API in CSS is very powerful. This is the beginning of a series where we understand it through the perfect use-case: tooltips.",
+  "link": "/frontendmasters.com/perfectly-pointed-tooltips-a-foundation.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Perfectly Pointed Tooltips: All Four Sides",
+  "desc": "Tooltips are a natural fit for the abilities of Anchor Positioning, which can help place them on *any* side or corner. It does make dealing with the pointer extra tricky though.",
+  "link": "/frontendmasters.com/perfectly-pointed-tooltips-all-four-sides.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
+
 Tooltips are a classic in web development. You click on an element, and a small bubble appears to display additional details. Behind that simple click, there tends to be JavaScript performing calculations to determine the correct position for the tooltip. Let’s try to place it at the top. Nope, not enough space. Let’s try the bottom instead. It’s also touching the right edge so let’s shift it a bit to the left. There is a lot that can go into making sure a tooltip is placed well without any cutoffs losing information.
 
 In this article, I will show you how to write good JavaScript that covers all the possibilities…
@@ -433,6 +457,30 @@ Easy! You simply change the initial configuration to consider the bottom positio
 That’s all for this first part. We learned how to place a tooltip using `position-area` and how to defined a fallback position when an overflow occurs. Not to mention the flip feature and the use of the `anchor()` function.
 
 In the second part (coming soon!), we will increase the difficulty by working with more than two positions. Take the time to digest this first part before moving to the next one I also invite you to spend a few minutes on [<VPIcon icon="fas fa-name"/>my interactive demo of `position-area`](https://css-tip.com/position-area/) to familiarize yourself with it.
+
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Perfectly Pointed Tooltips: A Foundation",
+  "desc": "The Anchor Positioning API in CSS is very powerful. This is the beginning of a series where we understand it through the perfect use-case: tooltips.",
+  "link": "/frontendmasters.com/perfectly-pointed-tooltips-a-foundation.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Perfectly Pointed Tooltips: All Four Sides",
+  "desc": "Tooltips are a natural fit for the abilities of Anchor Positioning, which can help place them on *any* side or corner. It does make dealing with the pointer extra tricky though.",
+  "link": "/frontendmasters.com/perfectly-pointed-tooltips-all-four-sides.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

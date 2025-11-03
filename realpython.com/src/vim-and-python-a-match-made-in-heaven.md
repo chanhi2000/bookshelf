@@ -4,7 +4,6 @@ title: "VIM and Python - A Match Made in Heaven"
 description: "Article(s) > VIM and Python - A Match Made in Heaven"
 icon: iconfont icon-vim
 category:
-  - Linux
   - Shell
   - Vim
   - Python

@@ -149,8 +149,6 @@ sudo pkg install mc
 
 ## 2. Ranger Console File Manager
 
-freestar.config.enabled_slots.push({ placementName: "tecmint_incontent", slotId: "tecmint_incontent" });
-
 **Ranger** is another top choice when looking for a console file manager. It has a vim-like interface, a preview of the selected file or directory, bookmarks mouse support, and tabbed view.
 
 ::: info
@@ -260,7 +258,7 @@ To install **Vifm** you can use the following commands:
 
 ::: code-tabs#sh
 
-@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmint"/>
+@tab:active <VPIcon icon="fa-brands fa-debian"/>,<VPIcon icon="fa-brands fa-ubuntu"/>,<VPIcon icon="iconfont icon-linuxmipynt"/>
 
 ```sh
 sudo apt install vifm

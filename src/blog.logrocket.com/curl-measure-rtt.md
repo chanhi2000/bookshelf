@@ -4,7 +4,6 @@ title: "How to measure round-trip time (RTT) using cURL"
 description: "Article(s) > How to measure round-trip time (RTT) using cURL"
 icon: iconfont icon-curl
 category:
-  - Linux
   - Shell
   - curl
   - Article(s)

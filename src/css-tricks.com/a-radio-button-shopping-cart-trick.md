@@ -62,9 +62,12 @@ This post covers a design referred as infinite selection. *Metaphorically* infin
 
 Here’s how it works:
 
-CodePen Embed Fallback
-https://codepen.io/rpsthecoder/pen/RNWRjva
-Infinite Selection
+<CodePen
+  user="rpsthecoder"
+  slug-hash="RNWRjva"
+  title="Infinite Selection"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 That’s right, you click an item and it jumps right into the shopping cart, complete with a smooth transition that shows it happening. You can add as many items as you want!
 
@@ -177,9 +180,12 @@ I did add a hidden `<span>` in the markup that is revealed with keyboard interac
 
 Here’s the final demo once again:
 
-CodePen Embed Fallback
-https://codepen.io/rpsthecoder/pen/RNWRjva
-Infinite Selection
+<CodePen
+  user="rpsthecoder"
+  slug-hash="RNWRjva"
+  title="Infinite Selection"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ---
 

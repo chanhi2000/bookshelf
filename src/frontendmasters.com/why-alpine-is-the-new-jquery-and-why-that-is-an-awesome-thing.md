@@ -115,7 +115,12 @@ To display these values, you can use two different directives.The `x-text`attrib
 
 Unlike Vue, Alpine.js doesn’t have a “mustache-like” language built in, but instead relies on attributes applied to your DOM itself. In this case,`span`tags. You could bind them to any element, but`span`s make sense here for simple values. I will admit, it*is*a bit verbose, but it’s nice that it’s easy to spot in code. You can see this in action below (and feel free to edit the values of course):
 
-CodePen Embed Fallback
+<CodePen
+  user="cfjedimaster"
+  slug-hash="XWvqbLN"
+  title="Alpine Article 2"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 That’s basic “render data from JavaScript in the DOM”, but let’s now show how to*conditionally*show information. Like Vue, Alpine provides two methods. The first,`x-show`, will hide or display items in the DOM based on their value:
 
@@ -147,8 +152,12 @@ The other method,`x-if`, will add and remove the contents of your DOM based on t
 
 You can test this below. Switch the value of`cool`to see it in action:
 
-cfjedimaster/pen/VwoQNXK
-Alpine Article 1
+<CodePen
+  user="cfjedimaster"
+  slug-hash="VwoQNXK"
+  title="Alpine Article 1"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 Finally, what about looping? Alpine provides the`x-for`directive. Like`x-if`, you’ll use a`template`tag with one root element. Here’s an example:
 
@@ -173,8 +182,12 @@ Finally, what about looping? Alpine provides the`x-for`directive. Like`x-if`, yo
 
 Note the use of “variable in array” syntax. You can use whatever you want here, but name it something sensible. Also, in the example above I’m looping over an array of strings. You can loop over an array of objects as well. Check it out in the embed below:
 
-cfjedimaster/pen/YzmLyzv
-Alpine Article 3
+<CodePen
+  user="cfjedimaster"
+  slug-hash="YzmLyzv"
+  title="Alpine Article 3"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ---
 
@@ -202,8 +215,12 @@ For example:
 
 The embed below demonstrates this, along with conditionally showing content based on the dropdown:
 
-cfjedimaster/pen/MWNGabj
-Alpine Article 4
+<CodePen
+  user="cfjedimaster"
+  slug-hash="MWNGabj"
+  title="Alpine Article 4"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ---
 
@@ -225,7 +242,12 @@ Because this is something folks may use quite a bit, Alpine provides a shortcut:
 
 I feel like a live embed of this would be gratuitous given how simple this is, but as it’s pictures of cats, sorry, you’re getting an embed:
 
-CodePen Embed Fallback
+<CodePen
+  user="cfjedimaster"
+  slug-hash="bGXMVad"
+  title="Alpine Article 5"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ---
 
@@ -239,7 +261,7 @@ As you can probably guess by now, events are supported by a directive, this time
   flipImage() {
     if (this.catPic.includes('/g')) this.catPic = this.catPic.replace('/g', '');
     else this.catPic = this.catPic.replace('/400', '/g/400');
-  }						 
+  }
 }">
   <img :src="catPic" x-on:click="flipImage">
 </div>
@@ -255,7 +277,12 @@ The shorthand removes`x-on:`and simply uses`@`:
 
 You can play with this below:
 
-CodePen Embed Fallback
+<CodePen
+  user="cfjedimaster"
+  slug-hash="mdNLVaR"
+  title="Alpine Article 6"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 Alpine also supports various modifies for event handling including the ability to run events once, prevent default behavior, throttle, and more. Check the[<VPIcon icon="fas fa-globe"/>modifiers](https://alpinejs.dev/directives/on#modifiers)docs for more examples.
 
@@ -300,8 +327,12 @@ document.addEventListener("alpine:init", () => {
 
 This is*much*cleaner and lets you keep your HTML and JavaScript separated as it should be. (IMO anyway!) You can see this version below:
 
-cfjedimaster/pen/qBeYqGX
-Alpine Article 7
+<CodePen
+  user="cfjedimaster"
+  slug-hash="qBeYqGX"
+  title="Alpine Article 7"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ::: note
 
@@ -311,8 +342,12 @@ Notice I’m including the Alpine `<script>` tag in the HTML instead of using Co
 
 With our logic now separated in code, it becomes easier to add new features. For example, by adding an`init`function, Alpine will automatically run the method when the application is loaded. In the*incredibly*simple application below, the`init`method is used to request a Dad Joke immediately:
 
-cfjedimaster/pen/qBeYymp
-Alpine Article 8
+<CodePen
+  user="cfjedimaster"
+  slug-hash="qBeYymp"
+  title="Alpine Article 8"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ---
 

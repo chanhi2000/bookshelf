@@ -2,10 +2,11 @@
 lang: en-US
 title: "How to Automate Documentation Conversion with Pandoc in CI/CD Pipelines"
 description: "Article(s) > How to Automate Documentation Conversion with Pandoc in CI/CD Pipelines"
-icon: iconfont icon-shell
+icon: iconfont icon-gnu
 category:
   - Shell
-  - Makefile
+  - GNU
+  - GNU Make
   - Github
   - DevOps
   - Docker
@@ -15,6 +16,8 @@ tag:
   - freecodecamp.org
   - sh
   - shell
+  - gnu
+  - gnu-make
   - makefile
   - github
   - devops
@@ -27,7 +30,7 @@ head:
       content: "How to Automate Documentation Conversion with Pandoc in CI/CD Pipelines"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines.html
-prev: /programming/sh/articles/README.md
+prev: /programming/sh-=make/articles/README.md
 date: 2024-10-24
 isOriginal: false
 author: Preston Mayieka
@@ -38,9 +41,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729707865753/d1703b3
 
 ```component VPCard
 {
-  "title": "Shell > Article(s)",
+  "title": "GNU Make > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/sh/articles/README.md",
+  "link": "/programming/sh-make/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

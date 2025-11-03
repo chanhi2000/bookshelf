@@ -80,8 +80,6 @@ It comes in various editions, including **Security**, **Home**, and **HTB (Hack 
 
 ## System Requirements
 
-freestar.config.enabled_slots.push({ placementName: "tecmint_incontent", slotId: "tecmint_incontent" });
-
 Before you begin the **ParrotOS** installation, ensure that your system meets the following minimum requirements:
 
 - Processor: 64-bit processor

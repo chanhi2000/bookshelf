@@ -61,15 +61,19 @@ But you know what JavaScript *is*. It’s another part of the native web. It’s
 
 Let’s look at some things you could learn in a day that will give you that bang for the buck.
 
+::: note
+
 We’re going to look at JavaScript code from here on out. But just so I don’t lose anyone, let me make clear *where* you would put this JavaScript code to make it work. You’re put it at the bottom of the HTML of the page you’re working on, before the closing `</body>` tag, put a `<script> /* you're code here */ </script>`. That code will run when any URL that uses that HTML loads.
 
 If you’re writing a lot of it, or want to apply it to multiple HTML documents, you could also do `<script src="./script.js"></script>` and put the JavaScript code in there. That references a file called `script.js` that you would make and put next to the HTML.
 
 Also, a lot of this code will run in the DevTools console in any of the browsers, so you could copy and paste it into there and hit Enter to try it.
 
+:::
+
 ---
 
-## 1) Learn to Select Things
+## 1. Learn to Select Things
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/Screenshot-2024-05-07-at-11.03.13%E2%80%AFAM-1024x705.png?resize=1024%2C705&ssl=1)
 
@@ -103,7 +107,7 @@ You might be thinking to yourself: but CSS classes might apply to *lots* of elem
 
 ---
 
-## 2) Learn to Update Classes (i.e. Toggle Stuff)
+## 2. Learn to Update Classes (i.e. Toggle Stuff)
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/CleanShot-2024-05-07-at-11.05.42@2x.png?resize=1024%2C736&ssl=1)
 
@@ -141,7 +145,7 @@ element.classList.toggle("raining", weather === "rain");
 
 ---
 
-## 3) Learn to Listen for Events (e.g. Scroll, Click, and Change)
+## 3. Learn to Listen for Events (e.g. Scroll, Click, and Change)
 
 Selecting elements and changing classes is powerful, but it’s very likely you’re going to want to do that *when* something happens. The *when* in JavaScript is often an **event**. It’s another API that allows us to “listen” for events. Events are happening all the time! It’s our job to respond to them when they happen.
 
@@ -177,7 +181,12 @@ You can send just about anything to `console.log()` inside those parenthesis. Tr
 
 Inside our new `{ }` in that “click handler function”, we could do the job we already know how to do: update a class.
 
-CodePen Embed Fallback
+<CodePen
+  user="chriscoyier"
+  slug-hash="bGJyzxa"
+  title="JavaScript Basics: Select, Listen, Change"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 I know that end result feels rather basic, but I hope it demystifies JavaScript a bit for you. In a sense, we’re just doing these three things:
 
@@ -187,7 +196,7 @@ I know that end result feels rather basic, but I hope it demystifies JavaScript 
 
 ---
 
-## 4) Change HTML
+## 4. Change HTML
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/CleanShot-2024-05-07-at-11.08.06@2x.png?resize=1024%2C704&ssl=1)
 
@@ -209,7 +218,7 @@ Those are just some of the many powerful things you can do to HTML once you grab
 
 ---
 
-## 5) Grab the values out of Form Elements
+## 5. Grab the values out of Form Elements
 
 We already know how to select elements, and it’s no different for form elements. Say we have a form element like:
 
@@ -239,7 +248,12 @@ sizeSlider.addEventListener("input", (e) => {
 
 Now that you can grab stuff from naturally interactive elements on the page, that should open some doors!
 
-CodePen Embed Fallback
+<CodePen
+  user="chriscoyier"
+  slug-hash="NWVKwda"
+  title="Binding Change to Range Slider"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 As an exercise, consider a password field like this:
 
@@ -285,6 +299,8 @@ document.designMode = "on";
 
 This is probably most appropriate as a snippet to put in the DevTools console as a one-off, as having it *always* on would be weird. When this “mode” is on, every element on the page is editable. The text content of it, anyway.
 
+<VidStack src="https://videopress.com/634e2218-a64e-4d3f-a218-211683d612aa" />
+
 More:
 
 - If you want parts of a page to be editable (that aren’t already form elements), you can always put `contentEditable` on them.
@@ -309,7 +325,12 @@ These are a native part of the web platform and can be used no matter what other
 
 Here’s a silly example where the only job this Web Component has is to inject a `<style>` tag into itself that styles itself.
 
-CodePen Embed Fallback
+<CodePen
+  user="chriscoyier"
+  slug-hash="pomzrKv"
+  title="Web Component: Radiant Wrapper"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 Think: “A small, re-usable bit of styling and/or functionality that wraps a bit of otherwise perfectly usable HTML”. Jeremy Keith [<VPIcon icon="fas fa-globe"/>listed some examples](https://adactio.com/journal/tags/webcomponents) recently:
 

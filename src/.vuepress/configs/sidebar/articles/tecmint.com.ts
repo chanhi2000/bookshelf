@@ -5,6 +5,37 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "install-postgresql-on-ubuntu", // 2025-10-15
+    "best-linux-init-systems", // 2025-10-13
+    "linux-command-line-tools-data-scientists", // 2025-10-09
+    "introduction-to-makefiles-gnu-make", // 2025-10-08
+    "mysql-database-interview-linux", // 2025-10-07
+    "ssh-security-linux-tips", // 2025-10-06
+    "find-and-delete-duplicate-files-in-linux", // 2025-10-01
+    "linux-kernel-boot-time-parameters-explained", // 2025-09-30
+    "unison-file-synchronizer-linux", // 2025-09-23
+    "su-vs-sudo-and-how-to-configure-sudo-in-linux", // 2025-09-22
+    "backup-restore-ubuntu-packages-dpkg", // 2025-09-19
+    "install-cpanel-whm-almalinux", // 2025-09-18
+    "monitor-disk-usage-bash-script", // 2025-09-17
+    "upgrade-linux-mint", // 2025-09-15
+    "increase-root-partition-linux", // 2025-09-11
+    "best-ubuntu-gnome-extensions", // 2025-09-09
+    "command-line-tools-to-monitor-linux-performance", // 2025-09-08
+    "asciinema-record-terminal-sessions-in-linux", // 2025-09-06
+    "check-command-exit-status-in-linux", // 2025-09-05
+    "find-my-dns-server-ip-address-in-linux", // 2025-09-05
+    "best-free-open-source-software", // 2025-09-04
+    "install-zip-and-unzip-in-linux", // 2025-09-02
+    "list-all-running-services-under-systemd-in-linux", // 2025-09-02
+    "create-alias-in-linux", // 2025-07-29
+    "sftp-command-examples", // 2025-07-29
+    "linux-bootable-usb-creators", // 2025-07-29
+    "install-dig-and-nslookup-in-linux", // 2025-07-28
+    "clear-ram-memory-cache-buffer-and-swap-space-on-linux", // 2025-07-25
+    "linux-networking-commands", // 2025-07-23
+    "setup-local-repositories-in-ubuntu", // 2025-07-22
+    "mkcert-create-ssl-certs-for-local-development", // 2025-07-21
     "reduce-ram-cpu-usage-on-linux", // 2025-02-27
   ]
 }
@@ -100,7 +131,29 @@ export const template: SidebarInfoTemplate = {
       "install-gcc-c-compiler-fedora", // 2024-08-13
       "learn-use-awk-special-patterns-begin-and-end", // 2024-08-14
       // END: 2024sh
+      "linux-networking-commands", // 2025-07-23
+      "clear-ram-memory-cache-buffer-and-swap-space-on-linux", // 2025-07-25
+      "install-dig-and-nslookup-in-linux", // 2025-07-28
+      "sftp-command-examples", // 2025-07-29
+      "create-alias-in-linux", // 2025-07-30
+      "install-zip-and-unzip-in-linux", // 2025-09-02
+      "check-command-exit-status-in-linux", // 2025-09-05
+      "asciinema-record-terminal-sessions-in-linux", // 2025-09-06
+      "command-line-tools-to-monitor-linux-performance", // 2025-09-08
+      "increase-root-partition-linux", // 2025-09-11
+      "monitor-disk-usage-bash-script", // 2025-09-17
+      "su-vs-sudo-and-how-to-configure-sudo-in-linux", // 2025-09-22
+      "unison-file-synchronizer-linux", // 2025-09-23
+      "find-and-delete-duplicate-files-in-linux", // 2025-10-01
+      "ssh-security-linux-tips", // 2025-10-06
+      "best-linux-init-systems", // 2025-10-13
+      // END: 2025sh
       // END: sh
+    ]],[
+    "sh-make", [
+      "introduction-to-makefiles-gnu-make", // 2025-10-08
+      // END: 2025sh-make
+      // END: sh-make
     ]],[
     "js-node", [
       "minify-css-and-js-files-linux", // 2024-08-01
@@ -135,6 +188,19 @@ export const template: SidebarInfoTemplate = {
       "linux-terminal-file-managers", // 2024-09-10
       // END: 2024linux-debian
       "reduce-ram-cpu-usage-on-linux", // 2025-02-27
+      "setup-local-repositories-in-ubuntu", // 2025-07-22
+      "linux-bootable-usb-creators", // 2025-07-29
+      "create-alias-in-linux", // 2025-07-30
+      "list-all-running-services-under-systemd-in-linux", // 2025-09-02
+      "install-zip-and-unzip-in-linux", // 2025-09-02
+      "find-my-dns-server-ip-address-in-linux", // 2025-09-05
+      "best-ubuntu-gnome-extensions", // 2025-09-09
+      "upgrade-linux-mint", // 2025-09-15
+      "monitor-disk-usage-bash-script", // 2025-09-17
+      "unison-file-synchronizer-linux", // 2025-09-23
+      "find-and-delete-duplicate-files-in-linux", // 2025-10-01
+      "install-postgresql-on-ubuntu", // 2025-10-15
+      "backup-restore-ubuntu-packages-dpkg", // 2025-09-19
       // END: 2025linux-debian
       // END: linux-debian
     ]],[
@@ -155,9 +221,27 @@ export const template: SidebarInfoTemplate = {
       "clifm-fast-commandline-file-manager", // 2024-08-19
       "linux-terminal-file-managers", // 2024-09-10
       // END: 2024linux-fedora
+      "linux-bootable-usb-creators", // 2025-07-29
+      "list-all-running-services-under-systemd-in-linux", // 2025-09-02
+      "install-zip-and-unzip-in-linux", // 2025-09-02
+      "find-my-dns-server-ip-address-in-linux", // 2025-09-05
+      "monitor-disk-usage-bash-script", // 2025-09-17
+      "install-cpanel-whm-almalinux", // 2025-09-18
       "reduce-ram-cpu-usage-on-linux", // 2025-02-27
+      "unison-file-synchronizer-linux", // 2025-09-23
+      "find-and-delete-duplicate-files-in-linux", // 2025-10-01
       // END: 2025linux-fedora
       // END: linux-fedora
+    ]],[
+    "arch-linux", [
+      "install-zip-and-unzip-in-linux", // 2025-09-02
+      // END: 2025arch-linux
+      // END: arch-linux
+    ]],[
+    "opensuse", [
+      "install-zip-and-unzip-in-linux", // 2025-09-02
+      // END: 2025opensuse
+      // END: opensuse
     ]],[
     "nginx", [
       "create-nginx-server-blocks-in-centos", // 2022-02-07
@@ -181,6 +265,21 @@ export const template: SidebarInfoTemplate = {
       // END: 2024rsync
       // END: 2025rsync
       // END: rsync
+    ]],[
+    "asciinema", [
+      "asciinema-record-terminal-sessions-in-linux", // 2025-09-06
+      // END: 2025asciinema
+      // END: asciinema
+    ]],[
+    "postgres", [
+      "install-postgresql-on-ubuntu", // 2025-10-15
+      // END: 2025postgres
+      // END: postgres
+    ]],[
+    "mysql", [
+      "mysql-database-interview-linux", // 2025-10-07
+      // END: 2025mysql
+      // END: mysql
     ]],[
     "all", [
       Y2025,

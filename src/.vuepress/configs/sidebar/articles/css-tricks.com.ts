@@ -5,6 +5,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "getting-creative-with-small-screens", // 2025-10-29
+    "pure-css-tabs-with-details-grid-and-subgrid", // 2025-10-27
     "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
     "an-introduction-to-javascript-expressions", // 2025-10-22
     "building-a-honeypot-field-that-works", // 2025-10-20
@@ -258,6 +260,8 @@ export const template: SidebarInfoTemplate = {
       "we-completely-missed-width-height-stretch", // 2025-10-10
       "sequential-linear-animation-with-n-elements", // 2025-10-15
       "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
+      "pure-css-tabs-with-details-grid-and-subgrid", // 2025-10-27
+      "getting-creative-with-small-screens", // 2025-10-29
       // END: 2025css
       // END: css
     ]],[

@@ -1440,8 +1440,30 @@ const REACT_HANDBOOK_FOR_BEGINNERS_LEARN_JSX_HOOKS_RENDERING: SidebarInfoSubgrou
 const HOW_TO_IMPLEMENT_MULTI_THREADING_IN_NODEJS_WITH_WORKER_THREADS_FULL_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-10-25
   text: "How to Implement Multi-Threading in Node.js With Worker Threads [Full Handbook]",
   collapsible: true,
-  icon: ' iconfont icon-expressjs',
+  icon: 'iconfont icon-expressjs',
   subPath:'how-to-implement-multi-threading-in-nodejs-with-worker-threads-full-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const EVENT_BASED_ARCHITECTURES_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS: SidebarInfoSubgroupTemplate = { // 2025-10-25
+  text: "Event-Based Architectures in JavaScript: A Handbook for Devs",
+  collapsible: true,
+  icon: 'fa-brands fa-js',
+  subPath:'event-based-architectures-in-javascript-a-handbook-for-devs',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_I_BUILT_A_MAKATON_AI_COMPANION_USING_GEMINI_NANO_AND_THE_GEMINI_API: SidebarInfoSubgroupTemplate = { // 2025-11-08
+  text: "How I Built a Makaton AI Companion Using Gemini Nano and the Gemini API",
+  collapsible: true,
+  icon: 'fa-brands fa-js',
+  subPath:'how-i-built-a-makaton-ai-companion-using-gemini-nano-and-the-gemini-api',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1453,6 +1475,21 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "the-state-of-bluetooth-whats-new-whats-possible-and-how-to-use-it", // 2025-11-08
+    "choose-the-right-llm-for-your-projects-benchmarking-guide", // 2025-11-08
+    HOW_I_BUILT_A_MAKATON_AI_COMPANION_USING_GEMINI_NANO_AND_THE_GEMINI_API, // 2025-11-08
+    "how-to-structure-your-readme-file", // 2025-11-07
+    "how-to-reduce-round-trip-time-rtt-with-nextjs", // 2025-11-06
+    "cryptography-for-beginners-full-python-course-sha-256-aes-rsa-passwords", // 2025-11-06
+    "creative-web-development-with-threejs-and-blender", // 2025-11-06
+    "private-voice-assistant-using-open-source-tools", // 2025-11-06
+    "how-to-use-langchain-and-langgraph-a-beginners-guide-to-ai-workflows", // 2025-11-06
+    EVENT_BASED_ARCHITECTURES_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS, // 2025-11-06
+    "global-execution-context-and-temporal-dead-zone-explained", // 2025-11-05
+    "how-proto-prototype-and-inheritance-actually-work-in-javascript", // 2025-11-05
+    "top-cybersecurity-certifications-to-boost-your-career", // 2025-11-04
+    "a-beginners-guide-to-automation-with-n8n", // 2025-11-04
+    "how-to-manage-python-packages-with-uv", // 2025-11-03
     "learn-cybersecurity-from-harvard-university", // 2025-10-31
     "clawing-out-of-underperformance", // 2025-10-31
     "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
@@ -2910,6 +2947,10 @@ export const template: SidebarInfoTemplate = {
       "optimize-search-in-javascript-with-debouncing", // 2025-09-24
       "how-to-securely-deploy-apis-to-amazon-lambda-a-practical-guide", // 2025-10-10
       "how-to-build-a-chrome-extension-using-javascript-and-manifest-v3", // 2025-10-29
+      "how-proto-prototype-and-inheritance-actually-work-in-javascript", // 2025-11-05
+      "global-execution-context-and-temporal-dead-zone-explained", // 2025-11-05
+      EVENT_BASED_ARCHITECTURES_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS, // 2025-11-06
+      HOW_I_BUILT_A_MAKATON_AI_COMPANION_USING_GEMINI_NANO_AND_THE_GEMINI_API, // 2025-11-08
       // END: 2025js
       // END: js
     ]],[
@@ -3231,6 +3272,7 @@ export const template: SidebarInfoTemplate = {
       "learn-nextjs-15-caching-and-rendering", // 2025-08-14
       "how-to-deploy-a-nextjs-api-with-postgresql-and-sevalla", // 2025-08-18
       "how-to-choose-the-right-nextjs-authentication-library", // 2025-09-23
+      "how-to-reduce-round-trip-time-rtt-with-nextjs", // 2025-11-06
       // END: 2025js-next
       // END: js-next
     ]],[
@@ -3331,6 +3373,7 @@ export const template: SidebarInfoTemplate = {
     "js-n8n", [
       "how-to-vibe-code-with-help-from-n8n", // 2025-07-09
       "how-to-build-ai-workflows-with-n8n", // 2025-10-14
+      "a-beginners-guide-to-automation-with-n8n", // 2025-11-04
       // END: 2025js-n8n
       // END: js-n8n
     ]],[
@@ -3347,6 +3390,7 @@ export const template: SidebarInfoTemplate = {
     "js-three", [
       "how-webgl-and-threejs-power-interactive-online-stores", // 2025-08-26
       "create-3d-web-experiences-with-javascript-and-threejs", // 2025-08-28
+      "creative-web-development-with-threejs-and-blender", // 2025-11-06
       // END: 2025js-three
       // END: js-three
     ]],[
@@ -3562,8 +3606,17 @@ export const template: SidebarInfoTemplate = {
       "mcp-vs-apis-whats-the-real-difference", // 2025-10-30
       "how-to-parse-json-in-python-with-examples", // 2025-10-30
       "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
+      "how-to-manage-python-packages-with-uv", // 2025-11-03
+      "how-to-use-langchain-and-langgraph-a-beginners-guide-to-ai-workflows", // 2025-11-06
+      "private-voice-assistant-using-open-source-tools", // 2025-11-06
+      "cryptography-for-beginners-full-python-course-sha-256-aes-rsa-passwords", // 2025-11-06
       // END: 2025py
       // END: py
+    ]],[
+    "uv", [
+      "how-to-manage-python-packages-with-uv", // 2025-11-03
+      // END: 2025uv
+      // END: uv
     ]],[
     "py-django", [
       "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
@@ -3673,6 +3726,7 @@ export const template: SidebarInfoTemplate = {
       "build-smart-expense-tracker-with-python-and-llms", // 2025-09-09
       "how-to-forecast-time-series-data-with-python-darts", // 2025-10-07
       HOW_TO_BUILD_END_TO_END_MACHINE_LEARNING_LINEAGE, // 2025-10-16
+      "choose-the-right-llm-for-your-projects-benchmarking-guide", // 2025-11-08
       // END: 2025py-pandas
       // END: py-pandas
     ]],[
@@ -3982,7 +4036,6 @@ export const template: SidebarInfoTemplate = {
       "linux-terminal-piping-and-redirection-guide", //2024-04-27
       HOW_TO_CREATE_AN_INTERACTIVE_TERMINAL_PORTFOLIO_WEBSITE, // 2024-04-29
       "how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial", // 2024-10-02
-      "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
       "tools-for-open-source-intelligence-gathering", // 2024-10-29
       "how-to-automate-branch-specific-netlify-configurations-with-a-bash-script", // 2024-12-17
       // END: 2024sh
@@ -3994,6 +4047,13 @@ export const template: SidebarInfoTemplate = {
       "integrate-ai-into-your-terminal-using-opencode", // 2025-10-10
       // END: 2025sh
       // END: sh
+    ]],[
+    "sh-make", [
+      "how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines", // 2024-10-24
+      // END: 2024sh-make
+      LEARN_EMBEDDED_SYSTEMS_FIRMWARE_BASICS_HANDBOOK_FOR_DEVS, // 2025-06-24
+      // END: 2025sh-make
+      // END: sh-make
     ]],[
     "powershell", [
       "what-is-a-process-id-process-management-tutorial", // 2025-01-31
@@ -4072,6 +4132,8 @@ export const template: SidebarInfoTemplate = {
       // END: md2023
       "how-to-start-your-open-source-journey-beginners-guide", // 2024-10-03
       // END: md2024
+      "how-to-structure-your-readme-file", // 2025-11-07
+      // END: md2025
       // END: md
     ]],[
     "devops", [
@@ -4401,6 +4463,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-containerize-and-deploy-your-nodejs-applications", // 2025-10-10
       "how-to-turn-websites-into-llm-ready-data-using-firecrawl", // 2025-10-23
       "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
+      "a-beginners-guide-to-automation-with-n8n", // 2025-11-04
       // END: 2025sevalla
       // END: sevalla
     ]],[
@@ -4564,6 +4627,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-fix-cross-origin-errors", // 2025-10-01
       "how-to-use-strix-the-open-source-ai-agent-for-security-testing", // 2025-10-14
       "learn-cybersecurity-from-harvard-university", // 2025-10-31
+      "top-cybersecurity-certifications-to-boost-your-career", // 2025-11-04
+      "cryptography-for-beginners-full-python-course-sha-256-aes-rsa-passwords", // 2025-11-06
       // END: 2025security
       // END: security
     ]],[
@@ -4632,6 +4697,11 @@ export const template: SidebarInfoTemplate = {
       "how-to-recreate-figma-components-in-penpot", // 2025-03-27
       // END: 2025penpot
       // END: penpot
+    ]],[
+    "blender", [
+      "creative-web-development-with-threejs-and-blender", // 2025-11-06
+      // END: 2025blender
+      // END: blender
     ]],[
     "xls", [
       "learn-the-top-excel-formulas-and-functions", // 2025-03-27
@@ -4964,6 +5034,8 @@ export const template: SidebarInfoTemplate = {
       "integrate-ai-into-your-terminal-using-opencode", // 2025-10-10
       "pass-the-google-generative-ai-leader-certification-exam", // 2025-10-13
       "how-to-build-a-voice-ai-agent-using-open-source-tools", // 2025-10-22
+      "private-voice-assistant-using-open-source-tools", // 2025-11-06
+      "choose-the-right-llm-for-your-projects-benchmarking-guide", // 2025-11-08
       // END: 2025llm
       // END: llm
     ]],[
@@ -4994,6 +5066,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-an-ai-study-planner-agent-using-gemini-in-python", // 2025-09-06
       "how-to-build-a-google-sheet-ai-agent", // 2025-09-26
       BUILD_AN_AI_CODING_AGENT_WITH_PYTHON_AND_GEMINI, // 2025-10-03
+      HOW_I_BUILT_A_MAKATON_AI_COMPANION_USING_GEMINI_NANO_AND_THE_GEMINI_API, // 2025-11-08
       // END: 2025gemini
       // END: gemini
     ]],[
@@ -5025,6 +5098,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024langchain
       "langchain-alternatives-for-building-ai-and-agentic-workflows", // 2025-01-31
       "build-a-local-ai", // 2025-05-07
+      "how-to-use-langchain-and-langgraph-a-beginners-guide-to-ai-workflows", // 2025-11-06
       // END: 2025langchain
       // END: langchain
     ]],[
@@ -5190,6 +5264,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-choose-the-best-programming-languages-libraries-and-patterns", // 2025-08-11
       "master-technical-interviews-by-learning-data-structures-and-algorithms", // 2025-10-22
       "clawing-out-of-underperformance", // 2025-10-31
+      "the-state-of-bluetooth-whats-new-whats-possible-and-how-to-use-it", // 2025-11-08
       // END: 2025coen
       // END: coen
     ]],[

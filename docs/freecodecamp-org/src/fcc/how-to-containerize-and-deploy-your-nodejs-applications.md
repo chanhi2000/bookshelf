@@ -304,7 +304,11 @@ Containerization is one of the most important shifts in modern software developm
 
 In this guide, we built a small Node.js API, created a Dockerfile, tested the container locally, pushed it to a registry, and deployed it to the cloud. The steps you followed here apply to much larger and more complex applications as well. Once you get the basics, you can scale up your workflows to production-level projects.
 
+::: info
+
 Hope you enjoyed this article. Connect with me [on Linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva/?originalSubdomain=in) or [<VPIcon icon="fas fa-globe"/>visit my website](https://manishshivanandhan.com/).
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

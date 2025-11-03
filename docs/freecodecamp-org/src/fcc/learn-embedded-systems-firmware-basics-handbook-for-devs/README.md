@@ -6,6 +6,9 @@ icon: iconfont icon-c
 category:
   - C
   - C++
+  - Shell
+  - GNU
+  - GNU Make
   - Hardware
   - ST Microelectronics
   - Article(s)
@@ -27,7 +30,7 @@ head:
     - property: og:description
       content: "Learn Embedded Systems Firmware Basics - A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-embedded-systems-firmware-basics-handbook-for-devs.html
+      content: https://chanhi2000.github.io/bookshelf/fcc/learn-embedded-systems-firmware-basics-handbook-for-devs/
 prev: /programming/c/articles/README.md
 date: 2025-06-24
 isOriginal: false
@@ -54,6 +57,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750701027343/86918e8
   "title": "C++ > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/cpp/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "GNU Make > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/sh-make/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -396,7 +409,7 @@ A linker script tells the linker (`ld`) how to organize the program in memory wh
 
 Here’s an example of a simple linker script for a STM32F4 microcontroller:
 
-```makefile :collapsed-lines
+```makefile :collapsed-lines title+"Makefile"
 /* STM32F4 Cortex‑M4 Simple Linker Script */
 
 ENTRY(Reset_Handler)
@@ -1156,7 +1169,7 @@ Whether you're preparing for embedded job interviews, building your own IoT proj
 {
   "title": "Learn Embedded Systems Firmware Basics - A Handbook for Developers",
   "desc": "Have you ever wondered how your fridge knows when to cool, or how a coffee machine knows when to stop pouring? Behind the scenes, these devices are powered by embedded systems - small, dedicated computers designed to perform specific tasks reliably a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-embedded-systems-firmware-basics-handbook-for-devs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-embedded-systems-firmware-basics-handbook-for-devs/",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

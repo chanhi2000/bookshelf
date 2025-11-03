@@ -15,6 +15,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "the-idempotent-consumer-pattern-in-dotnet-and-why-you-need-it", // 2025-11-08
     "whats-new-in-ef-core-10-leftjoin-and-rightjoin-operators-in-linq", // 2025-11-01
     "the-interview-question-that-changed-how-i-think-about-system-design", // 2025-10-25
     "6-steps-for-setting-up-a-new-dotnet-project-the-right-way", // 2025-10-18

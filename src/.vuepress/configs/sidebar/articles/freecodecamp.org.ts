@@ -1440,7 +1440,7 @@ const REACT_HANDBOOK_FOR_BEGINNERS_LEARN_JSX_HOOKS_RENDERING: SidebarInfoSubgrou
 const HOW_TO_IMPLEMENT_MULTI_THREADING_IN_NODEJS_WITH_WORKER_THREADS_FULL_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-10-25
   text: "How to Implement Multi-Threading in Node.js With Worker Threads [Full Handbook]",
   collapsible: true,
-  icon: 'iconfont icon-expressjs',
+  icon: ' iconfont icon-expressjs',
   subPath:'how-to-implement-multi-threading-in-nodejs-with-worker-threads-full-handbook',
   children: [
     'README',
@@ -1453,6 +1453,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "a-beginners-guide-to-automation-with-n8n", // 2025-11-04
+    "how-to-manage-python-packages-with-uv", // 2025-11-03
     "learn-cybersecurity-from-harvard-university", // 2025-10-31
     "clawing-out-of-underperformance", // 2025-10-31
     "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
@@ -3331,6 +3333,7 @@ export const template: SidebarInfoTemplate = {
     "js-n8n", [
       "how-to-vibe-code-with-help-from-n8n", // 2025-07-09
       "how-to-build-ai-workflows-with-n8n", // 2025-10-14
+      "a-beginners-guide-to-automation-with-n8n", // 2025-11-04
       // END: 2025js-n8n
       // END: js-n8n
     ]],[
@@ -3562,8 +3565,14 @@ export const template: SidebarInfoTemplate = {
       "mcp-vs-apis-whats-the-real-difference", // 2025-10-30
       "how-to-parse-json-in-python-with-examples", // 2025-10-30
       "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
+      "how-to-manage-python-packages-with-uv", // 2025-11-03
       // END: 2025py
       // END: py
+    ]],[
+    "uv", [
+      "how-to-manage-python-packages-with-uv", // 2025-11-03
+      // END: 2025uv
+      // END: uv
     ]],[
     "py-django", [
       "how-to-create-an-analytics-dashboard-in-django-app", // 2020-02-12
@@ -4401,6 +4410,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-containerize-and-deploy-your-nodejs-applications", // 2025-10-10
       "how-to-turn-websites-into-llm-ready-data-using-firecrawl", // 2025-10-23
       "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
+      "a-beginners-guide-to-automation-with-n8n", // 2025-11-04
       // END: 2025sevalla
       // END: sevalla
     ]],[

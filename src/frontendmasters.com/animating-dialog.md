@@ -54,17 +54,26 @@ But what about animating? That’s a little trickier. At first glance it doesn�
 
 Fortunately, thanks to modern CSS, we can do it without resorting to JavaScript.
 
-CodePen Embed Fallback
+<CodePen
+  user="matthewmorete"
+  slug-hash="QWRywza"
+  title="CSS Dialog Animations (Max browser support with @keyframes)"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 Here we’ll take a look at opening and closing animations separately, discussing solutions using transitions and animations for each.
 
 To keep my code simple I’ll stick to only animating opacity, though these techniques still apply to more complex examples.
+
+::: note
 
 The nice thing about only animating opacity is we don’t have any extra accessibility concerns. If you’re involving some form of motion in your animations, you’ll need to ensure the relevant code is wrapped in a media query like:
 
 ```css
 @media (prefers-reduced-motion: no-preference) { }
 ```
+
+:::
 
 ---
 
@@ -112,7 +121,12 @@ dialog {
 }
 ```
 
-CodePen Embed Fallback
+<CodePen
+  user="matthewmorete"
+  slug-hash="GRaZxNx"
+  title="CSS Dialog Animations (Opening only with @starting-style)"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 Success! That’s all it takes, our `<dialog>` will now transition opacity while opening.
 
@@ -140,7 +154,12 @@ dialog[open] {
 }
 ```
 
-CodePen Embed Fallback
+<CodePen
+  user="matthewmorete"
+  slug-hash="bGypvem"
+  title="CSS Dialog Animations (Opening only with @keyframes)"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 That’s all we need! We solve the problem of the browser needing to know what initial value to use by explicitly declaring it within the animation.
 
@@ -173,7 +192,11 @@ Usually when attempting to transition discrete properties we see it doesn’t wo
 
 What `transition-behavior: allow-discrete` usually does is allow us to request that this change occur at 50% of the way through the transition, rather than 0%. I say usually, because for transitions that involve display: none, this change will instead occur at either 100% or 0%, based on if we’re animating to or from display: none. This ensures that our element will remain visible for the entire duration of the transition. Problem #1 solved.
 
+::: note
+
 Since the value changes at the beginning or end of the transition, it doesn’t matter what value we use for `animation-timing-function` so feel free to omit it from the shorthand.
+
+:::
 
 `transition-behavior` is currently not available in Firefox or Safari, but as it’s also an [<VPIcon icon="fas fa-globe"/>Interop 2024](https://wpt.fyi/interop-2024) target along with `@starting-style`, we can be optimistic that it’ll be widely available by the end of the year.
 
@@ -238,7 +261,11 @@ dialog {
 
 While I find it a little weird to be using both animation and transition, I like that our animation code is kept separate from our management of the browser’s default behaviour.
 
+::: note
+
 We need to ensure our `animation-duration` is at least as large as our `transition-duration` to ensure neither overlay or display change before the end of our animation.
+
+:::
 
 Next up is the closing animation itself.
 
@@ -251,7 +278,7 @@ dialog {
   transition:
     display 1s allow-discrete,
     overlay 1s allow-discrete;
-	
+
   animation: close 1s forwards;
   &[open] {
     animation: open 1s forwards;
@@ -269,13 +296,18 @@ dialog {
 }
 ```
 
-CodePen Embed Fallback
+<CodePen
+  user="matthewmorete"
+  slug-hash="QWRywza"
+  title="CSS Dialog Animations (Max browser support with @keyframes)"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 And that’s all it takes! A `<dialog>` with a cross-browser opening animation and a progressively enhanced closing animation. It’s a little less concise with a bit more duplication than our transition only example, but you can decide if the extra browser support is worth it for you.
 
 ---
 
-## [](#conclusion)**Conclusion**
+## Conclusion
 
 It’s honestly quite amazing how little CSS is required to make this happen. Tools like `<dialog>`, `overlay` and `transition-behavior` have taken what was once an incredibly complicated task and reduced it to just a few lines of CSS.
 

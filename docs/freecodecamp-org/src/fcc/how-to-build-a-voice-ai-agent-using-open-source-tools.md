@@ -5,12 +5,18 @@ description: "Article(s) > How to Build a Voice AI Agent Using Open-Source Tools
 icon: fa-brands fa-rust
 category:
   - Rust
+  - AI
+  - LLM
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
   - rs
   - rust
+  - ai
+  - artificial-intelligence
+  - llm
+  - large-language-models
 head:
   - - meta:
     - property: og:title
