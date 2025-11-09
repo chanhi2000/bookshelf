@@ -5,6 +5,12 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "should-we-even-have-closed", // 2025-11-20
+    "the-most-hated-css-feature-asin-acos-atan-and-atan2", // 2025-11-17
+    "the-range-syntax-has-come-to-container-style-queries-and-if", // 2025-11-13
+    "headings-semantics-fluidity-and-styling-oh-my", // 2025-11-10
+    "explaining-the-accessible-benefits-of-using-semantic-html-elements", // 2025-11-06
+    "the-most-hated-css-feature-tan", // 2025-11-03
     "getting-creative-with-small-screens", // 2025-10-29
     "pure-css-tabs-with-details-grid-and-subgrid", // 2025-10-27
     "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
@@ -54,6 +60,8 @@ const Y2024: SidebarYeargroupTemplate = {
   children: [
     // END: 2024
     "hash-tag-links-padding", // 2024-12-20
+    "a-complete-guide-to-css-media-queries", // 2024-12-19
+    "css-container-queries", // 2024-09-26
   ],
 }
 
@@ -225,6 +233,8 @@ export const template: SidebarInfoTemplate = {
       "when-do-you-use-css-columns", // 2022-08-18
       // END: 2022css
       // END: 2023css
+      "css-container-queries", // 2024-09-26
+      "a-complete-guide-to-css-media-queries", // 2024-12-19
       "hash-tag-links-padding", // 2024-12-20
       // END: 2024css
       "revisiting-css-multi-column-layout", // 2025-01-27
@@ -262,6 +272,12 @@ export const template: SidebarInfoTemplate = {
       "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
       "pure-css-tabs-with-details-grid-and-subgrid", // 2025-10-27
       "getting-creative-with-small-screens", // 2025-10-29
+      "the-most-hated-css-feature-tan", // 2025-11-03
+      "explaining-the-accessible-benefits-of-using-semantic-html-elements", // 2025-11-06
+      "headings-semantics-fluidity-and-styling-oh-my", // 2025-11-10
+      "the-range-syntax-has-come-to-container-style-queries-and-if", // 2025-11-13
+      "the-most-hated-css-feature-asin-acos-atan-and-atan2", // 2025-11-17
+      "should-we-even-have-closed", // 2025-11-20
       // END: 2025css
       // END: css
     ]],[

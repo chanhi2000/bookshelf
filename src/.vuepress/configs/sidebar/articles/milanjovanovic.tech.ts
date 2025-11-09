@@ -15,6 +15,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "vertical-slice-architecture-where-does-the-shared-logic-live", // 2025-11-29
+    "the-false-comfort-of-the-happy-path-decoupling-your-services", // 2025-11-22
+    "exploring-csharp-file-based-apps-in-dotnet-10", // 2025-11-15
     "the-idempotent-consumer-pattern-in-dotnet-and-why-you-need-it", // 2025-11-08
     "whats-new-in-ef-core-10-leftjoin-and-rightjoin-operators-in-linq", // 2025-11-01
     "the-interview-question-that-changed-how-i-think-about-system-design", // 2025-10-25
@@ -361,6 +364,7 @@ export const template: SidebarInfoTemplate = {
       "using-stored-procedures-and-functions-with-ef-core-and-postgresql", // 2205-10-04
       "building-fast-serverless-apis-with-minimal-apis-on-aws-lambda", // 2025-10-11
       "6-steps-for-setting-up-a-new-dotnet-project-the-right-way", // 2025-10-18
+      "exploring-csharp-file-based-apps-in-dotnet-10", // 2025-11-15
       // END: 2025cs
       // END: cs
     ]],[

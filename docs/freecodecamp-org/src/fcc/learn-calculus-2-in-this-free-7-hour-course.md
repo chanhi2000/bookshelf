@@ -4,16 +4,16 @@ title: "Learn Calculus 2 in This Free 7-Hour Course"
 description: "Article(s) > Learn Calculus 2 in This Free 7-Hour Course"
 icon: fas fa-square-root-variable
 category: 
-  - Mathematics
   - Science
+  - Mathematics
   - Youtube
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
   - science
-  - mathematics
   - math
+  - mathematics
   - youtube
   - crashcourse
 head:

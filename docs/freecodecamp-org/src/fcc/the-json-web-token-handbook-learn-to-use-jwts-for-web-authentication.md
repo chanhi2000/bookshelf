@@ -4,9 +4,9 @@ title: "The JSON Web Token Handbook: Learn to Use JWTs for Web Authentication"
 description: "Article(s) > The JSON Web Token Handbook: Learn to Use JWTs for Web Authentication"
 icon: iconfont icon-expressjs
 category:
-  - DevOps
   - Node.js
   - Express.js
+  - DevOps
   - Security
   - JWT
   - Data Science

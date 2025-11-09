@@ -249,7 +249,7 @@ speaker = "michael"
 
 ### Configure MCP and actions
 
-Of course, an “AI agent” is not just about chatting. It is about performing actions on specific tasks. For example, the [“US civics test prep”](https://youtube.com/watch?v=Zy-rLT4EgZQ) use case, which I shared as an example video at the beginning of this article, requires the agent to get exam questions from a database, and then generate responses that guide the user toward the official answer. This is accomplished using LLM tools and actions.
+Of course, an “AI agent” is not just about chatting. It is about performing actions on specific tasks. For example, the [“US civics test prep”](https://youtu.be/Zy-rLT4EgZQ) use case, which I shared as an example video at the beginning of this article, requires the agent to get exam questions from a database, and then generate responses that guide the user toward the official answer. This is accomplished using LLM tools and actions.
 
 - The LLM detects that the user is requesting a new question.
 - Instead of responding in natural language, it responds with a JSON structure that instructs the agent to "get a new question and answer."

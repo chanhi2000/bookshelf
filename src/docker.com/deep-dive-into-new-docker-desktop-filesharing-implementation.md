@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSEDocker"
-description: "Article(s) > Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSEDocker"
+title: "Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSE"
+description: "Article(s) > Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSE"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSEDocker"
+      content: "Article(s) > Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSE"
     - property: og:description
-      content: "Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSEDocker"
+      content: "Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSE"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/docker.com/deep-dive-into-new-docker-desktop-filesharing-implementation.html
 prev: /devops/docker/articles/README.md
@@ -46,7 +46,7 @@ cover: https://docker.com/app/uploads/2020/01/shane-aldendorff-mQHEgroKw2k-unspl
 ---
 
 <SiteInfo
-  name="Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSEDocker"
+  name="Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSE"
   desc="The latest Edge release of Docker Desktop for Windows 2.1.7.0 has a completely new filesharing system using FUSE instead of Samba. Part 1 in the series presented the performance improvements and explains how to give feedback. Part 2 gives more insight about the new architecture."
   url="https://docker.com/blog/deep-dive-into-new-docker-desktop-filesharing-implementation"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
@@ -131,7 +131,7 @@ The new filesystem implementation is not relevant on WSL 2 (currently available 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSEDocker",
+  "title": "Deep Dive Into the New Docker Desktop filesharing Implementation Using FUSE",
   "desc": "The latest Edge release of Docker Desktop for Windows 2.1.7.0 has a completely new filesharing system using FUSE instead of Samba. Part 1 in the series presented the performance improvements and explains how to give feedback. Part 2 gives more insight about the new architecture.",
   "link": "https://chanhi2000.github.io/bookshelf/docker.com/deep-dive-into-new-docker-desktop-filesharing-implementation.html",
   "logo": "https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png",

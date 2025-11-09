@@ -36,6 +36,15 @@ const Y2025: SidebarYeargroupTemplate = {
     "linux-networking-commands", // 2025-07-23
     "setup-local-repositories-in-ubuntu", // 2025-07-22
     "mkcert-create-ssl-certs-for-local-development", // 2025-07-21
+    "edit-configuration-files-using-sed-and-awk", // 2025-07-17
+    "sudo-insult-when-enter-wrong-password", // 2025-07-16
+    "ssh-two-factor-authentication", // 2025-07-16
+    "linux-services-and-daemons", // 2025-07-14
+    "core-linux-interview-questions-and-answers", // 2025-07-10
+    "best-linux-ocr-tools", // 2025-07-08
+    "10-lesser-known-useful-linux-commands-part-v", // 2025-07-02
+    "linux-interview-questions-and-answers-for-linux-beginners", // 2025-07-01
+    "atop-linux-performance-monitoring", // 2025-06-30
     "reduce-ram-cpu-usage-on-linux", // 2025-02-27
   ]
 }
@@ -131,6 +140,7 @@ export const template: SidebarInfoTemplate = {
       "install-gcc-c-compiler-fedora", // 2024-08-13
       "learn-use-awk-special-patterns-begin-and-end", // 2024-08-14
       // END: 2024sh
+      "edit-configuration-files-using-sed-and-awk", // 2025-07-17
       "linux-networking-commands", // 2025-07-23
       "clear-ram-memory-cache-buffer-and-swap-space-on-linux", // 2025-07-25
       "install-dig-and-nslookup-in-linux", // 2025-07-28
@@ -188,6 +198,14 @@ export const template: SidebarInfoTemplate = {
       "linux-terminal-file-managers", // 2024-09-10
       // END: 2024linux-debian
       "reduce-ram-cpu-usage-on-linux", // 2025-02-27
+      "atop-linux-performance-monitoring", // 2025-06-30
+      "linux-interview-questions-and-answers-for-linux-beginners", // 2025-07-01
+      "10-lesser-known-useful-linux-commands-part-v", // 2025-07-02
+      "best-linux-ocr-tools", // 2025-07-08
+      "core-linux-interview-questions-and-answers", // 2025-07-10
+      "linux-services-and-daemons", // 2025-07-14
+      "ssh-two-factor-authentication", // 2025-07-16
+      "sudo-insult-when-enter-wrong-password", // 2025-07-16
       "setup-local-repositories-in-ubuntu", // 2025-07-22
       "linux-bootable-usb-creators", // 2025-07-29
       "create-alias-in-linux", // 2025-07-30
@@ -221,6 +239,14 @@ export const template: SidebarInfoTemplate = {
       "clifm-fast-commandline-file-manager", // 2024-08-19
       "linux-terminal-file-managers", // 2024-09-10
       // END: 2024linux-fedora
+      "atop-linux-performance-monitoring", // 2025-06-30
+      "linux-interview-questions-and-answers-for-linux-beginners", // 2025-07-01
+      "10-lesser-known-useful-linux-commands-part-v", // 2025-07-02
+      "best-linux-ocr-tools", // 2025-07-08
+      "core-linux-interview-questions-and-answers", // 2025-07-10
+      "linux-services-and-daemons", // 2025-07-14
+      "ssh-two-factor-authentication", // 2025-07-16
+      "sudo-insult-when-enter-wrong-password", // 2025-07-16
       "linux-bootable-usb-creators", // 2025-07-29
       "list-all-running-services-under-systemd-in-linux", // 2025-09-02
       "install-zip-and-unzip-in-linux", // 2025-09-02
@@ -257,8 +283,14 @@ export const template: SidebarInfoTemplate = {
       "work-with-awk-variables-expressions-and-operators", // 2024-08-12
       "learn-use-awk-special-patterns-begin-and-end", // 2024-08-14
       // END: 2024awk
+      "edit-configuration-files-using-sed-and-awk", // 2025-07-17
       // END: 2025awk
       // END: awk
+    ]],[
+    "sed", [
+      "edit-configuration-files-using-sed-and-awk", // 2025-07-17
+      // END: 2025sed
+      // END: sed
     ]],[
     "rsync", [
       "file-transfer-in-linux", // 2024-08-16
@@ -277,6 +309,8 @@ export const template: SidebarInfoTemplate = {
       // END: postgres
     ]],[
     "mysql", [
+      // END: 2024mysql
+      "linux-interview-questions-and-answers-for-linux-beginners", // 2025-07-01
       "mysql-database-interview-linux", // 2025-10-07
       // END: 2025mysql
       // END: mysql

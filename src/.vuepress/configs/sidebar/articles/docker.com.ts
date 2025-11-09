@@ -46,6 +46,11 @@ const Y2020: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2020
+    "solving-docker-compose-performance-on-macos-catalina", // 2020-
+    "january-virtual-meetup-recap", // 2020-01-29
+    "faster-builds-in-compose-thanks-to-buildkit-support", // 2020-01-23
+    "docker-desktop-release-2-2-is-here", // 2020-01-22
+    "capturing-logs-in-docker-desktop", // 2020-01-18
   ],
 }
 
@@ -54,8 +59,11 @@ const Y2019: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2019
+    "containers-today-recap", // 2019-12-21
+    "deep-dive-into-new-docker-desktop-filesharing-implementation", // 2019-12-17
     "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
     "depend-on-docker-for-kubeflow", // 2019-11-07
+    "new-docker-desktop-wsl2-backend", // 2019-10-25
     "developing-docker-windows-app-wsl2", // 2019-08-15
     "maintainable-integration-tests-with-docker", // 2019-08-01
     "keep-nodejs-rockin-in-docker", // 2019-07-31
@@ -320,9 +328,15 @@ export const template: SidebarInfoTemplate = {
       "keep-nodejs-rockin-in-docker", // 2019-07-31
       "maintainable-integration-tests-with-docker", // 2019-08-01
       "developing-docker-windows-app-wsl2", // 2019-08-15
+      "new-docker-desktop-wsl2-backend", // 2019-10-25
       "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
+      "deep-dive-into-new-docker-desktop-filesharing-implementation", // 2019-12-17
+      "containers-today-recap", // 2019-12-21
       // END: 2019docker
-      // TODO: page/83
+      "capturing-logs-in-docker-desktop", // 2020-01-18
+      "docker-desktop-release-2-2-is-here", // 2020-01-22
+      "faster-builds-in-compose-thanks-to-buildkit-support", // 2020-01-23
+      "january-virtual-meetup-recap", // 2020-01-29
       // END: 2020docker
       // END: 2021docker
       // END: 2022docker

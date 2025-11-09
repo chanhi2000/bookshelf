@@ -6,6 +6,7 @@ icon: fas fa-language
 category:
   - AI
   - LLM
+  - Science
   - Mathematics
   - Youtube
   - Article(s)

@@ -5,6 +5,12 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-add-and-remove-items-from-a-native-css-carousel-with-css", // 2025-11-26
+    "web-monetization-is-still-inching-along-but-still-too-difficult", // 2025-11-24
+    "how-to-create-3d-images-in-css-with-the-layered-pattern", // 2025-11-20
+    "more-css-random-learning-through-experiments", // 2025-11-18
+    "browserslist-baseline", // 2025-11-13
+    "perfectly-pointed-tooltips-to-the-corners", // 2025-11-10
     "staggered-animation-with-css-sibling-functions", // 2025-11-07
     "the-weird-parts-of-position-sticky", // 2025-11-05
     "perfectly-pointed-tooltips-all-four-sides", // 2025-11-03
@@ -452,6 +458,10 @@ export const template: SidebarInfoTemplate = {
       "perfectly-pointed-tooltips-all-four-sides", // 2025-11-03
       "the-weird-parts-of-position-sticky", // 2025-11-05
       "staggered-animation-with-css-sibling-functions", // 2025-11-07
+      "perfectly-pointed-tooltips-to-the-corners", // 2025-11-10
+      "browserslist-baseline", // 2025-11-13
+      "more-css-random-learning-through-experiments", // 2025-11-18
+      "how-to-add-and-remove-items-from-a-native-css-carousel-with-css", // 2025-11-26
       // END: 2025css
       // END: css
     ]],[
