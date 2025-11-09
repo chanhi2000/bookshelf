@@ -72,6 +72,16 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 }
 ```
 
+```component VPCard
+{
+  "title": "Perfectly Pointed Tooltips: To The Corners",
+  "desc": "With our foundation in positioning and flipping tooltips with anchors, and making pointer tails, we're going to get extra tricky and point them diagonally.",
+  "link": "/frontendmasters.com/perfectly-pointed-tooltips-to-the-corners.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
 :::
 
 Tooltips are a classic in web development. You click on an element, and a small bubble appears to display additional details. Behind that simple click, there tends to be JavaScript performing calculations to determine the correct position for the tooltip. Let’s try to place it at the top. Nope, not enough space. Let’s try the bottom instead. It’s also touching the right edge so let’s shift it a bit to the left. There is a lot that can go into making sure a tooltip is placed well without any cutoffs losing information.
@@ -475,6 +485,16 @@ In the second part (coming soon!), we will increase the difficulty by working wi
   "title": "Perfectly Pointed Tooltips: All Four Sides",
   "desc": "Tooltips are a natural fit for the abilities of Anchor Positioning, which can help place them on *any* side or corner. It does make dealing with the pointer extra tricky though.",
   "link": "/frontendmasters.com/perfectly-pointed-tooltips-all-four-sides.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Perfectly Pointed Tooltips: To The Corners",
+  "desc": "With our foundation in positioning and flipping tooltips with anchors, and making pointer tails, we're going to get extra tricky and point them diagonally.",
+  "link": "/frontendmasters.com/perfectly-pointed-tooltips-to-the-corners.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

@@ -74,6 +74,16 @@ Time for part two! We’ve got really nice functional positioned tooltips alread
 }
 ```
 
+```component VPCard
+{
+  "title": "Perfectly Pointed Tooltips: To The Corners",
+  "desc": "With our foundation in positioning and flipping tooltips with anchors, and making pointer tails, we're going to get extra tricky and point them diagonally.",
+  "link": "/frontendmasters.com/perfectly-pointed-tooltips-to-the-corners.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
 :::
 
 ::: note
@@ -397,6 +407,16 @@ We have completed the second part. Now, you should be comfortable working with f
   "title": "Perfectly Pointed Tooltips: All Four Sides",
   "desc": "Tooltips are a natural fit for the abilities of Anchor Positioning, which can help place them on *any* side or corner. It does make dealing with the pointer extra tricky though.",
   "link": "/frontendmasters.com/perfectly-pointed-tooltips-all-four-sides.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Perfectly Pointed Tooltips: To The Corners",
+  "desc": "With our foundation in positioning and flipping tooltips with anchors, and making pointer tails, we're going to get extra tricky and point them diagonally.",
+  "link": "/frontendmasters.com/perfectly-pointed-tooltips-to-the-corners.md",
   "logo": "https://frontendmasters.com/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

@@ -1470,11 +1470,38 @@ const HOW_I_BUILT_A_MAKATON_AI_COMPANION_USING_GEMINI_NANO_AND_THE_GEMINI_API: S
   ]
 }
 
+const SYSTEM_DESIGN_PATTERNS_IN_ANDROID_BLUETOOTH_FULL_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-11-14
+  text: "System Design Patterns in Android Bluetooth [Full Handbook]",
+  collapsible: true,
+  icon: 'fa-brands fa-android',
+  subPath:'system-design-patterns-in-android-bluetooth-full-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "how-bluetooth-socket-settings-power-androids-low-power-island-a-friendly-deep-dive-into-aosps-hidden-energy-saver", // 2025-11-14
+    "the-secret-life-of-your-cpu-exploring-the-low-power-island-in-android-bluetooth", // 2025-11-14
+    "how-to-keep-llm-outputs-predictable-using-pydantic-validation", // 2025-11-14
+    "what-is-toon-how-token-oriented-object-notation-could-change-how-ai-sees-data", // 2025-11-14
+    SYSTEM_DESIGN_PATTERNS_IN_ANDROID_BLUETOOTH_FULL_HANDBOOK, // 2025-11-14
+    "how-to-solve-5-common-rag-failures-with-knowledge-graphs", // 2025-11-14
+    "learn-discrete-mathematics", // 2025-11-13
+    "build-complex-workflows-with-n8n-and-master-ai-integration", // 2025-11-13
+    "how-to-integrate-vector-search-in-columnar-storage", // 2025-11-13
+    "how-to-cut-ai-costs-without-losing-capability-the-rise-of-small-llms", // 2025-11-13
+    "how-to-parse-xml-in-python-without-using-external-libraries", // 2025-11-13
+    "system-architecture-documentation-best-practices-and-tools", // 2025-11-12
+    "how-to-set-up-your-own-google-analytics-alternative-using-umami", // 2025-11-12
+    "how-to-run-an-open-source-llm-on-your-personal-computer-run-ollama-locally", // 2025-11-12
+    "learn-vuejs-javascript-framework-course", // 2205-11-11
+    "vpns-vs-proxies-what-are-the-differences", // 2025-11-08
     "the-state-of-bluetooth-whats-new-whats-possible-and-how-to-use-it", // 2025-11-08
     "choose-the-right-llm-for-your-projects-benchmarking-guide", // 2025-11-08
     HOW_I_BUILT_A_MAKATON_AI_COMPANION_USING_GEMINI_NANO_AND_THE_GEMINI_API, // 2025-11-08
@@ -1510,7 +1537,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "how-to-set-up-a-registry-in-shadcn", // 2025-10-27
     "how-to-work-with-toml-files-in-python", // 2025-10-25
     "how-the-model-context-protocol-works", // 2025-10-25
-    "how-to-use-the-model-context-protocol-mcp-with-flutter-and-dart", // 2025-10-25
+    "how-to-use-he-model-context-protocol-mcp-with-flutter-and-dart", // 2025-10-25
     HOW_TO_IMPLEMENT_MULTI_THREADING_IN_NODEJS_WITH_WORKER_THREADS_FULL_HANDBOOK, // 2025-10-25
     "improve-developer-experience-with-net-aspire", // 2025-10-24
     "how-do-ai-agents-work", // 2025-10-24
@@ -2807,6 +2834,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-audit-android-accessibility-with-the-accessibility-scanner-app", // 2025-07-01
       "how-to-convert-your-website-into-an-android-app-using-bubblewrap", // 2025-08-20
       "google-16-kb-page-size-requirement-what-to-do", // 2025-09-27
+      SYSTEM_DESIGN_PATTERNS_IN_ANDROID_BLUETOOTH_FULL_HANDBOOK, // 2025-11-14
+      "the-secret-life-of-your-cpu-exploring-the-low-power-island-in-android-bluetooth", // 2025-11-14
       // END: 2025java-android
       // END: java-android
     ]],[
@@ -3223,6 +3252,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-vue
       "learn-vuejs-in-this-beginners-course", // 2025-05-23
       "how-vue-composables-work", // 2025-06-14
+      "learn-vuejs-javascript-framework-course", // 2205-11-11
       // END: 2025js-vue
       // END: js-vue
     ]],[
@@ -3374,6 +3404,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-vibe-code-with-help-from-n8n", // 2025-07-09
       "how-to-build-ai-workflows-with-n8n", // 2025-10-14
       "a-beginners-guide-to-automation-with-n8n", // 2025-11-04
+      "build-complex-workflows-with-n8n-and-master-ai-integration", // 2025-11-13
       // END: 2025js-n8n
       // END: js-n8n
     ]],[
@@ -3610,6 +3641,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-langchain-and-langgraph-a-beginners-guide-to-ai-workflows", // 2025-11-06
       "private-voice-assistant-using-open-source-tools", // 2025-11-06
       "cryptography-for-beginners-full-python-course-sha-256-aes-rsa-passwords", // 2025-11-06
+      "how-to-run-an-open-source-llm-on-your-personal-computer-run-ollama-locally", // 2025-11-12
+      "how-to-parse-xml-in-python-without-using-external-libraries", // 2025-11-13
+      "how-to-solve-5-common-rag-failures-with-knowledge-graphs", // 2025-11-14
       // END: 2025py
       // END: py
     ]],[
@@ -3765,6 +3799,11 @@ export const template: SidebarInfoTemplate = {
       "build-smart-expense-tracker-with-python-and-llms", // 2025-09-09
       // END: 2025py-streamlit
       // END: py-streamlit
+    ]],[
+    "py-pydantic", [
+      "how-to-keep-llm-outputs-predictable-using-pydantic-validation", // 2025-11-14
+      // END: 2025py-pydantic
+      // END: py-pydantic
     ]],[
     "dart", [
       // END: 2023dart
@@ -3965,6 +4004,7 @@ export const template: SidebarInfoTemplate = {
       "how-infinite-loops-work-in-c", // 2025-08-02
       "how-does-bluetooth-le-secure-pairing-work", // 2025-09-14
       "machine-learning-tutorial-how-to-program-without-creating-your-own-algorithms", // 2025-10-10
+      "the-secret-life-of-your-cpu-exploring-the-low-power-island-in-android-bluetooth", // 2025-11-14
       // END: 2025cpp
       // END: cpp
     ]],[
@@ -4045,6 +4085,7 @@ export const template: SidebarInfoTemplate = {
       GET_LINUX_SYSTEM_INFO_THROUGH_CLI, // 2025-06-11
       "configure-network-interfaces-in-linux", // 2025-06-17
       "integrate-ai-into-your-terminal-using-opencode", // 2025-10-10
+      "the-secret-life-of-your-cpu-exploring-the-low-power-island-in-android-bluetooth", // 2025-11-14
       // END: 2025sh
       // END: sh
     ]],[
@@ -4305,6 +4346,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-persist-state-in-time-series-models-with-docker-and-redis", // 2025-10-09
       "how-to-containerize-and-deploy-your-nodejs-applications", // 2025-10-10
       HOW_TO_BUILD_END_TO_END_MACHINE_LEARNING_LINEAGE, // 2025-10-16
+      "how-to-set-up-your-own-google-analytics-alternative-using-umami", // 2025-11-12
       // END: 2025docker
       // END: docker
     ]],[
@@ -4464,6 +4506,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-turn-websites-into-llm-ready-data-using-firecrawl", // 2025-10-23
       "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
       "a-beginners-guide-to-automation-with-n8n", // 2025-11-04
+      "how-to-set-up-your-own-google-analytics-alternative-using-umami", // 2025-11-12
       // END: 2025sevalla
       // END: sevalla
     ]],[
@@ -4570,6 +4613,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025dvc
       // END: dvc
     ]],[
+    "umami", [
+      "how-to-set-up-your-own-google-analytics-alternative-using-umami", // 2025-11-12
+      // END: 2025dvc
+      // END: dvc
+    ]],[
     "security", [
       "crack-passwords-using-john-the-ripper-pentesting-tutorial", // 2022-11-18
       "principle-of-lease-privilege-meaning-cybersecurity", // 2022-12-01
@@ -4629,6 +4677,7 @@ export const template: SidebarInfoTemplate = {
       "learn-cybersecurity-from-harvard-university", // 2025-10-31
       "top-cybersecurity-certifications-to-boost-your-career", // 2025-11-04
       "cryptography-for-beginners-full-python-course-sha-256-aes-rsa-passwords", // 2025-11-06
+      "vpns-vs-proxies-what-are-the-differences", // 2025-11-08
       // END: 2025security
       // END: security
     ]],[
@@ -4724,6 +4773,7 @@ export const template: SidebarInfoTemplate = {
       "master-database-management-systems", // 2025-05-22
       "beginners-guide-to-cloud-data-analytics", // 2025-06-17
       "learn-databases-and-sql-from-harvard-university", // 2025-10-09
+      "how-to-integrate-vector-search-in-columnar-storage", // 2025-11-13
       // END: 2025data-science
       // END: data-science
     ]],[
@@ -4943,6 +4993,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-design-accessible-browser-extensions", // 2025-09-10
       "extend-crud-operations-to-align-with-business-workflows", // 2025-09-11
       "why-front-end-developers-should-understand-uiux-design", // 2025-09-12
+      "system-architecture-documentation-best-practices-and-tools", // 2025-11-12
+      SYSTEM_DESIGN_PATTERNS_IN_ANDROID_BLUETOOTH_FULL_HANDBOOK, // 2025-11-14
       // END: 2025system-design
       // END: system-design
     ]],[
@@ -5099,12 +5151,16 @@ export const template: SidebarInfoTemplate = {
       "langchain-alternatives-for-building-ai-and-agentic-workflows", // 2025-01-31
       "build-a-local-ai", // 2025-05-07
       "how-to-use-langchain-and-langgraph-a-beginners-guide-to-ai-workflows", // 2025-11-06
+      "how-to-solve-5-common-rag-failures-with-knowledge-graphs", // 2025-11-14
+      "how-to-keep-llm-outputs-predictable-using-pydantic-validation", // 2025-11-14
       // END: 2025langchain
       // END: langchain
     ]],[
     "ollama", [
       BUILD_A_LOCAL_RAG_APP_WITH_OLLAMA_AND_CHROMADB_IN_R, // 2025-04-15
       "build-a-local-ai", // 2025-05-07
+      "how-to-run-an-open-source-llm-on-your-personal-computer-run-ollama-locally", // 2025-11-12
+      "how-to-cut-ai-costs-without-losing-capability-the-rise-of-small-llms", // 2025-11-13
       // END: 2025ollama
       // END: ollama
     ]],[
@@ -5196,6 +5252,7 @@ export const template: SidebarInfoTemplate = {
       "learn-college-calculus-and-implement-with-python", // 2025-04-30
       "the-architecture-of-mathematics-and-how-developers-can-use-it-in-code", // 2025-05-24
       "how-does-cosine-similarity-work", // 2025-09-18
+      "learn-discrete-mathematics", // 2025-11-13
       // END: 2025math
       // END: math
     ]],[

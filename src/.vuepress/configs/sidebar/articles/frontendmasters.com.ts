@@ -5,6 +5,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "perfectly-pointed-tooltips-to-the-corners", // 2025-11-10
     "staggered-animation-with-css-sibling-functions", // 2025-11-07
     "the-weird-parts-of-position-sticky", // 2025-11-05
     "perfectly-pointed-tooltips-all-four-sides", // 2025-11-03

@@ -70,8 +70,17 @@ I want to eliminate that 9.1%. So, in this series, I want to look at practical u
 }
 ```
 
-2. Tackling the CSS `tan()` Function (coming soon)
-3. Inverse functions: `asin()`, `acos()`, `atan()` and `atan2()` (coming soon)
+```component VPCard
+{
+  "title": "The “Most Hated” CSS Feature: tan()",
+  "desc": "Last time, we discussed that, sadly, according to the State of CSS 2025 survey, trigonometric functions are deemed the ”Most Hated” CSS feature.",
+  "link": "/css-tricks.com/the-most-hated-css-feature-tan.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+3. **`asin()`, `acos()`, `atan()` and `atan2()`** *(Coming soon)*
 
 :::
 
@@ -591,6 +600,32 @@ Also, before I forget, here is another demo I made using cos() and sin() that di
   title="Spiral motion test"
   :default-tab="['css','result']"
   :theme="$isDarkMode ? 'dark': 'light'"/>
+
+::: info CSS Trigonometric Functions: The “Most Hated” CSS Feature
+
+```component VPCard
+{
+  "title": "The “Most Hated” CSS Feature: cos() and sin()",
+  "desc": "I want to look at practical uses for CSS trigonometric functions. And we'll start with what may be the most popular functions of the ”worst” feature: sin() and cos().",
+  "link": "/css-tricks.com/the-most-hated-css-feature-cos-and-sin.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "The “Most Hated” CSS Feature: tan()",
+  "desc": "Last time, we discussed that, sadly, according to the State of CSS 2025 survey, trigonometric functions are deemed the ”Most Hated” CSS feature.",
+  "link": "/css-tricks.com/the-most-hated-css-feature-tan.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+3. **`asin()`, `acos()`, `atan()` and `atan2()`** *(Coming soon)*
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

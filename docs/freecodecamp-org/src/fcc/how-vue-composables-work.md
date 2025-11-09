@@ -24,7 +24,7 @@ head:
       content: "How Vue Composables Work - Explained with Code Examples"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/how-vue-composables-work.html
-prev: /programming/js/articles/README.md
+prev: /programming/js-vue/articles/README.md
 date: 2025-06-14
 isOriginal: false
 author:
@@ -37,9 +37,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749830866913/e732db4
 
 ```component VPCard
 {
-  "title": "JavaScript > Article(s)",
+  "title": "Vue.js > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/js/articles/README.md",
+  "link": "/programming/js-vue/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

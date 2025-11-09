@@ -5,6 +5,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "explaining-the-accessible-benefits-of-using-semantic-html-elements", // 2025-11-06
+    "the-most-hated-css-feature-tan", // 2025-11-03
     "getting-creative-with-small-screens", // 2025-10-29
     "pure-css-tabs-with-details-grid-and-subgrid", // 2025-10-27
     "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
@@ -262,6 +264,8 @@ export const template: SidebarInfoTemplate = {
       "css-animations-that-leverage-the-parent-child-relationship", // 2025-10-24
       "pure-css-tabs-with-details-grid-and-subgrid", // 2025-10-27
       "getting-creative-with-small-screens", // 2025-10-29
+      "the-most-hated-css-feature-tan", // 2025-11-03
+      "explaining-the-accessible-benefits-of-using-semantic-html-elements", // 2025-11-06
       // END: 2025css
       // END: css
     ]],[

@@ -40,7 +40,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747944784614/489ca83
 
 ```component VPCard
 {
-  "title": "JavaScript > Article(s)",
+  "title": "Vue.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-vue/articles/README.md",
   "logo": "/images/ico-wind.svg",
