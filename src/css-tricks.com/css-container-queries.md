@@ -434,11 +434,25 @@ Pagination is a great example of a component that benefits from CSS Container Qu
 
 ### General Information
 
-Say Hello to CSS Container Queries
-https://css-tricks.com/say-hello-to-css-container-queries/
+```component VPCard
+{
+  "title": "Say Hello to CSS Container Queries",
+  "desc": "Container queries are finally here! Now available behind a flag in the latest version of Chrome Canary, you can go ahead and experiment to your heart’s",
+  "link": "/css-tricks.com/say-hello-to-css-container-queries.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
 
-The Origin Story of Container Queries
-https://css-tricks.com/the-origin-story-of-container-queries/
+```component VPCard
+{
+  "title": "The Origin Story of Container Queries",
+  "desc": "Container queries don’t exist today but a lot of web developers have been arguing in their favor lately. At first, the idea sounds relatively simple: whereas",
+  "link": "/css-tricks.com/the-origin-story-of-container-queries.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
 
 A Cornucopia of Container Queries
 https://css-tricks.com/a-cornucopia-of-container-queries/
@@ -449,8 +463,15 @@ https://css-tricks.com/container-query-discussion/
 Container Queries: Once More Unto the Breach
 https://css-tricks.com/container-queries-once-more-unto-the-breach/
 
-Next Gen CSS: @container
-https://css-tricks.com/next-gen-css-container/
+```component VPCard
+{
+  "title": "Next Gen CSS: @container",
+  "desc": "Chrome is experimenting with @container, a property within the CSS Working Group Containment Level 3 spec being championed by Miriam Suzanne of Oddbird, and a",
+  "link": "/css-tricks.com/next-gen-css-container.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
 
 251: Container Queries are the Future
 https://css-tricks.com/newsletter/251-container-queries-are-the-future/
@@ -461,8 +482,15 @@ https://css-tricks.com/lets-not-forget-about-container-queries/
 Minimal Takes on Faking Container Queries
 https://css-tricks.com/minimal-takes-on-faking-container-queries/
 
-The Raven Technique: One Step Closer to Container Queries
-https://css-tricks.com/the-raven-technique-one-step-closer-to-container-queries/
+```component VPCard
+{
+  "title": "The Raven Technique: One Step Closer to Container Queries",
+  "desc": "For the millionth time: We need container queries in CSS! And guess what, it looks like we're heading in that direction.",
+  "link": "/css-tricks.com/the-raven-technique-one-step-closer-to-container-queries.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
 
 ### Container Size Query Tutorials
 

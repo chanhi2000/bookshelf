@@ -5,6 +5,10 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "thoughts-on-native-css-mixins", // 2025-12-11
+    "the-deep-card-conundrum", // 2025-12-04
+    "the-downsides-of-scrollbar-gutter-stable-and-one-weird-trick", // 2025-12-03
+    "non-square-image-blur-extensions", // 2025-12-01
     "how-to-add-and-remove-items-from-a-native-css-carousel-with-css", // 2025-11-26
     "web-monetization-is-still-inching-along-but-still-too-difficult", // 2025-11-24
     "how-to-create-3d-images-in-css-with-the-layered-pattern", // 2025-11-20
@@ -462,6 +466,10 @@ export const template: SidebarInfoTemplate = {
       "browserslist-baseline", // 2025-11-13
       "more-css-random-learning-through-experiments", // 2025-11-18
       "how-to-add-and-remove-items-from-a-native-css-carousel-with-css", // 2025-11-26
+      "non-square-image-blur-extensions", // 2025-12-01
+      "the-downsides-of-scrollbar-gutter-stable-and-one-weird-trick", // 2025-12-03
+      "the-deep-card-conundrum", // 2025-12-04
+      "thoughts-on-native-css-mixins", // 2025-12-11
       // END: 2025css
       // END: css
     ]],[

@@ -31,6 +31,8 @@ export const sidebarEn = sidebar({
   '/event-driven.io/':            [asb.eventDriven()],
   '/packagemain.tech/':           [asb.packgemainTech()],
   '/gosolve.io/':                 [asb.gosolve()],
+  '/bram.us/':                    [asb.bramus()],
+  '/una.im/':                     [asb.una()],
   '/towardsdatascience.com/':     [asb.towardsdatascience()],
   '/douggregor.net/':             [asb.douggregor()],
   '/tech.kakao.com/':             [asb.kakaoTech()],

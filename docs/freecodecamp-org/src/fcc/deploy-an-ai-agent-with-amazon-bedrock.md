@@ -14,7 +14,17 @@ category:
 tag:
   - blog
   - freecodecamp.org
-  - 
+  - blog
+  - freecodecamp.org
+  - devops
+  - amazon
+  - amazon-web-services
+  - ai
+  - artificial-intelligence
+  - llm
+  - large-language-models
+  - bedrock
+  - amazon-bedrock
 head:
   - - meta:
     - property: og:title

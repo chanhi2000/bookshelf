@@ -64,7 +64,7 @@ It's important to write clear and efficient unit tests that actually work during
 
 Effective unit tests not only catch errors but also help you be confident that your code can be maintained and is dependable. But it takes time and resources to manually create an extensive suite of unit tests.
 
-There have been some recent developments in artificial intelligence that promise to help automate the unit test development processes. In February, researchers at Meta released a paper on [<VPIcon icon="fas fa-globe"/>Automated Unit Test Improvement using Large Language Models](https://arxiv.org/abs/2402.09171). This introduced an innovative method for automating unit testing.
+There have been some recent developments in artificial intelligence that promise to help automate the unit test development processes. In February, researchers at Meta released a paper on [<VPIcon icon="iconfont icon-arxiv"/>Automated Unit Test Improvement using Large Language Models](https://arxiv.org/abs/2402.09171). This introduced an innovative method for automating unit testing.
 
 <PDF url="https://arxiv.org/pdf/2402.09171"/>
 
@@ -96,7 +96,7 @@ Meta's researchers implemented safeguards within TestGen-LLM to ensure the effec
 
 TestGen-LLM uses an approach called "Assured LLM-based Software Engineering" (Assured LLMSE). TestGen-LLM simply augments an existing test class with additional test cases, retaining all existing test cases and thereby guaranteeing that there will be no regression.
 
-![Test generation workflow(*[<VPIcon icon="fas fa-globe"/>From TestGen_LLM paper](https://arxiv.org/abs/2402.09171)*)](https://freecodecamp.org/news/content/images/2024/05/img-testgen-llm-paper.jpg)
+![Test generation workflow(*[<VPIcon icon="iconfont icon-arxiv"/>From TestGen_LLM paper](https://arxiv.org/abs/2402.09171)*)](https://freecodecamp.org/news/content/images/2024/05/img-testgen-llm-paper.jpg)
 
 The TestGen-LLM generates a bunch of tests, then filters out the tests that don’t run and drops any that don’t pass. Finally, it discards those that don't increase the code coverage.
 

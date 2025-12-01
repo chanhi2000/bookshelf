@@ -822,7 +822,7 @@ In other words: this demo is a **teaching scaffold**, not a production-ready acc
 
 If you’d like to push this project further, here are some directions to explore:
 
-- **Better models**: Try video-focused Transformers like [<VPIcon icon="fas fa-globe"/>TimeSformer](https://arxiv.org/abs/2102.05095) or [<VPIcon icon="fas fa-globe"/>VideoMAE](https://arxiv.org/abs/2203.12602) for stronger temporal reasoning.
+- **Better models**: Try video-focused Transformers like [<VPIcon icon="iconfont icon-arxiv"/>TimeSformer](https://arxiv.org/abs/2102.05095) or [<VPIcon icon="iconfont icon-arxiv"/>VideoMAE](https://arxiv.org/abs/2203.12602) for stronger temporal reasoning.
 - **Larger vocabularies**: Add more gesture classes, build your own dataset, or use portions of public datasets like [<VPIcon icon="iconfont icon-kaggle"/>20BN Jester](https://kaggle.com/datasets/toxicmender/20bn-jester) or [<VPIcon icon="iconfont icon-kaggle"/>WLASL](https://kaggle.com/datasets/risangbaskoro/wlasl-processed).
 - **Pose fusion**: Combine gesture video with human pose keypoints from [<VPIcon icon="fas fa-globe"/>MediaPipe](https://mediapipe.readthedocs.io/en/latest/solutions/hands.html) or [<VPIcon icon="iconfont icon-github"/>`CMU-Perceptual-Computing-Lab/openpose`](https://github.com/CMU-Perceptual-Computing-Lab/openpose) for more robust predictions.
 - **Real-time smoothing**: Implement temporal smoothing or debounce logic in the app so predictions are more stable during live use.

@@ -153,7 +153,7 @@ In addition to glass box models, there are also black box models.
 These models are essentially different neural network architectures used in various datasets. Some examples are:
 
 - **CNN (Convolutional Neural Networks)**: Designed specifically for image classification and interpretation.
-- **RNN (Recurrent Neural Networks) and LSTM (Long Short Term Memory)**: Primarily used for sequential data - text and time series data. In 2017, they were surpassed by a neural network architecture called transformers in a paper called [<VPIcon icon="fas fa-globe"/>tion is All You Need.](https://arxiv.org/abs/1706.03762)
+- **RNN (Recurrent Neural Networks) and LSTM (Long Short Term Memory)**: Primarily used for sequential data - text and time series data. In 2017, they were surpassed by a neural network architecture called transformers in a paper called [<VPIcon icon="iconfont icon-arxiv"/>tion is All You Need.](https://arxiv.org/abs/1706.03762)
 - **Transformer-based architectures**: Revolutionized AI in 2017 due to their ability to handle sequential data more efficiently. RNN and LSTM have limited capabilities in this regard.
 
 Nowadays, most models that process text are transformer-based models.
@@ -396,7 +396,7 @@ Instead of only using traditional statistics, surveys, and manual data analysis,
 
 But this is not the only way to have models built with explainable AI.
 
-In April 2024, a paper called [<VPIcon icon="fas fa-globe"/>KAN: Kolmogorov-Arnold Networks](https://arxiv.org/html/2404.19756v1) was published that might shake up the field even more.
+In April 2024, a paper called [<VPIcon icon="iconfont icon-arxiv"/>KAN: Kolmogorov-Arnold Networks](https://arxiv.org/html/2404.19756v1) was published that might shake up the field even more.
 
 Kolmogorov-Arnold Networks (KANs) promise to be more accurate and easier to understand than traditional models and perform better.
 

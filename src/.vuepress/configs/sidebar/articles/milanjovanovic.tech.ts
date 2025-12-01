@@ -15,6 +15,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "the-new-slnx-solution-format-migration-guide", // 2025-12-13
+    "dbcontext-is-not-thread-safe-parallelizing-ef-core-queries-the-right-way", // 2025-12-06
     "vertical-slice-architecture-where-does-the-shared-logic-live", // 2025-11-29
     "the-false-comfort-of-the-happy-path-decoupling-your-services", // 2025-11-22
     "exploring-csharp-file-based-apps-in-dotnet-10", // 2025-11-15
@@ -365,6 +367,8 @@ export const template: SidebarInfoTemplate = {
       "building-fast-serverless-apis-with-minimal-apis-on-aws-lambda", // 2025-10-11
       "6-steps-for-setting-up-a-new-dotnet-project-the-right-way", // 2025-10-18
       "exploring-csharp-file-based-apps-in-dotnet-10", // 2025-11-15
+      "dbcontext-is-not-thread-safe-parallelizing-ef-core-queries-the-right-way", // 2025-12-06
+      "the-new-slnx-solution-format-migration-guide", // 2025-12-13
       // END: 2025cs
       // END: cs
     ]],[

@@ -4,16 +4,16 @@ title: "How to Build a Portfolio Website Using Figma and AI Tools – A Guide fo
 description: "Article(s) > How to Build a Portfolio Website Using Figma and AI Tools – A Guide for Developers"
 icon: fa-brands fa-css3-alt
 category:
+  - CSS
   - Design
   - Figma
-  - CSS
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
+  - css
   - design
   - figma
-  - css
 head:
   - - meta:
     - property: og:title

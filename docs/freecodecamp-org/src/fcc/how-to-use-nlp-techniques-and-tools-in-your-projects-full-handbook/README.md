@@ -569,7 +569,7 @@ CNNs apply the same pattern-detecting framework to the text as they do to image 
 
 CNNs encompass multi-filter layers to detect different features. Each filter layer detects features that are continuously more abstract, going from simple combinations of words to capturing combinations of words that are consistently used in semantic patterns, creating an effective use for the text classification task.[^4]
 
-[^4]: Source: [<VPIcon icon="fas fa-globe"/>Yoon Kim](https://arxiv.org/abs/1408.5882)
+[^4]: Source: [<VPIcon icon="iconfont icon-arxiv"/>Yoon Kim](https://arxiv.org/abs/1408.5882)
 
 Here is an example of the convolutional layer scanning through the text using filters. It detects meaningful patterns established through previous learning, such as the word "excellent" or "terrible waste," learning to treat each combination of words as expressing a positive or negative sentiment during a final classification step.
 

@@ -7,7 +7,7 @@ category:
   - Node.js
   - AI
   - LLM
-  - LangBase
+  - Langbase
   - Article(s)
 tag:
   - blog
@@ -19,7 +19,8 @@ tag:
   - artificial-intelligence
   - llm
   - large-language-models
-  - claude
+  - langbase
+  - lang-base
 head:
   - - meta:
     - property: og:title

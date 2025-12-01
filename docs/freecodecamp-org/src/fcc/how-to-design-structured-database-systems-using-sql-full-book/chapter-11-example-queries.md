@@ -403,7 +403,7 @@ Here, we combine the data from `Person` and `Residence` using the equality condi
 
 Then, to keep only the data of the people, we use `P.*` as before - but here we need to use `DISTINCT`, since a person may have multiple residences. Specifying `DISTINCT` prevents this from duplicating the data of the same person.
 
-The `JOIN` operation is often considered inefficient because it’s a Cartesian product that must construct all tuples of that product and then filter them using the conditions we declare. But we can make it faster with the right hardware, like [<VPIcon icon="fas fa-globe"/>GPUs](https://arxiv.org/html/2406.13831v1).
+The `JOIN` operation is often considered inefficient because it’s a Cartesian product that must construct all tuples of that product and then filter them using the conditions we declare. But we can make it faster with the right hardware, like [<VPIcon icon="iconfont icon-arxiv"/>GPUs](https://arxiv.org/html/2406.13831v1).
 
 Still here, we need to remove duplicates with `DISTINCT`, which involves additional processing of the query result. We also need another filter or process that eliminates duplicate tuples, so it seems less efficient at first glance.
 

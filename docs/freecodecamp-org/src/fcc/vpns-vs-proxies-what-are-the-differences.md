@@ -171,7 +171,7 @@ Understanding how each works helps you choose the right tool for your needs. Whe
 
 ::: info
 
-Hope you enjoyed this article. Find me on* [Linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva) or [<VPIcon icon="fas fa-globeq"/>visit my website](https://manishshivanandhan.com/).
+Hope you enjoyed this article. Find me on [Linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva) or [<VPIcon icon="fas fa-globeq"/>visit my website](https://manishshivanandhan.com/).
 
 :::
 

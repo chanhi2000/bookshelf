@@ -2,7 +2,7 @@
 lang: en-US
 title: "A Beginner’s Guide to Automation with n8n"
 description: "Article(s) > A Beginner’s Guide to Automation with n8n"
-icon: 
+icon: iconfont icon-n8n
 category:
   - Node.js
   - n8n
@@ -14,6 +14,10 @@ tag:
   - freecodecamp.org
   - devops
   - sevalla
+  - node
+  - nodejs
+  - node-js
+  - n8n
 head:
   - - meta:
     - property: og:title
@@ -35,9 +39,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762183395684/27b7a20
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "n8n > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/programming/js-n8n/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
