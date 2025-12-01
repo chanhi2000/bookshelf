@@ -1342,7 +1342,7 @@ const HOW_TO_USE_DEPENDENCY_INJECTION_IN_GO: SidebarInfoSubgroupTemplate = { // 
   text: "How to Implement Dependency Injection in Go - Explained with Code Examples",
   collapsible: true,
   icon: 'fa-brands fa-golang',
-  subPath:'how-to-use-dependency-injection-in-go',
+  subPath: 'how-to-use-dependency-injection-in-go',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1353,7 +1353,7 @@ const BUILD_AN_AI_CODING_AGENT_WITH_PYTHON_AND_GEMINI: SidebarInfoSubgroupTempla
   text: "How to Build an AI Coding Agent with Python and Gemini",
   collapsible: true,
   icon: 'fa-brands fa-python',
-  subPath:'build-an-ai-coding-agent-with-python-and-gemini',
+  subPath: 'build-an-ai-coding-agent-with-python-and-gemini',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1364,7 +1364,7 @@ const BUILD_A_CUSTOM_AI_CHAT_APPLICATION_WITH_NEXTJS: SidebarInfoSubgroupTemplat
   text: "How to Build an AI Coding Agent with Python and Gemini",
   collapsible: true,
   icon: 'iconfont icon-nextjs',
-  subPath:'build-a-custom-ai-chat-application-with-nextjs',
+  subPath: 'build-a-custom-ai-chat-application-with-nextjs',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1375,7 +1375,7 @@ const HOW_TO_BUILD_AN_ADAPTIVE_TIC_TAC_TOE_AI_WITH_REINFORCEMENT_LEARNING_IN_JAV
   text: "How to Build an Adaptive Tic-Tac-Toe AI with Reinforcement Learning in JavaScript",
   collapsible: true,
   icon: 'fa-brands fa-js',
-  subPath:'how-to-build-an-adaptive-tic-tac-toe-ai-with-reinforcement-learning-in-javascript',
+  subPath: 'how-to-build-an-adaptive-tic-tac-toe-ai-with-reinforcement-learning-in-javascript',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1386,7 +1386,7 @@ const HOW_TO_CREATE_KUBERNETES_CLUSTER_AND_SECURITY_GROUPS_FOR_PODS_IN_AWS_HANDB
   text: "How to Create Kubernetes Cluster and Security Groups for Pods in AWS [Full Handbook]",
   collapsible: true,
   icon: 'iconfont icon-k8s',
-  subPath:'how-to-create-kubernetes-cluster-and-security-groups-for-pods-in-aws-handbook',
+  subPath: 'how-to-create-kubernetes-cluster-and-security-groups-for-pods-in-aws-handbook',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1397,7 +1397,7 @@ const HOW_TO_BUILD_END_TO_END_MACHINE_LEARNING_LINEAGE: SidebarInfoSubgroupTempl
   text: "How to Build End-to-End Machine Learning Lineage",
   collapsible: true,
   icon: 'iconfont icon-dvc',
-  subPath:'how-to-build-end-to-end-machine-learning-lineage',
+  subPath: 'how-to-build-end-to-end-machine-learning-lineage',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1408,7 +1408,7 @@ const HOW_TO_BUILD_SCALABLE_AND_PERFORMANT_FLUTTER_APPLICATIONS_A_HANDBOOK_FOR_D
   text: "How to Build Scalable and Performant Flutter Applications: A Handbook for Devs",
   collapsible: true,
   icon: 'fa-brands fa-dart-lang',
-  subPath:'how-to-build-scalable-and-performant-flutter-applications-a-handbook-for-devs',
+  subPath: 'how-to-build-scalable-and-performant-flutter-applications-a-handbook-for-devs',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1419,7 +1419,7 @@ const HOW_TO_BUILD_A_TO_DO_LIST_MCP_SERVER_USING_TYPESCRIPT: SidebarInfoSubgroup
   text: "How to Build a To-Do List MCP Server Using TypeScript – with Auth, Database, and Billing",
   collapsible: true,
   icon: 'iconfont icon-expressjs',
-  subPath:'how-to-build-a-to-do-list-mcp-server-using-typescript',
+  subPath: 'how-to-build-a-to-do-list-mcp-server-using-typescript',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1430,7 +1430,7 @@ const REACT_HANDBOOK_FOR_BEGINNERS_LEARN_JSX_HOOKS_RENDERING: SidebarInfoSubgrou
   text: "How to Build a To-Do List MCP Server Using TypeScript – with Auth, Database, and Billing",
   collapsible: true,
   icon: 'fa-brands fa-react',
-  subPath:'react-handbook-for-beginners-learn-jsx-hooks-rendering',
+  subPath: 'react-handbook-for-beginners-learn-jsx-hooks-rendering',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1441,7 +1441,7 @@ const HOW_TO_IMPLEMENT_MULTI_THREADING_IN_NODEJS_WITH_WORKER_THREADS_FULL_HANDBO
   text: "How to Implement Multi-Threading in Node.js With Worker Threads [Full Handbook]",
   collapsible: true,
   icon: 'iconfont icon-expressjs',
-  subPath:'how-to-implement-multi-threading-in-nodejs-with-worker-threads-full-handbook',
+  subPath: 'how-to-implement-multi-threading-in-nodejs-with-worker-threads-full-handbook',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1452,7 +1452,7 @@ const EVENT_BASED_ARCHITECTURES_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVS: SidebarInfoSu
   text: "Event-Based Architectures in JavaScript: A Handbook for Devs",
   collapsible: true,
   icon: 'fa-brands fa-js',
-  subPath:'event-based-architectures-in-javascript-a-handbook-for-devs',
+  subPath: 'event-based-architectures-in-javascript-a-handbook-for-devs',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1463,7 +1463,7 @@ const HOW_I_BUILT_A_MAKATON_AI_COMPANION_USING_GEMINI_NANO_AND_THE_GEMINI_API: S
   text: "How I Built a Makaton AI Companion Using Gemini Nano and the Gemini API",
   collapsible: true,
   icon: 'fa-brands fa-js',
-  subPath:'how-i-built-a-makaton-ai-companion-using-gemini-nano-and-the-gemini-api',
+  subPath: 'how-i-built-a-makaton-ai-companion-using-gemini-nano-and-the-gemini-api',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1474,7 +1474,7 @@ const SYSTEM_DESIGN_PATTERNS_IN_ANDROID_BLUETOOTH_FULL_HANDBOOK: SidebarInfoSubg
   text: "System Design Patterns in Android Bluetooth [Full Handbook]",
   collapsible: true,
   icon: 'fa-brands fa-android',
-  subPath:'system-design-patterns-in-android-bluetooth-full-handbook',
+  subPath: 'system-design-patterns-in-android-bluetooth-full-handbook',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1485,7 +1485,7 @@ const HOW_TO_USE_TO_DOCKER_WITH_NODEJS_HANDBOOK: SidebarInfoSubgroupTemplate = {
   text: "How to Use to Docker with Node.js: A Handbook for Developers",
   collapsible: true,
   icon: 'fa-brands fa-docker',
-  subPath:'how-to-use-to-docker-with-nodejs-handbook',
+  subPath: 'how-to-use-to-docker-with-nodejs-handbook',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1496,7 +1496,7 @@ const HOW_TO_USE_NLP_TECHNIQUES_AND_TOOLS_IN_YOUR_PROJECTS_FULL_HANDBOOK: Sideba
   text: "How to Use NLP Techniques and Tools in Your Projects [Full Handbook]",
   collapsible: true,
   icon: 'fa-brands fa-docker',
-  subPath:'how-to-use-nlp-techniques-and-tools-in-your-projects-full-handbook',
+  subPath: 'how-to-use-nlp-techniques-and-tools-in-your-projects-full-handbook',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1507,7 +1507,7 @@ const HOW_CLOSURES_WORK_IN_JAVASCRIPT_A_HANDBOOK_FOR_DEVELOPERS: SidebarInfoSubg
   text: "How Closures Work in JavaScript: A Handbook for Developers",
   collapsible: true,
   icon: 'fa-brands fa-js',
-  subPath:'how-closures-work-in-javascript-a-handbook-for-developers',
+  subPath: 'how-closures-work-in-javascript-a-handbook-for-developers',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1518,7 +1518,7 @@ const DEPLOY_YOUR_OWN_COCKROACH_DB_INSTANCE_ON_KUBERNETES_FULL_BOOK_FOR_DEVS: Si
   text: "How to Deploy Your Own Cockroach DB  Instance on Kubernetes [Full Book for Devs]",
   collapsible: true,
   icon: 'iconfont icon-cockroach-db',
-  subPath:'deploy-your-own-cockroach-db-instance-on-kubernetes-full-book-for-devs',
+  subPath: 'deploy-your-own-cockroach-db-instance-on-kubernetes-full-book-for-devs',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1529,7 +1529,18 @@ const THEMING_AND_CUSTOMIZATION_IN_FLUTTER_A_HANDBOOK_FOR_DEVELOPERS: SidebarInf
   text: "Theming and Customization in Flutter: A Handbook for Developers",
   collapsible: true,
   icon: 'fa-brands fa-dart-lang',
-  subPath:'theming-and-customization-in-flutter-a-handbook-for-developers',
+  subPath: 'theming-and-customization-in-flutter-a-handbook-for-developers',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const BUILD_AN_ADMIN_DASHBOARD_WITH_SHADCNUI_AND_TANSTACK_START: SidebarInfoSubgroupTemplate = { // 2025-12-04
+  text: "How to Build an Admin Dashboard with shadcn/ui and TanStack Start",
+  collapsible: true,
+  icon: 'fa-brands fa-react',
+  subPath: 'build-an-admin-dashboard-with-shadcnui-and-tanstack-start',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -1541,6 +1552,13 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    BUILD_AN_ADMIN_DASHBOARD_WITH_SHADCNUI_AND_TANSTACK_START, // 2025-12-04
+    "how-to-build-an-ai-powered-rag-chatbot", // 2025-12-04
+    "how-to-set-up-cuda-and-wsl2-for-windows-11-including-pytorch-and-tensorflow-gpu", // 2025-12-04
+    "how-bluetooth-low-energy-devices-work-gatt-services-and-characteristics-explained", // 2025-12-04
+    "how-to-build-your-first-mcp-server-using-fastmcp", // 2025-12-04
+    "learn-nestjs-for-beginners", // 2025-12-03
+    "learn-r-programming-from-harvard-university", // 2025-12-03
     "how-to-build-an-ai-driven-search-experience-using-meilisearch", // 2025-11-27
     THEMING_AND_CUSTOMIZATION_IN_FLUTTER_A_HANDBOOK_FOR_DEVELOPERS, // 2025-11-27
     "theming-and-customization-in-flutter-a-handbook-for-developers", // 2205-11
@@ -2913,6 +2931,7 @@ export const template: SidebarInfoTemplate = {
       "google-16-kb-page-size-requirement-what-to-do", // 2025-09-27
       SYSTEM_DESIGN_PATTERNS_IN_ANDROID_BLUETOOTH_FULL_HANDBOOK, // 2025-11-14
       "the-secret-life-of-your-cpu-exploring-the-low-power-island-in-android-bluetooth", // 2025-11-14
+      "how-bluetooth-low-energy-devices-work-gatt-services-and-characteristics-explained", // 2025-12-04
       // END: 2025java-android
       // END: java-android
     ]],[
@@ -3320,11 +3339,13 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-crud-app-with-tanstack-start-and-tanstackdb-with-rxdb-integration", // 2025-10-28
       "how-to-create-fluid-animations-with-react-native-reanimated-v4", // 2025-11-18
       "simplify-react-components-with-derived-state", // 2025-11-25
+      BUILD_AN_ADMIN_DASHBOARD_WITH_SHADCNUI_AND_TANSTACK_START, // 2025-12-04
       // END: 2025js-react
       // END: js-react
     ]],[
     "js-shadcn", [
       "how-to-set-up-a-registry-in-shadcn", // 2025-10-27
+      BUILD_AN_ADMIN_DASHBOARD_WITH_SHADCNUI_AND_TANSTACK_START, // 2025-12-04
       // END: 2025js-shadcn
       // END: js-shadcn
     ]],[
@@ -3437,6 +3458,7 @@ export const template: SidebarInfoTemplate = {
       "create-microservices-with-nestjs", // 2025-03-27
       "nestjs-unit-testing-e2e-testing-guide", // 2025-04-16
       THE_NESTJS_HANDBOOK_LEARN_TO_USE_NEST_WITH_CODE_EXAMPLES, // 2025-06-14
+      "learn-nestjs-for-beginners", // 2025-12-03
       // END: 2025js-nest
       // END: js-nest
     ]],[
@@ -3735,6 +3757,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-compress-your-prompts-and-reduce-llm-costs", // 2025-11-19
       "how-to-manage-your-python-projects-with-poetry", // 2025-11-22
       "how-to-build-an-ai-driven-search-experience-using-meilisearch", // 2025-11-27
+      "how-to-build-your-first-mcp-server-using-fastmcp", // 2025-12-04
       // END: 2025py
       // END: py
     ]],[
@@ -3822,6 +3845,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024py-tensorflow
       "using-transformers-for-real-time-gesture-recognition", // 2025-10-06
       HOW_TO_USE_NLP_TECHNIQUES_AND_TOOLS_IN_YOUR_PROJECTS_FULL_HANDBOOK, // 2025-11-22
+      "how-to-set-up-cuda-and-wsl2-for-windows-11-including-pytorch-and-tensorflow-gpu", // 2025-12-04
       // END: 2025py-tensorflow
       // END: py-tensorflow
     ]],[
@@ -3835,6 +3859,7 @@ export const template: SidebarInfoTemplate = {
       "how-transformer-models-work-for-language-processing", // 2025-09-13
       "code-an-llm-from-scratch-theory-to-rlhf", // 2025-09-23
       "how-llms-work-under-the-hood", // 2025-10-02
+      "how-to-set-up-cuda-and-wsl2-for-windows-11-including-pytorch-and-tensorflow-gpu", // 2025-12-04
       // END: 2025py-torch
       // END: py-torch
     ]],[
@@ -4375,6 +4400,7 @@ export const template: SidebarInfoTemplate = {
       "turn-ubuntu-2404-into-a-kvm-hypervisor", // 2025-04-29
       GET_LINUX_SYSTEM_INFO_THROUGH_CLI, // 2025-06-11
       "configure-network-interfaces-in-linux", // 2025-06-17
+      "how-to-set-up-cuda-and-wsl2-for-windows-11-including-pytorch-and-tensorflow-gpu", // 2025-12-04
       // END: 2025linux-debian
       // END: linux-debian
     ]],[
@@ -4541,6 +4567,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_BUILD_END_TO_END_MACHINE_LEARNING_LINEAGE, // 2025-10-16
       "how-to-build-a-full-stack-serverless-app", // 2025-10-22
       HOW_TO_USE_TO_DOCKER_WITH_NODEJS_HANDBOOK, // 2025-11-19
+      "how-to-build-an-ai-powered-rag-chatbot", // 2025-12-04
       // END: 2025aws
       // END: aws
     ]],[
@@ -5009,6 +5036,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-create-a-deepseek-r1-api-in-r-with-plumber", // 2025-02-21
       "web-scraping-with-rselenium-chrome-driver-and-rvest", // 2025-03-17
       BUILD_A_LOCAL_RAG_APP_WITH_OLLAMA_AND_CHROMADB_IN_R, // 2025-04-15
+      "learn-r-programming-from-harvard-university", // 2025-12-03
       // END: 2025r
       // END: r
     ]],[
@@ -5327,6 +5355,7 @@ export const template: SidebarInfoTemplate = {
     "bedrock", [
       "learn-enterprise-ai-embeddings-rag-and-multimodal-agents-using-amazon-nova-and-bedrock", // 2025-08-01
       "deploy-an-ai-agent-with-amazon-bedrock", // 2025-10-15
+      "how-to-build-an-ai-powered-rag-chatbot", // 2025-12-04
       // END: 2025bedrock
       // END: bedrock
     ]],[
@@ -5341,6 +5370,7 @@ export const template: SidebarInfoTemplate = {
       "how-the-model-context-protocol-works", // 2025-10-25
       "mcp-vs-apis-whats-the-real-difference", // 2025-10-30
       "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
+      "how-to-build-your-first-mcp-server-using-fastmcp", // 2025-12-04
       // END: 2025mcp
       // END: mcp
     ]],[

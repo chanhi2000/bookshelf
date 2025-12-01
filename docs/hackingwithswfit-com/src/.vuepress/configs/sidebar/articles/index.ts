@@ -23,6 +23,7 @@ import { template as TEMPLATE_MILAN_JOVANOVIC } from './milanjovanovic.tech';
 import { template as TEMPLATE_EVENT_DRIVEN } from './event-driven.io';
 import { template as TEMPLATE_PACKAGEMAIN_TECH } from './packagemain.tech';
 import { template as TEMPLATE_GOSOLVE } from './gosolve.io';
+import { template as TEMPLATE_BRAMUS } from './bram.us';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
 import { template as TEMPLATE_KAKAO_TECH } from './tech.kakao.com';
 import { template as TEMPLATE_KAKAO_PAY_TECH } from './tech.kakaopay.com';
@@ -157,6 +158,7 @@ export const articleSidebars = {
   packgemainTech:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_PACKAGEMAIN_TECH, type),
   gosolve:            (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_GOSOLVE, type),
   eventDriven:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_EVENT_DRIVEN, type),
+  bramus:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_BRAMUS, type),
   onceupon:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ONCEUPON, type),
   d2:                 (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_D2, type),
   nhn:                (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_NHN, type),

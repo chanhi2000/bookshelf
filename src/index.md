@@ -123,6 +123,12 @@ projects:
     name: 'event-driven.io'
     desc: 'Event-Driven by Oskar Dudycz'
     link: '/event-driven.io/README.md'
+  - icon: 'https://bram.us/favicon.ico'
+    name: 'bram.us'
+    desc: "A rather geeky/technical weblog, est. 2001, by Bramus"
+  - icon: 'https://una.im/favicon.svg'
+    name: 'una.im'
+    desc: "personal website of Una Kravets. Front-end developer, tech content creator, and supporter of all things web UI"
   - icon: 'https://substack-post-media.s3.amazonaws.com/public/images/2ea54e25-eaa6-4630-bfc0-10b8cfdce894/apple-touch-icon-1024x1024.png'
     name: 'packagemain.tech'
     desc: "Welcome to packagemain.tech, your one-stop shop for mastering Backend, Cloud, Kubernetes, Microservices, APIs, and more. We'll provide you with hands-on, practical and real-world tutorials that you can use to build your software development skills."
