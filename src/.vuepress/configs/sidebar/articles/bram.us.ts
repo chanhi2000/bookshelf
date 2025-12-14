@@ -8,6 +8,7 @@ const Y2016: SidebarYeargroupTemplate = {
     "css-variables-var-subtitle", // 2016-11-13
     "making-viewport-units-work-properly-in-mobile-safari", // 2016-09-12
     "using-feature-queries-in-css", // 2016-08-28
+    "viewport-unit-based-typography", // 2016-03-11
   ]
 }
 
@@ -82,6 +83,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "scroll-triggered-animations", // 2023-06-16
     "introducing-scroll-driven-animations-style", // 2023-06-13
     "whats-new-in-web-animations", // 2023-05-17
+    "the-gotcha-with-animating-custom-properties", // 2023-02-01
   ],
 }
 
@@ -140,6 +142,7 @@ export const template: SidebarInfoTemplate = {
       // END: js-node
     ]],[
     "css",[
+    "viewport-unit-based-typography", // 2016-03-11
       "using-feature-queries-in-css", // 2016-08-28
       "making-viewport-units-work-properly-in-mobile-safari", // 2016-09-12
       "css-variables-var-subtitle", // 2016-11-13
@@ -170,6 +173,7 @@ export const template: SidebarInfoTemplate = {
       "help-choose-the-syntax-for-css-nesting", // 2022-12-16
       "the-future-of-css-higher-level-custom-properties-to-control-multiple-declarations", // 2022-12-31
       // END: 2022css
+      "the-gotcha-with-animating-custom-properties", // 2023-02-01
       "whats-new-in-web-animations", // 2023-05-17
       "introducing-scroll-driven-animations-style", // 2023-06-13
       "scroll-triggered-animations", // 2023-06-16

@@ -22,6 +22,8 @@ import { template as TEMPLATE_PACKAGEMAIN_TECH } from './packagemain.tech';
 import { template as TEMPLATE_GOSOLVE } from './gosolve.io';
 import { template as TEMPLATE_BRAMUS } from './bram.us';
 import { template as TEMPLATE_UNA } from './una.im';
+import { template as TEMPLATE_JOSH_W_COMEAU} from './joshwcomeau.com';
+import { template as TEMPLATE_CSS_TIP } from './css-tip.com';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
 import { template as TEMPLATE_KAKAO_TECH } from './tech.kakao.com';
 import { template as TEMPLATE_KAKAO_PAY_TECH } from './tech.kakaopay.com';
@@ -156,6 +158,8 @@ export const articleSidebars = {
   eventDriven:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_EVENT_DRIVEN, type),
   bramus:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_BRAMUS, type),
   una:                (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_UNA, type),
+  joshwcomeau:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_JOSH_W_COMEAU, type),
+  cssTip:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_TIP, type),
   onceupon:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ONCEUPON, type),
   d2:                 (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_D2, type),
   nhn:                (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_NHN, type),

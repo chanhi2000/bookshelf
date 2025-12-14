@@ -521,7 +521,7 @@ But `auto-fit` with `minmax()` does the same thing, right? No! The solution abov
 
 ## Bonus 3: Change the `background-color` with a `linear-gradient()`
 
-This one is a little more mind-bending. The Raven is all about length values, so how can we get a color out of these? Well, [<VPIcon icon="iconfont icon-css-tricks"/>linear gradients](https://css-tricks.com/snippets/css/css-linear-gradient/) deal with both. They define colors in certain areas defined by length values. Let’s go through that concept in more detail before getting to the code.
+This one is a little more mind-bending. The Raven is all about length values, so how can we get a color out of these? Well, [**linear gradients**](/css-tricks.com/css3-gradients.md) deal with both. They define colors in certain areas defined by length values. Let’s go through that concept in more detail before getting to the code.
 
 To work around the actual gradient part, it is a well known technique to [<VPIcon icon="iconfont icon-css-tricks"/>double up a color stop](https://css-tricks.com/books/greatest-css-tricks/hard-stop-gradients/), effectively making the gradient part happen within `0px`. Look at this code to see how this is done:
 

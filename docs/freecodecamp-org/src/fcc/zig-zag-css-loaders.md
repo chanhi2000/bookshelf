@@ -295,7 +295,7 @@ Even with 6 steps, the result is still not good but don’t worry, it’s not a 
 }
 ```
 
-If you’re not familiar with `jump-none`, it’s a value that can fix most of your issues when working with `steps()`. I wrote a short article about it if you want more details: “[<VPIcon icon="fas fa-globe"/>How to correctly use steps() with animations](https://css-tip.com/steps/)“
+If you’re not familiar with `jump-none`, it’s a value that can fix most of your issues when working with `steps()`. I wrote a short article about it if you want more details: “[**How to correctly use `steps()` with animations**](/css-tip.com/steps.md)“
 
 <CodePen
   user="t_afif"

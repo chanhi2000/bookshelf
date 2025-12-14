@@ -1547,11 +1547,36 @@ const BUILD_AN_ADMIN_DASHBOARD_WITH_SHADCNUI_AND_TANSTACK_START: SidebarInfoSubg
   ]
 }
 
+const LEARN_HOW_TO_USE_GIT_AND_GITHUB_A_BEGINNER_FRIENDLY_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2025-12-04
+  text: "How to Build an Admin Dashboard with shadcn/ui and TanStack Start",
+  collapsible: true,
+  icon: 'fa-brands fa-react',
+  subPath: 'learn-how-to-use-git-and-github-a-beginner-friendly-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
   children: [
     // END: 2025
+    "create-a-2d-pixel-art-game-in-unity", // 2025-12-19
+    "how-does-an-mcp-work-under-the-hood", // 2025-12-17
+    "how-to-debug-kubernetes-apps-when-logs-fail-you-an-ebpf-tracing-handbook", // 2025-12-17
+    "supabase-for-beginners", // 2025-12-17
+    "how-to-perform-secure-hashing-using-pythons-hashlib-module", // 2025-12-16
+    LEARN_HOW_TO_USE_GIT_AND_GITHUB_A_BEGINNER_FRIENDLY_HANDBOOK, // 2025-12-13
+    "how-to-use-the-optimistic-ui-pattern-with-the-useoptimistic-hook-in-react", // 2025-12-13
+    "learn-n8n-to-design-develop-and-deploy-production-grade-ai-agents", // 2025-12-12
+    "how-to-work-with-yaml-in-python-a-guide-with-examples", // 2025-12-11
+    "how-to-use-the-polars-library-in-python-for-data-analysis", // 2025-12-11
+    "reacts-critical-react2shell-vulnerability-what-you-should-know-and-how-to-upgrade-your-app", // 2025-12-11
+    "building-nmt-from-scratch-pytorch-replications-of-7-landmark-papers", // 2025-12-11
+    "build-ai-agents-with-langbase", // 2025-12-11
+    "how-to-reduce-latency-in-your-generative-ai-apps-with-gemini-and-cloud-run", // 2025-12-10
     "how-to-build-production-grade-generative-ai-applications", // 2025-12-09
     "learn-cloud-security-fundamentals-in-aws-a-guide-for-beginners",  // 2025-12-09
     "how-embedded-analytics-makes-your-app-more-valuable", // 2025-12-09
@@ -3112,6 +3137,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-google-sheet-ai-agent", // 2025-09-26
       "how-to-test-javascript-apps-from-unit-tests-to-ai-augmented-qa", // 2025-10-09
       "how-to-build-no-code-ai-workflows-using-activepieces", // 2025-12-06
+      "build-ai-agents-with-langbase", // 2025-12-11
       // END: 2025ts
       // END: ts
     ]],[
@@ -3350,6 +3376,9 @@ export const template: SidebarInfoTemplate = {
       "simplify-react-components-with-derived-state", // 2025-11-25
       BUILD_AN_ADMIN_DASHBOARD_WITH_SHADCNUI_AND_TANSTACK_START, // 2025-12-04
       "figma-mcp-vs-kombai-frontend-clone-comparison", // 2025-12-09
+      "reacts-critical-react2shell-vulnerability-what-you-should-know-and-how-to-upgrade-your-app", // 2025-12-11
+      "how-to-use-the-optimistic-ui-pattern-with-the-useoptimistic-hook-in-react", // 2025-12-13
+      "supabase-for-beginners", // 2025-12-17
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -3509,6 +3538,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-firebase-crashlytics-in-a-flutter-app-ios-and-android", // 2025-08-21
       "how-to-build-an-upload-service-in-flutter-web-with-firebase", // 2025-09-06
       "firebase-rbac-custom-claims-rules", // 2025-10-15
+      "supabase-for-beginners", // 2025-12-17
       // END: 2025js-supabase
       // END: js-supabase
     ]],[
@@ -3522,6 +3552,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-ai-workflows-with-n8n", // 2025-10-14
       "a-beginners-guide-to-automation-with-n8n", // 2025-11-04
       "build-complex-workflows-with-n8n-and-master-ai-integration", // 2025-11-13
+      "learn-n8n-to-design-develop-and-deploy-production-grade-ai-agents", // 2025-12-12
       // END: 2025js-n8n
       // END: js-n8n
     ]],[
@@ -3772,6 +3803,9 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-an-ai-driven-search-experience-using-meilisearch", // 2025-11-27
       "how-to-build-your-first-mcp-server-using-fastmcp", // 2025-12-04
       "how-to-build-production-grade-generative-ai-applications", // 2025-12-09
+      "how-to-reduce-latency-in-your-generative-ai-apps-with-gemini-and-cloud-run", // 2025-12-10
+      "how-to-work-with-yaml-in-python-a-guide-with-examples", // 2025-12-11
+      "how-to-perform-secure-hashing-using-pythons-hashlib-module", // 2025-12-16
       // END: 2025py
       // END: py
     ]],[
@@ -3876,6 +3910,7 @@ export const template: SidebarInfoTemplate = {
       "how-llms-work-under-the-hood", // 2025-10-02
       "how-to-set-up-cuda-and-wsl2-for-windows-11-including-pytorch-and-tensorflow-gpu", // 2025-12-04
       "become-an-ai-researcher", // 2025-12-05
+      "building-nmt-from-scratch-pytorch-replications-of-7-landmark-papers", // 2025-12-11
       // END: 2025py-torch
       // END: py-torch
     ]],[
@@ -3898,6 +3933,11 @@ export const template: SidebarInfoTemplate = {
       "choose-the-right-llm-for-your-projects-benchmarking-guide", // 2025-11-08
       // END: 2025py-pandas
       // END: py-pandas
+    ]],[
+    "py-polars", [
+      "how-to-use-the-polars-library-in-python-for-data-analysis", // 2025-12-11
+      // END: 2025py-polars
+      // END: py-polars
     ]],[
     "py-jupyter", [
       "how-to-run-r-programs-directly-in-jupyter-notebook-locally", // 2024-10-03
@@ -4100,6 +4140,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "cs-unity", [
       "create-a-simple-mmo-game-in-unity", // 2025-03-06
+      "create-a-2d-pixel-art-game-in-unity", // 2025-12-19
       // END: cs-unity2025
       // END: cs-unity
     ]],[
@@ -4266,6 +4307,7 @@ export const template: SidebarInfoTemplate = {
       "learn-git-through-gamification", // 2025-03-02
       "how-to-use-github-from-the-command-line", // 2025-09-27
       "git-and-github-crash-course-for-beginners", // 2025-12-05
+      LEARN_HOW_TO_USE_GIT_AND_GITHUB_A_BEGINNER_FRIENDLY_HANDBOOK, // 2025-12-13
       // END: 2025git
       // END: git
     ]],[
@@ -4489,6 +4531,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-your-own-google-analytics-alternative-using-umami", // 2025-11-12
       HOW_TO_USE_TO_DOCKER_WITH_NODEJS_HANDBOOK, // 2025-11-19
       "how-to-build-an-ai-driven-search-experience-using-meilisearch", // 2025-11-27
+      "how-to-reduce-latency-in-your-generative-ai-apps-with-gemini-and-cloud-run", // 2025-12-10
       // END: 2025docker
       // END: docker
     ]],[
@@ -4515,6 +4558,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_CREATE_KUBERNETES_CLUSTER_AND_SECURITY_GROUPS_FOR_PODS_IN_AWS_HANDBOOK, // 2025-10-16
       "prepare-for-the-kubernetes-administrator-certification-and-pass", // 2025-10-29
       DEPLOY_YOUR_OWN_COCKROACH_DB_INSTANCE_ON_KUBERNETES_FULL_BOOK_FOR_DEVS, // 2025-11-26
+      "how-to-debug-kubernetes-apps-when-logs-fail-you-an-ebpf-tracing-handbook", // 2025-12-17
       // END: 2025k8s
       // END: k8s
     ]],[
@@ -4619,6 +4663,7 @@ export const template: SidebarInfoTemplate = {
       "prepare-for-the-google-professional-cloud-architect-certification-exam-and-pass", // 2025-08-27
       "pass-the-google-generative-ai-leader-certification-exam", // 2025-10-13
       DEPLOY_YOUR_OWN_COCKROACH_DB_INSTANCE_ON_KUBERNETES_FULL_BOOK_FOR_DEVS, // 2025-11-26
+      "how-to-reduce-latency-in-your-generative-ai-apps-with-gemini-and-cloud-run", // 2025-12-10
       // END: 2025gcp
       // END: gcp
     ]],[
@@ -4828,6 +4873,7 @@ export const template: SidebarInfoTemplate = {
       "top-cybersecurity-certifications-to-boost-your-career", // 2025-11-04
       "cryptography-for-beginners-full-python-course-sha-256-aes-rsa-passwords", // 2025-11-06
       "vpns-vs-proxies-what-are-the-differences", // 2025-11-08
+      "reacts-critical-react2shell-vulnerability-what-you-should-know-and-how-to-upgrade-your-app", // 2025-12-11
       // END: 2025security
       // END: security
     ]],[
@@ -5289,6 +5335,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-google-sheet-ai-agent", // 2025-09-26
       BUILD_AN_AI_CODING_AGENT_WITH_PYTHON_AND_GEMINI, // 2025-10-03
       HOW_I_BUILT_A_MAKATON_AI_COMPANION_USING_GEMINI_NANO_AND_THE_GEMINI_API, // 2025-11-08
+      "how-to-reduce-latency-in-your-generative-ai-apps-with-gemini-and-cloud-run", // 2025-12-10
       // END: 2025gemini
       // END: gemini
     ]],[
@@ -5340,6 +5387,7 @@ export const template: SidebarInfoTemplate = {
       "build-a-serverless-ai-agent-for-generating-cold-emails", // 2025-02-19
       "build-autonomous-agents-using-prompt-chaining-with-ai-primitives", // 2025-04-22
       "how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes", // 2025-05-07
+      "build-ai-agents-with-langbase", // 2025-12-11
       // END: 2025langbase
       // END: langbase
     ]],[
@@ -5397,6 +5445,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
       "how-to-build-your-first-mcp-server-using-fastmcp", // 2025-12-04
       "figma-mcp-vs-kombai-frontend-clone-comparison", // 2025-12-09
+      "how-does-an-mcp-work-under-the-hood", // 2025-12-17
       // END: 2025mcp
       // END: mcp
     ]],[

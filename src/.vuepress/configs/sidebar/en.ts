@@ -33,6 +33,8 @@ export const sidebarEn = sidebar({
   '/gosolve.io/':                 [asb.gosolve()],
   '/bram.us/':                    [asb.bramus()],
   '/una.im/':                     [asb.una()],
+  '/joshwcomeau.com/':            [asb.joshwcomeau()],
+  '/css-tip.com/':                [asb.cssTip()],
   '/towardsdatascience.com/':     [asb.towardsdatascience()],
   '/douggregor.net/':             [asb.douggregor()],
   '/tech.kakao.com/':             [asb.kakaoTech()],

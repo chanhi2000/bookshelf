@@ -1563,6 +1563,13 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "what-firewalls-really-do-and-why-every-network-still-needs-them", // 2025-12-20
+    "how-to-build-a-real-time-ai-gym-coach-with-vision-agents", // 2025-12-20
+    "create-a-2d-pixel-art-game-in-unity", // 2025-12-19
+    "how-does-an-mcp-work-under-the-hood", // 2025-12-17
+    "how-to-debug-kubernetes-apps-when-logs-fail-you-an-ebpf-tracing-handbook", // 2025-12-17
+    "supabase-for-beginners", // 2025-12-17
+    "how-to-perform-secure-hashing-using-pythons-hashlib-module", // 2025-12-16
     LEARN_HOW_TO_USE_GIT_AND_GITHUB_A_BEGINNER_FRIENDLY_HANDBOOK, // 2025-12-13
     "how-to-use-the-optimistic-ui-pattern-with-the-useoptimistic-hook-in-react", // 2025-12-13
     "learn-n8n-to-design-develop-and-deploy-production-grade-ai-agents", // 2025-12-12
@@ -3373,6 +3380,7 @@ export const template: SidebarInfoTemplate = {
       "figma-mcp-vs-kombai-frontend-clone-comparison", // 2025-12-09
       "reacts-critical-react2shell-vulnerability-what-you-should-know-and-how-to-upgrade-your-app", // 2025-12-11
       "how-to-use-the-optimistic-ui-pattern-with-the-useoptimistic-hook-in-react", // 2025-12-13
+      "supabase-for-beginners", // 2025-12-17
       // END: 2025js-react
       // END: js-react
     ]],[
@@ -3532,6 +3540,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-set-up-firebase-crashlytics-in-a-flutter-app-ios-and-android", // 2025-08-21
       "how-to-build-an-upload-service-in-flutter-web-with-firebase", // 2025-09-06
       "firebase-rbac-custom-claims-rules", // 2025-10-15
+      "supabase-for-beginners", // 2025-12-17
       // END: 2025js-supabase
       // END: js-supabase
     ]],[
@@ -3798,6 +3807,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-production-grade-generative-ai-applications", // 2025-12-09
       "how-to-reduce-latency-in-your-generative-ai-apps-with-gemini-and-cloud-run", // 2025-12-10
       "how-to-work-with-yaml-in-python-a-guide-with-examples", // 2025-12-11
+      "how-to-perform-secure-hashing-using-pythons-hashlib-module", // 2025-12-16
+      "how-to-build-a-real-time-ai-gym-coach-with-vision-agents", // 2025-12-20
       // END: 2025py
       // END: py
     ]],[
@@ -4132,6 +4143,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "cs-unity", [
       "create-a-simple-mmo-game-in-unity", // 2025-03-06
+      "create-a-2d-pixel-art-game-in-unity", // 2025-12-19
       // END: cs-unity2025
       // END: cs-unity
     ]],[
@@ -4452,6 +4464,7 @@ export const template: SidebarInfoTemplate = {
       GET_LINUX_SYSTEM_INFO_THROUGH_CLI, // 2025-06-11
       "configure-network-interfaces-in-linux", // 2025-06-17
       "how-to-set-up-cuda-and-wsl2-for-windows-11-including-pytorch-and-tensorflow-gpu", // 2025-12-04
+      "what-firewalls-really-do-and-why-every-network-still-needs-them", // 2025-12-20
       // END: 2025linux-debian
       // END: linux-debian
     ]],[
@@ -4549,6 +4562,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_CREATE_KUBERNETES_CLUSTER_AND_SECURITY_GROUPS_FOR_PODS_IN_AWS_HANDBOOK, // 2025-10-16
       "prepare-for-the-kubernetes-administrator-certification-and-pass", // 2025-10-29
       DEPLOY_YOUR_OWN_COCKROACH_DB_INSTANCE_ON_KUBERNETES_FULL_BOOK_FOR_DEVS, // 2025-11-26
+      "how-to-debug-kubernetes-apps-when-logs-fail-you-an-ebpf-tracing-handbook", // 2025-12-17
       // END: 2025k8s
       // END: k8s
     ]],[
@@ -4864,6 +4878,7 @@ export const template: SidebarInfoTemplate = {
       "cryptography-for-beginners-full-python-course-sha-256-aes-rsa-passwords", // 2025-11-06
       "vpns-vs-proxies-what-are-the-differences", // 2025-11-08
       "reacts-critical-react2shell-vulnerability-what-you-should-know-and-how-to-upgrade-your-app", // 2025-12-11
+      "what-firewalls-really-do-and-why-every-network-still-needs-them", // 2025-12-20
       // END: 2025security
       // END: security
     ]],[
@@ -5326,6 +5341,7 @@ export const template: SidebarInfoTemplate = {
       BUILD_AN_AI_CODING_AGENT_WITH_PYTHON_AND_GEMINI, // 2025-10-03
       HOW_I_BUILT_A_MAKATON_AI_COMPANION_USING_GEMINI_NANO_AND_THE_GEMINI_API, // 2025-11-08
       "how-to-reduce-latency-in-your-generative-ai-apps-with-gemini-and-cloud-run", // 2025-12-10
+      "how-to-build-a-real-time-ai-gym-coach-with-vision-agents", // 2025-12-20
       // END: 2025gemini
       // END: gemini
     ]],[
@@ -5435,6 +5451,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-your-own-mcp-server-with-python", // 2025-10-31
       "how-to-build-your-first-mcp-server-using-fastmcp", // 2025-12-04
       "figma-mcp-vs-kombai-frontend-clone-comparison", // 2025-12-09
+      "how-does-an-mcp-work-under-the-hood", // 2025-12-17
       // END: 2025mcp
       // END: mcp
     ]],[

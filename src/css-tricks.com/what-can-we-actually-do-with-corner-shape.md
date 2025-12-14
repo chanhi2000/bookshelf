@@ -52,7 +52,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E
 
 When I first started messing around with code, rounded corners required five background images or an [**image sprite**](/css-tricks.com/spriting-img.md) likely created in Photoshop, so when [<VPIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/) came onto the scene, I remember everybody thinking that it was the best thing ever. Web designs were very square at the time, so to have `border-radius` was super cool, and it saved us a lot of time, too.
 
-[<VPIcon icon="iconfont icon-css-tricks"/>Chris’ `border-radius` article from 2009](https://css-tricks.com/snippets/css/rounded-corners/), which at the time of writing is 16 years old (wait, how old am *I*?!), includes vendor prefixes for older web browsers, including “old Konqueror browsers” (`-khtml-border-radius`). What a time to be alive!
+[**Chris’ `border-radius` article from 2009**](/css-tricks.com/snippets-css/rounded-corners.md), which at the time of writing is 16 years old (wait, how old am *I*?!), includes vendor prefixes for older web browsers, including “old Konqueror browsers” (`-khtml-border-radius`). What a time to be alive!
 
 We’re much less excited about rounded corners nowadays. In fact, sharp corners have made a comeback and are just as popular now, as are squircles (square-ish circles or circle-y squares, take your pick), which is exactly what the `corner-shape` CSS property enables us to create (in addition to many other cool UI effects that I’ll be walking you through today).
 

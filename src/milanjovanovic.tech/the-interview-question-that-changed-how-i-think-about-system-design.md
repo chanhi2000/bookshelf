@@ -116,7 +116,7 @@ Optimizing a query or loop can help, but it doesn't fix waiting, failures, or sc
 
 That shift from optimizing functions to designing scalable systems is the difference between a good developer and a great one.
 
-If you want to go deeper into building systems that scale, my [**Clean Architecture course**](/pragmatic-clean-architecture/README.md) walks you through exactly that. You'll learn how to structure applications, separate concerns, and design systems that grow without breaking.
+If you want to go deeper into building systems that scale, my [**Clean Architecture course**](/milanjovanovic.tech/pragmatic-clean-architecture/README.md) walks you through exactly that. You'll learn how to structure applications, separate concerns, and design systems that grow without breaking.
 
 ---
 

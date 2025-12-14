@@ -164,7 +164,7 @@ If your goal is to get the progress value and style the element itself then usin
 
 ## Progress element with dynamic coloration
 
-Now that we have our new way to get the value let’s create[<VPIcon icon="fas fa-globe"/>a progress element with dynamic coloration](https://css-tip.com/custom-progress/). This time, we will not fade between two colors like we did in the previous demo but the color will change based on the value.
+Now that we have our new way to get the value let’s create [**a progress element with dynamic coloration**](/css-tip.com/custom-progress.md). This time, we will not fade between two colors like we did in the previous demo but the color will change based on the value.
 
 A demo worth a thousand words:
 
@@ -198,7 +198,7 @@ progress[value]::-webkit-progress-value {
 }
 ```
 
-We have two[<VPIcon icon="fas fa-globe"/>single-color gradients](https://css-tip.com/one-color-gradient/)(red and orange) and a `background-color` (green). If, for example, the progression is equal to 20%, the first gradient will have a size equal to`10% 1%`(visible) and the second gradient will have a size equal`40% 1%`(visible). Both are visible but you will only see the top layer so the color is red. If the progression is equal to 70%, both gradients will have a size equal to`0% 1%`(invisible) and the background-color will be visible: the color is green.
+We have two [**single-color gradients**](/css-tip.com/one-color-gradient.md)(red and orange) and a `background-color` (green). If, for example, the progression is equal to 20%, the first gradient will have a size equal to`10% 1%`(visible) and the second gradient will have a size equal`40% 1%`(visible). Both are visible but you will only see the top layer so the color is red. If the progression is equal to 70%, both gradients will have a size equal to`0% 1%`(invisible) and the background-color will be visible: the color is green.
 
 Clever, right? We can easily scale this technique to consider as many colors as you want by adding more gradients. Simply pay attention to the order. The smallest value is for the top layer and we increase it until we reach the bottom layer (the `background-color`).
 

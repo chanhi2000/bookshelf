@@ -76,7 +76,7 @@ Oh look, a use case.
 
 Those light yellow boxes are basically polygons with rounded corners. In a perfect world, `polygon()` could do this with the `round` keyword, as specced, but alas that doesn’t work just yet. But because `shape()` is essentially all-powerful, that *does* work now (in Chrome and Safari anyway, and this feels like a decently progressive-enhancement thing).
 
-[<VPIcon icon="fas fa-globe"/>Temani Afif saw that and did the work!](https://css-tip.com/arrow-like-box/)
+[**Temani Afif saw that and did the work!**](/css-tip.com/arrow-like-box.md)
 
 <CodePen
   user="t_afif"

@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5032"/>
 
-I recently shared a trick on [<VPIcon icon="fas fa-globe"/>how to create a Full-bleed layout](https://css-tip.com/full-bleed-layout/) using a few lines of modern CSS code. If you are unfamiliar with such layout see the demo below. In this article we'll dig deeper into the idea and explain things as we go.
+I recently shared a trick on [**how to create a Full-bleed layout**](/css-tip.com/full-bleed-layout.md) using a few lines of modern CSS code. If you are unfamiliar with such layout see the demo below. In this article we'll dig deeper into the idea and explain things as we go.
 
 <CodePen
   user="t_afif"
@@ -123,7 +123,7 @@ main {
 }
 ```
 
-This is fairly simple, efficient, and people with basic CSS experience will understand it. I'd advise you to keep doing this, but we can also do the same using *only* margin like I detail in my post [<VPIcon icon="fas fa-globe"/>max-width + centering with one instruction](https://css-tip.com/center-max-width/).
+This is fairly simple, efficient, and people with basic CSS experience will understand it. I'd advise you to keep doing this, but we can also do the same using *only* margin like I detail in my post [**max-width + centering with one instruction**](/css-tip.com/center-max-width.md).
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/01/MwCcy4QIP0-746.png?resize=746%2C387&ssl=1)
 
@@ -250,7 +250,7 @@ Here is a demo to illustrate the behavior of each one. [Make it full screen (<VP
 
 ## Restricting the Content of the Full Bleed Section to the Same Width as the Rest of the Main Content
 
-Let's end with one last demo where it's only [<VPIcon icon="fas fa-globe"/>the background color that extends to the edge of the screen](https://css-tip.com/overflowing-background/). The content is still restricted to the same maximum width as everything else. This is a particular case of full-bleed layout where we don't need to mess with margin and complex calculation, and has an entirely different trick up it's sleeve. I'll leave it to you to poke at the code and see it.
+Let's end with one last demo where it's only [**the background color that extends to the edge of the screen**](/css-tip.com/overflowing-background.md). The content is still restricted to the same maximum width as everything else. This is a particular case of full-bleed layout where we don't need to mess with margin and complex calculation, and has an entirely different trick up it's sleeve. I'll leave it to you to poke at the code and see it.
 
 <CodePen
   user="t_afif"

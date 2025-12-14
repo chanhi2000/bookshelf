@@ -122,7 +122,7 @@ Or the shorthand version if you prefer more compact code:
 
 The above figure illustrates the difference between using or not using `background-clip: text`. It’s pretty clear that the left result is what we are aiming for. We are limiting the background coloration to only the text instead of the whole element.
 
-The `conic-gradient(#000 0 0)` looks strange, right? It lets you have a one-color gradient. I wrote a small tip about it that I invite you to read to understand why we’re using that particular syntax in this article, “[<VPIcon icon="fas fa-globe"/>How to correctly define a one-color gradient](https://css-tip.com/one-color-gradient/)“.
+The `conic-gradient(#000 0 0)` looks strange, right? It lets you have a one-color gradient. I wrote a small tip about it that I invite you to read to understand why we’re using that particular syntax in this article, “[**How to correctly define a one-color gradient**](/css-tip.com/one-color-gradient.md)“.
 
 ---
 

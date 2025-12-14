@@ -165,7 +165,7 @@ Do you see that? We have an “almost” hexagon shape. All that is missing is t
 }
 ```
 
-We can definitely say that we have[<VPIcon icon="fas fa-globe"/>the easiest and simplest way to create hexagon shapes](https://css-tip.com/hexagon/)!
+We can definitely say that we have [**the easiest and simplest way to create hexagon shapes**](/css-tip.com/hexagon.md)!
 
 <CodePen
   user="t_afif"

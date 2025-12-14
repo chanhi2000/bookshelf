@@ -1,5 +1,36 @@
 import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
+const SNIPPETS: SidebarInfoSubgroupTemplate = {
+  text: 'Snippet(s)',
+  collapsible: true,
+  icon: 'fa-brands fa-css3-alt',
+  subPath: 'snippets-css',
+  children: [
+    "rounded-corners", // 2009-09-05
+    "simple-and-nice-blockquote-styling", // 2009-09-04
+    "using-font-face-in-css", // 2009-08-10
+    // END: 2012
+  ],
+}
+
+const ALMANEC_PROPERTIES: SidebarInfoSubgroupTemplate = { 
+  text: 'Almanec',
+  collapsible: true,
+  icon: 'iconfont icon-css-tricks',
+  subPath: 'almanac-properties',
+  children: [
+    // END: 2012
+    // END: a
+    "animation", // 2024-09-09
+    // END: a
+    "color", // 2011-09-05
+    // END: c
+    // END: d
+    // END: d
+    // END: f
+  ],
+}
+
 const Y2012: SidebarYeargroupTemplate = {
   text: '2012',
   collapsible: true,
@@ -34,6 +65,7 @@ const Y2015: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2015
+    "the-at-rules-of-css", // 2015-05-12
     "box-sizing", // 2015-05-06
   ],
 }
@@ -54,6 +86,7 @@ const Y2017: SidebarYeargroupTemplate = {
   children: [
     // END: 2017
     "dont-overthink-it-grids", // 2017-12-28
+    "collection-interesting-facts-css-grid-layout", // 2017-07-21
     "position-sticky-2", // 2017-06-21
     "autoprefixer", // 2017-04-13
     "the-css-ah-ha-moment", // 2017-02-10
@@ -67,6 +100,7 @@ const Y2018: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2018
+    "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
     "svg-shape-morphing-works", // 2018-08-28
     "responsive-components-solution-container-queries-problem", // 2018-02-28
   ],
@@ -117,6 +151,9 @@ const Y2022: SidebarYeargroupTemplate = {
   children: [
     // END: 2022
     "when-do-you-use-css-columns", // 2022-08-18
+    "exploring-css-grids-implicit-grid-and-auto-placement-powers", // 2022-08-01
+    "single-element-loaders-the-bars", // 2022-06-24
+    "cool-hover-effects-using-background-properties", // 2022-04-27
     "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
   ],
 }
@@ -145,6 +182,13 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "masonry-layout-is-now-grid-lanes", // 2025-12-19
+    "search-css-tricks-raycast-extension", // 2025-12-18
+    "responsive-list-of-avatars-using-modern-css-part-2", // 2025-12-17
+    "whats-important-1", // 2025-12-16
+    "toon-title-text-generator", // 2025-12-15
+    "responsive-list-of-avatars-using-modern-css-part-1", // 2025-12-15
+    "what-else-could-container-queries-query", // 2025-12-12
     "creating-scroll-based-animations-in-full-view", // 2025-12-10
     "css-wrapped-2025", // 2025-12-09
     "fit-width-text-in-1-line-of-css", // 2025-12-09
@@ -220,6 +264,7 @@ export const template: SidebarInfoTemplate = {
       "shape-blobbing-css", // 2014-10-28
       // END: 2014css
       "box-sizing", // 2015-05-06
+      "the-at-rules-of-css", // 2015-05-12
       // END: 2015css
       "international-box-sizing-awareness-day", // 2016-03-04
       "probably-dont-base64-svg", // 2016-07-25
@@ -229,10 +274,12 @@ export const template: SidebarInfoTemplate = {
       "the-css-ah-ha-moment", // 2017-02-10
       "autoprefixer", // 2017-04-13
       "position-sticky-2", // 2017-06-21
+      "collection-interesting-facts-css-grid-layout", // 2017-07-21
       "dont-overthink-it-grids", // 2017-12-28
       // END: 2017css
       "responsive-components-solution-container-queries-problem", // 2018-02-28
       "svg-shape-morphing-works", // 2018-08-28
+      "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
       // END: 2018css
       "gooey-effect", // 2019-02-22
       "custom-scrollbars-in-webkit", // 2019-07-15
@@ -253,6 +300,9 @@ export const template: SidebarInfoTemplate = {
       "next-gen-css-container", // 2021-05-11
       // END: 2021css
       "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
+      "cool-hover-effects-using-background-properties", // 2022-04-27
+      "single-element-loaders-the-bars", // 2022-06-24
+      "exploring-css-grids-implicit-grid-and-auto-placement-powers", // 2022-08-01
       "when-do-you-use-css-columns", // 2022-08-18
       // END: 2022css
       // END: 2023css
@@ -310,6 +360,12 @@ export const template: SidebarInfoTemplate = {
       "that-time-i-tried-explaining-html-and-css-to-my-5-year-old-niece", // 2025-12-08
       "fit-width-text-in-1-line-of-css", // 2025-12-09
       "creating-scroll-based-animations-in-full-view", // 2025-12-10
+      "responsive-list-of-avatars-using-modern-css-part-1", // 2025-12-15
+      "toon-title-text-generator", // 2025-12-15
+      "whats-important-1", // 2025-12-16
+      "responsive-list-of-avatars-using-modern-css-part-2", // 2025-12-17
+      "search-css-tricks-raycast-extension", // 2025-12-18
+      "masonry-layout-is-now-grid-lanes", // 2025-12-19
       // END: 2025css
       // END: css
     ]],[
@@ -344,6 +400,8 @@ export const template: SidebarInfoTemplate = {
       // END: safari
     ]],[
     "all", [
+      ALMANEC_PROPERTIES,
+      SNIPPETS,
       Y2025,
       Y2024,
       Y2023,

@@ -69,7 +69,7 @@ It’s not that we need to know any of this information today, but the context i
   "title": "HTML Components",
   "desc": "This document is a submission to the World Wide Web Consortium (see Submission Request, W3C Staff Comment). It is intended for review and comment by W3C members.",
   "link": "https://w3.org/TR/NOTE-HTMLComponents/",
-  "logo": "https://w3.org",
+  "logo": "https://w3.org/favicon.ico",
   "background": "rgba(0,90,156,0.2)"
 }
 ```

@@ -96,7 +96,7 @@ So, in that example, `footer` marks up the attribution, and `cite` points to the
 
 ## Styling with personality
 
-Out-of-the-box, browsers do [<VPIcon icon="fas fa-globe"/>very little](https://stuffandnonsense.co.uk/lab/quotes.html#demo-1) to style blockquotes, except for adding inline margins. You could add some [**simple blockquote styling**](/css-tricks.com/snippets/css/simple-and-nice-blockquote-styling.md), but with just a little more style, you can transform them into expressive design elements that reflect a brand’s personality and voice.
+Out-of-the-box, browsers do [<VPIcon icon="fas fa-globe"/>very little](https://stuffandnonsense.co.uk/lab/quotes.html#demo-1) to style blockquotes, except for adding inline margins. You could add some [**simple blockquote styling**](/css-tricks.com/snippets-css/simple-and-nice-blockquote-styling.md), but with just a little more style, you can transform them into expressive design elements that reflect a brand’s personality and voice.
 
 ![Quotation designs to reflect a brand’s personality and voice](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/s_790F7B84CC43EDAACAC230BA09FDB2B94DE343C5FDA5C4802B33DF9B607B71C2_1752019872672_2025-07-09-9.webp?resize=1920%2C1080&ssl=1)
 

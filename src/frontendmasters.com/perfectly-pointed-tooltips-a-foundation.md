@@ -159,7 +159,7 @@ Nothing fancy so far. The tooltip is “always” placed at the top, whatever th
 
 In this article we’ll use simple values for `position-area`, but this property can be very tricky.
 
-![I’ve created [<VPIcon icon="fas fa-globe"/>an interactive demo](https://css-tip.com/position-area/) if you want to explore all the different values and understand how alignment works in the context of Anchor Positioning.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/10/1hmIC9A1.png?resize=833%2C622&ssl=1)
+![I’ve created [**an interactive demo**](/css-tip.com/position-area.md) if you want to explore all the different values and understand how alignment works in the context of Anchor Positioning.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/10/1hmIC9A1.png?resize=833%2C622&ssl=1)
 
 Now that our tooltip is placed, let’s add a small offset at the bottom to prepare the space for the tail. Using `bottom` will do the job.
 
@@ -209,7 +209,7 @@ The first thing is to identify the containing block of the absolutely positioned
 ```
 :::
 
-As you can read, it’s all about the containing block, and the containing block of an absolutely positioned element is the first ancestor with a position different from `static` (the default). If such element doesn’t exist we consider [<VPIcon icon="fas fa-globe"/>the initial containing block](https://css-tip.com/initial-containing-block/).
+As you can read, it’s all about the containing block, and the containing block of an absolutely positioned element is the first ancestor with a position different from `static` (the default). If such element doesn’t exist we consider [**the initial containing block**](/css-tip.com/initial-containing-block.md).
 
 In our example, I am going to use the body as the containing block, and I will add a border and an offset from each side to better illustrate:
 
@@ -466,7 +466,7 @@ Easy! You simply change the initial configuration to consider the bottom positio
 
 That’s all for this first part. We learned how to place a tooltip using `position-area` and how to defined a fallback position when an overflow occurs. Not to mention the flip feature and the use of the `anchor()` function.
 
-In the second part (coming soon!), we will increase the difficulty by working with more than two positions. Take the time to digest this first part before moving to the next one I also invite you to spend a few minutes on [<VPIcon icon="fas fa-name"/>my interactive demo of `position-area`](https://css-tip.com/position-area/) to familiarize yourself with it.
+In the second part (coming soon!), we will increase the difficulty by working with more than two positions. Take the time to digest this first part before moving to the next one I also invite you to spend a few minutes on [**my interactive demo of `position-area`**](/css-tip.com/position-area.md) to familiarize yourself with it.
 
 ::: info Article Series
 

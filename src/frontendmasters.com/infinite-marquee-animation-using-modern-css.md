@@ -243,7 +243,7 @@ img:nth-child(2) {animation-delay: -2 *  duration/total_image }
 
 Tedious work, right? And we need as many selectors as the number of images in the HTML code, which is not good. What we want is a generic CSS code that doesn’t depend on the HTML structure (the number of images).
 
-Similar to the `sibling-count()`that gives us the total number of images, we also have [<VPIcon icon="fas fa-globe"/>`sibling-index()`](https://css-tip.com/element-index/)` [<VPIcon icon="fas fa-globe"/>that gives us the index of each image within the container](https://css-tip.com/element-index/). All we have to do is to update the animation property and include the delay using the index value that will be different for each image, hence a different delay for each image!
+Similar to the `sibling-count()`that gives us the total number of images, we also have [**`sibling-index()` that gives us the index of each image within the container**](/css-tip.com/element-index.md). All we have to do is to update the animation property and include the delay using the index value that will be different for each image, hence a different delay for each image!
 
 ```css
 animation: 
@@ -382,7 +382,7 @@ Do you still see the code as a complex one? I hope not!
 
 ::: note
 
-The use of `min()` or `max()` is not always intuitive, but [<VPIcon icon="fas fa-globe"/>I have a small tutorial that can help you identify which one to use](https://css-tip.com/min-max/).
+The use of `min()` or `max()` is not always intuitive, but [**I have a small tutorial that can help you identify which one to use**](/css-tip.com/min-max.md).
 
 :::
 

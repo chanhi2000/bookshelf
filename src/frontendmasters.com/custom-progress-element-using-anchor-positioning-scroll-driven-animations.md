@@ -439,7 +439,7 @@ When`--y`will animate, the width of the gradient will also animate from`0%`to`10
   :default-tab="['css','result']"
   :theme="$isDarkMode ? 'dark': 'light'"/>
 
-If you are wondering what’s going on with that gradient syntax, check this “[<VPIcon icon="fas fa-globe"/>How to correctly define a one-color gradient](https://css-tip.com/one-color-gradient/)”
+If you are wondering what’s going on with that gradient syntax, check this “[**How to correctly define a one-color gradient**](/css-tip.com/one-color-gradient.md)”
 
 Now, we need to do the same with the tooltip position. We update the following:
 

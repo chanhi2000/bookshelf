@@ -114,6 +114,14 @@ export const navbarEn = navbar([
         icon: 'https://una.im/favicon.svg',
         link: '/una.im/README.md'
       }, {
+        text: 'joshwcomeau.com',
+        icon: 'https://joshwcomeau.com/favicon.png',
+        link: '/joshwcomeau.com/README.md'
+      }, {
+        text: 'css-tip.com',
+        icon: 'https://css-tip.com/img/fav.png',
+        link: '/css-tip.com/README.md'
+      }, {
         text: 'towardsdatascience.com',
         icon: 'https://cdn-images-1.medium.com/v2/resize:fill:128:128/1*VzTUkfeGymHP4Bvav-T-lA.png',
         link: '/towardsdatascience.com/README.md'

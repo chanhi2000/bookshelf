@@ -1,114 +1,14 @@
 import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
-const Y2025: SidebarYeargroupTemplate = {
-  text: '2025',
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
   collapsible: true,
   children: [
-    // END: 2025
-    "thoughts-on-native-css-mixins", // 2025-12-11
-    "the-deep-card-conundrum", // 2025-12-04
-    "the-downsides-of-scrollbar-gutter-stable-and-one-weird-trick", // 2025-12-03
-    "non-square-image-blur-extensions", // 2025-12-01
-    "how-to-add-and-remove-items-from-a-native-css-carousel-with-css", // 2025-11-26
-    "web-monetization-is-still-inching-along-but-still-too-difficult", // 2025-11-24
-    "how-to-create-3d-images-in-css-with-the-layered-pattern", // 2025-11-20
-    "more-css-random-learning-through-experiments", // 2025-11-18
-    "browserslist-baseline", // 2025-11-13
-    "perfectly-pointed-tooltips-to-the-corners", // 2025-11-10
-    "staggered-animation-with-css-sibling-functions", // 2025-11-07
-    "the-weird-parts-of-position-sticky", // 2025-11-05
-    "perfectly-pointed-tooltips-all-four-sides", // 2025-11-03
-    "super-simple-full-bleed-breakout-styles", // 2025-10-31
-    "perfectly-pointed-tooltips-a-foundation", // 2025-10-28
-    "introducing-tanstack-start-middleware", // 2025-10-24
-    "the-two-button-problem", // 2025-10-21
-    "modern-css-round-out-tabs", // 2025-10-13
-    "css-counters-in-action", // 2025-10-09
-    "numbers-that-fall-scroll-driven-animations-sibling-index", // 2025-10-07
-    "a-progressive-enhancement-challenge", // 2025-10-03
-    "inset-shadows-directly-on-img-elements-part-1", // 2025-10-01
-    "learn-media-queries", // 2025-09-29
-    "the-coyier-css-starter", // 2025-09-24
-    "what-you-need-to-know-about-modern-css-2025-edition", // 2025-09-19
-    "css-offset-and-animation-composition-for-rotating-menus", // 2025-09-17
-    "choosing-the-right-model-in-cursor", // 2025-09-09
-    "getting-started-with-cursor", // 2025-09-08
-    "advanced-postgresql-indexing", // 2025-09-03
-    "intro-to-postgres-indexes", // 2025-09-01
-    "the-path-of-least-resistance-part-2", // 2025-08-30
-    "the-path-of-least-resistance-part-1", // 2025-08-27
-    "opening-a-details-element-from-the-url", // 2025-08-26
-    "very-early-playing-with-random-in-css", // 2025-08-25
-    "quick-dark-mode-toggles", // 2025-08-22
-    "obsessing-over-smooth-radial-gradient-disc-edges", // 2025-08-20
-    "web-design-what-is-the-web-capable-of-that-is-hard-to-express-in-design-software", // 2025-08-18
-    "architecture-through-component-colocation", // 2025-08-11
-    "using-the-custom-highlight-api", // 2025-08-07
-    "count-auto-fill-columns", // 2025-08-06
-    "infinite-marquee-animation-using-modern-css", // 2025-08-04
-    "should-we-never-use-non-logical-properties", // 2025-07-31
-    "the-figcaption-problem", // 2025-07-24
-    "introducing-zustand", // 2025-07-21
-    "adaptive-alerts-a-css-scroll-state-use-case", // 2025-07-16
-    "stacked-transforms", // 2025-07-15
-    "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
-    "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
-    "satisfies-in-typescript", // 2025-07-03
-    "custom-select-that-comes-up-from-the-bottom-on-mobile", // 2025-07-01
-    "step-gradients-with-a-given-number-of-steps", // 2025-06-30
-    "quantity-query-carousel", // 2025-06-25
-    "understanding-css-corner-shape-and-the-power-of-the-superellipse", // 2025-06-23
-    "drawing-css-shapes-using-corner-shape", // 2025-06-18
-    "scope-in-css", // 2025-06-17
-    "grainy-gradients", // 2025-06-13
-    "1fr-1fr-vs-auto-auto-vs-50-50", // 2025-06-11
-    "scroll-driven-letter-grid", // 2025-06-09
-    "firstchild-can-be-white-space", // 2025-06-05
-    "the-simplest-way-to-deploy", // 2025-05-29
-    "css-spotlight-effect", // 2025-05-26
-    "move-modal-in-on-a-shape", // 2025-05-22
-    "chatgpt-and-old-and-broken-code", // 2025-05-20
-    "creating-blob-shapes-using-clip-path-shape", // 2025-05-19
-    "to-flip-or-not-to-flip", // 2025-05-16
-    "container-query-for-is-there-enough-space-outside-this-element", // 2025-05-13
-    "creating-flower-shapes-using-clip-path-shape", // 2025-05-12
-    "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
-    "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
-    "curved-box-cutouts-in-css", // 2025-05-01
-    "seeking-an-answer-why-cant-html-alone-do-includes", // 2025-04-29
-    "react-internals-which-useeffect-runs-first", // 2025-04-28
-    "am-i-a-sadistic-developer-are-you", // 2025-04-24
-    "newfangled-browser-alternatives", // 2025-04-22
-    "lessons-learned-from-recreating-a-styled-dialog", // 2025-04-16
-    "the-latest-in-the-how-are-we-going-to-do-masonry-debate-apple-says-item-flow", // 2025-04-11
-    "using-currentcolor-in-2025", // 2025-04-10
-    "custom-progress-element-using-the-attr-function", // 2025-04-09
-    "css-bursts-with-conic-gradients", // 2025-04-03
-    "reanimating-the-css-day-buttons", // 2025-03-31
-    "expanding-css-shadow-effects", // 2025-03-28
-    "layered-text-headers", // 2025-03-24
-    "one-thing-scope-can-do-is-reduce-concerns-about-source-order", // 2025-03-20
-    "overlapping-inline-backgrounds", // 2025-03-18
-    "chilled-out-text-underlines", // 2025-03-12
-    "the-moment-you-need-a-database", // 2025-03-10
-    "movies-as-images", // 2025-03-05
-    "custom-property-fallbacks", // 2025-02-28
-    "examples-of-why-the-web-needs-anchored-popovers", // 2025-02-26
-    "how-to-use-attr-in-css-for-columns-colors-and-font-size", // 2025-02-25
-    "a-color-input-that-also-shows-the-value", // 2025-02-18
-    "rainbow-selection-in-css", // 2025-02-14
-    "optimizing-images-for-web-performance", // 2025-02-10
-    "three-approaches-to-the-ampersand-selector-in-css", // 2025-02-07
-    "html-css-for-a-one-time-password-input", // 2025-02-05
-    "notes-on-the-code-editors-with-ai-landscape", // 2025-02-03
-    "mapping-with-leaflet", // 2025-01-29
-    "full-bleed-layout-with-modern-css", // 2025-01-27
-    "creating-an-angled-slider", // 2025-01-22
-    "simplify-lazy-loading-with-intersection-observers-scrollmargin", // 2025-01-20
-    "css-wishlist-for-2025", // 2025-01-14
-    "sharing-a-variable-across-html-css-and-javascript", // 2025-01-08
-    "bone-up-html-2025", // 2025-01-06
-    "containers-context", // 2025-01-03
+    // END: 2023
+    "container-queries-and-units", // 2023-12-21
+    "light-dom-only", // 2023-12-08
+    "vanilla-javascript-reactivity", // 2023-08-21
+    "what-is-sql-database-definition-for-beginners", // 2023-01-13
   ]
 }
 
@@ -224,15 +124,117 @@ const Y2024: SidebarYeargroupTemplate = {
   ]
 }
 
-const Y2023: SidebarYeargroupTemplate = {
-  text: '2023',
+const Y2025: SidebarYeargroupTemplate = {
+  text: '2025',
   collapsible: true,
   children: [
-    // END: 2023
-    "container-queries-and-units", // 2023-12-21
-    "light-dom-only", // 2023-12-08
-    "vanilla-javascript-reactivity", // 2023-08-21
-    "what-is-sql-database-definition-for-beginners", // 2023-01-13
+    // END: 2025
+    "exploring-multi-brand-systems-with-tokens-and-composability", // 2025-12-19
+    "different-page-transitions-for-different-circumstances", // 2025-12-16
+    "thoughts-on-native-css-mixins", // 2025-12-11
+    "the-deep-card-conundrum", // 2025-12-04
+    "the-downsides-of-scrollbar-gutter-stable-and-one-weird-trick", // 2025-12-03
+    "non-square-image-blur-extensions", // 2025-12-01
+    "how-to-add-and-remove-items-from-a-native-css-carousel-with-css", // 2025-11-26
+    "web-monetization-is-still-inching-along-but-still-too-difficult", // 2025-11-24
+    "how-to-create-3d-images-in-css-with-the-layered-pattern", // 2025-11-20
+    "more-css-random-learning-through-experiments", // 2025-11-18
+    "browserslist-baseline", // 2025-11-13
+    "perfectly-pointed-tooltips-to-the-corners", // 2025-11-10
+    "staggered-animation-with-css-sibling-functions", // 2025-11-07
+    "the-weird-parts-of-position-sticky", // 2025-11-05
+    "perfectly-pointed-tooltips-all-four-sides", // 2025-11-03
+    "super-simple-full-bleed-breakout-styles", // 2025-10-31
+    "perfectly-pointed-tooltips-a-foundation", // 2025-10-28
+    "introducing-tanstack-start-middleware", // 2025-10-24
+    "the-two-button-problem", // 2025-10-21
+    "modern-css-round-out-tabs", // 2025-10-13
+    "css-counters-in-action", // 2025-10-09
+    "numbers-that-fall-scroll-driven-animations-sibling-index", // 2025-10-07
+    "a-progressive-enhancement-challenge", // 2025-10-03
+    "inset-shadows-directly-on-img-elements-part-1", // 2025-10-01
+    "learn-media-queries", // 2025-09-29
+    "the-coyier-css-starter", // 2025-09-24
+    "what-you-need-to-know-about-modern-css-2025-edition", // 2025-09-19
+    "css-offset-and-animation-composition-for-rotating-menus", // 2025-09-17
+    "choosing-the-right-model-in-cursor", // 2025-09-09
+    "getting-started-with-cursor", // 2025-09-08
+    "advanced-postgresql-indexing", // 2025-09-03
+    "intro-to-postgres-indexes", // 2025-09-01
+    "the-path-of-least-resistance-part-2", // 2025-08-30
+    "the-path-of-least-resistance-part-1", // 2025-08-27
+    "opening-a-details-element-from-the-url", // 2025-08-26
+    "very-early-playing-with-random-in-css", // 2025-08-25
+    "quick-dark-mode-toggles", // 2025-08-22
+    "obsessing-over-smooth-radial-gradient-disc-edges", // 2025-08-20
+    "web-design-what-is-the-web-capable-of-that-is-hard-to-express-in-design-software", // 2025-08-18
+    "architecture-through-component-colocation", // 2025-08-11
+    "using-the-custom-highlight-api", // 2025-08-07
+    "count-auto-fill-columns", // 2025-08-06
+    "infinite-marquee-animation-using-modern-css", // 2025-08-04
+    "should-we-never-use-non-logical-properties", // 2025-07-31
+    "the-figcaption-problem", // 2025-07-24
+    "introducing-zustand", // 2025-07-21
+    "adaptive-alerts-a-css-scroll-state-use-case", // 2025-07-16
+    "stacked-transforms", // 2025-07-15
+    "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
+    "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
+    "satisfies-in-typescript", // 2025-07-03
+    "custom-select-that-comes-up-from-the-bottom-on-mobile", // 2025-07-01
+    "step-gradients-with-a-given-number-of-steps", // 2025-06-30
+    "quantity-query-carousel", // 2025-06-25
+    "understanding-css-corner-shape-and-the-power-of-the-superellipse", // 2025-06-23
+    "drawing-css-shapes-using-corner-shape", // 2025-06-18
+    "scope-in-css", // 2025-06-17
+    "grainy-gradients", // 2025-06-13
+    "1fr-1fr-vs-auto-auto-vs-50-50", // 2025-06-11
+    "scroll-driven-letter-grid", // 2025-06-09
+    "firstchild-can-be-white-space", // 2025-06-05
+    "the-simplest-way-to-deploy", // 2025-05-29
+    "css-spotlight-effect", // 2025-05-26
+    "move-modal-in-on-a-shape", // 2025-05-22
+    "chatgpt-and-old-and-broken-code", // 2025-05-20
+    "creating-blob-shapes-using-clip-path-shape", // 2025-05-19
+    "to-flip-or-not-to-flip", // 2025-05-16
+    "container-query-for-is-there-enough-space-outside-this-element", // 2025-05-13
+    "creating-flower-shapes-using-clip-path-shape", // 2025-05-12
+    "shape-a-new-powerful-drawing-syntax-in-css", // 2025-05-07
+    "using-container-query-units-relative-to-an-outer-container", // 2025-05-06
+    "curved-box-cutouts-in-css", // 2025-05-01
+    "seeking-an-answer-why-cant-html-alone-do-includes", // 2025-04-29
+    "react-internals-which-useeffect-runs-first", // 2025-04-28
+    "am-i-a-sadistic-developer-are-you", // 2025-04-24
+    "newfangled-browser-alternatives", // 2025-04-22
+    "lessons-learned-from-recreating-a-styled-dialog", // 2025-04-16
+    "the-latest-in-the-how-are-we-going-to-do-masonry-debate-apple-says-item-flow", // 2025-04-11
+    "using-currentcolor-in-2025", // 2025-04-10
+    "custom-progress-element-using-the-attr-function", // 2025-04-09
+    "css-bursts-with-conic-gradients", // 2025-04-03
+    "reanimating-the-css-day-buttons", // 2025-03-31
+    "expanding-css-shadow-effects", // 2025-03-28
+    "layered-text-headers", // 2025-03-24
+    "one-thing-scope-can-do-is-reduce-concerns-about-source-order", // 2025-03-20
+    "overlapping-inline-backgrounds", // 2025-03-18
+    "chilled-out-text-underlines", // 2025-03-12
+    "the-moment-you-need-a-database", // 2025-03-10
+    "movies-as-images", // 2025-03-05
+    "custom-property-fallbacks", // 2025-02-28
+    "examples-of-why-the-web-needs-anchored-popovers", // 2025-02-26
+    "how-to-use-attr-in-css-for-columns-colors-and-font-size", // 2025-02-25
+    "a-color-input-that-also-shows-the-value", // 2025-02-18
+    "rainbow-selection-in-css", // 2025-02-14
+    "optimizing-images-for-web-performance", // 2025-02-10
+    "three-approaches-to-the-ampersand-selector-in-css", // 2025-02-07
+    "html-css-for-a-one-time-password-input", // 2025-02-05
+    "notes-on-the-code-editors-with-ai-landscape", // 2025-02-03
+    "mapping-with-leaflet", // 2025-01-29
+    "full-bleed-layout-with-modern-css", // 2025-01-27
+    "creating-an-angled-slider", // 2025-01-22
+    "simplify-lazy-loading-with-intersection-observers-scrollmargin", // 2025-01-20
+    "css-wishlist-for-2025", // 2025-01-14
+    "sharing-a-variable-across-html-css-and-javascript", // 2025-01-08
+    "bone-up-html-2025", // 2025-01-06
+    "containers-context", // 2025-01-03
   ]
 }
 
@@ -321,6 +323,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-react
       // END: 2025js-react
       // END: js-next
+    ]],[
+    "js-vue", [
+      "exploring-multi-brand-systems-with-tokens-and-composability", // 2025-12-19
+      // END: 2025js-vue
+      // END: js-vue
     ]],[
     "js-svelte", [
       "using-nextauth-now-auth-js-with-sveltekit", // 2024-04-29
@@ -470,6 +477,7 @@ export const template: SidebarInfoTemplate = {
       "the-downsides-of-scrollbar-gutter-stable-and-one-weird-trick", // 2025-12-03
       "the-deep-card-conundrum", // 2025-12-04
       "thoughts-on-native-css-mixins", // 2025-12-11
+      "different-page-transitions-for-different-circumstances", // 2025-12-16
       // END: 2025css
       // END: css
     ]],[
