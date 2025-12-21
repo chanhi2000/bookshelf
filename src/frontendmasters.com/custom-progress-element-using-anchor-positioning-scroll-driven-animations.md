@@ -61,7 +61,7 @@ Enough suspense! Here is a demo of what we are making (it’s animated, so hit R
   slug-hash="JjQVYgJ"
   title="Progress element with tooltip II (Chrome only)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Cool, right? Don’t search for the hidden JavaScript code because there is none. As for the HTML, it’s *nothing* but the`<progress>`element. This leaves us with complex CSS, which is admittedly a bit hard to decipher. But that’s what we’re here for, so let’s dissect it!
 
@@ -153,7 +153,7 @@ Nothing fancy so far. Let’s disable the default appearance, add some dimension
   slug-hash="ZEgjbOE"
   title="The initial structure"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s it for the initial configuration, let’s move to the interesting parts!
 
@@ -182,7 +182,7 @@ progress::before {
   slug-hash="abejNXO"
   title="Adding the tooltip"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Anchor Positioning
 
@@ -211,7 +211,7 @@ The result so far:
   slug-hash="wvVxGZj"
   title="Adjusting the tooltip position"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Still not perfect but we can already see that the tooltip is following the progression. We need to rectify the position to make sure the tail is aligned with the corner. A simple translation can fix this:
 
@@ -238,7 +238,7 @@ The logic is similar to the translation you combine with`left: 0`or`top: 0`to ce
   slug-hash="RwXBazZ"
   title="Fixing the tooltip position"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Scoping
 
@@ -346,7 +346,7 @@ progress::before {
   slug-hash="poMZdqJ"
   title="Showing the progress value"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s improve the coloration now. We can use the value of`--x`combined with`color-mix()`to create a dynamic coloration.
 
@@ -365,7 +365,7 @@ The color is stored within a variable`--_c`so we can easily use it in different 
   slug-hash="YzoBmLb"
   title="Progress element with tooltip (Chrome only)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Our progress element is now perfect!
 
@@ -389,7 +389,7 @@ Here is a simplified demo illustrating what I tried and didn’t work. Maybe som
   slug-hash="yLmxaNe"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -437,7 +437,7 @@ When`--y`will animate, the width of the gradient will also animate from`0%`to`10
   slug-hash="zYgLXzP"
   title="Animating the progress value"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you are wondering what’s going on with that gradient syntax, check this “[**How to correctly define a one-color gradient**](/css-tip.com/one-color-gradient.md)”
 
@@ -490,7 +490,7 @@ To make it easy, there is a mechanism that may change the element’s position t
   slug-hash="yLmqWgK"
   title="Animating the tooltip"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We are almost done. We are missing the traction effect and the value animation. They are the easiest part:
 
@@ -516,7 +516,7 @@ It’s probably very subtle but if you run the demo many times and look closely 
   slug-hash="JjQVYgJ"
   title="Progress element with tooltip II (Chrome only)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We did it! A cool CSS-only effect using only the`<progress>`element.
 
@@ -531,7 +531,7 @@ Don’t leave yet! It’s time for your homework. Here is another demo where I t
   slug-hash="PovMVjJ"
   title="Circular progress element using scroll-driven animation"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And here is the version with the animation where I am simply reusing the same techniques detailed previously.
 
@@ -540,7 +540,7 @@ And here is the version with the animation where I am simply reusing the same te
   slug-hash="ZEgjNxm"
   title="Circular progress element using scroll-driven animation II"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

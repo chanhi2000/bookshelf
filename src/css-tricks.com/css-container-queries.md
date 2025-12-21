@@ -393,7 +393,7 @@ This example is a lot like those little panels for signing up for an email newsl
   slug-hash="BaeRvBL"
   title="Container Queries: Call to Action Panel"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Stepper Component
 
@@ -404,7 +404,7 @@ This component displays a series of “steps” much like a timeline. In wider c
   slug-hash="PovmymB"
   title="Container Queries: Stepper Component"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Icon Button
 
@@ -415,7 +415,7 @@ Sometimes we like to decorate buttons with an icon to accentuate the button’s 
   slug-hash="VwObEZp"
   title="Container Queries: Icon Button"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Pagination
 
@@ -426,7 +426,7 @@ Pagination is a great example of a component that benefits from CSS Container Qu
   slug-hash="VwObVxR"
   title="Container Queries: Pagination"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

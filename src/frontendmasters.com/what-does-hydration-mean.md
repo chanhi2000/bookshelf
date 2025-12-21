@@ -117,7 +117,7 @@ I’ll chuck that on CodePen here, which will run no build step here and just cl
   slug-hash="GRbzydJ"
   title="Client Side Render"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The HTML that the browser receives for that page is sometime referred to as an “empty shell”. It’s an HTML document, but it doesn’t have any of the real content that we’re intending to put there. We get this:
 

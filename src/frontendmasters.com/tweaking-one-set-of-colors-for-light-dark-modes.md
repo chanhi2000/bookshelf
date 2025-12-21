@@ -110,7 +110,7 @@ Here’s an example doing that with syntax highlighting. You’ll need to adjust
   slug-hash="yLmQoed"
   title="Colors for Light and Dark Mode Automatically"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here’s both modes as images:
 

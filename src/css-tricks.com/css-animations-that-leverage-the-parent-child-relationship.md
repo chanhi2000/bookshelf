@@ -129,7 +129,7 @@ It looks like we’re animating four circles, but what we’re really doing is r
   slug-hash="OPMWvVy"
   title="Animation"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Each `.circle` is fixed to a respective corner of the `<main>` parent with absolute positioning. When the animation is triggered in the parent element — i.e. `<main>` gets the `.animate` class when the button is clicked — the `<main>` width shrinks and it rotates `90deg`. That shrinking pulls each `.circle` closer to the `<main>` element’s center, and the rotation causes the circles to switch places while passing through one another.
 
@@ -153,7 +153,7 @@ This approach makes for an easier animation to craft and manage for simple effec
   slug-hash="EaPZEjR"
   title="Animation"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 See that? The parent `<main>` element makes a `30deg` skew and flip along the Y-axis, while the two child `.square` elements counter that distortion with the same skew. The result is that you see the child squares flip positions while moving away from each other.
 
@@ -177,7 +177,7 @@ If we want the squares to form a separation without the flip, here’s a way to 
   slug-hash="XJXpEmq"
   title="Animation"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This time, the `<main>` element is skewed `30deg`, while the `.square` children cancel that with a `-30deg` skew.
 
@@ -205,7 +205,7 @@ Here’s an example where scaling is involved. Notice how the `<main>` element�
   slug-hash="GgorxpR"
   title="Animation"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The parent element (`<main>`) rotates counter-clockwise (`rotate(-180deg)`), scales down (`scale(.5)`), and skews vertically (`skewY(45deg)`). The two children (`.square`) cancel the parent’s distortion by using the negative value of the parent’s skew angle (`skewY(-45deg)`), and scale up horizontally (`scaleX(1.5)`) to change from a square to a horizontal bar shape.
 
@@ -218,7 +218,7 @@ Click on a `<details>` to toggle it open and closed to see the animations in act
   slug-hash="ByjQLbE"
   title="<details>"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s all I wanted to share — it’s easy to forget that we get some affordances for writing efficient animations if we consider how transforming a parent element intrinsically affects the size, position, and orientation. That way, for example, there’s no need to write complex animations for each individual child element, but rather leverage what the parent can do, then adjust the behavior at the child level, as needed.
 

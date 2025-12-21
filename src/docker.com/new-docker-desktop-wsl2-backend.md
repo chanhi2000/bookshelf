@@ -52,7 +52,7 @@ cover: https://docker.com/app/uploads/engineering/2019/10/wsl2_docker_settings-1
 
 ## What’s Changed Since the Tech Preview
 
-Earlier this year, we [**released a technical preview**](/docker.com/5-things-docker-desktop-wsl2-tech-preview.md) of our vision for the future of Docker development on Windows using WSL 2. We received lots of feedback from Windows Insiders via different channels, and collated common failure cases. We also used it ourselves a lot, and took the time to evaluate its architecture.
+Earlier this year, we released a technical preview of our vision for the future of Docker development on Windows using WSL 2. We received lots of feedback from Windows Insiders via different channels, and collated common failure cases. We also used it ourselves a lot, and took the time to evaluate its architecture.
 
 Based on this analysis, we worked hard to redesign Docker Desktop’s WSL2 integration in a more robust and easier to maintain way, while ensuring we get feature parity with what we have today with our Hyper-V backend.
 

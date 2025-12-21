@@ -82,7 +82,7 @@ Anyway, here’s the demo:
   slug-hash="QWoQwEy"
   title="Masonry Layout with CSS Grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

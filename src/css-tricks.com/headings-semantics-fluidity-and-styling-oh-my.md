@@ -202,7 +202,7 @@ Anyway, here’s how that looks when it works, at least in Chrome and Safari.
   slug-hash="pvgdorm"
   title="Donnie D'Amato Fluid Headings"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <SiteInfo
   name="Fluid Headings"

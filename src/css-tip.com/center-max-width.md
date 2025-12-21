@@ -69,7 +69,7 @@ margin-inline: max(1rem,50% - 800px/2);
   slug-hash="jOGMMMG"
   title="margin-inline"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More CSS Tips
 

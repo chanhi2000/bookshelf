@@ -59,7 +59,7 @@ Give your your text a fancy looking using `box-decoration-break: clone` and CSS 
   slug-hash="BawBBGO"
   title="gradient + box-decoration-break"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

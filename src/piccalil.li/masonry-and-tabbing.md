@@ -90,7 +90,7 @@ The reason I chose this pattern was because I knew there would be no tabbing iss
   link="https://codepen.io/piccalilli/pen/QWRLppP/4d48e09379584b3ba36f9ee39b4b5f5b"
   title="Masonry"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For those of you without those browsers, here’s what it looks like.
 

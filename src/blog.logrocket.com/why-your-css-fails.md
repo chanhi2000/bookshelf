@@ -135,7 +135,7 @@ The effect is more visible if the parent element does not have margins. By remov
   slug-hash="vYeKxON"
   title="noBFC"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Our second example of margin behavior](/assets/image/blog.logrocket.com/why-your-css-fails/margin-behavior-2.webp)
 
@@ -179,7 +179,7 @@ As we can see in the CodePen below, a redundant gap is not being created at the 
   slug-hash="MWEeppP"
   title="withBFC"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Using the above method, we can also apply `display: flow-root;` to the parent element containing the floating object to solve the overflowing issue. Now, instead of this layout:
 
@@ -192,7 +192,7 @@ We will have this (see the CodePen view):
   slug-hash="XWeKPwr"
   title="overflow-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As we can see, knowing how a block formatting context works gives us much better control of our floats and margins, allowing us to make better layouts, and prevents us from accidentally breaking them.
 
@@ -396,7 +396,7 @@ the trick is in the containing divs.
   slug-hash="AeNzWJ"
   title="Stacking Order (problem)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The solution is creating a new stacking context in the `div` containing the red span, so the `z-index` of the red span won’t affect the main stack, letting the source order take over.
 
@@ -405,7 +405,7 @@ The solution is creating a new stacking context in the `div` containing the red 
   slug-hash="nyNaOM"
   title="Stacking Order (solution)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Notice that even if we gave the red span a `z-index` of 1 million, it will not move in front of the green and blue ones because it is isolated in a local stack. If we want to move it, we need to change the position and `z-index` of the containing `div`.
 

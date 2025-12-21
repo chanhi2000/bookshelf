@@ -81,7 +81,7 @@ Let’s expand on this some more and bring in some HTML.
   link="https://codepen.io/piccalilli/pen/WNWyYXm/b16276869385bb5396a27013726f0521"
   title="Inheritance 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Looking at the demo, the headings, paragraph and label have `DarkSlateBlue` text, but the input (both placeholder and value) and button still have the default colour text. This is because they have specific colours assigned to them in dev tools, like so:
 
@@ -127,7 +127,7 @@ input, button {
   link="https://codepen.io/piccalilli/pen/MWRXzPw/24a836e51cac1a48eb8d77474784391c"
   title="Inheritance 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note FYI
 
@@ -151,7 +151,7 @@ The magic of inheritance means all the text elements have again, inherited the `
   link="https://codepen.io/piccalilli/pen/abxKQXW/e889f0f5e1bafa793b8aea5efa4d96e0"
   title="Inheritance 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The reason the text elements like headings are bigger, with no additional sizing authored by us, is because the user agent styles size them with `em` units, which are a ratio of their parent’s computed `font-size`. For example, this is the `h1` font size style in the Chromium user agent style:
 
@@ -195,7 +195,7 @@ The `color` is set to `darkGray`, so even when the `input` is inheriting `color`
   link="https://codepen.io/piccalilli/pen/bGJKQPP/7890122b9ce767258da906dccb127d1a"
   title="Inheritance 5"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note A note on placeholders
 

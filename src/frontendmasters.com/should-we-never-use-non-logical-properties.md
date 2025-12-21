@@ -162,7 +162,7 @@ From Adrian Roselli:
   slug-hash="QXKpxG"
   title="Playing with CSS Logical Properties Support"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 
 <!-- TODO: add ARTICLE CARD -->

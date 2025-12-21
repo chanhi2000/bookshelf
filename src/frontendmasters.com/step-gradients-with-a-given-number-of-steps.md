@@ -205,7 +205,7 @@ Much better — but the Sass function doesn’t look pretty and it gets even mor
   slug-hash="xbxeyOM"
   title="Pure CSS stepped gradient with Sass"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We still have that long list of values in the compiled CSS and, if we have 7 elements like this with stepped gradients, each is going to get its own long list.
 
@@ -496,7 +496,7 @@ Secondly, what this allows us to do is to fade *any* RGB value in steps along th
   slug-hash="JodZwBb"
   title="3D layers"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is exactly how the gradients in the image at the start of the article were created. We have a `.step` element with a solid background set to the start step `--c0` and a pseudo fully covering it with a gradient where we vary the alpha of the end step `--c1`.
 
@@ -537,7 +537,7 @@ You can check out the live demo for various `--c0` and `--c1` combinations below
   slug-hash="jOoLmBv"
   title="Stepped gradients"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And yes, in case anyone is wondering, the pure CSS and the SVG `filter` results are identical - you can check it out in this demo.
 
@@ -546,7 +546,7 @@ And yes, in case anyone is wondering, the pure CSS and the SVG `filter` results 
   slug-hash="OJaOxwz"
   title="stepped gradients CSS vs. SVG"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -742,7 +742,7 @@ You can play with the demo below by changing the number of repetitions `q` to se
   slug-hash="pvJOKOJ"
   title="Stepped gradients, reflect/ repeat - interactive"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 What if we wanted to have full steps at the start of the first repetition and at the end of last repetition? Well, in that case, given a number `q` of repetitions, we can compute the width of the lateral borders to be equal to half a step size on each side. A step size is `1/(2·q·(n - 1) + 1)` of the pseudo parent’s `content-box` width, so the `border-width` on the pseudo needs to be half of that.
 
@@ -787,7 +787,7 @@ Modified interactive demo:
   slug-hash="NPqLBNq"
   title="Stepped gradients, reflect/ repeat #2 full end steps"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 What makes this possible and easy is the fact that, by default, `background-size` and `background-position` are relative to the `padding-box` (their position is relative to the top left corner of the `padding-box`, so that `0` position is relative to the `padding-box` left edge and their size is relative to the `padding-box` dimensions, so that `100%` in `calc(100%/var(--q))` is relative to the `padding-box` width), but extra `background` repetitions are painted in all directions under the `border` too.
 
@@ -806,7 +806,7 @@ We’ve only used a left to right `linear-gradient()` so far, but the direction 
   slug-hash="raVrZQN"
   title="Same step filter, different gradients"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Regardless of the gradient type, the `filter()` function is going to simplify things if Chrome and Firefox implement it too. The relevant code for the demo above would become:
 
@@ -845,7 +845,7 @@ Given the introduction of the `1px` difference produces an effect similar to a t
   slug-hash="YPXOObZ"
   title="Same step filter, different gradients: blur + edge correct for smoother steps"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We could also smoothen the edges of each step using a technique similar to the [<VPIcon icon="fas fa-globe"/>no matrix filter gooey effect](https://mastodon.social/@anatudor/112523336154596358). That mostly works, save for a bit of weird rounding at the edges for all gradients and in the middle of the conic one. But that’s a lot of `filter` primitives, a lot for such a tiny visual gain.
 
@@ -854,7 +854,7 @@ We could also smoothen the edges of each step using a technique similar to the [
   slug-hash="MYwBxZG"
   title="Same step filter, different gradients (gooey filter smoothen each step edge)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Another option would be to try to simplify this technique and smoothen the edges of even steps - this avoids increasing the number of primitives with the number of steps, but also comes with other technical challenges. So at the end of the day, it’s another path I’m not fully convinced it’s worth taking for such a small visual gain. Not to mention the weird edge rounding and the even more obvious clump in the middle of the `conic-gradient()`.
 
@@ -863,7 +863,7 @@ Another option would be to try to simplify this technique and smoothen the edges
   slug-hash="OPVooKv"
   title="Same step filter, different gradients (gooey filter smoothen even step edges)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Finally, we could make the gradients grainy. But the approach discussed in [**a previous article**](/frontendmasters.com/grainy-gradients.md) is likely not what we’re going for.
 
@@ -872,7 +872,7 @@ Finally, we could make the gradients grainy. But the approach discussed in [**a 
   slug-hash="bNdOrXW"
   title="Same step filter, different gradients: dither"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There may be cases where it is what we want, for example when it comes to such dithered band cards:
 
@@ -881,7 +881,7 @@ There may be cases where it is what we want, for example when it comes to such d
   slug-hash="WNVzBRY"
   title="Simple dithering backgrounds, SVG filter magic version"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Most of the time, this is probably not the desired result. So maybe try another approach to grainy gradients, one that doesn’t use displacement maps and also doesn’t alter the gradient palette?
 
@@ -908,7 +908,7 @@ Here, we fully desaturate the noise produced by `feTurbulence` and then scale do
   slug-hash="PwqyjVw"
   title="Same step filter, different gradients: dither #1"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is the path taken by the sunburst demo below, which was created taking inspiration from the heading image of [**an earlier post here**](/frontendmasters.com/css-bursts-with-conic-gradients.md):
 
@@ -917,7 +917,7 @@ This is the path taken by the sunburst demo below, which was created taking insp
   slug-hash="pvoBeZP"
   title="grainy sunburst"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This comes with the disadvantage of altering the original palette, but if that’s not as much of an issue, it could work.
 
@@ -928,7 +928,7 @@ Finally, another option would be XOR-ing the alpha of the desaturated and reduce
   slug-hash="MYwPvPP"
   title="Same step filter, different gradients: dither #2"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

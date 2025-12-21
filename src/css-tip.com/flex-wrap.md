@@ -63,7 +63,7 @@ It's different from `align-items` which aligns the items inside the line whereas
   slug-hash="EaxBevN"
   title="flex-wrap & alignment"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

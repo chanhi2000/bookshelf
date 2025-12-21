@@ -144,7 +144,7 @@ p {
   link="https://codepen.io/team/css-tricks/pen/ZYgjjq/41e4ddd98fd0c8e06e4d75b5027854fc"
   title="color values"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 ---
 

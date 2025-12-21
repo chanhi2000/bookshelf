@@ -129,6 +129,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "toggle-position-sticky-to-position-fixed-on-scroll", // 2025-12-24
     "exploring-multi-brand-systems-with-tokens-and-composability", // 2025-12-19
     "different-page-transitions-for-different-circumstances", // 2025-12-16
     "thoughts-on-native-css-mixins", // 2025-12-11
@@ -478,6 +479,7 @@ export const template: SidebarInfoTemplate = {
       "the-deep-card-conundrum", // 2025-12-04
       "thoughts-on-native-css-mixins", // 2025-12-11
       "different-page-transitions-for-different-circumstances", // 2025-12-16
+      "toggle-position-sticky-to-position-fixed-on-scroll", // 2025-12-24
       // END: 2025css
       // END: css
     ]],[

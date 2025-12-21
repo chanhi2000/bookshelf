@@ -69,7 +69,7 @@ Here is a demo to illustrate:
   slug-hash="bGXVMjp"
   title="Default behavior of position: absolute"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The absolute element is not using the body (blue rectangle) nor the html (red rectangle) but that green rectangle having the viewport dimension and moving on scroll. That's the initial containing block!
 

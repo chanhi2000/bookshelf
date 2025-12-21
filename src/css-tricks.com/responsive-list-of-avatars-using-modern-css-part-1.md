@@ -71,7 +71,7 @@ The following demo is currently limited to Chrome and Edge, but will work in oth
   slug-hash="VYavBwN"
   title="Responsive Stacked/Overlapping images with hover"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="http://css-tricks.com/wp-content/uploads/2025/11/stacked-images-responsive-10.mov" />
 
@@ -144,7 +144,7 @@ Nothing fancy so far. I am using an arbitrary value for the margin to create an 
   slug-hash="vEGZKby"
   title="Initial configuration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -167,7 +167,7 @@ Drag the slider in the next demo for a visualization of how this works in both d
   slug-hash="myPwrxx"
   title="The mask effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We apply this to all the images, and we are good to go. Notice that I am using a couple of CSS variables to control the image size and gap between the images.
 
@@ -207,7 +207,7 @@ Pay additional attention to the `.reverse` class. It switches the direction of t
   slug-hash="myPwrjL"
   title="Both cutout effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 What we have is already good. It works fine and you can use it, but it could be more interactive. The overlap look nice but wouldn’t be better if we could enlarge it on smaller screens to help conserve space, or perhaps even remove it altogether on larger screens where there’s plenty of room to show the full images?
 
@@ -250,7 +250,7 @@ Resize the container in the demo below and see how the images behave. Again, `si
   slug-hash="RNagoOX"
   title="The responsive part"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/11/stacked-images-responsive-margin.mov" />
 
@@ -277,7 +277,7 @@ The responsive part is perfect now!!
   slug-hash="YPqQpoo"
   title="Fixing the responsive"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/11/stacked-images-responsive-margin-gap.mov" />
 
@@ -288,7 +288,7 @@ What we’re missing is the cut-out effect we made with `mask`. For that, we can
   slug-hash="preview/PwNjWYP/87072327c8b87d1170074504cb933cac"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Two images on separate rows on opposite ends of each row. The top row image is aligned right and the bottom row image is aligned left.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/11/s_41EFA1AE88F415639215FA483E2B77FE19BC46EAF1A51F2EDCE0708967CEA6E0_1763744205734_stacked-image-list-missing-images.png?resize=1382%2C546&ssl=1)
 
@@ -323,7 +323,7 @@ Then, we can say that the container’s width is `100cqi` (or `100cqw`) instead 
   slug-hash="EaKXZbM"
   title="Fixing the mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 *Tada!* The position and the mask adjust perfectly when the container is resized.
 
@@ -356,7 +356,7 @@ That takes out the `margin` and removes the cut-out effect as well. We actually 
   slug-hash="ByKZpvw"
   title="animlation first try"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Not bad! But we can do better. Notice how pushing one image away from another causes an image at the end to overflow the container. The bottom list (the row with the cut-out on the left) is not as good as the top list because the mask is a bit off on hover.
 
@@ -389,7 +389,7 @@ Great, now the cut-out effect is much better and respects both the left and righ
   slug-hash="zxqzNbV"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/11/stacked-images-responsive-margin-animation-step-1.mov" />
 
@@ -443,7 +443,7 @@ And we plug the formula into that:
   slug-hash="ZYWyezZ"
   title="Fixing the animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Check that out — no more overflow on hover in both directions! All we are missing now is the actual animation that smoothly transitions the spacing rather than snapping things into place. All we need is to add a little `transition` on the `--_m` variable:
 
@@ -468,7 +468,7 @@ There we go:
   slug-hash="xbVrqxG"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/11/stacked-images-responsive-01.mov" />
 
@@ -492,7 +492,7 @@ Here is the final demo with all the adjustments made:
   slug-hash="VYavBwN"
   title="Responsive Stacked/Overlapping images with hover"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/11/stacked-images-responsive-10.mov" />
 

@@ -1,21 +1,15 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "NodeNext",
-    // "moduleResolution": "NodeNext",
-    
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
+    /* "paths": {
+      "@theme-hope/*": ["./packages/theme/src/client/*.js"]
+    }, */
+    "types": ["vuepress/client-types", "vite/client", "webpack-env"]
   },
   "include": [
-    "src/.vuepress/**/*.ts",
-    "src/.vuepress/**/*.vue"
-  ],
-  "exclude": [
-    "node_modules"
+    "**/*.ts",
+    "**/*.vue",
+    "**/.vuepress/**/*.ts",
+    "**/.vuepress/**/*.vue"
   ]
 }

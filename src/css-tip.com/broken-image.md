@@ -78,7 +78,7 @@ The above style will not apply to correctly loaded images so no need for any spe
   slug-hash="QwbLwEb"
   title="Style broken images"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More CSS Tips
 

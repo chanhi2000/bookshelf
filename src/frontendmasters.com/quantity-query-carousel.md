@@ -87,7 +87,7 @@ Here’s the whole gang:
   slug-hash="qEdJqdZ"
   title="Quantity Query Carousel"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

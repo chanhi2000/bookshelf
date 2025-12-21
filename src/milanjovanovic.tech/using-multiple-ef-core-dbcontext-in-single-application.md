@@ -179,7 +179,7 @@ services.AddDbContext<CatalogDbContext>(options =>
         "CONNECTION_STRING",
         o => o.MigrationsHistoryTable(
             tableName: HistoryRepository.DefaultTableName,
-            schema: "catalog")));
+            schema: "catalog:")));
 
 services.AddDbContext<OrderDbContext>(options =>
     options.UseSqlServer(

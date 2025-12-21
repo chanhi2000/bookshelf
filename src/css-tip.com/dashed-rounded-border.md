@@ -88,7 +88,7 @@ Create a circular dashed border with full control over the dashes. Only one elem
   slug-hash="KKvjjZN"
   title="Dashed border"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

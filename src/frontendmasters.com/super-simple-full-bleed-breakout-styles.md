@@ -172,7 +172,7 @@ You can see it in action and play with it in the following live demo:
   slug-hash="VYezjay"
   title="full-bleed elements in a 1 column grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 
@@ -336,7 +336,7 @@ That is, if we can avoid percentage position trouble. While this is not an issue
   slug-hash="RNrjXLe"
   title="Single limited width elems + full-bleed CSS grad backgrounds"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 However, this scaling is not enough for linear gradients at an angle that’s not a multiple of `90°`. And it may be overly complicated even for the types of gradients where it works well.
 
@@ -483,7 +483,7 @@ The most important of these techniques can also be seen in the meta demo below, 
   slug-hash="GgoEeqY"
   title="Super simple full-bleed + breakout tactic"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

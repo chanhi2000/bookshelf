@@ -76,7 +76,7 @@ I’ve created pens for [the background mouse position follower (<VPIcon icon="f
   slug-hash="eBZgPB"
   title="CSS Variables: Follow Mouse Position"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

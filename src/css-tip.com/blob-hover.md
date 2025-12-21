@@ -63,7 +63,7 @@ You can have a cool hover effect by applying a transition between two different 
   slug-hash="PwwJgyr"
   title="Blob  shape with hover effect!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -74,7 +74,7 @@ You can have a cool hover effect by applying a transition between two different 
   slug-hash="yyyPONb"
   title="Blob  shape with hover effect!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

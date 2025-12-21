@@ -122,7 +122,7 @@ Be sure to set the desired dimensions, width and height (or logical properties),
   slug-hash="GRbEQva"
   title="contain: size"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Setting an element’s dimensions yourself may feel like size containment already, and typically that is all you need, which is why I said you may not need this much. But if you’re entirely sure you don’t want this element to change size or affect any other elements, protecting against unforseen changes, size containment may be a good idea.
 
@@ -162,7 +162,7 @@ Below, there are two examples: the first one is a sample of paint containment (`
   slug-hash="WNqOMdr"
   title="contain: paint"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```css
 section {
@@ -192,7 +192,7 @@ section {
   slug-hash="eYwRVME"
   title="overflow: clip and contain: paint"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -232,7 +232,7 @@ Just as in the case of paint containment, layout containment also creates a sepa
   slug-hash="VwJWQxg"
   title="contain: layout"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

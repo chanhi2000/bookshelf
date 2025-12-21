@@ -111,7 +111,7 @@ In the above example, the `countRef` variable returns a mutable reference object
   slug-hash="MYWWdRx"
   title="React useRef Counter example"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 A change in the `countRef.current` property here will not re-render the corresponding `<Counter/>` component, and that’s why we are observing changes in the developer console in this example rather than in the UI.
 
@@ -186,7 +186,7 @@ Note that the empty array passed as a `useEffect` dependency ensures the side-ef
   slug-hash="bNGwYVX"
   title="DOM element selection with useRef"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Managing timeouts, event handlers, and observers
 
@@ -304,7 +304,7 @@ function Counter() {
   slug-hash="ByawZJQ"
   title="Event listeners with useRef"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 
 Note that re-renders in the above example are triggered by changes in state and not in the `useRef` reference value. Without state variations, `prevCountRef`‘s value would update, but these updates would no longer reflect in the UI.
@@ -605,7 +605,7 @@ In the above code, we are defining an event handler for the form submission, get
   slug-hash="pvodJGb"
   title="Receipt Generator"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Managing animations
 
@@ -650,7 +650,7 @@ After styling the card with Tailwind CSS and adding some more content to it, her
   slug-hash="WbNZdXa"
   title="Animated GSAP card x TWCSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 
 The card animation plays automatically upon entering the page. Try this demo in a separate tab or use the “Animate again” button to replay the animation.
@@ -668,7 +668,7 @@ I’m following nearly the same pattern as we followed when learning to store a 
   slug-hash="OPJmLNN"
   title="Saving last value with useRef and useState (Simplified)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Detecting clicks outside an element
 
@@ -702,7 +702,7 @@ You can see a [working example of the above code here (<VPIcon icon="fa-brands f
   slug-hash="yyLbBrR"
   title="Detecting clicks w/ useRef"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Expanding on this baseline, we can put together a drawer component that shows up on a button click and disappears when clicked outside of itself:
 
@@ -711,7 +711,7 @@ Expanding on this baseline, we can put together a drawer component that shows up
   slug-hash="YPzpWGv"
   title="Drawer with useRef"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Input autofocus
 
@@ -738,7 +738,7 @@ Let’s use this approach in the above-implemented `Drawer` component and focus 
   slug-hash="PwYrwzm"
   title="useRef Input Focus"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you notice this example closely, I’m forwarding a `ref` from a child component (`InputBox`) to a parent component (`Drawer`), following one of the best practices we discussed previously.
 

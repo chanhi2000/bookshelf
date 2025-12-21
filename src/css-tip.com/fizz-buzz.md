@@ -85,7 +85,7 @@ A Chrome-only experiment for now
   slug-hash="zxqMRWr"
   title="CSS-only Fizz Buzz (no HTML)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -96,7 +96,7 @@ We can get fancier with an animated version!
   slug-hash="gbrQeMq"
   title="CSS-only animated Fizz Buzz (no HTML)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Inspired by <VPIcon icon="fas fa-globe"/>["Fizz Buzz"](https://susam.net/fizz-buzz-in-css.html)
 

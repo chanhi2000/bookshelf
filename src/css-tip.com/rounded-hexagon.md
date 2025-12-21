@@ -74,7 +74,7 @@ As a bonus we can animate the radius and also rotate the shape. Here is a demo w
   slug-hash="myydVbr"
   title="Rounded hexagon shapes with hover effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

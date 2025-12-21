@@ -75,7 +75,7 @@ In this example, we will apply parallax animations to the background and icons w
   slug-hash="azzXQPr"
   title="Parallax with scroll-driven animation (starting code)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -184,7 +184,7 @@ Now both the text and background animate smoothly at different speeds.
   slug-hash="YPPByaw"
   title="Parallax with scroll-driven animation (part 2)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -322,7 +322,7 @@ Here is the final code with everything, including the polyfill and reduced motio
   slug-hash="PwqBPVp"
   title="Parallax with scroll-driven animation part 3"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

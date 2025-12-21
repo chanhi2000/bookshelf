@@ -185,7 +185,7 @@ A benefit of using a hosted service is that it is likely to include all the font
   slug-hash="OPdaNB"
   title="Using @import for custom fonts"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `<link>` a stylesheet
 
@@ -212,7 +212,7 @@ Again, this is importing the `@font-face` rules but, instead of injecting them t
   slug-hash="YPBRqY"
   title="Using <link> for custom fonts"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s about the same thing… both techniques download the assets needed.
 

@@ -90,7 +90,7 @@ I did a fork of the classic [<VPIcon icon="fas fa-globe"/>Under-Engineered Respo
   slug-hash="EaYPbGE"
   title="Under-Engineered Responsive Table (with paragraph width alteration)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

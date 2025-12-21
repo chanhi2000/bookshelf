@@ -73,7 +73,7 @@ Resize the container below and toggle the safe option to see the difference.
   slug-hash="EajoLOe"
   title="Safe alignment"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It works with all the alignment properties.
 
@@ -94,7 +94,7 @@ It's not only limited to flexbox and CSS Grid, it's also applicable to block lay
   slug-hash="QwbaBQX"
   title="Safe alignment with block containers"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that `auto` margin is another alternative for safe alignment:
 
@@ -103,7 +103,7 @@ Note that `auto` margin is another alternative for safe alignment:
   slug-hash="ByNJvJN"
   title="Safe alignment with auto margin"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

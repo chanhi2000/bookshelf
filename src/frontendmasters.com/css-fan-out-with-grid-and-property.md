@@ -69,7 +69,7 @@ This article has been updated to now include the animation of the grid items' `h
   slug-hash="xxvRrYQ"
   title="CSS Reveal (grid-template-rows + @property)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For HTML, there's a group of items (plus an empty one — I will explain later why it's there), bookended by two radio controls to prompt the opening and closing of the items respectively.
 
@@ -195,7 +195,7 @@ When expanded, the row `gap`s go up to `10px` and the text color comes in. When 
   slug-hash="xxvRrYQ"
   title="CSS Reveal (grid-template-rows + @property)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 

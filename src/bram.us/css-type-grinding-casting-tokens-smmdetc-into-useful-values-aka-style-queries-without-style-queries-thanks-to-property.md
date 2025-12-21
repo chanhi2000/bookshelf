@@ -123,7 +123,7 @@ If you happen to be visiting this site using Chrome, you can try it out yourself
   slug-hash="OJZZJVj"
   title="CSS-Only Badge Component via the “Type Grinding” Trick!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <SiteInfo
   name="New CSS Logical Properties!"

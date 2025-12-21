@@ -109,7 +109,7 @@ In a scroll container that has no scrollable overflow, the animation won’t be 
   link="https://codepen.io/bramus/pen/LYMjXpo/dbe4ab2961373fa9ceae7378d6fcdc9c"
   title="Scroll Detection with CSS Scroll-Driven Animations: Inactive Animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -170,7 +170,7 @@ This code will give the scrollable container a 10px side dotted lime outline, wh
   link="https://codepen.io/bramus/pen/BavdGOw/895c51226b12b2363ebf72fc1dd66cf1"
   title="Scroll Detection with CSS Scroll-Driven Animations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that you don’t need to [**register the property using `@property` here**](/bram.us/the-gotcha-with-animating-custom-properties.md#intro), as there’s no interpolation that needs to be done. The property is simply used as a telltale.
 
@@ -216,7 +216,7 @@ A downside of this approach is that is a bit harder to read if you’re not enti
   slug-hash="oNJeQjr"
   title="Scroll Detection with CSS Scroll-Driven Animations (Space Toggle)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Style Query Variant
 
@@ -243,7 +243,7 @@ A downside of this approach is that is that you can only style child elements of
   slug-hash="PoXKxzG/51cf50fdaca90ac734986c47ce3af079"
   title="Scroll Detection with CSS Scroll-Driven Animations (Style Query)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ~
 
@@ -258,7 +258,7 @@ Recently I saw [this nice demo by Shu Ding (<VPIcon icon="fa-brands fa-codepen"/
   slug-hash="WNLGQor"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 While nice, there is an issue with it though: when the content is too small for the scroller, the indicators both show!
 
@@ -267,7 +267,7 @@ While nice, there is an issue with it though: when the content is too small for 
   slug-hash="QWzMzyJ/a972a64f3625f1dc1b0da1d06b8ee76e"
   title="Scroll Timeline"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is where the CSS scroll-detection detailed in this post can help: only show the indicators when there is scrollable overflow. I do this by conditionally setting the `visibility` to `hidden` so that there’s no layout shift when they are not visible.
 
@@ -295,7 +295,7 @@ The result, looks like this:
   slug-hash="MWZjGeG"
   title="Conditional Revealing Scroll Indicators Scroll-Timeline"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 While at it, I also made the code more reusable. Instead of limiting the `reveal` keyframes from `0%` to `2%` – which makes them depend on the containing block’s size – they span the full `0%`–`100%` range. Then, `animation-range: 20px 40px;` is used to limit when the animation should run. See [this thread on X *(née Twitter)* (<VPIcon icon="fa-brands fa-x-twitter"/>`bramus`)](https://twitter.com/bramus/status/1698593292403794266) for more info.
 

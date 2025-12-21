@@ -1,4 +1,4 @@
-import { SidebarGroupOptions } from 'vuepress-theme-hope'
+import type { SidebarGroupOptions } from 'vuepress-theme-hope'
 import { template as TEMPLATE_HACKINGWITHSWIFT } from './hackingwithswift.com';
 import { template as TEMPLATE_KODECO } from './kodeco.com'; 
 import { template as TEMPLATE_DONNYWALS } from './donnywals.com';
@@ -8,6 +8,7 @@ import { template as TEMPLATE_FREECODECAMP } from './freecodecamp.org';
 import { template as TEMPLATE_FRONTENDMASTER } from './frontendmasters.com';
 import { template as TEMPLATE_CSS_TRICKS } from './css-tricks.com';
 import { template as TEMPLATE_SMASHINGMAGAZINE } from './smashingmagazine.com';
+import { template as TEMPLATE_TYPESCRIPT_TV } from './typescript.tv';
 import { template as TEMPLATE_DIGITALOCEAN } from './digitalocean.com';
 import { template as TEMPLATE_DOCKER } from './docker.com';
 import { template as TEMPLATE_TECMINT } from './tecmint.com';
@@ -113,7 +114,7 @@ export const sidebarByTemplate = (
                 text: a?.text,
                 collapsible: a?.collapsible ?? true,
                 icon: a?.icon ?? '',
-                children: (a?.children ?? []).map((el: string) => {
+                children: (a?.children ?? []).map((el: string|SidebarInfoSubgroupTemplate) => {
                   return `${PATH_BASE_ARTICLES}/${itemTemplate.name}/${a?.subPath ?? ''}/${el}.${EXT_MD}`
                 }),
               }
@@ -140,6 +141,7 @@ export const articleSidebars = {
   frontendmaster:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_FRONTENDMASTER, type),
   cssTricks:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_TRICKS, type),
   smashingmagazion:   (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_SMASHINGMAGAZINE, type),
+  typescripttv:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TYPESCRIPT_TV, type),  
   digitalocean:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DIGITALOCEAN, type),
   docker:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DOCKER, type),
   tecmint:            (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TECMINT, type),

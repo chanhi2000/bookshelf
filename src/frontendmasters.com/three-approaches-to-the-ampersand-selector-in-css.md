@@ -97,7 +97,7 @@ label {
   slug-hash="ogvVEGJ"
   title="Ampersand selector (standard)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In a way, the`&`symbol is a placeholder for the outer level selector in the nesting hierarchy.**This enables flexible combinations of selectors customized to suit our code’s modular organization preferences**. In this article, we’ll see three kinds of modular possibilities with the`&`selector in native CSS.
 
@@ -144,7 +144,7 @@ In the example below, the three card modules, grouped under the class name`cards
   slug-hash="pvzQKyL"
   title="Ampersand selector (concatenate class names)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Class names can also be connected using the attribute selector:
 
@@ -261,7 +261,7 @@ In the following example, all rules related to the appearance of the agreement m
   slug-hash="xbKQzON"
   title="Ampersand selector (parent elements)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In the above demo, a parent element selection is shown as example, but the same logic applies for previous element selections as well.
 
@@ -348,7 +348,7 @@ article {
   slug-hash="xbKQzEN"
   title="Ampersand selector (recurring selectors)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In the above example, the gaps between paragraphs are small compared to the larger gaps between a paragraph and a non-paragraph element.
 

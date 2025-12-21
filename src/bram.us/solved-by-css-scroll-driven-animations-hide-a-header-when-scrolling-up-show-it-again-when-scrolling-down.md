@@ -57,7 +57,7 @@ cover: https://bram.us/wordpress/wp-content/uploads/2024/09/hide-on-scroll-down-
   slug-hash="LYKwyyd"
   title="Hide on Scroll Down, Show on Scroll Up Header"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 By adding a long `transition-delay` to a CSS property under certain conditions (which you can do using a Style Query), you can persist its value after the condition no longer applies.
 
@@ -80,7 +80,7 @@ Here’s the demo I’m talking about: as you scroll up or down, the header hide
   slug-hash="dywzeoN"
   title="CSS scroll-direction detection with Scroll-Driven Animations with moving header"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In the code of that demo there are few CSS variables that are either `0` or `1` when scrolling – or not-scrolling – when scrolling in a certain direction. The CSS looks like this:
 
@@ -134,7 +134,7 @@ Fast forward to just last week, and [<VPIcon icon="fas fa-globe"/>Fabrizio Calde
   slug-hash="LYKwyyd"
   title="Hide on Scroll Down, Show on Scroll Up Header"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Fabrizio came to creating the same trick Schepp had suggested to me, by relying on a long `transition-behavior` which he sets in a Style Query:
 

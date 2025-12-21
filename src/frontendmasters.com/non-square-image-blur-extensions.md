@@ -111,7 +111,7 @@ The `contain` value scales the actual image until its longer side exactly fits t
   slug-hash="KwVYjzN/1f8e53f79e207072d845b85f25cc1eb9"
   title="contain vs. cover interactive explainer demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In both cases, the image is middle aligned with its square box along both axes by default, though we can change that via [`object-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-position).
 
@@ -322,7 +322,7 @@ Consequently, the final CSS for the base version of a cross‑browser blur exten
   slug-hash="ZYWEggJ"
   title="Non-square img blur extension/ padding to square (cross-browser)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -462,7 +462,7 @@ You might wonder whether those CSS variable values are valid. They are, it’s n
   link="https://codepen.io/anon/QwNwWOJ/491f2da43ccfdc5f4d15bde2dae57f06"
   title="Non-square img blur extension/ padding to square (cross-browser, extra fade)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Alternatively, we may be given an `img` aspect ratio, either as a CSS variable or as an attribute. Thanks to the updated `attr()` function, we can now use attribute values in calculations, though, as previously mentioned, this is not yet supported cross-browser.
 
@@ -473,7 +473,7 @@ An aspect ratio is a `width/height` ratio. If the first number, the width, is sm
   slug-hash="XWpyowX"
   title="Variable ratio cards"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Coming back to our demo, we can determine whether our image is a portrait or landscape one by using the `sign()` function.
 
@@ -546,7 +546,7 @@ img {
   link="https://codepen.io/anon/KwzwOJV/2ddedd28e3c841f156876f12cb1f427d"
   title="Non-square img blur extension/ padding to square (cross-browser, extra fade #2)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Unknown Aspect Ratio
 
@@ -876,7 +876,7 @@ So, at the end of the day, we can still have a cross-browser solution.
   link="https://codepen.io/anon/bNpdZVq/adf3e41d46e68268b67cdc9be8db04f8"
   title="Non-square img blur extension/ padding to square (cross-browser, extra fade unknown ratio)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

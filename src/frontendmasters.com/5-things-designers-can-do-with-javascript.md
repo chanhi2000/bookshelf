@@ -186,7 +186,7 @@ Inside our new `{ }` in that “click handler function”, we could do the job w
   slug-hash="bGJyzxa"
   title="JavaScript Basics: Select, Listen, Change"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I know that end result feels rather basic, but I hope it demystifies JavaScript a bit for you. In a sense, we’re just doing these three things:
 
@@ -253,7 +253,7 @@ Now that you can grab stuff from naturally interactive elements on the page, tha
   slug-hash="NWVKwda"
   title="Binding Change to Range Slider"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As an exercise, consider a password field like this:
 
@@ -330,7 +330,7 @@ Here’s a silly example where the only job this Web Component has is to inject 
   slug-hash="pomzrKv"
   title="Web Component: Radiant Wrapper"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Think: “A small, re-usable bit of styling and/or functionality that wraps a bit of otherwise perfectly usable HTML”. Jeremy Keith [<VPIcon icon="fas fa-globe"/>listed some examples](https://adactio.com/journal/tags/webcomponents) recently:
 

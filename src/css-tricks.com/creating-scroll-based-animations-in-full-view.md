@@ -61,7 +61,7 @@ Here’s an example:
   slug-hash="emZmBwQ"
   title="CSS view() for Carousel"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/11/scroll-animation-carousel.mov" />
 
@@ -160,7 +160,7 @@ Here’s what we have so far:
   slug-hash="yyOXZPa"
   title="CSS view() for Carousel, step 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -213,7 +213,7 @@ That completes our demo:
   slug-hash="emZmBwQ"
   title="CSS view() for Carousel"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="http://css-tricks.com/wp-content/uploads/2025/11/scroll-animation-carousel.mov" />
 
@@ -248,7 +248,7 @@ animation-timeline: view(<axis> <view-timeline-inset>);
   slug-hash="OPNjXem"
   title="Scroll List Animations : No Range Defined"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Two columns of list items. The width of the first item is 100% and each subsequent item in the list gets progressively shorter, creating an effect like a reversed staircase.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/11/scroll-animations-range-not-set-1024x459.png?resize=1024%2C459&ssl=1)
 
@@ -268,7 +268,7 @@ Ah, much much better:
   slug-hash="MYyvjWP"
   title="Scroll List Animations: Inset Parameter"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/11/scroll-animations-view-slide-in.mov" />
 
@@ -283,7 +283,7 @@ animation-range: entry; /* same as: entry 0 entry 100%; */
   slug-hash="GgZvjwQ"
   title="Scroll List Animations: Animation Range"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The `animation-range` property accepts a slew of other keywords, including `exit` (when the element leaves the scrollport), `cover` (when the element begins to enter begins to leave the scrollport), and `contain` (when the element fully enters then fully leaves the scrollport), among others. [**Geoff has published a bunch of notes and examples**](/css-tricks.com/unleash-the-power-of-scroll-driven-animations.md#timeline-ranges-demystified) looking specifically at each one.
 
@@ -300,7 +300,7 @@ Here’s an example where an animation of just the background position creates a
   slug-hash="preview/JoXbNbg"
   title="CSS view() for carousel"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/11/scroll-animation-carousel-parallax.mov" />
 

@@ -126,7 +126,7 @@ We can move through the unit circle by an angle, which is measured from the posi
   slug-hash="WbQmWXj"
   title="Unit circle - Example I"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 
@@ -149,7 +149,7 @@ Play with the toggle slider in the following demo to see the relationship betwee
   slug-hash="azvMrEO"
   title="Unit circle - Example II"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I think that’s all you really need to know about `cos()` and `sin()` for the moment. They’re mapped to Cartesian coordinates, which allows us to track a point along the unit circle with an angle, no matter what size that circle happens to be.
 
@@ -166,7 +166,7 @@ If we go by the unit circle definition of `cos()` and `sin()`, then it’s easy 
   slug-hash="OPyqRbX"
   title="A normal arrangement of circles"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Say we want to place each circular item around the outline of a larger circle instead. First, we would let CSS know the total number of elements and also each element’s index (the order it’s in), something we can do with an inline CSS variable that holds each order in the position:
 
@@ -227,7 +227,7 @@ That’s it! We have a series of eight circular items placed evenly around the o
   slug-hash="raObWRN"
   title="A circular arrangement of circles"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And we didn’t need to use a bunch of magic numbers to do it! All we provide CSS with is the unit circle’s radius, and then CSS does all the trigonometric gobbledygook that makes so many of us call this the “worst” CSS feature. Hopefully, I’ve convinced you to soften your opinions on them if that’s what was holding you back!
 
@@ -238,7 +238,7 @@ We aren’t limited to full circles, though! We can also have a semicircular arr
   slug-hash="jEbRyVg"
   title="A circular arrangement of circles"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This opens up lots of layout possibilities. Like, what if we want a circular menu that expands from a center point by transitioning the radius of the circle? We can totally do that:
 
@@ -247,7 +247,7 @@ This opens up lots of layout possibilities. Like, what if we want a circular men
   slug-hash="MYazxJO"
   title="Circular Layout"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Click or hover the heading and the menu items form around the circle!
 
@@ -274,7 +274,7 @@ Can we place an element following one of these waves? Absolutely. Let’s start 
   slug-hash="XJmQgaj"
   title="Another normal arrangement of circles"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We’ll assign an index position for each item like we did before, but this time we don’t need to know the total number of items. We had eight items last time, so let’s bump that up to 10 and pretend like we don’t know that:
 
@@ -311,7 +311,7 @@ I’m using a `60deg` value because the waves it produces are smoother than some
   slug-hash="jEbRLJa"
   title="A wavy arrangement of circles"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is a great example to see what we’re working with, but how would you use it in your work? Imagine we have two of these wavy chains of circles, and we want to intertwine them together, kinda like a DNA strand.
 
@@ -360,7 +360,7 @@ Notice how one of the chains is the “principal” while the other is the “se
   slug-hash="EaVJbwZ"
   title="Yet another (longer) common arrangement of circles in a line"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We can reorder the chains using a stacking context:
 
@@ -409,7 +409,7 @@ The next demo shows how the waves intersect at an offset angle of `60deg`. Adjus
   slug-hash="XJmQzRK"
   title="Wavy Layout"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Oh, I told you this could be used in a practical, real-world way. How about adding a little whimsy and flair to a hero banner:
 
@@ -418,7 +418,7 @@ Oh, I told you this could be used in a practical, real-world way. How about addi
   slug-hash="XJmQpOg"
   title="Better Wavy Layout"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -475,7 +475,7 @@ Okay, enough with all the theory! How do we do it in CSS? We’ll set the stage 
   slug-hash="pvjBpeP"
   title="A normal, common, ordinary circle"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We have a few CSS variables we can define that will come in handy since we already know the formula we’re working with:
 
@@ -535,7 +535,7 @@ What’s left is to implement the prior formula for the element’s movement, wh
   slug-hash="JoYVOxM"
   title="Example Damped Oscillation"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This gives a pretty satisfying animation by itself, but the damped motion is only on the x-axis. What would it look like if, instead, we applied the damped motion on both axes? To do this, we can copy the same oscillation formula for x, but replace the `cos()` with `sin()`.
 
@@ -562,7 +562,7 @@ This gives a pretty satisfying animation by itself, but the damped motion is onl
   slug-hash="raObpZK"
   title="Example Damped Oscillation (Both axes)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is even more satisfying! A circular *and* damped motion, all thanks to `cos()` and `sin()`. Besides looking great, how could this be used in a real layout?
 
@@ -573,7 +573,7 @@ We don’t have to look too hard. Take, for example, this sidebar I recently mad
   slug-hash="MYaxWOJ"
   title="Damped Menu Bar"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Pretty neat, right?!
 
@@ -607,7 +607,7 @@ Also, before I forget, here is another demo I made using cos() and sin() that di
   slug-hash="dPYQROE"
   title="Spiral motion test"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info CSS Trigonometric Functions: The “Most Hated” CSS Feature
 

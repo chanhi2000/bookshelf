@@ -77,7 +77,7 @@ Add/remove images in the demo below, and see how they are perfectly placed regar
   slug-hash="jEbbLZb"
   title="Images around a circle"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you don't want to be precise, you can simplify the code like below
 
@@ -98,7 +98,7 @@ If you don't want to be precise, you can simplify the code like below
   slug-hash="myeeMMQ"
   title="Images around a circle"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We go fancy by adding a nice entry animation using `@starting-style`
 
@@ -116,7 +116,7 @@ We go fancy by adding a nice entry animation using `@starting-style`
   slug-hash="wBKKqjw"
   title="Images around a circle + animations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

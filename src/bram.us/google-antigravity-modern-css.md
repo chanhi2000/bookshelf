@@ -93,7 +93,7 @@ The rest of the CSS is admittedly a bit messy, as I quickly threw this together 
   slug-hash="bNpoKmy"
   title="Google Antigravity with Modern CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: tip
 

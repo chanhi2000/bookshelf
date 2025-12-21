@@ -90,7 +90,7 @@ A complex-looking code but all you have to do is to update a few variables.
   slug-hash="preview/LEENyEq"
   title="Rounded Triangle Boxes"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More CSS Tips
 

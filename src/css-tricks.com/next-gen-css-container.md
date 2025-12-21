@@ -77,7 +77,7 @@ No longer will the viewport and user agent be the only targets we have to create
   slug-hash="LYbvKpK"
   title="Component Query Card Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this example, I’m using two cards within a parent with the following markup:
 
@@ -155,7 +155,7 @@ Here’s another example that shows the power of using media queries for macro l
   slug-hash="RwodQZw"
   title="CSS-Only Calendar Layout [CQ] + Polyfill"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

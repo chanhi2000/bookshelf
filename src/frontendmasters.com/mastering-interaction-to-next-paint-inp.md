@@ -129,7 +129,7 @@ Let's have a look at a specific example. Below is a[CodePen with a simple form (
   slug-hash="yLmKKVV"
   title="Interaction to Next Paint Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this example, the JavaScript handler also calls a slow function,`renderSearch`, each time the event fires. Since`renderSearch`is part of the event handler, it slows down the entire animation frame and causes both LoAF and INP issues by blocking the main thread for too long.
 
@@ -140,7 +140,7 @@ Here's how to fix it:
   slug-hash="bGXvvjp"
   title="Interaction to Next Paint Demo - Solution"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In our fix, we wrapped the event handler in`requestAnimationFrame`, which delays execution until just before the next paint. Then, we adjust the button class immediately, while the heavier work in`renderSearch`is delayed with`setTimeout`so it won't execute until after the paint is complete. This approach prioritizes responsiveness and keeps user feedback snappy by yielding to the main thread.
 

@@ -17,11 +17,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           # if your docs needs submodules, uncomment the following line
           # submodules: true
+
+      # - name: Restore Build Result
+      #   uses: actions/download-artifact@v7
+      #   with:
+      #     name: build-result
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -29,10 +34,10 @@ jobs:
           version: 9 # Use a recent version of pnpm
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20
-          cache: npm
+          node-version: 24
+          cache: pnpm
 
       - name: Install Deps
         run: |
@@ -43,13 +48,12 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=16384
         run: |-
           pnpm run build
-          > src/.vuepress/dist/.nojekyll
         
-      # - name: Build freecodecamp-org
-      #   env:
-      #     NODE_OPTIONS: --max_old_space_size=16384
-      #   run: |-
-      #     pnpm run --stream build:freecodecamp-org && pnpm run combine
+#      - name: Combine output
+#        run: |
+#          pnpm cpx "src/.vuepress/dist/**" dist
+#          pnpm cpx "docs/freecodecamp-org/dist/**" dist/freecodecamp.org
+#          pnpm cpx "docs/hackingwithswfit-com/dist/**" dist/hackingwithswfit.com
 
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4
@@ -57,6 +61,6 @@ jobs:
           # Deploy Docs
           branch: gh-pages
           # folder: dist
-          folder: src/.vuepress/dist
+          folder: dist
           token: ${{ secrets.ACCESS_TOKEN }}
           single-commit: true

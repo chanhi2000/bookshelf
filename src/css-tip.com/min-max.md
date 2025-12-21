@@ -70,7 +70,7 @@ If you want to set a `max-width` to your element then it's `min()`
   slug-hash="KKEeLpp"
   title="max-width using min()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you want to set a min value for `font-size` then it's `max()`
 
@@ -81,7 +81,7 @@ If you want to set a min value for `font-size` then it's `max()`
   slug-hash="KKEeLzd"
   title="min font-size using max()\"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

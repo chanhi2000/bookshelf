@@ -76,7 +76,7 @@ Then you can apply the shape to any element of any size:
   slug-hash="ZYYmNGK"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

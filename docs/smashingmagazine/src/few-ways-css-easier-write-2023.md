@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2023/11/few-ways-css-easier-write-2023

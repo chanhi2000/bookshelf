@@ -83,7 +83,7 @@ Those light yellow boxes are basically polygons with rounded corners. In a perfe
   slug-hash="LEENyEq"
   title="Arrow-like Box with rounded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is very awesome. This is quite the power tool for shape-making. I think we’re going to see a lot of fancy stuff come out of this.
 
@@ -102,7 +102,7 @@ Coincidentally, Simon’s demo (Jen’s demo?) also shows off an arrow shape:
   slug-hash="GgRXXMx"
   title="shape() - demo 3"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s using multiple different drawing commands (`line` and `arc`, but there are more), keywords like `top` and `left` (excellent, but I wonder why logical properties don’t work?), and, even more deliciously, [**container units**](/frontendmasters.com/container-queries-and-units/#what-are-container-query-units.md) (e.g. `cqh`). The orange border there is a good reminder that `clip-path`, well, *clips.* So it’ll lop off anything at all on this element in those areas, including content.
 
@@ -121,7 +121,7 @@ And like all this good company, absolutely couldn’t resist peppering in other 
   slug-hash="OPJdjBp"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I see Temani is hard on the case with [<VPIcon icon="fas fa-globe"/>a blob generator using `shape()`](https://css-generators.com/blob/), which, I believe as long as there are the “same number of points”, can be animated by changing the `clip-path` entirely. Like:
 
@@ -130,7 +130,7 @@ I see Temani is hard on the case with [<VPIcon icon="fas fa-globe"/>a blob gener
   slug-hash="yyyPONb"
   title="Blob shape with hover effect!"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And obviously I love this:
 
@@ -139,7 +139,7 @@ And obviously I love this:
   slug-hash="JoovLam"
   title="CodePen Logo using clip-path: shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -171,7 +171,7 @@ SVG can do it, but I wouldn’t call it particularly readable code. “[<VPIcon 
   slug-hash="JoPeJar"
   title="Squircle Web Component Button"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I like how relatively chill that SVG `path` is, but still, `shape()` can allow us to squish this down into just CSS which is kinda sweet.
 
@@ -206,7 +206,7 @@ Which basically [works (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](htt
   slug-hash="zxxzBPZ"
   title="Attempt at Squircle #3 with shape();"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s a little janky — but I trust someone make like a real quality geometrically sound version eventually.
 
@@ -227,7 +227,7 @@ I heard from Peter Herbert over email:
   slug-hash="KwwGKvY"
   title="Three Cubic Bezier Squircle"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -252,7 +252,7 @@ Matthew Morete commented below with a tool he made that converts SVG path comman
   slug-hash="gbbBOXz"
   title="Another Squircle Clip Path using `smooth`"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

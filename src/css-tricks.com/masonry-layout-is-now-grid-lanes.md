@@ -106,7 +106,7 @@ One thing I would like is that prior to the announcement of masonry display type
   slug-hash="wBGNqJK"
   title="Masonry.js example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Check out the [<VPIcon icon="fas fa-globe"/>Masonry.js docs](https://masonry.desandro.com/) for more information about the object options.
 

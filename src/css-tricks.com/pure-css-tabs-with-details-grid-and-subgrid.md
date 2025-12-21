@@ -267,7 +267,7 @@ Here’s the full working demo:
   slug-hash="yyeOvgj"
   title="HTML/CSS only tabs w/ details elements and CSS subgrid"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

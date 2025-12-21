@@ -57,7 +57,7 @@ Gosh bless the `<details>` element. Toss some content inside it and you have an 
   slug-hash="jzmjPJ"
   title="Simple details."
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Toss a `<summary>` in there to customize what the expander text says.
 
@@ -66,7 +66,7 @@ Toss a `<summary>` in there to customize what the expander text says.
   slug-hash="LdyKjL"
   title="Multiple Details/Summary"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Works great for FAQs.
 
@@ -117,7 +117,7 @@ summary::-webkit-details-marker {
   slug-hash="OvmKPe"
   title="Custom Markers on Details/Summary"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Unfortunately, they don’t turn, and there is no way to animate the default triangle either. One idea might be to target the `:focus` state and swap backgrounds:
 
@@ -126,7 +126,7 @@ Unfortunately, they don’t turn, and there is no way to animate the default tri
   slug-hash="KoqveW"
   title="Custom Markers on Details/Summary"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But that seems to be limited to WebKit and Blink and, even then, the arrow will return once the item is out of focus even if the item is still expanded.
 

@@ -63,7 +63,7 @@ Here’s me re-creating a similar layout to the fan out navigation in Preethi’
   slug-hash="ExqZPNJ"
   title="Fan Out 2"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Above, the `#grid` uses CSS grid to make an 1-column 7-row grid. By default *all* items are placed in the 4th grid row, making a “closed” state. When the `open` class is applied to the grid, the `grid-row` is replaced with `auto` letting them fall to where they normally would in the grid (the “fan out”). The item in the middle position is just styled differently to look and act as a toggle.
 
@@ -78,7 +78,7 @@ There really is no limit to what you want to do with the grid in the open and cl
   slug-hash="PoMbmGy"
   title="Fan Out"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 When I was poking around with that demo, it felt it was just *begging* for “staggered transitions”, that is, animations that occur with a slight time delay between each element. I’m eyeing up future CSS that looks like it’s going to help with this, but we can actually do it now even using the view transitions we already have.
 
@@ -118,7 +118,7 @@ That ends up like this:
   slug-hash="JjgEVgd"
   title="Fan Out with Staggering"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I find that terribly pleasing.
 

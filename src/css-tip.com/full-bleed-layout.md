@@ -91,7 +91,7 @@ main {
   slug-hash="vEBBoWj"
   title="Full-bleed layout with modern CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Check the following to understand why `margin-inline` and `max()`: [**"max-width + centering with one instruction"**](/css-tip.com/center-max-width.md)
 
@@ -127,7 +127,7 @@ Resize the below demo to see the difference
   slug-hash="PwYYMRX"
   title="Full-bleed layout variations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More CSS Tips
 

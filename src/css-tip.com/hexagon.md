@@ -79,7 +79,7 @@ It's the only method that works with borders!
   slug-hash="yyNjgzR"
   title="Hexagon shapes (with border!)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

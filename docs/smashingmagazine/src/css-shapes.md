@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2018/09/css-shapes

@@ -61,7 +61,7 @@ First, here is a version of the button that is currently on the website. Hover o
   slug-hash="WbNyQYm"
   title="CSS Day buttons (01)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The`a`element is wrapped with a`div`that has a solid background color, and the`hover`effect sets the`div`‘s background to`transparent`, revealing the`a`‘s arrow shape, created using a`clip-path`. The transition between the states (the ‘fade’ of the background) creates weird looking triangles.
 
@@ -98,7 +98,7 @@ In this example the background stretches the gradient horizontally to 2.5 times 
   slug-hash="bNGKVox"
   title="CSS Day buttons (02)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 So how do you use`background-position`to create the arrow-shaped hover effect? We’ll actually need to layer two backgrounds and control both positions. Here’s how:
 
@@ -107,7 +107,7 @@ So how do you use`background-position`to create the arrow-shaped hover effect? W
   slug-hash="XJWYmod"
   title="CSS Day buttons (03)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The pointed shape is created using two simple`conic-gradients`, and again, the background stretches each gradient to 2.5 times the width of the button, so we can set the`background-position`to bring the center of these conics in and out of view.
 
@@ -172,7 +172,7 @@ Here is a live demo of the two versions, In my opinion, this second shape looks 
   slug-hash="JojZGYy"
   title="CSS Day buttons (04)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Solving the Challenge of the Dotted Button
 
@@ -191,7 +191,7 @@ In this case, we can achieve a clean and elegant solution using pseudo-elements.
   slug-hash="QwWxdbx"
   title="CSS Day buttons (05)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s break down what we added:
 
@@ -227,7 +227,7 @@ That’s it. I’ve also added a version that changes the button color after the
   slug-hash="OPJEWjv"
   title="CSS Day buttons (06)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

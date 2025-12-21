@@ -31,6 +31,17 @@ const ALMANEC_PROPERTIES: SidebarInfoSubgroupTemplate = {
   ],
 }
 
+const Y2011: SidebarYeargroupTemplate = {
+  text: '2011',
+  collapsible: true,
+  children: [
+    // END: 2011
+    "the-checkbox-hack", // 2011-12-21
+    "tabs-with-round-out-borders", // 2011-09-04
+  ],
+}
+
+
 const Y2012: SidebarYeargroupTemplate = {
   text: '2012',
   collapsible: true,
@@ -90,6 +101,7 @@ const Y2017: SidebarYeargroupTemplate = {
     "position-sticky-2", // 2017-06-21
     "autoprefixer", // 2017-04-13
     "the-css-ah-ha-moment", // 2017-02-10
+    "introduction-reduced-motion-media-query", // 2017-02-10
     "animating-svg-css", // 2017-01-07
     "eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar", // 2017-01-05
   ],
@@ -102,6 +114,7 @@ const Y2018: SidebarYeargroupTemplate = {
     // END: 2018
     "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
     "svg-shape-morphing-works", // 2018-08-28
+    "the-trick-to-viewport-units-on-mobile", // 2018-07-31
     "responsive-components-solution-container-queries-problem", // 2018-02-28
   ],
 }
@@ -125,9 +138,11 @@ const Y2020: SidebarYeargroupTemplate = {
   children: [
     // END: 2020
     "the-raven-technique-one-step-closer-to-container-queries", // 2020-11-10
+    "the-css-custom-property-toggle-trick", // 2020-10-29
     "absolute-relative-fixed-positioining-how-do-they-differ", // 2020-08-13
     "absolute-positioning-inside-relative-positioning", // 2020-07-24
     "practical-css-scroll-snapping", // 2020-06-18
+    "dark-mode-and-variable-fonts", // 2020-04-23
     "fixed-headers-and-jump-links-the-solution-is-scroll-margin-top", // 2020-02-21
   ],
 }
@@ -141,6 +156,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "say-hello-to-css-container-queries", // 2021-04-20
     "css-container-queries-a-first-look-and-demo", // 2021-03-29
     "all-about-floats", // 2021-03-25
+    "web-components-are-easier-than-you-think", // 2021-03-08
     "the-css-box-model", // 2021-02-18
   ],
 }
@@ -163,6 +179,7 @@ const Y2023: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2023
+    "define-array-colors-css", // 2023-07-28
   ],
 }
 
@@ -182,6 +199,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "text-decoration-inset-is-like-padding-for-text-decorations", // 2025-12-22
     "masonry-layout-is-now-grid-lanes", // 2025-12-19
     "search-css-tricks-raycast-extension", // 2025-12-18
     "responsive-list-of-avatars-using-modern-css-part-2", // 2025-12-17
@@ -244,6 +262,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "getting-creative-with-html-dialog", // 2025-06-03
     "guide-svg-animations-smil", // 2025-03-28
     "revisiting-css-border-image", // 2025-03-21
+    "applying-the-web-dev-mindset-to-dealing-with-life-challenges", // 2025-02-24
     "toe-dipping-into-view-transitions", // 2025-02-21
     "revisiting-css-multi-column-layout", // 2025-01-27
   ],
@@ -255,6 +274,10 @@ export const template: SidebarInfoTemplate = {
   linksMap: new Map([
     [
     "css",[
+      // END: 2010css
+      "tabs-with-round-out-borders", // 2011-09-04
+      "the-checkbox-hack", // 2011-12-21
+      // END: 2011css
       "a-line-in-the-sand", // 2012-10-19
       // END: 2012css
       "css-wishlist", // 2013-01-25
@@ -272,12 +295,14 @@ export const template: SidebarInfoTemplate = {
       "eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar", // 2017-01-05
       "animating-svg-css", // 2017-01-07
       "the-css-ah-ha-moment", // 2017-02-10
+      "introduction-reduced-motion-media-query", // 2017-02-10
       "autoprefixer", // 2017-04-13
       "position-sticky-2", // 2017-06-21
       "collection-interesting-facts-css-grid-layout", // 2017-07-21
       "dont-overthink-it-grids", // 2017-12-28
       // END: 2017css
       "responsive-components-solution-container-queries-problem", // 2018-02-28
+      "the-trick-to-viewport-units-on-mobile", // 2018-07-31
       "svg-shape-morphing-works", // 2018-08-28
       "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
       // END: 2018css
@@ -288,12 +313,15 @@ export const template: SidebarInfoTemplate = {
       "the-origin-story-of-container-queries", // 2019-12-16
       // END: 2019css
       "fixed-headers-and-jump-links-the-solution-is-scroll-margin-top", // 2020-02-21
+      "dark-mode-and-variable-fonts", // 2020-04-23
       "practical-css-scroll-snapping", // 2020-06-18
       "absolute-positioning-inside-relative-positioning", // 2020-07-24
       "absolute-relative-fixed-positioining-how-do-they-differ", // 2020-08-13
+      "the-css-custom-property-toggle-trick", // 2020-10-29
       "the-raven-technique-one-step-closer-to-container-queries", // 2020-11-10
       // END: 2020css
       "the-css-box-model", // 2021-02-18
+      "web-components-are-easier-than-you-think", // 2021-03-08
       "all-about-floats", // 2021-03-25
       "css-container-queries-a-first-look-and-demo", // 2021-03-29
       "say-hello-to-css-container-queries", // 2021-04-20
@@ -305,6 +333,7 @@ export const template: SidebarInfoTemplate = {
       "exploring-css-grids-implicit-grid-and-auto-placement-powers", // 2022-08-01
       "when-do-you-use-css-columns", // 2022-08-18
       // END: 2022css
+      "define-array-colors-css", // 2023-07-28
       // END: 2023css
       "css-container-queries", // 2024-09-26
       "a-complete-guide-to-css-media-queries", // 2024-12-19
@@ -312,6 +341,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024css
       "revisiting-css-multi-column-layout", // 2025-01-27
       "toe-dipping-into-view-transitions", // 2025-02-21
+      "applying-the-web-dev-mindset-to-dealing-with-life-challenges", // 2025-02-24
       "revisiting-css-border-image", // 2025-03-21
       "guide-svg-animations-smil", // 2025-03-28
       "getting-creative-with-html-dialog", // 2025-06-03
@@ -366,6 +396,7 @@ export const template: SidebarInfoTemplate = {
       "responsive-list-of-avatars-using-modern-css-part-2", // 2025-12-17
       "search-css-tricks-raycast-extension", // 2025-12-18
       "masonry-layout-is-now-grid-lanes", // 2025-12-19
+      "text-decoration-inset-is-like-padding-for-text-decorations", // 2025-12-22
       // END: 2025css
       // END: css
     ]],[
@@ -380,6 +411,11 @@ export const template: SidebarInfoTemplate = {
       // END: js-node
     ]],[
     "js",[
+      "web-components-are-easier-than-you-think", // 2021-03-08
+      // END: 2021js
+      // END: 2022js
+      // END: 2023js
+      // END: 2024js
       "making-a-masonry-layout-that-works-today", // 2025-07-28
       "keeping-article-demos-alive-when-third-party-apis-die", // 2025-07-30
       "thinking-deeply-about-theming-and-color-naming", // 2025-08-04
@@ -416,6 +452,7 @@ export const template: SidebarInfoTemplate = {
       Y2014,
       Y2013,
       Y2012,
+      Y2011,
     ]]
   ])
 }

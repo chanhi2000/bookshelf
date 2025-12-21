@@ -52,7 +52,7 @@ cover: https://docker.com/app/uploads/2019/05/23bb41dd-9682-48e2-b4f4-e11507e178
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2019/05/23bb41dd-9682-48e2-b4f4-e11507e17819-2.jpg"/>
 
-Fresh off the heels of DockerCon and the announcement of [**Docker Enterprise 3.0**](/docker.com/announcing-docker-enterprise-3-0.md), an end-to-end and dev-to-cloud container platform, I wanted to share some thoughts on what we mean when we say “complete container platform”.
+Fresh off the heels of DockerCon and the announcement of Docker Enterprise 3.0, an end-to-end and dev-to-cloud container platform, I wanted to share some thoughts on what we mean when we say “complete container platform”.
 
 ![](https://docker.com/app/uploads/2019/05/23bb41dd-9682-48e2-b4f4-e11507e17819-1.jpg)
 

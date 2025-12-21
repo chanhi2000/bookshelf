@@ -351,7 +351,7 @@ Here’s a CodePen demo:
   slug-hash="RNNQNxx"
   title="Animated gradient text"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2024/01/css-border-image-property

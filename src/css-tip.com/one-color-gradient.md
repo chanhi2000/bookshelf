@@ -101,7 +101,7 @@ Where you need a one-color gradient? Everywhere!
   slug-hash="xxXNpBW"
   title="hover effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 CSS Loaders: [css-tricks.com/single-element-loaders-the-bars](https://css-tricks.com/single-element-loaders-the-bars/)
 
@@ -110,7 +110,7 @@ CSS Loaders: [css-tricks.com/single-element-loaders-the-bars](https://css-tricks
   slug-hash="mdWVOrR"
   title="The bars"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Decorations and shapes with `border-image`: [smashingmagazine.com/2024/01/css-border-image-property](https://smashingmagazine.com/2024/01/css-border-image-property/)
 
@@ -119,14 +119,14 @@ Decorations and shapes with `border-image`: [smashingmagazine.com/2024/01/css-bo
   slug-hash="XWoNdGK"
   title="Infinite image shadow"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="t_afif"
   slug-hash="ExrEXoO"
   title="A simple Tooltip using 2 CSS properties"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Masking: [css-tip.com/border-gradient](https://css-tip.com/border-gradient/)
 
@@ -135,7 +135,7 @@ Masking: [css-tip.com/border-gradient](https://css-tip.com/border-gradient/)
   slug-hash="ZEdYKvo"
   title="Gradient borders with rounded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And many more!
 

@@ -412,7 +412,7 @@ Here’s a quick demo for using the NotiStack library:
   slug-hash="QWzaWwy"
   title="NotiStack Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -708,7 +708,7 @@ It’s worth noting that its developers have recently announced that React Toast
   slug-hash="GRPOGOY"
   title="React Toast Notifications: A Simple Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

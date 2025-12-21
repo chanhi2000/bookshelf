@@ -64,7 +64,7 @@ The following demo is currently limited to Chrome and Edge, but will work in oth
   slug-hash="dPYRzKq"
   title="Sequential Animations"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/10/sequential-2.mov" />
 
@@ -149,7 +149,7 @@ In this case, we want `0` of the animation (`translate: 0px`) at `t=0%` (in othe
   slug-hash="zxrNrZx"
   title="linear with linear()"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Instead of percentages, we can use numbers, which means that the following is also valid:
 
@@ -197,7 +197,7 @@ It breaks down like this:
   slug-hash="ZYQLQeg"
   title="back and forth"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Most of the timing functions allow us to only move forward, but with `linear()` we can move in both directions as many times as we want. That’s what makes this function so powerful. With a “simple” keyframes you can have a “complex” animation.
 
@@ -218,7 +218,7 @@ In the demo below, all the elements are using the same keyframes and yet have co
   slug-hash="Qwydygz"
   title="many animations"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -255,7 +255,7 @@ The first two control points have the same “output” progress. The first one 
   slug-hash="EaPZPvV"
   title="adding a delay"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s add another point to get back to the initial state:
 
@@ -274,7 +274,7 @@ linear(0, 0 50%, 1, 0)
   slug-hash="yyegeoW"
   title="complete animation"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Cool, right? We’re able to create a complex animation with a simple set of keyframes. Not only that, but we can easily adjust the configuration by tweaking the `linear()` function. This is what we will do for each element to get our sequential animation!
 
@@ -288,7 +288,7 @@ Let’s get back to our first animation and use the previous `linear()` value we
   slug-hash="qEbRRKe"
   title="two elements"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Nothing surprising yet. Both elements have the exact same animation, so they animate the same way at the same time. Now, let’s update the `linear()` function for the first element to have the opposite effect: an animation in the first half, then a delay in the second half.
 
@@ -303,7 +303,7 @@ This literally inverts the previous value:
   slug-hash="QwyddZQ"
   title="sequential animation with 2 elements"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 *Tada!* We have established a sequential animation with two elements! Are you starting to see the idea? The goal is to do the same with any number (`N`) of elements. Of course, we are not going to assign a different `linear()` value for each element — we will do it programmatically.
 
@@ -368,7 +368,7 @@ I used a variable (`--d`) to control the duration, but it’s not mandatory. I w
   slug-hash="dPYRzKq"
   title="Sequential Animations"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now all that’s left is to define your animation. Add as many elements as you want, and watch the result. No more complex keyframes and magic values!
 
@@ -388,7 +388,7 @@ We can extend the basic idea to create more variations. For example, instead of 
   slug-hash="bNEgOpL"
   title="sequential animation with N elements"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/10/sequential-3.mov" />
 
@@ -400,7 +400,7 @@ I will not spend too much time explaining this case because it’s one example a
   slug-hash="VYePqbm"
   title="sequential animation with N elements"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2025/10/sequential-1.mov" />
 

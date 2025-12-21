@@ -136,7 +136,7 @@ I’d love it if these browser support charts/widgets could be more clear about 
   "desc": "When we share content about emerging web platform features, we have to be careful that we aren’t frustrating people with things they can’t use yet. However there is a place for talking about new things, and people who enjoy hearing about them. This post is about some of the ways I try to meet the needs of a browser DevRel team that need to share information about new things, with those of developers who need to know what actually works now. If you write or speak about the web, perhaps some of these ideas will help you too.",
   "link": "https://rachelandrew.co.uk/archives/2024/11/15/when-is-the-right-time-to-share-our-excitement-about-new-web-features/",
   "logo": "https://rachelandrew.co.uk/wp-content/uploads/2022/07/favicon1.png",
-  "background": "rgba(244,245,246,0.2)"
+  "background": "rgba(0,0,0,0.2)"
 }
 ```
 

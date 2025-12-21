@@ -74,7 +74,7 @@ For example, you can set `grid-column: 1 / -2` to span the cells between the fir
   slug-hash="rmQMyp"
   title="Grid item from first to second to last"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -94,7 +94,7 @@ Another interesting thing about negative values is that you can use them on `gri
   slug-hash="mwMLMX"
   title="Negative values in grid-column/row-start"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -107,7 +107,7 @@ It may seem obvious that pseudo-elements generated with CSS become grid items if
   slug-hash="mmQxEx"
   title="Experiment: Pseudo elements as grid items"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -140,7 +140,7 @@ The item in the above code will start on the 4th line and end on the 2nd, or in 
   slug-hash="jwLxeg"
   title="Lower grid-column-end value than grid-column-start"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -155,7 +155,7 @@ You can also use the span keyword with `grid-column-start`. If you set `grid-col
   slug-hash="jwLKWb"
   title="CSS Grid Layout: span keyword"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -187,7 +187,7 @@ See [an example for implicit named lines in this Pen (<VPIcon icon="fa-brands fa
   slug-hash="YVaERZ"
   title="CSS Grid Layout Areas: magic lines (-start, -end)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

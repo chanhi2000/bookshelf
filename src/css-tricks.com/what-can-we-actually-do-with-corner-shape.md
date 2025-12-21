@@ -63,7 +63,7 @@ At the time of writing, only [<VPIcon icon="fa-brands fa-chrome"/>Chrome 139 and
   slug-hash="ByoQgXj"
   title="CSS corner-shape demo (basic)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Five vertically-stacked containers in purple comparing the effects of different corner-shape values.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1757081252810_Screenshot2025-09-05at8.07.10AM.png?resize=1514%2C698&ssl=1)
 
@@ -89,7 +89,7 @@ We can do the same thing and it really works with a cyberpunk aesthetic:
   slug-hash="ByooyQe"
   title="CSS corner-shape demo (Cyberpunk 2077 corners)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![A rectangular container with a medium bright red border flanked by two tab buttons above it with a beveled bottom-right corner.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1757081374239_Screenshot2025-09-05at8.08.39AM.png?resize=1766%2C972&ssl=1)
 
@@ -111,7 +111,7 @@ border-bottom-right-radius: 100% 50px;
   slug-hash="EaVVxwV"
   title="CSS corner-shape demo (slanted section)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![A large section heading against a solid purple background with white lettering. The container’s bottom-right corner is clipped, giving the container a slanted bottom edge.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1757081541424_Screenshot2025-09-05at8.12.04AM.png?resize=1310%2C614&ssl=1)
 
@@ -130,7 +130,7 @@ You’ve see those sale tags on almost every e-commerce website, either as image
   slug-hash="raOONWX"
   title="CSS corner-shape demo (sale tag)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Red rectangular box with rounded corners on the left and beveled corners on the right forming an arrow shape with the label ‘Sale’ in white.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756921169741_Screenshot2025-09-03at11.39.03AM.png?resize=1048%2C526&ssl=1)
 
@@ -174,7 +174,7 @@ Yep, same thing.
   slug-hash="GgpgQNN"
   title="CSS corner-shape demo (arrow crumbs)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![A rounded rectangular box in three purple arrow-shaped segments pointing towards the right. Each segment is a breadcrumb, labeled Step 1, Step 2, and Step 3 in white. The first segment is a darker shade of purple.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756921412654_Screenshot2025-09-03at11.43.19AM.png?resize=1446%2C390&ssl=1)
 
@@ -244,7 +244,7 @@ ol {
   slug-hash="LEpmMWg"
   title="CSS corner-shape demo (tooltip)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Small purple button with white text and a red outline next to a red tooltip with white text floated to the right and a styled caret tip on the left side making it connected to the button.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756921702744_Screenshot2025-09-03at11.47.59AM.png?resize=1420%2C574&ssl=1)
 
@@ -322,7 +322,7 @@ mark {
   slug-hash="raOVOXj"
   title="CSS corner-shape demo (highlighted text)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Text reading ‘Highlighted text’ in black against a yellow background containing no sharp edges.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756921874103_Screenshot2025-09-03at11.50.58AM.png?resize=1222%2C474&ssl=1)
 
@@ -333,7 +333,7 @@ We can also use `squircle` by itself to create those fancy-rounded app icons, or
   slug-hash="gbaYELq"
   title="CSS corner-shape demo (iOS app icon)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Squircle shaped box filled with a linear gradient that goes from orange to blue with white text on top that says ‘CSS’.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756921975678_Screenshot2025-09-03at11.52.40AM.png?resize=1404%2C586&ssl=1)
 
@@ -342,7 +342,7 @@ We can also use `squircle` by itself to create those fancy-rounded app icons, or
   slug-hash="zxvRaGY"
   title="CSS corner-shape demo (squircle button)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Squircle-shaped purple button with a white label that says ‘Button.’](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756922082526_Screenshot2025-09-03at11.54.28AM.png?resize=1110%2C428&ssl=1)
 
@@ -357,7 +357,7 @@ Same thing, only larger. Kind of looks like a hand-drawn box?
   slug-hash="azvzXjo"
   title="CSS corner-shape demo (hand-drawn box)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Solid white rectangular box with thick, black borders that look hand-drawn.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756922141714_Screenshot2025-09-03at11.55.29AM.png?resize=1794%2C768&ssl=1)
 
@@ -380,7 +380,7 @@ border-bottom-left-radius: 30px 50%;
   slug-hash="jEbbONp"
   title="CSS corner-shape demo (clipped background)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![The words ‘Clipped background’ in bold black letters with a thinly-bordered rectangle that nearly covers the text.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756922213211_Screenshot2025-09-03at11.56.33AM.png?resize=1746%2C474&ssl=1)
 
@@ -397,7 +397,7 @@ As a parting gift, I leave you with this very cool but completely useless CSS Ti
   slug-hash="wBKKweg"
   title="CSS corner-shape demo (hexagons and triangles)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Hexagon shape with six black segments forming the shape, separated by gaps of gray space. The negative space in the middle forms another hexagon.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/s_B9520AAEB8E72143A2990CEB07209D80D9AD692AC1F43B71E4BC9C84D7184887_1756922381535_Screenshot2025-09-03at11.59.17AM.png?resize=1474%2C796&ssl=1)
 

@@ -173,7 +173,7 @@ Here is an example of a basic interface of this nature that we can work through 
   slug-hash="azdOgVq"
   title="Progressive Disclosure Flow Without View Transitions"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s take this demo and modify it to add some view transitions. Unlike the previous examples we took a look at, this isn’t cross-document. This is a single page which we are modifying with JavaScript. As such we’ll be using same-document transitions, not cross-document transitions. This means we don’t need to opt-in with that same CSS at-rule.
 
@@ -212,7 +212,7 @@ You’ll notice that we’ve kept the original functionality as well in the case
   slug-hash="ZYQGgrM"
   title="Progressive Disclosure Flow With View Transitions"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Moving between states in a dialog as you’d expect from next/back buttons like this is much less jarring than sudden jumps. This is something that we could do prior to the View Transition API, but which would take a significant amount of work.
 
@@ -241,7 +241,7 @@ Let’s take a [**beautifully styled table**](/piccalil.li/styling-tables-the-mo
   slug-hash="gbPaYxe"
   title="Sortable Table With View Transitions"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You can see by clicking on the headers of the release year and rating columns that the items resort. This is a case of using view transitions in a situation that would require *a lot* of custom animation work to achieve otherwise.
 

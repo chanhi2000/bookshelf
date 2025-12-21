@@ -757,7 +757,7 @@ Like the `width` feature, `height` detects the height of the viewport, including
   link="https://codepen.io/team/css-tricks/pen/xxVjrob"
   title="Fluid typography (media queries)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: details More info
 

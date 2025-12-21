@@ -67,7 +67,7 @@ Here’s how it works:
   slug-hash="RNWRjva"
   title="Infinite Selection"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s right, you click an item and it jumps right into the shopping cart, complete with a smooth transition that shows it happening. You can add as many items as you want!
 
@@ -185,7 +185,7 @@ Here’s the final demo once again:
   slug-hash="RNWRjva"
   title="Infinite Selection"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

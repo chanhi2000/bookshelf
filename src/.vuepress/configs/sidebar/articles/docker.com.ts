@@ -46,7 +46,7 @@ const Y2020: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2020
-    "solving-docker-compose-performance-on-macos-catalina", // 2020-
+    "solving-docker-compose-performance-on-macos-catalina", // 2020-01-29
     "january-virtual-meetup-recap", // 2020-01-29
     "faster-builds-in-compose-thanks-to-buildkit-support", // 2020-01-23
     "docker-desktop-release-2-2-is-here", // 2020-01-22
@@ -337,12 +337,23 @@ export const template: SidebarInfoTemplate = {
       "docker-desktop-release-2-2-is-here", // 2020-01-22
       "faster-builds-in-compose-thanks-to-buildkit-support", // 2020-01-23
       "january-virtual-meetup-recap", // 2020-01-29
+      "solving-docker-compose-performance-on-macos-catalina", // 2020-01-29
       // END: 2020docker
       // END: 2021docker
       // END: 2022docker
       // END: 2023docker
       // END: 2024docker
       "docker-compose-with-provider-services", // 2025-07-10
+      // END: 2025docker
+      // END: docker
+    ]],[
+    "macos", [
+      "solving-docker-compose-performance-on-macos-catalina", // 2020-01-29
+      // END: 2020docker
+      // END: 2021docker
+      // END: 2022docker
+      // END: 2023docker
+      // END: 2024docker
       // END: 2025docker
       // END: docker
     ]],[

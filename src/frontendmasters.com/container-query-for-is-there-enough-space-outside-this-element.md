@@ -136,7 +136,7 @@ I’ll use a bit of `translate` to move the arrows here:
   slug-hash="qEEVjeR"
   title="Query for “is there enough space outside?”"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And here’s a video of the success:
 

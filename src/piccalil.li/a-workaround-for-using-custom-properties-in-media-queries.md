@@ -209,7 +209,7 @@ Toggle the CSS panel to see the effect
   slug-hash="PwZwgwb"
   title="A workaround for using custom properties in media queries (Demo 1)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note FYI
 
@@ -228,7 +228,7 @@ You may wonder if there are any performance issues. I haven’t tested this solu
   slug-hash="MYKYRJP"
   title="A workaround for using custom properties in media queries (Demo 2)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -283,7 +283,7 @@ With this solution, you can only query the viewport, not a container. If you wri
   slug-hash="OPMPYXw"
   title="A workaround for using custom properties in media queries (Demo 3)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note FYI
 

@@ -77,7 +77,7 @@ div {
   slug-hash="VYewxej"
   title="width: stretch demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The more *technical* answer is that the `stretch` value sets the width or height of the element’s margin box (rather than the box determined by `box-sizing`) to match the width/height of its *containing* block.
 
@@ -153,7 +153,7 @@ Opinions aside, there’s one thing that `box-sizing` certainly isn’t and that
   slug-hash="VYewxej"
   title="width: stretch demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Because `stretch` is a keyword though, you’ll need to [<VPIcon icon="iconfont icon-css-tricks"/>interpolate its size](https://css-tricks.com/almanac/properties/i/interpolate-size/), and you can only do that by declaring `interpolate-size: allow-keywords` (on the `:root` if you want to activate interpolation globally):
 

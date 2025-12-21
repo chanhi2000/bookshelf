@@ -15,6 +15,7 @@ const Y2022: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2022
+    "number-elements-has-selector", // 2022-10-10
     "overflowing-background", // 2022-06-09
     "matrix-image", // 2022-01-02
   ]
@@ -39,7 +40,10 @@ const Y2024: SidebarYeargroupTemplate = {
     "steps", // 2024-11-18
     "one-color-gradient", // 2024-10-21
     "initial-containing-block", // 2024-09-30
+    "quantity-queries", // 2024-08-26
+    "line-rounded-dashes", // 2024-08-15
     "arc-shape", // 2024-08-07
+    "element-dimension", // 2024-07-26
     "min-max", // 2024-02-06
   ]
 }
@@ -81,10 +85,14 @@ export const template: SidebarInfoTemplate = {
       // END: 2021css
       "matrix-image", // 2022-01-02
       "overflowing-background", // 2022-06-09
+      "number-elements-has-selector", // 2022-10-10
       // END: 2022css
       // END: 2023css
       "min-max", // 2024-02-06
+      "element-dimension", // 2024-07-26
       "arc-shape", // 2024-08-07
+      "line-rounded-dashes", // 2024-08-15
+      "quantity-queries", // 2024-08-26
       "initial-containing-block", // 2024-09-30
       "one-color-gradient", // 2024-10-21
       "steps", // 2024-11-18

@@ -123,7 +123,7 @@ If the opposite side grows, the value of `tan()` increases. If the adjacent side
   slug-hash="yyeogJy"
   title="Right-angled triangle - tan()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now we can start actually poking at how we can use the `tan()` function in CSS. I think a good way to start is to look at an example that arranges a series of triangles into another shape.
 
@@ -205,7 +205,7 @@ Nothing much so far. We have a square container with eight rectangular items in 
   slug-hash="ogbeRmz"
   title="Sectioned Lists I - tan()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We want to place the elements around the container’s center point. We have to rotate each item evenly by a certain angle, which we’ll get by dividing a full circle, `360deg`, by the total number of elements, `--total: 8`, then multiply that value by each item’s inlined index value, `--i`, in the HTML.
 
@@ -246,7 +246,7 @@ It sort of looks like *[<VPIcon icon="fas fa-globe"/>Wheel of Fortune](https://w
   slug-hash="GgovaLO"
   title="Sectioned Lists II - tan()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We want to close those gaps. The next thing we’ll do is increase the height of each item so that their sides touch, making a perfect polygon. But by how much? If we were fiddling with hard numbers, we could say that for an octagon where each element is `200px` wide, the perfect item height would be `166px` tall:
 
@@ -292,7 +292,7 @@ Now we always have the perfect height value for the triangles, no matter what th
   slug-hash="zxrdEaY"
   title="Sectioned Lists III - tan()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And check this out. We can play with the `transform-origin` property values to get different kinds of shapes!
 
@@ -301,7 +301,7 @@ And check this out. We can play with the `transform-origin` property values to g
   slug-hash="ZYQJgWK"
   title="Sectioned Lists IV - tan()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This looks cool and all, but we can use it in a practical way. Let’s turn this into a circular menu where each item is an option you can select. The first idea that comes to mind for me is some sort of character picker, kinda like the character wheel in *Grand Theft Auto V*:
 
@@ -314,7 +314,7 @@ This looks cool and all, but we can use it in a practical way. Let’s turn this
   slug-hash="PwZKMjo"
   title="Sectioned Lists VI - tan()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You may have noticed that I went a little fancy there and cut the full container into a circular shape using `clip-path: circle(50% at 50% 50%)`. Each item is still a triangle with hard edges, but we’ve clipped the container that holds all of them to give things a rounded shape.
 
@@ -325,7 +325,7 @@ We can use the exact same idea to make a polygon-shaped image gallery:
   slug-hash="myVMZoa"
   title="Sectioned Lists V - tan()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This concept will work maybe 99% of the time. That’s because the math is always the same. We have a right triangle where we know (1) the angle and (2) the length of one of the sides.
 
@@ -355,7 +355,7 @@ We were able to move the radius line in a counter-clockwise direction around the
   slug-hash="WbQmWXj"
   title="Unit circle - Example I"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We also showed how, given the angle, the `cos()` and `sin()` functions return the X and Y coordinates of the line’s endpoint on the circle, respectively:
 
@@ -364,7 +364,7 @@ We also showed how, given the angle, the `cos()` and `sin()` functions return th
   slug-hash="azvMrEO"
   title="Unit circle - Example II"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We know now that tangent is related to sine and cosine, thanks to the equation we used to calculate it in the examples we looked at together. So, let’s add another line to our demo that represents the `tan()` value.
 
@@ -375,7 +375,7 @@ If we have an angle, then we can cast a line (let’s call it `L`) from the cent
   slug-hash="YPwxpxp"
   title="Unit Circle - tan()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 After playing around with the angle, you may notice two things:
 

@@ -68,14 +68,14 @@ Let’s start with not one, not two, but 20 examples of bar loaders.
   slug-hash="preview/mdWVOrR"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="anon"
   slug-hash="preview/zYZppdN"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 > What?! Are you going to detail each one of them? That’s too much for an article!
 
@@ -138,7 +138,7 @@ And here’s what we get:
   slug-hash="ZErYBPd"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Can you start to imagine all the possible variations we can get by playing with different animation configurations for the sizes or the positions?
 
@@ -175,7 +175,7 @@ Let’s fix the size to `20% 50%` and update the positions this time:
   slug-hash="gOvbgpe"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You’ve probably got the trick by now. All you need is to define a timeline that you translate into a keyframe. By animating the size, the position — or both! — there’s an infinite number of loader possibilities at our fingertips.
 
@@ -186,7 +186,7 @@ And once we get comfortable with such a technique we can go further and use a mo
   slug-hash="preview/vYxvxrV"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Expect for the last two examples in that demo, all of the bar loaders use the same underlying markup and styles and different combinations of animations. Open the code and try to visualize each frame independently; you’ll see how relatively trivial it is to make dozens — [if not hundreds](https://css-loaders.com/) — of variations.
 
@@ -203,7 +203,7 @@ Let’s take one demo and update it:
   slug-hash="BaYqggw"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 All I did is updating all the `background-*` with `mask-*` and I added a gradient coloration. As simple as that and yet we get another cool loader.
 
@@ -224,7 +224,7 @@ Let’s try something different this time where we can round the edges of our ba
   slug-hash="preview/PoEeMYO"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Using one element and its `::before` and `::after` pseudos, we define three identical bars:
 
@@ -325,7 +325,7 @@ Now, all we have to do is to animate the height and add some delays! Here are th
   slug-hash="preview/qBxEzeV/bdae7decca2724c24e7dc97c534d7847"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Wrapping up
 
@@ -338,14 +338,14 @@ Until the next article, I will leave you with a funny collection of loaders wher
   slug-hash="preview/gOmooGQ"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="anon"
   slug-hash="preview/qBrLrMo"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 #### Article series
 

@@ -84,7 +84,7 @@ cover: https://css-tip.com/og-images/7886a50f.png
   slug-hash="pvvXJLY"
   title="Arc shape with rounded edges"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Another implementation using styles queries instead of inline conditions:
 
@@ -123,7 +123,7 @@ Another implementation using styles queries instead of inline conditions:
   slug-hash="xbboGaO"
   title="Arc shape with rounded edges"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And a demo with a starting animation
 
@@ -132,7 +132,7 @@ And a demo with a starting animation
   slug-hash="azzeOVo"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More CSS Tips
 

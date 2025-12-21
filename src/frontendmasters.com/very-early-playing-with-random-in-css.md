@@ -112,7 +112,7 @@ Then this simple CSS could make them all quite different:
   slug-hash="ZYbjYLB"
   title="Very basic random() in CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The blog post doesn’t mention “unitless” numbers like I’ve used above for the color, but they work fine. If you’re using units, they need to be the same across all parameters.
 

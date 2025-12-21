@@ -59,7 +59,7 @@ A common pattern you would see in 3D transformations is the **layered pattern**,
   slug-hash="ExwmWq"
   title="3D CSS Typography"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Or in [Amit Sheen (<VPIcon icon="fas fa-codepen"/>`amit_sheen`)](https://codepen.io/amit_sheen)’s demos like this one:
 
@@ -67,7 +67,7 @@ Or in [Amit Sheen (<VPIcon icon="fas fa-codepen"/>`amit_sheen`)](https://codepen
   link="https://codepen.io/amit_sheen/pen/KwpLrJe/a41446c5e20cbbdb945beb731d860f63"
   title="Layered Text"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The layered pattern, as its name suggests, stacks multiple items into layers, adjusting the Z position and colors of each item with respect to their index value in order to create an illusion of 3D.
 
@@ -136,7 +136,7 @@ We then set all the elements, including the image container `<div>`s to have a `
   slug-hash="RNrdBYa"
   title="3D CSS image - part 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Everything looks a little janky, but that’s expected until we add a bit more CSS to make it look cool.
 
@@ -249,7 +249,7 @@ Check out the final result. Doesn’t it look so cool?!
   slug-hash="azdPmBJ"
   title="3D CSS image: part 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -280,7 +280,7 @@ Our final result looks like this! Isn’t this so cool?
   slug-hash="KwVYjQq"
   title="3D CSS image: part 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -452,7 +452,7 @@ Plus we pop into the CSS and remove the animation, as we can control it ourselve
   slug-hash="vELMoMZ"
   title="3D CSS: final demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -465,7 +465,7 @@ Using this same technique, you know what else we can build? a 3D CSS steak!
   slug-hash="ByjexvJ"
   title="3D CSS Steak - black and white!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s currently in black & white. Let’s make it show some color, shall we?
 
@@ -474,7 +474,7 @@ It’s currently in black & white. Let’s make it show some color, shall we?
   slug-hash="azdrGMz"
   title="3D CSS Steak - colored!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info Summary of things I’m doing to make this work:
 

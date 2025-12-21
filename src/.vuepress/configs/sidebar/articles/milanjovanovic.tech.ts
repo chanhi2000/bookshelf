@@ -1,4 +1,4 @@
-import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
+import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
 const REST_APIS_IN_ASPNETCORE: SidebarInfoSubgroupTemplate = {
   text: 'The Complete Guide to REST APIs in ASP.NET Core',
@@ -15,6 +15,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-build-a-high-performance-cache-without-external-libraries", // 2025-12-27
+    "server-sent-events-in-aspnetcore-and-dotnet-10", // 2025-12-20
     "the-new-slnx-solution-format-migration-guide", // 2025-12-13
     "dbcontext-is-not-thread-safe-parallelizing-ef-core-queries-the-right-way", // 2025-12-06
     "vertical-slice-architecture-where-does-the-shared-logic-live", // 2025-11-29
@@ -40,7 +42,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
     "testcontainers-best-practices-dotnet-integration-testing", // 2025-06-28
     "monitoring-dotnet-applications-with-opentelemetry-and-grafana", // 2025-06-21
-    "run-csharp-scripts-with-dotnet-run-app-no-project-files-neede", // 2025-06-14
+    "run-csharp-scripts-with-dotnet-run-app-no-project-files-needed", // 2025-06-14
     "debunking-the-filter-early-join-later-sql-performance-myth", // 2025-06-07
     "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
     "building-a-custom-domain-events-dispatcher-in-dotnet", // 2025-05-24
@@ -351,7 +353,7 @@ export const template: SidebarInfoTemplate = {
       "cqrs-pattern-the-way-it-should-have-been-from-the-start", // 2025-05-17
       "building-a-custom-domain-events-dispatcher-in-dotnet", // 2025-05-24
       "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
-      "run-csharp-scripts-with-dotnet-run-app-no-project-files-neede", // 2025-06-14
+      "run-csharp-scripts-with-dotnet-run-app-no-project-files-needed", // 2025-06-14
       "monitoring-dotnet-applications-with-opentelemetry-and-grafana", // 2025-06-21
       "testcontainers-best-practices-dotnet-integration-testing", // 2025-06-28
       "using-dotnet-aspire-with-the-docker-publisher", // 2025-07-05
@@ -369,6 +371,8 @@ export const template: SidebarInfoTemplate = {
       "exploring-csharp-file-based-apps-in-dotnet-10", // 2025-11-15
       "dbcontext-is-not-thread-safe-parallelizing-ef-core-queries-the-right-way", // 2025-12-06
       "the-new-slnx-solution-format-migration-guide", // 2025-12-13
+      "server-sent-events-in-aspnetcore-and-dotnet-10", // 2025-12-20
+      "how-to-build-a-high-performance-cache-without-external-libraries", // 2025-12-27
       // END: 2025cs
       // END: cs
     ]],[

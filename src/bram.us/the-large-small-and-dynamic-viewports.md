@@ -195,7 +195,7 @@ The pen below will indicate whether your browser supports CSS Dynamic Viewport U
   slug-hash="ZEJvMgX"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

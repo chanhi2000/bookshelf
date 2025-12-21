@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2023/12/marketing-changed-oop-javascript/

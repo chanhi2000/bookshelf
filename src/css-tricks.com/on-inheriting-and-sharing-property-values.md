@@ -117,7 +117,7 @@ We can even place that `--button-height` custom property higher up in the CSS ca
   slug-hash="jEWadeY"
   title="CSS variables demo (with calc())"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I guess when my math teacher said that I’d need algebra one day. She wasn’t lying!
 
@@ -201,7 +201,7 @@ body {
   slug-hash="GgoOeXQ"
   title="currentColor demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This enables us to reuse the color without having to set up custom properties, and of course if the value of `color` changes, `currentColor` will automatically update to match it.
 
@@ -267,7 +267,7 @@ header {
   slug-hash="GgoyQKa"
   title="Container size query demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Or, since we’re talking about a container and its direct child, we can use the following shorter version that doesn’t create and query a named container (we don’t need to query the container anyway, since all we’re doing is stealing its units!):
 

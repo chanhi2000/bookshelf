@@ -73,7 +73,7 @@ You’ll see, or more accurately *not* see, that the content is hidden with that
   slug-hash="zxvrOoW"
   title="Default hidden=until-found"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -98,7 +98,7 @@ That’s what I was asking myself when I started digging into this a little deep
   slug-hash="JjMxmom"
   title="hidden until-found demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But isn’t that a solved deal now that we have the [**`<details>` element**](/css-tricks.com/using-styling-the-details-element.md) at the ready? May as well use a semantic disclosure widget to, you know, *disclose content*. Indeed, browsers also set `content-visibility: hidden` on the [<VPIcon icon="iconfont icon-css-tricks"/>`::details-content`](https://css-tricks.com/almanac/pseudo-selectors/d/details-content/) portion of the element that holds the content.
 

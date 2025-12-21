@@ -59,7 +59,7 @@ The answer seems straightforward. Use columns when you want to split any content
   slug-hash="yLKQNYP"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 Right on. But is this an actual use case? *Mmmmmaybe.* If the text is relatively brief, then perhaps it’s a nice touch. That’s how I sold it to myself when redesigning my website a [<VPIcon icon="fas fa-globe"/>few years ago](https://geoffgraham.me/website-redesign-the-homepage/). It’s not that way today, but this is what it looked like then:
 
 ![](https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/08/mockup-03.jpg?resize=1440%2C1662&ssl=1)
@@ -77,7 +77,7 @@ When else might you need to split a continuous block of content into columns? I 
   slug-hash="eYMQNKQ"
   title="CSS Multi-Column Tag List"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Go ahead and try resizing the viewport width. Three columns are defined but the number will change based on the amount of available space. Gotta love all that responsive goodness without the media query work!
 
@@ -88,7 +88,7 @@ I was working on a demo for the `:left` pseudo-class and reached for `columns` b
   slug-hash="qBoQOWd"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But what else? Are we limited to short paragraphs, long lists, and free-flowing grids?
 

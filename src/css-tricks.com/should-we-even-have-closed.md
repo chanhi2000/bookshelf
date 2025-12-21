@@ -72,7 +72,7 @@ We expect that the `<details>` element gets a light blue background and dark red
   slug-hash="gbPRoPp"
   title="initial demo for :open & :closed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But what if we want to select the “closed” state instead? That’s what we have the`:closed` pseudo-class for, right? It’s [supposed to match an element’s closed state (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/11039#issuecomment-2414919685). I say, *supposed* because it’s not specced yet.
 

@@ -191,7 +191,7 @@ Both of these values will animate from `0` to `1` as you scroll the document fro
   slug-hash="LYMoMEz"
   title="Detecting Scroll Directionality with Scroll-Driven Animations (DEBUG, v0)\"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 #### Delaying one of the Custom Properties
 
@@ -218,7 +218,7 @@ The set `transition-delay` controls how much lag there is before `--scroll-posit
   slug-hash="YzdbdyL/52b163fb496bc91464f1a851878b344d"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Try scrolling up and down in the CodePen embedded above, and notice how `--scroll-position-delayed` lags on the `--scroll-position` variable. Repeat your test while scrolling very fast or really slow, and compare the effect of both speeds to each other.
 
@@ -246,7 +246,7 @@ body {
   slug-hash="VwqOqwQ/d0a922a21fd64f8decc88991c754cc04"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Try scrolling up and down in the CodePen embedded above, and notice how `--scroll-velocity` is a float representing the scroll velocity. Repeat your test while scrolling very fast or really slow, and compare the effect of both speeds to each other.
 
@@ -293,7 +293,7 @@ Put together, you get this:
   slug-hash="LYMLoJa/49dd704872be26534482faef58b788fb"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Try scrolling up and down in the CodePen above, and notice how `--scroll-direction` is an integer representing the scroll direction, unaffected by the scroll speed.
 
@@ -342,7 +342,7 @@ When idle, the boxes are red. When scrolling down they become green and when scr
   slug-hash="oNJeLWg/cb3542fb8be1f8bb0a33e107229b9027"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ~
 
@@ -355,7 +355,7 @@ Things also become interesting when using the `--scroll-velocity` and `--scroll-
   slug-hash="XWoREjv/a0e0aca0d543dc146b90bea779fbd964"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The blurring and desaturating is handled by the `filter` property. Some basic translation and `opacity`-meddling also takes place, to give it a rather cinematic effect. To always have a positive float value for use within all calculations, the code relies on `--scroll-speed` instead of `--scroll-velocity` which can become negative.
 
@@ -451,7 +451,7 @@ With this registration, it now becomes possible to use style queries for the sty
   slug-hash="dyaYoyG"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 💁‍♂️ Compare the non-registered vs registered behavior
 
@@ -462,7 +462,7 @@ Here’s a small CodePen that tests the simplification/seriallization of `calc()
   slug-hash="RwEqJye/2ebcc612170ef036b46bb2fb6c6cf0c7"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now compare this to this adjusted version where the custom property is registered as a `<number>`:
 
@@ -471,7 +471,7 @@ Now compare this to this adjusted version where the custom property is registere
   slug-hash="WNPvvzm"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ~
 
@@ -549,7 +549,7 @@ The demo below requires Chrome with the Experimental Web Platform Features featu
   slug-hash="dywzeoN/d4ee4fafdd7287701713d46e741ba94e"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 💭 Initially I wanted to hide the header upon scrolling down or remaining idle after having scrolled down, and only show it again once starting to scroll up again. I couldn’t immediately find a solution here – using `--when-scrolling-down-or-when-not-scrolling` also hides it on initial load, which is not what I want – but I’m sure [Johannes](https://front-end.social/@johannes) will be able to tell me how to do it using [Scroll-Persisted State](https://johannesodland.github.io/state/scroll-snap/scroll-driven-animations/2023/06/18/scroll-persisted-state.html).
 
@@ -580,7 +580,7 @@ The demo below requires Chrome with the Experimental Web Platform Features featu
   slug-hash="LYMjgjB/1e36fc337fc5f703e84397f089fc017c"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
   
 
@@ -609,7 +609,7 @@ In this demo, the reading indicator catches up on the actual reading position. T
   slug-hash="VwqJObR/7ef7eaaa78ad1382dbe5c5c4c5066989"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Compare the behavior of the demo above to [this original version](https://scroll-driven-animations.style/demos/progress-bar/css/) whose reading indicator responds directly to the scroll position change.
 
@@ -637,7 +637,7 @@ Recreating a LERP scrolling effect is a bit more difficult as you don’t want t
   slug-hash="GRPvqrN/1c39bc90ac0e08708933eb999c0941a8"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The effect is not entirely perfect though. For example, when hitting the end of the scroller the `--scroll-position-delayed` is still getting delayed while it should skip forwards in that case.  
 
@@ -658,7 +658,7 @@ By nesting a bunch of boxes, you can see how the value of `--scroll-position-del
   slug-hash="wvRqVBm/b4a25463d8c5315758802aba3e60b9ab"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The demo also includes the code to respond to a horizontal delayed scroll.
 
@@ -689,7 +689,7 @@ The difficult part here wasn’t to skew the list – this was already done in t
   slug-hash="OJrxBaL/3069957ece86b0c8aafb4a249ff9271a"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 🎬 Check a recording of this demo
 
@@ -740,7 +740,7 @@ To help spread the contents of this post, feel free to retweet the announcements
   slug-hash="undefined"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ~
 
@@ -992,7 +992,7 @@ Both of these values will animate from `0` to `1` as you scroll the document fro
   slug-hash="LYMoMEz/eb904c5de30a6a7dd7ffcc1f7c5a085a"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ~
 
@@ -1017,7 +1017,7 @@ The set `transition-delay` controls how much lag there is before `--scroll-posit
   slug-hash="YzdbdyL/52b163fb496bc91464f1a851878b344d"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Try scrolling up and down in the CodePen embedded above, and notice how `--scroll-position-delayed` lags on the `--scroll-position` variable. Repeat your test while scrolling very fast or really slow, and compare the effect of both speeds to each other.
 
@@ -1045,7 +1045,7 @@ body {
   slug-hash="VwqOqwQ/d0a922a21fd64f8decc88991c754cc04"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Try scrolling up and down in the CodePen embedded above, and notice how `--scroll-velocity` is a float representing the scroll velocity. Repeat your test while scrolling very fast or really slow, and compare the effect of both speeds to each other.
 
@@ -1092,7 +1092,7 @@ Put together, you get this:
   slug-hash="LYMLoJa/49dd704872be26534482faef58b788fb"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Try scrolling up and down in the CodePen above, and notice how `--scroll-direction` is an integer representing the scroll direction, unaffected by the scroll speed.
 
@@ -1141,7 +1141,7 @@ When idle, the boxes are red. When scrolling down they become green and when scr
   slug-hash="oNJeLWg/cb3542fb8be1f8bb0a33e107229b9027"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ~
 
@@ -1154,7 +1154,7 @@ Things also become interesting when using the `--scroll-velocity` and `--scroll-
   slug-hash="XWoREjv/a0e0aca0d543dc146b90bea779fbd964"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The blurring and desaturating is handled by the `filter` property. Some basic translation and `opacity`-meddling also takes place, to give it a rather cinematic effect. To always have a positive float value for use within all calculations, the code relies on `--scroll-speed` instead of `--scroll-velocity` which can become negative.
 
@@ -1250,7 +1250,7 @@ With this registration, it now becomes possible to use style queries for the sty
   slug-hash="dyaYoyG"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 💁‍♂️ Compare the non-registered vs registered behavior
 
@@ -1261,7 +1261,7 @@ Here’s a small CodePen that tests the simplification/seriallization of `calc()
   slug-hash="RwEqJye/2ebcc612170ef036b46bb2fb6c6cf0c7"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now compare this to this adjusted version where the custom property is registered as a `<number>`:
 
@@ -1270,7 +1270,7 @@ Now compare this to this adjusted version where the custom property is registere
   slug-hash="WNPvvzm"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ~
 
@@ -1350,7 +1350,7 @@ The demo below requires Chrome with the Experimental Web Platform Features featu
   slug-hash="dywzeoN/d4ee4fafdd7287701713d46e741ba94e"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 💭 Initially I wanted to hide the header upon scrolling down or remaining idle after having scrolled down, and only show it again once starting to scroll up again. I couldn’t immediately find a solution here – using `--when-scrolling-down-or-when-not-scrolling` also hides it on initial load, which is not what I want – but I’m sure [Johannes](https://front-end.social/@johannes) will be able to tell me how to do it using [Scroll-Persisted State](https://johannesodland.github.io/state/scroll-snap/scroll-driven-animations/2023/06/18/scroll-persisted-state.html).
 
@@ -1381,7 +1381,7 @@ The demo below requires Chrome with the Experimental Web Platform Features featu
   slug-hash="LYMjgjB/1e36fc337fc5f703e84397f089fc017c"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
   
 
@@ -1410,7 +1410,7 @@ In this demo, the reading indicator catches up on the actual reading position. T
   slug-hash="VwqJObR/7ef7eaaa78ad1382dbe5c5c4c5066989"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Compare the behavior of the demo above to [this original version](https://scroll-driven-animations.style/demos/progress-bar/css/) whose reading indicator responds directly to the scroll position change.
 
@@ -1438,7 +1438,7 @@ Recreating a LERP scrolling effect is a bit more difficult as you don’t want t
   slug-hash="GRPvqrN/1c39bc90ac0e08708933eb999c0941a8"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The effect is not entirely perfect though. For example, when hitting the end of the scroller the `--scroll-position-delayed` is still getting delayed while it should skip forwards in that case.  
 
@@ -1459,7 +1459,7 @@ By nesting a bunch of boxes, you can see how the value of `--scroll-position-del
   slug-hash="wvRqVBm/b4a25463d8c5315758802aba3e60b9ab"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The demo also includes the code to respond to a horizontal delayed scroll.
 
@@ -1490,7 +1490,7 @@ The difficult part here wasn’t to skew the list – this was already done in t
   slug-hash="OJrxBaL/3069957ece86b0c8aafb4a249ff9271a"
   title="CodePen Embed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 🎬 Check a recording of this demo
 

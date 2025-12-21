@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.build.base.json",
+  "references": [
+    // { "path": "./docs-shared/tsconfig.build.json" },
+  ],
+  "files": []
+}

@@ -86,7 +86,7 @@ Let’s look at the simplest possible example of sticky positioning.
   link="https://codepen.io/editor/chriscoyier/pen/019a31b0-dc53-701c-8837-df003bbc72f6"
   title="Sticky Demo from Adam (Tailwind)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Our middle container has `sticky top-0` which sets `position: sticky` and sets the top value to `0`. That means we want it to “stick” at the zero position of whatever scroll container is doing the scrolling.
 
@@ -192,7 +192,7 @@ Here’s a sticky demo very similar to what we saw before, except I put the stic
   link="https://codepen.io/editor/chriscoyier/pen/019a44d8-5a43-730e-9f7c-a3272a32700e"
   title="Sticky Demo from Adam (Tailwind)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The sticky element is about to stick, but, if the browser were to allow it to do so, it would have to “break out of” its parent. Its parent is *not* sticky, and so *it* will keep scrolling. But the browser will not let this “breaking out” happen, so the sticking fails.
 
@@ -221,7 +221,7 @@ Let’s make our parent (with the red outline) a little bigger, so this effect w
   link="https://codepen.io/editor/chriscoyier/pen/019a44db-99f1-711a-8f69-1d71ece18094"
   title="Sticky Demo from Adam (Tailwind)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now the sticky element *does* stick, at first. It sticks because there’s some excess space in its parent. The parent does scroll up, and as soon as the bottom of the parent becomes flush, the sticky element stops sticking. Again, this happens because the browser will not allow a sticky element to stick if doing so would break it out of an ancestor element’s bounds.
 
@@ -271,7 +271,7 @@ And when we run this, the sticky positioning does not work at all. Everything sc
   link="https://codepen.io/editor/chriscoyier/pen/019a44e4-442d-75f8-9af5-f9254a2378c1"
   title="Side Nav Sticky Problem"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The reason is that our grid child is sized to the container, which means our content cannot stick without “breaking out” of its container (the purple grid), and as we saw, the CSS spec does not allow for this.
 
@@ -321,7 +321,7 @@ We’ve added `self-start` alignment to **both** the grid container, *and also* 
   link="https://codepen.io/editor/chriscoyier/pen/019a455e-527d-750d-a1eb-af1f21fc273d"
   title="Side Nav Sticky Problem"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Why did we add `self-start` to the sticky element? Remember, grid and flex children both have `stretch` as the **default value** for `align-self`. When we told the grid to grow as large as it needs, then leaving the sticky element as *it’s* default of stretch would cause it to *stretch and also grow huge*. That violates our original rule #1 above. Remember when we had a sticky element that was 100px larger than its scrolling container? It stuck only until the last 100px of scrolling. Leaving the sticky element as stretch would cause it to grow *exactly* as large as the content that’s scrolling, which would prevent it from sticking at all.
 
@@ -363,7 +363,7 @@ export const FlexInFlexStickyDemoVersion1 = () => {
   link="https://codepen.io/editor/chriscoyier/pen/019a456c-c51d-7038-a437-a4aa12a200ee"
   title="Side Nav Sticky Problem"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The `self-start` alignment on the sticky element keeps its content no bigger than needed. This prevents it from stretching to the (new) grid size that is arbitrarily big. But what happens if our sticky content just naturally gets too big to fit within the scroll container?
 

@@ -77,7 +77,7 @@ Another cool thing we can do here is ensure the original art is as small as it c
   slug-hash="jOgOYOL"
   title="Pixelated Landscape"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Another use-case here is something like a QR code. This QR code is 393 *bytes* (super small!). I’ll render it huge here and see how perfect it looks:
 
@@ -86,7 +86,7 @@ Another use-case here is something like a QR code. This QR code is 393 *bytes* (
   slug-hash="dyxydMv"
   title="Super Tiny QR code rendered big"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I have an SVG version of this same QR code that is 33 KB. This is a (very rare) case where a simple vector-looking graphic is actually better served from a binary image that the natively vector SVG.
 
@@ -97,7 +97,7 @@ Even a bit more extreme, here’s a 78 byte GIF (I hand-pixeled drew in Photosho
   slug-hash="NWQWyrO"
   title="78 byte image pixelated"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that if you try the `crisp-edges` value on the above, it seems to bail out, so I guess there must be some kind of difference between the values.
 

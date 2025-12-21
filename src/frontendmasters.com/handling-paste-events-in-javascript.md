@@ -79,7 +79,7 @@ That’s the easy part. Note that as with most event-related handlers, if you wa
   slug-hash="qBeaYrZ"
   title="Paste Events 1"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -153,7 +153,7 @@ Now, you can paste text into the demo and see the different results in your brow
   slug-hash="RwXGyqx"
   title="Paste Events 2"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For ‘plain/text’, you see what I think you would expect. If you go to a random web page, lets say the[**first article**](/frontendmasters.com/reading-from-the-clipboard-in-javascript.md)in this series, and select from the title to the first paragraph:
 
@@ -252,7 +252,7 @@ If the pasted event contains file, we can check the mimetype of each (although i
   slug-hash="VwoKENq"
   title="Paste Events 3"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

@@ -161,7 +161,7 @@ You can see it in action in demo below, but keep in mind it can only compute the
   slug-hash="zxGyRZX"
   title="number of auto-fill columns using length division, no Firefox"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Great, but what Firefox? The [<VPIcon icon="fa-brands fa-firefox"/>Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1827404) looks like it’s dormant, so we cannot get the ratio between two length values there.
 
@@ -255,7 +255,7 @@ Note that the `.grid` pseudo is only needed to display the `--n` value (using th
   slug-hash="MYwZzrY"
   title="number of auto-fill columns with fallback for length division #1: glitch"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Almost there, but not exactly.
 
@@ -280,7 +280,7 @@ This seems to get the job done.
   slug-hash="ZYGVwLM"
   title="number of auto-fill columns with fallback for length division #2: glitch fix"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Still, I’m a bit worried this still might fail in certain scenarios, even though I’ve kept resizing obsessively in Firefox and haven’t encountered any problems after rounding `f`.
 
@@ -328,7 +328,7 @@ Note that we may also use `1fr` instead of `var(--u)` for the `grid-template-col
   slug-hash="PwqXVBK"
   title="number of columns fitting with fallback for length division #3: bulletproof"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -343,7 +343,7 @@ Whenever we have `n` columns, we have `n - 1` gaps in between them.
   slug-hash="LEVqOpZ"
   title="Gaps for n columns"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This means that `n` times the unit column width plus `(n - 1)` times the gap space adds up to the container’s `content-box` width:
 
@@ -418,7 +418,7 @@ Also note that the CSS variables we need to register for the no `calc()` length 
   slug-hash="QwbYWrX"
   title="number of columns fitting, gap case + fallback"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -473,7 +473,7 @@ You can see it in action in the live demo below:
   slug-hash="gbpqaXK"
   title="highlight first variable grid column, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now let’s say we want to highlight the items on the last column. In this case, the column index `i%n` is `n - 1`, which means that their difference is `0`:
 <!-- TODO: LaTeX 로 표현 -->
@@ -501,7 +501,7 @@ For example, if `n` is `7`, then the column index `i%n` can be `0`, `1`, … `6`
   slug-hash="NPqoxWK"
   title="highlight last variable grid column, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In general, if we want to highlight a column of index `k` (`0`-based, but we can just subtract `1` in the formula below if it’s given `1`-based), we need to compute the difference between it and `i%n` (the column index of an item of index `i`), then use the absolute value of this difference inside the `min()`:
 
@@ -536,7 +536,7 @@ In the interactive demo below, clicking an item selects all items on the same co
   slug-hash="raVPYqx"
   title="highlight column of index k on variable grid, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It does this by setting `--k` (in the `style` attribute of the `.grid`) to the index of that column.
 
@@ -560,7 +560,7 @@ We can also highlight items on either odd or even columns:
   slug-hash="OPVqzKJ"
   title="highlight odd/ even variable grid columns, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is a particular case of highlighting every `k`-th column starting from column `j` (again, `j` is a `0`-based index and smaller than `k`):
 
@@ -579,7 +579,7 @@ This is a particular case of highlighting every `k`-th column starting from colu
   slug-hash="Jodzpeq"
   title="highlight every kth column of variable grid from jth one, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Highlighting items on a certain row
 
@@ -597,7 +597,7 @@ If we want to highlight the items on the first row, this means their index `i` m
   slug-hash="pvJGpzJ"
   title="highlight first variable grid row, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There is more than one way to skin a cat however, so another approach would be to get the row index, which is the result of `i/n` rounded down. If this is `0`, the item of index `i` is on the first row. If it’s bigger than `0`, it isn’t. This makes the minimum between `1` and `i/n` rounded down be `0` when the item of index `i` is on the first row and `1` when it isn’t.
 <!-- TODO: LaTeX 로 표현 -->
@@ -625,7 +625,7 @@ This second approach can be modified to allow for highlighting the items on any 
   slug-hash="raVRpVe"
   title="highlight row of index k on variable grid, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Highlighting the items on any row includes the last one. For this, we need to know the total number `t` of items on our grid. This means `(t - 1)` is the index of the last grid item, and we can get the index of the row it’s on (that is, the index of the final row) by rounding down `(t - 1)/n`. Then we substitute `k` in the previous formula with the index of the final row we’ve just obtained this way.
 <!-- TODO: LaTeX 로 표현 -->
@@ -665,7 +665,7 @@ But once `sibling-count()` is supported cross-browser, we won’t need to do thi
   slug-hash="jEPJGNV"
   title="highlight last variable grid row, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Just like before, we can highlight items on odd or even rows.
 
@@ -683,7 +683,7 @@ Just like before, we can highlight items on odd or even rows.
   slug-hash="qEdvpzy"
   title="highlight odd/ even variable grid rows, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And the odd/ even scenario is a particular case of highlighting items on every `k`-th row, starting from row of index `j`.
 
@@ -702,7 +702,7 @@ And the odd/ even scenario is a particular case of highlighting items on every `
   slug-hash="jEPJJWx"
   title="highlight every kth row of variable grid from jth one, no breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -715,7 +715,7 @@ Another thing this technique can be used for is creating responsive grids of non
   slug-hash="QwWQqeR"
   title="Pure CSS responsive hex grid, no breakpoints!"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

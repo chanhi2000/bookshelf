@@ -298,7 +298,7 @@ Feel free to [peak at the demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyie
   slug-hash="dPyExGZ"
   title="Terms & Conditions Dialog Element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 
 <!-- TODO: add ARTICLE CARD -->

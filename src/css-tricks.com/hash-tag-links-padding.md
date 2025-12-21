@@ -77,7 +77,7 @@ This is exactly what the `[scroll-margin-top](https://css-tricks.com/almanac/pro
   slug-hash="NWBagMQ"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But wait! If you clicked that anchor link and nothing happened, it’s likely becuse you’re on Safari 11 or older (macOS or iOS). To support those, we need to pair this with `scroll-snap-margin-top`, an older version of the property:
 
@@ -226,7 +226,7 @@ Kirk found a way to do it with just margin and a bit of `transition-delay`:
   slug-hash="DpXbbm"
   title="Hash Links with Margin"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### More from Alex Wolfe
 

@@ -71,7 +71,7 @@ Extend the background of an element outside of its container to cover the full s
   slug-hash="oNEaqQX"
   title="Full screen background color"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Related: [smashingmagazine.com/2024/01/css-border-image-property/](https://smashingmagazine.com/2024/01/css-border-image-property/)
 
@@ -93,7 +93,7 @@ Another idea more versbose using `box-shadow`
   slug-hash="LYQgPgM"
   title="Full screen background color"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

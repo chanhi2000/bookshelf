@@ -69,7 +69,7 @@ Here’s a live demo:
   slug-hash="zxGyQNe"
   title="Scroll-adaptive alerts"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

@@ -81,7 +81,7 @@ Here’s an example page.
   slug-hash="qBzpyYo"
   title="iOS Text Size Respecting Page"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And here’s a video showing it working:
 

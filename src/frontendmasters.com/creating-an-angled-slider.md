@@ -59,7 +59,7 @@ Let's walk through how this slider with angled content and hover effect works:
   slug-hash="VYZyYLB"
   title="Angled flexible list hover effect"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We're going to pull this off in just HTML and CSS (with a little help from Sass to make certain things easier). We'll be using grid,`clip-path`,`:has()`, nesting, and other fun CSS stuff to help it all come together.
 
@@ -93,7 +93,7 @@ For static content, creating a layout like this is straightforward. Just layer t
   slug-hash="wBwpvbb"
   title="Angled flexible list hover effect - 2 elements static"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 
@@ -110,7 +110,7 @@ If the first element is hovered, shift the `clip-path` of the second over to the
   slug-hash="qEWpBwP"
   title="Angled flexible list hover effect - 2 elements hardcoded - NOT accessible"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To make this more accessible, you can replace`:hover`with a`:where()`that has`:hover`along with`:focus`,`:focus-within`, and/or`[aria-selected="true"]`. Exactly which ones you need depends on your implementation.
 
@@ -131,7 +131,7 @@ Taking the same approach but adding a third element, we could hard-code the chan
   slug-hash="PwYwdzO"
   title="Angled flexible list hover effect - 3 elements hardcoded"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Notice that we only have to affect the left `clip-path` points of elements. Since the right points are covered up by other elements or is the rightmost element, we set the x value of the clip path points for the right side to 100%, which is the rightmost part of the element.
 
@@ -154,7 +154,7 @@ Below is a starting point which loads SCSS and positions the child content over 
   slug-hash="yyBpyYJ"
   title="Angled flexible list hover effect — setup"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 When I start thinking about how to make the hard coded CSS more programmatic, I see the need for some`for`loops:
 
@@ -214,7 +214,7 @@ This calculation sets the initial `x` percent of the first and second points to 
   slug-hash="gbYobpE"
   title="Angled flexible list hover effect — static"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Adding the target effect
 
@@ -289,7 +289,7 @@ And that's it!
   slug-hash="VYZyYLB"
   title="Angled flexible list hover effect"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -312,7 +312,7 @@ There's more you can do to build on this effect. For example, you might want to 
   slug-hash="qEWdOdJ"
   title="Angled flexible list hover effect — with text"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

@@ -79,7 +79,7 @@ The results are also available within pseudo-elements.
   slug-hash="pvjowwj"
   title="sibling-index() / sibling-count()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The functions are a bit verbose, so we can create our custom functions and write less code.
 
@@ -108,7 +108,7 @@ The functions are a bit verbose, so we can create our custom functions and write
   slug-hash="EaVxmrK"
   title="sibling-index() / sibling-count() + custom functions"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

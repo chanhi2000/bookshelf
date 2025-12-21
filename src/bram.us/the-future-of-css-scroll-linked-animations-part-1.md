@@ -89,7 +89,7 @@ Think of a progress bar shown on top of a page, where there is a direct link bet
   slug-hash="wvodbeV"
   title="Scroll-Linked Animations Visualization: Progressbar"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 **Scroll-Triggered Animations are animations that are triggered when scrolling past a certain position.** Once triggered, these animations start and finish on their own, independent of whether you keep scrolling or not.
 
@@ -100,7 +100,7 @@ Think of those typical “content flies in as it enters the viewport” animatio
   slug-hash="WNojqop"
   title="Scroll-Triggered Animations Visualization: Fly-In Content"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Your first Scroll-Linked Animation *(Progress Bar Demo)*
 
@@ -115,7 +115,7 @@ Instead of getting technical straight away, let’s take a look at a Progress Ba
   slug-hash="WNGLpyV"
   title="Scroll-Linked Animations: Progress Bar (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab JS WAAPI + `ScrollTimeline` Version
 
@@ -124,7 +124,7 @@ Instead of getting technical straight away, let’s take a look at a Progress Ba
   slug-hash="wvoqoxb"
   title="Scroll-Linked Animations: Progress Bar (WAAPI version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -238,7 +238,7 @@ You can play with several combinations in this visualzation/tool:
   slug-hash="jOyaYPp"
   title="Scroll-Linked Animations: time-range helper"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -273,7 +273,7 @@ By default a `@scroll-timeline` will be linked to scrolling vertically from top 
 
 ::: note Update
 
-😵 As reader Patrick H Lauke [points out](https://twitter.com/patrick_h_lauke/status/1364171258305409027) you might want to go easy with the type of animation shown below in case visitors request so, by respecting the setting of [`prefers-reduced-motion`](https://css-tricks.com/introduction-reduced-motion-media-query/).
+😵 As reader Patrick H Lauke [points out (<VPIcon icon="fa-brands fa-x-twitter"/>`patrick_h_lauke`)](https://x.com/patrick_h_lauke/status/1364171258305409027) you might want to go easy with the type of animation shown below in case visitors request so, by respecting the setting of [**`prefers-reduced-motion`**](/css-tricks.com/introduction-reduced-motion-media-query.md).
 
 :::
 
@@ -286,7 +286,7 @@ By default a `@scroll-timeline` will be linked to scrolling vertically from top 
   slug-hash="oNzQbZE"
   title="Scroll-Linked Animations: Parallax Cover (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab JS WAAPI + `ScrollTimeline` Version
 
@@ -295,7 +295,7 @@ By default a `@scroll-timeline` will be linked to scrolling vertically from top 
   slug-hash="ExNwzJg"
   title="Scroll-Linked Animations: Parallax Cover (JS WAAPI + ScrollTimeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -385,7 +385,7 @@ Below is an example that contains two in-page image galleries/carousels, [**impl
   slug-hash="dyOVXoe"
   title="Scroll-Linked Animations: In-Page Gallery (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab JS WAAPI + `ScrollTimeline` Version
 
@@ -394,7 +394,7 @@ Below is an example that contains two in-page image galleries/carousels, [**impl
   slug-hash="MWbEeEp"
   title="Scroll-Linked Animations: In-Page Gallery (WAAPI version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -523,7 +523,7 @@ Building further upon the Parallax Cover from earlier on, here’s a demo that c
   slug-hash="ExgOPRw"
   title="Scroll-Linked Animations: Parallax Cover to Sticky Header (@scroll-timeline Version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab JS WAAPI + `ScrollTimeline` Version
 
@@ -532,7 +532,7 @@ Building further upon the Parallax Cover from earlier on, here’s a demo that c
   slug-hash="GRjPggQ"
   title="Scroll-Linked Animations: Parallax Cover to Sticky Header (WAAPI + ScrollTimeline Version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -555,7 +555,7 @@ The demo has been adjusted to use CSS `@scroll-timeline` and [mix-blend-mode: di
   slug-hash="QWKzpQe"
   title="Scroll-Linked Animations: Counter and Snap Points (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab JS WAAPI + `ScrollTimeline` Version
 
@@ -564,7 +564,7 @@ The demo has been adjusted to use CSS `@scroll-timeline` and [mix-blend-mode: di
   slug-hash="PobKXRj"
   title="Scroll-Linked Animations: Counter and Snap Points (JS WAAPI + ScrollTimeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -607,7 +607,7 @@ I like how in this second example these indicators reflect the percentage each s
   slug-hash="eYdxZoy"
   title="Scroll-Linked Animations: Counter and Snap Points with Navigation Controls [variant 1] (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab v2, CSS `@scroll-timeline` Version
 
@@ -616,7 +616,7 @@ I like how in this second example these indicators reflect the percentage each s
   slug-hash="yLaZJOp"
   title="Scroll-Linked Animations: Counter and Snap Points with Navigation Controls [variant 2] (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

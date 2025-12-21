@@ -65,7 +65,7 @@ The trick lays in using the `background-clip` property in CSS, which allows you 
   slug-hash="OJeBjGZ"
   title="Box Model with Colors"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The only one I’m “faking” there is the very outer shape (margin), which is drawn with an `outline`. It does match the value of `margin` though so it’s basically real!
 
@@ -76,7 +76,7 @@ I was a bit inspired to keep going, making all the values dynamic, so I made thi
   slug-hash="gONzpYb"
   title="Box Model with Colors"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I put a grid of content around it so that you could see the element push others away like the real box model does.
 
@@ -91,7 +91,7 @@ There is no real big problem with how Wes did it there, but he did use an extra 
   slug-hash="PoraMVV"
   title="Cool Button Outline"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Ana Tudor [chimed in (<VPIcon icon="fa-brands fa-x-twitter"/>`anatudor`)](https://x.com/anatudor/status/1828680421078421627) that it could be done without using any extra elements, and guess how? Background clipping!
 
@@ -102,7 +102,7 @@ I took a crack at that, and aside from a bit of an awkward need to set the `back
   slug-hash="JjQmrYE"
   title="Rotating Border Glow Effect with Background Clip"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This may actually be truly useful sometimes. For example, a CMS that is happy to spit out a `<button>` element but doesn’t offer inner HTML control of it. If you don’t need that anyway and can pull of the effect in CSS entirely, you’re in business.
 
@@ -113,7 +113,7 @@ Because I’m a glutton for punishment sometimes, I also decided to have a crack
   slug-hash="MWMPwVe"
   title="Rotating Border Glow Effect with Border-Image"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But for whatever reason `border-image` is incompatible with `border-radius`, so, whatever, that sucks.
 

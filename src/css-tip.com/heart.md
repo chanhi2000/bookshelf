@@ -72,7 +72,7 @@ Another classic shape made easy with the new `shape()` function. A heart shape w
   slug-hash="LEEbdrw"
   title="Heart shape using shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For better support check this: [**Turn your image into a heart**](/css-tip.com/image-heart-shape.md)
 

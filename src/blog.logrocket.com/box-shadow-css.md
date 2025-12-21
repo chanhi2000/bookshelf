@@ -177,7 +177,7 @@ Try adjusting the values below using our interactive `box-shadow` generator. Mod
   slug-hash="emOwyro"
   title="CSS Box Shadow Generator"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -213,7 +213,7 @@ You can experiment with these values to achieve the desired effect. Here’s wha
   slug-hash="/pen/rNGRdYe"
   title="Simple Box-shadow"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 An alternative to `translate()` is `scale()`, which increases the size of the element rather than repositioning it. In this example, the `scale()` function enlarges the box when hovered:
 
@@ -231,7 +231,7 @@ This effect scales the box to 1.1 times its original size:
   slug-hash="/pen/oNoXQay"
   title="Translate and scale"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Combining the `box-shadow` property with `text-shadow`
 
@@ -275,7 +275,7 @@ Here’s the result:
   slug-hash="xxveERM"
   title="Combining text and box shadow: Revised"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Creating layered shadows
 
@@ -314,7 +314,7 @@ Now, let’s look at the `box-shadow` in a practical scenario. This property can
   slug-hash="/pen/bGoyJvX"
   title="Layered shadow Page"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Build a simple webpage like the one shown in the demo, and try styling the `box-shadow` yourself!
 
@@ -340,7 +340,7 @@ This is the output:
   slug-hash="/pen/KKXLMwx"
   title="Neon Shadows"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To create a more vibrant glow, you can layer multiple shadows:
 
@@ -362,7 +362,7 @@ To see this effect in action, we’ll adjust the earlier demo by darkening the b
   slug-hash="gOVywjg"
   title="Neon Shadow Demo: Revised"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Using colors that contrast well—like the blue `box-shadow` against a dark background in this demo—ensures the effect is visually striking. Increasing the opacity makes the glow even brighter.
 
@@ -399,7 +399,7 @@ In the example above, two shadows work in opposite directions. The white `box-sh
   slug-hash="YzmbyYO"
   title="Neumorphic Shadows: Revised"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Neumorphic design mimics real-world objects in a way that makes them feel tangible. Let’s take this a step further and create an interactive **push switch** using a checkbox:
 
@@ -473,7 +473,7 @@ Here’s the final result:
   slug-hash="oNKRjQM"
   title="Switch: Revised"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -486,7 +486,7 @@ There are many different ways to use `box-shadow`, depending on your design need
   slug-hash="raNNKNZ"
   title="CSS Shadow Examples"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -535,7 +535,7 @@ This logic can be used inside the `startViewTransitions` method of the View Tran
   slug-hash="KKOxjbL"
   title="VTBS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As demonstrated in the demo, the View Transitions API applies a default cross-fading animation, making it appear as though the shadow itself is smoothly transitioning.
 
@@ -653,7 +653,7 @@ We have explored various use cases for the CSS `box-shadow` property. If you wan
   slug-hash="emOwyro"
   title="CSS Box Shadow Generator"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

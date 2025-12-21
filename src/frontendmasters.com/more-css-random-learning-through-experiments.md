@@ -161,7 +161,7 @@ We get the inside stars rotating one way and the outside stars going the other w
   link="https://codepen.io/editor/chriscoyier/pen/019a795f-93a6-71a4-bc05-76795c97c161"
   title="StarRotator2001"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I don’t think I got it nearly as cool as the BALL x PIT design, but perhaps the foundation is there.
 
@@ -183,7 +183,7 @@ While I had the star field thing on my mind, it occurred to me to attach them to
   link="https://codepen.io/editor/chriscoyier/pen/019a82f5-7fde-72f5-90ab-d23632dd9ca6"
   title="Parallax Stars with random() + scroll-driven animations + animation-composition"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This one is maybe easier conceptually as we just make a bunch of star `<div>`s (I won’t paste the code as it’s largely the same as the Pug example above, just no containers) then place their top and left values randomly.
 
@@ -316,7 +316,7 @@ And we get:
   link="https://codepen.io/editor/chriscoyier/pen/019a8385-66ea-748e-a104-d1e2ae011ed4"
   title="hr grids"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Just playing around here. I think `random()` is an awfully nice addition to CSS, adding a bit of texture to the dynamic web, as it were.
 

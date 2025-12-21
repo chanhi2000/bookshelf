@@ -294,7 +294,7 @@ So for the “non-main” elements, they just move up and down over 1s. But for 
   slug-hash="vEOaJXy"
   title="List Movement with View Transition Kickflip"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

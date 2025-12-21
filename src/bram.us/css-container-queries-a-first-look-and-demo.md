@@ -199,7 +199,7 @@ All together our demo finally becomes this:
   slug-hash="LYxNpeE"
   title="CSS Container Queries Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To cater for browsers that don’t support Container Queries, [**a container queries polyfill**](/bram.us/a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries.md) is included.
 

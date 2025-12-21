@@ -109,7 +109,7 @@ They are also called “arcus” functions and written as `arcos()`, `arcsin()` 
   slug-hash="xbZabae"
   title="Unit circle - Arc length"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The length of this arc is the angle times the circle’s radius. Since trigonometric functions live in a **unit circle**, where the radius is equal to 1, the arc length is also the angle, expressed in radians.
 
@@ -187,7 +187,7 @@ Finding the angle comes in handy in lots of cases, like in gradients, for instan
   slug-hash="GgoXpYL"
   title="Finding the perfect angle I"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This may be the desired look, but I think that most often than not, you want it to match the element’s dimensions.
 
@@ -204,7 +204,7 @@ Using `linear-gradient()`, we can easily solve this using `to top right` or `to 
   slug-hash="pvgQyzr"
   title="Finding the perfect angle II"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 However, we don’t have that type of syntax for other gradients, like a [<VPIcon icon="iconfont icon-css-tricks"/>`conic-gradient()`](https://css-tricks.com/almanac/functions/c/conic-gradient/). For example, the next conic gradient has a fixed angle and won’t change upon resizing the element.
 
@@ -219,7 +219,7 @@ However, we don’t have that type of syntax for other gradients, like a [<VPIco
   slug-hash="wBMQWWj"
   title="Finding the perfect angle III"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Luckily, we can fix this using `atan()`! We can look at the gradient as a right-angled triangle, where the width is the adjacent side and the height the opposite side:
 
@@ -247,7 +247,7 @@ Since `conic-gradient()` starts from the top edge — `conic-gradient(from 0deg)
   slug-hash="MYKzrMv"
   title="Finding the perfect angle IV"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You may be wondering: can’t we do that with a linear gradient? And the answer is, yes! But this was just an example to showcase `atan()`. Let’s move on to more interesting stuff that’s unique to conic gradients.
 
@@ -258,7 +258,7 @@ I got the next example from Ana Tudor’s post on [**“Variable Aspect Ratio Ca
   slug-hash="XWpyowX"
   title="Variable ratio cards"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Pretty cool, right?. Sadly, Ana’s post is from 2021, a time when trigonometric functions were specced out but not implemented. As she mentions in her article, it wasn’t possible to create these gradients using `atan()`. Luckily, we live in the future! Let’s see how simple they become with trigonometry and CSS.
 
@@ -273,7 +273,7 @@ To save time, I’ll gloss over exactly how to make the original gradient, so he
   slug-hash="PwZxQXp"
   title="Cool Gradients Tutorial"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Since we’re working with a perfect square, we can fix the `--angle` and `--rotation` to be `45deg`, but for a general use case, each of the conic-gradients would look like this in CSS:
 
@@ -313,7 +313,7 @@ And we can get those `--angle` and `--rotation` variables the same way we did ea
   slug-hash="wBMQWQR"
   title="Finding the perfect angle V"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -367,7 +367,7 @@ Using `atan2()`, we can make elements react to the mouse’s position. Why would
   slug-hash="VYeNBXJ"
   title="Inverse functions: atan2() I"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Helpy wants to always be looking at the user’s mouse, and luckily, we can help him using `atan2()`. I won’t go into too much detail about how Helpy is made, just know that his eyes are two pseudo-elements:
 
@@ -440,7 +440,7 @@ Which looks like this in CSS:
   slug-hash="KwdJORo"
   title="Inverse functions: atan2() II"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is a somewhat minor improvement, but moving the coordinate origin will be vital if we want to place Helpy in any other place on the screen.
 
@@ -472,7 +472,7 @@ And now: the `--int-width` variable holds the viewport width as an integer. This
   slug-hash="WbePJvW"
   title="What can we do with tan(atan2())? - Initial Viewport Animations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -491,7 +491,7 @@ The beauty of `sin()`, `cos()` and `tan()` and their reciprocals is that they al
   slug-hash="MYKLpLy"
   title="Unit Circle - All Trig!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

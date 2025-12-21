@@ -176,7 +176,7 @@ That should do it!
   link="https://codepen.io/editor/chriscoyier/pen/0199bab6-da71-7fa5-a43c-c71f7d37df93"
   title="Falling Numbers"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 
 The part that feels the weirdest to me are the “magic number”y values as part of the `animation-range`. But I guess they are about as magic as `font-size` or the like. They are values that describe the animation that works best for you, even if they are a little hard to immediately visualize.

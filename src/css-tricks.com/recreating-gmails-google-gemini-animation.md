@@ -87,7 +87,7 @@ The result is that the matched points move between shapes, so if the starting po
   slug-hash="KwVPrKv"
   title="Game, Set, Matched"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Luckily, the circle was the only shape that gave me trouble, so I was able to spin it (with some trial and error) until its starting point more closely matched the other starting points.
 
@@ -266,7 +266,7 @@ We can clip the box to a particular shape using a pseudo-element. For example, l
   slug-hash="myeZZoX"
   title="Four Pointed Star"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We can hook into the container’s child `div` and use it to establish the animation’s starting shape, which is the flower (clipped with our `--flower` variable):
 
@@ -304,7 +304,7 @@ Now we can clearly see how the shapes are positioned relative to each other:
   slug-hash="MYaNgao"
   title="The Fancy Shape"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -358,7 +358,7 @@ We can start by shrinking the inner `div`’s `scale` to zero initially, then ex
   slug-hash="XJmvKVv"
   title="Hubris Reimagined"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -468,7 +468,7 @@ And there you have it:
   slug-hash="NPGQroO"
   title="Gmail Gemini Animation Remake"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

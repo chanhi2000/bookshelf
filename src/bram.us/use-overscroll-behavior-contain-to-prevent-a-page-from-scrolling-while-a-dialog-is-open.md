@@ -63,7 +63,7 @@ For example, if you set it to `overscroll-behavior: contain`, it will *prevent* 
   slug-hash="ZEzmzxj"
   title="overscroll-behavior: contain"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The problem with `overscroll-behavior` is that it only works when the scroll container is actually scrollable. For example, if you set `overscroll-behavior: contain` on a `<dialog>` that doesn’t scroll, then `overscroll-behavior` won’t do anything. There must at least be 1 pixel of overflow before `overscroll-behavior` kicks in.
 
@@ -91,7 +91,7 @@ Try it out in this demo (in Chrome 144+):
   slug-hash="QwNMroY"
   title="Use `overscroll-behavior: contain;` on `::backdrop` to prevent a page from scrolling when a <dialog> is open!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 

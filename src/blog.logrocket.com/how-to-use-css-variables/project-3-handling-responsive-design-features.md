@@ -181,4 +181,4 @@ Try adjusting these CSS variables and creating new ones to improve this login sc
   slug-hash="QWoBaWr"
   title="Project #3: Responsive design breakpoints"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>

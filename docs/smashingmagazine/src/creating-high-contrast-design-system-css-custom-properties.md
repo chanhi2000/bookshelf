@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2023/01/creating-high-contrast-design-system-css-custom-properties/

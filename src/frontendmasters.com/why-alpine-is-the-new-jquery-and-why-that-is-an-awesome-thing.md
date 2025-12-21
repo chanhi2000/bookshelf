@@ -120,7 +120,7 @@ Unlike Vue, Alpine.js doesn’t have a “mustache-like” language built in, bu
   slug-hash="XWvqbLN"
   title="Alpine Article 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s basic “render data from JavaScript in the DOM”, but let’s now show how to*conditionally*show information. Like Vue, Alpine provides two methods. The first,`x-show`, will hide or display items in the DOM based on their value:
 
@@ -157,7 +157,7 @@ You can test this below. Switch the value of`cool`to see it in action:
   slug-hash="VwoQNXK"
   title="Alpine Article 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Finally, what about looping? Alpine provides the`x-for`directive. Like`x-if`, you’ll use a`template`tag with one root element. Here’s an example:
 
@@ -187,7 +187,7 @@ Note the use of “variable in array” syntax. You can use whatever you want he
   slug-hash="YzmLyzv"
   title="Alpine Article 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -220,7 +220,7 @@ The embed below demonstrates this, along with conditionally showing content base
   slug-hash="MWNGabj"
   title="Alpine Article 4"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -247,7 +247,7 @@ I feel like a live embed of this would be gratuitous given how simple this is, b
   slug-hash="bGXMVad"
   title="Alpine Article 5"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -282,7 +282,7 @@ You can play with this below:
   slug-hash="mdNLVaR"
   title="Alpine Article 6"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Alpine also supports various modifies for event handling including the ability to run events once, prevent default behavior, throttle, and more. Check the[<VPIcon icon="fas fa-globe"/>modifiers](https://alpinejs.dev/directives/on#modifiers)docs for more examples.
 
@@ -332,7 +332,7 @@ This is*much*cleaner and lets you keep your HTML and JavaScript separated as it 
   slug-hash="qBeYqGX"
   title="Alpine Article 7"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 
@@ -347,7 +347,7 @@ With our logic now separated in code, it becomes easier to add new features. For
   slug-hash="qBeYymp"
   title="Alpine Article 8"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

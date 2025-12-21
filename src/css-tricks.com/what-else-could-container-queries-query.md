@@ -59,7 +59,7 @@ Here’s a container size queries demo by [<VPIcon icon="iconfont icon-css-trick
   slug-hash="NWZgQwE"
   title="container queries are awesome part 4 - smart design patterns"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Container style queries (with the new [**range syntax**](/css-tricks.com/the-range-syntax-has-come-to-container-style-queries-and-if.md)) demo by, *uh*, me:
 
@@ -68,7 +68,7 @@ Container style queries (with the new [**range syntax**](/css-tricks.com/the-ran
   slug-hash="raxpXLO"
   title="CSS range syntax demo (container style queries and CSS variables)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And more recently, we’ve seen a couple more types of container queries pop up.
 
@@ -83,7 +83,7 @@ Container scroll-state queries demo by our very own [<VPIcon icon="iconfont icon
   slug-hash="OPLwNma"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And that’s not all we’ve got…
 
@@ -96,7 +96,7 @@ The latest container query feature is [<VPIcon icon="fa-brands fa-chrome"/>ancho
   slug-hash="gbrMGYx"
   title="Anchored container queries demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### What else?
 

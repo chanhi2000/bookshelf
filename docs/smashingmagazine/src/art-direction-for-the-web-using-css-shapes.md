@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2019/04/art-direction-for-the-web-using-css-shapes

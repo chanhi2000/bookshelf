@@ -60,7 +60,7 @@ Enter the **Deep Card**.
   link="https://codepen.io/anon/ZYWrKoP/ebbe7336c4eac3acf7e9fde40387c8bc"
   title="deep card (demo 01)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Imagine a card that isn’t just a 2D plane, but a container with actual volume. A card that holds a miniature 3D world inside it. When you rotate this card, you don’t just see it skew, you see the elements inside it shift in perspective, revealing their depth. It’s like holding a glass box filled with floating objects.
 
@@ -92,7 +92,7 @@ So, naturally, you add `overflow: clip` (or `hidden`) to the card. And that is t
   link="https://codepen.io/anon/RNaQZew/af221d197a7af667776c8a1936e186e6"
   title="Deep Card (demo 02)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -149,7 +149,7 @@ The illusion holds up well within a limited range of motion. But the moment you 
   link="https://codepen.io/anon/raeJPLq/35bcca4b4b9aa9f3e8c8a2d52b989181"
   title="deep card (demo 03)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As you can see, when the card turns, the inner elements lose their spatial relationship. The magic evaporates. So while this is a great tool for the toolbox, it wasn’t the complete solution I was looking for. I wanted the real deal. Full 3D, full rotation, full clipping.
 
@@ -239,7 +239,7 @@ We are effectively projection-mapping the 3D scene onto the 2D surface of the ca
   link="https://codepen.io/anon/JoXWpYB/a3a2a25cca5bad7f5e83d17519abf503"
   title="deep card (demo 04)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s not about moving the world inside of the card, it’s about tricking the flat projection to look 3D by aligning the viewer’s perspective with the card’s rotation.
 
@@ -394,7 +394,7 @@ Here is a complete ‘boilerplate’ example:
   link="https://codepen.io/anon/QwNmjqo/3209fa5150d0d591176cbffac7129892"
   title="Deep Card (demo 05)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You can customize it to your needs, set the number of layers, their depth, and add content within each layer to create a wide variety of Deep Card effects.
 
@@ -426,7 +426,7 @@ Here is an example of a two cards with different effects: The first card uses da
   link="https://codepen.io/anon/bNpMoKq/71f99a6de6c2d62e80d7acfc1157da24"
   title="Deep Card (demo 06)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Choose the one that fits your design best, or combine both techniques for an even richer depth experience.
 
@@ -448,7 +448,7 @@ Here are the exact same two cards as in the previous example, but this time with
   link="https://codepen.io/anon/VYaxybX/060e427f5276054c778606a9b50be906"
   title="Deep Card (demo 07)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -460,7 +460,7 @@ We often use cards that need to display extra information. One of my favorite th
   link="https://codepen.io/anon/pvyLELR/1d666cd030f54aad4d970aaaf9873046"
   title="Deep Card (demo 07)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this example, we have a front face (`.card-content`) and a back face (`.card-back`). When the user clicks the card, we toggle a checkbox that rotates the card 180 degrees, revealing the back face.
 
@@ -514,7 +514,7 @@ And the result:
   link="https://codepen.io/anon/bNpMQxj/5bd4b50fedc6080cfa517d9cf625d81e"
   title="Deep Card (demo 9)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -528,7 +528,7 @@ I actually [**wrote an entire article about this**](/css-tricks.com/3d-layered-t
   link="https://codepen.ioanon/JoXLJQy/657423f3dbb8bf5781b534b8b79de0c5"
   title="Deep Card (demo 10)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -540,7 +540,7 @@ up until now, we’ve mostly focused on layering our inner content and using the
   link="https://codepen.io/anon/QwNrEoP/9438cf97b6330d2e5f3c30726291c472"
   title="Deep Card (demo 11)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 From here, the possibilities are truly endless. You can keep experimenting—add more interactions, more layers, or even create effects on both sides of the card to build two complete worlds, one on each face. Or, go all in and design an effect that dives deep into the card itself. The only real limit is your imagination.
 

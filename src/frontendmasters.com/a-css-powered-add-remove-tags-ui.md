@@ -333,7 +333,7 @@ label {
   slug-hash="VwNQxvZ"
   title="CSS tags"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -394,7 +394,7 @@ Here’s the final demo:
   slug-hash="WNWXvve"
   title="CodePen Embed - CSS tags final"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

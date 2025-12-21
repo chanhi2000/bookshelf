@@ -86,7 +86,7 @@ Both have trade-offs, but let’s look at those later.
 
 ## Mocking a response with an interceptor
 
-Modern testing frameworks, whether for unit or end-to-end testing, such as [**Jest**](/css-tricks.com/writing-tests-for-react-applications-using-jest-and-enzyme.md#mock-api-calls) or [<VPIcon icon="iconfont icon-playwright"/>Playwright](https://playwright.dev/docs/mock#mock-api-requests), offer built-in mocking capabilities.
+Modern testing frameworks, whether for unit or end-to-end testing, such as [**Jest**](/css-tricks.com/writing-tests-for-react-applications-using-jest-and-enzyme.md#mock-api-calls.md) or [<VPIcon icon="iconfont icon-playwright"/>Playwright](https://playwright.dev/docs/mock#mock-api-requests), offer built-in mocking capabilities.
 
 However, we don’t necessarily need these, and we can’t use them in the pens anyway. Instead, we can monkey patch the [<VPIcon icon="fa-brands fa-firefox"/>Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to intercept requests and return mock responses. With monkey patching, when changing the original source code isn’t feasible, we can introduce new behavior by overwriting existing functions.
 

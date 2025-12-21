@@ -307,7 +307,7 @@ Here’s [a demo on CodePen (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)
   slug-hash="eGcLw"
   title="Don't Overthink It Grids"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

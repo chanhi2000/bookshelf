@@ -175,7 +175,7 @@ As you can see, despite the change in order of appearance, the style of the `#de
   slug-hash="KKymemr"
   title="CSS specificity example"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It is also worth noting that the CSS cascade rule only takes effect when the conflicting selectors have an equal specificity score. In that case, the style rule of the selector that comes last in the cascade will be applied.
 
@@ -186,7 +186,7 @@ In the below example, both selectors targeting the element have the same specifi
   slug-hash="qBVmLWM"
   title="CSS specificity example 2"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

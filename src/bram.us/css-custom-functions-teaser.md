@@ -134,7 +134,7 @@ Here’s a live demo that uses that code *(and which also changes the `font-size
   slug-hash="EaYBJJx"
   title="Custom CSS Custom Functions: --light-dark()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info 💁‍♂️
 

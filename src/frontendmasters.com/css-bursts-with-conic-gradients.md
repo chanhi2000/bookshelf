@@ -57,7 +57,7 @@ You can make stripes with CSS gradients pretty easily. It’s that classic thing
   slug-hash="rNVXNRY"
   title="Moving to a Hard Stop Gradient"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```css
 background: linear-gradient(
@@ -76,7 +76,7 @@ To turn that into stripes, we can set the `background-size` smaller and let it r
   slug-hash="XJWOEvV"
   title="Repeating linear gradients"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```css
 background: repeating-linear-gradient(
@@ -94,7 +94,7 @@ I think it’s a bit lesser-known, but there is an updated syntax to gradients w
   slug-hash="ByaMVGO"
   title="Repeating linear gradients (simpler syntax)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```css
 background: repeating-linear-gradient(
@@ -112,7 +112,7 @@ It occurred to me that these hard-stops can work for `conic-gradient()` as well.
   slug-hash="wBvNXZQ"
   title="CSS Burst"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```css
 background-image: repeating-conic-gradient(
@@ -128,7 +128,7 @@ I was actually trying to set some text in the middle, so I wanted to start the b
   slug-hash="RNwvJXM"
   title="CSS Burst with text"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 While I was thinking about this, I happed to see the Robinhood homepage and it was pretty burstin’.
 
@@ -143,7 +143,7 @@ Ughgkgh fine I’ll do it.
   slug-hash="vEYbaER"
   title="CSS Burst with text"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But I’ll let you figure out how to animate that. I bet you could do it with `@property` on some custom properties that you sneak into those gradient definitions.
 
@@ -154,7 +154,7 @@ This also reminds me that I worked on some bursts one time that were a bit more 
   slug-hash="OJXNeyP"
   title="Gray Burst"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

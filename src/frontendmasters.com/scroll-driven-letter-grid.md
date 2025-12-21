@@ -60,7 +60,7 @@ I was thinking about variable fonts the other day, and how many of them that dea
   slug-hash="JodOePb"
   title="Jost Variable"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I was also thinking about the “simple” kind of scroll-driven animations where all it does is move a `@keyframe` animation from 0% to 100% while a scrolling element goes from 0% to 100% “scrolled”. Fair warning that [<VPIcon icon="iconfont icon-caniuse"/>browser support isn’t great](https://caniuse.com/mdn-css_properties_scroll-timeline), but it’s just a fun thing that can easily just not happen.
 
@@ -71,7 +71,7 @@ It’s deliciously simple to use:
   slug-hash="azOVQmp"
   title="Scroll Loader"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We can smash these things together. We should be able to map 0%-100% to 100-900 pretty easily, right?
 
@@ -120,7 +120,7 @@ Looks like this.
   slug-hash="bNdYQqJ"
   title="Random Letter Grid with Variable Fonts"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But scroll up and down that preview!
 
@@ -172,7 +172,7 @@ It then occurred to me I could make a *secret message.* So I make a `@mixin` tha
   slug-hash="gbpXQQy"
   title="Random Letter Grid with Variable Fonts with special message"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Anyway this is sometimes how I spend my free time and it’s completely normal.
 

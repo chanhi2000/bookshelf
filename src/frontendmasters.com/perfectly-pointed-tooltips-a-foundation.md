@@ -103,7 +103,7 @@ Let’s start with a demo:
   slug-hash="RNrKmpY"
   title="Follow me if you can! (drag the anchor)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Click-and-drag the anchor and see how the tooltip behaves. It will try to position itself in a way to remain visible and avoid any overflow. Cool, right? No JavaScript is used to position the tooltip (except the one for dragging the anchor, which is irrelevant to the trick).
 
@@ -131,7 +131,7 @@ Here is a demo taken from another [**article**](/frontendmasters.com/custom-rang
   slug-hash="dPGVXyv"
   title="Initial configuration"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The CSS:
 
@@ -153,7 +153,7 @@ We define the anchor using `anchor-name`, link the tooltip to the anchor using `
   slug-hash="dPGVXyv"
   title="Initial configuration"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Nothing fancy so far. The tooltip is “always” placed at the top, whatever the anchor’s position. You can drag the anchor to see the result.
 
@@ -182,7 +182,7 @@ Now that our tooltip is placed, let’s add a small offset at the bottom to prep
   slug-hash="YPwEVqm"
   title="adding gap"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -218,7 +218,7 @@ In our example, I am going to use the body as the containing block, and I will a
   slug-hash="OPMOwNO"
   title="the containing block"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Drag the anchor to the left or the right and see what happens. When the tooltip touches the edges, it stops, even if you can still move the anchor. It overflows the body only when the anchor is getting outside.
 
@@ -243,7 +243,7 @@ Drag the anchor to the top and see what happens:
   slug-hash="PwZOyZq"
   title="adding a fallback position"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now, when the tooltip overflows the body from the top, the position becomes “bottom”. It will also remain bottom until the tooltip overflows again from the bottom. In other words, when the browser picks a position after an overflow, it keeps it until a new overflow happens.
 
@@ -270,7 +270,7 @@ In the example we’ve defined `position-area: top` and `bottom: var(--d)`. With
   slug-hash="wBMPYoz"
   title="flip-block"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you are a bit lost and confused, don’t worry. We are dealing with new mechanisms not common to the CSS world so it may take time to click for you.
 
@@ -312,7 +312,7 @@ First, I will consider a pseudo-element to create the tail shape:
   slug-hash="NPxyqed"
   title="adding the tail"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Both tails are visible by default. Click “debug mode” to better understand the shape and how it’s placed.
 
@@ -337,7 +337,7 @@ I am going to define the `margin` on the tooltip element and then inherit it on 
   slug-hash="wBMyaZo"
   title="fixing the vertical position"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Tada. Our tooltip is now perfect! The use of margin will hide one side keeping one tail visible at a time.
 
@@ -378,7 +378,7 @@ The `anchor()` function is another cool feature of Anchor Positioning. It allows
   slug-hash="JoGpKqG"
   title="adding anchor()"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 *Uh oh — that doesn’t work.* I’ve left this in though, as it’s a educational moment we need to look at.
 
@@ -393,7 +393,7 @@ To overcome this, I will update the position of the pseudo-element to fixed. Thi
   slug-hash="WbrMGea"
   title="using fixed position"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Yes, the demo is broken, but drag the anchor close to the edges and see how the tail is correctly placed horizontally as it’s now able to “see” the anchor element. However, the pseudo-element now has a fixed position so it can no longer be placed relatively to its parent element, the tooltip. To fix this we can make the tooltip an anchor element as well, so the pseudo-element can reference it.
 
@@ -433,7 +433,7 @@ Thanks to `anchor()`, I can retrieve the top and bottom edges of the tooltip ele
   slug-hash="bNELwpm"
   title="Final demo"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Our tooltip is now perfect! As I mentioned in the introduction, this CSS is not particularly complex. We barely used 20 declarations.
 
@@ -458,7 +458,7 @@ Easy! You simply change the initial configuration to consider the bottom positio
   slug-hash="WbrzJKP"
   title="changing to bottom position"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

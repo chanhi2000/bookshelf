@@ -212,7 +212,7 @@ And that is it. Our 3D text is ready, and all the layers are now built entirely 
   link="https://codepen.io/amit_sheen/pen/LEpZYaE/a254b6434a58b58ffbbffbbb530dccf8"
   title="Layered Text (Demo 21)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note Quick note
 
@@ -232,7 +232,7 @@ Here is an example with three different `div` elements, each using a different n
   link="https://codepen.io/amit_sheen/pen/yyYJJKK/be7a06bcfe9d12b1e36c7ee416e72738"
   title="Layered Text (Demo 22-1)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You can clearly see the difference in height between the letters, since the total height depends on the number of layers. When it comes to color though, we used the normalized value (remember that?), so the gradient looks consistent regardless of height or layer count.
 
@@ -255,7 +255,7 @@ We can just as easily normalize the total height of the layers. All we need to d
   link="https://codepen.io/amit_sheen/pen/dPYXXqP/32d78181d92ee889f97f63492c82197a"
   title="Layered Text (Demo 22-2)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -323,7 +323,7 @@ Also, I added `display: inline-block;` to the `.layeredText` element. This helps
   link="https://codepen.io/amit_sheen/pen/LEpZNJB/57e9164865a7feab9acdc9fe299952f0"
   title="Layered Text (Demo 23)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Of course, if you are using this as a hover effect but you also have some elements that should always appear with full depth, you can easily define that in your CSS.
 
@@ -343,7 +343,7 @@ This way, links will only show the effect on hover, while the heading stays bold
   link="https://codepen.io/amit_sheen/pen/zxvBBdm/fe99e8f8bcebdebcb1b26fe5c57e6082"
   title="Layered Text (Demo 24)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -425,7 +425,7 @@ The result is text with depth and a small red dot that follows the movement of y
   link="https://codepen.io/amit_sheen/pen/GgpqjOO/62a43277fbfe3ba79bf0be56968cfca9"
   title="Layered Text (Demo 25)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Okay, a small red dot is not exactly mind blowing. But remember, you are not limited to that. Once you have the mouse position, you can use it to drive all sorts of dynamic effects. In just a bit, we will start building the bulging effect that kicked off this entire series, but in other cases, depending on your needs, you might want to normalize the mouse values first.
 
@@ -446,7 +446,7 @@ Normalizing the mouse values lets us work with relative positioning that is inde
   link="https://codepen.io/amit_sheen/pen/JoYKKxg/4a388d81789a373f2de431736d3046ee"
   title="Layered Text (Demo 26)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -476,7 +476,7 @@ Now we get something similar to the red dot we saw earlier, but this time the ef
   link="https://codepen.io/amit_sheen/pen/QwjEGLX/1dc3b4f6bf1b379517a69f12702cb179"
   title="Layered Text (Demo 27)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -533,7 +533,7 @@ And just like that, we get an interactive effect that follows the mouse and give
   link="https://codepen.io/amit_sheen/pen/VYvjmPx/a9d0192c9797c381bd6407a83bbc2a4b"
   title="Layered Text (Demo 28)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

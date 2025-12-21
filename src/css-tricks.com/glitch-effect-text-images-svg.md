@@ -59,7 +59,7 @@ It’s bonafide CSS trick if there ever was one! It took me a bit to figure out 
   slug-hash="xxKRQRm"
   title="CSS Glitched Text"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -313,7 +313,7 @@ And a demo:
   slug-hash="RwboqMr"
   title="CSS Glitched Text"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

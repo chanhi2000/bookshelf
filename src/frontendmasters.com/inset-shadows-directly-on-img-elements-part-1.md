@@ -136,7 +136,7 @@ The following interactive demo illustrates how this primitive works and allows c
   slug-hash="RNWLGQM"
   title="build `img` inset shadow filter 1"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that the `in` attribute and the offset ones (`dx` and `dy`) are greyed and crossed out when set to `SourceGraphic` and `0` respectively. It’s because these are the default values and if they are the values we want for them, then we don’t need to set them at all.
 
@@ -164,7 +164,7 @@ The interactive demo below lets us play with the `filter` we have so far (all pr
   slug-hash="PwPOLJZ"
   title="build `img` inset shadow filter 2"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that these first two primitives can be in any order (we get the exact same result if we apply the offset *after* the blur). However, this is generally not the case — in most cases, the order of the primitives *does* matter.
 
@@ -183,7 +183,7 @@ For example, `x='-.25'`and `x='-25%'` are both valid and produce the same result
   slug-hash="MYaLNyQ"
   title="build `img` inset shadow filter 2b"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 However, since our desired effect, the basic inset shadow, is limited to the area of the `filter` input (that is, the area of the original image), we don’t care if anything outside it gets cut off by the `filter` region limit, so we won’t be touching these `filter` attributes. At least for now, as long as we’re talking just about the base inset shadow.
 
@@ -218,7 +218,7 @@ Where `α` is the alpha of the pixel from the first input `in`, and `α₂` is t
   slug-hash="VYvrRgY"
   title="build `img` inset shadow filter 3"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that this latest interactive demo disables the option to switch between `SourceAlpha` and `SourceGraphic` inputs for the `feOffset` primitive. This is due to [<VPIcon icon="fa-brands fa-firefox"/>a Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1957693) which we might hit in certain situations and which makes the result of the `feComposite` simply disappear if `feOffset` uses the default `SourceGraphic` input.
 
@@ -254,7 +254,7 @@ Just like `feComposite`, `feBlend` takes two inputs. `in` is the one on top and 
   slug-hash="YPyEbyY"
   title="build `img` inset shadow filter 4"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### A base case example
 
@@ -262,7 +262,7 @@ This is exactly the technique we used to create the inner shadows on these squir
 
 ![squircle-shaped images with inset shadows ([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/MYgNgBa))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/09/477984912-9b03119c-5bf8-4856-9558-14927ff2b8fc.png?resize=1024%2C354&ssl=1)
 
-Note that the squircle shape seems to be incorrect in Safari (tested via Epiphany on Ubuntu), but the relevant part (the inset shadow) seems to work well everywhere. Also, nowadays, this is not the simplest way to create squircle shapes anymore with [**the `corner-shape` property**](/frontendmasters.com/drawing-css-shapes-using-corner-shape.md) as well as [**the `shape()` function**](/frontendmasters.com/blog/shape-a-new-powerful-drawing-syntax-in-css.md) making their way into browsers, but it’s still a way to do it and, leaving aside bugs like the incorrect squircle Safari issue, a better supported one.
+Note that the squircle shape seems to be incorrect in Safari (tested via Epiphany on Ubuntu), but the relevant part (the inset shadow) seems to work well everywhere. Also, nowadays, this is not the simplest way to create squircle shapes anymore with [**the `corner-shape` property**](/frontendmasters.com/drawing-css-shapes-using-corner-shape.md) as well as [**the `shape()` function**](/frontendmasters.com/shape-a-new-powerful-drawing-syntax-in-css.md) making their way into browsers, but it’s still a way to do it and, leaving aside bugs like the incorrect squircle Safari issue, a better supported one.
 
 ---
 
@@ -301,7 +301,7 @@ So in our particular case, erosion means that for a `radius` of `1`, our black b
   slug-hash="bNVaGzW"
   title="build `img` inset shadow filter 0"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Just for fun, the interactive demo above allows switching between `SourceAlpha` and `SourceGraphic`. This is completely irrelevant in the context of this article, but it was a little low effort extra that allows seeing the effect of this primitive on the RGB channels too.
 
@@ -326,7 +326,7 @@ So if we introduce this `feMorphology` primitive before all the others in our in
   slug-hash="RNWBdmx"
   title="build `img` inset shadow filter 5"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that here we may also change the order of the `feMorphology` and `feOffset` primitives before the `feGaussianBlur` one and still get the same result, just like we may also change the order of the `feOffset` and `feGaussianBlur` primitives after the `feMorphology` one. However, the `feMorphology` primitive needs to be before the `feGaussianBlur` one, as having the `feGaussianBlur` primitive before the `feMorphology` one would give us a different result from what we want.
 

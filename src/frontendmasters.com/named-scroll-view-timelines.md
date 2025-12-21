@@ -103,7 +103,7 @@ blockquote {
   slug-hash="GRVdWwr"
   title="Blockquote Scroller with Named View Timeline"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The actual demo updates a few more things just to have a bit more of a play and try things out. Notably, *one* of the effects still required me to animate a custom property still. That’s because I’m animating the color-stop of a gradient, and since that’s just *a part* of a whole valid value, it really needs to be done as a custom property.
 
@@ -124,7 +124,7 @@ I updated my playing to make it a parent/child relationship, and here’s that s
   slug-hash="JjgvNgJ"
   title="Scroll and Count in CSS Only"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There you can see the “number” using the “scroller”s `scroll-timeline` for it’s `animation-timeline` and “animating” an integer value. If I wanted to take that integer and place it *wherever* on the page, it’s somewhat limiting because the parent container necessarily has `overflow` on it so it scrolls.
 

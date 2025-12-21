@@ -69,7 +69,7 @@ Here’s that demo:
   slug-hash="bNprQEE"
   title="scrollbar-gutter"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Fortunately, the “literal white bar” problem isn’t there on regularly-rendered pages (outside of an iframe), as that would be an instant deal breaker.
 
@@ -113,7 +113,7 @@ Notice I’m attempting to wrestle control over the width of the scrollbar there
   slug-hash="raeqaYg"
   title="scrollbar-state approach"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Certainly the `scrollbar-gutter` approach is easier and far better supported, but it’s neat to know there are future options.
 

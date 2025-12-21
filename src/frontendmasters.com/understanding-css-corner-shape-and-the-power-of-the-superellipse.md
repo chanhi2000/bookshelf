@@ -74,14 +74,14 @@ The`border-radius`property gave us the ability to easily create rounded corners 
   slug-hash="JodvZww"
   title="border-radius (Demo 01)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="JodvZww/837098643a428351a0b0d2455713cf55"
   title="border-radius (Demo 01)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 While it is a powerful and useful tool, sometimes we need something… different. This is where the new`corner-shape`property comes in, expanding our geometric vocabulary beyond just rounded corners.
 
@@ -105,14 +105,14 @@ CSS provides several predefined keywords for corner shapes:
   slug-hash="XJbqPOp"
   title="corner-shape (Demo 02)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="XJbqPOp/9b856108dde46db8b02244980b69016e"
   title="corner-shape (Demo 02)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 These keywords enable us to create diverse and visually interesting borders, without resorting to complex implementations, and allow us to easily produce simple geometric shapes like rhombuses, octagons, or plus signs (+).
 
@@ -146,14 +146,14 @@ These keywords enable us to create diverse and visually interesting borders, wit
   slug-hash="VYLdZZd"
   title="corner-shape (Demo 03)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="VYLdZZd/bbd001c77bfbebb24e63bbfc4b825b66"
   title="corner-shape (Demo 03)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 ::: note
 
@@ -182,14 +182,14 @@ This becomes particularly interesting when combined with `corner-shape`. The int
   slug-hash="XJbYrzz"
   title="corner-shape (Demo 04)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="XJbYrzz/15f16f64904524d05a35339a16094ac7"
   title="corner-shape (Demo 04)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 By using multiple values, we can create additional designs and shapes, like my all time favorite shape - hexagons. Now we can generate perfect hexagons with just a few simple lines of CSS. Using a `bevel` shape for the corners, and giving different values to the horizontal and vertical radii (50% and 25%).
 
@@ -211,14 +211,14 @@ By using multiple values, we can create additional designs and shapes, like my a
   slug-hash="ZYGREvm"
   title="corner-shape (Demo 05)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="ZYGREvm/de2c08a57d5718e849f23ce4014b3a6f"
   title="corner-shape (Demo 05)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 But `border-radius` is not the only one that can accept multiple values, `corner-shape` is a shorthand too, and can take up to 4 values, one for each corner. In this way, we can create even more unique shapes.
 
@@ -246,14 +246,14 @@ But `border-radius` is not the only one that can accept multiple values, `corner
   slug-hash="EajRNeL"
   title="corner-shape (Demo 06)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="EajRNeL/92167390cfccf21b7a6e3e1624ef21de"
   title="corner-shape (Demo 06)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 One of these shapes made me think of speech bubbles. We always needed a little help from pseudo-elements (and some hacking) to create an ‘arrow’ at the bottom of the element. Now, we can do it with a simple `border-radius`.
 
@@ -262,14 +262,14 @@ One of these shapes made me think of speech bubbles. We always needed a little h
   slug-hash="LEVJGNY"
   title="Corner-shape speech bubble"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="LEVJGNY/584cd2b4880cb44a259b94709a02ebf5"
   title="Corner-shape speech bubble"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 We can also declare just one specific corner, which can be particularly useful when we want to style just one corner differently, for example, to create space for a counter or a button at the corner of an element.
 
@@ -285,14 +285,14 @@ We can also declare just one specific corner, which can be particularly useful w
   slug-hash="OPVERed"
   title="corner-shape (Demo 07)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="OPVERed/e3894bfcee953823e4f3f957570d8a9e"
   title="corner-shape (Demo 07)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 ---
 
@@ -307,28 +307,28 @@ Just like the `border-radius`, you can also animate the `corner-shape` property 
   slug-hash="emNKKQG"
   title="corner-shape (Demo 08)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="emNKKQG/02d09eef94a14fccca933d82865ce881"
   title="corner-shape (Demo 08)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 <CodePen
   user="amit_sheen"
   slug-hash="wBaXXab"
   title="corner-shape (Demo 09)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="wBaXXab/fa315e386c81e2802de18d99c3f70c3c"
   title="corner-shape (Demo 09)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 ::: note
 
@@ -369,14 +369,14 @@ But if all this sounds a bit complicated, don’t worry, the CSS folks took care
   slug-hash="qEdKoNv"
   title="corner-shape (Demo 10)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   user="amit_sheen"
   slug-hash="qEdKoNv/182bf68a571bffc491c1209e2b0ae75a"
   title="corner-shape (Demo 10)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 Simple, right? But how?!
 

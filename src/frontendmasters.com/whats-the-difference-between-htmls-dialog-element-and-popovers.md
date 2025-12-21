@@ -290,7 +290,7 @@ This is all very cutting edge right now, so browser support is spotty, but both 
   slug-hash="NWQGjRv"
   title="Dialog vs Popover"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -99,7 +99,7 @@ The downside of this method is that the browser also needs to support Style Quer
   slug-hash="mdYNoRj"
   title="CSS @property feature detection (style queries)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -194,7 +194,7 @@ Check out [this demo (<VPIcon icon="fa-brands fa-codepen"/>`bramus`)](https://co
   slug-hash="gOJVExQ"
   title="CSS @property feature detection (style queries)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

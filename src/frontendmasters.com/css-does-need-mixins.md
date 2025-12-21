@@ -180,7 +180,7 @@ That works ([<VPIcon icon="iconfont icon-caniuse"/>where supported](https://cani
   slug-hash="gONpgVe"
   title="Style Query Mixin"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I just don’t love it. You have to set the Custom Property higher up in the nesting because container styles can’t style the thing they query. Plus now the true selector is a combination of the nesting and what’s in the container style query which is an awful brainbuster to keep track of.
 

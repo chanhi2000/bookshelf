@@ -67,7 +67,7 @@ In this post, we will re-work that hover effect, but also expand it into other t
   slug-hash="xxXNpBW"
   title="hover effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You can see the `background` properties at work in that demo, as well as how we can use custom properties and the `calc()` function to do even more. We are going to learn how to combine all of these so we are left with nicely optimized code!
 
@@ -78,7 +78,7 @@ You can see the `background` properties at work in that demo, as well as how we 
   slug-hash="NWXZWEa"
   title="Background Hover 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s start with the first effect which is the reproduction of the one detailed by Geoff in his article. The code used to achieve that effect is the following:
 
@@ -102,7 +102,7 @@ First, let’s start with a simple `background-size` transition:
   slug-hash="GROYeYQ"
   title="Background-size animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We are animating the size of a linear gradient from `0 100%` to `100% 100%`. That means the width is going from `0` to `100%` while the background itself remains at full height. Nothing complex so far.
 
@@ -170,7 +170,7 @@ To do this, we need to update the `background-position` on hover as well:
   slug-hash="wvPYZKN"
   title="Adding background-position"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We added two things to our code:
 
@@ -231,7 +231,7 @@ We still have three declarations and one custom property, but a different effect
   slug-hash="podxBrj"
   title="The opposite hover effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Before we move to the next hover effect, I want to highlight something important that you have probably noticed. When dealing with custom properties, I am using `0%` (with a unit) instead of a unit-less `0`. The unit-less zero may work when the custom property is alone, but will fail inside `calc()` where we need to explicitly define the unit. I may need another article to explain this quirk but always remember to add the unit when dealing with custom properties. I have two answers on StackOverflow ([<VPIcon icon="fa-brands fa-stack-overflow"/>here](https://stackoverflow.com/a/55406181/8620333) and [<VPIcon icon="fa-brands fa-stack-overflow"/>here](https://stackoverflow.com/a/62523544/8620333)) that go into more detail.
 
@@ -242,7 +242,7 @@ Before we move to the next hover effect, I want to highlight something important
   slug-hash="eYywmzo"
   title="Background Hover 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We need a more complex transition for this effect. Let’s take a look at a step-by-step illustration to understand what is happening.
 
@@ -297,7 +297,7 @@ And here’s what we get:
   slug-hash="JjOeXaz"
   title="Hover Effect 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s time to optimize our code. If we take the ideas we learned from the first hover effect, we can use shorthand properties and write fewer declarations to make this work:
 
@@ -359,7 +359,7 @@ Again, we’re back to only three declarations for a pretty cool hover effect!
   slug-hash="RwjqRBZ"
   title="Final hover effect 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Hover effect #3
 
@@ -418,7 +418,7 @@ I have added an extra custom property, `--c`, that defines the gradient since th
   slug-hash="XWzyEjG"
   title="Hover effect 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I am using `50.1%` in that demo instead of `50%` for the background size because it prevents a gap from showing between the gradients. I also added `1%` to the positions for similar reasons.
 
@@ -442,7 +442,7 @@ Let’s do the second optimization by using the switch variable:
   slug-hash="rNYQvYL"
   title="Final hover effect 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Are you started to see the patterns here? It’s not so much that the effects we’re making are difficult. It’s more the “final step” of code optimization. We start by writing verbose code with a lot of properties, then reduce it following simple rules (e.g. using shorthand, removing default values, avoiding redundant values, etc) to simplify things down as much as possible.
 
@@ -453,7 +453,7 @@ Are you started to see the patterns here? It’s not so much that the effects we
   slug-hash="XWVLJQX"
   title="Background Hover 4"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I will raise the difficulty level for this last effect, but you know enough from the other examples that I doubt you’ll have any issues with this one.
 
@@ -556,7 +556,7 @@ Here’s what we get after optimizing them like the previous examples:
   slug-hash="gOXZWJa"
   title="Hover effect 4"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 > What about the version with only one custom property?
 
@@ -569,7 +569,7 @@ Before we end, let me share a version of that last hover effect that [Ana Tudor 
   slug-hash="PoOYjJN"
   title="Cool hover effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Wrapping up
 

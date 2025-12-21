@@ -127,7 +127,7 @@ That’s just one possible implementation where you essentially define your own 
   slug-hash="LEYRzMz"
   title="attr() with columns"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -140,7 +140,7 @@ Just naming a color you want to use is nice!
   slug-hash="VYwKyGe"
   title="Using attr() for Colors"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This example highlights a nicety of having the additional “layer” of CSS to handle things, as opposed to very direct inline styles. Here I’m not just setting *one* color, but I’m using the color given for the actual `color`, then taking that same color and `color-mix()`ing in some black to use as the background color.
 
@@ -151,7 +151,7 @@ To highlight the control you have even more, we could use `min()` and `max()` va
   slug-hash="MYWjGzz"
   title="Using attr() and limiting colors"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Above the dot before each line is the actual color being set as an attribute, but then when we use it to color a word in the line, we’re converting the color to `oklch()` and ensure the “l” part (lightness) has a minimum value of `0.9` (with `max(l, 0.9)`) to ensure that.
 
@@ -166,7 +166,7 @@ Setting a `data-font-size` is easy peasy. But here I’ll jump forward to the �
   slug-hash="zxYKaxO"
   title="Using attr() for font-size"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

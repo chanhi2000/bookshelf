@@ -84,7 +84,7 @@ Using modern CSS, you can create a sequential animation that involves an unknown
   slug-hash="dPYRzKq"
   title="Sequential Animations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

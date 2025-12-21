@@ -256,7 +256,7 @@ Try it for yourself:
   slug-hash="preview/OPPYQjZ"
   title="Mike Worth’s dialog"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

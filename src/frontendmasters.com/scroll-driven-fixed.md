@@ -104,7 +104,7 @@ Here’s that basic setup:
   slug-hash="JoPNEjB"
   title="Simple Fixed Spinner"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <BaselineStatus featureid="scroll-driven-animations" />
 
@@ -117,7 +117,7 @@ I’ll use the same spirit here to have a whole grid of cells use that “scale 
   slug-hash="zxOqqpx"
   title="Here's Johnny - Scroll Driven Animations"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I think that hidden picture thing is fun! I’m imagining a game where you have to guess the picture by scrolling down *as little as possible*. Like “name that tune” only “name that movie still” or whatever.
 
@@ -128,7 +128,7 @@ In this next one I took the idea a bit further and create randomized positions f
   slug-hash="YPKqqaV"
   title="You Win - Scroll Driven Animations - Different Take"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I find that extraordinary that that kind of interaction can be done in HTML and CSS these days.
 

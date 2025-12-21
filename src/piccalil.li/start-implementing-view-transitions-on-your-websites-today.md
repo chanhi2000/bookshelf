@@ -344,7 +344,7 @@ Try out this demo. When you apply sorting, the in-and-out animations are not tri
   slug-hash="ByyJqmy"
   title="View transitions sorting and filtering"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is pretty cool for filtering, but also when you want to transition from an overview to a detail page or back like I did [<VPIcon icon="fas fa-globe"/>for this website I created](https://cydstumpel.github.io/view-transitions/css-day/) for my [<VPIcon icon="fas fa-globe"/>CSS Day Talk](https://conffab.com/presentation/css-tried-to-come-for-my-job-a-practical-guide-to-view-transitions-for-creative-developers/?gl=T4jnT1uwe51o). In this talk I also mentioned we’re currently not able to use `:has` to check if a group has both view-transition-old and -new elements, because this would allow us to set a higher `z-index` on items that have both, and push them in front of the other elements. But complaining on a stage helps because that’s now [been added as an issue (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/12630)!
 
@@ -361,7 +361,7 @@ If you want to follow along when they **will** support that, you can check [<VPI
   slug-hash="EaPbbgx"
   title="View Transitions Feature Explorer"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

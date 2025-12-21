@@ -75,7 +75,7 @@ Here’s a simple demo:
   slug-hash="GRJpopp"
   title="scroll-margin-top and fixed headers"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In a related vein, that weird (but cool) “text fragments” link that Chrome shipped takes you to [the middle of the page (<VPIcon icon="fa-brands fa-x-twitter"/>`chriscoyier`)](https://twitter.com/chriscoyier/status/1225199469446090752) instead, which I think is nice.
 

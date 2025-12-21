@@ -59,7 +59,7 @@ I recently wrote a [**Guide to CSS Color Functions**](/css-tricks.com/css-color-
   slug-hash="empgXNp"
   title="color interpolation example"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Did you notice how `oklch(80% 0.3 340)` interpolates to `oklch(80% 0.3 60)`, then to `oklch(80% 0.3 180)`, then to `oklch(80% 0.3 270)` and back to `oklch(80% 0.3 340)` using CSS animation? Well, I did! And that’s just a powerful use of interpolation.
 
@@ -122,7 +122,7 @@ This same syntax appears in all gradient functions, where colors are interpolate
   slug-hash="VYvbeaG"
   title="What you need to know about Color Interpolation - Example"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s backtrack a little, though. Interpolation can occur in two major color spaces: **rectangular** and **polar**.
 
@@ -192,7 +192,7 @@ If `shorter` is used, the browser takes the *shorter* route (`120deg`). Otherwis
   slug-hash="dPYMpMv"
   title="hue interpolation methods: shorter vs longer"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This offers up a nice and unique blend of colors depending on your preferences. Hue interpolation is useful in creating smooth color transitions and gradients, giving plenty of life to the websites using *color*.
 
@@ -215,7 +215,7 @@ Since `increasing` means the clock’s minute hand is constantly moving forward,
   slug-hash="RNWaGLQ"
   title="hue interpolation methods: increasing vs decreasing"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -242,7 +242,7 @@ background: conic-gradient(
   slug-hash="JoYrjjz"
   title="color interpolation: CSS conic-gradient() example"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Notice how the hue blends smoothly between each color stop point? It’s beautiful.
 
@@ -263,7 +263,7 @@ background-color: color-mix(in oklch longer hue, rgb(255 0 0) 50%, lch(60% 40% 2
   slug-hash="YPyrjxX"
   title="color interpolation: CSS color-mix() example"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 A great advantage of `color-mix()` is that you gain the ability to mix colors in different color spaces within another color space, thereby producing a unique color. Again, it’s moving from one color into another and the direction we take for mixing colors matters.
 
@@ -287,7 +287,7 @@ We can animate the transition between colors! So, instead of mixing two specific
   slug-hash="PwPJqNr"
   title="color interpolation: CSS animation example"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info References
 

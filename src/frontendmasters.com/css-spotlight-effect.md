@@ -70,7 +70,7 @@ I recently made [an experiment (<VPIcon icon="fa-brands fa-codepen"/>`amit_sheen
   slug-hash="gbbzbeR"
   title="Proximity Reactions (CSS version)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That got me thinking: if we can get the mouse position in CSS so easily, what else can we build with that? I started tinkering, trying out different interaction patterns, and eventually got to this**Spotlight Effect** that’s easy to create, simple to customize, and looks surprisingly slick, all with just a few lines of CSS.
 
@@ -125,7 +125,7 @@ Here is the result:
   slug-hash="azzaVzv"
   title="Spotlight effect (demo 01)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To make the effect feel a bit lighter, I also added a touch of`opacity`. I think it creates a more layered and subtle look. More importantly, I set`pointer-events: none`on the`.spotlight`element. Since this layer sits above everything else in the DOM, we want to make sure it does not block any user interaction with the elements below it. Without this, buttons, links, and other interactive parts of the page would become unresponsive.
 
@@ -189,7 +189,7 @@ And the full blob effect:
   slug-hash="GggXOMG"
   title="Spotlight effect (demo 02)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -235,7 +235,7 @@ The first layer defines the moving mask (just like before), and the next two lay
   slug-hash="azzaXgz"
   title="Spotlight effect (demo 03)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 All of the values in the last two examples (color stops, gradient sizes and positions, blur and contrast settings, and more) can be tweaked to create**wildly**different effects. I spent a lot of time experimenting before landing on these particular numbers, and I encourage you to do the same. Go ahead and fork one of the demos, adjust the gradients, play with the filter values, and see where your creativity takes you. And if you discover something cool, don’t forget to send it my way.
 
@@ -264,7 +264,7 @@ You can comment out the`background-position`to see its affect, and feel free to 
   slug-hash="LEEgVyw"
   title="Spotlight effect (demo 04)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: tip
 
@@ -285,7 +285,7 @@ Remember these values can be used for anything. They’re just variables, and th
   slug-hash="myyzJoW"
   title="Spotlight effect (demo 05)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 With just two custom properties, you’re suddenly controlling not only movement, but also style and intensity. You could just as easily hook the mouse into opacity, gradient angles, or any part of the effect you want to feel dynamic. What would you change in your effect?
 
@@ -317,7 +317,7 @@ In terms of styling, there are a few ways to disable the effect. You could scale
   slug-hash="gbbBaeK"
   title="Spotlight effect (demo 06)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -332,7 +332,7 @@ Turns out it’s pretty straightforward. All we need to do is invert the colors 
   slug-hash="raaQRWP"
   title="Spotlight effect (demo 07)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Of course, these values don’t have to be hard coded. You can define the colors and blend mode using CSS custom properties, giving you full control over the theme. Better yet, we can respond to user preferences using the`light-dark()` function and the`prefers-color-scheme`query to decide whether to use a light or dark spotlight effect.
 
@@ -360,7 +360,7 @@ This approach not only makes your spotlight more flexible, but also keeps it ali
   slug-hash="jEEQoRG"
   title="Spotlight effect (demo 08)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -377,7 +377,7 @@ You*can*try changing the colors to something like purple or teal, but it will al
   slug-hash="ZYYVZPW"
   title="Spotlight effect (demo 09)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -441,7 +441,7 @@ Before we wrap up, here is a quick demo that brings together most of what we exp
   slug-hash="wBBNrYa"
   title="Spotlight effect (demo 10)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

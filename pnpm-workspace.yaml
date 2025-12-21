@@ -1,6 +1,62 @@
 packages:
   # all packages in subdirs of packages/
-  - "shared"
+  - "shared-vuepress/"
   - "docs/*"
   # if you have other directories, you can add them too
   # - 'components/*'
+catalog:
+  vue: 3.5.25
+  axios: 1.7.7
+  tsx: 4.21.0
+  typescript: 5.9.3
+  cpx2: 8.0.0
+  concurrently: 9.2.1
+
+catalogs:
+  range:
+    fs-extra: ^11.2.0
+    sass: ^1.93.3
+    sass-embedded: ^1.93.3
+    sass-loader: ^16.0.6
+    baseline-status: ^1.1.1
+    chart.js: ^4.4.3
+    cross-env: ^7.0.3
+    dashjs: ^4.7.4
+    echarts: ^6.0.0
+    flowchart.ts: ^3.0.0
+    hls.js: ^1.4.12
+    kotlin-playground: ^1.30.0
+    mermaid: ^11.12.0
+    vidstack: ^1.11.29
+
+  vuepress:
+    vuepress: 2.0.0-rc.26
+    "@vuepress/bundler-vite": 2.0.0-rc.26
+    "@vuepress/plugin-register-components": 2.0.0-rc.118
+    "@vuepress/helper": 2.0.0-rc.120
+    "@vuepress/plugin-photo-swipe": 2.0.0-rc.120
+    "@vuepress/plugin-prismjs": 2.0.0-rc.120
+    vuepress-theme-hope: 2.0.0-rc.99
+    vuepress-plugin-markdown-define2: ^1.0.0
+
+  bookshelf:
+    "@bookshelf/root": 0.2.9
+    "@bookshelf/shared-vuepress": 0.2.9
+    "@bookshelf/css-tricks": 0.2.9
+    "@bookshelf/freecodecamp": 0.2.9
+    "@bookshelf/hackingwithswfit": 0.2.9
+    "@bookshelf/realpython": 0.2.9
+    "@bookshelf/smashingmagazine": 0.2.9
+    "@bookshelf/yozm": 0.2.9
+onlyBuiltDependencies:
+  - "@parcel/watcher"
+  - esbuild
+  - unrs-resolver
+
+overrides:
+  esbuild: ^0.27.1
+  react: ^19.2.3
+
+peerDependencyRules:
+  allowedVersions:
+    echarts-wordcloud@2>echarts: ^6.0.0

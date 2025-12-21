@@ -167,7 +167,7 @@ Because SVG integrates seamlessly with HTML, it supports inline CSS styling. Her
   slug-hash="vYPyXxb"
   title="SVG Inline Styles"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The second method for applying styles to an SVG involves using the CSS `@import` rule. This rule is placed within the `<style>` tag inside the SVG to reference and import an external CSS stylesheet. You can refer to [this example in the GitHub repo (<VPIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/blob/main/styling-svg/svg-external-styles.html) for a clearer understanding, which looks something like the code below:
 
@@ -221,7 +221,7 @@ The next approach involves writing styles directly within the SVG, but enclosing
   slug-hash="GReoyOm"
   title="Styled SVG"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The fourth method involves writing styles for SVG files in an external CSS file consumed in the documents that include these SVG files. Consequently, SVGs automatically get styled depending on the document in which they are being used.
 
@@ -325,7 +325,7 @@ A working demonstration of the above explanation can be found below. If you wish
   slug-hash="KKEaPzv"
   title="Animated SVG Hamburger Menu with CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Rotating loader or spinner
 
@@ -425,7 +425,7 @@ Let’s explore another loader with a pulsating effect by morphing `rect` elemen
   slug-hash="XWGNjVV"
   title="Rotating Loading SVG Icon with Gradient Animated with CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Each bar shares the same animation with different delays in the CSS part. Begin with assigning a fill color and setting the transformation origin to the center for synchronized animation on both the top and bottom bars:
 
@@ -475,7 +475,7 @@ Scale each bar slightly below its height on the y-axis, then back to normal with
   slug-hash="OJqbRvP"
   title="SVG Loading Bars Animated with CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And that’s it! Feel free to adjust the timings, colors, and transition functions to personalize it and make it your own. This is how the morphing bar animation will appear on your app:
 
@@ -550,7 +550,7 @@ In the animation section, we can create a CSS keyframe to transition `stroke-das
   slug-hash="XWGRoOK"
   title="Line-drawing Animation with SVG & CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```css
 @keyframes draw {
@@ -623,7 +623,7 @@ Check out the working demonstration in the CodePen below, and find the [complete
   slug-hash="WNmooKz"
   title="Melting Popsicle SVG Animated with CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Fade-in-out text
 
@@ -655,7 +655,7 @@ Then, it’s easy to set up a keyframe animation for toggling text opacity and b
   slug-hash="LYaxWem"
   title="Blinking SVG Text with CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Another example involves animating the text letter by letter with fade-in-out using `tspan` SVG elements inside the `text` element. Each `tspan` can be targeted for different animations with delays. See the modified SVG below for this change:
 
@@ -706,7 +706,7 @@ The initial opacity for each `tspan` is set to 0%, and then we can add a strateg
   slug-hash="yLwXpjW"
   title="Blinking Character Animation with SVG and CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Find the full code for this [example here in the GitHub repo (<VPIcon icon="iconfont icon-github"/>`c99rahul/svg-css-animations`)](https://github.com/c99rahul/svg-css-animations/tree/main/blinking-chars). For such animations, be aware of the text string’s character count to set up CSS accordingly. While this can be achieved more efficiently with JavaScript, it is beyond the scope of this tutorial.
 
@@ -745,7 +745,7 @@ We’ve made the text move upwards at certain intervals and brought it down at o
   slug-hash="PoLjEMd"
   title="Wavy Text Animation with SVG and CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 By taking this approach, we have traded the automatic character alignment provided by `tspan` for the manual alignment of each character using the `x` attribute, which isn’t very efficient. Effects like this call for a more effective solution or tool, some of which are discussed in the next section.
 

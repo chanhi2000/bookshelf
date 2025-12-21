@@ -80,7 +80,7 @@ A big image + thumbnails using CSS Grid. Same code for both the horizontal and v
   slug-hash="xxLYLNW"
   title="Big Image + thumbnails"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More detail
 

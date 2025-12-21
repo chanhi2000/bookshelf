@@ -90,7 +90,7 @@ This isn’t about changing what your elements look like. It’s about changing 
   link="https://codepen.io/amit_sheen/pen/PwPEVKd/a2152f7300dc56833f6b432fda1840de"
   title="offset-path - Heart"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 
@@ -112,7 +112,7 @@ This difference becomes clear when you see multiple elements following the same 
   link="https://codepen.io/amit_sheen/pen/QwjaYzW/f369d96299537f57a61d878d1adda184"
   title="offset-path - Basic inset"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -141,7 +141,7 @@ This makes motion paths highly parameterized and easy to orchestrate, and this f
   link="https://codepen.io/amit_sheen/pen/gbaoVKR/3547510b837489a252766f70e337af96"
   title="offset-path - custom properties"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 
@@ -198,7 +198,7 @@ Of course, the animation doesn’t have to be linear from 0 to 100. You can move
   link="https://codepen.io/amit_sheen/pen/dPYdbMW/1907074f3b87ef255044edf3544dd68f"
   title="offset- distance"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 
@@ -216,7 +216,7 @@ But you’re not limited to keyframe animations. You can also use `transition`�
   link="https://codepen.io/amit_sheen/pen/GgpQKNx/056532451c30f6eb3d3790b0e67a7ff6"
   title="offset-distance - Interactive Movement"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -230,7 +230,7 @@ The `offset-anchor` property lets you specify which point on your element gets
   link="https://codepen.io/amit_sheen/pen/vENdNZP/d26ca8fd4ab5d0b22be4a086470af86a"
   title="offset- anchor"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -244,7 +244,7 @@ This is particularly important when you’re using path functions that don’t s
   link="https://codepen.io/amit_sheen/pen/XJmYKRm/b7627606c2c484f39393b3a1bc574990"
   title="offset-position"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 With `offset-position: auto`, the path uses the element’s **own box position** as the path’s origin. With something like `offset-position: 60px 90px`, the path starts from that specific position within the containing block, regardless of where the element itself is positioned.
 
@@ -264,7 +264,7 @@ Here’s a perfect example to illustrate the different rotation behaviors. Four 
   link="https://codepen.io/amit_sheen/pen/GgpQpwg/8741f2f3ec8799b0b0baa197edee9478"
   title="offset-rotate"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The red arrow uses the standard `auto` behavior, always pointing in the direction of travel. The green arrow ignores the path direction entirely with a fixed `60deg` rotation. The cyan arrow combines both approaches with `auto 30deg`, following the path but with an additional 30-degree offset. And the purple arrow uses `reverse`, pointing backward along the path as if it’s being pulled rather than leading.
 
@@ -286,7 +286,7 @@ This layering is crucial because it means `offset-path` transforms are applied
   link="https://codepen.io/amit_sheen/pen/zxvRrPX/4fe4f095c5ef299945d7485bdc1ea4c0"
   title="offset-path - Working With Transforms"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The first three use the individual transform properties: one `translate`, one `rotate`, one `scale`. The other three use the `transform` property: one `translate()`, one `rotate()`, one `scale()`. Because the individual transform properties run before the offset transform and the `transform` property runs after it, you get six different visual results from the same path.
 
@@ -314,7 +314,7 @@ In contrast, functions like `path()` and `shape()` give you explicit control
   link="https://codepen.io/amit_sheen/pen/azvKWNX/8bcba42e699a22e9dfd94256a02ede4b"
   title="offset-path - Closed vs Open Paths"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this example, all three shapes follow a similar path with just two lines, forming an inverted V shape. You can see that both the `polygon()` and the closed `path()` treat the gap between the last and first points as part of the path, even though it’s not explicitly defined that way. The middle `path()` remains open, so when it reaches the endpoint, it jumps directly back to the start.
 
@@ -332,7 +332,7 @@ Open paths behave very differently. Here, distance values get clamped to the 0-1
   link="https://codepen.io/amit_sheen/pen/MYaXoRK/c6c632e5fe4803e632afbfe92d55d8c2"
   title="offset-path - Negative and Overflow Distances"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this demo, you can play with the distance slider, which gives you a range from -50% to 150%, and see how the different paths respond.
 
@@ -373,7 +373,7 @@ If we take this exact path, use it to move some circles, add some styling and pe
   link="https://codepen.io/amit_sheen/pen/yyYEzdZ/a77a80a118cd151b140966da64b3e77c"
   title="offset-path - snake of balls"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -401,7 +401,7 @@ There are five keywords in total: `closest-side`, `closest-corner`, `farthest
   link="https://codepen.io/amit_sheen/pen/raOKdNX/163273867c91b17b2d1b5111beb3fe0a"
   title="offset-path - ray()"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Notice that `sides` always stays constant, because it represents the distance to the element’s edge, regardless of the ray’s angle.
 
@@ -411,7 +411,7 @@ Here’s an example that uses the `sides` keyword. Here too, the mouse cursor 
   link="https://codepen.io/amit_sheen/pen/pvjKLLM/983229b6e05f87c70b0cf35c35cdb8e5"
   title="offset-path - ray() stars"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 What makes `ray()` particularly interesting is that it’s always an open path, but unlike other open paths, there’s no defined endpoint. When you animate beyond 100%, the element just keeps traveling in that direction indefinitely. This makes it perfect for creating elements that fly off screen, laser effects, or directional animations that need to feel endless.
 

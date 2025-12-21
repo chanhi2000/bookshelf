@@ -446,7 +446,7 @@ Those semi-transparent font edge pixels placed on top of the semi-transparent ba
   slug-hash="MYWoVKB"
   title="no alpha increase on inline background overlap #5a: fancy palette, dynamic alpha fix"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I guess a simple fix for that would be to only map to the desired alpha`a`the smallest number of alpha points possible and let all others keep their initial alpha. This would mean that the first alpha point we map to the desired alpha`a`is equal to it or the nearest smaller than it, while the last one is equal to the overlap alpha`2*a - a*a`or the nearest bigger than it.
 
@@ -478,7 +478,7 @@ Probably ensuring the values outside the interval mapped to`a`are evenly distrib
   slug-hash="QwWgxMG"
   title="no alpha increase on inline background overlap #5b: fancy palette, better dynamic alpha fix"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But you may have noticed there’s still a problem and this is not an SVG`filter`one, it comes from the CSS.
 
@@ -491,7 +491,7 @@ To make it more obvious, let’s put result right next to what we got via the ea
   slug-hash="qEBjwzx"
   title="no alpha increase on inline background overlap #6: comparisons"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you can’t spot it in the recording above, how about when we have a diagonal middle split in between the result we get when we bake into the filter all RGBA values and the result we get with this alpha fix method via`feComponentTransfer`?
 
@@ -508,7 +508,7 @@ A lot of text and background combinations don’t make this very obvious because
   slug-hash="jEOwgoP"
   title="no alpha increase on inline background overlap #7: various palettes for dynamic alpha fix"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 All of these palettes were chosen to have a good contrast ratio. Even so, there is some degree of text fading*for all of them*. And while it’s not easy to spot that for the first five, it’s way more noticeable for the second to last one and almost impossible to miss for the final one.
 
@@ -1138,7 +1138,7 @@ This is our final result!
   slug-hash="XJWaMMb"
   title="inline semitransparent text background with no overlap #8b"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This allows us to have full control from the CSS over the text and background RGB, as well as over the background alpha, without needing to hardcode any of them in the SVG`filter`, which means we don’t need a different SVG`filter`if we want to set a different value for any of them on one o the elements the filter is applied to.
 
@@ -1151,7 +1151,7 @@ The following demo has different text and background combinations for each parag
   slug-hash="EaxmJag"
   title="inline semitransparent text background with no overlap #8c"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

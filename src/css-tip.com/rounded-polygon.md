@@ -82,7 +82,7 @@ $_r: 50%*math.cos(180deg/$n)/math.cos((180deg/$n*(1 - $r)));
   slug-hash="xbbxMdg"
   title="Polygon shapes with rounded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here is another version with CSS variables in case you want to control the radius and rotation on the CSS side:
 
@@ -117,7 +117,7 @@ $n: 7; /* number of sides*/
   slug-hash="KwwKVZr"
   title="Polygon shapes with rounded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

@@ -69,7 +69,7 @@ View Transitions is a great way to handle animating this menu open. I won’t be
   slug-hash="GRVvgLR"
   title="View Transition Staggers with Sass"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That works in all browsers ([<VPIcon icon="fas fa-globe"/>see support](https://caniuse.com/view-transitions)). It animates (with staggering) in Chrome and Safari, and at this time of this writing, just instantly opens and closes in Firefox (which is fine, just less fancy).
 
@@ -301,7 +301,7 @@ Faking that with Sass if fun!
   slug-hash="JjgrNLx"
   title="View Transition Staggers with Sass + Random"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Sibling Count is Useful Too
 
@@ -312,7 +312,7 @@ Sometimes you need to know *how many* items there are also, so you can control t
   slug-hash="LYEEKMQ"
   title="sibling-count() and sibling-index() fade example"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 One line above could be written removing the need for custom properties:
 
@@ -335,7 +335,7 @@ I just noticed while working on this particular demo that during a view transiti
   slug-hash="XWveRxx"
   title="View Transition Staggers with Sass Overflow Issue"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Don’t love that, but I’m sure there are huge tradeoffs that I’m just not aware of. I’ve been told this is actually a desirable trait of view transitions 🤷.
 

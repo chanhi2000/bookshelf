@@ -104,7 +104,7 @@ With this combo we can make stroked text tolerable:
   slug-hash="emYKxWM"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Just putting that fill on top can fix some different awkward situations. Here’s Adam Argyle showing how a `text-shadow` can really interfere, and then fixing it by forcing that fill layer back on top again.
 
@@ -113,7 +113,7 @@ Just putting that fill on top can fix some different awkward situations. Here’
   slug-hash="MWoeoKV"
   title="Super CSS World - a paint-order demo"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Wes Bos showed this off, layering on some `text-shadow` stuff as well, which resulted in a great look:
 
@@ -124,7 +124,7 @@ I had a play as well, and I really like the combination of being able to use a t
   slug-hash="mdNgVvR"
   title="Layered Text - Music Stuff Giveaway"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You could have a play with this one, adding more text shadows or adjusting colors or whatever to get a nice look.
 
@@ -133,7 +133,7 @@ You could have a play with this one, adding more text shadows or adjusting color
   slug-hash="xbxzLxq"
   title="Layered Text 2"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Perhaps goes without saying but I’ll say it anyway: thicker typefaces are going to generally work better with this.
 

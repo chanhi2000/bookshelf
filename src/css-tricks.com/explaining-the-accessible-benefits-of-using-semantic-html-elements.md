@@ -73,7 +73,7 @@ Let’s compare the two approaches:
   slug-hash="JoGMdLz"
   title="Div vs. Button"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Did you know that you can inspect the semantics of these directly in DevTools? I’m ashamed to admit that I didn’t before watching Sara’s course.
 
@@ -96,7 +96,7 @@ I don’t get that reasoning when all it take to reset a button’s styles is a 
   slug-hash="jEWZrgX"
   title="Div vs. Button"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 From here, we can use the exact same class to get the exact same appearance:
 
@@ -105,7 +105,7 @@ From here, we can use the exact same class to get the exact same appearance:
   slug-hash="XJXZjbJ"
   title="Div vs. Button: Unset Styles"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 What seems like more work is the effort it takes to re-create the same built-in benefits we get from a semantic `<button>` specifically for a `<div>`. Sara’s course has given me the exact language to put words to the code smells:
 

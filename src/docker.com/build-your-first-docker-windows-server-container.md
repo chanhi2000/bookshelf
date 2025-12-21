@@ -52,7 +52,7 @@ cover: https://docker.com/app/uploads/docker-for-windows-switch.gif
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/docker-for-windows-switch.gif"/>
 
-Today, Microsoft announced the general availability of Windows Server 2016, and with it, Docker engine running containers natively on Windows. This blog post describes how to get setup to run Docker Windows Containers on Windows 10 or using a Windows Server 2016 VM. Check out the companion [**blog posts on the technical improvements**](/docker.com/dockerforws2016.md) that have made Docker containers on Windows possible and the [**post announcing the Docker Inc. and Microsoft partnership**](/docker.com/docker-microsoft-partnership.md).
+Today, Microsoft announced the general availability of Windows Server 2016, and with it, Docker engine running containers natively on Windows. This blog post describes how to get setup to run Docker Windows Containers on Windows 10 or using a Windows Server 2016 VM. Check out the companion [**blog posts on the technical improvements**](/docker.com/dockerforws2016.md) that have made Docker containers on Windows possible and the post announcing the Docker Inc. and Microsoft partnership.
 
 Before getting started, It’s important to understand that Windows Containers run Windows executables compiled for the Windows Server kernel and userland (either windowsservercore or nanoserver). To build and run Windows containers, a Windows system with container support is required.
 

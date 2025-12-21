@@ -72,7 +72,7 @@ Better `position: sticky;` support is [<VPIcon icon="iconfont icon-caniuse"/>on 
   slug-hash="JbdJRZ"
   title="Sticky positioning"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As you can see in that demo, it’s a decent candidate for progressive enhancement, as if you don’t see the sticky header feature, it’s no big deal.
 

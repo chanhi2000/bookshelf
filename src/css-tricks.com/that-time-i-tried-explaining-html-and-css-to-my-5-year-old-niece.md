@@ -89,7 +89,7 @@ Her eyes were glued on the screen as I refreshed my browser, a few texts appeare
   slug-hash="zxqzzvJ"
   title="School Project Draft"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 She was getting it! No, she couldn’t read the code. But she could see the connection between the house and LEGO pieces that gave it structure.
 
@@ -116,7 +116,7 @@ I explained to her that those elements behave more like rooms and doorways than 
   slug-hash="jEqwmgm"
   title="My Digital House - HTML"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -135,7 +135,7 @@ A width. A height. And a border. That’s all it takes to add a little shape.
   slug-hash="LENWMBQ"
   title="Just a box."
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I know there is probably a more “academic” way to teach CSS. For example, [<VPIcon icon="fas fa-globe"/>writing modes are probably an excellent starting point](https://rachelandrew.co.uk/archives/2018/10/04/the-way-we-talk-about-css/) to get into directionality and positioning before a single splash of color is on the page. That’s all fine and whatnot, but all of that is gibberish to a five-year old. I can’t even get into things like `aspect-ratio` without first getting into the basic `width` and `height`. Those fancy things can wait for now.
 
@@ -146,7 +146,7 @@ What I was looking for was an [**“A-ha!” moment**](/css-tricks.com/moment-cs
   slug-hash="azNwwoa"
   title="My DIgital House CSS Outline"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It wasn’t much, of course: a little triangle that looked like a roof, a square pretending to be a wall, two tiny squares for windows, and a skinny rectangle that I guess could be a door. It looked like something you draw fast with a dull pencil. Regardless, my niece leaned in right away, almost bumping her forehead on the screen.
 
@@ -164,7 +164,7 @@ I added a little color to the house. And that’s when things started to click.
   slug-hash="ZYQvXdM"
   title="My Digital House"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```md
 **Niece:** So this brick says what is there.  

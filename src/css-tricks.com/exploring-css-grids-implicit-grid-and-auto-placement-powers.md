@@ -91,7 +91,7 @@ Through different use cases, we are going to see how such features can help us c
   slug-hash="NWYPpEB"
   title="implicit grid #1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here, we have three different layouts but we only have one grid configuration that works for all of them.
 
@@ -109,7 +109,7 @@ Only one column is taking up all the free space. This is our “explicit” grid
   slug-hash="LYdWGzG"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But what if we decided to drop another element in there, say an `aside` (our dynamic sidebar). As it’s currently (and explicitly) defined, our grid will have to adjust automatically to find a place for that element. And if we do nothing else with our CSS, here’s what DevTools tells us is happening.
 
@@ -128,7 +128,7 @@ aside {
   slug-hash="PoRpZbj"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And here’s what DevTools tells us now:
 
@@ -159,7 +159,7 @@ We can do the same thing more easily using the `grid-auto-flow` property to set 
   slug-hash="bGvNxbW"
   title="Implicit grid #2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now there’s no need to specify `grid-column-start` to place the `<aside>` element to the right of the `<section>`! In fact, any other grid item we decide to throw in there at any time will now flow in a column direction, each one placed in its own implicit grid tracks. Perfect for situations where the number of items in the grid isn’t known in advance!
 
@@ -172,7 +172,7 @@ I know, I know. That’s a little convoluted. Here is another example we can use
   slug-hash="bGvNxNW"
   title="with/without grid-column-end"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In the first example, we didn’t specify any placement. In this case, the browser will first place the `<aside>` element in the explicit column since it comes first in the DOM. The `<section>`, meanwhile, is automatically placed in the grid column the browser automatically (or implicitly) creates for us.
 
@@ -195,7 +195,7 @@ Let’s try something different with a grid of images where we have a big image 
   slug-hash="xxLYLNW"
   title="Big Image + thumbnails"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We have two grid configurations. But guess what? I am not defining any grid at all! All I am doing is this:
 
@@ -299,7 +299,7 @@ Even better: let’s set that up as a custom property to make things even easier
   slug-hash="YzaPOrW"
   title="Variable grid with thumbnail"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ## Dynamic layouts
 
@@ -310,7 +310,7 @@ The first use case with the sidebar was our first dynamic layout. Now we will ta
   slug-hash="yLKyxWr"
   title="Dynamic layout #1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this example, we can have anywhere from one to four elements where the grid adjusts in way that nicely fits the number of elements without leaving any awkward gaps or missing spaces.
 
@@ -341,7 +341,7 @@ Let’s try another one:
   slug-hash="YzaPJKQ"
   title="Dynamic layout #2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We’re doing nothing for the first and second cases where we have only one or two elements. When we add a third element, though, we tell the browser that — as long as it’s the `:last-child` — it should span two columns. When we add a fourth element, we tell the browser that element needs to be placed in the second column.
 
@@ -366,7 +366,7 @@ It should be noted that the sizing will not be the same when we work with differ
   slug-hash="poLvBJa"
   title="different content"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Since we didn’t define any sizes for our items, the browser automatically sizes them for us based on their contents and we may end up with different sizing than what we just saw. To overcome this, we have to *explicitly* specify that all the columns and rows are equally sized:
 
@@ -384,7 +384,7 @@ Hey, we haven’t played with those properties yet! [<VPIcon icon="iconfont icon
   slug-hash="wvmBZoe"
   title="same size items"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here is another example where we can go up to six elements. This time I will let you dissect the code. Don’t worry, the selectors may look complex but the logic is pretty straightforward.
 
@@ -393,7 +393,7 @@ Here is another example where we can go up to six elements. This time I will let
   slug-hash="JjLomYR"
   title="Dynamic layout #3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Even with six elements, we only needed two declarations. Imagine all the complex and dynamic layouts we can achieve with a few lines of code!
 
@@ -422,7 +422,7 @@ This sort layout can be difficult too pull off without knowing exactly how much 
   slug-hash="YzaPJVY"
   title="Alternate CSS grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Take a peek at the code. It may look complex but let’s break it down because it winds up being pretty straightforward.
 
@@ -554,7 +554,7 @@ We can do that! Here’s the code for it:
   slug-hash="ExEazLZ"
   title="Another alternative"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As you can see, the code is definitely more intuitive. We define three explicit grid columns and we tell the browser that the first and fourth elements need to take two columns. I highly recommend this approach! But the goal of this article is to explore new ideas and tricks that we get from CSS Grid’s implicit and auto-placement powers.
 
@@ -567,7 +567,7 @@ Let’s try another pattern, a bit quicker this time:
   slug-hash="YzxaJom"
   title="Alternate CSS grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Our pattern repeats every six elements. The third and fourth elements each need to occupy two full rows. If we place the third and the fourth elements, it seems that we don’t need to touch the others, so let’s try the following:
 
@@ -590,7 +590,7 @@ Our pattern repeats every six elements. The third and fourth elements each need 
   slug-hash="gOebJNq"
   title="First try"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Hmm, no good. We need to place the second element in the first column. Otherwise, the grid will automatically place it in the second column.
 
@@ -605,7 +605,7 @@ Hmm, no good. We need to place the second element in the first column. Otherwise
   slug-hash="BaryeXg"
   title="Second try"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Better, but there’s still more work, We need to shift the third element to the top. It’s tempting to try placing it in the first row this way:
 
@@ -651,7 +651,7 @@ Another one? Let’s go!
   slug-hash="MWEOMdr"
   title="Alternating row CSS Grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For this one, I will not talk too much and instead show you an illustration of the code I have used. Try to see if you get how I reached that code:
 

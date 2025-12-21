@@ -50,6 +50,10 @@ export const navbarEn = navbar([
         icon: 'https://smashingmagazine.com/images/favicon/favicon.svg',
         link: '/smashingmagazine.com/README.md'
       }, {
+        text: 'typescript.tv',
+        icon: 'https://typescript.tv/_astro/android-chrome-192x192.BhQ8hcWh.png',
+        link: '/typescript.tv/README.md'
+      }, {
         text: 'blog.logrocket.com',
         icon: '/assets/image/blog.logrocket.com/favicon.png',
         link: '/blog.logrocket.com/README.md'

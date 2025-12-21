@@ -73,7 +73,7 @@ We’ve been busy prototyping LinuxKit support for Docker Linux containers on Wi
 
 ::: note UPDATE
 
-LCOW support is available in Windows 10 Fall Creators Update and in Windows Server 1709. The simplest way to try it out on Windows 10 is to install the edge variant of Docker for Windows ([**details**](/docker.com/docker-for-windows-17-11.md)). On Windows Server 1709, install EE preview.
+LCOW support is available in Windows 10 Fall Creators Update and in Windows Server 1709. The simplest way to try it out on Windows 10 is to install the edge variant of Docker for Windows (details). On Windows Server 1709, install EE preview.
 
 :::
 

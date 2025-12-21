@@ -113,7 +113,7 @@ After the first item scales, it will be translated relative to its new size. Mea
   slug-hash="YzaBMer"
   title="CSS Transforms & The Importance of Ordering"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As transformations grow more complex and more `transform` functions are used, the more difficult it becomes to manage the entire property. Take an animation with multiple frames as an example:
 
@@ -122,7 +122,7 @@ As transformations grow more complex and more `transform` functions are used, th
   slug-hash="BarMOMM"
   title="CSS Transform Animation"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 When creating an animation with multiple `transform` values, the cognitive load to manage each property in its correct order across each frame can become quite a burden.
 
@@ -178,7 +178,7 @@ With the key challenges of working with the `transform` property out of the way,
   slug-hash="XWEOxRa"
   title="CSS Individual Transform Properties Animation"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```css :collapsed-lines
 @keyframes animate {
@@ -306,7 +306,7 @@ To make the process of writing fallbacks easier, an [SCSS Mixin for individual t
   slug-hash="NWYozPK"
   title="CSS Individual Transform Properties SCSS Mixin"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

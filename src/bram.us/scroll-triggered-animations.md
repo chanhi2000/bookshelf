@@ -185,7 +185,7 @@ Here’s a demo that has it all together. If you don’t see any animation, that
   slug-hash="ExOxLGX"
   title="Scroll-Triggered Animations with Scroll-Driven Animations, Custom Properties, Style Queries, and Transitions (Scroll-Triggered Image Reveal)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

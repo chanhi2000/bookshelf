@@ -76,7 +76,7 @@ Here is a demo with some common examples (see the comments in the CSS code)
   slug-hash="WNVBvNM"
   title="Using steps(N,jump-none)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

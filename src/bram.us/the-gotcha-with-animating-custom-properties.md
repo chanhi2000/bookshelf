@@ -133,7 +133,7 @@ As `--angle` constantly gets updated, so will the `rotate` and `translate` prope
   slug-hash="wvxqOOv"
   title="Animation in CSS, powered by a Custom Property"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For comparison, here is an alternative version that does not use a custom property
 
@@ -171,7 +171,7 @@ Visually, this code has the same outcome:
   slug-hash="abjyMMq"
   title="Animation in CSS, not using a Custom Property"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Personally I find the first approach – the one using the `--angle` custom property – easier to grasp, build, and maintain.
 
@@ -182,7 +182,7 @@ This *“One CSS Custom Property to rule them all”*-approach is a common techn
   slug-hash="JjbWpEZ"
   title="Animation in CSS, not using a Custom Property"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

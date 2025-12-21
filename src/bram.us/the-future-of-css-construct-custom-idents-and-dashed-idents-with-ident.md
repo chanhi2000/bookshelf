@@ -303,7 +303,7 @@ The embed below will color green when `ident()` support is enabled in your brows
   link="https://codepen.io/bramus/pen/raBypox/e0bb688b379f9bc8ca5cb5f98ef6c4ae"
   title="CSS ident() Support test"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

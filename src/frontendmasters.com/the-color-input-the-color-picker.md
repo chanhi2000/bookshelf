@@ -150,7 +150,7 @@ try {
   slug-hash="jOJVKya"
   title="EyeDropper Playing"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

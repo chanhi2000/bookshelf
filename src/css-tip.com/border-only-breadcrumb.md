@@ -88,7 +88,7 @@ Create a border-only [**breadcrumb shape**](/css-shape.com/breadcrumb.md) using 
   slug-hash="wBwMJaz"
   title="Border-only breadcrumb shape"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More CSS Shapes
 

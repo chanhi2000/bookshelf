@@ -140,7 +140,7 @@ I’ve updated [**my original Container Queries Demo**](/bram.us/css-container-q
   slug-hash="LYxNpeE"
   title="CSS Container Queries Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 

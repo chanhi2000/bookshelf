@@ -1,139 +1,249 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-      {
-        "label": "run (vuepress 실행)",
-        "type": "shell",
-        "command": "pnpm run --stream dev",
-        "isBackground": true,
-        "presentation": {
-          "echo": true,
-          "reveal": "always",
-          "focus": false,
-          "panel": "shared"
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run (vuepress 실행)",
+      "type": "shell",
+      "command": "pnpm run --stream dev",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
         },
-        "problemMatcher": [{
-          "owner": "custom",
-          "pattern": {
-            "regexp": "."
-          },
-          "background": {
-            "activeOnStart": true,
-            // "beginsPattern": "Starting the development server...",
-            // "endsPattern": "Compiled successfully!"
-          }
-        }]
-      }, {
-        "label": "run freecodecamp.org (vuepress 실행)",
-        "type": "shell",
-        "command": "pnpm run --stream dev:freecodecamp-org",
-        "isBackground": true,
-        "presentation": {
-          "echo": true,
-          "reveal": "always",
-          "focus": false,
-          "panel": "shared"
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "run freecodecamp.org (vuepress 실행)",
+      "type": "shell",
+      "command": "pnpm run dev:freecodecamp",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
         },
-        "problemMatcher": [{
-          "owner": "custom",
-          "pattern": {
-            "regexp": "."
-          },
-          "background": {
-            "activeOnStart": true,
-            // "beginsPattern": "Starting the development server...",
-            // "endsPattern": "Compiled successfully!"
-          }
-        }]
-      }, {
-        "label": "build (vuepress 빌드)",
-        "type": "shell",
-        "command": "pnpm run --stream build",
-        "isBackground": true,
-        "presentation": {
-          "echo": true,
-          "reveal": "always",
-          "focus": false,
-          "panel": "shared"
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "run hackingwithswift.com (vuepress 실행)",
+      "type": "shell",
+      "command": "pnpm run dev:hackingwithswift",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
         },
-        "problemMatcher": [{
-          "owner": "custom",
-          "pattern": {
-            "regexp": "."
-          },
-          "background": {
-            "activeOnStart": true,
-            // "beginsPattern": "Starting the development server...",
-            // "endsPattern": "Compiled successfully!"
-          }
-        }]
-      }, {
-        "label": "combine (빌드 후 병합)",
-        "type": "shell",
-        "command": "pnpm run combine",
-        "isBackground": true,
-        "presentation": {
-          "echo": true,
-          "reveal": "always",
-          "focus": false,
-          "panel": "shared"
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "run css-tricks.com (vuepress 실행)",
+      "type": "shell",
+      "command": "pnpm run dev:css-tricks",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
         },
-        "problemMatcher": [{
-          "owner": "custom",
-          "pattern": {
-            "regexp": "."
-          },
-          "background": {
-            "activeOnStart": true,
-            // "beginsPattern": "Starting the development server...",
-            // "endsPattern": "Compiled successfully!"
-          }
-        }]
-      }, {
-        "label": "build freecodecamp.org (vuepress 실행)",
-        "type": "shell",
-        "command": "pnpm run --stream build:freecodecamp-org",
-        "isBackground": true,
-        "presentation": {
-          "echo": true,
-          "reveal": "always",
-          "focus": false,
-          "panel": "shared"
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "run smashingmagazine.com (vuepress 실행)",
+      "type": "shell",
+      "command": "pnpm run dev:smashingmagazine",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
         },
-        "problemMatcher": [{
-          "owner": "custom",
-          "pattern": {
-            "regexp": "."
-          },
-          "background": {
-            "activeOnStart": true,
-            // "beginsPattern": "Starting the development server...",
-            // "endsPattern": "Compiled successfully!"
-          }
-        }]
-      }, {
-        "label": "stop (vuepress 종료)",
-        "type": "shell",
-        "command": "",
-        "windows": {
-          "command": "taskkill /F /IM node.exe"
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "run realpython.com (vuepress 실행)",
+      "type": "shell",
+      "command": "pnpm run dev:realpython",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
         },
-        "linux": {
-          "command": "pkill -f 'npm'"
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "run yozm.wishket.com (vuepress 실행)",
+      "type": "shell",
+      "command": "pnpm run dev:yozm",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
         },
-        "osx": {
-          "command": "pkill -f 'npm'"
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "build (vuepress 빌드)",
+      "type": "shell",
+      "command": "pnpm --stream build",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
         },
-        "presentation": {
-          "echo": true,
-          "reveal": "silent",
-          "focus": false,
-          "panel": "shared"
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "build-shared-vuepress (shared-vuepress 빌드)",
+      "type": "shell",
+      "command": "pnpm run build:shared-vuepress",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
         },
-        "problemMatcher": []
-      }
-    ],
-    "inputs": [
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "Update Package(s) (vuepress 실행)",
+      "type": "shell",
+      "command": "pnpm update-package",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
+        },
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
+      "label": "stop (vuepress 종료)",
+      "type": "shell",
+      "command": "",
+      "windows": {
+        "command": "taskkill /F /IM node.exe"
+      },
+      "linux": {
+        "command": "pkill -f 'npm'"
+      },
+      "osx": {
+        "command": "pkill -f 'npm'"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
     {
       "id": "terminate",
       "type": "command",

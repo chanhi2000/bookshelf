@@ -280,7 +280,7 @@ I set the `border-image-repeat` on all edges to `stretch` and the center slice t
   slug-hash="xbxdoBO"
   title="Button with SVG border-image"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -360,7 +360,7 @@ The result is a flexible paper scroll effect which adapts to both the viewport w
   slug-hash="GgRmVpG"
   title="Article scroll with border-image"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -451,7 +451,7 @@ You may ponder why I’ve not used the other `border-image` values I explained e
   slug-hash="bNGWXqJ"
   title="Illustration with border-image overlay"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

@@ -96,7 +96,7 @@ There are various ways to ship MP4-as-img by falling back to other techniques. W
   slug-hash="QwWvrqw"
   title="Video vs Img (MP4 Source)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

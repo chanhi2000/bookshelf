@@ -79,7 +79,7 @@ cover: https://docker.com/app/uploads/a31525d1-cfbb-45f2-bdb0-2e77c10e5627.jpg
 
 ![Docker for Mac](https://docker.com/app/uploads/a31525d1-cfbb-45f2-bdb0-2e77c10e5627-1-1024x512.jpg)
 
-You [**heard about it**](/docker.com/blog/docker-for-mac-and-windows-with-kubernetes-beta.md) at DockerCon Europe and now it is here: we are proud to announce that Docker for Mac with beta Kubernetes support is now publicly available as part of the [<VPIcon icon="fa-brands fa-docker"/>Edge release channel](https://docs.docker.com/docker-for-mac/install/). We hope you are as excited as we are!
+You heard about it at DockerCon Europe and now it is here: we are proud to announce that Docker for Mac with beta Kubernetes support is now publicly available as part of the [<VPIcon icon="fa-brands fa-docker"/>Edge release channel](https://docs.docker.com/docker-for-mac/install/). We hope you are as excited as we are!
 
 With this release you can now run a single node Kubernetes cluster right on your Mac and use both kubectl commands and docker commands to control your containers.
 

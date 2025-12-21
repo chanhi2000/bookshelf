@@ -69,7 +69,7 @@ It uses a [polyfill (<VPIcon icon="iconfont icon-github"/>`ckrack/scrollsnap-pol
   slug-hash="yXrrEb"
   title="Simple Responsive Scroll Snap Point Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 - **If you’re looking in Firefox:** it has the best current support, so you can mostly clearly see how the native behavior looks and feels.
 - **If you’re looking Chrome or Opera:** don’t have any support, so any behavior you notice in those browsers can be attributed to the polyfill entirely.

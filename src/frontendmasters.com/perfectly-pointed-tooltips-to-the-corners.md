@@ -101,7 +101,7 @@ As usual, a demo of what we are making:
   slug-hash="yyepRJM"
   title="Follow me if you can! (drag the anchor)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This time, instead of considering the sides, I am considering the *corners*. This is another common pattern in the tooltip world. The code structure and the initial configuration remain the same as in the previous examples, so let’s jump straight into the new stuff.
 
@@ -128,7 +128,7 @@ position-try-fallbacks: flip-inline, flip-block, flip-block flip-inline;
   slug-hash="qEbMJaB"
   title="Initial configuration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The advantage of this configuration is that we are not using `flip-start`, so we can safely define `min-width` (or `max-height`) without issue. The drawback is that adding the tail is complex. It needs to be placed on the corners, and the `margin` trick won’t work. We need another hack.
 
@@ -164,7 +164,7 @@ I am introducing a new function, `anchor-size()`, which is part of the Anchor Po
   slug-hash="GgoXYEm"
   title="adding pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Nothing fancy so far. We have a square behind the anchor.
 
@@ -187,7 +187,7 @@ Let’s increase the size a little so it also touches the tooltip. We add twice 
   slug-hash="azdaREb"
   title="increasing the size"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It seems we are going nowhere with this idea but, believe me, we are almost there.
 
@@ -202,7 +202,7 @@ I am using a somewhat verbose `clip-path` value to create the final shape but th
   slug-hash="qEbMJyZ"
   title="shaping the tail"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Do you start to see the tricks? We have the correct position for the tails (you can drag the anchor and see the result), but we still have to hide the extra ones.
 
@@ -223,7 +223,7 @@ Toggle the “debug mode” in the demo below and you will see a black rectangle
   slug-hash="yyepRJM"
   title="Follow me if you can! (drag the anchor)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Only one tail can fit that rectangle, which is perfect for us!
 
@@ -248,14 +248,14 @@ Let’s start with the previous demos using the new technique. As usual, you hav
   slug-hash="XJXPywg"
   title="Redoing 1st example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="t_afif"
   slug-hash="WbrgLvr"
   title="Redoing 2nd example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I will conclude with one final example for you to study. You can also try to implement it before checking my code if you want another challenge.
 
@@ -264,7 +264,7 @@ I will conclude with one final example for you to study. You can also try to imp
   slug-hash="QwyZLzZ"
   title="Another example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And a version with a curved tail:
 
@@ -273,7 +273,7 @@ And a version with a curved tail:
   slug-hash="KwVGwom"
   title="Another example (with curve)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -288,7 +288,7 @@ This feature is only at its [<VPIcon icon="iconfont icon-w3c"/>Level 1](https://
   slug-hash="ogbPrWG"
   title="Using anchor queries"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The code is probably more verbose, but it feels less hacky and more intuitive. I let you imagine all the possibilities you can do with this technique.
 

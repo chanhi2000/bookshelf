@@ -10,7 +10,7 @@ const imgLogoPath = '/assets/icon/favicon.svg'
 export default hopeTheme({
   fullscreen: true,
   logo: imgLogoPath,
-  repo: 'chanhi2000/articles',
+  repo: 'chanhi2000/bookshelf',
   repoLabel: 'Github',  
   repoDisplay: true,
   lastUpdated: true,

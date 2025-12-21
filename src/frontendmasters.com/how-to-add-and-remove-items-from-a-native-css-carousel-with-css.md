@@ -66,7 +66,7 @@ This functionality would be ideal for showing product photos according to user-d
   slug-hash="RNrZrNm"
   title="Native CSS carousel with toggle-able items (horizontal)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Ready to dig in?
 
@@ -173,7 +173,7 @@ The final block runs if multiple checkboxes are checked (`.component:has(input:c
   slug-hash="xbVxXPe"
   title="Native CSS carousel with toggle-able items (step 1)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -291,7 +291,7 @@ ul.carousel {
   slug-hash="ZYWErza"
   title="Native CSS carousel with toggle-able items (step 2)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -367,7 +367,7 @@ ul.carousel {
   slug-hash="RNrZrNm"
   title="Native CSS carousel with toggle-able items (horizontal)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And here’s the same thing but vertical:
 
@@ -376,7 +376,7 @@ And here’s the same thing but vertical:
   slug-hash="gbrOvNW"
   title="Native CSS carousel with toggle-able items (vertical)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -389,7 +389,7 @@ These features are really cool. They can be used in so many different ways, from
   slug-hash="dPMyeWK"
   title="Native CSS carousel with toggle-able items (product photos)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Just choose the color that you want and that’s what the carousel will show!
 

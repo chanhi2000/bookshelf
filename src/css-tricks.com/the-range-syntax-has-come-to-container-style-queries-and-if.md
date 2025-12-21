@@ -92,7 +92,7 @@ Again, you’ll want Chrome 142 or higher to see this work:
   slug-hash="pvgpKJN"
   title="CSS range syntax demo (if() and container style queries)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Both methods do the same thing but in slightly different ways.
 
@@ -139,7 +139,7 @@ After that we select the container’s children and conditionally declare their 
   slug-hash="raxpXLO"
   title="CSS range syntax demo (container style queries and CSS variables)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 /explanation Note that we wouldn’t be able to move the `@container` at-rules to the `#container` block, because then we’d be querying `--lightness` on the container of `#container` (where it doesn’t exist) and then beyond (where it also doesn’t exist).
 
@@ -173,7 +173,7 @@ By contrast, the `if()`-based declaration would work in either block:
   slug-hash="VYeQZLE"
   title="CSS range syntax demo (if() and CSS variables)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 So, given that container style queries only look *up* the cascade (whereas `if()` also looks for custom properties declared within the same CSS rule) why use container style queries at all? Well, personal preference aside, container queries allow us to define a specific containment context using the [<VPIcon icon="iconfont icon-css-tricks"/>`container-name`](https://css-tricks.com/almanac/properties/c/container-name/) CSS property:
 
@@ -260,7 +260,7 @@ To summarize, we’re basically using this container style query logic to determ
   slug-hash="ogbqbjL"
   title="CSS range syntax demo (container style queries with attr())"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But you’re likely wondering why, when we read the value in the container style queries, it’s written as `attr(data-notifs type(<number>)` instead of `attr(data-notifs)`. Well, the reason is that when we don’t specify a data type (or unit, you can read all about the [<VPIcon icon="iconfont icon-css-tricks"/>recent changes to `attr()` here](https://css-tricks.com/almanac/functions/a/attr/)), the value is parsed as a string. This is fine when we’re outputting the value with `content: attr(data-notifs)`, but when we’re *comparing* it to `99`, we must parse it as a number (although `type(<integer>)` would also work).
 
@@ -341,7 +341,7 @@ h1 {
   slug-hash="gbPzxmR"
   title="CSS range syntax demo (if() with literal values)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

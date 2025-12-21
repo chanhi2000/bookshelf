@@ -127,7 +127,7 @@ Note that you don’t need to provide any `viewBox` data. The converter will aut
   slug-hash="xbbMbEZ"
   title="CSS Tricks logo"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here is another example where I am applying the shape to an image element. I am keeping the original SVG so you can compare both shapes.
 
@@ -136,7 +136,7 @@ Here is another example where I am applying the shape to an image element. I am 
   slug-hash="ZYYmNGK"
   title="SVG path vs clip-path: shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### When to use `shape()`
 
@@ -202,7 +202,7 @@ We have our first shape and we know the commands to draw straight lines:
   slug-hash="EaaGmLR"
   title="Rectangle with shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 #### Circular Cut-Out
 
@@ -246,7 +246,7 @@ clip-path: shape(
   slug-hash="PwwXxPz"
   title="arc command"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Not bad, we can already see the arc between `0 0` and `40% 0`. Notice how I didn’t define the size and direction of the arc. By default, the browser will use `small` and `ccw`.
 
@@ -257,7 +257,7 @@ Let’s explicitly define the size and direction to see the four different cases
   slug-hash="zxxyMBM"
   title="arc commands"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Hmm, it’s working for the first two blocks but not the other ones. Quite strange, right?
 
@@ -268,7 +268,7 @@ Actually, everything is working fine. The arcs are drawn outside the element are
   slug-hash="azzPQLr"
   title="adding box-shadow"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Arcs can be tricky due to the size and direction thing, so get ready to be confused. If that happens, remember that you have four different cases, and trying all of them will help you find which one you need.
 
@@ -298,7 +298,7 @@ We can define the radius as a variable and use what we have learned so far:
   slug-hash="jEEXQdv"
   title="Circle cut-out"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s working fine, but the code can still be optimized. We can replace all the `line` commands with `hline` and `vline` like below:
 
@@ -389,7 +389,7 @@ This last optimization is great because if we want to move the cutout from the c
   slug-hash="myyavGN"
   title="Optimizing the code"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 How would you adjust the above to have the cut-out at the bottom, left, or right? That’s your first homework assignment! Try to do it before moving to the next part.
 
@@ -400,7 +400,7 @@ I will give my implementation so that you can compare with yours, but don’t ch
   slug-hash="ZYYVwgr"
   title="Different cut-out variations"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 #### Rounded Tab
 
@@ -440,7 +440,7 @@ All the `arc` commands are using the `by` directive because, in all the cases, I
   slug-hash="YPPdgdG"
   title="Rounded tab"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 From this, we can easily achieve the left and right variations:
 
@@ -449,7 +449,7 @@ From this, we can easily achieve the left and right variations:
   slug-hash="vEEvMwr"
   title="More rounded tabs"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Notice how I am only using two `arc` commands instead of three. One rounded corner can be done with a classic border radius, so this can help us simplify the shape.
 
@@ -470,7 +470,7 @@ Here is my implementation of the four variations:
   slug-hash="raaPNqR"
   title="Inverted radius"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Conclusion
 
@@ -483,7 +483,7 @@ Don’t forget to bookmark the [<VPIcon icon="fas fa-globe"/>SVG to CSS converte
   slug-hash="LEEbdrw"
   title="Heart shape using shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info Series: Better CSS Shapes Using `shape()`
 

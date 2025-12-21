@@ -731,7 +731,7 @@ The demo below — by [Miriam (<VPIcon icon="fa-brands fa-x-twitter"/>`TerribleM
   slug-hash="poweapY"
   title="OMG, Layers"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To stay up-to-date regarding browser support, you can follow these tracking issues:
 

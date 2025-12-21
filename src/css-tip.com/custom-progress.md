@@ -83,7 +83,7 @@ The support is still limited (Chrome-only for now)
   slug-hash="OPJwbVJ"
   title="Progress bar with dynamic coloration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here is another implementation where you can control the number of ranges and set the color for each one like an array.
 
@@ -112,7 +112,7 @@ progress[value]::-moz-progress-bar {
   slug-hash="LEYJGoQ"
   title="Progress bar with dynamic coloration"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For better support check the following method: [**Progress bar with dynamic coloration**](/css-tip.com/progress-bar-dynamic-color.md)
 

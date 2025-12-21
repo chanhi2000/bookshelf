@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2007/07/css-specificity-things-you-should-know

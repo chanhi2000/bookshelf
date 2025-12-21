@@ -152,7 +152,7 @@ When visiting using a browser with support, the demo below will show you two dif
   slug-hash="abGXjJZ"
   title="Style query test -- card themes"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To stay up-to-date regarding browser support, you can follow these tracking issues:
 

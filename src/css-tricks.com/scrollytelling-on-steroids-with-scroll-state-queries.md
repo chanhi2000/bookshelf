@@ -109,7 +109,7 @@ Evidently, you are game to play with fire, so check out the pure CSS experiment 
   slug-hash="zxrmzQw"
   title="Nonlinear Scrollytelling"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I haven’t seen this technique in the wild, so let me know in the comments if you have seen other examples of the idea. For now, I’ll claim credit for pioneering the mechanics — but I give credit to the talented [<VPIcon icon="fas fa-globe"/>Dead Revolver](https://deadrevolver.thousand-pixel.com/) for creating the awesome, affordable [<VPIcon icon="fas fa-globe"/>pixel art bundle](https://itch.io/s/130900/platformer-bundle) I used for most of the graphics. The animated lightsaber icon was ripped from this cool [CodePen (<VPIcon icon="fa-brands fa-codepen"/>`andy1729`)](https://codepen.io/andy1729/pen/GZBBZX) by Ujjawal Anand, and I used ChatGPT to draw the climbable building. To make the bad guy, I reused the same spritesheet from the player character, but I implemented the [<VPIcon icon="fas fa-globe"/>Mirror Match trope](https://tvtropes.org/pmwiki/pmwiki.php/Main/MirrorMatch) from Mortal Kombat, using color shifting to create a “new” character who I [<VPIcon icon="fas fa-globe"/>evilized](https://miraculousladybug.fandom.com/wiki/Kamiko) by casting the following spell in CSS:
 

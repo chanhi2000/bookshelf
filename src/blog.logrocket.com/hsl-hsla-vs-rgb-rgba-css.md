@@ -79,7 +79,7 @@ The example below illustrates a quick comparison between named and hex colors. I
   slug-hash="OJvqJvp"
   title="Named and Hex Colors in CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 These problems are easy to fix with RGB and HSL functions in CSS, but before we start implementing them, let’s look at what they offer.
 
@@ -110,7 +110,7 @@ The below example demonstrates this by implementing transparent versions of whit
   slug-hash="oNqVWVQ"
   title="Color variations with RGB Alpha"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There are use cases where opaque color versions may not meet accessibility requirements and don’t look great in general. For instance, the layering of elements easily becomes messy with opaque colors.
 

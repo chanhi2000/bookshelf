@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2021/11/guide-modern-css-colors

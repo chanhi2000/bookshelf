@@ -383,4 +383,4 @@ You may be thinking of a million other ways to achieve this. Feel free to go thr
   slug-hash="vYPaYWN"
   title="Project #2: CSS light/dark theme switcher"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>

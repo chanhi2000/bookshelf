@@ -62,7 +62,7 @@ Here’s that (again: **old!**) demo:
   link="https://codepen.io/editor/chriscoyier/pen/0199cf55-f6e9-7f24-ade9-98342e83a0ea"
   title="Old School Round Out Tabs"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -271,7 +271,7 @@ I also used [<VPIcon icon="iconfont icon-github"/>`yairEO/knobs`](https://github
   link="https://codepen.io/editor/chriscoyier/pen/0199caa8-5073-7e79-8002-e30d5532a6c4"
   title="Shape Tabs"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There is a smidge of other trickery in there like getting shadows via `filter` on a parent element, that even work with the `clip-path`.
 
@@ -324,7 +324,7 @@ I looked around at a number of older examples and a lot of them involve pseudo o
   slug-hash="azOgOKE"
   title="Cool concave rounding header component"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

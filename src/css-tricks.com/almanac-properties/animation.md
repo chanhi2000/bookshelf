@@ -72,7 +72,7 @@ The `animation` property in CSS can be used to animate many other CSS properties
   slug-hash="ZGYZBx"
   title="A simple animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Each `@keyframes` at-rule defines what should happen at specific moments during the animation. For example, 0% is the beginning of the animation and 100% is the end. These keyframes can then be controlled either by the shorthand `animation` property, or its eight sub-properties, to give more control over how those keyframes should be manipulated.
 
@@ -132,7 +132,7 @@ These sub-properties can then be used like so:
   slug-hash="EjaJNd"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here’s a full list of which values each of these sub-properties can take:
 
@@ -219,7 +219,7 @@ You can comma-separate the values to declare multiple animations on a selector a
   link="https://codepen.io/anon/pen/xGbeRm/c6d27fda8e1244d44bf04728049d7c1d"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 ---
 
@@ -258,7 +258,7 @@ The default value for the `animation-composition` property, `replace` will *repl
   link="https://codepen.io/mrtrimble/pen/NWZoxab/572a975e10d44ac4f0765569e6d4bfda"
   title="animation-composition: replace"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 ### Add
 
@@ -319,7 +319,7 @@ Using `animation-composition: add` when animating colors offers an interesting e
   link="https://codepen.io/mrtrimble/pen/Rwzvaoo/3f821823778558cddb544215f97066db"
   title="animation-composition: add"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 ### Accumulate
 
@@ -389,7 +389,7 @@ transform: translateX(20px) rotate(45deg);
   link="https://codepen.io/mrtrimble/pen/OJedNdZ/7e7f805cabf6944d662926b5ac160c5d"
   title="animation-composition: accumulate"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 ---
 

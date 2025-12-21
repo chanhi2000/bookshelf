@@ -302,7 +302,7 @@ And that would give us something like this:
   link="https://codepen.io/piccalilli/pen/XJXMgEB/64c4f56702893dc64d9cd4dc564f5e0e"
   title="toasts with relative colors"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### There is *a lot* more to relative colours
 
@@ -482,7 +482,7 @@ This has been particularly useful for me. My personal brand features a vibrant b
   link="https://codepen.io/piccalilli/pen/ZYbMGox/edca3a509152b91aea5cafc9d0b87ab9/"
   title="mushy middle"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I’ve also had designs that I’m trying to copy where I might have to add two or three extra stops to ensure that it matches the design correctly. Now, instead of doing that, we can tell the browser which colour space to use to interpolate the colours in between the stops we have defined with a `linear-gradient(in <color-space>, <color>, <color>)`.
 
@@ -507,7 +507,7 @@ Here, I’ve removed the middle value, and instead changed the colour space to `
   link="https://codepen.io/piccalilli/pen/NPGLqzp/377eab6e7fbcf83e5af8716462899364/"
   title="mushy middle 2"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The only real problem with this is that different colour spaces might work better for different gradients, so it sometimes does take a bit of poking around.
 
@@ -545,7 +545,7 @@ Now, we can tell it to take the long way around instead by saying `longer hue` l
   link="https://codepen.io/piccalilli/pen/bNVxvra/9458448c0ff6889821292a3fe58dcd9e/"
   title="Rainbow"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For this to work, you do need to specify what colour space you’re using, and as far as I can tell, it has to be one that has a hue value, so any of `hsl()`, `lch()`, or `oklch()`.
 

@@ -77,7 +77,7 @@ This post covers a demo where selecting an item causes the preceding and succeed
   slug-hash="EaPREMe"
   title="Staggered Animation with `sibling-*` CSS Functions"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -317,7 +317,7 @@ Below is another example, where you’ll be able see an accordion sort of animat
   slug-hash="PwZBLoy"
   title="Staggered Animation with CSS `sibling-*` Functions"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

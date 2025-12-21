@@ -59,7 +59,7 @@ Fortunately, thanks to modern CSS, we can do it without resorting to JavaScript.
   slug-hash="QWRywza"
   title="CSS Dialog Animations (Max browser support with @keyframes)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here we’ll take a look at opening and closing animations separately, discussing solutions using transitions and animations for each.
 
@@ -99,7 +99,7 @@ dialog {
   slug-hash="JjqXLEb"
   title="CSS Dialog Animations (no @starting-style - doesn't work)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The problem here is when a `<dialog>` opens, the browser doesn’t know what opacity value it’s meant to transition from. The first style update our `<dialog open>` receives sets `opacity: 1` , and since that’s also our end value, no transition takes place. We see this problem pop up whenever we attempt to transition any element that changes to or from display: none. How do we fix this?
 
@@ -126,7 +126,7 @@ dialog {
   slug-hash="GRaZxNx"
   title="CSS Dialog Animations (Opening only with @starting-style)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Success! That’s all it takes, our `<dialog>` will now transition opacity while opening.
 
@@ -159,7 +159,7 @@ dialog[open] {
   slug-hash="bGypvem"
   title="CSS Dialog Animations (Opening only with @keyframes)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s all we need! We solve the problem of the browser needing to know what initial value to use by explicitly declaring it within the animation.
 
@@ -236,7 +236,7 @@ dialog {
   slug-hash="JjqGoPa"
   title="CSS Dialog Animations (Transition with @starting-style)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And with that we have a `<dialog>` with both opening and closing transitions! If you’re looking for the simplest solution then you can stop here, it doesn’t come easier than this.
 
@@ -301,7 +301,7 @@ dialog {
   slug-hash="QWRywza"
   title="CSS Dialog Animations (Max browser support with @keyframes)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And that’s all it takes! A `<dialog>` with a cross-browser opening animation and a progressively enhanced closing animation. It’s a little less concise with a bit more duplication than our transition only example, but you can decide if the extra browser support is worth it for you.
 

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    // types
+    "allowArbitraryExtensions": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    
+    // Modules
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+
+    // minimal node 18 support
+    "target": "ES2022",
+    
+    // "moduleResolution": "NodeNext",
+
+    /* Bundler mode */
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    // Compiler Diagnostics
+    "diagnostics": false,
+    "listEmittedFiles": false,
+    "skipLibCheck": true
+  }, 
+}

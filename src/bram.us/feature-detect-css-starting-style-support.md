@@ -114,7 +114,7 @@ Embedded below is a demo that uses this technique. In browsers with support for 
   slug-hash="gONQEKV"
   title="Detect @starting-style support"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that it doesn’t properly detect Chrome versions 117-118 because of the `@property` bug I detailed in [**the previous post on feature detecting `@property`**](/bram.us/feature-detect-css-property-support.md). I think this is acceptable.
 
@@ -129,7 +129,7 @@ The following demo is a variant that uses Style Queries to respond to the change
   slug-hash="QWReXaW"
   title="Detect @starting-style support"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Unfortunately, because Style Queries are not widely supported at this moment, the test is incomplete and incorrectly excludes many browser versions because they simply don’t support Style Queries. On the other hand the code is easier to read and understand.
 

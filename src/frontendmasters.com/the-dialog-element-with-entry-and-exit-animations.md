@@ -124,7 +124,7 @@ Check it out:
   slug-hash="xxoPzEZ"
   title="Dialog Animate In — Fly from Above"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And a video in case you’re in a browser that doesn’t support it yet:
 
@@ -137,7 +137,7 @@ Note that not only does it *have* entry and exit animations, but those states ar
   slug-hash="rNErmmz"
   title="Dialog Entry and Exit along a Path"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -150,7 +150,7 @@ This isn’t exclusively for dialogs, you can make it work with whatever. But na
   slug-hash="jOjLjYw"
   title="Popover and Backdrop with Enter and Leave Transition using only CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

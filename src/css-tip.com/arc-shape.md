@@ -86,7 +86,7 @@ Create an [**arc shape**](/css-shape.com/arc.md) with rounded edges using a few 
   slug-hash="oNrwRqP"
   title="Arc shape with rounded edges"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More CSS Shapes
 
@@ -105,8 +105,26 @@ Create an [**arc shape**](/css-shape.com/arc.md) with rounded edges using a few 
 
 - [**Quantity queries using has() selector**](/css-tip.com/quantity-queries.md) a simple way to generate a quantity query selector using modern CSS. August 26, 2024
 - [**A decorative line with rounded dashes**](/css-tip.com/line-rounded-dashes.md) A few lines of code to create a nice decoratinve line with rounded dashes. August 15, 2024
-- [**Count the number of lines inside a text**](/css-tip.com/count-lines.md) A CSS-only solution to count the lines of text. July 29, 2024
-- [**Get the width & height of any element without JavaScript**](/css-tip.com/element-dimension.md) Using modern CSS to get the size of any element as CSS variables. July 26, 2024
+
+```component VPCard
+{
+  "title": "Count the number of lines inside a text",
+  "desc": "A CSS-only solution to count the lines of text",
+  "link": "/css-tip.com/count-lines.md",
+  "logo": "https://css-tip.com/img/fav.png",
+  "background": "rgba(111,162,204,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Get the width & height of any element without JavaScript",
+  "desc": "Using modern CSS to get the size of any element as CSS variables",
+  "link": "/css-tip.com/element-dimension.md",
+  "logo": "https://css-tip.com/img/fav.png",
+  "background": "rgba(111,162,204,0.2)"
+}
+```
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -159,7 +159,7 @@ Try out the code shown above in the pen below. Note that your browser needs to s
   slug-hash="zYMoNvg"
   title="(Ab)using Scroll-Driven Animations to fake Scroll-Snapping :snapped"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If your browser does not support Scroll-Driven Animations, you can see a recording embedded at the top of this post.
 

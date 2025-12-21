@@ -65,7 +65,7 @@ Here’s where the refactor ends up:
   slug-hash="GggQrQq"
   title="Move Modal In on Path (Next Gen!)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

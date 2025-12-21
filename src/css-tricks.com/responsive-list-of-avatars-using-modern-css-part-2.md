@@ -73,7 +73,7 @@ The following demo is currently limited to Chrome and Edge, but will work in oth
   slug-hash="MYyobpb"
   title="Responsive Circular List of images with hover effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We will rely on the same HTML structure and CSS base as the example we covered in [**Part 1**](/css-tricks.com/responsive-list-of-avatars-using-modern-css-part-1.md): a list of images inside a container with `mask`-ed cutouts. This time, however, the positions will be different.
 
@@ -122,7 +122,7 @@ There are several techniques [**for placing images around a circle**](/css-tip.c
   slug-hash="myeeMMQ"
   title="Images around a circle"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The code doesn’t look super intuitive, but its logic is fairly straightforward. The `offset` property is a shorthand, so let’s write it the longhand way to see how breaks down:
 
@@ -167,7 +167,7 @@ The translation contains the circle radius value and the rotations use generic c
   slug-hash="bNpoYYp"
   title="Placing images around a circle"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Even though I prefer the first approach, I will rely on the second one because it allows me to reuse the rotation angle in more places.
 
@@ -201,7 +201,7 @@ Resize the container in the demo below and see how the images behave:
   slug-hash="raeGpMQ"
   title="The responsive part"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s responsive, but when the container gets bigger, the images are too spread out, and I don’t like that. It would be good to keep them as close as possible. In other words, we consider the smallest circle that contains all the images without overlap.
 
@@ -230,7 +230,7 @@ Now, when you make the container bigger, the images will stay close to each othe
   slug-hash="zxqEpdX"
   title="Fixing the responsive"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s introduce another variable for the gap between images (`--g`) and update the formula slightly to keep a small gap between the images.
 
@@ -255,7 +255,7 @@ Let’s introduce another variable for the gap between images (`--g`) and update
   slug-hash="QwNqaOr"
   title="Adding the gap"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -333,7 +333,7 @@ And the final code with the mask:
   slug-hash="EaKwEdp"
   title="Adding the cutout effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Cool, right? You might notice two different implementations for the cut-out. The formula I used previously considered the next image, but if we consider the *previous* image instead, the cut-out goes in another direction. So, rather than incrementing the index, we decrement instead and assign it to a `.reverse` class that we can use when we want the cut-out to go in the opposite direction:
 
@@ -377,7 +377,7 @@ Now, when an image is hovered, all of images rotate by `20deg`. Try it out in th
   slug-hash="vEGejeK"
   title="animation first try"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Hmm, the images do indeed rotate, but the mask is not following along. Don’t forget that the mask considers the position of the next or previous image defined by `--_j` and the next/previous image is rotating — hence we need to also update the `--_j` variable when the hover happens.
 
@@ -425,7 +425,7 @@ Now the angle (`--_a`) is defined in one place, and I consider two intermediate 
   slug-hash="raeGvvb"
   title="animation second try"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The rotation of all the images is now perfect. Let’s disable the rotation of the hovered image:
 
@@ -441,7 +441,7 @@ The rotation of all the images is now perfect. Let’s disable the rotation of t
   slug-hash="raeGvrg"
   title="hover on one element"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Oops, the mask is off again! Do you see the issue?
 
@@ -458,7 +458,7 @@ We want to stop the hovered image from rotating while allowing the rest of the i
   slug-hash="dPMVeQX"
   title="fixing the rotation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s a little better. We fixed the cut-out effect on the hovered image, but the overall effect is still not perfect. Let’s not forget that the hovered image is either the next or previous image of another image, and since it’s not rotating, another `--_j` variable needs to remain unchanged.
 
@@ -487,7 +487,7 @@ In case you are wondering how I knew to do this, well, I tried both ways and I p
   slug-hash="XJdeqQr"
   title="almost there!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We are getting closer! All the images behave correctly except for one in each list. Try hovering all of them to identify the culprit.
 
@@ -507,7 +507,7 @@ Our list is circular, but the HTML code is not, so even if the first and last im
   slug-hash="azNLKov"
   title="all issues fixed"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Oof! We have fixed all the issues, and now our hover effect is great, but it’s still not perfect. Now, instead of using an arbitrary value for the rotation, we need to be accurate. We have to find the smallest value that removes the overlap while keeping the images as close as possible.
 
@@ -524,7 +524,7 @@ We can get the value with some trigonometry. I’ll skip the geometry lesson aga
   slug-hash="GgZMYPY"
   title="Final demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now we can say everything is perfect!
 

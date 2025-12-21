@@ -68,7 +68,7 @@ The color is `red`, right? No, it's `green`! For the browser the value of `--f` 
   slug-hash="dPoMeOB"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This can be confusing but the fix is quite easy. You have to register the value using `@property` so the browser can perform the calculation. Otherwise, the browser will see the value as it is (It's like a string value).
 
@@ -92,7 +92,7 @@ This can be confusing but the fix is quite easy. You have to register the value 
   slug-hash="zxGqjwm"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The registration is not required if there is no calculation and you want an exact matching like the below examples:
 

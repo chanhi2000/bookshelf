@@ -57,7 +57,7 @@ cover: https://bram.us/wordpress/wp-content/uploads/2025/10/scroll-state-scrolle
   slug-hash="qEboVXG"
   title="Hidey Bar Demo (Hide on Scroll Down, Show on Scroll Up // Scroll State Queries)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There’s a new type of CSS scroll-state query coming: `scrolled`
 
@@ -96,7 +96,7 @@ Below is a live demo using the code above. You can try it out yourself in Chrome
   slug-hash="qEboVXG"
   title="Hidey Bar Demo (Hide on Scroll Down, Show on Scroll Up // Scroll State Queries)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The feature is expected to ship to Chrome Stable in Chrome 144. ~
 

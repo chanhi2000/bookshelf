@@ -161,7 +161,7 @@ Here’s my original demo, adjusted to include the polyfill:
   slug-hash="RwKOVRG"
   title="CSS Container Queries Demo (with Polyfill)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Great work Jonathan, works like a charm!
 

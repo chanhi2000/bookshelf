@@ -77,7 +77,7 @@ You can see the difference between a pseudo-element disc (smooth edges) and a `r
   slug-hash="wBKeYBK"
   title="Discs: pseudo vs. radial-gradient()"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The smooth-looking edges of the pseudo-element version are a result of anti-aliasing, as it can be seen from the screen recording below:
 
@@ -239,7 +239,7 @@ A more subtle change from before is that, when the zoom levels are above `1`, we
   slug-hash="bNVgrdp"
   title="Nice edge at every resolution - pure CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Much better! But what if we really hate having so many media queries?
 
@@ -266,7 +266,7 @@ This works for any place where we may want to have `radial-gradient()` created d
   slug-hash="bNVrjdR"
   title="Nice edge at every resolution - flexible JS version"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -291,7 +291,7 @@ There are, however, other cases where we could embrace (and maybe even enhance) 
   slug-hash="zxvExxx"
   title="Pastel discs background"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

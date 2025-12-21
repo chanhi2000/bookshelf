@@ -57,7 +57,7 @@ Here is a demo of a custom range slider where I am relying on such features.
   slug-hash="MWdmZPL"
   title="CSS-only Custom range slider with motion"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This whole UI is a semantic HTML`<input type="range">`, with another semantic`<output>`element showing off the current value, along with quite fancy CSS.
 
@@ -98,9 +98,9 @@ In addition to the HTML code, I am going to consider the styling of the range sl
   slug-hash="KKGpmGE"
   title="CSS only custom range sliders"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
-As for the tooltip, I have a[<VPIcon icon="fas fa-globe"/>big collection of 100 different tooltip shapes](https://css-generators.com/tooltip-speech-bubble/)and I am going to use the #41 and #42. I also have a[two-part article](/smashingmagazine.com/modern-css-tooltips-speech-bubbles-part1.md)detailing the creation of most of the tooltips.
+As for the tooltip, I have a [<VPIcon icon="fas fa-globe"/>big collection of 100 different tooltip shapes](https://css-generators.com/tooltip-speech-bubble/) and I am going to use the #41 and #42. I also have a[two-part article](/smashingmagazine.com/modern-css-tooltips-speech-bubbles-part1.md) detailing the creation of most of the tooltips.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/08/s_3FEC3DE430682F2526F00121B6B9A21346D04C3B20F98BA491C64590EEBAAF65_1723504367208_image.png?resize=989%2C307&ssl=1)
 
@@ -111,7 +111,7 @@ You don’t *need* the fancy styled tooltip output, nor do you need the custom s
   slug-hash="oNrojEJ"
   title="Naked range slider demo"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
 ---
 
@@ -160,7 +160,7 @@ Here is the demo so far:
   slug-hash="ZEdaxpL"
   title="Adding the position"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
 Hmmmm, there is an issue! Both tooltips are linked to the same thumb. This is understandable, because I used the same anchor name so the first one will get ignored.
 
@@ -181,7 +181,7 @@ Another fix is to add`position: relative`to`label`. I won’t detail how it work
   slug-hash="ZEdaxwa"
   title="Correcting the position"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
 Hmmmmm. We have fixed the scoping problem but the position of the tooltip is still not good. If you move the thumb to the edges, the tooltip is no longer following. It’s limited to the boundary of the slider. It’s kind of strange, but it’s by design.
 
@@ -196,7 +196,7 @@ To fix this, we can use negative margin `margin-inline: -4em` or a negative inse
   slug-hash="BaXmbNL"
   title="Correcting the edge cases"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
 Of course, it applies to only this particular demo. You may need a different fix in different situations but at least you are aware of this quirk so don’t forget about it!
 
@@ -265,7 +265,7 @@ I know that we don’t have scrolling in our case but consider the following exa
   slug-hash="xxoPQWj"
   title="Illustrating the 'left to right' logic"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
 When you scroll the container “from left to right” you have a red circle that moves “from right to left”. We still have the “from left to right” behavior but it’s linked to the scroll. As for the content, it will logically move in the opposite direction “from right to left”.
 
@@ -287,7 +287,7 @@ And we are done!
   slug-hash="BagmGPy"
   title="Adding the content"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
 Wait a minute, the values aren’t good! We are not reaching the min and max values. For the first slider, we are supposed to go from`0`to`120`but instead, we have`9`and`111`.
 
@@ -326,7 +326,7 @@ The first method seems better as we don’t have to know the size of the thumb (
   slug-hash="JjqNEbZ"
   title="CSS-only Custom range slider"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
 Now our slider is perfect!
 
@@ -382,7 +382,7 @@ Here is the full demo again so you can play with it. Try different speeds of mov
   slug-hash="MWdmZPL"
   title="CSS-only Custom range slider with motion"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
 If you want to dig more into this technique and see more examples I advise you to [<VPIcon icon="fas fa-globe"/>read this article by Bramus](https://bram.us/2023/10/23/css-scroll-detection/).
 
@@ -404,7 +404,7 @@ Let’s try a different idea.
   slug-hash="vYweZQa"
   title="CSS-only Custom range slider"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>  
+  :theme="dark"/>  
 
 This time, I am adjusting the tooltip position (and its tail) to remain within the horizontal boundary of the input element. Can you figure out how it’s done? This will be your homework!
 

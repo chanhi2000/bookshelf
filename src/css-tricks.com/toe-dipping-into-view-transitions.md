@@ -158,7 +158,7 @@ In the same toe-dipping spirit, I caught the latest issue of [<VPIcon icon="fas 
   slug-hash="MYWwJEd"
   title="Modern Web Weekly Radio View Transition"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Notice the JavaScript that is needed to prevent the radio’s default clicking behavior in order to allow the transition to run before the input is checked.
 

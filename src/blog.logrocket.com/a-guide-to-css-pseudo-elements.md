@@ -142,7 +142,7 @@ The above code injects some content into each element with a `pe-before` class b
   slug-hash="NWMOpVB"
   title="CSS ::before pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here’s another example to demonstrate an advanced application of `::before`.
 
@@ -172,7 +172,7 @@ Some alignment and spacing adjustments with flexbox properties and the `::before
   slug-hash="ExLdmVP"
   title="Tag list with CSS ::before"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `::after`
 
@@ -195,7 +195,7 @@ Check out the code in action here:
   slug-hash="LYmgWwR"
   title="CSS ::after pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For an advanced implementation of the `::after` pseudo-element, consider constructing a “breadcrumb” navigation with forward-slashes between items.
 
@@ -206,7 +206,7 @@ Here’s an easy way to achieve that with `::after` and some alignment adjustmen
   slug-hash="vYjVxoZ"
   title="Breadcrumb navigation with CSS ::after"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `::first-letter`
 
@@ -227,7 +227,7 @@ p::first-letter {
   slug-hash="rNvQBrx"
   title="CSS ::first-letter pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Most magazine-based blog layouts implement the `::first-letter` pseudo-element to highlight the first letter of the first paragraph of an article. It is popularly known as the drop cap effect:
 
@@ -247,7 +247,7 @@ main p:first-child::first-letter {
   slug-hash="qBYQWym"
   title="Drop-cap effect with CSS ::first-letter"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It is crucial to realize that the first letter of an element with `::first-letter` can sometimes be tricky to spot. For example, if a text contains a punctuation mark at the beginning, the pseudo-element will logically select the mark instead of the actual first letter.
 
@@ -272,7 +272,7 @@ The code above will make the first line of every paragraph element bolder in wei
   slug-hash="gOzBWWK"
   title="CSS ::first-line pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s take it a step further by changing the case for the first line of an article. This can be done by pairing `::first-line` with the `:first-child` pseudo-class:
 
@@ -281,7 +281,7 @@ Let’s take it a step further by changing the case for the first line of an art
   slug-hash="bGMmWWO"
   title="Highlighting the first line with CSS ::first-line"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `::marker`
 
@@ -300,7 +300,7 @@ See the demo here:
   slug-hash="vYjQRZV"
   title="CSS ::marker pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As you can see above, the `::marker` pseudo-element made the `::before` pseudo-element unnecessary. It would be great if it allowed adding spacing between the marker and the text in the future.
 
@@ -311,7 +311,7 @@ Adding custom markers to an unordered list is a cakewalk. Let’s do something s
   slug-hash="Jjveyje"
   title="Styling the detail disclosure elements with CSS ::marker"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `::placeholder`
 
@@ -330,7 +330,7 @@ In the demonstration below, I tried to make the color of the placeholder text lo
   slug-hash="LYmXPMz"
   title="CSS ::placeholder pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `::selection`
 
@@ -350,7 +350,7 @@ You may hook it to the body or the root element to apply the changes to every el
   slug-hash="dyeQyZg"
   title="CSS ::placeholder pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `::backdrop`
 
@@ -369,7 +369,7 @@ video::backdrop {
   slug-hash="wvjQeyv"
   title="CSS ::backdrop pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It works for the dialog elements as well, which, when initiated, get a customizable backdrop color. Click the “show the dialog” button in the demo below to see it in action:
 
@@ -378,7 +378,7 @@ It works for the dialog elements as well, which, when initiated, get a customiza
   slug-hash="gOzQREO"
   title="CSS ::backdrop in action with <dialog>"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `::file-selector-button`
 
@@ -399,7 +399,7 @@ You might not like specifying the input type when adding styles to this pseudo-e
   slug-hash="rNvQGBg"
   title="Styling the File Upload Input in CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `::cue`
 
@@ -452,7 +452,7 @@ Here’s a small implementation of everything we discussed about `::part()`:
   slug-hash="gOzQGgo"
   title="CSS ::part() pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### `::slotted()`
 
@@ -485,7 +485,7 @@ The introduction of the slotted pseudo-element counters that issue by taking slo
   slug-hash="OJZaxer"
   title="CSS ::slotted() pseudo-element"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -502,7 +502,7 @@ Web developers have been using the `::webkit-search-cancel-button` for years to 
   slug-hash="WNJYXBG"
   title="Hiding the webkit search cancel button with CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

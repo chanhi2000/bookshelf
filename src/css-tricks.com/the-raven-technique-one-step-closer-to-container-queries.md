@@ -291,7 +291,7 @@ Want to try it out? Here is a [is a Pen (<VPIcon icon="fa-brands fa-codepen"/>`b
   slug-hash="GRZNeaQ"
   title="Meet the Raven (can do more tricks than the albatross)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This Pen uses no flexbox, no grid, no floats. Just some divs. This is to show that helpers are unnecessary in this kind of layout. But feel free to use the Raven with these layouts too as it will help you do more complex layouts.
 
@@ -509,7 +509,7 @@ But `auto-fit` with `minmax()` does the same thing, right? No! The solution abov
   slug-hash="GRZVGQx"
   title="Raven for grid-columns"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```css
 --number_of_cols_4_wide: 1;
@@ -601,7 +601,7 @@ background-image: linear-gradient(
   slug-hash="XWdvPVo"
   title="Raven for grid-columns"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -662,7 +662,7 @@ This works with all the things we’ve looked at so far. [Here’s a Pen (<VPIco
   slug-hash="YzWKpOr"
   title="A less nested Raven"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

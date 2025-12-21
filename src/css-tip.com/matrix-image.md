@@ -72,7 +72,7 @@ img {
   slug-hash="xxXWqym"
   title="cut image into small pieces"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

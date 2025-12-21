@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2011/08/16/html5-and-the-document-outlining-algorithm

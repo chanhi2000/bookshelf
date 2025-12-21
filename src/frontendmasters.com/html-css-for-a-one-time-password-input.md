@@ -99,7 +99,7 @@ But I posed the challenge in our [<VPIcon icon="fas fa-globe"/>ShopTalk Discord]
   slug-hash="NWoOrGL"
   title="OTP Single Input"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Is that better than the 4-inputs approach?
 

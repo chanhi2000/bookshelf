@@ -146,7 +146,7 @@ Let’s take a look at what we have so far:
   slug-hash="VYZdqZL"
   title="FM - Leaflet 1"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We haven’t actually added any data yet and it’s possible we may need to tweak multiple things. Maybe the map needs to be bigger? Maybe our centered location isn’t quite right? Our default zoom may not be optimal either. These are all things that will come into play as we start adding data — so let’s do that next!
 
@@ -243,7 +243,7 @@ You can see this version below:
   slug-hash="QwLxzEr"
   title="FM - Leaflet 2"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Notice that it’s possible that changing the zoom may help here, there’s a lot of space around the data and we could get clodser in. However, maybe we know our organization could, at any time, get more data farther out. This is exactly what I was talking about in terms of understanding your data, both what’s immediately available and what may come later.
 
@@ -293,7 +293,7 @@ This one method handles the click interaction, creating the popup, even automati
   slug-hash="zxOJNEP"
   title="FM - Leaflet 3"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

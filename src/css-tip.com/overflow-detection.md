@@ -81,7 +81,7 @@ Resize the `.box` element in the demo below and see the magic! (chrome only for 
   slug-hash="GgKZBWX"
   title="Overflow detection using only CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You can also combine the detection of both horizontal and vertical scrolling:
 
@@ -118,7 +118,7 @@ You can also combine the detection of both horizontal and vertical scrolling:
   slug-hash="jEWeOzN"
   title="Overflow detection using only CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -160,7 +160,7 @@ Or a child element
   slug-hash="ZYzOaZp"
   title="Overflow detection using only CSS (simple version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More CSS Tips
 

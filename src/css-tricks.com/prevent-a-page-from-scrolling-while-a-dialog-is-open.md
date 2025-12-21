@@ -70,7 +70,7 @@ YES! Way back in 2019, I worked on [**“Prevent Page Scrolling When a Modal is 
   slug-hash="KLGKqJ"
   title="Avoid body scrollable in safari when modal dialog shown"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The problem is that the dialog itself is not a scroll container. If it was, we could slap `overscroll-behavior: contain` on it and be done with it. Brad demoed his solution that involved a JavaScript-y approach that sets the `<body>` to fixed positioning when the dialog is in an open state:
 
@@ -79,7 +79,7 @@ The problem is that the dialog itself is not a scroll container. If it was, we c
   slug-hash="LogERe"
   title="Avoid body scrollable in safari when modal dialog shown"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s the tweak Bramus is talking about. In Chrome 144, that’s no longer the case. Going back to that first demo, we can do a couple of things to avoid all the JS mumbo-jumbo.
 
@@ -111,7 +111,7 @@ Chrome 144 needed, of course:
   slug-hash="WbwzERb"
   title="Avoid body scrollable in safari when modal dialog shown (using overscroll-behavior)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The demo that Bramus provided is much, much better as it deals with the actual HTML `<dialog>` element and its [<VPIcon icon="iconfont icon-css-tricks"/>`::backdrop`](https://css-tricks.com/almanac/pseudo-selectors/b/backdrop/):
 
@@ -120,7 +120,7 @@ The demo that Bramus provided is much, much better as it deals with the actual H
   slug-hash="QwNMroY"
   title="Use `overscroll-behavior: contain;` on `::backdrop` to prevent a page from scrolling when a <dialog> is open!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

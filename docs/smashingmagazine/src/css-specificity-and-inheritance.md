@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2010/04/css-specificity-and-inheritance

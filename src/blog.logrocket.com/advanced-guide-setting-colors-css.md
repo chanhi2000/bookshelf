@@ -206,7 +206,7 @@ Try mixing HWB colors through the CodePen below. Note that HWB can only be seen 
   slug-hash="bGoOWzJ"
   title="HWB Color Playground"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But, why use HWB instead of something like HSL, which arguably provides more granular controls because it allows you to adjust the saturation of the color? Well, the reason HWB was designed was to be [<VPIcon icon="fas fa-globe"/>more intuitive for humans to use and faster to compute than other methods](https://drafts.csswg.org/css-color/#the-hwb-notation).
 
@@ -256,7 +256,7 @@ Here are our examples from before but with LAB added:
   slug-hash="GRMPEyb"
   title="LAB Color Playground"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```css
 /* Dark Red */
@@ -280,7 +280,7 @@ lab(46% 17 -63);
   slug-hash="NWaejjE"
   title="CSS Colour Values"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### LCH
 
@@ -344,7 +344,7 @@ If you are using Safari, you can view the LCH color rendered in the CodePen belo
   slug-hash="NWaejjE"
   title="CSS Colour Values"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

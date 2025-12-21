@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2022/06/simplify-color-palette-css-color-mix

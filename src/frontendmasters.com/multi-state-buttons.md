@@ -87,7 +87,7 @@ Below is a basic control we’ll be coding towards to demonstrate the technique.
   slug-hash="yLmwMww"
   title="Muti-state control (three states)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```html
 <div class="control">
@@ -190,7 +190,7 @@ Below is a prototype for a tag cluster composed of three-state tags designed to 
   slug-hash="yLmwMZZ"
   title="Muti-state control (tag cloud)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

@@ -157,7 +157,7 @@ This demo actually has four animations. One to morph the star to a check, one to
   slug-hash="vYvqEX"
   title="Shape Morph Button"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Would be pretty cool for charts, like this [<VPIcon icon="fas fa-globe"/>old Raphael demo](http://raphaeljs.com/chart.html):
 

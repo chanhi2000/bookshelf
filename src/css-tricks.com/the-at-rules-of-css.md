@@ -222,7 +222,17 @@ Or applying styles only to the document when it is printed:
 <!-- TODO: /css-tricks.com/nested-media-queries.md -->
 <!-- TODO: /css-tricks.com/the-new-css-media-query-range-syntax.md -->
 <!-- TODO: /css-tricks.com/logic-in-css-media-queries.md -->
-<!-- TODO: /css-tricks.com/introduction-reduced-motion-media-query.md -->
+
+```component VPCard
+{
+  "title": "An Introduction to the Reduced Motion Media Query",
+  "desc": "The open web's success is built on interoperable technologies. The ability to control animation now exists alongside important features such as zooming",
+  "link": "/css-tricks.com/introduction-reduced-motion-media-query.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
 <!-- TODO: /css-tricks.com/bandwidth-media-queries.md -->
 <!-- TODO: /css-tricks.com/animated-media-queries.md -->
 <!-- TODO: /css-tricks.com/css-media-queries.md -->

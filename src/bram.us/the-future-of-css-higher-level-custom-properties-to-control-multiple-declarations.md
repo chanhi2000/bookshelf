@@ -289,7 +289,7 @@ Here’s a pen that applies his technique, with some cleaned up property names:
   slug-hash="GRjPPBB"
   title="3. Binary Custom Properties + “The CSS Custom Property Toggle Trick” (Renamed)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Thanks for clarifying James0x57, as I only understood half of your hack before 😅
 

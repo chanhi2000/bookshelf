@@ -126,7 +126,7 @@ Now what if we keep increasing the radius? We get a Rhombus shape at`50%`.
   slug-hash="OPVZwxg"
   title="Octagon and rhombus shapes"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Some of you might ask if this method is better than what we already have. In[<VPIcon icon="fas fa-globe"/>my shape collection](https://css-shape.com/), you can easily find the code of the above shapes made using`clip-path`so why another method?
 
@@ -143,7 +143,7 @@ Here are the rhombus and octagon shapes with borders:
   slug-hash="PwqevXP"
   title="Adding border to octagon and rhombus"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note how we can have a border-only version if we keep the background transparent and we can also apply the shape to an image as well. Cool, right?
 
@@ -172,7 +172,7 @@ We can definitely say that we have [**the easiest and simplest way to create hex
   slug-hash="yyNjgzR"
   title="Hexagon shapes (with border!)"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Triangles
 
@@ -198,7 +198,7 @@ Below is a demo with many examples. Try to create some of them before checking m
   slug-hash="yyNjmLw"
   title="Triangle shapes using corner-shape"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The only caveat with triangle shapes is that the border is not perfect. It may sound like a bug but it’s not. I won’t detail the logic behind this but if you want to add a border, you may need a different thickness for one or many sides.
 
@@ -209,7 +209,7 @@ Here is an example with one of the triangle shapes where I am increasing the thi
   slug-hash="LEVmwNb"
   title="Adding border to triangles"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As you can see in the code, there is a math formula to get the correct thickness but since it will be a different formula for each triangle shape, I won’t bother you with a boring explanation. Plus you can easily (and rapidly) get a good result with some trial & error. No need to be very precise.
 
@@ -224,7 +224,7 @@ Example with a slanted edge where the slant keeps the same size whatever the ele
   slug-hash="VYLxoPW"
   title="Slanted edge"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The code is a simple as:
 
@@ -253,7 +253,7 @@ Using the same logic we can have an arrow-like box:
   slug-hash="vEOjoWp"
   title="Arrow-like box"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Trapezoid & Parallelogram
 
@@ -275,7 +275,7 @@ Also trapezoid & parallelogram shapes:
   slug-hash="WbvJVdW"
   title="Trapezoid & Parallelogram"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -290,7 +290,7 @@ I will end the article with a last demo where I combine`bevel`and`notch`to creat
   slug-hash="WbvyNMM"
   title="Arrow shape"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 What about you? Can you think about a cool shape using`corner-shape`?
 
