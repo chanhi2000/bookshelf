@@ -1,5 +1,5 @@
 ---
-lang: ko-KR
+lang: en-US
 title: The End Of My Gatsby Journey
 description: Article(s) > The End Of My Gatsby Journey
 icon: iconfont icon-gatsby

@@ -1563,6 +1563,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "how-to-use-genui-in-flutter-to-build-dynamic-ai-driven-interfaces", // 2025-12-24
+    "build-a-support-agent-with-vercel-ai-sdk", // 2025-12-24
+    "how-to-test-and-improve-ai-applications-with-an-evaluation-flywheel", // 2025-12-22
     "what-firewalls-really-do-and-why-every-network-still-needs-them", // 2025-12-20
     "how-to-build-a-real-time-ai-gym-coach-with-vision-agents", // 2025-12-20
     "create-a-2d-pixel-art-game-in-unity", // 2025-12-19
@@ -3478,6 +3481,7 @@ export const template: SidebarInfoTemplate = {
       "intro-to-backend-web-development-nodejs-express-mongodb", // 2025-11-18
       HOW_TO_USE_TO_DOCKER_WITH_NODEJS_HANDBOOK, // 2025-11-19
       "how-to-build-a-secure-authentication-system-with-jwt-and-refresh-tokens", // 2025-11-26
+      "build-a-support-agent-with-vercel-ai-sdk", // 2025-12-24
       // END: 2025js-express
       // END: js-express
     ]],[
@@ -3809,6 +3813,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-work-with-yaml-in-python-a-guide-with-examples", // 2025-12-11
       "how-to-perform-secure-hashing-using-pythons-hashlib-module", // 2025-12-16
       "how-to-build-a-real-time-ai-gym-coach-with-vision-agents", // 2025-12-20
+      "how-to-test-and-improve-ai-applications-with-an-evaluation-flywheel", // 2025-12-22
       // END: 2025py
       // END: py
     ]],[
@@ -4028,6 +4033,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-manage-assets-in-flutter-using-fluttergen", // 2025-10-29
       "how-to-use-streams-in-flutter", // 2025-10-30
       THEMING_AND_CUSTOMIZATION_IN_FLUTTER_A_HANDBOOK_FOR_DEVELOPERS, // 2025-11-27
+      "how-to-use-genui-in-flutter-to-build-dynamic-ai-driven-interfaces", // 2025-12-24
       // END: 2025dart
       // END: dart
     ]],[
@@ -5308,6 +5314,8 @@ export const template: SidebarInfoTemplate = {
       "how-to-compress-your-prompts-and-reduce-llm-costs", // 2025-11-19
       HOW_TO_USE_NLP_TECHNIQUES_AND_TOOLS_IN_YOUR_PROJECTS_FULL_HANDBOOK, // 2025-11-22
       "become-an-ai-researcher", // 2025-12-05
+      "how-to-test-and-improve-ai-applications-with-an-evaluation-flywheel", // 2025-12-22
+      "build-a-support-agent-with-vercel-ai-sdk", // 2025-12-24
       // END: 2025llm
       // END: llm
     ]],[

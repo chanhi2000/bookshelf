@@ -182,6 +182,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "text-decoration-inset-is-like-padding-for-text-decorations", // 2025-12-22
     "masonry-layout-is-now-grid-lanes", // 2025-12-19
     "search-css-tricks-raycast-extension", // 2025-12-18
     "responsive-list-of-avatars-using-modern-css-part-2", // 2025-12-17
@@ -366,6 +367,7 @@ export const template: SidebarInfoTemplate = {
       "responsive-list-of-avatars-using-modern-css-part-2", // 2025-12-17
       "search-css-tricks-raycast-extension", // 2025-12-18
       "masonry-layout-is-now-grid-lanes", // 2025-12-19
+      "text-decoration-inset-is-like-padding-for-text-decorations", // 2025-12-22
       // END: 2025css
       // END: css
     ]],[

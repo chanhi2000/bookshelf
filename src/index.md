@@ -59,6 +59,10 @@ projects:
     name: smashingmagazine.com
     desc: "Smashing Magazine — For Web Designers And Developers"
     link: /smashingmagazine.com/README.md
+  - icon: https://typescript.tv/_astro/android-chrome-192x192.BhQ8hcWh.png
+    name: typescript.tv
+    desc: "🚀 Ideal for beginners or advanced TypeScript programmers, our coding course guarantees something new for everyone."
+    link: /typescript.tv/README.md
   - icon: /assets/image/blog.logrocket.com/favicon.png
     name: blog.logrocket.com
     desc: "LogRocket Blog - Resources to Help Product Teams Ship Amazing Digital Experiences"
