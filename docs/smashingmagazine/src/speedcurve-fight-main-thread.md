@@ -273,7 +273,7 @@ The basic idea is to avoid bundling JavaScript as a monolithic concatenated file
 Both are ways to load JavaScript without blocking the DOM. But they are different! Adding the `async` attribute to a `<script>` tag will load the script asynchronously, executing it as soon as it's downloaded. That's different from the `defer` attribute, which is also asynchronous but waits until the DOM is fully loaded before it executes.
 
 - “[How And When To Use Async And Defer Attributes](https://zellwk.com/blog/javascript-async-and-defer/),” Zell Liew
-- “[Eliminate Render-Blocking JavaScript With Async And Defer](https://digitalocean.com/community/tutorials/html-defer-async),” (DigitalOcean)
+- “[**Eliminate Render-Blocking JavaScript With Async And Defer**](/digitalocean.com/html-defer-async.md),” (DigitalOcean)
 - “[Optimize Long Tasks](https://web.dev/optimize-long-tasks/),” Jeremy Wagner
 - “[Efficiently Load Third-party JavaScript](https://web.dev/efficiently-load-third-party-javascript/),” Milica Mihajlija
 - [Scripts: async, defer](https://javascript.info/script-async-defer) (JavaScript.info)

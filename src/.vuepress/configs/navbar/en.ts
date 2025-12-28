@@ -50,6 +50,10 @@ export const navbarEn = navbar([
         icon: 'https://smashingmagazine.com/images/favicon/favicon.svg',
         link: '/smashingmagazine.com/README.md'
       }, {
+        text: 'zeroheight.com',
+        icon: 'https://zeroheight.com/favicon.ico',
+        link: '/zeroheight.com/README.md'
+      }, {
         text: 'typescript.tv',
         icon: 'https://typescript.tv/_astro/android-chrome-192x192.BhQ8hcWh.png',
         link: '/typescript.tv/README.md'
@@ -125,6 +129,10 @@ export const navbarEn = navbar([
         text: 'css-tip.com',
         icon: 'https://css-tip.com/img/fav.png',
         link: '/css-tip.com/README.md'
+      }, {
+        text: 'nerdy.dev',
+        icon: 'https://nerdy.dev/favicon.svg',
+        link: '/nerdy.dev/README.md'
       }, {
         text: 'towardsdatascience.com',
         icon: 'https://cdn-images-1.medium.com/v2/resize:fill:128:128/1*VzTUkfeGymHP4Bvav-T-lA.png',

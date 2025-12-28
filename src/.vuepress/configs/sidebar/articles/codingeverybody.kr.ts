@@ -1,4 +1,4 @@
-import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate } from ".";
+import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
 const HTML: SidebarInfoSubgroupTemplate = { // 2022-03-02
   text: 'HTML',

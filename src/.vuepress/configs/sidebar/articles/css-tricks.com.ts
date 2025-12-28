@@ -1,4 +1,4 @@
-import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
+import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
 const SNIPPETS: SidebarInfoSubgroupTemplate = {
   text: 'Snippet(s)',
@@ -199,6 +199,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "whats-important-2", // 2025-12-31
     "text-decoration-inset-is-like-padding-for-text-decorations", // 2025-12-22
     "masonry-layout-is-now-grid-lanes", // 2025-12-19
     "search-css-tricks-raycast-extension", // 2025-12-18
@@ -267,6 +268,15 @@ const Y2025: SidebarYeargroupTemplate = {
     "revisiting-css-multi-column-layout", // 2025-01-27
   ],
 }
+
+const Y2026: SidebarYeargroupTemplate = {
+  text: '2026',
+  collapsible: true,
+  children: [
+    // END: 2026
+  ]
+}
+
 
 export const template: SidebarInfoTemplate = {
   name: "css-tricks.com",
@@ -397,7 +407,9 @@ export const template: SidebarInfoTemplate = {
       "search-css-tricks-raycast-extension", // 2025-12-18
       "masonry-layout-is-now-grid-lanes", // 2025-12-19
       "text-decoration-inset-is-like-padding-for-text-decorations", // 2025-12-22
+      "whats-important-2", // 2025-12-31
       // END: 2025css
+      // END: 2026css
       // END: css
     ]],[
     "js-astro",[
@@ -438,6 +450,7 @@ export const template: SidebarInfoTemplate = {
     "all", [
       ALMANEC_PROPERTIES,
       SNIPPETS,
+      Y2026,
       Y2025,
       Y2024,
       Y2023,

@@ -11,6 +11,8 @@ catalog:
   typescript: 5.9.3
   cpx2: 8.0.0
   concurrently: 9.2.1
+  vite: 7.1.12
+  vitest: 4.0.16
 
 catalogs:
   range:

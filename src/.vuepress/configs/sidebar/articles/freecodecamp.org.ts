@@ -306,6 +306,17 @@ const HOW_DATA_FLOWS_IN_REDUX: SidebarInfoSubgroupTemplate = { // 2024-06-04
   ],
 }
 
+const USING_ENTITY_FRAMEWORK_CORE_WITH_MONGODB: SidebarInfoSubgroupTemplate = { // 2024-09-10
+  text: 'Using Entity Framework Core with MongoDB',
+  collapsible: true,
+  icon: 'iconfont icon-blazor',
+  subPath: 'using-entity-framework-core-with-mongodb',
+  children: [
+    'README',
+    // TODO: 페이지 작성
+  ],
+}
+
 const HOW_AI_AGENTS_CAN_SUPERCHARGE_LANGUAGE_MODELS_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2024-09-10
   text: 'How AI Agents Can Help Supercharge Language Models - A Handbook for Developers',
   collapsible: true,
@@ -1558,6 +1569,14 @@ const LEARN_HOW_TO_USE_GIT_AND_GITHUB_A_BEGINNER_FRIENDLY_HANDBOOK: SidebarInfoS
   ]
 }
 
+const Y2026: SidebarYeargroupTemplate = {
+  text: '2026',
+  collapsible: true,
+  children: [
+    // END: 2026
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
@@ -2483,7 +2502,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "how-to-match-parentheses-in-javascript-without-using-regex", // 2024-08-12
     "ultimate-aws-certified-developer-associate-dva-c02-course-from-andrew-brown", // 2024-08-12
     "relative-vs-dynamic-routing-in-react", // 2024-08-12
-    "how-java-hashmaps-work-internal-mechanics-explained", // 2024-08-09
+    "how-java-hashmaps-work-internal-mechanics-explained", // 2024-08-10
     "typescript-for-beginners-guide", // 2024-08-08
     "how-to-build-an-ai-model-for-predicting-data-with-python", // 2024-08-08
     "host-your-first-project-on-github", // 2024-08-08
@@ -2501,7 +2520,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "how-to-add-jwt-based-authentication-in-nest-js", // 2024-07-31
     "learn-c-sharp-for-unity-in-spanish", // 2024-07-31
     "prompt-engineering-basics", // 2024-07-29
-    "using-entity-framework-core-with-mongodb", // 2024-07-29
+    USING_ENTITY_FRAMEWORK_CORE_WITH_MONGODB, // 2024-07-29
     "use-local-storage-in-blazor-apps", // 2024-07-29
     "build-a-crud-app-spring-boot-neon-postgres", // 2024-07-26
     "creational-design-patterns-in-java", // 2024-07-26
@@ -2639,7 +2658,7 @@ const Y2024: SidebarYeargroupTemplate = {
     JS_INTERVIEW_PREP_HANDBOOK, // 2024-05-22
     "how-to-style-react-components", // 2024-05-22
     "javascript-class-handbook", // 2024-05-20
-    "how-to-become-an-open-source-maintainer", // 2024-05-20
+    "how-to-become-an-open-source-maintainer", // 2024-05-21
     "how-to-create-a-rest-api-without-a-server", // 2024-05-20
     "how-to-make-your-flutter-package-privacy-manifest-compatible", // 2024-05-20
     "zustand-vs-usestate-how-to-manage-state-in-react", // 2024-05-15
@@ -2660,7 +2679,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "pass-the-github-actions-certification-exam", // 2024-05-08
     "deep-learning-course-math-and-applications", // 2024-05-08
     "how-to-use-git-submodules", // 2024-05-07
-    "how-js-string-concatenation-works", // 2024-05-07
+    "how-js-string-concatenation-works", // 2024-05-08
     "how-is-flutter-platform-agnostic", // 2024-05-07
     "understand-javascript-closures", // 2024-05-07
     "how-to-use-react-devtools", // 2024-05-06
@@ -2684,7 +2703,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "php-jwt-authentication-implementation", // 2024-04-24
     "procedural-macros-in-rust", // 2024-04-24
     "how-to-use-oop-in-python", // 2024-04-24
-    "how-to-add-media-to-your-html-email-template", // 2024-04-23
+    "how-to-add-media-to-your-html-email-template", // 2024-04-24
     "explore-mocking-in-net", // 2024-04-13
     "guide-to-git-github-for-beginners-and-experienced-devs", // 2024-04-06
     "create-a-developer-portfolio-as-a-2d-game", // 2024-04-04
@@ -2928,7 +2947,7 @@ export const template: SidebarInfoTemplate = {
       "multithreading-for-beginners", // 2024-07-16
       "comparable-vs-comparator-explained-in-java", // 2024-07-23
       "creational-design-patterns-in-java", // 2024-07-26
-      "how-java-hashmaps-work-internal-mechanics-explained", // 2024-08-09
+      "how-java-hashmaps-work-internal-mechanics-explained", // 2024-08-10
       "learn-java-testing-with-selenium", // 2024-08-27
       // END: 2024java
       "java-collections-framework-reference-guide", // 2025-01-29
@@ -3043,7 +3062,7 @@ export const template: SidebarInfoTemplate = {
       HOW_TO_CREATE_AN_INTERACTIVE_TERMINAL_PORTFOLIO_WEBSITE, // 2024-04-29
       "higher-order-functions-explained", // 2024-05-03
       "understand-javascript-closures", // 2024-05-07
-      "how-js-string-concatenation-works", // 2024-05-07
+      "how-js-string-concatenation-works", // 2024-05-08
       "javascript-remove-char-from-string", // 2024-05-10
       "how-to-create-objects-in-javascript",  // 2024-05-10
       "javascript-class-handbook", // 2024-05-20
@@ -3610,7 +3629,7 @@ export const template: SidebarInfoTemplate = {
       "perfect-html-input", // 2023-01-05
       "responsive-design-best-practices", // 2023-05-31
       // END: 2023css
-      "how-to-add-media-to-your-html-email-template", // 2024-04-23
+      "how-to-add-media-to-your-html-email-template", // 2024-04-24
       "how-to-create-a-mansory-layout-using-html-and-css", // 2024-06-18
       "breakpoints-for-responsive-web-design", // 2024-06-24
       "media-queries-vs-container-queries", // 2024-06-28
@@ -4121,7 +4140,6 @@ export const template: SidebarInfoTemplate = {
       "how-to-use-oop-in-c-sharp", // 2024-05-01
       "build-crud-operations-with-dotnet-core-handbook", // 2024-05-24
       "how-to-use-linq", // 2024-07-15
-      "using-entity-framework-core-with-mongodb", // 2024-07-29
       "learn-c-sharp-for-unity-in-spanish", // 2024-07-31
       "master-object-oriented-programming-and-design-patterns-in-c", // 2024-09-19
       "learn-aspnet-core-mvc-with-net-9", // 2024-10-02
@@ -4147,7 +4165,11 @@ export const template: SidebarInfoTemplate = {
       // END: cs
     ]],[
     "cs-blazor", [
+      // END: 2023cs-blazor
       "use-local-storage-in-blazor-apps", // 2024-07-29
+      USING_ENTITY_FRAMEWORK_CORE_WITH_MONGODB, // 2024-07-29
+      // END: 2024cs-blazor
+      // END: 2025cs-blazor
       // END: cs-blazor
     ]],[
     "cs-unity", [
@@ -4397,7 +4419,7 @@ export const template: SidebarInfoTemplate = {
       "guide-to-git-github-for-beginners-and-experienced-devs", // 2024-04-06
       "create-personalized-github-profile-page", // 2024-05-02
       "pass-the-github-actions-certification-exam", // 2024-05-08
-      "how-to-become-an-open-source-maintainer", // 2024-05-20
+      "how-to-become-an-open-source-maintainer", // 2024-05-21
       "how-to-create-notice-blocks-in-markdown", // 2024-06-10
       "how-to-host-static-sites-on-azure-static-web-apps", // 2024-06-18
       "how-to-set-up-a-ci-cd-pipeline-with-husky-and-github-actions", // 2024-07-15
@@ -4894,6 +4916,8 @@ export const template: SidebarInfoTemplate = {
       // END: security
     ]],[
     "security-jwt", [
+      // END: 2023security-jwt
+      "how-to-add-jwt-based-authentication-in-nest-js", // 2024-07-31
       // END: 2024security-jwt
       "the-json-web-token-handbook-learn-to-use-jwts-for-web-authentication", // 2025-10-09
       "how-to-build-a-secure-authentication-system-with-jwt-and-refresh-tokens", // 2025-11-26
@@ -5034,7 +5058,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2022mongodb
       // END: 2023mongodb
       "php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb", // 2024-06-18
-      "using-entity-framework-core-with-mongodb", // 2024-07-29
+      USING_ENTITY_FRAMEWORK_CORE_WITH_MONGODB, // 2024-07-29
+      "how-to-add-jwt-based-authentication-in-nest-js", // 2024-07-31
       "get-mongodb-url-to-connect-to-a-nodejs-application", // 2024-08-13
       "integration-tests-using-testcontainers", // 2024-08-14
       "learn-the-mern-stack-by-building-a-store", // 2024-09-04
@@ -5489,6 +5514,7 @@ export const template: SidebarInfoTemplate = {
       "linear-algebra-crash-course-mathematics-for-machine-learning-and-generative-ai", // 2024-05-28
       "how-do-numerical-conversions-work", // 2024-05-30
       "linear-algebra-roadmap", // 2024-06-04
+      "how-the-black-scholes-equation-works-python-examples", // 2024-06-17
       // END: 2024math
       "understanding-deep-learning-research-tutorial-theory-code-and-math", // 2025-01-16
       "learn-linear-algebra-for-machine-learning", // 2025-02-27
@@ -5501,6 +5527,8 @@ export const template: SidebarInfoTemplate = {
       // END: math
     ]],[
     "fnce", [
+      "fundamentals-of-finance-economics-for-businesses", // 2023-09-12
+      // END: 2023fnce
       "what-is-a-kalman-filter-with-python-code-examples", // 2024-08-07
       "how-to-generate-financial-press-reviews-using-ai", // 2024-08-20
       // END: 2024fnce

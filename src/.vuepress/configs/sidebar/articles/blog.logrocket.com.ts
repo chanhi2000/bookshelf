@@ -1,4 +1,4 @@
-import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
+import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
 const BUILDING_STYLING_TABLES_REACT_TABLE_V7: SidebarInfoSubgroupTemplate = { // 2020-04-02
   text: 'What’s new in React Table v7?',
@@ -75,6 +75,188 @@ const HOW_TO_USE_CSS_VARIABLES: SidebarInfoSubgroupTemplate = { // 2025-03-20
   ]
 }
 
+const Y2018: SidebarYeargroupTemplate = {
+  text: '2018',
+  collapsible: true,
+  children: [
+    // END: 2018
+    "using-recompose-to-write-clean-higher-order-components", // 2018-06-25
+    "how-css-works-understanding-the-cascade", // 2018-05-29
+    "how-css-works-parsing-painting-css-in-the-critical-rendering-path", // 2018-04-10
+  ]
+}
+
+const Y2019: SidebarYeargroupTemplate = {
+  text: '2019',
+  collapsible: true,
+  children: [
+    // END: 2019
+    "the-history-and-legacy-of-jquery", // 2019-08-13
+    "how-to-manipulate-css-colors-with-javascript", // 2019-03-12
+  ]
+}
+
+const Y2020: SidebarYeargroupTemplate = {
+  text: '2020',
+  collapsible: true,
+  children: [
+    // END: 2020
+    "how-the-virtual-dom-works-in-vue-js", // 2020-12-03
+    "why-you-should-adopt-react-hooks-instead-of-classes", // 2020-11-12
+    "understanding-asynchronous-javascript", // 2020-11-06
+    "benchmarking-bundlers-2020-rollup-parcel-webpack", // 2020-10-07
+    "methods-for-deep-cloning-objects-in-javascript", // 2020-10-01
+    "web-animation-with-html-css-and-javascript", // 2020-09-30
+    "react-reference-guide-refs-dom", // 2020-09-04
+    "understanding-promise-all-in-javascript", // 2020-08-20
+    "getting-started-with-vite", // 2020-07-03
+    "comparing-javascript-animation-libraries", // 2020-04-22
+    BUILDING_STYLING_TABLES_REACT_TABLE_V7, // 2020-04-02
+    "colors-in-css-present-and-future", // 2020-01-15
+  ]
+}
+
+const Y2021: SidebarYeargroupTemplate = {
+  text: '2021',
+  collapsible: true,
+  children: [
+    // END: 2021
+    "whats-new-django-v4", // 2021-12-30
+    "making-django-migrations-python", // 2021-12-17
+    "why-your-css-fails", // 2021-12-01
+    "fundamentals-functional-programming-react", // 2021-11-15
+    "using-axios-all-make-concurrent-requests", // 2021-10-26
+    "animations-react-hooks-greensock", // 2021-10-13
+    "controlled-vs-uncontrolled-components-in-react", // 2021-09-29
+    "detect-click-outside-react-component-how-to", // 2021-09-24
+    "css-margin-vs-padding", // 2021-08-24
+    "5-things-not-do-building-react-applications", // 2021-08-13
+    "using-setstate-react-components", // 2021-07-16
+    "level-up-your-css-selector-skills", // 2021-07-01
+    "guide-to-css-animation-for-javascript-developers", // 2021-06-23
+    "create-react-app-a-quick-setup-guide", // 2021-06-08
+    "a-deep-dive-into-css-modules", // 2021-06-07
+    "usestate-vs-useref", // 2021-05-24
+    "react-hooks-state-management", // 2021-05-11
+    "using-state-machines-with-xstate-and-react", // 2021-05-04
+    "understanding-common-frustrations-react-hooks", // 2021-04-26
+    "javascript-generators-the-superior-async-await", // 2021-04-14
+    "es-modules-in-node-today", // 2021-03-03
+    "react-memo-vs-usememo", // 2021-02-18
+    "managing-react-state-zustand", // 2021-02-14
+    "immer-and-immutable-js-how-do-they-compare", // 2021-01-12
+    "avoiding-common-mistakes-in-react-hooks", // 2021-01-07
+  ]
+}
+
+const Y2022: SidebarYeargroupTemplate = {
+  text: '2022',
+  collapsible: true,
+  children: [
+    // END: 2022
+    "build-inline-editable-ui-react", // 2022-12-15
+    "creating-react-context-menu", // 2022-12-05
+    "build-react-dashboard-tremor", // 2022-11-23
+    "react-createref-guide", // 2022-11-15
+    "immutability-react-should-you-mutate-objects", // 2022-10-14
+    "a-guide-to-css-pseudo-elements", // 2022-09-29
+    "hsl-hsla-vs-rgb-rgba-css", // 2022-09-16
+    "deep-dive-css-individual-transform-properties", // 2022-09-09
+    "guide-choosing-right-react-state-management-solution", // 2022-09-09
+    "css-style-button-accessibility", // 2022-09-07
+    "full-stack-bud-go", // 2022-08-31
+    "virtual-dom-react", // 2022-08-16
+    "using-react-django-create-app-tutorial", // 2022-07-15
+    "render-large-lists-react-5-methods-examples", // 2022-07-14
+    "build-react-reusable-components-faster-aspect", // 2022-07-13
+    "build-task-tracker-solidjs-typescript", // 2022-06-29
+    "complete-guide-abortcontroller-node-js", // 2022-06-06
+    BUILD_STRONGLY_TYPED_POLYMORPHIC_COMPONENTS_REACT_TYPESCRIPT, // 2022-05-25
+    "dockerizing-a-django-app", // 2022-04-08
+    "css-important-declaration-when-why", // 2022-04-06
+    "definitive-guide-typing-functions-typescript", // 2022-04-06
+    "copy-objects-in-javascript-complete-guide", // 2022-03-09
+    "improve-react-ux-skeleton-ui", // 2022-02-28
+    "deep-dive-css-specificity", // 2022-02-24
+    "intercepting-javascript-fetch-api-requests-responses", // 2022-02-18
+    "control-css-cascade-with-cascade-layers", // 2022-02-16
+    "shine-effect-only-css", // 2022-01-25
+    "advanced-guide-setting-colors-css", // 2022-01-18
+    "solving-prop-drilling-react-apps", // 2022-01-14
+  ]
+}
+
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
+  collapsible: true,
+  children: [
+    // END: 2023
+    "advanced-page-transitions-next-js-framer-motion", // 2023-12-28
+    "using-strongly-typed-vs-statically-typed-code", // 2023-12-20
+    "vite-adoption-guide", // 2023-11-29
+    "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
+    "using-css-content-visibility-boost-rendering-performance", // 2023-11-08
+    "fetch-api-node-js", // 2023-11-01
+    "complete-guide-react-refs", // 2023-10-24
+    "useeffect-react-hook-complete-guide", // 2023-10-12
+    "top-react-ui-libraries-kits", // 2023-10-05
+    "understanding-react-higher-order-components", // 2023-09-19
+    "react-toast-libraries-compared", // 2023-09-15
+    "comparing-schema-validation-libraries-zod-vs-yup", // 2023-09-05
+    "data-fetching-react-suspense", // 2023-08-03
+    "modern-guide-react-state-patterns", // 2023-07-31
+    "build-react-typescript-app-vite", // 2023-07-21
+    "react-useeffect-vs-uselayouteffect-hooks-examples", // 2023-07-12
+    "best-headless-cms-platforms", // 2023-07-05
+    "declaring-jsx-types-typescript-5-1", // 2023-06-26
+    HOW_TO_CREATE_CUSTOM_TOAST_COMPONENT_REACT, // 2023-06-21
+    "building-reusable-ui-components-with-react-hooks", // 2023-05-16
+    "implement-react-state-management-signia", // 2023-05-10
+    "understanding-prioritize-react-ui-updates", // 2023-04-17
+    "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
+    "getting-started-with-create-react-app", // 2023-03-28
+    "when-not-to-use-usememo-react-hook", // 2023-03-10
+    "exploring-anime-js-example-site-animation-project", // 2023-03-06
+    "rendering-large-lists-react-virtualized", // 2023-03-01
+    "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
+    "build-powerful-react-forms-with-informed", // 2023-02-09
+    "complete-guide-threads-node-js", // 2023-01-27
+    "creating-typewriter-animation-css", // 2023-01-12
+  ]
+}
+
+const Y2024: SidebarYeargroupTemplate = {
+  text: '2024',
+  collapsible: true,
+  children: [
+    // END: 2024
+    "5-ways-rapidly-improve-mysql-database-performance", // 2024-12-29
+    "http-requests-axios", // 2024-11-27
+    "react-onclick-event-handlers-guide", // 2024-11-26
+    "axios-vs-fetch-best-http-requests", // 2024-11-21
+    "build-micro-frontend-application-react", // 2024-11-04
+    "build-component-library-react-typescript", // 2024-10-23
+    "building-microservices-node-js", // 2024-10-22
+    "build-rest-api-node-express-mysql", // 2024-10-21
+    "understanding-redux-tutorial-examples", // 2024-10-17
+    "six-things-you-may-not-know-about-javascript", // 2024-10-16
+    "react-usereducer-hook-ultimate-guide", // 2024-10-10
+    "guide-usestate-react", // 2024-10-08
+    "how-when-to-force-react-component-re-render", // 2024-09-25
+    "use-forwardref-react", // 2024-09-24
+    "commonjs-vs-es-modules-node-js", // 2024-06-06
+    "understanding-css-revert-layer", // 2024-04-24
+    "practical-guide-typescript-decorators", // 2024-03-21
+    "django-rest-framework-create-api", // 2024-03-13
+    "modern-api-data-fetching-methods-react", // 2024-03-01
+    "building-high-performance-ecommerce-sites-astro", // 2024-02-28
+    "understanding-axios-get-requests", // 2024-02-09
+    "5-ways-make-http-requests-node-js", // 2024-02-02
+    "how-to-animate-svg-css-tutorial-examples", // 2024-01-11
+    "react-conditional-rendering-9-methods", // 2024-01-10
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
@@ -124,187 +306,6 @@ const Y2025: SidebarYeargroupTemplate = {
     "building-high-performance-websites-using-htmx-go", // 2025-02-10
     "improve-ux-with-scroll-select-box", // 2025-02-07
     "best-ci-cd-tools-react-native", // 2025-02-05
-  ]
-}
-
-const Y2024: SidebarYeargroupTemplate = {
-  text: '2024',
-  collapsible: true,
-  children: [
-    // END: 2024
-    "5-ways-rapidly-improve-mysql-database-performance", // 2024-12-29
-    "http-requests-axios", // 2024-11-27
-    "react-onclick-event-handlers-guide", // 2024-11-26
-    "axios-vs-fetch-best-http-requests", // 2024-11-21
-    "build-micro-frontend-application-react", // 2024-11-04
-    "build-component-library-react-typescript", // 2024-10-23
-    "building-microservices-node-js", // 2024-10-22
-    "build-rest-api-node-express-mysql", // 2024-10-21
-    "understanding-redux-tutorial-examples", // 2024-10-17
-    "six-things-you-may-not-know-about-javascript", // 2024-10-16
-    "react-usereducer-hook-ultimate-guide", // 2024-10-10
-    "guide-usestate-react", // 2024-10-08
-    "how-when-to-force-react-component-re-render", // 2024-09-25
-    "use-forwardref-react", // 2024-09-24
-    "commonjs-vs-es-modules-node-js", // 2024-06-06
-    "understanding-css-revert-layer", // 2024-04-24
-    "practical-guide-typescript-decorators", // 2024-03-21
-    "django-rest-framework-create-api", // 2024-03-13
-    "modern-api-data-fetching-methods-react", // 2024-03-01
-    "building-high-performance-ecommerce-sites-astro", // 2024-02-28
-    "understanding-axios-get-requests", // 2024-02-09
-    "5-ways-make-http-requests-node-js", // 2024-02-02
-    "how-to-animate-svg-css-tutorial-examples", // 2024-01-11
-    "react-conditional-rendering-9-methods", // 2024-01-10
-  ]
-}
-
-const Y2023: SidebarYeargroupTemplate = {
-  text: '2023',
-  collapsible: true,
-  children: [
-    // END: 2023
-    "advanced-page-transitions-next-js-framer-motion", // 2023-12-28
-    "using-strongly-typed-vs-statically-typed-code", // 2023-12-20
-    "vite-adoption-guide", // 2023-11-29
-    "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
-    "using-css-content-visibility-boost-rendering-performance", // 2023-11-08
-    "fetch-api-node-js", // 2023-11-01
-    "complete-guide-react-refs", // 2023-10-24
-    "useeffect-react-hook-complete-guide", // 2023-10-12
-    "top-react-ui-libraries-kits", // 2023-10-05
-    "understanding-react-higher-order-components", // 2023-09-19
-    "react-toast-libraries-compared", // 2023-09-15
-    "comparing-schema-validation-libraries-zod-vs-yup", // 2023-09-05
-    "data-fetching-react-suspense", // 2023-08-03
-    "modern-guide-react-state-patterns", // 2023-07-31
-    "build-react-typescript-app-vite", // 2023-07-21
-    "react-useeffect-vs-uselayouteffect-hooks-examples", // 2023-07-12
-    "best-headless-cms-platforms", // 2023-07-05
-    "declaring-jsx-types-typescript-5-1", // 2023-06-26
-    HOW_TO_CREATE_CUSTOM_TOAST_COMPONENT_REACT, // 2023-06-21
-    "building-reusable-ui-components-with-react-hooks", // 2023-05-16
-    "implement-react-state-management-signia", // 2023-05-10
-    "understanding-prioritize-react-ui-updates", // 2023-04-17
-    "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
-    "getting-started-with-create-react-app", // 2023-03-28
-    "when-not-to-use-usememo-react-hook", // 2023-03-10
-    "exploring-anime-js-example-site-animation-project", // 2023-03-06
-    "rendering-large-lists-react-virtualized", // 2023-03-01
-    "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
-    "build-powerful-react-forms-with-informed", // 2023-02-09
-    "complete-guide-threads-node-js", // 2023-01-27
-    "creating-typewriter-animation-css", // 2023-01-12
-  ]
-}
-
-const Y2022: SidebarYeargroupTemplate = {
-  text: '2022',
-  collapsible: true,
-  children: [
-    // END: 2022
-    "build-inline-editable-ui-react", // 2022-12-15
-    "creating-react-context-menu", // 2022-12-05
-    "build-react-dashboard-tremor", // 2022-11-23
-    "react-createref-guide", // 2022-11-15
-    "immutability-react-should-you-mutate-objects", // 2022-10-14
-    "a-guide-to-css-pseudo-elements", // 2022-09-29
-    "hsl-hsla-vs-rgb-rgba-css", // 2022-09-16
-    "deep-dive-css-individual-transform-properties", // 2022-09-09
-    "guide-choosing-right-react-state-management-solution", // 2022-09-09
-    "css-style-button-accessibility", // 2022-09-07
-    "full-stack-bud-go", // 2022-08-31
-    "virtual-dom-react", // 2022-08-16
-    "using-react-django-create-app-tutorial", // 2022-07-15
-    "render-large-lists-react-5-methods-examples", // 2022-07-14
-    "build-react-reusable-components-faster-aspect", // 2022-07-13
-    "build-task-tracker-solidjs-typescript", // 2022-06-29
-    "complete-guide-abortcontroller-node-js", // 2022-06-06
-    BUILD_STRONGLY_TYPED_POLYMORPHIC_COMPONENTS_REACT_TYPESCRIPT, // 2022-05-25
-    "dockerizing-a-django-app", // 2022-04-08
-    "css-important-declaration-when-why", // 2022-04-06
-    "definitive-guide-typing-functions-typescript", // 2022-04-06
-    "copy-objects-in-javascript-complete-guide", // 2022-03-09
-    "improve-react-ux-skeleton-ui", // 2022-02-28
-    "deep-dive-css-specificity", // 2022-02-24
-    "intercepting-javascript-fetch-api-requests-responses", // 2022-02-18
-    "control-css-cascade-with-cascade-layers", // 2022-02-16
-    "shine-effect-only-css", // 2022-01-25
-    "advanced-guide-setting-colors-css", // 2022-01-18
-    "solving-prop-drilling-react-apps", // 2022-01-14
-  ]
-}
-
-const Y2021: SidebarYeargroupTemplate = {
-  text: '2021',
-  collapsible: true,
-  children: [
-    // END: 2021
-    "whats-new-django-v4", // 2021-12-30
-    "making-django-migrations-python", // 2021-12-17
-    "why-your-css-fails", // 2021-12-01
-    "fundamentals-functional-programming-react", // 2021-11-15
-    "using-axios-all-make-concurrent-requests", // 2021-10-26
-    "animations-react-hooks-greensock", // 2021-10-13
-    "controlled-vs-uncontrolled-components-in-react", // 2021-09-29
-    "detect-click-outside-react-component-how-to", // 2021-09-24
-    "css-margin-vs-padding", // 2021-08-24
-    "using-setstate-react-components", // 2021-07-16
-    "level-up-your-css-selector-skills", // 2021-07-01
-    "guide-to-css-animation-for-javascript-developers", // 2021-06-23
-    "create-react-app-a-quick-setup-guide", // 2021-06-08
-    "a-deep-dive-into-css-modules", // 2021-06-07
-    "usestate-vs-useref", // 2021-05-24
-    "react-hooks-state-management", // 2021-05-11
-    "using-state-machines-with-xstate-and-react", // 2021-05-04
-    "understanding-common-frustrations-react-hooks", // 2021-04-26
-    "javascript-generators-the-superior-async-await", // 2021-04-14
-    "es-modules-in-node-today", // 2021-03-03
-    "react-memo-vs-usememo", // 2021-02-18
-    "managing-react-state-zustand", // 2021-02-14
-    "immer-and-immutable-js-how-do-they-compare", // 2021-01-12
-    "avoiding-common-mistakes-in-react-hooks", // 2021-01-07
-  ]
-}
-
-const Y2020: SidebarYeargroupTemplate = {
-  text: '2020',
-  collapsible: true,
-  children: [
-    // END: 2020
-    "how-the-virtual-dom-works-in-vue-js", // 2020-12-03
-    "why-you-should-adopt-react-hooks-instead-of-classes", // 2020-11-12
-    "understanding-asynchronous-javascript", // 2020-11-06
-    "benchmarking-bundlers-2020-rollup-parcel-webpack", // 2020-10-07
-    "methods-for-deep-cloning-objects-in-javascript", // 2020-10-01
-    "web-animation-with-html-css-and-javascript", // 2020-09-30
-    "react-reference-guide-refs-dom", // 2020-09-04
-    "understanding-promise-all-in-javascript", // 2020-08-20
-    "getting-started-with-vite", // 2020-07-03
-    "comparing-javascript-animation-libraries", // 2020-04-22
-    BUILDING_STYLING_TABLES_REACT_TABLE_V7, // 2020-04-02
-    "colors-in-css-present-and-future", // 2020-01-15
-  ]
-}
-
-const Y2019: SidebarYeargroupTemplate = {
-  text: '2019',
-  collapsible: true,
-  children: [
-    // END: 2019
-    "the-history-and-legacy-of-jquery", // 2019-08-13
-    "how-to-manipulate-css-colors-with-javascript", // 2019-03-12
-  ]
-}
-
-const Y2018: SidebarYeargroupTemplate = {
-  text: '2018',
-  collapsible: true,
-  children: [
-    // END: 2018
-    "using-recompose-to-write-clean-higher-order-components", // 2018-06-25
-    "how-css-works-understanding-the-cascade", // 2018-05-29
-    "how-css-works-parsing-painting-css-in-the-critical-rendering-path", // 2018-04-10
   ]
 }
 
@@ -415,6 +416,7 @@ export const template: SidebarInfoTemplate = {
       "react-hooks-state-management", // 2021-05-11
       "create-react-app-a-quick-setup-guide", // 2021-06-08
       "using-setstate-react-components", // 2021-07-16
+      "5-things-not-do-building-react-applications", // 2021-08-13
       "detect-click-outside-react-component-how-to", // 2021-09-24
       "controlled-vs-uncontrolled-components-in-react", // 2021-09-29
       "animations-react-hooks-greensock", // 2021-10-13

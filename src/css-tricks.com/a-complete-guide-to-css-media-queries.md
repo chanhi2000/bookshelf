@@ -396,7 +396,7 @@ Perhaps we want to target devices by what they do **not** support or match. This
 }
 ```
 
-Want to go deeper? Check out [<VPIcon icon="iconfont icon-digitalocean"/>“CSS Media Queries: Quick Reference & Guide”](https://digitalocean.com/community/tutorials/css-media-queries?utm_medium=content_acq&utm_source=css-tricks&utm_campaign=&utm_content=awareness_bestsellers) from the DigitalOcean community for more examples that follow the syntax for media quieries.
+Want to go deeper? Check out [**“CSS Media Queries: Quick Reference & Guide”**](/digitalocean.com/css-media-queries.md) from the DigitalOcean community for more examples that follow the syntax for media quieries.
 
 :::
 

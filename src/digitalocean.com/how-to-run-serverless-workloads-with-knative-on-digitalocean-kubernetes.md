@@ -57,7 +57,7 @@ cover: https://digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg
 
 ## Introduction
 
-[Kubernetes](https://kubernetes.io) is a powerful container orchestration tool that allows you to deploy and manage containerized applications, but it can sometimes take time to manage the underlying infrastructure. The _[serverless](https://digitalocean.com/community/tutorials/what-is-serverless)_ paradigm helps users deploy applications without having to worry about the underlying infrastructure. With the advent of Serverless 2.0, many platforms and tools now allow you to deploy serverless applications on Kubernetes.
+[Kubernetes](https://kubernetes.io) is a powerful container orchestration tool that allows you to deploy and manage containerized applications, but it can sometimes take time to manage the underlying infrastructure. The [**serverless**](/digitalocean.com/what-is-serverless.md) paradigm helps users deploy applications without having to worry about the underlying infrastructure. With the advent of Serverless 2.0, many platforms and tools now allow you to deploy serverless applications on Kubernetes.
 
 [Knative](https://knative.dev/docs) is a Kubernetes-based platform that provides components to deploy and manage serverless workloads. Knative offers open-source Kubernetes integration, cloud-agnosticism, building blocks, and extensibility. Tools like Red Hat’s [Openshift](https://www.redhat.com/en/technologies/cloud-computing/openshift) also use Knative for users to deploy their serverless workloads on top of Kubernetes.
 
@@ -69,13 +69,13 @@ In this tutorial, you will use Knative Serving to deploy a Node.js application a
 
 To complete this tutorial, you will need the following:
 
-- A DigitalOcean account that you will use to start a Kubernetes cluster with at least 4GB RAM and 2 CPU cores. If you do not have one, [sign up for a new account](https://cloud.digitalocean.com/projects). This setup will use a [DigitalOcean Kubernetes](https://digitalocean.com/products/kubernetes) cluster. To create a Kubernetes cluster in the DigitalOcean Cloud Panel, see our [Kubernetes Quickstart](https://digitalocean.com/docs/kubernetes/quickstart).
-- To follow this tutorial from a remote server, you can set up an Ubuntu 22.04 server with a non-root user and a firewall by following our [Initial Server Setup](https://digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04). To get started with a DigitalOcean Droplet, you can use our [Droplet Quickstart](https://docs.digitalocean.com/products/droplets/quickstart).
-- The DigitalOcean command-line client, [`doctl`](https://docs.digitalocean.com/reference/doctl/how-to/install), installed on your machine. The **GitHub Download** option is recommended. See [How To Use doctl](https://digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client) for more information on using `doctl`.
-- [`kubectl`](https://kubernetes.io/docs/tasks/tools) installed on your machine, which you can set up with the [Kubernetes installation docs](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux).
-- Docker installed on your machine, which you can set up by following Steps 1 and 2 of our tutorial on [How To Install and Use Docker](https://digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04).
-- A sample Node.js application set up by following the [How To Build a Node.js Application with Docker](https://digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker) tutorial for creating the application and pushing its container image to Docker Hub.
-- An account at [Docker Hub](https://hub.docker.com) for storing Docker images you’ll create during this tutorial.
+- A DigitalOcean account that you will use to start a Kubernetes cluster with at least 4GB RAM and 2 CPU cores. If you do not have one, [<VPIcon icon="iconfont icon-digitalocean"/>sign up for a new account](https://cloud.digitalocean.com/projects). This setup will use a [<VPIcon icon="iconfont icon-digitalocean"/>DigitalOcean Kubernetes](https://digitalocean.com/products/kubernetes) cluster. To create a Kubernetes cluster in the DigitalOcean Cloud Panel, see our [<VPIcon icon="iconfont icon-digitalocean"/>Kubernetes Quickstart](https://digitalocean.com/docs/kubernetes/quickstart).
+- To follow this tutorial from a remote server, you can set up an Ubuntu 22.04 server with a non-root user and a firewall by following our [**Initial Server Setup**](/digitalocean.com/initial-server-setup-with-ubuntu-22-04.md). To get started with a DigitalOcean Droplet, you can use our [<VPIcon icon="iconfont icon-digitalocean"/>Droplet Quickstart](https://docs.digitalocean.com/products/droplets/quickstart).
+- The DigitalOcean command-line client, [<VPIcon icon="iconfont icon-digitalocean"/>`doctl`](https://docs.digitalocean.com/reference/doctl/how-to/install), installed on your machine. The **GitHub Download** option is recommended. See [**How To Use `doctl`**](/digitalocean.com/how-to-use-doctl-the-official-digitalocean-command-line-client.md) for more information on using `doctl`.
+- [<VPIcon icon="iconfont icon-k8s"/>`kubectl`](https://kubernetes.io/docs/tasks/tools) installed on your machine, which you can set up with the [<VPIcon icon="iconfont icon-k8s"/>Kubernetes installation docs](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux).
+- Docker installed on your machine, which you can set up by following Steps 1 and 2 of our tutorial on [**How To Install and Use Docker**](/digitalocean.com/how-to-install-and-use-docker-on-ubuntu-22-04.md).
+- A sample Node.js application set up by following the [**How To Build a Node.js Application with Docker**](/digitalocean.com/how-to-build-a-node-js-application-with-docker.md) tutorial for creating the application and pushing its container image to Docker Hub.
+- An account at [<VPIcon icon="fa-brands fa-docker"/>Docker Hub](https://hub.docker.com) for storing Docker images you’ll create during this tutorial.
 
 :::
 
@@ -83,9 +83,9 @@ To complete this tutorial, you will need the following:
 
 ## Step 1 — Launching the DigitalOcean Kubernetes Cluster
 
-Since Knative is a Kubernetes-based platform, you will use it with a Kubernetes cluster on DigitalOcean. There are multiple ways to launch a Kubernetes cluster on DigitalOcean. You can use the [DigitalOcean Cloud interface](https://digitalocean.com/docs/kubernetes/quickstart), the DigitalOcean CLI, or the Terraform provider.
+Since Knative is a Kubernetes-based platform, you will use it with a Kubernetes cluster on DigitalOcean. There are multiple ways to launch a Kubernetes cluster on DigitalOcean. You can use the [<VPIcon icon="iconfont icon-digitalocean"/>DigitalOcean Cloud interface](https://digitalocean.com/docs/kubernetes/quickstart), the DigitalOcean CLI, or the Terraform provider.
 
-In this tutorial, you will use doctl, the DigitalOcean command-line client, to launch the Kubernetes cluster. If you have not yet installed doctl, follow the steps in the [official installation guide](https://docs.digitalocean.com/reference/doctl/how-to/install).
+In this tutorial, you will use doctl, the DigitalOcean command-line client, to launch the Kubernetes cluster. If you have not yet installed doctl, follow the steps in the [<VPIcon icon="iconfont icon-digitalocean"/>official installation guide](https://docs.digitalocean.com/reference/doctl/how-to/install).
 
 To effectively use Knative in this tutorial, you will need a Kubernetes cluster with at least **4GB RAM** and **2 CPU cores** available. You can launch a cluster named `knative-tutorial` with these specifications by running the `doctl` command with the following flags:
 

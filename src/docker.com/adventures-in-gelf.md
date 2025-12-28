@@ -62,8 +62,8 @@ When you run applications in containers, the easiest logging method is to write 
 
 Other approaches are still possible, of course; for instance:
 
-- you can use syslog, by running a syslog daemon in your container or [<VPIcon icon="fas fa-globe"/>exposing a /dev/log socket](https://jpetazzo.github.io/2014/08/24/syslog-docker/);
-- you can write to regular files and [**share these log files with your host, or with other containers, by placing them on a volume**](https://digitalocean.com/community/tutorials/how-to-work-with-docker-data-volumes-on-ubuntu-14-04);
+- you can use syslog, by running a syslog daemon in your container or [<VPIcon icon="fas fa-globe"/>exposing a `/dev/log` socket](https://jpetazzo.github.io/2014/08/24/syslog-docker/);
+- you can write to regular files and [**share these log files with your host, or with other containers, by placing them on a volume**](/digitalocean.com/how-to-work-with-docker-data-volumes-on-ubuntu-14-04.md);
 <!-- TODO: /digitalocean.com/how-to-work-with-docker-data-volumes-on-ubuntu-14-04.md -->
 - your code can directly talk to the API of a logging service.
 

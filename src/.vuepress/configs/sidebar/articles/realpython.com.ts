@@ -1,4 +1,4 @@
-import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
+import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
 const ADVANCED_GIT_FOR_PYTHONISTAS: SidebarInfoSubgroupTemplate = { // 2018-08-13
   text: "Advanced Git Tips for Python Developers",

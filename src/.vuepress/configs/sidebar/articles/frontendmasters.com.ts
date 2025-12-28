@@ -1,4 +1,4 @@
-import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
+import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
 const Y2023: SidebarYeargroupTemplate = {
   text: '2023',
@@ -129,6 +129,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "custom-elements-with-lit-html", // 2025-12-29
     "toggle-position-sticky-to-position-fixed-on-scroll", // 2025-12-24
     "exploring-multi-brand-systems-with-tokens-and-composability", // 2025-12-19
     "different-page-transitions-for-different-circumstances", // 2025-12-16
@@ -239,6 +240,16 @@ const Y2025: SidebarYeargroupTemplate = {
   ]
 }
 
+const Y2026: SidebarYeargroupTemplate = {
+  text: '2026',
+  collapsible: true,
+  children: [
+    // END: 2026
+    "important-and-css-custom-properties", // 2026-01-01
+  ]
+}
+
+
 export const template: SidebarInfoTemplate = {
   name: 'frontendmasters.com',
   faviconPath: 'https://frontendmasters.com/favicon.ico',
@@ -287,6 +298,7 @@ export const template: SidebarInfoTemplate = {
       "typescript-without-build-tools", // 2024-12-30
       // END: 2024ts
       "satisfies-in-typescript", // 2025-07-03
+      "custom-elements-with-lit-html", // 2025-12-29
       // END: 2025ts
       // END: ts
     ]],[
@@ -481,6 +493,8 @@ export const template: SidebarInfoTemplate = {
       "different-page-transitions-for-different-circumstances", // 2025-12-16
       "toggle-position-sticky-to-position-fixed-on-scroll", // 2025-12-24
       // END: 2025css
+      "important-and-css-custom-properties", // 2026-01-01
+      // END: 2026css
       // END: css
     ]],[
     "devops", [
@@ -596,6 +610,7 @@ export const template: SidebarInfoTemplate = {
       // END: career
     ]],[
     "all", [
+      Y2026,
       Y2025,
       Y2024,
       Y2023,

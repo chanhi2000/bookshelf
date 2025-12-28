@@ -1,6 +1,6 @@
 {
   "name": "@bookshelf/root",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "Bookshelf",
   "private": true,
   "license": "MIT",
@@ -21,6 +21,7 @@
     "dev:css-tricks": "pnpm --prefix ./docs/css-tricks docs:dev",
     "dev:smashingmagazine": "pnpm --prefix ./docs/smashingmagazine docs:dev",
     "dev:realpython": "pnpm --prefix ./docs/realpython docs:dev",
+    "dev:logrocket": "pnpm --prefix ./docs/logrocket docs:dev",
     "dev:yozm": "pnpm --prefix ./docs/yozm docs:dev",
     "build:shared-vuepress": "pnpm --prefix ./shared-vuepress build",
     "docs:build": "pnpm run --stream -r docs:build",
@@ -47,7 +48,9 @@
     "tsx": "catalog:",
     "typescript": "catalog:",
     "cpx2": "catalog:",
-    "concurrently": "catalog:"
+    "concurrently": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:"
   },
   "dependencies": {
     "@vuepress/plugin-photo-swipe": "catalog:vuepress",

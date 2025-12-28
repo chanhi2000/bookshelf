@@ -1,6 +1,6 @@
 {
   "name": "@bookshelf/hackingwithswift",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "Docs for hackingwithswift.com",
   "private": true,
   "license": "MIT",
@@ -35,6 +35,7 @@
     "cpx2": "catalog:"
   },
   "dependencies": {
+    "@bookshelf/shared-vuepress": "workspace:*",
     "@vuepress/plugin-photo-swipe": "catalog:vuepress",
     "@vuepress/plugin-prismjs": "catalog:vuepress",
     "baseline-status": "catalog:range",

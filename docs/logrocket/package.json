@@ -1,0 +1,57 @@
+{
+  "name": "@bookshelf/logrocket",
+  "version": "0.2.10",
+  "description": "Docs for blog.logrocket.com",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Chan hee Lee",
+    "email": "chanhi2000@gmail.com",
+    "url": "https://chanhi2000.github.io"
+  },
+  "type": "module",
+  "repository": "https://github.com/chanhi2000/bookshelf",
+  "scripts": {
+    "docs:dev": "cross-env NODE_OPTIONS='--inspect' vuepress-vite dev src",
+    "docs:clean-dev": "cross-env NODE_OPTIONS='--inspect' vuepress-vite dev src --clean-cache",
+    "docs:build": "cross-env NODE_OPTIONS=--max-old-space-size=16432 vuepress-vite build src",
+    "docs:clean-build": "cross-env NODE_OPTIONS=--max-old-space-size=16432 vuepress-vite build src --clean-cache",
+    "docs:serve": "http-server -a localhost dist -o"
+  },
+  "devDependencies": {
+    "@vuepress/helper": "catalog:vuepress",
+    "@vuepress/bundler-vite": "catalog:vuepress",
+    "@vuepress/plugin-register-components": "catalog:vuepress",
+    "axios": "catalog:",
+    "fs-extra": "catalog:range",
+    "rollup-plugin-visualizer": "5.12.0",
+    "sandpack-vue3": "3.1.12",
+    "vue": "catalog:",
+    "vuepress": "catalog:vuepress",
+    "vuepress-plugin-markdown-define2": "catalog:vuepress",
+    "vuepress-theme-hope": "catalog:vuepress",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "cpx2": "catalog:",
+    "concurrently": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:"
+  },
+  "dependencies": {
+    "@bookshelf/shared-vuepress": "workspace:*",
+    "@vuepress/plugin-photo-swipe": "catalog:vuepress",
+    "@vuepress/plugin-prismjs": "catalog:vuepress",
+    "baseline-status": "catalog:range",
+    "chart.js": "catalog:range",
+    "cross-env": "catalog:range",
+    "dashjs": "catalog:range",
+    "echarts": "catalog:range",
+    "flowchart.ts": "catalog:range",
+    "hls.js": "catalog:range",
+    "kotlin-playground": "catalog:range",
+    "mermaid": "catalog:range",
+    "sass-loader": "catalog:range",
+    "sass-embedded": "catalog:range",
+    "vidstack": "catalog:range"
+  }
+}

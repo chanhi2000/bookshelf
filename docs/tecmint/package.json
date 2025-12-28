@@ -1,6 +1,6 @@
 {
   "name": "@bookshelf/tecmint",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "Docs for tecmint.com",
   "private": true,
   "license": "MIT",
@@ -33,9 +33,12 @@
     "tsx": "catalog:",
     "typescript": "catalog:",
     "cpx2": "catalog:",
-    "concurrently": "catalog:"
+    "concurrently": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:"
   },
   "dependencies": {
+    "@bookshelf/shared-vuepress": "workspace:*",
     "@vuepress/plugin-photo-swipe": "catalog:vuepress",
     "@vuepress/plugin-prismjs": "catalog:vuepress",
     "baseline-status": "catalog:range",

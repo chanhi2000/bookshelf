@@ -8,6 +8,7 @@ import { template as TEMPLATE_FREECODECAMP } from './freecodecamp.org';
 import { template as TEMPLATE_FRONTENDMASTER } from './frontendmasters.com';
 import { template as TEMPLATE_CSS_TRICKS } from './css-tricks.com';
 import { template as TEMPLATE_SMASHINGMAGAZINE } from './smashingmagazine.com';
+import { template as TEMPLATE_ZEROHEIGHT } from './zeroheight.com';
 import { template as TEMPLATE_TYPESCRIPT_TV } from './typescript.tv';
 import { template as TEMPLATE_DIGITALOCEAN } from './digitalocean.com';
 import { template as TEMPLATE_DOCKER } from './docker.com';
@@ -25,6 +26,7 @@ import { template as TEMPLATE_BRAMUS } from './bram.us';
 import { template as TEMPLATE_UNA } from './una.im';
 import { template as TEMPLATE_JOSH_W_COMEAU} from './joshwcomeau.com';
 import { template as TEMPLATE_CSS_TIP } from './css-tip.com';
+import { template as TEMPLATE_ADAM_ARGYLE } from './nerdy.dev';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
 import { template as TEMPLATE_KAKAO_TECH } from './tech.kakao.com';
 import { template as TEMPLATE_KAKAO_PAY_TECH } from './tech.kakaopay.com';
@@ -140,7 +142,8 @@ export const articleSidebars = {
   kodeco:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_KODECO, type),
   frontendmaster:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_FRONTENDMASTER, type),
   cssTricks:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_TRICKS, type),
-  smashingmagazion:   (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_SMASHINGMAGAZINE, type),
+  smashingmagazine:   (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_SMASHINGMAGAZINE, type),
+  zeroheight:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ZEROHEIGHT, type),
   typescripttv:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TYPESCRIPT_TV, type),  
   digitalocean:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DIGITALOCEAN, type),
   docker:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DOCKER, type),
@@ -162,6 +165,7 @@ export const articleSidebars = {
   una:                (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_UNA, type),
   joshwcomeau:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_JOSH_W_COMEAU, type),
   cssTip:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_TIP, type),
+  adamArgyle:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ADAM_ARGYLE, type),
   onceupon:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ONCEUPON, type),
   d2:                 (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_D2, type),
   nhn:                (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_NHN, type),

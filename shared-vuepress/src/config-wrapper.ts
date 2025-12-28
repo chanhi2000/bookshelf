@@ -1,6 +1,6 @@
 import type { UserConfig } from "vuepress";
 import { defineUserConfig } from "vuepress";
-import { addViteOptimizeDepsInclude } from "@vuepress/helper";
+// import { addViteOptimizeDepsInclude } from "@vuepress/helper";
 import { getDirname, path } from 'vuepress/utils'
 
 /*
@@ -23,6 +23,7 @@ export const config = (
   const docsBase = !!base
       ? (`/bookshelf/${base}/` as `/${string}/`)
       : "/bookshelf/";
+  // TODO: 다 합칠 수 있다면 base를 따로 정해야 하는지?
 
   return defineUserConfig({
     // base: "/bookshelf/",

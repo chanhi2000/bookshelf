@@ -1,4 +1,14 @@
-import { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
+import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
+
+const Y2010: SidebarYeargroupTemplate = {
+  text: '2010',
+  collapsible: true,
+  children: [
+    // END: 2010
+    "when-one-word-is-more-meaningful-than-a-thousand", // 2010-07-14
+  ],
+}
+
 
 const Y2011: SidebarYeargroupTemplate = {
   text: '2011',
@@ -6,6 +16,7 @@ const Y2011: SidebarYeargroupTemplate = {
   children: [
     // END: 2011
     "an-introduction-to-object-oriented-css-oocss", // 2011-12-12
+    "html5-semantics", // 2011-11-18
   ],
 }
 
@@ -14,8 +25,10 @@ const Y2012: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2012
+    "client-side-templating", // 2012-12-05
     "road-reusable-html-components", // 2012-10-23
     "classes-where-were-going-we-dont-need-classes", // 2012-06-19
+    "a-new-front-end-methodology-bem", // 2012-04-16
   ],
 }
 
@@ -25,6 +38,7 @@ const Y2013: SidebarYeargroupTemplate = {
   children: [
     // END: 2013
     "semantic-css-with-intelligent-selectors", // 2013-08-20
+    "the-history-of-the-bem-methodolog", // 2013-02-21
   ],
 }
 
@@ -33,6 +47,7 @@ const Y2014: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2014
+    "bem-methodology-for-small-projects", // 2014-07-17
   ],
 }
 
@@ -50,6 +65,7 @@ const Y2016: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2016
+    "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
   ],
 }
 
@@ -146,6 +162,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "smashing-animations-part-7-recreating-toon-text-css-svg", // 2025-12-17
+    "smashing-animations-part-1-classic-cartoons-inspire-css", // 2025-05-07
   ],
 }
 
@@ -161,6 +179,26 @@ export const template: SidebarInfoTemplate = {
       // END: 2024sh
       // END: 2025sh
       // END: sh
+    ]],[
+    "js", [
+      "client-side-templating", // 2012-12-05
+      // END: 2012js
+      "the-history-of-the-bem-methodolog", // 2013-02-21
+      // END: 2013js
+      // END: 2014js
+      // END: 2015js
+      "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
+      // END: 2016js
+      // END: 2017js
+      // END: 2018js
+      // END: 2019js
+      // END: 2020js
+      // END: 2021js
+      // END: 2022js
+      // END: 2023js
+      // END: 2024js
+      // END: 2025js
+      // END: js
     ]],[
     "js-node", [
       "netlify-platform-primitives", // 2024-05-28
@@ -181,17 +219,24 @@ export const template: SidebarInfoTemplate = {
       // END: js-gatsby
     ]],[
     "css", [
+      // END: 2009css
+      "when-one-word-is-more-meaningful-than-a-thousand", // 2010-07-14
       // END: 2010css
+      "html5-semantics", // 2011-11-18
       "an-introduction-to-object-oriented-css-oocss", // 2011-12-12
       // END: 2011css
+      "a-new-front-end-methodology-bem", // 2012-04-16
       "classes-where-were-going-we-dont-need-classes", // 2012-06-19
       "road-reusable-html-components", // 2012-10-23
       // END: 2012css
+      "the-history-of-the-bem-methodolog", // 2013-02-21
       "semantic-css-with-intelligent-selectors", // 2013-08-20
       // END: 2013css
+      "bem-methodology-for-small-projects", // 2014-07-17
       // END: 2014css
       "getting-started-css-calc-techniques", // 2015-12-03
       // END: 2015css
+      "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
       // END: 2016css
       // END: 2017css
       // END: 2018css
@@ -212,6 +257,8 @@ export const template: SidebarInfoTemplate = {
       "css-tips-and-techniques", // 2024-06-07
       "introduction-css-scroll-driven-animations", // 2024-12-11
       // END: 2024css
+      "smashing-animations-part-1-classic-cartoons-inspire-css", // 2025-05-07
+      "smashing-animations-part-7-recreating-toon-text-css-svg", // 2025-12-17
       // END: 2025css
       // END: css
     ]],[
@@ -260,6 +307,7 @@ export const template: SidebarInfoTemplate = {
       Y2013,
       Y2012,
       Y2011,
+      Y2010,
     ]],
   ])
 }

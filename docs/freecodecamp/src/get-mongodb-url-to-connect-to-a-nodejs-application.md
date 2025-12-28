@@ -5,6 +5,7 @@ description: "Article(s) > How to Get Your MongoDB URL to Connect to Your Node.j
 icon: fa-brands fa-node
 category: 
   - Node.js
+  - Data Science
   - MongoDB
   - Article(s)
 tag: 
@@ -13,6 +14,7 @@ tag:
   - node
   - nodejs
   - node-js
+  - data-science
   - mongodb
 head:
   - - meta:

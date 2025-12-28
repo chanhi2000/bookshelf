@@ -59,6 +59,10 @@ projects:
     name: smashingmagazine.com
     desc: "Smashing Magazine — For Web Designers And Developers"
     link: /smashingmagazine.com/README.md
+  - icon: https://zeroheight.com/favicon.ico
+    name: zeroheight.com
+    desc: "zeroheight - The Design System Platform for Teams Who Scale"
+    link: /zeroheight.com/README.md
   - icon: https://typescript.tv/_astro/android-chrome-192x192.BhQ8hcWh.png
     name: typescript.tv
     desc: "🚀 Ideal for beginners or advanced TypeScript programmers, our coding course guarantees something new for everyone."
@@ -139,6 +143,9 @@ projects:
   - icon: 'https://css-tip.com/img/fav.png'
     name: 'css-tip.com'
     desc: "The best place to keep up to date with the new CSS features. Daily CSS tips and tricks to become a better web developer."
+  - icon: 'https://nerdy.dev/favicon.svg'
+    name: 'nerdy.dev'
+    desc: "Website for Adam Argyle: Teacher, Speaker, CSSWG member, and creator of Open Props and VisBug."
   - icon: 'https://substack-post-media.s3.amazonaws.com/public/images/2ea54e25-eaa6-4630-bfc0-10b8cfdce894/apple-touch-icon-1024x1024.png'
     name: 'packagemain.tech'
     desc: "Welcome to packagemain.tech, your one-stop shop for mastering Backend, Cloud, Kubernetes, Microservices, APIs, and more. We'll provide you with hands-on, practical and real-world tutorials that you can use to build your software development skills."

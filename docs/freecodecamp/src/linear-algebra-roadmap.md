@@ -3,7 +3,7 @@ lang: en-US
 title: "Practical Guide to Linear Algebra in Data Science and AI"
 description: "Article(s) > Practical Guide to Linear Algebra in Data Science and AI"
 icon: fas fa-square-root-variable
-category: 
+category:
   - Mathematics
   - Science
   - Article(s)

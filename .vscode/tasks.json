@@ -134,6 +134,28 @@
         }
       }]
     }, {
+      "label": "run blog.logrocket.com (vuepress 실행)",
+      "type": "shell",
+      "command": "pnpm run dev:logrocket",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": [{
+        "owner": "custom",
+        "pattern": {
+          "regexp": "."
+        },
+        "background": {
+          "activeOnStart": true,
+          // "beginsPattern": "Starting the development server...",
+          // "endsPattern": "Compiled successfully!"
+        }
+      }]
+    }, {
       "label": "run yozm.wishket.com (vuepress 실행)",
       "type": "shell",
       "command": "pnpm run dev:yozm",

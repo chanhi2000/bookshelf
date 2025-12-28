@@ -627,10 +627,10 @@ Have you used `calc()`? If yes, what for?
 
 ::: info Further Reading
 
-- [A Detailed Introduction To Custom Elements](https://smashingmagazine.com/2014/03/introduction-to-custom-elements/)
-- [Houdini: Maybe The Most Exciting Development In CSS](https://smashingmagazine.com/2016/03/houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of/)
-- [It’s Time To Start Using CSS Custom Properties](https://smashingmagazine.com/2017/04/start-using-css-custom-properties/)
-- [A Deep Look At The Model-View-Controller Pattern](https://smashingmagazine.com/2016/05/better-architecture-for-ios-apps-model-view-controller-pattern/)
+- [**A Detailed Introduction To Custom Elements**](/smashingmagazine.com/introduction-to-custom-elements.md)
+- [**Houdini: Maybe The Most Exciting Development In CSS**](/smashingmagazine.com/houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of.md)
+- [**It’s Time To Start Using CSS Custom Properties**](/smashingmagazine.com/start-using-css-custom-properties.md)
+- [**A Deep Look At The Model-View-Controller Pattern**](/smashingmagazine.com/better-architecture-for-ios-apps-model-view-controller-pattern.md)
 
 :::
 
