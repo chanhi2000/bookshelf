@@ -101,7 +101,7 @@ If the page is scrolling underneath the open `<dialog>`, you are not using Chrom
 
 I hope that other browser vendors follow suit here, as this solves a real problem developers have been struggling with, and [**setting `overflow: hidden` on `html` as a workaround ain’t exactly cutting it**](/frontendmasters.com/scroll-locked-dialogs.md).
 
-For reference, here’s the [<VPIcon icon="fa-brands fa-firefox"/>Gecko/Firefox Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1837436) and the [<VPIcon icon="fa-brands fa-safari"/>WebKit/Safari Bug](https://bugs.webkit.org/show_bug.cgi?id=243452).
+For reference, here’s the [<VPIcon icon="fa-brands fa-firefox" />Gecko/Firefox Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1837436) and the [<VPIcon icon="fa-brands fa-safari"/>WebKit/Safari Bug](https://bugs.webkit.org/show_bug.cgi?id=243452).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

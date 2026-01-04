@@ -254,7 +254,7 @@ Now that you’re able to log and view events that occur for each API request, h
 
 Before [<VPIcon icon="fa-brands fa-node"/>`AsyncLocalStorage`](https://nodejs.org/docs/latest-v18.x/api/async_context.html#class-asynclocalstorage), users of Express stored request context information in the `res.locals` object. With AsyncLocalStorage, Node.js provides a native way to store information that’s necessary for executing asynchronous functions. According to its documentation, it’s a performant and memory-safe implementation that involves significant optimizations that would be difficult for you to implement by yourself.
 
-When you use AsyncLocalStorage, you can store and access information in a similar manner to [<VPIcon icon="fa-brands fa-firefox"/>`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) in the browser. You pass the store value (usually an object, but it can be a primitive value, too) as the first argument and the asynchronous function that should access the store value as the second argument when you execute the `run` method.
+When you use AsyncLocalStorage, you can store and access information in a similar manner to [<VPIcon icon="fa-brands fa-firefox" />`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) in the browser. You pass the store value (usually an object, but it can be a primitive value, too) as the first argument and the asynchronous function that should access the store value as the second argument when you execute the `run` method.
 
 James Snell, one of the leading contributors of Node.js explains it further in this video [<VPIcon icon="fa-brands fa-youtube"/>Async Context Tracking in Node with Async Local Storage API](https://youtu.be/ukefzxZ_G9U).
 

@@ -105,7 +105,7 @@ Along with some light CSS that provides our layout and look and feel, it’s all
 
 Right about now is the time to start adding some JavaScript. [<VPIcon icon="fas fa-globe"/>As you can see on the app](https://jotter.space/), there’s a toggle for dark mode and light mode because although honouring the colour scheme user preference by default is useful: you should give users a choice because frankly, they might not like your dark/light mode!
 
-Next on the list of JavaScript **enhancements** of this app is offline storage, using [<VPIcon icon="fa-brands fa-firefox"/>local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to save your notes as you type. This means that if you accidentally refresh your browser: you won’t lose what you were typing. It also means that your notes will be there if you come back another time. This is especially useful for shopping lists, I find.
+Next on the list of JavaScript **enhancements** of this app is offline storage, using [<VPIcon icon="fa-brands fa-firefox" />local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to save your notes as you type. This means that if you accidentally refresh your browser: you won’t lose what you were typing. It also means that your notes will be there if you come back another time. This is especially useful for shopping lists, I find.
 
 Lastly, you can enhance it even further by using a [<VPIcon icon="fa-brands fa-google"/>service worker to make it work completely offline](https://developers.google.com/web/fundamentals/codelabs/offline) by putting all the assets into cache storage then routing all requests through the service worker. Suddenly, you’ve got an installable, progressive web app, that works offline!
 

@@ -163,7 +163,7 @@ You can see it in action in demo below, but keep in mind it can only compute the
   :default-tab="['css','result']"
   :theme="dark"/>
 
-Great, but what Firefox? The [<VPIcon icon="fa-brands fa-firefox"/>Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1827404) looks like it’s dormant, so we cannot get the ratio between two length values there.
+Great, but what Firefox? The [<VPIcon icon="fa-brands fa-firefox" />Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1827404) looks like it’s dormant, so we cannot get the ratio between two length values there.
 
 ### Extending support
 

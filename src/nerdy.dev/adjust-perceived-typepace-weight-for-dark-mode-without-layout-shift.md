@@ -68,7 +68,7 @@ Test your eyes and feel the problem space with the following demo
   slug-hash="ZYWavgP"
   title="light/dark preference empowered variable font settings"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### To test
 
@@ -121,7 +121,7 @@ Here, you'll recognize this classic issue. Hover the links in the below demo to 
   slug-hash="qEZdOPE"
   title="No CLS - bold font"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 **With variable fonts, we can use the `GRAD` axis to adjust the perceived weight of a font without changing the glyph size.**
 
@@ -138,9 +138,9 @@ So far we've only adjusted the perceived weight of a font in dark mode with a ne
   slug-hash="mdQrqvj"
   title="contrast and color-scheme preference powered variable font settings"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
-This allows us to adjust the perceived weight of a font based on the [<VPIcon icon="fa-brands fa-firefox"/>users contrast preferences](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-contrast).
+This allows us to adjust the perceived weight of a font based on the [<VPIcon icon="fa-brands fa-firefox" />users contrast preferences](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-contrast).
 
 If the user prefers more contrast, without layout shift, we can use a positive value for `GRAD` to increase the perceived thickness. In dark mode, we can use a negative value for `GRAD` to reduce the perceived thickness while still maintaining their preference.
 

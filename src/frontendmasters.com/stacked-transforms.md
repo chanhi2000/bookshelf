@@ -56,7 +56,7 @@ So I’m at [<VPIcon icon="fas fa-globe"/>CSS Day](https://cssday.nl/) in Amster
 
 I nearly forgot about it when I read Josh Comeau’s blog post [<VPIcon icon="fas fa-globe"/>Partial Keyframes](https://joshwcomeau.com/animation/partial-keyframes/), where he talks about “dynamic, composable CSS keyframes”, which, as I recall was similar to what Johannes was talking about. There is some interesting stuff in Josh’s post — I liked the stuff about comma-separating multiple animations — but alas, nothing about `animation-composition`.
 
-So I figured I’d [<VPIcon icon="fa-brands fa-twitch"/>stream](https://twitch.tv/chriscoyier) about it, and so [<VPIcon icon="fa-brands fa-youtube"/>I did that](https://youtu.be/hL2FnCnVcb4), where I literally read the [<VPIcon icon="fa-brands fa-firefox"/>`animation-composition` docs on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-composition) and played with things. I found their basic/weird demo intriguing and learned from that. Say you’ve got a *thing* and it’s got some transfoms already on it:
+So I figured I’d [<VPIcon icon="fa-brands fa-twitch"/>stream](https://twitch.tv/chriscoyier) about it, and so [<VPIcon icon="fa-brands fa-youtube"/>I did that](https://youtu.be/hL2FnCnVcb4), where I literally read the [<VPIcon icon="fa-brands fa-firefox" />`animation-composition` docs on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-composition) and played with things. I found their basic/weird demo intriguing and learned from that. Say you’ve got a *thing* and it’s got some transfoms already on it:
 
 ```css
 .thing {

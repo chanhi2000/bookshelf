@@ -145,7 +145,7 @@ You may ask, “Aren’t iframes bad?” They’re often misunderstood. While ye
 
 ### What Is an IFRAME?
 
-An [<VPIcon icon="fa-brands fa-firefox"/>iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe) (inline frame) is an HTML element that allows you to embed another HTML page within your current webpage. The whole communication between apps is strictly based on events and delivered by means of the [<VPIcon icon="fa-brands fa-firefox"/>Post Message API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage).
+An [<VPIcon icon="fa-brands fa-firefox" />iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe) (inline frame) is an HTML element that allows you to embed another HTML page within your current webpage. The whole communication between apps is strictly based on events and delivered by means of the [<VPIcon icon="fa-brands fa-firefox" />Post Message API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage).
 
 If you need to send data to another app, you simply call the `postMessage()` method on that element. On the other side, to receive a message, you just have to subscribe to the `message` event. That’s it.
 
@@ -181,7 +181,7 @@ window.parent.postMessage({
 }, '*');
 ```
 
-Here, you initialize the search app and set up two-way communication with a parent application (such as a main web app) using the [<VPIcon icon="fa-brands fa-firefox"/>Post Message API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage). You listen for incoming messages using the built-in `message` event. Once received, that message becomes available in the `event.data` object. Finally, you simulate sending data back to the parent by posting a `searchResult` message containing a list of items. This setup enables isolated iframe-based apps to communicate safely with the main shell application.
+Here, you initialize the search app and set up two-way communication with a parent application (such as a main web app) using the [<VPIcon icon="fa-brands fa-firefox" />Post Message API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage). You listen for incoming messages using the built-in `message` event. Once received, that message becomes available in the `event.data` object. Finally, you simulate sending data back to the parent by posting a `searchResult` message containing a list of items. This setup enables isolated iframe-based apps to communicate safely with the main shell application.
 
 Then, in the DOM of the main web app**,** you need to include the iframe that will render the search app, specifying the URL to the hosted search app in this way:
 
@@ -252,7 +252,7 @@ But if you want a more fluid UX, shared components, and a smoother dev experienc
 
 > “What if you could ship a self-contained natively understood widget that works in any framework — React, Vue, Angular, or plain HTML?”
 
-That’s exactly what [<VPIcon icon="fa-brands fa-firefox"/>Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) make possible. They’re natively built into the browser as an [<VPIcon icon="fa-brands fa-firefox"/>API](https://developer.mozilla.org/en-US/docs/Web/API/Web_components), you don’t need a framework or extra dependency. They allow you to create reusable, scalable, encapsulated UI elements that work just like native HTML tags.
+That’s exactly what [<VPIcon icon="fa-brands fa-firefox" />Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) make possible. They’re natively built into the browser as an [<VPIcon icon="fa-brands fa-firefox" />API](https://developer.mozilla.org/en-US/docs/Web/API/Web_components), you don’t need a framework or extra dependency. They allow you to create reusable, scalable, encapsulated UI elements that work just like native HTML tags.
 
 ![Micro-Frontend Method 2 - Web Components](https://cdn.hashnode.com/res/hashnode/image/upload/v1748773939725/8b017162-96a8-449d-b9b8-5fe8ef382e91.png)
 
@@ -1188,7 +1188,7 @@ While iframes, Web Components, single-spa, and Module Federation are the major p
 
 ### Import Maps + Native ES Modules
 
-[<VPIcon icon="fa-brands fa-firefox"/>Import Maps](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) allow you to define where modules are loaded from, directly in the browser. Combined with native ES module support, they enable zero-build micro frontend setups.
+[<VPIcon icon="fa-brands fa-firefox" />Import Maps](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) allow you to define where modules are loaded from, directly in the browser. Combined with native ES module support, they enable zero-build micro frontend setups.
 
 ```html
 <script type="importmap">

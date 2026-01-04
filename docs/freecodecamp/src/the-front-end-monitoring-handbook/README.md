@@ -155,7 +155,7 @@ The Chrome developer team has proposed a series of metrics to monitor page perfo
 - **LCP (Largest Contentful Paint)** - Time from page load start until the largest text block or image element completes rendering
 - **CLS (Cumulative Layout Shift)** - Cumulative score of all unexpected layout shifts occurring between page load start and when the [<VPIcon icon="fa-brands fa-chrome"/>page's lifecycle state](https://developer.chrome.com/docs/web-platform/page-lifecycle-api) becomes hidden
 
-We can obtain these four performance metrics through [<VPIcon icon="fa-brands fa-firefox"/>`PerformanceObserver`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver) (they can also be retrieved via `performance.getEntriesByName()`, but this method doesn't provide real-time notifications when events occur). PerformanceObserver is a performance monitoring interface used to observe performance measurement events.
+We can obtain these four performance metrics through [<VPIcon icon="fa-brands fa-firefox" />`PerformanceObserver`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver) (they can also be retrieved via `performance.getEntriesByName()`, but this method doesn't provide real-time notifications when events occur). PerformanceObserver is a performance monitoring interface used to observe performance measurement events.
 
 Let's examine each of these metrics in detail and see how to implement them in our SDK.
 
@@ -289,7 +289,7 @@ LCP considers these elements:
 - `<img>` elements
 - `<image>` elements inside `<svg>`
 - `<video>` elements (using poster images)
-- Elements with background images loaded via the [<VPIcon icon="fa-brands fa-firefox"/>`url()`](https://developer.mozilla.org/docs/Web/CSS/url\(\)) function (not using [<VPIcon icon="fa-brands fa-firefox"/>CSS gradients](https://developer.mozilla.org/docs/Web/CSS/CSS_Images/Using_CSS_gradients))
+- Elements with background images loaded via the [<VPIcon icon="fa-brands fa-firefox" />`url()`](https://developer.mozilla.org/docs/Web/CSS/url\(\)) function (not using [<VPIcon icon="fa-brands fa-firefox" />CSS gradients](https://developer.mozilla.org/docs/Web/CSS/CSS_Images/Using_CSS_gradients))
 - Block-level elements containing text nodes or other inline-level text elements
 
 ### CLS (Cumulative Layout Shift)
@@ -463,7 +463,7 @@ In most cases, the first screen rendering time can be obtained through the `load
 </script>
 ```
 
-In such cases, we cannot obtain the first screen rendering time through the `load` event. Instead, we need to use [<VPIcon icon="fa-brands fa-firefox"/>MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/MutationObserver) to get the first screen rendering time. MutationObserver triggers events when the properties of the DOM elements it's monitoring change.
+In such cases, we cannot obtain the first screen rendering time through the `load` event. Instead, we need to use [<VPIcon icon="fa-brands fa-firefox" />MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/MutationObserver) to get the first screen rendering time. MutationObserver triggers events when the properties of the DOM elements it's monitoring change.
 
 The process of calculating first screen rendering time:
 

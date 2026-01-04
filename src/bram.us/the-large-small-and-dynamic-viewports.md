@@ -185,7 +185,7 @@ Here is an up-to-date list of browser support for the `lv*`, `sv*`, and `dv*` Vi
 To stay up-to-date regarding browser support, you can follow these tracking issues:
 
 - Blink/Chromium: [<VPIcon icon="fa-brands fa-chrome"/>Issue #1093055](https://bugs.chromium.org/p/chromium/issues/detail?id=1093055) – Fixed (Closed)
-- Gecko/Firefox: [<VPIcon icon="fa-brands fa-firefox"/>Issue #1610815](https://bugzilla.mozilla.org/show_bug.cgi?id=1610815) – RESOLVED FIXED
+- Gecko/Firefox: [<VPIcon icon="fa-brands fa-firefox" />Issue #1610815](https://bugzilla.mozilla.org/show_bug.cgi?id=1610815) – RESOLVED FIXED
 - WebKit/Safari: [<VPIcon icon="fa-brands fa-safari"/>Issue #219287](https://bugs.webkit.org/show_bug.cgi?id=219287) – RESOLVED FIXED
 
 The pen below will indicate whether your browser supports CSS Dynamic Viewport Units or not:

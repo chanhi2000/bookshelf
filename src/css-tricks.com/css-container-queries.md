@@ -356,7 +356,7 @@ Browser support for CSS Container Size Queries is great. It’s just style queri
 
 - [<VPIcon icon="fa-brands fa-chrome"/>Chrome 105](https://developer.chrome.com/blog/new-in-chrome-105/) shipped on August 30, 2022, with support.
 - [<VPIcon icon="fa-brands fa-safari"/>Safari 16](https://webkit.org/blog/13152/webkit-features-in-safari-16-0/) shipped on September 12, 2022, with support.
-- [<VPIcon icon="fa-brands fa-firefox"/>Firefox 110](https://mozilla.org/en-US/firefox/110.0/releasenotes/) shipped on February 14, 2023, with support.
+- [<VPIcon icon="fa-brands fa-firefox" />Firefox 110](https://mozilla.org/en-US/firefox/110.0/releasenotes/) shipped on February 14, 2023, with support.
 
 This browser support data is from [<VPIcon icon="fas fa-globe"/>Caniuse](http://caniuse.com/#feat=css-container-queries), which has more detail. A number indicates that browser supports the feature at that version and up.
 

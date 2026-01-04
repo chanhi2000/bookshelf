@@ -124,7 +124,7 @@ Before we get into custom cursors, let’s have a look at all the available curs
 
 Hover over the boxes below to see the cursors in action:
 
-Check out [<VPIcon icon="fa-brands fa-firefox"/>the complete list of CSS cursors here.](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor#values)
+Check out [<VPIcon icon="fa-brands fa-firefox" />the complete list of CSS cursors here.](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor#values)
 
 While these cursors are useful and have some basic styling, we can certainly get more creative with custom cursors.
 

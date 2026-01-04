@@ -52,12 +52,12 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 I have some notes from various times I’ve thought about the idea of native CSS mixins so I figured I’d get ’em down on (digital) paper!
 
-For the record, they don’t really exist yet, but Miriam Suzanne [<VPIcon icon="fas fa-globe"/>says](https://oddbird.net/2024/06/11/removing-mixins/):
+For the record, they don’t really exist yet, but Miriam Suzanne [**says**](/oddbird.net/removing-mixins.md):
 
 > The CSS Working Group has agreed to move forward with CSS-native mixins.
 
 And there is a [<VPIcon icon="iconfont icon-w3c"/>spec](https://w3.org/TR/css-mixins-1/), but the spec only deals with`` css
-`@function` (which *does* [<VPIcon icon="fa-brands fa-firefox"/>exist](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@function)). Functions are a little similar but act only as a single value rather than a block of styles.
+`@function` (which *does* [<VPIcon icon="fa-brands fa-firefox" />exist](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@function)). Functions are a little similar but act only as a single value rather than a block of styles.
 
 ---
 
@@ -419,7 +419,7 @@ Like, when evaluating a `.thing`, `--val` is 1 because of inheritance, but then 
 
 ## Unmixing
 
-Miriam asks [<VPIcon icon="fas fa-globe"/>can you un-mix a mixin?](https://oddbird.net/2024/06/11/removing-mixins/) Which is a great question. It’s very worth thinking about, because if there ends up being an elegant way to do it, it makes native mixins even more powerful and a big feather in their cap above what any preprocessor can do. I don’t hate an`` css
+Miriam asks [**can you un-mix a mixin?**](/oddbird.net/removing-mixins.md) Which is a great question. It’s very worth thinking about, because if there ends up being an elegant way to do it, it makes native mixins even more powerful and a big feather in their cap above what any preprocessor can do. I don’t hate an`` css
 `@unapply` at first thought.
 
 <!-- TODO: add ARTICLE CARD -->

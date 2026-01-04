@@ -44,7 +44,7 @@ prev: /ai/deepseek/articles/README.md
 date: 2025-02-27
 isOriginal: false
 author:
-  - name: Coding Cleverly
+  - name: Coding Cleverly (@CodingCleverly)
     url : https://youtube.com/@CodingCleverly
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740666306092/460598ee-3036-4395-ad92-7c8db9e70ae0.png
 ---

@@ -511,7 +511,7 @@ a:not([aria-label]):not([aria-labelledby]) img:only-child:not([alt]):after {
 
 ::: note
 
-Buttons and links that don’t include any kind of direction for their usage — in either textual or graphical form — are pretty bogus. These final two selectors are perhaps the most complex I’ve ever written. For the hyperlink version, the selector reads something like this: “If it is a hyperlink that does not have either an `aria-label` attribute or an `aria-labelledby` attribute and it contains *only* an image as content but this image does not have an `alt` attribute, then write the ugly error message.” Also, note the use of the [<VPIcon icon="fa-brands fa-firefox"/>`:empty` selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:empty). Arguably, no element that is not self-closing should ever be left empty.
+Buttons and links that don’t include any kind of direction for their usage — in either textual or graphical form — are pretty bogus. These final two selectors are perhaps the most complex I’ve ever written. For the hyperlink version, the selector reads something like this: “If it is a hyperlink that does not have either an `aria-label` attribute or an `aria-labelledby` attribute and it contains *only* an image as content but this image does not have an `alt` attribute, then write the ugly error message.” Also, note the use of the [<VPIcon icon="fa-brands fa-firefox" />`:empty` selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:empty). Arguably, no element that is not self-closing should ever be left empty.
 
 :::
 

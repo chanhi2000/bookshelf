@@ -126,7 +126,7 @@ By default, every shape you define with `clip-path` is calculated relative to th
 
 ::: note
 
-Note that you’re not limited to the border-box; the `clip-path` property also accepts an optional [<VPIcon icon="fa-brands fa-firefox"/>`<geometry-box>`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path#geometry-box) value, which lets you choose the reference box for your shape, giving you more control over how the clip is applied.
+Note that you’re not limited to the border-box; the `clip-path` property also accepts an optional [<VPIcon icon="fa-brands fa-firefox" />`<geometry-box>`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path#geometry-box) value, which lets you choose the reference box for your shape, giving you more control over how the clip is applied.
 
 :::
 

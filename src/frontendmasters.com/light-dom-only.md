@@ -265,7 +265,7 @@ Jim Neilsen used Light DOM only, found it useful, and even felt weird about it (
 
 ::: info Jim Neilsen (<VPIcon icon="fas fa-globe"/><code>blog.jim-nielsen.com</code>)
 
-> Maybe I shouldn’t be using the term “web component” for what I’ve done here. I’m not using shadow DOM. I’m not using the templates or slots. I’m really only using[<VPIcon icon="fa-brands fa-firefox"/>custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)to attach functionality to a specific kind of component.
+> Maybe I shouldn’t be using the term “web component” for what I’ve done here. I’m not using shadow DOM. I’m not using the templates or slots. I’m really only using[<VPIcon icon="fa-brands fa-firefox" />custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)to attach functionality to a specific kind of component.
 > 
 > But it still kinda feels like web components. All of this could’ve been accomplished with regular ole’ web techniques
 

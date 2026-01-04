@@ -8,6 +8,7 @@ import { template as TEMPLATE_FREECODECAMP } from './freecodecamp.org';
 import { template as TEMPLATE_FRONTENDMASTER } from './frontendmasters.com';
 import { template as TEMPLATE_CSS_TRICKS } from './css-tricks.com';
 import { template as TEMPLATE_SMASHINGMAGAZINE } from './smashingmagazine.com';
+import { template as TEMPLATE_ODD_BIRD } from './oddbird.net';
 import { template as TEMPLATE_ZEROHEIGHT } from './zeroheight.com';
 import { template as TEMPLATE_TYPESCRIPT_TV } from './typescript.tv';
 import { template as TEMPLATE_DIGITALOCEAN } from './digitalocean.com';
@@ -143,6 +144,7 @@ export const articleSidebars = {
   frontendmaster:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_FRONTENDMASTER, type),
   cssTricks:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_TRICKS, type),
   smashingmagazine:   (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_SMASHINGMAGAZINE, type),
+  oddBird:            (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ODD_BIRD, type),
   zeroheight:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ZEROHEIGHT, type),
   typescripttv:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TYPESCRIPT_TV, type),  
   digitalocean:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DIGITALOCEAN, type),

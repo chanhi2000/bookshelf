@@ -61,6 +61,7 @@ const Y2021: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2021
+    "custom-events-in-javascript-a-complete-guide", // 2021-01-01
   ]
 }
 
@@ -78,6 +79,7 @@ const Y2019: SidebarYeargroupTemplate = {
   children: [
     // END: 2019
     "react-usememo", // 2019-12-06
+    "docker-for-front-end-developers", // 2019-08-20
     "react-learning-react-memo", // 2019-08-15
   ]
 }
@@ -171,6 +173,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2019js-react
       "react-keep-react-fast", // 2020-03-08
       // END: 2020js-react
+      "custom-events-in-javascript-a-complete-guide", // 2021-01-01
       // END: 2021js-react
       // END: 2022js-react
       // END: 2023js-react
@@ -179,9 +182,11 @@ export const template: SidebarInfoTemplate = {
       // END: js-react
     ]],[
     "js-node", [
-      "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
+      "docker-for-front-end-developers", // 2019-08-20
+      // END: 2019js-node
       // END: 2020js-node
       // END: 2021js-node
+      "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
       // END: 2022js-node
       "how-to-scale-node-js-applications-with-clustering", // 2023-02-11
       // END: 2023js-node
@@ -298,6 +303,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2016docker
       // END: 2017docker
       // END: 2018docker
+      "docker-for-front-end-developers", // 2019-08-20
       // END: 2019docker
       // END: 2020docker
       // END: 2021docker

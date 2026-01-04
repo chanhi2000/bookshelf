@@ -74,7 +74,7 @@ The basic structure of our toast list will consist of a wrapper element that act
 </div>
 ```
 
-If you notice, we are also using the [<VPIcon icon="fa-brands fa-firefox"/>`aria-live` [attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) for our toast list, just to indicate to the screen reader that the list will update with time. Later on, we will use this structure to construct the JSX for the toast list component.
+If you notice, we are also using the [<VPIcon icon="fa-brands fa-firefox" />`aria-live` [attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) for our toast list, just to indicate to the screen reader that the list will update with time. Later on, we will use this structure to construct the JSX for the toast list component.
 
 ---
 

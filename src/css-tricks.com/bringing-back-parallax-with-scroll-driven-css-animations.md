@@ -107,7 +107,7 @@ By default, CSS animations are duration-based and run when the specified selecto
 
 We do not want our animation to be triggered immediately. Instead, we intend to use the page’s scroll position as a reference to calculate the animation’s progress.
 
-Scroll-driven animations provide two new **animation timeline** CSS functions. These additions, [<VPIcon icon="iconfont icon-css-tricks"/>`view()`](https://css-tricks.com/almanac/functions/v/view/) and [<VPIcon icon="iconfont icon-css-tricks"/>`scroll()`](https://css-tricks.com/almanac/functions/s/scroll/), tell the browser what to reference when calculating the progress of a CSS animation. We will use the `view()` function later, but for now, let’s focus on `scroll()`. The [<VPIcon icon="fa-brands fa-firefox"/>scroll progress timeline](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/scroll) couples the progression of an animation to the user’s scroll position within a scroll container. Parameters can be included to change the scroll axis and container element, but these are not necessary for our implementation.
+Scroll-driven animations provide two new **animation timeline** CSS functions. These additions, [<VPIcon icon="iconfont icon-css-tricks"/>`view()`](https://css-tricks.com/almanac/functions/v/view/) and [<VPIcon icon="iconfont icon-css-tricks"/>`scroll()`](https://css-tricks.com/almanac/functions/s/scroll/), tell the browser what to reference when calculating the progress of a CSS animation. We will use the `view()` function later, but for now, let’s focus on `scroll()`. The [<VPIcon icon="fa-brands fa-firefox" />scroll progress timeline](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/scroll) couples the progression of an animation to the user’s scroll position within a scroll container. Parameters can be included to change the scroll axis and container element, but these are not necessary for our implementation.
 
 Let’s use a scroll progress timeline for our animation:
 
@@ -168,7 +168,7 @@ That looks pretty good, but there is a problem with the header content flashing 
 
 <VidStack src="youtube/lclrA2ey0_A" />
 
-We can solve this by adding an `inset` parameter to the `view()` function. This adjusts the size of the container in which the animation will take place. According to [<VPIcon icon="fa-brands fa-firefox"/>MDN’s documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/view#inset), the “inset is used to determine whether the element is in view which determines the length of the animation timeline. In other words, the animation lasts as long as the element is in the inset-adjusted view.”
+We can solve this by adding an `inset` parameter to the `view()` function. This adjusts the size of the container in which the animation will take place. According to [<VPIcon icon="fa-brands fa-firefox" />MDN’s documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/view#inset), the “inset is used to determine whether the element is in view which determines the length of the animation timeline. In other words, the animation lasts as long as the element is in the inset-adjusted view.”
 
 So, by using a negative value, we make the container larger than the window and trigger the animation to start a little before and end a little after the subject is visible. This accounts for the fact that the subject moves during the animation.
 
@@ -190,7 +190,7 @@ Now both the text and background animate smoothly at different speeds.
 
 ## Adjusting animations using animation ranges
 
-So far, we have employed both **scroll** and **view** progress timelines. Let’s look at another way to adjust the start and end timing of the animations using the [<VPIcon icon="fa-brands fa-firefox"/>`animation-range`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range) property. It can be used to modify where along the timeline the animation will start and end.
+So far, we have employed both **scroll** and **view** progress timelines. Let’s look at another way to adjust the start and end timing of the animations using the [<VPIcon icon="fa-brands fa-firefox" />`animation-range`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range) property. It can be used to modify where along the timeline the animation will start and end.
 
 We’ll start by adding a `view()` timeline animation to the `#spaceship` emoji:
 

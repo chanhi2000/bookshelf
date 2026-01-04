@@ -90,7 +90,7 @@ The `clamp()` function is like a combination of `min()` and `max()` in a very us
 
 So it’s a bit like `clamp(smallest, relative, largest)`. One may think of it as a shorthand for `min(max(a,x),b)`. [<VPIcon icon="iconfont icon-webdev"/>Here’s more info on all that](https://web.dev/min-max-clamp/) if you’d like to read more.
 
-We’re also going to use another CSS tool pretty heavily in this article: [<VPIcon icon="fa-brands fa-firefox"/>CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/var). Those are the things like `--color: red;` or `--distance: 20px`. Variables, essentially. We’ll be using them to keep the CSS cleaner, like not repeating ourselves too much.
+We’re also going to use another CSS tool pretty heavily in this article: [<VPIcon icon="fa-brands fa-firefox" />CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/var). Those are the things like `--color: red;` or `--distance: 20px`. Variables, essentially. We’ll be using them to keep the CSS cleaner, like not repeating ourselves too much.
 
 Let’s get started with this Raven Technique.
 

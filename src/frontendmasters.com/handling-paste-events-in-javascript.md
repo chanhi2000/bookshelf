@@ -85,7 +85,7 @@ That’s the easy part. Note that as with most event-related handlers, if you wa
 
 ## Working with the Event
 
-So you’re listening for the paste event and want to do something with it, how do you begin? When the event fires, it contains a[<VPIcon icon="fa-brands fa-firefox"/>`clipboardData`](https://developer.mozilla.org/en-US/docs/Web/API/ClipboardEvent/clipboardData)object. There are two main things we can do with this object:
+So you’re listening for the paste event and want to do something with it, how do you begin? When the event fires, it contains a[<VPIcon icon="fa-brands fa-firefox" />`clipboardData`](https://developer.mozilla.org/en-US/docs/Web/API/ClipboardEvent/clipboardData)object. There are two main things we can do with this object:
 
 - Read textual data from it using a method,`getData`
 - Check for a pasted*file*using the`files`property
@@ -96,7 +96,7 @@ Let’s take a quick look at working with text.
 
 ## Getting Text of a Pasted Event
 
-The[<VPIcon icon="fa-brands fa-firefox"/>`getData`](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/getData)method accepts one attribute, the format of the data to retrieve.
+The[<VPIcon icon="fa-brands fa-firefox" />`getData`](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/getData)method accepts one attribute, the format of the data to retrieve.
 
 For example, to read the text of the clipboard:
 
@@ -199,7 +199,7 @@ In this case, I copied an image from my blog. While this works, there’s a bett
 
 ## Getting Files from the Clipboard
 
-So what happens when you try to paste binary data, or let’s even say a file you copied from your machine? These end up in the`clipboardData.files`property. This is an array-like[<VPIcon icon="fa-brands fa-firefox"/>FileList](https://developer.mozilla.org/en-US/docs/Web/API/FileList)object which matches what you get from an input form field with`type=file`or when you drag and drop into the browser. Because of this, code you may have used before can be used again, which is handy.
+So what happens when you try to paste binary data, or let’s even say a file you copied from your machine? These end up in the`clipboardData.files`property. This is an array-like[<VPIcon icon="fa-brands fa-firefox" />FileList](https://developer.mozilla.org/en-US/docs/Web/API/FileList)object which matches what you get from an input form field with`type=file`or when you drag and drop into the browser. Because of this, code you may have used before can be used again, which is handy.
 
 One simple method for handling images is using a`FileReader`object, reading in the file as a data URL, and then adding it to the DOM. Let’s look at an example of that.
 

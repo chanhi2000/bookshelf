@@ -167,7 +167,7 @@ In case of any errors, the program will let us know in the console. Otherwise, `
 
 ## -how-to-implement-localstorage">How to Implement localStorage
 
-Fundamentally, `localStorage` is a feature in most web browsers (see which versions support it [<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage#browser_compatibility)) that saves information so that it is retained in the browser's memory even after the page or browser is closed.
+Fundamentally, `localStorage` is a feature in most web browsers (see which versions support it [<VPIcon icon="fa-brands fa-firefox" />here](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage#browser_compatibility)) that saves information so that it is retained in the browser's memory even after the page or browser is closed.
 
 Let's get started by editing some lines:
 

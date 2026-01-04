@@ -71,7 +71,7 @@ Often the first way new developers learn to apply colors with CSS is using the p
 }
 ```
 
-There’s a fair amount of predefined words you can use. If you’re interested in seeing them, you can check out [<VPIcon icon="fa-brands fa-firefox"/>this section on the MDN page on color.](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#color_keywords)
+There’s a fair amount of predefined words you can use. If you’re interested in seeing them, you can check out [<VPIcon icon="fa-brands fa-firefox" />this section on the MDN page on color.](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#color_keywords)
 
 ### HEX values
 

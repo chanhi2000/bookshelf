@@ -311,7 +311,7 @@ import React from "react";
 
 That looks like ES Modules code, but the fact that the value in quotes doesn’t start with an absolute URL or a `.` (a relative path) means it’s… not. It’s just a convention that we all got used to writing because JavaScript bundlers understand it to mean “that’s a thing from npm so I should go look for it in the `node_modules` folder.
 
-That’s changed now, since you can, via HTML [<VPIcon icon="fa-brands fa-firefox"/>Import Maps](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap), map the value “react” to something else via Import Maps.
+That’s changed now, since you can, via HTML [<VPIcon icon="fa-brands fa-firefox" />Import Maps](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap), map the value “react” to something else via Import Maps.
 
 So if you executed that JavaScript above from an HTML file that included an import map like this:
 

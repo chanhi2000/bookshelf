@@ -70,7 +70,7 @@ Below, I give an overview of the common JavaScript patterns and language feature
 
 These operators have been part of JavaScript for a very long time. In React, they are especially useful for conditional rendering of components.
 
-The [<VPIcon icon="fa-brands fa-firefox"/>ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) looks like this:
+The [<VPIcon icon="fa-brands fa-firefox" />ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) looks like this:
 
 ```js
 const buttonLabel = playback === "stop" ? "play " : "stop ";
@@ -90,9 +90,9 @@ else {
 
 Of course, you can use such an `if...else` statement, but the ternary operator is often the instrument of choice if you need to use a single line expression for [<VPIcon icon="fa-brands fa-react"/>conditionally rendering elements inline](https://reactjs.org/docs/conditional-rendering.html#inline-if-else-with-conditional-operator).
 
-Otherwise, you have to call a [function where you put your code for conditional rendering (<VPIcon icon="fa-brands fa-codepen" />`gaearon`)](https://codepen.io/gaearon/pen/ZpVxNq?editors=0011). In React, you can also use more complex condition logic (e.g., an [<VPIcon icon="fa-brands fa-firefox"/>`if...else` cascade](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)) and store values in variables that can be used for [conditional rendering (<VPIcon icon="fa-brands fa-codepen" />`gaearon`)](https://codepen.io/gaearon/pen/QKzAgB?editors=0010) in JSX code.
+Otherwise, you have to call a [function where you put your code for conditional rendering (<VPIcon icon="fa-brands fa-codepen" />`gaearon`)](https://codepen.io/gaearon/pen/ZpVxNq?editors=0011). In React, you can also use more complex condition logic (e.g., an [<VPIcon icon="fa-brands fa-firefox" />`if...else` cascade](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)) and store values in variables that can be used for [conditional rendering (<VPIcon icon="fa-brands fa-codepen" />`gaearon`)](https://codepen.io/gaearon/pen/QKzAgB?editors=0010) in JSX code.
 
-[<VPIcon icon="fa-brands fa-firefox"/>Logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators) `&&` or `||` are very handy for building React components.
+[<VPIcon icon="fa-brands fa-firefox" />Logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators) `&&` or `||` are very handy for building React components.
 
 ```js
 const isLoggedIn = true;
@@ -111,7 +111,7 @@ const otherUsers = isLoggedIn && users?.length > 0 && getOtherUsersComponent();
 
 Notice the `?` in the second operand `users?.length > 0`. This is [**optional chaining**](/blog.logrocket.com/optional-chaining-and-nullish-coalescing-in-javascript.md), which is not uncommon in React projects.
 
-If you return [<VPIcon icon="fa-brands fa-firefox"/>`null`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null), React doesn’t render anything. In contrast to `undefined`, `null` represents the intentional absence of any value.
+If you return [<VPIcon icon="fa-brands fa-firefox" />`null`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null), React doesn’t render anything. In contrast to `undefined`, `null` represents the intentional absence of any value.
 
 ```js
 if (shouldRenderComponent()) {
@@ -128,7 +128,7 @@ This is useful to [prevent components from rendering (<VPIcon icon="fa-brands fa
 
 ## Object literals and inline functions
 
-There are [<VPIcon icon="fa-brands fa-firefox"/>multiple ways to create objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer). Initializing objects with the literal notation looks like this:
+There are [<VPIcon icon="fa-brands fa-firefox" />multiple ways to create objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer). Initializing objects with the literal notation looks like this:
 
 ```js
 const foo = { bar: 3, hello: "world" };
@@ -184,7 +184,7 @@ foo(barFunc);
 
 ## Template literals
 
-[<VPIcon icon="fa-brands fa-firefox"/>Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), or template strings, were introduced with ES2015 and allow for creating strings with embedded JavaScript expressions. Within backticks, you can combine “hardcoded” strings with JavaScript expressions inside of `${}`.
+[<VPIcon icon="fa-brands fa-firefox" />Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), or template strings, were introduced with ES2015 and allow for creating strings with embedded JavaScript expressions. Within backticks, you can combine “hardcoded” strings with JavaScript expressions inside of `${}`.
 
 ```js
 const name = "doppelmutzi";
@@ -208,7 +208,7 @@ The latter example also uses the multiline feature so that the output has a line
 
 ## Switch statement
 
-In medium- and large-sized React applications, you’ll most likely be confronted with the [<VPIcon icon="fa-brands fa-react"/><VPIcon icon="fa-brands fa-firefox"/>`switch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) statement for managing state across components. Tools like the [<VPIcon icon="fa-brands fa-react"/>`useReducer`](https://reactjs.org/docs/hooks-reference.html#usereducer)` Hook or [<VPIcon icon="fas fa-globe"/>Redux](https://redux.js.org/) are often used for such tasks.
+In medium- and large-sized React applications, you’ll most likely be confronted with the [<VPIcon icon="fa-brands fa-react"/><VPIcon icon="fa-brands fa-firefox" />`switch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) statement for managing state across components. Tools like the [<VPIcon icon="fa-brands fa-react"/>`useReducer`](https://reactjs.org/docs/hooks-reference.html#usereducer)` Hook or [<VPIcon icon="fas fa-globe"/>Redux](https://redux.js.org/) are often used for such tasks.
 
 The following example shows a [so-called reducer function (<VPIcon icon="fa-brands fa-medium" />`async-la`)](https://medium.com/async-la/a-short-and-sour-guide-to-reducers-b5b54d3bb018) using a `switch` statement for state management. You don’t necessarily have to use `switch` statements with a reducer, but it is a well-established pattern.
 
@@ -242,7 +242,7 @@ In the above example, every case (and default) clause returns a new object, repr
 
 ## Object destructuring
 
-The principle of [<VPIcon icon="fa-brands fa-firefox"/>object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) is pretty simple. With the elegant syntax below, we can extract properties into variables.
+The principle of [<VPIcon icon="fa-brands fa-firefox" />object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) is pretty simple. With the elegant syntax below, we can extract properties into variables.
 
 ```js
 const creatures = {
@@ -337,7 +337,7 @@ Ronald Chen provides some [more insights (<VPIcon icon="fa-brands fa-medium" />`
 
 ## Array destructuring
 
-With the help of the [<VPIcon icon="fa-brands fa-firefox"/>destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment), an array can be unpacked in such a way that its values are extracted into distinct variables, like this:
+With the help of the [<VPIcon icon="fa-brands fa-firefox" />destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment), an array can be unpacked in such a way that its values are extracted into distinct variables, like this:
 
 ```js
 const array = [1, 2];
@@ -450,7 +450,7 @@ That’s probably why `useState` returns an array and not an object — to be mo
 
 ## Spread operator
 
-The [<VPIcon icon="fa-brands fa-firefox"/>spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) (`...`) allows an iterable item (e.g., an array) to be extracted into its parts and plugged into places that expect individual elements. With this syntax, you can split up object properties or array elements.
+The [<VPIcon icon="fa-brands fa-firefox" />spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) (`...`) allows an iterable item (e.g., an array) to be extracted into its parts and plugged into places that expect individual elements. With this syntax, you can split up object properties or array elements.
 
 In the next use case below, we pull out elements of an array and pass each element as individual function argument.
 
@@ -509,7 +509,7 @@ const stateAfterOrder = {
 
 ## Rest operator
 
-With the help of the [<VPIcon icon="fa-brands fa-firefox"/>rest operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) (`...`), you can merge a list of function arguments into an array. While the syntax of the rest operator is the same as the spread operator, their place of use makes all the difference.
+With the help of the [<VPIcon icon="fa-brands fa-firefox" />rest operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) (`...`), you can merge a list of function arguments into an array. While the syntax of the rest operator is the same as the spread operator, their place of use makes all the difference.
 
 If you use the operator inside of `{}` or `[]`, you use object or array spreading, respectively. On the other hand, if you use the operator with the last argument in a function signature, that is the rest parameter.
 
@@ -548,7 +548,7 @@ function renderContainer(margin, padding) {
 
 ## Function declarations, function expressions, and arrow functions
 
-A [<VPIcon icon="fa-brands fa-firefox"/>function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) looks like this:
+A [<VPIcon icon="fa-brands fa-firefox" />function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) looks like this:
 
 ```js
 function getFood(index) {
@@ -557,7 +557,7 @@ function getFood(index) {
 }
 ```
 
-In contrast, this is a [<VPIcon icon="fa-brands fa-firefox"/>function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function):
+In contrast, this is a [<VPIcon icon="fa-brands fa-firefox" />function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function):
 
 ```js
 const getFood = function(index) {
@@ -566,7 +566,7 @@ const getFood = function(index) {
 }
 ```
 
-An [<VPIcon icon="fa-brands fa-firefox"/>arrow function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) constitutes an alternative to the former two. Its advantage is in its syntactical sugar, which allows you to write functions in a more concise manner.
+An [<VPIcon icon="fa-brands fa-firefox" />arrow function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) constitutes an alternative to the former two. Its advantage is in its syntactical sugar, which allows you to write functions in a more concise manner.
 
 ```js
 const getFood = (index) => {
@@ -619,9 +619,9 @@ Another difference between function declarations/expressions and arrow function 
 
 ## Classes
 
-A [<VPIcon icon="fa-brands fa-firefox"/>class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) represents a blueprint for new objects. Variables and functions can be attached to a class and are called properties and methods, respectively. In the context of a class, the [<VPIcon icon="fa-brands fa-firefox"/>`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) keyword refers to the current instance. If you are coming from an object-oriented background, you most likely have some incorrect assumptions about it; [<VPIcon icon="fas fa-globe"/>this article](https://vojtechruzicka.com/javascript-this-keyword/) helps to demystify the `this` keyword.
+A [<VPIcon icon="fa-brands fa-firefox" />class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) represents a blueprint for new objects. Variables and functions can be attached to a class and are called properties and methods, respectively. In the context of a class, the [<VPIcon icon="fa-brands fa-firefox" />`this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) keyword refers to the current instance. If you are coming from an object-oriented background, you most likely have some incorrect assumptions about it; [<VPIcon icon="fas fa-globe"/>this article](https://vojtechruzicka.com/javascript-this-keyword/) helps to demystify the `this` keyword.
 
-A class can have a [<VPIcon icon="fa-brands fa-firefox"/>constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor) method, which represents a special kind of function to initialize new objects of the blueprint. You can instantiate the class with the [<VPIcon icon="fa-brands fa-firefox"/>`new`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) keyword. With this, the constructor is invoked (or the default constructor, if you do not provide any), and a new object is created.
+A class can have a [<VPIcon icon="fa-brands fa-firefox" />constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor) method, which represents a special kind of function to initialize new objects of the blueprint. You can instantiate the class with the [<VPIcon icon="fa-brands fa-firefox" />`new`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) keyword. With this, the constructor is invoked (or the default constructor, if you do not provide any), and a new object is created.
 
 ```js
 class Fruit {
@@ -641,7 +641,7 @@ const fruit = new Fruit();
 fruit.whatsPopular();
 ```
 
-Another crucial concept is [<VPIcon icon="fa-brands fa-firefox"/>inheritance with the class syntax](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance). With the [<VPIcon icon="fa-brands fa-firefox"/>`super`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super) keyword, you can access the parent.
+Another crucial concept is [<VPIcon icon="fa-brands fa-firefox" />inheritance with the class syntax](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance). With the [<VPIcon icon="fa-brands fa-firefox" />`super`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super) keyword, you can access the parent.
 
 ```js
 class Food {
@@ -707,7 +707,7 @@ However, if you work on legacy projects with existing class-based components or 
 
 Luckily, for React development, the relevant aspects of JavaScript classes are not very complicated. I like to use the ES2017 syntax for class components and arrow functions for methods because they [do not require (<VPIcon icon="fa-brands fa-medium" />`@joespinelli_6190`)](https://medium.com/@joespinelli_6190/using-arrow-functions-to-avoid-binding-this-in-react-5d7402eec64) use of the `bind()` method. The code gets more understandable.
 
-Consider the first example, which requires a [<VPIcon icon="fa-brands fa-firefox"/>`bind`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind); otherwise, the invocation of `this.setState` causes an error.
+Consider the first example, which requires a [<VPIcon icon="fa-brands fa-firefox" />`bind`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind); otherwise, the invocation of `this.setState` causes an error.
 
 ```js
 class Button extends React.Component {
@@ -755,7 +755,7 @@ class Button extends React.Component {
 
 ## Array functions
 
-Mastering [<VPIcon icon="fa-brands fa-firefox"/>array functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) is an important skill for React developers. [<VPIcon icon="fa-brands fa-firefox"/>`map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/map) is used in basically every React application, e.g., to loop over a list of food objects and render every single entry within an `li` tag.
+Mastering [<VPIcon icon="fa-brands fa-firefox" />array functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) is an important skill for React developers. [<VPIcon icon="fa-brands fa-firefox" />`map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/map) is used in basically every React application, e.g., to loop over a list of food objects and render every single entry within an `li` tag.
 
 The `map()` function produces a new array with the same number of elements. However, for every entry of the original entry, an operation was applied to produce new entries. The following example creates a new array with duplicated fruits for every entry.
 
@@ -765,7 +765,7 @@ const moreFruits = fruits.map(f => `${f}${f}`);
 console.log(moreFruits); // ["", "", "", ""]
 ```
 
-[<VPIcon icon="fa-brands fa-firefox"/>`filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/filter) is often used with state management because it returns a brand-new array containing only those elements of the original array that pass a provided condition.
+[<VPIcon icon="fa-brands fa-firefox" />`filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/filter) is often used with state management because it returns a brand-new array containing only those elements of the original array that pass a provided condition.
 
 ```js
 const people = [
@@ -777,7 +777,7 @@ const women = people.filter(person => person.sex === "female");
 console.log(women); /*  [{ name: "Jacky", sex: "female" }, { name: "Stephanie", sex: "female"}] */..
 ```
 
-[<VPIcon icon="fa-brands fa-firefox"/>`findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/findIndex) returns the index of the first element that passes the test; otherwise, it returns `-1`.
+[<VPIcon icon="fa-brands fa-firefox" />`findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/findIndex) returns the index of the first element that passes the test; otherwise, it returns `-1`.
 
 ```js
 const fruits = ["", "", "", "", ""];  
@@ -786,7 +786,7 @@ console.log(fruits.findIndex(fruit => fruit === "")); // -1
 console.log(fruits.findIndex(fruit => fruit === "")); // 2 (first match)
 ```
 
-[<VPIcon icon="fa-brands fa-firefox"/>`find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/find) returns the first entry that passes the test. This is useful in the context of React state management. As an example, we have a list of users. We clicked on a particular user in a list and want to display a modal dialog showing this user’s information.
+[<VPIcon icon="fa-brands fa-firefox" />`find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/find) returns the first entry that passes the test. This is useful in the context of React state management. As an example, we have a list of users. We clicked on a particular user in a list and want to display a modal dialog showing this user’s information.
 
 ```js
 const users = [
@@ -838,7 +838,7 @@ console.log(`${fruit.kind} from ${fruit.origin.country}`); //   " from Germany"
 console.log(`${meal.kind} from ${meal.origin.country}`); //  " from Germany"
 ```
 
-Objects are mutable, but you can use [<VPIcon icon="fa-brands fa-firefox"/>`Object.freeze()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) or third-party libraries like [<VPIcon icon="fas fa-globe"/>Immutable.js](https://immutable-js.github.io/immutable-js/) to make them immutable.
+Objects are mutable, but you can use [<VPIcon icon="fa-brands fa-firefox" />`Object.freeze()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) or third-party libraries like [<VPIcon icon="fas fa-globe"/>Immutable.js](https://immutable-js.github.io/immutable-js/) to make them immutable.
 
 The React team recommends you use immutable objects in multiple areas of your application design, e.g., with [<VPIcon icon="fa-brands fa-react"/><VPIcon icon="fa-brands fa-stack-overflow"/>component-based](https://reactjs.org/docs/state-and-lifecycle.html#using-state-correctly) and [<VPIcon icon="fa-brands fa-react"/><VPIcon icon="fa-brands fa-stack-overflow"/>global state](https://reactjs.org/docs/hooks-reference.html#usereducer). This is because immutability typically leads to [<VPIcon icon="fa-brands fa-stack-overflow"/>multiple architectural benefits](https://stackoverflow.com/a/34385684). And that’s why most of the developer community suggests pursuing a coding mindset of immutablity.
 
@@ -883,7 +883,7 @@ const newState = {
 
 A function passed as an argument to another function is called a [<VPIcon icon="fa-brands fa-wikipedia-w" />callback](https://en.wikipedia.org/wiki/Callback_(computer_programming)) if the function invokes the argument at a later time.
 
-[<VPIcon icon="fa-brands fa-firefox"/>setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout) gets a callback function as the first argument that is called after the timer has expired (second argument).
+[<VPIcon icon="fa-brands fa-firefox" />setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout) gets a callback function as the first argument that is called after the timer has expired (second argument).
 
 ```js
 window.setTimeout(() => console.log("I'm a callback function"), 1000); // after 1s: "I'm a callback function"

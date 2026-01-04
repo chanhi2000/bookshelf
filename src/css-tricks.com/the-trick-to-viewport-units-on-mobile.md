@@ -76,7 +76,7 @@ Safari for iOS was one of the first mobile browsers to update their implementati
 
 ::: note
 
-As of this writing, there is a [<VPIcon icon="fa-brands fa-firefox"/>ticket to address this in Firefox Android](https://bugzilla.mozilla.org/show_bug.cgi?id=1007286).
+As of this writing, there is a [<VPIcon icon="fa-brands fa-firefox" />ticket to address this in Firefox Android](https://bugzilla.mozilla.org/show_bug.cgi?id=1007286).
 
 :::
 

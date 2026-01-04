@@ -200,7 +200,7 @@ Below are a few very useful media query-related resources:
 
 - CSS-Tricks’ [<VPIcon icon="iconfont icon-css-tricks"/>Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/).
 - [<VPIcon icon="fas fa-globe"/>MQTest.io](http://mqtest.io/), to test which media features your device responds to.
-- MDN’s [<VPIcon icon="fa-brands fa-firefox"/>reference of available media features](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Media_features).
+- MDN’s [<VPIcon icon="fa-brands fa-firefox" />reference of available media features](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Media_features).
 
 ::
 

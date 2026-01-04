@@ -56,7 +56,7 @@ With `@media` queries, there’s a tight coupling of the styling of a component�
 
 With `@container` queries, we can instead tightly couple the styling of a component’s content with *the size of the component itself*, regardless of how that component fits into the larger layout. In short, you can set up components to respond to the container size without having to know the breakpoints of the overall page layout. Yay for increased isolation!
 
-Let’s think through an example to illustrate this. Pulling from [<VPIcon icon="fa-brands fa-firefox"/>Michelle Barker’s helpful MDN article about container queries](https://developer.mozilla.org/en-US/blog/getting-started-with-css-container-queries/), here’s a mockup:
+Let’s think through an example to illustrate this. Pulling from [<VPIcon icon="fa-brands fa-firefox" />Michelle Barker’s helpful MDN article about container queries](https://developer.mozilla.org/en-US/blog/getting-started-with-css-container-queries/), here’s a mockup:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2023/12/layout-desktop-01.webp?resize=1024%2C731&ssl=1)
 
@@ -70,7 +70,7 @@ Container queries can help us more easily address this sort of situation in a mu
 
 ::: note
 
-Container queries are separate from, but can be in used in combination with, [<VPIcon icon="fa-brands fa-firefox"/>the `contain` property](https://developer.mozilla.org/en-US/docs/Web/CSS/contain) The `contain` property is useful for performance and preventing re-renders and, crucially, the thing that made `@container` queries possible under the hood.
+Container queries are separate from, but can be in used in combination with, [<VPIcon icon="fa-brands fa-firefox" />the `contain` property](https://developer.mozilla.org/en-US/docs/Web/CSS/contain) The `contain` property is useful for performance and preventing re-renders and, crucially, the thing that made `@container` queries possible under the hood.
 
 :::
 
@@ -80,15 +80,15 @@ Container queries are separate from, but can be in used in combination with, [<V
 
 Before diving further into container queries, it’s important to make sure we have a good understanding of block and inline sizing as it has a large impact on the `container-type` and the container unit(s) we use.
 
-[<VPIcon icon="fa-brands fa-firefox"/>Inline size](https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size) is equivalent to width for horizontal [<VPIcon icon="fa-brands fa-firefox"/>writing mode](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode) and equivalent to the height for vertical writing modes. The [<VPIcon icon="fa-brands fa-firefox"/>block size](https://developer.mozilla.org/en-US/docs/Web/CSS/block-size) is the respective opposite.
+[<VPIcon icon="fa-brands fa-firefox" />Inline size](https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size) is equivalent to width for horizontal [<VPIcon icon="fa-brands fa-firefox" />writing mode](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode) and equivalent to the height for vertical writing modes. The [<VPIcon icon="fa-brands fa-firefox" />block size](https://developer.mozilla.org/en-US/docs/Web/CSS/block-size) is the respective opposite.
 
-Make sure you keep this in mind! The terms “block” and “inline” are from the concept of [<VPIcon icon="fa-brands fa-firefox"/>“logical properties”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values) and the direction CSS has been heading for a while.
+Make sure you keep this in mind! The terms “block” and “inline” are from the concept of [<VPIcon icon="fa-brands fa-firefox" />“logical properties”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values) and the direction CSS has been heading for a while.
 
 ---
 
 ## How to use container queries
 
-To use container queries, you must first define a [<VPIcon icon="fa-brands fa-firefox"/>`container-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/container-type) and optionally a [<VPIcon icon="fa-brands fa-firefox"/>`container-name`](https://developer.mozilla.org/en-US/docs/Web/CSS/container-name).
+To use container queries, you must first define a [<VPIcon icon="fa-brands fa-firefox" />`container-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/container-type) and optionally a [<VPIcon icon="fa-brands fa-firefox" />`container-name`](https://developer.mozilla.org/en-US/docs/Web/CSS/container-name).
 
 The `container-type` can have a value of `size`, `inline-size`, or `normal`.
 
@@ -100,7 +100,7 @@ One potential gotcha is that if you use `container-type: size` you need to add a
 
 Most often, using `container-type: inline-size` probably makes the most sense.
 
-The `container-name` is a value of the [<VPIcon icon="fa-brands fa-firefox"/>`<custom-indent>`](https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident) type (essentially some name you make up).
+The `container-name` is a value of the [<VPIcon icon="fa-brands fa-firefox" />`<custom-indent>`](https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident) type (essentially some name you make up).
 
 You can also use the `container` shorthand to define both properties. Such as:
 

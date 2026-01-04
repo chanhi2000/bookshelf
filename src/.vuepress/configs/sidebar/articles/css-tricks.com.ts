@@ -31,167 +31,13 @@ const ALMANEC_PROPERTIES: SidebarInfoSubgroupTemplate = {
   ],
 }
 
-const Y2011: SidebarYeargroupTemplate = {
-  text: '2011',
+const Y2026: SidebarYeargroupTemplate = {
+  text: '2026',
   collapsible: true,
   children: [
-    // END: 2011
-    "the-checkbox-hack", // 2011-12-21
-    "tabs-with-round-out-borders", // 2011-09-04
-  ],
-}
-
-
-const Y2012: SidebarYeargroupTemplate = {
-  text: '2012',
-  collapsible: true,
-  children: [
-    // END: 2012
-    "a-line-in-the-sand", // 2012-10-19
-  ],
-}
-
-const Y2013: SidebarYeargroupTemplate = {
-  text: '2013',
-  collapsible: true,
-  children: [
-    // END: 2013
-    "css-wishlist", // 2013-01-25
-    "the-css-overflow-property", // 2013-08-06
-  ],
-}
-
-const Y2014: SidebarYeargroupTemplate = {
-  text: '2014',
-  collapsible: true,
-  children: [
-    // END: 2014
-    "shape-blobbing-css", // 2014-10-28
-    "inheriting-box-sizing-probably-slightly-better-best-practice", // 2014-09-23
-  ],
-}
-
-const Y2015: SidebarYeargroupTemplate = {
-  text: '2015',
-  collapsible: true,
-  children: [
-    // END: 2015
-    "the-at-rules-of-css", // 2015-05-12
-    "box-sizing", // 2015-05-06
-  ],
-}
-
-const Y2016: SidebarYeargroupTemplate = {
-  text: '2016',
-  collapsible: true,
-  children: [
-    // END: 2016
-    "probably-dont-base64-svg", // 2016-07-25
-    "international-box-sizing-awareness-day", // 2016-03-04
-  ],
-}
-
-const Y2017: SidebarYeargroupTemplate = {
-  text: '2017',
-  collapsible: true,
-  children: [
-    // END: 2017
-    "dont-overthink-it-grids", // 2017-12-28
-    "collection-interesting-facts-css-grid-layout", // 2017-07-21
-    "position-sticky-2", // 2017-06-21
-    "autoprefixer", // 2017-04-13
-    "the-css-ah-ha-moment", // 2017-02-10
-    "introduction-reduced-motion-media-query", // 2017-02-10
-    "animating-svg-css", // 2017-01-07
-    "eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar", // 2017-01-05
-  ],
-}
-
-const Y2018: SidebarYeargroupTemplate = {
-  text: '2018',
-  collapsible: true,
-  children: [
-    // END: 2018
-    "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
-    "svg-shape-morphing-works", // 2018-08-28
-    "the-trick-to-viewport-units-on-mobile", // 2018-07-31
-    "responsive-components-solution-container-queries-problem", // 2018-02-28
-  ],
-}
-
-const Y2019: SidebarYeargroupTemplate = {
-  text: '2019',
-  collapsible: true,
-  children: [
-    // END: 2019
-    "the-origin-story-of-container-queries", // 2019-12-16
-    "glitch-effect-text-images-svg", // 2019-08-21
-    "introducing-css-scroll-snap-points", // 2019-07-28
-    "custom-scrollbars-in-webkit", // 2019-07-15
-    "gooey-effect", // 2019-02-22
-  ],
-}
-
-const Y2020: SidebarYeargroupTemplate = {
-  text: '2020',
-  collapsible: true,
-  children: [
-    // END: 2020
-    "the-raven-technique-one-step-closer-to-container-queries", // 2020-11-10
-    "the-css-custom-property-toggle-trick", // 2020-10-29
-    "absolute-relative-fixed-positioining-how-do-they-differ", // 2020-08-13
-    "absolute-positioning-inside-relative-positioning", // 2020-07-24
-    "practical-css-scroll-snapping", // 2020-06-18
-    "dark-mode-and-variable-fonts", // 2020-04-23
-    "fixed-headers-and-jump-links-the-solution-is-scroll-margin-top", // 2020-02-21
-  ],
-}
-
-const Y2021: SidebarYeargroupTemplate = {
-  text: '2021',
-  collapsible: true,
-  children: [
-    // END: 2021
-    "next-gen-css-container", // 2021-05-11
-    "say-hello-to-css-container-queries", // 2021-04-20
-    "css-container-queries-a-first-look-and-demo", // 2021-03-29
-    "all-about-floats", // 2021-03-25
-    "web-components-are-easier-than-you-think", // 2021-03-08
-    "the-css-box-model", // 2021-02-18
-  ],
-}
-
-const Y2022: SidebarYeargroupTemplate = {
-  text: '2022',
-  collapsible: true,
-  children: [
-    // END: 2022
-    "when-do-you-use-css-columns", // 2022-08-18
-    "exploring-css-grids-implicit-grid-and-auto-placement-powers", // 2022-08-01
-    "single-element-loaders-the-bars", // 2022-06-24
-    "cool-hover-effects-using-background-properties", // 2022-04-27
-    "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
-  ],
-}
-
-const Y2023: SidebarYeargroupTemplate = {
-  text: '2023',
-  collapsible: true,
-  children: [
-    // END: 2023
-    "define-array-colors-css", // 2023-07-28
-  ],
-}
-
-const Y2024: SidebarYeargroupTemplate = {
-  text: '2024',
-  collapsible: true,
-  children: [
-    // END: 2024
-    "hash-tag-links-padding", // 2024-12-20
-    "a-complete-guide-to-css-media-queries", // 2024-12-19
-    "css-container-queries", // 2024-09-26
-  ],
+    // END: 2026
+    "future-css-drag-and-maybe-dragged-image", // 2025-01-07
+  ]
 }
 
 const Y2025: SidebarYeargroupTemplate = {
@@ -269,14 +115,170 @@ const Y2025: SidebarYeargroupTemplate = {
   ],
 }
 
-const Y2026: SidebarYeargroupTemplate = {
-  text: '2026',
+const Y2024: SidebarYeargroupTemplate = {
+  text: '2024',
   collapsible: true,
   children: [
-    // END: 2026
-  ]
+    // END: 2024
+    "hash-tag-links-padding", // 2024-12-20
+    "a-complete-guide-to-css-media-queries", // 2024-12-19
+    "css-container-queries", // 2024-09-26
+  ],
 }
 
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
+  collapsible: true,
+  children: [
+    // END: 2023
+    "define-array-colors-css", // 2023-07-28
+  ],
+}
+
+const Y2022: SidebarYeargroupTemplate = {
+  text: '2022',
+  collapsible: true,
+  children: [
+    // END: 2022
+    "when-do-you-use-css-columns", // 2022-08-18
+    "exploring-css-grids-implicit-grid-and-auto-placement-powers", // 2022-08-01
+    "single-element-loaders-going-3d", // 2022-07-01
+    "single-element-loaders-the-bars", // 2022-06-24
+    "single-element-loaders-the-dots", // 2022-06-17
+    "single-element-loaders-the-spinner", // 2022-06-10
+    "cool-hover-effects-using-background-properties", // 2022-04-27
+    "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
+  ],
+}
+
+const Y2021: SidebarYeargroupTemplate = {
+  text: '2021',
+  collapsible: true,
+  children: [
+    // END: 2021
+    "next-gen-css-container", // 2021-05-11
+    "say-hello-to-css-container-queries", // 2021-04-20
+    "css-container-queries-a-first-look-and-demo", // 2021-03-29
+    "all-about-floats", // 2021-03-25
+    "web-components-are-easier-than-you-think", // 2021-03-08
+    "the-css-box-model", // 2021-02-18
+  ],
+}
+
+const Y2020: SidebarYeargroupTemplate = {
+  text: '2020',
+  collapsible: true,
+  children: [
+    // END: 2020
+    "the-raven-technique-one-step-closer-to-container-queries", // 2020-11-10
+    "the-css-custom-property-toggle-trick", // 2020-10-29
+    "absolute-relative-fixed-positioining-how-do-they-differ", // 2020-08-13
+    "absolute-positioning-inside-relative-positioning", // 2020-07-24
+    "practical-css-scroll-snapping", // 2020-06-18
+    "dark-mode-and-variable-fonts", // 2020-04-23
+    "fixed-headers-and-jump-links-the-solution-is-scroll-margin-top", // 2020-02-21
+  ],
+}
+
+const Y2019: SidebarYeargroupTemplate = {
+  text: '2019',
+  collapsible: true,
+  children: [
+    // END: 2019
+    "the-origin-story-of-container-queries", // 2019-12-16
+    "glitch-effect-text-images-svg", // 2019-08-21
+    "introducing-css-scroll-snap-points", // 2019-07-28
+    "custom-scrollbars-in-webkit", // 2019-07-15
+    "gooey-effect", // 2019-02-22
+  ],
+}
+
+const Y2018: SidebarYeargroupTemplate = {
+  text: '2018',
+  collapsible: true,
+  children: [
+    // END: 2018
+    "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
+    "svg-shape-morphing-works", // 2018-08-28
+    "the-trick-to-viewport-units-on-mobile", // 2018-07-31
+    "responsive-components-solution-container-queries-problem", // 2018-02-28
+  ],
+}
+
+const Y2017: SidebarYeargroupTemplate = {
+  text: '2017',
+  collapsible: true,
+  children: [
+    // END: 2017
+    "dont-overthink-it-grids", // 2017-12-28
+    "collection-interesting-facts-css-grid-layout", // 2017-07-21
+    "position-sticky-2", // 2017-06-21
+    "autoprefixer", // 2017-04-13
+    "the-css-ah-ha-moment", // 2017-02-10
+    "introduction-reduced-motion-media-query", // 2017-02-10
+    "animating-svg-css", // 2017-01-07
+    "eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar", // 2017-01-05
+  ],
+}
+
+const Y2016: SidebarYeargroupTemplate = {
+  text: '2016',
+  collapsible: true,
+  children: [
+    // END: 2016
+    "probably-dont-base64-svg", // 2016-07-25
+    "international-box-sizing-awareness-day", // 2016-03-04
+  ],
+}
+
+const Y2015: SidebarYeargroupTemplate = {
+  text: '2015',
+  collapsible: true,
+  children: [
+    // END: 2015
+    "the-at-rules-of-css", // 2015-05-12
+    "box-sizing", // 2015-05-06
+  ],
+}
+
+const Y2014: SidebarYeargroupTemplate = {
+  text: '2014',
+  collapsible: true,
+  children: [
+    // END: 2014
+    "shape-blobbing-css", // 2014-10-28
+    "inheriting-box-sizing-probably-slightly-better-best-practice", // 2014-09-23
+  ],
+}
+
+const Y2013: SidebarYeargroupTemplate = {
+  text: '2013',
+  collapsible: true,
+  children: [
+    // END: 2013
+    "css-wishlist", // 2013-01-25
+    "the-css-overflow-property", // 2013-08-06
+  ],
+}
+
+const Y2012: SidebarYeargroupTemplate = {
+  text: '2012',
+  collapsible: true,
+  children: [
+    // END: 2012
+    "a-line-in-the-sand", // 2012-10-19
+  ],
+}
+
+const Y2011: SidebarYeargroupTemplate = {
+  text: '2011',
+  collapsible: true,
+  children: [
+    // END: 2011
+    "the-checkbox-hack", // 2011-12-21
+    "tabs-with-round-out-borders", // 2011-09-04
+  ],
+}
 
 export const template: SidebarInfoTemplate = {
   name: "css-tricks.com",
@@ -339,7 +341,10 @@ export const template: SidebarInfoTemplate = {
       // END: 2021css
       "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
       "cool-hover-effects-using-background-properties", // 2022-04-27
+      "single-element-loaders-the-spinner", // 2022-06-10
+      "single-element-loaders-the-dots", // 2022-06-17
       "single-element-loaders-the-bars", // 2022-06-24
+      "single-element-loaders-going-3d", // 2022-07-01
       "exploring-css-grids-implicit-grid-and-auto-placement-powers", // 2022-08-01
       "when-do-you-use-css-columns", // 2022-08-18
       // END: 2022css
@@ -409,6 +414,7 @@ export const template: SidebarInfoTemplate = {
       "text-decoration-inset-is-like-padding-for-text-decorations", // 2025-12-22
       "whats-important-2", // 2025-12-31
       // END: 2025css
+      "future-css-drag-and-maybe-dragged-image", // 2025-01-07
       // END: 2026css
       // END: css
     ]],[
@@ -434,6 +440,8 @@ export const template: SidebarInfoTemplate = {
       
       "an-introduction-to-javascript-expressions", // 2025-10-22
       // END: 2025js
+      "future-css-drag-and-maybe-dragged-image", // 2025-01-07
+      // END: 2026js
       // END: js
     ]],[
     "php",[

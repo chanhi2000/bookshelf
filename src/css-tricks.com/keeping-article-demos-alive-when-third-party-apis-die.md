@@ -88,7 +88,7 @@ Both have trade-offs, but let’s look at those later.
 
 Modern testing frameworks, whether for unit or end-to-end testing, such as [**Jest**](/css-tricks.com/writing-tests-for-react-applications-using-jest-and-enzyme.md#mock-api-calls.md) or [<VPIcon icon="iconfont icon-playwright"/>Playwright](https://playwright.dev/docs/mock#mock-api-requests), offer built-in mocking capabilities.
 
-However, we don’t necessarily need these, and we can’t use them in the pens anyway. Instead, we can monkey patch the [<VPIcon icon="fa-brands fa-firefox"/>Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to intercept requests and return mock responses. With monkey patching, when changing the original source code isn’t feasible, we can introduce new behavior by overwriting existing functions.
+However, we don’t necessarily need these, and we can’t use them in the pens anyway. Instead, we can monkey patch the [<VPIcon icon="fa-brands fa-firefox" />Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to intercept requests and return mock responses. With monkey patching, when changing the original source code isn’t feasible, we can introduce new behavior by overwriting existing functions.
 
 Implementing it looks like this:
 
@@ -247,7 +247,7 @@ function main(event) {
 }
 ```
 
-As far as converting the data, serverless functions typically expect JSON inputs, so for other data types an extra parsing step is required. As it happens, the forms in the CodePen demos are submitted as [<VPIcon icon="fa-brands fa-firefox"/>`multipart/form-data`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition#html_posting_multipartform-data_content_type).
+As far as converting the data, serverless functions typically expect JSON inputs, so for other data types an extra parsing step is required. As it happens, the forms in the CodePen demos are submitted as [<VPIcon icon="fa-brands fa-firefox" />`multipart/form-data`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition#html_posting_multipartform-data_content_type).
 
 Without any libraries, we can convert a `multipart/form-data` string into a `FormData` by taking advantage of the `Response` API’s capabilities:
 

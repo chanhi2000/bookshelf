@@ -224,7 +224,7 @@ The result of the RegEx replace is prefixed with `"use strict"\n return ""` and 
     (tokens["response-time"](req, res) || "-") + " ms"
 ```
 
-The string above is used to create a format function using the [<VPIcon icon="fa-brands fa-firefox"/>Function constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/Function) and returned as:
+The string above is used to create a format function using the [<VPIcon icon="fa-brands fa-firefox" />Function constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/Function) and returned as:
 
 ```js
 function (tokens, req, res) {

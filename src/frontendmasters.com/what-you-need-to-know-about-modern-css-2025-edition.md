@@ -145,7 +145,7 @@ Implementing functionality at the HTML level is very powerful. It will work with
 
 **Browser Support**
 
-Popovers are everywhere, but invokers are Chrome only at time of publication. There are sub-features here though, like [<VPIcon icon="fa-brands fa-firefox"/>`popover="hint"`](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API/Using#using_hint_popover_state) which has [<VPIcon icon="fa-brands fa-firefox"/>slightly less support](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/popover#browser_compatibility) so far.
+Popovers are everywhere, but invokers are Chrome only at time of publication. There are sub-features here though, like [<VPIcon icon="fa-brands fa-firefox" />`popover="hint"`](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API/Using#using_hint_popover_state) which has [<VPIcon icon="fa-brands fa-firefox" />slightly less support](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/popover#browser_compatibility) so far.
 
 **Progressive Enhancement**
 
@@ -191,7 +191,7 @@ Remember there are JavaScript APIs for popovers also, like `myPopover.showPopove
 
 ::: info What is this?
 
-CSS has lots of functions already. Think of `calc()`, `attr()`, `clamp()`, [<VPIcon icon="fa-brands fa-firefox"/>perhaps hundreds](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions) more. They are actually technically called CSS *value* functions as they always return a single value.
+CSS has lots of functions already. Think of `calc()`, `attr()`, `clamp()`, [<VPIcon icon="fa-brands fa-firefox" />perhaps hundreds](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions) more. They are actually technically called CSS *value* functions as they always return a single value.
 
 The magic with with `@function` is that now *you can write your own.*
 
@@ -679,7 +679,7 @@ Not that I know of.
 
 ::: info What is this?
 
-There are various ways to change the layout such that the visual order no longer matches the source order. [<VPIcon icon="fa-brands fa-firefox"/>The new `reading-order` property](https://developer.mozilla.org/en-US/docs/Web/CSS/reading-flow) allow us to continue to do that while updating the behavior such that tabbing through the elements happens in a predictable manner.
+There are various ways to change the layout such that the visual order no longer matches the source order. [<VPIcon icon="fa-brands fa-firefox" />The new `reading-order` property](https://developer.mozilla.org/en-US/docs/Web/CSS/reading-flow) allow us to continue to do that while updating the behavior such that tabbing through the elements happens in a predictable manner.
 
 :::
 
@@ -713,7 +713,7 @@ No, but if you were so-inclined you could (hopefully very intelligently) update 
 }
 ```
 
-Re-ordering a grid layout is perhaps of the most common things to re-order, and having the tabbing order follow the rows after re-arranging is sensible, so that’s what the above line of code is doing. But you’ll need to set the value to match what you are doing. For instance if you are using flexbox layout, you’d likely set the value to `flex-flow`. [<VPIcon icon="fa-brands fa-firefox"/>See MDN for the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/reading-flow#value).
+Re-ordering a grid layout is perhaps of the most common things to re-order, and having the tabbing order follow the rows after re-arranging is sensible, so that’s what the above line of code is doing. But you’ll need to set the value to match what you are doing. For instance if you are using flexbox layout, you’d likely set the value to `flex-flow`. [<VPIcon icon="fa-brands fa-firefox" />See MDN for the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/reading-flow#value).
 
 <CodePen
   user="chriscoyier"
@@ -753,8 +753,8 @@ Re-ordering a grid layout is perhaps of the most common things to re-order, and 
 
 - “Masonry” layout, despite having different preliminary implementations, is not yet finalized, but there is enough movement on it it feels like we’ll see that get sorted out next year. The most interesting development at the moment is [<VPIcon icon="iconfont icon-webkit"/>the proposal of `item-flow`](https://webkit.org/blog/17219/item-flow-part-2-next-steps-for-masonry/) and how that could not only help with Masonry but bring other layout possibilities to other layout mechanisms beyond grid.
 - The CSS function `random()` is in Safari [**and it’s amazing**](/frontendmasters.com/very-early-playing-with-random-in-css.md).
-- The CSS property [<VPIcon icon="fa-brands fa-firefox"/>`margin-trim`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-trim) is super useful and we’re waiting patiently to be able to use it more than just Safari.
-- The [<VPIcon icon="fa-brands fa-firefox"/>`sibling-index()`](https://developer.mozilla.org/en-US/docs/Web/CSS/sibling-index) and [<VPIcon icon="fa-brands fa-firefox"/>`sibling-count()`](https://developer.mozilla.org/en-US/docs/Web/CSS/sibling-count) functions are in Chrome and, for one thing, are really useful for staggered animations.
+- The CSS property [<VPIcon icon="fa-brands fa-firefox" />`margin-trim`](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-trim) is super useful and we’re waiting patiently to be able to use it more than just Safari.
+- The [<VPIcon icon="fa-brands fa-firefox" />`sibling-index()`](https://developer.mozilla.org/en-US/docs/Web/CSS/sibling-index) and [<VPIcon icon="fa-brands fa-firefox" />`sibling-count()`](https://developer.mozilla.org/en-US/docs/Web/CSS/sibling-count) functions are in Chrome and, for one thing, are really useful for staggered animations.
 - For View Transitions, `view-transition-name: match-element;` is awfully handy as it prevents us from needing to generate unique names on absolutely everything. Also — Firefox has View Transitions in development, so that’s huge.
 - We should be able to use `calc()` to multiply and divide with units (instead of requiring the 2nd to be unitless) [<VPIcon icon="fas fa-globe"/>soon](https://wpt.fyi/results/css/css-values/getComputedStyle-calc-mixed-units-003.html?label=experimental&label=master&aligned), instead of needing a [hack (<VPIcon icon="fa-brands fa-dev"/>`janeori`)](https://dev.to/janeori/css-type-casting-to-numeric-tanatan2-scalars-582j).
 - We never did get “[CSS4 (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/4770)” ([<VPIcon icon="fa-brands fa-youtube"/>Zoran explains nicely](https://youtu.be/j4mOm1qic7k)) but I for one still think some kind of named versioning system would be of benefit to *everyone*.

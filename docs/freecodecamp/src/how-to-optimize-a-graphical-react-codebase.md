@@ -84,9 +84,9 @@ In this case, this browser layout and rendering time was significant, and is not
 
 You can use custom tracks in the Chrome dev tools profiler, but it is very cumbersome to use.
 
-For us, the JavaScript [<VPIcon icon="fa-brands fa-firefox"/>performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance) is the best option, which gives results that are closer to those experienced by the user, and is relatively easy to use.
+For us, the JavaScript [<VPIcon icon="fa-brands fa-firefox" />performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance) is the best option, which gives results that are closer to those experienced by the user, and is relatively easy to use.
 
-First, we make a call to [<VPIcon icon="fa-brands fa-firefox"/>`performance.mark`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark) in the event handler that starts the action, with a string to describe the time point. For example, when starting a zoom or pan operation:
+First, we make a call to [<VPIcon icon="fa-brands fa-firefox" />`performance.mark`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark) in the event handler that starts the action, with a string to describe the time point. For example, when starting a zoom or pan operation:
 
 ```js
 zoomBehavior.on("start", () => {
@@ -94,7 +94,7 @@ zoomBehavior.on("start", () => {
 }
 ```
 
-Then, in a `useEffect` hook, we call [<VPIcon icon="fa-brands fa-firefox"/>`performance.mark`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark) again, and call [<VPIcon icon="fa-brands fa-firefox"/>`performance.measure`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/measure) to calculate the time between the two points:
+Then, in a `useEffect` hook, we call [<VPIcon icon="fa-brands fa-firefox" />`performance.mark`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark) again, and call [<VPIcon icon="fa-brands fa-firefox" />`performance.measure`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/measure) to calculate the time between the two points:
 
 ```js
 useEffect(() => {

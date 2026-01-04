@@ -138,7 +138,7 @@ The values in a JSON document are limited to the following data types:
 
 Just like in dictionaries and lists, you’re able to nest data in JSON objects and arrays. For example, you can include an object as the value of an object. Also, you’re free to use any other allowed value as an item in a JSON array.
 
-As a Python developer, you may need to pay extra attention to the Boolean values. Instead of using `True` or `False` in title case, you must use the lowercase [<VPIcon icon="fa-brands fa-firefox"/>JavaScript-style Booleans](https://developer.mozilla.org/en-US/docs/Glossary/Boolean/JavaScript) `true` or `false`.
+As a Python developer, you may need to pay extra attention to the Boolean values. Instead of using `True` or `False` in title case, you must use the lowercase [<VPIcon icon="fa-brands fa-firefox" />JavaScript-style Booleans](https://developer.mozilla.org/en-US/docs/Glossary/Boolean/JavaScript) `true` or `false`.
 
 Unfortunately, there are some other details in the JSON syntax that you may stumble over as a developer. You’ll have a look at them next.
 
@@ -146,7 +146,7 @@ Unfortunately, there are some other details in the JSON syntax that you may stum
 
 ## Exploring JSON Syntax Pitfalls
 
-The [<VPIcon icon="fas fa-globe"/>JSON standard](https://ecma-international.org/publications-and-standards/standards/ecma-404/) doesn’t allow any comments, trailing commas, or single quotes for strings. This can be confusing to developers who are used to Python dictionaries or JavaScript [<VPIcon icon="fa-brands fa-firefox"/>objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object).
+The [<VPIcon icon="fas fa-globe"/>JSON standard](https://ecma-international.org/publications-and-standards/standards/ecma-404/) doesn’t allow any comments, trailing commas, or single quotes for strings. This can be confusing to developers who are used to Python dictionaries or JavaScript [<VPIcon icon="fa-brands fa-firefox" />objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object).
 
 Here’s a smaller version of the JSON file from before with invalid syntax:
 

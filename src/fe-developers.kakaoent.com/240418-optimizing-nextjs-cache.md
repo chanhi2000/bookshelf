@@ -72,7 +72,7 @@ cover: https://fe-developers.kakaoent.com/static/64f999e746db02b310c7a08bb93709a
 
 웹 서버의 성능은 당연하게도 **웹페이지의 로딩속도**를 결정하는 중요한 요소 중 하나입니다. 웹 페이지 요청 과정을 표현한 아래 다이어그램에서 노란색 부분, 즉 [<VPIcon icon="iconfont icon-webdev"/>TTFB(Time to First Byte)](https://web.dev/articles/ttfb?hl=ko)에 해당하는 영역이 웹 서버의 성능으로부터 영향을 받습니다.
 
-![[<VPIcon icon="fa-brands fa-firefox"/>developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Navigation_timing)](https://fe-developers.kakaoent.com/fb6f7d36d4bf64e68cc3417a4fecfa26/performance-navigation-timing-timestamp-diagram.svg)
+![[<VPIcon icon="fa-brands fa-firefox" />developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Navigation_timing)](https://fe-developers.kakaoent.com/fb6f7d36d4bf64e68cc3417a4fecfa26/performance-navigation-timing-timestamp-diagram.svg)
 
 승리를 하는 데에 (이익을 내는 데에) 골을 잘 넣는 것만큼이나 중요한 게 골을 덜 먹히는 것인데요. 웹 서버의 성능을 개선하면 동일한 수준의 트래픽을 처리하는 데 필요한 **인프라 비용**을 낮춤으로써 이익에 기여할 수 있습니다.
 
@@ -317,7 +317,7 @@ export const revalidate = 1; // seconds
 
 Full Route Cache는 Data Cache가 HIT 되었을 때에만 동작합니다. 따라서 Full Route Cache를 적용하려는 페이지의 모든 `fetch`에는 `next.revalidate` 값이 (Full Route Cache의 revalidate 값보다 크거나 같게) 설정돼야 합니다.
 
-next.js [14.0.2 (<VPIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/releases/tag/v14.0.2-canary.3) 이전 버전에서 [<VPIcon icon="iconfont icon-nextjs"/>standalone](https://nextjs.org/docs/pages/api-reference/next-config-js/output#automatically-copying-traced-files) 빌드 하면, [<VPIcon icon="fa-brands fa-firefox"/>304](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304) 응답을 무한으로 캐싱 하는 [버그 (<VPIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/pull/57737)가 존재합니다. 저희는 13대 버전을 사용하고 있기 때문에, major 버전업 대신 해당 부분만 몽키패치해서 해결했습니다.
+next.js [14.0.2 (<VPIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/releases/tag/v14.0.2-canary.3) 이전 버전에서 [<VPIcon icon="iconfont icon-nextjs"/>standalone](https://nextjs.org/docs/pages/api-reference/next-config-js/output#automatically-copying-traced-files) 빌드 하면, [<VPIcon icon="fa-brands fa-firefox" />304](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304) 응답을 무한으로 캐싱 하는 [버그 (<VPIcon icon="iconfont icon-github"/>`vercel/next.js`)](https://github.com/vercel/next.js/pull/57737)가 존재합니다. 저희는 13대 버전을 사용하고 있기 때문에, major 버전업 대신 해당 부분만 몽키패치해서 해결했습니다.
 
 :::
 

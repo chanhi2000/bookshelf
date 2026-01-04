@@ -66,7 +66,7 @@ Before delving into understanding how to use CSS animation as a JavaScript devel
 
 ### What are CSS animations?
 
-As the name implies, [<VPIcon icon="fa-brands fa-firefox"/>CSS animation allows users to animate some CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties) by following a declarative pattern where users can specify what changes in the CSS property over a period of time.
+As the name implies, [<VPIcon icon="fa-brands fa-firefox" />CSS animation allows users to animate some CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties) by following a declarative pattern where users can specify what changes in the CSS property over a period of time.
 
 CSS animations make it possible to animate transitions from one CSS style configuration to another.
 
@@ -151,7 +151,7 @@ Again, when you apply the code to the element, it renders an animated square:
 
 Note that you can’t use the `animation` shorthand property and the `animation` sub-properties together because they produce the same thing. They should be used individually based on what you are trying to achieve.
 
-You can learn more about [<VPIcon icon="fa-brands fa-firefox"/>each sub-property and its value in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
+You can learn more about [<VPIcon icon="fa-brands fa-firefox" />each sub-property and its value in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
 
 As you move into keyframes, it is imperative to know that using styles to describe a CSS animation cannot work without keyframes indicating the animation’s sequence.
 

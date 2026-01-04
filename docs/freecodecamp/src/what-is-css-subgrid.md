@@ -359,7 +359,7 @@ If you're ever tempted to create an unending loop of CSS grids just to get a des
 
 Here are some helpful resources:
 
-- [<VPIcon icon="fa-brands fa-firefox"/>MDN on CSS Subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid)
+- [<VPIcon icon="fa-brands fa-firefox" />MDN on CSS Subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid)
 - [<VPIcon icon="fa-brands fa-youtube"/>Learn CSS Subgrid](https://youtu.be/Yl8hg2FG20Q)
 - [<VPIcon icon="iconfont icon-webdev"/>Web Dev on CSS Subgrid](https://web.dev/articles/css-subgrid)
 

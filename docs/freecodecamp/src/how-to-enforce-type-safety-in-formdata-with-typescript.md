@@ -69,7 +69,7 @@ To get the most out of this article, you should have a basic understanding of th
 
 :::
 
-If you’re new to TypeScript or FormData, I recommend checking out [<VPIcon icon="iconfont icon-typescript"/>TypeScript’s official documentation](https://typescriptlang.org/docs/) and [<VPIcon icon="fa-brands fa-firefox"/>MDN’s guide on FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) before proceeding.
+If you’re new to TypeScript or FormData, I recommend checking out [<VPIcon icon="iconfont icon-typescript"/>TypeScript’s official documentation](https://typescriptlang.org/docs/) and [<VPIcon icon="fa-brands fa-firefox" />MDN’s guide on FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) before proceeding.
 
 ---
 
@@ -196,7 +196,7 @@ const handleSubmitForm = () => {
 };
 ```
 
-In the snippet above, we’re using `Object.entries` to iterate over each key/value pair in an object so it can be appended to the FormData object. Note that the value in each pair, whether it’s a string or a number, is passed as a string using [<VPIcon icon="fa-brands fa-firefox"/>template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) to prevent a TypeScript type mismatch from the `value` argument in our helper function.
+In the snippet above, we’re using `Object.entries` to iterate over each key/value pair in an object so it can be appended to the FormData object. Note that the value in each pair, whether it’s a string or a number, is passed as a string using [<VPIcon icon="fa-brands fa-firefox" />template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) to prevent a TypeScript type mismatch from the `value` argument in our helper function.
 
 ---
 

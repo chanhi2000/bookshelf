@@ -64,7 +64,7 @@ Let’s start with a demo. You can resize it and see how the images behave, and 
 
 ::: note
 
-The following demo is currently limited to Chrome and Edge, but will work in other browsers as the [<VPIcon icon="iconfont icon-css-tricks"/>`sibling-index()`](https://css-tricks.com/almanac/functions/s/sibling-index/) and [<VPIcon icon="iconfont icon-css-tricks"/>`sibling-count()`](https://css-tricks.com/almanac/functions/s/sibling-count/) functions gain broader support. You can track Firefox support in [<VPIcon icon="fa-brands fa-firefox"/>Ticket #1953973](https://bugzilla.mozilla.org/show_bug.cgi?id=1953973) and WebKit’s position in [Issue #471 (<VPIcon icon="iconfont icon-github"/>`WebKit/standards-positions`)](https://github.com/WebKit/standards-positions/issues/471).
+The following demo is currently limited to Chrome and Edge, but will work in other browsers as the [<VPIcon icon="iconfont icon-css-tricks"/>`sibling-index()`](https://css-tricks.com/almanac/functions/s/sibling-index/) and [<VPIcon icon="iconfont icon-css-tricks"/>`sibling-count()`](https://css-tricks.com/almanac/functions/s/sibling-count/) functions gain broader support. You can track Firefox support in [<VPIcon icon="fa-brands fa-firefox" />Ticket #1953973](https://bugzilla.mozilla.org/show_bug.cgi?id=1953973) and WebKit’s position in [Issue #471 (<VPIcon icon="iconfont icon-github"/>`WebKit/standards-positions`)](https://github.com/WebKit/standards-positions/issues/471).
 
 :::
 

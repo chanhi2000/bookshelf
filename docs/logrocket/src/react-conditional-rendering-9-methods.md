@@ -266,7 +266,7 @@ Let’s look at some additional methods for conditional rendering to improve thi
 
 ## The ternary operator in React
 
-The [<VPIcon icon="fa-brands fa-firefox"/>ternary conditional operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) provides a cleaner and more concise alternative to an `if...else` block:
+The [<VPIcon icon="fa-brands fa-firefox" />ternary conditional operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) provides a cleaner and more concise alternative to an `if...else` block:
 
 ```js
 condition ? expr_if_true : expr_if_false

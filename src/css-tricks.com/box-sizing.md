@@ -176,7 +176,7 @@ html {
 
 `box-sizing: border-box;` is supported in the current versions of all major browsers. The less-commonly used `padding-box` is only supported in Firefox at the moment. There’s more comprehensive information about browser support in our [<VPIcon icon="iconfont icon-css-tricks"/>box-sizing](https://css-tricks.com/almanac/properties/b/box-sizing/)` almanac entry.
 
-There are a few issues with older versions of Internet Explorer (8 and older). IE 8 doesn’t recognize `border-box` on elements with `min/max-width` or `min/max-height` (this used to affect Firefox too, but it was [<VPIcon icon="fa-brands fa-firefox"/>fixed in 2012](https://bugzilla.mozilla.org/show_bug.cgi?id=308801)). IE 7 and below do not recognize `box-sizing` at all, but there’s a [polyfill that can help (<VPIcon icon="iconfont icon-github"/>`Schepp/box-sizing-polyfill`)](https://github.com/Schepp/box-sizing-polyfill).
+There are a few issues with older versions of Internet Explorer (8 and older). IE 8 doesn’t recognize `border-box` on elements with `min/max-width` or `min/max-height` (this used to affect Firefox too, but it was [<VPIcon icon="fa-brands fa-firefox" />fixed in 2012](https://bugzilla.mozilla.org/show_bug.cgi?id=308801)). IE 7 and below do not recognize `box-sizing` at all, but there’s a [polyfill that can help (<VPIcon icon="iconfont icon-github"/>`Schepp/box-sizing-polyfill`)](https://github.com/Schepp/box-sizing-polyfill).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

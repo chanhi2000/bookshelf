@@ -52,7 +52,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6b-1591-4abf-a544-739fbfaecf49.png"/>
 
-In early CSS layout methods, we could position elements absolutely, relatively, or using floats. Now, we have a new layout method called [<VPIcon icon="fa-brands fa-firefox"/>Flexbox](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox), which has an advantage over earlier layout methods: better performance.
+In early CSS layout methods, we could position elements absolutely, relatively, or using floats. Now, we have a new layout method called [<VPIcon icon="fa-brands fa-firefox" />Flexbox](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox), which has an advantage over earlier layout methods: better performance.
 
 The screenshot below shows the layout cost of using floats on 1300 boxes:
 

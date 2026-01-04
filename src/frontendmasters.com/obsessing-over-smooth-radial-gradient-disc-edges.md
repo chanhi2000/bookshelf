@@ -147,7 +147,7 @@ So what can we do in this case?
 
 ## Underrated CSS feature: resolution!
 
-Up until this summer, when I got fixated on this zoom problem, I had no idea that CSS provides [<VPIcon icon="fa-brands fa-firefox"/>resolution](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution) media queries! These allow us to style things differently based on the device pixel density or zoom level.
+Up until this summer, when I got fixated on this zoom problem, I had no idea that CSS provides [<VPIcon icon="fa-brands fa-firefox" />resolution](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/resolution) media queries! These allow us to style things differently based on the device pixel density or zoom level.
 
 I don’t think I have access to any device with a higher pixel ratio display, but I can certainly test zoom. For zoom, this thing really works! For example, if we’re zoomed in to `500%`, we’re in the `5x` case:
 

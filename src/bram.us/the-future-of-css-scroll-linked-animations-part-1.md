@@ -655,7 +655,7 @@ I hope I’ve been able to get you excited for this possible future addition to 
 I’m glad to see that the Chromium engineers are actively working on this experimental implementation, taking the time to respond to newly reported bugs. I hope that other browser vendors will follow suit soon. Relevant tracking bugs to flag/star/follow:
 
 - [<VPIcon icon="fa-brands fa-chrome"/>Chromium](https://bugs.chromium.org/p/chromium/issues/detail?id=1023424)
-- [<VPIcon icon="fa-brands fa-firefox"/>Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1676780)
+- [<VPIcon icon="fa-brands fa-firefox" />Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1676780)
 - [<VPIcon icon="fa-brands fa-safari"/>Safari](https://bugs.webkit.org/show_bug.cgi?id=222295)
 
 ::: note Update 2021.03.04

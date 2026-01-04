@@ -100,7 +100,7 @@ Also, if you have an element that serves as an alert for the user, including the
 </div>
 ```
 
-You can find the full list of available roles at [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs: WAI-ARIA Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles).
+You can find the full list of available roles at [<VPIcon icon="fa-brands fa-firefox" />MDN Docs: WAI-ARIA Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles).
 
 ---
 
@@ -108,7 +108,7 @@ You can find the full list of available roles at [<VPIcon icon="fa-brands fa-fir
 
 Apart from `role`, ARIA (Accessible Rich Internet Applications) defines extra attributes to enhance the accessibility of web applications. These attributes give screen readers more information about elements, helping people with disabilities better understand them.
 
-If native semantic elements or the `role` attribute alone are not sufficient, `aria-*` attributes can provide extra context. You can find a full list of these attributes in [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes).
+If native semantic elements or the `role` attribute alone are not sufficient, `aria-*` attributes can provide extra context. You can find a full list of these attributes in [<VPIcon icon="fa-brands fa-firefox" />MDN Docs-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes).
 
 In the following sections, we’ll see how role and `aria-*` attributes can improve accessibility. We won’t cover all the attributes here, but we’ll focus on the most commonly used ones.
 
@@ -124,7 +124,7 @@ This is not really a problem for many users, but for people with visual impairme
 
 Check out the [<VPIcon icon="fas fa-globe"/>aria-no-live](https://mdn.github.io/learning-area/accessibility/aria/aria-no-live.html) example from MDN Docs. It loads a new quote every 10 seconds, which you can see clearly as a user with no visual impairment. But the screen reader only reads the initial page content and does not announce the updates. This is not good for accessibility.
 
-To fix this, WAI-ARIA provides the [<VPIcon icon="fa-brands fa-firefox"/>`aria-live`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live) attribute that makes the screen reader read out content that is updated. You can add this attribute to the element that contains the dynamic content.
+To fix this, WAI-ARIA provides the [<VPIcon icon="fa-brands fa-firefox" />`aria-live`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live) attribute that makes the screen reader read out content that is updated. You can add this attribute to the element that contains the dynamic content.
 
 It takes the following three values:
 
@@ -150,7 +150,7 @@ You can add more detail here. With the above attribute, only the text that is up
 </div>
 ```
 
-The [<VPIcon icon="fa-brands fa-firefox"/>`aria-atomic`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-atomic) attribute tells screen readers to read out the entire element as a single atomic unit. This avoids confusion for visually impaired users. Check out the [<VPIcon icon="fas fa-globe"/>aria-live](https://mdn.github.io/learning-area/accessibility/aria/aria-live.html) example from MDN Docs with Mac’s VoiceOver (⌘+F5). It reads out the entire element when the content is updated.
+The [<VPIcon icon="fa-brands fa-firefox" />`aria-atomic`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-atomic) attribute tells screen readers to read out the entire element as a single atomic unit. This avoids confusion for visually impaired users. Check out the [<VPIcon icon="fas fa-globe"/>aria-live](https://mdn.github.io/learning-area/accessibility/aria/aria-live.html) example from MDN Docs with Mac’s VoiceOver (⌘+F5). It reads out the entire element when the content is updated.
 
 ---
 
@@ -168,9 +168,9 @@ So, we should make sure that the screen reader reads out the error message as so
 </div>
 ```
 
-The [<VPIcon icon="fa-brands fa-firefox"/>`alert`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/alert_role) role does two things. It semantically identifies this element as a piece of important information. Secondly, this role turns the element into a [<VPIcon icon="fa-brands fa-firefox"/>live](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) region which means the screen reader is notified immediately if there are any changes.
+The [<VPIcon icon="fa-brands fa-firefox" />`alert`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/alert_role) role does two things. It semantically identifies this element as a piece of important information. Secondly, this role turns the element into a [<VPIcon icon="fa-brands fa-firefox" />live](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) region which means the screen reader is notified immediately if there are any changes.
 
-The [<VPIcon icon="fa-brands fa-firefox"/>`aria-relevant`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-relevant) attribute describes what changes need to be announced in a live region. The attribute takes a space-separated list of the following values:
+The [<VPIcon icon="fa-brands fa-firefox" />`aria-relevant`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-relevant) attribute describes what changes need to be announced in a live region. The attribute takes a space-separated list of the following values:
 
 - `additions`: Announces new content added to the live region
 - `removals`: Content removed from the live region is read out
@@ -186,7 +186,7 @@ Next, let’s see what to do if we want to mark certain fields as required. Norm
 <p>Fields marked with an asterisk (*) are required.</p>
 ```
 
-This is helpful for regular users, but visually impaired users may get confused as to which fields are required. To make it easier for them, we can use the [<VPIcon icon="fa-brands fa-firefox"/>`aria-required`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-required) attribute.
+This is helpful for regular users, but visually impaired users may get confused as to which fields are required. To make it easier for them, we can use the [<VPIcon icon="fa-brands fa-firefox" />`aria-required`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-required) attribute.
 
 ```html
 <input type="text" name="name" id="name" aria-required="true" />
@@ -219,6 +219,6 @@ Keep in mind that the `aria-labelledby` attribute only defines an accessible nam
 
 We have already discussed form labels in the [Interactive Elements](/freecodecamp.org/the-web-accessibility-handbook/basic-accessibility-practices.md#interactive-elements) section.
 
-You’ve now seen some of the different attributes that WAI-ARIA offers and how they enhance accessibility. You can visit [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs: WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics#accessibility_of_non-semantic_controls_2) to check out additional details I may have missed.
+You’ve now seen some of the different attributes that WAI-ARIA offers and how they enhance accessibility. You can visit [<VPIcon icon="fa-brands fa-firefox" />MDN Docs: WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics#accessibility_of_non-semantic_controls_2) to check out additional details I may have missed.
 
 Before we move on, remember one thing: *use WAI-ARIA only when necessary*. Usually, semantic elements are able to achieve majority of your accessibility goals. Don’t over-use WAI-ARIA as they might end up complicating your code.

@@ -87,7 +87,7 @@ Choose a contrast ratio that aligns well with your design, but try to keep it to
 
 ### Mouse-specific events
 
-When you have functionality triggered by events like [<VPIcon icon="fa-brands fa-firefox"/>mouse-over](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event) and [<VPIcon icon="fa-brands fa-firefox"/>mouse-out](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event), they cannot be accessed by people that depend on keyboard navigation. So, to make the functionality accessible by keyboard, you need to add the same event handlers to events like [<VPIcon icon="fa-brands fa-firefox"/>focus](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event) and [<VPIcon icon="fa-brands fa-firefox"/>blur](https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event).
+When you have functionality triggered by events like [<VPIcon icon="fa-brands fa-firefox" />mouse-over](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event) and [<VPIcon icon="fa-brands fa-firefox" />mouse-out](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event), they cannot be accessed by people that depend on keyboard navigation. So, to make the functionality accessible by keyboard, you need to add the same event handlers to events like [<VPIcon icon="fa-brands fa-firefox" />focus](https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event) and [<VPIcon icon="fa-brands fa-firefox" />blur](https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event).
 
 ### Client side form validations
 

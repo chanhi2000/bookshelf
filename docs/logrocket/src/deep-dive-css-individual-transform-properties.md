@@ -217,7 +217,7 @@ Individual transform properties require a few other considerations when using th
 
 While CSS has introduced the three individual properties `rotate`, `scale`, and `translate`, the remaining `transform` functions have not been given the same priority. Because of this, the individual and `transform` properties can work together.
 
-You can visit MDN for a [<VPIcon icon="fa-brands fa-firefox"/>full list of `transform` functions](https://developer.mozilla.org/en-US/docs/Web/CSS/transform).
+You can visit MDN for a [<VPIcon icon="fa-brands fa-firefox" />full list of `transform` functions](https://developer.mozilla.org/en-US/docs/Web/CSS/transform).
 
 ### `transform-origin`
 

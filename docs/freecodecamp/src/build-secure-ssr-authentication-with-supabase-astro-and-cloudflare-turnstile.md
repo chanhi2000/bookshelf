@@ -618,7 +618,7 @@ export const server = {
 
 This action handles both sign-in and sign-out methods. A Supabase server instance is created during the sign-in method, and the magic link method is used for sign-in. It passes a redirect URL, which we have yet to create, and handles any errors that may occur.
 
-It also passes the token verification, allowing Supabase to perform verification on our behalf, eliminating the need to call [<VPIcon icon="fa-brands fa-firefox"/>Cloudflare’s verify APIs](https://developers.cloudflare.com/turnstile/get-started/server-side-validation/) directly.
+It also passes the token verification, allowing Supabase to perform verification on our behalf, eliminating the need to call [<VPIcon icon="fa-brands fa-firefox" />Cloudflare’s verify APIs](https://developers.cloudflare.com/turnstile/get-started/server-side-validation/) directly.
 
 The sign-out method calls Supabase’s sign-out method and handles any potential errors.
 

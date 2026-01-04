@@ -232,7 +232,7 @@ Experimental support first appeared in Chromium 91.0.4459.0 with the `#enable-co
 Experimental support first appeared in Safari Technology Preview 142. To stay up-to-date regarding browser support, you can follow these tracking issues:
 
 - Blink/Chromium: [<VPIcon icon="fa-brands fa-chrome"/>Issue #1145970](https://bugs.chromium.org/p/chromium/issues/detail?id=1145970) – Fixed (Closed)
-- Gecko/Firefox: [<VPIcon icon="fa-brands fa-firefox"/>Issue #1744221](https://bugzilla.mozilla.org/show_bug.cgi?id=1744221) – NEW
+- Gecko/Firefox: [<VPIcon icon="fa-brands fa-firefox" />Issue #1744221](https://bugzilla.mozilla.org/show_bug.cgi?id=1744221) – NEW
 - WebKit/Safari: [<VPIcon icon="fa-brands fa-safari"/>Issue #229659](https://bugs.webkit.org/show_bug.cgi?id=229659) – RESOLVED/FIXED
 
 :::: info ☝️
@@ -252,7 +252,7 @@ As the spec for this new CSS feature is still in flux, this post has received so
 - **Update 2022.01.26:** The function syntax for querying sizes — using `size()` — [got dropped (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/6870#issuecomment-1022430911).
 - **Update 2021.11.26:** To make the embedded demo work in browsers that don’t yet support Container Queries, it got extended with a Polyfill named `container-queries-polyfill`. [**Check out this post for more details on how to use it.**](/bram.us/a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries.md)
 - **Update 2021.06.11:** To create a container you no longer need to set the `contain` property, but [instead use the `container` property (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/6376).
-- **Update 2021.05.02:** Creating a Containment Context / Container Root also requires [<VPIcon icon="fa-brands fa-firefox"/>`style` containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Containment#style_containment).
+- **Update 2021.05.02:** Creating a Containment Context / Container Root also requires [<VPIcon icon="fa-brands fa-firefox" />`style` containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Containment#style_containment).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

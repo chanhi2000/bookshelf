@@ -258,7 +258,7 @@ You can install superagent with the following command:
 npm install superagent
 ```
 
-Let’s look at what an API call looks like with superagent. We will use async/await with an [<VPIcon icon="fa-brands fa-firefox"/>Immediately Invoked Function Expression (IIFE)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) for this illustration instead of promise chaining:
+Let’s look at what an API call looks like with superagent. We will use async/await with an [<VPIcon icon="fa-brands fa-firefox" />Immediately Invoked Function Expression (IIFE)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) for this illustration instead of promise chaining:
 
 ```js
 const superagent = require('superagent');

@@ -103,7 +103,7 @@ So since browser updates typically ship at the beginning of the month, here are 
   slug-hash="dPMBMBE"
   title="Connected Circles with Anchor Positioning"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Stephen Margheim listed the various reasons [<VPIcon icon="fa-brands fa-bluesky"/>why you should namespace your semantic classes](https://bsky.app/profile/fractaledmind.bsky.social/post/3masmuiptaa2l) (e.g., rename `.btn` to `.ui-button`):
 
@@ -114,28 +114,28 @@ Similar to Andy Clarke’s ‘toon text explorations, Ana Tudor’s [<VPIcon ico
   slug-hash="WNqvdmN"
   title="No text splitting rotation + extrusion"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="anon"
   slug-hash="JjqXjyJ"
   title="Here is real magic - no text duplication or splitting (hover, no Firefox)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="anon"
   slug-hash="NWmBmrZ"
   title="Double bubble - no JS on scroll distortion"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="anon"
   slug-hash="MWxyyGw"
   title="Split, offset, hash - no text duplication"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There are [<VPIcon icon="fa-brands fa-bluesky"/>more displacement map text effects](https://bsky.app/profile/anatudor.bsky.social) on Ana’s feed.
 

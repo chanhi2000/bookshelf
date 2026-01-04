@@ -156,7 +156,7 @@ If it’s helpful to have the slides, here ya go:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.052.jpeg?resize=1024%2C576&ssl=1)
 
-![CSS actually has a thing called [<VPIcon icon="fa-brands fa-firefox"/>`@scope`](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope) now. Props to Miriam Suzanne for brainchilding and shepherding it.<br/><br/>My knowledge of `@scope` is just from playing around and reading the work of people who write on MDN and for Google’s sites and fellow bloggers. So thank you to everyone who makes technical content. I probably read it.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.053.jpeg?resize=1024%2C576&ssl=1)
+![CSS actually has a thing called [<VPIcon icon="fa-brands fa-firefox" />`@scope`](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope) now. Props to Miriam Suzanne for brainchilding and shepherding it.<br/><br/>My knowledge of `@scope` is just from playing around and reading the work of people who write on MDN and for Google’s sites and fellow bloggers. So thank you to everyone who makes technical content. I probably read it.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.053.jpeg?resize=1024%2C576&ssl=1)
 
 ![If you’re wondering about browser support, basically the story is it’s waiting for Firefox, which already has it under a flag. It’s in [<VPIcon icon="iconfont icon-webdev"/>Interop 2025](https://web.dev/blog/interop-2025), so it shouldn’t be too long.<br/><br/>I’d say it doesn’t progressively enhance terribly well, so chill on it a sec.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Scope.054.jpeg?resize=1024%2C576&ssl=1)
 

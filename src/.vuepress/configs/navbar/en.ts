@@ -50,6 +50,10 @@ export const navbarEn = navbar([
         icon: 'https://smashingmagazine.com/images/favicon/favicon.svg',
         link: '/smashingmagazine.com/README.md'
       }, {
+        text: 'oddbird.net',
+        icon: 'https://oddbird.net/safari-pinned-tab.svg',
+        link: '/smashingmagazine.com/README.md'
+      }, {
         text: 'zeroheight.com',
         icon: 'https://zeroheight.com/favicon.ico',
         link: '/zeroheight.com/README.md'

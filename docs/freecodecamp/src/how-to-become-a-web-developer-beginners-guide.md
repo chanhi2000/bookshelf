@@ -319,7 +319,7 @@ Programming languages alone are not enough to create robust and secure applicati
 
 Depending on your language of choice, you can learn the following frameworks:
 
-- [<VPIcon icon="fa-brands fa-firefox"/>Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction) and [<VPIcon icon="fas fa-globe"/>Flask](https://geeksforgeeks.org/python-introduction-to-web-development-using-flask/) - Python Based Frameworks
+- [<VPIcon icon="fa-brands fa-firefox" />Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction) and [<VPIcon icon="fas fa-globe"/>Flask](https://geeksforgeeks.org/python-introduction-to-web-development-using-flask/) - Python Based Frameworks
 - [<VPIcon icon="iconfont icon-spring"/>Java Spring Boot](https://spring.io/projects/spring-boot)
 - [<VPIcon icon="fas fa-globe"/>Gin](https://gin-gonic.com/docs/introduction/) - Golang framework (You can create a simple Golang application without using a framework)
 
@@ -456,7 +456,7 @@ Connect with me on Twitter for more updates and discussions. If you have any que
 ### References
 
 - [<VPIcon icon="fas fa-globe"/>How to become a web developer](https://geeksforgeeks.org/can-start-learn-web-development/)
-- [<VPIcon icon="fa-brands fa-firefox"/>Building your first website](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website)
+- [<VPIcon icon="fa-brands fa-firefox" />Building your first website](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website)
 - [Getting started with backend engineering (<VPIcon icon="fa-brands fa-medium"/>`shecodeafrica`)](https://medium.com/shecodeafrica/getting-started-with-backend-engineering-a-beginners-guide-2426759238ea)
 - [<VPIcon icon="fa-brands fa-youtube"/>Developer roadmap](https://youtu.be/CWAi_2oLhYg)
 

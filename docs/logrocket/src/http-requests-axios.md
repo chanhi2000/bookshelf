@@ -777,7 +777,7 @@ We can then use this custom Axios instance in a component where we want to consu
 
 ## How to post a file from a form with Axios
 
-We can use Axios with the [<VPIcon icon="fa-brands fa-firefox"/>`FormData` object](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects) to streamline a file upload. To simplify the demonstration, I’m using React again to create a file upload component with basic error handling.
+We can use Axios with the [<VPIcon icon="fa-brands fa-firefox" />`FormData` object](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects) to streamline a file upload. To simplify the demonstration, I’m using React again to create a file upload component with basic error handling.
 
 *N.B., we are assuming that a backend API is available to support the file upload in this example. This will make more sense with a test backend API in your local development setup.*
 

@@ -62,7 +62,7 @@ To create a toast component, first create a folder called <VPIcon icon="fas fa-f
 
 Let’s discuss the structure of the Toast UI and prepare some basic markup before we move on to the steps for styling and componentizing.
 
-The first element to consider is the toast, which will contain and wrap up the contents of every toast notification that will be displayed. Let’s also provide it with a role attribute to make the notifications [<VPIcon icon="fa-brands fa-firefox"/>ARIA-friendly](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA):
+The first element to consider is the toast, which will contain and wrap up the contents of every toast notification that will be displayed. Let’s also provide it with a role attribute to make the notifications [<VPIcon icon="fa-brands fa-firefox" />ARIA-friendly](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA):
 
 ```jsx
 <div className="toast" role="alert">

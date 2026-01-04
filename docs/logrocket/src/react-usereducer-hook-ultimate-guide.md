@@ -288,7 +288,7 @@ Now, in the child component, we receive the props, which, when emitted, will tri
 
 ### Bailing out of a dispatch
 
-If the `useReducer` Hook returns the same value as the current state, React will bail out without rendering the children or firing effects because it uses the [<VPIcon icon="fa-brands fa-firefox"/>`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is#Description) comparison algorithm.
+If the `useReducer` Hook returns the same value as the current state, React will bail out without rendering the children or firing effects because it uses the [<VPIcon icon="fa-brands fa-firefox" />`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is#Description) comparison algorithm.
 
 ---
 

@@ -288,7 +288,7 @@ And we know whether to clip it from the right or from the left based on the`--bi
 clip-path: inset(0 var(--r) 0 var(--l));
 ```
 
-The final ingredient is to[<VPIcon icon="fa-brands fa-firefox"/>register](https://developer.mozilla.org/en-US/docs/Web/CSS/@property)(as`'<number>'`) and transition`--k`.
+The final ingredient is to[<VPIcon icon="fa-brands fa-firefox" />register](https://developer.mozilla.org/en-US/docs/Web/CSS/@property)(as`'<number>'`) and transition`--k`.
 
 You can see a basic version of this below:
 
@@ -444,7 +444,7 @@ So we’re forced to use a pseudo and make links`inline-block`or wrap each link�
 
 In the future, being able to clip the`fixed`background to text*and*to a bottom border should do the trick without the need for the extra pseudo-element hack (see this[<VPIcon icon="fas fa-globe"/>proposal](https://verou.me/specs/#continuous-image-borders)by Lea Verou).
 
-Also, for every element that needs to have both text content and a`background`(like a`button`, for example!)… some bad news! Because of a[<VPIcon icon="fa-brands fa-firefox"/>Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498)old enough to go to school, we need to either make that element`inline-block`like we did in the links scenario and use a pseudo or wrap that text content in an inner`span`. Or, in order to avoid the problems that these two methods come with (and maybe introduce some performance ones instead), we could use an SVG`filter`. That’s pretty much what we have to do for a lot of`input`elements (like`input[type=button]`) anyway.
+Also, for every element that needs to have both text content and a`background`(like a`button`, for example!)… some bad news! Because of a[<VPIcon icon="fa-brands fa-firefox" />Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498)old enough to go to school, we need to either make that element`inline-block`like we did in the links scenario and use a pseudo or wrap that text content in an inner`span`. Or, in order to avoid the problems that these two methods come with (and maybe introduce some performance ones instead), we could use an SVG`filter`. That’s pretty much what we have to do for a lot of`input`elements (like`input[type=button]`) anyway.
 
 <CodePen
   user="thebabydino"

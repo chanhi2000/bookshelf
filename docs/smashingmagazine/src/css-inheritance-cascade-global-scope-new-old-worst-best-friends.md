@@ -317,7 +317,7 @@ Which brings us to layout.
 
 Principally, we need to deal with flow layout — the spacing of successive block elements. You may have noticed that I haven’t set any margins on any of my elements so far. That’s because margin should not be considered a property of elements but a property of the context of elements. That is, they should only come into play where elements meet.
 
-Fortunately, the [<VPIcon icon="fa-brands fa-firefox"/>adjacent sibling combinator](https://developer.mozilla.org/en/docs/Web/CSS/Adjacent_sibling_selectors) can describe exactly this relationship. Harnessing the cascade, we can instate a uniform default across *all* block-level elements that appear in succession, with just a few exceptions.
+Fortunately, the [<VPIcon icon="fa-brands fa-firefox" />adjacent sibling combinator](https://developer.mozilla.org/en/docs/Web/CSS/Adjacent_sibling_selectors) can describe exactly this relationship. Harnessing the cascade, we can instate a uniform default across *all* block-level elements that appear in succession, with just a few exceptions.
 
 ```css
 * {

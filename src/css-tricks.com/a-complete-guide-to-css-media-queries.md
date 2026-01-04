@@ -173,7 +173,7 @@ It’s also possible to scope imported style sheet but as a general rule avoid u
 
 ::: details JavaScript
 
-We can use media queries in JavaScript, too! And guess, what? They’re work a lot like they do in CSS. The difference? We start by using the [<VPIcon icon="fa-brands fa-firefox"/>`window.matchMedia()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)` method to define the conditions first.
+We can use media queries in JavaScript, too! And guess, what? They’re work a lot like they do in CSS. The difference? We start by using the [<VPIcon icon="fa-brands fa-firefox" />`window.matchMedia()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)` method to define the conditions first.
 
 So, say we want to log a message to the console when the browser is at least 768px wide. We can create a constant that calls `matchMedia()` and defines that screen width:
 
@@ -613,7 +613,7 @@ Browsers keep evolving and since by the time you are reading this post chances a
 
 ## A note on container queries
 
-Wouldn’t be cool if components could adapt themselves on their own size instead of the browser’s? That’s what the concept of [<VPIcon icon="fa-brands fa-firefox"/>CSS Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) is all about. We currently only have the browser screen to make those changes via media queries.
+Wouldn’t be cool if components could adapt themselves on their own size instead of the browser’s? That’s what the concept of [<VPIcon icon="fa-brands fa-firefox" />CSS Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) is all about. We currently only have the browser screen to make those changes via media queries.
 
 That’s unfortunate, as the viewport isn’t always a direct relationship to how big the element itself is. Imagine a widget that renders in many different contexts on a site: sometimes in a sidebar, sometimes in a full-width footer, sometimes in a grid with unknown columns.
 

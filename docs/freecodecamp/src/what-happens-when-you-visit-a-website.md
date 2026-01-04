@@ -231,13 +231,13 @@ Once the browser's request is approved, the server will send a 200 OK message al
 
 Data travels between the client and server divided into a series of small data chunks, called data packets. This makes it easy to replace corrupted chunks of data if needed and also allows data to travel to and from different locations, enabling multiple users to access data faster and at the same time.
 
-When the first request is made from the client, the first packet that arrives as response marks the [<VPIcon icon="fa-brands fa-firefox"/>Time to First Byte (**TTFB**)](https://developer.mozilla.org/en-US/docs/Glossary/Time_to_first_byte), which represents the time elapsed since the request was initiated and when the first chunk of data was received as a response. It will include the time taken for the DNS lookup, the TCP handshake to establish the connection, and the TLS handshake if the request is made over HTTPS.
+When the first request is made from the client, the first packet that arrives as response marks the [<VPIcon icon="fa-brands fa-firefox" />Time to First Byte (**TTFB**)](https://developer.mozilla.org/en-US/docs/Glossary/Time_to_first_byte), which represents the time elapsed since the request was initiated and when the first chunk of data was received as a response. It will include the time taken for the DNS lookup, the TCP handshake to establish the connection, and the TLS handshake if the request is made over HTTPS.
 
 ---
 
 ## From Data to Pixels: The Critical Rendering Path
 
-The [<VPIcon icon="fa-brands fa-firefox"/>Critical Rendering Path (**CRP**)](https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path) is a series of steps that the browser performs to transform the data received back from the server into pixels on the screen. It includes creating the [<VPIcon icon="fa-brands fa-firefox"/>Document Object Model (**DOM**)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) and [<VPIcon icon="fa-brands fa-firefox"/>CSS Object Model (**CSSOM**)](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model), the **render tree** and **layout**.
+The [<VPIcon icon="fa-brands fa-firefox" />Critical Rendering Path (**CRP**)](https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path) is a series of steps that the browser performs to transform the data received back from the server into pixels on the screen. It includes creating the [<VPIcon icon="fa-brands fa-firefox" />Document Object Model (**DOM**)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) and [<VPIcon icon="fa-brands fa-firefox" />CSS Object Model (**CSSOM**)](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model), the **render tree** and **layout**.
 
 ### Building the DOM tree
 

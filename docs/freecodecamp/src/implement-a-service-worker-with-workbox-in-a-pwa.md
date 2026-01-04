@@ -114,7 +114,7 @@ Before you begin
 1. Get a free API key from the [<VPIcon icon="fas fa-globe"/>OpenWeatherAPI](https://openweathermap.org/) website
 2. Make sure you’re familiar with HTML, CSS, and JavaScript.
 3. If you’re new to PWAs, you might want to read some introductory articles to get a quick overview.
-    - [<VPIcon icon="fa-brands fa-firefox"/>Progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+    - [<VPIcon icon="fa-brands fa-firefox" />Progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
     - [<VPIcon icon="iconfont icon-webdev"/>Workbox](https://web.dev/articles/workbox)
 
 ---

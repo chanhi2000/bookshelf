@@ -209,7 +209,7 @@ Password:
 Last login: Tue Apr 23 13:58:29 2022 from 172.16.25.125
 ```
 
-If you don’t have a smartphone, you can also use the “[<VPIcon icon="fa-brands fa-firefox"/>Authenticator](https://addons.mozilla.org/en-US/firefox/addon/auth-helper.md)” Firefox add-on or a desktop TOTP app like [<VPIcon icon="fas fa-globe"/>KeePassXC](https://keepassxc.org) or [<VPIcon icon="fas fa-globe"/>Authenticator App](https://flathub.org/apps/com.belmoussaoui.Authenticator) for Linux.
+If you don’t have a smartphone, you can also use the “[<VPIcon icon="fa-brands fa-firefox" />Authenticator](https://addons.mozilla.org/en-US/firefox/addon/auth-helper.md)” Firefox add-on or a desktop TOTP app like [<VPIcon icon="fas fa-globe"/>KeePassXC](https://keepassxc.org) or [<VPIcon icon="fas fa-globe"/>Authenticator App](https://flathub.org/apps/com.belmoussaoui.Authenticator) for Linux.
 
 ::: important
 

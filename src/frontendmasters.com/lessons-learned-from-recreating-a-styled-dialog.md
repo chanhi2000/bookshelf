@@ -269,11 +269,11 @@ But, ya know, always nice to have options. You could also not even bother with `
 
 ## Autofocus
 
-In reading over [<VPIcon icon="fa-brands fa-firefox"/>the MDN for dialogs](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog), this stood out to me as something I didn’t know:
+In reading over [<VPIcon icon="fa-brands fa-firefox" />the MDN for dialogs](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog), this stood out to me as something I didn’t know:
 
-::: info The Dialog element <VPIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>
+::: info The Dialog element <VPIcon icon="fa-brands fa-firefox" /><code>developer.mozilla.org</code>
 
-> The[<VPIcon icon="fa-brands fa-firefox"/>`autofocus`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autofocus)attribute should be added to the element the user is expected to interact with immediately upon opening a modal dialog. If no other element involves more immediate interaction, it is recommended to add`autofocus`to the close button inside the dialog, or the dialog itself if the user is expected to click/activate it to dismiss.
+> The[<VPIcon icon="fa-brands fa-firefox" />`autofocus`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autofocus)attribute should be added to the element the user is expected to interact with immediately upon opening a modal dialog. If no other element involves more immediate interaction, it is recommended to add`autofocus`to the close button inside the dialog, or the dialog itself if the user is expected to click/activate it to dismiss.
 
 :::
 

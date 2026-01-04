@@ -152,7 +152,7 @@ This is an example of an Operating System API. The [<VPIcon icon="fa-brands fa-a
 
 ### Web Bluetooth API
 
-This is an example of a hardware API. The [<VPIcon icon="fa-brands fa-firefox"/>Web Bluetooth API Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API) provide a detailed guide on how to make use of the API to connect and interact with Bluetooth low energy peripherals.
+This is an example of a hardware API. The [<VPIcon icon="fa-brands fa-firefox" />Web Bluetooth API Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API) provide a detailed guide on how to make use of the API to connect and interact with Bluetooth low energy peripherals.
 
 ![Web Bluetooth API Documentation](https://cdn.hashnode.com/res/hashnode/image/upload/v1745909018248/70c028d5-5c70-4441-949d-a89b2ba9a183.png)
 

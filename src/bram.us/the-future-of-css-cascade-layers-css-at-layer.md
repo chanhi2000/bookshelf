@@ -736,7 +736,7 @@ The demo below — by [Miriam (<VPIcon icon="fa-brands fa-x-twitter"/>`TerribleM
 To stay up-to-date regarding browser support, you can follow these tracking issues:
 
 - Chromium: [<VPIcon icon="fa-brands fa-chrome"/>Issue #1095765](https://bugs.chromium.org/p/chromium/issues/detail?id=1095765)
-- Firefox: [<VPIcon icon="fa-brands fa-firefox"/>Issue #1699215](https://bugzilla.mozilla.org/show_bug.cgi?id=1699215)
+- Firefox: [<VPIcon icon="fa-brands fa-firefox" />Issue #1699215](https://bugzilla.mozilla.org/show_bug.cgi?id=1699215)
 - Safari: [<VPIcon icon="fa-brands fa-safari"/>Issue #220779](https://bugs.webkit.org/show_bug.cgi?id=220779)
 
 ---

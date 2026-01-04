@@ -107,7 +107,7 @@ You can even define the `str` reference as a constant:
 const str = 'abc'
 ```
 
-Therefore, assigning a new string generates an error. However, this doesn’t relate to immutability. If you want to modify the string value, you have to use manipulation methods like [<VPIcon icon="fa-brands fa-firefox"/>`replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace), [<VPIcon icon="fa-brands fa-firefox"/>`toUpperCase()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase), or [<VPIcon icon="fa-brands fa-firefox"/>`trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)`. All of these methods return new strings; they don’t modify the original one.
+Therefore, assigning a new string generates an error. However, this doesn’t relate to immutability. If you want to modify the string value, you have to use manipulation methods like [<VPIcon icon="fa-brands fa-firefox" />`replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace), [<VPIcon icon="fa-brands fa-firefox" />`toUpperCase()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase), or [<VPIcon icon="fa-brands fa-firefox" />`trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)`. All of these methods return new strings; they don’t modify the original one.
 
 ---
 

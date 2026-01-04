@@ -88,7 +88,7 @@ const client = pongoClient(postgresConnectionString, {
 
 That would give me the information I need to set up users and order tables for collections in the default Postgres database. I could call it a day, but…
 
-But then I thought, well, wouldn’t it be nice to generate a strongly typed TypeScript client? Having schema makes that possible! I “just” have to use a sneaky feature like [<VPIcon icon="fa-brands fa-firefox"/>Proxy type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy). So I did, and bang, here we are with the new release!
+But then I thought, well, wouldn’t it be nice to generate a strongly typed TypeScript client? Having schema makes that possible! I “just” have to use a sneaky feature like [<VPIcon icon="fa-brands fa-firefox" />Proxy type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy). So I did, and bang, here we are with the new release!
 
 ---
 

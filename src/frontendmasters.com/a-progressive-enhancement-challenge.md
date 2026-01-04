@@ -147,7 +147,7 @@ It seems like the ideal behavior would be “hide the interactive element for a 
 
 Maybe there is some extremely exotic technique involving HTML streaming that could delay the “send” of the interactive element down from the network for that brief blocking period? That’d be wild.
 
-Another thing I think of is the behavior of [<VPIcon icon="fa-brands fa-firefox"/>`font-display: block;`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display#block). This is about the behavior of loading custom fonts via CSS `@font-face`. It can tell the browser how to behave while the custom font it loading. Do you want the browser to *wait* to see if the custom font loads and then “swap” to it? You’ve got options. The `block` value says:
+Another thing I think of is the behavior of [<VPIcon icon="fa-brands fa-firefox" />`font-display: block;`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display#block). This is about the behavior of loading custom fonts via CSS `@font-face`. It can tell the browser how to behave while the custom font it loading. Do you want the browser to *wait* to see if the custom font loads and then “swap” to it? You’ve got options. The `block` value says:
 
 > Gives the font face a short block period and an infinite swap period.
 

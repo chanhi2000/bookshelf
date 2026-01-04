@@ -325,11 +325,11 @@ typescriptCopyEditlet status: boolean | string | { success: boolean; data: any }
 
 To master TypeScript, you must understand the various data types supported in TypeScript and how and when to use them.
 
-The [<VPIcon icon="fa-brands fa-firefox"/>JavaScript primitive types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values) such as *strings*, *numbers*, *booleans*, and more also define the fundamental building blocks of data in TypeScript. But in particular, `Objects`, `Arrays`, and `Functions` are essential for building robust applications. With objects, arrays, and functions, you can better handle data and use them efficiently in development.
+The [<VPIcon icon="fa-brands fa-firefox" />JavaScript primitive types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values) such as *strings*, *numbers*, *booleans*, and more also define the fundamental building blocks of data in TypeScript. But in particular, `Objects`, `Arrays`, and `Functions` are essential for building robust applications. With objects, arrays, and functions, you can better handle data and use them efficiently in development.
 
 ### Object Types in TypeScript
 
-Object types represent the blueprint for creating objects in TypeScript. You can use objects to define their shape, similar to how [<VPIcon icon="fa-brands fa-firefox"/>classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are used in **object-oriented programming (OOP)**. But objects lack the behavioral aspects and encapsulation that classes offer.
+Object types represent the blueprint for creating objects in TypeScript. You can use objects to define their shape, similar to how [<VPIcon icon="fa-brands fa-firefox" />classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are used in **object-oriented programming (OOP)**. But objects lack the behavioral aspects and encapsulation that classes offer.
 
 To define an object type, explicitly define the object's blueprint after the colon(`:`). For Example:
 

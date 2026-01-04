@@ -120,7 +120,7 @@ With such a rigid schema, if we need to store unstructured data (like JSON or im
 
 In addition to having a flexible schema, the type of data we are dealing with may be complex, making querying insufficient. Operations on structured data are usually designed for simple data that will often be queried. But when storing images, graphs, or other complex entities, we may need to perform complex operations on them.
 
-For example, we could need to perform object detection in images or calculate neighborhood and centrality metrics in graphs. This leads to the development of specific database models (which we’ll cover later) that support these operations and the storage of such data, which is usually kept in [<VPIcon icon="fa-brands fa-firefox"/>BLOBs](https://developer.mozilla.org/en-US/docs/Web/API/Blob).
+For example, we could need to perform object detection in images or calculate neighborhood and centrality metrics in graphs. This leads to the development of specific database models (which we’ll cover later) that support these operations and the storage of such data, which is usually kept in [<VPIcon icon="fa-brands fa-firefox" />BLOBs](https://developer.mozilla.org/en-US/docs/Web/API/Blob).
 
 ### 4. Data Volume (Big Data)
 

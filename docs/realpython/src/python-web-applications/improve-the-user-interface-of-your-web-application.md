@@ -67,11 +67,11 @@ If you’d like to take a deeper dive into front-end development, then check out
 
 :::
 
-However, if you want to add an input box to your web app, then you’ll need to use *some* HTML. You’ll implement only the absolute minimum to get your web app looking and feeling more like a website that users will be familiar with. You’ll use the [<VPIcon icon="fa-brands fa-firefox"/>HTML `<form>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) to collect their input.
+However, if you want to add an input box to your web app, then you’ll need to use *some* HTML. You’ll implement only the absolute minimum to get your web app looking and feeling more like a website that users will be familiar with. You’ll use the [<VPIcon icon="fa-brands fa-firefox" />HTML `<form>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) to collect their input.
 
 ::: note
 
-If you want to learn more about HTML, then check out Real Python’s [**HTML and CSS for Python Developers**](/realpython.com/html-css-python.md) or MDN’s [<VPIcon icon="fa-brands fa-firefox"/>Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics).
+If you want to learn more about HTML, then check out Real Python’s [**HTML and CSS for Python Developers**](/realpython.com/html-css-python.md) or MDN’s [<VPIcon icon="fa-brands fa-firefox" />Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics).
 
 :::
 
@@ -362,7 +362,7 @@ Since there have been quite a few changes, here’s a step-by-step review of the
 
 Your page will render correctly even though the way you’re adding these strings doesn’t represent valid HTML. This works thanks to the power of modern browsers.
 
-Keep in mind that if you’re interested in diving deeper into [<VPIcon icon="fas fa-globe"/>web development](https://realpython.com/learning-paths/become-python-web-developer/), then you’ll need to [<VPIcon icon="fa-brands fa-firefox"/>learn HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics). But for the sake of getting your Python script deployed online, this will do just fine.
+Keep in mind that if you’re interested in diving deeper into [<VPIcon icon="fas fa-globe"/>web development](https://realpython.com/learning-paths/become-python-web-developer/), then you’ll need to [<VPIcon icon="fa-brands fa-firefox" />learn HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics). But for the sake of getting your Python script deployed online, this will do just fine.
 
 You should now be able to use your temperature conversion script inside your browser. You can supply a Celsius temperature through the input box, click the button, and see the converted Fahrenheit result appear on the same web page. Since you’re using the default HTTP GET request, you can also see the submitted data appear in the URL.
 

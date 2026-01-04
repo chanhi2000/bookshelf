@@ -51,7 +51,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/JavaScrip
 
 Event loop explains the mechanism behind asynchronous operations and event handling. This is a crucial concept in JavaScript that explains its runtime model and thus, one of the most commonly asked question in interviews.
 
-Instead of providing a brief explanation, I think you should learn it in detail and understand it fully. Read the [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop) to understand event loop in detail, with the help of diagram.
+Instead of providing a brief explanation, I think you should learn it in detail and understand it fully. Read the [<VPIcon icon="fa-brands fa-firefox" />MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop) to understand event loop in detail, with the help of diagram.
 
 If you prefer videos, you can also watch the following video by Philip Roberts
 

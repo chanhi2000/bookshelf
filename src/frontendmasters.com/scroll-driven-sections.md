@@ -52,7 +52,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 I was checking out [<VPIcon icon="fas fa-globe"/>a very cool art-directed article](https://quantamagazine.org/the-thought-experiments-that-fray-the-fabric-of-space-time-20240925/) the other day, full of *scrollytelling*, and, like us web devs will be forever cursed to do, wondering what they used to build it. Spoiler: it’s [<VPIcon icon="fas fa-globe"/>GSAP](https://gsap.com/) and [<VPIcon icon="fas fa-globe"/>ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/).
 
-No shame in those tech choices, they are great. But with [<VPIcon icon="fa-brands fa-firefox"/>scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) now being a web standard with [<VPIcon icon="fas fa-globe"/>growing support](https://caniuse.com/mdn-css_properties_animation-timeline_scroll), it begs the question whether we could do this with native technologies.
+No shame in those tech choices, they are great. But with [<VPIcon icon="fa-brands fa-firefox" />scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) now being a web standard with [<VPIcon icon="fas fa-globe"/>growing support](https://caniuse.com/mdn-css_properties_animation-timeline_scroll), it begs the question whether we could do this with native technologies.
 
 My brain focused on one particular need of the scrollytelling style:
 

@@ -1,126 +1,14 @@
 import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
-const Y2023: SidebarYeargroupTemplate = {
-  text: '2023',
+const Y2026: SidebarYeargroupTemplate = {
+  text: '2026',
   collapsible: true,
   children: [
-    // END: 2023
-    "container-queries-and-units", // 2023-12-21
-    "light-dom-only", // 2023-12-08
-    "vanilla-javascript-reactivity", // 2023-08-21
-    "what-is-sql-database-definition-for-beginners", // 2023-01-13
-  ]
-}
-
-const Y2024: SidebarYeargroupTemplate = {
-  text: '2024',
-  collapsible: true,
-  children: [
-    // END: 2024
-    "typescript-without-build-tools", // 2024-12-30
-    "baseline-data-choices", // 2024-12-26
-    "scroll-driven-fixed", // 2024-12-20
-    "introducing-tanstack-start", // 2024-12-18
-    "react-19-and-web-component-examples", // 2024-12-16
-    "introducing-fly-io", // 2024-12-12
-    "responsive-tables-readable-paragraphs", // 2024-12-11
-    "drizzle-database-migrations", // 2024-12-09
-    "cant-seem-to-remove-the-formatting-from-a-string-of-text", // 2024-12-06
-    "multi-state-buttons", // 2024-12-05
-    "pure-css-halftone-effect-in-3-declarations", // 2024-12-03
-    "the-logical-border-radius-equivalents", // 2024-12-02
-    "tweaking-one-set-of-colors-for-light-dark-modes", // 2024-11-25
-    "tanstack-router-data-loading-2", // 2024-11-21
-    "tanstack-router-data-loading-1", // 2024-11-20
-    "no-fuss-light-dark-modes", // 2024-11-18
-    "showing-browser-support-for-web-platform-features-on-your-own-blog", // 2024-11-15
-    "custom-progress-element-using-anchor-positioning-scroll-driven-animations", // 2024-11-13
-    "scoped-scroll-timelines", // 2024-11-11
-    "why-alpine-is-the-new-jquery-and-why-that-is-an-awesome-thing", // 2024-11-07
-    "mastering-interaction-to-next-paint-inp", // 2024-11-05
-    "named-scroll-view-timelines", // 2024-11-04
-    "edge-to-edge-text", // 2024-10-31
-    "scroll-driven-sections", // 2024-10-29
-    "9-16", // 2024-10-24
-    "view-transitions-staggering", // 2024-10-22
-    "simple-typographic-email-template", // 2024-10-17
-    "fanout-with-grid-and-view-transitions", // 2024-10-14
-    "handling-paste-events-in-javascript", // 2024-10-11
-    "css-fan-out-with-grid-and-property", // 2024-10-09
-    "reminder-that-scope-and-html-style-blocks-are-a-potent-combo", //2024-10-07
-    "whats-the-difference-between-htmls-dialog-element-and-popovers", // 2024-09-30
-    "you-might-not-need-that-framework", // 2024-09-27
-    "what-software-developer-skills-should-you-focus-on-leading-into-2025", // 2024-09-25
-    "keeping-pixely-images-pixely-and-performant", // 2024-09-23
-    "gradient-text-with-a-drop-shadow", // 2024-09-20
-    "introducing-tanstack-router", // 2024-09-13
-    "split-effects-with-no-content-duplication", // 2024-09-11
-    "what-does-hydration-mean", // 2024-09-09
-    "a-complete-guide-to-beginning-with-typescript", // 2024-09-06
-    "a-complete-guide-to-beginning-with-javascript", // 2024-09-04
-    "backgrounds-for-the-box-model-and-why-it-can-be-useful", // 2024-09-02
-    "java-optionals", // 2024-08-30
-    "the-dialog-element-with-entry-and-exit-animations", // 2024-08-28
-    "what-skills-should-you-focus-on-as-junior-web-developer-in-2024", // 2024-08-26
-    "writing-to-the-clipboard-in-javascript", // 2024-08-23
-    "custom-range-slider-using-anchor-positioning-scroll-driven-animations", // 2024-08-21
-    "the-css-contain-property", // 2024-08-19
-    "letting-ios-text-size-setting-affect-font-size-on-the-web", // 2024-08-16
-    "fine-grained-reactivity-in-svelte-5", // 2024-08-14
-    "relative-color-syntax-basic-use-cases", // 2024-08-12
-    "exploring-the-possibilities-of-native-javascript-decorators", // 2024-08-09
-    "snippets-in-svelte-5", // 2024-08-07
-    "figma-typography-variables", // 2024-08-05
-    "what-if-you-used-container-units-for-everything", // 2024-08-02
-    "reading-from-the-clipboard-in-javascript", // 2024-07-31
-    "patterns-for-memory-efficient-dom-manipulation", // 2024-07-29
-    "how-to-get-the-width-height-of-any-element-in-only-css", // 2024-07-25
-    "clip-pathing-color-changes", // 2024-07-23
-    "introducing-svelte-5", // 2024-07-19
-    "the-pitfalls-of-in-app-browsers", // 2024-07-17
-    "css-does-need-mixins", // 2024-07-12
-    "single-directionally-allowed-overflow", // 2024-07-10
-    "how-keyboard-navigation-works-in-a-css-game", // 2024-07-08
-    "script-integrity", // 2024-07-05
-    "why-is-this-thing-in-dark-mode", // 2024-07-03
-    "youtube-embeds-are-bananas-heavy-and-its-fixable", // 2024-07-01
-    "browser-support-tests-in-javascript-for-modern-web-features", // 2024-06-28
-    "text-reveal-with-conic-gradient", // 2024-06-26
-    "popovers-work-pretty-nicely-as-slide-out-drawers", // 2024-06-24
-    "pure-css-circular-text-without-requiring-a-monospace-font", // 2024-06-21
-    "footnotes-progressively-enhanced-to-popovers", // 2024-06-19
-    "introducing-drizzle", // 2024-06-17
-    "one-of-the-boss-battles-of-css-is-almost-won-transitioning-to-auto", // 2024-06-12
-    "masonry-and-reading-order", // 2024-06-10
-    "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07
-    "live-demos-of-stand-alone-web-components", // 2024-06-06
-    "control-javascript-promises-from-anywhere-using-promise-withresolvers", // 2024-06-05
-    "fast-and-budget-friendly-user-research-and-testing", // 2024-06-04
-    "testing-types-in-typescript", // 2024-06-04
-    "how-to-make-a-css-timer", // 2024-05-29
-    "combining-react-server-components-with-react-query-for-easy-data-management", // 2024-05-24
-    "animating-dialog", // 2024-05-23
-    "danger-preventing-zoom-from-changing-text-size", // 2024-05-22
-    "weve-got-container-queries-now-but-are-we-actually-using-them", // 2024-05-21
-    "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
-    "prefetching-when-server-loading-wont-do", // 2024-05-15
-    "the-classic-border-radius-advice-plus-an-unusual-trick", // 2024-05-13
-    "using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators", // 2024-05-10
-    "5-things-designers-can-do-with-javascript", // 2024-05-08
-    "using-the-popover-api-for-html-tooltips", // 2024-05-06
-    "multiplexed-fonts-have-a-cool-superpower", // 2024-05-03
-    "popover-api-is-here", // 2024-04-30
-    "using-nextauth-now-auth-js-with-sveltekit", // 2024-04-29
-    "the-html-css-and-svg-for-a-classic-search-form", // 2024-04-25
-    "feedback-on-masonry-layout", // 2024-04-24
-    "dark-and-light", // 2024-04-18
-    "things-that-can-break-aspect-ratio-in-css", // 2024-04-16
-    "a-css-powered-add-remove-tags-ui", // 2024-04-11
-    "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
-    "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
-   
-    "the-color-input-the-color-picker", // 2024-01-18
-    "we-can-has-it-all", // 2024-01-10
+    // END: 2026
+    "beyond-the-mouse-animating-with-mobile-accelerometers", // 2026-01-09
+    "popover-context-menus-with-anchor-positioning", // 2026-01-08
+    "how-to-scope-css-now-that-its-baseline", // 2026-01-05
+    "important-and-css-custom-properties", // 2026-01-01
   ]
 }
 
@@ -240,15 +128,129 @@ const Y2025: SidebarYeargroupTemplate = {
   ]
 }
 
-const Y2026: SidebarYeargroupTemplate = {
-  text: '2026',
+const Y2024: SidebarYeargroupTemplate = {
+  text: '2024',
   collapsible: true,
   children: [
-    // END: 2026
-    "important-and-css-custom-properties", // 2026-01-01
+    // END: 2024
+    "typescript-without-build-tools", // 2024-12-30
+    "baseline-data-choices", // 2024-12-26
+    "scroll-driven-fixed", // 2024-12-20
+    "introducing-tanstack-start", // 2024-12-18
+    "react-19-and-web-component-examples", // 2024-12-16
+    "introducing-fly-io", // 2024-12-12
+    "responsive-tables-readable-paragraphs", // 2024-12-11
+    "drizzle-database-migrations", // 2024-12-09
+    "cant-seem-to-remove-the-formatting-from-a-string-of-text", // 2024-12-06
+    "multi-state-buttons", // 2024-12-05
+    "pure-css-halftone-effect-in-3-declarations", // 2024-12-03
+    "the-logical-border-radius-equivalents", // 2024-12-02
+    "tweaking-one-set-of-colors-for-light-dark-modes", // 2024-11-25
+    "tanstack-router-data-loading-2", // 2024-11-21
+    "tanstack-router-data-loading-1", // 2024-11-20
+    "no-fuss-light-dark-modes", // 2024-11-18
+    "showing-browser-support-for-web-platform-features-on-your-own-blog", // 2024-11-15
+    "custom-progress-element-using-anchor-positioning-scroll-driven-animations", // 2024-11-13
+    "scoped-scroll-timelines", // 2024-11-11
+    "why-alpine-is-the-new-jquery-and-why-that-is-an-awesome-thing", // 2024-11-07
+    "mastering-interaction-to-next-paint-inp", // 2024-11-05
+    "named-scroll-view-timelines", // 2024-11-04
+    "edge-to-edge-text", // 2024-10-31
+    "scroll-driven-sections", // 2024-10-29
+    "9-16", // 2024-10-24
+    "view-transitions-staggering", // 2024-10-22
+    "simple-typographic-email-template", // 2024-10-17
+    "fanout-with-grid-and-view-transitions", // 2024-10-14
+    "handling-paste-events-in-javascript", // 2024-10-11
+    "css-fan-out-with-grid-and-property", // 2024-10-09
+    "reminder-that-scope-and-html-style-blocks-are-a-potent-combo", //2024-10-07
+    "whats-the-difference-between-htmls-dialog-element-and-popovers", // 2024-09-30
+    "you-might-not-need-that-framework", // 2024-09-27
+    "what-software-developer-skills-should-you-focus-on-leading-into-2025", // 2024-09-25
+    "keeping-pixely-images-pixely-and-performant", // 2024-09-23
+    "gradient-text-with-a-drop-shadow", // 2024-09-20
+    "introducing-tanstack-router", // 2024-09-13
+    "split-effects-with-no-content-duplication", // 2024-09-11
+    "what-does-hydration-mean", // 2024-09-09
+    "a-complete-guide-to-beginning-with-typescript", // 2024-09-06
+    "a-complete-guide-to-beginning-with-javascript", // 2024-09-04
+    "backgrounds-for-the-box-model-and-why-it-can-be-useful", // 2024-09-02
+    "java-optionals", // 2024-08-30
+    "the-dialog-element-with-entry-and-exit-animations", // 2024-08-28
+    "what-skills-should-you-focus-on-as-junior-web-developer-in-2024", // 2024-08-26
+    "writing-to-the-clipboard-in-javascript", // 2024-08-23
+    "custom-range-slider-using-anchor-positioning-scroll-driven-animations", // 2024-08-21
+    "the-css-contain-property", // 2024-08-19
+    "letting-ios-text-size-setting-affect-font-size-on-the-web", // 2024-08-16
+    "fine-grained-reactivity-in-svelte-5", // 2024-08-14
+    "relative-color-syntax-basic-use-cases", // 2024-08-12
+    "exploring-the-possibilities-of-native-javascript-decorators", // 2024-08-09
+    "snippets-in-svelte-5", // 2024-08-07
+    "figma-typography-variables", // 2024-08-05
+    "what-if-you-used-container-units-for-everything", // 2024-08-02
+    "reading-from-the-clipboard-in-javascript", // 2024-07-31
+    "patterns-for-memory-efficient-dom-manipulation", // 2024-07-29
+    "how-to-get-the-width-height-of-any-element-in-only-css", // 2024-07-25
+    "clip-pathing-color-changes", // 2024-07-23
+    "introducing-svelte-5", // 2024-07-19
+    "the-pitfalls-of-in-app-browsers", // 2024-07-17
+    "css-does-need-mixins", // 2024-07-12
+    "single-directionally-allowed-overflow", // 2024-07-10
+    "how-keyboard-navigation-works-in-a-css-game", // 2024-07-08
+    "script-integrity", // 2024-07-05
+    "why-is-this-thing-in-dark-mode", // 2024-07-03
+    "youtube-embeds-are-bananas-heavy-and-its-fixable", // 2024-07-01
+    "browser-support-tests-in-javascript-for-modern-web-features", // 2024-06-28
+    "text-reveal-with-conic-gradient", // 2024-06-26
+    "popovers-work-pretty-nicely-as-slide-out-drawers", // 2024-06-24
+    "pure-css-circular-text-without-requiring-a-monospace-font", // 2024-06-21
+    "footnotes-progressively-enhanced-to-popovers", // 2024-06-19
+    "introducing-drizzle", // 2024-06-17
+    "one-of-the-boss-battles-of-css-is-almost-won-transitioning-to-auto", // 2024-06-12
+    "masonry-and-reading-order", // 2024-06-10
+    "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07
+    "live-demos-of-stand-alone-web-components", // 2024-06-06
+    "control-javascript-promises-from-anywhere-using-promise-withresolvers", // 2024-06-05
+    "fast-and-budget-friendly-user-research-and-testing", // 2024-06-04
+    "testing-types-in-typescript", // 2024-06-04
+    "how-to-make-a-css-timer", // 2024-05-29
+    "combining-react-server-components-with-react-query-for-easy-data-management", // 2024-05-24
+    "animating-dialog", // 2024-05-23
+    "danger-preventing-zoom-from-changing-text-size", // 2024-05-22
+    "weve-got-container-queries-now-but-are-we-actually-using-them", // 2024-05-21
+    "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
+    "prefetching-when-server-loading-wont-do", // 2024-05-15
+    "the-classic-border-radius-advice-plus-an-unusual-trick", // 2024-05-13
+    "using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators", // 2024-05-10
+    "5-things-designers-can-do-with-javascript", // 2024-05-08
+    "using-the-popover-api-for-html-tooltips", // 2024-05-06
+    "multiplexed-fonts-have-a-cool-superpower", // 2024-05-03
+    "popover-api-is-here", // 2024-04-30
+    "using-nextauth-now-auth-js-with-sveltekit", // 2024-04-29
+    "the-html-css-and-svg-for-a-classic-search-form", // 2024-04-25
+    "feedback-on-masonry-layout", // 2024-04-24
+    "dark-and-light", // 2024-04-18
+    "things-that-can-break-aspect-ratio-in-css", // 2024-04-16
+    "a-css-powered-add-remove-tags-ui", // 2024-04-11
+    "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
+    "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
+   
+    "the-color-input-the-color-picker", // 2024-01-18
+    "we-can-has-it-all", // 2024-01-10
   ]
 }
 
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
+  collapsible: true,
+  children: [
+    // END: 2023
+    "container-queries-and-units", // 2023-12-21
+    "light-dom-only", // 2023-12-08
+    "vanilla-javascript-reactivity", // 2023-08-21
+    "what-is-sql-database-definition-for-beginners", // 2023-01-13
+  ]
+}
 
 export const template: SidebarInfoTemplate = {
   name: 'frontendmasters.com',
@@ -494,6 +496,8 @@ export const template: SidebarInfoTemplate = {
       "toggle-position-sticky-to-position-fixed-on-scroll", // 2025-12-24
       // END: 2025css
       "important-and-css-custom-properties", // 2026-01-01
+      "how-to-scope-css-now-that-its-baseline", // 2026-01-05
+      "popover-context-menus-with-anchor-positioning", // 2026-01-08
       // END: 2026css
       // END: css
     ]],[

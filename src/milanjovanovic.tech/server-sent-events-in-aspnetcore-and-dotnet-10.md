@@ -60,7 +60,7 @@ With the release of ASP.NET Core 10, we finally have a native, high-level API fo
 
 ## Why SSE Instead of SignalR?
 
-[<VPIcon icon="fa-brands fa-microsoft"/>SignalR](https://dotnet.microsoft.com/en-us/apps/aspnet/signalr) is a powerhouse that handles [<VPIcon icon="fa-brands fa-firefox"/>WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API), Long Polling, and [<VPIcon icon="fa-brands fa-firefox"/>SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) automatically, providing a full-duplex (**two-way**) communication channel. However, it comes with a footprint: a specific protocol (Hubs), a required client-side library, and a need for "sticky sessions" or a backplane (like Redis) for scaling.
+[<VPIcon icon="fa-brands fa-microsoft"/>SignalR](https://dotnet.microsoft.com/en-us/apps/aspnet/signalr) is a powerhouse that handles [<VPIcon icon="fa-brands fa-firefox" />WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API), Long Polling, and [<VPIcon icon="fa-brands fa-firefox" />SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) automatically, providing a full-duplex (**two-way**) communication channel. However, it comes with a footprint: a specific protocol (Hubs), a required client-side library, and a need for "sticky sessions" or a backplane (like Redis) for scaling.
 
 ::: note SSE is different because:
 

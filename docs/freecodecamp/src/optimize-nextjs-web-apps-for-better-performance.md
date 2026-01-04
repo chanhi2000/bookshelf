@@ -196,7 +196,7 @@ The `Script` component allows you to define a **loading strategy** for scripts, 
 /> //Pass the strategy as a prop to the component
 ```
 
-By leveraging the Next.js `Script` component, you can prevent scripts from blocking critical rendering, reducing load times and improve [<VPIcon icon="fa-brands fa-firefox"/>Time to Interactive](https://developer.mozilla.org/en-US/docs/Glossary/Time_to_interactive) (TTI).
+By leveraging the Next.js `Script` component, you can prevent scripts from blocking critical rendering, reducing load times and improve [<VPIcon icon="fa-brands fa-firefox" />Time to Interactive](https://developer.mozilla.org/en-US/docs/Glossary/Time_to_interactive) (TTI).
 
 ### 3. Remove Unused Packages/Dependencies
 

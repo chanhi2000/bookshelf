@@ -53,7 +53,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 [<VPIcon icon="fas fa-globe"/>Years ago](https://css-tricks.com/move-modal-path/) I did [a demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyier`)](https://codepen.io/chriscoyier/pen/NgNymx) where a modal was triggered open and it came flying in on a curved path. I always thought that was kinda cool. Time has chugged on, and I thought I’d revisit that with a variety of improved web platform technology.
 
 1. Instead of a `<div>` it’ll be a proper `<dialog>`.
-2. We’ll set it up to work with no JavaScript at all. But we’ll fall back to using the JavaScript methods `.showModal()` and `.close()` to support browsers that don’t support the [<VPIcon icon="fas fa-globe"/>invoker](https://oddbird.net/2025/04/17/winging-it-18/) command stuff.
+2. We’ll set it up to work with no JavaScript at all. But we’ll fall back to using the JavaScript methods `.showModal()` and `.close()` to support browsers that don’t support the [**invoker**](/oddbird.net/winging-it-18.md) command stuff.
 3. We’ll use `@starting-style`, which is arguably more verbose, but allows for opening and closing animations while allowing the `<dialog>` to be `display: none;` when closed which is better than it was before where the dialog was always in the accessibility tree.
 4. Instead of `path()` for the `offset-path`, which forced us into pixels, we’ll use `shape()` which allows us to use the viewport better. But we’ll still fall back to `path()`.
 5. We’ll continue accounting for `prefers-reduced-motion` however we need to.

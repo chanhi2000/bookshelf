@@ -59,7 +59,7 @@ In this article, I want to talk about the amazing possibilities of a CSS grid an
 
 As a bonus, we will also touch on `object-fit` and `aspect-ratio`, which come in handy as well.
 
-![[<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/1-combined-design-desktop-mobile-versions.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/1-combined-design-desktop-mobile-versions.png)
+![<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/1-combined-design-desktop-mobile-versions.png)
 
 Here you can see the design we will be implementing: desktop on the left and a cropped version for mobile on the right (imagine the mobile view to continue with sections 3 and 4). There is quite a lot going on here, and nothing really fits into neat rows and columns. The images are laid out on an uneven grid, sometimes even overlapping, and we have some narrow text and a numbering element that double as a design element.
 
@@ -69,7 +69,7 @@ Here you can see the design we will be implementing: desktop on the left and a c
 
 Let us first look at the image grid elements inside each colored component. While we have four colored components, there are only two variants that get repeated. For easier comparison, I have cut the desktop version in half and put the two halves next to one another — this makes it easier to compare. As you can see, the first and third are the same, as are the second and fourth. If we compare just the first and second variants, they differ, but the basic building blocks are very similar (a full-sized background color, a big image block, a column with a number, and some text). Due to this, we can consider it the same component, just with two alternatives.
 
-![[<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/2-design-desktop-version-cut-in-half.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/2-design-desktop-version-cut-in-half.png)
+![<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/2-design-desktop-version-cut-in-half.png)
 
 In the olden days, we would have had to do the image grid in Photoshop and then add it as one image to the page. Obviously, we could still do this, but that solution has never been particularly good for responsive websites, and using the [**picture element**](/smashingmagazine.com/responsive-images-done-right-guide-picture-srcset/#the-art-direction-use-case.md) would work, but we would have to do several layouts in Photoshop and redo everything if we want to change a picture. We would need to do this every time this element gets added with different pictures.
 
@@ -85,10 +85,10 @@ Now let’s get to our images. What is it that we need at a minimum? A container
 
 ```html
 <div class="grid image-grid-3-m4">
-   <img class="image-0 " src="" /> 
-   <img class="image-1 " src="" />
-   <img class="image-2 " src="" />
-   <img class="image-3 " src="" />
+  <img class="image-0 " src="" /> 
+  <img class="image-1 " src="" />
+  <img class="image-2 " src="" />
+  <img class="image-3 " src="" />
 </div>
 ```
 
@@ -98,7 +98,7 @@ Now that we have the basic HTML and our images in place, it is time to focus on 
 
 First off, we need to define our grid. Since I had a design to work with, I used a tool that allowed me to put lines on top of the image, position one line at each edge of the image, and see the pixel dimensions in between. It would have been great if the designer had already used a formal grid and told me about it, but unfortunately, that was not the case, so I used the proportionate dimensions as an approximation of what I should use in the grid. Basically, I asked myself what the smallest common divisible number was for each — with some wiggle room — and used that. (Welcome to math class.) My goal was to have the same size for all grid columns and rows while being flexible on the number of columns or rows.
 
-![[<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/3-css-grid-design-layout-ruler-overlay.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/3-css-grid-design-layout-ruler-overlay.png)
+![<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/3-css-grid-design-layout-ruler-overlay.png)
 
 With this method, I determined that I wanted to have 14 columns on mobile and 7 rows plus some uniform gaps. This allowed me to approximate the distribution in the layout while keeping the aspect ratios close to what they had envisioned. Based on that, we get the following CSS:
 
@@ -121,9 +121,9 @@ With these four lines of CSS, we have a grid that is ready to be filled. If you 
   slug-hash="gOjKgqM"
   title="Basic CSS for the grid [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
-But obviously, we want to get fancy, so no even layouts for us. To achieve this, we need a few more CSS rules: [<VPIcon icon="fa-brands fa-firefox"/>`grid-column`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) and [<VPIcon icon="fa-brands fa-firefox"/>`grid-row`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row) to be precise. These allow us to specify how an element should position itself within the grid. Add to that my trusty lines and crooked math, and I could place each image. For example, the first image begins at the top left corner, so we start on grid column line 1 and row 1, and it shall span 6 of our 14 columns and 4 rows. Instead of telling an element how many cells to span, you can also specify the end value. Personally, I prefer the span since it is easier to keep track of and read.
+But obviously, we want to get fancy, so no even layouts for us. To achieve this, we need a few more CSS rules: [<VPIcon icon="fa-brands fa-firefox" />`grid-column`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) and [<VPIcon icon="fa-brands fa-firefox" />`grid-row`](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row) to be precise. These allow us to specify how an element should position itself within the grid. Add to that my trusty lines and crooked math, and I could place each image. For example, the first image begins at the top left corner, so we start on grid column line 1 and row 1, and it shall span 6 of our 14 columns and 4 rows. Instead of telling an element how many cells to span, you can also specify the end value. Personally, I prefer the span since it is easier to keep track of and read.
 
 ```css
 .image-0 {
@@ -154,7 +154,7 @@ smashingmag
   slug-hash="Untitled [forked"
   title=""
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 For the desktop version, all we really want to do is shift where the images start and end. To do so, we need a media query where we redefine the grid and positionings. Again I calculated the rows and columns I would need and where to position each element and added information for each to my CSS.
 
 smashingmag
@@ -163,7 +163,7 @@ smashingmag
   slug-hash="Untitled [forked"
   title=""
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 Now we have an image grid that changes its layout based on the viewport, and once we put it into an element with a flexible width, the images will update their display size accordingly.
 
 The hardest thing here is understanding the syntax and getting to grips with explicitly positioning elements. But once you have done so, a whole world of possibilities opens up. Obviously, this is not something you can always do, especially when you have reusable components, but for specific use cases, it can add something special or solve a hard case.
@@ -176,7 +176,7 @@ Now that we have the most difficult part of the images done, it is time to have 
 
 If we turn to the design again, there are only a handful of elements. We have several images, which in larger viewports may be divided into two sections: the number in a white box and all text elements.
 
-![[<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/4-css-grid-sections-design-layout.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/4-css-grid-sections-design-layout.png)
+![<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/4-css-grid-sections-design-layout.png)
 
 What is the minimum HTML for that? Again we do not need a lot of extras; a surrounding `div` and then one for each part is all that we need:
 
@@ -223,7 +223,7 @@ To achieve the overlay effect for the number, the white box will be in its conta
 
 But how do we get from this to the desktop version, you may ask? Pretty easily, actually! For the overall design of the website, we are already using a 14-column grid on the desktop for all elements. If we overlay the design with some grid markers, we see the widths everything should take approximately.
 
-![[<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/5-column-grid-desktop-overlay.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/5-column-grid-desktop-overlay.png)
+![<VPIcon icon="fas fa-globe"/>Large preview](https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/5-column-grid-desktop-overlay.png)
 
 Obviously, our named areas from the mobile view will not really help us for this version, but we can simply update them in a media query for our desktop view and also define different area names:
 
@@ -282,7 +282,7 @@ Finally, here is the full version of the design with everything pulled together:
   slug-hash="VwBdpma"
   title="Untitled [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Additionally, if you are curious about the final live webpage, it can be found [<VPIcon icon="fas fa-globe"/>here](https://ille.de/duftwelten/).
 
@@ -296,4 +296,3 @@ Additionally, if you are curious about the final live webpage, it can be found [
   "background": "rgba(211,58,44,0.2)"
 }
 ```
-

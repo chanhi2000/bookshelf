@@ -548,7 +548,7 @@ Let's go back to our example. I did some quick research to find out how others m
 
 ![I found [<VPIcon icon="fa-brands fa-wikipedia-w"/>this reference useful](https://en.wikipedia.org/wiki/For_loop#/media/File:For_loop_example.svg) to guide my own description:](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/For_loop_example.svg/220px-For_loop_example.svg.png)
 
-This approach seems to be fairly standard and I will try to include some of those steps in my flowchart. I also found that according to JavaScript documentation, the kind of for-loop we are about to represent repeats [<VPIcon icon="fa-brands fa-firefox"/>until a specified condition evaluates to false](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration), just like in the flowchart above.
+This approach seems to be fairly standard and I will try to include some of those steps in my flowchart. I also found that according to JavaScript documentation, the kind of for-loop we are about to represent repeats [<VPIcon icon="fa-brands fa-firefox" />until a specified condition evaluates to false](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration), just like in the flowchart above.
 
 Let's start by working on the first for-loop only:
 

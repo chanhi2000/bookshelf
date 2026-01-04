@@ -131,11 +131,11 @@ I’m using the scoped styles as a “variation” there, but the whole block of
 
 Why isn’t this being used much?
 
-Well, it’s the Firefox support mostly I think. Firefox just straight up doesn’t [<VPIcon icon="fas fa-globe"/>support it](https://caniuse.com/css-cascade-scope) at the time of this writing. I’d say this is a strong candidate for Interop 2025. It looked like it was tried for in 2024 but maybe it was too new or something. But maybe Interop isn’t needed as it appears as if it’s being [<VPIcon icon="fa-brands fa-firefox"/>actively worked on](https://bugzilla.mozilla.org/show_bug.cgi?id=1830512), so maybe it won’t be long, dunno.
+Well, it’s the Firefox support mostly I think. Firefox just straight up doesn’t [<VPIcon icon="fas fa-globe"/>support it](https://caniuse.com/css-cascade-scope) at the time of this writing. I’d say this is a strong candidate for Interop 2025. It looked like it was tried for in 2024 but maybe it was too new or something. But maybe Interop isn’t needed as it appears as if it’s being [<VPIcon icon="fa-brands fa-firefox" />actively worked on](https://bugzilla.mozilla.org/show_bug.cgi?id=1830512), so maybe it won’t be long, dunno.
 
 Once Firebox support is there, I could imagine this as being highly used as a way to accomplish scoped styles for components. It doesn’t require *any* tooling or have *any* limitations on what CSS you can use. I would think that would appeal to any existing CSS scoping tool as it would require them to do much less work and work faster.
 
-[<VPIcon icon="fa-brands fa-firefox"/>CSS @scope](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope) can do more things, but this particular feature is my favorite and likely to have the biggest impact over time.
+[<VPIcon icon="fa-brands fa-firefox" />CSS @scope](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope) can do more things, but this particular feature is my favorite and likely to have the biggest impact over time.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

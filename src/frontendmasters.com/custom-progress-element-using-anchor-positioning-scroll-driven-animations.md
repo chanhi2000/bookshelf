@@ -314,9 +314,9 @@ After that, we define a linear animation that animates an integer variable from`
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/s_C72B641192C43333719DB09FE368DD770798849971BE8F1E36E6A0C4EFB7ACED_1730716083456_image.png?resize=697%2C389&ssl=1)
 
-::: info MDN (<VPIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>)
+::: info MDN (<VPIcon icon="fa-brands fa-firefox" /><code>developer.mozilla.org</code>)
 
-From[<VPIcon icon="fa-brands fa-firefox"/>the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range), we can read:
+From[<VPIcon icon="fa-brands fa-firefox" />the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range), we can read:
 
 > `entry`Represents the range of a named view progress timeline from the point where the subject element first starts to enter the scroll port (0% progress), to the point where it has completely entered the scroll port (100%).
 

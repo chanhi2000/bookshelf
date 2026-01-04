@@ -78,6 +78,7 @@ const Y2023: SidebarYeargroupTemplate = {
   children: [
     // END: 2023
     "css-scroll-detection", // 2023-10-24
+    "the-future-of-css-easy-light-dark-mode-color-switching-with-light-dark", // 2023-10-09
     "solved-by-css-scroll-driven-animations-detect-if-an-element-can-scroll-or-not", // 2023-09-16
     "faking-a-snapped-selector-with-scroll-driven-animations", // 2023-06-27
     "scroll-triggered-animations", // 2023-06-16
@@ -179,6 +180,7 @@ export const template: SidebarInfoTemplate = {
       "scroll-triggered-animations", // 2023-06-16
       "faking-a-snapped-selector-with-scroll-driven-animations", // 2023-06-27
       "solved-by-css-scroll-driven-animations-detect-if-an-element-can-scroll-or-not", // 2023-09-16
+      "the-future-of-css-easy-light-dark-mode-color-switching-with-light-dark", // 2023-10-09
       "css-scroll-detection", // 2023-10-24
       // END: 2023css
       "feature-detect-css-property-support", // 2024-07-04

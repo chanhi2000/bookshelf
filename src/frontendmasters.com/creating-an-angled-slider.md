@@ -84,7 +84,7 @@ While I did[experiment (<VPIcon icon="fa-brands fa-codepen"/>`ZachSaucier`)](htt
 
 ## Creating a Basic Angled Slider
 
-The core of this slider effect is layered content with an angled[<VPIcon icon="fa-brands fa-firefox"/>`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)to reveal targeted content. “Targeted” isn't exactly a scientific web dev term, but I'll be using it to mean “hovered, focused, or`aria-selected`”.
+The core of this slider effect is layered content with an angled[<VPIcon icon="fa-brands fa-firefox" />`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)to reveal targeted content. “Targeted” isn't exactly a scientific web dev term, but I'll be using it to mean “hovered, focused, or`aria-selected`”.
 
 For static content, creating a layout like this is straightforward. Just layer the contents on top of each other (using`position: absolute`or`display: grid`) then apply the `clip-path` to the top element(s):
 

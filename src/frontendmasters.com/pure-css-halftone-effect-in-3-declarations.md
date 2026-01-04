@@ -614,7 +614,7 @@ We can also animate a map’s`background-position`to get a blinds effect like be
   :default-tab="['css','result']"
   :theme="dark"/>
 
-In the demo above, we’ve also blended the halftone pattern with an image. Here’s another such example (note that this doesn’t work in Firefox due to[<VPIcon icon="fa-brands fa-firefox"/>bug 1481498](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498), which has everything to do with the text on the right side and nothing to do with the halftone part):
+In the demo above, we’ve also blended the halftone pattern with an image. Here’s another such example (note that this doesn’t work in Firefox due to[<VPIcon icon="fa-brands fa-firefox" />bug 1481498](https://bugzilla.mozilla.org/show_bug.cgi?id=1481498), which has everything to do with the text on the right side and nothing to do with the halftone part):
 
 ![card with halftone effect<br/>([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/GRNKqRv))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/11/6f1546f3d6c887ad.png?resize=800%2C540&ssl=1)
 

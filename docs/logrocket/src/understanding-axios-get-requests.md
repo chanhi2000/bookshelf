@@ -93,7 +93,7 @@ Axios is a Promise-based HTTP client for the browser and Node. Let’s break dow
 
 First, HTTP stands for Hypertext Transfer Protocol. It is a client-server protocol for fetching resources such as HTML documents.
 
-The client is the user-agent that acts on behalf of the user and initiates the requests for resources. Web browsers such as Google Chrome are a popular example of a client. A Promise-based client returns [<VPIcon icon="fa-brands fa-firefox"/>Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+The client is the user-agent that acts on behalf of the user and initiates the requests for resources. Web browsers such as Google Chrome are a popular example of a client. A Promise-based client returns [<VPIcon icon="fa-brands fa-firefox" />Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
 Axios is isomorphic, which means it can run in the browser and Node.js with the same code. When used on the server side, it uses Node’s native `http` module, whereas on the client side, it uses `XMLHttpRequest` objects. On the client side, Axios also supports protection against [<VPIcon icon="fa-brands fa-wikipedia-w"/>XSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery).
 
@@ -446,7 +446,7 @@ async function getCharacters() {
 getCharacters();
 ```
 
-Finally, you can get the data from the response body using [<VPIcon icon="fa-brands fa-firefox"/>destructuring assignments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment):
+Finally, you can get the data from the response body using [<VPIcon icon="fa-brands fa-firefox" />destructuring assignments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment):
 
 ```js
 async function getCharacters() {

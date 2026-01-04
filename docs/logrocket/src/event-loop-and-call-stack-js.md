@@ -168,7 +168,7 @@ While the call stack manages synchronous execution, JavaScript’s true power li
 
 ### The role of Web APIs
 
-[<VPIcon icon="fa-brands fa-firefox"/>Web APIs](https://developer.mozilla.org/en-US/docs/Web/API) are browser-provided interfaces that handle tasks outside JavaScript’s core runtime. They include:
+[<VPIcon icon="fa-brands fa-firefox" />Web APIs](https://developer.mozilla.org/en-US/docs/Web/API) are browser-provided interfaces that handle tasks outside JavaScript’s core runtime. They include:
 
 - **Timers** — `setTimeout`, `setInterval`
 - **Network requests**— `fetch`, `XMLHttpRequest`
@@ -351,7 +351,7 @@ Data received
 
 ## Web Workers: Offloading heavy tasks
 
-JavaScript’s single-threaded model ensures simplicity but struggles with CPU-heavy tasks like image processing, and complex or large dataset calculations. These tasks can freeze the UI, creating a poor user experience. [<VPIcon icon="fa-brands fa-firefox"/>Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) solve this by executing scripts in separate background threads, freeing the main thread to handle [**the DOM**](/blog.logrocket.com/exploring-essential-dom-methods-frontend-development.md) and user interactions.
+JavaScript’s single-threaded model ensures simplicity but struggles with CPU-heavy tasks like image processing, and complex or large dataset calculations. These tasks can freeze the UI, creating a poor user experience. [<VPIcon icon="fa-brands fa-firefox" />Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) solve this by executing scripts in separate background threads, freeing the main thread to handle [**the DOM**](/blog.logrocket.com/exploring-essential-dom-methods-frontend-development.md) and user interactions.
 
 ### How Web Workers operate
 

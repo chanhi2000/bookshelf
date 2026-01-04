@@ -125,7 +125,7 @@ SVG shapes are painted sequentially from top to bottom. To place a shape in the 
 
 ### Setting SVG styling to the preferred initial state
 
-SVGs use [<VPIcon icon="fa-brands fa-firefox"/>presentation attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation) (e.g., fill, stroke, stroke-width) directly in the code, prioritized until overridden by external CSS (without `!important`). Consider retaining width and height attributes for smoother loading on slower connections, avoiding the [<VPIcon icon="fas fa-globe"/>flash of unstyled SVG (FOUS)](https://sarasoueidan.com/blog/svg-style-inheritance-and-fousvg/) scenario.
+SVGs use [<VPIcon icon="fa-brands fa-firefox" />presentation attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation) (e.g., fill, stroke, stroke-width) directly in the code, prioritized until overridden by external CSS (without `!important`). Consider retaining width and height attributes for smoother loading on slower connections, avoiding the [<VPIcon icon="fas fa-globe"/>flash of unstyled SVG (FOUS)](https://sarasoueidan.com/blog/svg-style-inheritance-and-fousvg/) scenario.
 
 ---
 
@@ -231,7 +231,7 @@ These four methods are sufficient to apply CSS to SVG effectively. If you know a
 
 ## What can you animate with CSS?
 
-CSS enables you to create dynamic visual effects by animating various properties. While [<VPIcon icon="fa-brands fa-firefox"/>not every property is “animatable”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties), many can be seamlessly transitioned or animated using CSS with SVGs.
+CSS enables you to create dynamic visual effects by animating various properties. While [<VPIcon icon="fa-brands fa-firefox" />not every property is “animatable”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties), many can be seamlessly transitioned or animated using CSS with SVGs.
 
 Let’s dive into some demos showcasing the power of pure CSS animation, which transforms static SVGs with properties like `transform`, `opacity`, and `color`. These animations incorporate basic math to create dynamic menu toggles, loading animations, fluid line movements, lively illustrations, and smooth text animations.
 

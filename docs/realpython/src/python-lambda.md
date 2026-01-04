@@ -253,7 +253,7 @@ In the interactive interpreter, the single underscore (`_`) is bound to the last
 
 In the example above, the `_` points to the lambda function. For more details about the usage of this special character in Python, check out [<VPIcon icon="fas fa-globe"/>The Meaning of Underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python).
 
-Another pattern used in other languages like JavaScript is to immediately execute a Python lambda function. This is known as an **Immediately Invoked Function Expression** ([<VPIcon icon="fa-brands fa-firefox"/>IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE), pronounce “iffy”). Here’s an example:
+Another pattern used in other languages like JavaScript is to immediately execute a Python lambda function. This is known as an **Immediately Invoked Function Expression** ([<VPIcon icon="fa-brands fa-firefox" />IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE), pronounce “iffy”). Here’s an example:
 
 ```py
 (lambda x, y: x + y)(2, 3)
@@ -438,7 +438,7 @@ Like trying to include a statement in a lambda, adding type annotation immediate
 
 #### IIFE
 
-You’ve already seen several examples of [<VPIcon icon="fa-brands fa-firefox"/>immediately invoked function execution](https://developer.mozilla.org/en-US/docs/Glossary/IIFE):
+You’ve already seen several examples of [<VPIcon icon="fa-brands fa-firefox" />immediately invoked function execution](https://developer.mozilla.org/en-US/docs/Glossary/IIFE):
 
 ```py
 (lambda x: x * x)(3)

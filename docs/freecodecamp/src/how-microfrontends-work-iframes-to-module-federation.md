@@ -107,7 +107,7 @@ This is typically implemented at the reverse proxy layer (such as using NGINX), 
 
 Another common approach is using iframes, though this method has significant limitations.
 
-Unlike server-side composition, which operates at the page level, iframes can integrate as widgets within pages. Using iframes, you can load another website as a part of the website you want to integrate it within using the [<VPIcon icon="fa-brands fa-firefox"/>`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe) tag.
+Unlike server-side composition, which operates at the page level, iframes can integrate as widgets within pages. Using iframes, you can load another website as a part of the website you want to integrate it within using the [<VPIcon icon="fa-brands fa-firefox" />`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe) tag.
 
 ![Diagram illustrating iframe integration, showing website.com/blog embedding a 'Widget' using an iframe with source 'website.com/widget'.](https://cdn.hashnode.com/res/hashnode/image/upload/v1747496936962/7c24a43a-80d4-45f4-a2df-3de0e0e0bc1c.png)
 

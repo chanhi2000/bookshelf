@@ -330,7 +330,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-This defines a single style that you’ve applied to the description text. If you’ve done any web development before, you’ll probably recognize those property names. The React Native StyleSheet class used to style the application UI is similar to the [<VPIcon icon="fa-brands fa-firefox"/>Cascading Style Sheets (CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS) used on the Web.
+This defines a single style that you’ve applied to the description text. If you’ve done any web development before, you’ll probably recognize those property names. The React Native StyleSheet class used to style the application UI is similar to the [<VPIcon icon="fa-brands fa-firefox" />Cascading Style Sheets (CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS) used on the Web.
   
 Then, get rid of the `instructions` assignment code block as you no longer need it.
 

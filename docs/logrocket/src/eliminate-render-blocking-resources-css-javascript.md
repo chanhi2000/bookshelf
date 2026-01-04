@@ -192,7 +192,7 @@ From the **Coverage** tab on Chrome DevTools, you can identify unused styles and
 
 You can also use tools like [**PurgeCSS**](/blog.logrocket.com/purgecss-remove-unused-css-code.md) that check your CSS code and remove any unused selectors from it. This is useful, especially when using third-party libraries such as Bootstrap and Font-awesome.
 
-To further improve the performance of your page, you can make use of [<VPIcon icon="fa-brands fa-firefox"/>CSS containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment). CSS containment allows the browser to isolate a subtree of the page from the rest of the page. This is essential to fix performance issues such as layout shifts:
+To further improve the performance of your page, you can make use of [<VPIcon icon="fa-brands fa-firefox" />CSS containment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment). CSS containment allows the browser to isolate a subtree of the page from the rest of the page. This is essential to fix performance issues such as layout shifts:
 
 ```css
 article {

@@ -732,7 +732,7 @@ But a closure only keeps what's necessary. Here, `num3` exists because it's part
 
 The point is, in the 2016 documentation, the term "enclosing scope" was clearly mentioned. In the current documentation, that phrase is missing. This means they've intentionally avoided that confusion.
 
-The modern definition now says, "closure is the combination of a function bundled together with references to its surrounding state" which is written more concisely compared to before. ([<VPIcon icon="fa-brands fa-firefox"/>Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures))
+The modern definition now says, "closure is the combination of a function bundled together with references to its surrounding state" which is written more concisely compared to before. ([<VPIcon icon="fa-brands fa-firefox" />Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures))
 
 Here, "state" refers to the lexical environment – that could be the child's environment, the parent's environment, or the entire scope. Based on this definition, a function keeps itself along with any variables it needs to remember, all bundled together. Explaining this clearly in words can be tricky. But you'll see more examples ahead, which will make each use case clear.
 

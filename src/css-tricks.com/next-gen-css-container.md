@@ -56,7 +56,7 @@ Chrome is experimenting with `@container`, a property within the CSS Working Gro
 
 The `@container` API is not stable, and is subject to syntax changes. If you try it out on your own, you may encounter a few bugs. Please report those bugs to the appropriate browser engine!
 
-**Bugs:** [<VPIcon icon="fa-brands fa-chrome"/>](https://bugs.chromium.org/p/chromium/issues/list) | [<VPIcon icon="fa-brands fa-firefox"/>](https://bugzilla.mozilla.org/home) | [<VPIcon icon="fa-brands fa-safari"/>](https://bugs.webkit.org/query.cgi?format=specific&product=WebKit)
+**Bugs:** [<VPIcon icon="fa-brands fa-chrome"/>](https://bugs.chromium.org/p/chromium/issues/list) | [<VPIcon icon="fa-brands fa-firefox" />](https://bugzilla.mozilla.org/home) | [<VPIcon icon="fa-brands fa-safari"/>](https://bugs.webkit.org/query.cgi?format=specific&product=WebKit)
 
 :::
 
@@ -188,9 +188,9 @@ This means that each card *owns its own responsive styling*. This yet another ex
 
 ## Usage
 
-In order to use `@container`, you first need to create a parent element that has [<VPIcon icon="fa-brands fa-firefox"/>containment](https://developer.mozilla.org/en-US/docs/Web/CSS/contain). In order to do so, you’ll need to set `contain: layout inline-size` on the parent. You can use `inline-size` since we currently can only apply container queries to the inline axis. This prevents your layout from breaking in the block direction.
+In order to use `@container`, you first need to create a parent element that has [<VPIcon icon="fa-brands fa-firefox" />containment](https://developer.mozilla.org/en-US/docs/Web/CSS/contain). In order to do so, you’ll need to set `contain: layout inline-size` on the parent. You can use `inline-size` since we currently can only apply container queries to the inline axis. This prevents your layout from breaking in the block direction.
 
-Setting `contain: layout inline-size` creates a new [<VPIcon icon="fa-brands fa-firefox"/>containing block](https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block) and new [<VPIcon icon="fa-brands fa-firefox"/>block formatting context](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context), letting the browser separate it from the rest of the layout. Now, we can query!
+Setting `contain: layout inline-size` creates a new [<VPIcon icon="fa-brands fa-firefox" />containing block](https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block) and new [<VPIcon icon="fa-brands fa-firefox" />block formatting context](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context), letting the browser separate it from the rest of the layout. Now, we can query!
 
 ---
 

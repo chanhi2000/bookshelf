@@ -98,7 +98,7 @@ If an API lets two software programs exchange data, MCP allows an AI model to ta
 
 You could build an MCP server that lets ChatGPT read files from your local machine, or one that calls your company’s internal APIs to fetch data. You could even expose your own Python functions so that a model can use them as tools.
 
-MCP makes this communication structured, secure, and extendable. It runs on familiar web technologies such as [<VPIcon icon="fa-brands fa-firefox"/>Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events), or SSE, which allow the server to send real-time data streams to the client.
+MCP makes this communication structured, secure, and extendable. It runs on familiar web technologies such as [<VPIcon icon="fa-brands fa-firefox" />Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events), or SSE, which allow the server to send real-time data streams to the client.
 
 ---
 

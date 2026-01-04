@@ -1,1 +1,1 @@
-https://www.smashingmagazine.com/2014/07/the-wai-forward/#aria-invalid
+https://smashingmagazine.com/2014/07/the-wai-forward/#aria-invalid

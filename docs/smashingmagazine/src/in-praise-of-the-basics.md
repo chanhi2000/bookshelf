@@ -85,7 +85,7 @@ Where do you go to learn HTML and CSS these days? Even now, there are few dedica
 There are excellent and/or free tutorials, too. Here, I’ll link a few of ’em up for you:
 
 - [<VPIcon icon="iconfont icon-webdev"/>Learn HTML](https://web.dev/learn/html) / [<VPIcon icon="iconfont icon-webdev"/>Learn CSS](https://web.dev/learn/css) by web.dev
-- [<VPIcon icon="fa-brands fa-firefox"/>Getting Start With the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) by MDN
+- [<VPIcon icon="fa-brands fa-firefox" />Getting Start With the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) by MDN
 - [<VPIcon icon="fas fa-globe"/>HTML & CSS Crash Course](https://scrimba.com/learn/introhtmlcss) by Kevin Powell
 - [<VPIcon icon="fas fa-globe"/>Introduction to HTML and CSS](https://theodinproject.com/lessons/foundations-introduction-to-html-and-css) by The Odin Project
 - [<VPIcon icon="fas fa-globe"/>Learn HTML](https://w3docs.com/learn-html.html) / [<VPIcon icon="fas fa-globe"/>Learn CSS](https://w3docs.com/learn-css.html) by W3Docs

@@ -88,7 +88,7 @@ Tooltips are a classic in web development. You click on an element, and a small 
 
 In this article, I will show you how to write good JavaScript that covers all the possibilities…
 
-Kidding! We’ll be using CSS and I will show how the modern [<VPIcon icon="fa-brands fa-firefox"/>anchor positioning API](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) can help us with all this. None of the weight and performance concerns of JavaScript here.
+Kidding! We’ll be using CSS and I will show how the modern [<VPIcon icon="fa-brands fa-firefox" />anchor positioning API](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) can help us with all this. None of the weight and performance concerns of JavaScript here.
 
 ::: note
 
@@ -107,7 +107,7 @@ Let’s start with a demo:
 
 Click-and-drag the anchor and see how the tooltip behaves. It will try to position itself in a way to remain visible and avoid any overflow. Cool, right? No JavaScript is used to position the tooltip (except the one for dragging the anchor, which is irrelevant to the trick).
 
-This is made possible thanks to the new [<VPIcon icon="fa-brands fa-firefox"/>Anchor Positioning API](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) and a few other tricks we will dissect together. We will also study more examples, so if you are new to anchor positioning, you are in the right place.
+This is made possible thanks to the new [<VPIcon icon="fa-brands fa-firefox" />Anchor Positioning API](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) and a few other tricks we will dissect together. We will also study more examples, so if you are new to anchor positioning, you are in the right place.
 
 ---
 

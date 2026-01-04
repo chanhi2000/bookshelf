@@ -1,131 +1,12 @@
 import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
-const Y2010: SidebarYeargroupTemplate = {
-  text: '2010',
+const Y2025: SidebarYeargroupTemplate = {
+  text: '2025',
   collapsible: true,
   children: [
-    // END: 2010
-    "when-one-word-is-more-meaningful-than-a-thousand", // 2010-07-14
-  ],
-}
-
-
-const Y2011: SidebarYeargroupTemplate = {
-  text: '2011',
-  collapsible: true,
-  children: [
-    // END: 2011
-    "an-introduction-to-object-oriented-css-oocss", // 2011-12-12
-    "html5-semantics", // 2011-11-18
-  ],
-}
-
-const Y2012: SidebarYeargroupTemplate = {
-  text: '2012',
-  collapsible: true,
-  children: [
-    // END: 2012
-    "client-side-templating", // 2012-12-05
-    "road-reusable-html-components", // 2012-10-23
-    "classes-where-were-going-we-dont-need-classes", // 2012-06-19
-    "a-new-front-end-methodology-bem", // 2012-04-16
-  ],
-}
-
-const Y2013: SidebarYeargroupTemplate = {
-  text: '2013',
-  collapsible: true,
-  children: [
-    // END: 2013
-    "semantic-css-with-intelligent-selectors", // 2013-08-20
-    "the-history-of-the-bem-methodolog", // 2013-02-21
-  ],
-}
-
-const Y2014: SidebarYeargroupTemplate = {
-  text: '2014',
-  collapsible: true,
-  children: [
-    // END: 2014
-    "bem-methodology-for-small-projects", // 2014-07-17
-  ],
-}
-
-const Y2015: SidebarYeargroupTemplate = {
-  text: '2015',
-  collapsible: true,
-  children: [
-    // END: 2015
-    "getting-started-css-calc-techniques", // 2015-12-03
-  ],
-}
-
-const Y2016: SidebarYeargroupTemplate = {
-  text: '2016',
-  collapsible: true,
-  children: [
-    // END: 2016
-    "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
-  ],
-}
-
-const Y2017: SidebarYeargroupTemplate = {
-  text: '2017',
-  collapsible: true,
-  children: [
-    // END: 2017
-  ],
-}
-
-const Y2018: SidebarYeargroupTemplate = {
-  text: '2018',
-  collapsible: true,
-  children: [
-    // END: 2018
-  ],
-}
-
-const Y2019: SidebarYeargroupTemplate = {
-  text: '2019',
-  collapsible: true,
-  children: [
-    // END: 2019
-  ],
-}
-
-const Y2020: SidebarYeargroupTemplate = {
-  text: '2020',
-  collapsible: true,
-  children: [
-    // END: 2020
-  ],
-}
-
-const Y2021: SidebarYeargroupTemplate = {
-  text: '2021',
-  collapsible: true,
-  children: [
-    // END: 2021
-  ],
-}
-
-const Y2022: SidebarYeargroupTemplate = {
-  text: '2022',
-  collapsible: true,
-  children: [
-    // END: 2022
-    "guide-command-line-data-manipulation-cli-miller", // 2022-12-27
-  ],
-}
-
-const Y2023: SidebarYeargroupTemplate = {
-  text: '2023',
-  collapsible: true,
-  children: [
-    // END: 2023
-    "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
-    "speedcurve-fight-main-thread", // 2023-10-24
-    "build-magazine-layout-css-grid-areas", // 2023-02-06
+    // END: 2025
+    "smashing-animations-part-7-recreating-toon-text-css-svg", // 2025-12-17
+    "smashing-animations-part-1-classic-cartoons-inspire-css", // 2025-05-07
   ],
 }
 
@@ -157,13 +38,162 @@ const Y2024: SidebarYeargroupTemplate = {
   ],
 }
 
-const Y2025: SidebarYeargroupTemplate = {
-  text: '2025',
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
   collapsible: true,
   children: [
-    // END: 2025
-    "smashing-animations-part-7-recreating-toon-text-css-svg", // 2025-12-17
-    "smashing-animations-part-1-classic-cartoons-inspire-css", // 2025-05-07
+    // END: 2023
+    "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
+    "speedcurve-fight-main-thread", // 2023-10-24
+    "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
+    "build-magazine-layout-css-grid-areas", // 2023-02-06
+  ],
+}
+
+const Y2022: SidebarYeargroupTemplate = {
+  text: '2022',
+  collapsible: true,
+  children: [
+    // END: 2022
+    "guide-command-line-data-manipulation-cli-miller", // 2022-12-27
+    "nodejs-authentication-twilio-verify", // 2022-10-07
+    "complete-guide-css-container-queries", // 2022-09-15
+  ],
+}
+
+const Y2021: SidebarYeargroupTemplate = {
+  text: '2021',
+  collapsible: true,
+  children: [
+    // END: 2021
+  ],
+}
+
+const Y2020: SidebarYeargroupTemplate = {
+  text: '2020',
+  collapsible: true,
+  children: [
+    // END: 2020
+    "understanding-css-grid-container", // 2020-01-03
+  ],
+}
+
+const Y2019: SidebarYeargroupTemplate = {
+  text: '2019',
+  collapsible: true,
+  children: [
+    // END: 2019
+  ],
+}
+
+const Y2018: SidebarYeargroupTemplate = {
+  text: '2018',
+  collapsible: true,
+  children: [
+    // END: 2018
+  ],
+}
+
+const Y2017: SidebarYeargroupTemplate = {
+  text: '2017',
+  collapsible: true,
+  children: [
+    // END: 2017
+  ],
+}
+
+const Y2016: SidebarYeargroupTemplate = {
+  text: '2016',
+  collapsible: true,
+  children: [
+    // END: 2016
+    "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
+  ],
+}
+
+const Y2015: SidebarYeargroupTemplate = {
+  text: '2015',
+  collapsible: true,
+  children: [
+    // END: 2015
+    "getting-started-css-calc-techniques", // 2015-12-03
+  ],
+}
+
+const Y2014: SidebarYeargroupTemplate = {
+  text: '2014',
+  collapsible: true,
+  children: [
+    // END: 2014
+    "bem-methodology-for-small-projects", // 2014-07-17
+    "introduction-to-custom-elements", // 2014-03-04
+  ],
+}
+
+const Y2013: SidebarYeargroupTemplate = {
+  text: '2013',
+  collapsible: true,
+  children: [
+    // END: 2013
+    "semantic-css-with-intelligent-selectors", // 2013-08-20
+    "the-history-of-the-bem-methodolog", // 2013-02-21
+  ],
+}
+
+const Y2012: SidebarYeargroupTemplate = {
+  text: '2012',
+  collapsible: true,
+  children: [
+    // END: 2012
+    "client-side-templating", // 2012-12-05
+    "road-reusable-html-components", // 2012-10-23
+    "useful-javascript-libraries-jquery-plugins-part-2", // 2012-09-26
+    "classes-where-were-going-we-dont-need-classes", // 2012-06-19
+    "a-new-front-end-methodology-bem", // 2012-04-16
+  ],
+}
+
+const Y2011: SidebarYeargroupTemplate = {
+  text: '2011',
+  collapsible: true,
+  children: [
+    // END: 2011
+    "an-introduction-to-object-oriented-css-oocss", // 2011-12-12
+    "html5-semantics", // 2011-11-18
+  ],
+}
+
+const Y2010: SidebarYeargroupTemplate = {
+  text: '2010',
+  collapsible: true,
+  children: [
+    // END: 2010
+    "when-one-word-is-more-meaningful-than-a-thousand", // 2010-07-14
+  ],
+}
+
+const Y2009: SidebarYeargroupTemplate = {
+  text: '2009',
+  collapsible: true,
+  children: [
+    // END: 2009
+  ],
+}
+
+const Y2008: SidebarYeargroupTemplate = {
+  text: '2008',
+  collapsible: true,
+  children: [
+    // END: 2008
+  ],
+}
+
+const Y2007: SidebarYeargroupTemplate = {
+  text: '2007',
+  collapsible: true,
+  children: [
+    // END: 2007
+    "53-css-techniques-you-couldnt-live-without", // 2007-01-19
   ],
 }
 
@@ -181,10 +211,13 @@ export const template: SidebarInfoTemplate = {
       // END: sh
     ]],[
     "js", [
+      "useful-javascript-libraries-jquery-plugins-part-2", // 2012-09-26
       "client-side-templating", // 2012-12-05
       // END: 2012js
       "the-history-of-the-bem-methodolog", // 2013-02-21
       // END: 2013js
+      "introduction-to-custom-elements", // 2014-03-04
+      "bem-methodology-for-small-projects", // 2014-07-17
       // END: 2014js
       // END: 2015js
       "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
@@ -195,6 +228,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2020js
       // END: 2021js
       // END: 2022js
+      "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       // END: 2023js
       // END: 2024js
       // END: 2025js
@@ -212,14 +246,51 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-react
       // END: js-react
     ]],[
+    "js-express", [
+      // END: 2014js-express
+      // END: 2015js-express
+      // END: 2016js-express
+      // END: 2017js-express
+      // END: 2018js-express
+      // END: 2019js-express
+      // END: 2020js-express
+      // END: 2021js-express
+      "nodejs-authentication-twilio-verify", // 2022-10-07
+      // END: 2022js-express
+      // END: 2023js-express
+      // END: 2024js-express
+      // END: 2025js-express
+      // END: 2026js-express
+      // END: js-express
+    ]],[
     "js-gatsby", [
       "end-of-gatsby-journey", // 2024-03-06
       // END: 2024js-gatsby
       // END: 2025js-gatsby
       // END: js-gatsby
     ]],[
+    "js-twilio", [
+      // END: 2014js-twilio
+      // END: 2015js-twilio
+      // END: 2016js-twilio
+      // END: 2017js-twilio
+      // END: 2018js-twilio
+      // END: 2019js-twilio
+      // END: 2020js-twilio
+      // END: 2021js-twilio
+      "nodejs-authentication-twilio-verify", // 2022-10-07
+      // END: 2022js-twilio
+      // END: 2023js-twilio
+      // END: 2024js-twilio
+      // END: 2025js-twilio
+      // END: js-twilio
+    ]],[
     "css", [
+      "53-css-techniques-you-couldnt-live-without", // 2007-01-19
+      // END: 2007css
+      // END: 2008css
       // END: 2009css
+      "understanding-css-grid-container", // 2020-01-03
       "when-one-word-is-more-meaningful-than-a-thousand", // 2010-07-14
       // END: 2010css
       "html5-semantics", // 2011-11-18
@@ -232,6 +303,7 @@ export const template: SidebarInfoTemplate = {
       "the-history-of-the-bem-methodolog", // 2013-02-21
       "semantic-css-with-intelligent-selectors", // 2013-08-20
       // END: 2013css
+      "introduction-to-custom-elements", // 2014-03-04
       "bem-methodology-for-small-projects", // 2014-07-17
       // END: 2014css
       "getting-started-css-calc-techniques", // 2015-12-03
@@ -243,8 +315,10 @@ export const template: SidebarInfoTemplate = {
       // END: 2019css
       // END: 2020css
       // END: 2021css
+      "complete-guide-css-container-queries", // 2022-09-15
       // END: 2022css
       "build-magazine-layout-css-grid-areas", // 2023-02-06
+      "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
       // END: 2023css
       "modern-css-tooltips-speech-bubbles-part1", // 2024-03-01
@@ -261,6 +335,22 @@ export const template: SidebarInfoTemplate = {
       "smashing-animations-part-7-recreating-toon-text-css-svg", // 2025-12-17
       // END: 2025css
       // END: css
+    ]],[
+    "mongodb", [
+      // END: 2014mongodb
+      // END: 2015mongodb
+      // END: 2016mongodb
+      // END: 2017mongodb
+      // END: 2018mongodb
+      // END: 2019mongodb
+      // END: 2020mongodb
+      // END: 2021mongodb
+      "nodejs-authentication-twilio-verify", // 2022-10-07
+      // END: 2022mongodb
+      // END: 2023mongodb
+      // END: 2024mongodb
+      // END: 2025mongodb
+      // END: mongodb
     ]],[
     "coen", [
       "speedcurve-fight-main-thread", // 2023-10-24
@@ -307,6 +397,10 @@ export const template: SidebarInfoTemplate = {
       Y2013,
       Y2012,
       Y2011,
+      Y2010,
+      Y2009,
+      Y2008,
+      Y2007,
       Y2010,
     ]],
   ])

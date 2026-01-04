@@ -1,1 +1,1 @@
-https://www.smashingmagazine.com/2016/12/atomic-design-workflow
+https://smashingmagazine.com/2016/12/atomic-design-workflow

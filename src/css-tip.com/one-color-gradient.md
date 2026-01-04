@@ -103,7 +103,19 @@ Where you need a one-color gradient? Everywhere!
   :default-tab="['css','result']"
   :theme="dark"/>
 
-CSS Loaders: [css-tricks.com/single-element-loaders-the-bars](https://css-tricks.com/single-element-loaders-the-bars/)
+::: info CSS Loaders
+
+```component VPCard
+{
+  "title": "Single Element Loaders: The Bars",
+  "desc": "We’ve looked at spinners. We’ve looked at dots. Now we’re going to tackle another common pattern for loaders: bars. And we’re going to do the same thing in",
+  "link": "/css-tricks.com/single-element-loaders-the-bars.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+:::
 
 <CodePen
   user="t_afif"
@@ -128,7 +140,7 @@ Decorations and shapes with `border-image`: [smashingmagazine.com/2024/01/css-bo
   :default-tab="['css','result']"
   :theme="dark"/>
 
-Masking: [css-tip.com/border-gradient](https://css-tip.com/border-gradient/)
+Masking: [css-tip.com/border-gradient](/css-tip.com/border-gradient.md)
 
 <CodePen
   user="t_afif"
@@ -139,14 +151,14 @@ Masking: [css-tip.com/border-gradient](https://css-tip.com/border-gradient/)
 
 And many more!
 
----
+::: info More CSS Tips
 
-## More CSS Tips
+- [**Select the last occurrence of an element in the whole document**](/css-tip.com/last-element-dom.md) Select the last occurrence of any element in the whole document. October 31, 2024
+- [**Select the first occurrence of an element in the whole document**](/css-tip.com/first-element-dom.md) Select the first occurrence of any element in the whole document. October 30, 2024
+- [**Inner display vs Outer display**](/css-tip.com/inner-outer-display.md) Learn the modern way to use the display property. October 16, 2024
+- [**Puzzle shapes using CSS mask**](/css-tip.com/puzzle-shape.md) A few lines of code to craft different puzzle shapes. October 09, 2024
 
-- [Select the last occurrence of an element in the whole document](/last-element-dom/) Select the last occurrence of any element in the whole document. October 31, 2024
-- [Select the first occurrence of an element in the whole document](/first-element-dom/) Select the first occurrence of any element in the whole document. October 30, 2024
-- [Inner display vs Outer display](/inner-outer-display/) Learn the modern way to use the display property. October 16, 2024
-- [Puzzle shapes using CSS mask](/puzzle-shape/) A few lines of code to craft different puzzle shapes. October 09, 2024
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

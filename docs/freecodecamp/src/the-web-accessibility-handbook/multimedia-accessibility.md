@@ -117,7 +117,7 @@ You can also use `role="presentation"` to skip reading the image path or alterna
 
 ## Audio and video
 
-When using the [<VPIcon icon="fa-brands fa-firefox"/>`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) and [<VPIcon icon="fa-brands fa-firefox"/>`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) elements, remember to include multiple sources - that is, provide the audio and video in different formats. For browsers that do not support the formats you have mentioned, include a fallback download link so they can access the resource.
+When using the [<VPIcon icon="fa-brands fa-firefox" />`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) and [<VPIcon icon="fa-brands fa-firefox" />`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) elements, remember to include multiple sources - that is, provide the audio and video in different formats. For browsers that do not support the formats you have mentioned, include a fallback download link so they can access the resource.
 
 ```html
 <audio controls>
@@ -183,19 +183,19 @@ resetBtn.onclick = () => {
 };
 ```
 
-- The video player object is of type [<VPIcon icon="fa-brands fa-firefox"/>`HTMLMediaElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement), that contains several methods you can use to control the video.
+- The video player object is of type [<VPIcon icon="fa-brands fa-firefox" />`HTMLMediaElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement), that contains several methods you can use to control the video.
 - For the play/pause button, we add a toggling functionality, with the `play()` and `pause()` methods.
 - To reset the video, we pause it and set the current time to 0.
 
 Now, our custom video player is keyboard accessible, and able to be styled with CSS. You can also add additional functionality like forward/rewind, a timer, and a progress bar. The steps are similar for a custom audio player.
 
-Check out the [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Multimedia#creating_custom_audio_and_video_controls) for more detail about this functionality.
+Check out the [<VPIcon icon="fa-brands fa-firefox" />MDN Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Multimedia#creating_custom_audio_and_video_controls) for more detail about this functionality.
 
 ### Audio Transcripts
 
 People who are deaf or hard of hearing cannot easily access audio content. So to make it accessible, you need to add transcripts under any audio or video form of content.
 
-If you run a business, you could pay a professional to do the transcripts. Check out the [<VPIcon icon="fa-brands fa-firefox"/>docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Multimedia#audio_transcripts) for options. To show the transcript on the UI, you could use a show/hide panel. Referring to the docs, see the [<VPIcon icon="fas fa-globe"/>audio transcript UI](https://mdn.github.io/learning-area/accessibility/multimedia/audio-transcript-ui/) ([source code (<VPIcon icon="iconfont icon-github"/>`mdn/learning-area`)](https://github.com/mdn/learning-area/tree/main/accessibility/multimedia/audio-transcript-ui)) for an example.
+If you run a business, you could pay a professional to do the transcripts. Check out the [<VPIcon icon="fa-brands fa-firefox" />docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Multimedia#audio_transcripts) for options. To show the transcript on the UI, you could use a show/hide panel. Referring to the docs, see the [<VPIcon icon="fas fa-globe"/>audio transcript UI](https://mdn.github.io/learning-area/accessibility/multimedia/audio-transcript-ui/) ([source code (<VPIcon icon="iconfont icon-github"/>`mdn/learning-area`)](https://github.com/mdn/learning-area/tree/main/accessibility/multimedia/audio-transcript-ui)) for an example.
 
 If the audio is a recording of some presentation, you should attach links to any documents or presentation decks. Also, include a description for any visual content being referenced.
 
@@ -219,7 +219,7 @@ This is the first subtitle.
 This is the second.
 ```
 
-Save this file and name it with a `.vtt` extension. To link this file to your video, include it in a [<VPIcon icon="fa-brands fa-firefox"/>`<track>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track) element:
+Save this file and name it with a `.vtt` extension. To link this file to your video, include it in a [<VPIcon icon="fa-brands fa-firefox" />`<track>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track) element:
 
 ```html
 <video controls>
@@ -245,4 +245,4 @@ This will show subtitles for the specified timestamps. This will not only help p
 
 For people who are visually impaired, you could also include text that describes certain visuals in parts of the video. This text would be read out by screen reader.
 
-You can also add custom styling to subtitle menu and subtitle text. Check out [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs - Adding captions and subtitles to HTML video](https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video) for the implementation.
+You can also add custom styling to subtitle menu and subtitle text. Check out [<VPIcon icon="fa-brands fa-firefox" />MDN Docs - Adding captions and subtitles to HTML video](https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video) for the implementation.

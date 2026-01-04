@@ -566,7 +566,7 @@ In case the slide, including the borders, covers the viewport horizontally (and 
 line-height: calc(#{$b/$a*100vw} - #{2*$slide-border-width});
 ```
 
-This was my initial idea, which, in theory, should work just fine. And it does [in WebKit browsers and IE (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/qObdVm). However, it turns out that `calc()` values ~don’t work for `line-height` (and some other properties) [<VPIcon icon="fa-brands fa-firefox"/>in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=594933)~ —[they work now (<VPIcon icon="fa-brands fa-x-twitter"/>`heycam`)](https://x.com/heycam/status/709679335402135552); so, `calc()` is not the best solution there. Luckily, there are a lot of other ways to solve this problem (flexbox, absolute positioning and more).
+This was my initial idea, which, in theory, should work just fine. And it does [in WebKit browsers and IE (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/qObdVm). However, it turns out that `calc()` values ~don’t work for `line-height` (and some other properties) [<VPIcon icon="fa-brands fa-firefox" />in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=594933)~ —[they work now (<VPIcon icon="fa-brands fa-x-twitter"/>`heycam`)](https://x.com/heycam/status/709679335402135552); so, `calc()` is not the best solution there. Luckily, there are a lot of other ways to solve this problem (flexbox, absolute positioning and more).
 
 <CodePen
   user="thebabydino"

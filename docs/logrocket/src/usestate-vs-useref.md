@@ -496,7 +496,7 @@ That’s the reason why the first `console.log` output stores `undefined`: becau
 
 To access a ref’s value, you need to access its `current` property, as we did in the JSX part. refs are directly available in the initial render right after they have been defined.
 
-But why do we need `useRef` at all? Why not use ordinary [<VPIcon icon="fa-brands fa-firefox"/>`let` variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) instead? Hold your horses — we’ll come back to that.
+But why do we need `useRef` at all? Why not use ordinary [<VPIcon icon="fa-brands fa-firefox" />`let` variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) instead? Hold your horses — we’ll come back to that.
 
 ### Common use cases for `useRef`
 
@@ -636,7 +636,7 @@ const AppDemo12 = () => {
 };
 ```
 
-Inside the `useEffect` callback, we call the native [<VPIcon icon="fa-brands fa-firefox"/>`focus`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus) method.
+Inside the `useEffect` callback, we call the native [<VPIcon icon="fa-brands fa-firefox" />`focus`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus) method.
 
 ![Adding Focus to an Input Field Via refs](/assets/image/blog.logrocket.com/usestate-vs-useref/focus-input-field.webp)
 

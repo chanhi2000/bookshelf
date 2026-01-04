@@ -64,7 +64,7 @@ I’ve been talking about scroll-driven animations a bunch, so linking to a high
 
 > At the time of this writing, scroll-driven animations are only a Chrome ‘n’ Friends feature, but I see feature flags in both Safari and Firefox so it’s coming!
 
-That caniuse page pulls data directly from MDN anyway, so a link [<VPIcon icon="fa-brands fa-firefox"/>directly to the browser support for that property](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline#browser_compatibility) is probably even better. That’s what hash links are for I suppose.
+That caniuse page pulls data directly from MDN anyway, so a link [<VPIcon icon="fa-brands fa-firefox" />directly to the browser support for that property](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline#browser_compatibility) is probably even better. That’s what hash links are for I suppose.
 
 ---
 
@@ -87,7 +87,7 @@ That’s pretty neat, but…
 While it’s still mostly functional, I think [<VPIcon icon="fas fa-globe"/>the page](https://caniuse.bitsofco.de) has fallen just enough out of date that it’s best to avoid using.
 
 - The “Select Feature” dropdown doesn’t have much by way of new features. Nothing I was trying to use it for was there: scroll-driven animations, anchor positioning, etc.
-- The data seems weirdly wrong. Try the CSS selector `:has()` — it lists no support in any browser. That `text-decoration-skip-ink` chart above? That’s also kinda wrong. [<VPIcon icon="fas fa-firefox"/>The MDN chart](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-skip-ink#browser_compatibility) is much more nuanced, listing support by sub-feature, and accurate.
+- The data seems weirdly wrong. Try the CSS selector `:has()` — it lists no support in any browser. That `text-decoration-skip-ink` chart above? That’s also kinda wrong. [<VPIcon icon="fas fa-firefox" />The MDN chart](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-skip-ink#browser_compatibility) is much more nuanced, listing support by sub-feature, and accurate.
 - It gives you invalid HTML, with nested `<p>` tags.
 - It doesn’t link out to a useful canonical source for the specific data.
 

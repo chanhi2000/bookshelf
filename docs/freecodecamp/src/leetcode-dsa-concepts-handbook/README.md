@@ -1880,7 +1880,7 @@ Otherwise, everything stays the same.
 
 ::: info Time and space complexity
 
-A subset is, in the worst case, length n which is the length of our input. We'll have 2n subsets and since we also use a [<VPIcon icon="fa-brands fa-firefox"/>spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) in our example to copy `currentSubset`, the time complexity will be $O\left(n\cdot2^{n}\right)$. The space complexity is - *I think* - $O\left(n\cdot2^{n}\right)$ as well because of the recursive call stack (which is of depth `n`), and the space needed for `result` (which is in the worst case 2n).
+A subset is, in the worst case, length n which is the length of our input. We'll have 2n subsets and since we also use a [<VPIcon icon="fa-brands fa-firefox" />spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) in our example to copy `currentSubset`, the time complexity will be $O\left(n\cdot2^{n}\right)$. The space complexity is - *I think* - $O\left(n\cdot2^{n}\right)$ as well because of the recursive call stack (which is of depth `n`), and the space needed for `result` (which is in the worst case 2n).
 
 :::
 
@@ -2438,7 +2438,7 @@ let graph = {
 
 Let's see how we can modify our code above to use an adjacency list instead.
 
-Instead of having a `matrix` which is an array of arrays, we can have a [<VPIcon icon="fa-brands fa-firefox"/>`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) that maps the vertices to an array of their neighbors.
+Instead of having a `matrix` which is an array of arrays, we can have a [<VPIcon icon="fa-brands fa-firefox" />`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) that maps the vertices to an array of their neighbors.
 
 We can initialize it as a map that has the vertices as keys, each of which has a value of an empty array for now:
 
@@ -2477,7 +2477,7 @@ this.list.get(v1)!.includes(v2);
 
 ::: note
 
-We're using a [<VPIcon icon="iconfont icon-typescript"/>non-null assertion operator](https://typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator) as we’re using TypeScript in these examples. As we'll see below, we first check if the vertex is in the graph. And since we're adding all the vertices in the graph as keys to `this.list`, we're sure that getting that vertex from the list is not `undefined`. But TypeScript will warn us because if a key is not found in a `Map` object, it could [<VPIcon icon="fa-brands fa-firefox"/>potentially return `undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get#return_value).
+We're using a [<VPIcon icon="iconfont icon-typescript"/>non-null assertion operator](https://typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator) as we’re using TypeScript in these examples. As we'll see below, we first check if the vertex is in the graph. And since we're adding all the vertices in the graph as keys to `this.list`, we're sure that getting that vertex from the list is not `undefined`. But TypeScript will warn us because if a key is not found in a `Map` object, it could [<VPIcon icon="fa-brands fa-firefox" />potentially return `undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get#return_value).
 
 :::
 
@@ -2872,7 +2872,7 @@ If they are overlapping, the new (merged) interval will have the minimum value f
 
 [<VPIcon icon="fa-brands fa-wikipedia-w"/>A bitwise operation](https://en.wikipedia.org/wiki/Bitwise_operation) operates on a bit string, a bit array, or a binary numeral (considered as a bit string) at the level of its individual bits.
 
-Let's first represent a number in binary (base 2). We can use `toString` method on a [<VPIcon icon="fa-brands fa-firefox"/>number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), and specify the **radix**:
+Let's first represent a number in binary (base 2). We can use `toString` method on a [<VPIcon icon="fa-brands fa-firefox" />number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), and specify the **radix**:
 
 ```js
 const n = 17;

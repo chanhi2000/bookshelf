@@ -138,7 +138,7 @@ You’d only ever see the top copy if left as-is. Probably the `::after` version
 
 ::: note Update! August 2019
 
-Plenty of time has past, and `clip` is still generally supported, but deprecated in favor of the (better) [<VPIcon icon="fa-brands fa-firefox"/>`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path). The `clip` syntax can do what the `inset()` function value is for `clip-path`, so I’m updating this article to use that. Doesn’t look like Autoprefixer deals with the conversation.
+Plenty of time has past, and `clip` is still generally supported, but deprecated in favor of the (better) [<VPIcon icon="fa-brands fa-firefox" />`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path). The `clip` syntax can do what the `inset()` function value is for `clip-path`, so I’m updating this article to use that. Doesn’t look like Autoprefixer deals with the conversation.
 
 :::
 

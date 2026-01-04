@@ -1,1 +1,1 @@
-https://www.smashingmagazine.com/2015/05/creating-responsive-shapes-with-clip-path
+https://smashingmagazine.com/2015/05/creating-responsive-shapes-with-clip-path

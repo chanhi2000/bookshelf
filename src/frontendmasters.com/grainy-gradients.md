@@ -173,7 +173,7 @@ At this point, our result looks like this:
 
 Not quite what we want. The dashed bright pink line shows us where the boundary of the `filter`input gradient box was. Along the edges, we have both transparent pixels *inside*the initial gradient box*and*opaque pixels*outside*the initial gradient box. Two different problems, each needing to get fixed in a different way.
 
-To cover up the transparent pixels*inside*the initial gradient box, we layer the initial gradient underneath the one scrambled by `feDisplacementMap`. We do this using [<VPIcon icon="fa-brands fa-firefox"/>`feBlend`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feBlend) with the default`mode`of`normal`(so we don’t need to set it explicitly), which meands no blending, just put one layer on top of the other. The bottom layer is specified by the second input (`in2`) and in our case, we want it to be the `SourceGraphic`. The top layer is specified by the first input (`in`) and we don’t need to set it explicitly because, by default, it’s the result of the previous primitive (`feDisplacementMap` here), which is exactly what we need in this case.
+To cover up the transparent pixels*inside*the initial gradient box, we layer the initial gradient underneath the one scrambled by `feDisplacementMap`. We do this using [<VPIcon icon="fa-brands fa-firefox" />`feBlend`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feBlend) with the default`mode`of`normal`(so we don’t need to set it explicitly), which meands no blending, just put one layer on top of the other. The bottom layer is specified by the second input (`in2`) and in our case, we want it to be the `SourceGraphic`. The top layer is specified by the first input (`in`) and we don’t need to set it explicitly because, by default, it’s the result of the previous primitive (`feDisplacementMap` here), which is exactly what we need in this case.
 
 ```xml
 <svg width='0' height='0' aria-hidden='true'>
@@ -185,7 +185,7 @@ To cover up the transparent pixels*inside*the initial gradient box, we layer the
 </svg>
 ```
 
-I’ve seen a lot of tutorials using[<VPIcon icon="fa-brands fa-firefox"/>`feComposite`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feComposite)with the default `operator` of`over` or[<VPIcon icon="fa-brands fa-firefox"/>`feMerge`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feMerge)to place layers one on top of another, but `feBlend` with the default `mode` of `normal` produces the exact same result, I find it to be simpler than `feMerge` in the case of just two layers and it’s fewer characters than `feComposite`.
+I’ve seen a lot of tutorials using[<VPIcon icon="fa-brands fa-firefox" />`feComposite`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feComposite)with the default `operator` of`over` or[<VPIcon icon="fa-brands fa-firefox" />`feMerge`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feMerge)to place layers one on top of another, but `feBlend` with the default `mode` of `normal` produces the exact same result, I find it to be simpler than `feMerge` in the case of just two layers and it’s fewer characters than `feComposite`.
 
 To get rid of the opaque pixels*outside*the initial gradient box, we restrict the [<VPIcon icon="fas fa-globe"/>`filter`region](https://drafts.fxtf.org/filter-effects/#FilterEffectsRegion) to its exact input box — starting from the`0,0`point of this input and covering`100%`of it along both the*x*and*y*axis (by default, the`filter`region starts from `-10%,-10%` and covers`120%`of the input box along each of the two axes). This means explicitly setting the `x`,`y`,`width` and `height` attributes:
 
@@ -295,7 +295,7 @@ Note that in this case we must restrict the`filter`region from the`<filter>`elem
 
 the Safari problem when we don’t restrict the`filter`region
 
-Because, while Safari has supported the `filter()` function since 2015, for about a decade, sadly[no other browser has followed (<VPIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717). There are bugs open for both[<VPIcon icon="fa-brands fa-chrome"/>Chrome](https://issues.chromium.org/issues/41208242)and[<VPIcon icon="fa-brands fa-firefox"/>Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043)in case anyone wants to show interest in them implementing this.
+Because, while Safari has supported the `filter()` function since 2015, for about a decade, sadly[no other browser has followed (<VPIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717). There are bugs open for both[<VPIcon icon="fa-brands fa-chrome"/>Chrome](https://issues.chromium.org/issues/41208242)and[<VPIcon icon="fa-brands fa-firefox" />Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043)in case anyone wants to show interest in them implementing this.
 
 Here is the[live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/LEVxYoL), but keep in mind it only works in Safari.
 
@@ -398,7 +398,7 @@ Let’s see a few more interesting demos where we’ve made visuals grainy!
 
 ![a grid of square images, each with a grainy shadow that's a blurred copy of itself](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/452726618-e0586989-c1cc-491e-b2b2-e0b8b602f393.png?resize=988%2C555&ssl=1)
 
-Shadows or blurred elements can also exhibit banding issues where their edges fade. In this demo, we’re using a slightly more complex `filter` to first[<VPIcon icon="fa-brands fa-firefox"/>blur](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feGaussianBlur)and[<VPIcon icon="fa-brands fa-firefox"/>offset](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feOffset)the input image, then using the `feTurbulence` and `feDisplacementMap` combination to make this blurred and offset input copy grainy. We also decrease its alpha a tiny little bit (basically multiplying it with`.9`). Finally, we’re placing the original `filter` input image on top of this blurred, offset, grainy and slightly faded copy.
+Shadows or blurred elements can also exhibit banding issues where their edges fade. In this demo, we’re using a slightly more complex `filter` to first[<VPIcon icon="fa-brands fa-firefox" />blur](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feGaussianBlur)and[<VPIcon icon="fa-brands fa-firefox" />offset](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feOffset)the input image, then using the `feTurbulence` and `feDisplacementMap` combination to make this blurred and offset input copy grainy. We also decrease its alpha a tiny little bit (basically multiplying it with`.9`). Finally, we’re placing the original `filter` input image on top of this blurred, offset, grainy and slightly faded copy.
 
 ```
 - let d = .1;

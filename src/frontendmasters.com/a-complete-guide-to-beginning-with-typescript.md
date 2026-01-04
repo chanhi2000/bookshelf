@@ -55,8 +55,8 @@ This guide is not itself the means to learn TypeScript. This guide addresses iss
 
 The list below briefly highlights the knowledge needed before learning TypeScript:
 
-- An intermediate understanding of JavaScript, especially the nature of JavaScript[<VPIcon icon="fa-brands fa-firefox"/>data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_types)and the difference between pass-by-value vs. pass-by-reference, is**required**.
-- A basic understanding of [<VPIcon icon="fa-brands fa-firefox"/>the difference between dynamically typed languages vs. statically typed languages and weakly typed languages vs. strongly typed languages](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#dynamic_and_weak_typing)in the context of JavaScript.
+- An intermediate understanding of JavaScript, especially the nature of JavaScript[<VPIcon icon="fa-brands fa-firefox" />data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_types)and the difference between pass-by-value vs. pass-by-reference, is**required**.
+- A basic understanding of [<VPIcon icon="fa-brands fa-firefox" />the difference between dynamically typed languages vs. statically typed languages and weakly typed languages vs. strongly typed languages](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#dynamic_and_weak_typing)in the context of JavaScript.
 - The TypeScript compiler is a Node.js CLI tool that takes in TypeScript and outputs JavaScript. One will need a working knowledge of Node.js, npm, and packages. While one can circumvent this learning curve by starting with the[<VPIcon icon="iconfont icon-typescript"/>TypeScript Playground](https://typescriptlang.org/play), eventually, you’ll want to install and use the TypeScript compiler on your local machine via Node.js. Thus, a working understanding of Node.js, npm, and command line tools is needed to run TypeScript on your local computer.
 
 :::
@@ -66,7 +66,7 @@ The list below briefly highlights the knowledge needed before learning TypeScrip
 ## Helpful Background on TypeScript
 
 - TypeScript is a free to use open-source tool maintained by Microsoft. The source can be found on[GitHub (<VPIcon icon="iconfont icon-github"/>`microsoft/TypeScript`)](https://github.com/microsoft/TypeScript).
-- [<VPIcon icon="fa-brands fa-firefox"/>JavaScript is a dynamically typed language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#dynamic_and_weak_typing); in simple terms, this means the language allows you to switch value types after definition(aka re-assignment). In statically typed languages assigning a string value to a variable and then re-assigning the value to a be a number value will throw an error. JavaScript does not throw an error when this type of runtime data value switching occurs. JavaScript dynamically re-assigns the type.[<VPIcon icon="fa-brands fa-firefox"/>JavaScript is also weakly typed](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#type_coercion), meaning that JavaScript can convert values depending on how they are used. For example, if you try and add a string to a number, JavaScript will not throw an error it will convert the number to a string and then combine the strings. For example, in JavaScript `"1"+1` becomes `11` because JavaScript converts the number 1 to a string and then combines `"1" + "1"`, which is `"11"`. TypeScript aims to change/eliminate both the dynamic and weakly typed nature of JavaScript just described.
+- [<VPIcon icon="fa-brands fa-firefox" />JavaScript is a dynamically typed language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#dynamic_and_weak_typing); in simple terms, this means the language allows you to switch value types after definition(aka re-assignment). In statically typed languages assigning a string value to a variable and then re-assigning the value to a be a number value will throw an error. JavaScript does not throw an error when this type of runtime data value switching occurs. JavaScript dynamically re-assigns the type.[<VPIcon icon="fa-brands fa-firefox" />JavaScript is also weakly typed](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#type_coercion), meaning that JavaScript can convert values depending on how they are used. For example, if you try and add a string to a number, JavaScript will not throw an error it will convert the number to a string and then combine the strings. For example, in JavaScript `"1"+1` becomes `11` because JavaScript converts the number 1 to a string and then combines `"1" + "1"`, which is `"11"`. TypeScript aims to change/eliminate both the dynamic and weakly typed nature of JavaScript just described.
 - TypeScript is not one thing. TypeScript is a combination of the following three foundational things:
   - **TypeScript****Type System:**A syntax layered over the top of JavaScript for the purpose of making JavaScript a statically/strongly typed language (aka “TypeScript Types” or “TypeScript Type System”).
   - **TypeScript Compiler:**A tool that both 1. interrupts (aka type checking) TypeScript syntax added to JavaScript as well as 2. converts TypeScript to JavaScript (aka the “TypeScript Compiler” or “tsc”). The compiler is provided as a Node.js[npm package (<VPIcon icon="fa-brands fa-npm"/>`typescript`)](https://npmjs.com/package/typescript)which provides the “tsc” cli tool.
@@ -125,7 +125,7 @@ While most professionals are already accustomed to the tooling/building processe
 
 TypeScript is most well-known for its type system. I’ll briefly explain the tenants and implications of this system so that one can minimally begin to understand its value.
 
-To review, the[<VPIcon icon="fa-brands fa-firefox"/>JavaScript language has eight types of values that can be used by the language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_types):
+To review, the[<VPIcon icon="fa-brands fa-firefox" />JavaScript language has eight types of values that can be used by the language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_types):
 
 1. `Boolean`
 2. `null`
@@ -136,7 +136,7 @@ To review, the[<VPIcon icon="fa-brands fa-firefox"/>JavaScript language has eigh
 7. `Symbol`
 8. `Object`
 
-Behind the scenes, JavaScript dynamically assigns one of these types to JavaScript values and will transparently allow[<VPIcon icon="fa-brands fa-firefox"/>reassignment and coercion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#dynamic_and_weak_typing)of these types. TypeScript’s main objective is to change this aspect of JavaScript.
+Behind the scenes, JavaScript dynamically assigns one of these types to JavaScript values and will transparently allow[<VPIcon icon="fa-brands fa-firefox" />reassignment and coercion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#dynamic_and_weak_typing)of these types. TypeScript’s main objective is to change this aspect of JavaScript.
 
 In the code example below, I’m using several JavaScript data types (*i.e.*, Strings, Objects, and a Number):
 
@@ -365,7 +365,7 @@ Video Courses:
 
 ### Should I learn JavaScript and TypeScript at the same time?
 
-If you are new to programming, JavaScript should be isolated and learned before learning TypeScript. TypeScript has a steep learning curve, steeper than JavaScript itself. Understanding both of these at the same time can be overwhelming. Before you approach TypeScript, learn JavaScript in-depth! Especially the fact that JavaScript is a[<VPIcon icon="fa-brands fa-firefox"/>dynamic and weakly typed language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#dynamic_and_weak_typing).
+If you are new to programming, JavaScript should be isolated and learned before learning TypeScript. TypeScript has a steep learning curve, steeper than JavaScript itself. Understanding both of these at the same time can be overwhelming. Before you approach TypeScript, learn JavaScript in-depth! Especially the fact that JavaScript is a[<VPIcon icon="fa-brands fa-firefox" />dynamic and weakly typed language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#dynamic_and_weak_typing).
 
 ### Is TypeScript itself a programming language?
 

@@ -83,7 +83,7 @@ Whilst the use of `viewport-fit=cover` indeed stretches out the site, it also ha
 
 To cater for this, [Apple has proposed the concept of “User Agent Variables” (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/1693), accessible via the `constant()` function in CSS.
 
-This function has been renamed to [<VPIcon icon="fa-brands fa-firefox"/>`env()`](https://developer.mozilla.org/en-US/docs/Web/CSS/env())
+This function has been renamed to [<VPIcon icon="fa-brands fa-firefox" />`env()`](https://developer.mozilla.org/en-US/docs/Web/CSS/env())
 
 The current list of proposed User Agent Variables is:
 

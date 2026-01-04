@@ -396,7 +396,7 @@ Server-sent events (SSE) rely on two fundamental components:
 - **EventSource**: An interface defined by the WHATWG specification and implemented by modern browsers. It enables the client (typically a browser) to subscribe to server-sent events.
 - **EventStream**: A protocol that specifies the plain-text format servers must use to send events, ensuring compatibility with the EventSource client for seamless communication.
 
-As the specification outlines, events can include arbitrary text data and an optional ID and are separated by newlines. Also, SSE events have a dedicated [<VPIcon icon="fa-brands fa-firefox"/>MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types): `text/event-stream.` A MIME type (Multipurpose Internet Mail Extensions type) is a standard that indicates the nature and format of a file or data, allowing the browser or server to properly interpret and handle it.
+As the specification outlines, events can include arbitrary text data and an optional ID and are separated by newlines. Also, SSE events have a dedicated [<VPIcon icon="fa-brands fa-firefox" />MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types): `text/event-stream.` A MIME type (Multipurpose Internet Mail Extensions type) is a standard that indicates the nature and format of a file or data, allowing the browser or server to properly interpret and handle it.
 
 ### How do Server-Sent Events Work?
 

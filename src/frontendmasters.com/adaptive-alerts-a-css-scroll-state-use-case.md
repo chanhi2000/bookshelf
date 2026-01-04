@@ -139,7 +139,7 @@ If the article has been scrolled down to the end, the button will have an `appea
 
 ---
 
-Learn aboutscroll-state queries([<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries) and/or [<VPIcon icon="fa-brands fa-chrome"/>here](https://developer.chrome.com/blog/css-scroll-state-queries)) to know the different kinds of scrolling scenarios that you can work with. Based on scroll states and positions, you’ll be able to change the appearance, content, or even functionality (as seen in this article) of an element or module.
+Learn aboutscroll-state queries([<VPIcon icon="fa-brands fa-firefox" />here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries) and/or [<VPIcon icon="fa-brands fa-chrome"/>here](https://developer.chrome.com/blog/css-scroll-state-queries)) to know the different kinds of scrolling scenarios that you can work with. Based on scroll states and positions, you’ll be able to change the appearance, content, or even functionality (as seen in this article) of an element or module.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

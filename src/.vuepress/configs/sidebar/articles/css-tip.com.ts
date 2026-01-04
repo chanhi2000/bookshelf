@@ -44,6 +44,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "line-rounded-dashes", // 2024-08-15
     "arc-shape", // 2024-08-07
     "element-dimension", // 2024-07-26
+    "border-gradient", // 2024-07-10
     "min-max", // 2024-02-06
   ]
 }
@@ -89,6 +90,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2022css
       // END: 2023css
       "min-max", // 2024-02-06
+      "border-gradient", // 2024-07-10
       "element-dimension", // 2024-07-26
       "arc-shape", // 2024-08-07
       "line-rounded-dashes", // 2024-08-15

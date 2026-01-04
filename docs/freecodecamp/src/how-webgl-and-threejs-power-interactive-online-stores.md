@@ -79,7 +79,7 @@ If you’ve never worked with 3D graphics before, don’t worry. We’ll keep th
 
 ## What is WebGL?
 
-[<VPIcon icon="fa-brands fa-firefox"/>WebGL (Web Graphics Library)](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) is a JavaScript API that allows you to render interactive 2D and 3D graphics in the browser using the computer’s GPU. Unlike older browser technologies (think Flash), WebGL is built directly into modern browsers, so users don’t need to install anything extra.
+[<VPIcon icon="fa-brands fa-firefox" />WebGL (Web Graphics Library)](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) is a JavaScript API that allows you to render interactive 2D and 3D graphics in the browser using the computer’s GPU. Unlike older browser technologies (think Flash), WebGL is built directly into modern browsers, so users don’t need to install anything extra.
 
 At its core, WebGL is based on OpenGL ES (a subset of the OpenGL specification), and it provides developers with a low-level API to work with shaders, vertices, and rendering pipelines.
 

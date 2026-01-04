@@ -181,13 +181,13 @@ This approach doesn’t require any duplication or knowing anything about the im
 
 The problem with the final declaration and the reason why you aren’t seeing any live demo here yet is, as you may have guessed, support!
 
-While `filter()` has been available in Safari for over a decade, Chrome ([<VPIcon icon="fa-brands fa-chrome"/>541698](https://issues.chromium.org/issues/41208242)) and Firefox ([<VPIcon icon="fa-brands fa-firefox"/>1191043](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043)) *still* haven’t followed.
+While `filter()` has been available in Safari for over a decade, Chrome ([<VPIcon icon="fa-brands fa-chrome"/>541698](https://issues.chromium.org/issues/41208242)) and Firefox ([<VPIcon icon="fa-brands fa-firefox" />1191043](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043)) *still* haven’t followed.
 
-The improved `attr()` only works in Chromium browsers for now. It isn’t yet supported by Firefox ([<VPIcon icon="fa-brands fa-firefox"/>435426](https://bugzilla.mozilla.org/show_bug.cgi?id=435426)) or Safari ([<VPIcon icon="fa-brands fa-safari"/>26609](https://bugs.webkit.org/show_bug.cgi?id=26609)), though the Firefox bug has seen quite a bit of activity lately.
+The improved `attr()` only works in Chromium browsers for now. It isn’t yet supported by Firefox ([<VPIcon icon="fa-brands fa-firefox" />435426](https://bugzilla.mozilla.org/show_bug.cgi?id=435426)) or Safari ([<VPIcon icon="fa-brands fa-safari"/>26609](https://bugs.webkit.org/show_bug.cgi?id=26609)), though the Firefox bug has seen quite a bit of activity lately.
 
 Consequently, no single browser currently supports both `filter()` and the enhanced `attr()`.
 
-On top of that, no browser currently implements `src()`. There are issues open in Firefox ([<VPIcon icon="fa-brands fa-firefox"/>1707923](https://bugzilla.mozilla.org/show_bug.cgi?id=1707923)) and Safari ([<VPIcon icon="fa-brands fa-safari"/>296953](https://bugs.webkit.org/show_bug.cgi?id=296953)) and I’ve also opened one for Chrome ([<VPIcon icon="fa-brands fa-chrome"/>457465864](https://issues.chromium.org/issues/457465864)) since search didn’t bring up one there.
+On top of that, no browser currently implements `src()`. There are issues open in Firefox ([<VPIcon icon="fa-brands fa-firefox" />1707923](https://bugzilla.mozilla.org/show_bug.cgi?id=1707923)) and Safari ([<VPIcon icon="fa-brands fa-safari"/>296953](https://bugs.webkit.org/show_bug.cgi?id=296953)) and I’ve also opened one for Chrome ([<VPIcon icon="fa-brands fa-chrome"/>457465864](https://issues.chromium.org/issues/457465864)) since search didn’t bring up one there.
 
 ![current support situation](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/11/base_3_support.png?resize=1024%2C576&ssl=1)
 
@@ -239,7 +239,7 @@ Near the image boundary, things get trickier. Some of the pixels around our curr
 
 In this case, we only have semi-transparent pixels along two opposing edges because the image is *first* blurred within the `filter()` function, *then* used as a `background-image` that gets cropped by `background-size: cover`.
 
-The solution is to switch from a pure CSS `blur()` to an SVG `filter`. This is pretty straightforward. The SVG `filter` contains a single `feGaussianBlur` primitive, which provides an [<VPIcon icon="fa-brands fa-firefox"/>`edgeMode`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/edgeMode) attribute to control what happens at the image edges. The default value of `none` produces the same result as the CSS `blur()`. By contrast, a value of `duplicate` prevents the unwanted edge semi-transparency.
+The solution is to switch from a pure CSS `blur()` to an SVG `filter`. This is pretty straightforward. The SVG `filter` contains a single `feGaussianBlur` primitive, which provides an [<VPIcon icon="fa-brands fa-firefox" />`edgeMode`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/edgeMode) attribute to control what happens at the image edges. The default value of `none` produces the same result as the CSS `blur()`. By contrast, a value of `duplicate` prevents the unwanted edge semi-transparency.
 
 ```pug
 svg(width='0' he~ight='0' aria-hidden='true')

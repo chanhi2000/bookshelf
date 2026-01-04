@@ -50,7 +50,7 @@ cover: /assets/image/blog.logrocket.com/deep-dive-css-specificity/banner.png
   logo="/assets/image/blog.logrocket.com/favicon.png"
   preview="/assets/image/blog.logrocket.com/deep-dive-css-specificity/banner.png"/>
 
-Every CSS developer should be familiar with three key CSS concepts: [<VPIcon icon="fa-brands fa-firefox"/>cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade), [<VPIcon icon="fa-brands fa-firefox"/>inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance), and [<VPIcon icon="fa-brands fa-firefox"/>specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity). Specificity is a CSS method for resolving conflicts when selectors with different style rules are applied to the same element. Specificity is an essential component of CSS, and understanding how it works will save you a lot of time and trouble when debugging.
+Every CSS developer should be familiar with three key CSS concepts: [<VPIcon icon="fa-brands fa-firefox" />cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade), [<VPIcon icon="fa-brands fa-firefox" />inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance), and [<VPIcon icon="fa-brands fa-firefox" />specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity). Specificity is a CSS method for resolving conflicts when selectors with different style rules are applied to the same element. Specificity is an essential component of CSS, and understanding how it works will save you a lot of time and trouble when debugging.
 
 ---
 

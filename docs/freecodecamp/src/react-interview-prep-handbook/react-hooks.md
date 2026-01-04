@@ -212,7 +212,7 @@ export function App(props) {
 - `useRef` takes an initial value as an argument and returns a `ref` object.
 - When this `ref` object is passed to the `ref` prop of an element, we get a direct reference to the element's DOM node.
 - The value of a `ref` is stored inside its `current` property.
-- Since `ref` is a JavaScript DOM object, we can call the [<VPIcon icon="fa-brands fa-firefox"/>`focus()`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus) method to focus on the `input` element when the component mounts.
+- Since `ref` is a JavaScript DOM object, we can call the [<VPIcon icon="fa-brands fa-firefox" />`focus()`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus) method to focus on the `input` element when the component mounts.
 
 Unlike state, refs do not cause component re-renders and unlike local variables, refs retain their values between renders.
 

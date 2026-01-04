@@ -64,10 +64,10 @@ Honestly, I believe something like lit-html should be a part of vanilla JavaScri
 - **Size difference.** This often does not really matter for most projects anyway.)
   - [<VPIcon icon="fas fa-globe"/>lit-html](https://bundlephobia.com/package/lit-html@3.3.1) – 7.3 kb min, 3.1 kb min + gzip
   - [<VPIcon icon="fas fa-globe"/>lit](https://bundlephobia.com/package/lit@3.3.1) – 15.8 kb min, 5.9 kb min + gzip
-- **LitElement creates a [<VPIcon icon="fa-brands fa-firefox"/>shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM) by default.** I don’t want to use the shadow DOM when creating my own components. I prefer to allow styling solutions like Tailwind to work instead of having to rely on solutions like [<VPIcon icon="fa-brands fa-firefox"/>CSS shadow parts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shadow_parts) to style my components. [**The light DOM can be nice**](/frontendmasters.com/light-dom-only.md).
+- **LitElement creates a [<VPIcon icon="fa-brands fa-firefox" />shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM) by default.** I don’t want to use the shadow DOM when creating my own components. I prefer to allow styling solutions like Tailwind to work instead of having to rely on solutions like [<VPIcon icon="fa-brands fa-firefox" />CSS shadow parts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shadow_parts) to style my components. [**The light DOM can be nice**](/frontendmasters.com/light-dom-only.md).
 - **`import { html, render } from "lit-html"` is all you need** to get started to write lit-html templates whereas Lit requires you to learn about [<VPIcon icon="fas fa-globe"/>decorators](https://lit.dev/docs/components/decorators/) to use most of its features. Sometimes you may want to use Lit directives if you need performant renders but it’s not necessary to make lit-html work on your project.
 
-I will be showing two examples with what I consider to be two distinct methods to create a lit-html [<VPIcon icon="fa-brands fa-firefox"/>custom element](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements). The first example will use what I call a **“stateless render”** because there won’t be any state parameters passed into the lit-html template. Usually this kind of component will only call the render method once during its lifecycle since there is no state to update. The second example will use a **“stateful render”** which calls the render function every time a state parameter changes.
+I will be showing two examples with what I consider to be two distinct methods to create a lit-html [<VPIcon icon="fa-brands fa-firefox" />custom element](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements). The first example will use what I call a **“stateless render”** because there won’t be any state parameters passed into the lit-html template. Usually this kind of component will only call the render method once during its lifecycle since there is no state to update. The second example will use a **“stateful render”** which calls the render function every time a state parameter changes.
 
 ---
 
@@ -82,7 +82,7 @@ For my first example, the custom-element is a `<textarea>` wrapper that also has
   slug-hash="raegrMQ"
   title="wc-textarea"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I used a library called [TLN (<VPIcon icon="iconfont icon-github"/>`MatheusAvellar/textarea-line-numbers`)](https://github.com/MatheusAvellar/textarea-line-numbers) (“Textarea with Line Numbers”) to make the aesthetic of the textarea feel more like Notepad++, similar to the library’s official [<VPIcon icon="fas fa-globe"/>demo](https://lab.avl.la/textarea-line-numbers/demo.html). Since the base template has no state parameters, I’m using plain old JavaScript events to manually modify the DOM in response to changes within the textarea. I also used the render function again to display the updated status bar contents instead of user `.innerHTML()` to keep it consistent with the surrounding code.
 
@@ -117,7 +117,7 @@ Before I continue explaining the change events that make the status bar work, I 
 
 The input change event is one of the more common change events. It’s straightforward to see that this will be the change event used to calculate and display the updated input length and the number of newlines that the input has.
 
-I thought I would have a much harder time displaying the live status of selected text, but the `selectionchange` event provides everything I need to calculate the selection status within the textarea. This change event is relatively new too, having only been a part of baseline last [<VPIcon icon="fa-brands fa-firefox"/>September 2024](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/selectionchange_event).
+I thought I would have a much harder time displaying the live status of selected text, but the `selectionchange` event provides everything I need to calculate the selection status within the textarea. This change event is relatively new too, having only been a part of baseline last [<VPIcon icon="fa-brands fa-firefox" />September 2024](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/selectionchange_event).
 
 Since I’ve already highlighted the two main events driving the status bar, I’ll proceed to the next example.
 
@@ -137,7 +137,7 @@ My second example is a `<pokemon-card>` custom-element. The pokemon card compone
   slug-hash="raegryo"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this example, only two other external libraries were used for the web component that weren’t related to lit and lit-html. I used [<VPIcon icon="fas fa-globe"/>shuffle](https://es-toolkit.dev/reference/array/shuffle.html) from [<VPIcon icon="fas fa-globe"/>es-toolkit](https://es-toolkit.dev) to make sure the array of cards is in a random order each time the component is instantiated. Though the shuffle function itself is likely small enough that you could just write your own implementation in the same file if you want to minimize dependencies.
 
@@ -177,11 +177,11 @@ There is a much more concise way to define the above example which involves [<VP
 
 ## Card Component Extras
 
-The [<VPIcon icon="fa-brands fa-firefox"/>Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) was used to allow the user to navigate the card component via horizontal scroll bar while also properly updating the state of the current page being displayed.
+The [<VPIcon icon="fa-brands fa-firefox" />Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) was used to allow the user to navigate the card component via horizontal scroll bar while also properly updating the state of the current page being displayed.
 
-There is also a [<VPIcon icon="fa-brands fa-firefox"/>`keydown` event](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event) handler present to also let the user navigate between the cards via keyboard presses. Depending on the key being pressed, it calls either the `handlePrev()` or `handleNext()` method to perform the navigation.
+There is also a [<VPIcon icon="fa-brands fa-firefox" />`keydown` event](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event) handler present to also let the user navigate between the cards via keyboard presses. Depending on the key being pressed, it calls either the `handlePrev()` or `handleNext()` method to perform the navigation.
 
-Finally, while entirely optional, I also added a feature to the component that will [<VPIcon icon="fa-brands fa-firefox"/>preload the next card in JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/Image) to improve loading times between generating new cards.
+Finally, while entirely optional, I also added a feature to the component that will [<VPIcon icon="fa-brands fa-firefox" />preload the next card in JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/Image) to improve loading times between generating new cards.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

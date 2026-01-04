@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/442"/>
 
-I’m still obsessed with how awesome and powerful [<VPIcon icon="fa-brands fa-firefox"/>`:has()` is in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/:has). Ryan Mulligan really drives it home in [<VPIcon icon="fas fa-globe"/>We can `:has` it all](https://ryanmulligan.dev/blog/we-can-has-it-all/) with [a single Pen (<VPIcon icon="fa-brands fa-codepen"/>`hexagoncircle`)](https://codepen.io/hexagoncircle/pen/KKBBXQO) that offers simple, realistic UI controls for:
+I’m still obsessed with how awesome and powerful [<VPIcon icon="fa-brands fa-firefox" />`:has()` is in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/:has). Ryan Mulligan really drives it home in [<VPIcon icon="fas fa-globe"/>We can `:has` it all](https://ryanmulligan.dev/blog/we-can-has-it-all/) with [a single Pen (<VPIcon icon="fa-brands fa-codepen"/>`hexagoncircle`)](https://codepen.io/hexagoncircle/pen/KKBBXQO) that offers simple, realistic UI controls for:
 
 1. Changing color theme
 2. Offering alternate layouts

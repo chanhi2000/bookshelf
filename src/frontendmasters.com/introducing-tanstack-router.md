@@ -341,15 +341,15 @@ root route -> tasks route layout -> edit task path
 
 The URL hierarchy and the component hierarchy lined up perfectly. But they don’t have to.
 
-Just for fun, to see how, let’s see how we can remove the main tasks layout file from the edit task route. So we want the`/tasks/123/edit`URL to render the same thing, but **without** the <VPIcon icon="fa-brands fa-firefox"/>`tasks.route.tsx` route file being rendered. To do this, we just rename <VPIcon icon="fa-brands fa-firefox"/>`tasks.$taskId.edit.tsx` to <VPIcon icon="fa-brands fa-firefox"/>`tasks_.$taskId.edit.tsx`.
+Just for fun, to see how, let’s see how we can remove the main tasks layout file from the edit task route. So we want the`/tasks/123/edit`URL to render the same thing, but **without** the <VPIcon icon="fa-brands fa-firefox" />`tasks.route.tsx` route file being rendered. To do this, we just rename <VPIcon icon="fa-brands fa-firefox" />`tasks.$taskId.edit.tsx` to <VPIcon icon="fa-brands fa-firefox" />`tasks_.$taskId.edit.tsx`.
 
-Note that`tasks`became`tasks_`. We do need`tasks`in there, where it is, so Router will know how to eventually find the<VPIcon icon="fa-brands fa-firefox"/>`edit.tsx`file we’re rendering,*based on the URL*. But by naming it`tasks_`, we remove that*component*from the rendered component tree, even though`tasks`is still in the URL. Now when we render the edit task route, we get this:
+Note that`tasks`became`tasks_`. We do need`tasks`in there, where it is, so Router will know how to eventually find the<VPIcon icon="fa-brands fa-firefox" />`edit.tsx`file we’re rendering,*based on the URL*. But by naming it`tasks_`, we remove that*component*from the rendered component tree, even though`tasks`is still in the URL. Now when we render the edit task route, we get this:
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/edit-task-without-tasks-layout.jpg?resize=722%2C390&ssl=1)
 
 Notice how`Tasks layout`is gone.
 
-What if you wanted to do the opposite? What if you have a*component*hierarchy you want, that is, you**want**some layout to render in the edit task page, but you**don’t**want that layout to affect the URL. Well, just put the underscore on the opposite side. So we have <VPIcon icon="fa-brands fa-firefox"/>`tasks_.$taskId.edit.tsx` which renders the task edit page, but without putting the tasks layout route into the*component hierarchy*. Let’s say we have a special layout we*want*to use only for task editing. Let’s create a<VPIcon icon="fa-brands fa-firefox"/>`_taskEdit.tsx`.
+What if you wanted to do the opposite? What if you have a*component*hierarchy you want, that is, you**want**some layout to render in the edit task page, but you**don’t**want that layout to affect the URL. Well, just put the underscore on the opposite side. So we have <VPIcon icon="fa-brands fa-firefox" />`tasks_.$taskId.edit.tsx` which renders the task edit page, but without putting the tasks layout route into the*component hierarchy*. Let’s say we have a special layout we*want*to use only for task editing. Let’s create a<VPIcon icon="fa-brands fa-firefox" />`_taskEdit.tsx`.
 
 ```tsx
 import { createFileRoute, Outlet } from "@tanstack/react-router";

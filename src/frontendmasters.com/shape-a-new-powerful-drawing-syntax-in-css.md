@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5662"/>
 
-I first saw in [<VPIcon icon="fas fa-globe"/>the Safari 18.4 release notes](https://arc.net/l/quote/wnmeyzxr) that `shape()`, a new function is now supported. Then I [<VPIcon icon="fa-brands fa-firefox"/>saw on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/shape) it’s actually already in Chrome, too!
+I first saw in [<VPIcon icon="fas fa-globe"/>the Safari 18.4 release notes](https://arc.net/l/quote/wnmeyzxr) that `shape()`, a new function is now supported. Then I [<VPIcon icon="fa-brands fa-firefox" />saw on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/shape) it’s actually already in Chrome, too!
 
 The `shape()` function joins friends like `polygon()`, `circle()`, `rect()`, `inset()`, and a handful of others. These functions are used as values for a handful of things in CSS, namely:
 
@@ -60,7 +60,7 @@ The `shape()` function joins friends like `polygon()`, `circle()`, `rect()`, `in
 
 ::: warning Fair warning:
 
-`shape()` only seems to work with `clip-path`. I couldn’t find a ton of information on this, but [<VPIcon icon="fa-brands fa-firefox"/>the Chrome blog does state it](https://developer.chrome.com/blog/css-shape#:~:text=At%20the%20moment%2C%20it%20only%20works%20for%20clip%2Dpath.). It will probably work with the other properties in due time.
+`shape()` only seems to work with `clip-path`. I couldn’t find a ton of information on this, but [<VPIcon icon="fa-brands fa-firefox" />the Chrome blog does state it](https://developer.chrome.com/blog/css-shape#:~:text=At%20the%20moment%2C%20it%20only%20works%20for%20clip%2Dpath.). It will probably work with the other properties in due time.
 
 :::
 

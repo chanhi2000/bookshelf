@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3448"/>
 
-As of last month, Firefox 128’s support of the [<VPIcon icon="fa-brands fa-firefox"/>relative color syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Relative_colors) means we’ve now got [<VPIcon icon="fas fa-globe"/>support across the board](https://caniuse.com/?search=relative%20color). I’m excited about that as it’s an extremely powerful way to manipulate colors in CSS. Plus it was [part of Interop](/frontendmasters.com/comparing-interop-2024-choices-to-the-popular-vote.md) this year so that is further proof that is trucking along nicely.
+As of last month, Firefox 128’s support of the [<VPIcon icon="fa-brands fa-firefox" />relative color syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Relative_colors) means we’ve now got [<VPIcon icon="fas fa-globe"/>support across the board](https://caniuse.com/?search=relative%20color). I’m excited about that as it’s an extremely powerful way to manipulate colors in CSS. Plus it was [part of Interop](/frontendmasters.com/comparing-interop-2024-choices-to-the-popular-vote.md) this year so that is further proof that is trucking along nicely.
 
 The syntax with generic names looks like this:
 

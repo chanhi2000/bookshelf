@@ -67,7 +67,7 @@ I figured I’d toss together a Web Component that would actually display the co
   :default-tab="['css','result']"
   :theme="dark"/>
 
-That basically does what I was picturing. This keeps it all Light DOM so it would be quite easy to style and customize. Since could be used inside a `<form>`, you might need to fiddle with [<VPIcon icon="fa-brands fa-firefox"/>`ElementInternals`](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals#examples) so that the input can participate in the form as expected. Since there are now *two* inputs that essentially have the same value, it’s likely you’ll only want one to submit as form data.
+That basically does what I was picturing. This keeps it all Light DOM so it would be quite easy to style and customize. Since could be used inside a `<form>`, you might need to fiddle with [<VPIcon icon="fa-brands fa-firefox" />`ElementInternals`](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals#examples) so that the input can participate in the form as expected. Since there are now *two* inputs that essentially have the same value, it’s likely you’ll only want one to submit as form data.
 
 But my example there, like native color inputs themselves, deals exclusively in HEX colors. I was hoping that the text input could deal in *any* sort of valid color format.
 

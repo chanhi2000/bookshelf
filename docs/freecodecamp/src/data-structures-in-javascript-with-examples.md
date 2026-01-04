@@ -145,7 +145,7 @@ const arr = [
 ]
 ```
 
-In JavaScript, arrays come with many built-in properties and methods we can use with different purposes, such as adding or deleting items from the array, sorting it, filtering its values, know its, length and so on. You can find a full list of array methods [<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). 
+In JavaScript, arrays come with many built-in properties and methods we can use with different purposes, such as adding or deleting items from the array, sorting it, filtering its values, know its, length and so on. You can find a full list of array methods [<VPIcon icon="fa-brands fa-firefox" />here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). 
 
 <SiteInfo
   name="Array - JavaScript | MDN"
@@ -209,7 +209,7 @@ console.log(obj["prop5"]) // "The new prop on the block"
 obj.prop6() // "yet another example"
 ```
 
-Like arrays, in JavaScript objects come with many built-in methods that allow us to perform different operations and get information from a given object. A full list can be found [<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object).
+Like arrays, in JavaScript objects come with many built-in methods that allow us to perform different operations and get information from a given object. A full list can be found [<VPIcon icon="fa-brands fa-firefox" />here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object).
 
 <SiteInfo
   name="Object - JavaScript | MDN"

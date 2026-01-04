@@ -70,7 +70,7 @@ In this article, we’ll talk about a popular script-based diagramming tool call
 
 Mermaid is not the only tool of this kind. There are other ones, like [<VPIcon icon="fas fa-globe"/>PlantUML](https://plantuml.com/), that have been around longer. But scripting with Mermaid has a very gentle learning curve, and it distinguishes itself from similar tools in many ways:
 
-- As opposed to other tools like PlantUML, Mermaid is *made for the web*. It is Node-compatible, and the diagrams show as modified SVGs with inserted "[<VPIcon icon="fa-brands fa-firefox"/>foreign objects](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/foreignObject)”. These are more compliant with HTML and CSS frameworks.
+- As opposed to other tools like PlantUML, Mermaid is *made for the web*. It is Node-compatible, and the diagrams show as modified SVGs with inserted "[<VPIcon icon="fa-brands fa-firefox" />foreign objects](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/foreignObject)”. These are more compliant with HTML and CSS frameworks.
 - Also compared to other scripting libraries, the resulting charts are more visually appealing, as they use advanced algorithms to place the shapes and arrows.
 - Mermaid also makes strong use of Markdown for labelling, and has more recently started using JavaScript object-like formatting for shape declaration.
 - It also has a strong support, is actively maintained, and makes use of well-known, robust JS graphics libraries like [<VPIcon icon="fas fa-globe"/>d3.js](https://d3js.org/), [<VPIcon icon="fas fa-globe"/>cytospace.js](https://cytoscape.org/what_is_cytoscape.html), and [<VPIcon icon="iconfont icon-github"/>`dagrejs/dagre-d3`](https://github.com/dagrejs/dagre-d3).

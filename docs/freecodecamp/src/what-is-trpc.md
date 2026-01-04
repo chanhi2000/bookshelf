@@ -92,7 +92,7 @@ You can find the GitHub repository and all other resources for this article [her
 
 [<VPIcon icon="fas fa-globe"/>tRPC](https://trpc.io/) is a type safe TypeScript-based library that leverages the RPC API design to process API requests and deliver a response.
 
-[<VPIcon icon="fa-brands fa-wikipedia-w"/>RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) stands for Remote Procedural Call. Our tRPC builds on RPC. RPC is an architectural style to design APIs like [<VPIcon icon="iconfont icon-ibm"/>REST](https://ibm.com/topics/rest-apis). Using RPC, you get rid of the [<VPIcon icon="fa-brands fa-firefox"/>Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) and [<VPIcon icon="iconfont icon-ibm"/>REST API](https://ibm.com/topics/rest-apis).
+[<VPIcon icon="fa-brands fa-wikipedia-w"/>RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) stands for Remote Procedural Call. Our tRPC builds on RPC. RPC is an architectural style to design APIs like [<VPIcon icon="iconfont icon-ibm"/>REST](https://ibm.com/topics/rest-apis). Using RPC, you get rid of the [<VPIcon icon="fa-brands fa-firefox" />Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) and [<VPIcon icon="iconfont icon-ibm"/>REST API](https://ibm.com/topics/rest-apis).
 
 As the name suggests, tRPC puts a type safe layer on the RPC architectural design. Traditionally, we use the REST API. It has [<VPIcon icon="fas fa-globe"/>GET, POST, PULL, and other request types](https://restfulapi.net/http-methods/). In tRPC, there are no request types.
 

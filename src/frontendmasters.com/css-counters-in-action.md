@@ -141,7 +141,7 @@ If you wanted to increment by some other value than 1, you can specify whatever 
 counter-increment: count-val 2;
 ```
 
-And if you wanted to just *set* a counter to a specific value, the `counter-set` property is for you. There’s a few other options that are of course discussed on [<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters).
+And if you wanted to just *set* a counter to a specific value, the `counter-set` property is for you. There’s a few other options that are of course discussed on [<VPIcon icon="fa-brands fa-firefox" />MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters).
 
 I know this seems silly, and I know this would have been *simpler* to do in JavaScript. The counter variable is already *right there*.
 
@@ -191,7 +191,7 @@ We’ll get line numbers next to each heading.
 
 Before going, I’d like to share the use case that led me to discover this feature. So far the examples we’ve seen are either contrived, or better served by just using JavaScript. But what if you don’t have control over the markup that’s generated on your page?
 
-I recently moved my blog’s code syntax highlighting from [<VPIcon icon="fas fa-globe"/>Prism](https://prismjs.com/) to [<VPIcon icon="fas fa-globe"/>Shiki](https://shiki.matsu.io/). Everything went well except for one thing: Shiki does not support line numbers. This created a perfect use case for CSS counters.
+I recently moved my blog’s code syntax highlighting from [<VPIcon icon="iconfont icon-prismjs"/>Prism](https://prismjs.com/) to [<VPIcon icon="fas fa-globe"/>Shiki](https://shiki.matsu.io/). Everything went well except for one thing: Shiki does not support line numbers. This created a perfect use case for CSS counters.
 
 I used my Shiki configuration to inject a `data-linenumbers` attribute onto any `pre` tag containing code I wanted numbered, and then I solved this with a little bit of CSS.
 
@@ -223,7 +223,7 @@ We’ve covered all you’ll probably ever use of CSS counters, but for complete
 
 ### Formatting the numbers
 
-It turns out you can customize the display of the number from the CSS counter. The `counter()` function takes an optional second argument, detailed [<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/CSS/counter#counter-style).
+It turns out you can customize the display of the number from the CSS counter. The `counter()` function takes an optional second argument, detailed [<VPIcon icon="fa-brands fa-firefox" />here](https://developer.mozilla.org/en-US/docs/Web/CSS/counter#counter-style).
 
 For example, you can display these counter values as uppercase Roman numerals.
 

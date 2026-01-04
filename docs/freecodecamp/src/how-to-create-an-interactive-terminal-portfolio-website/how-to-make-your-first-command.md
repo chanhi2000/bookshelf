@@ -67,7 +67,7 @@ const commanns = {
 };
 ```
 
-This will be our help command where we'll add a list of commands available to our terminal portfolio. We will use [<VPIcon icon="fa-brands fa-firefox"/>`Intl.ListFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat), which creates a list of elements with and before the last element.
+This will be our help command where we'll add a list of commands available to our terminal portfolio. We will use [<VPIcon icon="fa-brands fa-firefox" />`Intl.ListFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat), which creates a list of elements with and before the last element.
 
 ```js
 const formatter = new Intl.ListFormat('en', {

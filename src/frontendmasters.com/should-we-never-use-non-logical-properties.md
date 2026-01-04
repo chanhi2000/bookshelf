@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6658"/>
 
-CSS has [<VPIcon icon="fa-brands fa-firefox"/>“logical properties”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values) which have the unique ability to follow the flow of language. You might be working on an website in English, which is left-to-right and top-to-bottom, but other languages might flip either or both of those. In English, we know what `margin-right` does, but can quickly become the wrong choice if the direction of a web page is flipped, [**perhaps during translation**](/frontendmasters.com/to-flip-or-not-to-flip.md).
+CSS has [<VPIcon icon="fa-brands fa-firefox" />“logical properties”](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values) which have the unique ability to follow the flow of language. You might be working on an website in English, which is left-to-right and top-to-bottom, but other languages might flip either or both of those. In English, we know what `margin-right` does, but can quickly become the wrong choice if the direction of a web page is flipped, [**perhaps during translation**](/frontendmasters.com/to-flip-or-not-to-flip.md).
 
 So instead of `margin-right`, more and more CSS authors are writing `margin-inline-end`, which matches our intention better. Should the flow of the site change, our intention, and the design, holds.
 
@@ -81,7 +81,7 @@ That’s not a reasonable opinion when you can just straight up see that [<VPIco
 - **Background position.** There is `background-position-x` but not `background-position-inline`. (Likewise with `y`)
 - **Gradients.** There is `linear-gradient(to top, black, white)` but not `linear-gradient(to block start, black, white);`
 
-It’s just missing a few properties, as sometimes it was clearly thought of. We have [<VPIcon icon="fa-brands fa-firefox"/>`overflow-inline`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-inline), for example, as a logical replacement of `overflow-x`. Jeremy Keith [<VPIcon icon="fas fa-globe"/>notes some others](https://adactio.com/journal/19457), like how the JavaScript API `getBoundingClientRect` doesn’t return things in logical values.
+It’s just missing a few properties, as sometimes it was clearly thought of. We have [<VPIcon icon="fa-brands fa-firefox" />`overflow-inline`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-inline), for example, as a logical replacement of `overflow-x`. Jeremy Keith [<VPIcon icon="fas fa-globe"/>notes some others](https://adactio.com/journal/19457), like how the JavaScript API `getBoundingClientRect` doesn’t return things in logical values.
 
 When you can’t, but you actually need to, you’ll need to check the directions to handle it likely.
 

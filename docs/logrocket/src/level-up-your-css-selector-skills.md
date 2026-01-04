@@ -466,7 +466,7 @@ Here’s a Pen to demonstrate:
 If you get stuck trying to figure out a selector or need to dig deeper into the CSS specifications, here are some useful resources that you might want to check out:
 
 - [<VPIcon icon="fas fa-globe"/>CSS Diner](https://flukeout.github.io/): this is a fun game to test out your selector prowess
-- [<VPIcon icon="fa-brands fa-firefox"/>MDN Web Docs:](https://developer.mozilla.org/en-US/) a go-to resource for CSS
+- [<VPIcon icon="fa-brands fa-firefox" />MDN Web Docs:](https://developer.mozilla.org/en-US/) a go-to resource for CSS
 - [<VPIcon icon="iconfont icon-w3c"/>CSS Specifications](https://w3.org/Style/CSS/specs.en.html): specifically [<VPIcon icon="iconfont icon-w3c"/>Selectors Level 4 and](https://w3.org/TR/selectors-4/) [<VPIcon icon="fas fa-globe"/>CSS Pseudo-Elements Module Level 4,](https://drafts.csswg.org/css-pseudo-4/) for the latest [<VPIcon icon="iconfont icon-w3c"/>selectors](https://w3.org/TR/selectors-4/), pseudo-classes, and pseudo-elements
 - [<VPIcon icon="fas fa-globe"/>Can I Use](https://caniuse.com/): to check browser compatibility
 

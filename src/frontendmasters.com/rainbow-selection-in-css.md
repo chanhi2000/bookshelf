@@ -65,7 +65,7 @@ html {
 }
 ```
 
-There is really only a couple of things you can set on `::selection` (see the <VPIcon icon="fa-brands fa-firefox"/>[allowable properties](https://developer.mozilla.org/en-US/docs/Web/CSS/::selection#allowable_properties) bit on MDN), which makes sense. You wouldn’t want to be changing `font-size` on selection or anything like that as it would get messy quickly.
+There is really only a couple of things you can set on `::selection` (see the <VPIcon icon="fa-brands fa-firefox" />[allowable properties](https://developer.mozilla.org/en-US/docs/Web/CSS/::selection#allowable_properties) bit on MDN), which makes sense. You wouldn’t want to be changing `font-size` on selection or anything like that as it would get messy quickly.
 
 I was on the [<VPIcon icon="fas fa-globe"/>Lit documentation](https://lit.dev/docs/) site the other day and highlighted some text and saw this:
 

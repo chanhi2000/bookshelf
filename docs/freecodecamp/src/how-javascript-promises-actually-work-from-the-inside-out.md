@@ -283,7 +283,7 @@ function doResolve(fn, promise) {
 }
 ```
 
-According to the definition at [<VPIcon icon="fa-brands fa-firefox"/>Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Parameters): It takes an *executor* function as an argument.
+According to the definition at [<VPIcon icon="fa-brands fa-firefox" />Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Parameters): It takes an *executor* function as an argument.
 
 ```js
 function noop() {} 

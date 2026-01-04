@@ -63,7 +63,7 @@ We shall focus on how to implement the promise core according to [<VPIcon icon="
 
 [<VPIcon icon="iconfont icon-typescript"/>TypeScript](https://typescriptlang.org/) is going to come in handy, too.
 
-Given that we are going to be working on the skills of implementation here, I am going to assume you have some basic understanding of what promises are and and a vague sense of how they work. If you don’t, [<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) is a great place to start.
+Given that we are going to be working on the skills of implementation here, I am going to assume you have some basic understanding of what promises are and and a vague sense of how they work. If you don’t, [<VPIcon icon="fa-brands fa-firefox" />here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) is a great place to start.
 
 Now that we have that out of the way, go ahead and clone the [repository (<VPIcon icon="iconfont icon-github"/>`maciejcieslar/promiseq`)](https://github.com/maciejcieslar/promiseq) and let’s get started.
 

@@ -117,7 +117,7 @@ So, what exactly does `pip` do? [<VPIcon icon="fas fa-globe"/>`pip`](https://pip
 
 Package management is so important that Python’s installers have included `pip` since versions 3.4 and 2.7.9, for Python 3 and Python 2, respectively. Many Python projects use `pip`, which makes it an essential tool for every Pythonista.
 
-The concept of a package manager might be familiar to you if you’re coming from another programming language. [<VPIcon icon="fa-brands fa-firefox"/>JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) uses [<VPIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/) for package management, [<VPIcon icon="iconfont icon-ruby"/>Ruby](https://ruby-lang.org/en/) uses [<VPIcon icon="iconfont icon-ruby"/>gem](https://rubygems.org/), and the [<VPIcon icon="fa-brands fa-microsoft"/>.NET platform](https://dotnet.microsoft.com/languages) uses [<VPIcon icon="fas fa-globe"/>NuGet](https://nuget.org/). In Python, `pip` has become the standard package manager.
+The concept of a package manager might be familiar to you if you’re coming from another programming language. [<VPIcon icon="fa-brands fa-firefox" />JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) uses [<VPIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/) for package management, [<VPIcon icon="iconfont icon-ruby"/>Ruby](https://ruby-lang.org/en/) uses [<VPIcon icon="iconfont icon-ruby"/>gem](https://rubygems.org/), and the [<VPIcon icon="fa-brands fa-microsoft"/>.NET platform](https://dotnet.microsoft.com/languages) uses [<VPIcon icon="fas fa-globe"/>NuGet](https://nuget.org/). In Python, `pip` has become the standard package manager.
 
 ### Finding `pip` on Your System
 
@@ -1019,7 +1019,7 @@ Here are some other package management tools that are available for Python:
 }
 ```
 
-**Poetry** will look very familiar to you if you’re coming from [<VPIcon icon="fa-brands fa-firefox"/>JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [<VPIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/). Poetry goes beyond [**package management**](/realpython.com/dependency-management-python-poetry.md), helping you build distributions for your applications and libraries and deploying them to PyPI.
+**Poetry** will look very familiar to you if you’re coming from [<VPIcon icon="fa-brands fa-firefox" />JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [<VPIcon icon="fa-brands fa-npm"/>npm](https://npmjs.com/). Poetry goes beyond [**package management**](/realpython.com/dependency-management-python-poetry.md), helping you build distributions for your applications and libraries and deploying them to PyPI.
 
 @tab Pipenv
 

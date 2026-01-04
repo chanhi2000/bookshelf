@@ -48,7 +48,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/3569"/>
 
-[<VPIcon icon="fa-brands fa-firefox"/>Anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning)and[<VPIcon icon="fa-brands fa-firefox"/>scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)are among of the most popular and exciting CSS features of 2024. They unlock a lot of possibilities, and will continue to do so as browser support improves and developers get to know them.
+[<VPIcon icon="fa-brands fa-firefox" />Anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning)and[<VPIcon icon="fa-brands fa-firefox" />scroll-driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)are among of the most popular and exciting CSS features of 2024. They unlock a lot of possibilities, and will continue to do so as browser support improves and developers get to know them.
 
 Here is a demo of a custom range slider where I am relying on such features.
 
@@ -138,7 +138,7 @@ Defining the anchor is not enough, we also need to correctly position the elemen
 
 ::: info
 
-The`position-area`[<VPIcon icon="fas fa-firefox"/>CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)property enables an anchor-positioned element to be positioned relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3×3 grid, where the anchoring element is the center cell.
+The`position-area`[<VPIcon icon="fas fa-firefox" />CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)property enables an anchor-positioned element to be positioned relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3×3 grid, where the anchoring element is the center cell.
 
 <SiteInfo
   name="position-area - CSS: Cascading Style Sheets | MDN"
@@ -206,7 +206,7 @@ Of course, it applies to only this particular demo. You may need a different fix
 
 Now that our tooltip is correctly positioned, let’s move to the content. This is where scroll-driven animations enter the story. I know what you are thinking: *“We have nothing to scroll, so how are we going to use scroll-driven animations?”*
 
-If you read[<VPIcon icon="fa-brands fa-firefox"/>the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)you will find something called a “*view progress timeline*”:
+If you read[<VPIcon icon="fa-brands fa-firefox" />the MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations)you will find something called a “*view progress timeline*”:
 
 > You progress this timeline based on the change in visibility of an element (known as the subject) inside a scroller. The visibility of the subject inside the scroller is tracked as a percentage of progress — by default, the timeline is at 0% when the subject is first visible at one edge of the scroller, and 100% when it reaches the opposite edge.
 

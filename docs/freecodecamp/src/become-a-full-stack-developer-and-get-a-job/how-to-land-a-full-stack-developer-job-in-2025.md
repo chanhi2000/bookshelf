@@ -195,7 +195,7 @@ I prefer text-based learning as it allows me to absorb concepts at my own pace. 
 @tab:active Frontend Development:
 
 - [<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp](https://freecodecamp.org/) - Hands-on projects with structured lessons.
-- [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs](https://developer.mozilla.org/) - The official reference for web technologies.
+- [<VPIcon icon="fa-brands fa-firefox" />MDN Docs](https://developer.mozilla.org/) - The official reference for web technologies.
 - [<VPIcon icon="fas fa-globe"/>JavaScript.info](https://javascript.info/) - A deep dive into JavaScript concepts.
 - [<VPIcon icon="fas fa-globe"/>Learn to code](https://educative.io/learn-to-code) - learning Python or JavaScript by building small projects
 

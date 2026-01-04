@@ -391,7 +391,7 @@ body {
 }
 ```
 
-The ultimate classic thing for a reset. When I don’t do it up-front, I very regularly find myself needing to circle back and add it. I originally went with the [**inheritance model**](/css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice.md), but Miriam [<VPIcon icon="fas fa-globe"/>convinced me not to](https://oddbird.net/2025/09/04/box-model/), basically by saying it “solves a problem that doesn’t really exist.”
+The ultimate classic thing for a reset. When I don’t do it up-front, I very regularly find myself needing to circle back and add it. I originally went with the [**inheritance model**](/css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice.md), but Miriam [**convinced me not to**](/oddbird.net/box-model.md), basically by saying it “solves a problem that doesn’t really exist.”
 
 ### Hanging Punctuation
 

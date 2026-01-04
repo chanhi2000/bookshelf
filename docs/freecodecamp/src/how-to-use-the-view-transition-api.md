@@ -95,7 +95,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751324398272/d2f05e2
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1751324398272/d2f05e29-6925-43da-8c41-14b1c18a4898.png"/>
 
-If you want to add some amazing and visually appealing animations to your web page, the [<VPIcon icon="fa-brands fa-firefox"/>View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) is a great animation tool. It lets you create Cross-Document Transitions when navigating between pages. And not just in classic multi-page apps - you can also use it to build eye-catching transitions in single-page applications.
+If you want to add some amazing and visually appealing animations to your web page, the [<VPIcon icon="fa-brands fa-firefox" />View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) is a great animation tool. It lets you create Cross-Document Transitions when navigating between pages. And not just in classic multi-page apps - you can also use it to build eye-catching transitions in single-page applications.
 
 In this article, you’ll learn how to:
 
@@ -780,7 +780,7 @@ Please note that `viewTransition` is an experimental flag that enables the new e
 
 ## Browser Support
 
-Browser Support varies (Firefox doesn’t yet support it), so be sure to review the [<VPIcon icon="fa-brands fa-firefox"/>compatibility table](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API#browser_compatibility) before shipping to production.
+Browser Support varies (Firefox doesn’t yet support it), so be sure to review the [<VPIcon icon="fa-brands fa-firefox" />compatibility table](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API#browser_compatibility) before shipping to production.
 
 ---
 
@@ -793,7 +793,7 @@ The View Transition API lets you:
 - Debug transitions in DevTools and fine-tune timing and easing
 - Apply the same approach to single-page apps using JavaScript
 
-For more details, check out the [<VPIcon icon="fa-brands fa-firefox"/>MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) on View Transitions. Enjoy creating seamless, native animations in your web projects!
+For more details, check out the [<VPIcon icon="fa-brands fa-firefox" />MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) on View Transitions. Enjoy creating seamless, native animations in your web projects!
 
 You can find all the source code from this guide in [this GitHub repository (<VPIcon icon="iconfont icon-github"/>`logicbaselabs/view-transition-api-tutorial`)](https://github.com/logicbaselabs/view-transition-api-tutorial). If it helped you in any way, consider giving it a star to show your support!
 

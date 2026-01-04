@@ -78,7 +78,7 @@ Really anything app-like, like Figma, would benefit from being able to show menu
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/02/Screenshot-2025-02-26-at-4.12.05%E2%80%AFPM.png?resize=818%2C494&ssl=1)
 
-Designers will surely enjoy having being able to think in terms of alignment. Where should this popup hang off of? *Straight* off the right side? Pushed down then to the right? Centered below it? We’ll have lots of positioning options that work great with [<VPIcon icon="fas fa-globe"/>pretty simple keywords that have smart side effects](https://oddbird.net/2025/02/25/anchor-position-area/).
+Designers will surely enjoy having being able to think in terms of alignment. Where should this popup hang off of? *Straight* off the right side? Pushed down then to the right? Centered below it? We’ll have lots of positioning options that work great with [**pretty simple keywords that have smart side effects**](/oddbird.net/anchor-position-area.md).
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/02/Screenshot-2025-02-26-at-5.12.03%E2%80%AFPM.png?resize=1024%2C921&ssl=1)
 

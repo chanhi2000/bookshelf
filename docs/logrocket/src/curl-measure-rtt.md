@@ -119,7 +119,7 @@ These may look alien to you, but they essentially describe the process by which 
 
 Simply put, when a connection is established, the client sends a `SYN` (Synchronize) packet to the host. The server receives the `SYN` and replies with a `SYN-ACK` (Synchronize-Acknowledgment). If everything goes well, the client receives the server’s `SYN-ACK` and sends an `ACK` (Acknowledge).
 
-You can learn more about the TCP three-way handshake on the [<VPIcon icon="fa-brands fa-firefox"/>MDN docs](https://developer.mozilla.org/en-US/docs/Glossary/TCP_handshake).
+You can learn more about the TCP three-way handshake on the [<VPIcon icon="fa-brands fa-firefox" />MDN docs](https://developer.mozilla.org/en-US/docs/Glossary/TCP_handshake).
 
 ### **Time** **t**o **f**irst **b**yte (TTFB)
 

@@ -82,7 +82,7 @@ isOriginal: false
 }
 ```
 
-The size of the viewport that's used to render a webpage in a browser can be very important at times, such as when creating or debugging [<VPIcon icon="fa-brands fa-firefox"/>media queries](https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Using_media_queries).
+The size of the viewport that's used to render a webpage in a browser can be very important at times, such as when creating or debugging [<VPIcon icon="fa-brands fa-firefox" />media queries](https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
 You can easily know what the current size of the viewport is in DevTools. Here are two ways to do it.
 

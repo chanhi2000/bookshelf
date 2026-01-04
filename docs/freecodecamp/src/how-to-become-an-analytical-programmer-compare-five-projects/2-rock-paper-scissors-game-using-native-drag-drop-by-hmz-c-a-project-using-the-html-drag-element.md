@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc4-71f2-4678-8f5d-5571d9cc38e8.png"/>
 
-Hmz C has not been so active as Amit, with just 7 projects in CodePen across 10 years since 2014. The pen we are going to analyze is his very first contribution to CodePen. The project appears to be a demo of the [<VPIcon icon="fa-brands fa-firefox"/>HTML Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API) that came with HTML5 by the time of its release. The game provides a clean and interactive experience of "Rock, Paper, Scissors" using intuitive drag-and-drop gestures, visual effects, and live score updates. It focuses on user experience and interactivity.
+Hmz C has not been so active as Amit, with just 7 projects in CodePen across 10 years since 2014. The pen we are going to analyze is his very first contribution to CodePen. The project appears to be a demo of the [<VPIcon icon="fa-brands fa-firefox" />HTML Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API) that came with HTML5 by the time of its release. The game provides a clean and interactive experience of "Rock, Paper, Scissors" using intuitive drag-and-drop gestures, visual effects, and live score updates. It focuses on user experience and interactivity.
 
 Key features of this project are:
 

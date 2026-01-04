@@ -51,7 +51,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/2865"/>
 
-This is just a no-frills post with code snippets showing how to test support for some newish features in HTML, CSS, and JavaScript. This is in no way comprehensive and doesn’t get into what these features do, which is better covered in other posts. It also doesn’t get into testing the support in any other language than JavaScript. Look to [<VPIcon icon="fa-brands fa-firefox"/>`@supports` in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports) for that, mostly.
+This is just a no-frills post with code snippets showing how to test support for some newish features in HTML, CSS, and JavaScript. This is in no way comprehensive and doesn’t get into what these features do, which is better covered in other posts. It also doesn’t get into testing the support in any other language than JavaScript. Look to [<VPIcon icon="fa-brands fa-firefox" />`@supports` in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports) for that, mostly.
 
 Feel free to chime in with more of your own so this can be as helpful of a resource as it can be!
 

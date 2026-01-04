@@ -86,7 +86,7 @@ This is your `background`, `padding`, `line-height` and `margin` properties. Yâ€
 
 #### Active animations
 
-This is when your [<VPIcon icon="fa-brands fa-firefox"/>animatable properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties) are being affected by an active `@keyframes` animation.
+This is when your [<VPIcon icon="fa-brands fa-firefox" />animatable properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties) are being affected by an active `@keyframes` animation.
 
 #### Declarations that utilise `!important`
 

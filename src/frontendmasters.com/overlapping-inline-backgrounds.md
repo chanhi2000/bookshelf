@@ -108,7 +108,7 @@ The SVG`filter`needs to live inside an`svg`element. Since this`svg`element only 
 svg[height='0'][aria-hidden='true'] { position: fixed }
 ```
 
-The first primitive,[<VPIcon icon="fas fa-globe"/>`feComponentTransfer`](https://webplatform.github.io/docs/svg/elements/feComponentTransfer/), takes the`SourceAlpha`(basically, the`filter`input, with the RGB channels of all pixels zeroed, all pixels become black, but keep their alpha) as input ([<VPIcon icon="fa-brands fa-firefox"/>`in`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/in)) and scales it to the desired alpha, basically giving us the semitransparent version of the shape of the`span`background. This is because the input alpha is`1`within the`span`background area and`0`outside it. Multiplying the desired alpha with`1`leaves it unchanged, while multiplying it with`0`… well, zeroes it.
+The first primitive,[<VPIcon icon="fas fa-globe"/>`feComponentTransfer`](https://webplatform.github.io/docs/svg/elements/feComponentTransfer/), takes the`SourceAlpha`(basically, the`filter`input, with the RGB channels of all pixels zeroed, all pixels become black, but keep their alpha) as input ([<VPIcon icon="fa-brands fa-firefox" />`in`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/in)) and scales it to the desired alpha, basically giving us the semitransparent version of the shape of the`span`background. This is because the input alpha is`1`within the`span`background area and`0`outside it. Multiplying the desired alpha with`1`leaves it unchanged, while multiplying it with`0`… well, zeroes it.
 
 ```xml
 <svg width='0' height='0' aria-hidden='true'>
@@ -120,14 +120,14 @@ The first primitive,[<VPIcon icon="fas fa-globe"/>`feComponentTransfer`](https:/
 </svg>
 ```
 
-We’ve also named the[<VPIcon icon="fa-brands fa-firefox"/>`result`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/result)of this primitive`back`so we can reference it later in primitives not immediately folowing this particular`feComponentTransfer`one.
+We’ve also named the[<VPIcon icon="fa-brands fa-firefox" />`result`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/result)of this primitive`back`so we can reference it later in primitives not immediately folowing this particular`feComponentTransfer`one.
 
 ![result of the first filter step: the semitransparent black background](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/419932978-df9f8eed-00ef-45b7-a954-bd8e7cbcf753-1.png?resize=800%2C192&ssl=1)
 
 
 Now we have the semi-transparent multi-line`span`background with no increase in alpha in the overlap areas. But we still need to get the text and add it on top of it.
 
-Next, we have a[<VPIcon icon="fa-brands fa-firefox"/>`feColorMatrix`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feColorMatrix)primitive that uses the[<VPIcon icon="fas fa-globe"/>green channel as an alpha mask](https://bsky.app/profile/anatudor.bsky.social/post/3kqibnwoquk2m)(the second value on the last row of the matrix is the only non-zero one) and maxes out (sets to`100%`) all RGB channels of the output (last column, first three rows), basically[<VPIcon icon="fas fa-globe"/>painting the output](https://bsky.app/profile/anatudor.bsky.social/post/3kojyswsn2q2w)white with an alpha equal to the input green channel value. This means the result is full transparency where the input’s green channel is zero (everywhere outside the white text) and opaque white where it’s maxed out (just for the white text).
+Next, we have a[<VPIcon icon="fa-brands fa-firefox" />`feColorMatrix`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feColorMatrix)primitive that uses the[<VPIcon icon="fas fa-globe"/>green channel as an alpha mask](https://bsky.app/profile/anatudor.bsky.social/post/3kqibnwoquk2m)(the second value on the last row of the matrix is the only non-zero one) and maxes out (sets to`100%`) all RGB channels of the output (last column, first three rows), basically[<VPIcon icon="fas fa-globe"/>painting the output](https://bsky.app/profile/anatudor.bsky.social/post/3kojyswsn2q2w)white with an alpha equal to the input green channel value. This means the result is full transparency where the input’s green channel is zero (everywhere outside the white text) and opaque white where it’s maxed out (just for the white text).
 
 ```xml{6-12}
 <svg width="0" height="0" aria-hidden="true">
@@ -160,7 +160,7 @@ We now have just the white text:
 
 ![result of the second filter step: just the white text](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/419943848-cc3f8df9-621a-4c95-9227-9b64c8abd320.png?resize=800%2C192&ssl=1)
 
-The final step is to place the semi-transparent black background underneath it ([<VPIcon icon="fa-brands fa-firefox"/>`in2`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/in2)specifies the bottom layer):
+The final step is to place the semi-transparent black background underneath it ([<VPIcon icon="fa-brands fa-firefox" />`in2`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/in2)specifies the bottom layer):
 
 ```xml{13}
 <svg width="0" height="0" aria-hidden="true">
@@ -180,7 +180,7 @@ The final step is to place the semi-transparent black background underneath it (
 </svg>
 ```
 
-I see[<VPIcon icon="fa-brands fa-firefox"/>`feMerge`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMerge)often used for this, but here we only have two layers, so I find[<VPIcon icon="fa-brands fa-firefox"/>`feBlend`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feBlend)(with the default[<VPIcon icon="fa-brands fa-firefox"/>`mode`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/mode)of`normal`which just places the top layer`in`over the bottom layer`in2`) a much simpler solution.
+I see[<VPIcon icon="fa-brands fa-firefox" />`feMerge`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMerge)often used for this, but here we only have two layers, so I find[<VPIcon icon="fa-brands fa-firefox" />`feBlend`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feBlend)(with the default[<VPIcon icon="fa-brands fa-firefox" />`mode`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/mode)of`normal`which just places the top layer`in`over the bottom layer`in2`) a much simpler solution.
 
 Note that we’re not specifying`in`explicitly because, by default, it’s the result of the previous primitive, the`feColorMatrix`. This is also why we didn’t bother with setting the`result`attribute like we did for the first primitive, the`feComponentTransfer`one because the output of this`feColorMatrix` primitive only gets fed automatically into the`in`input of the final primitive and nowhere else after that.
 
@@ -232,7 +232,7 @@ To get around this, we wrap the entire`span`in another`span`and set the `padding
 
 ![long wrapping span nesting solution ([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/azbpKpg))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/420043339-b2559f56-e965-4ae6-812a-75c0d41c8275.png?resize=800%2C423&ssl=1)
 
-If you’ve checked the above demo in Firefox, you may have noticed that it doesn’t work. This is due to[<VPIcon icon="fa-brands fa-firefox"/>bug 1951653](https://bugzilla.mozilla.org/show_bug.cgi?id=1951653).
+If you’ve checked the above demo in Firefox, you may have noticed that it doesn’t work. This is due to[<VPIcon icon="fa-brands fa-firefox" />bug 1951653](https://bugzilla.mozilla.org/show_bug.cgi?id=1951653).
 
 In the particular case when the*entire*text in the paragraph is wrapped in a`span`, we can avoid the Firefox bug by setting the`mix-blend-mode`property*only*on the inner`span`(`span span`).
 
@@ -293,7 +293,7 @@ If we wanted to have a background that’s not semi-transparent black, but a sem
 </svg>
 ```
 
-Other than the`id`, we’ve now also set[<VPIcon icon="fa-brands fa-firefox"/>another attribute](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/color-interpolation-filters)on the`filter`element. We aren’t going into it because I don’t really understand much about it, but just know that this attribute with this value needs to be added on any SVG`filter`that messes with the RGB channels. Otherwise, the result won’t be consistent between browsers (the default is`linearRGB`in theory, but only the`sRGB`value seems to work in Safari) and it may not match expectations (the`sRGB`value is the one that gives us the result we want). Previously, having just white text on a black background, we didn’t really need it and it was safe to skip it, but now we have to include it.
+Other than the`id`, we’ve now also set[<VPIcon icon="fa-brands fa-firefox" />another attribute](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/color-interpolation-filters)on the`filter`element. We aren’t going into it because I don’t really understand much about it, but just know that this attribute with this value needs to be added on any SVG`filter`that messes with the RGB channels. Otherwise, the result won’t be consistent between browsers (the default is`linearRGB`in theory, but only the`sRGB`value seems to work in Safari) and it may not match expectations (the`sRGB`value is the one that gives us the result we want). Previously, having just white text on a black background, we didn’t really need it and it was safe to skip it, but now we have to include it.
 
 ![golden text on dark blue background using the method of setting the RGB values in the SVG filter ([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/yyLgWjQ))](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/420321413-7ec2fa9c-4667-40ef-a0a0-5192a5333d30.png?resize=800%2C192&ssl=1)
 
@@ -313,7 +313,7 @@ body {
 }
 ```
 
-Then we modify the`filter`a bit. We use`SourceAlpha`to give us the background area, though we still extract the text area via a`feColorMatrix`primitive and save it as`text`, but this time we don’t care about the RGB values, we won’t use them anyway. We also flood the entire`filter`area with`--back-c`and`--text-c`(using[<VPIcon icon="fa-brands fa-firefox"/>`feFlood`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFlood)), but then, out of the entire area, we only keep what’s at the intersection ([<VPIcon icon="fa-brands fa-firefox"/>`operator='in'`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/operator#fecomposite)of[<VPIcon icon="fa-brands fa-firefox"/>`feComposite`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComposite)) with the`SourceAlpha`and`text`areas respectively. Finally, we stack these intersections (via`feBlend`), with the text on top.
+Then we modify the`filter`a bit. We use`SourceAlpha`to give us the background area, though we still extract the text area via a`feColorMatrix`primitive and save it as`text`, but this time we don’t care about the RGB values, we won’t use them anyway. We also flood the entire`filter`area with`--back-c`and`--text-c`(using[<VPIcon icon="fa-brands fa-firefox" />`feFlood`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFlood)), but then, out of the entire area, we only keep what’s at the intersection ([<VPIcon icon="fa-brands fa-firefox" />`operator='in'`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/operator#fecomposite)of[<VPIcon icon="fa-brands fa-firefox" />`feComposite`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComposite)) with the`SourceAlpha`and`text`areas respectively. Finally, we stack these intersections (via`feBlend`), with the text on top.
 
 ```xml
 <svg width="0" height="0" aria-hidden="true">
@@ -501,7 +501,7 @@ It’s pretty subtle here, but if you think it looks like this latest method is 
 
 This is because the blending fix for the background overlapping text problem results in the text`color`not being preserved. This was precisely why we switched from a blending-only solution to an SVG`filter`one in the case when the text isn’t black or white (or close enough and the particular choice of text and background preserves the text post-blending exactly as it was set).
 
-A lot of text and background combinations don’t make this very obvious because, in order to have[<VPIcon icon="fa-brands fa-firefox"/>a good contrast ratio](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast), we often need either the text or the background behind it to be very dark or very bright - which means there’s a chance all three RGB channels of the text are either below or above the corresponding RGB channels of the background, or even if one of the channels is deviating on the other side, it’s not deviating enough to make a noticeable difference. But sometimes we can still see there’s a problem, as illustrated by the interactive demo below, which allows changing the palette.
+A lot of text and background combinations don’t make this very obvious because, in order to have[<VPIcon icon="fa-brands fa-firefox" />a good contrast ratio](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable/Color_contrast), we often need either the text or the background behind it to be very dark or very bright - which means there’s a chance all three RGB channels of the text are either below or above the corresponding RGB channels of the background, or even if one of the channels is deviating on the other side, it’s not deviating enough to make a noticeable difference. But sometimes we can still see there’s a problem, as illustrated by the interactive demo below, which allows changing the palette.
 
 <CodePen
   user="thebabydino"
@@ -973,7 +973,7 @@ My expectation was that this would give us just the text shape like below, which
 
 ![the text shape extracted using the green channel (Chrome)](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/03/421569898-090dbf24-dc65-4dff-830b-b538d97c6128.png?resize=800%2C416&ssl=1)
 
-@tab <VPIcon icon="fa-brands fa-firefox"/>
+@tab <VPIcon icon="fa-brands fa-firefox" />
 
 However, Firefox does something interesting here and thinking it through, I’m not entirely sure it’s wrong.
 

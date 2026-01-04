@@ -155,13 +155,13 @@ Most of the time we can sort this out with the clearfix hack. This involves appl
 
 ## So, what are block formatting contexts?
 
-A [<VPIcon icon="fa-brands fa-firefox"/>block formatting context (BFC)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context) defines the scope in which margins will collapse and floats will be contained. We can think of it as a mini-layout within the overall layout.
+A [<VPIcon icon="fa-brands fa-firefox" />block formatting context (BFC)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context) defines the scope in which margins will collapse and floats will be contained. We can think of it as a mini-layout within the overall layout.
 
 When we create a BFC, we’re telling the browser to treat the elements it contains as an autonomous piece of layout for floats and margins concerns. In essence, it allows elements to contain internal floats, exclude external floats and prevent margin collapsing.
 
 ### Creating a block formatting context
 
-There are many [<VPIcon icon="fa-brands fa-firefox"/>ways to create block formatting contexts](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context). It involves applying some specific CSS properties or using the root element of the document. Here, we use one of the methods to solve the issues we’ve noted earlier — the floating image and collapsing margins.
+There are many [<VPIcon icon="fa-brands fa-firefox" />ways to create block formatting contexts](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context). It involves applying some specific CSS properties or using the root element of the document. Here, we use one of the methods to solve the issues we’ve noted earlier — the floating image and collapsing margins.
 
 Let’s start with the collapsing margin between parents and children. To prevent this, we can apply a `display: flow-root;` on the container element. This will create a new block formatting context and prevent the margin from spilling out.
 
@@ -340,7 +340,7 @@ For instance, if we set a width of 50 percent on two left-floated elements, they
 
 This usually required using weird calcs and preprocessor variables to compensate, and in the old times, actually having to calculate and adjust the widths every time we changed the borders or padding.
 
-Believe it or not, the solution to this issue was inspired by a weird bug in Internet Explorer 6. When IE6 was set to [<VPIcon icon="fa-brands fa-firefox"/>quirks mode](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode), the `width` property would set the total rendered width of the element, while paddings and borders would be taken out of the content area, keeping a stable and predictable total width. This is pretty much what we now know as `border-box`.
+Believe it or not, the solution to this issue was inspired by a weird bug in Internet Explorer 6. When IE6 was set to [<VPIcon icon="fa-brands fa-firefox" />quirks mode](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode), the `width` property would set the total rendered width of the element, while paddings and borders would be taken out of the content area, keeping a stable and predictable total width. This is pretty much what we now know as `border-box`.
 
 Nowadays, most developers choose to reset everything to `border-box`, so it’s extremely likely that you’ll find some version of this snippet in your codebase:
 
@@ -376,7 +376,7 @@ Positioning the elements (setting `position` to any value other than the default
 
 Many times we set the stack in perfect order, then something breaks it *inexplicably*. Turns out, you can create a stacking context, which is a local stack of several properties or elements amongst which `z-index` applies. We can move elements inside each local stack, as well as move the stacks around in the encompassing stacks, but we can’t interpolate elements from a stack with elements from another.
 
-[<VPIcon icon="fa-brands fa-firefox"/>Some of the properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) that create a stacking context are:
+[<VPIcon icon="fa-brands fa-firefox" />Some of the properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) that create a stacking context are:
 
 - Positioned elements with `z-index` other than `auto`
 - Elements with an `opacity` below `1`

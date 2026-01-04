@@ -184,7 +184,7 @@ Dialogs and popovers look the same by default and have really basic default styl
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/09/Screenshot-2024-09-30-at-10.28.22%E2%80%AFAM.png?resize=776%2C408&ssl=1)
 
-They are essentially `position: fixed;` and `margin: auto;` which centers them in the viewport. This is a probably a smart default for dialogs. In my opinion, popovers are usually begging for [<VPIcon icon="fa-brands fa-firefox"/>anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) to open the popover near where the element that opened it is, but they [**work nicely as slide-out drawers**](/frontendmasters.com/popovers-work-pretty-nicely-as-slide-out-drawers.md) as well, particularly on mobile.
+They are essentially `position: fixed;` and `margin: auto;` which centers them in the viewport. This is a probably a smart default for dialogs. In my opinion, popovers are usually begging for [<VPIcon icon="fa-brands fa-firefox" />anchor positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) to open the popover near where the element that opened it is, but they [**work nicely as slide-out drawers**](/frontendmasters.com/popovers-work-pretty-nicely-as-slide-out-drawers.md) as well, particularly on mobile.
 
 You’ll likely want to bring your own padding, border, background, typography, internal structure, etc.
 

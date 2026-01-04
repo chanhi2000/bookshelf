@@ -52,12 +52,47 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/06/loaders-bars.
 
 [**We’ve looked at spinners.**](/css-tricks.com/single-element-loaders-the-spinner.md) [**We’ve looked at dots.**](/css-tricks.com/single-element-loaders-the-dots.md) Now we’re going to tackle another common pattern for loaders: **bars**. And we’re going to do the same thing in this third article of the series as we have the others by making it with only one element and with flexible CSS that makes it easy to create variations.
 
-::: info Article series
+::: info Single-Element Loaders series:
 
-- [**Single Element Loaders: The Spinner**](/css-tricks.com/single-element-loaders-the-spinner.md)
-- [**Single Element Loaders: The Dots**](/css-tricks.com/single-element-loaders-the-dots.md)
-- Single Element Loaders: The Bars — *you are here*
-- [**Single Element Loaders: Going 3D**](/css-tricks.com/single-element-loaders-going-3d.md)
+```component VPCard
+{
+  "title": "Single Element Loaders: The Spinner",
+  "desc": "This four-part series covers how to create single element loaders with minimal code while using modern CSS techniques.",
+  "link": "/css-tricks.com/single-element-loaders-the-spinner.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Single Element Loaders: The Dots",
+  "desc": "In this second part of our four-part series, we will make a dot loader with only a single div element using CSS backgrounds and masks.",
+  "link": "/css-tricks.com/single-element-loaders-the-dots.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Single Element Loaders: The Bars",
+  "desc": "We’ve looked at spinners. We’ve looked at dots. Now we’re going to tackle another common pattern for loaders: bars. And we’re going to do the same thing in",
+  "link": "/css-tricks.com/single-element-loaders-the-bars.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Single Element Loaders: Going 3D!",
+  "desc": "For this fourth and final article of our little series on single-element loaders, we are going to explore 3D patterns. When creating",
+  "link": "/css-tricks.com/single-element-loaders-going-3d.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
 
 :::
 
@@ -66,14 +101,14 @@ Let’s start with not one, not two, but 20 examples of bar loaders.
 <CodePen
   user="anon"
   slug-hash="preview/mdWVOrR"
-  title="N/A"
+  title="The bars"
   :default-tab="['css','result']"
   :theme="dark"/>
 
 <CodePen
   user="anon"
   slug-hash="preview/zYZppdN"
-  title="N/A"
+  title="The bars II"
   :default-tab="['css','result']"
   :theme="dark"/>
 
@@ -81,9 +116,11 @@ Let’s start with not one, not two, but 20 examples of bar loaders.
 
 It might seem like that at first glance! But all of them rely on the same code structure and we only update a few values to create variations. That’s all the power of CSS. We don’t learn how to create one loader, but we learn different techniques that allow us to create as much loader as we want using merely the same code structure.
 
-### Let’s make some bars!
+---
 
-We start by defining the dimensions for them using `width` (or `height`) with [`aspect-ratio`](https://css-tricks.com/almanac/properties/a/aspect-ratio/) to maintain proportion:
+## Let’s make some bars!
+
+We start by defining the dimensions for them using `width` (or `height`) with [**`aspect-ratio`**](/css-tricks.com/almanac-properties/aspect-ratio.md) to maintain proportion:
 
 ```css
 .bars {
@@ -111,9 +148,11 @@ The above code will give us the following result:
 
 ![](https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/06/s_98F21CD3C1C7899779F98C6C3E6075E37A8E660CF4703968B4D3A7A973FF0FA6_1651523850750_image.png?resize=486%2C424&ssl=1)
 
-Like the other articles in this series, we are going to deal with a lot of `background` trickery. So, if you ever feel like we’re jumping around too fast or feel you need a little more detail, please do check those out. You can also read my [Stack Overflow answer where I give](https://stackoverflow.com/a/51734530/8620333) [a detailed explanation](https://stackoverflow.com/a/51734530/8620333) on how all this works.
+Like the other articles in this series, we are going to deal with a lot of `background` trickery. So, if you ever feel like we’re jumping around too fast or feel you need a little more detail, please do check those out. You can also read my [<VPIcon icon="fa-brands fa-stack-overflow"/>Stack Overflow answer where I give a detailed explanation](https://stackoverflow.com/a/51734530/8620333) on how all this works.
 
-### Animating the bars
+---
+
+## Animating the bars
 
 We either animate the element’s size or position to create the bar loader. Let’s animate the size by defining the following animation keyframes:
 
@@ -136,7 +175,7 @@ And here’s what we get:
 <CodePen
   user="anon"
   slug-hash="ZErYBPd"
-  title="N/A"
+  title="bar loader 1st"
   :default-tab="['css','result']"
   :theme="dark"/>
 
@@ -173,7 +212,7 @@ Let’s fix the size to `20% 50%` and update the positions this time:
 <CodePen
   user="anon"
   slug-hash="gOvbgpe"
-  title="N/A"
+  title="2nd bar loader"
   :default-tab="['css','result']"
   :theme="dark"/>
 
@@ -183,16 +222,18 @@ And once we get comfortable with such a technique we can go further and use a mo
 
 <CodePen
   user="anon"
-  slug-hash="preview/vYxvxrV"
-  title="N/A"
+  slug-hash="vYxvxrV"
+  title="The bars III"
   :default-tab="['css','result']"
   :theme="dark"/>
 
-Expect for the last two examples in that demo, all of the bar loaders use the same underlying markup and styles and different combinations of animations. Open the code and try to visualize each frame independently; you’ll see how relatively trivial it is to make dozens — [if not hundreds](https://css-loaders.com/) — of variations.
+Expect for the last two examples in that demo, all of the bar loaders use the same underlying markup and styles and different combinations of animations. Open the code and try to visualize each frame independently; you’ll see how relatively trivial it is to make dozens — [<VPIcon icon="fas fa-globe"/>if not hundreds](https://css-loaders.com/) — of variations.
 
-### Getting fancy
+---
 
-Did you remember the mask trick we did with the dot loaders in [the second article of this series](https://css-tricks.com/single-element-loaders-the-dots)? We can do the same here!
+## Getting fancy
+
+Did you remember the mask trick we did with the dot loaders in [**the second article of this series**](/css-tricks.com/single-element-loaders-the-dots.md)? We can do the same here!
 
 If we apply all the above logic inside the `mask` property we can use any background configuration to add a fancy coloration to our loaders.
 
@@ -201,7 +242,7 @@ Let’s take one demo and update it:
 <CodePen
   user="anon"
   slug-hash="BaYqggw"
-  title="N/A"
+  title="CSS only colorful bar loader"
   :default-tab="['css','result']"
   :theme="dark"/>
 
@@ -215,20 +256,22 @@ No difference! I wrote two different articles to cover as many examples as possi
 2. Animating `background-size` and/or `background-position` to create the loader animation
 3. Adding mask to add a touch of colors
 
-### Rounding the bars
+---
+
+## Rounding the bars
 
 Let’s try something different this time where we can round the edges of our bars.
 
 <CodePen
   user="anon"
-  slug-hash="preview/PoEeMYO"
-  title="N/A"
+  slug-hash="PoEeMYO"
+  title="3 bar CSS loader with gradient coloration"
   :default-tab="['css','result']"
   :theme="dark"/>
 
 Using one element and its `::before` and `::after` pseudos, we define three identical bars:
 
-```css
+```css :collapsed-lines
 .loader {
   --s: 100px; /* control the size */
 
@@ -290,7 +333,7 @@ And for the pseudo on the right, the background needs to be positioned to the ri
 
 Using the same CSS variable, `--_i`, that we used for the translate, we can write the code like this:
 
-```css
+```css{3,20} :collapsed-lines
 .loader {
   --s: 100px; /* control the size */
   --c: linear-gradient(/* etc. */); /* control the coloration */
@@ -315,44 +358,82 @@ Using the same CSS variable, `--_i`, that we used for the translate, we can writ
 }
 .loader::before { --_i: -1; }
 .loader::after  { --_i:  1; } 
- 
 ```
 
 Now, all we have to do is to animate the height and add some delays! Here are three examples where all that’s different are the colors and sizes:
 
 <CodePen
   user="anon"
-  slug-hash="preview/qBxEzeV/bdae7decca2724c24e7dc97c534d7847"
-  title="N/A"
+  slug-hash="qBxEzeV"
+  title="Different variation rounded bar loader"
   :default-tab="['css','result']"
   :theme="dark"/>
 
-### Wrapping up
+---
 
-I hope so far you are feeling super encouraged by all the powers you have [to make complex-looking loading animations](https://css-loaders.com/). All we need is one element, either gradients or pseudos to draw the bars, then some keyframes to move things around. That’s the entire recipe for getting an endless number of possibilities, so go out and starting cooking up some neat stuff!
+## Wrapping up
+
+I hope so far you are feeling super encouraged by all the powers you have [<VPIcon icon="fas fa-globe"/>to make complex-looking loading animations](https://css-loaders.com/). All we need is one element, either gradients or pseudos to draw the bars, then some keyframes to move things around. That’s the entire recipe for getting an endless number of possibilities, so go out and starting cooking up some neat stuff!
 
 Until the next article, I will leave you with a funny collection of loaders where I am combining **the dots** and **the bars**!
 
 <CodePen
   user="anon"
-  slug-hash="preview/gOmooGQ"
-  title="N/A"
+  slug-hash="gOmooGQ"
+  title="The Dots vs The Bars"
   :default-tab="['css','result']"
   :theme="dark"/>
 
 <CodePen
   user="anon"
-  slug-hash="preview/qBrLrMo"
-  title="N/A"
+  slug-hash="qBrLrMo"
+  title="The Dots vs The Bars II"
   :default-tab="['css','result']"
   :theme="dark"/>
 
-#### Article series
+::: info Single-Element Loaders series:
 
-- [Single Element Loaders: The Spinner](https://css-tricks.com/single-element-loaders-the-spinner/)
-- [Single Element Loaders: The Dots](https://css-tricks.com/single-element-loaders-the-dots/)
-- Single Element Loaders: The Bars — *you are here*
-- [Single Element Loaders: Going 3D](https://css-tricks.com/single-element-loaders-going-3d/)
+```component VPCard
+{
+  "title": "Single Element Loaders: The Spinner",
+  "desc": "This four-part series covers how to create single element loaders with minimal code while using modern CSS techniques.",
+  "link": "/css-tricks.com/single-element-loaders-the-spinner.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Single Element Loaders: The Dots",
+  "desc": "In this second part of our four-part series, we will make a dot loader with only a single div element using CSS backgrounds and masks.",
+  "link": "/css-tricks.com/single-element-loaders-the-dots.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Single Element Loaders: The Bars",
+  "desc": "We’ve looked at spinners. We’ve looked at dots. Now we’re going to tackle another common pattern for loaders: bars. And we’re going to do the same thing in",
+  "link": "/css-tricks.com/single-element-loaders-the-bars.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Single Element Loaders: Going 3D!",
+  "desc": "For this fourth and final article of our little series on single-element loaders, we are going to explore 3D patterns. When creating",
+  "link": "/css-tricks.com/single-element-loaders-going-3d.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -57,7 +57,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730895455049/8fefc48
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1730895455049/8fefc48c-761d-4ec5-8f60-b6eb2f97a42a.png"/>
 
-Another cool thing that I will show you is recording commands in the URL. You can create whole terminal session and save it in a [<VPIcon icon="fa-brands fa-firefox"/>URL hash](https://developer.mozilla.org/en-US/docs/Web/API/URL/hash). To start recoding a session you need to execute the following:
+Another cool thing that I will show you is recording commands in the URL. You can create whole terminal session and save it in a [<VPIcon icon="fa-brands fa-firefox" />URL hash](https://developer.mozilla.org/en-US/docs/Web/API/URL/hash). To start recoding a session you need to execute the following:
 
 ```js
 term.history_state(true);

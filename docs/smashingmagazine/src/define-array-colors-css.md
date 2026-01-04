@@ -76,11 +76,11 @@ We will first start with a basic use case with two colors defined in a variable:
 --colors: black, white;
 ```
 
-For this one, I will rely on the new `color-mix()` function. MDN has a nice way of explaining [<VPIcon icon="fa-brands fa-firefox"/>how the function works](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix):
+For this one, I will rely on the new `color-mix()` function. MDN has a nice way of explaining [<VPIcon icon="fa-brands fa-firefox" />how the function works](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix):
 
 ::: info
 
-The `color-mix()` functional notation takes two [<VPIcon icon="fa-brands fa-firefox"/>`<color>`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) values and returns the result of mixing them in a given colorspace by a given amount.
+The `color-mix()` functional notation takes two [<VPIcon icon="fa-brands fa-firefox" />`<color>`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) values and returns the result of mixing them in a given colorspace by a given amount.
 
 :::
 

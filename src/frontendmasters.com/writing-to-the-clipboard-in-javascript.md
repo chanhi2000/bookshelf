@@ -145,7 +145,7 @@ As a quick note, the UX of this demo could be improved, for example, notifying t
 
 Now let's kick it up a notch and look into how to support binary data with the `write` method.
 
-The basic interface for `write` is to pass an array of [<VPIcon icon="fa-brands fa-firefox"/>`ClipboardItem`](https://developer.mozilla.org/en-US/docs/Web/API/ClipboardItem) objects. The MDN docs for [<VPIcon icon="fa-brands fa-firefox"/>write](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/write) provide this example:
+The basic interface for `write` is to pass an array of [<VPIcon icon="fa-brands fa-firefox" />`ClipboardItem`](https://developer.mozilla.org/en-US/docs/Web/API/ClipboardItem) objects. The MDN docs for [<VPIcon icon="fa-brands fa-firefox" />write](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/write) provide this example:
 
 ```js
 const type = "text/plain";

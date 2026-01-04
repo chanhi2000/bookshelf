@@ -497,7 +497,7 @@ I hope this simple example helped you understand the relevance of module bundler
 
 Well, we're done for today. In this article we've seen what modules are, why are they cool, the different ways you can implement modules in JavaScript, and a practical example of bundling our code with Webpack.
 
-For a complete guide on JS modules, you can take a look [<VPIcon icon="fa-brands fa-firefox"/>at this article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
+For a complete guide on JS modules, you can take a look [<VPIcon icon="fa-brands fa-firefox" />at this article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
 
 As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`germancocca`)](https://linkedin.com/in/germancocca/) or [X (<VPIcon icon="fa-brands fa-x-twitter"/>`CoccaGerman`)](https://x.com/CoccaGerman).
 

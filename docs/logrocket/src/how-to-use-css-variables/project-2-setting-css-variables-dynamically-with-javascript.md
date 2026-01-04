@@ -275,7 +275,7 @@ The idea behind this approach is that, by default, the website uses a light them
 
 Since you can’t trigger these sitewide changes via CSS, JavaScript is critical here. In the next section, we’ll hook up the JavaScript code necessary to toggle between the light and dark themes.
 
-Alternatively, you could trigger a change automatically via CSS using [<VPIcon icon="fa-brands fa-firefox"/>the `prefers-color-scheme` media query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) to detect whether the user requested a light or dark theme. In other words, you can directly update the website to use the dark variants of the light theme.
+Alternatively, you could trigger a change automatically via CSS using [<VPIcon icon="fa-brands fa-firefox" />the `prefers-color-scheme` media query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) to detect whether the user requested a light or dark theme. In other words, you can directly update the website to use the dark variants of the light theme.
 
 Add the following snippet to all the CSS code you just wrote:
 

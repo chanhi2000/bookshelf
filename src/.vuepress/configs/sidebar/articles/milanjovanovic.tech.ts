@@ -10,6 +10,15 @@ const REST_APIS_IN_ASPNETCORE: SidebarInfoSubgroupTemplate = {
   ]
 }
 
+const Y2026: SidebarYeargroupTemplate = { 
+  text: '2026',
+  collapsible: true,
+  children: [
+    // END: 2026
+    "solving-message-ordering-from-first-principles", // 2026-01-10
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = { 
   text: '2025',
   collapsible: true,
@@ -494,6 +503,8 @@ export const template: SidebarInfoTemplate = {
       "the-5-most-common-rest-api-design-mistakes-and-how-to-avoid-them", // 2025-08-08
       "the-interview-question-that-changed-how-i-think-about-system-design", // 2025-10-25
       // END: 2025system-design
+      "solving-message-ordering-from-first-principles", // 2026-01-10
+      // END: 2026system-design
       // END: system-design
     ]],[
     "career", [
@@ -511,6 +522,7 @@ export const template: SidebarInfoTemplate = {
       // END: llama
     ]],[
     "all", [
+      Y2026,
       Y2025,
       Y2024,
       Y2023,

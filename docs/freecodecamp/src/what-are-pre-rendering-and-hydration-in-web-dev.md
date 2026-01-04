@@ -177,7 +177,7 @@ Traditional Server-Side Rendering had significant downsides, but the introductio
 
 A Single-page application (SPA) is a web app implementation that loads only a single web document and then updates the body content of that single document via JavaScript APIs such as Fetch when different content is to be shown. Allows users to use websites without loading whole new pages from the server.
 
-> Source: ([<VPIcon icon="fa-brands fa-firefox"/>Source: MDN](https://developer.mozilla.org/en-US/docs/Glossary/SPA))
+> Source: ([<VPIcon icon="fa-brands fa-firefox" />Source: MDN](https://developer.mozilla.org/en-US/docs/Glossary/SPA))
 
 :::
 

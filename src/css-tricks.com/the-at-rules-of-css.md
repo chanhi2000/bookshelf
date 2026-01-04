@@ -64,7 +64,7 @@ Regular rules follow a regular syntax:
 
 ### `@charset`
 
-This rule defines the character set used by the browser. It comes in handy if the stylesheet contains non-[<VPIcon icon="fas fa-globe"/>ASCII characters](https://ascii.cl/htmlcodes.htm) (e.g. [<VPIcon icon="fa-brands fa-wikipedia-w"/>UTF-8](http://en.wikipedia.org/wiki/UTF-8)). Note that a character set that is [<VPIcon icon="fa-brands fa-firefox"/>placed on the HTTP header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Attributes) will override any `@charset` rule.
+This rule defines the character set used by the browser. It comes in handy if the stylesheet contains non-[<VPIcon icon="fas fa-globe"/>ASCII characters](https://ascii.cl/htmlcodes.htm) (e.g. [<VPIcon icon="fa-brands fa-wikipedia-w"/>UTF-8](http://en.wikipedia.org/wiki/UTF-8)). Note that a character set that is [<VPIcon icon="fa-brands fa-firefox" />placed on the HTTP header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Attributes) will override any `@charset` rule.
 
 ```css
 @charset "UTF-8";

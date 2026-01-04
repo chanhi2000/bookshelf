@@ -121,7 +121,7 @@ Since here the `filter` input is a plain rectangular, fully opaque image, the al
 </svg>
 ```
 
-These `fe`-prefixed elements inside our `filter` (“fe” stands for “filter effect”) are called [<VPIcon icon="fa-brands fa-firefox"/>filter primitives](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element#filter_primitive_elements). They may have zero, one, or two inputs. Primitives with zero inputs create a layer based on their other attributes (for example, `feTurbulence` can give us a noise layer based on a `baseFrequency` attribute). Primitives with one input (like `feOffset` here) modify that input. And finally, primitives with two inputs combine them into one result (for example, `feBlend` blends its two inputs using the blend mode given by its `mode` attribute).
+These `fe`-prefixed elements inside our `filter` (“fe” stands for “filter effect”) are called [<VPIcon icon="fa-brands fa-firefox" />filter primitives](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element#filter_primitive_elements). They may have zero, one, or two inputs. Primitives with zero inputs create a layer based on their other attributes (for example, `feTurbulence` can give us a noise layer based on a `baseFrequency` attribute). Primitives with one input (like `feOffset` here) modify that input. And finally, primitives with two inputs combine them into one result (for example, `feBlend` blends its two inputs using the blend mode given by its `mode` attribute).
 
 All of those needed for the base `filter` creating a simple inset black shadow have either one or two, though when we get to painting the shadow and other effects, we may need to use some with no inputs.
 
@@ -174,7 +174,7 @@ Also note that in some scenarios (for example if we increase the blur radius to 
 
 By default, the `filter` region extends `10%` of the `filter` input’s [<VPIcon icon="fas fa-globe"/>bounding box](https://svgwg.org/svg2-draft/coords.html#TermObjectBoundingBox) size in every direction. In the case of a rectangular image, the bounding box is the image rectangle, the one whose boundary is marked by a dashed line in the interactive demos above.
 
-We can change this region by changing the `x`, `y`, `width` and `height` attributes of the `filter` element. By default, these are given relative to the width and height of the `filter` input’s bounding box, using either a percentage or decimal representation. We could change the value of the [<VPIcon icon="fa-brands fa-firefox"/>`filterUnits`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/filterUnits) attribute to make them fixed pixel values, but I don’t think that’s something I’ve ever wanted to do and the default of them being relative to the `filter` input’s bounding box is what we want here, too.
+We can change this region by changing the `x`, `y`, `width` and `height` attributes of the `filter` element. By default, these are given relative to the width and height of the `filter` input’s bounding box, using either a percentage or decimal representation. We could change the value of the [<VPIcon icon="fa-brands fa-firefox" />`filterUnits`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/filterUnits) attribute to make them fixed pixel values, but I don’t think that’s something I’ve ever wanted to do and the default of them being relative to the `filter` input’s bounding box is what we want here, too.
 
 For example, `x='-.25'`and `x='-25%'` are both valid and produce the same result. In this case, the `filter` region starts from `25%` of the input bounding box width to the left (negative direction) of the left edge of this bounding box. The interactive demo below allows toying with the `filter` region too.
 
@@ -220,7 +220,7 @@ Where `α` is the alpha of the pixel from the first input `in`, and `α₂` is t
   :default-tab="['css','result']"
   :theme="dark"/>
 
-Note that this latest interactive demo disables the option to switch between `SourceAlpha` and `SourceGraphic` inputs for the `feOffset` primitive. This is due to [<VPIcon icon="fa-brands fa-firefox"/>a Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1957693) which we might hit in certain situations and which makes the result of the `feComposite` simply disappear if `feOffset` uses the default `SourceGraphic` input.
+Note that this latest interactive demo disables the option to switch between `SourceAlpha` and `SourceGraphic` inputs for the `feOffset` primitive. This is due to [<VPIcon icon="fa-brands fa-firefox" />a Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1957693) which we might hit in certain situations and which makes the result of the `feComposite` simply disappear if `feOffset` uses the default `SourceGraphic` input.
 
 Switching the `operator` also isn’t enabled here, as it would mean just too much to unpack and most is outside the scope of this article anyway. Just know that some of the `operator` values work exactly the same as their CSS `mask-composite` equivalents.
 

@@ -54,7 +54,7 @@ I’ve personally put “advanced `attr()` usage” on my CSS wishlists for year
 
 - Una Kravets: [<VPIcon icon="fas fa-globe"/>New capabilities for `attr()`](https://una.im/advanced-attr/#attr-irl-product-card-demo)
 - Bramus Van Damme: [<VPIcon icon="fa-brands fa-chrome"/>CSS`attr()` gets an upgrade](https://developer.chrome.com/blog/advanced-attr)
-- [<VPIcon icon="fa-brands fa-firefox"/>MDN `attr()` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/attr) are updated.
+- [<VPIcon icon="fa-brands fa-firefox" />MDN `attr()` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/attr) are updated.
 - Amit Merchant: [<VPIcon icon="fas fa-globe"/>The `attr()` function in CSS now supports types](https://amitmerchant.com/attr-function-types-css/)
 
 I thought I would chime in with my own examples so help smash it into my brain and to create an easy reference for soon to be *classic* use cases.
@@ -193,7 +193,7 @@ With that it seems like you could do stuff like `data-size-of-close-button` on a
 
 ## Why always use `data-*`?
 
-You don’t have to. I just like the idea of not polluting attribute names. If the web platform one day really really wanted to support a `gap` attribute for whatever reason, but found through analyzing websites that too many websites rawdogged it already because of this feature, that would be a bummer to me. The `data-*` namespace was created just for this reason, so we might as well use it. Plus you get [<VPIcon icon="fa-brands fa-firefox"/>the JavaScript `dataset` property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset) to use for free if you do.
+You don’t have to. I just like the idea of not polluting attribute names. If the web platform one day really really wanted to support a `gap` attribute for whatever reason, but found through analyzing websites that too many websites rawdogged it already because of this feature, that would be a bummer to me. The `data-*` namespace was created just for this reason, so we might as well use it. Plus you get [<VPIcon icon="fa-brands fa-firefox" />the JavaScript `dataset` property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset) to use for free if you do.
 
 ok bye and please shower me with more ideas for this.
 

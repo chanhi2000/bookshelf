@@ -77,13 +77,13 @@ Don’t try to find the hidden JavaScript, it’s 100% CSS magic, powered mostly
 
 ## Why Scroll-Driven Animations?
 
-[<VPIcon icon="fa-brands fa-firefox"/>Scroll-Driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) is one of the most popular new CSS features in 2024. It unlocked a lot of possibilities and solved some common problems.
+[<VPIcon icon="fa-brands fa-firefox" />Scroll-Driven animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) is one of the most popular new CSS features in 2024. It unlocked a lot of possibilities and solved some common problems.
 
 How are these features relevant to this situation of figuring out an element’s dimensions, though?
 
 The terms “scroll” and “animation” tend to bring to mind, *uhh*, animating stuff on scroll. To be fair, that is the main purpose:
 
-::: info MDN (<VPIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>)
+::: info MDN (<VPIcon icon="fa-brands fa-firefox" /><code>developer.mozilla.org</code>)
 
 > It allows you to animate property values based on a progression along a scroll-based timeline instead of the default time-based document timeline. This means that you can animate an element by scrolling a scrollable element, rather than just by the passing of time.
 
@@ -98,7 +98,7 @@ The terms “scroll” and “animation” tend to bring to mind, *uhh*, animati
 
 But we can think about it differently and achieve more than a simple animation on scroll. If you keep reading the MDN page, it explains there are two types of “scroll-based timelines”. In our case, we will consider the “*view progress timeline*”.
 
-::: info MDN (<VPIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>)
+::: info MDN (<VPIcon icon="fa-brands fa-firefox" /><code>developer.mozilla.org</code>)
 
 > You progress this timeline based on the change in visibility of an element (known as the subject) inside a scroller. The visibility of the subject inside the scroller is tracked as a percentage of progress.
 
@@ -202,7 +202,7 @@ Next, we define a named timeline linked to the pseudo-element (the subject)
 }
 ```
 
-The [<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/view-timeline) description of the property:
+The [<VPIcon icon="fa-brands fa-firefox" />MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/view-timeline) description of the property:
 
 > The `view-timeline` CSS shorthand property is used to define a named view progress timeline, which is progressed through based on the change in visibility of an element (known as the subject) inside a scrollable element (scroller). `view-timeline` is set on the subject.
 
@@ -233,7 +233,7 @@ Now let’s define the animation:
 }
 ```
 
-We define a `keyframes` that animates a variable from `0` to `1`. We have [<VPIcon icon="fa-brands fa-firefox"/>to register that variable](https://developer.mozilla.org/en-US/docs/Web/CSS/@property) with a `number` type to be able to animate it. We run the animation on the container with a linear easing and define the timeline using `animation-timeline`.
+We define a `keyframes` that animates a variable from `0` to `1`. We have [<VPIcon icon="fa-brands fa-firefox" />to register that variable](https://developer.mozilla.org/en-US/docs/Web/CSS/@property) with a `number` type to be able to animate it. We run the animation on the container with a linear easing and define the timeline using `animation-timeline`.
 
 At this step, we told the browser to consider the named timeline defined on the pseudo-element (the subject) as the reference for the animation progress. And that progress will be stored in the `--x` variable. At `50%`, we have `--x: 0.5`, at `70%`, we have `--x: 0.7`, and so on.
 

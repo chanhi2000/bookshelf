@@ -236,7 +236,7 @@ Layout might be the most important single thing you can learn in CSS, and thanks
 
 Putting elements side by side is no small part of the job.
 
-Setting up [<VPIcon icon="fa-brands fa-firefox"/>custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) (variables) is also a good practice, and colors is the perfect use. Giving yourself a set of colors to pick from will help keep your design consistent and easier to work with:
+Setting up [<VPIcon icon="fa-brands fa-firefox" />custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) (variables) is also a good practice, and colors is the perfect use. Giving yourself a set of colors to pick from will help keep your design consistent and easier to work with:
 
 ```css
 html {

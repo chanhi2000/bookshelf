@@ -70,7 +70,7 @@ In the context of databases, the term **variable** is occasionally used to denot
 [<VPIcon icon="fa-brands fa-wikipedia-w"/>Data types](https://en.wikipedia.org/wiki/Data_type) are the internal formats and operations supported by an attribute's data. They can include:
 
 - integers (**ints**), which are typically encoded in computer science as 32-bit sequences
-- text strings encoded in [<VPIcon icon="fa-brands fa-firefox"/>UTF-8](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8) format
+- text strings encoded in [<VPIcon icon="fa-brands fa-firefox" />UTF-8](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8) format
 - decimal numbers (floats or doubles, among others), represented using the [<VPIcon icon="fa-brands fa-microsoft"/>IEEE-754](https://learn.microsoft.com/en-us/cpp/build/ieee-floating-point-representation?view=msvc-170) floating-point standard, and
 - boolean values that can be true or false and are encoded with bits as 0 or 1.
 

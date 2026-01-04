@@ -201,7 +201,7 @@ The html-webpack-plugin is also enabled to generate the HTML file. In Create Rea
 
 This final page is the one you get in <VPIcon icon="fas fa-folder-open"/>`build/`<VPIcon icon="fa-brands fa-html5"/>`index.html` after running `npm run build`, and the one that gets served from `/` when you run `npm start`. Now that we understand <VPIcon icon="fa-brands fa-html5"/>`index.html`, let’s move on to <VPIcon icon="iconfont icon-json"/>`manifest.json`.
 
-This is a [<VPIcon icon="fa-brands fa-firefox"/>web app manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) that describes your application, and it’s used by mobile phones if a shortcut is added to the home screen. Let’s look at the contents to understand it further:
+This is a [<VPIcon icon="fa-brands fa-firefox" />web app manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) that describes your application, and it’s used by mobile phones if a shortcut is added to the home screen. Let’s look at the contents to understand it further:
 
 ```json title="manifest.json"
 {

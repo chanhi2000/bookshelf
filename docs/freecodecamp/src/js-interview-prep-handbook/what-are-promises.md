@@ -51,7 +51,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/JavaScrip
 
 Promises are a very important concept in JavaScript, almost certain to be asked in interviews. Promises are used for asynchronous operations in JavaScript like timeouts or API calls.
 
-Promises use a [<VPIcon icon="fa-brands fa-firefox"/>Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) object that exists in one of three states: pending, fulfilled (resolved), and rejected. When an asynchronous operation ends, a promise can either be resolved (successful) or rejected (failure).
+Promises use a [<VPIcon icon="fa-brands fa-firefox" />Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) object that exists in one of three states: pending, fulfilled (resolved), and rejected. When an asynchronous operation ends, a promise can either be resolved (successful) or rejected (failure).
 
 Let's take a simple example:
 
@@ -89,6 +89,6 @@ asyncOperation()
 
 The above code prints "Successful" and "Error" at random.
 
-Apart from the basics, the Promise object also contains useful methods that work with multiple promises: [<VPIcon icon="fa-brands fa-firefox"/>`Promise.all()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all), [<VPIcon icon="fa-brands fa-firefox"/>`Promise.any()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any), [<VPIcon icon="fa-brands fa-firefox"/>`Promise.race()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race).
+Apart from the basics, the Promise object also contains useful methods that work with multiple promises: [<VPIcon icon="fa-brands fa-firefox" />`Promise.all()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all), [<VPIcon icon="fa-brands fa-firefox" />`Promise.any()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any), [<VPIcon icon="fa-brands fa-firefox" />`Promise.race()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race).
 
 [Read the following tutorial](/freecodecamp.org/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js.md) to learn about promises in detail

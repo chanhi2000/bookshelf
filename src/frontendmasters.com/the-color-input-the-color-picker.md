@@ -51,7 +51,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/503"/>
 
-HTML has [<VPIcon icon="fa-brands fa-firefox"/>a color input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color) that is pretty decent:
+HTML has [<VPIcon icon="fa-brands fa-firefox" />a color input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color) that is pretty decent:
 
 ```html
 <input type="color">

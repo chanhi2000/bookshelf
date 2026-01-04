@@ -157,7 +157,7 @@ When visiting using a browser with support, the demo below will show you two dif
 To stay up-to-date regarding browser support, you can follow these tracking issues:
 
 - Blink/Chromium: [<VPIcon icon="fa-brands fa-chrome"/>Issue #1302630](https://bugs.chromium.org/p/chromium/issues/detail?id=1302630) — Fixed
-- Gecko/Firefox: [<VPIcon icon="fa-brands fa-firefox"/>Issue #1795622](https://bugzilla.mozilla.org/show_bug.cgi?id=1795622) — UNCONFIRMED
+- Gecko/Firefox: [<VPIcon icon="fa-brands fa-firefox" />Issue #1795622](https://bugzilla.mozilla.org/show_bug.cgi?id=1795622) — UNCONFIRMED
 - WebKit/Safari: [<VPIcon icon="fa-brands fa-safari"/>Issue #246605](https://bugs.webkit.org/show_bug.cgi?id=246605) — RESOLVED FIXED
 
 ::: info More Resources

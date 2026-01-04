@@ -89,7 +89,7 @@ There are several use cases for programmatically highlighting text. Before we ta
 
 ## How to Highlight Text Using the `<mark>` Element
 
-One way you can highlight text is by using the [<VPIcon icon="fa-brands fa-firefox"/>HTML `<mark>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark). This has the benefit of being an HTML semantic element.
+One way you can highlight text is by using the [<VPIcon icon="fa-brands fa-firefox" />HTML `<mark>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark). This has the benefit of being an HTML semantic element.
 
 To highlight text using `<mark>`, you can wrap the text to highlight in a `<mark>` element. The browser will apply a highlight style to any text inside a `<mark>` element.
 
@@ -148,14 +148,14 @@ This works, but it's cumbersome and does not result in a single continuous highl
 
 ## Introducing the CSS Custom Highlight API
 
-The solution to our problem is the [<VPIcon icon="fa-brands fa-firefox"/>CSS Custom Highlight API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Custom_Highlight_API), a newer API that lets you create highlight regions and style them with CSS. Highlights are tied to *ranges*, which can span multiple HTML elements and do not add any markup or elements to the document.
+The solution to our problem is the [<VPIcon icon="fa-brands fa-firefox" />CSS Custom Highlight API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Custom_Highlight_API), a newer API that lets you create highlight regions and style them with CSS. Highlights are tied to *ranges*, which can span multiple HTML elements and do not add any markup or elements to the document.
 
 There are several concepts you’ll need to know when using this API:
 
-- [<VPIcon icon="fa-brands fa-firefox"/>`Range`](https://developer.mozilla.org/en-US/docs/Web/API/Range): A `Range` is an object representing part of a document between two nodes. These can be element nodes or text nodes.
-- [<VPIcon icon="fa-brands fa-firefox"/>`Highlight`](https://developer.mozilla.org/en-US/docs/Web/API/Highlight): A `Highlight` is an object that defines a custom highlight around one or more `Range` objects. These objects are registered with the CSS engine under a unique name.
-- [<VPIcon icon="fa-brands fa-firefox"/>CSS highlight registry](https://developer.mozilla.org/en-US/docs/Web/API/HighlightRegistry): A global object where `Highlight` objects are registered under unique names.
-- [<VPIcon icon="fa-brands fa-firefox"/>The `::highlight` pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::highlight): This is used in a CSS stylesheet to define the highlighting style. Each `::highlight` pseudo-element references a `Highlight` object name that was registered with the CSS highlight registry.
+- [<VPIcon icon="fa-brands fa-firefox" />`Range`](https://developer.mozilla.org/en-US/docs/Web/API/Range): A `Range` is an object representing part of a document between two nodes. These can be element nodes or text nodes.
+- [<VPIcon icon="fa-brands fa-firefox" />`Highlight`](https://developer.mozilla.org/en-US/docs/Web/API/Highlight): A `Highlight` is an object that defines a custom highlight around one or more `Range` objects. These objects are registered with the CSS engine under a unique name.
+- [<VPIcon icon="fa-brands fa-firefox" />CSS highlight registry](https://developer.mozilla.org/en-US/docs/Web/API/HighlightRegistry): A global object where `Highlight` objects are registered under unique names.
+- [<VPIcon icon="fa-brands fa-firefox" />The `::highlight` pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::highlight): This is used in a CSS stylesheet to define the highlighting style. Each `::highlight` pseudo-element references a `Highlight` object name that was registered with the CSS highlight registry.
 
 ---
 
@@ -190,13 +190,13 @@ This `Range` object will start at the beginning of the `<p>` element, and will e
 
 ### Create and Register the `Highlight` Object
 
-Now that we have a `Range`, we can create a `Highlight` for that `Range`. We do this by calling the [<VPIcon icon="fa-brands fa-firefox"/>`Highlight` constructor](https://developer.mozilla.org/en-US/docs/Web/API/Highlight/Highlight), passing the `Range` object as its argument.
+Now that we have a `Range`, we can create a `Highlight` for that `Range`. We do this by calling the [<VPIcon icon="fa-brands fa-firefox" />`Highlight` constructor](https://developer.mozilla.org/en-US/docs/Web/API/Highlight/Highlight), passing the `Range` object as its argument.
 
 ```js
 const highlight = new Highlight(range);
 ```
 
-This creates the `Highlight` object, but we can't do anything with it yet. First, we'll need to register it with the CSS highlight registry with the [<VPIcon icon="fa-brands fa-firefox"/>`CSS.highlights.set` method](https://developer.mozilla.org/en-US/docs/Web/API/HighlightRegistry/set).
+This creates the `Highlight` object, but we can't do anything with it yet. First, we'll need to register it with the CSS highlight registry with the [<VPIcon icon="fa-brands fa-firefox" />`CSS.highlights.set` method](https://developer.mozilla.org/en-US/docs/Web/API/HighlightRegistry/set).
 
 The following code shows how you can use `CSS.highlights.set` to register a `Highlight` object under the name `my-custom-highlight`. We'll reference this name in the CSS when we apply styling in the next step.
 
@@ -262,7 +262,7 @@ range2.setStartBefore(item4);
 range2.setEndAfter(item4);
 ```
 
-Now, we can add this new `Range` to our existing `Highlight` object by calling its [<VPIcon icon="fa-brands fa-firefox"/>`add` method](https://developer.mozilla.org/en-US/docs/Web/API/Highlight/add). This will let us apply highlighting to the second `Range`.
+Now, we can add this new `Range` to our existing `Highlight` object by calling its [<VPIcon icon="fa-brands fa-firefox" />`add` method](https://developer.mozilla.org/en-US/docs/Web/API/Highlight/add). This will let us apply highlighting to the second `Range`.
 
 ```js
 highlight.add(range2);
@@ -278,7 +278,7 @@ Once we do this, the fourth list item will be highlighted as well, as shown in t
 
 There are two ways that you can remove highlights from the document.
 
-First, let's suppose we want to remove the highlight from the introductory text and first two list items, but keep the last list item highlighted. We can use the `Highlight` object's [<VPIcon icon="fa-brands fa-firefox"/>`delete` method](https://developer.mozilla.org/en-US/docs/Web/API/Highlight/delete) to remove the first `Range` from the `Highlight` object.
+First, let's suppose we want to remove the highlight from the introductory text and first two list items, but keep the last list item highlighted. We can use the `Highlight` object's [<VPIcon icon="fa-brands fa-firefox" />`delete` method](https://developer.mozilla.org/en-US/docs/Web/API/Highlight/delete) to remove the first `Range` from the `Highlight` object.
 
 ```js
 highlight.delete(range);
@@ -288,7 +288,7 @@ After we delete this `Range`, only the last list item will remain highlighted, a
 
 ![Only the last list item is now highlighted](https://cdn.hashnode.com/res/hashnode/image/upload/v1736730070050/626121b3-60a3-4491-b9d8-11940d4d34f2.png)
 
-The other way to remove highlights is to un-register a `Highlight` object from the CSS highlight registry by calling [<VPIcon icon="fa-brands fa-firefox"/>`CSS.highlights.delete`](https://developer.mozilla.org/en-US/docs/Web/API/HighlightRegistry/delete) with the unique name we gave the `Highlight`. This removes the `Highlight` object that we registered previously.
+The other way to remove highlights is to un-register a `Highlight` object from the CSS highlight registry by calling [<VPIcon icon="fa-brands fa-firefox" />`CSS.highlights.delete`](https://developer.mozilla.org/en-US/docs/Web/API/HighlightRegistry/delete) with the unique name we gave the `Highlight`. This removes the `Highlight` object that we registered previously.
 
 ```js
 CSS.highlights.delete('my-custom-highlight');
@@ -314,7 +314,7 @@ As of January 2025, at the time of writing, the CSS Custom Highlight API is supp
 }
 ```
 
-To test if the browser supports CSS custom highlighting, you can check for the existence of the `highlights` property of the [<VPIcon icon="fa-brands fa-firefox"/>`CSS` object](https://developer.mozilla.org/en-US/docs/Web/API/CSS):
+To test if the browser supports CSS custom highlighting, you can check for the existence of the `highlights` property of the [<VPIcon icon="fa-brands fa-firefox" />`CSS` object](https://developer.mozilla.org/en-US/docs/Web/API/CSS):
 
 ```js
 if (!('highlights' in CSS)) {

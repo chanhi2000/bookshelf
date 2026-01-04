@@ -85,7 +85,7 @@ This is pretty awkward and largely why you don’t see columns set up using % va
 }
 ```
 
-Another unusual situation can be with `auto`. That keyword has some rather special behavior, and it may be worth reading [<VPIcon icon="fa-brands fa-firefox"/>the whole bit that MDN has to say](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns#auto). What’s helpful to me though is to think about the “intrinsic size” of the content inside that `auto` column. That can be easy to know. If a column contains only an image that is 200px wide, the intrinsic size is 200px, and the auto column will be 200px. It’s tricky though when the content is text and there are multiple `auto` columns with *different* text.
+Another unusual situation can be with `auto`. That keyword has some rather special behavior, and it may be worth reading [<VPIcon icon="fa-brands fa-firefox" />the whole bit that MDN has to say](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns#auto). What’s helpful to me though is to think about the “intrinsic size” of the content inside that `auto` column. That can be easy to know. If a column contains only an image that is 200px wide, the intrinsic size is 200px, and the auto column will be 200px. It’s tricky though when the content is text and there are multiple `auto` columns with *different* text.
 
 ![A comparison of three grid layouts, showcasing the use of different CSS properties for column widths: 50% 50%, auto auto, and 1fr 1fr, with sample text dimensions. The extra text in the first column has forced the auto column to be a bit wider than the 2nd column.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Screenshot-2025-06-11-at-4.35.04%E2%80%AFAM.png?resize=701%2C1024&ssl=1)
 

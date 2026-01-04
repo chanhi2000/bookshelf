@@ -127,7 +127,7 @@ Note that in this form you’ll have to pass in a valid — thus, complete — a
 This is hot off the press. Currently, no browser supports this. I’ve filed issues at all browser engines to add support for this:
 
 - WebKit/Safari: [<VPIcon icon="fa-brands fa-safari"/>Issue #235400](https://bugs.webkit.org/show_bug.cgi?id=235400)
-- Gecko/Firefox: [<VPIcon icon="fa-brands fa-firefox"/>Issue #1751188](https://bugzilla.mozilla.org/show_bug.cgi?id=1751188)
+- Gecko/Firefox: [<VPIcon icon="fa-brands fa-firefox" />Issue #1751188](https://bugzilla.mozilla.org/show_bug.cgi?id=1751188)
 - Blink/Chromium: [<VPIcon icon="fa-brands fa-chrome"/>Issue #1289224](https://bugs.chromium.org/p/chromium/issues/detail?id=1289224)
 
 ::: note UPDATE 2024.10.04

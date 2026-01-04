@@ -94,7 +94,7 @@ It is important to note that Vite is still very much experimental and is undergo
 
 ## How does it work?
 
-One of the reasons module bundlers are popular today is the poor support for [<VPIcon icon="fa-brands fa-firefox"/>ES6 modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) by the browser when ES modules were first introduced in [<VPIcon icon="fa-brands fa-google"/>ES2016](https://developers.google.com/web/shows/ttt/series-2/es2015). Many modern browsers now support native ES modules and you can use the [<VPIcon icon="fa-brands fa-firefox"/>`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [<VPIcon icon="fa-brands fa-firefox"/>`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements natively, we can include our imports in our HTML using the `type="module"` attribute in our script tag to specify we’re importing a module:
+One of the reasons module bundlers are popular today is the poor support for [<VPIcon icon="fa-brands fa-firefox" />ES6 modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) by the browser when ES modules were first introduced in [<VPIcon icon="fa-brands fa-google"/>ES2016](https://developers.google.com/web/shows/ttt/series-2/es2015). Many modern browsers now support native ES modules and you can use the [<VPIcon icon="fa-brands fa-firefox" />`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [<VPIcon icon="fa-brands fa-firefox" />`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements natively, we can include our imports in our HTML using the `type="module"` attribute in our script tag to specify we’re importing a module:
 
 ```html
 <script type="module" src="filename.js"></script>
@@ -122,7 +122,7 @@ HMR speed is a huge pain point for developers who use Webpack.
 
 ### On-demand compilation
 
-Vite compiles source files as they are requested by the browser so the only code that is imported and required on the current screen is compiled, and unchanged files return a [<VPIcon icon="fa-brands fa-firefox"/>304 (Not Modified)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304#:~:text=The%20HTTP%20304%20Not%20Modified,redirection%20to%20a%20cached%20resource.&text=The%20equivalent%20200%20OK%20response,ETag%20%2C%20Expires%20%2C%20and%20Vary%20.) error code. This is different from what current bundlers do because they compile all the files in your project and bundle them before you can begin making changes to them. This makes Vite suitable for larger projects.
+Vite compiles source files as they are requested by the browser so the only code that is imported and required on the current screen is compiled, and unchanged files return a [<VPIcon icon="fa-brands fa-firefox" />304 (Not Modified)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304#:~:text=The%20HTTP%20304%20Not%20Modified,redirection%20to%20a%20cached%20resource.&text=The%20equivalent%20200%20OK%20response,ETag%20%2C%20Expires%20%2C%20and%20Vary%20.) error code. This is different from what current bundlers do because they compile all the files in your project and bundle them before you can begin making changes to them. This makes Vite suitable for larger projects.
 
 ### Configuration option
 

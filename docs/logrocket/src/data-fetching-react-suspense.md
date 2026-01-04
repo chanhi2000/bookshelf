@@ -344,7 +344,7 @@ export default wrapPromise
 
 Next, we create a new function called `read`, and inside this function, we have a `switch` statement that checks the value of the `status` variable. If the `status` of the promise is `pending`, we throw the `suspender` variable we just defined. If it is `error`, we throw the `response` variable. And, finally, if it is anything other than the two (i.e., `success`), we return the `response` variable.
 
-The reason we throw either the `suspender` variable or the error `response` variable is because we want to communicate back to Suspense that the Promise is not yet resolved. We’re doing that by simulating an error in the component (using [<VPIcon icon="fa-brands fa-firefox"/>`throw`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)), which will be intercepted by the Suspense component. The Suspense component then looks at the thrown value to determine if it’s an actual error or a Promise.
+The reason we throw either the `suspender` variable or the error `response` variable is because we want to communicate back to Suspense that the Promise is not yet resolved. We’re doing that by simulating an error in the component (using [<VPIcon icon="fa-brands fa-firefox" />`throw`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)), which will be intercepted by the Suspense component. The Suspense component then looks at the thrown value to determine if it’s an actual error or a Promise.
 
 If it is a Promise, the Suspense component will recognize that the component is still waiting for some data, and it will render the fallback. If it’s an error, it bubbles the error back up to the nearest [<VPIcon icon="fa-brands fa-react"/>error boundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) until it is either caught or it crashes the application.
 
@@ -372,7 +372,7 @@ export default fetchData
 
 The first thing we do here is import the `wrapPromise` function we created, and then define the `fetchData` function.
 
-Inside this function, we initialize a new variable, `promise`, and set its value to a [<VPIcon icon="fa-brands fa-firefox"/>fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) request Promise. When this request is completed, we get the data from the [<VPIcon icon="fa-brands fa-firefox"/>`Response` object](https://developer.mozilla.org/en-US/docs/Web/API/Response) using `res.json()` and then return `res.data`, which contains the data that we need.
+Inside this function, we initialize a new variable, `promise`, and set its value to a [<VPIcon icon="fa-brands fa-firefox" />fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) request Promise. When this request is completed, we get the data from the [<VPIcon icon="fa-brands fa-firefox" />`Response` object](https://developer.mozilla.org/en-US/docs/Web/API/Response) using `res.json()` and then return `res.data`, which contains the data that we need.
 
 Finally, we pass this `promise` to the `wrapPromise` function and return it. At the end of this file, we export the `fetchData` function. Now on to the components!
 

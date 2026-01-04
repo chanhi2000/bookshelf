@@ -284,7 +284,7 @@ When it comes to bespoke table styles, there are a few design considerations we 
 
 In languages written from left to right (such as English), text is generally easier to read when aligned to the left, while the reverse is true for right-to-left languages. Numeric data, on the other hand might make more sense right-aligned in some cases, as it can be easier to compare values against each other or a sum total.
 
-To account for languages that may have a different written direction to the default, we could use [<VPIcon icon="fa-brands fa-firefox"/>logical](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values) values for the `text-align` property. `text-align: start` will ensure that if a different direction is set on the table (or on the document) the text alignment makes sense.
+To account for languages that may have a different written direction to the default, we could use [<VPIcon icon="fa-brands fa-firefox" />logical](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values) values for the `text-align` property. `text-align: start` will ensure that if a different direction is set on the table (or on the document) the text alignment makes sense.
 
 Applying `text-align: start` to the `<table>` element doesn’t work across all browsers, but we can set it on our table headers and caption. As the rest of our table cells contain numerical values, we’ll align those (and their corresponding column headers) to the end:
 
@@ -606,7 +606,7 @@ Go ahead and toggle the HTML or CSS panel to see how our table responds, respons
 
 We’ve mainly focused on CSS for styling a (relatively) simple table. Tables perhaps aren’t the most exciting things to build on the web, but they’re important for certain types of data, and full of little quirks that can trip you up — as well as interesting things to learn!
 
-To learn more about structuring HTML for complex tables, including column and row groups, and spanning multiple cells, visit [<VPIcon icon="fa-brands fa-firefox"/>MDN’s table guide](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table).
+To learn more about structuring HTML for complex tables, including column and row groups, and spanning multiple cells, visit [<VPIcon icon="fa-brands fa-firefox" />MDN’s table guide](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table).
 
 ---
 

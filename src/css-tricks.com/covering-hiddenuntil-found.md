@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/10/in-page-searc
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/10/in-page-search.jpg"/>
 
-Filing this in the “Missed First Time Around” category. It popped up in the [<VPIcon icon="fa-brands fa-firefox"/>Firefox 139 release notes](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/139#html) and I was, like, *ooo neat*. Then I saw [<VPIcon icon="fa-brands fa-chrome"/>it’s been in Chrome since at least 2022](https://developer.chrome.com/blog/new-in-chrome-102/#more). And as I wrote this, [<VPIcon icon="iconfont icon-webkit"/>it landed in Safari Technology Preview 125](https://webkit.org/blog/17216/release-notes-for-safari-technology-preview-225/). So there you have it.
+Filing this in the “Missed First Time Around” category. It popped up in the [<VPIcon icon="fa-brands fa-firefox" />Firefox 139 release notes](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/139#html) and I was, like, *ooo neat*. Then I saw [<VPIcon icon="fa-brands fa-chrome"/>it’s been in Chrome since at least 2022](https://developer.chrome.com/blog/new-in-chrome-102/#more). And as I wrote this, [<VPIcon icon="iconfont icon-webkit"/>it landed in Safari Technology Preview 125](https://webkit.org/blog/17216/release-notes-for-safari-technology-preview-225/). So there you have it.
 
 Turns out there are a few good posts and tutorials about `hidden=until-found` floating out there, so I thought I’d jot down a few key takeaways for later reference.
 

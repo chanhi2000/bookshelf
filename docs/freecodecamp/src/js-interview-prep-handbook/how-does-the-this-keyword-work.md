@@ -49,7 +49,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2024/05/JavaScrip
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w2000/2024/05/JavaScript-Interview-Prep-Cover.png"/>
 
-The `this` keyword is the object that you are currently referencing. Its value is set to the context in which you are using it. When referenced globally, `this` refers to the [<VPIcon icon="fa-brands fa-firefox"/>window](https://developer.mozilla.org/en-US/docs/Web/API/Window) object.
+The `this` keyword is the object that you are currently referencing. Its value is set to the context in which you are using it. When referenced globally, `this` refers to the [<VPIcon icon="fa-brands fa-firefox" />window](https://developer.mozilla.org/en-US/docs/Web/API/Window) object.
 
 ```js
 console.log(this) // prints window {}
@@ -69,4 +69,4 @@ const obj = {
 obj.getInfo();
 ```
 
-Refer to the [<VPIcon icon="fa-brands fa-firefox"/>docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) to learn more about the `this` keyword.
+Refer to the [<VPIcon icon="fa-brands fa-firefox" />docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) to learn more about the `this` keyword.

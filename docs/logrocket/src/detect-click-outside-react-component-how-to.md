@@ -115,7 +115,7 @@ export function InfoBox(props) {
 }
 ```
 
-The above code snippet assigns the current component instance’s DOM reference to the `ref` variable with the help of the `useRef` Hook. After that, it registers a click handler inside the `useEffect` Hook to the entire [<VPIcon icon="fa-brands fa-firefox"/>document](https://developer.mozilla.org/en-US/docs/Web/API/Document) to detect global click events.
+The above code snippet assigns the current component instance’s DOM reference to the `ref` variable with the help of the `useRef` Hook. After that, it registers a click handler inside the `useEffect` Hook to the entire [<VPIcon icon="fa-brands fa-firefox" />document](https://developer.mozilla.org/en-US/docs/Web/API/Document) to detect global click events.
 
 We can also return a function with cleanup code from the `useEffect` Hook, which means we can unregister our global click event listener when the component is unmounted. As you can see, the above code implements cleanup code with the `removeEventListener` DOM API function.
 

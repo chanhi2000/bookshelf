@@ -109,7 +109,7 @@ Let’s start with the basic markup structure. We’re linking up an identical `
 
 The first `<div>` has a “scene” class wrapped around all the layers. Each layer `<div>` has an **index** custom property set `--i` in the `style` attribute. This index value is very important, as we will use it later to calculate positioning values. Notice how the `<div>` with class “original” doesn’t have the `aria-hidden` attribute? That’s because we want the screen reader to read that first image and not the rest.
 
-We’re using the `style` indexing approach and not `sibling-index()` / `sibling-count()` because they are [<VPIcon icon="fa-brands fa-firefox"/>not yet supported globally across all major browsers](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/sibling-index#browser_compatibility). In the future with better support, we could remove the inline styles and use `sibling-index()` wherever we’re using `--i` in calculations and `sibling-count()` when you need to total (35 in this blog post).
+We’re using the `style` indexing approach and not `sibling-index()` / `sibling-count()` because they are [<VPIcon icon="fa-brands fa-firefox" />not yet supported globally across all major browsers](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/sibling-index#browser_compatibility). In the future with better support, we could remove the inline styles and use `sibling-index()` wherever we’re using `--i` in calculations and `sibling-count()` when you need to total (35 in this blog post).
 
 It’s important we start with a container for our scene as well because we will apply the CSS `perspective` property, which controls the *depth* of our 3D element.
 

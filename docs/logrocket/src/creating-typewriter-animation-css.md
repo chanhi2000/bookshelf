@@ -86,11 +86,11 @@ To achieve the typewriter effect, we will animate our text so that it displays t
 
 Before we dive in, let’s review some of the CSS properties we’ll be using.
 
-We will use [<VPIcon icon="fa-brands fa-firefox"/>`@keyframes` for animations](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes), as this at-rule gives us more control over the animation we want to perform. [Using the `overflow` property](https://blog.logrocket.com/new-guide-css-overflow/) on our content will ensure that each word displays in accordance with the animation rather than being shown all at once.
+We will use [<VPIcon icon="fa-brands fa-firefox" />`@keyframes` for animations](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes), as this at-rule gives us more control over the animation we want to perform. [Using the `overflow` property](https://blog.logrocket.com/new-guide-css-overflow/) on our content will ensure that each word displays in accordance with the animation rather than being shown all at once.
 
 [<VPIcon icon="fa-brands fa-firefoxs"/>The `whitespace` property](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) will trim the animation down to a single line. Meanwhile, [the `border-right-color` property](https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-color) will help animate our cursor from light grey to transparent, giving the animation a realistic touch of a blinking cursor.
 
-Finally, [<VPIcon icon="fa-brands fa-firefox"/>the `width` property](https://developer.mozilla.org/en-US/docs/Web/CSS/width#:~:text=The%20width%20CSS%20property%20sets,width%20of%20the%20border%20area.) is animated from `0%` to `100%` to achieve the effect of each letter appearing one at a time.
+Finally, [<VPIcon icon="fa-brands fa-firefox" />the `width` property](https://developer.mozilla.org/en-US/docs/Web/CSS/width#:~:text=The%20width%20CSS%20property%20sets,width%20of%20the%20border%20area.) is animated from `0%` to `100%` to achieve the effect of each letter appearing one at a time.
 
 ---
 

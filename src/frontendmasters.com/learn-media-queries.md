@@ -179,7 +179,7 @@ If something must be a certain color, simply apply `forced-color-adjust: none` a
 
 It’s also worth noting that when `forced-colors` is set to `active`, the user’s preferred color scheme will be set to either `light` or `dark` depending on their chosen theme. You can query the assigned color scheme using `@media (prefers-color-scheme: light)` and `@media (prefers-color-scheme: dark)`. In addition, `prefers-contrast` will be set to `more`, `less`, or `custom`.
 
-You can [<VPIcon icon="fa-brands fa-firefox"/>learn more about `forced-colors` at MDN.](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors)
+You can [<VPIcon icon="fa-brands fa-firefox" />learn more about `forced-colors` at MDN.](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors)
 
 ---
 

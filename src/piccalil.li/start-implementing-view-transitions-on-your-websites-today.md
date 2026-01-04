@@ -50,7 +50,7 @@ cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/a9b431b0454aad8eb7ff21ee5c44d7e
   logo="https://piccalil.li/favicons/favicon.ico"
   preview="https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/a9b431b0454aad8eb7ff21ee5c44d7e1712131ee14794c1f1a133435765e3109/png?url=https://piccalil.li/og/start-implementing-view-transitions-on-your-websites-today/&width=1024&height=526&retina=true"/>
 
-The [<VPIcon icon="fa-brands fa-firefox"/>View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) allows us to animate between two states with relative ease. I say relative ease, but view transitions can get quite complicated *fast*.
+The [<VPIcon icon="fa-brands fa-firefox" />View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) allows us to animate between two states with relative ease. I say relative ease, but view transitions can get quite complicated *fast*.
 
 A view transition can be called in two ways; if you add a tiny bit of CSS, a view transition is initiated on every page change, or you can initiate it manually with JavaScript.
 
@@ -226,7 +226,7 @@ This will give your animations the same base duration, fill mode and ease.
 
 ::: tip
 
-Use [<VPIcon icon="fa-brands fa-firefox"/>`view-transition-class`](https://developer.mozilla.org/en-US/docs/Web/CSS/view-transition-class) to be able to style multiple items at once, and set all custom animations **without** using the `animation` shorthand so you don’t override any of your defaults without meaning to.
+Use [<VPIcon icon="fa-brands fa-firefox" />`view-transition-class`](https://developer.mozilla.org/en-US/docs/Web/CSS/view-transition-class) to be able to style multiple items at once, and set all custom animations **without** using the `animation` shorthand so you don’t override any of your defaults without meaning to.
 
 ```css
 ::view-transition-old(.work-item) {
@@ -295,7 +295,7 @@ Users with vestibular disorders can get sick from all of that slick movement on 
 
 :::
 
-The best thing to do is encase all your `view-transition-name` declarations in a [<VPIcon icon="fa-brands fa-firefox"/>prefers reduced motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) media query set to `no-preference` which will default all view-transitions back to just cross-fading the root element.
+The best thing to do is encase all your `view-transition-name` declarations in a [<VPIcon icon="fa-brands fa-firefox" />prefers reduced motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) media query set to `no-preference` which will default all view-transitions back to just cross-fading the root element.
 
 ```css
 @media (prefers-reduced-motion: no-preference) {
@@ -354,7 +354,7 @@ With the release of Firefox 144, the View Transition API has now been implemente
 
 Unfortunately, though, Firefox currently only supports same-document view transitions, not transitions between pages (also known cross-document view transitions).
 
-If you want to follow along when they **will** support that, you can check [<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@view-transition) or this handy CodePen that the Chrome team created.
+If you want to follow along when they **will** support that, you can check [<VPIcon icon="fa-brands fa-firefox" />MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@view-transition) or this handy CodePen that the Chrome team created.
 
 <CodePen
   user="piccalilli"

@@ -88,7 +88,7 @@ In React, there are two types of components:
 
 ### Class components
 
-[<VPIcon icon="fa-brands fa-firefox"/>ES6 classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) that extend the built-in [<VPIcon icon="fa-brands fa-react"/>`Component`](https://legacy.reactjs.org/docs/react-component.html) and [<VPIcon icon="fa-brands fa-react"/>`lifecycle`](https://beta.reactjs.org/learn/lifecycle-of-reactive-effects) methods:
+[<VPIcon icon="fa-brands fa-firefox" />ES6 classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) that extend the built-in [<VPIcon icon="fa-brands fa-react"/>`Component`](https://legacy.reactjs.org/docs/react-component.html) and [<VPIcon icon="fa-brands fa-react"/>`lifecycle`](https://beta.reactjs.org/learn/lifecycle-of-reactive-effects) methods:
 
 ```jsx
 import { Component } from "react";
@@ -399,7 +399,7 @@ There are two things you need to keep in mind about updates when using objects:
 - The importance of [**immutability**](/blog.logrocket.com/immutability-react-should-you-mutate-objects.md)
 - The fact that the setter returned by `useState` doesn’t [<VPIcon icon="fa-brands fa-react"/>merge objects like `setState()` does](https://reactjs.org/docs/state-and-lifecycle.html#state-updates-are-merged) in class components
 
-Regarding the first point; if you use the same value as the current state to update the state (React uses [<VPIcon icon="fa-brands fa-firefox"/>`Object.is()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is#Description) for comparing), React won’t trigger a re-render.
+Regarding the first point; if you use the same value as the current state to update the state (React uses [<VPIcon icon="fa-brands fa-firefox" />`Object.is()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is#Description) for comparing), React won’t trigger a re-render.
 
 When working with objects, it’s easy to make the [**following mistake**](/blog.logrocket.com/avoiding-common-mistakes-in-react-hooks.md):
 
@@ -551,7 +551,7 @@ onChange={e => {
 }}
 ```
 
-The `...prevState` part will get all of the properties of the object, and the `message: val` part will overwrite the `message` property. This will have the same result as using [<VPIcon icon="fa-brands fa-firefox"/>`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) (just remember to create a new object):
+The `...prevState` part will get all of the properties of the object, and the `message: val` part will overwrite the `message` property. This will have the same result as using [<VPIcon icon="fa-brands fa-firefox" />`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) (just remember to create a new object):
 
 ```jsx
 onChange={e => {
@@ -681,7 +681,7 @@ You could use them to group all your state variables in one place. However, for 
 
 But, the problem when working with multi-dimensional arrays and nested objects is that `Object.assign` and the spread syntax will create a [**shallow copy**](/blog.logrocket.com/copy-objects-in-javascript-complete-guide.md#shallow-copy:~:text=Structured%20cloning-,Shallow%20copy,-A%20shallow%20copy) instead of a [**deep copy**](/blog.logrocket.com/copy-objects-in-javascript-complete-guide.md#shallow-copy:~:text=disrupt%20our%20program.-,Deep%20copy,-A%20deep%20copy).
 
-From the [<VPIcon icon="fa-brands fa-firefox"/>spread syntax documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax):
+From the [<VPIcon icon="fa-brands fa-firefox" />spread syntax documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax):
 
 ::: note
 

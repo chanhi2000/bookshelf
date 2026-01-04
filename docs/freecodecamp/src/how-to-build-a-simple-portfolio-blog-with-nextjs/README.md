@@ -184,7 +184,7 @@ Here, the `filtered` constant is equal to the filtered values of `articles`.
 const filtered = articles.filter();
 ```
 
-Inside the [<VPIcon icon="fa-brands fa-firefox"/>filter method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) is where the arrow function with the logic for filtering is written - `(article) => {//logic}`. We have two constants: `tagMatch` and `searchMatch`. The `searchMatch` constant is true when the title, description, tags, site name, or published date includes the search term. Else, it's false. The `tagMatch` constant is true when any tag from the article's array of tag is present in the tag list, and also has a corresponding `isActive` value of true.
+Inside the [<VPIcon icon="fa-brands fa-firefox" />filter method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) is where the arrow function with the logic for filtering is written - `(article) => {//logic}`. We have two constants: `tagMatch` and `searchMatch`. The `searchMatch` constant is true when the title, description, tags, site name, or published date includes the search term. Else, it's false. The `tagMatch` constant is true when any tag from the article's array of tag is present in the tag list, and also has a corresponding `isActive` value of true.
 
 If any tag at all is active, then the results for both `tagMatch` and `searchMatch` are returned, but if no tag at all is active, then only the `searchMatch` is returned as true.
 
@@ -768,7 +768,7 @@ export async function fetchArticles(): Promise<Article[]> {
 }
 ```
 
-It maps through the articles in the articleFile, which is the JSON file with an array of objects with article URLs. For each of them, it sends a request to the URL, and from the data gotten, returns an Article object. Then, the array of objects created, `results`, is first filtered to remove null objects, and [<VPIcon icon="fa-brands fa-firefox"/>sorted](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) in descending order by their date properties. So, the latest article shows up first.
+It maps through the articles in the articleFile, which is the JSON file with an array of objects with article URLs. For each of them, it sends a request to the URL, and from the data gotten, returns an Article object. Then, the array of objects created, `results`, is first filtered to remove null objects, and [<VPIcon icon="fa-brands fa-firefox" />sorted](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) in descending order by their date properties. So, the latest article shows up first.
 
 It’s then assigned in the `HomeClient` component:
 
@@ -942,7 +942,7 @@ export function getPublishedDate(data: any): string {
 }
 ```
 
-This function is especially useful because of the need to convert the date from the ISO 8601 format (2025-04-07T10:47:19+00:00) to the more readable format I want (April 7, 2025). Here, I used the `.toLocaleDateString()` JavaScript function to make it work (see the ([<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)).
+This function is especially useful because of the need to convert the date from the ISO 8601 format (2025-04-07T10:47:19+00:00) to the more readable format I want (April 7, 2025). Here, I used the `.toLocaleDateString()` JavaScript function to make it work (see the ([<VPIcon icon="fa-brands fa-firefox" />MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)).
 
 ### 7. Create your JSON file
 

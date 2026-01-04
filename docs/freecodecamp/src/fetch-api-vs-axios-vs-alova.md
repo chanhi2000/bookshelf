@@ -80,7 +80,7 @@ Lastly, familiarity with state management and caching concepts will enhance your
 
 ## The Fetch API
 
-Fetch API is a promise-based API request feature in JavaScript that was released to replace the old callback-based XMLHttpRequest (XHP). Unlike the old tool, Fetch API is compatible with modern website features, including [<VPIcon icon="fa-brands fa-firefox"/>service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) and [<VPIcon icon="fa-brands fa-firefox"/>Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS).
+Fetch API is a promise-based API request feature in JavaScript that was released to replace the old callback-based XMLHttpRequest (XHP). Unlike the old tool, Fetch API is compatible with modern website features, including [<VPIcon icon="fa-brands fa-firefox" />service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) and [<VPIcon icon="fa-brands fa-firefox" />Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS).
 
 With this tool, calling API data is as simple as making a fetch() request on the API URL, as shown below:
 

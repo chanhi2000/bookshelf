@@ -12,6 +12,7 @@ export const sidebarEn = sidebar({
   '/frontendmasters.com/':        [asb.frontendmaster()],
   '/css-tricks.com/':             [asb.cssTricks()],
   '/smashingmagazine.com/':       [asb.smashingmagazine()],
+  '/oddbird.net/':                [asb.oddBird()],
   '/typescript.tv/':              [asb.typescripttv()],
   '/blog.logrocket.com/':         [asb.logrocket()],
   '/realpython.com/':             [asb.realpython()],

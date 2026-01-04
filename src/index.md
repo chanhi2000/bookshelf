@@ -55,6 +55,10 @@ projects:
     name: css-tricks.com
     desc: "CSS-Tricks - A Website About Making Websites"
     link: /css-tricks.com/README.md
+  - icon: https://oddbird.net/safari-pinned-tab.svg
+    name: oddbird.net
+    desc: "OddBird | Custom Web App Design & Development For Humans"
+    link: /oddbird.net/README.md
   - icon: https://smashingmagazine.com/images/favicon/favicon.svg
     name: smashingmagazine.com
     desc: "Smashing Magazine — For Web Designers And Developers"

@@ -57,7 +57,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746625674217/902b1ac
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1746625674217/902b1ac1-f7c2-42cd-b12f-d9803e58739d.png"/>
 
-In a previous article, I gave a [**brief introduction to React**](/freecodecamp.org/a-brief-introduction-to-react.md). This tutorial introduces an alternative approach to building a component-based frontend. It covers the fundamentals of [<VPIcon icon="fa-brands fa-firefox"/>Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) to build modular, reusable elements for your web applications.
+In a previous article, I gave a [**brief introduction to React**](/freecodecamp.org/a-brief-introduction-to-react.md). This tutorial introduces an alternative approach to building a component-based frontend. It covers the fundamentals of [<VPIcon icon="fa-brands fa-firefox" />Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) to build modular, reusable elements for your web applications.
 
 Web Components are a set of standardized browser APIs that allow you to create custom, reusable HTML elements with encapsulated functionality. They help developers create self-contained components that can be used across different frameworks or even without any framework at all.
 
@@ -81,7 +81,7 @@ Each lesson is presented as a [<VPIcon icon="fas fa-globe"/>code playback](https
 
 To view a playback, click on the comments in the left panel. Each comment updates the code in the editor and highlights the change. Read the explanation, study the code, and use the built-in AI tutor if you have questions. Here's a short video that shows how to use a code playback:
 
-After this introduction, you might want to explore the official Web Components resources: [<VPIcon icon="fa-brands fa-firefox"/>MDN Web Components Guide](https://developer.mozilla.org/en-US/docs/Web/API/Web_components).
+After this introduction, you might want to explore the official Web Components resources: [<VPIcon icon="fa-brands fa-firefox" />MDN Web Components Guide](https://developer.mozilla.org/en-US/docs/Web/API/Web_components).
 
 ---
 

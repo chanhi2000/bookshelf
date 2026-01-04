@@ -290,7 +290,7 @@ Now, we need to connect our Lambda function to the DynamoDB table. For this, we�
 
 ::: note
 
-Note that we’ll be using [<VPIcon icon="fa-brands fa-firefox"/>ECMAScript](https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript) [<VPIcon icon="fa-brands fa-firefox"/>throughout](https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript) the course of this tutorial.
+Note that we’ll be using [<VPIcon icon="fa-brands fa-firefox" />ECMAScript](https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript) [<VPIcon icon="fa-brands fa-firefox" />throughout](https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript) the course of this tutorial.
 
 :::
 

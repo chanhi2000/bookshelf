@@ -367,7 +367,7 @@ What happens when a user comes to this page but decides to leave before three se
 
 As you can see, the browser still holds a reference to the request even though it’s no longer needed.
 
-A proper way to fix this is to cancel the request when the component unmounts. We can do this by using the [<VPIcon icon="fa-brands fa-firefox"/>AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController). We can use the `abort` method to cancel the request before it gets completed, thereby releasing memory.
+A proper way to fix this is to cancel the request when the component unmounts. We can do this by using the [<VPIcon icon="fa-brands fa-firefox" />AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController). We can use the `abort` method to cancel the request before it gets completed, thereby releasing memory.
 
 ```tsx :collapsed-lines
 import { useEffect, useState } from "react";

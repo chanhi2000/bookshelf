@@ -238,7 +238,7 @@ This is the default behavior when we pass arrays and objects (and arrays of obje
 let tasks = $state([
 ```
 
-Svelte will read everything you pass, set up[<VPIcon icon="fa-brands fa-firefox"/>Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)objects to track what changes, and update the absolute minimum amount of DOM nodes necessary.
+Svelte will read everything you pass, set up[<VPIcon icon="fa-brands fa-firefox" />Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)objects to track what changes, and update the absolute minimum amount of DOM nodes necessary.
 
 ---
 
@@ -309,7 +309,7 @@ I simplified the class a bit by taking a raw object with all the properties of t
 
 When we run that, we’ll see the same exact thing as before, except clicking the button to change the `id` will not re-render anything at all in our Svelte component. To be clear, the`id`is still changing, but Svelte is not re-rendering. This demonstrates Svelte intelligently not wiring any kind of observability into that particular property.
 
-Side note: if you wanted to encapsulate / protect the`id`, you could declare `id` as`#id`to make it a[<VPIcon icon="fa-brands fa-firefox"/>private property](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties)and then expose the value with a getter function.
+Side note: if you wanted to encapsulate / protect the`id`, you could declare `id` as`#id`to make it a[<VPIcon icon="fa-brands fa-firefox" />private property](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties)and then expose the value with a getter function.
 
 ---
 

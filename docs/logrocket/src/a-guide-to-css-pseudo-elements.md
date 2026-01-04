@@ -66,7 +66,7 @@ This article covers a detailed overview of pseudo-elements, how they differ from
 
 ## What are CSS pseudo-elements?
 
-A [<VPIcon icon="fa-brands fa-firefox"/>CSS pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) is primarily a keyword added to a [<VPIcon icon="fas fa-globe"/>CSS selector](https://w3schools.com/cssref/css_selectors.asp) that lets you style a specific part of the selected HTML element. It acts as a sub-element and provides additional functionality to the selected entity.
+A [<VPIcon icon="fa-brands fa-firefox" />CSS pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) is primarily a keyword added to a [<VPIcon icon="fas fa-globe"/>CSS selector](https://w3schools.com/cssref/css_selectors.asp) that lets you style a specific part of the selected HTML element. It acts as a sub-element and provides additional functionality to the selected entity.
 
 Pseudo-elements were first introduced in 2015 with a single colon syntax. The later modules from CSS3 use a double-colon pseudo-elements syntax as shown below:
 

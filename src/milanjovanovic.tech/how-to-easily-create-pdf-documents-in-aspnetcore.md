@@ -235,7 +235,7 @@ mergedPdfDocument.SaveAs("merged-invoices.pdf");
 
 It's pretty straightforward to return a PDF file from an API endpoint in ASP.NET Core.
 
-Minimal APIs have the `Results.File` method accepting either a file path, stream, or byte array. You also need to specify the content type and an optional file name. The [<VPIcon icon="fa-brands fa-firefox"/>MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) for PDF files is `application/pdf`.
+Minimal APIs have the `Results.File` method accepting either a file path, stream, or byte array. You also need to specify the content type and an optional file name. The [<VPIcon icon="fa-brands fa-firefox" />MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) for PDF files is `application/pdf`.
 
 Here's how you can return a PDF file from a byte array:
 

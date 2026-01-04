@@ -51,7 +51,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6686"/>
 
-The [<VPIcon icon="fa-brands fa-firefox"/>Custom Highlight API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Custom_Highlight_API) came to my attention recently as [<VPIcon icon="iconfont icon-caniuse"/>Firefox recently started supporting](https://caniuse.com/mdn-api_highlight) it (Firefox 140, June 2025), which brought support across all the major browsers. With it, you can apply (some) styling to text that you get your hands on in JavaScript via the `Range()` class. I would say text that you *select*, but there aren’t really normal selectors involved here, making it rather unusual to work with for a CSS guy like me.
+The [<VPIcon icon="fa-brands fa-firefox" />Custom Highlight API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Custom_Highlight_API) came to my attention recently as [<VPIcon icon="iconfont icon-caniuse"/>Firefox recently started supporting](https://caniuse.com/mdn-api_highlight) it (Firefox 140, June 2025), which brought support across all the major browsers. With it, you can apply (some) styling to text that you get your hands on in JavaScript via the `Range()` class. I would say text that you *select*, but there aren’t really normal selectors involved here, making it rather unusual to work with for a CSS guy like me.
 
 I think a basic word explanation is helpful here, as it sure would have helped me when I first started [<VPIcon icon="fa-brands fa-youtube"/>poking at it](https://youtu.be/IWDlCNEJclU):
 

@@ -674,7 +674,7 @@ Here’s a [<VPIcon icon="fas fa-globe"/>caniuse](https://caniuse.com/?search=gr
 
 ![browser compatibility for grid template rows](/assets/image/blog.logrocket.com/css-grid-template-columns/21_browser-compatability-for-grid-template-rows.png)
 
-However, certain values, such as the [<VPIcon icon="fa-brands fa-firefox"/>`[masonry]` keyword](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout), which is currently in Editor’s Draft status, remain experimental and lack full browser support. it can only be enabled behind the `layout.css.grid-template-masonry-value.enabled` flag in Firefox and the technology preview in Safari or using a [**polyfill**](/blog.logrocket.com/creating-css-masonry-style-layouts.md#achieving-masonry-layout-css-grid-experimental-feature):
+However, certain values, such as the [<VPIcon icon="fa-brands fa-firefox" />`[masonry]` keyword](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout), which is currently in Editor’s Draft status, remain experimental and lack full browser support. it can only be enabled behind the `layout.css.grid-template-masonry-value.enabled` flag in Firefox and the technology preview in Safari or using a [**polyfill**](/blog.logrocket.com/creating-css-masonry-style-layouts.md#achieving-masonry-layout-css-grid-experimental-feature):
 
 ![browser compatibility of masonry keyword](/assets/image/blog.logrocket.com/css-grid-template-columns/22_browser-compatability-of-masonry-keyword.png)
 

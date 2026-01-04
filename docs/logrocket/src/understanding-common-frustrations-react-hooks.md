@@ -166,7 +166,7 @@ No tutorial using counters is going to get me into the flow. I am a freelancer a
 
 ## To hell and back with the dependencies array
 
-The [<VPIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-effect.html) Hook can take an optional second argument called the dependencies array that allows you to optimize when React would execute the effect callback. React will make a comparison between each of the values via [<VPIcon icon="fa-brands fa-firefox"/>`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine whether anything has changed. If any of the elements are different than the last render cycle, then the effect will be run against the new values.
+The [<VPIcon icon="fa-brands fa-react"/>`useEffect`](https://reactjs.org/docs/hooks-effect.html) Hook can take an optional second argument called the dependencies array that allows you to optimize when React would execute the effect callback. React will make a comparison between each of the values via [<VPIcon icon="fa-brands fa-firefox" />`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine whether anything has changed. If any of the elements are different than the last render cycle, then the effect will be run against the new values.
 
 The comparison works great for primitive JavaScript types, but problems can arise if one of the elements is an object or an array. `Object.is` will compare objects and arrays by reference, and there is no way to override this functionality and supply a custom comparator.
 

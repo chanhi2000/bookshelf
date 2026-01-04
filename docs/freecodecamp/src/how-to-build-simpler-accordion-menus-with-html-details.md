@@ -210,7 +210,7 @@ To have an FAQ question expanded when the page loads, add the `open` attribute t
 
 ## Browser Support and Accessibility Considerations
 
-According to [<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), `<details>` is a well established feature that works across many devices and the popular browsers (Chrome, Edge, Firefox, and Safari) since January 2020.
+According to [<VPIcon icon="fa-brands fa-firefox" />MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details), `<details>` is a well established feature that works across many devices and the popular browsers (Chrome, Edge, Firefox, and Safari) since January 2020.
 
 <BaselineStatus featureid="details" />
 <!-- ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752663542331/33407311-a4db-47ab-bc9f-16baaed5d060.png) -->

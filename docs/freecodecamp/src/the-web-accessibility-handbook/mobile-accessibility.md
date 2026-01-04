@@ -51,9 +51,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742318086251/103cec5
 
 We have covered many key accessibility practices so far, and they should work well on mobile phones as well. But there are some additional considerations you can follow for mobile users.
 
-First, let’s talk about mouse-specific events. We have already seen how to make mouse-specific events accessible in the [JavaScript Practices](/freecodecamp.org/the-web-accessibility-handbook/additional-css-and-javascript-practices.md#heading-javascript-practices) section. Events like [<VPIcon icon="fa-brands fa-firefox"/>mousedown](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event) or [<VPIcon icon="fa-brands fa-firefox"/>mouseup](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event) are often used for drag and drop functionalities.
+First, let’s talk about mouse-specific events. We have already seen how to make mouse-specific events accessible in the [JavaScript Practices](/freecodecamp.org/the-web-accessibility-handbook/additional-css-and-javascript-practices.md#heading-javascript-practices) section. Events like [<VPIcon icon="fa-brands fa-firefox" />mousedown](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event) or [<VPIcon icon="fa-brands fa-firefox" />mouseup](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event) are often used for drag and drop functionalities.
 
-But these are not accessible for touchscreen users, so you should add the same functionality to touch-specific events like [<VPIcon icon="fa-brands fa-firefox"/>touchstart](https://developer.mozilla.org/en-US/docs/Web/API/Element/touchstart_event) and [<VPIcon icon="fa-brands fa-firefox"/>touchend](https://developer.mozilla.org/en-US/docs/Web/API/Element/touchend_event). The following example is in the context of drag and drop:
+But these are not accessible for touchscreen users, so you should add the same functionality to touch-specific events like [<VPIcon icon="fa-brands fa-firefox" />touchstart](https://developer.mozilla.org/en-US/docs/Web/API/Element/touchstart_event) and [<VPIcon icon="fa-brands fa-firefox" />touchend](https://developer.mozilla.org/en-US/docs/Web/API/Element/touchend_event). The following example is in the context of drag and drop:
 
 ```js
 source.ontouchstart = (e) => {
@@ -71,6 +71,6 @@ Some other mobile accessibility practices that are good to know:
 
 - Do not disable zoom on your website. Both fully-sighted users as well as those who have visual impairments may need to zoom in to read the website’s content on smaller screens.
 - When writing navigation menus, you’d normally conceal it and provide a hamburger icon to open it, as the screen is much shorter/smaller on a mobile phone. In these cases, the hamburger menu should be easily accessible. Check out the example of a [<VPIcon icon="fas fa-globe"/>good hamburger menu](https://fritz-weisshart.de/meg_men/) from the docs, in mobile view.
-- When creating forms, try to minimise the amount of typing the user needs to do, as it can get annoying for mobile users. This is especially important if your website is primarily designed for mobile users. Check out the [<VPIcon icon="fa-brands fa-firefox"/>docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Mobile#user_input) for examples.
+- When creating forms, try to minimise the amount of typing the user needs to do, as it can get annoying for mobile users. This is especially important if your website is primarily designed for mobile users. Check out the [<VPIcon icon="fa-brands fa-firefox" />docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Mobile#user_input) for examples.
 
-Visit [<VPIcon icon="fa-brands fa-firefox"/>MDN Docs-Mobile Accessibility](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Mobile) if you want to learn more.
+Visit [<VPIcon icon="fa-brands fa-firefox" />MDN Docs-Mobile Accessibility](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Mobile) if you want to learn more.

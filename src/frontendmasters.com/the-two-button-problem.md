@@ -58,7 +58,7 @@ Which one of those two buttons above is active? Like if I press the enter/select
 
 If I press the up (or down) arrows on my remote, the styles of the buttons just reverses, so even interacting with the interface doesn’t inform the choice.
 
-This is a problem that can be solved at multiple levels. If the buttons are toggles that affect on-page content, the accessibility angle is partially solved by [<VPIcon icon="fa-brands fa-firefox"/>the `aria-selected` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-selected), for example. It’s also slightly less of an issue on devices with a cursor, as you likely just click on the one that you want. This is mostly a problem with remote control and keyboard usage where the `active` state is unclear or ambiguous.
+This is a problem that can be solved at multiple levels. If the buttons are toggles that affect on-page content, the accessibility angle is partially solved by [<VPIcon icon="fa-brands fa-firefox" />the `aria-selected` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-selected), for example. It’s also slightly less of an issue on devices with a cursor, as you likely just click on the one that you want. This is mostly a problem with remote control and keyboard usage where the `active` state is unclear or ambiguous.
 
 I call it the “two button” problem because if there were more than two buttons, the one that is styled differently is probably the one that is active. We could use our grade school brains to figure out which button is active.
 

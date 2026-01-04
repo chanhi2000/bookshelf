@@ -283,7 +283,7 @@ In the code block above, we are wrapping the response from the request in a prom
 
 ## Conclusion
 
-In this article, we learned what asynchronous JavaScript is and how to write asynchronous JavaScript using promises and async/await. We’ve also seen how to send requests using the fetch API and async/await and how to return a response to asynchronous calls. You can read more on asynchronous JavaScript [<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous).
+In this article, we learned what asynchronous JavaScript is and how to write asynchronous JavaScript using promises and async/await. We’ve also seen how to send requests using the fetch API and async/await and how to return a response to asynchronous calls. You can read more on asynchronous JavaScript [<VPIcon icon="fa-brands fa-firefox" />here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous).
 
 <SiteInfo
   name="Asynchronous JavaScript - Learn web development | MDN"

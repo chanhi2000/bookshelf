@@ -72,7 +72,7 @@ Let's demystify what that means (hopefully you got the full form). REST is basic
 
 Okay, so now that you know what RESTful services are, here are some of the terms used in the heading:
 
-1. **REST Client**: code or an app that can access these REST services. You are using one right now! Yes, the browser can act as an uncontrolled REST client (the website handles the browser requests). The browser, for a long time, used an in-built function called XMLHttpRequest for all REST requests. But, this was succeeded by [FetchAPI](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), a modern, [<VPIcon icon="fa-brands fa-firefox"/>promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) based approach to requests. Others examples are code libraries like [<VPIcon icon="iconfont icon-github"/>`axios/axios`](https://github.com/axios/axios), [<VPIcon icon="iconfont icon-github"/>`visionmedia/superagent`](https://github.com/visionmedia/superagent) and [<VPIcon icon="iconfont icon-github"/>`sindresorhus/got`](https://github.com/sindresorhus/got) or some dedicated apps like [<VPIcon icon="iconfont icon-postman"/>Postman](https://postman.com/) (or an online version, [Hoppscotch](https://hoppscotch.io/)!), or a command line tool like [cURL](https://curl.haxx.se/)!.
+1. **REST Client**: code or an app that can access these REST services. You are using one right now! Yes, the browser can act as an uncontrolled REST client (the website handles the browser requests). The browser, for a long time, used an in-built function called XMLHttpRequest for all REST requests. But, this was succeeded by [FetchAPI](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), a modern, [<VPIcon icon="fa-brands fa-firefox" />promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) based approach to requests. Others examples are code libraries like [<VPIcon icon="iconfont icon-github"/>`axios/axios`](https://github.com/axios/axios), [<VPIcon icon="iconfont icon-github"/>`visionmedia/superagent`](https://github.com/visionmedia/superagent) and [<VPIcon icon="iconfont icon-github"/>`sindresorhus/got`](https://github.com/sindresorhus/got) or some dedicated apps like [<VPIcon icon="iconfont icon-postman"/>Postman](https://postman.com/) (or an online version, [Hoppscotch](https://hoppscotch.io/)!), or a command line tool like [cURL](https://curl.haxx.se/)!.
 2. **REST Service**: the server. There are many popular libraries that make creation of these servers a breeze, like [ExpressJS](https://expressjs.com/) for NodeJS and [<VPIcon icon="iconfont icon-django"/>Django](https://djangoproject.com/) for Python.
 3. **REST API**: this defines the endpoint and methods allowed to access/submit data to the server. We will talk about this in great detail below. Other alternatives to this are: GraphQL, JSON-Pure and oData.
 
@@ -374,9 +374,9 @@ function sendData(e) {
 }
 ```
 
-Now we will make the call to the server with both these values `a` and `b`. We will be using the [<VPIcon icon="fa-brands fa-firefox"/>Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), built-in to every browser for this.
+Now we will make the call to the server with both these values `a` and `b`. We will be using the [<VPIcon icon="fa-brands fa-firefox" />Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), built-in to every browser for this.
 
-Fetch takes in two inputs, the URL endpoint and a JSON request object and returns a [<VPIcon icon="fa-brands fa-firefox"/>Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). Explaining them here will be out-of-bounds here, so I'll leave that for you.
+Fetch takes in two inputs, the URL endpoint and a JSON request object and returns a [<VPIcon icon="fa-brands fa-firefox" />Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). Explaining them here will be out-of-bounds here, so I'll leave that for you.
 
 Continue inside the `sendData()` function:
 

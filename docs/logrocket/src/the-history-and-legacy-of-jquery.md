@@ -123,7 +123,7 @@ fetch('https://api.com/songs.json')
   });
 ```
 
-The [<VPIcon icon="fa-brands fa-firefox"/>`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)and [<VPIcon icon="fa-brands fa-firefox"/>`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) methods replicate jQuery’s selection capabilities:
+The [<VPIcon icon="fa-brands fa-firefox" />`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)and [<VPIcon icon="fa-brands fa-firefox" />`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) methods replicate jQuery’s selection capabilities:
 
 ```js
 // jQuery

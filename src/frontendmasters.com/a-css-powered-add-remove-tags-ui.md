@@ -115,7 +115,7 @@ body:has(#three:checked) p {
 }
 ```
 
-In this article,**I’ll be using checkboxes, labels**,**and**[<VPIcon icon="fa-brands fa-firefox"/>`:has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)**selectors to design****a UI where you can add and remove “tags”**. The UI will have a set of tags to select from, and a set of tags that have been selected. Clicking a tag in one set removes it from one area and makes it appear in the other set. It’s a functionality that’s perfect for checkboxes and labels to take on. Using the`:has()`selector means, I can keep the two set of tags in as much of a distance or depth from each other as I want, which in turn provides a lot flexibility.
+In this article,**I’ll be using checkboxes, labels**,**and**[<VPIcon icon="fa-brands fa-firefox" />`:has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)**selectors to design****a UI where you can add and remove “tags”**. The UI will have a set of tags to select from, and a set of tags that have been selected. Clicking a tag in one set removes it from one area and makes it appear in the other set. It’s a functionality that’s perfect for checkboxes and labels to take on. Using the`:has()`selector means, I can keep the two set of tags in as much of a distance or depth from each other as I want, which in turn provides a lot flexibility.
 
 Although the`:has()`selector can be used in many ways, in this article we’ll focus on its ability to target an element containing a specific child element. The parent is mentioned before the colon (`:`) and the child is mentioned inside the parentheses of`has()`. For example,`p:has(>mark)` selects all elements that have at least one direct descendant that’s a `<mark>`. Another example, `div:has(:checked)` selects all `<div>` elements that have at least one descendant (direct or not) element that’s in a checked state, like a radio or checkbox.
 
@@ -141,7 +141,7 @@ There are two parts:
 
 Because we’ll be designing a cluster of tags of movie genres, a script is set up to add the checkboxes and labels for each genre to the HTML.
 
-The script uses HTML[<VPIcon icon="fa-brands fa-firefox"/>`<template>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)to build the new elements off of. This is to prove that you could build all of this dynamically with arbitrary tags from a data source. You can use any method you prefer or not use script at all and directly build the HTML. You’ll see the full source code in a moment.
+The script uses HTML[<VPIcon icon="fa-brands fa-firefox" />`<template>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)to build the new elements off of. This is to prove that you could build all of this dynamically with arbitrary tags from a data source. You can use any method you prefer or not use script at all and directly build the HTML. You’ll see the full source code in a moment.
 
 ```html
 <div>
@@ -192,7 +192,7 @@ for (let i = 0; i < genres.length; i++) {
 In the script:
 
 1. A set of`genres`(tag values) is stored as an array
-2. For each item in the`genres`array, a new[<VPIcon icon="fa-brands fa-firefox"/>`clone`](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode)is created from the[<VPIcon icon="fa-brands fa-firefox"/>`template`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement)that has an empty`plus`(checkbox) and`minus`(label) tag, as seen inside the`<template>`in HTML
+2. For each item in the`genres`array, a new[<VPIcon icon="fa-brands fa-firefox" />`clone`](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode)is created from the[<VPIcon icon="fa-brands fa-firefox" />`template`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement)that has an empty`plus`(checkbox) and`minus`(label) tag, as seen inside the`<template>`in HTML
 3. The empty tags’ text and attributes are filled using the`genres`item’s value and index
 4. Finally, the filled tags are added to their respective containers on the page —`<div>`and`<ul>`
 
@@ -367,7 +367,7 @@ ul {
 }
 ```
 
-In the above CSS[<VPIcon icon="fa-brands fa-firefox"/>nested](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting)code snippet:
+In the above CSS[<VPIcon icon="fa-brands fa-firefox" />nested](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting)code snippet:
 
 1. `&`represents`<ul>`. Hence`&::before`means`ul:before`
 2. `:has()`and`:not(:has())`represent when the root element (the page) contains a given selector (mentioned inside the parentheses) and when it doesn’t

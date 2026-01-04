@@ -90,7 +90,7 @@ These are properties that can change gradually from one value to another, such a
 
 We can animate properties like background, background-color, border color, filter, flex, and font.
 
-You can get a comprehensive list of all of the properties you can animate [<VPIcon icon="fa-brands fa-firefox"/>here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties).
+You can get a comprehensive list of all of the properties you can animate [<VPIcon icon="fa-brands fa-firefox" />here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties).
 
 ---
 

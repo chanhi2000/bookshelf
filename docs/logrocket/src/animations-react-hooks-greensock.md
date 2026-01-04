@@ -541,7 +541,7 @@ Now our rocket should be coming up from the bottom like so:
 
 The next part is to `draw` our letters. All of our letter `path`s are wrapped in a `g` tag with the `id` `letters`, so they are easy for us to target.
 
-To get the drawing effect, we need to use a couple of `attributes`, which are `stroke-dasharray` and `stroke-dashoffset`. These are quite complicated, and to read in more detail, I recommend [<VPIcon icon="fa-brands fa-firefox"/>heading here](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dashoffset).
+To get the drawing effect, we need to use a couple of `attributes`, which are `stroke-dasharray` and `stroke-dashoffset`. These are quite complicated, and to read in more detail, I recommend [<VPIcon icon="fa-brands fa-firefox" />heading here](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dashoffset).
 
 ### What is `stroke-dasharray`
 

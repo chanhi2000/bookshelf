@@ -103,7 +103,7 @@ If you wanted the logo, you could do:
 const logo = document.querySelector(".logo");
 ```
 
-You might be thinking to yourself: but CSS classes might apply to *lots* of elements, how does it know which one to get? The `querySelector` function will select the *first* one it finds as it starts looking from the top of the HTML. If you intentionally want to look for and get a reference to a whole set of elements, look at [<VPIcon icon="fa-brands fa-firefox"/>`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
+You might be thinking to yourself: but CSS classes might apply to *lots* of elements, how does it know which one to get? The `querySelector` function will select the *first* one it finds as it starts looking from the top of the HTML. If you intentionally want to look for and get a reference to a whole set of elements, look at [<VPIcon icon="fa-brands fa-firefox" />`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
 
 ---
 
@@ -133,7 +133,7 @@ In fact, think about how you can change classes all the way up on the `<html>` e
 document.documentElement.classList.add("paying-user");
 ```
 
-That [<VPIcon icon="fa-brands fa-firefox"/>`classList` API](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) allows you to add, remove, replace, and toggle classes, as well as check to see if an element contains a certain class, so you’ve got a lot of control there.
+That [<VPIcon icon="fa-brands fa-firefox" />`classList` API](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) allows you to add, remove, replace, and toggle classes, as well as check to see if an element contains a certain class, so you’ve got a lot of control there.
 
 ```js
 element.classList.add("javascript-enabled");

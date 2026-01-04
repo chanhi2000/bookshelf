@@ -406,7 +406,7 @@ Animating most properties [<VPIcon icon="fas fa-globe"/>is a performance concern
 
 ## Which properties can be animated?
 
-MDN has [<VPIcon icon="fa-brands fa-firefox"/>a list of CSS properties which can be animated](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties). Animatable properties tend to colors and numbers. An example a non-animatable property is `background-image`.
+MDN has [<VPIcon icon="fa-brands fa-firefox" />a list of CSS properties which can be animated](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties). Animatable properties tend to colors and numbers. An example a non-animatable property is `background-image`.
 
 ::: info Browser support
 

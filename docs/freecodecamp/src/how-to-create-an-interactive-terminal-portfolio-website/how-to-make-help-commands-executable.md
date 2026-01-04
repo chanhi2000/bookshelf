@@ -77,7 +77,7 @@ Next is to add [<VPIcon icon="fa-brands fa-wikipedia-w"/>affordance](https://en.
 }
 ```
 
-The last step is to execute the command when the user clicks the command. We need to add an event handler with jQuery (jQuery Terminal dependency) or we can use the native browser [<VPIcon icon="fa-brands fa-firefox"/>`addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener). Here we use jQuery:
+The last step is to execute the command when the user clicks the command. We need to add an event handler with jQuery (jQuery Terminal dependency) or we can use the native browser [<VPIcon icon="fa-brands fa-firefox" />`addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener). Here we use jQuery:
 
 ```js
 term.on('click', '.command', function() {

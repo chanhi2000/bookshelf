@@ -143,7 +143,7 @@ During the maintenance of a codebase in a team, people can alter the HTML of a p
 
 ## When to consider `content-visibility` in a project
 
-Performance is a tricky topic because it often involves tradeoffs. It is becoming more common to set a [<VPIcon icon="fa-brands fa-firefox"/>performance budget](https://developer.mozilla.org/en-US/docs/Web/Performance/Performance_budgets) to be explicit about the decisions you have made and the rationale you followed. Ideally, you will be confident that you’ll achieve your performance goals before you build something, but none of us have a crystal ball!
+Performance is a tricky topic because it often involves tradeoffs. It is becoming more common to set a [<VPIcon icon="fa-brands fa-firefox" />performance budget](https://developer.mozilla.org/en-US/docs/Web/Performance/Performance_budgets) to be explicit about the decisions you have made and the rationale you followed. Ideally, you will be confident that you’ll achieve your performance goals before you build something, but none of us have a crystal ball!
 
 As you build something for the web, you may find that you are falling below your desired performance thresholds. Is this the time to reach for `content-visibility`? Or should you be using it as a common practice and factor the savings in beforehand?
 
@@ -167,11 +167,11 @@ The `content-visibility` property accepts one of three values:
 - `auto`: The element turns on layout containment, style containment, and paint containment. If the element is not relevant to the user, it also skips its contents. The skipped contents are accessible to the browser
 - `hidden`: The element skips its contents. The skipped contents are not accessible to browser-affected elements and are not available to browser features such as find-in-page, and tab order navigation
 
-You may need to use the [<VPIcon icon="fa-brands fa-firefox"/>`contain-intrinsic-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-size) property alongside `content-visibility` to realize performance gains associated with size containment.
+You may need to use the [<VPIcon icon="fa-brands fa-firefox" />`contain-intrinsic-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-size) property alongside `content-visibility` to realize performance gains associated with size containment.
 
 ### Specifying the size of an element with `contain-intrinsic-size`
 
-To realize the potential benefits of `content-visibility`, the browser needs to apply size containment. Size containment allows the browser to lay out an element as though it has a fixed size, preventing unnecessary [<VPIcon icon="fa-brands fa-firefox"/>reflows](https://developer.mozilla.org/en-US/docs/Glossary/Reflow) by avoiding the re-rendering of child elements to determine the actual size.
+To realize the potential benefits of `content-visibility`, the browser needs to apply size containment. Size containment allows the browser to lay out an element as though it has a fixed size, preventing unnecessary [<VPIcon icon="fa-brands fa-firefox" />reflows](https://developer.mozilla.org/en-US/docs/Glossary/Reflow) by avoiding the re-rendering of child elements to determine the actual size.
 
 By default, size containment treats elements as though they have no content, and may collapse the layout in the same way as if the contents had no width or height. This means that the element will lay out as if it were empty. The `contain-intrinsic-size` property allows developers to specify an appropriate value to be used as the size for layout.
 

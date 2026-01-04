@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6673"/>
 
-A set of logos with an infinite repeating slide animation is a classic component in web development. We can find countless examples and implementations starting from the old (and now deprecated) [<VPIcon icon="fa-brands fa-firefox"/>`<marquee>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/marquee). I’ve written [<VPIcon icon="fas fa-globe"/>an article](https://verpex.com/blog/website-tips/how-to-create-a-css-only-infinite-scroll-animation) about it myself a few years ago.
+A set of logos with an infinite repeating slide animation is a classic component in web development. We can find countless examples and implementations starting from the old (and now deprecated) [<VPIcon icon="fa-brands fa-firefox" />`<marquee>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/marquee). I’ve written [<VPIcon icon="fas fa-globe"/>an article](https://verpex.com/blog/website-tips/how-to-create-a-css-only-infinite-scroll-animation) about it myself a few years ago.
 
 *“Why another article?”* you ask. CSS keeps evolving with new and powerful features, so I always try to find room for improvement and optimization. We’ll do that now with some new CSS features.
 

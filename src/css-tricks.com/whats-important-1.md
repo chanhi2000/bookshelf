@@ -110,7 +110,7 @@ Finally, our top picks for the best CSS and HTML features shipped by web browser
 
 - [<VPIcon icon="fa-brands fa-chrome"/>Chrome 143](https://developer.chrome.com/release-notes/143)
   - [<VPIcon icon="fa-brands fa-chrome"/>Anchored container queries](https://developer.chrome.com/release-notes/143#css_anchored_fallback_container_queries), which I briefly talked about in an [**article on container queries**](/css-tricks.com/what-else-could-container-queries-query.mdanchored-container-queries)
-- [<VPIcon icon="fa-brands fa-firefox"/>Firefox 146](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/146)
+- [<VPIcon icon="fa-brands fa-firefox" />Firefox 146](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/146)
   - [**`contrast-color()`**](/css-tricks.com/exploring-the-css-contrast-color-function-a-second-time.md), which ensures optimal color contrast between two colors (or at least it will once it leverages [<VPIcon icon="fas fa-globe"/>CSS Color 6](https://drafts.csswg.org/css-color-6/#contrast-color-winner))
   - `text-decoration-inset`, which enables control over the position and size of text decorations
   - [<VPIcon icon="iconfont icon-css-tricks"/>`@scope`](https://css-tricks.com/almanac/rules/s/scope/), which makes defining new CSS scoping contexts a baseline feature (this, frankly, is the highlight of my **year**)

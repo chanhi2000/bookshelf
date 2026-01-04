@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6293"/>
 
-[<VPIcon icon="fa-brands fa-firefox"/>Custom `<select>` menus are a thing now](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select), especially because they can be progressively enhanced into. Una has [<VPIcon icon="fa-brands fa-codepen"/>some great examples](https://codepen.io/collection/BNZjPe).
+[<VPIcon icon="fa-brands fa-firefox" />Custom `<select>` menus are a thing now](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select), especially because they can be progressively enhanced into. Una has [<VPIcon icon="fa-brands fa-codepen"/>some great examples](https://codepen.io/collection/BNZjPe).
 
 ![[Demo (<VPIcon icon="fa-brands fa-codepen"/>`una`)](https://codepen.io/una/pen/eYojgZw), which falls back to entirely default styling.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/Screenshot-2025-06-20-at-6.58.11%E2%80%AFAM.png?resize=1024%2C669&ssl=1)
 
@@ -160,7 +160,7 @@ When the browser supports it, we’ll rip off the SVG background we were using f
 
 ## The Picker
 
-Styling the part that opens up when you active a select we’re calling the “picker”, and this is the part that’s completely new to be able to style. You get your hands on it with the somewhat unusual `select::picker(select)` selector. You have to put `select` in the pseudo function thing — it’s the [<VPIcon icon="fa-brands fa-firefox"/>only valid value](https://developer.mozilla.org/en-US/docs/Web/CSS/::picker#parameters). For now? Maybe it’s because in the future they’ll want to use `::picker` for date inputs or the like? Not sure but whatever.
+Styling the part that opens up when you active a select we’re calling the “picker”, and this is the part that’s completely new to be able to style. You get your hands on it with the somewhat unusual `select::picker(select)` selector. You have to put `select` in the pseudo function thing — it’s the [<VPIcon icon="fa-brands fa-firefox" />only valid value](https://developer.mozilla.org/en-US/docs/Web/CSS/::picker#parameters). For now? Maybe it’s because in the future they’ll want to use `::picker` for date inputs or the like? Not sure but whatever.
 
 ```scss
 select {

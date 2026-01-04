@@ -287,7 +287,7 @@ This feature is not supported in any browser. To follow along with the progress 
 
 ❌ No Support
 
-[<VPIcon icon="fa-brands fa-firefox"/>Issue #1942078](https://bugzilla.mozilla.org/show_bug.cgi?id=1942078)
+[<VPIcon icon="fa-brands fa-firefox" />Issue #1942078](https://bugzilla.mozilla.org/show_bug.cgi?id=1942078)
 
 ### Safari *(WebKit)*
 

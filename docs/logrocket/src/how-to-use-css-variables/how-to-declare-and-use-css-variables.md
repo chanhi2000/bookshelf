@@ -323,7 +323,7 @@ The first button gets the `#f2ba2c` color for the background since the scoped st
 
 ![Two Sample Html Button Elements Styled In Different Ways With Css: One Using A Scoped Variable, The Other Using A Fallback Value In The Global Css](/assets/image/blog.logrocket.com/how-to-use-css-variables/img3-Two-sample-buttons-styled-scoped-variable-fallback-value.png)
 
-Learn more about the `@scope` at rule from the [<VPIcon icon="fa-brands fa-firefox"/>official MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope). `@scope` is still an experimental feature, so you can use the minimal [**`css-scope-inline` library**](/blog.logrocket.com/simplifying-inline-css-scoping-css-scope-inline.md) to create scoped CSS variables in production.
+Learn more about the `@scope` at rule from the [<VPIcon icon="fa-brands fa-firefox" />official MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/@scope). `@scope` is still an experimental feature, so you can use the minimal [**`css-scope-inline` library**](/blog.logrocket.com/simplifying-inline-css-scoping-css-scope-inline.md) to create scoped CSS variables in production.
 
 ---
 

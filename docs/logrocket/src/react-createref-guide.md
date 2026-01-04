@@ -64,7 +64,7 @@ This guide to using React `createRef` was last updated on 15 November 2022 to in
 
 ![How to Use React createRef](/assets/image/blog.logrocket.com/react-createref-guide/banner.png)
 
-If you’ve been developing web applications long enough, you’ve likely used JavaScript [<VPIcon icon="fa-brands fa-firefox"/>DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) libraries such as [<VPIcon icon="iconfont icon-jQuery"/>jQuery](http://jquery.com/), [<VPIcon icon="fas fa-globe"/>Mootools](https://mootools.net/), [<VPIcon icon="fas fa-globe"/>Prototype.js](http://prototypejs.org/learn/), and more. These libraries brought about a significant shift in how interactive web applications were built. With DOM abstraction APIs, manipulating a web app’s contents became much easier.
+If you’ve been developing web applications long enough, you’ve likely used JavaScript [<VPIcon icon="fa-brands fa-firefox" />DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) libraries such as [<VPIcon icon="iconfont icon-jQuery"/>jQuery](http://jquery.com/), [<VPIcon icon="fas fa-globe"/>Mootools](https://mootools.net/), [<VPIcon icon="fas fa-globe"/>Prototype.js](http://prototypejs.org/learn/), and more. These libraries brought about a significant shift in how interactive web applications were built. With DOM abstraction APIs, manipulating a web app’s contents became much easier.
 
 For example, you would find yourself doing something like this with jQuery:
 

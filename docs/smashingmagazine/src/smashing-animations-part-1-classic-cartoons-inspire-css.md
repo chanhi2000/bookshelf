@@ -76,7 +76,7 @@ I’ve recently been working on a new website for Emmy-award-winning game compos
 
 Mike loves ’80s and ’90s animation — especially Disney’s [<VPIcon icon="fa-brands fa-wikipedia-w"/>Duck Tales](https://en.wikipedia.org/wiki/DuckTales_(1987_TV_series)). Unsurprisingly, my taste in cartoons stretches back a little further to the 1960s [<VPIcon icon="fa-brands fa-wikipedia-w"/>Hanna-Barbera](https://en.wikipedia.org/wiki/Hanna-Barbera) shows like Dastardly and Muttley in *Their Flying Machines*, *Scooby-Doo*, *The Perils of Penelope Pitstop*, *Wacky Races*, and, of course, [<VPIcon icon="fa-brands fa-wikipedia-w"/>Yogi Bear](https://en.wikipedia.org/wiki/Yogi_Bear).
 
-So, to explain how this era of animation relates to CSS, I’ve chosen an episode of *The Yogi Bear Show*, “[<VPIcon icon="fa-brands fa-youtube"/>Home Sweet Jellystone](https://youtube.com/watch?v=CPnmzcmKgA0),” first broadcast in 1961. In this story, Ranger Smith inherits a mansion and (spoiler alert) leaves Jellystone.
+So, to explain how this era of animation relates to CSS, I’ve chosen an episode of *The Yogi Bear Show*, “[<VPIcon icon="fa-brands fa-youtube"/>Home Sweet Jellystone](https://youtu.be/CPnmzcmKgA0),” first broadcast in 1961. In this story, Ranger Smith inherits a mansion and (spoiler alert) leaves Jellystone.
 
 ![The Yogi Bear Show, copyright Warner Bros. Entertainment Inc. ([<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/smashing-animations-part-1-classic-cartoons-inspire-css/5-yogi-bear-show-home-sweet-jellystone.png))](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/smashing-animations-part-1-classic-cartoons-inspire-css/5-yogi-bear-show-home-sweet-jellystone.png)
 
@@ -116,7 +116,7 @@ div {
   slug-hash="NPPzgyq"
   title="Yogi Bear background image scroll [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Although beautifully executed, Robert Gentle’s background paintings were often remarkably simple. The mansion’s interior background rushes past to create the illusion of Ranger Smith dashing across it, so it needed very few details.
 
@@ -176,7 +176,7 @@ img {
   slug-hash="ByyVZrB"
   title="Mike Worth background image scroll [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As Michelle Barker wrote about [**here at Smashing Magazine**](/smashingmagazine.com/respecting-users-motion-preferences.md) back in 2021:
 
@@ -241,7 +241,7 @@ figure {
   slug-hash="xbbzraj"
   title="Mike Worth layered animation [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Had I continued developing this scene, I might’ve added a slower scrolling animation to those rocks to introduce a parallax effect for even greater realism.
 
@@ -329,7 +329,7 @@ Before finally setting a delay, which makes each frame visible at the correct ti
   slug-hash="QwwxgJE"
   title="Ranger Smith talking [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -385,7 +385,7 @@ Finally, I added a subtle ambient animation that rotates the light shafts and cr
   slug-hash="bNNKROE"
   title="Mike Worth’s about page animation [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Can you throw more light on Mike’s navigation?
 
@@ -394,7 +394,7 @@ Can you throw more light on Mike’s navigation?
   slug-hash="ZYYRyVJ"
   title="Light up Mike Worth about page [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Animations On Interactions
 
@@ -495,7 +495,7 @@ Animations can also tempt people to venture deeper into a design, so I made the 
   slug-hash="YPPvQBg"
   title="Mike Worth’s review page animation [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Animations Tell Stories
 
@@ -560,7 +560,7 @@ Should someone get lost along their journey, they’ll end up on Mike’s 404 pa
   slug-hash="ZYYRyPX"
   title="Mike Worth’s 404 page animation [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

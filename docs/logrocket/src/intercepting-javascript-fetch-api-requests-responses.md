@@ -59,7 +59,7 @@ Interceptors are code blocks that you can use to preprocess or post-process HTTP
 
 There are two types of events for which you may want to intercept HTTP calls, request and response events. The request interceptor should be executed before the actual HTTP request is sent, whereas the response interceptor should be executed before it reaches the application code that made the call.
 
-Before diving into the code, we need to understand a few important factors. For one, the [<VPIcon icon="fa-brands fa-firefox"/>Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) doesn’t support interceptors natively. Additionally, extra packages are required to [use the Fetch API in Node.js](#node).
+Before diving into the code, we need to understand a few important factors. For one, the [<VPIcon icon="fa-brands fa-firefox" />Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) doesn’t support interceptors natively. Additionally, extra packages are required to [use the Fetch API in Node.js](#node).
 
 ---
 
@@ -71,7 +71,7 @@ First, let’s cover some fundamentals of the Fetch API, for example, the syntax
 const fetchResponsePromise = fetch(resource [, init])
 ```
 
-`resource` defines the resource you want to fetch, which can be either a [<VPIcon icon="fa-brands fa-firefox"/>`Request`object](https://developer.mozilla.org/en-US/docs/Web/API/Request)) or a URL. `init` is an optional object that will contain any custom configuration you want to apply to this particular request.
+`resource` defines the resource you want to fetch, which can be either a [<VPIcon icon="fa-brands fa-firefox" />`Request`object](https://developer.mozilla.org/en-US/docs/Web/API/Request)) or a URL. `init` is an optional object that will contain any custom configuration you want to apply to this particular request.
 
 The Fetch API is promise-based. Therefore, when you call the Fetch method, you’ll get a response promise back. Here, it is referred to as `fetchResponsePromise`, as seen in the example above.
 
@@ -102,7 +102,7 @@ fetch('https://jsonplaceholder.typicode.com/todos', {
 .then((json) => console.log(json));
 ```
 
-The `POST` call must have a `body`. Take a look at the [<VPIcon icon="fa-brands fa-firefox"/>Fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/fetch) for more details.
+The `POST` call must have a `body`. Take a look at the [<VPIcon icon="fa-brands fa-firefox" />Fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/fetch) for more details.
 
 ---
 
@@ -206,11 +206,11 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 // }
 ```
 
-In the code above, we changed the JSON method to return some custom data instead of the original data. Check out the documentation to learn more about the [<VPIcon icon="fa-brands fa-firefox"/>properties that you can change](https://developer.mozilla.org/en-US/docs/Web/API/Response).
+In the code above, we changed the JSON method to return some custom data instead of the original data. Check out the documentation to learn more about the [<VPIcon icon="fa-brands fa-firefox" />properties that you can change](https://developer.mozilla.org/en-US/docs/Web/API/Response).
 
 ::: note
 
-Responses are only allowed to be consumed once. Therefore, you need to [<VPIcon icon="fa-brands fa-firefox"/>clone the response](https://developer.mozilla.org/en-US/docs/Web/API/Response/clone) each time you want to use it.
+Responses are only allowed to be consumed once. Therefore, you need to [<VPIcon icon="fa-brands fa-firefox" />clone the response](https://developer.mozilla.org/en-US/docs/Web/API/Response/clone) each time you want to use it.
 
 :::
 

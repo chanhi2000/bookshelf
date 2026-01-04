@@ -137,7 +137,7 @@ At the risk of sounding lazy, I’d want to do `html { reading-flow: make-it-all
 
 ### Me: `image-set()` with Container Size Breakpoints
 
-I just ran across this the other day so I figured I’d put it on my list. I had a container where I wanted to swap out the `background-image` at different container widths. Container queries can do this by writing a container queries that override the `background-image`, but it occurs to me that we could do it in a more concise [<VPIcon icon="fa-brands fa-firefox"/>`image-set()`](https://developer.mozilla.org/en-US/docs/Web/CSS/image/image-set) declaration if that were to be allowed.
+I just ran across this the other day so I figured I’d put it on my list. I had a container where I wanted to swap out the `background-image` at different container widths. Container queries can do this by writing a container queries that override the `background-image`, but it occurs to me that we could do it in a more concise [<VPIcon icon="fa-brands fa-firefox" />`image-set()`](https://developer.mozilla.org/en-US/docs/Web/CSS/image/image-set) declaration if that were to be allowed.
 
 ```scss{5-8}
 .card {
@@ -319,7 +319,7 @@ Those extra selectors are easy to forgot and feel a bit fragile to me. I’d rat
 }
 ```
 
-The [<VPIcon icon="fa-brands fa-firefox"/>`margin-trim` property is already in Safari](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-trim#browser_compatibility) so let’s go. My thinking on this boils down to **if you set padding in a direction on an element, `margin-trim` in that same direction.**
+The [<VPIcon icon="fa-brands fa-firefox" />`margin-trim` property is already in Safari](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-trim#browser_compatibility) so let’s go. My thinking on this boils down to **if you set padding in a direction on an element, `margin-trim` in that same direction.**
 
 While we’re talking about trimming, Jason Bradberry’s [<VPIcon icon="fas fa-globe"/>Why I’m excited about text-box-trim as a designer](https://piccalil.li//blog/why-im-excited-about-text-box-trim-as-a-designer/) deserves a shout-out on this list.
 

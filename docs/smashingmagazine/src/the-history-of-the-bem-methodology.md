@@ -1031,7 +1031,15 @@ This article is based on an introductory presentation given by [Vitaly Harisov (
 }
 ```
 
-- [**Write Better CSS By Borrowing Ideas From JavaScript Functions**](/smashingmagazine.com/write-better-css-borrow-ideas-javascript-functions.md)
+```component VPCard
+{
+  "title": "Write Better CSS By Borrowing Ideas From JavaScript Functions",
+  "desc": "Many problems with website layouts happen when we don’t write CSS with the same care we’d use when writing a JavaScript function. Let’s look at how we can borrow best practices and ideas from writing good JavaScript functions for writing CSS.",
+  "link": "/smashingmagazine.com/write-better-css-borrow-ideas-javascript-functions.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
 
 :::
 

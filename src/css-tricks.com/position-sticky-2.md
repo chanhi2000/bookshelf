@@ -50,9 +50,9 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-socia
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png"/>
 
-Better `position: sticky;` support is [<VPIcon icon="iconfont icon-caniuse"/>on the horizon](http://caniuse.com/#feat=css-sticky). WebKit dropped in 2013, Firefox in 2014, and now Blink in (probably) 2016. [<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/position#Sticky_positioning) explains it well:
+Better `position: sticky;` support is [<VPIcon icon="iconfont icon-caniuse"/>on the horizon](http://caniuse.com/#feat=css-sticky). WebKit dropped in 2013, Firefox in 2014, and now Blink in (probably) 2016. [<VPIcon icon="fa-brands fa-firefox" />MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/position#Sticky_positioning) explains it well:
 
-::: info MDN (<VPIcon icon="fa-brands fa-firefox"/><code>developer.mozilla.org</code>)
+::: info MDN (<VPIcon icon="fa-brands fa-firefox" /><code>developer.mozilla.org</code>)
 
 > Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
 

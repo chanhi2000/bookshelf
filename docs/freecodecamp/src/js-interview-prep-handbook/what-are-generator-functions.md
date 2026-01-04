@@ -62,13 +62,13 @@ function* generatorFunction() {
 }
 ```
 
-A generator function is declared with `function*` and the `yield` keyword is used to pause execution and return a value. The above syntax creates a [<VPIcon icon="fa-brands fa-firefox"/>GeneratorFunction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction) object.
+A generator function is declared with `function*` and the `yield` keyword is used to pause execution and return a value. The above syntax creates a [<VPIcon icon="fa-brands fa-firefox" />GeneratorFunction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction) object.
 
 ```js
 const gen = generatorFunction()
 ```
 
-‌This object uses an [<VPIcon icon="fa-brands fa-firefox"/>iterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterator_protocol) to execute a generator function. The iterator provides a `next()` method that executes the function's body till the next yield statement and returns an object containing the yielded value and a `done` property (Boolean), which indicates if the generator function has reached its end.
+‌This object uses an [<VPIcon icon="fa-brands fa-firefox" />iterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterator_protocol) to execute a generator function. The iterator provides a `next()` method that executes the function's body till the next yield statement and returns an object containing the yielded value and a `done` property (Boolean), which indicates if the generator function has reached its end.
 
 Let's call the generator function:
 

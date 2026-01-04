@@ -226,7 +226,7 @@ The original snippet at the top of this post references a lot of files with stra
 
 **Stands for:** Web Open Font Format.
 
-Created for use on the web, and [<VPIcon icon="fa-brands fa-firefox"/>developed by Mozilla](https://developer.mozilla.org/en-US/docs/Web/Guide/WOFF) in conjunction with other organizations, WOFF fonts often load faster than other formats because they use a compressed version of the structure used by OpenType (OTF) and TrueType (TTF) fonts. This format can also include metadata and license info within the font file. This format seems to be the winner and where all browsers are headed.
+Created for use on the web, and [<VPIcon icon="fa-brands fa-firefox" />developed by Mozilla](https://developer.mozilla.org/en-US/docs/Web/Guide/WOFF) in conjunction with other organizations, WOFF fonts often load faster than other formats because they use a compressed version of the structure used by OpenType (OTF) and TrueType (TTF) fonts. This format can also include metadata and license info within the font file. This format seems to be the winner and where all browsers are headed.
 
 [<VPIcon icon="iconfont icon-w3c"/>WOFF2](http://dev.w3.org/webfonts/WOFF2/spec/) is the next generation of WOFF and boasts better compression than the original.
 
@@ -234,7 +234,7 @@ Created for use on the web, and [<VPIcon icon="fa-brands fa-firefox"/>developed 
 
 **Stands for:** Scalable Vector Graphics (Font)
 
-SVG is a vector re-creation of the font, which makes it much lighter in file size, and also makes it ideal for mobile use. This format is the only one allowed by version 4.1 and below of Safari for iOS. SVG fonts are not currently supported by Firefox, IE or IE Mobile. [<VPIcon icon="fa-brands fa-firefox"/>Firefox has postponed implementation](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_fonts) indefinitely to focus on WOFF.
+SVG is a vector re-creation of the font, which makes it much lighter in file size, and also makes it ideal for mobile use. This format is the only one allowed by version 4.1 and below of Safari for iOS. SVG fonts are not currently supported by Firefox, IE or IE Mobile. [<VPIcon icon="fa-brands fa-firefox" />Firefox has postponed implementation](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_fonts) indefinitely to focus on WOFF.
 
 SVGZ is the zipped version of SVG.
 

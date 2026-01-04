@@ -53,7 +53,7 @@ cover: /assets/image/blog.logrocket.com/methods-for-deep-cloning-objects-in-java
 
 ## Introduction
 
-In JavaScript, objects are like a store or collection of key-value pairs. They are a kind of [<VPIcon icon="fa-brands fa-firefox"/>structural data type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures), which can be seen as a collection of properties. These properties can either be values of other data types, including primitive types like `Boolean`, `Number`, `undefined`, etc., or even other objects. Therefore, with objects, we can build even more complex data structures.
+In JavaScript, objects are like a store or collection of key-value pairs. They are a kind of [<VPIcon icon="fa-brands fa-firefox" />structural data type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures), which can be seen as a collection of properties. These properties can either be values of other data types, including primitive types like `Boolean`, `Number`, `undefined`, etc., or even other objects. Therefore, with objects, we can build even more complex data structures.
 
 ![Methods for Deep Cloning Objects in JavaScript](/assets/image/blog.logrocket.com/methods-for-deep-cloning-objects-in-javascript/banner.png)
 
@@ -92,7 +92,7 @@ We can make use of the `Object.is()` method to determine whether the two values 
 
 JavaScript offers many ways of copying objects, but they do not provide a deep copy. Performing shallow copies is the default behavior in most of the cases.
 
-We should note that ES6 provides two shorter syntaxes for shallow copying objects in the language. They include [<VPIcon icon="fa-brands fa-firefox"/>`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)` and the [<VPIcon icon="fa-brands fa-firefox"/>spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax), which copies values of all [<VPIcon icon="fa-brands fa-firefox"/>enumerable own properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties). from one object to another.
+We should note that ES6 provides two shorter syntaxes for shallow copying objects in the language. They include [<VPIcon icon="fa-brands fa-firefox" />`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)` and the [<VPIcon icon="fa-brands fa-firefox" />spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax), which copies values of all [<VPIcon icon="fa-brands fa-firefox" />enumerable own properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties). from one object to another.
 
 ::: note
 
@@ -111,7 +111,7 @@ Let’s look at them one after the other:
 
 ### Copying an object with the `Object.assign()` method
 
-Among the [<VPIcon icon="fa-brands fa-firefox"/>object constructor methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#), `Object.assign()` is used to copy the values and properties from one or more source objects to a target object. It returns the target object, which has properties and values copied from the source object.
+Among the [<VPIcon icon="fa-brands fa-firefox" />object constructor methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#), `Object.assign()` is used to copy the values and properties from one or more source objects to a target object. It returns the target object, which has properties and values copied from the source object.
 
 Since `Object.assign()` copies property values, it is unsuitable for deep cloning. Basically, we can use this method for shallow cloning an object and for merging two or more objects into one bigger object with the same properties.
 
@@ -173,7 +173,7 @@ Being a shallow copy, values are cloned and object references are copied —not 
 
 ### Copying an object with the spread syntax
 
-The [spread operator (<VPIcon icon="iconfont icon-github"/>`tc39/proposal-object-rest-spread`)](https://github.com/tc39/proposal-object-rest-spread) is an ES2018 feature that adds [<VPIcon icon="fa-brands fa-firefox"/>spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator) properties to object literals. It provides a very convenient way to perform a shallow clone, equivalent to what `Object.assign()` does. With objects, the spread operator is used to create copies of existing objects with new or updated values.
+The [spread operator (<VPIcon icon="iconfont icon-github"/>`tc39/proposal-object-rest-spread`)](https://github.com/tc39/proposal-object-rest-spread) is an ES2018 feature that adds [<VPIcon icon="fa-brands fa-firefox" />spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator) properties to object literals. It provides a very convenient way to perform a shallow clone, equivalent to what `Object.assign()` does. With objects, the spread operator is used to create copies of existing objects with new or updated values.
 
 It copies enumerable properties from a provided object onto a new object. Let’s see an example usage, as per the syntax:
 
@@ -200,7 +200,7 @@ console.log(mergedObj)
 // { name: 'Alexander', age: 26, Licensed: true, location: 'Ikeja' }
 ```
 
-From the above, we can see that `mergedObj` is a copy of `objA` and `objB`. Actually, every enumerable property on the objects will be copied to the final `mergedObj` object. The spread operator is just a shorthand for the `Object.assign()` method, but there are some subtle differences between the two, including the fact that `Object.assign()` triggers [<VPIcon icon="fa-brands fa-firefox"/>`setters`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set), whereas the spread operator does not.
+From the above, we can see that `mergedObj` is a copy of `objA` and `objB`. Actually, every enumerable property on the objects will be copied to the final `mergedObj` object. The spread operator is just a shorthand for the `Object.assign()` method, but there are some subtle differences between the two, including the fact that `Object.assign()` triggers [<VPIcon icon="fa-brands fa-firefox" />`setters`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set), whereas the spread operator does not.
 
 ::: note
 

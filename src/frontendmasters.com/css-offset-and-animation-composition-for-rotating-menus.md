@@ -79,7 +79,7 @@ I’ll take you through the second example to cover the basics.
 
 ## The Layout
 
-Just some semantic HTML here. Since we’re offering a menu of options, a `<menu>` seems appropriate (yes, [<VPIcon icon="fa-brands fa-firefox"/>`<li>` is correct as a child](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/menu)!) and each button is focusable.
+Just some semantic HTML here. Since we’re offering a menu of options, a `<menu>` seems appropriate (yes, [<VPIcon icon="fa-brands fa-firefox" />`<li>` is correct as a child](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/menu)!) and each button is focusable.
 
 ```html
 <main>
@@ -138,9 +138,9 @@ li {
 
 The `offset` (a longhand property) positions all the `<li>` elements along the `<menu>`’s `padding-box` that has been set as the *offset path*.
 
-:: info MDN Web Docs (<VPIcon icon="fa-brands fa-firefox"/>`developer.mozilla.org`)
+:: info MDN Web Docs (<VPIcon icon="fa-brands fa-firefox" />`developer.mozilla.org`)
 
-The **offset** CSS shorthand property sets all the properties required for animating an element along a defined path. The offset properties together help to define an offset transform, a transform that aligns a point in an element ([<VPIcon icon="fa-brands fa-firefox"/>offset-anchor](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-anchor)) to an offset position ([<VPIcon icon="fa-brands fa-firefox"/>offset-position](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-position)) on a path ([<VPIcon icon="fa-brands fa-firefox"/>offset-path](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-path)) at various points along the path ([<VPIcon icon="fa-brands fa-firefox"/>offset-distance](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-distance)) and optionally rotates the element ([<VPIcon icon="fa-brands fa-firefox"/>offset-rotate](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-rotate)) to follow the direction of the path.
+The **offset** CSS shorthand property sets all the properties required for animating an element along a defined path. The offset properties together help to define an offset transform, a transform that aligns a point in an element ([<VPIcon icon="fa-brands fa-firefox" />offset-anchor](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-anchor)) to an offset position ([<VPIcon icon="fa-brands fa-firefox" />offset-position](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-position)) on a path ([<VPIcon icon="fa-brands fa-firefox" />offset-path](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-path)) at various points along the path ([<VPIcon icon="fa-brands fa-firefox" />offset-distance](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-distance)) and optionally rotates the element ([<VPIcon icon="fa-brands fa-firefox" />offset-rotate](https://developer.mozilla.org/en-US/docs/Web/CSS/offset-rotate)) to follow the direction of the path.
 
 <SiteInfo
   name="offset - CSS | MDN"
@@ -220,9 +220,9 @@ Here’s how it *would’ve been* without `animation-composition: add`:
 | 2 | 10% | 50% |
 | 3 | 20% | 50% |
 
-::: info MDN Web Docs (<VPIcon icon="fa-brands fa-firefox"/>`developer.mozilla.org`)
+::: info MDN Web Docs (<VPIcon icon="fa-brands fa-firefox" />`developer.mozilla.org`)
 
-> The **animation-composition** CSS property specifies the [<VPIcon icon="fa-brands fa-firefox"/>composite operation](https://developer.mozilla.org/en-US/docs/Glossary/Composite_operation) to use when multiple animations affect the same property simultaneously.
+> The **animation-composition** CSS property specifies the [<VPIcon icon="fa-brands fa-firefox" />composite operation](https://developer.mozilla.org/en-US/docs/Glossary/Composite_operation) to use when multiple animations affect the same property simultaneously.
 
 :::
 
@@ -243,7 +243,7 @@ In the menu button’s click handler, `revolve()`, set the `<li>` elements’ `a
 
 Assigning the animation name triggers the corresponding keyframes animation each time the `<button>` is clicked.
 
-Using the method covered in this post, it’s possible to control how much along a revolution the elements are to move (demo one), and which direction. You can also experiment with different offset path shapes. You can declare (`@keyframes`) and trigger (`:checked`, `:hover`, etc.) the animations in CSS, or using JavaScript’s [<VPIcon icon="fa-brands fa-firefox"/>Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect) that includes the animation composition property.
+Using the method covered in this post, it’s possible to control how much along a revolution the elements are to move (demo one), and which direction. You can also experiment with different offset path shapes. You can declare (`@keyframes`) and trigger (`:checked`, `:hover`, etc.) the animations in CSS, or using JavaScript’s [<VPIcon icon="fa-brands fa-firefox" />Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect) that includes the animation composition property.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

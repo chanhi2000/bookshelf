@@ -205,7 +205,7 @@ For now, let’s write “Hello World” back to the browser. We do so by using 
 app.get('/', function(req, res) {  res.send('Hello World')})// Note: request and response are usually written as req and res respectively.
 ```
 
-I’m going to start writing in ES6 code and show you how to convert to ES6 along the way as well. First off, I’m replacing the `function()` with the [<VPIcon icon="fa-brands fa-firefox"/>ES6 arrow function](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions). The below code is the same as the above code:
+I’m going to start writing in ES6 code and show you how to convert to ES6 along the way as well. First off, I’m replacing the `function()` with the [<VPIcon icon="fa-brands fa-firefox" />ES6 arrow function](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions). The below code is the same as the above code:
 
 ```js title="src/server.js"
 app.get('/', (req, res) => {  res.send('hello world')})

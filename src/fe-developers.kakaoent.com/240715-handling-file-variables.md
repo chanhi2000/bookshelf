@@ -256,7 +256,7 @@ HTML5에 대한 표준 스펙이 명시되어 있는 [<VPIcon icon="fa-brands fa
 
 > 각 Document 객체는 초기에 값이 비어있는 모듈 맵 (Module Map)을 가지고 있다.**
 
-**모듈 맵**이 정확히 무엇이고 어떤 역할을 하는지는 [<VPIcon icon="fa-brands fa-firefox"/>Mozilla 블로그 포스팅](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/) 에 아주 상세하게 설명되어 있습니다. 다만 해당 내용이 매우 길기 때문에, 이 글에서는 모듈 맵이 다음과 같은 특성을 가진다는 것만 짚고 넘어가도 충분합니다.
+**모듈 맵**이 정확히 무엇이고 어떤 역할을 하는지는 [<VPIcon icon="fa-brands fa-firefox" />Mozilla 블로그 포스팅](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/) 에 아주 상세하게 설명되어 있습니다. 다만 해당 내용이 매우 길기 때문에, 이 글에서는 모듈 맵이 다음과 같은 특성을 가진다는 것만 짚고 넘어가도 충분합니다.
 
 - 모듈 스크립트를 임포트하면 이 정보가 모듈 맵에 저장됩니다.
 - 모듈 맵은 모듈 스크립트에 대한 캐시 저장소 역할을 제공합니다.

@@ -75,7 +75,7 @@ It's best to actually use a screen reader, or another assistive technology, to e
 
 ::: tabs
 
-@tab:active <VPIcon icon="fa-brands fa-firefox"/>Firefox
+@tab:active <VPIcon icon="fa-brands fa-firefox" />Firefox
 
 Firefox has a dedicated Accessibility tool. To open it:
 

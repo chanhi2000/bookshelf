@@ -78,8 +78,8 @@ You don’t need advanced knowledge of web development to follow this tutorial, 
 You should know the basics of the following topics, though:
 
 - Python graphing libraries such as Plotly, [**Bokeh**](/realpython.com/python-data-visualization-bokeh.md), and [**Matplotlib**](/realpython.com/python-matplotlib-guide.md)
-- HTML and the [<VPIcon icon="fa-brands fa-firefox"/>structure of an HTML file](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-- [<VPIcon icon="fa-brands fa-firefox"/>CSS and style sheets](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
+- HTML and the [<VPIcon icon="fa-brands fa-firefox" />structure of an HTML file](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+- [<VPIcon icon="fa-brands fa-firefox" />CSS and style sheets](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
 
 :::
 

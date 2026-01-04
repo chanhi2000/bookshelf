@@ -551,7 +551,7 @@ Merging objects is not a typical practice in JavaScript, but this method enables
 
 Structured cloning is a new technique for copying objects in JavaScript. It is a global method that uses the structured clone algorithm to create a deep copy of a specified item. Rather than cloning objects, it transfers objects from their original source to a new source where they are no longer accessible in the original source.
 
-This technique may be used with [<VPIcon icon="fa-brands fa-firefox"/>transferable objects](https://developer.mozilla.org/en-US/docs/Glossary/Transferable_objects), which is a type of object that owns resources. These objects can only be transferred using the original parameter’s transfer value. As a result of the transfer, the original object will be rendered unusable.
+This technique may be used with [<VPIcon icon="fa-brands fa-firefox" />transferable objects](https://developer.mozilla.org/en-US/docs/Glossary/Transferable_objects), which is a type of object that owns resources. These objects can only be transferred using the original parameter’s transfer value. As a result of the transfer, the original object will be rendered unusable.
 
 In the below example, the code would would transfer `Pascal` from the passed in value, but not `Akunne`:
 

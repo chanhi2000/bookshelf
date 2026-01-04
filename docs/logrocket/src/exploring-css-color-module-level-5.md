@@ -184,7 +184,7 @@ color-contrast(wheat vs tan, sienna, #b22222, #d2691e)
 color-contrast(wheat vs bisque, darkgoldenrod, olive, sienna, darkgreen, maroon to AA)
 ```
 
-> Code example from [<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-contrast).
+> Code example from [<VPIcon icon="fa-brands fa-firefox" />MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-contrast).
 
 Here are some additional details regarding the `color-contrast()` function:
 

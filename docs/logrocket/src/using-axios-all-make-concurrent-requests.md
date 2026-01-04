@@ -166,7 +166,7 @@ Since there is an [unofficial proposal (<VPIcon icon="iconfont icon-github"/>`ax
 
 Note that only the docs provide this depreciation, not the codebase/library. So, `axios.all` still works in the latest version of Axios, and many developers still use `axios.all` in modern codebase. Pointing out the deprecation is in anticipation that `axios.all` could be replaced at some point in the future.
 
-There is one important thing we should consider at this point, however. The `axios.all` is a helper method built with the [<VPIcon icon="fa-brands fa-firefox"/>native `Promise.all`method in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all). This implies we can easily replace the `axios.all` method with `promise.all`.
+There is one important thing we should consider at this point, however. The `axios.all` is a helper method built with the [<VPIcon icon="fa-brands fa-firefox" />native `Promise.all`method in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all). This implies we can easily replace the `axios.all` method with `promise.all`.
 
 The `Promise.all` method returns a promise that resolves when all of the promises in the iterable argument resolve.
 

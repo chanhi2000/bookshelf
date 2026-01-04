@@ -94,7 +94,7 @@ console.log( getMultiplicationResult(2, 5) ) // The multiplication of 2 and 5 is
 
 In the example above, `getResultOperation` receives a function and returns a new one. So it is a higher-order function.
 
-> The most popular higher-order functions in JavaScript are the array methods [<VPIcon icon="fa-brands fa-firefox"/>`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [<VPIcon icon="fa-brands fa-firefox"/>`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) or [<VPIcon icon="fa-brands fa-firefox"/>`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). They all apply some function passed as a parameter over the elements of the array to get something as a result.
+> The most popular higher-order functions in JavaScript are the array methods [<VPIcon icon="fa-brands fa-firefox" />`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [<VPIcon icon="fa-brands fa-firefox" />`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) or [<VPIcon icon="fa-brands fa-firefox" />`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). They all apply some function passed as a parameter over the elements of the array to get something as a result.
 
 ---
 

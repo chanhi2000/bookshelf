@@ -71,7 +71,7 @@ This regular expression will check if, at the beginning of the string, there is 
 $.terminal.new_formatter([any_command_re, '<white>$1</white>']);
 ```
 
-If you would like to make command arguments in different colors, you'll need a function, where you will use [<VPIcon icon="fa-brands fa-firefox"/>`String::replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace).
+If you would like to make command arguments in different colors, you'll need a function, where you will use [<VPIcon icon="fa-brands fa-firefox" />`String::replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace).
 
 ```js
 const re = new RegExp(`^\s*(${command_list.join('|')}) (.*)`);

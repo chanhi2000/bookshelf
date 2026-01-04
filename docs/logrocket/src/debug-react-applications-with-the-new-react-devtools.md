@@ -108,7 +108,7 @@ Now, you know how the React Developer Tools solution helps debug React apps and 
 React Developer Tools is available as an extension for modern popular browsers. Install the extension using the following links:
 
 - [<VPIcon icon="fa-brands fa-chrome"/>Google Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-- [<VPIcon icon="fa-brands fa-firefox"/>Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
+- [<VPIcon icon="fa-brands fa-firefox" />Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
 - [<VPIcon icon="fa-brands fa-edge"/>Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil)
 
 If you have already installed the extension, it should update automatically whenever the React team publishes a new version. If you use React Native, Safari, or another web browser, you can install the standalone version from [npm (<VPIcon icon="fa-brands fa-npm"/>`react-devtools`)](https://npmjs.com/package/react-devtools):

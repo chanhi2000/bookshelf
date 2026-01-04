@@ -402,7 +402,7 @@ This SVG `filter` needs to live inside an `svg` element. Since this `svg` elemen
 svg[height='0'][aria-hidden='true'] { position: fixed }
 ```
 
-The `filter` element also gets another attribute other than the `id`. We aren’t going into it, just know we need to set it to `sRGB` for cross-browser compatibility ***if*** we mess with the RGB channels, as the [<VPIcon icon="fa-brands fa-firefox"/>spec default](https://developer.mozilla.org/en-US/docs/Web/CSS/color-interpolation-filters#formal_definition) and the one used by all browsers nowadays is `linearRGB`, but `sRGB` is likely what we want in most cases, plus it used to be the *only* value that worked in Safari, though that has recently changed.
+The `filter` element also gets another attribute other than the `id`. We aren’t going into it, just know we need to set it to `sRGB` for cross-browser compatibility ***if*** we mess with the RGB channels, as the [<VPIcon icon="fa-brands fa-firefox" />spec default](https://developer.mozilla.org/en-US/docs/Web/CSS/color-interpolation-filters#formal_definition) and the one used by all browsers nowadays is `linearRGB`, but `sRGB` is likely what we want in most cases, plus it used to be the *only* value that worked in Safari, though that has recently changed.
 
 In our particular case, if we don’t set the `color-interpolation-filters` attribute to `sRGB`, we won’t get equally sized steps in any browser other than older Safari versions which use `sRGB` anyway.
 
@@ -566,7 +566,7 @@ This way, our CSS can become:
 
 Much simpler!
 
-The catch? While Safari has supported this for a decade (I first learned about this function and the Safari implementation in [<VPIcon icon="fas fa-globe"/>the summer of 2015](https://iamvdo.me/en/blog/advanced-css-filters#filter)!), [no other browser has followed (<VPIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717) since. Here are the [<VPIcon icon="fa-brands fa-chrome"/>Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=541698) and [<VPIcon icon="fa-brands fa-firefox"/>Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043) bugs for anyone who wants to show interest and add to the use cases.
+The catch? While Safari has supported this for a decade (I first learned about this function and the Safari implementation in [<VPIcon icon="fas fa-globe"/>the summer of 2015](https://iamvdo.me/en/blog/advanced-css-filters#filter)!), [no other browser has followed (<VPIcon icon="iconfont icon-github"/>`web-platform-tests/interop`)](https://github.com/web-platform-tests/interop/issues/717) since. Here are the [<VPIcon icon="fa-brands fa-chrome"/>Chrome](https://bugs.chromium.org/p/chromium/issues/detail?id=541698) and [<VPIcon icon="fa-brands fa-firefox" />Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1191043) bugs for anyone who wants to show interest and add to the use cases.
 
 Here is [the `filter()` version (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/gbpZRBZ) of the stepped gradients demo, but keep in mind it only works in Safari.
 
@@ -793,7 +793,7 @@ What makes this possible and easy is the fact that, by default, `background-size
 
 ![by default, backgrounds cover the entire `border-box`, but start from the top left corner of the `padding-box`](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2025/06/456658499-d7fd70ab-3c68-453f-a5fd-a17d380546cb.png?resize=626%2C562&ssl=1)
 
-Note that the whole reflect and repeat could be very much simplified on the CSS side if CSS gradients also allowed reflecting repetition [<VPIcon icon="fa-brands fa-firefox"/>like SVG ones do](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/spreadMethod).
+Note that the whole reflect and repeat could be very much simplified on the CSS side if CSS gradients also allowed reflecting repetition [<VPIcon icon="fa-brands fa-firefox" />like SVG ones do](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/spreadMethod).
 
 ---
 

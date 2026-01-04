@@ -297,7 +297,7 @@ The mono background above is created as follows (all these demos adapt to user t
 
 This method is perfect for such mono backgrounds, but if we want gradient or image ones, there are some aspects we need to consider.
 
-The thing about the `0 50cqw` [<VPIcon icon="fa-brands fa-firefox"/>outset](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-outset) value is that it tells the browser to extend the area where the `border-image` is painted by `50cqw` outwards from the `padding-box` boundary on the lateral sides. This means it extends outside the vewport, but since this is just the `border-image`, not the `border` reserving space, it doesn’t cause overflow/ a horizontal scrollbar, so we can keep it simple and use it like this for gradients.
+The thing about the `0 50cqw` [<VPIcon icon="fa-brands fa-firefox" />outset](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-outset) value is that it tells the browser to extend the area where the `border-image` is painted by `50cqw` outwards from the `padding-box` boundary on the lateral sides. This means it extends outside the vewport, but since this is just the `border-image`, not the `border` reserving space, it doesn’t cause overflow/ a horizontal scrollbar, so we can keep it simple and use it like this for gradients.
 
 That is, if we can avoid percentage position trouble. While this is not an issue in linear top to bottom gradients, if we want to use percentages in linear left to right gradients or to position radial or conic ones, we need to scale the `[0%, 100%]` interval to the `[50% - 50cqw, 50% + 50cqw]` interval along the *x* axis.
 
@@ -394,7 +394,7 @@ body {
 
 fix for full-bleed background issue on narrow viewports ([live demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/bNEaEON))
 
-For actual images however, we have an even bigger problem: `border-image` doesn’t offer the `cover` option we have for backgrounds or images and we don’t really have a reliable way of getting around this. One of the [<VPIcon icon="fa-brands fa-firefox"/>repeat options](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-repeat) might work for us in some scenarios, but I find that’s rarely the case for the results I want in such situations.
+For actual images however, we have an even bigger problem: `border-image` doesn’t offer the `cover` option we have for backgrounds or images and we don’t really have a reliable way of getting around this. One of the [<VPIcon icon="fa-brands fa-firefox" />repeat options](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-repeat) might work for us in some scenarios, but I find that’s rarely the case for the results I want in such situations.
 
 You can see the problem in [this demo (<VPIcon icon="fa-brands fa-codepen"/>`thebabydino`)](https://codepen.io/thebabydino/pen/qEOjaaV) when resizing the viewport — for an element whose `height` is unknown as it depends on its content, the `border-image` option (the second one) means that if we want to avoid the image getting distorted, then its size needs to be intrinsic size. Always. It never scales, which means it repeats for large viewports and its sides get clipped off for small viewports.
 
@@ -506,7 +506,7 @@ The simple modern solution is to make the `img` a `block` element so that the `j
 img.full-bleed-elem { display: block }
 ```
 
-However, support for `justify-self` applying to `block` elements as per the [<VPIcon icon="fas fa-globe"/>current spec](https://drafts.csswg.org/css-align/#overview) is still limited to only Chromium browsers at the moment. And while the [<VPIcon icon="fa-brands fa-firefox"/>Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1930584) seems to have had some activity lately, the [<VPIcon icon="iconfont icon-webkit"/>Safari one](https://bugs.webkit.org/show_bug.cgi?id=277022) looks like it’s dormant.
+However, support for `justify-self` applying to `block` elements as per the [<VPIcon icon="fas fa-globe"/>current spec](https://drafts.csswg.org/css-align/#overview) is still limited to only Chromium browsers at the moment. And while the [<VPIcon icon="fa-brands fa-firefox" />Firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1930584) seems to have had some activity lately, the [<VPIcon icon="iconfont icon-webkit"/>Safari one](https://bugs.webkit.org/show_bug.cgi?id=277022) looks like it’s dormant.
 
 So the easy cross-browser way to get around that without any further computations is to make the `figure` a `grid` too in this case.
 
