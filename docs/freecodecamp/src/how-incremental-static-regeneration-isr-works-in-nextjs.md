@@ -410,7 +410,7 @@ Next.js will immediately rebuild `/posts/my-new-post`, no need to wait for the t
 
 ::: important
 
-- Always use a secret token and store it safely (like in <VPIcon icon="fas fa-file-lines"/>`.env` files).
+- Always use a secret token and store it safely (like in <VPIcon icon="iconfont icon-doitenv" />`.env` files).
 - Make sure only trusted systems (like your CMS or admin panel) can call the revalidate API.
 
 :::

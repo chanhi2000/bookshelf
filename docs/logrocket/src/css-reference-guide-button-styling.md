@@ -65,7 +65,7 @@ In this guide, we will create our own button style classes from pure CSS. The fo
   slug-hash="qBZoMXm"
   title="buttons examples"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 function registerNinjaFormsCallback() { if (!(window.nfRadio && window.lr_analytics)) { return; } window.nfRadio.channel("forms").on("submit:response", function(submission) { console.log(submission); if (submission.data.form_id !== "48") { return; } window.lr_analytics.track("blog-replay-newsletter-signup", { post: window.location.pathname, email: submission.data.fields_by_key?.email?.value, }); }); } registerNinjaFormsCallback();
 

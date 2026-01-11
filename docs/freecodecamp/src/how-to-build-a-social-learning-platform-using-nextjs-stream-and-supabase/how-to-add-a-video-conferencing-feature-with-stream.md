@@ -66,7 +66,7 @@ Create a [<VPIcon icon="fas fa-globe"/>Stream account](https://getstream.io/) an
 
 ![Form for creating an organization, with fields for organization name, e-mail address, and website URL, and buttons labeled "Cancel" and "Submit".](https://cdn.hashnode.com/res/hashnode/image/upload/v1740657831403/ba044353-b0f4-4380-82cf-5abeedd68ac9.png)
 
-Add a new app to the organization and copy the Stream API and Secret key into the <VPIcon icon="fas fa-file-lines"/>`.env.local` file.
+Add a new app to the organization and copy the Stream API and Secret key into the <VPIcon icon="iconfont icon-doitenv" />`.env.local` file.
 
 ```sh title=".env.local"
 NEXT_PUBLIC_STREAM_API_KEY=<paste_from_Stream_app_dashboard>

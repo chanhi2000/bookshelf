@@ -74,7 +74,7 @@ Here’s the definition from the [<VPIcon icon="iconfont icon-w3c"/>CSS Cascade 
   "desc": "The cascade takes an unordered list of declared values for a given property on a given element, sorts them by their declaration’s precedence as determined below, and outputs a single cascaded value.",
   "link": "https://w3.org/TR/css-cascade-4/#cascading/",
   "logo": "https://w3.org/favicon.ico",
-  "background": "rgba(47,93,149,0.2)"
+  "background": "rgba(0,90,156,0.2)"
 }
 ```
 

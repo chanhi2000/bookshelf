@@ -260,7 +260,7 @@ const connectDB = async () => {
 module.exports = connectDB;
 ```
 
-`mongoose.connect` reads the connection string from <VPIcon icon="fas fa-file-lines"/>`.env`. If the connection fails, we exit the process so we don’t continue in a broken state.
+`mongoose.connect` reads the connection string from <VPIcon icon="iconfont icon-doitenv" />`.env`. If the connection fails, we exit the process so we don’t continue in a broken state.
 
 Update your <VPIcon icon="fa-brands fa-js"/>`server.js` to include the connection:
 
@@ -269,7 +269,7 @@ const connectDB = require('./config/db');
 connectDB();
 ```
 
-And don’t forget to add your MongoDB URI in the <VPIcon icon="fas fa-file-lines"/>`.env` file:
+And don’t forget to add your MongoDB URI in the <VPIcon icon="iconfont icon-doitenv" />`.env` file:
 
 ```sh title=".env"
 MONGO_URI=mongodb+srv://yourusername:yourpassword@cluster.mongodb.net/auth
@@ -471,7 +471,7 @@ Then remove the header or change the token and call again. You should get a 401.
 - 401 with “Missing or invalid Authorization header” means the header format is wrong. Use `Authorization: Bearer <token>`.
 - 401 with “Invalid token” means the token string is wrong, signed with the wrong secret, or corrupted.
 - 401 with “Access token expired” means the expiry check works. You will fix the client experience with the refresh endpoint later.
-- If all calls fail, confirm your `JWT_SECRET` is set in <VPIcon icon="fas fa-file-lines"/>`.env` and that the server was restarted after changes.
+- If all calls fail, confirm your `JWT_SECRET` is set in <VPIcon icon="iconfont icon-doitenv" />`.env` and that the server was restarted after changes.
 
 ### 5. Optional Cookie Support
 
@@ -789,7 +789,7 @@ There are some key steps you can take to make sure everything is secure:
 
 #### Separate secrets
 
-Use a different secret for access and refresh tokens. If the access secret leaks, refresh tokens still use a different key. Set `JWT_SECRET` and `REFRESH_TOKEN_SECRET` in <VPIcon icon="fas fa-file-lines"/>`.env`.
+Use a different secret for access and refresh tokens. If the access secret leaks, refresh tokens still use a different key. Set `JWT_SECRET` and `REFRESH_TOKEN_SECRET` in <VPIcon icon="iconfont icon-doitenv" />`.env`.
 
 #### HTTPS only
 
@@ -819,7 +819,7 @@ Store `ip` and `userAgent`. If patterns change in a suspicious way, you can revo
 
 Log refresh events and consider rate limits on the refresh endpoint. This helps detect abuse.’
 
-Add to <VPIcon icon="fas fa-file-lines"/>`.env`:
+Add to <VPIcon icon="iconfont icon-doitenv" />`.env`:
 
 ```sh title=".env"
 REFRESH_TOKEN_SECRET=your_refresh_secret_key

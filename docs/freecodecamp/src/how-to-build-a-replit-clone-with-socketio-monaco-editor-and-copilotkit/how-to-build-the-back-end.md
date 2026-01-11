@@ -54,7 +54,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740064335866/a058fbf
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/res/hashnode/image/upload/v1740064335866/a058fbf3-2d89-4e95-9d3b-07224f3985be.png"/>
 
-Before we start building the back end, you’ll need to put all important credentials into your <VPIcon icon="fas fa-file-lines"/>`.env` file, which should look like this:
+Before we start building the back end, you’ll need to put all important credentials into your <VPIcon icon="iconfont icon-doitenv" />`.env` file, which should look like this:
 
 ```sh title=".env"
 NEXT_PUBLIC_GROQ_CLOUD_API_KEY=<your-key-here>

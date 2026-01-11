@@ -45,8 +45,7 @@ cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd62
 
 <SiteInfo
   name="A Primer On CSS Container Queries"
-  desc="In more recent years, design systems and component libraries have gained popularity. There is also a desire to build once, deploy anywhere. Meaning a component developed in isolation is intended to work in any number of contexts to make building complex interfaces more efficient and consistent. CSS container queries have landed and are now available for experimentation. Let’s look at what problem is being solved, learn how container queries work, and see how they compare with and complement existing CSS features for layout.
-"
+  desc="In more recent years, design systems and component libraries have gained popularity. There is also a desire to build once, deploy anywhere. Meaning a component developed in isolation is intended to work in any number of contexts to make building complex interfaces more efficient and consistent. CSS container queries have landed and are now available for experimentation. Let’s look at what problem is being solved, learn how container queries work, and see how they compare with and complement existing CSS features for layout."
   url="https://smashingmagazine.com/2021/05/complete-guide-css-container-queries/"
   logo="https://smashingmagazine.com/images/favicon/favicon.svg"
   preview="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a2c88b2c-ef73-44e3-885c-2c5c322fb781/smashing-articles-original.png"/>
@@ -75,7 +74,12 @@ Or, developers may be using certain CSS grid and flex behaviors to approximate c
 
 **Container queries** move us beyond considering only the viewport, and allow *any* component or element to respond to a defined container’s width. So while you may still use a responsive grid for overall page layout, a component within that grid can define its own changes in behavior by querying its container. Then, it can adjust its styles depending on whether it’s displayed in a narrow or wide container.
 
-See the Pen [Container Queries — Minimal Flexbox Grid Layout Example (<VPIcon icon="fa-brands fa-codepen" />`smashingmag`)](https://codepen.io/smashingmag/pen/QWqJbrW) by [Stephanie Eckles](https://codepen.io/5t3ph).
+<CodePen
+  user="smashingmag"
+  slug-hash="QWqJbrW"
+  title="Container Queries — Minimal Flexbox Grid Layout Example"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 > [<VPIcon icon="fa-brands fa-x-twitter"/>Container queries move us beyond considering only the viewport, and allow any component or element to respond to a defined container’s width.](https://x.com/share?text=%0aContainer%20queries%20move%20us%20beyond%20considering%20only%20the%20viewport,%20and%20allow%20any%20component%20or%20element%20to%20respond%20to%20a%20defined%20container%e2%80%99s%20width.%0a&url=https://smashingmagazine.com%2f2021%2f05%2fcomplete-guide-css-container-queries%2f)
 
@@ -537,8 +541,7 @@ Tangential to the container queries spec is the ability to use “[<VPIcon icon=
 ```component VPCard
 {
   "title": "A Primer On CSS Container Queries",
-  "desc": "In more recent years, design systems and component libraries have gained popularity. There is also a desire to build once, deploy anywhere. Meaning a component developed in isolation is intended to work in any number of contexts to make building complex interfaces more efficient and consistent. CSS container queries have landed and are now available for experimentation. Let’s look at what problem is being solved, learn how container queries work, and see how they compare with and complement existing CSS features for layout.
-",
+  "desc": "In more recent years, design systems and component libraries have gained popularity. There is also a desire to build once, deploy anywhere. Meaning a component developed in isolation is intended to work in any number of contexts to make building complex interfaces more efficient and consistent. CSS container queries have landed and are now available for experimentation. Let’s look at what problem is being solved, learn how container queries work, and see how they compare with and complement existing CSS features for layout.",
   "link": "https://chanhi2000.github.io/bookshelf/smashingmagazine.com/complete-guide-css-container-queries.html",
   "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
   "background": "rgba(211,58,44,0.2)"

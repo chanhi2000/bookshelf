@@ -181,7 +181,7 @@ npm install cheerio axios dotenv openai
 touch scraper.js fine-tune.js .gitignore .env
 ```
 
-Open the <VPIcon icon="fas fa-folder-open"/>`ai-fine-tuning-project` in a code editor and copy the following values into a <VPIcon icon="fas fa-file-lines"/>`.env` file in the scripts folder.
+Open the <VPIcon icon="fas fa-folder-open"/>`ai-fine-tuning-project` in a code editor and copy the following values into a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the scripts folder.
 
 ```sh title=".env"
 OPENAI_API_KEY=sk-...your-api-key-here...
@@ -850,13 +850,13 @@ npx shadcn@latest add scroll-area
 npx shadcn@latest add avatar
 ```
 
-Create the <VPIcon icon="fas fa-file-lines"/>`.env.local` file using the following command:
+Create the <VPIcon icon="iconfont icon-doitenv" />`.env.local` file using the following command:
 
 ```sh
 touch .env.local
 ```
 
-Add your environment variables in <VPIcon icon="fas fa-folder-open"/>`web/`<VPIcon icon="fas fa-file-lines"/>`.env.local`:
+Add your environment variables in <VPIcon icon="fas fa-folder-open"/>`web/`<VPIcon icon="iconfont icon-doitenv" />`.env.local`:
 
 ```sh title="web/.env.local"
 OPENAI_API_KEY=sk-...your-api-key...

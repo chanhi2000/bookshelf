@@ -416,7 +416,7 @@ Now, here’s how to set it all up:
 
 @tab:active 1.
 
-Use the ‘python-dotenv’ package to load environment variables from a <VPIcon icon="fas fa-file-lines"/>`.env` file. Install the lib with the following command:
+Use the ‘python-dotenv’ package to load environment variables from a <VPIcon icon="iconfont icon-doitenv" />`.env` file. Install the lib with the following command:
 
 ```sh
 pip install python-dotenv
@@ -424,7 +424,7 @@ pip install python-dotenv
 
 @tab 2.
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file in the root of your project to store your environment variables securely. This file will contain sensitive information, such as your Mailtrap API key, login credentials, and SMTP server details. Here’s an example:
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root of your project to store your environment variables securely. This file will contain sensitive information, such as your Mailtrap API key, login credentials, and SMTP server details. Here’s an example:
 
 ```sh title=".env"
 SMTP_SERVER=smtp.mailtrap.io
@@ -434,11 +434,11 @@ SMTP_PASSWORD=your_mailtrap_password
 MAILTRAP_API_KEY=your_mailtrap_api_key
 ```
 
-**Important note**: Ensure this <VPIcon icon="fas fa-file-lines"/>`.env` file is never pushed to version control (like Git). Add it to your ‘.gitignore’ to avoid accidental exposure.
+**Important note**: Ensure this <VPIcon icon="iconfont icon-doitenv" />`.env` file is never pushed to version control (like Git). Add it to your ‘.gitignore’ to avoid accidental exposure.
 
 @tab 3.
 
-Once you've created your <VPIcon icon="fas fa-file-lines"/>`.env` file, you need to load the variables into your Python script. At the top of your script, import the `dotenv` package and call ‘load_dotenv()’ to load the environment variables.
+Once you've created your <VPIcon icon="iconfont icon-doitenv" />`.env` file, you need to load the variables into your Python script. At the top of your script, import the `dotenv` package and call ‘load_dotenv()’ to load the environment variables.
 
 ```py
 from dotenv import load_dotenv
@@ -508,7 +508,7 @@ Second, use different environment variables for development, staging, and produc
 
 Once your environment variables are configured locally, deploy your application to a production environment. Make sure to set the same environment variables in your production server or service.
 
-If you're deploying to platforms like Heroku, AWS, or Google Cloud, you can use their environment variable management tools to securely store and access your secrets without having to manage a <VPIcon icon="fas fa-file-lines"/>`.env` file manually.
+If you're deploying to platforms like Heroku, AWS, or Google Cloud, you can use their environment variable management tools to securely store and access your secrets without having to manage a <VPIcon icon="iconfont icon-doitenv" />`.env` file manually.
 
 :::
 

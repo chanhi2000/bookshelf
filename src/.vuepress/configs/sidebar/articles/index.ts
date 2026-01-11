@@ -16,7 +16,7 @@ import { template as TEMPLATE_DOCKER } from './docker.com';
 import { template as TEMPLATE_TECMINT } from './tecmint.com';
 import { template as TEMPLATE_KOTZILLA } from './blog.kotzilla.io';
 import { template as TEMPLATE_OUTCOMES_SCHOOL } from './outcomeschool.com';
-import { template as TEMPLATE_LEARNK8S } from './learnk8s.io';
+import { template as TEMPLATE_LEARNKUBE } from './learnkube.com';
 import { template as TEMPLATE_LOGROCKET } from './blog.logrocket.com';
 import { template as TEMPLATE_REALPYTHON } from './realpython.com';
 import { template as TEMPLATE_MILAN_JOVANOVIC } from './milanjovanovic.tech';
@@ -152,7 +152,7 @@ export const articleSidebars = {
   tecmint:            (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TECMINT, type),
   kotzilla:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_KOTZILLA, type),
   outcomesSchool:     (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_OUTCOMES_SCHOOL, type),
-  learnk8s:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_LEARNK8S, type),
+  learnkube:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_LEARNKUBE, type),
   logrocket:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_LOGROCKET, type),
   realpython:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_REALPYTHON, type),
   yozm:               (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_YOZM, type),

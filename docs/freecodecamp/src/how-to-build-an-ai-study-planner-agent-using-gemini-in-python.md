@@ -225,9 +225,9 @@ Once the API Key is generated, SAVE it somewhere else. You may not get the same 
 
 :::
 
-### 5. Add Your Key to the <VPIcon icon="fas fa-file-lines"/>`.env` File
+### 5. Add Your Key to the <VPIcon icon="iconfont icon-doitenv" />`.env` File
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file inside <VPIcon icon="fas fa-folder-open"/>`backend/` and add your API key.
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file inside <VPIcon icon="fas fa-folder-open"/>`backend/` and add your API key.
 
 ```sh title=".env"
 GEMINI_API_KEY=your_api_key_here

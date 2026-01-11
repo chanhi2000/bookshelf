@@ -328,7 +328,7 @@ npm install express mongoose bcryptjs jsonwebtoken dotenv
 - `mongoose`: ODM (Object Data Modeling) library to interact with MongoDB easily.
 - `bcryptjs`: Library to hash and compare passwords securely.
 - `jsonwebtoken`: Library to generate and verify JWT tokens.
-- `dotenv`: Loads environment variables from a <VPIcon icon="fas fa-file-lines"/>`.env` file to keep secrets secure.
+- `dotenv`: Loads environment variables from a <VPIcon icon="iconfont icon-doitenv" />`.env` file to keep secrets secure.
 
 #### Install Dev Dependencies (Optional)
 
@@ -389,7 +389,7 @@ jwt-auth-demo/
 - `models/`: Mongoose schemas.
 - `routes/`: API endpoint definitions.
 - `services/`: Reusable logic (hashing, JWT).
-- <VPIcon icon="fas fa-file-lines"/>`.env`: Secrets and config variables.
+- <VPIcon icon="iconfont icon-doitenv" />`.env`: Secrets and config variables.
 - `server.js`: Entry point of the app.
 
 :::
@@ -748,7 +748,7 @@ or
 node server.js
 ```
 
-This will start your server on the port defined in <VPIcon icon="fas fa-file-lines"/>`.env` (default `5000`).
+This will start your server on the port defined in <VPIcon icon="iconfont icon-doitenv" />`.env` (default `5000`).
 
 Make sure your MongoDB is running. If using local MongoDB, start it with:
 

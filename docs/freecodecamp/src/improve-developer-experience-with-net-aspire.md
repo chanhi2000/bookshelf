@@ -207,7 +207,7 @@ builder.AddProject<Projects.CatalogService>("catalog")
        .WithReference(db); // injects connection string automatically
 ```
 
-Now when you run the app, Aspire will start PostgreSQL first, generate a connection string, and pass it to `CatalogService`. No manual setup or <VPIcon icon="fas fa-file-lines"/>`.env` files required.
+Now when you run the app, Aspire will start PostgreSQL first, generate a connection string, and pass it to `CatalogService`. No manual setup or <VPIcon icon="iconfont icon-doitenv" />`.env` files required.
 
 ---
 

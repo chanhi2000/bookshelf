@@ -118,7 +118,7 @@ createRoot(document.getElementById("root")!).render(
 );
 ```
 
-When you set up Convex, a <VPIcon icon="fas fa-file-lines"/>`.env.local` was created. You can see your backend URL in that file.
+When you set up Convex, a <VPIcon icon="iconfont icon-doitenv" />`.env.local` was created. You can see your backend URL in that file.
 
 In the line below, we instantiated the React Convex Client with the URL.
 

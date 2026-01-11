@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative

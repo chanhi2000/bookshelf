@@ -206,7 +206,7 @@ Enter a name for the key, then create a new project for the API key.
 
 After you have created the new API key, copy it and save it securely.
 
-Now that you have the API keys you’ll need for the AI gym companion, create a <VPIcon icon="fas fa-file-lines"/>`.env` file in the project’s root directory and add all the API keys like so:
+Now that you have the API keys you’ll need for the AI gym companion, create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the project’s root directory and add all the API keys like so:
 
 ```sh title=".env"
 GEMINI_API_KEY=your_gemini_key

@@ -127,6 +127,6 @@ The structure is organized as follows:
     - <VPIcon icon="fas fa-folder-open"/>`utils/`: Utilities and helper functions, like `server2.dart` for the server communication logic.
     - <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart`: The entry point of the Flutter application.
 - <VPIcon icon="fas fa-folder-open"/>`test/`: Directory for test files.
-- <VPIcon icon="fas fa-file-lines"/>`.env`: Environment-specific variables file.
+- <VPIcon icon="iconfont icon-doitenv" />`.env`: Environment-specific variables file.
 
 This setup is typical for a moderately complex Flutter application, segregating functionality into manageable, logical sections for better organization and maintainability.

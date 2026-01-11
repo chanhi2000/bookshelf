@@ -255,7 +255,7 @@ When your project has been deployed successfully, you can set up deployments for
 
 ![Netlify site configuration page of successfully deployed site, showing environment variables](https://cdn.hashnode.com/res/hashnode/image/upload/v1733953093253/26948920-70a7-47bc-8f53-4cb19a9d8543.png)
 
-You will be given the option of adding variables individually or importing an entire <VPIcon icon="fas fa-file-lines"/>`.env` file. You can choose either option. In the image below, I’ve selected “Import from a <VPIcon icon="fas fa-file-lines"/>`.env` file”.
+You will be given the option of adding variables individually or importing an entire <VPIcon icon="iconfont icon-doitenv" />`.env` file. You can choose either option. In the image below, I’ve selected “Import from a <VPIcon icon="iconfont icon-doitenv" />`.env` file”.
 
 ![Environment variables screen showing options available to add a variable - using a single variable entry or multi entry from a .env file](https://cdn.hashnode.com/res/hashnode/image/upload/v1734124727631/1bb20e6b-1232-4a79-bc18-2df2440cb641.png)
 

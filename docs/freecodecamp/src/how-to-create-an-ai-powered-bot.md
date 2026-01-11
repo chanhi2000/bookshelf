@@ -632,7 +632,7 @@ cd existential-crisis-alert-bot
 npm i
 ```
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file and update your API keys and secrets in that file:
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file and update your API keys and secrets in that file:
 
 ```sh title=".env"
 GEMINI_API_KEY=

@@ -141,7 +141,7 @@ Here’s how:
 
 @tab:active 1.
 
-Open your <VPIcon icon="fas fa-file-lines"/>`.env` file (create one if it doesn’t exist):
+Open your <VPIcon icon="iconfont icon-doitenv" />`.env` file (create one if it doesn’t exist):
 
 ```sh title=".env"
 SECRET_KEY='x3%6kn$mlg58+as!rcvnmvd8%(2p!p#&yk@r)+tdlj*w9kx!5gx'
@@ -173,7 +173,7 @@ Now your key is stored outside your code. Much safer.
 
 Make sure:
 
-- Your <VPIcon icon="fas fa-file-lines"/>`.env` file is added to <VPIcon icon="iconfont icon-git"/>`.gitignore`
+- Your <VPIcon icon="iconfont icon-doitenv" />`.env` file is added to <VPIcon icon="iconfont icon-git"/>`.gitignore`
 - You never push it to your repository
 
 Here’s how <VPIcon icon="iconfont icon-git"/>`.gitignore` should look:
@@ -182,7 +182,7 @@ Here’s how <VPIcon icon="iconfont icon-git"/>`.gitignore` should look:
 .env
 ```
 
-You’d be surprised how often <VPIcon icon="fas fa-file-lines"/>`.env` files get pushed by accident. Always double-check before you commit.
+You’d be surprised how often <VPIcon icon="iconfont icon-doitenv" />`.env` files get pushed by accident. Always double-check before you commit.
 
 ### 4. Restart Your App
 
@@ -239,9 +239,9 @@ Yes, just be mindful that changing it too often will log users out repeatedly.
 
 :::
 
-::: details I forgot to add <VPIcon icon="fas fa-file-lines"/>`.env` to <VPIcon icon="iconfont icon-git"/>`.gitignore`. What now?
+::: details I forgot to add <VPIcon icon="iconfont icon-doitenv" />`.env` to <VPIcon icon="iconfont icon-git"/>`.gitignore`. What now?
 
-Regenerate the key, update your project, and make sure the new <VPIcon icon="fas fa-file-lines"/>`.env` file isn’t tracked.
+Regenerate the key, update your project, and make sure the new <VPIcon icon="iconfont icon-doitenv" />`.env` file isn’t tracked.
 
 :::
 

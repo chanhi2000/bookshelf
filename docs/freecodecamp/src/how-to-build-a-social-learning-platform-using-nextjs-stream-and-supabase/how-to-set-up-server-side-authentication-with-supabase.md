@@ -66,7 +66,7 @@ First, create a [<VPIcon icon="iconfont icon-supabase"/>Supabase account](https:
 
 ![Screenshot of a form on the Supabase website to create a new organization. It includes fields for organization name, type, and plan, with options such as "Personal" and "Free - $0/month." There are buttons for "Cancel" and "Create organization."](https://cdn.hashnode.com/res/hashnode/image/upload/v1740653729412/35339612-4688-489e-b9d2-2cc825962519.png)
 
-Add a new Supabase project to the organisation and copy the following credentials on your dashboard into a <VPIcon icon="fas fa-file-lines"/>`.env.local` file at the root of your project:
+Add a new Supabase project to the organisation and copy the following credentials on your dashboard into a <VPIcon icon="iconfont icon-doitenv" />`.env.local` file at the root of your project:
 
 ```sh title=".env.local"
 NEXT_PUBLIC_SUPABASE_ANON_KEY=<anon_key_from_Supabase_dashboard>

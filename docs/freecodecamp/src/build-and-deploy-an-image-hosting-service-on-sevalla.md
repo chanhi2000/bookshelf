@@ -401,7 +401,7 @@ Once created, click “Settings” and you will see the access key and secret ke
 
 ![Object Storage Access Keys](https://cdn.hashnode.com/res/hashnode/image/upload/v1757306618051/90970694-3d7c-486f-b32a-54c83ca88c7f.jpeg)
 
-Copy them into a file named <VPIcon icon="fas fa-file-lines"/>`.env` within your project.
+Copy them into a file named <VPIcon icon="iconfont icon-doitenv" />`.env` within your project.
 
 ```sh title=".env"
 AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID_HERE

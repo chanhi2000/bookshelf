@@ -68,7 +68,7 @@ These are practical tips you can apply right away. I’ll keep the code examples
 
 Storing sensitive data like database credentials, API keys, or JWT secrets directly in your code is risky. If your code ends up in the wrong hands, so does everything else.
 
-Instead, store this data in a <VPIcon icon="fas fa-file-lines"/>`.env` file and use the `dotenv` package to access it:
+Instead, store this data in a <VPIcon icon="iconfont icon-doitenv" />`.env` file and use the `dotenv` package to access it:
 
 ```js
 require('dotenv').config();
@@ -78,7 +78,7 @@ require('dotenv').config();
 const dbPassword = process.env.DB_PASSWORD;
 ```
 
-Make sure you **never** commit your <VPIcon icon="fas fa-file-lines"/>`.env` file. Add it to your `.gitignore` file to keep it private.
+Make sure you **never** commit your <VPIcon icon="iconfont icon-doitenv" />`.env` file. Add it to your `.gitignore` file to keep it private.
 
 ---
 

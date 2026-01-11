@@ -413,9 +413,9 @@ app.listen(PORT, () => {
 });
 ```
 
-#### <VPIcon icon="fas fa-folder-open"/>`server/`<VPIcon icon="fas fa-file-lines"/>`.env`
+#### <VPIcon icon="fas fa-folder-open"/>`server/`<VPIcon icon="iconfont icon-doitenv" />`.env`
 
-To avoid hardcoding secrets, we’ll add a <VPIcon icon="fas fa-file-lines"/>`.env` file where we can securely store environment variables, such as our database URI and JWT secret. This file stores sensitive environment variables such as your MongoDB connection string, server port, and JWT secret, keeping them secure and separate from your codebase.
+To avoid hardcoding secrets, we’ll add a <VPIcon icon="iconfont icon-doitenv" />`.env` file where we can securely store environment variables, such as our database URI and JWT secret. This file stores sensitive environment variables such as your MongoDB connection string, server port, and JWT secret, keeping them secure and separate from your codebase.
 
 ```sh title="server/.env"
 MONGO_URI=your_mongodb_connection_string_here
@@ -1212,9 +1212,9 @@ For production, we’ll use a managed MongoDB service like MongoDB Atlas. It han
 - Configure network access (allow connections from your server's IP address).
 - Get your connection string and update MONGO_URI in your server/.env file.
 
-#### 1. <VPIcon icon="fas fa-file-lines"/>`.env` Configuration Example
+#### 1. <VPIcon icon="iconfont icon-doitenv" />`.env` Configuration Example
 
-After creating the cluster and user in MongoDB Atlas, you’ll receive a connection string. You need to update your <VPIcon icon="fas fa-file-lines"/>`.env` file with it
+After creating the cluster and user in MongoDB Atlas, you’ll receive a connection string. You need to update your <VPIcon icon="iconfont icon-doitenv" />`.env` file with it
 
 ```sh title="server/.env"
 JWT_SECRET=your_secret_jwt_key
@@ -1368,11 +1368,11 @@ app.use(cors({
 
 To keep sensitive information secure and out of your codebase, we will use environment variables. This allows us to efficiently manage secrets, such as database connection strings and JWT keys, without hardcoding them or including them in the source code.
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file in your <VPIcon icon="fas fa-folder-open"/>`server/` directory:
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in your <VPIcon icon="fas fa-folder-open"/>`server/` directory:
 
-#### <VPIcon icon="fas fa-file-lines"/>`.env` (example)
+#### <VPIcon icon="iconfont icon-doitenv" />`.env` (example)
 
-This <VPIcon icon="fas fa-file-lines"/>`.env` file stores sensitive configuration details like database connection strings and API keys
+This <VPIcon icon="iconfont icon-doitenv" />`.env` file stores sensitive configuration details like database connection strings and API keys
 
 ```sh title=".env"
 MONGO_URI=your_mongodb_connection_string

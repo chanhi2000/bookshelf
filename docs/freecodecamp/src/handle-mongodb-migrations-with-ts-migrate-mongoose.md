@@ -94,7 +94,7 @@ To configure ts-migrate-mongoose for the project, install ts-migrate-mongoose wi
 npm install ts-migrate-mongoose
 ```
 
-ts-migrate-mongoose allows configuration with a JSON file, a TypeScript file, a <VPIcon icon="fas fa-file-lines"/>`.env` file or via the CLI. It is advisable to use a <VPIcon icon="fas fa-file-lines"/>`.env` file because the content of the configuration may contain a database password and it is not proper to have that exposed to the public. <VPIcon icon="fas fa-file-lines"/>`.env` files are usually hidden via <VPIcon icon="fa-brands fa-git-alt"/>`.gitignore` files so they are more secure to use. This project will use a <VPIcon icon="fas fa-file-lines"/>`.env` file for the ts-migrate-mongoose configuration.
+ts-migrate-mongoose allows configuration with a JSON file, a TypeScript file, a <VPIcon icon="iconfont icon-doitenv" />`.env` file or via the CLI. It is advisable to use a <VPIcon icon="iconfont icon-doitenv" />`.env` file because the content of the configuration may contain a database password and it is not proper to have that exposed to the public. <VPIcon icon="iconfont icon-doitenv" />`.env` files are usually hidden via <VPIcon icon="fa-brands fa-git-alt"/>`.gitignore` files so they are more secure to use. This project will use a <VPIcon icon="iconfont icon-doitenv" />`.env` file for the ts-migrate-mongoose configuration.
 
 The file should contain the following keys and their values:
 

@@ -119,7 +119,7 @@ mkdir azure scripts
 
 Here, the <VPIcon icon="fas fa-folder-open"/>`azure` directory will hold all the scripts required to work with the Azure VM, and the <VPIcon icon="fas fa-folder-open"/>`scripts` directory will hold everything needed to set up the VM to run the LLMs.
 
-Create a new <VPIcon icon="fas fa-file-lines"/>`.env` file in the root of the project with the following environment variables. Make sure you change the size, name, location and the models as you like.
+Create a new <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root of the project with the following environment variables. Make sure you change the size, name, location and the models as you like.
 
 ```sh title=".env"
 RESOURCE_GROUP="ollama-vm-rg"
@@ -376,7 +376,7 @@ echo "Network security configured successfully."
 echo "Note: If your IP address changes, you'll need to run this script again to update the rules."
 ```
 
-Don't be scared by this script. It might seem complex, but it's actually pretty straightforward. The first thing it does is try to get the user's IP address. It first attempts to fetch the user's IP from a service called `api.ipify.org` (because public IPs can change frequently), which returns your current public IP. If there's an error, it falls back to using the IP address stored in the <VPIcon icon="fas fa-file-lines"/>`.env` file.
+Don't be scared by this script. It might seem complex, but it's actually pretty straightforward. The first thing it does is try to get the user's IP address. It first attempts to fetch the user's IP from a service called `api.ipify.org` (because public IPs can change frequently), which returns your current public IP. If there's an error, it falls back to using the IP address stored in the <VPIcon icon="iconfont icon-doitenv" />`.env` file.
 
 Next, it tries to get the VM's NSG (Network Security Group) because it's needed when creating a new NSG rule. If there’s an error, there's no point in continuing with the script, so it exits with an error status.
 

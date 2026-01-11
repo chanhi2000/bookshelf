@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache", // 2026-01-17
     "solving-message-ordering-from-first-principles", // 2026-01-10
   ]
 }
@@ -383,6 +384,8 @@ export const template: SidebarInfoTemplate = {
       "server-sent-events-in-aspnetcore-and-dotnet-10", // 2025-12-20
       "how-to-build-a-high-performance-cache-without-external-libraries", // 2025-12-27
       // END: 2025cs
+      "solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache", // 2026-01-17
+      // END: 2026cs
       // END: cs
     ]],[
     "cs-razor", [
@@ -478,6 +481,9 @@ export const template: SidebarInfoTemplate = {
       "simple-messaging-in-dotnet-with-redis-pubsub", // 2024-07-27
       "distributed-locking-in-dotnet-coordinating-work-across-multiple-instances", // 2025-09-20
       // END: 2024redis
+      // END: 2025redis
+      "solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache", // 2026-01-17
+      // END: 2026redis
       // END: redis
     ]],[
     "nginx", [

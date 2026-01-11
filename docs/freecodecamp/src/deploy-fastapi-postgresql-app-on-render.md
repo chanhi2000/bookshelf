@@ -171,7 +171,7 @@ ALTER USER your_user CREATEDB;
 \q
 ```
 
-After setting up your local database, create a <VPIcon icon="fas fa-file-lines"/>`.env` file in your project root:
+After setting up your local database, create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in your project root:
 
 ```sh title=".env"
 DATABASE_URL=postgresql://your_user:your_secure_password@localhost:5432/your_db
@@ -380,7 +380,7 @@ Navigate to `/docs` to open the interactive Swagger UI, where you can test your 
 
 While your app is deployed, you'll still need to work on it locally. Here's how to maintain a smooth development workflow:
 
-First, create a local <VPIcon icon="fas fa-file-lines"/>`.env` file (don't commit this to Git):
+First, create a local <VPIcon icon="iconfont icon-doitenv" />`.env` file (don't commit this to Git):
 
 ```plaintext title=".env"
 DATABASE_URL=postgresql://username:password@localhost:5432/your_local_db

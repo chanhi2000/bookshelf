@@ -626,7 +626,7 @@ async function getMyCalendarDataByDate(date) {
 }
 ```
 
-Here, you can see that I’ve used the Google API public key as an environment variable. So, we’ll create a <VPIcon icon="fas fa-file-lines"/>`.env` file in the root of the project directory and add the following inside that file:
+Here, you can see that I’ve used the Google API public key as an environment variable. So, we’ll create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root of the project directory and add the following inside that file:
 
 ```sh title=".env"
 GOOGLE_PUBLIC_API_KEY=WRITE_YOUR_GOOGLE_PUBLIC_API_KEY
@@ -657,7 +657,7 @@ const res = await calendar.events.list({
 });
 ```
 
-Here you can see, I have mentioned my Public Calendar ID using another environment variable called `CALENDAR_ID`. So go back to your <VPIcon icon="fas fa-file-lines"/>`.env` file and set the new environment variable:
+Here you can see, I have mentioned my Public Calendar ID using another environment variable called `CALENDAR_ID`. So go back to your <VPIcon icon="iconfont icon-doitenv" />`.env` file and set the new environment variable:
 
 ```sh title=".env"
 CALENDAR_ID=YOUR_OWN_PUBLIC_CALENDAR_ID

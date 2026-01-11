@@ -132,7 +132,7 @@ npm install express redis shortid dotenv
 - `shortid`: For generating short, unique IDs.
 - `dotenv`: For managing environment variables.
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file in the root of your project:
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root of your project:
 
 ```properties title=".env"
 PORT=3000

@@ -147,7 +147,7 @@ npm install express redis dotenv
 - **redis**: For interacting with Redis.
 - **dotenv**: For managing environment variables.
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file with the following content:
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file with the following content:
 
 ```properties title=".env"
 REDIS_HOST=localhost

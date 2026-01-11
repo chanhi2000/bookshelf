@@ -323,7 +323,7 @@ act --graph
 
 @tab Environment Variables
 
-Using environment variables with the `act` CLI is easy. You only need to create a new <VPIcon icon="fas fa-file-lines"/>`.env` file. `act` CLI automatically loads the environment that is available in the <VPIcon icon="fas fa-file-lines"/>`.env` file. For example, we add a `ENV_ID` variables.
+Using environment variables with the `act` CLI is easy. You only need to create a new <VPIcon icon="iconfont icon-doitenv" />`.env` file. `act` CLI automatically loads the environment that is available in the <VPIcon icon="iconfont icon-doitenv" />`.env` file. For example, we add a `ENV_ID` variables.
 
 ```yaml
 # .env
@@ -345,7 +345,7 @@ jobs:
         run: echo "Env ${{ env.ENV_ID }}"
 ```
 
-With the `--env-file` option, you can change the default <VPIcon icon="fas fa-file-lines"/>`.env` file name to <VPIcon icon="fas fa-file-lines"/>`my-custom.env` file.
+With the `--env-file` option, you can change the default <VPIcon icon="iconfont icon-doitenv" />`.env` file name to <VPIcon icon="fas fa-file-lines"/>`my-custom.env` file.
 
 ```sh
 act --env-file=my-custom.env

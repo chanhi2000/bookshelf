@@ -59,7 +59,7 @@ Adding user interactions is a powerful way to elevate a design, bringing an inte
   link="https://codepen.io/amit_sheen/pen/ogLXxrZ/8ce019ac342f047313a096553dad0d08"
   title="Animating with Mobile Accelerometers - demo 0"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I’ve done dozens of demos and written several articles exploring these exact types of effects, but one thing has always bothered me: the moment a user switches to a mobile device, that magic vanishes, leaving behind a static and uninspiring experience.
 
@@ -231,7 +231,7 @@ Now that all the pieces are in place, we have a unified experience: elegant mous
   link="https://codepen.io/amit_sheen/pen/pvbJyMm/55fc05ae10147ead220f712ccf43f4a9"
   title="Animating with Mobile Accelerometers - demo 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info
 
@@ -296,7 +296,7 @@ With these additions, our rings now not only tilt and spin with the phone’s mo
   link="https://codepen.io/amit_sheen/pen/azNQmvP/f9b047c7b4347d80ac86a1df38758c87"
   title="Animating with Mobile Accelerometers - demo 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info
 
@@ -348,7 +348,7 @@ Here is a demo using `DeviceOrientation` where we track the absolute angle of th
   link="https://codepen.io/amit_sheen/pen/zxBGBMz/8996caa8eb595029ece55462fb370460"
   title="Animating with Mobile Accelerometers - demo 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info
 
@@ -389,7 +389,7 @@ With this approach, you can create a mobile experience that feels both intuitive
   link="https://codepen.io/amit_sheen/pen/ZYOGpQy/fd55aa73bfdc6b21a3ba15d81cbc59a4"
   title="Animating with Mobile Accelerometers - demo 4"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info
 
@@ -424,7 +424,7 @@ Here is an example borrowed from [**my last article**](/frontendmasters.com/the-
   slug-hash="WbwYbZd/435ac24aab72287508a9de26f46249a6"
   title="N/A"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info
 
@@ -475,7 +475,7 @@ This creates an effect on desktop that responds to the speed and direction of th
   link="https://codepen.io/amit_sheen/pen/KwMpgOQ/744fbe9094f184175e430a01ec0ab4f2"
   title="Animating with Mobile Accelerometers - demo 6"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info
 

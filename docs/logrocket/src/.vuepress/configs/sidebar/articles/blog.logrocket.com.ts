@@ -136,6 +136,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "whats-new-django-v4", // 2021-12-30
     "making-django-migrations-python", // 2021-12-17
     "why-your-css-fails", // 2021-12-01
+    "crud-golang-cockroachdb", // 2021-11-16
     "fundamentals-functional-programming-react", // 2021-11-15
     "building-responsive-components-chakra-ui", // 2021-11-05
     "using-axios-all-make-concurrent-requests", // 2021-10-26
@@ -169,6 +170,7 @@ const Y2022: SidebarYeargroupTemplate = {
   children: [
     // END: 2022
     "build-inline-editable-ui-react", // 2022-12-15
+    "documenting-express-js-api-swagger", // 2022-12-09
     "creating-react-context-menu", // 2022-12-05
     "build-react-dashboard-tremor", // 2022-11-23
     "react-createref-guide", // 2022-11-15
@@ -201,6 +203,7 @@ const Y2022: SidebarYeargroupTemplate = {
     "shine-effect-only-css", // 2022-01-25
     "advanced-guide-setting-colors-css", // 2022-01-18
     "solving-prop-drilling-react-apps", // 2022-01-14
+    "organizing-express-js-project-structure-better-productivity", // 2022-01-10
   ]
 }
 
@@ -211,8 +214,10 @@ const Y2023: SidebarYeargroupTemplate = {
     // END: 2023
     "advanced-page-transitions-next-js-framer-motion", // 2023-12-28
     "using-strongly-typed-vs-statically-typed-code", // 2023-12-20
+    "express-js-adoption-guide", // 2023-12-06
     "vite-adoption-guide", // 2023-11-29
     MERN_STACK_TUTORIAL, // 2023-11-29
+    "how-to-use-keyof-operator-typescript", // 2023-11-27
     "best-practices-ci-cd-pipeline-frontend", // 2023-11-08
     "using-css-content-visibility-boost-rendering-performance", // 2023-11-08
     "fetch-api-node-js", // 2023-11-01
@@ -231,6 +236,7 @@ const Y2023: SidebarYeargroupTemplate = {
     HOW_TO_CREATE_CUSTOM_TOAST_COMPONENT_REACT, // 2023-06-21
     "building-reusable-ui-components-with-react-hooks", // 2023-05-16
     "implement-react-state-management-signia", // 2023-05-10
+    "building-react-modal-module-with-react-router", // 2023-05-03
     "understanding-prioritize-react-ui-updates", // 2023-04-17
     "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
     "getting-started-with-create-react-app", // 2023-03-28
@@ -239,6 +245,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "rendering-large-lists-react-virtualized", // 2023-03-01
     "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
     "build-powerful-react-forms-with-informed", // 2023-02-09
+    "using-react-popper-styled-components", // 2023-02-07
     "complete-guide-threads-node-js", // 2023-01-27
     "creating-typewriter-animation-css", // 2023-01-12
   ]
@@ -272,6 +279,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "building-high-performance-ecommerce-sites-astro", // 2024-02-28
     "understanding-axios-get-requests", // 2024-02-09
     "5-ways-make-http-requests-node-js", // 2024-02-02
+    "crud-rest-api-node-js-express-postgresql", // 2024-01-26
     "how-to-animate-svg-css-tutorial-examples", // 2024-01-11
     "react-conditional-rendering-9-methods", // 2024-01-10
   ]
@@ -353,6 +361,7 @@ export const template: SidebarInfoTemplate = {
       "methods-for-deep-cloning-objects-in-javascript", // 2020-10-01
       "understanding-asynchronous-javascript", // 2020-11-06
       // END: 2020js
+      "crud-golang-cockroachdb", // 2021-11-16
       // END: 2021js
       "copy-objects-in-javascript-complete-guide", // 2022-03-09
       // END: 2022js
@@ -378,6 +387,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2022ts
       "declaring-jsx-types-typescript-5-1", // 2023-06-26
       "babel-vs-typescript-choosing-right-compiler-project", // 2023-07-10
+      "how-to-use-keyof-operator-typescript", // 2023-11-27
       "using-strongly-typed-vs-statically-typed-code", // 2023-12-20
       // END: 2023ts
       "practical-guide-typescript-decorators", // 2024-03-21
@@ -462,6 +472,7 @@ export const template: SidebarInfoTemplate = {
       "creating-react-context-menu", // 2022-12-05
       "build-inline-editable-ui-react", // 2022-12-15
       // END: 2022js-react
+      "using-react-popper-styled-components", // 2023-02-07
       "build-powerful-react-forms-with-informed", // 2023-02-09
       "react-hooks-cheat-sheet-solutions-common-problems", // 2023-02-20
       "improve-react-ux-skeleton-ui", // 2022-02-28
@@ -470,6 +481,7 @@ export const template: SidebarInfoTemplate = {
       "getting-started-with-create-react-app", // 2023-03-28
       "building-adaptive-accessible-ui-library-react-aria", // 2023-04-04
       "understanding-prioritize-react-ui-updates", // 2023-04-17
+      "building-react-modal-module-with-react-router", // 2023-05-03
       "implement-react-state-management-signia", // 2023-05-10
       "building-reusable-ui-components-with-react-hooks", // 2023-05-16
       HOW_TO_CREATE_CUSTOM_TOAST_COMPONENT_REACT, // 2023-06-21
@@ -575,9 +587,15 @@ export const template: SidebarInfoTemplate = {
       // END: js-axios
     ]],[
     "js-express", [
+      // END: 2020js-express
+      // END: 2021js-express
+      "organizing-express-js-project-structure-better-productivity", // 2022-01-10
+      "documenting-express-js-api-swagger", // 2022-12-09
       // END: 2022js-express
       MERN_STACK_TUTORIAL, // 2023-11-29
+      "express-js-adoption-guide", // 2023-12-06
       // END: 2023js-express
+      "crud-rest-api-node-js-express-postgresql", // 2024-01-26
       "build-rest-api-node-express-mysql", // 2024-10-21
       // END: 2024js-express
       // END: 2025js-express
@@ -657,6 +675,9 @@ export const template: SidebarInfoTemplate = {
       // END: css
     ]],[
     "go", [
+      // END: 2020go
+      "crud-golang-cockroachdb", // 2021-11-16
+      // END: 2021go
       "full-stack-bud-go", // 2022-08-31
       // END: 2022go
       // END: 2023go
@@ -717,6 +738,14 @@ export const template: SidebarInfoTemplate = {
       // END: 2025mysql
       // END: mysql
     ]],[
+    "postgresql", [
+      // END: 2023postgresql
+      "crud-rest-api-node-js-express-postgresql", // 2024-01-26
+      // END: 2024postgresql
+      // END: 2025postgresql
+      // END: 2026postgresql
+      // END: postgresql
+    ]],[
     "mongodb", [
       // END: 2022mongodb
       MERN_STACK_TUTORIAL, // 2023-11-29
@@ -725,6 +754,17 @@ export const template: SidebarInfoTemplate = {
       // END: 2024mongodb
       // END: 2025mongodb
       // END: mongodb
+    ]],[
+    "cockroach", [
+      // END: 2020cockroach
+      "crud-golang-cockroachdb", // 2021-11-16
+      // END: 2021cockroach
+      // END: 2022cockroach
+      // END: 2023cockroach
+      // END: 2024cockroach
+      // END: 2025cockroach
+      // END: 2025cockroach
+      // END: cockroach
     ]],[
     "curl", [
       "curl-measure-rtt", // 2025-02-26

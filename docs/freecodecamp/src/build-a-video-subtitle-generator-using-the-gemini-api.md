@@ -213,7 +213,7 @@ These are the back-end dependencies we’re using in this project:
 
 ### Set Up the Environment Variables
 
-Now, create a file called <VPIcon icon="fas fa-file-lines"/>`.env`. This is where you’ll manage your API keys.
+Now, create a file called <VPIcon icon="iconfont icon-doitenv" />`.env`. This is where you’ll manage your API keys.
 
 ```properties title=".env"
 API_KEY = YOUR_API_API

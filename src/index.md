@@ -91,10 +91,10 @@ projects:
     name: tecmint.com
     desc: "Tecmint: Linux Howtos, Tutorials & Guides"
     link: /tecmint.com/README.md
-  - icon: https://static.learnk8s.io/f7e5160d4744cf05c46161170b5c11c9.svg
-    name: learnk8s.io
+  - icon: https://static.learnkube.com/f7e5160d4744cf05c46161170b5c11c9.svg
+    name: learnkube.com
     desc: "Learnk8s — the Kubernetes training company"
-    link: /learnk8s.io/README.md
+    link: /learnkube.com/README.md
   - icon: /assets/image/antonioleiva.com/favicon.png
     name: antonioleiva.com
     desc: "Antonio Leiva - Android & Kotlin GDE | JetBrains Training Partner"

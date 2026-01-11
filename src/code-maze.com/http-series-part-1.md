@@ -176,7 +176,7 @@ The Request line and request headers must be followed by `<CR><LF>` (carriage re
   "desc": "A request message from a client to a server includes, within the first line of that message, the method to be applied to the resource, the identifier of the resource, and the protocol version in use.",
   "link": "https://w3.org/Protocols/rfc2616/rfc2616-sec5.html",
   "logo": "https://w3.org/favicon.ico",
-  "background": "rgba(47,93,149,0.2)"
+  "background": "rgba(0,90,156,0.2)"
 }
 ```
 
@@ -238,7 +238,7 @@ The response message is pretty much structured the same as the request, except t
   "desc": "After receiving and interpreting a request message, a server responds with an HTTP response message.",
   "link": "https://w3.org/Protocols/rfc2616/rfc2616-sec6.html",
   "logo": "https://w3.org/favicon.ico",
-  "background": "rgba(47,93,149,0.2)"
+  "background": "rgba(0,90,156,0.2)"
 }
 ```
 

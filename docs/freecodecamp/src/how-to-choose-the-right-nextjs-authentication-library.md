@@ -304,7 +304,7 @@ That's the long part out of the way, let's get to some code. Navigate to your pr
 npm i @kinde-oss/kinde-auth-nextjs
 ```
 
-Now, create a <VPIcon icon="fas fa-file-lines"/>`.env.local` file and put it in the root folder of your project with your environment variables. You can find your environment variables in the Quick Start page of your application.
+Now, create a <VPIcon icon="iconfont icon-doitenv" />`.env.local` file and put it in the root folder of your project with your environment variables. You can find your environment variables in the Quick Start page of your application.
 
 Here's an example:
 
@@ -479,7 +479,7 @@ Ok, just like before, create a Next.js project if you have not done so yet and t
 npm install better-auth
 ```
 
-Next, you have to set up your environment variables, so create a <VPIcon icon="fas fa-file-lines"/>`.env` file with these values:
+Next, you have to set up your environment variables, so create a <VPIcon icon="iconfont icon-doitenv" />`.env` file with these values:
 
 ```sh title=".env"
 BETTER_AUTH_SECRET= #Create your own secret key!

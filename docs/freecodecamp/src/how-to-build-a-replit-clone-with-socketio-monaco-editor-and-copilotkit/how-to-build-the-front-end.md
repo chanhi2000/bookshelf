@@ -1279,7 +1279,7 @@ I selected GroqCloud because it’s free and offers access to multiple large lan
 
 ## Security Best Practices
 
-Never expose your credentials publicly. Always store sensitive information like API keys in an <VPIcon icon="fas fa-file-lines"/>`.env` file to keep your project secure.
+Never expose your credentials publicly. Always store sensitive information like API keys in an <VPIcon icon="iconfont icon-doitenv" />`.env` file to keep your project secure.
 
 ---
 

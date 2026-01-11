@@ -124,7 +124,7 @@ pip install python-dotenv
 
 With these Python packages installed, you’re now ready to set up your API for this project. We’ll be using the Python web application framework Flask, along with the CORS package so that we can access the server anywhere. At the same time, we’ll also use the requests module, which allows us to send HTTP requests using Python.
 
-Note that you’ll also need a <VPIcon icon="fas fa-file-lines"/>`.env` file for your API keys, so make sure you have installed the `python-dotenv` package in your Python environment, although in some cases, it's installed automatically.
+Note that you’ll also need a <VPIcon icon="iconfont icon-doitenv" />`.env` file for your API keys, so make sure you have installed the `python-dotenv` package in your Python environment, although in some cases, it's installed automatically.
 
 ---
 
@@ -141,11 +141,11 @@ touch __init__.py base_agent.py career_agent.py client_agent.py project_agent.py
 
 With this script, you should now have:
 
-- Created a <VPIcon icon="fas fa-file-lines"/>`.env` file for your API Keys
+- Created a <VPIcon icon="iconfont icon-doitenv" />`.env` file for your API Keys
 - Created an agents folder with all of the files for creating your different AI agents
 - Created a <VPIcon icon="fa-brands fa-python"/>`main.py` file, which will be the main project file for your entire backend app
 
-Ok, your files are set. All that’s left is to add the codebase, and the backend is complete. Let's start with the <VPIcon icon="fas fa-file-lines"/>`.env` file, as it only needs one line of code and that is for your API key. See my example and update it with your own API Key:
+Ok, your files are set. All that’s left is to add the codebase, and the backend is complete. Let's start with the <VPIcon icon="iconfont icon-doitenv" />`.env` file, as it only needs one line of code and that is for your API key. See my example and update it with your own API Key:
 
 ```sh title=".env"
 GROQ_API_KEY="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"

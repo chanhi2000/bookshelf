@@ -1124,18 +1124,18 @@ Next, we need to install `dotenv` to help us with `environment variables`.
 npm i dotenv
 ```
 
-We create a file in the root of our project and name it <VPIcon icon="fas fa-file-lines"/>`.env`. This file is where we keep our `credentials`, so we don’t push it to git. In order to do that, we create a <VPIcon icon="iconfont icon-git"/>`.gitignore` file in the root of our project, and add the following lines to the file:
+We create a file in the root of our project and name it <VPIcon icon="iconfont icon-doitenv" />`.env`. This file is where we keep our `credentials`, so we don’t push it to git. In order to do that, we create a <VPIcon icon="iconfont icon-git"/>`.gitignore` file in the root of our project, and add the following lines to the file:
 
 ```sh
 node_modules
 .env
 ```
 
-This tells git to ignore both the <VPIcon icon="fas fa-folder-open"/>`node_modules` folder and the <VPIcon icon="fas fa-file-lines"/>`.env` file.
+This tells git to ignore both the <VPIcon icon="fas fa-folder-open"/>`node_modules` folder and the <VPIcon icon="iconfont icon-doitenv" />`.env` file.
 
 To get our Twilio account credentials, we login into our Twilio console, and copy our `ACCOUNT SID` and `AUTH TOKEN`. Then, we click on `get trial number` and Twilio generates a trial number for us, click `accept number`. Now from the console copy, we copy our trial number.
 
-In <VPIcon icon="fas fa-file-lines"/>`.env`
+In <VPIcon icon="iconfont icon-doitenv" />`.env`
 
 ```sh title=".env"
 TWILIO_ACCOUNT_SID=<YOUR_ACCOUNT_SID>  
@@ -1177,7 +1177,7 @@ node config/twilioLogic.js
 
 The string that gets logged to our screen is our `TWILIO_VERIFICATION_SID` — we copy that string.
 
-In <VPIcon icon="fas fa-file-lines"/>`.env`, add the line `TWILIO_VERIFICATION_SID=<YOUR_TWILIO_VERIFICATION_SID>`.
+In <VPIcon icon="iconfont icon-doitenv" />`.env`, add the line `TWILIO_VERIFICATION_SID=<YOUR_TWILIO_VERIFICATION_SID>`.
 
 In <VPIcon icon="fas fa-folder-open"/>`config/`<VPIcon icon="fa-brands fa-js"/>`twilioLogic.js`, we remove the `createService()` line, since we need to create the `verify` service only once. Then, we add the following lines of code:
 

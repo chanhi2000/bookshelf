@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "the-missing-link-for-web-components", // 2026-01-15
+    "simulating-crop-marks", // 2026-01-13
     "beyond-the-mouse-animating-with-mobile-accelerometers", // 2026-01-09
     "popover-context-menus-with-anchor-positioning", // 2026-01-08
     "how-to-scope-css-now-that-its-baseline", // 2026-01-05
@@ -349,7 +351,20 @@ export const template: SidebarInfoTemplate = {
       "introducing-svelte-5", // 2024-07-19
       "snippets-in-svelte-5", // 2024-08-07
       "fine-grained-reactivity-in-svelte-5", // 2024-08-14
+      // END: 2024js-svelte
+      // END: 2025js-svelte
+      // END: 2026js-svelte
       // END: js-svelte
+    ]],[
+    "js-storyobok", [
+      "the-missing-link-for-web-components", // 2026-01-15
+      // END: 2026js-storybook
+      // END: js-storybook
+    ]],[
+    "js-lit", [
+      "the-missing-link-for-web-components", // 2026-01-15
+      // END: 2026js-lit  
+      // END: js-lit
     ]],[
     "css", [
       "light-dom-only", // 2023-12-08
@@ -498,6 +513,7 @@ export const template: SidebarInfoTemplate = {
       "important-and-css-custom-properties", // 2026-01-01
       "how-to-scope-css-now-that-its-baseline", // 2026-01-05
       "popover-context-menus-with-anchor-positioning", // 2026-01-08
+      "simulating-crop-marks", // 2026-01-13
       // END: 2026css
       // END: css
     ]],[

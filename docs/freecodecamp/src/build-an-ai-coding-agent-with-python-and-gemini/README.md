@@ -227,13 +227,13 @@ Here’s how to create an API key:
 
 If you already have a GCP account and a project, you can create the API key in that project. If you don't, AI studio will automatically create one for you.
 
-3. Copy the API key, then paste it into a new <VPIcon icon="fas fa-file-lines"/>`.env` file in your project directory. The file should look like this:
+3. Copy the API key, then paste it into a new <VPIcon icon="iconfont icon-doitenv" />`.env` file in your project directory. The file should look like this:
 
 ```sh title=".env"
 GEMINI_API_KEY="your_api_key_here"
 ```
 
-4. Add the <VPIcon icon="fas fa-file-lines"/>`.env` file to your <VPIcon icon="iconfont icon-git"/>`.gitignore`
+4. Add the <VPIcon icon="iconfont icon-doitenv" />`.env` file to your <VPIcon icon="iconfont icon-git"/>`.gitignore`
 
 ::: caution Danger
 
@@ -241,7 +241,7 @@ We never want to commit API keys, passwords, or other sensitive information to G
 
 :::
 
-5. Update the <VPIcon icon="fa-brands fa-python"/>`main.py` file. When the program starts, load the environment variables from the <VPIcon icon="fas fa-file-lines"/>`.env` file using the `dotenv` library and read the API key:
+5. Update the <VPIcon icon="fa-brands fa-python"/>`main.py` file. When the program starts, load the environment variables from the <VPIcon icon="iconfont icon-doitenv" />`.env` file using the `dotenv` library and read the API key:
 
 ```py title="main.py"
 import os

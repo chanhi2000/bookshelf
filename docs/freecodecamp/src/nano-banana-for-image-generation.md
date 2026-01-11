@@ -117,7 +117,7 @@ We’ll use `Pillow` for easy image handling and `python-dotenv` to safely manag
 
 ### Step 3: Set Up Your Environment
 
-It’s crucial to keep your API key out of your code for security. For this, we usually use environment variables. So, create a file named <VPIcon icon="fas fa-file-lines"/>`.env` in your project root and add your API key:
+It’s crucial to keep your API key out of your code for security. For this, we usually use environment variables. So, create a file named <VPIcon icon="iconfont icon-doitenv" />`.env` in your project root and add your API key:
 
 ```sh title=".env"
 GEMINI_API_KEY="YOUR_API_KEY_HERE"
@@ -176,7 +176,7 @@ if __name__ == "__main__":
 
 The code used in the example handles everything needed to communicate with the Gemini API and save the image.
 
-- First, we import the required libraries and load the API key from <VPIcon icon="fas fa-file-lines"/>`.env` using `load_dotenv()`. This makes the key available so we can connect to Google’s service with `genai.configure()`.
+- First, we import the required libraries and load the API key from <VPIcon icon="iconfont icon-doitenv" />`.env` using `load_dotenv()`. This makes the key available so we can connect to Google’s service with `genai.configure()`.
 - The model we’re using is `gemini-2.5-flash-image-preview`, which is designed for fast image generation.
 - We define a `prompt` `(“A golden retriever puppy...”)` and a filename for saving the image.
 - The helper function `save_image_from_response(...)` looks at the API’s response, extracts the raw image data, and saves it as a PNG file.

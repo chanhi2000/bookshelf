@@ -174,7 +174,7 @@ Every request you send to Langbase needs an API key. You can generate API keys f
 
 For more details, check out the [<VPIcon icon="fas fa-globe"/>Langbase API keys](https://langbase.com/docs/api-reference/api-keys) documentation.
 
-After generating the API key, create an <VPIcon icon="fas fa-file-lines"/>`.env` file in the root of your project and add your Langbase API key in it:
+After generating the API key, create an <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root of your project and add your Langbase API key in it:
 
 ```sh title=".env"
 LANGBASE_API_KEY=xxxxxxxxx

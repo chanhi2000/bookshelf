@@ -424,7 +424,7 @@ console.log(greet('Oliver'));
 
 ### Step 5:Add an <VPIcon icon="fa-brands fa-npm"/>`.npmignore` file
 
-This will exclude folders like <VPIcon icon="fas fa-folder-open"/>`node_modules`, `dist`, or <VPIcon icon="fas fa-file-lines"/>`.env`, and any other file or folder within the package you don’t wish to publish. 
+This will exclude folders like <VPIcon icon="fas fa-folder-open"/>`node_modules`, `dist`, or <VPIcon icon="iconfont icon-doitenv" />`.env`, and any other file or folder within the package you don’t wish to publish. 
 
 Example content:
 
@@ -518,7 +518,7 @@ npm publish
 
 Although publishing to npm is straightforward, you still need to follow best practices to maintain a clean, secure, and user-friendly package.
 
-- Exclude Sensitive Files: Never include <VPIcon icon="fas fa-file-lines"/>`.env`, credentials, or secrets. Use <VPIcon icon="fa-brands fa-npm"/>`.npmignore` or the "files" field in <VPIcon icon="iconfont icon-json"/>`package.json` to control what gets published.
+- Exclude Sensitive Files: Never include <VPIcon icon="iconfont icon-doitenv" />`.env`, credentials, or secrets. Use <VPIcon icon="fa-brands fa-npm"/>`.npmignore` or the "files" field in <VPIcon icon="iconfont icon-json"/>`package.json` to control what gets published.
 - Test Before Publishing: Run `npm pack` to preview the package and install it locally in another project to ensure everything works.
 - Unpublish Carefully: You can unpublish within 72 hours using `npm unpublish --force`, but avoid doing this frequently to prevent breaking other projects that rely on your package.
 - Always Bump the Version: npm won’t let you overwrite a version, so use semantic versioning (npm version patch|minor|major) before publishing updates.

@@ -267,7 +267,7 @@ Locate and copy the URL under the "Details" section. This URL contains the crede
 
 Now, return to your code editor and open the <VPIcon icon="fas fa-folder-open"/>`backend` folder.
 
-Create a new file named <VPIcon icon="fas fa-file-lines"/>`.env`. Inside the <VPIcon icon="fas fa-file-lines"/>`.env` file, add the following line:
+Create a new file named <VPIcon icon="iconfont icon-doitenv" />`.env`. Inside the <VPIcon icon="iconfont icon-doitenv" />`.env` file, add the following line:
 
 ```plaintext title=".env"
 DATABASE_URL=<Your-Copied-Database-URL>
@@ -316,7 +316,7 @@ Within the dashboard, click on “Profile” on the left-hand side, and find the
 
 ### Step 2: Store the API Key Securely
 
-Now, return to your code editor and open the <VPIcon icon="fas fa-file-lines"/>`.env` file in the <VPIcon icon="fas fa-folder-open"/>`backend` folder.
+Now, return to your code editor and open the <VPIcon icon="iconfont icon-doitenv" />`.env` file in the <VPIcon icon="fas fa-folder-open"/>`backend` folder.
 
 Add a new environment variable to store your API key as follows:
 

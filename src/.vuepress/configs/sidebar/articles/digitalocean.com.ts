@@ -51,6 +51,7 @@ const Y2022: SidebarYeargroupTemplate = {
     "how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt", // 2022-11-18
     "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
     "how-to-install-and-use-docker-on-ubuntu-22-04", // 2022-04-27
+     
     "how-to-install-django-and-set-up-a-development-environment-on-ubuntu-22-04", // 2022-04-27
     "initial-server-setup-with-ubuntu", // 2022-04-26
   ]
@@ -100,6 +101,7 @@ const Y2017: SidebarYeargroupTemplate = {
   children: [
     // END: 2017
     "how-to-enable-and-connect-the-django-admin-interface", // 2017-10-17
+    "how-to-create-a-django-app-and-connect-it-to-a-database", // 2017-08-29
   ]
 }
 
@@ -235,6 +237,7 @@ export const template: SidebarInfoTemplate = {
       // END: py
     ]],[
     "py-django", [
+      "how-to-create-a-django-app-and-connect-it-to-a-database", // 2017-08-29
       "how-to-enable-and-connect-the-django-admin-interface", // 2017-10-17
       // END: 2017py-django
       // END: 2018py-django
@@ -260,10 +263,15 @@ export const template: SidebarInfoTemplate = {
       // END: md
     ]],[
     "linux-debian", [
+      // END: 2016linux-debian
+      "how-to-create-a-django-app-and-connect-it-to-a-database", // 2017-08-29
+      // END: 2017linux-debian
+      // END: 2018linux-debian
       // END: 2020linux-debian
       // END: 2021linux-debian
       "initial-server-setup-with-ubuntu", // 2022-04-26
       "how-to-install-django-and-set-up-a-development-environment-on-ubuntu-22-04", // 2022-04-27
+      "how-to-install-mysql-on-ubuntu-22-04", // 2022-04-27
       "how-to-install-and-use-docker-on-ubuntu-22-04", // 2022-04-27
       "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
       // END: 2022linux-debian
@@ -355,6 +363,21 @@ export const template: SidebarInfoTemplate = {
       // END: 2024digitalocean
       // END: 2025digitalocean
       // END: digitalocean
+    ]],[
+    "mysql", [
+      // END: 2016mysql
+      "how-to-create-a-django-app-and-connect-it-to-a-database", // 2017-08-29
+      // END: 2017mysql
+      // END: 2018mysql
+      // END: 2019mysql
+      // END: 2020mysql
+      // END: 2021mysql
+      "how-to-install-mysql-on-ubuntu-22-04", // 2022-04-27
+      // END: 2022mysql
+      // END: 2023mysql
+      // END: 2024mysql
+      // END: 2025mysql
+      // END: mysql
     ]],[
     "sqlite", [
       // END: 2010sqlite

@@ -159,7 +159,7 @@ npm init -y
 npm install dotenv
 ```
 
-This command will create a <VPIcon icon="iconfont icon-json"/>`package.json` file in your project directory with default values. It will also install the `dotenv` package to read environment variables from the <VPIcon icon="fas fa-file-lines"/>`.env` file.
+This command will create a <VPIcon icon="iconfont icon-json"/>`package.json` file in your project directory with default values. It will also install the `dotenv` package to read environment variables from the <VPIcon icon="iconfont icon-doitenv" />`.env` file.
 
 ---
 
@@ -189,7 +189,7 @@ Once you are done with the name, description, and status of the AI agent pipe, e
 
 ## Step 3: Add a .env File
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file in the root directory of your project and add the [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API key in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root directory of your project and add the [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API key in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
 
 ---
 

@@ -122,7 +122,7 @@ npm init -y
 npm install dotenv mathjs
 ```
 
-This command will create a <VPIcon icon="iconfont icon-json"/>`package.json` file in your project directory with default values. It will also install the <VPIcon icon="fa-brands fa-npm"/>`dotenv` package to read environment variables from the <VPIcon icon="fas fa-file-lines"/>`.env` file, and <VPIcon icon="fa-brands fa-npm"/>`mathjs` to handle math operations.
+This command will create a <VPIcon icon="iconfont icon-json"/>`package.json` file in your project directory with default values. It will also install the <VPIcon icon="fa-brands fa-npm"/>`dotenv` package to read environment variables from the <VPIcon icon="iconfont icon-doitenv" />`.env` file, and <VPIcon icon="fa-brands fa-npm"/>`mathjs` to handle math operations.
 
 ---
 
@@ -163,7 +163,7 @@ Pipe is a serverless AI agent. It has agentic memory and tools. More details [<V
 
 ## Step 3: Add a .env File
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file in the root directory of your project and add the [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API key in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root directory of your project and add the [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API key in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
 
 ---
 

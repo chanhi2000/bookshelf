@@ -18,7 +18,7 @@ head:
       content: "CSS Responsive Multi-Line Ribbon Shapes (Part 2)"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/smashingmagazine.com/css-responsive-multi-line-ribbon-shapes-part2.html
-prev: /articles/README.md
+prev: /programming/css/articles/README.md
 date: 2023-11-22
 isOriginal: false
 author:
@@ -31,9 +31,9 @@ cover: https://files.smashing.media/articles/css-responsive-multi-line-ribbon-sh
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "CSS > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/programming/css/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -50,15 +50,25 @@ cover: https://files.smashing.media/articles/css-responsive-multi-line-ribbon-sh
   logo="https://smashingmagazine.com/images/favicon/favicon.svg"
   preview="https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part1/css-responsive-multi-line-ribbon-shapes-part1.jpg"/>
 
-In [Part 1 of the series](https://smashingmagazine.com/2023/11/css-responsive-multi-line-ribbon-shapes-part1/), Temani Afif demonstrated how creating ribbon patterns in CSS has evolved with the availability of new CSS features that help establish more flexible and robust patterns than what we possible even a few years ago. In this second installment of this brief two-part series, we look at two additional ribbon variations that introduce techniques for masking a repeated background gradient in CSS.
+In [**Part 1 of the series**](/smashingmagazine.com/css-responsive-multi-line-ribbon-shapes-part1.md), Temani Afif demonstrated how creating ribbon patterns in CSS has evolved with the availability of new CSS features that help establish more flexible and robust patterns than what we possible even a few years ago. In this second installment of this brief two-part series, we look at two additional ribbon variations that introduce techniques for masking a repeated background gradient in CSS.
 
-In my [previous article](https://smashingmagazine.com/2023/11/css-responsive-multi-line-ribbon-shapes-part1/), we tackled ribbons in CSS. The idea was to create a classic ribbon pattern using a single element and values that allow it to adapt to however much content it contains. We established a shape with repeating CSS gradients and tailor-cut the ribbon’s ends with `clip-path()` to complete the pattern, then used it and wound up with two ribbon variations: one that stacks vertically with straight strands of ribbons and another that tweaks the shape by introducing pseudo-elements.
+In my [**previous article**](/smashingmagazine.com/css-responsive-multi-line-ribbon-shapes-part1.md), we tackled ribbons in CSS. The idea was to create a classic ribbon pattern using a single element and values that allow it to adapt to however much content it contains. We established a shape with repeating CSS gradients and tailor-cut the ribbon’s ends with `clip-path()` to complete the pattern, then used it and wound up with two ribbon variations: one that stacks vertically with straight strands of ribbons and another that tweaks the shape by introducing pseudo-elements.
 
-See the Pen [Responsive multi-line ribbon shapes](https://codepen.io/t_afif/pen/LYMjNoo) by [Temani Afif](https://codepen.io/t_afif).
+<CodePen
+  user="t_afif"
+  slug-hash="LYMjNoo"
+  title="Responsive multi-line ribbon shapes"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
-Ready to step things up a bit? This time, we will create ribbons out of more complex shapes based on ones found in [my collection of single-element CSS ribbons](https://css-generators.com/ribbon-shapes/). We’re making adjustments to the basic shape we made before. Instead of perfectly straight strands of ribbon, we’re making **angled cuts out of the shape**.
+Ready to step things up a bit? This time, we will create ribbons out of more complex shapes based on ones found in [<VPIcon icon="fas fa-globe"/>my collection of single-element CSS ribbons](https://css-generators.com/ribbon-shapes/). We’re making adjustments to the basic shape we made before. Instead of perfectly straight strands of ribbon, we’re making **angled cuts out of the shape**.
 
-See the Pen [Responsive multi-line ribbon shapes](https://codepen.io/t_afif/pen/NWeYwBK) by [Temani Afif](https://codepen.io/t_afif).
+<CodePen
+  user="t_afif"
+  slug-hash="NWeYwBK"
+  title="Responsive multi-line ribbon shapes"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 ---
 
@@ -69,8 +79,6 @@ Once again, all we are working with is a single element in the HTML:
 ```html
 <h1>Your content here</h1>
 ```
-
-Copy
 
 We are also going to rely on gradients to create the repetition, but the newcomer, this time, will be a **CSS mask**. Using masks is the key to creating such complex designs.
 
@@ -83,13 +91,9 @@ h1 {
 }
 ```
 
-Copy
-
 You’ll notice immediately that this gradient is different from the one we established in the last article. That’s because we’re covering `80%` (instead of `70%`) of the space before making a hard color stop to full transparency for the remaining `20%` of space. That’s why we’re offsetting the gradient by `.1lh` on the `background`.
 
-[![Two lines of white text against a red background.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/1-lines-white-text-red-background.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/1-lines-white-text-red-background.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/1-lines-white-text-red-background.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/1-lines-white-text-red-background.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/1-lines-white-text-red-background.png)
 
 If you are wondering why I am using `80%`, then there is no particular logic to my approach. It’s because I found that covering more space with the color and leaving less space between lines produces a better result for my eye. I could have assigned variables to control the space without touching the core code, but there’s already more than enough complexity going on. So, that’s the reasoning behind the hard-coded value.
 
@@ -99,9 +103,7 @@ If you are wondering why I am using `80%`, then there is no particular logic to 
 
 We’ll start with the red ribbon from the demo. This is what we’re attempting to create:
 
-[![Four lines of white text against a red background ribbon with angled cuts at the ends.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/2-lines-text-background-ribbon.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/2-lines-text-background-ribbon.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/2-lines-text-background-ribbon.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/2-lines-text-background-ribbon.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/2-lines-text-background-ribbon.png)
 
 It may look complex, but we will break it down into a combination of basic shapes.
 
@@ -109,9 +111,7 @@ It may look complex, but we will break it down into a combination of basic shape
 
 Let’s start with the gradient configuration, and below is the result we are aiming for. I am adding a bit of transparency to better see both gradients.
 
-[![Highlighting the two gradients used in the pattern](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/3-highlighted-two-gradients-pattern.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/3-highlighted-two-gradients-pattern.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/3-highlighted-two-gradients-pattern.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/3-highlighted-two-gradients-pattern.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/3-highlighted-two-gradients-pattern.png)
 
 ```css
 h1 {
@@ -128,8 +128,6 @@ h1 {
 }
 ```
 
-Copy
-
 We already know all about the first gradient because we set it up in the last section. The second gradient, however, is placed behind the first one to simulate the folded part. It uses the same color variable as the first gradient, but it’s blended with black (`#000`) in the `color-mix()` function to darken it a smidge and create depth in the folds.
 
 The thing with the second gradient is that we do not want it to reach the top and bottom of the element, which is why its height is equal to `calc(100% - .3lh)`.
@@ -140,22 +138,17 @@ Note the **use of padding in the inline direction**, which is required to avoid 
 
 Now, it’s time to introduce a CSS mask. If you look closely at the design of the ribbon, you will notice that we are cutting triangular shapes from the sides.
 
-[![Highlighting the masked areas of the pattern.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/4-highlighted-masked-areas-pattern.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/4-highlighted-masked-areas-pattern.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/4-highlighted-masked-areas-pattern.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/4-highlighted-masked-areas-pattern.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/4-highlighted-masked-areas-pattern.png)
 
 We have applied a triangular shape on the left and right sides of the ribbon. Unlike the backgrounds, **they repeat every two lines**, giving us the complex repetition we want.
 
 Imagine for a moment that those parts are transparent.
 
-[![A dashed black border is drawn around six lines of white text against a background ribbon pattern.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/5-text-background-ribbon-pattern.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/5-text-background-ribbon-pattern.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/5-text-background-ribbon-pattern.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/5-text-background-ribbon-pattern.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/5-text-background-ribbon-pattern.png)
 
 That will give us the final shape! We can do it with masks, but this time, let’s try using `conic-gradient()`, which is nice because it allows us to create triangular shapes. And since there’s one shape on each side, we’ll use two conical gradients — one for the left and one for the right — and repeat them in the vertical direction.
 
 ```css
-
 mask:
   conic-gradient(from 225deg at .9lh, #0000 25%, #000 0) 
     0 1lh / 50% 2lh repeat-y,
@@ -163,21 +156,22 @@ mask:
     100% 0 / 50% 2lh repeat-y;
 ```
 
-Copy
-
-Each gradient covers half the width (`50%`) and takes up two lines of text (`2lh`). Also, note the `1lh` offset of the first gradient, which is what allows us to alternate between the two as the ribbon adapts in size. It’s pretty much a zig-zag pattern and, guess what, I have an article that covers [how to create zig-zag shapes with CSS masks](https://css-tricks.com/css-borders-using-masks/). I highly recommend reading that for more context and practice applying masks with conical gradients.
+Each gradient covers half the width (`50%`) and takes up two lines of text (`2lh`). Also, note the `1lh` offset of the first gradient, which is what allows us to alternate between the two as the ribbon adapts in size. It’s pretty much a zig-zag pattern and, guess what, I have an article that covers [**how to create zig-zag shapes with CSS masks**](/css-tricks.com/css-borders-using-masks.md). I highly recommend reading that for more context and practice applying masks with conical gradients.
 
 ### Masking The Ribbon’s Ends
 
 We are almost done! All we are missing are the ribbon’s cut edges. This is what we have so far:
 
-See the Pen [First ribbon shape](https://codepen.io/t_afif/pen/XWOrNaa) by [Temani Afif](https://codepen.io/t_afif).
+<CodePen
+  user="t_afif"
+  slug-hash="XWOrNaa"
+  title="First ribbon shape"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 Notice that the cutout parts of the ribbon are hidden by the mask. We need to add more gradients to the mask to see them. Let’s start with the one at the top of the ribbon, as illustrated below.
 
-[![Outlining the area of the ribbon’s end that needs to be filled with color.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/6-outlined-area-ribbon-end.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/6-outlined-area-ribbon-end.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/6-outlined-area-ribbon-end.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/6-outlined-area-ribbon-end.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/6-outlined-area-ribbon-end.png)
 
 We can fill that in by adding a third gradient to the mask:
 
@@ -192,27 +186,38 @@ mask:
    100% 0 / 50% 2lh repeat-y;
 ```
 
-Copy
-
 That linear gradient will give us the missing part at the top, but we still need to do the same at the bottom, and here, it’s a bit tricky because, unlike the top part, the bottom is not static. The cutout can be either on the left or the right based on the number of lines of text we’re working with:
 
-[![Highlighting the missing areas that need to be filled with color to create cuts at the ends of the ribbon.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/7-ribbon-highlighted-missing-areas.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/7-ribbon-highlighted-missing-areas.png)
-
-The top part of the ribbon will always be first and maintain the same direction. But the bottom part could either be facing left or right, depending on whether there is an even or odd number of lines of text. ([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/7-ribbon-highlighted-missing-areas.png))
+![The top part of the ribbon will always be first and maintain the same direction. But the bottom part could either be facing left or right, depending on whether there is an even or odd number of lines of text.<br/>[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/7-ribbon-highlighted-missing-areas.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/7-ribbon-highlighted-missing-areas.png)
 
 We will fill in those missing parts with two more gradients. Below is a demo where I use different colors for the newly added gradients to see exactly what’s happening. Use the resize handle to see how the ribbon adjusts when the number of lines changes.
 
-See the Pen [Illustrating the full mask configuration](https://codepen.io/t_afif/pen/RwvboJO) by [Temani Afif](https://codepen.io/t_afif).
+<CodePen
+  user="t_afif"
+  slug-hash="RwvboJO"
+  title="Illustrating the full mask configuration"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 See that? The bottom part of the ribbon is positioned in such a way that it is obscured by the fold on the left side when there is an even number of lines and revealed when there is an odd number of lines. The reverse is true of the right side, allowing us to hide one side or the other as the number of lines changes.
 
 If we make all the colors the same, the illusion is perfect!
 
-See the Pen [Illustrating the full mask configuration](https://codepen.io/t_afif/pen/eYxBZdv) by [Temani Afif](https://codepen.io/t_afif).
+<CodePen
+  user="t_afif"
+  slug-hash="eYxBZdv"
+  title="Illustrating the full mask configuration"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 We can optimize the code a little and replace the two bottom gradients with only one conical gradient, but that can lead to spacing glitches, so I won’t use it. Here is a demo to illustrate the idea, in case you are curious:
 
-See the Pen [Illustrating the full mask configuration](https://codepen.io/t_afif/pen/mdvbpYK) by [Temani Afif](https://codepen.io/t_afif).
+<CodePen
+  user="t_afif"
+  slug-hash="mdvbpYK"
+  title="Illustrating the full mask configuration"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 ---
 
@@ -244,13 +249,9 @@ h1 {
 }
 ```
 
-Copy
+Before we move to the second ribbon, I have a challenge for you: **Can you spot which values you would change to set the ribbon in the** **_opposite_** **shape?** This will be your homework. You can always find the solution over at [<VPIcon icon="fas fa-globe"/>my ribbon collection](https://css-generators.com/ribbon-shapes/), but give it a try using the final code above.
 
-Before we move to the second ribbon, I have a challenge for you: **Can you spot which values you would change to set the ribbon in the** ***opposite*** **shape?** This will be your homework. You can always find the solution over at [my ribbon collection](https://css-generators.com/ribbon-shapes/), but give it a try using the final code above.
-
-[![Reversing the ribbon’s direction](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/8-reverse-ribbon-direction.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/8-reverse-ribbon-direction.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/8-reverse-ribbon-direction.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/8-reverse-ribbon-direction.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/8-reverse-ribbon-direction.png)
 
 ---
 
@@ -258,9 +259,7 @@ Before we move to the second ribbon, I have a challenge for you: **Can you spot 
 
 The second ribbon from the demo — the green one — is a variation of the first ribbon.
 
-[![Three lines of white text against a green ribbon background with angled and clipped ends.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/9-text-ribbon-background-angled-clipped-ends.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/9-text-ribbon-background-angled-clipped-ends.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/9-text-ribbon-background-angled-clipped-ends.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/9-text-ribbon-background-angled-clipped-ends.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/9-text-ribbon-background-angled-clipped-ends.png)
 
 I am going a little bit faster this time around. We’re working with many of the same ideas and concepts, but you will see how relatively easy it is to create variations with this approach.
 
@@ -276,11 +275,7 @@ h1 {
 }
 ```
 
-Copy
-
-[![A dashed black border drawn around the element’s boundaries.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/10-text-border-element-boundaries.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/10-text-border-element-boundaries.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/10-text-border-element-boundaries.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/10-text-border-element-boundaries.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/10-text-border-element-boundaries.png)
 
 Note how the background gradient is set to cover only the padding area using `padding-box`.
 
@@ -304,23 +299,22 @@ h1 {
 }
 ```
 
-Copy
-
-[![Highlighting the two gradients that establish the left and right sides of the ribbon.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/11-highlighted-two-gradients-ribbon.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/11-highlighted-two-gradients-ribbon.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/11-highlighted-two-gradients-ribbon.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/11-highlighted-two-gradients-ribbon.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/11-highlighted-two-gradients-ribbon.png)
 
 Notice how the last two gradients are set to cover the entire area with a `border-box`. The height of each gradient needs to equal two lines of text (`2lh`), while the width should be consistent with the height of each horizontal gradient. With this, we establish the folded parts of the ribbon and also prepare the code for creating the triangular cuts at the start and end of the ribbon.
 
 Here is an interactive demo where you can resize the container to see how the gradient responds to the number of lines of text.
 
-See the Pen [CodePen Home Gradient configuration of the second ribbon](https://codepen.io/t_afif/pen/JjxPEdw) by [Temani Afif](https://codepen.io/t_afif).
+<CodePen
+  user="t_afif"
+  slug-hash="JjxPEdw"
+  title="CodePen Home Gradient configuration of the second ribbon"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 The next step is to mask the left and right sides of the ribbon using the same conical gradients that we set up for the red ribbons. We’ve already figured it out!
 
-[![Highlighting the masked areas on the left and rights sides of the ribbon.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/12-highlighted-masked-areas-ribbon.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/12-highlighted-masked-areas-ribbon.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/12-highlighted-masked-areas-ribbon.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/12-highlighted-masked-areas-ribbon.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/12-highlighted-masked-areas-ribbon.png)
 
 Applying only the conic gradients will also hide the cutout part, so I have to introduce a third gradient to make sure they remain visible:
 
@@ -336,13 +330,9 @@ mask:
    100% 0 / 51% 2lh repeat-y padding-box;
 ```
 
-Copy
-
 And the final touch is to use `clip-path` for the cutouts at the ends of the ribbon.
 
-[![Showing the points that make up the clipped area of the ribbon and its cuts.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/13-points-make-clipped-area-ribbon.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/13-points-make-clipped-area-ribbon.png)
-
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/13-points-make-clipped-area-ribbon.png))
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/13-points-make-clipped-area-ribbon.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/13-points-make-clipped-area-ribbon.png)
 
 Notice how the `clip-path` is cutting two triangular portions from the bottom to make sure the cutout is always visible whether we have an odd or even number of lines.
 
@@ -375,15 +365,11 @@ h1 {
 }
 ```
 
-Copy
-
 I challenged you to find a way to reverse the direction of the first ribbon by adjusting the gradient values. Try to do the same thing here!
 
-[![Reversing the direction of the ribbon.](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/14-reverse-direction-ribbon.png)](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/14-reverse-direction-ribbon.png)
+![[<VPIcon icon="fas fa-file-image"/>Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/14-reverse-direction-ribbon.png)](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/14-reverse-direction-ribbon.png)
 
-([Large preview](https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part2/14-reverse-direction-ribbon.png))
-
-It may sound difficult. If you need a lifeline, you can get the code from [my online collection](https://css-generators.com/ribbon-shapes/), but it’s the perfect exercise to understand what we are doing. Explaining things is good, but nothing beats practicing.
+It may sound difficult. If you need a lifeline, you can get the code from [<VPIcon icon="fas fa-globe"/>my online collection](https://css-generators.com/ribbon-shapes/), but it’s the perfect exercise to understand what we are doing. Explaining things is good, but nothing beats practicing.
 
 ---
 
@@ -391,24 +377,29 @@ It may sound difficult. If you need a lifeline, you can get the code from [my on
 
 Here is the demo once again to see how everything comes together.
 
-See the Pen [Responsive multi-line ribbon shapes](https://codepen.io/t_afif/pen/NWeYwBK) by [Temani Afif](https://codepen.io/t_afif).
+<CodePen
+  user="t_afif"
+  slug-hash="NWeYwBK"
+  title="Responsive multi-line ribbon shapes"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 ---
 
 ## Wrapping Up
 
-There we go, two more ribbons that build off of the ones we created together in [the first article of this brief two-part series](https://smashingmagazine.com/2023/11/css-responsive-multi-line-ribbon-shapes-part1/). If there’s only one thing you take away from these articles, I hope it’s that **modern CSS provides us with powerful tools that offer different, more robust approaches to things we used to do a long time ago**. Ribbons are an excellent example of a long-living design pattern that’s been around long enough to demonstrate how creating them has evolved over time as new CSS features are released.
+There we go, two more ribbons that build off of the ones we created together in [**the first article of this brief two-part series**](/smashingmagazine.com/css-responsive-multi-line-ribbon-shapes-part1.md). If there’s only one thing you take away from these articles, I hope it’s that **modern CSS provides us with powerful tools that offer different, more robust approaches to things we used to do a long time ago**. Ribbons are an excellent example of a long-living design pattern that’s been around long enough to demonstrate how creating them has evolved over time as new CSS features are released.
 
-I can tell you that the two ribbons we created in this article are perhaps the most difficult shapes in [my collection of ribbon shapes](https://css-generators.com/ribbon-shapes/). But if you can wrap your head around the use of gradients — not only for backgrounds but masks and clipping paths as well — you’ll find that you can create every other ribbon in the collection without looking at my code. It’s getting over that initial hurdle that makes this sort of thing challenging.
+I can tell you that the two ribbons we created in this article are perhaps the most difficult shapes in [<VPIcon icon="fas fa-globe"/>my collection of ribbon shapes](https://css-generators.com/ribbon-shapes/). But if you can wrap your head around the use of gradients — not only for backgrounds but masks and clipping paths as well — you’ll find that you can create every other ribbon in the collection without looking at my code. It’s getting over that initial hurdle that makes this sort of thing challenging.
 
 You now have the tools to make your own ribbon patterns, too, so why not give it a try? If you do, please share them in the comments so I can see your work!
 
 ::: info Further Reading On SmashingMag
 
-- “[Create Responsive Image Effects With CSS Gradients And aspect-ratio](https://smashingmagazine.com/2021/02/responsive-image-effects-css-gradients-aspect-ratio/),” Stephanie Eckles
-- “[Inspired Design Decisions With Alexey Brodovitch](https://smashingmagazine.com/2019/09/inspired-design-decisions-alexey-brodovitch/),” Andrew Clarke
-- “[Gradients, Blend Modes, And A Really Cool Hover Effect](https://smashingmagazine.com/2023/09/gradients-blend-modes-hover-effect/),” Preethi Sam
-- “[A Deep CSS Dive Into Radial And Conic Gradients](https://smashingmagazine.com/2022/01/css-radial-conic-gradient/),” Ahmad Shadeed
+- “[**Create Responsive Image Effects With CSS Gradients And aspect-ratio**](/smashingmagazine.com/responsive-image-effects-css-gradients-aspect-ratio.md),” Stephanie Eckles
+- “[**Inspired Design Decisions With Alexey Brodovitch**](/smashingmagazine.com/inspired-design-decisions-alexey-brodovitch.md),” Andrew Clarke
+- “[**Gradients, Blend Modes, And A Really Cool Hover Effect**](/smashingmagazine.com/gradients-blend-modes-hover-effect.md),” Preethi Sam
+- “[**A Deep CSS Dive Into Radial And Conic Gradients**](/smashingmagazine.com/css-radial-conic-gradient.md),” Ahmad Shadeed
 
 :::
 

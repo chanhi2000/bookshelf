@@ -875,9 +875,9 @@ https://paperlined.org/
 <SiteInfo
   name="Learnk8s — the Kubernetes training company"
   desc="We help you get started on your Kubernetes journey through comprehensive online, in person or remote training."
-  url="https://learnk8s.io/archive"
-  logo="https://static.learnk8s.io/f7e5160d4744cf05c46161170b5c11c9.svg"
-  preview="https://static.learnk8s.io/6dbec52a8d352b7cd5625cf903bf4de4.png"/>
+  url="https://learnkube.com/archive"
+  logo="https://static.learnkube.com/f7e5160d4744cf05c46161170b5c11c9.svg"
+  preview="https://static.learnkube.com/6dbec52a8d352b7cd5625cf903bf4de4.png"/>
 
 <SiteInfo
   name="Code Maze - C#, .NET and Web Development Tutorials"

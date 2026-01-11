@@ -666,7 +666,7 @@ In this command,
 
 - `express` is a fast and minimal web framework for Node.js used to create server-side applications and APIs.
 - `mongoose` is an Object Data Modeling (ODM) library for MongoDB, simplifying database interactions.
-- `dotenv` loads environment variables from a <VPIcon icon="fas fa-file-lines"/>`.env` file, keeping sensitive data secure.
+- `dotenv` loads environment variables from a <VPIcon icon="iconfont icon-doitenv" />`.env` file, keeping sensitive data secure.
 - `cors` enables Cross-Origin Resource Sharing, allowing frontend applications to communicate with the backend across different domains.
 
 #### Create a server.js File
@@ -892,9 +892,9 @@ Here’s a block-by-block breakdown of the code above:
 
 This Express.js router handles CRUD operations for a `Task` model using MongoDB. It defines routes to get all tasks, add a new task, delete a task by ID, and update a task's title by ID. Error handling ensures proper responses for missing data or server issues.
 
-#### Create a <VPIcon icon="fas fa-file-lines"/>`.env` file
+#### Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file
 
-In your backend folder, create a <VPIcon icon="fas fa-file-lines"/>`.env` file and add the following:
+In your backend folder, create a <VPIcon icon="iconfont icon-doitenv" />`.env` file and add the following:
 
 ```sh title="backend/.env"
 MONGO_URI=your_mongodb_atlas_uri
@@ -912,7 +912,7 @@ Follow the steps to create a free cluster. Once the cluster is created, click Co
 - Create a database user.
 - Get the connection string.
 
-Replace the `your_mongodb_atlas_uri` in <VPIcon icon="fas fa-file-lines"/>`.env` file with your MongoDB Atlas connection string.
+Replace the `your_mongodb_atlas_uri` in <VPIcon icon="iconfont icon-doitenv" />`.env` file with your MongoDB Atlas connection string.
 
 If you are still not comfortable with how to set up MongoDB atlas, read this: [**MongoDB Atlas Tutorial - How to Get Started**](/freecodecamp.org/get-started-with-mongodb-atlas.md).
 

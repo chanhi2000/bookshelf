@@ -118,7 +118,7 @@ I have recently published a detailed [<VPIcon icon="fas fa-globe"/>langchain tut
 
 Let’s make our first agent. It will respond to user questions and [call a tool](https://freecodecamp.org/news/how-to-build-your-first-mcp-server-using-fastmcp/) when needed.
 
-We’ll give it a simple weather tool, then ask it about the weather in a city. Before this, create a file called <VPIcon icon="fas fa-file-lines"/>`.env` and add your OpenAI api key. Langchain will automatically use it when making requests to OpenAI.
+We’ll give it a simple weather tool, then ask it about the weather in a city. Before this, create a file called <VPIcon icon="iconfont icon-doitenv" />`.env` and add your OpenAI api key. Langchain will automatically use it when making requests to OpenAI.
 
 ```sh title=".env"
 OPENAI_API_KEY=<key>

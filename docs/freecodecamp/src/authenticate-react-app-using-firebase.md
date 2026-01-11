@@ -566,18 +566,18 @@ Make sure your Firebase project is configured to handle authentication correctly
 
 Before pushing your project to GitHub, make sure to store your Firebase API key in an environment variable to keep it secure. This will prevent sensitive information from being exposed in your shared code.
 
-### Creating a <VPIcon icon="fas fa-file-lines"/>`.env` file
+### Creating a <VPIcon icon="iconfont icon-doitenv" />`.env` file
 
-- At the root of your application, create a <VPIcon icon="fas fa-file-lines"/>`.env` file.
+- At the root of your application, create a <VPIcon icon="iconfont icon-doitenv" />`.env` file.
 
-![Storing the API keys in <VPIcon icon="fas fa-file-lines"/>`.env` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1727813941388/5e647b8c-c76b-4671-b44b-21ac4dcddc89.png)
+![Storing the API keys in <VPIcon icon="iconfont icon-doitenv" />`.env` file](https://cdn.hashnode.com/res/hashnode/image/upload/v1727813941388/5e647b8c-c76b-4671-b44b-21ac4dcddc89.png)
 
 - Add your Firebase API key to the <VPIcon icon="fa-brands fa-js"/>`firebase.js` file.
 - Use `import` or `process.env` to access your Firebase API key. Since the app was created with Vite, I used `import`.
 
 ![Firebase file](https://cdn.hashnode.com/res/hashnode/image/upload/v1727814253953/514db02f-44f8-44fc-b03c-4cf77cb5c4ba.png)
 
-- Finally, update your **.gitignore** file to include the<VPIcon icon="fas fa-file-lines"/>`.env` file. This step also protects other sensitive files and directories, like <VPIcon icon="fas fa-folder-open"/>`node_modules`.
+- Finally, update your **.gitignore** file to include the<VPIcon icon="iconfont icon-doitenv" />`.env` file. This step also protects other sensitive files and directories, like <VPIcon icon="fas fa-folder-open"/>`node_modules`.
 
 ```gitignore
 # Logs

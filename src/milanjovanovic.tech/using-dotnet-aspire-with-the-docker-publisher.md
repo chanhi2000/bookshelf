@@ -134,7 +134,7 @@ Then you can run the `publish` command:
 aspire publish -o docker-compose-artifacts
 ```
 
-This command will scan your solution for the Aspire project and generate a Docker Compose file and an <VPIcon icon="fas fa-file-lines"/>`.env` file based on the services you've defined.
+This command will scan your solution for the Aspire project and generate a Docker Compose file and an <VPIcon icon="iconfont icon-doitenv" />`.env` file based on the services you've defined.
 
 ![Aspire publish command](https://milanjovanovic.tech/blogs/mnw_149/aspire_publish.png?imwidth=1920)
 
@@ -205,7 +205,7 @@ volumes:
 
 This <VPIcon icon="iconfont icon-yaml"/>`docker-compose.yaml` file is generated from the C# code we wrote earlier. It defines the services, their images, environment variables, ports, and dependencies.
 
-The <VPIcon icon="fas fa-file-lines"/>`.env` file contains some of the configuration we need:
+The <VPIcon icon="iconfont icon-doitenv" />`.env` file contains some of the configuration we need:
 
 ```sh title=".env"
 # Parameter database-password

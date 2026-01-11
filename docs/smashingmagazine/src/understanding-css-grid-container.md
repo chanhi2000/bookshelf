@@ -84,10 +84,12 @@ The example below has two block-level elements, plus a string of text with a spa
 - The span,
 - The string of text after the span.
 
-rachelandrew
-VwYrwBe
-Grid Container: Direct children and strings of text become grid items
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="VwYrwBe"
+  title="Grid Container: Direct children and strings of text become grid items"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 If you inspect the grid using the Firefox Grid Inspector, you can see the five-row tracks that have been created for the items.
 
@@ -97,10 +99,12 @@ You can also create an inline grid by using `display: inline-grid`; in this case
 
 This next example has a grid followed by a string of text, as this is an inline-level grid, the text can display alongside it. Inline-level things do not stretch to take up all the space in the inline dimension in that way that block-level things do.
 
-rachelandrew
-Exabxpz
-Grid Container: inline-grid
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="Exabxpz"
+  title="Grid Container: inline-grid"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 ::: note
 
@@ -166,10 +170,12 @@ As you can see there are many ways to create a track listing! Let’s have a loo
 
 You can use any length units, or a percentage to create your tracks. If the size of the tracks adds up to less than is available in the grid container, then by default the tracks will line up at the start of the container and the spare space will go to the end. This is because the default value of `align-content` and `justify-content` is `start`. You can space out the grid tracks, or move them to the end of the container using the alignment properties, which I explain in detail in my article “[**How To Align Things In CSS**](/smashingmagazine.com/css-alignment.md)”.
 
-rachelandrew
-eYmeYbX
-Grid Container: length units
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="eYmeYbX"
+  title="Grid Container: length units"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 You can also use the keywords `min-content`, `max-content` and `fit-content()`. Using `min-content` will give you a track that is as small as it can be without causing overflow. Therefore, when used as a column size, the content will softly wrap wherever possible. The track becoming the size of the longest word in the column or largest fixed-size element.
 
@@ -177,10 +183,12 @@ Using `max-content` will cause the content to not do any soft-wrapping at all. I
 
 The `fit-content` keyword can only be used by passing in a value. That value becomes the max that this track will grow to. Therefore, the track will act like `max-content` with the content unwrapping and stretching out until it hits the value you passed in. At that point, it will start wrapping as normal. So your track may be smaller than the value you pass in, but never larger.
 
-rachelandrew
-rNaYNob
-Grid Container: min-content, max-content, fit-content()
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="rNaYNob"
+  title="Grid Container: min-content, max-content, fit-content()"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 You can find out more about sizing in Grid and other layout methods in my article “[**How Big Is That Box? Understanding Sizing In CSS Layout**](/smashingmagazine.com/understanding-sizing-css-layout.md)”.
 
@@ -192,35 +200,43 @@ Grid Layout includes a method that can save you calculating percentages for your
 
 This means that with a track-list of `1fr 1fr 1fr`; the available space is divided into three and shared evenly between the tracks. With a track-list of `2fr 1fr 1fr`, the available space is divided into four and two parts are given to track one — one part each to tracks two and three.
 
-rachelandrew
-QWwOWYx
-Grid Container: fr
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="QWwOWYx"
+  title="Grid Container: fr"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 Something to watch out for is that what is being shared out by default is *available space* which is not the total space in the container. If any of your tracks contain a fixed-size element or a long word that can’t be wrapped, this will be laid out before the space is shared out.
 
 In the next example, I removed the spaces between the words of `ItemThree`. This made a long unbreakable string so space distribution happens after the layout of that item has been accounted for.
 
-rachelandrew
-JjoOjzo
-Grid Container: fr with larger content
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="JjoOjzo"
+  title="Grid Container: fr with larger content"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 You can mix the `fr` unit with fixed length tracks, and this is where it becomes very useful. For example, you could have a component with two fixed-sized columns and a center area that stretches:
 
-rachelandrew
-JjoOjqd
-Grid Container: mixing fr units and fixed-size tracks
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="JjoOjqd"
+  title="Grid Container: mixing fr units and fixed-size tracks"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 You can have a component with one track set to `fit-content(300px)` and the other to 1fr. This makes for a component that can have something smaller than 300px in the first track, in which case it only takes the space it needs and the `fr` unit expands to take up the rest of the space.
 
 If you add something larger (such as an image with `max-width: 100%`), the first track will stop growing at 300px and the `fr` unit takes the rest of the space. Mixing the `fr` unit with fit-content is a way to make some very flexible components for your site.
 
-rachelandrew
-abzVbgb
-See the Pen [ (<VPIcon icon="fa-brands fa-codepen" />`rachelandrew`)](https://codepen.io/
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="abzVbgb"
+  title="Grid Container: mixing fr and fit-content()"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 ### The `repeat()` Function
 
@@ -241,35 +257,43 @@ grid-template-columns: 1fr repeat(3,200px) 1fr
 
 In addition to a number before the comma to indicate a fixed number of times to repeat the pattern, you can also use the keywords `auto-fill` or `auto-fit`. Using one of these keywords means that instead of a fixed number of tracks, your grid container will be filled with as many tracks as will fit.
 
-rachelandrew
-oNgoggL
-See the Pen [ (<VPIcon icon="fa-brands fa-codepen" />`rachelandrew`)](https://codepen.io/
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="oNgoggL"
+  title="Grid Container: auto-fill"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 Using a fixed-length unit means that, unless the container is able to be exactly divided by that size, you will end up with some spare space remaining. In the example above my container is 500px wide, so I get two 200px tracks plus space at the end.
 
 We can use another grid function to make the value a minimum, with any spare space distributed across all of the tracks. The `minmax()` function takes a minimum and a maximum size. With a minimum of 200px and a max of 1fr, we get as many 200px tracks as will fit and because the max is 1fr, which we already know will share out the space evenly, the extra is distributed across the tracks.
 
-rachelandrew
-eYmemNw
-Grid Container: auto-fill and minmax()
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="eYmemNw"
+  title="Grid Container: auto-fill and minmax()"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 I mentioned there are two possible keywords: `auto-fill` and `auto-fit`. If you have enough content to fill the first row of cells, then these will behave in exactly the same way. If, however, you do not (e.g. if we remove all but one item inside the container above), then they behave differently.
 
 Using `auto-fill` will maintain the available track sizing even if there is no content to go into it.
 
-rachelandrew
-XWJzJXr
-Grid Container: auto-fill and minmax() with one item
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="XWJzJXr"
+  title="Grid Container: auto-fill and minmax() with one item"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 If, instead, you use `auto-fit`, the empty tracks will be collapsed:
 
-rachelandrew
-XWJzJdW
-Grid Container: auto-fit and minmax() with one item
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="XWJzJdW"
+  title="Grid Container: auto-fit and minmax() with one item"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 By using the Firefox Grid Inspector, you can see that the tracks are still there, but have been collapsed to zero. The end line of our grid is still line 3 as we can fit two tracks.
 
@@ -309,10 +333,12 @@ If you want the first implicit row to be auto-sized, and the second to be `min-c
 
 `grid-auto-rows: auto 100px`
 
-rachelandrew
-xxbPxyK
-Grid Container: grid-auto-rows
-) by Rachel Andrew ([@rachelandrew](https://codepen.io/rachelandrew)) on [CodePen](https://codepen.io).
+<CodePen
+  user="rachelandrew"
+  slug-hash="xxbPxyK"
+  title="Grid Container: grid-auto-rows"
+  :default-tab="['css','result']"
+  :theme="dark"/>
 
 ---
 

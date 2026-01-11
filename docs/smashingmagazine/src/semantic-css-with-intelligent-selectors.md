@@ -365,7 +365,7 @@ Nonetheless, some will insist on using `a` as the basis of their buttons. Hyperl
   "desc": "Working with HTML, authors may use the period (.) notation as an alternative to the ~= notation when representing the class attribute. Thus, for HTML, div.value and div[class~=value] have the same meaning. The attribute value must immediately follow the “period” (.). UAs may apply selectors using the period (.) notation in XML documents if the UA has namespace specific knowledge that allows it to determine which attribute is the “class” attribute for the respective namespace. One such example of namespace specific knowledge is the prose in the specification for a particular namespace (e.g., SVG 1.1 [SVG11] describes the SVG “class” attribute and how a UA should interpret it, and similarly MathML 3.0 [MATH30] describes the MathML “class” attribute.)",
   "link": "https://w3.org/TR/CSS2/selector.html#class-html/",
   "logo": "https://w3.org/favicon.ico",
-  "background": "rgba(47,93,149,0.2)"
+  "background": "rgba(0,90,156,0.2)"
 }
 ```
 

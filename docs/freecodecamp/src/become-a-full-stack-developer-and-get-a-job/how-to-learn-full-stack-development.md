@@ -311,7 +311,7 @@ Proper CORS configuration is essential to maintain the security of your web appl
 
 Sensitive information such as database credentials and API keys should not be hardcoded in the codebase. Instead, they are stored in .env (environment) files.
 
-Example of a <VPIcon icon="fas fa-file-lines"/>`.env` file:
+Example of a <VPIcon icon="iconfont icon-doitenv" />`.env` file:
 
 ```sh title=".env"
 DATABASE_URL=mongodb://username:password@server SECRET_KEY=mysecurekey

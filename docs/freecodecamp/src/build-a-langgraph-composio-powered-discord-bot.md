@@ -143,7 +143,7 @@ langchain composio-core dotenv zod uuid
 
 First, before moving forward, you need to get access to a Composio API key.
 
-Go ahead and create an account on Composio, get your API key, and paste it in the <VPIcon icon="fas fa-file-lines"/>`.env` file in the root of the project:
+Go ahead and create an account on Composio, get your API key, and paste it in the <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root of the project:
 
 ![Composio dashboard](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lkr1pys0txedp9vam4tt.png)
 
@@ -203,7 +203,7 @@ DISCORD_BOT_CHANNEL_ID=<YOUR_DISCORD_BOT_CHANNEL_ID>
 
 You’ll require a few other environment variables, including the OpenAI API key, for the bot to work.
 
-Your final <VPIcon icon="fas fa-file-lines"/>`.env` file should look something like this:
+Your final <VPIcon icon="iconfont icon-doitenv" />`.env` file should look something like this:
 
 ```sh title=".env"
 OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>

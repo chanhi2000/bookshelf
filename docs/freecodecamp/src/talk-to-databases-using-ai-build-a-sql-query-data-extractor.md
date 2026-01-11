@@ -299,7 +299,7 @@ Since we have already set up the **Next.js app**, the next step is to build a mi
 
 ## How to Build the Back End
 
-Before we start building the back end, you’ll need to put all important credentials into your <VPIcon icon="fas fa-file-lines"/>`.env` file which will look something like this:
+Before we start building the back end, you’ll need to put all important credentials into your <VPIcon icon="iconfont icon-doitenv" />`.env` file which will look something like this:
 
 ```properties title=".env"
 NEXT_PUBLIC_COPILOTKIT_BACKEND_URL=http://localhost:3000/api/copilotkit

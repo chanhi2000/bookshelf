@@ -739,7 +739,7 @@ export default function RootLayout({
 
 After completing this, users will be prompted to create an account or sign in before they can access the application pages.
 
-Finally, create a [<VPIcon icon="fas fa-globe"/>Clerk account](https://clerk.com) and set up a new Clerk application. Add your Clerk publishable and secret keys to the <VPIcon icon="fas fa-file-lines"/>`.env.local` file in your project.
+Finally, create a [<VPIcon icon="fas fa-globe"/>Clerk account](https://clerk.com) and set up a new Clerk application. Add your Clerk publishable and secret keys to the <VPIcon icon="iconfont icon-doitenv" />`.env.local` file in your project.
 
 ```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<publishable_key>

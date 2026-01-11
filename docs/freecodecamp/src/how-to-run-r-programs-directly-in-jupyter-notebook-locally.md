@@ -5,7 +5,7 @@ description: "Article(s) > How to Run R Programs Directly in Jupyter Notebook Lo
 icon: iconfont icon-jupyter
 category:
   - Python
-  - Jupyter
+  - Jupyter Notebook
   - R 
   - Article(s)
 tag:
@@ -14,6 +14,8 @@ tag:
   - python
   - py
   - jupyter
+  - jupyter-notebook
+  - py-jupyter
   - r
 head:
   - - meta:
@@ -34,7 +36,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pUAM5hPaCRI/up
 
 ```component VPCard
 {
-  "title": "Jupyter > Article(s)",
+  "title": "Jupyter Notebook > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py-jupyter/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",

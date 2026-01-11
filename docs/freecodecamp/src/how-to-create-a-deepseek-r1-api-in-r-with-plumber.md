@@ -110,7 +110,7 @@ You will see a file called <VPIcon icon="iconfont icon-r"/>`plumber.R` with a sa
 
 ![GIF showing how to create a new Plumber project in R](https://cdn.hashnode.com/res/hashnode/image/upload/v1738503866976/60b959cd-b564-486d-8b65-c9ca0278e239.gif)
 
-Next, go to your terminal and create a <VPIcon icon="fas fa-file-lines"/>`.env` file. This is where you will store the Hugging Face API key.
+Next, go to your terminal and create a <VPIcon icon="iconfont icon-doitenv" />`.env` file. This is where you will store the Hugging Face API key.
 
 ```sh
 touch .env
@@ -118,7 +118,7 @@ touch .env
 
 ![Image showing how to create a .env variable on the terminal](https://cdn.hashnode.com/res/hashnode/image/upload/v1738504109388/6ce9bda3-305a-4f2e-87b8-adbe4c245861.png)
 
-Create a <VPIcon icon="iconfont icon-git"/>`.gitignore` file and add the <VPIcon icon="fas fa-file-lines"/>`.env` file to it. This ensures that sensitive information like access tokens and API keys are not pushed to your Git repository.
+Create a <VPIcon icon="iconfont icon-git"/>`.gitignore` file and add the <VPIcon icon="iconfont icon-doitenv" />`.env` file to it. This ensures that sensitive information like access tokens and API keys are not pushed to your Git repository.
 
 ![Image showing the .env file in the .gitignore file](https://cdn.hashnode.com/res/hashnode/image/upload/v1738504889229/0d433bcb-2a7d-4379-a0c7-e09fb53e288f.png)
 
@@ -143,7 +143,7 @@ Next is to install the `dotenv` package, and paste the following code at the top
 dotenv::load_dot_env()
 ```
 
-`dotenv::load_dot_env()` loads all environment variables in the <VPIcon icon="fas fa-file-lines"/>`.env` file, making them available to the <VPIcon icon="iconfont icon-r"/>`plumber.R` script.
+`dotenv::load_dot_env()` loads all environment variables in the <VPIcon icon="iconfont icon-doitenv" />`.env` file, making them available to the <VPIcon icon="iconfont icon-r"/>`plumber.R` script.
 
 ---
 

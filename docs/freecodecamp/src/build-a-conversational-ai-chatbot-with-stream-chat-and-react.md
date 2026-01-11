@@ -105,8 +105,8 @@ Let’s begin with our backend, the engine room - where user input is routed to 
 1. Create a folder, call it ‘**My-Chat-Application**’.
 2. Clone this [Github repository (<VPIcon icon="iconfont icon-github"/>`GetStream/ai-assistant-nodejs`)](https://github.com/GetStream/ai-assistant-nodejs)
 3. After cloning, rename the folder to ‘**backend**’
-4. Open the <VPIcon icon="fas fa-file-lines"/>`.env.example` file and provide the necessary keys (you’ll need to provide either the OpenAI or Anthropic key - the Open Weather key is optional).
-5. Rename the <VPIcon icon="fas fa-file-lines"/>`.env.example`file to <VPIcon icon="fas fa-file-lines"/>`.env`
+4. Open the <VPIcon icon="iconfont icon-doitenv" />`.env.example` file and provide the necessary keys (you’ll need to provide either the OpenAI or Anthropic key - the Open Weather key is optional).
+5. Rename the <VPIcon icon="iconfont icon-doitenv" />`.env.example`file to <VPIcon icon="iconfont icon-doitenv" />`.env`
 6. Install dependencies by running this command:
 
 ```sh

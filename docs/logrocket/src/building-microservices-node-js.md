@@ -260,7 +260,7 @@ mongoose.connection.on('connected', () => {
 module.exports = mongoose;
 ```
 
-Next, create the <VPIcon icon="fas fa-file-lines"/>`.env` file, which will contain the database URI and port:
+Next, create the <VPIcon icon="iconfont icon-doitenv" />`.env` file, which will contain the database URI and port:
 
 ```sh title=".env"
 MONGO_URI=mongodb://localhost:27017,localhost:27018,localhost:27019/test?replicaSet=rs0

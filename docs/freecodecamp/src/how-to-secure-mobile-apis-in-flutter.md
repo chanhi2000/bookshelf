@@ -92,7 +92,7 @@ We will structure an implementation using the following:
 
 #### Step 1: Setting Up Environment Variables
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file in your Flutter project root directory and define your encryption key:
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in your Flutter project root directory and define your encryption key:
 
 ```sh title=".env"
 ENCRYPTION_KEY=32-character-secure-key-here
@@ -292,7 +292,7 @@ static encrypt.Encrypter? _encrypter;
 static Future<void> initializeEncrypter() async
 ```
 
-- Sets up the AES encryptor using a combination of a <VPIcon icon="fas fa-file-lines"/>`.env` key and the device ID to generate a 32-byte key.
+- Sets up the AES encryptor using a combination of a <VPIcon icon="iconfont icon-doitenv" />`.env` key and the device ID to generate a 32-byte key.
 - Uses AES CBC mode.
 
 #### 4. `getEncrypter()`

@@ -131,13 +131,13 @@ cd next-api
 npm i
 ```
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file and add the database URL from Sevalla into an environment variable.
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file and add the database URL from Sevalla into an environment variable.
 
 ```sh
 cat .env
 ```
 
-The <VPIcon icon="fas fa-file-lines"/>`.env` file should look like this:
+The <VPIcon icon="iconfont icon-doitenv" />`.env` file should look like this:
 
 ```sh title=".env"
 PGSQL_URL=postgres://<username>:<password>-@asia-east1-001.proxy.kinsta.app:30503/<db_name>
@@ -181,7 +181,7 @@ Once the database is created, switch on the “external connection” option and
 
 ![Update network settings](https://cdn.hashnode.com/res/hashnode/image/upload/v1755611728877/6e139e09-8484-4a50-b007-32ecdb266afb.png)
 
-This is how it should look in the <VPIcon icon="fas fa-file-lines"/>`.env` file:
+This is how it should look in the <VPIcon icon="iconfont icon-doitenv" />`.env` file:
 
 ```sh titel=".env"
 REDIS_URL=redis://default:<password>@<host>:<port>

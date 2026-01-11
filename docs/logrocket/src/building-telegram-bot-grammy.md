@@ -162,7 +162,7 @@ node_modules/
 bot.js
 ```
 
-Finally, open the <VPIcon icon="fas fa-file-lines"/>`.env` file and bind the Telegram Bot token to a constant:
+Finally, open the <VPIcon icon="iconfont icon-doitenv" />`.env` file and bind the Telegram Bot token to a constant:
 
 ```sh title=".env"
 TELEGRAM_BOT_TOKEN=xxxxx
@@ -176,7 +176,7 @@ With that done, the folder is now set up for the project.
 
 To get started with Google Gemini, you need to first create an API key. You can do so in the [<VPIcon icon="fa-brands fa-google"/>Google AI Studio](https://aistudio.google.com/app/apikey).
 
-After obtaining the API key, open the <VPIcon icon="fas fa-file-lines"/>`.env` file and bind the API key to a constant:
+After obtaining the API key, open the <VPIcon icon="iconfont icon-doitenv" />`.env` file and bind the API key to a constant:
 
 ```sh title=".env"
 ...
@@ -189,7 +189,7 @@ After that, install the [Google AI JavaScript SDK (<VPIcon icon="fa-brands fa-np
 npm install @google/generative-ai 
 ```
 
-With the library installed, open the <VPIcon icon="iconfont icon-typescript"/>`bot.ts` file and use the constants in the <VPIcon icon="fas fa-file-lines"/>`.env` file to configure both Gemini and grammY:
+With the library installed, open the <VPIcon icon="iconfont icon-typescript"/>`bot.ts` file and use the constants in the <VPIcon icon="iconfont icon-doitenv" />`.env` file to configure both Gemini and grammY:
 
 ```ts :collapsed-lines title="bot.ts"
 import { Bot } from 'grammy';

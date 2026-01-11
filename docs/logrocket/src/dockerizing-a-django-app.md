@@ -410,9 +410,9 @@ Follow the official [<VPIcon icon="fa-brands fa-docker"/>documentation](https://
 
 ## Supporting files in a Django application
 
-There are some files referenced in the script above that make the file less bulky, thus making code management easier. These include the <VPIcon icon="fas fa-file-lines"/>`.env` file, the Nginx's Dockerfile and config files. Below are samples of what each entails:
+There are some files referenced in the script above that make the file less bulky, thus making code management easier. These include the <VPIcon icon="iconfont icon-doitenv" />`.env` file, the Nginx's Dockerfile and config files. Below are samples of what each entails:
 
-### <VPIcon icon="fas fa-file-lines"/>`.env` file
+### <VPIcon icon="iconfont icon-doitenv" />`.env` file
 
 The main purpose of this file is to store variables, such as keys and credentials. Environment variables are a set of key-value pairs for the current user environment. This is a safe coding practice that ensures your personal keys are not exposed.
 

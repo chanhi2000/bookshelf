@@ -227,7 +227,7 @@ npm install @supabase/supabase-js @supabase/ssr
 
 ### Configure Environment Variables
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file in the project root and add the following. Remember to replace with your actual credentials:
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the project root and add the following. Remember to replace with your actual credentials:
 
 ```sh title=".env"
 SUPABASE_URL=<YOUR_URL>

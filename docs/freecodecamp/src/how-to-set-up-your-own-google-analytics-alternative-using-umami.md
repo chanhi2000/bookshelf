@@ -134,7 +134,7 @@ The pnpm install command installs all the necessary dependencies for the applica
 
 ### Step 2: Configure the Database
 
-Next, you need to configure a database connection. Create a new <VPIcon icon="fas fa-file-lines"/>`.env` file in the root directory of the Umami project. Inside this file, add the following line:
+Next, you need to configure a database connection. Create a new <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root directory of the Umami project. Inside this file, add the following line:
 
 ```sh title=".env"
 DATABASE_URL=connection-url

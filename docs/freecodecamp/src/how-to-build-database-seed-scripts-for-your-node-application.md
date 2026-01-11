@@ -589,7 +589,7 @@ NODE_ENV=development
 # SEED_PRODUCT_COUNT=200
 ```
 
-This is where <VPIcon icon="fas fa-file-lines"/>`.env.example` comes into its own. It shows developers exactly what variables they need to set, gives context about where to find the values, and adds safety warnings about production usage. In the comments, it doesn't just disclose what the variable should do, but also tells why we need it and how to obtain the values.
+This is where <VPIcon icon="iconfont icon-doitenv" />`.env.example` comes into its own. It shows developers exactly what variables they need to set, gives context about where to find the values, and adds safety warnings about production usage. In the comments, it doesn't just disclose what the variable should do, but also tells why we need it and how to obtain the values.
 
 ---
 

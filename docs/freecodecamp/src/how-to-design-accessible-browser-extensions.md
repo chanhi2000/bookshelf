@@ -315,7 +315,6 @@ Here are some helpful resources
 }
 ```
 
-
 :::
 
 <!-- TODO: add ARTICLE CARD -->

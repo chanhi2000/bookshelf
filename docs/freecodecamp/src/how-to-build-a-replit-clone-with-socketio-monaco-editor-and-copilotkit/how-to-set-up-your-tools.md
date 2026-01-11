@@ -205,7 +205,7 @@ With the LLM set-up and all components ready, you are now prepared to build the 
 
 ![mongodb db setup page](https://cdn.hashnode.com/res/hashnode/image/upload/v1739189943883/84621420-312f-45e7-995e-18bf68245b1d.png)
 
-- It will open a new popup containing your MongoDB atlas URI. Simply copy the string, put it into your <VPIcon icon="fas fa-file-lines"/>`.env` file and use the password you created in step 14.
+- It will open a new popup containing your MongoDB atlas URI. Simply copy the string, put it into your <VPIcon icon="iconfont icon-doitenv" />`.env` file and use the password you created in step 14.
 
 ![mongodb URL view/hide page](https://cdn.hashnode.com/res/hashnode/image/upload/v1739190119546/2dab2beb-02aa-4450-9272-fb7aac99c313.png)
 

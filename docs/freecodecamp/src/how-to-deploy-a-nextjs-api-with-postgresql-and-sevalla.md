@@ -222,13 +222,13 @@ Use the default settings. Once the database is created, it will disable the exte
 
 ![Database settings](https://cdn.hashnode.com/res/hashnode/image/upload/v1754479205197/58c01504-59c0-4df3-b9f9-cb14e1431135.png)
 
-The value we need to connect to the database from our local endpoint is “url” under external connection. Create a file called <VPIcon icon="fas fa-file-lines"/>`.env` in the project and paste the URL in the below format:
+The value we need to connect to the database from our local endpoint is “url” under external connection. Create a file called <VPIcon icon="iconfont icon-doitenv" />`.env` in the project and paste the URL in the below format:
 
 ```sh title=".env"
 PGSQL_URL=postgres://<username>:<password>-@asia-east1-001.proxy.kinsta.app:30503/<db_name>
 ```
 
-The reason we use <VPIcon icon="fas fa-file-lines"/>`.env` is to store environment variables specific to the environment. In production, we won’t need this file (never push <VPIcon icon="fas fa-file-lines"/>`.env` files to GitHub). Sevalla will give us the option to add environment variables via the GUI when we deploy the app.
+The reason we use <VPIcon icon="iconfont icon-doitenv" />`.env` is to store environment variables specific to the environment. In production, we won’t need this file (never push <VPIcon icon="iconfont icon-doitenv" />`.env` files to GitHub). Sevalla will give us the option to add environment variables via the GUI when we deploy the app.
 
 Now let’s test our database connection. Install the `pg` package for Node to interact with PostgreSQL. Let’s also install the TypeScript extension for `pg` to support TypeScript definitions.
 

@@ -195,7 +195,7 @@ The `typescript` package enables TypeScript in your project so you can write str
 
 Finally, `tsx` makes it super easy to run TypeScript files directly without the need to pre-compile them before running your app.
 
-Then create a <VPIcon icon="fas fa-file-lines"/>`.env` file in your project root and paste these variables:
+Then create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in your project root and paste these variables:
 
 ```sh title=".env"
 # Database
@@ -259,7 +259,7 @@ To power your to-do MCP server, you’ll use Neon, a serverless PostgreSQL platf
 
 - Sign up or log in to your [<VPIcon icon="fas fa-globe"/>Neon account console](https://console.neon.tech).
 - Create a new project.
-- Copy the connection string, you’ll need it in your <VPIcon icon="fas fa-file-lines"/>`.env` file.
+- Copy the connection string, you’ll need it in your <VPIcon icon="iconfont icon-doitenv" />`.env` file.
 
 ### 2. Create your DB File
 
@@ -290,7 +290,7 @@ dotenv.config();
 const sql = neon(process.env.DATABASE_URL!);
 ```
 
-The `dotenv` package loads your environment variables from a <VPIcon icon="fas fa-file-lines"/>`.env` file so you don’t have to hardcode secrets in your code. The `neon` function connects your app to your Neon Postgres database, and the `sql` variable gives you a clean, type-safe way to run queries.
+The `dotenv` package loads your environment variables from a <VPIcon icon="iconfont icon-doitenv" />`.env` file so you don’t have to hardcode secrets in your code. The `neon` function connects your app to your Neon Postgres database, and the `sql` variable gives you a clean, type-safe way to run queries.
 
 At this point, your app has everything it needs to talk to the database.
 
@@ -400,7 +400,7 @@ try {
 
 This handles any database setup errors gracefully.
 
-#### Step 8: Update your <VPIcon icon="fas fa-file-lines"/>`.env` file in your project root
+#### Step 8: Update your <VPIcon icon="iconfont icon-doitenv" />`.env` file in your project root
 
 with your Neon database connection string:
 
@@ -465,7 +465,7 @@ In your Kinde dashboard, save these URLs as your:
 
 ### 3. Environment Variables
 
-Update the <VPIcon icon="fas fa-file-lines"/>`.env` file in your project root with the credentials from your Kinde Dashboard:
+Update the <VPIcon icon="iconfont icon-doitenv" />`.env` file in your project root with the credentials from your Kinde Dashboard:
 
 ```sh title=".enve"
 KINDE_ISSUER_URL=https://your-domain.kinde.com
@@ -492,7 +492,7 @@ import { neon } from '@neondatabase/serverless';
 
 The `express` import powers the web server that will handle authentication routes. `express-session` manages user sessions so you can persist login state between requests. The `@kinde-oss/kinde-typescript-sdk` package is the official Kinde SDK, which handles OAuth flows and user authentication.
 
-You’ll use `jsonwebtoken` to decode and verify user tokens, while `dotenv` loads environment variables from your <VPIcon icon="fas fa-file-lines"/>`.env` file. Finally, `@neondatabase/serverless` connects your server to the Neon Postgres database where user data will be stored.
+You’ll use `jsonwebtoken` to decode and verify user tokens, while `dotenv` loads environment variables from your <VPIcon icon="iconfont icon-doitenv" />`.env` file. Finally, `@neondatabase/serverless` connects your server to the Neon Postgres database where user data will be stored.
 
 #### 4.2: Connect to Your Database
 

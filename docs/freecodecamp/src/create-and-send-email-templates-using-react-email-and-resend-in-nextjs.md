@@ -353,7 +353,7 @@ Resend is a simple email API that enables you to send emails within your softwar
 
 Resend and React Email can be easily integrated together since the co-founder of Resend, [Bu Kinoshita (<VPIcon icon="iconfont icon-github"/>`bukinoshita`)](https://github.com/bukinoshita), is also the creator of React Email.
 
-Create an account on [<VPIcon icon="fa-brands fa-react"/>Resend](https://resend.com/docs/send-with-nextjs). Once you're signed in, navigate to the API keys section on your dashboard and copy your API key into a <VPIcon icon="fas fa-file-lines"/>`.env.local` file.
+Create an account on [<VPIcon icon="fa-brands fa-react"/>Resend](https://resend.com/docs/send-with-nextjs). Once you're signed in, navigate to the API keys section on your dashboard and copy your API key into a <VPIcon icon="iconfont icon-doitenv" />`.env.local` file.
 
 ![4a289abc-b7e5-4c81-b7ee-e8f084354fae](https://cdn.hashnode.com/res/hashnode/image/upload/v1733753483127/4a289abc-b7e5-4c81-b7ee-e8f084354fae.png)
 

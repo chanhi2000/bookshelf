@@ -30,11 +30,13 @@ const Y2024: SidebarYeargroupTemplate = {
     "designers-business-ux-language", // 2024-05-14
     "times-need-custom-property-instead-css-variable", // 2024-05-13
     "modern-guide-making-css-shapes", // 2024-05-10
+    "combining-css-has-html-select-conditional-styling", //2024-05-02
     "how-run-ux-research-without-access-users", // 2024-05-10
     "forensics-react-server-components", // 2024-05-09
     "harness-mouse-interaction-data-machine-learning", // 2024-05-06
     "end-of-gatsby-journey", // 2024-03-06
     "modern-css-tooltips-speech-bubbles-part1", // 2024-03-01
+    "css-border-image-property", // 2024-01-16
   ],
 }
 
@@ -83,6 +85,7 @@ const Y2019: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2019
+    "display-two-value", // 2019-04-08
   ],
 }
 
@@ -91,6 +94,7 @@ const Y2018: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2018
+    "avengers-id-card-html-css", // 2018-06-04
   ],
 }
 
@@ -137,6 +141,7 @@ const Y2013: SidebarYeargroupTemplate = {
     // END: 2013
     "semantic-css-with-intelligent-selectors", // 2013-08-20
     "the-history-of-the-bem-methodolog", // 2013-02-21
+    "the-importance-of-sections", // 2013-01-18
   ],
 }
 
@@ -300,6 +305,7 @@ export const template: SidebarInfoTemplate = {
       "classes-where-were-going-we-dont-need-classes", // 2012-06-19
       "road-reusable-html-components", // 2012-10-23
       // END: 2012css
+      "the-importance-of-sections", // 2013-01-18
       "the-history-of-the-bem-methodolog", // 2013-02-21
       "semantic-css-with-intelligent-selectors", // 2013-08-20
       // END: 2013css
@@ -311,7 +317,9 @@ export const template: SidebarInfoTemplate = {
       "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
       // END: 2016css
       // END: 2017css
+      "avengers-id-card-html-css", // 2018-06-04
       // END: 2018css
+      "display-two-value", // 2019-04-08
       // END: 2019css
       // END: 2020css
       // END: 2021css
@@ -321,10 +329,12 @@ export const template: SidebarInfoTemplate = {
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
       // END: 2023css
+      "css-border-image-property", // 2024-01-16
       "modern-css-tooltips-speech-bubbles-part1", // 2024-03-01
       "modern-guide-making-css-shapes", // 2024-05-10
       "times-need-custom-property-instead-css-variable", // 2024-05-13
       "beyond-css-media-queries", // 2024-05-16
+      "combining-css-has-html-select-conditional-styling", //2024-05-02
       "modern-css-layouts-no-framework-needed", // 2024-05-22
       "switching-it-up-html-latest-control", // 2024-05-24
       "in-praise-of-the-basics", // 2024-05-30

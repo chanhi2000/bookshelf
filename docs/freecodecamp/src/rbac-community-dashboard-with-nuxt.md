@@ -156,7 +156,7 @@ Assigning roles to actions in resources is the same as editing policies.
 
 ## How to Setup Permit.io in Nuxt
 
-For our demo project, you need to run `npm install`, create a <VPIcon icon="fas fa-file-lines"/>`.env` file, and export your Permit token.
+For our demo project, you need to run `npm install`, create a <VPIcon icon="iconfont icon-doitenv" />`.env` file, and export your Permit token.
 
 However, if you are building a new project, to setup Permit in Nuxt, first install it with npm.
 

@@ -196,7 +196,7 @@ Here’s a brief overview of what each package does:
 - bcryptjs: Encrypts user passwords for secure storage.
 - Cookie-parser: Handles cookies in your application.
 - CORS: Middleware that enables cross-origin requests - essential for frontend-backend communication.
-- dotenv: Loads environment variables from a <VPIcon icon="fas fa-file-lines"/>`.env` file into process.env.
+- dotenv: Loads environment variables from a <VPIcon icon="iconfont icon-doitenv" />`.env` file into process.env.
 - Express: The core framework for building your server and API routes.
 - jsonwebtoken: Generates and verifies JWT tokens for authentication.
 - Mongoose: Connects your app to a MongoDB database.
@@ -274,7 +274,7 @@ Once <VPIcon icon="fa-brands fa-js"/>`App.js` is set up, the next step is to cre
 
 Before doing that, ensure you have a **MongoDB database** set up. If you don’t have one yet, you can [<VPIcon icon="fa-brands fa-youtube"/>follow this video tutorial](https://youtu.be/pO6m0nmo1k0?si=Rqi_50fnsfQrM-ww) to set up a MongoDB database.
 
-After setting up MongoDB, you will receive a `username` and `password`. Copy the password, head to your backend directory, and create a <VPIcon icon="fas fa-file-lines"/>`.env` file to store it.
+After setting up MongoDB, you will receive a `username` and `password`. Copy the password, head to your backend directory, and create a <VPIcon icon="iconfont icon-doitenv" />`.env` file to store it.
 
 After you have stored the password, head back to complete your database setup.
 
@@ -282,7 +282,7 @@ Next, click on the “Create Database User” button, then click on the `choose 
 
 ![Database-String-Auth](https://cdn.hashnode.com/res/hashnode/image/upload/v1752706253668/ad0cdbb4-453c-4291-ab4c-395d14ce297c.gif)
 
-Then head to your <VPIcon icon="fas fa-file-lines"/>`.env` and paste it there, and add `auth` immediately after you have “.net/”.
+Then head to your <VPIcon icon="iconfont icon-doitenv" />`.env` and paste it there, and add `auth` immediately after you have “.net/”.
 
 Here’s what it looks like:
 
@@ -342,7 +342,7 @@ If the specified port is not found, it falls back to port `3000` and a confirmat
 
 First, download the MongoDB Compass app. ([<VPIcon icon="iconfont icon-mongodb"/>Go here to download and install](https://mongodb.com/try/download/compass)). The MongoDB Compass app makes it easy for us to manage our data.
 
-Once the installation is complete, open the app and click on `Click to add new connection`. Go to your <VPIcon icon="fas fa-file-lines"/>`.env` file, copy the connection string you initially got when setting up MongoDB, paste it in the URL section, and then click on “connect.” This setup helps you manage your data when you create and delete users.
+Once the installation is complete, open the app and click on `Click to add new connection`. Go to your <VPIcon icon="iconfont icon-doitenv" />`.env` file, copy the connection string you initially got when setting up MongoDB, paste it in the URL section, and then click on “connect.” This setup helps you manage your data when you create and delete users.
 
 ![Mongo-DB-Compass](https://cdn.hashnode.com/res/hashnode/image/upload/v1752703344533/8dff0ff6-66e9-4359-a2c0-fe7a4bd5e4ba.png)
 
@@ -630,7 +630,7 @@ const createSendToken = (user, statusCode, res, message) => {
   user.otp = undefined;
 ```
 
-Before the code above can work perfectly, create a JWT in your <VPIcon icon="fas fa-file-lines"/>`.env` file.
+Before the code above can work perfectly, create a JWT in your <VPIcon icon="iconfont icon-doitenv" />`.env` file.
 
 ```sh title=".env"
 JWT_SECRET = kaklsdolrnnhjfsnlsoijfbwhjsioennbandksd;
@@ -638,7 +638,7 @@ JWT_EXPIRES_IN = 90d
 JWT_COOKIE_EXPIRES_IN = 90
 ```
 
-The code above is how the <VPIcon icon="fas fa-file-lines"/>`.env` file should look. Your `JWT_SECRET` can be anything, just as you can see in the code.
+The code above is how the <VPIcon icon="iconfont icon-doitenv" />`.env` file should look. Your `JWT_SECRET` can be anything, just as you can see in the code.
 
 Note: The user token creation logic should run before the sign-in logic. So in that case, the `signToken` and `createSendToken` logic should be placed at the top before the `signup` logic.
 
@@ -676,11 +676,11 @@ module.exports = sendEmail;
 
 From the code above, the `const nodemailer = require('nodemailer');` command imports the `nodemailer` package. This is a popular Node.js library for sending emails.
 
-The `const transporter = nodemailer.createTransport({…..})` is an email transporter. Since we will be using the Gmail service provider, `service` will be assigned to `Gmail` and `auth` pulls your Gmail address and password from the <VPIcon icon="fas fa-file-lines"/>`.env` file where it’s stored.
+The `const transporter = nodemailer.createTransport({…..})` is an email transporter. Since we will be using the Gmail service provider, `service` will be assigned to `Gmail` and `auth` pulls your Gmail address and password from the <VPIcon icon="iconfont icon-doitenv" />`.env` file where it’s stored.
 
 Note: The password is not your actual Gmail password but rather your Gmail app password. You can see how you can get your [<VPIcon icon="fa-brands fa-youtube"/>Gmail password here](https://youtu.be/MkLX85XU5rU?si=yBIj4MJDLY7-k-c4).
 
-Once you’ve successfully gotten your Gmail app password, store it in your <VPIcon icon="fas fa-file-lines"/>`.env` file.
+Once you’ve successfully gotten your Gmail app password, store it in your <VPIcon icon="iconfont icon-doitenv" />`.env` file.
 
 ### Route Creation
 
@@ -899,7 +899,7 @@ exports.login = catchAsync(async (req, res, next) => {
 
 `if (!user || !(await user.correctPassword(…))) {…}` checks if the user exists and if the password entered matches the one stored in the database (after hashing comparison). If either is wrong, it throws: `Incorrect email or password`.
 
-The line `signToken(user._id)` generates a JWT using the user's unique ID. The `cookieOptions` object configures how the cookie behaves - it sets the cookie to expire after a specific number of days defined in the <VPIcon icon="fas fa-file-lines"/>`.env` file, marks it as `httpOnly` to prevent JavaScript access for security, sets `secure` to `false` since the app is currently in development, and uses `sameSite: "Lax"` to allow cross-origin requests during local testing.
+The line `signToken(user._id)` generates a JWT using the user's unique ID. The `cookieOptions` object configures how the cookie behaves - it sets the cookie to expire after a specific number of days defined in the <VPIcon icon="iconfont icon-doitenv" />`.env` file, marks it as `httpOnly` to prevent JavaScript access for security, sets `secure` to `false` since the app is currently in development, and uses `sameSite: "Lax"` to allow cross-origin requests during local testing.
 
 Finally, `res.cookie(...)` sends the token as a cookie attached to the HTTP response, enabling the client to store the token for authentication purposes.
 
@@ -1239,7 +1239,7 @@ Watch the Stream [<VPIcon icon="fa-brands fa-youtube"/>Chat React Quick Start Gu
 
 <VidStack src="youtube/kGKq4giL4ok" />
 
-Next, store your Stream `APP KEY` and `API_SECRET` in your <VPIcon icon="fas fa-file-lines"/>`.env`.
+Next, store your Stream `APP KEY` and `API_SECRET` in your <VPIcon icon="iconfont icon-doitenv" />`.env`.
 
 ### Install Stream Packages (Frontend)
 
@@ -1356,7 +1356,7 @@ npm install getstream
 npm install stream-chat stream-chat-react
 ```
 
-Open your <VPIcon icon="fas fa-file-lines"/>`.env` file and add your Stream `API KEY` and `API_SECRET`:
+Open your <VPIcon icon="iconfont icon-doitenv" />`.env` file and add your Stream `API KEY` and `API_SECRET`:
 
 ```sh title=".env"
 STREAM_API_KEY=your_app_key

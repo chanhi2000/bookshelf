@@ -153,7 +153,7 @@ cd ../frontend && npm install
 cp backend/.env.example backend/.env
 ```
 
-Update <VPIcon icon="fas fa-file-lines"/>`.env` with your configuration:
+Update <VPIcon icon="iconfont icon-doitenv" />`.env` with your configuration:
 
 - Supabase URL and API key
 - OpenAI API key
@@ -359,7 +359,7 @@ git checkout -b feat/your-feature-name
 
 ### Set Up the Environment
 
-- Follow the setup instructions in the README to install dependencies and configure your <VPIcon icon="fas fa-file-lines"/>`.env` files.
+- Follow the setup instructions in the README to install dependencies and configure your <VPIcon icon="iconfont icon-doitenv" />`.env` files.
 
 ### Follow Code Style and Formatting Rules
 
@@ -487,7 +487,7 @@ Never store API keys directly in your code. If you push your project to GitHub, 
 
 ::: info Solution
 
-Store them in a <VPIcon icon="fas fa-file-lines"/>`.env` file and add <VPIcon icon="fas fa-file-lines"/>`.env` to <VPIcon icon="iconfont icon-git"/>`.gitignore`.
+Store them in a <VPIcon icon="iconfont icon-doitenv" />`.env` file and add <VPIcon icon="iconfont icon-doitenv" />`.env` to <VPIcon icon="iconfont icon-git"/>`.gitignore`.
 
 :::
 

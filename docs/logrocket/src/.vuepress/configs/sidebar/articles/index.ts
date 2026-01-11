@@ -15,7 +15,7 @@ import { template as TEMPLATE_DOCKER } from './docker.com';
 import { template as TEMPLATE_TECMINT } from './tecmint.com';
 import { template as TEMPLATE_KOTZILLA } from './blog.kotzilla.io';
 import { template as TEMPLATE_OUTCOMES_SCHOOL } from './outcomeschool.com';
-import { template as TEMPLATE_LEARNK8S } from './learnk8s.io';
+import { template as TEMPLATE_LEARNK8S } from './learnkube.com';
 */
 import { template as TEMPLATE_LOGROCKET } from './blog.logrocket.com';
 /*

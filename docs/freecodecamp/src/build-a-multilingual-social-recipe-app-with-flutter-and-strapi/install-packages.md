@@ -156,6 +156,6 @@ class MyApp extends StatelessWidget {
 
 From the code snippet above, the `WidgetsFlutterBinding.ensureInitialized()` ensures that all Flutter bindings are initialized before any other operations and the `EasyLocalization.ensureInitialized()` initializes the EasyLocalization package to handle translations.
 
-Load the environment variables with `dotenv.load(fileName: ".env")` to read variables from the <VPIcon icon="fas fa-file-lines"/>`.env` file. The `runApp` function wraps the `MyApp` widget with the `EasyLocalization` widget, which is configured to support English (`en`), French (`fr_FR`), and Japanese (`ja_JP`) locales. The path for translation files is set to `'assets/translations'`, and the fallback locale is set to English.
+Load the environment variables with `dotenv.load(fileName: ".env")` to read variables from the <VPIcon icon="iconfont icon-doitenv" />`.env` file. The `runApp` function wraps the `MyApp` widget with the `EasyLocalization` widget, which is configured to support English (`en`), French (`fr_FR`), and Japanese (`ja_JP`) locales. The path for translation files is set to `'assets/translations'`, and the fallback locale is set to English.
 
 It also creates the main routes of the recipe application and sets `home` as the initial route.

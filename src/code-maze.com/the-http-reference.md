@@ -142,8 +142,8 @@ These two tables define status code ranges (classification) and describe all the
   "title": "HTTP/1.1: Status Code Definitions",
   "desc": "Each Status-Code is described below, including a description of which method(s) it can follow and any metainformation required in the response.",
   "link": "https://w3.org/Protocols/rfc2616/rfc2616-sec10.html/",
-  "logo": "",
-  "background": "rgba(244,245,255,0.2)"
+  "logo": "https://w3.org/favicon.ico",
+  "background": "rgba(0,90,156,0.2)"
 }
 ```
 
@@ -239,7 +239,7 @@ Both HTTP request and HTTP response can contain header fields. These two tables 
   "desc": "This section defines the syntax and semantics of all standard HTTP/1.1 header fields. For entity-header fields, both sender and recipient refer to either the client or the server, depending on who sends and who receives the entity.",
   "link": "https://w3.org/Protocols/rfc2616/rfc2616-sec14.html/",
   "logo": "https://w3.org/favicon.ico",
-  "background": "rgba(47,93,149,0.2)"
+  "background": "rgba(0,90,156,0.2)"
 }
 ```
 

@@ -2045,7 +2045,7 @@ npm install -D prisma
 npx prisma init
 ```
 
-This creates a <VPIcon icon="fas fa-folder-open"/>`prisma/`<VPIcon icon="iconfont icon-prisma"/>`schema.prisma` file and a <VPIcon icon="fas fa-file-lines"/>`.env` with `DATABASE_URL`.
+This creates a <VPIcon icon="fas fa-folder-open"/>`prisma/`<VPIcon icon="iconfont icon-prisma"/>`schema.prisma` file and a <VPIcon icon="iconfont icon-doitenv" />`.env` with `DATABASE_URL`.
 
 #### 2. Define the schema:
 
@@ -2452,9 +2452,9 @@ By relying on environment variables, you ensure that the same application bundle
 
 **Here’s how to use it**:
 
-#### 1. <VPIcon icon="fas fa-file-lines"/>`.env` files**
+#### 1. <VPIcon icon="iconfont icon-doitenv" />`.env` files**
 
-- Create a <VPIcon icon="fas fa-file-lines"/>`.env` file at project root with key-value pairs:
+- Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file at project root with key-value pairs:
 
 ```sh title=".env"
 PORT=3000
@@ -2467,8 +2467,8 @@ JWT_SECRET=supersecretjwtkey
 JWT_EXPIRES_IN=2h
 ```
 
-- Optionally create <VPIcon icon="fas fa-file-lines"/>`.env.development`, <VPIcon icon="fas fa-file-lines"/>`.env.test`, <VPIcon icon="fas fa-file-lines"/>`.env.production`, and load them based on `NODE_ENV`.
-- Ensure <VPIcon icon="fas fa-file-lines"/>`.env` files are in <VPIcon icon="iconfont icon-git"/>`.gitignore` to avoid committing secrets.
+- Optionally create <VPIcon icon="iconfont icon-doitenv" />`.env.development`, <VPIcon icon="iconfont icon-doitenv" />`.env.test`, <VPIcon icon="iconfont icon-doitenv" />`.env.production`, and load them based on `NODE_ENV`.
+- Ensure <VPIcon icon="iconfont icon-doitenv" />`.env` files are in <VPIcon icon="iconfont icon-git"/>`.gitignore` to avoid committing secrets.
 
 #### 2. Loading order
 
@@ -2485,7 +2485,7 @@ ConfigModule.forRoot({
 });
 ```
 
-- This tries <VPIcon icon="fas fa-file-lines"/>`.env.development.local`, then <VPIcon icon="fas fa-file-lines"/>`.env.development`, then <VPIcon icon="fas fa-file-lines"/>`.env`. CI/CD can set actual environment variables that override values in files.
+- This tries <VPIcon icon="iconfont icon-doitenv" />`.env.development.local`, then <VPIcon icon="iconfont icon-doitenv" />`.env.development`, then <VPIcon icon="iconfont icon-doitenv" />`.env`. CI/CD can set actual environment variables that override values in files.
 
 #### 3. Accessing raw environment variables
 
@@ -2779,7 +2779,7 @@ npm install @nestjs/passport passport passport-google-oauth20
 
 #### 2. Configuration
 
-Add OAuth credentials to <VPIcon icon="fas fa-file-lines"/>`.env` and `ConfigModule`:
+Add OAuth credentials to <VPIcon icon="iconfont icon-doitenv" />`.env` and `ConfigModule`:
 
 ```sh title=".env"
 GOOGLE_CLIENT_ID=your-google-client-id

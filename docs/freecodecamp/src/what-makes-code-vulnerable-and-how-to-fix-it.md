@@ -86,13 +86,13 @@ API_KEY = "sk_test_abc123"
 
 If this code leaks (and it will), attackers can do whatever they want. They can log into your systems, steal your data, or run up huge bills on cloud services - all without breaking a sweat.
 
-And here’s the scary part: this kind of leak doesn’t just happen when your whole project gets hacked. It can happen when someone pushes code to GitHub and forgets to add <VPIcon icon="fas fa-file-lines"/>`.env` to <VPIcon icon="iconfont icon-git"/>`.gitignore`. Boom - your secret keys are now public.
+And here’s the scary part: this kind of leak doesn’t just happen when your whole project gets hacked. It can happen when someone pushes code to GitHub and forgets to add <VPIcon icon="iconfont icon-doitenv" />`.env` to <VPIcon icon="iconfont icon-git"/>`.gitignore`. Boom - your secret keys are now public.
 
 ::: tip How to Protect Against It
 
 Never hardcode sensitive data like API keys, database passwords, or tokens. Instead, use environment variables.
 
-These are hidden from the source code and can be safely managed per environment (dev, test, production). For example, a <VPIcon icon="fas fa-file-lines"/>`.env` file imported into your codebase:
+These are hidden from the source code and can be safely managed per environment (dev, test, production). For example, a <VPIcon icon="iconfont icon-doitenv" />`.env` file imported into your codebase:
 
 ```py
 import os

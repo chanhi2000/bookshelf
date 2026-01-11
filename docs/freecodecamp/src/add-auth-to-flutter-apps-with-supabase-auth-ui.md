@@ -123,14 +123,14 @@ Go to your Supabase dashboard or [<VPIcon icon="iconfont icon-supabase"/>create 
 
 ![A screenshot of the API settings page in Supabase dashboard. The left sidebar shows various menu options under "Project Settings," "Configuration," and "Billing." The "API" option under "Configuration" is highlighted. The main section displays fields for "Project URL" and "Project API keys," with options to copy or reveal the keys.](https://cdn.hashnode.com/res/hashnode/image/upload/v1716932440241/1f5c49a5-5ef8-449f-8bec-557e0492e950.png)
 
-Back in your Flutter app, create a <VPIcon icon="fas fa-file-lines"/>`.env` file at the root of the folder and paste the following, replacing with the values you copied above:
+Back in your Flutter app, create a <VPIcon icon="iconfont icon-doitenv" />`.env` file at the root of the folder and paste the following, replacing with the values you copied above:
 
 ```sh
 SUPABASE_URL=your_url
 SUPABASE_ANON_KEY=your_project_anon_key
 ```
 
-Add the environment file to the `.gitignore` file to keep it out of version control, then add the `flutter_dotenv` package to the list of dependencies right below `supabase_auth_ui` dependency. Finally add the <VPIcon icon="fas fa-file-lines"/>`.env` file as a path under the assets key in the pubspec.yaml file. 
+Add the environment file to the `.gitignore` file to keep it out of version control, then add the `flutter_dotenv` package to the list of dependencies right below `supabase_auth_ui` dependency. Finally add the <VPIcon icon="iconfont icon-doitenv" />`.env` file as a path under the assets key in the pubspec.yaml file. 
 
 The file should look like so:
 
@@ -150,7 +150,7 @@ void main() async {
 }
 ```
 
-This loads the <VPIcon icon="fas fa-file-lines"/>`.env` file and initialises Supabase.
+This loads the <VPIcon icon="iconfont icon-doitenv" />`.env` file and initialises Supabase.
 
 ---
 

@@ -168,9 +168,9 @@ export const navbarEn = navbar([
         icon: 'https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png',
         link: '/docker.com/README.md'
       }, {
-        text: 'learnk8s.io',
-        icon: 'https://static.learnk8s.io/f7e5160d4744cf05c46161170b5c11c9.svg',
-        link: '/learnk8s.io/README.md'
+        text: 'learnkube.com',
+        icon: 'https://static.learnkube.com/f7e5160d4744cf05c46161170b5c11c9.svg',
+        link: '/learnkube.com/README.md'
       }, {
         text: 'itsfoss.com',
         icon: 'https://itsfoss.com/content/images/size/w256h256/2022/12/android-chrome-192x192.png',

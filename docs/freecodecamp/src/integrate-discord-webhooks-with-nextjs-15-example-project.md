@@ -134,13 +134,13 @@ With that, you’ve created a Next.js project you can use for the rest of the tu
 
 ## How to Set Environment Variables
 
-Create a <VPIcon icon="fas fa-file-lines"/>`.env` file at the root of your project. We will now create an environment variable secret with the webhook URL you had copied before. Create an entry in the .env file like this:
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file at the root of your project. We will now create an environment variable secret with the webhook URL you had copied before. Create an entry in the .env file like this:
 
 ```properties title=".env"
 DISCORD_WEBHOOK_URL=<YOUR_DISCORD_WEBHOOK_URL>
 ```
 
-Make sure you replace the `<YOUR_DISCORD_WEBHOOK_URL>` with your actual webhook URL in the <VPIcon icon="fas fa-file-lines"/>`.env` file. Remember, you must not commit and push this file to your version control. So, make sure that the <VPIcon icon="fas fa-file-lines"/>`.env` file has been added to the <VPIcon icon="iconfont icon-git"/>`.gitignore` file of the project.
+Make sure you replace the `<YOUR_DISCORD_WEBHOOK_URL>` with your actual webhook URL in the <VPIcon icon="iconfont icon-doitenv" />`.env` file. Remember, you must not commit and push this file to your version control. So, make sure that the <VPIcon icon="iconfont icon-doitenv" />`.env` file has been added to the <VPIcon icon="iconfont icon-git"/>`.gitignore` file of the project.
 
 ![<VPIcon icon="iconfont icon-git"/>`.gitignore`](https://cdn.hashnode.com/res/hashnode/image/upload/v1736912358788/d98af5b1-ab61-46c3-92d5-a8772d34e4f2.png)
 

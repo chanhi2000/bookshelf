@@ -559,7 +559,7 @@ If your registry requires certain environment variables that are not set, you'll
 Registry "@private" requires REGISTRY_TOKEN
 ```
 
-**Solution:** To fix this, just add the required environment variables to <VPIcon icon="fas fa-file-lines"/>`.env` or <VPIcon icon="fas fa-file-lines"/>`.env.local`.
+**Solution:** To fix this, just add the required environment variables to <VPIcon icon="iconfont icon-doitenv" />`.env` or <VPIcon icon="iconfont icon-doitenv" />`.env.local`.
 
 :::
 

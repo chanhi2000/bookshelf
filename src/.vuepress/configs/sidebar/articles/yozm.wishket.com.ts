@@ -5,6 +5,12 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "3553", // 2026-01-16
+    "3551", // 2026-01-15
+    "3550", // 2026-01-14
+    "3548", // 2026-01-13
+    "3547", // 2026-01-13
+    "3546", // 2026-01-12
     "3540", // 2026-01-08
     "3539", // 2026-01-07
     "3537", // 2026-01-06
@@ -754,6 +760,13 @@ export const template: SidebarInfoTemplate = {
       // END: 2025git
       // END: git
     ]],[
+    "regex", [
+      // END: 2024regex
+      // END: 2025regex
+      "3547", // 2026-01-13
+      // END: 2026regex
+      // END: regex
+    ]],[
     "devops", [
       "2487", // 2024-03-08
       // END: 2024devops
@@ -1069,6 +1082,8 @@ export const template: SidebarInfoTemplate = {
       "3520", // 2025-12-24
       "3524", // 2025-12-26
       // END: 2025llm
+      "3551", // 2026-01-15
+      // END: 2026llm
       // END: llm
     ]],[
     "github-copilot", [
@@ -1122,6 +1137,7 @@ export const template: SidebarInfoTemplate = {
       "3525", // 2025-12-29
       // END: 2025claude
       "3537", // 2026-01-06
+      "3546", // 2026-01-12
       // END: 2026claude
       // END: claude
     ]],[
@@ -1267,6 +1283,9 @@ export const template: SidebarInfoTemplate = {
       "3525", // 2025-12-29
       // END: 2025career
       "3531", // 2026-01-02
+      "3548", // 2026-01-13
+      "3550", // 2026-01-14
+      "3553", // 2026-01-16
       // END: 2026career
       // END: career
     ]],[

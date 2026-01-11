@@ -759,7 +759,7 @@ Next, create a [<VPIcon icon="fas fa-folder-open"/>Clerk account](https://clerk.
 
 Select **email** as the authentication method and create the Clerk project.
 
-Finally, add your Clerk publishable and secret keys into the <VPIcon icon="fas fa-file-lines"/>`.env.local` file.
+Finally, add your Clerk publishable and secret keys into the <VPIcon icon="iconfont icon-doitenv" />`.env.local` file.
 
 ```plaintext title=".env.local"
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_publishable_key>
@@ -788,7 +788,7 @@ Next, install the Neon Serverless package into the Next.js project:
 npm install @neondatabase/serverless
 ```
 
-Copy your database connection string into the <VPIcon icon="fas fa-file-lines"/>`.env.local` file.
+Copy your database connection string into the <VPIcon icon="iconfont icon-doitenv" />`.env.local` file.
 
 ```plaintext title=".env.local"
 NEON_DATABASE_URL="postgres://<user>:<password>@<endpoint_hostname>.neon.tech:<port>/<dbname>?sslmode=require"
@@ -1391,7 +1391,7 @@ Next, create a [<VPIcon icon="fas fa-globe"/>Resend account](https://resend.com/
 
 ![resend-api-keys-dashboard](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdTkbkk-f3JIvcGLXoFdeQGpFNF6gDgqZWVL5NnJjcbu17I4dRp3rF8GYNUHXkvF2Gs59OQgjuknTVXWzOjknrJVeZ7xv90LhLZLPeqGgYI-il5PyKEcL3g-E3_VAem-sX13pkRlz-AhqPdgXgVQo884Uce?key=QrOqhkDtPIneanOaExEDaA)
 
-Copy the API key into the <VPIcon icon="fas fa-file-lines"/>`.env.local` file.
+Copy the API key into the <VPIcon icon="iconfont icon-doitenv" />`.env.local` file.
 
 Finally, create an API endpoint that accepts the invoice details from the frontend and sends an invoice containing the data to a customer.
 
