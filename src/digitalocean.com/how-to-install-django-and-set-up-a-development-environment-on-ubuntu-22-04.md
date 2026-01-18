@@ -78,7 +78,7 @@ cover: https://community-cdn-digitalocean-com.global.ssl.fastly.net/gSWNVTLXhtRM
 
 Django is a free and open-source web framework written in Python with its core principles being scalability, re-usability and rapid development. It is also known for its framework-level consistency and loose coupling, allowing for individual components to be independent of one another.
 
-In this tutorial, you will set up a Django environment **for development purposes** on an Ubuntu 22.04 server. For a live website, you will have additional considerations, including connecting to a database, setting up a domain name, and adding layers of security. There are a variety of tutorials on Django that can help support you as you build under the [<VPIcon icon="iconfont icon-digitalocean"/>Django tag](https://digitalocean.com/community/tags/django).
+In this tutorial, you will set up a Django environment **for development purposes** on an Ubuntu 22.04 server. For a live website, you will have additional considerations, including connecting to a database, setting up a domain name, and adding layers of security. There are a variety of tutorials on Django that can help support you as you build under the [<VPIcon icon="fa-brands fa-digital-ocean"/>Django tag](https://digitalocean.com/community/tags/django).
 
 ::: note Prerequisites
 
@@ -150,7 +150,7 @@ If you followed the initial server setup tutorial or have a firewall running on 
 sudo ufw allow 8000
 ```
 
-If you’re using DigitalOcean Firewalls, you can select HTTP from the inbound rules. You can read more about DigitalOcean Firewalls and how to create rules for them by modifying the [<VPIcon icon="iconfont icon-digitalocean"/>inbound rules](https://docs.digitalocean.com/products/networking/firewalls/how-to/configure-rules/).
+If you’re using DigitalOcean Firewalls, you can select HTTP from the inbound rules. You can read more about DigitalOcean Firewalls and how to create rules for them by modifying the [<VPIcon icon="fa-brands fa-digital-ocean"/>inbound rules](https://docs.digitalocean.com/products/networking/firewalls/how-to/configure-rules/).
 
 ---
 

@@ -2,7 +2,7 @@
 lang: en-US
 title: "How To Use Doctl, the Official DigitalOcean Command-Line Client"
 description: "Article(s) > How To Use Doctl, the Official DigitalOcean Command-Line Client"
-icon: iconfont icon-digitalocean
+icon: fa-brands fa-digital-ocean
 category:
   - DevOps
   - DigialOcean
@@ -56,7 +56,7 @@ cover: https://community-cdn-digitalocean-com.global.ssl.fastly.net/jZSgSpiNS3CG
 
 ::: note
 
-An earlier version of this tutorial was written by [<VPIcon icon="iconfont icon-digitalocean"/>Brennen Bearnes](https://digitalocean.com/community/users/bpb).
+An earlier version of this tutorial was written by [<VPIcon icon="fa-brands fa-digital-ocean"/>Brennen Bearnes](https://digitalocean.com/community/users/bpb).
 
 :::
 
@@ -64,7 +64,7 @@ An earlier version of this tutorial was written by [<VPIcon icon="iconfont icon-
 
 DigitalOcean’s web-based control panel provides a point-and-click interface for managing Droplets. However, you may prefer a command-line tool if you have many Droplets to manage, need to administer Droplets from the terminal without a graphical desktop available, or have tasks which would benefit from a scriptable interface.
 
-`doctl` is the official DigitalOcean command-line client. It uses [<VPIcon icon="iconfont icon-digitalocean"/>the DigitalOcean API](https://developers.digitalocean.com/) to provide access to most account and Droplet features.
+`doctl` is the official DigitalOcean command-line client. It uses [<VPIcon icon="fa-brands fa-digital-ocean"/>the DigitalOcean API](https://developers.digitalocean.com/) to provide access to most account and Droplet features.
 
 ::: note Prerequisites
 
@@ -72,7 +72,7 @@ To follow this tutorial, you will need:
 
 - A local computer with `doctl` installed by following [the project’s installation and configuration instructions (<VPIcon icon="iconfont icon-github" />`digitalocean/doctl`)](https://github.com/digitalocean/doctl/blob/master/README.md).
 
-This tutorial is intended as a reference for most of `doctl`’s operations. Because `doctl` commands closely parallel the API, it may also be helpful to read the [<VPIcon icon="iconfont icon-digitalocean"/>API documentation](https://developers.digitalocean.com/documentation/v2/) and [**How To Use the DigitalOcean API v2**](/digitalocean.com/how-to-use-the-digitalocean-api-v2.md).
+This tutorial is intended as a reference for most of `doctl`’s operations. Because `doctl` commands closely parallel the API, it may also be helpful to read the [<VPIcon icon="fa-brands fa-digital-ocean"/>API documentation](https://developers.digitalocean.com/documentation/v2/) and [**How To Use the DigitalOcean API v2**](/digitalocean.com/how-to-use-the-digitalocean-api-v2.md).
 
 :::
 
@@ -173,7 +173,7 @@ doctl compute droplet list 'test*'
 
 ### Creating Resources
 
-Creating a resource requires longer commands with more detailed parameters. To create a Droplet, you’ll need to specify the image you want to use, the datacenter region, and the kind of Droplet you want by using its associated slug. See [<VPIcon icon="iconfont icon-digitalocean"/>New Size Slugs for Droplet Plan Changes](https://developers.digitalocean.com/documentation/changelog/api-v2/new-size-slugs-for-droplet-plan-changes/) to find the slug you want to use. Alternatively, run the `doctl compute size list` command.
+Creating a resource requires longer commands with more detailed parameters. To create a Droplet, you’ll need to specify the image you want to use, the datacenter region, and the kind of Droplet you want by using its associated slug. See [<VPIcon icon="fa-brands fa-digital-ocean"/>New Size Slugs for Droplet Plan Changes](https://developers.digitalocean.com/documentation/changelog/api-v2/new-size-slugs-for-droplet-plan-changes/) to find the slug you want to use. Alternatively, run the `doctl compute size list` command.
 
 For example, the following command creates a 64-bit Debian 8 Droplet named **test** with 1GB of memory, one CPU, an SSH key, and backups enabled.
 
@@ -361,7 +361,7 @@ The `doctl compute floating-ip-action` command is used to assign or unassign a F
 
 ## Working with Domains
 
-The `doctl compute domain` command is used to manage domains. See our [<VPIcon icon="iconfont icon-digitalocean"/>Introduction to Managing DNS series](https://digitalocean.com/community/tutorial-series/an-introduction-to-managing-dns) for a broad overview of the subject.
+The `doctl compute domain` command is used to manage domains. See our [<VPIcon icon="fa-brands fa-digital-ocean"/>Introduction to Managing DNS series](https://digitalocean.com/community/tutorial-series/an-introduction-to-managing-dns) for a broad overview of the subject.
 
 | `doctl compute domain` subcommand | Notes |
 | --- | --- |
@@ -465,7 +465,7 @@ The `doctl compute image` command allows you to manage all images, including dis
 | --- | --- |
 | `list --public` | List all images. |
 | `list-distribution --public` | List all available distribution images. |
-| `list-application --public` | List all available [<VPIcon icon="iconfont icon-digitalocean"/>One-Click Applications](https://digitalocean.com/products/one-click-apps). |
+| `list-application --public` | List all available [<VPIcon icon="fa-brands fa-digital-ocean"/>One-Click Applications](https://digitalocean.com/products/one-click-apps). |
 | `list-user` | List all user-created images. |
 | `get image_id` | Get an Image by ID. |
 | `update image_id --name image_name` | Update Image’s name. Name is mandatory. |
@@ -554,7 +554,7 @@ doctl account ratelimit
 
 The `doctl` utility is a helpful tool for managing Droplets and other resources at the command line. It can greatly reduce the amount of manual interaction with web-based interfaces needed for daily development and administrative tasks.
 
-In addition to learning about [**the underlying API**](/digitalocean.com/how-to-use-the-digitalocean-api-v2.md), you may want to explore [<VPIcon icon="iconfont icon-digitalocean"/>libraries which wrap the API for popular programming languages](https://developers.digitalocean.com/libraries/), and [**tools such as Ansible**](/digitalocean.com/how-to-create-ansible-playbooks-to-automate-system-configuration-on-ubuntu.md) for automating system-level tasks.
+In addition to learning about [**the underlying API**](/digitalocean.com/how-to-use-the-digitalocean-api-v2.md), you may want to explore [<VPIcon icon="fa-brands fa-digital-ocean"/>libraries which wrap the API for popular programming languages](https://developers.digitalocean.com/libraries/), and [**tools such as Ansible**](/digitalocean.com/how-to-create-ansible-playbooks-to-automate-system-configuration-on-ubuntu.md) for automating system-level tasks.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

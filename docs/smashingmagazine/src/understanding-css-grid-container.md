@@ -45,8 +45,7 @@ cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd62
 
 <SiteInfo
   name="Understanding CSS Grid: Creating A Grid Container"
-  desc="In a new series, Rachel Andrew breaks down the CSS Grid Layout specification. This time, we take a detailed look at what happens when you create a grid container and the various properties that can be applied to the container to shape your grid.
-"
+  desc="In a new series, Rachel Andrew breaks down the CSS Grid Layout specification. This time, we take a detailed look at what happens when you create a grid container and the various properties that can be applied to the container to shape your grid."
   url="https://smashingmagazine.com/2020/01/understanding-css-grid-container/"
   logo="https://smashingmagazine.com/images/favicon/favicon.svg"
   preview="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6bee8e40-2d2e-457c-a0e1-a78ced1c08e5/understanding-css-grid-container.png"/>
@@ -349,7 +348,17 @@ Creating a grid (and allowing the browser to auto-place items) gets you a long w
 If you are new to CSS Grid, then playing with different track sizes and seeing how the items place themselves into the cells you create is a great way to start.
 
 - **Part 1: Creating A Grid Container**
-- Part 2: [**Grid Lines**](/smashingmagazine.com/understanding-css-grid-lines.md)
+
+```component VPCard
+{
+  "title": "Understanding CSS Grid: Grid Lines",
+  "desc": "In a new series, Rachel Andrew breaks down the CSS Grid Layout specification. This time, we take a look at how to use the grid lines to place items. The other methods Rachel will show you in future articles are alternate ways to specify your layout, but are based on the grid created by numbered lines. But for today, here you will find pretty much all you need to know about grid lines!",
+  "link": "/smashingmagazine.com/understanding-css-grid-lines.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - Part 3: [**Grid Template Areas**](/smashingmagazine.com/understanding-css-grid-template-areas.md)
 
 ::: info Further Reading
@@ -374,7 +383,16 @@ If you are new to CSS Grid, then playing with different track sizes and seeing h
 }
 ```
 
-- [**Useful DevTools Tips and Tricks**](/smashingmagazine.com/popular-devtools-tips.md)
+```component VPCard
+{
+  "title": "Combining CSS :has() And HTML <select> For Greater Conditional Styling",
+  "desc": "Amit Sheen demonstrates using `:has()` to apply styles conditionally when a certain `` in a `` element is chosen by the user and how we gain even more conditional styling capabilities when chaining `:has()` with other pseudo-classes, such as `:not()` — no JavaScript necessary.",
+  "link": "/smashingmagazine.com/combining-css-has-html-select-conditional-styling.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - [**How To Design Effective Conversational AI Experiences: A Comprehensive Guide**](/smashingmagazine.com/how-design-effective-conversational-ai-experiences-guide.md)
 
 :::
@@ -383,8 +401,7 @@ If you are new to CSS Grid, then playing with different track sizes and seeing h
 ```component VPCard
 {
   "title": "Understanding CSS Grid: Creating A Grid Container",
-  "desc": "In a new series, Rachel Andrew breaks down the CSS Grid Layout specification. This time, we take a detailed look at what happens when you create a grid container and the various properties that can be applied to the container to shape your grid.
-",
+  "desc": "In a new series, Rachel Andrew breaks down the CSS Grid Layout specification. This time, we take a detailed look at what happens when you create a grid container and the various properties that can be applied to the container to shape your grid.",
   "link": "https://chanhi2000.github.io/bookshelf/smashingmagazine.com/understanding-css-grid-container.html",
   "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
   "background": "rgba(211,58,44,0.2)"

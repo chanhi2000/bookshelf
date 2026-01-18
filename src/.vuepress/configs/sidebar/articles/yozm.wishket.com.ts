@@ -5,6 +5,12 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "3564", // 2026-01-22
+    "3563", // 2026-01-22
+    "3560", // 2026-01-21
+    "3559", // 2026-01-20
+    "3557", // 2026-01-19
+    "3555", // 2026-01-19
     "3553", // 2026-01-16
     "3551", // 2026-01-15
     "3550", // 2026-01-14
@@ -556,6 +562,7 @@ export const template: SidebarInfoTemplate = {
       "3498", // 2025-12-11
       // END: 2025js
       "3540", // 2026-01-08
+      "3557", // 2026-01-19
       // END: 2026js
       // END: js
     ]], [
@@ -675,6 +682,8 @@ export const template: SidebarInfoTemplate = {
       "3479", // 2025-12-02
       "3492", // 2025-12-09
       // END: 2025py
+      "3560", // 2026-01-21
+      // END: 2026py
       // END: py
     ]],[
     "uv", [
@@ -745,10 +754,17 @@ export const template: SidebarInfoTemplate = {
     "c", [
       "3160", // 2025-05-30
       // END: 2025c
+      "3560", // 2026-01-21
+      // END: 2026c
       // END: c
     ]],[
     "sh", [
       "2103", // 2023-07-05
+      // END: 2023sh
+      // END: 2024sh
+      // END: 2025sh
+      // END: 2026sh
+      // END: sh
     ]],[
     "git", [
       "2184", // 2023-08-21
@@ -758,6 +774,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024git
       "2973", // 2025-02-13
       // END: 2025git
+      // END: 2026git
       // END: git
     ]],[
     "regex", [
@@ -783,12 +800,28 @@ export const template: SidebarInfoTemplate = {
       "3334", // 2025-09-09
       "3402", // 2025-10-21
       // END: 2025github
+      "3564", // 2026-01-22
+      // END: 2026github
       // END: github
+    ]],[
+    "gitlab", [
+      // END: 2024gitlab
+      // END: 2025gitlab
+      "3564", // 2026-01-22
+      // END: 2026gitlab
+      // END: gitlab
     ]],[
     "coderabbit", [
       "3490", // 2025-12-05
       // END: 2025coderabbit
       // END: coderabbit
+    ]],[
+    "bitbucket", [
+      // END: 2024bitbucket
+      // END: 2025bitbucket
+      "3564", // 2026-01-22
+      // END: 2026bitbucket
+      // END: bitbucket
     ]],[
     "jira", [
       "2295", // 2023-10-31
@@ -850,6 +883,8 @@ export const template: SidebarInfoTemplate = {
       "3302", // 2025-08-22
       "3325", // 2025-09-03
       "3510", // 2025-12-18
+      // END: 2025k8s
+      "3559", // 2026-01-20
       // END: 2025k8s
       // END: k8s
     ]],[
@@ -1138,6 +1173,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025claude
       "3537", // 2026-01-06
       "3546", // 2026-01-12
+      "3555", // 2026-01-19
       // END: 2026claude
       // END: claude
     ]],[
@@ -1167,6 +1203,8 @@ export const template: SidebarInfoTemplate = {
       "3477", // 2025-12-01
       "3508", // 2025-12-17
       // END: 2025mcp
+      "3555", // 2026-01-19
+      // END: 2026mcp
       // END: mcp
     ]],[
     "career", [
@@ -1318,6 +1356,8 @@ export const template: SidebarInfoTemplate = {
       "3485", // 2025-12-04
       "3499", // 2025-12-12
       // END: 2025coen
+      "3563", // 2026-01-22
+      // END: 2026coen
       // END: coen
     ]],[
     "math", [

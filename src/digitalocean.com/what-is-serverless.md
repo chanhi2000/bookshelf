@@ -56,9 +56,9 @@ This means that serverless functions can effectively “scale to zero” – a f
 
 To learn more about Serverless functions, you can refer to the following resources:
 
-- [<VPIcon icon="iconfont icon-digitalocean"/>How To Write a Serverless Function](https://digitalocean.com/community/conceptual-articles/how-to-write-a-serverless-function)
-- [<VPIcon icon="iconfont icon-digitalocean"/>Best Practices for Rearchitecting Monolithic Applications to Microservices](https://digitalocean.com/community/conceptual-articles/rearchitecting-monolithic-applications-to-microservices)
-- All tutorials under the [<VPIcon icon="iconfont icon-digitalocean"/>serverless](https://digitalocean.com/community/tags/serverless) tag
+- [<VPIcon icon="fa-brands fa-digital-ocean"/>How To Write a Serverless Function](https://digitalocean.com/community/conceptual-articles/how-to-write-a-serverless-function)
+- [<VPIcon icon="fa-brands fa-digital-ocean"/>Best Practices for Rearchitecting Monolithic Applications to Microservices](https://digitalocean.com/community/conceptual-articles/rearchitecting-monolithic-applications-to-microservices)
+- All tutorials under the [<VPIcon icon="fa-brands fa-digital-ocean"/>serverless](https://digitalocean.com/community/tags/serverless) tag
 
 :::
 

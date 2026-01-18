@@ -88,7 +88,7 @@ This MySQL on Ubuntu installation guide ensures you follow secure, production-re
 
 This tutorial will go over how to install MySQL version 8.0 on an Ubuntu server (tested on 22.04 and later). By completing it, you will have a working relational database that you can use to build your next website or application.
 
-1-click deploy a MySQL database using [<VPIcon icon="iconfont icon-digitalocean"/>DigitalOcean Managed Databases](https://digitalocean.com/products/managed-databases). Let DigitalOcean focus on scaling, maintenance, and upgrades for your database.
+1-click deploy a MySQL database using [<VPIcon icon="fa-brands fa-digital-ocean"/>DigitalOcean Managed Databases](https://digitalocean.com/products/managed-databases). Let DigitalOcean focus on scaling, maintenance, and upgrades for your database.
 
 ::: note Prerequisites
 
@@ -502,7 +502,7 @@ These examples validate that your application can connect to MySQL and run queri
 
 Learn how to start, stop, restart, and enable MySQL to start on boot in Ubuntu so you can control uptime and reliability. Service management is essential for maintaining your MySQL server’s availability and ensuring it recovers automatically after reboots.
 
-MySQL on [<VPIcon icon="iconfont icon-digitalocean"/>Ubuntu](https://digitalocean.com/community/tags/ubuntu) (22.04 and later) uses `systemd` for service management. Use the following commands to control the MySQL service, including how to start MySQL and enable it to start on boot in Ubuntu:
+MySQL on [<VPIcon icon="fa-brands fa-digital-ocean"/>Ubuntu](https://digitalocean.com/community/tags/ubuntu) (22.04 and later) uses `systemd` for service management. Use the following commands to control the MySQL service, including how to start MySQL and enable it to start on boot in Ubuntu:
 
 ```sh
 sudo systemctl start mysql     # Start MySQ
@@ -565,7 +565,7 @@ For high-availability web applications, consider MySQL replication (master-slave
 
 ### WordPress, Drupal, and CMS Hosting
 
-The majority of popular content management systems—including [<VPIcon icon="iconfont icon-digitalocean"/>WordPress](https://digitalocean.com/solutions/wordpress-hosting), [<VPIcon icon="iconfont icon-digitalocean"/>Joomla](https://digitalocean.com/solutions/joomla-hosting), and [<VPIcon icon="iconfont icon-digitalocean"/>Drupal](https://digitalocean.com/solutions/drupal-hosting)—use MySQL as their default backend. MySQL stores all site content, user data, plugin settings, and metadata, making it the backbone of dynamic websites. On Ubuntu (22.04 and later), MySQL’s security features (like `mysql_secure_installation`, granular user privileges, and SSL support) help ensure a hardened CMS deployment.
+The majority of popular content management systems—including [<VPIcon icon="fa-brands fa-digital-ocean"/>WordPress](https://digitalocean.com/solutions/wordpress-hosting), [<VPIcon icon="fa-brands fa-digital-ocean"/>Joomla](https://digitalocean.com/solutions/joomla-hosting), and [<VPIcon icon="fa-brands fa-digital-ocean"/>Drupal](https://digitalocean.com/solutions/drupal-hosting)—use MySQL as their default backend. MySQL stores all site content, user data, plugin settings, and metadata, making it the backbone of dynamic websites. On Ubuntu (22.04 and later), MySQL’s security features (like `mysql_secure_installation`, granular user privileges, and SSL support) help ensure a hardened CMS deployment.
 
 ::: tip HQ Tip
 
@@ -595,7 +595,7 @@ For analytics workloads, use columnar storage engines (e.g., MySQL HeatWave, Mar
 
 ### E-commerce and Transactional Systems
 
-MySQL is a proven choice for e-commerce platforms ([<VPIcon icon="iconfont icon-digitalocean"/>Magento](https://digitalocean.com/solutions/magento-hosting), [<VPIcon icon="fas fa-globe"/>WooCommerce](https://woocommerce.com/), custom carts) due to its transactional integrity, foreign key support, and ability to handle high volumes of concurrent reads and writes. On Ubuntu, MySQL can be tuned for write-heavy workloads and integrated with payment gateways, inventory systems, and order management tools.
+MySQL is a proven choice for e-commerce platforms ([<VPIcon icon="fa-brands fa-digital-ocean"/>Magento](https://digitalocean.com/solutions/magento-hosting), [<VPIcon icon="fas fa-globe"/>WooCommerce](https://woocommerce.com/), custom carts) due to its transactional integrity, foreign key support, and ability to handle high volumes of concurrent reads and writes. On Ubuntu, MySQL can be tuned for write-heavy workloads and integrated with payment gateways, inventory systems, and order management tools.
 
 ::: tip HQ Tip
 
@@ -605,7 +605,7 @@ Enable binary logging for point-in-time recovery, use strong password policies, 
 
 ### Microservices, APIs, and Cloud-Native Apps
 
-Modern microservices and RESTful APIs often use MySQL as a persistent store, leveraging its mature drivers for Go, Python, Node.js, Java, and more. MySQL’s JSON data type and flexible indexing make it suitable for semi-structured data and hybrid workloads. On Ubuntu, MySQL can be containerized ([<VPIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/), [<VPIcon icon="iconfont icon-digitalocean"/>Kubernetes](https://digitalocean.com/products/kubernetes)) or managed via cloud services.
+Modern microservices and RESTful APIs often use MySQL as a persistent store, leveraging its mature drivers for Go, Python, Node.js, Java, and more. MySQL’s JSON data type and flexible indexing make it suitable for semi-structured data and hybrid workloads. On Ubuntu, MySQL can be containerized ([<VPIcon icon="fa-brands fa-docker"/>Docker](https://docker.com/), [<VPIcon icon="fa-brands fa-digital-ocean"/>Kubernetes](https://digitalocean.com/products/kubernetes)) or managed via cloud services.
 
 ::: tip HQ Tip
 
@@ -735,7 +735,7 @@ sudo systemctl restart mysql
 
 - [<VPIcon icon="iconfont icon-mysql"/>MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
 - [<VPIcon icon="iconfont icon-mysql"/>MySQL Error Message Reference](https://dev.mysql.com/doc/refman/8.0/en/server-error-reference.html)
-- [<VPIcon icon="iconfont icon-digitalocean"/>DigitalOcean MySQL Tutorials](https://digitalocean.com/community/tags/mysql)
+- [<VPIcon icon="fa-brands fa-digital-ocean"/>DigitalOcean MySQL Tutorials](https://digitalocean.com/community/tags/mysql)
 
 :::
 

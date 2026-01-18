@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "a-practical-demo-of-zero-downtime-migrations-using-password-hashing", // 2026-01-24
     "solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache", // 2026-01-17
     "solving-message-ordering-from-first-principles", // 2026-01-10
   ]

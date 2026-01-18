@@ -74,7 +74,7 @@ For a detailed introduction to the different components of a Docker container, c
 
 In this tutorial, you’ll install and use Docker Community Edition (CE) on Ubuntu. You’ll install Docker itself, work with containers and images, and push an image to a Docker Repository. Additionally, you’ll learn how to start, stop, and remove containers, as well as how to commit changes in a container to a new Docker image. This tutorial also covers how to install docker with GPU support, common errors and how to fix them, and security best practices.
 
-Simplify deploying applications with [<VPIcon icon="iconfont icon-digitalocean"/>DigitalOcean App Platform](/products/app-platform). Deploy directly from GitHub in minutes.
+Simplify deploying applications with [<VPIcon icon="fa-brands fa-digital-ocean"/>DigitalOcean App Platform](/products/app-platform). Deploy directly from GitHub in minutes.
 
 ::: note Prerequisites
 
@@ -836,7 +836,7 @@ sudo rm /etc/apt/sources.list.d/docker.list
 
 ## Conclusion
 
-In this tutorial, you installed Docker, worked with images and containers, and pushed a modified image to Docker Hub. Now that you know the basics, explore the [<VPIcon icon="iconfont icon-digitalocean"/>other Docker tutorials](https://digitalocean.com/community/tags/docker?type=tutorials) in the [<VPIcon icon="iconfont icon-digitalocean"/>DigitalOcean Community](https://digitalocean.com/community). For more advanced Docker configurations, consider the following tutorials:
+In this tutorial, you installed Docker, worked with images and containers, and pushed a modified image to Docker Hub. Now that you know the basics, explore the [<VPIcon icon="fa-brands fa-digital-ocean"/>other Docker tutorials](https://digitalocean.com/community/tags/docker?type=tutorials) in the [<VPIcon icon="fa-brands fa-digital-ocean"/>DigitalOcean Community](https://digitalocean.com/community). For more advanced Docker configurations, consider the following tutorials:
 
 ::: info
 

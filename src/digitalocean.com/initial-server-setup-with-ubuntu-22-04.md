@@ -62,13 +62,13 @@ cover: https://digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg
 
 When you first create a new Ubuntu server, you should perform some important configuration steps as part of the initial setup. These steps will increase the security and usability of your server and will give you a solid foundation for subsequent actions.
 
-Deploy your applications from GitHub using [<VPIcon icon="iconfont icon-digitalocean"/>DigitalOcean App Platform](https://digitalocean.com/products/app-platform). Let DigitalOcean focus on scaling your app.
+Deploy your applications from GitHub using [<VPIcon icon="fa-brands fa-digital-ocean"/>DigitalOcean App Platform](https://digitalocean.com/products/app-platform). Let DigitalOcean focus on scaling your app.
 
 ---
 
 ## Step 1. Logging in as root
 
-To log into your server, you will need to know your **server’s public IP address**. You will also need the password or the private key for the **root** user’s account if you installed an SSH key for authentication. If you have not already logged into your server, you may want to follow our guide on [<VPIcon icon="iconfont icon-digitalocean"/>how to Connect to Droplets with SSH](https://docs.digitalocean.com/products/droplets/how-to/connect-with-ssh/), which covers this process in detail.
+To log into your server, you will need to know your **server’s public IP address**. You will also need the password or the private key for the **root** user’s account if you installed an SSH key for authentication. If you have not already logged into your server, you may want to follow our guide on [<VPIcon icon="fa-brands fa-digital-ocean"/>how to Connect to Droplets with SSH](https://docs.digitalocean.com/products/droplets/how-to/connect-with-ssh/), which covers this process in detail.
 
 If you are not connected to your server currently, log in as the **root** user using the following command. Substitute the highlighted `your_server_ip` portion of the command with your server’s public IP address:
 
@@ -126,7 +126,7 @@ Ubuntu servers can use the UFW firewall to ensure only connections to certain se
 
 ::: note
 
-If your servers are running on DigitalOcean, you can optionally use [<VPIcon icon="iconfont icon-digitalocean"/>DigitalOcean Cloud Firewalls](https://docs.digitalocean.com/products/networking/firewalls/) instead of the UFW firewall. We recommend using only one firewall at a time to avoid conflicting rules that may be difficult to debug.
+If your servers are running on DigitalOcean, you can optionally use [<VPIcon icon="fa-brands fa-digital-ocean"/>DigitalOcean Cloud Firewalls](https://docs.digitalocean.com/products/networking/firewalls/) instead of the UFW firewall. We recommend using only one firewall at a time to avoid conflicting rules that may be difficult to debug.
 
 :::
 
@@ -176,7 +176,7 @@ Now that you have a regular user for daily use, you will need to make sure that 
 
 ::: note
 
-Until verifying that you can log in and use `sudo` with your new user, we recommend staying logged in as **root**. If you have problems connecting, you can troubleshoot and make any necessary changes as **root**. If you use a DigitalOcean Droplet and experience problems with your **root** SSH connection, you can [<VPIcon icon="iconfont icon-digitalocean"/>regain access to Droplets using the Recovery Console](https://docs.digitalocean.com/products/droplets/resources/recovery-console/).
+Until verifying that you can log in and use `sudo` with your new user, we recommend staying logged in as **root**. If you have problems connecting, you can troubleshoot and make any necessary changes as **root**. If you use a DigitalOcean Droplet and experience problems with your **root** SSH connection, you can [<VPIcon icon="fa-brands fa-digital-ocean"/>regain access to Droplets using the Recovery Console](https://docs.digitalocean.com/products/droplets/resources/recovery-console/).
 
 :::
 

@@ -208,7 +208,7 @@ function main(event) {
 }
 ```
 
-We must name the handler function `main`, which is invoked when the endpoint is called. The function receives the `event` object as its first argument, containing the [<VPIcon icon="iconfont icon-digitaloceans"/>details of the request](https://docs.digitalocean.com/products/functions/reference/runtimes/node-js/#parameters). Once again, we could return anything, but to return the JSON response we need, it’s enough to simply [<VPIcon icon="iconfont icon-digitaloceans"/>return an object](https://docs.digitalocean.com/products/functions/reference/runtimes/node-js/#returns).
+We must name the handler function `main`, which is invoked when the endpoint is called. The function receives the `event` object as its first argument, containing the [<VPIcon icon="fa-brands fa-digital-oceans"/>details of the request](https://docs.digitalocean.com/products/functions/reference/runtimes/node-js/#parameters). Once again, we could return anything, but to return the JSON response we need, it’s enough to simply [<VPIcon icon="fa-brands fa-digital-oceans"/>return an object](https://docs.digitalocean.com/products/functions/reference/runtimes/node-js/#returns).
 
 We can reuse the same code for creating the response as-is. The only difference is that we have to extract the form input data from the `event` as `FormData` ourselves:
 

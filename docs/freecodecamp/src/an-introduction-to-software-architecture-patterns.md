@@ -347,7 +347,7 @@ Through tools like [Terraform](https://terraform.io/) or AWS [<VPIcon icon="fa-b
 
 This is mind-blowing from an engineering point of view, and really convenient for us as developers. Cloud computing nowadays offers a very complete set of solutions that can easily adapt from tiny small projects to the biggest digital products on earth. This is why more and more software projects nowadays choose to host their infrastructure in the cloud.
 
-As previously mentioned, the most used and well known cloud providers are [<VPIcon icon="fa-brands fa-aws"/>AWS](https://aws.amazon.com/), [<VPIcon icon="iconfont icon-gcp"/>Google Cloud](https://cloud.google.com/) and [Azure](https://azure.microsoft.com/). Though there are other options too like [<VPIcon icon="iconfont icon-ibm"/>IBM](https://ibm.com/cloud), [<VPIcon icon="iconfont icon-digitalocean"/>DigitalOcean](https://digitalocean.com/), and [Oracle](https://oracle.com/cloud/).
+As previously mentioned, the most used and well known cloud providers are [<VPIcon icon="fa-brands fa-aws"/>AWS](https://aws.amazon.com/), [<VPIcon icon="iconfont icon-gcp"/>Google Cloud](https://cloud.google.com/) and [Azure](https://azure.microsoft.com/). Though there are other options too like [<VPIcon icon="iconfont icon-ibm"/>IBM](https://ibm.com/cloud), [<VPIcon icon="fa-brands fa-digital-ocean"/>DigitalOcean](https://digitalocean.com/), and [Oracle](https://oracle.com/cloud/).
 
 Most of these providers offer the same kind of services, though they might have different names. For example, serverless functions are called "lambdas" on AWS and "cloud functions" on Google cloud.
 

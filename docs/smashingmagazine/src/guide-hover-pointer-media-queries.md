@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2022/03/guide-hover-pointer-media-queries/

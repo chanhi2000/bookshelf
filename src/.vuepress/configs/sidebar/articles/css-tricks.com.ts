@@ -36,6 +36,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "open-props-custom-media-recipes", // 2026-01-24
+    "i-learned-the-first-rule-of-aria-the-hard-way", // 2026-01-21
     "http-archive-2025-web-almanac", // 2026-01-16
     "whats-important-3", // 2026-01-15
     "playing-with-codepen-slidevars", // 2026-01-14
@@ -422,6 +424,7 @@ export const template: SidebarInfoTemplate = {
       "postcard-from-web-directions-dev-summit-2025", // 2025-01-12
       "playing-with-codepen-slidevars", // 2026-01-14
       "whats-important-3", // 2026-01-15
+      "open-props-custom-media-recipes", // 2026-01-24
       // END: 2026css
       // END: css
     ]],[

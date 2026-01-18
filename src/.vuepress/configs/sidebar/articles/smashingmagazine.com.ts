@@ -1,5 +1,13 @@
 import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
+const Y2026: SidebarYeargroupTemplate = {
+  text: '2026',
+  collapsible: true,
+  children: [
+    // END: 2026
+  ]
+}
+
 const Y2025: SidebarYeargroupTemplate = {
   text: '2025',
   collapsible: true,
@@ -18,7 +26,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "introduction-css-scroll-driven-animations", // 2024-12-11
     "css-tips-and-techniques", // 2024-06-07
     "scaling-success-key-insights-pratical-takeaways", // 2024-06-04
-    "in-praise-of-the-basics", // 2024-05-30
+    "in-praise-of-the-basics", // 2024-05-30  
     "netlify-platform-primitives", // 2024-05-28
     "switching-it-up-html-latest-control", // 2024-05-24
     "naming-best-practices", // 2024-05-23
@@ -47,6 +55,8 @@ const Y2023: SidebarYeargroupTemplate = {
     // END: 2023
     "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
     "speedcurve-fight-main-thread", // 2023-10-24
+    "gradients-blend-modes-hover-effect", // 2023-09-11
+    "popular-devtools-tips", // 2023-06-27
     "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
     "build-magazine-layout-css-grid-areas", // 2023-02-06
   ],
@@ -60,6 +70,7 @@ const Y2022: SidebarYeargroupTemplate = {
     "guide-command-line-data-manipulation-cli-miller", // 2022-12-27
     "nodejs-authentication-twilio-verify", // 2022-10-07
     "complete-guide-css-container-queries", // 2022-09-15
+    "css-radial-conic-gradient", // 2022-01-10
   ],
 }
 
@@ -76,6 +87,7 @@ const Y2020: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2020
+    "understanding-css-grid-lines", // 2020-01-10
     "understanding-css-grid-container", // 2020-01-03
   ],
 }
@@ -94,6 +106,7 @@ const Y2018: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2018
+    "css-grid-2", // 2018-07-03
     "avengers-id-card-html-css", // 2018-06-04
   ],
 }
@@ -121,6 +134,7 @@ const Y2015: SidebarYeargroupTemplate = {
   children: [
     // END: 2015
     "getting-started-css-calc-techniques", // 2015-12-03
+    "understanding-critical-css", // 2015-08-13
   ],
 }
 
@@ -274,6 +288,23 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-gatsby
       // END: js-gatsby
     ]],[
+    "js-grunt", [
+      // END: 2014js-grunt
+      "understanding-critical-css", // 2015-08-13
+      // END: 2015js-grunt
+      // END: 2016js-grunt
+      // END: 2017js-grunt
+      // END: 2018js-grunt
+      // END: 2019js-grunt
+      // END: 2020js-grunt
+      // END: 2021js-grunt
+      // END: 2022js-grunt
+      // END: 2023js-grunt
+      // END: 2024js-grunt
+      // END: 2025js-grunt
+      // END: 2026js-grunt
+      // END: js-grunt
+    ]],[
     "js-twilio", [
       // END: 2014js-twilio
       // END: 2015js-twilio
@@ -295,7 +326,6 @@ export const template: SidebarInfoTemplate = {
       // END: 2007css
       // END: 2008css
       // END: 2009css
-      "understanding-css-grid-container", // 2020-01-03
       "when-one-word-is-more-meaningful-than-a-thousand", // 2010-07-14
       // END: 2010css
       "html5-semantics", // 2011-11-18
@@ -312,21 +342,28 @@ export const template: SidebarInfoTemplate = {
       "introduction-to-custom-elements", // 2014-03-04
       "bem-methodology-for-small-projects", // 2014-07-17
       // END: 2014css
+      "understanding-critical-css", // 2015-08-13
       "getting-started-css-calc-techniques", // 2015-12-03
       // END: 2015css
       "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
       // END: 2016css
       // END: 2017css
       "avengers-id-card-html-css", // 2018-06-04
+      "css-grid-2", // 2018-07-03
       // END: 2018css
       "display-two-value", // 2019-04-08
       // END: 2019css
+      "understanding-css-grid-container", // 2020-01-03
+      "understanding-css-grid-lines", // 2020-01-10
       // END: 2020css
       // END: 2021css
+      "css-radial-conic-gradient", // 2022-01-10
       "complete-guide-css-container-queries", // 2022-09-15
       // END: 2022css
       "build-magazine-layout-css-grid-areas", // 2023-02-06
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
+      "popular-devtools-tips", // 2023-06-27
+      "gradients-blend-modes-hover-effect", // 2023-09-11
       "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
       // END: 2023css
       "css-border-image-property", // 2024-01-16
@@ -392,6 +429,7 @@ export const template: SidebarInfoTemplate = {
       // END: career
     ]],[
     "all", [
+      Y2026,
       Y2025,
       Y2024,
       Y2023,

@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "single-flight-mutations-in-tanstack-start-part-1", // 2026-01-23
+    "view-transitions-playing-video", // 2026-01-20
     "the-missing-link-for-web-components", // 2026-01-15
     "simulating-crop-marks", // 2026-01-13
     "beyond-the-mouse-animating-with-mobile-accelerometers", // 2026-01-09
@@ -294,6 +296,8 @@ export const template: SidebarInfoTemplate = {
       "using-the-custom-highlight-api", // 2025-08-07
       "a-progressive-enhancement-challenge", // 2025-10-03
       // END: 2025js
+      "view-transitions-playing-video", // 2026-01-20
+      // END: 2026js
       // END: js
     ]],[
     "ts", [
@@ -333,6 +337,8 @@ export const template: SidebarInfoTemplate = {
       "css-counters-in-action", // 2025-10-09
       "introducing-tanstack-start-middleware", // 2025-10-24
       // END: 2025js-react
+      "single-flight-mutations-in-tanstack-start-part-1", // 2026-01-23
+      // END: 2026js-react
       // END: js-react
     ]],[
     "js-next", [
@@ -514,6 +520,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-scope-css-now-that-its-baseline", // 2026-01-05
       "popover-context-menus-with-anchor-positioning", // 2026-01-08
       "simulating-crop-marks", // 2026-01-13
+      "view-transitions-playing-video", // 2026-01-20
       // END: 2026css
       // END: css
     ]],[

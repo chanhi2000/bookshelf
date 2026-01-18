@@ -2657,8 +2657,8 @@ Azure disks also vary by type and size:
 
 DigitalOcean offers simpler storage setups:
 
-- [<VPIcon icon="iconfont icon-digitalocean"/>Volumes overview](https://docs.digitalocean.com/products/volumes/): explains block storage and NVMe details.
-- [<VPIcon icon="iconfont icon-digitalocean"/>Volume Limits](https://docs.digitalocean.com/products/volumes/details/limits/): shows per-Droplet IOPS and throughput caps (including burst windows).
+- [<VPIcon icon="fa-brands fa-digital-ocean"/>Volumes overview](https://docs.digitalocean.com/products/volumes/): explains block storage and NVMe details.
+- [<VPIcon icon="fa-brands fa-digital-ocean"/>Volume Limits](https://docs.digitalocean.com/products/volumes/details/limits/): shows per-Droplet IOPS and throughput caps (including burst windows).
 
 ### Downsizing the Cluster (Reducing Replicas)
 
