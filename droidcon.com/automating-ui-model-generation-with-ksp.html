@@ -1,0 +1,1130 @@
+<!doctype html>
+<html lang="en-US" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.99" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme="dark"] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Automating UI Model Generation With KSP","image":["https://miro.medium.com/v2/resize:fit:720/format:webp/1*fj37iju-vPqoHPAvPD6zFg.png","https://miro.medium.com/v2/resize:fit:800/format:webp/1*xC3sJ7fVC2EnEDho3ggDfw.png","https://miro.medium.com/v2/resize:fit:1136/format:webp/1*F6K-0S5xpBwDSS7vdsoFlA.png","https://wise.jobs/engineering"],"datePublished":"2025-02-12T00:00:00.000Z","dateModified":null,"author":[{"@type":"Person","name":"João Cevada"}]}</script><meta property="og:url" content="https://chanhi2000.github.io/bookshelf/droidcon.com/automating-ui-model-generation-with-ksp.html"><meta property="og:site_name" content="📚Bookshelf"><meta property="og:title" content="Automating UI Model Generation With KSP"><meta property="og:description" content="Article(s) > Automating UI Model Generation With KSP"><meta property="og:type" content="article"><meta property="og:image" content="https://miro.medium.com/v2/resize:fit:720/format:webp/1*fj37iju-vPqoHPAvPD6zFg.png"><meta property="og:locale" content="en-US"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image:src" content="https://miro.medium.com/v2/resize:fit:720/format:webp/1*fj37iju-vPqoHPAvPD6zFg.png"><meta name="twitter:image:alt" content="Automating UI Model Generation With KSP"><meta property="article:author" content="João Cevada"><meta property="article:tag" content="android"><meta property="article:tag" content="kotlin"><meta property="article:tag" content="java"><meta property="article:tag" content="droidcon.com"><meta property="article:tag" content="blog"><meta property="article:published_time" content="2025-02-12T00:00:00.000Z"><link rel="icon" href="/bookshelf/assets/icon/favicon.svg"><title>Automating UI Model Generation With KSP | 📚Bookshelf</title><meta name="description" content="Article(s) > Automating UI Model Generation With KSP">
+    <link rel="preload" href="/bookshelf/assets/style-Bhb-QcDa.css" as="style"><link rel="stylesheet" href="/bookshelf/assets/style-Bhb-QcDa.css">
+    
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">Skip to main content</a><!--]--><div class="theme-container external-link-icon has-toc" vp-container><!--[--><header id="navbar" class="vp-navbar" vp-navbar><div class="vp-navbar-start"><button type="button" class="vp-toggle-sidebar-button" title="Toggle Sidebar"><span class="icon"></span></button><!--[--><a class="route-link vp-brand" href="/bookshelf/" aria-label="Take me home"><img class="vp-nav-logo" src="/bookshelf/assets/icon/favicon.svg" alt><!----><span class="vp-site-name hide-in-pad">📚Bookshelf</span></a><!--]--></div><div class="vp-navbar-center"><!--[--><nav class="vp-nav-links"><div class="vp-nav-item hide-in-mobile"><a class="route-link auto-link" href="/bookshelf/news.html" aria-label><!--[--><i class="vp-icon fas fa-rss" sizing="height"></i><!--]--><!----></a></div><div class="vp-nav-item hide-in-mobile"><div class="vp-dropdown-wrapper"><button type="button" class="vp-dropdown-title" aria-label><!--[--><i class="vp-icon fas fa-keyboard" sizing="height"></i><!--]--><span class="arrow"></span><ul class="vp-dropdown"><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/hackingwithswift.com/" aria-label="hackingwithswift.com"><!--[--><img class="vp-icon" src="https://hackingwithswift.com/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->hackingwithswift.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/fcc/" aria-label="freecodecamp.org"><!--[--><img class="vp-icon" src="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->freecodecamp.org<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/kodeco.com/" aria-label="kodeco.com"><!--[--><img class="vp-icon" src="https://kodeco.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->kodeco.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/blog.kotzilla.io/" aria-label="blog.kotzilla.io"><!--[--><img class="vp-icon" src="https://blog.kotzilla.io/hubfs/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->blog.kotzilla.io<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/kt.academy/" aria-label="kt.academy"><!--[--><img class="vp-icon" src="https://kt.academy/logo.png" alt aria-hidden no-view sizing="both"><!--]-->kt.academy<!----></a></li><li class="vp-dropdown-item"><a class="route-link route-link-active auto-link" href="/bookshelf/droidcon.com/" aria-label="droidcon.com"><!--[--><img class="vp-icon" src="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png" alt aria-hidden no-view sizing="both"><!--]-->droidcon.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/outcomeschool.com/" aria-label="outcomeschool.com"><!--[--><img class="vp-icon" src="https://outcomeschool.com/static/favicons/apple-touch-icon.png" alt aria-hidden no-view sizing="both"><!--]-->outcomeschool.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/frontendmasters.com/" aria-label="frontendmasters.com"><!--[--><img class="vp-icon" src="https://frontendmasters.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->frontendmasters.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/css-tricks.com/" aria-label="css-tricks.com"><!--[--><img class="vp-icon" src="https://css-tricks.com/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->css-tricks.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/smashingmagazine.com/" aria-label="smashingmagazine.com"><!--[--><img class="vp-icon" src="https://smashingmagazine.com/images/favicon/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->smashingmagazine.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/smashingmagazine.com/" aria-label="oddbird.net"><!--[--><img class="vp-icon" src="https://oddbird.net/safari-pinned-tab.svg" alt aria-hidden no-view sizing="both"><!--]-->oddbird.net<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/zeroheight.com/" aria-label="zeroheight.com"><!--[--><img class="vp-icon" src="https://zeroheight.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->zeroheight.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/typescript.tv/" aria-label="typescript.tv"><!--[--><img class="vp-icon" src="https://typescript.tv/_astro/android-chrome-192x192.BhQ8hcWh.png" alt aria-hidden no-view sizing="both"><!--]-->typescript.tv<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/blog.logrocket.com/" aria-label="blog.logrocket.com"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/blog.logrocket.com/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->blog.logrocket.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/realpython.com/" aria-label="realpython.com"><!--[--><img class="vp-icon" src="https://realpython.com/static/favicon.68cbf4197b0c.png" alt aria-hidden no-view sizing="both"><!--]-->realpython.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/digitalocean.com/" aria-label="digitalocean.com"><!--[--><img class="vp-icon" src="https://digitalocean.com/_next/static/media/favicon.594d6067.ico" alt aria-hidden no-view sizing="both"><!--]-->digitalocean.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/antonioleiva.com/" aria-label="antonioleiva.com"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/antonioleiva.com/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->antonioleiva.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/johnnyreilly.com/" aria-label="johnnyreilly.com"><!--[--><img class="vp-icon" src="https://johnnyreilly.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->johnnyreilly.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/code-maze.com/" aria-label="code-maze.com"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/code-maze.com/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->code-maze.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/milanjovanovic.tech/" aria-label="milanjovanovic.tech"><!--[--><img class="vp-icon" src="https://milanjovanovic.tech/profile_favicon.png" alt aria-hidden no-view sizing="both"><!--]-->milanjovanovic.tech<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/shopify.engineering/" aria-label="shopify.engineering"><!--[--><img class="vp-icon" src="https://cdn.shopify.com/static/shopify-favicon.png" alt aria-hidden no-view sizing="both"><!--]-->shopify.engineering<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/devtoolstips.org/" aria-label="devtoolstips.org"><!--[--><img class="vp-icon" src="https://devtoolstips.org/assets/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->devtoolstips.org<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/piccalil.li/" aria-label="piccalil.li"><!--[--><img class="vp-icon" src="https://piccalil.li/favicons/apple-touch-icon.png" alt aria-hidden no-view sizing="both"><!--]-->piccalil.li<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/sitepoint.com/" aria-label="sitepoint.com"><!--[--><img class="vp-icon" src="https://sitepoint.com/favicons/512x512.png" alt aria-hidden no-view sizing="both"><!--]-->sitepoint.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/event-driven.io/" aria-label="event-driven.io"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/event-driven.io/favicon.jfif" alt aria-hidden no-view sizing="both"><!--]-->event-driven.io<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/packagemain.tech/" aria-label="packagemain.tech"><!--[--><img class="vp-icon" src="https://substack-post-media.s3.amazonaws.com/public/images/2ea54e25-eaa6-4630-bfc0-10b8cfdce894/apple-touch-icon-1024x1024.png" alt aria-hidden no-view sizing="both"><!--]-->packagemain.tech<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/gosolve.io/" aria-label="gosolve.io"><!--[--><img class="vp-icon" src="https://gosolve.io/wp-content/uploads/2022/03/cropped-ikona1-192x192.png" alt aria-hidden no-view sizing="both"><!--]-->gosolve.io<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/bram.us/" aria-label="bram.us"><!--[--><img class="vp-icon" src="https://bram.us/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->bram.us<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/una.im/" aria-label="una.im"><!--[--><img class="vp-icon" src="https://una.im/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->una.im<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/joshwcomeau.com/" aria-label="joshwcomeau.com"><!--[--><img class="vp-icon" src="https://joshwcomeau.com/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->joshwcomeau.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/css-tip.com/" aria-label="css-tip.com"><!--[--><img class="vp-icon" src="https://css-tip.com/img/fav.png" alt aria-hidden no-view sizing="both"><!--]-->css-tip.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/nerdy.dev/" aria-label="nerdy.dev"><!--[--><img class="vp-icon" src="https://nerdy.dev/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->nerdy.dev<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/towardsdatascience.com/" aria-label="towardsdatascience.com"><!--[--><img class="vp-icon" src="https://cdn-images-1.medium.com/v2/resize:fill:128:128/1*VzTUkfeGymHP4Bvav-T-lA.png" alt aria-hidden no-view sizing="both"><!--]-->towardsdatascience.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/douggregor.net/" aria-label="douggregor.net"><!--[--><i class="vp-icon fas fa-globe" sizing="both"></i><!--]-->douggregor.net<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/d2.naver.com/" aria-label="d2.naver.com"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/d2.naver.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->d2.naver.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/tech.kakao.com/" aria-label="tech.kakao.com"><!--[--><img class="vp-icon" src="https://www.kakaocorp.com/page/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->tech.kakao.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/tech.kakaopay.com/" aria-label="tech.kakaopay.com"><!--[--><img class="vp-icon" src="https://tech.kakaopay.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->tech.kakaopay.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/fe-developers.kakaoent.com/" aria-label="fe-developers.kakaoent.com"><!--[--><img class="vp-icon" src="https://fe-developers.kakaoent.com/favicon-32x32.png?v=44803cb16c1e2debd3984cf2e8cb2ded" alt aria-hidden no-view sizing="both"><!--]-->fe-developers.kakaoent.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/yozm.wishket.com/" aria-label="yozm.wishket.com"><!--[--><img class="vp-icon" src="https://yozm.wishket.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->yozm.wishket.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/popit.kr/" aria-label="popit.kr"><!--[--><img class="vp-icon" src="https://popit.kr/wp-content/uploads/2016/08/favicon_32x32.png" alt aria-hidden no-view sizing="both"><!--]-->popit.kr<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/devkuma.com/" aria-label="devkuma.com"><!--[--><img class="vp-icon" src="https://devkuma.com/favicons/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->devkuma.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/blog.gangnamunni.com/" aria-label="blog.gangnamunni.com"><!--[--><img class="vp-icon" src="https://blog.gangnamunni.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->blog.gangnamunni.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/codingeverybody.kr/" aria-label="codingeverybody.kr"><!--[--><img class="vp-icon" src="https://codingeverybody.kr/wp-content/uploads/cropped-favicon-origin-192x192.png" alt aria-hidden no-view sizing="both"><!--]-->codingeverybody.kr<!----></a></li></ul></button></div></div><div class="vp-nav-item hide-in-mobile"><div class="vp-dropdown-wrapper"><button type="button" class="vp-dropdown-title" aria-label><!--[--><i class="vp-icon fas fa-network-wired" sizing="height"></i><!--]--><span class="arrow"></span><ul class="vp-dropdown"><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/tecmint.com/" aria-label="tecmint.com"><!--[--><img class="vp-icon" src="https://tecmint.com/wp-content/uploads/2020/07/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->tecmint.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/docker.com/" aria-label="docker.com"><!--[--><img class="vp-icon" src="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png" alt aria-hidden no-view sizing="both"><!--]-->docker.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/learnkube.com/" aria-label="learnkube.com"><!--[--><img class="vp-icon" src="https://static.learnkube.com/f7e5160d4744cf05c46161170b5c11c9.svg" alt aria-hidden no-view sizing="both"><!--]-->learnkube.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/itsfoss.com/" aria-label="itsfoss.com"><!--[--><img class="vp-icon" src="https://itsfoss.com/content/images/size/w256h256/2022/12/android-chrome-192x192.png" alt aria-hidden no-view sizing="both"><!--]-->itsfoss.com<!----></a></li></ul></button></div></div></nav><!--]--></div><div class="vp-navbar-end"><!--[--><!----><div class="vp-nav-item vp-action"><a class="vp-action-link" href="https://github.com/chanhi2000/bookshelf" target="_blank" rel="noopener noreferrer" aria-label="Github"><svg xmlns="http://www.w3.org/2000/svg" class="icon github-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="github icon" name="github" style="width:1.25rem;height:1.25rem;vertical-align:middle;"><path d="M511.957 21.333C241.024 21.333 21.333 240.981 21.333 512c0 216.832 140.544 400.725 335.574 465.664 24.49 4.395 32.256-10.07 32.256-23.083 0-11.69.256-44.245 0-85.205-136.448 29.61-164.736-64.64-164.736-64.64-22.315-56.704-54.4-71.765-54.4-71.765-44.587-30.464 3.285-29.824 3.285-29.824 49.195 3.413 75.179 50.517 75.179 50.517 43.776 75.008 114.816 53.333 142.762 40.79 4.523-31.66 17.152-53.377 31.19-65.537-108.971-12.458-223.488-54.485-223.488-242.602 0-53.547 19.114-97.323 50.517-131.67-5.035-12.33-21.93-62.293 4.779-129.834 0 0 41.258-13.184 134.912 50.346a469.803 469.803 0 0 1 122.88-16.554c41.642.213 83.626 5.632 122.88 16.554 93.653-63.488 134.784-50.346 134.784-50.346 26.752 67.541 9.898 117.504 4.864 129.834 31.402 34.347 50.474 78.123 50.474 131.67 0 188.586-114.73 230.016-224.042 242.09 17.578 15.232 33.578 44.672 33.578 90.454v135.85c0 13.142 7.936 27.606 32.854 22.87C862.25 912.597 1002.667 728.747 1002.667 512c0-271.019-219.648-490.667-490.71-490.667z"></path></svg></a></div><div class="vp-nav-item hide-in-mobile"><!----></div><!----><!--]--><button type="button" class="vp-toggle-navbar-button" aria-label="Toggle Navbar" aria-expanded="false" aria-controls="nav-screen"><span><span class="vp-top"></span><span class="vp-middle"></span><span class="vp-bottom"></span></span></button></div></header><!----><!--]--><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar" vp-sidebar><!----><ul class="vp-sidebar-links"><li><section class="vp-sidebar-group"><button class="vp-sidebar-header clickable active" type="button"><img class="vp-icon" src="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png" alt aria-hidden no-view sizing="both"><span class="vp-sidebar-title">droidcon.com</span><span class="vp-arrow down"></span></button><ul class="vp-sidebar-links"><li><section class="vp-sidebar-group"><button class="vp-sidebar-header clickable active" type="button"><!----><span class="vp-sidebar-title">2025</span><span class="vp-arrow down"></span></button><ul class="vp-sidebar-links"><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/room-setup-in-kotlin-multiplatform-kmp-with-koin.html" aria-label="Room setup in Kotlin Multiplatform (KMP) with Koin"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Room setup in Kotlin Multiplatform (KMP) with Koin<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/designing-effective-ui-components-in-jetpack-compose.html" aria-label="Designing Effective UI Components in Jetpack Compose"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Designing Effective UI Components in Jetpack Compose<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/creating-a-modern-bottom-navigation-bar-with-a-curved-cut-out-for-a-docked-floating-action-button-in-jetpack-compose.html" aria-label="Creating a Modern Bottom Navigation Bar with a Curved Cut-Out for a Docked/Floating Action Button in Jetpack Compose"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Creating a Modern Bottom Navigation Bar with a Curved Cut-Out for a Docked/Floating Action Button in Jetpack Compose<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/a-more-flexible-checkbox-in-material3.html" aria-label="A more flexible Checkbox in Material3"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->A more flexible Checkbox in Material3<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/%F0%9F%93%B8-android-comparing-fileprovider-vs-mediastore-top-interview-questions.html" aria-label="📸 Android: Comparing FileProvider vs. MediaStore + Top Interview Questions"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->📸 Android: Comparing FileProvider vs. MediaStore + Top Interview Questions<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/safeguarding-critical-operations-block-accidental-navigation-in-jetpack-compose.html" aria-label="Safeguarding Critical Operations: Block Accidental Navigation in Jetpack Compose"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Safeguarding Critical Operations: Block Accidental Navigation in Jetpack Compose<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/outlinedurltextfield-in-jetpack-compose.html" aria-label="OutlinedUrlTextField in Jetpack Compose"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->OutlinedUrlTextField in Jetpack Compose<!----></a></li><li><a class="route-link route-link-active auto-link vp-sidebar-link active" href="/bookshelf/droidcon.com/automating-ui-model-generation-with-ksp.html" aria-label="Automating UI Model Generation With KSP"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Automating UI Model Generation With KSP<!----></a></li></ul></section></li><li><section class="vp-sidebar-group"><button class="vp-sidebar-header clickable" type="button"><!----><span class="vp-sidebar-title">2024</span><span class="vp-arrow end"></span></button><!----></section></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/dagger-anvil-learning-to-love-dependency-injection.html" aria-label="Dagger + Anvil: Learning to Love Dependency Injection"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Dagger + Anvil: Learning to Love Dependency Injection<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/writing-swift-friendly-kotlin-multiplatform-apis-part-ix-flow.html" aria-label="Writing Swift-friendly Kotlin Multiplatform APIs — Part IX: Flow - droidcon"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Writing Swift-friendly Kotlin Multiplatform APIs — Part IX: Flow - droidcon<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/droidcon.com/introducing-iris-mock-an-easier-way-to-mock-network-calls-on-android.html" aria-label="Introducing Iris Mock: An easier way to mock network calls on Android"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Introducing Iris Mock: An easier way to mock network calls on Android<!----></a></li></ul></section></li></ul><!----></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!----><div class="page-cover"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*fj37iju-vPqoHPAvPD6zFg.png" alt no-view></div><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><i class="vp-icon fa-brands fa-android" sizing="height"></i>Automating UI Model Generation With KSP</h1><div class="page-info"><span class="page-author-info" aria-label="Author🖊" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon author-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="author icon" name="author"><path d="M649.6 633.6c86.4-48 147.2-144 147.2-249.6 0-160-128-288-288-288s-288 128-288 288c0 108.8 57.6 201.6 147.2 249.6-121.6 48-214.4 153.6-240 288-3.2 9.6 0 19.2 6.4 25.6 3.2 9.6 12.8 12.8 22.4 12.8h704c9.6 0 19.2-3.2 25.6-12.8 6.4-6.4 9.6-16 6.4-25.6-25.6-134.4-121.6-240-243.2-288z"></path></svg><span><span class="page-author-item">João Cevada</span></span><span property="author" content="João Cevada"></span></span><!----><span class="page-date-info" aria-label="Writing Date📅" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon calendar-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="calendar icon" name="calendar"><path d="M716.4 110.137c0-18.753-14.72-33.473-33.472-33.473-18.753 0-33.473 14.72-33.473 33.473v33.473h66.993v-33.473zm-334.87 0c0-18.753-14.72-33.473-33.473-33.473s-33.52 14.72-33.52 33.473v33.473h66.993v-33.473zm468.81 33.52H716.4v100.465c0 18.753-14.72 33.473-33.472 33.473a33.145 33.145 0 01-33.473-33.473V143.657H381.53v100.465c0 18.753-14.72 33.473-33.473 33.473a33.145 33.145 0 01-33.473-33.473V143.657H180.6A134.314 134.314 0 0046.66 277.595v535.756A134.314 134.314 0 00180.6 947.289h669.74a134.36 134.36 0 00133.94-133.938V277.595a134.314 134.314 0 00-133.94-133.938zm33.473 267.877H147.126a33.145 33.145 0 01-33.473-33.473c0-18.752 14.72-33.473 33.473-33.473h736.687c18.752 0 33.472 14.72 33.472 33.473a33.145 33.145 0 01-33.472 33.473z"></path></svg><span data-allow-mismatch="text">2/12/25</span><meta property="datePublished" content="2025-02-12T00:00:00.000Z"></span><!----><span class="page-reading-time-info" aria-label="Reading Time⌛" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon timer-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="timer icon" name="timer"><path d="M799.387 122.15c4.402-2.978 7.38-7.897 7.38-13.463v-1.165c0-8.933-7.38-16.312-16.312-16.312H256.33c-8.933 0-16.311 7.38-16.311 16.312v1.165c0 5.825 2.977 10.874 7.637 13.592 4.143 194.44 97.22 354.963 220.201 392.763-122.204 37.542-214.893 196.511-220.2 389.397-4.661 5.049-7.638 11.651-7.638 19.03v5.825h566.49v-5.825c0-7.379-2.849-13.981-7.509-18.9-5.049-193.016-97.867-351.985-220.2-389.527 123.24-37.67 216.446-198.453 220.588-392.892zM531.16 450.445v352.632c117.674 1.553 211.787 40.778 211.787 88.676H304.097c0-48.286 95.149-87.382 213.728-88.676V450.445c-93.077-3.107-167.901-81.297-167.901-177.093 0-8.803 6.99-15.793 15.793-15.793 8.803 0 15.794 6.99 15.794 15.793 0 80.261 63.69 145.635 142.01 145.635s142.011-65.374 142.011-145.635c0-8.803 6.99-15.793 15.794-15.793s15.793 6.99 15.793 15.793c0 95.019-73.789 172.82-165.96 177.093z"></path></svg><span>About 14 min</span><meta property="timeRequired" content="PT14M"></span><span class="page-category-info" aria-label="Category🌈" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon category-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="category icon" name="category"><path d="M148.41 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H148.41c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.311-40.31zM147.556 553.478H429.73c22.263 0 40.311 18.048 40.311 40.31v282.176c0 22.263-18.048 40.312-40.31 40.312H147.555c-22.263 0-40.311-18.049-40.311-40.312V593.79c0-22.263 18.048-40.311 40.31-40.311zM593.927 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H593.927c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.31-40.31zM730.22 920.502H623.926c-40.925 0-74.22-33.388-74.22-74.425V623.992c0-41.038 33.387-74.424 74.425-74.424h222.085c41.038 0 74.424 33.226 74.424 74.067v114.233c0 10.244-8.304 18.548-18.547 18.548s-18.548-8.304-18.548-18.548V623.635c0-20.388-16.746-36.974-37.33-36.974H624.13c-20.585 0-37.331 16.747-37.331 37.33v222.086c0 20.585 16.654 37.331 37.126 37.331H730.22c10.243 0 18.547 8.304 18.547 18.547 0 10.244-8.304 18.547-18.547 18.547z"></path></svg><!--[--><span class="page-category-item color8" role>Java</span><span class="page-category-item color2" role>Kotlin</span><span class="page-category-item color0" role>Android</span><span class="page-category-item color8" role>Article(s)</span><!--]--><meta property="articleSection" content="Java,Kotlin,Android,Article(s)"></span><span class="page-tag-info" aria-label="Tag🏷" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon tag-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="tag icon" name="tag"><path d="M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z"></path></svg><!--[--><span class="page-tag-item color8" role>blog</span><span class="page-tag-item color5" role>droidcon.com</span><span class="page-tag-item color8" role>java</span><span class="page-tag-item color0" role>kotlin</span><span class="page-tag-item color3" role>android</span><!--]--><meta property="keywords" content="blog,droidcon.com,java,kotlin,android"></span></div><hr></div><!----><div class="" vp-content><!----><div id="markdown-content"><h1 id="frontmatter-title-관련" tabindex="-1"><a class="header-anchor" href="#frontmatter-title-관련"><span>Automating UI Model Generation With KSP 관련</span></a></h1><a class="route-link vp-card" href="/bookshelf/programming/java-android/articles/" style="background:rgba(10,10,10,0.2);"><img class="vp-card-logo" src="/bookshelf/images/ico-wind.svg" loading="lazy" no-view><div class="vp-card-content"><div class="vp-card-title">Android > Article(s)</div><hr><div class="vp-card-desc">Article(s)</div></div></a><nav class="table-of-contents"><ul></ul></nav><hr><div class="vp-site-info" data-name="Automating UI Model Generation With KSP"><a class="vp-site-info-navigator no-external-link-icon" title="Automating UI Model Generation With KSP" href="https://droidcon.com/2025/02/11/automating-ui-model-generation-with-ksp" target="_blank"></a><div class="vp-site-info-preview" style="background:url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*fj37iju-vPqoHPAvPD6zFg.png) center/cover no-repeat;"></div><div class="vp-site-info-detail"><img class="vp-site-info-logo" src="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png" alt loading="lazy" no-view><div class="vp-site-info-name">Automating UI Model Generation With KSP</div><div class="vp-site-info-desc">In this article, we’ll explore how to generate UI presentation models directly from Composable function definitions using KSP. This approach helps us structure and model data within the presentation layer (ViewModel) in a way that naturally aligns with UI components, leading to reduced maintenance overhead.</div></div><!----></div><p><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*fj37iju-vPqoHPAvPD6zFg.png" alt="" loading="lazy">Image was created with the assistance of DALL·E 3</p><p>In this article, we’ll explore<strong>how to generate UI presentation models directly from Composable function definitions</strong> using KSP**.<strong>This approach helps us structure and model data within the presentation layer (ViewModel) in a way that naturally aligns with UI components, leading to</strong>reduced maintenance overhead**.</p><p>By ensuring that our data models reflect the structure of the UI components, we ensure that business logic doesn’t leak into the view layer. Instead,<strong>all data formatting and manipulation will reside within the ViewModel</strong>, preventing common issues such as embedding UI-specific logic — like boolean visibility conditions, label changes, or style adjustments — directly in the view.</p><p>This approach aligns with clean architecture principles, improving maintainability, enhancing code readability, and making testing easier and more efficient. By centralizing logic in the presentation layer, we reduce the reliance on UI tests.</p><!-- ###### ViewItems
+
+Let’s walk through a simplified example from the**Wise Android App**to demonstrate how we structure a screen and its ViewModel using this approach. From this point on, we’ll refer to our UI models as**ViewItems**.
+
+![](https://miro.medium.com/v2/resize:fit:800/format:webp/1*xC3sJ7fVC2EnEDho3ggDfw.png)
+
+The avatar in this image was created with the assistance of DALL·E 3
+
+**Screen Example**
+
+@Composable
+
+fun QrCodeScreenExample() {
+
+val viewModel = QrCodeExampleViewModel()
+
+val state = viewModel.viewState.collectAsState().value
+
+CustomizableAppBarScaffold(
+
+collapsedAppBarContent = {
+
+CollapsedTitle(state.title)
+
+},
+
+extendedAppBarContent = {
+
+// Rendering header (Avatar + Text + Link)
+
+state.header.Render()
+
+},
+
+navigationAction = {},
+
+collapsedAppBarContentAlignment = Alignment.CenterHorizontally,
+
+) { paddingValues ->
+
+Column(
+
+horizontalAlignment = Alignment.CenterHorizontally,
+
+modifier = Modifier
+
+.padding(paddingValues)
+
+.padding(horizontal = 16.dp)
+
+.fillMaxWidth()
+
+.verticalScroll(rememberScrollState()),
+
+) {
+
+Spacer(Modifier.height(32.dp))
+
+with(state) {
+
+// Rendering QR code section (QR code + tag)
+
+qrCode.Render(Modifier.padding(bottom = 16.dp))
+
+// Redering Text
+
+Text(
+
+text = disclaimer.resolve(),
+
+appearance = TextAppearance.DefaultBody,
+
+)
+
+// Rendering actions (3 Circular Buttons)
+
+actions.Render(Modifier.padding(bottom = 32.dp))
+
+}
+
+}
+
+}
+
+}
+
+@Composable fun QrCodeScreenExample() { val viewModel = QrCodeExampleViewModel() val state = viewModel.viewState.collectAsState().value CustomizableAppBarScaffold( collapsedAppBarContent = { CollapsedTitle(state.title) }, extendedAppBarContent = { // Rendering header (Avatar + Text + Link) state.header.Render() }, navigationAction = {}, collapsedAppBarContentAlignment = Alignment.CenterHorizontally, ) { paddingValues -> Column( horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier .padding(paddingValues) .padding(horizontal = 16.dp) .fillMaxWidth() .verticalScroll(rememberScrollState()), ) { Spacer(Modifier.height(32.dp)) with(state) { // Rendering QR code section (QR code + tag) qrCode.Render(Modifier.padding(bottom = 16.dp)) // Redering Text Text( text = disclaimer.resolve(), appearance = TextAppearance.DefaultBody, ) // Rendering actions (3 Circular Buttons) actions.Render(Modifier.padding(bottom = 32.dp)) } } } }
+
+@Composable
+fun QrCodeScreenExample() {
+    val viewModel = QrCodeExampleViewModel()
+    val state = viewModel.viewState.collectAsState().value
+    CustomizableAppBarScaffold(
+        collapsedAppBarContent = {
+            CollapsedTitle(state.title)
+        },
+        extendedAppBarContent = {
+            // Rendering header (Avatar + Text + Link)
+            state.header.Render()
+        },
+        navigationAction = {},
+        collapsedAppBarContentAlignment = Alignment.CenterHorizontally,
+    ) { paddingValues ->
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            modifier = Modifier
+                .padding(paddingValues)
+                .padding(horizontal = 16.dp)
+                .fillMaxWidth()
+                .verticalScroll(rememberScrollState()),
+        ) {
+            Spacer(Modifier.height(32.dp))
+            with(state) {
+        // Rendering QR code section (QR code + tag)
+                qrCode.Render(Modifier.padding(bottom = 16.dp))
+                // Redering Text
+                Text(
+                    text = disclaimer.resolve(),
+                    appearance = TextAppearance.DefaultBody,
+                )
+                // Rendering actions (3 Circular Buttons)
+                actions.Render(Modifier.padding(bottom = 32.dp))
+            }
+        }
+    }
+}
+
+In the code above, we simplify the screen code by using the`Render()`function to automatically handle UI component data binding and rendering. Instead of manually binding UI properties, we**instantiate the auto-generated UI models (ViewItems) in the ViewModel.** The`Render()`function then takes care of binding the data and creating the corresponding Composable components.
+
+**ViewModel Example**
+
+class QrCodeExampleViewModel : ViewModel() {
+
+val viewState: MutableStateFlow<ExampleState> = MutableStateFlow(loadData())
+
+private fun loadData() = ExampleState(
+
+// Instantiation of the auto-generated UI models
+
+title = "User",
+
+header = PaymentHeaderCompositeExampleViewItem(
+
+profileName = Text.Raw("User"),
+
+avatarImage = ImageSource.Resource(R.drawable.il_preview_thumbnail),
+
+avatarAction = { },
+
+link = Text.Raw("wise.com/pay/me/wiser1226"),
+
+linkAction = {},
+
+),
+
+qrCode = QrCodeCompositeExampleViewItem(
+
+content = Text.Raw("<https://www.google.com/search?q=wise+payments+limited&>"),
+
+link = Text.Raw("@wiser121"),
+
+),
+
+actions = HorizontalCircularButtonsViewItem(
+
+items = generateButtons(),
+
+alignment = Alignment.CenterHorizontally
+
+),
+
+disclaimer = Text.Raw("User disclaimer, that's here for legal reasons."),
+
+)
+
+private fun generateButtons() = listOf(
+
+CircularButtonItem(
+
+text = Text.Raw("Share"),
+
+iconDrawableRes = com.wise.resources.R.drawable.ic_share_android_24dp,
+
+enabled = true,
+
+onClick = { },
+
+),
+
+CircularButtonItem(
+
+text = Text.Raw("Download"),
+
+iconDrawableRes = com.wise.resources.R.drawable.ic_download_24dp,
+
+enabled = true,
+
+onClick = { },
+
+),
+
+CircularButtonItem(
+
+text = Text.Raw("Scan"),
+
+iconDrawableRes = com.wise.resources.R.drawable.ic_scan_qr_code_24dp,
+
+enabled = true,
+
+onClick = { },
+
+),
+
+)
+
+internal data class ExampleState(
+
+val title: String,
+
+val header: PaymentHeaderCompositeExampleViewItem,
+
+val qrCode: QrCodeCompositeExampleViewItem,
+
+val actions: HorizontalCircularButtonsViewItem,
+
+val disclaimer: Text,
+
+)
+
+}
+
+class QrCodeExampleViewModel : ViewModel() { val viewState: MutableStateFlow<ExampleState> = MutableStateFlow(loadData()) private fun loadData() = ExampleState( // Instantiation of the auto-generated UI models title = "User", header = PaymentHeaderCompositeExampleViewItem( profileName = Text.Raw("User"), avatarImage = ImageSource.Resource(R.drawable.il_preview_thumbnail), avatarAction = { }, link = Text.Raw("wise.com/pay/me/wiser1226"), linkAction = {}, ), qrCode = QrCodeCompositeExampleViewItem( content = Text.Raw("<https://www.google.com/search?q=wise+payments+limited&>"), link = Text.Raw("@wiser121"), ), actions = HorizontalCircularButtonsViewItem( items = generateButtons(), alignment = Alignment.CenterHorizontally ), disclaimer = Text.Raw("User disclaimer, that's here for legal reasons."), ) private fun generateButtons() = listOf( CircularButtonItem( text = Text.Raw("Share"), iconDrawableRes = com.wise.resources.R.drawable.ic_share_android_24dp, enabled = true, onClick = { }, ), CircularButtonItem( text = Text.Raw("Download"), iconDrawableRes = com.wise.resources.R.drawable.ic_download_24dp, enabled = true, onClick = { }, ), CircularButtonItem( text = Text.Raw("Scan"), iconDrawableRes = com.wise.resources.R.drawable.ic_scan_qr_code_24dp, enabled = true, onClick = { }, ), ) internal data class ExampleState( val title: String, val header: PaymentHeaderCompositeExampleViewItem, val qrCode: QrCodeCompositeExampleViewItem, val actions: HorizontalCircularButtonsViewItem, val disclaimer: Text, ) }
+
+class QrCodeExampleViewModel : ViewModel() {
+val viewState: MutableStateFlow<ExampleState> = MutableStateFlow(loadData())
+    private fun loadData() = ExampleState(
+      // Instantiation of the auto-generated UI models
+        title = "User",
+        header = PaymentHeaderCompositeExampleViewItem(
+            profileName = Text.Raw("User"),
+            avatarImage = ImageSource.Resource(R.drawable.il_preview_thumbnail),
+            avatarAction = { },
+            link = Text.Raw("wise.com/pay/me/wiser1226"),
+            linkAction = {},
+        ),
+        qrCode = QrCodeCompositeExampleViewItem(
+            content = Text.Raw("<https://www.google.com/search?q=wise+payments+limited&>"),
+            link = Text.Raw("@wiser121"),
+        ),
+        actions = HorizontalCircularButtonsViewItem(
+            items = generateButtons(),
+            alignment = Alignment.CenterHorizontally
+        ),
+        disclaimer = Text.Raw("User disclaimer, that's here for legal reasons."),
+    )
+    private fun generateButtons() = listOf(
+        CircularButtonItem(
+            text = Text.Raw("Share"),
+            iconDrawableRes = com.wise.resources.R.drawable.ic_share_android_24dp,
+            enabled = true,
+            onClick = { },
+        ),
+        CircularButtonItem(
+            text = Text.Raw("Download"),
+            iconDrawableRes = com.wise.resources.R.drawable.ic_download_24dp,
+            enabled = true,
+            onClick = { },
+        ),
+        CircularButtonItem(
+            text = Text.Raw("Scan"),
+            iconDrawableRes = com.wise.resources.R.drawable.ic_scan_qr_code_24dp,
+            enabled = true,
+            onClick = { },
+        ),
+    )
+    internal data class ExampleState(
+        val title: String,
+        val header: PaymentHeaderCompositeExampleViewItem,
+        val qrCode: QrCodeCompositeExampleViewItem,
+        val actions: HorizontalCircularButtonsViewItem,
+        val disclaimer: Text,
+    )
+}
+
+*In the example ViewModel, we instantiate the ViewItems with dummy data. In a real-world scenario, we would map and format the properties of the domain models into these UI models.*
+
+The ViewItems are simply instantiated as regular data classes. Generating them automatically**eliminates the need to manually create separate models for the UI layer**which is another benefit of this approach. As typically, UI-specific models are used to map domain objects to, which promotes encapsulation and, more importantly, enables proper data formatting within the ViewModel.
+
+For example, a`Contact`domain object might include a creation date, which could be presented in the UI with a`(New)`tag based on a date threshold. By creating models aligned with the Composable’s interface, you ensure the data is formatted as needed for display, avoiding the temptation to include this logic in the view layer.
+
+However, it’s crucial to carefully design the Composable’s interface to**avoid exposing implementation details** unrelated to the semantic purpose of the component. For example, let’s consider a Composable called`Alert`. You might need to decide between a property like`alertType`(e.g., [Neutral, Positive, Negative]) or`alertColor`(e.g., [Grey, Green, Red]). It’s better to always choose the semantic representation (`alertType`), as it describes what to render rather than how to render it. This prevents the ViewModel from holding those implementation details — part of the view layer responsibilities — and promotes better separation of concerns.
+
+**Composable Example**
+
+@AutoViewItem
+
+@Composable
+
+internal fun QrCodeCompositeExample(
+
+modifier: Modifier = Modifier,
+
+content: String?,
+
+state: QrCodeState = QrCodeState.Enabled,
+
+link: String,
+
+) {
+
+Card(modifier) {
+
+Column(
+
+horizontalAlignment = Alignment.CenterHorizontally,
+
+modifier = Modifier.wrapContentSize(),
+
+) {
+
+QrCode(
+
+modifier = Modifier.size(220.dp),
+
+content = content,
+
+state = state,
+
+)
+
+Spacer(modifier = Modifier.height(Size8))
+
+Box(
+
+modifier
+
+.background(
+
+color = NeptuneTheme.color.background.screen,
+
+RoundedCornerShape(NeptuneTheme.shape.radius.buttonsAndControls),
+
+)
+
+.padding(
+
+vertical = Size8,
+
+horizontal = Size24,
+
+),
+
+) {
+
+Text(link, TextAppearance.DefaultLink)
+
+}
+
+}
+
+}
+
+}
+
+@AutoViewItem @Composable internal fun QrCodeCompositeExample( modifier: Modifier = Modifier, content: String?, state: QrCodeState = QrCodeState.Enabled, link: String, ) { Card(modifier) { Column( horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.wrapContentSize(), ) { QrCode( modifier = Modifier.size(220.dp), content = content, state = state, ) Spacer(modifier = Modifier.height(Size8)) Box( modifier .background( color = NeptuneTheme.color.background.screen, RoundedCornerShape(NeptuneTheme.shape.radius.buttonsAndControls), ) .padding( vertical = Size8, horizontal = Size24, ), ) { Text(link, TextAppearance.DefaultLink) } } } }
+
+@AutoViewItem
+@Composable
+internal fun QrCodeCompositeExample(
+    modifier: Modifier = Modifier,
+    content: String?,
+    state: QrCodeState = QrCodeState.Enabled,
+    link: String,
+) {
+    Card(modifier) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            modifier = Modifier.wrapContentSize(),
+        ) {
+            QrCode(
+                modifier = Modifier.size(220.dp),
+                content = content,
+                state = state,
+            )
+            Spacer(modifier = Modifier.height(Size8))
+            Box(
+                modifier
+                    .background(
+                        color = NeptuneTheme.color.background.screen,
+                        RoundedCornerShape(NeptuneTheme.shape.radius.buttonsAndControls),
+                    )
+                    .padding(
+                        vertical = Size8,
+                        horizontal = Size24,
+                    ),
+            ) {
+                Text(link, TextAppearance.DefaultLink)
+            }
+        }
+    }
+}
+
+For simplicity, we’re only showing one composable used to generate**ViewItems**. What’s important to highlight here is the`@AutoViewItem`annotation, which is responsible for**automatically generating the UI models**.
+
+In addition, we have other Composables that are not shown in this example which aren’t used to generate**ViewItems**. These include some of our custom building blocks, such as`CustomizableAppBarScaffold`—a custom AppBar solution used at**Wise**to ensure consistent screen layouts—and`Text`, which is a custom wrapper for text resources resolution that is used throughout the app.
+
+###### Implementation (using KSP)
+
+First, let’s start with a brief introduction to Kotlin Symbol Processing (KSP). KSP enhances annotation processing by analyzing Kotlin code directly, unlike KAPT, which compiles Kotlin code into Java stubs before processing. Since stub generation is expensive and significantly impacts build speed, KSP offers faster build times and more efficient processing. This makes KSP a modern and powerful replacement for KAPT in Kotlin-based projects. You can learn more about KSP[here](https://kotlinlang.org/docs/ksp-overview.html).
+
+Traditionally, annotation processors were primarily used by third-party libraries due to their complexity and impact on compilation times. However, KSP**offers a simpler learning curve, making it a practical tool for everyday Android development**. So instead of building a generic library for auto-generating ViewModels — which can be complex and difficult to maintain — we’ve implemented a custom solution tailored to our project’s needs. Generic libraries that attempt to cover all possible use cases often become unwieldy and challenging to maintain.
+
+Our custom plugin enables us to annotate UI component Composables with the`@AutoViewItem`annotation, streamlining the generation of ViewItems**without over-engineering a highly configurable**, hard-to-maintain library.
+
+When a Composable is annotated with`@AutoViewItem`, the plugin automatically generates the required data class and data binding code.
+
+###### Example
+
+To begin, we annotate a composable function, as shown in the example below:
+
+@AutoViewItem(SpacingRoleType.Default)
+
+@Composable
+
+internal fun QrCodeCompositeExample(
+
+modifier: Modifier = Modifier,
+
+content: String?,
+
+state: QrCodeState = QrCodeState.Enabled,
+
+link: String,
+
+) {
+
+// ...
+
+}
+
+@AutoViewItem(SpacingRoleType.Default) @Composable internal fun QrCodeCompositeExample( modifier: Modifier = Modifier, content: String?, state: QrCodeState = QrCodeState.Enabled, link: String, ) { // ... }
+
+@AutoViewItem(SpacingRoleType.Default)
+@Composable
+internal fun QrCodeCompositeExample(
+    modifier: Modifier = Modifier,
+    content: String?,
+    state: QrCodeState = QrCodeState.Enabled,
+    link: String,
+) {
+  // ...
+}
+
+Our KSP processor processes this annotation and generates the following code:
+
+// Generated code
+
+public data class QrCodeCompositeExampleViewItem(
+
+public val content: Text?,
+
+public val state: QrCodeState = QrCodeState.Enabled,
+
+public val link: Text,
+
+) : ViewItem {
+
+public override val spacingRole: SpacingRole
+
+get() = SpacingRole.Default
+
+@Composable
+
+public override fun Render(modifier: Modifier): Unit {
+
+QrCodeCompositeExample(modifier = modifier, content = content?.resolve(), state = state, link =
+
+link.resolve())
+
+}
+
+}
+
+// Generated code public data class QrCodeCompositeExampleViewItem( public val content: Text?, public val state: QrCodeState = QrCodeState.Enabled, public val link: Text, ) : ViewItem { public override val spacingRole: SpacingRole get() = SpacingRole.Default @Composable public override fun Render(modifier: Modifier): Unit { QrCodeCompositeExample(modifier = modifier, content = content?.resolve(), state = state, link = link.resolve()) } }
+
+// Generated code
+public data class QrCodeCompositeExampleViewItem(
+  public val content: Text?,
+  public val state: QrCodeState = QrCodeState.Enabled,
+  public val link: Text,
+) : ViewItem {
+  public override val spacingRole: SpacingRole
+    get() = SpacingRole.Default
+@Composable
+  public override fun Render(modifier: Modifier): Unit {
+    QrCodeCompositeExample(modifier = modifier, content = content?.resolve(), state = state, link =
+        link.resolve())
+  }
+}
+
+**Note:** Not all types will align with those of the original composable. For example, we’re replacing`String`with our custom type`Text`, this is done to avoid the need for resolving string resources when instantiating ViewItems in the ViewModel.
+
+###### Custom Types in Our Implementation
+
+Our implementation relies heavily on our project’s existing codebase. To provide clarity, here’s an overview of the key custom types we use:
+
+- **Text** **Type:**This custom`Text`class wraps text resource references, enabling the use of both plain strings and string resource references. This approach eliminates the need to resolve string resources within the ViewModel.
+- **ImageSource** **Type**: Similar to`Text`, the`ImageSource`class handles images by referencing resource IDs, URIs, or bitmaps, ensuring that image resources don’t need to be resolved in the ViewModel.
+- **ViewItem** **Interface**: The`ViewItem`interface guarantees that each presentation model includes a`Render`function and a`SpacingRole`, ensuring consistency across all components.
+- **SpacingRole** **Type**: This property manages spacing behavior between items, dynamically adjusting it based on the items above and bellow.
+
+Below is a simplified version of these custom types:
+
+sealed class Text {
+
+data class StringRes private constructor(
+
+@androidx.annotation.StringRes val resId: Int,
+
+val args: List<Text>
+
+) : Text()
+
+data class Raw(val text: String) : Text()
+
+}
+
+sealed class ImageSource {
+
+data class Uri(val uri: String, val headers: Map<String, String> = emptyMap()) : ImageSource()
+
+data class Image(val asset: ImageBitmap) : ImageSource()
+
+data class Resource(val id: Int) : ImageSource()
+
+}
+
+interface ViewItem {
+
+@Composable
+
+fun Render(
+
+modifier: Modifier,
+
+)
+
+@Composable
+
+fun Render() {
+
+Render(Modifier)
+
+}
+
+val spacingRole: SpacingRole
+
+}
+
+enum class SpacingRole(
+
+internal val vertical: VerticalSpacingRole,
+
+internal val horizontal: HorizontalSpacingRole,
+
+) {
+
+Text(VerticalSpacingRole.Text, HorizontalSpacingRole.Default),
+
+Image(VerticalSpacingRole.Image, HorizontalSpacingRole.Default),
+
+Option(VerticalSpacingRole.Option, HorizontalSpacingRole.Default),
+
+Button(VerticalSpacingRole.Button, HorizontalSpacingRole.Default),
+
+Section(VerticalSpacingRole.Section, HorizontalSpacingRole.Default),
+
+Default(VerticalSpacingRole.Default, HorizontalSpacingRole.Default),
+
+Card(VerticalSpacingRole.Default, HorizontalSpacingRole.Card),
+
+Chip(VerticalSpacingRole.Default, HorizontalSpacingRole.Chip),
+
+None(VerticalSpacingRole.None, HorizontalSpacingRole.None),
+
+}
+
+sealed class Text { data class StringRes private constructor( @androidx.annotation.StringRes val resId: Int, val args: List<Text> ) : Text() data class Raw(val text: String) : Text() } sealed class ImageSource { data class Uri(val uri: String, val headers: Map<String, String> = emptyMap()) : ImageSource() data class Image(val asset: ImageBitmap) : ImageSource() data class Resource(val id: Int) : ImageSource() } interface ViewItem { @Composable fun Render( modifier: Modifier, ) @Composable fun Render() { Render(Modifier) } val spacingRole: SpacingRole } enum class SpacingRole( internal val vertical: VerticalSpacingRole, internal val horizontal: HorizontalSpacingRole, ) { Text(VerticalSpacingRole.Text, HorizontalSpacingRole.Default), Image(VerticalSpacingRole.Image, HorizontalSpacingRole.Default), Option(VerticalSpacingRole.Option, HorizontalSpacingRole.Default), Button(VerticalSpacingRole.Button, HorizontalSpacingRole.Default), Section(VerticalSpacingRole.Section, HorizontalSpacingRole.Default), Default(VerticalSpacingRole.Default, HorizontalSpacingRole.Default), Card(VerticalSpacingRole.Default, HorizontalSpacingRole.Card), Chip(VerticalSpacingRole.Default, HorizontalSpacingRole.Chip), None(VerticalSpacingRole.None, HorizontalSpacingRole.None), }
+
+sealed class Text {
+    data class StringRes private constructor(
+        @androidx.annotation.StringRes val resId: Int,
+        val args: List<Text>
+    ) : Text()
+    data class Raw(val text: String) : Text()
+}
+sealed class ImageSource {
+    data class Uri(val uri: String, val headers: Map<String, String> = emptyMap()) : ImageSource()
+    data class Image(val asset: ImageBitmap) : ImageSource()
+    data class Resource(val id: Int) : ImageSource()
+}
+interface ViewItem {
+    @Composable
+    fun Render(
+        modifier: Modifier,
+    )
+    @Composable
+    fun Render() {
+        Render(Modifier)
+    }
+    val spacingRole: SpacingRole
+}
+enum class SpacingRole(
+    internal val vertical: VerticalSpacingRole,
+    internal val horizontal: HorizontalSpacingRole,
+) {
+    Text(VerticalSpacingRole.Text, HorizontalSpacingRole.Default),
+    Image(VerticalSpacingRole.Image, HorizontalSpacingRole.Default),
+    Option(VerticalSpacingRole.Option, HorizontalSpacingRole.Default),
+    Button(VerticalSpacingRole.Button, HorizontalSpacingRole.Default),
+    Section(VerticalSpacingRole.Section, HorizontalSpacingRole.Default),
+    Default(VerticalSpacingRole.Default, HorizontalSpacingRole.Default),
+    Card(VerticalSpacingRole.Default, HorizontalSpacingRole.Card),
+    Chip(VerticalSpacingRole.Default, HorizontalSpacingRole.Chip),
+    None(VerticalSpacingRole.None, HorizontalSpacingRole.None),
+}
+
+###### **Additional Notes**
+
+The`Render`function includes an optional`Modifier`, making it easy to adjust the layout and placement of`ViewItems`within a screen.
+
+###### LazyList Use Case
+
+In addition to the auto-generated`ViewItems`based on the`ViewItem`interface, we introduce another interface called`KeyedListViewItem`. This interface extends`ViewItem`by adding a**key (identifier)**, which is a requirement for rendering items dynamically in lists like`LazyColumn`. This approach allows us to automatically render these view items in lazy lists and even mix different`ViewItem`objects to dynamically compose a screen.
+
+So for each`@AutoViewItem`annotation,**two models**are generated: one implementing the`ViewItem`interface and another implementing the`KeyedListViewItem` interface. In addition to the previously generated code, the following is also generated:
+
+// Generated code
+
+public data class QrCodeCompositeExampleListViewItem(
+
+public override val key: Any,
+
+public val content: Text?,
+
+public val state: QrCodeState = QrCodeState.Enabled,
+
+public val link: Text,
+
+) : ViewItem, KeyedListViewItem {
+
+public override val spacingRole: SpacingRole
+
+get() = SpacingRole.Default
+
+@Composable
+
+public override fun Render(modifier: Modifier): Unit {
+
+QrCodeCompositeExample(modifier = modifier, content = content?.resolve(), state = state, link =
+
+link.resolve())
+
+}
+
+@Composable
+
+public override fun Render(): Unit {
+
+Render(Modifier)
+
+}
+
+}
+
+// Generated code public data class QrCodeCompositeExampleListViewItem( public override val key: Any, public val content: Text?, public val state: QrCodeState = QrCodeState.Enabled, public val link: Text, ) : ViewItem, KeyedListViewItem { public override val spacingRole: SpacingRole get() = SpacingRole.Default @Composable public override fun Render(modifier: Modifier): Unit { QrCodeCompositeExample(modifier = modifier, content = content?.resolve(), state = state, link = link.resolve()) } @Composable public override fun Render(): Unit { Render(Modifier) } }
+
+// Generated code
+public data class QrCodeCompositeExampleListViewItem(
+  public override val key: Any,
+  public val content: Text?,
+  public val state: QrCodeState = QrCodeState.Enabled,
+  public val link: Text,
+) : ViewItem, KeyedListViewItem {
+  public override val spacingRole: SpacingRole
+    get() = SpacingRole.Default
+@Composable
+  public override fun Render(modifier: Modifier): Unit {
+    QrCodeCompositeExample(modifier = modifier, content = content?.resolve(), state = state, link =
+        link.resolve())
+  }
+  @Composable
+  public override fun Render(): Unit {
+    Render(Modifier)
+  }
+}
+
+We can then reference a list of`KeyedListViewItem`in a`LazyColumn`, where the items will be rendered automatically. Additionally, different spacing will be applied for different`ViewItem`types using our`SpacingRole`logic:
+
+val viewModel: UserViewModel by viewModels()
+
+LazyColumn {
+
+renderItemsColumn(viewModel.state.items)
+
+}
+
+val viewModel: UserViewModel by viewModels() LazyColumn { renderItemsColumn(viewModel.state.items) }
+
+val viewModel: UserViewModel by viewModels()
+LazyColumn {
+    renderItemsColumn(viewModel.state.items)
+}
+
+We use a custom function here,`renderItemsColumn`, which is an extension function that contains logic to extract the key from`KeyedListViewItem`and apply the appropriate spacing based on the`SpacingRole`. A heuristic is then used to calculate spacing between two`SpacingRole`s.
+
+Below is a simplified version of our custom implementation for this functionality:
+
+interface KeyedListViewItem {
+
+val key: Any
+
+@Composable
+
+fun Render()
+
+val spacingRole: SpacingRole
+
+}
+
+fun LazyListScope.renderItemsColumn(
+
+items: List<KeyedListViewItem>,
+
+) {
+
+val previousItem = if (index > 0) items[index - 1] else null
+
+val item = items[index]
+
+val spacing = calculateSpacing(
+
+previousItem = previousItem,
+
+item = item,
+
+)
+
+Box(
+
+modifier = Modifier.padding(spacing)
+
+) {
+
+item.Render()
+
+}
+
+}
+
+interface KeyedListViewItem { val key: Any @Composable fun Render() val spacingRole: SpacingRole } fun LazyListScope.renderItemsColumn( items: List<KeyedListViewItem>, ) { val previousItem = if (index > 0) items[index - 1] else null val item = items[index] val spacing = calculateSpacing( previousItem = previousItem, item = item, ) Box( modifier = Modifier.padding(spacing) ) { item.Render() } }
+
+interface KeyedListViewItem {
+  val key: Any
+    @Composable
+    fun Render()
+    val spacingRole: SpacingRole
+}
+
+fun LazyListScope.renderItemsColumn(
+    items: List<KeyedListViewItem>,
+) {
+  val previousItem = if (index > 0) items[index - 1] else null
+  val item = items[index]
+
+  val spacing = calculateSpacing(
+      previousItem = previousItem,
+      item = item,
+  )
+
+  Box(
+      modifier = Modifier.padding(spacing)
+  ) {
+      item.Render()
+  }
+}
+
+###### Building the KSP Plugin
+
+While much has already been written about creating KSP plugins, this section provides an overview of our specific implementation. Our setup is organized into two main modules:
+
+- **view-item-generator-annotation**: Defines the`AutoViewItem`annotation.
+- **view-item-generator-processor**: Manages the processing and code generation tasks.
+
+###### Annotation Module
+
+The annotation module includes the definition of the`AutoViewItem`annotation class:
+
+package com.wise.viewitemgenerator.annotation
+
+@Target(AnnotationTarget.FUNCTION)
+
+@Retention(AnnotationRetention.SOURCE)
+
+annotation class AutoViewItem(
+
+val spacingRole: SpacingRoleType = SpacingRoleType.Default,
+
+val viewItemCustomName: String = "",
+
+)
+
+enum class SpacingRoleType { Text, Image, DisplayText, Option, Button, Section, Default, Card, Chip, None, }
+
+fun spacingRoleTypeFrom(value: String?): SpacingRoleType? {
+
+return value?.let { SpacingRoleType.valueOf(value) }
+
+}
+
+package com.wise.viewitemgenerator.annotation @Target(AnnotationTarget.FUNCTION) @Retention(AnnotationRetention.SOURCE) annotation class AutoViewItem( val spacingRole: SpacingRoleType = SpacingRoleType.Default, val viewItemCustomName: String = "", ) enum class SpacingRoleType { Text, Image, DisplayText, Option, Button, Section, Default, Card, Chip, None, } fun spacingRoleTypeFrom(value: String?): SpacingRoleType? { return value?.let { SpacingRoleType.valueOf(value) } }
+
+package com.wise.viewitemgenerator.annotation
+
+@Target(AnnotationTarget.FUNCTION)
+@Retention(AnnotationRetention.SOURCE)
+annotation class AutoViewItem(
+    val spacingRole: SpacingRoleType = SpacingRoleType.Default,
+    val viewItemCustomName: String = "",
+)
+
+enum class SpacingRoleType { Text, Image, DisplayText, Option, Button, Section, Default, Card, Chip, None, }
+
+fun spacingRoleTypeFrom(value: String?): SpacingRoleType? {
+    return value?.let { SpacingRoleType.valueOf(value) }
+}
+
+###### Processor Module
+
+![](https://miro.medium.com/v2/resize:fit:1136/format:webp/1*F6K-0S5xpBwDSS7vdsoFlA.png)
+
+The Processor Module handles the core logic for processing and generating code. It is organized into four main sub-packages:
+
+- **Base:**Contains the main processor classes as well a utility class with external type definitions we are using.
+- **Models:**Defines the data models used for generating code, which are generated by the node visitors (`KSDefaultVisitor`).
+- **Input:**Includes node visitors (`KSDefaultVisitor`) responsible for parsing Composables annotated with`@AutoViewItem`and them generating`ViewItem`and`ViewItemProp`models for code generation.
+- **Output:**Utilizes KotlinPoet to generate the ViewItems actual code.
+
+**AutoViewItemFunctionVisitor**
+
+This class is responsible for parsing Composable functions annotated with`@AutoViewItem`and delegating property processing to`FunctionPropsVisitor`. It also performs basic validation checks.
+
+internal class AutoViewItemFunctionVisitor(
+
+private val resolver: Resolver,
+
+private val logger: KSPLogger,
+
+) : KSDefaultVisitor<Unit, ViewItem?>() {
+
+// ...
+
+}
+
+internal class AutoViewItemFunctionVisitor( private val resolver: Resolver, private val logger: KSPLogger, ) : KSDefaultVisitor<Unit, ViewItem?>() { // ... }
+
+internal class AutoViewItemFunctionVisitor(
+    private val resolver: Resolver,
+    private val logger: KSPLogger,
+) : KSDefaultVisitor<Unit, ViewItem?>() {
+    // ...
+}
+
+Full implementation [Here.](https://gist.github.com/juaw-transferwise/e452cf9548b2ad19b07e7243000cd682?file=AutoViewItemFunctionVisitor.kt)
+
+**FunctionPropsVisitor**
+
+The`FunctionPropsVisitor`class processes each property of a Composable function, handling validation and data extraction.
+
+**Note:**KSP currently does not provide detailed information on default argument values beyond`KSValueParameter.hasDefault`. Consequently, we have to manually extract and store default values as raw strings for use during code generation. This limitation is documented in[Issue #268 on the KSP GitHub page](https://github.com/google/ksp/issues/268).
+
+internal class FunctionPropsVisitor(
+
+private val resolver: Resolver,
+
+private val logger: KSPLogger,
+
+) : KSDefaultVisitor<MutableList<ViewItemExcludedProp>, ViewItemProp?>() {
+
+// ...
+
+}
+
+internal class FunctionPropsVisitor( private val resolver: Resolver, private val logger: KSPLogger, ) : KSDefaultVisitor<MutableList<ViewItemExcludedProp>, ViewItemProp?>() { // ... }
+
+internal class FunctionPropsVisitor(
+    private val resolver: Resolver,
+    private val logger: KSPLogger,
+) : KSDefaultVisitor<MutableList<ViewItemExcludedProp>, ViewItemProp?>() {
+   // ... 
+}
+
+Full implementation [Here](https://gist.github.com/juaw-transferwise/e452cf9548b2ad19b07e7243000cd682?file=FunctionPropsVisitor.kt)
+
+**Models**
+
+The models store parsed data in a format suitable for code generation.
+
+package com.wise.viewitemgenerator.models
+
+import com.google.devtools.ksp.symbol.KSFile
+
+import com.wise.viewitemgenerator.annotation.SpacingRoleType
+
+internal data class ContainingFile(
+
+val file: KSFile,
+
+val packageName: String,
+
+val fileName: String,
+
+)
+
+internal data class ViewItem(
+
+val name: String,
+
+val composableName: String,
+
+val containingFile: ContainingFile,
+
+val spacingRole: SpacingRoleType?,
+
+val props: List<ViewItemProp>,
+
+)
+
+package com.wise.viewitemgenerator.models import com.google.devtools.ksp.symbol.KSFile import com.wise.viewitemgenerator.annotation.SpacingRoleType internal data class ContainingFile( val file: KSFile, val packageName: String, val fileName: String, ) internal data class ViewItem( val name: String, val composableName: String, val containingFile: ContainingFile, val spacingRole: SpacingRoleType?, val props: List<ViewItemProp>, )
+
+package com.wise.viewitemgenerator.models
+
+import com.google.devtools.ksp.symbol.KSFile
+import com.wise.viewitemgenerator.annotation.SpacingRoleType
+
+internal data class ContainingFile(
+    val file: KSFile,
+    val packageName: String,
+    val fileName: String,
+)
+
+internal data class ViewItem(
+    val name: String,
+    val composableName: String,
+    val containingFile: ContainingFile,
+    val spacingRole: SpacingRoleType?,
+    val props: List<ViewItemProp>,
+)
+
+package com.wise.viewitemgenerator.models
+
+import com.google.devtools.ksp.symbol.KSTypeReference
+
+@JvmInline
+
+internal value class PropType(val value: KSTypeReference)
+
+internal data class ViewItemProp(
+
+val name: String,
+
+val domainType: DomainType,
+
+val type: PropType,
+
+val defaultValue: String?,
+
+)
+
+enum class DomainType {
+
+COLOR, STRING, DIMENSION, REGULAR
+
+}
+
+sealed class ViewItemExcludedProp {
+
+data object Modifier : ViewItemExcludedProp()
+
+}
+
+package com.wise.viewitemgenerator.models import com.google.devtools.ksp.symbol.KSTypeReference @JvmInline internal value class PropType(val value: KSTypeReference) internal data class ViewItemProp( val name: String, val domainType: DomainType, val type: PropType, val defaultValue: String?, ) enum class DomainType { COLOR, STRING, DIMENSION, REGULAR } sealed class ViewItemExcludedProp { data object Modifier : ViewItemExcludedProp() }
+
+package com.wise.viewitemgenerator.models
+
+import com.google.devtools.ksp.symbol.KSTypeReference
+
+@JvmInline
+internal value class PropType(val value: KSTypeReference)
+
+internal data class ViewItemProp(
+    val name: String,
+    val domainType: DomainType,
+    val type: PropType,
+    val defaultValue: String?,
+)
+
+enum class DomainType {
+    COLOR, STRING, DIMENSION, REGULAR
+}
+
+sealed class ViewItemExcludedProp {
+    data object Modifier : ViewItemExcludedProp()
+}
+
+**ViewItemFileSpecBuilder**
+
+This builder uses**KotlinPoet**to generate the`ViewItem` code, incorporating custom logic to meet specific requirements.
+
+internal object ViewItemFileSpecBuilder {
+
+operator fun invoke(viewItems: Sequence<ViewItem>): Iterable<FileSpec> {
+
+// ...
+
+}
+
+}
+
+internal object ViewItemFileSpecBuilder { operator fun invoke(viewItems: Sequence<ViewItem>): Iterable<FileSpec> { // ... } }
+
+internal object ViewItemFileSpecBuilder {
+
+    operator fun invoke(viewItems: Sequence<ViewItem>): Iterable<FileSpec> {
+        // ...
+    }
+    
+}
+
+Full implementation[Here](https://gist.github.com/juaw-transferwise/e452cf9548b2ad19b07e7243000cd682?file=ViewItemFileSpecBuilder.kt)
+
+**ViewItemGeneratorProcessor**
+
+The`ViewItemGeneratorProcessor`and`ViewItemGeneratorProcessorProvider`orchestrate the processing and code generation logic.
+
+class ViewItemGeneratorProcessor(
+
+private val codeGenerator: CodeGenerator,
+
+private val logger: KSPLogger,
+
+) : SymbolProcessor {
+
+// ...
+
+}
+
+class ViewItemGeneratorProcessorProvider : SymbolProcessorProvider {
+
+//...
+
+}
+
+class ViewItemGeneratorProcessor( private val codeGenerator: CodeGenerator, private val logger: KSPLogger, ) : SymbolProcessor { // ... } class ViewItemGeneratorProcessorProvider : SymbolProcessorProvider { //... }
+
+class ViewItemGeneratorProcessor(
+    private val codeGenerator: CodeGenerator,
+    private val logger: KSPLogger,
+) : SymbolProcessor {
+  // ... 
+}
+class ViewItemGeneratorProcessorProvider : SymbolProcessorProvider {
+  //...
+}
+
+Full Implementations: [ViewItemGeneratorProcessor](https://gist.github.com/juaw-transferwise/e452cf9548b2ad19b07e7243000cd682?file=ViewItemGeneratorProcessor.kt),[ViewItemGeneratorProcessorProvider](https://gist.github.com/juaw-transferwise/e452cf9548b2ad19b07e7243000cd682?file=ViewItemGeneratorProcessorProvider.kt)
+
+###### Design System Integration and Conclusion
+
+Auto-generating UI presentation models can offer significant benefits to any project, and these**advantages are amplified when integrated with a comprehensive design system** featuring multiple UI components, such as the one used at Wise. Our primary goal was to design UI presentation models that reflect the structure of our UI components and their render functions. This approach eliminates the need for manual binding of view items and enables the creation of dynamic lists of view items without adding extra logic to the views.
+
+While maintaining these presentation models manually was manageable at first, the approach**became increasingly time-consuming as the project grew**. Any changes to UI components required corresponding updates to the models, increasing the risk of bugs and API inconsistencies. Additionally, this approach was not always followed consistently in every screen when using custom or composite components, leading to cases where logic ended up in the view layer. By adopting Kotlin Symbol Processing (KSP), we automated and brought consistency to our screens, resulting in a more efficient and maintainable codebase.
+
+That said, there are trade-offs. Relying on auto-generated code increases build times and can make the codebase harder to navigate, as it’s not as straightforward to trace functionality by “jumping” to a specific function. This can contribute to a feeling of reduced robustness. However, the benefits — such as improved consistency, reduced manual coding, and better test coverage by centralizing logic in the ViewModel — make this approach worthwhile so far.
+
+It’s important to note that this is an ongoing project, and we‘re’ actively working on improvements. For instance, functionally, one key focus improving the handling of default arguments. In the current implementation, default arguments are parsed as simple strings, lacking the processing to handle multiline arguments, extra imports among other complexities. We also have tests to cover a wide range of Composable configurations — thought that could be an article in itself.
+
+**License:**All code samples in this article are licensed under the[Apache License, Version 2.0](https://apache.org/licenses/LICENSE-2.0).
+
+**P.S.**Interested in working with us? We’re hiring![Check out our open Engineering roles here](https://wise.jobs/engineering). --><p>This article is previously published on <a href="https://proandroiddev.com/automating-ui-model-generation-with-ksp-4b1d9d1f5c95" target="_blank" rel="noopener noreferrer">proandroiddev.com.</a></p><!-- TODO: add ARTICLE CARD --><a class="vp-card" href="https://chanhi2000.github.io/bookshelf/droidcon.com/automating-ui-model-generation-with-ksp.html" target="_blank" style="background:rgba(4,20,221,0.2);"><img class="vp-card-logo" src="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png" loading="lazy" no-view><div class="vp-card-content"><div class="vp-card-title">Automating UI Model Generation With KSP</div><hr><div class="vp-card-desc">In this article, we’ll explore how to generate UI presentation models directly from Composable function definitions using KSP. This approach helps us structure and model data within the presentation layer (ViewModel) in a way that naturally aligns with UI components, leading to reduced maintenance overhead.</div></div></a></div><!----><!----><!----></div><footer class="vp-page-meta"><div class="vp-meta-item edit-link"><a class="auto-link external-link vp-meta-label" href="https://github.com/chanhi2000/bookshelf/edit/main/src/droidcon.com/automating-ui-model-generation-with-ksp.md" aria-label="Edit this page on GitHub" rel="noopener noreferrer" target="_blank"><!--[--><svg xmlns="http://www.w3.org/2000/svg" class="icon edit-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="edit icon" name="edit"><path d="M430.818 653.65a60.46 60.46 0 0 1-50.96-93.281l71.69-114.012 7.773-10.365L816.038 80.138A60.46 60.46 0 0 1 859.225 62a60.46 60.46 0 0 1 43.186 18.138l43.186 43.186a60.46 60.46 0 0 1 0 86.373L588.879 565.55l-8.637 8.637-117.466 68.234a60.46 60.46 0 0 1-31.958 11.229z"></path><path d="M728.802 962H252.891A190.883 190.883 0 0 1 62.008 771.98V296.934a190.883 190.883 0 0 1 190.883-192.61h267.754a60.46 60.46 0 0 1 0 120.92H252.891a69.962 69.962 0 0 0-69.098 69.099V771.98a69.962 69.962 0 0 0 69.098 69.098h475.911A69.962 69.962 0 0 0 797.9 771.98V503.363a60.46 60.46 0 1 1 120.922 0V771.98A190.883 190.883 0 0 1 728.802 962z"></path></svg><!--]-->Edit this page on GitHub<!----></a></div><div class="vp-meta-item git-info"><!----><!----></div></footer><nav class="vp-page-nav"><a class="route-link auto-link prev" href="/bookshelf/programming/java-android/articles/" aria-label="/programming/java-android/articles/"><div class="hint"><span class="arrow start"></span>Prev</div><div class="link"><!---->/programming/java-android/articles/</div></a><!----></nav><!----><!----><!--]--></main><!--]--><footer class="vp-footer-wrapper" vp-footer><div class="vp-footer">MIT Licensed | Copyright © 2022-present <a href="https://github.com/chanhi2000">Chan Hee Lee</a></div><div class="vp-copyright">Copyright © 2026 João Cevada </div></footer></div><!--]--><!--[--><!----><!--[--><!--]--><!--[--><!--]--><!--]--><!--]--></div>
+    <script type="module" src="/bookshelf/assets/app-BItykJLQ.js" defer></script>
+  </body>
+</html>

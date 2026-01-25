@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en-US" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.99" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme="dark"] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Cancellation in Kotlin Coroutines","image":["https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg"],"datePublished":"2024-03-11T00:00:00.000Z","dateModified":null,"author":[{"@type":"Person","name":"Marcin Moskała","url":"https://kt.academy/user/marcinmoskala"}]}</script><meta property="og:url" content="https://chanhi2000.github.io/bookshelf/kt.academy/cc-cancellation.html"><meta property="og:site_name" content="📚Bookshelf"><meta property="og:title" content="Cancellation in Kotlin Coroutines"><meta property="og:description" content="Article(s) > Cancellation in Kotlin Coroutines"><meta property="og:type" content="article"><meta property="og:image" content="https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg"><meta property="og:locale" content="en-US"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image:src" content="https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg"><meta name="twitter:image:alt" content="Cancellation in Kotlin Coroutines"><meta property="article:author" content="Marcin Moskała"><meta property="article:tag" content="coroutines"><meta property="article:tag" content="kotlin"><meta property="article:tag" content="java"><meta property="article:tag" content="kt.academy"><meta property="article:tag" content="blog"><meta property="article:published_time" content="2024-03-11T00:00:00.000Z"><link rel="icon" href="/bookshelf/assets/icon/favicon.svg"><title>Cancellation in Kotlin Coroutines | 📚Bookshelf</title><meta name="description" content="Article(s) > Cancellation in Kotlin Coroutines">
+    <link rel="preload" href="/bookshelf/assets/style-Bhb-QcDa.css" as="style"><link rel="stylesheet" href="/bookshelf/assets/style-Bhb-QcDa.css">
+    
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">Skip to main content</a><!--]--><div class="theme-container external-link-icon has-toc" vp-container><!--[--><header id="navbar" class="vp-navbar" vp-navbar><div class="vp-navbar-start"><button type="button" class="vp-toggle-sidebar-button" title="Toggle Sidebar"><span class="icon"></span></button><!--[--><a class="route-link vp-brand" href="/bookshelf/" aria-label="Take me home"><img class="vp-nav-logo" src="/bookshelf/assets/icon/favicon.svg" alt><!----><span class="vp-site-name hide-in-pad">📚Bookshelf</span></a><!--]--></div><div class="vp-navbar-center"><!--[--><nav class="vp-nav-links"><div class="vp-nav-item hide-in-mobile"><a class="route-link auto-link" href="/bookshelf/news.html" aria-label><!--[--><i class="vp-icon fas fa-rss" sizing="height"></i><!--]--><!----></a></div><div class="vp-nav-item hide-in-mobile"><div class="vp-dropdown-wrapper"><button type="button" class="vp-dropdown-title" aria-label><!--[--><i class="vp-icon fas fa-keyboard" sizing="height"></i><!--]--><span class="arrow"></span><ul class="vp-dropdown"><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/hackingwithswift.com/" aria-label="hackingwithswift.com"><!--[--><img class="vp-icon" src="https://hackingwithswift.com/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->hackingwithswift.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/fcc/" aria-label="freecodecamp.org"><!--[--><img class="vp-icon" src="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->freecodecamp.org<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/kodeco.com/" aria-label="kodeco.com"><!--[--><img class="vp-icon" src="https://kodeco.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->kodeco.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/blog.kotzilla.io/" aria-label="blog.kotzilla.io"><!--[--><img class="vp-icon" src="https://blog.kotzilla.io/hubfs/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->blog.kotzilla.io<!----></a></li><li class="vp-dropdown-item"><a class="route-link route-link-active auto-link" href="/bookshelf/kt.academy/" aria-label="kt.academy"><!--[--><img class="vp-icon" src="https://kt.academy/logo.png" alt aria-hidden no-view sizing="both"><!--]-->kt.academy<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/droidcon.com/" aria-label="droidcon.com"><!--[--><img class="vp-icon" src="https://droidcon.com/wp-content/uploads/2021/07/favicon-300x300.png" alt aria-hidden no-view sizing="both"><!--]-->droidcon.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/outcomeschool.com/" aria-label="outcomeschool.com"><!--[--><img class="vp-icon" src="https://outcomeschool.com/static/favicons/apple-touch-icon.png" alt aria-hidden no-view sizing="both"><!--]-->outcomeschool.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/frontendmasters.com/" aria-label="frontendmasters.com"><!--[--><img class="vp-icon" src="https://frontendmasters.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->frontendmasters.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/css-tricks.com/" aria-label="css-tricks.com"><!--[--><img class="vp-icon" src="https://css-tricks.com/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->css-tricks.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/smashingmagazine.com/" aria-label="smashingmagazine.com"><!--[--><img class="vp-icon" src="https://smashingmagazine.com/images/favicon/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->smashingmagazine.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/smashingmagazine.com/" aria-label="oddbird.net"><!--[--><img class="vp-icon" src="https://oddbird.net/safari-pinned-tab.svg" alt aria-hidden no-view sizing="both"><!--]-->oddbird.net<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/zeroheight.com/" aria-label="zeroheight.com"><!--[--><img class="vp-icon" src="https://zeroheight.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->zeroheight.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/typescript.tv/" aria-label="typescript.tv"><!--[--><img class="vp-icon" src="https://typescript.tv/_astro/android-chrome-192x192.BhQ8hcWh.png" alt aria-hidden no-view sizing="both"><!--]-->typescript.tv<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/blog.logrocket.com/" aria-label="blog.logrocket.com"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/blog.logrocket.com/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->blog.logrocket.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/realpython.com/" aria-label="realpython.com"><!--[--><img class="vp-icon" src="https://realpython.com/static/favicon.68cbf4197b0c.png" alt aria-hidden no-view sizing="both"><!--]-->realpython.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/digitalocean.com/" aria-label="digitalocean.com"><!--[--><img class="vp-icon" src="https://digitalocean.com/_next/static/media/favicon.594d6067.ico" alt aria-hidden no-view sizing="both"><!--]-->digitalocean.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/antonioleiva.com/" aria-label="antonioleiva.com"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/antonioleiva.com/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->antonioleiva.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/johnnyreilly.com/" aria-label="johnnyreilly.com"><!--[--><img class="vp-icon" src="https://johnnyreilly.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->johnnyreilly.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/code-maze.com/" aria-label="code-maze.com"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/code-maze.com/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->code-maze.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/milanjovanovic.tech/" aria-label="milanjovanovic.tech"><!--[--><img class="vp-icon" src="https://milanjovanovic.tech/profile_favicon.png" alt aria-hidden no-view sizing="both"><!--]-->milanjovanovic.tech<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/shopify.engineering/" aria-label="shopify.engineering"><!--[--><img class="vp-icon" src="https://cdn.shopify.com/static/shopify-favicon.png" alt aria-hidden no-view sizing="both"><!--]-->shopify.engineering<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/devtoolstips.org/" aria-label="devtoolstips.org"><!--[--><img class="vp-icon" src="https://devtoolstips.org/assets/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->devtoolstips.org<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/piccalil.li/" aria-label="piccalil.li"><!--[--><img class="vp-icon" src="https://piccalil.li/favicons/apple-touch-icon.png" alt aria-hidden no-view sizing="both"><!--]-->piccalil.li<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/sitepoint.com/" aria-label="sitepoint.com"><!--[--><img class="vp-icon" src="https://sitepoint.com/favicons/512x512.png" alt aria-hidden no-view sizing="both"><!--]-->sitepoint.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/event-driven.io/" aria-label="event-driven.io"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/event-driven.io/favicon.jfif" alt aria-hidden no-view sizing="both"><!--]-->event-driven.io<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/packagemain.tech/" aria-label="packagemain.tech"><!--[--><img class="vp-icon" src="https://substack-post-media.s3.amazonaws.com/public/images/2ea54e25-eaa6-4630-bfc0-10b8cfdce894/apple-touch-icon-1024x1024.png" alt aria-hidden no-view sizing="both"><!--]-->packagemain.tech<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/gosolve.io/" aria-label="gosolve.io"><!--[--><img class="vp-icon" src="https://gosolve.io/wp-content/uploads/2022/03/cropped-ikona1-192x192.png" alt aria-hidden no-view sizing="both"><!--]-->gosolve.io<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/bram.us/" aria-label="bram.us"><!--[--><img class="vp-icon" src="https://bram.us/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->bram.us<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/una.im/" aria-label="una.im"><!--[--><img class="vp-icon" src="https://una.im/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->una.im<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/joshwcomeau.com/" aria-label="joshwcomeau.com"><!--[--><img class="vp-icon" src="https://joshwcomeau.com/favicon.png" alt aria-hidden no-view sizing="both"><!--]-->joshwcomeau.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/css-tip.com/" aria-label="css-tip.com"><!--[--><img class="vp-icon" src="https://css-tip.com/img/fav.png" alt aria-hidden no-view sizing="both"><!--]-->css-tip.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/nerdy.dev/" aria-label="nerdy.dev"><!--[--><img class="vp-icon" src="https://nerdy.dev/favicon.svg" alt aria-hidden no-view sizing="both"><!--]-->nerdy.dev<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/towardsdatascience.com/" aria-label="towardsdatascience.com"><!--[--><img class="vp-icon" src="https://cdn-images-1.medium.com/v2/resize:fill:128:128/1*VzTUkfeGymHP4Bvav-T-lA.png" alt aria-hidden no-view sizing="both"><!--]-->towardsdatascience.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/douggregor.net/" aria-label="douggregor.net"><!--[--><i class="vp-icon fas fa-globe" sizing="both"></i><!--]-->douggregor.net<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/d2.naver.com/" aria-label="d2.naver.com"><!--[--><img class="vp-icon" src="/bookshelf/assets/image/d2.naver.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->d2.naver.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/tech.kakao.com/" aria-label="tech.kakao.com"><!--[--><img class="vp-icon" src="https://www.kakaocorp.com/page/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->tech.kakao.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/tech.kakaopay.com/" aria-label="tech.kakaopay.com"><!--[--><img class="vp-icon" src="https://tech.kakaopay.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->tech.kakaopay.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/fe-developers.kakaoent.com/" aria-label="fe-developers.kakaoent.com"><!--[--><img class="vp-icon" src="https://fe-developers.kakaoent.com/favicon-32x32.png?v=44803cb16c1e2debd3984cf2e8cb2ded" alt aria-hidden no-view sizing="both"><!--]-->fe-developers.kakaoent.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/yozm.wishket.com/" aria-label="yozm.wishket.com"><!--[--><img class="vp-icon" src="https://yozm.wishket.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->yozm.wishket.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/popit.kr/" aria-label="popit.kr"><!--[--><img class="vp-icon" src="https://popit.kr/wp-content/uploads/2016/08/favicon_32x32.png" alt aria-hidden no-view sizing="both"><!--]-->popit.kr<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/devkuma.com/" aria-label="devkuma.com"><!--[--><img class="vp-icon" src="https://devkuma.com/favicons/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->devkuma.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/blog.gangnamunni.com/" aria-label="blog.gangnamunni.com"><!--[--><img class="vp-icon" src="https://blog.gangnamunni.com/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->blog.gangnamunni.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/codingeverybody.kr/" aria-label="codingeverybody.kr"><!--[--><img class="vp-icon" src="https://codingeverybody.kr/wp-content/uploads/cropped-favicon-origin-192x192.png" alt aria-hidden no-view sizing="both"><!--]-->codingeverybody.kr<!----></a></li></ul></button></div></div><div class="vp-nav-item hide-in-mobile"><div class="vp-dropdown-wrapper"><button type="button" class="vp-dropdown-title" aria-label><!--[--><i class="vp-icon fas fa-network-wired" sizing="height"></i><!--]--><span class="arrow"></span><ul class="vp-dropdown"><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/tecmint.com/" aria-label="tecmint.com"><!--[--><img class="vp-icon" src="https://tecmint.com/wp-content/uploads/2020/07/favicon.ico" alt aria-hidden no-view sizing="both"><!--]-->tecmint.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/docker.com/" aria-label="docker.com"><!--[--><img class="vp-icon" src="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png" alt aria-hidden no-view sizing="both"><!--]-->docker.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/learnkube.com/" aria-label="learnkube.com"><!--[--><img class="vp-icon" src="https://static.learnkube.com/f7e5160d4744cf05c46161170b5c11c9.svg" alt aria-hidden no-view sizing="both"><!--]-->learnkube.com<!----></a></li><li class="vp-dropdown-item"><a class="route-link auto-link" href="/bookshelf/itsfoss.com/" aria-label="itsfoss.com"><!--[--><img class="vp-icon" src="https://itsfoss.com/content/images/size/w256h256/2022/12/android-chrome-192x192.png" alt aria-hidden no-view sizing="both"><!--]-->itsfoss.com<!----></a></li></ul></button></div></div></nav><!--]--></div><div class="vp-navbar-end"><!--[--><!----><div class="vp-nav-item vp-action"><a class="vp-action-link" href="https://github.com/chanhi2000/bookshelf" target="_blank" rel="noopener noreferrer" aria-label="Github"><svg xmlns="http://www.w3.org/2000/svg" class="icon github-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="github icon" name="github" style="width:1.25rem;height:1.25rem;vertical-align:middle;"><path d="M511.957 21.333C241.024 21.333 21.333 240.981 21.333 512c0 216.832 140.544 400.725 335.574 465.664 24.49 4.395 32.256-10.07 32.256-23.083 0-11.69.256-44.245 0-85.205-136.448 29.61-164.736-64.64-164.736-64.64-22.315-56.704-54.4-71.765-54.4-71.765-44.587-30.464 3.285-29.824 3.285-29.824 49.195 3.413 75.179 50.517 75.179 50.517 43.776 75.008 114.816 53.333 142.762 40.79 4.523-31.66 17.152-53.377 31.19-65.537-108.971-12.458-223.488-54.485-223.488-242.602 0-53.547 19.114-97.323 50.517-131.67-5.035-12.33-21.93-62.293 4.779-129.834 0 0 41.258-13.184 134.912 50.346a469.803 469.803 0 0 1 122.88-16.554c41.642.213 83.626 5.632 122.88 16.554 93.653-63.488 134.784-50.346 134.784-50.346 26.752 67.541 9.898 117.504 4.864 129.834 31.402 34.347 50.474 78.123 50.474 131.67 0 188.586-114.73 230.016-224.042 242.09 17.578 15.232 33.578 44.672 33.578 90.454v135.85c0 13.142 7.936 27.606 32.854 22.87C862.25 912.597 1002.667 728.747 1002.667 512c0-271.019-219.648-490.667-490.71-490.667z"></path></svg></a></div><div class="vp-nav-item hide-in-mobile"><!----></div><!----><!--]--><button type="button" class="vp-toggle-navbar-button" aria-label="Toggle Navbar" aria-expanded="false" aria-controls="nav-screen"><span><span class="vp-top"></span><span class="vp-middle"></span><span class="vp-bottom"></span></span></button></div></header><!----><!--]--><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar" vp-sidebar><!----><ul class="vp-sidebar-links"><li><section class="vp-sidebar-group"><button class="vp-sidebar-header clickable active" type="button"><img class="vp-icon" src="https://kt.academy/logo.png" alt aria-hidden no-view sizing="both"><span class="vp-sidebar-title">kt.academy</span><span class="vp-arrow down"></span></button><ul class="vp-sidebar-links"><li><section class="vp-sidebar-group"><button class="vp-sidebar-header clickable" type="button"><!----><span class="vp-sidebar-title">2025</span><span class="vp-arrow end"></span></button><!----></section></li><li><section class="vp-sidebar-group"><button class="vp-sidebar-header clickable active" type="button"><!----><span class="vp-sidebar-title">2024</span><span class="vp-arrow down"></span></button><ul class="vp-sidebar-links"><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/benchmark-reflection.html" aria-label="Is reflection slowing down your code?"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Is reflection slowing down your code?<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/blockhound.html" aria-label="Using BlockHound to track blocking calls in non-blocking dispatchers"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Using BlockHound to track blocking calls in non-blocking dispatchers<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/viewmodel-stateflow-sharedflow-channel.html" aria-label="Representing ViewModel events with StateFlow vs. SharedFlow vs. Channel"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Representing ViewModel events with StateFlow vs. SharedFlow vs. Channel<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/dispatcher-for-backend.html" aria-label="The best dispatcher for a backend framework"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->The best dispatcher for a backend framework<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/cc-why.html" aria-label="Why using Kotlin Coroutines?"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Why using Kotlin Coroutines?<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/ek-respect-contracts.html" aria-label="Item 31: Respect abstraction contracts"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Item 31: Respect abstraction contracts<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/ek-contracts-documentation.html" aria-label="Item 30: Define contracts with documentation"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Item 30: Define contracts with documentation<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/cc-dispatchers.html" aria-label="Kotlin Coroutines dispatchers"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Kotlin Coroutines dispatchers<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/sharedflow-vs-stateflow.html" aria-label="SharedFlow vs StateFlow"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->SharedFlow vs StateFlow<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/ek-api-stability.html" aria-label="Item 27: Specify API stability"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Item 27: Specify API stability<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/power-assert.html" aria-label="Power Assert now in Kotlin!"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Power Assert now in Kotlin!<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/union-types-into.html" aria-label="The problem of union types for type systems"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->The problem of union types for type systems<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/var-readonly-vs-val-mutable.html" aria-label="Mutable objects or properties?"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Mutable objects or properties?<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/network-client-threads.html" aria-label="How many threads your network client uses?"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->How many threads your network client uses?<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/ek-element-visibility.html" aria-label="Item 29: Minimize elements’ visibility"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Item 29: Minimize elements’ visibility<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/ek-wrapping-api.html" aria-label="Item 28: Consider wrapping external APIs"><!--[--><i class="vp-icon fa-brands fa-android" sizing="both"></i><!--]-->Item 28: Consider wrapping external APIs<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/pattern-for-composing-flows.html" aria-label="A Pattern for Composing Flow Operations"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->A Pattern for Composing Flow Operations<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/nonblocking-spring-mvc.html" aria-label="Why Non-Blocking?"><!--[--><i class="vp-icon iconfont icon-spring" sizing="both"></i><!--]-->Why Non-Blocking?<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/kfde-generics.html" aria-label="Generics in Kotlin"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Generics in Kotlin<!----></a></li><li><a class="route-link route-link-active auto-link vp-sidebar-link active" href="/bookshelf/kt.academy/cc-cancellation.html" aria-label="Cancellation in Kotlin Coroutines"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Cancellation in Kotlin Coroutines<!----></a></li><li><a class="route-link auto-link vp-sidebar-link" href="/bookshelf/kt.academy/ak-static-analysis.html" aria-label="Static Code Analysers"><!--[--><i class="vp-icon iconfont icon-kotlin" sizing="both"></i><!--]-->Static Code Analysers<!----></a></li></ul></section></li><li><section class="vp-sidebar-group"><button class="vp-sidebar-header clickable" type="button"><!----><span class="vp-sidebar-title">2023</span><span class="vp-arrow end"></span></button><!----></section></li></ul></section></li></ul><!----></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!----><div class="page-cover"><img src="https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg" alt no-view></div><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><i class="vp-icon iconfont icon-kotlin" sizing="height"></i>Cancellation in Kotlin Coroutines</h1><div class="page-info"><span class="page-author-info" aria-label="Author🖊" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon author-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="author icon" name="author"><path d="M649.6 633.6c86.4-48 147.2-144 147.2-249.6 0-160-128-288-288-288s-288 128-288 288c0 108.8 57.6 201.6 147.2 249.6-121.6 48-214.4 153.6-240 288-3.2 9.6 0 19.2 6.4 25.6 3.2 9.6 12.8 12.8 22.4 12.8h704c9.6 0 19.2-3.2 25.6-12.8 6.4-6.4 9.6-16 6.4-25.6-25.6-134.4-121.6-240-243.2-288z"></path></svg><span><a class="page-author-item" href="https://kt.academy/user/marcinmoskala" target="_blank" rel="noopener noreferrer">Marcin Moskała</a></span><span property="author" content="Marcin Moskała"></span></span><!----><span class="page-date-info" aria-label="Writing Date📅" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon calendar-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="calendar icon" name="calendar"><path d="M716.4 110.137c0-18.753-14.72-33.473-33.472-33.473-18.753 0-33.473 14.72-33.473 33.473v33.473h66.993v-33.473zm-334.87 0c0-18.753-14.72-33.473-33.473-33.473s-33.52 14.72-33.52 33.473v33.473h66.993v-33.473zm468.81 33.52H716.4v100.465c0 18.753-14.72 33.473-33.472 33.473a33.145 33.145 0 01-33.473-33.473V143.657H381.53v100.465c0 18.753-14.72 33.473-33.473 33.473a33.145 33.145 0 01-33.473-33.473V143.657H180.6A134.314 134.314 0 0046.66 277.595v535.756A134.314 134.314 0 00180.6 947.289h669.74a134.36 134.36 0 00133.94-133.938V277.595a134.314 134.314 0 00-133.94-133.938zm33.473 267.877H147.126a33.145 33.145 0 01-33.473-33.473c0-18.752 14.72-33.473 33.473-33.473h736.687c18.752 0 33.472 14.72 33.472 33.473a33.145 33.145 0 01-33.472 33.473z"></path></svg><span data-allow-mismatch="text">3/11/24</span><meta property="datePublished" content="2024-03-11T00:00:00.000Z"></span><!----><span class="page-reading-time-info" aria-label="Reading Time⌛" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon timer-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="timer icon" name="timer"><path d="M799.387 122.15c4.402-2.978 7.38-7.897 7.38-13.463v-1.165c0-8.933-7.38-16.312-16.312-16.312H256.33c-8.933 0-16.311 7.38-16.311 16.312v1.165c0 5.825 2.977 10.874 7.637 13.592 4.143 194.44 97.22 354.963 220.201 392.763-122.204 37.542-214.893 196.511-220.2 389.397-4.661 5.049-7.638 11.651-7.638 19.03v5.825h566.49v-5.825c0-7.379-2.849-13.981-7.509-18.9-5.049-193.016-97.867-351.985-220.2-389.527 123.24-37.67 216.446-198.453 220.588-392.892zM531.16 450.445v352.632c117.674 1.553 211.787 40.778 211.787 88.676H304.097c0-48.286 95.149-87.382 213.728-88.676V450.445c-93.077-3.107-167.901-81.297-167.901-177.093 0-8.803 6.99-15.793 15.793-15.793 8.803 0 15.794 6.99 15.794 15.793 0 80.261 63.69 145.635 142.01 145.635s142.011-65.374 142.011-145.635c0-8.803 6.99-15.793 15.794-15.793s15.793 6.99 15.793 15.793c0 95.019-73.789 172.82-165.96 177.093z"></path></svg><span>About 15 min</span><meta property="timeRequired" content="PT15M"></span><span class="page-category-info" aria-label="Category🌈" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon category-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="category icon" name="category"><path d="M148.41 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H148.41c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.311-40.31zM147.556 553.478H429.73c22.263 0 40.311 18.048 40.311 40.31v282.176c0 22.263-18.048 40.312-40.31 40.312H147.555c-22.263 0-40.311-18.049-40.311-40.312V593.79c0-22.263 18.048-40.311 40.31-40.311zM593.927 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H593.927c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.31-40.31zM730.22 920.502H623.926c-40.925 0-74.22-33.388-74.22-74.425V623.992c0-41.038 33.387-74.424 74.425-74.424h222.085c41.038 0 74.424 33.226 74.424 74.067v114.233c0 10.244-8.304 18.548-18.547 18.548s-18.548-8.304-18.548-18.548V623.635c0-20.388-16.746-36.974-37.33-36.974H624.13c-20.585 0-37.331 16.747-37.331 37.33v222.086c0 20.585 16.654 37.331 37.126 37.331H730.22c10.243 0 18.547 8.304 18.547 18.547 0 10.244-8.304 18.547-18.547 18.547z"></path></svg><!--[--><span class="page-category-item color8" role>Java</span><span class="page-category-item color2" role>Kotlin</span><span class="page-category-item color2" role>Coroutines</span><span class="page-category-item color8" role>Article(s)</span><!--]--><meta property="articleSection" content="Java,Kotlin,Coroutines,Article(s)"></span><span class="page-tag-info" aria-label="Tag🏷" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg" class="icon tag-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="tag icon" name="tag"><path d="M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z"></path></svg><!--[--><span class="page-tag-item color8" role>blog</span><span class="page-tag-item color7" role>kt.academy</span><span class="page-tag-item color8" role>java</span><span class="page-tag-item color0" role>kotlin</span><span class="page-tag-item color1" role>coroutines</span><!--]--><meta property="keywords" content="blog,kt.academy,java,kotlin,coroutines"></span></div><hr></div><!----><div class="" vp-content><!----><div id="markdown-content"><h1 id="frontmatter-title-관련" tabindex="-1"><a class="header-anchor" href="#frontmatter-title-관련"><span>Cancellation in Kotlin Coroutines 관련</span></a></h1><a class="route-link vp-card" href="/bookshelf/programming/java/articles/" style="background:rgba(10,10,10,0.2);"><img class="vp-card-logo" src="https://chanhi2000.github.io/images/ico-wind.svg" loading="lazy" no-view><div class="vp-card-content"><div class="vp-card-title">Java > Article(s)</div><hr><div class="vp-card-desc">Article(s)</div></div></a><nav class="table-of-contents"><ul><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#basic-cancellation" class="router-link-active router-link-exact-active">Basic cancellation</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#the-finally-block" class="router-link-active router-link-exact-active">The finally block</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#invokeoncompletion" class="router-link-active router-link-exact-active">invokeOnCompletion</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#cancellation-of-children" class="router-link-active router-link-exact-active">Cancellation of children</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#cancellation-in-a-coroutine-scope" class="router-link-active router-link-exact-active">Cancellation in a coroutine scope</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#just-one-more-call" class="router-link-active router-link-exact-active">Just one more call</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#stopping-the-unstoppable" class="router-link-active router-link-exact-active">Stopping the unstoppable</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#cancellationexception-is-special" class="router-link-active router-link-exact-active">CancellationException is special</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#cancellationexception-does-not-propagate-to-its-parent" class="router-link-active router-link-exact-active">CancellationException does not propagate to its parent</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#withtimeout" class="router-link-active router-link-exact-active">withTimeout</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#suspendcancellablecoroutine" class="router-link-active router-link-exact-active">suspendCancellableCoroutine</a></li><li><a aria-current="page" href="/bookshelf/kt.academy/cc-cancellation.html#summary" class="router-link-active router-link-exact-active">Summary</a></li></ul></nav><hr><div class="vp-site-info" data-name="Cancellation in Kotlin Coroutines"><a class="vp-site-info-navigator no-external-link-icon" title="Cancellation in Kotlin Coroutines" href="https://kt.academy/article/cc-cancellation" target="_blank"></a><div class="vp-site-info-preview" style="background:url(https://marcinmoskala.com/coroutines_book/promotion/204_cancellation.jpg) center/cover no-repeat;"></div><div class="vp-site-info-detail"><img class="vp-site-info-logo" src="https://kt.academy/logo.png" alt loading="lazy" no-view><div class="vp-site-info-name">Cancellation in Kotlin Coroutines</div><div class="vp-site-info-desc">Everything you need to know about the cancellation mechanism in Kotlin Coroutines.</div></div><!----></div><div class="hint-container note"><p class="hint-container-title">Note</p><p>This is a chapter from the book <a href="/book/effectivekotlin" target="_blank" rel="noopener noreferrer">Effective Kotlin</a>. You can find it on <a href="https://leanpub.com/effectivekotlin" target="_blank" rel="noopener noreferrer"><i class="vp-icon fas fa-globe" sizing="height"></i>LeanPub</a> or <a href="https://amazon.com/Effective-Kotlin-Best-Practices-Developers-ebook/dp/B0CHBR5XPF/" target="_blank" rel="noopener noreferrer"><i class="vp-icon fa-brands fa-amazon" sizing="height"></i>Amazon</a>.</p></div><p>One of the most important mechanisms of Kotlin Coroutines for Android developers is <em>cancellation</em> because, on Android, nearly every coroutine is associated with some view, and if this view is destroyed, its coroutines are not needed, so they should be cancelled. Other coroutines should also be cancelled when the application is finished. This is a crucial capability that used to require a lot of effort from developers in many other libraries, but Kotlin Coroutines offer a simple and safe cancellation mechanism that can also be used on the backend, especially when we deal with long connections, like WebSockets or long polling. What is more, we often don&#39;t even realize that cancellation works in other situations, such as freeing up resources and making our application more efficient.</p><p>Cancellation is so important that some classes and libraries use suspending functions primarily to support cancellation<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup>. There is a good reason for this: a good cancellation mechanism is worth its weight in gold<sup class="footnote-ref"><a href="#footnote2">[2]</a><a class="footnote-anchor" id="footnote-ref2"></a></sup>. Just killing a thread is a terrible solution as there should be an opportunity to close connections and free resources. Forcing developers to frequently check if some state is still active isn&#39;t convenient either. The problem of cancellation waited for a good solution for a very long time, but what Kotlin Coroutines offer is surprisingly simple, convenient and safe. This is the best cancellation mechanism I&#39;ve seen in my career. Let&#39;s explore it.</p><hr><h2 id="basic-cancellation" tabindex="-1"><a class="header-anchor" href="#basic-cancellation"><span>Basic cancellation</span></a></h2><p>The basic idea behind cancellation is simple: calling <code>cancel</code> from a <code>Job</code> object changes its state to &quot;Cancelling&quot;. Here are the consequences of this change:</p><ul><li>All the children of this job are also cancelled.</li><li>The job cannot be used as a parent for any new coroutines.</li><li>At the first suspension point, a <code>CancellationException</code> is thrown. If this coroutine is currently suspended, it will be resumed immediately with <code>CancellationException</code>. <code>CancellationException</code> is ignored by the coroutine builder, so it is not necessary to catch it, but it is used to complete this coroutine body as soon as possible.</li><li>Once the coroutine body is completed and all its children are completed too, it changes its state to &quot;Cancelled&quot;.</li></ul><p>Take a look at the following example:</p><div class="kotlin-playground-wrapper"><div class="header">Basic cancellation</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>suspend fun main(): Unit = coroutineScope {
+  val job = launch {
+    repeat(1_000) { i -&gt;
+      delay(200)
+      println(&quot;Printing $i&quot;)
+    }
+  }
+  
+delay(1100)
+job.cancel()
+job.join()
+println(&quot;Cancelled successfully&quot;)
+}
+//
+// (0.2 sec)
+// Printing 0
+// (0.2 sec)
+// Printing 1
+// (0.2 sec)
+// Printing 2
+// (0.2 sec)
+// Printing 3
+// (0.2 sec)
+// Printing 4
+// (0.1 sec)
+// Cancelled successfully
+</pre><!----></div></div></div><p><code>launch</code> starts a process that prints a number every 200 ms. However, after 1100 ms, we cancel this process, therefore the coroutine changes state to &quot;Cancelling&quot;, and a <code>CancellationException</code> is thrown at the first suspension point. This exception ends our coroutine body, so the coroutine changes state to &quot;Cancelled&quot;, <code>join</code> resumes, and we see &quot;Cancelled successfully&quot;.</p><p>We might cancel with a different exception (by passing an exception as an argument to the <code>cancel</code> function) in order to specify the cause. This cause needs to be a subtype of <code>CancellationException</code> because only an exception of this type can be used to cancel a coroutine.</p><hr><h2 id="the-finally-block" tabindex="-1"><a class="header-anchor" href="#the-finally-block"><span>The <code>finally</code> block</span></a></h2><p>The cancellation mechanism is simple but very powerful. It guarantees that if we have a <code>finally</code> block, it will be executed, and all the resources will be freed. It also allows us to make an action only in case of cancellation by catching <code>CancellationException</code>. It is not necessary to rethrow this exception because it is ignored by the coroutine builder, but it is considered good practice to do so in case there is some outer scope that should know about the cancellation.</p><div class="kotlin-playground-wrapper"><div class="header">The finally block</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>suspend fun main(): Unit = coroutineScope {
+    val job = launch {
+      try {
+          repeat(1_000) { i -&gt;
+              delay(200)
+              println(&quot;Printing $i&quot;)
+            }
+        } catch (e: CancellationException) {
+        println(&quot;Cancelled with $e&quot;)
+      throw e
+    } finally {
+      println(&quot;Finally&quot;)
+      }
+  }
+  delay(700)
+  job.cancel()
+  job.join()
+  println(&quot;Cancelled successfully&quot;)
+  delay(1000)
+}
+//
+// (0.2 sec)
+// Printing 0
+// (0.2 sec)
+// Printing 1
+// (0.2 sec)
+// Printing 2
+// (0.1 sec)
+// Cancelled with JobCancellationException...
+// Finally
+// Cancelled successfully
+</pre><!----></div></div></div><p>Notice that <code>join</code> in the example above is used to wait for the cancellation to finish before we can proceed. Without this, we would have a race condition, and we would (most likely) see &quot;Cancelled successfully&quot; before &quot;Cancelled...&quot; and &quot;Finally&quot;. This is why when we cancel a coroutine we often also add <code>join</code> to wait for the cancellation to finish. Since this is a common pattern, the kotlinx.coroutines library offers a convenient extension function with a self-descriptive name, <code>cancelAndJoin</code><sup class="footnote-ref"><a href="#footnote3">[3]</a><a class="footnote-anchor" id="footnote-ref3"></a></sup>.</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">public</span> <span class="token keyword">suspend</span> <span class="token keyword">fun</span> Job<span class="token punctuation">.</span><span class="token function">cancelAndJoin</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">  <span class="token function">cancel</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">  <span class="token keyword">return</span> <span class="token function">join</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><hr><h2 id="invokeoncompletion" tabindex="-1"><a class="header-anchor" href="#invokeoncompletion"><span><code>invokeOnCompletion</code></span></a></h2><p>Another way to handle coroutine cancellation or completion is to use the <code>invokeOnCompletion</code> function from <code>Job</code>, which is used to set a handler to be called when the job reaches a terminal state, namely either &quot;Completed&quot; or &quot;Cancelled&quot;. It also provides an exception in its parameter that finishes a coroutine. <code>invokeOnCompletion</code> is guaranteed to be called exactly once (assuming this coroutine ever completes), even if the job had already completed when the handler was set.</p><div class="kotlin-playground-wrapper"><div class="header">invokeOnCompletion</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>  suspend fun main(): Unit = coroutineScope {
+    val job = launch {
+      repeat(1_000) { i -&gt;
+            delay(200)
+            println(&quot;Printing $i&quot;)
+          }
+      }
+    job.invokeOnCompletion {
+    if (it is CancellationException) {
+      println(&quot;Cancelled with $it&quot;)
+    }
+    println(&quot;Finally&quot;)
+  } 
+  delay(700)
+  job.cancel()
+  job.join()
+  println(&quot;Cancelled successfully&quot;)
+  delay(1000)
+}
+//
+// (0.2 sec)
+// Printing 0
+// (0.2 sec)
+// Printing 1
+// (0.2 sec)
+// Printing 2
+// (0.1 sec)
+// Cancelled with JobCancellationException...
+// Finally
+// Cancelled successfully
+</pre><!----></div></div></div><p>The <code>invokeOnCompletion</code> handler is called with:</p><ul><li><code>null</code> if the job finished with no exception;</li><li><code>CancellationException</code> if the coroutine was cancelled;</li><li>the exception that finished a coroutine (more about this in the next chapter).</li></ul><p><code>invokeOnCompletion</code> is called synchronously during cancellation, and we can&#39;t control the thread in which it will be running. It can be further customized with the <code>onCancelling</code><sup class="footnote-ref"><a href="#footnote4">[4]</a><a class="footnote-anchor" id="footnote-ref4"></a></sup> and <code>invokeImmediately</code><sup class="footnote-ref"><a href="#footnote5">[5]</a><a class="footnote-anchor" id="footnote-ref5"></a></sup> parameters.</p><hr><h2 id="cancellation-of-children" tabindex="-1"><a class="header-anchor" href="#cancellation-of-children"><span>Cancellation of children</span></a></h2><p>Cancellation propagates down the hierarchy of coroutines because when a job is cancelled, all its children are also cancelled. This is a very useful feature as when you cancel a process, it also cancels all its subprocesses. This is good practice as it prevents memory leaks and frees resources.</p><div class="kotlin-playground-wrapper"><div class="header">Cancellation of children</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+
+suspend fun main(): Unit = coroutineScope {
+  var childJob: Job? = null
+  val job = launch {
+    launch {
+      try {
+        delay(1000)
+        println(&quot;A&quot;)
+      } finally {
+        println(&quot;A finished&quot;)
+      }
+    }
+    childJob = launch {
+      try {
+        delay(2000)
+        println(&quot;B&quot;)
+      } catch (e: CancellationException) {
+        println(&quot;B cancelled&quot;)
+      }
+    }
+    launch {
+      delay(3000)
+      println(&quot;C&quot;)
+    }.invokeOnCompletion {
+      println(&quot;C finished&quot;)
+    }
+  }
+  delay(100)
+  job.cancel()
+  job.join()
+  println(&quot;Cancelled successfully&quot;)
+  println(childJob?.isCancelled)
+}
+//
+// (0.1 sec)
+// (the below order might be different)
+// A finished
+// B cancelled
+// C finished
+// Cancelled successfully
+// true
+</pre><!----></div></div></div><hr><h2 id="cancellation-in-a-coroutine-scope" tabindex="-1"><a class="header-anchor" href="#cancellation-in-a-coroutine-scope"><span>Cancellation in a coroutine scope</span></a></h2><p>A job created using the <code>Job()</code> factory function can be cancelled in the same way. We often specify a job when we construct a coroutine scope. If we don&#39;t specify it explicitly, <code>CoroutineScope</code> creates a default job.</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">fun</span> <span class="token function">CoroutineScope</span><span class="token punctuation">(</span></span>
+<span class="line">  context<span class="token operator">:</span> CoroutineContext</span>
+<span class="line"><span class="token punctuation">)</span><span class="token operator">:</span> CoroutineScope <span class="token operator">=</span> <span class="token function">ContextScope</span><span class="token punctuation">(</span></span>
+<span class="line">  <span class="token keyword">if</span> <span class="token punctuation">(</span>context<span class="token punctuation">[</span>Job<span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> context <span class="token keyword">else</span> context <span class="token operator">+</span> <span class="token function">Job</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line"><span class="token punctuation">)</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>So when such a scope is used as a parent for coroutines, we can cancel all of them at once by cancelling the parent’s job. This can be done using the <code>cancel</code> function from <code>CoroutineScope</code>, which calls <code>cancel</code> on the job.</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">fun</span> CoroutineScope<span class="token punctuation">.</span><span class="token function">cancel</span><span class="token punctuation">(</span>cause<span class="token operator">:</span> CancellationException<span class="token operator">?</span> <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">   <span class="token keyword">val</span> job <span class="token operator">=</span> coroutineContext<span class="token punctuation">[</span>Job<span class="token punctuation">]</span> <span class="token operator">?:</span> <span class="token function">error</span><span class="token punctuation">(</span><span class="token string-literal singleline"><span class="token string">&quot;...&quot;</span></span><span class="token punctuation">)</span></span>
+<span class="line">   job<span class="token punctuation">.</span><span class="token function">cancel</span><span class="token punctuation">(</span>cause<span class="token punctuation">)</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>This capability is often used to cancel all the tasks started by a class. This might be useful, for instance, to complete all processes in unit testing.</p><div class="code-block-with-title"><div class="code-block-title-bar" data-title="OfferUploader.kt"><span>OfferUploader.kt</span></div><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">class</span> OfferUploader <span class="token punctuation">{</span></span>
+<span class="line">  <span class="token keyword">private</span> <span class="token keyword">val</span> scope <span class="token operator">=</span> <span class="token function">CoroutineScope</span><span class="token punctuation">(</span>Dispatchers<span class="token punctuation">.</span>IO<span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line"><span class="token keyword">fun</span> <span class="token function">upload</span><span class="token punctuation">(</span>offer<span class="token operator">:</span> Offer<span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">    scope<span class="token punctuation">.</span><span class="token function">launch</span> <span class="token punctuation">{</span></span>
+<span class="line">      <span class="token comment">// upload</span></span>
+<span class="line">    <span class="token punctuation">}</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
+<span class="line"></span>
+<span class="line">  <span class="token keyword">fun</span> <span class="token function">cancel</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">    scope<span class="token punctuation">.</span><span class="token function">cancel</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><p>However, you must remember that once a job is cancelled it cannot be used as a parent for new coroutines. So, a scope with a cancelled job is not useful anymore. This can even be dangerous because trying to start a new coroutine in such a scope will silently do nothing.</p><div class="kotlin-playground-wrapper"><div class="header">Cancellation in a coroutine scope</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+
+suspend fun main() {
+  val scope = CoroutineScope(Job())
+  scope.cancel()
+  val job = scope.launch { // will be ignored
+    println(&quot;Will not be printed&quot;)
+  }
+  job.join()
+}
+</pre><!----></div></div></div><p>That is why I recommend using the <code>cancelChildren</code> function from <code>CoroutineContext</code>, which cancels all the children of a job but leaves the job itself in the active state. Keeping the job active costs us nothing and gives us some extra safety. On Android, cancellation happens automatically when we use Android KTX&#39;s <code>viewModelScope</code> or <code>lifecycleScope</code>. We might also create a scope ourselves, in which case we should remember to cancel its children when this scope is no longer needed. It is good practice to use <code>SupervisorJob</code> as a parent for such a scope, as I will explain in the next chapter.</p><div class="code-block-with-title"><div class="code-block-title-bar" data-title="ProfileViewModel"><span>ProfileViewModel</span></div><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">class</span> ProfileViewModel <span class="token operator">:</span> <span class="token function">ViewModel</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">  <span class="token keyword">private</span> <span class="token keyword">val</span> scope <span class="token operator">=</span> <span class="token function">CoroutineScope</span><span class="token punctuation">(</span>Dispatchers<span class="token punctuation">.</span>Main <span class="token operator">+</span> <span class="token function">SupervisorJob</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line">  <span class="token keyword">fun</span> <span class="token function">onCreate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">    scope<span class="token punctuation">.</span><span class="token function">launch</span> <span class="token punctuation">{</span> <span class="token function">loadUserData</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">}</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
+<span class="line"></span>
+<span class="line">  <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onCleared</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">    scope<span class="token punctuation">.</span>coroutineContext<span class="token punctuation">.</span><span class="token function">cancelChildren</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
+<span class="line"></span>
+<span class="line"> <span class="token comment">// ...</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><hr><h2 id="just-one-more-call" tabindex="-1"><a class="header-anchor" href="#just-one-more-call"><span>Just one more call</span></a></h2><p>When we cancel a coroutine, it changes state to &quot;Cancelling&quot;, where it should only clean up resources and complete. However, what if cleaning up resources requires making suspending calls or starting coroutines? We cannot do that because these operations are not allowed in the &quot;Cancelling&quot; state. Calling suspending functions in this state will throw <code>CancellationException</code>, and starting a new coroutine will be ignored.</p><div class="kotlin-playground-wrapper"><div class="header">Just one more call 1</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+
+suspend fun main(): Unit = coroutineScope {
+  val job = Job()
+  launch(job) {
+    try {
+      println(&quot;Coroutine started&quot;)
+      delay(200)
+      println(&quot;Coroutine finished&quot;)
+    } finally {
+      println(&quot;Finally&quot;)
+      launch {
+        println(&quot;Children executed&quot;)
+      }
+      delay(1000L)
+      println(&quot;Cleanup done&quot;)
+    }
+  }
+  delay(100)
+  job.cancelAndJoin()
+  println(&quot;Done&quot;)
+}
+//
+// Coroutine started
+// (0.1 sec)
+// Finally
+// Done
+</pre><!----></div></div></div><p>For such situations, there is a special structure <code>withContext(NonCancellable)</code>. <strong>We should use <code>withContext(NonCancellable)</code> for all suspending calls that should be executed even in the &quot;Cancelling&quot; state (so even in the case of cancellation).</strong> <code>NonCancellable</code> is a job that is always active, and it should not be used outside this particular situation, where we need to either make a suspending call or start a new coroutine even in the case of cancellation.</p><div class="kotlin-playground-wrapper"><div class="header">Just one more call 2</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+
+suspend fun main(): Unit = coroutineScope {
+  val job = Job()
+  launch(job) {
+    try {
+      println(&quot;Coroutine started&quot;)
+      delay(200)
+      println(&quot;Coroutine finished&quot;)
+    } finally {
+      println(&quot;Finally&quot;)
+      withContext(NonCancellable) {
+        launch {
+          println(&quot;Children executed&quot;)
+        }
+        delay(1000L)
+        println(&quot;Cleanup done&quot;)
+      }
+    }
+  }
+ delay(100)
+ job.cancelAndJoin()
+ println(&quot;Done&quot;)
+}
+//
+// Coroutine started
+// (0.1 sec)
+// Finally
+// Children executed
+// (1 sec)
+// Cleanup done
+// Done
+</pre><!----></div></div></div><p>Even if you just implement a suspending function and you specify some cleanup in the <code>finally</code> block that requires a suspending call, you should use <code>withContext(NonCancellable)</code> to make sure that the cleanup will be done even in the case of cancellation.</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">suspend</span> <span class="token keyword">fun</span> <span class="token function">operation</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">  <span class="token keyword">try</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token comment">// operation</span></span>
+<span class="line">  <span class="token punctuation">}</span> <span class="token keyword">finally</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token function">withContext</span><span class="token punctuation">(</span>NonCancellable<span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">      <span class="token comment">// cleanup that requires suspending call</span></span>
+<span class="line">    <span class="token punctuation">}</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><hr><h2 id="stopping-the-unstoppable" tabindex="-1"><a class="header-anchor" href="#stopping-the-unstoppable"><span>Stopping the unstoppable</span></a></h2><p>Because cancellation happens at suspension points, it won’t happen until a suspension. To simulate such a situation, we could use <code>Thread.sleep</code> instead of <code>delay</code>, but this is a terrible practice, so please don’t do this in any real-life projects. We are just trying to simulate a case in which we are using our coroutines extensively but not suspending them. In practice, such a situation might arise if we have some complex calculations, like neural network learning (yes, we also use coroutines for such cases in order to simplify processing parallelization), or when we need to do some blocking calls (for instance, when reading files).</p><p>The example below presents a situation in which a coroutine cannot be cancelled because there is no suspension point inside it (we use <code>Thread.sleep</code> instead of <code>delay</code>). The execution needs over 3 minutes, even though it should be cancelled after 1 second.</p><div class="kotlin-playground-wrapper"><div class="header">Stopping the unstoppable 1</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>suspend fun main(): Unit = coroutineScope {
+  val job = Job()
+  launch(job) {
+    repeat(1_000) { i -&gt;
+      Thread.sleep(200) // We might have some
+      // complex operations or reading files here
+      println(&quot;Printing $i&quot;)
+    }
+  }
+  delay(1000)
+  job.cancelAndJoin()
+  println(&quot;Cancelled successfully&quot;)
+  delay(1000)
+}
+//
+// Printing 0
+// Printing 1
+// Printing 2
+// ... (up to 1000)
+</pre><!----></div></div></div><p>There are a few ways to deal with such situations. The first one is to use the <code>yield()</code> function from time to time. This function suspends and immediately resumes a coroutine. This gives an opportunity to do whatever is needed during suspension (or resuming), including cancellation (or changing a thread using a dispatcher).</p><div class="kotlin-playground-wrapper"><div class="header">Stopping the unstoppable 2</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>suspend fun main(): Unit = coroutineScope {
+  val job = Job()
+  launch(job) {
+    repeat(1_000) { i -&gt;
+      Thread.sleep(200)
+      yield()
+      println(&quot;Printing $i&quot;)
+    }
+  }
+  delay(1100)
+  job.cancelAndJoin()
+  println(&quot;Cancelled successfully&quot;)
+  delay(1000)
+}
+//
+// Printing 0
+// Printing 1
+// Printing 2
+// Printing 3
+// Printing 4
+// Cancelled successfully
+</pre><!----></div></div></div><p>It is good practice to use <code>yield</code> in suspend functions between blocks of non-suspended CPU-intensive or time-intensive operations.</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">suspend</span> <span class="token keyword">fun</span> <span class="token function">cpu</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token function">withContext</span><span class="token punctuation">(</span>Dispatchers<span class="token punctuation">.</span>Default<span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">  <span class="token function">cpuIntensiveOperation1</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">  <span class="token function">yield</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">  <span class="token function">cpuIntensiveOperation2</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">  <span class="token function">yield</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">  <span class="token function">cpuIntensiveOperation3</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Another option is to track the state of the job. Inside a coroutine builder, <code>this</code> (the receiver) references the scope of this builder. <code>CoroutineScope</code> has a context we can reference using the <code>coroutineContext</code> property. Thus, we can access the coroutine job (using <code>coroutineContext[Job]</code> or <code>coroutineContext.job</code>) and check what its current state is. Since a job is often used to check if a coroutine is active, the Kotlin Coroutines library provides a function to simplify this:</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">public</span> <span class="token keyword">val</span> CoroutineScope<span class="token punctuation">.</span>isActive<span class="token operator">:</span> Boolean</span>
+<span class="line">  <span class="token keyword">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> coroutineContext<span class="token punctuation">[</span>Job<span class="token punctuation">]</span><span class="token operator">?</span><span class="token punctuation">.</span>isActive <span class="token operator">?:</span> <span class="token boolean">true</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><p>We can use the <code>isActive</code> property to check if a job is still active and stop calculations if it is not.</p><div class="kotlin-playground-wrapper"><div class="header">Stopping the unstoppable 3</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>suspend fun main(): Unit = coroutineScope {
+  val job = Job()
+  launch(job) {
+    do {
+      Thread.sleep(200)
+      println(&quot;Printing&quot;)
+    } while (isActive)
+  }
+  delay(1100)
+  job.cancelAndJoin()
+  println(&quot;Cancelled successfully&quot;)
+}
+//
+// Printing
+// Printing
+// Printing
+// Printing
+// Printing
+// Printing
+// Cancelled successfully
+</pre><!----></div></div></div><p>Alternatively, we might use the <code>ensureActive()</code> function, which throws <code>CancellationException</code> if <code>Job</code> is not active.</p><div class="kotlin-playground-wrapper"><div class="header">Stopping the unstoppable 4</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>suspend fun main(): Unit = coroutineScope {
+  val job = Job()
+  launch(job) {
+    repeat(1000) { num -&gt;
+      Thread.sleep(200)
+      ensureActive()
+      println(&quot;Printing $num&quot;)
+    }
+  }
+  delay(1100)
+  job.cancelAndJoin()
+  println(&quot;Cancelled successfully&quot;)
+}
+//
+// Printing 0
+// Printing 1
+// Printing 2
+// Printing 3
+// Printing 4
+// Cancelled successfully
+</pre><!----></div></div></div><p>The result of <code>ensureActive()</code> and <code>yield()</code> seem similar but are actually very different. The <code>ensureActive()</code> function needs to be called on a <code>CoroutineScope</code> (or <code>CoroutineContext</code>, or <code>Job</code>). All it does is throw an exception if the job is no longer active. <code>ensureActive()</code> is lighter than <code>yield()</code>. The <code>yield</code> function is a regular top-level suspension function that does not need any scope, so it can be used in regular suspending functions. Since it does suspension and resuming, it causes redispatching, which means that if there is a queue to the dispatcher, this coroutine will return the thread and wait in the queue. This is considered positive when our operations are demanding threads as it prevents other coroutines being starved. <code>yield</code> should be used in suspending functions that make multiple CPU-intensive or blocking operations.</p><hr><h2 id="cancellationexception-is-special" tabindex="-1"><a class="header-anchor" href="#cancellationexception-is-special"><span><code>CancellationException</code> is special</span></a></h2><p>Since <code>CancellationException</code> is thrown when a coroutine is cancelled, it has a special meaning for coroutines. That is why we should not catch it with other exceptions, as a rule of thumb we should always rethrow it, even if all other exceptions are caught.</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">suspend</span> <span class="token keyword">fun</span> <span class="token function">operation</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">  <span class="token keyword">try</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token comment">// suspending operation</span></span>
+<span class="line">  <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>e<span class="token operator">:</span> CancellationException<span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token keyword">throw</span> e</span>
+<span class="line">  <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>e<span class="token operator">:</span> Exception<span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token comment">// hanle other exceptions</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Optionally, we could also add <code>ensureActive()</code> in the catch block to ensure that the coroutine is still active (some people consider this approach safer, because it throws exceptions only if the current coroutine is active, and not when <code>CancellationException</code> is thrown for other reasons).</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">suspend</span> <span class="token keyword">fun</span> <span class="token function">operation</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">  <span class="token keyword">try</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token comment">// suspending operation</span></span>
+<span class="line">  <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>e<span class="token operator">:</span> Exception<span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token comment">// hanle exceptions</span></span>
+<span class="line">    coroutineContext<span class="token punctuation">.</span><span class="token function">ensureActive</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>We can explicitly catch <code>CancellationException</code> if we want to do something particular in the case of cancellation, but we should always rethrow it to inform the outer scope about the cancellation.</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">suspend</span> <span class="token keyword">fun</span> <span class="token function">operation</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">  <span class="token keyword">try</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token comment">// suspending operation</span></span>
+<span class="line">  <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>e<span class="token operator">:</span> CancellationException<span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token comment">// do something</span></span>
+<span class="line">    <span class="token keyword">throw</span> e</span>
+<span class="line">  <span class="token punctuation">}</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Beware, that <code>CancellationException</code> used by Kotlin Coroutines is not the same as <code>java.util.concurrent.CancellationException</code>. The latter is used in Java for the <code>Future</code> interface, and it is not a part of the Kotlin Coroutines library.</p><hr><h2 id="cancellationexception-does-not-propagate-to-its-parent" tabindex="-1"><a class="header-anchor" href="#cancellationexception-does-not-propagate-to-its-parent"><span>CancellationException does not propagate to its parent</span></a></h2><p>All exceptions that extend <code>CancellationException</code> are treated in a special way: they only cause cancellation of the current coroutine. <code>CancellationException</code> is an open class, so it can be extended by our own classes or objects.</p><div class="kotlin-playground-wrapper"><div class="header">CancellationException does not propagate to its parent (1)</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+
+class MyNonPropagatingException : CancellationException()
+
+suspend fun main(): Unit = coroutineScope {
+  launch { // 1
+    launch { // 2
+      delay(2000)
+      println(&quot;Will not be printed&quot;)
+    }
+    delay(1000)
+    throw MyNonPropagatingException() // 3
+  }
+  launch { // 4
+    delay(2000)
+    println(&quot;Will be printed&quot;)
+  }
+}
+//
+// (2 sec)
+// Will be printed
+</pre><!----></div></div></div><p>In the above snippet, we start two coroutines with builders at 1 and 4. After 1 second, we throw a <code>MyNonPropagatingException</code> exception at 3, which is a subtype of <code>CancellationException</code>. This exception is caught by <code>launch</code> (started at 1). This builder cancels itself, then it also cancels its children, namely the builder defined at 2. However, the exception is not propagated to the parent (because it is of type <code>CancellationException</code>), so <code>coroutineScope</code> and its children (the coroutine started at 4) are not affected. This is why the coroutine that starts at 4 prints &quot;Will be printed&quot; after 2 seconds.</p><p>In some projects, I see a pattern of defining exceptions that extend <code>CancellationException</code>. This is a dangerous practice because it might lead to unexpected results. Consider the following code:</p><div class="kotlin-playground-wrapper"><div class="header">CancellationException does not propagate to its parent (2)</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+import kotlin.coroutines.cancellation.CancellationException
+
+// Poor practice, do not do this
+class UserNotFoundException : CancellationException()
+
+suspend fun main() {
+  try {
+    updateUserData()
+  } catch (e: UserNotFoundException) {
+    println(&quot;User not found&quot;)
+  }
+}
+
+suspend fun updateUserData() {
+  updateUser()
+  updateTweets()
+}
+suspend fun updateTweets() { 
+  delay(1000)
+  println(&quot;Updating...&quot;) 
+}
+suspend fun updateUser() { throw UserNotFoundException() }
+// User not found
+</pre><!----></div></div></div><p>This code works, but well... accidentally. It works only because there are no coroutines between throwing an exception and catching it. Adding <code>launch</code> in between might change the result significantly.</p><div class="kotlin-playground-wrapper"><div class="header">CancellationException does not propagate to its parent (3)</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+import kotlin.coroutines.cancellation.CancellationException
+
+// Poor practice, do not do this
+class UserNotFoundException : CancellationException()
+
+suspend fun main() {
+  try {
+    updateUserData()
+  } catch (e: UserNotFoundException) {
+    println(&quot;User not found&quot;)
+  }
+}
+
+suspend fun updateUserData() = coroutineScope {
+  launch { updateUser() }
+  launch { updateTweets() }
+}
+suspend fun updateTweets() { 
+  delay(1000)
+  println(&quot;Updating...&quot;) 
+}
+suspend fun updateUser() { throw UserNotFoundException() }
+//
+// (1 sec)
+// Updating...
+</pre><!----></div></div></div><p>In the above example, <code>updateUser</code> throws <code>UserNotFoundException</code>, but it is caught by <code>launch</code> from <code>updateUserData</code> and only causes cancellation of this <code>launch</code>. <code>updateTweets</code> is not affected, so it prints &quot;Updating...&quot; and the exception is not caught in <code>main</code>. This behavior is different from what we would typically expect, namely propagation of the exception until it is caught. It is a trap that developers sometimes fall into.</p><p>Encountering such a situation is not common because if we used <code>async</code> with <code>await</code> instead of <code>launch</code>, then <code>await</code> would throw <code>UserNotFoundException</code>, and this exception should propagate. However, it is better to avoid doing this as it might lead to unexpected results that are hard to debug. It is safer to extend <code>Exception</code> or <code>RuntimeException</code> instead of <code>CancellationException</code>.</p><div class="kotlin-playground-wrapper"><div class="header">CancellationException does not propagate to its parent (4)</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+
+class UserNotFoundException : RuntimeException()
+
+suspend fun main() {
+  try {
+    updateUserData()
+  } catch (e: UserNotFoundException) {
+    println(&quot;User not found&quot;)
+  }
+}
+
+suspend fun updateUserData() {
+  updateUser()
+  updateTweets()
+}
+suspend fun updateTweets() { 
+  delay(1000)
+  println(&quot;Updating...&quot;) 
+}
+suspend fun updateUser() { throw UserNotFoundException() }
+//
+// User not found
+</pre><!----></div></div></div><hr><h2 id="withtimeout" tabindex="-1"><a class="header-anchor" href="#withtimeout"><span><code>withTimeout</code></span></a></h2><p>If you want to start a certain operation with timeout, you can use the <code>withTimeout</code> function, which behaves just like <code>coroutineScope</code> until the timeout is exceeded. Then, it cancels its children and throws <code>TimeoutCancellationException</code> (a subtype of <code>CancellationException</code>).</p><div class="kotlin-playground-wrapper"><div class="header">withTimeout (1)</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+
+suspend fun test(): Int = withTimeout(1500) {
+  delay(1000)
+  println(&quot;Still thinking&quot;)
+  delay(1000)
+  println(&quot;Done!&quot;)
+  // 42
+}
+
+suspend fun main(): Unit = coroutineScope {
+  try {
+    test()
+  } catch (e: TimeoutCancellationException) {
+    println(&quot;Cancelled&quot;)
+  }
+  delay(1000) // Extra timeout does not help,
+  // `test` body was cancelled
+}
+//
+// (1 sec)
+// Still thinking
+// (0.5 sec)
+// Cancelled
+</pre><!----></div></div></div><p>Beware that <code>withTimeout</code> throws <code>TimeoutCancellationException</code>, which is a subtype of <code>CancellationException</code> (the same exception that is thrown when a coroutine is cancelled). So, when this exception is thrown in a coroutine builder, it only cancels it and does not affect its parent.</p><div class="kotlin-playground-wrapper"><div class="header">withTimeout (2)</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+
+suspend fun main(): Unit = coroutineScope {
+  launch { // 1
+    launch { // 2, cancelled by its parent
+      delay(2000)
+      println(&quot;Will not be printed&quot;)
+    }
+    withTimeout(1000) { // we cancel launch
+      delay(1500)
+    }
+  }
+  launch { // 3
+    delay(2000)
+    println(&quot;Done&quot;)
+  }
+}
+//
+// (2 sec)
+// Done
+</pre><!----></div></div></div><p>In the above example, <code>delay(1500)</code> takes longer than <code>withTimeout(1000)</code> expects, so <code>withTimeout</code> cancels its coroutine and throws <code>TimeoutCancellationException</code>. The exception is caught by <code>launch</code> at 1, and it cancels itself and its children (<code>launch</code> starts at 2). The <code>launch</code> that starts at 3 is not affected, so it prints &quot;Done&quot; after 2 seconds.</p><p>A less aggressive variant of <code>withTimeout</code> is <code>withTimeoutOrNull</code>, which does not throw an exception. If the timeout is exceeded, it just cancels its body and returns <code>null</code>. I find <code>withTimeoutOrNull</code> useful for wrapping functions in which waiting times that are too long signal that something has gone wrong, such as network operations: if we wait over 5 seconds for a response, it is unlikely we will ever receive it (some libraries might wait forever).</p><div class="kotlin-playground-wrapper"><div class="header">withTimeout (3)</div><div class="kotlin-playground-container"><div class="kotlin-playground" theme="default"><pre>import kotlinx.coroutines.*
+
+class User()
+
+suspend fun fetchUser(): User {
+  // Runs forever
+  while (true) {
+    yield()
+  }
+}
+
+suspend fun getUserOrNull(): User? =
+  withTimeoutOrNull(5000) {
+    fetchUser()
+  }
+
+suspend fun main(): Unit = coroutineScope {
+  val user = getUserOrNull()
+  println(&quot;User: $user&quot;)
+}
+//
+// (5 sec)
+// User: null
+</pre><!----></div></div></div><hr><h2 id="suspendcancellablecoroutine" tabindex="-1"><a class="header-anchor" href="#suspendcancellablecoroutine"><span><code>suspendCancellableCoroutine</code></span></a></h2><p>Here, you might remind yourself of the <code>suspendCancellableCoroutine</code> function introduced in the <em>How does suspension work?</em> chapter. It behaves like <code>suspendCoroutine</code>, but its continuation is wrapped into <code>CancellableContinuation&lt;T&gt;</code>, which provides some additional methods, the most important of which is <code>invokeOnCancellation</code>, which we use to define what should happen when a coroutine is cancelled. Most often we use it to cancel processes in a library or to free resources.</p><div class="language-kotlin line-numbers-mode" data-highlighter="prismjs" data-ext="kt"><pre><code class="language-kotlin"><span class="line"><span class="token keyword">suspend</span> <span class="token keyword">fun</span> <span class="token function">someTask</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> suspendCancellableCoroutine <span class="token punctuation">{</span> cont <span class="token operator">-&gt;</span></span>
+<span class="line">  <span class="token comment">// rest of the implementation</span></span>
+<span class="line">  cont<span class="token punctuation">.</span><span class="token function">invokeOnCancellation</span> <span class="token punctuation">{</span> <span class="token comment">/* cleanup */</span> <span class="token punctuation">}</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>The <code>CancellableContinuation&lt;T&gt;</code> also lets us check the job state (using the <code>isActive</code>, <code>isCompleted</code> and <code>isCancelled</code> properties) and cancel this continuation with an optional cancellation cause.</p><hr><h2 id="summary" tabindex="-1"><a class="header-anchor" href="#summary"><span>Summary</span></a></h2><p>Cancellation is a powerful feature. It is generally easy to use, but it can sometimes be tricky, therefore it’s important to understand how it works. From this chapter, you should remember that:</p><ul><li>When we cancel a coroutine, it changes its state to &quot;Cancelling&quot;, and cancels all its children.</li><li>A coroutine in the &quot;Cancelling&quot; state does not start child coroutines and throws <code>CancellationException</code> when we try to suspend it or if it is suspended.</li><li>It is guaranteed that the body of the <code>finally</code> block and the <code>invokeOnCompletion</code> handler will be executed.</li><li>We can invoke an operation specifically in the case of cancellation by catching <code>CancellationException</code>, but we should rethrow it to inform the outer scope about the cancellation.</li><li>To start a new coroutine or make a suspending call in the &quot;Cancelling&quot; state, we can use <code>withContext(NonCancellable)</code>.</li><li>To allow cancellation between non-suspending operations, we can use <code>yield</code> or <code>ensureActive</code>.</li><li><code>CancellationException</code> does not propagate to its parent.</li><li>We can use <code>withTimeout</code> or <code>withTimeoutOrNull</code> to start a coroutine with a timeout.</li><li>Always use <code>suspendCancellableCoroutine</code> instead of <code>suspendCoroutine</code> when you need to transform a callback-based API into a suspending function, and use <code>invokeOnCancellation</code> to define what should happen when a coroutine is cancelled.</li></ul><p>A properly used cancellation means fewer wasted resources and fewer memory leaks. This is important for our application&#39;s performance, so I hope you will use these advantages from now on.</p><!-- TODO: add ARTICLE CARD --><a class="vp-card" href="https://chanhi2000.github.io/bookshelf/kt.academy/cc-cancellation.html" target="_blank" style="background:rgba(243,139,49,0.2);"><img class="vp-card-logo" src="https://kt.academy/logo.png" loading="lazy" no-view><div class="vp-card-content"><div class="vp-card-title">Cancellation in Kotlin Coroutines</div><hr><div class="vp-card-desc">Everything you need to know about the cancellation mechanism in Kotlin Coroutines.</div></div></a><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="footnote1" class="footnote-item"><p>A good example is <code>CoroutineWorker</code> on Android, where according to the presentation <a href="https://youtu.be/BOHK_w09pVA" target="_blank" rel="noopener noreferrer"><i class="vp-icon fa-brands fa-youtube" sizing="height"></i><em>Understand Kotlin Coroutines on Android</em> on Google I/O&#39;19</a> by Sean McQuillan and Yigit Boyar (both working on Android at Google), support for coroutines was added primarily to use the cancellation mechanism. <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p></li><li id="footnote2" class="footnote-item"><p>Actually, it&#39;s worth much more since the code is currently not very heavy (it used to be when it was stored on punched cards). <a href="#footnote-ref2" class="footnote-backref">↩︎</a></p></li><li id="footnote3" class="footnote-item"><p>This function first calls <code>cancel</code> and then <code>join</code>, so it is called <code>cancelAndJoin</code>. Uncle Bob would be proud. <a href="#footnote-ref3" class="footnote-backref">↩︎</a></p></li><li id="footnote4" class="footnote-item"><p>If true, the function is called in the &quot;Cancelling&quot; state (i.e., before &quot;Cancelled&quot;). <code>false</code> by default. <a href="#footnote-ref4" class="footnote-backref">↩︎</a></p></li><li id="footnote5" class="footnote-item"><p>This parameter determines whether the handler should be called immediately if the handler is set when a coroutine is already in the desired state. <code>true</code> by default. <a href="#footnote-ref5" class="footnote-backref">↩︎</a></p></li></ol></section></div><!----><!----><!----></div><footer class="vp-page-meta"><div class="vp-meta-item edit-link"><a class="auto-link external-link vp-meta-label" href="https://github.com/chanhi2000/bookshelf/edit/main/src/kt.academy/cc-cancellation.md" aria-label="Edit this page on GitHub" rel="noopener noreferrer" target="_blank"><!--[--><svg xmlns="http://www.w3.org/2000/svg" class="icon edit-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="edit icon" name="edit"><path d="M430.818 653.65a60.46 60.46 0 0 1-50.96-93.281l71.69-114.012 7.773-10.365L816.038 80.138A60.46 60.46 0 0 1 859.225 62a60.46 60.46 0 0 1 43.186 18.138l43.186 43.186a60.46 60.46 0 0 1 0 86.373L588.879 565.55l-8.637 8.637-117.466 68.234a60.46 60.46 0 0 1-31.958 11.229z"></path><path d="M728.802 962H252.891A190.883 190.883 0 0 1 62.008 771.98V296.934a190.883 190.883 0 0 1 190.883-192.61h267.754a60.46 60.46 0 0 1 0 120.92H252.891a69.962 69.962 0 0 0-69.098 69.099V771.98a69.962 69.962 0 0 0 69.098 69.098h475.911A69.962 69.962 0 0 0 797.9 771.98V503.363a60.46 60.46 0 1 1 120.922 0V771.98A190.883 190.883 0 0 1 728.802 962z"></path></svg><!--]-->Edit this page on GitHub<!----></a></div><div class="vp-meta-item git-info"><!----><!----></div></footer><nav class="vp-page-nav"><a class="route-link auto-link prev" href="/bookshelf/programming/java/articles/" aria-label="/programming/java/articles/"><div class="hint"><span class="arrow start"></span>Prev</div><div class="link"><!---->/programming/java/articles/</div></a><a class="route-link auto-link next" href="/bookshelf/kt.academy/ak-static-analysis.html" aria-label="Static Code Analysers"><div class="hint">Next<span class="arrow end"></span></div><div class="link">Static Code Analysers<i class="vp-icon iconfont icon-kotlin" sizing="height"></i></div></a></nav><!----><!----><!--]--></main><!--]--><footer class="vp-footer-wrapper" vp-footer><div class="vp-footer">MIT Licensed | Copyright © 2022-present <a href="https://github.com/chanhi2000">Chan Hee Lee</a></div><div class="vp-copyright">Copyright © 2026 Marcin Moskała </div></footer></div><!--]--><!--[--><!----><!--[--><!--]--><!--[--><!--]--><!--]--><!--]--></div>
+    <script type="module" src="/bookshelf/assets/app-BItykJLQ.js" defer></script>
+  </body>
+</html>
