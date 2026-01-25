@@ -870,7 +870,7 @@ Mastering this technique ensures your rating system is both functional and ready
 
 ::: info Like my articles?
 
-Feel free to [<VPIcon icon="fas fa-globe"/>buy me a coffee here](https://buymeacoffee.com/JajaDavid), to keep my brain chugging and provide more articles like this.
+Feel free to [buy me a coffee here (<VPIcon icon="iconfont icon-buymeacoffee"/>`JajaDavid`)](https://buymeacoffee.com/JajaDavid), to keep my brain chugging and provide more articles like this.
 
 ![Coffee Tom](https://freecodecamp.org/news/content/images/2024/06/coffee-tom.gif)
 

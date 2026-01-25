@@ -5,6 +5,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "accessible-faux-nested-interactive-controls", // 2026-01-15
     "date-is-out-and-temporal-is-in", // 2026-01-07
   ]
 }
@@ -79,6 +80,8 @@ export const template: SidebarInfoTemplate = {
       "a-view-transitions-fallback-domcontentloaded-requestanimationframe", // 2025-12-05
       "why-are-my-view-transitions-blinking", // 2025-12-11
       // END: 2025css
+      "accessible-faux-nested-interactive-controls", // 2026-01-15
+      // END: 2026css
       // END: css
     ]],[
     "all", [

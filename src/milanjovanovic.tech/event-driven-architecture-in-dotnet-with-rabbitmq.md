@@ -224,7 +224,7 @@ To set this up in code, we declare a fanout exchange and bind queues to it.
 
 ### Producer
 
-```cs :collapsed-linse
+```cs :collapsed-lines
 // Producer setup for fanout
 await channel.ExchangeDeclareAsync(
     exchange: "orders",

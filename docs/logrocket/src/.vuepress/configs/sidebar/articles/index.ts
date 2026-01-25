@@ -27,6 +27,7 @@ import { template as TEMPLATE_GOSOLVE } from './gosolve.io';
 import { template as TEMPLATE_BRAMUS } from './bram.us';
 import { template as TEMPLATE_UNA } from './una.im';
 import { template as TEMPLATE_JOSH_W_COMEAU} from './joshwcomeau.com';
+import { template as TEMPLATE_AHMAD_SHADEED } from './ishadeed.com'
 import { template as TEMPLATE_CSS_TIP } from './css-tip.com';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
 import { template as TEMPLATE_KAKAO_TECH } from './tech.kakao.com';

@@ -63,7 +63,7 @@ Regarding Mobile Safari (iOS) not properly calculating `100vh` the article menti
 <SiteInfo
   name="CSS Viewport Units"
   desc="CSS Viewport units have been around for the last few years, and by time, I see them being used more and more by developers. Their benefit lies in providing us with a way to size things in a fluid and dynamic way, without the need to use JavaScript. Also, it’s easy to provide a fallback if they fail."
-  url="https://ishadeed.com/article/viewport-units//"
+  url="https://ishadeed.com/article/viewport-units/"
   logo="https://ishadeed.com/assets/favicon-32x32.png"
   preview="https://ishadeed.com/assets/viewport-units/spacing-modal.png"/>
 

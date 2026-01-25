@@ -36,6 +36,11 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "whats-important-4", // 2026-01-30
+    "how-to-style-the-new-search-text-and-other-highlight-pseudo-elements", // 2026-01-28
+    "relicss", // 2026-01-28
+    "there-is-no-need-to-trap-focus-on-a-dialog-element", // 2026-01-26
+    "responsive-hexagon-grid-using-modern-css", // 2026-01-23
     "open-props-custom-media-recipes", // 2026-01-24
     "i-learned-the-first-rule-of-aria-the-hard-way", // 2026-01-21
     "http-archive-2025-web-almanac", // 2026-01-16
@@ -425,6 +430,10 @@ export const template: SidebarInfoTemplate = {
       "playing-with-codepen-slidevars", // 2026-01-14
       "whats-important-3", // 2026-01-15
       "open-props-custom-media-recipes", // 2026-01-24
+      "responsive-hexagon-grid-using-modern-css", // 2026-01-23
+      "relicss", // 2026-01-28
+      "how-to-style-the-new-search-text-and-other-highlight-pseudo-elements", // 2026-01-28
+      "whats-important-4", // 2026-01-30
       // END: 2026css
       // END: css
     ]],[

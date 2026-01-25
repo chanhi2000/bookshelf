@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "containerize-your-dotnet-applications-without-a-dockerfile", // 2026-01-31
     "a-practical-demo-of-zero-downtime-migrations-using-password-hashing", // 2026-01-24
     "solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache", // 2026-01-17
     "solving-message-ordering-from-first-principles", // 2026-01-10
@@ -430,6 +431,8 @@ export const template: SidebarInfoTemplate = {
       "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
       "6-steps-for-setting-up-a-new-dotnet-project-the-right-way", // 2025-10-18
       // END: 2025docker
+      "containerize-your-dotnet-applications-without-a-dockerfile", // 2026-01-31
+      // END: 2026docker
       // END: docker
     ]],[
     "github", [
@@ -439,6 +442,8 @@ export const template: SidebarInfoTemplate = {
       "streamlining-dotnet-9-deployment-with-github-actions-and-azure", // 2025-03-15
       "building-generative-ai-applications-with-github-models-and-dotnet-aspire", // 2025-08-16
       // END: 2025github
+      "containerize-your-dotnet-applications-without-a-dockerfile", // 2026-01-31
+      // END: 2026github
       // END: github
     ]],[
     "aws", [

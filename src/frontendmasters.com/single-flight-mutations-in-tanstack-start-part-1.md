@@ -66,6 +66,30 @@ I’ve never written about TanStack Query, but it’s one of the most widely use
 
 In this first post, we’ll cover some fundamentals and then implement the simplest imaginable single flight mutation with a TanStack Start Server Function. In the next part, we’ll dive deep into middleware and implement a more serious solution, while having some fun with TypeScript in the process.
 
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Single Flight Mutations in TanStack Start: Part 1",
+  "desc": "What if we could mutate data *and* get all the data back we need to properly update the UI in just one network round-trip?",
+  "link": "/frontendmasters.com/single-flight-mutations-in-tanstack-start-part-1.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Single Flight Mutations in TanStack Start: Part 2",
+  "desc": "This post introduces a middleware approach that allows efficient data refetching. The middleware enables the attachment of query keys and server functions, enhancing scalability and flexibility.",
+  "link": "/frontendmasters.com/single-flight-mutations-in-tanstack-start-part-2.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
+
 ---
 
 ## Laying the Groundwork
@@ -231,6 +255,30 @@ Our solution works, but it’s fragile. Our server function hard codes which dat
 Fortunately, TanStack has the perfect feature to help reduce this coupling: Middleware. We can remove the refetching from the server function, and move it to a reusable middleware which can be attached to server functions.
 
 Stay tuned for part 2 where we’ll dive into all of this.
+
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Single Flight Mutations in TanStack Start: Part 1",
+  "desc": "What if we could mutate data *and* get all the data back we need to properly update the UI in just one network round-trip?",
+  "link": "/frontendmasters.com/single-flight-mutations-in-tanstack-start-part-1.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Single Flight Mutations in TanStack Start: Part 2",
+  "desc": "This post introduces a middleware approach that allows efficient data refetching. The middleware enables the attachment of query keys and server functions, enhancing scalability and flexibility.",
+  "link": "/frontendmasters.com/single-flight-mutations-in-tanstack-start-part-2.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

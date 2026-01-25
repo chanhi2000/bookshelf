@@ -110,7 +110,7 @@ This tutorial assumes you are familiar with:
 
 ### What is Supabase?
 
-[<VPIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/docs) is an open-source Backend-as-a-Service that builds upon [<VPIcon icon="iconfont icon-postgres"/>Postgres](https://postgresql.org/docs/). It provides key features such as authentication, real-time capabilities, edge functions, storage, and more. Supabase offers both a hosted version for easy scaling and a self-hostable version for full control.
+[<VPIcon icon="iconfont icon-supabase"/>Supabase](https://supabase.com/docs) is an open-source Backend-as-a-Service that builds upon [<VPIcon icon="iconfont icon-postgresql"/>Postgres](https://postgresql.org/docs/). It provides key features such as authentication, real-time capabilities, edge functions, storage, and more. Supabase offers both a hosted version for easy scaling and a self-hostable version for full control.
 
 ### What is Cloudflare Turnstile?
 

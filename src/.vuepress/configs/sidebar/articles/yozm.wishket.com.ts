@@ -5,6 +5,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "3576", // 2026-01-29
+    "3573", // 2026-01-28
+    "3572", // 2026-01-28
+    "3569", // 2026-01-27
     "3564", // 2026-01-22
     "3563", // 2026-01-22
     "3560", // 2026-01-21
@@ -947,6 +951,8 @@ export const template: SidebarInfoTemplate = {
       "3224", // 2025-07-08
       "3487", // 2025-12-05
       // END: 2025data-science
+      "3573", // 2026-01-28
+      // END: 2026data-science
       // END: data-science
     ]],[
     "mysql", [
@@ -1087,6 +1093,8 @@ export const template: SidebarInfoTemplate = {
       "3500", // 2025-12-12
       // END: 2025ai
       "3539", // 2026-01-07
+      "3572", // 2026-01-28
+      "3576", // 2026-01-29
       // END: 2026ai
       // END: ai
     ]],[
@@ -1324,6 +1332,8 @@ export const template: SidebarInfoTemplate = {
       "3548", // 2026-01-13
       "3550", // 2026-01-14
       "3553", // 2026-01-16
+      "3569", // 2026-01-27
+      "3572", // 2026-01-28
       // END: 2026career
       // END: career
     ]],[

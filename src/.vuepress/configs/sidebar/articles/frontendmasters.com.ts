@@ -5,6 +5,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "reacts-viewtransition-element", // 2026-01-31
+    "what-senior-engineers-need-to-know-about-ai-coding-tools", // 2026-01-29
+    "single-flight-mutations-in-tanstack-start-part-2", // 2026-01-28
     "single-flight-mutations-in-tanstack-start-part-1", // 2026-01-23
     "view-transitions-playing-video", // 2026-01-20
     "the-missing-link-for-web-components", // 2026-01-15
@@ -338,6 +341,7 @@ export const template: SidebarInfoTemplate = {
       "introducing-tanstack-start-middleware", // 2025-10-24
       // END: 2025js-react
       "single-flight-mutations-in-tanstack-start-part-1", // 2026-01-23
+      "reacts-viewtransition-element", // 2026-01-31
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -616,6 +620,11 @@ export const template: SidebarInfoTemplate = {
       "advanced-postgresql-indexing", // 2025-09-03
       // END: 2025postgres
       // END: postgres
+    ]],[
+    "ai", [
+      "what-senior-engineers-need-to-know-about-ai-coding-tools", // 2026-01-29
+      // END: 2026openai
+      // END: openai
     ]],[
     "openai", [
       "chatgpt-and-old-and-broken-code", // 2025-05-20

@@ -52,7 +52,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/container-que
 
 Container queries are finally here! Now available behind a flag in the latest version of [<VPIcon icon="fa-brands fa-chrome"/>Chrome Canary](https://google.com/intl/en/chrome/canary/), you can go ahead and experiment to your heart’s content. Oh, and if you’re not familiar with container queries then check out this post by Ethan Marcotte about [<VPIcon icon="fas fa-globe"/>why they’re so dang important](https://ethanmarcotte.com/wrote/on-container-queries/).
 
-Ahmad Shadeed described his excitement and [<VPIcon icon="fas fa-globe"/>showcased a ton of great use cases](https://ishadeed.com/article/say-hello-to-css-container-queries/) for problems that container queries solves:
+Ahmad Shadeed described his excitement and [**showcased a ton of great use cases**](/ishadeed.com/say-hello-to-css-container-queries.md) for problems that container queries solves:
 
 > I haven’t been more excited for a CSS feature like I’m now in the past six years I spent as a front-end developer. The prototype of container queries is now available behind a flag in Chrome Canary. Thanks to efforts from smart people like [<VPIcon icon="fas fa-globe"/>Miriam Suzanne](https://css.oddbird.net/rwd/query/contain/) and other folks.
 > 

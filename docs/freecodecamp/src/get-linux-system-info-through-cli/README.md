@@ -1264,9 +1264,9 @@ I read every message, come say hi 👋
     - [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`zaira-hira`)](https://linkedin.com/in/zaira-hira/): I share content related to Linux, Cyber security and DevOps. Leave a recommendation on LinkedIn and endorse me on relevant skills.
     - [<VPIcon icon="fa-brands fa-discord"/>Discord](https://discord.gg/9zfbjEDs) community: Hang around with other devs or share your accomplishments.
     - [X (<VPIcon icon="fa-brands fa-x-twitter"/>`hira_zaira`)](https://twitter.com/hira_zaira): I share pre-launch updates and some behind the scenes.
-2. **Get access to exclusive content**: For one-on-one help and exclusive content go [<VPIcon icon="fas fa-globe"/>here](https://buymeacoffee.com/zairah/extras).
+2. **Get access to exclusive content**: For one-on-one help and exclusive content go [here (<VPIcon icon="iconfont icon-buymeacoffee"/>`zairah`)](https://buymeacoffee.com/zairah/extras).
 
-My [articles (<VPIcon icon="fa-brands fa-free-code-camp"/>`zaira`)](https://freecodecamp.org/news/author/zaira/) are part of my mission to increase accessibility to quality content for everyone. Each piece takes a lot of time and effort to write. This article will be free, forever. If you've enjoyed my work and want to keep me motivated, consider [<VPIcon icon="fas fa-globe"/>buying me a coffee](https://buymeacoffee.com/zairah).
+My [articles (<VPIcon icon="fa-brands fa-free-code-camp"/>`zaira`)](https://freecodecamp.org/news/author/zaira/) are part of my mission to increase accessibility to quality content for everyone. Each piece takes a lot of time and effort to write. This article will be free, forever. If you've enjoyed my work and want to keep me motivated, consider [buying me a coffee (<VPIcon icon="iconfont icon-buymeacoffee"/>`zairah`)](https://buymeacoffee.com/zairah).
 
 Thank you once again and happy learning!
 

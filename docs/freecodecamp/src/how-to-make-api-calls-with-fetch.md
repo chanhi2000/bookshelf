@@ -189,7 +189,7 @@ Here are some points to summarize this article:
 - To make a simple GET request with fetch, you just need to pass in the URL endpoint as an argument.
 - To make a POST request, you'll need to pass along certain other parameters including a configuration object.
 
-If you liked my article and want to offer your support, kindly visit my [Buy Me A Coffee page](https://buymeacoffee.com/ubahthebuilder).
+If you liked my article and want to offer your support, kindly visit my [Buy Me A Coffee page (<VPIcon icon="iconfont icon-buymeacoffee"/>`ubahthebuilder`)](https://buymeacoffee.com/ubahthebuilder).
 
 Thank you and see you soon.
 

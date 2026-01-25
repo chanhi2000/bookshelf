@@ -157,7 +157,7 @@ Daphne Gray-Grant's website, [<VPIcon icon="fas fa-globe"/>"Publication Coach"](
 
 ## If You Wish to Support This Book
 
-If you would like to support this book, you are welcome to buy the [<VPIcon icon="fa-brands fa-amazon"/>Paperback version](https://amazon.com/dp/B0CQXTJ5V5), an [<VPIcon icon="fas fa-globe"/>E-Book version](https://buymeacoffee.com/omerr/e/197232), or [<VPIcon icon="fas fa-globe"/>buy me a coffee](https://buymeacoffee.com/omerr). Thank you!
+If you would like to support this book, you are welcome to buy the [<VPIcon icon="fa-brands fa-amazon"/>Paperback version](https://amazon.com/dp/B0CQXTJ5V5), an [E-Book version (<VPIcon icon="iconfont icon-buymeacoffee"/>`omerr`)](https://buymeacoffee.com/omerr/e/197232), or [buy me a coffee (<VPIcon icon="iconfont icon-buymeacoffee"/>`omerr`)](https://buymeacoffee.com/omerr). Thank you!
 
 ---
 

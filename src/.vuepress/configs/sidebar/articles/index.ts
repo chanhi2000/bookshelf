@@ -25,7 +25,8 @@ import { template as TEMPLATE_PACKAGEMAIN_TECH } from './packagemain.tech';
 import { template as TEMPLATE_GOSOLVE } from './gosolve.io';
 import { template as TEMPLATE_BRAMUS } from './bram.us';
 import { template as TEMPLATE_UNA } from './una.im';
-import { template as TEMPLATE_JOSH_W_COMEAU} from './joshwcomeau.com';
+import { template as TEMPLATE_JOSH_W_COMEAU } from './joshwcomeau.com';
+import { template as TEMPLATE_ISHADEED } from './ishadeed.com'
 import { template as TEMPLATE_CSS_TIP } from './css-tip.com';
 import { template as TEMPLATE_ADAM_ARGYLE } from './nerdy.dev';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
@@ -166,6 +167,7 @@ export const articleSidebars = {
   bramus:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_BRAMUS, type),
   una:                (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_UNA, type),
   joshwcomeau:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_JOSH_W_COMEAU, type),
+  ishadeed:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ISHADEED, type),
   cssTip:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_TIP, type),
   adamArgyle:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ADAM_ARGYLE, type),
   onceupon:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ONCEUPON, type),

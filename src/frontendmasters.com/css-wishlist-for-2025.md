@@ -367,7 +367,18 @@ Yep. Love that. Part of what I like is that it moves *some* design information o
 
 To be clear, `attr()` “works” now, the values you get out are just strings, not “typed”, so you can’t use them to set things like colors and sizes like you might expect you can.
 
-### [<VPIcon icon="fas fa-globe"/>Ahmad Shadeed](https://ishadeed.com/article/css-wishlist-2023/#detect-when-sticky-is-active): State Queries
+### Ahmad Shadeed: State Queries
+
+```component VPCard
+{
+  "title": "My CSS Wishlist",
+  "desc": "A few CSS features I wish to have.",
+  "link": "/ishadeed.com/css-wishlist-2023.md",
+  "logo": "https://ishadeed.com/assets/favicon-32x32.png",
+  "background": "rgba(129,38,197,0.2)"
+}
+```
+
 
 Ahmad has made good points over the years about being able to style things when in certain states. Like applying styles when a flexbox container has elements that are wrapping (vs when it’s not).
 
@@ -383,7 +394,7 @@ Ahmad has made good points over the years about being able to style things when 
 }
 ```
 
-[<VPIcon icon="fas fa-globe"/>Similarly](https://ishadeed.com/article/css-state-queries/), and this is a big one I’ve heard a million times, styling a sticky element *only when it is stuck.* I put this one in the “better support” section as there is [<VPIcon icon="fa-brands fa-google"/>actual movement on this](https://groups.google.com/a/chromium.org/g/blink-dev/c/C1D321h3OnA?pli=1).
+[**Similarly**](/ishadeed.com/css-state-queries.md), and this is a big one I’ve heard a million times, styling a sticky element *only when it is stuck.* I put this one in the “better support” section as there is [<VPIcon icon="fa-brands fa-google"/>actual movement on this](https://groups.google.com/a/chromium.org/g/blink-dev/c/C1D321h3OnA?pli=1).
 
 ```css
 .page {

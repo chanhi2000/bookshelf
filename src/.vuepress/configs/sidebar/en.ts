@@ -36,6 +36,7 @@ export const sidebarEn = sidebar({
   '/bram.us/':                    [asb.bramus()],
   '/una.im/':                     [asb.una()],
   '/joshwcomeau.com/':            [asb.joshwcomeau()],
+  '/ishadeed.com/':               [asb.ishadeed()],
   '/css-tip.com/':                [asb.cssTip()],
   '/nerdy.dev/':                  [asb.adamArgyle()],
   '/towardsdatascience.com/':     [asb.towardsdatascience()],

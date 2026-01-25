@@ -790,4 +790,4 @@ As JavaScript continues to evolve, it’s important to start using these methods
 
 The next time you work with arrays, consider using `toSorted` for sorting, `findLast` for searching, or `with` for replacing elements without changing the original data. These small adjustments can have a big impact on the quality of your code.
 
-If you have any questions or suggestions, feel free to reach out on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://ng.linkedin.com/in/joan-ayebola). If you enjoyed this content, consider [<VPIcon icon="fas fa-globe"/>buying me a coffee](https://buymeacoffee.com/joanayebola) to support the creation of more developer-friendly contents.
+If you have any questions or suggestions, feel free to reach out on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://ng.linkedin.com/in/joan-ayebola). If you enjoyed this content, consider [buying me a coffee (<VPIcon icon="iconfont icon-buymeacoffee"/>`joanayebola`)](https://buymeacoffee.com/joanayebola) to support the creation of more developer-friendly contents.

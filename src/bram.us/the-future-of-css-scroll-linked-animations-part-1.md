@@ -332,7 +332,7 @@ This is no longer the case, and one should now use the `scroll-offsets` descript
   "desc": "40699228",
   "link": "https://issues.chromium.org/issues/40699228/",
   "logo": "https://gstatic.com/chrome-tracker/img/chromium.svg",
-  "background": "rgba(244,245,255,0.2)"
+  "background": "rgba(26,115,232,0.2)"
 }
 ```
 

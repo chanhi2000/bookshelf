@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Introduction
-description: Article(s) > (1/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book] 
+title: "Introduction"
+description: "Article(s) > (1/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
 category: 
   - Git
   - Article(s)
@@ -12,14 +12,17 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (1/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
+      content: "Article(s) > (1/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
     - property: og:description
-      content: Introduction
+      content: "Introduction"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/gitting-things-done-book/introduction.html
-date: 2024-01-08
+date: 2024-01-09
 isOriginal: false
-cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-Things-Done-Cover-with-Photo.png
+author:
+  - name: Omer Rosenbaum
+    url : https://freecodecamp.org/news/author/omerros/
+cover: https://freecodecamp.org/news/content/images/2023/12/Gitting-Things-Done-Cover-with-Photo.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -41,7 +44,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 <SiteInfo
   name="Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
   desc="Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us..."
-  url="https://freecodecamp.org/news/gitting-things-done-book/"
+  url="https://freecodecamp.org/news/gitting-things-done-book/#heading-introduction"
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-Things-Done-Cover-with-Photo.png"/>
 
@@ -103,7 +106,7 @@ This is definitely not the first book about Git. When sitting down to write it, 
 
 I think everyone should have access to high quality content about Git, and I'd like this book to get to as many people as possible.
 
-If you would like to support this book, you are welcome to buy the [<VPIcon icon="fa-brands fa-amazon"/>Paperback version](https://amazon.com/dp/B0CQXTJ5V5), an [<VPIcon icon="fas fa-globe"/>E-Book version](https://buymeacoffee.com/omerr/e/197232), or [<VPIcon icon="fas fa-globe"/>buy me a coffee](https://buymeacoffee.com/omerr). Thank you!
+If you would like to support this book, you are welcome to buy the [<VPIcon icon="fa-brands fa-amazon"/>Paperback version](https://amazon.com/dp/B0CQXTJ5V5), an [E-Book version (<VPIcon icon="iconfont icon-buymeacoffee"/>`omerr`)](https://buymeacoffee.com/omerr/e/197232), or [buy me a coffee (<VPIcon icon="iconfont icon-buymeacoffee"/>`omerr`)](https://buymeacoffee.com/omerr). Thank you!
 
 ---
 
@@ -138,14 +141,14 @@ I will include screenshots. There's no need for your setup to match mine, but if
 
 ## Feedback Is Welcome
 
-This book has been created to help you and people like you learn, understand Git, and apply that knowledge in real life. 
+This book has been created to help you and people like you learn, understand Git, and apply that knowledge in real life.
 
-Right from the beginning, I asked for feedback and was lucky to receive it from great people to make sure the book achieves these goals. If you liked something about this book, felt that something was missing, or that something needed improvement - I would love to hear from you. Please reach out at [<VPIcon icon="fas fa-envelope"/>gitting.things@gmail.com](mailto:gitting.things@gmail.com).
+Right from the beginning, I asked for feedback and was lucky to receive it from great people to make sure the book achieves these goals. If you liked something about this book, felt that something was missing, or that something needed improvement - I would love to hear from you. Please reach out at [<VPIcon icon="fas fa-envelope"/>`gitting.things@gmail.com`](mailto:gitting.things@gmail.com).
 
----
-
-## Note
+::: note
 
 This book is provided for free on freeCodeCamp as described above and according to [<VPIcon icon="fas fa-globe"/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
 
-If you would like to support this book, you are welcome to buy the [<VPIcon icon="fa-brands fa-amazon"/>Paperback version](https://amazon.com/dp/B0CQXTJ5V5), an [<VPIcon icon="fas fa-globe"/>E-Book version](https://buymeacoffee.com/omerr/e/197232), or [<VPIcon icon="fas fa-globe"/>buy me a coffee](https://buymeacoffee.com/omerr). Thank you!
+If you would like to support this book, you are welcome to buy the [<VPIcon icon="fa-brands fa-amazon"/>Paperback version](https://amazon.com/dp/B0CQXTJ5V5), an [<VPIcon icon="fas fa-globe"/>E-Book version](https://buymeacoffee.com/omerr/e/197232), or [buy me a coffee (<VPIcon icon="iconfont icon-buymeacoffee"/>`omerr`)](https://buymeacoffee.com/omerr). Thank you!
+
+:::

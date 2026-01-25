@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
-description: Article(s) > Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
+title: "Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
+description: "Article(s) > Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
 icon: iconfont icon-git
 category: 
   - Git
@@ -13,15 +13,18 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
+      content: "Article(s) > Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
     - property: og:description
-      content: Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
+      content: "Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/gitting-things-done-book/
 prev: /programming/git/articles/README.md
-date: 2024-01-08
+date: 2024-01-09
 isOriginal: false
-cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-Things-Done-Cover-with-Photo.png
+author:
+  - name: Omer Rosenbaum
+    url : https://freecodecamp.org/news/author/omerros/
+cover: https://freecodecamp.org/news/content/images/2023/12/Gitting-Things-Done-Cover-with-Photo.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -117,7 +120,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-T
 
 ::: note
 
-this is a short list. You can find a longer list of references on the [<VPIcon icon="fas fa-globe"/>E-Book](https://buymeacoffee.com/omerr/e/197232) or [<VPIcon icon="fa-brands fa-amazon"/>printed](https://amazon.com/dp/B0CQXTJ5V5) version.
+this is a short list. You can find a longer list of references on the [E-Book (<VPIcon icon="iconfont icon-buymeacoffee"/>`omerr`)](https://buymeacoffee.com/omerr/e/197232) or [<VPIcon icon="fa-brands fa-amazon"/>printed](https://amazon.com/dp/B0CQXTJ5V5) version.
 
 :::
 

@@ -355,7 +355,7 @@ The stuff that’s less specific in terms of both the cascade and specificity wi
 
 I strongly recommend that you get a specificity calculator in your arsenal. My favourite is by the fantastic folks at [Polypane](https://polypane.app/?ref=piccalilli). Their [specificity calculator](https://polypane.app/css-specificity-calculator?ref=piccalilli) is super easy to use and does a really good job of breaking it down for you.
 
-There’s also new CSS capabilities that can help, such as [Cascade Layers](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers). I personally haven’t found the need for these (yet), so I’m not qualified to write about them. I’ll [let someone who definitely is explain them to you instead](https://ishadeed.com/article/cascade-layers/).
+There’s also new CSS capabilities that can help, such as [Cascade Layers](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers). I personally haven’t found the need for these (yet), so I’m not qualified to write about them. I’ll [**let someone who definitely is explain them to you instead**](/ishadeed.com/cascade-layers.md).
 
 I’ll finish by saying I find this stuff super boring to write about but it’s really important to understand. I hope this primer will make you feel more comfortable with two of the most fundamental parts of CSS. If you’re looking for quick advice on how to deal with this in the real world, I would say keep your selectors as low scoring as possible. If you get stumped, remember the order of origin and use dev tools! Remember, if it’s crossed out in the CSS panel: something more specific is in play.
 

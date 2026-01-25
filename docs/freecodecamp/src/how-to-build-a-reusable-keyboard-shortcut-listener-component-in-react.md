@@ -674,7 +674,7 @@ I hope your shortcuts help you create apps that click with your users. After all
 
 ### Like my articles?
 
-Feel free to [<VPIcon icon="fas fa-globe"/>buy me a coffee here](https://buymeacoffee.com/JajaDavid), to keep my brain chugging and provide more articles like this.
+Feel free to [buy me a coffee here (<VPIcon icon="iconfont icon-buymeacoffee"/>`JajaDavid`)](https://buymeacoffee.com/JajaDavid), to keep my brain chugging and provide more articles like this.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdVWaSayW-ZONciTLakWFfSKvOKoaQR3MTpyGmLR77hl58lDorTCRNfOZfP-dMf-2WcIwfSWZE_psVHr-4qU1CIy28hsLj755zJdEcsLp3blw6l1Wtu4EUxTZ8mSF--dCk6mEQRWg?key=ypBQIzv1TD8iWEKblpAC4CZM)
 
@@ -683,8 +683,8 @@ Feel free to [<VPIcon icon="fas fa-globe"/>buy me a coffee here](https://buymeac
 Want to connect or contact me? Feel free to hit me up on the following:
 
 - [Twitter / X (<VPIcon icon="fa-brands fa-x-twitter"/>`JajaDavid8`)](https://x.com/JajaDavid8)
-- [LinkedIn: David Jaja (<VPIcon icon="fa-brands fa-linkedin"/>`david-jaja-8084251b4`)](https://linkedin.com/in/david-jaja-8084251b4/)
-- [<VPIcon icon="fas fa-envelope"/>Email: Jajadavidjid@gmail.com](http://Jajadavidjid@gmail.com)
+- LinkedIn: [David Jaja (<VPIcon icon="fa-brands fa-linkedin"/>`david-jaja-8084251b4`)](https://linkedin.com/in/david-jaja-8084251b4/)
+- Email: [<VPIcon icon="fas fa-envelope"/>`Jajadavidjid@gmail.com`](http://Jajadavidjid@gmail.com)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

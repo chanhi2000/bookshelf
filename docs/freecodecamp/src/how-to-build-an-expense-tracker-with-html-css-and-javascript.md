@@ -1207,5 +1207,4 @@ Remember, the principles and techniques you’ve applied here can be extended to
 
 Thank you for following along with this tutorial. I hope you found it helpful and that you feel more confident in your ability to build web applications.
 
-If you have any questions or suggestions, feel free to reach out on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://linkedin.com/in/joan-ayebola). If you enjoyed this content, consider [<VPIcon icon="fas fa-globe"/>buying me a coffee](https://buymeacoffee.com/joanayebola) to support the creation of more developer-friendly contents.
-
+If you have any questions or suggestions, feel free to reach out on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`joan-ayebola`)](https://linkedin.com/in/joan-ayebola). If you enjoyed this content, consider [buying me a coffee (<VPIcon icon="iconfont icon-buymeacoffee"/>`joanayebola`)](https://buymeacoffee.com/joanayebola) to support the creation of more developer-friendly contents.

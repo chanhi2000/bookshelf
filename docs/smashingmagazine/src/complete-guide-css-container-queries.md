@@ -511,7 +511,7 @@ Tangential to the container queries spec is the ability to use “[<VPIcon icon=
 
 - Review [<VPIcon icon="fa-brands fa-codepen"/>Miriam’s CodePen collection](https://codepen.io/collection/XQrgJo) where she is gathering container queries created on that platform
 - Miriam is also keeping this post updated on [**the correct container query syntax**](/oddbird.net/cq-syntax.md)
-- Ahmad Shadeed created an [overview with practical examples](https://ishadeed.com/article/say-hello-to-css-container-queries/)
+- Ahmad Shadeed created an [**overview with practical examples**](/ishadeed.com/say-hello-to-css-container-queries.md)
 - Andy Bell considered how to incorporate container queries as a [**progressive enhancement for card components**](/piccalil.li/container-queries-are-actually-coming.md)
 - Stu Robson has created a GitHub repository to collect resources called [Awesome-Container-Queries (<VPIcon icon="iconfont icon-github" />`sturobson/Awesome-Container-Queries`)](https://github.com/sturobson/Awesome-Container-Queries)
 - David A. Herron wrote [**a quick start guide**](/oddbird.net/containerqueries.md) with a demonstration of elements that change at different rates based on container queries

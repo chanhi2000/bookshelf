@@ -766,7 +766,7 @@ From that point on, the Linux kernel handles enforcement.
 
 @tab 4/4
 
-- ![Linux kernel enforces capabilities for all containers through system calls.Linux kernel enforces capabilities for all containers through system calls.](https://learnkube.com/a/4d6005ebf2ca4ae55b2e6288c2445f10.svg)
+![Linux kernel enforces capabilities for all containers through system calls.Linux kernel enforces capabilities for all containers through system calls.](https://learnkube.com/a/4d6005ebf2ca4ae55b2e6288c2445f10.svg)
 
 Linux kernel enforces capabilities for all containers through system calls.
 

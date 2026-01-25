@@ -487,10 +487,10 @@ If you’ve discovered cool little tips that come in handy in specific situation
 
 ::: info Further Reading on Smashing Magazine
 
-- “[CSS Auditing Tools](https://smashingmagazine.com/2021/03/css-auditing-tools/),” Iris Lješnjanin
-- “[DevTools Debugging Tips And Shortcuts (Chrome, Firefox, Edge)](https://smashingmagazine.com/2021/02/useful-chrome-firefox-devtools-tips-shortcuts/),” Vitaly Friedman
-- “[Accessibility In Chrome DevTools](https://smashingmagazine.com/2020/08/accessibility-chrome-devtools/),” Umar Hansa
-- “[How To Make Life Easier When Using Git](https://smashingmagazine.com/make-life-easier-when-using-git/),” Shane Hudson
+- “[**CSS Auditing Tools**](/smashingmagazine.com/css-auditing-tools.md),” Iris Lješnjanin
+- “[**DevTools Debugging Tips And Shortcuts (Chrome, Firefox, Edge)**](/smashingmagazine.com/useful-chrome-firefox-devtools-tips-shortcuts.md),” Vitaly Friedman
+- “[**Accessibility In Chrome DevTools**](/smashingmagazine.com/accessibility-chrome-devtools.md),” Umar Hansa
+- “[**How To Make Life Easier When Using Git**](/smashingmagazine.com/make-life-easier-when-using-git.md),” Shane Hudson
 
 :::
 

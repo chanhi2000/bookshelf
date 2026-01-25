@@ -220,7 +220,7 @@ A downside of this approach is that is a bit harder to read if you’re not enti
 
 ### Style Query Variant
 
-The [Style Query Variant (<VPIcon icon="fa-brands fa-codepen"/>`bramus`)](https://codepen.io/bramus/full/PoXKxzG/51cf50fdaca90ac734986c47ce3af079) uses a Style Query to respond to this change in value. This makes it act as a polyfill for a [<VPIcon icon="fas fa-globe"/>State Query](https://ishadeed.com/article/css-state-queries/).
+The [Style Query Variant (<VPIcon icon="fa-brands fa-codepen"/>`bramus`)](https://codepen.io/bramus/full/PoXKxzG/51cf50fdaca90ac734986c47ce3af079) uses a Style Query to respond to this change in value. This makes it act as a polyfill for a [**State Query**](/ishadeed.com/css-state-queries.md).
 
 ```css
 @container style(--can-scroll: 1) {

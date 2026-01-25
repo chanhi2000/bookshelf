@@ -168,7 +168,7 @@ Use `**LaunchedEffect**` when you need to handle asynchronous tasks; choose `Dis
 
 Android Consultant | Trainer  
 
-[<VPIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com)|[Follow me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/)|[Follow me on Medium (<VPIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov)|[Buy me a coffee](https://buymeacoffee.com/dobri.kostadinov)
+[<VPIcon icon="fas fa-envelope"/>Email me](mailto:dobri.kostadinov@gmail.com)|[Follow me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`dobrikostadinov`)](https://linkedin.com/in/dobrikostadinov/)|[Follow me on Medium (<VPIcon icon="fa-brands fa-medium"/>`dobri.kostadinov`)](https://medium.com/@dobri.kostadinov)|[Buy me a coffee (<VPIcon icon="iconfont icon-buymeacoffee"/>`dobri.kostadinov`)](https://buymeacoffee.com/dobri.kostadinov)
 
 :::
 

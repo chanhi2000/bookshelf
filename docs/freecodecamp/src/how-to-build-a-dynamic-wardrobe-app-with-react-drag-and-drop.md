@@ -473,7 +473,7 @@ Here’s our dynamic wardrobe in full flow:
 
 This dynamic wardrobe project demonstrates the power of React's drag and drop API combined with state management. Not only is it a fun project to build, but it also taught you important concepts like managing state in React components, implementing drag and drop functionality, creating responsive layouts with Tailwind CSS and using SVG for interactive visuals.
 
-If you enjoyed reading this tutorial, you could [<VPIcon icon="fas fa-globe"/>Buy Me a Coffee](https://buymeacoffee.com/timothyolanrewaju). You can also connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`timothy-olanrewaju750`)](https://linkedin.com/in/timothy-olanrewaju750) for more programming-related posts and articles.
+If you enjoyed reading this tutorial, you could [Buy Me a Coffee (<VPIcon icon="iconfont icon-buymeacoffee"/>`timothyolanrewaju`)](https://buymeacoffee.com/timothyolanrewaju). You can also connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`timothy-olanrewaju750`)](https://linkedin.com/in/timothy-olanrewaju750) for more programming-related posts and articles.
 
 See you on the next one!
 

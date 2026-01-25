@@ -328,9 +328,9 @@ Instead of attempting to take several courses at once, the best thing to do is f
 
 So far in this article, you've learned what React is, why you should learn React, how to install it on your machine. You've also learned what each of the files in its directory structure does.
 
-From this point there is a lot to learn about React and I wish you good luck as you continue on in your studies. If you enjoyed this article, you can support me by either [buying me a coffee](https://buymeacoffee.com/tobestjoel) or [following me on Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`olawanle_joel`)](https://twitter.com/olawanle_joel).
+From this point there is a lot to learn about React and I wish you good luck as you continue on in your studies. If you enjoyed this article, you can support me by either [buying me a coffee (<VPIcon icon="iconfont icon-buymeacoffee"/>`tobestjoel`)](https://buymeacoffee.com/tobestjoel) or [following me on Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`olawanle_joel`)](https://twitter.com/olawanle_joel).
 
-Embark on a journey of learning! [Browse 200+ expert articles on web development](https://joelolawanle.com/contents). Check out [my blog](https://joelolawanle.com/posts) for more captivating content from me.
+Embark on a journey of learning! [<VPIcon icon="fas fa-globe"/>Browse 200+ expert articles on web development](https://joelolawanle.com/contents). Check out [<VPIcon icon="fas fa-globe"/>my blog](https://joelolawanle.com/posts) for more captivating content from me.
 
 Thanks for reading!
 

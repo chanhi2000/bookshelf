@@ -6,6 +6,7 @@ icon: fa-brands fa-golang
 category: 
   - Go
   - SQL
+  - Data Science
   - SQLite
   - Article(s)
 tag: 
@@ -13,6 +14,7 @@ tag:
   - freecodecamp.org
   - go
   - golang
+  - data-science
   - sql
   - sqlite
 head:

@@ -490,7 +490,7 @@ Depending on what your answers are, you can make the right call for your project
 
 Thanks for learning about component libraries with me. If you're interested in building your own web component library, then consider checking out my course [<VPIcon icon="fas fa-globe"/>Component Odyssey](https://component-odyssey.com/). You'll learn how to build and publish a component library that works in any frontend framework.
 
-💡 I want to give a special shoutout to stephband ([<VPIcon icon="fas fa-globe"/>Mastodon](https://front-end.social/@stephband), [<VPIcon icon="fa-brands fa-bluesky"/>Bluesky](https://bsky.app/profile/stephen.band)) for proofreading and providing feedback.
+💡 I want to give a special shoutout to stephband ([Mastodon (<VPIcon icon="iconfont icon-mastodon"/>`@stephband`)](https://front-end.social/@stephband), [<VPIcon icon="fa-brands fa-bluesky"/>Bluesky](https://bsky.app/profile/stephen.band)) for proofreading and providing feedback.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

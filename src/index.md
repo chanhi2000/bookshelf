@@ -144,6 +144,9 @@ projects:
   - icon: 'https://joshwcomeau.com/favicon.png'
     name: 'joshwcomeau.com'
     desc: "Friendly tutorials for developers. Focus on React, CSS, Animation, and more!"
+  - icon: 'https://ishadeed.com/assets/favicon-32x32.png'
+    name: 'ishadeed.com'
+    desc: "Deep-dive CSS articles, modern CSS and visual CSS explanations."
   - icon: 'https://css-tip.com/img/fav.png'
     name: 'css-tip.com'
     desc: "The best place to keep up to date with the new CSS features. Daily CSS tips and tricks to become a better web developer."

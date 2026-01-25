@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: Part 1 - Main Objects and Introducing Changes
-description: Article(s) > (2/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]
+title: "Part 1 - Main Objects and Introducing Changes"
+description: "Article(s) > (2/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
 category: 
   - Git
   - Article(s)
@@ -12,14 +12,17 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: Article(s) > (2/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book] 
+      content: "Article(s) > (2/6) Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
     - property: og:description
-      content: Part 1 - Main Objects and Introducing Changes
+      content: "Part 1 - Main Objects and Introducing Changes"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/gitting-things-done-book/part-1-main-objects-and-introducing-changes.html
-date: 2024-01-08
+date: 2024-01-09
 isOriginal: false
-cover: https://freecodecamp.org/news/content/images/size/w2000/2023/12/Gitting-Things-Done-Cover-with-Photo.png
+author:
+  - name: Omer Rosenbaum
+    url : https://freecodecamp.org/news/author/omerros/
+cover: https://freecodecamp.org/news/content/images/2023/12/Gitting-Things-Done-Cover-with-Photo.png
 ---
 
 # {{ $frontmatter.title }} 관련

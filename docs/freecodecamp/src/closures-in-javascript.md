@@ -344,7 +344,7 @@ Closures are one of those concepts that can be hard to understand when you're st
 
 ::: info Matías Hernández
 
-🐦 [Follow me on Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`matiasfha`)](https://x.com/matiasfha) ✉️ [<VPIcon icon="fas fa-globe"/>Join to the newsletter](https://matiashernandez.ck.page) [❤️ Support my work](https://buymeacoffee.com/matiasfha)
+🐦 [Follow me on Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`matiasfha`)](https://x.com/matiasfha) ✉️ [<VPIcon icon="fas fa-globe"/>Join to the newsletter](https://matiashernandez.ck.page) [❤️ Support my work (<VPIcon icon="iconfont icon-buymeacoffee"/>`matiasfha`)](https://buymeacoffee.com/matiasfha)
 
 :::
 

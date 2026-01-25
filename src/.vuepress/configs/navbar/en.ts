@@ -130,6 +130,10 @@ export const navbarEn = navbar([
         icon: 'https://joshwcomeau.com/favicon.png',
         link: '/joshwcomeau.com/README.md'
       }, {
+        text: 'ishadeed.com',
+        icon: 'https://ishadeed.com/assets/favicon-32x32.png',
+        link: '/ishadeed.com/README.md'
+      }, {
         text: 'css-tip.com',
         icon: 'https://css-tip.com/img/fav.png',
         link: '/css-tip.com/README.md'
