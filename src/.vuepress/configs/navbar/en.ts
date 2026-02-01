@@ -52,7 +52,7 @@ export const navbarEn = navbar([
       }, {
         text: 'oddbird.net',
         icon: 'https://oddbird.net/safari-pinned-tab.svg',
-        link: '/smashingmagazine.com/README.md'
+        link: '/oddbird.net/README.md'
       }, {
         text: 'zeroheight.com',
         icon: 'https://zeroheight.com/favicon.ico',
@@ -209,5 +209,15 @@ export const navbarEn = navbar([
         link: '/itsfoss.com/README.md'
       },     
     ]
-  },
+  }, {
+    text: '',
+    icon: 'fas fa-brain',
+    children: [
+      {
+        text: 'huggingface.co',
+        icon: 'https://huggingface.co/favicon.ico',
+        link: '/huggingface.co/README.md'
+      }, 
+    ]
+  }
 ])

@@ -5,6 +5,13 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "3593", // 2026-02-06
+    "3590", // 2026-02-05
+    "3587", // 2026-02-04
+    "3584", // 2026-02-03
+    "3583", // 2026-02-02
+    "3582", // 2026-02-02
+    "3579", // 2026-01-30
     "3576", // 2026-01-29
     "3573", // 2026-01-28
     "3572", // 2026-01-28
@@ -514,6 +521,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024java-spring
       "2990", // 2025-02-25
       // END: 2025java-spring
+      "3593", // 2026-02-06
+      // END: 2026java-spring
       // END: java-spring
     ]], [
     "java-android", [
@@ -717,6 +726,7 @@ export const template: SidebarInfoTemplate = {
       "3526", // 2025-12-29
       // END: 2025css
       "3540", // 2026-01-08
+      "3587", // 2026-02-04
       // END: 2026css
       // END: css
     ]],[
@@ -730,6 +740,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2023go
       // END: 2024go
       // END: 2025go
+      "3593", // 2026-02-06
+      // END: 2026go
       // END: go
     ]],[
     "go-grafana", [
@@ -936,6 +948,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024security
       "3059", // 2025-04-10
       // END: 2025security
+      "3584", // 2026-02-03
+      // END: 2026security
       // END: security
     ]],[
     "data-science", [
@@ -1126,6 +1140,7 @@ export const template: SidebarInfoTemplate = {
       "3524", // 2025-12-26
       // END: 2025llm
       "3551", // 2026-01-15
+      "3590", // 2026-02-05
       // END: 2026llm
       // END: llm
     ]],[
@@ -1334,6 +1349,10 @@ export const template: SidebarInfoTemplate = {
       "3553", // 2026-01-16
       "3569", // 2026-01-27
       "3572", // 2026-01-28
+      "3579", // 2026-01-30
+      "3582", // 2026-02-02
+      "3583", // 2026-02-02
+      "3590", // 2026-02-05
       // END: 2026career
       // END: career
     ]],[

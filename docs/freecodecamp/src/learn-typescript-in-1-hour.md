@@ -11,7 +11,7 @@ tag:
   - blog
   - freecodecamp.org
   - ts
-  - typesccript
+  - typescript
   - youtube
   - crashcourse
 head:

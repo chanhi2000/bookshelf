@@ -58,6 +58,7 @@ import { template as TEMPLATE_CODEMAZE } from './code-maze.com';
 import { template as TEMPLATE_C_SHARPCORNER } from './c-sharpcorner.com';
 import { template as TEMPLATE_TOWARDSDATASCIENCE } from './towardsdatascience.com';
 import { template as TEMPLATE_SHOPIFY } from './shopify.engineering';
+import { template as TEMPLATE_HUGGING_FACE } from './huggingface.co';
 import { template as TEMPLATE_RUTGO_LETSGO } from './tistory.com/rutgo-letsgo';
 import { template as TEMPLATE_ANTONIOLEIVA } from './antonioleiva.com';
 import { template as TEMPLATE_ZUMINTERNET } from './zuminternet.github.io';
@@ -198,6 +199,7 @@ export const articleSidebars = {
   devtoolstips:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DEVTOOLSTIPS, type), 
   towardsdatascience: (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TOWARDSDATASCIENCE, type),
   shopify:            (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_SHOPIFY, type),
+  huggingface:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_HUGGING_FACE, type),
   rutgoLetsgo:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_RUTGO_LETSGO, type),
   antonioleiva:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ANTONIOLEIVA, type),
   zuminternet:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ZUMINTERNET, type),

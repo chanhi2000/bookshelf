@@ -113,11 +113,13 @@ If you want to save some time and skip the initial setup, [you can find the star
 git clone git@github.com:chrisblakely01/react-node-recipe-app-starter.git
 ```
 
----
-
-## Video Tutorial
+::: info Video Tutorial
 
 If you'd like to learn from the video version as well, here it is:
+
+<VidStack src="youtube/5wwaQ4GiSNU" />
+
+:::
 
 ---
 

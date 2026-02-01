@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2024/11/why-optimizing-lighthouse-score-not-enough-fast-website

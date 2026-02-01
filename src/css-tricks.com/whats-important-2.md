@@ -62,9 +62,9 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/12/wi-2.png
 
 ## Annotating design system components for accessibility
 
-Geri Reid carefully explained [how to annotate design system components for accessibility](https://zeroheight.com/blog/how-to-annotate-design-system-components-for-accessibility/), giving solid HTML-based examples. I especially love the part about defining elements, ARIA, markup, keyboard navigation, zoom, and user preferences as accessibility tokens.
+Geri Reid carefully explained [**how to annotate design system components for accessibility**](/zeroheight.com/how-to-annotate-design-system-components-for-accessibility.md), giving solid HTML-based examples. I especially love the part about defining elements, ARIA, markup, keyboard navigation, zoom, and user preferences as accessibility tokens.
 
-![Source: [<VPIcon icon="fas fa-globe"/>zeroheight](https://zeroheight.com/blog/how-to-annotate-design-system-components-for-accessibility/)](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/12/wi-2-1-1024x381.png?resize=1024%2C381&ssl=1)
+![Source: [**zeroheight**](/zeroheight.com/how-to-annotate-design-system-components-for-accessibility.md)](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/12/wi-2-1-1024x381.png?resize=1024%2C381&ssl=1)
 
 ---
 

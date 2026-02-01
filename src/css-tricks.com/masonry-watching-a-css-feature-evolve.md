@@ -143,7 +143,7 @@ It’s messy. And weird. But it’s how things get done.
 
 Getting to this point requires process. And in CSS, that process runs through the Working Group. The CSS Working Group (CSSWG) runs on consensus: members debate in the open, weigh pros and cons, and push browsers towards common ground.
 
-[<VPIcon icon="fas fa-globe"/>Miriam Suzanne](https://oddbird.net/authors/miriam/), an invited expert with the CSSWG (and [<VPIcon icon="iconfont icon-css-tricks"/>CSS-Tricks alumni](https://css-tricks.com/author/miriam/)), describes the process like this:
+[<VPIcon icon="iconfont icon-oddbird"/>Miriam Suzanne](https://oddbird.net/authors/miriam/), an invited expert with the CSSWG (and [<VPIcon icon="iconfont icon-css-tricks"/>CSS-Tricks alumni](https://css-tricks.com/author/miriam/)), describes the process like this:
 
 > “The group runs on a consensus model, so everyone has to eventually come to an agreement — or at least agree not to block the most popular path forward.”
 

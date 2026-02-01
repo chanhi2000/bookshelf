@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "an-over-the-top-spoiler-design-with-the-details-element", // 2026-02-04
+    "performance-optimized-video-embeds-with-zero-javascript", // 2026-02-02
     "reacts-viewtransition-element", // 2026-01-31
     "what-senior-engineers-need-to-know-about-ai-coding-tools", // 2026-01-29
     "single-flight-mutations-in-tanstack-start-part-2", // 2026-01-28
@@ -525,6 +527,8 @@ export const template: SidebarInfoTemplate = {
       "popover-context-menus-with-anchor-positioning", // 2026-01-08
       "simulating-crop-marks", // 2026-01-13
       "view-transitions-playing-video", // 2026-01-20
+      "performance-optimized-video-embeds-with-zero-javascript", // 2026-02-02
+      "an-over-the-top-spoiler-design-with-the-details-element", // 2026-02-04
       // END: 2026css
       // END: css
     ]],[

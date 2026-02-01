@@ -177,5 +177,15 @@ export const navbarEn = navbar([
         link: '/itsfoss.com/README.md'
       },     
     ]
-  },
+  }, {
+    text: '',
+    icon: 'fas fa-brain',
+    children: [
+      {
+        text: 'huggingface.co',
+        icon: 'https://huggingface.co/favicon.ico',
+        link: '/huggingface.co/README.md'
+      }, 
+    ]
+  }
 ])

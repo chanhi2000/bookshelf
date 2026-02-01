@@ -2,7 +2,7 @@
 lang: en-US
 title: "OAuth 2.0 Course for Beginners"
 description: "Article(s) > OAuth 2.0 Course for Beginners"
-icon: 
+icon: iconfont icon-oauth
 category:
   - DevOps
   - Security

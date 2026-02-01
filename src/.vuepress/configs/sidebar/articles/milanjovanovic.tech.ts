@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
     "containerize-your-dotnet-applications-without-a-dockerfile", // 2026-01-31
     "a-practical-demo-of-zero-downtime-migrations-using-password-hashing", // 2026-01-24
     "solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache", // 2026-01-17
@@ -387,6 +388,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-build-a-high-performance-cache-without-external-libraries", // 2025-12-27
       // END: 2025cs
       "solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache", // 2026-01-17
+      "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
       // END: 2026cs
       // END: cs
     ]],[
@@ -432,6 +434,7 @@ export const template: SidebarInfoTemplate = {
       "6-steps-for-setting-up-a-new-dotnet-project-the-right-way", // 2025-10-18
       // END: 2025docker
       "containerize-your-dotnet-applications-without-a-dockerfile", // 2026-01-31
+      "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
       // END: 2026docker
       // END: docker
     ]],[
@@ -466,6 +469,18 @@ export const template: SidebarInfoTemplate = {
       "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
       // END: 2025nginx
       // END: nginx
+    ]],[
+    "security-jwt", [
+      // END: 2025security-jwt
+    "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
+      // END: 2026security-jwt
+      // END: security-jwt
+    ]],[
+    "security-oauth", [
+      // END: 2025security-oauth
+    "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
+      // END: 2026security-oauth
+      // END: security-oauth
     ]],[
     "data-science", [
       "debunking-the-filter-early-join-later-sql-performance-myth", // 2025-06-07

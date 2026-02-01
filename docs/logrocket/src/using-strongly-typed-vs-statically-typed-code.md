@@ -11,7 +11,7 @@ tag:
   - blog
   - blog.logrocket.com
   - ts
-  - typesccript
+  - typescript
   - c
 head:
   - - meta:

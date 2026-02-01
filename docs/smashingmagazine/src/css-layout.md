@@ -1,0 +1,1 @@
+https://smashingmagazine.com/guides/css-layout

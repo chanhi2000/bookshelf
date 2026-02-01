@@ -729,7 +729,7 @@ Both versions work excellently with Nginx and MySQL 8.0, support modern framewor
 
 Add a `location ~ .php$` block to your Nginx server configuration that routes PHP requests to PHP-FPM via Unix socket:
 
-```nginx title="/etc/nginx/sites-available/your_domain"
+```conf title="/etc/nginx/sites-available/your_domain"
 location ~ .php$ {
     include snippets/fastcgi-php.conf;
     fastcgi_pass unix:/run/php/php8.1-fpm.sock;

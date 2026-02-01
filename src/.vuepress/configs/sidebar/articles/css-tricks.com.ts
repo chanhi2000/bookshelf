@@ -36,6 +36,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "css-bar-charts-using-modern-functions", // 2026-02-05
+    "no-hassle-visual-code-theming-publishing-an-extension", // 2026-02-03
+    "no-hassle-visual-studio-code-theming-building-an-extension", // 2026-02-02
     "whats-important-4", // 2026-01-30
     "how-to-style-the-new-search-text-and-other-highlight-pseudo-elements", // 2026-01-28
     "relicss", // 2026-01-28
@@ -291,12 +294,51 @@ const Y2011: SidebarYeargroupTemplate = {
   ],
 }
 
+const Y2010: SidebarYeargroupTemplate = {
+  text: '2010',
+  collapsible: true,
+  children: [
+    // END: 2010
+  ],
+}
+
+const Y2009: SidebarYeargroupTemplate = {
+  text: '2009',
+  collapsible: true,
+  children: [
+    // END: 2009
+  ],
+}
+
+const Y2008: SidebarYeargroupTemplate = {
+  text: '2008',
+  collapsible: true,
+  children: [
+    // END: 2008
+    "better-email-links-featuring-css-attribute-selectors", // 2008
+  ],
+}
+
+const Y2007: SidebarYeargroupTemplate = {
+  text: '2007',
+  collapsible: true,
+  children: [
+    // END: 2007
+    "better-ordered-lists-using-simple-php-and-css", // 2007-10-27
+  ],
+}
+
+
 export const template: SidebarInfoTemplate = {
   name: "css-tricks.com",
   faviconPath: "https://css-tricks.com/favicon.svg",
   linksMap: new Map([
     [
     "css",[
+      "better-ordered-lists-using-simple-php-and-css", // 2007-10-27
+      // END: 2007css
+      // END: 2008css
+      // END: 2009css
       // END: 2010css
       "tabs-with-round-out-borders", // 2011-09-04
       "the-checkbox-hack", // 2011-12-21
@@ -434,6 +476,9 @@ export const template: SidebarInfoTemplate = {
       "relicss", // 2026-01-28
       "how-to-style-the-new-search-text-and-other-highlight-pseudo-elements", // 2026-01-28
       "whats-important-4", // 2026-01-30
+      "no-hassle-visual-studio-code-theming-building-an-extension", // 2026-02-02
+      "no-hassle-visual-code-theming-publishing-an-extension", // 2026-02-03
+      "css-bar-charts-using-modern-functions", // 2026-02-05
       // END: 2026css
       // END: css
     ]],[
@@ -464,6 +509,24 @@ export const template: SidebarInfoTemplate = {
       // END: js
     ]],[
     "php",[
+      "better-ordered-lists-using-simple-php-and-css", // 2007-10-27
+      // END: 2007php
+      // END: 2008php
+      // END: 2009php
+      // END: 2010php
+      // END: 2011php
+      // END: 2012php
+      // END: 2013php
+      // END: 2014php
+      // END: 2015php
+      // END: 2016php
+      // END: 2017php
+      // END: 2018php
+      // END: 2019php
+      // END: 2020php
+      // END: 2021php
+      // END: 2022php
+      // END: 2023php
       // END: 2024php
       "toe-dipping-into-view-transitions", // 2025-02-21
       // END: 2025php
@@ -473,6 +536,20 @@ export const template: SidebarInfoTemplate = {
       "touring-new-css-features-in-safari-26", // 2025-09-29
       // END: 2025safari
       // END: safari
+    ]],[
+    "vscode", [
+      // END: 2017vscode
+      // END: 2018vscode
+      // END: 2019vscode
+      // END: 2020vscode
+      // END: 2021vscode
+      // END: 2022vscode
+      // END: 2023vscode
+      // END: 2024vscode
+      // END: 2025vscode
+      "no-hassle-visual-studio-code-theming-building-an-extension", // 2026-02-02
+      // END: 2026vscode
+      // END: vscode
     ]],[
     "all", [
       ALMANEC_PROPERTIES,
@@ -493,6 +570,10 @@ export const template: SidebarInfoTemplate = {
       Y2013,
       Y2012,
       Y2011,
+      Y2010,
+      Y2009,
+      Y2008,
+      Y2007,
     ]]
   ])
 }

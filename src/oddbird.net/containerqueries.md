@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "ContainerQueries:aQuickStartGuide"
-description: "Article(s) > ContainerQueries:aQuickStartGuide"
+title: "Container Queries: a Quick Start Guide"
+description: "Article(s) > Container Queries: a Quick Start Guide"
 icon: fa-brands fa-css3-alt
 category:
   - CSS
@@ -13,9 +13,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > ContainerQueries:aQuickStartGuide"
+      content: "Article(s) > Container Queries: a Quick Start Guide"
     - property: og:description
-      content: "ContainerQueries:aQuickStartGuide"
+      content: "Container Queries: a Quick Start Guide"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/oddbird.net/containerqueries.html
 prev: /programming/css/articles/README.md
@@ -44,7 +44,7 @@ cover: https://oddbird.net/assets/images/blog/2021/widequote-1408w.jpeg
 ---
 
 <SiteInfo
-  name="ContainerQueries:aQuickStartGuide"
+  name="Container Queries: a Quick Start Guide"
   desc="Now is the time to begin experimenting with a long requested layout tool."
   url="https://oddbird.net/2021/04/05/containerqueries/"
   logo="https://oddbird.net/safari-pinned-tab.svg"
@@ -57,7 +57,7 @@ The `@container` query, that elusive feature developers have been requesting and
 🥳 Container queries have been available to use in all major browsers since February 2023. We’ve updated the guide with changes and developments that have happened since we first published.
 
 - New [containment types](#syntax-and-an-example) have been added and other implied or planned containment behavior has been adjusted or removed.
-- Some [features that were being considered](#what%E2%80%99s-next%3F) have landed in browsers, while some are only partially implemented.
+- Some [features that were being considered](#what-s-next) have landed in browsers, while some are only partially implemented.
 
 :::
 
@@ -252,7 +252,7 @@ The OddBird team would love to see what you come up with. Tag us on [Twitter (<V
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "ContainerQueries:aQuickStartGuide",
+  "title": "Container Queries: a Quick Start Guide",
   "desc": "Now is the time to begin experimenting with a long requested layout tool.",
   "link": "https://chanhi2000.github.io/bookshelf/oddbird.net/containerqueries.html",
   "logo": "https://oddbird.net/safari-pinned-tab.svg",

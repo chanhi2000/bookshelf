@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2024/11/open-source-meets-design-tooling-penpot

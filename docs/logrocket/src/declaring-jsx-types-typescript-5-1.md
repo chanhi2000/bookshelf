@@ -12,7 +12,7 @@ tag:
   - blog
   - blog.logrocket.com
   - ts
-  - typesccript
+  - typescript
 head:
   - - meta:
     - property: og:title

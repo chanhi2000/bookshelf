@@ -14,7 +14,7 @@ tag:
   - blog
   - freecodecamp.org
   - ts
-  - typesccript
+  - typescript
   - ai
   - artificial-intelligence
   - llm

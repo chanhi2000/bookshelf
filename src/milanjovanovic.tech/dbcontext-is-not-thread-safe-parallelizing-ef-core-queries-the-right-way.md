@@ -108,7 +108,7 @@ If you run this, you will immediately hit [<VPIcon icon="fa-brands fa-microsoft"
   desc="Patterns for creating and managing DbContext instances with or without dependency injection"
   url="https://learn.microsoft.com/en-us/ef/core/dbcontext-configuration/"
   logo="/assets/image/learn.microsoft.com/favicon.ico"
-  preview="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
+  preview="/assets/image/learn.microsoft.com/open-graph-image.png"/>
 
 :::
 

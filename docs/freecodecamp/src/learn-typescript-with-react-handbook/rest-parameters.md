@@ -8,7 +8,7 @@ category:
 tag:
   - blog- freecodecamp.org
   - ts
-  - typesccript
+  - typescript
 head:
   - - meta:
     - property: og:title

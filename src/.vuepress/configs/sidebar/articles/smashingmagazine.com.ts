@@ -80,7 +80,8 @@ const Y2021: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2021
-    "css-overflow-issues", //  2021-04-14
+    "css-auditing-tools", // 2021-06-24
+    "css-overflow-issues", // 2021-04-14
   ],
 }
 
@@ -120,6 +121,7 @@ const Y2017: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2017
+    "understanding-css-layout-block-formatting-context", // 2017-12-11
   ],
 }
 
@@ -209,6 +211,7 @@ const Y2008: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2008
+    "powerful-css-techniques-for-effective-coding", // 2008-02-21
   ],
 }
 
@@ -250,7 +253,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2018js
       // END: 2019js
       // END: 2020js
-      "css-overflow-issues", //  2021-04-14
+      "css-overflow-issues", // 2021-04-14
       // END: 2021js
       // END: 2022js
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
@@ -330,6 +333,7 @@ export const template: SidebarInfoTemplate = {
     "css", [
       "53-css-techniques-you-couldnt-live-without", // 2007-01-19
       // END: 2007css
+      "powerful-css-techniques-for-effective-coding", // 2008-02-21
       // END: 2008css
       // END: 2009css
       "when-one-word-is-more-meaningful-than-a-thousand", // 2010-07-14
@@ -354,6 +358,7 @@ export const template: SidebarInfoTemplate = {
       "preload-what-is-it-good-for", // 2016-02-26
       "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
       // END: 2016css
+      "understanding-css-layout-block-formatting-context", // 2017-12-11
       // END: 2017css
       "understanding-sizing-css-layout", // 2018-01-16
       "avengers-id-card-html-css", // 2018-06-04
@@ -365,7 +370,8 @@ export const template: SidebarInfoTemplate = {
       "understanding-css-grid-container", // 2020-01-03
       "understanding-css-grid-lines", // 2020-01-10
       // END: 2020css
-      "css-overflow-issues", //  2021-04-14
+      "css-overflow-issues", // 2021-04-14
+      "css-auditing-tools", // 2021-06-24
       // END: 2021css
       "css-radial-conic-gradient", // 2022-01-10
       "introduction-css-cascade-layers", // 2022-01-24

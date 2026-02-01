@@ -16,7 +16,7 @@ tag:
   - react
   - reactjs
   - react-js
-  - typesccript
+  - typescript
 head:
   - - meta:
     - property: og:title
