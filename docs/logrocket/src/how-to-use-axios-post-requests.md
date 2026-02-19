@@ -31,7 +31,7 @@ date: 2024-07-01
 isOriginal: false
 author:
   - name: Chimezie Innocent
-    url : https://blog.logrocket.com/author/chimezieinnocent/
+    url: https://blog.logrocket.com/author/chimezieinnocent/
 cover: /assets/image/blog.logrocket.com/how-to-use-axios-post-requests/banner.png
 ---
 

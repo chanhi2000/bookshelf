@@ -35,7 +35,7 @@ date: 2022-10-07
 isOriginal: false
 author:
   - name: Alexander Godwin
-    url : https://smashingmagazine.com/author/alexander-godwin/
+    url: https://smashingmagazine.com/author/alexander-godwin/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e77a7ee4-c2ed-4b4c-a147-16df351a6b31/nodejs-authentication-twilio-verify-sharing-card.jpg
 ---
 
@@ -128,7 +128,7 @@ I’d like to mention that we’ll be using some 3rd-party (built by other peopl
 - A web browser (e.g. Chrome, Firefox)
 - An understanding of HTML, CSS, JavaScript, Express.js
 
-Although we will be building the whole application from scratch, here’s the [GitHub Repository (<VPIcon icon="iconfont icon-github" />`oviecodes/authwithTwilioVerify`)](https://github.com/oviecodes/authwithTwilioVerify) for the project.
+Although we will be building the whole application from scratch, here’s the [GitHub Repository (<VPIcon icon="iconfont icon-github"/>`oviecodes/authwithTwilioVerify`)](https://github.com/oviecodes/authwithTwilioVerify) for the project.
 
 :::
 

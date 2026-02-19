@@ -32,7 +32,7 @@ date: 2025-02-21
 isOriginal: false
 author:
   - name: Adejumo Ridwan Suleiman
-    url : https://freecodecamp.org/news/author/adejumo/
+    url: https://freecodecamp.org/news/author/adejumo/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740093558918/453118b9-3c93-4e57-a1ad-7471e1046ef1.png
 ---
 

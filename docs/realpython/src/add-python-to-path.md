@@ -24,7 +24,7 @@ date: 2022-09-26
 isOriginal: false
 author:
   - name: Ian Currie
-    url : https://realpython.com/team/icurrie/
+    url: https://realpython.com/team/icurrie/
 cover: https://files.realpython.com/media/How-to-Add-Python-to-PATH_Watermarked.567376e2aed0.jpg
 ---
 

@@ -28,7 +28,12 @@ import { template as TEMPLATE_UNA } from './una.im';
 import { template as TEMPLATE_JOSH_W_COMEAU } from './joshwcomeau.com';
 import { template as TEMPLATE_ISHADEED } from './ishadeed.com'
 import { template as TEMPLATE_CSS_TIP } from './css-tip.com';
+// import { template as TEMPLATE_CSS_LOADERS } from './css-loaders.com';
 import { template as TEMPLATE_ADAM_ARGYLE } from './nerdy.dev';
+import { template as TEMPLATE_TOBIAS_AHLIN } from './tobiasahlin.com';
+import { template as TEMPLATE_9_ELEMENTS } from './9elements.com';
+import { template as TEMPLATE_CSS_IRL } from './css-irl.info';
+import { template as TEMPLATE_WEBDEV_REDFOX_IRL } from './webdevredfox.org';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
 import { template as TEMPLATE_KAKAO_TECH } from './tech.kakao.com';
 import { template as TEMPLATE_KAKAO_PAY_TECH } from './tech.kakaopay.com';
@@ -170,7 +175,12 @@ export const articleSidebars = {
   joshwcomeau:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_JOSH_W_COMEAU, type),
   ishadeed:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ISHADEED, type),
   cssTip:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_TIP, type),
+  // cssLoaders:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_LOADERS, type),
   adamArgyle:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ADAM_ARGYLE, type),
+  tobiasAhlin:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TOBIAS_AHLIN, type),
+  nineElements:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_9_ELEMENTS, type), 
+  cssIrl:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_IRL, type), 
+  webdevRedfox:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_WEBDEV_REDFOX_IRL, type), 
   onceupon:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ONCEUPON, type),
   d2:                 (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_D2, type),
   nhn:                (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_NHN, type),

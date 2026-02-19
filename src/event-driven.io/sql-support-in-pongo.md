@@ -29,7 +29,7 @@ date: 2024-10-15
 isOriginal: false
 author:
   - name: Oskar Dudycz
-    url : https://event-driven.io/en/about/
+    url: https://event-driven.io/en/about/
 cover: https://event-driven.io/static/56dfce3259a234d6e422b2689bba799e/2a4de/2024-10-15-cover.png
 ---
 

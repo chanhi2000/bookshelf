@@ -26,7 +26,7 @@ date: 2013-02-21
 isOriginal: false
 author:
   - name: Maxim Shirshin
-    url : https://smashingmagazine.com/author/maksim-shirshin/
+    url: https://smashingmagazine.com/author/maksim-shirshin/
 cover: https://files.smashing.media/articles/the-history-of-the-bem-methodology/sign-theme-stripe-1.png
 ---
 

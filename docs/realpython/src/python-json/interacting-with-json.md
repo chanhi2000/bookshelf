@@ -23,7 +23,7 @@ date: 2024-12-22
 isOriginal: false
 author:
   - name: Philipp Acsany
-    url : https://realpython.com/team/pacsany/
+    url: https://realpython.com/team/pacsany/
 cover: https://files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg
 ---
 

@@ -26,7 +26,7 @@ date: 2024-05-30
 isOriginal: false
 author:
   - name: Zaira Hira
-    url : https://freecodecamp.org/news/author/zaira/
+    url: https://freecodecamp.org/news/author/zaira/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715271341530/60608a00-2e63-434e-91e8-c766b171f6f7.png
 ---
 
@@ -199,11 +199,11 @@ Show Answer
 For `101`, the conversion would be like this:
 
 $$
-\begin{*align}
+\begin{align*}
 1\times{2}^{2}+0\times{2}^{1}+1\times{2}^{0}\\
 =4+0+1\\
 =5
-\end{*align}
+\end{align*}
 $$
 
 So,
@@ -215,7 +215,7 @@ $$
 Let's convert `1011001` to decimal:
 
 $$
-\begin{*align}
+\begin{align*}
 1\times{2}^{6}+0\times{2}^{5}+1\times{2}^{4}+1\times{2}^{3}+0\times{2}^{2}+0\times{2}^{1}+1\times{2}^{0}\\
 =64+0+16+8+0+0+1\\
 =89
@@ -248,12 +248,12 @@ Let's convert `10010010` to hexadecimal.
 2. Convert binary to decimal:
 
 $$
-\begin{*align}
+\begin{align*}
 [1001][0010]\\
 =[1\times{2}^{3}+0\times{2}^{2}+0\times{2}^{1}+1\times{2}^{0}][0\times{2}^{3}+0\times{2}^{2}+1\times{2}^{1}+1\times{2}^{0}]\\
 =[8+0+0+1][0+0+1+1]\\
 =[9][2]
-\end{*align}
+\end{align*}
 $$
 
 So,

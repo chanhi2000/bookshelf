@@ -5,6 +5,13 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "3616", // 2026-02-20
+    "3613", // 2026-02-20
+    "3609", // 2026-02-13
+    "3608", // 2026-02-13
+    "3603", // 2026-02-12
+    "3600", // 2026-02-10
+    "3597", // 2026-02-09
     "3593", // 2026-02-06
     "3590", // 2026-02-05
     "3587", // 2026-02-04
@@ -576,6 +583,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js
       "3540", // 2026-01-08
       "3557", // 2026-01-19
+      "3597", // 2026-02-09
       // END: 2026js
       // END: js
     ]], [
@@ -1034,6 +1042,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024cursor
       "3490", // 2025-12-05
       // END: 2025cursor
+      "3603", // 2026-02-12
+      // END: 2026cursor
       // END: cursor
     ]],[
     "warp", [
@@ -1109,6 +1119,7 @@ export const template: SidebarInfoTemplate = {
       "3539", // 2026-01-07
       "3572", // 2026-01-28
       "3576", // 2026-01-29
+      "3600", // 2026-02-10
       // END: 2026ai
       // END: ai
     ]],[
@@ -1141,6 +1152,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2025llm
       "3551", // 2026-01-15
       "3590", // 2026-02-05
+      "3603", // 2026-02-11
+      "3608", // 2026-02-13
       // END: 2026llm
       // END: llm
     ]],[
@@ -1229,6 +1242,12 @@ export const template: SidebarInfoTemplate = {
       "3555", // 2026-01-19
       // END: 2026mcp
       // END: mcp
+    ]], [
+      "openclaw", [
+      // END: 2025openclaw
+      "3609", // 2026-02-13
+      // END: 2026openclaw
+      // END: openclaw
     ]],[
     "career", [
       "2053", // 2023-06-05
@@ -1353,6 +1372,7 @@ export const template: SidebarInfoTemplate = {
       "3582", // 2026-02-02
       "3583", // 2026-02-02
       "3590", // 2026-02-05
+      "3613", // 2026-02-20
       // END: 2026career
       // END: career
     ]],[
@@ -1386,6 +1406,7 @@ export const template: SidebarInfoTemplate = {
       "3499", // 2025-12-12
       // END: 2025coen
       "3563", // 2026-01-22
+      "3616", // 2026-02-20
       // END: 2026coen
       // END: coen
     ]],[

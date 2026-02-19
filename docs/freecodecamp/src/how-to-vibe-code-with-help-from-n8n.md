@@ -36,7 +36,7 @@ date: 2025-07-09
 isOriginal: false
 author:
   - name: Paulo Dichone (@vincibits)
-    url : https://youtube.com/@vincibits
+    url: https://youtube.com/@vincibits
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751989831875/d04a4ccc-1159-4ff1-944b-d75399a55a2e.jpeg
 ---
 

@@ -30,7 +30,7 @@ date: 2025-08-01
 isOriginal: false
 author:
   - name: Qiang Hao, Ph.D (@structuredcs)
-    url : https://youtube.com/@structuredcs
+    url: https://youtube.com/@structuredcs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753977160999/8386f8e7-8b1c-4851-8aba-6e27370a05fa.png
 ---
 

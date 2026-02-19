@@ -24,7 +24,7 @@ date: 2025-02-18
 isOriginal: false
 author:
   - name: Ikeh Akinyemi
-    url : https://blog.logrocket.com/author/ikehakinyemi/
+    url: https://blog.logrocket.com/author/ikehakinyemi/
 cover: /assets/image/blog.logrocket.com/event-loop-and-call-stack-js/banner.png
 ---
 

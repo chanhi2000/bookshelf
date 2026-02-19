@@ -23,7 +23,7 @@ date: 2017-07-21
 isOriginal: false
 author:
   - name: Manuel Matuzovic
-    url : https://css-tricks.com/author/mmatuzo/
+    url: https://css-tricks.com/author/mmatuzo/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png
 ---
 

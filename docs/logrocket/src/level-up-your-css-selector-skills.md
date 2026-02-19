@@ -23,7 +23,7 @@ date: 2021-07-01
 isOriginal: false
 author:
   - name: David Gwyer
-    url : https://blog.logrocket.com/author/davidgwyer/
+    url: https://blog.logrocket.com/author/davidgwyer/
 cover: /assets/image/blog.logrocket.com/level-up-your-css-selector-skills/banner.jpeg
 ---
 

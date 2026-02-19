@@ -48,7 +48,7 @@ date: 2025-10-09
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2025/10/linux-command-line-tools-data-scientists.webp
 ---
 

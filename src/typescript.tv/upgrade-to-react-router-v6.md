@@ -29,7 +29,7 @@ date: 2021-01-02
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -319,7 +319,7 @@ export default AccountLayout;
 
 ### Navigation
 
-Navigation between different views is done with the `Link` component, which uses `navigate` under the hood and is the preferred way to make URL navigations. The use of `history` and `useHistory` is deprecated and should be replaced with the `useNavigate` hook. The React Router team provides a [Migration Guide (<VPIcon icon="iconfont icon-github" />`ReactTraining/react-router`)](https://github.com/ReactTraining/react-router/blob/v6.0.0-beta.0/docs/advanced-guides/migrating-5-to-6.md#use-navigate-instead-of-history) in this regard.
+Navigation between different views is done with the `Link` component, which uses `navigate` under the hood and is the preferred way to make URL navigations. The use of `history` and `useHistory` is deprecated and should be replaced with the `useNavigate` hook. The React Router team provides a [Migration Guide (<VPIcon icon="iconfont icon-github"/>`ReactTraining/react-router`)](https://github.com/ReactTraining/react-router/blob/v6.0.0-beta.0/docs/advanced-guides/migrating-5-to-6.md#use-navigate-instead-of-history) in this regard.
 
 ```tsx title="main/MainLayout.tsx"
 import React from 'react';

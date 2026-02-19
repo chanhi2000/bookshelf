@@ -24,7 +24,7 @@ date: 2018-11-07
 isOriginal: false
 author:
   - name: John Sturtz
-    url : https://realpython.com/team/jsturtz/
+    url: https://realpython.com/team/jsturtz/
 cover: https://files.realpython.com/media/Python-while-Loops-Indefinite-Iteration_Watermarked.2dfa40d8e92c.jpg
 ---
 

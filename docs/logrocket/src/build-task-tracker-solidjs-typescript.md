@@ -29,7 +29,7 @@ date: 2022-06-29
 isOriginal: false
 author:
   - name: Ebenezer Don
-    url : https://blog.logrocket.com/author/ebenezerdon/
+    url: https://blog.logrocket.com/author/ebenezerdon/
 cover: /assets/image/blog.logrocket.com/build-task-tracker-solidjs-typescript/banner.png
 ---
 

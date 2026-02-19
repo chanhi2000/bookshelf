@@ -32,7 +32,7 @@ date: 2024-07-09
 isOriginal: false
 author:
   - name: Mario Casari
-    url : https://freecodecamp.org/news/author/mcasari/
+    url: https://freecodecamp.org/news/author/mcasari/
 cover: https://freecodecamp.org/news/content/images/2024/06/pexels-markusspiske-177598.jpg
 ---
 
@@ -102,7 +102,7 @@ The basic components by which Gatling implements the features described above ar
 
 ## Spring Boot Gatling Integration
 
-In this article, you will start with a simple Spring Boot web application and implement and run a load test over it. You can find the source code of this sample application on [GitHub (<VPIcon icon="iconfont icon-github" />`mcasari/codingstrain`)](https://github.com/mcasari/codingstrain/tree/main/spring-cloud-sample-libraryapp/libraryapp-testing-gatling-test).
+In this article, you will start with a simple Spring Boot web application and implement and run a load test over it. You can find the source code of this sample application on [GitHub (<VPIcon icon="iconfont icon-github"/>`mcasari/codingstrain`)](https://github.com/mcasari/codingstrain/tree/main/spring-cloud-sample-libraryapp/libraryapp-testing-gatling-test).
 
 Imagine you have a library and want to insert new books by their title. You can implement this minimal requirement using JPA by defining a Book entity, a repository class, a service class, and a controller with a [<VPIcon icon="fas fa-globe"/>REST](https://codingstrain.com/spring-boot-for-cloud-rest-api-development/) service mapping.
 

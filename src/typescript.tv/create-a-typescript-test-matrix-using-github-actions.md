@@ -27,7 +27,7 @@ date: 2023-07-25
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -64,7 +64,7 @@ In this tutorial, you will learn how to use a [<VPIcon icon="iconfont icon-githu
 
 ## Setting Up a Basic Workflow
 
-Let's begin by setting up a basic workflow that runs on a single virtual machine hosted by GitHub. We'll use the latest stable Ubuntu version provided by GitHub as the runner image, and you can find more details about the available images in the [actions/runner-images (<VPIcon icon="iconfont icon-github" />`actions/runner-images`)](https://github.com/actions/runner-images) repository.
+Let's begin by setting up a basic workflow that runs on a single virtual machine hosted by GitHub. We'll use the latest stable Ubuntu version provided by GitHub as the runner image, and you can find more details about the available images in the [actions/runner-images (<VPIcon icon="iconfont icon-github"/>`actions/runner-images`)](https://github.com/actions/runner-images) repository.
 
 In our workflow, we'll use the [<VPIcon icon="fa-brands fa-npm"/>`npm ci`](https://docs.npmjs.com/cli/commands/npm-ci) command, which is similar to [<VPIcon icon="fa-brands fa-npm"/>`npm install`](https://docs.npmjs.com/cli/commands/npm-install), but designed for continuous integration systems. In contrast to `npm install`, it directly installs dependencies from the <VPIcon icon="iconfont icon-json"/>`package-lock.json` file and avoids adding any missing dependencies. If you're familiar with [Yarn](https://classic.yarnpkg.com/), you might recognize this behavior from `yarn install --frozen-lockfile`.
 
@@ -91,7 +91,7 @@ jobs:
 
 ## Cross-Version Testing with Matrix Strategy
 
-To demonstrate our TypeScript testing process, we aim to execute the same workflow across various versions of Node.js. Achieving this requires implementing a **matrix strategy**. With this approach, we can define custom keys, such as `os` and `node-version`, which can then be referenced in our [<VPIcon icon="iconfont icon-github"/>runs-on](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idruns-on) workflow syntax or used as an argument in our [Node.js setup (<VPIcon icon="iconfont icon-github" />`actions/setup-node`)](https://github.com/actions/setup-node):
+To demonstrate our TypeScript testing process, we aim to execute the same workflow across various versions of Node.js. Achieving this requires implementing a **matrix strategy**. With this approach, we can define custom keys, such as `os` and `node-version`, which can then be referenced in our [<VPIcon icon="iconfont icon-github"/>runs-on](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idruns-on) workflow syntax or used as an argument in our [Node.js setup (<VPIcon icon="iconfont icon-github"/>`actions/setup-node`)](https://github.com/actions/setup-node):
 
 ```yml
 name: 'Test'

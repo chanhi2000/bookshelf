@@ -23,7 +23,7 @@ date: 2021-06-07
 isOriginal: false
 author:
   - name: Lawrence Eagles
-    url : https://blog.logrocket.com/author/lawrenceoputa/
+    url: https://blog.logrocket.com/author/lawrenceoputa/
 cover: /assets/image/blog.logrocket.com/a-deep-dive-into-css-modules/banner.png
 ---
 

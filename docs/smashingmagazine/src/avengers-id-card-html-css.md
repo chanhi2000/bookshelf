@@ -23,7 +23,7 @@ date: 2018-06-04
 isOriginal: false
 author:
   - name: Kunal Sarkar
-    url : https://smashingmagazine.com/author/kunal-sarkar/
+    url: https://smashingmagazine.com/author/kunal-sarkar/
 cover: https://files.smashing.media/articles/avengers-id-card-html-css/7-avengers-id-tutorial.jpg
 ---
 

@@ -24,7 +24,7 @@ date: 2024-06-18
 isOriginal: false
 author:
   - name: Samyak Jain
-    url : https://freecodecamp.org/news/author/samyakjainblog/
+    url: https://freecodecamp.org/news/author/samyakjainblog/
 cover: https://freecodecamp.org/news/content/images/2024/07/first-class-functions-high-order-functions-and-closures-in-python.png
 ---
 

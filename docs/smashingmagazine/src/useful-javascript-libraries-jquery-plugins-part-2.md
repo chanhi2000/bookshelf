@@ -26,7 +26,7 @@ date: 2012-09-26
 isOriginal: false
 author:
   - name: Vitaly Friedman
-    url : https://smashingmagazine.com/author/vitaly-friedman/
+    url: https://smashingmagazine.com/author/vitaly-friedman/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/7e17ddbb-78d3-41bf-81f5-6d9e098aa7ed/prism.gif
 ---
 
@@ -252,7 +252,7 @@ Below you’ll find a brief overview and links to the libraries and tools featur
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/730ff04af4f52bddc83fdde8d724489e2f0324c8df0a9640b40f1a8daa357c6d/tcorral/Cutter.js"/>
 
-[Cutter.js (<VPIcon icon="iconfont icon-github" />`tcorral/Cutter.js`)](https://github.com/tcorral/Cutter.js) This library solves the problem when cutting content by a number of words is required but you don’t want to change the markup. It simply cuts the content to the required length, while allowing the user to see the full content again.
+[Cutter.js (<VPIcon icon="iconfont icon-github"/>`tcorral/Cutter.js`)](https://github.com/tcorral/Cutter.js) This library solves the problem when cutting content by a number of words is required but you don’t want to change the markup. It simply cuts the content to the required length, while allowing the user to see the full content again.
 
 <SiteInfo
   name="rviscomi/trunk8"
@@ -261,7 +261,7 @@ Below you’ll find a brief overview and links to the libraries and tools featur
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/975f458ee9ca421251666db9df7c9cf4496276c553fccf50f141d22e7cb5dd81/rviscomi/trunk8"/>
 
-[Trunk8 (<VPIcon icon="iconfont icon-github" />`rviscomi/trunk8`)](https://github.com/rviscomi/trunk8) Trunk8 is a text truncation jQuery plugin that cuts off just enough text from a large block of text to prevent it from spilling over. While conventional truncation just limits the character length, this library is able to measure the content area for spill-over and chooses the text that best fits into a given space.
+[Trunk8 (<VPIcon icon="iconfont icon-github"/>`rviscomi/trunk8`)](https://github.com/rviscomi/trunk8) Trunk8 is a text truncation jQuery plugin that cuts off just enough text from a large block of text to prevent it from spilling over. While conventional truncation just limits the character length, this library is able to measure the content area for spill-over and chooses the text that best fits into a given space.
 
 <SiteInfo
   name="padolsey/relevancy.js"
@@ -270,7 +270,7 @@ Below you’ll find a brief overview and links to the libraries and tools featur
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/97051b45c44612fe819d259c8288ea03cca0b0e34c4ea1d9c25d3ca8298bcf5b/padolsey/relevancy.js"/>
 
-[Relevancy.js (<VPIcon icon="iconfont icon-github" />`padolsey/relevancy.js`)](https://github.com/padolsey/relevancy.js) This library allows you to sort an array of items based on their relevancy. This script is attempting to implement basic partial matching which so far has not been successfully implemented. It assigns strings to their respective elements.
+[Relevancy.js (<VPIcon icon="iconfont icon-github"/>`padolsey/relevancy.js`)](https://github.com/padolsey/relevancy.js) This library allows you to sort an array of items based on their relevancy. This script is attempting to implement basic partial matching which so far has not been successfully implemented. It assigns strings to their respective elements.
 
 ### Manipulating Tables And Lists
 
@@ -369,7 +369,7 @@ der1.jpg)
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/2cc6ef5bbc1826145f36e9074113d9cacf7be9091a1015d14e644fcba69b11ba/23/resumable.js"/>
 
-[Resumable.js (<VPIcon icon="iconfont icon-github" />`23/resumable.js`)](https://github.com/23/resumable.js) The library is designed to introduce fault-tolerance into the upload of large files through HTTP. It thus provides multiple, simultaneous and resumable uploads through the HTML5 File API. That means, losing the networks connection doesn’t require a completely new upload. Users can also manage their uploads without loss of data. However, due to the reliance on the HTML5 File API, support is currently limited to Firefox 4+ and Chrome 11+.
+[Resumable.js (<VPIcon icon="iconfont icon-github"/>`23/resumable.js`)](https://github.com/23/resumable.js) The library is designed to introduce fault-tolerance into the upload of large files through HTTP. It thus provides multiple, simultaneous and resumable uploads through the HTML5 File API. That means, losing the networks connection doesn’t require a completely new upload. Users can also manage their uploads without loss of data. However, due to the reliance on the HTML5 File API, support is currently limited to Firefox 4+ and Chrome 11+.
 
 <SiteInfo
   name="browserstate/history.js"
@@ -379,7 +379,7 @@ der1.jpg)
   preview="https://opengraph.githubassets.com/2407b49fd6811149865cbb877af66aec235805a73583fccaae5a4b20abc12869/browserstate/history.js"/>
 
 
-[History.js (<VPIcon icon="iconfont icon-github" />`balupton/History.js`)](https://github.com/balupton/History.js/) The library gracefully supports the HTML5 History/State APIs (`pushState`, `replaceState`, `onPopState`) in all browsers. Including continued support for data, titles, replaceState. Supports jQuery, MooTools and Prototype. You can modify the URL directly, without needing to use hashes.
+[History.js (<VPIcon icon="iconfont icon-github"/>`balupton/History.js`)](https://github.com/balupton/History.js/) The library gracefully supports the HTML5 History/State APIs (`pushState`, `replaceState`, `onPopState`) in all browsers. Including continued support for data, titles, replaceState. Supports jQuery, MooTools and Prototype. You can modify the URL directly, without needing to use hashes.
 
 <SiteInfo
   name="tombonner/jurlp"
@@ -388,7 +388,7 @@ der1.jpg)
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/e06b5a631da4de71eaf9b4c4df7f6dbe669e259308427bc248c1d7623c19da2c/tombonner/jurlp"/>
 
-[Jurlp (<VPIcon icon="iconfont icon-github" />`tombonner/jurlp`)](https://github.com/tombonner/jurlp) Jurlp is a jQuery URL parser plugin for parsing, manipulating, filtering and monitoring URLs in `href` and `src` attributes within arbitrary elements, as well as creating anchor elements from URLs found in HTML or text.
+[Jurlp (<VPIcon icon="iconfont icon-github"/>`tombonner/jurlp`)](https://github.com/tombonner/jurlp) Jurlp is a jQuery URL parser plugin for parsing, manipulating, filtering and monitoring URLs in `href` and `src` attributes within arbitrary elements, as well as creating anchor elements from URLs found in HTML or text.
 
 ![Jurlp](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/641c2276-957c-4898-89c3-45b05b147614/js-01-126.jpg)
 
@@ -401,7 +401,7 @@ URI.js To work with URLs you could use this JavaScript library, that offers a jQ
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/6bf81d99264a4892b4cdb79d557cdcfedcb0020015bb168b6ece36bfe9e3fd05/jairajs89/Touchy.js"/>
   
-[Touchy.js (<VPIcon icon="iconfont icon-github" />`jairajs89/Touchy.js`)](https://github.com/jairajs89/Touchy.js) A JavaScript library which handles touch events without any dependencies. It’s an easy way to assign hand functionality for touchscreen devices to your website. You might want to check out [Hammer.js](https://eightmedia.github.com/hammer.js/) as well.
+[Touchy.js (<VPIcon icon="iconfont icon-github"/>`jairajs89/Touchy.js`)](https://github.com/jairajs89/Touchy.js) A JavaScript library which handles touch events without any dependencies. It’s an easy way to assign hand functionality for touchscreen devices to your website. You might want to check out [Hammer.js](https://eightmedia.github.com/hammer.js/) as well.
 
 ![Touchy.js](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/843930ee-f78c-4900-985d-5d95d48e957f/js-01-105.jpg)
 
@@ -431,7 +431,7 @@ URI.js To work with URLs you could use this JavaScript library, that offers a jQ
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/6f930a319c1f1d537295d3941740a1b0b4217266be12881498b7f97f106fad57/yatil/accessifyhtml5.js"/>
 
-[accessifyhtml5.js (<VPIcon icon="iconfont icon-github" />`yatil/accessifyhtml5.js`)](https://github.com/yatil/accessifyhtml5.js) Eric Eggert has released a practical polyfill to make HTML5 more accessible. Most modern browsers work fine with HTML5’s new semantic elements, however, they often lack the ARIA accessibility attributes that the specification demands. This small script adds those attributes to enhance accessibility of web sites.
+[accessifyhtml5.js (<VPIcon icon="iconfont icon-github"/>`yatil/accessifyhtml5.js`)](https://github.com/yatil/accessifyhtml5.js) Eric Eggert has released a practical polyfill to make HTML5 more accessible. Most modern browsers work fine with HTML5’s new semantic elements, however, they often lack the ARIA accessibility attributes that the specification demands. This small script adds those attributes to enhance accessibility of web sites.
 
 ![accessifyhtml5.js](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/62de9a30-8a5e-413f-805c-9adabf8ae43d/js-01-107.jp)
 
@@ -502,7 +502,7 @@ URI.js To work with URLs you could use this JavaScript library, that offers a jQ
 }
 ```
 
-[<VPIcon icon="fas fa-globe"/>XRegExp](https://xregexp.com/) An open source MIT licensed JavaScript library, XRegExp provides augmented, extensible regular expressions. The library provides a new syntax, flags, and methods beyond what browsers support natively. Also, take a look at [Matches.js (<VPIcon icon="iconfont icon-github" />`natefaubion/matches.js`)](https://github.com/natefaubion/matches.js), an advanced pattern matching library for JavaScript.
+[<VPIcon icon="fas fa-globe"/>XRegExp](https://xregexp.com/) An open source MIT licensed JavaScript library, XRegExp provides augmented, extensible regular expressions. The library provides a new syntax, flags, and methods beyond what browsers support natively. Also, take a look at [Matches.js (<VPIcon icon="iconfont icon-github"/>`natefaubion/matches.js`)](https://github.com/natefaubion/matches.js), an advanced pattern matching library for JavaScript.
 
 ![XRegExp](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b774c847-9702-4450-ac6a-68d13b6d2449/js-01-128.jpg)
 
@@ -522,7 +522,7 @@ URI.js To work with URLs you could use this JavaScript library, that offers a jQ
 
 ![Filer.js](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9c6e5cab-7cbd-4c07-b835-16545a415173/js-01-120.jpg)
 
-[Client Side Caching For JavaScript (<VPIcon icon="iconfont icon-github" />`d0ugal/locache`)](https://github.com/d0ugal/locache) Server caching is useful for quick response times, but sometimes, especially when you are developing a Web application, you migh need to cache objects client-side rather than server-side. Maybe you need to cache something for offline use, or for reuse later. That’s where [locache.js (<VPIcon icon="iconfont icon-github" />`d0ugal/locache`)](https://github.com/d0ugal/locache) comes in. It’s a JavaScript caching framework for client side caching in the browser using HTML5 local storage. The library has a memcache-similar API, no dependencies and is very small. And the best part: locache gracefully degrades when the browser doesn’t support local storage. So users with IE6 and IE7 will not get any errors, but as developers say, “caching attempts will be silently dropped and lookups will always appear to be a cache miss.” You can provide an expiration time for cached objects as well.
+[Client Side Caching For JavaScript (<VPIcon icon="iconfont icon-github"/>`d0ugal/locache`)](https://github.com/d0ugal/locache) Server caching is useful for quick response times, but sometimes, especially when you are developing a Web application, you migh need to cache objects client-side rather than server-side. Maybe you need to cache something for offline use, or for reuse later. That’s where [locache.js (<VPIcon icon="iconfont icon-github"/>`d0ugal/locache`)](https://github.com/d0ugal/locache) comes in. It’s a JavaScript caching framework for client side caching in the browser using HTML5 local storage. The library has a memcache-similar API, no dependencies and is very small. And the best part: locache gracefully degrades when the browser doesn’t support local storage. So users with IE6 and IE7 will not get any errors, but as developers say, “caching attempts will be silently dropped and lookups will always appear to be a cache miss.” You can provide an expiration time for cached objects as well.
 
 ![JavaScript Library](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fd935f41-5a14-40bf-8c08-fc7dc3c42d2d/nl-7.jpg)
 

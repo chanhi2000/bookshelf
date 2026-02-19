@@ -33,7 +33,7 @@ date: 2025-09-25
 isOriginal: false
 author:
   - name: Ayush Singh (@AyushSinghSh)
-    url : https://youtube.com/@AyushSinghSh
+    url: https://youtube.com/@AyushSinghSh
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758809078183/d59211ff-0429-40dc-8313-738889bb2884.jpeg
 ---
 

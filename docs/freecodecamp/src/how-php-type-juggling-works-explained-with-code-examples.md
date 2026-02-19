@@ -23,7 +23,7 @@ date: 2025-04-16
 isOriginal: false
 author:
   - name: Michael Para
-    url : https://freecodecamp.org/news/author/Michael-para/
+    url: https://freecodecamp.org/news/author/Michael-para/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744752144618/3f40dca7-3148-44fc-8cc0-c10315e706e3.png
 ---
 

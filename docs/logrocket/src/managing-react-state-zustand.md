@@ -29,7 +29,7 @@ date: 2021-02-14
 isOriginal: false
 author:
   - name: Lorenz Weiß
-    url : https://blog.logrocket.com/author/lorenzweis/
+    url: https://blog.logrocket.com/author/lorenzweis/
 cover: /assets/image/blog.logrocket.com/managing-react-state-zustand/banner.png
 ---
 

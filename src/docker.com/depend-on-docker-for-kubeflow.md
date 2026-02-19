@@ -26,7 +26,7 @@ date: 2019-11-07
 isOriginal: false
 author:
   - name: Alex Iankoulski
-    url : https://docker.com/author/alex-iankoulski/
+    url: https://docker.com/author/alex-iankoulski/
 cover: https://docker.com/app/uploads/2019/11/Docker-Kubeflow-fig1.png
 ---
 

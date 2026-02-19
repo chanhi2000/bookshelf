@@ -26,7 +26,7 @@ date: 2025-10-22
 isOriginal: false
 author:
   - name: Carlos Valentin (@BlossomBuild)
-    url : https://youtube.com/@BlossomBuild
+    url: https://youtube.com/@BlossomBuild
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761072521870/418af7e2-c265-4088-8432-19dad9d1b194.jpeg
 ---
 

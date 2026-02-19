@@ -23,7 +23,7 @@ date: 2019-04-08
 isOriginal: false
 author:
   - name: Rachel Andrew
-    url : https://smashingmagazine.com/author/rachel-andrew/
+    url: https://smashingmagazine.com/author/rachel-andrew/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/df4d7ab7-0e02-420b-8f2a-b89282547ecb/display-property-sharing-card-rachel-andrew.png
 ---
 

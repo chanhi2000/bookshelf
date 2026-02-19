@@ -29,7 +29,7 @@ date: 2023-02-09
 isOriginal: false
 author:
   - name: Ohans Emmanuel
-    url : https://blog.logrocket.com/author/ohansemmanuel/
+    url: https://blog.logrocket.com/author/ohansemmanuel/
 cover: /assets/image/blog.logrocket.com/build-powerful-react-forms-with-informed/banner.png
 ---
 

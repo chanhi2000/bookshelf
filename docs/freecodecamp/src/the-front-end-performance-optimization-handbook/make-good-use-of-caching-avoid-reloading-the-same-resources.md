@@ -23,7 +23,7 @@ date: 2025-05-07
 isOriginal: false
 author:
   - name: Gordan Tan
-    url : https://freecodecamp.org/news/author/woai3c/
+    url: https://freecodecamp.org/news/author/woai3c/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746468304666/ca24ac6b-1591-4abf-a544-739fbfaecf49.png
 ---
 

@@ -26,7 +26,7 @@ date: 2023-02-22
 isOriginal: false
 author:
   - name: Philipp Acsany
-    url : https://realpython.com/team/pacsany/
+    url: https://realpython.com/team/pacsany/
 cover: https://files.realpython.com/media/Showcase-Working-with-the-Terminal_Watermarked.5edec84a1425.jpg
 ---
 

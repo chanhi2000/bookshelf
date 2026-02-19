@@ -27,7 +27,7 @@ date: 2024-11-21
 isOriginal: false
 author:
   - name: Faraz Kelhini
-    url : https://blog.logrocket.com/author/farazkelhini/
+    url: https://blog.logrocket.com/author/farazkelhini/
 cover: /assets/image/blog.logrocket.com/axios-vs-fetch-best-http-requests/banner.jpg
 ---
 

@@ -24,7 +24,7 @@ date: 2022-11-18
 isOriginal: false
 author:
   - name: Brian De Sousa
-    url : https://blog.logrocket.com/author/briandesousa/
+    url: https://blog.logrocket.com/author/briandesousa/
 cover: /assets/image/blog.logrocket.com/core-web-vitals-best-practices-spas/banner.png
 ---
 
@@ -89,7 +89,7 @@ Despite their relatively short lifespan, a variety of tools and packages can alr
 - [<VPIcon icon="fa-brands fa-google"/>Core Web Vitals report on the Google Search Console](https://support.google.com/webmasters/answer/9205520): The Google Search Console provides a Core Web Vitals report for each of your registered web properties
 - [<VPIcon icon="fa-brands fa-chrome"/>Chrome DevTools](https://developer.chrome.com/blog/new-in-devtools-88/): Starting with Chrome 88, the DevTools **Performance** tab includes a Web Vitals lane that displays some of the Core Web Vitals scores
 - [<VPIcon icon="iconfont icon-webdev"/>Lighthouse](https://web.dev/lighthouse-whats-new-6.0/): Lighthouse 6.0 (also available in Chrome DevTools) can generate reports that include Web Vitals metrics
-- [web-vitals (<VPIcon icon="iconfont icon-github" />`GoogleChrome/web-vitals`)](https://github.com/GoogleChrome/web-vitals): This is a JavaScript library that can be integrated into your web app. It includes a simple set of functions that capture Core Web Vital events and data
+- [web-vitals (<VPIcon icon="iconfont icon-github"/>`GoogleChrome/web-vitals`)](https://github.com/GoogleChrome/web-vitals): This is a JavaScript library that can be integrated into your web app. It includes a simple set of functions that capture Core Web Vital events and data
 - [<VPIcon icon="iconfont icon-logrocket"/>LogRocket](https://logrocket.com): LogRocket correlates Web Vitals metrics with business impact. In addition to monitoring Web Vitals, LogRocket monitors page load times, CPU/memory usage, browser crashes, and React component rendering
 
 ### Adding the web-vitals library to a single-page app
@@ -102,7 +102,7 @@ Otherwise, head over to the [<VPIcon icon="fa-brands fa-npm"/>`web-vitals` packa
 
 ## Measuring and improving Core Web Vitals scores for SPAs
 
-As we look more closely at each of the Core Web Vitals, we will also use a few of these tools in action. We’ll use the [Northern Getaway Backyard Solutions (<VPIcon icon="iconfont icon-github" />`briandesousa/web-vitals-demo`)](https://github.com/briandesousa/web-vitals-demo/tree/main) sample SPA to simulate situations that result in weak Web Vitals. The source code for the sample app is [available on GitHub (<VPIcon icon="iconfont icon-github" />`briandesousa/web-vitals-demo`)](https://github.com/briandesousa/web-vitals-demo).
+As we look more closely at each of the Core Web Vitals, we will also use a few of these tools in action. We’ll use the [Northern Getaway Backyard Solutions (<VPIcon icon="iconfont icon-github"/>`briandesousa/web-vitals-demo`)](https://github.com/briandesousa/web-vitals-demo/tree/main) sample SPA to simulate situations that result in weak Web Vitals. The source code for the sample app is [available on GitHub (<VPIcon icon="iconfont icon-github"/>`briandesousa/web-vitals-demo`)](https://github.com/briandesousa/web-vitals-demo).
 
 The Northern Getaway Backyard Solutions demo app was generated using Create React App, so no additional web-vitals package setup was required. For convenience, Core Web Vitals scores are displayed at the top of the app as they become available:
 
@@ -116,7 +116,7 @@ Keep in mind that Web Vitals scores will differ between users due to variables l
 
 Cumulative Layout Shift quantifies the visual stability of a webpage. Perhaps the most relatable example of layout shift involves on-page advertisements. Most users have found themselves reading content on a webpage only to have the text shift down and sometimes even off screen as advertisements are loaded and inserted into the page. This sort of uncomfortable user experience is what CLS attempts to measure.
 
-The [Layout Stability API (<VPIcon icon="iconfont icon-github" />`WICG/layout-instability`)](https://github.com/WICG/layout-instability) is a specification that defines how CLS is measured and what is considered to be a layout shift. According to this specification, not all layout shifts count towards the CLS score. For example, CSS transforms or a user scrolling a page do not affect the CLS score.
+The [Layout Stability API (<VPIcon icon="iconfont icon-github"/>`WICG/layout-instability`)](https://github.com/WICG/layout-instability) is a specification that defines how CLS is measured and what is considered to be a layout shift. According to this specification, not all layout shifts count towards the CLS score. For example, CSS transforms or a user scrolling a page do not affect the CLS score.
 
 CLS scores start at 0. The original CLS scoring algorithm increased CLS as elements shifted in the viewport until the next page load event. This algorithm could have led to unreasonably high CLS scores for long-lived pages like single-page apps. Imagine a single-page app with client-side routing. Each route change displays new content, which is the expected behavior, yet the CLS score continually increases.
 
@@ -364,7 +364,7 @@ First Input Delay (FID)
 
 ## What’s next for Web Vitals?
 
-There are [active discussions (<VPIcon icon="iconfont icon-github" />`GoogleChrome/web-vitals`)](https://github.com/GoogleChrome/web-vitals/issues/119) between the Google Chrome team and SPA developers regarding the applicability of Core Web Vitals to single-page apps. Some of those discussions have already led to changes, particularly the [<VPIcon icon="iconfont icon-webdev"/>evolution of CLS](https://web.dev/evolving-cls/). Google has also indicated that the Core Web Vitals are expected to evolve over time. We may see new Web Vitals rise to prominence and add to or replace existing Core Web Vitals.
+There are [active discussions (<VPIcon icon="iconfont icon-github"/>`GoogleChrome/web-vitals`)](https://github.com/GoogleChrome/web-vitals/issues/119) between the Google Chrome team and SPA developers regarding the applicability of Core Web Vitals to single-page apps. Some of those discussions have already led to changes, particularly the [<VPIcon icon="iconfont icon-webdev"/>evolution of CLS](https://web.dev/evolving-cls/). Google has also indicated that the Core Web Vitals are expected to evolve over time. We may see new Web Vitals rise to prominence and add to or replace existing Core Web Vitals.
 
 Support for Web Vitals outside of Google tools continues to grow. A quick search for Web Vitals-related packages on npm [<VPIcon icon="fa-brands fa-npm"/>yielded 27 results](https://npmjs.com/search?q=web-vitals&page=1&perPage=20) at the time of writing. These search results include packages that integrate with some of today’s most popular frontend libraries and frameworks, including React, Vue.js, Nuxt.js, and Gatsby.
 

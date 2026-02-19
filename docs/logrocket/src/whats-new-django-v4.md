@@ -27,7 +27,7 @@ date: 2021-12-30
 isOriginal: false
 author:
   - name: Popoola Temitope
-    url : https://blog.logrocket.com/author/popoolatemitope/
+    url: https://blog.logrocket.com/author/popoolatemitope/
 cover: /assets/image/blog.logrocket.com/whats-new-django-v4/banner.png
 ---
 

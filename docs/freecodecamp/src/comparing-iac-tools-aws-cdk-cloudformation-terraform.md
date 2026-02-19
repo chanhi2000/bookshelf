@@ -32,7 +32,7 @@ date: 2024-06-04
 isOriginal: false
 author:
   - name: Ifeanyi Otuonye
-    url : https://freecodecamp.org/news/author/REXTECH/
+    url: https://freecodecamp.org/news/author/REXTECH/
 cover: https://freecodecamp.org/news/content/images/size/w1000/2024/06/Level-Up-Tech-Design-Portfolio.jpg
 ---
 

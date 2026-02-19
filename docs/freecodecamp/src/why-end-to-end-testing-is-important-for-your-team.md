@@ -27,7 +27,7 @@ date: 2017-12-04
 isOriginal: false
 author:
   - name: Phong Huynh
-    url : https://freecodecamp.org
+    url: https://freecodecamp.org
 cover: https://cdn-media-1.freecodecamp.org/images/1*KMFrX776LOznXpsJSfQXVw.jpeg
 ---
 

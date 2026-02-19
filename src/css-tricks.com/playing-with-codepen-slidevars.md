@@ -23,7 +23,7 @@ date: 2026-01-14
 isOriginal: false
 author:
   - name: Geoff Graham
-    url : https://css-tricks.com/author/geoffgraham/
+    url: https://css-tricks.com/author/geoffgraham/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/01/codepen-slidevars.png
 ---
 
@@ -59,7 +59,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/01/codepen-slide
   :default-tab="['css','result']"
   :theme="dark"/>
 
-That’s a tool called [<VPIcon icon="fas fa-globe"/>TweakPane](https://tweakpane.github.io/docs/v3/) doing the work. There’s another one called [Knobs (<VPIcon icon="iconfont icon-github" />`yairEO/knobs`)](https://github.com/yairEO/knobs) by [<VPIcon icon="iconfont icon-css-tricks"/>Yair Even Or](https://css-tricks.com/author/vsync-design/) that [Adam Argyle (<VPIcon icon="fa-brands fa-codepen"/>`argyleink`)](https://codepen.io/argyleink) often uses:
+That’s a tool called [<VPIcon icon="fas fa-globe"/>TweakPane](https://tweakpane.github.io/docs/v3/) doing the work. There’s another one called [Knobs (<VPIcon icon="iconfont icon-github"/>`yairEO/knobs`)](https://github.com/yairEO/knobs) by [<VPIcon icon="iconfont icon-css-tricks"/>Yair Even Or](https://css-tricks.com/author/vsync-design/) that [Adam Argyle (<VPIcon icon="fa-brands fa-codepen"/>`argyleink`)](https://codepen.io/argyleink) often uses:
 
 <CodePen
   user="anon"

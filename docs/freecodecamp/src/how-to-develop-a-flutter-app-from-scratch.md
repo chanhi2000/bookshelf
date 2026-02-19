@@ -25,7 +25,7 @@ date: 2024-04-27
 isOriginal: false
 author:
   - name: Oleh Romanyuk
-    url : https://freecodecamp.org/news/author/OlehRomanyuk/
+    url: https://freecodecamp.org/news/author/OlehRomanyuk/
 cover: https://freecodecamp.org/news/content/images/2024/04/1060---539.jpg
 ---
 

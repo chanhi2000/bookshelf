@@ -23,7 +23,7 @@ date: 2025-02-05
 isOriginal: false
 author:
   - name: Gursimar Singh
-    url : https://freecodecamp.org/news/author/gursimar/
+    url: https://freecodecamp.org/news/author/gursimar/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738612280310/a3e39db8-66e9-45f5-9bc1-60cfa426a001.png
 ---
 

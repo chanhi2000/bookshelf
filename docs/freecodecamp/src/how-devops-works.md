@@ -23,7 +23,7 @@ date: 2023-04-18
 isOriginal: false
 author:
   - name: Satyam Tripathi
-    url : https://freecodecamp.org/news/author/triposat
+    url: https://freecodecamp.org/news/author/triposat
 cover: https://freecodecamp.org/news/content/images/2023/03/Getting-Started-With-DevOps--3--1.png
 ---
 

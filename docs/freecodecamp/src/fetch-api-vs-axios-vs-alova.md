@@ -27,7 +27,7 @@ date: 2025-04-02
 isOriginal: false
 author:
   - name: Abdullah Salaudeen
-    url : https://freecodecamp.org/news/author/AbdullahInBytes/
+    url: https://freecodecamp.org/news/author/AbdullahInBytes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743605319873/9f7583a0-1b01-4714-9fe6-f39bed3954e8.png
 ---
 

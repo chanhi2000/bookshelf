@@ -29,7 +29,7 @@ date: 2025-07-30
 isOriginal: false
 author:
   - name: Marin Todorov
-    url : https://tecmint.com/author/marintodorov89/
+    url: https://tecmint.com/author/marintodorov89/
 cover: https://tecmint.com/wp-content/uploads/2018/10/Create-Alias-in-Linux.png
 ---
 

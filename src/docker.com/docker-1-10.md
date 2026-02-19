@@ -25,7 +25,7 @@ date: 2016-02-05
 isOriginal: false
 author:
   - name: Docker Core Engineering
-    url : https://docker.com/author/core_eng/
+    url: https://docker.com/author/core_eng/
 cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png
 ---
 

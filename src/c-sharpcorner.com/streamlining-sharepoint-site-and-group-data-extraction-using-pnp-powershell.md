@@ -30,7 +30,7 @@ date: 2025-08-19
 isOriginal: false
 author:
   - name: Keyur Pandya
-    url : https://c-sharpcorner.com/members/keyur-pandya
+    url: https://c-sharpcorner.com/members/keyur-pandya
 cover: https://c-sharpcorner.com/images/csharp-corner-new.png
 ---
 

@@ -27,7 +27,7 @@ date: 2025-07-23
 isOriginal: false
 author:
   - name: Muhammad Omar Al Najjar (@GlitchyDevs)
-    url : https://youtube.com/@GlitchyDevs
+    url: https://youtube.com/@GlitchyDevs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753277448558/bdf2acef-f5cd-4be7-9e34-eaaedf060c32.png
 ---
 

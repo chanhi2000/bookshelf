@@ -37,7 +37,7 @@ date: 2025-07-19
 isOriginal: false
 author:
   - name: Okoro Emmanuel Nzube
-    url : https://freecodecamp.org/news/author/Derekvibe/
+    url: https://freecodecamp.org/news/author/Derekvibe/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752879185676/ab0574c8-d16b-41d0-8883-7df0f4bd0eb5.png
 ---
 

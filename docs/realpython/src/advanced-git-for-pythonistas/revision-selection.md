@@ -22,7 +22,7 @@ date: 2018-08-13
 isOriginal: false
 author:
   - name: Jim Anderson
-    url : https://realpython.com/team/janderson/
+    url: https://realpython.com/team/janderson/
 cover: https://files.realpython.com/media/Advanced-Git-for-Python-Developers_Watermarked.2b24c6a6fe45.jpg
 ---
 

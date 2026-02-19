@@ -23,7 +23,7 @@ date: 2025-12-09
 isOriginal: false
 author:
   - name: Geoff Graham
-    url : https://css-tricks.com/author/geoffgraham/
+    url: https://css-tricks.com/author/geoffgraham/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/04/type-scale.png
 ---
 

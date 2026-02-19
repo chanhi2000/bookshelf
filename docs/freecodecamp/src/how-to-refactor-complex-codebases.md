@@ -24,7 +24,7 @@ date: 2025-05-22
 isOriginal: false
 author:
   - name: Ankur Tyagi
-    url : https://freecodecamp.org/news/author/TheAnkurTyagi/
+    url: https://freecodecamp.org/news/author/TheAnkurTyagi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747835131515/f6ea465a-9b14-4918-8943-87ec225b19b3.png
 ---
 

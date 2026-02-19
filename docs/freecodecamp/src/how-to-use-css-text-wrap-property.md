@@ -23,7 +23,7 @@ date: 2025-04-14
 isOriginal: false
 author:
   - name: Azubuike Duru
-    url : https://freecodecamp.org/news/author/azubuikeduru/
+    url: https://freecodecamp.org/news/author/azubuikeduru/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744638131989/38357168-abda-4f7b-8c4f-568f64b586df.png
 ---
 

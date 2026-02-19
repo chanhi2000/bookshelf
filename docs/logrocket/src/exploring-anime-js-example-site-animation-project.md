@@ -25,7 +25,7 @@ date: 2023-03-06
 isOriginal: false
 author:
   - name: Temitope Oyedele
-    url : https://blog.logrocket.com/author/temitopeoyedele/
+    url: https://blog.logrocket.com/author/temitopeoyedele/
 cover: /assets/image/blog.logrocket.com/exploring-anime-js-example-site-animation-project/banner.png
 ---
 

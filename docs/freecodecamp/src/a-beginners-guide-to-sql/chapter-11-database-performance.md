@@ -22,7 +22,7 @@ date: 2023-09-05
 isOriginal: false
 author:
   - name: Lane Wagner
-    url : https://freecodecamp.org/news/author/wagslane/
+    url: https://freecodecamp.org/news/author/wagslane/
 cover: https://freecodecamp.org/news/content/images/2023/09/The-SQL-Handbook-Cover.png
 ---
 

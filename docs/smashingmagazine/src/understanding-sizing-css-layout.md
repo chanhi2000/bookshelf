@@ -23,7 +23,7 @@ date: 2018-01-16
 isOriginal: false
 author:
   - name: Rachel Andrew
-    url : https://smashingmagazine.com/author/rachel-andrew/
+    url: https://smashingmagazine.com/author/rachel-andrew/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/52b36613-3bf6-490a-8161-58f9c4ffdaa8/can-i-use-content-sizing.png
 ---
 
@@ -94,7 +94,7 @@ When the other font relative units (`em`, `ex`, and `ch`) are used for the lengt
   slug-hash="aEBLKj"
   title="Sizing with rems and ems"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Where font relative units are calculated from font size, the viewport relative units are calculated in relation to a rectangle known as the *initial containing block*. On a screen, this has the dimensions of the viewport. The `vw` unit is 1/100 of the width of the viewport and `vh` 1/100 of the height. A box which has a width of `50vw` and a height of `50vh` should be half the width and half the height of the viewport.
 
@@ -111,7 +111,7 @@ The example below compares a block sized with `vw` and `vh` with one sized using
   slug-hash="YYpjoN"
   title="vw and vh, vmin and vmax"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![A box which is 50% of the height and 50% of the width of the viewport](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9972af63-3082-4dc3-a379-ea3be86ba4c8/vmin-vmax-desktop.png)
 
@@ -168,7 +168,7 @@ In a specification, where you see `<length-percentage>` as an allowable value fo
   slug-hash="VymNPW"
   title="length-percentage"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Those of us who have worked on the web through the era of responsive design have become accustomed to using percentages in order to create layouts which look as though they are laid out on a grid. Working in percentages gives us some degree of control, control that we need to start to give up in order to fully utilize the power of Grid and Flexbox!
 
@@ -207,7 +207,7 @@ Use `width: min-content` on the div, and the div now becomes only as large as it
   slug-hash="XVpbga"
   title="min-content"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is the min-content size of this element. The smallest it can get without any content overflowing in some way.
 
@@ -220,7 +220,7 @@ The opposite behavior happens if we use `width: max-content`. Now the box become
   slug-hash="opBXwM"
   title="max-content"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Can I Use screenshot for content sizing keywords](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/52b36613-3bf6-490a-8161-58f9c4ffdaa8/can-i-use-content-sizing.png)
 
@@ -241,7 +241,7 @@ In the next example, I have a three-column track grid. The columns are sized usi
   slug-hash="YYNXbo"
   title="min-content in Grid Layout"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### max-content
 
@@ -252,7 +252,7 @@ If we look at the same example as for `min-content` but change the columns to ea
   slug-hash="wpgKwW"
   title="max-content in Grid Layout"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### fit-content
 
@@ -265,7 +265,7 @@ All three column tracks in the example below are sized using `fit-content(10em)`
   slug-hash="zpNvPe"
   title="fit-content in Grid Layout"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 
@@ -288,7 +288,7 @@ In both layouts, the final item has a width of 200px. You can see how that width
   slug-hash="PEWraG"
   title="Grid tracks and flex-basis of auto"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We will return to the way that `auto` behaves, and how it can be useful in combination with other track sizing methods after moving onto yet another way to size grid tracks.
 
@@ -307,7 +307,7 @@ You will often see a demo like the one below, where we have created three *equal
   slug-hash="WdRQaM"
   title="The fr unit"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The `fr` unit here is acting much like Flexbox behaves if your `flex-basis` is `0`. Grid is taking all of the space in the grid container and handing one part to each track. However, Grid will not cause a track to overflow when doing this. This behavior can be confusing if you are under the impression that three tracks of `1fr` will always be three equal sized tracks.
 
@@ -318,7 +318,7 @@ If we add a very long word into our middle track, which cannot soft wrap, for ex
   slug-hash="QadjZm"
   title="The fr unit 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Grid is only sharing out the available space *after* ensuring that the tracks are big enough to contain the items. Grid looks at the size the track would be if we used `min-content`. If that size is *less* than the size that will be handed to the track via the `fr` unit, then the content is not taken into consideration. If that `min-content` size is *more* than the track would be given by the `fr` unit, then the `min-content` size is used for that track before the remaining space is shared out.
 
@@ -346,7 +346,7 @@ If you would like Grid, in the example above, to forcibly make the middle track 
   slug-hash="xpgwmK"
   title="The fr unit and minmax"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You can see why the specification defaults to the behavior that it does. In general, we don’t want overflows happening if there is space for the content to display, however, you have the ability to force the matter and cause the overflow if you need to.
 
@@ -357,7 +357,7 @@ The `minmax()` function is also very useful when sizing rows to prevent a row fr
   slug-hash="ppRNrb"
   title="minmax with a max of auto"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -372,7 +372,7 @@ The majority of the time, percentage sizing will work as you expect. A grid trac
   slug-hash="ppRNpE"
   title="Percentage tracks and gaps"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The place where care needs to be taken is when using percentages for vertical margins and padding. In both Flexbox and Grid, a longstanding issue means that the way vertical percentage margins and padding are calculated will differ between browsers.
 
@@ -389,7 +389,7 @@ Use of the box alignment properties in Grid Layout can also change the size of a
   slug-hash="PEWbdY"
   title="Grid tracks align and justify to start"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If I now use the Box Alignment properties `align-content` and `justify-content` with values of `space-between`, the tracks spread out as the gaps increase to absorb the extra space. Now, any item which spans more than one track has become larger as it contains the space from the now enlarged gap.
 
@@ -398,7 +398,7 @@ If I now use the Box Alignment properties `align-content` and `justify-content` 
   slug-hash="QadGVE"
   title="Grid tracks align-content and justify-content space-between"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -413,7 +413,7 @@ The example shows a flex container with four flex items; below it is a grid cont
   slug-hash="rpjjWr"
   title="Space distribution in flexbox and grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In the flexbox example, the shorter items have collapsed down to their `min-content` size, and the larger item has been given more space.
 

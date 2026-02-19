@@ -34,7 +34,7 @@ date: 2025-01-16
 isOriginal: false
 author:
   - name: Tatev T
-    url : https://freecodecamp.org/news/author/tatevaslanyan/
+    url: https://freecodecamp.org/news/author/tatevaslanyan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736973272685/95e5c575-58ee-457a-988c-1acf2b60d2aa.png
 ---
 

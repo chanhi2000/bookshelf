@@ -24,7 +24,7 @@ date: 2026-01-23
 isOriginal: false
 author:
   - name: Bala Priya C
-    url : https://freecodecamp.org/news/author/balapriyac/
+    url: https://freecodecamp.org/news/author/balapriyac/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769105598620/fad4c5d3-1633-44be-bd40-246f3eb14a97.png
 ---
 
@@ -55,7 +55,7 @@ The [<VPIcon icon="fas fa-globe"/>singleton pattern](https://refactoring.guru/de
 
 In this tutorial, I'll show you how to implement singletons in Python, explain when they might be appropriate, and discuss better alternatives for most use cases.
 
-You can find the code [on GitHub (<VPIcon icon="iconfont icon-github" />`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/singleton).
+You can find the code [on GitHub (<VPIcon icon="iconfont icon-github"/>`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/singleton).
 
 ::: note Prerequisites
 

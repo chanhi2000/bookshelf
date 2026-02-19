@@ -27,7 +27,7 @@ date: 2025-04-14
 isOriginal: false
 author:
   - name: Shamsuddoha Ranju
-    url : https://freecodecamp.org/news/author/sdranju/
+    url: https://freecodecamp.org/news/author/sdranju/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744488492225/62339e66-50ae-4546-8845-f5c86c415511.png
 ---
 

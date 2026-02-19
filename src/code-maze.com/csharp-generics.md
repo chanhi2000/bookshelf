@@ -27,7 +27,7 @@ date: 2018-10-19
 isOriginal: false
 author:
   - name: Marinko Spasojević
-    url : https://code-maze.com/author/marinko/
+    url: https://code-maze.com/author/marinko/
 cover: https://code-maze.com/wp-content/uploads/2018/10/10-Generics.png
 ---
 

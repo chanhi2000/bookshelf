@@ -24,7 +24,7 @@ date: 2026-01-09
 isOriginal: false
 author:
   - name: Atuoha Anthony
-    url : https://freecodecamp.org/news/author/atuoha/
+    url: https://freecodecamp.org/news/author/atuoha/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767815506134/4a0a4e5a-ff09-4ebe-a62a-b29a8505edb4.png
 ---
 
@@ -169,7 +169,7 @@ These tools live in your IDE. They are your pair programmers.
 
 Copilot provides both autocomplete and a chat interface, making it ideal for generating boilerplate code, writing unit tests, or explaining legacy code.
 
-To get started, install the VS Code extension, then start typing a function name or write a descriptive comment like `// function to parse CSV and return JSON`, and let Copilot autocomplete the implementation for you. You can read more about [Copilot’s features (<VPIcon icon="iconfont icon-github" />`features/copilot`)](https://github.com/features/copilot) here.
+To get started, install the VS Code extension, then start typing a function name or write a descriptive comment like `// function to parse CSV and return JSON`, and let Copilot autocomplete the implementation for you. You can read more about [Copilot’s features (<VPIcon icon="iconfont icon-github"/>`features/copilot`)](https://github.com/features/copilot) here.
 
 ![GIF of GitHub Copilot Edits in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/media/vs-2022/copilot-edits/accept-all.gif?view=visualstudio)
 
@@ -280,7 +280,7 @@ To get started with these tools, you can check out their docs here:
 
 This SDK is a tool that lets AI generate UI widgets dynamically based on user conversations, transforming chatbots from simple text interfaces into interactive experiences – like showing a flight picker or other screens. It’s best for building chatbots that need to render “screens” instead of just responding with text.
 
-To get started, you can check out the [google/flutter-genui repository (<VPIcon icon="iconfont icon-github" />`google/flutter-genui`)](https://github.com/google/flutter-genui), set up a Flutter project that listens to an LLM stream, and render widgets on the fly as the AI responds.
+To get started, you can check out the [google/flutter-genui repository (<VPIcon icon="iconfont icon-github"/>`google/flutter-genui`)](https://github.com/google/flutter-genui), set up a Flutter project that listens to an LLM stream, and render widgets on the fly as the AI responds.
 
 ![GitHub - flutter/genui](https://opengraph.githubassets.com/4ddc77c0c5e48acd439cc325765a27faa39aa497c7e9f875ee76f11877d25213/flutter/genui)
 

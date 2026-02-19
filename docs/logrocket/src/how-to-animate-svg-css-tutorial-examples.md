@@ -23,7 +23,7 @@ date: 2024-01-11
 isOriginal: false
 author:
   - name: Hope Armstrong
-    url : https://blog.logrocket.com/author/hopearmstrong/
+    url: https://blog.logrocket.com/author/hopearmstrong/
 cover: /assets/image/blog.logrocket.com/how-to-animate-svg-css-tutorial-examples/banner.png
 ---
 

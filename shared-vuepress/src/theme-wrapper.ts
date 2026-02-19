@@ -3,7 +3,7 @@ import type { ThemeOptions } from "vuepress-theme-hope";
 import { hopeTheme } from "vuepress-theme-hope";
 
 export const theme = (
-  name: string,
+  name: string | null | undefined,
   { markdown = {}, plugins = {}, ...options }: ThemeOptions,
   /* {
     base = name.replace(/\d+$/, ""),
@@ -15,7 +15,7 @@ export const theme = (
     repo: 'chanhi2000/bookshelf',
     repoLabel: 'Github',
     repoDisplay: true,
-    docsDir: `docs/${name}/src`,
+    docsDir: `${!!name ? `docs/${name}/` : ""}src`,
     footer: 'MIT Licensed | Copyright © 2022-present <a href="https://github.com/chanhi2000">Chan Hee Lee</a>',
     displayFooter: true,
     darkmode: "enable",

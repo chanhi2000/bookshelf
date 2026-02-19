@@ -24,7 +24,7 @@ date: 2021-12-03
 isOriginal: false
 author:
   - name: Oluwatomisin Bamimore
-    url : https://blog.logrocket.com/author/oluwatomisinbamimore/
+    url: https://blog.logrocket.com/author/oluwatomisinbamimore/
 cover: /assets/image/blog.logrocket.com/concurrency-patterns-golang-waitgroups-goroutines/banner.png
 ---
 
@@ -72,7 +72,7 @@ To follow and understand this tutorial, you need the following:
 - A working [**knowledge of Go**](/blog.logrocket.com/getting-started-with-go-for-frontend-developers.md)
 - Go 1.x runtime installed on your machine
 
-You can also clone this [guide’s repository (<VPIcon icon="iconfont icon-github" />`Bamimore-Tomi/go-templates-guide`)](https://github.com/Bamimore-Tomi/go-templates-guide) to access the complete template files or run the following in your terminal:
+You can also clone this [guide’s repository (<VPIcon icon="iconfont icon-github"/>`Bamimore-Tomi/go-templates-guide`)](https://github.com/Bamimore-Tomi/go-templates-guide) to access the complete template files or run the following in your terminal:
 
 ```sh
 git clone https://github.com/Bamimore-Tomi/goroutines-logrocket.git

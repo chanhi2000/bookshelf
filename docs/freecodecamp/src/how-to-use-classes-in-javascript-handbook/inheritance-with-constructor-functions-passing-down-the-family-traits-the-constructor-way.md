@@ -22,7 +22,7 @@ date: 2025-02-18
 isOriginal: false
 author:
   - name: Spruce Emmanuel
-    url : https://freecodecamp.org/news/author/Spruce/
+    url: https://freecodecamp.org/news/author/Spruce/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739878241514/a725b4af-8061-49c2-9575-2aa4096acb74.png
 ---
 

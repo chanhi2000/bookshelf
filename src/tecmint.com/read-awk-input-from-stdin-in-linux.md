@@ -28,7 +28,7 @@ date: 2024-08-12
 isOriginal: false
 author:
   - name: Aaron Kili
-    url : https://tecmint.com/author/aaronkili/
+    url: https://tecmint.com/author/aaronkili/
 cover: https://tecmint.com/wp-content/uploads/2016/06/Read-Awk-Input-from-STDIN.png
 ---
 

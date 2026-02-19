@@ -27,7 +27,7 @@ date: 2025-01-09
 isOriginal: false
 author:
   - name: Dr. Radu Mariescu-Istodor (@Radu)
-    url : https://youtube.com/@Radu
+    url: https://youtube.com/@Radu
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736367725677/3d021d67-d8ee-4bde-af72-1c34b5c3170b.png
 ---
 

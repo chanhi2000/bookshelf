@@ -29,7 +29,7 @@ date: 2023-03-28
 isOriginal: false
 author:
   - name: Karthik Kalyanaraman
-    url : https://blog.logrocket.com/author/karthikkalyanaraman/
+    url: https://blog.logrocket.com/author/karthikkalyanaraman/
 cover: /assets/image/blog.logrocket.com/getting-started-with-create-react-app/banner.png
 ---
 

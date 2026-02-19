@@ -23,7 +23,7 @@ date: 2025-02-09
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2025/02/css-custom-functions-light-dark.png
 ---
 

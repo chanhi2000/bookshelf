@@ -29,7 +29,7 @@ date: 2025-06-04
 isOriginal: false
 author:
   - name: Chad McAllister (@ChadsPrep)
-    url : https://youtube.com/@ChadsPrep
+    url: https://youtube.com/@ChadsPrep
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748996622370/4f362422-95a2-4dfc-afa9-23325e24dcbc.png
 ---
 

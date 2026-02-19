@@ -32,7 +32,7 @@ date: 2025-05-24
 isOriginal: false
 author:
   - name: Tiago Capelo Monteiro
-    url : https://freecodecamp.org/news/author/tiagomonteiro/
+    url: https://freecodecamp.org/news/author/tiagomonteiro/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748012748947/1df613bf-93e7-4f03-b0f0-47ff49f38504.png
 ---
 

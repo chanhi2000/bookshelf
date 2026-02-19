@@ -23,7 +23,7 @@ date: 2025-01-21
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2025/01/advanced-attr-2.png
 ---
 
@@ -94,7 +94,7 @@ Try it out in the following embed:
   slug-hash="yyBKLmd"
   title="Auto view-transition-name with attr() and type(<custom-ident>)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Supporting the (upcoming) release of this more powerful `attr()` function I published a blog post on [<VPIcon icon="fa-brands fa-chrome"/>the Chrome for Developers blog](https://developer.chrome.com/) and also updated MDN:
 

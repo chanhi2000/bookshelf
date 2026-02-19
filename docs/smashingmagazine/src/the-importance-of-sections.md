@@ -23,7 +23,7 @@ date: 2013-01-18
 isOriginal: false
 author:
   - name: Heydon Pickering
-    url : https://smashingmagazine.com/author/heydon-pickering/
+    url: https://smashingmagazine.com/author/heydon-pickering/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/07b3cca6-f289-4473-adc6-47ce25f6bc96/the-importance-of-sections.png
 ---
 

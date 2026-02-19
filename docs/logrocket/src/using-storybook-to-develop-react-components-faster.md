@@ -31,7 +31,7 @@ date: 2021-02-15
 isOriginal: false
 author:
   - name: Alec Brunelle
-    url : https://blog.logrocket.com/author/alecbrunelle/
+    url: https://blog.logrocket.com/author/alecbrunelle/
 cover: /assets/image/blog.logrocket.com/using-storybook-to-develop-react-components-faster/banner.png
 ---
 
@@ -133,7 +133,7 @@ export const BlogEntryListItemLoading = () => <BlogEntryListItem loading />;
 
 We focus on the API of the component before coding the real thing. I like to mirror product requirements here.
 
-In this example, I knew some blog entry excerpts would belong, so I created a story for it. I also needed to have a loading state because I planned to use [react-loading-skeleton (<VPIcon icon="iconfont icon-github" />`dvtng/react-loading-skeleton`)](https://github.com/dvtng/react-loading-skeleton).
+In this example, I knew some blog entry excerpts would belong, so I created a story for it. I also needed to have a loading state because I planned to use [react-loading-skeleton (<VPIcon icon="iconfont icon-github"/>`dvtng/react-loading-skeleton`)](https://github.com/dvtng/react-loading-skeleton).
 
 The next step is creating the basic code for the component:
 
@@ -180,7 +180,7 @@ Without adding our `BlogEntryListItem` component to the main application, we can
 
 Look! We improved our component without even stepping foot into our main app. We can go even further using some add-ons that ensure our component is even more capable.
 
-One of the add-ons that Storybook comes with by default is [Storybook Viewport Addon (<VPIcon icon="iconfont icon-github" />`storybookjs/storybook`)](https://github.com/storybookjs/storybook/tree/next/addons/viewport), which allows you to see what your components look like on various screen sizes.
+One of the add-ons that Storybook comes with by default is [Storybook Viewport Addon (<VPIcon icon="iconfont icon-github"/>`storybookjs/storybook`)](https://github.com/storybookjs/storybook/tree/next/addons/viewport), which allows you to see what your components look like on various screen sizes.
 
 ![We can’t read excerpts on mobile!](/assets/image/blog.logrocket.com/using-storybook-to-develop-react-components-faster/storybook-screen-size-adjustment.jpeg)
 
@@ -198,11 +198,11 @@ When iterating through components, many visual changes are bound to happen. Havi
 
 ![Visual Testing example of a mobile text fix in Percy.](/assets/image/blog.logrocket.com/using-storybook-to-develop-react-components-faster/visual-testing-example-percy.jpeg)
 
-This works through a Continuous Integration service like [CircleCI](https://circleci.com/) or [Github Actions (<VPIcon icon="iconfont icon-github" />`features/actions`)](https://github.com/features/actions), you can build Storybook and use the [Percy Storybook plugin (<VPIcon icon="iconfont icon-github" />`percy/percy-storybook`)](https://github.com/percy/percy-storybook) to snapshot all of your stories. It renders every story in a consistent browser environment and sends the HTML over to Percy for it to render. It then compares these rendered stories to previous builds to mark differences, like this:
+This works through a Continuous Integration service like [CircleCI](https://circleci.com/) or [Github Actions (<VPIcon icon="iconfont icon-github"/>`features/actions`)](https://github.com/features/actions), you can build Storybook and use the [Percy Storybook plugin (<VPIcon icon="iconfont icon-github"/>`percy/percy-storybook`)](https://github.com/percy/percy-storybook) to snapshot all of your stories. It renders every story in a consistent browser environment and sends the HTML over to Percy for it to render. It then compares these rendered stories to previous builds to mark differences, like this:
 
 ![What the Percy app looks like in a pull request.](/assets/image/blog.logrocket.com/using-storybook-to-develop-react-components-faster/percy-app-pull-request.jpeg)
 
-> [Percy provides a great Github Action, which does all of this automatically (<VPIcon icon="iconfont icon-github" />`percy/storybook-action`)](https://github.com/percy/storybook-action). Here is an example pull request which implements this.
+> [Percy provides a great Github Action, which does all of this automatically (<VPIcon icon="iconfont icon-github"/>`percy/storybook-action`)](https://github.com/percy/storybook-action). Here is an example pull request which implements this.
 
 In my experience, using visual testing with Storybook has caught many regressions by spotting changes we didn’t catch in code review.
 
@@ -241,7 +241,7 @@ export const BlogEntries = (props) => {
 };
 ```
 
-It would be nice if we could mock a response from the server in Storybook to see how the component behaves in different scenarios. There is a great library called [<VPIcon icon="fas fa-globe"/>Mock Service Worker](https://mswjs.io) that will intercept browser network queries and provide mock responses. Coupled with the [Storybook add-on for this module (<VPIcon icon="iconfont icon-github" />`itaditya/msw-storybook-addon`)](https://github.com/itaditya/msw-storybook-addon), we can provide mock data:
+It would be nice if we could mock a response from the server in Storybook to see how the component behaves in different scenarios. There is a great library called [<VPIcon icon="fas fa-globe"/>Mock Service Worker](https://mswjs.io) that will intercept browser network queries and provide mock responses. Coupled with the [Storybook add-on for this module (<VPIcon icon="iconfont icon-github"/>`itaditya/msw-storybook-addon`)](https://github.com/itaditya/msw-storybook-addon), we can provide mock data:
 
 ```jsx :collapsed-lines
 import React from "react";

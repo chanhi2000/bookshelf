@@ -32,7 +32,7 @@ date: 2025-02-19
 isOriginal: false
 author:
   - name: Kayode Adeniyi
-    url : https://blog.logrocket.com/author/kayodeadeniyi/
+    url: https://blog.logrocket.com/author/kayodeadeniyi/
 cover: /assets/image/blog.logrocket.com/complete-guide-typescript-enums-react-native/banner.jpeg
 ---
 

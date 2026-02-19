@@ -24,7 +24,7 @@ date: 2024-02-03
 isOriginal: false
 author:
   - name: Musab Habeeb
-    url : https://freecodecamp.org/news/author/Musab19/
+    url: https://freecodecamp.org/news/author/Musab19/
 cover: https://freecodecamp.org/news/content/images/2024/02/Await-2.png
 ---
 

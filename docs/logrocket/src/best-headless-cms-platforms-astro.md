@@ -27,7 +27,7 @@ date: 2023-07-05
 isOriginal: false
 author:
   - name: Hamsa Harcourt
-    url : https://blog.logrocket.com/author/harcourthamsa/
+    url: https://blog.logrocket.com/author/harcourthamsa/
 cover: /assets/image/blog.logrocket.com/best-headless-cms-platforms-astro/banner.png
 ---
 

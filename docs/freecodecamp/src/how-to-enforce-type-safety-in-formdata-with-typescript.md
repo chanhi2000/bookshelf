@@ -24,7 +24,7 @@ date: 2025-03-10
 isOriginal: false
 author:
   - name: Olabisi Olaoye
-    url : https://freecodecamp.org/news/author/Olabisi09/
+    url: https://freecodecamp.org/news/author/Olabisi09/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741615550682/6e709ad7-f8bb-4d26-acad-02f168d83acc.png
 ---
 

@@ -23,7 +23,7 @@ date: 2012-04-16
 isOriginal: false
 author:
   - name: Varya Stepanova
-    url : https://smashingmagazine.com/author/varvara-stepanova/
+    url: https://smashingmagazine.com/author/varvara-stepanova/
 cover: https://smashingmagazine.com/images/smashing-homepage.png
 ---
 

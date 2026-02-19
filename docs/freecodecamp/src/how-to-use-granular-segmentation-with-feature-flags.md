@@ -25,7 +25,7 @@ date: 2025-01-24
 isOriginal: false
 author:
   - name: Kayode Adeniyi
-    url : https://freecodecamp.org/news/author/mkbadeniyi/
+    url: https://freecodecamp.org/news/author/mkbadeniyi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737681693640/2cd6aa99-94bf-48c6-b657-4cc0743312e3.png
 ---
 

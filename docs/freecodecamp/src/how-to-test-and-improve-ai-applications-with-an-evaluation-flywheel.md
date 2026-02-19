@@ -30,7 +30,7 @@ date: 2025-12-22
 isOriginal: false
 author:
   - name: Yemi Ojedapo
-    url : https://freecodecamp.org/news/author/Hyemiie/
+    url: https://freecodecamp.org/news/author/Hyemiie/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766082262126/bc54e004-7acc-49fc-b228-24524f250427.png
 ---
 

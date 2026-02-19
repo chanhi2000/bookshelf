@@ -27,7 +27,7 @@ date: 2026-02-03
 isOriginal: false
 author:
   - name: Zell Liew
-    url : https://css-tricks.com/author/zellwk/
+    url: https://css-tricks.com/author/zellwk/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/11/vs-code-highlight.jpg
 ---
 
@@ -45,7 +45,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/11/vs-code-highl
 
 ```component VPCard
 {
-  "title": "VSCode > Article(s)",
+  "title": "Visual Studio Code > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/vscode/articles/README.md",
   "logo": "/images/ico-wind.svg",
@@ -219,7 +219,7 @@ Once you have created a publisher namespace, you’ll see a glaring warning sign
 
 ![Bright orange warning banner that says, This namespace is not verified. See the documentation to learn about claiming namespaces.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/11/CleanShot-2025-11-12-at-11.38.47%402x.png?resize=1096%2C194)
 
-To claim the publisher namespace, you need to [create a GitHub issue with Eclipse Foundation (<VPIcon icon="iconfont icon-github" />`EclipseFdn/open-vsx.org`)](https://github.com/EclipseFdn/open-vsx.org/issues/new/choose) and state that you want to claim the namespace.
+To claim the publisher namespace, you need to [create a GitHub issue with Eclipse Foundation (<VPIcon icon="iconfont icon-github"/>`EclipseFdn/open-vsx.org`)](https://github.com/EclipseFdn/open-vsx.org/issues/new/choose) and state that you want to claim the namespace.
 
 In that issue:
 

@@ -32,7 +32,7 @@ date: 2021-11-16
 isOriginal: false
 author:
   - name: Emmanuel John
-    url : https://blog.logrocket.com/author/emmanueljohn/
+    url: https://blog.logrocket.com/author/emmanueljohn/
 cover: /assets/image/blog.logrocket.com/crud-golang-cockroachdb/banner.png
 ---
 

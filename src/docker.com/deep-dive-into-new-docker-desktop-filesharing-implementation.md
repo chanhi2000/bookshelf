@@ -25,7 +25,7 @@ date: 2019-12-17
 isOriginal: false
 author:
   - name: David Scott
-    url : https://docker.com/author/dscott/
+    url: https://docker.com/author/dscott/
 cover: https://docker.com/app/uploads/2020/01/shane-aldendorff-mQHEgroKw2k-unsplash-scaled.jpg
 ---
 

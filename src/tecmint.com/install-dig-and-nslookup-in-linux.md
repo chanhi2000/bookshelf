@@ -25,7 +25,7 @@ date: 2025-07-28
 isOriginal: false
 author:
   - name: James Kiarie
-    url : https://tecmint.com/author/james2030kiarie/
+    url: https://tecmint.com/author/james2030kiarie/
 cover: https://tecmint.com/wp-content/uploads/2019/11/Install-dig-and-nslookup-in-Linux.png
 ---
 

@@ -29,7 +29,7 @@ date: 2025-07-16
 isOriginal: false
 author:
   - name: Aaron Kili
-    url : https://tecmint.com/author/aaronkili/
+    url: https://tecmint.com/author/aaronkili/
 cover: https://tecmint.com/wp-content/uploads/2017/01/Sudo-Insult-Wrong-Password.png
 ---
 

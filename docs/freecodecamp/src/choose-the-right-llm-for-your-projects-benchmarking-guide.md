@@ -33,7 +33,7 @@ date: 2025-11-08
 isOriginal: false
 author:
   - name: Surya Teja Appini
-    url : https://freecodecamp.org/news/author/appinisurya/
+    url: https://freecodecamp.org/news/author/appinisurya/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762534383880/404f27c6-2995-4daa-bcac-c61b10e93abc.png
 ---
 

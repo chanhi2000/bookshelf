@@ -24,7 +24,7 @@ date: 2012-12-05
 isOriginal: false
 author:
   - name: Lars Kappert
-    url : https://smashingmagazine.com/author/lars-kappert/
+    url: https://smashingmagazine.com/author/lars-kappert/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bdcdd86f-a0fa-4e13-90a5-6c148de3193e/abstract-red-yellow-illu-opt.png
 ---
 

@@ -24,7 +24,7 @@ date: 2018-06-04
 isOriginal: false
 author:
   - name: Kyle Stratis
-    url : https://realpython.com/team/kstratis/
+    url: https://realpython.com/team/kstratis/
 cover: https://files.realpython.com/media/python_application_layout_watermark.31a037620d92.jpg
 ---
 

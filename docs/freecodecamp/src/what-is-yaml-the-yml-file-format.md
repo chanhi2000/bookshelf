@@ -23,7 +23,7 @@ date: 2022-11-12
 isOriginal: false
 author:
   - name: Dionysia Lemonaki
-    url : https://freecodecamp.org/news/author/dionysialemonaki/
+    url: https://freecodecamp.org/news/author/dionysialemonaki/
 cover: https://freecodecamp.org/news/content/images/2022/11/pexels-christina-morillo-1181675.jpg
 ---
 

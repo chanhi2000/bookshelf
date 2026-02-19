@@ -29,7 +29,7 @@ date: 2025-02-27
 isOriginal: false
 author:
   - name: Hunor Márton Borbély
-    url : https://freecodecamp.org/news/author/hunor/
+    url: https://freecodecamp.org/news/author/hunor/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740599557930/dcbb214e-c6d2-400e-8b2a-25fd81ac3c47.png
 ---
 

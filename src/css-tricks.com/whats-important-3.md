@@ -23,7 +23,7 @@ date: 2026-01-15
 isOriginal: false
 author:
   - name: Daniel Schwarz
-    url : https://css-tricks.com/author/danielschwarz/
+    url: https://css-tricks.com/author/danielschwarz/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/01/wi3.png
 ---
 
@@ -72,7 +72,7 @@ Funnily enough, I also got the opportunity to write something for Frontend Maste
 
 ## Generating gradient borders from an image source
 
-In this demo, created and posted by Ana Tudor on Bluesky, Ana [blurs an image and masks it with a border (<VPIcon icon="fa-brands fa-bluesky"/>`anatudor.bsky.social`)](https://bsky.app/profile/anatudor.bsky.social/post/3mc5awalzss2t). You can actually accomplish this in Safari using just three lines of CSS, but the cross-browser solution isn’t too complex either (the key parts are the [**`backdrop-filter`**](/css-tricks.com/almanac-properties/backdrop-filter.md) and [**`mask`**](css-tricks.com/almanac-properties/mask.md)` CSS properties).
+In this demo, created and posted by Ana Tudor on Bluesky, Ana [blurs an image and masks it with a border (<VPIcon icon="fa-brands fa-bluesky"/>`anatudor.bsky.social`)](https://bsky.app/profile/anatudor.bsky.social/post/3mc5awalzss2t). You can actually accomplish this in Safari using just three lines of CSS, but the cross-browser solution isn’t too complex either (the key parts are the [**`backdrop-filter`**](/css-tricks.com/almanac-properties/backdrop-filter.md) and [**`mask`**](/css-tricks.com/almanac-properties/mask.md)` CSS properties).
 Given the current popularity of gradients, blurs, and dare I say it, _[**glass**](/css-tricks.com/getting-clarity-on-apples-liquid-glass.md)_, it’s a pretty sweet effect that you can probably adapt for other scenarios.
 
 ---

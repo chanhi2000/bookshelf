@@ -29,7 +29,7 @@ date: 2020-12-17
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -266,8 +266,8 @@ export default PostPreview;
 
 In order to import Cascading Style Sheets (CSS) in a React Component, you will have to update your [webpack](https://webpack.js.org/) configuration with the following [loaders](https://webpack.js.org/loaders/):
 
-- The [<VPIcon icon="iconfont icon-github" />`webpack-contrib/css-loader`](https://github.com/webpack-contrib/css-loader) to interpret `import` statements with `.css` extensions
-- The [<VPIcon icon="iconfont icon-github" />`webpack-contrib/style-loader`](https://github.com/webpack-contrib/style-loader) to process styles from CSS files
+- The [<VPIcon icon="iconfont icon-github"/>`webpack-contrib/css-loader`](https://github.com/webpack-contrib/css-loader) to interpret `import` statements with `.css` extensions
+- The [<VPIcon icon="iconfont icon-github"/>`webpack-contrib/style-loader`](https://github.com/webpack-contrib/style-loader) to process styles from CSS files
 
 ```css title="PostPreview.css"
 .PostPreview {

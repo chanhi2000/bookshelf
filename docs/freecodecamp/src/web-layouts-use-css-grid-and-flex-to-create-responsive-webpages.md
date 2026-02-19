@@ -23,7 +23,7 @@ date: 2022-10-22
 isOriginal: false
 author:
   - name: Ophy Boamah
-    url : https://freecodecamp.org/news/author/CodeHemaa/
+    url: https://freecodecamp.org/news/author/CodeHemaa/
 cover: https://freecodecamp.org/news/content/images/2022/10/WebLayouts-1.png
 ---
 

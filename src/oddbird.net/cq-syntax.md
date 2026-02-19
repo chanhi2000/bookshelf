@@ -23,7 +23,7 @@ date: 2022-08-18
 isOriginal: false
 author:
   - name: Miriam Suzanne
-    url : https://oddbird.net/authors/miriam/
+    url: https://oddbird.net/authors/miriam/
 cover: https://oddbird.net/assets/images/talks/container-query-1279w.jpeg
 ---
 

@@ -27,7 +27,7 @@ date: 2018-12-24
 isOriginal: false
 author:
   - name: Marinko Spasojević
-    url : https://code-maze.com/author/marinko/
+    url: https://code-maze.com/author/marinko/
 cover: /assets/image/code-maze.com/single-responsibility-principle/banner.png
 ---
 

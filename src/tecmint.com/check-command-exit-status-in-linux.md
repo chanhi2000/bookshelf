@@ -25,7 +25,7 @@ date: 2025-09-05
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2025/09/Check-Command-Exit-Status-in-Linux.webp
 ---
 

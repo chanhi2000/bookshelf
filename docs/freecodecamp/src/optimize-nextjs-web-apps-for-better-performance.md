@@ -29,7 +29,7 @@ date: 2025-01-02
 isOriginal: false
 author:
   - name: Ayantunji Timilehin
-    url : https://freecodecamp.org/news/author/timmy471/
+    url: https://freecodecamp.org/news/author/timmy471/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735828217839/b65374be-d891-4f19-a359-f84f2ac8f3b9.png
 ---
 

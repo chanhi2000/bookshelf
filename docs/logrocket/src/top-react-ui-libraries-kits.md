@@ -29,7 +29,7 @@ date: 2023-10-05
 isOriginal: false
 author:
   - name: Chidume Nnamdi
-    url : https://blog.logrocket.com/author/chidumennamdi/
+    url: https://blog.logrocket.com/author/chidumennamdi/
 cover: /assets/image/blog.logrocket.com/top-react-ui-libraries-kits/banner.png
 ---
 

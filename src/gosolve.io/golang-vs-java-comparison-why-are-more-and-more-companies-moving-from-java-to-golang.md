@@ -27,7 +27,7 @@ date: 2023-05-10
 isOriginal: false
 author:
   - name: Yanick
-    url : https://gosolve.io/author/jgadek/
+    url: https://gosolve.io/author/jgadek/
 cover: https://gosolve.io/wp-content/uploads/2023/05/asdasda.png
 ---
 

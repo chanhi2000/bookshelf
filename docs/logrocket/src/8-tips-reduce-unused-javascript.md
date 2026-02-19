@@ -24,7 +24,7 @@ date: 2023-11-27
 isOriginal: false
 author:
   - name: Abhinav Anshul
-    url : https://blog.logrocket.com/author/abhinavanshul/
+    url: https://blog.logrocket.com/author/abhinavanshul/
 cover: /assets/image/blog.logrocket.com/8-tips-reduce-unused-javascript/banner.png
 ---
 

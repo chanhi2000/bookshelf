@@ -29,7 +29,7 @@ date: 2025-04-28
 isOriginal: false
 author:
   - name: Teng Wei Herr
-    url : https://frontendmasters.com/blog/author/weiherrteng/
+    url: https://frontendmasters.com/blog/author/weiherrteng/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5672
 ---
 

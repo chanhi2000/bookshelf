@@ -47,7 +47,7 @@ date: 2025-09-03
 isOriginal: false
 author:
   - name: Mrugesh Mohapatra
-    url : https://freecodecamp.org/news/author/mrugesh/
+    url: https://freecodecamp.org/news/author/mrugesh/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756139431600/1d0cf8b5-ba1b-4c06-ab2d-45ad5e4b4d3b.png
 ---
 

@@ -27,7 +27,7 @@ date: 2025-10-27
 isOriginal: false
 author:
   - name: Abhijeet Dave
-    url : https://freecodecamp.org/news/author/Abhidave/
+    url: https://freecodecamp.org/news/author/Abhidave/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761575215365/54597001-a10f-4a3d-a082-3eb5ac8b9a7d.png
 ---
 

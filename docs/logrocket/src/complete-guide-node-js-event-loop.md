@@ -25,7 +25,7 @@ date: 2023-07-11
 isOriginal: false
 author:
   - name: Joseph Mawa
-    url : https://blog.logrocket.com/author/josephmawa/
+    url: https://blog.logrocket.com/author/josephmawa/
 cover: /assets/image/blog.logrocket.com/complete-guide-node-js-event-loop/banner.png
 ---
 

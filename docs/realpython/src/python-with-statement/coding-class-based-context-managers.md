@@ -22,7 +22,7 @@ date: 2021-06-02
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Context-Managers--the-Python-with-Statement_Watermarked.3774ffbe2514.jpg
 ---
 
@@ -229,7 +229,7 @@ After running this code, your `hello.txt` file contains the `"Hello, World!"` st
 
 ## Redirecting the Standard Output
 
-A subtle detail to consider when you’re writing your own context managers is that sometimes you don’t have a useful object to return from `.__enter__()` and therefore to assign to the `with` target variable. In those cases, you can return [**`None`**](/realpython.com/null-in-python.md) explicitly or you can just rely on Python’s [**implicit return**](/realpython.com/python-return-statement.md#implicit-return-statements) value, which is `None` as well.
+A subtle detail to consider when you’re writing your own context managers is that sometimes you don’t have a useful object to return from `.__enter__()` and therefore to assign to the `with` target variable. In those cases, you can return [**`None`**](/realpython.com/null-in-python.md) explicitly or you can just rely on Python’s [**implicit return**](/realpython.com/python-return-statement/README.md#implicit-return-statements) value, which is `None` as well.
 
 For example, say you need to temporarily redirect the standard output, [<VPIcon icon="fa-brands fa-python"/>`sys.stdout`](https://docs.python.org/3/library/sys.html#sys.stdout), to a given file on your disk. To do this, you can create a context manager like this:
 

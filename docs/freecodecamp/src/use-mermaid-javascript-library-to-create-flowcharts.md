@@ -29,7 +29,7 @@ date: 2025-01-13
 isOriginal: false
 author:
   - name: evaristo.c
-    url : https://freecodecamp.org/news/author/ec001/
+    url: https://freecodecamp.org/news/author/ec001/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736777930250/cbc8af84-7109-45c9-9ee1-3d10c6b1b475.png
 ---
 

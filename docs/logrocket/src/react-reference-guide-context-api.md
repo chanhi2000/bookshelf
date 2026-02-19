@@ -29,7 +29,7 @@ date: 2020-09-04
 isOriginal: false
 author:
   - name: Ebenezer Don
-    url : https://blog.logrocket.com/author/ebenezerdon/
+    url: https://blog.logrocket.com/author/ebenezerdon/
 cover: /assets/image/blog.logrocket.com/react-reference-guide-context-api/banner.png
 ---
 

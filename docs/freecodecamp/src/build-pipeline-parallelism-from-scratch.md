@@ -33,7 +33,7 @@ date: 2026-01-28
 isOriginal: false
 author:
   - name: Kian Kyars (@neuralkian)
-    url : https://youtube.com/@neuralkian
+    url: https://youtube.com/@neuralkian
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769529106267/6b15c314-bf9a-47ac-9b7e-97db9148d647.jpeg
 ---
 

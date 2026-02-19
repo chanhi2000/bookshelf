@@ -23,7 +23,7 @@ date: 2010-07-14
 isOriginal: false
 author:
   - name: Niels Matthijs
-    url : https://smashingmagazine.com/author/niels-matthijs/
+    url: https://smashingmagazine.com/author/niels-matthijs/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d6c44324-fce0-4e3b-a0a2-63d7e4d56590/usability.jpg
 ---
 

@@ -23,7 +23,7 @@ date: 2022-09-29
 isOriginal: false
 author:
   - name: Nwose Lotanna
-    url : https://blog.logrocket.com/author/nwoselotanna/
+    url: https://blog.logrocket.com/author/nwoselotanna/
 cover: /assets/image/blog.logrocket.com/css-pseudo-elements-guide/banner.png
 ---
 

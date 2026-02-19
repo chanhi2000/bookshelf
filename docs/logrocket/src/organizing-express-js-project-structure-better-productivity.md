@@ -29,7 +29,7 @@ date: 2022-01-10
 isOriginal: false
 author:
   - name: Geshan Manandhar
-    url : https://blog.logrocket.com/author/geshanmanandhar/
+    url: https://blog.logrocket.com/author/geshanmanandhar/
 cover: /assets/image/blog.logrocket.com/organizing-express-js-project-structure-better-productivity/banner.png
 ---
 
@@ -132,7 +132,7 @@ Also, keep in mind that other files may be needed, like a <VPIcon icon="iconfont
 
 There are many great examples of using [**Node.js with MySQL**](/blog.logrocket.com/build-rest-api-node-express-mysql.md), so we will call our example app the Programming Languages API, which lists popular programming languages.
 
-We can use the free tier of [<VPIcon icon="fas fa-globe"/>PlanetScale](https://planetscale.com/), a MySQL-compatible, serverless hyper-scale oriented service. You can view the code of this working app in the [GitHub (<VPIcon icon="iconfont icon-github" />`geshan/expressjs-structure`)](https://github.com/geshan/expressjs-structure) repository:
+We can use the free tier of [<VPIcon icon="fas fa-globe"/>PlanetScale](https://planetscale.com/), a MySQL-compatible, serverless hyper-scale oriented service. You can view the code of this working app in the [GitHub (<VPIcon icon="iconfont icon-github"/>`geshan/expressjs-structure`)](https://github.com/geshan/expressjs-structure) repository:
 
 ![Github page with Express project](/assets/image/blog.logrocket.com/organizing-express-js-project-structure-better-productivity/GitHub-express-project-structure.png)
 

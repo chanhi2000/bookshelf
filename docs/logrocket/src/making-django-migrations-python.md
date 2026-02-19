@@ -27,7 +27,7 @@ date: 2021-12-17
 isOriginal: false
 author:
   - name: Jaya Moore
-    url : https://blog.logrocket.com/author/jayamoore/
+    url: https://blog.logrocket.com/author/jayamoore/
 cover: /assets/image/blog.logrocket.com/making-django-migrations-python/banner.png
 ---
 

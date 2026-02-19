@@ -29,7 +29,7 @@ date: 2024-11-04
 isOriginal: false
 author:
   - name: Harsh Patel
-    url : https://blog.logrocket.com/author/harshpatel/
+    url: https://blog.logrocket.com/author/harshpatel/
 cover: /assets/image/blog.logrocket.com/build-micro-frontend-application-react/banner.png
 ---
 

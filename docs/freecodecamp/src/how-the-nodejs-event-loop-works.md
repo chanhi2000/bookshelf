@@ -25,7 +25,7 @@ date: 2025-09-04
 isOriginal: false
 author:
   - name: Amanda Ene Adoyi
-    url : https://freecodecamp.org/news/author/Lonercode/
+    url: https://freecodecamp.org/news/author/Lonercode/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756916907320/01074df6-0f8e-4a63-9a3e-07c8297fc22b.png
 ---
 

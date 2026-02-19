@@ -52,7 +52,7 @@ const Y2021: SidebarYeargroupTemplate = {
 
 export const template: SidebarInfoTemplate = {
   name: 'huggingface.co',
-  faviconPath: 'https://huggingface.co/favicon.svg',
+  faviconPath: 'https://huggingface.co/favicon.ico',
   linksMap: new Map([
     [
     "sh", [

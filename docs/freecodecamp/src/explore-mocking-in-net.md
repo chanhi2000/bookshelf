@@ -27,7 +27,7 @@ date: 2024-04-13
 isOriginal: false
 author:
   - name: Grant Riordan
-    url : https://freecodecamp.org/news/author/grantdotdev/
+    url: https://freecodecamp.org/news/author/grantdotdev/
 cover: https://freecodecamp.org/news/content/images/2024/04/Mocking-in-Dotnet.png
 ---
 

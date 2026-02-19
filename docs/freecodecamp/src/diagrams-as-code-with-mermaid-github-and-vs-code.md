@@ -33,7 +33,7 @@ date: 2023-09-07
 isOriginal: false
 author:
   - name: Zaira Hira
-    url : https://freecodecamp.org/news/author/zaira/
+    url: https://freecodecamp.org/news/author/zaira/
 cover: https://freecodecamp.org/news/content/images/size/w2000/2023/09/mermaid-code-as-a-diagram.png
 ---
 
@@ -51,7 +51,7 @@ cover: https://freecodecamp.org/news/content/images/size/w2000/2023/09/mermaid-c
 
 ```component VPCard
 {
-  "title": "VSCode > Article(s)",
+  "title": "Visual Studio Code > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/vscode/articles/README.md",
   "logo": "/images/ico-wind.svg",

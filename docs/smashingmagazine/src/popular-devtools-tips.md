@@ -23,7 +23,7 @@ date: 2023-06-27
 isOriginal: false
 author:
   - name: Patrick Brosset
-    url : https://smashingmagazine.com/author/patrickbrosset/
+    url: https://smashingmagazine.com/author/patrickbrosset/
 cover: https://files.smashing.media/articles/popular-devtools-tips/popular-devtools-tips.jpg
 ---
 

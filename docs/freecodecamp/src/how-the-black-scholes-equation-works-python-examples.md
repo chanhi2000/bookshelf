@@ -29,7 +29,7 @@ date: 2024-06-18
 isOriginal: false
 author:
   - name: Tiago Capelo Monteiro
-    url : https://freecodecamp.org/news/author/tiagomonteiro/
+    url: https://freecodecamp.org/news/author/tiagomonteiro/
 cover: https://freecodecamp.org/news/content/images/2024/07/dan-cristian-padure-h3kuhYUCE9A-unsplash.jpg
 ---
 ---

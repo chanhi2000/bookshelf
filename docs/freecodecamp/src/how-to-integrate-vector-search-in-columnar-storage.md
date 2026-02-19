@@ -23,7 +23,7 @@ date: 2025-11-13
 isOriginal: false
 author:
   - name: Chirag Agrawal
-    url : https://freecodecamp.org/news/author/chiragagrawal/
+    url: https://freecodecamp.org/news/author/chiragagrawal/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762983768101/928331bd-3f97-4d05-92fb-2d8ea9af5dab.png
 ---
 

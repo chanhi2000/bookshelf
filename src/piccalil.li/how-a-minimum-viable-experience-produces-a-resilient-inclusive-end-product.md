@@ -23,7 +23,7 @@ date: 2023-02-27
 isOriginal: false
 author:
   - name: Andy Bell
-    url : https://piccalil.li/author/andy-bell
+    url: https://piccalil.li/author/andy-bell
 cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/092d5a9e50aaa79495ef35ece9360ddb1d02e298cafc38dd7041d0d6af1b44cc/png?url=https://piccalil.li/og/how-a-minimum-viable-experience-produces-a-resilient-inclusive-end-product/&width=1024&height=526&retina=true
 ---
 

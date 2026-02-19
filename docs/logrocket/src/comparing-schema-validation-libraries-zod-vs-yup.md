@@ -25,7 +25,7 @@ date: 2023-09-05
 isOriginal: false
 author:
   - name: Nathan Sebhastian
-    url : https://blog.logrocket.com/author/nathansebhastian/
+    url: https://blog.logrocket.com/author/nathansebhastian/
 cover: /assets/image/blog.logrocket.com/comparing-schema-validation-libraries-zod-vs-yup/banner.png
 ---
 

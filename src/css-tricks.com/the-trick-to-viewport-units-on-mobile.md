@@ -23,7 +23,7 @@ date: 2018-07-31
 isOriginal: false
 author:
   - name: Louis Hoebregts
-    url : https://css-tricks.com/author/louishoebregts/
+    url: https://css-tricks.com/author/louishoebregts/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/07/viewport-units-mobile-crop-featured.jpg
 ---
 

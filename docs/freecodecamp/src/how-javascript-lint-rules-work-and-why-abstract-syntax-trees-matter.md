@@ -24,7 +24,7 @@ date: 2025-05-22
 isOriginal: false
 author:
   - name: Tilda Udufo
-    url : https://freecodecamp.org/news/author/tildaudufo/
+    url: https://freecodecamp.org/news/author/tildaudufo/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747835156597/f30994d4-f4da-4100-af25-9f858c015aa8.png
 ---
 

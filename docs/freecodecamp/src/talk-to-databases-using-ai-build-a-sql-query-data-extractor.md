@@ -29,7 +29,7 @@ date: 2025-01-09
 isOriginal: false
 author:
   - name: Prankur Pandey
-    url : https://freecodecamp.org/news/author/prankurpandeyy/
+    url: https://freecodecamp.org/news/author/prankurpandeyy/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733842504544/0e9da173-718c-454e-841c-15c148e0fe93.jpeg
 ---
 

@@ -24,7 +24,7 @@ date: 2023-07-07
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -78,7 +78,7 @@ In the given example, we define a record named `Teams` that permits keys of the 
 
 ## Problems with Type Annotation
 
-When using a [**type annotation**](/typescript.tv/glossary.md#type-annotation) for `AllTeams`, we encounter a limitation in accessing specific methods based on the value types. Since the value type of the `Record` is a union, we are restricted to using intersecting functionality only:
+When using a [**type annotation**](/typescript.tv/glossary/type-annotation.md) for `AllTeams`, we encounter a limitation in accessing specific methods based on the value types. Since the value type of the `Record` is a union, we are restricted to using intersecting functionality only:
 
 ```ts
 type TeamMembers = string | string[];
@@ -103,7 +103,7 @@ console.log(AllTeams.Iconic.toUpperCase());
 
 ## Problems with Type Inference
 
-When relying on [**type inference**](/typescript.tv/glossary.md#type-inference), our teams `Bulletproof` and `Iconic` will receive appropriate type inferences, so we can use their specific methods. The downside is that we no longer have restrictions on the `TeamNames`, which grants us the ability to introduce arbitrary names, such as `IsNotAllowed`:
+When relying on [**type inference**](/typescript.tv/glossary/type-inference.md), our teams `Bulletproof` and `Iconic` will receive appropriate type inferences, so we can use their specific methods. The downside is that we no longer have restrictions on the `TeamNames`, which grants us the ability to introduce arbitrary names, such as `IsNotAllowed`:
 
 ```ts
 type TeamMembers = string | string[];
@@ -170,7 +170,7 @@ console.log(AllTeams.Iconic.toUpperCase());
 
 ## Alternative Solution
 
-If you are using a TypeScript version below 4.9, you can solve the initial use case by defining an [**object literal type**](/typescript.tv/glossary.md#literal-types) for `Teams`. This approach offers less flexibility compared to defining a union for the values and relying on TypeScript to infer the specific type. Despite this limitation, using an object literal type will still enforce constraints on the key names and provide access to the specific methods available for the values:
+If you are using a TypeScript version below 4.9, you can solve the initial use case by defining an [**object literal type**](/typescript.tv/glossary/literal-types.md) for `Teams`. This approach offers less flexibility compared to defining a union for the values and relying on TypeScript to infer the specific type. Despite this limitation, using an object literal type will still enforce constraints on the key names and provide access to the specific methods available for the values:
 
 ```ts
 type Teams = {

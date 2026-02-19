@@ -29,7 +29,7 @@ date: 2025-08-14
 isOriginal: false
 author:
   - name: Daniel García Solla
-    url : https://freecodecamp.org/news/author/cardstdani/
+    url: https://freecodecamp.org/news/author/cardstdani/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755095979245/dfd39c26-3456-4e79-a01c-0b2a82f7a034.png
 ---
 

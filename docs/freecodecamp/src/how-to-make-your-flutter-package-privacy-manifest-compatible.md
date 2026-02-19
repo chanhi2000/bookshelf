@@ -25,7 +25,7 @@ date: 2024-05-20
 isOriginal: false
 author:
   - name: Tomer
-    url : https://freecodecamp.org/news/author/tomerpacific/
+    url: https://freecodecamp.org/news/author/tomerpacific/
 cover: https://freecodecamp.org/news/content/images/2024/05/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg
 ---
 
@@ -60,8 +60,8 @@ There has been a lot of confusion regarding what developers need to do if they a
 
 This is because Flutter has been marked by Apple as a [<VPIcon icon="fa-brands fa-apple"/>“commonly used SDK”](https://developer.apple.com/news/?id=r1henawx#:~:text=Third%2Dparty%20SDK%20privacy%20manifest%20and%20signatures.&text=Starting%20in%20spring%202024%2C%20if,used%20as%20a%20binary%20dependency.) (including several other Flutter packages). This has been somewhat addressed by the Flutter community. If you are interested, you can read the following GitHub issues:
 
-- [Support Privacy Manifest and Required APIs in iOS and macOS (<VPIcon icon="iconfont icon-github" />`flutter/flutter`)](https://github.com/flutter/flutter/issues/143232)
-- [Determine how to handle privacy manifests in packages (<VPIcon icon="iconfont icon-github" />`flutter/flutter`)](https://github.com/flutter/flutter/issues/131940)
+- [Support Privacy Manifest and Required APIs in iOS and macOS (<VPIcon icon="iconfont icon-github"/>`flutter/flutter`)](https://github.com/flutter/flutter/issues/143232)
+- [Determine how to handle privacy manifests in packages (<VPIcon icon="iconfont icon-github"/>`flutter/flutter`)](https://github.com/flutter/flutter/issues/131940)
 
 As of May 2024, things are still a bit vague. It would be preferable to have a solution that reassures us of being able to update our package and not cause applications that use it to be rejected.
 
@@ -131,7 +131,7 @@ One issue that is currently being investigated is the fact that Flutter packages
 
 When using your package, the privacy manifest file can be obscured by top level resources of the application itself. Meaning, the application’s own privacy manifest file might overshadow your package’s privacy manifest file. This in turn, will cause the application to get rejected from the Apple store since it will not perceive that your package does indeed have a privacy manifest file.
 
-According to [this GitHub issue comment (<VPIcon icon="iconfont icon-github" />`flutter/flutter`)](https://github.com/flutter/flutter/issues/145269#issuecomment-2070221423), this is a known issue to Apple and they are working on fixing this.
+According to [this GitHub issue comment (<VPIcon icon="iconfont icon-github"/>`flutter/flutter`)](https://github.com/flutter/flutter/issues/145269#issuecomment-2070221423), this is a known issue to Apple and they are working on fixing this.
 
 In [<VPIcon icon="fa-brands fa-apple"/>Apple’s April 26th announcement](https://developer.apple.com/news/?id=pvszzano), they state that:
 

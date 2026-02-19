@@ -25,7 +25,7 @@ date: 2023-04-08
 isOriginal: false
 author:
   - name: Arunachalam B
-    url : https://freecodecamp.org/news/author/arunachalamb/
+    url: https://freecodecamp.org/news/author/arunachalamb/
 cover: https://freecodecamp.org/news/content/images/2023/04/What-is-Docker-compose-1.png
 ---
 

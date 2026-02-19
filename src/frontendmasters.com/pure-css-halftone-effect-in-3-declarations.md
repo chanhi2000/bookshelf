@@ -23,7 +23,7 @@ date: 2024-12-03
 isOriginal: false
 author:
   - name: Ana Tudor
-    url : https://frontendmasters.com/blog/author/anatudor/
+    url: https://frontendmasters.com/blog/author/anatudor/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4594
 ---
 
@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4594"/>
 
-About half a decade ago, I got an idea about how to create a halftone effect with pure CSS. My original idea (which Michelle Barker[<VPIcon icon="fas fa-globe"/>wrote about](https://css-irl.info/css-halftone-patterns/)a couple of years ago) was a bit inefficient, but in the years that followed, I’ve managed to polish it and reduce it to a single `<div>`, no pseudos and just three CSS properties.
+About half a decade ago, I got an idea about how to create a halftone effect with pure CSS. My original idea (which Michelle Barker [**wrote about**](/css-irl.info/css-halftone-patterns.md)a couple of years ago) was a bit inefficient, but in the years that followed, I’ve managed to polish it and reduce it to a single `<div>`, no pseudos and just three CSS properties.
 
 ---
 

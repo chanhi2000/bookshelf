@@ -29,7 +29,7 @@ date: 2023-02-07
 isOriginal: false
 author:
   - name: Elijah Agbonze
-    url : https://blog.logrocket.com/author/elijahtrillionz/
+    url: https://blog.logrocket.com/author/elijahtrillionz/
 cover: /assets/image/blog.logrocket.com/using-react-popper-styled-components/banner.png
 ---
 

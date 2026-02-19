@@ -23,7 +23,7 @@ date: 2025-02-19
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2025/02/css-custom-functions-with-if.png
 ---
 
@@ -52,7 +52,7 @@ cover: https://bram.us/wordpress/wp-content/uploads/2025/02/css-custom-functions
 
 ![](https://bram.us/wordpress/wp-content/uploads/2025/02/css-custom-functions-with-if.png)
 
-In [**"CSS Custom Functions are coming … and they are going to be a game changer!"**](bram.us/css-custom-functions-teaser.md) I took a first look at Chrome’s prototype of Custom Functions (CSS `@function`). Since then the prototype in Chrome got updated with nested container queries support and CSS `if()` also got added … and like I said: it’s a game changer
+In [**"CSS Custom Functions are coming … and they are going to be a game changer!"**](/bram.us/css-custom-functions-teaser.md) I took a first look at Chrome’s prototype of Custom Functions (CSS `@function`). Since then the prototype in Chrome got updated with nested container queries support and CSS `if()` also got added … and like I said: it’s a game changer
 
 ::: note ⚠️ This post is about an upcoming CSS feature. You can’t use it … yet.
 
@@ -72,7 +72,7 @@ In the future, the code shared in this post can be reduced even further, to only
 
 ## The quest for a `light-dark()` that works with *any* value.
 
-The function I built in [**"CSS Custom Functions are coming … and they are going to be a game changer!"**](bram.us/css-custom-functions-teaser.md) is a custom `--light-dark()` that can be used to return values depending on whether light or dark mode is being used.
+The function I built in [**"CSS Custom Functions are coming … and they are going to be a game changer!"**](/bram.us/css-custom-functions-teaser.md) is a custom `--light-dark()` that can be used to return values depending on whether light or dark mode is being used.
 
 ```css
 @function --light-dark(--light, --dark) {
@@ -91,7 +91,7 @@ Unlike [**the built-in `light-dark()`**](/bram.us/the-future-of-css-easy-light-d
   slug-hash="EaYBJJx"
   title="Custom CSS Custom Functions: --light-dark()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As hinted at the end of the post, this limitation can be removed once support for nested container queries and/or CSS `if()` got added to Chrome … and that day has come!
 
@@ -203,7 +203,7 @@ Here’s a live demo. Remember that you need Chrome Canary with the Experimental
   slug-hash="xbxGOdw"
   title="Custom CSS Custom Functions + Nested Style Queries (+ attr()): --light-dark()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -287,7 +287,7 @@ Here’s a live demo to check out:
   slug-hash="wBvKVpR"
   title="Custom CSS Custom Functions + Nested inline if() (+ attr()): --light-dark() "
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

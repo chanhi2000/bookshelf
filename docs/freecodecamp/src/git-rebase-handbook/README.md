@@ -23,7 +23,7 @@ date: 2023-07-03
 isOriginal: false
 author:
   - name: Omer Rosenbaum
-    url : https://freecodecamp.org/news/author/omerros/
+    url: https://freecodecamp.org/news/author/omerros/
 cover: https://freecodecamp.org/news/content/images/2023/07/The-Git-Rebase-Handbook-Book-Cover--1-.png
 ---
 

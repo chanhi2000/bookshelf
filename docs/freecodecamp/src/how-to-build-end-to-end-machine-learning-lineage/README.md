@@ -41,7 +41,7 @@ date: 2025-10-16
 isOriginal: false
 author:
   - name: Kuriko Iwai
-    url : https://freecodecamp.org/news/author/kuriko/
+    url: https://freecodecamp.org/news/author/kuriko/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760622158648/b990ff01-06f0-495d-8554-f832813609ab.png
 ---
 

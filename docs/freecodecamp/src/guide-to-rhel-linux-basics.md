@@ -30,7 +30,7 @@ date: 2025-01-11
 isOriginal: false
 author:
   - name: Tanishka Makode
-    url : https://freecodecamp.org/news/author/tanishkamakode/
+    url: https://freecodecamp.org/news/author/tanishkamakode/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736533985344/a521db07-d7eb-47db-a71c-4949e0761b9e.jpeg
 ---
 

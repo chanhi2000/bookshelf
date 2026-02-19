@@ -23,7 +23,7 @@ date: 2025-08-22
 isOriginal: false
 author:
   - name: Amit Sheen
-    url : https://css-tricks.com/author/amitsheen/
+    url: https://css-tricks.com/author/amitsheen/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/07/bulging-text.jpg
 ---
 

@@ -26,7 +26,7 @@ date: 2025-01-16
 isOriginal: false
 author:
   - name: Joe Attardi
-    url : https://freecodecamp.org/news/author/joeattardi/
+    url: https://freecodecamp.org/news/author/joeattardi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736955360118/bd658ef5-734c-4e21-ad0e-be2dac0b7eee.png
 ---
 

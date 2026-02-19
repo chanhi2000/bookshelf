@@ -23,7 +23,7 @@ date: 2022-09-15
 isOriginal: false
 author:
   - name: Stephanie Eckles
-    url : https://smashingmagazine.com/author/stephanie-eckles/
+    url: https://smashingmagazine.com/author/stephanie-eckles/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a2c88b2c-ef73-44e3-885c-2c5c322fb781/smashing-articles-original.png
 ---
 
@@ -146,7 +146,7 @@ article {
 }
 ```
 
-Note that using a font-relative unit like `ch` or `em` is intended to use the `font-size` of the container, but at the time of writing that is not yet complete. So, for now, this will be using the root font size. There was an issue against the spec for exploring other [features that may become queryable (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5989).
+Note that using a font-relative unit like `ch` or `em` is intended to use the `font-size` of the container, but at the time of writing that is not yet complete. So, for now, this will be using the root font size. There was an issue against the spec for exploring other [features that may become queryable (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5989).
 
 The rules we added may not be complex, but they are practical. In systems I’ve worked on, adjustments like what we’ve done with padding are handled by creating a series of utility classes that are tied to viewport media queries. Now we can make them more proportionate to elements based on their contained size.
 
@@ -483,7 +483,7 @@ For example, consider a card component that assumes that `font-size` should chan
 
 ## What Might Change In The Spec
 
-Currently, even the syntax is subject to change before the spec is fully finalized. In fact, it’s important to experiment so that as a community we can provide feedback. Miriam Suzanne has created [a GitHub project to track issues (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/projects/18), and you may react to those and add comments.
+Currently, even the syntax is subject to change before the spec is fully finalized. In fact, it’s important to experiment so that as a community we can provide feedback. Miriam Suzanne has created [a GitHub project to track issues (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/projects/18), and you may react to those and add comments.
 
 ::: note
 
@@ -495,7 +495,7 @@ Since the first version of this primer released in May 2021, the syntax did chan
 
 ::: important Resolved important issues
 
-- [How to handle queries when no ancestors have containment defined (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/6178) was resolved to simply have the query fail — as in, no elements including either the `body` or `html` will have default containment;
+- [How to handle queries when no ancestors have containment defined (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/6178) was resolved to simply have the query fail — as in, no elements including either the `body` or `html` will have default containment;
 - [<VPIcon icon="iconfont icon-w3c"/>Availability of container-relative units](https://w3.org/TR/css-contain-3/#container-lengths);
 - The spec allows [<VPIcon icon="iconfont icon-w3c"/>querying based on style features](https://w3.org/TR/css-contain-3/#style-container) inclusive of custom property values, which is still under development in browsers.
 
@@ -507,13 +507,13 @@ Tangential to the container queries spec is the ability to use “[<VPIcon icon=
 
 ## Additional Demos And Resources
 
-**If you’d like support for container queries in unsupporting browsers**, you can now use the [container queries polyfill (<VPIcon icon="iconfont icon-github" />`GoogleChromeLabs/container-query-polyfill`)](https://github.com/GoogleChromeLabs/container-query-polyfill) from Google Chrome Labs. Una’s article gives a quick container queries summary and provides an [<VPIcon icon="fa-brands fa-chrome"/>overview of the polyfill](https://developer.chrome.com/blog/cq-polyfill/).
+**If you’d like support for container queries in unsupporting browsers**, you can now use the [container queries polyfill (<VPIcon icon="iconfont icon-github"/>`GoogleChromeLabs/container-query-polyfill`)](https://github.com/GoogleChromeLabs/container-query-polyfill) from Google Chrome Labs. Una’s article gives a quick container queries summary and provides an [<VPIcon icon="fa-brands fa-chrome"/>overview of the polyfill](https://developer.chrome.com/blog/cq-polyfill/).
 
 - Review [<VPIcon icon="fa-brands fa-codepen"/>Miriam’s CodePen collection](https://codepen.io/collection/XQrgJo) where she is gathering container queries created on that platform
 - Miriam is also keeping this post updated on [**the correct container query syntax**](/oddbird.net/cq-syntax.md)
 - Ahmad Shadeed created an [**overview with practical examples**](/ishadeed.com/say-hello-to-css-container-queries.md)
 - Andy Bell considered how to incorporate container queries as a [**progressive enhancement for card components**](/piccalil.li/container-queries-are-actually-coming.md)
-- Stu Robson has created a GitHub repository to collect resources called [Awesome-Container-Queries (<VPIcon icon="iconfont icon-github" />`sturobson/Awesome-Container-Queries`)](https://github.com/sturobson/Awesome-Container-Queries)
+- Stu Robson has created a GitHub repository to collect resources called [Awesome-Container-Queries (<VPIcon icon="iconfont icon-github"/>`sturobson/Awesome-Container-Queries`)](https://github.com/sturobson/Awesome-Container-Queries)
 - David A. Herron wrote [**a quick start guide**](/oddbird.net/containerqueries.md) with a demonstration of elements that change at different rates based on container queries
 - A page has also been started about [<VPIcon icon="fa-brands fa-firefox" />container queries on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries).
 - I released [<VPIcon icon="fas fa-globe"/>a more condensed overview](https://12daysofweb.dev/2021/container-queries/) that includes the latest syntax updates.

@@ -16,6 +16,8 @@ tag:
   - py
   - python
   - jupyter
+  - py-jupyter
+  - jupyternotebook
   - jupyter-notebook
   - py-jupyter
   - ai
@@ -37,7 +39,7 @@ date: 2026-01-16
 isOriginal: false
 author:
   - name: Imad Saddik (@3codecampers)
-    url : https://youtube.com/@3codecampers
+    url: https://youtube.com/@3codecampers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768492076977/d13ac808-b186-4071-86bf-be696a1fd0ae.png
 ---
 

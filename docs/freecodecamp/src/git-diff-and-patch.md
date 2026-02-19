@@ -23,7 +23,7 @@ date: 2023-02-22
 isOriginal: false
 author:
   - name: Omer Rosenbaum
-    url : https://freecodecamp.org/news/author/omerros/
+    url: https://freecodecamp.org/news/author/omerros/
 cover: https://freecodecamp.org/news/content/images/2023/07/Git-Diff-and-Patch-for-Developers-Book-Cover--1-.png
 ---
 

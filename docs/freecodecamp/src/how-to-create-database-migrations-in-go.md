@@ -32,7 +32,7 @@ date: 2024-06-26
 isOriginal: false
 author:
   - name: Okure U. Edet (Yelsnik)
-    url : https://github.com/Yelsnik
+    url: https://github.com/Yelsnik
 cover: https://freecodecamp.org/news/content/images/2024/06/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg
 ---
 
@@ -171,7 +171,7 @@ This is how mine looks. You can open your TablePlus and add the generated Postgr
 
 The next step is to install `golang-migrate` on your system. I am using Linux on Windows for this tutorial.
 
-To install it, visit this [documentation (<VPIcon icon="iconfont icon-github" />`golang-migrate/migrate`)](https://github.com/golang-migrate/migrate/tree/master/cmd/migrate).
+To install it, visit this [documentation (<VPIcon icon="iconfont icon-github"/>`golang-migrate/migrate`)](https://github.com/golang-migrate/migrate/tree/master/cmd/migrate).
 
 I am using Linux so I will use `curl`:
 

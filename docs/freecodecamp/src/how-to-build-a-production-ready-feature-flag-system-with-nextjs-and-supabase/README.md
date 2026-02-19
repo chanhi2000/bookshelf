@@ -31,7 +31,7 @@ date: 2026-02-06
 isOriginal: false
 author:
   - name: David Aniebo
-    url : https://freecodecamp.org/news/author/davidaniebo/
+    url: https://freecodecamp.org/news/author/davidaniebo/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770312675718/c462d3b5-5369-45e0-ad47-c91b441fe96f.png
 ---
 

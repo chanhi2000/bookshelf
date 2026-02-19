@@ -29,7 +29,7 @@ date: 2022-09-09
 isOriginal: false
 author:
   - name: Iva Kop
-    url : https://blog.logrocket.com/author/ivakop/
+    url: https://blog.logrocket.com/author/ivakop/
 cover: /assets/image/blog.logrocket.com/guide-choosing-right-react-state-management-solution/banner.png
 ---
 

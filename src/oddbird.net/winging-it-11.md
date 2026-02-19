@@ -25,7 +25,7 @@ date: 2024-08-27
 isOriginal: false
 author:
   - name: Miriam
-    url : https://oddbird.net/authors/miriam/
+    url: https://oddbird.net/authors/miriam/
 cover: https://oddbird.net/assets/images/winging-it/winging-it-11-1600w.jpeg
 ---
 

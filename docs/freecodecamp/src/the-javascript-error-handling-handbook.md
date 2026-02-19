@@ -24,7 +24,7 @@ date: 2025-07-12
 isOriginal: false
 author:
   - name: Tapas Adhikary
-    url : https://freecodecamp.org/news/author/atapas/
+    url: https://freecodecamp.org/news/author/atapas/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752254732491/dd413499-64f4-4a20-8fd6-7f73cfcd55c0.png
 ---
 

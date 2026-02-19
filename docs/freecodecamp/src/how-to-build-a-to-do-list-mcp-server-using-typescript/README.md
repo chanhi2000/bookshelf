@@ -44,7 +44,7 @@ date: 2025-10-23
 isOriginal: false
 author:
   - name: Shola Jegede
-    url : https://freecodecamp.org/news/author/sholajegede/
+    url: https://freecodecamp.org/news/author/sholajegede/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761162036666/77972b3f-9dc8-404f-b40d-fb70ee73e2a5.png
 ---
 

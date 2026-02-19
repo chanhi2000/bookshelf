@@ -35,7 +35,7 @@ date: 2025-04-25
 isOriginal: false
 author:
   - name: Vuk Roshik (@vukrosic)
-    url : https://youtube.com/@vukrosic
+    url: https://youtube.com/@vukrosic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745524611092/1d8941fe-1797-4a24-a294-91505999489e.png
 ---
 

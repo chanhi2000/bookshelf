@@ -25,7 +25,7 @@ date: 2025-04-03
 isOriginal: false
 author:
   - name: Yashodhan Joshi
-    url : https://blog.logrocket.com/author/yashodhan-joshi/
+    url: https://blog.logrocket.com/author/yashodhan-joshi/
 cover: /assets/image/blog.logrocket.com/game-development-frontend-building-excalibur-js/banner.png
 ---
 

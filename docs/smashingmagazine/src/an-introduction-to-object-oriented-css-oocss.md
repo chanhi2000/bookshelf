@@ -23,7 +23,7 @@ date: 2011-12-12
 isOriginal: false
 author:
   - name: Louis Lazaris
-    url : https://smashingmagazine.com/author/louis-lazaris/
+    url: https://smashingmagazine.com/author/louis-lazaris/
 cover: https://smashingmagazine.com/images/smashing-homepage.png
 ---
 

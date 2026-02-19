@@ -23,7 +23,7 @@ date: 2025-03-10
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://frontendmasters.com/blog/author/chriscoyier/
+    url: https://frontendmasters.com/blog/author/chriscoyier/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5273
 ---
 
@@ -97,7 +97,7 @@ The forum software [<VPIcon icon="fas fa-globe"/>Discourse](https://discourse.or
 
 It seems like there are a lot of upsides to a database, doesn’t there? It really does a lot for a website and is all but a requirement for bigger and more feature rich websites. What’s so nice about *not* having one, such that there are specific tools to avoid it?
 
-- **Databases are more expensive.** Hosting that does not include a database tends to be cheaper. Netlify, a classic host built upon a foundation of hosting only static files, has [**an entirely free plan**](/frontendmasters.com/\netlify-free-plan.md). A database host might be an entirely separate hosted service which may come with it’s own costs.
+- **Databases are more expensive.** Hosting that does not include a database tends to be cheaper. Netlify, a classic host built upon a foundation of hosting only static files, has [**an entirely free plan**](/frontendmasters.com/netlify-free-plan.md). A database host might be an entirely separate hosted service which may come with it’s own costs.
 - **Databases require security.** Databases are usually necessarily accessible on the open web or at least on the private network that the website backend has access to. They also tend to contain sensitive data like private user information. If a nefarious user got more access to the database than they should have, they could download that private information and/or corrupt what is there. This is unfortunately not a maybe. Insecure databases will almost certainly be messed with.
 - **Databases require backups.** Because of the risk of nefarious behavior, and even more likely, your own team making honest mistakes, you need to have backups of the database as often as possible. When dealing with flat files, your Git repository and previous deployments act as your backups, but that doesn’t cover a database. Databases need their own unique backup systems.
 - **Databases require maintenance.** Database software can update versions, which can include security patches. Add this to your list of responsibilities.

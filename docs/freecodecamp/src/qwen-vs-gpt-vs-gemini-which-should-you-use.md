@@ -39,7 +39,7 @@ date: 2026-01-09
 isOriginal: false
 author:
   - name: Oyedele Tioluwani
-    url : https://freecodecamp.org/news/author/Tioluwani/
+    url: https://freecodecamp.org/news/author/Tioluwani/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767914942568/f7c7250c-661b-46f1-9436-f7e78ae7edd5.png
 ---
 
@@ -161,7 +161,7 @@ Qwen3, GPT-5.2, and Gemini 3 Pro are shaped by different assumptions about how A
 
 ## Qwen3: Open-Source Power and Control
 
-[<VPIcon icon="fas fa-globe"/>Qwen3](https://qwenlm.github.io/blog/qwen3/) is designed around ownership. Its [Apache 2.0 (<VPIcon icon="iconfont icon-github" />`QwenLM/Qwen3`)](https://github.com/QwenLM/Qwen3) license allows teams to run the model without usage restrictions, modify it if needed, and integrate it deeply into internal systems. For organizations that care about autonomy and long-term flexibility, this is a foundational advantage.
+[<VPIcon icon="fas fa-globe"/>Qwen3](https://qwenlm.github.io/blog/qwen3/) is designed around ownership. Its [Apache 2.0 (<VPIcon icon="iconfont icon-github"/>`QwenLM/Qwen3`)](https://github.com/QwenLM/Qwen3) license allows teams to run the model without usage restrictions, modify it if needed, and integrate it deeply into internal systems. For organizations that care about autonomy and long-term flexibility, this is a foundational advantage.
 
 Deployment is a first-class concern. Qwen3 supports:
 

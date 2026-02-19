@@ -25,7 +25,7 @@ date: 2021-01-28
 isOriginal: false
 author:
   - name: Thomas Hunter II
-    url : https://blog.logrocket.com/author/thomashunter/
+    url: https://blog.logrocket.com/author/thomashunter/
 cover: /assets/image/blog.logrocket.com/zero-downtime-deploys-with-digitalocean-github-and-docker/banner.png
 ---
 

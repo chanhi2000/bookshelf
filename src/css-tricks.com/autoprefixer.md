@@ -23,7 +23,7 @@ date: 2017-04-13
 isOriginal: false
 author:
   - name: Andrey Sitnik
-    url : https://css-tricks.com/author/andreysitnik/
+    url: https://css-tricks.com/author/andreysitnik/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2013/08/autoprefixer-logo.png
 ---
 

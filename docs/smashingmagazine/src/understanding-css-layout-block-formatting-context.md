@@ -23,7 +23,7 @@ date: 2017-12-11
 isOriginal: false
 author:
   - name: Rachel Andrew
-    url : https://smashingmagazine.com/author/rachel-andrew/
+    url: https://smashingmagazine.com/author/rachel-andrew/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fa705d95-289a-4ff9-b0eb-374fc44ab359/wrap2-800w-opt.png
 ---
 
@@ -115,7 +115,7 @@ There are two ways in which we ordinarily fix this layout problem. One would be 
   slug-hash="XzYWZj"
   title="Floats and the BFC"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The reason overflow works in this way is that using any value other than the initial value of `visible` creates a Block Formatting Context, and one of the features of a BFC is that **it contains floats**.
 
@@ -166,7 +166,7 @@ If we make the box a BFC however, it now contains the paragraphs and their margi
   slug-hash="YEvzRv"
   title="BFC Margin collapsing"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Once again the BFC is doing this job of containing the things inside it, stopping them from escaping and poking out of the box.
 
@@ -202,7 +202,7 @@ This is essentially the way we can create a floated layout with several columns.
   slug-hash="qVKEpJ"
   title="A BFC preventing wrapping of floats."
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -235,7 +235,7 @@ You can see all of these in the CodePen below if you have a browser that support
   slug-hash="WXyvpd"
   title="Using display: flow-root for common tasks"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Browser support for `display: flow-root`
 

@@ -29,7 +29,7 @@ date: 2025-06-06
 isOriginal: false
 author:
   - name: Andrew Maksimchenko
-    url : https://freecodecamp.org/news/author/codelikeandrew/
+    url: https://freecodecamp.org/news/author/codelikeandrew/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748915817752/b35a8786-9aa7-46cd-a1d8-f82069470496.png
 ---
 

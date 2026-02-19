@@ -30,7 +30,7 @@ date: 2024-07-03
 isOriginal: false
 author:
   - name: Joan Ayebola
-    url : https://freecodecamp.org/news/author/joanayebola/
+    url: https://freecodecamp.org/news/author/joanayebola/
 cover: https://freecodecamp.org/news/content/images/2024/07/Data-Flow-in-Redux-Explained-Cover-No-Photo.png
 ---
 

@@ -25,7 +25,7 @@ date: 2016-06-22
 isOriginal: false
 author:
   - name: Ben Firshman
-    url : https://docker.com/author/bfirshman/
+    url: https://docker.com/author/bfirshman/
 cover: https://docker.com/app/uploads/Picture1.png
 ---
 

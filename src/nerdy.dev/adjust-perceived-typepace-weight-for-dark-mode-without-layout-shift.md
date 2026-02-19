@@ -23,7 +23,7 @@ date: 2025-11-30
 isOriginal: false
 author:
   - name: Adam Argyle
-    url : https://front-end.social/@argyleink
+    url: https://front-end.social/@argyleink
 cover: https://nerdy.dev/media/typography-illusion.jpg
 ---
 

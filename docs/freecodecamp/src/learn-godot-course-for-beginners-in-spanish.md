@@ -28,7 +28,7 @@ date: 2025-06-04
 isOriginal: false
 author:
   - name: Estefania Cassingena Navone
-    url : https://freecodecamp.org/news/author/estefaniacn/
+    url: https://freecodecamp.org/news/author/estefaniacn/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748954260255/3d544e9f-2191-409a-b52e-bcf24ceab5a6.png
 ---
 

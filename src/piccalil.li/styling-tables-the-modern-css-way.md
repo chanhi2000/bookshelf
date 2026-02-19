@@ -23,7 +23,7 @@ date: 2024-07-18
 isOriginal: false
 author:
   - name: Michelle Barker
-    url : https://piccalil.li/author/michelle-barker
+    url: https://piccalil.li/author/michelle-barker
 cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/33e37c0657113448c94bd0daa6db96c7f67db3fcd7b2d77c72838721d922d114/png?url=https://piccalil.li/og/styling-tables-the-modern-css-way/&width=1024&height=526&retina=true
 ---
 

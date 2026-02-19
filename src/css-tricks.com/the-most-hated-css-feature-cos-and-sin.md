@@ -23,7 +23,7 @@ date: 2025-09-15
 isOriginal: false
 author:
   - name: Juan Diego Rodríguez
-    url : https://css-tricks.com/author/monknow/
+    url: https://css-tricks.com/author/monknow/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/most_hated_feature.jpg
 ---
 

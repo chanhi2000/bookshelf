@@ -29,7 +29,7 @@ date: 2017-05-06
 isOriginal: false
 author:
   - name: Jeremy Yallop
-    url : https://docker.com/author/jeremy/
+    url: https://docker.com/author/jeremy/
 cover: https://docker.com/app/uploads/1e51d4bd-c100-42a4-b5b0-ece3f7cedd35-1.jpg
 ---
 

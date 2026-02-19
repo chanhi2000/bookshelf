@@ -24,7 +24,7 @@ date: 2024-05-10
 isOriginal: false
 author:
   - name: Joan Ayebola
-    url : https://freecodecamp.org/news/author/joanayebola/
+    url: https://freecodecamp.org/news/author/joanayebola/
 cover: https://freecodecamp.org/news/content/images/2024/05/Ivory-and-Blue-Lavender-Aesthetic-Photo-Collage-Presentation--9-.png
 ---
 

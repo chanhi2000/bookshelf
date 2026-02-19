@@ -29,7 +29,7 @@ date: 2023-05-10
 isOriginal: false
 author:
   - name: Kapeel Kokane
-    url : https://blog.logrocket.com/author/kapeelkokane/
+    url: https://blog.logrocket.com/author/kapeelkokane/
 cover: /assets/image/blog.logrocket.com/implement-react-state-management-signia/banner.png
 ---
 

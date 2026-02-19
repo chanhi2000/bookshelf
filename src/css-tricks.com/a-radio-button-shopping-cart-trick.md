@@ -23,7 +23,7 @@ date: 2025-08-27
 isOriginal: false
 author:
   - name: Preethi
-    url : https://css-tricks.com/author/preethi/
+    url: https://css-tricks.com/author/preethi/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/08/add-to-cart-animation.jpg
 ---
 

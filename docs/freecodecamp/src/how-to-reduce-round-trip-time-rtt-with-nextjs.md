@@ -29,7 +29,7 @@ date: 2025-11-06
 isOriginal: false
 author:
   - name: Chukwudi Nweze
-    url : https://freecodecamp.org/news/author/Chukwudinweze/
+    url: https://freecodecamp.org/news/author/Chukwudinweze/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762424304223/4d818ff7-0fe2-448d-8acd-3da092bc55a4.png
 ---
 

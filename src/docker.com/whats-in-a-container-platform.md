@@ -25,7 +25,7 @@ date: 2019-05-10
 isOriginal: false
 author:
   - name: Jim Armstrong
-    url : https://docker.com/author/jim/
+    url: https://docker.com/author/jim/
 cover: https://docker.com/app/uploads/2019/05/23bb41dd-9682-48e2-b4f4-e11507e17819-2.jpg
 ---
 

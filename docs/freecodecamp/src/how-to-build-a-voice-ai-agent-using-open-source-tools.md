@@ -30,7 +30,7 @@ date: 2025-10-22
 isOriginal: false
 author:
   - name: Michael Yuan
-    url : https://freecodecamp.org/news/author/michaelyuan/
+    url: https://freecodecamp.org/news/author/michaelyuan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761073279608/a73ce2cd-c95e-4f8b-b529-8774ce39a43f.png
 ---
 

@@ -23,7 +23,7 @@ date: 2025-09-17
 isOriginal: false
 author:
   - name: Preethi Sam
-    url : https://frontendmasters.com/blog/author/preethisam/
+    url: https://frontendmasters.com/blog/author/preethisam/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/7147
 ---
 

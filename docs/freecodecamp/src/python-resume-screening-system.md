@@ -27,7 +27,7 @@ date: 2026-02-07
 isOriginal: false
 author:
   - name: Abdul Talha
-    url : https://freecodecamp.org/news/author/abdultalha3226/
+    url: https://freecodecamp.org/news/author/abdultalha3226/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770331777028/1ac80e66-cf22-4160-8812-ea917384cd3f.png
 ---
 
@@ -70,7 +70,7 @@ By following this tutorial, you’ll build a tool capable of processing hundreds
 
 ::: info
 
-Here’s the source code: [GitHub Repository (<VPIcon icon="iconfont icon-github" />`abdultalha0862/Resume_Parser_Project`)](https://github.com/abdultalha0862/Resume_Parser_Project)
+Here’s the source code: [GitHub Repository (<VPIcon icon="iconfont icon-github"/>`abdultalha0862/Resume_Parser_Project`)](https://github.com/abdultalha0862/Resume_Parser_Project)
 
 <SiteInfo
   name="abdultalha0862/Resume_Parser_Project"

@@ -23,7 +23,7 @@ date: 2025-03-28
 isOriginal: false
 author:
   - name: Sara Soueidan
-    url : https://css-tricks.com/author/sarasoueidan/
+    url: https://css-tricks.com/author/sarasoueidan/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2014/10/control-points.png
 ---
 

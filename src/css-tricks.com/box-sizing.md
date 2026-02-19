@@ -23,7 +23,7 @@ date: 2015-05-06
 isOriginal: false
 author:
   - name: Marie Mosley
-    url : https://css-tricks.com/author/mjmoze/
+    url: https://css-tricks.com/author/mjmoze/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2010/09/widthbox.png
 ---
 

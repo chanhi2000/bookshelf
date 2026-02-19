@@ -26,7 +26,7 @@ date: 2025-10-29
 isOriginal: false
 author:
   - name: Mah Noor
-    url : https://freecodecamp.org/news/author/tiredmahnoor/
+    url: https://freecodecamp.org/news/author/tiredmahnoor/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761335397152/cb105a44-4c18-4998-9ffb-d520df0e6510.png
 ---
 

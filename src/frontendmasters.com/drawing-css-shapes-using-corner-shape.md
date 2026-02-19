@@ -23,7 +23,7 @@ date: 2025-06-18
 isOriginal: false
 author:
   - name: Temani Afif
-    url : https://frontendmasters.com/blog/author/temaniafif/
+    url: https://frontendmasters.com/blog/author/temaniafif/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6235
 ---
 

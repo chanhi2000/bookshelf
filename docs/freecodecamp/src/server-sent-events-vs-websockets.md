@@ -25,7 +25,7 @@ date: 2025-01-04
 isOriginal: false
 author:
   - name: Svitlana Lorman
-    url : https://freecodecamp.org/news/author/svlorman/
+    url: https://freecodecamp.org/news/author/svlorman/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734440242816/4ba6ef33-386a-45f7-872b-5974742855e2.png
 ---
 

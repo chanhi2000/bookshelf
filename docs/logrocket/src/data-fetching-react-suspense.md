@@ -29,7 +29,7 @@ date: 2023-08-03
 isOriginal: false
 author:
   - name: Ovie Okeh
-    url : https://blog.logrocket.com/author/ovieokeh/
+    url: https://blog.logrocket.com/author/ovieokeh/
 cover: /assets/image/blog.logrocket.com/data-fetching-react-suspense/banner.png
 ---
 

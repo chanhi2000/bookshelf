@@ -28,7 +28,7 @@ date: 2024-05-02
 isOriginal: false
 author:
   - name: Sahil Mahapatra
-    url : https://freecodecamp.org/news/author/dotslashbit/
+    url: https://freecodecamp.org/news/author/dotslashbit/
 cover: https://freecodecamp.org/news/content/images/2024/04/Neon-Green-Bold-Quote-Motivational-Tweet-Instagram-Post.png
 ---
 

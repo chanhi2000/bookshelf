@@ -37,7 +37,7 @@ date: 2025-03-29
 isOriginal: false
 author:
   - name: Rahul
-    url : https://freecodecamp.org/news/author/RAHULISM/
+    url: https://freecodecamp.org/news/author/RAHULISM/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743176201295/448f0407-8a15-4b59-a91f-8a197bc07578.png
 ---
 

@@ -26,7 +26,7 @@ date: 2023-04-06
 isOriginal: false
 author:
   - name: Daniel García Solla
-    url : https://freecodecamp.org/news/author/cardstdani/
+    url: https://freecodecamp.org/news/author/cardstdani/
 cover: https://freecodecamp.org/news/content/images/2023/04/Screenshot-2023-04-04-110030.png
 ---
 

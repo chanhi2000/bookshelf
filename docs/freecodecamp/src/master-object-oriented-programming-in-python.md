@@ -27,7 +27,7 @@ date: 2025-01-30
 isOriginal: false
 author:
   - name: Dan Adams (@doabledanny)
-    url : https://youtube.com/@doabledanny
+    url: https://youtube.com/@doabledanny
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738189114736/ff24cbf4-c956-4944-8021-a682d31abc03.png
 ---
 

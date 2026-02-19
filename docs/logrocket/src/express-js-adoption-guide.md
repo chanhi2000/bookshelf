@@ -29,7 +29,7 @@ date: 2023-12-06
 isOriginal: false
 author:
   - name: Antonello Zanini
-    url : https://blog.logrocket.com/author/antonello-zanini/
+    url: https://blog.logrocket.com/author/antonello-zanini/
 cover: /assets/image/blog.logrocket.com/express-js-adoption-guide/banner.png
 ---
 
@@ -525,11 +525,11 @@ Templating refers to the process of dynamically generating HTML content by popul
 
 Some of the most popular template engines supported by Express are:
 
-- [EJS (<VPIcon icon="iconfont icon-github" />`mde/ejs`)](https://github.com/mde/ejs): Offers a simple and familiar syntax, embedding JavaScript within HTML to generate dynamic content. It provides seamless integration with Express and is suitable for developers familiar with JavaScript
-- [Pug (<VPIcon icon="iconfont icon-github" />`pugjs/pug`)](https://github.com/pugjs/pug) (formerly Jade): Reduces redundancy by using indentation instead of tags and is known for its concise and clean syntax. It promotes a more readable template structure, making it an excellent choice for those who prefer a minimalist approach
-- [Mustache (<VPIcon icon="iconfont icon-github" />`janl/mustache.js`)](https://github.com/janl/mustache.js): A logic-less template syntax, focusing on simplicity and ease of use. It encourages a clean separation between logic and presentation for scenarios where simplicity and readability are paramount
-- [Eta (<VPIcon icon="iconfont icon-github" />`eta-dev/eta`)](https://github.com/eta-dev/eta): Provides blazing-fast embedded JavaScript templating engine. It is a lightweight library written in TypeScript that emphasizes great performance, customization, and small bundle size
-- [Nunjucks (<VPIcon icon="iconfont icon-github" />`mozilla/nunjucks`)](https://github.com/mozilla/nunjucks): Provides a powerful and extensible templating engine with features like template inheritance and macros. It supports asynchronous loading, making it suitable for complex applications requiring advanced templating capabilities
+- [EJS (<VPIcon icon="iconfont icon-github"/>`mde/ejs`)](https://github.com/mde/ejs): Offers a simple and familiar syntax, embedding JavaScript within HTML to generate dynamic content. It provides seamless integration with Express and is suitable for developers familiar with JavaScript
+- [Pug (<VPIcon icon="iconfont icon-github"/>`pugjs/pug`)](https://github.com/pugjs/pug) (formerly Jade): Reduces redundancy by using indentation instead of tags and is known for its concise and clean syntax. It promotes a more readable template structure, making it an excellent choice for those who prefer a minimalist approach
+- [Mustache (<VPIcon icon="iconfont icon-github"/>`janl/mustache.js`)](https://github.com/janl/mustache.js): A logic-less template syntax, focusing on simplicity and ease of use. It encourages a clean separation between logic and presentation for scenarios where simplicity and readability are paramount
+- [Eta (<VPIcon icon="iconfont icon-github"/>`eta-dev/eta`)](https://github.com/eta-dev/eta): Provides blazing-fast embedded JavaScript templating engine. It is a lightweight library written in TypeScript that emphasizes great performance, customization, and small bundle size
+- [Nunjucks (<VPIcon icon="iconfont icon-github"/>`mozilla/nunjucks`)](https://github.com/mozilla/nunjucks): Provides a powerful and extensible templating engine with features like template inheritance and macros. It supports asynchronous loading, making it suitable for complex applications requiring advanced templating capabilities
 
 Check out the documentation for a [<VPIcon icon="iconfont icon-expressjs"/>complete list of Express template engines.](https://expressjs.com/en/resources/template-engines.html)
 
@@ -564,9 +564,9 @@ Scaffolding involves setting up the directory structure, files, and configuratio
 
 For this reason, Express supports project scaffolding via the following libraries:
 
-- [Express Generator (<VPIcon icon="iconfont icon-github" />`expressjs/generator`)](https://github.com/expressjs/generator): A command-line tool for quickly generating the basic structure of an Express.js application. It provides a set of pre-configured templates for routes, views, and other components
+- [Express Generator (<VPIcon icon="iconfont icon-github"/>`expressjs/generator`)](https://github.com/expressjs/generator): A command-line tool for quickly generating the basic structure of an Express.js application. It provides a set of pre-configured templates for routes, views, and other components
 - [Yeoman (<VPIcon icon="iconfont icon-github"/>`yeoman`)](https://github.com/yeoman): A robust scaffolding tool that supports various generators, including those for Express.js projects. It enables developers to create and share generators for different project structures and configurations
-- [Cookiecutter (<VPIcon icon="iconfont icon-github" />`cookiecutter/cookiecutter`)](https://github.com/cookiecutter/cookiecutter): A templating tool that facilitates project scaffolding based on project templates. There are templates available also for Express.js projects, allowing for quick setup with predefined structures and configurations
+- [Cookiecutter (<VPIcon icon="iconfont icon-github"/>`cookiecutter/cookiecutter`)](https://github.com/cookiecutter/cookiecutter): A templating tool that facilitates project scaffolding based on project templates. There are templates available also for Express.js projects, allowing for quick setup with predefined structures and configurations
 
 These tools improve productivity, help save time, and make it easier to organize code, manage dependencies, and adhere to best practices.
 
@@ -634,11 +634,11 @@ Flask and Express.js are similar frameworks. Flask is great for very small proje
 
 Other Express alternatives based on Node.js are:
 
-- [Fastify (<VPIcon icon="iconfont icon-github" />`fastify/fastify`)](https://github.com/fastify/fastify): A web framework for Node.js focused on speed and low overhead, ideal for building highly efficient APIs
-- [Koa (<VPIcon icon="iconfont icon-github" />`koajs/koa`)](https://github.com/koajs/koa): A minimalist and expressive web framework for Node.js, designed by the creators of Express.js and emphasizing middleware composition
-- [Nest (<VPIcon icon="iconfont icon-github" />`nestjs/nest`)](https://github.com/nestjs/nest): A progressive TypeScript framework for building scalable and maintainable server-side applications, built on top of Express.js
-- [Hapi (<VPIcon icon="iconfont icon-github" />`hapijs/hapi`)](https://github.com/hapijs/hapi): A rich framework focused on configuration-driven development and extensibility for building applications and services in Node.js
-- [DerbyJS (<VPIcon icon="iconfont icon-github" />`derbyjs/derby`)](https://github.com/derbyjs/derby): A full-stack MVC web framework for building real-time, collaborative applications with a focus on seamless data synchronization
+- [Fastify (<VPIcon icon="iconfont icon-github"/>`fastify/fastify`)](https://github.com/fastify/fastify): A web framework for Node.js focused on speed and low overhead, ideal for building highly efficient APIs
+- [Koa (<VPIcon icon="iconfont icon-github"/>`koajs/koa`)](https://github.com/koajs/koa): A minimalist and expressive web framework for Node.js, designed by the creators of Express.js and emphasizing middleware composition
+- [Nest (<VPIcon icon="iconfont icon-github"/>`nestjs/nest`)](https://github.com/nestjs/nest): A progressive TypeScript framework for building scalable and maintainable server-side applications, built on top of Express.js
+- [Hapi (<VPIcon icon="iconfont icon-github"/>`hapijs/hapi`)](https://github.com/hapijs/hapi): A rich framework focused on configuration-driven development and extensibility for building applications and services in Node.js
+- [DerbyJS (<VPIcon icon="iconfont icon-github"/>`derbyjs/derby`)](https://github.com/derbyjs/derby): A full-stack MVC web framework for building real-time, collaborative applications with a focus on seamless data synchronization
 
 To see what these frameworks have to offer and how they compare with Express, [**read our in-depth comparison**](/blog.logrocket.com/node-js-alternative-frameworks-express-js.md).
 

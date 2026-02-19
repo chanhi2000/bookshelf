@@ -30,7 +30,7 @@ date: 2017-05-25
 isOriginal: false
 author:
   - name: Sophia Parafina
-    url : https://docker.com/author/sophia/
+    url: https://docker.com/author/sophia/
 cover: https://docker.com/app/uploads/9d6c9743-e348-4c76-8515-1743162101ad.jpg
 ---
 
@@ -38,9 +38,9 @@ cover: https://docker.com/app/uploads/9d6c9743-e348-4c76-8515-1743162101ad.jpg
 
 ```component VPCard
 {
-  "title": "Docker > Article(s)",
+  "title": "Spring > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/docker/articles/README.md",
+  "link": "/programming/java-spring/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -48,9 +48,9 @@ cover: https://docker.com/app/uploads/9d6c9743-e348-4c76-8515-1743162101ad.jpg
 
 ```component VPCard
 {
-  "title": "Spring > Article(s)",
+  "title": "Docker > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/java-spring/articles/README.md",
+  "link": "/devops/docker/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

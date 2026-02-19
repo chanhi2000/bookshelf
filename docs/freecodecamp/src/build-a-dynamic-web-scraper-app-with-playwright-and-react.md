@@ -29,7 +29,7 @@ date: 2025-01-15
 isOriginal: false
 author:
   - name: Mihail Gaberov
-    url : https://freecodecamp.org/news/author/mihailgaberov/
+    url: https://freecodecamp.org/news/author/mihailgaberov/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736952641440/0aa6255b-45eb-4ae8-b5cb-d87648590e18.png
 ---
 

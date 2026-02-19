@@ -24,7 +24,7 @@ date: 2019-06-05
 isOriginal: false
 author:
   - name: Jim Anderson
-    url : https://realpython.com/team/janderson/
+    url: https://realpython.com/team/janderson/
 cover: https://files.realpython.com/media/How-to-Use-Stacks-in-Python_Watermarked.d22262707558.jpg
 ---
 

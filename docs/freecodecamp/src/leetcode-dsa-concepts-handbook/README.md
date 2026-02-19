@@ -33,7 +33,7 @@ date: 2025-05-30
 isOriginal: false
 author:
   - name: Eda Eren
-    url : https://freecodecamp.org/news/author/edae/
+    url: https://freecodecamp.org/news/author/edae/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748548297673/2ea8ee5a-e873-4401-b024-86412bf00f8a.png
 ---
 

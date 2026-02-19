@@ -35,7 +35,7 @@ date: 2024-01-26
 isOriginal: false
 author:
   - name: Tania Rascia
-    url : https://blog.logrocket.com/author/taniarascia/
+    url: https://blog.logrocket.com/author/taniarascia/
 cover: /assets/image/blog.logrocket.com/crud-rest-api-node-js-express-postgresql/banner.webp
 ---
 
@@ -94,7 +94,7 @@ To follow along with this tutorial, you‘ll need:
 
 ::: info
 
-The complete code for the tutorial is available in this [GitHub repo (<VPIcon icon="iconfont icon-github" />`nemo0/node-postgres-crud-api`)](https://github.com/nemo0/node-postgres-crud-api). Let’s get started!
+The complete code for the tutorial is available in this [GitHub repo (<VPIcon icon="iconfont icon-github"/>`nemo0/node-postgres-crud-api`)](https://github.com/nemo0/node-postgres-crud-api). Let’s get started!
 
 <SiteInfo
   name="nemo0/node-postgres-crud-api"

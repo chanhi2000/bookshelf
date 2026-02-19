@@ -26,7 +26,7 @@ date: 2018-05-24
 isOriginal: false
 author:
   - name: Mano Marks
-    url : https://docker.com/author/mano/
+    url: https://docker.com/author/mano/
 cover: https://docker.com/app/uploads/2022/12/introducing-play-kubernetes-1.png
 ---
 

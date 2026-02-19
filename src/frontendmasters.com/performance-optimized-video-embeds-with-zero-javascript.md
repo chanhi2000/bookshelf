@@ -23,7 +23,7 @@ date: 2026-02-02
 isOriginal: false
 author:
   - name: Stefan Bauer
-    url : https://frontendmasters.com/blog/author/stefanbauer/
+    url: https://frontendmasters.com/blog/author/stefanbauer/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/8431
 ---
 
@@ -52,7 +52,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 Every embedded video comes with a real cost to page load performance. Each player loads extra resources, whether the user ever hits play or not, as Chris Coyier noted in his blog post on [**“YouTube Embeds are Bananas Heavy and it’s Fixable”**](/frontendmasters.com/youtube-embeds-are-bananas-heavy-and-its-fixable.md).
 
-The approach of using `[<lite-youtube> (<VPIcon icon="iconfont icon-github" />`paulirish/lite-youtube-embed`)](https://github.com/paulirish/lite-youtube-embed)` in that article works well when the video appears further down on the page and loads outside of the initial viewport. If the video is directly in the initial viewport, it can still cause a cumulative layout shift (CLS).
+The approach of using `[<lite-youtube> (<VPIcon icon="iconfont icon-github"/>`paulirish/lite-youtube-embed`)](https://github.com/paulirish/lite-youtube-embed)` in that article works well when the video appears further down on the page and loads outside of the initial viewport. If the video is directly in the initial viewport, it can still cause a cumulative layout shift (CLS).
 
 What if I told you you could lazy-load videos on interaction, without any JavaScript, even above the fold, with only native HTML and CSS?
 
@@ -105,7 +105,7 @@ CSS centers the play button on top of the thumbnail. Here’s where we are so fa
   link="https://codepen.io/StfBauer/pen/PwzOoEm/84213c473b723bd8b026c14f4d45909d"
   title="Summary Layout"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The summary uses a 3×3 CSS grid to position the SVG exactly in the center of the thumbnail.
 
@@ -121,7 +121,7 @@ Right after the `<summary>` element, the last step for HTML elements is to place
   link="https://codepen.io/StfBauer/pen/YPWEPNr/3179ae2a409e1383f84884ea374737bd"
   title="Details with video player"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -157,7 +157,7 @@ The iframe player appears in the viewport and lazy loads the resources needed fo
   link="https://codepen.io/StfBauer/pen/RNbKYXe/a831adc966239412c0eded6aabd6b39b"
   title="Video Embedded - Optimisation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In general, instead of delaying the video until it appears in the viewport, everything is delayed when the user actually wants to watch the video.
 
@@ -175,7 +175,7 @@ It could even be applied to an Embedded Pen like I’m showing the demos in (alt
 
 ### Data
 
-I created some tests to compare performance with the famous [lite-youtube-embed (<VPIcon icon="iconfont icon-github" />`paulirish/lite-youtube-embed`)](https://github.com/paulirish/lite-youtube-embed) by Paul Irish against this pattern.
+I created some tests to compare performance with the famous [lite-youtube-embed (<VPIcon icon="iconfont icon-github"/>`paulirish/lite-youtube-embed`)](https://github.com/paulirish/lite-youtube-embed) by Paul Irish against this pattern.
 
 ::: info The results
 

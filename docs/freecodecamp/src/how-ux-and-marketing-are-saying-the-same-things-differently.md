@@ -25,7 +25,7 @@ date: 2025-04-25
 isOriginal: false
 author:
   - name: Anamol Rajbhandari
-    url : https://freecodecamp.org/news/author/anamol-rajbhandari/
+    url: https://freecodecamp.org/news/author/anamol-rajbhandari/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745520497294/c0cac6d6-feaf-4633-a8eb-18baf7f7f479.png
 ---
 

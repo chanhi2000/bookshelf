@@ -29,7 +29,7 @@ date: 2023-07-12
 isOriginal: false
 author:
   - name: Ohans Emmanuel
-    url : https://blog.logrocket.com/author/ohansemmanuel/
+    url: https://blog.logrocket.com/author/ohansemmanuel/
 cover: /assets/image/blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/banner.png
 ---
 

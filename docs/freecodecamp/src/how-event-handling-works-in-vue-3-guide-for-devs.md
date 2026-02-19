@@ -29,7 +29,7 @@ date: 2024-09-12
 isOriginal: false
 author:
   - name: Asfak Ahmed
-    url : https://freecodecamp.org/news/author/asfakahmed/
+    url: https://freecodecamp.org/news/author/asfakahmed/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725980520061/87728aa1-f3c5-451d-9f11-5163f527d029.png
 ---
 

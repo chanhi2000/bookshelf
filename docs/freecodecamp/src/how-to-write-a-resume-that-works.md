@@ -25,7 +25,7 @@ date: 2020-08-04
 isOriginal: false
 author:
   - name: Megan Kaczanowski
-    url : https://freecodecamp.org
+    url: https://freecodecamp.org
 cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c996b740569d1a4ca1f9c.jpg
 ---
 

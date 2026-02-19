@@ -24,7 +24,7 @@ date: 2025-02-01
 isOriginal: false
 author:
   - name: Isaiah Clifford Opoku
-    url : https://freecodecamp.org/news/author/Clifftech/
+    url: https://freecodecamp.org/news/author/Clifftech/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737747600016/f6df015b-cc25-4c37-8c4e-bec9c8c49dc5.png
 ---
 

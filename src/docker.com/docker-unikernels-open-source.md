@@ -25,7 +25,7 @@ date: 2016-05-18
 isOriginal: false
 author:
   - name: Anil Madhavapeddy
-    url : https://docker.com/author/anil/
+    url: https://docker.com/author/anil/
 cover: https://docker.com/app/uploads/2022/12/docker-unikernels-open-source-2.png
 ---
 

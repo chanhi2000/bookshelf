@@ -24,7 +24,7 @@ date: 2022-04-06
 isOriginal: false
 author:
   - name: Oloruntobi Awoderu
-    url : https://blog.logrocket.com/author/oloruntobiawoderu/
+    url: https://blog.logrocket.com/author/oloruntobiawoderu/
 cover: /assets/image/blog.logrocket.com/definitive-guide-typing-functions-typescript/banner.png
 ---
 

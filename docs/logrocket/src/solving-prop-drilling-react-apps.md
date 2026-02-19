@@ -29,7 +29,7 @@ date: 2022-01-14
 isOriginal: false
 author:
   - name: David Herbert
-    url : https://blog.logrocket.com/author/davidherbert/
+    url: https://blog.logrocket.com/author/davidherbert/
 cover: /assets/image/blog.logrocket.com/solving-prop-drilling-react-apps/banner.png
 ---
 

@@ -24,7 +24,7 @@ date: 2023-09-20
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -53,7 +53,7 @@ cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 
 When working with optional parameters in TypeScript, you may encounter the error message "undefined cannot be assigned to a specific type." This happens because optional parameters can either be `undefined` or of a specified type. To avoid this error, you can use several techniques.
 
-The error message that **undefined cannot be assigned to a specific type** often occurs when working with optional parameters. When a parameter is marked as optional, it can either be `undefined` or of the specified type. In TypeScript this is represented by a [**union type**](/typescript.tv/glossary.md#union-types) such as `undefined | string`. If you want to use a function that doesn't accept `undefined` as a parameter (e.g., `parseInt`), you must first validate that your value exists.
+The error message that **undefined cannot be assigned to a specific type** often occurs when working with optional parameters. When a parameter is marked as optional, it can either be `undefined` or of the specified type. In TypeScript this is represented by a [**union type**](/typescript.tv/glossary/union-types.md) such as `undefined | string`. If you want to use a function that doesn't accept `undefined` as a parameter (e.g., `parseInt`), you must first validate that your value exists.
 
 Here are some helpful tricks for accomplishing this.
 

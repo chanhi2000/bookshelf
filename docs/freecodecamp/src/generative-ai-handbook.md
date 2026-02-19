@@ -25,7 +25,7 @@ date: 2024-06-21
 isOriginal: false
 author:
   - name: Vahe Aslanyan
-    url : https://freecodecamp.org/news/author/vaheaslanyan/
+    url: https://freecodecamp.org/news/author/vaheaslanyan/
 cover: https://freecodecamp.org/news/content/images/2024/06/The-Generative-AI-Handbook-Cover.png
 ---
 

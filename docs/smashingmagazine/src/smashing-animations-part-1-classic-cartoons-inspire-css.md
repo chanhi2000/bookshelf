@@ -23,7 +23,7 @@ date: 2025-05-07
 isOriginal: false
 author:
   - name: Andy Clarke
-    url : https://smashingmagazine.com/author/andy-clarke/
+    url: https://smashingmagazine.com/author/andy-clarke/
 cover: https://files.smashing.media/articles/smashing-animations-part-1-classic-cartoons-inspire-css/smashing-animations-part-1-classic-cartoons-inspire-css.jpg
 ---
 

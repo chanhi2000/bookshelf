@@ -46,6 +46,20 @@ const Y2020: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2020
+    "deploy-stateful-docker-containers-with-amazon-ecs-with-amazon-efs", // 2020-04-11
+    "announcing-the-compose-specification", // 2020-04-07
+    "multi-platform-docker-builds", // 2020-03-31
+    "awesome-compose-app-samples-for-project-dev-kickoff", // 2020-03-26
+    "mydockerbday-discounts-on-docker-captain-content", // 2020-03-24
+    "first-docker-github-action-is-here", // 2020-03-17
+    "docker-strategy-helping-devs-build-and-ship-faster", // 2020-03-11
+    "helping-devs-simplify-apps-toolchains-and-open-source", // 2020-03-10
+    "docker-desktop-for-windows-home-is-here", // 2020-03-06
+    "how-to-deploy-on-remote-docker-hosts-with-docker-compose", // 2020-03-02
+    "getting-started-with-istio-using-docker-desktop", // 2020-02-19
+    "docker-donates-cnab-to-oci-library", // 2020-02-12
+    "changes-dockerproject-org-apt-yum-repositories", // 2020-02-05
+    "introducing-the-docker-index", // 2020-02-05
     "solving-docker-compose-performance-on-macos-catalina", // 2020-01-29
     "january-virtual-meetup-recap", // 2020-01-29
     "faster-builds-in-compose-thanks-to-buildkit-support", // 2020-01-23
@@ -62,6 +76,7 @@ const Y2019: SidebarYeargroupTemplate = {
     "containers-today-recap", // 2019-12-21
     "deep-dive-into-new-docker-desktop-filesharing-implementation", // 2019-12-17
     "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
+    "docker-next-chapter-advancing-developer-workflows-for-modern-apps", // 2019-11-14
     "depend-on-docker-for-kubeflow", // 2019-11-07
     "new-docker-desktop-wsl2-backend", // 2019-10-25
     "developing-docker-windows-app-wsl2", // 2019-08-15
@@ -329,6 +344,7 @@ export const template: SidebarInfoTemplate = {
       "maintainable-integration-tests-with-docker", // 2019-08-01
       "developing-docker-windows-app-wsl2", // 2019-08-15
       "new-docker-desktop-wsl2-backend", // 2019-10-25
+      "docker-next-chapter-advancing-developer-workflows-for-modern-apps", // 2019-11-14
       "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
       "deep-dive-into-new-docker-desktop-filesharing-implementation", // 2019-12-17
       "containers-today-recap", // 2019-12-21
@@ -338,6 +354,20 @@ export const template: SidebarInfoTemplate = {
       "faster-builds-in-compose-thanks-to-buildkit-support", // 2020-01-23
       "january-virtual-meetup-recap", // 2020-01-29
       "solving-docker-compose-performance-on-macos-catalina", // 2020-01-29
+      "introducing-the-docker-index", // 2020-02-05
+      "changes-dockerproject-org-apt-yum-repositories", // 2020-02-05
+      "docker-donates-cnab-to-oci-library", // 2020-02-12
+      "getting-started-with-istio-using-docker-desktop", // 2020-02-19
+      "how-to-deploy-on-remote-docker-hosts-with-docker-compose", // 2020-03-02
+      "docker-desktop-for-windows-home-is-here", // 2020-03-06
+      "helping-devs-simplify-apps-toolchains-and-open-source", // 2020-03-10
+      "docker-strategy-helping-devs-build-and-ship-faster", // 2020-03-11
+      "first-docker-github-action-is-here", // 2020-03-17
+      "mydockerbday-discounts-on-docker-captain-content", // 2020-03-24
+      "awesome-compose-app-samples-for-project-dev-kickoff", // 2020-03-26
+      "multi-platform-docker-builds", // 2020-03-31
+      "announcing-the-compose-specification", // 2020-04-07
+      "deploy-stateful-docker-containers-with-amazon-ecs-with-amazon-efs", // 2020-04-11
       // END: 2020docker
       // END: 2021docker
       // END: 2022docker
@@ -388,6 +418,21 @@ export const template: SidebarInfoTemplate = {
       // END: 2025k8s
       // END: k8s
     ]],[
+    "k8s-istio", [
+      // END: 2015k8s-istio
+      // END: 2016k8s-istio
+      // END: 2017k8s-istio
+      "getting-started-with-istio-using-docker-desktop", // 2020-02-19
+      // END: 2018k8s-istio
+      // END: 2019k8s-istio
+      // END: 2020k8s-istio
+      // END: 2021k8s-istio
+      // END: 2022k8s-istio
+      // END: 2023k8s-istio
+      // END: 2024k8s-istio
+      // END: 2025k8s-istio
+      // END: k8s-istio
+    ]],[
     "macos", [
       "user-guided-caching-in-docker-for-mac", // 2017-05-06
       // END: 2017macos
@@ -412,6 +457,7 @@ export const template: SidebarInfoTemplate = {
       "developing-docker-windows-app-wsl2", // 2019-08-15
       "new-filesharing-implementation-in-docker-desktop-windows", // 2019-12-12
       // END: 2019win
+      "docker-desktop-for-windows-home-is-here", // 2020-03-06
       // END: 2020win
       // END: 2021win
       // END: 2022win
@@ -430,6 +476,28 @@ export const template: SidebarInfoTemplate = {
       // END: 2024win
       // END: 2025win
       // END: win
+    ]],[
+    "github", [
+      // END: 2019github
+      "first-docker-github-action-is-here", // 2020-03-17
+      // END: 2020github
+      // END: 2021github
+      // END: 2022github
+      // END: 2023github
+      // END: 2024github
+      // END: 2025github
+      // END: github
+    ]],[
+    "vscode", [
+      // END: 2019vscode
+      "docker-desktop-for-windows-home-is-here", // 2020-03-06
+      // END: 2020vscode
+      // END: 2021vscode
+      // END: 2022vscode
+      // END: 2023vscode
+      // END: 2024vscode
+      // END: 2025vscode
+      // END: vscode
     ]],[
     "all", [
       Y2025,

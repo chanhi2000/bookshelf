@@ -23,7 +23,7 @@ date: 2022-01-24
 isOriginal: false
 author:
   - name: Stephanie Eckles
-    url : https://smashingmagazine.com/author/stephanie-eckles/
+    url: https://smashingmagazine.com/author/stephanie-eckles/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/13b8900c-aa53-49ae-84f7-9fbf598635e2/introduction-css-cascade-layers.jpg
 ---
 
@@ -288,7 +288,7 @@ Hopefully, the reason these are called “layers” is becoming clear!
 
 ### Specificity Of Unlayered Styles
 
-Given layers are not presently fully supported, not to mention the shift they’ll be bringing, the CSS working group wanted to ensure an upgrade path. And [as part of that discussion (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/6284#issuecomment-937262197), they determined that the styles you’re currently used to writing — aka “unlayered styles” — would always take the highest priority. In other words, styles outside of layers will ultimately “win” over styles within layers.
+Given layers are not presently fully supported, not to mention the shift they’ll be bringing, the CSS working group wanted to ensure an upgrade path. And [as part of that discussion (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/6284#issuecomment-937262197), they determined that the styles you’re currently used to writing — aka “unlayered styles” — would always take the highest priority. In other words, styles outside of layers will ultimately “win” over styles within layers.
 
 If a paragraph has a class of `blue` and that class is defined in the `utilities` layer, it will be overridden by the `p` selector that lives outside of a layer. So here, the paragraph (and all others in the application) would end up red.
 
@@ -368,7 +368,7 @@ This CodePen includes the styles we’ve reviewed so far to demonstrate the rule
   slug-hash="podzPbJ"
   title="@layer specificity and !important"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 At time of writing, browser devtools for the current implementations of layers did not indicate that a style was coming from a layer. However, tooling is on the way, so stay tuned!
 
@@ -533,7 +533,7 @@ This technique is demonstrated in this CodePen:
   slug-hash="MWOgmjK"
   title="@layer for element state"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -580,7 +580,7 @@ Recently, Mads Stoumann covered [**using `:is()` and `:where()` as a cascade-con
 
 ## Spec Status
 
-Cascade layers are part of the spec for “[<VPIcon icon="iconfont icon-w3c"/>CSS Cascading and Inheritance Level 5](https://w3.org/TR/css-cascade-5/),” which reached candidate recommendation on January 13, 2022. There are no remaining major issues yet to resolve, but you can find [the previously resolved issues on GitHub (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/projects/15).
+Cascade layers are part of the spec for “[<VPIcon icon="iconfont icon-w3c"/>CSS Cascading and Inheritance Level 5](https://w3.org/TR/css-cascade-5/),” which reached candidate recommendation on January 13, 2022. There are no remaining major issues yet to resolve, but you can find [the previously resolved issues on GitHub (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/projects/15).
 
 Give cascade layers a try! If you find an issue, you can file it for the working group to consider on GitHub.
 

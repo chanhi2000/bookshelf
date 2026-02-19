@@ -32,7 +32,7 @@ date: 2025-02-05
 isOriginal: false
 author:
   - name: Paul Bratslavsky (@CodingAfterThirty)
-    url : https://youtube.com/@CodingAfterThirty
+    url: https://youtube.com/@CodingAfterThirty
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738855654744/dd05c620-8018-4c3c-9800-3948afe5277a.png
 ---
 

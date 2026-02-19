@@ -25,7 +25,7 @@ date: 2025-02-25
 isOriginal: false
 author:
   - name: Yan Sun
-    url : https://blog.logrocket.com/author/yansun/
+    url: https://blog.logrocket.com/author/yansun/
 cover: /assets/image/blog.logrocket.com/guide-node-js-readable-streams/banner.png
 ---
 

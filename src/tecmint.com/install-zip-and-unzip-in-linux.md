@@ -39,7 +39,7 @@ date: 2025-09-02
 isOriginal: false
 author:
   - name: James Kiarie
-    url : https://tecmint.com/author/james2030kiarie/
+    url: https://tecmint.com/author/james2030kiarie/
 cover: https://tecmint.com/wp-content/uploads/2020/05/Install-Zip-in-Linux.png
 ---
 

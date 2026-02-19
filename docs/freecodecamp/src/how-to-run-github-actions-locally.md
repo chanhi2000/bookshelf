@@ -28,7 +28,7 @@ date: 2024-03-12
 isOriginal: false
 author:
   - name: Rajdeep Singh
-    url : https://freecodecamp.org/news/author/officialrajdeepsingh/
+    url: https://freecodecamp.org/news/author/officialrajdeepsingh/
 cover: https://cdn-media-0.freecodecamp.org/2024/02/How-to-run-GitHub-actions-locally.png
 ---
 

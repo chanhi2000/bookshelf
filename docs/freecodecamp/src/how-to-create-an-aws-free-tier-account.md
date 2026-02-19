@@ -28,7 +28,7 @@ date: 2025-07-16
 isOriginal: false
 author:
   - name: Victoria Nduka
-    url : https://freecodecamp.org/news/author/nwanduka/
+    url: https://freecodecamp.org/news/author/nwanduka/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752599184286/ff14fece-f865-4d8f-87e7-4cfed11a6946.png
 ---
 

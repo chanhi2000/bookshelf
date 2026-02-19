@@ -25,7 +25,7 @@ date: 2019-02-26
 isOriginal: false
 author:
   - name: David Scott
-    url : https://docker.com/author/dscott/
+    url: https://docker.com/author/dscott/
 cover: https://docker.com/app/uploads/2022/03/time_drift_1.png
 ---
 

@@ -36,6 +36,14 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "potentially-coming-to-a-browser-near-you", // 2026-02-20
+    "distinguishing-components-and-utilities-in-tailwind", // 2026-02-18
+    "spiral-scrollytelling-in-css-with-sibling-index", // 2026-02-17
+    "interop-2026", // 2026-02-17
+    "whats-important-5", // 2026-02-13
+    "making-a-responsive-pyramidal-grid-with-modern-css", // 2026-02-12
+    "approximating-contrast-color-with-other-css-features", // 2026-02-11
+    "trying-to-make-the-perfect-pie-chart-in-css", // 2026-02-09
     "css-bar-charts-using-modern-functions", // 2026-02-05
     "no-hassle-visual-code-theming-publishing-an-extension", // 2026-02-03
     "no-hassle-visual-studio-code-theming-building-an-extension", // 2026-02-02
@@ -118,9 +126,12 @@ const Y2025: SidebarYeargroupTemplate = {
     "a-primer-on-focus-trapping", // 2025-07-22
     "getting-creative-with-versal-letters", // 2025-07-18
     "getting-clarity-on-apples-liquid-glass", // 2025-07-17
-    "better-css-shapes-using-shape-part-1-lines-and-arcs", // 2025-07-07
+    "better-css-shapes-using-shape-part-4-close-and-move", // 2205-07-07
     "css-blob-recipes", // 2025-06-27
+    "better-css-shapes-using-shape-part-3-curves", // 2025-06-06
     "getting-creative-with-html-dialog", // 2025-06-03
+    "better-css-shapes-using-shape-part-2-more-on-arcs", // 2025-05-30
+    "better-css-shapes-using-shape-part-1-lines-and-arcs", // 2025-05-23
     "guide-svg-animations-smil", // 2025-03-28
     "revisiting-css-border-image", // 2025-03-21
     "applying-the-web-dev-mindset-to-dealing-with-life-challenges", // 2025-02-24
@@ -162,6 +173,7 @@ const Y2022: SidebarYeargroupTemplate = {
     "single-element-loaders-the-spinner", // 2022-06-10
     "cool-hover-effects-using-background-properties", // 2022-04-27
     "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
+    "css-borders-using-masks", // 2022-01-26
   ],
 }
 
@@ -214,6 +226,7 @@ const Y2018: SidebarYeargroupTemplate = {
     // END: 2018
     "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
     "svg-shape-morphing-works", // 2018-08-28
+    "css-logical-properties", // 2018-08-21
     "the-trick-to-viewport-units-on-mobile", // 2018-07-31
     "responsive-components-solution-container-queries-problem", // 2018-02-28
   ],
@@ -368,6 +381,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2017css
       "responsive-components-solution-container-queries-problem", // 2018-02-28
       "the-trick-to-viewport-units-on-mobile", // 2018-07-31
+      "css-logical-properties", // 2018-08-21
       "svg-shape-morphing-works", // 2018-08-28
       "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
       // END: 2018css
@@ -392,6 +406,7 @@ export const template: SidebarInfoTemplate = {
       "say-hello-to-css-container-queries", // 2021-04-20
       "next-gen-css-container", // 2021-05-11
       // END: 2021css
+      "css-borders-using-masks", // 2022-01-26
       "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
       "cool-hover-effects-using-background-properties", // 2022-04-27
       "single-element-loaders-the-spinner", // 2022-06-10
@@ -412,9 +427,12 @@ export const template: SidebarInfoTemplate = {
       "applying-the-web-dev-mindset-to-dealing-with-life-challenges", // 2025-02-24
       "revisiting-css-border-image", // 2025-03-21
       "guide-svg-animations-smil", // 2025-03-28
+      "better-css-shapes-using-shape-part-1-lines-and-arcs", // 2025-05-23
+      "better-css-shapes-using-shape-part-2-more-on-arcs", // 2025-05-30
       "getting-creative-with-html-dialog", // 2025-06-03
+      "better-css-shapes-using-shape-part-3-curves", // 2025-06-06
       "css-blob-recipes", // 2025-06-27
-      "better-css-shapes-using-shape-part-1-lines-and-arcs", // 2025-07-07
+      "better-css-shapes-using-shape-part-4-close-and-move", // 2205-07-07
       "getting-clarity-on-apples-liquid-glass", // 2025-07-17
       "getting-creative-with-versal-letters", // 2025-07-18
       "a-first-look-at-the-interest-invoker-api-for-hover-triggered-popovers", // 2025-07-23
@@ -479,8 +497,19 @@ export const template: SidebarInfoTemplate = {
       "no-hassle-visual-studio-code-theming-building-an-extension", // 2026-02-02
       "no-hassle-visual-code-theming-publishing-an-extension", // 2026-02-03
       "css-bar-charts-using-modern-functions", // 2026-02-05
+      "trying-to-make-the-perfect-pie-chart-in-css", // 2026-02-09
+      "approximating-contrast-color-with-other-css-features", // 2026-02-11
+      "whats-important-5", // 2026-02-13
+      "interop-2026", // 2026-02-17
+      "spiral-scrollytelling-in-css-with-sibling-index", // 2026-02-17
+      "potentially-coming-to-a-browser-near-you", // 2026-02-20
       // END: 2026css
       // END: css
+    ]],[
+    "css-tailwind",[
+      "distinguishing-components-and-utilities-in-tailwind", // 2026-02-18
+      // END: 2026css-tailwind
+      // END: css-tailwind
     ]],[
     "js-astro",[
       "building-a-honeypot-field-that-works", // 2025-10-20

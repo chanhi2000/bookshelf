@@ -34,7 +34,7 @@ date: 2025-07-22
 isOriginal: false
 author:
   - name: Sheldon Chi (@algo.monster)
-    url : https://youtube.com/@algo.monster
+    url: https://youtube.com/@algo.monster
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753195703148/03e55da6-8391-4f8a-9493-036abd0518d9.png
 ---
 

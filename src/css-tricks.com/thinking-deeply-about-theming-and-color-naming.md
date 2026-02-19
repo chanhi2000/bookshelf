@@ -26,7 +26,7 @@ date: 2025-08-04
 isOriginal: false
 author:
   - name: Zell Liew
-    url : https://css-tricks.com/author/zellwk/
+    url: https://css-tricks.com/author/zellwk/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/07/abstract-color.jpg
 ---
 

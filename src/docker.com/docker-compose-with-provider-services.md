@@ -25,7 +25,7 @@ date: 2025-07-10
 isOriginal: false
 author:
   - name: Guillaume Lours
-    url : https://docker.com/author/glours/
+    url: https://docker.com/author/glours/
 cover: https://docker.com/app/uploads/2025/03/image.png
 ---
 

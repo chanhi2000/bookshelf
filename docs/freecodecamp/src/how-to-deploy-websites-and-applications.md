@@ -31,7 +31,7 @@ date: 2023-08-09
 isOriginal: false
 author:
   - name: Ijeoma Igboagu
-    url : https://freecodecamp.org/news/author/Ijay/
+    url: https://freecodecamp.org/news/author/Ijay/
 cover: https://freecodecamp.org/news/content/images/2023/08/cover-friendly-deploy.png
 ---
 

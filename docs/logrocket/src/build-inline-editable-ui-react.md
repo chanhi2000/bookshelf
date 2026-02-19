@@ -29,7 +29,7 @@ date: 2022-12-15
 isOriginal: false
 author:
   - name: Paramanantham Harrison
-    url : https://blog.logrocket.com/author/paramananthamharrison/
+    url: https://blog.logrocket.com/author/paramananthamharrison/
 cover: /assets/image/blog.logrocket.com/build-inline-editable-ui-react/banner.png
 ---
 

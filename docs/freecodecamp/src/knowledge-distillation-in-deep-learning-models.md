@@ -25,7 +25,7 @@ date: 2024-07-09
 isOriginal: false
 author:
   - name: Oyedele Tioluwani
-    url : https://freecodecamp.org/news/author/Tioluwani/
+    url: https://freecodecamp.org/news/author/Tioluwani/
 cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/kenny-eliason-5afenxnLDjs-unsplash.jpg
 ---
 

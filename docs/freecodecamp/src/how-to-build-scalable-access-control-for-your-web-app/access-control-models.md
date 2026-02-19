@@ -27,7 +27,7 @@ date: 2025-02-05
 isOriginal: false
 author:
   - name: Samhitha Rama Prasad
-    url : https://freecodecamp.org/news/author/samhitharamaprasad/
+    url: https://freecodecamp.org/news/author/samhitharamaprasad/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738695897990/7a5962ce-9c4a-4e7c-bdeb-520dccc5d240.png
 ---
 

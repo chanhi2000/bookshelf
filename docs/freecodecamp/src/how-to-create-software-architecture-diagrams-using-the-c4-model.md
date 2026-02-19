@@ -29,7 +29,7 @@ date: 2024-08-22
 isOriginal: false
 author:
   - name: Alex Pliutau
-    url : https://freecodecamp.org/news/author/pltvs/
+    url: https://freecodecamp.org/news/author/pltvs/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724187048778/7d2821c6-c0c9-4d03-999f-37022388210c.jpeg
 ---
 
@@ -268,7 +268,7 @@ Since you can host your models on GitHub, it is very easy to automate the pipeli
 
 In our case, Structurizr has a GitHub Action that allows you to run **structurizr-cli**, a command line utility for Structurizr that lets you create software architecture models based upon the C4 model using a textual domain specific language (DSL).
 
-This sample repository contains a [workflow (<VPIcon icon="iconfont icon-github" />`plutov/c4-diagram-example`)](https://github.com/plutov/c4-diagram-example/blob/main/.github/workflows/pages.yaml) that simply generates a static page and publishes it to GitHub Pages.
+This sample repository contains a [workflow (<VPIcon icon="iconfont icon-github"/>`plutov/c4-diagram-example`)](https://github.com/plutov/c4-diagram-example/blob/main/.github/workflows/pages.yaml) that simply generates a static page and publishes it to GitHub Pages.
 
 ```yaml :collapsed-lines title=".github/workflows/pages.yaml"
 name: Deploy static content to Github Pages
@@ -336,11 +336,11 @@ The C4 model and a bit of automation with Structurizr DSL can help make this pro
 
 ::: info Resources
 
-- [Github Repository (<VPIcon icon="iconfont icon-github" />`plutov/c4-diagram-example`)](https://github.com/plutov/c4-diagram-example)
+- [Github Repository (<VPIcon icon="iconfont icon-github"/>`plutov/c4-diagram-example`)](https://github.com/plutov/c4-diagram-example)
 - [C4 Model](https://c4model.com/)
 - [DSL Language Reference](https://docs.structurizr.com/dsl/language)
 - [C4 DSL Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=systemticks.c4-dsl-extension)
-- [structurizr-cli-action (<VPIcon icon="iconfont icon-github" />`marketplace/actions`)](https://github.com/marketplace/actions/structurizr-cli-action)
+- [structurizr-cli-action (<VPIcon icon="iconfont icon-github"/>`marketplace/actions`)](https://github.com/marketplace/actions/structurizr-cli-action)
 - [Discover more articles from packagemain.tech](https://packagemain.tech)
 
 :::

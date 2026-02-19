@@ -24,7 +24,7 @@ date: 2025-09-25
 isOriginal: false
 author:
   - name: Gabor Koos
-    url : https://freecodecamp.org/news/author/gkoos/
+    url: https://freecodecamp.org/news/author/gkoos/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758741125008/e796d218-2cf6-43ed-87a5-dfc772e121f8.png
 ---
 

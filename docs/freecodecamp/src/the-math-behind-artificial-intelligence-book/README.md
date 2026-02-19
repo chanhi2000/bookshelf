@@ -38,7 +38,7 @@ date: 2026-01-07
 isOriginal: false
 author:
   - name: Tiago Capelo Monteiro
-    url : https://freecodecamp.org/news/author/tiagomonteiro/
+    url: https://freecodecamp.org/news/author/tiagomonteiro/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767723634484/4748bd8a-26a1-4d9c-89c3-1a6d07bde69e.png
 ---
 
@@ -594,7 +594,7 @@ This way, the system combines these rules and facts through logical reasoning to
 
 Let’s look at an example project to understand this more clearly. The project we’ll examine is called SymbolicAIHarvest. It was part of a course at NOVA University during my undergraduate studies in Electrical and Computer Engineering. The course was titled "Modelation of Data in Engineering."
 
-SymbolicAIHarvest is an AI system developed with Prolog to manage agricultural networks. [Here’s the project (<VPIcon icon="iconfont icon-github" />`tiagomonteiro0715/SymbolicAIHarvest`)](https://github.com/tiagomonteiro0715/SymbolicAIHarvest) on GitHub so you can check it out.
+SymbolicAIHarvest is an AI system developed with Prolog to manage agricultural networks. [Here’s the project (<VPIcon icon="iconfont icon-github"/>`tiagomonteiro0715/SymbolicAIHarvest`)](https://github.com/tiagomonteiro0715/SymbolicAIHarvest) on GitHub so you can check it out.
 
 The project optimizes farm operations using rule-based reasoning. It monitors sensors for real-time data and improves route planning for machinery. It also coordinates produce movement to reduce delays and waste, enhancing productivity and sustainability.
 
@@ -783,7 +783,7 @@ An AI agent is a software program that can autonomously perform tasks by making 
 
 Unlike basic chatbots that only reply to questions, AI agents can plan steps, use tools, and work towards achieving complex goals. They do this by combining language models with extra features like accessing outside data or working with other AI agents.
 
-[Here’s an example (<VPIcon icon="iconfont icon-github" />`tiagomonteiro0715/ai-content-lab`)](https://github.com/tiagomonteiro0715/ai-content-lab) of a non-symbolic AI agent project I worked on. I developed it using the [crewAI](https://crewai.com/) Python library and the OpenAI API, one of the most popular libraries for creating AI agents.
+[Here’s an example (<VPIcon icon="iconfont icon-github"/>`tiagomonteiro0715/ai-content-lab`)](https://github.com/tiagomonteiro0715/ai-content-lab) of a non-symbolic AI agent project I worked on. I developed it using the [crewAI](https://crewai.com/) Python library and the OpenAI API, one of the most popular libraries for creating AI agents.
 
 In this system, five AI agents collaborate to create optimized content:
 

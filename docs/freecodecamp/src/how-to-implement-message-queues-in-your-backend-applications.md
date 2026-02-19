@@ -30,7 +30,7 @@ date: 2024-08-14
 isOriginal: false
 author:
   - name: Oluwatobi
-    url : https://freecodecamp.org/news/author/Tobilyn77/
+    url: https://freecodecamp.org/news/author/Tobilyn77/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723280791863/cdc4faaa-2f95-4219-8753-881dfcafbf45.jpeg
 ---
 

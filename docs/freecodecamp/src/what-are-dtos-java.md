@@ -27,7 +27,7 @@ date: 2025-08-20
 isOriginal: false
 author:
   - name: Augustine Alul
-    url : https://freecodecamp.org/news/author/augustinealul/
+    url: https://freecodecamp.org/news/author/augustinealul/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755626027353/feb7f6b6-4841-4559-a976-e73c708c7153.png
 ---
 

@@ -24,7 +24,7 @@ date: 2025-04-03
 isOriginal: false
 author:
   - name: Victor Jonah
-    url : https://blog.logrocket.com/author/victorjonah/
+    url: https://blog.logrocket.com/author/victorjonah/
 cover: /assets/image/blog.logrocket.com/top-go-frameworks-2025/banner.png
 ---
 

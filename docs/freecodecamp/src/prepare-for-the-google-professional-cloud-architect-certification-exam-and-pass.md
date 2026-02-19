@@ -31,7 +31,7 @@ date: 2025-08-27
 isOriginal: false
 author:
   - name: Andrew Brown
-    url : https://exampro.co/gcp-pca
+    url: https://exampro.co/gcp-pca
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756258734075/cff75276-73b5-4ca6-9f6e-b2a845470422.png
 ---
 

@@ -26,7 +26,7 @@ date: 2024-08-08
 isOriginal: false
 author:
   - name: Aaron Kili
-    url : https://tecmint.com/author/aaronkili/
+    url: https://tecmint.com/author/aaronkili/
 cover: https://tecmint.com/wp-content/uploads/2016/08/Sync-New-Changed-Files-Rsync.png
 ---
 

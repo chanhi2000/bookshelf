@@ -32,7 +32,7 @@ date: 2025-08-14
 isOriginal: false
 author:
   - name: Sumit Saha (@logicBaseLabs)
-    url : https://youtube.com/@logicBaseLabs
+    url: https://youtube.com/@logicBaseLabs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755100527163/bc71b3bd-1bfc-45c2-a0f5-78e57aed8dd3.png
 ---
 

@@ -30,7 +30,7 @@ date: 2025-03-29
 isOriginal: false
 author:
   - name: Alaran Ayobami
-    url : https://freecodecamp.org/news/author/Ayobami6/
+    url: https://freecodecamp.org/news/author/Ayobami6/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743176028047/61eba7a3-5505-4152-9df5-59a1cb8c61ac.png
 ---
 

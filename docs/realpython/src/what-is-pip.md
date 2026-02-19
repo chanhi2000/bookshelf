@@ -24,7 +24,7 @@ date: 2024-12-22
 isOriginal: false
 author:
   - name: Philipp Acsany
-    url : https://realpython.com/team/pacsany/
+    url: https://realpython.com/team/pacsany/
 cover: https://files.realpython.com/media/What-is-PIP_Watermarked.4944e95d83ad.jpg
 ---
 

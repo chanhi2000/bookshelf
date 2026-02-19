@@ -26,7 +26,7 @@ date: 2025-05-22
 isOriginal: false
 author:
   - name: Kshitij Sharma
-    url : https://rdbms-resource-pack-650qinf.gamma.site/
+    url: https://udemy.com/user/kshitij-sharma-196/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747860464669/5108d573-7180-45da-83d5-0144ce3e26ea.png
 ---
 

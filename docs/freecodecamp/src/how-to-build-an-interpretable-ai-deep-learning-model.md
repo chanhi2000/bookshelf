@@ -27,7 +27,7 @@ date: 2024-07-23
 isOriginal: false
 author:
   - name: Tiago Capelo Monteiro
-    url : https://freecodecamp.org/news/author/tiagomonteiro/
+    url: https://freecodecamp.org/news/author/tiagomonteiro/
 cover: https://freecodecamp.org/news/content/images/size/w1000/2024/07/pexels-dmitry-demidov-515774-3852577.jpg
 ---
 

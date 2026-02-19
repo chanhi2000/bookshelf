@@ -27,7 +27,7 @@ date: 2025-10-31
 isOriginal: false
 author:
   - name: Moshe Siegel
-    url : https://freecodecamp.org/news/author/curiousmoshe/
+    url: https://freecodecamp.org/news/author/curiousmoshe/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761774919543/5eb6447b-d709-41cb-9383-73dacde102a7.png
 ---
 

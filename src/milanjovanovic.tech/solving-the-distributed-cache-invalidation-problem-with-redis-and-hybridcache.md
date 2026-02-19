@@ -74,7 +74,7 @@ However, there is a catch.
 
 When you run multiple instances of your application, `HybridCache` doesn't automatically synchronize the local L1 cache across all nodes. If you update data on **Node A**, **Node B** will continue serving stale data from its in-memory cache until the entry expires.
 
-While HybridCache is a massive step forward, the lack of a built-in backplane for invalidation is a known limitation. In fact, there is an active discussion on the [dotnet/extensions GitHub repository (<VPIcon icon="iconfont icon-github" />`dotnet/extensions`)](https://github.com/dotnet/extensions/issues/5517) tracking this exact feature request. Until that ships, we have to roll our own solution.
+While HybridCache is a massive step forward, the lack of a built-in backplane for invalidation is a known limitation. In fact, there is an active discussion on the [dotnet/extensions GitHub repository (<VPIcon icon="iconfont icon-github"/>`dotnet/extensions`)](https://github.com/dotnet/extensions/issues/5517) tracking this exact feature request. Until that ships, we have to roll our own solution.
 
 In this week's newsletter, we'll explore:
 
@@ -260,7 +260,7 @@ Now, when **Node A** calls `InvalidateAsync("user:123")`, Redis pushes that mess
 
 ## A Better Way: FusionCache
 
-If building your own backplane feels like reinventing the wheel, you should look at [**FusionCache** (<VPIcon icon="iconfont icon-github" />`ZiggyCreatures/FusionCache`)](https://github.com/ZiggyCreatures/FusionCache).
+If building your own backplane feels like reinventing the wheel, you should look at [**FusionCache** (<VPIcon icon="iconfont icon-github"/>`ZiggyCreatures/FusionCache`)](https://github.com/ZiggyCreatures/FusionCache).
 
 FusionCache is a mature, battle-tested library that has solved this exact problem for years. It has a built-in backplane feature that automatically handles the Pub/Sub messaging for you.
 

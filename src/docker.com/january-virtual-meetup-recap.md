@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKitDocker"
-description: "Article(s) > January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKitDocker"
+title: "January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKit"
+description: "Article(s) > January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKit"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -15,15 +15,17 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKitDocker"
+      content: "Article(s) > January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKit"
     - property: og:description
-      content: "January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKitDocker"
+      content: "January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKit"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/docker.com/january-virtual-meetup-recap.html
 prev: /devops/docker/articles/README.md
 date: 2020-01-29
 isOriginal: false
 author: 
+  - name: Nicholas Dille
+    url: https://docker.com/contributors/nicholas-dille/
 cover: https://docker.com/app/uploads/2022/06/january-virtual-meetup-1.png
 ---
 
@@ -44,7 +46,7 @@ cover: https://docker.com/app/uploads/2022/06/january-virtual-meetup-1.png
 ---
 
 <SiteInfo
-  name="January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKitDocker"
+  name="January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKit"
   desc="In this virtual meetup, Docker Captain Nicholas Dille shares how to improve image builds using the features in BuildKit."
   url="https://docker.com/blog/january-virtual-meetup-recap"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
@@ -161,7 +163,7 @@ To be notified of upcoming meetups, join the [<VPIcon icon="fa-brands fa-docker"
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKitDocker",
+  "title": "January Virtual Meetup Recap: Improve Image Builds Using the Features in BuildKit",
   "desc": "In this virtual meetup, Docker Captain Nicholas Dille shares how to improve image builds using the features in BuildKit.",
   "link": "https://chanhi2000.github.io/bookshelf/docker.com/january-virtual-meetup-recap.html",
   "logo": "https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png",

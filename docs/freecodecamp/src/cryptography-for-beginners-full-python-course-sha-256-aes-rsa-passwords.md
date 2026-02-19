@@ -32,7 +32,7 @@ date: 2025-11-06
 isOriginal: false
 author:
   - name: Thanishkka (@HackClubHQ)
-    url : https://youtube.com/@HackClubHQ
+    url: https://youtube.com/@HackClubHQ
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762382425137/9fb68a83-e3ca-41a2-a1c0-ed203bae83b4.jpeg
 ---
 

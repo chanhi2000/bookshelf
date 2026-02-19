@@ -23,7 +23,7 @@ date: 2022-08-01
 isOriginal: false
 author:
   - name: Temani Afif
-    url : https://css-tricks.com/author/afiftemani/
+    url: https://css-tricks.com/author/afiftemani/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/07/s_F4C924AEFDB642C9861B01422787157264225531682D164A8C42B48A83B84E89_1656674978920_image.png
 ---
 

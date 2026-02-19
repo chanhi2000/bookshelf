@@ -23,7 +23,7 @@ date: 2021-08-24
 isOriginal: false
 author:
   - name: Edidiong Asikpo
-    url : https://blog.logrocket.com/author/edidiongasikpo/
+    url: https://blog.logrocket.com/author/edidiongasikpo/
 cover: /assets/image/blog.logrocket.com/css-margin-vs-padding/banner.webp
 ---
 

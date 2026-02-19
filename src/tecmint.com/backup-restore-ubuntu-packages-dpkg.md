@@ -29,7 +29,7 @@ date: 2025-09-19
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2014/02/backup-restore-ubuntu-packages-dpkg.webp
 ---
 

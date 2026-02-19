@@ -27,7 +27,7 @@ date: 2023-09-12
 isOriginal: false
 author:
   - name: Sriram Chundi (@ChangemakersMediaHyd)
-    url : https://youtube.com/@ChangemakersMediaHyd
+    url: https://youtube.com/@ChangemakersMediaHyd
 cover: https://www.freecodecamp.org/news/content/images/2023/09/finance.png
 ---
 

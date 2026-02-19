@@ -24,7 +24,7 @@ date: 2022-05-04
 isOriginal: false
 author:
   - name: German Cocca
-    url : https://freecodecamp.org/news/author/GerCocca/
+    url: https://freecodecamp.org/news/author/GerCocca/
 cover: https://freecodecamp.org/news/content/images/2022/04/pexels-maor-attias-5192478.jpg
 ---
 

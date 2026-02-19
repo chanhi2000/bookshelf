@@ -29,7 +29,7 @@ date: 2025-07-17
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2025/07/edit-configuration-files-using-sed-and-awk.webp
 ---
 

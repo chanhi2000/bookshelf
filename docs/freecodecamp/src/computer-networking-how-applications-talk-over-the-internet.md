@@ -27,7 +27,7 @@ date: 2022-01-19
 isOriginal: false
 author:
   - name: Sahil Gupta
-    url : https://freecodecamp.org
+    url: https://freecodecamp.org
 cover: https://freecodecamp.org/news/content/images/2022/01/network-applications-article-image.jpeg
 ---
 

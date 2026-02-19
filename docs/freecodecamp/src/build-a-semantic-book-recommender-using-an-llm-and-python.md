@@ -33,7 +33,7 @@ date: 2025-01-28
 isOriginal: false
 author:
   - name: Jodie Burchell (@t-redactyl)
-    url : https://github.com/t-redactyl
+    url: https://github.com/t-redactyl
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738189159544/c76e8b2c-46c2-4efd-9f4c-9891702a21b8.png
 ---
 

@@ -23,7 +23,7 @@ date: 2025-06-20
 isOriginal: false
 author:
   - name: AYUSH MISHRA
-    url : https://freecodecamp.org/news/author/Ayush01Mishra/
+    url: https://freecodecamp.org/news/author/Ayush01Mishra/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750346934679/2e46bebb-9614-4f1a-afb5-9bbe27906b4e.png
 ---
 

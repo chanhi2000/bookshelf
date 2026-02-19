@@ -25,7 +25,7 @@ date: 2025-01-18
 isOriginal: false
 author:
   - name: Ben
-    url : https://freecodecamp.org/news/author/justanothertechlead/
+    url: https://freecodecamp.org/news/author/justanothertechlead/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737127993830/ea473796-6a68-48f2-8643-f533561e12cf.png
 ---
 

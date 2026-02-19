@@ -34,7 +34,7 @@ date: 2025-10-09
 isOriginal: false
 author:
   - name: Carter Zenke
-    url : https://cs50.harvard.edu/sql/
+    url: https://cs50.harvard.edu/sql/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760020545784/53c7451f-ea27-4471-afa6-87c1ca44827a.jpeg
 ---
 

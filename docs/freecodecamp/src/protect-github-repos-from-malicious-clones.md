@@ -28,7 +28,7 @@ date: 2025-07-17
 isOriginal: false
 author:
   - name: brooklyn
-    url : https://freecodecamp.org/news/author/brkln/
+    url: https://freecodecamp.org/news/author/brkln/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752700407765/5fe06816-3d3a-40e4-8a4e-5cfe96a22368.png
 ---
 

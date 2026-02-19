@@ -27,7 +27,7 @@ date: 2019-01-07
 isOriginal: false
 author:
   - name: Marinko Spasojević
-    url : https://code-maze.com/author/marinko/
+    url: https://code-maze.com/author/marinko/
 cover: /assets/image/code-maze.com/liskov-substitution-principle/banner.png
 ---
 

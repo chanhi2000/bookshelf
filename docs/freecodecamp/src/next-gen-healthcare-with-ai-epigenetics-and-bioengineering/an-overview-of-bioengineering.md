@@ -21,7 +21,7 @@ date: 2025-02-05
 isOriginal: false
 author:
   - name: Vahe Aslanyan
-    url : https://freecodecamp.org/news/author/vaheaslanyan/
+    url: https://freecodecamp.org/news/author/vaheaslanyan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738685201135/64b476e9-b17b-4788-ba3c-ec23a2576e81.png
 ---
 

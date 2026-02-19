@@ -29,7 +29,7 @@ date: 2024-11-26
 isOriginal: false
 author:
   - name: Yomi Eluwande
-    url : https://blog.logrocket.com/author/yeluwande/
+    url: https://blog.logrocket.com/author/yeluwande/
 cover: /assets/image/blog.logrocket.com/react-onclick-event-handlers-guide/banner.png
 ---
 

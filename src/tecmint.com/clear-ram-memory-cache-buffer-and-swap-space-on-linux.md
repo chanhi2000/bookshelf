@@ -24,7 +24,7 @@ date: 2025-07-25
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2015/05/Clear-RAM-Cache-in-Linux.jpg
 ---
 

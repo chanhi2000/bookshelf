@@ -32,7 +32,7 @@ date: 2025-05-14
 isOriginal: false
 author:
   - name: Programming with Alex (@programmingwithalex)
-    url : https://youtube.com/@programmingwithalex
+    url: https://youtube.com/@programmingwithalex
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747233684976/019ffd11-b74c-437d-815f-857ab3465317.png
 ---
 

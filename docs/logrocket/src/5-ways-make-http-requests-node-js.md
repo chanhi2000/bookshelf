@@ -25,7 +25,7 @@ date: 2024-02-02
 isOriginal: false
 author:
   - name: Geshan Manandhar
-    url : https://blog.logrocket.com/author/geshanmanandhar/
+    url: https://blog.logrocket.com/author/geshanmanandhar/
 cover: https://blog.logrocket.com/wp-content/uploads/2024/02/5-ways-make-http-requests-node-js.png
 ---
 

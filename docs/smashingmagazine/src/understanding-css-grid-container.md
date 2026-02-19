@@ -23,7 +23,7 @@ date: 2020-01-03
 isOriginal: false
 author:
   - name: Rachel Andrew
-    url : https://smashingmagazine.com/author/rachel-andrew/
+    url: https://smashingmagazine.com/author/rachel-andrew/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6bee8e40-2d2e-457c-a0e1-a78ced1c08e5/understanding-css-grid-container.png
 ---
 
@@ -63,8 +63,7 @@ In this article, we will cover:
 - Controlling the size of implicit tracks with `grid-auto-columns` and `grid-auto-rows`.
 - **Part 1: Creating A Grid Container**
 - Part 2: [**Grid Lines**](/smashingmagazine.com/understanding-css-grid-lines.md)
-- Part 3: [**Grid Template Areas**](/smashingmagazine.com/understanding-css-grid-template-areas.md)  
-
+- Part 3: [**Grid Template Areas**](/smashingmagazine.com/understanding-css-grid-template-areas.md)
 
 ---
 

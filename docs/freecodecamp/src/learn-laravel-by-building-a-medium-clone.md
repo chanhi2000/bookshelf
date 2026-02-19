@@ -28,7 +28,7 @@ date: 2025-04-18
 isOriginal: false
 author:
   - name: The Codeholic (@TheCodeholic)
-    url : https://www.youtube.com/@TheCodeholic
+    url: https://www.youtube.com/@TheCodeholic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744923486796/26044ea1-7eaf-4e33-b20f-8519ea197d44.png
 ---
 

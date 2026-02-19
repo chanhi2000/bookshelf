@@ -25,7 +25,7 @@ date: 2016-03-01
 isOriginal: false
 author:
   - name: Mano Marks
-    url : https://docker.com/author/mano/
+    url: https://docker.com/author/mano/
 cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png
 ---
 

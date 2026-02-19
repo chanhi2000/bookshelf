@@ -25,7 +25,7 @@ date: 2013-10-09
 isOriginal: false
 author:
   - name: Jérôme Petazzoni
-    url : https://docker.com/author/jerome/
+    url: https://docker.com/author/jerome/
 cover: https://docker.com/app/uploads/2013/08/jerome_docker_in_docker_squ.jpg
 ---
 

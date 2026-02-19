@@ -29,7 +29,7 @@ date: 2023-10-24
 isOriginal: false
 author:
   - name: Jeremias Menichelli
-    url : https://blog.logrocket.com/author/jeremiasmenichelli3/
+    url: https://blog.logrocket.com/author/jeremiasmenichelli3/
 cover: /assets/image/blog.logrocket.com/complete-guide-react-refs/banner.png
 ---
 

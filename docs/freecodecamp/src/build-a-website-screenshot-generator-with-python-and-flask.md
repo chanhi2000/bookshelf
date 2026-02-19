@@ -27,7 +27,7 @@ date: 2025-10-30
 isOriginal: false
 author:
   - name: Ashutosh Krishna
-    url : https://freecodecamp.org/news/author/ashutoshkrris/
+    url: https://freecodecamp.org/news/author/ashutoshkrris/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761756575904/17a940c5-352e-47a2-992e-a1973c030c05.png
 ---
 

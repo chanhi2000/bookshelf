@@ -23,7 +23,7 @@ date: 2022-01-10
 isOriginal: false
 author:
   - name: Ahmad Shadeed
-    url : https://smashingmagazine.com/author/ahmad-shadeed/
+    url: https://smashingmagazine.com/author/ahmad-shadeed/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8b1eea9e-877a-4da7-b531-537a97a44613/css-radial-conic-gradient.jpg
 ---
 

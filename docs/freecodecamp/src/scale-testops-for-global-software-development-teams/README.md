@@ -51,7 +51,7 @@ date: 2025-04-18
 isOriginal: false
 author:
   - name: Nazneen Ahmad
-    url : https://freecodecamp.org/news/author/Nazneen758/
+    url: https://freecodecamp.org/news/author/Nazneen758/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744904445449/18f469d0-b066-4709-a463-4f378802615d.png
 ---
 

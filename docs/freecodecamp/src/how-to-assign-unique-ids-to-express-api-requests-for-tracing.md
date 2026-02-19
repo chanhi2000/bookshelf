@@ -29,7 +29,7 @@ date: 2025-08-20
 isOriginal: false
 author:
   - name: Orim Dominic Adah
-    url : https://freecodecamp.org/news/author/orimdominic/
+    url: https://freecodecamp.org/news/author/orimdominic/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755625819738/b5d45868-c770-4878-8c49-63011507ef56.png
 ---
 

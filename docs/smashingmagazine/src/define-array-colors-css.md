@@ -23,7 +23,7 @@ date: 2023-07-28
 isOriginal: false
 author:
   - name: Temani Afif
-    url : https://smashingmagazine.com/author/temani-afif/
+    url: https://smashingmagazine.com/author/temani-afif/
 cover: https://files.smashing.media/articles/define-array-colors-css/define-array-colors-css.jpg
 ---
 

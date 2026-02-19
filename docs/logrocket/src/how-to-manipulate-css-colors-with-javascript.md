@@ -26,7 +26,7 @@ date: 2019-03-12
 isOriginal: false
 author:
   - name: Adam Giese
-    url : https://blog.logrocket.com/author/adamgiese/
+    url: https://blog.logrocket.com/author/adamgiese/
 cover: /assets/image/blog.logrocket.com/how-to-manipulate-css-colors-with-javascript/banner.png
 ---
 

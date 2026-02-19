@@ -27,7 +27,7 @@ date: 2024-08-13
 isOriginal: false
 author:
   - name: Andrico Karoulla
-    url : https://freecodecamp.org/news/author/andrico1234/
+    url: https://freecodecamp.org/news/author/andrico1234/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723543483889/400c638b-4a6f-430a-92c3-4d8a7b750464.png
 ---
 

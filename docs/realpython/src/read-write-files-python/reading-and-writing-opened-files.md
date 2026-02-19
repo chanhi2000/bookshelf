@@ -22,7 +22,7 @@ date: 2019-02-20
 isOriginal: false
 author:
   - name: James Mertz
-    url : https://realpython.com/team/jmertz/
+    url: https://realpython.com/team/jmertz/
 cover: https://files.realpython.com/media/Reading-and-Writing-Files-in-Python_Watermarked.0d394921fd90.jpg
 ---
 

@@ -31,7 +31,7 @@ date: 2025-01-24
 isOriginal: false
 author:
   - name: valentine Gatwiri
-    url : https://freecodecamp.org/news/author/gatwirival/
+    url: https://freecodecamp.org/news/author/gatwirival/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737640002689/7c78cd9c-40ef-45b3-82f6-97bc33f713d7.png
 ---
 

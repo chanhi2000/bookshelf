@@ -25,7 +25,7 @@ date: 2017-04-18
 isOriginal: false
 author:
   - name: Solomon Hykes
-    url : https://docker.com/author/solomon/
+    url: https://docker.com/author/solomon/
 cover: https://docker.com/app/uploads/1-2.png
 ---
 

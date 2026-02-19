@@ -29,7 +29,7 @@ date: 2025-01-21
 isOriginal: false
 author:
   - name: Glad Chinda
-    url : https://blog.logrocket.com/author/gladchinda/
+    url: https://blog.logrocket.com/author/gladchinda/
 cover: /assets/image/blog.logrocket.com/using-bootstrap-react-tutorial-examples/banner.png
 ---
 
@@ -212,7 +212,7 @@ Next, install the dependencies as follows:
 npm i axios react-bootstrap bootstrap
 ```
 
-Notice that we installed [<VPIcon icon="iconfont icon-github" />`axios/axios`](https://github.com/axios/axios) as a dependency. Axios is a promise-based HTTP client for the browser and Node.js. It will enable us to fetch posts from the [<VPIcon icon="fas fa-globe"/>Bacon Ipsum JSON API](https://baconipsum.com/json-api/).
+Notice that we installed [<VPIcon icon="iconfont icon-github"/>`axios/axios`](https://github.com/axios/axios) as a dependency. Axios is a promise-based HTTP client for the browser and Node.js. It will enable us to fetch posts from the [<VPIcon icon="fas fa-globe"/>Bacon Ipsum JSON API](https://baconipsum.com/json-api/).
 
 Let’s make a little modification to the <VPIcon icon="fas fa-folder-open"/>`src/main.jsx` file to include the Bootstrap minified CSS file. It should look like the following snippet:
 

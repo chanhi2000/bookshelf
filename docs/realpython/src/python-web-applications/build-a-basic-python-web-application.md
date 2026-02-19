@@ -29,7 +29,7 @@ date: 2021-02-01
 isOriginal: false
 author:
   - name: Martin Breuss
-    url : https://realpython.com/team/mbreuss/
+    url: https://realpython.com/team/mbreuss/
 cover: https://files.realpython.com/media/Python-driven-Web-Applications_Watermarked.c5692cb81de8.jpg
 ---
 
@@ -86,7 +86,7 @@ Next, you’ll take a look at the content of each of the files starting with the
 
 ## Create <VPIcon icon="fa-brands fa-python"/>`main.py`
 
-<VPIcon icon="fa-brands fa-python"/>`main.py` is the file that Flask uses to deliver your content. At the top of the file, you [**import**](/realpython.com/python-import.md) the `Flask` class on line 1, then you create an instance of a Flask app on line 3:
+<VPIcon icon="fa-brands fa-python"/>`main.py` is the file that Flask uses to deliver your content. At the top of the file, you [**import**](/realpython.com/python-import/README.md) the `Flask` class on line 1, then you create an instance of a Flask app on line 3:
 
 ```py
 from flask import Flask
@@ -100,7 +100,7 @@ def index():
 
 After you create the Flask `app`, you write a [**Python decorator**](/realpython.com/primer-on-python-decorators.md) on line 5 called `@app.route` that Flask uses to connect [<VPIcon icon="fa-brands fa-wikipedia-w"/>URL](https://en.wikipedia.org/wiki/URL) endpoints with code contained in functions. The argument to `@app.route` defines the URL’s path component, which is the root path (`"/"`) in this case.
 
-The code on lines 6 and 7 makes up `index()`, which is wrapped by the decorator. This function defines what should be executed if the defined URL endpoint is requested by a user. Its [**return value**](/realpython.com/python-return-statement.md) determines what a user will see when they load the page.
+The code on lines 6 and 7 makes up `index()`, which is wrapped by the decorator. This function defines what should be executed if the defined URL endpoint is requested by a user. Its [**return value**](/realpython.com/python-return-statement/README.md) determines what a user will see when they load the page.
 
 ::: note
 

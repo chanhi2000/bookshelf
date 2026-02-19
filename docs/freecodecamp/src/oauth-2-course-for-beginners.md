@@ -40,7 +40,7 @@ date: 2026-01-07
 isOriginal: false
 author:
   - name: Coding Cleverly (@CodingCleverly)
-    url : https://youtube.com/@CodingCleverly
+    url: https://youtube.com/@CodingCleverly
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767719400244/396c143c-d21a-409a-b315-6b58d120b44c.png
 ---
 

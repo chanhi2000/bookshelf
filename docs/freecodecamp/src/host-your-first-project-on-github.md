@@ -27,7 +27,7 @@ date: 2024-08-08
 isOriginal: false
 author:
   - name: Spruce Emmanuel
-    url : https://freecodecamp.org/news/author/Spruce/
+    url: https://freecodecamp.org/news/author/Spruce/
 cover: https://freecodecamp.org/news/content/images/2024/08/Screenshot-2024-08-04-at-11.47.51-PM.png
 ---
 

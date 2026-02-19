@@ -24,7 +24,7 @@ date: 2020-10-19
 isOriginal: false
 author:
   - name: Moshe Zadka
-    url : https://realpython.com/team/mzadka/
+    url: https://realpython.com/team/mzadka/
 cover: https://files.realpython.com/media/What-is-a-Python-Boolean_Watermarked.ba6413996cb3.jpg
 ---
 

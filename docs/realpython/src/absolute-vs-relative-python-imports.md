@@ -24,7 +24,7 @@ date: 2018-09-19
 isOriginal: false
 author:
   - name: Mbithe Nzomo
-    url : https://realpython.com/team/mnzomo/
+    url: https://realpython.com/team/mnzomo/
 cover: https://files.realpython.com/media/imports.9d65e7197280.jpg
 ---
 

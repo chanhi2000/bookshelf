@@ -32,7 +32,7 @@ date: 2025-04-17
 isOriginal: false
 author:
   - name: Prince Onukwili
-    url : https://freecodecamp.org/news/author/onukwilip/
+    url: https://freecodecamp.org/news/author/onukwilip/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744843935296/c359998f-1657-482f-adf4-5ab023cb1c02.png
 ---
 

@@ -22,7 +22,7 @@ date: 2020-04-15
 isOriginal: false
 author:
   - name: Santiago Valdarrama
-    url : https://realpython.com/team/svaldarrama/
+    url: https://realpython.com/team/svaldarrama/
 cover: https://files.realpython.com/media/Sorting-Algorithms-in-Python-Merge-Sort-vs-Bubble-Sort_Watermarked.5c97ff618265.jpg
 ---
 

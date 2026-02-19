@@ -27,7 +27,7 @@ date: 2025-02-26
 isOriginal: false
 author:
   - name: David Omotayo
-    url : https://blog.logrocket.com/author/davidomotayo/
+    url: https://blog.logrocket.com/author/davidomotayo/
 cover: /assets/image/blog.logrocket.com/curl-measure-rtt/banner.png
 ---
 

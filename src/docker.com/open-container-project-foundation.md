@@ -25,7 +25,7 @@ date: 2015-06-23
 isOriginal: false
 author:
   - name: Ben Golub
-    url : https://docker.com/author/ben/
+    url: https://docker.com/author/ben/
 cover: https://docker.com/app/uploads/2015/06/otp.png
 ---
 

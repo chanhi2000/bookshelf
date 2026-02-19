@@ -24,7 +24,7 @@ date: 2024-11-30
 isOriginal: false
 author:
   - name: Philipp Acsany
-    url : https://realpython.com/team/pacsany/
+    url: https://realpython.com/team/pacsany/
 cover: https://files.realpython.com/media/Logging-in-Python_Watermarked.4ca8974dc55c.jpg
 ---
 
@@ -402,7 +402,7 @@ logger.warning("Look at my logger!")
 # Look at my logger!
 ```
 
-While you could use any string as the name, it’s good practice to pass `__name__` as the name parameter. That way, your logger’s name is always the module’s name in the [**Python package namespace**](/realpython.com/python-namespaces-scope.md).
+While you could use any string as the name, it’s good practice to pass `__name__` as the name parameter. That way, your logger’s name is always the module’s name in the [**Python package namespace**](/realpython.com/python-namespace.md).
 
 When you call `logger.warn()`, you notice that you don’t see any additional logging information, such as the logger’s name or the log level. To format the log, you may be tempted to call `.basicConfig()` on your custom logger. However, unlike the `root` logger, you can’t configure a custom logger using `basicConfig()`. Instead, you have to configure your custom logger using handlers and formatters, which give you way more flexibility.
 

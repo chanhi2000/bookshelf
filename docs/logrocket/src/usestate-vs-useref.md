@@ -29,7 +29,7 @@ date: 2021-05-24
 isOriginal: false
 author:
   - name: Sebastian Weber
-    url : https://blog.logrocket.com/author/sebastianweber/
+    url: https://blog.logrocket.com/author/sebastianweber/
 cover: /assets/image/blog.logrocket.com/usestate-vs-useref/banner.png
 ---
 

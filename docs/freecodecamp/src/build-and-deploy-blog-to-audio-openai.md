@@ -39,7 +39,7 @@ date: 2026-01-14
 isOriginal: false
 author:
   - name: Manish Shivanandhan
-    url : https://freecodecamp.org/news/author/manishshivanandhan/
+    url: https://freecodecamp.org/news/author/manishshivanandhan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768359861591/69bc8279-f882-4af1-9375-5576f7043b48.png
 ---
 
@@ -302,7 +302,7 @@ Every platform will charge you for creating a cloud resource. Sevalla comes with
 
 Let’s push this project to GitHub so that we can connect our repository to Sevalla. We can also enable auto-deployments so that any new change to the repository is automatically deployed.
 
-You can also [fork my repository (<VPIcon icon="iconfont icon-github" />`manishmshiva/blog-to-audio`)](https://github.com/manishmshiva/blog-to-audio) from here.
+You can also [fork my repository (<VPIcon icon="iconfont icon-github"/>`manishmshiva/blog-to-audio`)](https://github.com/manishmshiva/blog-to-audio) from here.
 
 [<VPIcon icon="iconfont icon-sevalla"/>Log in](https://app.sevalla.com/login) to Sevalla and click on Applications -> Create new application. You can see the option to link your GitHub repository to create a new application.
 

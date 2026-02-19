@@ -29,7 +29,7 @@ date: 2023-05-16
 isOriginal: false
 author:
   - name: Peter Ekene Eze
-    url : https://blog.logrocket.com/author/peterekeneeze/
+    url: https://blog.logrocket.com/author/peterekeneeze/
 cover: /assets/image/blog.logrocket.com/building-reusable-ui-components-with-react-hooks/banner.png
 ---
 

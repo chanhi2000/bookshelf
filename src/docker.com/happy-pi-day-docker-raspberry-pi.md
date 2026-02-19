@@ -31,7 +31,7 @@ date: 2019-03-15
 isOriginal: false
 author:
   - name: paulofrazao
-    url : https://docker.com/author/paulofrazao/
+    url: https://docker.com/author/paulofrazao/
 cover: https://docker.com/app/uploads/2019/03/docker-pi.gif
 ---
 

@@ -42,7 +42,7 @@ date: 2025-02-20
 isOriginal: false
 author:
   - name: Samuel Olusola
-    url : https://blog.logrocket.com/author/samuelolusola/
+    url: https://blog.logrocket.com/author/samuelolusola/
 cover: /assets/image/blog.logrocket.com/dependency-inversion-principle/banner.png
 ---
 

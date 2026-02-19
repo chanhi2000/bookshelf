@@ -30,7 +30,7 @@ date: 2025-11-13
 isOriginal: false
 author:
   - name: Gavin Lon (@GavinLon)
-    url : https://youtube.com/@GavinLon
+    url: https://youtube.com/@GavinLon
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762950806004/02d41988-6e9f-4962-8872-c41110175882.jpeg
 ---
 

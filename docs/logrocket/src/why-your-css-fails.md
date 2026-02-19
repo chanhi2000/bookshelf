@@ -23,7 +23,7 @@ date: 2021-12-01
 isOriginal: false
 author:
   - name: Facundo Corradini
-    url : https://blog.logrocket.com/author/facundocorradini/
+    url: https://blog.logrocket.com/author/facundocorradini/
 cover: /assets/image/blog.logrocket.com/why-your-css-fails/banner.png
 ---
 

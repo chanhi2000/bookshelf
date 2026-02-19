@@ -25,7 +25,7 @@ date: 2024-06-06
 isOriginal: false
 author:
   - name: Kingsley Ubah
-    url : https://blog.logrocket.com/author/kingsleyubah/
+    url: https://blog.logrocket.com/author/kingsleyubah/
 cover: /assets/image/blog.logrocket.com/commonjs-vs-es-modules-node-js/banner.png
 ---
 

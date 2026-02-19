@@ -33,7 +33,7 @@ date: 2019-06-05
 isOriginal: false
 author:
   - name: Veronika Alex
-    url : https://docker.com/author/veronika-alex/
+    url: https://docker.com/author/veronika-alex/
 cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png
 ---
 

@@ -42,7 +42,7 @@ date: 2025-12-10
 isOriginal: false
 author:
   - name: Amina Lawal
-    url : https://freecodecamp.org/news/author/Bronze/
+    url: https://freecodecamp.org/news/author/Bronze/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765370930321/e4256d2f-cab3-4ae3-9486-c6651e363366.png
 ---
 

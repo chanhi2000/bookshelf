@@ -25,7 +25,7 @@ date: 2025-02-08
 isOriginal: false
 author:
   - name: German Cocca
-    url : https://freecodecamp.org/news/author/GerCocca/
+    url: https://freecodecamp.org/news/author/GerCocca/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941301640/7189d889-387d-4bd2-bf5c-2cbcbd17faad.png
 ---
 

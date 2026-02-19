@@ -27,7 +27,7 @@ date: 2025-04-15
 isOriginal: false
 author:
   - name: Chidiadi Anyanwu
-    url : https://freecodecamp.org/news/author/chidiadi01/
+    url: https://freecodecamp.org/news/author/chidiadi01/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744638276204/5cf04403-6bf0-4bf1-b9d3-89722bd90425.png
 ---
 

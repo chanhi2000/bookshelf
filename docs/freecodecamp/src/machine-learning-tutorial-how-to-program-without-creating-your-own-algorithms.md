@@ -31,7 +31,7 @@ date: 2025-10-10
 isOriginal: false
 author:
   - name: Mark Mahoney
-    url : https://freecodecamp.org/news/author/markm208/
+    url: https://freecodecamp.org/news/author/markm208/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760024939823/c2c53158-a2ec-4fe2-b222-236bef773e6b.png
 ---
 

@@ -28,7 +28,7 @@ date: 2026-01-15
 isOriginal: false
 author:
   - name: Rajdeep Singh
-    url : https://freecodecamp.org/news/author/officialrajdeepsingh/
+    url: https://freecodecamp.org/news/author/officialrajdeepsingh/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768330530946/99ecef9a-4654-4281-9443-2039455c121e.png
 ---
 

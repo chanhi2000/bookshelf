@@ -29,7 +29,7 @@ date: 2025-09-22
 isOriginal: false
 author:
   - name: Beau Carnes
-    url : https://freecodecamp.org/news/author/beaucarnes/
+    url: https://freecodecamp.org/news/author/beaucarnes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756320252743/70d3c437-c76b-4919-bb09-2ac57da55bc5.png
 ---
 

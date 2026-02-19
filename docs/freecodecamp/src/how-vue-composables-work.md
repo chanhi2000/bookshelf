@@ -29,7 +29,7 @@ date: 2025-06-14
 isOriginal: false
 author:
   - name: Brian Barrow
-    url : https://freecodecamp.org/news/author/the_BrianB/
+    url: https://freecodecamp.org/news/author/the_BrianB/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749830866913/e732db46-638b-42cd-aabf-ad51a54a3409.png
 ---
 

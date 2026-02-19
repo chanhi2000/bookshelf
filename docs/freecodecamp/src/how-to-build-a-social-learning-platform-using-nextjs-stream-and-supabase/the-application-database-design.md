@@ -29,7 +29,7 @@ date: 2025-03-04
 isOriginal: false
 author:
   - name: David Asaolu
-    url : https://freecodecamp.org/news/author/de/
+    url: https://freecodecamp.org/news/author/de/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741009946459/dba65929-1b65-4278-9601-4d047042753a.png
 ---
 

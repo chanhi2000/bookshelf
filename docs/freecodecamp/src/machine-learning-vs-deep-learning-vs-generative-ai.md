@@ -24,7 +24,7 @@ date: 2025-10-03
 isOriginal: false
 author:
   - name: Nitheesh Poojary
-    url : https://freecodecamp.org/news/author/nitheeshp/
+    url: https://freecodecamp.org/news/author/nitheeshp/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759006391065/3cd87534-e2e9-49df-a9c7-1b636e491032.png
 ---
 

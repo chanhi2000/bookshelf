@@ -24,7 +24,7 @@ date: 2024-11-17
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/How-to-Use-Python-Zip-with-Examples_Watermarked.3020903367b6.jpg
 ---
 
@@ -112,7 +112,7 @@ You’ll unpack this definition throughout the rest of the tutorial. As you work
 
 ## Using `zip()` in Python
 
-The signature of Python’s `zip()` function is `zip(*iterables, strict=False)`. You’ll learn more about `strict` later. The function takes in [<VPIcon icon="fa-brands fa-python"/>iterables](https://docs.python.org/3/glossary.html#term-iterable) as arguments and returns an **iterator**. This iterator generates a series of tuples containing elements from each iterable. `zip()` can accept any type of iterable, such as [**files**](/realpython.com/read-write-files-python.md), [**lists, tuples**](/realpython.com/python-lists-tuples.md), [**dictionaries**](/realpython.com/python-dicts.md), [**sets**](/realpython.com/python-sets.md), and so on.
+The signature of Python’s `zip()` function is `zip(*iterables, strict=False)`. You’ll learn more about `strict` later. The function takes in [<VPIcon icon="fa-brands fa-python"/>iterables](https://docs.python.org/3/glossary.html#term-iterable) as arguments and returns an **iterator**. This iterator generates a series of tuples containing elements from each iterable. `zip()` can accept any type of iterable, such as [**files**](/realpython.com/read-write-files-python.md), [**lists, tuples**](/realpython.com/python-lists-tuples.md), [**dictionaries**](/realpython.com/python-dicts.md), [**sets**](/realpython.com/python-sets/README.md), and so on.
 
 ### Passing `n` Arguments
 
@@ -137,7 +137,7 @@ list(zipped)
 
 Here, you use `zip(numbers, letters)` to create an iterator that produces tuples of the form `(x, y)`. In this case, the `x` values are taken from `numbers` and the `y` values are taken from `letters`. Notice how the Python `zip()` function returns an iterator. To retrieve the final list object, you need to use `list()` to consume the iterator.
 
-If you’re working with sequences like lists, tuples, or [**strings**](/realpython.com/python-strings.md), then your iterables are guaranteed to be evaluated from left to right. This means that the resulting list of tuples will take the form `[(numbers[0], letters[0]), (numbers[1], letters[1]),..., (numbers[n], letters[n])]`. However, for other types of iterables (like [**sets**](/realpython.com/python-sets.md)), you might see some weird results:
+If you’re working with sequences like lists, tuples, or [**strings**](/realpython.com/python-strings.md), then your iterables are guaranteed to be evaluated from left to right. This means that the resulting list of tuples will take the form `[(numbers[0], letters[0]), (numbers[1], letters[1]),..., (numbers[n], letters[n])]`. However, for other types of iterables (like [**sets**](/realpython.com/python-sets/README.md)), you might see some weird results:
 
 ```py
 s1 = {2, 3, 1}

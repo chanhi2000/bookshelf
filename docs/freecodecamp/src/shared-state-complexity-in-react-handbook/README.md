@@ -29,7 +29,7 @@ date: 2025-08-01
 isOriginal: false
 author:
   - name: Henry Adepegba
-    url : https://freecodecamp.org/news/author/henrywinnerman/
+    url: https://freecodecamp.org/news/author/henrywinnerman/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754003865317/3c91ac36-2e1b-4e03-ac54-64a100e44c8f.png
 ---
 

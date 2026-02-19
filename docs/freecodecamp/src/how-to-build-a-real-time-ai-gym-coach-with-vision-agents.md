@@ -34,7 +34,7 @@ date: 2025-12-20
 isOriginal: false
 author:
   - name: Ekemini Samuel
-    url : https://freecodecamp.org/news/author/envitab/
+    url: https://freecodecamp.org/news/author/envitab/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766158143362/b5d2947c-cc24-4948-a7fd-7ef2b3a79d5f.png
 ---
 

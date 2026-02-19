@@ -32,7 +32,7 @@ date: 2025-09-04
 isOriginal: false
 author:
   - name: Gabriel Cánepa
-    url : https://tecmint.com/author/gacanepa/
+    url: https://tecmint.com/author/gacanepa/
 cover: https://tecmint.com/wp-content/uploads/2024/07/best-Linux-software.webp
 ---
 

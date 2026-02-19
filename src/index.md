@@ -154,9 +154,24 @@ projects:
   - icon: 'https://css-tip.com/img/fav.png'
     name: 'css-tip.com'
     desc: "The best place to keep up to date with the new CSS features. Daily CSS tips and tricks to become a better web developer."
+  - icon: 'https://css-loaders.com/fav.png'
+    name: 'css-loaders.com'
+    desc: "The biggest collection of CSS-only loaders. More than 600 loading animations made by Temani Afif using a single element."
   - icon: 'https://nerdy.dev/favicon.svg'
     name: 'nerdy.dev'
     desc: "Website for Adam Argyle: Teacher, Speaker, CSSWG member, and creator of Open Props and VisBug."
+  - icon: 'https://tobiasahlin.com/images/touch-icon-ipad-retina.png'
+    name: 'tobiasahlin.com'
+    desc: "WebSpinKit, Moving Letters, projects, and more."
+  - icon: 'https://9elements.com/assets/images/meta/favicon.svg'
+    name: '9elements.com'
+    desc: "Combining finest craftsmanship with elegant design to ship innovative digital experiences."
+  - icon: 'https://css-irl.info/favicon/apple-touch-icon.png'
+    name: 'css-irl.info'
+    desc: "A blog about CSS, front-end development, the web, and beyond."
+  - icon: 'https://svelte.dev/favicon.png'
+    name: 'webdevredfox.org'
+    desc: "Accessibility, CSS tricks, & Web Development Articles"
   - icon: 'https://substack-post-media.s3.amazonaws.com/public/images/2ea54e25-eaa6-4630-bfc0-10b8cfdce894/apple-touch-icon-1024x1024.png'
     name: 'packagemain.tech'
     desc: "Welcome to packagemain.tech, your one-stop shop for mastering Backend, Cloud, Kubernetes, Microservices, APIs, and more. We'll provide you with hands-on, practical and real-world tutorials that you can use to build your software development skills."

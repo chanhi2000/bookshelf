@@ -30,7 +30,7 @@ date: 2025-04-10
 isOriginal: false
 author:
   - name: Brijen Makwana (@BrijenMakwana)
-    url : https://github.com/BrijenMakwana/
+    url: https://github.com/BrijenMakwana/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744216738661/fb1664d6-011e-4d79-8236-c6999f0acab6.png
 ---
 

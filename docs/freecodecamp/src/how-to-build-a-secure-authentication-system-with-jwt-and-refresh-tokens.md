@@ -37,7 +37,7 @@ date: 2025-11-26
 isOriginal: false
 author:
   - name: Joan Ayebola
-    url : https://freecodecamp.org/news/author/joanayebola/
+    url: https://freecodecamp.org/news/author/joanayebola/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764095460886/51b9c653-fa95-42f0-8c51-37f6d6805da4.png
 ---
 

@@ -32,7 +32,7 @@ date: 2025-12-03
 isOriginal: false
 author:
   - name: Don Hansen
-    url : https://scrimba.com/nestjs-c0n7djgjma
+    url: https://scrimba.com/nestjs-c0n7djgjma
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764714228452/cd896109-228c-4060-b596-2bb072058976.png
 ---
 

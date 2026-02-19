@@ -24,7 +24,7 @@ date: 2024-10-11
 isOriginal: false
 author:
   - name: Raymond Camden
-    url : https://frontendmasters.com/blog/author/raymondcamden/
+    url: https://frontendmasters.com/blog/author/raymondcamden/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4153
 ---
 

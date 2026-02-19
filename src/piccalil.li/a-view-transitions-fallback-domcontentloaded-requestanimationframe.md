@@ -26,7 +26,7 @@ date: 2025-12-05
 isOriginal: false
 author:
   - name: Sunkanmi Fafowora
-    url : https://piccalil.li/author/sunkanmi-fafowora
+    url: https://piccalil.li/author/sunkanmi-fafowora
 cover: https://piccalil.b-cdn.net/api/og-image?slug=a-view-transitions-fallback-domcontentloaded-requestanimationframe/
 ---
 
@@ -412,7 +412,7 @@ const allAnchors = document.querySelectorAll("a");
 
 This is what it would look like in Chrome that supports View Transitions:
 
-To get the full code, visit [this Github repo (<VPIcon icon="iconfont icon-github" />`sunkanmii/view-transition-fallback.git`)](https://github.com/sunkanmii/view-transition-fallback.git). Here’s a [<VPIcon icon="fas fa-globe"/>Netlify demo link to the with @view-transition and fallback](https://rad-malabi-08a79d.netlify.app/) and here’s a [<VPIcon icon="fas fa-globe"/>demo link to the project](https://celadon-kitten-df0ea7.netlify.app/) with just the fallback. Although this method works super well, **always consider and fight for progressive enhancement first**.
+To get the full code, visit [this Github repo (<VPIcon icon="iconfont icon-github"/>`sunkanmii/view-transition-fallback.git`)](https://github.com/sunkanmii/view-transition-fallback.git). Here’s a [<VPIcon icon="fas fa-globe"/>Netlify demo link to the with @view-transition and fallback](https://rad-malabi-08a79d.netlify.app/) and here’s a [<VPIcon icon="fas fa-globe"/>demo link to the project](https://celadon-kitten-df0ea7.netlify.app/) with just the fallback. Although this method works super well, **always consider and fight for progressive enhancement first**.
 
 Support for view transitions is improving *fast* too. This approach is handy, however, if your boss/client is demanding that everything behaves the same in every browser — which I know is very common — even *now,* leaning into progressive enhancement as a policy will always put you on a stronger footing for the long term.
 

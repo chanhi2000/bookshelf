@@ -27,7 +27,7 @@ date: 2026-01-30
 isOriginal: false
 author:
   - name: Onyinyechi Nwaucha
-    url : https://freecodecamp.org/news/author/OnyinyechiNwaucha/
+    url: https://freecodecamp.org/news/author/OnyinyechiNwaucha/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769731875495/c2d3feca-a09e-454c-93de-bc00607ac517.png
 ---
 

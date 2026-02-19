@@ -24,7 +24,7 @@ date: 2025-02-07
 isOriginal: false
 author:
   - name: Danny
-    url : https://freecodecamp.org/news/author/DoableDanny/
+    url: https://freecodecamp.org/news/author/DoableDanny/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738335631634/ef8f79a0-73df-430c-b955-a5325ca22f04.png
 ---
 
@@ -279,7 +279,7 @@ If you prefer book to video, check out my books:
   "title": "Amazon.com: Python OOP: Object Oriented Programming from Beginner to Pro: A Beginner-Friendly Guide to OOP, Including SOLID and Design Patterns eBook : Adams, Danny: Kindle Store",
   "desc": "Amazon.com: Python OOP: Object Oriented Programming from Beginner to Pro: A Beginner-Friendly Guide to OOP, Including SOLID and Design Patterns eBook : Adams, Danny: Kindle Store",
   "link": "https://amazon.com/dp/B0DR6ZPZQ8/",
-  "logo": "https://www.amazon.com/favicon.ico",
+  "logo": "https://amazon.com/favicon.ico",
   "background": "rgba(244,245,246,0.2)"
 }
 ```

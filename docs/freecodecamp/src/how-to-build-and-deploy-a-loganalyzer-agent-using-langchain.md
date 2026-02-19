@@ -39,7 +39,7 @@ date: 2026-02-05
 isOriginal: false
 author:
   - name: Manish Shivanandhan
-    url : https://freecodecamp.org/news/author/manishshivanandhan/
+    url: https://freecodecamp.org/news/author/manishshivanandhan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770224778776/7d5c3a27-adc2-4cde-94d5-4ac7db892673.png
 ---
 
@@ -84,7 +84,7 @@ Engineers usually scroll through thousands of lines, search for error codes, and
 
 A LogAnalyzer Agent solves this problem by acting like a calm, experienced engineer who reads logs for you and explains what is going on.
 
-In this article, you’ll learn how to build such an agent using [<VPIcon icon="iconfont icon-fastapi"/>FastAPI](https://fastapi.tiangolo.com/), [LangChain (<VPIcon icon="iconfont icon-github" />`langchain-ai/langchain`)](https://github.com/langchain-ai/langchain), and an OpenAI model.
+In this article, you’ll learn how to build such an agent using [<VPIcon icon="iconfont icon-fastapi"/>FastAPI](https://fastapi.tiangolo.com/), [LangChain (<VPIcon icon="iconfont icon-github"/>`langchain-ai/langchain`)](https://github.com/langchain-ai/langchain), and an OpenAI model.
 
 We’ll walk through the backend, the log analysis logic, and a simple web UI that lets you upload a log file and get insights in seconds. We’ll also upload this app to Sevalla so that you can share your project with the world.
 
@@ -92,7 +92,7 @@ You just need some basic knowledge of Python and HTML/CSS/JavaScript to finish t
 
 ::: info
 
-[Here is the full code (<VPIcon icon="iconfont icon-github" />`manishmshiva/loganalyzer`)](https://github.com/manishmshiva/loganalyzer) for reference.
+[Here is the full code (<VPIcon icon="iconfont icon-github"/>`manishmshiva/loganalyzer`)](https://github.com/manishmshiva/loganalyzer) for reference.
 
 <SiteInfo
   name="manishmshiva/loganalyzer"

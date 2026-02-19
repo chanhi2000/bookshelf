@@ -23,7 +23,7 @@ date: 2023-01-13
 isOriginal: false
 author:
   - name: Joel Olawanle
-    url : https://freecodecamp.org/news/author/olawanlejoel/
+    url: https://freecodecamp.org/news/author/olawanlejoel/
 cover: https://freecodecamp.org/news/content/images/2023/01/cover-template--8-.png
 ---
 

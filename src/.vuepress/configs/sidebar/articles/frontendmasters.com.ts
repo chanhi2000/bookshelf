@@ -5,6 +5,12 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
+    "anchored-menus-and-a-lesson-in-scoping", // 2026-02-16
+    "fun-with-typescript-generics", // 2026-02-13
+    "how-to-create-a-css-only-elastic-text-effect", // 2026-02-11
+    "background-patterns-with-css-corner-radius", // 2026-02-09
+    "the-browser-hates-surprises", // 2026-02-06
     "an-over-the-top-spoiler-design-with-the-details-element", // 2026-02-04
     "performance-optimized-video-embeds-with-zero-javascript", // 2026-02-02
     "reacts-viewtransition-element", // 2026-01-31
@@ -302,6 +308,7 @@ export const template: SidebarInfoTemplate = {
       "a-progressive-enhancement-challenge", // 2025-10-03
       // END: 2025js
       "view-transitions-playing-video", // 2026-01-20
+      "the-browser-hates-surprises", // 2026-02-06
       // END: 2026js
       // END: js
     ]],[
@@ -313,6 +320,8 @@ export const template: SidebarInfoTemplate = {
       "satisfies-in-typescript", // 2025-07-03
       "custom-elements-with-lit-html", // 2025-12-29
       // END: 2025ts
+      "fun-with-typescript-generics", // 2026-02-13
+      // END: 2026ts
       // END: ts
     ]],[
     "js-node", [
@@ -344,6 +353,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-react
       "single-flight-mutations-in-tanstack-start-part-1", // 2026-01-23
       "reacts-viewtransition-element", // 2026-01-31
+      "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -529,6 +539,10 @@ export const template: SidebarInfoTemplate = {
       "view-transitions-playing-video", // 2026-01-20
       "performance-optimized-video-embeds-with-zero-javascript", // 2026-02-02
       "an-over-the-top-spoiler-design-with-the-details-element", // 2026-02-04
+      "the-browser-hates-surprises", // 2026-02-06
+      "background-patterns-with-css-corner-radius", // 2026-02-09
+      "how-to-create-a-css-only-elastic-text-effect", // 2026-02-11
+      "anchored-menus-and-a-lesson-in-scoping", // 2026-02-16
       // END: 2026css
       // END: css
     ]],[
@@ -634,6 +648,12 @@ export const template: SidebarInfoTemplate = {
       "chatgpt-and-old-and-broken-code", // 2025-05-20
       // END: 2025openai
       // END: openai
+    ]],[
+    "claude", [
+      // END: 2025claude
+      "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
+      // END: 2026claude
+      // END: claude
     ]],[
     "system-design", [
       "web-design-what-is-the-web-capable-of-that-is-hard-to-express-in-design-software", // 2025-08-18

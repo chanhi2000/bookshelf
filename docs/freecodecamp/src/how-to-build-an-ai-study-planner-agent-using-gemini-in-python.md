@@ -43,7 +43,7 @@ date: 2025-09-06
 isOriginal: false
 author:
   - name: Tarun Singh
-    url : https://freecodecamp.org/news/author/tarunsinghofficial/
+    url: https://freecodecamp.org/news/author/tarunsinghofficial/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757085526077/66391609-bf27-4206-aa29-382508d15ee8.png
 ---
 

@@ -29,7 +29,7 @@ date: 2025-07-22
 isOriginal: false
 author:
   - name: Matei Cezar
-    url : https://tecmint.com/author/cezarmatei/
+    url: https://tecmint.com/author/cezarmatei/
 cover: https://tecmint.com/wp-content/uploads/2014/05/setup-local-ubuntu-repository-apt-mirror.webp
 ---
 

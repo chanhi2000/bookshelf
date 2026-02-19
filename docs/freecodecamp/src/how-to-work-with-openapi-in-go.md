@@ -24,7 +24,7 @@ date: 2025-02-19
 isOriginal: false
 author:
   - name: Alex Pliutau
-    url : https://freecodecamp.org/news/author/pltvs/
+    url: https://freecodecamp.org/news/author/pltvs/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739971119374/b444d5f6-6e42-4bc6-9136-84a1fe2f073c.png
 ---
 

@@ -23,7 +23,7 @@ date: 2013-01-25
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://css-tricks.com/author/chriscoyier/
+    url: https://css-tricks.com/author/chriscoyier/
 cover: https://i0.wp.com/css-tricks/wp-content/csstricks-uploads/css-gradshadow.jpg
 ---
 

@@ -22,7 +22,7 @@ date: 2020-05-04
 isOriginal: false
 author:
   - name: Bryan Weber
-    url : https://realpython.com/team/bweber/
+    url: https://realpython.com/team/bweber/
 cover: https://files.realpython.com/media/How-to-Use-Python-datetime-With-Examples_Watermarked.2676ca0aacf2.jpg
 ---
 

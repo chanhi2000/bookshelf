@@ -25,7 +25,7 @@ date: 2013-07-20
 isOriginal: false
 author:
   - name: Sam Alba
-    url : https://docker.com/author/sam/
+    url: https://docker.com/author/sam/
 cover: https://docker.com/app/uploads/2013/06/sam.jpeg
 ---
 

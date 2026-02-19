@@ -28,7 +28,7 @@ date: 2025-08-15
 isOriginal: false
 author:
   - name: Ayu Adiati
-    url : https://freecodecamp.org/news/author/adiatiayu/
+    url: https://freecodecamp.org/news/author/adiatiayu/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755202477019/fbc68131-107a-40ae-9dae-c14224d0866a.png
 ---
 

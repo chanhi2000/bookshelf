@@ -26,7 +26,7 @@ date: 2025-06-24
 isOriginal: false
 author:
   - name: Destiny Erhabor
-    url : https://freecodecamp.org/news/author/CaesarSage/
+    url: https://freecodecamp.org/news/author/CaesarSage/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750697209688/e55bb451-1278-4004-ae3d-fd8bdbae47da.png
 ---
 

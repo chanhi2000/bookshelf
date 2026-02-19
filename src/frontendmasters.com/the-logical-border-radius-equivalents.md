@@ -23,7 +23,7 @@ date: 2024-12-02
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://frontendmasters.com/blog/author/chriscoyier/
+    url: https://frontendmasters.com/blog/author/chriscoyier/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4650
 ---
 
@@ -77,7 +77,7 @@ I feel these newer logical properties for border-radius took an understandabilit
 
 Something like `border-inline-start-block-end-radius` would solve that, but I do understand that is an awfully long property name and might suffer from confusion. If someone accidentally mentally grouped it like “border-inline” “start-block” “end-radius”, that’s, uh, a meaningless jumble.
 
-There is an interesting gotcha Michelle Barker found in [<VPIcon icon="fas fa-globe"/>Logical Border Radius](https://css-irl.info/logical-border-radius/) with vertical writing modes, so if that comes up for you read what she’s got to say there.
+There is an interesting gotcha Michelle Barker found in [**Logical Border Radius**](/css-irl.info/logical-border-radius.md) with vertical writing modes, so if that comes up for you read what she’s got to say there.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

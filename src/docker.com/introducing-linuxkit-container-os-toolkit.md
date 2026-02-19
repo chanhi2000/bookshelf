@@ -27,7 +27,7 @@ date: 2017-04-18
 isOriginal: false
 author:
   - name: Justin Cormack
-    url : https://docker.com/author/justin-cormack/
+    url: https://docker.com/author/justin-cormack/
 cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png
 ---
 

@@ -29,7 +29,7 @@ date: 2021-06-08
 isOriginal: false
 author:
   - name: Esteban Herrera
-    url : https://blog.logrocket.com/author/ehrrera/
+    url: https://blog.logrocket.com/author/ehrrera/
 cover: /assets/image/blog.logrocket.com/create-react-app-a-quick-setup-guide/banner.png
 ---
 

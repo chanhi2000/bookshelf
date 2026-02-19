@@ -24,7 +24,7 @@ date: 2018-04-17
 isOriginal: false
 author:
   - name: John Sturtz
-    url : https://realpython.com/team/jsturtz/
+    url: https://realpython.com/team/jsturtz/
 cover: https://files.realpython.com/media/Python-Modules-and-Packages-An-Introduction_Watermarked.20936240a94d.jpg
 ---
 

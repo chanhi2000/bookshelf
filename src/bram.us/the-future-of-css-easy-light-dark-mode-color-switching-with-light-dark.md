@@ -23,7 +23,7 @@ date: 2023-10-10
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2023/10/css-light-dark.png
 ---
 
@@ -148,7 +148,7 @@ Because `color-scheme` is taken into account, that also means that you can overr
 
 ::: note
 
-🤔 If this `light-dark()` seems familiar: Chromium internally sports a `-internal-light-dark()` which [**I wrote about before**](/bram.us/customize-the-password-hide-reveal-button-in-microsoft-edge.md#light-dark). Based on this functionality, [the proposal was made within the CSS Working Group (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/7561) to expose a similar function to authors. The result is `light-dark()`.
+🤔 If this `light-dark()` seems familiar: Chromium internally sports a `-internal-light-dark()` which [**I wrote about before**](/bram.us/customize-the-password-hide-reveal-button-in-microsoft-edge.md#light-dark). Based on this functionality, [the proposal was made within the CSS Working Group (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/7561) to expose a similar function to authors. The result is `light-dark()`.
 
 Unlike `-internal-light-dark()` which is for any type of value, `light-dark()` can only be used for colors.
 
@@ -158,7 +158,7 @@ Unlike `-internal-light-dark()` which is for any type of value, `light-dark()` c
 
 A common type of feedback on `light-dark()` I get is that it is fairly limited in what it can do: it can only do light/dark and only works with `<color>` values. That’s correct and is also very much intentional, because it is an intermediary step towards a final solution.
 
-As proposed in [the CSS Working Group issue (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/7561), the end goal is to have a function *(tentatively)* named `schemed-value()` in the future. That function can:
+As proposed in [the CSS Working Group issue (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/7561), the end goal is to have a function *(tentatively)* named `schemed-value()` in the future. That function can:
 
 - Respond to any value of `color-scheme`.
 - Return more than `<color>` values
@@ -192,7 +192,7 @@ The name and syntax of `light-dark()` is very memorable, easy to use, and – mo
 
 ::: note
 
-Once the day comes when authors are able to [create their own custom `color-scheme`s (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/9660), only then the much broader `schemed-value()` would become useful.
+Once the day comes when authors are able to [create their own custom `color-scheme`s (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/9660), only then the much broader `schemed-value()` would become useful.
 
 :::
 
@@ -262,7 +262,7 @@ Here is an [<VPIcon icon="iconfont icon-caniuse"/>up-to-date list of browser sup
 
 ✅ Supported in Firefox 120. Safari *(WebKit)*
 
-⏳ Feature [landed in WebKit on main (<VPIcon icon="iconfont icon-github" />`WebKit/WebKit`)](https://github.com/WebKit/WebKit/pull/23364). Expected to be included in Safari TP 188. The pen embedded below will indicate if the browser you are currently using supports CSS `light-dark()` or not:
+⏳ Feature [landed in WebKit on main (<VPIcon icon="iconfont icon-github"/>`WebKit/WebKit`)](https://github.com/WebKit/WebKit/pull/23364). Expected to be included in Safari TP 188. The pen embedded below will indicate if the browser you are currently using supports CSS `light-dark()` or not:
 
 <CodePen
   user="bramus"

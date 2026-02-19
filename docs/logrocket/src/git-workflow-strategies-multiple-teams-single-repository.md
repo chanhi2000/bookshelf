@@ -23,7 +23,7 @@ date: 2022-04-28
 isOriginal: false
 author:
   - name: Fernando Doglio
-    url : https://blog.logrocket.com/author/fernandodoglio/
+    url: https://blog.logrocket.com/author/fernandodoglio/
 cover: /assets/image/blog.logrocket.com/git-workflow-strategies-multiple-teams-single-repository/banner.png
 ---
 

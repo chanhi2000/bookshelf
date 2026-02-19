@@ -35,7 +35,7 @@ date: 2022-04-15
 isOriginal: false
 author:
   - name: Piotr Wolak
-    url : https://blog.codersee.com
+    url: https://blog.codersee.com
 cover: https://freecodecamp.org/news/content/images/2022/04/kotlin-aws-app-runner.png
 ---
 

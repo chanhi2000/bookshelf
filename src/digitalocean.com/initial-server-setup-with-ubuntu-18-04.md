@@ -29,7 +29,7 @@ date: 2018-04-28
 isOriginal: false
 author:
   - name: Justin Ellingwood
-    url : https://digitalocean.com//community/users/jellingwood
+    url: https://digitalocean.com//community/users/jellingwood
 cover: https://digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg
 ---
 

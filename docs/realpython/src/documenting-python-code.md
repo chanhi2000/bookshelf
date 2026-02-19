@@ -24,7 +24,7 @@ date: 2018-07-25
 isOriginal: false
 author:
   - name: James Mertz
-    url : https://realpython.com/team/jmertz/
+    url: https://realpython.com/team/jmertz/
 cover: https://files.realpython.com/media/Documenting-Python-Code_Watermarked.0b26408a1b7f.jpg
 ---
 

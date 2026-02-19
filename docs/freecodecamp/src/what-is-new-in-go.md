@@ -24,7 +24,7 @@ date: 2025-09-06
 isOriginal: false
 author:
   - name: Pedro
-    url : https://freecodecamp.org/news/author/bertao/
+    url: https://freecodecamp.org/news/author/bertao/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757071558420/9a83b3fb-dbea-4d38-96ca-460bf20c213d.png
 ---
 

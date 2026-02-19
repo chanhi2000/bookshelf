@@ -28,7 +28,7 @@ date: 2025-02-14
 isOriginal: false
 author:
   - name: Moarz
-    url : https://freecodecamp.org/news/author/beaucarnes/
+    url: https://freecodecamp.org/news/author/beaucarnes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739468195162/489c4a7f-9e7d-406a-a618-2cde8f43eae4.png
 ---
 

@@ -24,7 +24,7 @@ date: 2025-10-30
 isOriginal: false
 author:
   - name: Bala Priya C
-    url : https://freecodecamp.org/news/author/balapriyac/
+    url: https://freecodecamp.org/news/author/balapriyac/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761774871223/d4b07c0a-d37e-4197-bb47-f1ee6f51dffd.png
 ---
 

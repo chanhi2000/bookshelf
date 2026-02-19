@@ -23,7 +23,7 @@ date: 2025-09-17
 isOriginal: false
 author:
   - name: Jeff Bridgforth
-    url : https://css-tricks.com/author/jeffbridgforth/
+    url: https://css-tricks.com/author/jeffbridgforth/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/10/sass-sparkles.png
 ---
 

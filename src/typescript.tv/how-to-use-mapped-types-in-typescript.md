@@ -24,7 +24,7 @@ date: 2023-01-05
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -136,7 +136,7 @@ const user: NonPartialUser = {
 
 ## Advanced Mapping
 
-It is possible to use [**type assertions**](/typescript.tv/glossary.md#type-assertion) in order to change property names of types completely.
+It is possible to use [**type assertions**](/typescript.tv/glossary/type-assertion.md) in order to change property names of types completely.
 
 ---
 

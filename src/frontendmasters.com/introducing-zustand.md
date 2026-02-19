@@ -29,7 +29,7 @@ date: 2025-07-21
 isOriginal: false
 author:
   - name: Adam Rackis
-    url : https://frontendmasters.com/blog/author/adamrackis/
+    url: https://frontendmasters.com/blog/author/adamrackis/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6584
 ---
 

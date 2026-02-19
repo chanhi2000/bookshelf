@@ -36,7 +36,7 @@ date: 2024-05-20
 isOriginal: false
 author:
   - name: Jakub T. Jankiewicz
-    url : https://freecodecamp.org/news/author/jcubic/
+    url: https://freecodecamp.org/news/author/jcubic/
 cover: https://freecodecamp.org/news/content/images/2024/05/cover-5.png
 ---
 
@@ -254,7 +254,7 @@ You need to include both imports and you can replace the existing config with th
 
 ### Use the Wayne library
 
-Then, you need to create a Service Worker file named <VPIcon icon="fa-brands fa-js"/>`sw.js`. You will use [Wayne library (<VPIcon icon="iconfont icon-github" />`jcubic/wayne`)](https://github.com/jcubic/wayne) instead of writing the routes yourself. This will simplify the code.
+Then, you need to create a Service Worker file named <VPIcon icon="fa-brands fa-js"/>`sw.js`. You will use [Wayne library (<VPIcon icon="iconfont icon-github"/>`jcubic/wayne`)](https://github.com/jcubic/wayne) instead of writing the routes yourself. This will simplify the code.
 
 First, you need to install Wayne:
 
@@ -420,9 +420,9 @@ const jwt = {
 export default jwt;
 ```
 
-This code is an [**ES Module**](/freecodecamp.org/javascript-modules-beginners-guide.md) that uses the [`jose` JWT token library (<VPIcon icon="iconfont icon-github" />`panva/jose`)](https://github.com/panva/jose) to create a new token, `jwt.sign`. It verifies that the token is correct with `jwt.verify`, and it also returns the payload, so you can extract anything you save in the token.
+This code is an [**ES Module**](/freecodecamp.org/javascript-modules-beginners-guide.md) that uses the [`jose` JWT token library (<VPIcon icon="iconfont icon-github"/>`panva/jose`)](https://github.com/panva/jose) to create a new token, `jwt.sign`. It verifies that the token is correct with `jwt.verify`, and it also returns the payload, so you can extract anything you save in the token.
 
-You can read more about the `jose` library from the documentation – the links to the [docs are in the README (<VPIcon icon="iconfont icon-github" />`panva/jose`)](https://github.com/panva/jose).
+You can read more about the `jose` library from the documentation – the links to the [docs are in the README (<VPIcon icon="iconfont icon-github"/>`panva/jose`)](https://github.com/panva/jose).
 
 ::: note
 
@@ -661,11 +661,11 @@ You can read about `localStorage` from [**this freeCodeCamp article**](/freecode
 
 You can improve this and add more endpoints, like getting real data that you will save in a `sw.js` file. You can store the data in IndexedDB, so it will be persistent like in in a real app. Read more about IndexedDB from [**this article**](/freecodecamp.org/how-indexeddb-works-for-beginners.md).
 
-IndexedDB doesn't have a very nice API, but there are libraries that add abstraction on top of it. My favorite is the SQL library [<VPIcon icon="fas fa-globe"/>AlaSQL](https://alasql.org/), and [idb (<VPIcon icon="iconfont icon-github" />`jakearchibald/idb`)](https://github.com/jakearchibald/idb) by [Jake Archibald](https://jakearchibald.com/).
+IndexedDB doesn't have a very nice API, but there are libraries that add abstraction on top of it. My favorite is the SQL library [<VPIcon icon="fas fa-globe"/>AlaSQL](https://alasql.org/), and [idb (<VPIcon icon="iconfont icon-github"/>`jakearchibald/idb`)](https://github.com/jakearchibald/idb) by [Jake Archibald](https://jakearchibald.com/).
 
 ::: info Fully working demo
 
-The full source code is available on GitHub in the repository [jcubic/react-wayne-auth (<VPIcon icon="iconfont icon-github" />`jcubic/react-wayne-auth`)](https://github.com/jcubic/react-wayne-auth). You can test a working demo on [<VPIcon icon="fas fa-globe"/>GitHub pages](https://jcubic.github.io/react-wayne-auth/).
+The full source code is available on GitHub in the repository [jcubic/react-wayne-auth (<VPIcon icon="iconfont icon-github"/>`jcubic/react-wayne-auth`)](https://github.com/jcubic/react-wayne-auth). You can test a working demo on [<VPIcon icon="fas fa-globe"/>GitHub pages](https://jcubic.github.io/react-wayne-auth/).
 
 :::
 

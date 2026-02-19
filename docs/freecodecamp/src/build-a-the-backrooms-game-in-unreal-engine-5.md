@@ -15,7 +15,6 @@ tag:
   - c#
   - csharp
   - unity
-  - unity
   - youtube
   - crashcourse
 head:
@@ -31,7 +30,7 @@ date: 2026-01-22
 isOriginal: false
 author:
   - name: DevEdge Studio (@DevEdgeStudio)
-    url : https://youtube.com/@DevEdgeStudio
+    url: https://youtube.com/@DevEdgeStudio
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769019160242/cf2c5169-ff82-4981-a20c-89769397f335.jpeg
 ---
 

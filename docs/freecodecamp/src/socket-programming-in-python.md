@@ -24,7 +24,7 @@ date: 2023-05-25
 isOriginal: false
 author:
   - name: P S Mohammed Ali
-    url : https://freecodecamp.org/news/author/psmohammedali/
+    url: https://freecodecamp.org/news/author/psmohammedali/
 cover: https://freecodecamp.org/news/content/images/2023/05/ab_networks_network_8uds-1030x438-1.jpg
 ---
 

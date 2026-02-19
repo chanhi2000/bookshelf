@@ -32,7 +32,7 @@ date: 2026-01-10
 isOriginal: false
 author:
   - name: Orim Dominic Adah
-    url : https://freecodecamp.org/news/author/orimdominic/
+    url: https://freecodecamp.org/news/author/orimdominic/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767981990510/95306973-8c9a-435b-936e-ae5476f600de.png
 ---
 
@@ -147,15 +147,15 @@ If you’re a backend developer, you may have noticed that users sometimes abuse
 
 Because of this, you may want to limit the requests that users make to this endpoint so that you can prevent the abuse of the API and save costs. And that’s where a rate limiter comes in.
 
-You can get the [code for this tutorial here (<VPIcon icon="iconfont icon-github" />`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter). You can clone it, install the dependencies with `npm install`, and run it following the instructions in the [<VPIcon icon="fa-brands fa-markdown"/>`README` file (<VPIcon icon="iconfont icon-github" />`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/README.md). You’ll need it to follow along with the rest of this article.
+You can get the [code for this tutorial here (<VPIcon icon="iconfont icon-github"/>`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter). You can clone it, install the dependencies with `npm install`, and run it following the instructions in the [<VPIcon icon="fa-brands fa-markdown"/>`README` file (<VPIcon icon="iconfont icon-github"/>`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/README.md). You’ll need it to follow along with the rest of this article.
 
-I built the project using Next.js and it uses the app router. I’ve also built the rate limiter and [you can find it here (<VPIcon icon="iconfont icon-github" />`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/lib/server/rate-limiter.ts). You can see how to use it in the [reset password API endpoint here (<VPIcon icon="iconfont icon-github" />`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/pages/api/reset-password-init.ts).
+I built the project using Next.js and it uses the app router. I’ve also built the rate limiter and [you can find it here (<VPIcon icon="iconfont icon-github"/>`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/lib/server/rate-limiter.ts). You can see how to use it in the [reset password API endpoint here (<VPIcon icon="iconfont icon-github"/>`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/pages/api/reset-password-init.ts).
 
 It has a user interface that you can use to test the rate limiter – but let’s dive into the code first.
 
 ### The Rate Limiter
 
-The [<VPIcon icon="fas fa-folder-open"/>`src/lib/server/`<VPIcon icon="iconfont icon-typescript"/>`rate-limiter.ts` (<VPIcon icon="iconfont icon-github" />`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/lib/server/rate-limiter.ts) file exports a function called `applyRateLimiter` which accepts three parameters:
+The [<VPIcon icon="fas fa-folder-open"/>`src/lib/server/`<VPIcon icon="iconfont icon-typescript"/>`rate-limiter.ts` (<VPIcon icon="iconfont icon-github"/>`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/lib/server/rate-limiter.ts) file exports a function called `applyRateLimiter` which accepts three parameters:
 
 - the request object
 - the response object
@@ -163,7 +163,7 @@ The [<VPIcon icon="fas fa-folder-open"/>`src/lib/server/`<VPIcon icon="iconfont 
 
 `getOptsFn` is a function that accepts the request object and, when executed, returns properties specific to the request for tracking, monitoring, and blocking by the rate limiter. `getOptsFn` is a function and not a static object so that the specific properties of a request can be dynamically created by the request handler for each request.
 
-[<VPIcon icon="fas fa-folder-open"/>`src/lib/server/`<VPIcon icon="iconfont icon-typescript"/>`rate-limiter.ts` (<VPIcon icon="iconfont icon-github" />`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/lib/server/rate-limiter.ts) also has an in-memory map called `cache`. `cache` stores the key (or unique identifier) of a request and maps it to its usage. An interval runs every minute to remove keys with `expiredAt` values that have passed from the cache. This helps to manage the amount of memory used by the cache.
+[<VPIcon icon="fas fa-folder-open"/>`src/lib/server/`<VPIcon icon="iconfont icon-typescript"/>`rate-limiter.ts` (<VPIcon icon="iconfont icon-github"/>`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/lib/server/rate-limiter.ts) also has an in-memory map called `cache`. `cache` stores the key (or unique identifier) of a request and maps it to its usage. An interval runs every minute to remove keys with `expiredAt` values that have passed from the cache. This helps to manage the amount of memory used by the cache.
 
 ```ts title="lib/server/rate-limiter.ts"
 type GetOptionsFn = (req: NextApiRequest) => {
@@ -263,7 +263,7 @@ According to REST specifications, a 429 HTTP response may include a [<VPIcon ico
 
 ### The Request Handler
 
-You can find the reset password request handler in [<VPIcon icon="fas fa-folder-open"/>`src/pages/api/`<VPIcon icon="iconfont icon-typescript"/>`reset-password-init.ts` (<VPIcon icon="iconfont icon-github" />`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/pages/api/reset-password-init.ts). First, it performs validation checks on the request method and body to ensure that it is fit for its operations. The validation ensures that the request is a POST request and that the request body includes an `email` property. It ends the request with the appropriate response code if validation fails.
+You can find the reset password request handler in [<VPIcon icon="fas fa-folder-open"/>`src/pages/api/`<VPIcon icon="iconfont icon-typescript"/>`reset-password-init.ts` (<VPIcon icon="iconfont icon-github"/>`orimdominic/nextjs-app-router-rate-limiter`)](https://github.com/orimdominic/nextjs-app-router-rate-limiter/blob/main/src/pages/api/reset-password-init.ts). First, it performs validation checks on the request method and body to ensure that it is fit for its operations. The validation ensures that the request is a POST request and that the request body includes an `email` property. It ends the request with the appropriate response code if validation fails.
 
 ```ts title="pages/api/reset-password.ts"
 if (req.method !== "POST") {

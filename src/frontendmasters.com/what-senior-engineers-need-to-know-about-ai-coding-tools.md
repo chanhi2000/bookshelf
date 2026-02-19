@@ -24,7 +24,7 @@ date: 2026-01-29
 isOriginal: false
 author:
   - name: Marc Grabanski
-    url : https://frontendmasters.com/blog/author/marcgrabanski/
+    url: https://frontendmasters.com/blog/author/marcgrabanski/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/8238
 ---
 

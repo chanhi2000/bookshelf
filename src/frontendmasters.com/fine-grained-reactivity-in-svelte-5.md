@@ -2,7 +2,7 @@
 lang: en-US
 title: "Fine-Grained Reactivity in Svelte 5"
 description: "Article(s) > Fine-Grained Reactivity in Svelte 5"
-icon: iconfont icon-svelte
+icon: fa-brands fa-svelte
 category:
   - Node.js
   - Svelte.js
@@ -115,7 +115,7 @@ If you’d like to try out the code we’ll be looking at in this post, it’s a
 
 ## Getting started
 
-The code we’ll be looking at is from a [<VPIcon icon="iconfont icon-svelte"/>SvelteKit scaffolded project](https://kit.svelte.dev/docs/creating-a-project). If you’ve never used Svelte*Kit*before that’s totally fine. We’re not really using any SvelteKit features until the very end of this post, and even then it’s just re-hashing what we’ll have already covered.
+The code we’ll be looking at is from a [<VPIcon icon="fa-brands fa-svelte"/>SvelteKit scaffolded project](https://kit.svelte.dev/docs/creating-a-project). If you’ve never used Svelte*Kit*before that’s totally fine. We’re not really using any SvelteKit features until the very end of this post, and even then it’s just re-hashing what we’ll have already covered.
 
 Throughout this post, we’re going to be inspecting if and when individual bindings in a component are re-evaluated when we change state. There’s various ways to do this, but the simplest, and frankly *dumbest*, is to force some global, non-reactive, always-changing state into these bindings. What do I mean by that? In the root page that hosts our site, I’m adding this:
 

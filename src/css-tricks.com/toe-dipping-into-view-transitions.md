@@ -25,7 +25,7 @@ date: 2025-02-21
 isOriginal: false
 author:
   - name: Geoff Graham
-    url : https://css-tricks.com/author/geoffgraham/
+    url: https://css-tricks.com/author/geoffgraham/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-logo-gradient-outline.png
 ---
 

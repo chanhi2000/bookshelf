@@ -16,6 +16,17 @@ const ADVANCED_GIT_FOR_PYTHONISTAS: SidebarInfoSubgroupTemplate = { // 2018-08-1
   ]
 }
 
+const WORKING_WITH_FILES_IN_PYTHON: SidebarInfoSubgroupTemplate = { // 2019-02-20
+  text: "Working With Files in Python",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'working-with-files-in-python',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const READ_WRITE_FILES_PYTHON: SidebarInfoSubgroupTemplate = { // 2019-02-20
   text: "Reading and Writing Files in Python (Guide)",
   collapsible: true,
@@ -242,6 +253,17 @@ const PYTHON_YAML: SidebarInfoSubgroupTemplate = { // 2024-12-14
   ]
 }
 
+const PYTHON_CLASSES: SidebarInfoSubgroupTemplate = { // 2024-12-15
+  text: "Python Classes: The Power of Object-Oriented Programming",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'python-classes',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const PYTHON_JSON: SidebarInfoSubgroupTemplate = { // 2024-12-22
   text: "Working With JSON Data in Python",
   collapsible: true,
@@ -278,6 +300,7 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "instance-class-and-static-methods-demystified", // 2025-03-17
     PYTHON_CONSTANTS, // 2025-01-19
     "image-processing-with-the-python-pillow-library", // 2025-01-08
   ]
@@ -290,6 +313,7 @@ const Y2024: SidebarYeargroupTemplate = {
     // END: 2024
     PYTHON_JSON, // 2024-12-22
     "what-is-pip", // 2024-12-22
+    PYTHON_CLASSES, // 2024-12-15
     PYTHON_YAML, // 2024-12-14
     "run-python-scripts", // 2024-12-08
     "python-input-output", // 2024-12-02
@@ -335,6 +359,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "python-zip-import", // 2021-12-27
     "what-can-i-do-with-python", // 2021-07-07
     PYTHON_WITH_STATEMENT, // 2021-06-02
+    "directory-tree-generator-python", // 2021-04-14
     PYTHON_WEB_APPLICATIONS, // 2021-02-01
   ]
 }
@@ -362,7 +387,7 @@ const Y2019: SidebarYeargroupTemplate = {
     PYTHON_PRINT, // 2019-08-12
     "python-lambda", // 2019-06-19
     READ_WRITE_FILES_PYTHON, // 2019-02-20
-    "working-with-files-in-python", // 2019-01-21
+    WORKING_WITH_FILES_IN_PYTHON, // 2019-01-21
   ]
 }
 
@@ -375,6 +400,7 @@ const Y2018: SidebarYeargroupTemplate = {
     "absolute-vs-relative-python-imports", // 2018-09-19
     ADVANCED_GIT_FOR_PYTHONISTAS, // 2018-08-13
     "documenting-python-code", // 2018-07-25
+    "python-csv", // 2018-07-16
     "python-histograms", // 2018-07-12
     "python-application-layouts", // 2018-06-04
     "vim-and-python-a-match-made-in-heaven", // 2018-06-01
@@ -418,12 +444,13 @@ export const template: SidebarInfoTemplate = {
       "vim-and-python-a-match-made-in-heaven", // 2018-06-01
       "python-application-layouts", // 2018-06-04
       "python-histograms", // 2018-07-12
+      "python-csv", // 2018-07-16
       "documenting-python-code", // 2018-07-25
       ADVANCED_GIT_FOR_PYTHONISTAS, // 2018-08-13
       "absolute-vs-relative-python-imports", // 2018-09-19
       "python-while-loop", // 2018-11-07
       // END: 2018py
-      "working-with-files-in-python", // 2019-01-21
+      WORKING_WITH_FILES_IN_PYTHON, // 2019-01-21
       READ_WRITE_FILES_PYTHON, // 2019-02-20
       "python-lambda", // 2019-06-19
       PYTHON_PRINT, // 2019-08-12
@@ -436,6 +463,7 @@ export const template: SidebarInfoTemplate = {
       PYTHON39_NEW_FEATURES, // 2020-10-05
       "python-boolean", // 2020-10-19
       // END: 2020py
+      "directory-tree-generator-python", // 2021-04-14
       PYTHON_WITH_STATEMENT, // 2021-06-02
       "what-can-i-do-with-python", // 2021-07-07
       "python-zip-import", // 2021-12-27
@@ -457,11 +485,13 @@ export const template: SidebarInfoTemplate = {
       "python-input-output", // 2024-12-02
       "run-python-scripts", // 2024-12-08
       PYTHON_YAML, // 2024-12-14
+      PYTHON_CLASSES, // 2024-12-15
       "what-is-pip", // 2024-12-22
       PYTHON_JSON, // 2024-12-22
       // END: 2024py
       "image-processing-with-the-python-pillow-library", // 2025-01-08
       PYTHON_CONSTANTS, // 2025-01-19
+      "instance-class-and-static-methods-demystified", // 2025-03-17
       // END: 2025py
       // END: py
     ]],[

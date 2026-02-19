@@ -23,7 +23,7 @@ date: 2022-09-09
 isOriginal: false
 author:
   - name: Daniel Yuschick
-    url : https://blog.logrocket.com/author/danielyuschick/
+    url: https://blog.logrocket.com/author/danielyuschick/
 cover: /assets/image/blog.logrocket.com/deep-dive-css-individual-transform-properties/banner.png
 ---
 

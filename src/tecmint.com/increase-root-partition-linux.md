@@ -24,7 +24,7 @@ date: 2025-09-11
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2025/09/extend-root-partition-linux.webp
 ---
 

@@ -29,7 +29,7 @@ date: 2021-09-29
 isOriginal: false
 author:
   - name: Chidume Nnamdi
-    url : https://blog.logrocket.com/author/chidumennamdi/
+    url: https://blog.logrocket.com/author/chidumennamdi/
 cover: /assets/image/blog.logrocket.com/controlled-vs-uncontrolled-components-in-react/banner.png
 ---
 

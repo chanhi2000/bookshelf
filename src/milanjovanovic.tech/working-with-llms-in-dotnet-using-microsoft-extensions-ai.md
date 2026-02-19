@@ -8,7 +8,7 @@ category:
   - DotNet
   - AI
   - LLM
-  - Llama
+  - Ollama
   - Article(s)
 tag:
   - blog
@@ -22,7 +22,7 @@ tag:
   - llm
   - large-language-models
   - meta
-  - llama
+  - ollama
 head:
   - - meta:
     - property: og:title
@@ -52,9 +52,9 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_124.png
 
 ```component VPCard
 {
-  "title": "Llama > Article(s)",
+  "title": "Ollama > Article(s)",
   "desc": "Article(s)",
-  "link": "/ai/llama/articles/README.md",
+  "link": "/ai/ollama/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

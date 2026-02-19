@@ -35,7 +35,7 @@ date: 2025-11-08
 isOriginal: false
 author:
   - name: OMOTAYO OMOYEMI
-    url : https://freecodecamp.org/news/author/tayo4christ/
+    url: https://freecodecamp.org/news/author/tayo4christ/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762533154134/e2209ade-6971-464b-aeef-f05abd0a30d7.png
 ---
 

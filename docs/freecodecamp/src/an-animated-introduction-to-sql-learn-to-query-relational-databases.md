@@ -23,7 +23,7 @@ date: 2025-04-17
 isOriginal: false
 author:
   - name: Mark Mahoney
-    url : https://freecodecamp.org/news/author/markm208/
+    url: https://freecodecamp.org/news/author/markm208/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744818155429/10b16956-a249-4815-b50a-594b58330a01.png
 ---
 

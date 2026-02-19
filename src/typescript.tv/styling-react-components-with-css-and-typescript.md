@@ -29,7 +29,7 @@ date: 2021-03-17
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -58,7 +58,7 @@ cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 
 Learn how to add CSS styling to React Components with TypeScript. This tutorial will teach you how to structure your components, type your props, and avoid error TS2739. It also introduces CSS Modules.
 
-In this post, we are going to take a look on how to add CSS styling to React Components with TypeScript. Our teacher Amir shows you how to structure your components and how to type your props, so that you won't run into error TS2739. There will be also an introduction to [CSS Modules (<VPIcon icon="iconfont icon-github" />`css-modules/css-modules`)](https://github.com/css-modules/css-modules).
+In this post, we are going to take a look on how to add CSS styling to React Components with TypeScript. Our teacher Amir shows you how to structure your components and how to type your props, so that you won't run into error TS2739. There will be also an introduction to [CSS Modules (<VPIcon icon="iconfont icon-github"/>`css-modules/css-modules`)](https://github.com/css-modules/css-modules).
 
 ---
 

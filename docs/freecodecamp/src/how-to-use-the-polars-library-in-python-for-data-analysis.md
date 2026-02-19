@@ -27,7 +27,7 @@ date: 2025-12-11
 isOriginal: false
 author:
   - name: Sara Jadhav
-    url : https://freecodecamp.org/news/author/Eccentric-/
+    url: https://freecodecamp.org/news/author/Eccentric-/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765325732081/94ab547b-fdaf-41bb-ae60-ad03be31211a.png
 ---
 

@@ -33,7 +33,7 @@ date: 2026-01-16
 isOriginal: false
 author:
   - name: Destiny Erhabor
-    url : https://freecodecamp.org/news/author/CaesarSage/
+    url: https://freecodecamp.org/news/author/CaesarSage/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768497873258/be1ce2a3-c95f-488e-913a-a772007a0d2a.png
 ---
 
@@ -88,7 +88,7 @@ In this article, we'll tackle the real-world complexities of implementing blue-g
 
 ::: tip 💡 Complete Working Example
 
-All code examples in this article are available in the [bluegreen-deployment-ecs (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs) [repository on GitHub. (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs) You can clone it and deploy the entire infrastructure to your AWS account.
+All code examples in this article are available in the [bluegreen-deployment-ecs (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs) [repository on GitHub. (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs) You can clone it and deploy the entire infrastructure to your AWS account.
 
 :::
 
@@ -285,7 +285,7 @@ Your infrastructure includes:
 
 ::: note 💡 Implementation Note
 
-The complete Terraform code for this architecture is available in the [companion GitHub repository (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/tree/main/terraform).
+The complete Terraform code for this architecture is available in the [companion GitHub repository (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/tree/main/terraform).
 
 :::
 
@@ -395,7 +395,7 @@ echo "container_image = \"$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR
 
 ![Figure 4: ECR Private repository for Docker image](https://cdn.hashnode.com/res/hashnode/image/upload/v1768137809806/820d7005-b924-4224-9b58-de5701466c1f.png)
 
-The [application code (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/tree/main/app) is a Flask application that handles both old and new schema formats based on the `APP_VERSION` environment variable.
+The [application code (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/tree/main/app) is a Flask application that handles both old and new schema formats based on the `APP_VERSION` environment variable.
 
 Now deploy the complete infrastructure:
 
@@ -421,7 +421,7 @@ echo "Database Endpoint: $DB_ENDPOINT"
 
 The production listener (port 80) is what your users hit. The test listener (port 8080) lets you test the green environment before shifting production traffic to it. This is crucial for validation.
 
-You can see the complete Terraform configuration in [`terraform` (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/tree/main/terraform).
+You can see the complete Terraform configuration in [`terraform` (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/tree/main/terraform).
 
 ### Step 2: Initialize Database Schema
 
@@ -484,7 +484,7 @@ curl $ALB_URL/api/customers | jq
 
 This is the first phase of expand-contract. We're adding the new columns WITHOUT removing the old one, creating a database schema that supports both blue and green simultaneously.
 
-Run the expand migration ([`migrations/001_expand_address.sql` (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/migrations/001_expand_address.sql)[) (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/migrations/001_expand_address.sql):
+Run the expand migration ([`migrations/001_expand_address.sql` (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/migrations/001_expand_address.sql)[) (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/migrations/001_expand_address.sql):
 
 ```sql
 -- Migration: 001_expand_address_fields.sql
@@ -561,7 +561,7 @@ docker tag $ECR_REPOSITORY:$IMAGE_TAG \
 docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR_REPOSITORY:$IMAGE_TAG
 ```
 
-What’s different is that the v2 [application code (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/app/models.py) now has logic that:
+What’s different is that the v2 [application code (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/app/models.py) now has logic that:
 
 - **Reads** from the new structured columns (`street_address`, `city`, and so on)
 - **Writes** to BOTH new columns AND the old `address` column
@@ -836,7 +836,7 @@ psql -h $DB_ENDPOINT -U dbadmin -d ecommerce -f /tmp/002_contract_address.sql
 psql -h $DB_ENDPOINT -U dbadmin -d ecommerce -c "\d customers"
 ```
 
-The contract migration ([`migrations/002_contract_address.sql` (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/migrations/002_contract_address.sql)) removes the old `address` column.
+The contract migration ([`migrations/002_contract_address.sql` (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/migrations/002_contract_address.sql)) removes the old `address` column.
 
 ![d6f6f287-09e5-4693-a4e9-77c1d9080466](https://cdn.hashnode.com/res/hashnode/image/upload/v1768140955991/d6f6f287-09e5-4693-a4e9-77c1d9080466.png)
 
@@ -871,7 +871,7 @@ You should also deploy version 3 of your application that removes the dual-write
 
 :::
 
-The contract migration ([`migrations/002_contract_address.sql` (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/migrations/002_contract_address.sql)) removes the old `address` column. Your migration is now complete!
+The contract migration ([`migrations/002_contract_address.sql` (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs/blob/main/migrations/002_contract_address.sql)) removes the old `address` column. Your migration is now complete!
 
 ---
 
@@ -1273,8 +1273,8 @@ For more practical hands-on Cloud/DevOps projects like this one, follow and star
 
 ::: info Further Resources
 
-- Complete Code: [github.com/Caesarsage/bluegreen-deployment-ecs (<VPIcon icon="iconfont icon-github" />`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs)
-- Learn DevOps by Building: [GitHub repo (<VPIcon icon="iconfont icon-github" />`Caesarsage/Learn-DevOps-by-building`)](https://github.com/Caesarsage/Learn-DevOps-by-building)
+- Complete Code: [github.com/Caesarsage/bluegreen-deployment-ecs (<VPIcon icon="iconfont icon-github"/>`Caesarsage/bluegreen-deployment-ecs`)](https://github.com/Caesarsage/bluegreen-deployment-ecs)
+- Learn DevOps by Building: [GitHub repo (<VPIcon icon="iconfont icon-github"/>`Caesarsage/Learn-DevOps-by-building`)](https://github.com/Caesarsage/Learn-DevOps-by-building)
 - AWS ECS Blue/Green Documentation: [AWS Docs](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html)
 - AWS CodeDeploy for ECS: [AWS Docs](https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-steps-ecs.html)
 

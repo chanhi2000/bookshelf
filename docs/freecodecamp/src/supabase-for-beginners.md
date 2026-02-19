@@ -34,7 +34,7 @@ date: 2025-12-17
 isOriginal: false
 author:
   - name: Jonathan Hill
-    url : https://scrimba.com/intro-to-supabase-c0abltfqed
+    url: https://scrimba.com/intro-to-supabase-c0abltfqed
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765925162547/def59028-379b-4324-93b2-79cea57c3b35.jpeg
 ---
 

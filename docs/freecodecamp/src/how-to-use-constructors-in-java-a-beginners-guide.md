@@ -24,7 +24,7 @@ date: 2025-07-09
 isOriginal: false
 author:
   - name: Ateev Duggal
-    url : https://freecodecamp.org/news/author/Ateev/
+    url: https://freecodecamp.org/news/author/Ateev/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751998519087/7808c004-c8e5-4e63-b293-10fa479a179f.png
 ---
 

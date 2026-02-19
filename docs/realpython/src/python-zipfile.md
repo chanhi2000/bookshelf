@@ -24,7 +24,7 @@ date: 2022-02-14
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Using-ZIP-Files-With-Python_Watermarked.220b1d6e93a4.jpg
 ---
 
@@ -1075,7 +1075,7 @@ with zipfile.PyZipFile("hello.zip", mode="r") as zip_module:
 
 In this example, the call to `.writepy()` automatically compiles <VPIcon icon="fa-brands fa-python"/>`hello.py` to `hello.pyc` and stores it in <VPIcon icon="fas fa-file-zipper"/>`hello.zip`. This becomes clear when you list the archive’s content using `.printdir()`.
 
-Once you have <VPIcon icon="fa-brands fa-python"/>`hello.py` bundled into a ZIP file, then you can use Python’s [**import**](/realpython.com/python-import.md) system to import this module from its containing archive:
+Once you have <VPIcon icon="fa-brands fa-python"/>`hello.py` bundled into a ZIP file, then you can use Python’s [**import**](/realpython.com/python-import/README.md) system to import this module from its containing archive:
 
 ```py
 import sys

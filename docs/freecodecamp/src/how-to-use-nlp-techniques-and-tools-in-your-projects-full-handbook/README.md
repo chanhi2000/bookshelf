@@ -33,7 +33,7 @@ date: 2025-11-22
 isOriginal: false
 author:
   - name: Oleh Romanyuk
-    url : https://freecodecamp.org/news/author/OlehRomanyuk/
+    url: https://freecodecamp.org/news/author/OlehRomanyuk/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763743424066/393a4384-ce7a-4ff8-9e98-1edaaa322bc6.png
 ---
 

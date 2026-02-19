@@ -29,7 +29,7 @@ date: 2014-08-11
 isOriginal: false
 author:
   - name: 
-    url : https://realpython.com/team/asantos/
+    url: https://realpython.com/team/asantos/
 cover: https://files.realpython.com/media/Setting-Up-Sublime-Text-3-for-Full-Stack-Python-Development_Watermarked.2cf294b0b61e.jpg
 ---
 

@@ -24,7 +24,7 @@ date: 2025-06-17
 isOriginal: false
 author:
   - name: Yazdun
-    url : https://freecodecamp.org/news/author/Yazdun/
+    url: https://freecodecamp.org/news/author/Yazdun/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750082265731/de8b778c-935d-4a38-a5ef-748896475327.png
 ---
 

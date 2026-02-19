@@ -24,7 +24,7 @@ date: 2025-07-09
 isOriginal: false
 author:
   - name: Olowo Jude
-    url : https://freecodecamp.org/news/author/Jude-Olowo/
+    url: https://freecodecamp.org/news/author/Jude-Olowo/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752007334998/e196493e-f3e0-4e63-b6eb-ce66c5481d9c.png
 ---
 

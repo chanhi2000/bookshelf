@@ -31,7 +31,7 @@ date: 2025-09-12
 isOriginal: false
 author:
   - name: Tarun Singh
-    url : https://freecodecamp.org/news/author/tarunsinghofficial/
+    url: https://freecodecamp.org/news/author/tarunsinghofficial/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757672756195/67ddcb24-b8dd-4bf6-a83b-103940f4ae85.png
 ---
 

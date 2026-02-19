@@ -34,7 +34,7 @@ date: 2025-10-10
 isOriginal: false
 author:
   - name: Agnes Olorundare
-    url : https://freecodecamp.org/news/author/Agnes28/
+    url: https://freecodecamp.org/news/author/Agnes28/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760051580641/75d09121-6167-4e06-94d7-53cf23a6f6a1.png
 ---
 

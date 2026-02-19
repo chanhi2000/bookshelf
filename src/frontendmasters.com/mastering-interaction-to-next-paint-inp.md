@@ -23,7 +23,7 @@ date: 2024-11-05
 isOriginal: false
 author:
   - name: Todd Gardner
-    url : https://frontendmasters.com/blog/author/toddgardner/
+    url: https://frontendmasters.com/blog/author/toddgardner/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4318
 ---
 

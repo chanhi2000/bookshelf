@@ -23,7 +23,7 @@ date: 2024-06-11
 isOriginal: false
 author:
   - name: Miriam Suzanne
-    url : https://oddbird.net/authors/miriam/
+    url: https://oddbird.net/authors/miriam/
 cover: https://oddbird.net/assets/images/blog/2024/blender-1600w.jpeg
 ---
 
@@ -56,7 +56,7 @@ The CSS Working Group has agreed to move forward with CSS-native mixins. But som
 
 ## Mixin substitution with `@apply`
 
-I’ve been thinking about [<VPIcon icon="iconfont icon-oddbird"/>CSS-native mixins](https://css.oddbird.net/sasslike/mixins-functions/). How do we create re-usable blocks of styling that can be ‘mixed in’ to various selectors, based on arbitrary conditions? I made [<VPIcon icon="iconfont icon-oddbird"/>a proposal](https://css.oddbird.net/sasslike/mixins-functions/) last year, and it was [adopted by the CSS Working Group (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/9350#issuecomment-1939628591) for further exploration and specification. That proposal is similar to [<VPIcon icon="fa-brands fa-sass"/>mixins in Sass](https://sass-lang.com/guide/#mixins) and other pre-processors, and builds on CSS Nesting:
+I’ve been thinking about [<VPIcon icon="iconfont icon-oddbird"/>CSS-native mixins](https://css.oddbird.net/sasslike/mixins-functions/). How do we create re-usable blocks of styling that can be ‘mixed in’ to various selectors, based on arbitrary conditions? I made [<VPIcon icon="iconfont icon-oddbird"/>a proposal](https://css.oddbird.net/sasslike/mixins-functions/) last year, and it was [adopted by the CSS Working Group (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/9350#issuecomment-1939628591) for further exploration and specification. That proposal is similar to [<VPIcon icon="fa-brands fa-sass"/>mixins in Sass](https://sass-lang.com/guide/#mixins) and other pre-processors, and builds on CSS Nesting:
 
 ```css
 /* define it once */

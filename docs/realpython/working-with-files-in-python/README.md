@@ -9,8 +9,8 @@ category:
 tag:
   - blog
   - realpython.com
-  - python
   - py
+  - python
 head:
   - - meta:
     - property: og:title
@@ -18,13 +18,13 @@ head:
     - property: og:description
       content: "Working With Files in Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/realpython.com/working-with-files-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/realpython.com/working-with-files-in-python/
 prev: /programming/py/articles/README.md
 date: 2019-01-21
 isOriginal: false
 author:
   - name: Vuyisile Ndlovu
-    url : https://realpython.com/team/vndlovu/
+    url: https://realpython.com/team/vndlovu/
 cover: https://files.realpython.com/media/Practical-Recipes-for-Working-With-Multiple-Files-in-Python_Watermarked.4ff8c72dc712.jpg
 ---
 
@@ -1673,7 +1673,7 @@ This tutorial has a related video course created by the Real Python team. Watch 
 {
   "title": "Working With Files in Python",
   "desc": "In this tutorial, you'll learn how you can work with files in Python by using built-in modules to perform practical tasks that involve groups of files, like renaming them, moving them around, archiving them, and getting their metadata.",
-  "link": "https://chanhi2000.github.io/bookshelf/realpython.com/working-with-files-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/realpython.com/working-with-files-in-python/",
   "logo": "https://realpython.com/static/favicon.68cbf4197b0c.png",
   "background": "rgba(31,52,74,0.2)"
 }

@@ -29,7 +29,7 @@ date: 2021-01-07
 isOriginal: false
 author:
   - name: Kelvin Gobo
-    url : https://blog.logrocket.comhttps://blog.logrocket.com/author/kelvingobo/
+    url: https://blog.logrocket.comhttps://blog.logrocket.com/author/kelvingobo/
 cover: /assets/image/blog.logrocket.com/banner.png
 ---
 

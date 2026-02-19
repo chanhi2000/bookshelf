@@ -25,7 +25,7 @@ prev: /devops/k8s/articles/README.md
 isOriginal: false
 author:
   - name: Gulcan Topcu
-    url : https://www.linkedin.com/in/gulcantopcu/
+    url: https://www.linkedin.com/in/gulcantopcu/
 cover: https://static.learnkube.com/1fd1550ac4cb6e44a8f57d11d45ad42f.png
 ---
 

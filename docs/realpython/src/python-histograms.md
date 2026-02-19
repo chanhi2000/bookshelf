@@ -33,7 +33,7 @@ date: 2018-07-02
 isOriginal: false
 author:
   - name: Brad Solomon
-    url : https://realpython.com/team/bsolomon/
+    url: https://realpython.com/team/bsolomon/
 cover: https://files.realpython.com/media/Python_Histograms_Watermark.c4daed2c983b.jpg
 ---
 

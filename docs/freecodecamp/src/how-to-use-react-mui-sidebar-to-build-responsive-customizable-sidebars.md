@@ -29,7 +29,7 @@ date: 2025-10-10
 isOriginal: false
 author:
   - name: Hitesh Chauhan
-    url : https://freecodecamp.org/news/author/hiteshchauhan2023/
+    url: https://freecodecamp.org/news/author/hiteshchauhan2023/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760051493063/cc42647f-21e7-48f6-873f-b17db780a24a.png
 ---
 

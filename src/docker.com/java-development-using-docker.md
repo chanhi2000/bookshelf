@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Live Debugging Java in Docker - Just in time for JavaOne!Docker"
-description: "Article(s) > Live Debugging Java in Docker - Just in time for JavaOne!Docker"
+title: "Live Debugging Java in Docker - Just in time for JavaOne!"
+description: "Article(s) > Live Debugging Java in Docker - Just in time for JavaOne!"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -20,9 +20,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Live Debugging Java in Docker - Just in time for JavaOne!Docker"
+      content: "Article(s) > Live Debugging Java in Docker - Just in time for JavaOne!"
     - property: og:description
-      content: "Live Debugging Java in Docker - Just in time for JavaOne!Docker"
+      content: "Live Debugging Java in Docker - Just in time for JavaOne!"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/docker.com/java-development-using-docker.html
 prev: /devops/docker/articles/README.md
@@ -30,7 +30,7 @@ date: 2016-09-21
 isOriginal: false
 author:
   - name: Sophia Parafina
-    url : https://docker.com/author/sophia/
+    url: https://docker.com/author/sophia/
 cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png
 ---
 
@@ -61,7 +61,7 @@ cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583
 ---
 
 <SiteInfo
-  name="Live Debugging Java in Docker - Just in time for JavaOne!Docker"
+  name="Live Debugging Java in Docker - Just in time for JavaOne!"
   desc="Learn from Docker experts to simplify and advance your app development and management with Docker. Stay up to date on Docker events and new version"
   url="https://docker.com/blog/java-development-using-docker"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
@@ -92,7 +92,7 @@ Have any more tips or examples using Docker for with Java? Or other languages? S
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Live Debugging Java in Docker - Just in time for JavaOne!Docker",
+  "title": "Live Debugging Java in Docker - Just in time for JavaOne!",
   "desc": "Learn from Docker experts to simplify and advance your app development and management with Docker. Stay up to date on Docker events and new version",
   "link": "https://chanhi2000.github.io/bookshelf/docker.com/java-development-using-docker.html",
   "logo": "https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png",

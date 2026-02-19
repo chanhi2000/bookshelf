@@ -25,7 +25,7 @@ date: 2019-07-03
 isOriginal: false
 author:
   - name: Tibor Vass
-    url : https://docker.com/author/tibor/
+    url: https://docker.com/author/tibor/
 cover: https://docker.com/app/uploads/2019/07/ef41db8f-fe5e-4a78-940a-6a929db7929d-1.jpg
 ---
 

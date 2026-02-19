@@ -30,7 +30,7 @@ date: 2018-01-10
 isOriginal: false
 author:
   - name: Jim Armstrong
-    url : https://docker.com/author/jim/
+    url: https://docker.com/author/jim/
 cover: https://docker.com/app/uploads/a31525d1-cfbb-45f2-bdb0-2e77c10e5627.jpg
 ---
 

@@ -23,7 +23,7 @@ date: 2025-09-25
 isOriginal: false
 author:
   - name: Manuel Matuzović
-    url : https://piccalil.li/author/manuel-matuzovi
+    url: https://piccalil.li/author/manuel-matuzovi
 cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/22903c4f9b1e988a020cac979af3868f577731a42c442b5e0a5be84b2ce6fa62/png?url=https://piccalil.li/og/a-workaround-for-using-custom-properties-in-media-queries/&width=1024&height=526&retina=true
 ---
 

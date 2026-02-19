@@ -27,7 +27,7 @@ date: 2025-12-11
 isOriginal: false
 author:
   - name: Mohammed Fahd Abrah (@programmingoceanacadem)
-    url : https://youtube.com/@programmingoceanacademy
+    url: https://youtube.com/@programmingoceanacademy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765380195051/cafca462-96d6-49a4-b182-24d7a4f438f9.jpeg
 ---
 

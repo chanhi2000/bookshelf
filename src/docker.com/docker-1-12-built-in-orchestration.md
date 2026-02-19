@@ -25,7 +25,7 @@ date: 2016-06-21
 isOriginal: false
 author:
   - name: Docker Core Engineering
-    url : https://docker.com/author/core_eng/
+    url: https://docker.com/author/core_eng/
 cover: https://docker.com/app/uploads/2022/12/docker-1-12-built-in-orchestration-1.png
 ---
 

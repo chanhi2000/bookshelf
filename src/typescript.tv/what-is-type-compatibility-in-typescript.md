@@ -24,7 +24,7 @@ date: 2023-07-12
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -156,7 +156,7 @@ logCatName(bobby);
 
 ## Preventing Compatibility
 
-Type compatibility applies not only to plain types but also to instances of classes. If you want to prevent type compatibility, you can use [**Discriminated Unions**](/typescript.tv/glossary.md#discriminated-unions) or the [**branded types programming pattern**](/typescript.tv/improve-your-type-safety-with-branded-types.md).
+Type compatibility applies not only to plain types but also to instances of classes. If you want to prevent type compatibility, you can use [**Discriminated Unions**](/typescript.tv/glossary/discriminated-unions.md) or the [**branded types programming pattern**](/typescript.tv/improve-your-type-safety-with-branded-types.md).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

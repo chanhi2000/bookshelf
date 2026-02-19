@@ -26,7 +26,7 @@ date: 2025-01-15
 isOriginal: false
 author:
   - name: Alberto Lerda (@the-lisper)
-    url : https://youtube.com/@the-lisper
+    url: https://youtube.com/@the-lisper
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737039994775/ea8915b9-f1d4-404e-8d79-c9d706783f1d.png
 ---
 

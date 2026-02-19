@@ -23,7 +23,7 @@ date: 2025-07-25
 isOriginal: false
 author:
   - name: Lee Meyer
-    url : https://css-tricks.com/author/leemeyer/
+    url: https://css-tricks.com/author/leemeyer/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/01/Untitled_Artwork-scaled.jpg
 ---
 

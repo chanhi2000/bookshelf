@@ -21,7 +21,7 @@ date: 2020-12-15
 isOriginal: false
 author:
   - name: Omer Rosenbaum
-    url : https://freecodecamp.org/news/author/omerros/
+    url: https://freecodecamp.org/news/author/omerros/
 cover: https://freecodecamp.org/news/content/images/2023/07/A-Visual-Guide-to-Git-Internals-Book-Cover--1-.png
 ---
 

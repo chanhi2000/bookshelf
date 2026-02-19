@@ -29,7 +29,7 @@ date: 2025-02-14
 isOriginal: false
 author:
   - name: Ajo Borgvold (@Scrimba)
-    url : https://youtube.com/@Scrimba
+    url: https://youtube.com/@Scrimba
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739468350427/a0102079-c5ee-4eaa-8757-cf4d7740033c.png
 ---
 

@@ -29,7 +29,7 @@ date: 2025-08-12
 isOriginal: false
 author:
   - name: Scott Bly 
-    url : https://apisecuniversity.com/
+    url: https://apisecuniversity.com/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755006902110/cea96794-81df-4e39-bec5-651bb3b6d9a0.jpeg
 ---
 

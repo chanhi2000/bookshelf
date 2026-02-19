@@ -23,7 +23,7 @@ date: 2025-11-20
 isOriginal: false
 author:
   - name: Sunkanmi Fafowora
-    url : https://frontendmasters.com/blog/author/sunkanmifafowora/
+    url: https://frontendmasters.com/blog/author/sunkanmifafowora/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/7802
 ---
 

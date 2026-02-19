@@ -32,7 +32,7 @@ date: 2025-04-09
 isOriginal: false
 author:
   - name: Daniel Gakwaya (@learnqtguide)
-    url : https://www.youtube.com/@learnqtguide
+    url: https://www.youtube.com/@learnqtguide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744126327420/6ec2b56c-d226-4fea-935c-ab78d6b83951.png
 ---
 

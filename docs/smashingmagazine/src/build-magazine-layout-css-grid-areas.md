@@ -23,7 +23,7 @@ date: 2023-02-06
 isOriginal: false
 author:
   - name: Jennifer Brehm
-    url : https://smashingmagazine.com/author/jennifer-brehm/
+    url: https://smashingmagazine.com/author/jennifer-brehm/
 cover: https://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/build-magazine-layout-css-grid-areas.jpg
 ---
 

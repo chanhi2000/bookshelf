@@ -29,7 +29,7 @@ date: 2021-11-05
 isOriginal: false
 author:
   - name: Nefe Emadamerho-Atori
-    url : https://blog.logrocket.com/author/nefejames/
+    url: https://blog.logrocket.com/author/nefejames/
 cover: /assets/image/blog.logrocket.com/building-responsive-components-chakra-ui/banner.png
 ---
 

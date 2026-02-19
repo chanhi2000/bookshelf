@@ -30,7 +30,7 @@ date: 2025-10-09
 isOriginal: false
 author:
   - name: Mohammed Al Abrah (@programmingoceanacademy)
-    url : https://youtube.com/@programmingoceanacademy
+    url: https://youtube.com/@programmingoceanacademy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760019746984/9956c742-fbf4-4da7-b3f9-8a22967c1ba9.jpeg
 ---
 

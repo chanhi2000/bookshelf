@@ -30,7 +30,7 @@ date: 2021-02-23
 isOriginal: false
 author:
   - name: Curran Kelleher (@currankelleher)
-    url : https://youtube.com/@currankelleher
+    url: https://youtube.com/@currankelleher
 cover: https://freecodecamp.org/news/content/images/2021/02/dataviz1.png
 ---
 

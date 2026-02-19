@@ -29,7 +29,7 @@ date: 2025-03-01
 isOriginal: false
 author:
   - name: Emore Ogheneyoma Lawrence
-    url : https://freecodecamp.org/news/author/Yoma/
+    url: https://freecodecamp.org/news/author/Yoma/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740756200896/a57c4e95-b13e-412a-828e-09e97f22a6c4.png
 ---
 

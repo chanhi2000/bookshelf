@@ -28,7 +28,7 @@ date: 2019-12-12
 isOriginal: false
 author:
   - name: David Scott
-    url : https://docker.com/author/dscott/
+    url: https://docker.com/author/dscott/
 cover: https://docker.com/app/uploads/2019/12/helloquence-5fNmWej4tAA-unsplash-1110x741.jpg
 ---
 

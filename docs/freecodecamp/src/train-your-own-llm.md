@@ -30,7 +30,7 @@ date: 2025-04-11
 isOriginal: false
 author:
   - name: Imad Saddik (@3CodeCampers)
-    url : https://youtube.com/@3CodeCampers
+    url: https://youtube.com/@3CodeCampers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744319158160/c3734576-b102-498b-a078-8b7acb19b2df.png
 ---
 

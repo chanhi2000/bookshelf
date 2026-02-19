@@ -29,7 +29,7 @@ date: 2024-12-30
 isOriginal: false
 author:
   - name: Dave Gray (@DaveGrayTeachesCode)
-    url : https://youtube.com/@DaveGrayTeachesCode
+    url: https://youtube.com/@DaveGrayTeachesCode
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735568898507/db93197c-fbed-454d-8134-49b398c4a5df.png
 ---
 

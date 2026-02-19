@@ -22,7 +22,7 @@ date: 2025-03-19
 isOriginal: false
 author:
   - name: Kunal Nalawade
-    url : https://freecodecamp.org/news/author/KunalN25/
+    url: https://freecodecamp.org/news/author/KunalN25/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742318086251/103cec5f-3330-4559-8554-4ec76b16ec76.png
 ---
 

@@ -26,7 +26,7 @@ date: 2025-06-23
 isOriginal: false
 author:
   - name: Damilola Oniyide
-    url : https://freecodecamp.org/news/author/LolaVictoria/
+    url: https://freecodecamp.org/news/author/LolaVictoria/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750687028879/b12e57cb-290a-4562-8584-95eb5713a871.png
 ---
 

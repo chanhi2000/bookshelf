@@ -29,7 +29,7 @@ date: 2022-07-14
 isOriginal: false
 author:
   - name: Abdulazeez Abdulazeez Adeshina
-    url : https://blog.logrocket.com/author/abdulazeezadeshina/
+    url: https://blog.logrocket.com/author/abdulazeezadeshina/
 cover: /assets/image/blog.logrocket.com/using-suspense-react-query-tutorial-examples/banner.png
 ---
 
@@ -68,7 +68,7 @@ In an effort to make writing React components easier with less code, the React t
 
 [<VPIcon icon="fa-brands fa-react"/>Suspense](https://reactjs.org/docs/react-api.html#suspense) simplifies managing loading states in React components, supporting fallbacks in case the component hasn’t finished loading yet. These features make it easier to fetch data from the frontend and are useful when you need a better way of showing the user a loading screen.
 
-In this article, we’ll explore using [React Query (<VPIcon icon="iconfont icon-github" />`tannerlinsley/react-query`)](https://github.com/tannerlinsley/react-query) alongside Suspense to build a simple recipe app that will fetch recipe data from an API and render it to the DOM. Let’s get started!
+In this article, we’ll explore using [React Query (<VPIcon icon="iconfont icon-github"/>`tannerlinsley/react-query`)](https://github.com/tannerlinsley/react-query) alongside Suspense to build a simple recipe app that will fetch recipe data from an API and render it to the DOM. Let’s get started!
 
 ---
 
@@ -181,7 +181,7 @@ Caching simply means storing data for a period of time. Caching is a superb feat
 
 ## Building the app
 
-We’ll build a simple recipe app that fetches and renders [**data from an API using React Query’s `useQuery()` Hook**](/blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems.md/). The full code for this article can be found at [this GitHub repo (<VPIcon icon="iconfont icon-github" />`Youngestdev/react-query-app`)](https://github.com/Youngestdev/react-query-app) as well. Let’s get started!
+We’ll build a simple recipe app that fetches and renders [**data from an API using React Query’s `useQuery()` Hook**](/blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems.md/). The full code for this article can be found at [this GitHub repo (<VPIcon icon="iconfont icon-github"/>`Youngestdev/react-query-app`)](https://github.com/Youngestdev/react-query-app) as well. Let’s get started!
 
 ![Simple Recipe App Build](/assets/image/blog.logrocket.com/using-suspense-react-query-tutorial-examples/simple-recipe-app-build.png)
 
@@ -581,7 +581,7 @@ When a recipe is being loaded, the Suspense fallback message is displayed when t
 
 ## Conclusion
 
-In this article, we explored what Suspense and React Query are all about by building a simple recipe app. We learned how we can improve the user experience with Suspense by keeping the user informed during load times, and how we can improve data fetching using React Query’s `useQuery()` Hook. You can find the full code for the app built in this article [at this GitHub repo (<VPIcon icon="iconfont icon-github" />`Youngestdev/react-query-app`)](https://github.com/Youngestdev/react-query-app). Happy coding!
+In this article, we explored what Suspense and React Query are all about by building a simple recipe app. We learned how we can improve the user experience with Suspense by keeping the user informed during load times, and how we can improve data fetching using React Query’s `useQuery()` Hook. You can find the full code for the app built in this article [at this GitHub repo (<VPIcon icon="iconfont icon-github"/>`Youngestdev/react-query-app`)](https://github.com/Youngestdev/react-query-app). Happy coding!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -33,7 +33,7 @@ date: 2025-08-08
 isOriginal: false
 author:
   - name: Marco Peixeiro
-    url : https://freecodecamp.org/news/author/beaucarnes/
+    url: https://freecodecamp.org/news/author/beaucarnes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754610390149/5e08c420-6336-4bfb-85c1-044e60c2128d.png
 ---
 

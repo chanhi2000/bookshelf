@@ -29,7 +29,7 @@ date: 2023-11-03
 isOriginal: false
 author:
   - name: Ibadehin Mojeed
-    url : https://blog.logrocket.com/author/ibadehinmojeed/
+    url: https://blog.logrocket.com/author/ibadehinmojeed/
 cover: /assets/image/blog.logrocket.com/using-react-testing-library-debug-method/banner.png
 ---
 
@@ -66,7 +66,7 @@ This article was last updated on 3 November 2023 to offer an introduction to the
 
 Testing your application before deploying it to production guarantees an error-free product that will function as intended. Knowing how to perform the right tests and debug your code is necessary to make you a better developer.
 
-In this article, we’ll cover how to use the React Testing Library `debug` method to identify and analyze test errors. Later in the article, we’ll also explore debugging with the RTL `logTestingPlaygroundURL()` method. To follow along with this tutorial, you should be familiar with React and the [**React Testing Library**](/blog.logrocket.com/compare-react-testing-libraries.md#integration-tests). You can find the full code for this tutorial in the [GitHub repository (<VPIcon icon="iconfont icon-github" />`Ibaslogic/react-rtl-debug`)](https://github.com/Ibaslogic/react-rtl-debug). Let’s get started!
+In this article, we’ll cover how to use the React Testing Library `debug` method to identify and analyze test errors. Later in the article, we’ll also explore debugging with the RTL `logTestingPlaygroundURL()` method. To follow along with this tutorial, you should be familiar with React and the [**React Testing Library**](/blog.logrocket.com/compare-react-testing-libraries.md#integration-tests). You can find the full code for this tutorial in the [GitHub repository (<VPIcon icon="iconfont icon-github"/>`Ibaslogic/react-rtl-debug`)](https://github.com/Ibaslogic/react-rtl-debug). Let’s get started!
 
 ---
 
@@ -149,13 +149,13 @@ npm i --save-dev @testing-library/react
 :::
 
 
-In addition to RTL, we’ll include the [`jest-dom` (<VPIcon icon="iconfont icon-github" />`testing-library/jest-dom`)](https://github.com/testing-library/jest-dom) utility, which lets us use custom matchers like `.toBeInTheDocument()`:
+In addition to RTL, we’ll include the [`jest-dom` (<VPIcon icon="iconfont icon-github"/>`testing-library/jest-dom`)](https://github.com/testing-library/jest-dom) utility, which lets us use custom matchers like `.toBeInTheDocument()`:
 
 ```sh
 npm install --save-dev @testing-library/jest-dom
 ```
 
-Next, let’s [clone the React project (<VPIcon icon="iconfont icon-github" />`Ibaslogic/react-rtl-debug`)](https://github.com/Ibaslogic/react-rtl-debug) that we’ll use in this tutorial:
+Next, let’s [clone the React project (<VPIcon icon="iconfont icon-github"/>`Ibaslogic/react-rtl-debug`)](https://github.com/Ibaslogic/react-rtl-debug) that we’ll use in this tutorial:
 
 ```sh
 git clone https://github.com/Ibaslogic/react-rtl-debug 
@@ -286,7 +286,7 @@ The first parameter of the `debug()` method is the `element` we want the `screen
 
 The second parameter lets us specify the content length to print. The default output length is `7000`, meaning the content will be truncated after seven thousand characters. We can increase or limit the output length as needed.
 
-We may also want to configure [test formatting using the `options` parameter (<VPIcon icon="iconfont icon-github" />`jestjs/jest`)](https://github.com/jestjs/jest/tree/main/packages/pretty-format#usage-with-options). For instance, we can turn off syntax highlighting in the terminal with the `options` parameter as follows:
+We may also want to configure [test formatting using the `options` parameter (<VPIcon icon="iconfont icon-github"/>`jestjs/jest`)](https://github.com/jestjs/jest/tree/main/packages/pretty-format#usage-with-options). For instance, we can turn off syntax highlighting in the terminal with the `options` parameter as follows:
 
 ```js
 screen.debug(undefined, null, { highlight: false });
@@ -459,7 +459,7 @@ The test should pass with the following result:
 
 ### Avoid hitting the actual API
 
-In practice, when performing a test, we should avoid hitting the actual API to prevent our test from becoming slow and fragile. Instead, we should create mock data to model the API interaction. This tutorial focuses on the `debug` method, so we won’t cover mocking an API. However, [this project’s GitHub repository (<VPIcon icon="iconfont icon-github" />`Ibaslogic/react-rtl-debug`)](https://github.com/Ibaslogic/react-rtl-debug) implements API mocking using [**Mock Service Worker (MSW)**](/blog.logrocket.com/getting-started-with-mock-service-worker.md).
+In practice, when performing a test, we should avoid hitting the actual API to prevent our test from becoming slow and fragile. Instead, we should create mock data to model the API interaction. This tutorial focuses on the `debug` method, so we won’t cover mocking an API. However, [this project’s GitHub repository (<VPIcon icon="iconfont icon-github"/>`Ibaslogic/react-rtl-debug`)](https://github.com/Ibaslogic/react-rtl-debug) implements API mocking using [**Mock Service Worker (MSW)**](/blog.logrocket.com/getting-started-with-mock-service-worker.md).
 
 ---
 

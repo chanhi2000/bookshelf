@@ -25,7 +25,7 @@ date: 2016-09-26
 isOriginal: false
 author:
   - name: Michael Friis
-    url : https://docker.com/author/friism/
+    url: https://docker.com/author/friism/
 cover: https://docker.com/app/uploads/2022/12/dockerforws2016-1.png
 ---
 

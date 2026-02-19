@@ -36,7 +36,7 @@ date: 2025-05-21
 isOriginal: false
 author:
   - name: Vaibhav Mehra
-    url : https://github.com/Vaibhav807
+    url: https://github.com/Vaibhav807
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747755679385/a984244e-b0a8-4431-8090-75db806e9616.png
 ---
 

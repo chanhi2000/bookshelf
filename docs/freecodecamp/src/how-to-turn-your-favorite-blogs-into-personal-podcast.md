@@ -33,7 +33,7 @@ date: 2026-01-22
 isOriginal: false
 author:
   - name: Spruce Emmanuel
-    url : https://freecodecamp.org/news/author/Spruce/
+    url: https://freecodecamp.org/news/author/Spruce/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769029504274/8900a8bf-73cd-4944-b0d6-e440efd1bc96.png
 ---
 
@@ -105,7 +105,7 @@ At the end, you will have a real podcast feed you can subscribe to on your phone
 
 ![The generated podcast showing converted blog posts as episodes.](https://cdn.hashnode.com/res/hashnode/image/upload/v1768711883596/a35c2a6b-6f9f-4f3d-898f-0f9bff798e6e.png)
 
-If you want to skip the tutorial and jump straight into using the finished tool, you can find the complete version and instructions on [Gi (<VPIcon icon="iconfont icon-github" />`iamspruce/postcast`)](https://github.com/iamspruce/postcast)tHub.
+If you want to skip the tutorial and jump straight into using the finished tool, you can find the complete version and instructions on [Gi (<VPIcon icon="iconfont icon-github"/>`iamspruce/postcast`)](https://github.com/iamspruce/postcast)tHub.
 
 ---
 
@@ -713,7 +713,7 @@ Once this is set up, your podcast updates itself without manual work.
 
 ## Conclusion
 
-This is a basic version of my full production pipeline, [PostCast (<VPIcon icon="iconfont icon-github" />`iamspruce/postcast`)](https://github.com/iamspruce/postcast), but the core idea is the same.
+This is a basic version of my full production pipeline, [PostCast (<VPIcon icon="iconfont icon-github"/>`iamspruce/postcast`)](https://github.com/iamspruce/postcast), but the core idea is the same.
 
 You now know how to turn blogs into a personal podcast. Be mindful of copyright and only use content you are allowed to consume.
 

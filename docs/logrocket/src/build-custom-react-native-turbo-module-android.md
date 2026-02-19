@@ -33,7 +33,7 @@ date: 2025-02-27
 isOriginal: false
 author:
   - name: Emmanuel John
-    url : https://blog.logrocket.com/author/emmanueljohn/
+    url: https://blog.logrocket.com/author/emmanueljohn/
 cover: /assets/image/blog.logrocket.com/build-custom-react-native-turbo-module-android/banner.png
 ---
 

@@ -33,7 +33,7 @@ date: 2025-08-09
 isOriginal: false
 author:
   - name: Idris Olubisi
-    url : https://freecodecamp.org/news/author/olanetsoft/
+    url: https://freecodecamp.org/news/author/olanetsoft/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754675334533/6a05e45a-9703-49c0-b427-6c4960c01d86.png
 ---
 

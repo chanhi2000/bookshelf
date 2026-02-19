@@ -35,7 +35,7 @@ date: 2025-03-27
 isOriginal: false
 author:
   - name: Shrijal Acharya
-    url : https://freecodecamp.org/news/author/shricodev/
+    url: https://freecodecamp.org/news/author/shricodev/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743005422195/56c65ac2-7a0d-4bd6-b969-a4c02eb3c42e.png
 ---
 

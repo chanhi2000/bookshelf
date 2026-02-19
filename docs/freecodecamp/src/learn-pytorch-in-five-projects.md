@@ -30,7 +30,7 @@ date: 2025-03-07
 isOriginal: false
 author:
   - name: Omar M. Atef (@OmarMAtef)
-    url : https://youtbe.com/@OmarMAtef
+    url: https://youtbe.com/@OmarMAtef
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741283747402/6d00899f-105f-4c20-97e8-0f789348bacf.png
 ---
 

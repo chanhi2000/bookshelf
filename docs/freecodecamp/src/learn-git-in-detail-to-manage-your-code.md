@@ -26,7 +26,7 @@ date: 2024-05-08
 isOriginal: false
 author:
   - name: Hitesh Choudhary (@HiteshCodeLab)
-    url : https://youtube.com/@HiteshCodeLab
+    url: https://youtube.com/@HiteshCodeLab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715179306416/6cef5df6-7483-4ab2-8699-0504be1902d2.png
 ---
 

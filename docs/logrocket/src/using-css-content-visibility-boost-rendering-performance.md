@@ -23,7 +23,7 @@ date: 2023-11-08
 isOriginal: false
 author:
   - name: Rob O'Leary
-    url : https://blog.logrocket.com/author/rob-oleary/
+    url: https://blog.logrocket.com/author/rob-oleary/
 cover: /assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/banner.png
 ---
 

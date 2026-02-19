@@ -36,7 +36,7 @@ date: 2025-04-22
 isOriginal: false
 author:
   - name: Maham Codes
-    url : https://freecodecamp.org/news/author/MahamCodes/
+    url: https://freecodecamp.org/news/author/MahamCodes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745248868960/12efd5ab-3d9b-4c93-979f-45bde796639b.png
 ---
 

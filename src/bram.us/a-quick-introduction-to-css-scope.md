@@ -23,7 +23,7 @@ date: 2023-08-22
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2023/08/F4Cv_xeWcAAncC0formatjpgname4096x4096.jpg
 ---
 
@@ -71,7 +71,7 @@ Say you have the markup as seen in the demo below
   slug-hash="dyKjbox"
   title="✅ CSS Scoped Styles 1/4: Problem Statement"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 HTML:
 
@@ -166,7 +166,7 @@ For example, a color declaration inside a donut-scope will still inherit onto ch
 
 CSS Scope is [<VPIcon icon="fa-brands fa-chrome"/>shipping with Chrome 118](https://chromestatus.com/feature/5100672734199808), which gets a stable release this October. You can already try it out in Chrome Canary today.
 
-[WebKit/Safari have expressed their support for this API (<VPIcon icon="iconfont icon-github" />`WebKit/standards-positions`)](https://github.com/WebKit/standards-positions/issues/13#event-8212277027), but [Mozilla/Firefox is not convinced about it yet (<VPIcon icon="iconfont icon-github" />`mozilla/standards-positions`)](https://github.com/mozilla/standards-positions/issues/472#issuecomment-1584903556) …
+[WebKit/Safari have expressed their support for this API (<VPIcon icon="iconfont icon-github"/>`WebKit/standards-positions`)](https://github.com/WebKit/standards-positions/issues/13#event-8212277027), but [Mozilla/Firefox is not convinced about it yet (<VPIcon icon="iconfont icon-github"/>`mozilla/standards-positions`)](https://github.com/mozilla/standards-positions/issues/472#issuecomment-1584903556) …
 
 ::: info 
 

@@ -23,7 +23,7 @@ date: 2025-06-03
 isOriginal: false
 author:
   - name: Andy Clarke
-    url : https://css-tricks.com/author/andyclarke/
+    url: https://css-tricks.com/author/andyclarke/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/05/s_EE59C5A105545DD153C51E60D867441DC316D04D9E44A41B5CC2A0033D85A746_1747693352461_2025-05-17-3.webp
 ---
 

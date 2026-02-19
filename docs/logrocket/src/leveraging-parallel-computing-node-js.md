@@ -25,7 +25,7 @@ date: 2025-02-13
 isOriginal: false
 author:
   - name: David Omotayo
-    url : https://blog.logrocket.com/author/davidomotayo/
+    url: https://blog.logrocket.com/author/davidomotayo/
 cover: /assets/image/blog.logrocket.com/leveraging-parallel-computing-node-js/banner.png
 ---
 

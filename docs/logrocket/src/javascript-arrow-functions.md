@@ -24,7 +24,7 @@ date: 2025-02-17
 isOriginal: false
 author:
   - name: Joe Attardi
-    url : https://blog.logrocket.com/author/joeattardi/
+    url: https://blog.logrocket.com/author/joeattardi/
 cover: /assets/image/blog.logrocket.com/javascript-arrow-functions/banner.png
 ---
 

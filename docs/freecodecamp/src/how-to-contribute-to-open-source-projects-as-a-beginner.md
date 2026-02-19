@@ -28,7 +28,7 @@ date: 2024-12-05
 isOriginal: false
 author:
   - name: Fanny Nyayic
-    url : https://freecodecamp.org/news/author/nyayicfanny/
+    url: https://freecodecamp.org/news/author/nyayicfanny/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733216336753/4dc34dd3-f7b9-4611-920a-7dfb8c93958e.png
 ---
 

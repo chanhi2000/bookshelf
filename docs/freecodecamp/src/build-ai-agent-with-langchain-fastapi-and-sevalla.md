@@ -39,7 +39,7 @@ date: 2026-01-09
 isOriginal: false
 author:
   - name: Manish Shivanandhan
-    url : https://freecodecamp.org/news/author/manishshivanandhan/
+    url: https://freecodecamp.org/news/author/manishshivanandhan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767915474046/728b3bd5-2dfe-45a3-a2a9-c682e4719d7d.png
 ---
 
@@ -90,7 +90,7 @@ Artificial intelligence is changing how we build software. Just a few years ago,
 
 Today, thanks to new tools, developers can build smart agents that read messages, reason about them, and call functions on their own.
 
-One such platform that makes this easy is [LangChain (<VPIcon icon="iconfont icon-github" />`langchain-ai/langchain`)](https://github.com/langchain-ai/langchain). With LangChain, you can link language models, tools, and apps together. You can also wrap your agent inside a FastAPI server, then push it to a cloud platform for deployment.
+One such platform that makes this easy is [LangChain (<VPIcon icon="iconfont icon-github"/>`langchain-ai/langchain`)](https://github.com/langchain-ai/langchain). With LangChain, you can link language models, tools, and apps together. You can also wrap your agent inside a FastAPI server, then push it to a cloud platform for deployment.
 
 This article will walk you through building your first AI agent. You will learn what LangChain is, how to build an agent, how to serve it through FastAPI, and how to deploy it on Sevalla.
 
@@ -238,7 +238,7 @@ Every platform will charge you for creating a cloud resource. Sevalla comes with
 
 Let’s push this project to GitHub so that we can connect our repository to Sevalla. We can also enable auto-deployments so that any new change to the repository is automatically deployed.
 
-You can also [fork my repository (<VPIcon icon="iconfont icon-github" />`manishmshiva/first-agent-with-fastapi`)](https://github.com/manishmshiva/first-agent-with-fastapi) from here.
+You can also [fork my repository (<VPIcon icon="iconfont icon-github"/>`manishmshiva/first-agent-with-fastapi`)](https://github.com/manishmshiva/first-agent-with-fastapi) from here.
 
 [<VPIcon icon="iconfont icon-sevalla"/>Log in](https://app.sevalla.com/login) to Sevalla and click on Applications -> Create new application. You can see the option to link your GitHub repository to create a new application
 

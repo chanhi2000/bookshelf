@@ -29,7 +29,7 @@ date: 2023-05-03
 isOriginal: false
 author:
   - name: Doğacan Bilgili
-    url : https://blog.logrocket.com/author/dbilgili/
+    url: https://blog.logrocket.com/author/dbilgili/
 cover: /assets/iamge/blog.logrocket.com/building-react-modal-module-with-react-router/banner.png
 ---
 
@@ -74,7 +74,7 @@ In this article, we’ll explore how to build a modal module for React with Reac
 
 Before starting to shape the modal component, let’s start with some basics of the React Router package. [**React Router is a popular routing library for React**](/blog.logrocket.com/react-router-v6-guide.md) that allows you to build single-page applications with multiple views or pages, similar to traditional multi-page apps.
 
-It allows you to map different URLs to different components, handle browser history, and create various routing structures. With over [50k stars on GitHub (<VPIcon icon="iconfont icon-github" />`remix-run/react-router`)](https://github.com/remix-run/react-router), React Router has a huge community and is considered the main tool for building complex React apps. We’ll use four components from this package:
+It allows you to map different URLs to different components, handle browser history, and create various routing structures. With over [50k stars on GitHub (<VPIcon icon="iconfont icon-github"/>`remix-run/react-router`)](https://github.com/remix-run/react-router), React Router has a huge community and is considered the main tool for building complex React apps. We’ll use four components from this package:
 
 - `BrowserRouter`: This component allows you to store your current location in a browser address using URLs and navigate using the browser’s built-in history stack
 - `Route`: A component that maps to a specific URL and renders a specific component when matched to that URL

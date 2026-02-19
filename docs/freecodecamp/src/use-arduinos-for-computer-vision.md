@@ -35,7 +35,7 @@ date: 2025-08-27
 isOriginal: false
 author:
   - name: Yılmaz ALACA (@yilmazalaca)
-    url : https://youtube.com/@yilmazalaca
+    url: https://youtube.com/@yilmazalaca
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756258472163/30bdd66e-4458-4c70-b596-20685e993d37.png
 ---
 

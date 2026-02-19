@@ -23,7 +23,7 @@ date: 2024-05-30
 isOriginal: false
 author:
   - name: Geoff Graham
-    url : https://smashingmagazine.com/author/geoff-graham/
+    url: https://smashingmagazine.com/author/geoff-graham/
 cover: https://files.smashing.media/articles/in-praise-of-the-basics/in-praise-of-the-basics.jpg
 ---
 

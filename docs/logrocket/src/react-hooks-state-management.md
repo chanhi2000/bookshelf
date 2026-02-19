@@ -29,7 +29,7 @@ date: 2021-05-11
 isOriginal: false
 author:
   - name: Ovie Okeh
-    url : https://blog.logrocket.com/author/ovieokeh/
+    url: https://blog.logrocket.com/author/ovieokeh/
 cover: /assets/image/blog.logrocket.com/react-hooks-state-management/banner.png
 ---
 

@@ -23,7 +23,7 @@ date: 2025-12-02
 isOriginal: false
 author:
   - name: Lee Meyer
-    url : https://css-tricks.com/author/leemeyer/
+    url: https://css-tricks.com/author/leemeyer/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/11/taylor-flowe-aXeVH4FcS1k-unsplash-scaled.jpg
 ---
 

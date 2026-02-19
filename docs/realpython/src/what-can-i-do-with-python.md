@@ -24,7 +24,7 @@ date: 2021-07-07
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/building_with_python_watermark.2ebe5beb5b1e.jpg
 ---
 

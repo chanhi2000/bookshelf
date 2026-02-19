@@ -41,7 +41,7 @@ date: 2025-09-08
 isOriginal: false
 author:
   - name: Shad Rayhan Mazumder (@mobidevtalk)
-    url : https://youtube.com/@mobidevtalk
+    url: https://youtube.com/@mobidevtalk
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757341462696/49823d35-ea00-400e-b90a-2df3f6edc5c6.png
 ---
 

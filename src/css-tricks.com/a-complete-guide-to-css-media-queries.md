@@ -23,7 +23,7 @@ date: 2024-12-19
 isOriginal: false
 author:
   - name: Andrés Galante
-    url : https://css-tricks.com/author/agalante/
+    url: https://css-tricks.com/author/agalante/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/10/guide-media-queries.png
 ---
 

@@ -27,7 +27,7 @@ date: 2026-01-10
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -222,7 +222,7 @@ Once the workflow runs successfully, you'll see the following comment:
 
 The [GitHub Actions extension for VS Code (<VPIcon icon="iconfont icon-vscode"/>`GitHub.vscode-github-actions`)](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) provides syntax highlighting, validation, and IntelliSense for workflow files, making it easier to write correct YAML configurations.
 
-For local testing, [act (<VPIcon icon="iconfont icon-github" />`nektos/act`)](https://github.com/nektos/act) lets you run GitHub Actions workflows on your machine using Docker. This speeds up the development cycle by letting you test workflows without pushing commits to trigger them on GitHub. To test the test job created earlier, start your Docker daemon and run:
+For local testing, [act (<VPIcon icon="iconfont icon-github"/>`nektos/act`)](https://github.com/nektos/act) lets you run GitHub Actions workflows on your machine using Docker. This speeds up the development cycle by letting you test workflows without pushing commits to trigger them on GitHub. To test the test job created earlier, start your Docker daemon and run:
 
 ```sh
 act -j test-job --container-architecture linux/amd64

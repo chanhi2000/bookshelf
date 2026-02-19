@@ -29,7 +29,7 @@ date: 2025-10-09
 isOriginal: false
 author:
   - name: Tapas Adhikary
-    url : https://freecodecamp.org/news/author/atapas/
+    url: https://freecodecamp.org/news/author/atapas/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759972853846/49e605c8-be15-44a4-9fc6-283be0cc0e4c.png
 ---
 

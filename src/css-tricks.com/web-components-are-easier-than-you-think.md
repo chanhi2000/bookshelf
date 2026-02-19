@@ -26,7 +26,7 @@ date: 2021-03-08
 isOriginal: false
 author:
   - name: John Rhea
-    url : https://css-tricks.com/author/johnrhea/
+    url: https://css-tricks.com/author/johnrhea/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/02/zombie-custom-web-component.jpg
 ---
 

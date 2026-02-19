@@ -23,7 +23,7 @@ date: 2016-11-21
 isOriginal: false
 author:
   - name: Heydon Pickering
-    url : https://smashingmagazine.com/author/heydon-pickering/
+    url: https://smashingmagazine.com/author/heydon-pickering/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b468a3c3-2ca4-4eae-abc0-3e89ab57e204/rainbow-slinky-opt.png
 ---
 

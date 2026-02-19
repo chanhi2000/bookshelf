@@ -23,7 +23,7 @@ date: 2023-12-21
 isOriginal: false
 author:
   - name: Zach Saucier
-    url : https://frontendmasters.com/blog/author/zachsaucier/
+    url: https://frontendmasters.com/blog/author/zachsaucier/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/282
 ---
 

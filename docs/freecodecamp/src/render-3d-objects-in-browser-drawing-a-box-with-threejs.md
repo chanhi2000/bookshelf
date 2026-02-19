@@ -28,7 +28,7 @@ date: 2021-02-04
 isOriginal: false
 author:
   - name: Hunor Márton Borbély
-    url : https://freecodecamp.org/news/author/hunor/
+    url: https://freecodecamp.org/news/author/hunor/
 cover: https://freecodecamp.org/news/content/images/2021/02/Stack.002-1.jpeg
 ---
 

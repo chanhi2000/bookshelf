@@ -24,7 +24,7 @@ date: 2019-02-06
 isOriginal: false
 author:
   - name: Brandon Wozniewicz
-    url : https://freecodecamp.org/news/author/scriptedBytes/
+    url: https://freecodecamp.org/news/author/scriptedBytes/
 cover: https://cdn-media-1.freecodecamp.org/images/1*RR8oubeQOm63YN90Uth0CA.jpeg
 ---
 

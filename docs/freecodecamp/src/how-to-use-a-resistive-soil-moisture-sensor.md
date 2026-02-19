@@ -32,7 +32,7 @@ date: 2025-07-10
 isOriginal: false
 author:
   - name: Michael Ikoko
-    url : https://freecodecamp.org/news/author/michaelikoko/
+    url: https://freecodecamp.org/news/author/michaelikoko/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752106699262/6ae871df-e1fb-4019-a446-9bd8cca1cab0.png
 ---
 

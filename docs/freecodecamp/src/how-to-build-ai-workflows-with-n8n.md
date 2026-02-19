@@ -35,7 +35,7 @@ date: 2025-10-14
 isOriginal: false
 author:
   - name: Soham Mehta
-    url : https://freecodecamp.org/news/author/mehtasoham/
+    url: https://freecodecamp.org/news/author/mehtasoham/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760371342462/f8874220-238b-4819-a6f1-c35756b355bc.png
 ---
 

@@ -29,7 +29,7 @@ date: 2021-11-15
 isOriginal: false
 author:
   - name: Ibadehin Mojeed
-    url : https://blog.logrocket.com/author/ibadehinmojeed/
+    url: https://blog.logrocket.com/author/ibadehinmojeed/
 cover: /assets/image/blog.logrocket.com/fundamentals-functional-programming-react/banner.png
 ---
 

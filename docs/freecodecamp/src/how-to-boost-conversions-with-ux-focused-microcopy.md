@@ -31,7 +31,7 @@ date: 2025-07-29
 isOriginal: false
 author:
   - name: Mfonobong Umondia
-    url : https://freecodecamp.org/news/author/theladybella/
+    url: https://freecodecamp.org/news/author/theladybella/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753746811969/e16afede-4e1a-4499-bb10-ed2a8de8c159.png
 ---
 

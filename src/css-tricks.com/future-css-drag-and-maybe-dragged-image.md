@@ -26,7 +26,7 @@ date: 2026-01-07
 isOriginal: false
 author:
   - name: Sunkanmi Fafowora
-    url : https://css-tricks.com/author/sunkanmifafowora/
+    url: https://css-tricks.com/author/sunkanmifafowora/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/12/Screenshot-2025-12-12-at-10.03.09-AM-scaled-e1765559057362.png
 ---
 
@@ -63,7 +63,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/12/Screenshot-20
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/12/Screenshot-2025-12-12-at-10.03.09-AM-scaled-e1765559057362.png"/>
 
-Now, I know what you’re thinking. *Yet another CSS pseudo-class…* But I think [this suggestion (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/11584) is rather cool.
+Now, I know what you’re thinking. *Yet another CSS pseudo-class…* But I think [this suggestion (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/11584) is rather cool.
 
 Earlier this year, it was proposed to add a new pseudo-class, `:drag`, that would enable developers to apply styles when an element is being actively dragged by the user. Currently, CSS lacks a mechanism to detect drag interactions, making it difficult to manage UI behaviors that depend on this action without relying on JavaScript.
 
@@ -202,7 +202,7 @@ Here’s where I’ll go out on a limb and suggest *another* CSS pseudo specific
 
 I suppose it could be a pseudo-class instead, but it feels like a pseudo-element makes more sense since we’re talking about a specific object rather than a state.
 
-[I opened an issue for that (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/13198) — give it a thumbs-up if you’d find it handy to have a `::drag-image` pseudo-element like that. The CSSWG is [already slated to discuss (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/11584#issuecomment-3638123282) the `:drag` proposal. If that gets baked into the specifications, then I’d push for the pseudo-element, too.
+[I opened an issue for that (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/13198) — give it a thumbs-up if you’d find it handy to have a `::drag-image` pseudo-element like that. The CSSWG is [already slated to discuss (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/11584#issuecomment-3638123282) the `:drag` proposal. If that gets baked into the specifications, then I’d push for the pseudo-element, too.
 
 ---
 

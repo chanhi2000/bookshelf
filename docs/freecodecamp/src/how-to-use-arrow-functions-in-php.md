@@ -23,7 +23,7 @@ date: 2025-05-09
 isOriginal: false
 author:
   - name: Montasser Mossallem
-    url : https://freecodecamp.org/news/author/montasser1988/
+    url: https://freecodecamp.org/news/author/montasser1988/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746354775446/092005ae-12bb-4be9-a72c-aacc5f044962.jpeg
 ---
 

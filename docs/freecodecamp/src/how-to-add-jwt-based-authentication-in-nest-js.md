@@ -40,7 +40,7 @@ date: 2024-07-31
 isOriginal: false
 author:
   - name: Abimbola Adedotun Samuel
-    url : https://freecodecamp.org/news/author/Dotcodes/
+    url: https://freecodecamp.org/news/author/Dotcodes/
 cover: https://freecodecamp.org/news/content/images/2024/07/nest-auth-coverimage-1.png
 ---
 

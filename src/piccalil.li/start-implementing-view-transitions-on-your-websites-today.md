@@ -23,7 +23,7 @@ date: 2025-10-28
 isOriginal: false
 author:
   - name: Cyd Stumpel
-    url : https://piccalil.li/author/cyd-stumpel
+    url: https://piccalil.li/author/cyd-stumpel
 cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/a9b431b0454aad8eb7ff21ee5c44d7e1712131ee14794c1f1a133435765e3109/png?url=https://piccalil.li/og/start-implementing-view-transitions-on-your-websites-today/&width=1024&height=526&retina=true
 ---
 

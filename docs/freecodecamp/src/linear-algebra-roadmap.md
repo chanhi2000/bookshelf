@@ -26,7 +26,7 @@ date: 2024-06-05
 isOriginal: false
 author:
   - name: Tatev Aslanyan
-    url : https://freecodecamp.org/news/author/tatevaslanyan/
+    url: https://freecodecamp.org/news/author/tatevaslanyan/
 cover: https://freecodecamp.org/news/content/images/size/w2000/2024/06/image--12-.png
 ---
 

@@ -24,7 +24,7 @@ date: 2018-04-24
 isOriginal: false
 author:
   - name: Alexander VanTol
-    url : https://realpython.com/team/avantol/
+    url: https://realpython.com/team/avantol/
 cover: https://files.realpython.com/media/Pipenv-A-Guide-to-the-New-Python-Packaging-Tool_Watermarked.c4e765075ba3.jpg
 ---
 

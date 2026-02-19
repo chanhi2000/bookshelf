@@ -28,7 +28,7 @@ date: 2023-03-11
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2023/03/css-trig-functions.png
 ---
 

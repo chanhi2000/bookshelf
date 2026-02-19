@@ -27,7 +27,7 @@ date: 2025-02-26
 isOriginal: false
 author:
   - name: Muhammed Saleem
-    url : https://code-maze.com/author/muhammed-saleem/
+    url: https://code-maze.com/author/muhammed-saleem/
 cover: https://code-maze.com/wp-content/uploads/2021/12/social-dotnet-core.png
 ---
 

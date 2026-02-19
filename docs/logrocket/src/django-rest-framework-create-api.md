@@ -27,7 +27,7 @@ date: 2024-03-13
 isOriginal: false
 author:
   - name: Gaurav Singhal
-    url : https://blog.logrocket.com/author/gauravsinghal/
+    url: https://blog.logrocket.com/author/gauravsinghal/
 cover: /assets/image/blog.logrocket.com/django-rest-framework-create-api/banner.png
 ---
 

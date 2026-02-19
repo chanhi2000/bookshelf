@@ -80,6 +80,7 @@ const Y2021: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2021
+    "css-generators", // 2021-06-24
     "css-auditing-tools", // 2021-06-24
     "css-overflow-issues", // 2021-04-14
   ],
@@ -122,6 +123,7 @@ const Y2017: SidebarYeargroupTemplate = {
   children: [
     // END: 2017
     "understanding-css-layout-block-formatting-context", // 2017-12-11
+    "start-using-css-custom-properties", // 2017-04-19
   ],
 }
 
@@ -358,6 +360,7 @@ export const template: SidebarInfoTemplate = {
       "preload-what-is-it-good-for", // 2016-02-26
       "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
       // END: 2016css
+      "start-using-css-custom-properties", // 2017-04-19
       "understanding-css-layout-block-formatting-context", // 2017-12-11
       // END: 2017css
       "understanding-sizing-css-layout", // 2018-01-16
@@ -372,6 +375,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2020css
       "css-overflow-issues", // 2021-04-14
       "css-auditing-tools", // 2021-06-24
+      "css-generators", // 2021-06-24
       // END: 2021css
       "css-radial-conic-gradient", // 2022-01-10
       "introduction-css-cascade-layers", // 2022-01-24

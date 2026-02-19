@@ -25,7 +25,7 @@ date: 2025-08-18
 isOriginal: false
 author:
   - name: Atuoha Anthony
-    url : https://freecodecamp.org/news/author/atuoha/
+    url: https://freecodecamp.org/news/author/atuoha/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755525049875/2d9540c1-5a4a-41f4-87c6-59ee15bb99e4.png
 ---
 

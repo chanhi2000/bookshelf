@@ -26,7 +26,7 @@ date: 2025-04-03
 isOriginal: false
 author:
   - name: Hamdaan Ali
-    url : https://freecodecamp.org/news/author/hamdaan/
+    url: https://freecodecamp.org/news/author/hamdaan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743630655223/f7e0c094-2103-42cd-97bd-be79d14fff67.png
 ---
 

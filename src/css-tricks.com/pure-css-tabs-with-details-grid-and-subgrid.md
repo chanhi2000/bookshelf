@@ -23,7 +23,7 @@ date: 2025-10-27
 isOriginal: false
 author:
   - name: Silvestar Bistrović
-    url : https://css-tricks.com/author/silvestar/
+    url: https://css-tricks.com/author/silvestar/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/10/details-tabs-subgrid.webp
 ---
 

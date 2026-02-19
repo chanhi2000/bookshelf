@@ -27,7 +27,7 @@ date: 2020-12-01
 isOriginal: false
 author:
   - name: Victoria Drake
-    url : https://freecodecamp.org/news/author/victoriadrake/
+    url: https://freecodecamp.org/news/author/victoriadrake/
 cover: https://freecodecamp.org/news/content/images/2020/11/cover-2.png
 ---
 

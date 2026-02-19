@@ -23,7 +23,7 @@ date: 2025-06-02
 isOriginal: false
 author:
   - name: Temani Afif
-    url : https://css-tip.com/about
+    url: https://css-tip.com/about
 cover: https://css-tip.com/og-images/dd814099.png
 ---
 

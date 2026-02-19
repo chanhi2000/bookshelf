@@ -28,7 +28,7 @@ date: 2024-05-02
 isOriginal: false
 author:
   - name: Andrew Baisden
-    url : https://freecodecamp.org/news/author/andrewbaisden/
+    url: https://freecodecamp.org/news/author/andrewbaisden/
 cover: https://freecodecamp.org/news/content/images/2024/05/pusher-banner.png
 ---
 
@@ -65,7 +65,7 @@ As you can see, there are numerous use cases for this technology. So let's get u
 
 ::: info
 
-You can find the [codebase online here (<VPIcon icon="iconfont icon-github" />`andrewbaisden/realtime-chart-pusher`)](https://github.com/andrewbaisden/realtime-chart-pusher).
+You can find the [codebase online here (<VPIcon icon="iconfont icon-github"/>`andrewbaisden/realtime-chart-pusher`)](https://github.com/andrewbaisden/realtime-chart-pusher).
 
 <SiteInfo
   name="andrewbaisden/realtime-chart-pusher"

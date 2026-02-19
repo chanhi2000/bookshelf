@@ -26,7 +26,7 @@ date: 2025-12-04
 isOriginal: false
 author:
   - name: Nikheel Vishwas Savant
-    url : https://freecodecamp.org/news/author/nsavant/
+    url: https://freecodecamp.org/news/author/nsavant/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764781967963/2ccd66f7-3a5f-490f-af66-e1091ef4e34d.png
 ---
 

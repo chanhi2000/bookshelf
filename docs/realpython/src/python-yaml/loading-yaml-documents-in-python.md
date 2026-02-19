@@ -22,7 +22,7 @@ date: 2024-12-14
 isOriginal: false
 author:
   - name: Bartosz Zaczyński
-    url : https://realpython.com/team/bzaczynski/
+    url: https://realpython.com/team/bzaczynski/
 cover: https://files.realpython.com/media/YAML-in-Python_Watermarked.9dec9dfe8fd1.jpg
 ---
 

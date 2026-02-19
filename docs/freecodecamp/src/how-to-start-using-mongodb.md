@@ -25,7 +25,7 @@ date: 2022-07-26
 isOriginal: false
 author:
   - name: Valentine Gatwiri
-    url : https://freecodecamp.org/news/author/gatwirival/
+    url: https://freecodecamp.org/news/author/gatwirival/
 cover: https://freecodecamp.org/news/content/images/2022/07/pexels-tom-fisk-3285715.jpg
 ---
 

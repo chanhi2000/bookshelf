@@ -24,7 +24,7 @@ date: 2024-05-10
 isOriginal: false
 author:
   - name: Dionysia Lemonaki
-    url : https://freecodecamp.org/news/author/dionysialemonaki/
+    url: https://freecodecamp.org/news/author/dionysialemonaki/
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/cckf4TsHAuw/upload/1d75957a397f479d41bc73b407025508.jpeg
 ---
 

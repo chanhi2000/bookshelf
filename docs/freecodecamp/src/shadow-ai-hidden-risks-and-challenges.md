@@ -24,7 +24,7 @@ date: 2025-02-18
 isOriginal: false
 author:
   - name: Sonya Moisset
-    url : https://freecodecamp.org/news/author/SonyaMoisset/
+    url: https://freecodecamp.org/news/author/SonyaMoisset/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739870232803/7d5d5b43-4ca1-4e51-972b-586c0094854f.png
 ---
 

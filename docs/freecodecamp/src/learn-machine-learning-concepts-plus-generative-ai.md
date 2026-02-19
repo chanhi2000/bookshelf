@@ -30,7 +30,7 @@ date: 2025-03-06
 isOriginal: false
 author:
   - name: Rola Dali
-    url : https://rdali.github.io/
+    url: https://rdali.github.io/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741228930362/5c9e0d40-e79d-4aba-970c-ea5949a92b92.png
 ---
 

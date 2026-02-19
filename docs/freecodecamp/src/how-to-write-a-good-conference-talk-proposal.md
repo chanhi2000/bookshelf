@@ -25,7 +25,7 @@ date: 2025-04-22
 isOriginal: false
 author:
   - name: Sule-Balogun Olanrewaju
-    url : https://freecodecamp.org/news/author/suleolanrewaju/
+    url: https://freecodecamp.org/news/author/suleolanrewaju/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745329255973/f4fbb77f-8cab-4c29-bdd0-2791037bc6fd.png
 ---
 

@@ -24,7 +24,7 @@ date: 2023-11-01
 isOriginal: false
 author:
   - name: Joan Ayebola
-    url : https://freecodecamp.org/news/author/joanayebola/
+    url: https://freecodecamp.org/news/author/joanayebola/
 cover: https://freecodecamp.org/news/content/images/size/w1000/2023/10/Colorful-Bold-Math-Factors-Lesson-and-Quiz.png
 ---
 

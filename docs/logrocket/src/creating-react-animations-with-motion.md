@@ -29,7 +29,7 @@ date: 2025-02-18
 isOriginal: false
 author:
   - name: Paul Akinyemi
-    url : https://blog.logrocket.com/author/paulakinyemi/
+    url: https://blog.logrocket.com/author/paulakinyemi/
 cover: /assets/image/blog.logrocket.com/creating-react-animations-with-motion/banner.png
 ---
 

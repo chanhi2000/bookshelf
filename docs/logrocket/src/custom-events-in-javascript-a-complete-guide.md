@@ -24,7 +24,7 @@ date: 2021-01-01
 isOriginal: false
 author:
   - name: James James
-    url : https://blog.logrocket.com/author/jamesjames/
+    url: https://blog.logrocket.com/author/jamesjames/
 cover: /asset/image/blog.logrocket.com/custom-events-in-javascript-a-complete-guide/banner.png
 ---
 
@@ -504,7 +504,7 @@ Update the `handleCardUpdate` function to look like the above snippet. Here, aga
 
 It’s sometimes easier to understand your code when you think of it in terms of events — both custom and native DOM events — being dispatched. JavaScript custom events can enhance the user experience of your app when used properly. No surprise, then, that it’s included in some of the top JavaScript frameworks, such as Vue.js (in Vue, you dispatch custom events using `$emit`).
 
-The code for the demo used in this tutorial is available on [GitHub (<VPIcon icon="iconfont icon-github" />`jameesjohn/custom-event-demo`)](https://github.com/jameesjohn/custom-event-demo).
+The code for the demo used in this tutorial is available on [GitHub (<VPIcon icon="iconfont icon-github"/>`jameesjohn/custom-event-demo`)](https://github.com/jameesjohn/custom-event-demo).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

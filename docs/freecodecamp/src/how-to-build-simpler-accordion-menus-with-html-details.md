@@ -23,7 +23,7 @@ date: 2025-07-21
 isOriginal: false
 author:
   - name: Ophy Boamah
-    url : https://freecodecamp.org/news/author/CodeHemaa/
+    url: https://freecodecamp.org/news/author/CodeHemaa/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753119637759/0fb5302d-c21c-4c0d-affb-3f891261aabf.png
 ---
 

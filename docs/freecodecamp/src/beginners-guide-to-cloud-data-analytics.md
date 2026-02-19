@@ -34,7 +34,7 @@ date: 2025-06-17
 isOriginal: false
 author:
   - name: Google Cloud
-    url : https://cloudskillsboost.google/paths/420
+    url: https://cloudskillsboost.google/paths/420
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749071398844/dd78731e-80d1-4835-bc2b-cbec1ba9a9d3.png
 ---
 

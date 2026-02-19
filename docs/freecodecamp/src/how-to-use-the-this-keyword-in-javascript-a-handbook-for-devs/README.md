@@ -24,7 +24,7 @@ date: 2025-07-10
 isOriginal: false
 author:
   - name: Henry Adepegba
-    url : https://freecodecamp.org/news/author/henrywinnerman/
+    url: https://freecodecamp.org/news/author/henrywinnerman/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752155267760/5e5fc562-e515-4843-ad64-32129c293d67.png
 ---
 

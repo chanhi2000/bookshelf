@@ -27,7 +27,7 @@ date: 2026-01-16
 isOriginal: false
 author:
   - name: Daniel Adeboye
-    url : https://freecodecamp.org/news/author/AdeboyeDN/
+    url: https://freecodecamp.org/news/author/AdeboyeDN/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768427017581/585da014-5cb6-45bd-b6f7-a9a8a257b288.png
 ---
 

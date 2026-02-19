@@ -28,7 +28,7 @@ date: 2025-05-12
 isOriginal: false
 author:
   - name: evaristo.c
-    url : https://freecodecamp.org/news/author/ec001/
+    url: https://freecodecamp.org/news/author/ec001/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746812725602/cd4a5bc4-71f2-4678-8f5d-5571d9cc38e8.png
 ---
 

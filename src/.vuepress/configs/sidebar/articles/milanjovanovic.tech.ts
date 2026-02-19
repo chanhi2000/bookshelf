@@ -15,6 +15,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
+    "how-to-extract-structured-data-from-images-using-ollama-in-dotnet", // 2026-02-14
     "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
     "containerize-your-dotnet-applications-without-a-dockerfile", // 2026-01-31
     "a-practical-demo-of-zero-downtime-migrations-using-password-hashing", // 2026-01-24
@@ -389,6 +391,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2025cs
       "solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache", // 2026-01-17
       "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
+      "how-to-extract-structured-data-from-images-using-ollama-in-dotnet", // 2026-02-14
+      "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
       // END: 2026cs
       // END: cs
     ]],[
@@ -531,6 +535,7 @@ export const template: SidebarInfoTemplate = {
       "the-interview-question-that-changed-how-i-think-about-system-design", // 2025-10-25
       // END: 2025system-design
       "solving-message-ordering-from-first-principles", // 2026-01-10
+      "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
       // END: 2026system-design
       // END: system-design
     ]],[
@@ -538,15 +543,18 @@ export const template: SidebarInfoTemplate = {
       "how-to-be-a-better-software-engineer-in-2023", // 2022-12-31
       "what-rewriting-a-40-year-old-project-taught-me-about-software-development", // 2024-12-28
     ]],[
-    "llama", [
+    "llm", [
       "what-is-vector-search-a-concise-guide", // 2025-04-12
       // END: 2025llm
+      // END: 2026llm
       // END: llm
     ]],[
     "llama", [
       "working-with-llms-in-dotnet-using-microsoft-extensions-ai", // 2025-01-11
       // END: 2025llama
-      // END: llama
+      "how-to-extract-structured-data-from-images-using-ollama-in-dotnet", // 2026-02-14
+      // END: 2025ollama
+      // END: ollama
     ]],[
     "all", [
       Y2026,

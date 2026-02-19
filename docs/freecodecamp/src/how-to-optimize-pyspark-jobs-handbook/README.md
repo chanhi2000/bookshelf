@@ -32,7 +32,7 @@ date: 2026-02-06
 isOriginal: false
 author:
   - name: Sameer Shukla
-    url : https://freecodecamp.org/news/author/sshukla/
+    url: https://freecodecamp.org/news/author/sshukla/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770331493095/d569e168-d3ba-40e0-a500-7f682bbef693.png
 ---
 

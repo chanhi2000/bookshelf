@@ -27,7 +27,7 @@ date: 2025-04-23
 isOriginal: false
 author:
   - name: Turing Time Machine (@turingtimemachine)
-    url : https://youtube.com/@Turing Time Machine
+    url: https://youtube.com/@Turing Time Machine
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745337916808/108914f8-f399-4359-9bb5-75e9fee9c0aa.png
 ---
 

@@ -24,7 +24,7 @@ date: 2021-06-02
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Context-Managers--the-Python-with-Statement_Watermarked.3774ffbe2514.jpg
 ---
 

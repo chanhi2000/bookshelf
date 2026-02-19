@@ -24,7 +24,7 @@ date: 2024-08-16
 isOriginal: false
 author:
   - name: Oduah Chigozie
-    url : https://freecodecamp.org/news/author/GhoulKingR/
+    url: https://freecodecamp.org/news/author/GhoulKingR/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723746256888/b046d857-161c-41be-96d0-1c05b1e448b8.jpeg
 ---
 

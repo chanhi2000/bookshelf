@@ -23,7 +23,7 @@ date: 2026-02-04
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://frontendmasters.com/blog/author/chriscoyier/
+    url: https://frontendmasters.com/blog/author/chriscoyier/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/8485
 ---
 
@@ -92,7 +92,7 @@ That feels like weirdly a lot of power 😅.
   link="https://codepen.io/editor/chriscoyier/pen/019c2ac7-e99e-755c-b2b0-250fb9d00bf5"
   title="Details Stuff"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That had me thinking we could basically reveal another entire background (almost like a `::backdrop`) that covers everything but the details (just to call a ton of attention to it, again like a modal).
 
@@ -101,7 +101,7 @@ That had me thinking we could basically reveal another entire background (almost
   slug-hash="019c1504-e731-71ad-8b57-ce3ab676a458"
   title="Extra Saucy Details Spoilers"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s probably about enough being weird for a Wednesday.
 

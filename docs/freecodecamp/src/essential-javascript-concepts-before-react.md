@@ -29,7 +29,7 @@ date: 2024-09-10
 isOriginal: false
 author:
   - name: Akande Olalekan Toheeb
-    url : https://freecodecamp.org/news/author/MuhToyyib/
+    url: https://freecodecamp.org/news/author/MuhToyyib/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723690396380/c9b8a333-4cbe-42c4-bfab-da39f34d3fd4.png
 ---
 

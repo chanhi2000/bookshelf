@@ -38,7 +38,7 @@ date: 2022-04-27
 isOriginal: false
 author:
   - name: Erika Heidi
-    url : https://digitalocean.com//community/users/erikaheidi
+    url: https://digitalocean.com//community/users/erikaheidi
 cover: https://community-cdn-digitalocean-com.global.ssl.fastly.net/2b3vijNShk4WqngPNwgxUmRi
 ---
 

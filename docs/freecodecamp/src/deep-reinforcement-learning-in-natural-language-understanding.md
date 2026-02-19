@@ -29,7 +29,7 @@ date: 2025-08-16
 isOriginal: false
 author:
   - name: Oyedele Tioluwani
-    url : https://freecodecamp.org/news/author/Tioluwani/
+    url: https://freecodecamp.org/news/author/Tioluwani/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755270013761/005fd330-7f59-4753-ba14-8852f4240f3c.png
 ---
 

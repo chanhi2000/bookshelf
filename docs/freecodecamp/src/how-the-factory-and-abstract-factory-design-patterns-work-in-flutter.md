@@ -25,7 +25,7 @@ date: 2026-01-28
 isOriginal: false
 author:
   - name: Oluwaseyi Fatunmole
-    url : https://freecodecamp.org/news/author/foluwaseyi/
+    url: https://freecodecamp.org/news/author/foluwaseyi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769533734673/8b5ad88a-13d2-4fec-969b-55fd854df5c1.png
 ---
 

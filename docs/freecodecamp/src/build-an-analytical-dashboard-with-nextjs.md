@@ -29,7 +29,7 @@ date: 2025-02-06
 isOriginal: false
 author:
   - name: Stefan Muzyka
-    url : https://freecodecamp.org/news/author/stefanmuzyka/
+    url: https://freecodecamp.org/news/author/stefanmuzyka/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738347998117/46877c78-f5e5-4a94-954e-029b73b8f952.png
 ---
 

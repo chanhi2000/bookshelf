@@ -23,7 +23,7 @@ date: 2026-01-23
 isOriginal: false
 author:
   - name: Geoff Graham
-    url : https://css-tricks.com/author/geoffgraham/
+    url: https://css-tricks.com/author/geoffgraham/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/01/open-props-custom-media-queries.jpg
 ---
 
@@ -56,7 +56,7 @@ The `@custom-media` at-rule has landed in Firefox Nightly! I couldn’t find it 
 
 I often forget the exact name of an `@media` query or simply get tired writing something like `@media screen and (prefers-reduced-motion: no-preference)` over and over again. `@custom-media` will be a nice bit of relief to the ol’ muscle memory because it allows us to create aliases for queries.
 
-In fact, Adam’s Open Props project has [more than 45 of them (<VPIcon icon="iconfont icon-github" />`argyleink/open-props`)](https://github.com/argyleink/open-props/blob/main/src/props.media.css) that make for excellent recipes:
+In fact, Adam’s Open Props project has [more than 45 of them (<VPIcon icon="iconfont icon-github"/>`argyleink/open-props`)](https://github.com/argyleink/open-props/blob/main/src/props.media.css) that make for excellent recipes:
 
 ```css
 @custom-media --motionOK (prefers-reduced-motion: no-preference);

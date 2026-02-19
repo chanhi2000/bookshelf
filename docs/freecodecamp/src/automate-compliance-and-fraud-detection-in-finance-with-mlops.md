@@ -30,7 +30,7 @@ date: 2025-05-13
 isOriginal: false
 author:
   - name: Balajee Asish Brahmandam
-    url : https://freecodecamp.org/news/author/Balajeeasish/
+    url: https://freecodecamp.org/news/author/Balajeeasish/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747064311601/923284fd-8584-4ef3-8591-f717b9807148.png
 ---
 

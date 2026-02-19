@@ -24,7 +24,7 @@ date: 2025-01-08
 isOriginal: false
 author:
   - name: Stephen Gruppetta
-    url : https://realpython.com/team/sgruppetta/
+    url: https://realpython.com/team/sgruppetta/
 cover: https://files.realpython.com/media/Image-Processing-in-Python-With-Pillow_Watermarked.b86d7e55f981.jpg
 ---
 

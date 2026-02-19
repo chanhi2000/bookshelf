@@ -24,7 +24,7 @@ date: 2025-01-04
 isOriginal: false
 author:
   - name: Chaitanya Rahalkar
-    url : https://freecodecamp.org/news/author/chaitanyarahalkar/
+    url: https://freecodecamp.org/news/author/chaitanyarahalkar/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735280432228/33730b4a-6424-48b0-a7bf-ef029663fb90.png
 ---
 

@@ -24,7 +24,7 @@ date: 2025-10-18
 isOriginal: false
 author:
   - name: Wisdom Usa
-    url : https://freecodecamp.org/news/author/heywisdom/
+    url: https://freecodecamp.org/news/author/heywisdom/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760622633358/ad43bbd8-116c-42eb-95b7-0ef70156983a.png
 ---
 

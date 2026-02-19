@@ -26,7 +26,7 @@ date: 2025-02-08
 isOriginal: false
 author:
   - name: P S Mohammed Ali
-    url : https://freecodecamp.org/news/author/psmohammedali/
+    url: https://freecodecamp.org/news/author/psmohammedali/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941455446/843335c0-35a3-4173-bd4c-7baf0e630e8e.png
 ---
 

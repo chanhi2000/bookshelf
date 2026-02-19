@@ -22,7 +22,7 @@ date: 2024-01-09
 isOriginal: false
 author:
   - name: Omer Rosenbaum
-    url : https://freecodecamp.org/news/author/omerros/
+    url: https://freecodecamp.org/news/author/omerros/
 cover: https://freecodecamp.org/news/content/images/2023/12/Gitting-Things-Done-Cover-with-Photo.png
 ---
 

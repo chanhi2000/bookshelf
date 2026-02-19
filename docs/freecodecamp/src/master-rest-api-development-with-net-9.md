@@ -27,7 +27,7 @@ date: 2025-05-28
 isOriginal: false
 author:
   - name: Alen Omeri (@codeafuture)
-    url : https://youtube.com/@codeafuture
+    url: https://youtube.com/@codeafuture
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748439915268/7c83881c-ce95-4a13-86eb-3d3631e01b6c.png
 ---
 

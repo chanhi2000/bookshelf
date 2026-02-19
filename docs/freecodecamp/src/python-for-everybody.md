@@ -27,7 +27,7 @@ date: 2019-05-02
 isOriginal: false
 author:
   - name: Dr. Charles Severance (@ChuckSeverance)
-    url : https://youtube.com/@ChuckSeverance
+    url: https://youtube.com/@ChuckSeverance
 cover: https://cdn-media-1.freecodecamp.org/ghost/2019/05/py4e.png
 ---
 

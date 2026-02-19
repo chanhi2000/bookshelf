@@ -27,7 +27,7 @@ date: 2021-01-13
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -66,7 +66,7 @@ cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 
 Docker containers make it easier to set up applications by providing pre-configured images in a virtual environment. To use virtualization extensions on your CPU, like Intel's VT-x or AMD's SVM, you need to enable them in your BIOS or UEFI settings.
 
-There are TypeScript projects, such as [@nestjsx/crud (<VPIcon icon="iconfont icon-github" />`nestjsx/crud`)](https://github.com/nestjsx/crud), which use Docker container images. Docker containers simplify application setups (like databases, caches, etc.) by providing pre-configured images in a virtual environment. Virtualization takes a lot of computing power and can be accelerated by hardware-assisted virtualization.
+There are TypeScript projects, such as [@nestjsx/crud (<VPIcon icon="iconfont icon-github"/>`nestjsx/crud`)](https://github.com/nestjsx/crud), which use Docker container images. Docker containers simplify application setups (like databases, caches, etc.) by providing pre-configured images in a virtual environment. Virtualization takes a lot of computing power and can be accelerated by hardware-assisted virtualization.
 
 ---
 

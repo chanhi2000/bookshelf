@@ -23,7 +23,7 @@ date: 2023-09-11
 isOriginal: false
 author:
   - name: Preethi Sam
-    url : https://smashingmagazine.com/author/preethi-sam/
+    url: https://smashingmagazine.com/author/preethi-sam/
 cover: https://files.smashing.media/articles/gradients-blend-modes-hover-effect/gradients-blend-modes-hover-effect.jpg
 ---
 

@@ -31,7 +31,7 @@ date: 2025-08-14
 isOriginal: false
 author:
   - name: Abhijeet Dave
-    url : https://freecodecamp.org/news/author/Abhidave/
+    url: https://freecodecamp.org/news/author/Abhidave/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755102784797/0a2d19f0-3539-47c6-a29d-68fab3d430ba.png
 ---
 

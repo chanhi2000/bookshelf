@@ -29,7 +29,7 @@ date: 2020-11-12
 isOriginal: false
 author:
   - name: Nwose Lotanna
-    url : https://blog.logrocket.com/author/nwoselotanna/
+    url: https://blog.logrocket.com/author/nwoselotanna/
 cover: /assets/image/blog.logrocket.com/why-you-should-adopt-react-hooks-instead-of-classes/banner.png
 ---
 

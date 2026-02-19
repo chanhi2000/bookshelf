@@ -29,7 +29,7 @@ date: 2023-09-19
 isOriginal: false
 author:
   - name: Hussain Arif
-    url : https://blog.logrocket.com/author/hussain-arif/
+    url: https://blog.logrocket.com/author/hussain-arif/
 cover: /assets/image/blog.logrocket.com/understanding-react-higher-order-components/banner.png
 ---
 

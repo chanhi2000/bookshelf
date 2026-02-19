@@ -23,7 +23,7 @@ date: 2018-07-03
 isOriginal: false
 author:
   - name: Rachel Andrew
-    url : https://smashingmagazine.com/author/rachel-andrew/
+    url: https://smashingmagazine.com/author/rachel-andrew/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/df5fb087-5d66-4293-bff8-b788044c0b76/subgrid-names.png
 ---
 
@@ -315,7 +315,7 @@ As explained above, however, you can have one dimension of your subgrid behave i
 
 ## Getting Involved With The Process
 
-The work of the CSS Working Group happens in public, on GitHub just like any other open-source project. This makes it somewhat easier to follow along with the work that it was the everything happened in a mailing list. You can take a look at the issues raised against Level 2 of the CSS Grid specification by searching for issues tagged as [css-grid-2 (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+css-grid-2) in the CSS Working Group GitHub repository. If you can contribute thoughts or a use case to any of those issues, it would be welcomed.
+The work of the CSS Working Group happens in public, on GitHub just like any other open-source project. This makes it somewhat easier to follow along with the work that it was the everything happened in a mailing list. You can take a look at the issues raised against Level 2 of the CSS Grid specification by searching for issues tagged as [css-grid-2 (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+css-grid-2) in the CSS Working Group GitHub repository. If you can contribute thoughts or a use case to any of those issues, it would be welcomed.
 
 There are other features that people have requested for CSS Grid Layout, and the fact that they haven’t been included in Level 2 does not mean they are not being considered. You can see the levels as a feature release might be in a product, just because some feature isn’t part of the current sprint, doesn’t mean it will never happen. Work on new web platform features tends to take a little longer than the average product release, but it is a similar process.
 

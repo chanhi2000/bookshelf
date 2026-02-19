@@ -23,7 +23,7 @@ date: 2025-11-06
 isOriginal: false
 author:
   - name: Declan Chidlow
-    url : https://piccalil.li/author/declan-chidlow
+    url: https://piccalil.li/author/declan-chidlow
 cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/904548af940472e77e572871831a2d00b9389a2aff8ce5eff3f3a32051586a6f/png?url=https://piccalil.li/og/some-practical-examples-of-view-transitions-to-elevate-your-ui/&width=1024&height=526&retina=true
 ---
 

@@ -26,7 +26,7 @@ date: 2025-12-03
 isOriginal: false
 author:
   - name: Carter Zenke
-    url : https://cs50.harvard.edu/r/
+    url: https://cs50.harvard.edu/r/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764713896891/8c4848e6-27f8-4f1f-aeb5-1c14e1a3ecd6.png
 ---
 

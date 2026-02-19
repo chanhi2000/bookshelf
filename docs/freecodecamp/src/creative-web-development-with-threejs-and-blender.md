@@ -34,7 +34,7 @@ date: 2025-11-06
 isOriginal: false
 author:
   - name: Andrew Woan (@andrewwoan)
-    url : https://youtube.com/@andrewwoan
+    url: https://youtube.com/@andrewwoan
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762382219109/2fe68963-cb45-4bc5-add9-6ba3351664f3.jpeg
 ---
 

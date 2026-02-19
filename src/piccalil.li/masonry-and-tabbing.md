@@ -23,7 +23,7 @@ date: 2024-05-13
 isOriginal: false
 author:
   - name: Andy Bell
-    url : https://piccalil.li/author/andy-bell
+    url: https://piccalil.li/author/andy-bell
 cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/fe191d2f680cf1fd73f795740e9aa8617d79f3c71028674745c49099b2f911a9/png?url=https://piccalil.li/og/masonry-and-tabbing/&width=1024&height=526&retina=true
 ---
 

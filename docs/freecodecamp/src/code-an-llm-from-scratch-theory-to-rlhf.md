@@ -36,7 +36,7 @@ date: 2025-09-23
 isOriginal: false
 author:
   - name: Vivek Kalyanarangan
-    url : https://github.com/vivekkalyanarangan30
+    url: https://github.com/vivekkalyanarangan30
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758631000000/c6abd414-46ed-4fec-af5f-3cd694f5af71.png
 ---
 

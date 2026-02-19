@@ -23,7 +23,7 @@ date: 2025-04-04
 isOriginal: false
 author:
   - name: Anna Monus
-    url : https://blog.logrocket.com/author/annamonus/
+    url: https://blog.logrocket.com/author/annamonus/
 cover: /assets/image/blog.logrocket.com/eliminate-render-blocking-resources-css-javascript/banner.png
 ---
 

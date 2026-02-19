@@ -27,7 +27,7 @@ date: 2023-10-24
 isOriginal: false
 author:
   - name: Geoff Graham
-    url : https://smashingmagazine.com/author/geoff-graham/
+    url: https://smashingmagazine.com/author/geoff-graham/
 cover: https://files.smashing.media/articles/fight-main-thread/speedcurve-fight-main-thread.jpg
 ---
 

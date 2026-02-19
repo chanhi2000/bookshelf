@@ -27,7 +27,7 @@ date: 2025-09-09
 isOriginal: false
 author:
   - name: Mayur Vekariya
-    url : https://freecodecamp.org/news/author/mayur9210/
+    url: https://freecodecamp.org/news/author/mayur9210/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757363825321/562644c8-b2b3-4c1c-92c2-736bcade5aac.png
 ---
 

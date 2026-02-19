@@ -15,12 +15,12 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "your-keyboard-is-obsolete-voice-coding-in-typescript", // 2026-02-12
     "why-your-cat-became-a-dog-and-typescript-finally-noticed", // 2026-01-22
     "how-intersection-types-replace-error-handling", // 2026-01-13
     "never-review-a-dependency-update-again", // 2026-01-10
     "stop-committing-unformatted-code", // 2026-01-08
     "never-miss-a-switch-case-again", // 2026-01-07
-    "why-you-should-use-locators-instead-of-text-in-your-tests", // 2026-01
   ],
 }
 
@@ -29,7 +29,26 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
-    "hands-onwhy-you-should-use-locators-instead-of-text-in-your-tests", // 2025-12-15
+    "why-you-should-use-locators-instead-of-text-in-your-tests", // 2025-12-15
+    "why-codemods-beat-search-and-replace-every-time", // 2025-12-02
+    "upgrading-to-tailwind-css-v4-a-migration-guide", // 2025-12-02
+    "setting-up-vitest-for-react-and-nextjs-applications", // 2025-12-01
+    "from-rest-apis-to-mcp-the-future-of-ai-integration", // 2025-11-13
+    "bring-immutability-and-context-to-arrays", // 2025-11-12
+    "dirname-is-not-defined-in-es-module-scope", // 2025-11-06
+    "you-dont-need-dotenv-anymore", // 2025-11-06
+    "why-typescript-enums-are-dead", // 2025-11-04
+    "deploy-your-typescript-website-on-github-pages", // 2025-10-27
+    "android-emulator-running-in-nested-virtualization", // 2025-10-15
+    "testing-types-in-typescript", // 2025-08-28
+    "make-nodejs-eventemitter-type-safe", // 2025-08-22
+    "private-fields-in-typescript-whats-the-difference-between-private-and", // 2025-08-21
+    "switch-true-narrowing-in-typescript-a-practical-alternative-to-pattern-matching", // 2025-08-19
+    "streamlining-cli-input-with-async-generators", // 2025-08-12
+    "resilient-api-calls-with-ts-retry-promise", // 2205-07-17
+    "why-write-validation-logic-when-zod-can-do-it-better", // 2025-07-17
+    "goodbye-json-schema-typing-json-with-json-structure", // 2025-07-10
+    "error-handling-with-result-types", // 2025-07-08
   ],
 }
 
@@ -38,6 +57,25 @@ const Y2024: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2024
+    "fixing-typeerror-err_unknown_file_extension-with-ts-node", // 2024-11-25
+    "hosting-on-heroku-with-a-custom-domain-and-ssl", // 2024-09-25
+    "parsing-csv-files-in-typescript-with-papa-parse/", // 2024-08-30
+    "how-to-write-declarative-typescript-code", // 2024-08-28
+    "analyzing-pdfs-with-chatgpt-using-openais-vision-api", // 2024-08-20
+    "nodejs-rolls-out-experimental-typescript-support", // 2024-07-31
+    "understanding-branded-types-in-typescript", // 2024-07-26
+    "loading-json-files-dynamically-in-typescript", // 2024-07-18
+    "reading-totp-data-for-2fa-from-qr-code-in-typescript", // 2024-07-05
+    "fixing-typescript-error-type-undefined-is-not-assignable-to-type-string", // 2024-07-03
+    "boost-your-typescript-tests-with-mutation-testing", // 2024-07-02
+    "optimizing-typescript-configs-balancing-compilation-and-type-checking", // 2024-06-28
+    "use-typescript-generators-for-cleaner-programming", // 2024-05-30
+    "all-you-need-to-know-about-iterators-and-generators", // 2024-05-23
+    "save-memory-with-typescript-generators", // 2024-05-21
+    "the-4-must-know-typescript-compiler-configs", // 2024-05-16
+    "what-are-generics-and-why-you-should-use-them", // 2024-04-30
+    "module-openai-has-no-exported-member", // 2024-04-24
+    "enumberable-vs-iterable-in-typescript-whats-the-difference", // 2024-01-11
   ],
 }
 
@@ -46,6 +84,9 @@ const Y2023: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2023
+    "typeerror-prettierresolveconfigsync-is-not-a-function", // 2023-12-19
+    "improve-your-typescript-workflow-with-code-snippets", // 2023-12-11
+    "filtering-arrays-in-typescript-with-correct-types", // 2023-12-06
     "what-are-ecmascript-modules", // 2023-11-10
     "serving-static-content-with-nestjs-and-express", // 2023-11-01
     "write-a-simple-typescript-script-with-esm.", // 2023-11-01
@@ -153,6 +194,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025sh
       // END: sh
     ]],[
+    "java-android", [
+      "android-emulator-running-in-nested-virtualization", // 2025-10-15
+      // END: 2025java-android
+      // END: java-android
+    ]],[
     "js-react", [
       // END: 2019js-react
       "reactuse-react-with-typescript", // 2020-12-17
@@ -166,10 +212,24 @@ export const template: SidebarInfoTemplate = {
       // END: 2021js-react
       // END: 2022js-react
       // END: 2023js-react
+      "upgrading-expo-in-a-react-native-project-with-typescript", // 2024-07-08
       // END: 2024js-react
+      "setting-up-vitest-for-react-and-nextjs-applications", // 2025-12-01
       // END: 2025js-react
       // END: 2026js-react
       // END: js-react
+    ]],[
+    "js-next", [
+      // END: 2019js-next
+      // END: 2020js-next
+      // END: 2021js-next
+      // END: 2022js-next
+      // END: 2023js-next
+      // END: 2024js-next
+      "setting-up-vitest-for-react-and-nextjs-applications", // 2025-12-01
+      // END: 2025js-next
+      // END: 2026js-next
+      // END: js-next
     ]],[
     "js-express", [
       "run-nodejs-apps-on-heroku-with-typescript", // 2019-03-19
@@ -208,7 +268,9 @@ export const template: SidebarInfoTemplate = {
       // END: 2022js-node
       "what-are-ecmascript-modules", // 2023-11-10
       // END: 2023js-node
+      "nodejs-rolls-out-experimental-typescript-support", // 2024-07-31
       // END: 2024js-node
+      "make-nodejs-eventemitter-type-safe", // 2025-08-22
       // END: 2025js-node
       "stop-committing-unformatted-code", // 2026-01-08
       // END: 2026js-node
@@ -250,12 +312,44 @@ export const template: SidebarInfoTemplate = {
       "fix-type-x-is-not-assignable-to-type-y", // 2023-09-20
       "effortless-nodemon-setup-with-typescript-and-esm", // 2023-09-21
       "write-a-simple-typescript-script-with-esm.", // 2023-11-01
+      "filtering-arrays-in-typescript-with-correct-types", // 2023-12-06
+      "improve-your-typescript-workflow-with-code-snippets", // 2023-12-11
+      "typeerror-prettierresolveconfigsync-is-not-a-function", // 2023-12-19
       // END: 2023ts
+      "enumberable-vs-iterable-in-typescript-whats-the-difference", // 2024-01-11
+      "module-openai-has-no-exported-member", // 2024-04-24
+      "what-are-generics-and-why-you-should-use-them", // 2024-04-30
+      "the-4-must-know-typescript-compiler-configs", // 2024-05-16
+      "save-memory-with-typescript-generators", // 2024-05-21
+      "all-you-need-to-know-about-iterators-and-generators", // 2024-05-23
+      "use-typescript-generators-for-cleaner-programming", // 2024-05-30
+      "optimizing-typescript-configs-balancing-compilation-and-type-checking", // 2024-06-28
+      "boost-your-typescript-tests-with-mutation-testing", // 2024-07-02
+      "fixing-typescript-error-type-undefined-is-not-assignable-to-type-string", // 2024-07-03
+      "reading-totp-data-for-2fa-from-qr-code-in-typescript", // 2024-07-05
+      "understanding-branded-types-in-typescript", // 2024-07-26
+      "analyzing-pdfs-with-chatgpt-using-openais-vision-api", // 2024-08-20
+      "how-to-write-declarative-typescript-code", // 2024-08-28
+      "parsing-csv-files-in-typescript-with-papa-parse/", // 2024-08-30
+      "fixing-typeerror-err_unknown_file_extension-with-ts-node", // 2024-11-25
       // END: 2024ts
-      "hands-onwhy-you-should-use-locators-instead-of-text-in-your-tests", // 2025-12-15
+      "error-handling-with-result-types", // 2025-07-08
+      "goodbye-json-schema-typing-json-with-json-structure", // 2025-07-10
+      "why-write-validation-logic-when-zod-can-do-it-better", // 2025-07-17
+      "resilient-api-calls-with-ts-retry-promise", // 2205-07-17
+      "streamlining-cli-input-with-async-generators", // 2025-08-12
+      "switch-true-narrowing-in-typescript-a-practical-alternative-to-pattern-matching", // 2025-08-19
+      "private-fields-in-typescript-whats-the-difference-between-private-and", // 2025-08-21
+      "make-nodejs-eventemitter-type-safe", // 2025-08-22
+      "testing-types-in-typescript", // 2025-08-28
+      "you-dont-need-dotenv-anymore", // 2025-11-06
+      "why-you-should-use-locators-instead-of-text-in-your-tests", // 2025-12-15
+      "bring-immutability-and-context-to-arrays", // 2025-11-12
+      "from-rest-apis-to-mcp-the-future-of-ai-integration", // 2025-11-13
       // END: 2025ts
       "how-intersection-types-replace-error-handling", // 2026-01-13
       "why-your-cat-became-a-dog-and-typescript-finally-noticed", // 2026-01-22
+      "your-keyboard-is-obsolete-voice-coding-in-typescript", // 2026-02-12
       // END: 2026ts
       // END: ts
     ]],[
@@ -269,6 +363,27 @@ export const template: SidebarInfoTemplate = {
       "stop-committing-unformatted-code", // 2026-01-08
       // END: 2026npm
       // END: npm
+    ]],[
+    "css", [
+      // END: 2020css
+      // END: 2021css
+      // END: 2022css
+      // END: 2023css
+      // END: 2024css
+      // END: 2025css
+      // END: 2026css
+      // END: css
+    ]],[
+    "css-tailwind", [
+      // END: 2020css-tailwind
+      // END: 2021css-tailwind
+      // END: 2022css-tailwind
+      // END: 2023css-tailwind
+      // END: 2024css-tailwind
+      "upgrading-to-tailwind-css-v4-a-migration-guide", // 2025-12-02
+      // END: 2025css-tailwind
+      // END: 2026css-tailwind
+      // END: css-tailwind
     ]],[
     "git", [
       // END: 2020git
@@ -313,6 +428,7 @@ export const template: SidebarInfoTemplate = {
       "create-a-typescript-test-matrix-using-github-actions", // 2023-07-25
       // END: 2023github
       // END: 2024github
+      "deploy-your-typescript-website-on-github-pages", // 2025-10-27
       // END: 2025github
       "never-review-a-dependency-update-again", // 2026-01-10
       // END: 2026github
@@ -325,10 +441,24 @@ export const template: SidebarInfoTemplate = {
       // END: 2021heroku
       // END: 2022heroku
       // END: 2023heroku
+      "hosting-on-heroku-with-a-custom-domain-and-ssl", // 2024-09-25
       // END: 2024heroku
       // END: 2025heroku
       // END: 2026heroku
       // END: heroku
+    ]],[
+    "vscode", [
+      // END: 2019vscode
+      // END: 2020vscode
+      // END: 2021vscode
+      // END: 2022vscode
+      "improve-your-typescript-workflow-with-code-snippets", // 2023-12-11
+      // END: 2023vscode
+      // END: 2024vscode
+      // END: 2025vscode
+      "your-keyboard-is-obsolete-voice-coding-in-typescript", // 2026-02-12
+      // END: 2026vscode
+      // END: vscode
     ]],[
     "screencast", [
       // END: 2019screencast
@@ -341,6 +471,41 @@ export const template: SidebarInfoTemplate = {
       // END: 2025screencast
       // END: 2026screencast
       // END: screencast
+    ]],[
+    "openai", [
+      // END: 2021openai
+      // END: 2022openai
+      // END: 2023openai
+      "module-openai-has-no-exported-member", // 2024-04-24
+      "analyzing-pdfs-with-chatgpt-using-openais-vision-api", // 2024-08-20
+      // END: 2024openai
+      // END: 2025openai
+      // END: 2026openai
+      // END: openai
+    ]],[
+    "claude", [
+      // END: 2019claude
+      // END: 2020claude
+      // END: 2021claude
+      // END: 2022claude
+      // END: 2023claude
+      // END: 2024claude
+      "from-rest-apis-to-mcp-the-future-of-ai-integration", // 2025-11-13
+      // END: 2025claude
+      // END: 2026claude
+      // END: claude
+    ]],[
+    "mcp", [
+      // END: 2019mcp
+      // END: 2020mcp
+      // END: 2021mcp
+      // END: 2022mcp
+      // END: 2023mcp
+      // END: 2024mcp
+      "from-rest-apis-to-mcp-the-future-of-ai-integration", // 2025-11-13
+      // END: 2025mcp
+      // END: 2026mcp
+      // END: mcp
     ]],[
     "all", [
       GLOSSARY,

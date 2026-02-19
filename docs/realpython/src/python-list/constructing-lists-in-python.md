@@ -22,7 +22,7 @@ date: 2023-07-19
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Pythons-list-Built-in-Data-Type-A-Deep-Dive-With-Examples_Watermarked.1f6291ed72f5.jpg
 ---
 
@@ -151,7 +151,7 @@ list()
 
 In these examples, you create different lists using the `list()` constructor, which accepts any type of iterable object, including tuples, dictionaries, strings, and many more. It even accepts sets, in which case you need to remember that sets are unordered data structures, so you won’t be able to predict the final order of items in the resulting list.
 
-Calling `list()` without an argument creates and [**returns**](/realpython.com/python-return-statement.md) a new empty list. This way of creating empty lists is less common than using an empty pair of square brackets. However, in some situations, it can make your code more explicit by clearly communicating your intent: *creating an empty list*.
+Calling `list()` without an argument creates and [**returns**](/realpython.com/python-return-statement/README.md) a new empty list. This way of creating empty lists is less common than using an empty pair of square brackets. However, in some situations, it can make your code more explicit by clearly communicating your intent: *creating an empty list*.
 
 The `list()` constructor is especially useful when you need to create a list out of an [**iterator**](/realpython.com/python-iterators-iterables.md#getting-to-know-python-iterators) object. For example, say that you have a [**generator function**](/realpython.com/introduction-to-python-generators.md) that yields numbers from the [**Fibonacci sequence**](/realpython.com/fibonacci-sequence-python.md) on demand, and you need to store the first ten numbers in a list.
 
@@ -194,7 +194,7 @@ In this example, the iterable unpacking operator consumes the iterator, and the 
 
 :::
 
-As a side note, you’ll often find that built-in and third-party functions [**return**](/realpython.com/python-return-statement.md) iterators. Functions like [**`reversed()`**](/realpython.com/python-reverse-list.md#the-built-in-reversed-function), [**`enumerate()`**](/realpython.com/python-enumerate.md), [**`map()`**](/realpython.com/python-map-function.md), and [**`filter()`**](/realpython.com/python-filter-function.md) are good examples of this practice. It’s less common to find functions that directly return `list` objects, but the built-in [**`sorted()`**](/realpython.com/python-sort.md#ordering-values-with-sorted) function is one example. It takes an iterable as an argument and returns a list of sorted items.
+As a side note, you’ll often find that built-in and third-party functions [**return**](/realpython.com/python-return-statement/README.md) iterators. Functions like [**`reversed()`**](/realpython.com/python-reverse-list.md#the-built-in-reversed-function), [**`enumerate()`**](/realpython.com/python-enumerate.md), [**`map()`**](/realpython.com/python-map-function.md), and [**`filter()`**](/realpython.com/python-filter-function.md) are good examples of this practice. It’s less common to find functions that directly return `list` objects, but the built-in [**`sorted()`**](/realpython.com/python-sort.md#ordering-values-with-sorted) function is one example. It takes an iterable as an argument and returns a list of sorted items.
 
 ---
 
@@ -212,7 +212,7 @@ Every list comprehension needs at least three components:
 
 1. `expression()` is a Python [**expression**](/realpython.com/python-operators-expressions.md) that returns a concrete value, and most of the time, that value depends on `item`. Note that it doesn’t have to be a function.
 2. `item` is the current object from `iterable`.
-3. `iterable` can be any Python iterable object, such as a [**list**](/realpython.com/python-lists-tuples.md#python-lists), [**tuple**](/realpython.com/python-lists-tuples.md#python-tuples), [**set**](/realpython.com/python-sets.md), [**string**](/realpython.com/python-strings.md), or [**generator**](/realpython.com/introduction-to-python-generators.md).
+3. `iterable` can be any Python iterable object, such as a [**list**](/realpython.com/python-lists-tuples.md#python-lists), [**tuple**](/realpython.com/python-lists-tuples.md#python-tuples), [**set**](/realpython.com/python-sets/README.md), [**string**](/realpython.com/python-strings.md), or [**generator**](/realpython.com/introduction-to-python-generators.md).
 
 The `for` construct iterates over the items in `iterable`, while `expression(item)` provides the corresponding list item that results from running the comprehension.
 

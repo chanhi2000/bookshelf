@@ -27,7 +27,7 @@ date: 2017-06-19
 isOriginal: false
 author:
   - name: Vladimir Pecanac
-    url : https://code-maze.com/author/codemaze_blog/
+    url: https://code-maze.com/author/codemaze_blog/
 cover: /assets/image/code-maze.com/http-series-part-1/banner.png
 ---
 

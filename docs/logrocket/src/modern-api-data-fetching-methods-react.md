@@ -31,7 +31,7 @@ date: 2024-03-01
 isOriginal: false
 author:
   - name: Ibadehin Mojeed
-    url : https://blog.logrocket.com/author/ibadehinmojeed/
+    url: https://blog.logrocket.com/author/ibadehinmojeed/
 cover: /assets/image/blog.logrocket.com/modern-api-data-fetching-methods-react/banner.png
 ---
 

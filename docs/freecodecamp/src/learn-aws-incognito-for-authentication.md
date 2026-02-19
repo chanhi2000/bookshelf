@@ -29,7 +29,7 @@ date: 2025-03-14
 isOriginal: false
 author:
   - name: Rishi Tiwari (@TrickSumo)
-    url : https://youtube.com/@TrickSumo
+    url: https://youtube.com/@TrickSumo
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741916554049/a4eaed0e-83d3-4507-96eb-6ef7830de076.png
 ---
 

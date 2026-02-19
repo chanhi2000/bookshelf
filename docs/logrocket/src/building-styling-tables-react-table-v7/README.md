@@ -29,7 +29,7 @@ date: 2020-04-02
 isOriginal: false
 author:
   - name: John Au-Yeung
-    url : https://blog.logrocket.com/author/johnau-yeung/
+    url: https://blog.logrocket.com/author/johnau-yeung/
 cover: /assets/image/blog.logrocket.com/building-styling-tables-react-table-v7/banner.jpeg
 ---
 

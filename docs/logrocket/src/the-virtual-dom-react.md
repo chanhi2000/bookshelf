@@ -29,7 +29,7 @@ date: 2025-02-26
 isOriginal: false
 author:
   - name: Ibadehin Mojeed
-    url : https://blog.logrocket.com/author/ibadehinmojeed/
+    url: https://blog.logrocket.com/author/ibadehinmojeed/
 cover: /assets/image/blog.logrocket.com/the-virtual-dom-react/banner.png
 ---
 

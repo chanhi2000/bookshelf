@@ -24,7 +24,7 @@ date: 2019-02-19
 isOriginal: false
 author:
   - name: Shailesh Shekhawat
-    url : https://freecodecamp.org/news/author/
+    url: https://freecodecamp.org/news/author/
 cover: https://cdn-media-1.freecodecamp.org/images/1*IXaKMoKxyvrZs1prvukJvw.jpeg
 ---
 

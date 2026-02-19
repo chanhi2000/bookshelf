@@ -29,7 +29,7 @@ date: 2025-02-26
 isOriginal: false
 author:
   - name: Emmanuel John
-    url : https://blog.logrocket.com/author/emmanueljohn/
+    url: https://blog.logrocket.com/author/emmanueljohn/
 cover: /assets/image/blog.logrocket.com/react-usecallback/banner.png
 ---
 

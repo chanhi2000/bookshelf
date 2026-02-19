@@ -23,7 +23,7 @@ date: 2024-08-28
 isOriginal: false
 author:
   - name: Elizabeth Lola
-    url : https://freecodecamp.org/news/author/elizabethmeshioye/
+    url: https://freecodecamp.org/news/author/elizabethmeshioye/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724337698676/aa23c219-2ffb-4424-bb34-3195a905d973.jpeg
 ---
 

@@ -24,7 +24,7 @@ date: 2026-01-24
 isOriginal: false
 author:
   - name: Manish Shivanandhan
-    url : https://freecodecamp.org/news/author/manishshivanandhan/
+    url: https://freecodecamp.org/news/author/manishshivanandhan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769195226088/fd3080df-67b9-4366-9432-304fdf438f39.png
 ---
 
@@ -53,7 +53,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769195226088/fd3080d
 
 PDF files are everywhere. They’re used for reports, invoices, bank statements, research papers, and legal documents. While PDFs are easy to read for humans, they’re not easy to work with in code. Extracting text, splitting pages, or merging files often feels harder than it should be.
 
-This is where [PyPDF (<VPIcon icon="iconfont icon-github" />`py-pdf/pypdf`)](https://github.com/py-pdf/pypdf) helps. PyPDF is a popular Python library that lets you read, modify, and write PDF files. It’s lightweight, easy to learn, and works well for most common PDF tasks. If you have ever needed to extract text from a PDF, merge multiple PDFs, or protect a file with a password, PyPDF is a good place to start.
+This is where [PyPDF (<VPIcon icon="iconfont icon-github"/>`py-pdf/pypdf`)](https://github.com/py-pdf/pypdf) helps. PyPDF is a popular Python library that lets you read, modify, and write PDF files. It’s lightweight, easy to learn, and works well for most common PDF tasks. If you have ever needed to extract text from a PDF, merge multiple PDFs, or protect a file with a password, PyPDF is a good place to start.
 
 In this article, you’ll learn what PyPDF is, how it works, and how to use it through simple and practical examples. You’ll also learn how tools like [<VPIcon icon="fas fa-globe"/>PDFBoom](https://pdfboom.com/) handle PDF operations. This tutorial requires a basic understanding of [**Python**](/freecodecamp.org/learning-python-from-zero-to-hero-120ea540b567/).
 

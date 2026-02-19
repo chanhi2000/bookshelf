@@ -23,7 +23,7 @@ date: 2025-12-08
 isOriginal: false
 author:
   - name: Kevine Nzapdi
-    url : https://css-tricks.com/author/kevinenzapdi/
+    url: https://css-tricks.com/author/kevinenzapdi/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/11/apple-css.webp
 ---
 

@@ -26,7 +26,7 @@ date: 2025-09-06
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2013/12/Asciinema-Record-Linux-Terminal-Sessions.webp
 ---
 

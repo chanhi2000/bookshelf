@@ -23,7 +23,7 @@ date: 2025-02-25
 isOriginal: false
 author:
   - name: Samuel Martins
-    url : https://blog.logrocket.com/author/samuelmartins/
+    url: https://blog.logrocket.com/author/samuelmartins/
 cover: /assets/image/blog.logrocket.com/css-grid-template-columns/banner.png
 ---
 

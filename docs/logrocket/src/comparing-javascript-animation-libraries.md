@@ -25,7 +25,7 @@ date: 2020-04-22
 isOriginal: false
 author:
   - name: Andrew Evans
-    url : https://blog.logrocket.com/author/andrewevans/
+    url: https://blog.logrocket.com/author/andrewevans/
 cover: /assets/image/blog.logrocket.com/comparing-javascript-animation-libraries/banner.jpeg
 ---
 

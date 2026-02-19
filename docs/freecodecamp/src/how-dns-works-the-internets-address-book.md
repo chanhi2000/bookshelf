@@ -28,7 +28,7 @@ date: 2025-05-15
 isOriginal: false
 author:
   - name: Dhruv Prajapati
-    url : https://freecodecamp.org/news/author/dhruv-007/
+    url: https://freecodecamp.org/news/author/dhruv-007/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235471002/8fbe4d7e-f1cb-4faf-a6a5-8dcaf38d58f3.png
 ---
 

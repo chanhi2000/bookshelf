@@ -23,7 +23,7 @@ date: 2007-01-19
 isOriginal: false
 author:
   - name: Vitaly Friedman
-    url : https://smashingmagazine.com/author/vitaly-friedman/
+    url: https://smashingmagazine.com/author/vitaly-friedman/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e58c3388-15ae-423c-b65b-deecac750f66/02-css-style-guide-500.jpg
 ---
 

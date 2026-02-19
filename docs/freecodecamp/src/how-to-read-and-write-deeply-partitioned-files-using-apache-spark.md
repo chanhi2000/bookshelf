@@ -29,7 +29,7 @@ date: 2025-09-01
 isOriginal: false
 author:
   - name: Arun Shanmugam Kumar
-    url : https://freecodecamp.org/news/author/arunshanmugamkumar/
+    url: https://freecodecamp.org/news/author/arunshanmugamkumar/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756671369152/1e620925-6fb6-47fa-8344-86b9d3c7cd02.png
 ---
 

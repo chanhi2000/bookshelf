@@ -23,7 +23,7 @@ date: 2025-10-01
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2025/09/custom-light-dark-with-color-scheme-bramus-scaled.png
 ---
 
@@ -90,7 +90,7 @@ Usage is similar to the built-in `light-dark()`, but difference is that it can b
 
 ## The `color-scheme()` function
 
-Powering this custom `--light-dark()` function is the new `color-scheme()` function. It’s a new addition to CSS which [we only recently resolved on adding (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/10577#issuecomment-3329616811) with the CSS Working Group.
+Powering this custom `--light-dark()` function is the new `color-scheme()` function. It’s a new addition to CSS which [we only recently resolved on adding (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/10577#issuecomment-3329616811) with the CSS Working Group.
 
 The `color-scheme()` function allows you to query the *used* color scheme of an element. The function can be used in both `@container` queries and [<VPIcon icon="fa-brands fa-chrome"/>the new `if()`](https://developer.chrome.com/blog/if-article).
 

@@ -25,7 +25,7 @@ date: 2015-07-23
 isOriginal: false
 author:
   - name: Jessie Frazelle
-    url : https://docker.com/author/jess/
+    url: https://docker.com/author/jess/
 cover: https://docker.com/app/uploads/2015/07/oprah_binary.jpg
 ---
 

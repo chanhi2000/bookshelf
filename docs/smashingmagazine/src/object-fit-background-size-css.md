@@ -23,7 +23,7 @@ date: 2021-10-25
 isOriginal: false
 author:
   - name: Ahmad Shadeed
-    url : https://smashingmagazine.com/author/ahmad-shadeed/
+    url: https://smashingmagazine.com/author/ahmad-shadeed/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/19e7f717-46d5-4949-96f4-671f4744d0e1/object-fit-background-size-css.jpg
 ---
 

@@ -43,7 +43,7 @@ date: 2025-09-26
 isOriginal: false
 author:
   - name: Shrijal Acharya
-    url : https://freecodecamp.org/news/author/shricodev/
+    url: https://freecodecamp.org/news/author/shricodev/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758896336162/ed8b3c6b-2b3a-49ad-b60d-b2a42efbe19e.png
 ---
 
@@ -211,7 +211,7 @@ const connection = await composio.connectedAccounts.initiate(
 
 infoLog(
   "Please visit the following URL to authorize: ",
-  connection.redirectUrl ? connection.redirectUrl : "Something went wrong!",
+  connection.redirectUrl ? connection.redirecturl: "Something went wrong!",
 );
 ```
 

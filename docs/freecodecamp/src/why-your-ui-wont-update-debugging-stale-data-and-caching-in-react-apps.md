@@ -33,7 +33,7 @@ date: 2026-02-06
 isOriginal: false
 author:
   - name: Oluwadamisi Samuel
-    url : https://freecodecamp.org/news/author/Oluwadamisi/
+    url: https://freecodecamp.org/news/author/Oluwadamisi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770312709391/8442f6df-1133-47f7-a035-02c958145811.png
 ---
 
@@ -395,10 +395,7 @@ Open DevTools → Network → click the request → Response Headers
 ```component VPCard
 {
   "title": "RFC 9111: HTTP Caching",
-  "desc": "The Hypertext Transfer Protocol (HTTP) is a stateless application-level
-   protocol for distributed, collaborative, hypertext information systems.
-   This document defines HTTP caches and the associated header fields that
-   control cache behavior or indicate cacheable response messages. This document obsoletes RFC 7234.",
+  "desc": "The Hypertext Transfer Protocol (HTTP) is a stateless application-level protocol for distributed, collaborative, hypertext information systems. This document defines HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages. This document obsoletes RFC 7234.",
   "link": "https://rfc-editor.org/rfc/rfc9111/",
   "logo": "https://rfc-editor.org/favicon.ico",
   "background": "rgba(227,227,227,0.2)"

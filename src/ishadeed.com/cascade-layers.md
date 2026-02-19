@@ -23,7 +23,7 @@ date: 2022-02-11
 isOriginal: false
 author:
   - name: Ahmed Shadeed
-    url : https://ishadeed.com/about/
+    url: https://ishadeed.com/about/
 cover: https://ishadeed.com/assets/cascade-layers/twitter-card.jpg
 ---
 
@@ -432,7 +432,7 @@ If you want to switch themes, you can just **reorder the layers** in the first d
 
 ### Third party CSS
 
-I took an example that uses [flickity (<VPIcon icon="iconfont icon-github" />`metafizzy/flickity`)](https://github.com/metafizzy/flickity) carousel. Look at all those! important values.
+I took an example that uses [flickity (<VPIcon icon="iconfont icon-github"/>`metafizzy/flickity`)](https://github.com/metafizzy/flickity) carousel. Look at all those! important values.
 
 ```css
 .flickity-page-dots {

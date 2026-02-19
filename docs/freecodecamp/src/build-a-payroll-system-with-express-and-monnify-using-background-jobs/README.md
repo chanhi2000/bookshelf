@@ -33,7 +33,7 @@ date: 2026-01-15
 isOriginal: false
 author:
   - name: David Aniebo
-    url : https://freecodecamp.org/news/author/davidaniebo/
+    url: https://freecodecamp.org/news/author/davidaniebo/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768414407566/4384def7-fdc2-4274-888d-d5bd5bd5549b.png
 ---
 

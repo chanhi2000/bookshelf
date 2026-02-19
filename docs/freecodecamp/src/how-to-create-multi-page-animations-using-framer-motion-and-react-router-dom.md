@@ -29,7 +29,7 @@ date: 2024-06-17
 isOriginal: false
 author:
   - name: Okosa Leonard
-    url : https://freecodecamp.org/news/author/Okosaleo/
+    url: https://freecodecamp.org/news/author/Okosaleo/
 cover: https://freecodecamp.org/news/content/images/2024/06/Green-Abstract-Wavy-Background-Motivational-Quote-Facebook-Post.png
 ---
 

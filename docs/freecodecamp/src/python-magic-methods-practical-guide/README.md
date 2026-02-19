@@ -24,7 +24,7 @@ date: 2025-03-21
 isOriginal: false
 author:
   - name: Vivek Sahu
-    url : https://freecodecamp.org/news/author/viv1/
+    url: https://freecodecamp.org/news/author/viv1/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742482738702/0b357de2-855d-47c2-960f-453e0bfd9a3d.png
 ---
 

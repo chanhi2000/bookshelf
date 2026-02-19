@@ -29,7 +29,7 @@ date: 2025-02-17
 isOriginal: false
 author:
   - name: Adebiyi Adedotun
-    url : https://blog.logrocket.com/author/adebiyial/
+    url: https://blog.logrocket.com/author/adebiyial/
 cover: /assets/image/blog.logrocket.com/react-context-tutorial/banner.png
 ---
 

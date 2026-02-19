@@ -25,7 +25,7 @@ date: 2025-09-12
 isOriginal: false
 author:
   - name: Asfak Ahmed
-    url : https://freecodecamp.org/news/author/asfakahmed/
+    url: https://freecodecamp.org/news/author/asfakahmed/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757677089930/07115f35-ba9e-452a-bf95-3a96de7a5d24.png
 ---
 

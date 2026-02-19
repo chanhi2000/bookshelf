@@ -24,7 +24,7 @@ date: 2025-02-11
 isOriginal: false
 author:
   - name: Rosario De Chiara
-    url : https://blog.logrocket.com/author/rosariodechiara/
+    url: https://blog.logrocket.com/author/rosariodechiara/
 cover: /assets/image/blog.logrocket.com/guide-graceful-degradation-web-development/banner.png
 ---
 

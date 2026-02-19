@@ -19,11 +19,11 @@ head:
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/css-tricks.com/better-css-shapes-using-shape-part-1-lines-and-arcs.html
 prev: /programming/css/articles/README.md
-date: 2025-07-07
+date: 2025-05-23
 isOriginal: false
 author:
   - name: Temani Afif
-    url : https://css-tricks.com/author/afiftemani/
+    url: https://css-tricks.com/author/afiftemani/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/09/css-shapes.jpg
 ---
 
@@ -50,13 +50,11 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/09/css-shapes.jp
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/09/css-shapes.jpg"/>
 
-Creating CSS Shapes is a classic and one of my favorite exercise. Indeed, I have [<VPIcon icon="fas fa-globe"/>one of the biggest collections of CSS Shapes](https://css-shape.com/) from where you can easily copy the code of any shape. I also wrote an extensive guide on how to create them: **[The Modern Guide For Making CSS Shapes](https://smashingmagazine.com/2024/05/modern-guide-making-css-shapes/)**.
-
-<!-- TODO: /smashingmagazine.com/modern-guide-making-css-shapes.md -->
+Creating CSS Shapes is a classic and one of my favorite exercise. Indeed, I have [<VPIcon icon="fas fa-globe"/>one of the biggest collections of CSS Shapes](https://css-shape.com/) from where you can easily copy the code of any shape. I also wrote an extensive guide on how to create them: [**The Modern Guide For Making CSS Shapes**](/smashingmagazine.com/modern-guide-making-css-shapes.md).
 
 Even if I have detailed most of the modern techniques and tricks, CSS keeps evolving, and new stuff always emerges to simplify our developer life. Recently, `clip-path` was upgraded to have a new `shape()` value. A real game changer!
 
-::: info Series: Better CSS Shapes Using `shape()`
+::: info Series: Better CSS Shapes Using <code>shape()</code>
 
 ```component VPCard
 {
@@ -67,17 +65,44 @@ Even if I have detailed most of the modern techniques and tricks, CSS keeps evol
   "background": "rgba(17,17,17,0.2)"
 }
 ```
-2. [More on Arcs](https://css-tricks.com/better-css-shapes-using-shape-part-2-more-on-arcs/)
-3. [Curves](https://css-tricks.com/better-css-shapes-using-shape-part-3-curves/)
-4. [Close and Move](https://css-tricks.com/better-css-shapes-using-shape-part-4-close-and-move/)
+
+```component VPCard
+{
+  "title": "Better CSS Shapes Using shape() — Part 2: More on Arcs",
+  "desc": "This is the second part of a series that dives deep into the CSS shape() command, continuing with a more detailed look at the arc command.",
+  "link": "/css-tricks.com/better-css-shapes-using-shape-part-2-more-on-arcs.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Better CSS Shapes Using shape() — Part 3: Curves",
+  "desc": "This is the third article in a series about the CSS shape() function. We've covered drawing lines and arcs in previous articles and, this time, we look specifically at the curve command and how to use it for drawing complex shapes.",
+  "link": "/css-tricks.com/better-css-shapes-using-shape-part-3-curves.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Better CSS Shapes Using shape() — Part 4: Close and Move",
+  "desc": "The shape() function's close and move commands may not be ones you reach for often, but are incredibly useful for certain shapes.",
+  "link": "/css-tricks.com/better-css-shapes-using-shape-part-4-close-and-move.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
 
 :::
 
 Before we jump in, it’s worth calling out that the `shape()` function is currently only supported in Chrome 137+ and Safari 18.4+ as I’m writing this in May 2025. ### `?
 
-Let me quote the description from [the official specification](https://drafts.csswg.org/css-shapes-2/#shape-function):
+Let me quote the description from [<VPIcon icon="iconfont icon-w3c"/>the official specification](https://drafts.csswg.org/css-shapes-2/#shape-function):
 
-::: info CSS Shapes Module Level 2 (<VPIcon icon="fas fa-globe"/><code>drafts.csswg.org></code>)
+::: info CSS Shapes Module Level 2 (<VPIcon icon="iconfont icon-w3c"/><code>drafts.csswg.org></code>)
 
 > While the `path()` function allows reuse of the SVG path syntax to define more arbitrary shapes than allowed by more specialized shape functions, it requires writing a path as a single string (which is not compatible with, for example, building a path piecemeal with var()), and inherits a number of limitations from SVG, such as implicitly only allowing the px unit.
 > 
@@ -485,7 +510,7 @@ Don’t forget to bookmark the [<VPIcon icon="fas fa-globe"/>SVG to CSS converte
   :default-tab="['css','result']"
   :theme="dark"/>
 
-::: info Series: Better CSS Shapes Using `shape()`
+::: info Series: Better CSS Shapes Using <code>shape()</code>
 
 ```component VPCard
 {
@@ -496,9 +521,38 @@ Don’t forget to bookmark the [<VPIcon icon="fas fa-globe"/>SVG to CSS converte
   "background": "rgba(17,17,17,0.2)"
 }
 ```
-2. [More on Arcs](https://css-tricks.com/better-css-shapes-using-shape-part-2-more-on-arcs/)
-3. [Curves](https://css-tricks.com/better-css-shapes-using-shape-part-3-curves/)
-4. [Close and Move](https://css-tricks.com/better-css-shapes-using-shape-part-4-close-and-move/)
+
+```component VPCard
+{
+  "title": "Better CSS Shapes Using shape() — Part 2: More on Arcs",
+  "desc": "This is the second part of a series that dives deep into the CSS shape() command, continuing with a more detailed look at the arc command.",
+  "link": "/css-tricks.com/better-css-shapes-using-shape-part-2-more-on-arcs.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Better CSS Shapes Using shape() — Part 3: Curves",
+  "desc": "This is the third article in a series about the CSS shape() function. We've covered drawing lines and arcs in previous articles and, this time, we look specifically at the curve command and how to use it for drawing complex shapes.",
+  "link": "/css-tricks.com/better-css-shapes-using-shape-part-3-curves.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Better CSS Shapes Using shape() — Part 4: Close and Move",
+  "desc": "The shape() function's close and move commands may not be ones you reach for often, but are incredibly useful for certain shapes.",
+  "link": "/css-tricks.com/better-css-shapes-using-shape-part-4-close-and-move.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

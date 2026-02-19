@@ -23,7 +23,7 @@ date: 2019-03-28
 isOriginal: false
 author:
   - name: Rachel Andrew
-    url : https://smashingmagazine.com/author/rachel-andrew/
+    url: https://smashingmagazine.com/author/rachel-andrew/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2c8db6a0-0bfc-4d2d-8e9d-920d345a195f/rachel-andrew-css-alignment.png
 ---
 
@@ -69,7 +69,7 @@ In the example below, I have some text with a larger inline image. I am using `v
   slug-hash="jJJLBR"
   title="Vertical Alignment example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### The `line-height` Property And Alignment
 
@@ -80,7 +80,7 @@ Remember that the `line-height` property will change the size of the line-box an
   slug-hash="eXXGOB"
   title="Vertical Alignment and line-height"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It turns out that `line-height` and indeed the size of text is pretty complicated, and I’m not going to head down that rabbit hole in this article. If you are trying to precisely align inline elements and want to really understand what is going on, I recommend reading “[<VPIcon icon="fas fa-globe"/>Deep Dive CSS: Font Metrics, `line-height` And `vertical-align`](https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align).”
 
@@ -95,7 +95,7 @@ The `vertical-align` property has no effect on flex or grid items, and therefore
   slug-hash="QoPMYR"
   title="inline-block and vertical-align"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this next pen, I have treated the `inline-block` as a fallback for Flex layout. The alignment properties no longer apply, and I can add `align-items` to align the items in Flexbox. You can tell that the Flexbox method is in play because the gap between items that you will get when using `display: inline-block` is gone.
 
@@ -104,7 +104,7 @@ In this next pen, I have treated the `inline-block` as a fallback for Flex layou
   slug-hash="xBeLBg"
   title="inline-block flex fallback"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The fact that `vertical-align` works on table cells is the reason that the trick to [<VPIcon icon="fas fa-globe"/>vertically center an item using `display: table-cell` works](https://vanseodesign.com/blog/demo/vertical-centering/table-cell.php).
 
@@ -159,7 +159,7 @@ Below, I have a flex example and a grid example. Both have a container which is 
   slug-hash="gEyGaQ"
   title="justify-content and align-content"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Moving Items Around: `justify-self`, `align-self`, `justify-items` And `align-items`
 
@@ -183,7 +183,7 @@ Play around with the values in the CodePen demo to see how you can shift content
   slug-hash="xBejYV"
   title="justify-self, align-self, justify-items, align-items"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -202,7 +202,7 @@ The below example has two grid layouts. One has `writing-mode: horizontal-tb` (w
   slug-hash="rRbYmr"
   title="Grid Block Axis Alignment"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To align things in the inline direction, use the properties which begin with `justify-`. Use `justify-content` to distribute space between grid tracks, and `justify-items` or `justify-self` to align items inside their grid area in the inline direction.
 
@@ -213,7 +213,7 @@ Once again, I have two grid layout examples so that you can see that inline is a
   slug-hash="eXoeEK"
   title="Grid Inline Alignment"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Flexbox is a little trickier due to the fact that we have a main axis which can be changed to `row` or `column`. So, let’s first think about that main axis. It is set with the `flex-direction` property. The initial (or default) value of this property is `row` which will lay the flex items out as a row in the writing mode currently in use — this is why when working in English, we end up with items laid out horizontally when we create a flex container. You can then change the main axis to `flex-direction: column` and the items will be laid out as a column which means they are laid out in the block direction for that writing mode.
 
@@ -224,7 +224,7 @@ As we can do this axis switching, the most important factor in Flexbox is asking
   slug-hash="pYBdda"
   title="justfy-content in Flexbox"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 On the cross axis, you can use `align-items` which will align the items inside the flex container or flex line in a multi-line flex container. If you have a multi-line container using `flex-wrap: wrap` *and* have space in that container, you can use `align-content` to distribute the space on the cross axis.
 
@@ -235,7 +235,7 @@ In the example below, we are doing both with a flex container displayed as a row
   slug-hash="mogqLP"
   title="Cross axis alignment in Flexbox"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -280,7 +280,7 @@ An auto margin will take up all of the space in the direction it is applied, whi
   slug-hash="wOZmBG"
   title="Alignment with auto margins"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -293,7 +293,7 @@ One of the things I think is often overlooked is how useful Flexbox is for doing
   slug-hash="aMxYWQ"
   title="inline-flex example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There is no reason not to use Flexbox, or even Grid for tiny layout jobs. They aren’t just for big chunks of layout. Try the different things available to you, and see what works best.
 

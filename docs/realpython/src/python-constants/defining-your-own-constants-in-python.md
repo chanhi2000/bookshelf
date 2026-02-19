@@ -22,7 +22,7 @@ date: 2025-01-19
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Python-Constants_Watermarked.4cc3aa373268.jpg
 ---
 
@@ -107,7 +107,7 @@ Using uppercase letters makes your constants stand out from your variables. This
 
 As a general naming recommendation, avoid abbreviated names when defining constants. The purpose of a constant’s name is to *clarify the meaning* of the constant’s value so that you can reuse it later. This goal demands descriptive names. Avoid using single-letter names, uncommon abbreviations, and generic names like `NUMBER` or `MAGNITUDE`.
 
-The recommended practice is to define constants at the top of any `.py` file right after any [**`import`**](/realpython.com/python-import.md) statements. This way, people reading your code will immediately know the constants’ purpose and expected treatment.
+The recommended practice is to define constants at the top of any `.py` file right after any [**`import`**](/realpython.com/python-import/README.md) statements. This way, people reading your code will immediately know the constants’ purpose and expected treatment.
 
 ---
 
@@ -148,7 +148,7 @@ In this example, `__all__` defines up front the list of names that Python will i
 
 The `from module import *` construct allows you to import all the names defined in a given module in one go. The `__all__` attribute restricts the imported names to only those in the underlying list.
 
-The Python community strongly [<VPIcon icon="fa-brands fa-python"/>discourages](https://peps.python.org/pep-0008/#imports) this `import` construct, commonly known as **wildcard imports**, because it tends to clutter your current [**namespace**](/realpython.com/python-namespaces-scope.md) with names that you probably won’t use in your code.
+The Python community strongly [<VPIcon icon="fa-brands fa-python"/>discourages](https://peps.python.org/pep-0008/#imports) this `import` construct, commonly known as **wildcard imports**, because it tends to clutter your current [**namespace**](/realpython.com/python-namespace.md) with names that you probably won’t use in your code.
 
 :::
 

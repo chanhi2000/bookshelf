@@ -24,7 +24,7 @@ date: 2024-06-17
 isOriginal: false
 author:
   - name: Ricky White
-    url : https://realpython.com/team/rwhite/
+    url: https://realpython.com/team/rwhite/
 cover: https://files.realpython.com/media/Showcase-Ruff-Linter_Watermarked.71e600eb11de.jpg
 ---
 

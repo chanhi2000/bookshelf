@@ -36,7 +36,7 @@ date: 2025-02-27
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2013/08/Reduce-RAM-CPU-Usage-on-Linux.png
 ---
 

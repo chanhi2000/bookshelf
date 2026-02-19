@@ -23,7 +23,7 @@ date: 2021-06-24
 isOriginal: false
 author:
   - name: Iris Lješnjanin
-    url : https://smashingmagazine.com/author/iris-ljesnjanin/
+    url: https://smashingmagazine.com/author/iris-ljesnjanin/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/128fa8b4-643a-45f2-a37b-aabd7fececf1/4-complexity.png
 ---
 
@@ -56,7 +56,16 @@ How large is your CSS? How repetitive is it? What about your CSS specificity sco
 
 ::: info More On CSS
 
-- [**CSS Generators**](/smashingmagazine.com/css-generators.md)
+```component VPCard
+{
+  "title": "CSS Generators",
+  "desc": "In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. This time Iris Lješnjanin brings you CSS Generators: from CSS shadows to easing gradients to CSS overlays to CSS doodles.",
+  "link": "/smashingmagazine.com/css-generators.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - [Comprehensive Guide To CSS Layout](https://smashingmagazine.com/guides/css-layout/)
 - [**Managing CSS Z-Index**](/smashingmagazine.com/css-z-index-large-projects.md)
 
@@ -103,7 +112,7 @@ The tool highlights **duplicated selectors and properties**, old IE fixes, old v
 
 ![[<VPIcon icon="fas fa-globe"/>Yellow Lab Tools](https://yellowlab.tools/) also shows duplicated selectors and how often they are duplicated, so you can check them immediately.<br/>([<VPIcon icon="fas fa-file-image"/>Large preview](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e893b895-2cf2-4f18-a083-6dc1b787dbeb/3-duplicated-selectors.png))](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e893b895-2cf2-4f18-a083-6dc1b787dbeb/3-duplicated-selectors.png)
 
-We can go a bit deeper though. Once you tap into the overview of old vendor prefixes, you can not only check the offenders but also **which browsers** these prefixes are accommodating for. Then you can head to your [Browserslist configuration (<VPIcon icon="iconfont icon-github" />`browserslist/browserslist`)](https://github.com/browserslist/browserslist) to double-check if you aren’t serving too many vendor prefixes, and test your configuration on [<VPIcon icon="fas fa-globe"/>Browsersl.ist](https://browserl.ist/) or via Terminal.
+We can go a bit deeper though. Once you tap into the overview of old vendor prefixes, you can not only check the offenders but also **which browsers** these prefixes are accommodating for. Then you can head to your [Browserslist configuration (<VPIcon icon="iconfont icon-github"/>`browserslist/browserslist`)](https://github.com/browserslist/browserslist) to double-check if you aren’t serving too many vendor prefixes, and test your configuration on [<VPIcon icon="fas fa-globe"/>Browsersl.ist](https://browserl.ist/) or via Terminal.
 
 ---
 
@@ -127,7 +136,7 @@ Unlike other tools, [<VPIcon icon="fas fa-globe"/>Project Wallace](https://proje
 
 ## Parker
 
-Katie Fenn’s [Parker (<VPIcon icon="iconfont icon-github" />`katiefenn/parker`)](https://github.com/katiefenn/parker) is a command-line stylesheet analysis tool that runs metrics on your stylesheets and reports on their complexity. It runs on Node.js, and, unlike CSS Stats, you can run it to measure your local files, e.g. as a part of your build process.
+Katie Fenn’s [Parker (<VPIcon icon="iconfont icon-github"/>`katiefenn/parker`)](https://github.com/katiefenn/parker) is a command-line stylesheet analysis tool that runs metrics on your stylesheets and reports on their complexity. It runs on Node.js, and, unlike CSS Stats, you can run it to measure your local files, e.g. as a part of your build process.
 
 ---
 

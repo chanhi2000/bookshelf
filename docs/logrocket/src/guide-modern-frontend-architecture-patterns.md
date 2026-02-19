@@ -25,7 +25,7 @@ date: 2025-02-12
 isOriginal: false
 author:
   - name: Shalitha Suranga
-    url : https://blog.logrocket.com/author/shalithasuranga/
+    url: https://blog.logrocket.com/author/shalithasuranga/
 cover: /assets/image/guide-blog.logrocket.com/modern-frontend-architecture-patterns/banner.png
 ---
 

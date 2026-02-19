@@ -23,7 +23,7 @@ date: 2024-09-25
 isOriginal: false
 author:
   - name: Obum
-    url : https://freecodecamp.org/news/author/obumnwabude/
+    url: https://freecodecamp.org/news/author/obumnwabude/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727130776096/a52147fe-e05a-45e7-af73-9f7a9a8510b5.png
 ---
 

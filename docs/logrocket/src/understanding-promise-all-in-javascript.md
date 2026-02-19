@@ -24,7 +24,7 @@ date: 2020-08-20
 isOriginal: false
 author:
   - name: Leonardo Maldonado
-    url : https://blog.logrocket.com/author/leonardomaldonado/
+    url: https://blog.logrocket.com/author/leonardomaldonado/
 cover: /assets/image/blog.logrocket.com/understanding-promise-all-in-javascript/banner.png
 ---
 

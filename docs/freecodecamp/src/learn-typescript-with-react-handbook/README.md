@@ -24,7 +24,7 @@ date: 2025-02-08
 isOriginal: false
 author:
   - name: oghenekparobo Stephen
-    url : https://freecodecamp.org/news/author/Xtephen/
+    url: https://freecodecamp.org/news/author/Xtephen/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738941922431/cfb485ae-1c59-415a-ad56-393a9803d4d8.png
 ---
 

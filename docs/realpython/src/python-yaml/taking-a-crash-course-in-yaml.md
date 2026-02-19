@@ -22,7 +22,7 @@ date: 2024-12-14
 isOriginal: false
 author:
   - name: Bartosz Zaczyński
-    url : https://realpython.com/team/bzaczynski/
+    url: https://realpython.com/team/bzaczynski/
 cover: https://files.realpython.com/media/YAML-in-Python_Watermarked.9dec9dfe8fd1.jpg
 ---
 
@@ -363,7 +363,7 @@ person: !!python/object:package_name.module_name.ClassName
   last_name: Doe
 ```
 
-The use of the `!!str` tag next to a date object makes YAML treat it as a regular string. Question marks (`?`) denote a mapping key in YAML. They’re usually unnecessary but can help you define a compound key from another collection or a key that contains reserved characters. In this case, you want to define blank keys to create a [**set data structure**](/realpython.com/python-sets.md), which is equivalent to a mapping without the keys.
+The use of the `!!str` tag next to a date object makes YAML treat it as a regular string. Question marks (`?`) denote a mapping key in YAML. They’re usually unnecessary but can help you define a compound key from another collection or a key that contains reserved characters. In this case, you want to define blank keys to create a [**set data structure**](/realpython.com/python-sets/README.md), which is equivalent to a mapping without the keys.
 
 Moreover, you can use the `!!binary` tag to embed [<VPIcon icon="fa-brands fa-wikipedia-w"/>Base64-encoded](https://en.wikipedia.org/wiki/Base64) binary files such as images or other resources, which will become instances of [**`bytes`**](/realpython.com/python-strings.md#bytes-objects) in Python. The tags prefixed with `!!python/` are provided by PyYAML.
 

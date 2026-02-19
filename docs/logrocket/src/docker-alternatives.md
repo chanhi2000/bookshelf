@@ -31,7 +31,7 @@ date: 2025-02-21
 isOriginal: false
 author:
   - name: Ayooluwa Isaiah
-    url : https://blog.logrocket.com/author/ayooluwaisaiah/
+    url: https://blog.logrocket.com/author/ayooluwaisaiah/
 cover: https://blog.logrocket.com/wp-content/uploads/2022/10/DockerAlternatives_FeaturedImage.png
 ---
 

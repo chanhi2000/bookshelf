@@ -29,7 +29,7 @@ date: 2025-09-25
 isOriginal: false
 author:
   - name: Olaleye Blessing
-    url : https://freecodecamp.org/news/author/Jongbo/
+    url: https://freecodecamp.org/news/author/Jongbo/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758741256644/817dba0f-bf49-424c-9b13-86bf81dc327f.png
 ---
 

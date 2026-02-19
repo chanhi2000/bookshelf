@@ -105,7 +105,7 @@ We introduce **Differential Transformer V2** (DIFF V2), an improved version of [
 
 Key improvements:
 
-1. **Faster Inference & No Need of Custom Attention Kernels** Instead of forcing the attention parameter count to match the baseline [<VPIcon icon="iconfont icon-arxiv"/>Transformer](https://arxiv.org/abs/1706.03762) (as in DIFF V1), we introduce additional parameters (borrowed from other parts of the model) for $Q_2$​. This design allows DIFF V2 to match the baseline Transformer's decoding speed and directly use [FlashAttention (<VPIcon icon="iconfont icon-github" />`Dao-AILab/flash-attention`)](https://github.com/Dao-AILab/flash-attention) without custom kernels.
+1. **Faster Inference & No Need of Custom Attention Kernels** Instead of forcing the attention parameter count to match the baseline [<VPIcon icon="iconfont icon-arxiv"/>Transformer](https://arxiv.org/abs/1706.03762) (as in DIFF V1), we introduce additional parameters (borrowed from other parts of the model) for $Q_2$​. This design allows DIFF V2 to match the baseline Transformer's decoding speed and directly use [FlashAttention (<VPIcon icon="iconfont icon-github"/>`Dao-AILab/flash-attention`)](https://github.com/Dao-AILab/flash-attention) without custom kernels.
 2. **Improved Training Stability** We remove the per-head RMSNorm after differential attention. We find the per-head RMSNorm can lead to instability in later stages of large-scale pretraining of LLM.
 3. **Simpler Parameterization & Initialization** We replace the globally shared $\lambda$ with a token-specific, head-wise projected $\lambda$. This eliminates the exponential re-parameterization and initialization of $\lambda$.
 
@@ -178,7 +178,7 @@ def DiffAttnV2(
     return attn
 ```
 
-Full code at: [unilm/Diff-Transformer/Diff-Transformer-V2 at master · microsoft/unilm (<VPIcon icon="iconfont icon-github" />`microsoft/unilm`)](https://github.com/microsoft/unilm/tree/master/Diff-Transformer/Diff-Transformer-V2) In the script, `h` represents number of query heads, `h_kv` represents number of key-value heads, and `d` means head dimension. The $\lambda$ in DIFF V2 is projected from $X$ for each token each head.
+Full code at: [unilm/Diff-Transformer/Diff-Transformer-V2 at master · microsoft/unilm (<VPIcon icon="iconfont icon-github"/>`microsoft/unilm`)](https://github.com/microsoft/unilm/tree/master/Diff-Transformer/Diff-Transformer-V2) In the script, `h` represents number of query heads, `h_kv` represents number of key-value heads, and `d` means head dimension. The $\lambda$ in DIFF V2 is projected from $X$ for each token each head.
 
 DIFF V2 doubles number of query heads while maintaining number of key value heads, and the extra dimension is reduced back to `h*d` after the differential operation so the $W_O$​ projection remains the same as baseline Transformer.
 
@@ -190,7 +190,7 @@ DIFF V2 doubles number of query heads while maintaining number of key value head
 
 DIFF V2 introduces additional query heads compared to the baseline Transformer, **but does not increase the number of key-value (KV) heads**. Since LLM decoding is typically memory-bound, this design allows DIFF V2 to achieve decoding speeds on par with standard Transformer. **Besides, since head dimension is aligned between query, key and value, there is no need for custom attention kernels for DIFF V2**. In contrast, DIFF V1 can be slower during decoding because the value cache must be loaded twice, and a custom attention kernel is needed. DIFF V2 can also increase the arithmetic intensity of the attention module during decoding.
 
-**During pretraining**, when using cutting-edge FlashAttention kernels on H-series and B-series GPUs, the throughput reduction introduced by DIFF V2 is negligible. **For long-sequence prefilling**, we recommend combining DIFF V2 with techniques such as [YOCO](https://arxiv.org/abs/2405.05254) (also used in [Gemma 3n (<VPIcon icon="iconfont icon-github" />`huggingface/transformers`)](https://github.com/huggingface/transformers/blob/main/src/transformers/models/gemma3n/modeling_gemma3n.py)), which already reduces prefilling complexity to linear time with respect to sequence length.
+**During pretraining**, when using cutting-edge FlashAttention kernels on H-series and B-series GPUs, the throughput reduction introduced by DIFF V2 is negligible. **For long-sequence prefilling**, we recommend combining DIFF V2 with techniques such as [YOCO](https://arxiv.org/abs/2405.05254) (also used in [Gemma 3n (<VPIcon icon="iconfont icon-github"/>`huggingface/transformers`)](https://github.com/huggingface/transformers/blob/main/src/transformers/models/gemma3n/modeling_gemma3n.py)), which already reduces prefilling complexity to linear time with respect to sequence length.
 
 **An alternative perspective is to compare DIFF V2 with a Transformer that has the same query dimension** `2h*d`. Under this comparison, both models exhibit same attention kernel speed, while DIFF V2 has less parameters and flops in output projection.
 

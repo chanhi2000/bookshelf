@@ -30,7 +30,7 @@ date: 2026-02-06
 isOriginal: false
 author:
   - name: David J. Malan
-    url : https://cs50.harvard.edu/
+    url: https://cs50.harvard.edu/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770311427284/e63d5d11-e815-41e2-88c5-50c9ac969098.jpeg
 ---
 

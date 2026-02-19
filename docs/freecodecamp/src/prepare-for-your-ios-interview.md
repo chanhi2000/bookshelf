@@ -27,7 +27,7 @@ date: 2025-05-09
 isOriginal: false
 author:
   - name: Richard Topchii (@richardtopchii)
-    url : https://youtube.com/@richardtopchii
+    url: https://youtube.com/@richardtopchii
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746737982577/1c47e446-ea9d-4e63-a54d-55c6d49e0b53.png
 ---
 

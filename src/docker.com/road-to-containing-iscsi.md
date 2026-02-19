@@ -25,7 +25,7 @@ date: 2019-07-16
 isOriginal: false
 author:
   - name: Anusha Ragunathan
-    url : https://docker.com/author/anusha-ragunathan/
+    url: https://docker.com/author/anusha-ragunathan/
 cover: https://docker.com/app/uploads/engineering/2019/07/blog_iSCSI_components-1-533x300.png
 ---
 

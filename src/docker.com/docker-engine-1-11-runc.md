@@ -25,7 +25,7 @@ date: 2016-04-13
 isOriginal: false
 author:
   - name: Arnaud Porterie
-    url : https://docker.com/author/arnaud/
+    url: https://docker.com/author/arnaud/
 cover: https://docker.com/app/uploads/2022/12/docker-engine-1-11-runc-1.png
 ---
 

@@ -23,7 +23,7 @@ date: 2025-02-25
 isOriginal: false
 author:
   - name: James Stuckey Weber
-    url : https://oddbird.net/authors/james/
+    url: https://oddbird.net/authors/james/
 cover: https://oddbird.net/assets/images/blog/2025/anchor-grid-1600w.jpeg
 ---
 

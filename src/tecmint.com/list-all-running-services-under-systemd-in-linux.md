@@ -29,7 +29,7 @@ date: 2025-09-02
 isOriginal: false
 author:
   - name: Aaron Kili
-    url : https://tecmint.com/author/aaronkili/
+    url: https://tecmint.com/author/aaronkili/
 cover: https://tecmint.com/wp-content/uploads/2019/08/List-Systemd-Running-Services-in-Linux.png
 ---
 

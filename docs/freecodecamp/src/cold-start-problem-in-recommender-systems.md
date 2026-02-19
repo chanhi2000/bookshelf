@@ -25,7 +25,7 @@ date: 2025-02-26
 isOriginal: false
 author:
   - name: Praise James
-    url : https://freecodecamp.org/news/author/techwithpraisejames/
+    url: https://freecodecamp.org/news/author/techwithpraisejames/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740509206117/308696ac-788a-4545-b7dd-0e2352e33436.png
 ---
 

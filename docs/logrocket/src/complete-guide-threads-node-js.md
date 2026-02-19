@@ -25,7 +25,7 @@ date: 2023-01-27
 isOriginal: false
 author:
   - name: Maciej Cieślar
-    url : https://blog.logrocket.com/author/maciejcieslar/
+    url: https://blog.logrocket.com/author/maciejcieslar/
 cover: https://blog.logrocket.com/wp-content/uploads/2019/03/complete-guide-threads-node-js.png
 ---
 

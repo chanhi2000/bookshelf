@@ -26,7 +26,7 @@ date: 2025-08-01
 isOriginal: false
 author:
   - name: Dave Altena
-    url : https://www.linkedin.com/in/dave-altena/
+    url: https://www.linkedin.com/in/dave-altena/
 cover: https://static.learnkube.com/97fccaca51ca06540a85ca3180dd6684.png
 ---
 

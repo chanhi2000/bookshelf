@@ -29,7 +29,7 @@ date: 2025-05-12
 isOriginal: false
 author:
   - name: Avanthika Meenakshi
-    url : https://blog.logrocket.com/author/avanthikameenakshi/
+    url: https://blog.logrocket.com/author/avanthikameenakshi/
 cover: /assets/image/blog.logrocket.com/websocket-tutorial-socket-io/banner.jpg
 ---
 
@@ -138,7 +138,7 @@ As mentioned in the introduction, the WebSocket protocol has only two agendas:
 
 Let’s see how WebSockets fulfill those agendas. To do that, I’m going to spin off a Node.js server and [**connect it to a client built with React**](https://blog.logrocket.com/websockets-two-way-communication-react-app.md).
 
-First, download or clone [this GitHub repository (<VPIcon icon="iconfont icon-github" />`codezri/react-node-websockets-demo`)](https://github.com/codezri/react-node-websockets-demo) onto your computer. This repository contains the source code of the sample collaborative document editing app. Open it with your favorite code editor. You will see two directories as follows:
+First, download or clone [this GitHub repository (<VPIcon icon="iconfont icon-github"/>`codezri/react-node-websockets-demo`)](https://github.com/codezri/react-node-websockets-demo) onto your computer. This repository contains the source code of the sample collaborative document editing app. Open it with your favorite code editor. You will see two directories as follows:
 
 ```plaintext
 server: A Node.js WebSocket server that handles the document editor’s backend logic
@@ -186,9 +186,9 @@ server.listen(port, () => {
 });
 ```
 
-In the sample project, I used the popular [ws library (<VPIcon icon="iconfont icon-github" />`websockets/ws`)](https://github.com/websockets/ws) to attach a WebSocket server instance to an HTTP server instance. Once the WebSocket server is attached to the HTTP server instance, it will accept the incoming WebSocket connection requests by upgrading the protocol from HTTP to WebSocket.
+In the sample project, I used the popular [ws library (<VPIcon icon="iconfont icon-github"/>`websockets/ws`)](https://github.com/websockets/ws) to attach a WebSocket server instance to an HTTP server instance. Once the WebSocket server is attached to the HTTP server instance, it will accept the incoming WebSocket connection requests by upgrading the protocol from HTTP to WebSocket.
 
-I maintain all the connected clients as an object in my code with a unique key generated via the [`uuid` package (<VPIcon icon="iconfont icon-github" />`uuidjs/uuid`)](https://github.com/uuidjs/uuid) on receiving their request from the browser:
+I maintain all the connected clients as an object in my code with a unique key generated via the [`uuid` package (<VPIcon icon="iconfont icon-github"/>`uuidjs/uuid`)](https://github.com/uuidjs/uuid) on receiving their request from the browser:
 
 ```js
 // I'm maintaining all active connections in this object
@@ -799,7 +799,7 @@ Doesn’t offer React-specific APIs. Doesn’t implement fallback transport meth
 
 ::: note N.B.
 
-Bundle size increments were calculated using the [BundlePhobia (<VPIcon icon="iconfont icon-github" />`pastelsky/bundlephobia`)](https://github.com/pastelsky/bundlephobia) npm package size calculator tool.
+Bundle size increments were calculated using the [BundlePhobia (<VPIcon icon="iconfont icon-github"/>`pastelsky/bundlephobia`)](https://github.com/pastelsky/bundlephobia) npm package size calculator tool.
 
 <SiteInfo
   name="pastelsky/bundlephobia"

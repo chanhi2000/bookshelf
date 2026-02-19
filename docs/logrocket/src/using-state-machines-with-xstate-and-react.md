@@ -29,7 +29,7 @@ date: 2021-05-04
 isOriginal: false
 author:
   - name: Ishan Manandhar
-    url : https://blog.logrocket.com/author/ishan-manandhar/
+    url: https://blog.logrocket.com/author/ishan-manandhar/
 cover: /assets/image/blog.logrocket.com/using-state-machines-with-xstate-and-react/banner.png
 ---
 

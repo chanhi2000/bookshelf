@@ -27,7 +27,7 @@ date: 2025-01-23
 isOriginal: false
 author:
   - name: David Clinton
-    url : https://freecodecamp.org/news/author/dbclinton/
+    url: https://freecodecamp.org/news/author/dbclinton/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737640179567/36b76fb3-3e9f-4124-a4d5-bb7d11428a6c.png
 ---
 

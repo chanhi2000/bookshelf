@@ -25,7 +25,7 @@ date: 2017-07-18
 isOriginal: false
 author:
   - name: Victor Coisne
-    url : https://docker.com/author/victor_c/
+    url: https://docker.com/author/victor_c/
 cover: https://docker.com/app/uploads/ssh.gif
 ---
 

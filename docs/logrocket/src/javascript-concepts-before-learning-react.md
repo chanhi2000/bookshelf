@@ -29,7 +29,7 @@ date: 2020-06-23
 isOriginal: false
 author:
   - name: Sebastian Weber
-    url : https://blog.logrocket.com/author/sebastianweber/
+    url: https://blog.logrocket.com/author/sebastianweber/
 cover: /assets/image/blog.logrocket.com/javascript-concepts-before-learning-react/banner.png
 ---
 

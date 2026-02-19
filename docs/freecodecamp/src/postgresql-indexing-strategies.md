@@ -4,14 +4,16 @@ title: Advanced Indexing Strategies in PostgreSQL
 description: Article(s) > Advanced Indexing Strategies in PostgreSQL
 icon: iconfont icon-postgresql
 category: 
+  - Data Science
   - PostgreSQL
   - Article(s)
 tag: 
   - blog
   - freecodecamp.org
+  - data-science
+  - sql
   - postgres
   - postgresql
-  - sql
 head:
   - - meta:
     - property: og:title

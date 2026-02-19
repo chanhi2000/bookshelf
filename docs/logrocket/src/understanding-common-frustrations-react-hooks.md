@@ -29,7 +29,7 @@ date: 2021-04-26
 isOriginal: false
 author:
   - name: Paul Cowan
-    url : https://blog.logrocket.com/author/paulcowan/
+    url: https://blog.logrocket.com/author/paulcowan/
 cover: /assets/image/blog.logrocket.com/understanding-common-frustrations-react-hooks/banner.png
 ---
 

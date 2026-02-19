@@ -26,7 +26,7 @@ date: 2024-09-23
 isOriginal: false
 author:
   - name: Nikolaos Panagopoulos
-    url : https://freecodecamp.org/news/author/kerneldevgr/
+    url: https://freecodecamp.org/news/author/kerneldevgr/
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/iar-afB0QQw/upload/7b7f724f7260216b7427408112d5f8c4.jpeg
 ---
 
@@ -80,7 +80,7 @@ if you want to follow along with the code shown in this article, you’ll need:
 - A text editor of your choice
 - An emulator installed. For this example I use QEMU.
 - FASM assembler installed
-- Git to be able to clone the repository ([https://github.com/nikolaospanagopoulos/memoryMapBoot (<VPIcon icon="iconfont icon-github" />`nikolaospanagopoulos/memoryMapBoot`)](https://github.com/nikolaospanagopoulos/memoryMapBoot))
+- Git to be able to clone the repository ([https://github.com/nikolaospanagopoulos/memoryMapBoot (<VPIcon icon="iconfont icon-github"/>`nikolaospanagopoulos/memoryMapBoot`)](https://github.com/nikolaospanagopoulos/memoryMapBoot))
 
 :::
 

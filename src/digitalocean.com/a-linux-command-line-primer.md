@@ -24,7 +24,7 @@ date: 2020-12-08
 isOriginal: false
 author:
   - name: Lisa Tagliaferri
-    url : https://digitalocean.com//community/users/ltagliaferri
+    url: https://digitalocean.com//community/users/ltagliaferri
 cover: https://digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg
 ---
 

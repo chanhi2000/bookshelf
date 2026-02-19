@@ -24,7 +24,7 @@ date: 2025-12-29
 isOriginal: false
 author:
   - name: Dave Samaniego
-    url : https://frontendmasters.com/blog/author/davesamaniego/
+    url: https://frontendmasters.com/blog/author/davesamaniego/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/8102
 ---
 

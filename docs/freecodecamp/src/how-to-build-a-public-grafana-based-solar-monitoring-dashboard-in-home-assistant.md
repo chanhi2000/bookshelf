@@ -26,7 +26,7 @@ date: 2025-04-17
 isOriginal: false
 author:
   - name: Daniel Anomfueme
-    url : https://freecodecamp.org/news/author/LifeofDan-EL/
+    url: https://freecodecamp.org/news/author/LifeofDan-EL/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744899028552/8ad3f3c4-9b25-473d-b539-14dcb2f2b241.png
 ---
 

@@ -25,7 +25,7 @@ date: 2025-04-09
 isOriginal: false
 author:
   - name: Kevine Nzapdi
-    url : https://freecodecamp.org/news/author/gunkev/
+    url: https://freecodecamp.org/news/author/gunkev/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743509325302/fd7d5d6c-9a48-4037-9cc2-3b35a92b6006.png
 ---
 

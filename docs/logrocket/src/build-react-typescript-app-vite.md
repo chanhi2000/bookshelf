@@ -29,7 +29,7 @@ date: 2023-07-21
 isOriginal: false
 author:
   - name: Clara Ekekenta
-    url : https://blog.logrocket.com/author/claraekekenta/
+    url: https://blog.logrocket.com/author/claraekekenta/
 cover: /assets/image/blog.logrocket.com/build-react-typescript-app-vite/banner.png
 ---
 

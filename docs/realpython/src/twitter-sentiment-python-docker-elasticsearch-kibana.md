@@ -29,7 +29,7 @@ date: 2014-11-13
 isOriginal: false
 author:
   - name: 
-    url : https://realpython.com
+    url: https://realpython.com
 cover: https://files.realpython.com/media/twitter-sentiment-overall-pie-chart.b0ec5ebd668f.png
 ---
 

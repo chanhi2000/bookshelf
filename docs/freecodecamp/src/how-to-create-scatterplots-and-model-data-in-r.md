@@ -23,7 +23,7 @@ date: 2026-01-05
 isOriginal: false
 author:
   - name: Tiffany Mojo Omondi
-    url : https://freecodecamp.org/news/author/tiffanymojowrites/
+    url: https://freecodecamp.org/news/author/tiffanymojowrites/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767614352690/8b993426-f193-4ff3-b5ec-dd6dda11028e.png
 ---
 

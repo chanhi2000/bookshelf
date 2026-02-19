@@ -29,7 +29,7 @@ date: 2025-08-26
 isOriginal: false
 author:
   - name: Ajay Kalal
-    url : https://freecodecamp.org/news/author/Ajay074/
+    url: https://freecodecamp.org/news/author/Ajay074/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756138909378/69cae8fe-9a57-4036-817a-fde4e6a19f3b.png
 ---
 

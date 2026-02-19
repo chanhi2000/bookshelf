@@ -33,7 +33,7 @@ date: 2024-07-03
 isOriginal: false
 author:
   - name: Eamonn Cottrell
-    url : https://freecodecamp.org/news/author/sieis/
+    url: https://freecodecamp.org/news/author/sieis/
 cover: https://freecodecamp.org/news/content/images/2024/07/4.jpg
 ---
 

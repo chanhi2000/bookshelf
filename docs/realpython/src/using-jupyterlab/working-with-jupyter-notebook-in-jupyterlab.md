@@ -24,7 +24,7 @@ date: 2023-11-13
 isOriginal: false
 author:
   - name: Ian Eyre
-    url : https://realpython.com/team/ieyre/
+    url: https://realpython.com/team/ieyre/
 cover: https://files.realpython.com/media/Jupyterlab-Tutorial_Watermarked.e68ba3554953.jpg
 ---
 

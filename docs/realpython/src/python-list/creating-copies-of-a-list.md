@@ -22,7 +22,7 @@ date: 2023-07-19
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Pythons-list-Built-in-Data-Type-A-Deep-Dive-With-Examples_Watermarked.1f6291ed72f5.jpg
 ---
 
@@ -93,7 +93,7 @@ In general, aliases can come in handy in situations where you need to avoid name
 
 To illustrate, say that you have an app that uses your list of countries as `countries` in one part of the code. The app requires the same list in another part of the code, but there’s already a variable called `countries` with other content.
 
-If you want both pieces of code to work on the same list, then you can use `nations` as an alias for `countries`. A handy way to do this would be to use the [**`as` keyword**](/realpython.com/python-assignment-operator.md#use-the-as-keyword) for creating the alias through an [**implicit assignment**](/realpython.com/python-assignment-operator.md#implicit-assignments-in-python), for example, when you [**import**](/realpython.com/python-import.md) the list from another [**module**](/realpython.com/python-modules-packages.md).
+If you want both pieces of code to work on the same list, then you can use `nations` as an alias for `countries`. A handy way to do this would be to use the [**`as` keyword**](/realpython.com/python-assignment-operator.md#use-the-as-keyword) for creating the alias through an [**implicit assignment**](/realpython.com/python-assignment-operator.md#implicit-assignments-in-python), for example, when you [**import**](/realpython.com/python-import/README.md) the list from another [**module**](/realpython.com/python-modules-packages.md).
 
 ---
 

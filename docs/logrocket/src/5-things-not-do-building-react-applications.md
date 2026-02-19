@@ -29,7 +29,7 @@ date: 2021-08-13
 isOriginal: false
 author:
   - name: Manjunath M
-    url : https://blog.logrocket.com/author/manjunathm/
+    url: https://blog.logrocket.com/author/manjunathm/
 cover: /assets/image/blog.logrocket.com/5-things-not-do-building-react-applications/banner.png
 ---
 

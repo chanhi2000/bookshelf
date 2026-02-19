@@ -24,7 +24,7 @@ date: 2023-06-07
 isOriginal: false
 author:
   - name: Bartosz Zaczyński
-    url : https://realpython.com/team/bzaczynski/
+    url: https://realpython.com/team/bzaczynski/
 cover: https://files.realpython.com/media/Whats-the-Zen-of-Python_Watermarked.3ec4785e1bb9.jpg
 ---
 
@@ -72,7 +72,7 @@ According to the [<VPIcon icon="fa-brands fa-python"/>Python glossary](https://d
 
 :::
 
-Indeed, when you type the indicated [**`import` statement**](/realpython.com/python-import.md) into an interactive [**Python REPL**](/realpython.com/python-repl/README.md), then you’ll be presented with the nineteen aphorisms that make up the Zen of Python:
+Indeed, when you type the indicated [**`import` statement**](/realpython.com/python-import/README.md) into an interactive [**Python REPL**](/realpython.com/python-repl/README.md), then you’ll be presented with the nineteen aphorisms that make up the Zen of Python:
 
 ```py
 import this
@@ -236,7 +236,7 @@ The second principle in the Zen of Python says:
 
 > Explicit is better than implicit.
 
-This statement emphasizes the need for your code to be clear and easy to understand rather than relying on unspoken assumptions or hidden rules. For example, when you define a function, it’s much better to explicitly state the expected types of input parameters and the [**return**](/realpython.com/python-return-statement.md) value instead of forcing whoever reads your code to guess:
+This statement emphasizes the need for your code to be clear and easy to understand rather than relying on unspoken assumptions or hidden rules. For example, when you define a function, it’s much better to explicitly state the expected types of input parameters and the [**return**](/realpython.com/python-return-statement/README.md) value instead of forcing whoever reads your code to guess:
 
 ```py
 from math import sin

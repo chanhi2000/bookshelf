@@ -31,7 +31,7 @@ date: 2023-11-08
 isOriginal: false
 author:
   - name: Oscar Jite-Orimiono
-    url : https://blog.logrocket.com/author/oscarjiteorimiono/
+    url: https://blog.logrocket.com/author/oscarjiteorimiono/
 cover: /assets/image/blog.logrocket.com/best-practices-ci-cd-pipeline-frontend/banner.png
 ---
 

@@ -36,7 +36,7 @@ date: 2022-11-15
 isOriginal: false
 author:
   - name: Matei Cezar
-    url : https://tecmint.com/author/cezarmatei/
+    url: https://tecmint.com/author/cezarmatei/
 cover: https://tecmint.com/wp-content/uploads/2018/04/Synchronize-Time-with-NTP-in-Linux.png
 ---
 

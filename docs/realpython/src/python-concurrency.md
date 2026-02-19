@@ -24,7 +24,7 @@ date: 2024-11-25
 isOriginal: false
 author:
   - name: Jim Anderson
-    url : https://realpython.com/team/janderson/
+    url: https://realpython.com/team/janderson/
 cover: https://files.realpython.com/media/An-Overview-of-Concurrency-in-Python_Watermarked.c54c399ccb32.jpg
 ---
 
@@ -57,34 +57,39 @@ Concurrency refers to the ability of a program to manage multiple tasks at once,
 
 Understanding concurrency is crucial for optimizing programs, especially those that are I/O-bound or CPU-bound. Efficient concurrency management can significantly enhance a program’s performance by reducing wait times and better utilizing system resources.
 
-**In this tutorial, you’ll learn how to:**
+::: info In this tutorial, you’ll learn how to
 
 - **Understand** the different forms of **concurrency** in Python
 - **Implement** multi-threaded and asynchronous solutions for **I/O-bound** tasks
 - **Leverage** multiprocessing for **CPU-bound** tasks to achieve true parallelism
 - **Choose** the appropriate concurrency model based on your program’s needs
 
+:::
+
 To get the most out of this tutorial, you should be familiar with [Python basics](https://realpython.com/learning-paths/python-basics/), including [functions](https://realpython.com/defining-your-own-python-function/) and [loops](https://realpython.com/python-for-loop/). A rudimentary understanding of system processes and CPU operations will also be helpful. You can download the sample code for this tutorial by clicking the link below:
 
-**Get Your Code:** [Click here to download the free sample code](https://realpython.com/bonus/python-concurrency-code/) that you’ll use to learn about speeding up your Python program with concurrency.
+::: info Get Your Code
 
-**Take the Quiz:** Test your knowledge with our interactive “Python Concurrency” quiz. You’ll receive a score upon completion to help you track your learning progress:
+[<VPIcon icon="fas fa-globe"/>Click here to download the free sample code](https://realpython.com/bonus/python-concurrency-code/) that you’ll use to learn about speeding up your Python program with concurrency.
 
----
+:::
 
-[
+::: tip Take the Quiz
+
+Test your knowledge with our interactive “Python Concurrency” quiz. You’ll receive a score upon completion to help you track your learning progress:
 
 ![Speed Up Your Python Program With Concurrency](https://files.realpython.com/media/An-Overview-of-Concurrency-in-Python_Watermarked.c54c399ccb32.jpg)
 
-
-
-](/quizzes/python-concurrency/)
-
-**Interactive Quiz**
-
-[Python Concurrency](/quizzes/python-concurrency/)
+<SiteInfo
+  name="Python Concurrency Quiz – Real Python"
+  desc="In this quiz, you'll test your understanding of Python concurrency. You'll revisit the different forms of concurrency in Python, how to implement multi-threaded and asynchronous solutions for I/O-bound tasks, and how to achieve true parallelism for CPU-bound tasks."
+  url="https://realpython.com/quizzes/python-concurrency/"
+  logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
+  preview="https://files.realpython.com/media/An-Overview-of-Concurrency-in-Python_Watermarked.c54c399ccb32.jpg"/>
 
 In this quiz, you'll test your understanding of Python concurrency. You'll revisit the different forms of concurrency in Python, how to implement multi-threaded and asynchronous solutions for I/O-bound tasks, and how to achieve true parallelism for CPU-bound tasks.
+
+:::
 
 ---
 
@@ -770,13 +775,15 @@ Understanding concurrency is vital for Python developers seeking to improve appl
 
 With these skills, you’re now equipped to analyze your Python programs and apply concurrency effectively to tackle performance bottlenecks. Whether optimizing a [web scraper](https://realpython.com/beautiful-soup-web-scraper-python/) or a data processing pipeline, you can confidently select the best concurrency model to enhance your application’s performance.
 
-**Get Your Code:** [Click here to download the free sample code](https://realpython.com/bonus/python-concurrency-code/) that you’ll use to learn about speeding up your Python program with concurrency.
+::: info Get Your Code
 
-**Take the Quiz:** Test your knowledge with our interactive “Python Concurrency” quiz. You’ll receive a score upon completion to help you track your learning progress:
+[Click here to download the free sample code](https://realpython.com/bonus/python-concurrency-code/) that you’ll use to learn about speeding up your Python program with concurrency.
 
----
+:::
 
-[
+::: info Take the Quiz
+
+Test your knowledge with our interactive “Python Concurrency” quiz. You’ll receive a score upon completion to help you track your learning progress:
 
 ![Speed Up Your Python Program With Concurrency](https://files.realpython.com/media/An-Overview-of-Concurrency-in-Python_Watermarked.c54c399ccb32.jpg)
 

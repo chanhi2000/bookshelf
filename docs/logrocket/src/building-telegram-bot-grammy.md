@@ -24,7 +24,7 @@ date: 2025-02-20
 isOriginal: false
 author:
   - name: Amazing Enyichi Agu
-    url : https://blog.logrocket.com/author/amazingenyichiagu/
+    url: https://blog.logrocket.com/author/amazingenyichiagu/
 cover: /assets/image/blog.logrocket.com/building-telegram-bot-grammy/banner.png
 ---
 

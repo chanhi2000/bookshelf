@@ -24,7 +24,7 @@ date: 2025-11-07
 isOriginal: false
 author:
   - name: Casmir Onyekani
-    url : https://freecodecamp.org/news/author/Casmir/
+    url: https://freecodecamp.org/news/author/Casmir/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762523233143/4555ff83-b390-4cb2-b6de-acea129de4b1.png
 ---
 

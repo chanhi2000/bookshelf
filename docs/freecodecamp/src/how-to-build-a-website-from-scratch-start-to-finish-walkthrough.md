@@ -30,7 +30,7 @@ date: 2025-04-29
 isOriginal: false
 author:
   - name: Kunal Nalawade
-    url : https://freecodecamp.org/news/author/KunalN25/
+    url: https://freecodecamp.org/news/author/KunalN25/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745260046049/62b5c730-dc06-49de-8bdd-2cd44facb9e9.png
 ---
 

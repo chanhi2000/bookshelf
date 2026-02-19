@@ -29,7 +29,7 @@ date: 2025-04-30
 isOriginal: false
 author:
   - name: Ed Pratowski
-    url : https://freecodecamp.org/news/author/beaucarnes/
+    url: https://freecodecamp.org/news/author/beaucarnes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745940136487/3bf6eb1d-4ffa-4d41-9ac7-89a9f3836915.png
 ---
 

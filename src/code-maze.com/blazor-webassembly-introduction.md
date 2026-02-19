@@ -28,7 +28,7 @@ date: 2020-06-08
 isOriginal: false
 author:
   - name: Marinko Spasojević
-    url : https://code-maze.com/author/marinko/
+    url: https://code-maze.com/author/marinko/
 cover: /assets/image/code-maze.com/blazor-webassembly-introduction/banner.png
 ---
 

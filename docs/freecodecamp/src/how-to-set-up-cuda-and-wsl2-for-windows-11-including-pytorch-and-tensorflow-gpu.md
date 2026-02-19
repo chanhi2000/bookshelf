@@ -36,7 +36,7 @@ date: 2025-12-04
 isOriginal: false
 author:
   - name: Md. Fahim Bin Amin
-    url : https://freecodecamp.org/news/author/FahimFBA/
+    url: https://freecodecamp.org/news/author/FahimFBA/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764786287487/f0c28401-ce77-4873-b238-59fc6b737ce7.png
 ---
 

@@ -23,7 +23,7 @@ date: 2023-02-09
 isOriginal: false
 author:
   - name: Ahmed Shadeed
-    url : https://ishadeed.com/about/
+    url: https://ishadeed.com/about/
 cover: https://ishadeed.com/assets/css-wishlist-2023/twitter-card.jpg
 ---
 
@@ -161,7 +161,7 @@ I rely on this [<VPIcon icon="fas fa-globe"/>great tool](https://larsenwork.com/
 };
 ```
 
-The easing syntax is currently a [CSSWG proposal (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/1332), but no browser picked it up yet.
+The easing syntax is currently a [CSSWG proposal (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/1332), but no browser picked it up yet.
 
 ---
 

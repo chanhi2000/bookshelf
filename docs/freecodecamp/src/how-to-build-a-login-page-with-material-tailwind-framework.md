@@ -30,7 +30,7 @@ date: 2024-04-29
 isOriginal: false
 author:
   - name: Alexandru Paduraru
-    url : https://freecodecamp.org/news/author/alexpaduraru/
+    url: https://freecodecamp.org/news/author/alexpaduraru/
 cover: https://freecodecamp.org/news/content/images/2024/04/how-to-build-a-login-page-with-the-material-tailwind-framework-1.jpg
 ---
 

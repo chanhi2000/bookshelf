@@ -29,7 +29,7 @@ date: 2025-03-15
 isOriginal: false
 author:
   - name: Soham Banerjee
-    url : https://freecodecamp.org/news/author/sohamstars/
+    url: https://freecodecamp.org/news/author/sohamstars/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741902732575/fd41a2d5-ed4f-445d-b186-936625837c8d.png
 ---
 

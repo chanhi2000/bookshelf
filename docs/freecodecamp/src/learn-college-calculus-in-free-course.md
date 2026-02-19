@@ -28,7 +28,7 @@ date: 2020-08-27
 isOriginal: false
 author:
   - name: Dr. Linda Green (@lindagreen7859)
-    url : https://youtube.com/@lindagreen7859
+    url: https://youtube.com/@lindagreen7859
 cover: https://freecodecamp.org/news/content/images/2020/08/calculus.png
 ---
 

@@ -29,7 +29,7 @@ date: 2025-09-05
 isOriginal: false
 author:
   - name: Martins D. Okoi
-    url : https://tecmint.com/author/dillivine/
+    url: https://tecmint.com/author/dillivine/
 cover: https://tecmint.com/wp-content/uploads/2023/07/find-dns-server-ip-on-linux.webp
 ---
 

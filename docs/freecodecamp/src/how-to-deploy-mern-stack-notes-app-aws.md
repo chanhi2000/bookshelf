@@ -44,7 +44,7 @@ date: 2026-01-17
 isOriginal: false
 author:
   - name: Umair Mirza
-    url : https://freecodecamp.org/news/author/umairmirza/
+    url: https://freecodecamp.org/news/author/umairmirza/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768616328012/274a3de8-32bb-4b56-9f71-0f0723541c7d.png
 ---
 
@@ -117,7 +117,7 @@ You'll take a small React and Express notes app and ship it straight to AWS. We'
 
 If you’ve mostly used one-click deployments before, this guide will help you understand what’s happening behind the scenes. You’ll work directly with the core AWS services involved, focusing only on the pieces that matter so you can see how everything fits together. This will also enable you to have more control over cost, security, and scaling.
 
-If you just want to grab the finished code, it's all in this public repo: [umair-mirza/mern-notes-aws (<VPIcon icon="iconfont icon-github" />`umair-mirza/mern-notes-aws`)](https://github.com/umair-mirza/mern-notes-aws). You can clone or fork it and follow along without creating a new project from scratch.
+If you just want to grab the finished code, it's all in this public repo: [umair-mirza/mern-notes-aws (<VPIcon icon="iconfont icon-github"/>`umair-mirza/mern-notes-aws`)](https://github.com/umair-mirza/mern-notes-aws). You can clone or fork it and follow along without creating a new project from scratch.
 
 ---
 
@@ -212,7 +212,7 @@ git remote add origin https://github.com/<you>/mern-notes-aws.git
 git push -u origin main
 ```
 
-If you're following along with my example repo instead of creating your own, you can simply fork [umair-mirza/mern-notes-aws (<VPIcon icon="iconfont icon-github" />`umair-mirza/mern-notes-aws`)](https://github.com/umair-mirza/mern-notes-aws) and use that as your remote.
+If you're following along with my example repo instead of creating your own, you can simply fork [umair-mirza/mern-notes-aws (<VPIcon icon="iconfont icon-github"/>`umair-mirza/mern-notes-aws`)](https://github.com/umair-mirza/mern-notes-aws) and use that as your remote.
 
 Before pushing, make sure your <VPIcon icon="iconfont icon-dotenv"/>`.env` file is **not committed to GitHub**. Add it to your `.gitignore` so secrets like database passwords never end up in version control:
 

@@ -36,7 +36,7 @@ date: 2025-12-04
 isOriginal: false
 author:
   - name: Chisom Uma
-    url : https://freecodecamp.org/news/author/ChisomUma123/
+    url: https://freecodecamp.org/news/author/ChisomUma123/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764801036311/e1bb9ed8-f64e-433f-916f-fd3079aac4d3.png
 ---
 

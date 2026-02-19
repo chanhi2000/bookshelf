@@ -25,7 +25,7 @@ date: 2007-10-27
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://css-tricks.com/author/chriscoyier/
+    url: https://css-tricks.com/author/chriscoyier/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2007/10/nicenumberedlists.jpg
 ---
 

@@ -24,7 +24,7 @@ date: 2026-01-07
 isOriginal: false
 author:
   - name: Mat “Wilto” Marquis
-    url : https://piccalil.li/author/mat-wilto-marquis
+    url: https://piccalil.li/author/mat-wilto-marquis
 cover: https://piccalil.b-cdn.net/api/og-image?slug=date-is-out-and-temporal-is-in/
 ---
 

@@ -25,7 +25,7 @@ date: 2021-01-12
 isOriginal: false
 author:
   - name: Elizabeth Amaechi
-    url : https://blog.logrocket.com/author/elizabethamaechi/
+    url: https://blog.logrocket.com/author/elizabethamaechi/
 cover: /assets/image/blog.logrocket.com/immer-and-immutable-js-how-do-they-compare/banner.png
 ---
 

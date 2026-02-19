@@ -35,7 +35,7 @@ date: 2025-10-15
 isOriginal: false
 author:
   - name: Aaron Kili
-    url : https://tecmint.com/author/aaronkili/
+    url: https://tecmint.com/author/aaronkili/
 cover: https://tecmint.com/wp-content/uploads/2025/10/Install-PostgreSQL-on-Ubuntu.webp
 ---
 

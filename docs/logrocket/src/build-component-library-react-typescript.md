@@ -29,7 +29,7 @@ date: 2024-10-23
 isOriginal: false
 author:
   - name: Yan Sun
-    url : https://blog.logrocket.com/author/yansun/
+    url: https://blog.logrocket.com/author/yansun/
 cover: /assets/image/blog.logrocket.com/build-component-library-react-typescript/banner.png
 ---
 

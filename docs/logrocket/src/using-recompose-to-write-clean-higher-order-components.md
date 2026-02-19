@@ -29,7 +29,7 @@ date: 2018-06-25
 isOriginal: false
 author:
   - name: JuanMa Garrido
-    url : https://blog.logrocket.com/author/juanmagarrido/
+    url: https://blog.logrocket.com/author/juanmagarrido/
 cover: /assets/image/blog.logrocket.com/using-recompose-to-write-clean-higher-order-components/banner.png
 ---
 

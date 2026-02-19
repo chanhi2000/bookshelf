@@ -29,7 +29,7 @@ date: 2022-10-14
 isOriginal: false
 author:
   - name: Esteban Herrera
-    url : https://blog.logrocket.com/author/ehrrera/
+    url: https://blog.logrocket.com/author/ehrrera/
 cover: /assets/image/blog.logrocket.com/immutability-react-should-you-mutate-objects/banner.png
 ---
 

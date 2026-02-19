@@ -40,7 +40,7 @@ date: 2024-09-10
 isOriginal: false
 author:
   - name: Marin Todorov
-    url : https://tecmint.com/author/marintodorov89/
+    url: https://tecmint.com/author/marintodorov89/
 cover: https://tecmint.com/wp-content/uploads/2019/02/Linux-Terminal-File-Managers.png
 ---
 

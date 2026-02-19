@@ -23,7 +23,7 @@ date: 2025-09-30
 isOriginal: false
 author:
   - name: Amit Sheen
-    url : https://css-tricks.com/author/amitsheen/
+    url: https://css-tricks.com/author/amitsheen/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/css-types-arithmetic.png
 ---
 

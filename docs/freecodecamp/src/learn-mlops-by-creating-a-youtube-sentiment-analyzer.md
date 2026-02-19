@@ -32,7 +32,7 @@ date: 2025-06-15
 isOriginal: false
 author:
   - name: Boktiar Ahmed Bappy (@dswithbappy)
-    url : https://youtube.com/@dswithbappy
+    url: https://youtube.com/@dswithbappy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749822376754/96a5ebfc-e64d-4541-9fc7-b17bcc43db5a.png
 ---
 

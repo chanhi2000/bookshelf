@@ -27,7 +27,7 @@ date: 2025-10-20
 isOriginal: false
 author:
   - name: Zell Liew
-    url : https://css-tricks.com/author/zellwk/
+    url: https://css-tricks.com/author/zellwk/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/04/sticky-header.png
 ---
 

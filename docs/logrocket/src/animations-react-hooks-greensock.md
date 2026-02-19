@@ -29,7 +29,7 @@ date: 2021-10-13
 isOriginal: false
 author:
   - name: Paul Ryan
-    url : https://blog.logrocket.com/author/paulryan/
+    url: https://blog.logrocket.com/author/paulryan/
 cover: /assets/image/blog.logrocket.com/animations-react-hooks-greensock/banner.png
 ---
 

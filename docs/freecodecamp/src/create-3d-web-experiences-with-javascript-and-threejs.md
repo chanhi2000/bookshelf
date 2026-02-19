@@ -29,7 +29,7 @@ date: 2025-08-28
 isOriginal: false
 author:
   - name: Robot Bobby (@robotbobby9)
-    url : https://youtube.com/@robotbobby9
+    url: https://youtube.com/@robotbobby9
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756299743551/aa4a1301-8f99-4eef-8e66-7c6202820b93.png
 ---
 

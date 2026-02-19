@@ -33,7 +33,7 @@ date: 2025-05-30
 isOriginal: false
 author:
   - name: Frank Andrade (@ThePyCoach)
-    url : https://youtube.com/@ThePyCoach
+    url: https://youtube.com/@ThePyCoach
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748543757666/140c2e3b-a0f6-4ef1-b50f-0c6b6c86ecb1.jpeg
 ---
 

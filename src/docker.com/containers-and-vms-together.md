@@ -25,7 +25,7 @@ date: 2016-04-09
 isOriginal: false
 author:
   - name: Mike Coleman
-    url : https://docker.com/author/mike_coleman/
+    url: https://docker.com/author/mike_coleman/
 cover: https://docker.com/app/uploads/2022/12/containers-and-vms-together-1.png
 ---
 

@@ -23,7 +23,7 @@ date: 2013-08-20
 isOriginal: false
 author:
   - name: Heydon Pickering
-    url : https://smashingmagazine.com/author/heydon-pickering/
+    url: https://smashingmagazine.com/author/heydon-pickering/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4476bd03-4bbc-4457-9e9a-96425187be31/illu-selectors.jpg
 ---
 

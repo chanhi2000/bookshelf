@@ -30,7 +30,7 @@ date: 2025-03-26
 isOriginal: false
 author:
   - name: Ijeoma Igboagu
-    url : https://freecodecamp.org/news/author/Ijay/
+    url: https://freecodecamp.org/news/author/Ijay/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742397603245/c1ca0496-dbab-4570-8b6b-cb4bac5f72c1.png
 ---
 
@@ -38,7 +38,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742397603245/c1ca049
 
 ```component VPCard
 {
-  "title": "VSCode > Article(s)",
+  "title": "Visual Studio Code > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/vscode/articles/README.md",
   "logo": "/images/ico-wind.svg",

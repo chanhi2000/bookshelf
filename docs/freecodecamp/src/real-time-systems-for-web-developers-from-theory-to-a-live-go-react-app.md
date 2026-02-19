@@ -32,7 +32,7 @@ date: 2026-01-08
 isOriginal: false
 author:
   - name: Emmanuel Etukudo
-    url : https://freecodecamp.org/news/author/eetukudo/
+    url: https://freecodecamp.org/news/author/eetukudo/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767748231282/074fcd8b-8808-4a3d-8c9c-17d5a7b388e6.png
 ---
 
@@ -553,7 +553,7 @@ export default function App() {
 }
 ```
 
-The React frontend is scaffolded using [<VPIcon icon="fa-brands fa-react"/>create-react-app](https://react.dev/learn/creating-a-react-app), but the same approach can be used for other frameworks, such as `Next.js` or `Vite`. The complete source code, including the frontend and backend, is available in the repository [here (<VPIcon icon="iconfont icon-github" />`emmanueletukudo/realtime-go-react`)](https://github.com/emmanueletukudo/realtime-go-react). You can reach out to me on the [X platform (<VPIcon icon="fa-brands fa-x-twitter" />`eetukudo_`)](https://x.com/eetukudo_) if you need my assistance.
+The React frontend is scaffolded using [<VPIcon icon="fa-brands fa-react"/>create-react-app](https://react.dev/learn/creating-a-react-app), but the same approach can be used for other frameworks, such as `Next.js` or `Vite`. The complete source code, including the frontend and backend, is available in the repository [here (<VPIcon icon="iconfont icon-github"/>`emmanueletukudo/realtime-go-react`)](https://github.com/emmanueletukudo/realtime-go-react). You can reach out to me on the [X platform (<VPIcon icon="fa-brands fa-x-twitter" />`eetukudo_`)](https://x.com/eetukudo_) if you need my assistance.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Building Multi-Arch Images for Arm and x86 with  Desktop"
-description: "Article(s) > Building Multi-Arch Images for Arm and x86 with  Desktop"
+title: "Building Multi-Arch Images for Arm and x86 with Docker Desktop"
+description: "Article(s) > Building Multi-Arch Images for Arm and x86 with Docker Desktop"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -15,9 +15,9 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Building Multi-Arch Images for Arm and x86 with  Desktop"
+      content: "Article(s) > Building Multi-Arch Images for Arm and x86 with Docker Desktop"
     - property: og:description
-      content: "Building Multi-Arch Images for Arm and x86 with  Desktop"
+      content: "Building Multi-Arch Images for Arm and x86 with Docker Desktop"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/docker.com/multi-arch-images.html
 prev: /devops/docker/articles/README.md
@@ -25,7 +25,7 @@ date: 2019-05-01
 isOriginal: false
 author:
   - name: Adam Parco
-    url : https://docker.com/author/adam-parco/
+    url: https://docker.com/author/adam-parco/
 cover: https://docker.com/app/uploads/engineering/2019/04/docker_desktop_easy_install.png
 ---
 
@@ -46,7 +46,7 @@ cover: https://docker.com/app/uploads/engineering/2019/04/docker_desktop_easy_in
 ---
 
 <SiteInfo
-  name="Building Multi-Arch Images for Arm and x86 with  Desktop"
+  name="Building Multi-Arch Images for Arm and x86 with Docker Desktop"
   desc="Docker is making it easier than ever to develop containers on, and for Arm servers and devices. Using the standard tooling and processes you are already familiar with you can start to build, push, pull, and run images of different architectures.  No changes to Dockerfiles or source code is needed to start building for Arm."
   url="https://docker.com/blog/multi-arch-images"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
@@ -287,7 +287,7 @@ For a limited time, sign up at [<VPIcon icon="fa-brands fa-docker"/>`beta.docker
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Building Multi-Arch Images for Arm and x86 with  Desktop",
+  "title": "Building Multi-Arch Images for Arm and x86 with Docker Desktop",
   "desc": "Docker is making it easier than ever to develop containers on, and for Arm servers and devices. Using the standard tooling and processes you are already familiar with you can start to build, push, pull, and run images of different architectures.  No changes to Dockerfiles or source code is needed to start building for Arm.",
   "link": "https://chanhi2000.github.io/bookshelf/docker.com/multi-arch-images.html",
   "logo": "https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png",

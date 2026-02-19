@@ -1,6 +1,6 @@
 {
   "name": "@bookshelf/root",
-  "version": "0.2.15",
+  "version": "0.2.16",
   "description": "Bookshelf",
   "private": true,
   "license": "MIT",
@@ -53,6 +53,7 @@
     "vitest": "catalog:"
   },
   "dependencies": {
+    "@bookshelf/shared-vuepress": "workspace:*",
     "@vuepress/plugin-photo-swipe": "catalog:vuepress",
     "@vuepress/plugin-prismjs": "catalog:vuepress",
     "baseline-status": "catalog:range",

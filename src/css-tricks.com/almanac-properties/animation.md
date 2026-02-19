@@ -23,7 +23,7 @@ date: 2024-09-09
 isOriginal: false
 author:
   - name: Ryan Trimble
-    url : https://css-tricks.com/author/ryantrimble/
+    url: https://css-tricks.com/author/ryantrimble/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png
 ---
 

@@ -29,7 +29,7 @@ date: 2021-02-10
 isOriginal: false
 author:
   - name: Marcia Villalba (@foobar_codes)
-    url : https://youtube.com/@foobar_codes
+    url: https://youtube.com/@foobar_codes
 cover: https://freecodecamp.org/news/content/images/2021/02/ct-yt--containers--3-.png
 ---
 

@@ -31,7 +31,7 @@ date: 2025-12-19
 isOriginal: false
 author:
   - name: Beau Carnes (@CodeLaboratory)
-    url : https://youtube.com/@CodeLaboratory
+    url: https://youtube.com/@CodeLaboratory
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766070221236/5ec09f0c-177f-48cd-aec9-0e698b2ede32.jpeg
 ---
 

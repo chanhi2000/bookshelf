@@ -24,7 +24,7 @@ date: 2025-07-30
 isOriginal: false
 author:
   - name: Mészáros Róbert
-    url : https://css-tricks.com/author/meszarosrob/
+    url: https://css-tricks.com/author/meszarosrob/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/05/nodes-pattern.png
 ---
 

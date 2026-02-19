@@ -29,7 +29,7 @@ date: 2026-01-08
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -92,7 +92,7 @@ The better solution is to automate code quality checks at the commit level using
 
 ## What is Lefthook?
 
-[Lefthook (<VPIcon icon="iconfont icon-github" />`evilmartians/lefthook`)](https://github.com/evilmartians/lefthook) is a fast Git hooks manager written in Go. It runs commands automatically when you perform Git operations like committing code. Unlike its predecessors like [Husky (<VPIcon icon="iconfont icon-github" />`typicode/husky`)](https://github.com/typicode/husky) which is written in JavaScript, Lefthook is significantly faster and uses a simple YAML configuration that's easy to understand and modify.
+[Lefthook (<VPIcon icon="iconfont icon-github"/>`evilmartians/lefthook`)](https://github.com/evilmartians/lefthook) is a fast Git hooks manager written in Go. It runs commands automatically when you perform Git operations like committing code. Unlike its predecessors like [Husky (<VPIcon icon="iconfont icon-github"/>`typicode/husky`)](https://github.com/typicode/husky) which is written in JavaScript, Lefthook is significantly faster and uses a simple YAML configuration that's easy to understand and modify.
 
 When you set up Lefthook with a pre-commit hook, it intercepts your `git commit` command and runs quality checks before allowing the commit to complete. If the checks pass (or can be auto-fixed), your commit proceeds. If they fail, the commit is blocked until you fix the issues.
 

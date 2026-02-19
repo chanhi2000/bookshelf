@@ -2,7 +2,7 @@
 lang: en-US
 title: "Snippets in Svelte 5"
 description: "Article(s) > Snippets in Svelte 5"
-icon: iconfont icon-svelte
+icon: fa-brands fa-svelte
 category:
   - Node.js
   - Svelte.js
@@ -242,7 +242,7 @@ Then you can reuse that `productDisplay` snippet with different products in your
 
 If that was the extent of Snippets they’d be a marginally useful convenience for re-using small bits of markup within a single component.
 
-But the main benefit of snippets is for **injecting content into components**. Previously, if you wanted to pass content into a component you’d use slots. Slots were always an awkward feature of Svelte, but they’re now deprecated in Svelte 5. We won’t cover them here, so check out[<VPIcon icon="iconfont icon-svelte"/>the docs](https://svelte.dev/docs/special-elements#slot)if you’re curious.
+But the main benefit of snippets is for **injecting content into components**. Previously, if you wanted to pass content into a component you’d use slots. Slots were always an awkward feature of Svelte, but they’re now deprecated in Svelte 5. We won’t cover them here, so check out[<VPIcon icon="fa-brands fa-svelte"/>the docs](https://svelte.dev/docs/special-elements#slot)if you’re curious.
 
 ---
 

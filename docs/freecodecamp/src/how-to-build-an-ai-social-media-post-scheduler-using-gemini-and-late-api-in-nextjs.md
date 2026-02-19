@@ -40,7 +40,7 @@ date: 2026-01-31
 isOriginal: false
 author:
   - name: David Asaolu
-    url : https://freecodecamp.org/news/author/de/
+    url: https://freecodecamp.org/news/author/de/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769794478505/be596e27-4c88-45b3-8547-f715c82e0eda.png
 ---
 
@@ -107,7 +107,7 @@ Create a new Next.js project using the following code snippet:
 npx create-next-app post-scheduler
 ```
 
-Install the project dependencies. We’ll use [Day.js (<VPIcon icon="iconfont icon-github" />`iamkun/dayjs`)](https://github.com/iamkun/dayjs) to work with JavaScript dates, making it easier to schedule and publish social media posts at the correct time.
+Install the project dependencies. We’ll use [Day.js (<VPIcon icon="iconfont icon-github"/>`iamkun/dayjs`)](https://github.com/iamkun/dayjs) to work with JavaScript dates, making it easier to schedule and publish social media posts at the correct time.
 
 ```sh
 npm i @google/genai dayjs utc
@@ -715,7 +715,7 @@ useEffect(() => {
 
 🎉 Congratulations! You’ve successfully built an AI-powered social media post scheduler using Next.js, Gemini API, and Late API.
 
-The source code for this tutorial is available on [GitHub (<VPIcon icon="iconfont icon-github" />`dha-stix/ai-post-scheduler`)](https://github.com/dha-stix/ai-post-scheduler).
+The source code for this tutorial is available on [GitHub (<VPIcon icon="iconfont icon-github"/>`dha-stix/ai-post-scheduler`)](https://github.com/dha-stix/ai-post-scheduler).
 
 <VidStack src="youtube/pW2GU3r8bTs" />
 

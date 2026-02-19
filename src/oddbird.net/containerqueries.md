@@ -23,7 +23,7 @@ date: 2021-04-05
 isOriginal: false
 author:
   - name: David A. Herron
-    url : https://oddbird.net/authors/davidh/
+    url: https://oddbird.net/authors/davidh/
 cover: https://oddbird.net/assets/images/blog/2021/widequote-1408w.jpeg
 ---
 
@@ -61,7 +61,7 @@ The `@container` query, that elusive feature developers have been requesting and
 
 :::
 
-In the latest version of [<VPIcon icon="fa-brands fa-google"/>Chrome Canary](https://google.com/chrome/canary/), the most recent `@container` query proposal is available for use behind an experimental flag. Developed by OddBird’s own [<VPIcon icon="iconfont icon-oddbird"/>Miriam Suzanne](https://oddbird.net/authors/miriam/), the [draft (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5796) builds upon the ideas previously proposed by other web standards experts like David Baron, who wrote the [original draft (<VPIcon icon="iconfont icon-github" />`dbaron/container-queries-implementability`)](https://github.com/dbaron/container-queries-implementability).
+In the latest version of [<VPIcon icon="fa-brands fa-google"/>Chrome Canary](https://google.com/chrome/canary/), the most recent `@container` query proposal is available for use behind an experimental flag. Developed by OddBird’s own [<VPIcon icon="iconfont icon-oddbird"/>Miriam Suzanne](https://oddbird.net/authors/miriam/), the [draft (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5796) builds upon the ideas previously proposed by other web standards experts like David Baron, who wrote the [original draft (<VPIcon icon="iconfont icon-github"/>`dbaron/container-queries-implementability`)](https://github.com/dbaron/container-queries-implementability).
 
 ---
 
@@ -212,8 +212,8 @@ With each `blockquote` sitting in a different sized container, they all look sli
 It’s still very early in the proposal process, so a lot regarding how container queries work could change.
 
 - There might be a way to contain only the block axis.
-- Queries could also be made against properties like `aspect-ratio`, `orientation,` or even [custom properties and layout states (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5989).
-- We already have viewport-relative units like `vh` and `vw`. [Container-relative units (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5888) could be on the horizon as well.
+- Queries could also be made against properties like `aspect-ratio`, `orientation,` or even [custom properties and layout states (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5989).
+- We already have viewport-relative units like `vh` and `vw`. [Container-relative units (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5888) could be on the horizon as well.
 
 ::: note Update March 21, 2025
 
@@ -234,7 +234,7 @@ Browsers are still working on adding support for using style queries to evaluate
 
 Bookmark Miriam’s scratch site for updates: [<VPIcon icon="iconfont icon-oddbird"/>Miriam’s CSS Sandbox](https://css.oddbird.net/rwd/query/).
 
-To participate in discussions and implementation questions related to `container` queries, visit this project board: [Open Issues & Work on the Contain 3 Spec (<VPIcon icon="iconfont icon-github" />`orgs/w3c`)](https://github.com/orgs/w3c/projects/108).
+To participate in discussions and implementation questions related to `container` queries, visit this project board: [Open Issues & Work on the Contain 3 Spec (<VPIcon icon="iconfont icon-github"/>`orgs/w3c`)](https://github.com/orgs/w3c/projects/108).
 
 ---
 

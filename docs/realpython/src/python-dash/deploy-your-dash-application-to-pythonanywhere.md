@@ -23,7 +23,7 @@ date: 2023-02-20
 isOriginal: false
 author:
   - name: Dylan Castillo
-    url : https://realpython.com/team/dcastillo/
+    url: https://realpython.com/team/dcastillo/
 cover: https://files.realpython.com/media/Data-Visualization-With-Dash_Watermarked.b3eae31c557f.jpg
 ---
 

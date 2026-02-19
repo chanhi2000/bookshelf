@@ -29,7 +29,7 @@ date: 2023-04-17
 isOriginal: false
 author:
   - name: Abhinav Anshul
-    url : https://blog.logrocket.com/author/abhinavanshul/
+    url: https://blog.logrocket.com/author/abhinavanshul/
 cover: /assets/image/blog.logrocket.com/understanding-prioritize-react-ui-updates/banner.png
 ---
 

@@ -33,7 +33,7 @@ date: 2025-11-14
 isOriginal: false
 author:
   - name: Kamal Kishore
-    url : https://freecodecamp.org/news/author/kamalct/
+    url: https://freecodecamp.org/news/author/kamalct/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762904270014/5ebeec2b-0823-4f59-bdd7-bf37cb68a978.png
 ---
 

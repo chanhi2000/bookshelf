@@ -30,7 +30,7 @@ date: 2025-05-02
 isOriginal: false
 author:
   - name: Code with Abel (@code-with-abel)
-    url : https://youtube.com/@code-with-abel
+    url: https://youtube.com/@code-with-abel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746118671895/d37fe9e1-af3b-4419-a39d-26cb85d583eb.png
 ---
 

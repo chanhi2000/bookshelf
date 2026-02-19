@@ -24,6 +24,8 @@ prev: /devops/docker/articles/README.md
 date: 2019-12-21
 isOriginal: false
 author: 
+  - name: Ben De St Paer-Gotch
+    url: https://docker.com/contributors/ben-de-st-paer-gotch/
 cover: https://docker.com/app/uploads/2019/12/pasted-image-0-2.png
 ---
 
@@ -52,7 +54,7 @@ cover: https://docker.com/app/uploads/2019/12/pasted-image-0-2.png
 
 ![](https://docker.com/app/uploads/2019/12/pasted-image-0-2-1110x538.png)
 
-There was amazing attendance at [<VPIcon icon="fas fa-globe"/>Containers Today in Stockholm](https://containerstoday.com/sweden/) a couple of weeks ago. For those who were unable to make it, here is a quick overview of what I talked about at the event in my session around the future of the developer journey. 
+There was amazing attendance at [<VPIcon icon="fas fa-globe"/>Containers Today in Stockholm](https://containerstoday.com/sweden/) a couple of weeks ago. For those who were unable to make it, here is a quick overview of what I talked about at the event in my session around the future of the developer journey.
 
 Before we talk about what we think will change the journey, we need to think about *why* it changes. The fundamental goal of any change to the way of working for developers should be to reduce the number of boring, mundane and repetitive tasks that developers have to do or to allow them to reach new customers/solve new problems. Developers create amazing value for companies and provide solutions to customers’ real world problems. But if they are having to spend half of their time working out how to get things into the hands of their customers, then you are getting half the value.
 

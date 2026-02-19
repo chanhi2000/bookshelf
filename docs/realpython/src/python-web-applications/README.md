@@ -31,7 +31,7 @@ date: 2021-02-01
 isOriginal: false
 author:
   - name: Martin Breuss
-    url : https://realpython.com/team/mbreuss/
+    url: https://realpython.com/team/mbreuss/
 cover: https://files.realpython.com/media/Python-driven-Web-Applications_Watermarked.c5692cb81de8.jpg
 ---
 

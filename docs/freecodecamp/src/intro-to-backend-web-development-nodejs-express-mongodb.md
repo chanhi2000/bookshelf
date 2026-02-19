@@ -38,7 +38,7 @@ date: 2025-11-18
 isOriginal: false
 author:
   - name: Shivani
-    url : https://hackclub.com/
+    url: https://hackclub.com/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763372629451/d682e5f7-31d1-48af-8957-8e916b7b506a.jpeg
 ---
 

@@ -25,7 +25,7 @@ date: 2021-03-03
 isOriginal: false
 author:
   - name: Alexander Nnakwue
-    url : https://blog.logrocket.com/author/alexandernnakwue/
+    url: https://blog.logrocket.com/author/alexandernnakwue/
 cover: /assets/image/blog.logrocket.com/es-modules-in-node-today/banner.jpeg
 ---
 

@@ -23,7 +23,7 @@ date: 2026-01-23
 isOriginal: false
 author:
   - name: Temani Afif
-    url : https://css-tricks.com/author/afiftemani/
+    url: https://css-tricks.com/author/afiftemani/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/01/hexagon-grid.png
 ---
 

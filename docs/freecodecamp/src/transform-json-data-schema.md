@@ -27,7 +27,7 @@ date: 2025-07-10
 isOriginal: false
 author:
   - name: Nneoma Uche
-    url : https://freecodecamp.org/news/author/Nene23/
+    url: https://freecodecamp.org/news/author/Nene23/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752121420492/513db316-cdc7-47ef-8f20-4911cf5d41f9.png
 ---
 

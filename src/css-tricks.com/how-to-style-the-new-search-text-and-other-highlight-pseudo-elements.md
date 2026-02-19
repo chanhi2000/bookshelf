@@ -23,7 +23,7 @@ date: 2026-01-28
 isOriginal: false
 author:
   - name: Daniel Schwarz
-    url : https://css-tricks.com/author/danielschwarz/
+    url: https://css-tricks.com/author/danielschwarz/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/01/search-text-pseudo-example.webp
 ---
 
@@ -102,7 +102,7 @@ body {
   slug-hash="ogLZeQN"
   title="Forever-inverse highlights"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Your browser might not support that yet, so here’s a video that shows how the highlighted text adapts to background color changes.
 
@@ -166,7 +166,7 @@ body {
   slug-hash="GgqWzax"
   title="Forever-inverse highlights (with differentiation)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 `::spelling-error` and `::grammar-error` are excluded from all this because they have their own visual affordances (red underlines and green underlines respectively, typically contrasted against the neutral background of an editable element such as `<textarea>`).
 

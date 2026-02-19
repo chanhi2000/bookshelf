@@ -23,7 +23,7 @@ date: 2022-09-07
 isOriginal: false
 author:
   - name: Fimber Elemuwa
-    url : https://blog.logrocket.com/author/fimberelemuwa/
+    url: https://blog.logrocket.com/author/fimberelemuwa/
 cover: /assets/image/blog.logrocket.com/css-style-button-accessibility/banner.png
 ---
 

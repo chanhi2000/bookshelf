@@ -26,7 +26,7 @@ date: 2025-03-26
 isOriginal: false
 author:
   - name: oghenekparobo Stephen
-    url : https://freecodecamp.org/news/author/Xtephen/
+    url: https://freecodecamp.org/news/author/Xtephen/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742916792332/9dbf6a18-7260-434f-815d-e38a82c9e47e.png
 ---
 

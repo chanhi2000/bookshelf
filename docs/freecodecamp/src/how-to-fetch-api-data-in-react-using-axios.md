@@ -29,7 +29,7 @@ date: 2025-07-02
 isOriginal: false
 author:
   - name: Oluwadamisi Samuel
-    url : https://freecodecamp.org/news/author/Oluwadamisi/
+    url: https://freecodecamp.org/news/author/Oluwadamisi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751385483454/7e7949aa-4bcd-4f58-9725-36df67b866a5.png
 ---
 

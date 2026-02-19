@@ -23,7 +23,7 @@ date: 2020-01-10
 isOriginal: false
 author:
   - name: Rachel Andrew
-    url : https://smashingmagazine.com/author/rachel-andrew/
+    url: https://smashingmagazine.com/author/rachel-andrew/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6e5cdb41-b411-4eab-a107-c2ec41099020/understanding-css-grid-lines.png
 ---
 

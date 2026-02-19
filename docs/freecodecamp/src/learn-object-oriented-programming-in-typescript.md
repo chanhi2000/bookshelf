@@ -24,7 +24,7 @@ date: 2025-05-12
 isOriginal: false
 author:
   - name: Lucas
-    url : https://freecodecamp.org/news/author/lucasgarcez/
+    url: https://freecodecamp.org/news/author/lucasgarcez/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747058547629/98922409-4eaf-45e5-8721-10c6a1e6e5e4.png
 ---
 

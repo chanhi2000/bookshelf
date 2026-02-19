@@ -23,7 +23,7 @@ date: 2017-02-10
 isOriginal: false
 author:
   - name: Eric Bailey
-    url : https://css-tricks.com/author/ericwbailey/
+    url: https://css-tricks.com/author/ericwbailey/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2017/02/falling.jpg
 ---
 

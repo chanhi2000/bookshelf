@@ -23,7 +23,7 @@ date: 2019-08-12
 isOriginal: false
 author:
   - name: Bartosz Zaczyński
-    url : https://realpython.com/team/bzaczynski/
+    url: https://realpython.com/team/bzaczynski/
 cover: https://files.realpython.com/media/The-Python-Print-Function_Watermarked.26066d64ad82.jpg
 ---
 

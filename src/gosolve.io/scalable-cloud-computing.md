@@ -25,7 +25,7 @@ date: 2023-05-18
 isOriginal: false
 author:
   - name: Carlos
-    url : https://gosolve.io/author/krutkowski/
+    url: https://gosolve.io/author/krutkowski/
 cover: https://gosolve.io/wp-content/uploads/2023/07/Facebook_BLOG_FOTOCOPY-2-1024x1024.png
 ---
 

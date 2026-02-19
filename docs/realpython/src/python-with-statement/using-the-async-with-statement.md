@@ -22,7 +22,7 @@ date: 2021-06-02
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Context-Managers--the-Python-with-Statement_Watermarked.3774ffbe2514.jpg
 ---
 
@@ -75,7 +75,7 @@ asyncio.run(main())
 
 Here’s what this script does:
 
-- **Line 3** [**imports**](/realpython.com/python-import.md) `aiohttp`, which provides an asynchronous HTTP client and server for `asyncio` and Python. Note that `aiohttp` is a third-party package that you can install by running `python -m pip install aiohttp` on your command line.
+- **Line 3** [**imports**](/realpython.com/python-import/README.md) `aiohttp`, which provides an asynchronous HTTP client and server for `asyncio` and Python. Note that `aiohttp` is a third-party package that you can install by running `python -m pip install aiohttp` on your command line.
 - **Line 4** imports `asyncio`, which allows you to write [**concurrent**](/realpython.com/python-concurrency.md) code using the `async` and `await` syntax.
 - **Line 6** defines `check()` as an asynchronous function using the `async` [**keyword**](/realpython.com/python-keywords.md).
 

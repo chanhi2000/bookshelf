@@ -23,7 +23,7 @@ date: 2021-05-11
 isOriginal: false
 author:
   - name: Una Kravets
-    url : https://css-tricks.com/author/unakravets/
+    url: https://css-tricks.com/author/unakravets/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-11-at-7.38.01-AM.png
 ---
 

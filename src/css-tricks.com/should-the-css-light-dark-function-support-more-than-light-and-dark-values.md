@@ -23,7 +23,7 @@ date: 2025-09-02
 isOriginal: false
 author:
   - name: Sunkanmi Fafowora
-    url : https://css-tricks.com/author/sunkanmifafowora/
+    url: https://css-tricks.com/author/sunkanmifafowora/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/08/light-dark.webp
 ---
 

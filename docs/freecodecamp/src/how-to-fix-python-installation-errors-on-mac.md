@@ -29,7 +29,7 @@ date: 2024-06-10
 isOriginal: false
 author:
   - name: Daniel Kehoe
-    url : https://freecodecamp.org/news/author/DanielKehoe/
+    url: https://freecodecamp.org/news/author/DanielKehoe/
 cover: https://freecodecamp.org/news/content/images/2024/06/python-install-errors.png
 ---
 

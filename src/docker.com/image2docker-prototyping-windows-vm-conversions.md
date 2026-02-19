@@ -25,7 +25,7 @@ date: 2016-09-29
 isOriginal: false
 author:
   - name: Mano Marks
-    url : https://docker.com/author/mano/
+    url: https://docker.com/author/mano/
 cover: https://docker.com/app/uploads/2022/12/image2docker-prototyping-windows-vm-conversions-1.png
 ---
 

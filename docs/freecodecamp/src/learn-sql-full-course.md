@@ -26,7 +26,7 @@ date: 2023-05-11
 isOriginal: false
 author:
   - name: Jovian (@jovianhq)
-    url : https://youtube.com/@jovianhq
+    url: https://youtube.com/@jovianhq
 cover: https://cdn-media-0.freecodecamp.org/2023/05/sql.png
 ---
 

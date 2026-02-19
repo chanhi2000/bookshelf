@@ -33,7 +33,7 @@ date: 2025-04-02
 isOriginal: false
 author:
   - name: Vuk Rosić (@vukrosic)
-    url : https://youtube.com/@vukrosic
+    url: https://youtube.com/@vukrosic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743528561674/7a60918e-265c-4201-a8a6-eec530f3149a.png
 ---
 

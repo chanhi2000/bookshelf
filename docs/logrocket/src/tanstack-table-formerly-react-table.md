@@ -29,7 +29,7 @@ date: 2025-03-28
 isOriginal: false
 author:
   - name: Paramanantham Harrison
-    url : https://blog.logrocket.com/author/paramananthamharrison/
+    url: https://blog.logrocket.com/author/paramananthamharrison/
 cover: /assets/image/blog.logrocket.com/tanstack-table-formerly-react-table/banner.png
 ---
 

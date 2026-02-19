@@ -29,7 +29,7 @@ date: 2025-06-30
 isOriginal: false
 author:
   - name: Marin Todorov
-    url : https://tecmint.com/author/marintodorov89/
+    url: https://tecmint.com/author/marintodorov89/
 cover: https://tecmint.com/wp-content/uploads/2025/06/atop-System-and-process-monitor-for-Linux.webp
 ---
 

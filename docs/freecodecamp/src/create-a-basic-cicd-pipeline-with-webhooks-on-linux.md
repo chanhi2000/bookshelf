@@ -33,7 +33,7 @@ date: 2025-01-29
 isOriginal: false
 author:
   - name: Juan P. Romano
-    url : https://freecodecamp.org/news/author/jpromanonet/
+    url: https://freecodecamp.org/news/author/jpromanonet/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737640144719/9035597c-0a69-4146-93cc-8bd659384169.png
 ---
 

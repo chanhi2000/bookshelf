@@ -30,7 +30,7 @@ date: 2025-08-20
 isOriginal: false
 author:
   - name: Sanjay R
-    url : https://freecodecamp.org/news/author/sanjayxr/
+    url: https://freecodecamp.org/news/author/sanjayxr/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755625913612/bfffd5f9-f4d6-4f8d-aae8-72f5730bd7e9.png
 ---
 

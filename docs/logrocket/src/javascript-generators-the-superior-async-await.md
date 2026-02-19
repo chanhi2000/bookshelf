@@ -24,7 +24,7 @@ date: 2021-04-14
 isOriginal: false
 author:
   - name: Paul Cowan
-    url : https://blog.logrocket.com/author/paulcowan/
+    url: https://blog.logrocket.com/author/paulcowan/
 cover: /assets/image/blog.logrocket.com/javascript-generators-the-superior-async-await/banner.png
 ---
 

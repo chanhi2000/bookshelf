@@ -25,7 +25,7 @@ date: 2025-09-11
 isOriginal: false
 author:
   - name: Tim Kleier
-    url : https://freecodecamp.org/news/author/timkleier/
+    url: https://freecodecamp.org/news/author/timkleier/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757518255485/8e727e36-d22a-42d9-b1a7-98d3ca5eae35.png
 ---
 

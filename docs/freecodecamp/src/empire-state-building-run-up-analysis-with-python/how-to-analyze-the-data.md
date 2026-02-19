@@ -27,7 +27,7 @@ date: 2024-12-03
 isOriginal: false
 author:
   - name: Jose Vicente Nunez
-    url : https://freecodecamp.org/news/author/josevnz/
+    url: https://freecodecamp.org/news/author/josevnz/
 cover: https://freecodecamp.org/news/content/images/2024/05/empire_state_runup-1.png
 ---
 

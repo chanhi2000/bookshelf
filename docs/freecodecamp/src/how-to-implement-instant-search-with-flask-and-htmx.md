@@ -26,7 +26,7 @@ date: 2024-07-22
 isOriginal: false
 author:
   - name: Ashutosh Krishna
-    url : https://freecodecamp.org/news/author/ashutoshkrris/
+    url: https://freecodecamp.org/news/author/ashutoshkrris/
 cover: https://freecodecamp.org/news/content/images/2024/07/instant-search.png
 ---
 
@@ -302,7 +302,7 @@ if __name__ == "__main__":
 
 The seeder script is responsible for populating the database with initial data. This is useful for testing and development purposes, allowing you to work with a set of sample data. This script reads data from **data.csv**, and processes it to insert it into the database.
 
-**Note**: You can download the [data.csv (<VPIcon icon="iconfont icon-github" />`ashutoshkrris/instant-search-with-flask-htmx`)](https://github.com/ashutoshkrris/instant-search-with-flask-htmx/blob/main/data.csv) file from here.
+**Note**: You can download the [data.csv (<VPIcon icon="iconfont icon-github"/>`ashutoshkrris/instant-search-with-flask-htmx`)](https://github.com/ashutoshkrris/instant-search-with-flask-htmx/blob/main/data.csv) file from here.
 
 To use this script, ensure your **data.csv** file exists in the same directory as **seeder.py**. Run the script using Python:
 
@@ -524,7 +524,7 @@ By mastering these techniques, you're equipped to build responsive web applicati
 
 ::: info
 
-You can find the code for this tutorial in this repository: [https://github.com/ashutoshkrris/instant-search-with-flask-htmx (<VPIcon icon="iconfont icon-github" />`ashutoshkrris/instant-search-with-flask-htmx`)](https://github.com/ashutoshkrris/instant-search-with-flask-htmx)
+You can find the code for this tutorial in this repository: [https://github.com/ashutoshkrris/instant-search-with-flask-htmx (<VPIcon icon="iconfont icon-github"/>`ashutoshkrris/instant-search-with-flask-htmx`)](https://github.com/ashutoshkrris/instant-search-with-flask-htmx)
 
 <SiteInfo
   name="ashutoshkrris/instant-search-with-flask-htmx"

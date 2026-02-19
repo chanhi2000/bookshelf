@@ -30,7 +30,7 @@ date: 2025-10-02
 isOriginal: false
 author:
   - name: Per Borgen
-    url : https://github.com/perborgen
+    url: https://github.com/perborgen
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759352860983/1c5a17cf-adfd-4cea-bd45-099ab5c4862a.png
 ---
 

@@ -31,7 +31,7 @@ date: 2015-08-13
 isOriginal: false
 author:
   - name: Dean Hume
-    url : https://smashingmagazine.com/author/dean-hume/
+    url: https://smashingmagazine.com/author/dean-hume/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3e502def-874f-44ab-8a99-e65043018baa/02-browser-opt-small.jpg
 ---
 
@@ -128,7 +128,7 @@ In order to understand what this might look like represented as HTML, the code b
 
 In the code above, we are extracting the critical CSS and inlining it in the HTML between the `style` tags. Next, we are using the `loadCSS();` function to asynchronously load the remaining, non-critical CSS. This is important because we are essentially off-loading the bulkier (*non-critical*) CSS and injecting it into the web page in the background.
 
-At first, this may seem like a nightmare to maintain. Why would you manually want to inline a snippet of CSS in every page? There is good news, though – the process can be automated and in this example, I am going to run through a tool called [Critical (<VPIcon icon="iconfont icon-github" />`addyosmani/critical`)](https://github.com/addyosmani/critical). Originally created by [<VPIcon icon="fas fa-globe"/>Addy Osmani](https://addyosmani.com/blog/), it is a Node.js package that allows you to automatically extract and inline critical-path CSS in HTML pages.
+At first, this may seem like a nightmare to maintain. Why would you manually want to inline a snippet of CSS in every page? There is good news, though – the process can be automated and in this example, I am going to run through a tool called [Critical (<VPIcon icon="iconfont icon-github"/>`addyosmani/critical`)](https://github.com/addyosmani/critical). Originally created by [<VPIcon icon="fas fa-globe"/>Addy Osmani](https://addyosmani.com/blog/), it is a Node.js package that allows you to automatically extract and inline critical-path CSS in HTML pages.
 
 We are going to combine this with [<VPIcon icon="iconfont icon-grunt"/>Grunt](https://gruntjs.com/), the JavaScript task runner, to automatically process the CSS. If you have never used Grunt before, the website has some very [<VPIcon icon="iconfont icon-grunt"/>detailed documentation](https://gruntjs.com/getting-started), as well as a variety of tips for configuring your project. I have also [<VPIcon icon="fas fa-globe"/>previously blogged](https://deanhume.com/automatically-removing-unused-css-using-grunt/) about this awesome tool.
 
@@ -146,7 +146,7 @@ This will put the `grunt` command in your system path, allowing it to be run fro
 npm i grunt --save-dev
 ```
 
-Then install the [grunt-critical (<VPIcon icon="iconfont icon-github" />`bezoerb/grunt-critical`)](https://github.com/bezoerb/grunt-critical) plugin.
+Then install the [grunt-critical (<VPIcon icon="iconfont icon-github"/>`bezoerb/grunt-critical`)](https://github.com/bezoerb/grunt-critical) plugin.
 
 ```sh
 npm i grunt-critical --save-dev
@@ -294,15 +294,15 @@ In “[<VPIcon icon="fas fa-globe"/>Why Inlining Everything Is NOT The Answer](h
 
 ## It’s Not Perfect
 
-While many of the tools required to generate and inline critical CSS are constantly improving, there might be a few areas for improvement. If you notice any bugs in your project, [open up an issue (<VPIcon icon="iconfont icon-github" />`addyosmani/critical`)](https://github.com/addyosmani/critical/issues) or pull request and help contribute to the project on GitHub.
+While many of the tools required to generate and inline critical CSS are constantly improving, there might be a few areas for improvement. If you notice any bugs in your project, [open up an issue (<VPIcon icon="iconfont icon-github"/>`addyosmani/critical`)](https://github.com/addyosmani/critical/issues) or pull request and help contribute to the project on GitHub.
 
 Optimizing the critical rendering path for your website can go a long way towards improving your page load times. Using this technique allows us to use a responsive layout without compromising on its well-known benefits. It’s also a great way to ensure that your page loads quickly without holding back on your design.
 
 ### Other Resources
 
-If you prefer to use another build system such as Gulp, you can use the plugin directly without downloading Grunt. There is also a useful tutorial showing [how to optimize a basic page with Gulp (<VPIcon icon="iconfont icon-github" />`addyosmani/critical-path-css-demo#tutorial`)](https://github.com/addyosmani/critical-path-css-demo#tutorial).
+If you prefer to use another build system such as Gulp, you can use the plugin directly without downloading Grunt. There is also a useful tutorial showing [how to optimize a basic page with Gulp (<VPIcon icon="iconfont icon-github"/>`addyosmani/critical-path-css-demo#tutorial`)](https://github.com/addyosmani/critical-path-css-demo#tutorial).
 
-There are other plugins that will extract your critical CSS, such as [Penthouse (<VPIcon icon="iconfont icon-github" />`pocketjoso/penthouse`)](https://github.com/pocketjoso/penthouse), and [criticalCSS (<VPIcon icon="iconfont icon-github" />`filamentgroup/criticalCSS`)](https://github.com/filamentgroup/criticalCSS) from the Filament Group. I also thoroughly recommend reading “[<VPIcon icon="fas fa-globe"/>How we make RWD sites load fast as heck](https://filamentgroup.com/lab/performance-rwd.html)” by the Filament Group for a good overview of how they use this technique to ensure that their web pages load as quickly as possible.
+There are other plugins that will extract your critical CSS, such as [Penthouse (<VPIcon icon="iconfont icon-github"/>`pocketjoso/penthouse`)](https://github.com/pocketjoso/penthouse), and [criticalCSS (<VPIcon icon="iconfont icon-github"/>`filamentgroup/criticalCSS`)](https://github.com/filamentgroup/criticalCSS) from the Filament Group. I also thoroughly recommend reading “[<VPIcon icon="fas fa-globe"/>How we make RWD sites load fast as heck](https://filamentgroup.com/lab/performance-rwd.html)” by the Filament Group for a good overview of how they use this technique to ensure that their web pages load as quickly as possible.
 
 The editor-in-chief of Smashing Magazine, Vitaly Friedman, wrote an article about how Smashing Magazine [<VPIcon icon="fa-brands fa-google"/>improved the performance](https://smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/) of this website using this technique. If you would like to learn more about the critical rendering path, there is [<VPIcon icon="fa-brands fa-google"/>a useful course available for free on the Udacity website](https://udacity.com/course/ud884). The [<VPIcon icon="fa-brands fa-google"/>Google Developers website](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/) also has some good content that covers [<VPIcon icon="fa-brands fa-google"/>optimizing CSS delivery](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path?hl=en). Patrick Hamman also wrote a great piece on how to identify critical CSS in his workshop, Building a Faster Web.
 

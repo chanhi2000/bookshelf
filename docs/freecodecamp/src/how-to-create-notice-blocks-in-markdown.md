@@ -28,7 +28,7 @@ date: 2024-06-10
 isOriginal: false
 author:
   - name: Md. Fahim Bin Amin
-    url : https://freecodecamp.org/news/author/FahimFBA/
+    url: https://freecodecamp.org/news/author/FahimFBA/
 cover: https://freecodecamp.org/news/content/images/2024/06/Note--Tip--Warning---Caution-specific-blocks-in-MarkDown-1.png
 ---
 

@@ -29,7 +29,7 @@ date: 2025-12-12
 isOriginal: false
 author:
   - name: Marconi Darmawan (@KodeKloud)
-    url : https://learn.kodekloud.com/courses/n8n-zero-to-hero-2
+    url: https://learn.kodekloud.com/courses/n8n-zero-to-hero-2
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765477338398/5c72b733-c04f-4722-8c30-67e3bb9043e5.jpeg
 ---
 

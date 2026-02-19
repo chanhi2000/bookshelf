@@ -24,7 +24,7 @@ date: 2025-10-23
 isOriginal: false
 author:
   - name: Mat “Wilto” Marquis
-    url : https://piccalil.li/author/mat-wilto-marquis
+    url: https://piccalil.li/author/mat-wilto-marquis
 cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/5914e65b191a0d86865628846b43ff75e2c77f1b4ecd420b9b7ad38249aa1e18/png?url=https://piccalil.li/og/nan-the-not-a-number-number-that-isnt-nan/&width=1024&height=526&retina=true
 ---
 

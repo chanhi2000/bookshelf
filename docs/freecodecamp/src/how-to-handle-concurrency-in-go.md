@@ -23,7 +23,7 @@ date: 2024-05-11
 isOriginal: false
 author:
   - name: Destiny Erhabor
-    url : https://freecodecamp.org/news/author/CaesarSage/
+    url: https://freecodecamp.org/news/author/CaesarSage/
 cover: https://freecodecamp.org/news/content/images/2024/05/joshua-sortino-LqKhnDzSF-8-unsplash.jpg
 ---
 

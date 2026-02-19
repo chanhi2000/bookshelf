@@ -23,7 +23,7 @@ date: 2019-07-15
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://css-tricks.com/author/chriscoyier/
+    url: https://css-tricks.com/author/chriscoyier/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2011/05/scrollbarparts.png
 ---
 

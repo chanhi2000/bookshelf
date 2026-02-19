@@ -23,7 +23,7 @@ date: 2008-02-21
 isOriginal: false
 author:
   - name: Vitaly Friedman
-    url : https://smashingmagazine.com/author/vitaly-friedman/
+    url: https://smashingmagazine.com/author/vitaly-friedman/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1d08a86e-3d1f-4e96-b65a-35cdc0777b34/silverback.jpg
 ---
 

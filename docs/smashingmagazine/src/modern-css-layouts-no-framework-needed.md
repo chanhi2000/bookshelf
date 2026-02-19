@@ -23,7 +23,7 @@ date: 2024-05-22
 isOriginal: false
 author:
   - name: Brecht De Ruyte
-    url : https://smashingmagazine.com/author/brecht-de-ruyte/
+    url: https://smashingmagazine.com/author/brecht-de-ruyte/
 cover: https://files.smashing.media/articles/modern-css-layouts-no-framework-needed/modern-css-layouts-no-framework-needed.jpg
 ---
 
@@ -239,7 +239,7 @@ If we were to apply a `background-color` and `height` to those divs, we would ge
   slug-hash="gOJrqmL"
   title="Layout Utility: Repeating Grid [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now, of course, we don’t *have* to have just three columns. Let’s say we want a product grid where we want to change the repeating columns from `3` to `5` while updating the `gap` from `2vw` to `3vw` using the same HTML, only with a new class we can use override those values.
 
@@ -272,7 +272,7 @@ See how this is shaping up? We have a grid layout based on a set of globally-sco
   slug-hash="YzbqBVy"
   title="Layout Utility: Repeating Grid [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The benefit is that we can overwrite our default values without polluting the HTML with superfluous classes. This is the **overarching approach** we will also use in the three other layout classes. Next up is the “Repeating Flex” version of what we just made.
 
@@ -465,7 +465,7 @@ The “max” half of `minmax()` is set to `1fr` to ensure that each column grow
   slug-hash="GRaZzMN"
   title="Fluid grid [forked] "
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 That’s it for the Fluid Grid layout! That said, please do take note that this is a *strong grid*, particularly when it is combined with modern relative units, e.g. `ch`, as it produces a grid that only scales from one column to multiple columns based on the size of the content.
 
@@ -591,7 +591,7 @@ Check out the following demo to see how everything comes together.
   slug-hash="mdYPvLR"
   title="Grid system playground [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The demo is pulling in styles from [another pen that contains the full CSS for everything we made (<VPIcon icon="fa-brands fa-codepen" />`utilitybend`)](https://codepen.io/utilitybend/pen/YzMvJmN) together in this article. So, if you were to replace the `.fluid-flex` classname from the parent container in the HTML with another one of the layout utilities, the layout will update accordingly, allowing you to compare them.
 

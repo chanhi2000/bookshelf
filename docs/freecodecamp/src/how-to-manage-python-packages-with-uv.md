@@ -26,7 +26,7 @@ date: 2025-11-03
 isOriginal: false
 author:
   - name: Hew Hahn
-    url : https://freecodecamp.org/news/author/hew/
+    url: https://freecodecamp.org/news/author/hew/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762169941014/9e66858d-3ba4-434e-a9f1-84d42a316192.png
 ---
 

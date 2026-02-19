@@ -41,7 +41,7 @@ date: 2025-09-09
 isOriginal: false
 author:
   - name: Happiness Omale
-    url : https://freecodecamp.org/news/author/Codinghappiness/
+    url: https://freecodecamp.org/news/author/Codinghappiness/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757342938389/164c8a45-d566-4de4-9a0f-cc9c270ce262.png
 ---
 

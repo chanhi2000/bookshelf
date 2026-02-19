@@ -35,7 +35,7 @@ date: 2023-11-29
 isOriginal: false
 author:
   - name: Nur Islam
-    url : https://blog.logrocket.com/author/nurislam/
+    url: https://blog.logrocket.com/author/nurislam/
 cover: /assets/image/blog.logrocket.com/mern-stack-tutorial/banner.jpeg
 ---
 
@@ -1354,7 +1354,7 @@ This is not necessarily the only optimal approach to deploying a MERN applicatio
 
 ## Conclusion
 
-Congratulations! You have successfully completed this MERN stack tutorial. You can visit my GitHub to see the [server side (<VPIcon icon="iconfont icon-github" />`david4473/MERN_application`)](https://github.com/david4473/MERN_application/tree/main/server) and [client side (<VPIcon icon="iconfont icon-github" />`david4473/MERN_application`)](https://github.com/david4473/MERN_application/tree/main/React) portions of this MERN stack tutorial. You can also check out the [complete repo for our MERN stack example app (<VPIcon icon="iconfont icon-github" />`david4473/MERN_application`)](https://github.com/david4473/MERN_application).
+Congratulations! You have successfully completed this MERN stack tutorial. You can visit my GitHub to see the [server side (<VPIcon icon="iconfont icon-github"/>`david4473/MERN_application`)](https://github.com/david4473/MERN_application/tree/main/server) and [client side (<VPIcon icon="iconfont icon-github"/>`david4473/MERN_application`)](https://github.com/david4473/MERN_application/tree/main/React) portions of this MERN stack tutorial. You can also check out the [complete repo for our MERN stack example app (<VPIcon icon="iconfont icon-github"/>`david4473/MERN_application`)](https://github.com/david4473/MERN_application).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

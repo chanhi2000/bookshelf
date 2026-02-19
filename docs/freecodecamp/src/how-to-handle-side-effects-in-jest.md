@@ -27,7 +27,7 @@ date: 2024-09-17
 isOriginal: false
 author:
   - name: ِAya Nabil Othman
-    url : https://freecodecamp.org/news/author/AyaNabilOthman/
+    url: https://freecodecamp.org/news/author/AyaNabilOthman/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726038899380/6210fc66-17fb-4db9-9f91-1e7d38dc256c.png
 ---
 

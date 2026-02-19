@@ -33,7 +33,7 @@ date: 2025-05-27
 isOriginal: false
 author:
   - name: Josiah Adesola
-    url : https://freecodecamp.org/news/author/josiahadesola/
+    url: https://freecodecamp.org/news/author/josiahadesola/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748452192906/594a76a0-be8f-478b-a9ae-e3ba55850c65.png
 ---
 
@@ -61,7 +61,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748452192906/594a76a
 
 ```component VPCard
 {
-  "title": "VSCode > Article(s)",
+  "title": "Visual Studio Code > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/vscod/articles/README.md",
   "logo": "/images/ico-wind.svg",

@@ -32,7 +32,7 @@ date: 2025-05-15
 isOriginal: false
 author:
   - name: Daniel Adeboye
-    url : https://freecodecamp.org/news/author/AdeboyeDN/
+    url: https://freecodecamp.org/news/author/AdeboyeDN/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747235146559/0bce7dc3-0abe-4241-a188-1c05c773e810.png
 ---
 

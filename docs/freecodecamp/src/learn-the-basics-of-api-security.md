@@ -29,7 +29,7 @@ date: 2025-01-31
 isOriginal: false
 author:
   - name: Dan Barahona (@danbarahona)
-    url : https://x.com/danbarahona
+    url: https://x.com/danbarahona
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738249160616/80af618b-7d5a-442d-a6d9-6ea4dd91cfc4.png
 ---
 

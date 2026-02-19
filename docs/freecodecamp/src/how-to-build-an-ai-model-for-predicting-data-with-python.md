@@ -29,7 +29,7 @@ date: 2024-08-08
 isOriginal: false
 author:
   - name: Tiago Capelo Monteiro
-    url : https://freecodecamp.org/news/author/tiagomonteiro/
+    url: https://freecodecamp.org/news/author/tiagomonteiro/
 cover: https://freecodecamp.org/news/content/images/2024/08/pexels-guvo-20731157.jpg
 ---
 
@@ -82,7 +82,7 @@ We'll create a simple neural network, avoiding complex architectures like transf
 
 ::: info
 
-The full code is available [here (<VPIcon icon="iconfont icon-github" />`tiagomonteiro0715/freecodecamp-my-articles-source-code`)](https://github.com/tiagomonteiro0715/freecodecamp-my-articles-source-code).
+The full code is available [here (<VPIcon icon="iconfont icon-github"/>`tiagomonteiro0715/freecodecamp-my-articles-source-code`)](https://github.com/tiagomonteiro0715/freecodecamp-my-articles-source-code).
 
 <SiteInfo
   name="tiagomonteiro0715/freecodecamp-my-articles-source-code"

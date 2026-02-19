@@ -23,7 +23,7 @@ date: 2016-02-26
 isOriginal: false
 author:
   - name: Yoav Weiss
-    url : https://smashingmagazine.com/author/yoav-weiss/
+    url: https://smashingmagazine.com/author/yoav-weiss/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/7e836a24-66de-43df-af76-1dd15773359f/skeleton-500px-opt.png
 ---
 
@@ -127,7 +127,7 @@ But, you could get away from all that complexity by **including preload directiv
 <link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin>
 ```
 
-One point worth going over: You [have to add a `crossorigin` attribute (<VPIcon icon="iconfont icon-github" />`w3c/preload`)](https://github.com/w3c/preload/issues/32) when fetching fonts, as they are [<VPIcon icon="iconfont icon-w3c"/>fetched using anonymous mode CORS](https://drafts.csswg.org/css-fonts/#font-fetching-requirements). Yes, even if your fonts are on the same origin as the page. Sorry.
+One point worth going over: You [have to add a `crossorigin` attribute (<VPIcon icon="iconfont icon-github"/>`w3c/preload`)](https://github.com/w3c/preload/issues/32) when fetching fonts, as they are [<VPIcon icon="iconfont icon-w3c"/>fetched using anonymous mode CORS](https://drafts.csswg.org/css-fonts/#font-fetching-requirements). Yes, even if your fonts are on the same origin as the page. Sorry.
 
 Also, the `type` attribute is there to make sure that this resource will only get preloaded on browsers that support that file type. Right now, only Chrome supports preload, and it does support WOFF2 as well, but more browsers may support preload in the future, and we cannot assume they’d also support WOFF2. The same is true for any resource type you’re preloading and which browser support isn’t ubiquitous.
 
@@ -159,7 +159,7 @@ document.body.appendChild(script);
 
 ### Markup-Based Async Loader
 
-Another cool hack is to use the `onload` handler in order to create some sort of a markup-based async loader. [Scott Jehl (<VPIcon icon="fa-brands fa-x-twitter" />`scottjehl`)](https://twitter.com/scottjehl) was the first to [experiment (<VPIcon icon="iconfont icon-github" />`filamentgroup/loadCSS`)](https://github.com/filamentgroup/loadCSS/issues/59) with that, as part of his loadCSS library. In short, you can do something like:
+Another cool hack is to use the `onload` handler in order to create some sort of a markup-based async loader. [Scott Jehl (<VPIcon icon="fa-brands fa-x-twitter" />`scottjehl`)](https://twitter.com/scottjehl) was the first to [experiment (<VPIcon icon="iconfont icon-github"/>`filamentgroup/loadCSS`)](https://github.com/filamentgroup/loadCSS/issues/59) with that, as part of his loadCSS library. In short, you can do something like:
 
 ```html
 <link rel="preload" as="style" href="async_style.css" onload="this.rel='stylesheet'">

@@ -24,7 +24,7 @@ date: 2024-06-18
 isOriginal: false
 author:
   - name: Fanny Nyayic
-    url : https://freecodecamp.org/news/author/nyayicfanny/
+    url: https://freecodecamp.org/news/author/nyayicfanny/
 cover: https://freecodecamp.org/news/content/images/2024/06/HTML---CSS-Only-Masonry-Layout.png
 ---
 

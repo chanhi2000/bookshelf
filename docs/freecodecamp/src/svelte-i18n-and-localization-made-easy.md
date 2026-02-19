@@ -2,7 +2,7 @@
 lang: en-US
 title: "Svelte i18n and Localization Made Easy"
 description: "Article(s) > Svelte i18n and Localization Made Easy"
-icon: iconfont icon-svelte
+icon: fa-brands fa-svelte
 category:
   - Node.js
   - Svelte.js
@@ -100,7 +100,7 @@ The `npm create` command will prompt you with a few choices. Here’s what I’v
 
 Now that we have our project set up, let's create a welcome component that we'll later enhance with translations.
 
-Create a new file called <VPIcon icon="iconfont icon-svelte"/>`Welcome.svelte` in your src directory:
+Create a new file called <VPIcon icon="fa-brands fa-svelte"/>`Welcome.svelte` in your src directory:
 
 <!-- TODO: svelte로 변경 -->
 ```vue title="src/Welcome.svelte"
@@ -213,7 +213,7 @@ The `bind:value` directive automatically updates the active language when users 
 
 The locale store from svelte-i18n handles all the behind-the-scenes work of switching languages.
 
-Now let's bring everything together in our main <VPIcon icon="iconfont icon-svelte"/>`App` component:
+Now let's bring everything together in our main <VPIcon icon="fa-brands fa-svelte"/>`App` component:
 
 <!-- TODO: svelte로 변경 -->
 ```vue title="src/App.svelte"

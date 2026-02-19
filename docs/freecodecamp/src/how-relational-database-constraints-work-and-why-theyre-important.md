@@ -23,7 +23,7 @@ date: 2026-01-15
 isOriginal: false
 author:
   - name: Zubair Idris Aweda
-    url : https://freecodecamp.org/news/author/Zubs/
+    url: https://freecodecamp.org/news/author/Zubs/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768416017042/66390973-a4cb-4e7a-9161-2d737045bf7b.png
 ---
 

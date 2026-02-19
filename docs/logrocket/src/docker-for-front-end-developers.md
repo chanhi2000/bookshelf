@@ -29,7 +29,7 @@ date: 2019-08-20
 isOriginal: false
 author:
   - name: Emanuel Suriano
-    url : https://blog.logrocket.com/author/emanuelsuriano/
+    url: https://blog.logrocket.com/author/emanuelsuriano/
 cover: /assets/image/blog.logrocket.com/docker-for-front-end-developers/banner.jpeg
 ---
 

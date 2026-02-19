@@ -29,7 +29,7 @@ date: 2024-10-23
 isOriginal: false
 author:
   - name: Jude Miracle
-    url : https://blog.logrocket.com/author/judemiracle/
+    url: https://blog.logrocket.com/author/judemiracle/
 cover: /assets/image/blog.logrocket.com/best-react-select-component-libraries/banner.png
 ---
 
@@ -233,7 +233,7 @@ export default MySelect;
 }
 ```
 
-[<VPIcon icon="fas fa-globe"/>Choices.js](https://choices-js.github.io/Choices/) is a JavaScript library for creating custom select boxes, text inputs, and multi-select inputs. It is popular for its flexibility and ability to handle complex select components without relying on jQuery. It is like [Select2 (<VPIcon icon="iconfont icon-github" />`select2/select2`)](https://github.com/select2/select2) and [Selectize (<VPIcon icon="iconfont icon-github" />`selectize/selectize.js`)](https://github.com/selectize/selectize.js) but written in vanilla JavaScript so it is lighter and more modern.
+[<VPIcon icon="fas fa-globe"/>Choices.js](https://choices-js.github.io/Choices/) is a JavaScript library for creating custom select boxes, text inputs, and multi-select inputs. It is popular for its flexibility and ability to handle complex select components without relying on jQuery. It is like [Select2 (<VPIcon icon="iconfont icon-github"/>`select2/select2`)](https://github.com/select2/select2) and [Selectize (<VPIcon icon="iconfont icon-github"/>`selectize/selectize.js`)](https://github.com/selectize/selectize.js) but written in vanilla JavaScript so it is lighter and more modern.
 
 Choices.js allows developers to create dynamic select inputs, whether single or multi-select, while controlling behaviors like sorting, searching, placeholder text, and the ability to add custom options. Developers can customize the styling of select elements to match their app design. Additionally, Choices.js has callback functions for user interactions and extends text inputs with features like tagging, validation, and limiting entries.
 
@@ -300,7 +300,7 @@ export default MySelect;
 
 ![React Mobile Picker Homepage](/assets/image/blog.logrocket.com/best-react-select-component-libraries/react-mobile-picker-homepage.png)
 
-Not a direct alternative to React Select per se, [React Mobile Picker (<VPIcon icon="iconfont icon-github" />`adcentury/react-mobile-picker`)](https://github.com/adcentury/react-mobile-picker) is a lightweight component library that offers a customizable and user-friendly interface for selecting items from a list. It is useful for applications that require users to make selections from options like dates, times, or custom lists. It is inspired by iOS-style select boxes, and it provides a visually appealing and intuitive interface for selecting options.
+Not a direct alternative to React Select per se, [React Mobile Picker (<VPIcon icon="iconfont icon-github"/>`adcentury/react-mobile-picker`)](https://github.com/adcentury/react-mobile-picker) is a lightweight component library that offers a customizable and user-friendly interface for selecting items from a list. It is useful for applications that require users to make selections from options like dates, times, or custom lists. It is inspired by iOS-style select boxes, and it provides a visually appealing and intuitive interface for selecting options.
 
 ### React Mobile Picker pros
 

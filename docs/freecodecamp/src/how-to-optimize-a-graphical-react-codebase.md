@@ -29,7 +29,7 @@ date: 2025-10-16
 isOriginal: false
 author:
   - name: Cedd Burge
-    url : https://freecodecamp.org/news/author/ceddlyburge/
+    url: https://freecodecamp.org/news/author/ceddlyburge/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760617553059/99fd830f-39a8-4067-9727-e9b35850168d.png
 ---
 

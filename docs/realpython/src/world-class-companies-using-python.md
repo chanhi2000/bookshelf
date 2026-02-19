@@ -25,7 +25,7 @@ date: 2018-02-08
 isOriginal: false
 author:
   - name: Jason Reynolds
-    url : https://realpython.com/team/jreynolds/
+    url: https://realpython.com/team/jreynolds/
 cover: https://files.realpython.com/media/8-World-Class-Software-Companies-That-Use-Python_Watermarked.0af7266ce383.jpg
 ---
 

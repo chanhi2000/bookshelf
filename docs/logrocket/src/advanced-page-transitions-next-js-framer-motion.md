@@ -29,7 +29,7 @@ date: 2023-12-28
 isOriginal: false
 author:
   - name: Francois Brill
-    url : https://blog.logrocket.com/author/francoisbrill/
+    url: https://blog.logrocket.com/author/francoisbrill/
 cover: /assets/image/blog.logrocket.com/advanced-page-transitions-next-js-framer-motion/banner.png
 ---
 

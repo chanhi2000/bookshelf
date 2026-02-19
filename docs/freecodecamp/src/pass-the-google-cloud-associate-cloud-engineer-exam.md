@@ -31,7 +31,7 @@ date: 2025-08-08
 isOriginal: false
 author:
   - name: Andrew Brown
-    url : https://freecodecamp.org/news/author/beaucarnes/
+    url: https://freecodecamp.org/news/author/beaucarnes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754609974047/0ba79036-c47e-422c-8e06-626f10d95d7d.png
 ---
 

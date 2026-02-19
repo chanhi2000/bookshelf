@@ -27,7 +27,7 @@ date: 2024-05-08
 isOriginal: false
 author:
   - name: Ayush Singh (@AyushSinghSh)
-    url : https://youtube.com/@AyushSinghSh
+    url: https://youtube.com/@AyushSinghSh
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715177855099/f851bc1e-c61b-4c7a-be07-aa0ba233a347.png
 ---
 

@@ -23,7 +23,7 @@ date: 2025-03-27
 isOriginal: false
 author:
   - name: Omolade Ekpeni
-    url : https://freecodecamp.org/news/author/omoladeekpeni/
+    url: https://freecodecamp.org/news/author/omoladeekpeni/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743005263079/95dfe528-a274-4172-8a06-46187c1668eb.png
 ---
 

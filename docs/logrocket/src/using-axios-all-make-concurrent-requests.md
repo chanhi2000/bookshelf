@@ -31,7 +31,7 @@ date: 2021-10-26
 isOriginal: false
 author:
   - name: Ejiro Asiuwhu
-    url : https://blog.logrocket.com/author/ejiroasiuwhu/
+    url: https://blog.logrocket.com/author/ejiroasiuwhu/
 cover: /assets/image/blog.logrocket.com/using-axios-all-make-concurrent-requests/banner.png
 ---
 

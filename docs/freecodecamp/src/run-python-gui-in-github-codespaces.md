@@ -24,7 +24,7 @@ date: 2025-09-13
 isOriginal: false
 author:
   - name: Ayodele Aransiola
-    url : https://freecodecamp.org/news/author/leomofthings/
+    url: https://freecodecamp.org/news/author/leomofthings/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757716674058/86bb9af9-0977-4548-a050-36c3b9ea3e16.png
 ---
 

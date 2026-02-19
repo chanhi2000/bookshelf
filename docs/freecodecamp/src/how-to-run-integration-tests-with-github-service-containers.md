@@ -31,7 +31,7 @@ date: 2025-01-08
 isOriginal: false
 author:
   - name: Alex Pliutau
-    url : https://freecodecamp.org/news/author/pltvs/
+    url: https://freecodecamp.org/news/author/pltvs/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735305764768/8e3d8980-456b-4828-abb7-dff749bbf1fd.png
 ---
 

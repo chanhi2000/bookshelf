@@ -22,7 +22,7 @@ date: 2025-01-19
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Python-Constants_Watermarked.4cc3aa373268.jpg
 ---
 
@@ -109,7 +109,7 @@ None = 42
 # SyntaxError: cannot assign to None
 ```
 
-`None` is quite useful as a default argument value in functions, methods, and class constructors. It’s typically used to communicate that a variable is empty. Internally, Python uses `None` as the implicit return value of functions that don’t have an [**explicit `return` statement**](/realpython.com/python-return-statement.md#explicit-return-statements).
+`None` is quite useful as a default argument value in functions, methods, and class constructors. It’s typically used to communicate that a variable is empty. Internally, Python uses `None` as the implicit return value of functions that don’t have an [**explicit `return` statement**](/realpython.com/python-return-statement/README.md#explicit-return-statements).
 
 The ellipsis literal (`...`) is another constant value in Python. This special value is the same as [**`Ellipsis`**](/realpython.com/python-ellipsis.md) and is the only instance of the [<VPIcon icon="fa-brands fa-python"/>`types.EllipsisType`](https://docs.python.org/3/library/types.html#types.EllipsisType) type:
 

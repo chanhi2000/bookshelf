@@ -32,7 +32,7 @@ date: 2025-05-23
 isOriginal: false
 author:
   - name: Bhrugen Patel
-    url : https://dotnetmastery.com/Home/Details?courseId=33
+    url: https://dotnetmastery.com/Home/Details?courseId=33
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747944784614/489ca833-5acc-48ec-b96a-bc876ce43563.png
 ---
 

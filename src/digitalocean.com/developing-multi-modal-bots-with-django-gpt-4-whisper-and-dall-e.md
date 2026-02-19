@@ -85,7 +85,7 @@ To complete this tutorial, you will need:
 
 1. A basic understanding of Python and Django. If you’re new to Django, following the [How To Install Django and Set Up a Development Environment](/community/tutorials/how-to-install-django-and-set-up-a-development-environment-on-ubuntu-22-04) tutorial is recommended.
 2. An OpenAI API key: This tutorial requires you to interact with OpenAI’s GPT-4 and DALL-E models, which require an API key from OpenAI. You can obtain an API key by [creating an OpenAI account](https://platform.openai.com/signup) and then [creating a secret key](https://platform.openai.com/api-keys).
-3. Whisper: Visit the [OpenAI Whisper GitHub page (<VPIcon icon="iconfont icon-github" />`openai/whisper`)](https://github.com/openai/whisper) for detailed installation guides and verify that your development setup is properly configured for Whisper.
+3. Whisper: Visit the [OpenAI Whisper GitHub page (<VPIcon icon="iconfont icon-github"/>`openai/whisper`)](https://github.com/openai/whisper) for detailed installation guides and verify that your development setup is properly configured for Whisper.
 4. The OpenAI Python package: If you followed the tutorial in the first prerequisite, you should already have a virtual environment named `env` active within a directory named `django-apps`.
 
 :::
@@ -141,7 +141,7 @@ def transcribe_audio(audio_path):
     return result["text"]
 ```
 
-In this code snippet, you’re using the “base” model for transcription. Whisper offers [different models (<VPIcon icon="iconfont icon-github" />`openai/whisper`)](https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages) tailored to various accuracy and performance needs. Feel free to experiment with other models based on your requirements.
+In this code snippet, you’re using the “base” model for transcription. Whisper offers [different models (<VPIcon icon="iconfont icon-github"/>`openai/whisper`)](https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages) tailored to various accuracy and performance needs. Feel free to experiment with other models based on your requirements.
 
 ### Testing the Transcription
 

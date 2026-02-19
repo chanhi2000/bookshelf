@@ -25,7 +25,7 @@ date: 2016-02-02
 isOriginal: false
 author:
   - name: Betty Junod
-    url : https://docker.com/author/betty/
+    url: https://docker.com/author/betty/
 cover: https://docker.com/app/uploads/caas_diagram.png
 ---
 

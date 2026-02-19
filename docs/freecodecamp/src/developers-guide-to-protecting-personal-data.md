@@ -29,7 +29,7 @@ date: 2025-04-17
 isOriginal: false
 author:
   - name: Alex Tray
-    url : https://freecodecamp.org/news/author/trayalex812/
+    url: https://freecodecamp.org/news/author/trayalex812/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744839185611/b3e49efc-6eee-4a0b-9522-20407b1782e3.png
 ---
 

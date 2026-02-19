@@ -29,7 +29,7 @@ date: 2025-02-26
 isOriginal: false
 author:
   - name: Chinwike Maduabuchi
-    url : https://blog.logrocket.com/author/chinwikemaduabuchi/
+    url: https://blog.logrocket.com/author/chinwikemaduabuchi/
 cover: /assets/image/blog.logrocket.com/building-reusable-multi-step-form-react-hook-form-zod/banner.png
 ---
 

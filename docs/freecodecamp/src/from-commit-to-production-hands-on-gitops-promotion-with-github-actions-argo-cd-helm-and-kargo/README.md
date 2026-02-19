@@ -30,7 +30,7 @@ date: 2025-06-06
 isOriginal: false
 author:
   - name: Nitheesh Poojary
-    url : https://freecodecamp.org/news/author/nitheeshp/
+    url: https://freecodecamp.org/news/author/nitheeshp/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749151777327/ece5b0b7-4a9a-4f95-8ebb-32e3768b678f.png
 ---
 

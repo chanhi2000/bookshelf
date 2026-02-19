@@ -24,6 +24,8 @@ prev: /devops/docker/articles/README.md
 date: 2019-10-25
 isOriginal: false
 author: 
+  - name: Simon Ferquel
+    url: https://docker.com/contributors/simon-ferquel/
 cover: https://docker.com/app/uploads/engineering/2019/10/wsl2_docker_settings-1110x679.jpg
 ---
 

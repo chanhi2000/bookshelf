@@ -31,7 +31,7 @@ date: 2025-08-01
 isOriginal: false
 author:
   - name: TALL TALKS FROM A SHORT LADY ! (@talltalksfromashortlady2798)
-    url : https://www.youtube.com/@talltalksfromashortlady2798
+    url: https://www.youtube.com/@talltalksfromashortlady2798
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753976458228/f3d14a7f-d0f7-4e61-a487-cdc4b6344843.png
 ---
 

@@ -29,7 +29,7 @@ date: 2024-12-18
 isOriginal: false
 author:
   - name: Adam Rackis
-    url : https://frontendmasters.com/blog/author/adamrackis/
+    url: https://frontendmasters.com/blog/author/adamrackis/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4810
 ---
 
@@ -160,7 +160,7 @@ In TanStack, we do have loaders. These are defined by TanStack Router. I wrote [
 
 Start takes what we already have with Router, and adds server handling to it. On the initial load, your loader will run on the server, load your data, and send it down. On all subsequent client-side navigations, your loader will run*on the client*, like it already does. That means all subsequent invocations of your loader will run on the client, and have access to any client-side state, cache, etc. If you like react-query, you’ll be happy to know that’s integrated too. Your react-query client can run on the server, to load, and send data down on the initial page load. On subsequent navigations, these loaders will run on the client, which means your react-query `queryClient` will have full access to the usual client-side cache react-query always uses. That means it will know what does, and does not need to be loaded.
 
-It’s honestly such a refreshing, simple, and most importantly, effective pattern that it’s hard not being annoyed none of the other frameworks thought of it first. Admittedly, [<VPIcon icon="iconfont icon-svelte"/>SvelteKit does have universal loaders](https://svelte.dev/tutorial/kit/universal-load-functions) which are isomorphic in the same way, but without a component-level query library like react-query integrated with the server.
+It’s honestly such a refreshing, simple, and most importantly, effective pattern that it’s hard not being annoyed none of the other frameworks thought of it first. Admittedly, [<VPIcon icon="fa-brands fa-svelte"/>SvelteKit does have universal loaders](https://svelte.dev/tutorial/kit/universal-load-functions) which are isomorphic in the same way, but without a component-level query library like react-query integrated with the server.
 
 ---
 

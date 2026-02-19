@@ -30,7 +30,7 @@ date: 2024-05-09
 isOriginal: false
 author:
   - name: Daniel Kehoe
-    url : https://freecodecamp.org/news/author/DanielKehoe/
+    url: https://freecodecamp.org/news/author/DanielKehoe/
 cover: https://freecodecamp.org/news/content/images/2024/05/python-shop.png
 ---
 

@@ -32,7 +32,7 @@ date: 2025-06-17
 isOriginal: false
 author:
   - name: deji adesoga
-    url : https://freecodecamp.org/news/author/desoga/
+    url: https://freecodecamp.org/news/author/desoga/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750094888966/7ac31fee-bd4d-4353-b8cb-911ac60b4516.png
 ---
 

@@ -29,7 +29,7 @@ date: 2021-09-24
 isOriginal: false
 author:
   - name: Shalitha Suranga
-    url : https://blog.logrocket.com/author/shalithasuranga/
+    url: https://blog.logrocket.com/author/shalithasuranga/
 cover: /assets/image/blog.logrocket.com/detect-click-outside-react-component-how-to/banner.png
 ---
 

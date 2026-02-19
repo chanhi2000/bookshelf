@@ -29,7 +29,7 @@ date: 2020-10-07
 isOriginal: false
 author:
   - name: Zain Sajjad
-    url : https://blog.logrocket.com/author/zainsajjad/
+    url: https://blog.logrocket.com/author/zainsajjad/
 cover: /assets/image/blog.logrocket.com/benchmarking-bundlers-2020-rollup-parcel-webpack/banner.png
 ---
 

@@ -32,7 +32,7 @@ date: 2025-10-22
 isOriginal: false
 author:
   - name: Parth Vyas (@DestinationFAANG)
-    url : https://youtube.com/@DestinationFAANG
+    url: https://youtube.com/@DestinationFAANG
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761072883079/51bad868-b848-41d9-8f01-15f56632d4ef.jpeg
 ---
 

@@ -426,7 +426,7 @@ python manage.py migrate
 x
 ```
 
-Now that your changes have been migrated, you can create an administrative user to use for the [**Django admin interface**](/digitaloccean.com/how-to-enable-and-connect-the-django-admin-interface.md). Do this with the `createsuperuser` command:
+Now that your changes have been migrated, you can create an administrative user to use for the [**Django admin interface**](/digitalocean.com/how-to-enable-and-connect-the-django-admin-interface.md). Do this with the `createsuperuser` command:
 
 ```sh
 python manage.py createsuperuser

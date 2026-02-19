@@ -29,7 +29,7 @@ date: 2024-08-14
 isOriginal: false
 author:
   - name: Peter Ekene Eze
-    url : https://blog.logrocket.com/author/peterekeneeze/
+    url: https://blog.logrocket.com/author/peterekeneeze/
 cover: /assets/image/blog.logrocket.com/use-forwardref-react/banner.png
 ---
 

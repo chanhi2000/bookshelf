@@ -33,7 +33,7 @@ date: 2025-08-02
 isOriginal: false
 author:
   - name: Manish Shivanandhan
-    url : https://freecodecamp.org/news/author/manishshivanandhan/
+    url: https://freecodecamp.org/news/author/manishshivanandhan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754090039728/75b0f680-94b4-4310-9c52-109000acde22.png
 ---
 

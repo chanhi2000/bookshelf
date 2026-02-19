@@ -36,7 +36,7 @@ date: 2025-12-09
 isOriginal: false
 author:
   - name: Wisamul Haque
-    url : https://freecodecamp.org/news/author/Wisamulhaque/
+    url: https://freecodecamp.org/news/author/Wisamulhaque/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765300505071/ef86852d-cb97-4dae-ae92-2acb146c58dd.png
 ---
 

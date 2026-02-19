@@ -25,7 +25,7 @@ date: 2024-05-07
 isOriginal: false
 author:
   - name: Obum
-    url : https://freecodecamp.org/news/author/obumnwabude/
+    url: https://freecodecamp.org/news/author/obumnwabude/
 cover: https://freecodecamp.org/news/content/images/2024/05/Screenshot-2024-05-02-225922.png
 ---
 

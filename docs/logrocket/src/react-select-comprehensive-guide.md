@@ -29,7 +29,7 @@ date: 2025-03-03
 isOriginal: false
 author:
   - name: Stephen Afam-Osemene
-    url : https://blog.logrocket.com/author/stephenafamosemene/
+    url: https://blog.logrocket.com/author/stephenafamosemene/
 cover: /assets/image/blog.logrocket.com/react-select-comprehensive-guide/banner.png
 ---
 

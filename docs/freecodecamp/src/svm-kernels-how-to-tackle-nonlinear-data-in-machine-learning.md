@@ -24,7 +24,7 @@ date: 2025-01-07
 isOriginal: false
 author:
   - name: Josiah Adesola
-    url : https://freecodecamp.org/news/author/josiahadesola/
+    url: https://freecodecamp.org/news/author/josiahadesola/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735894336456/dae0caa1-7c01-4b88-a748-79d682bbed78.png
 ---
 

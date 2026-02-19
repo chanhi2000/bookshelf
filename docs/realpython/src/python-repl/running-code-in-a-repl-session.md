@@ -22,7 +22,7 @@ date: 2023-01-25
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL_Watermarked.dce4d5791b83.jpg
 ---
 
@@ -83,7 +83,7 @@ number = 42
 # ZeroDivisionError: division by zero
 ```
 
-The first expression subtracts two numbers and displays the result. The second expression is a call to the built-in [**`sum()`**](/realpython.com/python-sum-function.md) function, which takes a series of values and [**returns**](/realpython.com/python-return-statement.md) its total sum. In the third example, you execute a [**Boolean**](/realpython.com/python-boolean.md) expression that compares two numbers.
+The first expression subtracts two numbers and displays the result. The second expression is a call to the built-in [**`sum()`**](/realpython.com/python-sum-function.md) function, which takes a series of values and [**returns**](/realpython.com/python-return-statement/README.md) its total sum. In the third example, you execute a [**Boolean**](/realpython.com/python-boolean.md) expression that compares two numbers.
 
 The fourth example uses an [**assignment statement**](/realpython.com/python-assignment-operator.md) to define and initialize a [**variable**](/realpython.com/python-variables.md) called `number`. Because assignments don’t return any value, the Python interpreter doesn’t display any output on your screen. Instead, it falls back to the primary prompt immediately. The final example shows how Python displays an error when your code has issues.
 
@@ -385,7 +385,7 @@ greeting.greet("Pythonista", upper=True)
 # TypeError: greet() got an unexpected keyword argument 'upper'
 ```
 
-What? You have an unexpected argument? For [**efficiency reasons**](/realpython.com/python-import.md#reloading-modules), running the import again after updating something in <VPIcon icon="fa-brands fa-python"/>`greeting.py` doesn’t reload the module. Python doesn’t load imported modules again when you rerun the import.
+What? You have an unexpected argument? For [**efficiency reasons**](/realpython.com/python-import/README.md#reloading-modules), running the import again after updating something in <VPIcon icon="fa-brands fa-python"/>`greeting.py` doesn’t reload the module. Python doesn’t load imported modules again when you rerun the import.
 
 If you want to work around this behavior without closing your current REPL session and opening a new one, then you can use the [<VPIcon icon="fa-brands fa-python"/>`reload()`](https://docs.python.org/3/library/importlib.html#importlib.reload) function from [<VPIcon icon="fa-brands fa-python"/>`importlib`](https://docs.python.org/3/library/importlib.html?highlight=reload#module-importlib):
 

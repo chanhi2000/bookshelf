@@ -24,7 +24,7 @@ date: 2024-09-27
 isOriginal: false
 author:
   - name: Maximiliano Firtman
-    url : https://frontendmasters.com/blog/author/maximilianofirtman/
+    url: https://frontendmasters.com/blog/author/maximilianofirtman/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4037
 ---
 

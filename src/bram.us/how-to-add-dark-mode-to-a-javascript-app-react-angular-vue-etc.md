@@ -23,7 +23,7 @@ date: 2019-12-10
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2019/12/dark-mode-e1575980892659.png
 ---
 

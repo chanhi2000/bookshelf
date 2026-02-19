@@ -23,7 +23,7 @@ date: 2025-02-28
 isOriginal: false
 author:
   - name: Matthew Morete
-    url : https://frontendmasters.com/blog/author/matthewmorete/
+    url: https://frontendmasters.com/blog/author/matthewmorete/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5257
 ---
 

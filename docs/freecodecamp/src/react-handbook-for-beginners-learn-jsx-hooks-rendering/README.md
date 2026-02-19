@@ -29,7 +29,7 @@ date: 2025-10-23
 isOriginal: false
 author:
   - name: Oluwatobi Sofela
-    url : https://freecodecamp.org/news/author/oluwatobiss/
+    url: https://freecodecamp.org/news/author/oluwatobiss/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761170169453/445fd0f5-54f9-4be5-bacf-2e6c6acd1f21.png
 ---
 

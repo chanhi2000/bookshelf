@@ -26,7 +26,7 @@ date: 2023-08-15
 isOriginal: false
 author:
   - name: Daniele Polencic
-    url : https://linkedin.com/in/danielepolencic
+    url: https://linkedin.com/in/danielepolencic
 cover: https://static.learnkube.com/a102852d1e938e7c95a134501111ed92.png
 ---
 

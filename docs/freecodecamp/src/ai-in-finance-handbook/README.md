@@ -27,7 +27,7 @@ date: 2025-08-02
 isOriginal: false
 author:
   - name: Tatev Aslanyan
-    url : https://freecodecamp.org/news/author/tatevaslanyan/
+    url: https://freecodecamp.org/news/author/tatevaslanyan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754087217705/8c775871-1502-40d9-b09e-fad02f0fca97.png
 ---
 

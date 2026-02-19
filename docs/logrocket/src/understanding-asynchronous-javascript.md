@@ -24,7 +24,7 @@ date: 2020-11-06
 isOriginal: false
 author:
   - name: Fortune Ikechi
-    url : https://blog.logrocket.com/author/fortuneikechi/
+    url: https://blog.logrocket.com/author/fortuneikechi/
 cover: /assets/image/blog.logrocket.com/understanding-asynchronous-javascript/banner.png
 ---
 

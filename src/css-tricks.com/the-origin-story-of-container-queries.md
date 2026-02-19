@@ -23,7 +23,7 @@ date: 2019-12-16
 isOriginal: false
 author:
   - name: Robin Rendle
-    url : https://css-tricks.com/author/robinrendle/
+    url: https://css-tricks.com/author/robinrendle/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/container-queries.png
 ---
 

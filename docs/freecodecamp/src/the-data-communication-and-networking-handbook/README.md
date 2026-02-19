@@ -27,7 +27,7 @@ date: 2025-06-19
 isOriginal: false
 author:
   - name: valentine Gatwiri
-    url : https://freecodecamp.org/news/author/gatwirival/
+    url: https://freecodecamp.org/news/author/gatwirival/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750178451091/adea6449-2daf-405b-80f0-e23a356fa45b.png
 ---
 

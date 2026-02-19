@@ -24,7 +24,7 @@ date: 2025-02-21
 isOriginal: false
 author:
   - name: Chizaram Ken
-    url : https://blog.logrocket.com/author/emmanuelodioko/
+    url: https://blog.logrocket.com/author/emmanuelodioko/
 cover: /assets/image/blog.logrocket.com/ternary-operator-javascript/banner.png
 ---
 

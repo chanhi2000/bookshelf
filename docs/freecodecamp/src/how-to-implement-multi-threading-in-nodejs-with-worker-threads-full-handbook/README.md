@@ -29,7 +29,7 @@ date: 2025-10-25
 isOriginal: false
 author:
   - name: Sumit Saha
-    url : https://freecodecamp.org/news/author/sumitsaha/
+    url: https://freecodecamp.org/news/author/sumitsaha/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761323431527/d74eb2ba-edaa-4d19-a041-364e99a705ba.png
 ---
 

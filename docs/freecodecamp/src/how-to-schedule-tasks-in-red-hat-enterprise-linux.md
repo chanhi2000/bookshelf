@@ -29,7 +29,7 @@ date: 2025-06-26
 isOriginal: false
 author:
   - name: Hang Hu
-    url : https://freecodecamp.org/news/author/huhuhang/
+    url: https://freecodecamp.org/news/author/huhuhang/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750869114329/79072c41-988a-41f2-9e2f-25618d78fefc.png
 ---
 

@@ -27,7 +27,7 @@ date: 2018-04-26
 isOriginal: false
 author:
   - name: Kevin Kononenko
-    url : https://freecodecamp.org
+    url: https://freecodecamp.org
 cover: https://cdn-media-1.freecodecamp.org/images/1*sxUC3MzLY70akClqwjeV9g.jpeg
 ---
 

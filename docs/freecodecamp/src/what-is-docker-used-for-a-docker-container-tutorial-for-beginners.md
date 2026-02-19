@@ -25,7 +25,7 @@ date: 2020-12-10
 isOriginal: false
 author:
   - name: Lucas Santos
-    url : https://se.linkedin.com/in/lsantosdev
+    url: https://se.linkedin.com/in/lsantosdev
 cover: https://freecodecamp.org/news/content/images/2020/11/georg-wolf-WAgBaYHRaL4-unsplash.jpg
 ---
 

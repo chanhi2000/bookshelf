@@ -35,7 +35,7 @@ date: 2026-01-06
 isOriginal: false
 author:
   - name: Mayur Vekariya
-    url : https://freecodecamp.org/news/author/mayur9210/
+    url: https://freecodecamp.org/news/author/mayur9210/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767626158079/0b9e58c9-9299-4342-8c97-1a2de185cc60.png
 ---
 
@@ -808,7 +808,7 @@ The Cloudflare stack offers generous free tiers that should cover most use cases
 
 For most websites, you can run this chatbot completely free.
 
-The source code for this project is available on [GitHub (<VPIcon icon="iconfont icon-github" />`mayur9210/ai-chatbot-widget`)](https://github.com/mayur9210/ai-chatbot-widget).
+The source code for this project is available on [GitHub (<VPIcon icon="iconfont icon-github"/>`mayur9210/ai-chatbot-widget`)](https://github.com/mayur9210/ai-chatbot-widget).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

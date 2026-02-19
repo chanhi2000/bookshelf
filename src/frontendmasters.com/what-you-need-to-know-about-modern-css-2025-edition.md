@@ -23,7 +23,7 @@ date: 2025-09-19
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://frontendmasters.com/blog/author/chriscoyier/
+    url: https://frontendmasters.com/blog/author/chriscoyier/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6948
 ---
 
@@ -50,7 +50,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
   logo="https://frontendmasters.com/favicon.ico"
   preview="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6948"/>
 
-We published an edition of [**What You Need To Know about Modern CSS last year (2024)**](/frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition.md), and for a while I really wasn’t sure if only a year later we’d have enough stuff to warrant and new yearly version. But time, and CSS, have rolled forward, and guess what? There is *more* this year than there was last. At least in this somewhat arbitrary list of *“things Chris thinks are valuable to know that are either pretty fresh or have enjoyed a boost in browser support.”*
+We published an edition of [**What You Need To Know about Modern CSS last year (2024)**](/frontendmasters.com/what-you-need-to-know-about-modern-css-spring-2024-edition.md), and for a while I really wasn’t sure if only a year later we’d have enough stuff to warrant and new yearly version. But time, and CSS, have rolled forward, and guess what? There is *more* this year than there was last. At least in this somewhat arbitrary list of *“things Chris thinks are valuable to know that are either pretty fresh or have enjoyed a boost in browser support.”*
 
 ---
 

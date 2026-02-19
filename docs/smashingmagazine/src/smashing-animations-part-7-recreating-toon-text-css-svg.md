@@ -23,7 +23,7 @@ date: 2025-12-17
 isOriginal: false
 author:
   - name: Andy Clarke
-    url : https://smashingmagazine.com/author/andy-clarke/
+    url: https://smashingmagazine.com/author/andy-clarke/
 cover: https://files.smashing.media/articles/smashing-animations-part-7-recreating-toon-text-css-svg/smashing-animations-part-7-recreating-toon-text-css-svg.jpg
 ---
 

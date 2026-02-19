@@ -25,7 +25,7 @@ date: 2016-12-20
 isOriginal: false
 author:
   - name: Mark Church
-    url : https://docker.com/author/mark-church/
+    url: https://docker.com/author/mark-church/
 cover: https://docker.com/app/uploads/2022/12/networking-drivers-use-cases-3.png
 ---
 

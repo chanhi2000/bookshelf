@@ -29,7 +29,7 @@ date: 2025-10-28
 isOriginal: false
 author:
   - name: Andrew Baisden
-    url : https://freecodecamp.org/news/author/andrewbaisden/
+    url: https://freecodecamp.org/news/author/andrewbaisden/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761589878275/a36fe1d2-edf5-4339-b594-b1e55066485c.png
 ---
 

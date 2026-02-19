@@ -24,7 +24,7 @@ date: 2023-11-27
 isOriginal: false
 author:
   - name: Yan Sun
-    url : https://blog.logrocket.com/author/yansun/
+    url: https://blog.logrocket.com/author/yansun/
 cover: /assets/image/blog.logrocket.com/how-to-use-keyof-operator-typescript/banner.png
 ---
 
@@ -149,7 +149,7 @@ Object.keys(user).forEach(key => {
 
 The error is because we tried to use the `string` type key to access the object with union type “`name`” | “`age`“.
 
-You might wonder why TypeScript doesn’t return typed keys as “`name`” | “`age`“. This is intentional. Anders Hejlsberg explains the reason in this [GitHub comment (<VPIcon icon="iconfont icon-github" />`microsoft/TypeScript`)](https://github.com/microsoft/TypeScript/pull/12253#issuecomment-263132208).
+You might wonder why TypeScript doesn’t return typed keys as “`name`” | “`age`“. This is intentional. Anders Hejlsberg explains the reason in this [GitHub comment (<VPIcon icon="iconfont icon-github"/>`microsoft/TypeScript`)](https://github.com/microsoft/TypeScript/pull/12253#issuecomment-263132208).
 
 In a nutshell, the strongly typed `Object.keys` is fine at compile time. But objects often have extra properties at runtime. If this is the case, `Object.keys` will return extra keys. Those extra keys will violate the assumption that `keyof` is an exhaustive list of the key of the object. This may cause the app to crash. I created a [<VPIcon icon="iconfont icon-stackblitz"/>StackBlitz example](https://stackblitz.com/edit/typescript-noyck2?file=index.ts) to demonstrate this behavior.
 

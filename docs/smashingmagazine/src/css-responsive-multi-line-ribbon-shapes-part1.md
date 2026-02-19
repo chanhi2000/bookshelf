@@ -23,7 +23,7 @@ date: 2023-11-15
 isOriginal: false
 author:
   - name: Temani Afif
-    url : https://smashingmagazine.com/author/temani-afif/
+    url: https://smashingmagazine.com/author/temani-afif/
 cover: https://files.smashing.media/articles/css-responsive-multi-line-ribbon-shapes-part1/css-responsive-multi-line-ribbon-shapes-part1.jpg
 ---
 

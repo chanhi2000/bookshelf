@@ -27,7 +27,7 @@ date: 2025-07-24
 isOriginal: false
 author:
   - name: Aditya Vikram Kashyap
-    url : https://freecodecamp.org/news/author/wittycircuitry/
+    url: https://freecodecamp.org/news/author/wittycircuitry/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753300952223/508231c9-f0bc-4aa8-9c97-5ad4157891b9.png
 ---
 

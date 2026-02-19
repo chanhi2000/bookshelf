@@ -26,7 +26,7 @@ date: 2022-02-21
 isOriginal: false
 author:
   - name: Rohit Gupta
-    url : https://c-sharpcorner.com/members/rohit-gupta95
+    url: https://c-sharpcorner.com/members/rohit-gupta95
 cover: https://c-sharpcorner.com/images/csharp-corner-new.png
 ---
 

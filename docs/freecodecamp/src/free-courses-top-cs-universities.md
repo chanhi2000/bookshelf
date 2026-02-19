@@ -27,7 +27,7 @@ date: 2025-01-28
 isOriginal: false
 author:
   - name: Manoel
-    url : https://freecodecamp.org/news/author/manocormen/
+    url: https://freecodecamp.org/news/author/manocormen/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738170135222/602b9c8f-09ff-42ca-ad26-cec5fc06a7ef.jpeg
 ---
 

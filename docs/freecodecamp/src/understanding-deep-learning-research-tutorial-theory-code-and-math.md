@@ -36,7 +36,7 @@ date: 2025-01-17
 isOriginal: false
 author:
   - name: Yacine Mahdid (@deeplearningexplained)
-    url : https://youtube.com/@deeplearningexplained
+    url: https://youtube.com/@deeplearningexplained
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737040354258/4ad88afd-82ee-4b59-bc6a-cdc9a5537c59.png
 ---
 

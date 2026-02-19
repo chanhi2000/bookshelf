@@ -24,7 +24,7 @@ date: 2023-09-30
 isOriginal: false
 author:
   - name: Yanick
-    url : https://gosolve.io/author/jgadek/
+    url: https://gosolve.io/author/jgadek/
 cover: https://gosolve.io/wp-content/uploads/2023/10/max-harlynking-zaItO-b0afs-unsplash-683x1024.jpg
 ---
 

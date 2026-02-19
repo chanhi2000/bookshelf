@@ -28,7 +28,7 @@ date: 2025-05-14
 isOriginal: false
 author:
   - name: Kumar Anand
-    url : https://freecodecamp.org/news/author/kanand/
+    url: https://freecodecamp.org/news/author/kanand/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747156692079/512460b1-28dc-4769-95d4-2c842a316a51.png
 ---
 

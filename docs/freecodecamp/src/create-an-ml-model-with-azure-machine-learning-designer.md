@@ -29,7 +29,7 @@ date: 2024-06-25
 isOriginal: false
 author:
   - name: Eniola Ajala
-    url : https://freecodecamp.org/news/author/eniola-ajala/
+    url: https://freecodecamp.org/news/author/eniola-ajala/
 cover: https://freecodecamp.org/news/content/images/2024/06/F8825B00-8A4C-41D9-AE75-02A8631DE983.jpeg
 ---
 

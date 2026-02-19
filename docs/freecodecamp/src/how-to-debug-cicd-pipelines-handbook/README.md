@@ -45,7 +45,7 @@ date: 2025-06-17
 isOriginal: false
 author:
   - name: Opaluwa Emidowojo
-    url : https://freecodecamp.org/news/author/Tech-On-Diapers/
+    url: https://freecodecamp.org/news/author/Tech-On-Diapers/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748620971355/d4893ec5-8016-491e-9626-15d971f0c885.png
 ---
 

@@ -29,7 +29,7 @@ date: 2023-09-15
 isOriginal: false
 author:
   - name: Nefe Emadamerho-Atori
-    url : https://blog.logrocket.com/author/nefejames/
+    url: https://blog.logrocket.com/author/nefejames/
 cover: /assets/image/blog.logrocket.com/react-toast-libraries-compared/banner.png
 ---
 

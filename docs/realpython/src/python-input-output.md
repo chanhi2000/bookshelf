@@ -24,7 +24,7 @@ date: 2024-12-02
 isOriginal: false
 author:
   - name: Martin Breuss
-    url : https://realpython.com/team/mbreuss/
+    url: https://realpython.com/team/mbreuss/
 cover: https://files.realpython.com/media/Basic-Input-Output-and-String-Formatting-in-Python_Watermarked.65ba5b535841.jpg
 ---
 
@@ -360,7 +360,7 @@ Because `readline` is part of Python’s standard-library, you don’t even need
 
 :::
 
-To activate the improved input functionality in your input interface, you only need to [**import**](/realpython.com/python-import.md) `readline`:
+To activate the improved input functionality in your input interface, you only need to [**import**](/realpython.com/python-import/README.md) `readline`:
 
 ```py :collapsed-lines title="improved_input.py"
 import readline 

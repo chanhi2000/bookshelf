@@ -27,7 +27,7 @@ date: 2025-03-13
 isOriginal: false
 author:
   - name: Steven Garcia
-    url : https://youtube.com/@StevenCodeCraft
+    url: https://youtube.com/@StevenCodeCraft
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741830729776/b8ebbaab-f0a4-43ae-a820-e305b72072a9.png
 ---
 

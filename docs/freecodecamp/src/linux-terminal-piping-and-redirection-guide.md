@@ -24,7 +24,7 @@ date: 2024-04-27
 isOriginal: false
 author:
   - name: Alvin
-    url : https://freecodecamp.org/news/author/alvyynm/
+    url: https://freecodecamp.org/news/author/alvyynm/
 cover: https://freecodecamp.org/news/content/images/size/w1000/2024/04/piping-redirection-linux.png
 ---
 

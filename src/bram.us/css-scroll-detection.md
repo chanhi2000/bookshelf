@@ -23,7 +23,7 @@ date: 2023-10-24
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2023/10/sda-badass-short-020p-10fps.gif
 ---
 

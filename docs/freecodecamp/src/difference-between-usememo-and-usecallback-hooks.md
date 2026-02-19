@@ -29,7 +29,7 @@ date: 2024-07-16
 isOriginal: false
 author:
   - name: Kunal Nalawade
-    url : https://freecodecamp.org/news/author/KunalN25/
+    url: https://freecodecamp.org/news/author/KunalN25/
 cover: https://freecodecamp.org/news/content/images/2024/07/photo-1619410283995-43d9134e7656.jpeg
 ---
 

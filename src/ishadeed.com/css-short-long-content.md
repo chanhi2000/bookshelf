@@ -23,7 +23,7 @@ date: 2020-12-16
 isOriginal: false
 author:
   - name: Ahmed Shadeed
-    url : https://ishadeed.com/about/
+    url: https://ishadeed.com/about/
 cover: https://ishadeed.com/assets/short-long-css/twitter-card.jpg
 ---
 

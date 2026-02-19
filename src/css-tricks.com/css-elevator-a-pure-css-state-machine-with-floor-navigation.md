@@ -23,7 +23,7 @@ date: 2025-08-29
 isOriginal: false
 author:
   - name: Christian Sabourin
-    url : https://css-tricks.com/author/christiansabourin/
+    url: https://css-tricks.com/author/christiansabourin/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/08/css-elevator-machine.png
 ---
 

@@ -23,7 +23,7 @@ date: 2021-03-04
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2021/03/css-scroll-timeline-element-based-offsets-coverflow-bramus.gif
 ---
 
@@ -130,7 +130,7 @@ Typically this is used to animate an element as it comes into the scrollport unt
   slug-hash="yLVpgWJ"
   title="Scroll-Linked Animations Visualization: Element-Based Offsets"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 When scrolling down in the visualization *(using the ⏭ button)* you’ll see the box switch colors:
 
@@ -237,7 +237,7 @@ If you cannot follow with that **threshold** there, don’t worry: it’s easier
   slug-hash="OJbZbaX"
   title="Scroll-Linked Animations Visualization: Element-Based Offsets Visualizer"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In the visualization above try changing the values, keeping in mind that the **threshold** is a number that indicates how much of the **target** is intersecting with the scrollport at the given **edge**.
 
@@ -249,7 +249,7 @@ I’ve noticed that it’s also possible to — for example — define `end 1.2`
 
 However, as the algorithm never checks whether this value is inside its assigned range, it passes through and will work. I kinda like this quirk, as it allows you to add some breathing room to all of your animations.
 
-Could be in the future that this will no longer be allowed — Relevant CSS WG Issue: [5203 (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5203)
+Could be in the future that this will no longer be allowed — Relevant CSS WG Issue: [5203 (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5203)
 
 :::
 
@@ -284,7 +284,7 @@ Here the offsets for our `@scroll-timeline` are set so that the animation will b
   slug-hash="KKNozxQ"
   title="Scroll-Linked Animation with Element-Based Offset (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab JS WAAPI + <code>ScrollTimeline</code> Version
 
@@ -293,7 +293,7 @@ Here the offsets for our `@scroll-timeline` are set so that the animation will b
   slug-hash="WNoyajb"
   title="Scroll-Linked Animation with Element-Based Offset (JS WAAPI Version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -350,7 +350,7 @@ As a reminder, here’s what they look like, individually:
   slug-hash="ZEBvVxX"
   title="Scroll-Linked Animations Visualization: Element-Based Offsets Visualizer"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Other values for threshold of course still possible; I’m only taking a look at these extremes here.
 
@@ -379,7 +379,7 @@ Color codes are applied to indicate when the element is being animated:
   slug-hash="RwojjbM"
   title="Scroll-Linked Animations: Element-Based Offsets Comparison (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab Recording
 
@@ -411,7 +411,7 @@ In this extra visualization below you can see how these different combinations a
   slug-hash="vYypmON"
   title="Scroll-Linked Animations Visualization: Element-Based Offsets Timeline Visualizer"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info 🥵
 
@@ -453,7 +453,7 @@ This demo is similar to the first Revealing Image one, yet the offsets were twea
   slug-hash="vYXQGXo"
   title="Scroll-Linked Animation: Image Reveal as it scrolls into view (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab JS WAAPI + <code>ScrollTimeline</code> Version
 
@@ -462,7 +462,7 @@ This demo is similar to the first Revealing Image one, yet the offsets were twea
   slug-hash="JjbLXwg"
   title="Scroll-Linked Animation: Image Reveal as it scrolls into view (JS WAAPI + ScrollTimeline Version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -504,7 +504,7 @@ In this demo I’ve created a contact list where new items slide in when they en
   slug-hash="bGwJVzg"
   title="Fly-in Contact List (CSS @scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab JS WAAPI + <code>ScrollTimeline</code> Version
 
@@ -513,7 +513,7 @@ In this demo I’ve created a contact list where new items slide in when they en
   slug-hash="ExgJPjM"
   title="Fly-in Contact List (JS WAAPI + JS ScrollTimeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -548,7 +548,7 @@ li {
 
 ::: details 😳 ICYWW: No, I didn’t manually type out all those <code>scroll-timeline</code>s
 
-As also mentioned in [**the first part of this series**](/bram.us/the-future-of-css-scroll-linked-animations-part-1.md) it’s pretty annoying when it comes to creating `scroll-timeline`s for many individual items as the `selector()` function requires you to pass an `id` into it. This is a shortcoming of the spec, and is something what will be tackled. Relevant CSS WG Issue: [5884 (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5884)
+As also mentioned in [**the first part of this series**](/bram.us/the-future-of-css-scroll-linked-animations-part-1.md) it’s pretty annoying when it comes to creating `scroll-timeline`s for many individual items as the `selector()` function requires you to pass an `id` into it. This is a shortcoming of the spec, and is something what will be tackled. Relevant CSS WG Issue: [5884 (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/5884)
 
 Until this issue is resolved — and to save myself from typing all those `scroll-timeline`s out manually — I use a little piece of JavaScript to generate the timelines. These generated timelines can then be either copy-pasted into the CSS, or dynamically injected from the script.
 
@@ -674,7 +674,7 @@ Combining both the fly-in and fly-out effect is possible by creating 2 animation
   slug-hash="oNYEgEQ"
   title="Scroll-Linked Animations: Fly-In Contact List (Fly-In + Fly-Out)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab Recording
 
@@ -703,7 +703,7 @@ This demo is based upon this “[GSAP ScrollTrigger & Locomotive Scroll (<VPIcon
   slug-hash="QWGbOBQ"
   title="Scroll-Linked Animations: Horizontal scroll section (@scroll-timeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab Recording
 
@@ -714,7 +714,7 @@ This demo is based upon this “[GSAP ScrollTrigger & Locomotive Scroll (<VPIcon
   slug-hash="jOVWpyr"
   title="Scroll-Linked Animations: Horizontal scroll section (WAAPI / ScrollTimeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -782,7 +782,7 @@ Remember [<VPIcon icon="fa-brands fa-wikipedia-w"/>CoverFlow from iTunes](https:
   slug-hash="xxRZZdK"
   title="Pure CSS Coverflow with CSS ScrollTimeline (+ Scroll Snapping)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab Recording
 
@@ -793,7 +793,7 @@ Remember [<VPIcon icon="fa-brands fa-wikipedia-w"/>CoverFlow from iTunes](https:
   slug-hash="PobZbBV"
   title="Scroll-Linked Animations: Coverflow (JS WAAPI + ScrollTimeline version)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -844,7 +844,7 @@ In this demo I tried recreating [<VPIcon icon="fas fa-globe"/>this Stacking Card
   slug-hash="PobmGme"
   title="🌟 Stacking Cards, Final Version"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 @tab Recording
 

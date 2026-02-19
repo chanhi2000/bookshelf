@@ -24,7 +24,7 @@ date: 2018-08-05
 isOriginal: false
 author:
   - name: Maciej Cieślar
-    url : https://freecodecamp.org/news/author/maciejcieslar/
+    url: https://freecodecamp.org/news/author/maciejcieslar/
 cover: https://cdn-media-1.freecodecamp.org/images/1*tZ9F-CYdCHLmK9Xsvg0FgA.jpeg
 ---
 

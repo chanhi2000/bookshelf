@@ -23,7 +23,7 @@ date: 2025-12-31
 isOriginal: false
 author:
   - name: Daniel Schwarz
-    url : https://css-tricks.com/author/danielschwarz/
+    url: https://css-tricks.com/author/danielschwarz/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/12/wi-2.png
 ---
 

@@ -23,7 +23,7 @@ date: 2026-01-26
 isOriginal: false
 author:
   - name: Zell Liew
-    url : https://css-tricks.com/author/zellwk/
+    url: https://css-tricks.com/author/zellwk/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/04/tab-key.png
 ---
 
@@ -54,15 +54,15 @@ I was building a `Modal` component that uses the `<dialog>` element’s `showMod
 
 And I was surprised — accessibility advice around modals have commonly taught us to trap focus within the modal. So this seems wrong to me.
 
-Upon further [research (<VPIcon icon="iconfont icon-github" />`whatwg/html`)](https://github.com/whatwg/html/issues/8339), it seems like we no longer need to trap focus within the `<dialog>` (even in modal mode). So, the focus-trapping is deprecated advice if you use `<dialog>`.
+Upon further [research (<VPIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/issues/8339), it seems like we no longer need to trap focus within the `<dialog>` (even in modal mode). So, the focus-trapping is deprecated advice if you use `<dialog>`.
 
 ---
 
 ## Some notes for you
 
-Instead of asking you to read through the entire [GitHub Issue (<VPIcon icon="iconfont icon-github" />`whatwg/html`)](https://github.com/whatwg/html/issues/8339) detailing the discussion, I summarized a couple of key points from notable people below.
+Instead of asking you to read through the entire [GitHub Issue (<VPIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/issues/8339) detailing the discussion, I summarized a couple of key points from notable people below.
 
-Here are some [comments (<VPIcon icon="iconfont icon-github" />`whatwg/html`)](https://github.com/whatwg/html/issues/8339#issuecomment-1263470105) from Scott O’Hara that tells us about the history and context of the focus-trapping advice:
+Here are some [comments (<VPIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/issues/8339#issuecomment-1263470105) from Scott O’Hara that tells us about the history and context of the focus-trapping advice:
 
 > WCAG is *not* normatively stating focus must be trapped within a dialog. Rather, the normative WCAG spec makes zero mention of requirements for focus behavior in a dialog.
 >
@@ -72,13 +72,13 @@ Here are some [comments (<VPIcon icon="iconfont icon-github" />`whatwg/html`)](h
 >
 > Both the APG modal dialog and the WCAG understanding doc were written long before the `inert` attribute or the `<dialog>` element were widely supported. And, the alternative to instructing developers to trap focus in the dialog would have been to tell them that they needed to ensure that all focusable elements in the web page, outside of the modal dialog, received a `tabindex=-1`.
 
-Léonie Watson [weighs in (<VPIcon icon="iconfont icon-github" />`whatwg/html`)](https://github.com/whatwg/html/issues/8339#issuecomment-1758129923) and explains why it’s okay for a screen-reader user to move focus to the address bar:
+Léonie Watson [weighs in (<VPIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/issues/8339#issuecomment-1758129923) and explains why it’s okay for a screen-reader user to move focus to the address bar:
 
 > In the page context you can choose to Tab out of the bottom and around the browser chrome, you can use a keyboard command to move straight to the address bar or open a particular menu, you can close the tab, and so on. This gives people a choice about how, why, and what they do to escape out of the context.
 >
 > It seems logical (to me at least) for the same options to be available to people when in a dialog context instead of a page context.
 
-Finally, [Matatk (<VPIcon icon="iconfont icon-github" />`whatwg/html`)](https://github.com/whatwg/html/issues/8339#issuecomment-1822591131) shared the conclusion from the W3C’s Accessible Platform Architectures (APA) Working Group that okay-ed the notion that `<dialog>`‘s `showModal` method doesn’t need to trap focus.
+Finally, [Matatk (<VPIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/issues/8339#issuecomment-1822591131) shared the conclusion from the W3C’s Accessible Platform Architectures (APA) Working Group that okay-ed the notion that `<dialog>`‘s `showModal` method doesn’t need to trap focus.
 
 > We addressed this question in the course of several APA meetings and came to the conclusion that the current behavior of the native dialog element should be kept as it is. So, that you can tab from the dialog to the browser functionalities.
 >

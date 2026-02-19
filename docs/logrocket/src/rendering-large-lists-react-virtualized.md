@@ -29,7 +29,7 @@ date: 2023-03-01
 isOriginal: false
 author:
   - name: Esteban Herrera
-    url : https://blog.logrocket.com/author/ehrrera/
+    url: https://blog.logrocket.com/author/ehrrera/
 cover: /assets/image/blog.logrocket.com/rendering-large-lists-react-virtualized/banner.png
 ---
 

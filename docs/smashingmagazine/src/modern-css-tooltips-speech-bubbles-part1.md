@@ -23,7 +23,7 @@ date: 2024-03-01
 isOriginal: false
 author:
   - name: Temani Afif
-    url : https://smashingmagazine.com/author/temani-afif/
+    url: https://smashingmagazine.com/author/temani-afif/
 cover: https://files.smashing.media/articles/modern-css-tooltips-part1/modern-css-tooltips-speech-bubbles.jpg
 ---
 

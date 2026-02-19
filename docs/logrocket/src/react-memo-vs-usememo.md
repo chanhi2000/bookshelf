@@ -29,7 +29,7 @@ date: 2021-02-18
 isOriginal: false
 author:
   - name: Adebola Adeniran
-    url : https://blog.logrocket.com/author/adebolaadeniran/
+    url: https://blog.logrocket.com/author/adebolaadeniran/
 cover: /assets/image/blog.logrocket.com/react-memo-vs-usememo/banner.png
 ---
 

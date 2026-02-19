@@ -29,7 +29,7 @@ date: 2026-01-08
 isOriginal: false
 author:
   - name: Samyukta Hegde
-    url : https://freecodecamp.org/news/author/samyuktashegde/
+    url: https://freecodecamp.org/news/author/samyuktashegde/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767800625537/5bb99a58-d247-4933-b60b-fd2c14651542.png
 ---
 

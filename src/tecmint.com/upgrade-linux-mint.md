@@ -31,7 +31,7 @@ date: 2025-09-15
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2013/12/linux-mint-22.2-upgrade.webp
 ---
 

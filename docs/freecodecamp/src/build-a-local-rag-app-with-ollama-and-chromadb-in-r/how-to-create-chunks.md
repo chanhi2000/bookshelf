@@ -39,7 +39,7 @@ date: 2025-04-15
 isOriginal: false
 author:
   - name: Elabonga Atuo
-    url : https://freecodecamp.org/news/author/Ellabee/
+    url: https://freecodecamp.org/news/author/Ellabee/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744638731389/83993a5e-7a4d-4615-a8c5-582008115fc4.png
 ---
 

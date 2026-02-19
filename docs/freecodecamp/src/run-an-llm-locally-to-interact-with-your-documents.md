@@ -35,7 +35,7 @@ date: 2026-01-10
 isOriginal: false
 author:
   - name: Zoe Isabel Senón
-    url : https://freecodecamp.org/news/author/techno0ptimist/
+    url: https://freecodecamp.org/news/author/techno0ptimist/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767976983680/2e3671cd-4280-4a32-9508-47fe9c06ab22.png
 ---
 

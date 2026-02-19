@@ -37,7 +37,7 @@ date: 2025-07-07
 isOriginal: false
 author:
   - name: Mohit Menghnani
-    url : https://freecodecamp.org/news/author/menghnani/
+    url: https://freecodecamp.org/news/author/menghnani/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751502709499/b43b3607-f01b-45c0-9797-75eef92497c6.png
 ---
 

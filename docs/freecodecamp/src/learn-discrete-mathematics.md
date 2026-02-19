@@ -29,7 +29,7 @@ date: 2025-11-13
 isOriginal: false
 author:
   - name: Karol Kurek (@TwoWaysMath)
-    url : https://youtube.com/@TwoWaysMath
+    url: https://youtube.com/@TwoWaysMath
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763044466535/8ae84f6a-dfd2-4988-8f73-77e6f548846b.jpeg
 ---
 

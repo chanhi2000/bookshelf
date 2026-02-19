@@ -31,7 +31,7 @@ date: 2025-02-13
 isOriginal: false
 author:
   - name: Nefe Emadamerho-Atori
-    url : https://blog.logrocket.com/author/nefejames/
+    url: https://blog.logrocket.com/author/nefejames/
 cover: /assets/image/blog.logrocket.com/mern-stack/banner.jpeg
 ---
 

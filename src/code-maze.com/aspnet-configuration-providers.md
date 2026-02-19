@@ -27,7 +27,7 @@ date: 2020-09-08
 isOriginal: false
 author:
   - name: Vladimir Pecanac
-    url : https://code-maze.com/author/codemaze_blog/
+    url: https://code-maze.com/author/codemaze_blog/
 cover: /assets/image/code-maze.com/aspnet-configuration-providers/banner.png
 ---
 

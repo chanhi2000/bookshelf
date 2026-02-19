@@ -26,7 +26,7 @@ date: 2025-06-05
 isOriginal: false
 author:
   - name: Erik Yuzwa ()
-    url : https://freecodecamp.org/news/author/beaucarnes/
+    url: https://freecodecamp.org/news/author/beaucarnes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749060645649/662c81ad-c0c8-4456-83dc-935a4b6d4cf9.png
 ---
 

@@ -25,7 +25,7 @@ date: 2023-11-10
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -212,7 +212,7 @@ import { RESTClient } from './client/RESTClient.js';
 
 ::: tip Pro tip
 
-You can skip the manual work by using a code conversion tool like [TS2ESM (<VPIcon icon="iconfont icon-github" />`bennycode/ts2esm`)](https://github.com/bennycode/ts2esm).
+You can skip the manual work by using a code conversion tool like [TS2ESM (<VPIcon icon="iconfont icon-github"/>`bennycode/ts2esm`)](https://github.com/bennycode/ts2esm).
 
 <VidStack src="youtube/bgGQgSQSpI8" />
 
@@ -224,15 +224,15 @@ Just as the `.mjs` and `.cjs` file extensions are introduced, TypeScript brings 
 
 ### Recommendation for TypeScript Backends
 
-When working on code for Node.js environments, it's recommended to use `node16` as it provides stability. This setting is also recommended by the TypeScript team for Node v18-20 (see comment [here (<VPIcon icon="iconfont icon-github" />`tsconfig/bases`)](https://github.com/tsconfig/bases/pull/197#discussion_r1239170642)). If you need to import JSON files, make sure to set the `"module"` to `nodenext`, as JSON import assertions won't be accessible otherwise.
+When working on code for Node.js environments, it's recommended to use `node16` as it provides stability. This setting is also recommended by the TypeScript team for Node v18-20 (see comment [here (<VPIcon icon="iconfont icon-github"/>`tsconfig/bases`)](https://github.com/tsconfig/bases/pull/197#discussion_r1239170642)). If you need to import JSON files, make sure to set the `"module"` to `nodenext`, as JSON import assertions won't be accessible otherwise.
 
 ### Recommendation for TypeScript Frontends
 
-When using an external bundler such as [esbuild (<VPIcon icon="iconfont icon-github" />`evanw/esbuild`)](https://github.com/evanw/esbuild), it is recommended to set `"module"` to `esnext` and `"moduleResolution"` to `bundler`. The `bundler` setting eliminates the need for file extensions on relative paths.
+When using an external bundler such as [esbuild (<VPIcon icon="iconfont icon-github"/>`evanw/esbuild`)](https://github.com/evanw/esbuild), it is recommended to set `"module"` to `esnext` and `"moduleResolution"` to `bundler`. The `bundler` setting eliminates the need for file extensions on relative paths.
 
 ### Templates for TS configs
 
-To save time and effort, you can use configuration templates. The TypeScript maintainers and alumni have published [reusable config templates (<VPIcon icon="iconfont icon-github" />`tsconfig/bases`)](https://github.com/tsconfig/bases) that can be used with the [<VPIcon icon="iconfont icon-typescript"/>extends](https://typescriptlang.org/tsconfig#extends) option. Just install the base templates and extend the desired configuration:
+To save time and effort, you can use configuration templates. The TypeScript maintainers and alumni have published [reusable config templates (<VPIcon icon="iconfont icon-github"/>`tsconfig/bases`)](https://github.com/tsconfig/bases) that can be used with the [<VPIcon icon="iconfont icon-typescript"/>extends](https://typescriptlang.org/tsconfig#extends) option. Just install the base templates and extend the desired configuration:
 
 ```sh
 npm install --save-dev @tsconfig/node20
@@ -273,15 +273,15 @@ A few examples:
 
 - [<VPIcon icon="fas fa-globe"/>Prettier ships ESM standalone bundles](https://prettier.io/blog/2023/07/05/3.0.0.html)
 - [<VPIcon icon="iconfont icon-deno"/>Deno is advocating ES modules](https://deno.com/blog/commonjs-is-hurting-javascript)
-- [Jest works on native support for ES modules (<VPIcon icon="iconfont icon-github" />`jestjs/jest`)](https://github.com/jestjs/jest/issues/9430)
+- [Jest works on native support for ES modules (<VPIcon icon="iconfont icon-github"/>`jestjs/jest`)](https://github.com/jestjs/jest/issues/9430)
 - [<VPIcon icon="iconfont icon-tailwindcss"/>Tailwind CSS can be configured in ESM](https://tailwindcss.com/blog/tailwindcss-v3-3#esm-and-type-script-support)
 - [<VPIcon icon="fas fa-globe"/>TypeScript's development team has rebuilt its codebase](https://infoworld.com/article/3690342/typescript-50-rebuilt-to-use-ecmascript-modules.html) to use ECMAScript modules
 - [<VPIcon icon="fas fa-globe"/>Vitest](https://vitest.dev/) has fully-fledged ESM support
 - Redux maintainer Mark Erikson gives a handful of advices [<VPIcon icon="fas fa-globe"/>modernizing packages to ESM](https://blog.isquaredsoftware.com/2023/08/esm-modernization-lessons/)
 
-However, if transitioning your code to ESM isn't feasible at the moment, there are tools available to assist you. Isaac Z. Schlueter, the creator of npm, published a tool called [tshy (<VPIcon icon="iconfont icon-github" />`isaacs/tshy`)](https://github.com/isaacs/tshy) for this purpose, enabling you to distribute your code as hybrid modules, compatible with both CommonJS and ES modules.
+However, if transitioning your code to ESM isn't feasible at the moment, there are tools available to assist you. Isaac Z. Schlueter, the creator of npm, published a tool called [tshy (<VPIcon icon="iconfont icon-github"/>`isaacs/tshy`)](https://github.com/isaacs/tshy) for this purpose, enabling you to distribute your code as hybrid modules, compatible with both CommonJS and ES modules.
 
-Andrew Branch, who is working on TypeScript at Microsoft, developed a solution called "[Are the types wrong? (<VPIcon icon="iconfont icon-github" />`arethetypeswrong/arethetypeswrong.github.io`)](https://github.com/arethetypeswrong/arethetypeswrong.github.io)". It provides a website and [CLI (<VPIcon icon="fa-brands fa-npm"/>`@arethetypeswrong/cli`)](https://npmjs.com/package/@arethetypeswrong/cli) to examine contents of npm packages to identify issues with their TypeScript types, with a focus on errors related to ESM module resolution.
+Andrew Branch, who is working on TypeScript at Microsoft, developed a solution called "[Are the types wrong? (<VPIcon icon="iconfont icon-github"/>`arethetypeswrong/arethetypeswrong.github.io`)](https://github.com/arethetypeswrong/arethetypeswrong.github.io)". It provides a website and [CLI (<VPIcon icon="fa-brands fa-npm"/>`@arethetypeswrong/cli`)](https://npmjs.com/package/@arethetypeswrong/cli) to examine contents of npm packages to identify issues with their TypeScript types, with a focus on errors related to ESM module resolution.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

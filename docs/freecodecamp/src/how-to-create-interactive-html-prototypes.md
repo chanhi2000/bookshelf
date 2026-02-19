@@ -23,7 +23,7 @@ date: 2024-08-27
 isOriginal: false
 author:
   - name: Joan Ayebola
-    url : https://freecodecamp.org/news/author/joanayebola/
+    url: https://freecodecamp.org/news/author/joanayebola/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724485095228/2bc8f1c3-d0b8-41a2-a741-f9eaa2b6dde0.png
 ---
 
@@ -113,7 +113,7 @@ Checkboxes allow users to select multiple options from a list. They are ideal fo
   slug-hash="qBzYwLY"
   title="Checkbox"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Each checkbox can be checked or unchecked, providing immediate visual feedback.
 
@@ -134,7 +134,7 @@ Radio buttons are used when only one option can be selected from a group. This i
   slug-hash="BagxEMB"
   title="Radio Box"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 When one radio button in a group is selected, the others are automatically deselected, ensuring that only one option is chosen.
 
@@ -185,7 +185,7 @@ This is the most common input type, used for single-line text input.
   slug-hash="eYwroxW"
   title="Input"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The `placeholder` attribute provides a hint to the user about what to enter.
 
@@ -202,7 +202,7 @@ This input type hides the characters as the user types, making it suitable for s
   slug-hash="dyBeLaq"
   title="Password Input"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 #### Email Input
 
@@ -217,7 +217,7 @@ The `email` type ensures that the user’s input is in a valid email format.
   slug-hash="OJeZGdK"
   title="Email Input"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 #### Date Input
 
@@ -232,7 +232,7 @@ This type provides a date picker, allowing users to select a date from a calenda
   slug-hash="yLdjrwV"
   title="Date Input"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 These different input types enhance user experience by providing specialized interfaces for different types of data. They help make the form more intuitive and reduce the likelihood of user errors.
 
@@ -286,7 +286,7 @@ Multi-step forms are useful when you want to break a long form into smaller, mor
   slug-hash="JjQvVzv"
   title="Multi Step Form"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -332,7 +332,7 @@ allow users to fill out additional fields based on previous choices. While HTML 
   slug-hash="VwJxNRV"
   title="Conditional Input"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -382,7 +382,7 @@ Simulating dynamic content updates involves creating sections of a webpage that 
   slug-hash="rNEvbbz"
   title="Simulated Dynamic Content"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -423,7 +423,7 @@ The `target` attribute allows you to control where a linked document will open. 
   slug-hash="NWZMmVG"
   title="Target"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -519,7 +519,7 @@ Modal dialogs are often used to display important information or prompts that re
   slug-hash="poXVBmN"
   title="Modal without JavaSript"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -579,7 +579,7 @@ Tooltips provide additional information when a user hovers over an element. Whil
   slug-hash="MWMXyoO"
   title="HTML-only Tooltip"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -614,7 +614,7 @@ Image maps enable you to create clickable areas on an image, allowing users to i
   slug-hash="KKjezQv"
   title="Interactive Image Maps"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

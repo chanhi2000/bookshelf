@@ -27,7 +27,7 @@ date: 2024-10-22
 isOriginal: false
 author:
   - name: Frank Joseph
-    url : https://blog.logrocket.com/author/frankjoseph/
+    url: https://blog.logrocket.com/author/frankjoseph/
 cover: /assets/image/blog.logrocket.com/building-microservices-node-js/banner.png
 ---
 

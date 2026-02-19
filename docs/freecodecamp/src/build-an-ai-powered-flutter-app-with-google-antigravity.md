@@ -36,7 +36,7 @@ date: 2026-01-08
 isOriginal: false
 author:
   - name: Anna Muzykina
-    url : https://freecodecamp.org/news/author/muzykina/
+    url: https://freecodecamp.org/news/author/muzykina/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767806742391/846769af-4cbe-482c-b884-8f9ca50d7456.png
 ---
 

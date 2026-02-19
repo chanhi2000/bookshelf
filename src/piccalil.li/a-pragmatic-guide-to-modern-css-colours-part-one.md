@@ -23,7 +23,7 @@ date: 2025-10-07
 isOriginal: false
 author:
   - name: Kevin Powell
-    url : https://piccalil.li/author/kevin-powell
+    url: https://piccalil.li/author/kevin-powell
 cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/5f65c4d7705a364580800c0b75f3f74be37fc7800765c3ae88d2a0c60e667a83/png?url=https://piccalil.li/og/a-pragmatic-guide-to-modern-css-colours-part-one/&width=1024&height=526&retina=true
 ---
 

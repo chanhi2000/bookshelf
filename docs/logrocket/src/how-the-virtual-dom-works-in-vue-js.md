@@ -29,7 +29,7 @@ date: 2020-12-03
 isOriginal: false
 author:
   - name: Nwose Lotanna
-    url : https://blog.logrocket.com/author/nwoselotanna/
+    url: https://blog.logrocket.com/author/nwoselotanna/
 cover: /assets/image/blog.logrocket.com/how-the-virtual-dom-works-in-vue-js/banner.png
 ---
 

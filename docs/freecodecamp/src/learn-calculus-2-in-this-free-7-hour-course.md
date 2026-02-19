@@ -29,7 +29,7 @@ date: 2020-09-14
 isOriginal: false
 author:
   - name: Dr. Linda Green (@lindagreen7859)
-    url : https://youtube.com/@lindagreen7859
+    url: https://youtube.com/@lindagreen7859
 cover: https://freecodecamp.org/news/content/images/size/w2000/2020/09/calc2.png
 ---
 

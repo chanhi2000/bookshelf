@@ -23,7 +23,7 @@ date: 2021-03-29
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2021/03/css-container-queries-polar-bear.gif
 ---
 

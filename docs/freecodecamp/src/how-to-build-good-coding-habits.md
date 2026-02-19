@@ -24,7 +24,7 @@ date: 2024-08-21
 isOriginal: false
 author:
   - name: Eleanor Hecks
-    url : https://freecodecamp.org/news/author/ehecks/
+    url: https://freecodecamp.org/news/author/ehecks/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724179204764/68fe386c-336f-4f05-9652-bbf5644b5a1b.jpeg
 ---
 

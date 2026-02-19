@@ -23,7 +23,7 @@ date: 2026-01-21
 isOriginal: false
 author:
   - name: Hashim Quraishi
-    url : https://css-tricks.com/author/hashimquraishi/
+    url: https://css-tricks.com/author/hashimquraishi/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/08/accessibility-a11y.png
 ---
 

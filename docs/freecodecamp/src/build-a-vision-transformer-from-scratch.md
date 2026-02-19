@@ -29,7 +29,7 @@ date: 2025-02-27
 isOriginal: false
 author:
   - name: Tunga Bayrak (@tungabayrak9765)
-    url : https://www.youtube.com/@tungabayrak9765
+    url: https://www.youtube.com/@tungabayrak9765
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740609022511/e0864dae-cffe-4757-85f9-d4162102a082.png
 ---
 

@@ -24,7 +24,7 @@ date: 2023-05-08
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -65,7 +65,7 @@ In this TypeScript tutorial we explore the significance of platform consideratio
 
 ## Excerpt
 
-We discuss the various JavaScript engines, such as [<VPIcon icon="fas fa-globe"/>Google's V8](https://v8.dev/), [<VPIcon icon="fas fa-globe"/>Mozilla's SpiderMonkey](https://spidermonkey.dev/), [ChakraCore (<VPIcon icon="iconfont icon-github" />`chakra-core/ChakraCore`)](https://github.com/chakra-core/ChakraCore) (previously maintained by Microsoft), and [<VPIcon icon="fa-brands fa-apple"/>Apple's JavaScriptCore](https://developer.apple.com/documentation/javascriptcore), that implement the [<VPIcon icon="fas fa-globe"/>ECMA-262 language specification](https://ecma-international.org/publications-and-standards/standards/ecma-262/). We also highlight that additional functionalities beyond the standard may be provided by different platforms.
+We discuss the various JavaScript engines, such as [<VPIcon icon="fas fa-globe"/>Google's V8](https://v8.dev/), [<VPIcon icon="fas fa-globe"/>Mozilla's SpiderMonkey](https://spidermonkey.dev/), [ChakraCore (<VPIcon icon="iconfont icon-github"/>`chakra-core/ChakraCore`)](https://github.com/chakra-core/ChakraCore) (previously maintained by Microsoft), and [<VPIcon icon="fa-brands fa-apple"/>Apple's JavaScriptCore](https://developer.apple.com/documentation/javascriptcore), that implement the [<VPIcon icon="fas fa-globe"/>ECMA-262 language specification](https://ecma-international.org/publications-and-standards/standards/ecma-262/). We also highlight that additional functionalities beyond the standard may be provided by different platforms.
 
 To ensure compatibility with a specific target, we need to configure the TypeScript compiler accordingly. We use the `npx tsc --init` command to generate a configuration file, and we examine the options available in the `tsconfig.json` file.
 

@@ -31,7 +31,7 @@ date: 2026-01-15
 isOriginal: false
 author:
   - name: Florian Geierstanger
-    url : https://frontendmasters.com/blog/author/floriangeierstanger/
+    url: https://frontendmasters.com/blog/author/floriangeierstanger/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/8268
 ---
 
@@ -76,9 +76,9 @@ Then we need a template, where you wire these controls to the attributes of the 
 
 What if there was a solution to all of the problems above?
 
-Even better if it could be used across all web component frameworks, and thus maintained and improved by a much larger community. Enter the [Custom Elements Manifest (<VPIcon icon="iconfont icon-github" />`webcomponents/custom-elements-manifest`)](https://github.com/webcomponents/custom-elements-manifest). This is the missing link to connect the tooling in a web components project, enable more automation and much improve the developer experience.
+Even better if it could be used across all web component frameworks, and thus maintained and improved by a much larger community. Enter the [Custom Elements Manifest (<VPIcon icon="iconfont icon-github"/>`webcomponents/custom-elements-manifest`)](https://github.com/webcomponents/custom-elements-manifest). This is the missing link to connect the tooling in a web components project, enable more automation and much improve the developer experience.
 
-I’ll use the [custom-elements-manifest-demo repository (<VPIcon icon="iconfont icon-github" />`fgeierst/custom-elements-manifest-demo`)](https://github.com/fgeierst/custom-elements-manifest-demo) to show how to set up the different parts and how to use them.
+I’ll use the [custom-elements-manifest-demo repository (<VPIcon icon="iconfont icon-github"/>`fgeierst/custom-elements-manifest-demo`)](https://github.com/fgeierst/custom-elements-manifest-demo) to show how to set up the different parts and how to use them.
 
 ---
 
@@ -122,7 +122,7 @@ The button has a default slot and a variant property that can be either primary 
 
 ## Create the Manifest JSON
 
-You can imagine [the Custom Elements Manifest like a detailed table of contents (<VPIcon icon="iconfont icon-github" />`webcomponents/custom-elements-manifest`)](https://github.com/webcomponents/custom-elements-manifest/blob/main/schema.d.ts#L264) for the entire project. Every component has its entry, complete with all attributes, and other meta data like default values, available options and textual descriptions.
+You can imagine [the Custom Elements Manifest like a detailed table of contents (<VPIcon icon="iconfont icon-github"/>`webcomponents/custom-elements-manifest`)](https://github.com/webcomponents/custom-elements-manifest/blob/main/schema.d.ts#L264) for the entire project. Every component has its entry, complete with all attributes, and other meta data like default values, available options and textual descriptions.
 
 Here’s the beginning of a <VPIcon icon="iconfont icon-json"/>`custom-elements.json` file about our new button:
 

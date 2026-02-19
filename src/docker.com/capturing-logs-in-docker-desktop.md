@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "Capturing Logs in Docker DesktopDocker"
-description: "Article(s) > Capturing Logs in Docker DesktopDocker"
+title: "Capturing Logs in Docker Desktop"
+description: "Article(s) > Capturing Logs in Docker Desktop"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -15,15 +15,17 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > Capturing Logs in Docker DesktopDocker"
+      content: "Article(s) > Capturing Logs in Docker Desktop"
     - property: og:description
-      content: "Capturing Logs in Docker DesktopDocker"
+      content: "Capturing Logs in Docker Desktop"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/docker.com/capturing-logs-in-docker-desktop.html
 prev: /devops/docker/articles/README.md
 date: 2020-01-18
 isOriginal: false
 author: 
+  - name: David Scott
+    url: https://docker.com/contributors/david-scott/
 cover: https://docker.com/app/uploads/2020/01/agence-olloweb-d9ILr-dbEdg-unsplash-1110x737.jpg
 ---
 
@@ -44,7 +46,7 @@ cover: https://docker.com/app/uploads/2020/01/agence-olloweb-d9ILr-dbEdg-unsplas
 ---
 
 <SiteInfo
-  name="Capturing Logs in Docker DesktopDocker"
+  name="Capturing Logs in Docker Desktop"
   desc="Docker Desktop runs a Virtual Machine to host Docker containers. Each component within the VM (including the Docker engine itself) runs as a separate isolated container. This extra layer of isolation introduces an interesting new problem: how do we capture all the logs so we can include them in Docker Desktop diagnostic reports?"
   url="https://docker.com/blog/capturing-logs-in-docker-desktop"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
@@ -174,7 +176,7 @@ This post was joint work with Magnus Skjegstad.
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Capturing Logs in Docker DesktopDocker",
+  "title": "Capturing Logs in Docker Desktop",
   "desc": "Docker Desktop runs a Virtual Machine to host Docker containers. Each component within the VM (including the Docker engine itself) runs as a separate isolated container. This extra layer of isolation introduces an interesting new problem: how do we capture all the logs so we can include them in Docker Desktop diagnostic reports?",
   "link": "https://chanhi2000.github.io/bookshelf/docker.com/capturing-logs-in-docker-desktop.html",
   "logo": "https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png",

@@ -24,7 +24,7 @@ date: 2025-01-29
 isOriginal: false
 author:
   - name: Anjan Baradwaj
-    url : https://freecodecamp.org/news/author/anjanbaradwaj/
+    url: https://freecodecamp.org/news/author/anjanbaradwaj/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738077724002/cfbf6a90-f9c2-4853-b1c3-c33774f078c1.png
 ---
 

@@ -36,7 +36,7 @@ date: 2025-06-24
 isOriginal: false
 author:
   - name: Noor Fakhry (@Programming-Fluency)
-    url : https://youtube.com/@Programming-Fluency
+    url: https://youtube.com/@Programming-Fluency
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750771142491/e627c758-7d1c-48ea-b0b7-1449300662eb.png
 ---
 

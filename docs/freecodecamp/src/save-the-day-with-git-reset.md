@@ -23,7 +23,7 @@ date: 2020-09-29
 isOriginal: false
 author:
   - name: Omer Rosenbaum
-    url : https://freecodecamp.org/news/author/omerros/
+    url: https://freecodecamp.org/news/author/omerros/
 cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9882740569d1a4ca1a78.jpg
 ---
 

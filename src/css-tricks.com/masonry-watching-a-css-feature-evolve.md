@@ -29,7 +29,7 @@ date: 2025-10-15
 isOriginal: false
 author:
   - name: Saleh Mubashar
-    url : https://css-tricks.com/author/salehmubashar/
+    url: https://css-tricks.com/author/salehmubashar/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-tricks-logo-blur.png
 ---
 

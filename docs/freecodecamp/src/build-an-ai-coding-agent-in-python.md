@@ -36,7 +36,7 @@ date: 2025-09-03
 isOriginal: false
 author:
   - name: Lane Wagner
-    url : https://boot.dev/courses/build-ai-agent-python
+    url: https://boot.dev/courses/build-ai-agent-python
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756907810696/792bacff-78f6-4142-924b-03d48f3cf474.png
 ---
 

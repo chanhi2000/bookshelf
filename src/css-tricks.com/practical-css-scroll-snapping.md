@@ -23,7 +23,7 @@ date: 2020-06-18
 isOriginal: false
 author:
   - name: Max Kohler
-    url : https://css-tricks.com/author/maxkoehler/
+    url: https://css-tricks.com/author/maxkoehler/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/07/scroll-snap-featured.gif
 ---
 

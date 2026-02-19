@@ -27,7 +27,7 @@ date: 2025-04-14
 isOriginal: false
 author:
   - name: Udemezue John
-    url : https://freecodecamp.org/news/author/udemezue/
+    url: https://freecodecamp.org/news/author/udemezue/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744637958755/939ee783-cb11-4f8c-b509-c68c28092248.png
 ---
 

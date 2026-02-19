@@ -28,7 +28,7 @@ date: 2025-05-30
 isOriginal: false
 author:
   - name: Rahul gupta
-    url : https://freecodecamp.org/news/author/rahulgupta32/
+    url: https://freecodecamp.org/news/author/rahulgupta32/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748613557891/39037981-d514-4f26-8a48-be0cdd9ca29b.png
 ---
 

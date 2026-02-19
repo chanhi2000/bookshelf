@@ -45,7 +45,7 @@ date: 2025-08-20
 isOriginal: false
 author:
   - name: Ania Kubow (@aniakubow)
-    url : https://youtube.com/@aniakubow
+    url: https://youtube.com/@aniakubow
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755696350459/cb15e21b-789c-4107-b7f2-dc12d0df7d79.png
 ---
 

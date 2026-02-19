@@ -31,7 +31,7 @@ date: 2026-01-15
 isOriginal: false
 author:
   - name: Ramesh Sinha
-    url : https://freecodecamp.org/news/author/justramesh2000/
+    url: https://freecodecamp.org/news/author/justramesh2000/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768353949324/18ce4a43-fb21-4e9b-9285-7c4db7b7ae2e.png
 ---
 

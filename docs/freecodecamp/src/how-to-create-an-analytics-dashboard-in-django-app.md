@@ -32,7 +32,7 @@ date: 2020-02-12
 isOriginal: false
 author:
   - name: Veronika Rovnik
-    url : https://veronikarovnik.medium.com/
+    url: https://veronikarovnik.medium.com/
 cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9c9e740569d1a4ca3336.jpg
 ---
 
@@ -81,7 +81,7 @@ After you complete it, you’ll have a **Django-powered app** with interactive *
 
 To confidently walk through the steps, you need a basic knowledge of the Django framework and *a bit of creativity*. ✨
 
-To follow along, you can download the [GitHub sample (<VPIcon icon="iconfont icon-github" />`veronikaro/django-dashboard-app`)](https://github.com/veronikaro/django-dashboard-app).
+To follow along, you can download the [GitHub sample (<VPIcon icon="iconfont icon-github"/>`veronikaro/django-dashboard-app`)](https://github.com/veronikaro/django-dashboard-app).
 
 Here's a brief list of tools we’re going to use:
 
@@ -485,7 +485,7 @@ Please leave your comments below - any feedback on the code’s improvement is h
 
 ::: info References
 
-The source code for the tutorial can be found on [GitHub (<VPIcon icon="iconfont icon-github" />`veronikaro/django-dashboard-app`)](https://github.com/veronikaro/django-dashboard-app).
+The source code for the tutorial can be found on [GitHub (<VPIcon icon="iconfont icon-github"/>`veronikaro/django-dashboard-app`)](https://github.com/veronikaro/django-dashboard-app).
 
 And here’s the project with [<VPIcon icon="fas fa-globe"/>Flexmonster & Django integration](https://flexmonster.com/doc/integration-with-django/?r=fr5) that inspired me for this tutorial.
 

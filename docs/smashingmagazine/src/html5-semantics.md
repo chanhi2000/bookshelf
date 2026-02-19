@@ -23,7 +23,7 @@ date: 2011-11-18
 isOriginal: false
 author:
   - name: Bruce Lawson
-    url : https://smashingmagazine.com/author/bruce-lawson/
+    url: https://smashingmagazine.com/author/bruce-lawson/
 cover: https://smashingmagazine.com/images/smashing-homepage.png
 ---
 

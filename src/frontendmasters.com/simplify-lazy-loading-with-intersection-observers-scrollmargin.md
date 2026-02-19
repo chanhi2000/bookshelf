@@ -24,7 +24,7 @@ date: 2025-01-20
 isOriginal: false
 author:
   - name: Ingvild Forseth
-    url : https://frontendmasters.com/blog/author/ingvild-forseth/
+    url: https://frontendmasters.com/blog/author/ingvild-forseth/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4990
 ---
 

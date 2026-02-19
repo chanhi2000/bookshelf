@@ -26,7 +26,7 @@ date: 2022-02-08
 isOriginal: false
 author:
   - name: Indermohan Singh
-    url : https://blog.logrocket.com/author/indermohansingh/
+    url: https://blog.logrocket.com/author/indermohansingh/
 cover: /assets/image/blog.logrocket.com/intercepting-javascript-fetch-api-requests/banner.png
 ---
 

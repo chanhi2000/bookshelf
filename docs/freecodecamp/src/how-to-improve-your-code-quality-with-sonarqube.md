@@ -25,7 +25,7 @@ date: 2025-05-03
 isOriginal: false
 author:
   - name: Divya Valsala Saratchandran
-    url : https://freecodecamp.org/news/author/divyasaratchandran/
+    url: https://freecodecamp.org/news/author/divyasaratchandran/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746207275407/7b0da6c9-9bd7-40ca-853e-b1f7957acf3b.png
 ---
 

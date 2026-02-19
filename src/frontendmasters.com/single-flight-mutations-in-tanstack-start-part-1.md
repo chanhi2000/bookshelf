@@ -29,7 +29,7 @@ date: 2026-01-23
 isOriginal: false
 author:
   - name: Adam Rackis
-    url : https://frontendmasters.com/blog/author/adamrackis/
+    url: https://frontendmasters.com/blog/author/adamrackis/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/8334
 ---
 
@@ -136,7 +136,7 @@ We’ll implement a dead simple solution to this here in part 1, and then part 2
 
 ## Our App
 
-As with prior posts about TanStack Start and Router, this post will use our cheap, simple, and frankly ugly Jira clone. [Here’s a repo for it (<VPIcon icon="iconfont icon-github" />`arackaf/tanstack-start-single-flight-mutations-blog-post`)](https://github.com/arackaf/tanstack-start-single-flight-mutations-blog-post). It’s a trivial app that runs on an SQLite database. The epics page looks like this:
+As with prior posts about TanStack Start and Router, this post will use our cheap, simple, and frankly ugly Jira clone. [Here’s a repo for it (<VPIcon icon="iconfont icon-github"/>`arackaf/tanstack-start-single-flight-mutations-blog-post`)](https://github.com/arackaf/tanstack-start-single-flight-mutations-blog-post). It’s a trivial app that runs on an SQLite database. The epics page looks like this:
 
 ![Screenshot of a web application displaying an overview of epics with a list of tasks, including buttons for viewing and editing.](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2026/01/img5.png?resize=830%2C1024&ssl=1)
 

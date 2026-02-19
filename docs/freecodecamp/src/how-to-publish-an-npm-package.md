@@ -26,7 +26,7 @@ date: 2025-09-25
 isOriginal: false
 author:
   - name: Ikegah Oliver
-    url : https://freecodecamp.org/news/author/Oliverkrane/
+    url: https://freecodecamp.org/news/author/Oliverkrane/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758743190885/78dd4f19-53eb-4101-9cf9-7c22ab5f6be2.png
 ---
 

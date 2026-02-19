@@ -29,7 +29,7 @@ date: 2025-04-07
 isOriginal: false
 author:
   - name: Rahul Chhodde
-    url : https://blog.logrocket.com/author/rahulchhodde/
+    url: https://blog.logrocket.com/author/rahulchhodde/
 cover: /assets/image/blog.logrocket.com/react-useref/banner.png
 ---
 

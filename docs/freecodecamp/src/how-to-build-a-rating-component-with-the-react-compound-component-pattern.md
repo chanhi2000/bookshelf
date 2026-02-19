@@ -29,7 +29,7 @@ date: 2024-06-04
 isOriginal: false
 author:
   - name: David Jaja
-    url : https://freecodecamp.org/news/author/Daiveed/
+    url: https://freecodecamp.org/news/author/Daiveed/
 cover: https://freecodecamp.org/news/content/images/2024/06/Group-341.png
 ---
 
@@ -102,7 +102,7 @@ Rating components offer several benefits, both for users and developers:
 
 ## How to Build a Rating Component
 
-I've prepared a GitHub repository with starter files to speed things up. Simply clone [this repo (<VPIcon icon="iconfont icon-github" />`Daiveedjay/Rating-Component`)](https://github.com/Daiveedjay/Rating-Component) and install the dependencies.
+I've prepared a GitHub repository with starter files to speed things up. Simply clone [this repo (<VPIcon icon="iconfont icon-github"/>`Daiveedjay/Rating-Component`)](https://github.com/Daiveedjay/Rating-Component) and install the dependencies.
 
 ![Let's get this party started](https://freecodecamp.org/news/content/images/2024/06/Let-s-get-this-party-started.gif)
 

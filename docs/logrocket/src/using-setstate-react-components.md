@@ -29,7 +29,7 @@ date: 2021-07-16
 isOriginal: false
 author:
   - name: Nosa Obaseki
-    url : https://blog.logrocket.com/author/codepanda/
+    url: https://blog.logrocket.com/author/codepanda/
 cover: /assets/image/blog.logrocket.com/using-setstate-react-components/banner.png
 ---
 

@@ -26,7 +26,7 @@ date: 2014-03-04
 isOriginal: false
 author:
   - name: Peter Gasston
-    url : https://smashingmagazine.com/author/peter-gasston/
+    url: https://smashingmagazine.com/author/peter-gasston/
 cover: https://smashingmagazine.com/images/smashing-homepage.png
 ---
 
@@ -143,7 +143,7 @@ apes.hoot();
 
 Now, this is the simplest example I could possibly think of, but just take a minute to consider how this could be extended further still: adding unique properties, attributes and events to each element; putting markup in your element that renders with content passed in as attribute values; even having elements with no UI at all but that perform functions such as database queries. Honestly, the opportunity here is *huge*.
 
-As a quick example of just how exceptionally useful Custom Elements can be, see [Eduardo Lundgren’s `google-maps` (<VPIcon icon="iconfont icon-github" />`eduardolundgren/google-maps-element`)](https://github.com/eduardolundgren/google-maps-element) element, which embeds a Google Map and can have options passed in through attribute values, like this:
+As a quick example of just how exceptionally useful Custom Elements can be, see [Eduardo Lundgren’s `google-maps` (<VPIcon icon="iconfont icon-github"/>`eduardolundgren/google-maps-element`)](https://github.com/eduardolundgren/google-maps-element) element, which embeds a Google Map and can have options passed in through attribute values, like this:
 
 ```xml
 <google-maps latitude="-8.034881" longitude="-34.918377"></google-maps>
@@ -172,7 +172,7 @@ The value of the `extends` argument informs the DOM that the custom element is i
 
 The humble `table` element may now have its own API. For example, it could query its own data in a standardized interface. **A table that has an API to query its own data!!!** How can you not be excited by that?
 
-For a real-world example of an extended element, take a look at [Eduardo Lundgren’s `video-camera` (<VPIcon icon="iconfont icon-github" />`eduardolundgren/video-camera-element`)](https://github.com/eduardolundgren/video-camera-element), which extends the `video` element to use live input from `getUserMedia():`
+For a real-world example of an extended element, take a look at [Eduardo Lundgren’s `video-camera` (<VPIcon icon="iconfont icon-github"/>`eduardolundgren/video-camera-element`)](https://github.com/eduardolundgren/video-camera-element), which extends the `video` element to use live input from `getUserMedia():`
 
 ```xml
 <video is="video-camera"></video>
@@ -241,7 +241,11 @@ Home, to have a good lay down. Or, if you prefer to carry on reading about Custo
 - “[<VPIcon icon="fas fa-globe"/>Custom Elements: Defining New Elements in HTML](https://html5rocks.com/en/tutorials/webcomponents/customelements/),” Eric Bidelman, HTML5 Rocks Bidelman’s article was invaluable to me in writing this piece.
 - “[<VPIcon icon="fas fa-globe"/>Custom Elements](https://w3c.github.io/webcomponents/spec/custom/),” W3C The specification is fairly impenetrable, but maybe you’ll get more out of it than I did.
 
-*Front page image credits: [Dmitry Baranovskiy](https://flickr.com/photos/dmitry-baranovskiy/2378867408/).*
+::: note
+
+Front page image credits: [<VPIcon icon="fas fa-globe"/>Dmitry Baranovskiy](https://flickr.com/photos/dmitry-baranovskiy/2378867408/).
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -29,7 +29,7 @@ date: 2019-07-31
 isOriginal: false
 author:
   - name: Bret Fisher
-    url : https://docker.com/author/bret-fisher/
+    url: https://docker.com/author/bret-fisher/
 cover: https://docker.com/app/uploads/2019/07/C3-promo-small.jpg
 ---
 

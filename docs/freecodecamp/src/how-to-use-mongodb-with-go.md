@@ -28,7 +28,7 @@ date: 2025-07-31
 isOriginal: false
 author:
   - name: Dami
-    url : https://freecodecamp.org/news/author/ThatCoolGuy/
+    url: https://freecodecamp.org/news/author/ThatCoolGuy/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753940956019/6551a007-b463-486f-8746-15c13a7a99a0.png
 ---
 

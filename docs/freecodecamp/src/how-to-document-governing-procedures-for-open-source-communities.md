@@ -31,7 +31,7 @@ date: 2025-07-17
 isOriginal: false
 author:
   - name: Oluchi Nwenyi
-    url : https://freecodecamp.org/news/author/lulunwenyi/
+    url: https://freecodecamp.org/news/author/lulunwenyi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752683137033/9aff86cd-09de-4a5e-bd65-c8b0653724eb.png
 ---
 

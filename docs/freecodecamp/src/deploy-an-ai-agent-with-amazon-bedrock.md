@@ -38,7 +38,7 @@ date: 2025-10-15
 isOriginal: false
 author:
   - name: Emdadul Islam
-    url : https://freecodecamp.org/news/author/emdadulislam/
+    url: https://freecodecamp.org/news/author/emdadulislam/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760489893067/3f33049f-d17e-4d94-8deb-fa43c65ec753.png
 ---
 

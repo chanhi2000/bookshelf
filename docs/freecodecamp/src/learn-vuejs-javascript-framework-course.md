@@ -32,7 +32,7 @@ date: 2025-11-11
 isOriginal: false
 author:
   - name: Rachel Johnson 
-    url : https://scrimba.com/learn-vue-c0jrrpaasr
+    url: https://scrimba.com/learn-vue-c0jrrpaasr
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762797723327/7e67725a-1f0c-48fa-ad5c-173495b0ffeb.jpeg
 ---
 

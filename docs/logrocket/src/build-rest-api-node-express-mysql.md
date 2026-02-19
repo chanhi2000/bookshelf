@@ -33,7 +33,7 @@ date: 2024-10-21
 isOriginal: false
 author:
   - name: Geshan Manandhar
-    url : https://blog.logrocket.com/author/geshanmanandhar/
+    url: https://blog.logrocket.com/author/geshanmanandhar/
 cover: /assets/image/blog.logrocket.com/build-rest-api-node-express-mysql/banner.png
 ---
 

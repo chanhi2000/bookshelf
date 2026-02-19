@@ -24,7 +24,7 @@ date: 2024-06-18
 isOriginal: false
 author:
   - name: Bala Priya C
-    url : https://freecodecamp.org/news/author/balapriyac/
+    url: https://freecodecamp.org/news/author/balapriyac/
 cover: https://freecodecamp.org/news/content/images/2024/06/fimg-key-errors.png
 ---
 

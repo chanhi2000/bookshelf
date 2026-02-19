@@ -23,8 +23,8 @@ date: 2024-07-03
 isOriginal: false
 author:
   - name: Andy Bell
-    url : https://piccalil.li/author/andy-bell
-cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/f490dacf861baa4e0a8f67bc21b2ea40c46ae1e71cd5e5a2729d105b0ff46bad/png?url=https://piccalil.li/og/its-about-time-i-tried-to-explain-what-progressive-enhancement-actually-is/&width=1024&height=526&retina=true
+    url: https://piccalil.li/author/andy-bell
+cover: https://piccalil.b-cdn.net/api/og-image?slug=its-about-time-i-tried-to-explain-what-progressive-enhancement-actually-is/
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -48,7 +48,7 @@ cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/f490dacf861baa4e0a8f67bc21b2ea4
   desc="Progressive enhancement hasn’t caught on nearly as much as it should. It’s likely related to folks not being able to envision it working in their real world contexts. This post attempts to alleviate that and reignite the conversation."
   url="https://piccalil.li/blog/its-about-time-i-tried-to-explain-what-progressive-enhancement-actually-is"
   logo="https://piccalil.li/favicons/favicon.ico"
-  preview="https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/f490dacf861baa4e0a8f67bc21b2ea40c46ae1e71cd5e5a2729d105b0ff46bad/png?url=https://piccalil.li/og/its-about-time-i-tried-to-explain-what-progressive-enhancement-actually-is/&width=1024&height=526&retina=true"/>
+  preview="https://piccalil.b-cdn.net/api/og-image?slug=its-about-time-i-tried-to-explain-what-progressive-enhancement-actually-is/"/>
 
 I’m a long-time proponent of progressive enhancement to the point where readers are almost certainly bored, but I am like I am because **it’s important**. I’ve been saying the following for years:
 
@@ -111,7 +111,7 @@ I think the best way to describe that is [**link up to a post I wrote last year*
 
 I’m writing this article on a train to London, tethering on my phone. Currently my connection speed is just shy of 2mbps and constantly cuts out. What happens if I load a heavy website, built to be the “perfect” experience? I get a blank white screen and a console full of errors.
 
-That’s just me right now, but **life happens** and people are never in the perfect state you might imagine them to be during production. [<VPIcon icon="fas fa-globe"/>Here’s an example of how finding information on a power cut was next to impossible](https://andy-bell.co.uk/this-is-why-performance-matters/) because the *extremely heavy* user interface couldn’t load on a dodgy mobile connection. Always remember that [<VPIcon icon="fa-brands fa-wikipedia-w"/>the quality of internet connections worldwide varies, massively](https://en.wikipedia.org/wiki/List_of_sovereign_states_by_Internet_connection_speeds#Mobile_connection) .
+That’s just me right now, but **life happens** and people are never in the perfect state you might imagine them to be during production. [<VPIcon icon="fa-brands fa-wikipedia-w"/>Here’s an example of how finding information on a power cut was next to impossible](https://andy-bell.co.uk/this-is-why-performance-matters/) because the *extremely heavy* user interface couldn’t load on a dodgy mobile connection. Always remember that [<VPIcon icon="fa-brands fa-wikipedia-w"/>the quality of internet connections worldwide varies, massively](https://en.wikipedia.org/wiki/List_of_sovereign_states_by_Internet_connection_speeds#Mobile_connection) .
 
 Instead of building to make you and the stakeholders happy at the point of your project timeline: make everyone happy by building with progressive enhancement instead because more money — by proxy of more successful user sessions — sure makes stakeholders happy.
 

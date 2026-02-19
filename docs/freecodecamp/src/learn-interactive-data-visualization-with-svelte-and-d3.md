@@ -2,7 +2,7 @@
 lang: en-US
 title: "Learn Interactive Data Visualization with Svelte and D3"
 description: "Article(s) > Learn Interactive Data Visualization with Svelte and D3"
-icon: iconfont icon-svelte
+icon: fa-brands fa-svelte
 category:
   - Node.js
   - Svelte.js
@@ -33,7 +33,7 @@ date: 2025-07-17
 isOriginal: false
 author:
   - name: Gregory Kirchoff
-    url : https://freecodecamp.org/news/author/beaucarnes/
+    url: https://freecodecamp.org/news/author/beaucarnes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752685386541/baf25f0a-a6ff-406f-b0c7-eddb82ed05f6.jpeg
 ---
 

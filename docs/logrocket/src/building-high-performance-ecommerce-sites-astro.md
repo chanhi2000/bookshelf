@@ -29,7 +29,7 @@ date: 2024-02-28
 isOriginal: false
 author:
   - name: Onuorah Bonaventure
-    url : https://blog.logrocket.com/author/onuorahbonaventure/
+    url: https://blog.logrocket.com/author/onuorahbonaventure/
 cover: /assets/image/blog.logrocket.com/building-high-performance-ecommerce-sites-astro/banner.png
 ---
 

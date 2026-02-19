@@ -23,7 +23,7 @@ date: 2022-06-27
 isOriginal: false
 author:
   - name: Una Kravets
-    url : https://una.im/about
+    url: https://una.im/about
 cover: https://una.im/posts/style-queries/og-style-queries.jpg
 ---
 

@@ -745,7 +745,7 @@ If you encounter an issue not listed here, consult the MySQL documentation or se
 
 ## How to Use the MCP Server for MySQL (Claude Code)
 
-Expose your Ubuntu MySQL instance (22.04 and later) to Claude Code via the open‑source [MCP Server for MySQL (<VPIcon icon="iconfont icon-github" />`benborla/mcp-server-mysql`)](https://github.com/benborla/mcp-server-mysql). The server runs alongside Claude and acts as a controlled adapter to your database: read‑only by default, explicit write flags for INSERT/UPDATE/DELETE, and sensible limits for timeouts, pooling, and rate‑limiting. For production, run it over a **local socket** or a **locked‑down TCP channel** (SSH tunnel or TLS) and use a **least‑privilege** MySQL user.
+Expose your Ubuntu MySQL instance (22.04 and later) to Claude Code via the open‑source [MCP Server for MySQL (<VPIcon icon="iconfont icon-github"/>`benborla/mcp-server-mysql`)](https://github.com/benborla/mcp-server-mysql). The server runs alongside Claude and acts as a controlled adapter to your database: read‑only by default, explicit write flags for INSERT/UPDATE/DELETE, and sensible limits for timeouts, pooling, and rate‑limiting. For production, run it over a **local socket** or a **locked‑down TCP channel** (SSH tunnel or TLS) and use a **least‑privilege** MySQL user.
 
 ::: info What this gives you
 
@@ -921,7 +921,7 @@ tune `MYSQL_POOL_SIZE`, `MYSQL_QUERY_TIMEOUT`, `MYSQL_RATE_LIMIT`, and enable lo
 
 ::: info Repo
 
-Source, changelog, and issues are maintained at [github.com/benborla/mcp-server-mysql (<VPIcon icon="iconfont icon-github" />`benborla/mcp-server-mysql`)](https://github.com/benborla/mcp-server-mysql).
+Source, changelog, and issues are maintained at [github.com/benborla/mcp-server-mysql (<VPIcon icon="iconfont icon-github"/>`benborla/mcp-server-mysql`)](https://github.com/benborla/mcp-server-mysql).
 
 :::
 
@@ -1073,7 +1073,7 @@ claude mcp add mcp_server_mysql \
 
 ::: tip
 
-Use `-e MYSQL_SOCKET_PATH="/var/run/mysqld/mysqld.sock"` to connect via the local Unix socket. See the [GitHub Repository for MCP Server for MySQL - Claude Code Edition (<VPIcon icon="iconfont icon-github" />`benborla/mcp-server-mysql`)](https://github.com/benborla/mcp-server-mysql) for full documentation.
+Use `-e MYSQL_SOCKET_PATH="/var/run/mysqld/mysqld.sock"` to connect via the local Unix socket. See the [GitHub Repository for MCP Server for MySQL - Claude Code Edition (<VPIcon icon="iconfont icon-github"/>`benborla/mcp-server-mysql`)](https://github.com/benborla/mcp-server-mysql) for full documentation.
 
 :::
 

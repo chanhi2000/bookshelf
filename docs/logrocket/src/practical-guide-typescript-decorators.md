@@ -24,7 +24,7 @@ date: 2024-03-21
 isOriginal: false
 author:
   - name: Rahman Fadhil
-    url : https://blog.logrocket.com/author/rahmanfadhil/
+    url: https://blog.logrocket.com/author/rahmanfadhil/
 cover: /assets/image/blog.logrocket.com/practical-guide-typescript-decorators/banner.png
 ---
 

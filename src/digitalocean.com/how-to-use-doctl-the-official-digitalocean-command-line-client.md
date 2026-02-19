@@ -70,7 +70,7 @@ DigitalOcean’s web-based control panel provides a point-and-click interface fo
 
 To follow this tutorial, you will need:
 
-- A local computer with `doctl` installed by following [the project’s installation and configuration instructions (<VPIcon icon="iconfont icon-github" />`digitalocean/doctl`)](https://github.com/digitalocean/doctl/blob/master/README.md).
+- A local computer with `doctl` installed by following [the project’s installation and configuration instructions (<VPIcon icon="iconfont icon-github"/>`digitalocean/doctl`)](https://github.com/digitalocean/doctl/blob/master/README.md).
 
 This tutorial is intended as a reference for most of `doctl`’s operations. Because `doctl` commands closely parallel the API, it may also be helpful to read the [<VPIcon icon="fa-brands fa-digital-ocean"/>API documentation](https://developers.digitalocean.com/documentation/v2/) and [**How To Use the DigitalOcean API v2**](/digitalocean.com/how-to-use-the-digitalocean-api-v2.md).
 
@@ -319,7 +319,7 @@ The default SSH user name is **root** (**core** for CoreOS) and the default port
 | `--ssh-key-path string` | Path to SSH key. |
 | `--ssh-agent-forwarding` | Enable agent forwarding. |
 
-You can also change the default configuration values in a configuration file. [The project’s README file (<VPIcon icon="iconfont icon-github" />`digitalocean/doctl#configuring-default-values`)](https://github.com/digitalocean/doctl#configuring-default-values) has more detail on how to do this.
+You can also change the default configuration values in a configuration file. [The project’s README file (<VPIcon icon="iconfont icon-github"/>`digitalocean/doctl#configuring-default-values`)](https://github.com/digitalocean/doctl#configuring-default-values) has more detail on how to do this.
 
 ### Using SSH Keys
 

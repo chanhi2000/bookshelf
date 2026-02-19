@@ -26,7 +26,7 @@ date: 2022-09-15
 isOriginal: false
 author:
   - name: Per Borgen
-    url : https://github.com/perborgen
+    url: https://github.com/perborgen
 cover: https://freecodecamp.org/news/content/images/2022/09/htmlcss.png
 ---
 

@@ -24,7 +24,7 @@ date: 2025-10-01
 isOriginal: false
 author:
   - name: Temitope Oyedele
-    url : https://freecodecamp.org/news/author/Koded001/
+    url: https://freecodecamp.org/news/author/Koded001/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759251032781/125e9bfc-2e78-4f71-b423-2d045bf82a9f.png
 ---
 

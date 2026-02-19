@@ -29,7 +29,7 @@ date: 2023-06-21
 isOriginal: false
 author:
   - name: Uzochukwu Eddie Odozi
-    url : https://blog.logrocket.com/author/uzochukwuodozi/
+    url: https://blog.logrocket.com/author/uzochukwuodozi/
 cover: /assets/image/blog.logrocket.com/how-to-create-custom-toast-component-react/banner.png
 ---
 

@@ -27,7 +27,7 @@ date: 2025-02-18
 isOriginal: false
 author:
   - name: Eti Ijeoma
-    url : https://freecodecamp.org/news/author/Omah/
+    url: https://freecodecamp.org/news/author/Omah/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739889943803/796d97e8-a1c9-41e4-a678-61477514c020.png
 ---
 

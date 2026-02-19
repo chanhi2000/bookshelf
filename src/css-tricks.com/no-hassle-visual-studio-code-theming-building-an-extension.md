@@ -27,7 +27,7 @@ date: 2026-02-02
 isOriginal: false
 author:
   - name: Zell Liew
-    url : https://css-tricks.com/author/zellwk/
+    url: https://css-tricks.com/author/zellwk/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/11/vs-code-highlight.jpg
 ---
 
@@ -45,7 +45,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/11/vs-code-highl
 
 ```component VPCard
 {
-  "title": "VSCode > Article(s)",
+  "title": "Visual Studio Code > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/vscode/articles/README.md",
   "logo": "/images/ico-wind.svg",
@@ -218,7 +218,7 @@ export default {
 
 You need to provide JSON for VS Code to configure things, so I also got AI to create a build script that converts the above format into a `.json` file.
 
-You can find the build script and everything I used in the [GitHub Repo (<VPIcon icon="iconfont icon-github" />`zellwk/twilight-cosmos`)](https://github.com/zellwk/twilight-cosmos).
+You can find the build script and everything I used in the [GitHub Repo (<VPIcon icon="iconfont icon-github"/>`zellwk/twilight-cosmos`)](https://github.com/zellwk/twilight-cosmos).
 
 ---
 
@@ -386,7 +386,7 @@ I call my theme **Twilight Cosmos** (AI helped with the naming). You can find it
 
 How did I publish my extension? That’s the subject of a brief follow-up article that I’m working on.
 
-In the meantime, here’s the [GitHub repo (<VPIcon icon="iconfont icon-github" />`zellwk/twilight-cosmos`)](https://github.com/zellwk/twilight-cosmos) if you want to build upon whatever I have done. Feel free to suggest edits to improve this theme too!
+In the meantime, here’s the [GitHub repo (<VPIcon icon="iconfont icon-github"/>`zellwk/twilight-cosmos`)](https://github.com/zellwk/twilight-cosmos) if you want to build upon whatever I have done. Feel free to suggest edits to improve this theme too!
 
 Finally, [<VPIcon icon="fas fa-globe"/>sign up for my email newsletter](https://zellwk.com/newsletter/) if you’re interested in hearing my creation adventures.
 

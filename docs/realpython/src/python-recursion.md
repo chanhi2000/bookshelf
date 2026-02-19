@@ -24,7 +24,7 @@ date: 2021-05-10
 isOriginal: false
 author:
   - name: John Sturtz
-    url : https://realpython.com/team/jsturtz/
+    url: https://realpython.com/team/jsturtz/
 cover: https://files.realpython.com/media/TUT20-Recursion-in-Python_Watermarked.692052217920.jpg
 ---
 
@@ -119,7 +119,7 @@ Typically, the readability of the code will be the biggest determining factor. B
 
 ## Recursion in Python
 
-When you call a function in Python, the interpreter creates a new [**local namespace**](/realpython.com/python-namespaces-scope.md) so that names defined within that function don’t [<VPIcon icon="fa-brands fa-wikipedia-w"/>collide](https://en.wikipedia.org/wiki/Name_collision) with identical names defined elsewhere. One function can call another, and even if they both define objects with the same name, it all works out fine because those objects exist in separate **namespaces**.
+When you call a function in Python, the interpreter creates a new [**local namespace**](/realpython.com/python-namespace.md) so that names defined within that function don’t [<VPIcon icon="fa-brands fa-wikipedia-w"/>collide](https://en.wikipedia.org/wiki/Name_collision) with identical names defined elsewhere. One function can call another, and even if they both define objects with the same name, it all works out fine because those objects exist in separate **namespaces**.
 
 The same holds true if multiple instances of the same function are running concurrently. For example, consider the following definition:
 
@@ -335,7 +335,7 @@ factorial(4)
 # 24
 ```
 
-You can also implement factorial using Python’s [**`reduce()`**](/realpython.com/python-reduce-function.md), which you can [**import**](/realpython.com/python-import.md) from the `functools` module:
+You can also implement factorial using Python’s [**`reduce()`**](/realpython.com/python-reduce-function.md), which you can [**import**](/realpython.com/python-import/README.md) from the `functools` module:
 
 ```py
 from functools import reduce
@@ -614,7 +614,7 @@ count_leaf_items(names)
 # Success!
 ```
 
-As with the factorial example, adding some [**`print()`**](/realpython.com/python-print/README.md) statements helps to demonstrate the sequence of recursive calls and [**return**](/realpython.com/python-return-statement.md) values:
+As with the factorial example, adding some [**`print()`**](/realpython.com/python-print/README.md) statements helps to demonstrate the sequence of recursive calls and [**return**](/realpython.com/python-return-statement/README.md) values:
 
 ```py{9,11-12,14}
 def count_leaf_items(item_list):

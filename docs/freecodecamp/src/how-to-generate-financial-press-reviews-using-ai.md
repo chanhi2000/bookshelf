@@ -8,6 +8,7 @@ category:
   - Finance
   - AI
   - LLM
+  - Anthropic
   - Claude
   - Article(s)
 tag: 
@@ -18,9 +19,11 @@ tag:
   - fnce
   - finance
   - ai
+  - artificial-intelligence
   - llm
-  - claude
+  - large-language-models
   - anthropic
+  - claude
 head:
   - - meta:
     - property: og:title
@@ -34,7 +37,7 @@ date: 2024-08-20
 isOriginal: false
 author:
   - name: Marco Venturi
-    url : https://freecodecamp.org/news/author/marco-venturi/
+    url: https://freecodecamp.org/news/author/marco-venturi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724059022091/7ce2eba8-46ff-4d08-8e56-afa814cb68cc.jpeg
 ---
 
@@ -325,7 +328,7 @@ It is important to remember that this is a tool to support analysts who'll have 
 
 ::: info
 
-If you liked this post, please star my [repo (<VPIcon icon="iconfont icon-github" />`mventuri/ai-powered-press-review`)](https://github.com/mventuri/ai-powered-press-review) here, can't wait to approve your PR!
+If you liked this post, please star my [repo (<VPIcon icon="iconfont icon-github"/>`mventuri/ai-powered-press-review`)](https://github.com/mventuri/ai-powered-press-review) here, can't wait to approve your PR!
 
 <SiteInfo
   name="mventuri/ai-powered-press-review"

@@ -29,7 +29,7 @@ date: 2024-08-06
 isOriginal: false
 author:
   - name: Vivek Sahu
-    url : https://freecodecamp.org/news/author/viv1/
+    url: https://freecodecamp.org/news/author/viv1/
 cover: https://freecodecamp.org/news/content/images/2024/08/IndexNowSites-1.png
 ---
 

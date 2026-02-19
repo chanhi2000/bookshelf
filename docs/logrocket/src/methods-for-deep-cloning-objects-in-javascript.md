@@ -24,7 +24,7 @@ date: 2020-10-01
 isOriginal: false
 author:
   - name: Alexander Nnakwue
-    url : https://blog.logrocket.com/author/alexandernnakwue/
+    url: https://blog.logrocket.com/author/alexandernnakwue/
 cover: /assets/image/blog.logrocket.com/methods-for-deep-cloning-objects-in-javascript/banner.png
 ---
 

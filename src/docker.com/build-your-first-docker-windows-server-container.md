@@ -25,7 +25,7 @@ date: 2016-09-27
 isOriginal: false
 author:
   - name: Michael Friis
-    url : https://docker.com/author/friism/
+    url: https://docker.com/author/friism/
 cover: https://docker.com/app/uploads/docker-for-windows-switch.gif
 ---
 

@@ -29,7 +29,7 @@ date: 2025-11-18
 isOriginal: false
 author:
   - name: Balogun Wahab
-    url : https://freecodecamp.org/news/author/03balogun/
+    url: https://freecodecamp.org/news/author/03balogun/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763052228638/4416e81d-b76e-4c40-987e-0aff1d82ff7b.png
 ---
 

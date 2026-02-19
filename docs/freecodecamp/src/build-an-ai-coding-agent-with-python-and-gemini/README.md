@@ -34,7 +34,7 @@ date: 2025-10-03
 isOriginal: false
 author:
   - name: Lane Wagner
-    url : https://freecodecamp.org/news/author/wagslane/
+    url: https://freecodecamp.org/news/author/wagslane/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759418643581/2470669e-8592-463e-8b4c-55eace8dd80a.png
 ---
 

@@ -23,7 +23,7 @@ date: 2020-09-30
 isOriginal: false
 author:
   - name: Chidume Nnamdi
-    url : https://blog.logrocket.com/author/chidumennamdi/
+    url: https://blog.logrocket.com/author/chidumennamdi/
 cover: /assets/image/blog.logrocket.com/css-reference-guide-button-styling/banner.png
 ---
 

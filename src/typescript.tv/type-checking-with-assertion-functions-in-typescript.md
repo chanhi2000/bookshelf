@@ -24,7 +24,7 @@ date: 2023-01-21
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -102,7 +102,7 @@ printAge({ name: 'Benny' });
 ## Benefits
 
 - Assertion functions are useful in situations where the type of a value is uncertain, especially when the value originates from external sources such as user input or third-party libraries.
-- Unlike [**type assertions**](/typescript.tv/glossary.md#type-assertion), which are only used by the compiler to check the type of a value, assertion functions generate JavaScript code that performs the check at runtime.
+- Unlike [**type assertions**](/typescript.tv/glossary/type-assertion.md), which are only used by the compiler to check the type of a value, assertion functions generate JavaScript code that performs the check at runtime.
 - Assertion functions can check that the input meets certain criteria, and if it doesn't, they can raise an error, preventing the rest of the code from executing in an undefined state.
 
 ---

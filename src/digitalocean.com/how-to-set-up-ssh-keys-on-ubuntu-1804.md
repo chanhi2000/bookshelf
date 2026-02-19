@@ -29,7 +29,7 @@ date: 2018-04-28
 isOriginal: false
 author:
   - name: Hanif Jetha
-    url : https://digitalocean.com//community/users/choomigo
+    url: https://digitalocean.com//community/users/choomigo
 cover: https://community-cdn-digitalocean-com.global.ssl.fastly.net/qo9KtH9GERzVvAJKeiuSTgCi
 ---
 

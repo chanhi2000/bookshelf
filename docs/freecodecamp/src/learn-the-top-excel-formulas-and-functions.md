@@ -34,7 +34,7 @@ date: 2025-03-27
 isOriginal: false
 author:
   - name: Grant Huang (@excel.withgrant)
-    url : https://youtube.com/@excel.withgrant
+    url: https://youtube.com/@excel.withgrant
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743086651754/1f008643-281a-452a-bc45-c8247f23ddb9.png
 ---
 

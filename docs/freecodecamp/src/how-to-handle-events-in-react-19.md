@@ -27,7 +27,7 @@ date: 2024-05-13
 isOriginal: false
 author:
   - name: Matéu.sh
-    url : https://freecodecamp.org/news/author/mateush/
+    url: https://freecodecamp.org/news/author/mateush/
 cover: https://freecodecamp.org/news/content/images/2024/05/React-logo.png
 ---
 

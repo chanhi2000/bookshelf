@@ -24,7 +24,7 @@ date: 2023-07-19
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Pythons-list-Built-in-Data-Type-A-Deep-Dive-With-Examples_Watermarked.1f6291ed72f5.jpg
 ---
 
@@ -67,7 +67,7 @@ By working through this tutorial, you’ll dive deep into lists and get a solid 
 
 In addition, you’ll code some examples that showcase common use cases of lists in Python. They’ll help you understand how to better use lists in your code.
 
-To get the most out of this tutorial, you should have a good understanding of core Python concepts, including [**variables**](/realpython.com/python-variables.md), [**functions**](/realpython.com/defining-your-own-python-function.md), and [**`for` loops**](/realpython.com/python-for-loop.md). You’ll also benefit from familiarity with other built-in [**data types**](/realpython.com/python-data-types.md), such as [**strings**](/realpython.com/python-strings.md), [**tuples**](/realpython.com/python-tuple.md), [**dictionaries**](/realpython.com/python-dicts.md), and [**sets**](/realpython.com/python-sets.md).
+To get the most out of this tutorial, you should have a good understanding of core Python concepts, including [**variables**](/realpython.com/python-variables.md), [**functions**](/realpython.com/defining-your-own-python-function.md), and [**`for` loops**](/realpython.com/python-for-loop.md). You’ll also benefit from familiarity with other built-in [**data types**](/realpython.com/python-data-types.md), such as [**strings**](/realpython.com/python-strings.md), [**tuples**](/realpython.com/python-tuple.md), [**dictionaries**](/realpython.com/python-dicts.md), and [**sets**](/realpython.com/python-sets/README.md).
 
 ```component VPCard
 {

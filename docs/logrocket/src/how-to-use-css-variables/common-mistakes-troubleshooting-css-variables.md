@@ -22,7 +22,7 @@ date: 2025-03-20
 isOriginal: false
 author:
   - name: Idorenyin Obong
-    url : https://blog.logrocket.com/author/idorenyinobong/
+    url: https://blog.logrocket.com/author/idorenyinobong/
 cover: /assets/image/blog.logrocket.com/how-to-use-css-variables/banner.png
 ---
 

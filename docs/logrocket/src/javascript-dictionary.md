@@ -24,7 +24,7 @@ date: 2025-02-25
 isOriginal: false
 author:
   - name: Elijah Agbonze
-    url : https://blog.logrocket.com/author/elijahtrillionz/
+    url: https://blog.logrocket.com/author/elijahtrillionz/
 cover: /assets/image/blog.logrocket.com/javascript-dictionary/banner.png
 ---
 

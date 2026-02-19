@@ -29,7 +29,7 @@ date: 2022-12-05
 isOriginal: false
 author:
   - name: Hulya Karakaya
-    url : https://blog.logrocket.com/author/hulyakarakaya/
+    url: https://blog.logrocket.com/author/hulyakarakaya/
 cover: /assets/image/blog.logrocket.com/creating-react-context-menu/banner.png
 ---
 

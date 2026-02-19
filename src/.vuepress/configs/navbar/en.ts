@@ -138,9 +138,29 @@ export const navbarEn = navbar([
         icon: 'https://css-tip.com/img/fav.png',
         link: '/css-tip.com/README.md'
       }, {
+        text: 'css-loaders.com',
+        icon: 'https://css-loaders.com/fav.png',
+        link: '/css-loaders.com/README.md'
+      }, {
         text: 'nerdy.dev',
         icon: 'https://nerdy.dev/favicon.svg',
         link: '/nerdy.dev/README.md'
+      }, {
+        text: 'tobiasahlin.com',
+        icon: 'https://tobiasahlin.com/images/touch-icon-ipad-retina.png',
+        link: '/tobiasahlin.com/README.md'
+      }, {
+        text: '9elements.com',
+        icon: 'https://9elements.com/assets/images/meta/favicon.svg',
+        link: '/9elements.com/README.md'
+      }, {
+        text: 'css-irl.info',
+        icon: 'https://css-irl.info/favicon/apple-touch-icon.png',
+        link: '/css-irl.info/README.md'
+      }, {
+        text: 'webdevredfox.org',
+        icon: 'https://svelte.dev/favicon.png',
+        link: '/webdevredfox.org/README.md'
       }, {
         text: 'towardsdatascience.com',
         icon: 'https://cdn-images-1.medium.com/v2/resize:fill:128:128/1*VzTUkfeGymHP4Bvav-T-lA.png',

@@ -28,7 +28,7 @@ date: 2024-07-03
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://frontendmasters.com/blog/author/chriscoyier/
+    url: https://frontendmasters.com/blog/author/chriscoyier/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/2907
 ---
 

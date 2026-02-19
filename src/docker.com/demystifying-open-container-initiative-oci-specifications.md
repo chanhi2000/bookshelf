@@ -25,7 +25,7 @@ date: 2017-07-19
 isOriginal: false
 author:
   - name: Stephen Walli
-    url : https://docker.com/author/stephen-walli/
+    url: https://docker.com/author/stephen-walli/
 cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png
 ---
 

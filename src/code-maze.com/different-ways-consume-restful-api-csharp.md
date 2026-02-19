@@ -27,7 +27,7 @@ date: 2017-06-06
 isOriginal: false
 author:
   - name: Vladimir Pecanac
-    url : https://code-maze.com/author/codemaze_blog/
+    url: https://code-maze.com/author/codemaze_blog/
 cover: /assets/image/code-maze.com/different-ways-consume-restful-api-csharp/banner.png
 ---
 

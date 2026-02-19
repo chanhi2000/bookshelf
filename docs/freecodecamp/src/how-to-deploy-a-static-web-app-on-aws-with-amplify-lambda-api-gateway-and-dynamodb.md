@@ -28,7 +28,7 @@ date: 2025-07-18
 isOriginal: false
 author:
   - name: Raju Manoj
-    url : https://freecodecamp.org/news/author/rajumanoj/
+    url: https://freecodecamp.org/news/author/rajumanoj/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752792908077/abfe8200-e4bd-4c3c-892f-15847715c918.png
 ---
 

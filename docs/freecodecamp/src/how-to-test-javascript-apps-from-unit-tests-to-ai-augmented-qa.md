@@ -24,7 +24,7 @@ date: 2025-10-09
 isOriginal: false
 author:
   - name: Ajay Yadav
-    url : https://freecodecamp.org/news/author/ATechAjay/
+    url: https://freecodecamp.org/news/author/ATechAjay/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759939599135/507c5e9a-954b-497b-b3b8-c8d89b2d1a03.png
 ---
 

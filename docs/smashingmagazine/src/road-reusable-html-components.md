@@ -23,7 +23,7 @@ date: 2012-10-23
 isOriginal: false
 author:
   - name: Niels Matthijs
-    url : https://smashingmagazine.com/author/niels-matthijs/
+    url: https://smashingmagazine.com/author/niels-matthijs/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/39c47875-8de2-411a-b45e-10c9577e5640/boston-news.jpeg
 ---
 

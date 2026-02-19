@@ -24,7 +24,7 @@ date: 2025-11-05
 isOriginal: false
 author:
   - name: Shejan Mahamud
-    url : https://freecodecamp.org/news/author/Shejan-Mahamud/
+    url: https://freecodecamp.org/news/author/Shejan-Mahamud/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762210692821/651a67f9-cbe5-4f09-b048-957caaa5e1ac.png
 ---
 

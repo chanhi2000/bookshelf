@@ -32,7 +32,7 @@ date: 2025-05-08
 isOriginal: false
 author:
   - name: Hitesh Choudhary (@HiteshCodeLab)
-    url : https://youtube.com/@HiteshCodeLab
+    url: https://youtube.com/@HiteshCodeLab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746632864462/6865d2b6-8c07-424e-afd2-9200550a976d.png
 ---
 

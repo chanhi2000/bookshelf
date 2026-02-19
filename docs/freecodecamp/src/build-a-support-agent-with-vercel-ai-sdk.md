@@ -40,7 +40,7 @@ date: 2025-12-24
 isOriginal: false
 author:
   - name: Mayo Oshin (@mayowaoshin)
-    url : https://x.com/@mayowaoshin
+    url: https://x.com/@mayowaoshin
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766507669760/bf3fe42c-d729-4b59-9eca-2677e1b49e2a.jpeg
 ---
 

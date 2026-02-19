@@ -26,7 +26,7 @@ date: 2025-11-26
 isOriginal: false
 author:
   - name: Indranil Halder (@codewithindra7)
-    url : https://youtube.com/@codewithindra7
+    url: https://youtube.com/@codewithindra7
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764093380745/42ec6fe5-355a-4a0d-acb1-8e63e2b1c240.jpeg
 ---
 

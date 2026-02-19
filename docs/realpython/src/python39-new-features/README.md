@@ -24,7 +24,7 @@ date: 2020-10-05
 isOriginal: false
 author:
   - name: Geir Arne Hjelle
-    url : https://realpython.com/team/gahjelle/
+    url: https://realpython.com/team/gahjelle/
 cover: https://files.realpython.com/media/Cool-New-Features-in-Python-3.9_Watermarked.8f1cce42d5ab.jpg
 ---
 

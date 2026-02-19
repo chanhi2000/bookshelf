@@ -24,7 +24,7 @@ date: 2024-06-29
 isOriginal: false
 author:
   - name: Ihechikara Abba
-    url : https://freecodecamp.org/news/author/Ihechikara/
+    url: https://freecodecamp.org/news/author/Ihechikara/
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/_t-l5FFH8VA/upload/7dac186ffa0ba7f32d72ccf06d1d5baf.jpeg
 ---
 
@@ -61,7 +61,7 @@ In the image above, each button changes the background color of the page to a sp
 
 ::: info
 
-You can get the starter files for the project [here (<VPIcon icon="iconfont icon-github" />`ihechikara/change-bg-color-with-js`)](https://github.com/ihechikara/change-bg-color-with-js/tree/main).
+You can get the starter files for the project [here (<VPIcon icon="iconfont icon-github"/>`ihechikara/change-bg-color-with-js`)](https://github.com/ihechikara/change-bg-color-with-js/tree/main).
 
 <SiteInfo
   name="ihechikara/change-bg-color-with-js"
@@ -181,7 +181,7 @@ In this article, you learned how to change background color with JavaScript usin
 
 ::: info
 
-You can find the full project code [here (<VPIcon icon="iconfont icon-github" />`ihechikara/change-bg-color-with-js`)](https://github.com/ihechikara/change-bg-color-with-js/tree/feat/change-bg-color).
+You can find the full project code [here (<VPIcon icon="iconfont icon-github"/>`ihechikara/change-bg-color-with-js`)](https://github.com/ihechikara/change-bg-color-with-js/tree/feat/change-bg-color).
 
 <SiteInfo
   name="ihechikara/change-bg-color-with-js at feat/change-bg-color"

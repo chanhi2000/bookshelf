@@ -27,7 +27,7 @@ date: 2019-01-21
 isOriginal: false
 author:
   - name: Marinko Spasojević
-    url : https://code-maze.com/author/marinko/
+    url: https://code-maze.com/author/marinko/
 cover: /assets/image/code-maze.com/interface-segregation-principle/banner.png
 ---
 

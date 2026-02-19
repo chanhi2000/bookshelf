@@ -29,7 +29,7 @@ date: 2024-06-18
 isOriginal: false
 author:
   - name: Oluwatobi
-    url : https://freecodecamp.org/news/author/Tobilyn77/
+    url: https://freecodecamp.org/news/author/Tobilyn77/
 cover: https://freecodecamp.org/news/content/images/2024/06/microl.jpg
 ---
 

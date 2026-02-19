@@ -29,7 +29,7 @@ date: 2025-02-21
 isOriginal: false
 author:
   - name: Aman Mittal
-    url : https://blog.logrocket.com/author/amanmittal/
+    url: https://blog.logrocket.com/author/amanmittal/
 cover: /assets/image/blog.logrocket.com/best-react-native-ui-component-libraries/banner.png
 ---
 

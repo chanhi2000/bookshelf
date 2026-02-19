@@ -23,7 +23,7 @@ date: 2025-07-23
 isOriginal: false
 author:
   - name: Daniel Schwarz
-    url : https://css-tricks.com/author/danielschwarz/
+    url: https://css-tricks.com/author/danielschwarz/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/03/long-hover-icon-tooltip-cursor.jpg
 ---
 

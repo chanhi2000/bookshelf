@@ -24,7 +24,7 @@ date: 2024-08-05
 isOriginal: false
 author:
   - name: Destiny Erhabor
-    url : https://freecodecamp.org/news/author/CaesarSage/
+    url: https://freecodecamp.org/news/author/CaesarSage/
 cover: https://freecodecamp.org/news/content/images/2024/07/ferenc-almasi-HfFoo4d061A-unsplash.jpg
 ---
 

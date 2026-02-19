@@ -24,7 +24,7 @@ date: 2024-12-30
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://frontendmasters.com/blog/author/chriscoyier/
+    url: https://frontendmasters.com/blog/author/chriscoyier/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/4407
 ---
 
@@ -122,7 +122,7 @@ So what are these products?
 
 - [Astro](https://docs.astro.build/en/guides/typescript/): *“Astro ships with built-in support for[<VPIcon icon="iconfont icon-typescript"/>TypeScript](https://typescriptlang.org/). You can import`.ts`and`.tsx`files in your Astro project, write TypeScript code directly inside your[<VPIcon icon="iconfont icon-astro"/>Astro component](https://docs.astro.build/en/basics/astro-components/#the-component-script), and even use an[`astro.config.ts`](https://docs.astro.build/en/guides/configuring-astro/#the-astro-config-file)file for your Astro configuration if you like.”*
 - [<VPIcon icon="iconfont icon-nextjs"/>Next.js](https://nextjs.org/docs/pages/api-reference/config/typescript): *“Next.js comes with built-in TypeScript, automatically installing the necessary packages and configuring the proper settings”*
-- This is pretty common in UI meta frameworks… [<VPIcon icon="iconfont icon-nuxt"/>Nuxt](https://nuxt.com/docs/guide/concepts/typescript), [<VPIcon icon="fas fa-globe"/>Remix](https://remix.run/docs/hi/main/guides/typescript), [<VPIcon icon="iconfont icon-svelte"/>SvelteKit](https://svelte.dev/docs/svelte/typescript), [<VPIcon icon="fas fa-globe"/>Redwood](https://docs.redwoodjs.com/docs/typescript/introduction), etc. This, likely, is the thing that pushed other products to do the same.
+- This is pretty common in UI meta frameworks… [<VPIcon icon="iconfont icon-nuxt"/>Nuxt](https://nuxt.com/docs/guide/concepts/typescript), [<VPIcon icon="fas fa-globe"/>Remix](https://remix.run/docs/hi/main/guides/typescript), [<VPIcon icon="fa-brands fa-svelte"/>SvelteKit](https://svelte.dev/docs/svelte/typescript), [<VPIcon icon="fas fa-globe"/>Redwood](https://docs.redwoodjs.com/docs/typescript/introduction), etc. This, likely, is the thing that pushed other products to do the same.
 
 ### Runtimes
 

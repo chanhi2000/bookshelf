@@ -24,7 +24,7 @@ date: 2025-05-08
 isOriginal: false
 author:
   - name: Eda Eren
-    url : https://freecodecamp.org/news/author/edae/
+    url: https://freecodecamp.org/news/author/edae/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746625684891/6a4e2dae-a7b2-415d-a65d-be47c5d73253.png
 ---
 

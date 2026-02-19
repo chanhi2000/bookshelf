@@ -46,7 +46,7 @@ date: 2025-10-01
 isOriginal: false
 author:
   - name: Marin Todorov
-    url : https://tecmint.com/author/marintodorov89/
+    url: https://tecmint.com/author/marintodorov89/
 cover: https://tecmint.com/wp-content/uploads/2018/10/Find-and-Delete-Duplicate-Files-in-Linux.png
 ---
 

@@ -29,7 +29,7 @@ date: 2024-10-17
 isOriginal: false
 author:
   - name: Neo Ighodaro
-    url : https://blog.logrocket.com/author/nighodaro/
+    url: https://blog.logrocket.com/author/nighodaro/
 cover: /assets/image/blog.logrocket.com/understanding-redux-tutorial-examples/banner.png
 ---
 

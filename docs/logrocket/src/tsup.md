@@ -24,7 +24,7 @@ date: 2025-02-20
 isOriginal: false
 author:
   - name: Muhammed Ali
-    url : https://blog.logrocket.com/author/muhammedali/
+    url: https://blog.logrocket.com/author/muhammedali/
 cover: /assets/image/blog.logrocket.com/tsup/banner.png
 ---
 

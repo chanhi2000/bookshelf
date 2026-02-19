@@ -24,7 +24,7 @@ date: 2025-09-08
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2023/08/command-line-monitoring-tools-linux.webp
 ---
 

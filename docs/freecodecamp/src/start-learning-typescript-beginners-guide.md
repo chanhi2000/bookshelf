@@ -24,7 +24,7 @@ date: 2025-01-24
 isOriginal: false
 author:
   - name: Akande Olalekan Toheeb
-    url : https://freecodecamp.org/news/author/MuhToyyib/
+    url: https://freecodecamp.org/news/author/MuhToyyib/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737681395105/19aeca8f-e763-4833-9ac3-5c4db7d12fe7.png
 ---
 

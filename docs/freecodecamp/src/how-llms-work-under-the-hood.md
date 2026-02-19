@@ -36,7 +36,7 @@ date: 2025-10-02
 isOriginal: false
 author:
   - name: Alma Mohapatra
-    url : https://freecodecamp.org/news/author/almamohapatra/
+    url: https://freecodecamp.org/news/author/almamohapatra/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759415587363/cc861698-598b-488a-bc79-58aeb99500ea.png
 ---
 

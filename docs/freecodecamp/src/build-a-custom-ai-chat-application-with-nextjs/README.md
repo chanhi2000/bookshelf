@@ -37,7 +37,7 @@ date: 2025-10-07
 isOriginal: false
 author:
   - name: Sharvin Shah
-    url : https://freecodecamp.org/news/author/Sharvin26/
+    url: https://freecodecamp.org/news/author/Sharvin26/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759834368425/fc26010c-077e-4af9-86cd-e16f1c218560.png
 ---
 

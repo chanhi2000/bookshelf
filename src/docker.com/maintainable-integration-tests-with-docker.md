@@ -34,7 +34,7 @@ date: 2019-08-01
 isOriginal: false
 author:
   - name: Gianluca Arbezzano
-    url : https://docker.com/author/gianluca/
+    url: https://docker.com/author/gianluca/
 cover: https://docker.com/app/uploads/2019/07/markus-spiske-code-unsplash-1110x740.jpg
 ---
 

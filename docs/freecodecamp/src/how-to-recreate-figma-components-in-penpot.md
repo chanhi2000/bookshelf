@@ -27,7 +27,7 @@ date: 2025-03-27
 isOriginal: false
 author:
   - name: Fatuma Abdullahi
-    url : https://freecodecamp.org/news/author/HijabiCoder/
+    url: https://freecodecamp.org/news/author/HijabiCoder/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743028701920/ef200f8f-888d-4658-a5b0-ffa483edbdcf.png
 ---
 

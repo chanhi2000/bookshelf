@@ -25,7 +25,7 @@ date: 2025-07-01
 isOriginal: false
 author:
   - name: Manish Shivanandhan
-    url : https://freecodecamp.org/news/author/manishshivanandhan/
+    url: https://freecodecamp.org/news/author/manishshivanandhan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751324311029/630e6ee2-5e00-4341-a0be-5bd426cf87a4.png
 ---
 

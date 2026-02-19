@@ -23,7 +23,7 @@ date: 2017-12-11
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: 
 ---
 

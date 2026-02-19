@@ -23,7 +23,7 @@ date: 2026-01-15
 isOriginal: false
 author:
   - name: Eric Bailey
-    url : https://piccalil.li/author/eric-bailey
+    url: https://piccalil.li/author/eric-bailey
 cover: https://piccalil.b-cdn.net/api/og-image?slug=accessible-faux-nested-interactive-controls/
 ---
 
@@ -139,7 +139,7 @@ Without further ado, here’s a CodePen of the final result:
   slug-hash="dPGJZeO/"
   title="Accessible faux-nested interactive controls"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now, let’s break it down:
 

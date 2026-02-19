@@ -32,7 +32,7 @@ date: 2025-08-18
 isOriginal: false
 author:
   - name: Omotayo Omoyemi
-    url : https://freecodecamp.org/news/author/tayo4christ/
+    url: https://freecodecamp.org/news/author/tayo4christ/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755525484024/9f4c42e0-dbfd-4f04-9223-0a2169abd1fb.png
 ---
 

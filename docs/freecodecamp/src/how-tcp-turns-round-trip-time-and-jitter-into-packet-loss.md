@@ -27,7 +27,7 @@ date: 2026-02-05
 isOriginal: false
 author:
   - name: Syeda Maham Fahim
-    url : https://freecodecamp.org/news/author/syedamahamfahim/
+    url: https://freecodecamp.org/news/author/syedamahamfahim/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770224386950/ceeafb62-ae8c-4c70-8239-91ba835b85b7.png
 ---
 

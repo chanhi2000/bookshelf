@@ -27,7 +27,7 @@ date: 2025-06-20
 isOriginal: false
 author:
   - name: Tooba Jamal
-    url : https://freecodecamp.org/news/author/toobaj/
+    url: https://freecodecamp.org/news/author/toobaj/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750347297168/f873d57d-22e5-4cbb-bda9-ca24861db09d.png
 ---
 

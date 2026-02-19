@@ -29,7 +29,7 @@ date: 2025-01-24
 isOriginal: false
 author:
   - name: Oluwatobi
-    url : https://freecodecamp.org/news/author/Tobilyn77/
+    url: https://freecodecamp.org/news/author/Tobilyn77/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737681497302/0540f730-f1c3-496c-bd47-912fdc95d468.png
 ---
 

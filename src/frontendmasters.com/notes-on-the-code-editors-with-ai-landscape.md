@@ -34,7 +34,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 ```component VPCard
 {
-  "title": "VSCode > Article(s)",
+  "title": "Visual Studio Code > Article(s)",
   "desc": "Article(s)",
   "link": "/tool/vscode/articles/README.md",
   "logo": "/images/ico-wind.svg",

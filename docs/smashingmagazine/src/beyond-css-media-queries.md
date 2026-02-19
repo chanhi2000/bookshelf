@@ -23,7 +23,7 @@ date: 2024-05-16
 isOriginal: false
 author:
   - name: Juan Diego Rodríguez
-    url : https://smashingmagazine.com/author/juan-diego-rodriguez/
+    url: https://smashingmagazine.com/author/juan-diego-rodriguez/
 cover: https://files.smashing.media/articles/beyond-css-media-queries/beyond-css-media-queries.jpg
 ---
 

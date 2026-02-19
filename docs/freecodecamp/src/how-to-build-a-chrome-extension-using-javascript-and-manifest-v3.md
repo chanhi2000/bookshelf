@@ -32,7 +32,7 @@ date: 2025-10-29
 isOriginal: false
 author:
   - name: Hitesh Chauhan
-    url : https://freecodecamp.org/news/author/hiteshchauhan2023/
+    url: https://freecodecamp.org/news/author/hiteshchauhan2023/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761670419000/13ac96ca-6e28-413f-a0e0-56ed353a007c.png
 ---
 

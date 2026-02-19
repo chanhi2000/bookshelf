@@ -25,7 +25,7 @@ date: 2025-07-29
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2021/09/secure-file-transfer-sftp-linux.webp
 ---
 

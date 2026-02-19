@@ -35,7 +35,7 @@ date: 2025-02-05
 isOriginal: false
 author:
   - name: Hussain Arif
-    url : https://blog.logrocket.com/author/hussain-arif/
+    url: https://blog.logrocket.com/author/hussain-arif/
 cover: /assets/image/blog.logrocket.com/best-ci-cd-tools-react-native/banner.png
 ---
 

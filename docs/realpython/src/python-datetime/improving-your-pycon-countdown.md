@@ -22,7 +22,7 @@ date: 2020-05-04
 isOriginal: false
 author:
   - name: Bryan Weber
-    url : https://realpython.com/team/bweber/
+    url: https://realpython.com/team/bweber/
 cover: https://files.realpython.com/media/How-to-Use-Python-datetime-With-Examples_Watermarked.2676ca0aacf2.jpg
 ---
 
@@ -63,7 +63,7 @@ countdown = PYCON_DATE - now
 print(f"Countdown to PyCon US 2021: {countdown}")
 ```
 
-In this code, you [**import**](/realpython.com/python-import.md) `parser` and `tz` from `dateutil` and `datetime` from `datetime`. Next, you use `parser.parse()` to read the date of the next PyCon US from a string. This is much more readable than the plain `datetime` constructor.
+In this code, you [**import**](/realpython.com/python-import/README.md) `parser` and `tz` from `dateutil` and `datetime` from `datetime`. Next, you use `parser.parse()` to read the date of the next PyCon US from a string. This is much more readable than the plain `datetime` constructor.
 
 `parser.parse()` returns a naive `datetime` instance, so you use `.replace()` to change the `tzinfo` to the `America/New_York` time zone. PyCon US 2021 will take place in Pittsburgh, Pennsylvania, which is in the US Eastern time zone. The canonical name for that time zone is `America/New_York` since New York City is the largest city in the time zone.
 

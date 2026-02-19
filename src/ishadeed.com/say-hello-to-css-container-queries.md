@@ -23,7 +23,7 @@ date: 2021-04-13
 isOriginal: false
 author:
   - name: Ahmed Shadeed
-    url : https://ishadeed.com/about/
+    url: https://ishadeed.com/about/
 cover: https://ishadeed.com/assets/cq/twitter-card-1.jpg
 ---
 

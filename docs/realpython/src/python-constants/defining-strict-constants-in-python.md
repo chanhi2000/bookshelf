@@ -23,7 +23,7 @@ date: 2025-01-19
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Python-Constants_Watermarked.4cc3aa373268.jpg
 ---
 

@@ -23,7 +23,7 @@ date: 2024-07-13
 isOriginal: false
 author:
   - name: Anjan Baradwaj
-    url : https://freecodecamp.org/news/author/anjanbaradwaj/
+    url: https://freecodecamp.org/news/author/anjanbaradwaj/
 cover: https://freecodecamp.org/news/content/images/2024/06/safety.png
 ---
 

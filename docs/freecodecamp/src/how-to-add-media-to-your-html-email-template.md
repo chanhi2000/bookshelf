@@ -23,7 +23,7 @@ date: 2024-04-24
 isOriginal: false
 author:
   - name: Fanny Nyayic
-    url : https://freecodecamp.org/news/author/nyayicfanny/
+    url: https://freecodecamp.org/news/author/nyayicfanny/
 cover: https://freecodecamp.org/news/content/images/2024/04/Add-Media-to-Your-HTML-Email-Template.png
 ---
 

@@ -23,7 +23,7 @@ date: 2025-09-26
 isOriginal: false
 author:
   - name: John Rhea
-    url : https://css-tricks.com/author/johnrhea/
+    url: https://css-tricks.com/author/johnrhea/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/09/gemini-button.png
 ---
 

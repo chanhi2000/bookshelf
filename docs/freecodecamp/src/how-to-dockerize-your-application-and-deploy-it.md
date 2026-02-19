@@ -32,7 +32,7 @@ date: 2026-02-06
 isOriginal: false
 author:
   - name: Manish Shivanandhan
-    url : https://freecodecamp.org/news/author/manishshivanandhan/
+    url: https://freecodecamp.org/news/author/manishshivanandhan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770331734345/d53fdc31-231b-4194-96e2-efcec036cfb2.png
 ---
 
@@ -121,7 +121,7 @@ The backend depends on Python packages like FastAPI, LangChain, and the OpenAI c
 
 From Docker’s point of view, this is a typical Python web service. That makes it an ideal candidate for containerization.
 
-At this stage, you should clone the [project repository (<VPIcon icon="iconfont icon-github" />`manishmshiva/loganalyzer`)](https://github.com/manishmshiva/loganalyzer) to your local machine. You can run the app using the command `python app.py`
+At this stage, you should clone the [project repository (<VPIcon icon="iconfont icon-github"/>`manishmshiva/loganalyzer`)](https://github.com/manishmshiva/loganalyzer) to your local machine. You can run the app using the command `python app.py`
 
 ---
 

@@ -24,7 +24,7 @@ date: 2022-03-09
 isOriginal: false
 author:
   - name: Maciej Cieślar
-    url : https://blog.logrocket.com/author/maciejcieslar/
+    url: https://blog.logrocket.com/author/maciejcieslar/
 cover: /assets/image/blog.logrocket.com/copy-objects-in-javascript-complete-guide/banner.png
 ---
 

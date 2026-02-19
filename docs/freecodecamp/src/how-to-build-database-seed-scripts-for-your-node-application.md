@@ -29,7 +29,7 @@ date: 2025-07-29
 isOriginal: false
 author:
   - name: Tope Fasasi
-    url : https://freecodecamp.org/news/author/TemiTope1/
+    url: https://freecodecamp.org/news/author/TemiTope1/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753746696472/4a181d0a-5e11-4603-ac27-151d16a6bbf4.png
 ---
 

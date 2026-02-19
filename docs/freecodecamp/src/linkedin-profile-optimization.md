@@ -26,7 +26,7 @@ date: 2023-10-03
 isOriginal: false
 author:
   - name: Michael Larocca
-    url : https://freecodecamp.org/news/author/MichaelJudeLarocca/
+    url: https://freecodecamp.org/news/author/MichaelJudeLarocca/
 cover: https://freecodecamp.org/news/content/images/2023/10/FFC-01-NEW.png
 ---
 

@@ -32,7 +32,7 @@ date: 2024-04-29
 isOriginal: false
 author:
   - name: Jakub T. Jankiewicz
-    url : https://freecodecamp.org/news/author/jcubic/
+    url: https://freecodecamp.org/news/author/jcubic/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730895455049/8fefc48c-761d-4ec5-8f60-b6eb2f97a42a.png
 ---
 

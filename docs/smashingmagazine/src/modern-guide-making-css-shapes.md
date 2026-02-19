@@ -23,7 +23,7 @@ date: 2024-10-07
 isOriginal: false
 author:
   - name: Temani Afif
-    url : https://smashingmagazine.com/author/temani-afif/
+    url: https://smashingmagazine.com/author/temani-afif/
 cover: https://files.smashing.media/articles/modern-guide-making-css-shapes/modern-guide-making-css-shapes.jpg
 ---
 
@@ -111,7 +111,7 @@ Let’s start with one of the easiest shapes; the hexagon. We first define the s
   slug-hash="JjVJJbG"
   title="Hexagon shape using clip-path"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Easy, right? But what if I told you that there’s an even *easier* way to do it? Instead of six points, we can get by with just four.
 
@@ -157,7 +157,7 @@ What we get is a new variation of the hexagon:
   slug-hash="BaEZrrP"
   title="Another variation of the hexagon shape"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Swapping the X and Y values will make a kind of switch between the vertical and horizontal axes, which will help to get a different shape. Note that I have also updated the ratio to `1/cos(30deg)` instead of `cos(30deg)`. Since we are switching both axes, the new ratio needs to be equal to its inverse, i.e., `R` (or `R/1`) becomes `1/R`.
 
@@ -168,7 +168,7 @@ And since our CSS is nothing more than a single style rule on a single selector,
   slug-hash="KKEMjxV"
   title="CSS-only hexagon shapes (the modern way)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There we go, our first shape! We are also walking away with two valuable lessons about creating shapes with CSS:
 
@@ -212,7 +212,7 @@ And, of course, we can apply this shape to an `<img>` element as easily as we ca
   slug-hash="LYaxqEg"
   title="CSS-only octagon shapes (the modern way)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There’s actually more we can do to optimize our code. Consider the following:
 
@@ -232,7 +232,7 @@ clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%) margin-box;
   slug-hash="ZEZrLmr"
   title="Octagon shape with margin-box"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The most obvious difference is that the variable containing the math function (`--o`) is removed, and we have a new one, `--w`, for setting the shape’s dimensions.
 
@@ -270,7 +270,7 @@ If you don’t want the extra margin, you can add padding instead and apply the 
   slug-hash="oNOOWqz"
   title="Different shapes using the same polygon"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Stars
 
@@ -306,7 +306,7 @@ Here’s how those five points translate to CSS:
   slug-hash="NWmvBeL"
   title="Star shape using clip-path"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I am using trigonometric functions again for accuracy without resorting to magic numbers, but even if we calculate the values, the code is still better than the traditional 10-point approach:
 
@@ -405,7 +405,7 @@ Here’s the `mask` working on both a `<div>` and `<img>`:
   slug-hash="OJGgGve"
   title="Hole shape"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s here that I’d like to call out yet another lesson for creating shapes in CSS: **The colors we use in gradients are completely unimportant when working with `mask`.**
 
@@ -420,7 +420,7 @@ And with a simple `radial-gradient`, we can achieve a lot of shapes, like cuttin
   slug-hash="MWRvBOL"
   title="Circular cut from the top & bottom"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s change it up and make the cut from the top and the bottom edges at the same time:
 
@@ -429,7 +429,7 @@ Let’s change it up and make the cut from the top and the bottom edges at the s
   slug-hash="WNWEKdy"
   title="Circular Cut at top and bottom"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If we give the gradient an explicit size, then it will repeat, resulting in yet another fancy shape, a scooped border:
 
@@ -438,7 +438,7 @@ If we give the gradient an explicit size, then it will repeat, resulting in yet 
   slug-hash="eYoEjVa"
   title="Scooped edges from top and bottom"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Rather than dissecting the code for that last example, I want you to peek at the CSS and see for yourself how the `radial-gradient` is configured. You will notice that we went from a simple hole to a fancy border decoration by making only a few changes.
 
@@ -460,7 +460,7 @@ Be sure to make it to the end of the second article to see how this technique ca
   slug-hash="vYddpzK"
   title="CSS only pattern"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Rounded Arcs
 
@@ -500,7 +500,7 @@ radial-gradient(50% 50%, #0000 calc(100% - var(--b)), #000 0 98%, #0000)
   slug-hash="eYoEpom"
   title="Progress circle using mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Even if the code looks a bit complex at first glance, the use of CSS variables makes things easier to adjust. That’s an important CSS technique I am using in most of [<VPIcon icon="fas fa-globe"/>the shapes I have created](https://css-shape.com/). Many of them require complex formulas and a lot of gradients, but in the end, all you have to do is adjust a few variables to control the shape. So, let’s not spend too much time explaining the math expressions. I want to focus on the tricks and techniques because the CSS concepts are what is important; remember, you can always grab the math. How CSS uses it is key.
 
@@ -533,7 +533,7 @@ Sure, there are two more variables using this approach, but I did simplify the o
   slug-hash="WNWErpV"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Dashed Circles
 
@@ -544,7 +544,7 @@ We can produce additional circular shapes with dashed edges using the same code 
   slug-hash="KKvjjZN"
   title="Dashed border"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This time we’re combining two gradients in our `mask`. One is a black-to-transparent `repeating-conic-gradient` and the other is a transparent `linear-gradient` configured to cover the element up to its `content-box` and the `mask-composite` property is set to `intersect`.
 
@@ -634,7 +634,7 @@ I’ll throw in two additional variations for you to investigate:
   slug-hash="JjVpPmr"
   title="Rounded tab using CSS mask"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I’m often asked how I know when my code can be optimized more than it is. That’s truly the most difficult part of everything we’ve covered so far. I do not have any hard rules for how and when to optimize, and it’s not necessary to find the optimal solution, especially if you are a beginner. My advice is to first find the trivial and easy solution, even if it requires a lot of gradients. Then, with a lot of practice, you will be able to find better solutions.
 
@@ -677,7 +677,7 @@ But we can get even further by adding more points to have border-only variations
   slug-hash="XWGzJpP"
   title="border-only triangle shapes"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Or combine `clip-path` and `mask` to get rounded corner variations:
 
@@ -686,7 +686,7 @@ Or combine `clip-path` and `mask` to get rounded corner variations:
   slug-hash="QWovwoW"
   title="Rounded triangles (the modern way)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Please check out my article “[<VPIcon icon="fas fa-globe"/>CSS Shapes: The Triangle](https://verpex.com/blog/css-shapes-the-triangle)” on the Verpex blog for a full explanation of techniques with many examples and variations.
 
@@ -710,7 +710,7 @@ Hearts are another classic shape that’s been tackled with [**older CSS techniq
   slug-hash="MWPOJpP"
   title="Heart shape using border-image"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Or use `mask-border` instead of `border-image` to transform images into hearts:
 
@@ -719,7 +719,7 @@ Or use `mask-border` instead of `border-image` to transform images into hearts:
   slug-hash="PoRwjPM"
   title="CSS only heart images"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The full explanation with additional examples is available in my article “[<VPIcon icon="fas fa-globe"/>CSS Shapes: The Heart](https://verpex.com/blog/css-shapes-the-heart)” over at the Verpex blog.
 
@@ -791,7 +791,7 @@ The technique is all about setting the CSS clip-path property with the shape’s
   slug-hash="gOJvdav"
   title="“Cut-out shapes using clip-path”"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 My article titled [<VPIcon icon="fas fa-globe"/>“How To Create Cut-Out Shapes using The clip-path property”](https://verpex.com/blog/how-to-create-cut-out-shapes-using-the-clip-path-property) provides the details in full.
 
@@ -818,14 +818,14 @@ See my article [<VPIcon icon="fas fa-globe"/>“How to create Shapes with Inner 
   slug-hash="XWLJrWE"
   title="“Inverted border-radius using CSS mask”"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="t_afif"
   slug-hash="oNrMJXL"
   title="“Fancy avatar header with hover effect”"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Floral Shapes
 
@@ -844,7 +844,7 @@ Here is a demo where I am using such shapes to create [**a fancy hover effect**]
   slug-hash="qBQzrwq"
   title="Fancy Pop Out hover effect!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There’s a lot of math involved with this, specifically trigonometric functions. I have a two-part series that gets into the weeds if you’re interested in that side of things:
 
@@ -877,21 +877,21 @@ And here are a few demos where I am decorating images:
   slug-hash="gbYBPma"
   title="“Images inside wiggly boxes”"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="t_afif"
   slug-hash="EaYedaY"
   title="Images inside wavy boxes"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="t_afif"
   slug-hash="OJGBvmp"
   title="CSS-only Zig-Zag box"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

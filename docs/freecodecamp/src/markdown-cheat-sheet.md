@@ -24,7 +24,7 @@ date: 2022-02-11
 isOriginal: false
 author:
   - name: Zaira Hira
-    url : https://freecodecamp.org/news/author/zaira/
+    url: https://freecodecamp.org/news/author/zaira/
 cover: https://freecodecamp.org/news/content/images/size/w2000/2022/01/Copy-of-Copy-of-Cron-jobs-Linux.png
 ---
 

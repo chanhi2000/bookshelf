@@ -32,7 +32,7 @@ date: 2025-05-28
 isOriginal: false
 author:
   - name: Ijeoma Igboagu
-    url : https://freecodecamp.org/news/author/Ijay/
+    url: https://freecodecamp.org/news/author/Ijay/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748382386996/10b7c32c-f456-4717-b37c-b1668565bede.png
 ---
 

@@ -23,7 +23,7 @@ date: 2012-06-19
 isOriginal: false
 author:
   - name: Heydon Pickering
-    url : https://smashingmagazine.com/author/heydon-pickering/
+    url: https://smashingmagazine.com/author/heydon-pickering/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/80957ac4-7fde-4078-b0dd-9763645f25b8/css-tricks-illu-101.jpg
 ---
 

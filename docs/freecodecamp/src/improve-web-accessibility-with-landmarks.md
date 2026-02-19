@@ -23,7 +23,7 @@ date: 2025-08-06
 isOriginal: false
 author:
   - name: Ilknur Eren
-    url : https://freecodecamp.org/news/author/ilknureren/
+    url: https://freecodecamp.org/news/author/ilknureren/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754425989581/1302898e-439b-4666-af27-cf1b091c6975.png
 ---
 

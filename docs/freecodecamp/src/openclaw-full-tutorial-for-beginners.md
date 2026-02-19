@@ -33,7 +33,7 @@ date: 2026-02-06
 isOriginal: false
 author:
   - name: Kian Kyars (@neuralkian)
-    url : https://kiankyars.github.io/openclawcourse/
+    url: https://kiankyars.github.io/openclawcourse/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770310153117/f090efe2-ee69-44b6-890d-9158c914c389.jpeg
 ---
 

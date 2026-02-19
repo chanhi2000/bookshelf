@@ -25,7 +25,7 @@ date: 2015-12-18
 isOriginal: false
 author:
   - name: Michael Crosby
-    url : https://docker.com/author/michael/
+    url: https://docker.com/author/michael/
 cover: https://docker.com/app/uploads/2015/12/containerd-300x196.png
 ---
 

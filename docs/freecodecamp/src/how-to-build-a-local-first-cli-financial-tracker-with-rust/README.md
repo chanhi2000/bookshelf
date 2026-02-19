@@ -24,7 +24,7 @@ date: 2026-01-10
 isOriginal: false
 author:
   - name: Stephen Emmanuel
-    url : https://freecodecamp.org/news/author/stephcrown/
+    url: https://freecodecamp.org/news/author/stephcrown/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767998415383/82c48f39-cd5e-4f66-af83-2b65bafccd65.png
 ---
 
@@ -2026,7 +2026,7 @@ Consider implementing these features to enhance the tool:
 - **Describe**: Create a command that uses terminal plotting libraries to generate visual charts of your spending patterns.
 - **Enhanced Output Formatting**: Update <VPIcon icon="fas fa-folder-open"/>`src/output.rs` with libraries like `colored` or `tabled` to add colors and professional borders to your terminal summaries.
 
-You can find the complete implementation of `fintrack` with all features, including advanced output formatting, export functionality, and more, in the [GitHub repository (<VPIcon icon="iconfont icon-github" />`steph-crown/fintrack`)](https://github.com/steph-crown/fintrack). The repository also includes installation instructions for downloading the binary or installing via Cargo.
+You can find the complete implementation of `fintrack` with all features, including advanced output formatting, export functionality, and more, in the [GitHub repository (<VPIcon icon="iconfont icon-github"/>`steph-crown/fintrack`)](https://github.com/steph-crown/fintrack). The repository also includes installation instructions for downloading the binary or installing via Cargo.
 
 ---
 

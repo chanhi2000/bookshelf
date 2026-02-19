@@ -27,7 +27,7 @@ date: 2025-11-22
 isOriginal: false
 author:
   - name: Mari
-    url : https://freecodecamp.org/news/author/Techgirlll/
+    url: https://freecodecamp.org/news/author/Techgirlll/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763759552021/cc57d91b-c2b9-4a40-8bb9-52c517dbbc35.png
 ---
 

@@ -27,7 +27,7 @@ date: 2025-09-17
 isOriginal: false
 author:
   - name: Grant Riordan
-    url : https://freecodecamp.org/news/author/grantdotdev/
+    url: https://freecodecamp.org/news/author/grantdotdev/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757595108095/f7bd2673-3da5-4f34-8541-64cc8129fe96.jpeg
 ---
 

@@ -23,7 +23,7 @@ date: 2025-03-02
 isOriginal: false
 author:
   - name: Jacob Stopak
-    url : https://freecodecamp.org/news/author/initialcommit/
+    url: https://freecodecamp.org/news/author/initialcommit/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740686401633/ffd9ac3c-668a-47bf-b2ba-f7cee14e74a8.webp
 ---
 

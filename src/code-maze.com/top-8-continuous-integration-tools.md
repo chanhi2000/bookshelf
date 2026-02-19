@@ -49,7 +49,7 @@ date: 2016-02-20
 isOriginal: false
 author:
   - name: Vladimir Pecanac
-    url : https://code-maze.com/author/codemaze_blog/
+    url: https://code-maze.com/author/codemaze_blog/
 cover: /assets/image/code-maze.com/top-8-continuous-integration-tools/banner.png
 ---
 

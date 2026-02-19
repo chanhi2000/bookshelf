@@ -29,7 +29,7 @@ date: 2022-04-06
 isOriginal: false
 author:
   - name: German Cocca
-    url : https://freecodecamp.org/news/author/GerCocca/
+    url: https://freecodecamp.org/news/author/GerCocca/
 cover: https://freecodecamp.org/news/content/images/2022/03/pexels-pixabay-207580.jpg
 ---
 

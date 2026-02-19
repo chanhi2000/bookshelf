@@ -32,7 +32,7 @@ date: 2025-05-14
 isOriginal: false
 author:
   - name: Shant Dashjian
-    url : https://scrimba.com/intro-to-vite-c03p6pbbdq
+    url: https://scrimba.com/intro-to-vite-c03p6pbbdq
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747234316384/0c05bb05-f21e-418e-9e07-7e30df74f674.png
 ---
 

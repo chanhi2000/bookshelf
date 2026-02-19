@@ -23,7 +23,7 @@ date: 2021-02-23
 isOriginal: false
 author:
   - name: Bramus!
-    url : https://bram.us/author/bramus/
+    url: https://bram.us/author/bramus/
 cover: https://bram.us/wordpress/wp-content/uploads/2021/02/css-scroll-timeline-parallax-cover-to-sticky-header-short-10fps.gif
 ---
 

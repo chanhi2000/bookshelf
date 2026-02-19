@@ -23,7 +23,7 @@ date: 2019-07-28
 isOriginal: false
 author:
   - name: Sarah Drasner
-    url : https://css-tricks.com/author/sdrasner/
+    url: https://css-tricks.com/author/sdrasner/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2016/02/scroll-snap-align-1.jpg
 ---
 

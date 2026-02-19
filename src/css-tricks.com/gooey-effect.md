@@ -23,7 +23,7 @@ date: 2019-02-22
 isOriginal: false
 author:
   - name: Lucas Bebber
-    url : https://css-tricks.com/author/lucasbebber/
+    url: https://css-tricks.com/author/lucasbebber/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2015/02/artifacts-on-edges.png
 ---
 

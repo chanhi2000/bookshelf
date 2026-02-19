@@ -29,7 +29,7 @@ date: 2024-09-25
 isOriginal: false
 author:
   - name: Juan Cruz Martinez
-    url : https://blog.logrocket.com/author/juancruzmartinez/
+    url: https://blog.logrocket.com/author/juancruzmartinez/
 cover: /assets/image/blog.logrocket.com/how-when-to-force-react-component-re-render/banner.avif
 ---
 

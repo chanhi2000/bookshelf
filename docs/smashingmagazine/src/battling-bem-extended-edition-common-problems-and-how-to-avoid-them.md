@@ -23,7 +23,7 @@ date: 2016-06-01
 isOriginal: false
 author:
   - name: David Berner
-    url : https://smashingmagazine.com/author/davidberner/
+    url: https://smashingmagazine.com/author/davidberner/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c5ff1e9d-e791-4004-ac3e-106377c999fc/bem-website-tools-opt.png
 ---
 

@@ -31,7 +31,7 @@ date: 2014-02-22
 isOriginal: false
 author:
   - name: ostezer
-    url : https://digitalocean.com/community/users/ostezer
+    url: https://digitalocean.com/community/users/ostezer
 cover: https://digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg
 ---
 
@@ -126,7 +126,7 @@ Storing integers in a database is more nuanced than putting numbers in a table. 
 - `NOT NULL`: This constraint ensures that a column doesn’t have any `NULL` entries.
 - `PRIMARY KEY`: A combination of `UNIQUE` and `NOT NULL`, the `PRIMARY KEY` constraint ensures that no entry in the column is `NULL` and that every entry is distinct.
 - `FOREIGN KEY`: A `FOREIGN KEY` is a column in one table that refers to the `PRIMARY KEY` of another table. This constraint is used to link two tables together. Entries to the `FOREIGN KEY` column must already exist in the parent `PRIMARY KEY` column for the write process to succeed.
-- `CHECK`: This constraint limits the range of values that can be entered into a column. For example, if your application is intended only for residents of Alaska, you could add a `CHECK` constraint on a ZIP code column to only allow entries between 99501 and 99950. If you’d like to learn more about database management systems, check out our article on [**A Comparison of NoSQL Database Management Systems and Models**](/digitalocrean.com/a-comparison-of-nosql-database-management-systems-and-models.md).
+- `CHECK`: This constraint limits the range of values that can be entered into a column. For example, if your application is intended only for residents of Alaska, you could add a `CHECK` constraint on a ZIP code column to only allow entries between 99501 and 99950. If you’d like to learn more about database management systems, check out our article on [**A Comparison of NoSQL Database Management Systems and Models**](/digitalocean.com/a-comparison-of-nosql-database-management-systems-and-models.md).
 
 Now that we’ve covered relational database management systems generally, let’s move onto the first of the three open-source relational databases this article will cover: SQLite.
 
@@ -284,7 +284,7 @@ PostgreSQL, also known as Postgres, bills itself as “the most advanced open-so
 
 Postgres is capable of efficiently handling multiple tasks at the same time, a characteristic known as *concurrency*. It achieves this without read locks thanks to its implementation of [<VPIcon icon="fa-brands fa-wikipedia-w"/>Multiversion Concurrency Control (MVCC)](https://en.wikipedia.org/wiki/Multiversion_concurrency_control), which ensures the atomicity, consistency, isolation, and durability of its transactions, also known as ACID compliance.
 
-PostgreSQL isn’t as widely used as MySQL, but there are still a number of third-party tools and libraries designed to simplify working with with PostgreSQL, including [<VPIcon icon="iconfont icon-postgresql"/>pgAdmin](https://pgadmin.org/) and [Postbird (<VPIcon icon="iconfont icon-github" />`paxa/postbird`)](https://github.com/paxa/postbird).
+PostgreSQL isn’t as widely used as MySQL, but there are still a number of third-party tools and libraries designed to simplify working with with PostgreSQL, including [<VPIcon icon="iconfont icon-postgresql"/>pgAdmin](https://pgadmin.org/) and [Postbird (<VPIcon icon="iconfont icon-github"/>`paxa/postbird`)](https://github.com/paxa/postbird).
 
 ### PostgreSQL’s Supported Data Types
 

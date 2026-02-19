@@ -30,7 +30,7 @@ date: 2025-09-19
 isOriginal: false
 author:
   - name: Ervis Trupja (@DotNetHow)
-    url : https://youtube.com/@DotNetHow
+    url: https://youtube.com/@DotNetHow
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758215813120/d8affc4d-1d5b-4a48-afe4-3f8f83c519b4.png
 ---
 

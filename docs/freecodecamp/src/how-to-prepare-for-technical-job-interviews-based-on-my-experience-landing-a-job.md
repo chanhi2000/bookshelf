@@ -28,7 +28,7 @@ date: 2025-12-25
 isOriginal: false
 author:
   - name: Ilyas Seisov
-    url : https://freecodecamp.org/news/author/ilyasseisov/
+    url: https://freecodecamp.org/news/author/ilyasseisov/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766597367293/515dd71a-fb65-4508-bdd2-39b103ddb438.png
 ---
 

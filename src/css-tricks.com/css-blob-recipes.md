@@ -23,7 +23,7 @@ date: 2025-06-27
 isOriginal: false
 author:
   - name: Juan Diego Rodríguez
-    url : https://css-tricks.com/author/monknow/
+    url: https://css-tricks.com/author/monknow/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/06/blobs-cover.webp
 ---
 
@@ -88,7 +88,7 @@ For example, this is one I generated just now. Keep it around, as it will come i
 
 ## Using `border-radius`
 
-While counterintuitive, we can use the [<VPIcon icon="iconfont icon-css-tricks"/>`border-radius`](https://css-tricks.com/almanac/properties/b/border-radius/)` property to create blobs. This technique isn’t new by any means; it was [<VPIcon icon="fas fa-globe"/>first described by Nils Binder](https://9elements.com/blog/css-border-radius-can-do-that/) in 2018, but it is still fairly unknown. Even for those who use it, the inner workings are not entirely clear.
+While counterintuitive, we can use the [**`border-radius`**](/css-tricks.com/almanac-properties/border-radius.md)` property to create blobs. This technique isn’t new by any means; it was [**first described by Nils Binder**](/9elements.com/css-border-radius-can-do-that.md) in 2018, but it is still fairly unknown. Even for those who use it, the inner workings are not entirely clear.
 
 To start, you may know the `border-radius` is a shorthand to each individual corner’s radius, going from the top left corner clockwise. For example, we can set each corner’s `border-radius` to get a bubbly square shape:
 

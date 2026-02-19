@@ -38,7 +38,7 @@ date: 2026-01-07
 isOriginal: false
 author:
   - name: Rola Dali, PhD
-    url : https://linkedin.com/in/roladali/
+    url: https://linkedin.com/in/roladali/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767719466805/ea83b0f9-fdba-418b-b6a8-f6be955ecc53.png
 ---
 

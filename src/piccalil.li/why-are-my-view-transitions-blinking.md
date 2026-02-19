@@ -26,7 +26,7 @@ date: 2025-12-11
 isOriginal: false
 author:
   - name: Miguel Pimentel
-    url : https://piccalil.li/author/miguel-pimentel
+    url: https://piccalil.li/author/miguel-pimentel
 cover: https://piccalil.b-cdn.net/api/og-image?slug=why-are-my-view-transitions-blinking/
 ---
 

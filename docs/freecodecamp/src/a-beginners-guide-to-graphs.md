@@ -30,7 +30,7 @@ date: 2025-06-03
 isOriginal: false
 author:
   - name: Tilda Udufo
-    url : https://freecodecamp.org/news/author/tildaudufo/
+    url: https://freecodecamp.org/news/author/tildaudufo/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748879365710/23d7601e-cde0-489b-a843-97190e58e5c9.png
 ---
 

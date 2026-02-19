@@ -25,7 +25,7 @@ date: 2025-04-12
 isOriginal: false
 author:
   - name: Adalbert Pungu
-    url : https://freecodecamp.org/news/author/AdalbertPungu/
+    url: https://freecodecamp.org/news/author/AdalbertPungu/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744399481891/de5db16a-2eea-46d8-820d-50c1e66d5019.png
 ---
 

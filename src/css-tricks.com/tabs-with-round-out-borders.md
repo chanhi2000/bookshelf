@@ -23,7 +23,7 @@ date: 2011-09-04
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://css-tricks.com/author/chriscoyier/
+    url: https://css-tricks.com/author/chriscoyier/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2011/09/roundouttabs.png
 ---
 
@@ -90,7 +90,7 @@ A class of `active` indicates which tab reflects the current page.
 
 ## How this is going down
 
-The reason this is tricky is that we need a shape to stick out of the tab element. To get this done while keeping our markup clean, we’ll use pseudo elements. If you need a refresher, you can learn about them [<VPIcon icon="iconfont icon-css-tricks"/>here](https://css-tricks.com/video-screencasts/94-intro-to-pseudo-elements/) and [**here**](css-tricks.com/pseudo-element-roundup.md). Essentially, they can add extra elements to the page that we can style, directly through CSS. Every element can have two – `:before` and `:after`. Ultimately we’ll be using four per tab, which is possible because each tab is make from two elements, the list item and the anchor link.
+The reason this is tricky is that we need a shape to stick out of the tab element. To get this done while keeping our markup clean, we’ll use pseudo elements. If you need a refresher, you can learn about them [<VPIcon icon="iconfont icon-css-tricks"/>here](https://css-tricks.com/video-screencasts/94-intro-to-pseudo-elements/) and [**here**](/css-tricks.com/pseudo-element-roundup.md). Essentially, they can add extra elements to the page that we can style, directly through CSS. Every element can have two – `:before` and `:after`. Ultimately we’ll be using four per tab, which is possible because each tab is make from two elements, the list item and the anchor link.
 
 Let’s visualize this step by step, without looking out any code just yet.
 

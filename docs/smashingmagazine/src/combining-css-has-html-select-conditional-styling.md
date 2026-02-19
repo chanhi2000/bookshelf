@@ -23,7 +23,7 @@ date: 2024-05-02
 isOriginal: false
 author:
   - name: Amit Sheen
-    url : https://smashingmagazine.com/author/amit-sheen/
+    url: https://smashingmagazine.com/author/amit-sheen/
 cover: https://files.smashing.media/articles/combining-css-has-html-select-conditional-styling/combining-css-has-html-select-conditional-styling.jpg
 ---
 

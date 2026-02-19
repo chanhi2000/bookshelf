@@ -23,7 +23,7 @@ date: 2025-02-19
 isOriginal: false
 author:
   - name: Oscar Jite-Orimiono
-    url : https://blog.logrocket.com/author/oscarjiteorimiono/
+    url: https://blog.logrocket.com/author/oscarjiteorimiono/
 cover: /assets/image/blog.logrocket.com/box-shadow-css/banner.png
 ---
 

@@ -27,7 +27,7 @@ date: 2026-01-07
 isOriginal: false
 author:
   - name: Miguel Gafos
-    url : https://kreisklang.com/
+    url: https://kreisklang.com/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767718966641/3d1b66bc-19ad-4cdb-bcf9-9119c81f89f3.png
 ---
 

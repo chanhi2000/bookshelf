@@ -25,7 +25,7 @@ date: 2020-07-03
 isOriginal: false
 author:
   - name: Anjolaoluwa Adebayo-Oyetoro
-    url : https://blog.logrocket.com/author/anjolaoluwaadebayooyetoro/
+    url: https://blog.logrocket.com/author/anjolaoluwaadebayooyetoro/
 cover: /assets/image/blog.logrocket.com/getting-started-with-vite/banner.webp
 ---
 

@@ -23,7 +23,7 @@ date: 2026-02-05
 isOriginal: false
 author:
   - name: Preethi
-    url : https://css-tricks.com/author/preethi/
+    url: https://css-tricks.com/author/preethi/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/01/bar-chart-horizontal.webp
 ---
 
@@ -92,7 +92,7 @@ With those in place, that’s really all we need to create a pretty darn nice ba
   slug-hash="ZYOOvmb"
   title="Easy CSS Bar Chart 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Yes, that was easy to do, but it’s best to know exactly *why* it works. So, let’s break that down.
 
@@ -157,7 +157,7 @@ For example, we can use `grid-row` values to adjust the vertical direction of th
   slug-hash="azZBNQL"
   title="Easy CSS Bar Chart 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Or we can skip bars altogether and use markers instead:
 
@@ -166,14 +166,14 @@ Or we can skip bars altogether and use markers instead:
   slug-hash="WbxowYb"
   title="Easy CSS Bar Chart 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="anon"
   slug-hash="YPWpqRO"
   title="Easy CSS Bar Chart 4"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We can also swap the columns and rows for horizontal bar charts:
 
@@ -182,7 +182,7 @@ We can also swap the columns and rows for horizontal bar charts:
   slug-hash="pvbNyqy"
   title="Easy CSS Bar Chart 5"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

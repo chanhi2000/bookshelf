@@ -23,7 +23,7 @@ date: 2024-05-01
 isOriginal: false
 author:
   - name: Ihechikara Abba
-    url : https://freecodecamp.org/news/author/Ihechikara/
+    url: https://freecodecamp.org/news/author/Ihechikara/
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/UT8LMo-wlyk/upload/c907bdb799b1331e27dd68f35a2b2e25.jpeg
 ---
 

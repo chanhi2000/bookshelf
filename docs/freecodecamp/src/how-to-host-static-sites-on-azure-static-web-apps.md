@@ -28,7 +28,7 @@ prev: /devops/azure/articles/README.md
 isOriginal: false
 author:
   - name: Shrijal Acharya
-    url : https://freecodecamp.org/news/author/shricodev/
+    url: https://freecodecamp.org/news/author/shricodev/
 cover: https://freecodecamp.org/news/content/images/2024/06/host_static_sites_swa_azure.png
 ---
 
@@ -112,7 +112,7 @@ In this step, I will use GitHub as an example. If your project is already pushed
 
 Did you know you can create a GitHub repository right from your command line?
 
-Let's get started. Firstly, make sure you have GitHub CLI installed. For installation instructions, follow the steps shown [here (<VPIcon icon="iconfont icon-github" />`cli/cli`)](https://github.com/cli/cli/blob/trunk/docs/install_linux.md).
+Let's get started. Firstly, make sure you have GitHub CLI installed. For installation instructions, follow the steps shown [here (<VPIcon icon="iconfont icon-github"/>`cli/cli`)](https://github.com/cli/cli/blob/trunk/docs/install_linux.md).
 
 To authenticate your GitHub CLI to your account, run the below command:
 

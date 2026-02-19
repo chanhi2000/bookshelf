@@ -29,7 +29,7 @@ date: 2025-03-26
 isOriginal: false
 author:
   - name: Rob Walters
-    url : https://freecodecamp.org/news/author/rwalters/
+    url: https://freecodecamp.org/news/author/rwalters/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742917115054/07184be6-5384-4861-a676-b72c06ff7c65.png
 ---
 

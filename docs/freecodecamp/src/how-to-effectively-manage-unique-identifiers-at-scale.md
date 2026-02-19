@@ -28,7 +28,7 @@ date: 2024-08-21
 isOriginal: false
 author:
   - name: Gor Grigoryan
-    url : https://freecodecamp.org/news/author/gor8808/
+    url: https://freecodecamp.org/news/author/gor8808/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724012658962/2e754dc4-248a-4a2b-8819-993514474a22.jpeg
 ---
 
@@ -440,7 +440,7 @@ The format was first announced by X/Twitter in June 2010. Due to implementation 
 
 ::: note "The Problem" stated by Twitter:
 
-> We currently use MySQL to store most of our online data. In the beginning, the data was in one small database instance which in turn became one large database instance and eventually many large database clusters. For various reasons, the details of which merit a whole blog post, we’re working to replace many of these systems with [<VPIcon icon="fas fa-globe"/>the Cassandra distributed database](http://cassandra.apache.org/) or horizontally sharded MySQL (using [gizzard (<VPIcon icon="iconfont icon-github" />`twitter/gizzard`)](http://github.com/twitter/gizzard)).
+> We currently use MySQL to store most of our online data. In the beginning, the data was in one small database instance which in turn became one large database instance and eventually many large database clusters. For various reasons, the details of which merit a whole blog post, we’re working to replace many of these systems with [<VPIcon icon="fas fa-globe"/>the Cassandra distributed database](http://cassandra.apache.org/) or horizontally sharded MySQL (using [gizzard (<VPIcon icon="iconfont icon-github"/>`twitter/gizzard`)](http://github.com/twitter/gizzard)).
 >
 > Unlike MySQL, Cassandra has no built-in way of generating unique ids – nor should it, since at the scale where Cassandra becomes interesting, it would be difficult to provide a one-size-fits-all solution for ids. Same goes for sharded MySQL. We needed something that could generate tens of thousands of ids per second in a highly available manner.
 >

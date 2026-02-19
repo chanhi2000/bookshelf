@@ -25,7 +25,7 @@ date: 2022-12-29
 isOriginal: false
 author:
   - name: Lukas Vileikis
-    url : https://blog.logrocket.com/author/lukasvileikis/
+    url: https://blog.logrocket.com/author/lukasvileikis/
 cover: https://blog.logrocket.com/wp-content/uploads/2022/12/improve-mysql-database-performance.png
 ---
 

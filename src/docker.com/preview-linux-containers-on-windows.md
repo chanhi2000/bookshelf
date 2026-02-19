@@ -28,7 +28,7 @@ date: 2017-09-14
 isOriginal: false
 author:
   - name: Rolf Neugebauer
-    url : https://docker.com/author/rolfn/
+    url: https://docker.com/author/rolfn/
 cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png
 ---
 

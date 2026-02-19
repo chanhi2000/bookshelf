@@ -23,7 +23,7 @@ date: 2022-04-08
 isOriginal: false
 author:
   - name: Nelson Michael
-    url : https://blog.logrocket.com/author/nelsonmichael/
+    url: https://blog.logrocket.com/author/nelsonmichael/
 cover: /assets/image/blog.logrocket.com/exploring-css-color-module-level-5/banner.png
 ---
 

@@ -24,7 +24,7 @@ date: 2020-08-05
 isOriginal: false
 author:
   - name: Brad Solomon
-    url : https://realpython.com/team/bsolomon/
+    url: https://realpython.com/team/bsolomon/
 cover: https://files.realpython.com/media/What-are-Python-Wheels-and-Why-Should-You-Care_Watermarked.22246cad13be.jpg
 ---
 

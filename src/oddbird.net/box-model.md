@@ -23,7 +23,7 @@ date: 2025-09-04
 isOriginal: false
 author:
   - name: Miriam Suzanne
-    url : https://oddbird.net/authors/miriam/
+    url: https://oddbird.net/authors/miriam/
 cover: https://oddbird.net/assets/images/blog/2025/box-model-1600w.jpeg
 ---
 

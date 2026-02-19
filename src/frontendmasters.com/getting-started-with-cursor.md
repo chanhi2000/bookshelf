@@ -35,7 +35,7 @@ date: 2025-09-08
 isOriginal: false
 author:
   - name: Steve Kinney
-    url : https://frontendmasters.com/blog/author/stevekinney/
+    url: https://frontendmasters.com/blog/author/stevekinney/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/7062
 ---
 

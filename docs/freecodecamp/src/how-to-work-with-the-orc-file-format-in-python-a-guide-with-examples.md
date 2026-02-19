@@ -27,7 +27,7 @@ date: 2026-01-14
 isOriginal: false
 author:
   - name: Bala Priya C
-    url : https://freecodecamp.org/news/author/balapriyac/
+    url: https://freecodecamp.org/news/author/balapriyac/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768353870711/56ddb07c-56b0-4c3a-92ce-b1a86ea0e6e0.png
 ---
 
@@ -234,7 +234,7 @@ print(f"ZSTD size: {os.path.getsize('data_zstd.orc'):,} bytes")
 # ZSTD size: 6,380 bytes
 ```
 
-Different compression codecs offer different trade-offs. [ZLIB](https://docs.python.org/3/library/zlib.html) gives better compression but is slower. [SNAPPY (<VPIcon icon="iconfont icon-github" />`google/snappy`)](https://github.com/google/snappy) is faster but produces larger files. [ZSTD (<VPIcon icon="iconfont icon-github" />`facebook/zstd`)](https://github.com/facebook/zstd) offers a good balance between compression ratio and speed.
+Different compression codecs offer different trade-offs. [ZLIB](https://docs.python.org/3/library/zlib.html) gives better compression but is slower. [SNAPPY (<VPIcon icon="iconfont icon-github"/>`google/snappy`)](https://github.com/google/snappy) is faster but produces larger files. [ZSTD (<VPIcon icon="iconfont icon-github"/>`facebook/zstd`)](https://github.com/facebook/zstd) offers a good balance between compression ratio and speed.
 
 For most use cases, I recommend ZSTD. It's fast enough for real-time processing and provides excellent compression.
 

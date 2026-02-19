@@ -31,7 +31,7 @@ date: 2018-07-26
 isOriginal: false
 author:
   - name: Marinko Spasojević
-    url : https://code-maze.com/author/marinko/
+    url: https://code-maze.com/author/marinko/
 cover: /assets/image/code-maze.com/csharp-basics-ide-introduction/banner.png
 ---
 

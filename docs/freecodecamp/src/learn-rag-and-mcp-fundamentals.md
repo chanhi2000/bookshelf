@@ -36,7 +36,7 @@ date: 2026-01-22
 isOriginal: false
 author:
   - name: Mumshad Mannambeth
-    url : https://learn.kodekloud.com/courses/rag-mcp-fundamentals-a-hands-on-crash-course
+    url: https://learn.kodekloud.com/courses/rag-mcp-fundamentals-a-hands-on-crash-course
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769092417621/b2dddb48-37e0-4303-b111-57f643b39bee.jpeg
 ---
 

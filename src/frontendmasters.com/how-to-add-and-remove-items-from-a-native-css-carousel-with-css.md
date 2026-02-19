@@ -23,7 +23,7 @@ date: 2025-11-26
 isOriginal: false
 author:
   - name: Daniel Schwarz
-    url : https://frontendmasters.com/blog/author/danielschwarz/
+    url: https://frontendmasters.com/blog/author/danielschwarz/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/7830
 ---
 

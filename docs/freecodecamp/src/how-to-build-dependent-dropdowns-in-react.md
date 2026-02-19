@@ -29,7 +29,7 @@ date: 2025-01-30
 isOriginal: false
 author:
   - name: Timothy Olanrewaju
-    url : https://freecodecamp.org/news/author/SmoothTech/
+    url: https://freecodecamp.org/news/author/SmoothTech/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738246583123/caa07859-2ce8-44b1-9fd2-44b414babe52.png
 ---
 

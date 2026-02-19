@@ -25,7 +25,7 @@ date: 2022-06-06
 isOriginal: false
 author:
   - name: Joseph Mawa
-    url : https://blog.logrocket.com/author/josephmawa/
+    url: https://blog.logrocket.com/author/josephmawa/
 cover: /assets/image/blog.logrocket.com/complete-guide-abortcontroller-node-js/banner.png
 ---
 

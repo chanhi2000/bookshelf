@@ -23,7 +23,7 @@ date: 2025-03-03
 isOriginal: false
 author:
   - name: Samson Omojola
-    url : https://blog.logrocket.com/author/samson-omojola/
+    url: https://blog.logrocket.com/author/samson-omojola/
 cover: /assets/image/blog.logrocket.com/cursor-css-property/banner.png
 ---
 

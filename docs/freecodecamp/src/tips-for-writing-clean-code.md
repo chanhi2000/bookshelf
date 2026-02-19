@@ -24,7 +24,7 @@ date: 2025-02-05
 isOriginal: false
 author:
   - name: Nitin Sharma
-    url : https://freecodecamp.org/news/author/nitinfab/
+    url: https://freecodecamp.org/news/author/nitinfab/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738684292390/6e844cd5-28f8-42e9-b9e3-cc6ded9ec72f.png
 ---
 

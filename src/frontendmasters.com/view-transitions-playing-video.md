@@ -26,7 +26,7 @@ date: 2026-01-20
 isOriginal: false
 author:
   - name: Chris Coyier
-    url : https://frontendmasters.com/blog/author/chriscoyier/
+    url: https://frontendmasters.com/blog/author/chriscoyier/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/8304
 ---
 
@@ -97,7 +97,7 @@ The brass tacks here are that when a page unloads and a new page loads, no state
 
 I was just wrong when I was thinking there was some way to get this to work. There are some understandable sources for the confusion, though. If someone happened to be using an framework that provides SPA (single page app) navigations, you might see persisting video just because, well, the page never unloads. Also: Astro is a popular framework that [<VPIcon icon="iconfont icon-astro"/>specifically implemented persistent transitions for video](https://docs.astro.build/en/guides/view-transitions/#maintaining-state), and does so by essentially forcing an SPA experience with a same-page view transition.
 
-[This GitHub thread (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/10620) is a feature request for multi-page view transitions to be able to keep state and gets into this a little. Bramus notes that this isn’t a view transitions specific feature, it’s [a more general need for state-saving through page navigations (<VPIcon icon="iconfont icon-github" />`whatwg/html`)](https://github.com/whatwg/html/issues/8538). It also links to [<VPIcon icon="fa-brands fa-chrome"/>this demo](https://view-transitions.chrome.dev/video/mpa/), which… makes it work! This is the “faking it” I referred to. It doesn’t prevent the `<video>` from being unloaded and re-loaded, it just keeps the state in `sessionStorage`. So there is a little blip between pages. But hey it’s pretty close!
+[This GitHub thread (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/10620) is a feature request for multi-page view transitions to be able to keep state and gets into this a little. Bramus notes that this isn’t a view transitions specific feature, it’s [a more general need for state-saving through page navigations (<VPIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/issues/8538). It also links to [<VPIcon icon="fa-brands fa-chrome"/>this demo](https://view-transitions.chrome.dev/video/mpa/), which… makes it work! This is the “faking it” I referred to. It doesn’t prevent the `<video>` from being unloaded and re-loaded, it just keeps the state in `sessionStorage`. So there is a little blip between pages. But hey it’s pretty close!
 
 Here’s the important bits…
 

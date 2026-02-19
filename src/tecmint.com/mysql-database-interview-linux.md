@@ -26,7 +26,7 @@ date: 2025-10-07
 isOriginal: false
 author:
   - name: Ravi Saive
-    url : https://tecmint.com/author/admin/
+    url: https://tecmint.com/author/admin/
 cover: https://tecmint.com/wp-content/uploads/2014/01/mysql-interview-questions-linux.webp
 ---
 

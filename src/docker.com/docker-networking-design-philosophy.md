@@ -25,7 +25,7 @@ date: 2016-03-02
 isOriginal: false
 author:
   - name: Jana Radhakrishnan
-    url : https://docker.com/author/jana/
+    url: https://docker.com/author/jana/
 cover: https://docker.com/app/uploads/docker_networking.png
 ---
 

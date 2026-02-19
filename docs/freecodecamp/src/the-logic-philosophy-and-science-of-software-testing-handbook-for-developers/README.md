@@ -26,7 +26,7 @@ date: 2025-06-18
 isOriginal: false
 author:
   - name: Han Qi
-    url : https://freecodecamp.org/news/author/gitgithan/
+    url: https://freecodecamp.org/news/author/gitgithan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750176539544/965a99ef-8aad-467c-ae6b-4a144e2d1117.png
 ---
 

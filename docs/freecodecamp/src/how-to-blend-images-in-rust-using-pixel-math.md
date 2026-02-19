@@ -24,7 +24,7 @@ date: 2024-08-27
 isOriginal: false
 author:
   - name: Anshul Sanghi
-    url : https://freecodecamp.org/news/author/anshulsanghi/
+    url: https://freecodecamp.org/news/author/anshulsanghi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724689572465/f03e4b74-1091-4673-af5b-c8827e74caf0.png
 ---
 

@@ -35,7 +35,7 @@ date: 2025-10-09
 isOriginal: false
 author:
   - name: Chirag Agrawal
-    url : https://freecodecamp.org/news/author/chiragagrawal/
+    url: https://freecodecamp.org/news/author/chiragagrawal/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759972706788/66d45afa-f86b-4365-8a55-8b6873df718b.png
 ---
 

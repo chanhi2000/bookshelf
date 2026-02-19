@@ -25,7 +25,7 @@ date: 2017-07-06
 isOriginal: false
 author:
   - name: Sophia Parafina
-    url : https://docker.com/author/sophia/
+    url: https://docker.com/author/sophia/
 cover: https://docker.com/app/uploads/8478f1f4-490f-4901-ac48-3cc78a4a0980.jpg
 ---
 

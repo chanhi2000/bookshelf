@@ -27,7 +27,7 @@ date: 2025-02-04
 isOriginal: false
 author:
   - name: Patrick Collins (@Cyfrin)
-    url : https://github.com/Cyfrin
+    url: https://github.com/Cyfrin
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738855360874/ce0b276f-fc25-4bda-bacf-726d1a8d009d.png
 ---
 

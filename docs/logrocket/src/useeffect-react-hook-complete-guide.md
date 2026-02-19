@@ -29,7 +29,7 @@ date: 2023-10-12
 isOriginal: false
 author:
   - name: Sebastian Weber
-    url : https://blog.logrocket.com/author/sebastianweber/
+    url: https://blog.logrocket.com/author/sebastianweber/
 cover: /assets/image/blog.logrocket.com/useeffect-react-hook-complete-guide/banner.png
 ---
 

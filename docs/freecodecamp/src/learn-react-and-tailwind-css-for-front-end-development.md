@@ -35,7 +35,7 @@ date: 2025-08-04
 isOriginal: false
 author:
   - name: Alvin Zablan (@AlvinTheProgrammer)
-    url : https://youtube.com/@AlvinTheProgrammer
+    url: https://youtube.com/@AlvinTheProgrammer
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754316874796/7a378441-7dbd-4a78-9d09-210ec7d9d2f1.png
 ---
 

@@ -34,7 +34,7 @@ date: 2025-12-11
 isOriginal: false
 author:
   - name: Maham Codes (@MahamDev)
-    url : https://x.com/@MahamDev
+    url: https://x.com/@MahamDev
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765379245144/d2dd6d43-155d-4336-a277-db7b8dbae70a.jpeg
 ---
 

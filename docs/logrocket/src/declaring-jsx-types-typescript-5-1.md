@@ -26,7 +26,7 @@ date: 2023-06-26
 isOriginal: false
 author:
   - name: John Reilly
-    url : https://blog.logrocket.com/author/johnreilly/
+    url: https://blog.logrocket.com/author/johnreilly/
 cover: /assets/image/blog.logrocket.com/declaring-jsx-types-typescript-5-1/banner.png
 ---
 

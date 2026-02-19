@@ -27,7 +27,7 @@ date: 2024-02-09
 isOriginal: false
 author:
   - name: Ashutosh Singh
-    url : https://blog.logrocket.com/author/ashutoshsingh/
+    url: https://blog.logrocket.com/author/ashutoshsingh/
 cover: /assets/image/blog.logrocket.com/understanding-axios-get-requests/banner.png
 ---
 

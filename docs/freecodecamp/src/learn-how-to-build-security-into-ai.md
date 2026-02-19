@@ -32,7 +32,7 @@ date: 2025-07-17
 isOriginal: false
 author:
   - name: Robert Herbig
-    url : https://apisecuniversity.com/courses/building-security-into-ai
+    url: https://apisecuniversity.com/courses/building-security-into-ai
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752685029144/e988baa2-4c5f-4670-bac8-d40281f7b324.jpeg
 ---
 

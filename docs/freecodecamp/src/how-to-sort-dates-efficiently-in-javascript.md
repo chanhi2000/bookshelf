@@ -24,7 +24,7 @@ date: 2025-05-30
 isOriginal: false
 author:
   - name: Brandon Wozniewicz
-    url : https://freecodecamp.org/news/author/scriptedBytes/
+    url: https://freecodecamp.org/news/author/scriptedBytes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748612402734/7124a95d-0a33-4ab6-93d2-d94fc354ae12.png
 ---
 

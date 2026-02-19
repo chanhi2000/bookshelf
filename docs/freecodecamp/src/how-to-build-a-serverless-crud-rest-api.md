@@ -35,7 +35,7 @@ date: 2024-08-22
 isOriginal: false
 author:
   - name: Ifeanyi Otuonye
-    url : https://freecodecamp.org/news/author/REXTECH/
+    url: https://freecodecamp.org/news/author/REXTECH/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724267592147/e9dc4429-6475-4d35-b0e8-81c116f769b8.jpeg
 ---
 

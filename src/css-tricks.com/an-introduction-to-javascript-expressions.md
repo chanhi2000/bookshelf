@@ -24,7 +24,7 @@ date: 2025-10-22
 isOriginal: false
 author:
   - name: Mat Marquis
-    url : https://css-tricks.com/author/wilto/
+    url: https://css-tricks.com/author/wilto/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/10/javascript-for-everyone-scaled.png
 ---
 

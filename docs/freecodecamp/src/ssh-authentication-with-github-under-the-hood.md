@@ -29,7 +29,7 @@ date: 2025-02-13
 isOriginal: false
 author:
   - name: Vivek Agrawal
-    url : https://freecodecamp.org/news/author/vkweb/
+    url: https://freecodecamp.org/news/author/vkweb/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739082652213/aba38efa-117c-4ef7-a844-91599c0a4d62.png
 ---
 

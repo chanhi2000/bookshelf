@@ -33,7 +33,7 @@ date: 2025-05-23
 isOriginal: false
 author:
   - name: Preston Osoro
-    url : https://freecodecamp.org/news/author/Preston56/
+    url: https://freecodecamp.org/news/author/Preston56/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747923566699/58fc1283-d2f5-4964-acfa-b5dcad0f3d4f.png
 ---
 

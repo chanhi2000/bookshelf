@@ -29,7 +29,7 @@ date: 2024-10-10
 isOriginal: false
 author:
   - name: Ejiro Asiuwhu
-    url : https://blog.logrocket.com/author/ejiroasiuwhu/
+    url: https://blog.logrocket.com/author/ejiroasiuwhu/
 cover: /assets/image/blog.logrocket.com/react-usereducer-hook-ultimate-guide/banner.png
 ---
 

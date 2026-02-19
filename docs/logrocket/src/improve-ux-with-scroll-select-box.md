@@ -26,7 +26,7 @@ date: 2025-02-07
 isOriginal: false
 author:
   - name: Chizaram Ken
-    url : https://blog.logrocket.com/author/emmanuelodioko/
+    url: https://blog.logrocket.com/author/emmanuelodioko/
 cover: /assets/image/blog.logrocket.com/improve-ux-with-scroll-select-box/banner.png
 ---
 

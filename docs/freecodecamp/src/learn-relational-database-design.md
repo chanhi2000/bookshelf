@@ -30,7 +30,7 @@ date: 2026-01-28
 isOriginal: false
 author:
   - name: Dr. Qiang Hao
-    url : https://github.com/StructuredCS/grokking-relational-database-design
+    url: https://github.com/StructuredCS/grokking-relational-database-design
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769527260696/e21afb95-878f-4ef7-8760-337563154bab.jpeg
 ---
 

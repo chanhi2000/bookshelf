@@ -24,7 +24,7 @@ date: 2025-01-19
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Python-Constants_Watermarked.4cc3aa373268.jpg
 ---
 
@@ -71,7 +71,7 @@ In Python, constants are identifiers for values that don’t change during a pro
 
 :::
 
-To learn the most from this tutorial, you’ll need basic knowledge of Python [**variables**](/realpython.com/python-variables.md), [**functions**](/realpython.com/defining-your-own-python-function.md), [**modules, packages**](/realpython.com/python-modules-packages.md), and [**namespaces**](/realpython.com/python-namespaces-scope.md). You’ll also need to know the basics of [**object-oriented programming**](/realpython.com/python3-object-oriented-programming.md) in Python.
+To learn the most from this tutorial, you’ll need basic knowledge of Python [**variables**](/realpython.com/python-variables.md), [**functions**](/realpython.com/defining-your-own-python-function.md), [**modules, packages**](/realpython.com/python-modules-packages.md), and [**namespaces**](/realpython.com/python-namespace.md). You’ll also need to know the basics of [**object-oriented programming**](/realpython.com/python3-object-oriented-programming.md) in Python.
 
 ```component VPCard
 {

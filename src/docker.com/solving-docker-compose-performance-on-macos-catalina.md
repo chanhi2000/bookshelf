@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: "How We Solved a Report on `docker-compose` Performance on macOS CatalinaDocker"
-description: "Article(s) > How We Solved a Report on `docker-compose` Performance on macOS CatalinaDocker"
+title: "How We Solved a Report on `docker-compose` Performance on macOS Catalina"
+description: "Article(s) > How We Solved a Report on `docker-compose` Performance on macOS Catalina"
 icon: fa-brands fa-docker
 category:
   - DevOps
@@ -19,15 +19,17 @@ tag:
 head:
   - - meta:
     - property: og:title
-      content: "Article(s) > How We Solved a Report on `docker-compose` Performance on macOS CatalinaDocker"
+      content: "Article(s) > How We Solved a Report on `docker-compose` Performance on macOS Catalina"
     - property: og:description
-      content: "How We Solved a Report on `docker-compose` Performance on macOS CatalinaDocker"
+      content: "How We Solved a Report on `docker-compose` Performance on macOS Catalina"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/docker.com/solving-docker-compose-performance-on-macos-catalina.html
 prev: /devops/docker/articles/README.md
 date: 2020-01-29
 isOriginal: false
 author: 
+  - name: Nicolas De Loof
+    url: https://docker.com/contributors/nicolas-de-loof/
 cover: https://docker.com/app/uploads/2020/01/caspar-camille-rubin-fPkvU7RDmCo-unsplash-1110x740.jpg
 ---
 
@@ -58,7 +60,7 @@ cover: https://docker.com/app/uploads/2020/01/caspar-camille-rubin-fPkvU7RDmCo-u
 ---
 
 <SiteInfo
-  name="How We Solved a Report on `docker-compose` Performance on macOS CatalinaDocker"
+  name="How We Solved a Report on `docker-compose` Performance on macOS Catalina"
   desc="As a Docker Compose maintainer, my daily duty is to check for newly reported issues and try to help users through misunderstanding and possible underlying bugs. Sometimes issues are very well documented, sometimes they are nothing much but some “please help” message. And sometimes they look really weird and can result in funny investigations. Here is the story..."
   url="https://docker.com/blog/solving-docker-compose-performance-on-macos-catalina"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
@@ -107,7 +109,7 @@ A few weeks later, a release candidate build was included in the Docker Desktop 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "How We Solved a Report on `docker-compose` Performance on macOS CatalinaDocker",
+  "title": "How We Solved a Report on `docker-compose` Performance on macOS Catalina",
   "desc": "As a Docker Compose maintainer, my daily duty is to check for newly reported issues and try to help users through misunderstanding and possible underlying bugs. Sometimes issues are very well documented, sometimes they are nothing much but some “please help” message. And sometimes they look really weird and can result in funny investigations. Here is the story...",
   "link": "https://chanhi2000.github.io/bookshelf/docker.com/solving-docker-compose-performance-on-macos-catalina.html",
   "logo": "https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png",

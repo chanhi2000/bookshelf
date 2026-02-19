@@ -32,7 +32,7 @@ date: 2025-06-17
 isOriginal: false
 author:
   - name: Eti Ijeoma
-    url : https://freecodecamp.org/news/author/Omah/
+    url: https://freecodecamp.org/news/author/Omah/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750110739161/ebf2347c-ac63-4fab-ad2f-5d9229e77eaa.png
 ---
 

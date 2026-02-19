@@ -42,7 +42,7 @@ date: 2023-07-14
 isOriginal: false
 author:
   - name: Aaron Kili
-    url : https://tecmint.com/author/aaronkili/
+    url: https://tecmint.com/author/aaronkili/
 cover: https://tecmint.com/wp-content/uploads/2018/07/whowatch-Monitor-User-Processes-in-Linux.png
 ---
 

@@ -22,7 +22,7 @@ date: 2022-06-29
 isOriginal: false
 author:
   - name: Bartosz Zaczyński
-    url : https://realpython.com/team/bzaczynski/
+    url: https://realpython.com/team/bzaczynski/
 cover: https://files.realpython.com/media/How-to-Implement-A-Queue-in-Python_Watermarked.993460fe2ffc.jpg
 ---
 

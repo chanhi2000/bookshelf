@@ -23,7 +23,7 @@ date: 2018-04-10
 isOriginal: false
 author:
   - name: Benjamin Johnson
-    url : https://blog.logrocket.com/author/bjohnson/
+    url: https://blog.logrocket.com/author/bjohnson/
 cover: /assets/image/blog.logrocket.com/how-css-works-parsing-painting-css-in-the-critical-rendering-path/banner.webp
 ---
 

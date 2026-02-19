@@ -24,7 +24,7 @@ date: 2023-07-10
 isOriginal: false
 author:
   - name: Gustav Wengel
-    url : https://blog.logrocket.com/author/gustavwengel/
+    url: https://blog.logrocket.com/author/gustavwengel/
 cover: /assets/image/blog.logrocket.com/babel-vs-typescript-choosing-right-compiler-project/banner.png
 ---
 

@@ -25,7 +25,7 @@ date: 2021-02-10
 isOriginal: false
 author:
   - name: Adrian Twarog
-    url : https://freecodecamp.org/news/author/adriantwarog/
+    url: https://freecodecamp.org/news/author/adriantwarog/
 cover: https://www.freecodecamp.org/news/content/images/2021/02/designfigma.png
 ---
 

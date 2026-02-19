@@ -29,7 +29,7 @@ date: 2025-04-07
 isOriginal: false
 author:
   - name: Nitish Sharma
-    url : https://blog.logrocket.com/author/nitishsharma/
+    url: https://blog.logrocket.com/author/nitishsharma/
 cover: /assets/image/blog.logrocket.com/how-to-add-custom-fonts-react-native/banner.png
 ---
 

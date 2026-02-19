@@ -24,7 +24,7 @@ date: 2020-03-30
 isOriginal: false
 author:
   - name: Alex Ronquillo
-    url : https://realpython.com/team/aronquillo/
+    url: https://realpython.com/team/aronquillo/
 cover: https://files.realpython.com/media/Python-Pit-Stop-Articles_Red_Watermarked.868eed0ee07e.jpg
 ---
 

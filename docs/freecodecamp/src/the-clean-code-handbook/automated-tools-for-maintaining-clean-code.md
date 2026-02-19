@@ -22,7 +22,7 @@ date: 2025-01-30
 isOriginal: false
 author:
   - name: Programming with Shahan
-    url : https://freecodecamp.org/news/author/codewithshahan/
+    url: https://freecodecamp.org/news/author/codewithshahan/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738170236859/edacf21e-7180-4f65-9e7e-f7cf95b4f9d8.png
 ---
 

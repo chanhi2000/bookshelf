@@ -30,7 +30,7 @@ date: 2025-12-17
 isOriginal: false
 author:
   - name: Ajay Patel
-    url : https://freecodecamp.org/news/author/ajaypatel9016/
+    url: https://freecodecamp.org/news/author/ajaypatel9016/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765909617721/fa533504-3dab-48c3-9b92-0b89a81af025.png
 ---
 

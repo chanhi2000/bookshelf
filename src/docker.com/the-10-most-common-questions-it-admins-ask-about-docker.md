@@ -25,7 +25,7 @@ date: 2016-07-28
 isOriginal: false
 author:
   - name: Chris Hines
-    url : https://docker.com/author/chrishines/
+    url: https://docker.com/author/chrishines/
 cover: https://docker.com/app/uploads/2022/12/admins-ask-about-docker-1.jpeg
 ---
 

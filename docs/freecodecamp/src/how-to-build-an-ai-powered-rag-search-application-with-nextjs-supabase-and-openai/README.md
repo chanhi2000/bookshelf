@@ -49,7 +49,7 @@ date: 2026-01-28
 isOriginal: false
 author:
   - name: Mayur Vekariya
-    url : https://freecodecamp.org/news/author/mayur9210/
+    url: https://freecodecamp.org/news/author/mayur9210/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769534479648/a3f19714-a00b-4444-9289-753902282ac6.png
 ---
 

@@ -27,7 +27,7 @@ date: 2020-01-11
 isOriginal: false
 author:
   - name: FreeCodeCamps
-    url : https://freecodecamp.org
+    url: https://freecodecamp.org
 cover: https://cdn-media-2.freecodecamp.org/w1280/5f9c9e00740569d1a4ca3acf.jpg
 ---
 

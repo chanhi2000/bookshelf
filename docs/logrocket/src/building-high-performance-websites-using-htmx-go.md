@@ -24,7 +24,7 @@ date: 2025-02-10
 isOriginal: false
 author:
   - name: Abhinav Anshul
-    url : https://blog.logrocket.com/author/abhinavanshul/
+    url: https://blog.logrocket.com/author/abhinavanshul/
 cover: /assets/image/blog.logrocket.com/building-high-performance-websites-using-htmx-go/banner.png
 ---
 

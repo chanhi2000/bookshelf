@@ -23,7 +23,7 @@ date: 2011-08-23
 isOriginal: false
 author:
   - name: Tyler Tate
-    url : https://smashingmagazine.com/author/tyler-tate/
+    url: https://smashingmagazine.com/author/tyler-tate/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/21fab4e4-9ae6-4111-b4dc-b0def16805b1/semantic-grid1.jpg
 ---
 
@@ -361,7 +361,7 @@ section { .column(3); }
 
 Just a couple of days ago Twitter released a project called Bootstrap which provides similar (but more limited) grid system built using LESS variable and mixins. The future of the CSS grid seems to be taking shape before us.
 
-The Semantic Grid System delivers the best of both worlds: the power and convenience of a CSS grid and the ideal separation of mark-up and presentation. ~~[<VPIcon icon="fas fa-globe"/>Download the grid](https://semantic.gs)~~ for yourself, fork it on [GitHub (<VPIcon icon="iconfont icon-github" />`twigkit/semantic.gs`)](https://github.com/twigkit/semantic.gs), and let us know what you think!
+The Semantic Grid System delivers the best of both worlds: the power and convenience of a CSS grid and the ideal separation of mark-up and presentation. ~~[<VPIcon icon="fas fa-globe"/>Download the grid](https://semantic.gs)~~ for yourself, fork it on [GitHub (<VPIcon icon="iconfont icon-github"/>`twigkit/semantic.gs`)](https://github.com/twigkit/semantic.gs), and let us know what you think!
 
 ![semanticgs](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/695e0ccb-8f2c-48bd-a377-f8376b9eb27b/semanticgs.jpg)
 

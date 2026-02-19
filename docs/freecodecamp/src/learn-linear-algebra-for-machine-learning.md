@@ -34,7 +34,7 @@ date: 2025-02-27
 isOriginal: false
 author:
   - name: LunarTech (@LunarTech_ai)
-    url : https://youtube.com/@LunarTech_ai
+    url: https://youtube.com/@LunarTech_ai
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740666382320/d655b144-61c2-4a24-91b2-fa3ab0cacea9.png
 ---
 

@@ -28,7 +28,7 @@ prev: /programming/py-numpy/articles/README.md
 isOriginal: false
 author:
   - name: Tiago Capelo Monteiro
-    url : https://freecodecamp.org/news/author/tiagomonteiro/
+    url: https://freecodecamp.org/news/author/tiagomonteiro/
 cover: https://freecodecamp.org/news/content/images/2024/07/miltiadis-fragkidis-2zGTh-S5moM-unsplash.jpg
 ---
 

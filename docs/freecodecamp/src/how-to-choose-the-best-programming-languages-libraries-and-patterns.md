@@ -27,7 +27,7 @@ date: 2025-08-11
 isOriginal: false
 author:
   - name: Ryan Michael Kay
-    url : https://freecodecamp.org/news/author/ryan-michael-kay/
+    url: https://freecodecamp.org/news/author/ryan-michael-kay/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754846007203/c9db729e-ebed-4726-8e3e-5414c8e2714d.png
 ---
 

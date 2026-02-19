@@ -29,7 +29,7 @@ date: 2022-12-09
 isOriginal: false
 author:
   - name: Diogo Souza
-    url : https://blog.logrocket.com/author/diogosouza/
+    url: https://blog.logrocket.com/author/diogosouza/
 cover: /assets/image/blog.logrocket.com/documenting-express-js-api-swagger/banner.png
 ---
 
@@ -66,7 +66,7 @@ This post on documenting an Express.js API with Swagger was last updated on 9 De
 
 We all know about the importance of documenting your APIs. In terms of Node.js APIs, whether they were built on top of Express.js or any other framework, you’ve got plenty of open source options. These include apiDoc, docbox, and others.
 
-In this tutorial, we will explore using Swagger with an Express.js API. Swagger is an open source set of tools that enable you to design, build, document, and use [**RESTful web services**](/blog.logrocket.com/crud-rest-api-node-js-express-postgresql.md). It was created to be mostly [agnostic (<VPIcon icon="iconfont icon-github" />`swagger-api/swagger-codegen#overview`)](https://github.com/swagger-api/swagger-codegen#overview), meaning you can use it with pretty much any of your favorite languages and frameworks.
+In this tutorial, we will explore using Swagger with an Express.js API. Swagger is an open source set of tools that enable you to design, build, document, and use [**RESTful web services**](/blog.logrocket.com/crud-rest-api-node-js-express-postgresql.md). It was created to be mostly [agnostic (<VPIcon icon="iconfont icon-github"/>`swagger-api/swagger-codegen#overview`)](https://github.com/swagger-api/swagger-codegen#overview), meaning you can use it with pretty much any of your favorite languages and frameworks.
 
 In our example, we’ll use two libraries: `swagger-ui-express` and `swagger-jsdoc`. The first is a module that allows you to feed a Swagger UI (auto-generated views based on the swagger-ui project) from a <VPIcon icon="iconfont icon-json"/>`swagger.json` file or an inline object.
 
@@ -90,7 +90,7 @@ Now, we know the advantages of having Swagger in an application, let’s look in
 
 ## Express.js API application setup
 
-This tutorial won’t cover anything related to [**Express API building**](/blog.logrocket.com/build-rest-api-node-express-mysql.md). We already have a [ready-to-use example (<VPIcon icon="iconfont icon-github" />`diogosouza/simple-express-crud-api`)](https://github.com/diogosouza/simple-express-crud-api) that you can clone to your local machine before implementing.
+This tutorial won’t cover anything related to [**Express API building**](/blog.logrocket.com/build-rest-api-node-express-mysql.md). We already have a [ready-to-use example (<VPIcon icon="iconfont icon-github"/>`diogosouza/simple-express-crud-api`)](https://github.com/diogosouza/simple-express-crud-api) that you can clone to your local machine before implementing.
 
 It’s a simple API that allows you to manage an in-memory list of books. Feel free to increment it with your customizations.
 
@@ -153,7 +153,7 @@ app.use(
 );
 ```
 
-As you see in the first line, this configuration object sets an [`OpenAPI` (<VPIcon icon="iconfont icon-github" />`OAI/OpenAPI-Specification`)](https://github.com/OAI/OpenAPI-Specification/releases/tag/3.1.0) to v3.1.0. Swagger uses the Open API Specification, a standard, language-agnostic interface for RESTful APIs that allows humans and machines to understand the capabilities of a web service without having to access the source code or inspect the network traffic.
+As you see in the first line, this configuration object sets an [`OpenAPI` (<VPIcon icon="iconfont icon-github"/>`OAI/OpenAPI-Specification`)](https://github.com/OAI/OpenAPI-Specification/releases/tag/3.1.0) to v3.1.0. Swagger uses the Open API Specification, a standard, language-agnostic interface for RESTful APIs that allows humans and machines to understand the capabilities of a web service without having to access the source code or inspect the network traffic.
 
 You can refer to the official docs for all available settings for each version. Here, we’re using just the basics: API info, name, title, description, license, the contact of the API owner, and more.
 
@@ -446,7 +446,7 @@ Swagger is capable of way more than merely documenting your APIs. A quick read o
 
 ::: info
 
-You can find the complete source code [here (<VPIcon icon="iconfont icon-github" />`ganeshmani/swagger-nodejs-tutorial`)](https://github.com/ganeshmani/swagger-nodejs-tutorial). Good luck!
+You can find the complete source code [here (<VPIcon icon="iconfont icon-github"/>`ganeshmani/swagger-nodejs-tutorial`)](https://github.com/ganeshmani/swagger-nodejs-tutorial). Good luck!
 
 <SiteInfo
   name="ganeshmani/swagger-nodejs-tutorial"

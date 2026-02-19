@@ -30,7 +30,7 @@ date: 2025-01-16
 isOriginal: false
 author:
   - name: Jose Vicente Nunez
-    url : https://freecodecamp.org/news/author/josevnz/
+    url: https://freecodecamp.org/news/author/josevnz/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736952806487/e25f259a-71e0-4998-ad29-b5da286e3fba.png
 ---
 

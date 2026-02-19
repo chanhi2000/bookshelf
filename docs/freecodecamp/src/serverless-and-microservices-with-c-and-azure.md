@@ -37,7 +37,7 @@ date: 2025-10-30
 isOriginal: false
 author:
   - name: Muhammad Abdullah (@codewithmuhammadabdullah)
-    url : https://youtube.com/@codewithmuhammadabdullah
+    url: https://youtube.com/@codewithmuhammadabdullah
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761754162686/963ecd38-8522-4fee-8448-d4e1e5a3a9f0.jpeg
 ---
 

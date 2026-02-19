@@ -22,7 +22,7 @@ date: 2021-06-02
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Context-Managers--the-Python-with-Statement_Watermarked.3774ffbe2514.jpg
 ---
 
@@ -132,7 +132,7 @@ The context manager object results from evaluating the `expression` after `with`
 1. [<VPIcon icon="fa-brands fa-python"/>`.__enter__()`](https://docs.python.org/3/library/stdtypes.html#contextmanager.__enter__) is called by the `with` statement to enter the runtime context.
 2. [<VPIcon icon="fa-brands fa-python"/>`.__exit__()`](https://docs.python.org/3/library/stdtypes.html#contextmanager.__exit__) is called when the execution leaves the `with` code block.
 
-The `as` specifier is optional. If you provide a `target_var` with `as`, then the [**return**](/realpython.com/python-return-statement.md) value of calling `.__enter__()` on the context manager object is bound to that variable.
+The `as` specifier is optional. If you provide a `target_var` with `as`, then the [**return**](/realpython.com/python-return-statement/README.md) value of calling `.__enter__()` on the context manager object is bound to that variable.
 
 ::: note
 

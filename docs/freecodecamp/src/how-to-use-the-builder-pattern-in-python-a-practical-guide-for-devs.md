@@ -24,7 +24,7 @@ date: 2026-01-29
 isOriginal: false
 author:
   - name: Bala Priya C
-    url : https://freecodecamp.org/news/author/balapriyac/
+    url: https://freecodecamp.org/news/author/balapriyac/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769618329398/ad5581ff-5670-4d55-b269-6f0afcb7c57c.png
 ---
 
@@ -57,7 +57,7 @@ In this tutorial, I'll show you how to implement the builder pattern in Python. 
 
 ::: info
 
-You can find the code [on GitHub (<VPIcon icon="iconfont icon-github" />`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/builder).
+You can find the code [on GitHub (<VPIcon icon="iconfont icon-github"/>`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/builder).
 
 <SiteInfo
   name="python-basics/design-patterns/builder at main · balapriyac/python-basics"

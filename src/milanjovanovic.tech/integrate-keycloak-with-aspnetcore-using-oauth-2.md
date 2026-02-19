@@ -105,7 +105,7 @@ What if you could outsource all of that to a battle-tested **identity provider**
 
 [<VPIcon icon="fas fa-globe"/>Keycloak](https://keycloak.org/) is an open-source identity and access management solution. It handles user authentication, authorization, and identity brokering (social logins, enterprise SSO) out of the box. You get a polished admin console, built-in support for **OAuth 2.0** and **OpenID Connect**, and it runs anywhere Docker does.
 
-We'll spin up Keycloak as a container, create a realm with a public client, and wire up Swagger UI to authenticate using the [<VPIcon icon="fas fa-globe"/>OAuth 2.0](https://oauth.net/2/) **Authorization Code flow**. Then we'll add [<VPIcon icon="fas fa-globe"/>JWT](https://rfc-editor.org/rfc/rfc7519.html) validation to our .NET backend and trace the entire authentication flow using the [**Aspire Dashboard**](/mildanjovanovic.tech/standalone-aspire-dashboard-setup-for-distributed-dotnet-applications.md).
+We'll spin up Keycloak as a container, create a realm with a public client, and wire up Swagger UI to authenticate using the [<VPIcon icon="fas fa-globe"/>OAuth 2.0](https://oauth.net/2/) **Authorization Code flow**. Then we'll add [<VPIcon icon="fas fa-globe"/>JWT](https://rfc-editor.org/rfc/rfc7519.html) validation to our .NET backend and trace the entire authentication flow using the [**Aspire Dashboard**](/milanjovanovic.tech/standalone-aspire-dashboard-setup-for-distributed-dotnet-applications.md).
 
 ---
 
@@ -440,15 +440,15 @@ Remove `options.RequireHttpsMetadata = false` in production.
 
 In about 10 minutes, we've set up:
 
-- A [**containerized**](/mildanjovanovic.tech/containerize-your-dotnet-applications-without-a-dockerfile) Keycloak instance
+- A [**containerized**](/milanjovanovic.tech/containerize-your-dotnet-applications-without-a-dockerfile) Keycloak instance
 - A realm with a public OAuth 2.0 client
 - Swagger UI acting as an OAuth client with Authorization Code + PKCE
 - JWT validation in ASP.NET Core
-- Observability with [**OpenTelemetry**](/mildanjovanovic.tech/introduction-to-distributed-tracing-with-opentelemetry-in-dotnet) into the authentication flow
+- Observability with [**OpenTelemetry**](/milanjovanovic.tech/introduction-to-distributed-tracing-with-opentelemetry-in-dotnet) into the authentication flow
 
 What I really like about Keycloak is how easy it is to extend. Want Google login? Configure it in Keycloak. Need enterprise SSO? Add a SAML provider. Your API code stays exactly the same because it just validates tokens.
 
-If you want to see how I integrate Keycloak in a real-world system with role-based access control, check out [**Pragmatic Clean Architecture**](/mildanjovanovic.tech/pragmatic-clean-architecture/README.md) and [**Modular Monolith Architecture**](/mildanjovanovic.tech/modular-monolith-architecture/README.md).
+If you want to see how I integrate Keycloak in a real-world system with role-based access control, check out [**Pragmatic Clean Architecture**](/milanjovanovic.tech/pragmatic-clean-architecture/README.md) and [**Modular Monolith Architecture**](/milanjovanovic.tech/modular-monolith-architecture/README.md).
 
 See you next week.
 

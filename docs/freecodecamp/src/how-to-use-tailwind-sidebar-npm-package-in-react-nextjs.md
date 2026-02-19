@@ -36,7 +36,7 @@ date: 2026-01-15
 isOriginal: false
 author:
   - name: Hitesh Chauhan
-    url : https://freecodecamp.org/news/author/hiteshchauhan2023/
+    url: https://freecodecamp.org/news/author/hiteshchauhan2023/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768413200090/f31cbba6-9b9e-4719-bc07-13fe98049d52.png
 ---
 

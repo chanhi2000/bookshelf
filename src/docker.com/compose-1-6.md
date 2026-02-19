@@ -25,7 +25,7 @@ date: 2016-02-04
 isOriginal: false
 author:
   - name: Aanand Prasad
-    url : https://docker.com/author/aanand/
+    url: https://docker.com/author/aanand/
 cover: https://docker.com/app/uploads/2015/11/logo-title-final-compose-2b-581x1024.png
 ---
 

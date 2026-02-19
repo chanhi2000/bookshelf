@@ -26,7 +26,7 @@ date: 2014-07-17
 isOriginal: false
 author:
   - name: Maxim Shirshin
-    url : https://smashingmagazine.com/author/maksim-shirshin/
+    url: https://smashingmagazine.com/author/maksim-shirshin/
 cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e9ddcdd8-b90d-4164-a8ad-af2d4cef061e/bem-methodology-opt.png
 ---
 

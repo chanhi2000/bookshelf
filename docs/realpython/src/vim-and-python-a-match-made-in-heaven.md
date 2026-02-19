@@ -31,11 +31,11 @@ date: 2018-06-01
 isOriginal: false
 author:
   - name: Aldren Santos
-    url : https://realpython.com/team/asantos/
+    url: https://realpython.com/team/asantos/
   - name: Joanna Jablonski (jablonskidev)
-    url : https://realpython.com/team/jjablonski/
+    url: https://realpython.com/team/jjablonski/
   - name: Michael Herman (mjhea0)
-    url : https://realpython.com/team/mherman/
+    url: https://realpython.com/team/mherman/
 cover: https://files.realpython.com/media/VIM-and-Python-A-Match-Made-in-Heaven_Watermarked.de11c69564a4.jpg
 ---
 

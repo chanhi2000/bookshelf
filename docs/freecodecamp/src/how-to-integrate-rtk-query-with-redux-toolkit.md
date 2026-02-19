@@ -29,7 +29,7 @@ date: 2025-02-07
 isOriginal: false
 author:
   - name: Chidera Humphrey
-    url : https://freecodecamp.org/news/author/dera10/
+    url: https://freecodecamp.org/news/author/dera10/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738854615563/3357bd11-3fcd-43b3-b459-b0e8b60e853d.png
 ---
 

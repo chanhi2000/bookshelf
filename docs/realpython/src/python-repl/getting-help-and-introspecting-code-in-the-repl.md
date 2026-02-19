@@ -22,7 +22,7 @@ date: 2023-01-25
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/How-to-Use-the-Interactive-Python-REPL_Watermarked.dce4d5791b83.jpg
 ---
 
@@ -93,7 +93,7 @@ help(str)
 
 In this example, you use the `str` class object as an argument to `help()`. This way, you access the class’s help page. You can use the Up and Down keys to move through the page. When you get the desired information, you can press the Q key to exit the help viewer.
 
-If you use a string as an argument to `help()`, then the help system looks for it as the name of a module, function, class, method, keyword, or documentation topic. The corresponding help page is printed on the screen. This way to call `help()` comes in handy when the target object isn’t available in your current [**namespace**](/realpython.com/python-namespaces-scope.md).
+If you use a string as an argument to `help()`, then the help system looks for it as the name of a module, function, class, method, keyword, or documentation topic. The corresponding help page is printed on the screen. This way to call `help()` comes in handy when the target object isn’t available in your current [**namespace**](/realpython.com/python-namespace.md).
 
 For example, say that you want to get help on the [**`pathlib`**](/realpython.com/python-pathlib.md) module, but you haven’t imported it yet. Then you can run `help()` with the string `"pathlib"` as an argument. You’ll get something like the following:
 

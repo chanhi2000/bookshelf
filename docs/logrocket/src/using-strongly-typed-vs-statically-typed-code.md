@@ -26,7 +26,7 @@ date: 2023-12-20
 isOriginal: false
 author:
   - name: Debjyoti Banerjee
-    url : https://blog.logrocket.com/author/debjyotibanerjee/
+    url: https://blog.logrocket.com/author/debjyotibanerjee/
 cover: /assets/image/blog.logrocket.com/using-strongly-typed-vs-statically-typed-code/banner.png
 ---
 

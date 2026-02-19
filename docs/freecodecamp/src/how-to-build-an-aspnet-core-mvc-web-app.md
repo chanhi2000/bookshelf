@@ -30,7 +30,7 @@ date: 2025-02-20
 isOriginal: false
 author:
   - name: Code A Future (@codeafuture)
-    url : https://youtube.com/@codeafuture
+    url: https://youtube.com/@codeafuture
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739990522515/196a648c-bcf1-4ee4-ae29-664c1a7de4eb.png
 ---
 

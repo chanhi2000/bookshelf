@@ -29,7 +29,7 @@ date: 2024-05-21
 isOriginal: false
 author:
   - name: BekahHW
-    url : https://freecodecamp.org
+    url: https://freecodecamp.org
 cover: https://freecodecamp.org/news/content/images/2024/05/fcc_maintain.png
 ---
 ---

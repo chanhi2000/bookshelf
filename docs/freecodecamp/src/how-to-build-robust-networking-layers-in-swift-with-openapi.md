@@ -23,7 +23,7 @@ date: 2025-07-23
 isOriginal: false
 author:
   - name: Sravan Karuturi
-    url : https://freecodecamp.org/news/author/sravankaruturi/
+    url: https://freecodecamp.org/news/author/sravankaruturi/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753206547489/dce9a849-1ccd-4cb0-bca8-f879a5aadf5f.png
 ---
 

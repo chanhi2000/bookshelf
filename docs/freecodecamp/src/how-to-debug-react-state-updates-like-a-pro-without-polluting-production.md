@@ -29,7 +29,7 @@ date: 2026-02-03
 isOriginal: false
 author:
   - name: Kelechi Apugo
-    url : https://freecodecamp.org/news/author/Laviedegeorge/
+    url: https://freecodecamp.org/news/author/Laviedegeorge/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770067225475/d0910306-5756-465a-8b6f-adf839fe004a.png
 ---
 

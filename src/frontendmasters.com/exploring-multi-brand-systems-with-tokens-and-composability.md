@@ -29,7 +29,7 @@ date: 2025-12-19
 isOriginal: false
 author:
   - name: Adam Sedwick
-    url : https://frontendmasters.com/blog/author/adam-sedwick/
+    url: https://frontendmasters.com/blog/author/adam-sedwick/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/8041
 ---
 

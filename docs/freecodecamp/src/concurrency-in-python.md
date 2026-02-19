@@ -24,7 +24,7 @@ date: 2024-02-21
 isOriginal: false
 author:
   - name: Hemachandra
-    url : https://freecodecamp.org/news/author/hemachandra96/
+    url: https://freecodecamp.org/news/author/hemachandra96/
 cover: https://freecodecamp.org/news/content/images/2024/08/pexels-wendyaffieplaas-1212179.jpg
 ---
 

@@ -29,7 +29,7 @@ date: 2022-11-15
 isOriginal: false
 author:
   - name: Glad Chinda
-    url : https://blog.logrocket.com/author/gladchinda/
+    url: https://blog.logrocket.com/author/gladchinda/
 cover: /assets/image/blog.logrocket.com/react-createref-guide/banner.png
 ---
 

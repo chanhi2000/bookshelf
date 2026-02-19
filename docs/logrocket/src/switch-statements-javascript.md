@@ -24,7 +24,7 @@ date: 2025-02-26
 isOriginal: false
 author:
   - name: Fimber Elemuwa
-    url : https://blog.logrocket.com/author/fimberelemuwa/
+    url: https://blog.logrocket.com/author/fimberelemuwa/
 cover: /assets/image/blog.logrocket.com/switch-statements-javascript/banner.png
 ---
 

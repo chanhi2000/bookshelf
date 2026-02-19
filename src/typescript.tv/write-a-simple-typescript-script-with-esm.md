@@ -24,7 +24,7 @@ date: 2023-11-01
 isOriginal: false
 author:
   - name: Benny Neugebauer
-    url : https://stackoverflow.com/users/451634/benny-neugebauer
+    url: https://stackoverflow.com/users/451634/benny-neugebauer
 cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 ---
 
@@ -53,7 +53,7 @@ cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 
 I recently wrote a small TypeScript script to generate a Markdown file with a sluggified filename. Since we're now in the era of modern ECMAScript Modules (ESM), I wanted to use this new module system in my TypeScript code. Here's how I did it.
 
-I installed [ts-node (<VPIcon icon="iconfont icon-github" />`TypeStrong/ts-node`)](https://github.com/TypeStrong/ts-node) so I could run my script in a Node.js environment from the command line. The great thing about `ts-node` is that it works well with ESM. It comes with a binary called `ts-node-esm` that supports loading ECMAScript modules when you run TypeScript code.
+I installed [ts-node (<VPIcon icon="iconfont icon-github"/>`TypeStrong/ts-node`)](https://github.com/TypeStrong/ts-node) so I could run my script in a Node.js environment from the command line. The great thing about `ts-node` is that it works well with ESM. It comes with a binary called `ts-node-esm` that supports loading ECMAScript modules when you run TypeScript code.
 
 ---
 

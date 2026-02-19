@@ -31,7 +31,7 @@ date: 2025-01-27
 isOriginal: false
 author:
   - name: Arunachalam B
-    url : https://freecodecamp.org/news/author/arunachalamb/
+    url: https://freecodecamp.org/news/author/arunachalamb/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737988076418/347e6d8a-1dd8-45d1-854b-fbc576eeed5f.png
 ---
 

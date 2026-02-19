@@ -23,7 +23,7 @@ date: 2022-02-16
 isOriginal: false
 author:
   - name: David Omotayo
-    url : https://blog.logrocket.com/author/davidomotayo/
+    url: https://blog.logrocket.com/author/davidomotayo/
 cover: /assets/image/blog.logrocket.com/control-css-cascade-with-cascade-layers/banner.webp
 ---
 

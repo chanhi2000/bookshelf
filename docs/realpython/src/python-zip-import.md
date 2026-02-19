@@ -24,7 +24,7 @@ date: 2021-12-27
 isOriginal: false
 author:
   - name: Leodanis Pozo Ramos
-    url : https://realpython.com/team/lpozoramos/
+    url: https://realpython.com/team/lpozoramos/
 cover: https://files.realpython.com/media/Importing-Python-Code-From-a-ZIP-Archive_Watermarked.39d7915f1029.jpg
 ---
 
@@ -66,7 +66,7 @@ Even if your day-to-day workflow doesn’t involve ZIP files containing Python c
 
 You’ll also learn how to use the `zipimport` module to dynamically import code from ZIP files without adding them to Python’s module search path. To do this, you’ll code a minimal plugin system that loads Python code from ZIP files.
 
-To get the most out of this tutorial, you should have previous knowledge of how Python’s [**import system**](/realpython.com/python-import.md) works. You should also know the basics of manipulating ZIP files with [**`zipfile`**](/realpython.com/python-zipfile.md), [**working with files**](/realpython.com/working-with-files-in-python.md), and using the [**`with` statement**](/realpython.com/python-with-statement/README.md).
+To get the most out of this tutorial, you should have previous knowledge of how Python’s [**import system**](/realpython.com/python-import/README.md) works. You should also know the basics of manipulating ZIP files with [**`zipfile`**](/realpython.com/python-zipfile.md), [**working with files**](/realpython.com/working-with-files-in-python.md), and using the [**`with` statement**](/realpython.com/python-with-statement/README.md).
 
 ---
 
@@ -86,7 +86,7 @@ The `.pyo` file extension is no longer used, as of [<VPIcon icon="fa-brands fa-p
 
 [<VPIcon icon="fa-brands fa-python"/>PEP 302](https://python.org/dev/peps/pep-0302/) added a series of **import [<VPIcon icon="fa-brands fa-wikipedia-w"/>hooks](https://en.wikipedia.org/wiki/Hooking)** that provides built-in support for Zip imports. If you want to import modules and packages from a ZIP file, then you just need the file to appear in Python’s [**module search path**](/realpython.com/python-modules-packages.md#the-module-search-path).
 
-The module search path is a list of directories and ZIP files. It lives in [<VPIcon icon="fa-brands fa-python"/>`sys.path`](https://docs.python.org/3/library/sys.html#sys.path). Python automatically searches through items in this list when you run an [**`import`**](/realpython.com/python-import.md) statement in your code.
+The module search path is a list of directories and ZIP files. It lives in [<VPIcon icon="fa-brands fa-python"/>`sys.path`](https://docs.python.org/3/library/sys.html#sys.path). Python automatically searches through items in this list when you run an [**`import`**](/realpython.com/python-import/README.md) statement in your code.
 
 In the following sections, you’ll learn how to create ready-to-import ZIP files using different Python tools and techniques. You’ll also learn about a few ways to add those files to your current Python’s module search path. Finally, you’ll dig into `zipimport`, the module that supports the Zip import feature behind the scenes.
 
@@ -438,7 +438,7 @@ In this example, you first import `zipimporter` from `zipimport`. Then you creat
 
 The `zipimporter` class provides several useful attributes and methods. For example, [<VPIcon icon="fa-brands fa-python"/>`.is_package()`](https://docs.python.org/3/library/zipimport.html#zipimport.zipimporter.is_package) returns `True` if the input name is a package and `False` otherwise. The [<VPIcon icon="fa-brands fa-python"/>`.get_filename()`](https://docs.python.org/3/library/zipimport.html#zipimport.zipimporter.get_filename) method returns the path ([<VPIcon icon="fa-brands fa-python"/>`.__file__`](https://docs.python.org/3/reference/import.html#file__)) to a given module inside the archive.
 
-If you want to bring the module’s name into your current [**namespace**](/realpython.com/python-namespaces-scope.md), then you can use `.load_module()`, which returns a reference to the input module. With that reference, you can access any code object from the module as usual.
+If you want to bring the module’s name into your current [**namespace**](/realpython.com/python-namespace.md), then you can use `.load_module()`, which returns a reference to the input module. With that reference, you can access any code object from the module as usual.
 
 ### Build a Plugin System With `zipimport`
 
@@ -550,7 +550,7 @@ Here’s how this code works line by line:
 - **Line 7** creates a `zipimporter` instance for every plugin in the system.
 - **Line 8** loads the `plugin` module from each plugin ZIP file.
 - **Line 9** appends each plugin’s `main()` function to the `plugins` list.
-- **Line 10** [**returns**](/realpython.com/python-return-statement.md) the `plugins` list to the caller.
+- **Line 10** [**returns**](/realpython.com/python-return-statement/README.md) the `plugins` list to the caller.
 
 Lines 14 to 18 call `load_plugins()` to generate the current list of available plugins and execute them in a loop.
 

@@ -24,7 +24,7 @@ date: 2024-05-25
 isOriginal: false
 author:
   - name: Eric Hu
-    url : https://freecodecamp.org/news/author/huericnan/
+    url: https://freecodecamp.org/news/author/huericnan/
 cover: https://freecodecamp.org/news/content/images/2024/05/js-string.png
 ---
 

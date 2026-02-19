@@ -28,7 +28,7 @@ date: 2017-01-18
 isOriginal: false
 author:
   - name: Elton Stoneman
-    url : https://docker.com/author/eltonstoneman/
+    url: https://docker.com/author/eltonstoneman/
 cover: https://docker.com/app/uploads/i2d2-1.png
 ---
 

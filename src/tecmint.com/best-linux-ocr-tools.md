@@ -29,7 +29,7 @@ date: 2025-07-08
 isOriginal: false
 author:
   - name: Sergey Zarubin
-    url : https://tecmint.com/author/cannoneer1990/
+    url: https://tecmint.com/author/cannoneer1990/
 cover: https://tecmint.com/wp-content/uploads/2025/07/best-linux-ocr-tools.webp
 ---
 

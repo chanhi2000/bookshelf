@@ -24,7 +24,7 @@ date: 2014-11-15
 isOriginal: false
 author:
   - name: Mitchell Anicas
-    url : https://digitalocean.com//community/users/manicas
+    url: https://digitalocean.com//community/users/manicas
 cover: https://community-cdn-digitalocean-com.global.ssl.fastly.net/oEuFmi4ntgxcSdj79jgypZro
 ---
 

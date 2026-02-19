@@ -23,7 +23,7 @@ date: 2020-11-10
 isOriginal: false
 author:
   - name: Mathias Hülsbusch
-    url : https://css-tricks.com/author/mathiashulsbusch/
+    url: https://css-tricks.com/author/mathiashulsbusch/
 cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/10/RT_x4UFA.png
 ---
 

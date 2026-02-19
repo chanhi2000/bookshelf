@@ -25,7 +25,7 @@ date: 2025-11-12
 isOriginal: false
 author:
   - name: Ifeoma Udu
-    url : https://freecodecamp.org/news/author/ifycodes99/
+    url: https://freecodecamp.org/news/author/ifycodes99/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762950321590/b67b93ef-de20-430b-a160-13631259c1d5.png
 ---
 

@@ -32,7 +32,7 @@ date: 2026-01-16
 isOriginal: false
 author:
   - name: Saiyam Pathak (@kubesimplify)
-    url : https://youtube.com/@kubesimplify
+    url: https://youtube.com/@kubesimplify
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768499578905/0f42cb04-c790-4f52-bf66-bcfe91a0ce79.jpeg
 ---
 

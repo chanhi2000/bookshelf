@@ -26,7 +26,7 @@ date: 2023-04-28
 isOriginal: false
 author:
   - name: Yaphi Berhanu
-    url : https://smashingmagazine.com/author/yaphi-berhanu/
+    url: https://smashingmagazine.com/author/yaphi-berhanu/
 cover: https://files.smashing.media/articles/write-better-css-borrow-ideas-functions/write-better-css-borrow-ideas-javascript-functions.jpg
 ---
 

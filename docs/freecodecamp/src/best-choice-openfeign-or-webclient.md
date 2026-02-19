@@ -27,7 +27,7 @@ date: 2025-06-06
 isOriginal: false
 author:
   - name: Mario Casari
-    url : https://freecodecamp.org/news/author/mcasari/
+    url: https://freecodecamp.org/news/author/mcasari/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749152217156/dc3e8896-b084-4bec-a549-b51a821f7d69.png
 ---
 

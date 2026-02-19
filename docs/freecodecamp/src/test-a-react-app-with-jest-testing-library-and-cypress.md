@@ -173,7 +173,7 @@ As mentioned before, there are a lot of different libraries to choose to run our
 
 ![Test runner, not Blade runner!](https://freecodecamp.org/news/content/images/2022/04/8gTI-1.gif)
 
-Anyway...you can use Jest in projects that use [<VPIcon icon="iconfont icon-babel"/>Babel](https://babeljs.io/), [<VPIcon icon="iconfont icon-typescript"/>TypeScript](https://typescriptlang.org/), [<VPIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en/), [<VPIcon icon="fa-brands fa-react"/>React](https://reactjs.org/), [<VPIcon icon="fa-brands fa-angular"/>Angular](https://angular.io/), [<VPIcon icon="iconfont icon-vuejs"/>Vue.js](https://vuejs.org/), [<VPIcon icon="iconfont icon-svelte"/>Svelte](https://svelte.dev/) and other technologies too. You can install Jest through NPM just like any library and it requires very little configuration to start off.
+Anyway...you can use Jest in projects that use [<VPIcon icon="iconfont icon-babel"/>Babel](https://babeljs.io/), [<VPIcon icon="iconfont icon-typescript"/>TypeScript](https://typescriptlang.org/), [<VPIcon icon="fa-brands fa-node"/>Node.js](https://nodejs.org/en/), [<VPIcon icon="fa-brands fa-react"/>React](https://reactjs.org/), [<VPIcon icon="fa-brands fa-angular"/>Angular](https://angular.io/), [<VPIcon icon="iconfont icon-vuejs"/>Vue.js](https://vuejs.org/), [<VPIcon icon="fa-brands fa-svelte"/>Svelte](https://svelte.dev/) and other technologies too. You can install Jest through NPM just like any library and it requires very little configuration to start off.
 
 Jest comes installed by default when setting up React apps with [<VPIcon icon="fa-brands fa-react"/>create-react-app](https://create-react-app.dev/).
 

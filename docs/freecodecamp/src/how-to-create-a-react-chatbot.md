@@ -29,7 +29,7 @@ date: 2024-05-11
 isOriginal: false
 author:
   - name: Tan Jin
-    url : https://freecodecamp.org/news/author/tjtanjin/
+    url: https://freecodecamp.org/news/author/tjtanjin/
 cover: https://freecodecamp.org/news/content/images/2024/05/rcb-logo-large---Copy.png
 ---
 

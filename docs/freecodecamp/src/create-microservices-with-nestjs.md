@@ -32,7 +32,7 @@ date: 2025-03-27
 isOriginal: false
 author:
   - name: Hhaider Malik (@haidermalik3402)
-    url : https://youtube.com/@haidermalik3402
+    url: https://youtube.com/@haidermalik3402
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743008871537/ad2be682-1c63-4d10-9cd3-7b33a7451b9b.png
 ---
 

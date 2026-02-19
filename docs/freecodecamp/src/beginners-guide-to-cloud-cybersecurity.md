@@ -34,7 +34,7 @@ date: 2025-07-02
 isOriginal: false
 author:
   - name: Google Cloud Team
-    url : https://www.cloudskillsboost.google/paths/419
+    url: https://www.cloudskillsboost.google/paths/419
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750284815294/c2ba70be-5147-4b56-b377-4ac40f53532e.png
 ---
 

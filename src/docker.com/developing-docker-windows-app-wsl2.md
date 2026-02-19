@@ -34,7 +34,7 @@ date: 2019-08-15
 isOriginal: false
 author:
   - name: Antonis Kalipetis
-    url : https://docker.com/author/antonis-kalipetis/
+    url: https://docker.com/author/antonis-kalipetis/
 cover: https://docker.com/app/uploads/2019/08/antonis-kalipetis.jpeg
 ---
 

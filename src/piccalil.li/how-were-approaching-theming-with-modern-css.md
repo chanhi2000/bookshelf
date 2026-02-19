@@ -23,7 +23,7 @@ date: 2024-04-02
 isOriginal: false
 author:
   - name: Andy Bell
-    url : https://piccalil.li/author/andy-bell
+    url: https://piccalil.li/author/andy-bell
 cover: https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/cd91a000b1d813f2013ba9e0d6809e7f398029674376449e1d624e6eabe32da6/png?url=https://piccalil.li/og/how-were-approaching-theming-with-modern-css/&width=1024&height=526&retina=true
 ---
 

@@ -42,7 +42,7 @@ date: 2025-08-01
 isOriginal: false
 author:
   - name: Suman Debnath
-    url : https://github.com/debnsuma
+    url: https://github.com/debnsuma
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753980521268/67afb5a4-a5b4-4522-bbc4-f5aacb9a22d0.png
 ---
 

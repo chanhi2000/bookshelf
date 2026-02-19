@@ -30,7 +30,7 @@ date: 2025-06-03
 isOriginal: false
 author:
   - name: Yazdun
-    url : https://freecodecamp.org/news/author/Yazdun/
+    url: https://freecodecamp.org/news/author/Yazdun/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748874008549/f7890467-2c7d-4558-a3ca-6094400530bc.png
 ---
 

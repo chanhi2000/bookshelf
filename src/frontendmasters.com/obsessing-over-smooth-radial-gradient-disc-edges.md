@@ -23,7 +23,7 @@ date: 2025-08-20
 isOriginal: false
 author:
   - name: Ana Tudor
-    url : https://frontendmasters.com/blog/author/anatudor/
+    url: https://frontendmasters.com/blog/author/anatudor/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/6737
 ---
 

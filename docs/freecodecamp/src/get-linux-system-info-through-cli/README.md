@@ -32,7 +32,7 @@ date: 2025-06-11
 isOriginal: false
 author:
   - name: Zaira Hira
-    url : https://freecodecamp.org/news/author/zaira/
+    url: https://freecodecamp.org/news/author/zaira/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749636399891/4b457f71-2d18-463a-b98a-e19ff5a6b769.png
 ---
 

@@ -24,7 +24,7 @@ date: 2022-04-27
 isOriginal: false
 author:
   - name: Ian Currie
-    url : https://realpython.com/team/icurrie/
+    url: https://realpython.com/team/icurrie/
 cover: https://files.realpython.com/media/Why-Close-Your-Files_Watermarked.949c2f5df055.jpg
 ---
 

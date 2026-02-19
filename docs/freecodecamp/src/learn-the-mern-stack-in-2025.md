@@ -33,7 +33,7 @@ date: 2025-06-10
 isOriginal: false
 author:
   - name: Burak Orkmez
-    url : https://udemy.com/course/the-web-dev-bootcamp/
+    url: https://udemy.com/course/the-web-dev-bootcamp/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749234841421/0d452535-e019-4a1b-800a-1912cc16254a.png
 ---
 

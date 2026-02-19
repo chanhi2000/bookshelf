@@ -25,7 +25,7 @@ date: 2025-04-24
 isOriginal: false
 author:
   - name: Amit Sheen
-    url : https://frontendmasters.com/blog/author/amitsheen/
+    url: https://frontendmasters.com/blog/author/amitsheen/
 cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/5619
 ---
 

@@ -24,7 +24,7 @@ date: 2024-10-16
 isOriginal: false
 author:
   - name: Lewis Cianci
-    url : https://blog.logrocket.com/author/lewiscianci/
+    url: https://blog.logrocket.com/author/lewiscianci/
 cover: /assets/image/blog.logrocket.com/six-things-you-may-not-know-about-javascript/banner.png
 ---
 

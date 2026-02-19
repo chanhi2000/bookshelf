@@ -28,7 +28,7 @@ date: 2025-05-06
 isOriginal: false
 author:
   - name: Matkat Music (@MatkatMusic)
-    url : https://youtube.com/@MatkatMusic
+    url: https://youtube.com/@MatkatMusic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746547631263/2f0d40a4-1e84-4109-b102-1b99a3d7b96f.png
 ---
 

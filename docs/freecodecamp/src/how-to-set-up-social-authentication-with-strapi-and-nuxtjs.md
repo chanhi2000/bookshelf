@@ -29,7 +29,7 @@ date: 2025-01-15
 isOriginal: false
 author:
   - name: Ashimi0x
-    url : https://freecodecamp.org/news/author/ashimi0x/
+    url: https://freecodecamp.org/news/author/ashimi0x/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736865891246/8be87fdb-c57b-4ae1-91ea-00b6dbffe09b.png
 ---
 

@@ -30,7 +30,7 @@ date: 2025-01-10
 isOriginal: false
 author:
   - name: Ibrahim Ogunbiyi
-    url : https://freecodecamp.org/news/author/IbrahimOgunbiyi/
+    url: https://freecodecamp.org/news/author/IbrahimOgunbiyi/
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Dh7gzpVpdWQ/upload/4e1e504663acda31b980e6fba0c2d661.jpeg
 ---
 

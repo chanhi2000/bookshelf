@@ -24,7 +24,7 @@ date: 2023-09-16
 isOriginal: false
 author:
   - name: Yanick
-    url : https://gosolve.io/author/jgadek/
+    url: https://gosolve.io/author/jgadek/
 cover: https://gosolve.io/wp-content/uploads/2023/09/Facebook_BLOG_FOTOCOPY-16-1024x1024.png
 ---
 

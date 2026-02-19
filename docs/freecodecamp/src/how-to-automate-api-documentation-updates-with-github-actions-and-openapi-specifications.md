@@ -27,7 +27,7 @@ date: 2025-09-09
 isOriginal: false
 author:
   - name: EZINNE ANNE EMILIA
-    url : https://freecodecamp.org/news/author/ezinnecodes/
+    url: https://freecodecamp.org/news/author/ezinnecodes/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757428080226/175085d0-cfea-41a0-aa52-a50ad8212980.png
 ---
 
