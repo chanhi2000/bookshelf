@@ -64,7 +64,7 @@ Forms are containers like stacks, but they are specifically designed for things 
 
 Now I know what you're thinking: surely text fields are easy? Well, they aren't _hard_, but they also don't work like you're used to in UIKit.
 
-To get things up and running let's create a new `CheckoutView` struct that we'll present when Place Order is pressed. Press <kbd>Cmd</kbd>+<kbd>N</kbd> to add a new SwiftUI View called “CheckoutView”, then give it the same `@EnvironmentObject` property the other views have:
+To get things up and running let's create a new `CheckoutView` struct that we'll present when Place Order is pressed. Press <kbd>⌘</kbd>+<kbd>N</kbd> to add a new SwiftUI View called “CheckoutView”, then give it the same `@EnvironmentObject` property the other views have:
 
 ```swift
 @EnvironmentObject var order: Order

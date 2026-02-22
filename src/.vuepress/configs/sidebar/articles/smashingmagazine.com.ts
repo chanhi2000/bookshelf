@@ -44,6 +44,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "harness-mouse-interaction-data-machine-learning", // 2024-05-06
     "end-of-gatsby-journey", // 2024-03-06
     "modern-css-tooltips-speech-bubbles-part1", // 2024-03-01
+    "css-blurry-shimmer-effect", // 2024-01-25
     "css-border-image-property", // 2024-01-16
   ],
 }
@@ -55,6 +56,7 @@ const Y2023: SidebarYeargroupTemplate = {
     // END: 2023
     "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
     "speedcurve-fight-main-thread", // 2023-10-24
+    "revealing-images-css-mask-animations", // 2023-09-15
     "gradients-blend-modes-hover-effect", // 2023-09-11
     "popular-devtools-tips", // 2023-06-27
     "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
@@ -162,6 +164,7 @@ const Y2013: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2013
+    "challenging-css-best-practices-atomic-approach", // 2013-10-21
     "semantic-css-with-intelligent-selectors", // 2013-08-20
     "the-history-of-the-bem-methodolog", // 2013-02-21
     "the-importance-of-sections", // 2013-01-18
@@ -177,7 +180,9 @@ const Y2012: SidebarYeargroupTemplate = {
     "road-reusable-html-components", // 2012-10-23
     "useful-javascript-libraries-jquery-plugins-part-2", // 2012-09-26
     "classes-where-were-going-we-dont-need-classes", // 2012-06-19
+    "decoupling-html-from-css", // 2012-04-20
     "a-new-front-end-methodology-bem", // 2012-04-16
+    "gridpak-the-responsive-grid-generator", // 2012-03-19
   ],
 }
 
@@ -343,13 +348,16 @@ export const template: SidebarInfoTemplate = {
       "html5-semantics", // 2011-11-18
       "an-introduction-to-object-oriented-css-oocss", // 2011-12-12
       // END: 2011css
+      "gridpak-the-responsive-grid-generator", // 2012-03-19
       "a-new-front-end-methodology-bem", // 2012-04-16
+      "decoupling-html-from-css", // 2012-04-20
       "classes-where-were-going-we-dont-need-classes", // 2012-06-19
       "road-reusable-html-components", // 2012-10-23
       // END: 2012css
       "the-importance-of-sections", // 2013-01-18
       "the-history-of-the-bem-methodolog", // 2013-02-21
       "semantic-css-with-intelligent-selectors", // 2013-08-20
+      "challenging-css-best-practices-atomic-approach", // 2013-10-21
       // END: 2013css
       "introduction-to-custom-elements", // 2014-03-04
       "bem-methodology-for-small-projects", // 2014-07-17
@@ -388,6 +396,7 @@ export const template: SidebarInfoTemplate = {
       "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
       // END: 2023css
       "css-border-image-property", // 2024-01-16
+      "css-blurry-shimmer-effect", // 2024-01-25
       "modern-css-tooltips-speech-bubbles-part1", // 2024-03-01
       "times-need-custom-property-instead-css-variable", // 2024-05-13
       "beyond-css-media-queries", // 2024-05-16
@@ -396,6 +405,7 @@ export const template: SidebarInfoTemplate = {
       "switching-it-up-html-latest-control", // 2024-05-24
       "in-praise-of-the-basics", // 2024-05-30
       "css-tips-and-techniques", // 2024-06-07
+      "revealing-images-css-mask-animations", // 2023-09-15
       "modern-guide-making-css-shapes", // 2024-10-07
       "introduction-css-scroll-driven-animations", // 2024-12-11
       // END: 2024css

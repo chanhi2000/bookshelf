@@ -94,7 +94,7 @@ Xcode 11을 실행합니다.
 
 ![](https://static.blog.gangnamunni.com/files/b7038a76-33a1-433d-a505-3f3fdd4103f1)
 
-아무런 이미지나 assets에 추가후 <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>l</kbd>  단축키를 입력하면
+아무런 이미지나 assets에 추가후 <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>l</kbd>  단축키를 입력하면
 
 다음과 같은 창이 뜹니다.
 

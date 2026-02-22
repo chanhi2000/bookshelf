@@ -173,7 +173,7 @@ button.addEventListener("click", () => {
 
 Hopefully that code above is clear. We selected the button, and we added an event listener for the event type `click`. Don’t worry much about the rest of the syntax for now, but just know that code within those `{ }` “curly braces” will run when that button is clicked.
 
-I slipped a little bonus in there for you: `console.log()`. This little beautiful function allows you to send messages to the browser DevTools. If I have those DevTools open (<kbd>Cmd</kbd>/<kbd>Control</kbd>+<kbd>Option</kbd>+<kbd>J</kbd>) I can see the message output there, which is a nice “sanity check” that things are working.
+I slipped a little bonus in there for you: `console.log()`. This little beautiful function allows you to send messages to the browser DevTools. If I have those DevTools open (<kbd>⌘</kbd>/<kbd>Control</kbd>+<kbd>Option</kbd>+<kbd>J</kbd>) I can see the message output there, which is a nice “sanity check” that things are working.
 
 ![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/05/Screenshot-2024-05-01-at-3.23.40%E2%80%AFPM-1024x712.png?resize=1024%2C712&ssl=1)
 

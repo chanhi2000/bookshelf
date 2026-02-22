@@ -59,7 +59,7 @@ Behind the scenes, `@NSManaged` effectively means "extra code will automatically
 
 If this sounds complicated, relax: Xcode can do quite a bit of work for us. It's not perfect, as you'll see shortly, but it's certainly a head start. So, it's time for step three: creating objects in Core Data so that we can fetch and store data from GitHub.
 
-There are two ways Xcode can help, one of which isn’t good enough for this project but is slowly getting better - maybe when I update this project next it will be update to scratch. Let’s look at it briefly now: open Project38.xcdatamodeld, select the Commit entity again, then look in the data model inspector for the “Codegen” option. Change it to “Class Definition”, press <kbd>Cmd</kbd>+<kbd>S</kbd> to save the change, then press <kbd>Cmd</kbd>+<kbd>B</kbd> to have Xcode build the project.
+There are two ways Xcode can help, one of which isn’t good enough for this project but is slowly getting better - maybe when I update this project next it will be update to scratch. Let’s look at it briefly now: open Project38.xcdatamodeld, select the Commit entity again, then look in the data model inspector for the “Codegen” option. Change it to “Class Definition”, press <kbd>⌘</kbd>+<kbd>S</kbd> to save the change, then press <kbd>⌘</kbd>+<kbd>B</kbd> to have Xcode build the project.
 
 What just changed might look small, but it’s remarkably smart. Open <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift` and add this code at the end of `viewDidLoad()`:
 
@@ -69,7 +69,7 @@ commit.message = "Woo"
 commit.url = "http://www.example.com"
 ```
 
-Can you figure out what Xcode has done for us? The Codegen value is short for “code generation” - when you pressed <kbd>Cmd</kbd>+<kbd>B</kbd> to build your project, Xcode converted the Commit Core Data entity into a Commit Swift class. You can’t see it in the project - it’s dynamically generated when the Swift code is being built - but it’s there for you to use, as you just saw. You get access to its attributes as properties that you can read and write, and any changes you make will get written back to the database when you call our `saveContext()` method.
+Can you figure out what Xcode has done for us? The Codegen value is short for “code generation” - when you pressed <kbd>⌘</kbd>+<kbd>B</kbd> to build your project, Xcode converted the Commit Core Data entity into a Commit Swift class. You can’t see it in the project - it’s dynamically generated when the Swift code is being built - but it’s there for you to use, as you just saw. You get access to its attributes as properties that you can read and write, and any changes you make will get written back to the database when you call our `saveContext()` method.
 
 However, this feature is imperfect, at least right now - although that might change at any point in the future as Apple updates Xcode. First, try adding this line below the previous three:
 
@@ -81,7 +81,7 @@ That means “set the `date` property to the current date.”
 
 Xcode’s auto-generated class has one small annoyance, and you’ll see it if you try using code completion to view its properties: all four of the properties it made for us are optional, so `name` is a `String?`, `date` is an `Date?`, and so on. Yes, even though we marked all the attributes as non-optional in the Core Data editor, that just means they need to have values by the time they get saved - Xcode will quite happily let them be nil at other times.
 
-Sometimes that’s OK, but usually it’s not. So, let’s put the codegen feature to one side for now - go back to the Core Data editor, change Codegen back to “Manual/None”, then press <kbd>Cmd</kbd>+<kbd>S</kbd> to save and <kbd>Cmd</kbd>+<kbd>B</kbd> to rebuild your app. You’ll get compiler errors now because the `Commit` class no longer exists, but that’s OK.
+Sometimes that’s OK, but usually it’s not. So, let’s put the codegen feature to one side for now - go back to the Core Data editor, change Codegen back to “Manual/None”, then press <kbd>⌘</kbd>+<kbd>S</kbd> to save and <kbd>⌘</kbd>+<kbd>B</kbd> to rebuild your app. You’ll get compiler errors now because the `Commit` class no longer exists, but that’s OK.
 
 You’ve seen codegen, which is the first way Xcode can help us create objects in Core Data. The *second* way is to create our own custom `NSManagedObject` subclass, which right now is the preferred way forward because it lets us take the dynamically generated class and customize it.
 

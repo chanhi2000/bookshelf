@@ -96,9 +96,9 @@ If you’ve ever installed Visual Studio Code, you already know the drill. Downl
 
 Once you’re settled, Cursor gives you a few ways to work with it:
 
-- **Inline Edit (<kbd>Cmd</kbd>/<kbd>Ctrl</kbd>+<kbd>K</kbd>)** – Highlight some code, and then tell Cursor what you want to happen (e.g. “Refactor this function to use async/await”), and watch Cursor suggest a tidy diff right in front of your eyes. Nothing sneaky—just a controlled, color-coded change you can approve or toss if it’s not what you had in mind.
-- **AI Chat (<kbd>Cmd</kbd>/<kbd>Ctrl</kbd>+<kbd>L</kbd>)** – This is like ChatGPT, but it knows your codebase. It hands out along-side your editor panes. Ask why a component is behaving weirdly, brainstorm ideas, or generate new code blocks. By default, it sees the current file, but you can widen its gaze to the whole repo with @codebase.
-- **The Agent (<kbd>Cmd</kbd>/<kbd>Ctrl</kbd>+<kbd>I</kbd>)** – For the big jobs. Describe a goal (“Add authentication with GitHub and Google”), and Cursor will plan the steps, touch multiple files, and even run commands—always asking before it does anything dangerous. This is where you go from “pair programmer” to “project collaborator.”
+- **Inline Edit (<kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>K</kbd>)** – Highlight some code, and then tell Cursor what you want to happen (e.g. “Refactor this function to use async/await”), and watch Cursor suggest a tidy diff right in front of your eyes. Nothing sneaky—just a controlled, color-coded change you can approve or toss if it’s not what you had in mind.
+- **AI Chat (<kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>L</kbd>)** – This is like ChatGPT, but it knows your codebase. It hands out along-side your editor panes. Ask why a component is behaving weirdly, brainstorm ideas, or generate new code blocks. By default, it sees the current file, but you can widen its gaze to the whole repo with @codebase.
+- **The Agent (<kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>I</kbd>)** – For the big jobs. Describe a goal (“Add authentication with GitHub and Google”), and Cursor will plan the steps, touch multiple files, and even run commands—always asking before it does anything dangerous. This is where you go from “pair programmer” to “project collaborator.”
 
 ### Some Inspiration for the Quick Editor
 
@@ -106,7 +106,7 @@ Once you’re settled, Cursor gives you a few ways to work with it:
 
 The inline editor is Cursor’s scalpel—it’s sharp, precise, and surprisingly versatile once you start leaning on it. A few of my favorite quick tricks:
 
-- **Refactor without the tedium**: Highlight a callback hell nightmare, hit <kbd>Cmd</kbd>/<kbd>Ctrl</kbd>+<kbd>K</kbd>, and ask Cursor to rewrite it with async/await. Boom—cleaner code in seconds.
+- **Refactor without the tedium**: Highlight a callback hell nightmare, hit <kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>K</kbd>, and ask Cursor to rewrite it with async/await. Boom—cleaner code in seconds.
 - **Generate boilerplate**: Tired of writing the same prop-type interfaces or test scaffolding? Select a stub, tell Cursor what you need, and let it flesh things out.
 - **Convert styles on the fly**: Need to move from plain CSS to Tailwind or from Tailwind to inline styles? Cursor can handle the translation with a single instruction.
 - **Explain before you change**: Select a gnarly function and just ask Cursor “explain this.” You’ll get a quick natural-language breakdown before deciding what to tweak.
@@ -116,13 +116,13 @@ These tricks work best when you’re hyper-specific with what you want. Think of
 
 ### Getting the Most Out of the Chat and Agent
 
-As I alluded too above, **Chat (<kbd>Cmd</kbd>/<kbd>Ctrl</kbd>+<kbd>L</kbd>)** is for conversation and exploration. It’s best for asking “why” or “what if” questions, brainstorming, or generating code you’ll shape yourself. I use this all of the time to think through various approaches *before* I write any code. I treat it like a co-worker that I’m bouncing ideas off of—except I don’t have to interrupt them.
+As I alluded too above, **Chat (<kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>L</kbd>)** is for conversation and exploration. It’s best for asking “why” or “what if” questions, brainstorming, or generating code you’ll shape yourself. I use this all of the time to think through various approaches *before* I write any code. I treat it like a co-worker that I’m bouncing ideas off of—except I don’t have to interrupt them.
 
 - Keep prompts specific (“Explain how this hook manages state across renders” beats “Explain this”).
 - Pull in the right context with @files or @codebase so answers stay grounded in *your* project.
 - Use it as a sounding board before you start refactoring—it’ll surface tradeoffs you might miss.
 
-**The Agent (<kbd>Cmd</kbd>/<kbd>Ctrl</kbd>+<kbd>I</kbd>)** is for execution. Think of it as delegating work to a teammate who follows your plan:
+**The Agent (<kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>I</kbd>)** is for execution. Think of it as delegating work to a teammate who follows your plan:
 
 - Start with a high-level description, then ask the agent to generate a step-by-step plan before running anything.
 - Approve changes incrementally—don’t green-light a sweeping set of edits unless you’ve reviewed the plan.

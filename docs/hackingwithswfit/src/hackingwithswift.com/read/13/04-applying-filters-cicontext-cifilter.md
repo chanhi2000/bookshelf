@@ -134,7 +134,7 @@ The third line is where the hard work happens: it creates a new data type called
 
 The fourth line creates a new `UIImage` from the `CGImage`, and line five assigns that `UIImage` to our image view. Yes, I know that `UIImage`, `CGImage` and `CIImage` all sound the same, but they are different under the hood and we have no choice but to use them here.
 
-You can now press <kbd>Cmd</kbd>+<kbd>R</kbd> to run the project as-is, then import a picture and make it sepia toned. It might be a little slow in the simulator, but I can promise you it runs brilliantly on devices - Core Image is extraordinarily fast.
+You can now press <kbd>⌘</kbd>+<kbd>R</kbd> to run the project as-is, then import a picture and make it sepia toned. It might be a little slow in the simulator, but I can promise you it runs brilliantly on devices - Core Image is extraordinarily fast.
 
 Adding a sepia effect isn't very interesting, and I want to help you explore some of the other options presented by Core Image. So, we're going to make the "Change Filter" button work: it will show a `UIAlertController` with a selection of filters, and when the user selects one it will update the image.
 

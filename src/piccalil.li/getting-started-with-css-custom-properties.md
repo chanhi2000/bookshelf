@@ -105,11 +105,29 @@ Logical properties are a perfect example of this and they have a [<VPIcon icon="
 
 This is only a quick intro to logical properties, but luckily, some other fine folks from around the web have written about them in detail:
 
-- [**CSS Logical Properties - CSS-Tricks**](/css-tricks.com/css-logical-properties.md)
+```component VPCard
+{
+  "title": "CSS Logical Properties",
+  "desc": "A property like margin-left seems fairly logical, but as Manuel Rego Casasnovas says:",
+  "link": "/css-tricks.com/css-logical-properties.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
 - [<VPIcon icon="fa-brands fa-firefox"/>CSS Logical Properties and Values - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties)
 - [Understanding Logical Properties And Values](https://smashingmagazine.com/2018/03/understanding-logical-properties-values/)
 <!-- TODO: /smashingmagazine.com/understanding-logical-properties-values.md -->
-- [**CSS Logical Properties - Adrian Roselli**](/adrianroselli.com/css-logical-properties.md)
+
+```component VPCard
+{
+  "title": "CSS Logical Properties",
+  "desc": "I have often remarked that my blog is little more than a place for me to offload my memory. I need not remember the syntax, logic, test results, etc. of every control, widget, style, browser, and so on. I can just write a post and refer to it later. This…",
+  "link": "/adrianroselli.com/css-logical-properties.md",
+  "logo": "https://adrianroselli.com/wp-content/themes/AAR/favicon.png",
+  "background": "rgba(0,0,0,0.2)"
+}
+```
 
 :::
 

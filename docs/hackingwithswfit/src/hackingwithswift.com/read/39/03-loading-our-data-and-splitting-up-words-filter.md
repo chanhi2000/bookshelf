@@ -109,7 +109,7 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 There is nothing new there, so I hope it posed no challenge for you.
 
-Press <kbd>Cmd</kbd>+<kbd>R</kbd> to run the app and you'll see a long table full of words - it works! It's a long way from perfect, though: it's breaking on apostrophes (so ALL and S are on different lines), there are blank lines, there are duplicate words (the I after ACT and SCENE is repeated), and the detail text label just says "Detail" again and again.
+Press <kbd>⌘</kbd>+<kbd>R</kbd> to run the app and you'll see a long table full of words - it works! It's a long way from perfect, though: it's breaking on apostrophes (so ALL and S are on different lines), there are blank lines, there are duplicate words (the I after ACT and SCENE is repeated), and the detail text label just says "Detail" again and again.
 
 ![The results so far: word splitting works fine, but all those empty lines aren't great, and the detail text label needs to be fixed.](https://hackingwithswift.com/img/books/hws/39-6@2x.png)
 

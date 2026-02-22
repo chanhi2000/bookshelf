@@ -188,5 +188,5 @@ To do that, replace the existing trigger with this code:
 let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
 ```
 
-With that small change you should be able to click Schedule in the simulator, then press <kbd>Cmd</kbd>+<kbd>L</kbd> to lock the device and have it show an alert just a few seconds later.
+With that small change you should be able to click Schedule in the simulator, then press <kbd>⌘</kbd>+<kbd>L</kbd> to lock the device and have it show an alert just a few seconds later.
 

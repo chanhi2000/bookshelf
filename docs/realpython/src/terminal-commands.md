@@ -634,7 +634,7 @@ clear
 
 You use the `clear` command to clear the terminal screen. It removes all the text and content currently displayed on the terminal, leaving a blank screen. For example, you might want to clear the terminal screen before you run new commands.
 
-In some terminals, you can use <kbd>Ctrl</kbd>+<kbd>L</kbd> or <kbd>Cmd</kbd>+<kbd>L</kbd> as keyboard shortcuts to clear the screen.
+In some terminals, you can use <kbd>Ctrl</kbd>+<kbd>L</kbd> or <kbd>⌘</kbd>+<kbd>L</kbd> as keyboard shortcuts to clear the screen.
 
 You’ve learned how to use `pip` directly from the terminal in this section. Knowing how to use `pip` in the terminal is crucial for any Python developer, as it allows you to effectively manage and update the packages that you use in your projects.
 

@@ -388,7 +388,7 @@ Re-running a React Native application is really as simple as refreshing a web br
   
 You can even skip having to refresh the app by enabling live reload.
 
-![Press <kbd>Cmd</kbd>+<kbd>m</kbd> for Mac or <kbd>Ctrl</kbd>+<kbd>m</kbd> for <VPIcon icon="fa-brands fa-windows"/>Windows/<VPIcon icon="fa-brands fa-linux"/>Linux in the emulator then select **Enable Live Reload**](https://koenig-media.raywenderlich.com/uploads/2017/11/emulator_enable_live_reload.png)
+![Press <kbd>⌘</kbd>+<kbd>m</kbd> for Mac or <kbd>Ctrl</kbd>+<kbd>m</kbd> for <VPIcon icon="fa-brands fa-windows"/>Windows/<VPIcon icon="fa-brands fa-linux"/>Linux in the emulator then select **Enable Live Reload**](https://koenig-media.raywenderlich.com/uploads/2017/11/emulator_enable_live_reload.png)
 
 In <VPIcon icon="fa-brands fa-js"/>`App.js`, modify the `render` method’s body to the following:
   

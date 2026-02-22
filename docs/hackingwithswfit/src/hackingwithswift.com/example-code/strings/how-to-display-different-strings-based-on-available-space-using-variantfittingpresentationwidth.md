@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 It’s surprisingly easy to configure your project with multiple strings then have it choose one at runtime based on available space.
 
-First, press <kbd>Cmd</kbd>+N in Xcode to make a new file, then choose “Stringsdict file” - this is a property list XML file containing string settings. Name it “Localizable.stringsdict”, so that iOS picks it up automatically.
+First, press <kbd>⌘</kbd>+N in Xcode to make a new file, then choose “Stringsdict file” - this is a property list XML file containing string settings. Name it “Localizable.stringsdict”, so that iOS picks it up automatically.
 
 Right-click on the new Localizable.stringsdict file in your Xcode project, then choose Open As > Source Code so you can see the XML inside. You should see that it ends like this:
 

@@ -5,6 +5,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "nav-thumbnail-flip-image", // 2026-02-26
+    "vibe-coding-deployment", // 2026-02-24
+    "virtual-scroll-driven-3d-scenes", // 2026-02-23
     "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
     "anchored-menus-and-a-lesson-in-scoping", // 2026-02-16
     "fun-with-typescript-generics", // 2026-02-13
@@ -309,6 +312,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js
       "view-transitions-playing-video", // 2026-01-20
       "the-browser-hates-surprises", // 2026-02-06
+      "virtual-scroll-driven-3d-scenes", // 2026-02-23
       // END: 2026js
       // END: js
     ]],[
@@ -543,6 +547,8 @@ export const template: SidebarInfoTemplate = {
       "background-patterns-with-css-corner-radius", // 2026-02-09
       "how-to-create-a-css-only-elastic-text-effect", // 2026-02-11
       "anchored-menus-and-a-lesson-in-scoping", // 2026-02-16
+      "virtual-scroll-driven-3d-scenes", // 2026-02-23
+      "nav-thumbnail-flip-image", // 2026-02-26
       // END: 2026css
       // END: css
     ]],[
@@ -551,6 +557,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024devops
       "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
       // END: 2025devops
+      "vibe-coding-deployment", // 2026-02-24
+      // END: 2026devops
       // END: devops
     ]],[
     "macos", [

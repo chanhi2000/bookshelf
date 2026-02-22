@@ -92,11 +92,11 @@ This new class needs to be able to represent the collection view layout we just 
 @IBOutlet var name: UILabel!
 ```
 
-Now go back to Interface Builder and select the collection view cell in the document outline. Select the identity inspector (<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>3</kbd>) and you'll see next to Class the word "UICollectionViewCell" in gray text. That's telling us that the cell is its default class type.
+Now go back to Interface Builder and select the collection view cell in the document outline. Select the identity inspector (<kbd>⌘</kbd>+<kbd>Alt</kbd>+<kbd>3</kbd>) and you'll see next to Class the word "UICollectionViewCell" in gray text. That's telling us that the cell is its default class type.
 
 We want to use our custom class here, so enter "PersonCell" and hit return. You'll see that "PersonCell" now appears in the document outline.
 
-Now that Interface Builder knows that the cell is actually a `PersonCell`, we can connect its outlets. Go to the connections inspector (it's the last one, so <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>6</kbd>) with the cell selected and you'll see `imageView` and `name` in there, both with empty circles to their right. That empty circle has exactly the same meaning as when you saw it with outlets in code: there is no connection between the storyboard and code for this outlet.
+Now that Interface Builder knows that the cell is actually a `PersonCell`, we can connect its outlets. Go to the connections inspector (it's the last one, so <kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>6</kbd>) with the cell selected and you'll see `imageView` and `name` in there, both with empty circles to their right. That empty circle has exactly the same meaning as when you saw it with outlets in code: there is no connection between the storyboard and code for this outlet.
 
 To make a connection from the connections inspector, just click on the empty circle next to `imageView` and drag a line over the view you want to connect. In our case, that means dragging over the image view in our custom cell. Now connect `name` to the label, and you're done with the storyboard.
 

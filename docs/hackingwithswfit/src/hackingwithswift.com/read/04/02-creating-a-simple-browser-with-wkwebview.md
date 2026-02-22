@@ -154,7 +154,7 @@ Your URL must be complete, and valid, in order for this process to work. That me
 
 The third line enables a property on the web view that allows users to swipe from the left or right edge to move backward or forward in their web browsing. This is a feature from the Safari browser that many users rely on, so it's nice to keep it around.
 
-It’s time to run the app, so please press <kbd>Cmd</kbd>+<kbd>R</kbd> to run your app, and you should be able to view your website. Step one done!
+It’s time to run the app, so please press <kbd>⌘</kbd>+<kbd>R</kbd> to run your app, and you should be able to view your website. Step one done!
 
 ![Just by embedding a web view into the app, we can now render any website content - win!](https://hackingwithswift.com/img/books/hws/4-1@2x.png)
 

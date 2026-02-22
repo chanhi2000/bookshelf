@@ -79,7 +79,7 @@ Xcode will ask which files should be used to create the French localization. Lea
 
 Go to the File menu and choose New > File, then select Strings File from the list of file types and click Next. Give this file the name “Localizable.strings”, then click Create to open it for editing.
 
-By default this new file won’t be enabled for l10n, but if you activate the file inspector (Alt+<kbd>Cmd</kbd>+1) you should be able to find and click the Localize button. This will ask you what language this file should be moved to, but it’s empty so it doesn’t matter what you choose - I went for English. When you dismiss the dialog you’ll see the Localize button has been replaced with checkboxes for your available languages - please check them both.
+By default this new file won’t be enabled for l10n, but if you activate the file inspector (Alt+<kbd>⌘</kbd>+1) you should be able to find and click the Localize button. This will ask you what language this file should be moved to, but it’s empty so it doesn’t matter what you choose - I went for English. When you dismiss the dialog you’ll see the Localize button has been replaced with checkboxes for your available languages - please check them both.
 
 Once both languages are selected you’ll see a disclosure indicator appear next to Localizable.strings in your project navigator. This is because it’s now available in both our languages: if you open that indicator arrow you’ll see “Localizable.strings (English)” and “Localizable.strings (French)”, both as separate text files you can edit. I’d like you to choose the English variant to start with.
 

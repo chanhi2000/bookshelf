@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/J7d0XPBYwKw" />
 
-We've been mixing UIKit and SpriteKit ever since our first SpriteKit project, way back in project 11. Don't believe me? Look inside `GameViewController.swift` and you'll see a plain old `UIViewController` do all the work of loading and showing our `GameScene` code. There's a <VPIcon icon="iconfont icon-xcode"/>`Main.storyboard` file containing that view controller, and if you go to the identity inspector (<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd>) you'll see it has `SKView` set for its custom class - that's the view holding our scene.
+We've been mixing UIKit and SpriteKit ever since our first SpriteKit project, way back in project 11. Don't believe me? Look inside `GameViewController.swift` and you'll see a plain old `UIViewController` do all the work of loading and showing our `GameScene` code. There's a <VPIcon icon="iconfont icon-xcode"/>`Main.storyboard` file containing that view controller, and if you go to the identity inspector (<kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>3</kbd>) you'll see it has `SKView` set for its custom class - that's the view holding our scene.
 
 This UIKit setup existed all along, but so far we've been ignoring it. No more: we're going to add some controls to that view so that players can fire bananas. The way the game works, each player gets to enter an angle and a velocity for their throw. We'll be recreating this with a `UISlider` for both of these numbers, along with a `UILabel` so players can see exactly what numbers they chose. We'll also add a "Launch" button that makes the magic happen.
 

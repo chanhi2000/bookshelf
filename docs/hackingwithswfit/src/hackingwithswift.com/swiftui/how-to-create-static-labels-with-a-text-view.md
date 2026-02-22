@@ -69,7 +69,7 @@ Inside the preview window for your content view you're likely to see “Automati
 
 ::: tip
 
-You can press <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>P</kbd> to resume these previews at any time.
+You can press <kbd>Opt</kbd>+<kbd>⌘</kbd>+<kbd>P</kbd> to resume these previews at any time.
 
 :::
 

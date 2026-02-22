@@ -62,7 +62,7 @@ First, though, an important lesson: SwiftUI is designed to be _composable_, whic
 
 A better idea is to make a new view type that we can embed _inside_ `ContentView`, and SwiftUI is designed to make this both easy (it takes only 30 seconds to learn) and extremely fast (it has almost zero performance impact).
 
-So, press <kbd>Cmd</kbd>+<kbd>N</kbd> to create a new file, choose SwiftUI View under the User Interface category, then call it “ItemRow”. You'll see Xcode has generated a new view with some sample code to get us started:
+So, press <kbd>⌘</kbd>+<kbd>N</kbd> to create a new file, choose SwiftUI View under the User Interface category, then call it “ItemRow”. You'll see Xcode has generated a new view with some sample code to get us started:
 
 ```swift
 struct ItemRow: View {

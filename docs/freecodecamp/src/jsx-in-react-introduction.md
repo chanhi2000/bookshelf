@@ -409,7 +409,7 @@ and you want to add a comment for that code, then you have to wrap that code in 
 
 ::: tip
 
-Instead of manually typing the comment, you can use <kbd>Cmd</kbd>+<kbd>/</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>/</kbd> shortcut keys to add or remove the comment.
+Instead of manually typing the comment, you can use <kbd>⌘</kbd>+<kbd>/</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>/</kbd> shortcut keys to add or remove the comment.
 
 :::
 

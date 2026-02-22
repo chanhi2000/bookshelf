@@ -38,6 +38,7 @@ export const sidebarEn = sidebar({
   '/una.im/':                     [asb.una()],
   '/joshwcomeau.com/':            [asb.joshwcomeau()],
   '/ishadeed.com/':               [asb.ishadeed()],
+  '/adrianroselli.com/':          [asb.adrianRoselli()],
   '/css-tip.com/':                [asb.cssTip()],
   // '/css-loaders.com/':            [asb.cssLoaders()],
   '/nerdy.dev/':                  [asb.adamArgyle()],

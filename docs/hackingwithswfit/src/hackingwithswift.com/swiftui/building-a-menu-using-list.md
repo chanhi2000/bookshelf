@@ -83,9 +83,9 @@ That isn't much code, but it already tells us a lot:
 
 You should also see a preview pane on the right of Xcode. This updates as you type, which makes it a great way to see your changes as you work. If you don't see the preview pane on the right, go to the Editor menu and choose Canvas.
 
-In the event that Xcode's preview area stops - which will happen quite often - you can press <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>P</kbd> to make it resume showing your layouts.
+In the event that Xcode's preview area stops - which will happen quite often - you can press <kbd>Opt</kbd>+<kbd>⌘</kbd>+<kbd>P</kbd> to make it resume showing your layouts.
 
-__This is really important so I'm repeating it: pressing <kbd>Cmd</kbd>+<kbd>Opt</kbd>+<kbd>P</kbd> will make your SwiftUI preview update.__
+__This is really important so I'm repeating it: pressing <kbd>⌘</kbd>+<kbd>Opt</kbd>+<kbd>P</kbd> will make your SwiftUI preview update.__
 
 ![Xcode showing code on one side and the SwiftUI preview area on the other side.](https://hackingwithswift.com/img/books/quick-start/swiftui/2-3~dark.png)
 

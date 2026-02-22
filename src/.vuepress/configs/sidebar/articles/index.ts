@@ -27,6 +27,7 @@ import { template as TEMPLATE_BRAMUS } from './bram.us';
 import { template as TEMPLATE_UNA } from './una.im';
 import { template as TEMPLATE_JOSH_W_COMEAU } from './joshwcomeau.com';
 import { template as TEMPLATE_ISHADEED } from './ishadeed.com'
+import { template as TEMPLATE_ADRIAN_ROSELLI } from './adrianroselli.com'
 import { template as TEMPLATE_CSS_TIP } from './css-tip.com';
 // import { template as TEMPLATE_CSS_LOADERS } from './css-loaders.com';
 import { template as TEMPLATE_ADAM_ARGYLE } from './nerdy.dev';
@@ -174,6 +175,7 @@ export const articleSidebars = {
   una:                (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_UNA, type),
   joshwcomeau:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_JOSH_W_COMEAU, type),
   ishadeed:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ISHADEED, type),
+  adrianRoselli:      (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ADRIAN_ROSELLI, type),
   cssTip:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_TIP, type),
   // cssLoaders:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_LOADERS, type),
   adamArgyle:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ADAM_ARGYLE, type),

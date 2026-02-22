@@ -229,7 +229,7 @@ if activeEnemies.count > 0 {
 }
 ```
 
-And now the part you've been waiting for extremely patiently: press <kbd>Cmd</kbd>+<kbd>R</kbd> to run the game, because it should now be getting close to useful!
+And now the part you've been waiting for extremely patiently: press <kbd>⌘</kbd>+<kbd>R</kbd> to run the game, because it should now be getting close to useful!
 
 ![Now that the game has bombs as well as penguins, it's almost starting to come together.](https://hackingwithswift.com/img/books/hws/23-3@2x.png)
 

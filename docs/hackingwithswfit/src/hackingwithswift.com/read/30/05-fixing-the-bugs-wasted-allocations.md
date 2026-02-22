@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/q9BT3dK8sQs" />
 
-Back in Xcode, press <kbd>Cmd</kbd>+<kbd>I</kbd> to launch a fresh instance of Instruments, and this time I want you to choose the Allocations instrument. This tells you how many objects you're creating and what happens to them. Press record, then scroll around the table view a few times to get a complete picture of the app running. At the very least, you should go all the way down to the bottom and back up two or three times.
+Back in Xcode, press <kbd>⌘</kbd>+<kbd>I</kbd> to launch a fresh instance of Instruments, and this time I want you to choose the Allocations instrument. This tells you how many objects you're creating and what happens to them. Press record, then scroll around the table view a few times to get a complete picture of the app running. At the very least, you should go all the way down to the bottom and back up two or three times.
 
 What you'll see is a huge collection of information being shown - lots of "malloc", lots of "CFString", lots of "__NSArrayM” and more. Stuff we just don't care about right now, because most of the code we have is user interface work. Fortunately, there's a search box just below the detail pane - it should say "Instrument Detail" but if you type "UI" in there it will only show information that has "UI" somewhere in there, which just happens to be all of Apple's user interface libraries!
 

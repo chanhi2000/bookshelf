@@ -72,9 +72,9 @@ If you’re like me, you may find the text and buttons in DevTools too small to 
 
 Well, it turns out you can actually zoom into the DevTools UI.
 
-DevTools’ user interface is built with HTML, CSS, and JavaScript, which means that it’s rendered as web content by the browser. And just like any other web content in browsers, it can be zoomed in or out by using the <kbd>Ctrl</kbd>+<kbd>+</kbd> and <kbd>Ctrl</kbd>+<kbd>-</kbd> keyboard shortcuts (or <kbd>Cmd</kbd>+<kbd>+</kbd> and <kbd>Cmd</kbd>+<kbd>-</kbd> on macOS).
+DevTools’ user interface is built with HTML, CSS, and JavaScript, which means that it’s rendered as web content by the browser. And just like any other web content in browsers, it can be zoomed in or out by using the <kbd>Ctrl</kbd>+<kbd>+</kbd> and <kbd>Ctrl</kbd>+<kbd>-</kbd> keyboard shortcuts (or <kbd>⌘</kbd>+<kbd>+</kbd> and <kbd>⌘</kbd>+<kbd>-</kbd> on macOS).
 
-So, if you find the text in DevTools too small to read, click anywhere in DevTools to make sure the focus is there, and then press <kbd>Ctrl</kbd>+<kbd>+</kbd> (or <kbd>Cmd</kbd>+<kbd>+</kbd> on macOS).
+So, if you find the text in DevTools too small to read, click anywhere in DevTools to make sure the focus is there, and then press <kbd>Ctrl</kbd>+<kbd>+</kbd> (or <kbd>⌘</kbd>+<kbd>+</kbd> on macOS).
 
 <VidStack src="vimeo/836119521" />
 
@@ -92,7 +92,7 @@ Unfortunately, a big part of the web today suffers from a disease where content 
 
 While there are other solutions to do this (like using Reader Mode in some browsers), those of us who spend our entire lives within DevTools might prefer this tip:
 
-- Click the button in DevTools to select an element. That’s the pointer-looking icon in the top-left corner. You can also use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> instead (or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> on macOS).
+- Click the button in DevTools to select an element. That’s the pointer-looking icon in the top-left corner. You can also use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> instead (or <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd> on macOS).
 - Now, hover the page and select the nasty popup or overlay you want to remove by clicking it.
 - Press <kbd>Delete</kbd> on your keyboard!
 
@@ -162,7 +162,7 @@ This may seem obvious, but today’s complex web apps often load huge bundles of
 
 In Chromium-based browsers, you can use the **Coverage** tool to identify which parts of your code are unused. Here is how:
 
-1. Open the **Coverage** tool. You can use the Command Menu as a shortcut: press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on macOS), type “coverage” and then press <kbd>Enter</kbd>.
+1. Open the **Coverage** tool. You can use the Command Menu as a shortcut: press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on macOS), type “coverage” and then press <kbd>Enter</kbd>.
 2. Click **Start instrumenting coverage and refresh the page**.
 3. Wait for the page to reload and for the coverage report to appear.
 4. Click any of the reported files to open them in the **Sources** tool.
@@ -358,7 +358,7 @@ A three-dimensional representation of these structures can help see things in a 
 
 Edge is the only browser that provides a tool dedicated to visualizing webpages in 3D in a variety of ways.
 
-1. The easiest way to open it is by using the **Command Menu**. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on macOS), type “3D” and then press <kbd>Enter</kbd>.
+1. The easiest way to open it is by using the **Command Menu**. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on macOS), type “3D” and then press <kbd>Enter</kbd>.
 2. In the **3D View** tool, choose between the three different modes: **Z-Index**, **DOM**, and **Composited Layers**.
 3. Use your mouse cursor to pan, rotate, or zoom the 3D scene.
 
@@ -457,9 +457,9 @@ That being said,
 
 Here are the easiest ways to simulate devices per browser:
 
-- In Safari, press <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>R</kbd>, or click **Develop** in the menu bar and then click **Enter Responsive Design Mode**.
-- In Firefox, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd> (or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd>), or use the browser menu → **More tools** → **Responsive design mode**.
-- In Chrome or Edge, open DevTools first, then press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd> (or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd>), or click the **Device Toolbar** icon.
+- In Safari, press <kbd>Ctrl</kbd>+<kbd>⌘</kbd>+<kbd>R</kbd>, or click **Develop** in the menu bar and then click **Enter Responsive Design Mode**.
+- In Firefox, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd> (or <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd>), or use the browser menu → **More tools** → **Responsive design mode**.
+- In Chrome or Edge, open DevTools first, then press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd> (or <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd>), or click the **Device Toolbar** icon.
 
 Here is how simulating devices looks in Safari:
 

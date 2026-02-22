@@ -92,7 +92,7 @@ Note that we need to typecast our collection view cell as a `PersonCell` because
 
 These two new methods both come from collection views, but I think you’ll find them both remarkably similar to the table view methods we’ve been using so far - you can go back and open project 1 again to see just how similar!
 
-Press <kbd>Cmd</kbd>+<kbd>R</kbd> to run your project now, and you'll see the beginning of things start to come together: the prototype cell you designed in Interface Builder will appear 10 times, and you can scroll up and down to view them all. As you'll see, you can fit two cells across the screen, which is what makes the collection view different to the table view. Plus, if you rotate to landscape you'll see it automatically (and beautifully) animates the movement of cells so they take up the full width.
+Press <kbd>⌘</kbd>+<kbd>R</kbd> to run your project now, and you'll see the beginning of things start to come together: the prototype cell you designed in Interface Builder will appear 10 times, and you can scroll up and down to view them all. As you'll see, you can fit two cells across the screen, which is what makes the collection view different to the table view. Plus, if you rotate to landscape you'll see it automatically (and beautifully) animates the movement of cells so they take up the full width.
 
 ![A UICollectionView filled with our basic cell design.](https://hackingwithswift.com/img/books/hws/10-4@2x.png)
 

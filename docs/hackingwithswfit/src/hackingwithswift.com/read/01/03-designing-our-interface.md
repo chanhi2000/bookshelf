@@ -91,13 +91,13 @@ The best way to view, select, edit, and delete items in Interface Builder is to 
 
 The document outline shows you all the components in all the screens in your storyboard. You should see “View Controller Scene” already in there, so please select it, then press Backspace on your keyboard to remove it.
 
-Instead of a boring old `UIViewController`, we want a fancy new `UITableViewController` to match the change we made in our code. To create one, press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> to show the object library. Alternatively, if you dislike keyboard shortcuts you can go to the View menu and choose Libraries > Show Library instead.
+Instead of a boring old `UIViewController`, we want a fancy new `UITableViewController` to match the change we made in our code. To create one, press <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> to show the object library. Alternatively, if you dislike keyboard shortcuts you can go to the View menu and choose Libraries > Show Library instead.
 
 The object library floats over the Xcode window, and contains a selection of graphical components that you can drag out and re-arrange to your heart’s content. It contains quite a lot of components, so you might find it useful to enter a few letters into the “Objects” box to slim down the selection.
 
 ::: tip
 
-If you want the object library to remain open after you drag something out, use <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> and it will be a movable, resizable window when it appears.
+If you want the object library to remain open after you drag something out, use <kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> and it will be a movable, resizable window when it appears.
 
 :::
 
@@ -113,9 +113,9 @@ Click on the Table View Controller component, then drag it out into the large op
 
 Before we’re done here, we need to make a few small changes.
 
-First, we need to tell Xcode that this storyboard table view controller is the same one we have in code inside <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift`. To do that, press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd> to activate the identity inspector (or go to View > Utilities > Show Identity Inspector), then look at the very top for a box named “Class”. It will have “UITableViewController” written in there in light gray text, but if you click the arrow on its right side you should see a dropdown menu that contains “ViewController” - please select that now.
+First, we need to tell Xcode that this storyboard table view controller is the same one we have in code inside <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift`. To do that, press <kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>3</kbd> to activate the identity inspector (or go to View > Utilities > Show Identity Inspector), then look at the very top for a box named “Class”. It will have “UITableViewController” written in there in light gray text, but if you click the arrow on its right side you should see a dropdown menu that contains “ViewController” - please select that now.
 
-Second, we need to tell Xcode that this new table view controller is what should be shown when the app first runs. To do that, press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd> to activate the attributes inspector (or go to View > Utilities > Show Attributes Inspector), then look for the checkbox named “Is Initial View Controller” and make sure it’s checked.
+Second, we need to tell Xcode that this new table view controller is what should be shown when the app first runs. To do that, press <kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>4</kbd> to activate the attributes inspector (or go to View > Utilities > Show Attributes Inspector), then look for the checkbox named “Is Initial View Controller” and make sure it’s checked.
 
 Third, I want you to use the document outline to look inside the new table view controller. Inside you should see it contains a “Table View”, which in turn contains “Cell”. A table view cell is responsible for displaying one row of data in a table, and we’re going to display one picture name in each cell.
 
@@ -125,7 +125,7 @@ Finally, we’re going to place this whole table view controller inside somethin
 
 To place our table view controller into a navigation controller, all you need to do is go to the Editor menu and choose <VPIcon icon="iconfont icon-select"/>`[Embed In]` > `[Navigation Controller]`. Interface Builder will move your existing view controller to the right and add a navigation controller around it - you should see a simulated gray bar above your table view now. It will also move the “Is Initial View Controller” property to the navigation controller.
 
-At this point you’ve done enough to take a look at the results of your work: press Xcode’s play button now, or press <kbd>Cmd</kbd>+<kbd>R</kbd> if you want to feel a bit elite. Once your code runs, you’ll now see the plain white box replaced with a large empty table view. If you click and drag your mouse around, you’ll see it scrolls and bounces as you would expect, although obviously there’s no data in there yet. You should also see a gray navigation bar at the top; that will be important later on.
+At this point you’ve done enough to take a look at the results of your work: press Xcode’s play button now, or press <kbd>⌘</kbd>+<kbd>R</kbd> if you want to feel a bit elite. Once your code runs, you’ll now see the plain white box replaced with a large empty table view. If you click and drag your mouse around, you’ll see it scrolls and bounces as you would expect, although obviously there’s no data in there yet. You should also see a gray navigation bar at the top; that will be important later on.
 
 ---
 

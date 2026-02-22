@@ -73,9 +73,9 @@ That takes four parameters in total: the input string to read, modifier flags, a
 
 First, the input string is the actual alphanumeric key that must be pressed in order to trigger your shortcut. You can specify literals here such as “f”, “t”, or “3”, or use constants such as `UIKeyInputUpArrow`, `UIKeyInputLeftArrow`, or `UIKeyInputEscape`.
 
-Second, the modifier flags parameter accepts an option set of key modifiers. We’re using `.command` above to make <kbd>Cmd</kbd>+F a shortcut, but we could easily have used `[.command, .shift]` to make <kbd>Cmd</kbd>+<kbd>Shift</kbd>+F a shortcut.
+Second, the modifier flags parameter accepts an option set of key modifiers. We’re using `.command` above to make <kbd>⌘</kbd>+F a shortcut, but we could easily have used `[.command, .shift]` to make <kbd>⌘</kbd>+<kbd>Shift</kbd>+F a shortcut.
 
-Third, the selector parameter determines what code is run when the shortcut is triggered - the code above will call a `findFriends()` method on your view controller when <kbd>Cmd</kbd>+F is pressed. Because this is called from the Objective-C runtime you’ll need to mark it `@objc`, like this:
+Third, the selector parameter determines what code is run when the shortcut is triggered - the code above will call a `findFriends()` method on your view controller when <kbd>⌘</kbd>+F is pressed. Because this is called from the Objective-C runtime you’ll need to mark it `@objc`, like this:
 
 ```swift
 @objc func findFriends() {

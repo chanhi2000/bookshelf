@@ -71,7 +71,7 @@ struct ContentView: View {
 
 > [<VPIcon icon="fas fa-file-zipper"/>Download this as an Xcode project](https://hackingwithswift.com/files/projects/swiftui/how-to-let-users-find-and-replace-text-1.zip)
 
-To try that out, tap to activate the `TextEditor`, then press <kbd>Cmd</kbd>+<kbd>F</kbd> to active search, or press <kbd>Option</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> to activate search and replace.
+To try that out, tap to activate the `TextEditor`, then press <kbd>⌘</kbd>+<kbd>F</kbd> to active search, or press <kbd>Option</kbd>+<kbd>⌘</kbd>+<kbd>F</kbd> to activate search and replace.
 
 ::: note
 

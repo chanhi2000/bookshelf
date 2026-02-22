@@ -151,11 +151,11 @@ The first symbol, `[`, symbolises the start of an array. The second symbol, `{`,
 
 I'm not going to claim that JSON is easy to read, but at least the default example uses lots of whitespace so you can see what's going on: this rule will block one particular example image.
 
-Press <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run your app. The iOS Simulator will launch, and you'll be left staring at a blank screen - or at least you ought to be. My Xcode 7 beta is a bit temperamental and sometimes I need to <kbd>Cmd</kbd>+<kbd>R</kbd> again after five seconds or so.
+Press <kbd>⌘</kbd>+<kbd>R</kbd> to build and run your app. The iOS Simulator will launch, and you'll be left staring at a blank screen - or at least you ought to be. My Xcode 7 beta is a bit temperamental and sometimes I need to <kbd>⌘</kbd>+<kbd>R</kbd> again after five seconds or so.
 
 Anyway, that white screen is your app. We don't care about the app, because that's a whole other world. Of course, if you want to [learn how to make apps for iPhone and iPad](https://hackingwithswift.com) you've come to the right site!
 
-Instead, I want you to press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> in the iOS Simulator to return to the home screen. Now swipe to the left to find the Settings app, then choose Safari > Content Blockers and you should see NoMoreMail listed in there. It's off by default, but just flick the switch next to it and the content blocker becomes active. What's more, it becomes active inside Safari, and inside any apps that use [the new iOS 9 `SFSafariViewController`](/hackingwithswift.com/read/32/overview.md).
+Instead, I want you to press <kbd>Shift</kbd>+<kbd>⌘</kbd>+<kbd>H</kbd> in the iOS Simulator to return to the home screen. Now swipe to the left to find the Settings app, then choose Safari > Content Blockers and you should see NoMoreMail listed in there. It's off by default, but just flick the switch next to it and the content blocker becomes active. What's more, it becomes active inside Safari, and inside any apps that use [the new iOS 9 `SFSafariViewController`](/hackingwithswift.com/read/32/overview.md).
 
 When you flicked that switch, iOS animated it from white to green. But behind the scenes a huge amount more happened: it ran your extension, fetched out the blockerList.json file, and compiled it into an optimized form representing all your rules. That optimized form is what's given to Safari, which is why this new model is so much faster - extensions don't link into Safari at all, they just provide rules once, up front, then let Safari do the rest.
 
@@ -197,7 +197,7 @@ As I said, the URL filter is a regular expression, which is a way of representin
 
 This is a bit like killing a fly by beating it to death with a loaded Uzi, but it's just our first draft and I want to make sure you have everything working.
 
-So, press <kbd>Cmd</kbd>+<kbd>R</kbd> to launch your app, then press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> to go to Settings, then find and toggle your content blocker in the Safari settings. Remember: you need to do this every time you want iOS to re-read your blockerList.json file.
+So, press <kbd>⌘</kbd>+<kbd>R</kbd> to launch your app, then press <kbd>Shift</kbd>+<kbd>⌘</kbd>+<kbd>H</kbd> to go to Settings, then find and toggle your content blocker in the Safari settings. Remember: you need to do this every time you want iOS to re-read your blockerList.json file.
 
 And now to take a small risk: launch Safari and go to [<VPIcon icon="fas fa-globe"/>dailymail.co.uk](www.dailymail.co.uk). If you've followed the steps above correctly, you'll see a blank page - Safari will simply refuse to load the page.
 

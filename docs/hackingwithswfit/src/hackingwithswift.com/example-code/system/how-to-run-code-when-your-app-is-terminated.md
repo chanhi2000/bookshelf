@@ -169,7 +169,7 @@ Xcode has an option for this built right in, so go ahead and launch your app and
 
 An alternative is to run your whole app as if it were a background launch, which is an option you can enable for your launch schemes. To try this out, hold down the Alt key then go to the Product menu and choose “Run…”. This will let you edit the “Run” schema for your app, and you should see “Launch due to a background fetch event” as one of the checkboxes there. 
 
-When you check that box and click Run, you’ve modified the Run schema so that your app is *always* run as a background fetch - even next time when you just click play or press <kbd>Cmd</kbd>+R. You’ll probably want to leave that box unchecked most of the time!
+When you check that box and click Run, you’ve modified the Run schema so that your app is *always* run as a background fetch - even next time when you just click play or press <kbd>⌘</kbd>+R. You’ll probably want to leave that box unchecked most of the time!
 
 -->
 

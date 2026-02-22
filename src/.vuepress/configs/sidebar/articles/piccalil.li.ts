@@ -30,6 +30,7 @@ const Y2024: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2024
+    "practical-accessibility-tips-you-can-apply-today", // 2024-10-03
     "a-handful-of-reasons-javascript-wont-be-available", // 2024-07-31
     "styling-tables-the-modern-css-way", // 2024-07-18
     "its-about-time-i-tried-to-explain-what-progressive-enhancement-actually-is", // 2024-07-03
@@ -219,6 +220,7 @@ export const template: SidebarInfoTemplate = {
       "masonry-and-tabbing", // 2024-05-13
       "its-about-time-i-tried-to-explain-what-progressive-enhancement-actually-is", // 2024-07-03
       "styling-tables-the-modern-css-way", // 2024-07-18
+      "practical-accessibility-tips-you-can-apply-today", // 2024-10-03
       // END: 2024css
       "a-workaround-for-using-custom-properties-in-media-queries", // 2025-10
       "a-pragmatic-guide-to-modern-css-colours-part-one", // 2025-10-07

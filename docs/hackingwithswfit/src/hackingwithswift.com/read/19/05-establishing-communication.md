@@ -85,7 +85,7 @@ In the picture below you can see where your extension's icon should appear insid
 
 ![](https://hackingwithswift.com19-2https://hackingwithswift.com/img/books/hws/19-2@2x.png)Look for your extension inside Safari's action menu.
 
-When your app runs, you should see messages in the console at the bottom of your Xcode window. If the console isn't visible, use <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>C</kbd> to activate it, and you should see something like this:
+When your app runs, you should see messages in the console at the bottom of your Xcode window. If the console isn't visible, use <kbd>Shift</kbd>+<kbd>⌘</kbd>+<kbd>C</kbd> to activate it, and you should see something like this:
 
 ```swift
 {

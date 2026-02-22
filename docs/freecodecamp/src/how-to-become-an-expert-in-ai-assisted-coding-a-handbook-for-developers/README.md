@@ -282,7 +282,7 @@ If you don't have it, download from [<VPIcon icon="iconfont icon-vscode"/>code.v
 
 ##### 2. Install the Extension
 
-- Press <kbd>Ctrl</kbd>+<kbd>v</kbd>+<kbd>X</kbd> (<VPIcon icon="fa-brands fa-windows"/><VPIcon icon="fa-brands fa-linux"/>) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (<VPIcon icon="iconfont icon-macos"/>)
+- Press <kbd>Ctrl</kbd>+<kbd>v</kbd>+<kbd>X</kbd> (<VPIcon icon="fa-brands fa-windows"/><VPIcon icon="fa-brands fa-linux"/>) or <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (<VPIcon icon="iconfont icon-macos"/>)
 - Type "GitHub Copilot" in the search box
 - Click the blue "Install" button
 - You'll see a pop-up asking you to sign in
@@ -620,7 +620,7 @@ For autonomous development:
 "Migrate this codebase from Vue 2 to Vue 3"
 ```
 
-- Press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>I</kbd> (<VPIcon icon="iconfont icon-macos"/>) or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> (<VPIcon icon="fa-brands fa-windows"/>/<VPIcon icon="fa-brands fa-linux"/>)
+- Press <kbd>Shift</kbd>+<kbd>⌘</kbd>+<kbd>I</kbd> (<VPIcon icon="iconfont icon-macos"/>) or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> (<VPIcon icon="fa-brands fa-windows"/>/<VPIcon icon="fa-brands fa-linux"/>)
 - Works independently for hours
 - Installs packages, creates files, runs tests automatically
 

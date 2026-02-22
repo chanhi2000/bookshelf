@@ -777,7 +777,7 @@ open iosApp.xcodeproj
   - In Xcode, click on the device selection dropdown
   - Choose your preferred iOS Simulator (e.g., iPhone 15, iPad Pro)
 - **Build and Run:**
-  - Press <kbd>Cmd</kbd>+<kbd>R</kbd> or click the Run button
+  - Press <kbd>⌘</kbd>+<kbd>R</kbd> or click the Run button
   - Xcode will build the project and launch the iOS Simulator
 
 ### 4. Development Workflow

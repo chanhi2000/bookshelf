@@ -109,7 +109,7 @@ That's all it takes to add things to the shared order, but we can't actually *se
 
 To make *that* happen we need to create a new screen that shows the user's order so far, then put that into a tab bar with our existing content view.
 
-So, press <kbd>Cmd</kbd>+<kbd>N</kbd> to make a new SwiftUI View, calling this one “OrderView”. Because this needs to have the same `Order` instance as the rest of our app, you'll need to give it the same property we gave `ItemDetail`:
+So, press <kbd>⌘</kbd>+<kbd>N</kbd> to make a new SwiftUI View, calling this one “OrderView”. Because this needs to have the same `Order` instance as the rest of our app, you'll need to give it the same property we gave `ItemDetail`:
 
 ```swift
 @EnvironmentObject var order: Order

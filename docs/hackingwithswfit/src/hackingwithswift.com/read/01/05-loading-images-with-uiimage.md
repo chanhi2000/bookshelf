@@ -142,7 +142,7 @@ if let imageToLoad = selectedImage {
 
 The first line is what checks and unwraps the optional in `selectedImage`. If for some reason `selectedImage` is nil (which it should never be, in theory) then the `imageView.image` line will never be executed. If it has a value, it will be placed into `imageToLoad`, then passed to `UIImage` and loaded.
 
-OK, that’s it: press play or <kbd>Cmd</kbd>+<kbd>R</kbd> now to run the app and try it out! You should be able to select any of the pictures to have them slide in and displayed full screen.
+OK, that’s it: press play or <kbd>⌘</kbd>+<kbd>R</kbd> now to run the app and try it out! You should be able to select any of the pictures to have them slide in and displayed full screen.
 
 Notice that we get a Back button in the navigation bar that lets us return back to `ViewController`. If you click and drag carefully, you’ll find you can create a swipe gesture too - click at the very left edge of the screen, then drag to the right, just as you would do with your thumb on a phone.
 

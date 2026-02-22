@@ -58,7 +58,7 @@ isOriginal: false
 
 When you want to show two separate views with SwiftUI, the easiest and most user-intuitive approach is with a tab bar across the bottom of our app. In our case, that means we'll put our menu view in one tab and the active order in another. SwiftUI gives us a `TabView` for just this purpose, and it works much like a `UITabBarController`.
 
-Press <kbd>Cmd</kbd>+<kbd>N</kbd> to create a new SwiftUI View, calling it “MainView”. Creating tabs is as easy as putting different views inside an instance of `TabView`, but in order to add an image and text to the tab bar item of each view we need to use the `tabItem()` modifier.
+Press <kbd>⌘</kbd>+<kbd>N</kbd> to create a new SwiftUI View, calling it “MainView”. Creating tabs is as easy as putting different views inside an instance of `TabView`, but in order to add an image and text to the tab bar item of each view we need to use the `tabItem()` modifier.
 
 Before we write the code `MainView`, it's important to remember to add an `Order` instance into the preview environment so the `OrderView` can work:
 
@@ -119,7 +119,7 @@ MainView()
     .environmentObject(order)
 ```
 
-Now - at last! - you should be able to press <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run your app, select some food, add it to your order, and see that information appear in the `Order` tab automatically.
+Now - at last! - you should be able to press <kbd>⌘</kbd>+<kbd>R</kbd> to build and run your app, select some food, add it to your order, and see that information appear in the `Order` tab automatically.
 
 What I love about this approach is that we're not doing the real heavy lifting of making different parts of our UI sync up - the `ObservableObject` protocol and `@EnvironmentObject` attribute are making sure all parts of our UI stay up to date. So, as soon as the `ItemDetail` screen announces that something has been added to the order, the `OrderView` screen will automatically refresh to show the changes.
 

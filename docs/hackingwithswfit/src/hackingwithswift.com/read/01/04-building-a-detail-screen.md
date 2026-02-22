@@ -71,7 +71,7 @@ Now, if you look in the document outline you’ll see a second “View Controlle
 
 When we created our table view cell previously, we gave it an identifier so that we could load it in code. We need to do the same thing for this new screen. When you selected it a moment ago, it should have highlighted “View” in the document outline. Above that will be “View Controller” with a yellow icon next to it - please click on that to select the whole view controller now.
 
-To give this view controller a name, go to the identity inspector by pressing <kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>3</kbd> or by using the menu. Now enter “Detail” where it says “Storyboard ID”. That’s it: we can now refer to this view controller as “Detail” in code. While you’re there, please click the arrow next to the Class box and select “DetailViewController” so that our user interface is connected to the new code we made earlier.
+To give this view controller a name, go to the identity inspector by pressing <kbd>⌘</kbd>+<kbd>Alt</kbd>+<kbd>3</kbd> or by using the menu. Now enter “Detail” where it says “Storyboard ID”. That’s it: we can now refer to this view controller as “Detail” in code. While you’re there, please click the arrow next to the Class box and select “DetailViewController” so that our user interface is connected to the new code we made earlier.
 
 Now for the interesting part: we want this screen to display the user’s selected image nice and big, so we need to use a new user interface component called `UIImageView`. As you should be able to tell from the name, this is a part of UIKit (hence the “UI”), and is responsible for viewing images - perfect!
 
@@ -94,7 +94,7 @@ You can create Auto Layout rules - known as *constraints* - entirely inside Inte
 
 We're going to create four constraints now: one each for the top, bottom, left and right of the image view so that it expands to fill the detail view controller regardless of its size. There are lots of ways of adding Auto Layout constraints, but the easiest way right now is to select the image view then go to the Editor menu and choose > Resolve Auto Layout Issues > Reset To Suggested Constraints.
 
-You’ll see that option listed twice in the menu because there are two subtly different options, but in this instance it doesn’t matter which one you choose. If you prefer keyboard shortcuts, press <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>=</kbd> to accomplish the same thing.
+You’ll see that option listed twice in the menu because there are two subtly different options, but in this instance it doesn’t matter which one you choose. If you prefer keyboard shortcuts, press <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>=</kbd> to accomplish the same thing.
 
 Visually, your layout will look pretty much identical once you've added the constraints, but there are two subtle differences. First, there's a thin blue line surrounding the `UIImageView` on the detail view controller, which is Interface Builder's way of showing you that the image view has a correct Auto Layout definition.
 
@@ -106,7 +106,7 @@ This property is like the `pictures` array we made previously, but it has a litt
 
 Let’s dive in, and I’ll explain on the way. Xcode has a special display layout called the Assistant Editor, which splits your Xcode editor in two: the view you had before on top, and a related view at the bottom. In this case, it's going to show us Interface Builder on top, and the code for the detail view controller below. 
 
-Xcode decides what code to show based on what item is selected in Interface Builder, so make sure the image view is still selected and choose View > Assistant Editor > Show Assistant Editor from the menu. You can also use the keyboard shortcut <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>Return</kbd> if you prefer.
+Xcode decides what code to show based on what item is selected in Interface Builder, so make sure the image view is still selected and choose View > Assistant Editor > Show Assistant Editor from the menu. You can also use the keyboard shortcut <kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>Return</kbd> if you prefer.
 
 Xcode can display the assistant editor as two vertical panes rather than two horizontal panes. I find the horizontal panes easiest - i.e., one above the other. You can switch between them by going to View > Assistant Editor and choosing either Assistant Editors On Right or Assistant Editors on Bottom.
 

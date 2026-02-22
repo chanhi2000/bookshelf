@@ -138,7 +138,7 @@ We want to know where the screen was touched, so we use a conditional typecast p
 
 The third line is also new, but it's still `SKSpriteNode`. We're just writing some example code for now, so this line generates a node filled with a color (red) at a size (64x64). The `CGSize` struct is new, but also simple: it just holds a width and a height in a single structure.
 
-The code sets the new box's position to be where the tap happened, then adds it to the scene. No more talk: press <kbd>Cmd</kbd>+<kbd>R</kbd> to make sure this all works, then tap around the screen to make boxes appear.
+The code sets the new box's position to be where the tap happened, then adds it to the scene. No more talk: press <kbd>⌘</kbd>+<kbd>R</kbd> to make sure this all works, then tap around the screen to make boxes appear.
 
 OK, I admit: that's still quite boring. Let's make it even more interesting - are you ready to see quite how powerful SpriteKit is? Just before setting the position of our new box, add this line:
 

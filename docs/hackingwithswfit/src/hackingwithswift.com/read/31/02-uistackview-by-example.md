@@ -84,7 +84,7 @@ You'll see even more Auto Layout warnings, and your view still looks like a mess
 
 ![Once Auto Layout rules have been added, the text field and stack view automatically jump into place.](https://hackingwithswift.com/img/books/hws/31-2@2x.png)
 
-Before we're done with Interface Builder, we're going to make two small changes to the stack view, so make sure it's selected then open the attributes inspector (<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd>). From the list of attributes, please change Distribution to Fill Equally, then for Spacing enter 5.
+Before we're done with Interface Builder, we're going to make two small changes to the stack view, so make sure it's selected then open the attributes inspector (<kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>4</kbd>). From the list of attributes, please change Distribution to Fill Equally, then for Spacing enter 5.
 
 There are a few options for the Distribution attribute, and it's worth covering what they do briefly. If our stack view had four subviews in there, then:
 
@@ -98,7 +98,7 @@ There are a few options for the Distribution attribute, and it's worth covering 
 
 As for the Spacing attribute, this just determines how much margin to place between items in the stack view. We've set it to 5 here so there's a nice gap between our web views.
 
-The last thing to do is create some connections, so hit <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>Return</kbd> to go to the Assistant Editor. Now create IBOutlets for the text field and stack view, called `addressBar` and `stackView` respectively. Please also set the view controller to be the delegate of the text field by <kbd>Ctrl</kbd>+dragging from the text field to the gold and white View Controller icon in the document outline.
+The last thing to do is create some connections, so hit <kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>Return</kbd> to go to the Assistant Editor. Now create IBOutlets for the text field and stack view, called `addressBar` and `stackView` respectively. Please also set the view controller to be the delegate of the text field by <kbd>Ctrl</kbd>+dragging from the text field to the gold and white View Controller icon in the document outline.
 
-We're done with Interface Builder, so press <kbd>Cmd</kbd>+<kbd>Return</kbd> to return to the Standard Editor, then open <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift` for editing. Time to write some code! And I hope you're ready for just how easy this is going to be…
+We're done with Interface Builder, so press <kbd>⌘</kbd>+<kbd>Return</kbd> to return to the Standard Editor, then open <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift` for editing. Time to write some code! And I hope you're ready for just how easy this is going to be…
 

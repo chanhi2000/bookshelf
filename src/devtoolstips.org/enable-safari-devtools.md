@@ -55,7 +55,7 @@ Unlike other browsers, Safari hides its DevTools (and other developer-related fe
 
 If you are a web developer, though, and you want to use the DevTools in Safari, here's how to enable the option:
 
-1. Go to Safari's **Settings** or press <kbd>Cmd</kbd>+<kbd>,</kbd>.
+1. Go to Safari's **Settings** or press <kbd>⌘</kbd>+<kbd>,</kbd>.
 2. Go to the <VPIcon icon="iconfont icon-select"/>`[Advanced]` tab.
 3. Check the <VPIcon icon="iconfont icon-select"/>`[Show features for web developers]` option.
 

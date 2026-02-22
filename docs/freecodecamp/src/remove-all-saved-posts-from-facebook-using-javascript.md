@@ -77,8 +77,8 @@ Scroll down to load and display all the saved items that you want to un-save. Fa
 
 To start the bulk un-saving process, you’ll need to use your browser’s developer console. Here’s how to do that:
 
-- On **Google Chrome**: Press <VPIcon icon="fa-brands fa-windows"/><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd> or <VPIcon icon="iconfont icon-macos"/><kbd>Cmd</kbd>+<kbd>Option</kbd>+<kbd>J</kbd> to open the console.
-- On **Firefox**: Press <VPIcon icon="fa-brands fa-windows"/><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> or <VPIcon icon="iconfont icon-macos"/><kbd>Cmd</kbd>+<kbd>Option</kbd>+<kbd>K</kbd>.
+- On **Google Chrome**: Press <VPIcon icon="fa-brands fa-windows"/><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd> or <VPIcon icon="iconfont icon-macos"/><kbd>⌘</kbd>+<kbd>Option</kbd>+<kbd>J</kbd> to open the console.
+- On **Firefox**: Press <VPIcon icon="fa-brands fa-windows"/><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> or <VPIcon icon="iconfont icon-macos"/><kbd>⌘</kbd>+<kbd>Option</kbd>+<kbd>K</kbd>.
 
 Once the console is open, you can start running the necessary JavaScript commands.
 

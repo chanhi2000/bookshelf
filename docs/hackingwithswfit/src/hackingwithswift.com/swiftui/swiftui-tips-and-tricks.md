@@ -63,7 +63,7 @@ I’ve tried to summarize all the tips I’ve come across so far below, and wher
 
 Having a live preview of your layouts while you code is a great feature of Xcode, but often you’ll see it pause because you changed a lot and Xcode couldn’t keep up.
 
-Rather than constantly reaching for your trackpad to press Resume, here’s the most important keyboard shortcut for SwiftUI developers: press <kbd>Option</kbd>+<kbd>CMd</kbd>+<kbd>P</kbd> to make the preview window reload immediately, and resume its live updates.
+Rather than constantly reaching for your trackpad to press Resume, here’s the most important keyboard shortcut for SwiftUI developers: press <kbd>Option</kbd>+<kbd>⌘</kbd>+<kbd>P</kbd> to make the preview window reload immediately, and resume its live updates.
 
 ---
 

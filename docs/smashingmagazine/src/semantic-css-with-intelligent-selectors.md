@@ -533,7 +533,7 @@ Life is too short.
 
 ::: info Further Reading
 
-- [**CSS Specificity And Inheritance**](/smashingmagazine.com/css-specificity-and-inheritance.md)*
+- [**CSS Specificity And Inheritance**](/smashingmagazine.com/css-specificity-and-inheritance.md)
 - [**Sneak Peek Into The Future: CSS Selectors, Level 4**](/smashingmagazine.com/sneak-peek-future-selectors-level-4.md)
 - [**CSS Specificity: Things You Should Know**](/smashingmagazine.com/css-specificity-things-you-should-know.md)
 - [**CSS Inheritance, The Cascade And Global Scope**](/smashingmagazine.com/css-inheritance-cascade-global-scope-new-old-worst-best-friends.md)

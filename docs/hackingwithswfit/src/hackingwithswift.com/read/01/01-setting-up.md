@@ -81,9 +81,9 @@ There's also a shortcut for this menu: at the top-left of Xcode's window is the 
 
 You'll be starting and stopping projects a lot as you learn, so there are three basic tips you need to know:
 
-- You can run your project by pressing <kbd>Cmd</kbd>+<kbd>R</kbd>. This is equivalent to clicking the play button.
-- You can stop a running project by pressing <kbd>Cmd</kbd>+<kbd>.</kbd> when Xcode is selected.
-- If you have made changes to a running project, just press <kbd>Cmd</kbd>+<kbd>R</kbd> again. Xcode will prompt you to stop the current run before starting another. Make sure you check the "Do not show this message again" box to avoid being bothered in the future.
+- You can run your project by pressing <kbd>⌘</kbd>+<kbd>R</kbd>. This is equivalent to clicking the play button.
+- You can stop a running project by pressing <kbd>⌘</kbd>+<kbd>.</kbd> when Xcode is selected.
+- If you have made changes to a running project, just press <kbd>⌘</kbd>+<kbd>R</kbd> again. Xcode will prompt you to stop the current run before starting another. Make sure you check the "Do not show this message again" box to avoid being bothered in the future.
 
 This project is all about letting users select images to view, so you're going to need to import some pictures. Download the files for this project from [GitHub (<VPIcon icon="iconfont icon-github"/>`twostraws/HackingWithSwift`)](https://github.com/twostraws/HackingWithSwift), and look in the “project1-files” folder. You'll see another folder in there called Content, and I’d like you to drag that Content folder straight into your Xcode project, just under where it says "Info.plist".
 

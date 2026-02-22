@@ -162,7 +162,7 @@ func redrawActiveSlice() {
 }
 ```
 
-At this point, we have something you can run: press <kbd>Cmd</kbd>+<kbd>R</kbd> to run the game, then tap and swipe around on the screen to see the slice effect - I think you'll agree that `SKShapeNode` is pretty powerful!
+At this point, we have something you can run: press <kbd>⌘</kbd>+<kbd>R</kbd> to run the game, then tap and swipe around on the screen to see the slice effect - I think you'll agree that `SKShapeNode` is pretty powerful!
 
 ![As the player swipes, their slices light up the screen in a bright yellow curve.](https://hackingwithswift.com/img/books/hws/23-2@2x.png)
 

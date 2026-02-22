@@ -101,7 +101,7 @@ Second, that code sets the `cornerRadius` property, which rounds the corners of 
 
 Third, I snuck in a new `UIColor` initializer: `UIColor(white:alpha:)`. This is useful when you only want grayscale colors.
 
-With that done, the app works: you can run it with <kbd>Cmd</kbd>+<kbd>R</kbd>, import photos, and admire the way they all appear correctly in the app. But don't get your hopes up, because we're not done yet - you still can't assign names to people!
+With that done, the app works: you can run it with <kbd>⌘</kbd>+<kbd>R</kbd>, import photos, and admire the way they all appear correctly in the app. But don't get your hopes up, because we're not done yet - you still can't assign names to people!
 
 For this last part of the project, we're going to recap how to add text fields to a `UIAlertController`, just like you did in project 5. All of the code is old, but I'm going to go over it again to make sure you fully understand.
 

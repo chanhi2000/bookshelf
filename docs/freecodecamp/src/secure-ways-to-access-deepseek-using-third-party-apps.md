@@ -143,7 +143,7 @@ Alternatively, follow these steps to install the plugin from within VSCode:
 
 1. In VSCode, open the Extensions menu. You can do this by either:
     - Clicking the Extensions icon in the Activity Bar on the left side.
-    - Using the keyboard shortcut: <VPIcon icon="iconfont icon-macos"/><kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> for macOS. <VPIcon icon="fa-brands fa-windows"/><VPIcon icon="fa-brands fa-linux"/><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> for Windows and Linux.
+    - Using the keyboard shortcut: <VPIcon icon="iconfont icon-macos"/><kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> for macOS. <VPIcon icon="fa-brands fa-windows"/><VPIcon icon="fa-brands fa-linux"/><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> for Windows and Linux.
 2. Type **Qodo Gen** in the search bar.
 3. Click the Install button.
 4. Sign Up with your email.

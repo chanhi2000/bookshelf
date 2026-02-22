@@ -23,6 +23,7 @@ const Y2014: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2014
+    "basic-linux-navigation-and-file-management", // 2014-11-15
     "an-introduction-to-the-linux-terminal", // 2014-11-15
     "sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems", // 2014-02-22
   ]
@@ -107,6 +108,7 @@ const Y2022: SidebarYeargroupTemplate = {
     "how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt", // 2022-11-18
     "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
     "how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu", // 2022-04-27
+    "how-to-secure-apache-with-let-s-encrypt-on-ubuntu", // 2022-04-27
     "how-to-install-and-use-docker-on-ubuntu-22-04", // 2022-04-27
     "how-to-install-django-and-set-up-a-development-environment-on-ubuntu-22-04", // 2022-04-27
     "initial-server-setup-with-ubuntu", // 2022-04-26
@@ -135,6 +137,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "markdown-markdown-images", // 2024-04-26
     "how-to-use-docker-exec-to-run-commands-in-a-docker-container", // 2024-04-26
     "how-to-integrate-existing-systems-with-kafka-connect", // 2024-04-25
+    "how-to-install-lamp-stack-on-ubuntu", // 2024-02-28
   ]
 }
 
@@ -276,6 +279,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu", // 2022-04-27
       // END: 2022php
       // END: 2023php
+      "how-to-install-lamp-stack-on-ubuntu", // 2024-02-28
       // END: 2024php
       // END: 2025php
       // END: php
@@ -284,6 +288,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2012py
       // END: 2013py
       "an-introduction-to-the-linux-terminal", // 2014-11-15
+      "basic-linux-navigation-and-file-management", // 2014-11-15
       // END: 2014py
       // END: 2015py
       // END: 2016py
@@ -309,7 +314,30 @@ export const template: SidebarInfoTemplate = {
       // END: 2025md
       // END: md
     ]],[
+    "macos", [
+      // END: 2010macos
+      // END: 2011macos
+      // END: 2012macos
+      // END: 2013macos
+      "basic-linux-navigation-and-file-management", // 2014-11-15
+      // END: 2014macos
+      // END: 2015macos
+      // END: 2016macos
+      // END: 2017macos
+      // END: 2018macos
+      // END: 2019macos
+      // END: 2020macos
+      // END: 2021macos
+      // END: 2022macos
+      // END: 2023macos
+      // END: 2024macos
+      // END: 2025macos
+      // END: macos
+    ]],[
     "linux-debian", [
+      "basic-linux-navigation-and-file-management", // 2014-11-15
+      // END: 2014linux-debian
+      // END: 2015linux-debian
       // END: 2016linux-debian
       "how-to-create-a-django-app-and-connect-it-to-a-database", // 2017-08-29
       // END: 2017linux-debian
@@ -323,9 +351,11 @@ export const template: SidebarInfoTemplate = {
       "how-to-install-django-and-set-up-a-development-environment-on-ubuntu-22-04", // 2022-04-27
       "how-to-install-mysql-on-ubuntu-22-04", // 2022-04-27
       "how-to-install-and-use-docker-on-ubuntu-22-04", // 2022-04-27
+      "how-to-secure-apache-with-let-s-encrypt-on-ubuntu", // 2022-04-27
       "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
       // END: 2022linux-debian
       // END: 2023linux-debian
+      "how-to-install-lamp-stack-on-ubuntu", // 2024-02-28
       // END: 2024linux-debian
       // END: 2025linux-debian
       // END: linux-debian
@@ -337,6 +367,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2011linux-fedora
       // END: 2012linux-fedora
       // END: 2013linux-fedora
+      "basic-linux-navigation-and-file-management", // 2014-11-15
       // END: 2014linux-fedora
       // END: 2015linux-fedora
       // END: 2016linux-fedora
@@ -468,6 +499,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu", // 2022-04-27
       // END: 2022mysql
       // END: 2023mysql
+      "how-to-install-lamp-stack-on-ubuntu", // 2024-02-28
       // END: 2024mysql
       // END: 2025mysql
       // END: mysql

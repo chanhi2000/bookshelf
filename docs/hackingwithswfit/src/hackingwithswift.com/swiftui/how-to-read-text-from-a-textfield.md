@@ -77,7 +77,7 @@ When that's run, you should be able to type into the text field and see a greeti
 
 There are two important provisos when working with text fields. First, they don't have a border by default, so you probably won't see anything - you'll need to tap inside roughly where it is in order to activate the keyboard.
 
-Second, you might find you can't type into the canvas preview of your layout. If you hit that problem, press <kbd>Cmd</kbd>+<kbd>R</kbd> to build and run your code in the simulator.
+Second, you might find you can't type into the canvas preview of your layout. If you hit that problem, press <kbd>⌘</kbd>+<kbd>R</kbd> to build and run your code in the simulator.
 
 ::: details Similar solutions…
 

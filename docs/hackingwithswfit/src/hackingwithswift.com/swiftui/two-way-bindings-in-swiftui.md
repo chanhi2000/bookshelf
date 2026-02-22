@@ -90,7 +90,7 @@ Try running the app now, then go to the Order tab and press Place Order. The res
 
 Well, we're going to change just one word in <VPIcon icon="fa-brands fa-swift"/>`CheckoutView.swift`, and it should make all that work feel justified.
 
-Inside `CheckoutView`, I'd like you to change `VStack` to `Form`, then press <kbd>Cmd</kbd>+<kbd>R</kbd> to try the app again. Can you spot the difference?
+Inside `CheckoutView`, I'd like you to change `VStack` to `Form`, then press <kbd>⌘</kbd>+<kbd>R</kbd> to try the app again. Can you spot the difference?
 
 Previously we had a plain pop up menu with no title, but now that we're in a form we get a single table row that shows our picker's title alongside its currently selected value.
 

@@ -279,7 +279,7 @@ Replace `<Your-Copied-Database-URL>` with the URL you copied from ElephantSQL.
 
 ### Step 4: Integrate Prisma
 
-Stop your server if it's running by pressing <kbd>Ctrl</kbd>+<kbd>C</kbd> (or <kbd>Cmd</kbd>+<kbd>C</kbd> on Mac) in the terminal.
+Stop your server if it's running by pressing <kbd>Ctrl</kbd>+<kbd>C</kbd> (or <kbd>⌘</kbd>+<kbd>C</kbd> on Mac) in the terminal.
 
 In the terminal, ensure you are in the <VPIcon icon="fas fa-folder-open"/>`backend` directory, and type the following command to initialize Prisma:
 
@@ -419,7 +419,7 @@ app.get("/api/recipe/search", async (req, res) => {
 
 ### Step 4: Test Your Endpoint
 
-Now you can restart your server by stopping it (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Cmd</kbd>+<kbd>C</kbd> on Mac) and then running `npm start`.
+Now you can restart your server by stopping it (<kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>⌘</kbd>+<kbd>C</kbd> on Mac) and then running `npm start`.
 
 Test your endpoint by sending a GET request with the appropriate query parameters. For example, navigate to `http://localhost:5000/api/recipe/search?searchTerm=burgers&page=1` in your browser or use a REST client like Postman or Thunder Client.
 

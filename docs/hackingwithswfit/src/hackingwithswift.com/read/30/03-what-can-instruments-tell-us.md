@@ -53,7 +53,7 @@ isOriginal: false
 
 <VidStack src="youtube/sY0zgtKfW1E" />
 
-Press <kbd>Cmd</kbd>+<kbd>I</kbd> to run your app using Instruments, and after a few seconds a window will appear offering you a variety of profiling templates. Please select Time Profiler then click Choose. When the new window appears, click the red circle in the top-left corner to start recording of the app.
+Press <kbd>⌘</kbd>+<kbd>I</kbd> to run your app using Instruments, and after a few seconds a window will appear offering you a variety of profiling templates. Please select Time Profiler then click Choose. When the new window appears, click the red circle in the top-left corner to start recording of the app.
 
 Your app will launch on your device (or in the simulator) and Instruments will begin monitoring its usage in realtime. You'll see a spike in Instruments' readings to begin with, which reflects the huge amount of work any app does just to start up. We don't care about that for now, we're more interested in the workload of the app once it's running.
 
@@ -65,7 +65,7 @@ When you select an area of the readings like this, the detail view now shows inf
 
 Immediately to the left of "Main thread" in the detail view is a disclosure arrow. You can click that to open up all the top-level calls made on the Main Thread, which will just be "Start", which in turn has its own calls under its own arrow. You can if you want hold down Option and click on these arrows, which causes all the children (and their children's children) to be opened up, but that gets messy.
 
-Instead, there are two options. First, you should have a right-hand detail pane with two buttons: Extended Detail and Run Info (accessible through <kbd>Cmd</kbd>+<kbd>1</kbd> and <kbd>Cmd</kbd>+<kbd>2</kbd>). Select "Main thread" in the detail view then press <kbd>Cmd</kbd>+<kbd>1</kbd> to choose the extended detail view: this will automatically show you the "heaviest" stack trace, which is the code that took the most time to run.
+Instead, there are two options. First, you should have a right-hand detail pane with two buttons: Extended Detail and Run Info (accessible through <kbd>⌘</kbd>+<kbd>1</kbd> and <kbd>⌘</kbd>+<kbd>2</kbd>). Select "Main thread" in the detail view then press <kbd>⌘</kbd>+<kbd>1</kbd> to choose the extended detail view: this will automatically show you the "heaviest" stack trace, which is the code that took the most time to run.
 
 In the picture below you can see the bottom half of Instruments after running a time profile. The pane on the right is showing the heaviest stack trace, and on the left you can see all the threads that were executing as well as what they were doing.
 

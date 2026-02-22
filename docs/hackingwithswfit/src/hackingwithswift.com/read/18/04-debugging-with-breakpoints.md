@@ -71,7 +71,7 @@ If you click on a breakpoint again, the blue arrow will become faint to show tha
 
 With that breakpoint in place, Xcode will pause execution when it's reached and show you the values of all your variables. Try running it now, and you should see your app paused, with a light green marker on the line of code that is about to be executed. At the bottom of the Xcode window you should see Xcode telling you that `i` currently has a value of 1. That's because it paused as soon as this line is reached, which is the very first iteration of our loop.
 
-From here, you can carry on execution by pressing F6, but you may need to use Fn+F6 because the function keys are often mapped to actions on Macs. This shortcut is called Step Over and will tell Xcode to advance code execution by one line. You can walk through the loop in its entirety by pressing F6 again and again, but there's another command called Continue (<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Y</kbd>) that means "continue executing my program until you hit another breakpoint."
+From here, you can carry on execution by pressing F6, but you may need to use Fn+F6 because the function keys are often mapped to actions on Macs. This shortcut is called Step Over and will tell Xcode to advance code execution by one line. You can walk through the loop in its entirety by pressing F6 again and again, but there's another command called Continue (<kbd>Ctrl</kbd>+<kbd>⌘</kbd>+<kbd>Y</kbd>) that means "continue executing my program until you hit another breakpoint."
 
 When your program is paused, you'll see something useful on the left of Xcode's window: a *back trace* that shows you all the threads in your program and what they are executing. So if you find a bug somewhere in method `d()`, this back trace will show you that `d()` was called by `c()`, which was called by `b()`, which in turn was called by `a()` - it effectively shows you the events leading up to your problem, which is invaluable when trying to spot bugs.
 
@@ -85,5 +85,5 @@ Right-click on the breakpoint (the blue arrow marker) and choose Edit Breakpoint
 
 The second clever thing that breakpoints can do is be automatically triggered when an exception is thrown. Exceptions are errors that aren't handled, and will cause your code to crash. With breakpoints, you can say "pause execution as soon as an exception is thrown," so that you can examine your program state and see what the problem is.
 
-To make this happen, press <kbd>Cmd</kbd>+<kbd>8</kbd> to choose the breakpoint navigator - it's on the left of your screen, where the project navigator normally sits. Now click the + button in the bottom-left corner and choose "Exception Breakpoint." That's it! The next time your code hits a fatal problem, the exception breakpoint will trigger and you can take action.
+To make this happen, press <kbd>⌘</kbd>+<kbd>8</kbd> to choose the breakpoint navigator - it's on the left of your screen, where the project navigator normally sits. Now click the + button in the bottom-left corner and choose "Exception Breakpoint." That's it! The next time your code hits a fatal problem, the exception breakpoint will trigger and you can take action.
 

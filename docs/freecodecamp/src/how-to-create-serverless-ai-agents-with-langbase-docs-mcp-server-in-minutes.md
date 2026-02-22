@@ -217,7 +217,7 @@ Let’s build a summary agent that summarizes context using the Langbase SDK, po
 
 @tab:active 1.
 
-Open an empty folder in Cursor and launch the chat panel (<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> on Mac or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> on Windows).
+Open an empty folder in Cursor and launch the chat panel (<kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> on Mac or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> on Windows).
 
 @tab 2.
 

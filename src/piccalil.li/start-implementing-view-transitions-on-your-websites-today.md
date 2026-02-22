@@ -106,7 +106,7 @@ The snapshots are no longer HTML because it’s a non interactive snapshot of th
 
 You can debug your view transitions with the Animations Drawer in the Chrome Dev Tools, this drawer allows you to slow down animations and even to pause animations, which really gives you some time to inspect what’s going on.
 
-Use <kbd>CMD</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd> in the dev tools and type animations to open up the Animations Drawer. For Windows users, switch <kbd>CMD</kbd> with <kbd>CTRL</kbd>.
+Use <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd> in the dev tools and type animations to open up the Animations Drawer. For Windows users, switch <kbd>⌘</kbd> with <kbd>CTRL</kbd>.
 
 ![The animations drawer as described above](https://piccalilli.imgix.net/images/blog/vt-debugger.png?auto=format&w=1500)
 

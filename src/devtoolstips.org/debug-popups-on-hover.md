@@ -67,7 +67,7 @@ Chromium-based browsers, such as Chrome and Edge, provide a way to emulate a foc
 
 To emulate a focused state on the webpage:
 
-1. Open the **Command Menu** (<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>).
+1. Open the **Command Menu** (<kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>).
 2. Type **rendering** and select the **Show Rendering** command. The **Rendering** tool appears at the bottom of DevTools.
 3. In the **Rendering** tool, scroll down and check the <VPIcon icon="iconfont icon-select"/>`[Emulate a focused page]` option. The webpage now has focus.
 4. Use DevTools to inspect and debug elements that only appear when focus is in the webpage.

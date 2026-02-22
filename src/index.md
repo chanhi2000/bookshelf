@@ -151,6 +151,9 @@ projects:
   - icon: 'https://ishadeed.com/assets/favicon-32x32.png'
     name: 'ishadeed.com'
     desc: "Deep-dive CSS articles, modern CSS and visual CSS explanations."
+  - icon: 'https://adrianroselli.com/wp-content/themes/AAR/favicon.png'
+    name: 'adrianroselli.com'
+    desc: "It’s me, but I’m made of polymers. I stand 4 inches tall, my joints are hinged, my face is a rictus of dull PVC. I am restrained against a cardboard wall by a transparent bubble of plastic holding me fast alongside divots bearing the tools of my trade —…"
   - icon: 'https://css-tip.com/img/fav.png'
     name: 'css-tip.com'
     desc: "The best place to keep up to date with the new CSS features. Daily CSS tips and tricks to become a better web developer."

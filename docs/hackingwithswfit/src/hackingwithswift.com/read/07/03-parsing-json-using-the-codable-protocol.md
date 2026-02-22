@@ -113,7 +113,7 @@ Swift’s simple types like `String` and `Int` automatically conform to `Codable
 
 Here, though, we need something more complex: each petition contains a title, some body text, a signature count, and more. That means we need to define a custom struct called `Petition` that stores one petition from our JSON, which means it will track the title string, body string, and signature count integer.
 
-So, start by pressing <kbd>Cmd</kbd>+<kbd>N</kbd> and choosing to create a new Swift file called <VPIcon icon="fa-brands fa-swift"/>`Petition.swift`.
+So, start by pressing <kbd>⌘</kbd>+<kbd>N</kbd> and choosing to create a new Swift file called <VPIcon icon="fa-brands fa-swift"/>`Petition.swift`.
 
 ```swift
 struct Petition {
@@ -141,7 +141,7 @@ I say *almost* ready because there’s a slight wrinkle in our plan: if you look
 
 Swift’s `Codable` protocol needs to know exactly where to find its data, which in this case means making a *second* struct. This one will have a single property called `results` that will be an array of our `Petition` struct. This matches exactly how the JSON looks: the main JSON contains the `results` array, and each item in that array is a `Petition`.
 
-So, press <kbd>Cmd</kbd>+<kbd>N</kbd> again to make a new file, choosing Swift file and naming it <VPIcon icon="fa-brands fa-swift"/>`Petitions.swift`. Give it this content:
+So, press <kbd>⌘</kbd>+<kbd>N</kbd> again to make a new file, choosing Swift file and naming it <VPIcon icon="fa-brands fa-swift"/>`Petitions.swift`. Give it this content:
 
 ```swift
 struct Petitions: Codable {

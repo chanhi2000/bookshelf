@@ -90,9 +90,9 @@ For iPhones with rectangular screens, what we’ve done is good enough - that gr
 
 So, select the main view for the view controller - the one that contains the gradient view - and uncheck Safe Area Relative Margins and Safe Area Layout Guide in the size inspector. That should make the gradient view run edge to edge nicely!
 
-We want this new view to be a `GradientView`, which is done by changing its class. Press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd> to bring up the identity inspector on the right, then look at the very top for a dropdown list of classes you can use for the new view. Look in there for "GradientView", and you'll see "Designables: Updating" appear.
+We want this new view to be a `GradientView`, which is done by changing its class. Press <kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>3</kbd> to bring up the identity inspector on the right, then look at the very top for a dropdown list of classes you can use for the new view. Look in there for "GradientView", and you'll see "Designables: Updating" appear.
 
-After a few seconds, you should see a white to black gradient appear in Interface Builder, which shows the default colors we set. But we made those colors inspectable, so if you press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd> to go to the Attributes Inspector you should see "Top Color" and "Bottom Color" ready for you to choose - yes, Xcode has correctly converted `topColor` into "Top Color" thanks to our property naming convention.
+After a few seconds, you should see a white to black gradient appear in Interface Builder, which shows the default colors we set. But we made those colors inspectable, so if you press <kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>4</kbd> to go to the Attributes Inspector you should see "Top Color" and "Bottom Color" ready for you to choose - yes, Xcode has correctly converted `topColor` into "Top Color" thanks to our property naming convention.
 
 We'll be applying red and blue colors separately to the gradient, so please set "Top Color" to be "Dark Gray Color", and "Bottom Color" to be "Black Color". Finally, set the alpha value for the gradient view to be 0.9, so a little bit of the background view shows through.
 

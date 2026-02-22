@@ -76,7 +76,7 @@ If you run the app now you'll see two important differences:
 2. When you tap on any item a new screen will slide in saying the name of whatever item you chose.
 Being able to present text views like this is a great timesaver while building up user interfaces!
 
-Of course, we want _more_ - we want a nice big picture, some details about the food, and more. So, press <kbd>Cmd</kbd>+<kbd>N</kbd> to make another new SwiftUI view, this time called <VPIcon icon="fa-brands fa-swift"/>`ItemDetail.swift`.
+Of course, we want _more_ - we want a nice big picture, some details about the food, and more. So, press <kbd>⌘</kbd>+<kbd>N</kbd> to make another new SwiftUI view, this time called <VPIcon icon="fa-brands fa-swift"/>`ItemDetail.swift`.
 
 As with `ItemRow`, this needs to have a menu item passed in and stored as a property, so add this to `ItemDetail` now:
 

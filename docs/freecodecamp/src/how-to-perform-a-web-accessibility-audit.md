@@ -159,7 +159,7 @@ Alternatively,
 
 1. Install the [axe DevTools extension](https://deque.com/get-started-axe-devtools-browser-extension/?_gl=1*30317n*_up*MQ..*_ga*ODc3NjIyNjgyLjE3MjkxODIyNTg.*_ga_C9H6VN9QY1*MTcyOTE4MjI1Ny4xLjEuMTcyOTE4MjMxMS4wLjAuMA..) for your browser.
 2. Navigate to the web page you want to test.
-3. Open your browser DevTools (<kbd>F12</kbd> or <kbd>Cmd</kbd>+<kbd>Option</kbd>+<kbd>I</kbd>)
+3. Open your browser DevTools (<kbd>F12</kbd> or <kbd>⌘</kbd>+<kbd>Option</kbd>+<kbd>I</kbd>)
 4. Go to the "axe DevTools" tab.<br/>![Screenshot of axe DevTools interface showing options for Scan User Flow, Full Page Scan, and Partial Page Scan](https://cdn.hashnode.com/res/hashnode/image/upload/v1729182512532/f9ea794b-9806-428e-93fe-2af843f4bb2e.png)
 5. Click "Full Page Scan" to start the accessibility check.
 6. Review the results. They are categorized by severity (Critical, Serious, Moderate, Minor).

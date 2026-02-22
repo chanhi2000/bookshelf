@@ -102,7 +102,7 @@ This is a stress test specifically designed to make SwiftUI do a lot of work in 
 
 ## Instrumenting our code
 
-Now press <kbd>Cmd</kbd>+<kbd>I</kbd> to run the code through Instruments, and choose the SwiftUI instrument. When it appears, press the record button to make it launch the app and start watching it. Now let it run for a few seconds while you click the button ten or so times, then press stop in Instruments - we have enough data to work with.
+Now press <kbd>⌘</kbd>+<kbd>I</kbd> to run the code through Instruments, and choose the SwiftUI instrument. When it appears, press the record button to make it launch the app and start watching it. Now let it run for a few seconds while you click the button ten or so times, then press stop in Instruments - we have enough data to work with.
 
 <VidStack src="https://hackingwithswift.com/img/books/quick-start/swiftui/how-to-use-instruments-to-profile-your-swiftui-code-and-identify-slow-layout-2~dark.mp4" />
 

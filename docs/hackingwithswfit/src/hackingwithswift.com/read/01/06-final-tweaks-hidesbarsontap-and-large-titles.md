@@ -53,13 +53,13 @@ isOriginal: false
 
 <VidStack src="youtube/jBWbJ6RxgIA" />
 
-At this point you have a working project: you can press <kbd>Cmd</kbd>+<kbd>R</kbd> to run it, flick through the images in the table, then tap one to view it. But before this project is complete, there are several other small changes we're going to make that makes the end result a little more polished.
+At this point you have a working project: you can press <kbd>⌘</kbd>+<kbd>R</kbd> to run it, flick through the images in the table, then tap one to view it. But before this project is complete, there are several other small changes we're going to make that makes the end result a little more polished.
 
 First, you might have noticed that all the images are being stretched to fit the screen. This isn't an accident - it's the default setting of `UIImageView`.
 
 This takes just a few clicks to fix: choose <VPIcon icon="iconfont icon-xcode"/>`Main.storyboard`, select the image view in the detail view controller, then choose the attributes inspector. This is in the right-hand pane, near the top, and is the fourth of six inspectors, just to the left of the ruler icon.
 
-If you don't fancy hunting around for it, just press <kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>4</kbd> to bring it up. The stretching is caused by the view mode, which is a dropdown button that defaults to either “Aspect Fit” or “Aspect Fill” depending on your version of Xcode Try changing that to “Aspect Fill” to see the image scaled up to fit the available space.
+If you don't fancy hunting around for it, just press <kbd>⌘</kbd>+<kbd>Alt</kbd>+<kbd>4</kbd> to bring it up. The stretching is caused by the view mode, which is a dropdown button that defaults to either “Aspect Fit” or “Aspect Fill” depending on your version of Xcode Try changing that to “Aspect Fill” to see the image scaled up to fit the available space.
 
 ![The Aspect Fit content mode for UIImageViews forces them to resize their images so they are fully visible.](https://hackingwithswift.com/img/books/hws/1-18@2x.png)
 

@@ -119,7 +119,7 @@ Now, `:near()` isn’t supported in any web browser, so in the demo below, I’v
   slug-hash="JoKRBPB"
   title=":near(<length>) simulation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 But how do we hide something while reserving the space?
 

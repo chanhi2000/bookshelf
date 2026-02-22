@@ -72,7 +72,7 @@ In your asset catalog, right-click on the blank space below AppIcon and choose N
 
 This process creates a set of images that ARKit is able to scan for, and although you can create as many as you want you can have only one active at a given time.
 
-When you next press <kbd>Cmd</kbd>+B to build your project, Xcode will scan your ARKit images to make sure they are suitable for AR detection. You should, at least at first, always get warnings for your images, because Xcode should report the images need “non-zero, positive width”. This is because adding PNG files to the ARKit catalog isn’t enough: Xcode needs to know an estimated *size* of the images in the real world, so it can detect them more accurately. So, select each of your images, then enter their size into the attributes inspector - the default unit is meters, but you’ll probably find it easier to change that to centimeters.
+When you next press <kbd>⌘</kbd>+B to build your project, Xcode will scan your ARKit images to make sure they are suitable for AR detection. You should, at least at first, always get warnings for your images, because Xcode should report the images need “non-zero, positive width”. This is because adding PNG files to the ARKit catalog isn’t enough: Xcode needs to know an estimated *size* of the images in the real world, so it can detect them more accurately. So, select each of your images, then enter their size into the attributes inspector - the default unit is meters, but you’ll probably find it easier to change that to centimeters.
 
 Once you’ve entered a valid size for each image, Xcode’s warnings should go away - if any warnings remain it means your images fail the detection criteria, so read Xcode’s suggestions and try again.
 

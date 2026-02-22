@@ -116,7 +116,7 @@ askQuestion()
 
 At this point the game is in a fit state to run, so let’s give it a try.
 
-First, select the iPhone XR simulator by going to the Product menu and choosing Destination > iPhone XR. Now press <kbd>Cmd</kbd>+<kbd>R</kbd> now to launch the Simulator and give it a try.
+First, select the iPhone XR simulator by going to the Product menu and choosing Destination > iPhone XR. Now press <kbd>⌘</kbd>+<kbd>R</kbd> now to launch the Simulator and give it a try.
 
 You'll immediately notice two problems
 

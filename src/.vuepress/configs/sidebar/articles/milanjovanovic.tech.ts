@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "how-to-implement-two-factor-authentication-in-aspnetcorehow-to-implement-two-factor-authentication-in-aspnetcore", // 2026-02-28
     "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
     "how-to-extract-structured-data-from-images-using-ollama-in-dotnet", // 2026-02-14
     "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
@@ -393,6 +394,7 @@ export const template: SidebarInfoTemplate = {
       "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
       "how-to-extract-structured-data-from-images-using-ollama-in-dotnet", // 2026-02-14
       "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
+      "how-to-implement-two-factor-authentication-in-aspnetcorehow-to-implement-two-factor-authentication-in-aspnetcore", // 2026-02-28
       // END: 2026cs
       // END: cs
     ]],[

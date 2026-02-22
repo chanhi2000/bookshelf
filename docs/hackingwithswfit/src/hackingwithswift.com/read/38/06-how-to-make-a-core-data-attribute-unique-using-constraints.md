@@ -73,7 +73,7 @@ Received 100 new commits.
 Got 600 commits
 ```
 
-Select the data model (<VPIcon icon="iconfont icon-xcode"/>`Project38.xcdatamodeld`) and make sure the Commit entity is selected rather than one of its attributes. If you look in the Data Model inspector you'll see a field marked "Constraints" - click the + button at the bottom of that field. A new row will appear saying "comma,separated,properties". Click on that, hit Enter to make it editable, then type "sha" and hit Enter again. Make sure you press <kbd>Cmd</kbd>+<kbd>S</kbd> to save your changes!
+Select the data model (<VPIcon icon="iconfont icon-xcode"/>`Project38.xcdatamodeld`) and make sure the Commit entity is selected rather than one of its attributes. If you look in the Data Model inspector you'll see a field marked "Constraints" - click the + button at the bottom of that field. A new row will appear saying "comma,separated,properties". Click on that, hit Enter to make it editable, then type "sha" and hit Enter again. Make sure you press <kbd>⌘</kbd>+<kbd>S</kbd> to save your changes!
 
 ![Just adding the word 'sha' to the list of constraints is enough to tell Core Data we need it to be unique.](https://hackingwithswift.com/img/books/hws/38-8@2x.png)
 

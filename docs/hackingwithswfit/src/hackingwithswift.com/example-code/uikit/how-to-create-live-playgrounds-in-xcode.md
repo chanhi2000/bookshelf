@@ -82,7 +82,7 @@ By default, Playgrounds look like you’ll see below - big and empty.
 
 <img class="hws" src="/img/hws/example-code-294-1.png" alt="">
 
-Before we write any code, you need to enable the assistant editor by pressing Alt+<kbd>Cmd</kbd>+Return, or clicking the small overlapping circles button near the top-right of your Xcode window. This splits your screen so that you have code on the left, and a live preview of your results on the right.
+Before we write any code, you need to enable the assistant editor by pressing Alt+<kbd>⌘</kbd>+Return, or clicking the small overlapping circles button near the top-right of your Xcode window. This splits your screen so that you have code on the left, and a live preview of your results on the right.
 
 Right now we don’t have anything to preview, so Xcode should look like the below:
 

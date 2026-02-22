@@ -179,7 +179,7 @@ This article comes straight from my course, [<VPIcon icon="fas fa-globe"/>Unorth
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Distinguishing "Components" and "Utilities" in Tailwind",
+  "title": "Distinguishing “Components” and “Utilities” in Tailwind",
   "desc": "The distinction between ”components” and ”utilities” seems clear at first glance, but gets a little blurred when working with them in Tailwind.",
   "link": "https://chanhi2000.github.io/bookshelf/css-tricks.com/distinguishing-components-and-utilities-in-tailwind.html",
   "logo": "https://css-tricks/favicon.svg",

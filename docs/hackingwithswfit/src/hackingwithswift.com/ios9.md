@@ -121,7 +121,7 @@ func application(application: UIApplication, continueUserActivity userActivity: 
 
 Again, make sure you import CoreSpotlight so your code compiles. Hopefully you can now see why the unique identifier is so important - it's what your app gets handed so you can load the correct content.
 
-There are various extensions to `CSSearchableItemAttributeSet` to encode data such as events and map co-ordinates, so this could prove to be one of the biggest new features in iOS 9. To see just how much information you can encode (focal length for images! media copyright information! contact phone numbers!) press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>O</kbd> and type CSSearchableItemAttributeSet then wait for the completions to appear - you'll see media, events, images, places and more.
+There are various extensions to `CSSearchableItemAttributeSet` to encode data such as events and map co-ordinates, so this could prove to be one of the biggest new features in iOS 9. To see just how much information you can encode (focal length for images! media copyright information! contact phone numbers!) press <kbd>Shift</kbd>+<kbd>⌘</kbd>+<kbd>O</kbd> and type CSSearchableItemAttributeSet then wait for the completions to appear - you'll see media, events, images, places and more.
 
 ---
 

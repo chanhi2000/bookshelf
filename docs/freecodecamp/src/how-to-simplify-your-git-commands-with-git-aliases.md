@@ -106,7 +106,7 @@ You can open the git configuration file directly from the following locations:
 
 @tab:active <VPIcon icon="iconfont icon-macos"/>
 
-Home Directory → show hidden (<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd>) → `.gitconfig`
+Home Directory → show hidden (<kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd>) → `.gitconfig`
 
 @tab <VPIcon icon="fa-brands fa-windows"/>
 

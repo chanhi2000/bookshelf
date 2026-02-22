@@ -66,8 +66,8 @@ As usual, we started with a Single View App template but we want to have a table
 1. Open <VPIcon icon="fa-brands fa-swift"/>`ViewController.swift`, then change `class ViewController: UIViewController {` to `class ViewController: UITableViewController {`
 2. Open Main.storyboard and delete its view controller.
 3. Look in the object library for a table view controller, then drag that out to where the previous view controller was.
-4. Select the new table view controller, then change its class to be ViewController. This is done in the identity inspector (<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd>) by setting the Class field.
-5. In the attributes inspector (<kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>4</kbd>) please check the box marked "Is Initial View Controller".
+4. Select the new table view controller, then change its class to be ViewController. This is done in the identity inspector (<kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>3</kbd>) by setting the Class field.
+5. In the attributes inspector (<kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>4</kbd>) please check the box marked "Is Initial View Controller".
 6. Go to the Editor menu and choose Embed In > Navigation Controller.
 7. Select the prototype cell of your table view and change its style to be "Right Detail" and its reuse identifier to be "Cell".
 8. If you want to, give your navigation bar a title, but this isn't required. Just double-click in the navigation bar space at the top of your table view controller and type some text.

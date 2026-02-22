@@ -72,7 +72,7 @@ To check the Python version on a Mac, you can follow these steps:
 
 ### Open the Terminal application on your Mac
 
-You can find the terminal by navigating to "**Applications**" -> "**Utilities**" -> "**Terminal**", or by using Spotlight search (<kbd>Cmd</kbd>+<kbd>Space</kbd>) and typing `Terminal`.
+You can find the terminal by navigating to "**Applications**" -> "**Utilities**" -> "**Terminal**", or by using Spotlight search (<kbd>⌘</kbd>+<kbd>Space</kbd>) and typing `Terminal`.
 
 Once the Terminal is open, you will see a command prompt where you can enter commands. Type the following command and press Enter:
 

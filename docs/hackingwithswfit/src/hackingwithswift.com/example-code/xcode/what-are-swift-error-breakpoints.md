@@ -56,7 +56,7 @@ isOriginal: false
 <!-- TODO: 작성 -->
 
 <!-- 
-Xcode has a few special breakpoint types, accessed by going to the breakpoint navigator (<kbd>Cmd</kbd>+8) then clicking + in the bottom-left corner. One of the options in that menu is Swift Error Breakpoint, and it allows Xcode to pause when Swift errors are thrown.
+Xcode has a few special breakpoint types, accessed by going to the breakpoint navigator (<kbd>⌘</kbd>+8) then clicking + in the bottom-left corner. One of the options in that menu is Swift Error Breakpoint, and it allows Xcode to pause when Swift errors are thrown.
 
 Swift error breakpoints are different from catching errors normally - in fact, the two complement each other nicely. If you’re calling someone else’s code (e.g. Apple’s) and that code throws an error, a Swift error breakpoint won’t halt on that. Instead, it will halt on errors thrown by your own code, i.e. wherever you use a `throw` statement. 
 

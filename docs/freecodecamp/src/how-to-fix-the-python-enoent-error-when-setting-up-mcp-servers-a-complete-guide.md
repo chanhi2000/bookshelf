@@ -292,7 +292,7 @@ The configuration tells Claude Desktop:
 
 ## How to Restart Claude Desktop and Test Integration
 
-After saving your configuration file, altogether quit Claude Desktop (not just close the window). On macOS, use <kbd>Cmd</kbd>+<kbd>Q</kbd> or right-click the dock icon and select Quit. Then restart Claude Desktop.
+After saving your configuration file, altogether quit Claude Desktop (not just close the window). On macOS, use <kbd>⌘</kbd>+<kbd>Q</kbd> or right-click the dock icon and select Quit. Then restart Claude Desktop.
 
 Once Claude Desktop is running again, test your MCP integration. You can verify the connection by:
 

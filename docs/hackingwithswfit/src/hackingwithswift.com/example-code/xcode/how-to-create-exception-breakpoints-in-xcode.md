@@ -63,7 +63,7 @@ Exception breakpoints are a powerful debugging tool that remarkably few people k
 
 A regular breakpoint is on a line you specify, and causes the debugger to pause execution at that point so you can evaluate your program's state. An *exception* breakpoint tells the debugger to pause whenever a problem is encountered anywhere in your program, so you can evaluate your program's state before it crashes.
 
-Exception breakpoints are trivial to set up: go to the Breakpoint Navigation (<kbd>Cmd</kbd>+7), then click the + button in the bottom left and choose Add Exception Breakpoint. You can leave it there if you want to, but it's preferable to make one further change to reduce unnecessary messages: right-click on your new breakpoint, choose Edit Breakpoint, then change the Exception value from "All" to "Objective-C".
+Exception breakpoints are trivial to set up: go to the Breakpoint Navigation (<kbd>⌘</kbd>+7), then click the + button in the bottom left and choose Add Exception Breakpoint. You can leave it there if you want to, but it's preferable to make one further change to reduce unnecessary messages: right-click on your new breakpoint, choose Edit Breakpoint, then change the Exception value from "All" to "Objective-C".
 
 -->
 

@@ -61,7 +61,7 @@ This will create a new file called Project38.xcdatamodeld, and when you select t
 
 ![The Add Entity button should be at the bottom of the data model editor window.](https://hackingwithswift.com/img/books/hws/38-13@2x.png)
 
-A Core Data "entity" is like a Swift class in that it is just a description of what an object is going to look like. By default, new entities are called "Entity", but you can change that in the Data Model inspector in the right-hand pane of Xcode - press <kbd>Alt</kbd>+<kbd>Cmd</kbd>+<kbd>3</kbd> if it's not already visible. With your new entity selected, you should see a field named "Name", so please change "Entity" to be "Commit".
+A Core Data "entity" is like a Swift class in that it is just a description of what an object is going to look like. By default, new entities are called "Entity", but you can change that in the Data Model inspector in the right-hand pane of Xcode - press <kbd>Alt</kbd>+<kbd>⌘</kbd>+<kbd>3</kbd> if it's not already visible. With your new entity selected, you should see a field named "Name", so please change "Entity" to be "Commit".
 
 ![New entities have the default name Entity, but obviously it's best that you change it to something more meaningful.](https://hackingwithswift.com/img/books/hws/38-3@2x.png)
 
@@ -83,6 +83,6 @@ That's the first step of Core Data completed: the app now knows what kind of dat
 
 ::: warning
 
-When you make *any* changes to the Core Data editor in Xcode, you should press <kbd>Cmd</kbd>+<kbd>S</kbd> to save your changes. At the time of writing - and indeed for some time now - Xcode has not saved Core Data model changes when you build your app, so if you don’t save the changes yourself you’ll find they haven’t been applied and you’ll spend hours investigating ghost bugs.
+When you make *any* changes to the Core Data editor in Xcode, you should press <kbd>⌘</kbd>+<kbd>S</kbd> to save your changes. At the time of writing - and indeed for some time now - Xcode has not saved Core Data model changes when you build your app, so if you don’t save the changes yourself you’ll find they haven’t been applied and you’ll spend hours investigating ghost bugs.
 
 :::

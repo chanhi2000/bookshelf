@@ -189,7 +189,7 @@ subl --help
 To begin taking advantage of the various [<VPIcon icon="iconfont icon-subl"/>packages](https://packagecontrol.io/) for extending Sublime’s functionality, you need to manually install the package manager called Package Control. Once you have it installed, you can use it to install, remove, and upgrade all other ST3 packages.
 
 1. To install, copy the Python code for Sublime Text 3 found [<VPIcon icon="iconfont icon-subl"/>here](https://packagecontrol.io/installation#st3). Click **View > Show Console** to open the ST3 console. Paste the code into the console. Press <kbd>Enter</kbd>. Reboot ST3.
-2. You can now install packages by using the keyboard shortcut <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>. Start typing `install` until `Package Control: Install Package` appears. Press <kbd>Enter</kbd> and search for available packages.
+2. You can now install packages by using the keyboard shortcut <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>. Start typing `install` until `Package Control: Install Package` appears. Press <kbd>Enter</kbd> and search for available packages.
 
 Here are some other relevant commands:
 
@@ -354,7 +354,7 @@ Simply bring up the AdvancedNewFile input through the appropriate key binding. T
 
 For a more detailed explanation on its usage, check out the documentation on [GitHub (<VPIcon icon="iconfont icon-github"/>`skuroda/Sublime-AdvancedNewFile`)](https://github.com/skuroda/Sublime-AdvancedNewFile#usage). Be sure to read about Tab Completion as well as Predefined Aliases.
 
-I replaced the normal <kbd>Cmd</kbd>+<kbd>N</kbd> command to create a new file with AdvancedNewFile by adding the following code to the **Key Bindings - User** file: **Sublime Text > Preferences > Package Settings > AdvancedNewFile > Key Bindings - User**:
+I replaced the normal <kbd>⌘</kbd>+<kbd>N</kbd> command to create a new file with AdvancedNewFile by adding the following code to the **Key Bindings - User** file: **Sublime Text > Preferences > Package Settings > AdvancedNewFile > Key Bindings - User**:
 
 ```json
 [
@@ -411,14 +411,14 @@ Once converted, the output file will be updated on each subsequent save.
 
 ## Keyboard Shortcuts
 
-- **Goto Anything** <kbd>Cmd</kbd>+<kbd>P</kbd> is used for quickly finding and opening files. Just type in a part of a path and filename within a project and you can easily open that file. This is great for quickly opening files in large Django projects.
+- **Goto Anything** <kbd>⌘</kbd>+<kbd>P</kbd> is used for quickly finding and opening files. Just type in a part of a path and filename within a project and you can easily open that file. This is great for quickly opening files in large Django projects.
 - **Goto Line Number** <kbd>Ctrl</kbd>+<kbd>G</kbd> takes you to a specific line number in an active file.
-- **Goto Symbol** <kbd>Cmd</kbd>+<kbd>R</kbd> lists all functions and classes within a file to make them easier to find. Simply start typing the one you want.
-- **Go to beginning of line** <kbd>Cmd</kbd>+<kbd>Left</kbd> and **Go to end of line** <kbd>Cmd</kbd>+<kbd>Right</kbd> help you navigate within lines.
+- **Goto Symbol** <kbd>⌘</kbd>+<kbd>R</kbd> lists all functions and classes within a file to make them easier to find. Simply start typing the one you want.
+- **Go to beginning of line** <kbd>⌘</kbd>+<kbd>Left</kbd> and **Go to end of line** <kbd>⌘</kbd>+<kbd>Right</kbd> help you navigate within lines.
 - **Delete current line** <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> deletes the current line.
 - **Multi-Edit** is by far my favorite shortcut:
-  - Select a word and press <kbd>Cmd</kbd>+<kbd>D</kbd> to select the next same word. Then press <kbd>Cmd</kbd>+<kbd>D</kbd> again to select the next same word again, and so on.
-  - Press <kbd>Cmd</kbd>+<kbd>Left</kbd> Button to create a cursor for editing everywhere you click.
+  - Select a word and press <kbd>⌘</kbd>+<kbd>D</kbd> to select the next same word. Then press <kbd>⌘</kbd>+<kbd>D</kbd> again to select the next same word again, and so on.
+  - Press <kbd>⌘</kbd>+<kbd>Left</kbd> Button to create a cursor for editing everywhere you click.
 - **Block select** Option+Left Button is used to select a block of text. It’s perfect for removing blank space when formatting a CSV file.
 
 ::: note

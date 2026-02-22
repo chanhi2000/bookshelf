@@ -61,7 +61,7 @@ isOriginal: false
 <!-- 
 Since Xcode 9.0 we’ve been able to create named colors directly inside asset catalogs, which means it’s possible to select a precise color once then use it uniformly across all code and storyboards.
 
-To try this out, open your asset catalog, click the + button, then choose New Color Set from the menu that appears. Select the new color that got created - it will be a large white square - then press Alt+<kbd>Cmd</kbd>+4 to activate the attributes inspector so that you can customize it.
+To try this out, open your asset catalog, click the + button, then choose New Color Set from the menu that appears. Select the new color that got created - it will be a large white square - then press Alt+<kbd>⌘</kbd>+4 to activate the attributes inspector so that you can customize it.
 
 Named colors are comprised of two rather obvious parts: a name (e.g. “PayPal blue”) and a color, which you can specify as ranges from 0-1, ranges from 0-255, or hexadecimal.
 

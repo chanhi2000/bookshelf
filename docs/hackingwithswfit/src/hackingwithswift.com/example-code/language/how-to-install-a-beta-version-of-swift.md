@@ -77,7 +77,7 @@ You'll be prompted to restart Xcode, but when it relaunches it should say “Xco
 
 <img class="hws" src="/img/hws/example-code-288-4.png" alt="">
 
-That's it, now brace yourself: open any of your Swift projects, and press <kbd>Cmd</kbd>+B to build. You *might* get one or two (or fifty) compile errors. 
+That's it, now brace yourself: open any of your Swift projects, and press <kbd>⌘</kbd>+B to build. You *might* get one or two (or fifty) compile errors. 
 
 When you're done admiring the latest and greatest Swift snapshot, you can switch back to your previous Swift version returning to the Toolchains menu item. When you revert back to the default Swift version, you can delete any snapshot you don't want by going to Xcode > Settings > Components, then hovering over it and clicking the small settings icon.
 

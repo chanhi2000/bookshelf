@@ -134,6 +134,10 @@ export const navbarEn = navbar([
         icon: 'https://ishadeed.com/assets/favicon-32x32.png',
         link: '/ishadeed.com/README.md'
       }, {
+        text: 'adrianroselli.com',
+        icon: 'https://adrianroselli.com/wp-content/themes/AAR/favicon.png',
+        link: '/adrianroselli.com/README.md'
+      }, {
         text: 'css-tip.com',
         icon: 'https://css-tip.com/img/fav.png',
         link: '/css-tip.com/README.md'

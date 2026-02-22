@@ -63,7 +63,7 @@ View debugging lets you visualize exactly how your app is drawing to the screen 
 
 To activate view debugging, first you need to be using iOS 8.0, either on a device or the simulator. Run your app, and browse to the view controller you want to inspect. Now go to Xcode and look just below the main text editor, where the row of debugging buttons live: you want to click the button that has three rectangles in, just to the left of the location arrow.
 
-When you use view debugging your app is paused, so make sure and tell Xcode to continue execution when you're done by pressing <kbd>Cmd</kbd>+Ctrl+Y.
+When you use view debugging your app is paused, so make sure and tell Xcode to continue execution when you're done by pressing <kbd>⌘</kbd>+Ctrl+Y.
 
 -->
 

@@ -454,7 +454,15 @@ In the end, methodologies such as OOCSS and SMACSS will only work against this i
 }
 ```
 
-- [**Client-Side Templating**](/smashingmagazine.com/client-side-templating.md)
+```component VPCard
+{
+  "title": "Client-Side Templating",
+  "desc": "Although templates can be used to output any kind of text, in this article we provide examples using HTML, since that is what we want in client-side development. Let's take a fresh look at client-side templating!",
+  "link": "/smashingmagazine.com/client-side-templating.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
 
 ```component VPCard
 {

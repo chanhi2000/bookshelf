@@ -238,7 +238,7 @@ func application(_ application: UIApplication, continue userActivity: NSUserActi
 }
 ```
 
-That's the third and final stage complete, which means the project is also complete. Run it now, and try clicking the + button next to Project 4. Now press <kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd> to return to the home screen in the simulator and swipe to the left until you reach the Spotlight search tab. You should be able to type "uit" into the search box to have it find the reference to `UIToolbar` in project 4's description.
+That's the third and final stage complete, which means the project is also complete. Run it now, and try clicking the + button next to Project 4. Now press <kbd>Shift</kbd>+<kbd>⌘</kbd>+<kbd>H</kbd> to return to the home screen in the simulator and swipe to the left until you reach the Spotlight search tab. You should be able to type "uit" into the search box to have it find the reference to `UIToolbar` in project 4's description.
 
 Now, before you go off indexing all sorts of information, be warned: Apple has said that iOS will automatically monitor how frequently users interact with your search results, and if you consistently serve up unhelpful results because you indexed your data badly then your results may stop appearing. Index only what's important!
 

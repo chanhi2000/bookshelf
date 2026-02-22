@@ -36,6 +36,11 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "whats-important-6", // 2026-02-27
+    "yet-another-way-to-center-an-absolute-element", // 2026-02-27
+    "an-exploit-in-css", // 2026-02-25
+    "a-complete-guide-to-bookmarklets", // 2026-02-25
+    "loading-smarter-svg-vs-raster-loaders-in-modern-web-design", // 2026-02-23
     "potentially-coming-to-a-browser-near-you", // 2026-02-20
     "distinguishing-components-and-utilities-in-tailwind", // 2026-02-18
     "spiral-scrollytelling-in-css-with-sibling-index", // 2026-02-17
@@ -182,6 +187,8 @@ const Y2021: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2021
+    "scroll-linked-animations-with-the-web-animations-api-waapi-and-scrolltimeline", // 2021-11-04
+    "practical-use-cases-for-scroll-linked-animations-in-css-with-scroll-timelines", // 2021-07-19
     "next-gen-css-container", // 2021-05-11
     "say-hello-to-css-container-queries", // 2021-04-20
     "css-container-queries-a-first-look-and-demo", // 2021-03-29
@@ -405,6 +412,7 @@ export const template: SidebarInfoTemplate = {
       "css-container-queries-a-first-look-and-demo", // 2021-03-29
       "say-hello-to-css-container-queries", // 2021-04-20
       "next-gen-css-container", // 2021-05-11
+      "practical-use-cases-for-scroll-linked-animations-in-css-with-scroll-timelines", // 2021-07-19
       // END: 2021css
       "css-borders-using-masks", // 2022-01-26
       "quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion", // 2022-03-07
@@ -503,6 +511,9 @@ export const template: SidebarInfoTemplate = {
       "interop-2026", // 2026-02-17
       "spiral-scrollytelling-in-css-with-sibling-index", // 2026-02-17
       "potentially-coming-to-a-browser-near-you", // 2026-02-20
+      "loading-smarter-svg-vs-raster-loaders-in-modern-web-design", // 2026-02-23
+      "an-exploit-in-css", // 2026-02-25
+      "yet-another-way-to-center-an-absolute-element", // 2026-02-27
       // END: 2026css
       // END: css
     ]],[
@@ -523,6 +534,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "js",[
       "web-components-are-easier-than-you-think", // 2021-03-08
+      "scroll-linked-animations-with-the-web-animations-api-waapi-and-scrolltimeline", // 2021-11-04
       // END: 2021js
       // END: 2022js
       // END: 2023js
@@ -534,6 +546,7 @@ export const template: SidebarInfoTemplate = {
       "an-introduction-to-javascript-expressions", // 2025-10-22
       // END: 2025js
       "future-css-drag-and-maybe-dragged-image", // 2025-01-07
+      "a-complete-guide-to-bookmarklets", // 2026-02-25
       // END: 2026js
       // END: js
     ]],[
@@ -560,6 +573,12 @@ export const template: SidebarInfoTemplate = {
       "toe-dipping-into-view-transitions", // 2025-02-21
       // END: 2025php
       // END: php
+    ]],[
+    "security", [
+      // END: 2025security
+      "an-exploit-in-css", // 2026-02-25
+      // END: 2026security
+      // END: security
     ]],[
     "safari", [
       "touring-new-css-features-in-safari-26", // 2025-09-29

@@ -75,6 +75,7 @@ const Y2021: SidebarYeargroupTemplate = {
   children: [
     // END: 2021
     "a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries", // 2021-11-26
+    "scroll-linked-animations-with-the-web-animations-api-waapi-and-scrolltimeline", // 2021-11-24
     "the-future-of-css-cascade-layers-css-at-layer", // 2021-09-15
     "the-large-small-and-dynamic-viewports", // 2021-07-08
     "a-first-look-at-cqfill-a-polyfill-for-css-container-queries", // 2021-04-28
@@ -141,6 +142,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2018js
       // END: 2019js
       // END: 2020js
+      "scroll-linked-animations-with-the-web-animations-api-waapi-and-scrolltimeline", // 2021-11-24
       // END: 2021js
       // END: 2022js
       // END: 2023js

@@ -125,5 +125,5 @@ override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) 
 }
 ```
 
-That's it, your game is done. Obviously you can't shake your laptop to make the iOS Simulator respond, but you can use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Z</kbd> to get the same result. If you're testing on your iPad, make sure you give it a good shake in order to trigger the explosions!
+That's it, your game is done. Obviously you can't shake your laptop to make the iOS Simulator respond, but you can use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>⌘</kbd>+<kbd>Z</kbd> to get the same result. If you're testing on your iPad, make sure you give it a good shake in order to trigger the explosions!
 
