@@ -94,9 +94,9 @@ In short, `=` evaluates `--Problems` differently to `:`, even though Jay-Z undou
 
 ## Declarative `<dialog>`s (and an updated `.visually-hidden`)
 
-David Bushell demonstrated [<VPIcon icon="fas fa-globe"/>how to create `<dialog>`s declaratively using invoker commands](https://dbushell.com/2026/02/12/declarative-dialog-menu-invoker-commands/), a useful feature that allows us to skip some J’Script in favor of HTML, and works in all web browsers as of recently.
+David Bushell demonstrated [**how to create `<dialog>`s declaratively using invoker commands**](/dbushell.com/declarative-dialog-menu-invoker-commands.md), a useful feature that allows us to skip some J’Script in favor of HTML, and works in all web browsers as of recently.
 
-Also, thanks to an inquisitive question from Ana Tudor, the article spawned a spin-off about the [<VPIcon icon="fas fa-globe"/>minimum number of styles needed for a visually-hidden utility class](https://dbushell.com/2026/02/20/visually-hidden/). Is it still seven?
+Also, thanks to an inquisitive question from Ana Tudor, the article spawned a spin-off about the [**minimum number of styles needed for a visually-hidden utility class**](/dbushell.com/visually-hidden.md). Is it still seven?
 
 *Maybe not…*
 

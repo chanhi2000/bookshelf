@@ -152,7 +152,7 @@ The browser’s opinion needs to also be considered—without a designed alterna
 
 Doing so would be an dramatic and not necessarily valid option. Animation, when used with discretion and restraint, can be a great way to communicate relationships between parts of your site or transitions between states, direct a person’s attention, simplify the understanding of complicated concepts, or to simply add some fun. Used properly, animations can even aid accessibility by helping [<VPIcon icon="fas fa-globe"/>address cognitive accessibility concerns](http://webaim.org/articles/cognitive/).
 
-If you would like more information on what kinds of animation are more likely to trigger vestibular issues, [<VPIcon icon="fas fa-globe"/>Val Head](http://valhead.com/) has written [<VPIcon icon="fas fa-globe"/>an excellent post on A List Apart](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) on the subject.
+If you would like more information on what kinds of animation are more likely to trigger vestibular issues, [<VPIcon icon="fas fa-globe"/>Val Head](http://valhead.com/) has written [**an excellent post on A List Apart**](/alistapart.com/designing-safer-web-animation-for-motion-sensitivity.md) on the subject.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

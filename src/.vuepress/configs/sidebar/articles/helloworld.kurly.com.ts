@@ -69,6 +69,10 @@ const Y2024: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2024
+    "bigquery-gemini-review", // 2024-07-25
+    "commit-mvcc-set-autocommit", // 2024-06-13
+    "cart-recommend-model-development-second", // 2024-05-27
+    "cart-recommend-model-development", // 2024-05-20
   ]
 }
 
@@ -86,29 +90,63 @@ export const template: SidebarInfoTemplate = {
     linksMap: new Map([
     [
     "java-spring", [
+      // END: 2022java-spring
+      // END: 2023java-spring
       "commit-mvcc-set-autocommit", // 2024-06-13
+      // END: 2024java-spring
+      // END: 2025java-spring
+      // END: 2026java-spring
+      // END: java-spring
     ]],[
     "k8s", [
+      // END: 2022k8s
+      // END: 2023k8s
       "cart-recommend-model-development-second", // 2024-05-27
+      // END: 2024k8s
+      // END: 2025k8s
+      // END: 2026k8s
+      // END: k8s
     ]],[
     "gcp", [
+      // END: 2022gcp
+      // END: 2023gcp
       "bigquery-gemini-review", // 2024-07-25
+      // END: 2024gcp
+      // END: 2025gcp
+      // END: 2026gcp
+      // END: gcp
     ]],[
     "system-design", [
+      // END: 2022system-design
+      // END: 2023system-design
       "cart-recommend-model-development", // 2024-05-20
       "cart-recommend-model-development-second", // 2024-05-27
+      // END: 2024system-design
+      // END: 2025system-design
+      // END: 2026system-design
+      // END: system-design
     ]],[
     "llm", [
+      // END: 2022llm
+      // END: 2023llm
       "cart-recommend-model-development", // 2024-05-20
+      // END: 2024llm
+      // END: 2025llm
+      // END: 2026llm
+      // END: llm
     ]],[
     "gemini", [
+      // END: 2022gemini
+      // END: 2023gemini
       "bigquery-gemini-review", // 2024-07-25
+      // END: 2024gemini
+      // END: 2025gemini
+      // END: 2026gemini
+      // END: gemini
     ]],[
     "all", [
-      "cart-recommend-model-development", // 2024-05-20
-      "cart-recommend-model-development-second", // 2024-05-27
-      "commit-mvcc-set-autocommit", // 2024-06-13
-      "bigquery-gemini-review", // 2024-07-25
+      Y2025,
+      Y2024,
     ]],
   ]),
 }

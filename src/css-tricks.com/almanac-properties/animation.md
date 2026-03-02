@@ -438,7 +438,7 @@ MDN has [<VPIcon icon="fa-brands fa-firefox" />a list of CSS properties which ca
 <SiteInfo
   name="Web Animation at Work"
   desc="We use HTML to tell stories and communicate vast amounts of information—and animation helps us do both better. Just as hierarchy guides users through content, animation guides them through interact…"
-  url="https://alistapart.com/article/web-animation-at-work//"
+  url="https://alistapart.com/article/web-animation-at-work/"
   logo="https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=192%2C192&ssl=1"
   preview="https://i0.wp.com/alistapart.com/wp-content/uploads/2014/02/ALA390_webanimation_300.png?fit=1200%2C533&ssl=1"/>
 

@@ -157,6 +157,9 @@ projects:
   - icon: 'https://css-tip.com/img/fav.png'
     name: 'css-tip.com'
     desc: "The best place to keep up to date with the new CSS features. Daily CSS tips and tricks to become a better web developer."
+  - icon: 'https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=192%2C192&ssl=1'
+    name: 'alistapart.com '
+    desc: "For people who make websites"
   - icon: 'https://css-loaders.com/fav.png'
     name: 'css-loaders.com'
     desc: "The biggest collection of CSS-only loaders. More than 600 loading animations made by Temani Afif using a single element."
@@ -172,6 +175,9 @@ projects:
   - icon: 'https://css-irl.info/favicon/apple-touch-icon.png'
     name: 'css-irl.info'
     desc: "A blog about CSS, front-end development, the web, and beyond."
+  - icon: 'https://dbushell.com/assets/icons/favicon.svg'
+    name: 'dbushell.com'
+    desc: "David Bushell – Freelance Web Design & Front-end Development (UK)"
   - icon: 'https://svelte.dev/favicon.png'
     name: 'webdevredfox.org'
     desc: "Accessibility, CSS tricks, & Web Development Articles"

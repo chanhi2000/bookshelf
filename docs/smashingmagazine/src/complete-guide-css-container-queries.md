@@ -62,7 +62,7 @@ Container queries are now supported from the following versions: Chromium and Ed
 
 ## What Problem Are CSS Container Queries Solving?
 
-Over a decade ago, Ethan Marcotte introduced us to [<VPIcon icon="fas fa-globe"/>the concept of responsive design](https://alistapart.com/article/responsive-web-design/). Central to that idea was the availability of CSS media queries which allowed setting various rules depending on the size of the viewport. The iPhone had been introduced three years prior, and we were all trying to figure out how to work within this new world of contending with both mobile screen sizes and desktop screen sizes (which were much smaller on average than today).
+Over a decade ago, Ethan Marcotte introduced us to [**the concept of responsive design**](/alistapart.com/responsive-web-design.md). Central to that idea was the availability of CSS media queries which allowed setting various rules depending on the size of the viewport. The iPhone had been introduced three years prior, and we were all trying to figure out how to work within this new world of contending with both mobile screen sizes and desktop screen sizes (which were much smaller on average than today).
 
 Before and even after **responsive design** was introduced, many companies dealt with the problem of changing layout based on screen size by delivering completely different sites, often under the subdomain of `m`. Responsive design and media queries opened up many more layout solutions, and many years of creating best practices around responding to viewport sizes. Additionally, frameworks like [<VPIcon icon="fas fa-globe"/>Bootstrap](https://getbootstrap.com/) rose in popularity largely due to providing developers **responsive grid systems**.
 

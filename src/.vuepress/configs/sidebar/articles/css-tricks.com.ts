@@ -36,6 +36,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "the-different-ways-to-select-html-in-css", // 2026-03-05
+    "popover-api-or-dialog-api-which-to-choose", // 2026-03-02
     "whats-important-6", // 2026-02-27
     "yet-another-way-to-center-an-absolute-element", // 2026-02-27
     "an-exploit-in-css", // 2026-02-25
@@ -514,6 +516,7 @@ export const template: SidebarInfoTemplate = {
       "loading-smarter-svg-vs-raster-loaders-in-modern-web-design", // 2026-02-23
       "an-exploit-in-css", // 2026-02-25
       "yet-another-way-to-center-an-absolute-element", // 2026-02-27
+      "popover-api-or-dialog-api-which-to-choose", // 2026-03-02
       // END: 2026css
       // END: css
     ]],[
@@ -525,6 +528,7 @@ export const template: SidebarInfoTemplate = {
     "js-astro",[
       "building-a-honeypot-field-that-works", // 2025-10-20
       // END: 2025js-astro
+      // END: 2026js-astro
       // END: js-astro
     ]],[
     "js-node",[

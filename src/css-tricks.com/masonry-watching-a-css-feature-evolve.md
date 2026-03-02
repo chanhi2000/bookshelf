@@ -200,7 +200,7 @@ This is a big topic, one that goes much deeper and further than we’ve gone her
 
 - Alex Russell’s [<VPIcon icon="fas fa-globe"/>post](https://infrequently.org/series/effective-standards-work/) about the standards adoption process in browsers.
 - Rob O’Leary’s [<VPIcon icon="fas fa-globe"/>article](https://roboleary.net/blog/baseline-text-wrap-pretty/) about struggling with `text-wrap: pretty`, explaining that “Baseline” doesn’t always mean consistent support in practice.
-- David Bushell’s [<VPIcon icon="fas fa-globe"/>piece](https://dbushell.com/2025/09/08/trillion-dollar-elephants/) about the WHATWG. It isn’t about the CSSWG specifically, but covers similar discussions on browser politics and standards consensus.
+- David Bushell’s [**piece**](/dbushell.com/trillion-dollar-elephants.md) about the WHATWG. It isn’t about the CSSWG specifically, but covers similar discussions on browser politics and standards consensus.
 
 :::
 

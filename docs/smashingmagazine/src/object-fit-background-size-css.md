@@ -174,7 +174,7 @@ Consider the following example in which the image is given a fixed height:
 
 If the card’s container is too wide, it will result in what we see on the right (an image that is too wide). That is because we are not specifying an aspect ratio.
 
-There is only one of two fixes for this. The first is to use the [<VPIcon icon="fas fa-globe"/>padding hack](https://alistapart.com/article/creating-intrinsic-ratios-for-video/) to create an intrinsic ratio.
+There is only one of two fixes for this. The first is to use the [**padding hack**](/alistapart.com/creating-intrinsic-ratios-for-video.md) to create an intrinsic ratio.
 
 ```css
 .card__thumb {

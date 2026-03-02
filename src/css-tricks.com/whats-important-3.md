@@ -115,9 +115,10 @@ As you know (hopefully?), we post [<VPIcon icon="iconfont icon-css-tricks"/>Quic
 <SiteInfo
   name="Death to Scroll Fade!"
   desc="The one where I crowdsource an argument winner"
-  url="https://dbushell.com/2026/01/09/death-to-scroll-fade//"
+  url="https://dbushell.com/2026/01/09/death-to-scroll-fade/"
   logo="https://dbushell.com/assets/icons/favicon.svg"
   preview="https://dbushell.com/images/articles/2026-01-09-death-to-scroll-fade.png"/>
+<!-- TODO: 태그 변경 -->
 
 - Chris Coyier quickly explained [**how `!important` works with custom properties**](https://frontendmasters.com/important-and-css-custom-properties.md)
 - [<VPIcon icon="fas fa-globe"/>ReliCSS](https://alwaystwisted.com/relicss/) shipped, which helps you to replace any CSS hacks with `@supports` and modern CSS

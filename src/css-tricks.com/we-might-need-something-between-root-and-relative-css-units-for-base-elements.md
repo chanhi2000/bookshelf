@@ -67,7 +67,7 @@ Earlier this year, [<VPIcon icon="fas fa-globe"/>Jen Simmons](https://jensimmons
 p { margin-block: 1lh; } 
 ```
 
-We can expand the concept a little further to include all other spaces around the text. One way of doing this is the [<VPIcon icon="fas fa-globe"/>“Lobotomized Owl” technique](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/) that [<VPIcon icon="fas fa-globe"/>Heydon Pickering](https://heydonworks.com) popularized a while ago.
+We can expand the concept a little further to include all other spaces around the text. One way of doing this is the [**“Lobotomized Owl” technique**](/alistapart.com/axiomatic-css-and-lobotomized-owls.md) that [<VPIcon icon="fas fa-globe"/>Heydon Pickering](https://heydonworks.com) popularized a while ago.
 
 ```css
 * + * {

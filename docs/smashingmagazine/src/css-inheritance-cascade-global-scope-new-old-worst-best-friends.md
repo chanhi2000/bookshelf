@@ -305,7 +305,7 @@ The BEM methodology would solve this by applying a modifier class, such as `inpu
 
 ### Just Write HTML
 
-My absolute favorite thing about making the most of element and attribute selectors high up in the cascade is this: The composition of new components becomes **less a matter of knowing the company or organization’s naming conventions and more a matter of knowing HTML**. Any developer versed in writing decent HTML who is assigned to the project will benefit from inheriting styling that’s already been put in place. This dramatically reduces the need to refer to documentation or write new CSS. For the most part, they can just write the (meta) language that they should know by rote. Tim Baxter also makes a case for this in [<VPIcon icon="fas fa-globe"/>Meaningful CSS: Style It Like You Mean It](https://alistapart.com/article/meaningful-css-style-like-you-mean-it).
+My absolute favorite thing about making the most of element and attribute selectors high up in the cascade is this: The composition of new components becomes **less a matter of knowing the company or organization’s naming conventions and more a matter of knowing HTML**. Any developer versed in writing decent HTML who is assigned to the project will benefit from inheriting styling that’s already been put in place. This dramatically reduces the need to refer to documentation or write new CSS. For the most part, they can just write the (meta) language that they should know by rote. Tim Baxter also makes a case for this in [**Meaningful CSS: Style It Like You Mean It**](/alistapart.com/meaningful-css-style-like-you-mean-it.md).
 
 ---
 

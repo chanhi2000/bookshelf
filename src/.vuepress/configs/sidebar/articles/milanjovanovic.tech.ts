@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "5-architecture-tests-you-should-add-to-your-dotnet-projects", // 2026-03-07
     "how-to-implement-two-factor-authentication-in-aspnetcorehow-to-implement-two-factor-authentication-in-aspnetcore", // 2026-02-28
     "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
     "how-to-extract-structured-data-from-images-using-ollama-in-dotnet", // 2026-02-14
@@ -395,6 +396,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-extract-structured-data-from-images-using-ollama-in-dotnet", // 2026-02-14
       "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
       "how-to-implement-two-factor-authentication-in-aspnetcorehow-to-implement-two-factor-authentication-in-aspnetcore", // 2026-02-28
+      "5-architecture-tests-you-should-add-to-your-dotnet-projects", // 2026-03-07
       // END: 2026cs
       // END: cs
     ]],[

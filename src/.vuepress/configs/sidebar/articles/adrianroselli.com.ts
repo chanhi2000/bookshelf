@@ -85,8 +85,9 @@ const Y2017: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2017
-    "avoid-emoji-as-class-names", // 2017-10-20
+    "hey-its-still-ok-to-use-tables", // 2017-11-01
     "dont-use-aria-menu-roles-for-site-nav", // 2017-10-23
+    "avoid-emoji-as-class-names", // 2017-10-20
   ],
 }
 
@@ -187,6 +188,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2016css
       "avoid-emoji-as-class-names", // 2017-10-20
       "dont-use-aria-menu-roles-for-site-nav", // 2017-10-23
+      "hey-its-still-ok-to-use-tables", // 2017-11-01
       // END: 2017css
       // END: 2018css
       "uniquely-labeling-fields-in-a-table", // 2019-05-06

@@ -16,6 +16,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "box-model", // 2025-09-04
     "winging-it-18", // 2025-04-17
     "anchor-position-area", // 2025-02-05
+    "anchor-position-validity", // 2025-01-29
   ],
 }
 
@@ -173,6 +174,7 @@ export const template: SidebarInfoTemplate = {
       "removing-mixins", // 2024-06-11
       "winging-it-11", // 2024-08-27
       // END: 2024css
+      "anchor-position-validity", // 2025-01-29
       "anchor-position-area", // 2025-02-05
       "winging-it-18", // 2025-04-17
       "box-model", // 2025-09-04

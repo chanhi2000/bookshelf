@@ -5,6 +5,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "the-big-gotcha-of-anchor-positioning", // 2026-03-05
+    "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
+    "the-odometer-effect-in-css",  // 2026-03-02
     "nav-thumbnail-flip-image", // 2026-02-26
     "vibe-coding-deployment", // 2026-02-24
     "virtual-scroll-driven-3d-scenes", // 2026-02-23
@@ -358,6 +361,7 @@ export const template: SidebarInfoTemplate = {
       "single-flight-mutations-in-tanstack-start-part-1", // 2026-01-23
       "reacts-viewtransition-element", // 2026-01-31
       "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
+      "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -389,6 +393,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "js-lit", [
       "the-missing-link-for-web-components", // 2026-01-15
+      "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
       // END: 2026js-lit  
       // END: js-lit
     ]],[
@@ -549,6 +554,7 @@ export const template: SidebarInfoTemplate = {
       "anchored-menus-and-a-lesson-in-scoping", // 2026-02-16
       "virtual-scroll-driven-3d-scenes", // 2026-02-23
       "nav-thumbnail-flip-image", // 2026-02-26
+      "the-odometer-effect-in-css",  // 2026-03-02
       // END: 2026css
       // END: css
     ]],[

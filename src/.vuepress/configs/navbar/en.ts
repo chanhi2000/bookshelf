@@ -142,6 +142,10 @@ export const navbarEn = navbar([
         icon: 'https://css-tip.com/img/fav.png',
         link: '/css-tip.com/README.md'
       }, {
+        text: 'alistapart.com',
+        icon: 'https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=192%2C192&ssl=1',
+        link: '/alistapart.com/README.md'
+      }, {
         text: 'css-loaders.com',
         icon: 'https://css-loaders.com/fav.png',
         link: '/css-loaders.com/README.md'
@@ -161,6 +165,10 @@ export const navbarEn = navbar([
         text: 'css-irl.info',
         icon: 'https://css-irl.info/favicon/apple-touch-icon.png',
         link: '/css-irl.info/README.md'
+      }, {
+        text: 'dbushell.com',
+        icon: 'https://dbushell.com/assets/icons/favicon.svg',
+        link: '/dbushell.com/README.md'
       }, {
         text: 'webdevredfox.org',
         icon: 'https://svelte.dev/favicon.png',

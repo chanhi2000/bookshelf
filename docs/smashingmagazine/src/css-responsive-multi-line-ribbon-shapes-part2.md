@@ -396,7 +396,16 @@ You now have the tools to make your own ribbon patterns, too, so why not give it
 
 ::: info Further Reading On SmashingMag
 
-- “[**Create Responsive Image Effects With CSS Gradients And aspect-ratio**](/smashingmagazine.com/responsive-image-effects-css-gradients-aspect-ratio.md),” Stephanie Eckles
+```component VPCard
+{
+  "title": "Create Responsive Image Effects With CSS Gradients And aspect-ratio",
+  "desc": "A classic problem in CSS is maintaining the aspect ratio of images across related components, such as cards. The newly supported `aspect-ratio` property in combination with `object-fit` provides a remedy to this headache of the past! In this article, Stephanie Eckles will show you how to use these properties, in addition to creating a responsive gradient image effect for extra flair.",
+  "link": "/smashingmagazine.com/responsive-image-effects-css-gradients-aspect-ratio.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - “[**Inspired Design Decisions With Alexey Brodovitch**](/smashingmagazine.com/inspired-design-decisions-alexey-brodovitch.md),” Andrew Clarke
 - “[**Gradients, Blend Modes, And A Really Cool Hover Effect**](/smashingmagazine.com/gradients-blend-modes-hover-effect.md),” Preethi Sam
 - “[**A Deep CSS Dive Into Radial And Conic Gradients**](/smashingmagazine.com/css-radial-conic-gradient.md),” Ahmad Shadeed

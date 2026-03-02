@@ -641,13 +641,16 @@ Let’s look at a bunch of media query examples. There are so many combinations 
 
 ### Adjust layout at different viewport widths
 
-CodePen Embed Fallback
-https://codepen.io/andresgalante/pen/NWNeoVy
-Example basic grid
+<CodePen
+  user="andresgalante"
+  slug-hash="NWNeoVy"
+  title="Example basic grid"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ::: details More info
 
-This is the probably the most widely used media feature. It informs the width of the browser’s viewport including the scrollbar. It unlocked the CSS implementation of what Ethan Marcotte famously coined [<VPIcon icon="fas fa-globe"/>responsive design](https://alistapart.com/article/responsive-web-design/): a process by which a design responds to the size of the viewport using a combination of a fluid grid, flexible images, and responsive typesetting.
+This is the probably the most widely used media feature. It informs the width of the browser’s viewport including the scrollbar. It unlocked the CSS implementation of what Ethan Marcotte famously coined [**responsive design**](/alistapart.com/responsive-web-design.md): a process by which a design responds to the size of the viewport using a combination of a fluid grid, flexible images, and responsive typesetting.
 
 Later, Luke Wroblewski evolved the concept of responsive design by introducing the term [<VPIcon icon="fas fa-globe"/>mobile-first](https://abookapart.com/products/mobile-first), encouraging designers and developers to start with the small-screen experience first then progressively enhance the experience as the screen width and device capabilities expand.
 
@@ -664,9 +667,12 @@ One approach for defining breakpoints by width is using the dimensions of [<VPIc
 
 There are many articles about thinking beyond width, [**I wrote about it a few years ago**](/css-tricks.com/mobile-small-portrait-slow-interlace-monochrome-coarse-non-hover-first.md) and I recommend checking out Una Kravet’s [<VPIcon icon="iconfont icon-webdev"/>Ten modern layouts in one line of CSS](https://web.dev/one-line-layouts/).
 
-CodePen Embed Fallback
-https://codepen.io/andresgalante/pen/YzwMaKa
-Gallery Grid Example
+<CodePen
+  user="andresgalante"
+  slug-hash="YzwMaKa"
+  title="Gallery Grid Example"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 :::
 
@@ -674,9 +680,12 @@ Gallery Grid Example
 
 ### Dark mode
 
-CodePen Embed Fallback
-https://codepen.io/adhuham/pen/BaNroxd
-Dark Mode: Combining Everything
+<CodePen
+  user="adhuham"
+  slug-hash="BaNroxd"
+  title="Dark Mode: Combining Everything"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ::: details More info
 
@@ -690,9 +699,12 @@ Combining this technique with CSS custom properties makes things even easier bec
 
 ### Detecting orientation, hover and motion on a responsive card gallery
 
-CodePen Embed Fallback
-https://codepen.io/andresgalante/pen/GRZbrYp
-Media Queries example
+<CodePen
+  user="andresgalante"
+  slug-hash="GRZbrYp"
+  title="Media Queries example"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ::: detatils More info
 
@@ -737,9 +749,12 @@ While media queries are unable to know exactly which device is being used, we ca
 
 ### Apply a sticky header for large viewports
 
-CodePen Embed Fallback
-https://codepen.io/andresgalante/pen/NWxeaLx
-example height media query
+<CodePen
+  user="andresgalante"
+  slug-hash="NWxeaLx"
+  title="example height media query"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ::: details More info
 
@@ -773,9 +788,12 @@ The beauty of this is that it allows the font size to adjust based on the browse
 
 ### Provide bigger touch targets when devices have a `course` pointer
 
-CodePen Embed Fallback
-https://codepen.io/andresgalante/pen/vgbLyq
-Multi select cards
+<CodePen
+  user="andresgalante"
+  slug-hash="vgbLyq"
+  title="Multi select cards"
+  :default-tab="['css','result']"
+  :theme="$isDarkmode ? 'dark': 'light'"/>
 
 ::: details More info
 
@@ -789,14 +807,12 @@ Again, this approach isn’t always accurate. Check out [**Patrick Lauke’s tho
 
 :::
 
----
-
-## Specifications
+::: info Specifications
 
 - [<VPIcon icon="iconfont icon-w3c"/>Media Queries Level 4](https://w3.org/TR/mediaqueries-4/) (Candidate Recommendation)
 - [<VPIcon icon="iconfont icon-w3c"/>Media Queries Level 5](https://w3.org/TR/mediaqueries-5/) (Working Draft)
 
----
+:::
 
 Special thanks to Sarah Rambacher who helped to review this guide.
 

@@ -382,7 +382,7 @@ Download the grid from Semantic.gs.
 <SiteInfo
   name="Responsive Web Design"
   desc="Designers have coveted print for its precision layouts, lamenting the varying user contexts on the web that compromise their designs. Ethan Marcotte advocates we shift our design thinking to approp…"
-  url="https://alistapart.com/article/responsive-web-design//"
+  url="https://alistapart.com/article/responsive-web-design/"
   logo="https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=192%2C192&ssl=1"
   preview="https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA306_respdesign_300.png?fit=1200%2C549&ssl=1"/>
 
@@ -390,7 +390,7 @@ Download the grid from Semantic.gs.
 {
   "title": "Adapt.js - Adaptive CSS",
   "desc": "Adapt.js serves CSS based on screen width.",
-  "link": "https://adapt.960.gs//",
+  "link": "https://adapt.960.gs/",
   "logo": "https://adapt.960.gs/favicon.ico",
   "background": "rgba(244,245,255,0.2)"
 }

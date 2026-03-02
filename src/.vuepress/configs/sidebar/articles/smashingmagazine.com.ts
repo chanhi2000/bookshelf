@@ -61,6 +61,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "popular-devtools-tips", // 2023-06-27
     "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
     "build-magazine-layout-css-grid-areas", // 2023-02-06
+    "level-up-css-skills-has-selector", // 2023-01-23
   ],
 }
 
@@ -85,6 +86,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "css-generators", // 2021-06-24
     "css-auditing-tools", // 2021-06-24
     "css-overflow-issues", // 2021-04-14
+    "responsive-image-effects-css-gradients-aspect-ratio", // 2021-02-23
   ],
 }
 
@@ -136,6 +138,7 @@ const Y2016: SidebarYeargroupTemplate = {
     // END: 2016
     "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
     "preload-what-is-it-good-for", // 2016-02-26
+    "getting-ready-for-http2", // 2016-02-16
   ],
 }
 
@@ -155,6 +158,7 @@ const Y2014: SidebarYeargroupTemplate = {
   children: [
     // END: 2014
     "bem-methodology-for-small-projects", // 2014-07-17
+    "responsive-images-done-right-guide-picture-srcset", // 2014-05-14
     "introduction-to-custom-elements", // 2014-03-04
   ],
 }
@@ -360,11 +364,13 @@ export const template: SidebarInfoTemplate = {
       "challenging-css-best-practices-atomic-approach", // 2013-10-21
       // END: 2013css
       "introduction-to-custom-elements", // 2014-03-04
+      "responsive-images-done-right-guide-picture-srcset", // 2014-05-14
       "bem-methodology-for-small-projects", // 2014-07-17
       // END: 2014css
       "understanding-critical-css", // 2015-08-13
       "getting-started-css-calc-techniques", // 2015-12-03
       // END: 2015css
+      "getting-ready-for-http2", // 2016-02-16
       "preload-what-is-it-good-for", // 2016-02-26
       "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
       // END: 2016css
@@ -381,6 +387,7 @@ export const template: SidebarInfoTemplate = {
       "understanding-css-grid-container", // 2020-01-03
       "understanding-css-grid-lines", // 2020-01-10
       // END: 2020css
+      "responsive-image-effects-css-gradients-aspect-ratio", // 2021-02-23
       "css-overflow-issues", // 2021-04-14
       "css-auditing-tools", // 2021-06-24
       "css-generators", // 2021-06-24
@@ -389,6 +396,7 @@ export const template: SidebarInfoTemplate = {
       "introduction-css-cascade-layers", // 2022-01-24
       "complete-guide-css-container-queries", // 2022-09-15
       // END: 2022css
+      "level-up-css-skills-has-selector", // 2023-01-23
       "build-magazine-layout-css-grid-areas", // 2023-02-06
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       "popular-devtools-tips", // 2023-06-27

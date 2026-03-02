@@ -16,7 +16,7 @@ tag:
   - ai
   - artificial-intelligence
   - llm
-  - large-language-model
+  - large-language-models
   - ollama
   - py
   - python
@@ -30,7 +30,7 @@ head:
       content: "How to Run an LLM Locally to Interact with Your Documents"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/run-an-llm-locally-to-interact-with-your-documents.html
-prev: /ai/llm/articles/README.md
+prev: /ai/ollama/articles/README.md
 date: 2026-01-10
 isOriginal: false
 author:

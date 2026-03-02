@@ -54,7 +54,7 @@ Many of the latest CSS features released in the past several years are designed 
 
 Media queries have been around almost as long as CSS itself — and with no flex, no grid, no responsive units, and no math functions, media queries were **the most pragmatic choice** available to make a somewhat responsive website.
 
-In the early 2010s, with the proliferation of mobile devices and the timely publication of [<VPIcon icon="fas fa-globe"/>Ethan Marcotte’s classic article “Responsive Web Design”](https://alistapart.com/article/responsive-web-design/), media queries became much needed for crafting layouts that could morph across screens and devices. Even when the CSS Flexbox and Grid specifications rolled out, media queries for resizing never left.
+In the early 2010s, with the proliferation of mobile devices and the timely publication of [**Ethan Marcotte’s classic article “Responsive Web Design”**](/alistapart.com/responsive-web-design.md), media queries became much needed for crafting layouts that could morph across screens and devices. Even when the CSS Flexbox and Grid specifications rolled out, media queries for resizing never left.
 
 [<VPIcon icon="fas fa-globe"/>While data on the actual usage of media queries is elusive](https://chromestatus.com/features), the fact that they have *grown over time* with additional features that go well beyond the viewport and into things like user preferences continues to make them a **bellwether ingredient for responsive design**.
 

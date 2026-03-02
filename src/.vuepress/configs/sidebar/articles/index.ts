@@ -29,11 +29,13 @@ import { template as TEMPLATE_JOSH_W_COMEAU } from './joshwcomeau.com';
 import { template as TEMPLATE_ISHADEED } from './ishadeed.com'
 import { template as TEMPLATE_ADRIAN_ROSELLI } from './adrianroselli.com'
 import { template as TEMPLATE_CSS_TIP } from './css-tip.com';
+import { template as TEMPLATE_ALISTAPART } from './alistapart.com';
 // import { template as TEMPLATE_CSS_LOADERS } from './css-loaders.com';
 import { template as TEMPLATE_ADAM_ARGYLE } from './nerdy.dev';
 import { template as TEMPLATE_TOBIAS_AHLIN } from './tobiasahlin.com';
 import { template as TEMPLATE_9_ELEMENTS } from './9elements.com';
 import { template as TEMPLATE_CSS_IRL } from './css-irl.info';
+import { template as TEMPLATE_DAVID_BUSHELL } from './dbushell.com';
 import { template as TEMPLATE_WEBDEV_REDFOX_IRL } from './webdevredfox.org';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
 import { template as TEMPLATE_KAKAO_TECH } from './tech.kakao.com';
@@ -177,11 +179,13 @@ export const articleSidebars = {
   ishadeed:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ISHADEED, type),
   adrianRoselli:      (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ADRIAN_ROSELLI, type),
   cssTip:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_TIP, type),
+  alistapart:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ALISTAPART, type),
   // cssLoaders:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_LOADERS, type),
   adamArgyle:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ADAM_ARGYLE, type),
   tobiasAhlin:        (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_TOBIAS_AHLIN, type),
   nineElements:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_9_ELEMENTS, type), 
   cssIrl:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_IRL, type), 
+  davidBushell:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DAVID_BUSHELL, type),
   webdevRedfox:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_WEBDEV_REDFOX_IRL, type), 
   onceupon:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ONCEUPON, type),
   d2:                 (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_D2, type),
