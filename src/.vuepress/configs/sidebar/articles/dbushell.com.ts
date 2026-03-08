@@ -6,6 +6,7 @@ const Y2026: SidebarYeargroupTemplate = {
   children: [
     // END: 2026
     "mooving-to-a-self-hosted-bluesky-pds", // 2026-03-03
+    "declarative-dialog-menu-invoker-commands", // 2026-02-13
     "death-to-scroll-fade", // 2026-01-10
   ]
 }
@@ -187,6 +188,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024css
       // END: 2025css
       "death-to-scroll-fade", // 2026-01-10
+      "declarative-dialog-menu-invoker-commands", // 2026-02-13
       // END: 2026css
       // END: css
     ]], [

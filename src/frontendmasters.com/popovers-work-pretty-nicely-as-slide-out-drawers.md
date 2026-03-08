@@ -59,3 +59,21 @@ cover: https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/pop
   preview="https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2024/04/popup-thumb.jpg?w=1000&ssl=1"/>
 
 <!-- TODO: 작성 -->
+
+
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Using the Popover API for HTML Tooltips",
+  "desc": "We can *mostly* use HTML alone for this API. But here, we'll use CSS to style the ",
+  "link": "/frontendmasters.com/using-the-popover-api-for-html-tooltips.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+2. [**Footnotes Progressively Enhanced to Popovers**](/frontendmasters.com/footnotes-progressively-enhanced-to-popovers.md)
+3. [**Popovers Work Pretty Nicely as Slide-Out Drawers**](/frontendmasters.com/popovers-work-pretty-nicely-as-slide-out-drawers.md)
+
+:::

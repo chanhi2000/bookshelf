@@ -37,6 +37,7 @@ import { template as TEMPLATE_9_ELEMENTS } from './9elements.com';
 import { template as TEMPLATE_CSS_IRL } from './css-irl.info';
 import { template as TEMPLATE_DAVID_BUSHELL } from './dbushell.com';
 import { template as TEMPLATE_WEBDEV_REDFOX_IRL } from './webdevredfox.org';
+import { template as TEMPLATE_ALWAYS_TWISTED } from './alwaystwisted.com';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
 import { template as TEMPLATE_KAKAO_TECH } from './tech.kakao.com';
 import { template as TEMPLATE_KAKAO_PAY_TECH } from './tech.kakaopay.com';
@@ -187,6 +188,7 @@ export const articleSidebars = {
   cssIrl:             (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CSS_IRL, type), 
   davidBushell:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DAVID_BUSHELL, type),
   webdevRedfox:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_WEBDEV_REDFOX_IRL, type), 
+  alwaysTwisted:      (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ALWAYS_TWISTED, type), 
   onceupon:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_ONCEUPON, type),
   d2:                 (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_D2, type),
   nhn:                (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_NHN, type),

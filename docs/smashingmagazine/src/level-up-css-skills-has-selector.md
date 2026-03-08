@@ -518,7 +518,17 @@ Other folks have started experimenting with what’s possible using `:has()`, an
   - [Style a parent element based on its number of children using CSS `:has()`](https://bram.us/2022/11/17/style-a-parent-element-based-on-its-number-of-children-using-css-has/)
 - Jhey Tompkins reviews both practical and fun use cases in “[<VPIcon icon="fa-brands fa-chrome"/>`:has()`: The Family Selector](https://developer.chrome.com/blog/has-m105/)”
 - Jen Simmons looks at the relationship of `:has()` to combinators and showcases more demos in “[<VPIcon icon="fa-brands fa-safari"/>Using `:has()` As A CSS Parent Selector And Much More](https://webkit.org/blog/13096/css-has-pseudo-class/)”
-- Adrian Bece considers even more possibilities in “[**Meet `:has`, A Native CSS Parent Selector (And More)**](/smashingmagazine.com/has-native-css-parent-selector.md)”
+
+```component VPCard
+{
+  "title": "Meet :has, A Native CSS Parent Selector (And More)",
+  "desc": "What makes relational selector one of the most requested features and how are we, as developers, working around not having it? In this article, we’re going to check the early spec of the :has selector, and see how it should improve the CSS workflow once it’s released.",
+  "link": "/smashingmagazine.com/has-native-css-parent-selector.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - Estelle Weyl demystifies more about this selector’s behavior in “[<VPIcon icon="fas fa-globe"/>CSS `:has()`](https://12daysofweb.dev/2022/css-has-selector/)”
 - Manuel Matuzović clarifies the important difference between “[<VPIcon icon="fas fa-globe"/>`:has(:not())` vs. `:not(:has())`](https://matuzo.at/blog/2022/100daysof-day50/)”
 

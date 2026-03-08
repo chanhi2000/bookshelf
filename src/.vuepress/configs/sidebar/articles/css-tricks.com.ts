@@ -36,6 +36,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "abusing-customizable-selects", // 2026-03-11
+    "the-value-of-z-index", // 2026-03-09
     "the-different-ways-to-select-html-in-css", // 2026-03-05
     "popover-api-or-dialog-api-which-to-choose", // 2026-03-02
     "whats-important-6", // 2026-02-27
@@ -221,6 +223,7 @@ const Y2019: SidebarYeargroupTemplate = {
   children: [
     // END: 2019
     "the-origin-story-of-container-queries", // 2019-12-16
+    "logical-operations-with-css-variables", // 2019-09-11
     "glitch-effect-text-images-svg", // 2019-08-21
     "introducing-css-scroll-snap-points", // 2019-07-28
     "custom-scrollbars-in-webkit", // 2019-07-15
@@ -398,6 +401,7 @@ export const template: SidebarInfoTemplate = {
       "custom-scrollbars-in-webkit", // 2019-07-15
       "introducing-css-scroll-snap-points", // 2019-07-28
       "glitch-effect-text-images-svg", // 2019-08-21
+      "logical-operations-with-css-variables", // 2019-09-11
       "the-origin-story-of-container-queries", // 2019-12-16
       // END: 2019css
       "fixed-headers-and-jump-links-the-solution-is-scroll-margin-top", // 2020-02-21
@@ -517,6 +521,9 @@ export const template: SidebarInfoTemplate = {
       "an-exploit-in-css", // 2026-02-25
       "yet-another-way-to-center-an-absolute-element", // 2026-02-27
       "popover-api-or-dialog-api-which-to-choose", // 2026-03-02
+      "the-different-ways-to-select-html-in-css", // 2026-03-05
+      "the-value-of-z-index", // 2026-03-09
+      "abusing-customizable-selects", // 2026-03-11
       // END: 2026css
       // END: css
     ]],[

@@ -85,6 +85,7 @@ const Y2021: SidebarYeargroupTemplate = {
     // END: 2021
     "css-generators", // 2021-06-24
     "css-auditing-tools", // 2021-06-24
+    "has-native-css-parent-selector", // 2021-06-09
     "css-overflow-issues", // 2021-04-14
     "responsive-image-effects-css-gradients-aspect-ratio", // 2021-02-23
   ],
@@ -117,6 +118,7 @@ const Y2018: SidebarYeargroupTemplate = {
     // END: 2018
     "css-grid-2", // 2018-07-03
     "avengers-id-card-html-css", // 2018-06-04
+    "css-custom-properties-strategy-guide", // 2018-05-14
     "understanding-sizing-css-layout", // 2018-01-16
   ],
 }
@@ -274,6 +276,17 @@ export const template: SidebarInfoTemplate = {
       // END: js
     ]],[
     "js-node", [
+      // END: 2014js-node
+      // END: 2015js-node
+      // END: 2016js-node
+      // END: 2017js-node
+      "css-custom-properties-strategy-guide", // 2018-05-14
+      // END: 2018js-node
+      // END: 2019js-node
+      // END: 2020js-node
+      // END: 2021js-node
+      // END: 2022js-node
+      // END: 2023js-node
       "netlify-platform-primitives", // 2024-05-28
       // END: 2024js-node
       // END: 2025js-node
@@ -378,6 +391,7 @@ export const template: SidebarInfoTemplate = {
       "understanding-css-layout-block-formatting-context", // 2017-12-11
       // END: 2017css
       "understanding-sizing-css-layout", // 2018-01-16
+      "css-custom-properties-strategy-guide", // 2018-05-14
       "avengers-id-card-html-css", // 2018-06-04
       "css-grid-2", // 2018-07-03
       // END: 2018css
@@ -389,6 +403,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2020css
       "responsive-image-effects-css-gradients-aspect-ratio", // 2021-02-23
       "css-overflow-issues", // 2021-04-14
+      "has-native-css-parent-selector", // 2021-06-09
       "css-auditing-tools", // 2021-06-24
       "css-generators", // 2021-06-24
       // END: 2021css

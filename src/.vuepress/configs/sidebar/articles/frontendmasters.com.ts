@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "form-associated-custom-elements-in-practice", // 2026-03-1
+    "the-enforced-accessibility-of-the-geolocation-element", // 2026-03-09
     "the-big-gotcha-of-anchor-positioning", // 2026-03-05
     "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
     "the-odometer-effect-in-css",  // 2026-03-02
@@ -394,6 +396,7 @@ export const template: SidebarInfoTemplate = {
     "js-lit", [
       "the-missing-link-for-web-components", // 2026-01-15
       "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
+      "form-associated-custom-elements-in-practice", // 2026-03-1
       // END: 2026js-lit  
       // END: js-lit
     ]],[
@@ -555,6 +558,8 @@ export const template: SidebarInfoTemplate = {
       "virtual-scroll-driven-3d-scenes", // 2026-02-23
       "nav-thumbnail-flip-image", // 2026-02-26
       "the-odometer-effect-in-css",  // 2026-03-02
+      "the-big-gotcha-of-anchor-positioning", // 2026-03-05
+      "the-enforced-accessibility-of-the-geolocation-element", // 2026-03-09
       // END: 2026css
       // END: css
     ]],[

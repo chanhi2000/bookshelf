@@ -176,7 +176,7 @@ Specific bookmarklets have been talked about on CSS-Tricks before. Given the evo
 Be sure to check out the comments of those posts, for they’re packed with countless great bookmarklets from the community. Speaking of bookmarklets from the community:
 
 - Adrian Roselli has a fantastic collection of [“CSS Bookmarklets for Testing and Fixing”](https://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html).
-- Stuart Robson put together [“A Few Useful Web Development Bookmarklets”](https://alwaystwisted.com/articles/a-few-web-developer-bookmarklets).
+- Stuart Robson put together [**“A Few Useful Web Development Bookmarklets”**](/alwaystwisted.com/a-few-web-developer-bookmarklets.md).
 - Ian Lloyd has a selection of [bookmarklets for performing accessibility audits](https://a11y-tools.com/bookmarklets/)
 
 If you’ve got any golden bookmarklets that you find valuable, be sure to share them in the comments.

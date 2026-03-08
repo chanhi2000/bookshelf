@@ -129,7 +129,7 @@ Can’t get enough on counters? Juan Diego put together [**a comprehensive guide
 
 ## How to create typescales using `:heading`
 
-Safari Technology Preview 237 recently began trialing `:heading`/`:heading()`, [<VPIcon icon="fas fa-globe"/>as Stuart Robson explains](https://alwaystwisted.com/articles/styling-with-the-heading-pseudo-class). [<VPIcon icon="fas fa-globe"/>The follow-up](https://alwaystwisted.com/articles/building-typographic-scales-with-headings-sibling-index-and-pow/) is even better though, as it shows us how `pow()` can be used to write cleaner typescale logic, although I ultimately settled on the old-school `<h1>`–`<h6>` elements with a simpler implementation of `:heading` and no `sibling-index()`:
+Safari Technology Preview 237 recently began trialing `:heading`/`:heading()`, [**as Stuart Robson explains**](/alwaystwisted.com/styling-with-the-heading-pseudo-class.md). [**The follow-up**](/alwaystwisted.com/building-typographic-scales-with-headings-sibling-index-and-pow.md) is even better though, as it shows us how `pow()` can be used to write cleaner typescale logic, although I ultimately settled on the old-school `<h1>`–`<h6>` elements with a simpler implementation of `:heading` and no `sibling-index()`:
 
 ```css
 :root {

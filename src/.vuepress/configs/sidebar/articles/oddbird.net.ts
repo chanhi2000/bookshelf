@@ -1,5 +1,17 @@
 import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
+const WINGING_IT: SidebarInfoSubgroupTemplate = {
+  text: 'Winging It',
+  collapsible: true,
+  icon: 'iconfont icon-oddbird',
+  subPath: 'winging-it',
+  children: [
+    'README',
+    '08', // 2024-05-30
+    '16', // 2025-02-20
+  ]
+}
+
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
@@ -25,6 +37,7 @@ const Y2024: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2024
+    "anchor-position-yearbook", // 2024-11-18
     "winging-it-11", // 2024-08-27
     "removing-mixins", // 2024-06-11
   ],
@@ -173,6 +186,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023css
       "removing-mixins", // 2024-06-11
       "winging-it-11", // 2024-08-27
+      "anchor-position-yearbook", // 2024-11-18
       // END: 2024css
       "anchor-position-validity", // 2025-01-29
       "anchor-position-area", // 2025-02-05
@@ -182,6 +196,7 @@ export const template: SidebarInfoTemplate = {
       // END: css
     ]],[
     "all", [
+      WINGING_IT,
       Y2025,
       Y2024,
       Y2023,

@@ -79,7 +79,7 @@ Applying styles based on a user’s selection is not a new thing. We’ve had th
 
 But that’s limited to styling the current element, right? If a particular `<option>` is `:checked`, then we style its style. We can write a more complex selector and style child elements based on whether an `<option>` is selected up the chain, but that’s a one-way road in that we are unable to style up parent elements even further up the chain.
 
-That’s where `:has()` comes in because styling up the chain is exactly what it is designed to do; in fact, it’s often called [<VPIcon icon="fa-brands fa-chrome"/>the “parent selector”](https://smashingmagazine.com/2021/06/has-native-css-parent-selector/) for this reason (although [<VPIcon icon="fa-brands fa-chrome"/>“family selector”](https://developer.chrome.com/blog/has-m105/) may be a better descriptor).
+That’s where `:has()` comes in because styling up the chain is exactly what it is designed to do; in fact, it’s often called [**the “parent selector”**](/smashingmagazine.com/has-native-css-parent-selector.m) for this reason (although [<VPIcon icon="fa-brands fa-chrome"/>“family selector”](https://developer.chrome.com/blog/has-m105/) may be a better descriptor).
 
 For example, if we want to change the `background-color` of the `<select>` element according to the value of the selected `<option>`, **we select the element if it has a specific `[value]` that is `:checked`.**
 
@@ -157,7 +157,17 @@ I’ve used this technique a few different ways — e.g., as form validation, a 
 ::: info Further Reading On SmashingMag
 
 - “[**Level Up Your CSS Skills With The :has() Selector**](/smashingmagazine.com/level-up-css-skills-has-selector.md),” Stephanie Eckles
-- “[**Meet :has, A Native CSS Parent Selector (And More)**](/smashingmagazine.com/has-native-css-parent-selector.md),” Adrian Bece
+
+```component VPCard
+{
+  "title": "Meet :has, A Native CSS Parent Selector (And More)",
+  "desc": "What makes relational selector one of the most requested features and how are we, as developers, working around not having it? In this article, we’re going to check the early spec of the :has selector, and see how it should improve the CSS workflow once it’s released.",
+  "link": "/smashingmagazine.com/has-native-css-parent-selector.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - “[**Setting And Persisting Color Scheme Preferences With CSS And A “Touch” Of JavaScript**](/smashingmagazine.com/setting-persisting-color-scheme-preferences-css-javascript.md),” Henry Bley-Vroman
 - “[**The Complex But Awesome CSS border-image Property**](/smashingmagazine.com/css-border-image-property.md),” Temani Afif
 

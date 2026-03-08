@@ -4,6 +4,7 @@ title: "How to Build a Chrome Extension That Analyzes Any Web Page Using JavaScr
 description: "Article(s) > How to Build a Chrome Extension That Analyzes Any Web Page Using JavaScript and Manifest V3"
 icon: fa-brands fa-chrome
 category:
+  - Web Browser
   - Google
   - Chrome
   - Chrome Extensions
@@ -27,7 +28,7 @@ head:
       content: "How to Build a Chrome Extension That Analyzes Any Web Page Using JavaScript and Manifest V3"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-chrome-extension-using-javascript-and-manifest-v3.html
-prev: /programming/js/articles/README.md
+prev: /tool/chrome/articles/README.md
 date: 2025-10-29
 isOriginal: false
 author:

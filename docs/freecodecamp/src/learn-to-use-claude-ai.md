@@ -5,6 +5,8 @@ description: "Article(s) > Learn to Use Claude AI to Build Text Summarizers, Ima
 icon: iconfont icon-claude
 category: 
   - AI
+  - LLM
+  - Anthropic
   - Claude
   - Youtube
   - Article(s)
@@ -12,6 +14,10 @@ tag:
   - blog
   - freecodecamp.org
   - ai
+  - artificial-intelligence
+  - llm
+  - large-language-models
+  - anthropic
   - claude
   - youtube
   - crashcourse

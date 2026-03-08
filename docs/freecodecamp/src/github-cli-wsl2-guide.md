@@ -44,6 +44,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755202477019/fbc6813
 }
 ```
 
+```component VPCard
+{
+  "title": "Windows > Article(s)",
+  "desc": "Article(s)",
+  "link": "/devops/win/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
 [[toc]]
 
 ---

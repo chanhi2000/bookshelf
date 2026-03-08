@@ -181,6 +181,9 @@ projects:
   - icon: 'https://svelte.dev/favicon.png'
     name: 'webdevredfox.org'
     desc: "Accessibility, CSS tricks, & Web Development Articles"
+  - icon: 'https://alwaystwisted.com/images/favicons/apple-touch-icon.png'
+    name: 'alwaystwisted.com'
+    desc: "Hi, I’m Stu Robson, a Design Systems consultant and front-end developer helping teams create scalable, accessible systems that enhance collaboration."
   - icon: 'https://substack-post-media.s3.amazonaws.com/public/images/2ea54e25-eaa6-4630-bfc0-10b8cfdce894/apple-touch-icon-1024x1024.png'
     name: 'packagemain.tech'
     desc: "Welcome to packagemain.tech, your one-stop shop for mastering Backend, Cloud, Kubernetes, Microservices, APIs, and more. We'll provide you with hands-on, practical and real-world tutorials that you can use to build your software development skills."

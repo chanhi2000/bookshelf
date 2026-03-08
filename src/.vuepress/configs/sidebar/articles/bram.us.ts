@@ -77,6 +77,8 @@ const Y2021: SidebarYeargroupTemplate = {
     "a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries", // 2021-11-26
     "scroll-linked-animations-with-the-web-animations-api-waapi-and-scrolltimeline", // 2021-11-24
     "the-future-of-css-cascade-layers-css-at-layer", // 2021-09-15
+    "wwdc-meet-safari-15", // 2021-07-21
+    "practical-use-cases-for-scroll-linked-animations-with-css-scroll-timeline", // 2022-07-20
     "the-large-small-and-dynamic-viewports", // 2021-07-08
     "a-first-look-at-cqfill-a-polyfill-for-css-container-queries", // 2021-04-28
     "css-container-queries-a-first-look-and-demo", // 2021-03-29
@@ -91,6 +93,7 @@ const Y2020: SidebarYeargroupTemplate = {
   children: [
     // END: 2020
     "container-queries-are-coming-to-chromium", // 2020-11-05
+    "css-only-resizable-elements", // 2020-05-15
     "100vh-in-safari-on-ios", // 2020-05-07
     "the-ultimate-guide-to-css-viewport-units", // 2020-03-17
   ]
@@ -103,6 +106,7 @@ const Y2019: SidebarYeargroupTemplate = {
     // END: 2019
     "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
     "css-logical-properties-and-values-the-next-step-of-css-evolution", // 2019-09-20
+    "logical-operations-with-css-variables", // 2019-09-17
     "css-color-scheme-queries-dark-mode-css", // 2019-05-24
   ]
 }
@@ -114,6 +118,7 @@ const Y2017: SidebarYeargroupTemplate = {
     // END: 2017
     "customizing-pull-to-refresh-and-overflow-effects-with-css-overscroll-behavior", // 2017-12-11
     "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
+    "theming-with-css-custom-properties-css-variables", // 2017-07-23
     "conditions-for-css-calculations", // 2017-01-17
   ]
 }
@@ -168,16 +173,19 @@ export const template: SidebarInfoTemplate = {
       "css-variables-var-subtitle", // 2016-11-13
       // END: 2016css
       "conditions-for-css-calculations", // 2017-01-17
+      "theming-with-css-custom-properties-css-variables", // 2017-07-23
       "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
       "customizing-pull-to-refresh-and-overflow-effects-with-css-overscroll-behavior", // 2017-12-11
       // END: 2017css
       // END: 2018css
       "css-color-scheme-queries-dark-mode-css", // 2019-05-24
+      "logical-operations-with-css-variables", // 2019-09-17
       "css-logical-properties-and-values-the-next-step-of-css-evolution", // 2019-09-20
       "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
       // END: 2019css
       "the-ultimate-guide-to-css-viewport-units", // 2020-03-17
       "100vh-in-safari-on-ios", // 2020-05-07
+      "css-only-resizable-elements", // 2020-05-15
       "container-queries-are-coming-to-chromium", // 2020-11-05
       // END: 2020css
       "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23
@@ -185,12 +193,14 @@ export const template: SidebarInfoTemplate = {
       "css-container-queries-a-first-look-and-demo", // 2021-03-29
       "a-first-look-at-cqfill-a-polyfill-for-css-container-queries", // 2021-04-28
       "the-large-small-and-dynamic-viewports", // 2021-07-08
+      "wwdc-meet-safari-15", // 2021-07-21
       "the-future-of-css-cascade-layers-css-at-layer", // 2021-09-15
       "a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries", // 2021-11-26
       // END: 2021css
       "detect-at-rule-support-with-the-at-rule-function", // 2022-01-20
       "the-css-cascade-a-deep-dive-2022-06-09-css-day", // 2022-06-29
       "the-future-of-css-variable-units-powered-by-custom-properties", // 2022-07-08
+      "practical-use-cases-for-scroll-linked-animations-with-css-scroll-timeline", // 2022-07-20
       "container-queries-style-queries", // 2022-10-14
       "css-type-grinding-casting-tokens-smmdetc-into-useful-values-aka-style-queries-without-style-queries-thanks-to-property", // 2022-10-14
       "help-choose-the-syntax-for-css-nesting", // 2022-12-16
@@ -229,6 +239,16 @@ export const template: SidebarInfoTemplate = {
       // END: 2025chrome
       // END: 2026chrome
       // END: chrome
+    ]],[
+    "safari",[
+      "wwdc-meet-safari-15", // 2021-07-21
+      // END: 2021safari
+      // END: 2022safari
+      // END: 2023safari
+      // END: 2024safari
+      // END: 2025safari
+      // END: 2026safari
+      // END: safari
     ]],[
     "all", [
       Y2026,
