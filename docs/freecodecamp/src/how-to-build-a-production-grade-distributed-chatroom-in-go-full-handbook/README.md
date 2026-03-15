@@ -2129,7 +2129,7 @@ The full source code is available on [GitHub (<VPIcon icon="iconfont icon-github
 
 :::
 
-As always, I hope you enjoyed this guide and learned something. If you want to stay connected or see more hands-on DevOps content, you can follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor).
+As always, I hope you enjoyed this guide and learned something. If you want to stay connected or see more hands-on DevOps content, you can follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

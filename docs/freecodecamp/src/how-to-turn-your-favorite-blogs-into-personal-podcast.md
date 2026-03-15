@@ -717,7 +717,7 @@ This is a basic version of my full production pipeline, [PostCast (<VPIcon icon=
 
 You now know how to turn blogs into a personal podcast. Be mindful of copyright and only use content you are allowed to consume.
 
-If you have questions, reach me on X at [<VPIcon icon="fa-brands fa-x-twitter" />`@sprucekhalifa`](https://x.com/sprucekhalifa). I write practical tech articles like this regularly.
+If you have questions, reach me on X at [<VPIcon icon="fa-brands fa-x-twitter"/>`@sprucekhalifa`](https://x.com/sprucekhalifa). I write practical tech articles like this regularly.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

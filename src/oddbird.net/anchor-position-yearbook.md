@@ -193,7 +193,7 @@ Interested in learning more about anchor positioning? Sign up for our free weekl
 
 What new possibilities for anchor positioning are you excited about? Let us know by sending us a message on [Mastodon (<VPIcon icon="fa-brands fa-mastodon"/>`@oddbird`)](https://front-end.social/@oddbird) or [BlueSky (<VPIcon icon="fa-brands fa-bluesky"/>`oddbird.dev`)](https://bsky.app/profile/oddbird.dev).
 
-And if you’re excited to use anchor positioning before it becomes baseline, check out our [polyfill (<VPIcon icon="iconfont icon-github" />`oddbird/css-anchor-positioning`)](https://github.com/oddbird/css-anchor-positioning). It supports enough of the anchor positioning spec to do most things.
+And if you’re excited to use anchor positioning before it becomes baseline, check out our [polyfill (<VPIcon icon="iconfont icon-github"/>`oddbird/css-anchor-positioning`)](https://github.com/oddbird/css-anchor-positioning). It supports enough of the anchor positioning spec to do most things.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

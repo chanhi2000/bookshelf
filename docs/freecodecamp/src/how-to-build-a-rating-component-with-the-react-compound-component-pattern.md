@@ -880,8 +880,8 @@ Feel free to [buy me a coffee here (<VPIcon icon="iconfont icon-buymeacoffee"/>`
 
 Want to connect or contact me? Feel free to hit me up on the following:
 
-- Twitter / X: [@jajadavid8 (<VPIcon icon="fa-brands fa-x-twitter" />`JajaDavid8`)](https://twitter.com/JajaDavid8)
-- LinkedIn: [David Jaja (<VPIcon icon="fa-brands fa-linkedin" />`david-jaja-8084251b4`)](https://linkedin.com/in/david-jaja-8084251b4/)
+- Twitter / X: [@jajadavid8 (<VPIcon icon="fa-brands fa-x-twitter"/>`JajaDavid8`)](https://twitter.com/JajaDavid8)
+- LinkedIn: [David Jaja (<VPIcon icon="fa-brands fa-linkedin"/>`david-jaja-8084251b4`)](https://linkedin.com/in/david-jaja-8084251b4/)
 - Email: [<VPIcon icon="fas fa-envelope"/>`Jajadavidjid@gmail.com`](mailto://Jajadavidjid@gmail.com)
 
 :::

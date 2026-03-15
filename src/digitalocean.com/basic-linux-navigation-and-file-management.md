@@ -95,7 +95,7 @@ Navigating and manipulating files and folders in the filesystem is a key part of
 
 ::: note Prerequisites and Goals
 
-In order to follow along with this guide, you will need to have access to a Linux server. If you need information about connecting to your server for the first time, you can follow [**our guide on connecting to a Linux server using SSH**](/digitalocean.com/how-to-connect-to-your-droplet-with-ssh.md).
+In order to follow along with this guide, you will need to have access to a Linux server. If you need information about connecting to your server for the first time, you can follow [<VPIcon icon="fa-brands fa-digital-ocean"/>our guide on connecting to a Linux server using SSH](https://docs.digitalocean.com/products/droplets/how-to/connect-with-ssh/).
 
 You will also want to have an understanding of how the terminal works and what Linux commands look like. [**This guide covers an introduction to the terminal**](/digitalocean.com/an-introduction-to-the-linux-terminal.md).
 

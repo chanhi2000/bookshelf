@@ -197,7 +197,7 @@ For more detail on each of these, see my January 2020 post [**My Priority of Met
 
 ::: note Update: 12 December 2019
 
-Just as `aria-labelledby` has `aria-describedby` as its cousin, `aria-label` is getting `aria-description` ([issue (<VPIcon icon="iconfont icon-github" />`w3c/aria#891`)](https://github.com/w3c/aria/issues/891), [pull request (<VPIcon icon="iconfont icon-github" />`w3c/aria`)](https://github.com/w3c/aria/pull/1137)).
+Just as `aria-labelledby` has `aria-describedby` as its cousin, `aria-label` is getting `aria-description` ([issue (<VPIcon icon="iconfont icon-github"/>`w3c/aria#891`)](https://github.com/w3c/aria/issues/891), [pull request (<VPIcon icon="iconfont icon-github"/>`w3c/aria`)](https://github.com/w3c/aria/pull/1137)).
 
 The caveats to using `aria-label` that I outline above will easily apply to `aria-description` until it gets traction in browsers and assistive technologies and translation services. So be very careful relying on it.
 

@@ -70,7 +70,7 @@ cover: https://huggingface.co/blog/assets/01_how-to-train/how-to-train_blogpost.
   logo="https://huggingface.co/favicon.ico"
   preview="https://huggingface.co/blog/assets/01_how-to-train/how-to-train_blogpost.png"/>
 
-Over the past few months, we made several improvements to our [<VPIcon icon="iconfont icon-github" />`huggingface/transformers`](https://github.com/huggingface/transformers) and [<VPIcon icon="iconfont icon-github" />`huggingface/tokenizers`](https://github.com/huggingface/tokenizers) libraries, with the goal of making it easier than ever to **train a new language model from scratch**.
+Over the past few months, we made several improvements to our [<VPIcon icon="iconfont icon-github"/>`huggingface/transformers`](https://github.com/huggingface/transformers) and [<VPIcon icon="iconfont icon-github"/>`huggingface/tokenizers`](https://github.com/huggingface/tokenizers) libraries, with the goal of making it easier than ever to **train a new language model from scratch**.
 
 In this post we’ll demo how to train a “small” model (84 M parameters = 6 layers, 768 hidden size, 12 attention heads) – that’s the same number of layers & heads as DistilBERT – on **Esperanto**. We’ll then fine-tune the model on a downstream task of part-of-speech tagging.
 
@@ -203,11 +203,11 @@ print(
 
 ::: note Update
 
-The associated Colab notebook uses our new [`Trainer` (<VPIcon icon="iconfont icon-github" />`huggingface/transformers`)](https://github.com/huggingface/transformers/blob/master/src/transformers/trainer.py) directly, instead of through a script. Feel free to pick the approach you like best.
+The associated Colab notebook uses our new [`Trainer` (<VPIcon icon="iconfont icon-github"/>`huggingface/transformers`)](https://github.com/huggingface/transformers/blob/master/src/transformers/trainer.py) directly, instead of through a script. Feel free to pick the approach you like best.
 
 :::
 
-We will now train our language model using the [<VPIcon icon="fa-brands fa-python"/>`run_language_modeling.py` (<VPIcon icon="iconfont icon-github" />`huggingface/transformers`)](https://github.com/huggingface/transformers/blob/main/examples/legacy/run_language_modeling.py) script from `transformers` (newly renamed from <VPIcon icon="fa-brands fa-python"/>`run_lm_finetuning.py` as it now supports training from scratch more seamlessly). Just remember to leave `--model_name_or_path` to `None` to train from scratch vs. from an existing model or checkpoint.
+We will now train our language model using the [<VPIcon icon="fa-brands fa-python"/>`run_language_modeling.py` (<VPIcon icon="iconfont icon-github"/>`huggingface/transformers`)](https://github.com/huggingface/transformers/blob/main/examples/legacy/run_language_modeling.py) script from `transformers` (newly renamed from <VPIcon icon="fa-brands fa-python"/>`run_lm_finetuning.py` as it now supports training from scratch more seamlessly). Just remember to leave `--model_name_or_path` to `None` to train from scratch vs. from an existing model or checkpoint.
 
 ::: info
 
@@ -360,7 +360,7 @@ With more complex prompts, you can probe whether your language model captured mo
 
 We now can fine-tune our new Esperanto language model on a downstream task of **Part-of-speech tagging.**
 
-As mentioned before, Esperanto is a highly regular language where word endings typically condition the grammatical part of speech. Using a dataset of annotated Esperanto POS tags formatted in the CoNLL-2003 format (see example below), we can use the [<VPIcon icon="fa-brands fa-python"/>`run_ner.py` (<VPIcon icon="iconfont icon-github" />`huggingface/transformers`)](https://github.com/huggingface/transformers/blob/main/examples/pytorch/token-classification/run_ner.py) script from `transformers`.
+As mentioned before, Esperanto is a highly regular language where word endings typically condition the grammatical part of speech. Using a dataset of annotated Esperanto POS tags formatted in the CoNLL-2003 format (see example below), we can use the [<VPIcon icon="fa-brands fa-python"/>`run_ner.py` (<VPIcon icon="iconfont icon-github"/>`huggingface/transformers`)](https://github.com/huggingface/transformers/blob/main/examples/pytorch/token-classification/run_ner.py) script from `transformers`.
 
 > POS tagging is a token classification task just as NER so we can just use the exact same script.
 

@@ -344,7 +344,7 @@ Refresh the database and see the new tables:
 
 Throughout this tutorial, you have learnt how to seamlessly write and run database migrations in Go using Docker and Postgres. I hope you have learnt much from this article.
 
-You can connect with me on [twitter (<VPIcon icon="fa-brands fa-x-twitter" />`itzz_okure`)](https://x.com/itzz_okure) or on [linkedin (<VPIcon icon="fa-brands fa-linkedin" />`okure`)](https://linkedin.com/in/okure/).
+You can connect with me on [twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`itzz_okure`)](https://x.com/itzz_okure) or on [linkedin (<VPIcon icon="fa-brands fa-linkedin"/>`okure`)](https://linkedin.com/in/okure/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

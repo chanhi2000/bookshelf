@@ -92,6 +92,7 @@ const Y2020: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2020
+    "css-custom-properties-are-not-variables", // 2020-12-10
     "container-queries-are-coming-to-chromium", // 2020-11-05
     "css-only-resizable-elements", // 2020-05-15
     "100vh-in-safari-on-ios", // 2020-05-07
@@ -105,6 +106,7 @@ const Y2019: SidebarYeargroupTemplate = {
   children: [
     // END: 2019
     "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
+    "embeddable-caniuse-images", // 2019-12-04
     "css-logical-properties-and-values-the-next-step-of-css-evolution", // 2019-09-20
     "logical-operations-with-css-variables", // 2019-09-17
     "css-color-scheme-queries-dark-mode-css", // 2019-05-24
@@ -120,6 +122,7 @@ const Y2017: SidebarYeargroupTemplate = {
     "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
     "theming-with-css-custom-properties-css-variables", // 2017-07-23
     "conditions-for-css-calculations", // 2017-01-17
+    "resilient-web-design", // 2017-01-03
   ]
 }
 
@@ -132,6 +135,16 @@ const Y2016: SidebarYeargroupTemplate = {
     "making-viewport-units-work-properly-in-mobile-safari", // 2016-09-12
     "using-feature-queries-in-css", // 2016-08-28
     "viewport-unit-based-typography", // 2016-03-11
+  ]
+}
+
+
+const Y2015: SidebarYeargroupTemplate = {
+  text: '2015',
+  collapsible: true,
+  children: [
+    // END: 2015
+    "css-object-fit", // 2015-02-11
   ]
 }
 
@@ -167,11 +180,14 @@ export const template: SidebarInfoTemplate = {
       // END: js-node
     ]],[
     "css",[
+      "css-object-fit", // 2015-02-11
+      // END: 2015css
       "viewport-unit-based-typography", // 2016-03-11
       "using-feature-queries-in-css", // 2016-08-28
       "making-viewport-units-work-properly-in-mobile-safari", // 2016-09-12
       "css-variables-var-subtitle", // 2016-11-13
       // END: 2016css
+      "resilient-web-design", // 2017-01-03
       "conditions-for-css-calculations", // 2017-01-17
       "theming-with-css-custom-properties-css-variables", // 2017-07-23
       "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
@@ -181,12 +197,14 @@ export const template: SidebarInfoTemplate = {
       "css-color-scheme-queries-dark-mode-css", // 2019-05-24
       "logical-operations-with-css-variables", // 2019-09-17
       "css-logical-properties-and-values-the-next-step-of-css-evolution", // 2019-09-20
+      "embeddable-caniuse-images", // 2019-12-04
       "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
       // END: 2019css
       "the-ultimate-guide-to-css-viewport-units", // 2020-03-17
       "100vh-in-safari-on-ios", // 2020-05-07
       "css-only-resizable-elements", // 2020-05-15
       "container-queries-are-coming-to-chromium", // 2020-11-05
+      "css-custom-properties-are-not-variables", // 2020-12-10
       // END: 2020css
       "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23
       "the-future-of-css-scroll-linked-animations-part-2", // 2021-03-04
@@ -261,6 +279,7 @@ export const template: SidebarInfoTemplate = {
       Y2019,
       Y2017,
       Y2016,
+      Y2015,
     ]]
   ])
 }

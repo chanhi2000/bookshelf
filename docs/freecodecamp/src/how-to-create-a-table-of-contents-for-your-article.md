@@ -364,7 +364,7 @@ And as you can see, creating a ToC is not that hard with a bit of web developmen
 
 ::: info
 
-If you like this article, you may want to follow me on Social Media: ([Twitter/X (<VPIcon icon="fa-brands fa-x-twitter" />`jcubic`)](https://x.com/jcubic), [GitHub](https://github.com/jcubic), and/or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`jakubjankiewicz`)](https://linkedin.com/in/jakubjankiewicz/)). You can also check my [<VPIcon icon="fas fa-globe"/>personal website](https://jakub.jankiewicz.org/) and my [<VPIcon icon="fas fa-globe"/>new blog](https://jakub.jankiewicz.org/blog/).
+If you like this article, you may want to follow me on Social Media: ([Twitter/X (<VPIcon icon="fa-brands fa-x-twitter"/>`jcubic`)](https://x.com/jcubic), [GitHub](https://github.com/jcubic), and/or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`jakubjankiewicz`)](https://linkedin.com/in/jakubjankiewicz/)). You can also check my [<VPIcon icon="fas fa-globe"/>personal website](https://jakub.jankiewicz.org/) and my [<VPIcon icon="fas fa-globe"/>new blog](https://jakub.jankiewicz.org/blog/).
 
 :::
 

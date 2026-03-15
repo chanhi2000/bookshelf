@@ -904,7 +904,7 @@ Let’s connect:
 
 - Subscribe to my [YouTube Channel (<VPIcon icon="fa-brands fa-youtube"/>`tapasadhikary`)](https://youtube.com/tapasadhikary).
 - Check out my courses, [<VPIcon icon="fa-brands fa-youtube"/>40 Days of JavaScript](https://youtube.com/playlist?list=PLIJrr73KDmRw2Fwwjt6cPC_tk5vcSICCu), [<VPIcon icon="fa-brands fa-youtube"/>15 Days of React Design Patterns](https://youtube.com/playlist?list=PLIJrr73KDmRyQVT__uFZvaVfWPdfyMFHC), and [<VPIcon icon="fa-brands fa-youtube"/>Thinking in Debugging](https://youtube.com/playlist?list=PLIJrr73KDmRwT8Msc4H3_CP5Tf8MqqqVZ).
-- Follow on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`tapasadhikary`)](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
+- Follow on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`tapasadhikary`)](https://linkedin.com/in/tapasadhikary/) if you don't want to miss the daily dose of up-skilling tips.
 - Join my [<VPIcon icon="fa-brands fa-discord"/>Discord Server](https://discord.gg/zHHXx4vc2H), and let’s learn together.
 - Follow my work on [GitHub (<VPIcon icon="iconfont icon-github"/>)](https://github.com/tapascript).
 

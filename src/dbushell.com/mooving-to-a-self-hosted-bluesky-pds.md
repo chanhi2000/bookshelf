@@ -60,7 +60,7 @@ Nobody cool uses ~Twitter~ anymore ever. It’s a cesspit of racists asking Gork
 
 ## Self-hosting
 
-[<VPIcon icon="fa-brands fa-mastodon"/>Mastodon](https://social.lol/@db/) and [Bluesky (<VPIcon icon="fa-brands fa-bluesky"/>`dbushell.com`)](https://bsky.app/profile/dbushell.com/) are the social platforms I use. I’ve always been tempted to self-host my own Mastodon instance but the requirements are steep. I use the [<VPIcon icon="fas fa-globe"/>omg.lol](https://home.omg.lol/) server instead. Self-hosting the [Bluesky PDS (<VPIcon icon="iconfont icon-github" />`bluesky-social/pds`)](https://github.com/bluesky-social/pds) is much less demanding.
+[<VPIcon icon="fa-brands fa-mastodon"/>Mastodon](https://social.lol/@db/) and [Bluesky (<VPIcon icon="fa-brands fa-bluesky"/>`dbushell.com`)](https://bsky.app/profile/dbushell.com/) are the social platforms I use. I’ve always been tempted to self-host my own Mastodon instance but the requirements are steep. I use the [<VPIcon icon="fas fa-globe"/>omg.lol](https://home.omg.lol/) server instead. Self-hosting the [Bluesky PDS (<VPIcon icon="iconfont icon-github"/>`bluesky-social/pds`)](https://github.com/bluesky-social/pds) is much less demanding.
 
 My setup includes:
 
@@ -72,7 +72,7 @@ This is the host machine [I glued an NVMe](https://dbushell.com/2024/03/25/self-
 
 ### Bluesky PDS
 
-I setup my [Bluesky PDS (<VPIcon icon="iconfont icon-github" />`bluesky-social/pds`)](https://github.com/bluesky-social/pds) using the official Docker container. It’s configure with [environment variables (<VPIcon icon="iconfont icon-github" />`bluesky-social/pds#environment-variables`)](https://github.com/bluesky-social/pds#environment-variables) and has a single data volume mounted. I backup that volume to my NAS.
+I setup my [Bluesky PDS (<VPIcon icon="iconfont icon-github"/>`bluesky-social/pds`)](https://github.com/bluesky-social/pds) using the official Docker container. It’s configure with [environment variables (<VPIcon icon="iconfont icon-github"/>`bluesky-social/pds#environment-variables`)](https://github.com/bluesky-social/pds#environment-variables) and has a single data volume mounted. I backup that volume to my NAS.
 
 ### Caddy
 

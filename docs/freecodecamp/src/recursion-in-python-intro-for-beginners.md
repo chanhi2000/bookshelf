@@ -57,7 +57,7 @@ It sounds odd at first — why would a function call itself? — but once it cli
 
 In this article, you'll learn what recursion is, how it works under the hood, and how to use it in Python with examples that go from the basics all the way to practical real-world use cases.
 
-You can get the code [on GitHub (<VPIcon icon="iconfont icon-github" />`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/recursion).
+You can get the code [on GitHub (<VPIcon icon="iconfont icon-github"/>`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/recursion).
 
 ::: note Prerequisites
 

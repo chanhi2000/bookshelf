@@ -178,7 +178,7 @@ I’ve reduced these to a binary yes/no. I also added mobile results, for which 
 
 ## Bug Report
 
-This post is a warning to authors. I’ve also filed an issue with GSAP asking the SplitText page to clarify the risks and limitations: [#642 Screen Readers do not expose SplitText (<VPIcon icon="iconfont icon-github" />`greensock/GSAP`)](https://github.com/greensock/GSAP/issues/642)
+This post is a warning to authors. I’ve also filed an issue with GSAP asking the SplitText page to clarify the risks and limitations: [#642 Screen Readers do not expose SplitText (<VPIcon icon="iconfont icon-github"/>`greensock/GSAP`)](https://github.com/greensock/GSAP/issues/642)
 
 I don’t expect them to be able to jump on the bug report immediately, and they will almost definitely want to perform further testing. So until they can tackle it, I strongly recommend avoiding SplitText.
 
@@ -208,7 +208,7 @@ The good news is this will help guarantee the need for human accessibility pract
 
 ::: note Update: 10 February 2026
 
-[<VPIcon icon="fas fa-globe"/>Jeffrey Yasskin says](https://hachyderm.io/@jyasskin/116019609903019948) the W3C TAG was looking at a proposal for `<canvas>` to split a JavaScript string into glyphs to render them in the canvas, with the TAG asking for the proposal to squeeze those “letter” into the DOM. I say “was” because as of yesterday the TAG closed it as “unsatisfied.” Read the [TAG’s (via Matt) reasoning for why (<VPIcon icon="iconfont icon-github" />`w3ctag/design-reviews`)](https://github.com/w3ctag/design-reviews/issues/1095#issuecomment-3872160989). Also, [<VPIcon icon="fas fa-globe"/>Jeffrey added more context on Masto](https://hachyderm.io/@jyasskin/116048766717619337).
+[<VPIcon icon="fas fa-globe"/>Jeffrey Yasskin says](https://hachyderm.io/@jyasskin/116019609903019948) the W3C TAG was looking at a proposal for `<canvas>` to split a JavaScript string into glyphs to render them in the canvas, with the TAG asking for the proposal to squeeze those “letter” into the DOM. I say “was” because as of yesterday the TAG closed it as “unsatisfied.” Read the [TAG’s (via Matt) reasoning for why (<VPIcon icon="iconfont icon-github"/>`w3ctag/design-reviews`)](https://github.com/w3ctag/design-reviews/issues/1095#issuecomment-3872160989). Also, [<VPIcon icon="fas fa-globe"/>Jeffrey added more context on Masto](https://hachyderm.io/@jyasskin/116048766717619337).
 
 :::
 

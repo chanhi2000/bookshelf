@@ -106,7 +106,7 @@ While a positioned element can be a child of the anchor, this is the primary pla
 
 ::: note
 
-This may be changing – in our [**Winging It episode**](/oddbird.net/winging-it-16.md) with Tab Atkins-Bittner, Tab identified that this restriction may not be necessary. [I opened a CSS Working Group issue (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/11769) proposing a change to the spec to allow this.
+This may be changing – in our [**Winging It episode**](/oddbird.net/winging-it-16.md) with Tab Atkins-Bittner, Tab identified that this restriction may not be necessary. [I opened a CSS Working Group issue (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/11769) proposing a change to the spec to allow this.
 
 :::
 

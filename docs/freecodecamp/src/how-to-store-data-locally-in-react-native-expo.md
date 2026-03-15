@@ -279,7 +279,7 @@ In conclusion, using local storage into your React Native Expo projects is essen
 
 By following the steps provided in this article, you can utilize Async Storage to improve your apps local storage functionality.
 
-Remember, if you have any questions or just want to say hi, feel free to reach me on [X/Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`thejohncaleb`)](https://twitter.com/thejohncaleb) or my [<VPIcon icon="fas fa-globe"/>website](https://thejohncaleb.netlify.app/contact).
+Remember, if you have any questions or just want to say hi, feel free to reach me on [X/Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`thejohncaleb`)](https://twitter.com/thejohncaleb) or my [<VPIcon icon="fas fa-globe"/>website](https://thejohncaleb.netlify.app/contact).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -220,10 +220,10 @@ Chrome Canary showing Frankenstyle’s Demo.
 
 Things that may better inform those words and pictures above:
 
-- CSSWG: [Explainer: meta tag for text scaling behavior (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/blob/main/css-env-1/explainers/meta-text-scale.md)
-- CSSWG: [Explainer: `env(preferred-text-scale)` (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/blob/main/css-env-1/explainers/env-preferred-text-scale.md) (not addressed in this post)
+- CSSWG: [Explainer: meta tag for text scaling behavior (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/blob/main/css-env-1/explainers/meta-text-scale.md)
+- CSSWG: [Explainer: `env(preferred-text-scale)` (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/blob/main/css-env-1/explainers/env-preferred-text-scale.md) (not addressed in this post)
 - CSS Fonts Module Level 5 [<VPIcon icon="iconfont icon-w3c"/>§2. Text-Scale `<meta>` element](https://drafts.csswg.org/css-fonts-5/#text-scale-meta)
-- Even though CSSWG issue OP suggests the [`<meta>` might better belong in WHATWG HTML (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/12380#issuecomment-2993195860), I could find [no corresponding issue with WHATWG (<VPIcon icon="iconfont icon-github" />`whatwg/html`)](https://github.com/whatwg/html/issues?q=is%3Aissue%20state%3Aopen%20meta%20text-scale).
+- Even though CSSWG issue OP suggests the [`<meta>` might better belong in WHATWG HTML (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/12380#issuecomment-2993195860), I could find [no corresponding issue with WHATWG (<VPIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/issues?q=is%3Aissue%20state%3Aopen%20meta%20text-scale).
 - Just as I was about to post this, I learned Manuel Matuzovic wrote [<VPIcon icon="fas fa-globe"/>A new meta tag for respecting text scaling on mobile](https://matuzo.at/blog/2026/text-scaling-meta-tag) just this morning.
 - Yesterday Nat Tarnoff made the point that replicating platform features in the browser (ahem, overlays) is a poor idea, and this increased OS-level support bolsters his argument: [<VPIcon icon="fas fa-globe"/>Quick Tip: Do Not Replicate OS Behavior](https://tarnoff.info/2026/02/05/quick-tip-do-not-replicate-os-behavior/).
 

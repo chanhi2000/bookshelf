@@ -1921,7 +1921,7 @@ If you liked something about this book, or felt that something was missing or ne
 
 ::: info About the Author
 
-[<VPIcon icon="fa-brands fa-youtube"/>Omer Rosenbaum (<VPIcon icon="fa-brands fa-linkedin" />`omer-rosenbaum-034a08b9`)](https://linkedin.com/in/omer-rosenbaum-034a08b9/) is an established technologist and writer. He's the author of the [<VPIcon icon="fa-brands fa-youtube"/>Brief YouTube Channel](https://youtube.com/@BriefVid), and the books [**Gitting Things Done**](/freecodecamp.org/gitting-things-done-book/README.md) and [<VPIcon icon="fas fa-file-pdf"/>Computer Networks (in Hebrew)](https://data.cyber.org.il/networks/networks.pdf). He's also a cyber training expert and founder of Checkpoint Security Academy.
+[<VPIcon icon="fa-brands fa-youtube"/>Omer Rosenbaum (<VPIcon icon="fa-brands fa-linkedin"/>`omer-rosenbaum-034a08b9`)](https://linkedin.com/in/omer-rosenbaum-034a08b9/) is an established technologist and writer. He's the author of the [<VPIcon icon="fa-brands fa-youtube"/>Brief YouTube Channel](https://youtube.com/@BriefVid), and the books [**Gitting Things Done**](/freecodecamp.org/gitting-things-done-book/README.md) and [<VPIcon icon="fas fa-file-pdf"/>Computer Networks (in Hebrew)](https://data.cyber.org.il/networks/networks.pdf). He's also a cyber training expert and founder of Checkpoint Security Academy.
 
 :::
 

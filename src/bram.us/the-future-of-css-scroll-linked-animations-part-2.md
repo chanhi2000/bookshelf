@@ -833,7 +833,7 @@ Relevant Chromium Bug: [<VPIcon icon="fa-brands fa-chrome"/>1174838](https://bug
 
 ### Stacking Cards Demo
 
-In this demo I tried recreating [<VPIcon icon="fas fa-globe"/>this Stacking Cards demo from CodyHouse](https://codyhouse.co/tutorials/how-stacking-cards), initially by [Claudia Romano (<VPIcon icon="fa-brands fa-x-twitter" />`romano_cla`)](https://x.com/romano_cla).
+In this demo I tried recreating [<VPIcon icon="fas fa-globe"/>this Stacking Cards demo from CodyHouse](https://codyhouse.co/tutorials/how-stacking-cards), initially by [Claudia Romano (<VPIcon icon="fa-brands fa-x-twitter"/>`romano_cla`)](https://x.com/romano_cla).
 
 ::: tabs
 

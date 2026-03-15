@@ -592,7 +592,7 @@ Which combination of all of these techniques to use is of course highly dependen
 }
 ```
 
-- ~~[Philipp Brumm (<VPIcon icon="fa-brands fa-x-twitter" />`funkensturm`)](https://twitter.com/funkensturm) wrote a [smooth box shadow generator inspired by this article](https://brumm.af/shadows)~~
+- ~~[Philipp Brumm (<VPIcon icon="fa-brands fa-x-twitter"/>`funkensturm`)](https://twitter.com/funkensturm) wrote a [smooth box shadow generator inspired by this article](https://brumm.af/shadows)~~
 
 :::
 

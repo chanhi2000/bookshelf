@@ -328,7 +328,7 @@ You can find some useful examples on the Microsoft website [<VPIcon icon="fa-bra
   preview="https://learn.microsoft.com/dotnet/media/logo_csharp.png"/>
 
 
-As always I'd welcome comments, or discussion on the topic. You can follow me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`grantdotdev`)](https://twitter.com/grantdotdev)
+As always I'd welcome comments, or discussion on the topic. You can follow me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`grantdotdev`)](https://twitter.com/grantdotdev)
 
 :::
 

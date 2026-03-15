@@ -237,8 +237,8 @@ So, that is it for this article. Thank you so much for reading! See you next tim
 Now that you've had a sneak peek at my portfolio in the image above, why not get in touch? 😉 Feel free to connect with me here:
 
 - [GitHub (<VPIcon icon="iconfont icon-github"/>`shricodev`)](https://github.com/shricodev)
-- [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`iamshrijal`)](https://linkedin.com/in/iamshrijal)
-- [Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`shricodev`)](https://twitter.com/shricodev)
+- [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`iamshrijal`)](https://linkedin.com/in/iamshrijal)
+- [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`shricodev`)](https://twitter.com/shricodev)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

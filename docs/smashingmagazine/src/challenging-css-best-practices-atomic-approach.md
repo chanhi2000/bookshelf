@@ -265,7 +265,7 @@ As we all know, the smaller the unit, the more reusable it is.
 
 ::: note csswizardry Twitter (<VPIcon icon="fa-brands fa-x-twitter"/><code>x.com</code>)
 
-"Treat code like Lego. Break code into the smallest little blocks possible." — [@csswizardry (<VPIcon icon="fa-brands fa-x-twitter" />`csswizardry`)](https://x.com/csswizardry) (via [@stubbornella (<VPIcon icon="fa-brands fa-x-twitter" />`stubbornella`)](https://x.com/stubbornella)) [#btconf (<VPIcon icon="fa-brands fa-x-twitter" />`search?q=%23btconf&src=hash`)](https://twitter.com/search?q=%23btconf&src=hash) — Smashing Magazine (@smashingmag) [May 27, 2013](https://x.com/smashingmag/statuses/339024926197559296)
+"Treat code like Lego. Break code into the smallest little blocks possible." — [@csswizardry (<VPIcon icon="fa-brands fa-x-twitter"/>`csswizardry`)](https://x.com/csswizardry) (via [@stubbornella (<VPIcon icon="fa-brands fa-x-twitter"/>`stubbornella`)](https://x.com/stubbornella)) [#btconf (<VPIcon icon="fa-brands fa-x-twitter"/>`search?q=%23btconf&src=hash`)](https://twitter.com/search?q=%23btconf&src=hash) — Smashing Magazine (@smashingmag) [May 27, 2013](https://x.com/smashingmag/statuses/339024926197559296)
 
 :::
 
@@ -650,7 +650,7 @@ Our style sheet weighs 17.9 KB (about 3 KB of which are property-specific), and 
 
 Because **presentational class names have always been deemed “out of bounds**,” we — the community — have not really investigated what their use entails. In fact, in the name of best practice, we’ve dismissed every opportunity to explore their potential benefits.
 
-Here at Yahoo, [(<VPIcon icon="fa-brands fa-x-twitter" />`@renatoiwa`)](https://twitter.com/renatoiwa), @StevenRCarlson and I are developing projects with this new [<VPIcon icon="fas fa-globe"/>CSS architecture](https://engineering.appfolio.com/2012/11/16/css-architecture/). The code appears to be predictable, reusable, maintainable and scalable. These are the results we’ve experienced so far:
+Here at Yahoo, [(<VPIcon icon="fa-brands fa-x-twitter"/>`@renatoiwa`)](https://twitter.com/renatoiwa), @StevenRCarlson and I are developing projects with this new [<VPIcon icon="fas fa-globe"/>CSS architecture](https://engineering.appfolio.com/2012/11/16/css-architecture/). The code appears to be predictable, reusable, maintainable and scalable. These are the results we’ve experienced so far:
 
 - **Less bloat**<br/>We can build entire modules without adding a single line to the style sheets.
 - **Faster development**<br/>Styles are driven by classes that are not related to content, so we can copy and paste existing modules to get started.

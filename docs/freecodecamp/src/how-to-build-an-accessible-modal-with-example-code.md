@@ -362,7 +362,7 @@ Thank you so much for reading this article. If you found it helpful, consider sh
 
 ::: info
 
-You can connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`elizabeth-meshioye`)](https://linkedin.com/in/elizabeth-meshioye/).
+You can connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`elizabeth-meshioye`)](https://linkedin.com/in/elizabeth-meshioye/).
 
 :::
 

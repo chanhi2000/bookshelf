@@ -471,7 +471,7 @@ Thanks to everybody, who has contributed to the blog post: Alexander Rush, Julie
   logo="https://huggingface.co/favicon.ico"
   preview="https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/open-llm-leaderboard/open_llm_leaderboard.png"/>
 
-If you find that navigating our docs is challenging and you can't easily find what you're looking for, drop us a message in [this GitHub issue (<VPIcon icon="iconfont icon-github" />`huggingface/transformers#24575`)](https://github.com/huggingface/transformers/issues/24575). Your feedback is critical to set our future direction! 🤗
+If you find that navigating our docs is challenging and you can't easily find what you're looking for, drop us a message in [this GitHub issue (<VPIcon icon="iconfont icon-github"/>`huggingface/transformers#24575`)](https://github.com/huggingface/transformers/issues/24575). Your feedback is critical to set our future direction! 🤗
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -271,7 +271,7 @@ This article was based on an article in the Polish blog [<VPIcon icon="fas fa-gl
 
 :::
 
-If you like this article, you may want to follow me on Social Media: ([Twitter/X (<VPIcon icon="fa-brands fa-x-twitter" />`jcubic`)](https://x.com/jcubic) and/or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`jakubjankiewicz`)](https://linkedin.com/in/jakubjankiewicz/)). You can also check my [<VPIcon icon="fas fa-globe"/>personal website](https://jakub.jankiewicz.org/) and my [new blog](https://jakub.jankiewicz.org/blog/).
+If you like this article, you may want to follow me on Social Media: ([Twitter/X (<VPIcon icon="fa-brands fa-x-twitter"/>`jcubic`)](https://x.com/jcubic) and/or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`jakubjankiewicz`)](https://linkedin.com/in/jakubjankiewicz/)). You can also check my [<VPIcon icon="fas fa-globe"/>personal website](https://jakub.jankiewicz.org/) and my [new blog](https://jakub.jankiewicz.org/blog/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -95,7 +95,7 @@ cover: https://cdn.hashnode.com/uploads/covers/5fc16e412cae9c5b190b6cdd/f332e2f1
 
 Whenever engineers are building AI-powered applications, use of sensitive data is always a top priority. You don't want to send users' data to an external API that you don't control.
 
-For me, this happened when I was building [FinanceGPT (<VPIcon icon="iconfont icon-github" />`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT), which is my personal open-source project that helps me with my finances. This application lets you upload your bank statements, tax forms like 1099s, and so on, and then you can ask questions in plain English like, "How much did I spend on groceries this month?" or "What was my effective tax rate last year?"
+For me, this happened when I was building [FinanceGPT (<VPIcon icon="iconfont icon-github"/>`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT), which is my personal open-source project that helps me with my finances. This application lets you upload your bank statements, tax forms like 1099s, and so on, and then you can ask questions in plain English like, "How much did I spend on groceries this month?" or "What was my effective tax rate last year?"
 
 The problem is that answering these questions means sending all the sensitive transaction history, W-2s and income data to OpenAI or Anthropic or Google, which I was not comfortable with. Even after redacting PII data from these documents, I was not ok with the trade-off.
 
@@ -428,9 +428,9 @@ The finance domain is an obvious fit — but the same principle applies anywhere
 
 ## Check Out FinanceGPT
 
-All the code examples here came from [FinanceGPT (<VPIcon icon="iconfont icon-github" />`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT). If you want to see these patterns in a complete app, poke around the repo. It's got document processing, portfolio tracking, tax optimization – all built with LangGraph.
+All the code examples here came from [FinanceGPT (<VPIcon icon="iconfont icon-github"/>`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT). If you want to see these patterns in a complete app, poke around the repo. It's got document processing, portfolio tracking, tax optimization – all built with LangGraph.
 
-If you find this helpful, [give the project a star on GitHub (<VPIcon icon="iconfont icon-github" />`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT) – it helps other developers discover it.
+If you find this helpful, [give the project a star on GitHub (<VPIcon icon="iconfont icon-github"/>`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT) – it helps other developers discover it.
 
 ::: info Resources
 

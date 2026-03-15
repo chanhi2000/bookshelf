@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/09/pointer-click
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/09/pointer-click.png"/>
 
-Just before we wrapped up 2025, I saw [this proposal for `:near()` (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/13271), a pseudo-class that would match if the pointer were to go near the element. By how much? Well, that would depend on the value of the `<length>` argument provided. [<VPIcon icon="fas fa-globe"/>Thomas Walichiewicz](https://thomas.design), who proposed `:near()`, suggests that it works like this:
+Just before we wrapped up 2025, I saw [this proposal for `:near()` (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/13271), a pseudo-class that would match if the pointer were to go near the element. By how much? Well, that would depend on the value of the `<length>` argument provided. [<VPIcon icon="fas fa-globe"/>Thomas Walichiewicz](https://thomas.design), who proposed `:near()`, suggests that it works like this:
 
 ```css
 button:near(3rem) {
@@ -284,7 +284,7 @@ Unfortunately, you’d have a hard time (I think?) simulating these ones with va
 
 A potential downside is that `:near()` could lead to a significant increase in developers lazily hiding things to reduce visual clutter in instances where better UI design would’ve been the right call, or *increasing* visual clutter (with unnecessary icons, for example) *because* it can be hidden more conditionally.
 
-Other potential abuses include heatmapping, fingerprinting, and aggressive advertising patterns. It could also be used in ways that would negatively impact performance. [Thomas’s proposal (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/13271) does a wonderful job of pointing out these abuses and the ways in which `:near()` could be implemented to thwart them.
+Other potential abuses include heatmapping, fingerprinting, and aggressive advertising patterns. It could also be used in ways that would negatively impact performance. [Thomas’s proposal (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/13271) does a wonderful job of pointing out these abuses and the ways in which `:near()` could be implemented to thwart them.
 
 ---
 

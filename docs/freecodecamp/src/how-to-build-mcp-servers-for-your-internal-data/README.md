@@ -1347,7 +1347,7 @@ Start with one or two high-value tools (employee lookup, document search), test 
 
 ::: info
 
-The full source code from this guide is available on [GitHub (<VPIcon icon="iconfont icon-github" />`mayur9210/build-mcp-server-template`)](https://github.com/mayur9210/build-mcp-server-template).
+The full source code from this guide is available on [GitHub (<VPIcon icon="iconfont icon-github"/>`mayur9210/build-mcp-server-template`)](https://github.com/mayur9210/build-mcp-server-template).
 
 <SiteInfo
   name="mayur9210/build-mcp-server-template"

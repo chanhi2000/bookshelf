@@ -79,7 +79,7 @@ Here’s what I think you should know:
   - if access needs to be granted, it will ask first, then act accordingly.
   - if access has already been denied, a new prompt will remind you it’s been denied, and give you a chance to grant it.
 - The last bullet point above is crucial. It allows you to “recover” from a denied-permission state in a way that was previously impossible.
-- You can use it progressive-enhancement style by putting an actual `<button>` inside with event handlers that go through a flow where you aren’t 100% sure if you have granted permissions. Or [polyfill (<VPIcon icon="iconfont icon-github" />`WICG/PEPC`)](https://github.com/WICG/PEPC/tree/main/polyfills/geolocation) it.
+- You can use it progressive-enhancement style by putting an actual `<button>` inside with event handlers that go through a flow where you aren’t 100% sure if you have granted permissions. Or [polyfill (<VPIcon icon="iconfont icon-github"/>`WICG/PEPC`)](https://github.com/WICG/PEPC/tree/main/polyfills/geolocation) it.
 - It enforces a variety of accessibility requirements quite strictly.
 
 It’s that last one we can dig into a little here, as I find it quite interesting. I’m not sure if we’ve had an element in HTML that behaves quite like this before.

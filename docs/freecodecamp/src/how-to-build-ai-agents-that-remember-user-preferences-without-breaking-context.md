@@ -417,7 +417,7 @@ That mindset will save you time as your agent grows in complexity.
 
 ::: info
 
-If you’d like to continue the conversation, you can find me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`natarajsundar`)](https://linkedin.com/in/natarajsundar/).
+If you’d like to continue the conversation, you can find me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`natarajsundar`)](https://linkedin.com/in/natarajsundar/).
 
 :::
 

@@ -98,7 +98,7 @@ This makes TOTP fast, offline-capable, and resistant to replay attacks (each cod
 
 Every user needs their own unique secret key. This key is the foundation of the entire 2FA system, so it must be cryptographically random.
 
-We'll use the [Otp.NET (<VPIcon icon="iconfont icon-github" />`kspearrin/Otp.NET`)](https://github.com/kspearrin/Otp.NET) library for TOTP operations:
+We'll use the [Otp.NET (<VPIcon icon="iconfont icon-github"/>`kspearrin/Otp.NET`)](https://github.com/kspearrin/Otp.NET) library for TOTP operations:
 
 ```sh
 dotnet add package Otp.NET
@@ -113,7 +113,7 @@ byte[] secretKey = KeyGeneration.GenerateRandomKey(); // 20 bytes by default (SH
 string base32Secret = Base32Encoding.ToString(secretKey);
 ```
 
-`KeyGeneration.GenerateRandomKey()` produces a cryptographically secure random key. We encode it as **Base32** because that's what the [otpauth URI scheme (<VPIcon icon="iconfont icon-github" />`google/google-authenticator`)](https://github.com/google/google-authenticator/wiki/Key-Uri-Format) expects.
+`KeyGeneration.GenerateRandomKey()` produces a cryptographically secure random key. We encode it as **Base32** because that's what the [otpauth URI scheme (<VPIcon icon="iconfont icon-github"/>`google/google-authenticator`)](https://github.com/google/google-authenticator/wiki/Key-Uri-Format) expects.
 
 **This secret must be stored securely.** It's the equivalent of a password. If an attacker gets the secret, they can generate valid codes. I'll cover encrypting it at rest later in this article.
 
@@ -123,7 +123,7 @@ string base32Secret = Base32Encoding.ToString(secretKey);
 
 To set up 2FA, the user needs to scan a QR code with their authenticator app. The QR code encodes an `otpauth://` URI that contains the secret key and metadata.
 
-Install the [QRCoder (<VPIcon icon="iconfont icon-github" />`codebude/QRCoder`)](https://github.com/codebude/QRCoder) library:
+Install the [QRCoder (<VPIcon icon="iconfont icon-github"/>`codebude/QRCoder`)](https://github.com/codebude/QRCoder) library:
 
 ```sh
 dotnet add package QRCoder
@@ -472,7 +472,7 @@ public async Task<List<string>> GenerateRecoveryCodes(string userId, int count =
 
 A few important details:
 
-- **Hash the recovery codes** before storing them. They're single-use passwords. Use `bcrypt` (e.g. [Bcrypt.Net (<VPIcon icon="iconfont icon-github" />`BcryptNet/bcrypt.net`)](https://github.com/BcryptNet/bcrypt.net)) or similar.
+- **Hash the recovery codes** before storing them. They're single-use passwords. Use `bcrypt` (e.g. [Bcrypt.Net (<VPIcon icon="iconfont icon-github"/>`BcryptNet/bcrypt.net`)](https://github.com/BcryptNet/bcrypt.net)) or similar.
 - **Show them only once.** After the user dismisses the dialog, the plain text codes are gone.
 - **Mark codes as used.** Each recovery code works exactly once.
 - **Generate enough codes.** Eight to ten is standard. The user can regenerate them if they run low.

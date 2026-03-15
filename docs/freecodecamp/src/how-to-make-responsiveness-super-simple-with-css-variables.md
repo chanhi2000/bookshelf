@@ -236,7 +236,7 @@ You’ll become a CSS Variables master in no time
 
 ::: info
 
-Thanks for reading! I’m Per Borgen, front-end developer and co-founder of [<VPIcon icon="fas fa-globe"/>Scrimba](http://scrimba.com). Feel free to reach out to [me via Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`perborgen`)](https://twitter.com/perborgen) if you have any questions or comments.
+Thanks for reading! I’m Per Borgen, front-end developer and co-founder of [<VPIcon icon="fas fa-globe"/>Scrimba](http://scrimba.com). Feel free to reach out to [me via Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`perborgen`)](https://twitter.com/perborgen) if you have any questions or comments.
 
 Thanks for reading! My name is Per Borgen, I'm the co-founder of [<VPIcon icon="fas fa-globe"/>Scrimba](https://scrimba.com) – the easiest way to learn to code. You should check out our [<VPIcon icon="fas fa-globe"/>responsive web design bootcamp](https://scrimba.com/g/gresponsive) if want to learn to build modern website on a professional level.
 

@@ -140,7 +140,7 @@ This document even defines a [<VPIcon icon="iconfont icon-w3c"/>pattern for menu
 
 To clarify — if you are rebuilding the interface for Microsoft Word, then the *File* menu gets `role="menu"`, lives inside a `role="menubar"` container, all while *File* → *New*, *File* → *Open*, *File* → *Save*, and so on each get `role="menuitem"`.
 
-I have [filed an issue against the ARIA Practices document (<VPIcon icon="iconfont icon-github" />`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/353) to clarify all of this, on which you are welcome to comment or vote.
+I have [filed an issue against the ARIA Practices document (<VPIcon icon="iconfont icon-github"/>`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/353) to clarify all of this, on which you are welcome to comment or vote.
 
 ---
 
@@ -187,7 +187,7 @@ Nearly a year since I wrote this, and bad information in the APG spec still pers
 
 Most recently a developer at Twitter was asking for help on how to set up a control using the APG menu role description. I argued that his example was not a menu, and he offered the text from the APG spec:
 
-I [<VPIcon icon="fa-brands fa-wikipedia-w"/>filed an issue against the ARIA Practices document (<VPIcon icon="iconfont icon-github" />`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/353) in April 2017 to address this language *specifically*. That issue was not accepted and instead turned into a [<VPIcon icon="fa-brands fa-wikipedia-w"/>Gish Gallop](https://en.wikipedia.org/wiki/Gish_gallop) from the active editor of the guide. As a result, we have a developer from one of the larger platforms on the web about to encode demonstrably confusing and anti-user behavior. And it is not his fault. He is trying to do it *correctly*
+I [<VPIcon icon="fa-brands fa-wikipedia-w"/>filed an issue against the ARIA Practices document (<VPIcon icon="iconfont icon-github"/>`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/353) in April 2017 to address this language *specifically*. That issue was not accepted and instead turned into a [<VPIcon icon="fa-brands fa-wikipedia-w"/>Gish Gallop](https://en.wikipedia.org/wiki/Gish_gallop) from the active editor of the guide. As a result, we have a developer from one of the larger platforms on the web about to encode demonstrably confusing and anti-user behavior. And it is not his fault. He is trying to do it *correctly*
 
 [Marco Zehe not only weighed in (<VPIcon icon="fa-brands fa-x-twitter"/>`MarcoInEnglish`)](https://twitter.com/MarcoInEnglish/status/1042799790390693894) on the mis-use of the menu role in the thread ([as did Léonie Watson (<VPIcon icon="fa-brands fa-x-twitter"/>`LeonieWatson`)](https://twitter.com/LeonieWatson/status/1042800382882275328)), but he wrote a blog post with essentially the same message — do not use ARIA menu roles: [<VPIcon icon="fas fa-globe"/>WAI-ARIA menus, and why you should generally avoid using them](https://web.archive.org/web/20190116170516/https://www.marcozehe.de/2018/09/22/wai-aria-menus-and-why-you-should-generally-avoid-using-them/)
 
@@ -199,7 +199,7 @@ I [<VPIcon icon="fa-brands fa-wikipedia-w"/>filed an issue against the ARIA Prac
 {
   "title": "WAI-ARIA menus, and why you should generally avoid using them › Marco's Accessibility Blog",
   "desc": "The WAI-ARIA standard defines a number of related menu roles. However, in 99% of all cases, these should not be used. A bit of history In ...",
-  "link": "https://web.archive.org/web/20190116170516/https://marcozehe.de/2018/09/22/wai-aria-menus-and-why-you-should-generally-avoid-using-them//",
+  "link": "https://web.archive.org/web/20190116170516/https://marcozehe.de/2018/09/22/wai-aria-menus-and-why-you-should-generally-avoid-using-them/",
   "logo": "",
   "background": "rgba(244,245,255,0.2)"
 }
@@ -225,7 +225,7 @@ On Global Accessibility Awareness Day (GAAD) 2022, the APG relaunched and rebran
 
 I am thrilled this no longer looks like a standards doc and is much easier to navigate.
 
-I am *less* thrilled this [left a pile of 404s (<VPIcon icon="iconfont icon-github" />`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/2335) with the move, implies it is a ready-to-use pattern library, [obfuscates the (watered down) warnings (<VPIcon icon="iconfont icon-github" />`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/2336) I fought so hard to get added, quietly hid some of its worst patterns with no acknowledgment in years-old issues, appears to have happened outside the W3C redesign project with Studio24, and [introduced WCAG issues (<VPIcon icon="iconfont icon-github" />`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/2338).
+I am *less* thrilled this [left a pile of 404s (<VPIcon icon="iconfont icon-github"/>`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/2335) with the move, implies it is a ready-to-use pattern library, [obfuscates the (watered down) warnings (<VPIcon icon="iconfont icon-github"/>`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/2336) I fought so hard to get added, quietly hid some of its worst patterns with no acknowledgment in years-old issues, appears to have happened outside the W3C redesign project with Studio24, and [introduced WCAG issues (<VPIcon icon="iconfont icon-github"/>`w3c/aria-practices`)](https://github.com/w3c/aria-practices/issues/2338).
 
 :::
 
@@ -243,9 +243,9 @@ The post does not cover the required script to make these function, implying the
 
 ::: note 11 August 2025
 
-There is a Google-lead Open-UI proposal, [#1193 [menu] Navigation vs menu items use case (<VPIcon icon="iconfont icon-github" />`openui/open-ui`)](https://github.com/openui/open-ui/issues/1193), which seems to have missed all the points I raised here and in the linked APG issue.
+There is a Google-lead Open-UI proposal, [#1193 [menu] Navigation vs menu items use case (<VPIcon icon="iconfont icon-github"/>`openui/open-ui`)](https://github.com/openui/open-ui/issues/1193), which seems to have missed all the points I raised here and in the linked APG issue.
 
-Thankfully I had the “free” time to [jump in and throw warnings (<VPIcon icon="iconfont icon-github" />`openui/open-ui`)](https://github.com/openui/open-ui/issues/1193#issuecomment-2811377928), including references to material that Google should have uncovered in the barest due diligence. [<VPIcon icon="fas fa-globe"/>I grump about this](https://toot.cafe/@aardrian/114353369198412851) on the socials. Granted, this was a month before [**My Request to Google on Accessibility**](/adrianroselli.com/my-request-to-google-on-accessibility.md).
+Thankfully I had the “free” time to [jump in and throw warnings (<VPIcon icon="iconfont icon-github"/>`openui/open-ui`)](https://github.com/openui/open-ui/issues/1193#issuecomment-2811377928), including references to material that Google should have uncovered in the barest due diligence. [<VPIcon icon="fas fa-globe"/>I grump about this](https://toot.cafe/@aardrian/114353369198412851) on the socials. Granted, this was a month before [**My Request to Google on Accessibility**](/adrianroselli.com/my-request-to-google-on-accessibility.md).
 
 :::
 

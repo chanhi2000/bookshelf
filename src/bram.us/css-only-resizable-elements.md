@@ -52,9 +52,9 @@ cover: https://bram.us/wordpress/wp-content/uploads/2020/05/css-resize.png
 
 ![](https://bram.us/wordpress/wp-content/uploads/2020/05/css-resize.png)
 
-In [**Playing With (Fake) Container Queries**](/css-tricks.com/playing-with-fake-container-queries-with-watched-box-resizeasaurus.md) Chris used [the `<resize-asaurus>` web component (<VPIcon icon="iconfont icon-github" />`filamentgroup/resizeasaurus`)](https://github.com/filamentgroup/resizeasaurus) to make the elements resizable. Curious to see how that worked I dug into its source.
+In [**Playing With (Fake) Container Queries**](/css-tricks.com/playing-with-fake-container-queries-with-watched-box-resizeasaurus.md) Chris used [the `<resize-asaurus>` web component (<VPIcon icon="iconfont icon-github"/>`filamentgroup/resizeasaurus`)](https://github.com/filamentgroup/resizeasaurus) to make the elements resizable. Curious to see how that worked I dug into its source.
 
-As I was expecting a truckload of JavaScript to make it work, I was very surprised to [see (<VPIcon icon="iconfont icon-github" />`filamentgroup/resizeasaurus`)](https://github.com/filamentgroup/resizeasaurus/blob/master/resizeasaurus.js#L4) that it basically revolved around using just one single CSS property: [<VPIcon icon="fa-brands fa-firefox"/>`resize`](https://developer.mozilla.org/en-US/docs/Web/CSS/resize)
+As I was expecting a truckload of JavaScript to make it work, I was very surprised to [see (<VPIcon icon="iconfont icon-github"/>`filamentgroup/resizeasaurus`)](https://github.com/filamentgroup/resizeasaurus/blob/master/resizeasaurus.js#L4) that it basically revolved around using just one single CSS property: [<VPIcon icon="fa-brands fa-firefox"/>`resize`](https://developer.mozilla.org/en-US/docs/Web/CSS/resize)
 
 > The `resize` CSS property sets whether an element is resizable, and if so, in which directions.
 

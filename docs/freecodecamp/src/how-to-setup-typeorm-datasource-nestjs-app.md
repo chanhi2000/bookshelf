@@ -547,8 +547,8 @@ If you've found it helpful, please share it with your friends and colleagues! St
 
 ::: fino Contact Links
 
-- [Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`ayobamialaran`)](https://twitter.com/ayobamialaran)
-- [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`ayobami-alaran`)](https://linkedin.com/in/ayobami-alaran/)
+- [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`ayobamialaran`)](https://twitter.com/ayobamialaran)
+- [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`ayobami-alaran`)](https://linkedin.com/in/ayobami-alaran/)
 
 <SiteInfo
   name="Ayobami6 - Overview"

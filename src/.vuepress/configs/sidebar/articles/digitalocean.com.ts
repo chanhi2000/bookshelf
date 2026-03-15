@@ -1,126 +1,18 @@
 import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
-const Y2012: SidebarYeargroupTemplate = {
-  text: '2012',
+const Y2026: SidebarYeargroupTemplate = {
+  text: '2026',
   collapsible: true,
   children: [
-    // END: 2012
-    "initial-server-setup-with-centos-6", // 2012-05-22
-    "how-to-install-nginx-on-centos-6-with-yum", // 2012-05-22
+    // END: 2026
   ]
 }
 
-const Y2013: SidebarYeargroupTemplate = {
-  text: '2013',
+const Y2025: SidebarYeargroupTemplate = {
+  text: '2025',
   collapsible: true,
   children: [
-    // END: 2013
-  ]
-}
-
-const Y2014: SidebarYeargroupTemplate = {
-  text: '2014',
-  collapsible: true,
-  children: [
-    // END: 2014
-    "basic-linux-navigation-and-file-management", // 2014-11-15
-    "an-introduction-to-the-linux-terminal", // 2014-11-15
-    "sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems", // 2014-02-22
-  ]
-}
-
-const Y2015: SidebarYeargroupTemplate = {
-  text: '2015',
-  collapsible: true,
-  children: [
-    // END: 2015
-  ]
-}
-
-const Y2016: SidebarYeargroupTemplate = {
-  text: '2016',
-  collapsible: true,
-  children: [
-    // END: 2016
-    "html-defer-async", // 2016-08-20
-    "how-to-use-doctl-the-official-digitalocean-command-line-client", // 2016-03-25
-  ]
-}
-
-const Y2017: SidebarYeargroupTemplate = {
-  text: '2017',
-  collapsible: true,
-  children: [
-    // END: 2017
-    "how-to-enable-and-connect-the-django-admin-interface", // 2017-10-17
-    "how-to-create-a-django-app-and-connect-it-to-a-database", // 2017-08-29
-  ]
-}
-
-const Y2018: SidebarYeargroupTemplate = {
-  text: '2018',
-  collapsible: true,
-  children: [
-    // END: 2018
-    "react-code-splitting-with-react-suspense", // 2018-12-14
-    "introduction-to-queries-mysql", // 2018-10-18
-    "css-media-queries", // 2018-06-07
-    "how-to-set-up-ssh-keys-on-ubuntu-1804", // 2018-04-28
-    "initial-server-setup-with-ubuntu-18-04", // 2018-04-28
-  ]
-}
-
-const Y2019: SidebarYeargroupTemplate = {
-  text: '2019',
-  collapsible: true,
-  children: [
-    // END: 2019
-    "react-usememo", // 2019-12-06
-    "docker-for-front-end-developers", // 2019-08-20
-    "react-learning-react-memo", // 2019-08-15
-  ]
-}
-
-const Y2020: SidebarYeargroupTemplate = {
-  text: '2020',
-  collapsible: true,
-  children: [
-    // END: 2020
-    "a-linux-command-line-primer", // 2020-12-08, // 2020-12-08
-  ]
-}
-
-const Y2021: SidebarYeargroupTemplate = {
-  text: '2021',
-  collapsible: true,
-  children: [
-    // END: 2021
-    "custom-events-in-javascript-a-complete-guide", // 2021-01-01
-  ]
-}
-
-const Y2022: SidebarYeargroupTemplate = {
-  text: '2022',
-  collapsible: true,
-  children: [
-    // END: 2022
-    "how-to-run-serverless-workloads-with-knative-on-digitalocean-kubernetes", // 2022-12-16
-    "how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt", // 2022-11-18
-    "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
-    "how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu", // 2022-04-27
-    "how-to-secure-apache-with-let-s-encrypt-on-ubuntu", // 2022-04-27
-    "how-to-install-and-use-docker-on-ubuntu-22-04", // 2022-04-27
-    "how-to-install-django-and-set-up-a-development-environment-on-ubuntu-22-04", // 2022-04-27
-    "initial-server-setup-with-ubuntu", // 2022-04-26
-  ]
-}
-
-const Y2023: SidebarYeargroupTemplate = {
-  text: '2023',
-  collapsible: true,
-  children: [
-    // END: 2023
-    "how-to-scale-node-js-applications-with-clustering", // 2023-02-11
+    // END: 2025
   ]
 }
 
@@ -137,23 +29,136 @@ const Y2024: SidebarYeargroupTemplate = {
     "markdown-markdown-images", // 2024-04-26
     "how-to-use-docker-exec-to-run-commands-in-a-docker-container", // 2024-04-26
     "how-to-integrate-existing-systems-with-kafka-connect", // 2024-04-25
+    "how-to-set-up-a-firewall-with-ufw-on-ubuntu", // 2024-02-28
     "how-to-install-lamp-stack-on-ubuntu", // 2024-02-28
   ]
 }
 
-const Y2025: SidebarYeargroupTemplate = {
-  text: '2025',
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
   collapsible: true,
   children: [
-    // END: 2025
+    // END: 2023
+    "how-to-scale-node-js-applications-with-clustering", // 2023-02-11
   ]
 }
 
-const Y2026: SidebarYeargroupTemplate = {
-  text: '2026',
+const Y2022: SidebarYeargroupTemplate = {
+  text: '2022',
   collapsible: true,
   children: [
-    // END: 2026
+    // END: 2022
+    "how-to-run-serverless-workloads-with-knative-on-digitalocean-kubernetes", // 2022-12-16
+    "how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt", // 2022-11-18
+    "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
+    "how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu", // 2022-04-27
+    "how-to-secure-apache-with-let-s-encrypt-on-ubuntu", // 2022-04-27
+    "how-to-install-and-use-docker-on-ubuntu-22-04", // 2022-04-27
+    "how-to-install-django-and-set-up-a-development-environment-on-ubuntu-22-04", // 2022-04-27
+    "how-to-install-and-secure-phpmyadmin-on-ubuntu", // 2022-04-27
+    "initial-server-setup-with-ubuntu", // 2022-04-26
+  ]
+}
+
+const Y2021: SidebarYeargroupTemplate = {
+  text: '2021',
+  collapsible: true,
+  children: [
+    // END: 2021
+    "custom-events-in-javascript-a-complete-guide", // 2021-01-01
+  ]
+}
+
+const Y2020: SidebarYeargroupTemplate = {
+  text: '2020',
+  collapsible: true,
+  children: [
+    // END: 2020
+    "a-linux-command-line-primer", // 2020-12-08, // 2020-12-08
+  ]
+}
+
+const Y2019: SidebarYeargroupTemplate = {
+  text: '2019',
+  collapsible: true,
+  children: [
+    // END: 2019
+    "react-usememo", // 2019-12-06
+    "docker-for-front-end-developers", // 2019-08-20
+    "react-learning-react-memo", // 2019-08-15
+  ]
+}
+
+const Y2018: SidebarYeargroupTemplate = {
+  text: '2018',
+  collapsible: true,
+  children: [
+    // END: 2018
+    "react-code-splitting-with-react-suspense", // 2018-12-14
+    "introduction-to-queries-mysql", // 2018-10-18
+    "how-to-create-a-multi-node-mysql-cluster-on-ubuntu-18-04", // 2018-07-27
+    "css-media-queries", // 2018-06-07
+    "how-to-set-up-ssh-keys-on-ubuntu-1804", // 2018-04-28
+    "initial-server-setup-with-ubuntu-18-04", // 2018-04-28
+  ]
+}
+
+const Y2017: SidebarYeargroupTemplate = {
+  text: '2017',
+  collapsible: true,
+  children: [
+    // END: 2017
+    "how-to-enable-and-connect-the-django-admin-interface", // 2017-10-17
+    "how-to-create-a-django-app-and-connect-it-to-a-database", // 2017-08-29
+  ]
+}
+
+const Y2016: SidebarYeargroupTemplate = {
+  text: '2016',
+  collapsible: true,
+  children: [
+    // END: 2016
+    "html-defer-async", // 2016-08-20
+    "how-to-use-doctl-the-official-digitalocean-command-line-client", // 2016-03-25
+  ]
+}
+
+const Y2015: SidebarYeargroupTemplate = {
+  text: '2015',
+  collapsible: true,
+  children: [
+    // END: 2015
+  ]
+}
+
+
+const Y2014: SidebarYeargroupTemplate = {
+  text: '2014',
+  collapsible: true,
+  children: [
+    // END: 2014
+    "basic-linux-navigation-and-file-management", // 2014-11-15
+    "an-introduction-to-the-linux-terminal", // 2014-11-15
+    "sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems", // 2014-02-22
+    "understanding-sql-and-nosql-databases-and-different-database-models", // 2014-02-22
+  ]
+}
+
+const Y2013: SidebarYeargroupTemplate = {
+  text: '2013',
+  collapsible: true,
+  children: [
+    // END: 2013
+  ]
+}
+
+const Y2012: SidebarYeargroupTemplate = {
+  text: '2012',
+  collapsible: true,
+  children: [
+    // END: 2012
+    "initial-server-setup-with-centos-6", // 2012-05-22
+    "how-to-install-nginx-on-centos-6-with-yum", // 2012-05-22
   ]
 }
 
@@ -276,6 +281,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2019php
       // END: 2020php
       // END: 2021php
+      "how-to-install-and-secure-phpmyadmin-on-ubuntu", // 2022-04-27
       "how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu", // 2022-04-27
       // END: 2022php
       // END: 2023php
@@ -343,18 +349,21 @@ export const template: SidebarInfoTemplate = {
       // END: 2017linux-debian
       "initial-server-setup-with-ubuntu-18-04", // 2018-04-28
       "how-to-set-up-ssh-keys-on-ubuntu-1804", // 2018-04-28
+      "how-to-create-a-multi-node-mysql-cluster-on-ubuntu-18-04", // 2018-07-27
       // END: 2018linux-debian
       // END: 2020linux-debian
       // END: 2021linux-debian
       "initial-server-setup-with-ubuntu", // 2022-04-26
+      "how-to-install-mysql-on-ubuntu-22-04", // 2022-04-27
+      "how-to-install-and-secure-phpmyadmin-on-ubuntu", // 2022-04-27
       "how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu", // 2022-04-27
       "how-to-install-django-and-set-up-a-development-environment-on-ubuntu-22-04", // 2022-04-27
-      "how-to-install-mysql-on-ubuntu-22-04", // 2022-04-27
       "how-to-install-and-use-docker-on-ubuntu-22-04", // 2022-04-27
       "how-to-secure-apache-with-let-s-encrypt-on-ubuntu", // 2022-04-27
       "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
       // END: 2022linux-debian
       // END: 2023linux-debian
+      "how-to-set-up-a-firewall-with-ufw-on-ubuntu", // 2024-02-28
       "how-to-install-lamp-stack-on-ubuntu", // 2024-02-28
       // END: 2024linux-debian
       // END: 2025linux-debian
@@ -468,6 +477,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2011data-science
       // END: 2012data-science
       // END: 2013data-science
+      "understanding-sql-and-nosql-databases-and-different-database-models", // 2014-02-22
       "sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems", // 2014-02-22
       // END: 2014data-science
       // END: 2015data-science
@@ -490,12 +500,14 @@ export const template: SidebarInfoTemplate = {
       // END: 2016mysql
       "how-to-create-a-django-app-and-connect-it-to-a-database", // 2017-08-29
       // END: 2017mysql
+      "how-to-create-a-multi-node-mysql-cluster-on-ubuntu-18-04", // 2018-07-27
       "introduction-to-queries-mysql", // 2018-10-18
       // END: 2018mysql
       // END: 2019mysql
       // END: 2020mysql
       // END: 2021mysql
       "how-to-install-mysql-on-ubuntu-22-04", // 2022-04-27
+      "how-to-install-and-secure-phpmyadmin-on-ubuntu", // 2022-04-27
       "how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu", // 2022-04-27
       // END: 2022mysql
       // END: 2023mysql

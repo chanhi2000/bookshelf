@@ -71,7 +71,7 @@ Through the end of March, you can get Elton Stoneman’s [<VPIcon icon="fas fa-g
 
 ::: info Author
 
-> [Elton Stoneman (<VPIcon icon="fa-brands fa-x-twitter" />`EltonStoneman`)](https://twitter.com/EltonStoneman)
+> [Elton Stoneman (<VPIcon icon="fa-brands fa-x-twitter"/>`EltonStoneman`)](https://twitter.com/EltonStoneman)
 
 :::
 
@@ -88,7 +88,7 @@ Go from zero to production readiness with Docker in 22 bite-sized lessons! *Lear
 
 ::: info Author
 
-> [Jeff Nickeloff (<VPIcon icon="fa-brands fa-x-twitter" />`allingeek`)](https://twitter.com/allingeek)
+> [Jeff Nickeloff (<VPIcon icon="fa-brands fa-x-twitter"/>`allingeek`)](https://twitter.com/allingeek)
 
 :::
 
@@ -98,7 +98,7 @@ Go from zero to production readiness with Docker in 22 bite-sized lessons! *Lear
 
 ## Video Courses
 
-And through Saturday, March 28th, get [Nigel Poulton’s (<VPIcon icon="fa-brands fa-x-twitter" />`BretFisher`)](https://twitter.com/BretFisher) and [Bret Fisher’s (<VPIcon icon="fa-brands fa-x-twitter" />`BretFisher`)](https://twitter.com/BretFisher) courses on Udemy for just $9.99.
+And through Saturday, March 28th, get [Nigel Poulton’s (<VPIcon icon="fa-brands fa-x-twitter"/>`BretFisher`)](https://twitter.com/BretFisher) and [Bret Fisher’s (<VPIcon icon="fa-brands fa-x-twitter"/>`BretFisher`)](https://twitter.com/BretFisher) courses on Udemy for just $9.99.
 
 ![](https://docker.com/app/uploads/2020/03/pasted-image-0-3.png)
 
@@ -111,7 +111,7 @@ And through Saturday, March 28th, get [Nigel Poulton’s (<VPIcon icon="fa-brand
 
 ::: info Author
 
-> [Nigel Poulton (<VPIcon icon="fa-brands fa-x-twitter" />`nigelpoulton`)](https://twitter.com/nigelpoulton)
+> [Nigel Poulton (<VPIcon icon="fa-brands fa-x-twitter"/>`nigelpoulton`)](https://twitter.com/nigelpoulton)
 
 :::
 
@@ -134,7 +134,7 @@ Learn or brush up with the basics of Kubernetes. Kubernetes architecture is clea
 
 ::: info Author
 
-> [Bret Fisher (<VPIcon icon="fa-brands fa-x-twitter" />`BretFisher`)](https://twitter.com/BretFisher)  
+> [Bret Fisher (<VPIcon icon="fa-brands fa-x-twitter"/>`BretFisher`)](https://twitter.com/BretFisher)  
 
 :::
 
@@ -157,7 +157,7 @@ Build, test, deploy containers with the best mega-course on Docker, Kubernetes, 
 
 ::: info Author
 
-> [Bret Fisher (<VPIcon icon="fa-brands fa-x-twitter" />`BretFisher`)](https://twitter.com/BretFisher)  
+> [Bret Fisher (<VPIcon icon="fa-brands fa-x-twitter"/>`BretFisher`)](https://twitter.com/BretFisher)  
 
 :::
 
@@ -180,7 +180,7 @@ Learn the latest Kubernetes features (1.16) and plugins while practicing DevOps 
 
 ::: info Author
 
-> [Bret Fisher (<VPIcon icon="fa-brands fa-x-twitter" />`BretFisher`)](https://twitter.com/BretFisher)
+> [Bret Fisher (<VPIcon icon="fa-brands fa-x-twitter"/>`BretFisher`)](https://twitter.com/BretFisher)
 
 :::
 
@@ -203,7 +203,7 @@ Build, automate and monitor a service cluster for containers using the latest op
 
 ::: info Author
 
-> [Bret Fisher (<VPIcon icon="fa-brands fa-x-twitter" />`BretFisher`)](https://twitter.com/BretFisher)  
+> [Bret Fisher (<VPIcon icon="fa-brands fa-x-twitter"/>`BretFisher`)](https://twitter.com/BretFisher)  
 
 :::
 
@@ -224,11 +224,11 @@ Build, test, deploy Node for Docker, Kubernetes, Swarm, and ARM with the latest 
 
 ::: info Author
 
-> [Nick Janetakis (<VPIcon icon="fa-brands fa-x-twitter" />`nickjanetakis`)](https://twitter.com/nickjanetakis)
+> [Nick Janetakis (<VPIcon icon="fa-brands fa-x-twitter"/>`nickjanetakis`)](https://twitter.com/nickjanetakis)
 
 :::
 
-Finally, [Nick Janetakis (<VPIcon icon="fa-brands fa-x-twitter" />`nickjanetakis`)](https://twitter.com/nickjanetakis)‘ [Dive into Docker Course](https://diveintodocker.com), a video based tutorial that’s jam packed with examples so you can learn everything you need to know about using Docker and Docker Compose, is 50% through Saturday, March 28th.
+Finally, [Nick Janetakis (<VPIcon icon="fa-brands fa-x-twitter"/>`nickjanetakis`)](https://twitter.com/nickjanetakis)‘ [Dive into Docker Course](https://diveintodocker.com), a video based tutorial that’s jam packed with examples so you can learn everything you need to know about using Docker and Docker Compose, is 50% through Saturday, March 28th.
 
 ![](https://docker.com/app/uploads/2020/03/Screenshot-at-Mar-25-21-13-56.png)
 

@@ -54,7 +54,7 @@ cover: https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583
 
 ::: note
 
-This is a guest post from Docker Captain [Adrian Mouat (<VPIcon icon="fa-brands fa-x-twitter" />`adrianmouat`)](https://twitter.com/adrianmouat) who is Chief Scientist at Container Solutions, a cloud-native consultancy and Kubernetes Certified Service Provider. Adrian is the author of “Using Docker,” published by O’Reilly Media. He is currently developing Trow, a container image registry designed to securely manage the flow of images in a Kubernetes cluster. Adrian is a regular conference speaker and trainer and he has spoken at several events including KubeCon EU, DockerCon, CraftConf, TuringFest and GOTO Amsterdam.
+This is a guest post from Docker Captain [Adrian Mouat (<VPIcon icon="fa-brands fa-x-twitter"/>`adrianmouat`)](https://twitter.com/adrianmouat) who is Chief Scientist at Container Solutions, a cloud-native consultancy and Kubernetes Certified Service Provider. Adrian is the author of “Using Docker,” published by O’Reilly Media. He is currently developing Trow, a container image registry designed to securely manage the flow of images in a Kubernetes cluster. Adrian is a regular conference speaker and trainer and he has spoken at several events including KubeCon EU, DockerCon, CraftConf, TuringFest and GOTO Amsterdam.
 
 :::
 

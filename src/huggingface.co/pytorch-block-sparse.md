@@ -76,7 +76,7 @@ The basic assumption is that full dense layers are often overkill and can be pru
 
 The main issue is that currently available code that supports sparse algebra computation is severely lacking efficiency. We are also [<VPIcon icon="iconfont icon-openai"/>still waiting](https://openai.com/blog/openai-pytorch/) for official PyTorch support.
 
-That's why we ran out of patience and took some time this summer to address this "lacuna". Today, we are excited to **release the extension [<VPIcon icon="iconfont icon-github" />`huggingface/pytorch_block_sparse`](https://github.com/huggingface/pytorch_block_sparse)**.
+That's why we ran out of patience and took some time this summer to address this "lacuna". Today, we are excited to **release the extension [<VPIcon icon="iconfont icon-github"/>`huggingface/pytorch_block_sparse`](https://github.com/huggingface/pytorch_block_sparse)**.
 
 By itself, or even better combined with other methods like [distillation (<VPIcon icon="fa-brands fa-medium" />`huggingface`)](https://medium.com/huggingface/distilbert-8cf3380435b5) and [quantization (<VPIcon icon="fa-brands fa-medium" />`microsoftazure`)](https://medium.com/microsoftazure/faster-and-smaller-quantized-nlp-with-hugging-face-and-onnx-runtime-ec5525473bb7), this library enables **networks** which are both **smaller and faster**, something Hugging Face considers crucial to let anybody use neural networks in production at **low cost**, and to **improve the experience** for the end user.
 
@@ -96,13 +96,13 @@ from pytorch_block_sparse import BlockSparseLinear
 self.fc = BlockSparseLinear(1024, 256, density=0.1)
 ```
 
-The extension also provides a `BlockSparseModelPatcher` that allows to modify an existing model "on the fly", which is shown in this [example notebook (<VPIcon icon="iconfont icon-github" />`huggingface/pytorch_block_sparse`)](https://github.com/huggingface/pytorch_block_sparse/blob/master/doc/notebooks/ModelSparsification.ipynb). Such a model can then be trained as usual, without any change in your model source code.
+The extension also provides a `BlockSparseModelPatcher` that allows to modify an existing model "on the fly", which is shown in this [example notebook (<VPIcon icon="iconfont icon-github"/>`huggingface/pytorch_block_sparse`)](https://github.com/huggingface/pytorch_block_sparse/blob/master/doc/notebooks/ModelSparsification.ipynb). Such a model can then be trained as usual, without any change in your model source code.
 
 ---
 
 ## NVIDIA CUTLASS
 
-This extension is based on the [cutlass tilesparse (<VPIcon icon="iconfont icon-github" />`YulhwaKim/cutlass_tilesparse`)](https://github.com/YulhwaKim/cutlass_tilesparse) proof of concept by [Yulhwa Kim (<VPIcon icon="iconfont icon-github"/>`YulhwaKim`)](https://github.com/YulhwaKim).
+This extension is based on the [cutlass tilesparse (<VPIcon icon="iconfont icon-github"/>`YulhwaKim/cutlass_tilesparse`)](https://github.com/YulhwaKim/cutlass_tilesparse) proof of concept by [Yulhwa Kim (<VPIcon icon="iconfont icon-github"/>`YulhwaKim`)](https://github.com/YulhwaKim).
 
 It is using **C++ CUDA templates** for block-sparse matrix multiplication based on [<VPIcon icon="iconfont icon-nvidia"/>`CUTLASS`](https://developer.nvidia.com/blog/cutlass-linear-algebra-cuda/).
 

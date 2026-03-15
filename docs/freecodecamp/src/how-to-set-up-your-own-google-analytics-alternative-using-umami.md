@@ -150,7 +150,7 @@ Replace `connection-url` with your actual database connection string. Here are t
 postgresql://username:password@localhost:5432/umami
 ```
 
-@tab <VPIcon icon="fa-brands fa-mysql"/>
+@tab <VPIcon icon="iconfont icon-mysql"/>
 
 ```sh
 mysql://username:password@localhost:3306/umami

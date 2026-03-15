@@ -15,6 +15,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "scaling-signalr-with-redis-backplane", // 2026-03-21
+    "optimizing-bulk-database-updates-in-dotnet", // 2026-03-14
     "5-architecture-tests-you-should-add-to-your-dotnet-projects", // 2026-03-07
     "how-to-implement-two-factor-authentication-in-aspnetcorehow-to-implement-two-factor-authentication-in-aspnetcore", // 2026-02-28
     "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
@@ -397,6 +399,8 @@ export const template: SidebarInfoTemplate = {
       "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
       "how-to-implement-two-factor-authentication-in-aspnetcorehow-to-implement-two-factor-authentication-in-aspnetcore", // 2026-02-28
       "5-architecture-tests-you-should-add-to-your-dotnet-projects", // 2026-03-07
+      "optimizing-bulk-database-updates-in-dotne", // 2026-03-14
+      "scaling-signalr-with-redis-backplane", // 2026-03-21
       // END: 2026cs
       // END: cs
     ]],[
@@ -540,6 +544,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025system-design
       "solving-message-ordering-from-first-principles", // 2026-01-10
       "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
+      "scaling-signalr-with-redis-backplane", // 2026-03-21
       // END: 2026system-design
       // END: system-design
     ]],[

@@ -79,7 +79,7 @@ So why, exactly, does our CSS abuse classes so mercilessly, and why do we litter
 
 ## Building better objects
 
-A long time ago, as we emerged from the early days of CSS and began building increasingly larger sites and systems, we struggled to develop some sound conventions to wrangle our ever-growing CSS files. Out of that mess came [object-oriented CSS (<VPIcon icon="iconfont icon-github" />`stubbornella/oocss`)](https://github.com/stubbornella/oocss/wiki).
+A long time ago, as we emerged from the early days of CSS and began building increasingly larger sites and systems, we struggled to develop some sound conventions to wrangle our ever-growing CSS files. Out of that mess came [object-oriented CSS (<VPIcon icon="iconfont icon-github"/>`stubbornella/oocss`)](https://github.com/stubbornella/oocss/wiki).
 
 Our systems for safely building complex, reusable components created a metastasizing classitis problem—to the point where our markup today is too often written in the service of our CSS, instead of the other way around. If we try to write semantic, accessible markup, we’re still forced to tack on author-defined meanings to satisfy our CSS. Both our markup and our CSS reflect a time when we could only define objects with what we had: `div`s and classes. When in doubt, add more of both. It was safer, especially for older browsers, so we oriented around the most generic objects we could find.
 

@@ -6,7 +6,9 @@ const Y2026: SidebarYeargroupTemplate = {
   children: [
     // END: 2026
     "mooving-to-a-self-hosted-bluesky-pds", // 2026-03-03
+    "visually-hidden", // 2026-02-21
     "declarative-dialog-menu-invoker-commands", // 2026-02-13
+    "mozilla-slopaganda", // 2026-01-29
     "death-to-scroll-fade", // 2026-01-10
   ]
 }
@@ -16,6 +18,8 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "trillion-dollar-elephants", // 2025-09-08
+    "baseless", // 2025-06-01
   ],
 }
 
@@ -32,6 +36,7 @@ const Y2023: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2023
+    "css-off-canvas-responsive-navigation-revisited", // 2023-10-06
   ],
 }
 
@@ -48,6 +53,10 @@ const Y2021: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2021
+    "new-component-library-for-parts-giant", // 2021-07-01
+    "css-off-canvas-responsive-navigation", // 2021-06-17
+    "accessibility-css-focus-state", // 2021-05-01
+    "changing-css-for-good-logical-properties-and-values", // 2021-02-02
   ],
 }
 
@@ -88,6 +97,7 @@ const Y2016: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2016
+    "css-framework-for-partsgiant", // 2016-01-04
   ],
 }
 
@@ -170,6 +180,27 @@ export const template: SidebarInfoTemplate = {
     [
     "sh", [
     ]], [
+    "js", [
+      // END: 2010js
+      // END: 2011js
+      // END: 2012js
+      // END: 2013js
+      // END: 2014js
+      // END: 2015js
+      // END: 2016js
+      // END: 2017js
+      // END: 2018js
+      // END: 2019js
+      // END: 2020js
+      "new-component-library-for-parts-giant", // 2021-07-01
+      // END: 2021js
+      // END: 2022js
+      // END: 2023js
+      // END: 2024js
+      // END: 2025js
+      // END: 2026js
+      // END: js
+    ]], [
     "css", [
       // END: 2010css
       // END: 2011css
@@ -177,18 +208,27 @@ export const template: SidebarInfoTemplate = {
       // END: 2013css
       // END: 2014css
       // END: 2015css
+      "css-framework-for-partsgiant", // 2016-01-04
       // END: 2016css
       // END: 2017css
       // END: 2018css
       // END: 2019css
       // END: 2020css
+      "changing-css-for-good-logical-properties-and-values", // 2021-02-02
+      "accessibility-css-focus-state", // 2021-05-01
+      "css-off-canvas-responsive-navigation", // 2021-06-17
       // END: 2021css
       // END: 2022css
+      "css-off-canvas-responsive-navigation-revisited", // 2023-10-06
       // END: 2023css
       // END: 2024css
+      "baseless", // 2025-06-01
+      "trillion-dollar-elephants", // 2025-09-08
       // END: 2025css
       "death-to-scroll-fade", // 2026-01-10
+      "mozilla-slopaganda", // 2026-01-29
       "declarative-dialog-menu-invoker-commands", // 2026-02-13
+      "visually-hidden", // 2026-02-21
       // END: 2026css
       // END: css
     ]], [

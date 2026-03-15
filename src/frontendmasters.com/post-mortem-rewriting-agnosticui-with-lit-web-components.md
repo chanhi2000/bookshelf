@@ -224,7 +224,7 @@ The shadow DOM a11y trade-offs were covered above. But there’s an additional, 
 
 The line [<VPIcon icon="fa-brands fa-firefox"/>`static formAssociated = true`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/attachInternals) sounds like a declaration of intent, but it’s just an opt-in signal to the browser. The actual work requires [<VPIcon icon="fa-brands fa-firefox"/>`attachInternals()`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/attachInternals), and then you’re on the hook for reimplementing behaviors the browser gives native inputs for free: `required`, `disabled`, validation state, form reset, value submission.
 
-[`AgInput`](https://agnosticui.com/components/input.html) doesn’t fully implement this yet. Open ticket: [Issue #274 (<VPIcon icon="iconfont icon-github" />`AgnosticUI/agnosticui#274`)](https://github.com/AgnosticUI/agnosticui/issues/274), captured and ready to tackle. Once resolved, the `Experimental` badges can finally come down.
+[`AgInput`](https://agnosticui.com/components/input.html) doesn’t fully implement this yet. Open ticket: [Issue #274 (<VPIcon icon="iconfont icon-github"/>`AgnosticUI/agnosticui#274`)](https://github.com/AgnosticUI/agnosticui/issues/274), captured and ready to tackle. Once resolved, the `Experimental` badges can finally come down.
 
 ---
 

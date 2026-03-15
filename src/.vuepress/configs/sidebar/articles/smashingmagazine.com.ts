@@ -24,6 +24,7 @@ const Y2024: SidebarYeargroupTemplate = {
   children: [
     // END: 2024
     "introduction-css-scroll-driven-animations", // 2024-12-11
+    "time-to-talk-about-css5", // 2024-08-05
     "css-tips-and-techniques", // 2024-06-07
     "scaling-success-key-insights-pratical-takeaways", // 2024-06-04
     "in-praise-of-the-basics", // 2024-05-30  
@@ -416,6 +417,7 @@ export const template: SidebarInfoTemplate = {
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       "popular-devtools-tips", // 2023-06-27
       "gradients-blend-modes-hover-effect", // 2023-09-11
+      "revealing-images-css-mask-animations", // 2023-09-15
       "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
       // END: 2023css
       "css-border-image-property", // 2024-01-16
@@ -428,7 +430,7 @@ export const template: SidebarInfoTemplate = {
       "switching-it-up-html-latest-control", // 2024-05-24
       "in-praise-of-the-basics", // 2024-05-30
       "css-tips-and-techniques", // 2024-06-07
-      "revealing-images-css-mask-animations", // 2023-09-15
+      "time-to-talk-about-css5", // 2024-08-05
       "modern-guide-making-css-shapes", // 2024-10-07
       "introduction-css-scroll-driven-animations", // 2024-12-11
       // END: 2024css

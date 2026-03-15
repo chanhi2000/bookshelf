@@ -1256,7 +1256,7 @@ Here are some key takeaways:
 
 The expand-contract pattern requires more work upfront, but this investment pays dividends in reduced risk and maintained uptime. With the strategies and complete implementation provided here, you can successfully deploy even complex, stateful applications with confidence.
 
-As always, I hope you enjoyed this guide and learned something. If you want to stay connected or see more hands-on DevOps content, you can follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor).
+As always, I hope you enjoyed this guide and learned something. If you want to stay connected or see more hands-on DevOps content, you can follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor).
 
 ::: info
 

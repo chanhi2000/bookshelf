@@ -312,7 +312,7 @@ A single design system component can't be 'accessible' in isolation, but thinkin
 
 ::: info
 
-Big thanks to [Maryia Radchuk (<VPIcon icon="fa-brands fa-linkedin" />`mariya-radchuk`)](https://linkedin.com/in/mariya-radchuk/), Senior Web UI Engineer at Just Eat Takeaway.com, for feedback on this article.
+Big thanks to [Maryia Radchuk (<VPIcon icon="fa-brands fa-linkedin"/>`mariya-radchuk`)](https://linkedin.com/in/mariya-radchuk/), Senior Web UI Engineer at Just Eat Takeaway.com, for feedback on this article.
 
 :::
 

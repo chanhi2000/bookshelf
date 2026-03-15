@@ -92,7 +92,7 @@ To compile your CSS files into one using [<VPIcon icon="iconfont icon-postcss"/>
 
 #### Step 1: Install PostCSS and Required Plugins
 
-First, ensure you have PostCSS installed, along with the [<VPIcon icon="iconfont icon-github" />`postcss/postcss-import`](https://github.com/postcss/postcss-import) plugin:
+First, ensure you have PostCSS installed, along with the [<VPIcon icon="iconfont icon-github"/>`postcss/postcss-import`](https://github.com/postcss/postcss-import) plugin:
 
 ```sh
 npm install --save-dev postcss postcss-import

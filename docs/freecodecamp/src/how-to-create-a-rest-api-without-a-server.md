@@ -306,7 +306,7 @@ npm run build
 
 the `dev` mode will not work with the service worker – you need to build the project.
 
-The instructions setting up a Service Worker with Vite were based on [this article (<VPIcon icon="fa-brands fa-dev" />`reeshee`)](https://dev.to/reeshee/how-to-bundle-your-custom-service-worker-in-vite-without-using-pwa-4nk).
+The instructions setting up a Service Worker with Vite were based on [this article (<VPIcon icon="fa-brands fa-dev"/>`reeshee`)](https://dev.to/reeshee/how-to-bundle-your-custom-service-worker-in-vite-without-using-pwa-4nk).
 
 <SiteInfo
   name="How to bundle your custom service worker in Vite? (without using PWA)"
@@ -669,7 +669,7 @@ The full source code is available on GitHub in the repository [jcubic/react-wayn
 
 :::
 
-If you like this article, you may want to follow me on Social Media: ([Twitter/X (<VPIcon icon="fa-brands fa-x-twitter" />`jcubic`)](https://x.com/jcubic) and/or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`jakubjankiewicz`)](https://linkedin.com/in/jakubjankiewicz/)) and you an also check my [<VPIcon icon="fas fa-globe"/>personal website](https://jakub.jankiewicz.org/).
+If you like this article, you may want to follow me on Social Media: ([Twitter/X (<VPIcon icon="fa-brands fa-x-twitter"/>`jcubic`)](https://x.com/jcubic) and/or [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`jakubjankiewicz`)](https://linkedin.com/in/jakubjankiewicz/)) and you an also check my [<VPIcon icon="fas fa-globe"/>personal website](https://jakub.jankiewicz.org/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

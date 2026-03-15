@@ -937,7 +937,7 @@ Then layer in:
 
 That’s how you ship a voice agent architecture you can operate. You now have a vendor-neutral reference architecture you can adapt to your stack, with clear trust boundaries, safe tool execution, and operational visibility.
 
-If you’re shipping real-time AI systems, what’s been your biggest production bottleneck so far: **latency, reliability, or tool safety**? I’d love to hear what you’re seeing in the wild. Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`natarajsundar`)](https://linkedin.com/in/natarajsundar/).
+If you’re shipping real-time AI systems, what’s been your biggest production bottleneck so far: **latency, reliability, or tool safety**? I’d love to hear what you’re seeing in the wild. Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`natarajsundar`)](https://linkedin.com/in/natarajsundar/).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -81,7 +81,7 @@ Plan about 90 minutes for the full path. Or jump directly to any simulation if y
 
 You need basic familiarity with Docker and comfort with the command line, but no prior Kubernetes experience is required.
 
-**Hardware:** 8GB RAM minimum, 16GB recommended. The lab can run on Mac, Linux, or Windows with WSL2. You'll need to install three tools. Multipass spins up Ubuntu VMs for the cluster. kubectl is the Kubernetes CLI you will use for every simulation. Git clones the repo. If you cannot run three VMs, the repo includes a Docker Compose preview at [<VPIcon icon="fas fa-folder-open"/>`setup/`<VPIcon icon="fa-brands fa-markdown"/>`docker-compose-preview.md` (<VPIcon icon="iconfont icon-github" />`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/setup/docker-compose-preview.md) full UI with mock data, no real cluster needed.
+**Hardware:** 8GB RAM minimum, 16GB recommended. The lab can run on Mac, Linux, or Windows with WSL2. You'll need to install three tools. Multipass spins up Ubuntu VMs for the cluster. kubectl is the Kubernetes CLI you will use for every simulation. Git clones the repo. If you cannot run three VMs, the repo includes a Docker Compose preview at [<VPIcon icon="fas fa-folder-open"/>`setup/`<VPIcon icon="fa-brands fa-markdown"/>`docker-compose-preview.md` (<VPIcon icon="iconfont icon-github"/>`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/setup/docker-compose-preview.md) full UI with mock data, no real cluster needed.
 
 :::
 
@@ -89,7 +89,7 @@ You need basic familiarity with Docker and comfort with the command line, but no
 
 ## How to Get the Lab Running
 
-Full cluster setup lives at [<VPIcon icon="fas fa-folder-open"/>`setup/`<VPIcon icon="fa-brands fa-markdown"/>`k8s-cluster-setup.md` (<VPIcon icon="iconfont icon-github" />`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/setup/k8s-cluster-setup.md) in the repo. It walks through creating three VMs with Multipass, installing MicroK8s, joining the worker nodes, and deploying KubeLab. Follow it until all eleven pods show Running:
+Full cluster setup lives at [<VPIcon icon="fas fa-folder-open"/>`setup/`<VPIcon icon="fa-brands fa-markdown"/>`k8s-cluster-setup.md` (<VPIcon icon="iconfont icon-github"/>`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/setup/k8s-cluster-setup.md) in the repo. It walks through creating three VMs with Multipass, installing MicroK8s, joining the worker nodes, and deploying KubeLab. Follow it until all eleven pods show Running:
 
 ```sh
 kubectl get pods -n kubelab
@@ -476,7 +476,7 @@ Run these against your own cluster. Not just KubeLab. These are production queri
 
 ## 6. How to Use This for Production Debugging
 
-The repo includes [<VPIcon icon="fas fa-folder-open"/>`docs/`<VPIcon icon="fa-brands fa-markdown"/>`diagnose.md` (<VPIcon icon="iconfont icon-github" />`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/docs/diagnose.md), a symptom-to-simulation map. Find the simulation that reproduces your issue, run it in KubeLab, and understand the mechanics before you touch production.
+The repo includes [<VPIcon icon="fas fa-folder-open"/>`docs/`<VPIcon icon="fa-brands fa-markdown"/>`diagnose.md` (<VPIcon icon="iconfont icon-github"/>`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/docs/diagnose.md), a symptom-to-simulation map. Find the simulation that reproduces your issue, run it in KubeLab, and understand the mechanics before you touch production.
 
 #### Exit code 137, pods restarting
 
@@ -502,11 +502,11 @@ You just broke a real Kubernetes cluster seven ways and watched it fix itself ea
 
 What you practiced here applies to other clusters, staging or production you can read but not safely break. That muscle memory (events, endpoints, restart counter) is what you reach for at 3 am when something is wrong. KubeLab is the safe place to build that reflex.
 
-The repo holds more than this article covered. Explore mode lets you run simulations without the guided flow. The full interview prep doc at [<VPIcon icon="fas fa-folder-open"/>`docs/`<VPIcon icon="fa-brands fa-markdown"/>`interview-prep.md` (<VPIcon icon="iconfont icon-github" />`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/docs/interview-prep.md) has answers to the 13 most common Kubernetes interview questions. The observability guide at [<VPIcon icon="fas fa-folder-open"/>`docs/`<VPIcon icon="fa-brands fa-markdown"/>`observability.md` (<VPIcon icon="iconfont icon-github" />`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/docs/observability.md) covers Prometheus and Grafana setup in detail.
+The repo holds more than this article covered. Explore mode lets you run simulations without the guided flow. The full interview prep doc at [<VPIcon icon="fas fa-folder-open"/>`docs/`<VPIcon icon="fa-brands fa-markdown"/>`interview-prep.md` (<VPIcon icon="iconfont icon-github"/>`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/docs/interview-prep.md) has answers to the 13 most common Kubernetes interview questions. The observability guide at [<VPIcon icon="fas fa-folder-open"/>`docs/`<VPIcon icon="fa-brands fa-markdown"/>`observability.md` (<VPIcon icon="iconfont icon-github"/>`Osomudeya/kubelab`)](https://github.com/Osomudeya/kubelab/blob/main/docs/observability.md) covers Prometheus and Grafana setup in detail.
 
 ::: info
 
-If this helped you, star the repo at [<VPIcon icon="iconfont icon-github" />`Osomudeya/kubelab`](https://github.com/Osomudeya/kubelab) and share it with someone who is learning Kubernetes the hard way.
+If this helped you, star the repo at [<VPIcon icon="iconfont icon-github"/>`Osomudeya/kubelab`](https://github.com/Osomudeya/kubelab) and share it with someone who is learning Kubernetes the hard way.
 
 :::
 

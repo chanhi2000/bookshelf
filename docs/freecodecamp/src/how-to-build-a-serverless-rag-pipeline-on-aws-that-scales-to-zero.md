@@ -74,7 +74,7 @@ But it doesn't have to work that way. In this tutorial, you'll deploy a fully se
 
 Everything runs in your AWS account, your data never leaves your infrastructure, and your ongoing monthly cost for a modest knowledge base will be closer to `2-3 USD` than `300 USD`.
 
-We'll use [RAGStack-Lambda (<VPIcon icon="iconfont icon-github" />`HatmanStack/RAGStack-Lambda`)](https://github.com/HatmanStack/RAGStack-Lambda), an open-source project I built on AWS. By the end, you'll have a deployed pipeline with a dashboard, an AI chat interface with source citations, a drop-in web component you can embed in any app, and an MCP server you can use to feed your assistant context.
+We'll use [RAGStack-Lambda (<VPIcon icon="iconfont icon-github"/>`HatmanStack/RAGStack-Lambda`)](https://github.com/HatmanStack/RAGStack-Lambda), an open-source project I built on AWS. By the end, you'll have a deployed pipeline with a dashboard, an AI chat interface with source citations, a drop-in web component you can embed in any app, and an MCP server you can use to feed your assistant context.
 
 ---
 
@@ -156,7 +156,7 @@ If you're uploading video or audio, AWS Transcribe adds cost for speech-to-text 
 
 By the end of this tutorial, you'll have a deployed pipeline that does the following:
 
-1. You upload a document (PDF, image, video, audio, HTML, CSV, [the full list (<VPIcon icon="iconfont icon-github" />`HatmanStack/RAGStack-Lambda`)](https://github.com/HatmanStack/RAGStack-Lambda/blob/main/docs/ARCHITECTURE.md) is extensive) through a web dashboard.
+1. You upload a document (PDF, image, video, audio, HTML, CSV, [the full list (<VPIcon icon="iconfont icon-github"/>`HatmanStack/RAGStack-Lambda`)](https://github.com/HatmanStack/RAGStack-Lambda/blob/main/docs/ARCHITECTURE.md) is extensive) through a web dashboard.
 2. The pipeline detects the file type and routes it to the right processor. Scanned PDFs go through OCR via Textract. Video and audio go through Transcribe for speech-to-text, split into 30-second searchable chunks with speaker identification. Images get visual embeddings and any caption text you provide.
 3. An LLM analyzes each document and extracts structured metadata, topic, document type, date range, people mentioned, whatever's relevant. This happens automatically.
 4. Everything gets embedded using Amazon Nova Multimodal Embeddings and stored in a Bedrock Knowledge Base backed by S3 Vectors.
@@ -395,7 +395,7 @@ Then add it to your AI assistant's MCP configuration:
 
 Your endpoint and API key are in the dashboard under Settings. Once configured, type `@ragstack` in your assistant's chat to invoke the MCP server, then ask things like "search my knowledge base for authentication docs" and it queries RAGStack directly.
 
-See the [MCP Server docs (<VPIcon icon="iconfont icon-github" />`HatmanStack/RAGStack-Lambda`)](https://github.com/HatmanStack/RAGStack-Lambda/blob/main/src/ragstack-mcp/README.md) for the full list of available tools and setup details.
+See the [MCP Server docs (<VPIcon icon="iconfont icon-github"/>`HatmanStack/RAGStack-Lambda`)](https://github.com/HatmanStack/RAGStack-Lambda/blob/main/src/ragstack-mcp/README.md) for the full list of available tools and setup details.
 
 ---
 
@@ -405,7 +405,7 @@ You've got a deployed RAG pipeline that costs almost nothing to run and handles 
 
 **A searchable personal archive.** Every conference talk you've saved, every PDF textbook, every tutorial video that's sitting in a folder somewhere. Upload it all, and now you have one search interface across years of accumulated material. The multimodal embeddings mean your screenshots and diagrams are searchable too, not just the text.
 
-I built [a family archive app (<VPIcon icon="iconfont icon-github" />`HatmanStack/family-archive-document-ai`)](https://github.com/HatmanStack/family-archive-document-ai) this way, scanned letters, old photos, home videos, with RAGStack deployed as a nested CloudFormation stack so the whole family can search across decades of memories using the chat widget.
+I built [a family archive app (<VPIcon icon="iconfont icon-github"/>`HatmanStack/family-archive-document-ai`)](https://github.com/HatmanStack/family-archive-document-ai) this way, scanned letters, old photos, home videos, with RAGStack deployed as a nested CloudFormation stack so the whole family can search across decades of memories using the chat widget.
 
 **A second brain for a client project.** Scrape the client's existing docs, upload the SOW and meeting notes, drop in the codebase documentation. Now you've got a searchable knowledge base scoped to that engagement. Spin it up at the start, tear it down when the contract ends. At these costs, it's disposable infrastructure.
 
@@ -419,7 +419,7 @@ I built [a family archive app (<VPIcon icon="iconfont icon-github" />`HatmanStac
 
 The serverless RAG pipeline you just deployed handles document processing, multimodal embeddings, metadata extraction, and AI chat with source citations, all scaling to zero when idle, all running in your AWS account. Your documents, your vectors, your infrastructure. The traditional approach to this stack costs `120-500 USD`/month in baseline infrastructure. This one costs pocket change.
 
-The full source is at [github.com/HatmanStack/RAGStack-Lambda (<VPIcon icon="iconfont icon-github" />`HatmanStack/RAGStack-Lambda`)](https://github.com/HatmanStack/RAGStack-Lambda). File issues, open PRs, or just poke around the architecture. If you want to go deeper on the technical tradeoffs, particularly how filtered vector search behaves on cost-optimized backends like S3 Vectors, that's a story for the next post.
+The full source is at [github.com/HatmanStack/RAGStack-Lambda (<VPIcon icon="iconfont icon-github"/>`HatmanStack/RAGStack-Lambda`)](https://github.com/HatmanStack/RAGStack-Lambda). File issues, open PRs, or just poke around the architecture. If you want to go deeper on the technical tradeoffs, particularly how filtered vector search behaves on cost-optimized backends like S3 Vectors, that's a story for the next post.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -526,7 +526,7 @@ OneOf brings the power of discriminated unions to C#, enabling more expressive a
 
 Start incorporating OneOf into your projects, and you'll find your code becomes more intentional, easier to maintain, and less error-prone.
 
-As always, if you’ve enjoyed reading this article feel free to [reach out on Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`grantdotdev`)](https://x.com/grantdotdev).
+As always, if you’ve enjoyed reading this article feel free to [reach out on Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`grantdotdev`)](https://x.com/grantdotdev).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

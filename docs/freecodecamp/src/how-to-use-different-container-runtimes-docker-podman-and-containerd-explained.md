@@ -1035,7 +1035,7 @@ Use Docker when you're learning or need the best documentation. Use Podman when 
 
 Thanks to OCI standards, your containers are portable. Build with Docker, test with Podman, deploy with containerd – it all works together! You're not locked into one vendor or tool.
 
-As always, I hope you enjoyed this guide and learned something. If you want to stay connected or see more hands-on DevOps content, you can follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor) and [DevOps Cloud Projects (<VPIcon icon="iconfont icon-github" />`Caesarsage/DevOps-Cloud-Projects`)](https://github.com/Caesarsage/DevOps-Cloud-Projects)
+As always, I hope you enjoyed this guide and learned something. If you want to stay connected or see more hands-on DevOps content, you can follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor) and [DevOps Cloud Projects (<VPIcon icon="iconfont icon-github"/>`Caesarsage/DevOps-Cloud-Projects`)](https://github.com/Caesarsage/DevOps-Cloud-Projects)
 
 Happy containerizing!
 

@@ -1299,7 +1299,7 @@ If you want to explore the full project or build on top of it, you can find ever
 
 :::
 
-If you have questions, reach me on X at [`@sprucekhalifa` (<VPIcon icon="fa-brands fa-x-twitter" />`sprucekhalifa`)](https://x.com/sprucekhalifa). I write practical tech articles like this regularly.
+If you have questions, reach me on X at [`@sprucekhalifa` (<VPIcon icon="fa-brands fa-x-twitter"/>`sprucekhalifa`)](https://x.com/sprucekhalifa). I write practical tech articles like this regularly.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

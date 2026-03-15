@@ -197,7 +197,7 @@ for (const $button of document.querySelectorAll('[commandfor="menu"]')) {
 }
 ```
 
-Keith Cirkel has a [more extensive polyfill (<VPIcon icon="iconfont icon-github" />`keithamus/invokers-polyfill`)](https://github.com/keithamus/invokers-polyfill/) if you need full API coverage like JavaScript events. My basic version overrides the declarative API with the JavaScript API for one specific use case, and the behaviour remains the same.
+Keith Cirkel has a [more extensive polyfill (<VPIcon icon="iconfont icon-github"/>`keithamus/invokers-polyfill`)](https://github.com/keithamus/invokers-polyfill/) if you need full API coverage like JavaScript events. My basic version overrides the declarative API with the JavaScript API for one specific use case, and the behaviour remains the same.
 
 ### WebKit focus, visible?
 

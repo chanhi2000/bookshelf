@@ -155,7 +155,7 @@ At the root of your project folder, create the <VPIcon icon="fas fa-folder-open"
 
 In the file, write this:
 
-```yaml :collapsed-lines title=".github/workflow/vercel_deploy.yml"
+```yaml :collapsed-lines title=".github/workflows/vercel_deploy.yml"
 name: Vercel Production Deployment
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
@@ -194,7 +194,7 @@ This is the workflow file for my [<VPIcon icon="iconfont icon-github"/>`chidiadi
 
 First, we have the environment variables:
 
-```yaml title=".github/workflow/vercel_deploy.yml"
+```yaml title=".github/workflows/vercel_deploy.yml"
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
@@ -203,7 +203,7 @@ env:
 
 Then we have the trigger. This triggers when I push to the main branch, affecting files in the `01-simple-blog` subdirectory.
 
-```yaml title=".github/workflow/vercel_deploy.yml"
+```yaml title=".github/workflows/vercel_deploy.yml"
 # Previous code
 on:
   push:
@@ -216,7 +216,7 @@ on:
 
 Then we have the job definition. Here, I defined a job “Deploy-Production” that runs on Ubuntu. By default, all commands there will run in the `01-simple-blog` directory, which is equivalent to running `cd 01-simple-blog` from the root before running commands on the shell. I did this because the Next.js project is in that directory, where the <VPIcon icon="iconfont icon-json"/>`package.json` is located.
 
-```yaml title=".github/workflow/vercel_deploy.yml"
+```yaml title=".github/workflows/vercel_deploy.yml"
 # Previous code
 jobs:
   Deploy-Production:
@@ -229,7 +229,7 @@ jobs:
 
 Then the steps involved:
 
-```yaml title=".github/workflow/vercel_deploy.yml"
+```yaml title=".github/workflows/vercel_deploy.yml"
 # Previous code
  steps:
       - uses: actions/checkout@v2

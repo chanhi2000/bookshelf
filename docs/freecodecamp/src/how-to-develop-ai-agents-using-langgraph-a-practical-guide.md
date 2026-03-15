@@ -71,7 +71,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771461883355/00e4ae2
 
 AI agents are all the rage these days. They’re like traditional chatbots, but they have the ability to utilize a plethora of tools in the background. They can also decide which tool to use and when to use it to answer your questions.
 
-In this tutorial, I’ll show you how to build this type of agent using `LangGraph`. We’ll dig into real code from my personal project [FinanceGPT (<VPIcon icon="iconfont icon-github" />`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT), an open-source financial assistant I created to help me with my finances.
+In this tutorial, I’ll show you how to build this type of agent using `LangGraph`. We’ll dig into real code from my personal project [FinanceGPT (<VPIcon icon="iconfont icon-github"/>`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT), an open-source financial assistant I created to help me with my finances.
 
 You’ll walk away understanding how AI agents actually work under the hood, and you’ll be able to build your own agent for whatever domain you are working on.
 
@@ -748,9 +748,9 @@ These helped me learn LangGraph:
 
 ::: info Check Out FinanceGPT
 
-All the code examples here came from [FinanceGPT (<VPIcon icon="iconfont icon-github" />`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT). If you want to see these patterns in a complete app, poke around the repo. It's got document processing, portfolio tracking, tax optimization – all built with LangGraph.
+All the code examples here came from [FinanceGPT (<VPIcon icon="iconfont icon-github"/>`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT). If you want to see these patterns in a complete app, poke around the repo. It's got document processing, portfolio tracking, tax optimization – all built with LangGraph.
 
-If you find this helpful, [give the project a star on GitHub (<VPIcon icon="iconfont icon-github" />`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT) – it helps other developers discover it.
+If you find this helpful, [give the project a star on GitHub (<VPIcon icon="iconfont icon-github"/>`manojag115/FinanceGPT`)](https://github.com/manojag115/FinanceGPT) – it helps other developers discover it.
 
 :::
 

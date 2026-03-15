@@ -289,7 +289,7 @@ I think what we did earlier (setting `aria-expanded`, `aria-controls`, and `focu
 
 ## The Dialog API might become much easier to use in the future
 
-A proposal about [**invoker commands**](/css-tricks.com/invoker-commands-additional-ways-to-work-with-dialog-popover-and-more.md) has been [created (<VPIcon icon="iconfont icon-github" />`whatwg/html`)](https://github.com/whatwg/html/issues/9625) so that the Dialog API can include `popovertarget` like the Popover API.
+A proposal about [**invoker commands**](/css-tricks.com/invoker-commands-additional-ways-to-work-with-dialog-popover-and-more.md) has been [created (<VPIcon icon="iconfont icon-github"/>`whatwg/html`)](https://github.com/whatwg/html/issues/9625) so that the Dialog API can include `popovertarget` like the Popover API.
 
 This is on the way, so we might be able to make modals even simpler with the Dialog API in the future. In the meantime, we gotta do the necessary work to patch accessibility stuff.
 

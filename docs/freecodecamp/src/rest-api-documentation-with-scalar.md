@@ -78,7 +78,7 @@ A REST API documentation is a guide that explains how clients can make use of th
 
 Without API documentation, application development is considered incomplete because developers cannot build software to interact with it, rendering the application effectively useless.
 
-In this article, you will learn how to create beautiful REST API documentation that also allows you to test the APIs for free using an OpenAPI specification and Scalar in Node.js projects. You will use [asteasolutions/zod-to-openapi (<VPIcon icon="iconfont icon-github" />`asteasolutions/zod-to-openapi`)](https://github.com/asteasolutions/zod-to-openapi) to generate OpenAPI specification and use Scalar to create a web page from the specification.
+In this article, you will learn how to create beautiful REST API documentation that also allows you to test the APIs for free using an OpenAPI specification and Scalar in Node.js projects. You will use [asteasolutions/zod-to-openapi (<VPIcon icon="iconfont icon-github"/>`asteasolutions/zod-to-openapi`)](https://github.com/asteasolutions/zod-to-openapi) to generate OpenAPI specification and use Scalar to create a web page from the specification.
 
 To get the most out of this article, you should have experience developing REST APIs with Express or NestJS. You should also have experience with documenting REST APIs and using [<VPIcon icon="iconfont icon-zod"/>zod](https://zod.dev/).
 
@@ -118,7 +118,7 @@ Redoc’s major drawback is that its free community edition is presentation-only
 
 ## zod-to-openapi and Scalar for REST API Documentation
 
-[asteasolutions/zod-to-openapi (<VPIcon icon="iconfont icon-github" />`asteasolutions/zod-to-openapi`)](https://github.com/asteasolutions/zod-to-openapi) is a TypeScript library that generates OpenAPI specification from [<VPIcon icon="iconfont icon-zod"/>zod](https://zod.dev/) schemas. It provides typed methods which serve as guardrails for documenting API components instead of using code comments so that:
+[asteasolutions/zod-to-openapi (<VPIcon icon="iconfont icon-github"/>`asteasolutions/zod-to-openapi`)](https://github.com/asteasolutions/zod-to-openapi) is a TypeScript library that generates OpenAPI specification from [<VPIcon icon="iconfont icon-zod"/>zod](https://zod.dev/) schemas. It provides typed methods which serve as guardrails for documenting API components instead of using code comments so that:
 
 - The library methods serve as guardrails for what to document and how to document it
 - The documentation is consistent across the codebase
@@ -231,7 +231,7 @@ You can embed images, include tables and format text in the documentation. You c
 
 ## How to Create the API Documentation
 
-In this section, you will create an Express CRUD API project that uses zod-to-openapi and Scalar to document its APIs. To practice along, clone the Express starter project from GitHub at [<VPIcon icon="iconfont icon-github" />`orimdominic/freeCodeCamp-zod-to-openapi-scalar`](https://github.com/orimdominic/freeCodeCamp-zod-to-openapi-scalar).
+In this section, you will create an Express CRUD API project that uses zod-to-openapi and Scalar to document its APIs. To practice along, clone the Express starter project from GitHub at [<VPIcon icon="iconfont icon-github"/>`orimdominic/freeCodeCamp-zod-to-openapi-scalar`](https://github.com/orimdominic/freeCodeCamp-zod-to-openapi-scalar).
 
 ### Set up the Project
 
@@ -263,7 +263,7 @@ The router configuration for each module is defined in the `router.ts` file, whi
 
 ### How to Set Up zod-to-openapi
 
-Install [asteasolutions/zod-to-openapi (<VPIcon icon="iconfont icon-github" />`asteasolutions/zod-to-openapi`)](https://github.com/asteasolutions/zod-to-openapi) using your preferred Node.js package manager. If you use npm, run the code snippet below in your terminal:
+Install [asteasolutions/zod-to-openapi (<VPIcon icon="iconfont icon-github"/>`asteasolutions/zod-to-openapi`)](https://github.com/asteasolutions/zod-to-openapi) using your preferred Node.js package manager. If you use npm, run the code snippet below in your terminal:
 
 ```sh
 npm i @asteasolutions/zod-to-openapi
@@ -582,7 +582,7 @@ You have learned about zod-to-openapi and how it makes it easier for you to gene
 
 ::: info
 
-Feel free to [connect with me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`orimdominicadah`)](https://linkedin.com/in/orimdominicadah/) for questions or clarifications. Thank you for reading this far and I hope this helps you achieve what you intended to achieve. Don’t hesitate to share this article if you feel that it would help someone else out there. Cheers!
+Feel free to [connect with me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`orimdominicadah`)](https://linkedin.com/in/orimdominicadah/) for questions or clarifications. Thank you for reading this far and I hope this helps you achieve what you intended to achieve. Don’t hesitate to share this article if you feel that it would help someone else out there. Cheers!
 
 :::
 

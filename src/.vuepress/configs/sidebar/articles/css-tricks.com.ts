@@ -36,6 +36,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "javascript-for-everyone-destructuring", // 2026-03-20
+    "whats-important-7", // 2026-03-16
+    "4-reasons-that-make-tailwind-great-for-building-layouts", // 2026-03-16
     "abusing-customizable-selects", // 2026-03-11
     "the-value-of-z-index", // 2026-03-09
     "the-different-ways-to-select-html-in-css", // 2026-03-05
@@ -524,11 +527,13 @@ export const template: SidebarInfoTemplate = {
       "the-different-ways-to-select-html-in-css", // 2026-03-05
       "the-value-of-z-index", // 2026-03-09
       "abusing-customizable-selects", // 2026-03-11
+      "whats-important-7", // 2026-03-16
       // END: 2026css
       // END: css
     ]],[
     "css-tailwind",[
       "distinguishing-components-and-utilities-in-tailwind", // 2026-02-18
+      "4-reasons-that-make-tailwind-great-for-building-layouts", // 2026-03-16
       // END: 2026css-tailwind
       // END: css-tailwind
     ]],[
@@ -558,6 +563,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js
       "future-css-drag-and-maybe-dragged-image", // 2025-01-07
       "a-complete-guide-to-bookmarklets", // 2026-02-25
+      "javascript-for-everyone-destructuring", // 2026-03-20
       // END: 2026js
       // END: js
     ]],[

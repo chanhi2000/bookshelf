@@ -64,7 +64,7 @@ Here are 5 types of architecture tests I add to every .NET project.
 
 ## ArchUnitNET and the Test Setup
 
-[<VPIcon icon="iconfont icon-github" />`TNG/ArchUnitNET`](https://github.com/TNG/ArchUnitNET) is the .NET port of the Java [<VPIcon icon="fas fa-globe"/>ArchUnit](https://archunit.org/) library. It lets you write [**architecture rules**](/milanjovanovic.tech/enforcing-software-architecture-with-architecture-tests.md) using a fluent API and run them as regular xUnit tests.
+[<VPIcon icon="iconfont icon-github"/>`TNG/ArchUnitNET`](https://github.com/TNG/ArchUnitNET) is the .NET port of the Java [<VPIcon icon="fas fa-globe"/>ArchUnit](https://archunit.org/) library. It lets you write [**architecture rules**](/milanjovanovic.tech/enforcing-software-architecture-with-architecture-tests.md) using a fluent API and run them as regular xUnit tests.
 
 ```sh
 # there are other test frameworks supported, but I use xUnit

@@ -87,7 +87,7 @@ Looking for a tool that’ll automatically generate CSS code for really **smooth
 
 ![SmoothShadow Figma plugin by Philipp Brumm ([<VPIcon icon="fas fa-file-image"/>Large preview](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/29c59032-7213-4d9a-b5d4-6653c2d7c456/1-css-generators.png))](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/29c59032-7213-4d9a-b5d4-6653c2d7c456/1-css-generators.png)
 
-Once you’ve given it a try, it will be difficult to not use it. The little tool allows you to visually design a layered smooth box-shadow, but also tweak alpha, offset and blur with individual easing curves. And it gets even better: The creator of the tool, [Philipp Brumm (<VPIcon icon="fa-brands fa-x-twitter" />`funkensturm`)](https://x.com/funkensturm), has also released SmoothShadow as a [<VPIcon icon="fa-brands fa-figma"/>Figma plugin](https://figma.com/community/plugin/788830704169694737/SmoothShadow), so you can optimize your workflow just like you’ve always wanted to.
+Once you’ve given it a try, it will be difficult to not use it. The little tool allows you to visually design a layered smooth box-shadow, but also tweak alpha, offset and blur with individual easing curves. And it gets even better: The creator of the tool, [Philipp Brumm (<VPIcon icon="fa-brands fa-x-twitter"/>`funkensturm`)](https://x.com/funkensturm), has also released SmoothShadow as a [<VPIcon icon="fa-brands fa-figma"/>Figma plugin](https://figma.com/community/plugin/788830704169694737/SmoothShadow), so you can optimize your workflow just like you’ve always wanted to.
 
 ---
 

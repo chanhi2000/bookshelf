@@ -203,7 +203,7 @@ git stash show
 
 Git stash is one of those quiet tools that becomes indispensable once your workflow starts to get messy. It allows you to shelve unfinished ideas, switch context without panic, and keep your commits clean. With it, you can safely carry out urgent fixes, and juggle dependent features without muddling up your commit history.
 
-If you enjoyed this article, share it with others. You can also reach me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`chidiadi-anyanwu`)](https://linkedin.com/in/chidiadi-anyanwu) or [X. (<VPIcon icon="fa-brands fa-linkedin" />`chidiadi-anyanwu`)](https://linkedin.com/in/chidiadi-anyanwu)
+If you enjoyed this article, share it with others. You can also reach me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`chidiadi-anyanwu`)](https://linkedin.com/in/chidiadi-anyanwu) or [X. (<VPIcon icon="fa-brands fa-linkedin"/>`chidiadi-anyanwu`)](https://linkedin.com/in/chidiadi-anyanwu)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

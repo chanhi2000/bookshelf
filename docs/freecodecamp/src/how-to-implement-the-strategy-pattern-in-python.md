@@ -59,7 +59,7 @@ In this tutorial, you'll learn what the strategy pattern is, why it's useful, an
 
 ::: info
 
-You can get the code [on GitHub (<VPIcon icon="iconfont icon-github" />`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/strategy).
+You can get the code [on GitHub (<VPIcon icon="iconfont icon-github"/>`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/strategy).
 
 <SiteInfo
   name="python-basics/design-patterns/strategy at main · balapriyac/python-basics"

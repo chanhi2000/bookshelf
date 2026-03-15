@@ -171,7 +171,7 @@ I fear it may be too late.
 
 > ![Screen shot from a CodePen showing emoji used as CSS variable names.](https://adrianroselli.com/wp-content/uploads/2017/10/emoji_tweet_innovati.jpg)
 > 
-> You can use emojis in CSS Variables 😎 What emojis will you use? 🎨 🎚 🎛 📦 📏 📌 🆙 🔡 🔠 🔝 🔚 🔙 ☑️ 🔕 ⁉️ [https://codepen.io/… (<VPIcon icon="fa-brands fa-codepen" />`tomhodgins`)](https://codepen.io/tomhodgins/pen/ELWbvG) via [@CodePen (<VPIcon icon="fa-brands fa-x-twitter" />`CodePen?ref_src=twsrc%5Etfw`)](https://twitter.com/CodePen?ref_src=twsrc%5Etfw)
+> You can use emojis in CSS Variables 😎 What emojis will you use? 🎨 🎚 🎛 📦 📏 📌 🆙 🔡 🔠 🔝 🔚 🔙 ☑️ 🔕 ⁉️ [https://codepen.io/… (<VPIcon icon="fa-brands fa-codepen" />`tomhodgins`)](https://codepen.io/tomhodgins/pen/ELWbvG) via [@CodePen (<VPIcon icon="fa-brands fa-x-twitter"/>`CodePen?ref_src=twsrc%5Etfw`)](https://twitter.com/CodePen?ref_src=twsrc%5Etfw)
 > 
 > Redacted, May 1, 2018
 

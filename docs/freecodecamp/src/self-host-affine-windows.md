@@ -305,7 +305,7 @@ Self-hosting takes a little work, but the privacy is worth it.
 
 ::: info Let’s connect!
 
-You can find my latest work on my [<VPIcon icon="fas fa-globe"/>Technical Writing Portfolio](https://blog.abdultalha.tech/portfolio) or reach out to me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`abdul-talha`)](https://linkedin.com/in/abdul-talha/).
+You can find my latest work on my [<VPIcon icon="fas fa-globe"/>Technical Writing Portfolio](https://blog.abdultalha.tech/portfolio) or reach out to me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`abdul-talha`)](https://linkedin.com/in/abdul-talha/).
 
 :::
 

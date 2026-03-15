@@ -663,7 +663,7 @@ If the concepts of slicing and defining regions with `border-image` are still gi
 
 Complexities aside, I hope that you will add `border-image` to your toolbox and create a lot of magic with it. We can do even more with `border-image` than what was demonstrated here. I actually experiment with this sort of stuff frequently and share my work over at my [<VPIcon icon="iconfont icon-css-tip"/>CSS Tip website](https://css-tip.com/). Consider subscribing ([<VPIcon icon="iconfont icon-css-tip"/>RSS](https://css-tip.com/feed/feed.xml)) to keep up with the fun and weird things I try.
 
-Special thanks to [<VPIcon icon="fa-brands fa-x-twitter" />`SelenIT2`](https://x.com/SelenIT2), who pushed me to explore this property and [<VPIcon icon="fas fa-globe"/>wrote an excellent article on it](https://css-live.ru/tricks/border-image-gradients-sorcery.html).
+Special thanks to [<VPIcon icon="fa-brands fa-x-twitter"/>`SelenIT2`](https://x.com/SelenIT2), who pushed me to explore this property and [<VPIcon icon="fas fa-globe"/>wrote an excellent article on it](https://css-live.ru/tricks/border-image-gradients-sorcery.html).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

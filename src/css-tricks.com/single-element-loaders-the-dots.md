@@ -267,7 +267,7 @@ What about another movement for our dots?
 
 Here, all I did was update the animation to consider different positions, and we get another loader with the same code structure!
 
-The animation technique I used for the mask layers can also be used with background layers to create a lot of different loaders with a single color. [I wrote a detailed article about this. (<VPIcon icon="fa-brands fa-dev" />`afif`)](https://dev.to/afif/build-your-css-loader-with-only-one-div-the-dots-3882) You will see that from the same code structure we can create different variations by simply changing a few values. I am sharing a few examples at the end of the article.
+The animation technique I used for the mask layers can also be used with background layers to create a lot of different loaders with a single color. [I wrote a detailed article about this. (<VPIcon icon="fa-brands fa-dev"/>`afif`)](https://dev.to/afif/build-your-css-loader-with-only-one-div-the-dots-3882) You will see that from the same code structure we can create different variations by simply changing a few values. I am sharing a few examples at the end of the article.
 
 Why not a loader with one dot?
 

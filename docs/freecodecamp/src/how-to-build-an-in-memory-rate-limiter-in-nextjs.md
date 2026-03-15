@@ -402,7 +402,7 @@ In this article, you have learned about rate limiters, rate limiting algorithms,
 
 You also got a brief introduction to load testing with Artillery. Be sure to apply what you have learned in one of your Next.js projects when you need it.
 
-Feel free to [connect with me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`orimdominicadah`)](https://linkedin.com/in/orimdominicadah/) for questions or clarifications. Thank you for reading this far and I hope this helps you achieve what you intended to achieve. Don’t hesitate to share this article if you feel that it would help someone else out there. Cheers!
+Feel free to [connect with me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`orimdominicadah`)](https://linkedin.com/in/orimdominicadah/) for questions or clarifications. Thank you for reading this far and I hope this helps you achieve what you intended to achieve. Don’t hesitate to share this article if you feel that it would help someone else out there. Cheers!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

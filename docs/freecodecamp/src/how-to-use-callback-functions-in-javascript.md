@@ -248,7 +248,7 @@ Understanding these concepts will help you write more efficient and maintainable
 
 ::: info
 
-Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`samuel-oluwadamisi-01b3a4236`)](http://www.linkedin.com/in/samuel-oluwadamisi-01b3a4236) and [Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`Data_Steve_`)](https://twitter.com/Data_Steve_) if you found this helpful.
+Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`samuel-oluwadamisi-01b3a4236`)](http://www.linkedin.com/in/samuel-oluwadamisi-01b3a4236) and [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`Data_Steve_`)](https://twitter.com/Data_Steve_) if you found this helpful.
 
 :::
 

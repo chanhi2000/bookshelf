@@ -159,7 +159,7 @@ document.body.appendChild(script);
 
 ### Markup-Based Async Loader
 
-Another cool hack is to use the `onload` handler in order to create some sort of a markup-based async loader. [Scott Jehl (<VPIcon icon="fa-brands fa-x-twitter" />`scottjehl`)](https://twitter.com/scottjehl) was the first to [experiment (<VPIcon icon="iconfont icon-github"/>`filamentgroup/loadCSS`)](https://github.com/filamentgroup/loadCSS/issues/59) with that, as part of his loadCSS library. In short, you can do something like:
+Another cool hack is to use the `onload` handler in order to create some sort of a markup-based async loader. [Scott Jehl (<VPIcon icon="fa-brands fa-x-twitter"/>`scottjehl`)](https://twitter.com/scottjehl) was the first to [experiment (<VPIcon icon="iconfont icon-github"/>`filamentgroup/loadCSS`)](https://github.com/filamentgroup/loadCSS/issues/59) with that, as part of his loadCSS library. In short, you can do something like:
 
 ```html
 <link rel="preload" as="style" href="async_style.css" onload="this.rel='stylesheet'">
@@ -279,7 +279,7 @@ Another point in preload’s favor is that it can perform content negotiation, w
 
 I hope you’re now convinced that preload opens up a new set of loading capabilities that weren’t feasible before, and you’re excited about using it.
 
-What I ask of you is to go pick up Chrome Canary, play around with preload, break it into pieces and come whining back to [me (<VPIcon icon="fa-brands fa-x-twitter" />`yoavweiss`)](https://x.com/yoavweiss). It’s a new feature, and like any new feature, it **may contain bugs**. Please help me find them and fix them as early as possible.
+What I ask of you is to go pick up Chrome Canary, play around with preload, break it into pieces and come whining back to [me (<VPIcon icon="fa-brands fa-x-twitter"/>`yoavweiss`)](https://x.com/yoavweiss). It’s a new feature, and like any new feature, it **may contain bugs**. Please help me find them and fix them as early as possible.
 
 ::: info Further Reading
 

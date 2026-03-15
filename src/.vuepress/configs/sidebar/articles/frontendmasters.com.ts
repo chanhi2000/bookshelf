@@ -5,7 +5,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
-    "form-associated-custom-elements-in-practice", // 2026-03-1
+    "image-gallery-with-popovers-and-aim-anchor-interpolated-morph", // 2026-03-19
+    "flexbox-masonry-layout-explained-with-math", // 2026-03-17
+    "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
+    "form-associated-custom-elements-in-practice", // 2026-03-11
     "the-enforced-accessibility-of-the-geolocation-element", // 2026-03-09
     "the-big-gotcha-of-anchor-positioning", // 2026-03-05
     "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
@@ -342,6 +345,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-node
       "architecture-through-component-colocation", // 2025-08-11
       // END: 2025js-node
+      "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
+      // END: 2026js-node
       // END: js-node
     ]],[
     "js-react", [
@@ -396,9 +401,19 @@ export const template: SidebarInfoTemplate = {
     "js-lit", [
       "the-missing-link-for-web-components", // 2026-01-15
       "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
-      "form-associated-custom-elements-in-practice", // 2026-03-1
-      // END: 2026js-lit  
+      "form-associated-custom-elements-in-practice", // 2026-03-11
+      // END: 2026js-lit
       // END: js-lit
+    ]],[
+      "js-deno", [
+      "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
+      // END: 2026js-deno
+      // END: js-deno
+    ]],[
+      "js-bun", [
+      "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
+      // END: 2026js-bun
+      // END: js-bun
     ]],[
     "css", [
       "light-dom-only", // 2023-12-08
@@ -560,6 +575,9 @@ export const template: SidebarInfoTemplate = {
       "the-odometer-effect-in-css",  // 2026-03-02
       "the-big-gotcha-of-anchor-positioning", // 2026-03-05
       "the-enforced-accessibility-of-the-geolocation-element", // 2026-03-09
+      "form-associated-custom-elements-in-practice", // 2026-03-11
+      "flexbox-masonry-layout-explained-with-math", // 2026-03-17
+      "image-gallery-with-popovers-and-aim-anchor-interpolated-morph", // 2026-03-19
       // END: 2026css
       // END: css
     ]],[

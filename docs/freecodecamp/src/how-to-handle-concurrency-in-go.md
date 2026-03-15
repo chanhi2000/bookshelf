@@ -590,7 +590,7 @@ We also learned how to use channel buffers, channel directions, channel `select`
 
 Goroutines and channels are powerful features in Go that help address concurrency and async flow requirements.
 
-As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor) or [Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`caesar_sage`)](https://twitter.com/caesar_sage).
+As always, I hope you enjoyed the article and learned something new. If you want, you can also follow me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`destiny-erhabor`)](https://linkedin.com/in/destiny-erhabor) or [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`caesar_sage`)](https://twitter.com/caesar_sage).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -106,7 +106,7 @@ Also, thanks to an inquisitive question from Ana Tudor, the article spawned a sp
 
 Wes Bos shared a clever trick for [truncating text from the middle](https://bsky.app/profile/wesbos.com/post/3megy3ywotc2h) using only CSS:
 
-[Donnie D’Amato attempted a more-native solution using `::highlight()` (<VPIcon icon="fa-brands fa-bluesky"/>`donnie.damato.design`)](https://bsky.app/profile/donnie.damato.design/post/3meoz3lzdjc2q), but `::highlight()` has some limitations, unfortunately. [As Henry Wilkinson mentioned (<VPIcon icon="fa-brands fa-bluesky"/>`wilkinson.graphics`)](https://bsky.app/profile/wilkinson.graphics/post/3meh4neyktk2y), [Hazel Bachrach’s 2019 call for a native solution (<VPIcon icon="iconfont icon-github" />`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/3937) is still an open ticket, so fingers crossed!
+[Donnie D’Amato attempted a more-native solution using `::highlight()` (<VPIcon icon="fa-brands fa-bluesky"/>`donnie.damato.design`)](https://bsky.app/profile/donnie.damato.design/post/3meoz3lzdjc2q), but `::highlight()` has some limitations, unfortunately. [As Henry Wilkinson mentioned (<VPIcon icon="fa-brands fa-bluesky"/>`wilkinson.graphics`)](https://bsky.app/profile/wilkinson.graphics/post/3meh4neyktk2y), [Hazel Bachrach’s 2019 call for a native solution (<VPIcon icon="iconfont icon-github"/>`w3c/csswg-drafts`)](https://github.com/w3c/csswg-drafts/issues/3937) is still an open ticket, so fingers crossed!
 
 ---
 

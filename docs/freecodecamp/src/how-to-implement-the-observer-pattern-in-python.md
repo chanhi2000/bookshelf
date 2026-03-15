@@ -57,7 +57,7 @@ The observer pattern is a design pattern where an object (called the subject) ma
 
 In this tutorial, you'll learn what the observer pattern is, why it's useful, and how to implement it in Python with practical examples.
 
-You can find the code [on GitHub (<VPIcon icon="iconfont icon-github" />`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/observer).
+You can find the code [on GitHub (<VPIcon icon="iconfont icon-github"/>`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/observer).
 
 ::: note Prerequisites
 

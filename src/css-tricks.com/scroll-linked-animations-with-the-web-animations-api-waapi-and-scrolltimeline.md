@@ -225,7 +225,7 @@ The current experimental implementation in Chromium uses `scrollSource` instead 
 
 ## A word on browser compatibility
 
-At the time of writing, only Chromium browsers support the `ScrollTimeline` class, behind a feature flag. Thankfully there’s [the Scroll-Timeline Polyfill by Robert Flack (<VPIcon icon="iconfont icon-github" />`flackr/scroll-timeline`)](https://github.com/flackr/scroll-timeline) that we can use to fill the unsupported gaps in all other browsers. In fact, all of the demos embedded in this article include it.
+At the time of writing, only Chromium browsers support the `ScrollTimeline` class, behind a feature flag. Thankfully there’s [the Scroll-Timeline Polyfill by Robert Flack (<VPIcon icon="iconfont icon-github"/>`flackr/scroll-timeline`)](https://github.com/flackr/scroll-timeline) that we can use to fill the unsupported gaps in all other browsers. In fact, all of the demos embedded in this article include it.
 
 The polyfill is available as a module and registers itself if no support is detected. To include it, add the following `import` statement to your JavaScript code:
 

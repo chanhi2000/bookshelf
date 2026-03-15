@@ -132,7 +132,7 @@ You can edit `package.json` and the assembly definition (asmdef) names to match 
 
 ### Add the UniTask Dependency
 
-Unity runs on the main thread, and C# Tasks can be problematic in that context. They don’t know about the Unity Editor's play state and keep running after exiting play mode for example. So you’ll need to handle these cases manually. For these reasons, this package uses [UniTask (<VPIcon icon="iconfont icon-github" />`Cysharp/UniTask`)](https://github.com/Cysharp/UniTask) instead of C# Tasks for async operations.
+Unity runs on the main thread, and C# Tasks can be problematic in that context. They don’t know about the Unity Editor's play state and keep running after exiting play mode for example. So you’ll need to handle these cases manually. For these reasons, this package uses [UniTask (<VPIcon icon="iconfont icon-github"/>`Cysharp/UniTask`)](https://github.com/Cysharp/UniTask) instead of C# Tasks for async operations.
 
 Git-based dependencies are supported at the project level but not at the package level. Add UniTask via OpenUPM by following the [<VPIcon icon="fas fa-globe"/>manual installation steps](https://openupm.com/packages/com.cysharp.unitask/#modal-manualinstallation).
 
@@ -222,7 +222,7 @@ namespace com.core.initializer
 }
 ```
 
-Using reflection at runtime has some overhead. You can optimize this later with baking the reflection in editor and using it at runtime. For MonoBehaviours, `FindObjectsByType` is used here for simplicity. In a larger project, you might use a dependency injection solution such as [VContainer (<VPIcon icon="iconfont icon-github" />`hadashiA/VContainer`)](https://github.com/hadashiA/VContainer) or [Reflex (<VPIcon icon="iconfont icon-github" />`gustavopsantos/Reflex`)](https://github.com/gustavopsantos/Reflex).
+Using reflection at runtime has some overhead. You can optimize this later with baking the reflection in editor and using it at runtime. For MonoBehaviours, `FindObjectsByType` is used here for simplicity. In a larger project, you might use a dependency injection solution such as [VContainer (<VPIcon icon="iconfont icon-github"/>`hadashiA/VContainer`)](https://github.com/hadashiA/VContainer) or [Reflex (<VPIcon icon="iconfont icon-github"/>`gustavopsantos/Reflex`)](https://github.com/gustavopsantos/Reflex).
 
 ### Implement the ControllerHandler
 
@@ -282,13 +282,13 @@ You can also subscribe to `ControllerHandler.ControllersInitialized` or await `C
 
 There are some limitations here. First, it can be hard to handle dependencies between different controllers. Second, it’s easy to run into circular dependencies.
 
-When you check the [GitHub repo (<VPIcon icon="iconfont icon-github" />`TalhaCagatay/com.core.initializer`)](https://github.com/TalhaCagatay/com.core.initializer), a DI framework may already be implemented to address these limitations. Make sure to open an issue if you want this feature.
+When you check the [GitHub repo (<VPIcon icon="iconfont icon-github"/>`TalhaCagatay/com.core.initializer`)](https://github.com/TalhaCagatay/com.core.initializer), a DI framework may already be implemented to address these limitations. Make sure to open an issue if you want this feature.
 
 ---
 
 ## Package 2: The Data Package
 
-com.core.data handles local saving with a binary serializer. The package uses [MemoryPack (<VPIcon icon="iconfont icon-github" />`Cysharp/MemoryPack`)](https://github.com/Cysharp/MemoryPack) for fast, binary serialization and defines an `IDataProvider` interface so you can plug in different providers (local, cloud, or hybrid).
+com.core.data handles local saving with a binary serializer. The package uses [MemoryPack (<VPIcon icon="iconfont icon-github"/>`Cysharp/MemoryPack`)](https://github.com/Cysharp/MemoryPack) for fast, binary serialization and defines an `IDataProvider` interface so you can plug in different providers (local, cloud, or hybrid).
 
 **Package dependency:** `com.cysharp.memorypack` (version 1.10.0). Add it to your project via OpenUPM and add it to <VPIcon icon="iconfont icon-json"/>`package.json` and the asmdef for com.core.data.
 
@@ -480,7 +480,7 @@ namespace com.core.data
 
 You can implement another IDataProvider (for example JSON via [<VPIcon icon="fas fa-globe"/>Newtonsoft](https://openupm.com/packages/com.newtonsoft.json/) or [<VPIcon icon="iconfont icon-unity"/>PlayerPrefs](https://docs.unity3d.com/6000.3/Documentation/PlayerPrefs.html)) and swap it in your DataController.
 
-In production, you might use a local and a cloud provider and sync data based on the player's online status. The com.core.data [GitHub repo (<VPIcon icon="iconfont icon-github" />`TalhaCagatay/com.core.data`)](https://github.com/TalhaCagatay/com.core.data) may be updated with cloud saving and syncing. You can open an issue if you need that feature.
+In production, you might use a local and a cloud provider and sync data based on the player's online status. The com.core.data [GitHub repo (<VPIcon icon="iconfont icon-github"/>`TalhaCagatay/com.core.data`)](https://github.com/TalhaCagatay/com.core.data) may be updated with cloud saving and syncing. You can open an issue if you need that feature.
 
 ---
 
@@ -928,10 +928,10 @@ Example <VPIcon icon="iconfont icon-json"/>`manifest.json` file to implement the
 
 ::: info Resources
 
-- com.core.initializer on [GitHub (<VPIcon icon="iconfont icon-github" />`TalhaCagatay/com.core.initializer`)](https://github.com/TalhaCagatay/com.core.initializer)
-- com.core.data on [GitHub (<VPIcon icon="iconfont icon-github" />`TalhaCagatay/com.core.data`)](https://github.com/TalhaCagatay/com.core.data)
-- com.core.dotween on [Github (<VPIcon icon="iconfont icon-github" />`TalhaCagatay/com.core.dotween`)](https://github.com/TalhaCagatay/com.core.dotween)
-- com.core.ui on [Github (<VPIcon icon="iconfont icon-github" />`TalhaCagatay/com.core.ui`)](https://github.com/TalhaCagatay/com.core.ui)
+- com.core.initializer on [GitHub (<VPIcon icon="iconfont icon-github"/>`TalhaCagatay/com.core.initializer`)](https://github.com/TalhaCagatay/com.core.initializer)
+- com.core.data on [GitHub (<VPIcon icon="iconfont icon-github"/>`TalhaCagatay/com.core.data`)](https://github.com/TalhaCagatay/com.core.data)
+- com.core.dotween on [Github (<VPIcon icon="iconfont icon-github"/>`TalhaCagatay/com.core.dotween`)](https://github.com/TalhaCagatay/com.core.dotween)
+- com.core.ui on [Github (<VPIcon icon="iconfont icon-github"/>`TalhaCagatay/com.core.ui`)](https://github.com/TalhaCagatay/com.core.ui)
 - [<VPIcon icon="fa-brands fa-google"/>Example game](https://play.google.com/store/apps/details?id=com.Focus.Matchingham) that I developed and used many modular systems like the ones you built in this article.
 
 :::

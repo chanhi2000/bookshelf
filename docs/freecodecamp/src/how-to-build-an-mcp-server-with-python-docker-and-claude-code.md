@@ -36,7 +36,7 @@ head:
       content: "How to Build an MCP Server with Python, Docker, and Claude Code"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-mcp-server-with-python-docker-and-claude-code.html
-prev: /articles/README.md
+prev: /devops/docker/articles/README.md
 date: 2026-03-11
 isOriginal: false
 author:
@@ -174,7 +174,7 @@ claude mcp remove <name>
 
 ## Step 1: Build the MCP Server
 
-We're using [FastMCP (<VPIcon icon="iconfont icon-github" />`jlowin/fastmcp`)](https://github.com/jlowin/fastmcp), a Python framework that handles all the protocol plumbing so you can focus on your tools. Create a new project directory and set it up:
+We're using [FastMCP (<VPIcon icon="iconfont icon-github"/>`jlowin/fastmcp`)](https://github.com/jlowin/fastmcp), a Python framework that handles all the protocol plumbing so you can focus on your tools. Create a new project directory and set it up:
 
 ```sh
 mkdir mcp-scaffolder && cd mcp-scaffolder
@@ -537,7 +537,7 @@ If you want to go deeper, here are the resources I found most useful:
   logo="https://simonwillison.net/favicon.ico"
   preview="https://static.simonwillison.net/static/2025/stolen-data-card.jpg"/>
 
-The complete source code for this tutorial is on [GitHub (<VPIcon icon="iconfont icon-github" />`balajeeasish/ai-workshop`)](https://github.com/balajeeasish/ai-workshop/tree/main/mcp-server).
+The complete source code for this tutorial is on [GitHub (<VPIcon icon="iconfont icon-github"/>`balajeeasish/ai-workshop`)](https://github.com/balajeeasish/ai-workshop/tree/main/mcp-server).
 
 <SiteInfo
   name="ai-workshop/mcp-server at main · balajeeasish/ai-workshop"

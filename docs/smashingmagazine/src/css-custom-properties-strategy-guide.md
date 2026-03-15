@@ -673,7 +673,7 @@ Custom properties also allow as to move some of the complexity of theming into t
 
 Even if you’re supporting IE10 and 11, you can start using custom properties today. Most of the examples in this article have to do with how we write and structure CSS. The benefits are significant in terms of maintainability, however, most of the examples only reduce what could otherwise be done with more complex code.
 
-I use a tool called [<VPIcon icon="iconfont icon-github" />`MadLittleMods/postcss-css-variables`](https://github.com/MadLittleMods/postcss-css-variables) to convert most of the features of custom properties into a static representation of the same code. Other similar tools ignore custom properties inside media queries or complex selectors, treating custom properties much like preprocessor variables.
+I use a tool called [<VPIcon icon="iconfont icon-github"/>`MadLittleMods/postcss-css-variables`](https://github.com/MadLittleMods/postcss-css-variables) to convert most of the features of custom properties into a static representation of the same code. Other similar tools ignore custom properties inside media queries or complex selectors, treating custom properties much like preprocessor variables.
 
 What these tools cannot do is emulate the runtime features of custom properties. This means no dynamic features like theming or changing properties with JavaScript. This might be OK in many situations. Depending on the situation, UI customization might be considered a progressive enhancement and the default theme could be perfectly acceptable for older browsers.
 

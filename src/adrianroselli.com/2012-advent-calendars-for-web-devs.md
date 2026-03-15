@@ -56,19 +56,19 @@ Now that the (Western, my favorite) holiday season is upon us, the tradition of 
 
 If you know of any others, please pass them along. For those not returning, I have listed them at the end.
 
-::: info 24 Ways (<VPIcon icon="fa-brands fa-x-twitter" /><code>@24ways</code>)
+::: info 24 Ways (<VPIcon icon="fa-brands fa-x-twitter"/><code>@24ways</code>)
 
 [<VPIcon icon="fas fa-globe"/>24 Ways](http://24ways.org/), the one that pretty much defines the genre for me, is back again. It’s been going strong since 2005 and based on its history this year should have some good articles.
 
 :::
 
-::: info Performance Calendar (<VPIcon icon="fa-brands fa-x-twitter" /><code>@perfplanet</code>)
+::: info Performance Calendar (<VPIcon icon="fa-brands fa-x-twitter"/><code>@perfplanet</code>)
 
 [<VPIcon icon="fas fa-globe"/>Performance Calendar](http://calendar.perfplanet.com/2012/) dates back to 2009 (and still defaults to 2011 if you go straight to the domain). It focuses on techniques to speed up your site via scripting, CSS, and general mark-up, along with server tweaks and analysis suggestions.
 
 :::
 
-::: info Perl Advent Calendar (<VPIcon icon="fa-brands fa-x-twitter" /><code>@perladvent</code>)
+::: info Perl Advent Calendar (<VPIcon icon="fa-brands fa-x-twitter"/><code>@perladvent</code>)
 
 [<VPIcon icon="fas fa-globe"/>Perl Advent Calendar](http://perladvent.org/2012/) goes all the way back to 2000 (and back then looked a bit more like a traditional advent calendar, too) and has been dispensing tips for Perl developers ever since.
 
@@ -80,7 +80,7 @@ If you know of any others, please pass them along. For those not returning, I ha
 
 :::
 
-::: info 24 Jours de Web (<VPIcon icon="fa-brands fa-x-twitter" /><code>@24joursdeweb</code>)
+::: info 24 Jours de Web (<VPIcon icon="fa-brands fa-x-twitter"/><code>@24joursdeweb</code>)
 
 [<VPIcon icon="fas fa-globe"/>24 Jours de Web](https://24joursdeweb.fr/) has kicked off its first year as an advent calendar for web folk. Written in French it is clearly primarily targeted at French speakers, but a round of Google Translate will open it up to far more readers (like me). Suggestion via [<VPIcon icon="fa-brands fa-x-twitter"/>`@PhilippeVay`](http://twitter.com/PhilippeVay).
 

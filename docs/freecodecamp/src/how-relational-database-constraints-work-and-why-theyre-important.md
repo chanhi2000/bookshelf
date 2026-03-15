@@ -451,7 +451,7 @@ Databases are a pivotal part of everyday modern technology, and understanding th
 
 This article introduced you to what relational database constraints are, some of the different types, and how they’re enforced and violated. You should now have the essential knowledge to navigate the world of database constraints confidently.
 
-If you’re curious to learn more, connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`idris-aweda-zubair-5433121a3`)](https://linkedin.com/in/idris-aweda-zubair-5433121a3/), [Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`greatzubs`)](https://twitter.com/greatzubs), or [GitHub (<VPIcon icon="iconfont icon-github"/>`Zubs`)](https://github.com/Zubs). Let’s continue this journey together toward mastering database systems!
+If you’re curious to learn more, connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`idris-aweda-zubair-5433121a3`)](https://linkedin.com/in/idris-aweda-zubair-5433121a3/), [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`greatzubs`)](https://twitter.com/greatzubs), or [GitHub (<VPIcon icon="iconfont icon-github"/>`Zubs`)](https://github.com/Zubs). Let’s continue this journey together toward mastering database systems!
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

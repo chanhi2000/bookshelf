@@ -110,7 +110,7 @@ It was the largest-scale project I had worked on in many aspects:
 
 It was during my time at Yahoo that I began to really examine how I and the team at Yahoo build websites. What pain points did we keep running into, and how could we avoid them?
 
-I looked to see what everyone else was doing. I looked at Nicole Sullivan’s [Object-Oriented CSS (<VPIcon icon="iconfont icon-github" />`stubbornella/oocss`)](https://github.com/stubbornella/oocss/wiki "Object Oriented CSS"), Jina Bolton’s presentation on “[<VPIcon icon="fa-brands fa-vimeo"/>CSS Workflow](https://vimeo.com/15982903)” and Natalie Downe’s “[<VPIcon icon="fa-brands fa-slideshare"/>Practical, Maintainable CSS](https://slideshare.net/nataliedowne/practical-maintainable-css),” to name just a few.
+I looked to see what everyone else was doing. I looked at Nicole Sullivan’s [Object-Oriented CSS (<VPIcon icon="iconfont icon-github"/>`stubbornella/oocss`)](https://github.com/stubbornella/oocss/wiki "Object Oriented CSS"), Jina Bolton’s presentation on “[<VPIcon icon="fa-brands fa-vimeo"/>CSS Workflow](https://vimeo.com/15982903)” and Natalie Downe’s “[<VPIcon icon="fa-brands fa-slideshare"/>Practical, Maintainable CSS](https://slideshare.net/nataliedowne/practical-maintainable-css),” to name just a few.
 
 I ended up writing my thoughts as a long-form style guide named “[<VPIcon icon="fas fa-globe"/>Scalable and Modular Architecture for CSS](https://smacss.com/).” That sounds wordy, so you can just call it SMACSS (pronounced “smacks”) for short. It’s a guide that continues to evolve as I refine and expand on ways to approach CSS development.
 

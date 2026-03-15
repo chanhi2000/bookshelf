@@ -408,7 +408,7 @@ Cheers.
 
 ::: info Resources
 
-1. [EvCxR GitHub Repository (<VPIcon icon="iconfont icon-github" />`evcxr/evcxr`)](https://github.com/evcxr/evcxr)
+1. [EvCxR GitHub Repository (<VPIcon icon="iconfont icon-github"/>`evcxr/evcxr`)](https://github.com/evcxr/evcxr)
 2. [Rust Book](https://doc.rust-lang.org/book/)
 3. [<VPIcon icon="iconfont icon-jupyter"/>Jupyter Documentation](https://jupyter.org/documentation)
 
@@ -416,7 +416,7 @@ Cheers.
 
 ::: note Acknowledgements
 
-Thanks to [Anuoluwapo Victor (<VPIcon icon="fa-brands fa-linkedin" />`a-n-u-o`)](https://linkedin.com/in/a-n-u-o/), [Chinaza Nwukwa, (<VPIcon icon="fa-brands fa-linkedin" />`a-n-u-o`)](https://linkedin.com/in/a-n-u-o/) [Holumidey Mer (<VPIcon icon="fa-brands fa-linkedin" />`chinaza-nwukwa-22a256230`)](https://linkedin.com/in/chinaza-nwukwa-22a256230/)[cy (<VPIcon icon="fa-brands fa-linkedin" />`mercy-holumidey-88a542232`)](https://linkedin.com/in/mercy-holumidey-88a542232/), [Favour Ojo, (<VPIcon icon="fa-brands fa-linkedin" />`mercy-holumidey-88a542232`)](https://linkedin.com/in/mercy-holumidey-88a542232/) [Georgina (<VPIcon icon="fa-brands fa-linkedin" />`favour-ojo-906883199`)](https://linkedin.com/in/favour-ojo-906883199/) [Awani (<VPIcon icon="fa-brands fa-linkedin" />`georgina-awani-254974233`)](https://linkedin.com/in/georgina-awani-254974233/), [and my family (<VPIcon icon="fa-brands fa-linkedin" />`georgina-awani-254974233`)](https://linkedin.com/in/georgina-awani-254974233/) for the inspiration, support and knowledge used to put this post together.
+Thanks to [Anuoluwapo Victor (<VPIcon icon="fa-brands fa-linkedin"/>`a-n-u-o`)](https://linkedin.com/in/a-n-u-o/), [Chinaza Nwukwa, (<VPIcon icon="fa-brands fa-linkedin"/>`a-n-u-o`)](https://linkedin.com/in/a-n-u-o/) [Holumidey Mer (<VPIcon icon="fa-brands fa-linkedin"/>`chinaza-nwukwa-22a256230`)](https://linkedin.com/in/chinaza-nwukwa-22a256230/)[cy (<VPIcon icon="fa-brands fa-linkedin"/>`mercy-holumidey-88a542232`)](https://linkedin.com/in/mercy-holumidey-88a542232/), [Favour Ojo, (<VPIcon icon="fa-brands fa-linkedin"/>`mercy-holumidey-88a542232`)](https://linkedin.com/in/mercy-holumidey-88a542232/) [Georgina (<VPIcon icon="fa-brands fa-linkedin"/>`favour-ojo-906883199`)](https://linkedin.com/in/favour-ojo-906883199/) [Awani (<VPIcon icon="fa-brands fa-linkedin"/>`georgina-awani-254974233`)](https://linkedin.com/in/georgina-awani-254974233/), [and my family (<VPIcon icon="fa-brands fa-linkedin"/>`georgina-awani-254974233`)](https://linkedin.com/in/georgina-awani-254974233/) for the inspiration, support and knowledge used to put this post together.
 
 And thanks to the EvCxR project maintainers for making this possible, the Rust community for being awesome, and to anyone reading this for wanting to learn. You inspire me daily.
 

@@ -84,7 +84,7 @@ I know I struggle with the 'performance' aspect of making videos (you won't find
 
 I have created a new medium to guide viewers through code examples. It combines the best of books, blog posts, and videos. This new medium allows a developer to write code using a top-notch editor (Visual Studio Code) and then replay the development of that code in the browser.
 
-The author can add comments at important points in the evolution of the code. The comments can include text, hand drawn pictures, screenshots, and audio and video recordings. This allows the author to add visualizations that we have in our heads but don't make it into the code itself. The tool is called [Storyteller (<VPIcon icon="iconfont icon-github" />`markm208/storyteller`)](https://github.com/markm208/storyteller).
+The author can add comments at important points in the evolution of the code. The comments can include text, hand drawn pictures, screenshots, and audio and video recordings. This allows the author to add visualizations that we have in our heads but don't make it into the code itself. The tool is called [Storyteller (<VPIcon icon="iconfont icon-github"/>`markm208/storyteller`)](https://github.com/markm208/storyteller).
 
 ![](https://cloudmate-test.s3.us-east-1.amazonaws.com/uploads/covers/67df75cfc82238bba0f330b3/82dcb5c8-999f-432f-bd60-adcb3d8b9889.png)
 

@@ -179,7 +179,7 @@ As mentioned above, `drop-shadow` doesn’t include the `spread` parameter. This
 
 `drop-shadow` doesn’t render the exact same shadow effect as `box-shadow`, even when given the same parameters. `box-shadow` tends to give a darker, heavier shadow than `drop-shadow` when the same values are used. I suspect this is something to do with CSS filters being based on SVG filter primitives. Whatever the case, you’ll likely need to compensate for the difference by adjusting your `drop-shadow` values somewhat.
 
-If you’re interested in further reading, [Ana Tudor (<VPIcon icon="fa-brands fa-x-twitter" />`anatudor`)](https://twitter.com/anatudor) pointed me to [<VPIcon icon="fas fa-globe"/>this article](https://dbaron.org/log/20110225-blur-radius) on how blur radius is calculated.
+If you’re interested in further reading, [Ana Tudor (<VPIcon icon="fa-brands fa-x-twitter"/>`anatudor`)](https://twitter.com/anatudor) pointed me to [<VPIcon icon="fas fa-globe"/>this article](https://dbaron.org/log/20110225-blur-radius) on how blur radius is calculated.
 
 ---
 
