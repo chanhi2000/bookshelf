@@ -36,6 +36,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "generative-ui-notes", // 2026-03-26
+    "experimenting-with-scroll-driven-corner-shape-animations", // 2026-03-23
     "javascript-for-everyone-destructuring", // 2026-03-20
     "whats-important-7", // 2026-03-16
     "4-reasons-that-make-tailwind-great-for-building-layouts", // 2026-03-16
@@ -528,6 +530,7 @@ export const template: SidebarInfoTemplate = {
       "the-value-of-z-index", // 2026-03-09
       "abusing-customizable-selects", // 2026-03-11
       "whats-important-7", // 2026-03-16
+      "experimenting-with-scroll-driven-corner-shape-animations", // 2026-03-23
       // END: 2026css
       // END: css
     ]],[
@@ -615,6 +618,34 @@ export const template: SidebarInfoTemplate = {
       "no-hassle-visual-studio-code-theming-building-an-extension", // 2026-02-02
       // END: 2026vscode
       // END: vscode
+    ]],[
+    "llm", [
+      // END: 2017llm
+      // END: 2018llm
+      // END: 2019llm
+      // END: 2020llm
+      // END: 2021llm
+      // END: 2022llm
+      // END: 2023llm
+      // END: 2024llm
+      // END: 2025llm
+      "generative-ui-notes", // 2026-03-26
+      // END: 2026llm
+      // END: llm
+    ]],[
+    "system-design", [
+      // END: 2017system-design
+      // END: 2018system-design
+      // END: 2019system-design
+      // END: 2020system-design
+      // END: 2021system-design
+      // END: 2022system-design
+      // END: 2023system-design
+      // END: 2024system-design
+      // END: 2025system-design
+      "generative-ui-notes", // 2026-03-26
+      // END: 2026system-design
+      // END: system-design
     ]],[
     "all", [
       ALMANEC_PROPERTIES,

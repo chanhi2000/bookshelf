@@ -245,7 +245,7 @@ This gives us the desired result ([live demo (<VPIcon icon="fa-brands fa-codepen
   slug-hash="XLzaKV"
   title="Hide advanced controls on narrow screens if not enabled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Use the same formulas to position multiple faces of a 3D shape
 
@@ -263,7 +263,7 @@ This shape is made up out of a [<VPIcon icon="fa-brands fa-wikipedia-w"/>pentago
   slug-hash="zVLBge"
   title="Folding nets of J6 + AP10 = J25"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As it can be seen above, the faces are either a part of the antiprism or a part of the rotunda. This is where we introduce our first switch variable `--i`. This is `0` for the faces that are a part of the antiprism and `1` for the faces that are a part of the rotunda. The antiprism faces have a class of `.mid` because we can add another rotunda to the other antiprism base and then the antiprism would be in the middle. The rotunda faces have a class of `.cup` because this part does look like a coffee cup… without a handle!
 
@@ -293,7 +293,7 @@ The interactive demo below allows us to better see each of these four groups of 
   slug-hash="GVrVvK"
   title="Types of lateral gyroelongated rotunda faces"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As previously mentioned, the lateral faces can be either triangles or pentagons:
 
@@ -311,7 +311,7 @@ The interactive demo below highlights these edges, their end points and their mi
   slug-hash="qzMLzO"
   title="Highlight vertices and midpoints of base edges"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In order to make things easier for ourselves, we set the `transform-origin` of the `.lat` faces on the middle of their base edges (bottom horizontal edges).
 
@@ -326,7 +326,7 @@ Having the `transform-origin` coincide with the midpoint the base edge means tha
   slug-hash="XLQOoE"
   title="Rotate poly around base midpoint"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We place our lateral faces where we want them to be in four steps:
 
@@ -342,7 +342,7 @@ These steps are illustrated by the interactive demo below, where you can go thro
   slug-hash="orKomV"
   title="Building: gyroelongated pentagonal rotunda (lateral faces)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The y axis rotation value is based mostly on the face indices and less on our switch variables, though it depends on these as well.
 
@@ -438,7 +438,7 @@ transform: rotatey(var(--ay))
   slug-hash="eYOWZzO"
   title="y rotation strictly based on index - oops!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is… not quite what we were going for!
 
@@ -451,7 +451,7 @@ The first issue is that the lateral antiprism faces pointing up need to be offse
   slug-hash="JjPWeXL"
   title="Position of antiprism faces pointing up"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The faces we want to target are the faces for which both of `--i` and `--k` are `0`, so what we need here is multiply the result of their `nor` with `.5`:
 
@@ -470,7 +470,7 @@ The second issue is that the lateral rotunda faces pointing down are not distrib
   slug-hash="ZEzedzp"
   title="Position of cupola faces pointing down"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 What we’re targeting now are the faces for which both `--i` and `--k` are `1` (so the faces for which the result of the `and` operation is `1`), so what we need is to multiply `--idx` with `1` plus their `and`:
 
@@ -530,7 +530,7 @@ transform: rotatey(var(--ay))
   slug-hash="qBWmNzg"
   title="Building compound shape: translating faces so their bases are in the final planes"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Along the z direction, we want to move the faces such that their base edges coincide with the edges of the base faces of the compound shape or the edges of the common base (which is not a face of the compound shape) shared by the two 3D components. For the top faces of the cup (which we later rotate to point down), the placement is on the edges of a pentagon, while for all the other faces of the compound shape, the placement is on the edges of a decagon.
 
@@ -551,7 +551,7 @@ transform: rotatey(var(--ay))
   slug-hash="GRKmjKJ"
   title="Building compound shape: translating face bases on edges of base/ section polygons"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Next, we want to make all `.rev` (for which `--k` is `1`) faces point down. This is pretty straightforward and doesn’t require any logical operation, we just need to add a half a turn rotation around the z axis to the transform chain, but only for the faces for which `--k` is `1`:
 
@@ -569,7 +569,7 @@ transform: rotatey(var(--ay))
   slug-hash="qBWmaOw"
   title="Building compound shape: rotating faces to point down if necessary"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The pentagonal faces (for which `--p` is `1`) are then all rotated around the x axis by a certain angle:
 
@@ -603,7 +603,7 @@ This gives us the final result!
   slug-hash="LYPyRQY"
   title="Building compound shape: rotating faces into final position"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -616,7 +616,7 @@ For any regular polygon (such as any of the faces of our shapes), the arc corres
   slug-hash="QbBWZb"
   title="construct regular polygon"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

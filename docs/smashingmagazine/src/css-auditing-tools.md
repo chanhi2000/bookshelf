@@ -79,7 +79,16 @@ How large is your CSS? How repetitive is it? What about your CSS specificity sco
 }
 ```
 
-- [**Things You Can Do With CSS Today**](/smashingmagazine.com/things-you-can-do-with-css-today.md)
+```component VPCard
+{
+  "title": "Things You Can Do With CSS Today",
+  "desc": "The present and future of CSS are very bright indeed and if you take a pragmatic, progressive approach to your CSS, then things will continue to get better and better on your projects, too. Some of the really handy powers CSS gives you might have slipped you by, so in this article, Andy Bell will take a look into masonry layout, :is selector, clamp(), ch and ex units, updated text decoration, and a few other useful CSS properties. ",
+  "link": "/smashingmagazine.com/things-you-can-do-with-css-today.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - [**Useful DevTools Tips and Shortcuts**](/smashingmagazine.com/useful-chrome-firefox-devtools-tips-shortcuts.md)
 
 :::

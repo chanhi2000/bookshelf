@@ -80,7 +80,7 @@ Here’s a full working demo:
   slug-hash="yXYNzz"
   title="Slack Theming with CSS Custom Properties"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info 💁‍♂️
 

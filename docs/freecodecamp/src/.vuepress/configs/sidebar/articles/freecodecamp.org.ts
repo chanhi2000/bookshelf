@@ -1744,11 +1744,53 @@ const HOW_TO_BUILD_A_PRODUCTION_READY_FLUTTER_CI_CD_PIPELINE_WITH_GITHUB_ACTIONS
   ]
 }
 
+const HOW_TO_SECURE_A_KUBERNETES_CLUSTER_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2026-03-26
+  text: "How to Secure a Kubernetes Cluster: RBAC, Pod Hardening, and Runtime Protection",
+  collapsible: true,
+  icon: 'iconfont icon-k8s',
+  subPath: 'how-to-secure-a-kubernetes-cluster-handbook',
+  children: [
+    'README'
+    // TODO: 페이지 생성
+  ]
+}
+
+const CLAUDE_CODE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2026-03-26
+  text: "The Claude Code Handbook: A Professional Introduction to Building with AI-Assisted Development",
+  collapsible: true,
+  icon: 'iconfont icon-claude',
+  subPath: 'claude-code-handbook',
+  children: [
+    'README'
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
   children: [
     // END: 2026
+    "claude-code-essentials-exampro", // 2206-03-26
+    "how-passing-by-object-reference-works-in-python", // 2026-03-26
+    "learn-sql-course-for-beginners-in-spanish", // 2026-03-26
+    "how-to-work-with-dapper-in-net", // 2026-03-26
+    "an-introduction-to-database-system-design", // 2026-03-26
+    CLAUDE_CODE_HANDBOOK, // 2026-03-26
+    "build-an-interactive-ranking-system-using-react-and-data-viz-tools", // 2026-03-26
+    "deploying-ai-models-with-hugging-face", // 2026-03-26
+    "how-to-use-openstreetmap-free-alternative-to-google-maps", // 2026-03-26
+    "build-a-bank-ledger-in-go-with-postgresql-using-the-double-entry-accounting-principle", // 2026-03-26
+    "how-to-apply-gan-architecture-to-multi-agent-code-generation", // 2026-03-26
+    HOW_TO_SECURE_A_KUBERNETES_CLUSTER_HANDBOOK, // 2026-03-26
+    "how-to-use-mcp-to-build-a-personal-financial-assistant", // 2026-03-26
+    "build-a-complete-flutter-ci-cd-pipeline-with-codemagic", // 2026-03-24
+    "how-to-stop-letting-ai-agents-guess-your-requirements", // 2026-03-24
+    "how-to-use-the-command-pattern-in-python", // 2026-03-24
+    "how-to-use-mlflow-to-manage-your-machine-learning-lifecycle", // 2026-03-24
+    "iac-with-apis-how-to-automate-cloud-resources", // 2026-03-24
+    "docker-container-doctor-how-i-built-an-ai-agent-that-monitors-and-fixes-my-containers", // 2026-03-24
+    "build-a-browser-based-image-converter-using-javascript", // 2026-03-24
     "set-up-webauthn-in-node-js-for-passwordless-biometric-login", // 2026-03-20
     "software-testing-with-playwright", // 2026-03-20
     "automate-form-ux-audits-handbook", // 2026-03-20
@@ -3493,6 +3535,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-guide-ai-with-rules-and-tests", // 2026-02-25
         "how-to-create-a-table-of-contents-for-your-article", // 2026-03-12
         "automate-form-ux-audits-handbook", // 2026-03-20
+        "build-a-browser-based-image-converter-using-javascript", // 2026-03-24
         // END: 2026js
         // END: js
       ]], [
@@ -3787,6 +3830,8 @@ export const template: SidebarInfoTemplate = {
         "the-modern-react-data-fetching-handbook-suspense-use-and-errorboundary-explained", // 2026-02-13
         "full-stack-aws-react-lambda-dynamodb-tutorial", // 2026-03-18
         "atomic-and-functional-css", // 2026-03-20
+        "how-to-use-openstreetmap-free-alternative-to-google-maps", // 2026-03-26
+        "build-an-interactive-ranking-system-using-react-and-data-viz-tools", // 2026-03-26
         // END: 2026js-react
         // END: js-react
       ]], [
@@ -4293,6 +4338,10 @@ export const template: SidebarInfoTemplate = {
         "how-to-implement-the-strategy-pattern-in-python", // 2026-03-12
         "recursion-in-python-intro-for-beginners", // 2026-03-13
         "passwords-hashing-and-salting-explained", // 2026-03-13
+        "how-to-use-mlflow-to-manage-your-machine-learning-lifecycle", // 2026-03-24
+        "how-to-use-the-command-pattern-in-python", // 2026-03-24
+        "how-to-use-mcp-to-build-a-personal-financial-assistant", // 2026-03-26
+        "how-passing-by-object-reference-works-in-python", // 2026-03-26
         // END: 2026py
         // END: py
       ]], [
@@ -4345,6 +4394,7 @@ export const template: SidebarInfoTemplate = {
         "build-a-website-screenshot-generator-with-python-and-flask", // 2025-10-30
         // END: 2025py-flask
         "learn-python-and-build-autonomous-agents", // 2026-02-27
+        "docker-container-doctor-how-i-built-an-ai-agent-that-monitors-and-fixes-my-containers", // 2026-03-24
         // END: 2026py-flask
         // END: py-flask
       ]], [
@@ -4603,6 +4653,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-use-monorepos-in-flutter", // 2026-02-05
         "learn-how-ai-agents-are-changing-development-by-building-a-flutter-app", // 2026-03-12
         HOW_TO_BUILD_A_PRODUCTION_READY_FLUTTER_CI_CD_PIPELINE_WITH_GITHUB_ACTIONS_QUALITY_GATES_ENVIRONMENTS_AND_STORE_DEPLOYMENT, // 2026-03-19
+        "build-a-complete-flutter-ci-cd-pipeline-with-codemagic", // 2026-03-24
         // END: 2026dart
         // END: dart
       ]], [
@@ -4676,6 +4727,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-find-the-top-k-items-heap-and-streaming-approaches-in-go", // 2026-03-11
         "how-to-get-started-coding-in-golang", // 2026-03-13
         "how-to-implement-the-outbox-pattern-in-go-and-postgresql", // 2026-03-20
+        "build-a-bank-ledger-in-go-with-postgresql-using-the-double-entry-accounting-principle", // 2026-03-26
         // END: 2026go
         // END: go
       ]], [
@@ -4724,6 +4776,7 @@ export const template: SidebarInfoTemplate = {
         "serverless-and-microservices-with-c-and-azure", // 2025-10-30
         // END: 2025cs
         "how-to-implement-type-safe-unions-in-c-with-oneof", // 2026-01-24
+        "how-to-work-with-dapper-in-net", // 2026-03-26
         // END: 2026cs
         // END: cs
       ]], [
@@ -4755,6 +4808,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-use-a-resistive-soil-moisture-sensor", // 2025-07-10
         "embedded-swift-a-modern-approach-to-low-level-programming", // 2025-08-02
         // END: 2025c
+        "how-passing-by-object-reference-works-in-python", // 2026-03-26
+        // END: 2026c
         // END: c
       ]], [
       "cpp", [
@@ -5194,6 +5249,9 @@ export const template: SidebarInfoTemplate = {
         "how-to-deploy-your-own-24x7-ai-agent-using-openclaw", // 2026-03-17
         BUILD_END_TO_END_ML_PLATFORM_LOCALLY_FROM_EXPERIMENT_TRACKING_TO_CICD, // 2026-03-18// END: 2026github
         "fix-ghost-cms-errors", // 2026-03-20
+        "docker-container-doctor-how-i-built-an-ai-agent-that-monitors-and-fixes-my-containers", // 2026-03-24
+        "build-a-bank-ledger-in-go-with-postgresql-using-the-double-entry-accounting-principle", // 2026-03-26
+        "learn-sql-course-for-beginners-in-spanish", // 2026-03-26
         // END: 2026docker
         // END: docker
       ]], [
@@ -5234,6 +5292,7 @@ export const template: SidebarInfoTemplate = {
         "master-kubernetes-through-production-ready-practice", // 2026-02-27
         "kubernetes-self-healing-explained", // 2026-03-06
         "how-to-implement-gitops-on-kubernetes-using-argo-cd", // 2026-03-18
+        HOW_TO_SECURE_A_KUBERNETES_CLUSTER_HANDBOOK, // 2026-03-26
         // END: 2026k8s
         // END: k8s
       ]], [
@@ -5722,6 +5781,8 @@ export const template: SidebarInfoTemplate = {
         "build-a-google-calendar-clone-with-php-mysql-and-javascript", // 2025-07-04
         "learn-databases-and-sql-from-harvard-university", // 2025-10-09
         // END: 2025mysql
+        "learn-sql-course-for-beginners-in-spanish", // 2026-03-26
+        // END: 2026mysql
         // END: mysql
       ]], [
       "postgresql", [
@@ -5748,6 +5809,9 @@ export const template: SidebarInfoTemplate = {
         "fdw-pushdown", // 2026-02-19
         HOW_TO_BUILD_MCP_SERVERS_FOR_YOUR_INTERNAL_DATA, // 2026-03-05
         "how-to-implement-the-outbox-pattern-in-go-and-postgresql", // 2026-03-20
+        "build-a-bank-ledger-in-go-with-postgresql-using-the-double-entry-accounting-principle", // 2026-03-26
+        "an-introduction-to-database-system-design", // 2026-03-26
+        "learn-sql-course-for-beginners-in-spanish", // 2026-03-26
         // END: 2026postgresql
         // END: postgresql
       ]], [
@@ -5986,6 +6050,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2025system-design
         "learn-relational-database-design", // 2026-01-28
         "automate-form-ux-audits-handbook", // 2026-03-20
+        "an-introduction-to-database-system-design", // 2026-03-26
         // END: 2026system-design
         // END: system-design
       ]], [
@@ -6105,6 +6170,7 @@ export const template: SidebarInfoTemplate = {
         "build-end-to-end-llm-observability-in-fastapi-with-opentelemetry", // 2026-03-14
         "how-to-test-a-complex-full-stack-app-manual-vs-ai-assisted-testing", // 2026-03-17
         BUILD_END_TO_END_ML_PLATFORM_LOCALLY_FROM_EXPERIMENT_TRACKING_TO_CICD, // 2026-03-18// END: 2026github
+        "how-to-use-mlflow-to-manage-your-machine-learning-lifecycle", // 2026-03-24
         // END: 2026llm
         // END: llm
       ]], [
@@ -6179,6 +6245,11 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-an-mcp-server-with-python-docker-and-claude-code", // 2026-03-11
         // END: 2025claude
         "how-to-use-claude-code-and-marp-to-think-through-presentations", // 2026-03-20
+        "docker-container-doctor-how-i-built-an-ai-agent-that-monitors-and-fixes-my-containers", // 2026-03-24
+        "how-to-stop-letting-ai-agents-guess-your-requirements", // 2026-03-24
+        "how-to-apply-gan-architecture-to-multi-agent-code-generation", // 2026-03-26
+        CLAUDE_CODE_HANDBOOK, // 2026-03-26
+        "claude-code-essentials-exampro", // 2206-03-26
         // END: 2026claude
         // END: claude
       ]], [
@@ -6281,6 +6352,12 @@ export const template: SidebarInfoTemplate = {
         // END: 2026openclaw
         // END: openclaw
       ]], [
+        "huggingface", [
+        // END: 2025huggingface
+        "deploying-ai-models-with-hugging-face", // 2026-03-26
+        // END: 2026huggingface
+        // END: huggingface
+      ]], [
       "mcp", [
         HOW_TO_BUILD_A_CUSTOM_MCP_SERVER_WITH_TYPESCRIPT_A_HANDBOOK_FOR_DEVELOPERS, // 2025-06-26
         "how-to-fix-the-python-enoent-error-when-setting-up-mcp-servers-a-complete-guide", // 2025-08-09
@@ -6300,6 +6377,7 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_MCP_SERVERS_FOR_YOUR_INTERNAL_DATA, // 2026-03-05
         "how-to-build-an-mcp-server-with-python-docker-and-claude-code", // 2026-03-11
         "build-a-production-rag-system-with-cloudflare-workers-handbook", // 2026-03-19
+        "how-to-use-mcp-to-build-a-personal-financial-assistant", // 2026-03-26
         // END: 2026mcp
         // END: mcp
       ]], [

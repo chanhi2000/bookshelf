@@ -187,7 +187,7 @@ Here’s a minimal working example showing both the token override and `::part` 
   slug-hash="vEKoxbM"
   title="AgInputMinimal"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### The A11y Trade-Off
 

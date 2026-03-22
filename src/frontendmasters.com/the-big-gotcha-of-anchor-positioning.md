@@ -75,7 +75,7 @@ If you’re logged into CodePen, [open this demo (<VPIcon icon="fa-brands fa-cod
   link="https://codepen.io/editor/chriscoyier/pen/019c9cfc-d6b3-7f43-8be6-9430d3c42f63"
   title="Basic Anchoring"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

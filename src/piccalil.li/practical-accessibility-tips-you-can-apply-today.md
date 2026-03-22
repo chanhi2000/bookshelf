@@ -157,7 +157,7 @@ This CodePen Demo by Adrian Roselli does a good job of demonstrating the options
   slug-hash="MWPKVbd"
   title="Modal Dialog"
   :default-tab="['css','result']"
-  :theme="$isDarkMode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

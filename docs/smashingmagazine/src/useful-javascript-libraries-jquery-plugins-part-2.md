@@ -540,7 +540,17 @@ URI.js To work with URLs you could use this JavaScript library, that offers a jQ
 
 - ~~Discovering Primitive Objects In JavaScript (Part 1)~~
 - [**What’s New In Next.js 13?**](/smashingmagazine.com/whats-new-nextjs-13.md)
-- [**Motion Controls In The Browser**](/smashingmagazine.com/motion-controls-browser.md)
+
+```component VPCard
+{
+  "title": "Motion Controls In The Browser",
+  "desc": "If you've ever wanted to build a web app that you can control with hand gestures as if by magic, this article is for you. With a couple of APIs and some JavaScript, you can build apps that behave like sorcery.",
+  "link": "/smashingmagazine.com/motion-controls-browser.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - [**Node.js Authentication With Twilio Verify**](/smashingmagazine.com/nodejs-authentication-twilio-verify.md)
 
 :::

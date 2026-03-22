@@ -100,7 +100,7 @@ This is much nicer, it clearly reads "for all heading elements, apply these styl
   slug-hash="MYexYJq"
   title="Style Headings Using The CSS :heading pseudo-selector Example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

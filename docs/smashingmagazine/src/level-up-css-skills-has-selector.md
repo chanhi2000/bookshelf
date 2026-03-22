@@ -128,7 +128,7 @@ With that, we have polyfilled the non-existent `:only-of-selector` pseudo-class!
   slug-hash="qByprrp"
   title=":only-of-selector using :has() [forked] "
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -172,7 +172,7 @@ ul:has(> :hover) li:not(:hover, :has(+ :hover), li:hover + *) {
   slug-hash="rNrpymj"
   title="Previous/Next Sibling Animation with :has() [forked] "
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Not only does this demonstrate selecting a preceding sibling with `:has()` but also using it to select based on state. The final demonstration will create a more complex example using states with `:has()`.
 
@@ -245,7 +245,7 @@ We’ll shortly look at mitigating the issue of needing a hard stop to our range
   slug-hash="KKBZWqd"
   title="Select within an element range with :has() (limited) [forked] "
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -296,7 +296,7 @@ In this CodePen demo, we’ve also reused our previously created selectors to id
   slug-hash="RwBxpgq"
   title="Single range element selectors with :has() [forked] "
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -384,7 +384,7 @@ Keep in mind that just like other selectors, you can use `:has()` when you const
   slug-hash="VwBypzB"
   title="Multi-range element selectors with :has() [forked] "
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -451,7 +451,7 @@ The CodePen demo has a few extra tricks on how the component is created using CS
   slug-hash="ExpoWwv"
   title="Star Rating Component with :has() [forked] "
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -504,7 +504,7 @@ This CodePen demo also shows off `accent-color` for changing the checked input c
   slug-hash="RwBxpjE"
   title="Stateful multi-range selection groups with :has() [forked] "
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info More Resources On Writing `:has()` Selectors
 

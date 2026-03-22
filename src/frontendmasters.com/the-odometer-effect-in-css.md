@@ -57,7 +57,7 @@ With CSS, we can fill numbers into HTML elements now, thanks to the `attr()` fun
   slug-hash="myEZKME"
   title="CSS odometer effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The above example shows an amount upto the place value of millions. I’ll include more examples as we go.
 
@@ -192,7 +192,7 @@ mod(420, 10)
   slug-hash="dPpbGNJ"
   title="CSS autofill digits"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -248,7 +248,7 @@ For each separator break, decrement the sibling index by 1 for the following dig
   slug-hash="azmodJJ"
   title="CSS autofill digits"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -306,7 +306,7 @@ The demo from before:
   slug-hash="myEZKME"
   title="CSS odometer effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -336,7 +336,7 @@ Here’s an example where the later counts are slightly slower:
   slug-hash="MYjgreW"
   title="CSS odometer effect 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here’s one where there’s no count or rolling, just a jittery effect.
 
@@ -349,7 +349,7 @@ animation: 0.1s linear calc(0.1s * var(--si));
   slug-hash="pvEzpRz"
   title="CSS odometer effect 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Although this post covered the odometer effect, its concept can be applied to other graphic effects involving numbers. Being able to autofill numbers into individual elements, and compute and animate them, all in CSS, simplifies designing visual changes for dynamic numeric values on screen.
 

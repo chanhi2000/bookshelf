@@ -34,7 +34,7 @@ prev: /ai/deepseek/articles/README.md
 date: 2025-01-28
 isOriginal: false
 author:
-  - name: Andrew Brown
+  - name: Andrew Brown (@ExamProChannel)
     url: https://youtube.com/@ExamProChannel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738189139698/c00c9b2d-22c6-4ee4-b2e2-4723471a8d96.png
 ---

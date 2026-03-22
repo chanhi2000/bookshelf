@@ -124,7 +124,7 @@ If the initial free space is *positive*, items *grow* to fill the container:
   link="https://codepen.io/editor/sb3nder/pen/019cd91c-d135-791e-adb4-12d6db9320ed"
   title="[Article] Flexbox flex-grow animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Negative Free Space (Shrinking)
 
@@ -138,7 +138,7 @@ If the initial free space is *negative*, items shrink to fit the container:
   link="https://codepen.io/editor/sb3nder/pen/019cf1d3-0d44-7149-9dc1-441b88132efd"
   title="[Article] Flexbox flex-shrink animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### What About Wrapping?
 
@@ -395,7 +395,7 @@ No wrapping:
   link="https://codepen.io/editor/sb3nder/pen/019cd8bf-ab8d-7e9f-9902-90f7a7c3f22a"
   title="[Article] Masonry Flexbox nowrap"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 With wrapping:
 
@@ -403,7 +403,7 @@ With wrapping:
   link="https://codepen.io/editor/sb3nder/pen/019cd8fb-89d2-7572-9f54-aa1a3fa12758"
   title="[Article] Masonry Flexbox wrap"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 With limits:
 
@@ -411,7 +411,7 @@ With limits:
   link="https://codepen.io/editor/sb3nder/pen/019cd903-7dc0-7225-bccc-91c0cf330740"
   title="[Article] Masonry Flexbox wrap minmax"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 With images:
 
@@ -420,7 +420,7 @@ With images:
   slug-hash="eYqavaP"
   title="CSS Horizontal Masonry layout"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

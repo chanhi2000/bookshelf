@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Let's Stop Misusing overscroll-behavior"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/webdevredfox.org/postlets-stop-misusing-overscroll-behavior.html
+      content: https://chanhi2000.github.io/bookshelf/webdevredfox.org/lets-stop-misusing-overscroll-behavior.html
 prev: /programming/css/articles/README.md
 date: 2026-01-28
 isOriginal: false
@@ -147,7 +147,7 @@ html, body {
 {
   "title": "Let's Stop Misusing overscroll-behavior",
   "desc": "We're missing a key point that hurts usability!",
-  "link": "https://chanhi2000.github.io/bookshelf/webdevredfox.org/postlets-stop-misusing-overscroll-behavior.html",
+  "link": "https://chanhi2000.github.io/bookshelf/webdevredfox.org/lets-stop-misusing-overscroll-behavior.html",
   "logo": "https://svelte.dev/favicon.png",
   "background": "rgba(2255,127,80,0.2)"
 }

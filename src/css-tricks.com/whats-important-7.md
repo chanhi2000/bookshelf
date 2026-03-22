@@ -76,7 +76,7 @@ My first solution to folded corners involved actual images. Not a *great* soluti
   slug-hash="raNoZLr"
   title="Folded corners"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -89,7 +89,7 @@ My first solution to folded corners involved actual images. Not a *great* soluti
   slug-hash="bNwEKqM"
   title="backdrop-filter: glass overlay"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 `font-variant-numeric: tabular-nums` is another one. This property and value prevents layout shift when numbers change dynamically, as they do with live clocks, counters, timers, financial tables, and so on. [<VPIcon icon="fas fa-globe"/>Amit Merchant walks you through it](https://amitmerchant.com/one-css-property-that-makes-numbers-look-instantly-better/) with this demo:
 
@@ -98,7 +98,7 @@ My first solution to folded corners involved actual images. Not a *great* soluti
   slug-hash="dPpMNVd"
   title="Tabular Numbers Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info Getting started with the Popover API
 
@@ -135,7 +135,7 @@ Demo (full effect requires Chrome 143+):
   slug-hash="gbrMGYx"
   title="Anchored container queries demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info DOOM in CSS
 

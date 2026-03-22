@@ -84,6 +84,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "css-container-queries-a-first-look-and-demo", // 2021-03-29
     "the-future-of-css-scroll-linked-animations-part-2", // 2021-03-04
     "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23
+    "css-mix-blend-mode-not-working-set-a-background-color", // 2021-01-15
   ],
 }
 
@@ -206,6 +207,7 @@ export const template: SidebarInfoTemplate = {
       "container-queries-are-coming-to-chromium", // 2020-11-05
       "css-custom-properties-are-not-variables", // 2020-12-10
       // END: 2020css
+      "css-mix-blend-mode-not-working-set-a-background-color", // 2021-01-15
       "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23
       "the-future-of-css-scroll-linked-animations-part-2", // 2021-03-04
       "css-container-queries-a-first-look-and-demo", // 2021-03-29

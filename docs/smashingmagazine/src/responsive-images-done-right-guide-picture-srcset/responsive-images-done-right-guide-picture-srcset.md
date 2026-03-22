@@ -319,7 +319,16 @@ That’s everything: every feature in the new `<picture>` specification and the 
 
 - [**Choosing A Responsive Image Solution**](/smashingmagazine.com/choosing-a-responsive-image-solution.md)
 - [**One Solution To Responsive Images**](/smashingmagazine.com/one-solution-to-responsive-images.md)
-- [**Responsive Images In WordPress With Art Direction**](/smashingmagazine.com/responsive-images-in-wordpress-with-art-direction.md)
+
+```component VPCard
+{
+  "title": "WordPress Responsive Images With Art Direction",
+  "desc": "With a few additions, WordPress websites can accommodate a responsive image use case known as art direction. Art direction gives us the ability to design with images whose crop or composition changes at certain breakpoints. In this article, Laurie Laforest will show you how to set up a WordPress theme to support art direction in a simple manner. This method relies on WordPress’ standard administration interface as much as possible, and it requires only a single image to be uploaded.",
+  "link": "/smashingmagazine.com/responsive-images-in-wordpress-with-art-direction.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
 
 ```component VPCard
 {

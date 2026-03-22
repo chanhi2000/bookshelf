@@ -15,6 +15,7 @@ const Y2025: SidebarYeargroupTemplate = {
     // END: 2025
     "smashing-animations-part-7-recreating-toon-text-css-svg", // 2025-12-17
     "smashing-animations-part-1-classic-cartoons-inspire-css", // 2025-05-07
+    "wcag-3-proposed-scoring-model-shift-accessibility-evaluation", // 2025-05-02
   ],
 }
 
@@ -43,6 +44,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "how-run-ux-research-without-access-users", // 2024-05-10
     "forensics-react-server-components", // 2024-05-09
     "harness-mouse-interaction-data-machine-learning", // 2024-05-06
+    "setting-persisting-color-scheme-preferences-css-javascript", // 2024-03-25
     "end-of-gatsby-journey", // 2024-03-06
     "modern-css-tooltips-speech-bubbles-part1", // 2024-03-01
     "css-blurry-shimmer-effect", // 2024-01-25
@@ -57,6 +59,7 @@ const Y2023: SidebarYeargroupTemplate = {
     // END: 2023
     "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15
     "speedcurve-fight-main-thread", // 2023-10-24
+    "getting-started-with-neon-branching", // 2023-09-26
     "revealing-images-css-mask-animations", // 2023-09-15
     "gradients-blend-modes-hover-effect", // 2023-09-11
     "popular-devtools-tips", // 2023-06-27
@@ -72,6 +75,7 @@ const Y2022: SidebarYeargroupTemplate = {
   children: [
     // END: 2022
     "guide-command-line-data-manipulation-cli-miller", // 2022-12-27
+    "motion-controls-browser", // 2022-10-28
     "nodejs-authentication-twilio-verify", // 2022-10-07
     "complete-guide-css-container-queries", // 2022-09-15
     "introduction-css-cascade-layers", // 2022-01-24
@@ -89,6 +93,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "has-native-css-parent-selector", // 2021-06-09
     "css-overflow-issues", // 2021-04-14
     "responsive-image-effects-css-gradients-aspect-ratio", // 2021-02-23
+    "things-you-can-do-with-css-today", // 2021-02-01
   ],
 }
 
@@ -139,6 +144,8 @@ const Y2016: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2016
+    "automating-art-direction-with-the-responsive-image-breakpoints-generator", // 2016-09-29
+    "responsive-images-done-right-guide-picture-srcset", // 2016-09-01
     "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
     "preload-what-is-it-good-for", // 2016-02-26
     "getting-ready-for-http2", // 2016-02-16
@@ -199,6 +206,7 @@ const Y2011: SidebarYeargroupTemplate = {
   children: [
     // END: 2011
     "an-introduction-to-object-oriented-css-oocss", // 2011-12-12
+    "sisyphus-js-client-side-drafts-and-more", // 2011-12-05
     "html5-semantics", // 2011-11-18
   ],
 }
@@ -252,6 +260,9 @@ export const template: SidebarInfoTemplate = {
       // END: sh
     ]],[
     "js", [
+      // END: 2010js
+      "sisyphus-js-client-side-drafts-and-more", // 2011-12-05
+      // END: 2011js
       "useful-javascript-libraries-jquery-plugins-part-2", // 2012-09-26
       "client-side-templating", // 2012-12-05
       // END: 2012js
@@ -269,9 +280,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2020js
       "css-overflow-issues", // 2021-04-14
       // END: 2021js
+      "motion-controls-browser", // 2022-10-28
       // END: 2022js
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       // END: 2023js
+      "setting-persisting-color-scheme-preferences-css-javascript", // 2024-03-25
       // END: 2024js
       // END: 2025js
       // END: js
@@ -287,6 +300,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2020js-node
       // END: 2021js-node
       // END: 2022js-node
+      "getting-started-with-neon-branching", // 2023-09-26
       // END: 2023js-node
       "netlify-platform-primitives", // 2024-05-28
       // END: 2024js-node
@@ -387,6 +401,7 @@ export const template: SidebarInfoTemplate = {
       "getting-ready-for-http2", // 2016-02-16
       "preload-what-is-it-good-for", // 2016-02-26
       "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
+      "automating-art-direction-with-the-responsive-image-breakpoints-generator", // 2016-09-29
       // END: 2016css
       "start-using-css-custom-properties", // 2017-04-19
       "understanding-css-layout-block-formatting-context", // 2017-12-11
@@ -402,6 +417,7 @@ export const template: SidebarInfoTemplate = {
       "understanding-css-grid-container", // 2020-01-03
       "understanding-css-grid-lines", // 2020-01-10
       // END: 2020css
+      "things-you-can-do-with-css-today", // 2021-02-01
       "responsive-image-effects-css-gradients-aspect-ratio", // 2021-02-23
       "css-overflow-issues", // 2021-04-14
       "has-native-css-parent-selector", // 2021-06-09
@@ -411,6 +427,7 @@ export const template: SidebarInfoTemplate = {
       "css-radial-conic-gradient", // 2022-01-10
       "introduction-css-cascade-layers", // 2022-01-24
       "complete-guide-css-container-queries", // 2022-09-15
+      "motion-controls-browser", // 2022-10-28
       // END: 2022css
       "level-up-css-skills-has-selector", // 2023-01-23
       "build-magazine-layout-css-grid-areas", // 2023-02-06
@@ -423,6 +440,7 @@ export const template: SidebarInfoTemplate = {
       "css-border-image-property", // 2024-01-16
       "css-blurry-shimmer-effect", // 2024-01-25
       "modern-css-tooltips-speech-bubbles-part1", // 2024-03-01
+      "setting-persisting-color-scheme-preferences-css-javascript", // 2024-03-25
       "times-need-custom-property-instead-css-variable", // 2024-05-13
       "beyond-css-media-queries", // 2024-05-16
       "combining-css-has-html-select-conditional-styling", //2024-05-02
@@ -438,6 +456,69 @@ export const template: SidebarInfoTemplate = {
       "smashing-animations-part-7-recreating-toon-text-css-svg", // 2025-12-17
       // END: 2025css
       // END: css
+    ]],[
+    "php", [
+      // END: 2014php
+      // END: 2015php
+      // END: 2016php
+      // END: 2017php
+      // END: 2018php
+      // END: 2019php
+      // END: 2020php
+      // END: 2021php
+      // END: 2022php
+      // END: 2023php
+      // END: 2024php
+      // END: 2025php
+      // END: php
+    ]],[
+    "php-wordpress", [
+      // END: 2014php-wordpress
+      // END: 2015php-wordpress
+      "responsive-images-done-right-guide-picture-srcset", // 2016-09-01
+      // END: 2016php-wordpress
+      // END: 2017php-wordpress
+      // END: 2018php-wordpress
+      // END: 2019php-wordpress
+      // END: 2020php-wordpress
+      // END: 2021php-wordpress
+      // END: 2022php-wordpress
+      // END: 2023php-wordpress
+      // END: 2024php-wordpress
+      // END: 2025php-wordpress
+      // END: php-wordpress
+    ]],[
+    "git", [
+      // END: 2014git
+      // END: 2015git
+      // END: 2016git
+      // END: 2017git
+      // END: 2018git
+      // END: 2019git
+      // END: 2020git
+      // END: 2021git
+      // END: 2022git
+      "getting-started-with-neon-branching", // 2023-09-26
+      // END: 2023git
+      // END: 2024git
+      // END: 2025git
+      // END: git
+    ]],[
+    "data-science", [
+      // END: 2014data-science
+      // END: 2015data-science
+      // END: 2016data-science
+      // END: 2017data-science
+      // END: 2018data-science
+      // END: 2019data-science
+      // END: 2020data-science
+      // END: 2021data-science
+      // END: 2022data-science
+      "getting-started-with-neon-branching", // 2023-09-26
+      // END: 2023data-science
+      // END: 2024data-science
+      // END: 2025data-science
+      // END: data-science
     ]],[
     "mongodb", [
       // END: 2014mongodb
@@ -469,6 +550,7 @@ export const template: SidebarInfoTemplate = {
       "naming-best-practices", // 2024-05-23
       "scaling-success-key-insights-pratical-takeaways", // 2024-06-04
       // END: 2024system-design
+      "wcag-3-proposed-scoring-model-shift-accessibility-evaluation", // 2025-05-02
       // END: 2025system-design
       // END: system-design
     ]],[

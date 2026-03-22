@@ -253,7 +253,7 @@ We now have an animated, curved, stack of folders implemented with a `<select>` 
   slug-hash="dPXdgae"
   title="Stack of folders with custom <select>"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 CSS gains a lot of new capabilities each year. I hope this demo walk through helped you get a better understanding of some of these new capabilities. Building it helped me understand a lot of new, to me, concepts. It also got me very excited about the customizable select feature. So much, that I created other demos too. So, let’s look at two more of them. This time though, we’ll go quicker and only highlight the most important parts.
 
@@ -410,7 +410,7 @@ That’s it, our deck of cards, with animated opening, is now ready! Check out t
   slug-hash="ZYONReV"
   title="Deck of cards with custom <select>"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s amazing to me how far customizable selects allow you to push things. You don’t only get to override the way the button and its options look, you get to change how everything is positioned, and even animated.
 
@@ -463,7 +463,7 @@ To learn more and play with the live demo, check out this CodePen:
   slug-hash="PwzvBGB"
   title="Emoji picker, with custom <select>"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

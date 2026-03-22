@@ -28,8 +28,8 @@ prev: /devops/aws/articles/README.md
 date: 2024-12-20
 isOriginal: false
 author:
-  - name: Andrew Brown
-    url: https://exampro.co/aws-exam-solutions-architect-professional
+  - name: Andrew Brown (@ExamProChannel)
+    url: https://youtube.com/@ExamProChannel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734624111613/72a048e5-3ba2-4c95-b553-086c9110c5d3.png
 ---
 
@@ -125,6 +125,12 @@ By the end of this course, you will be confident in your ability to design solut
 Head over to the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/hyEw7dQ9-JE) and start your journey toward becoming an **AWS Certified Solutions Architect - Professional** today (70-hour watch)!
 
 <VidStack src="youtube/hyEw7dQ9-JE" />
+
+::: info
+
+~~https://exampro.co/aws-exam-solutions-architect-professional~~
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

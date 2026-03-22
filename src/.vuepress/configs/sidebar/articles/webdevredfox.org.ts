@@ -5,8 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
-    "postshould-you-use-an-accessibility-overlay", // 2026-02-04
-    "postlets-stop-misusing-overscroll-behavior", // 2026-01-28
+    "should-you-use-an-accessibility-overlay", // 2026-02-04
+    "lets-stop-misusing-overscroll-behavior", // 2026-01-28
   ]
 }
 

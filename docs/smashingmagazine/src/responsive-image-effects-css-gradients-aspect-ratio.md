@@ -338,7 +338,7 @@ Here is the CodePen including the features and effects we reviewed today:
   slug-hash="WNoERXo"
   title="Responsive Image Effects with CSS Gradients and aspect-ratio"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info
 

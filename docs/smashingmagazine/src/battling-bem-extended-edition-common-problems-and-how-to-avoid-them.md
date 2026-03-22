@@ -460,7 +460,15 @@ This is an enhanced version of my original article “[Battling BEM: 5 Common Pr
 }
 ```
 
-- [**Getting Started With Neon Branching**](/smashingmagazine.com/getting-started-with-neon-branching.md)
+```component VPCard
+{
+  "title": "Getting Started With Neon Branching",
+  "desc": "Branches are a really nice (and safe) way to configure or reconfigure your database without fear of screwing up the production database. Let’s take a closer look at how branching works with Neon, and the good news is, you probably already know how it works!",
+  "link": "/smashingmagazine.com/getting-started-with-neon-branching.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
 
 :::
 

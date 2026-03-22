@@ -77,7 +77,7 @@ To get `resize` working, one must apply it on a block level element + also set `
   slug-hash="mdeGgJR"
   title="Resizable Element (Pure CSS)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Don’t forget to set `min-width`/`min-height`/`max-width`/`max-height` in case you want to prevent the resizable box from becoming too small/big.
 
@@ -109,7 +109,7 @@ Like so:
   slug-hash="KKdxyxo"
   title="Resizable iframe (Pure CSS)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 As images also are replaced elements *(see above)*, you need to apply a similar trick to be able to resize them:
 
@@ -118,7 +118,7 @@ As images also are replaced elements *(see above)*, you need to apply a similar 
   slug-hash="mdrJgwy"
   title="Resizable image (Pure CSS)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note ☝️
 

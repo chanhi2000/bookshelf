@@ -96,13 +96,13 @@ If they aren’t, then even if you set a massive `z-index` value on an element i
   link="https://codepen.io/amit_sheen/pen/ogzbzag/acba5545674b8aa9e7090847517d4272"
   title="The value of z-index - Demo 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- <CodePen
   link="https://codepen.io/amit_sheen/pen/ogzbzag/acba5545674b8aa9e7090847517d4272"
   title="The value of z-index - Demo 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/> -->
+  :theme="dark"/> -->
 
 Now let’s get back to the values.
 
@@ -152,7 +152,7 @@ Let’s look at how this works in practice. I’ve prepared a simple demo where 
   link="https://codepen.io/amit_sheen/pen/GgjgQXa/09de94c17a5fb5756581868390797d10"
   title="The value of z-index - Demo 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This setup is incredibly convenient. If you need to add a new popup or a toast, you know exactly which `z-index` to use. If you want to change the order — for example, to place toasts above the overlay — you don’t need to hunt through dozens of files. You just change the values in the `:root`, and everything updates accordingly in one place.
 
@@ -176,7 +176,7 @@ In a traditional setup, you’d be checking every existing element to see what n
   link="https://codepen.io/amit_sheen/pen/gbwbvBN/ae6e7037318d3f526df93c803d34a7e6"
   title="The value of z-index - Demo 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You don’t have to touch a single existing component with this setup. You update the tokens and you’re good to go. The logic of your application remains consistent, and you’re no longer guessing which number is “high enough”.
 
@@ -200,7 +200,7 @@ This ensures that the background will always stay exactly one step behind the ov
   user="https://codepen.io/amit_sheen/pen/KwgwQbg/802823b9a4baf0f9ae583939538e5f69"
   title="The value of z-index - Demo 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -245,7 +245,7 @@ For even more complex internal layouts, you can still use `calc()` with these lo
   link="https://codepen.io/amit_sheen/pen/WbGbMmw/5b263640f071f7adafff0c4603aafc50"
   title="The value of z-index - Demo 4"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This keeps our logic consistent: we think about layers and positions systematically, rather than throwing random numbers at the problem and hoping for the best.
 
@@ -271,7 +271,7 @@ Whether the tooltip is on a button in the main content, an icon inside a toast, 
   link="https://codepen.io/amit_sheen/pen/emdmVoG/524d65a9d247414bf03e9efbd9adaf4b"
   title="The value of z-index - Demo 5"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Negative Values Can Be Good
 

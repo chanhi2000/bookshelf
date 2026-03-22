@@ -646,7 +646,7 @@ Let’s look at a bunch of media query examples. There are so many combinations 
   slug-hash="NWNeoVy"
   title="Example basic grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: details More info
 
@@ -672,7 +672,7 @@ There are many articles about thinking beyond width, [**I wrote about it a few y
   slug-hash="YzwMaKa"
   title="Gallery Grid Example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -685,7 +685,7 @@ There are many articles about thinking beyond width, [**I wrote about it a few y
   slug-hash="BaNroxd"
   title="Dark Mode: Combining Everything"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: details More info
 
@@ -704,7 +704,7 @@ Combining this technique with CSS custom properties makes things even easier bec
   slug-hash="GRZbrYp"
   title="Media Queries example"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: detatils More info
 
@@ -754,7 +754,7 @@ While media queries are unable to know exactly which device is being used, we ca
   slug-hash="NWxeaLx"
   title="example height media query"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: details More info
 
@@ -793,7 +793,7 @@ The beauty of this is that it allows the font size to adjust based on the browse
   slug-hash="vgbLyq"
   title="Multi select cards"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: details More info
 

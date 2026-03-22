@@ -135,7 +135,7 @@ Crucially, if the anchor element is a parent to the positioned element and creat
   slug-hash="raBdLWP"
   title="Sibling vs Child"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There are many things that can cause the anchor element to create a containing block, and positioned elements that are children will not work:
 
@@ -156,7 +156,7 @@ The valid pseudo-elements are `::before`, `::after` and `::file-selector-button`
   slug-hash="GgKxNWV"
   title="Anchor Pseudos"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Anchor scope
 
@@ -167,7 +167,7 @@ Anchor scope is great for making reusable anchoring rules, especially if you are
   slug-hash="QwLVGjZ"
   title="Anchor Scope"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Absolute anchor order
 
@@ -180,7 +180,7 @@ Generally, absolutely positioned elements are rendered after relatively position
   slug-hash="xbKpedP"
   title="Absolute Anchor Order"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: note
 
@@ -199,7 +199,7 @@ You can position the root popover or dialog directly using `position: absolute`.
   slug-hash="OPLzjJq"
   title="Top layer"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 However, if you want to position an element that is inside the popover or dialog, you will need to use `position: fixed`. Note that the positioned elements are not inside their parents in this example – `position: fixed` moves the element’s containing block to the viewport and allows positioning to work.
 
@@ -208,7 +208,7 @@ However, if you want to position an element that is inside the popover or dialog
   slug-hash="vEBbVXq"
   title="Top layer - inside"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Anchoring across shadow trees
 
@@ -219,7 +219,7 @@ An element in one tree can anchor to an element in another tree, as long as the 
   slug-hash="zxOWoOE"
   title="Anchor on Shadow Part"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -250,7 +250,7 @@ You likely have run into containing blocks before. When you are positioning some
   slug-hash="NPKyRPm"
   title="Absolute containing box"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you use percentages to define widths and heights, these are calculated relative to the element’s containing block.
 

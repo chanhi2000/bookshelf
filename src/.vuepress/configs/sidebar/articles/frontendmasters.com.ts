@@ -5,6 +5,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "the-top-trait-companies-look-for-in-a-technical-interview", // 2026-03-26
+    "shadow-dom-focus-delegation-getting-delegatesfocus-right", // 2026-03-24
+    "two-circles-one-arrow-and-anchor-positioning", // 2026-03-23
     "image-gallery-with-popovers-and-aim-anchor-interpolated-morph", // 2026-03-19
     "flexbox-masonry-layout-explained-with-math", // 2026-03-17
     "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
@@ -321,6 +324,7 @@ export const template: SidebarInfoTemplate = {
       "view-transitions-playing-video", // 2026-01-20
       "the-browser-hates-surprises", // 2026-02-06
       "virtual-scroll-driven-3d-scenes", // 2026-02-23
+      "shadow-dom-focus-delegation-getting-delegatesfocus-right", // 2026-03-24
       // END: 2026js
       // END: js
     ]],[
@@ -369,6 +373,7 @@ export const template: SidebarInfoTemplate = {
       "reacts-viewtransition-element", // 2026-01-31
       "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
       "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
+      "the-top-trait-companies-look-for-in-a-technical-interview", // 2026-03-26
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -578,8 +583,10 @@ export const template: SidebarInfoTemplate = {
       "form-associated-custom-elements-in-practice", // 2026-03-11
       "flexbox-masonry-layout-explained-with-math", // 2026-03-17
       "image-gallery-with-popovers-and-aim-anchor-interpolated-morph", // 2026-03-19
+      "two-circles-one-arrow-and-anchor-positioning", // 2026-03-23
+      "the-top-trait-companies-look-for-in-a-technical-interview", // 2026-03-26
       // END: 2026css
-      // END: css
+      // END`: css
     ]],[
     "devops", [
       "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
@@ -704,6 +711,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024career
       "am-i-a-sadistic-developer-are-you", // 2025-04-24
       // END: 2025career
+      "the-top-trait-companies-look-for-in-a-technical-interview", // 2026-03-26
+      // END: 2026career
       // END: career
     ]],[
     "all", [

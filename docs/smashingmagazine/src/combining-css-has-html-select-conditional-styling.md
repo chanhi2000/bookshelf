@@ -168,7 +168,16 @@ I’ve used this technique a few different ways — e.g., as form validation, a 
 }
 ```
 
-- “[**Setting And Persisting Color Scheme Preferences With CSS And A “Touch” Of JavaScript**](/smashingmagazine.com/setting-persisting-color-scheme-preferences-css-javascript.md),” Henry Bley-Vroman
+```component VPCard
+{
+  "title": "Setting And Persisting Color Scheme Preferences With CSS And A “Touch” Of JavaScript",
+  "desc": "There are many ways to approach a “Dark Mode” feature that respects a user’s system color scheme preferences and allows for per-site customization. Henry Bley-Vroman walks through a new possibility that leans into cutting-edge CSS, with minimal JavaScript to support persisting the user’s color scheme preference across pages.",
+  "link": "/smashingmagazine.com/setting-persisting-color-scheme-preferences-css-javascript.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - “[**The Complex But Awesome CSS border-image Property**](/smashingmagazine.com/css-border-image-property.md),” Temani Afif
 
 :::

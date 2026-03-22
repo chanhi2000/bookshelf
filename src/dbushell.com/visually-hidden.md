@@ -634,7 +634,7 @@ Other minimum viable ideas have been presented before.
   slug-hash="QWVOqNY"
   title="transform scale(0) to visually hide content"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

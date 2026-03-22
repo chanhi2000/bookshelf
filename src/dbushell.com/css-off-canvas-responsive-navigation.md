@@ -73,7 +73,7 @@ Check out [my new demo on CodePen (<VPIcon icon="fa-brands fa-codepen"/>`dbushel
   slug-hash="yLMEogE"
   title="Off-Canvas Navigation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I think I’ve finally nailed it… well I am at least happy with the latest iteration but I’ll continue to tweak it. I’ve listed the key features on the demo page and expanded upon them below. It’s all built with accessibility and performance as a priority.
 

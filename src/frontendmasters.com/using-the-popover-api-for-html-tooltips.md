@@ -247,7 +247,7 @@ Nice.
   slug-hash="rNbXNeg"
   title="Popover API Tooltips with Positioning"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 

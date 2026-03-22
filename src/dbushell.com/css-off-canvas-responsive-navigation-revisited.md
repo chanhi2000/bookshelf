@@ -63,7 +63,7 @@ Checkout [my new demo on CodePen (<VPIcon icon="fa-brands fa-codepen" />`dbushel
   slug-hash="xxmzddB"
   title="Off-Canvas Navigation ²"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 All the good stuff remains like focus state, keyboard navigation, right-to-left styles. This is still experimental I don’t consider it ready to use just yet.
 

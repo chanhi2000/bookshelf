@@ -62,7 +62,7 @@ Here’s the demo:
   link="https://codepen.io/editor/team/CodePenTemplates/pen/019cb5ec-807e-727a-b18a-5eb41b0fc901"
   title="Photo Grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: details Here’s a video in case you’re on a browser that doesn’t support this particular cocktail of technology.
 
@@ -269,7 +269,7 @@ Note that our entry and exit styles are *the same* here, which is actually nice.
   link="https://codepen.io/editor/team/CodePenTemplates/pen/019cb5ec-807e-727a-b18a-5eb41b0fc901"
   title="Photo Grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that the animation starts before the larger image is necessarily all the way loaded, which is a smidge awkward. You could remove the lazy loading, or figure out some JavaScript that will delay the action until it’s loaded or something.
 
@@ -279,7 +279,7 @@ And here’s an example where an AIM exit style goes to a totally different anch
   link="https://codepen.io/editor/chriscoyier/pen/019c9184-da1d-76bf-b87b-2cb41fdff184"
   title="AIM with Different Start/End"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

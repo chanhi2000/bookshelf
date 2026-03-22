@@ -26,8 +26,8 @@ prev: /ai/llm/articles/README.md
 date: 2025-05-09
 isOriginal: false
 author:
-  - name: Andrew Brown
-    url: https://exampro.co/gcp-ace
+  - name: Andrew Brown (@ExamProChannel)
+    url: https://youtube.com/@ExamProChannel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746719963573/21c89484-ff8e-45b1-8035-ac9650c22894.png
 ---
 
@@ -72,6 +72,20 @@ By the end of the bootcamp, you’ll have a strong understanding of GenAI archit
 This course is ideal for self-taught developers, students, educators, and professionals looking to pivot into AI or expand their tech toolkit. And best of all, it’s completely free. You can watch the entire 65-hour bootcamp on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube channel](https://youtu.be/DOXJ7s1D6iE) at your own pace.
 
 <VidStack src="youtube/DOXJ7s1D6iE" />
+
+::: info
+
+```component VPCard
+{
+  "title": "Cloud Computing Certification Training Courses - ExamPro",
+  "desc": "Get certified in cloud technologies with ExamPro. Learn AWS, Azure, GCP, and more!",
+  "link": "https://exampro.co/",
+  "logo": "https://exampro.co/exampro-logo.svg",
+  "background": "rgba(249,115,22,0.2)"
+}
+```
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

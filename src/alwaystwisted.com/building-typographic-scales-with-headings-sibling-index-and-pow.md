@@ -418,7 +418,7 @@ It’s a few more lines, but it behaves correctly no matter how your headings ar
   slug-hash="KwMLKLg"
   title="Typographic Scales with :heading(), pow, and sibling-index()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

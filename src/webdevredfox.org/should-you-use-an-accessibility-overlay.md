@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Should you use an Accessibility Overlay?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/webdevredfox.org/postshould-you-use-an-accessibility-overlay.html
+      content: https://chanhi2000.github.io/bookshelf/webdevredfox.org/should-you-use-an-accessibility-overlay.html
 prev: /programming/css/articles/README.md
 date: 2026-02-04
 isOriginal: false
@@ -123,7 +123,7 @@ Overlays are at best redundant when your site is already accessible, and can get
 {
   "title": "Should you use an Accessibility Overlay?",
   "desc": "The answer is No! Here's why.",
-  "link": "https://chanhi2000.github.io/bookshelf/webdevredfox.org/postshould-you-use-an-accessibility-overlay.html",
+  "link": "https://chanhi2000.github.io/bookshelf/webdevredfox.org/should-you-use-an-accessibility-overlay.html",
   "logo": "https://svelte.dev/favicon.png",
   "background": "rgba(2255,127,80,0.2)"
 }

@@ -176,7 +176,7 @@ export const navbarEn = navbar([
       }, {
         text: 'alwaystwisted.com',
         icon: 'https://alwaystwisted.com/images/favicons/apple-touch-icon.png',
-        link: '/webdevredfox.org/README.md'
+        link: '/alwaystwisted.com/README.md'
       }, {
         text: 'towardsdatascience.com',
         icon: 'https://cdn-images-1.medium.com/v2/resize:fill:128:128/1*VzTUkfeGymHP4Bvav-T-lA.png',

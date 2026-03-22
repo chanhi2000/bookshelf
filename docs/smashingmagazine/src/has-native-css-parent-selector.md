@@ -211,7 +211,7 @@ Let’s take a look at the following card component example which has several va
   slug-hash="jOBpeQo"
   title="Card variations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For these cards to have the correct layout, developers need to apply the correct modifier CSS classes manually. Based on the design, elements can have multiple variations resulting in a large number of modifier classes which sometimes leads to [<VPIcon icon="fas fa-globe"/>creative HTML workarounds](https://csswizardry.com/2014/05/grouping-related-classes-in-your-markup/) to group all those classes in the markup. Developers need to keep track of the CSS classes, maintain documentation and make sure to apply appropriate classes.
 
@@ -237,7 +237,7 @@ For more complex cases, when the applied parent element style depends on child s
   slug-hash="LYWBgXy"
   title="Filter button state"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Relational Selector In jQuery
 
@@ -261,7 +261,7 @@ $("input").click(function() {
   slug-hash="BaWPqqO"
   title="Email inputs — valid / invalid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

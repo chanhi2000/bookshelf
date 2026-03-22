@@ -213,7 +213,16 @@ An increasing amount of information about HTTP/2 is available online. I’ve lis
 
 - [**Everything You Need To Know About AMP**](/smashingmagazine.com/everything-about-google-accelerated-mobile-pages.md)
 - [**Improving Smashing Magazine’s Performance**](/smashingmagazine.com/improving-smashing-magazine-performance-case-study.md)
-- [**Getting Ready For HTTP2: A Guide For Web Designers And Developers**](/smashingmagazine.com/getting-started-with-neon-branching.md)
+
+```component VPCard
+{
+  "title": "Getting Started With Neon Branching",
+  "desc": "Branches are a really nice (and safe) way to configure or reconfigure your database without fear of screwing up the production database. Let’s take a closer look at how branching works with Neon, and the good news is, you probably already know how it works!",
+  "link": "/smashingmagazine.com/getting-started-with-neon-branching.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
 
 :::
 

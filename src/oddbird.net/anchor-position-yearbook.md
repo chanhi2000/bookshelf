@@ -168,7 +168,7 @@ I’d recommend [viewing this on Codepen (<VPIcon icon="fa-brands fa-codepen" />
   slug-hash="PoMvNwm"
   title="CSS Anchor Positioning - Yearbook layout"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that Chromium released support for `anchor-scope` in version 131, but since the polyfill doesn’t support partial polyfilling, this demo will only work in Chromium before 125, after 131, or in a non-Chromium browser.
 

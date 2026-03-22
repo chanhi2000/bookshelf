@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "getting-started-with-pgvector-in-dotnet-for-simple-vector-search", // 2026-03-28
     "scaling-signalr-with-redis-backplane", // 2026-03-21
     "optimizing-bulk-database-updates-in-dotnet", // 2026-03-14
     "5-architecture-tests-you-should-add-to-your-dotnet-projects", // 2026-03-07
@@ -401,6 +402,7 @@ export const template: SidebarInfoTemplate = {
       "5-architecture-tests-you-should-add-to-your-dotnet-projects", // 2026-03-07
       "optimizing-bulk-database-updates-in-dotne", // 2026-03-14
       "scaling-signalr-with-redis-backplane", // 2026-03-21
+      "getting-started-with-pgvector-in-dotnet-for-simple-vector-search", // 2026-03-28
       // END: 2026cs
       // END: cs
     ]],[
@@ -507,6 +509,8 @@ export const template: SidebarInfoTemplate = {
       "distributed-locking-in-dotnet-coordinating-work-across-multiple-instances", // 2025-09-20
       "using-stored-procedures-and-functions-with-ef-core-and-postgresql", // 2205-10-04
       // END: 2025postgres
+      "getting-started-with-pgvector-in-dotnet-for-simple-vector-search", // 2026-03-28
+      // END: 2026postgres
       // END: postgres
     ]],[
     "redis", [

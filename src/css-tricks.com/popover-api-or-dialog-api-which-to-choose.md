@@ -127,7 +127,7 @@ Now, without additional styling, the popover looks kinda meh. Styling is a whole
   slug-hash="dPYXEYV"
   title="Raw Popover"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -214,7 +214,7 @@ modalInvokers.forEach(invoker => {
   slug-hash="raOLgLe"
   title="Raw Modal — Open"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Great. The modal is open. Now we gotta write code to close the modal.
 
@@ -268,7 +268,7 @@ Phew, with this, we’re done with the *basic* implementation.
   slug-hash="QwjERxw"
   title="Raw Modal — Open and Close"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Of course, there’s advanced work like light dismiss and styling… which we can tackle in a future article.
 
