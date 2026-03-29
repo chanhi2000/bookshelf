@@ -73,7 +73,7 @@ Keep reading to see all three method types in action. You’ll even bake some di
 <SiteInfo
   name="Python's Instance, Class, and Static Methods Demystified (Sample Code) – Real Python"
   desc=""
-  url="https://realpython.com/bonus/instance-class-and-static-methods-demystified-code//"
+  url="https://realpython.com/bonus/instance-class-and-static-methods-demystified-code/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://realpython.com/static/social-default-image.5e1aa4786b3a.png"/>
 
@@ -88,7 +88,7 @@ Test your knowledge with our interactive “Python's Instance, Class, and Static
 <SiteInfo
   name="Python's Instance, Class, and Static Methods Demystified Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of instance, class, and static methods in Python. By working through this quiz, you'll revisit the differences between these methods and how to use them effectively in your Python code."
-  url="https://realpython.com/quizzes/instance-class-and-static-methods-demystified//"
+  url="https://realpython.com/quizzes/instance-class-and-static-methods-demystified/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Pythons-Instance-Class-and-Static-Methods-Demystified_Watermarked.5bce71bc29d0.jpg"/>
 
@@ -478,7 +478,7 @@ Use all three method types in combination with Python’s other object-oriented 
 <SiteInfo
   name="Python's Instance, Class, and Static Methods Demystified (Sample Code) – Real Python"
   desc=""
-  url="https://realpython.com/bonus/instance-class-and-static-methods-demystified-code//"
+  url="https://realpython.com/bonus/instance-class-and-static-methods-demystified-code/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://realpython.com/static/social-default-image.5e1aa4786b3a.png"/>
 
@@ -531,7 +531,7 @@ Test your knowledge with our interactive “Python's Instance, Class, and Static
 <SiteInfo
   name="Python's Instance, Class, and Static Methods Demystified Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of instance, class, and static methods in Python. By working through this quiz, you'll revisit the differences between these methods and how to use them effectively in your Python code."
-  url="https://realpython.com/quizzes/instance-class-and-static-methods-demystified//"
+  url="https://realpython.com/quizzes/instance-class-and-static-methods-demystified/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Pythons-Instance-Class-and-Static-Methods-Demystified_Watermarked.5bce71bc29d0.jpg"/>
 

@@ -170,14 +170,14 @@ Check out these additional resources on Docker 1.12:
 <SiteInfo
   name="Getting started with Swarm mode"
   desc="Getting Started tutorial for Docker Engine Swarm mode"
-  url="https://docs.docker.com/engine/swarm/swarm-tutorial//"
+  url="https://docs.docker.com/engine/swarm/swarm-tutorial/"
   logo="https://docs.docker.com/favicons/docs@2x.ico"
   preview="https://docs.docker.com/images/thumbnail.webp"/>
 
 <SiteInfo
   name="Swarm mode"
   desc="Docker Engine Swarm mode overview"
-  url="https://docs.docker.com/engine/swarm//"
+  url="https://docs.docker.com/engine/swarm/"
   logo="https://docs.docker.com/favicons/docs@2x.ico"
   preview="https://docs.docker.com/images/thumbnail.webp"/>
 

@@ -684,21 +684,21 @@ You can check out some of my other beginner-friendly articles on my blog:
 <SiteInfo
   name="What is abstraction in Java and how to achieve it?"
   desc="Abstraction in Java is one of the four pillars of OOPs which is used to hide complex details while displaying the ones which are easier to understand."
-  url="https://tekolio.com/what-is-abstraction-in-java-and-how-to-achieve-it//"
+  url="https://tekolio.com/what-is-abstraction-in-java-and-how-to-achieve-it/"
   logo="https://cdn-elhdf.nitrocdn.com/jWsugUuWDlpBonojdTHjDHQtiFLwkBCo/assets/static/optimized/rev-1f4522b/wp-content/uploads/2022/02/cropped-logo-300x300.png"
   preview="https://tekolio.com/wp-content/uploads/2024/07/13.png"/>
 
 <SiteInfo
   name="How to build a Movie App in React using TMDB API? | Tekolio"
   desc="React Movie App or Movie App in React is a fun project that every React developer should make once, in order to improve/ enhance/ polish their React coding..."
-  url="https://tekolio.com/how-to-build-a-movie-app-in-react-using-tmdb-api//"
+  url="https://tekolio.com/how-to-build-a-movie-app-in-react-using-tmdb-api/"
   logo="https://cdn-elhdf.nitrocdn.com/jWsugUuWDlpBonojdTHjDHQtiFLwkBCo/assets/static/optimized/rev-1f4522b/wp-content/uploads/2022/02/cropped-logo-300x300.png"
   preview="https://tekolio.com/wp-content/uploads/2023/03/Movie-App-in-React.png"/>
 
 <SiteInfo
   name="How to Merge Two Sorted Arrays | Tekolio"
   desc="In this blog, we're going to learn how to merge two sorted arrays into a single sorted array using different approaches like insertion sort, merge sort..."
-  url="https://tekolio.com/how-to-merge-two-sorted-arrays//"
+  url="https://tekolio.com/how-to-merge-two-sorted-arrays/"
   logo="https://cdn-elhdf.nitrocdn.com/jWsugUuWDlpBonojdTHjDHQtiFLwkBCo/assets/static/optimized/rev-1f4522b/wp-content/uploads/2022/02/cropped-logo-300x300.png"
   preview="https://tekolio.com/wp-content/uploads/2022/09/Merge.png"/>
 

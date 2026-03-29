@@ -336,7 +336,7 @@ This workflow is ideal for developers who want to move from prototype to product
 {
   "title": "Strands Agents",
   "desc": "AI-powered agents for modern workflows",
-  "link": "https://strandsagents.com/latest//",
+  "link": "https://strandsagents.com/latest/",
   "logo": "https://strandsagents.com/latest/assets/favicon-dark.png",
   "background": "rgba(0,255,119,0.2)"
 }
@@ -346,7 +346,7 @@ This workflow is ideal for developers who want to move from prototype to product
 {
   "title": "Amazon Bedrock AgentCore - AWS",
   "desc": "Agentic platform to build, deploy and operate agents securely at scale - using any framework and model",
-  "link": "https://aws.amazon.com/bedrock/agentcore//",
+  "link": "https://aws.amazon.com/bedrock/agentcore/",
   "logo": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
   "background": "rgba(22,29,38,0.2)"
 }

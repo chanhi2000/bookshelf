@@ -649,7 +649,7 @@ For more information on installing and using Docker with GPU support, refer to t
 <SiteInfo
   name="Resource constraints"
   desc="Specify the runtime options for a container"
-  url="https://docs.docker.com/engine/containers/resource_constraints//"
+  url="https://docs.docker.com/engine/containers/resource_constraints/"
   logo="https://docs.docker.com/assets/images/favicon.svg"
   preview="https://docs.docker.com/images/thumbnail.webp"/>
 
@@ -657,7 +657,7 @@ For more information on installing and using Docker with GPU support, refer to t
 {
   "title": "nvidia/cuda - Docker Image",
   "desc": "CUDA and cuDNN images from gitlab.com/nvidia/cuda",
-  "link": "https://hub.docker.com/r/nvidia/cuda//",
+  "link": "https://hub.docker.com/r/nvidia/cuda/",
   "logo": "https://hub.docker.com/favicon.ico",
   "background": "rgba(41,134,255,0.2)"
 }

@@ -3456,7 +3456,7 @@ python src/train_naive.py
 {
   "title": "MLflow",
   "desc": "MLflow Documentation - Machine Learning and GenAI lifecycle management",
-  "link": "https://mlflow.org/docs/latest//",
+  "link": "https://mlflow.org/docs/latest/",
   "logo": "https://mlflow.org/docs/latest/images/favicon.ico",
   "background": "rgba(67,201,237,0.2)"
 }

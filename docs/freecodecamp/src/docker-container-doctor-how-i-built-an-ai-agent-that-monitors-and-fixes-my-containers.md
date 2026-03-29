@@ -949,7 +949,7 @@ Here's how I mitigate this:
 3. **No external inputs**: The script doesn't accept commands from Slack or any external source. It's outbound-only (logs out, alerts out).
 4. **API key rotation**: I rotate the Anthropic API key monthly. If the container is compromised, the key has limited blast radius.
 
-For a more secure setup, consider Docker's `--read-only` flag on the socket mount and a tool like [<VPIcon icon="iconfont icon-github" />`Tecnativa/docker-socket-proxy`](https://github.com/Tecnativa/docker-socket-proxy) to restrict which API calls the Container Doctor can make.
+For a more secure setup, consider Docker's `--read-only` flag on the socket mount and a tool like [<VPIcon icon="iconfont icon-github"/>`Tecnativa/docker-socket-proxy`](https://github.com/Tecnativa/docker-socket-proxy) to restrict which API calls the Container Doctor can make.
 
 ---
 
@@ -975,7 +975,7 @@ If you found this useful, I write about Docker, AI tools, and developer workflow
 
 ::: info
 
-Got questions or built something similar? Drop a comment below or find me on [GitHub (<VPIcon icon="iconfont icon-github"/>`balajee-asish`)](https://github.com/balajee-asish) and [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`balajee-asish`)](https://linkedin.com/in/balajee-asish).
+Got questions or built something similar? Drop a comment below or find me on [GitHub (<VPIcon icon="iconfont icon-github"/>`balajee-asish`)](https://github.com/balajee-asish) and [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`balajee-asish`)](https://linkedin.com/in/balajee-asish).
 
 :::
 

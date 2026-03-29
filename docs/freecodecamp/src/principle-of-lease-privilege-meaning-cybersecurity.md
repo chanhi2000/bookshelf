@@ -118,7 +118,7 @@ Here is a great list of cybersecurity policies to start with
 <SiteInfo
   name="How to Design an Effective Cybersecurity Policy"
   desc="A cybersecurity policy helps strengthen your cybersecurity posture for your entire organization. Learn how you can design an effective cybersecurity policy."
-  url="https://securityscorecard.com/blog/cybersecurity-policy-examples//"
+  url="https://securityscorecard.com/blog/cybersecurity-policy-examples/"
   logo="https://securityscorecard.com/wp-content/uploads/2024/08/cropped-Securityscorecard_favicon-192x192.png"
   preview="https://securityscorecard.com/wp-content/uploads/2024/05/Web_Imagery_Resources_LC_66.webp"/>
 

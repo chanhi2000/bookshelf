@@ -548,7 +548,7 @@ The next time you are faced with a project requiring you to choose a similar fra
 <SiteInfo
   name="Spring vs Spring Boot: An In-depth Comparison - ellow.io"
   desc="Explore the key differences between Java Spring vs Spring Boot in this article, aiding developers in choosing the right framework for their projects."
-  url="https://ellow.io/spring-vs-spring-boot//"
+  url="https://ellow.io/spring-vs-spring-boot/"
   logo="https://ellow.io/wp-content/uploads/2022/04/cropped-Ellow-Final-Logo-001-1-192x192.png"
   preview="https://ellow.io/wp-content/uploads/2023/12/Spring-vs-Spring-Boot.jpg"/>
 

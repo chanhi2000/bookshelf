@@ -106,7 +106,7 @@ Derek Powazek suggests adding a copyright message to a photo and use CSS to crop
 <SiteInfo
   name="Advanced Web Design Menu Effect Using Only CSS"
   desc="We demonstrate the power of CSS by creating an interactive menu experience without javascript."
-  url="https://threesevenmarketing.com/blog/advanced-css-menu-trick//"
+  url="https://threesevenmarketing.com/blog/advanced-css-menu-trick/"
   logo="https://threesevenmarketing.com/wp-content/uploads/2026/01/cropped-Favicon-192x192.png"
   preview="https://threesevenmarketing.com/blog-assets/images/adv_menu_lrg.jpg"/>
 
@@ -140,7 +140,7 @@ A method of designing the so-called step-menus, which have some steps users have
 {
   "title": "Creating bulletproof graphic link buttons with CSS | 456 Berea Street",
   "desc": "How to use CSS and two images to create flexible, shrinkwrapping, image based link buttons.",
-  "link": "https://456bereastreet.com/archive/200705/creating_bulletproof_graphic_link_buttons_with_css//",
+  "link": "https://456bereastreet.com/archive/200705/creating_bulletproof_graphic_link_buttons_with_css/",
   "logo": "https://456bereastreet.com/favicon.ico",
   "background": "rgba(51,51,51,0.2)"
 }
@@ -178,7 +178,7 @@ Ordered lists are boring! Sure you can apply background images and do quite a bi
 {
   "title": "Fade Out Bottom",
   "desc": "This is a cool effect where the bottom of the page seems to fade out. The technique makes use of an fixed position div (bottom: 0px;) with a transparent PNG image and a high z-index value. There is also a fix in place for IE 6",
-  "link": "https://css-tricks.com/examples/FadeOutBottom//",
+  "link": "https://css-tricks.com/examples/FadeOutBottom/",
   "logo": "https://css-tricks/favicon.svg",
   "background": "rgba(34,34,34,0.2)"
 }

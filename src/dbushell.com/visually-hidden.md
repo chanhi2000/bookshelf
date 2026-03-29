@@ -593,7 +593,7 @@ This is a classic [<VPIcon icon="fas fa-globe"/>Chesterton’s Fence](https://fs
 <SiteInfo
   name="Chesterton’s Fence: A Lesson in Thinking"
   desc="A core component of making great decisions is understanding previous decisions. If we don’t understand how we got “here,” we run the risk of making things much worse."
-  url="https://fs.blog/chestertons-fence//"
+  url="https://fs.blog/chestertons-fence/"
   logo="https://fs.blog/wp-content/uploads/2015/06/cropped-farnamstreet-300x300.png"
   preview="https://fs.blog/wp-content/uploads/2020/03/Chesterton’s-Fence-A-Lesson-in-Second-Order-Thinking.png"/>
 
@@ -667,7 +667,7 @@ A few more years ago, **Kitty Giraudel** tested several ideas concluding that `s
 {
   "title": "Hiding content responsibly",
   "desc": "A guide on hiding content in an accessible way, building on the A11y Advent calendar post",
-  "link": "https://kittygiraudel.com/2021/02/17/hiding-content-responsibly//",
+  "link": "https://kittygiraudel.com/2021/02/17/hiding-content-responsibly/",
   "logo": "https://kittygiraudel.com/assets/images/favicon.jpg",
   "background": "rgba(221,126,180,0.2)"
 }
@@ -692,7 +692,7 @@ A few more years ago, **Kitty Giraudel** tested several ideas concluding that `s
 <SiteInfo
   name="A new (and easy) way to hide content accessibly"
   desc="Possibly the best way to hide content accessibly. The CSS is easy to write and understand!"
-  url="https://zellwk.com/blog/hide-content-accessibly//"
+  url="https://zellwk.com/blog/hide-content-accessibly/"
   logo="https://zellwk.com/favicon/favicon.ico?v=2"
   preview="https:/zellwk.com/og/hide-content-accessibly.png"/>
 

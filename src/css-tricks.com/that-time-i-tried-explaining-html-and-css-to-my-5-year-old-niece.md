@@ -215,7 +215,7 @@ Which begs me to ask the question: How would you have approached explaining HTML
 {
   "title": "HTML, CSS and our vanishing industry entry points – Rachel Andrew",
   "desc": "Everyone is angry about CSS again. I’m not even going to try to summarize the arguments. However it always seems to boil down to the fact that CSS is simultaneously too easy to bother with, yet so hard it needs to be wrapped up in a ball of JavaScript in case it scares the horses. You can read a more sensible take from Chris Coyier in The Great Divide.",
-  "link": "https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points//",
+  "link": "https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points/",
   "logo": "https://rachelandrew.co.uk/wp-content/uploads/2022/07/favicon1.png",
   "background": "rgba(0,0,0,0.2)"
 }

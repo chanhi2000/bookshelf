@@ -136,7 +136,7 @@ runC is available today at [<VPIcon icon="iconfont icon-github"/>`opencontainers
 <SiteInfo
   name="Docker Online Meetup #21: DockerCon Recap, Mon, Jun 29, 2015, 10:00 AM   | Meetup"
   desc="Docker HQ is buzzing with excitement. By now you may have seen numerous blog posts, tweets, and general noise surrounding DockerCon. In case you are not able to join us in "
-  url="https://meetup.com/docker-online-meetup/events/222855066//"
+  url="https://meetup.com/docker-online-meetup/events/222855066/"
   logo="https://secure.meetupstatic.com/next/images/general/m_swarm_196x196.png"
   preview="https://secure.meetupstatic.com/photos/event/c/b/8/d/600_505012109.jpeg"/>
 

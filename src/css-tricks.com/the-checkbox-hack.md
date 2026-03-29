@@ -101,7 +101,7 @@ You can hide the default UI of a radio button or checkbox, and display a custom 
 {
   "title": "Custom radio and checkbox inputs using CSS",
   "desc": "In my never ending quest to find weird and wonderful ways to abuse CSS and all its little intricacies, I have come up with a pretty good way of using CSS to create custom radio and checkbox inputs without JavaScript, that are accessible, keyboard controlled, don’t use any hacks and degrade nicely in non supporting browsers. The journey wasn’t easy and I was on the brink of filing it in the “to crazy” folder, never to be seen again. Luckily I had a brain wave that paid off and actually allowed this to be a very viable solution that degrades beautifully and works in 80% of the browsers. This is my story.",
-  "link": "https://ryanseddon.com/css/custom-inputs-using-css//",
+  "link": "https://ryanseddon.com/css/custom-inputs-using-css/",
   "logo": "https://ryanseddon.com/favicon-16x16.png",
   "background": "rgba(51,51,51,0.2)"
 }
@@ -110,7 +110,7 @@ You can hide the default UI of a radio button or checkbox, and display a custom 
 <SiteInfo
   name="How to Customize Checkbox and Radio Inputs with Custom CSS | Wufoo"
   desc="Use Custom CSS to customize checkbox and radio inputs on your HTML forms."
-  url="https://wufoo.com/guides/custom-radio-buttons-and-checkboxes//"
+  url="https://wufoo.com/guides/custom-radio-buttons-and-checkboxes/"
   logo="https://wufoo.com/wp-content/themes/wufoo-site/img/favicons/favicon-16x16.png"
   preview="https://wufoo.com/images/guides/custom-radio-buttons-and-checkboxes/example-01.png"/>
 

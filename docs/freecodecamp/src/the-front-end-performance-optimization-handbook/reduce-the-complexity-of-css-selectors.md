@@ -128,7 +128,7 @@ Finally, I should say that according to the materials I've found, there's no nee
 <SiteInfo
   name="Optimizing CSS: ID Selectors and Other Myths — SitePoint"
   desc="Ivan Čurić covers the basics of CSS parsing, how to measure CSS selector performance, and how to deal with multiple render passing on dynamic pages."
-  url="https://sitepoint.com/optimizing-css-id-selectors-and-other-myths//"
+  url="https://sitepoint.com/optimizing-css-id-selectors-and-other-myths/"
   logo="https://sitepoint.com/favicons/32x32.png"
   preview="https://uploads.sitepoint.com/wp-content/uploads/2017/11/1510300025optimizing-css.jpg"/>
 

@@ -165,14 +165,14 @@ Design systems are excellent vehicles for embedding good accessibility practices
 <SiteInfo
   name="Understanding the European Accessibility Act (EAA) - TetraLogical"
   desc="The European Accessibility Act (EAA) requires that products and services made available within the European Union (EU) are accessible. Like most EU Directives, the EAA (DIRECTIVE (EU) 2019/882) is hard to understand, and this has left many people unsure about what it means - and more importantly, what they need to do to make sure their products and services comply. With this in mind, we'd like to share our understanding of the EAA as it applies to digital products and services."
-  url="https://tetralogical.com/blog/2025/03/19/understanding-the-eaa//"
+  url="https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/"
   logo="https://tetralogical.com/_images/favicons/icon.svg"
   preview="https://tetralogical.com/_images/screenshots/blog-2025-03-19-understanding-the-eaa.png"/>
 
 <SiteInfo
   name="European Accessibility Act (EAA) FAQ - TetraLogical"
   desc="The European Accessibility Act (EAA) came into effect on 28 June 2025. Many of our customers have asked what impact that may have on the digital services they offer. This post provides information on the application of the EAA in the context of websites and mobile apps."
-  url="https://tetralogical.com/blog/2025/07/18/eaa-faq//"
+  url="https://tetralogical.com/blog/2025/07/18/eaa-faq/"
   logo="https://tetralogical.com/_images/favicons/icon.svg"
   preview="https://tetralogical.com/_images/screenshots/blog-2025-07-18-eaa-faq.png"/>
 
@@ -189,7 +189,7 @@ Design systems are excellent vehicles for embedding good accessibility practices
 <SiteInfo
   name="Understanding the European Accessibility Act (EAA): Ensuring Compliance and Avoiding Penalties - AFixt"
   desc="Introduction to the European Accessibility Act (EAA) The European Accessibility Act (EAA) is a directive of the European Union aimed at improving the accessibility of products and services for people with disabilities and the elderly across the EU. Adopted in April 2019, the EAA seeks to harmonize accessibility requirements across member states, facilitating easier cross-border […]"
-  url="https://afixt.com/understanding-the-european-accessibility-act-eaa-ensuring-compliance-and-avoiding-penalties//"
+  url="https://afixt.com/understanding-the-european-accessibility-act-eaa-ensuring-compliance-and-avoiding-penalties/"
   logo="https://afixt.com/favicon.ico"
   preview="https://afixt.com/wp-content/uploads/2024/08/bitmap.png"/>
 

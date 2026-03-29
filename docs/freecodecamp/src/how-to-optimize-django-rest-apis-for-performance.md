@@ -533,7 +533,7 @@ Remember: Performance optimization is not a one-time task. It’s a habit built 
 <SiteInfo
   name="Database access optimization | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/6.0/topics/db/optimization//"
+  url="https://docs.djangoproject.com/en/6.0/topics/db/optimization/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 

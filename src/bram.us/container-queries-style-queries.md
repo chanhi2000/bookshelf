@@ -168,7 +168,7 @@ At the time of writing there are not that many resources to find, but there are 
 {
   "title": "Use-Cases for Style Queries",
   "desc": "When people talk about container queries, they are often referring specifically to ‘size queries’ – which allow us to query and respond to the computed size of an ancestor container. Browsers have already started to ship size-based container queries and related container query units.",
-  "link": "https://css.oddbird.net/rwd/query/style-cases//",
+  "link": "https://css.oddbird.net/rwd/query/style-cases/",
   "logo": "https://css.oddbird.net/favicon.svg",
   "background": "rgba(176,224,230,0.2)"
 }

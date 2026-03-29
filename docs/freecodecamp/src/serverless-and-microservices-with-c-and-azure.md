@@ -57,7 +57,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761754162686/963ecd3
 {
   "title": "Azure > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/azure/programming/cs/articles/README.md",
+  "link": "/devops/azure/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

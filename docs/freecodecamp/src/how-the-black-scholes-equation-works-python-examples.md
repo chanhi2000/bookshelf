@@ -203,7 +203,7 @@ This is the Python library we are using in this article:
 <SiteInfo
   name="blackscholes"
   desc="Black Scholes calculator for Python"
-  url="https://pypi.org/project/blackscholes//"
+  url="https://pypi.org/project/blackscholes/"
   logo="https://pypi.org/static/images/favicon.35549fe8.ico"
   preview="https://pypi.org/static/images/twitter.abaf4b19.webp"/>
 

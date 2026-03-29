@@ -540,7 +540,7 @@ I hope that reading this article help you improve code readability, and maintain
 {
   "title": "Use Enum’s with caution",
   "desc": "In C# the class Enum is often used. Some geek's argue that the Enum's ”improve code clarity and and reduce the probability of invalid values. ... Enum's are self-documenting. Enum's should be used with caution, since some things are not straight-forward. The following article will show you where to be cautious. What the MSDN documentation...",
-  "link": "https://planetgeek.ch/2009/07/01/enums-are-evil//",
+  "link": "https://planetgeek.ch/2009/07/01/enums-are-evil/",
   "logo": "https://planetgeek.ch/favicon.ico",
   "background": "rgba(20,47,93,0.2)"
 }

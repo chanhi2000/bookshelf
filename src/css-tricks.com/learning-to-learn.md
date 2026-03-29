@@ -79,7 +79,7 @@ When you’re learning on your own, this part can sometimes be tough — you don
 <SiteInfo
   name="Where Do You Learn HTML & CSS in 2020? | CSS-Tricks"
   desc="The question of how and where to learn HTML & CSS is a highly reasonable thing to ask. The answer depends on all sorts of things: how serious you are,"
-  url="https://css-tricks.com/where-do-you-learn-html-css-in-2020//"
+  url="https://css-tricks.com/where-do-you-learn-html-css-in-2020/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/02/john-schnobrich-520023-unsplash.png"/>
 
@@ -94,7 +94,7 @@ When you’re learning on your own, this part can sometimes be tough — you don
 {
   "title": "Amazon.com: CSS: The Definitive Guide: Visual Presentation for the Web: 9781449393199: Meyer, Eric, Weyl, Estelle: 도서",
   "desc": "Amazon.com: CSS: The Definitive Guide: Visual Presentation for the Web: 9781449393199: Meyer, Eric, Weyl, Estelle: 도서",
-  "link": "https://amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195//",
+  "link": "https://amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195/",
   "logo": "",
   "background": "rgba(8,87,73,0.2)"
 }

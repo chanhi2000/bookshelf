@@ -36,6 +36,17 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "the-javascript-module-system-architecture", // 2026-04-16
+    "the-radio-state-machine", // 2026-04-14
+    "7-view-transitions-recipes-to-try", // 2026-04-13
+    "selecting-a-date-range-in-css", // 2026-04-09
+    "alternatives-to-the-important-keyword", // 2026-04-07
+    "css-multi-column-layout-wrapping-features", // 2026-04-06
+    "complex-css-shapes-with-shape-function", // 2026-04-02
+    "front-end-april-fools-top-10", // 2026-04-01
+    "css-olfactive-api", // 2026-04-01
+    "whats-important-8", // 2026-03-31
+    "form-automation-tips-for-happier-user-and-clients", // 2026-03-30
     "generative-ui-notes", // 2026-03-26
     "experimenting-with-scroll-driven-corner-shape-animations", // 2026-03-23
     "javascript-for-everyone-destructuring", // 2026-03-20
@@ -531,6 +542,13 @@ export const template: SidebarInfoTemplate = {
       "abusing-customizable-selects", // 2026-03-11
       "whats-important-7", // 2026-03-16
       "experimenting-with-scroll-driven-corner-shape-animations", // 2026-03-23
+      "whats-important-8", // 2026-03-31
+      "css-olfactive-api", // 2026-04-01
+      "complex-css-shapes-with-shape-function", // 2026-04-02
+      "css-multi-column-layout-wrapping-features", // 2026-04-06
+      "selecting-a-date-range-in-css", // 2026-04-09
+      "7-view-transitions-recipes-to-try", // 2026-04-13
+      "the-radio-state-machine", // 2026-04-14
       // END: 2026css
       // END: css
     ]],[
@@ -549,6 +567,8 @@ export const template: SidebarInfoTemplate = {
     "js-node",[
       "a-primer-on-focus-trapping", // 2025-07-22
       // END: 2025js-node
+      "the-javascript-module-system-architecture", // 2026-04-16
+      // END: 2026js-node
       // END: js-node
     ]],[
     "js",[
@@ -567,6 +587,7 @@ export const template: SidebarInfoTemplate = {
       "future-css-drag-and-maybe-dragged-image", // 2025-01-07
       "a-complete-guide-to-bookmarklets", // 2026-02-25
       "javascript-for-everyone-destructuring", // 2026-03-20
+      "form-automation-tips-for-happier-user-and-clients", // 2026-03-30
       // END: 2026js
       // END: js
     ]],[
@@ -644,6 +665,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024system-design
       // END: 2025system-design
       "generative-ui-notes", // 2026-03-26
+      "front-end-april-fools-top-10", // 2026-04-01
+      "the-javascript-module-system-architecture", // 2026-04-16
       // END: 2026system-design
       // END: system-design
     ]],[

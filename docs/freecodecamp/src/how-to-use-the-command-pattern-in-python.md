@@ -59,7 +59,7 @@ In this tutorial, you'll learn what the command pattern is and how to implement 
 
 ::: info
 
-You can find the code for this tutorial [on GitHub (<VPIcon icon="iconfont icon-github" />`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/command).
+You can find the code for this tutorial [on GitHub (<VPIcon icon="iconfont icon-github"/>`balapriyac/python-basics`)](https://github.com/balapriyac/python-basics/tree/main/design-patterns/command).
 
 <SiteInfo
   name="python-basics/design-patterns/command at main · balapriyac/python-basics"

@@ -107,7 +107,7 @@ Here’s the logical properties and how they map to existing properties in a def
 {
   "title": "CSS Logical Properties and Values in Chromium and WebKit",
   "desc": "Post summarizing the status of the work by Oriol Brufau in his Igalia Coding Experience adding support for CSS Logical Properties and Values in Chromium and WebKit.",
-  "link": "https://blogs.igalia.com/mrego/2018/08/08/css-logical-properties-and-values-in-chromium//",
+  "link": "https://blogs.igalia.com/mrego/2018/08/08/css-logical-properties-and-values-in-chromium/",
   "logo": "https://blogs.igalia.com/mrego/img/favicon.ico",
   "background": "rgba(161,194,45,0.2)"
 }

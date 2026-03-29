@@ -989,7 +989,7 @@ This architecture is incredibly powerful because it can scale automatically to h
 {
   "title": "AWS Lambda Resources",
   "desc": "Find AWS Lambda and serverless resources including getting started tutorials, reference architectures, documentation, webinars, and case studies.",
-  "link": "https://aws.amazon.com/lambda/resources//",
+  "link": "https://aws.amazon.com/lambda/resources/",
   "logo": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
   "background": "rgba(241,158,56,0.2)"
 }

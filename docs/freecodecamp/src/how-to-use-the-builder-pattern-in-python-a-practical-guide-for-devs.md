@@ -455,8 +455,8 @@ class HTTPRequestBuilder:
     def __init__(self, url):
         if not url:
             raise ValueError("URL cannot be empty")
-        if not url.startswith(("http://", "https://")):
-            raise ValueError("URL must start with http:// or https://")
+        if not url.startswith(("http:/", "https:/")):
+            raise ValueError("URL must start with http:// or https:/")
 
         self._request = HTTPRequest(url)
 

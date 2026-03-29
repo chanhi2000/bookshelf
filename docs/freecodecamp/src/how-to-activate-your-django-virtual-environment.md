@@ -324,7 +324,7 @@ If you're serious about Django, here are some free and paid resources I recommen
 <SiteInfo
   name="LearnDjango | LearnDjango.com"
   desc="LearnDjango is a platform for learning Django, a popular Python web framework for building web applications. It offers tutorials and courses to help you master your craft and boost your career."
-  url="https://learndjango.com/courses/django-for-beginners//"
+  url="https://learndjango.com/courses/django-for-beginners/"
   logo="https://learndjango.com/static/images/social/favicon-16x16.6e7768535ab5.png"
   preview="https://learndjango.com/static/images/social/social-default-image.21fdd402ba97.png"/>
 

@@ -59,7 +59,7 @@ When you use eight values specifying border-radius in CSS, you can create organi
 <SiteInfo
   name="Fancy Border Radius Generator"
   desc="Generator to build organic shapes with CSS3 border-radius"
-  url="https://9elements.github.io/fancy-border-radius//"
+  url="https://9elements.github.io/fancy-border-radius/"
   logo="https://9elements.github.io/favicon-16x16.png"
   preview="https://9elements.github.io/fancy-border-radius/fancy-border-radius.png"/>
 
@@ -122,7 +122,7 @@ It took me some time to get used to this syntax. Somehow it is not that intuitiv
 <SiteInfo
   name="Fancy Border Radius Generator"
   desc="Generator to build organic shapes with CSS3 border-radius"
-  url="https://9elements.github.io/fancy-border-radius//"
+  url="https://9elements.github.io/fancy-border-radius/"
   logo="https://9elements.github.io/favicon-16x16.png"
   preview="https://9elements.github.io/fancy-border-radius/fancy-border-radius.png"/>
 

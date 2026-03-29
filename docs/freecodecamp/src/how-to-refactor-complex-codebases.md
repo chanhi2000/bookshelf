@@ -628,7 +628,7 @@ Some of the new and interesting articles I've written in the last 24 months.
 <SiteInfo
   name="AI vs Human Code Reviewers: Pros, Pitfalls & Best Practices"
   desc="Discover how AI driven and human code reviewers compare. Explore static & dynamic analysis, LLM insights, contextual pitfalls, rule based checks, and hybrid workflows to optimize your code review process."
-  url="https://devtoolsacademy.com/blog/ai-code-reviewers-vs-human-code-reviewers//"
+  url="https://devtoolsacademy.com/blog/ai-code-reviewers-vs-human-code-reviewers/"
   logo="https://devtoolsacademy.com/icons/favicon.png"
   preview="https://devtoolsacademy.com/cover.png"/>
 

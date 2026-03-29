@@ -115,14 +115,14 @@ If you are already running a version of kubectl pointed at another environment, 
 <SiteInfo
   name="Windows"
   desc="Get started with Docker for Windows. This guide covers system requirements, where to download, and instructions on how to install and update."
-  url="https://docs.docker.com/desktop/setup/install/windows-install//"
+  url="https://docs.docker.com/desktop/setup/install/windows-install/"
   logo="https://docs.docker.com/assets/images/favicon.svg"
   preview="https://docs.docker.com/images/thumbnail.webp"/>
 
 <SiteInfo
   name="Sign in"
   desc="Explore the Learning center and understand the benefits of signing in to Docker Desktop"
-  url="https://docs.docker.com/desktop/setup/sign-in//"
+  url="https://docs.docker.com/desktop/setup/sign-in/"
   logo="https://docs.docker.com/assets/images/favicon.svg"
   preview="https://docs.docker.com/images/thumbnail.webp"/>
 

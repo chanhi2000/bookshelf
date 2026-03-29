@@ -197,7 +197,7 @@ If you want to see the final result before we start building, you can try the wo
 {
   "title": "Background Remover",
   "desc": "Remove backgrounds instantly",
-  "link": "https://iamspruce.github.io/background-remover//",
+  "link": "https://iamspruce.github.io/background-remover/",
   "logo": "",
   "background": "rgba(244,245,255,0.2)"
 }
@@ -1284,7 +1284,7 @@ If you want to explore the full project or build on top of it, you can find ever
 {
   "title": "Background Remover",
   "desc": "Remove backgrounds instantly",
-  "link": "https://iamspruce.github.io/background-remover//",
+  "link": "https://iamspruce.github.io/background-remover/",
   "logo": "",
   "background": "rgba(244,245,255,0.2)"
 }

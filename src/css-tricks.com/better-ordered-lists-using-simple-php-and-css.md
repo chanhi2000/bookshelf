@@ -127,7 +127,7 @@ h2.number {
 {
   "title": "PHP Numbered Lists from CSS-Tricks",
   "desc": "Ordered lists are boring! If you are within a loop, the possibility for cool numbered lists presents itself. Just set up a simple integer variable in PHP that increments itself while the loop is running. Then echo the variable out where you need it and style it with CSS. This could be easily adapted to be used within the comment loops within WordPress, which is where I got the idea to do this",
-  "link": "https://css-tricks.com/examples/phpNumberedLists//",
+  "link": "https://css-tricks.com/examples/phpNumberedLists/",
   "logo": "https://css-tricks/favicon.svg",
   "background": "rgba(17,17,17,0.2)"
 }

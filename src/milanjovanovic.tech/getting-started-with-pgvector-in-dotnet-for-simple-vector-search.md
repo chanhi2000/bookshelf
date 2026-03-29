@@ -72,7 +72,7 @@ Not every AI feature needs a dedicated vector database.
 
 Dedicated vector databases like [<VPIcon icon="fas fa-globe"/>Pinecone](https://pinecone.io/), [<VPIcon icon="fas fa-globe"/>Qdrant](https://qdrant.tech/), and [<VPIcon icon="fas fa-globe"/>Weaviate](https://weaviate.io/) get all the attention. But if your data already lives in PostgreSQL, you don't need another moving part.
 
-[<VPIcon icon="iconfont icon-github" />`pgvector/pgvector`](https://github.com/pgvector/pgvector) is a PostgreSQL extension that adds vector storage and similarity search directly to your existing database. You enable the extension, create a vector column, and start querying.
+[<VPIcon icon="iconfont icon-github"/>`pgvector/pgvector`](https://github.com/pgvector/pgvector) is a PostgreSQL extension that adds vector storage and similarity search directly to your existing database. You enable the extension, create a vector column, and start querying.
 
 In this week's issue, I'll walk you through:
 
@@ -149,7 +149,7 @@ dotnet add package Pgvector.Dapper
 dotnet add package CommunityToolkit.Aspire.OllamaSharp
 ```
 
-`Pgvector.Dapper` provides the Dapper type handler for the `Vector` type. Other than [Pgvector.Dapper (<VPIcon icon="iconfont icon-github" />`pgvector/pgvector-dotnet`)](https://github.com/pgvector/pgvector-dotnet/tree/master/src/Pgvector.Dapper), there are also libraries for [Npgsql (<VPIcon icon="iconfont icon-github" />`pgvector/pgvector-dotnet`)](https://github.com/pgvector/pgvector-dotnet/tree/master/src/Pgvector) and [EF Core (<VPIcon icon="iconfont icon-github" />`pgvector/pgvector-dotnet`)](https://github.com/pgvector/pgvector-dotnet/tree/master/src/Pgvector.EntityFrameworkCore) if you prefer those instead.
+`Pgvector.Dapper` provides the Dapper type handler for the `Vector` type. Other than [Pgvector.Dapper (<VPIcon icon="iconfont icon-github"/>`pgvector/pgvector-dotnet`)](https://github.com/pgvector/pgvector-dotnet/tree/master/src/Pgvector.Dapper), there are also libraries for [Npgsql (<VPIcon icon="iconfont icon-github"/>`pgvector/pgvector-dotnet`)](https://github.com/pgvector/pgvector-dotnet/tree/master/src/Pgvector) and [EF Core (<VPIcon icon="iconfont icon-github"/>`pgvector/pgvector-dotnet`)](https://github.com/pgvector/pgvector-dotnet/tree/master/src/Pgvector.EntityFrameworkCore) if you prefer those instead.
 
 Register the services in <VPIcon icon="iconfont icon-csharp"/>`Program.cs`:
 

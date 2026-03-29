@@ -110,7 +110,7 @@ Following Python's best practices, it’s recommended you install Pytest within 
 {
   "title": "Install packages in a virtual environment using pip and venv - Python Packaging User Guide",
   "desc": "This guide discusses how to create and activate a virtual environment using the standard library’s virtual environment tool venv and install packages. The guide covers how to:",
-  "link": "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments//",
+  "link": "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/",
   "logo": "https://packaging.python.org/_static/py.png",
   "background": "rgba(0,176,255,0.2)"
 }

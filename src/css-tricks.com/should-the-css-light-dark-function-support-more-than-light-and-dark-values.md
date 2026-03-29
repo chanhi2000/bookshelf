@@ -238,7 +238,7 @@ Let me know your thoughts in the comment section below. Feel free to also commen
 <SiteInfo
   name="light-dark() | CSS-Tricks"
   desc="The light-dark() function takes two color values—one for “light” mode and one for “dark” mode, and automatically switches between them depending on"
-  url="https://css-tricks.com/almanac/functions/l/light-dark//"
+  url="https://css-tricks.com/almanac/functions/l/light-dark/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-logo-gradient-outline.png"/>
 

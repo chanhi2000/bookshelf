@@ -763,7 +763,7 @@ This community focuses on improving open-source instructions.
 {
   "title": "LFX Mentorship – LFX Tools | Linux Foundation",
   "desc": "Investing in new talent and diversity helps the entire open source community thrive",
-  "link": "https://lfx.linuxfoundation.org/tools/mentorship//",
+  "link": "https://lfx.linuxfoundation.org/tools/mentorship/",
   "logo": "https://lfx.linuxfoundation.org/wp-content/uploads/2022/12/cropped-favicon-192x192.png",
   "background": "rgba(0,148,255,0.2)"
 }

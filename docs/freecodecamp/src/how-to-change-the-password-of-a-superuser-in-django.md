@@ -243,14 +243,14 @@ Let’s keep the conversation going, Connect with me on [X (<VPIcon icon="fa-bra
 <SiteInfo
   name="django-admin and manage.py | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/ref/django-admin//"
+  url="https://docs.djangoproject.com/en/5.2/ref/django-admin/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
 <SiteInfo
   name="Password management in Django | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/topics/auth/passwords//"
+  url="https://docs.djangoproject.com/en/5.2/topics/auth/passwords/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 

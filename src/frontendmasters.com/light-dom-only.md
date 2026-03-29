@@ -253,7 +253,7 @@ Mayank has a pretty hardline stance, and gets into similar problems I have with 
 {
   "title": "Presentational shadow DOM",
   "desc": "Assorted thoughts on shadow DOM, div soups, and a cursed CSS idea.",
-  "link": "https://mayank.co/blog/presentational-shadow-dom//",
+  "link": "https://mayank.co/blog/presentational-shadow-dom/",
   "logo": "https://mayank.co/favicon.ico",
   "background": "rgba(203,198,210,0.2)"
 }

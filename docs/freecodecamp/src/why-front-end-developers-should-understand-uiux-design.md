@@ -321,7 +321,7 @@ UI/UX is a constantly evolving field. You can grow by engaging with design commu
 <SiteInfo
   name="The Design of Everyday Things (first edition)"
   desc="Book overview Published 1986 (re-issued 2002). 2013 revised edition. The Design of Everyday Things (DOET) was first published in 1988. The book is about how people interact with technology. The pri…"
-  url="https://jnd.org/books/the-design-of-everyday-things-1st-ed//"
+  url="https://jnd.org/books/the-design-of-everyday-things-1st-ed/"
   logo="https://i0.wp.com/jnd.org/wp-content/uploads/2023/03/cropped-UNITE-23-Don-1.jpg?fit=192%2C192&ssl=1"
   preview="https://i0.wp.com/jnd.org/wp-content/uploads/2023/02/Rectangle-24-1-1.png?fit=238%2C328&ssl=1"/>
 
@@ -338,7 +338,7 @@ UI/UX is a constantly evolving field. You can grow by engaging with design commu
 <SiteInfo
   name="UX Design — Smashing Magazine"
   desc="Magazine on CSS, JavaScript, front-end, accessibility, UX and design. For developers, designers and front-end engineers."
-  url="https://smashingmagazine.com/categories/ux-design//"
+  url="https://smashingmagazine.com/categories/ux-design/"
   logo="https://smashingmagazine.com/images/favicon/favicon.svg"
   preview="https://smashingmagazine.com/images/smashing-category.png"/>
 
@@ -363,7 +363,7 @@ UI/UX is a constantly evolving field. You can grow by engaging with design commu
 <SiteInfo
   name="UX & Usability Articles from Nielsen Norman Group"
   desc="Research-based articles about user experience (UX), interaction design, web usability, user testing, and UI/GUI design by Nielsen Norman Group authors, including Jakob Nielsen, Don Norman, Bruce 'Tog' Tognazzini, and other group members."
-  url="https://nngroup.com/articles//"
+  url="https://nngroup.com/articles/"
   logo="https://media.nngroup.com/static/img/favicon.ico"
   preview="https://media.nngroup.com/media/metadata/opengraph_images/Articles_and_Videos_1.png"/>
 

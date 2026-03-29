@@ -125,7 +125,7 @@ You can find more usage examples and supported workflows in the official documen
 <SiteInfo
   name="Use provider services"
   desc="Learn how to use provider services in Docker Compose to integrate external capabilities into your applications"
-  url="https://docs.docker.com/compose/how-tos/provider-services//"
+  url="https://docs.docker.com/compose/how-tos/provider-services/"
   logo="https://docs.docker.com/favicons/docs@2x.ico"
   preview="https://docs.docker.com/images/thumbnail.webp"/>
 

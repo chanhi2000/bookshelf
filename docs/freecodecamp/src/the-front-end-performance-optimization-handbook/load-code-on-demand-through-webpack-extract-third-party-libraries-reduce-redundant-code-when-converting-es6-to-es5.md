@@ -61,7 +61,7 @@ The following quote from the official Webpack documentation explains the concept
 <SiteInfo
   name="Lazy Loading | webpack"
   desc="webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
-  url="https://webpack.js.org/guides/lazy-loading//"
+  url="https://webpack.js.org/guides/lazy-loading/"
   logo="https://webpack.js.org/icon_512x512.png"`
   preview="https://webpack.js.org/icon-pwa-512x512.934507c816afbcdb.png"/>
 
@@ -235,7 +235,7 @@ In the <VPIcon icon="fas fa-file-lines"/>`.babelrc` file,
 <SiteInfo
   name="SplitChunksPlugin | webpack"
   desc="webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
-  url="https://webpack.js.org/plugins/split-chunks-plugin//"
+  url="https://webpack.js.org/plugins/split-chunks-plugin/"
   logo="https://webpack.js.org/icon_512x512.png"
   preview="https://webpack.js.org/icon-pwa-512x512.934507c816afbcdb.png"/>
 

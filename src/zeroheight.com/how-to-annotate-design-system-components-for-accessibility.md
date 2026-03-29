@@ -266,7 +266,7 @@ A single design system component can't be 'accessible' in isolation, but thinkin
 <SiteInfo
   name="A Designer’s Guide to Documenting Accessibility & User Interactions by Stéphanie Walter"
   desc="Why, what and how designers should document accessibility requirements and user interactions to make product better and more inclusive"
-  url="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions//"
+  url="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/"
   logo="https://stephaniewalter.design/wp-content/themes/stephaniewalter/assets/favicons/favicon-16x16.png"
   preview="https://stephaniewalter.design/wp-content/uploads/2022/09/og-Documenting-Accessibility-Designers-1.jpg"/>
 
@@ -292,21 +292,21 @@ A single design system component can't be 'accessible' in isolation, but thinkin
 <SiteInfo
   name="A Quick Primer on Accessible Pagination - AFixt"
   desc="Pagination is a common feature across many websites, from news archives and product listings to blogs and search results. Despite its simplicity on the surface, pagination is one of those UI patterns that can be surprisingly nuanced when it comes to accessibility. Most developers implement it using visual styling alone, assuming it “just works.” Unfortunately, […]"
-  url="https://afixt.com/a-quick-primer-on-accessible-pagination//"
+  url="https://afixt.com/a-quick-primer-on-accessible-pagination/"
   logo="https://afixt.com/favicon.ico"
   preview="https://afixt.com/wp-content/uploads/2023/11/logo-light-png.png"/>
 
 <SiteInfo
   name="Pagination nav"
   desc="How to code and test an accessible pagination nav for Web"
-  url="https://atomica11y.com/accessible-web/pagination//"
+  url="https://atomica11y.com/accessible-web/pagination/"
   logo="https://atomica11y.com/assets/favicon/favicon.ico"
   preview="https://atomica11y.com/assets/favicon/og-preview.png"/>
 
 <SiteInfo
   name="Pagination"
   desc="Paginated content is any content split into multiple pages determined only by a specific amount of content per page, not split by any meaningful attribute, like feature or subject or step. Search results and article collections are often paginated. Readers use the pagination component to move from page to page in paginated content, or directly to the first or last page of the paginated set."
-  url="https://designsystem.digital.gov/components/pagination//"
+  url="https://designsystem.digital.gov/components/pagination/"
   logo="https://designsystem.digital.gov/assets/img/favicons/favicon-192.png"
   preview="https://designsystem.digital.gov/img/uswds-logo/lg-black.png"/>
 

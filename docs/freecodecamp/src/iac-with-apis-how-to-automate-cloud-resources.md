@@ -168,7 +168,7 @@ This approach ensures every deployment follows the same process.
 
 A practical way to apply Infrastructure as Code through APIs is to use a command-line interface that directly interacts with a cloud platform’s API. This lets you automate infrastructure creation using scripts rather than dashboards.
 
-One example is the [Sevalla CLI (<VPIcon icon="iconfont icon-github" />`sevalla-hosting/cli`)](https://github.com/sevalla-hosting/cli), which exposes infrastructure operations as terminal commands that can be executed manually or inside automation pipelines.
+One example is the [Sevalla CLI (<VPIcon icon="iconfont icon-github"/>`sevalla-hosting/cli`)](https://github.com/sevalla-hosting/cli), which exposes infrastructure operations as terminal commands that can be executed manually or inside automation pipelines.
 
 [<VPIcon icon="iconfont icon-sevalla"/>Sevalla](https://sevalla.com/) is a developer-centric PaaS designed to simplify your workflow. They provide high-performance application hosting, managed databases, object storage, and static sites in one unified platform.
 
@@ -329,7 +329,7 @@ For modern development teams, treating infrastructure as code is no longer optio
 
 ::: info
 
-Hope you enjoyed this article. Learn more about me by [visiting my LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`manishmshiva`)](https://linkedin.com/in/manishmshiva/edit/intro/).
+Hope you enjoyed this article. Learn more about me by [visiting my LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva/edit/intro/).
 
 :::
 

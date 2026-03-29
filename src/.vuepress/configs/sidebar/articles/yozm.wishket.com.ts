@@ -5,6 +5,22 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "3713", // 2026-04-17
+    "3710", // 2026-04-16
+    "3708", // 2026-04-15
+    "3707", // 2026-04-14
+    "3705", // 2026-04-14
+    "3702", // 2026-04-13
+    "3701", // 2026-04-10
+    "3697", // 2026-04-08
+    "3694", // 2026-04-07
+    "3692", // 2026-04-06
+    "3691", // 2026-04-03
+    "3686", // 2026-04-01
+    "3683", // 2026-03-30
+    "3681", // 2026-03-30
+    "3679", // 2026-03-27
+    "3676", // 2026-03-26
     "3673", // 2026-03-25
     "3668", // 2026-03-23
     "3663", // 2026-03-19
@@ -529,6 +545,8 @@ export const template: SidebarInfoTemplate = {
       "3093", // 2025-04-29
       "3319", // 2025-08-29
       // END: 2025java
+      "3708", // 2026-04-15
+      // END: 2026java
       // END: java
     ]], [
     "java-spring", [
@@ -603,6 +621,7 @@ export const template: SidebarInfoTemplate = {
       "3597", // 2026-02-09
       "3632", // 2026-03-03
       "3659", // 2026-03-17
+      "3686", // 2026-04-01
       // END: 2026js
       // END: js
     ]], [
@@ -612,6 +631,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024ts
       "3515", // 2025-12-22
       // END: 2025ts
+      "3702", // 2026-04-13
+      // END: 2026ts
       // END: ts
     ]], [
     "js-node", [
@@ -635,6 +656,9 @@ export const template: SidebarInfoTemplate = {
       "3216", // 2025-07-03
       "3641", // 2026-03-06
       // END: 2025js-node
+      "3676", // 2026-03-26
+      "3713", // 2026-04-17
+      // END: 2026js-node
       // END: js-node
     ]], [
     "js-react", [
@@ -724,6 +748,7 @@ export const template: SidebarInfoTemplate = {
       "3492", // 2025-12-09
       // END: 2025py
       "3560", // 2026-01-21
+      "3708", // 2026-04-15
       // END: 2026py
       // END: py
     ]],[
@@ -846,6 +871,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2025github
       "3564", // 2026-01-22
       "3660", // 2026-03-18
+      "3676", // 2026-03-26
+      "3692", // 2026-04-06
       // END: 2026github
       // END: github
     ]],[
@@ -931,6 +958,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025k8s
       "3559", // 2026-01-20
       "3621", // 2026-02-23
+      "3710", // 2026-04-16
       // END: 2025k8s
       // END: k8s
     ]],[
@@ -951,6 +979,9 @@ export const template: SidebarInfoTemplate = {
       "2541", // 2024-04-13
       "2902", // 2024-12-23
       // END: 2024aws
+      // END: 2025aws
+      "3679", // 2026-03-27
+      // END: 2026aws
       // END: aws
     ]],[
     "gcp", [
@@ -987,6 +1018,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025security
       "3584", // 2026-02-03
       "3668", // 2026-03-23
+      "3679", // 2026-03-27
       // END: 2026security
       // END: security
     ]],[
@@ -1028,6 +1060,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024postgres
       "3045", // 2025-04-02
       // END: 2025postgres
+      "3697", // 2026-04-08
+      // END: 2026postgres
       // END: postgres
     ]],[
     "sqlite", [
@@ -1160,6 +1194,7 @@ export const template: SidebarInfoTemplate = {
       "3625", // 2026-02-25
       "3634", // 2026-03-04
       "3673", // 2026-03-25
+      "3691", // 2026-04-03
       // END: 2026ai
       // END: ai
     ]],[
@@ -1200,6 +1235,11 @@ export const template: SidebarInfoTemplate = {
       "3655", // 2026-03-13
       "3661", // 2026-03-18
       "3663", // 2026-03-19
+      "3676", // 2026-03-26
+      "3697", // 2026-04-08
+      "3705", // 2026-04-14
+      "3707", // 2026-04-14
+      "3708", // 2026-04-15
       // END: 2026llm
       // END: llm
     ]],[
@@ -1257,6 +1297,8 @@ export const template: SidebarInfoTemplate = {
       "3546", // 2026-01-12
       "3555", // 2026-01-19
       "3660", // 2026-03-18
+      "3692", // 2026-04-06
+      "3710", // 2026-04-16
       // END: 2026claude
       // END: claude
     ]],[
@@ -1424,6 +1466,11 @@ export const template: SidebarInfoTemplate = {
       "3634", // 2026-03-04
       "3652", // 2026-03-12
       "3656", // 2026-03-16
+      "3681", // 2026-03-30
+      "3683", // 2026-03-30
+      "3691", // 2026-04-03
+      "3694", // 2026-04-07
+      "3701", // 2026-04-10
       // END: 2026career
       // END: career
     ]],[

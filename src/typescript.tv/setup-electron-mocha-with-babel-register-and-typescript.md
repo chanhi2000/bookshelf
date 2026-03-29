@@ -134,7 +134,7 @@ require('@babel/register')({
 <SiteInfo
   name="TypeScript and Babel 7 - TypeScript"
   desc="Today we’re excited to announce something special for Babel users.Over a year ago, we set out to find what the biggest difficulties users were running into with TypeScript, and we found that a common theme among Babel users was that trying to get TypeScript set up was just too hard. The reasons often varied, but […]"
-  url="https://devblogs.microsoft.com/typescript/typescript-and-babel-7//"
+  url="https://devblogs.microsoft.com/typescript/typescript-and-babel-7/"
   logo="https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2018/10/Microsoft-Favicon.png"
   preview="https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2018/08/typescriptfeature.png"/>
 

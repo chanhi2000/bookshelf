@@ -315,7 +315,7 @@ I looked around at a number of older examples and a lot of them involve pseudo o
 <SiteInfo
   name="Rounded tabs with inner curves"
   desc="A few lines of code to get rounded tabs using CSS mask"
-  url="https://css-tip.com/rounded-tab//"
+  url="https://css-tip.com/rounded-tab/"
   logo="https://css-tip.com/img/fav.png"
   preview="https://css-tip.com/og-images/85495710.png"/>
 

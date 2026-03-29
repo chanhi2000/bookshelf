@@ -73,7 +73,7 @@ You can download the code and other resources required to build this directory t
 <SiteInfo
   name="Directory Tree Generator With Python (Sample Code) – Real Python"
   desc=""
-  url="https://realpython.com/bonus/directory-tree-generator-python//"
+  url="https://realpython.com/bonus/directory-tree-generator-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://realpython.com/static/social-default-image.5e1aa4786b3a.png"/>
 
@@ -241,7 +241,7 @@ To download these files and the code you’ll add to them in this section, click
 <SiteInfo
   name="Directory Tree Generator With Python (Sample Code) – Real Python"
   desc=""
-  url="https://realpython.com/bonus/directory-tree-generator-python//"
+  url="https://realpython.com/bonus/directory-tree-generator-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://realpython.com/static/social-default-image.5e1aa4786b3a.png"/>
 
@@ -294,7 +294,7 @@ In this section, you’ll code the project’s main functionality. In other word
 <SiteInfo
   name="Directory Tree Generator With Python (Sample Code) – Real Python"
   desc=""
-  url="https://realpython.com/bonus/directory-tree-generator-python//"
+  url="https://realpython.com/bonus/directory-tree-generator-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://realpython.com/static/social-default-image.5e1aa4786b3a.png"/>
 
@@ -503,7 +503,7 @@ To download the files and the code that you’ll add or modify in this section, 
 <SiteInfo
   name="Directory Tree Generator With Python (Sample Code) – Real Python"
   desc=""
-  url="https://realpython.com/bonus/directory-tree-generator-python//"
+  url="https://realpython.com/bonus/directory-tree-generator-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://realpython.com/static/social-default-image.5e1aa4786b3a.png"/>
 
@@ -644,7 +644,7 @@ You can download the files and the code that you’ll add or modify in this sect
 <SiteInfo
   name="Directory Tree Generator With Python (Sample Code) – Real Python"
   desc=""
-  url="https://realpython.com/bonus/directory-tree-generator-python//"
+  url="https://realpython.com/bonus/directory-tree-generator-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://realpython.com/static/social-default-image.5e1aa4786b3a.png"/>
 
@@ -766,7 +766,7 @@ As usual, to download the code that you’ll add or modify in this section, clic
 <SiteInfo
   name="Directory Tree Generator With Python (Sample Code) – Real Python"
   desc=""
-  url="https://realpython.com/bonus/directory-tree-generator-python//"
+  url="https://realpython.com/bonus/directory-tree-generator-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://realpython.com/static/social-default-image.5e1aa4786b3a.png"/>
 
@@ -883,7 +883,7 @@ The final source code for the directory tree generator project is available for 
 <SiteInfo
   name="Directory Tree Generator With Python (Sample Code) – Real Python"
   desc=""
-  url="https://realpython.com/bonus/directory-tree-generator-python//"
+  url="https://realpython.com/bonus/directory-tree-generator-python/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://realpython.com/static/social-default-image.5e1aa4786b3a.png"/>
 

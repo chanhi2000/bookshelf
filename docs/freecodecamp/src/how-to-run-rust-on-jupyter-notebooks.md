@@ -107,7 +107,7 @@ If you’re using Windows, you’ll need to do a little extra to get started. He
 <SiteInfo
   name="Microsoft C++ Build Tools - Visual Studio"
   desc="Visual Studio Build Tools offers essential components for building C++ projects on Windows outside of the IDE – perfect for command-line workflows and continuous integration pipelines. This includes the latest tools shipped in Visual Studio 2015 and later: Microsoft C++ (MSVC) compiler and linker, standard library, ATL and MFC, Windows SDK, Clang tools for Windows, AddressSanitizer, and the vcpkg package manager."
-  url="https://visualstudio.microsoft.com/visual-cpp-build-tools//"
+  url="https://visualstudio.microsoft.com/visual-cpp-build-tools/"
   logo="https://visualstudio.microsoft.com/wp-content/uploads/2022/05/Microsoft-120.png"
   preview="https://visualstudio.microsoft.com/wp-content/uploads/2025/03/vscom-share-image.jpg"/>
 

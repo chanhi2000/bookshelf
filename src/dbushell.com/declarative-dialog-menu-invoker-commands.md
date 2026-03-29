@@ -75,7 +75,7 @@ Making an off-canvas menu free from heinous JavaScript has always been possible,
 <SiteInfo
   name="Popover API | 12 Days of Web"
   desc="A declarative way to display elements on top of page content."
-  url="https://12daysofweb.dev/2023/popover-api//"
+  url="https://12daysofweb.dev/2023/popover-api/"
   logo="https://12daysofweb.dev/img/favicon.png"
   preview="https://12daysofweb.dev/img/og/popover-api.png"/>
 
@@ -83,7 +83,7 @@ Making an off-canvas menu free from heinous JavaScript has always been possible,
 {
   "title": "Dialog is for modals, popover is for everything else",
   "desc": "<dialog> and popover are currently the only two ways to access the browser’s top layer. So what’s the difference between them and which one should you use when?",
-  "link": "https://mayank.co/notes/popover-vs-dialog//",
+  "link": "https://mayank.co/notes/popover-vs-dialog/",
   "logo": "https://mayank.co/favicon.ico",
   "background": "rgba(94,81,112,0.2)"
 }
@@ -163,7 +163,7 @@ This technique uses the wonderful new [<VPIcon icon="fas fa-globe"/>Invoker Comm
 {
   "title": "Invoker Commands (Explainer) | Open UI",
   "desc": "Adding commandfor and command attributes to <button> and elements would allow authors to assign behaviour to buttons in a more accessible and declarative way, while reducing bugs and simplifying the amount of JavaScript pages are required to ship for interactivity. Buttons with command will - when clicked, touched, or enacted via keypress - dispatch a CommandEvent on the element referenced by commandfor, with some default behaviours.",
-  "link": "https://open-ui.org/components/invokers.explainer//",
+  "link": "https://open-ui.org/components/invokers.explainer/",
   "logo": "https://open-ui.org/images/favicon-32x32.png",
   "background": "rgba(0,165,79,0.2)"
 }
@@ -259,7 +259,7 @@ My menu uses a combination of both basic CSS transitions and cross-document [<VP
 {
   "title": "</> htmx ~ Examples ~ View Transitions",
   "desc": "Carson Gross explores the evolution of web applications and the significance of view transitions in improving user experience. He discusses the limitations of traditional web design, where full-page refreshes create an unpleasant experience, and how modern technologies like CSS transitions and the View Transition API aim to enhance aesthetic smoothness. Carson explains how htmx leverages the View Transition API to bring seamless transitions to hypermedia-driven applications, offering an alternative to single-page applications (SPAs) and highlighting its potential once widely available in HTML.",
-  "link": "https://htmx.org/essays/view-transitions//",
+  "link": "https://htmx.org/essays/view-transitions/",
   "logo": "https://htmx.org/favicon.svg",
   "background": "rgba(91,150,213,0.2)"
 }

@@ -80,7 +80,7 @@ These rules limit what can be entered into a database or what can be deleted fro
 {
   "title": "What is a Relational Database?",
   "desc": "Learn about the important aspects of relational databases and review the relational database engines available on Amazon Aurora and Amazon RDS.",
-  "link": "https://aws.amazon.com/rds/what-is-a-relational-database//",
+  "link": "https://aws.amazon.com/rds/what-is-a-relational-database/",
   "logo": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
   "background": "rgba(22,29,38,0.2)"
 }

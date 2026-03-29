@@ -446,7 +446,7 @@ For deeper dives into popovers and related APIs:
 {
   "title": "Popover API (Explainer) | Open UI",
   "desc": "NOTE: This Popover API explainer was mostly useful during the development of the feature. While it is roughly still in line with the actual feature, it might be more informative to look at either of these two sources of documentation: ...",
-  "link": "https://open-ui.org/components/popover.research.explainer//",
+  "link": "https://open-ui.org/components/popover.research.explainer/",
   "logo": "https://open-ui.org/images/favicon-32x32.png",
   "background": "rgba(0,165,79,0.2)"
 }

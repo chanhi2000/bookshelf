@@ -110,7 +110,7 @@ I cross-referenced the following guides for help:
 <SiteInfo
   name="Notes on Self Hosting a Bluesky PDS Alongside Other Services"
   desc="I’ve recently set up a Bluesky Personal Data Server (PDS) to store the data for my Bluesky account. I wanted to host it on my server alongside the many other web apps, databases, and many other services. I additionally wanted to use my top-level domain as my handle. I started out following the install guide on the official PDS repo and it initially started out pretty well. However, I pretty quickly ran into some issues where the default config didn’t work for me."
-  url="https://cprimozic.net/notes/posts/notes-on-self-hosting-bluesky-pds-alongside-other-services//"
+  url="https://cprimozic.net/notes/posts/notes-on-self-hosting-bluesky-pds-alongside-other-services/"
   logo="https://cprimozic.net/notes/img/theme-colors/green.png"
   preview="https://cprimozic.net/notes/img/favicon/green.png"/>
 

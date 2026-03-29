@@ -10,6 +10,7 @@ category:
   - OpenAI
   - LangChain
   - Ollama
+  - Ollama
   - Article(s)
 tag:
   - blog

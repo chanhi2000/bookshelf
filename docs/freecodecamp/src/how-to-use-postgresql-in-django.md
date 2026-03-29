@@ -282,7 +282,7 @@ If you want to dive deeper, here are a few links I recommend:
 <SiteInfo
   name="Settings | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/ref/settings//"
+  url="https://docs.djangoproject.com/en/5.2/ref/settings/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
@@ -290,7 +290,7 @@ If you want to dive deeper, here are a few links I recommend:
 {
   "title": "PostgreSQL: Documentation",
   "desc": "You can view the manual for an older version or download a PDF of a manual from the below table.",
-  "link": "https://postgresql.org/docs//",
+  "link": "https://postgresql.org/docs/",
   "logo": "https://postgresql.org/favicon.ico",
   "background": "rgba(104,157,200,0.2)"
 }

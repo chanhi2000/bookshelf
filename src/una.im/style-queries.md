@@ -306,7 +306,7 @@ These are just some ideas on how to use style queries in ways that enable a bett
 <SiteInfo
   name="Container Queries & The Future of CSS"
   desc="Modernizing the cascade for responsive design systems"
-  url="https://miriamsuzanne.com/speaking/responsive-components//"
+  url="https://miriamsuzanne.com/speaking/responsive-components/"
   logo="https://miriamsuzanne.com/favicon.svg"
   preview="https://miriamsuzanne.com/images/talks/7TrmlKJqvk-1279.jpeg"/>
 

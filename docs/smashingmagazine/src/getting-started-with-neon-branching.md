@@ -314,7 +314,7 @@ To use this package, I’ll first need to install it.
 npm i @vercel/edge
 ```
 
-I can then use it in my Edge Function. Here’s a diff of the change. You can [see the full diff for the PR on my GitHub here (<VPIcon icon="iconfont icon-github" />`PaulieScanlon/neon-branching-sample`)](https://github.com/PaulieScanlon/neon-branching-sample/pull/1/files).
+I can then use it in my Edge Function. Here’s a diff of the change. You can [see the full diff for the PR on my GitHub here (<VPIcon icon="iconfont icon-github"/>`PaulieScanlon/neon-branching-sample`)](https://github.com/PaulieScanlon/neon-branching-sample/pull/1/files).
 
 ```js
 import { neon } from '@neondatabase/serverless';

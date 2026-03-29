@@ -1165,7 +1165,7 @@ Installing an MCP server connects Claude Code to an external service. Here is a 
 
 #### Step 1: Find the MCP server
 
-Anthropic maintains an official registry of MCP servers at [<VPIcon icon="iconfont icon-github" />`modelcontextprotocol/servers`](https://github.com/modelcontextprotocol/servers). Each server has an installation command and a configuration format. For third-party services, the service's own documentation will provide the MCP configuration.
+Anthropic maintains an official registry of MCP servers at [<VPIcon icon="iconfont icon-github"/>`modelcontextprotocol/servers`](https://github.com/modelcontextprotocol/servers). Each server has an installation command and a configuration format. For third-party services, the service's own documentation will provide the MCP configuration.
 
 #### Step 2: Install the server via Claude Code
 
@@ -2444,7 +2444,7 @@ From discovery to deployment, we combine strategy, science, and engineering, wit
 
 ### Stay Connected with LunarTech
 
-Follow LunarTech Lab on [LunarTech NewsLetter](https://substack.com/@lunartech) **and** [**LinkedIn** (<VPIcon icon="fa-brands fa-linkedin" />`tatev-karen-aslanyan`)](https://linkedin.com/in/tatev-karen-aslanyan/)**,** where innovation meets real engineering. You’ll get insights, project stories, and industry breakthroughs from the front lines of applied AI and software development.
+Follow LunarTech Lab on [LunarTech NewsLetter](https://substack.com/@lunartech) **and** [**LinkedIn** (<VPIcon icon="fa-brands fa-linkedin"/>`tatev-karen-aslanyan`)](https://linkedin.com/in/tatev-karen-aslanyan/)**,** where innovation meets real engineering. You’ll get insights, project stories, and industry breakthroughs from the front lines of applied AI and software development.
 
 ### LunarTech Academy – Build the Future
 

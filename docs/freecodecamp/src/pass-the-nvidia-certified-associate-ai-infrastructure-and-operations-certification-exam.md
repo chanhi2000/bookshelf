@@ -37,7 +37,7 @@ head:
       content: "Pass the NVIDIA-Certified Associate AI Infrastructure and Operations Certification Exam"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/pass-the-nvidia-certified-associate-ai-infrastructure-and-operations-certification-exam.html
-prev: /programming/css-cuda/articles/README.md
+prev: /programming/cpp-cuda/articles/README.md
 date: 2026-03-05
 isOriginal: false
 author:

@@ -286,7 +286,7 @@ I don’t see CSS as being object-oriented; I see it as being **interface-orient
 <SiteInfo
   name="What is WordPress and How Does It Work? | Complete Guide [2020]"
   desc="What is WordPress? One of the most powerful tools for creating any website you can imagine without writing code. Learn more in our complete guide!"
-  url="https://createaprowebsite.com/what-is-wordpress-how-it-works//"
+  url="https://createaprowebsite.com/what-is-wordpress-how-it-works/"
   logo="https://createaprowebsite.com/wp-content/uploads/2024/10/create-a-pro-website-arrow-logo-blue-300x300.png"
   preview="https://createaprowebsite.com/wp-content/uploads/2018/06/what-is-wordpress-how-does-wordpress-work.jpg"/>
 

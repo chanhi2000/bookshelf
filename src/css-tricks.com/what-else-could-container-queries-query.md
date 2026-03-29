@@ -163,7 +163,7 @@ I’m confident that we’ll see these ideas realized at some point, either as c
 <SiteInfo
   name="An Interactive Guide to CSS Container Queries"
   desc="Learn how to use CSS container queries today."
-  url="https://ishadeed.com/article/css-container-query-guide//"
+  url="https://ishadeed.com/article/css-container-query-guide/"
   logo="https://ishadeed.com/assets/favicon-32x32.png"
   preview="https://ishadeed.com/assets/container-query/twitter-card.jpg"/>
 
@@ -178,7 +178,7 @@ I’m confident that we’ll see these ideas realized at some point, either as c
 {
   "title": "Play With Inherit Function",
   "desc": "One of the things that might flight under many people’s radars is the incoming `inherit()`. Not the `inherit` keyword — we had it for quite a while already. Now it is available in Chrome Canary with the “experimental web platform features” flag, so, if you want, you can go play with it!",
-  "link": "https://blog.kizu.dev/play-with-inherit-function//",
+  "link": "https://blog.kizu.dev/play-with-inherit-function/",
   "logo": "https://blog.kizu.dev/favicon.svg",
   "background": "rgba(68,189,254,0.2)"
 }

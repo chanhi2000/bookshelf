@@ -134,7 +134,7 @@ Below you’ll find a brief overview and links to the libraries and tools featur
 {
   "title": "jquerycsvtotable",
   "desc": "jQuery CSV to Table reads in CSV or TSV data (both can be saved from Excel) and generates an HTML table",
-  "link": "https://code.google.com/archive/p/jquerycsvtotable//",
+  "link": "https://code.google.com/archive/p/jquerycsvtotable/",
   "logo": "https://code.google.com/archive/img/project-hosting.ico",
   "background": "rgba(50,93,167,0.2)"
 }
@@ -305,7 +305,7 @@ Pivot.js With Pivot you can easily summarize large data sets on the fly. The lib
 {
   "title": "jquerycsvtotable",
   "desc": "jQuery CSV to Table reads in CSV or TSV data (both can be saved from Excel) and generates an HTML table",
-  "link": "https://code.google.com/archive/p/jquerycsvtotable//",
+  "link": "https://code.google.com/archive/p/jquerycsvtotable/",
   "logo": "https://code.google.com/archive/img/project-hosting.ico",
   "background": "rgba(50,93,167,0.2)"
 }
@@ -473,7 +473,7 @@ URI.js To work with URLs you could use this JavaScript library, that offers a jQ
 {
   "title": "javascript – badassJs",
   "desc": "badassJs - Build smarter with JS tools | 자바스크립트로 설계하는 더 똑똑한 솔루션",
-  "link": "https://badassjs.com/category/javascript//",
+  "link": "https://badassjs.com/category/javascript/",
   "logo": "https://badassjs.com/wp-content/uploads/2025/09/cropped-logo2_cropped_128-1-192x192.png",
   "background": "rgba(233,30,99,0.2)"
 }

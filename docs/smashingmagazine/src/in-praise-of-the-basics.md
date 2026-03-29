@@ -70,7 +70,7 @@ Rachel Andrew wrote one of my all-time favorite posts back in 2019, equating the
 {
   "title": "HTML, CSS and our vanishing industry entry points – Rachel Andrew",
   "desc": "Everyone is angry about CSS again. I’m not even going to try to summarize the arguments. However it always seems to boil down to the fact that CSS is simultaneously too easy to bother with, yet so hard it needs to be wrapped up in a ball of JavaScript in case it scares the horses. You can read a more sensible take from Chris Coyier in The Great Divide.",
-  "link": "https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points//",
+  "link": "https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points/",
   "logo": "https://rachelandrew.co.uk/wp-content/uploads/2022/07/favicon1.png",
   "background": "rgba(244,244,255,0.2)"
 }
@@ -110,7 +110,7 @@ Anyway, I’m darn proud of The Basics, even if I’m not exactly the self-promo
 {
   "title": "The Basics – Front-End Web Development Courses by Geoff Graham",
   "desc": "Delightfully fun lessons designed to get you from no code to know code.",
-  "link": "https://thebasics.dev//",
+  "link": "https://thebasics.dev/",
   "logo": "https://thebasics.dev/wp-content/uploads/2024/04/cropped-thebasics-logo-icon-color-192x192.webp",
   "background": "rgba(255,122,24,0.2)"
 }

@@ -290,14 +290,14 @@ The best way to learn is by building something. Start small, maybe a book catalo
 <SiteInfo
   name="Models | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/topics/db/models//"
+  url="https://docs.djangoproject.com/en/5.2/topics/db/models/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
 <SiteInfo
   name="Model field reference | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/ref/models/fields//"
+  url="https://docs.djangoproject.com/en/5.2/ref/models/fields/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 

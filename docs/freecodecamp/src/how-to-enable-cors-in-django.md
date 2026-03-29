@@ -305,7 +305,7 @@ Now you know how to enable CORS in Django the right way.
 <SiteInfo
   name="Middleware | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/topics/http/middleware//"
+  url="https://docs.djangoproject.com/en/5.2/topics/http/middleware/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 

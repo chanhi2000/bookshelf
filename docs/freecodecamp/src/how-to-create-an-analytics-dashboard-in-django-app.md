@@ -494,21 +494,21 @@ Further, I recommend walking through important concepts in the documentation to 
 <SiteInfo
   name="Migrations | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/3.0/topics/migrations//"
+  url="https://docs.djangoproject.com/en/3.0/topics/migrations/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
 <SiteInfo
   name="QuerySet API reference | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/3.0/ref/models/querysets//"
+  url="https://docs.djangoproject.com/en/3.0/ref/models/querysets/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
 <SiteInfo
   name="Serializing Django objects | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/3.0/topics/serialization//"
+  url="https://docs.djangoproject.com/en/3.0/topics/serialization/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 

@@ -271,7 +271,7 @@ It might be a good time to take a quick look.
 <SiteInfo
   name="GitGuardian: Secrets Security and NHI Governance"
   desc="Secure your SDLC and Non-Human Identities (NHIs) with GitGuardian 🔐 — detect secrets in code, repos, and tools. Available as SaaS or Self-Hosted."
-  url="https://gitguardian.com//"
+  url="https://gitguardian.com/"
   logo="https://cdn.prod.website-files.com/5ee25cbe47310017adf964da/6323888a9b9f4e22a7bc766b_GG%20Favicon.svg"
   preview="https://static.gitguardian.com/marketing-static/images/og-image.png"/>
 

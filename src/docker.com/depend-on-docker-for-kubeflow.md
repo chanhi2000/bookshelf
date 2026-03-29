@@ -223,14 +223,14 @@ Docker Desktop enables you to easily run container applications on your local ma
 <SiteInfo
   name="Docker Desktop: The #1 Containerization Tool for Developers | Docker"
   desc="Docker Desktop is collaborative containerization software for developers. Get started and download Docker Desktop today on Mac, Windows, or Linux."
-  url="https://docker.com/products/docker-desktop//"
+  url="https://docker.com/products/docker-desktop/"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2023/06/meta-image-download-docker-desktop-1110x580.png"/>
 
 <SiteInfo
   name="Introduction"
   desc="An introduction to Kubeflow"
-  url="https://kubeflow.org/docs/started/introduction//"
+  url="https://kubeflow.org/docs/started/introduction/"
   logo="https://kubeflow.org/favicon.ico?v=2"
   preview="https://kubeflow.org/docs/started/introduction/social.13baca1a000d1f9cea456dc9dc7f6c06.png"/>
 
@@ -251,7 +251,7 @@ Docker Desktop enables you to easily run container applications on your local ma
 <SiteInfo
   name="Installing Kubeflow"
   desc="Deployment options for Kubeflow"
-  url="https://kubeflow.org/docs/started/installing-kubeflow//"
+  url="https://kubeflow.org/docs/started/installing-kubeflow/"
   logo="https://kubeflow.org/favicon.ico?v=2"
   preview="https://kubeflow.org/docs/started/installing-kubeflow/social.0f1e29dc9f28559c3c3274c8a7fe32e2.png"/>
 

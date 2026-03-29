@@ -74,6 +74,7 @@ const Y2021: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2021
+    "the-css-has-selector-is-way-more-than-a-parent-selector", // 2021-12-21
     "a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries", // 2021-11-26
     "scroll-linked-animations-with-the-web-animations-api-waapi-and-scrolltimeline", // 2021-11-24
     "the-future-of-css-cascade-layers-css-at-layer", // 2021-09-15
@@ -98,6 +99,7 @@ const Y2020: SidebarYeargroupTemplate = {
     "css-only-resizable-elements", // 2020-05-15
     "100vh-in-safari-on-ios", // 2020-05-07
     "the-ultimate-guide-to-css-viewport-units", // 2020-03-17
+    "prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top", // 2020-03-02
   ]
 }
 
@@ -108,6 +110,7 @@ const Y2019: SidebarYeargroupTemplate = {
     // END: 2019
     "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
     "embeddable-caniuse-images", // 2019-12-04
+    "simple-scroll-snapping-carousel-flexbox-layout-grid-layout", // 2019-10-10
     "css-logical-properties-and-values-the-next-step-of-css-evolution", // 2019-09-20
     "logical-operations-with-css-variables", // 2019-09-17
     "css-color-scheme-queries-dark-mode-css", // 2019-05-24
@@ -149,6 +152,55 @@ const Y2015: SidebarYeargroupTemplate = {
   ]
 }
 
+const Y2014: SidebarYeargroupTemplate = {
+  text: '2014',
+  collapsible: true,
+  children: [
+    // END: 2014
+  ]
+}
+
+const Y2013: SidebarYeargroupTemplate = {
+  text: '2013',
+  collapsible: true,
+  children: [
+    // END: 2013
+  ]
+}
+
+const Y2012: SidebarYeargroupTemplate = {
+  text: '2012',
+  collapsible: true,
+  children: [
+    // END: 2012
+  ]
+}
+
+const Y2011: SidebarYeargroupTemplate = {
+  text: '2011',
+  collapsible: true,
+  children: [
+    // END: 2011
+  ]
+}
+
+const Y2010: SidebarYeargroupTemplate = {
+  text: '2010',
+  collapsible: true,
+  children: [
+    // END: 2010
+  ]
+}
+
+const Y2009: SidebarYeargroupTemplate = {
+  text: '2009',
+  collapsible: true,
+  children: [
+    // END: 2009
+    "when-can-i-use", // 2009-12-10
+  ]
+}
+
 export const template: SidebarInfoTemplate = {
   name: "bram.us",
   faviconPath: "https://bram.us/favicon.ico",
@@ -181,6 +233,13 @@ export const template: SidebarInfoTemplate = {
       // END: js-node
     ]],[
     "css",[
+      "when-can-i-use", // 2009-12-10
+      // END: 2009css
+      // END: 2010css
+      // END: 2011css
+      // END: 2012css
+      // END: 2013css
+      // END: 2014css
       "css-object-fit", // 2015-02-11
       // END: 2015css
       "viewport-unit-based-typography", // 2016-03-11
@@ -198,9 +257,11 @@ export const template: SidebarInfoTemplate = {
       "css-color-scheme-queries-dark-mode-css", // 2019-05-24
       "logical-operations-with-css-variables", // 2019-09-17
       "css-logical-properties-and-values-the-next-step-of-css-evolution", // 2019-09-20
+      "simple-scroll-snapping-carousel-flexbox-layout-grid-layout", // 2019-10-10
       "embeddable-caniuse-images", // 2019-12-04
       "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
       // END: 2019css
+      "prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top", // 2020-03-02
       "the-ultimate-guide-to-css-viewport-units", // 2020-03-17
       "100vh-in-safari-on-ios", // 2020-05-07
       "css-only-resizable-elements", // 2020-05-15
@@ -216,6 +277,7 @@ export const template: SidebarInfoTemplate = {
       "wwdc-meet-safari-15", // 2021-07-21
       "the-future-of-css-cascade-layers-css-at-layer", // 2021-09-15
       "a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries", // 2021-11-26
+      "the-css-has-selector-is-way-more-than-a-parent-selector", // 2021-12-21
       // END: 2021css
       "detect-at-rule-support-with-the-at-rule-function", // 2022-01-20
       "the-css-cascade-a-deep-dive-2022-06-09-css-day", // 2022-06-29
@@ -282,6 +344,12 @@ export const template: SidebarInfoTemplate = {
       Y2017,
       Y2016,
       Y2015,
+      Y2014,
+      Y2013,
+      Y2012,
+      Y2011,
+      Y2010,
+      Y2009,
     ]]
   ])
 }

@@ -572,14 +572,14 @@ System design is crucial for building reliable, high-performance applications. I
 <SiteInfo
   name="System Design Interview Handbook for Software Engineers"
   desc="Explore the System Design Handbook course to master scalable system design. Learn essential concepts, patterns, and strategies for real-world applications."
-  url="https://systemdesignhandbook.com/system-design-interview-handbook//"
+  url="https://systemdesignhandbook.com/system-design-interview-handbook/"
   logo="https://systemdesignhandbook.com/wp-content/uploads/2024/12/icon-300x300.png"
   preview="https://systemdesignhandbook.com/wp-content/uploads/2024/12/site-image.png"/>
 
 <SiteInfo
   name="Introduction to System Design"
   desc="Learn the basics of System Design, including SDLC, architecture, and scalability to build efficient systems."
-  url="https://grokkingthesystemdesign.com/intro-to-system-design//"
+  url="https://grokkingthesystemdesign.com/intro-to-system-design/"
   logo="https://s0.wp.com/i/webclip.png"
   preview="https://grokkingthesystemdesign.com/wp-content/uploads/2025/04/introduction-to-system-design.webp"/>
 

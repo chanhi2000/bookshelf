@@ -334,7 +334,7 @@ A Phenomenal hosted tool with an impressive list of features, offers both free a
 {
   "title": "Autonomous validation for the AI era",
   "desc": "Deliver production-ready software at AI speed. CircleCI helps modern teams validate, test, and ship every change with intelligent automation.",
-  "link": "https://circleci.com//",
+  "link": "https://circleci.com/",
   "logo": "https://d2qm0z2kzhiwa.cloudfront.net/assets/favicon-a4b5df34fe849ecd8018a252dbf89a6c.ico",
   "background": "rgba(0,219,117,0.2)"
 }

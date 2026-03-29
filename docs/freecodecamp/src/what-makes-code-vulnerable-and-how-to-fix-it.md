@@ -415,7 +415,7 @@ You can also redirect insecure traffic - here’s how you’d do it in Flask, fo
 @app.before_request
 def before_request():
     if not request.is_secure:
-        return redirect(request.url.replace("http://", "https://"))
+        return redirect(request.url.replace("http:/", "https:/"))
 ```
 
 Encrypting traffic is not optional - it’s table stakes for modern apps.

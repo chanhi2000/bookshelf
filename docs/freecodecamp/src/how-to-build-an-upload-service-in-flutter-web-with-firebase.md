@@ -633,7 +633,7 @@ This foundation makes it easy to extend the service further, for example by addi
 {
   "title": "firebase_storage library - Dart API",
   "desc": "firebase_storage library API docs, for the Dart programming language.",
-  "link": "https://pub.dev/documentation/firebase_storage/latest/firebase_storage//",
+  "link": "https://pub.dev/documentation/firebase_storage/latest/firebase_storage/",
   "logo": "https://pub.dev/favicon.ico?hash=nk4nss8c7444fg0chird9erqef2vkhb8",
   "background": "rgba(0,210,250,0.2)"
 }

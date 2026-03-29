@@ -88,7 +88,7 @@ The browser support for `ResizeObserver` is a little scary, but it’s such a ni
 {
   "title": "Responsive Components: a Solution to the Container Queries Problem",
   "desc": "Thoughts on web development, open source, software architecture, and the future.",
-  "link": "https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem//",
+  "link": "https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/",
   "logo": "https://philipwalton.com/static/favicon-16x16-066aacdaeb.png",
   "background": "rgba(244,245,255,0.2)"
 }

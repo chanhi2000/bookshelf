@@ -170,7 +170,7 @@ This article comes straight from my course, [<VPIcon icon="fas fa-globe"/>Unorth
 <SiteInfo
   name="Unorthodox Tailwind | Magical Dev School"
   desc="We help people become amazing developers who can build anything they can imagine."
-  url="https://magicaldevschool.com/courses/unorthodox-tailwind//"
+  url="https://magicaldevschool.com/courses/unorthodox-tailwind/"
   logo="https://magicaldevschool.com//favicon/favicon-16x16.png"
   preview="https://magicaldevschool.com/assets/open-graph.jpg"/>
 

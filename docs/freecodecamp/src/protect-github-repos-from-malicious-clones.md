@@ -76,7 +76,7 @@ If you haven’t heard about what’s going on:
 <SiteInfo
   name="GitHub besieged by millions of malicious repositories in ongoing attack"
   desc="GitHub keeps removing malware-laced repositories, but thousands remain."
-  url="https://arstechnica.com/security/2024/02/github-besieged-by-millions-of-malicious-repositories-in-ongoing-attack//"
+  url="https://arstechnica.com/security/2024/02/github-besieged-by-millions-of-malicious-repositories-in-ongoing-attack/"
   logo="https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
   preview="https://cdn.arstechnica.net/wp-content/uploads/2021/12/cyber-cyber-cyber-1000x648.jpeg"/>
 

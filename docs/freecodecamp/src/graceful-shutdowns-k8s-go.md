@@ -323,7 +323,7 @@ You can find the Go code and Kubernetes manifests in [this Github repository (<V
   name="Pod Lifecycle"
   desc="This page describes the lifecycle of a Pod. Pods follow a defined lifecycle, starting in the Pending phase, moving through Running if at least one of its primary containers starts OK, and then through either the Succeeded or Failed phases depending on whether any container in the Pod terminated in failure.
 Like individual application containers, Pods are considered to be relatively ephemeral (rather than durable) entities. Pods are created, assigned a unique ID (UID), and scheduled to run on nodes where they remain until termination (according to restart policy) or deletion."
-  url="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle//"
+  url="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/"
   logo="https://kubernetes.io/icons/icon-128x128.png"
   preview="https://kubernetes.io/images/kubernetes-open-graph.png"/>
 

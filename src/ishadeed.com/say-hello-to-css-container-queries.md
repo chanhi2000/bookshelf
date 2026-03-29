@@ -540,7 +540,7 @@ Yes! Sure thing. It’s possible to provide a fallback in certain ways. Here are
 <SiteInfo
   name="Container Query Solutions with CSS Grid and Flexbox | Modern CSS Solutions"
   desc="Using grid and flexbox, we can create styles that respond to container and content widths and overcome some of the pain points that container queries are proposed to resolve."
-  url="https://moderncss.dev/container-query-solutions-with-css-grid-and-flexbox//"
+  url="https://moderncss.dev/container-query-solutions-with-css-grid-and-flexbox/"
   logo="https://moderncss.dev/favicon.png"
   preview="https://moderncss.dev/img/social/container-query-solutions-with-css-grid-and-flexbox.png"/>
 

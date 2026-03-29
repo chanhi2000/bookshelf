@@ -425,7 +425,7 @@ For official documentation and further learning:
 <SiteInfo
   name="ObjectBox Docs | ObjectBox Docs"
   desc="Explore the on-device database and SQLite alternative for object and vector data. This is the official ObjectBox documentation for Java/Kotlin, Dart/Flutter, and Python."
-  url="https://docs.objectbox.io//"
+  url="https://docs.objectbox.io/"
   logo="https://docs.objectbox.io/~gitbook/image?url=https%3A%2F%2F4174656640-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-LETufmyus5LFkviJjr4%252Favatar.png%3Fgeneration%3D1528453316288221%26alt%3Dmedia&width=48&height=48&sign=96b28d45&sv=2"
   preview="https://docs.objectbox.io/~gitbook/ogimage/-LETufmzleoQUwcwW_OL"/>
 

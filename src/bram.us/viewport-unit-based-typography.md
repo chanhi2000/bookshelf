@@ -60,7 +60,7 @@ I really dig the `vw` and `vh` units as â€“ in some of the projects I work on â€
 <SiteInfo
   name="Viewport Unit Based Typography"
   desc="I build products, coach people, and explore what sustainable work means. I bring a dev background and psychology to everything I make. Weekly updates on code, breakthroughs, and living well."
-  url="https://zellwk.com/blog/viewport-based-typography//"
+  url="https://zellwk.com/blog/viewport-based-typography/"
   logo="https://zellwk.com/favicon/favicon.ico?v=2"
   preview="https:/zellwk.com/og/fallback.png"/>
 

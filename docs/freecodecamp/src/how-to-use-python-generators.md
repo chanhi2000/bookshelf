@@ -267,7 +267,7 @@ In summary, Python generators offer efficient memory management and enhanced per
 
 Their ability to optimize resources makes them a valuable tool for modern Python developers seeking elegant and scalable solutions.
 
-Hopefully, this exploration of Python generators provides you with the insights needed to leverage their full potential. If you have any questions or want to discuss further, feel free to reach out to me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`rochdi-khalid`)](https://linkedin.com/in/rochdi-khalid/). Additionally, you can subscribe to [my YouTube channel (<VPIcon icon="fa-brands fa-youtube"/>`codasteroid4580`)](https://youtube.com/@codasteroid4580) where I share videos on coding techniques and projects I'm working on.
+Hopefully, this exploration of Python generators provides you with the insights needed to leverage their full potential. If you have any questions or want to discuss further, feel free to reach out to me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`rochdi-khalid`)](https://linkedin.com/in/rochdi-khalid/). Additionally, you can subscribe to [my YouTube channel (<VPIcon icon="fa-brands fa-youtube"/>`codasteroid4580`)](https://youtube.com/@codasteroid4580) where I share videos on coding techniques and projects I'm working on.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

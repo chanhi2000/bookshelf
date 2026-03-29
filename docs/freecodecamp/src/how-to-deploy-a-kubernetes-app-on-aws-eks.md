@@ -326,7 +326,7 @@ Whether you're a developer experimenting with Kubernetes or a team looking to sc
 <SiteInfo
   name="Docker 101 Tutorial | Docker"
   desc="Learn how to build and share your first containerized application with this self-paced Docker tutorial."
-  url="https://docker.com/101-tutorial//"
+  url="https://docker.com/101-tutorial/"
   logo="https://docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-192x192.png"
   preview="https://docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png"/>
 

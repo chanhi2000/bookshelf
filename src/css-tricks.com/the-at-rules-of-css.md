@@ -407,14 +407,14 @@ This at-rule was introduced in February 2023 with the release of Container Queri
 <SiteInfo
   name="251: Container Queries are the Future - CSS-Tricks"
   desc=": First up this week, Una Kravets wrote about how marvelous the future will be with container queries:"
-  url="https://css-tricks.com/newsletter/251-container-queries-are-the-future//"
+  url="https://css-tricks.com/newsletter/251-container-queries-are-the-future/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/05/Kapture-2021-03-24-at-12.04.23.gif"/>
 
 <SiteInfo
   name="256: When to use @container queries - CSS-Tricks"
   desc=": Max Böck asks when should we use @container or @media queries?"
-  url="https://css-tricks.com/newsletter/256-when-to-use-container-queries//"
+  url="https://css-tricks.com/newsletter/256-when-to-use-container-queries/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/06/Frame-8.png"/>
 

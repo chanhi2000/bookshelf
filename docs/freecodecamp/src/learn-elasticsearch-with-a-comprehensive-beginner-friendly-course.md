@@ -5,6 +5,7 @@ description: "Article(s) > Learn Elasticsearch with a Comprehensive Beginner-Fri
 icon: iconfont icon-elasticsearch
 category:
   - Python
+  - Data Science
   - Elasticsearch
   - Youtube
   - Article(s)
@@ -13,8 +14,10 @@ tag:
   - freecodecamp.org
   - py
   - python
+  - data-science
   - elastic
   - elasticsearch
+  - elastic-search
   - youtube
   - crashcourse
 head:
@@ -40,7 +43,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734016608619/8257438
 {
   "title": "Elasticsearch > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/java-elasticsearch/articles/README.md",
+  "link": "/data-science/elasticsearch/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

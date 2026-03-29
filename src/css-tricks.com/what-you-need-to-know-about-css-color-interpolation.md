@@ -295,7 +295,7 @@ We can animate the transition between colors! So, instead of mixing two specific
 {
   "title": "Okay, Color Spaces —  ericportis.com",
   "desc": "Colors… in… spaaaaaaace",
-  "link": "https://ericportis.com/posts/2024/okay-color-spaces//",
+  "link": "https://ericportis.com/posts/2024/okay-color-spaces/",
   "logo": "https://ericportis.com/favicon.ico",
   "background": "rgba(244,245,255,0.2)"
 }
@@ -305,7 +305,7 @@ We can animate the transition between colors! So, instead of mixing two specific
 {
   "title": "Color Interpolation - ColorAide Documentation",
   "desc": "A library to aid in using colors",
-  "link": "https://facelessuser.github.io/coloraide/interpolation//",
+  "link": "https://facelessuser.github.io/coloraide/interpolation/",
   "logo": "https://facelessuser.github.io/coloraide/assets/images/favicon.png",
   "background": "rgba(191,149,249,0.2)"
 }
@@ -324,7 +324,7 @@ We can animate the transition between colors! So, instead of mixing two specific
 <SiteInfo
   name="Interpolating Colours"
   desc="Today I’ll be talking about how we can use some relatively new data types in CSS for finer control over how we use colour spaces in mixing and creating gradients from colours. "
-  url="https://chrisburnell.com/article/interpolating-colours//"
+  url="https://chrisburnell.com/article/interpolating-colours/"
   logo="https://chrisburnell.com/images/favicon-64.png"
   preview="https://chrisburnell.com/og-images/article-interpolating-colours.png"/>
 

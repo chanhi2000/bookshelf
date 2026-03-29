@@ -70,7 +70,7 @@ Let’s look at five great options, each offering different strengths depending 
 <SiteInfo
   name="Cloud-Based WAF Security | Web Application Firewall"
   desc="Cloudflare's Web Application Firewall service offers industry leading protection. See how our cloud-based WAF service can keep your applications secure."
-  url="https://cloudflare.com/en-in/application-services/products/waf//"
+  url="https://cloudflare.com/en-in/application-services/products/waf/"
   logo="https://cloudflare.com/favicon.ico"
   preview="https://cf-assets.cloudflare.com/slt3lc6tev37/53qCYhQbir5WtIU0VDWESo/954a48bfb17f429acf469e5f14345d83/unnamed-3.png"/>
 

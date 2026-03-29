@@ -136,11 +136,11 @@ If you’re ready to start learning SQL, check out the course on the freeCodeCam
 
 - [Youtube: <VPIcon icon="fa-brands fa-youtube"/>@SergieCode](https://youtube.com/@SergieCode)
 - [Instagram: <VPIcon icon="fa-brands fa-instagram"/>`@sergiecode`](https://instagram.com/sergiecode)
-- [LinkedIn: <VPIcon icon="fa-brands fa-linkedin" />`sergiecode`)](https://linkedin.com/in/sergiecode/)
+- [LinkedIn: <VPIcon icon="fa-brands fa-linkedin"/>`sergiecode`)](https://linkedin.com/in/sergiecode/)
 - [GitHub: <VPIcon icon="iconfont icon-github"/>`sergiecode`](https://github.com/sergiecode)
 - [Facebook: <VPIcon icon="fa-brands fa-meta"/>`@sergiecodeok`](https://facebook.com/sergiecodeok)
 - [TikTok <VPIcon icon="fa-brands fa-tiktok"/>`@sergiecode`](https://tiktok.com/@sergiecode)
-- [Twitter <VPIcon icon="fa-brands fa-x-twitter" />`sergiecode`](https://twitter.com/sergiecode)
+- [Twitter <VPIcon icon="fa-brands fa-x-twitter"/>`sergiecode`](https://twitter.com/sergiecode)
 - [Threads: <VPIcon icon="fa-brands fa-threads"/>@sergiecode](https://threads.net/@sergiecode)
 
 :::

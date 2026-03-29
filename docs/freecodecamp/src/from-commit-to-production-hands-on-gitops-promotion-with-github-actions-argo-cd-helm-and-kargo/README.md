@@ -733,7 +733,7 @@ Whether you're a DevOps engineer sharpening your skills, or a platform team sett
 <SiteInfo
   name="How to Model Your GitOps Environments and Promote Releases between Them"
   desc="Learn how to model your GitOps environments using different folders on the same Git branch, and how to handle environment promotion."
-  url="https://codefresh.io/blog/how-to-model-your-gitops-environments-and-promote-releases-between-them//"
+  url="https://codefresh.io/blog/how-to-model-your-gitops-environments-and-promote-releases-between-them/"
   logo="https://codefresh.io/wp-content/uploads/2023/04/cropped-favicon_codefresh.webp"
   preview="https://codefresh.io/wp-content/uploads/2022/03/old-social.jpg"/>
 

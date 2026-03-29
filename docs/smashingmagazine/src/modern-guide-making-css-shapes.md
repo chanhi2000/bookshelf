@@ -352,7 +352,7 @@ The funny thing is that starbursts are basically the exact same thing as polygon
 <SiteInfo
   name="CSS Generator for Starburst Shapes"
   desc="Create a starburst shape using CSS clip-path. Get an optimized & modern code in no time."
-  url="https://css-generators.com/starburst-shape//"
+  url="https://css-generators.com/starburst-shape/"
   logo="https://css-generators.com/fav.png"
   preview="https://css-generators.com/starburst-shape/starburst-shape.jpg"/>
 

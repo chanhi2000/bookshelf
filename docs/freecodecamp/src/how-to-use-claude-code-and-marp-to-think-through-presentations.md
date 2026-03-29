@@ -269,7 +269,7 @@ npm i -g @marp-team/marp-cli
 npx skills add Omerr/claude-skills
 ```
 
-This works with Claude Code, Cursor, GitHub Copilot, and other AI agents. You can also install manually  ( see the [<VPIcon icon="iconfont icon-github" />`Omerr/claude-skills`](https://github.com/Omerr/claude-skills) for details).
+This works with Claude Code, Cursor, GitHub Copilot, and other AI agents. You can also install manually  ( see the [<VPIcon icon="iconfont icon-github"/>`Omerr/claude-skills`](https://github.com/Omerr/claude-skills) for details).
 
 ### 3. Run it:
 
@@ -320,7 +320,7 @@ Four lines and you have widescreen, paginated slides. Slide breaks are just `---
 
 You *could* just ask Claude Code to “make me a Marp presentation” every time. But you’d spend half the conversation explaining your preferred format, color palette, and slide structure.
 
-Instead, I created a **Claude Code skill** (see it [here (<VPIcon icon="iconfont icon-github" />`Omerr/claude-skills.git`)](https://github.com/Omerr/claude-skills.git)), a reusable set of instructions that Claude follows whenever you invoke it. It has two parts:
+Instead, I created a **Claude Code skill** (see it [here (<VPIcon icon="iconfont icon-github"/>`Omerr/claude-skills.git`)](https://github.com/Omerr/claude-skills.git)), a reusable set of instructions that Claude follows whenever you invoke it. It has two parts:
 
 1. An **interview phase** that gathers context before generating anything (the 5 questions from the brainstorm step)
 2. A **generation phase** with the full Marp conventions: CSS palette, slide structure, breadcrumb pattern, formatting rules, and export commands
@@ -370,7 +370,7 @@ If you want to try it: `npm i -g @marp-team/marp-cli`, run `npx skills add Omerr
 
 ::: info About the Author
 
-[Omer Rosenbaum (<VPIcon icon="fa-brands fa-linkedin" />`omer-rosenbaum-034a08b9`)](https://linkedin.com/in/omer-rosenbaum-034a08b9/) is the author of the [Brief YouTube Channel (<VPIcon icon="fa-brands fa-youtube"/>`@BriefVid`)](https://youtube.com/@BriefVid). He’s also a cyber training expert and founder of Checkpoint Security Academy. He’s the author of [**Product-Led Research**](/freecodecamp.org/product-led-research-a-practical-guide-for-randd-leaders-full-book/README.md), [**Gitting Things Done**](/freecodecamp.org/gitting-things-done-book/README.md#) (in English) and [<VPIcon icon="fas fa-globe"/>Computer Networks](https://data.cyber.org.il/networks/networks.pdf) (in Hebrew). You can find him on [Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`Omer_Ros`)](https://twitter.com/Omer_Ros).
+[Omer Rosenbaum (<VPIcon icon="fa-brands fa-linkedin"/>`omer-rosenbaum-034a08b9`)](https://linkedin.com/in/omer-rosenbaum-034a08b9/) is the author of the [Brief YouTube Channel (<VPIcon icon="fa-brands fa-youtube"/>`@BriefVid`)](https://youtube.com/@BriefVid). He’s also a cyber training expert and founder of Checkpoint Security Academy. He’s the author of [**Product-Led Research**](/freecodecamp.org/product-led-research-a-practical-guide-for-randd-leaders-full-book/README.md), [**Gitting Things Done**](/freecodecamp.org/gitting-things-done-book/README.md#) (in English) and [<VPIcon icon="fas fa-globe"/>Computer Networks](https://data.cyber.org.il/networks/networks.pdf) (in Hebrew). You can find him on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`Omer_Ros`)](https://twitter.com/Omer_Ros).
 
 :::
 

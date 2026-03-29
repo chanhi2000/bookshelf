@@ -8,6 +8,7 @@ category:
   - Linux
   - Debian
   - Kali Linux
+  - Virtualbox
   - Vagrant
   - Article(s)
 tag:
@@ -18,6 +19,7 @@ tag:
   - linux
   - debian
   - kali
+  - virtualbox
   - vagrant
 head:
   - - meta:

@@ -864,7 +864,7 @@ If you already know SQL, Dapper's learning curve is remarkably shallow. There's 
 
 ::: info
 
-Again, thanks for reading and I hope you have found this tutorial useful. If you'd like to chat about anything in this tutorial or hear about future articles, you can follow me on [X/Twitter (<VPIcon icon="fa-brands fa-x-twitter" />`grant-dot-dev`)](https://x.com/grant-dot-dev).
+Again, thanks for reading and I hope you have found this tutorial useful. If you'd like to chat about anything in this tutorial or hear about future articles, you can follow me on [X/Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`grant-dot-dev`)](https://x.com/grant-dot-dev).
 
 :::
 

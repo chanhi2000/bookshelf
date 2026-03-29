@@ -93,7 +93,7 @@ Again, it’s wild. I’m not here to speculate, opine, or preach on Generative 
 <SiteInfo
   name="Generative UI and Outcome-Oriented Design"
   desc="GenUI promises highly personalized interfaces — a move from designing for many to tailoring for the individual."
-  url="https://nngroup.com/articles/generative-ui//"
+  url="https://nngroup.com/articles/generative-ui/"
   logo="https://media.nngroup.com/static/img/favicon.ico"
   preview="https://media.nngroup.com/media/articles/opengraph_images/GenUI-33.png"/>
 
@@ -156,7 +156,7 @@ Accessibility is a lagging consideration to the hype, at least to me. That has t
 
 In addition to that, [<VPIcon icon="iconfont icon-flutter"/>Google has a GenUI SDK](https://docs.flutter.dev/ai/genui/get-started) designed to integrate into Flutter apps. So, yeah. Connect to your LLM provider and let it rip to create adaptive interfaces.
 
-[<VPIcon icon="fas fa-globe"/>Thesys](https://thesys.dev/) is another one in the adaptive GenUI space. [Copilot (<VPIcon icon="iconfont icon-github" />`CopilotKit/generative-ui-playground`)](https://github.com/CopilotKit/generative-ui-playground), too.
+[<VPIcon icon="fas fa-globe"/>Thesys](https://thesys.dev/) is another one in the adaptive GenUI space. [Copilot (<VPIcon icon="iconfont icon-github"/>`CopilotKit/generative-ui-playground`)](https://github.com/CopilotKit/generative-ui-playground), too.
 
 ::: info References
 <!-- TODO: SiteInfo 작성 -->

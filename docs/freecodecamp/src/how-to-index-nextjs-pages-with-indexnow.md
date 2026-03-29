@@ -414,7 +414,7 @@ I hope this was useful, and feel free to experiment and customize this integrati
 {
   "title": "Introducing IndexNow Submitter: Fast Search Engine Indexing",
   "desc": "Introducing IndexNow Submitter, an npm module I created to boost your node app’s SEO with faster indexing using IndexNow protocol.",
-  "link": "https://wewake.dev/posts/introducing-indexnow-submitter-fast-search-engine-indexing//",
+  "link": "https://wewake.dev/posts/introducing-indexnow-submitter-fast-search-engine-indexing/",
   "logo": "https://wewake.dev/assets/img/favicons/favicon.ico",
   "background": "rgba(240,248,255,0.2)"
 }

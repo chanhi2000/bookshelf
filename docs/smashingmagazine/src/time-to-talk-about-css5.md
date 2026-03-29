@@ -238,7 +238,7 @@ And if you think Iâ€™m blameless when it comes to talking about CSS in generic â
 {
   "title": "CSS4 Community Group",
   "desc": "A group to debate and define CSS4. The umbrella term "CSS3" was incredibly useful in teaching the new additions to CSS around 2010. It seems time to loosely group together more recent additions under another umbrella, to help increase adoption and make it easier to teach. This will not change how the CSSWG operates, will not affect spec numbering, and will be separate from the official CSS snapshots.",
-  "link": "https://w3.org/community/css4//",
+  "link": "https://w3.org/community/css4/",
   "logo": "https://w3.org/community/wp-content/themes/StoryTeller/favicon.ico",
   "background": "rgba(14,122,173,0.2)"
 }

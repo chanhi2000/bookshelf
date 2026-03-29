@@ -166,7 +166,7 @@ This silent failure cost the company significant losses. The system seemed fine 
 <SiteInfo
   name="How Model Drift is Sabotaging Production AI Systems"
   desc="Model drift is quietly degrading AI performance in production. Learn how to detect it—and why AI-native observability is critical to stop it early."
-  url="https://insightfinder.com/blog/model-drift-ai-observability//"
+  url="https://insightfinder.com/blog/model-drift-ai-observability/"
   logo="https://insightfinder.com/wp-content/uploads/favicon.png"
   preview="https://insightfinder.com/wp-content/uploads/Screenshot-2025-06-24-at-7.25.32 PM-1-1024x952.png"/>
 

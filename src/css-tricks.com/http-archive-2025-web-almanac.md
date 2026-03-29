@@ -69,7 +69,7 @@ Some highlights:
 <SiteInfo
   name="The 2025 Web Almanac"
   desc="The Web Almanac is an annual state of the web report combining the expertise of the web community with the data and trends of the HTTP Archive."
-  url="https://almanac.httparchive.org/en/2025//"
+  url="https://almanac.httparchive.org/en/2025/"
   logo="https://almanac.httparchive.org/static/images/favicon.ico"
   preview="https://almanac.httparchive.org/static/images/home-hero-2025.png"/>
 

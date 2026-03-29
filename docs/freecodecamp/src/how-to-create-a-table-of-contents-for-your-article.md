@@ -12,8 +12,13 @@ category:
 tag:
   - blog
   - freecodecamp.org
+  - browser
+  - webbrowser
+  - web-browser
   - google
   - chrome
+  - googlechrome
+  - google-chrome
   - js
   - javascript
 head:

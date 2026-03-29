@@ -5,6 +5,15 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "building-a-blog-in-tanstack-part-1-of-2", // 2026-04-17
+    "building-a-ui-without-breakpoints", // 2026-04-15
+    "ai-generated-ui-is-inaccessible-by-default", // 2026-04-13
+    "how-i-lost-madcss", // 2026-04-10
+    "svg-filters-guide-getting-started-with-the-basics", // 2026-04-09
+    "name-only-containers-the-scoping-we-needed", // 2026-04-07
+    "creating-puzzle-peices-in-css", // 2026-04-06
+    "what-to-know-in-javascript-2026-edition", // 2026-04-02
+    "the-drill-down-menu-with-details-and-scope", // 2026-03-30
     "the-top-trait-companies-look-for-in-a-technical-interview", // 2026-03-26
     "shadow-dom-focus-delegation-getting-delegatesfocus-right", // 2026-03-24
     "two-circles-one-arrow-and-anchor-positioning", // 2026-03-23
@@ -325,6 +334,7 @@ export const template: SidebarInfoTemplate = {
       "the-browser-hates-surprises", // 2026-02-06
       "virtual-scroll-driven-3d-scenes", // 2026-02-23
       "shadow-dom-focus-delegation-getting-delegatesfocus-right", // 2026-03-24
+      "creating-puzzle-peices-in-css", // 2026-04-06
       // END: 2026js
       // END: js
     ]],[
@@ -350,6 +360,7 @@ export const template: SidebarInfoTemplate = {
       "architecture-through-component-colocation", // 2025-08-11
       // END: 2025js-node
       "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
+      "what-to-know-in-javascript-2026-edition", // 2026-04-02
       // END: 2026js-node
       // END: js-node
     ]],[
@@ -374,6 +385,8 @@ export const template: SidebarInfoTemplate = {
       "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
       "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
       "the-top-trait-companies-look-for-in-a-technical-interview", // 2026-03-26
+      "ai-generated-ui-is-inaccessible-by-default", // 2026-04-13
+      "building-a-blog-in-tanstack-part-1-of-2", // 2026-04-17
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -585,6 +598,11 @@ export const template: SidebarInfoTemplate = {
       "image-gallery-with-popovers-and-aim-anchor-interpolated-morph", // 2026-03-19
       "two-circles-one-arrow-and-anchor-positioning", // 2026-03-23
       "the-top-trait-companies-look-for-in-a-technical-interview", // 2026-03-26
+      "the-drill-down-menu-with-details-and-scope", // 2026-03-30
+      "creating-puzzle-peices-in-css", // 2026-04-06
+      "name-only-containers-the-scoping-we-needed", // 2026-04-07
+      "svg-filters-guide-getting-started-with-the-basics", // 2026-04-09
+      "how-i-lost-madcss", // 2026-04-10
       // END: 2026css
       // END`: css
     ]],[
@@ -687,6 +705,11 @@ export const template: SidebarInfoTemplate = {
       "what-senior-engineers-need-to-know-about-ai-coding-tools", // 2026-01-29
       // END: 2026openai
       // END: openai
+    ]],[
+    "llm", [
+      "ai-generated-ui-is-inaccessible-by-default", // 2026-04-13
+      // END: 2026llm
+      // END: llm
     ]],[
     "openai", [
       "chatgpt-and-old-and-broken-code", // 2025-05-20

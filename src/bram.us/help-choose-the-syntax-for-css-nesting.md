@@ -115,7 +115,7 @@ This is your time to be heard! [<VPIcon icon="fa-brands fa-safari"/>Head over to
 <SiteInfo
   name="Help choose the syntax for CSS Nesting"
   desc="The CSS Working Group is continuing a debate over the best way to define nesting in CSS."
-  url="https://webkit.org/blog/13607/help-choose-from-options-for-css-nesting-syntax//"
+  url="https://webkit.org/blog/13607/help-choose-from-options-for-css-nesting-syntax/"
   logo="https://webkit.org/favicon.png"
   preview="https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg"/>
 
@@ -219,7 +219,7 @@ Initially there were some caching issues going on with the page, but these shoul
 <SiteInfo
   name="Help choose the syntax for CSS Nesting"
   desc="The CSS Working Group is continuing a debate over the best way to define nesting in CSS."
-  url="https://webkit.org/blog/13607/help-choose-from-options-for-css-nesting-syntax//"
+  url="https://webkit.org/blog/13607/help-choose-from-options-for-css-nesting-syntax/"
   logo="https://webkit.org/favicon.png"
   preview="https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg"/>
 

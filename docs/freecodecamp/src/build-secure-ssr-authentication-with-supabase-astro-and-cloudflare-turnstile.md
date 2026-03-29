@@ -695,7 +695,7 @@ And with that, you've successfully built a comprehensive auth system that levera
 <SiteInfo
   name="cookies - Astro"
   desc="cookies contains utilities for reading and manipulating cookies for routes rendered on demand."
-  url="https://docs.astro.build/en/reference/api-reference//"
+  url="https://docs.astro.build/en/reference/api-reference/"
   logo="https://docs.astro.build/favicon.svg"
   preview="https://docs.astro.build/open-graph/en/reference/api-reference.webp"/>
 
@@ -709,14 +709,14 @@ And with that, you've successfully built a comprehensive auth system that levera
 <SiteInfo
   name="Actions - Astro"
   desc="Learn how to create type-safe server functions you can call from anywhere."
-  url="https://docs.astro.build/en/guides/actions//"
+  url="https://docs.astro.build/en/guides/actions/"
   logo="https://docs.astro.build/favicon.svg"
   preview="https://docs.astro.build/open-graph/en/guides/actions.webp"/>
 
 <SiteInfo
   name="Get started with Turnstile · Cloudflare Turnstile docs"
   desc="This guide will get you started on setting up the Turnstile widget."
-  url="https://developers.cloudflare.com/turnstile/get-started//"
+  url="https://developers.cloudflare.com/turnstile/get-started/"
   logo="https://developers.cloudflare.com/favicon.png"
   preview="https://developers.cloudflare.com/core-services-preview.png"/>
 

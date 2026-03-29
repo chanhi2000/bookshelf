@@ -191,7 +191,7 @@ A dump of things I found and used while researching this:
 <SiteInfo
   name="Announcing Interop 2025"
   desc="Exciting news for web developers, designers, and browser enthusiasts alike — Interop 2025 is here, continuing the mission of improving cross-browser interoperability."
-  url="https://webkit.org/blog/16458/announcing-interop-2025//"
+  url="https://webkit.org/blog/16458/announcing-interop-2025/"
   logo="https://webkit.org/favicon.ico"
   preview="https://webkit.org/wp-content/uploads/Interop-2024-experimental-end.png"/>
 

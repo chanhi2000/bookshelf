@@ -531,21 +531,21 @@ https://css-tricks.com/digging-deeper-into-container-style-queries/
 <SiteInfo
   name="container | CSS-Tricks"
   desc="The CSS container property is a shorthand that combines the container-name and container-type properties into a single declaration."
-  url="https://css-tricks.com/almanac/properties/c/container//"
+  url="https://css-tricks.com/almanac/properties/c/container/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-logo-gradient-outline.png"/>
 
 <SiteInfo
   name="container-name | CSS-Tricks"
   desc="The CSS container-name property is used to register an element as a container that applies styles to other elements based on the container's size and styles."
-  url="https://css-tricks.com/almanac/properties/c/container-name//"
+  url="https://css-tricks.com/almanac/properties/c/container-name/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-logo-gradient-outline.png"/>
 
 <SiteInfo
   name="container-type | CSS-Tricks"
   desc="The CSS container-type property is part of the Container Queries feature used to register an element as a container that can apply styles to other elements"
-  url="https://css-tricks.com/almanac/properties/c/container-type//"
+  url="https://css-tricks.com/almanac/properties/c/container-type/"
   logo="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-logo-gradient-outline.png"/>
 
@@ -564,14 +564,14 @@ https://css-tricks.com/a-complete-guide-to-custom-properties/
 <SiteInfo
   name="Container Queries: a Quick Start Guide"
   desc="Now is the time to begin experimenting with a long requested layout tool."
-  url="https://oddbird.net/2021/04/05/containerqueries//"
+  url="https://oddbird.net/2021/04/05/containerqueries/"
   logo="https://oddbird.net/favicon-16x16.png"
   preview="https://oddbird.net/assets/images/blog/2021/widequote-1408w.jpeg"/>
 
 <SiteInfo
   name="CSS Containers, What Do They Know?"
   desc="A deep-dive introduction to CSS container queries"
-  url="https://oddbird.net/talks/containers//"
+  url="https://oddbird.net/talks/containers/"
   logo="https://oddbird.net/favicon-16x16.png"
   preview="https://oddbird.net/assets/images/talks/mudturtles-1600w.jpeg"/>
 
@@ -581,7 +581,7 @@ https://css-tricks.com/a-complete-guide-to-custom-properties/
 <SiteInfo
   name="An Interactive Guide to CSS Container Queries"
   desc="Learn how to use CSS container queries today."
-  url="https://ishadeed.com/article/css-container-query-guide//"
+  url="https://ishadeed.com/article/css-container-query-guide/"
   logo="https://ishadeed.com/assets/favicon-32x32.png"
   preview="https://ishadeed.com/assets/container-query/twitter-card.jpg"/>
 
@@ -624,7 +624,7 @@ https://css-tricks.com/a-complete-guide-to-custom-properties/
 <SiteInfo
   name="Container Query Units and Fluid Typography | Modern CSS Solutions"
   desc="To learn more about the behaviors of container query units, we'll explore three fluid typography techniques applied via a ”mixin” using custom properties. These upgraded methods will produce truly responsive typography, regardless of context."
-  url="https://moderncss.dev/container-query-units-and-fluid-typography//"
+  url="https://moderncss.dev/container-query-units-and-fluid-typography/"
   logo="https://moderncss.dev/favicon.png"
   preview="https://moderncss.dev/img/social/container-query-units-and-fluid-typography.png"/>
 

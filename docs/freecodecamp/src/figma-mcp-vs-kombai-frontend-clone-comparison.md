@@ -214,7 +214,7 @@ If you spend most of your time on the frontend, Kombai may be a good fit.
 <SiteInfo
   name="Introducing our MCP server: Bringing Figma into your workflow | Figma Blog"
   desc="Today we’re announcing the beta release of the Figma MCP server, which brings Figma directly into the developer workflow to help LLMs achieve design-informed code generation."
-  url="https://figma.com/blog/introducing-figma-mcp-server//"
+  url="https://figma.com/blog/introducing-figma-mcp-server/"
   logo="https://static.figma.com/app/icon/1/favicon.svg"
   preview="https://cdn.sanity.io/images/599r6htc/regionalized/bbbd715863ae9596492a6b6eda14af49a9b802de-2400x1260.png?w=1200&q=70&fit=max&auto=format"/>
 

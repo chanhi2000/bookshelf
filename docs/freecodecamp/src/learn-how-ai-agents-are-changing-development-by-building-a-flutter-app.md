@@ -838,7 +838,7 @@ It is understanding systems well enough to guide the tools that build them.
 <SiteInfo
   name="Build with Google Antigravity, our new agentic development platform"
   desc="Google Antigravity: The agentic development platform that lets agents autonomously plan, execute, and verify complex tasks. Available now."
-  url="https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform//"
+  url="https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/"
   logo="https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/favicon.ico"
   preview="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Experience_liftoff_1.2e16d0ba.fill-1200x600.png"/>
 

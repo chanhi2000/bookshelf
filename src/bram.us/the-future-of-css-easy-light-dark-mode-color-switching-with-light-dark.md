@@ -118,7 +118,7 @@ The used color scheme is not only based on the user’s Light/Dark Mode setting,
 {
   "title": "CSS System Colors",
   "desc": "Writing about the big beautiful mess that is making things for the world wide web.",
-  "link": "https://blog.jim-nielsen.com/2021/css-system-colors//",
+  "link": "https://blog.jim-nielsen.com/2021/css-system-colors/",
   "logo": "https://blog.jim-nielsen.com/favicon.ico",
   "background": "rgba(255,106,97,0.2)"
 }

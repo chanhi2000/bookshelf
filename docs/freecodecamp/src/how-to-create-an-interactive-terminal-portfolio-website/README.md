@@ -305,7 +305,7 @@ You can check these examples for inspiration:
 {
   "title": "Fake Linux Terminal - Online Simulator",
   "desc": "This is example of using jQuery Terminal Emulator to create Fake Linux System. It's work in progress. Check GitHub Repo for more information.",
-  "link": "https://fake.terminal.jcubic.pl//",
+  "link": "https://fake.terminal.jcubic.pl/",
   "logo": "",
   "background": "rgba(10,10,10,0.2)"
 }

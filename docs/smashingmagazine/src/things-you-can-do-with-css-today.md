@@ -105,7 +105,7 @@ Right now, masonry is [only working in Firefox Nightly (<VPIcon icon="fa-brands 
   :default-tab="['css','result']"
   :theme="$isDarkmode ? 'dark': 'light'"/>
 
-[Rachel Andrew (<VPIcon icon="fa-brands fa-x-twitter" />`rachelandrew`)](https://x.com/rachelandrew) [**wrote a great article about CSS Grid Masonry**](/smashingmagazine.com/native-css-masonry-layout-css-grid.md) and you can also read the [<VPIcon icon="iconfont icon-w3c"/>CSS Grid Layout Module Level 3 editor’s draft here](https://drafts.csswg.org/css-grid-3/) for technical details.
+[Rachel Andrew (<VPIcon icon="fa-brands fa-x-twitter"/>`rachelandrew`)](https://x.com/rachelandrew) [**wrote a great article about CSS Grid Masonry**](/smashingmagazine.com/native-css-masonry-layout-css-grid.md) and you can also read the [<VPIcon icon="iconfont icon-w3c"/>CSS Grid Layout Module Level 3 editor’s draft here](https://drafts.csswg.org/css-grid-3/) for technical details.
 
 Masonry support is [<VPIcon icon="iconfont icon-caniuse"/>currently very low](https://caniuse.com), but as anything on the web, working out what your [**minimum viable experience**](/piccalil.li/a-minimum-viable-experience-makes-for-a-resilient-inclusive-website-or-app.md) is, then building up with progressive enhancement is a resilient way to build things. If you **must** use a masonry layout, though: I would recommend sticking with the [<VPIcon icon="fas fa-globe"/>tried-and-tested](https://masonry.desandro.com) [<VPIcon icon="fas fa-globe"/>Masonry.js](https://masonry.desandro.com) for now, but stick a ticket in your backlog to replace with native CSS in the future!
 
@@ -233,7 +233,7 @@ These logical functions are way more useful than that though. Here’s a demo wh
 
 In the demo, I’m using `min()` to size the image and also, calculate the border-radius in the same way. It’s incredibly subtle, but really helps to achieve high design detail on the web, which is great!
 
-[Una Kravets (<VPIcon icon="fa-brands fa-x-twitter" />`una`)](https://x.com/una) has [<VPIcon icon="iconfont icon-webdev"/>written a fantastically useful article](https://web.dev/min-max-clamp/) on the use cases of these functions. I also use it to [<VPIcon icon="fas fa-globe"/>create a flexible wrapper](https://piccalil.li/quick-tip/use-css-clamp-to-create-a-more-flexible-wrapper-utility).
+[Una Kravets (<VPIcon icon="fa-brands fa-x-twitter"/>`una`)](https://x.com/una) has [<VPIcon icon="iconfont icon-webdev"/>written a fantastically useful article](https://web.dev/min-max-clamp/) on the use cases of these functions. I also use it to [<VPIcon icon="fas fa-globe"/>create a flexible wrapper](https://piccalil.li/quick-tip/use-css-clamp-to-create-a-more-flexible-wrapper-utility).
 
 ::: info Resources
 
@@ -294,14 +294,14 @@ In the following demo, I’ve solved two problems with these units. First, I’v
 <SiteInfo
   name="Units"
   desc="Relearn CSS layout"
-  url="https://every-layout.dev/rudiments/units//"
+  url="https://every-layout.dev/rudiments/units/"
   logo="https://every-layout.dev/images/favicon.png"
   preview="https://every-layout.dev/images/card.png"/>
 
 <SiteInfo
   name="Limit line lengths to increase readability"
   desc="It’s a really good idea to limit your line-lengths to increase readability. Use the ch unit, which is equal to the width of a 0 character in the rendered font."
-  url="https://piccalil.li/blog/line-length//"
+  url="https://piccalil.li/blog/line-length/"
   logo="https://piccalil.li/favicons/favicon.ico"
   preview="https://piccalil.b-cdn.net/api/og-image?slug=line-length/"/>
 
@@ -342,7 +342,7 @@ Text decoration is no longer boring. You can do *loads* now, thanks to some upda
 
 I also like using these new properties to better control underline thickness for heading elements, as they can get pretty heavy in certain fonts.
 
-I strongly recommend you [<VPIcon icon="fa-brands fa-youtube"/>watch this video](https://youtu.be/sZS-7RX_c7g) by [Jen Simmons (<VPIcon icon="fa-brands fa-x-twitter" />`jensimmons`)](https://x.com/jensimmons) where, as always, she explains CSS properties in a friendly easy-to-understand manner.
+I strongly recommend you [<VPIcon icon="fa-brands fa-youtube"/>watch this video](https://youtu.be/sZS-7RX_c7g) by [Jen Simmons (<VPIcon icon="fa-brands fa-x-twitter"/>`jensimmons`)](https://x.com/jensimmons) where, as always, she explains CSS properties in a friendly easy-to-understand manner.
 
 ::: info Resources
 

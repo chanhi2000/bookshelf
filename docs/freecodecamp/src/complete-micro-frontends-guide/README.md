@@ -1219,7 +1219,7 @@ You might’ve noticed that it looks similar to what single-spa + `SystemJS` doe
 {
   "title": "Piral - The Ultimate Framework for Micro Frontends",
   "desc": "Piral - Build next generation web apps using micro frontends.",
-  "link": "https://piral.io//",
+  "link": "https://piral.io/",
   "logo": "https://piral.io/330dffc64cb0d5ac23c4.png",
   "background": "rgba(0,255,173,0.2)"
 }

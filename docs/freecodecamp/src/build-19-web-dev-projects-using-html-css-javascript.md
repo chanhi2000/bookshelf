@@ -117,7 +117,7 @@ Watch the full course on the [<FontIcon icon="fa-brands fa-free-code-camp"/>free
 <SiteInfo
   name="100 Days of HTML, CSS and JavaScript - Build 100 Projects"
   desc="100 days. 1 project per day. This project-based course takes you from complete beginner to confident frontend developer. No fluff, no endless theory -just hands-on coding. This course is actively growing! We currently have 50+ complete projects, and I'm adding new ones every day until we reach the full 100. Enroll now to lock in the price and receive all future projects automatically as they're released. What You'll Learn Master HTML, CSS, and JavaScript by building 100 unique, real-world projects..."
-  url="https://udemy.com/course/100-html-css-js//"
+  url="https://udemy.com/course/100-html-css-js/"
   logo="https://udemy.com/favicon-32x32.png"
   preview="https://img-c.udemycdn.com/course/480x270/7039719_ae92.jpg"/>
 

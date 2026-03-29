@@ -170,7 +170,7 @@ Traditionally, we fill backgrounds with solid or opaque solid color to establish
 {
   "title": "Liquid Glass: Apple vs accessibility | Revert to Saved: A blog about design, gaming and technology",
   "desc": "Candid commentary on technology, retro games, Macs and other things, written by Craig Grannell.",
-  "link": "https://reverttosaved.com/2025/06/10/liquid-glass-apple-vs-accessibility//",
+  "link": "https://reverttosaved.com/2025/06/10/liquid-glass-apple-vs-accessibility/",
   "logo": "ps://reverttosaved.com/favicon.ico",
   "background": "rgba(249,212,118,0.2)"
 }
@@ -196,7 +196,7 @@ Traditionally, we fill backgrounds with solid or opaque solid color to establish
 {
   "title": "Liquid glass, now with frosted tips",
   "desc": "As many now have commented on, today's OS 26 betas tone down the liquid glass effect quite a bit on many elements in the operating system, and I've collected a few that stand out to me. Ignore any subtle size differences. The beta 2 screenshots are from an iPhone 16",
-  "link": "https://birchtree.me/blog/liquid-glass-now-with-frosted-tips//",
+  "link": "https://birchtree.me/blog/liquid-glass-now-with-frosted-tips/",
   "logo": "https://birchtree.me/content/images/size/w256h256/2025/03/birchtreefavi.png",
   "background": "rgba(203,166,247,0.2)"
 }
@@ -309,7 +309,7 @@ A few more links from this browser tab group I have open:
 <SiteInfo
   name="Apple tones down Liquid Glass effect in iOS 26 beta 3"
   desc="Apple has released the third developer beta of iOS 26, bringing a subtle but noticeable change to the system's design language. In this update, Apple has toned down the intensity of the Liquid Glass effect across the operating system, making the translucent, glass-like elements in navigation bars and certain apps less pronounced. Liquid Glass is"
-  url="https://theapplepost.com/2025/07/07/68703/apple-tones-down-liquid-glass-effect-in-ios-26-beta-3//"
+  url="https://theapplepost.com/2025/07/07/68703/apple-tones-down-liquid-glass-effect-in-ios-26-beta-3/"
   logo="https://theapplepost.com/wp-content/uploads/2020/02/cropped-theapplepost.com-logo-192x192.png"
   preview="https://theapplepost.com/wp-content/uploads/2025/06/iOS-26-iPhone-16-Pro-Max-—-The-Apple-Post.jpg"/>
 

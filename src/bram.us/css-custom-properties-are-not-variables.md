@@ -54,7 +54,7 @@ cover: https://bram.us/wordpress/wp-content/uploads/2020/12/639FAC91-EE37-4956-8
 
 When mentioning CSS Custom Properties here on bram.us I do tend to name them like that — and not CSS Variables — as that’s their official name.
 
-I always thought the terms could be used interchangeably — with CSS Variables simply being the unofficial name — but as detailed by [Šime Vidas (<VPIcon icon="fa-brands fa-x-twitter" />`simevidas`)](https://x.com/simevidas) on Web Platform News that’s not the case:
+I always thought the terms could be used interchangeably — with CSS Variables simply being the unofficial name — but as detailed by [Šime Vidas (<VPIcon icon="fa-brands fa-x-twitter"/>`simevidas`)](https://x.com/simevidas) on Web Platform News that’s not the case:
 
 ::: info Sime Vidas, Twitter (<VPIcon icon="fa-brands fa-x-twitter"/><code>x.com</code>)
 

@@ -252,7 +252,7 @@ Not really. Sass has functions but are not based on the same spec and will not w
 <SiteInfo
   name="CSS @function + CSS if() = 🤯"
   desc="Support for Nested Container Queries and the CSS if() function inside CSS Custom Functions make @function very powerful."
-  url="https://bram.us/2025/02/18/css-at-function-and-css-if//"
+  url="https://bram.us/2025/02/18/css-at-function-and-css-if/"
   logo="https://bram.us/favicon.ico"
   preview="https://bram.us/wordpress/wp-content/uploads/2025/02/css-custom-functions-with-if.png"/>
 
@@ -489,7 +489,7 @@ Absolutely. As important as we might agree typography is, without these enhancem
 <SiteInfo
   name="When to use CSS text-wrap: balance; vs text-wrap: pretty; - Stephanie Stimac's Blog"
   desc="A ruthless look at when to use these two CSS text-wrap values."
-  url="https://blog.stephaniestimac.com/posts/2023/10/css-text-wrap//"
+  url="https://blog.stephaniestimac.com/posts/2023/10/css-text-wrap/"
   logo="https://blog.stephaniestimac.com/img/favicon.svg"
   preview="https://blog.stephaniestimac.comundefined"/>
 
@@ -730,7 +730,7 @@ Re-ordering a grid layout is perhaps of the most common things to re-order, and 
 {
   "title": "Reading flow ships in Chrome 137 – Rachel Andrew",
   "desc": "I’m really excited that the reading-flow and reading-order properties are in Chrome 137 (current beta, will be Chrome stable as of May 27, 2025).",
-  "link": "https://rachelandrew.co.uk/archives/2025/05/02/reading-flow-ships-in-chrome-137//",
+  "link": "https://rachelandrew.co.uk/archives/2025/05/02/reading-flow-ships-in-chrome-137/",
   "logo": "https://rachelandrew.co.uk/wp-content/uploads/2022/07/favicon1.png",
   "background": "rgba(244,245,255,0.2)"
 }

@@ -133,7 +133,7 @@ Without further ado, let's get started!
 {
   "title": "Amazon Cognito",
   "desc": "Customer Identity And Access Management - Amazon Cognito",
-  "link": "https://aws.amazon.com/pm/cognito//",
+  "link": "https://aws.amazon.com/pm/cognito/",
   "logo": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
   "background": "rgba(22,29,38,0.2)"
 }

@@ -21,7 +21,9 @@ tag:
   - artificial-intelligence
   - llm
   - large-language-models
+  - amazon
   - bedrock
+  - aws-bedrock
   - amazon-bedrock
 head:
   - - meta:

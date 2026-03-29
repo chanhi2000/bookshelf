@@ -772,7 +772,7 @@ Personally I think it is very exciting to see that Scroll-Driven Animations yet 
 {
   "title": "Scroll-Driven State Transfer",
   "desc": "In my fourth article about scroll-driven animations, I explore how we can transfer the state of one element to a completely different place on a page by connecting them with a unique identifier in CSS via a timeline-scope.",
-  "link": "https://kizu.dev/scroll-driven-state-transfer//",
+  "link": "https://kizu.dev/scroll-driven-state-transfer/",
   "logo": "https://kizu.dev/favicon.ico",
   "background": "rgba(9,133,206,0.2)"
 }

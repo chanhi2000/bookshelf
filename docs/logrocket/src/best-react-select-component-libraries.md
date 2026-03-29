@@ -370,7 +370,7 @@ function MyPicker() {
 {
   "title": "@rc-component/select",
   "desc": "React Select Component.",
-  "link": "https://select-react-component.vercel.app//",
+  "link": "https://select-react-component.vercel.app/",
   "logo": "https://avatars0.githubusercontent.com/u/9441414?s=200&v=4",
   "background": "rgba(144,213,255,0.2)"
 }

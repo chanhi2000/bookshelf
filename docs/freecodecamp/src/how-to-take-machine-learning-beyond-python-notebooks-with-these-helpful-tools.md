@@ -192,7 +192,7 @@ Prefect offers an open-source core that teams can self-host. Prefect Cloud provi
 <SiteInfo
   name="Modern Data Orchestrator Platform | Dagster"
   desc="Dagster is the data orchestrator platform that helps you build, schedule, and monitor reliable data pipelines - fast, flexible, and built for teams."
-  url="https://dagster.io//"
+  url="https://dagster.io/"
   logo="https://cdn.prod.website-files.com/681399f654933b29e12fb8bd/681cbb6702de85f9eb0bf220_32x32.png"
   preview="https://cdn.prod.website-files.com/681399f654933b29e12fb8bd/681cb5f07ccf87ece14559ef_OG%20-%20v2FIX.jpg"/>
 

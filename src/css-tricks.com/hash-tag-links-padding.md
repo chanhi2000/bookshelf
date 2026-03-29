@@ -187,7 +187,7 @@ I posted the original idea for this over on Forrst, and Nicolas Gallagher picked
 {
   "title": "Demo: Jump links and viewport positioning - Nicolas Gallagher",
   "desc": "A simple way to improve the viewport position when using jump links",
-  "link": "https://nicolasgallagher.com/jump-links-and-viewport-positioning/demo//",
+  "link": "https://nicolasgallagher.com/jump-links-and-viewport-positioning/demo/",
   "logo": "https://nicolasgallagher.com/favicon.ico",
   "background": "rgba(197,85,0,0.2)"
 }

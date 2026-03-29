@@ -207,7 +207,7 @@ I'm Vahe Aslanyan, specializing in the world of computer science, data science, 
 <SiteInfo
   name="Vahe Aslanyan - Transforming Tomorrow, One Launch at a Time"
   desc="Browse the projects to see challenges collapse into features under Vahe Aslanyan’s supervision."
-  url="https://vaheaslanyan.com//"
+  url="https://vaheaslanyan.com/"
   logo="https://cdn.prod.website-files.com/64f8c178a66a6e1a607ff9d0/65393072761c3d0a2f61740b_Vahe%20Aslanyan%20(256%20x%20256%20px)%20(1)%20(32%20x%2032%20px).png"
   preview="https://i.imgur.com/Ntarl3h.png"/>
 

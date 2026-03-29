@@ -254,7 +254,7 @@ Many images can be drawn with CSS effects (gradients, shadows, and so on). In th
 <SiteInfo
   name="Asset Management | webpack"
   desc="webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
-  url="https://webpack.js.org/guides/asset-management//"
+  url="https://webpack.js.org/guides/asset-management/"
   logo="https://webpack.js.org/icon_512x512.png"
   preview="https://webpack.js.org/icon-pwa-512x512.934507c816afbcdb.png"/>
 

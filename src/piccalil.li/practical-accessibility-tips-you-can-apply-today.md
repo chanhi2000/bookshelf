@@ -205,7 +205,7 @@ For more on how to create accessible tabbed interfaces, check out [<VPIcon icon=
 {
   "title": "Tabbed Interfaces",
   "desc": "When you think about it, most of your basic interactions are showing or hiding something somehow. I've already covered popup menu buttons and the simpler and less assuming tooltips and toggletips. You can add simple disclosure widgets, compound ”accordions”, and their sister component the tabbed interface to that list. It's",
-  "link": "http://inclusive-components.design/tabbed-interfaces//",
+  "link": "http://inclusive-components.design/tabbed-interfaces/",
   "logo": "http://inclusive-components.design/favicon.ico",
   "background": "rgba(34,34,34,0.2)"
 }

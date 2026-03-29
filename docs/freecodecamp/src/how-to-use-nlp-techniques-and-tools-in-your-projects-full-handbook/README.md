@@ -983,7 +983,7 @@ Google Cloud NLP also offers enterprise-level API services. It will fit your pro
 {
   "title": "Amazon Comprehend",
   "desc": "Amazon Comprehend는 기계 학습을 사용하여 문서 내의 비정형 데이터 및 텍스트에서 정보를 파악하는 자연어 처리(NLP) 서비스입니다.",
-  "link": "https://aws.amazon.com/ko/comprehend//",
+  "link": "https://aws.amazon.com/ko/comprehend/",
   "logo": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
   "background": "rgba(51,51,51,0.2)"
 }
@@ -1010,7 +1010,7 @@ Watson has NLP models specific to regulated industries (healthcare, finance, and
 {
   "title": "TextBlob: Simplified Text Processing — TextBlob 0.19.0 documentation",
   "desc": "TextBlob is a Python library for processing textual data. It provides a simple API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, classification, and more",
-  "link": "https://textblob.readthedocs.io/en/dev//",
+  "link": "https://textblob.readthedocs.io/en/dev/",
   "logo": "https://textblob.readthedocs.io/favicon.ico",
   "background": "rgba(244,245,255,0.2)"
 }

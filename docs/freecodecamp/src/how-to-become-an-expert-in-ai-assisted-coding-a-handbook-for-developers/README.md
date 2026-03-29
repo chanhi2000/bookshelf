@@ -11,6 +11,7 @@ category:
   - Google
   - Gemini
   - MCP
+  - Github
   - Github Copilot
   - Node.js
   - Article(s)

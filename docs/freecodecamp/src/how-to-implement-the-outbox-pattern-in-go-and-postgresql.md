@@ -185,7 +185,7 @@ Let's build a concrete example. Imagine you have an orders service. When a new o
 1. Save the order to a PostgreSQL `orders` table.
 2. Publish an `order.created` event to Google Cloud Pub/Sub.
 
-You'll use [<VPIcon icon="iconfont icon-github" />`jackc/pgx`](https://github.com/jackc/pgx) for the PostgreSQL driver.
+You'll use [<VPIcon icon="iconfont icon-github"/>`jackc/pgx`](https://github.com/jackc/pgx) for the PostgreSQL driver.
 
 ### The Orders Service
 
@@ -441,7 +441,7 @@ Instead of your relay asking "Are there any new messages?" on a schedule, Postgr
 
 This approach is lower latency and more resource-efficient for high-volume workloads. The trade-off is added implementation complexity: you need to manage a replication slot in PostgreSQL and handle the WAL stream correctly.
 
-In Go, you can use the [<VPIcon icon="iconfont icon-github" />`jackc/pglogrepl`](https://github.com/jackc/pglogrepl) library to interact with PostgreSQL's logical replication protocol.
+In Go, you can use the [<VPIcon icon="iconfont icon-github"/>`jackc/pglogrepl`](https://github.com/jackc/pglogrepl) library to interact with PostgreSQL's logical replication protocol.
 
 For more details on how WAL and change data capture work in PostgreSQL, see the [<VPIcon icon="iconfont icon-postgresql"/>official Write-Ahead Logging documentation](https://postgresql.org/docs/current/wal-intro.html).
 

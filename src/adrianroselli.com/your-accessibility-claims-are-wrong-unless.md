@@ -173,7 +173,7 @@ Keyboard shortcuts are necessary to use a desktop screen reader well (don’t re
 {
   "title": "Basic screen reader commands for accessibility testing - TPGi — a Vispero company",
   "desc": "Updated 1st Feb 2016. When you test your website with a screen reader there are a few basic commands you should know. Just remember not to make design decisions based...",
-  "link": "https://tpgi.com/basic-screen-reader-commands-for-accessibility-testing//",
+  "link": "https://tpgi.com/basic-screen-reader-commands-for-accessibility-testing/",
   "logo": "https://tpgi.com/nitropack_static/mQEwzWSbUyjHeEeyxnxPBGwRyfDLSUho/assets/images/optimized/rev-371d5ec/www.tpgi.com/wp-content/themes/bedstone/favicons/favicon.ico",
   "background": "rgba(10,45,71,0.2)"
 }
@@ -183,7 +183,7 @@ Keyboard shortcuts are necessary to use a desktop screen reader well (don’t re
 {
   "title": "Understanding screen reader interaction modes - Tink - Léonie Watson",
   "desc": "Windows screen readers have multiple modes of interaction, and depending on the task being carried out they’ll automatically switch to the most appropriate mode. This post explains why Windows screen readers behave the way they do, and how your code can influence that behaviour.",
-  "link": "https://tink.uk/understanding-screen-reader-interaction-modes//",
+  "link": "https://tink.uk/understanding-screen-reader-interaction-modes/",
   "logo": "https://tink.uk/favicons/favicon.ico",
   "background": "rgba(211,189,255,0.2)"
 }
@@ -192,14 +192,14 @@ Keyboard shortcuts are necessary to use a desktop screen reader well (don’t re
 <SiteInfo
   name="Browsing with a desktop screen reader - TetraLogical"
   desc="In our first post from our browsing with assistive technologies series, we discuss desktop screen readers. You can also explore browsing with a mobile screen reader, browsing with a keyboard, browsing with screen magnification and browsing with speech recognition."
-  url="https://tetralogical.com/blog/2021/09/29/browsing-with-a-desktop-screen-reader//"
+  url="https://tetralogical.com/blog/2021/09/29/browsing-with-a-desktop-screen-reader/"
   logo="https://tetralogical.com/_images/favicons/icon.svg"
   preview="https://tetralogical.com/_images/screenshots/blog-2021-09-29-browsing-with-a-desktop-screen-reader.png"/>
 
 <SiteInfo
   name="Browsing with a mobile screen reader - TetraLogical"
   desc="In our second post from our browsing with assistive technology series, we discuss mobile screen readers. You can also explore browsing with desktop screen readers, browsing with a keyboard, browsing with screen magnification and browsing with speech recognition."
-  url="https://tetralogical.com/blog/2021/10/05/browsing-with-a-mobile-screen-reader//"
+  url="https://tetralogical.com/blog/2021/10/05/browsing-with-a-mobile-screen-reader/"
   logo="https://tetralogical.com/_images/favicons/icon.svg"
   preview="https://tetralogical.com/_images/screenshots/blog-2021-10-05-browsing-with-a-mobile-screen-reader.png"/>
 
@@ -235,7 +235,7 @@ Centre for Accessibility Australia has a nifty resource for using the [<VPIcon i
 <SiteInfo
   name="Browsing with speech recognition - TetraLogical"
   desc="In our fifth and final post from our browsing with assistive technology series, we discuss browsing with speech recognition. You can also explore browsing with a desktop screen reader, browsing with a mobile screen reader, browsing with a keyboard, and browsing with screen magnification."
-  url="https://tetralogical.com/blog/2021/11/15/browsing-with-speech-recognition//"
+  url="https://tetralogical.com/blog/2021/11/15/browsing-with-speech-recognition/"
   logo="https://tetralogical.com/_images/favicons/icon.svg"
   preview="https://tetralogical.com/_images/screenshots/blog-2021-11-15-browsing-with-speech-recognition.png"/>
 

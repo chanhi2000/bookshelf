@@ -2997,7 +2997,7 @@ Test your knowledge with our interactive “Python Classes - The Power of Object
 <SiteInfo
   name="Python Classes - The Power of Object-Oriented Programming Quiz – Real Python"
   desc="In this quiz, you'll test your understanding of Python classes. With this knowledge, you'll be able to define reusable pieces of code that encapsulate data and behavior in a single entity, model real-world objects, and solve complex problems."
-  url="https://realpython.com/quizzes/python-classes-oop//"
+  url="https://realpython.com/quizzes/python-classes-oop/"
   logo="https://realpython.com/static/favicon.68cbf4197b0c.png"
   preview="https://files.realpython.com/media/Class-Concepts-Object-Oriented-Programming-in-Python_Watermarked.6cf327c51434.jpg"/>
 

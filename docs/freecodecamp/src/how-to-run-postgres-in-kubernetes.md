@@ -139,7 +139,7 @@ But for applications like databases or caches, maintaining state is crucial beca
 <SiteInfo
   name="Deployments"
   desc="A Deployment manages a set of Pods to run an application workload, usually one that doesn't maintain state."
-  url="https://kubernetes.io/docs/concepts/workloads/controllers/deployment//"
+  url="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
   logo="https://kubernetes.io/icons/icon-128x128.png"
   preview="https://kubernetes.io/images/kubernetes-open-graph.png"/>
 
@@ -164,7 +164,7 @@ What you really want is a pod that sticks to a particular node where your data r
 <SiteInfo
   name="StatefulSets"
   desc="A StatefulSet runs a group of Pods, and maintains a sticky identity for each of those Pods. This is useful for managing applications that need persistent storage or a stable, unique network identity."
-  url="https://kubernetes.io/docs/concepts/workloads/controllers/statefulset//"
+  url="https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
   logo="https://kubernetes.io/icons/icon-128x128.png"
   preview="https://kubernetes.io/images/kubernetes-open-graph.png"/>
 
@@ -181,7 +181,7 @@ And here's another cool feature: each pod in a StatefulSet gets its own persiste
 <SiteInfo
   name="Persistent Volumes"
   desc="This document describes persistent volumes in Kubernetes. Familiarity with volumes, StorageClasses and VolumeAttributesClasses is suggested. Introduction Managing storage is a distinct problem from managing compute instances. The PersistentVolume subsystem provides an API for users and administrators that abstracts details of how storage is provided from how it is consumed. To do this, we introduce two new API resources: PersistentVolume and PersistentVolumeClaim. A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes."
-  url="https://kubernetes.io/docs/concepts/storage/persistent-volumes//"
+  url="https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
   logo="https://kubernetes.io/icons/icon-128x128.png"
   preview="https://kubernetes.io/images/kubernetes-open-graph.png"/>
 

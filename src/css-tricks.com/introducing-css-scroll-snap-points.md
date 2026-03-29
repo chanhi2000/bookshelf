@@ -204,7 +204,7 @@ These last two properties, `scroll-snap-destination` and `scroll-snap-coordinate
 {
   "title": "Scroll Snapping with CSS Snap Points",
   "desc": "WebKit now supports paginated scrolling through CSS Snap Points — making sophisticated paginated scrolling a snap.",
-  "link": "https://webkit.org/blog/4017/scroll-snapping-with-css-snap-points//",
+  "link": "https://webkit.org/blog/4017/scroll-snapping-with-css-snap-points/",
   "logo": "https://webkit.org/favicon.ico",
   "background": "rgba(0,37,61,0.2)"
 }
@@ -214,7 +214,7 @@ These last two properties, `scroll-snap-destination` and `scroll-snap-coordinate
 {
   "title": "Scroll Snap - a Collection by  Geoff Graham on CodePen",
   "desc": "",
-  "link": "https://codepen.io/collection/XjOwrq//",
+  "link": "https://codepen.io/collection/XjOwrq/",
   "logo": "https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico",
   "background": "rgba(112,204,124,0.2)"
 }

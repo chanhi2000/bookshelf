@@ -105,14 +105,14 @@ If you’re too lazy, then you can somewhat fake it by abusing `mix-blend-mode: 
 <SiteInfo
   name="Dark Mode Support in WebKit"
   desc="With the introduction of Dark Mode in macOS Mojave last year, web developers have been asking for support in Safari to style web content that matches the system appearance."
-  url="https://webkit.org/blog/8840/dark-mode-support-in-webkit//"
+  url="https://webkit.org/blog/8840/dark-mode-support-in-webkit/"
   logo="https://webkit.org/favicon.png"
   preview="https://webkit.org/wp-content/uploads/DarkModeSupportHeroDark.png"/>
 
 <SiteInfo
   name="Dark Mode in Web Inspector"
   desc="Web Inspector on macOS Mojave now supports Dark Mode."
-  url="https://webkit.org/blog/8892/dark-mode-in-web-inspector//"
+  url="https://webkit.org/blog/8892/dark-mode-in-web-inspector/"
   logo="https://webkit.org/favicon.png"
   preview="https://webkit.org/wp-content/uploads/trimmed.png"/>
 

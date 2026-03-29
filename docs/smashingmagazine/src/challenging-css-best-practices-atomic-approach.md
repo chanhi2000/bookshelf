@@ -467,7 +467,7 @@ Nowadays, people are accustomed to very large style sheets, and many authors thi
 {
   "title": "Joining LinkedIn",
   "desc": "After six years at Caring.com, I'm joining LinkedIn and pursuing my dream job of working on open source, front end architecture, and developer relations.",
-  "link": "https://chriseppstein.github.io/blog/2013/04/22/joining-linkedin//",
+  "link": "https://chriseppstein.github.io/blog/2013/04/22/joining-linkedin/",
   "logo": "tps://chriseppstein.github.io/favicon.ico",
   "background": "rgba(244,245,255,0.2)"
 }

@@ -133,7 +133,7 @@ Check out our [<VPIcon icon="iconfont icon-oddbird"/>Winging It](https://oddbird
 {
   "title": "Invoker Commands Future (Explainer) | Open UI",
   "desc": "Open UI ",
-  "link": "https://open-ui.org/components/future-invokers.explainer//",
+  "link": "https://open-ui.org/components/future-invokers.explainer/",
   "logo": "https://open-ui.org/images/favicon-32x32.png",
   "background": "rgba(0,165,79,0.2)"
 }

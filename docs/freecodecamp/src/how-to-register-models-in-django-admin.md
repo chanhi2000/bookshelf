@@ -226,7 +226,7 @@ Now I’m curious — **which model are you most excited to register in your Dja
 <SiteInfo
   name="The Django admin site | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/ref/contrib/admin//"
+  url="https://docs.djangoproject.com/en/5.2/ref/contrib/admin/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 

@@ -83,7 +83,7 @@ Let’s hope Apple also considers this an issue before shipping Safari 15.
 <SiteInfo
   name="Design for Safari 15 - WWDC21 - Videos - Apple Developer"
   desc="Meet Safari 15: redesigned and ready to help people explore the web. Discover how you can approach designing websites and apps for..."
-  url="https://developer.apple.com/videos/play/wwdc2021/10029//"
+  url="https://developer.apple.com/videos/play/wwdc2021/10029/"
   logo="https://developer.apple.com/favicon.ico"
   preview="https://devimages-cdn.apple.com/wwdc-services/images/119/4917/4917_wide_250x141_2x.jpg"/>
 

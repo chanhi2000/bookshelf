@@ -96,7 +96,7 @@ In all these scenarios, the need to merge content components becomes crucial for
 
 ## How to Install Pandoc
 
-You can install Pandoc on your system using the packages available in the [releases (<VPIcon icon="iconfont icon-github" />`jgm/pandoc`)](https://github.com/jgm/pandoc/releases) list. The [<VPIcon icon="fas fa-globe"/>installation page](https://pandoc.org/installing.html) has a detailed tutorial on the steps to install it on different systems.
+You can install Pandoc on your system using the packages available in the [releases (<VPIcon icon="iconfont icon-github"/>`jgm/pandoc`)](https://github.com/jgm/pandoc/releases) list. The [<VPIcon icon="fas fa-globe"/>installation page](https://pandoc.org/installing.html) has a detailed tutorial on the steps to install it on different systems.
 
 Once Pandoc is installed, you can use it in the command line to perform different document conversion operations as explained below.
 

@@ -3771,7 +3771,7 @@ I am also grateful to the organizations that gave me opportunities to grow:
 {
   "title": "Magma Studio",
   "desc": "Alegria e imaginação na fronteira da Academia com a Economia! Ajudamos algumas das mais inteligentes empresas a recrutar e gerir talento.",
-  "link": "https://magmastudio.pt//",
+  "link": "https://magmastudio.pt/",
   "logo": "https://magmastudio.pt/wp-content/uploads/2021/09/cropped-favicon-32x32-1-192x192.png",
   "background": "rgba(20,74,205,0.2)"
 }

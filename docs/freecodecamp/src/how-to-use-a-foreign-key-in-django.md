@@ -288,14 +288,14 @@ And if something’s still unclear, that’s normal. I had to build a few mini-p
 <SiteInfo
   name="Models | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/topics/db/models//"
+  url="https://docs.djangoproject.com/en/5.2/topics/db/models/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 
 <SiteInfo
   name="The Django admin site | Django documentation"
   desc="The web framework for perfectionists with deadlines."
-  url="https://docs.djangoproject.com/en/5.2/ref/contrib/admin//"
+  url="https://docs.djangoproject.com/en/5.2/ref/contrib/admin/"
   logo="https://static.djangoproject.com/img/favicon.6dbf28c0650e.ico"
   preview="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
 

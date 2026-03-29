@@ -113,7 +113,7 @@ Web Components are a polarizing feature that seem simultaneously old news and no
 <SiteInfo
   name="An Attempted Taxonomy of Web Components—zachleat.com"
   desc="A post by Zach Leatherman (zachleat)"
-  url="https://zachleat.com/web/a-taxonomy-of-web-component-types//"
+  url="https://zachleat.com/web/a-taxonomy-of-web-component-types/"
   logo="/img/built/eeKNB-2F7b-192.jpeg"
   preview="https://screenshot.11ty.app/https%3A%2F%2Fzachleat.com%2Fopengraph%2Fweb%2Fa-taxonomy-of-web-component-types%2F%3Fcache%3D_20251031/opengraph/"/>
 
@@ -139,7 +139,7 @@ Web Components are a polarizing feature that seem simultaneously old news and no
 <SiteInfo
   name="I Need Your Help to Make 11ty Fully Independent and Sustainable in 2024—zachleat.com"
   desc="A post by Zach Leatherman (zachleat)"
-  url="https://zachleat.com/web/independent-sustainable-11ty//"
+  url="https://zachleat.com/web/independent-sustainable-11ty/"
   logo="https://zachleat.com/img/built/eeKNB-2F7b-192.jpeg"
   preview="https://screenshot.11ty.app/https%3A%2F%2Fzachleat.com%2Fopengraph%2Fweb%2Findependent-sustainable-11ty%2F%3Fcache%3D_20251031/opengraph/"/>
 

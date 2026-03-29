@@ -69,7 +69,7 @@ The four lessons presented here are taken from my free book of code playbacks:
 {
   "title": "PlaybackPress",
   "desc": "An Introduction to Web Development from Back to Front by Mark Mahoney",
-  "link": "https://playbackpress.com/books/webdevbook//",
+  "link": "https://playbackpress.com/books/webdevbook/",
   "logo": "https://playbackpress.com/favicon.ico",
   "background": "rgba(59,76,98,0.2)"
 }

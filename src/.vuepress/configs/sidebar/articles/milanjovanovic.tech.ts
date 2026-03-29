@@ -15,6 +15,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "why-i-switched-to-primary-constructors-for-di-in-csharp", // 2026-04-18
+    "implementing-the-saga-pattern-with-wolverine", // 2026-04-11
+    "implementing-the-inbox-pattern-for-reliable-message-consumption", // 2026-04-04
     "getting-started-with-pgvector-in-dotnet-for-simple-vector-search", // 2026-03-28
     "scaling-signalr-with-redis-backplane", // 2026-03-21
     "optimizing-bulk-database-updates-in-dotnet", // 2026-03-14
@@ -403,6 +406,9 @@ export const template: SidebarInfoTemplate = {
       "optimizing-bulk-database-updates-in-dotne", // 2026-03-14
       "scaling-signalr-with-redis-backplane", // 2026-03-21
       "getting-started-with-pgvector-in-dotnet-for-simple-vector-search", // 2026-03-28
+      "implementing-the-inbox-pattern-for-reliable-message-consumption", // 2026-04-04
+      "implementing-the-saga-pattern-with-wolverine", // 2026-04-11
+      "why-i-switched-to-primary-constructors-for-di-in-csharp", // 2026-04-18
       // END: 2026cs
       // END: cs
     ]],[
@@ -510,6 +516,8 @@ export const template: SidebarInfoTemplate = {
       "using-stored-procedures-and-functions-with-ef-core-and-postgresql", // 2205-10-04
       // END: 2025postgres
       "getting-started-with-pgvector-in-dotnet-for-simple-vector-search", // 2026-03-28
+      "implementing-the-inbox-pattern-for-reliable-message-consumption", // 2026-04-04
+      "implementing-the-saga-pattern-with-wolverine", // 2026-04-11
       // END: 2026postgres
       // END: postgres
     ]],[

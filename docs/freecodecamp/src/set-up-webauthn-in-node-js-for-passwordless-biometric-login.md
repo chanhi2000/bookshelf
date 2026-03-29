@@ -842,7 +842,7 @@ WebAuthn is not a cosmetic login upgrade. It changes where trust lives. Once you
 
 ::: info Try it Yourself
 
-The full source code is available on GitHub. [Clone the repository (<VPIcon icon="iconfont icon-github" />`logicbaselabs/web-authn`)](https://github.com/logicbaselabs/web-authn) here and follow the setup guide in the `README` to test the biometric login flow locally.
+The full source code is available on GitHub. [Clone the repository (<VPIcon icon="iconfont icon-github"/>`logicbaselabs/web-authn`)](https://github.com/logicbaselabs/web-authn) here and follow the setup guide in the `README` to test the biometric login flow locally.
 
 <SiteInfo
   name="logicbaselabs/web-authn: WebAuthn in Node.js, Passwordless Biometric Login"
@@ -859,7 +859,7 @@ The full source code is available on GitHub. [Clone the repository (<VPIcon icon
 
 If you found the information here valuable, feel free to share it with others who might benefit from it.
 
-I’d really appreciate your thoughts – mention me on [X <VPIcon icon="fa-brands fa-x-twitter" />`sumit_analyzen`)](https://x.com/sumit_analyzen) or on Facebook [<VPIcon icon="fa-brands fa-meta"/>`@sumit.analyzen`](https://facebook.com/sumit.analyzen), [watch my coding tutorials (<VPIcon icon="fa-brands fa-youtube"/>`@logicBaseLabs`)](https://youtube.com/@logicBaseLabs), or simply [connect with me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`sumitanalyzen`)](https://linkedin.com/in/sumitanalyzen/).
+I’d really appreciate your thoughts – mention me on [X <VPIcon icon="fa-brands fa-x-twitter"/>`sumit_analyzen`)](https://x.com/sumit_analyzen) or on Facebook [<VPIcon icon="fa-brands fa-meta"/>`@sumit.analyzen`](https://facebook.com/sumit.analyzen), [watch my coding tutorials (<VPIcon icon="fa-brands fa-youtube"/>`@logicBaseLabs`)](https://youtube.com/@logicBaseLabs), or simply [connect with me on LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`sumitanalyzen`)](https://linkedin.com/in/sumitanalyzen/).
 
 You can also checkout my official website [<VPIcon icon="fas fa-globe"/>sumitsaha.me](https://sumitsaha.me) for more details about me.
 

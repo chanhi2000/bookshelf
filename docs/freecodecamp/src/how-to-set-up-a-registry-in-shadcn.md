@@ -5,6 +5,7 @@ description: "Article(s) > How to Set Up a Registry in shadcn"
 icon: iconfont icon-shadcn
 category:
   - Node.js
+  - React.js
   - Shadcn
   - Article(s)
 tag:
@@ -13,6 +14,9 @@ tag:
   - node
   - nodejs
   - node-js
+  - react
+  - reactjs
+  - react-js
   - shadcn
 head:
   - - meta:

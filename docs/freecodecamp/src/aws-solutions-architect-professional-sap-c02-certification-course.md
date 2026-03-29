@@ -62,7 +62,7 @@ This credential is highly respected in the cloud industry and helps demonstrate 
 
 It's also a valuable way for organizations to identify talent with the skills necessary for implementing cloud initiatives effectively.
 
-We just published a course on the [**<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org**](http://freeCodeCamp.org) **YouTube channel** that will help you prepare for the **AWS Certified Solutions Architect - Professional** exam (SAP-C02) and pass it with confidence. Created by **Andrew Brown of ExamPro**, this comprehensive course covers everything you need to know to succeed, with in-depth lessons on AWS services and architectural best practices.
+We just published a course on the **[<VPIcon icon="fa-brands fa-free-code-camp"/>freeCodeCamp.org](http://freeCodeCamp.org) YouTube channel** that will help you prepare for the **AWS Certified Solutions Architect - Professional** exam (SAP-C02) and pass it with confidence. Created by **Andrew Brown of ExamPro**, this comprehensive course covers everything you need to know to succeed, with in-depth lessons on AWS services and architectural best practices.
 
 Whether you’re looking to solidify your cloud architecture knowledge or advance your career, this course will guide you every step of the way.
 

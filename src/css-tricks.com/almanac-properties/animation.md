@@ -427,7 +427,7 @@ MDN has [<VPIcon icon="fa-brands fa-firefox" />a list of CSS properties which ca
 {
   "title": "CSS Animations Module Level 1",
   "desc": "This CSS module describes a way for authors to animate the values of CSS properties over time, using keyframes. The behavior of these keyframe animations can be controlled by specifying their duration, number of repeats, and repeating behavior.",
-  "link": "https://drafts.csswg.org/css-animations-1//",
+  "link": "https://drafts.csswg.org/css-animations-1/",
   "logo": "https://drafts.csswg.org/csslogo.ico",
   "background": "rgba(118,168,248,0.2)"
 }
@@ -445,7 +445,7 @@ MDN has [<VPIcon icon="fa-brands fa-firefox" />a list of CSS properties which ca
 <SiteInfo
   name="Five Ways to Animate Responsibly"
   desc="Rachel Nabors clears the snowy drift of delight from web animation to reveal the need for necessity and usefulness when we decide to animate web interactions. The box it comes in is as important as the gift."
-  url="https://24ways.org/2014/five-ways-to-animate-responsibly//"
+  url="https://24ways.org/2014/five-ways-to-animate-responsibly/"
   logo="https://24ways.org/assets/icons/icon.ico"
   preview="https://cloud.24ways.org/authors/rachelnabors280.jpg"/>
 
