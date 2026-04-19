@@ -206,7 +206,7 @@ Congratulations! You just took control of your server health. By deploying Uptim
 
 ::: info Let’s connect!
 
-I am a developer and technical writer specialising in writing step-by-step guides and workflows. You can find my latest projects on my [<VPIcon icon="fas fa-globe"/>Technical Writing Portfolio](https://blog.abdultalha.tech/portfolio) or reach out to me directly on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`abdul-talha`)](https://linkedin.com/in/abdul-talha/).
+I am a developer and technical writer specialising in writing step-by-step guides and workflows. You can find my latest projects on my [<VPIcon icon="fas fa-globe"/>Technical Writing Portfolio](https://blog.abdultalha.tech/portfolio) or reach out to me directly on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`abdul-talha`)](https://linkedin.com/in/abdul-talha/).
 
 :::
 

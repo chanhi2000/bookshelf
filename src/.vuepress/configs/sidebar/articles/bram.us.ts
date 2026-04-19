@@ -5,7 +5,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
-
+    "at-rule", // 2026-03-16
   ]
 }
 
@@ -66,6 +66,7 @@ const Y2022: SidebarYeargroupTemplate = {
     "the-future-of-css-variable-units-powered-by-custom-properties", // 2022-07-08
     "the-css-cascade-a-deep-dive-2022-06-09-css-day", // 2022-06-29
     "detect-at-rule-support-with-the-at-rule-function", // 2022-01-20
+    "customize-the-password-hide-reveal-button-in-microsoft-edge", // 2022-01-12
   ],
 }
 
@@ -77,12 +78,15 @@ const Y2021: SidebarYeargroupTemplate = {
     "the-css-has-selector-is-way-more-than-a-parent-selector", // 2021-12-21
     "a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries", // 2021-11-26
     "scroll-linked-animations-with-the-web-animations-api-waapi-and-scrolltimeline", // 2021-11-24
+    "media-queries-level-4-media-query-range-contexts", // 2021-10-26
     "the-future-of-css-cascade-layers-css-at-layer", // 2021-09-15
     "wwdc-meet-safari-15", // 2021-07-21
     "practical-use-cases-for-scroll-linked-animations-with-css-scroll-timeline", // 2022-07-20
     "the-large-small-and-dynamic-viewports", // 2021-07-08
     "a-first-look-at-cqfill-a-polyfill-for-css-container-queries", // 2021-04-28
     "css-container-queries-a-first-look-and-demo", // 2021-03-29
+    "three-important-things-you-should-know-about-css-is", // 2021-03-19
+    "exploring-at-property-and-its-animating-powers", // 2021-03-07
     "the-future-of-css-scroll-linked-animations-part-2", // 2021-03-04
     "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23
     "css-mix-blend-mode-not-working-set-a-background-color", // 2021-01-15
@@ -98,8 +102,11 @@ const Y2020: SidebarYeargroupTemplate = {
     "container-queries-are-coming-to-chromium", // 2020-11-05
     "css-only-resizable-elements", // 2020-05-15
     "100vh-in-safari-on-ios", // 2020-05-07
+    "css-grid-layout-module-level-2-masonry-layout", // 2020-05-05
+    "pass-data-from-css-to-javascript-with-css-variables", // 2020-03-31
     "the-ultimate-guide-to-css-viewport-units", // 2020-03-17
     "prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top", // 2020-03-02
+    "smooth-scrolling-sticky-scrollspy-navigation", // 2020-01-10
   ]
 }
 
@@ -123,7 +130,9 @@ const Y2017: SidebarYeargroupTemplate = {
   children: [
     // END: 2017
     "customizing-pull-to-refresh-and-overflow-effects-with-css-overscroll-behavior", // 2017-12-11
+    "badass", // 2017-10-16
     "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
+    "using-intersection-observers", // 2017-08-14
     "theming-with-css-custom-properties-css-variables", // 2017-07-23
     "conditions-for-css-calculations", // 2017-01-17
     "resilient-web-design", // 2017-01-03
@@ -148,6 +157,7 @@ const Y2015: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2015
+    "caniuse-command-line-tool", // 2015-06-04
     "css-object-fit", // 2015-02-11
   ]
 }
@@ -165,6 +175,7 @@ const Y2013: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2013
+    "css-scroll-snap-points", // 2013-12-09
   ]
 }
 
@@ -209,9 +220,11 @@ export const template: SidebarInfoTemplate = {
     "js",[
       "making-viewport-units-work-properly-in-mobile-safari", // 2016-09-12
       // END: 2016js
+      "using-intersection-observers", // 2017-08-14
       // END: 2017js
       // END: 2018js
       // END: 2019js
+      "smooth-scrolling-sticky-scrollspy-navigation", // 2020-01-10
       // END: 2020js
       "scroll-linked-animations-with-the-web-animations-api-waapi-and-scrolltimeline", // 2021-11-24
       // END: 2021js
@@ -222,8 +235,15 @@ export const template: SidebarInfoTemplate = {
       // END: js
     ]],[
     "js-node",[
+      "caniuse-command-line-tool", // 2015-06-04
+      // END: 2015js-node
+      // END: 2016js-node
+      // END: 2017js-node
+      // END: 2018js-node
+      // END: 2019js-node
       // END: 2020js-node
       "a-first-look-at-cqfill-a-polyfill-for-css-container-queries", // 2021-04-28
+      "media-queries-level-4-media-query-range-contexts", // 2021-10-26
       "a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries", // 2021-11-26
       // END: 2021js-node
       // END: 2022js-node
@@ -238,6 +258,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2010css
       // END: 2011css
       // END: 2012css
+      "css-scroll-snap-points", // 2013-12-09
       // END: 2013css
       // END: 2014css
       "css-object-fit", // 2015-02-11
@@ -251,6 +272,7 @@ export const template: SidebarInfoTemplate = {
       "conditions-for-css-calculations", // 2017-01-17
       "theming-with-css-custom-properties-css-variables", // 2017-07-23
       "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
+      "badass", // 2017-10-16
       "customizing-pull-to-refresh-and-overflow-effects-with-css-overscroll-behavior", // 2017-12-11
       // END: 2017css
       // END: 2018css
@@ -261,8 +283,11 @@ export const template: SidebarInfoTemplate = {
       "embeddable-caniuse-images", // 2019-12-04
       "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
       // END: 2019css
+      "smooth-scrolling-sticky-scrollspy-navigation", // 2020-01-10
       "prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top", // 2020-03-02
       "the-ultimate-guide-to-css-viewport-units", // 2020-03-17
+      "pass-data-from-css-to-javascript-with-css-variables", // 2020-03-31
+      "css-grid-layout-module-level-2-masonry-layout", // 2020-05-05
       "100vh-in-safari-on-ios", // 2020-05-07
       "css-only-resizable-elements", // 2020-05-15
       "container-queries-are-coming-to-chromium", // 2020-11-05
@@ -271,14 +296,18 @@ export const template: SidebarInfoTemplate = {
       "css-mix-blend-mode-not-working-set-a-background-color", // 2021-01-15
       "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23
       "the-future-of-css-scroll-linked-animations-part-2", // 2021-03-04
+      "exploring-at-property-and-its-animating-powers", // 2021-03-07
+      "three-important-things-you-should-know-about-css-is", // 2021-03-19
       "css-container-queries-a-first-look-and-demo", // 2021-03-29
       "a-first-look-at-cqfill-a-polyfill-for-css-container-queries", // 2021-04-28
       "the-large-small-and-dynamic-viewports", // 2021-07-08
       "wwdc-meet-safari-15", // 2021-07-21
       "the-future-of-css-cascade-layers-css-at-layer", // 2021-09-15
+      "media-queries-level-4-media-query-range-contexts", // 2021-10-26
       "a-first-look-at-container-query-polyfill-a-polyfill-for-css-container-queries", // 2021-11-26
       "the-css-has-selector-is-way-more-than-a-parent-selector", // 2021-12-21
       // END: 2021css
+      "customize-the-password-hide-reveal-button-in-microsoft-edge", // 2022-01-12
       "detect-at-rule-support-with-the-at-rule-function", // 2022-01-20
       "the-css-cascade-a-deep-dive-2022-06-09-css-day", // 2022-06-29
       "the-future-of-css-variable-units-powered-by-custom-properties", // 2022-07-08
@@ -312,6 +341,8 @@ export const template: SidebarInfoTemplate = {
       "use-overscroll-behavior-contain-to-prevent-a-page-from-scrolling-while-a-dialog-is-open", // 2025-11-25
       "google-antigravity-modern-css", // 2025-12-03
       // END: 2025css
+      "at-rule", // 2026-03-16
+      // END: 2026css
       // END: css
     ]],[
     "chrome",[

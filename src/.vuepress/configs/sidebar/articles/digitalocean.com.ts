@@ -51,6 +51,7 @@ const Y2022: SidebarYeargroupTemplate = {
     "how-to-run-serverless-workloads-with-knative-on-digitalocean-kubernetes", // 2022-12-16
     "how-to-secure-your-site-in-kubernetes-with-cert-manager-traefik-and-let-s-encrypt", // 2022-11-18
     "how-to-use-sqlite-with-node-js-on-ubuntu-22-04", // 2022-10-19
+    "gpu-memory-bandwidth", // 2022-06-23
     "how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu", // 2022-04-27
     "how-to-secure-apache-with-let-s-encrypt-on-ubuntu", // 2022-04-27
     "how-to-install-and-use-docker-on-ubuntu-22-04", // 2022-04-27
@@ -575,6 +576,14 @@ export const template: SidebarInfoTemplate = {
       "developing-multi-modal-bots-with-django-gpt-4-whisper-and-dall-e", // 2024-04-26
       // END: 2024openai
       // END: 2025openai
+    ]],[
+    "hw", [
+      "gpu-memory-bandwidth", // 2022-06-23
+      // END: 2022hw
+      // END: 2023hw
+      // END: 2024hw
+      // END: 2025hw
+      // END: 2026hw
     ]],[
     "all", [
       Y2025,

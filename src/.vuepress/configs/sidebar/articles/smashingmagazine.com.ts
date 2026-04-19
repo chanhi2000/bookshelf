@@ -62,6 +62,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "getting-started-with-neon-branching", // 2023-09-26
     "revealing-images-css-mask-animations", // 2023-09-15
     "gradients-blend-modes-hover-effect", // 2023-09-11
+    "css-accessibility-inclusion-user-choice", // 2023-08-01
     "popular-devtools-tips", // 2023-06-27
     "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
     "build-magazine-layout-css-grid-areas", // 2023-02-06
@@ -433,6 +434,7 @@ export const template: SidebarInfoTemplate = {
       "build-magazine-layout-css-grid-areas", // 2023-02-06
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       "popular-devtools-tips", // 2023-06-27
+      "css-accessibility-inclusion-user-choice", // 2023-08-01
       "gradients-blend-modes-hover-effect", // 2023-09-11
       "revealing-images-css-mask-animations", // 2023-09-15
       "css-responsive-multi-line-ribbon-shapes-part1", // 2023-11-15

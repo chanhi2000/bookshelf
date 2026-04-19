@@ -68,7 +68,11 @@ const Y2019: SidebarYeargroupTemplate = {
     "web-development-advent-calendars-for-2019", // 2019-12-01
     "css-logical-properties", // 2019-11-13
     "aria-label-does-not-translate", // 2019-11-07
+    "userway-will-get-you-sued", // 2021-09-14
+    "maybe-you-dont-need-a-date-picker", // 2019-07-05
     "uniquely-labeling-fields-in-a-table", // 2019-05-06
+    "uncanny-a11y", // 2019-02-15
+    "a-strongly-worded-letter", // 2019-02-01
   ],
 }
 
@@ -191,7 +195,9 @@ export const template: SidebarInfoTemplate = {
       "hey-its-still-ok-to-use-tables", // 2017-11-01
       // END: 2017css
       // END: 2018css
+      "uncanny-a11y", // 2019-02-15
       "uniquely-labeling-fields-in-a-table", // 2019-05-06
+      "maybe-you-dont-need-a-date-picker", // 2019-07-05
       "aria-label-does-not-translate", // 2019-11-07
       "css-logical-properties", // 2019-11-13
       "web-development-advent-calendars-for-2019", // 2019-12-01
@@ -206,6 +212,26 @@ export const template: SidebarInfoTemplate = {
       "barriers-from-links-with-aria", // 2026-01-23
       "you-know-what-just-dont-split-words-into-letters", // 2026-02-06
       "honoring-mobile-os-text-size", // 2026-02-07
+      // END: 2026css
+      // END: css
+    ]], [
+    "career", [
+      // END: 2012career
+      // END: 2013career
+      // END: 2014career
+      // END: 2015career
+      // END: 2016career
+      // END: 2017career
+      // END: 2018career
+      "a-strongly-worded-letter", // 2019-02-01
+      // END: 2019career
+      // END: 2020career
+      "userway-will-get-you-sued", // 2021-09-14
+      // END: 2021career
+      // END: 2022career
+      // END: 2023career
+      // END: 2024career
+      // END: 2025css
       // END: 2026css
       // END: css
     ]], [

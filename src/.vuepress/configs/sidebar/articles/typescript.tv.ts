@@ -15,6 +15,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "you-dont-need-embeddings-for-rag", // 2025-04-02
+    "chaos-testing-your-typescript-sdks-with-toxiproxy", // 2026-04-01
+    "stop-babysitting-claude-code", // 2026-03-28
     "your-keyboard-is-obsolete-voice-coding-in-typescript", // 2026-02-12
     "why-your-cat-became-a-dog-and-typescript-finally-noticed", // 2026-01-22
     "how-intersection-types-replace-error-handling", // 2026-01-13
@@ -243,6 +246,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023js-express
       // END: 2024js-express
       // END: 2025js-express
+      "chaos-testing-your-typescript-sdks-with-toxiproxy", // 2026-04-01
       // END: 2026js-express
       // END: js-express
     ]],[
@@ -350,6 +354,7 @@ export const template: SidebarInfoTemplate = {
       "how-intersection-types-replace-error-handling", // 2026-01-13
       "why-your-cat-became-a-dog-and-typescript-finally-noticed", // 2026-01-22
       "your-keyboard-is-obsolete-voice-coding-in-typescript", // 2026-02-12
+      "you-dont-need-embeddings-for-rag", // 2025-04-02
       // END: 2026ts
       // END: ts
     ]],[
@@ -405,6 +410,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2023docker
       // END: 2024docker
       // END: 2025docker
+      "stop-babysitting-claude-code", // 2026-03-28
+      "you-dont-need-embeddings-for-rag", // 2025-04-02
       // END: 2026docker
       // END: docker
     ]],[
@@ -446,6 +453,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025heroku
       // END: 2026heroku
       // END: heroku
+    ]],[
+    "postgresql", [
+      "you-dont-need-embeddings-for-rag", // 2025-04-02
+      // END: 2026postgresql
+      // END: postgresql
     ]],[
     "vscode", [
       // END: 2019vscode
@@ -492,6 +504,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2024claude
       "from-rest-apis-to-mcp-the-future-of-ai-integration", // 2025-11-13
       // END: 2025claude
+      "stop-babysitting-claude-code", // 2026-03-28
+      "you-dont-need-embeddings-for-rag", // 2025-04-02
       // END: 2026claude
       // END: claude
     ]],[
@@ -504,6 +518,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024mcp
       "from-rest-apis-to-mcp-the-future-of-ai-integration", // 2025-11-13
       // END: 2025mcp
+      "you-dont-need-embeddings-for-rag", // 2025-04-02
       // END: 2026mcp
       // END: mcp
     ]],[

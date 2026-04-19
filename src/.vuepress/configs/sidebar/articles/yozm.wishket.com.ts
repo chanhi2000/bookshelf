@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "3719", // 2026-04-22
+    "3718", // 2026-04-21
     "3713", // 2026-04-17
     "3710", // 2026-04-16
     "3708", // 2026-04-15
@@ -632,6 +634,7 @@ export const template: SidebarInfoTemplate = {
       "3515", // 2025-12-22
       // END: 2025ts
       "3702", // 2026-04-13
+      "3719", // 2026-04-22
       // END: 2026ts
       // END: ts
     ]], [
@@ -1240,6 +1243,7 @@ export const template: SidebarInfoTemplate = {
       "3705", // 2026-04-14
       "3707", // 2026-04-14
       "3708", // 2026-04-15
+      "3718", // 2026-04-21
       // END: 2026llm
       // END: llm
     ]],[

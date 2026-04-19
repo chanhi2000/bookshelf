@@ -5,9 +5,12 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "css-subgrid-is-super-good", // 2026-04-03
+    "top-ten-figma-betrayls", // 2026-03-24
     "mooving-to-a-self-hosted-bluesky-pds", // 2026-03-03
     "visually-hidden", // 2026-02-21
     "declarative-dialog-menu-invoker-commands", // 2026-02-13
+    "big-design-and-bold-ideas", // 2026-02-10
     "mozilla-slopaganda", // 2026-01-29
     "death-to-scroll-fade", // 2026-01-10
   ]
@@ -228,11 +231,13 @@ export const template: SidebarInfoTemplate = {
       "death-to-scroll-fade", // 2026-01-10
       "mozilla-slopaganda", // 2026-01-29
       "declarative-dialog-menu-invoker-commands", // 2026-02-13
+      "big-design-and-bold-ideas", // 2026-02-10
       "visually-hidden", // 2026-02-21
+      "css-subgrid-is-super-good", // 2026-04-03
       // END: 2026css
       // END: css
     ]], [
-      "docker", [
+    "docker", [
       // END: 2010docker
       // END: 2011docker
       // END: 2012docker
@@ -252,6 +257,11 @@ export const template: SidebarInfoTemplate = {
       "mooving-to-a-self-hosted-bluesky-pds", // 2026-03-03
       // END: 2026docker
       // END: docker
+    ]], [
+    "figma", [
+      "top-ten-figma-betrayls", // 2026-03-24
+      // END: 2026figma
+      // END: figma
     ]], [
     "system-design", [
       // END: 2010system-design

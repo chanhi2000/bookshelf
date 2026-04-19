@@ -739,7 +739,7 @@ As language models get cheaper and agent frameworks mature, the question of who 
 
 ::: info About
 
-You can find me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`rudrendupaul`)](https://linkedin.com/in/rudrendupaul/) where I write about what breaks when you deploy AI at scale.
+You can find me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`rudrendupaul`)](https://linkedin.com/in/rudrendupaul/) where I write about what breaks when you deploy AI at scale.
 
 :::
 

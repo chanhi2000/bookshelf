@@ -12,7 +12,6 @@ tag:
   - freecodecamp.org
   - data-science
   - sql
-  - mysql
   - postgres
   - postgresql
 head:
@@ -595,7 +594,7 @@ The core principle is simple: index deliberately based on your actual query patt
 
 ::: info About me
 
-If you found this tutorial helpful, you can find more of my writing on [freeCodeCamp (<VPIcon icon="fa-brands fa-free-code-camp"/>`iyiola`)](https://freecodecamp.org/author/iyiola) and connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`iyioladev`)](https://linkedin.com/in/iyioladev) and [X (<VPIcon icon="fa-brands fa-x-twitter" />`iyiola_dev_`)](https://x.com/iyiola_dev_).
+If you found this tutorial helpful, you can find more of my writing on [freeCodeCamp (<VPIcon icon="fa-brands fa-free-code-camp"/>`iyiola`)](https://freecodecamp.org/author/iyiola) and connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`iyioladev`)](https://linkedin.com/in/iyioladev) and [X (<VPIcon icon="fa-brands fa-x-twitter" />`iyiola_dev_`)](https://x.com/iyiola_dev_).
 
 :::
 

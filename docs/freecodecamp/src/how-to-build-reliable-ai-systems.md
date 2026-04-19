@@ -778,7 +778,7 @@ Reliable AI workflows aren't about better prompts. They're about better architec
 
 ::: info About me
 
-If you found this helpful, you can connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin" />`jideabdqudus`)](https://linkedin.com/in/jideabdqudus/) or subscribe to my [<VPIcon icon="fas fa-globe"/>newsletter](https://abdulqudus.com/newsletter/). You can also visit my [<VPIcon icon="fas fa-globe"/>website](https://abdulqudus.com/).
+If you found this helpful, you can connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`jideabdqudus`)](https://linkedin.com/in/jideabdqudus/) or subscribe to my [<VPIcon icon="fas fa-globe"/>newsletter](https://abdulqudus.com/newsletter/). You can also visit my [<VPIcon icon="fas fa-globe"/>website](https://abdulqudus.com/).
 
 :::
 

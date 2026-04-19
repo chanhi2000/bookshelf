@@ -36,6 +36,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "recreating-apples-vision-pro-animation-in-css", // 2026-04-23
+    "astro-markdown-component", // 2026-04-22
+    "markdown-astro", // 2026-04-20
+    "whats-important-9", // 2026-04-17
     "the-javascript-module-system-architecture", // 2026-04-16
     "the-radio-state-machine", // 2026-04-14
     "7-view-transitions-recipes-to-try", // 2026-04-13
@@ -214,6 +218,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "css-container-queries-a-first-look-and-demo", // 2021-03-29
     "all-about-floats", // 2021-03-25
     "web-components-are-easier-than-you-think", // 2021-03-08
+    "exploring-property-and-its-animating-powers", // 2021-03-04
     "the-css-box-model", // 2021-02-18
   ],
 }
@@ -429,6 +434,7 @@ export const template: SidebarInfoTemplate = {
       "the-raven-technique-one-step-closer-to-container-queries", // 2020-11-10
       // END: 2020css
       "the-css-box-model", // 2021-02-18
+      "exploring-property-and-its-animating-powers", // 2021-03-04
       "web-components-are-easier-than-you-think", // 2021-03-08
       "all-about-floats", // 2021-03-25
       "css-container-queries-a-first-look-and-demo", // 2021-03-29
@@ -549,6 +555,8 @@ export const template: SidebarInfoTemplate = {
       "selecting-a-date-range-in-css", // 2026-04-09
       "7-view-transitions-recipes-to-try", // 2026-04-13
       "the-radio-state-machine", // 2026-04-14
+      "whats-important-9", // 2026-04-17
+      "recreating-apples-vision-pro-animation-in-css", // 2026-04-23
       // END: 2026css
       // END: css
     ]],[
@@ -561,6 +569,8 @@ export const template: SidebarInfoTemplate = {
     "js-astro",[
       "building-a-honeypot-field-that-works", // 2025-10-20
       // END: 2025js-astro
+      "markdown-astro", // 2026-04-20
+      "astro-markdown-component", // 2026-04-22
       // END: 2026js-astro
       // END: js-astro
     ]],[

@@ -418,7 +418,7 @@ The dependency inversion principle has many use cases in different areas of soft
 - **Microservices architectures** — Ensuring services communicate through well-defined abstractions rather than direct dependencies
 - **Event-driven architectures** — Allowing components to subscribe to events instead of directly calling each other
 - **Enterprise software** — Managing business logic layers that interact with multiple data sources and APIs
-- **Payment processing systems** — Applications requiring multiple payment gateways like [<VPIcon icon="fas fa-globe"/>Stripe](https://stripe.com/) and [<VPIcon icon="fas fa-globe"/>PayPal](https://paypal.com/us/home) benefit from DIP by abstracting the payment processing logic. This allows seamless switching of payment providers without altering core business logic
+- **Payment processing systems** — Applications requiring multiple payment gateways like [<VPIcon icon="fa-brands fa-stripe"/>Stripe](https://stripe.com/) and [<VPIcon icon="fa-brands fa-paypal"/>PayPal](https://paypal.com/us/home) benefit from DIP by abstracting the payment processing logic. This allows seamless switching of payment providers without altering core business logic
 - **Notification services** — Systems that send notifications through multiple channels (e.g., email, SMS, push notifications) can use DIP to decouple business logic from specific notification implementations, making it easier to add new communication methods
 - **Database access layer** — Applications that start with a single database technology but later need to support multiple databases (SQL, NoSQL, cache systems) can leverage DIP for greater flexibility
 

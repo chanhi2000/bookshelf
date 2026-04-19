@@ -17,6 +17,7 @@ tag:
   - react
   - reactjs
   - react-js
+  - tanstack
 head:
   - - meta:
     - property: og:title
@@ -38,7 +39,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 ```component VPCard
 {
-  "title": "CSS > Article(s)",
+  "title": "React.js > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/js-react/articles/README.md",
   "logo": "/images/ico-wind.svg",
@@ -60,6 +61,30 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 [<VPIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest) is one of the newest web frameworks, and its popularity is rising quickly. Start is a thin server-side layer that sits atop TanStack Router and provides features like server functions, API endpoints, and server-side rendering. I wrote [**a three-part introduction to Router**](/frontendmasters.com/blog/introducing-tanstack-router.md) and [**an introduction to Start**](/frontendmasters.com/blog/introducing-tanstack-start.md).
 
 This post will be a bit different. We’ll explore TanStack start via a more traditional, old-school use case: we’ll implement a blog (you can see [the complete thing on GitHub (<VPIcon icon="iconfont icon-github"/>`arackaf/tanstack-blog-blog-post`)](https://github.com/arackaf/tanstack-blog-blog-post)). It’s somewhat of a cliche, but it will let us explore important features, such as server functions and routing parameters, as well as niche patterns, such as static pre-rendering.
+
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Building a Blog in TanStack (Part 1 of 2)",
+  "desc": "A site building framework like TanStack Start can be used to make a server-side rendered blog, no problemo. ",
+  "link": "/frontendmasters.com/building-a-blog-in-tanstack-part-1-of-2.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Building a Blog in TanStack (Part 2 of 2)",
+  "desc": "A blog is a perfect use case for pre-rendering, so that the static build files can render all on their own. TanStack Start can even help with the server functions via middleware.",
+  "link": "/frontendmasters.com/building-a-blog-in-tanstack-part-2-of-2.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
 
 Here in part 1, we’ll implement our blog. Then, in part 2, we’ll explore static generation in order to deploy it in the most sensible way. Stay tuned for that!
 
@@ -433,6 +458,30 @@ And our line numbers work:
 ## On to Part 2
 
 Our blog is set up and working. In Part 2 (coming soon!), we’ll look at some simple tricks for deploying our blog as a static site with no server dependencies.
+
+::: info Article Series
+
+```component VPCard
+{
+  "title": "Building a Blog in TanStack (Part 1 of 2)",
+  "desc": "A site building framework like TanStack Start can be used to make a server-side rendered blog, no problemo. ",
+  "link": "/frontendmasters.com/building-a-blog-in-tanstack-part-1-of-2.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Building a Blog in TanStack (Part 2 of 2)",
+  "desc": "A blog is a perfect use case for pre-rendering, so that the static build files can render all on their own. TanStack Start can even help with the server functions via middleware.",
+  "link": "/frontendmasters.com/building-a-blog-in-tanstack-part-2-of-2.md",
+  "logo": "https://frontendmasters.com/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

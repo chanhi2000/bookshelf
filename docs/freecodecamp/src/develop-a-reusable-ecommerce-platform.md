@@ -86,13 +86,13 @@ Part of the product and order information came from another team’s domain, the
 
 The discounts were also provided by team *In’s*, to which we had to subscribe and then calculate the final product price according to the user info and privileges before displaying it.
 
-To make product content like images or descriptions accessible and customizable for the client we retrieved it through [Contentful](https://contentful.com/), a content platform where clients were able to manage it in an easy way.
+To make product content like images or descriptions accessible and customizable for the client we retrieved it through [<VPIcon icon="fas fa-globe"/>Contentful](https://contentful.com/), a content platform where clients were able to manage it in an easy way.
 
-We managed the payment with [Stripe](https://stripe.com/), a payments service, and then we communicated with team *In* to update the order status on Swell.
+We managed the payment with [<VPIcon icon="fa-brands fa-stripe"/>Stripe](https://stripe.com/), a payments service, and then we communicated with team *In* to update the order status on Swell.
 
 The service available for the user to authenticate should be agnostic to the owner and reusable on all sub-companies. It had to be provided by another team, yet in the end, we actually developed it ourselves.
 
-And to put the icing on the cake, we also had to implement the user tracking with [Segment](https://segment.com/), a popular service to collect user events from web and mobile apps.
+And to put the icing on the cake, we also had to implement the user tracking with [<VPIcon icon="fas fa-globe"/>Segment](https://segment.com/), a popular service to collect user events from web and mobile apps.
 
 Here is a simple diagram of what I have been describing which might make it easier to understand. I have grouped the microservices architecture in just *Backend* and *Frontend* to keep it simple.
 

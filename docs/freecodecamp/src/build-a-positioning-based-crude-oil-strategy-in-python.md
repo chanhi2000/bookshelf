@@ -2,11 +2,11 @@
 lang: en-US
 title: "How to Build a Positioning-Based Crude Oil Strategy in Python [Full Handbook]"
 description: "Article(s) > How to Build a Positioning-Based Crude Oil Strategy in Python [Full Handbook]"
-icon: fa-brands fa-python
+icon: iconfont icon-pandas
 category:
   - Python
-  - NumPy
   - Pandas
+  - NumPy
   - Matplotlib
   - Article(s)
 tag:
@@ -14,10 +14,10 @@ tag:
   - freecodecamp.org
   - py
   - python
-  - numpy
-  - py-numpy
   - pandas
   - py-pandas
+  - numpy
+  - py-numpy
   - matplotlib
   - py-matplotlib
 head:
@@ -28,7 +28,7 @@ head:
       content: "How to Build a Positioning-Based Crude Oil Strategy in Python [Full Handbook]"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-positioning-based-crude-oil-strategy-in-python.html
-prev: /programming/py-numpy/articles/README.md
+prev: /programming/py-pandas/articles/README.md
 date: 2026-04-11
 isOriginal: false
 author:

@@ -160,7 +160,7 @@ Despite its complexity and the need for careful tuning, the MoE approach remains
 
 ::: info About me
 
-Hope you enjoyed this article. Signup for [<VPIcon icon="fas fa-globe"/>my free newsletter](https://manishmshiva.me/) to get more articles delivered to your inbox. You can also [connect with me (<VPIcon icon="fa-brands fa-linkedin" />`manishmshiva`)](https://linkedin.com/in/manishmshiva) on Linkedin.
+Hope you enjoyed this article. Signup for [<VPIcon icon="fas fa-globe"/>my free newsletter](https://manishmshiva.me/) to get more articles delivered to your inbox. You can also [connect with me (<VPIcon icon="fa-brands fa-linkedin"/>`manishmshiva`)](https://linkedin.com/in/manishmshiva) on Linkedin.
 
 :::
 

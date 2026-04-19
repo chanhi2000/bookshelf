@@ -10,9 +10,9 @@ category:
   - LLM
   - Google
   - Google Gemini
+  - Tool
   - Google Drive
   - Google Sheets
-  - Tool
   - Article(s)
 tag:
   - blog

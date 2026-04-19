@@ -5,6 +5,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "constructable-stylesheets-and-adoptedstylesheets-one-parse-every-shadow-root", // 2026-04-23
+    "the-web-is-fun-again-first-experiments-with-html-in-canvas", // 2026-04-21
+    "building-a-blog-in-tanstack-part-2-of-2", // 2026-04-20
     "building-a-blog-in-tanstack-part-1-of-2", // 2026-04-17
     "building-a-ui-without-breakpoints", // 2026-04-15
     "ai-generated-ui-is-inaccessible-by-default", // 2026-04-13
@@ -335,6 +338,7 @@ export const template: SidebarInfoTemplate = {
       "virtual-scroll-driven-3d-scenes", // 2026-02-23
       "shadow-dom-focus-delegation-getting-delegatesfocus-right", // 2026-03-24
       "creating-puzzle-peices-in-css", // 2026-04-06
+      "the-web-is-fun-again-first-experiments-with-html-in-canvas", // 2026-04-21
       // END: 2026js
       // END: js
     ]],[
@@ -387,6 +391,7 @@ export const template: SidebarInfoTemplate = {
       "the-top-trait-companies-look-for-in-a-technical-interview", // 2026-03-26
       "ai-generated-ui-is-inaccessible-by-default", // 2026-04-13
       "building-a-blog-in-tanstack-part-1-of-2", // 2026-04-17
+      "building-a-blog-in-tanstack-part-2-of-2", // 2026-04-20
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -420,6 +425,7 @@ export const template: SidebarInfoTemplate = {
       "the-missing-link-for-web-components", // 2026-01-15
       "post-mortem-rewriting-agnosticui-with-lit-web-components", // 2026-03-03
       "form-associated-custom-elements-in-practice", // 2026-03-11
+      "constructable-stylesheets-and-adoptedstylesheets-one-parse-every-shadow-root", // 2026-04-23
       // END: 2026js-lit
       // END: js-lit
     ]],[
@@ -603,6 +609,7 @@ export const template: SidebarInfoTemplate = {
       "name-only-containers-the-scoping-we-needed", // 2026-04-07
       "svg-filters-guide-getting-started-with-the-basics", // 2026-04-09
       "how-i-lost-madcss", // 2026-04-10
+      "the-web-is-fun-again-first-experiments-with-html-in-canvas", // 2026-04-21
       // END: 2026css
       // END`: css
     ]],[
