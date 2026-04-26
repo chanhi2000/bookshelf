@@ -131,7 +131,7 @@ Sprinkle some CSS on top to lay everything out – using [**CSS Grid**](/css-tri
   slug-hash="bGNMbPz"
   title="Smooth Scrolling Sticky ScrollSpy Navigation (base layer)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -154,7 +154,7 @@ In the demo embedded below, click any of the links in the nav and see how smooth
   slug-hash="NWPMWKJ"
   title="Smooth Scrolling Sticky ScrollSpy Navigation (base layer)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For browsers that don’t support this you *could* add this JS fallback:
 
@@ -204,7 +204,7 @@ In the demo embedded below, click any of the links in the nav and see how the na
   slug-hash="mdyLdPj"
   title="Smooth Scrolling Sticky ScrollSpy Navigation (base layer + smooth scrolling + sticky nav)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -263,7 +263,7 @@ Putting everything together, we end up with this:
   slug-hash="ExaEqMJ"
   title="Smooth Scrolling Sticky ScrollSpy Navigation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Delightful, no? 😊
 

@@ -103,7 +103,7 @@ Right now, masonry is [only working in Firefox Nightly (<VPIcon icon="fa-brands 
   slug-hash="OJbJzVB"
   title="Native Masonry Layout With CSS Grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 [Rachel Andrew (<VPIcon icon="fa-brands fa-x-twitter"/>`rachelandrew`)](https://x.com/rachelandrew) [**wrote a great article about CSS Grid Masonry**](/smashingmagazine.com/native-css-masonry-layout-css-grid.md) and you can also read the [<VPIcon icon="iconfont icon-w3c"/>CSS Grid Layout Module Level 3 editor’s draft here](https://drafts.csswg.org/css-grid-3/) for technical details.
 
@@ -176,7 +176,7 @@ When things get more complex, it gets even more useful, because you can chain ot
   slug-hash="rNMXYGx"
   title=":is selector demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The `:is()` pseudo-class works by taking a passed selector list then translating it into an expanded selector list for us. This allows us to write more compact code and for the browser to do what it does already.
 
@@ -229,7 +229,7 @@ These logical functions are way more useful than that though. Here’s a demo wh
   slug-hash="YzGmEee"
   title="Min and Clamp demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In the demo, I’m using `min()` to size the image and also, calculate the border-radius in the same way. It’s incredibly subtle, but really helps to achieve high design detail on the web, which is great!
 
@@ -256,7 +256,7 @@ In the demo, I’m using `min()` to size the image and also, calculate the borde
   slug-hash="bGpoGdJ"
   title="CSS clamp() Function"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ```component VPCard
 {
@@ -287,7 +287,7 @@ In the following demo, I’ve solved two problems with these units. First, I’v
   slug-hash="YzGmELa"
   title="CH and EX units demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info Resources
 
@@ -338,7 +338,7 @@ Text decoration is no longer boring. You can do *loads* now, thanks to some upda
   slug-hash="WNGVXKV"
   title="Text decoration demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I also like using these new properties to better control underline thickness for heading elements, as they can get pretty heavy in certain fonts.
 
@@ -381,7 +381,7 @@ This property — `scroll-margin-top` — is the antidote to all of that and is 
   slug-hash="XWjvzop"
   title="Scroll margin demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info Resources
 
@@ -421,7 +421,7 @@ Below is a square that’s always going to keep the same aspect ratio, 1:1 — a
   slug-hash="zYKgPbw"
   title="Perfect square with aspect ratio"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Video (16:9)
 
@@ -432,7 +432,7 @@ For videos, a square would be a quite uncommon format. Instead, we can use 16:9 
   slug-hash="oNzKoOq"
   title="Perfect video embed with aspect ratio"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Even though `aspect-ratio` isn’t quite here yet, you should definitely start thinking about it — especially with images, as the following is likely to appear in all browsers as default styles, and is already in Firefox (69 onwards):
 
@@ -530,7 +530,17 @@ In conclusion, the present and future of CSS are very bright indeed and if you t
 ::: info Further Reading
 
 - [**Sticky Headers And Full-Height Elements: A Tricky Combination**](/smashingmagazine.com/sticky-headers-full-height-elements-tricky-combination.md)
-- [**The Timeless Power Of Spreadsheets**](/smashingmagazine.com/timeless-power-of-spreadsheets.md)
+
+```component VPCard
+{
+  "title": "The Timeless Power Of Spreadsheets",
+  "desc": "In this age of endless newfangled organizational tools, the spreadsheet holds firm. Frederick O’Brien explains how, from engineering to design, they can still provide a rock-solid foundation for your work.",
+  "link": "/smashingmagazine.com/timeless-power-of-spreadsheets.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - [**Best Of Pro Scheduler Libraries**](/smashingmagazine.com/best-pro-scheduler-libraries.md)
 
 ```component VPCard

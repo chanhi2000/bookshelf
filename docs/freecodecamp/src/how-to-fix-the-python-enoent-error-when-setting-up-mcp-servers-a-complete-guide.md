@@ -97,7 +97,7 @@ To follow this tutorial, you'll need:
 - macOS with [<VPIcon icon="iconfont icon-homebrew"/>Homebrew](https://brew.sh/) installed
 - Python 3.10 or higher
 - An MCP server repository cloned locally
-- [<VPIcon icon="iconfont icon-anthropic"/>Claude Desktop](https://claude.ai/download) installed
+- [<VPIcon icon="iconfont icon-claude"/>Claude Desktop](https://claude.ai/download) installed
 - Basic familiarity with terminal commands and Python virtual environments
 
 If you haven't cloned an MCP server repository yet, you can start with any open-source MCP server. For this tutorial, I'll use generic examples that work with any MCP setup:
@@ -500,7 +500,7 @@ With your MCP server running smoothly, you can now:
 - Develop specialized workflows for your specific needs
 - Share your MCP servers with the community
 
-The [<VPIcon icon="iconfont icon-anthropic"/>MCP](https://anthropic.com/news/model-context-protocol) ecosystem is growing rapidly, with new servers and tools being developed constantly. Whether you're building file system tools, API integrations, or custom utilities, you now have the foundation to create and maintain robust MCP servers.
+The [<VPIcon icon="iconfont icon-claude"/>MCP](https://anthropic.com/news/model-context-protocol) ecosystem is growing rapidly, with new servers and tools being developed constantly. Whether you're building file system tools, API integrations, or custom utilities, you now have the foundation to create and maintain robust MCP servers.
 
 Happy building, and enjoy your error-free development journey! For more tutorials, follow my work on [GitHub (<VPIcon icon="iconfont icon-github"/>`Olanetsoft`)](https://github.com/Olanetsoft).
 

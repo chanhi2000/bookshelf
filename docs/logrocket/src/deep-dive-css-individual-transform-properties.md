@@ -278,7 +278,7 @@ The use of individual transform properties is just as efficient as the original 
 
 ## Support and fallbacks
 
-The benefits of CSS individual transform properties are worthless if they can’t be used. Luckily, modern support for these properties is already quite good, with support in at least the latest version of all major browsers, being introduced to Chrome and Edge in v104, Safari 14.1, and Firefox 103. 
+The benefits of CSS individual transform properties are worthless if they can’t be used. Luckily, modern support for these properties is already quite good, with support in at least the latest version of all major browsers, being introduced to Chrome and Edge in v104, Safari 14.1, and Firefox 103.
 
 ![Screenshot Of CSS Individual Transform Properties Support On Caniuse](/assets/image/blog.logrocket.com/deep-dive-css-individual-transform-properties/css-individual-transform-properties-support.png)
 
@@ -376,12 +376,15 @@ And for these two reasons alone, individual transform properties are a welcomed 
 }
 ```
 
-<SiteInfo
-  name="Finer grained control over CSS transforms with individual transform properties | Articles | web.dev"
-  desc="Learn how you can use the individual translate, rotate, and scale CSS properties to approach transforms in an intuitive way."
-  url="https://web.dev/articles/css-individual-transform-properties/"
-  logo="https://gstatic.com/devrel-devsite/prod/v17c4f87be230ffee20589ee6dca0a2318ead9eddb228ec5c58233202ff69a933/web/images/favicon.png"
-  preview="https://web.dev/static/articles/css-individual-transform-properties/image/thumbnail.svg"/>
+```component VPCard
+{
+  "title": "Finer grained control over CSS transforms with individual transform properties",
+  "desc": "Learn how you can use the individual translate, rotate, and scale CSS properties to approach transforms in an intuitive way.",
+  "link": "/web.dev/css-individual-transform-properties.md",
+  "logo": "https://gstatic.com/devrel-devsite/prod/v579073a50c63499824df5a68b8922367066583d283ef78fdade1028efdb4ceb5/web/images/touchicon-180.png",
+  "background": "rgba(26,115,232,0.2)"
+}
+```
 
 ```component VPCard
 {

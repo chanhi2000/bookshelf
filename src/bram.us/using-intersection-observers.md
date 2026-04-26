@@ -69,7 +69,7 @@ Here's a demo pen:
   slug-hash="YxXpyN"
   title="Hello IntersectionObserver"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To not watch the `target`'s relation to the viewport, but to another element, use the `root` option.
 

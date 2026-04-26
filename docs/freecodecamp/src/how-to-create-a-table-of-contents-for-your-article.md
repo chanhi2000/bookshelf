@@ -103,7 +103,7 @@ When creating a ToC for **freeCodeCamp**, you should open the preview in a new t
 
 ## JavaScript Console
 
-We will need to have access to the JavaScript console. To open the console in Google Chrome, you can use <kbd>F12</kbd>, right-click on the page and select Inspect from the context menu, or use the shortcut <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>C</kbd> (<VPIcon icon="fa-brands fa-windows"/>,<VPIcon icon="fa-brands fa-linux"/>) or <kbd>CMD</kbd>+<kbd>OPTION</kbd>+<kbd>C</kbd> (Mac).
+We will need to have access to the JavaScript console. To open the console in Google Chrome, you can use <kbd>F12</kbd>, right-click on the page and select Inspect from the context menu, or use the shortcut <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>C</kbd> (<VPIcon icon="fa-brands fa-windows"/>,<VPIcon icon="fa-brands fa-linux"/>) or <kbd>⌘</kbd>+<kbd>OPTION</kbd>+<kbd>C</kbd> (Mac).
 
 In Chrome DevTools, you can pick the Console tab at the top of the DevTools. But this will hide the DOM tree. It’s better to open the bottom drawer. You need to click the 3 dots in the top right corner and pick “show console drawer”.
 

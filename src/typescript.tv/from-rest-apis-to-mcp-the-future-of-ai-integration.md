@@ -88,7 +88,7 @@ REST APIs changed how applications talk to each other. Now MCP (Model Context Pr
 
 REST APIs revolutionized how applications communicate. You make an HTTP request, get JSON back, and build features on top of that data. Simple, standard, universal. But AI assistants need something different. They don't just fetch data, they need to understand what's available, execute actions, and maintain context across conversations. That's where [<VPIcon icon="iconfont icon-mcp"/>Model Context Protocol (MCP)](https://modelcontextprotocol.io/) comes in.
 
-MCP is [<VPIcon icon="iconfont icon-anthropic"/>Anthropic's new open protocol](https://anthropic.com/news/model-context-protocol) for connecting AI assistants to data sources and tools. Think of it as REST for the AI era, designed specifically for how AI models work. Here's why TypeScript developers should pay attention.
+MCP is [<VPIcon icon="iconfont icon-claude"/>Anthropic's new open protocol](https://anthropic.com/news/model-context-protocol) for connecting AI assistants to data sources and tools. Think of it as REST for the AI era, designed specifically for how AI models work. Here's why TypeScript developers should pay attention.
 
 ---
 

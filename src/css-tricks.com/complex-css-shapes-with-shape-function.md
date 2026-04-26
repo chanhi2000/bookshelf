@@ -184,7 +184,7 @@ We start with a classic layout featuring numerous wavy dividers!
   slug-hash="EayNMgo"
   title="Random Wavy Dividers"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We have four shapes in that demo, and all of them are a simple copy/paste from [the wavy divider generator](https://css-generators.com/wavy-divider/). The header uses the bottom configuration, the footer uses the top configuration and the other elements use the top + bottom configuration.
 
@@ -194,7 +194,7 @@ Let’s get fancy and add some animation.
   link="https://codepen.io/t_afif/pen/yyaVpMy/180506c933b34c7113fc26650622b300"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Each element will have the following code:
 
@@ -221,7 +221,7 @@ And what about introducing scroll-driven animation to have the animation based o
   link="https://codepen.io/t_afif/pen/yyaVpxO/b326aeaf99c07d19f05bac209aa49d5a"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Here is the same effect with a sticky header.
 
@@ -229,7 +229,7 @@ Here is the same effect with a sticky header.
   link="https://codepen.io/t_afif/pen/RNRKjBm/ebcd464305e40a043f4390705afe541d"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For this one, you play with the size. You fix the granularity and the shape ID then you consider a size equal to `0` for the initial shape (a rectangle) and a size different from `0` for the wavy one. Then you let the browser animate between both.
 
@@ -246,14 +246,14 @@ A bouncing hover effect with blob shapes:
   slug-hash="PwwJgyr"
   title="Blob shape with hover effect!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="anon"
   slug-hash="yyyPONb"
   title="Blob shape with hover effect!"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 A [**squishy button**](/css-tip.com/squishy-button.md) with a hover and click effect:
 
@@ -262,7 +262,7 @@ A [**squishy button**](/css-tip.com/squishy-button.md) with a hover and click ef
   slug-hash="ZYpLGvX"
   title="Squishy button using shape()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 A [**wobbling frame animation**](/css-tip.com/wobbling-animation.md):
 
@@ -271,7 +271,7 @@ A [**wobbling frame animation**](/css-tip.com/wobbling-animation.md):
   slug-hash="zxKzrKe"
   title="Wobbling image animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 A [**liquid reveal effect**](/css-tip.com/sliding-liquid.md):
 
@@ -280,7 +280,7 @@ A [**liquid reveal effect**](/css-tip.com/sliding-liquid.md):
   slug-hash="OPRZBxY"
   title="Sliding “Liquid Oozing” effect"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And a set of [<VPIcon icon="fas fa-globe"/>fancy CSS loaders](https://css-loaders.com/squishy/) you can find at my site.
 

@@ -335,7 +335,7 @@ cp .env.example .env
 
 Alternatively, you can move the files to rename them or just click on the file in the UI and <kbd>F2</kbd> to rename it. Whatever floats your goat 🐐.
 
-Now edit the new <VPIcon icon="iconfont icon-dotenv"/>`.env` file. You can get the data folder path by clicking on the infrastructure folder and <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>C</kbd>. The rest is up to you. I used Bitwarden to generate a password here.
+Now edit the new <VPIcon icon="iconfont icon-dotenv"/>`.env` file. You can get the data folder path by clicking on the infrastructure folder and <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Alt</kbd>+<kbd>C</kbd>. The rest is up to you. I used Bitwarden to generate a password here.
 
 Next, copy the Caddyfile template into its own file.
 

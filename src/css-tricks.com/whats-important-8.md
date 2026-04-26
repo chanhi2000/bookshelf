@@ -90,7 +90,7 @@ Chris Coyier showed us [**how to build an image gallery using popovers and somet
   link="https://codepen.io/editor/team/CodePenTemplates/pen/019cb5ec-807e-727a-b18a-5eb41b0fc901"
   title="Photo Grid"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Also, do you happen to remember [Temani’s demo (<VPIcon icon="fa-brands fa-codepen" />`t_afif`)](https://codepen.io/t_afif/pen/wBWWKxP) that I shared a few weeks ago? Well, Frontend Masters have published [**the tutorial for that**](/frontendmasters.com/two-circles-one-arrow-and-anchor-positioning.md) too!
 
@@ -99,7 +99,7 @@ Also, do you happen to remember [Temani’s demo (<VPIcon icon="fa-brands fa-cod
   slug-hash="wBWWKxP"
   title="Connected Circles with Anchor Positioning II"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

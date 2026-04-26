@@ -1865,11 +1865,38 @@ const HOW_TO_BUILD_YOUR_OWN_LANGUAGE_SPECIFIC_LLM_HANDBOOK: SidebarInfoSubgroupT
   ]
 }
 
+const HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK: SidebarInfoSubgroupTemplate = { // 2026-04-30
+  text: "How to Build a Multi-Agent AI System with LangGraph, MCP, and A2A [Full Book]",
+  collapsible: true,
+  icon: 'iconfont icon-mcp',
+  subPath: 'how-to-build-a-multi-agent-ai-system-with-langgraph-mcp-and-a2a-full-book',
+  children: [
+    'README'
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
   children: [
     // END: 2026
+    "how-to-unblock-ai-pr-review-bottleneck-handbook", // 2026-05-05
+    "how-to-navigate-microservices-as-a-frontend-engineer", // 2026-05-05
+    "how-to-compress-pdf-files-in-the-browser-using-javascript", // 2026-05-04
+    "product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python", // 2026-05-01
+    HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK, // 2026-04-30
+    "how-to-land-your-first-cloud-or-devops-role-what-hiring-managers-actually-look-for", // 2026-04-30
+    "deploying-serverless-spam-classifier", // 2026-04-30
+    "how-to-dockerize-a-go-application-full-step-by-step-walkthrough", // 2026-04-30
+    "how-to-measure-your-ai-citation-rate-across-chatgpt-perplexity-and-claude", // 2026-04-30
+    "how-to-deploy-a-full-stack-next-js-app-on-cloudflare-workers-with-github-actions-ci-cd", // 2026-04-29
+    "how-to-build-a-multi-tenant-saas-platform-with-next-js-express-and-prisma", // 2026-04-29
+    "how-to-build-an-agentic-terminal-workflow-with-github-copilot-cli-and-mcp-servers", // 2026-04-29
+    "how-ai-changed-the-economics-of-writing-clean-code", // 2026-04-28
+    "apply-stride-threat-modeling-and-sonarqube-analysis-for-secure-software-development", // 2026-04-28
+    "how-to-set-up-openid-connect-oidc-in-github-actions-for-aws", // 2026-04-28
+    "split-pdf-files-using-javascript", // 2026-04-27
     HOW_TO_BUILD_YOUR_OWN_LANGUAGE_SPECIFIC_LLM_HANDBOOK, // 2026-04-25
     "how-to-build-a-self-learning-rag-system-with-knowledge-reflection", // 2026-04-25
     "multi-agent-ai-swarms-tracing", // 2026-04-24
@@ -3739,6 +3766,8 @@ export const template: SidebarInfoTemplate = {
         "data-quality-handbook-data-errors-the-developer-s-role-validation-layers", // 2026-04-15
         "how-to-generate-pdf-files-in-the-browser-using-javascript", // 2026-04-16
         "merge-pdf-files-using-javascript", // 2026-04-23
+        "split-pdf-files-using-javascript", // 2026-04-27
+        "how-to-compress-pdf-files-in-the-browser-using-javascript", // 2026-05-04
         // END: 2026js
         // END: js
       ]], [
@@ -3882,6 +3911,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-use-context-hub-chub-to-build-a-companion-relevance-engine", // 2026-04-18
         "how-to-fix-failing-github-pr-ci-lint-build-errors", // 2026-04-23
         "how-to-build-a-self-learning-rag-system-with-knowledge-reflection", // 2026-04-25
+        "how-to-build-an-agentic-terminal-workflow-with-github-copilot-cli-and-mcp-servers", // 2026-04-29
         // END: 2026js-node
         // END: js-node
       ]], [
@@ -4052,6 +4082,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-fashion-app-to-organize-your-wardrobe", // 2026-04-15
         "a-developers-guide-to-lazy-loading-in-react-and-nextjs", // 2026-04-15
         "how-to-create-dynamic-emails-in-go-with-react-email", // 2026-04-21
+        "how-to-navigate-microservices-as-a-frontend-engineer", // 2026-05-05
         // END: 2026js-react
         // END: js-react
       ]], [
@@ -4133,6 +4164,8 @@ export const template: SidebarInfoTemplate = {
         "loom-clone-next-javascript-mux", // 2026-03-03
         "build-an-e-commerce-web-app-with-paystack-nextjs-supabase", // 2026-03-19
         "how-to-share-components-between-server-and-client-in-nextjs", // 2026-03-28
+        "how-to-build-a-multi-tenant-saas-platform-with-next-js-express-and-prisma", // 2026-04-29
+        "how-to-deploy-a-full-stack-next-js-app-on-cloudflare-workers-with-github-actions-ci-cd", // 2026-04-29
         // END: 2026js-next
         // END`: js-next
       ]], [
@@ -4177,6 +4210,9 @@ export const template: SidebarInfoTemplate = {
         "set-up-webauthn-in-node-js-for-passwordless-biometric-login", // 2026-03-20
         "how-to-go-from-toy-api-calls-to-production-ready-networking-in-javascript", // 2026-04-07
         "build-online-marketplace-with-next-js-express-stripe-connect", // 2026-04-10
+        "apply-stride-threat-modeling-and-sonarqube-analysis-for-secure-software-development", // 2026-04-28
+        "how-to-build-a-multi-tenant-saas-platform-with-next-js-express-and-prisma", // 2026-04-29
+        "how-to-navigate-microservices-as-a-frontend-engineer", // 2026-05-05
         // END: 2026js-express
         // END: js-express
       ]], [
@@ -4254,6 +4290,7 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_AN_AI_POWERED_RAG_SEARCH_APPLICATION_WITH_NEXTJS_SUPABASE_AND_OPENAI, // 2026-01-28
         HOW_TO_BUILD_A_PRODUCTION_READY_FEATURE_FLAG_SYSTEM_WITH_NEXTJS_AND_SUPABASE, // 2026-02-06
         "build-an-e-commerce-web-app-with-paystack-nextjs-supabase", // 2026-03-19
+        "how-to-deploy-a-full-stack-next-js-app-on-cloudflare-workers-with-github-actions-ci-cd", // 2026-04-29
         // END: 2026js-supabase
         // END: js-supabase
       ]], [
@@ -4391,6 +4428,8 @@ export const template: SidebarInfoTemplate = {
         // END: 2025css-tailwind
         "how-to-use-tailwind-sidebar-npm-package-in-react-nextjs", // 2026-01-15
         "how-to-use-flex-in-tailwind-css-and-justify-flex-items", // 2026-03-12
+        "how-to-build-a-multi-tenant-saas-platform-with-next-js-express-and-prisma", // 2026-04-29
+        "how-to-deploy-a-full-stack-next-js-app-on-cloudflare-workers-with-github-actions-ci-cd", // 2026-04-29
         // END: 2026css-tailwind
         // END: css-tailwind
       ]], [
@@ -4583,6 +4622,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-keep-human-experts-visible-in-your-ai-assisted-codebase", // 2026-04-14
         "traditional-scraping-vs-ai-scraping", // 2026-04-17
         "multi-agent-ai-swarms-tracing", // 2026-04-24
+        "deploying-serverless-spam-classifier", // 2026-04-30
+        HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK, // 2026-04-30
         // END: 2026py
         // END: py
       ]], [
@@ -4670,6 +4711,7 @@ export const template: SidebarInfoTemplate = {
         "build-a-positioning-based-crude-oil-strategy-in-python", // 2026-04-11
         THE_AI_GOVERNANCE_HANDBOOK_BUILD_RESPONSIBLE_AI_SYSTEMS, // 2026-04-14
         "why-ab-testing-breaks-in-ai-rollouts-and-how-to-fix-it", // 2026-04-23
+        "product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python", // 2026-05-01
         // END: 2026py-numpy
         // END: py-numpy
       ]], [
@@ -4751,6 +4793,7 @@ export const template: SidebarInfoTemplate = {
         "efficient-data-processing-in-python-batch-vs-streaming-pipelines", // 2026-04-13
         THE_AI_GOVERNANCE_HANDBOOK_BUILD_RESPONSIBLE_AI_SYSTEMS, // 2026-04-14
         "why-ab-testing-breaks-in-ai-rollouts-and-how-to-fix-it", // 2026-04-23
+        "product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python", // 2026-05-01
         // END: 2026py-pandas
         // END: py-pandas
       ]], [
@@ -4807,6 +4850,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-take-machine-learning-beyond-python-notebooks-with-these-helpful-tools", // 2026-02-17
         "build-an-llm-market-copilot-with-langchain", // 2026-02-25
         "how-to-build-a-market-pulse-app-in-python-real-time-multi-asset", // 2026-04-06
+        HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK, // 2026-04-30
         // END: 2026py-streamlit
         // END: py-streamlit
       ]], [
@@ -4996,6 +5040,7 @@ export const template: SidebarInfoTemplate = {
         "build-a-bank-ledger-in-go-with-postgresql-using-the-double-entry-accounting-principle", // 2026-03-26
         "build-and-deploy-multi-architecture-docker-apps-on-google-cloud-using-arm-nodes", // 2026-04-13
         "how-to-create-dynamic-emails-in-go-with-react-email", // 2026-04-21
+        "how-to-dockerize-a-go-application-full-step-by-step-walkthrough", // 2026-04-30
         // END: 2026go
         // END: go
       ]], [
@@ -5319,6 +5364,7 @@ export const template: SidebarInfoTemplate = {
         "a-developers-guide-to-proxy-servers", // 2026-01-07
         "top-heroku-alternatives-for-deployment", // 2026-02-12
         "the-hidden-tax-of-infrastructure-why-your-team-shouldn-t-be-running-it-anymore", // 2026-04-24
+        "how-to-land-your-first-cloud-or-devops-role-what-hiring-managers-actually-look-for", // 2026-04-30
         // END: 2026devops
         // END: devops
       ]], [
@@ -5382,6 +5428,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-make-your-github-profile-stand-out", // 2026-04-18
         "reclaim-your-time-master-automation-with-zapier", // 2026-04-21
         "how-to-fix-failing-github-pr-ci-lint-build-errors", // 2026-04-23
+        "how-to-set-up-openid-connect-oidc-in-github-actions-for-aws", // 2026-04-28
+        "how-to-deploy-a-full-stack-next-js-app-on-cloudflare-workers-with-github-actions-ci-cd", // 2026-04-29
         // END: 2026github
         // END: github
       ]], [
@@ -5554,6 +5602,9 @@ export const template: SidebarInfoTemplate = {
         "how-to-create-dynamic-emails-in-go-with-react-email", // 2026-04-21
         "build-production-ready-ci-cd-pipeline-for-monorepo-based-microservices-system", // 2026-04-24
         "multi-agent-ai-swarms-tracing", // 2026-04-24
+        "apply-stride-threat-modeling-and-sonarqube-analysis-for-secure-software-development", // 2026-04-28
+        "how-to-dockerize-a-go-application-full-step-by-step-walkthrough", // 2026-04-30
+        HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK, // 2026-04-30
         // END: 2026docker
         // END: docker
       ]], [
@@ -5682,6 +5733,8 @@ export const template: SidebarInfoTemplate = {
         "containerize-mlops-pipeline-from-training-to-serving", // 2026-03-13
         "full-stack-aws-react-lambda-dynamodb-tutorial", // 2026-03-18
         "cloud-native-development-with-azure-devops-ci-cd-pipelines-in-enterprise-net-applications", // 2026-03-28
+        "how-to-set-up-openid-connect-oidc-in-github-actions-for-aws", // 2026-04-28
+        "deploying-serverless-spam-classifier", // 2026-04-30
         // END: 2026aws
         // END: aws
       ]], [
@@ -5740,6 +5793,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-an-embeddable-ai-chatbot-widget-with-cloudflare-workers", // 2026-01-06
         "how-to-turn-your-favorite-blogs-into-personal-podcast", // 2026-01-22
         "how-to-build-a-headless-wordpress-frontend-with-astro-ssr-on-cloudflare-pages", // 2026-04-21
+        "how-to-deploy-a-full-stack-next-js-app-on-cloudflare-workers-with-github-actions-ci-cd", // 2026-04-29
         // END: 2026cloudflare
         // END: cloudflare
       ]], [
@@ -5997,6 +6051,7 @@ export const template: SidebarInfoTemplate = {
         "how-does-extended-bluetooth-advertising-work-in-aosp", // 2026-01-28
         "penetration-testing-services-vs-automated-platforms-what-is-better", // 2026-03-17
         "shadow-ai-explained-why-employees-are-using-ai-behind-your-back", // 2026-04-17
+        "apply-stride-threat-modeling-and-sonarqube-analysis-for-secure-software-development", // 2026-04-28
         // END: 2026security
         // END: security
       ]], [
@@ -6156,6 +6211,7 @@ export const template: SidebarInfoTemplate = {
         FULL_STACK_SAAS_TANSTACK_START_ELYSIA_NEON, // 2026-04-03
         "how-database-indexes-work-a-practical-guide-with-postgresql-examples", // 2026-04-17
         "how-to-use-postgresql-as-a-cache-queue-and-search-engine", // 2026-04-21
+        "how-to-build-a-multi-tenant-saas-platform-with-next-js-express-and-prisma", // 2026-04-29
         // END: 2026postgresql
         // END: postgresql
       ]], [
@@ -6464,6 +6520,7 @@ export const template: SidebarInfoTemplate = {
         "shadow-ai-explained-why-employees-are-using-ai-behind-your-back", // 2026-04-17
         "why-chrome-os-is-the-ai-os", // 2026-04-18
         "the-new-definition-of-software-engineering-in-the-age-of-ai", // 2026-04-21
+        "how-ai-changed-the-economics-of-writing-clean-code", // 2026-04-28
         // END: 2026ai
         // END: ai
       ]], [
@@ -6545,6 +6602,7 @@ export const template: SidebarInfoTemplate = {
         THE_AI_GOVERNANCE_HANDBOOK_BUILD_RESPONSIBLE_AI_SYSTEMS, // 2026-04-14
         "how-to-build-a-self-learning-rag-system-with-knowledge-reflection", // 2026-04-25
         HOW_TO_BUILD_YOUR_OWN_LANGUAGE_SPECIFIC_LLM_HANDBOOK, // 2026-04-25
+        "product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python", // 2026-05-01
         // END: 2026llm
         // END: llm
       ]], [
@@ -6640,6 +6698,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-secure-ai-pr-reviewer-with-claude-github-actions-and-javascript", // 2026-04-11
         "how-to-keep-human-experts-visible-in-your-ai-assisted-codebase", // 2026-04-14
         "multi-agent-ai-swarms-tracing", // 2026-04-24
+        "how-to-measure-your-ai-citation-rate-across-chatgpt-perplexity-and-claude", // 2026-04-30
+        "how-to-unblock-ai-pr-review-bottleneck-handbook", // 2026-05-05
         // END: 2026claude
         // END: claude
       ]], [
@@ -6648,6 +6708,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2025github-copilot
         "what-happened-when-i-replaced-copilot-with-claude-code-for-2-weeks", // 2026-03-28
         "ai-tools-for-developers", // 2026-04-02
+        "how-to-build-an-agentic-terminal-workflow-with-github-copilot-cli-and-mcp-servers", // 2026-04-29
         // END: 2026github-copilot
         // END: github-copilot
       ]], [
@@ -6682,6 +6743,7 @@ export const template: SidebarInfoTemplate = {
         "run-and-customize-llms-locally-with-ollama", // 2026-03-03
         "protect-sensitive-data-with-local-llms", // 2026-03-05
         HOW_TO_BUILD_AI_POWERED_FLUTTER_APPLICATIONS_WITH_GENKIT_DART_HANDBOOK_FOR_DEVS, // 2026-04-01
+        HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK, // 2026-04-30
         // END: 2026ollama
         // END: ollama
       ]], [
@@ -6696,6 +6758,8 @@ export const template: SidebarInfoTemplate = {
       "langgraph", [
         "building-an-ai-powered-e-commerce-chat-assistant-with-mongodb", // 2025-08-20
         // END: 2025langgraph
+        HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK, // 2026-04-30
+        // END: 2026langgraph
         // END: langgraph
       ]], [
       "deepseek", [
@@ -6719,6 +6783,7 @@ export const template: SidebarInfoTemplate = {
         "code-and-train-qwen3-from-scratch", // 2025-08-19
         // END: 2025qwen
         "qwen-vs-gpt-vs-gemini-which-should-you-use", // 2026-01-09
+        HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK, // 2026-04-30
         // END: 2026qwen
         // END: qwen
       ]], [
@@ -6778,6 +6843,8 @@ export const template: SidebarInfoTemplate = {
         "build-a-production-rag-system-with-cloudflare-workers-handbook", // 2026-03-19
         "how-to-use-mcp-to-build-a-personal-financial-assistant", // 2026-03-26
         "how-to-build-ai-agents-that-can-control-cloud-infrastructure", // 2026-04-01
+        "how-to-build-an-agentic-terminal-workflow-with-github-copilot-cli-and-mcp-servers", // 2026-04-29
+        HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK, // 2026-04-30
         // END: 2026mcp
         // END: mcp
       ]], [
@@ -6910,6 +6977,7 @@ export const template: SidebarInfoTemplate = {
         "the-new-definition-of-software-engineering-in-the-age-of-ai", // 2026-04-21
         "understanding-proxies-and-reverse-proxies-your-gateway-to-secure-networking", // 2026-04-22
         "from-symptoms-to-root-cause-how-to-use-the-5-whys-technique", // 2026-04-24
+        "how-ai-changed-the-economics-of-writing-clean-code", // 2026-04-28
         // END: 2026coen
         // END: coen
       ]], [
@@ -6949,6 +7017,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-make-your-github-profile-stand-out", // 2026-04-18
         "why-many-beginner-self-taught-developers-struggle-and-what-to-do-about-it", // 2026-04-21
         "the-new-definition-of-software-engineering-in-the-age-of-ai", // 2026-04-21
+        "how-to-land-your-first-cloud-or-devops-role-what-hiring-managers-actually-look-for", // 2026-04-30
         // END: 2026career
         // END: career
       ]], [

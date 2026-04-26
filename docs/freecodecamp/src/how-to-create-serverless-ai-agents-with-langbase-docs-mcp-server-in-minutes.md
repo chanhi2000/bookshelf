@@ -113,7 +113,7 @@ This setup allows AI models to retrieve fresh, relevant context from different s
 
 ## Anthropic’s Role in Launching MCP
 
-[<VPIcon icon="iconfont icon-anthropic"/>Anthropic](https://anthropic.com/news/model-context-protocol) introduced MCP as part of their vision to make LLMs tool-augmented by default. MCP was originally built to expand Claude’s capabilities, but it's now available more broadly and supported in developer-friendly environments like Cursor and Claude Desktop.
+[<VPIcon icon="iconfont icon-claude"/>Anthropic](https://anthropic.com/news/model-context-protocol) introduced MCP as part of their vision to make LLMs tool-augmented by default. MCP was originally built to expand Claude’s capabilities, but it's now available more broadly and supported in developer-friendly environments like Cursor and Claude Desktop.
 
 By standardizing how tools integrate into LLM workflows, MCP makes it easier for developers to extend AI systems without custom plugins or API hacks.
 

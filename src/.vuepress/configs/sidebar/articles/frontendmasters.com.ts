@@ -5,6 +5,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "css-n-of-selectors-for-conditional-validation", // 2026-05-04
+    "introducing-tanstack-form", // 2026-05-01
+    "ai-amplifies-everything-a-team-leads-guide-to-ai-assisted-development", // 2026-04-29
+    "ai-assisted-coding-a-practical-guide-for-software-engineers", // 2026-04-28
     "constructable-stylesheets-and-adoptedstylesheets-one-parse-every-shadow-root", // 2026-04-23
     "the-web-is-fun-again-first-experiments-with-html-in-canvas", // 2026-04-21
     "building-a-blog-in-tanstack-part-2-of-2", // 2026-04-20
@@ -392,6 +396,7 @@ export const template: SidebarInfoTemplate = {
       "ai-generated-ui-is-inaccessible-by-default", // 2026-04-13
       "building-a-blog-in-tanstack-part-1-of-2", // 2026-04-17
       "building-a-blog-in-tanstack-part-2-of-2", // 2026-04-20
+      "introducing-tanstack-form", // 2026-05-01
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -610,6 +615,7 @@ export const template: SidebarInfoTemplate = {
       "svg-filters-guide-getting-started-with-the-basics", // 2026-04-09
       "how-i-lost-madcss", // 2026-04-10
       "the-web-is-fun-again-first-experiments-with-html-in-canvas", // 2026-04-21
+      "css-n-of-selectors-for-conditional-validation", // 2026-05-04
       // END: 2026css
       // END`: css
     ]],[
@@ -715,6 +721,8 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "llm", [
       "ai-generated-ui-is-inaccessible-by-default", // 2026-04-13
+      "ai-assisted-coding-a-practical-guide-for-software-engineers", // 2026-04-28
+      "ai-amplifies-everything-a-team-leads-guide-to-ai-assisted-development", // 2026-04-29
       // END: 2026llm
       // END: llm
     ]],[

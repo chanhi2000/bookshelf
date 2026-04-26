@@ -175,7 +175,7 @@ A good example is a common card grid, similar to the code snippet above. Instead
   slug-hash="OPRwYVQ"
   title="No Breakpoints - Demo 01"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ([Open the demo in a new tab (<VPIcon icon="fa-brands fa-codepen" />`amit_sheen`)](https://codepen.io/amit_sheen/pen/OPRwYVQ/f4d678bd98a27f241eaefacb099414c8) and resize the window to see how the grid adapts.)
 
@@ -207,7 +207,7 @@ aside {
   slug-hash="dPpjEOv"
   title="No Breakpoints - Demo 02"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This pattern encodes intent directly and replaces hard switches with a smoother layout flow.
 
@@ -256,7 +256,7 @@ The key point is that with a bit of math, you can create tokens that fluidly sca
   slug-hash="JoRBqrb"
   title="No Breakpoints - Demo 03"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To get these `clamp()` values, you can use one of the many [<VPIcon icon="fas fa-globe"/>clamps calculators](https://clamp-calculator.netlify.app/) out there. The result is a single rule that produces the same effect as multiple media queries, but with smoother scaling and less CSS.
 
@@ -305,7 +305,7 @@ You can also use container units to manage internal intrinsic layout behavior.
   slug-hash="emdjarp"
   title="No Breakpoints - Demo 04"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Three cards, same CSS, completely different results.
 
@@ -353,7 +353,7 @@ Here’s an example where a group of items starts as a vertical stack, but when 
   slug-hash="NPRBVLm"
   title="No Breakpoints - Demo 05"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Same component, different container behavior. This is where container queries shine. They let each component carry its own adaptation logic, so layout changes happen at the right moment for that component, not at an arbitrary viewport breakpoint.
 

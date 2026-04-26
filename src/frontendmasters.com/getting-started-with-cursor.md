@@ -74,7 +74,7 @@ cover: https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/
 
 I don’t love the term “vibe coding,” but I also don’t like doing tedious things.
 
-Over the last few months, we’ve seen a number of AI-driven development tools. [**Cursor**](https://cursor.com) is probably the most well-known at this point. But big players are starting to come out with their own like [<VPIcon icon="iconfont icon-openai"/>OpenAI’s Codex](https://openai.com/codex/), [<VPIcon icon="iconfont icon-anthropic"/>Anthropic’s Claude Code](https://anthropic.com/claude-code), [<VPIcon icon="iconfont icon-gemini"/>Google Gemini CLI](https://cloud.google.com/gemini/docs/codeassist/gemini-cli), and [<VPIcon icon="fa-brands fa-aws"/>Amazon’s Kiro](https://kiro.dev).
+Over the last few months, we’ve seen a number of AI-driven development tools. [**Cursor**](https://cursor.com) is probably the most well-known at this point. But big players are starting to come out with their own like [<VPIcon icon="iconfont icon-openai"/>OpenAI’s Codex](https://openai.com/codex/), [<VPIcon icon="iconfont icon-claude"/>Anthropic’s Claude Code](https://anthropic.com/claude-code), [<VPIcon icon="iconfont icon-gemini"/>Google Gemini CLI](https://cloud.google.com/gemini/docs/codeassist/gemini-cli), and [<VPIcon icon="fa-brands fa-aws"/>Amazon’s Kiro](https://kiro.dev).
 
 Think of Cursor as Visual Studio Code’s ambitious younger cousin—the one who not only borrows your syntax highlighting but also brings a full brain along for the ride—and is also a fork of its bigger cousin. In fact, if you weren’t looking closely, you could be forgiven for confusing it with Visual Studio Code.
 

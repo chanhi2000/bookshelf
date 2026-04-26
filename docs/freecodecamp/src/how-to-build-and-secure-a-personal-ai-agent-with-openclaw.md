@@ -99,7 +99,7 @@ You can also configure different agents for different channels or contacts. One 
 Before you start, make sure you have the following:
 
 - Node.js 22 or later (verify with `node --version`)
-- An Anthropic API key (sign up at [<VPIcon icon="iconfont icon-anthropic"/>`console.anthropic.com`](https://console.anthropic.com))
+- An Anthropic API key (sign up at [<VPIcon icon="iconfont icon-claude"/>`console.anthropic.com`](https://console.anthropic.com))
 - WhatsApp on your phone (the agent connects via WhatsApp Web's linked devices feature)
 - A machine that stays on (your laptop works for testing. A small VPS or old desktop works for always-on deployment)
 - Basic comfort with the terminal (you'll be editing JSON and Markdown files)

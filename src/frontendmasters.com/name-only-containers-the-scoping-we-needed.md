@@ -285,7 +285,7 @@ Name-only container styles I belive are only support in Safari 26.4+, so here’
   link="https://codepen.io/editor/chriscoyier/pen/019d59f9-e6ff-7903-9aa8-932282b0c734"
   title="Name-only @container Scoping"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is related to several other ideological approaches I’m already a fan of:
 

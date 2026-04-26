@@ -174,6 +174,10 @@ export const navbarEn = navbar([
         icon: 'https://svelte.dev/favicon.png',
         link: '/webdevredfox.org/README.md'
       }, {
+        text: 'web.dev',
+        icon: 'https://gstatic.com/devrel-devsite/prod/v579073a50c63499824df5a68b8922367066583d283ef78fdade1028efdb4ceb5/web/images/touchicon-180.png',
+        link: '/web.dev/README.md'
+      }, {
         text: 'alwaystwisted.com',
         icon: 'https://alwaystwisted.com/images/favicons/apple-touch-icon.png',
         link: '/alwaystwisted.com/README.md'

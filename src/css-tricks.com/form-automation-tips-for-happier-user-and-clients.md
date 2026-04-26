@@ -311,7 +311,7 @@ The following CodePen demo is a side-by-side comparison of a standard form versu
   slug-hash="PwzpPWL"
   title="Codepen demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ::: info References & Further Reading
 

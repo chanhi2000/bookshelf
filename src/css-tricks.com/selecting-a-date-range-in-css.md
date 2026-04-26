@@ -74,7 +74,7 @@ I’m going to show you an example where, even though JavaScript is involved, th
   slug-hash="RNGobRX"
   title="Date Range Selection"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -107,7 +107,7 @@ This syntax of the `:nth-child` selector **filters elements by a given selector 
   slug-hash="dPpvxmN"
   title="n of selector"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 There are two `.accent`-ed paragraphs with `red` text. As we try to target the second accented paragraph, `.accent:nth-child(2)` fails to select it because it’s trying to find an `.accent` element that’s **the second child of its parent**.
 
@@ -142,7 +142,7 @@ Moving onto our main example, let’s put together a month layout. [**It only ta
   slug-hash="bNwqXYK"
   title="Month View"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -226,7 +226,7 @@ Here’s the full example once again:
   slug-hash="RNGobRX"
   title="Date Range Selection"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -74,7 +74,7 @@ Here’s an example:
   slug-hash="vYrEEYw"
   title="Magic Hand - Motion controls for the web [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Anyways, there are a few main ingredients you’ll need to make motion controls work for you:
 
@@ -101,7 +101,7 @@ Here’s an example that gets the user’s camera data and draws it to a `<canva
   slug-hash="QWxwwbG"
   title="Camera API test (MediaDevices) [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 From the example above, this code gives you the video data and draws it to the canvas:
 
@@ -153,7 +153,7 @@ Here’s the library in action:
   slug-hash="XWYJJpY"
   title="MediaPipe Test [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![Hand coordinates rendered on a canvas. ([<VPIcon icon="fas fa-file-image"/>Large preview](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8b928505-2b2a-40be-95c7-b40213077631/1-motion-controls-in-browser.png))](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_80/w_400/https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8b928505-2b2a-40be-95c7-b40213077631/1-motion-controls-in-browser.png)
 
@@ -511,14 +511,14 @@ Here are some examples:
   slug-hash="WNybveM"
   title="Beam Sword - Fun with motion controls! [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <CodePen
   user="smashingmag"
   slug-hash="OJEPVJj"
   title="Magic Quill - Air writing with motion controls [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I’ve also put together some other motion control demos, including [<VPIcon icon="fas fa-globe"/>movable playing cards](https://magic-hand.vercel.app/cards.html) and an [<VPIcon icon="fas fa-globe"/>apartment floor plan](https://magic-hand.vercel.app/floor_plan.html) with movable images of the furniture, and I’m sure you can think of other ways to experiment with this technology.
 

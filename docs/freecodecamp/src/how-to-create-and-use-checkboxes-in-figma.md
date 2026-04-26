@@ -284,7 +284,7 @@ First, let’s learn how to show and hide the label in a checkbox.
 You can convert your checkbox into a reusable component so it can be used consistently across your designs. This also allows you to add properties and variants later.
 
 - Select the entire checkbox, including the checkbox icon and the label text
-- Press Cmd / Ctrl + Alt + K to convert it into a Component
+- Press <kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>K</kbd> to convert it into a Component
 - Rename the component to Check Box
 
 ### 2. Create a Boolean property for the label
@@ -321,7 +321,7 @@ We'll create all checkbox designs covering:
 
 ![how to add properties for size, state, and variant](https://cdn.hashnode.com/res/hashnode/image/upload/v1770895088612/a08aac1e-160a-4a4e-b6eb-171f35d6d170.png)
 
-Then select all checkbox designs and convert them into components by selecting Create Multiple Components (<kbd>Cmd</kbd>/<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>K</kbd>)
+Then select all checkbox designs and convert them into components by selecting Create Multiple Components (<kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>K</kbd>)
 
 With all components selected, click **Combine as variants.**
 

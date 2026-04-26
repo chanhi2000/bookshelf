@@ -103,7 +103,7 @@ Once enabled the following pen should show a nice Masonry Layout:
   slug-hash="pojrrMz"
   title="CSS Masonry Layout (FF Nightly - Feature Flag)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Yes, I’m really excited about this one … let’s hope it sticks!
 

@@ -446,7 +446,7 @@ bun './**/*.html'
 
 This does all the processing and bundling as well, making Bun something of a Vite alternative in this context.
 
-Perhaps the biggest news for Bun is that [<VPIcon icon="iconfont icon-anthropic"/>Anthropic (e.g. Claude) acquired Bun](https://anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone) late last year. I think the general vibe is that it is good news for Bun, giving it a stable and well-funded home.
+Perhaps the biggest news for Bun is that [<VPIcon icon="iconfont icon-claude"/>Anthropic (e.g. Claude) acquired Bun](https://anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone) late last year. I think the general vibe is that it is good news for Bun, giving it a stable and well-funded home.
 
 Generally, people choose Bun because of speed. It installs from npm extremely fast and generally performs faster across the board. [<VPIcon icon="fas fa-globe"/>At the cost of some stability](https://js-segfault-compare.sigmasd.workers.dev/).
 

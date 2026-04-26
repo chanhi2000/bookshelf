@@ -15,6 +15,11 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "upgrading-to-typescript-6-a-real-world-migration", // 2026-04-0
+    "co-located-tests-scale-better", // 2026-04-08
+    "stop-type-drift-with-linked-typing", // 2026-04-08
+    "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
+    "claude-code-has-5-setting-scopes", // 2026-04-03
     "you-dont-need-embeddings-for-rag", // 2025-04-02
     "chaos-testing-your-typescript-sdks-with-toxiproxy", // 2026-04-01
     "stop-babysitting-claude-code", // 2026-03-28
@@ -355,6 +360,7 @@ export const template: SidebarInfoTemplate = {
       "why-your-cat-became-a-dog-and-typescript-finally-noticed", // 2026-01-22
       "your-keyboard-is-obsolete-voice-coding-in-typescript", // 2026-02-12
       "you-dont-need-embeddings-for-rag", // 2025-04-02
+      "stop-type-drift-with-linked-typing", // 2026-04-08
       // END: 2026ts
       // END: ts
     ]],[
@@ -415,6 +421,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2026docker
       // END: docker
     ]],[
+    "dokku", [
+      "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
+      // END: 2026dokku
+      // END: dokku
+    ]],[
     "win", [
       // END: 2019win
       // END: 2020win
@@ -438,6 +449,7 @@ export const template: SidebarInfoTemplate = {
       "deploy-your-typescript-website-on-github-pages", // 2025-10-27
       // END: 2025github
       "never-review-a-dependency-update-again", // 2026-01-10
+      "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
       // END: 2026github
       // END: github
     ]],[
@@ -451,8 +463,14 @@ export const template: SidebarInfoTemplate = {
       "hosting-on-heroku-with-a-custom-domain-and-ssl", // 2024-09-25
       // END: 2024heroku
       // END: 2025heroku
+      "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
       // END: 2026heroku
       // END: heroku
+    ]],[
+    "cloudflare", [
+      "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
+      // END: 2026cloudflare
+      // END: cloudflare
     ]],[
     "postgresql", [
       "you-dont-need-embeddings-for-rag", // 2025-04-02
@@ -506,6 +524,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2025claude
       "stop-babysitting-claude-code", // 2026-03-28
       "you-dont-need-embeddings-for-rag", // 2025-04-02
+      "claude-code-has-5-setting-scopes", // 2026-04-03
+      "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
       // END: 2026claude
       // END: claude
     ]],[

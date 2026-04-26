@@ -25,6 +25,8 @@ const Y2024: SidebarYeargroupTemplate = {
   children: [
     // END: 2024
     "introduction-css-scroll-driven-animations", // 2024-12-11
+    "timeless-power-of-spreadsheets", // 2024-09-23
+    "pricing-projects-freelancer-agency-owner", // 2024-08-16
     "time-to-talk-about-css5", // 2024-08-05
     "css-tips-and-techniques", // 2024-06-07
     "scaling-success-key-insights-pratical-takeaways", // 2024-06-04
@@ -89,6 +91,7 @@ const Y2021: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2021
+    "how-price-projects-manage-scope-screep", // 2021-12-29
     "css-generators", // 2021-06-24
     "css-auditing-tools", // 2021-06-24
     "has-native-css-parent-selector", // 2021-06-09
@@ -103,6 +106,7 @@ const Y2020: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2020
+    "accessibility-chrome-devtools", // 2020-08-13
     "understanding-css-grid-lines", // 2020-01-10
     "understanding-css-grid-container", // 2020-01-03
   ],
@@ -126,6 +130,7 @@ const Y2018: SidebarYeargroupTemplate = {
     "css-grid-2", // 2018-07-03
     "avengers-id-card-html-css", // 2018-06-04
     "css-custom-properties-strategy-guide", // 2018-05-14
+    "designing-accessibility-inclusion", // 2018-04-09
     "understanding-sizing-css-layout", // 2018-01-16
   ],
 }
@@ -506,6 +511,20 @@ export const template: SidebarInfoTemplate = {
       // END: 2025git
       // END: git
     ]],[
+    "chrome", [
+      "accessibility-chrome-devtools", // 2020-08-13
+      // END: 2024chrome
+      // END: 2025chrome
+      // END: 2026chrome
+      // END: chrome
+    ]], [
+    "xls", [
+      "timeless-power-of-spreadsheets", // 2024-09-23
+      // END: 2024xls
+      // END: 2025xls
+      // END: 2026xls
+      // END: xls
+    ]], [
     "data-science", [
       // END: 2014data-science
       // END: 2015data-science
@@ -545,6 +564,13 @@ export const template: SidebarInfoTemplate = {
       // END: coen
     ]],[
     "system-design", [
+      "designing-accessibility-inclusion", // 2018-04-09
+      // END: 2018system-design
+      // END: 2019system-design
+      // END: 2020system-design
+      // END: 2021system-design
+      // END: 2022system-design
+      // END: 2023system-design
       "how-run-ux-research-without-access-users", // 2024-05-10
       "designers-business-ux-language", // 2024-05-14
       "building-user-segmentation-matrix-foster-cross-org-alignment", // 2024-05-17
@@ -563,7 +589,12 @@ export const template: SidebarInfoTemplate = {
       // END: ai
     ]],[
     "career", [
+      "how-price-projects-manage-scope-screep", // 2021-12-29
+      // END: 2021career
+      // END: 2022career
+      // END: 2023career
       "transforming-relationship-between-designers-developers", // 2024-05-15
+      "pricing-projects-freelancer-agency-owner", // 2024-08-16
       // END: 2024career
       // END: 2025career
       // END: career

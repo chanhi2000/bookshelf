@@ -296,7 +296,7 @@ npx servor --browse --reload
 
 Some notes:
 
-- Close the server using Ctrl + C on Windows or Cmd + C on Mac.
+- Close the server using <kbd>Ctrl</kbd>+<kbd>C</kbd> on Windows or <kbd>⌘</kbd>+<kbd>C</kbd> on Mac.
 - `--browse`: Opens the browser once the server starts.
 - `--reload`: Reloads the browser whenever you update the project’s files.
 - You can also add the `servor` command to the `"scripts"` field of your project’s <VPIcon icon="iconfont icon-json"/>`package.json` file:

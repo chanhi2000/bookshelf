@@ -237,7 +237,7 @@ Here’s everything together:
   slug-hash="bNweEOB"
   title="CSS Only Apple Vision Pro Animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And here’s a video in case your browser doesn’t support it yet:
 

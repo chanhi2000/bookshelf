@@ -167,6 +167,7 @@ const Y2014: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2014
+    "css-nth-letter", // 2014-04-13
   ]
 }
 
@@ -260,6 +261,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2012css
       "css-scroll-snap-points", // 2013-12-09
       // END: 2013css
+      "css-nth-letter", // 2014-04-13
       // END: 2014css
       "css-object-fit", // 2015-02-11
       // END: 2015css

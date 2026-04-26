@@ -100,7 +100,7 @@ In other words, the checkbox becomes a little piece of built-in UI state that CS
   link="https://codepen.io/amit_sheen/pen/bNwaqoG/23e99ec7b74dc448e40012df67b064ba"
   title="The Radio State Machine - Demo 01"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -151,7 +151,7 @@ I’m using the ID selector (`#`) in the CSS as it is already part of the checkb
   link="https://codepen.io/amit_sheen/pen/PwGEKOv/4ddae54abddd0a2c10205ca5d93c721b"
   title="The Radio State Machine - Demo 02"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 :::
 
@@ -190,7 +190,7 @@ No hidden, no label, just a fully accessible checkbox. And to style it like a bu
   link="https://codepen.io/amit_sheen/pen/myrxEeP/f32a6dfe16a0d6a0b733e7bc4310c70e"
   title="The Radio State Machine - Demo 02-2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This way, we get a fully accessible toggle button that still controls the state of the page through CSS, without relying on hidden inputs or labels. And we’re going to use this approach in all the following examples as well.
 
@@ -214,7 +214,7 @@ The core idea is very similar to the checkbox hack, but instead of a single chec
   user="https://codepen.io/amit_sheen/pen/RNGxxqO/c9f715f3c45063394f458d7246138d3e"
   title="The Radio State Machine - Demo 03"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s break down how this works:
 
@@ -327,7 +327,7 @@ And, of course, this pattern can be used for far more than a simple three-state 
   link="https://codepen.io/amit_sheen/pen/XJjVPrK/186c7f43c150fe4d2556062180604629"
   title="The Radio State Machine - Demo 04"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -372,7 +372,7 @@ Then we simply consume those values on the element itself:
   link="https://codepen.io/amit_sheen/pen/gbwvJvb/5a74fe4e920534a93153ee1e8b89161e"
   title="The Radio State Machine - Demo 05"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This keeps state styling centralized, reduces selector repetition, and makes each component class easier to read because it only consumes variables instead of re-implementing state logic.
 
@@ -421,7 +421,7 @@ This is where the pattern becomes really fun: one `--state` variable drives an e
   link="https://codepen.io/amit_sheen/pen/zxKpgRz/e738832facbec02af08fb0634f713caf"
   title="The Radio State Machine - Demo 06"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -441,7 +441,7 @@ In that case, you can replace the `position`, `pointer-events`, and `opacity` pr
   link="https://codepen.io/amit_sheen/pen/WbGzONO/1b7e1f863d2b762b3881eaa7e86e880a"
   title="The Radio State Machine - Demo 06-2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -483,7 +483,7 @@ This way, users can navigate in either direction through the states.
   link="https://codepen.io/amit_sheen/pen/GgjQYQg/198ea1b339a6dd21d6b9cbb286ec2d2a"
   title="The Radio State Machine - Demo 07"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is a simple extension of the previous logic, but it gives us much more control over the flow of the state machine, and allows us to create more complex interactions while still keeping the state management in CSS.
 
@@ -511,7 +511,7 @@ The radio state machine is one of those CSS ideas that feels small at first, and
   link="https://codepen.io/amit_sheen/pen/myrxMzG/8958cf587491c7b17721fe15e75bc98e"
   title="The Radio State Machine - Demo 08"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 With a few well-placed inputs, and a couple of smart selectors, we can build interactions that feel alive, expressive, and surprisingly robust, all while keeping visual state close to the layer that actually renders it.
 

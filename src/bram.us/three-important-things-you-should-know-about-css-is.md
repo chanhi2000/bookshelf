@@ -156,7 +156,7 @@ Knowing these three facts about `:is()` will surely help you understand it bette
   slug-hash="KKNjXez"
   title="The CSS :is() pseudo-class. What color will .foo have?"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you understood well, the Pen above should hold no secrets to you anymore 🙂
 

@@ -172,9 +172,9 @@ install: $(PROGRAM)
 
 ---
 
-## `Makefile` 변수
+## <VPIcon icon="iconfont icon-gnu"/>`Makefile` 변수
 
-`Makefile`의 변수는 두 가지가 있다. 암묵적 변수와 새로 정의되는 변수이다. 암묵적 변수는 암묵적 규칙에서 사용되는 특정 사전 정의된 변수를 말한다.
+<VPIcon icon="iconfont icon-gnu"/>`Makefile`의 변수는 두 가지가 있다. 암묵적 변수와 새로 정의되는 변수이다. 암묵적 변수는 암묵적 규칙에서 사용되는 특정 사전 정의된 변수를 말한다.
 
 ### 암묵적 규칙이란?
 

@@ -198,7 +198,7 @@ To make this concrete: a form using `<ag-input>`, `<ag-toggle>`, and `<ag-select
   link="https://codepen.io/editor/roblevin/pen/019d86ec-a96e-7e51-b29b-da147ee01db5"
   title="Per-Instance Sharing and Live Mutation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The Pen below proves two things:
 

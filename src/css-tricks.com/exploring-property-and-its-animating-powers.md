@@ -130,7 +130,7 @@ Animating a hue feels like something fun we can do. What’s colorful? A rainbow
   slug-hash="rNWypbj"
   title="Basic Rainbow"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this example, CSS Custom Properties are set on the different bands of the rainbow using `:nth-child()` to scope them to individual bands. Each band also has an `--index` set to help with sizing.
 
@@ -174,7 +174,7 @@ That might work out okay if you want a “stepped” effect. But, those keyframe
   slug-hash="oNYZExP"
   title="Attempted Animation of Hue"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We could animate the `border-color` and that would get the job done. But, we’d still have a keyframe step calculation issue. And we need to write a lot of CSS to get this done:
 
@@ -231,7 +231,7 @@ Yep, that’s the ticket:
   slug-hash="JjbWpEZ"
   title="Animated Custom Property"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To get the starting points accurate, we could play with delays for each band. This gives us some cool flexibility. For example, we can up the `animation-duration` and we get a slow cycle. Have a play with the speed in this demo.
 
@@ -240,7 +240,7 @@ To get the starting points accurate, we could play with delays for each band. Th
   slug-hash="KKNWQxq"
   title="Configurable Color Change"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It may not be the “wildest” of examples, but I think animating color has some fun opportunities when we use color spaces that make logical use of numbers. Animating through the color wheel before required some trickiness. For example, generating keyframes with a preprocessor, like Stylus:
 
@@ -281,7 +281,7 @@ What’s neat is that we can share that animated value across elements with scop
   slug-hash="OJRLMxE"
   title="Party Button 🎉 @property Houdini"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Animating color leads me think… *wow!*
 
@@ -290,7 +290,7 @@ Animating color leads me think… *wow!*
   slug-hash="oNYxRXb"
   title="Wow! 😅"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -330,7 +330,7 @@ Which gives us something like this. Pretty cool.
   slug-hash="vYyxoPr"
   title="Milliseconds Counter"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Take that a *little* further and you’ve got yourself a working stopwatch made with nothing but CSS and HTML. Click the buttons! The rad thing here is that this actually works as a timer. [It won’t suffer from drift (<VPIcon icon="fa-brands fa-x-twitter"/>`jaffathecake`)](https://x.com/jaffathecake/status/1362471942238961665?s=20). In some ways it may be more accurate than the JavaScript solutions we often reach for such as `setInterval`. Check out this [<VPIcon icon="fa-brands fa-youtube"/>great video](https://youtu.be/MCi6AZMkxcU) from Google Chrome Developer about JavaScript counters.
 
@@ -339,7 +339,7 @@ Take that a *little* further and you’ve got yourself a working stopwatch made 
   slug-hash="jOVmJBL"
   title="Pure CSS Working Stopwatch 😎 (@property)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 What other things could you use animated numbers for? A countdown perhaps?
 
@@ -368,7 +368,7 @@ There is quite a bit going on there. But, to break it down, we’re creating eac
   slug-hash="wvodwVz"
   title="Configurable Tide"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is all the code we needed to make that happen:
 
@@ -390,7 +390,7 @@ Without the use of `@property`, our waves would [step between high and low tide 
   slug-hash="YzpKKoN"
   title="Zero Element Waves (@property)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It’s exciting to think other neat opportunities that we get when manipulating images. Like rotation. Or how about animating the angle of a `conic-gradient`… but, within a `border-image`. Bramus Van Damme does a [**brilliant job covering this concept**](/bram.us/animating-a-css-gradient-border.md).
 
@@ -442,7 +442,7 @@ Pretty cool.
   slug-hash="jOVNOeg"
   title="Animated Charging Border (@property)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Unfortunately, `border-image` doesn‘t play nice with `border-radius`. But, we could use a pseudo-element behind it. Combine it with the number animation tricks from before and we’ve got a full charging/loading animation. (Yep, it changes when it gets to 100%.)
 
@@ -451,7 +451,7 @@ Unfortunately, `border-image` doesn‘t play nice with `border-radius`. But, we 
   slug-hash="xxRdbdE"
   title="Pure CSS Loading Indicator"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -482,7 +482,7 @@ But, we’ll soon see that it doesn’t look anything like we want.
   slug-hash="XWNRbdg"
   title="Classic Ball Throw Attempt"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Before, we may have reached for wrapper elements and animated them in isolation. But, with `@property`, we can animate the individual values of the transform. And all on one timeline. Let’s flip the way this works by defining custom properties and then setting a transform on the ball.
 
@@ -536,7 +536,7 @@ The result? The curved path we had hoped for. And we can make that look differen
   slug-hash="PobmqXq"
   title="@property Ball Throw"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Consider another example where we have a car that we want to drive around a square with rounded corners.
 
@@ -545,7 +545,7 @@ Consider another example where we have a car that we want to drive around a squa
   slug-hash="vYyBKeW"
   title="Static Car"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We can use a similar approach to what we did with the ball:
 
@@ -603,7 +603,7 @@ The car makes the right journey on the x-axis.
   slug-hash="zYoOBWq"
   title="Animating the X Position"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Then we build upon that by adding the travel for the y-axis:
 
@@ -635,7 +635,7 @@ Well, that’s not *quite* right.
   slug-hash="mdObELx"
   title="Animating X and Y"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s drop some extra steps into our `@keyframes` to smooth things out:
 
@@ -683,7 +683,7 @@ Ah, much better now:
   slug-hash="BaQBzVG"
   title="Correct X and Y"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 All that‘s left is the car‘s rotation. We‘re going with a 5% window around the corners. It’s not precise but it definitely shows the potential of what’s possible:
 
@@ -761,7 +761,7 @@ And there we have it, a car driving around a curved square! No wrappers, no need
   slug-hash="jOVNqjv"
   title="Responsive Animated Car Journey (@property)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -776,7 +776,7 @@ Consider the following concept for a 404 page. Two registered properties power t
   slug-hash="MWbvzKb"
   title="404 Concept Page @property"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

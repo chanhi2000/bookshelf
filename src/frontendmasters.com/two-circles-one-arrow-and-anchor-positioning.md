@@ -65,7 +65,7 @@ Let’s start with a demo. Drag both circles and see how the arrow follows the m
   slug-hash="wBWWKxP"
   title="Connected Circles with Anchor Positioning II"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Except for the drag feature, everything else is controlled using CSS. The position and shape of the arrow, the distance calculation, collision/proximity detection, etc. I know it’s hard to believe, but CSS has evolved a lot to make this possible!
 
@@ -108,7 +108,7 @@ The above code creates a rectangle around both circles. It’s actually the smal
   link="https://codepen.io/t_afif/pen/wBzJdzL/7a7d5bde999fc3e47fb4b0cc649f3cf4"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Each side of the rectangle will consider the minimum value from both circles. To better understand the trick, reason through each side individually. For example, the top value needs to match the highest circle’s top value, and that circle will logically have the smallest top value.
 
@@ -152,7 +152,7 @@ Or simply use the `inset` property:
   link="https://codepen.io/t_afif/pen/ZYpeKJL/9a847044d0ed06c7c7fd9a7a9328a138"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s update the inset property and make the rectangle start at the center of the circles:
 
@@ -170,7 +170,7 @@ By adding half the distance to each side, we are decreasing the size of the rect
   link="https://codepen.io/t_afif/pen/raMymGm/5ace25ac1389d5afef53d26cb8602b18"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Do you start to see where we are going? With barely two or three CSS properties, we can already see a link between the two circles.
 
@@ -192,7 +192,7 @@ We have `clip-path` so let’s start with a simple shape:
   link="https://codepen.io/t_afif/pen/bNwqWaG/a5c0a8adcdc366d5b0f45fafe7f3f465"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Not bad at first glance, but once you start dragging the circles around, it looks messy.
 
@@ -270,7 +270,7 @@ I think a demo is worth a thousand words. If you drag the circles, you can see f
   link="https://codepen.io/t_afif/pen/LERWyvX/e943ba53f15ff9dd70c149a6bce0cac0"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Another observation we can make is that each position can be defined as a flip of another one. If we flip A vertically, we get B. If we flip it vertically, we get C, and if we flip it both horizontally and vertically, we get D. This means we are not going to write too much code. We do the job once, and then we flip!
 
@@ -289,7 +289,7 @@ Let’s try again with the previous `clip-path`:
   link="https://codepen.io/t_afif/pen/dPpvWxr/02b431fbdaf0aeedb2c6dbe47a6cf841"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Much better: the shape links the two circles, regardless of their positions. Now let’s work on improving that shape and creating a perfect arrow.
 
@@ -313,7 +313,7 @@ First, we start by creating an arrow, and we position it at the bottom of the re
   link="https://codepen.io/t_afif/pen/emdvVZz/bbbaceb4936a8fa205ca78c7b18021e2"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 I will skip the creation of the shape, as it’s a basic usage of `clip-path` with a few variables to control the shape.
 
@@ -345,7 +345,7 @@ Our arrow is now perfect!
   link="https://codepen.io/t_afif/pen/qEaroBQ/6c6c5795469fd59c8187117269e0ed92"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Oops, it’s not really perfect.
 
@@ -363,7 +363,7 @@ If either the width or the height of the element is `0`, it means that either `1
   link="https://codepen.io/t_afif/pen/XJjMEmq/3abdcfa60ab86db6d83b0017c3c4b7a5"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Now we are good. Only one arrow is visible at a time and is perfectly sized and placed!
 
@@ -378,7 +378,7 @@ clip-path: polygon() content-box;
   link="https://codepen.io/t_afif/pen/bNwqvzo/25ad2d3582c32de065f45aef3d080ed7"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you inspect the pseudo-element, you will notice that the padding is nothing but half the size of the circles. By changing the reference of the `clip-path` to `content-box` I am excluding that area from the shape.
 
@@ -446,7 +446,7 @@ If the element’s width or height is 0, or the circles overlap, we hide the pse
   slug-hash="PwNrNvP"
   title="Connected Circles with Anchor Positioning"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You have probably noticed that I am using `=` inside `if()` and not `:`. If you are wondering why, read the following post: [**The Hidden Trick of Style Queries and `if()`**](/css-tip.com/if-trick.md). It’s one of those little tricks that you’d better learn early before getting headaches trying to figure out why your code isn’t working.
 
@@ -478,7 +478,7 @@ Here is again the full demo with all the stuff together:
   slug-hash="wBWWKxP"
   title="Connected Circles with Anchor Positioning II"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The final demo includes a few things I didn’t mention, but you should be able to understand them easily. I focused on the main tricks, and everything else is a matter of preference and visual styling.
 
@@ -493,7 +493,7 @@ Linking two circles together is good, but can we do more? Of course, we can! It�
   slug-hash="LEZZGxx"
   title="Connected Circles with Anchor Positioning II"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Thanks to the use of attributes combined with `attr()`, I don’t need to touch the CSS, regardless of the number of elements we want to have. I can specify everything on the HTML side:
 
@@ -516,7 +516,7 @@ We go fancier and study [**graph theory**](/css-tip.com/graph-theory.md) by impl
   slug-hash="YPWMmOP"
   title="Graph Theory (Chrome-only)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In this demo, I am relying on a trick I am detailing in a previous article that I highly recommend you read: [**How to Get the Width/Height of Any Element in Only CSS**](/frontendmasters.com/how-to-get-the-width-height-of-any-element-in-only-css.md).
 

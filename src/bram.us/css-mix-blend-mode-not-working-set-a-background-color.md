@@ -73,7 +73,7 @@ You’ll notice here that for the “white” sections, the set `mix-blend-mode:
   slug-hash="jOMQLyN"
   title="CSS mix-blend-mode not working? (1/2)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 **The reason why it doesn’t work is that the white sections don’t really have a white background.** They have no `background-color` set, so they fall back to the default value of `transparent`. Visually this is manifested as a white color, but to the compositor it will still be `transparent`. As the compositor can’t calculate the difference of the `white` text against the `transparent` background, the text will remain `white`.
 
@@ -88,7 +88,7 @@ With `background-color: #fff;` set on the `body`/`html` the compositor does know
   slug-hash="abmQyWW"
   title="CSS mix-blend-mode not working? (2/2)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Alternatively we could set this declaration on the sections themselves:
 

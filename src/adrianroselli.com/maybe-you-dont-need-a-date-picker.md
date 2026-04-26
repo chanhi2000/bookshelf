@@ -141,7 +141,7 @@ In short, I am trying to deliver far less code (and confusion) to the end user w
   slug-hash="XQBgNO"
   title="Date Field Experiment"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You will note that I ask for a U.S. date format. The weirdest one. This can be adjusted, of course, but I chose it to demonstrate how a globally confusing format benefits from immediate feedback.
 

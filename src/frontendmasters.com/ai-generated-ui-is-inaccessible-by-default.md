@@ -97,7 +97,7 @@ Here is a navigation sidebar representative of what general-purpose AI code gene
   slug-hash="ogzGxjX"
   title="“AI-Generated Sidebar — Inaccessible Version”"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The browser’s accessibility tree for this component
 
@@ -252,7 +252,7 @@ Here is the sidebar regenerated with these constraints:
   slug-hash="ByLwKVx"
   title="AI-Generated Sidebar — Accessible Version"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The accessibility tree:
 
@@ -279,7 +279,7 @@ Every element has a role, a name, and a state. None of this is React-specific; t
   slug-hash="KwgXzbY"
   title="Accessible Sidebar (Semantic HTML Reference)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Same `<button>`, same `aria-expanded`, same `aria-controls`, same accessibility tree. The remaining examples use React because that’s where AI generation is most prevalent, but the principles have equivalents in every ecosystem (`eslint-plugin-vuejs-accessibility` for Vue, SvelteKit’s built-in a11y warnings, and axe-core works against any rendered DOM regardless of origin).
 

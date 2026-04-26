@@ -157,6 +157,9 @@ projects:
   - icon: 'https://css-tip.com/img/fav.png'
     name: 'css-tip.com'
     desc: "The best place to keep up to date with the new CSS features. Daily CSS tips and tricks to become a better web developer."
+  - icon: 'https://gstatic.com/devrel-devsite/prod/v579073a50c63499824df5a68b8922367066583d283ef78fdade1028efdb4ceb5/web/images/touchicon-180.png'
+    name: 'web.dev'
+    desc: "Guidance to build modern web experiences that work on any browser."
   - icon: 'https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=192%2C192&ssl=1'
     name: 'alistapart.com '
     desc: "For people who make websites"

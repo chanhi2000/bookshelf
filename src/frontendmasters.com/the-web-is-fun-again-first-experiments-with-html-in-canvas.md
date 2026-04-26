@@ -81,9 +81,9 @@ The main demos below have a collapsed video after them so you can see the effect
   link="https://codepen.io/amit_sheen/pen/EagOyyK/e82acffbffe52508b5691bcae49a5aab"
   title="HTML-in-Canvas (Demo 01)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
-Video
+<VidStack src="https://videopress.com/474d481c-b628-4b07-b064-26ac09c753be" />
 
 This combination of HTML rendering and semantics, with Canvas’s visual freedom and shader-style effects, feels like a missing piece we have wanted for years.
 
@@ -114,7 +114,7 @@ Let’s start with a plain `div` that contains real content: a heading, a card, 
   link="https://codepen.io/amit_sheen/pen/xbEQOOE/ab2a0337c735df78eada1f0c16556e8f"
   title="HTML-in-Canvas (Demo 02)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This is just regular HTML and CSS. Nothing special yet.
 
@@ -175,7 +175,7 @@ And now we have the (same) content rendered inside the canvas!
   link="https://codepen.io/amit_sheen/pen/XJjyeYw/ed4f4061ea4e525c4f21ddc2a849c3f4"
   title="HTML-in-Canvas (Demo 03)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Note that the content is still fully interactive, and you can click the input and button as usual, but their visual representation is now part of the canvas rendering. What you **see** are pixels on a canvas, that are generated from real HTML elements, allowing you to apply any canvas effects or transformations to them as needed.
 
@@ -208,7 +208,7 @@ And here is a simple example of a canvas with some responsive cards. The canvas 
   link="https://codepen.io/amit_sheen/pen/WbGYxRm/6b9541f02a58ce8491d9289bd98a94af"
   title="HTML-in-Canvas (Demo 04)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ([Open the demo in a new tab (<VPIcon icon="fa-brands fa-codepen" />`amit_sheen`)](https://codepen.io/amit_sheen/pen/WbGYxRm/6b9541f02a58ce8491d9289bd98a94af) and resize the window to see how the grid adapts.)
 
@@ -255,7 +255,7 @@ Notice that the rotation is driven by the input’s text length. Click into the 
   link="https://codepen.io/amit_sheen/pen/LERXzJp/c4f61ba29e228a7ebe819c3a1406e7e2"
   title="HTML-in-Canvas (Demo 05)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And if we’re playing with transforms, I wanted to push that idea a bit further. In the next demo, I mapped the same HTML content between four draggable control points using homography and a bit of math. This one is less about practical UI and more about exploring how far this API can be stretched while still keeping real DOM content in the loop. Feel free to drag the points and play with it.
 
@@ -263,9 +263,9 @@ And if we’re playing with transforms, I wanted to push that idea a bit further
   link="https://codepen.io/amit_sheen/pen/ogzQGOL/767a0207778c26cd8e887371a53d125a"
   title="HTML-in-Canvas (Demo 06)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
-Video
+<VidStack src="https://videopress.com/89a0a033-d6c5-4574-8ba5-ddd5dce950fd" />
 
 ---
 
@@ -352,7 +352,7 @@ And here is the result. Note that input and button are still at their original c
   link="https://codepen.io/amit_sheen/pen/ogzQoNY/6ea679c8ea5e624d056a8fb04fcc0548"
   title="HTML-in-Canvas (Demo 07)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you inspect the elements, you will see that the text and borders are still just green in the DOM, but on the canvas, they have been replaced with a colorful gradient.
 
@@ -414,7 +414,7 @@ And here is the result:
   link="https://codepen.io/amit_sheen/pen/Kwgryqj/630bdabade0956d21074c2e57eac0429"
   title="HTML-in-Canvas (Demo 08)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -469,7 +469,7 @@ newIndex = (newY * canvas.width + newX) * 4;
   link="https://codepen.io/amit_sheen/pen/GgjwyXR/3697eeeb173fa8b909f3dd69ae85af99"
   title="HTML-in-Canvas (Demo 09)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://videopress.com/5022bdce-2ff6-4b94-99b3-dc6b8609b01a" />
 
@@ -514,7 +514,7 @@ And here is the result:
   link="https://codepen.io/amit_sheen/pen/VYKVyNJ/684cae02f76e096c0ae6903870ee2ed4"
   title="HTML-in-Canvas (Demo 10)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Of course, these are still just small demos to explain the core ideas behind pixel manipulation. But once the basics click, it becomes very easy to extend them and build original effects on top of them, and I hope this also sparks your own creative itch to experiment and build something weird and wonderful.
 
@@ -526,7 +526,7 @@ If you are curious, here is [<VPIcon icon="fa-brands fa-youtube"/>Daniel’s gre
   user="https://codepen.io/amit_sheen/pen/jEMQZMY/8037bb33bb9233be0974cc60cd3bea5f"
   title="HTML-in-Canvas (Demo 11)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -630,7 +630,7 @@ Notice we still schedule rendering for the next frame instead of calling `render
   link="https://codepen.io/amit_sheen/pen/KwgrQqR/a486464a688794e777aa0a0ecdd72b36"
   title="HTML-in-Canvas (Demo 12)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -644,7 +644,7 @@ You probably noticed the classic trail ripple demo at the beginning of this post
   link="https://codepen.io/amit_sheen/pen/NPREyzy/1d5636998f0a98a5b2af02c89484789b"
   title="HTML-in-Canvas (Demo 13)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Of course, we are not limited to mouse movement only. We can also react to clicks themselves, like in this demo.
 
@@ -652,7 +652,7 @@ Of course, we are not limited to mouse movement only. We can also react to click
   link="https://codepen.io/amit_sheen/pen/ZYpmxYd/597373bb1d295feb751ae42bcfa890cc"
   title="HTML-in-Canvas (Demo 14)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://videopress.com/c0dd0399-cb99-4ea6-9606-435c6be4ed2d" />
 
@@ -662,7 +662,7 @@ And we can even react to drag gestures, then animate the content as if it has ph
   link="https://codepen.io/amit_sheen/pen/NPREYqL/0a167f6402718992470aa377211551a2"
   title="HTML-in-Canvas (Demo 15)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://videopress.com/04c6a87b-1c28-4f1a-8ed4-20a3b2285d06" />
 
@@ -672,7 +672,7 @@ We can also go in a softer direction and use subtle ambient effects for atmosphe
   link="https://codepen.io/amit_sheen/pen/MYjzVaM/eb4501f32f9d025cf56b8667dd84baf6"
   title="HTML-in-Canvas (Demo 16)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And here is one more, just because I really liked it.
 
@@ -680,7 +680,7 @@ And here is one more, just because I really liked it.
   link="https://codepen.io/amit_sheen/pen/dPpQmGv/42adf6e00961d1c6e5b890a30ef6e5ae"
   title="HTML-in-Canvas (Demo 17)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

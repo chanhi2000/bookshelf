@@ -41,6 +41,7 @@ export const sidebarEn = sidebar({
   '/adrianroselli.com/':          [asb.adrianRoselli()],
   '/css-tip.com/':                [asb.cssTip()],
   '/alistapart.com/':             [asb.alistapart()],
+  '/web.dev/':                    [asb.webdev()],
   // '/css-loaders.com/':            [asb.cssLoaders()],
   '/nerdy.dev/':                  [asb.adamArgyle()],
   '/tobiasahlin.com/':            [asb.tobiasAhlin()],

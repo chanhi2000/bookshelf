@@ -589,7 +589,7 @@ Before you start the server, you should build and export the React Email templat
 
 Navigate to the terminal of the root directory of the project and create a file called <VPIcon icon="iconfont icon-gnu"/>`Makefile`. Copy and paste the content of the code snippet below into it:
 
-```plaintext
+```makefile title="Makefiles"
 run: email-build
     go run cmd/main.go
 

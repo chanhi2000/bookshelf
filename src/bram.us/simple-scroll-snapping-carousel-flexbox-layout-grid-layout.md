@@ -57,7 +57,7 @@ Here are two small scroll-snapping carousels that I made. In the top one the ite
   slug-hash="XWWbGYO"
   title="Easy Scroll Snapping Carousel (Flexbox Layout / Grid Layout)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The code also works fine with arbitrarily sized `.scroll-items` elements, they don’t need to have the same width.
 

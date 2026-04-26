@@ -59,7 +59,7 @@ Take the following case for example:
   slug-hash="ogLadmd"
   title="newspaper layout"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The CSS code for that might look something like this:
 
@@ -123,7 +123,7 @@ Toggle between `column-wrap: wrap` and `column-wrap: nowrap` in the following de
   slug-hash="RNRegrR"
   title="card grids with capped heights"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In case you’re checking this in an unsupported browser, this is the `nowrap` layout:
 
@@ -142,7 +142,7 @@ However, in case the content-per-card is unbalanced, then even with wrapping, it
   slug-hash="gbMZjer"
   title="card grids with unbalanced heights"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ![A broken multi-column layout of card components. Some cards are split into multiple cards because the content is unbalanced.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/02/image-5.png?resize=1153%2C568)
 
@@ -161,7 +161,7 @@ Play around with the following demo and check it out for yourself. Unless you’
   slug-hash="myEaGEW"
   title="vertical carousel"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <VidStack src="https://css-tricks.com/wp-content/uploads/2026/02/Screen-Recording-2026-02-17-at-9.41.27-AM.mov" />
 

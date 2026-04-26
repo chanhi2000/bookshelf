@@ -177,7 +177,7 @@ Although the time profiler is extremely useful for identifying performance probl
 Before you charge off to profile your own code, there are a handful of things to be aware of:
 
 1. When examining a small part of your app’s performance, you should click and drag over the range in question so that you see only statistics for that part of the app. This lets you focus on performance for specific actions, such as responding to a button press.
-2. Even though you see solid color bars in Instruments, they only look that way from afar - you can zoom by holding down Cmd and pressing - and + to see more detail
+2. Even though you see solid color bars in Instruments, they only look that way from afar - you can zoom by holding down <kbd>⌘</kbd> and pressing <kbd>-</kbd> and <kbd>+</kbd> to see more detail
 3. For the most accurate figures, always profile on a real device.
 4. If you want to make changes as a result of profiling your code, always make one change at a time. If you make two changes it’s possible one will increase your performance by 20% and the other will decrease it by 10%, but doing them together means you probably think as a whole they increased performance by 10%.
 5. Instruments runs your code in release mode, which enables all of Swift’s optimizations. This will also affect any debugging flags you’ve added to your code, so be careful.

@@ -134,7 +134,7 @@ The pen embedded below will indicate if your browser supports Media Query Range 
   slug-hash="abyNdpa"
   title="CSS Media Query Range Context Test"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If you’re using PostCSS, you can use [the `postcss-media-minmax` processor (<VPIcon icon="iconfont icon-github"/>`postcss/postcss-media-minmax`)](https://github.com/postcss/postcss-media-minmax) to already write Range Contexts:
 

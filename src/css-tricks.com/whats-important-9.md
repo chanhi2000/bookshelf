@@ -60,7 +60,7 @@ This issue of **What’s !important** brings you `clip-path` jigsaws, a view tra
   link="https://codepen.io/amit_sheen/pen/yyazxZv/f10deb6b871f36edff1c2a225f974676"
   title="Puzzle - Demo 04"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 [<VPIcon icon="iconfont icon-css-tricks"/>Amit Sheen](https://css-tricks.com/author/amitsheen/) demonstrated [how to create a full jigsaw puzzle using `clip-path`](https://frontendmasters.com/blog/creating-puzzle-peices-in-css/). While I doubt that you’ll need to create a jigsaw puzzle anytime soon, Amit’s walkthrough offers a fantastic way to acquaint yourself with this evolving CSS property that’s becoming more and more popular every day.
 
@@ -79,7 +79,7 @@ Enable the `enable-experimental-web-platform-features` flag in Chrome Canary
   slug-hash="NPRLEQN"
   title="title"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: 동영상 연결 -->
 

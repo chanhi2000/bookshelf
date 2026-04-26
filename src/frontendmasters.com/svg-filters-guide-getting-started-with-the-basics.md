@@ -147,7 +147,7 @@ Still, I’ve made an interactive demo that allows playing with the attributes d
   user="https://codepen.io/thebabydino/pen/RNGRVmV/e6f4f24ef82643f53936eece634aacbc"
   title="The SVG filter region"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The content of the `<filter>` is intentionally very simple: it just fills the entire filter region with a bright green. The how behind is outside the scope of this introduction to SVG filters, so we’ll be unpacking it another time.
 

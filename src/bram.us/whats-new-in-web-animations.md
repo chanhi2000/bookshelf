@@ -69,11 +69,13 @@ Even though I managed to butcher the pronunciation of some words, I’m very hap
 
 Apart from my video, my team also recorded these videos:
 
-- Una: [<VPIcon icon="fa-brands fa-youtube"/>What’s new in web UI](https://youtu.be/buChHSdsF9A)
-- Adam: [<VPIcon icon="fa-brands fa-youtube"/>How to create personalized web experiences](https://youtu.be/JiVQBqAkkac)
-- Jecelyn: [<VPIcon icon="fa-brands fa-youtube"/>WebDriver BiDi: Future of browser automation](https://youtu.be/6oXic6dcn9w)
+<VidStack src="youtube/buChHSdsF9A" />
 
-Turning to the wider Chrome DevRel team, I can also recommend Mariko’s talk [<VPIcon icon="fa-brands fa-youtube"/>What’s new in Web](https://youtu.be/x9rh0Du4Czg). Very happy to see that two things I worked on last year – namely [<VPIcon icon="iconfont icon-webdev"/>Individual Transform Properties](https://web.dev/css-individual-transform-properties/) and [<VPIcon icon="iconfont icon-webdev"/>the new viewport units](https://web.dev/viewport-units/) – also got highlighted in the video.
+<VidStack src="youtube/JiVQBqAkkac" />
+
+<VidStack src="youtube/6oXic6dcn9w" />
+
+Turning to the wider Chrome DevRel team, I can also recommend Mariko’s talk [<VPIcon icon="fa-brands fa-youtube"/>What’s new in Web](https://youtu.be/x9rh0Du4Czg). Very happy to see that two things I worked on last year – namely [**Individual Transform Properties**](/web.dev/css-individual-transform-properties.md) and [<VPIcon icon="iconfont icon-webdev"/>the new viewport units](https://web.dev/viewport-units/) – also got highlighted in the video.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

@@ -130,7 +130,7 @@ You can open up the `edibles` file. The file content should match exactly the re
 
 ![edibles content](https://cdn.hashnode.com/uploads/covers/5c9bb4026656f09759cdc1f0/4ba75464-0a29-4f11-9bc6-be0463e10dd5.png)
 
-Now, it's time to override. Coming to the Sources tab's editable response panel, you can fix the spelling. Save your changes using Ctrl + S (or Cmd + S).
+Now, it's time to override. Coming to the Sources tab's editable response panel, you can fix the spelling. Save your changes using <kbd>Ctrl</kbd>+<kbd>S</kbd> (or <kbd>⌘</kbd>+<kbd>S</kbd>).
 
 ![edit text](https://cdn.hashnode.com/uploads/covers/5c9bb4026656f09759cdc1f0/c33701f0-ddb1-478c-8fe6-d68ddf8dd638.png)
 

@@ -100,7 +100,7 @@ Here’s a pen:
   slug-hash="MWEvKEg"
   title="The CSS :has() selector is way more than a “Parent Selector”"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 In browsers that support `:has()` you should see a red dashed border around the top image.
 
@@ -171,7 +171,7 @@ The pen embedded below will indicate if the browser you are currently using supp
   slug-hash="poWJXGY"
   title="CSS :has Selector Support test"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 To stay up-to-date regarding browser support, you can follow these tracking issues:
 

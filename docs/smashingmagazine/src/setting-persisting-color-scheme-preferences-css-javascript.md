@@ -242,7 +242,7 @@ Let’s try out what we have so far in the following demo. Notice that, to work 
   slug-hash="YzMVQja"
   title="CSS-only theme switcher (requires :has()) [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Not bad! But what happens if the user refreshes the pages or navigates to another page? The reload effectively wipes out the user’s form selection, forcing the user to re-make the selection. That may be acceptable in some contexts, but it’s likely to go against user expectations. Let’s bring in JavaScript for a touch of progressive enhancement in the form of…
 
@@ -314,7 +314,7 @@ Let’s try that out. Open this demo (perhaps in a new window), use the menu to 
   slug-hash="GRLmEXX"
   title="CSS-only theme switcher (requires :has()) with JS persistence [forked]"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 If your system color scheme preference is “light” and you set the demo’s color scheme to “dark,” you may get the light mode styles for a moment immediately after reloading the page before the dark mode styles kick in. That’s because CodePen loads its own JavaScript before the demo’s scripts. That is out of my control, but you can take care to improve this persistence on your projects.
 

@@ -36,6 +36,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "fixed-height-cards-more-fragile-than-they-look", // 2026-05-04
+    "whats-important-10", // 2026-05-01
+    "the-importance-of-native-randomness-in-css", // 2026-04-30
+    "using-nonexistent-nth-letter-selector-now", // 2026-04-27
     "recreating-apples-vision-pro-animation-in-css", // 2026-04-23
     "astro-markdown-component", // 2026-04-22
     "markdown-astro", // 2026-04-20
@@ -557,6 +561,10 @@ export const template: SidebarInfoTemplate = {
       "the-radio-state-machine", // 2026-04-14
       "whats-important-9", // 2026-04-17
       "recreating-apples-vision-pro-animation-in-css", // 2026-04-23
+      "using-nonexistent-nth-letter-selector-now", // 2026-04-27
+      "the-importance-of-native-randomness-in-css", // 2026-04-30
+      "whats-important-10", // 2026-05-01
+      "fixed-height-cards-more-fragile-than-they-look", // 2026-05-04
       // END: 2026css
       // END: css
     ]],[
@@ -598,6 +606,7 @@ export const template: SidebarInfoTemplate = {
       "a-complete-guide-to-bookmarklets", // 2026-02-25
       "javascript-for-everyone-destructuring", // 2026-03-20
       "form-automation-tips-for-happier-user-and-clients", // 2026-03-30
+      "using-nonexistent-nth-letter-selector-now", // 2026-04-27
       // END: 2026js
       // END: js
     ]],[

@@ -440,7 +440,7 @@ Here's our super barebones demo for playing back an actual video:
   slug-hash="OPRErmj"
   title="Basic Decoding Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 For a more 'correct' demuxing example, here is what demuxing looks like with MediaBunny, where you can extract chunks in an iterative fashion.
 
@@ -550,7 +550,7 @@ Putting it all together, you can encode the canvas animation to a video file wit
   slug-hash="KwgebEJ"
   title="Encoding and Muxing Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 You can download the video and use any video inspection tool to verify that every single frame number is included.
 
@@ -705,7 +705,7 @@ Here's a basic transcoding demo on CodePen:
   slug-hash="YPGvBgO"
   title="Transcoder Demo"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Transformations
 
@@ -769,7 +769,7 @@ Here's an interactive demo of what these transformations look like:
   slug-hash="WbGymNQ"
   title="Canvas Transformations"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Transform Pipeline
 
@@ -840,7 +840,7 @@ Here's a full working demo with the process pipeline:
   slug-hash="PwGaLPM"
   title="Transform pipeline"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Complete Demo
 
@@ -901,7 +901,7 @@ Putting this all together, we can finally put together a full working video conv
   slug-hash="WbGymaj"
   title="Full Converter Utility"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 And that's it! We've built an MVP of something actually useful with WebCodecs 🎉, with Demuxing, Decoding, Canvas Transforms, Encoding, and Muxing.
 

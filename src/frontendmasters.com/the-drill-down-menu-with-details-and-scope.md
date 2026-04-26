@@ -61,7 +61,7 @@ Here’s a live demo:
   slug-hash="qEamPyp"
   title="Drill-Down Menu"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s see how to make this one, starting with the layout.
 
@@ -142,7 +142,7 @@ main {
   slug-hash="vEXeLpY"
   title="CSS @scope"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The above document contains legal clauses styled in `monospace` font and default black color. A ‘plain language summary’ in `poppins` font and `navy` color outlines the document. The summary includes a legal clause that must retain the default monospace font and black color of the legal clauses.
 
@@ -165,7 +165,7 @@ The outer menu with the open inner menu (`:has(>details[open])`) is the scope ro
   slug-hash="qEamPyp"
   title="Drill-Down Menu"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

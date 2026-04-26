@@ -67,7 +67,7 @@ Did you know you can pass data from your CSS to your JS with CSS variables… in
   slug-hash="NYVoGa"
   title="JSON in CSS Vars"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

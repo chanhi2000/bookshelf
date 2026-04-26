@@ -68,7 +68,7 @@ This article walks through why that pattern works, how to build it, and when it 
 
 ::: note Prerequisites
 
-- Familiarity with [<VPIcon icon="iconfont icon-anthropic"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code) or a similar AI coding agent
+- Familiarity with [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code) or a similar AI coding agent
 - A working installation of Claude Code (for the hands-on sections)
 - Basic understanding of how LLM context windows work
 - Git installed and configured

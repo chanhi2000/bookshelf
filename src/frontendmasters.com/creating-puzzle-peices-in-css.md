@@ -71,7 +71,7 @@ The fun part is that we can build the whole thing with modern CSS and a small am
   link="https://codepen.io/amit_sheen/pen/RNGjrad/10e6d7ce74db8bf486230ebd5bede814"
   title="Puzzle - Demo 07"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We’ll build this in three steps:
 
@@ -273,7 +273,7 @@ Here is a working demo of the single piece with adjustable tab size and offset:
   link="https://codepen.io/amit_sheen/pen/zxKEJdj/d707ebff106e613fc4ed96500d21b66c"
   title="Puzzle - Demo 01"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Adding the Other Edges
 
@@ -341,7 +341,7 @@ This consistent structure makes it easier to reason about the shape and to creat
   link="https://codepen.io/amit_sheen/pen/bNwoxYe/4749738d82c1816f2225fdad9d8dd5a1"
   title="Puzzle - Demo 02"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Let’s take a moment to appreciate how `shape()` allows us to define this complex shape with a mix of lines and curves. The syntax is a bit verbose, but it gives us precise control over the geometry of the piece.
 
@@ -435,7 +435,7 @@ Now we have a grid of pieces, but no tabs or sockets yet.
   link="https://codepen.io/amit_sheen/pen/MYjEqPQ/19bbc5090e8ef08acf5852adebca3b56"
   title="Puzzle - Demo 03"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ### Generate Matching Tabs and Sockets
 
@@ -523,7 +523,7 @@ And that is it!
   link="https://codepen.io/amit_sheen/pen/yyazxZv/f10deb6b871f36edff1c2a225f974676"
   title="Puzzle - Demo 04"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Oh, but wait, those pieces are just floating around, not even touching each other.
 
@@ -556,7 +556,7 @@ Here is the final demo with the pieces fitting together perfectly:
   link="https://codepen.io/amit_sheen/pen/dPpVgKp/ccf524e3c72715553836203610c88bff"
   title="Puzzle - Demo 05"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -601,7 +601,7 @@ Together, these calculations keep the full image seamlessly aligned across all p
   link="https://codepen.io/amit_sheen/pen/bNwomPx/1fdce018f3ef20e11299b9dd00ab6660"
   title="Puzzle - Demo 06"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -615,7 +615,7 @@ Of course, the same foundation can power several kinds of UI, like a hover-based
   link="https://codepen.io/amit_sheen/pen/myrqwmx/cc6b2d267a276b73e6510d1169769062"
   title="Puzzle - Demo 08"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The key is that the geometry lives in CSS, the variability lives in custom properties, and the relationships between pieces live in JavaScript. This separation of concerns allows for a lot of flexibility and creativity in how you use this pattern.
 

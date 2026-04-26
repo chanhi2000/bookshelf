@@ -151,7 +151,7 @@ You can see it in action in the following demo:
   slug-hash="LERWgbe"
   title="CSS @supports at-rule() test"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

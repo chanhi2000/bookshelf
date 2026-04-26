@@ -111,7 +111,7 @@ I’ve also created a video to go along with this handbook. If you’re the type
 
 Let's start from the very beginning: what exactly is the MCP? MCP stands for **Model Context Protocol**. And if we break it down word by word - "model", "context", and "protocol" - it actually becomes quite easy to understand.
 
-But before diving in, here's a quick background: Model Context Protocol was developed by a company called [<VPIcon icon="iconfont icon-anthropic"/>Anthropic](https://anthropic.com). You've probably heard of them. They're the ones who built [<VPIcon icon="iconfont icon-claude"/>Claude](https://claude.ai), the popular AI assistant. They first introduced MCP in November of 2024, and in a short time it’s become a standard adopted by tons of other companies as well, including Microsoft.
+But before diving in, here's a quick background: Model Context Protocol was developed by a company called [<VPIcon icon="iconfont icon-claude"/>Anthropic](https://anthropic.com). You've probably heard of them. They're the ones who built [<VPIcon icon="iconfont icon-claude"/>Claude](https://claude.ai), the popular AI assistant. They first introduced MCP in November of 2024, and in a short time it’s become a standard adopted by tons of other companies as well, including Microsoft.
 
 Now, let's explore what MCP really means by understanding each term.
 

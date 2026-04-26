@@ -489,7 +489,17 @@ If you’ve discovered cool little tips that come in handy in specific situation
 
 - “[**CSS Auditing Tools**](/smashingmagazine.com/css-auditing-tools.md),” Iris Lješnjanin
 - “[**DevTools Debugging Tips And Shortcuts (Chrome, Firefox, Edge)**](/smashingmagazine.com/useful-chrome-firefox-devtools-tips-shortcuts.md),” Vitaly Friedman
-- “[**Accessibility In Chrome DevTools**](/smashingmagazine.com/accessibility-chrome-devtools.md),” Umar Hansa
+
+```component VPCard
+{
+  "title": "Accessibility In Chrome DevTools",
+  "desc": "In this article, Umar Hansa will demonstrate some useful features in DevTools which can help you improve the accessibility of your website. For many websites, things like performance and accessibility are an afterthought. But as web developers, it’s best to strive to create the best possible experience we can for our users, regardless of their abilities. This article uses Google Chrome since it’s a browser I use and feel comfortable with. That being said, Firefox, Safari, and Edge have all made great strides in their developer tools, and they definitely have some great accessibility-related features of their own.",
+  "link": "/smashingmagazine.com/accessibility-chrome-devtools.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - “[**How To Make Life Easier When Using Git**](/smashingmagazine.com/make-life-easier-when-using-git.md),” Shane Hudson
 
 :::
