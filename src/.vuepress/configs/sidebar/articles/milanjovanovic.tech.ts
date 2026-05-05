@@ -15,6 +15,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "api-versioning-should-be-your-last-resort", // 2026-05-09
+    "what-invariants-are-and-why-a-domain-model-is-the-best-place-to-enforce-them", // 2026-05-02
     "the-test-pyramid-is-a-lie-and-what-i-do-instead", // 2026-04-25
     "why-i-switched-to-primary-constructors-for-di-in-csharp", // 2026-04-18
     "implementing-the-saga-pattern-with-wolverine", // 2026-04-11
@@ -411,6 +413,7 @@ export const template: SidebarInfoTemplate = {
       "implementing-the-saga-pattern-with-wolverine", // 2026-04-11
       "why-i-switched-to-primary-constructors-for-di-in-csharp", // 2026-04-18
       "the-test-pyramid-is-a-lie-and-what-i-do-instead", // 2026-04-25
+      "what-invariants-are-and-why-a-domain-model-is-the-best-place-to-enforce-them", // 2026-05-02
       // END: 2026cs
       // END: cs
     ]],[
@@ -559,6 +562,7 @@ export const template: SidebarInfoTemplate = {
       "solving-message-ordering-from-first-principles", // 2026-01-10
       "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
       "scaling-signalr-with-redis-backplane", // 2026-03-21
+      "api-versioning-should-be-your-last-resort", // 2026-05-09
       // END: 2026system-design
       // END: system-design
     ]],[

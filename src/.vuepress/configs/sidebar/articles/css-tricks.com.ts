@@ -36,6 +36,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "using-css-corner-shape-for-folded-corners", // 2026-05-08
+    "a-scrollytelling-gift-for-mum-on-mothers-day-2026", // 2026-05-07
+    "googles-prompt-api", // 2026-05-06
+    "zigzag-css-grid-layouts", // 2026-05-06
     "fixed-height-cards-more-fragile-than-they-look", // 2026-05-04
     "whats-important-10", // 2026-05-01
     "the-importance-of-native-randomness-in-css", // 2026-04-30
@@ -565,6 +569,9 @@ export const template: SidebarInfoTemplate = {
       "the-importance-of-native-randomness-in-css", // 2026-04-30
       "whats-important-10", // 2026-05-01
       "fixed-height-cards-more-fragile-than-they-look", // 2026-05-04
+      "zigzag-css-grid-layouts", // 2026-05-06
+      "a-scrollytelling-gift-for-mum-on-mothers-day-2026", // 2026-05-07
+      "using-css-corner-shape-for-folded-corners", // 2026-05-08
       // END: 2026css
       // END: css
     ]],[
@@ -607,6 +614,7 @@ export const template: SidebarInfoTemplate = {
       "javascript-for-everyone-destructuring", // 2026-03-20
       "form-automation-tips-for-happier-user-and-clients", // 2026-03-30
       "using-nonexistent-nth-letter-selector-now", // 2026-04-27
+      "a-scrollytelling-gift-for-mum-on-mothers-day-2026", // 2026-05-07
       // END: 2026js
       // END: js
     ]],[
@@ -640,6 +648,12 @@ export const template: SidebarInfoTemplate = {
       // END: 2026security
       // END: security
     ]],[
+    "chrome", [
+      // END: 2025chrome
+      "googles-prompt-api", // 2026-05-06
+      // END: 2026chrome
+      // END: chrome
+    ]],[
     "safari", [
       "touring-new-css-features-in-safari-26", // 2025-09-29
       // END: 2025safari
@@ -670,6 +684,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024llm
       // END: 2025llm
       "generative-ui-notes", // 2026-03-26
+      "googles-prompt-api", // 2026-05-06
       // END: 2026llm
       // END: llm
     ]],[

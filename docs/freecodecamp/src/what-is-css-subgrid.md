@@ -361,7 +361,16 @@ Here are some helpful resources:
 
 - [<VPIcon icon="fa-brands fa-firefox" />MDN on CSS Subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid)
 - [<VPIcon icon="fa-brands fa-youtube"/>Learn CSS Subgrid](https://youtu.be/Yl8hg2FG20Q)
-- [<VPIcon icon="iconfont icon-webdev"/>Web Dev on CSS Subgrid](https://web.dev/articles/css-subgrid)
+
+```component VPCard
+{
+  "title": "CSS subgrid",
+  "desc": "Subgrid enables grid shareability, allowing nested grids to align to ancestors and siblings.",
+  "link": "/web.dev/css-subgrid.md",
+  "logo": "https://gstatic.com/devrel-devsite/prod/v579073a50c63499824df5a68b8922367066583d283ef78fdade1028efdb4ceb5/web/images/touchicon-180.png",
+  "background": "rgba(26,115,232,0.2)"
+}
+```
 
 <VidStack src="youtube/Yl8hg2FG20Q" />
 

@@ -26,6 +26,7 @@ const Y2024: SidebarYeargroupTemplate = {
     // END: 2024
     "introduction-css-scroll-driven-animations", // 2024-12-11
     "timeless-power-of-spreadsheets", // 2024-09-23
+    "svg-coding-examples-recipes-writing-vectors-by-hand", // 2024-09-08
     "pricing-projects-freelancer-agency-owner", // 2024-08-16
     "time-to-talk-about-css5", // 2024-08-05
     "css-tips-and-techniques", // 2024-06-07
@@ -95,6 +96,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "css-generators", // 2021-06-24
     "css-auditing-tools", // 2021-06-24
     "has-native-css-parent-selector", // 2021-06-09
+    "accessible-svg-patterns-comparison", // 2021-05-26
     "css-overflow-issues", // 2021-04-14
     "responsive-image-effects-css-gradients-aspect-ratio", // 2021-02-23
     "things-you-can-do-with-css-today", // 2021-02-01
@@ -291,6 +293,7 @@ export const template: SidebarInfoTemplate = {
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       // END: 2023js
       "setting-persisting-color-scheme-preferences-css-javascript", // 2024-03-25
+      "svg-coding-examples-recipes-writing-vectors-by-hand", // 2024-09-08
       // END: 2024js
       // END: 2025js
       // END: js
@@ -426,6 +429,7 @@ export const template: SidebarInfoTemplate = {
       "things-you-can-do-with-css-today", // 2021-02-01
       "responsive-image-effects-css-gradients-aspect-ratio", // 2021-02-23
       "css-overflow-issues", // 2021-04-14
+      "accessible-svg-patterns-comparison", // 2021-05-26
       "has-native-css-parent-selector", // 2021-06-09
       "css-auditing-tools", // 2021-06-24
       "css-generators", // 2021-06-24

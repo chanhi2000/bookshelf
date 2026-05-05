@@ -533,7 +533,16 @@ Tangential to the container queries spec is the ability to use “[<VPIcon icon=
 }
 ```
 
-- [**SVG Coding Examples: Useful Recipes For Writing Vectors By Hand**](/smashingmagazine.com/svg-coding-examples-recipes-writing-vectors-by-hand.md)
+```component VPCard
+{
+  "title": "SVG Coding Examples: Useful Recipes For Writing Vectors By Hand",
+  "desc": "Myriam Frisano explores the basics of hand-coding SVGs with practical examples to demystify the inner workings of common SVG elements. In this guide, you’ll learn about asking the right questions to solve common positioning problems and how to leverage JavaScript so that, by the end, you can add “SVG coding” to your toolbox. You’ll also be able to declare proudly, “I know how to draw literal pictures with words!”",
+  "link": "/smashingmagazine.com/svg-coding-examples-recipes-writing-vectors-by-hand.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 
 :::
 

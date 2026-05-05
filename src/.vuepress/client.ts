@@ -1,5 +1,6 @@
 import { onMounted } from 'vue'
 import { defineClientConfig } from "vuepress/client"
+// import { BaselineStatus } from "@bookshelf/shared-vuepress";
 // import { useDarkMode } from "vuepress-theme-hope/client";
 
 export default defineClientConfig({
@@ -11,6 +12,7 @@ export default defineClientConfig({
     router.afterEach((to) => {
       // console.log("after navigation");
     });
+    // app.component('BaselineStatus', BaselineStatus)
   },
   setup() {
     /* const { isDarkMode } = useDarkMode();

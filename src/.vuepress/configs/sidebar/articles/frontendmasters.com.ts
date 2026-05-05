@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "how-to-control-infinite-css-animations-part-1-of-2", // 2026-05-08
+    "animating-focus-with-view-transitions", // 2026-05-06
     "css-n-of-selectors-for-conditional-validation", // 2026-05-04
     "introducing-tanstack-form", // 2026-05-01
     "ai-amplifies-everything-a-team-leads-guide-to-ai-assisted-development", // 2026-04-29
@@ -343,6 +345,7 @@ export const template: SidebarInfoTemplate = {
       "shadow-dom-focus-delegation-getting-delegatesfocus-right", // 2026-03-24
       "creating-puzzle-peices-in-css", // 2026-04-06
       "the-web-is-fun-again-first-experiments-with-html-in-canvas", // 2026-04-21
+      "animating-focus-with-view-transitions", // 2026-05-06
       // END: 2026js
       // END: js
     ]],[
@@ -616,6 +619,8 @@ export const template: SidebarInfoTemplate = {
       "how-i-lost-madcss", // 2026-04-10
       "the-web-is-fun-again-first-experiments-with-html-in-canvas", // 2026-04-21
       "css-n-of-selectors-for-conditional-validation", // 2026-05-04
+      "animating-focus-with-view-transitions", // 2026-05-06
+      "how-to-control-infinite-css-animations-part-1-of-2", // 2026-05-08
       // END: 2026css
       // END`: css
     ]],[

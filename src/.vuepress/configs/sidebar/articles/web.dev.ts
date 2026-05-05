@@ -29,6 +29,7 @@ const Y2023: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2023
+    "css-subgrid", // 2023-09-28
   ],
 }
 
@@ -63,6 +64,7 @@ const Y2019: SidebarYeargroupTemplate = {
   children: [
     // END: 2019
     "link-prefetch", // 2019-09-12
+    "adaptive-serving-based-on-network-quality", // 2019-05-06
   ],
 }
 
@@ -84,6 +86,7 @@ export const template: SidebarInfoTemplate = {
     "js",[
       // END: 2017js
       // END: 2018js
+      "adaptive-serving-based-on-network-quality", // 2019-05-06
       "link-prefetch", // 2019-09-12
       // END: 2019js
       // END: 2020js
@@ -119,11 +122,26 @@ export const template: SidebarInfoTemplate = {
       // END: 2021css
       "css-individual-transform-properties", // 2022-08-02
       // END: 2022css
+      "css-subgrid", // 2023-09-28
       // END: 2023css
       // END: 2024css
       // END: 2025css
       // END: 2026css
       // END: css
+    ]],[
+    "chrome",[
+      // END: 2017chrome
+      // END: 2018chrome
+      "adaptive-serving-based-on-network-quality", // 2019-05-06
+      // END: 2019chrome
+      // END: 2020chrome
+      // END: 2021chrome
+      // END: 2022chrome
+      // END: 2023chrome
+      // END: 2024chrome
+      // END: 2025chrome
+      // END: 2026chrome
+      // END: chrome
     ]],[
     "all", [
       Y2026,

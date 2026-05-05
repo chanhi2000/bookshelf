@@ -2,9 +2,9 @@ import type { UserConfig } from "vuepress";
 import { defineUserConfig } from "vuepress";
 // import { addViteOptimizeDepsInclude } from "@vuepress/helper";
 import { getDirname, path } from 'vuepress/utils'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
 
 /*
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
 import MdDefinePlugin from 'vuepress-plugin-markdown-define2';
 const { description, version } = require('../../package.json')
 const CONSTS = {
@@ -41,10 +41,10 @@ export const config = (
     title: "📚Bookshelf",
     // theme,
     plugins: [
-      /* registerComponentsPlugin({
-        componentsDir: path.resolve(__dirname, '../../shared/src/components'),
+      registerComponentsPlugin({
+        componentsDir: path.resolve(__dirname, './components'),
       }),
-      MdDefinePlugin(CONSTS), */
+      // MdDefinePlugin(CONSTS),
     ],
     shouldPrefetch: false,
     shouldPreload: false,

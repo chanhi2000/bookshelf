@@ -25,7 +25,7 @@ tag:
   - llm
   - large-language-models
   - mcp
-  - model-context-protocol
+  - model-context-protocols
 head:
   - - meta:
     - property: og:title

@@ -1,6 +1,6 @@
 {
   "name": "@bookshelf/root",
-  "version": "0.2.24",
+  "version": "0.2.25",
   "description": "Bookshelf",
   "private": true,
   "license": "MIT",
@@ -34,23 +34,26 @@
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/helper": "catalog:vuepress",
+    "@vitejs/plugin-vue": "^6.0.6",
     "@vuepress/bundler-vite": "catalog:vuepress",
+    "@vuepress/helper": "catalog:vuepress",
     "@vuepress/plugin-register-components": "catalog:vuepress",
     "axios": "catalog:",
+    "concurrently": "catalog:",
+    "cpx2": "catalog:",
     "fs-extra": "catalog:range",
     "rollup-plugin-visualizer": "5.12.0",
     "sandpack-vue3": "3.1.12",
-    "vue": "catalog:",
-    "vuepress": "catalog:vuepress",
-    "vuepress-plugin-markdown-define2": "catalog:vuepress",
-    "vuepress-theme-hope": "catalog:vuepress",
+    "tsdown": "^0.22.0",
     "tsx": "catalog:",
     "typescript": "catalog:",
-    "cpx2": "catalog:",
-    "concurrently": "catalog:",
     "vite": "catalog:",
-    "vitest": "catalog:"
+    "vitest": "catalog:",
+    "vue": "catalog:",
+    "vue-tsc": "catalog:",
+    "vuepress": "catalog:vuepress",
+    "vuepress-plugin-markdown-define2": "catalog:vuepress",
+    "vuepress-theme-hope": "catalog:vuepress"
   },
   "dependencies": {
     "@bookshelf/shared-vuepress": "workspace:*",
@@ -58,6 +61,7 @@
     "@vuepress/plugin-prismjs": "catalog:vuepress",
     "baseline-status": "catalog:range",
     "chart.js": "catalog:range",
+    "copyfiles": "2.4.1",
     "cross-env": "catalog:range",
     "dashjs": "catalog:range",
     "echarts": "catalog:range",
@@ -65,10 +69,9 @@
     "hls.js": "catalog:range",
     "kotlin-playground": "catalog:range",
     "mermaid": "catalog:range",
-    "sass-loader": "catalog:range",
     "sass-embedded": "catalog:range",
-    "vidstack": "catalog:range",
-    "copyfiles": "2.4.1"
+    "sass-loader": "catalog:range",
+    "vidstack": "catalog:range"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

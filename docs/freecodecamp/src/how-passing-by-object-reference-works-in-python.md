@@ -13,6 +13,7 @@ tag:
   - py
   - python
   - c
+  - clang
 head:
   - - meta:
     - property: og:title

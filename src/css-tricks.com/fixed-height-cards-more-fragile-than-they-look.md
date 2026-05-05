@@ -81,7 +81,7 @@ Here’s a demo of the layout:
   slug-hash="EayBjeY"
   title="Fixed height"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -190,7 +190,7 @@ Here is the same layout without absolute positioning:
   slug-hash="zxBVqMg"
   title="Remove Action Position Absolute"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The change is small, but the shift in behavior is quite noticeable. Even with the fixed height still in place, the internal tension shrinks because the layout is no longer working against itself.
 
@@ -245,7 +245,7 @@ Let’s remove the fixed height while keeping the rest of the layout intact. Cla
   slug-hash="JoKQKpN"
   title="Remove Fixed Height"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Once I restored intrinsic sizing inside the card, the alignment problem really became a grid issue, which brings us to our next refinement.
 
@@ -399,7 +399,7 @@ These styles simulate a few common layout stress cases. The first card gets an u
   slug-hash="zxKYPrM"
   title="Stress test"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This stability isn’t coming from the defensive rules I added at the end. It comes from the earlier structural decisions. Once fixed heights and out-of-flow positioning were removed, the component could adapt naturally to whatever content it receives.
 
@@ -424,7 +424,7 @@ The final demo shows that idea in practice. It loads stressed content by default
   slug-hash="wBzvPbm"
   title="Making Component Constraints Explicit"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Each card grows as needed, and the grid keeps alignment without hiding overflow or relying on defensive spacing.
 

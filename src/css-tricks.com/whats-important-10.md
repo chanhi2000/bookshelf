@@ -62,7 +62,7 @@ HTML-in-Canvas, a new API that enables us to render real semantic HTML in a `<ca
   link="https://codepen.io/amit_sheen/pen/dPpQmGv/42adf6e00961d1c6e5b890a30ef6e5ae"
   title="HTML-in-Canvas (Demo 17)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

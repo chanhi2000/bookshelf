@@ -1,11 +1,12 @@
 import { defineUserConfig } from "vuepress";
+import { viteBundler } from "@vuepress/bundler-vite"
 import { addViteOptimizeDepsInclude } from "@vuepress/helper";
 import { getDirname, path } from 'vuepress/utils'
 
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+// import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+// import MdDefinePlugin from 'vuepress-plugin-markdown-define2';
 
 /* plugins 3rd-party */
-import MdDefinePlugin from 'vuepress-plugin-markdown-define2';
 
 import theme from "./theme";
 
@@ -27,6 +28,16 @@ export default defineUserConfig({
     __BLOG_VERSION__: version, // reveal.js에서 같은 변수를 사용함으로 이름이 겹치지 않도록 정의
     __IS_DEBUG__: process.env.IS_DEBUG ?? false,
   },
+  bundler: viteBundler({
+    viteOptions: {
+      ssr: {
+        // Replace this with the actual name in your shared-vuepress/package.json
+        // noExternal: ['@bookshelf/shared-vuepress'] 
+        // noExternal: [/@bookshelf\/shared-vuepress/]
+        // noExternal: true,
+      }
+    }
+  }),
   extendsBundlerOptions: (bundlerOptions: unknown, app): void => {
     addViteOptimizeDepsInclude(bundlerOptions, app, [
       "three",
@@ -38,10 +49,10 @@ export default defineUserConfig({
   description: description,
   theme,
   plugins: [
-    registerComponentsPlugin({
-      componentsDir: path.resolve(__dirname, '../../shared/src/components'),
+    /* registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, '../../shared-vuepress/lib/components'),
     }),
-    MdDefinePlugin(CONSTS),
+    MdDefinePlugin(CONSTS), */
   ],
   shouldPrefetch: false,
   shouldPreload: false,

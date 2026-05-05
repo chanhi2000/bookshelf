@@ -24,6 +24,7 @@ isOriginal: false
 author:
   - name: Houssein Djirdeh
     url: https://github.com/housseindjirdeh
+cover: https://gstatic.com/devrel-devsite/prod/v579073a50c63499824df5a68b8922367066583d283ef78fdade1028efdb4ceb5/web/images/dynamic-content-card-default.png
 ---
 
 # {{ $frontmatter.title }} 관련
@@ -42,15 +43,12 @@ author:
 
 ---
 
-```component VPCard
-{
-  "title": "Apply instant loading with the PRPL pattern",
-  "desc": "PRPL is an acronym that describes a pattern used to make web pages load and become interactive, faster. In this guide, learn how each of these techniques fit together but still can be used independently to achieve performance results.",
-  "link": "https://web.dev/articles/apply-instant-loading-with-prpl",
-  "logo": "https://gstatic.com/devrel-devsite/prod/v579073a50c63499824df5a68b8922367066583d283ef78fdade1028efdb4ceb5/web/images/touchicon-180.png",
-  "background": "rgba(26,115,232,0.2)"
-}
-```
+<SiteInfo
+  name="Apply instant loading with the PRPL pattern"
+  desc="PRPL is an acronym that describes a pattern used to make web pages load and become interactive, faster. In this guide, learn how each of these techniques fit together but still can be used independently to achieve performance results."
+  url="https://web.dev/articles/apply-instant-loading-with-prpl"
+  logo="https://gstatic.com/devrel-devsite/prod/v579073a50c63499824df5a68b8922367066583d283ef78fdade1028efdb4ceb5/web/images/touchicon-180.png"
+  preview="https://gstatic.com/devrel-devsite/prod/v579073a50c63499824df5a68b8922367066583d283ef78fdade1028efdb4ceb5/web/images/dynamic-content-card-default.png"/>
 
 PRPL is an acronym that describes a pattern used to make web pages load and become interactive, faster:
 

@@ -23,7 +23,7 @@ head:
       content: "How Does Bluetooth LE Secure Pairing Work?"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/how-does-bluetooth-le-secure-pairing-work.html
-prev: /articles/README.md
+prev: /programming/cpp/articles/README.md
 date: 2025-09-14
 isOriginal: false
 author:
