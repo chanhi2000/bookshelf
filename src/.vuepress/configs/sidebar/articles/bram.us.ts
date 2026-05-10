@@ -89,6 +89,8 @@ const Y2021: SidebarYeargroupTemplate = {
     "exploring-at-property-and-its-animating-powers", // 2021-03-07
     "the-future-of-css-scroll-linked-animations-part-2", // 2021-03-04
     "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23
+    "pure-css-stopwatch", // 2021-02-19
+    "animating-a-css-gradient-border", // 2021-01-30
     "css-mix-blend-mode-not-working-set-a-background-color", // 2021-01-15
   ],
 }
@@ -115,6 +117,7 @@ const Y2019: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2019
+    "how-the-css-is-selector-will-simplify-things", // 2019-12-16
     "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
     "embeddable-caniuse-images", // 2019-12-04
     "simple-scroll-snapping-carousel-flexbox-layout-grid-layout", // 2019-10-10
@@ -132,6 +135,7 @@ const Y2017: SidebarYeargroupTemplate = {
     "customizing-pull-to-refresh-and-overflow-effects-with-css-overscroll-behavior", // 2017-12-11
     "badass", // 2017-10-16
     "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
+    "masonry-layout-with-css-grid-and-grid-auto-flow-dense", // 2017-08-15
     "using-intersection-observers", // 2017-08-14
     "theming-with-css-custom-properties-css-variables", // 2017-07-23
     "conditions-for-css-calculations", // 2017-01-17
@@ -273,6 +277,7 @@ export const template: SidebarInfoTemplate = {
       "resilient-web-design", // 2017-01-03
       "conditions-for-css-calculations", // 2017-01-17
       "theming-with-css-custom-properties-css-variables", // 2017-07-23
+      "masonry-layout-with-css-grid-and-grid-auto-flow-dense", // 2017-08-15
       "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
       "badass", // 2017-10-16
       "customizing-pull-to-refresh-and-overflow-effects-with-css-overscroll-behavior", // 2017-12-11
@@ -284,6 +289,7 @@ export const template: SidebarInfoTemplate = {
       "simple-scroll-snapping-carousel-flexbox-layout-grid-layout", // 2019-10-10
       "embeddable-caniuse-images", // 2019-12-04
       "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
+      "how-the-css-is-selector-will-simplify-things", // 2019-12-16
       // END: 2019css
       "smooth-scrolling-sticky-scrollspy-navigation", // 2020-01-10
       "prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top", // 2020-03-02
@@ -296,6 +302,8 @@ export const template: SidebarInfoTemplate = {
       "css-custom-properties-are-not-variables", // 2020-12-10
       // END: 2020css
       "css-mix-blend-mode-not-working-set-a-background-color", // 2021-01-15
+      "animating-a-css-gradient-border", // 2021-01-30
+      "pure-css-stopwatch", // 2021-02-19
       "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23
       "the-future-of-css-scroll-linked-animations-part-2", // 2021-03-04
       "exploring-at-property-and-its-animating-powers", // 2021-03-07

@@ -105,7 +105,15 @@ I also made a video.
 
 [**Earlier post: Details / Summary Are Not [insert control here]**](/adrianroselli.com/details-summary-are-not-insert-control-here.md)
 
-[**More recent post: Periodic Table of the Elements**](/adrianroselli.com/periodic-table-of-the-elements.md)
+```component VPCard
+{
+  "title": "Periodic Table of the Elements",
+  "desc": "I built this for me. An audience of one. A way to keep sharp the skills that I am not always able to use on a project. My requirements were simple: responsive (print, small screens), accessible (beyond screen readers), and kinda fun. Since it relies on a JSON data source…",
+  "link": "/adrianroselli.com/periodic-table-of-the-elements.md",
+  "logo": "https://adrianroselli.com/wp-content/themes/AAR/favicon.png",
+  "background": "rgba(0,0,0,0.2)"
+}
+```
 
 :::
 

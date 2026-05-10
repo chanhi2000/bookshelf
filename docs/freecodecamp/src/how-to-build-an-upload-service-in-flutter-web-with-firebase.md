@@ -624,7 +624,7 @@ This foundation makes it easy to extend the service further, for example by addi
   "title": "Get started with Cloud Storage on Flutter  |  Cloud Storage for Firebase",
   "desc": "Cloud Storage for Firebase lets you upload and share user generated content, such as images and video, which allows you to build rich media content into your apps. Your data is stored in a Google Cloud Storage bucket — an exabyte scale object storage solution with high availability and global redundancy. Cloud Storage for Firebase lets you securely upload these files directly from mobile devices and web browsers, handling spotty networks with ease.",
   "link": "https://firebase.google.com/docs/storage/flutter/start/",
-  "logo": "https://gstatic.com/devrel-devsite/prod/vd661722dc0bf89538e3b1471bfa72ffd39d274bea13001a4422eac953971d84d/firebase/images/favicon.png",
+  "logo": "https://gstatic.com/devrel-devsite/prod/v80eb94e0352d656ad1e20abf6117cdec6c1343c7722ef10f52a1a3f77f1e58f7/firebase/images/favicon.png",
   "background": "rgba(232,128,0,0.2)"
 }
 ```

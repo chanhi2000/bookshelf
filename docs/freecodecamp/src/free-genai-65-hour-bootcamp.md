@@ -75,15 +75,13 @@ This course is ideal for self-taught developers, students, educators, and profes
 
 ::: info
 
-```component VPCard
-{
-  "title": "Cloud Computing Certification Training Courses - ExamPro",
-  "desc": "Get certified in cloud technologies with ExamPro. Learn AWS, Azure, GCP, and more!",
-  "link": "https://exampro.co/",
-  "logo": "https://exampro.co/exampro-logo.svg",
-  "background": "rgba(249,115,22,0.2)"
-}
-```
+<SiteInfo
+  name="FREE GenAI Bootcamp"
+  desc="Join our FREE 6-week GenAI Bootcamp and dive into cutting-edge GenAI services. Unlock your potential with hands-on training and innovative AI solutions!"
+  url="https://genai.cloudprojectbootcamp.com/"
+  logo="https://genai.cloudprojectbootcamp.com/sparkle.svg"
+  preview="https://genai.cloudprojectbootcamp.com/the-linkedin-preview-card.png"/>
+
 
 :::
 

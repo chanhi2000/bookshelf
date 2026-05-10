@@ -481,7 +481,7 @@ By combining Shorebird's rapid patching with a robust forced-update strategy usi
   "title": "Firebase Remote Config",
   "desc": "Change the behavior and appearance of your web client or server without publishing an app update, at no cost, for unlimited daily active users.",
   "link": "https://firebase.google.com/docs/remote-config",
-  "logo": "https://gstatic.com/devrel-devsite/prod/v7f9e36f6d186549b8ffe909dedf2851d752c55d39aba6c518bdd33de03ff1b45/firebase/images/favicon.png",
+  "logo": "https://gstatic.com/devrel-devsite/prod/v80eb94e0352d656ad1e20abf6117cdec6c1343c7722ef10f52a1a3f77f1e58f7/firebase/images/favicon.png",
   "background": "rgba(232,128,0,0.2)"
 }
 ```

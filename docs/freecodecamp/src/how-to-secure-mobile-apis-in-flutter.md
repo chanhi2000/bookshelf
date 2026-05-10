@@ -861,7 +861,7 @@ Remember: effective security starts with a mindset. It’s not just a one-time s
   "title": "Firebase Remote Config",
   "desc": "Change the behavior and appearance of your web client or server without publishing an app update, at no cost, for unlimited daily active users.",
   "link": "https://firebase.google.com/docs/remote-config/",
-  "logo": "https://gstatic.com/devrel-devsite/prod/va15d3cf2bbb0f0b76bff872a3310df731db3118331ec014ebef7ea080350285b/firebase/images/favicon.png",
+  "logo": "https://gstatic.com/devrel-devsite/prod/v80eb94e0352d656ad1e20abf6117cdec6c1343c7722ef10f52a1a3f77f1e58f7/firebase/images/favicon.png",
   "background": "rgba(255,145,0,0.2)"
 }
 ```

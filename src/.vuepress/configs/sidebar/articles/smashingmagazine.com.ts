@@ -93,6 +93,7 @@ const Y2021: SidebarYeargroupTemplate = {
   children: [
     // END: 2021
     "how-price-projects-manage-scope-screep", // 2021-12-29
+    "hsl-colors-css", // 2021-07-05
     "css-generators", // 2021-06-24
     "css-auditing-tools", // 2021-06-24
     "has-native-css-parent-selector", // 2021-06-09
@@ -129,6 +130,7 @@ const Y2018: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2018
+    "common-css-issues-front-end-projects", // 2018-12-27
     "css-grid-2", // 2018-07-03
     "avengers-id-card-html-css", // 2018-06-04
     "css-custom-properties-strategy-guide", // 2018-05-14
@@ -419,6 +421,7 @@ export const template: SidebarInfoTemplate = {
       "css-custom-properties-strategy-guide", // 2018-05-14
       "avengers-id-card-html-css", // 2018-06-04
       "css-grid-2", // 2018-07-03
+      "common-css-issues-front-end-projects", // 2018-12-27
       // END: 2018css
       "css-alignment", // 2019-03-28
       "display-two-value", // 2019-04-08
@@ -433,6 +436,7 @@ export const template: SidebarInfoTemplate = {
       "has-native-css-parent-selector", // 2021-06-09
       "css-auditing-tools", // 2021-06-24
       "css-generators", // 2021-06-24
+      "hsl-colors-css", // 2021-07-05
       // END: 2021css
       "css-radial-conic-gradient", // 2022-01-10
       "introduction-css-cascade-layers", // 2022-01-24

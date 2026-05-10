@@ -5,6 +5,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "how-to-control-infinite-css-animations-part-2-of-2", // 2026-05-15
+    "ai-engineer-is-a-new-role", // 2026-05-14
+    "callout-ui-with-css-offset-border", // 2026-05-13
+    "repeating-square-dots-backgrounds-in-css", // 2026-05-12
     "how-to-control-infinite-css-animations-part-1-of-2", // 2026-05-08
     "animating-focus-with-view-transitions", // 2026-05-06
     "css-n-of-selectors-for-conditional-validation", // 2026-05-04
@@ -621,6 +625,9 @@ export const template: SidebarInfoTemplate = {
       "css-n-of-selectors-for-conditional-validation", // 2026-05-04
       "animating-focus-with-view-transitions", // 2026-05-06
       "how-to-control-infinite-css-animations-part-1-of-2", // 2026-05-08
+      "repeating-square-dots-backgrounds-in-css", // 2026-05-12
+      "callout-ui-with-css-offset-border", // 2026-05-13
+      "how-to-control-infinite-css-animations-part-2-of-2", // 2026-05-15
       // END: 2026css
       // END`: css
     ]],[
@@ -721,8 +728,9 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "ai", [
       "what-senior-engineers-need-to-know-about-ai-coding-tools", // 2026-01-29
-      // END: 2026openai
-      // END: openai
+      "ai-engineer-is-a-new-role", // 2026-05-14
+      // END: 2026ai
+      // END: ai
     ]],[
     "llm", [
       "ai-generated-ui-is-inaccessible-by-default", // 2026-04-13
@@ -755,6 +763,7 @@ export const template: SidebarInfoTemplate = {
       "am-i-a-sadistic-developer-are-you", // 2025-04-24
       // END: 2025career
       "the-top-trait-companies-look-for-in-a-technical-interview", // 2026-03-26
+      "ai-engineer-is-a-new-role", // 2026-05-14
       // END: 2026career
       // END: career
     ]],[

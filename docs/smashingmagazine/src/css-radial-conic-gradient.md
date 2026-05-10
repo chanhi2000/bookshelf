@@ -465,8 +465,26 @@ I hope you find the article useful. Thanks a lot for reading!
 ::: info Further Reading
 
 - [**A Deep Dive Into `object-fit` And `background-size` In CSS**](/smashingmagazine.com/object-fit-background-size-css.md)
-- [**Common CSS Issues For Front-End Projects**](/smashingmagazine.com/common-css-issues-front-end-projects.md)
-- [**Using HSL Colors In CSS**](/smashingmagazine.com/hsl-colors-css.md)
+
+```component VPCard
+{
+  "title": "Common CSS Issues For Front-End Projects",
+  "desc": "Rendering and interaction have become a lot more consistent across browsers in recent years. It’s still not perfectly uniform, however, and a lot of small issues can trip you up. Add on top of these issues the variables of different screen sizes, language preferences and plain human error, and we find a lot of small things to trip up a developer. When implementing a user interface in a browser, it’s good to minimize those differences and issues wherever you can, so that the UI is predictable. In this article, Ahmad Shadeed has put together a list of common issues, with their solutions, as a handy reference guide for when you’re working on a new project. Let’s begin.",
+  "link": "/smashingmagazine.com/common-css-issues-front-end-projects.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Using HSL Colors In CSS",
+  "desc": "HSL colors are very powerful when we use them the right way. They can save us time and effort and even help us to explore options for how to apply color to design. In this article, Ahmad Shadeed explains what HSL is, how to use it, and shares some of the useful use-cases and examples that you can use right away in your current projects.",
+  "link": "/bookshelf/smashingmagazine.com/hsl-colors-css.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+
 - [**Overflow Issues In CSS**](/smashingmagazine.com/css-overflow-issues.md)
 
 :::

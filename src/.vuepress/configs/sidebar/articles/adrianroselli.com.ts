@@ -70,6 +70,7 @@ const Y2019: SidebarYeargroupTemplate = {
     "aria-label-does-not-translate", // 2019-11-07
     "userway-will-get-you-sued", // 2021-09-14
     "maybe-you-dont-need-a-date-picker", // 2019-07-05
+    "periodic-table-of-the-elements", // 2019-05-08
     "uniquely-labeling-fields-in-a-table", // 2019-05-06
     "uncanny-a11y", // 2019-02-15
     "a-strongly-worded-letter", // 2019-02-01
@@ -199,6 +200,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2018css
       "uncanny-a11y", // 2019-02-15
       "uniquely-labeling-fields-in-a-table", // 2019-05-06
+      "periodic-table-of-the-elements", // 2019-05-08
       "maybe-you-dont-need-a-date-picker", // 2019-07-05
       "aria-label-does-not-translate", // 2019-11-07
       "css-logical-properties", // 2019-11-13

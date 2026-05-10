@@ -77,7 +77,7 @@ Watch the full course for free on [<VPIcon icon="fa-brands fa-youtube"/>the free
 {
   "title": "Cloud Computing Certification Training Courses - ExamPro",
   "desc": "Get certified in cloud technologies with ExamPro. Learn AWS, Azure, GCP, and more!",
-  "link": "https://exampro.co/",
+  "link": "https://exampro.co/exp-openmodel-code-01",
   "logo": "https://exampro.co/exampro-logo.svg",
   "background": "rgba(249,115,22,0.2)"
 }

@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "when-your-use-case-half-succeeds-designing-for-partial-failure-in-dotnet", // 2026-05-16
     "api-versioning-should-be-your-last-resort", // 2026-05-09
     "what-invariants-are-and-why-a-domain-model-is-the-best-place-to-enforce-them", // 2026-05-02
     "the-test-pyramid-is-a-lie-and-what-i-do-instead", // 2026-04-25
@@ -414,6 +415,7 @@ export const template: SidebarInfoTemplate = {
       "why-i-switched-to-primary-constructors-for-di-in-csharp", // 2026-04-18
       "the-test-pyramid-is-a-lie-and-what-i-do-instead", // 2026-04-25
       "what-invariants-are-and-why-a-domain-model-is-the-best-place-to-enforce-them", // 2026-05-02
+      "when-your-use-case-half-succeeds-designing-for-partial-failure-in-dotnet", // 2026-05-16
       // END: 2026cs
       // END: cs
     ]],[
