@@ -1,5 +1,22 @@
 import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
+const Y2026: SidebarYeargroupTemplate = {
+  text: '2026',
+  collapsible: true,
+  children: [
+    // END: 2026
+    "toss-tpm", // 2026-05-14
+  ]
+}
+
+const Y2025: SidebarYeargroupTemplate = {
+  text: '2025',
+  collapsible: true,
+  children: [
+    // END: 2025
+  ]
+}
+
 const Y2016: SidebarYeargroupTemplate = {
   text: '2016',
   collapsible: true,
@@ -74,14 +91,6 @@ const Y2024: SidebarYeargroupTemplate = {
   ]
 }
 
-const Y2025: SidebarYeargroupTemplate = {
-  text: '2025',
-  collapsible: true,
-  children: [
-    // END: 2025
-  ]
-}
-
 export const template: SidebarInfoTemplate = {
   name: 'toss.tech',
   faviconPath: 'https://static.toss.im/tds/favicon/favicon.ico',
@@ -99,7 +108,18 @@ export const template: SidebarInfoTemplate = {
       // END: 2025npm
       // END: npm
     ]],[
+    "ai", [
+      "toss-tpm", // 2026-05-14
+      // END: 2026ai
+      // END: ai
+    ]], [
+    "career", [
+      "toss-tpm", // 2026-05-14
+      // END: 2026career
+      // END: career
+    ]], [
     "all", [
+      Y2026,
       Y2025,
       Y2024,
       Y2023,

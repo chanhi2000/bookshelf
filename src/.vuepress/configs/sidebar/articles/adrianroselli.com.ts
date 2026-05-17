@@ -90,6 +90,7 @@ const Y2017: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2017
+    "a-responsive-accessible-table", // 2017-11-03
     "hey-its-still-ok-to-use-tables", // 2017-11-01
     "dont-use-aria-menu-roles-for-site-nav", // 2017-10-23
     "avoid-emoji-as-class-names", // 2017-10-20
@@ -135,6 +136,7 @@ const Y2012: SidebarYeargroupTemplate = {
   children: [
     // END: 2012
     "2012-advent-calendars-for-web-devs", // 2012-12-02
+    "spring-cleaning-redesigning-dbushell-com", // 2012-02-27
   ],
 }
 
@@ -185,7 +187,27 @@ export const template: SidebarInfoTemplate = {
     [
     "sh", [
     ]], [
+    "js", [
+      // END: 2012js
+      // END: 2013js
+      // END: 2014js
+      // END: 2015js
+      // END: 2016js
+      "a-responsive-accessible-table", // 2017-11-03
+      // END: 2017js
+      // END: 2018js
+      // END: 2019js
+      // END: 2020js
+      // END: 2021js
+      // END: 2022js
+      // END: 2023js
+      // END: 2024js
+      // END: 2025js
+      // END: 2026js
+      // END: js
+    ]], [
     "css", [
+      "spring-cleaning-redesigning-dbushell-com", // 2012-02-27
       "2012-advent-calendars-for-web-devs", // 2012-12-02
       // END: 2012css
       // END: 2013css
@@ -196,6 +218,7 @@ export const template: SidebarInfoTemplate = {
       "avoid-emoji-as-class-names", // 2017-10-20
       "dont-use-aria-menu-roles-for-site-nav", // 2017-10-23
       "hey-its-still-ok-to-use-tables", // 2017-11-01
+      "a-responsive-accessible-table", // 2017-11-03
       // END: 2017css
       // END: 2018css
       "uncanny-a11y", // 2019-02-15

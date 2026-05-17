@@ -36,6 +36,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "the-state-of-css-centering-in-2026", // 2026-05-22
+    "stack-overflow-when-we-stop-asking", // 2026-05-20
+    "cross-document-view-transitions-part-1", // 2026-05-18
     "whats-important-11", // 2026-05-15
     "computing-and-displaying-discounted-prices-in-css", // 2026-05-14
     "soon-we-can-finally-banish-javascript-to-the-shadowrealm", // 2026-05-12
@@ -268,6 +271,7 @@ const Y2018: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2018
+    "what-do-you-name-color-variables", // 2018-12-07
     "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
     "svg-shape-morphing-works", // 2018-08-28
     "css-logical-properties", // 2018-08-21
@@ -428,6 +432,7 @@ export const template: SidebarInfoTemplate = {
       "css-logical-properties", // 2018-08-21
       "svg-shape-morphing-works", // 2018-08-28
       "understanding-the-difference-between-grid-template-and-grid-auto", // 2018-10-22
+      "what-do-you-name-color-variables", // 2018-12-07
       // END: 2018css
       "gooey-effect", // 2019-02-22
       "custom-scrollbars-in-webkit", // 2019-07-15
@@ -577,6 +582,8 @@ export const template: SidebarInfoTemplate = {
       "using-css-corner-shape-for-folded-corners", // 2026-05-08
       "computing-and-displaying-discounted-prices-in-css", // 2026-05-14
       "whats-important-11", // 2026-05-15
+      "cross-document-view-transitions-part-1", // 2026-05-18
+      "the-state-of-css-centering-in-2026", // 2026-05-22
       // END: 2026css
       // END: css
     ]],[
@@ -621,6 +628,7 @@ export const template: SidebarInfoTemplate = {
       "using-nonexistent-nth-letter-selector-now", // 2026-04-27
       "a-scrollytelling-gift-for-mum-on-mothers-day-2026", // 2026-05-07
       "soon-we-can-finally-banish-javascript-to-the-shadowrealm", // 2026-05-12
+      "cross-document-view-transitions-part-1", // 2026-05-18
       // END: 2026js
       // END: js
     ]],[
@@ -693,6 +701,11 @@ export const template: SidebarInfoTemplate = {
       "googles-prompt-api", // 2026-05-06
       // END: 2026llm
       // END: llm
+    ]],[
+    "ai", [
+      "stack-overflow-when-we-stop-asking", // 2026-05-20
+      // END: 2026ai
+      // END: ai
     ]],[
     "system-design", [
       // END: 2017system-design

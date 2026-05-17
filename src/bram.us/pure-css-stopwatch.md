@@ -57,7 +57,7 @@ Nice demo by [Jhey (<VPIcon icon="fa-brands fa-x-twitter"/>`jh3yy`)](https://twi
   slug-hash="jOVmJBL"
   title="Pure CSS Working Stopwatch 😎 (@property)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It uses a clever combination of CSS Animations, CSS Counters, and `@property`:
 

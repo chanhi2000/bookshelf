@@ -22,7 +22,11 @@ const Y2025: SidebarYeargroupTemplate = {
   children: [
     // END: 2025
     "trillion-dollar-elephants", // 2025-09-08
+    "text-to-speech-synthesis", // 2025-07-26
+    "croissant-no-framework-web-app", // 2025-07-11
     "baseless", // 2025-06-01
+    "search-with-zig-wasm-worker", // 2025-05-18
+    "the-static-site-churns", // 2025-05-11
   ],
 }
 
@@ -31,6 +35,8 @@ const Y2024: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2024
+    "static-search-page-find", // 2024-11-21
+    "html-parser-conundrum", // 2024-10-01
   ],
 }
 
@@ -100,6 +106,7 @@ const Y2016: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2016
+    "a-bit-of-a-new-look", // 2016-02-29
     "css-framework-for-partsgiant", // 2016-01-04
   ],
 }
@@ -109,6 +116,7 @@ const Y2015: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2015
+    "critical-css-and-performance", // 2015-02-20
   ],
 }
 
@@ -183,6 +191,33 @@ export const template: SidebarInfoTemplate = {
     [
     "sh", [
     ]], [
+    "js-hono", [
+      "the-static-site-churns", // 2025-05-11
+      // END: 2025js-hono
+      // END: 2026js-hono
+      // END: js-hono
+    ]], [
+    "js-node", [
+      // END: 2010js-node
+      // END: 2011js-node
+      // END: 2012js-node
+      // END: 2013js-node
+      // END: 2014js-node
+      // END: 2015js-node
+      // END: 2016js-node
+      // END: 2017js-node
+      // END: 2018js-node
+      // END: 2019js-node
+      // END: 2020js-node
+      // END: 2021js-node
+      // END: 2022js-node
+      // END: 2023js-node
+      // END: 2024js-node
+      "croissant-no-framework-web-app", // 2025-07-11
+      // END: 2025js-node
+      // END: 2026js-node
+      // END: js-node
+    ]], [
     "js", [
       // END: 2010js
       // END: 2011js
@@ -199,7 +234,10 @@ export const template: SidebarInfoTemplate = {
       // END: 2021js
       // END: 2022js
       // END: 2023js
+      "html-parser-conundrum", // 2024-10-01
+      "static-search-page-find", // 2024-11-21
       // END: 2024js
+      "text-to-speech-synthesis", // 2025-07-26
       // END: 2025js
       // END: 2026js
       // END: js
@@ -210,6 +248,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2012css
       // END: 2013css
       // END: 2014css
+      "critical-css-and-performance", // 2015-02-20
       // END: 2015css
       "css-framework-for-partsgiant", // 2016-01-04
       // END: 2016css
@@ -226,6 +265,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023css
       // END: 2024css
       "baseless", // 2025-06-01
+      "text-to-speech-synthesis", // 2025-07-26
       "trillion-dollar-elephants", // 2025-09-08
       // END: 2025css
       "death-to-scroll-fade", // 2026-01-10
@@ -236,6 +276,23 @@ export const template: SidebarInfoTemplate = {
       "css-subgrid-is-super-good", // 2026-04-03
       // END: 2026css
       // END: css
+    ]], [
+    "zig", [
+      // END: 2014zig
+      // END: 2015zig
+      // END: 2016zig
+      // END: 2017zig
+      // END: 2018zig
+      // END: 2019zig
+      // END: 2020zig
+      // END: 2021zig
+      // END: 2022zig
+      // END: 2023zig
+      // END: 2024zig
+      "search-with-zig-wasm-worker", // 2025-05-18
+      // END: 2025zig
+      // END: 2026zig
+      // END: zig
     ]], [
     "docker", [
       // END: 2010docker
@@ -270,6 +327,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2013system-design
       // END: 2014system-design
       // END: 2015system-design
+      "a-bit-of-a-new-look", // 2016-02-29
       // END: 2016system-design
       // END: 2017system-design
       // END: 2018system-design

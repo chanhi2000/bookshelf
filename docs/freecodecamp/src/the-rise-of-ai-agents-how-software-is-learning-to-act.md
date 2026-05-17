@@ -2,7 +2,7 @@
 lang: en-US
 title: "The Rise of AI Agents: How Software Is Learning to Act"
 description: "Article(s) > The Rise of AI Agents: How Software Is Learning to Act"
-icon: iconfont icon-typescript
+icon: fa-brands fa-python
 category:
   - Python
   - AI

@@ -2,7 +2,7 @@
 lang: en-US
 title: "API Versioning Should Be Your Last Resort"
 description: "Article(s) > API Versioning Should Be Your Last Resort"
-icon: iconfont icon-csharp
+icon: fas fa-pen-ruler
 category:
   - Design
   - System

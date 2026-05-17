@@ -57,7 +57,7 @@ A callout UI typically has a leader line (or “tail”) with a text box at one 
   slug-hash="yyaQEKx"
   title="Callouts"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -125,7 +125,7 @@ With the text box positioned, we now add a leader line. This is done by setting 
   slug-hash="jEVqwgz"
   title="Callout"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 A standard callout is ready, but let’s tweak it a little more!
 
@@ -154,7 +154,7 @@ To make the leader line slanted, we add skew to `.callout`. To counter the effec
   slug-hash="raWewQq"
   title="Callout 1"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Box shadows can also be used to provide leader lines.
 
@@ -172,7 +172,7 @@ Box shadows can also be used to provide leader lines.
   slug-hash="azBNwQM"
   title="Callout 2"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 We can also take advantage of `border-radius` and `corner-shape` to affect the leader line’s shape.
 
@@ -195,7 +195,7 @@ The `corner-shape` fallback is the default rounded border.
   slug-hash="dPOMRwy"
   title="Callout 3"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 This can all be animated, too.
 
@@ -228,7 +228,7 @@ First, the `.callout` scales up vertically, followed by the `.callout-text` scal
   slug-hash="raWewoq"
   title="Callout animation"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 The design variants can be many, arising from different combinations of these. In a nutshell, we use borders and shadows for the leader line’s type and color; use sizing, transforms, `border-radius`, etc., to change the line’s size and shape. Then style the text box as we would any element showcasing text.
 

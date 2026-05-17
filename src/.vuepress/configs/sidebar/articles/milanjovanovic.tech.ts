@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "how-to-scale-long-running-api-requests", // 2026-05-23
     "when-your-use-case-half-succeeds-designing-for-partial-failure-in-dotnet", // 2026-05-16
     "api-versioning-should-be-your-last-resort", // 2026-05-09
     "what-invariants-are-and-why-a-domain-model-is-the-best-place-to-enforce-them", // 2026-05-02
@@ -565,6 +566,7 @@ export const template: SidebarInfoTemplate = {
       "where-vertical-slices-fit-inside-the-modular-monolith-architecture", // 2026-02-21
       "scaling-signalr-with-redis-backplane", // 2026-03-21
       "api-versioning-should-be-your-last-resort", // 2026-05-09
+      "how-to-scale-long-running-api-requests", // 2026-05-23
       // END: 2026system-design
       // END: system-design
     ]],[

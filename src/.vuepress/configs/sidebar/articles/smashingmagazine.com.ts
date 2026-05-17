@@ -68,6 +68,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "css-accessibility-inclusion-user-choice", // 2023-08-01
     "popular-devtools-tips", // 2023-06-27
     "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
+    "color-mechanics-ui-kits", // 2023-04-19
     "build-magazine-layout-css-grid-areas", // 2023-02-06
     "level-up-css-skills-has-selector", // 2023-01-23
   ],
@@ -145,6 +146,7 @@ const Y2017: SidebarYeargroupTemplate = {
   children: [
     // END: 2017
     "understanding-css-layout-block-formatting-context", // 2017-12-11
+    "what-to-charge-clients", // 2017-08-08
     "start-using-css-custom-properties", // 2017-04-19
   ],
 }
@@ -190,6 +192,7 @@ const Y2013: SidebarYeargroupTemplate = {
     // END: 2013
     "challenging-css-best-practices-atomic-approach", // 2013-10-21
     "semantic-css-with-intelligent-selectors", // 2013-08-20
+    "other-interface-atomic-design-sass", // 2013-08-02
     "the-history-of-the-bem-methodolog", // 2013-02-21
     "the-importance-of-sections", // 2013-01-18
   ],
@@ -399,6 +402,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2012css
       "the-importance-of-sections", // 2013-01-18
       "the-history-of-the-bem-methodolog", // 2013-02-21
+      "other-interface-atomic-design-sass", // 2013-08-02
       "semantic-css-with-intelligent-selectors", // 2013-08-20
       "challenging-css-best-practices-atomic-approach", // 2013-10-21
       // END: 2013css
@@ -445,6 +449,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2022css
       "level-up-css-skills-has-selector", // 2023-01-23
       "build-magazine-layout-css-grid-areas", // 2023-02-06
+      "color-mechanics-ui-kits", // 2023-04-19
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       "popular-devtools-tips", // 2023-06-27
       "css-accessibility-inclusion-user-choice", // 2023-08-01
@@ -597,6 +602,12 @@ export const template: SidebarInfoTemplate = {
       // END: ai
     ]],[
     "career", [
+      "what-to-charge-clients", // 2017-08-08
+      // END: 2017career
+      // END: 2018career
+      // END: 2019career
+      // END: 2019career
+      // END: 2020career
       "how-price-projects-manage-scope-screep", // 2021-12-29
       // END: 2021career
       // END: 2022career

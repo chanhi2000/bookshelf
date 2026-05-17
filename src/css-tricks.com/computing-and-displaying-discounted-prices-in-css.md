@@ -63,7 +63,7 @@ We can absolutely do that in CSS:
   slug-hash="JoRByXq"
   title="Compute With CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 It does rely on some bleeding-edge features that are waiting to gain more browser support, but I think it’s still a good exercise to dig into how we will eventually be able to put these things in practice and eventually use them in our everyday work.
 
@@ -190,7 +190,7 @@ Here’s the demo once again:
   slug-hash="JoRByXq"
   title="Compute With CSS"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

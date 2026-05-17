@@ -337,7 +337,15 @@ I am *less* thrilled this [left a pile of 404s (<VPIcon icon="iconfont icon-gith
 }
 ```
 
-[**More recent post: A Responsive Accessible Table**](/adrianroselli.com/a-responsive-accessible-table.md)
+```component VPCard
+{
+  "title": "A Responsive Accessible Table",
+  "desc": "Painfully slow demonstration of the example table resizing and different media queries kicking in. After writing (again) that it is ok to use tables, and after providing quick examples of responsive tables, I received questions about why I used some of the code I did. I am going to attempt…",
+  "link": "/adrianroselli.com/a-responsive-accessible-table.md",
+  "logo": "https://adrianroselli.com/wp-content/themes/AAR/favicon.png",
+  "background": "rgba(0,0,0,0.2)"
+}
+```
 
 :::
 

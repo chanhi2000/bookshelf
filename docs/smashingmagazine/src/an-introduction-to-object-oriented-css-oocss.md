@@ -59,7 +59,16 @@ From a Web developer’s perspective, however, some may argue that [<VPIcon icon
 - [**The Road To Reusable HTML Components**](/smashingmagazine.com/road-reusable-html-components.md)
 - [**Decoupling HTML From CSS**](/smashingmagazine.com/decoupling-html-from-css.md)
 - [**Classes? Where We’re Going, We Don’t Need Classes!**](/smashingmagazine.com/classes-where-were-going-we-dont-need-classes.md)
-- [**The Other Interface: Atomic Design With Sass**](/smashingmagazine.com/other-interface-atomic-design-sass.md)
+
+```component VPCard
+{
+  "title": "The “Other” Interface: Atomic Design With Sass",
+  "desc": "We’re constantly refining two interfaces simultaneously: one for visitors who load the website, the other for developers who have to tackle the code in the future. But we shouldn’t forget that developers are users, too. Therefore, our convention for naming and organizing files is critical if we are to ensure active development in the future. But do we really design the partials, files and directories that make up this interface with a particular set of users in mind?",
+  "link": "/smashingmagazine.com/other-interface-atomic-design-sass.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
 
 :::
 

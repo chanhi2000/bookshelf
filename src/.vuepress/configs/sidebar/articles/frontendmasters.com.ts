@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "testing-safari-on-a-budget", // 2026-05-20
+    "react-server-components-in-tanstack", // 2026-05-18
     "how-to-control-infinite-css-animations-part-2-of-2", // 2026-05-15
     "ai-engineer-is-a-new-role", // 2026-05-14
     "callout-ui-with-css-offset-border", // 2026-05-13
@@ -404,6 +406,7 @@ export const template: SidebarInfoTemplate = {
       "building-a-blog-in-tanstack-part-1-of-2", // 2026-04-17
       "building-a-blog-in-tanstack-part-2-of-2", // 2026-04-20
       "introducing-tanstack-form", // 2026-05-01
+      "react-server-components-in-tanstack", // 2026-05-18
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -642,12 +645,15 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "macos", [
       "quick-dark-mode-toggles", // 2025-08-22
-      // END: 2025chrome
-      // END: chrome
+      // END: 2025macos
+      "testing-safari-on-a-budget", // 2026-05-20
+      // END: 2026macos
+      // END: macos
     ]],[
     "github", [
       "the-simplest-way-to-deploy", // 2025-05-29
       // END: 2025github
+      // END: 2026github
       // END: github
     ]],[
     "netlify", [
@@ -690,13 +696,15 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "firefox", [
       "quick-dark-mode-toggles", // 2025-08-22
-      // END: 2025chrome
-      // END: chrome
+      // END: 2025firefox
+      // END: firefox
     ]],[
     "safari", [
       "quick-dark-mode-toggles", // 2025-08-22
-      // END: 2025chrome
-      // END: chrome
+      // END: 2025safari
+      "testing-safari-on-a-budget", // 2026-05-20
+      // END: 2026safari
+      // END: safari
     ]],[
     "figma", [
       "figma-typography-variables", // 2024-08-05

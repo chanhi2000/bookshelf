@@ -87,7 +87,7 @@ div {
   slug-hash="NWbKXYG"
   title="CSS Gradient Border"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Then I wondered if I could animate the border, so that it would rotate along the edge.
 
@@ -131,7 +131,7 @@ For browsers that don’t support it you could add individual keyframes for each
   slug-hash="eYBOvGW"
   title="CSS Gradient Border"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 While the effect here looks quite nice it won’t play nice with more than two colors. Take this rainbow animated gradient border for example:
 
@@ -140,7 +140,7 @@ While the effect here looks quite nice it won’t play nice with more than two c
   slug-hash="vYyBbBq"
   title="CSS Rainbow Gradient Border (Animated, Attempt 1)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 🕵️‍♂️ You can see best what’s going on by toggling the fill option there … ugh, that’s not what we want!
 
@@ -168,7 +168,7 @@ To make the end of the gradient blend nicely into its begin color, we have to re
   slug-hash="rNWByYz"
   title="CSS Rainbow Gradient Border (Animated)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 When toggling the fill you can see that `border-image` here stretches out the color perpendicular to its edge, instead of letting the gradient “pass”. This might not be 100% what you want, but for me it was exactly what I aimed for 🙂
 

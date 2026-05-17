@@ -11,7 +11,13 @@ category:
 tag:
   - blog
   - freecodecamp.org
+  - py
+  - python
   - ai
+  - artificial-intelligence
+  - llm
+  - large-language-models
+  - openai
 head:
   - - meta:
     - property: og:title

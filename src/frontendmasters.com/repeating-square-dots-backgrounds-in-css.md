@@ -138,7 +138,7 @@ That’s what’s going on here exactly:
   link="https://codepen.io/editor/chriscoyier/pen/019e0546-e9bf-7593-85ff-795f9e678a77"
   title="Dot Backgrounds"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 
@@ -174,7 +174,7 @@ Then we use the same concept as before where we set a smaller `background-size` 
   link="https://codepen.io/editor/chriscoyier/pen/019e1cdc-4cbb-71ae-9a94-be2e0102a3b5"
   title="Dot Backgrounds (conic)"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

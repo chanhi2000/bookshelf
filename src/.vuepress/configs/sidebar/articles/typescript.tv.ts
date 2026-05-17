@@ -15,7 +15,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
-    "upgrading-to-typescript-6-a-real-world-migration", // 2026-04-0
+    "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
+    "upgrading-to-typescript-6-a-real-world-migration", // 2026-04-21
     "co-located-tests-scale-better", // 2026-04-08
     "stop-type-drift-with-linked-typing", // 2026-04-08
     "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
@@ -361,6 +362,9 @@ export const template: SidebarInfoTemplate = {
       "your-keyboard-is-obsolete-voice-coding-in-typescript", // 2026-02-12
       "you-dont-need-embeddings-for-rag", // 2025-04-02
       "stop-type-drift-with-linked-typing", // 2026-04-08
+      "co-located-tests-scale-better", // 2026-04-08
+      "upgrading-to-typescript-6-a-real-world-migration", // 2026-04-21
+      "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
       // END: 2026ts
       // END: ts
     ]],[
@@ -450,6 +454,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025github
       "never-review-a-dependency-update-again", // 2026-01-10
       "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
+      "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
       // END: 2026github
       // END: github
     ]],[
@@ -526,6 +531,7 @@ export const template: SidebarInfoTemplate = {
       "you-dont-need-embeddings-for-rag", // 2025-04-02
       "claude-code-has-5-setting-scopes", // 2026-04-03
       "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
+      "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
       // END: 2026claude
       // END: claude
     ]],[
