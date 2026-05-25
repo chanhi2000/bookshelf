@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "union-types-are-finally-coming-to-csharp", // 2026-05-30
     "how-to-scale-long-running-api-requests", // 2026-05-23
     "when-your-use-case-half-succeeds-designing-for-partial-failure-in-dotnet", // 2026-05-16
     "api-versioning-should-be-your-last-resort", // 2026-05-09
@@ -417,6 +418,7 @@ export const template: SidebarInfoTemplate = {
       "the-test-pyramid-is-a-lie-and-what-i-do-instead", // 2026-04-25
       "what-invariants-are-and-why-a-domain-model-is-the-best-place-to-enforce-them", // 2026-05-02
       "when-your-use-case-half-succeeds-designing-for-partial-failure-in-dotnet", // 2026-05-16
+      "union-types-are-finally-coming-to-csharp", // 2026-05-30
       // END: 2026cs
       // END: cs
     ]],[

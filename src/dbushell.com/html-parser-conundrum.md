@@ -51,7 +51,7 @@ cover: https://dbushell.com/images/articles/2024-10-01-html-parser-conundrum.png
   logo="https://dbushell.com/assets/icons/favicon.svg"
   preview="https://dbushell.com/images/articles/2024-10-01-html-parser-conundrum.png"/>
 
-Despite better judgement I decided to code a basic HTML parser. Not the [<VPIcon icon="fa-brands fa-html5"/>full HTML spec](https://html.spec.whatwg.org/multipage/parsing.html) but enough to create a tree of nodes and attributes. I’ve already written a [<VPIcon icon="iconfont icon-forejo"/>streamable XML parser](https://git.dbushell.com/dbushell/xml-streamify) that has been working for my podcast web app.
+Despite better judgement I decided to code a basic HTML parser. Not the [<VPIcon icon="fa-brands fa-html5"/>full HTML spec](https://html.spec.whatwg.org/multipage/parsing.html) but enough to create a tree of nodes and attributes. I’ve already written a [<VPIcon icon="iconfont icon-forgejo"/>streamable XML parser](https://git.dbushell.com/dbushell/xml-streamify) that has been working for my podcast web app.
 
 Parsing (most) HTML isn’t as complicated as it sounds. Look for a less-than sign `<` and see if a valid tag like `<div>` follows. If that node is a [<VPIcon icon="fa-brands fa-firefox"/>void element](https://developer.mozilla.org/en-US/docs/Glossary/Void_element) or self-closing element it gets appended to the current parent. If it’s an opening tag it becomes the current parent until a matching close tag is found.
 
@@ -130,7 +130,7 @@ Everything from `*/ html {` onwards is rendered as a text node and the “real�
 
 I did not expect this behaviour, but oh boy am I relieved! Can you imagine how difficult it would be to parse HTML otherwise?
 
-My HTML parsing efforts currently reside in my [<VPIcon icon="iconfont icon-forejo"/>Hyperless repo](https://git.dbushell.com/dbushell/hyperspace/src/branch/main/hyperless); an assortment of JavaScript + HTML experimental utilities. I’m not sure my final plans I’m just coding for fun right now. Originally I was planning to make a reference in JavaScript and then reimplement it in Rust or Zig. I just need more free time!
+My HTML parsing efforts currently reside in my [<VPIcon icon="iconfont icon-forgejo"/>Hyperless repo](https://git.dbushell.com/dbushell/hyperspace/src/branch/main/hyperless); an assortment of JavaScript + HTML experimental utilities. I’m not sure my final plans I’m just coding for fun right now. Originally I was planning to make a reference in JavaScript and then reimplement it in Rust or Zig. I just need more free time!
 
 Update for 28 Sept 2024
 

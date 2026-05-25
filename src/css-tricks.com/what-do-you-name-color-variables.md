@@ -59,7 +59,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/11/Untitled_Artw
 ```component VPCard
 {
   "title": "X에서 Lea Verou, PhD 님",
-  "desc": "What naming scheme do you use for color variables? Have you succeeded at writing CSS that uses color variables in a manner agnostic to the colors they represent? I've tried all of the following, and I have yet to succeed at writing CSS that works well with any color scheme. ☹️" / X",
+  "desc": "What naming scheme do you use for color variables? Have you succeeded at writing CSS that uses color variables in a manner agnostic to the colors they represent? I've tried all of the following, and I have yet to succeed at writing CSS that works well with any color scheme. ☹️ / X",
   "link": "https://x.com/LeaVerou/status/1051432487971373056/",
   "logo": "https://abs.twimg.com/favicons/twitter.3.ico",
   "background": "rgba(62,65,68,0.2)"

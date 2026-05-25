@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2026/05/mathematical-layouts-sibling-index-sibling-count

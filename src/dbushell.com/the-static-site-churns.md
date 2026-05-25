@@ -82,7 +82,7 @@ const pattern = "/:year{\\d+}/:month{\\d+}/:day{\\d+}/:slug/";
 
 That particular structure is a [<VPIcon icon="fas fa-globe"/>relic of WordPress](https://dbushell.com/notes/2025-02-24T06:48Z/).
 
-Hono consults the manifest for content. It calls my [<VPIcon icon="iconfont icon-forejo"/>Hypermore](https://git.dbushell.com/dbushell/hyperspace/src/branch/main/hypermore) template engine to render a HTML document. This runs as a live web server “in development” aka Dev Mode™. For that I still use [<VPIcon icon="fas fa-globe"/>Deno](https://dbushell.com/2025/04/28/denos-decline)
+Hono consults the manifest for content. It calls my [<VPIcon icon="iconfont icon-forgejo"/>Hypermore](https://git.dbushell.com/dbushell/hyperspace/src/branch/main/hypermore) template engine to render a HTML document. This runs as a live web server “in development” aka Dev Mode™. For that I still use [<VPIcon icon="fas fa-globe"/>Deno](https://dbushell.com/2025/04/28/denos-decline)
 <!-- TODO: /dbushell.com/denos-decline.md --> but with Hono my runtime dependency is reducing.
 
 To generate a static build I iterate over the manifest and `fetch` each page writing it back to disk. The build process takes around four seconds. Disk I/O is the bottleneck. There is a [<VPIcon icon="iconfont icon-hono"/>Hono SSG helper](https://hono.dev/docs/helpers/ssg) but I prefer full control.
@@ -103,7 +103,7 @@ My static site generator has seen countless iterations [**since 2014**](/dbushel
 
 I just like fooling around with JavaScript and recently, Zig. Every [**new addition**](/dbushell.com/glossary-web-component.md) improves my website and teaches me a new trick (for better, [<VPIcon icon="fas fa-globe"/>or worse](https://dbushell.com/notes/2025-05-08T13:12Z/)). Switching to Hono forced me to clean up my codebase. I’m [<VPIcon icon="fas fa-globe"/>technical debt](https://24ways.org/2016/we-need-to-talk-about-technical-debt/) free! For now, [Zine (<VPIcon icon="iconfont icon-github"/>`kristoff-it/zine`)](https://github.com/kristoff-it/zine) is giving me ideas…
 
-[<VPIcon icon="iconfont icon-forejo"/>Code’s in Git](https://git.dbushell.com/) if you can make sense of it. It won’t run for you. The data submodule is private to protect against LLMs. Images are in private [**large file storage**](/dbushell.com/git-granary.md) too.
+[<VPIcon icon="iconfont icon-forgejo"/>Code’s in Git](https://git.dbushell.com/) if you can make sense of it. It won’t run for you. The data submodule is private to protect against LLMs. Images are in private [**large file storage**](/dbushell.com/git-granary.md) too.
 
 [^1]: Linux, Apache, MySQL, and PHP. The way websites were meant to be served until we ruined it.
 [^2]: A ~~simple~~ plain text markup language created by John Gruber and bastardised by everyone else. Designed for writers who enjoy teeny-weeny font sizes.
@@ -124,13 +124,21 @@ I just like fooling around with JavaScript and recently, Zig. Every [**new addit
 {
   "title": "Daring Fireball: Markdown",
   "desc": "Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid HTML.",
-  "link": "https://daringfireball.net/projects/markdown//",
+  "link": "https://daringfireball.net/projects/markdown/",
   "logo": "https://daringfireball.net/favicon.ico",
   "background": "rgba(74,82,90,0.2)"
 }
 ```
 
-[Hmmarkdown; I rolled my own Markdown library!](/dbushell.com/hmmarkdown2.md)
+```component VPCard
+{
+  "title": "Hmmarkdown 2",
+  "desc": "The one where I parse and render Markdown (again)",
+  "link": "/dbushell.com/hmmarkdown2.md",
+  "logo": "https://dbushell.com/assets/icons/favicon.svg",
+  "background": "rgba(0,150,190,0.2)"
+}
+```
 
 :::
 

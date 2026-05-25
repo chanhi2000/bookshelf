@@ -5,6 +5,7 @@ description: "Article(s) > How to Install Java on Mac in 2026"
 icon: iconfont icon-macos
 category:
   - DevOps
+  - Apple
   - macOS
   - Article(s)
 tag:

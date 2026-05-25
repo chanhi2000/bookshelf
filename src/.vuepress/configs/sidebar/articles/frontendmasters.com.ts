@@ -5,6 +5,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "the-fundamentals-and-dev-experience-of-css-function", // 2026-05-29
+    "managing-anchor-associations-with-data-attributes-and-advanced-attr", // 2026-05-27
+    "the-production-playbook-for-node-js-stream-leaks", // 2026-05-26
+    "your-node-js-streams-arent-backpressuring-theyre-silently-eating-your-memory", // 2206-05-25
     "testing-safari-on-a-budget", // 2026-05-20
     "react-server-components-in-tanstack", // 2026-05-18
     "how-to-control-infinite-css-animations-part-2-of-2", // 2026-05-15
@@ -378,6 +382,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-node
       "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
       "what-to-know-in-javascript-2026-edition", // 2026-04-02
+      "your-node-js-streams-arent-backpressuring-theyre-silently-eating-your-memory", // 2206-05-25
       // END: 2026js-node
       // END: js-node
     ]],[
@@ -631,6 +636,7 @@ export const template: SidebarInfoTemplate = {
       "repeating-square-dots-backgrounds-in-css", // 2026-05-12
       "callout-ui-with-css-offset-border", // 2026-05-13
       "how-to-control-infinite-css-animations-part-2-of-2", // 2026-05-15
+      "the-fundamentals-and-dev-experience-of-css-function", // 2026-05-29
       // END: 2026css
       // END`: css
     ]],[

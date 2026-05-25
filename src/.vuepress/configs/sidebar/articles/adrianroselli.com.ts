@@ -102,7 +102,7 @@ const Y2016: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2016
-    "a11y-accessibility", // 2026-11-23
+    "a11y-accessibility", // 2016-11-23
   ],
 }
 
@@ -111,6 +111,7 @@ const Y2015: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2015
+    "typefaces-for-dyslexia", // 2015-03-15
   ],
 }
 
@@ -212,8 +213,9 @@ export const template: SidebarInfoTemplate = {
       // END: 2012css
       // END: 2013css
       // END: 2014css
+      "typefaces-for-dyslexia", // 2015-03-15
       // END: 2015css
-      "a11y-accessibility", // 2026-11-23
+      "a11y-accessibility", // 2016-11-23
       // END: 2016css
       "avoid-emoji-as-class-names", // 2017-10-20
       "dont-use-aria-menu-roles-for-site-nav", // 2017-10-23

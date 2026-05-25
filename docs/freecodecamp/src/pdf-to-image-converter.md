@@ -421,7 +421,7 @@ You can also try a real working version here:
 <SiteInfo
   name="PDF to Image Converter - Convert PDF to JPG | Online & Free"
   desc="Convert PDF to JPG online for free. Instantly turn each PDF page into a high-quality image or extract images from PDF files. No signup, no limits."
-  url="https://allinonetools.net/pdf-to-image-converter//"
+  url="https://allinonetools.net/pdf-to-image-converter/"
   logo="https://allinonetools.net/favicon.ico"
   preview="https://allinonetools.net/wp-content/uploads/2025/07/assets_task_01k0vk7jr4ermbh2xj0k38kp0k_1753272907_img_0-e1765191876725.webp"/>
 

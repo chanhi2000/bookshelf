@@ -309,7 +309,18 @@ You learned how to read PDF files, extract specific pages, and generate a new do
 
 This approach removes the need for a backend and keeps everything fast and private.
 
-If you’d like to see a complete working version of this idea, you can try it here: [<VPIcon icon="fas fa-globe"/>Split PDF](https://allinonetools.net/split-pdf/)
+::: info
+
+If you’d like to see a complete working version of this idea, you can try it here:
+
+<SiteInfo
+  name="Split PDF Online Free – Divide & Extract PDF Pages Easily"
+  desc="Split PDF files online for free at AllInOneTools. Extract pages, split by range, or divide into multiple files. Fast, secure, and simple PDF splitter."
+  url="https://allinonetools.net/split-pdf/"
+  logo="https://allinonetools.net/favicon.ico"
+  preview="https://allinonetools.net/wp-content/uploads/2025/09/assets_task_01k4chs6m6f6csnf1xbc6c6txr_1757062992_img_0-e1764822756169.webp"/>
+
+:::
 
 Once you understand this pattern, you can extend it further to build more advanced PDF tools like merging, compression, or editing.
 

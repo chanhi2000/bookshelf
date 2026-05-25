@@ -36,6 +36,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "whats-important-12", // 2026-05-29
+    "revealing-text-with-css-letter-spacing", // 2026-05-27
+    "technical-writing-in-the-ai-age", // 2026-05-26
+    "cross-document-view-transitions-part-2", // 2026-05-25
     "the-state-of-css-centering-in-2026", // 2026-05-22
     "stack-overflow-when-we-stop-asking", // 2026-05-20
     "cross-document-view-transitions-part-1", // 2026-05-18
@@ -584,6 +588,9 @@ export const template: SidebarInfoTemplate = {
       "whats-important-11", // 2026-05-15
       "cross-document-view-transitions-part-1", // 2026-05-18
       "the-state-of-css-centering-in-2026", // 2026-05-22
+      "cross-document-view-transitions-part-2", // 2026-05-25
+      "revealing-text-with-css-letter-spacing", // 2026-05-27
+      "whats-important-12", // 2026-05-29
       // END: 2026css
       // END: css
     ]],[
@@ -704,6 +711,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "ai", [
       "stack-overflow-when-we-stop-asking", // 2026-05-20
+      "technical-writing-in-the-ai-age", // 2026-05-26
       // END: 2026ai
       // END: ai
     ]],[

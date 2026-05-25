@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Migrate to S3 Native State Locking in Terraform"
 description: "Article(s) > How to Migrate to S3 Native State Locking in Terraform"
-icon: iconfont icon-terraform 
+icon: iconfont icon-terraform
 category:
   - DevOps
   - Terraform

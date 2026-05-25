@@ -84,7 +84,7 @@ This is the table I will be using for this post (embedded below or [available on
   slug-hash="YEKmxP"
   title="Responsive Table That Also Scrolls if Necessary"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 ---
 

@@ -1,19 +1,11 @@
 import type { SidebarInfoTemplate, SidebarInfoSubgroupTemplate, SidebarYeargroupTemplate } from ".";
 
-const Y2022: SidebarYeargroupTemplate = {
-  text: '2022',
+const Y2025: SidebarYeargroupTemplate = {
+  text: '2025',
   collapsible: true,
   children: [
-    // END: 2022
-    "style-queries", // 2022-06-27
-  ],
-}
-
-const Y2023: SidebarYeargroupTemplate = {
-  text: '2023',
-  collapsible: true,
-  children: [
-    // END: 2023
+    // END: 2025
+    "advanced-attr", // 2025-01-21
   ],
 }
 
@@ -25,11 +17,19 @@ const Y2024: SidebarYeargroupTemplate = {
   ],
 }
 
-const Y2025: SidebarYeargroupTemplate = {
-  text: '2025',
+const Y2023: SidebarYeargroupTemplate = {
+  text: '2023',
   collapsible: true,
   children: [
-    // END: 2025
+    // END: 2023
+  ],
+}
+const Y2022: SidebarYeargroupTemplate = {
+  text: '2022',
+  collapsible: true,
+  children: [
+    // END: 2022
+    "style-queries", // 2022-06-27
   ],
 }
 
@@ -65,6 +65,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2022css
       // END: 2023css
       // END: 2024css
+      "advanced-attr", // 2025-01-21
       // END: 2025css
       // END: css
     ]],[
@@ -72,6 +73,7 @@ export const template: SidebarInfoTemplate = {
       Y2025,
       Y2024,
       Y2023,
+      Y2022,
     ]]
   ])
 }

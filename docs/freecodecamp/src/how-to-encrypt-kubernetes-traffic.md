@@ -11,8 +11,8 @@ tag:
   - blog
   - freecodecamp.org
   - devops
-  - kubernetes
   - k8s
+  - kubernetes
 head:
   - - meta:
     - property: og:title

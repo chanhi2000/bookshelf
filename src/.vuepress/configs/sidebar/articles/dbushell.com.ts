@@ -12,6 +12,7 @@ const Y2026: SidebarYeargroupTemplate = {
     "declarative-dialog-menu-invoker-commands", // 2026-02-13
     "big-design-and-bold-ideas", // 2026-02-10
     "mozilla-slopaganda", // 2026-01-29
+    "hmmarkdown2", // 2026-01-23
     "death-to-scroll-fade", // 2026-01-10
   ]
 }
@@ -27,6 +28,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "baseless", // 2025-06-01
     "search-with-zig-wasm-worker", // 2025-05-18
     "the-static-site-churns", // 2025-05-11
+    "glossary-web-component", // 2025-05-07
   ],
 }
 
@@ -37,6 +39,11 @@ const Y2024: SidebarYeargroupTemplate = {
     // END: 2024
     "static-search-page-find", // 2024-11-21
     "html-parser-conundrum", // 2024-10-01
+    "hmmarkdown", // 2024-09-01
+    "git-granary", // 2024-07-25
+    "better-syntax-highlighting", // 2024-03-14
+    "super-fast-builds", // 2024-02-14
+    "cotton-coder", // 2024-01-24
   ],
 }
 
@@ -45,6 +52,7 @@ const Y2023: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2023
+    "just-in-time-javascript", // 2023-11-06
     "css-off-canvas-responsive-navigation-revisited", // 2023-10-06
   ],
 }
@@ -197,6 +205,28 @@ export const template: SidebarInfoTemplate = {
       // END: 2026js-hono
       // END: js-hono
     ]], [
+    "js-svelte", [
+      // END: 2010js-svelte
+      // END: 2011js-svelte
+      // END: 2012js-svelte
+      // END: 2013js-svelte
+      // END: 2014js-svelte
+      // END: 2015js-svelte
+      // END: 2016js-svelte
+      // END: 2017js-svelte
+      // END: 2018js-svelte
+      // END: 2019js-svelte
+      // END: 2020js-svelte
+      // END: 2021js-svelte
+      // END: 2022js-svelte
+      "just-in-time-javascript", // 2023-11-06
+      // END: 2023js-svelte
+      "better-syntax-highlighting", // 2024-03-14
+      // END: 2024js-svelte
+      // END: 2025js-svelte
+      // END: 2026js-svelte
+      // END: js-svelte
+    ]], [
     "js-node", [
       // END: 2010js-node
       // END: 2011js-node
@@ -212,6 +242,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2021js-node
       // END: 2022js-node
       // END: 2023js-node
+      "cotton-coder", // 2024-01-24
+      "super-fast-builds", // 2024-02-14
       // END: 2024js-node
       "croissant-no-framework-web-app", // 2025-07-11
       // END: 2025js-node
@@ -263,6 +295,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2022css
       "css-off-canvas-responsive-navigation-revisited", // 2023-10-06
       // END: 2023css
+      "better-syntax-highlighting", // 2024-03-14
       // END: 2024css
       "baseless", // 2025-06-01
       "text-to-speech-synthesis", // 2025-07-26
@@ -276,6 +309,29 @@ export const template: SidebarInfoTemplate = {
       "css-subgrid-is-super-good", // 2026-04-03
       // END: 2026css
       // END: css
+    ]], [
+    "md", [
+      // END: 2010md
+      // END: 2011md
+      // END: 2012md
+      // END: 2013md
+      // END: 2014md
+      // END: 2015md
+      // END: 2016md
+      // END: 2017md
+      // END: 2018md
+      // END: 2019md
+      // END: 2020md
+      // END: 2021md
+      // END: 2022md
+      // END: 2023md
+      "hmmarkdown", // 2024-09-01
+      // END: 2024md
+      "glossary-web-component", // 2025-05-07
+      // END: 2025md
+      "hmmarkdown2", // 2026-01-23
+      // END: 2026md
+      // END: md
     ]], [
     "zig", [
       // END: 2014zig

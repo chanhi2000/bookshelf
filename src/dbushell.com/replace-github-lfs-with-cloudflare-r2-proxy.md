@@ -1,0 +1,1 @@
+https://dbushell.com/2024/07/15/replace-github-lfs-with-cloudflare-r2-proxy

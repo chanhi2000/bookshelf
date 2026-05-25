@@ -60,7 +60,7 @@ Making an off-canvas menu free from heinous JavaScript has always been possible,
 
 [^1]: A mechanism for top-layer accessible components. Popovers can be implemented declaratively in HTML (yay!) or with JavaScript (boo!)
 
-::: details Sources on 'Popover API'
+::: info Sources on 'Popover API'
 
 ```component VPCard
 {

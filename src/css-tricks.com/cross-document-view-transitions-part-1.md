@@ -95,7 +95,15 @@ In Part 2, we’ll tackle the scaling problem – how to handle `view-transition
 }
 ```
 
-2. **Scaling View Transitions Across Hundreds of Elements** *(Next Monday!)*
+```component VPCard
+{
+  "title": "Cross-Document View Transitions: Scaling Across Hundreds of Elements",
+  "desc": "Every view-transition-name on a page must be unique. The problem is that every pseudo-element selector in your CSS targets a specific name, so your animation styles explode into an unmanageable wall of selectors.",
+  "link": "/css-tricks.com/cross-document-view-transitions-part-2.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
 
 :::
 
@@ -404,7 +412,15 @@ The gotchas are behind you. Now it’s time to make it scale.
 }
 ```
 
-2. **Scaling View Transitions Across Hundreds of Elements** *(Next Monday!)*
+```component VPCard
+{
+  "title": "Cross-Document View Transitions: Scaling Across Hundreds of Elements",
+  "desc": "Every view-transition-name on a page must be unique. The problem is that every pseudo-element selector in your CSS targets a specific name, so your animation styles explode into an unmanageable wall of selectors.",
+  "link": "/css-tricks.com/cross-document-view-transitions-part-2.md",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
 
 :::
 

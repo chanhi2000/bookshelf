@@ -29,7 +29,7 @@ head:
       content: "How to Build Optimal AI Agents That Actually Work – A Handbook for Devs"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-optimal-ai-agents-that-actually-work-a-handbook-for-devs.html
-prev: /programming/py/articles/README.md
+prev: /ai/langchain/articles/README.md
 date: 2026-05-12
 isOriginal: false
 author:

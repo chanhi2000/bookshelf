@@ -5,6 +5,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "cross-functional-tpm-tip", // 2026-05-22
     "toss-tpm", // 2026-05-14
   ]
 }
@@ -17,59 +18,13 @@ const Y2025: SidebarYeargroupTemplate = {
   ]
 }
 
-const Y2016: SidebarYeargroupTemplate = {
-  text: '2016',
+const Y2024: SidebarYeargroupTemplate = {
+  text: '2024',
   collapsible: true,
   children: [
-    "kotlin-ongloballayoutlistener", // 2016-03-16
-  ]
-}
-
-const Y2017: SidebarYeargroupTemplate = {
-  text: '2017',
-  collapsible: true,
-  children: [
-    // END: 2017
-  ]
-}
-
-const Y2018: SidebarYeargroupTemplate = {
-  text: '2018',
-  collapsible: true,
-  children: [
-    // END: 2018
-  ]
-}
-
-const Y2019: SidebarYeargroupTemplate = {
-  text: '2019',
-  collapsible: true,
-  children: [
-    // END: 2019
-  ]
-}
-
-const Y2020: SidebarYeargroupTemplate = {
-  text: '2020',
-  collapsible: true,
-  children: [
-    // END: 2020
-  ]
-}
-
-const Y2021: SidebarYeargroupTemplate = {
-  text: '2021',
-  collapsible: true,
-  children: [
-    // END: 2021
-  ]
-}
-
-const Y2022: SidebarYeargroupTemplate = {
-  text: '2022',
-  collapsible: true,
-  children: [
-    // END: 2022
+    // END: 2024
+    "ssr-server", // 2024-06-26
+    "lightning-talks-package-manager", // 2024-05-23
   ]
 }
 
@@ -81,13 +36,59 @@ const Y2023: SidebarYeargroupTemplate = {
   ]
 }
 
-const Y2024: SidebarYeargroupTemplate = {
-  text: '2024',
+const Y2022: SidebarYeargroupTemplate = {
+  text: '2022',
   collapsible: true,
   children: [
-    // END: 2024
-    "ssr-server", // 2024-06-26
-    "lightning-talks-package-manager", // 2024-05-23
+    // END: 2022
+  ]
+}
+
+const Y2021: SidebarYeargroupTemplate = {
+  text: '2021',
+  collapsible: true,
+  children: [
+    // END: 2021
+  ]
+}
+
+const Y2020: SidebarYeargroupTemplate = {
+  text: '2020',
+  collapsible: true,
+  children: [
+    // END: 2020
+  ]
+}
+
+const Y2019: SidebarYeargroupTemplate = {
+  text: '2019',
+  collapsible: true,
+  children: [
+    // END: 2019
+  ]
+}
+
+const Y2018: SidebarYeargroupTemplate = {
+  text: '2018',
+  collapsible: true,
+  children: [
+    // END: 2018
+  ]
+}
+
+const Y2017: SidebarYeargroupTemplate = {
+  text: '2017',
+  collapsible: true,
+  children: [
+    // END: 2017
+  ]
+}
+
+const Y2016: SidebarYeargroupTemplate = {
+  text: '2016',
+  collapsible: true,
+  children: [
+    "kotlin-ongloballayoutlistener", // 2016-03-16
   ]
 }
 
@@ -115,6 +116,7 @@ export const template: SidebarInfoTemplate = {
     ]], [
     "career", [
       "toss-tpm", // 2026-05-14
+      "cross-functional-tpm-tip", // 2026-05-22
       // END: 2026career
       // END: career
     ]], [
