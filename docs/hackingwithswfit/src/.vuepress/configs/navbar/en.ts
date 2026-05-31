@@ -90,6 +90,10 @@ export const navbarEn = navbar([
         icon: 'https://piccalil.li/favicons/apple-touch-icon.png',
         link: '/piccalil.li/README.md'
       }, {
+        text: 'theosoti.com',
+        icon: 'https://theosoti.com/favicon.ico',
+        link: '/theosoti.com/README.md'
+      }, {
         text: 'sitepoint.com',
         icon: 'https://sitepoint.com/favicons/512x512.png',
         link: '/sitepoint.com/README.md'

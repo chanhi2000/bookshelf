@@ -29,6 +29,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "search-with-zig-wasm-worker", // 2025-05-18
     "the-static-site-churns", // 2025-05-11
     "glossary-web-component", // 2025-05-07
+    "denos-decline", // 2025-04-28
   ],
 }
 
@@ -41,6 +42,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "html-parser-conundrum", // 2024-10-01
     "hmmarkdown", // 2024-09-01
     "git-granary", // 2024-07-25
+    "microblog", // 2024-07-10
     "better-syntax-highlighting", // 2024-03-14
     "super-fast-builds", // 2024-02-14
     "cotton-coder", // 2024-01-24
@@ -133,6 +135,8 @@ const Y2014: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2014
+    "two-week-build", // 2014-04-24
+    "introducing-tales", // 2014-02-17
   ],
 }
 
@@ -157,6 +161,7 @@ const Y2011: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2011
+    "designing-a-new-me", // 2011-05-25
   ],
 }
 
@@ -245,6 +250,7 @@ export const template: SidebarInfoTemplate = {
       "cotton-coder", // 2024-01-24
       "super-fast-builds", // 2024-02-14
       // END: 2024js-node
+      "denos-decline", // 2025-04-28
       "croissant-no-framework-web-app", // 2025-07-11
       // END: 2025js-node
       // END: 2026js-node
@@ -279,6 +285,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2011css
       // END: 2012css
       // END: 2013css
+      "introducing-tales", // 2014-02-17
+      "two-week-build", // 2014-04-24
       // END: 2014css
       "critical-css-and-performance", // 2015-02-20
       // END: 2015css
@@ -296,6 +304,7 @@ export const template: SidebarInfoTemplate = {
       "css-off-canvas-responsive-navigation-revisited", // 2023-10-06
       // END: 2023css
       "better-syntax-highlighting", // 2024-03-14
+      "microblog", // 2024-07-10
       // END: 2024css
       "baseless", // 2025-06-01
       "text-to-speech-synthesis", // 2025-07-26
@@ -378,6 +387,7 @@ export const template: SidebarInfoTemplate = {
     ]], [
     "system-design", [
       // END: 2010system-design
+      "designing-a-new-me", // 2011-05-25
       // END: 2011system-design
       // END: 2012system-design
       // END: 2013system-design

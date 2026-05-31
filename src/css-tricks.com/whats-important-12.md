@@ -87,7 +87,7 @@ Safari is the second most popular web browser, but is only available to Apple us
   slug-hash="myOEJPx"
   title="Dynamic Staggered Animations with CSS sibling-index()"
   :default-tab="['css','result']"
-  :theme="$isDarkmode ? 'dark': 'light'"/>
+  :theme="dark"/>
 
 Also, don’t miss Durgesh’s [**two-part series about View Transition gotchas**](/css-tricks.com/cross-document-view-transitions-part-1.md) right here on CSS-Tricks.
 

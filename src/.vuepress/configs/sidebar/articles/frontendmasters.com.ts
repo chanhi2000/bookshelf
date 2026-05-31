@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "obscuring-text-with-counter-style", // 2026-06-03
+    "in-n-out-animations-dialogs-part-1-3", // 2026-06-01
     "the-fundamentals-and-dev-experience-of-css-function", // 2026-05-29
     "managing-anchor-associations-with-data-attributes-and-advanced-attr", // 2026-05-27
     "the-production-playbook-for-node-js-stream-leaks", // 2026-05-26
@@ -637,6 +639,8 @@ export const template: SidebarInfoTemplate = {
       "callout-ui-with-css-offset-border", // 2026-05-13
       "how-to-control-infinite-css-animations-part-2-of-2", // 2026-05-15
       "the-fundamentals-and-dev-experience-of-css-function", // 2026-05-29
+      "in-n-out-animations-dialogs-part-1-3", // 2026-06-01
+      "obscuring-text-with-counter-style", // 2026-06-03
       // END: 2026css
       // END`: css
     ]],[

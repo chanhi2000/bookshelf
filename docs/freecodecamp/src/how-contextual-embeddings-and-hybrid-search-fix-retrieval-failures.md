@@ -12,6 +12,8 @@ category:
 tag:
   - blog
   - freecodecamp.org
+  - py
+  - python
   - ai
   - artificial-intelligence
   - llm
@@ -35,6 +37,16 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/fffeb399
 ---
 
 # {{ $frontmatter.title }} 관련
+
+```component VPCard
+{
+  "title": "Python > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/py/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
 
 ```component VPCard
 {

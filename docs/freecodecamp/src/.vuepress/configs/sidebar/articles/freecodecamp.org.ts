@@ -1986,11 +1986,55 @@ const HOW_TO_USE_DART_CLOUD_FUNCTIONS_AND_THE_FIREBASE_ADMIN_SDK: SidebarInfoSub
   ]
 }
 
+const HOW_TO_BUILD_AND_SHIP_PRODUCTION_REST_APIS_WITH_DART_AND_SHELF: SidebarInfoSubgroupTemplate = { // 2026-06-01
+  text: "From Flutter to Backend: How to Build and Ship Production REST APIs with Dart and Shelf",
+  collapsible: true,
+  icon: 'fa-brands fa-dart-lang',
+  subPath: 'how-to-build-and-ship-production-rest-apis-with-dart-and-shelf',
+  children: [
+    'README'
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_BUILD_BLUETOOTH_APPLICATIONS_WITH_ZEPHYR_OS_A_HANDBOOK_FOR_DEVS: SidebarInfoSubgroupTemplate = { // 2026-06-02
+  text: "How to Build Bluetooth Applications with Zephyr OS: A Handbook for Devs",
+  collapsible: true,
+  icon: 'fa-brands fa-dart-lang',
+  subPath: 'how-to-build-bluetooth-applications-with-zephyr-os-a-handbook-for-devs',
+  children: [
+    'README'
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
   children: [
     // END: 2026
+    "how-attribute-based-access-control-helps-you-write-better-authorization-rules", // 2026-06-05
+    "backend-challenges-teams-face-when-processing-repeat-payments", // 2026-06-05
+    "how-to-preprocess-medical-images-for-machine-learning", // 2026-06-05
+    "docker-full-course", // 2026-06-04
+    "technical-design-decisions-educational-app-llms", // 2026-06-04
+    "what-production-ready-actually-means-in-flutter", // 2026-06-04
+    "ai-paper-review-training-language-models-to-follow-instructions-with-human-feedback-instructgpt", // 2026-06-04
+    "how-to-run-an-llm-locally-on-your-mobile-phone-with-qvac-and-expo", // 2026-06-04
+    "how-to-understand-the-safe-integer-limit-in-javascript", // 2026-06-04
+    "how-to-deploy-a-spring-boot-app-with-mysql-on-amazon-eks", // 2026-06-04
+    "the-llm-gateway-pattern-why-every-kubernetes-based-ai-app-needs-one", // 2026-06-04
+    "how-to-automate-pdf-data-extraction-using-python", // 2026-06-04
+    "how-to-build-a-browser-based-pdf-organizer-tool-using-javascript", // 2026-06-04
+    "stop-trusting-ai-code-blindly-a-react-code-refactoring-case-study", // 2026-06-04
+    "how-to-build-responsive-designs-and-scroll-effects-with-css-container-queries", // 2026-06-03
+    "the-aws-finops-guide-for-series-a-startups", // 2026-06-03
+    "how-to-build-production-grade-rest-apis-with-dart-and-serverpod", // 2026-06-03
+    "build-your-own-ai-agent", // 2026-06-02
+    HOW_TO_BUILD_BLUETOOTH_APPLICATIONS_WITH_ZEPHYR_OS_A_HANDBOOK_FOR_DEVS, // 2026-06-02
+    "how-to-build-an-ai-support-agent-that-knows-when-not-to-answer-tickets", // 2026-06-01
+    "how-to-self-host-an-s3-compatible-object-store-with-minio-on-your-staging-server", // 2026-06-01
+    HOW_TO_BUILD_AND_SHIP_PRODUCTION_REST_APIS_WITH_DART_AND_SHELF, // 2026-06-01
     "the-tradeoff-that-slows-production-teams-down-flexibility-vs-actually-shipping", // 2026-05-30
     "beyond-nvidia-where-the-ai-infra-trade-actually-shows-up", // 2026-05-30
     "build-pdf-page-numbering-tool-javascript", // 2026-05-30
@@ -3769,6 +3813,7 @@ export const template: SidebarInfoTemplate = {
         "what-are-dtos-java", // 2025-08-20
         // END: 2025java-spring
         "how-to-build-your-own-circuit-breaker-in-spring-boot-and-really-understand-resilience4j", // 2026-02-17
+        "how-to-deploy-a-spring-boot-app-with-mysql-on-amazon-eks", // 2026-06-04
         // END: 2026java-spring
         // END: java-spring
       ]], [
@@ -3964,6 +4009,8 @@ export const template: SidebarInfoTemplate = {
         "think-like-the-javascript-engine", // 2026-05-21
         "how-to-rotate-pdf-pages", // 2026-05-28
         "build-pdf-page-numbering-tool-javascript", // 2026-05-30
+        "how-to-build-a-browser-based-pdf-organizer-tool-using-javascript", // 2026-06-04
+        "how-to-understand-the-safe-integer-limit-in-javascript", // 2026-06-04
         // END: 2026js
         // END: js
       ]], [
@@ -3999,6 +4046,7 @@ export const template: SidebarInfoTemplate = {
         "service-to-service-communication-when-to-use-rest-grpc-and-event-driven-messaging", // 2026-04-
         "stripe-webhooks-background-jobs", // 2026-04-23
         SAAS_PAYMENT_FLOW_STRIPE_WEBHOOKS_EMAIL, // 2026-05-09
+        "technical-design-decisions-educational-app-llms", // 2026-06-04
         // END: 2026ts
         // END: ts
       ]], [
@@ -4287,6 +4335,8 @@ export const template: SidebarInfoTemplate = {
         SAAS_PAYMENT_FLOW_STRIPE_WEBHOOKS_EMAIL, // 2026-05-09
         HOW_TO_DEVELOP_CHROME_EXTENSIONS_USING_PLASMO_HANDBOOK, // 2026-05-12
         "build-professional-web-scrapers-that-actually-work", // 2026-05-30
+        "stop-trusting-ai-code-blindly-a-react-code-refactoring-case-study", // 2026-06-04
+        "how-to-run-an-llm-locally-on-your-mobile-phone-with-qvac-and-expo", // 2026-06-04
         // END: 2026js-react
         // END: js-react
       ]], [
@@ -4419,6 +4469,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-navigate-microservices-as-a-frontend-engineer", // 2026-05-05
         "how-to-bypass-cloud-smtp-restrictions-using-brevo-and-http-apis", // 2026-05-09
         "build-professional-web-scrapers-that-actually-work", // 2026-05-30
+        "build-your-own-ai-agent", // 2026-06-02
+        "how-attribute-based-access-control-helps-you-write-better-authorization-rules", // 2026-06-05
         // END: 2026js-express
         // END: js-express
       ]], [
@@ -4498,6 +4550,7 @@ export const template: SidebarInfoTemplate = {
         "build-an-e-commerce-web-app-with-paystack-nextjs-supabase", // 2026-03-19
         "how-to-deploy-a-full-stack-next-js-app-on-cloudflare-workers-with-github-actions-ci-cd", // 2026-04-29
         HOW_TO_USE_DART_CLOUD_FUNCTIONS_AND_THE_FIREBASE_ADMIN_SDK, // 2026-05-23
+        "technical-design-decisions-educational-app-llms", // 2026-06-04
         // END: 2026js-supabase
         // END: js-supabase
       ]], [
@@ -4626,6 +4679,7 @@ export const template: SidebarInfoTemplate = {
         "build-responsive-accessible-ui-with-react-and-semantic-html", // 2026-04-08
         "how-to-build-high-ranking-seo-landing-page", // 2026-05-06
         "how-declarative-partial-updates-work-in-html", // 2026-05-30
+        "how-to-build-responsive-designs-and-scroll-effects-with-css-container-queries", // 2026-06-03
         // END: 2026css
         // END`: css
       ]], [
@@ -4856,6 +4910,11 @@ export const template: SidebarInfoTemplate = {
         "build-a-hybrid-cloud-platform-with-google-cloud-services-and-on-premise-k8s-infra", // 2026-05-29
         "build-professional-web-scrapers-that-actually-work", // 2026-05-30
         "how-contextual-embeddings-and-hybrid-search-fix-retrieval-failures", // 2026-05-30
+        "how-to-build-an-ai-support-agent-that-knows-when-not-to-answer-tickets", // 2026-06-01
+        HOW_TO_BUILD_BLUETOOTH_APPLICATIONS_WITH_ZEPHYR_OS_A_HANDBOOK_FOR_DEVS, // 2026-06-02
+        "the-aws-finops-guide-for-series-a-startups", // 2026-06-03
+        "how-to-automate-pdf-data-extraction-using-python", // 2026-06-04
+        "backend-challenges-teams-face-when-processing-repeat-payments", // 2026-06-05
         // END: 2026py
         // END: py
       ]], [
@@ -4954,6 +5013,7 @@ export const template: SidebarInfoTemplate = {
         "cluster-randomization-for-llm-based-tools-in-python", // 2026-05-23
         "why-your-deep-learning-model-isn-t-learning-data-problems-in-medical-imaging", // 2026-05-30
         "beyond-nvidia-where-the-ai-infra-trade-actually-shows-up", // 2026-05-30
+        "how-to-preprocess-medical-images-for-machine-learning", // 2026-06-05
         // END: 2026py-numpy
         // END: py-numpy
       ]], [
@@ -5222,6 +5282,9 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_PRODUCTION_READY_AI_FEATURES_WITH_FLUTTER_HANDBOOK_FOR_DEVS, // 2026-05-12
         HOW_TO_USE_DART_CLOUD_FUNCTIONS_AND_THE_FIREBASE_ADMIN_SDK, // 2026-05-23
         "advanced-error-handling-in-dart-records-result-types-monads-and-freezed-exceptions", // 2026-05-28
+        HOW_TO_BUILD_AND_SHIP_PRODUCTION_REST_APIS_WITH_DART_AND_SHELF, // 2026-06-01
+        "how-to-build-production-grade-rest-apis-with-dart-and-serverpod", // 2026-06-03
+        "what-production-ready-actually-means-in-flutter", // 2026-06-04
         // END: 2026dart
         // END: dart
       ]], [
@@ -5386,6 +5449,7 @@ export const template: SidebarInfoTemplate = {
         "how-passing-by-object-reference-works-in-python", // 2026-03-26
         "itcm-vs-dtcm-vs-ddr-embedded-memory-types-explained-handbook", // 2026-05-07
         QURT_THE_REAL_TIME_OS_INSIDE_YOUR_PHONE_S_PROCESSOR_FULL_HANDBOOK, // 2026-05-07
+        HOW_TO_BUILD_BLUETOOTH_APPLICATIONS_WITH_ZEPHYR_OS_A_HANDBOOK_FOR_DEVS, // 2026-06-02
         // END: 2026c
         // END: c
       ]], [
@@ -5884,6 +5948,9 @@ export const template: SidebarInfoTemplate = {
         LEARN_COMMAND_LINE_INTERFACE_CLI_DEVELOPMENT_WITH_DART_FROM_ZERO_TO_A_FULLY_PUBLISHED_DEVELOPER_TOOL, // 2026-05-09
         "how-to-build-a-self-hosted-whatsapp-bot-with-n8n-and-waha", // 2026-05-11
         "migrate-from-asp-net-to-asp-net-core", // 2026-05-20
+        HOW_TO_BUILD_AND_SHIP_PRODUCTION_REST_APIS_WITH_DART_AND_SHELF, // 2026-06-01
+        "how-to-deploy-a-spring-boot-app-with-mysql-on-amazon-eks", // 2026-06-04
+        "docker-full-course", // 2026-06-04
         // END: 2026docker
         // END: docker
       ]], [
@@ -5933,6 +6000,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-use-bash-python-for-real-devops-automation-handbook-with-production-use-cases", // 2026-05-28
         "gdpr-article-32-for-software-engineers-technical-controls-implementations-and-auditor-questions", // 2026-05-29
         "build-a-hybrid-cloud-platform-with-google-cloud-services-and-on-premise-k8s-infra", // 2026-05-29
+        "the-llm-gateway-pattern-why-every-kubernetes-based-ai-app-needs-one", // 2026-06-04
+        "how-to-deploy-a-spring-boot-app-with-mysql-on-amazon-eks", // 2026-06-04
         // END: 2026k8s
         // END: k8s
       ]], [
@@ -6025,6 +6094,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-avoid-devops-mistakes", // 2026-05-15
         "how-to-use-bash-python-for-real-devops-automation-handbook-with-production-use-cases", // 2026-05-28
         "gdpr-article-32-for-software-engineers-technical-controls-implementations-and-auditor-questions", // 2026-05-29
+        "the-aws-finops-guide-for-series-a-startups", // 2026-06-03
+        "how-to-deploy-a-spring-boot-app-with-mysql-on-amazon-eks", // 2026-06-04
         // END: 2026aws
         // END: aws
       ]], [
@@ -6135,6 +6206,8 @@ export const template: SidebarInfoTemplate = {
         "top-hosting-platforms-for-indie-hackers", // 2025-06-26
         // END: 2025fly
         "top-heroku-alternatives-for-deployment", // 2026-02-12
+        HOW_TO_BUILD_AND_SHIP_PRODUCTION_REST_APIS_WITH_DART_AND_SHELF, // 2026-06-01
+        "how-to-build-production-grade-rest-apis-with-dart-and-serverpod", // 2026-06-03
         // END: 2026fly
         // END: fly
       ]], [
@@ -6262,6 +6335,7 @@ export const template: SidebarInfoTemplate = {
       ]], [
       "traefik", [
         "build-production-ready-ci-cd-pipeline-for-monorepo-based-microservices-system", // 2026-04-24
+        "how-to-self-host-an-s3-compatible-object-store-with-minio-on-your-staging-server", // 2026-06-01
         // END: 2026traefik
         // END: traefik
       ]], [
@@ -6779,6 +6853,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-apply-academic-theories-to-human-centered-web-design-handbook", // 2026-05-09
         "how-captchas-affect-accessibility-problems-and-alternatives", // 2026-05-28
         "how-to-design-apis-for-ai-agents", // 2026-05-29
+        "how-to-build-an-ai-support-agent-that-knows-when-not-to-answer-tickets", // 2026-06-01
         // END: 2026system-design
         // END: system-design
       ]], [
@@ -6918,6 +6993,10 @@ export const template: SidebarInfoTemplate = {
         "build-ai-image-de-identification-for-clinical-research", // 2026-05-23
         "cluster-randomization-for-llm-based-tools-in-python", // 2026-05-23
         "how-to-design-apis-for-ai-agents", // 2026-05-29
+        "stop-trusting-ai-code-blindly-a-react-code-refactoring-case-study", // 2026-06-04
+        "how-to-run-an-llm-locally-on-your-mobile-phone-with-qvac-and-expo", // 2026-06-04
+        "technical-design-decisions-educational-app-llms", // 2026-06-04
+        "how-to-preprocess-medical-images-for-machine-learning", // 2026-06-05
         // END: 2026llm
         // END: llm
       ]], [
@@ -6953,6 +7032,7 @@ export const template: SidebarInfoTemplate = {
         "ai-paper-review-language-models-are-unsupervised-multitask-learners-gpt-2", // 2026-05-12
         "ai-paper-review-language-models-are-few-shot-learners-gpt-3", // 2026-05-19
         "ai-paper-review-gpt-4-technical-report", // 2026-05-28
+        "ai-paper-review-training-language-models-to-follow-instructions-with-human-feedback-instructgpt", // 2026-06-04
         // END: 2026openai
         // END: openai
       ]], [
@@ -7062,6 +7142,7 @@ export const template: SidebarInfoTemplate = {
         "production-rag-with-langchain-vector-databases", // 2026-05-28
         "rag-explained-simply-with-a-real-project", // 2026-05-29
         "how-contextual-embeddings-and-hybrid-search-fix-retrieval-failures", // 2026-05-30
+        "build-your-own-ai-agent", // 2026-06-02
         // END: 2026langchain
         // END: langchain
       ]], [
@@ -7406,6 +7487,12 @@ export const template: SidebarInfoTemplate = {
         "embedded-swift-a-modern-approach-to-low-level-programming", // 2025-08-02
         // END: 2025stm
         // END: stm
+      ]], [
+      "zephyr", [
+        // END: 2025zephyr
+        HOW_TO_BUILD_BLUETOOTH_APPLICATIONS_WITH_ZEPHYR_OS_A_HANDBOOK_FOR_DEVS, // 2026-06-02
+        // END: 2026zephyr
+        // END: zephyr
       ]], [
       "api", [
         "building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd", // 2016-01-26

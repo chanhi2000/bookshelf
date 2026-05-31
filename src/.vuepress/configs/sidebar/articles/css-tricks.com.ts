@@ -36,6 +36,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "another-stab-at-the-perfect-css-pie-chart-sans-javascript", // 2026-06-04
+    "astro-markdown-component-utility-any-framework", // 2026-06-01
     "whats-important-12", // 2026-05-29
     "revealing-text-with-css-letter-spacing", // 2026-05-27
     "technical-writing-in-the-ai-age", // 2026-05-26
@@ -591,6 +593,7 @@ export const template: SidebarInfoTemplate = {
       "cross-document-view-transitions-part-2", // 2026-05-25
       "revealing-text-with-css-letter-spacing", // 2026-05-27
       "whats-important-12", // 2026-05-29
+      "another-stab-at-the-perfect-css-pie-chart-sans-javascript", // 2026-06-04
       // END: 2026css
       // END: css
     ]],[
@@ -605,6 +608,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-astro
       "markdown-astro", // 2026-04-20
       "astro-markdown-component", // 2026-04-22
+      "astro-markdown-component-utility-any-framework", // 2026-06-01
       // END: 2026js-astro
       // END: js-astro
     ]],[
@@ -636,6 +640,7 @@ export const template: SidebarInfoTemplate = {
       "a-scrollytelling-gift-for-mum-on-mothers-day-2026", // 2026-05-07
       "soon-we-can-finally-banish-javascript-to-the-shadowrealm", // 2026-05-12
       "cross-document-view-transitions-part-1", // 2026-05-18
+      "another-stab-at-the-perfect-css-pie-chart-sans-javascript", // 2026-06-04
       // END: 2026js
       // END: js
     ]],[

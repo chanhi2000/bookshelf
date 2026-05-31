@@ -82,6 +82,7 @@ const Y2018: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2018
+    "tables-css-display-properties-and-aria", // 2018-02-21
   ],
 }
 
@@ -222,6 +223,7 @@ export const template: SidebarInfoTemplate = {
       "hey-its-still-ok-to-use-tables", // 2017-11-01
       "a-responsive-accessible-table", // 2017-11-03
       // END: 2017css
+      "tables-css-display-properties-and-aria", // 2018-02-21
       // END: 2018css
       "uncanny-a11y", // 2019-02-15
       "uniquely-labeling-fields-in-a-table", // 2019-05-06

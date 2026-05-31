@@ -85,7 +85,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770847448732/3783e96
 {
   "title": "Fly > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/render/articles/README.md",
+  "link": "/devops/fly/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

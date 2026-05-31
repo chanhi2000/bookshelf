@@ -38,6 +38,10 @@ import { template as TEMPLATE_CSS_IRL } from './css-irl.info';
 import { template as TEMPLATE_DAVID_BUSHELL } from './dbushell.com';
 import { template as TEMPLATE_WEBDEV_REDFOX_IRL } from './webdevredfox.org';
 import { template as TEMPLATE_ALWAYS_TWISTED } from './alwaystwisted.com';
+import { template as TEMPLATE_KT_ACADEMY } from './kt.academy';
+import { template as TEMPLATE_DEVTOOLSTIPS } from './devtoolstips.org';
+import { template as TEMPLATE_PICCALILLI } from './piccalil.li';
+import { template as TEMPLATE_THEO_SOTI } from './theosoti.com';
 import { template as TEMPLATE_ONCEUPON } from './onceupon.github.io';
 import { template as TEMPLATE_KAKAO_TECH } from './tech.kakao.com';
 import { template as TEMPLATE_KAKAO_PAY_TECH } from './tech.kakaopay.com';
@@ -53,15 +57,12 @@ import { template as TEMPLATE_BANKSALAD } from './blog.banksalad.com';
 import { template as TEMPLATE_TOAST } from './ui.toast.com';
 import { template as TEMPLATE_OLIVEYOUNG } from './oliveyoung.tech';
 import { template as TEMPLATE_KURLY } from './helloworld.kurly.com';
-import { template as TEMPLATE_KT_ACADEMY } from './kt.academy';
 import { template as TEMPLATE_DROIDCON } from './droidcon.com';
 import { template as TEMPLATE_SITEPOINT } from './sitepoint.com';
 import { template as TEMPLATE_ITS_FOSS } from './itsfoss.com'; 
 import { template as TEMPLATE_YOZM } from './yozm.wishket.com';
 import { template as TEMPLATE_POPIT } from './popit.kr';
 import { template as TEMPLATE_DEVKUMA } from './devkuma.com';
-import { template as TEMPLATE_DEVTOOLSTIPS } from './devtoolstips.org';
-import { template as TEMPLATE_PICCALILLI } from './piccalil.li';
 import { template as TEMPLATE_JOHNNYREILLY } from'./johnnyreilly.com';
 import { template as TEMPLATE_CODEMAZE } from './code-maze.com';
 import { template as TEMPLATE_C_SHARPCORNER } from './c-sharpcorner.com';
@@ -211,6 +212,7 @@ export const articleSidebars = {
   douggregor:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DOUGGREGOR, type),
   donnywals:          (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_DONNYWALS, type),
   piccalilli:         (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_PICCALILLI, type),
+  theosoti:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_THEO_SOTI, type),
   johnnyreilly:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_JOHNNYREILLY, type),
   codemaze:           (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_CODEMAZE, type),
   csharpcorner:       (type: string = DEFAULT_KEY_ALL): SidebarGroupOptions => sidebarByTemplate(TEMPLATE_C_SHARPCORNER, type),

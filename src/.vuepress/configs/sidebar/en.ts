@@ -30,6 +30,7 @@ export const sidebarEn = sidebar({
   '/huggingface.co/':             [asb.huggingface()],
   '/devtoolstips.org/':           [asb.devtoolstips()],
   '/piccalil.li/':                [asb.piccalilli()],
+  '/theosoti.com/':               [asb.theosoti()],
   '/sitepoint.com/':              [asb.sitepoint()],
   '/event-driven.io/':            [asb.eventDriven()],
   '/packagemain.tech/':           [asb.packgemainTech()],

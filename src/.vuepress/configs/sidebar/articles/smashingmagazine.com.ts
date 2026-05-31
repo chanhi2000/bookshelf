@@ -111,6 +111,7 @@ const Y2020: SidebarYeargroupTemplate = {
   children: [
     // END: 2020
     "accessibility-chrome-devtools", // 2020-08-13
+    "accessible-images", // 2020-05-15
     "understanding-css-grid-lines", // 2020-01-10
     "understanding-css-grid-container", // 2020-01-03
   ],
