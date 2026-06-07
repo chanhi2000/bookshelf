@@ -114,7 +114,7 @@ Chrome-only for now
 
 ::: info More detail
 
-[frontendmasters.com/blog/how-to-get-the-width-height-of-any-element-in-only-css](https://frontendmasters.com/blog/how-to-get-the-width-height-of-any-element-in-only-css/)
+[**How to Get the Width/Height of Any Element in Only CSS**](/master.dev/how-to-get-the-width-height-of-any-element-in-only-css.md)
 
 :::
 

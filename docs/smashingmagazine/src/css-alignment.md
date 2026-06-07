@@ -18,7 +18,7 @@ head:
       content: "How To Align Things In CSS"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/smashingmagazine.com/css-alignment.html
-prev: /articles/README.md
+prev: /programming/css/articles/README.md
 date: 2019-03-28
 isOriginal: false
 author:
@@ -33,7 +33,7 @@ cover: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd62
 {
   "title": "CSS > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/programming/css/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

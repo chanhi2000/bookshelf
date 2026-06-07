@@ -84,7 +84,7 @@ It seems that `@mixin` is taking a step forward. [Lea Verou showed us a code sni
 
 ## Anchor-interpolated morphing tutorial
 
-Chris Coyier showed us [**how to build an image gallery using popovers and something called AIM**](/frontendmasters.com/image-gallery-with-popovers-and-aim-anchor-interpolated-morph.nd) (Anchor-Interpolated Morphing). I’m only hearing about this now but [<VPIcon icon="fas fa-globe"/>Adam Argyle talked about AIM](https://argyle.ink/anchor-interpolated-morphing/) back in January. It’s not a new CSS feature but rather the idea of animating something from its starting position to an anchored position. Don’t miss this one.
+Chris Coyier showed us [**how to build an image gallery using popovers and something called AIM**](/master.dev/image-gallery-with-popovers-and-aim-anchor-interpolated-morph.nd) (Anchor-Interpolated Morphing). I’m only hearing about this now but [<VPIcon icon="fas fa-globe"/>Adam Argyle talked about AIM](https://argyle.ink/anchor-interpolated-morphing/) back in January. It’s not a new CSS feature but rather the idea of animating something from its starting position to an anchored position. Don’t miss this one.
 
 <CodePen
   link="https://codepen.io/editor/team/CodePenTemplates/pen/019cb5ec-807e-727a-b18a-5eb41b0fc901"
@@ -92,7 +92,7 @@ Chris Coyier showed us [**how to build an image gallery using popovers and somet
   :default-tab="['css','result']"
   :theme="dark"/>
 
-Also, do you happen to remember [Temani’s demo (<VPIcon icon="fa-brands fa-codepen" />`t_afif`)](https://codepen.io/t_afif/pen/wBWWKxP) that I shared a few weeks ago? Well, Frontend Masters have published [**the tutorial for that**](/frontendmasters.com/two-circles-one-arrow-and-anchor-positioning.md) too!
+Also, do you happen to remember [Temani’s demo (<VPIcon icon="fa-brands fa-codepen" />`t_afif`)](https://codepen.io/t_afif/pen/wBWWKxP) that I shared a few weeks ago? Well, Frontend Masters have published [**the tutorial for that**](/master.dev/two-circles-one-arrow-and-anchor-positioning.md) too!
 
 <CodePen
   user="anon"

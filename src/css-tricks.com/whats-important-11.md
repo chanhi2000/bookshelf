@@ -72,7 +72,7 @@ Polypane, widely considered to be the best browser for web development, launched
 
 ## Animating focus with view transitions
 
-Chris Coyier showed us [**how to animate focus with view transitions**](/frontendmasters.com/animating-focus-with-view-transitions.md). He also contrasted “unnecessary motion” with WebAIM’s conditional `prefers-reduced-motion` implementation, which I think is the right approach, because I find it difficult to keep track of focus even when it’s really visible.
+Chris Coyier showed us [**how to animate focus with view transitions**](/master.dev/animating-focus-with-view-transitions.md). He also contrasted “unnecessary motion” with WebAIM’s conditional `prefers-reduced-motion` implementation, which I think is the right approach, because I find it difficult to keep track of focus even when it’s really visible.
 
 <CodePen
   user="https://codepen.io/editor/chriscoyier/pen/019dff8d-6d05-725b-beba-10710e805dab"
@@ -128,7 +128,7 @@ Given that `&` is equivalent to the *parent selector* (so, `.intro`), the second
 }
 ```
 
-There’s so much happening with CSS right now, so I find it really useful when something I’ve missed comes back around like this. Though funnily enough, as I’m typing this, I’m seeing that [**Preethi Sam**](/css-tricks.com/author.md#preethi/) wrote an article on the [**`of <selector>` syntax**](/frontendmasters.com/css-n-of-selectors-for-conditional-validation.md) a bit over a week ago (*\*adds to reading list\**).
+There’s so much happening with CSS right now, so I find it really useful when something I’ve missed comes back around like this. Though funnily enough, as I’m typing this, I’m seeing that [**Preethi Sam**](/css-tricks.com/author.md#preethi/) wrote an article on the [**`of <selector>` syntax**](/master.dev/css-n-of-selectors-for-conditional-validation.md) a bit over a week ago (*\*adds to reading list\**).
 
 ---
 

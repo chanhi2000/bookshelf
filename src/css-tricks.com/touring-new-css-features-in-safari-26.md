@@ -90,7 +90,7 @@ I think what you’ll find (as I did) that many of these overlapping features ar
 
 Anchor positioning is one of my favorite features (I wrote [**the guide**](/css-tricks.com/css-anchor-positioning-guide.md) on it!), so I am so glad it’s arrived in Safari. We are now one step closer to widely available support which means we’re that much closer to using anchor positioning in our production work.
 
-With CSS Anchor Positioning, we can attach an absolutely-positioned element (that we may call a “target”) to another element (that we may call an “anchor”). This makes creating things like tooltips, modals, and pop-ups trivial in CSS, although it can be used for a [**variety of layouts**](/frontendmasters.com/drawing-a-line-to-connect-elements-with-css-anchor-positioning.md).
+With CSS Anchor Positioning, we can attach an absolutely-positioned element (that we may call a “target”) to another element (that we may call an “anchor”). This makes creating things like tooltips, modals, and pop-ups trivial in CSS, although it can be used for a [**variety of layouts**](/master.dev/drawing-a-line-to-connect-elements-with-css-anchor-positioning.md).
 
 Using anchor positioning, we can attach any two elements, like these, together. [**It doesn’t even matter where they are in the markup**](/css-tricks.com/anchor-positioning-just-dont-care-about-source-order.md).
 

@@ -615,8 +615,8 @@ https://css-tricks.com/a-complete-guide-to-custom-properties/
 {
   "title": "Container Queries and Units",
   "desc": "Container queries are similar to media queries but allow you set styles based on a particular element’s current size, typically the width. This is super handy because you can write CSS in a way that gives flexibility to the layout! With @media queries, there’s a tight coupling of the styling of a component’s content and […]",
-  "link": "/frontendmasters.com/container-queries-and-units.md",
-  "logo": "https://frontendmasters.com/favicon.ico",
+  "link": "/master.dev/container-queries-and-units.md",
+  "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
 ```

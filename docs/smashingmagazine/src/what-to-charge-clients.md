@@ -188,7 +188,17 @@ Also at the end of the day, **pricing is about supply and demand**. Pricing isn'
 
 - [**Creating And Maintaining A Voice Of Customer Program**](/smashingmagazine.com/creating-maintaining-voice-customer-program.md)
 - [**Crafting A Killer Brand Identity For A Digital Product**](/smashingmagazine.com/crafting-killer-brand-identity-digital-product.md)
-- [**Why Content Is Such A Fundamental Part Of The Web Design Process**](/smashingmagazine.com/content-fundamental-part-web-design-process.md)
+
+```component VPCard
+{
+  "title": "Why Content Is Such A Fundamental Part Of The Web Design Process",
+  "desc": "As designers, we are often burdened by the responsibility of producing and managing website content. It’s not our job to write it, but it’s not the client’s either. In many cases a vacuum emerges which ultimately gets filled with poor content. In this article, Matt Saunders will show you that you can avert disaster by including content production in the design process.",
+  "link": "/smashingmagazine.com/content-fundamental-part-web-design-process.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - [**How To Get Web Design Clients Fast (Part 1)**](/smashingmagazine.com/web-design-clients-fast-part1.md)
 
 :::

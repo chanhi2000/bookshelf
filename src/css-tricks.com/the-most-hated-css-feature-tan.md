@@ -338,7 +338,7 @@ I’ve seen the `tan()` function used in lots of other great demos. And guess wh
 - Nils Binder has this great [**diagonal layout**](/9elements.com/create-diagonal-layouts-like-its-2020.md).
 - Sladjana Stojanovic’s [**tangram puzzle layout**](/css-tricks.com/breaking-boundaries-building-a-tangram-puzzle-with-scss.md) uses the concept of tangents.
 - Temani Afif uses triangles in a bunch of [<VPIcon icon="fas fa-globe"/>CSS patterns](https://css-pattern.com/).
-- In fact, Temani is a great source of trigonometric examples! You’ll see `tan()` pop up in many of the things he makes, like [**flower shapes**](/frontendmasters.com/creating-flower-shapes-using-css-mask-trigonometric-functions.md) or [**modern breadcrumbs**](/css-tip.com/border-only-breadcrumb.md).
+- In fact, Temani is a great source of trigonometric examples! You’ll see `tan()` pop up in many of the things he makes, like [**flower shapes**](/master.dev/creating-flower-shapes-using-css-mask-trigonometric-functions.md) or [**modern breadcrumbs**](/css-tip.com/border-only-breadcrumb.md).
 
 ---
 

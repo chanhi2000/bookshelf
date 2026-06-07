@@ -9,7 +9,7 @@ export const sidebarEn = sidebar({
   '/kt.academy/':                 [asb.ktAcademy()],
   '/droidcon.com/':               [asb.droidcon()],
   '/outcomeschool.com/':          [asb.outcomesSchool()],
-  '/frontendmasters.com/':        [asb.frontendmaster()],
+  '/master.dev/':                 [asb.frontendmaster()],
   '/css-tricks.com/':             [asb.cssTricks()],
   '/smashingmagazine.com/':       [asb.smashingmagazine()],
   '/oddbird.net/':                [asb.oddBird()],

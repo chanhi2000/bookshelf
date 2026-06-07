@@ -114,7 +114,7 @@ The hack I found to rewire my brain to become more CSS-friendly was to find anal
 
 - [**CSS custom properties**](/css-tricks.com/a-complete-guide-to-custom-properties.md) are like [<VPIcon icon="iconfont icon-vuejs"/>reactive variables in Vue](https://vuejs.org/guide/essentials/reactivity-fundamentals.html).
 - The `:target` selector in CSS is like [<VPIcon icon="fas fa-globe"/>client-side routing](https://info340.github.io/client-side-routing.html) in a single-page application.
-- The `min()` and `max()` [<VPIcon icon="fas fa-globe"/>functions](https://web.dev/articles/min-max-clamp) in CSS can be used to simulate some of the [<VPIcon icon="fa-brands fa-microsoft"/>logical operations](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators) we take for granted in imperative programming.
+- The `min()` and `max()` [**functions**](/web.dev/min-max-clamp.md) in CSS can be used to simulate some of the [<VPIcon icon="fa-brands fa-microsoft"/>logical operations](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators) we take for granted in imperative programming.
 
 So if you are still learning web development and CSS (ultimately, we are all still learning), instead of feeling imposter syndrome, consider that the very thing that makes you feel like an outsider could be what enables you to bring something unique to your usage of CSS.
 

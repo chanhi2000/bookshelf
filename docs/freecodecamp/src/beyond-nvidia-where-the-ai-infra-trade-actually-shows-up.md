@@ -2,7 +2,7 @@
 lang: en-US
 title: "Beyond NVIDIA: Where the AI Infra Trade Actually Shows Up"
 description: "Article(s) > Beyond NVIDIA: Where the AI Infra Trade Actually Shows Up"
-icon: 
+icon: iconfont icon-pandas
 category:
   - Python
   - Pandas
@@ -28,7 +28,7 @@ head:
       content: "Beyond NVIDIA: Where the AI Infra Trade Actually Shows Up"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/beyond-nvidia-where-the-ai-infra-trade-actually-shows-up.html
-prev: /articles/README.md
+prev: /programming/py-pandas/articles/README.md
 date: 2026-05-30
 isOriginal: false
 author:

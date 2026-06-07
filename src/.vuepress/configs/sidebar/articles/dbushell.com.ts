@@ -24,12 +24,16 @@ const Y2025: SidebarYeargroupTemplate = {
     // END: 2025
     "trillion-dollar-elephants", // 2025-09-08
     "text-to-speech-synthesis", // 2025-07-26
+    "croissant-is-coming-for-you", // 2025-07-18
     "croissant-no-framework-web-app", // 2025-07-11
+    "your-framework-is-showing-nextjs-error", // 2025-06-13
+    "bunny-cdn-edge-storage", // 2025-04-27
     "baseless", // 2025-06-01
     "search-with-zig-wasm-worker", // 2025-05-18
     "the-static-site-churns", // 2025-05-11
     "glossary-web-component", // 2025-05-07
     "denos-decline", // 2025-04-28
+    "blog-redesign", // 2025-03-21
   ],
 }
 
@@ -145,6 +149,9 @@ const Y2013: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2013
+    "updates-to-origin", // 2013-06-10
+    "origin", // 2013-05-01
+    "automation", // 2013-03-13
   ],
 }
 
@@ -153,6 +160,7 @@ const Y2012: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2012
+    "scoping-typography-css", // 2012-04-18
   ],
 }
 
@@ -210,6 +218,27 @@ export const template: SidebarInfoTemplate = {
       // END: 2026js-hono
       // END: js-hono
     ]], [
+    "js-next", [
+      // END: 2010js-next
+      // END: 2011js-next
+      // END: 2012js-next
+      // END: 2013js-next
+      // END: 2014js-next
+      // END: 2015js-next
+      // END: 2016js-next
+      // END: 2017js-next
+      // END: 2018js-next
+      // END: 2019js-next
+      // END: 2020js-next
+      // END: 2021js-next
+      // END: 2022js-next
+      // END: 2023js-next
+      // END: 2024js-next
+      "your-framework-is-showing-nextjs-error", // 2025-06-13
+      // END: 2025js-next
+      // END: 2026js-next
+      // END: js-next
+    ]], [
     "js-svelte", [
       // END: 2010js-svelte
       // END: 2011js-svelte
@@ -236,6 +265,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2010js-node
       // END: 2011js-node
       // END: 2012js-node
+      "automation", // 2013-03-13
+      "updates-to-origin", // 2013-06-10
       // END: 2013js-node
       // END: 2014js-node
       // END: 2015js-node
@@ -252,6 +283,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-node
       "denos-decline", // 2025-04-28
       "croissant-no-framework-web-app", // 2025-07-11
+      "croissant-is-coming-for-you", // 2025-07-18
       // END: 2025js-node
       // END: 2026js-node
       // END: js-node
@@ -283,7 +315,9 @@ export const template: SidebarInfoTemplate = {
     "css", [
       // END: 2010css
       // END: 2011css
+      "scoping-typography-css", // 2012-04-18
       // END: 2012css
+      "origin", // 2013-05-01
       // END: 2013css
       "introducing-tales", // 2014-02-17
       "two-week-build", // 2014-04-24
@@ -380,6 +414,48 @@ export const template: SidebarInfoTemplate = {
       // END: 2026docker
       // END: docker
     ]], [
+    "cloudflare", [
+      // END: 2010cloudflare
+      // END: 2011cloudflare
+      // END: 2012cloudflare
+      // END: 2013cloudflare
+      // END: 2014cloudflare
+      // END: 2015cloudflare
+      // END: 2016cloudflare
+      // END: 2017cloudflare
+      // END: 2018cloudflare
+      // END: 2019cloudflare
+      // END: 2020cloudflare
+      // END: 2021cloudflare
+      // END: 2022cloudflare
+      // END: 2023cloudflare
+      // END: 2024cloudflare
+      "bunny-cdn-edge-storage", // 2025-04-27
+      // END: 2025cloudflare
+      // END: 2026cloudflare
+      // END: cloudflare
+    ]], [
+    "bunny", [
+      // END: 2010bunny
+      // END: 2011bunny
+      // END: 2012bunny
+      // END: 2013bunny
+      // END: 2014bunny
+      // END: 2015bunny
+      // END: 2016bunny
+      // END: 2017bunny
+      // END: 2018bunny
+      // END: 2019bunny
+      // END: 2020bunny
+      // END: 2021bunny
+      // END: 2022bunny
+      // END: 2023bunny
+      // END: 2024bunny
+      "bunny-cdn-edge-storage", // 2025-04-27
+      // END: 2025bunny
+      // END: 2026bunny
+      // END: bunny
+    ]], [
     "figma", [
       "top-ten-figma-betrayls", // 2026-03-24
       // END: 2026figma
@@ -403,6 +479,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2022system-design
       // END: 2023system-design
       // END: 2024system-design
+      "blog-redesign", // 2025-03-21
       // END: 2025system-design
       // END: 2026system-design
       // END: system-design

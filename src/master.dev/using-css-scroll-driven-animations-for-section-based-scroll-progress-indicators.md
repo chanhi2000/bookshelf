@@ -1,0 +1,52 @@
+---
+lang: ko-KR
+title: Using CSS Scroll-Driven Animations for Section-Based Scroll Progress Indicators
+description: Article(s) > Using CSS Scroll-Driven Animations for Section-Based Scroll Progress Indicators
+icon: fa-brands fa-css3-alt
+category: 
+  - HTML
+  - CSS
+  - Article(s)
+tag: 
+  - blog
+  - master.dev
+  - html
+  - css
+head:
+  - - meta:
+    - property: og:title
+      content: Article(s) > Using CSS Scroll-Driven Animations for Section-Based Scroll Progress Indicators
+    - property: og:description
+      content: Using CSS Scroll-Driven Animations for Section-Based Scroll Progress Indicators
+    - property: og:url
+      content: https://chanhi2000.github.io/bookshelf/master.dev/using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators.html
+prev: /programming/css/articles/README.md
+date: 2024-05-10
+isOriginal: false
+cover: https://i0.wp.com/master.dev/blog/wp-content/uploads/2024/05/image.png?resize=1024%2C585&ssl=1
+---
+
+# {{ $frontmatter.title }} 관련
+
+```component VPCard
+{
+  "title": "CSS > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/css/articles/README.md",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+[[toc]]
+
+---
+
+<SiteInfo
+  name="Using CSS Scroll-Driven Animations for Section-Based Scroll Progress Indicators"
+  desc="A scroll progress indicator is a pretty straightforward thing to build with a scroll()-style scroll-driven animation. But here, we'll build indicators for each section of a page using the view() style."
+  url="https://master.dev/blog/using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators/"
+  logo="https://master.dev/favicon.ico"
+  preview="https://i0.wp.com/master.dev/blog/wp-content/uploads/2024/05/image.png?resize=1024%2C585&ssl=1"/>
+
+<!-- TODO: 작성 -->

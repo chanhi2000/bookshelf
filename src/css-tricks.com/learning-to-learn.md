@@ -130,7 +130,7 @@ Then I take all of those features, write them out, and estimate how much time I�
 
 ![checklist of ES6 features](https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/02/IMG_4418.jpg?ssl=1)
 
-You can also do this with course materials from an online workshop, writing down the sections and breaking them into chunks to go over every day. I really enjoy [<VPIcon icon="fas fa-globe"/>Frontend Masters](https://frontendmasters.com/) for long form learning like this, as well as [<VPIcon icon="fas fa-globe"/>Egghead](https://egghead.io/) and courses by [<VPIcon icon="fas fa-globe"/>Wes Bos](https://wesbos.com/).
+You can also do this with course materials from an online workshop, writing down the sections and breaking them into chunks to go over every day. I really enjoy [<VPIcon icon="fas fa-globe"/>Frontend Masters](https://master.dev/) for long form learning like this, as well as [<VPIcon icon="fas fa-globe"/>Egghead](https://egghead.io/) and courses by [<VPIcon icon="fas fa-globe"/>Wes Bos](https://wesbos.com/).
 
 At this point, I’ll break those pieces down and schedule them. The teacher planner allows me to divide my days into the different themes I’m focusing on and put a little in each day. You can see in the first screenshot that I was learning a bit, mentoring a bit, and writing and building what I was learning each day. This kind of input/output really helped me solidify the concepts as I was digging into ES2015/ES6.
 

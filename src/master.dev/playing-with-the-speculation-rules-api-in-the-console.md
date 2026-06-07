@@ -1,0 +1,69 @@
+---
+lang: ko-KR
+title: Playing with the Speculation Rules API in the Console
+description: Article(s) > Playing with the Speculation Rules API in the Console
+icon: fa-brands fa-js
+category: 
+  - JavaScript
+  - Browser
+  - Google
+  - Google Chrome
+  - Article(s)
+tag: 
+  - blog
+  - master.dev
+  - js
+  - javascript
+  - browser
+  - google
+  - googlechrome
+  - google-chrome
+  - console
+head:
+  - - meta:
+    - property: og:title
+      content: Article(s) > Playing with the Speculation Rules API in the Console
+    - property: og:description
+      content: Playing with the Speculation Rules API in the Console
+    - property: og:url
+      content: https://chanhi2000.github.io/bookshelf/master.dev/control-javascript-promises-from-anywhere-using-promise-withresolvers.html
+prev: /programming/js/articles/README.md
+date: 2024-06-07
+isOriginal: false
+cover: https://i0.wp.com/master.dev/blog/wp-content/uploads/2024/06/pexels-photo-7911758.jpeg?resize=768%2C768&ssl=1
+---
+
+# {{ $frontmatter.title }} 관련
+
+```component VPCard
+{
+  "title": "JavaScript > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/js/articles/README.md",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Google Chrome > Article(s)",
+  "desc": "Article(s)",
+  "link": "/tool/chrome/articles/README.md",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+[[toc]]
+
+---
+
+<SiteInfo
+  name="Playing with the Speculation Rules API in the Console"
+  desc="This new API enables client-side prerendering, improving performance for users who are likely to visit a new page."
+  url="https://master.dev/blog/control-javascript-promises-from-anywhere-using-promise-withresolvers/"
+  logo="https://master.dev/favicon.ico"
+  preview="https://i0.wp.com/master.dev/blog/wp-content/uploads/2024/06/pexels-photo-7911758.jpeg?resize=768%2C768&ssl=1"/>
+
+<!-- TODO: 작성 -->

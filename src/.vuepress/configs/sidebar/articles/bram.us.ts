@@ -84,6 +84,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "practical-use-cases-for-scroll-linked-animations-with-css-scroll-timeline", // 2022-07-20
     "the-large-small-and-dynamic-viewports", // 2021-07-08
     "a-first-look-at-cqfill-a-polyfill-for-css-container-queries", // 2021-04-28
+    "identify-and-extract-pseudo-element-selectors-from-built-in-html-elements-using-devtools", // 2021-04-16
     "css-container-queries-a-first-look-and-demo", // 2021-03-29
     "three-important-things-you-should-know-about-css-is", // 2021-03-19
     "exploring-at-property-and-its-animating-powers", // 2021-03-07

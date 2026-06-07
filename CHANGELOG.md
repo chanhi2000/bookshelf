@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com)
 and this project adheres to [Semantic Versioning](http://semver.org).
 
+- [v0.2.30: 2026-06-14][v0.2.30]: 컨텐츠 추가
 - [v0.2.29: 2026-06-07][v0.2.29]: 컨텐츠 추가
 - [v0.2.28: 2026-05-31][v0.2.28]: 컨텐츠 추가
 - [v0.2.27: 2026-05-25][v0.2.27]: 컨텐츠 추가
@@ -163,3 +164,4 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 [v0.2.27]: https://github.com/chanhi2000/bookshelf/compare/v0.2.26...v0.2.27
 [v0.2.28]: https://github.com/chanhi2000/bookshelf/compare/v0.2.27...v0.2.28
 [v0.2.29]: https://github.com/chanhi2000/bookshelf/compare/v0.2.28...v0.2.29
+[v0.2.30]: https://github.com/chanhi2000/bookshelf/compare/v0.2.29...v0.2.30

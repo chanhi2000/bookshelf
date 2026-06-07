@@ -36,6 +36,16 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/e49dda12
 
 ```component VPCard
 {
+  "title": "Go > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/go/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
   "title": "Docker > Article(s)",
   "desc": "Article(s)",
   "link": "/devops/docker/articles/README.md",

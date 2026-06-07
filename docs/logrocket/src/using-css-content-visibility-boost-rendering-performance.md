@@ -84,7 +84,7 @@ Google has color-coded and categorized the areas as follows:
 - **Rendering** — purple covering the Style and Layout areas
 - **Painting** — green covering the Paint and Composite areas
 
-![Pixel Pipeline<br/>Image credit: [<VPIcon icon="iconfont icon-webdev"/>Web.dev under CC BY 4.0 license](https://web.dev/articles/rendering-performance)](/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/pixel-pipeline.jpeg)
+![Pixel Pipeline<br/>Image credit: [**Web.dev under CC BY 4.0 license**](/web.dev/rendering-performance.md)](/assets/image/blog.logrocket.com/using-css-content-visibility-boost-rendering-performance/pixel-pipeline.jpeg)
 
 This facet of categorization is significant because this is how they are visually represented in the **Performance** tab of Chrome’s DevTools. You can see the matching color encoding in the summary pane below:
 

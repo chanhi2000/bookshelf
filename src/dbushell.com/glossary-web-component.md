@@ -107,7 +107,7 @@ My build script replaces the markdown link with a [<VPIcon icon="fas fa-globe"/>
 
 The first link in the JSON is used as the canonical source.
 
-HTML wrapped in a [<VPIcon icon="fa-brands fa-firefox"/>custom element](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)[^6] is a perfect example of [**progressive enhancement**](/piccalil.li/its-about-time-i-tried-to-explain-what-progressive-enhancement-actually-is.md)[^7]. For unsupported browsers there is still an accessible link inside. For browsers that support the [**Popover API**](/frontendmasters.com/using-the-popover-api-for-html-tooltips.md)[^8] each `<glossary-term>` element is enhanced with a fancy popover.
+HTML wrapped in a [<VPIcon icon="fa-brands fa-firefox"/>custom element](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)[^6] is a perfect example of [**progressive enhancement**](/piccalil.li/its-about-time-i-tried-to-explain-what-progressive-enhancement-actually-is.md)[^7]. For unsupported browsers there is still an accessible link inside. For browsers that support the [**Popover API**](/master.dev/using-the-popover-api-for-html-tooltips.md)[^8] each `<glossary-term>` element is enhanced with a fancy popover.
 
 [^6]: An extension of HTML with behaviour defined by the developer. Shadow DOM allows for encapsulation. Bring your own tag! It must be hyphenated.
 
@@ -223,7 +223,9 @@ I’m tempted to use a similar technique to create popover cards for [<VPIcon ic
 
 ::: info Sources on '`<custom-element>`'(6)
 
-[<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements "Using custom elements")[web.dev](https://web.dev/articles/declarative-shadow-dom "Declarative Shadow DOM")
+[<VPIcon icon="fa-brands fa-firefox"/>MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements "Using custom elements")
+
+[**Declarative Shadow DOM**](/web.dev/declarative-shadow-dom.md)
 
 :::
 
@@ -249,8 +251,8 @@ I’m tempted to use a similar technique to create popover cards for [<VPIcon ic
 {
   "title": "Using the Popover API for HTML Tooltips",
   "desc": "We can *mostly* use HTML alone for this API. But here, we'll use CSS to style the ",
-  "link": "/frontendmasters.com/using-the-popover-api-for-html-tooltips.md",
-  "logo": "https://frontendmasters.com/favicon.ico",
+  "link": "/master.dev/using-the-popover-api-for-html-tooltips.md",
+  "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
 ```
@@ -283,9 +285,19 @@ I’m tempted to use a similar technique to create popover cards for [<VPIcon ic
 
 ::: info Sources on 'React'(9)
 
-[JSX.lol](https://jsx.lol "Does anybody actually like React?")
+<SiteInfo
+  name="JSX.lol"
+  desc="Does anybody actually like React? A cherry-picked collection of React (and React-tainted) criticism."
+  url="https://jsx.lol/"
+  logo="https://jsx.lol/assets/favicon.svg"
+  preview="https://jsx.lol/assets/512x512.png"/>
 
-[React](https://react.dev)
+<SiteInfo
+  name="React"
+  desc="React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript. React is designed to let you seamlessly combine components written by independent people, teams, and organizations."
+  url="https://react.dev/"
+  logo="https://react.dev/favicon-16x16.png"
+  preview="https://react.dev/images/og-home.png"/>
 
 :::
 

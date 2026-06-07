@@ -801,8 +801,8 @@ https://paperlined.org/
 {
   "title": "Frontend Masters Boost - Helping Your Journey to Senior Developer",
   "desc": "Helping Your Journey to Senior Developer",
-  "link": "https://frontendmasters.com/blog/",
-  "logo": "https://frontendmasters.com/favicon.ico",
+  "link": "https://master.dev/blog/",
+  "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
 ```

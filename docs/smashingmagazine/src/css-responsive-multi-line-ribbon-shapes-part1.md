@@ -8,7 +8,7 @@ category:
   - Article(s)
 tag:
   - blog
-  - frontendmasters.com
+  - smashingmagazine.com
   - css
 head:
   - - meta:
@@ -282,7 +282,7 @@ clip-path: polygon(
 );
 ```
 
-Ugh, looks scary! I’m taking advantage of a new set of [<VPIcon icon="iconfont icon-webdev"/>trigonometric functions](https://web.dev/articles/css-trig-functions) that help a bunch with the calculations but probably look foreign and confusing if you’re seeing them for the first time. There is a mathematical explanation behind each value in the snippet that I’d love to explain, but it’s long-winded. That said, I’m more than happy to explain them in greater detail if you drop me a line in the comments.
+Ugh, looks scary! I’m taking advantage of a new set of [**trigonometric functions**](/web.dev/css-trig-functions.md) that help a bunch with the calculations but probably look foreign and confusing if you’re seeing them for the first time. There is a mathematical explanation behind each value in the snippet that I’d love to explain, but it’s long-winded. That said, I’m more than happy to explain them in greater detail if you drop me a line in the comments.
 
 Our second ribbon is completed! Here is the full demo again with both variations.
 

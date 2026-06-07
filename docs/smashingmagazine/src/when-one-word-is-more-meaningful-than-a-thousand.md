@@ -8,7 +8,7 @@ category:
   - Article(s)
 tag: 
   - blog
-  - frontendmasters.com
+  - smashingmagazine.com
   - css
 head:
   - - meta:

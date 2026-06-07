@@ -38,9 +38,9 @@ export const navbarEn = navbar([
         icon: 'https://outcomeschool.com/static/favicons/apple-touch-icon.png',
         link: '/outcomeschool.com/README.md'
       }, {
-        text: 'frontendmasters.com',
-        icon: 'https://frontendmasters.com/favicon.ico',
-        link: '/frontendmasters.com/README.md'
+        text: 'master.dev',
+        icon: 'https://master.dev/favicon.ico',
+        link: '/master.dev/README.md'
       }, {
         text: 'css-tricks.com',
         icon: 'https://css-tricks.com/favicon.svg',

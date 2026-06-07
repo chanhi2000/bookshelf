@@ -115,7 +115,7 @@ Before you begin
 2. Make sure you’re familiar with HTML, CSS, and JavaScript.
 3. If you’re new to PWAs, you might want to read some introductory articles to get a quick overview.
     - [Progressive web apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
-    - [Workbox](https://web.dev/articles/workbox)
+    - [**Workbox**](/web.dev/workbox.md)
 
 ---
 

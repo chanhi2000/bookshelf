@@ -56,7 +56,7 @@ The off-canvas menu — aka *the Hamburger*, if you must — has been hot ever s
 
 ## My journey
 
-Making an off-canvas menu free from heinous JavaScript has always been possible, but not ideal. I wrote up one technique for [**Smashing Magazine**](/smashingmagazine.com/off-canvas-navigation-for-responsive-website.md) in 2013. Later I explored `<dialog>` in an [**absurdly titled post**](/dbushell.com/css-off-canvas-responsive-navigation-revisited.md) where I used the new [**Popover API**](/frontendmasters.com/using-the-popover-api-for-html-tooltips.md)[^1]
+Making an off-canvas menu free from heinous JavaScript has always been possible, but not ideal. I wrote up one technique for [**Smashing Magazine**](/smashingmagazine.com/off-canvas-navigation-for-responsive-website.md) in 2013. Later I explored `<dialog>` in an [**absurdly titled post**](/dbushell.com/css-off-canvas-responsive-navigation-revisited.md) where I used the new [**Popover API**](/master.dev/using-the-popover-api-for-html-tooltips.md)[^1]
 
 [^1]: A mechanism for top-layer accessible components. Popovers can be implemented declaratively in HTML (yay!) or with JavaScript (boo!)
 
@@ -66,8 +66,8 @@ Making an off-canvas menu free from heinous JavaScript has always been possible,
 {
   "title": "Using the Popover API for HTML Tooltips",
   "desc": "We can *mostly* use HTML alone for this API. But here, we'll use CSS to style the ",
-  "link": "/frontendmasters.com/using-the-popover-api-for-html-tooltips.md",
-  "logo": "https://frontendmasters.com/favicon.ico",
+  "link": "/master.dev/using-the-popover-api-for-html-tooltips.md",
+  "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
 ```
@@ -178,7 +178,7 @@ This technique uses the wonderful new [<VPIcon icon="fas fa-globe"/>Invoker Comm
 
 :::
 
-for interactivity. It is similar to the `popover` I mentioned earlier. With a real `<dialog>` we get free focus management and more, as [**Chris Coyier explains**](/frontendmasters.com/whats-the-difference-between-htmls-dialog-element-and-popovers.md). I made a [basic CodePen demo (<VPIcon icon="fa-brands fa-codepen"/>`dbushell`)](https://codepen.io/dbushell/full/KwMrGdd) for the code above.
+for interactivity. It is similar to the `popover` I mentioned earlier. With a real `<dialog>` we get free focus management and more, as [**Chris Coyier explains**](/master.dev/whats-the-difference-between-htmls-dialog-element-and-popovers.md). I made a [basic CodePen demo (<VPIcon icon="fa-brands fa-codepen"/>`dbushell`)](https://codepen.io/dbushell/full/KwMrGdd) for the code above.
 
 ---
 

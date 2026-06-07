@@ -2,7 +2,7 @@
 lang: en-US
 title: "Learn Laravel by Building a Medium Clone"
 description: "Article(s) > Learn Laravel by Building a Medium Clone"
-icon: fa-brands fa-php
+icon: fa-brands fa-laravel
 category:
   - PHP
   - Laravel
@@ -13,6 +13,7 @@ tag:
   - freecodecamp.org
   - php
   - laravel
+  - php-laravel
   - youtube
   - crashcourse
 head:

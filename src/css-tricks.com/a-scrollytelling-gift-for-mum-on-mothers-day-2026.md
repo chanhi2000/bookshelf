@@ -9,7 +9,7 @@ category:
   - Article(s)
 tag:
   - blog
-  - frontendmasters.com
+  - master.dev
   - css
   - js
   - javascript

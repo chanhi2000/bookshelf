@@ -121,8 +121,8 @@ The only requirement is to have equal-width items:
 {
   "title": "Infinite Marquee Animation using Modern CSS",
   "desc": "A row of logos that animate forever perfectly and don't have any duplicated HTML or JavaScript at all is quite a trick. Thanks modern CSS! ",
-  "link": "/frontendmasters.com/infinite-marquee-animation-using-modern-css.md",
-  "logo": "https://frontendmasters.com/favicon.ico",
+  "link": "/master.dev/infinite-marquee-animation-using-modern-css.md",
+  "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
 ```

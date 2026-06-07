@@ -50,7 +50,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/08/light-dark.we
   logo="https://css-tricks/favicon.svg"
   preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/08/light-dark.webp"/>
 
-One of the newer CSS features that has piqued my interest: the [<VPIcon icon="iconfont icon-css-tricks"/>`light-dark()`](https://css-tricks.com/almanac/functions/l/light-dark/) function. And I’ve been closely following it ever since [<VPIcon icon="iconfont icon-web-dev"/>it became Baseline back in May 2024](https://web.dev/articles/light-dark).
+One of the newer CSS features that has piqued my interest: the [<VPIcon icon="iconfont icon-css-tricks"/>`light-dark()`](https://css-tricks.com/almanac/functions/l/light-dark/) function. And I’ve been closely following it ever since [**it became Baseline back in May 2024**](/web.dev/light-dark.md).
 
 <BaselineStatus featureid="light-dark" />
 

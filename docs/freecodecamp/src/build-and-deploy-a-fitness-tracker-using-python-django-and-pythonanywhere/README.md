@@ -272,7 +272,7 @@ python manage.py startapp tracker
 
 This create a new folder called tracker with the following following structure:
 
-![The image shows the folder strucutre created by after running the startapp command](https://cdn.hashnode.com/uploads/covers/69bdd408475ca17974459537/cb07105a-6e65-49f9-9c7a-d5a64db42b49.png)
+![The image shows the folder structure created by after running the startapp command](https://cdn.hashnode.com/uploads/covers/69bdd408475ca17974459537/cb07105a-6e65-49f9-9c7a-d5a64db42b49.png)
 
 Each file has its own purpose. You'll work with <VPIcon icon="fa-brands fa-python"/>`models.py`, <VPIcon icon="fa-brands fa-python"/>`views.py` and <VPIcon icon="fa-brands fa-python"/>`admin.py` throughout this project.
 

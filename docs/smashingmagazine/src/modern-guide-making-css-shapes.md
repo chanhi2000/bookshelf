@@ -852,13 +852,13 @@ There’s a lot of math involved with this, specifically trigonometric functions
 {
   "title": "Creating Flower Shapes using CSS Mask & Trigonometric Functions",
   "desc": "Creating unusual shapes is always a fun exercise and a good way to practice your CSS skills. One might argue that SVG is better for this job, but nowadays we have a lot of new CSS tricks that allow us to create shapes with a clean and optimized code. Through this two-article series, we will […]",
-  "link": "/frontendmasters.com/creating-flower-shapes-using-css-mask-trigonometric-functions.md",
-  "logo": "https://frontendmasters.com/favicon.ico",
+  "link": "/master.dev/creating-flower-shapes-using-css-mask-trigonometric-functions.md",
+  "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
 ```
 
-- “[**Creating Wavy Circles with Fancy Animations in CSS**](/frontendmasters.com/creating-wavy-circles-with-fancy-animations.md)” (Frontend Masters)
+- “[**Creating Wavy Circles with Fancy Animations in CSS**](/master.dev/creating-wavy-circles-with-fancy-animations.md)” (Frontend Masters)
 
 As always, remember that [<VPIcon icon="fas fa-globe"/>my online collection](https://css-shape.com/) is your Number One resource for all things related to CSS shapes. The math has already been worked out for your convenience, but you also have the references you need to understand how it works under the hood.
 
@@ -929,9 +929,9 @@ Please also use it as inspiration for your own shape-shifting experiments. And p
 - “[Tricks to Cut Corners Using CSS Mask and Clip-Path Properties](https://css-tricks.com/cut-corners-using-css-mask-and-clip-path-properties/)”
 - “[How to Create a Section Divider Using CSS](https://freecodecamp.org/news/section-divider-using-css/)” (freeCodeCamp Blog)
 - “[Re-Creating The Pop-Out Hover Effect With Modern CSS (Part 1)](https://smashingmagazine.com/2023/09/re-creating-pop-out-hover-effect-css-part1/)” (Smashing Magazine)
-- “[Creating Flower Shapes using CSS Mask & Trigonometric Functions](https://frontendmasters.com/blog/creating-flower-shapes-using-css-mask-trigonometric-functions/)” (Frontend Masters)
-- “[Creating Wavy Circles with Fancy Animations in CSS](https://frontendmasters.com/blog/creating-wavy-circles-with-fancy-animations/)” (Frontend Masters)
-- “[Mask Compositing: The Crash Course](https://css-tricks.com/mask-compositing-the-crash-course/)” by Ana Tudor (CSS-Tricks)
+- “[**Creating Flower Shapes using CSS Mask & Trigonometric Functions**](/master.dev/creating-flower-shapes-using-css-mask-trigonometric-functions.md)” (Frontend Masters)
+- “[**Creating Wavy Circles with Fancy Animations in CSS**](/master.dev/creating-wavy-circles-with-fancy-animations.md)” (Frontend Masters)
+- “[**Mask Compositing: The Crash Course**](/css-tricks.com/mask-compositing-the-crash-course.md)” by Ana Tudor (CSS-Tricks)
 
 :::
 

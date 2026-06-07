@@ -62,7 +62,7 @@ This issue of **What’s !important** brings you `clip-path` jigsaws, a view tra
   :default-tab="['css','result']"
   :theme="dark"/>
 
-[<VPIcon icon="iconfont icon-css-tricks"/>Amit Sheen](https://css-tricks.com/author/amitsheen/) demonstrated [how to create a full jigsaw puzzle using `clip-path`](https://frontendmasters.com/blog/creating-puzzle-peices-in-css/). While I doubt that you’ll need to create a jigsaw puzzle anytime soon, Amit’s walkthrough offers a fantastic way to acquaint yourself with this evolving CSS property that’s becoming more and more popular every day.
+[<VPIcon icon="iconfont icon-css-tricks"/>Amit Sheen](https://css-tricks.com/author/amitsheen/) demonstrated [**how to create a full jigsaw puzzle using `clip-path`**](/master.dev/creating-puzzle-peices-in-css.md). While I doubt that you’ll need to create a jigsaw puzzle anytime soon, Amit’s walkthrough offers a fantastic way to acquaint yourself with this evolving CSS property that’s becoming more and more popular every day.
 
 For example, Chrome Canary shipped [rounded `clip-path` polygons (<VPIcon icon="fa-brands fa-bluesky"/>`yisibl.bsky.social`)](https://bsky.app/profile/yisibl.bsky.social/post/3mj26ecigjk2x) only last week:
 
@@ -109,7 +109,7 @@ Here’s my favorite demo from the site:
 
 ## How name-only containers can be used for scoping
 
-Chris Coyier discussed the use of [**name-only containers for scoping**](/frontendmasters.com/name-only-containers-the-scoping-we-needed.md), and how they compare to class names and `@scope`. Personally, I prefer `@scope` because it tends to result in cleaner HTML, and it seems that Chris has updated his stance to be more `@scope`-aligned too, but it really comes down to personal preference. What’s your take on it?
+Chris Coyier discussed the use of [**name-only containers for scoping**](/master.dev/name-only-containers-the-scoping-we-needed.md), and how they compare to class names and `@scope`. Personally, I prefer `@scope` because it tends to result in cleaner HTML, and it seems that Chris has updated his stance to be more `@scope`-aligned too, but it really comes down to personal preference. What’s your take on it?
 
 ---
 

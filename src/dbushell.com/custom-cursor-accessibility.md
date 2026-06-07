@@ -1,0 +1,1 @@
+https://dbushell.com/2025/10/27/custom-cursor-accessibility

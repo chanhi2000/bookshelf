@@ -8,19 +8,21 @@ category:
   - LLM
   - Anthropic
   - Claude
+  - Productivity
   - Obsedian
   - Youtube
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
+  - productivity
+  - obsedian
   - ai
   - artificial-intelligence
   - llm
   - large-language-models
   - anthropic
   - claude
-  - obsedian
   - youtube
   - crashcourse
 head:
@@ -46,9 +48,9 @@ cover: https://cdn.hashnode.com/uploads/covers/5f68e7df6dfc523d0a894e7c/77f3c459
 
 ```component VPCard
 {
-  "title": "Claude > Article(s)",
+  "title": "Obsedian > Article(s)",
   "desc": "Article(s)",
-  "link": "/ai/claude/articles/README.md",
+  "link": "/tool/obsedian/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -56,9 +58,9 @@ cover: https://cdn.hashnode.com/uploads/covers/5f68e7df6dfc523d0a894e7c/77f3c459
 
 ```component VPCard
 {
-  "title": "Obsedian > Article(s)",
+  "title": "Claude > Article(s)",
   "desc": "Article(s)",
-  "link": "/tool/obsedian/articles/README.md",
+  "link": "/ai/claude/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

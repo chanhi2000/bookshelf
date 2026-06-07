@@ -99,6 +99,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "css-auditing-tools", // 2021-06-24
     "has-native-css-parent-selector", // 2021-06-09
     "accessible-svg-patterns-comparison", // 2021-05-26
+    "content-fundamental-part-web-design-process", // 2021-04-21
     "css-overflow-issues", // 2021-04-14
     "responsive-image-effects-css-gradients-aspect-ratio", // 2021-02-23
     "things-you-can-do-with-css-today", // 2021-02-01
@@ -124,6 +125,7 @@ const Y2019: SidebarYeargroupTemplate = {
     // END: 2019
     "display-two-value", // 2019-04-08
     "css-alignment", // 2019-03-28
+    "aspect-ratio-unit-css", // 2019-03-11
   ],
 }
 
@@ -196,6 +198,7 @@ const Y2013: SidebarYeargroupTemplate = {
     "other-interface-atomic-design-sass", // 2013-08-02
     "the-history-of-the-bem-methodolog", // 2013-02-21
     "the-importance-of-sections", // 2013-01-18
+    "off-canvas-navigation-for-responsive-website", // 2013-01-15
   ],
 }
 
@@ -280,6 +283,7 @@ export const template: SidebarInfoTemplate = {
       "useful-javascript-libraries-jquery-plugins-part-2", // 2012-09-26
       "client-side-templating", // 2012-12-05
       // END: 2012js
+      "off-canvas-navigation-for-responsive-website", // 2013-01-15
       "the-history-of-the-bem-methodolog", // 2013-02-21
       // END: 2013js
       "introduction-to-custom-elements", // 2014-03-04
@@ -401,6 +405,7 @@ export const template: SidebarInfoTemplate = {
       "classes-where-were-going-we-dont-need-classes", // 2012-06-19
       "road-reusable-html-components", // 2012-10-23
       // END: 2012css
+      "off-canvas-navigation-for-responsive-website", // 2013-01-15
       "the-importance-of-sections", // 2013-01-18
       "the-history-of-the-bem-methodolog", // 2013-02-21
       "other-interface-atomic-design-sass", // 2013-08-02
@@ -428,6 +433,7 @@ export const template: SidebarInfoTemplate = {
       "css-grid-2", // 2018-07-03
       "common-css-issues-front-end-projects", // 2018-12-27
       // END: 2018css
+      "aspect-ratio-unit-css", // 2019-03-11
       "css-alignment", // 2019-03-28
       "display-two-value", // 2019-04-08
       // END: 2019css
@@ -582,6 +588,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2018system-design
       // END: 2019system-design
       // END: 2020system-design
+      "content-fundamental-part-web-design-process", // 2021-04-21
       // END: 2021system-design
       // END: 2022system-design
       // END: 2023system-design

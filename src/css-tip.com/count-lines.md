@@ -87,8 +87,8 @@ Here is a version where you can edit the content. The number of lines will adjus
 {
   "title": "How to Get the Width/Height of Any Element in Only CSS",
   "desc": "Unlike JavaScript, there is no simple built-in method in CSS to access an element's width and height. But using some (call it hacky) modern CSS techniques, we can get our hands on the number and even use it.",
-  "link": "/frontendmasters.com/how-to-get-the-width-height-of-any-element-in-only-css.md",
-  "logo": "https://frontendmasters.com/favicon.ico",
+  "link": "/master.dev/how-to-get-the-width-height-of-any-element-in-only-css.md",
+  "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
 ```

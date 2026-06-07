@@ -214,8 +214,7 @@ Progressive enhancement with CSS and subgrid is familiar and straightforward. Us
 
 Chrome, Edge, Firefox and Safari all have great CSS grid DevTools, and Chrome, Edge and Firefox have specific tools for helping with subgrid. [<VPIcon icon="fa-brands fa-chrome"/>Chrome announced their tools in 115](https://developer.chrome.com/blog/new-in-devtools-115#subgrid) while Firefox has had them for a year or more.
 
-![Screenshot preview of the subgrid badge found on elements in the Elements
-panel.](https://web.dev/articles/css-subgrid/images/subgrid8.avif)
+![Screenshot preview of the subgrid badge found on elements in the Elements panel.](https://web.dev/articles/css-subgrid/images/subgrid8.avif)
 
 The subgrid badge acts like the grid badge but visually distinguishes which grids are subgrids and which aren't.
 

@@ -2,7 +2,7 @@
 lang: en-US
 title: "Designing For Accessibility And Inclusion"
 description: "Article(s) > Designing For Accessibility And Inclusion"
-icon: fas fa-pen-ruler
+icon: fas fa-accessible-icon
 category: 
   - Design
   - System

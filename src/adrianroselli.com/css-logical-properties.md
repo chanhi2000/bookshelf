@@ -256,7 +256,7 @@ Bear in mind that in some communities, non-native speakers may be under-employed
 
 ::: note Update: 11 August 2025
 
-Chris Coyier asks, [**Should we NEVER use non-logical properties?**](/frontendmasters.com/should-we-never-use-non-logical-properties.md) He outlines the places where we can’t yet, but broadly agrees we should use them everywhere we can.
+Chris Coyier asks, [**Should we NEVER use non-logical properties?**](/master.dev/should-we-never-use-non-logical-properties.md) He outlines the places where we can’t yet, but broadly agrees we should use them everywhere we can.
 
 :::
 

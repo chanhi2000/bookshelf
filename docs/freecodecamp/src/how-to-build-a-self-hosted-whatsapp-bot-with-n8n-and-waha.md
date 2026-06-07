@@ -63,7 +63,7 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/28affe4d
 
 ```component VPCard
 {
-  "title": "Data Science > Article(s)",
+  "title": "PostgreSQL > Article(s)",
   "desc": "Article(s)",
   "link": "/data-science/postgresql/articles/README.md",
   "logo": "/images/ico-wind.svg",

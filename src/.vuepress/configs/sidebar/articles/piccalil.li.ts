@@ -5,6 +5,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement", // 2026-05-28
+    "framework-agnostic-design-systems-part-1", // 2026-05-21
+    "three-stoic-principles-for-better-web-accessibility", // 2026-04-30
     "accessible-faux-nested-interactive-controls", // 2026-01-15
     "date-is-out-and-temporal-is-in", // 2026-01-07
   ]
@@ -187,6 +190,18 @@ export const template: SidebarInfoTemplate = {
   faviconPath: 'https://piccalil.li/favicons/apple-touch-icon.png',
   linksMap: new Map([
     [
+    "js-node", [
+      // END: 2019js-node
+      // END: 2020js-node
+      // END: 2021js-node
+      // END: 2022js-node
+      // END: 2023js-node
+      // END: 2024js-node
+      // END: 2025js-node
+      "framework-agnostic-design-systems-part-1", // 2026-05-21
+      // END: 2026js-node
+      // END: js-node
+    ]],[
     "js", [
       "create-a-semantic-break-out-button-to-make-an-entire-element-clickable", // 2019-09-27
       // END: 2019js
@@ -201,6 +216,7 @@ export const template: SidebarInfoTemplate = {
       "why-are-my-view-transitions-blinking", // 2025-12-11
       // END: 2025js
       "date-is-out-and-temporal-is-in", // 2026-01-07
+      "navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement", // 2026-05-28
       // END: 2026js
       // END: js
     ]],[
@@ -231,8 +247,23 @@ export const template: SidebarInfoTemplate = {
       "why-are-my-view-transitions-blinking", // 2025-12-11
       // END: 2025css
       "accessible-faux-nested-interactive-controls", // 2026-01-15
+      "framework-agnostic-design-systems-part-1", // 2026-05-21
+      "navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement", // 2026-05-28
       // END: 2026css
       // END: css
+    ]],[
+    "system-design", [
+      // END: 2019system-design
+      // END: 2020system-design
+      // END: 2021system-design
+      // END: 2022system-design
+      // END: 2023system-design
+      // END: 2024system-design
+      // END: 2025system-design
+      "three-stoic-principles-for-better-web-accessibility", // 2026-04-30
+      "framework-agnostic-design-systems-part-1", // 2026-05-21
+      // END: 2026system-design
+      // END: system-design
     ]],[
     "all", [
       Y2026,

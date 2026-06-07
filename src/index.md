@@ -47,10 +47,10 @@ projects:
     name: outcomeschool.com
     desc: "Outcome School | Get High Paying Tech Job"
     link: /outcomeschool.com/README.md
-  - icon: https://frontendmasters.com/favicon.ico
-    name: frontendmasters.com
+  - icon: https://master.dev/favicon.ico
+    name: master.dev
     desc: "Learn JavaScript, React, and TypeScript to Node.js, Fullstack, and Backend | Frontend Masters"
-    link: /frontendmasters.com/README.md
+    link: /master.dev/README.md
   - icon: https://css-tricks.com/favicon.svg
     name: css-tricks.com
     desc: "CSS-Tricks - A Website About Making Websites"

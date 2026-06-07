@@ -36,6 +36,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "why-isnt-my-3d-view-transition-working", // 2026-06-12
+    "creating-memorable-web-experiences-a-modern-css-toolkit", // 2026-06-10
+    "scroll-driven-scroll-triggered-scroll-states-and-view-transitions", // 2026-06-08
     "another-stab-at-the-perfect-css-pie-chart-sans-javascript", // 2026-06-04
     "astro-markdown-component-utility-any-framework", // 2026-06-01
     "whats-important-12", // 2026-05-29
@@ -594,6 +597,9 @@ export const template: SidebarInfoTemplate = {
       "revealing-text-with-css-letter-spacing", // 2026-05-27
       "whats-important-12", // 2026-05-29
       "another-stab-at-the-perfect-css-pie-chart-sans-javascript", // 2026-06-04
+      "scroll-driven-scroll-triggered-scroll-states-and-view-transitions", // 2026-06-08
+      "creating-memorable-web-experiences-a-modern-css-toolkit", // 2026-06-10
+      "why-isnt-my-3d-view-transition-working", // 2026-06-12
       // END: 2026css
       // END: css
     ]],[

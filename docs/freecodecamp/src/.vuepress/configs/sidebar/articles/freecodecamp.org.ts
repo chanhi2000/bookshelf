@@ -2008,11 +2008,38 @@ const HOW_TO_BUILD_BLUETOOTH_APPLICATIONS_WITH_ZEPHYR_OS_A_HANDBOOK_FOR_DEVS: Si
   ]
 }
 
+const HOW_TO_BUILD_PRODUCTION_GRADE_REST_APIS_WITH_DART_AND_DART_FROG: SidebarInfoSubgroupTemplate = { // 2026-06-02
+  text: "From Flutter to Backend: How to Build Production-Grade REST APIs with Dart and Dart Frog",
+  collapsible: true,
+  icon: 'fa-brands fa-dart-lang',
+  subPath: 'how-to-build-production-grade-rest-apis-with-dart-and-dart-frog',
+  children: [
+    'README'
+    // TODO: 페이지 생성
+  ]
+}
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
   children: [
     // END: 2026
+    "building-a-website-what-matters-more-than-your-tech-stack", // 2026-06-14
+    "how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac", // 2026-06-14
+    "mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data", // 2026-06-13
+    "how-large-scale-platforms-handle-millions-of-daily-transactions", // 2026-06-13
+    "the-saga-pattern-in-node-js-roll-back-distributed-transactions-across-microservices", // 2026-06-13
+    "build-pdf-crop-tool-javascript", // 2026-06-13
+    "geopolitical-risk-isn-t-one-thing-i-built-a-python-framework-to-prove-it", // 2026-06-13
+    "how-to-build-a-case-converter-tool", // 2026-06-12
+    HOW_TO_BUILD_PRODUCTION_GRADE_REST_APIS_WITH_DART_AND_DART_FROG, // 2026-06-12
+    "how-to-scale-laravel-applications-for-high-traffic-production-systems", // 2026-06-12
+    "web-scraping-for-beginners-2026", // 2026-06-10
+    "how-to-build-a-postgresql-backed-job-queue-in-go", // 2026-06-10
+    "open-source-tools-every-stem-student-should-know-about", // 2026-06-09
+    "database-version-control-with-liquibase-and-spring-boot", // 2026-06-09
+    "how-to-optimize-enterprise-knowledge-graphs-for-scalable-digital-product-platforms", // 2026-06-09
+    "how-to-build-a-browser-based-pdf-metadata-editor-using-javascript", // 2026-06-07
+    "how-to-choose-the-best-stock-market-api-for-fintech-projects-and-ai-agents", // 2026-06-07
     "how-attribute-based-access-control-helps-you-write-better-authorization-rules", // 2026-06-05
     "backend-challenges-teams-face-when-processing-repeat-payments", // 2026-06-05
     "how-to-preprocess-medical-images-for-machine-learning", // 2026-06-05
@@ -3814,6 +3841,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2025java-spring
         "how-to-build-your-own-circuit-breaker-in-spring-boot-and-really-understand-resilience4j", // 2026-02-17
         "how-to-deploy-a-spring-boot-app-with-mysql-on-amazon-eks", // 2026-06-04
+        "database-version-control-with-liquibase-and-spring-boot", // 2026-06-09
         // END: 2026java-spring
         // END: java-spring
       ]], [
@@ -3856,6 +3884,13 @@ export const template: SidebarInfoTemplate = {
         "streamline-search-functionality-in-web-apps-with-elasticsearch", // 2026-04-17
         // END: 2026java-elasticsearch
         // END: java-elasticsearch
+      ]], [
+      "java-liquidbase", [
+        // END: 2024java-liquidbase
+        // END: 2025java-liquidbase
+        "database-version-control-with-liquibase-and-spring-boot", // 2026-06-09
+        // END: 2026java-liquidbase
+        // END: java-liquidbase
       ]], [
       "scala", [
         "how-to-read-and-write-deeply-partitioned-files-using-apache-spark", // 2025-09-01
@@ -4011,6 +4046,9 @@ export const template: SidebarInfoTemplate = {
         "build-pdf-page-numbering-tool-javascript", // 2026-05-30
         "how-to-build-a-browser-based-pdf-organizer-tool-using-javascript", // 2026-06-04
         "how-to-understand-the-safe-integer-limit-in-javascript", // 2026-06-04
+        "how-to-build-a-browser-based-pdf-metadata-editor-using-javascript", // 2026-06-07
+        "how-to-build-a-case-converter-tool", // 2026-06-12
+        "build-pdf-crop-tool-javascript", // 2026-06-13
         // END: 2026js
         // END: js
       ]], [
@@ -4047,6 +4085,7 @@ export const template: SidebarInfoTemplate = {
         "stripe-webhooks-background-jobs", // 2026-04-23
         SAAS_PAYMENT_FLOW_STRIPE_WEBHOOKS_EMAIL, // 2026-05-09
         "technical-design-decisions-educational-app-llms", // 2026-06-04
+        "mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data", // 2026-06-13
         // END: 2026ts
         // END: ts
       ]], [
@@ -4337,6 +4376,7 @@ export const template: SidebarInfoTemplate = {
         "build-professional-web-scrapers-that-actually-work", // 2026-05-30
         "stop-trusting-ai-code-blindly-a-react-code-refactoring-case-study", // 2026-06-04
         "how-to-run-an-llm-locally-on-your-mobile-phone-with-qvac-and-expo", // 2026-06-04
+        "how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac", // 2026-06-14
         // END: 2026js-react
         // END: js-react
       ]], [
@@ -4471,6 +4511,7 @@ export const template: SidebarInfoTemplate = {
         "build-professional-web-scrapers-that-actually-work", // 2026-05-30
         "build-your-own-ai-agent", // 2026-06-02
         "how-attribute-based-access-control-helps-you-write-better-authorization-rules", // 2026-06-05
+        "web-scraping-for-beginners-2026", // 2026-06-10
         // END: 2026js-express
         // END: js-express
       ]], [
@@ -4495,6 +4536,7 @@ export const template: SidebarInfoTemplate = {
         "learn-nestjs-for-beginners", // 2025-12-03
         // END: 2025js-nest
         "rest-api-documentation-with-scalar", // 2026-02-26
+        "the-saga-pattern-in-node-js-roll-back-distributed-transactions-across-microservices", // 2026-06-13
         // END: 2026js-nest
         // END: js-nest
       ]], [
@@ -4680,6 +4722,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-high-ranking-seo-landing-page", // 2026-05-06
         "how-declarative-partial-updates-work-in-html", // 2026-05-30
         "how-to-build-responsive-designs-and-scroll-effects-with-css-container-queries", // 2026-06-03
+        "how-to-build-a-case-converter-tool", // 2026-06-12
         // END: 2026css
         // END`: css
       ]], [
@@ -4915,6 +4958,7 @@ export const template: SidebarInfoTemplate = {
         "the-aws-finops-guide-for-series-a-startups", // 2026-06-03
         "how-to-automate-pdf-data-extraction-using-python", // 2026-06-04
         "backend-challenges-teams-face-when-processing-repeat-payments", // 2026-06-05
+        "how-large-scale-platforms-handle-millions-of-daily-transactions", // 2026-06-13
         // END: 2026py
         // END: py
       ]], [
@@ -5014,6 +5058,7 @@ export const template: SidebarInfoTemplate = {
         "why-your-deep-learning-model-isn-t-learning-data-problems-in-medical-imaging", // 2026-05-30
         "beyond-nvidia-where-the-ai-infra-trade-actually-shows-up", // 2026-05-30
         "how-to-preprocess-medical-images-for-machine-learning", // 2026-06-05
+        "geopolitical-risk-isn-t-one-thing-i-built-a-python-framework-to-prove-it", // 2026-06-13
         // END: 2026py-numpy
         // END: py-numpy
       ]], [
@@ -5106,6 +5151,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-clean-time-series-data-in-python", // 2026-05-18
         "cluster-randomization-for-llm-based-tools-in-python", // 2026-05-23
         "beyond-nvidia-where-the-ai-infra-trade-actually-shows-up", // 2026-05-30
+        "how-to-choose-the-best-stock-market-api-for-fintech-projects-and-ai-agents", // 2026-06-07
+        "geopolitical-risk-isn-t-one-thing-i-built-a-python-framework-to-prove-it", // 2026-06-13
         // END: 2026py-pandas
         // END: py-pandas
       ]], [
@@ -5285,6 +5332,7 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_AND_SHIP_PRODUCTION_REST_APIS_WITH_DART_AND_SHELF, // 2026-06-01
         "how-to-build-production-grade-rest-apis-with-dart-and-serverpod", // 2026-06-03
         "what-production-ready-actually-means-in-flutter", // 2026-06-04
+        HOW_TO_BUILD_PRODUCTION_GRADE_REST_APIS_WITH_DART_AND_DART_FROG, // 2026-06-12
         // END: 2026dart
         // END: dart
       ]], [
@@ -5362,6 +5410,7 @@ export const template: SidebarInfoTemplate = {
         "build-and-deploy-multi-architecture-docker-apps-on-google-cloud-using-arm-nodes", // 2026-04-13
         "how-to-create-dynamic-emails-in-go-with-react-email", // 2026-04-21
         "how-to-dockerize-a-go-application-full-step-by-step-walkthrough", // 2026-04-30
+        "how-to-build-a-postgresql-backed-job-queue-in-go", // 2026-06-10
         // END: 2026go
         // END: go
       ]], [
@@ -5518,6 +5567,8 @@ export const template: SidebarInfoTemplate = {
         "code-a-full-stack-instagram-clone-with-laravel-and-mongodb", // 2025-04-02
         "learn-laravel-by-building-a-medium-clone", // 2025-04-18
         // END: 2025php-laravel
+        "how-to-scale-laravel-applications-for-high-traffic-production-systems", // 2026-06-12
+        // END: 2026php-laravel
         // END: php-laravel
       ]], [
       "php-symphony", [
@@ -5700,6 +5751,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-avoid-devops-mistakes", // 2026-05-15
         "top-5-proxy-providers-for-developers", // 2026-05-28
         "the-tradeoff-that-slows-production-teams-down-flexibility-vs-actually-shipping", // 2026-05-30
+        "building-a-website-what-matters-more-than-your-tech-stack", // 2026-06-14
         // END: 2026devops
         // END: devops
       ]], [
@@ -5951,6 +6003,7 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_AND_SHIP_PRODUCTION_REST_APIS_WITH_DART_AND_SHELF, // 2026-06-01
         "how-to-deploy-a-spring-boot-app-with-mysql-on-amazon-eks", // 2026-06-04
         "docker-full-course", // 2026-06-04
+        HOW_TO_BUILD_PRODUCTION_GRADE_REST_APIS_WITH_DART_AND_DART_FROG, // 2026-06-12
         // END: 2026docker
         // END: docker
       ]], [
@@ -6208,6 +6261,7 @@ export const template: SidebarInfoTemplate = {
         "top-heroku-alternatives-for-deployment", // 2026-02-12
         HOW_TO_BUILD_AND_SHIP_PRODUCTION_REST_APIS_WITH_DART_AND_SHELF, // 2026-06-01
         "how-to-build-production-grade-rest-apis-with-dart-and-serverpod", // 2026-06-03
+        HOW_TO_BUILD_PRODUCTION_GRADE_REST_APIS_WITH_DART_AND_DART_FROG, // 2026-06-12
         // END: 2026fly
         // END: fly
       ]], [
@@ -6553,6 +6607,7 @@ export const template: SidebarInfoTemplate = {
         "learn-databases-and-sql-from-harvard-university", // 2025-10-09
         // END: 2025mysql
         "learn-sql-course-for-beginners-in-spanish", // 2026-03-26
+        "how-to-scale-laravel-applications-for-high-traffic-production-systems", // 2026-06-12
         // END: 2026mysql
         // END: mysql
       ]], [
@@ -6590,6 +6645,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-multi-tenant-saas-platform-with-next-js-express-and-prisma", // 2026-04-29
         SAAS_PAYMENT_FLOW_STRIPE_WEBHOOKS_EMAIL, // 2026-05-09
         "how-to-build-a-self-hosted-whatsapp-bot-with-n8n-and-waha", // 2026-05-11
+        "how-to-build-a-postgresql-backed-job-queue-in-go", // 2026-06-10
         // END: 2026postgresql
         // END: postgresql
       ]], [
@@ -6665,6 +6721,8 @@ export const template: SidebarInfoTemplate = {
         "build-a-rate-limiter-with-redis-and-python", // 2025-10-04
         "how-to-persist-state-in-time-series-models-with-docker-and-redis", // 2025-10-09
         // END: 2025redis
+        "how-to-scale-laravel-applications-for-high-traffic-production-systems", // 2026-06-12
+        // END: 2026redis
         // END: redis
       ]], [
       "graphql", [
@@ -6854,6 +6912,8 @@ export const template: SidebarInfoTemplate = {
         "how-captchas-affect-accessibility-problems-and-alternatives", // 2026-05-28
         "how-to-design-apis-for-ai-agents", // 2026-05-29
         "how-to-build-an-ai-support-agent-that-knows-when-not-to-answer-tickets", // 2026-06-01
+        "how-to-optimize-enterprise-knowledge-graphs-for-scalable-digital-product-platforms", // 2026-06-09
+        "how-large-scale-platforms-handle-millions-of-daily-transactions", // 2026-06-13
         // END: 2026system-design
         // END: system-design
       ]], [
@@ -7143,6 +7203,7 @@ export const template: SidebarInfoTemplate = {
         "rag-explained-simply-with-a-real-project", // 2026-05-29
         "how-contextual-embeddings-and-hybrid-search-fix-retrieval-failures", // 2026-05-30
         "build-your-own-ai-agent", // 2026-06-02
+        "mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data", // 2026-06-13
         // END: 2026langchain
         // END: langchain
       ]], [
@@ -7405,6 +7466,7 @@ export const template: SidebarInfoTemplate = {
         "tools-digital-nomads-need-in-2026", // 2026-05-16
         "how-to-avoid-rebuilding-infrastructure-for-every-new-project", // 2026-05-22
         "how-wearable-iot-enables-real-time-fall-detection-and-alerts", // 2026-05-30
+        "open-source-tools-every-stem-student-should-know-about", // 2026-06-09
         // END: 2026coen
         // END: coen
       ]], [

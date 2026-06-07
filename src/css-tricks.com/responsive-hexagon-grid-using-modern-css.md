@@ -148,8 +148,8 @@ There are fewer points inside the polygon, and we replaced the magic number `1.1
 {
   "title": "Drawing CSS Shapes using corner-shape",
   "desc": "After you've got a `border-radius`, you can control the shape of the corner with `corner-shape`, which unlocks a simpler and more powerful way to make shapes compared to `clip-path()`.",
-  "link": "/frontendmasters.com/drawing-css-shapes-using-corner-shape.md",
-  "logo": "https://frontendmasters.com/favicon.ico",
+  "link": "/master.dev/drawing-css-shapes-using-corner-shape.md",
+  "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
 ```
