@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Run Open Source LLMs Locally and in the Cloud"
 description: "Article(s) > How to Run Open Source LLMs Locally and in the Cloud"
-icon: fas fa-language
+icon: iconfont icon-ollama
 category:
   - AI
   - LLM
@@ -40,7 +40,7 @@ cover: https://cdn.hashnode.com/uploads/covers/5f68e7df6dfc523d0a894e7c/5e964c21
 
 ```component VPCard
 {
-  "title": "LLM > Article(s)",
+  "title": "Ollama > Article(s)",
   "desc": "Article(s)",
   "link": "/ai/ollama/articles/README.md",
   "logo": "/images/ico-wind.svg",

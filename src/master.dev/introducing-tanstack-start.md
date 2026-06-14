@@ -56,7 +56,7 @@ cover: https://master.dev/blog/wp-json/social-image-generator/v1/image/4810
   logo="https://master.dev/favicon.ico"
   preview="https://master.dev/blog/wp-json/social-image-generator/v1/image/4810"/>
 
-The best way to think about[<VPIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest)is that it’s a thin server layer atop the[<VPIcon icon="fas fa-globe"/>TanStack Router](https://tanstack.com/router/latest)we[**already know and love**](/master.dev/introducing-tanstack-router.md); that means we don’t lose a single thing from TanStack Router. Not only that, but the nature of this server layer allows it to side-step the pain points other web meta-frameworks suffer from.
+The best way to think about[<VPIcon icon="iconfont icon-tanstack"/>TanStack Start](https://tanstack.com/start/latest)is that it’s a thin server layer atop the [<VPIcon icon="iconfont icon-tanstack"/>TanStack Router](https://tanstack.com/router/latest)we[**already know and love**](/master.dev/introducing-tanstack-router.md); that means we don’t lose a single thing from TanStack Router. Not only that, but the nature of this server layer allows it to side-step the pain points other web meta-frameworks suffer from.
 
 This is a post I’ve been looking forward to writing for a long time; it’s also a difficult one to write.
 
@@ -96,7 +96,7 @@ With SSR, the picture looks more like this
 
 ![](https://i0.wp.com/master.dev/blog/wp-content/uploads/2024/12/ssr-render.png?resize=788%2C884&ssl=1)
 
-The server sends down the complete, finished page that the user can see immediately. We do still need to load our scripts and hydrate, so our page can be*interactive*. But that’s usually fast, and the user will still have content to see while that happens.
+The server sends down the complete, finished page that the user can see immediately. We do still need to load our scripts and hydrate, so our page can be *interactive*. But that’s usually fast, and the user will still have content to see while that happens.
 
 Our hypothetical user now looks like this, since the server is responding with a full page the user can see.
 
@@ -112,19 +112,19 @@ All modern meta-frameworks support this, and our picture now looks like this
 
 ![](https://i0.wp.com/master.dev/blog/wp-content/uploads/2024/12/ssr-streaming-user.png?resize=822%2C500&ssl=1)
 
-To put a finer point on it, the server does still initiate the request for our slow data*immediately*, on the server during our initial navigation. It just doesn’t block the initial render, and instead*pushes down*the data when ready. We’ll look at streaming with Start later in this post.
+To put a finer point on it, the server does still initiate the request for our slow data *immediately*, on the server during our initial navigation. It just doesn’t block the initial render, and instead *pushes down* the data when ready. We’ll look at streaming with Start later in this post.
 
 ### Why did we ever do client-rendering?
 
-I’m not here to tear down client-rendered apps. They were, and frankly*still are*an incredible way to ship deeply interactive user experiences with JavaScript frameworks like React and Vue. The fact of the matter is, server rendering a web app built with React was tricky to get right. You not only needed to server render and send down the HTML for the page the user requested, but also send down the*data*for that page, and hydrate everything*just right*on the client.
+I’m not here to tear down client-rendered apps. They were, and frankly*still are* an incredible way to ship deeply interactive user experiences with JavaScript frameworks like React and Vue. The fact of the matter is, server rendering a web app built with React was tricky to get right. You not only needed to server render and send down the HTML for the page the user requested, but also send down the *data* for that page, and hydrate everything *just right* on the client.
 
-It’s hard to get right. But here’s the thing:**getting this right is the one of the primary purposes of this new generation of meta-frameworks**. Next, Nuxt, Remix, SvelteKit, and SolidStart are some of the more famous examples of these meta-frameworks. And now TanStack Start.
+It’s hard to get right. But here’s the thing: **getting this right is the one of the primary purposes of this new generation of meta-frameworks**. Next, Nuxt, Remix, SvelteKit, and SolidStart are some of the more famous examples of these meta-frameworks. And now TanStack Start.
 
 ---
 
 ## Why is TanStack Start different?
 
-Why do we need a new meta-framework? There’s many possible answers to that question, but I’ll give mine. Existing meta-frameworks suffer from some variation on the same issue. They’ll provide some mechanism to load data on the server. This mechanism is often called a “loader,” or in the case of Next, it’s just RSCs (React Server Components). In Next’s (older) pages directory, it’s the`getServerSideProps`function. The specifics don’t matter. What matters is, for each route, whether the initial load of the page, or client-side navigation via links, some server-side code will run, send down the data, and then render the new page.
+Why do we need a new meta-framework? There’s many possible answers to that question, but I’ll give mine. Existing meta-frameworks suffer from some variation on the same issue. They’ll provide some mechanism to load data on the server. This mechanism is often called a “loader,” or in the case of Next, it’s just RSCs (React Server Components). In Next’s (older) pages directory, it’s the `getServerSideProps` function. The specifics don’t matter. What matters is, for each route, whether the initial load of the page, or client-side navigation via links, some server-side code will run, send down the data, and then render the new page.
 
 ### An Impedance Mismatch is Born
 
@@ -181,7 +181,7 @@ Enough setup, let’s look at some code. TanStack Start is still in beta, so som
 
 :::
 
-If you’d like to set something up yourself, check out[<VPIcon icon="fas fa-globe"/>the getting started guide](https://tanstack.com/router/latest/docs/framework/react/start/getting-started). If you’d like to use react-query, be sure to add the library for that. You can see an example[here (<VPIcon icon="iconfont icon-github"/>`TanStack/router`)](https://github.com/TanStack/router/blob/main/examples%2Freact%2Fstart-basic-react-query%2Fapp%2Frouter.tsx). Depending on when you read this, there might be a CLI to do all of this for you.
+If you’d like to set something up yourself, check out[<VPIcon icon="iconfont icon-tanstack"/>the getting started guide](https://tanstack.com/router/latest/docs/framework/react/start/getting-started). If you’d like to use react-query, be sure to add the library for that. You can see an example[here (<VPIcon icon="iconfont icon-github"/>`TanStack/router`)](https://github.com/TanStack/router/blob/main/examples%2Freact%2Fstart-basic-react-query%2Fapp%2Frouter.tsx). Depending on when you read this, there might be a CLI to do all of this for you.
 
 This post will continue to use the same code I used in my[**prior posts**](/master.dev/introducing-tanstack-router.md)on TanStack Router. I set up a new Start project, copied over all the route code, and tweaked a few import paths since the default Start project has a slightly different folder structure. I also removed all of the artificial delays, unless otherwise noted. I want our data to be fast by default, and slow in a few places where we’ll use streaming to manage the slowness.
 
@@ -193,7 +193,7 @@ Start does not replace Router; Start*improves*Router.
 
 All of the routes and loaders we set up with Router are still valid. Start sits on top of Router and adds server processing. Our loaders will execute on the server for the first load of the page, and then on the client as the user browses. But there’s a small problem. While the server environment these loaders will execute in does indeed have a`fetch`function, there are differences between client-side fetch, and server-side fetch—for example, cookies, and fetching to relative paths.
 
-To solve this, Start lets you define a[<VPIcon icon="fas fa-globe"/>server function](https://tanstack.com/router/latest/docs/framework/react/start/server-functions). Server functions can be called from the client, or from the server; but the server function itself always*executes on*the server. You can define a server function in the same file as your route, or in a separate file; if you do the former, TanStack will do the work of ensuring that server-only code does not ever exist in your client bundle.
+To solve this, Start lets you define a [<VPIcon icon="iconfont icon-tanstack"/>server function](https://tanstack.com/router/latest/docs/framework/react/start/server-functions). Server functions can be called from the client, or from the server; but the server function itself always*executes on*the server. You can define a server function in the same file as your route, or in a separate file; if you do the former, TanStack will do the work of ensuring that server-only code does not ever exist in your client bundle.
 
 Let’s define a server function to load our tasks, and then call it from the tasks loader.
 
@@ -211,7 +211,7 @@ export const getTasksList = createServerFn({ method: "GET" }).handler(async () =
 });
 ```
 
-We have access to a`getCookie`utility from the [<VPIcon icon="iconfont icon-github"/>`nksaraf/vinxi`](https://github.com/nksaraf/vinxi) library on which Start is built. Server functions actually provide a lot more functionality than this simple example shows. Be sure to check out[<VPIcon icon="fas fa-globe"/>the docs](https://tanstack.com/router/latest/docs/framework/react/start/server-functions)to learn more.
+We have access to a `getCookie` utility from the [<VPIcon icon="iconfont icon-github"/>`nksaraf/vinxi`](https://github.com/nksaraf/vinxi) library on which Start is built. Server functions actually provide a lot more functionality than this simple example shows. Be sure to check out[<VPIcon icon="iconfont icon-tanstack"/>the docs](https://tanstack.com/router/latest/docs/framework/react/start/server-functions)to learn more.
 
 If you’re curious about this fetch call:
 
@@ -253,7 +253,7 @@ export const getTask = createServerFn({ method: "GET" })
   });
 ```
 
-Note the`validator`function, which is how we strongly type our server function (and validate the inputs). But otherwise it’s more of the same.
+Note the `validator` function, which is how we strongly type our server function (and validate the inputs). But otherwise it’s more of the same.
 
 Now let’s call it in our loader, and see about enabling streaming
 
@@ -271,9 +271,9 @@ loader: async ({ params, context }) => {
 },
 ```
 
-Did you catch it? We called`getTask`**without**awaiting it. That means `task` is a promise, which Start and Router allow us to return from our loader (you could name it`taskPromise` if you like that specificity in naming).
+Did you catch it? We called `getTask` **without** awaiting it. That means `task` is a promise, which Start and Router allow us to return from our loader (you could name it `taskPromise` if you like that specificity in naming).
 
-But how do we*consume*this promise, show loading state, and`await`the real value? There are two ways. TanStack Router defines an[<VPIcon icon="fas fa-globe"/>`Await`component](https://tanstack.com/router/latest/docs/framework/react/api/router/awaitComponent#await-component) for this. But if you’re using React 19, you can use the new`use`psuedo-hook.
+But how do we *consume* this promise, show loading state, and `await` the real value? There are two ways. TanStack Router defines an [<VPIcon icon="iconfont icon-tanstack"/>`Await` component](https://tanstack.com/router/latest/docs/framework/react/api/router/awaitComponent#await-component) for this. But if you’re using React 19, you can use the new`use`psuedo-hook.
 
 ```jsx :collapsed-lines title="TaskView.jsx"
 import { use } from "react";
@@ -305,7 +305,7 @@ function TaskView() {
 }
 ```
 
-The `use` hookwill cause the component to suspend, and show the nearest`Suspense`boundary in the tree. Fortunately, the`pendingComponent`you set up in Router also doubles as a Suspense boundary. TanStack is impressively well integrated with modern React features.
+The `use` hookwill cause the component to suspend, and show the nearest `Suspense` boundary in the tree. Fortunately, the `pendingComponent` you set up in Router also doubles as a Suspense boundary. TanStack is impressively well integrated with modern React features.
 
 Now when we load an individual task’s page, we’ll first see the overview data which loaded quickly, and server rendered, above the Suspense boundary for the task data we’re streaming
 
@@ -319,7 +319,7 @@ When the task comes in, the promise will resolve, the server will push the data 
 
 ## React Query
 
-As before, let’s integrate react-query. And, as before, there’s not much to do. Since we added the<VPIcon icon="fa-brands fa-npm"/>`@tanstack/react-router-with-query`package when we got started, our`queryClient`will be available on the server, and will sync up with the `queryClient` on the client, and put data (or in-flight streamed promises) into cache.
+As before, let’s integrate react-query. And, as before, there’s not much to do. Since we added the <VPIcon icon="fa-brands fa-npm"/>`@tanstack/react-router-with-query` package when we got started, our `queryClient` will be available on the server, and will sync up with the `queryClient` on the client, and put data (or in-flight streamed promises) into cache.
 
 Let’s start with our main epics page. Our loader looked like this before:
 
@@ -336,7 +336,7 @@ async loader({ context, deps }) {
 }
 ```
 
-That would kick off the requests on the server, but let the page render, and then suspend in the component that called`useSuspenseQuery`—what we’ve been calling streaming.
+That would kick off the requests on the server, but let the page render, and then suspend in the component that called `useSuspenseQuery`—what we’ve been calling streaming.
 
 Let’s change it to actually load our data in our loader, and server render the page instead. The change couldn’t be simpler.
 
@@ -355,11 +355,11 @@ async loader({ context, deps }) {
 },
 ```
 
-Note we’re awaiting a `Promise.allSettled` call here so the queries can run together. Make sure you don’t sequentially`await`each individual call, as that would create a waterfall, or use `Promise.all`, as that will quit immediately if any of the promises error out.
+Note we’re awaiting a `Promise.allSettled` call here so the queries can run together. Make sure you don’t sequentially `await` each individual call, as that would create a waterfall, or use `Promise.all`, as that will quit immediately if any of the promises error out.
 
 ### Streaming with react-query
 
-As I implied above, to stream data with react-query, do the exact same thing, but*don’t*`await`the promise. Let’s do that on the page for viewing an individual epic.
+As I implied above, to stream data with react-query, do the exact same thing, but*don’t* `await` the promise. Let’s do that on the page for viewing an individual epic.
 
 ```js
 loader: ({ context, params }) => {
@@ -371,7 +371,7 @@ loader: ({ context, params }) => {
 },
 ```
 
-Now if this page is loaded initially, the query for this data will start on the server and stream to the client. If the data are pending, our suspense boundary will show, triggered automatically by react-query’s`useSuspenseBoundary`hook.
+Now if this page is loaded initially, the query for this data will start on the server and stream to the client. If the data are pending, our suspense boundary will show, triggered automatically by react-query’s `useSuspenseBoundary` hook.
 
 If the user browses to this page from a different page, the loader will instead run on the client, but still fetch those same data from the same server function, and trigger the same suspense boundary.
 
@@ -379,7 +379,7 @@ If the user browses to this page from a different page, the loader will instead 
 
 ## Parting Thoughts
 
-I hope this post was useful to you. It wasn’t a deep dive into [<VPIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest) — the docs are a better venue for that. Instead, I hope I was able to showwhyserver rendering can offer almost any web app a performance boost, and why TanStack Start is a superb tool for doing so. Not only does it simplify a great deal of things by running loaders isomorphically, but it even integrates wonderfully with react-query.
+I hope this post was useful to you. It wasn’t a deep dive into [<VPIcon icon="iconfont icon-tanstack"/>TanStack Start](https://tanstack.com/start/latest) — the docs are a better venue for that. Instead, I hope I was able to showwhyserver rendering can offer almost any web app a performance boost, and why TanStack Start is a superb tool for doing so. Not only does it simplify a great deal of things by running loaders isomorphically, but it even integrates wonderfully with react-query.
 
 The react-query integration is especially exciting to me. It delivers component-level data fetching while still allowing for server fetching, and streaming—all without sacrificing one bit of convenience.
 

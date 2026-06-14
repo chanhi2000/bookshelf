@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "serious-about-ai-in-typescript-start-with-prompting-techniques", // 2026-06-19
     "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
     "upgrading-to-typescript-6-a-real-world-migration", // 2026-04-21
     "co-located-tests-scale-better", // 2026-04-08
@@ -365,6 +366,7 @@ export const template: SidebarInfoTemplate = {
       "co-located-tests-scale-better", // 2026-04-08
       "upgrading-to-typescript-6-a-real-world-migration", // 2026-04-21
       "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
+      "serious-about-ai-in-typescript-start-with-prompting-techniques", // 2026-06-19
       // END: 2026ts
       // END: ts
     ]],[
@@ -506,6 +508,18 @@ export const template: SidebarInfoTemplate = {
       // END: 2025screencast
       // END: 2026screencast
       // END: screencast
+    ]],[
+    "llm", [
+      // END: 2019llm
+      // END: 2020llm
+      // END: 2021llm
+      // END: 2022llm
+      // END: 2023llm
+      // END: 2024llm
+      // END: 2025llm
+      "serious-about-ai-in-typescript-start-with-prompting-techniques", // 2026-06-19
+      // END: 2026llm
+      // END: llm
     ]],[
     "openai", [
       // END: 2021openai

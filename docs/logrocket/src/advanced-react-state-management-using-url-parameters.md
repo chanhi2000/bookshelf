@@ -149,7 +149,7 @@ Following the same approach with the types, utilities, and configuration data, t
 
 To work with routes and the browser URL, we should install the [React Router DOM (<VPIcon icon="fa-brands fa-npm"/>`react-router-dom`)](https://npmjs.com/package/react-router-dom) package, a library built on top of the core React router for handling routing smoothly.
 
-At this point, we should also install the [<VPIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest) to avoid the repeating usage of state boilerplate in our hooks and handle errors and data caching more efficiently:
+At this point, we should also install the [<VPIcon icon="iconfont icon-tanstack"/>TanStack Query](https://tanstack.com/query/latest) to avoid the repeating usage of state boilerplate in our hooks and handle errors and data caching more efficiently:
 
 ```sh
 pnpm add react-router-dom @tanstack/react-query
@@ -334,7 +334,7 @@ export function useProducts(limit: number) {
 }
 ```
 
-When setting up a TanStack query, we provided an identity to the query with `queryKey`. We then gave `queryFn` a reference to our `getProducts` API function to load the data. If limit or skip values change, the query will automatically re-call the API function. You may specify [<VPIcon icon="fas fa-globe"/>other properties](https://tanstack.com/query/latest/docs/framework/react/reference/useQuery) to the query to optimize it your way.
+When setting up a TanStack query, we provided an identity to the query with `queryKey`. We then gave `queryFn` a reference to our `getProducts` API function to load the data. If limit or skip values change, the query will automatically re-call the API function. You may specify [<VPIcon icon="iconfont icon-tanstack"/>other properties](https://tanstack.com/query/latest/docs/framework/react/reference/useQuery) to the query to optimize it your way.
 
 We can then calculate the total number of pages (`totalPages`) by dividing the `total` value available through the API response by `limit` we are using as a parameter for the `useProducts` Hook.
 

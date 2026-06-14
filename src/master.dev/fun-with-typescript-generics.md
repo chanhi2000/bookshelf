@@ -209,7 +209,7 @@ Now we’re forbidden from using `ArrayOf2` with any type that’s not an array 
 
 ## Let’s Get Started
 
-I recently wrote [**a two-part post on single flight mutations**](/master.dev/single-flight-mutations-in-tanstack-start-part-1.md) using [<VPIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest). In order to make that work, we very carefully put together react-query options. Our query functions (which do the actual data fetching) were purposefully designed to be a single call against a TanStack Server Function. Then that same query function, as well as the argument payload it takes, were placed on react-query’s `meta` option.
+I recently wrote [**a two-part post on single flight mutations**](/master.dev/single-flight-mutations-in-tanstack-start-part-1.md) using [<VPIcon icon="iconfont icon-tanstack"/>TanStack Start](https://tanstack.com/start/latest). In order to make that work, we very carefully put together react-query options. Our query functions (which do the actual data fetching) were purposefully designed to be a single call against a TanStack Server Function. Then that same query function, as well as the argument payload it takes, were placed on react-query’s `meta` option.
 
 Then, in middleware on the server, we received query keys and looked up the server function and argument payload for a query so we could refetch its data.
 

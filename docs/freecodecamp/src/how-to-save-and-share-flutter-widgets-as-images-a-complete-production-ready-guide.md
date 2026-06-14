@@ -151,7 +151,7 @@ Some devices only require the Add usage description for writing, but supplying b
 
 To keep the code maintainable, we will split it into small files:
 
-1. <VPIcon icon="fas fa-folder-open"/>`lib/`<VPIcon icon="fa-brands fa-dart"/>`main.dart`
+1. <VPIcon icon="fas fa-folder-open"/>`lib/`<VPIcon icon="fa-brands fa-dart-lang"/>`main.dart`
 2. <VPIcon icon="fas fa-folder-open"/>`lib/widgets/`<VPIcon icon="fa-brands fa-dart-lang"/>`quote_card.dart`
 3. <VPIcon icon="fas fa-folder-open"/>`lib/utils/`<VPIcon icon="fa-brands fa-dart-lang"/>`capture.dart`
 4. <VPIcon icon="fas fa-folder-open"/>`lib/services/`<VPIcon icon="fa-brands fa-dart-lang"/>`permission_service.dart`

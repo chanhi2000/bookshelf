@@ -82,7 +82,7 @@ counter.listen((int value) => print('Got $value.'));
 
 ## How to Create a Stream in Dart
 
-The [<VPIcon icon="fa-brands fa-dart"/>`Stream`](https://dart.dev/libraries/dart-async#stream) class comes with multiple factory constructors. They allow you to create various streams for various purposes. They include:
+The [<VPIcon icon="fa-brands fa-dart-lang"/>`Stream`](https://dart.dev/libraries/dart-async#stream) class comes with multiple factory constructors. They allow you to create various streams for various purposes. They include:
 
 - `Stream.empty`
 - `Stream.value`
@@ -110,7 +110,7 @@ void main() {
 
 The problem with the default `StreamController` from the `dart:async` library is that it allows only one listener. It is unicast. If you attempt attaching another listener to this stream obtained from `StreamController`, it will throw a "bad state" error.
 
-This issue is solved by the `BehaviorSubject` class from the [<VPIcon icon="fas fa-globe"/>`rxdart`](https://pub.dev/packages/rxdart) package. Technically, `BehaviorSubject` is a `StreamController`. The difference is that it has more features like:
+This issue is solved by the `BehaviorSubject` class from the [<VPIcon icon="fa-brands fa-dart-lang"/>`rxdart`](https://pub.dev/packages/rxdart) package. Technically, `BehaviorSubject` is a `StreamController`. The difference is that it has more features like:
 
 1. Allows multiple listeners (very important).
 2. Caches the latest emitted value or error.

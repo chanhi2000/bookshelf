@@ -5,6 +5,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "more-easy-light-dark-mode-switching-light-dark-is-about-to-support-images", // 2026-03-19
     "at-rule", // 2026-03-16
   ]
 }
@@ -353,6 +354,7 @@ export const template: SidebarInfoTemplate = {
       "google-antigravity-modern-css", // 2025-12-03
       // END: 2025css
       "at-rule", // 2026-03-16
+      "more-easy-light-dark-mode-switching-light-dark-is-about-to-support-images", // 2026-03-19
       // END: 2026css
       // END: css
     ]],[

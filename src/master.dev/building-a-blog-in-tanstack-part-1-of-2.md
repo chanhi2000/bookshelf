@@ -2,7 +2,7 @@
 lang: en-US
 title: "Building a Blog in TanStack (Part 1 of 2)"
 description: "Article(s) > Building a Blog in TanStack (Part 1 of 2)"
-icon: fa-brands fa-react
+icon: iconfont icon-tanstack
 category:
   - Node.js
   - React.js
@@ -58,7 +58,7 @@ cover: https://master.dev/blog/wp-json/social-image-generator/v1/image/9303
   logo="https://master.dev/favicon.ico"
   preview="https://master.dev/blog/wp-json/social-image-generator/v1/image/9303"/>
 
-[<VPIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest) is one of the newest web frameworks, and its popularity is rising quickly. Start is a thin server-side layer that sits atop TanStack Router and provides features like server functions, API endpoints, and server-side rendering. I wrote [**a three-part introduction to Router**](/master.dev/blog/introducing-tanstack-router.md) and [**an introduction to Start**](/master.dev/blog/introducing-tanstack-start.md).
+[<VPIcon icon="iconfont icon-tanstack"/>TanStack Start](https://tanstack.com/start/latest) is one of the newest web frameworks, and its popularity is rising quickly. Start is a thin server-side layer that sits atop TanStack Router and provides features like server functions, API endpoints, and server-side rendering. I wrote [**a three-part introduction to Router**](/master.dev/blog/introducing-tanstack-router.md) and [**an introduction to Start**](/master.dev/blog/introducing-tanstack-start.md).
 
 This post will be a bit different. We’ll explore TanStack start via a more traditional, old-school use case: we’ll implement a blog (you can see [the complete thing on GitHub (<VPIcon icon="iconfont icon-github"/>`arackaf/tanstack-blog-blog-post`)](https://github.com/arackaf/tanstack-blog-blog-post)). It’s somewhat of a cliche, but it will let us explore important features, such as server functions and routing parameters, as well as niche patterns, such as static pre-rendering.
 
@@ -216,7 +216,7 @@ Our loader reads our posts. Then we connect up a React component for this route.
 
 If you’re thinking our loader can just call those utility methods we looked at before, well, not so fast. Those methods were reading file contents on disk. That’s all well and good, but in TanStack Start, our loaders are isomorphic. When you first browse to your website, that initial page will run its loader on the server, and the server will render your React component. Any subsequent time you browse to any page, that loader will run on the client, in your user’s browser. That means there’s no way we can run Node APIs to read file contents.
 
-The solution is to use a Server Function. The docs [<VPIcon icon="fas fa-globe"/>are here](https://tanstack.com/start/latest/docs/framework/react/guide/server-functions), but the short version is that a TanStack Server Function is a function you define that always runs on the server. If you call a server function from a server-only location, such as an API endpoint, another server function, or even a route loader running on the server, TanStack will simply invoke it. And if you call a Server Function from the client, TanStack will do the legwork of firing off the correct network request.
+The solution is to use a Server Function. The docs [<VPIcon icon="iconfont icon-tanstack"/>are here](https://tanstack.com/start/latest/docs/framework/react/guide/server-functions), but the short version is that a TanStack Server Function is a function you define that always runs on the server. If you call a server function from a server-only location, such as an API endpoint, another server function, or even a route loader running on the server, TanStack will simply invoke it. And if you call a Server Function from the client, TanStack will do the legwork of firing off the correct network request.
 
 This call below is a Server Function:
 

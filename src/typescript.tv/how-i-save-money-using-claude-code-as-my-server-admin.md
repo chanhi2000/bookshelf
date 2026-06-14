@@ -171,7 +171,7 @@ The entire server setup, from ordering to a running Dokku instance, took Claude 
 
 Dokku assigns apps a subdomain automatically using [<VPIcon icon="fas fa-globe"/>sslip.io](https://sslip.io/), a free service that resolves any IP embedded in a hostname back to that IP. For example, `95.217.148.47.sslip.io` resolves to `95.217.148.47`. This is great for testing, but for production you want a real domain.
 
-I bought my domain on [<VPIcno icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/) because they offer an [<VPIcno icon="fa-brands fa-cloudflare"/>official MCP server](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) and API tokens with fine-grained permissions. Cloudflare provides an "Edit zone DNS" token template that grants only DNS access, nothing else. This means AI coding tools like [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) can manage DNS records programmatically without having access to your billing, account settings, or other services. If you already have domains on another registrar like [<VPIcon icon="fas fa-globe"/>Gandi](https://gandi.net/), that works too since they have a REST API with Personal Access Tokens.
+I bought my domain on [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/) because they offer an [<VPIcon icon="fa-brands fa-cloudflare"/>official MCP server](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) and API tokens with fine-grained permissions. Cloudflare provides an "Edit zone DNS" token template that grants only DNS access, nothing else. This means AI coding tools like [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) can manage DNS records programmatically without having access to your billing, account settings, or other services. If you already have domains on another registrar like [<VPIcon icon="fas fa-globe"/>Gandi](https://gandi.net/), that works too since they have a REST API with Personal Access Tokens.
 
 Set up DNS by pointing your domain to the server:
 
@@ -459,7 +459,7 @@ Here is a summary of everything used in this migration:
 | [<VPIcon icon="iconfont icon-github"/>GitHub CLI](https://cli.github.com/) | Webhook setup and repo management |
 | [<VPIcon icon="fas fa-globe"/>sslip.io](https://sslip.io/) | Free wildcard DNS for testing |
 | [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) | CLI-based AI assistant for server management |
-| [<VPIcno icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/) | Domain registration and DNS with API/MCP |
+| [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/) | Domain registration and DNS with API/MCP |
 
 The entire migration was done over SSH with bash commands. No special server API or MCP integration was needed for the Hetzner server itself. You SSH in, run commands, and you are done. The only APIs I used were Cloudflare (for DNS), Gandi (for DNS on other domains), GitHub (for webhooks and deploy keys), and Heroku (for database export).
 

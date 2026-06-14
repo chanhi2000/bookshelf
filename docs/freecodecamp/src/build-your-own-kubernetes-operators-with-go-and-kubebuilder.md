@@ -82,7 +82,7 @@ The course is broken up into six parts:
 - Part 5: Hands-on Development
 - Part 6: Advanced Internals & Deployment
 
-Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtube.com/watch?v=odP153inZUo) (6-hour watch).
+Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/odP153inZUo) (6-hour watch).
 
 <VidStack src="youtube/odP153inZUo" />
 

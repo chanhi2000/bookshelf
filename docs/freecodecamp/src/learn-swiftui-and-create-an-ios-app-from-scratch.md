@@ -4,12 +4,14 @@ title: "Learn SwiftUI and Create an iOS App From Scratch"
 description: "Article(s) > Learn SwiftUI and Create an iOS App From Scratch"
 icon: fa-brands fa-swift
 category:
+  - Apple
   - Swift
   - Youtube
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
+  - apple
   - swift
   - youtube
   - crashcourse

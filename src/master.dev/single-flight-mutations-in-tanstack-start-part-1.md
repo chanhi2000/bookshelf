@@ -58,7 +58,7 @@ cover: https://master.dev/blog/wp-json/social-image-generator/v1/image/8334
 
 A **“single flight mutation”** is a fancy way of saying: mutate the data *and* update the UI with just *one* round trip to the network.
 
-The beautiful thing about implementing this with TanStack is that we can leverage the tools we already know, and love: [<VPIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest) (formerly react-query), [<VPIcon icon="fas fa-globe"/>TanStack Router](https://tanstack.com/router/latest), and [<VPIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest).
+The beautiful thing about implementing this with TanStack is that we can leverage the tools we already know, and love: [<VPIcon icon="iconfont icon-tanstack"/>TanStack Query](https://tanstack.com/query/latest) (formerly react-query), [<VPIcon icon="iconfont icon-tanstack"/>TanStack Router](https://tanstack.com/router/latest), and [<VPIcon icon="iconfont icon-tanstack"/>TanStack Start](https://tanstack.com/start/latest).
 
 If you’re not familiar with these tools, TanStack Router is a client-only SPA framework (see my [**three-part introduction series**](/master.dev/introducing-tanstack-router.md)). TanStack Start is a server layer for Router that enables things like SSR, API routes, and server functions (see my [**introduction for it**](/master.dev/introducing-tanstack-start.md) and [**a post on its middleware feature**](/master.dev/introducing-tanstack-start-middleware.md)).
 

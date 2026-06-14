@@ -5,9 +5,14 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "publishing-on-the-atmosphere-with-standardsite", // 2026-06-25
+    "a-front-end-developers-guide-to-the-hybrid-mobile-app-development-landscape", // 2026-06-04
     "navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement", // 2026-05-28
     "framework-agnostic-design-systems-part-1", // 2026-05-21
     "three-stoic-principles-for-better-web-accessibility", // 2026-04-30
+    "the-end-of-responsive-images", // 2026-04-23
+    "a-quick-guide-to-creating-syndication-feeds", // 2026-04-02
+    "applying-accessibility-fixes-with-stealth-for-the-greater-good", // 2026-03-26
     "accessible-faux-nested-interactive-controls", // 2026-01-15
     "date-is-out-and-temporal-is-in", // 2026-01-07
   ]
@@ -190,6 +195,18 @@ export const template: SidebarInfoTemplate = {
   faviconPath: 'https://piccalil.li/favicons/apple-touch-icon.png',
   linksMap: new Map([
     [
+    "js-react", [
+      // END: 2019js-react
+      // END: 2020js-react
+      // END: 2021js-react
+      // END: 2022js-react
+      // END: 2023js-react
+      // END: 2024js-react
+      // END: 2025js-react
+      "a-front-end-developers-guide-to-the-hybrid-mobile-app-development-landscape", // 2026-06-04
+      // END: 2026js-react
+      // END: js-react
+    ]],[
     "js-node", [
       // END: 2019js-node
       // END: 2020js-node
@@ -199,6 +216,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-node
       // END: 2025js-node
       "framework-agnostic-design-systems-part-1", // 2026-05-21
+      "publishing-on-the-atmosphere-with-standardsite", // 2026-06-25
       // END: 2026js-node
       // END: js-node
     ]],[
@@ -247,6 +265,7 @@ export const template: SidebarInfoTemplate = {
       "why-are-my-view-transitions-blinking", // 2025-12-11
       // END: 2025css
       "accessible-faux-nested-interactive-controls", // 2026-01-15
+      "the-end-of-responsive-images", // 2026-04-23
       "framework-agnostic-design-systems-part-1", // 2026-05-21
       "navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement", // 2026-05-28
       // END: 2026css
@@ -260,8 +279,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2023system-design
       // END: 2024system-design
       // END: 2025system-design
+      "applying-accessibility-fixes-with-stealth-for-the-greater-good", // 2026-03-26
+      "a-quick-guide-to-creating-syndication-feeds", // 2026-04-02
       "three-stoic-principles-for-better-web-accessibility", // 2026-04-30
       "framework-agnostic-design-systems-part-1", // 2026-05-21
+      "a-front-end-developers-guide-to-the-hybrid-mobile-app-development-landscape", // 2026-06-04
       // END: 2026system-design
       // END: system-design
     ]],[

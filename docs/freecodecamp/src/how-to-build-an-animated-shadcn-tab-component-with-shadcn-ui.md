@@ -633,7 +633,6 @@ You can explore the full component and more animated UI blocks at Shadcn Space, 
   logo="https://shadcnspace.com/favicon.ico?favicon.02i7p3n~ow-tn.ico"
   preview="https://shadcnspace.com/images/og-image.png"/>
 
-
 <SiteInfo
   name="Shadcn UI Blocks, Templates, and Components | Free and Pro"
   desc="A collection of beautifully designed Shadcn UI blocks, components, templates, and dashboard layouts for React. Built on Base UI and Radix UI primitives, styled with Tailwind CSS, ready to copy-paste or install via the shadcn CLI."

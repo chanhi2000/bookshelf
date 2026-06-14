@@ -90,7 +90,7 @@ I was planning to host Cotton Coder on [<VPIcon icon="iconfont icon-deno"/>Deno 
 
 Solution: I’m self-hosting for now!
 
-The website lives inside Docker containers, in a Proxmox virtual machine, on a firewalled VLAN, proxied by a [<VPIcno icon="fa-brands fa-cloudflare"/>Cloudflare tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). This saves me from pointing DNS to my public IP and opening port 443 on my router. It should be secure. I’ll find out quickly if it’s not!
+The website lives inside Docker containers, in a Proxmox virtual machine, on a firewalled VLAN, proxied by a [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). This saves me from pointing DNS to my public IP and opening port 443 on my router. It should be secure. I’ll find out quickly if it’s not!
 
 ---
 

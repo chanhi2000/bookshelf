@@ -84,7 +84,12 @@ export const template: SidebarInfoTemplate = {
       "why-arch-linux",
     ]],[
     "hyprland", [
+      // END: 2022hyprland
+      // END: 2023hyprland
       "install-hyprland", // 2024-11-20
+      // END: 2024hyprland
+      // END: 2025hyprland
+      // END: hyprland
     ]],[
     "vim", [
       "pro-vim-tips", // 2017-03-29
@@ -99,16 +104,12 @@ export const template: SidebarInfoTemplate = {
     "all", [
       "pro-vim-tips", // 2017-03-29
       "install-arch-linux", // 2017-12-12
-      // END: 2017
-      // END: 2018
-      // END: 2019
       Y2020,
       Y2021,
       Y2022,
       Y2023,
       Y2024,
       Y2025,
-      // END: 2024
     ]]
   ])
 }

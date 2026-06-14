@@ -319,7 +319,7 @@ If you have other examples of false advertising (perhaps you have received marke
 
 ### UserWay Will Not Protect from Lawsuits
 
-**Added 15 December 2021**. At the 2021 [<VPIcon icon="fa-brands fa-youtube"/>Digital Accessibility Legal Summit](https://accessibility.legal/), a two-part session was held on overlays. [<VPIcon icon="fa-brands fa-youtube"/>Part one has been posted to YouTube](https://youtube.com/watch?v=CUMDFdbGPz8) with this abstract:
+**Added 15 December 2021**. At the 2021 [<VPIcon icon="fa-brands fa-youtube"/>Digital Accessibility Legal Summit](https://accessibility.legal/), a two-part session was held on overlays. [<VPIcon icon="fa-brands fa-youtube"/>Part one has been posted to YouTube](https://youtu.be/CUMDFdbGPz8) with this abstract:
 
 > As part of the 2021 Digital Accessibility Legal Summit, Jeremy Horelick, Jason Taylor and Richard Hunt discuss widgets, plug-ins and overlays being marketed as one-step software solutions to website accessibility. They provide a brief review of terminology and differences between the various products, followed by an examination of whether these tools will do what they promise—in terms of both actual accessibility and protection from website accessibility litigation.
 
@@ -329,7 +329,7 @@ When asked if overlays reduce litigation expense or risk, the answer was a resou
 > 
 > The other reason is because the law firms, not all the law firms, but many of the law firms that are in this area do not care whether the website is really accessible or not. Their desire is to find something that they can identify as an error, usually by measuring it against WCAG, and if they can find that error, they can file a lawsuit in good faith. Remembering that their goal is to settle the lawsuit as soon as possible.
 
-Watch [<VPIcon icon="fa-brands fa-youtube"/>The Great Accessibility Overlays Battle – Part 1](https://youtube.com/watch?v=CUMDFdbGPz8) at YouTube.
+Watch [<VPIcon icon="fa-brands fa-youtube"/>The Great Accessibility Overlays Battle – Part 1](https://youtu.be/CUMDFdbGPz8) at YouTube.
 
 #### Update: 21 March 2022
 

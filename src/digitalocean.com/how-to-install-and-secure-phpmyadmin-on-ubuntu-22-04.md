@@ -121,7 +121,7 @@ Additionally, there are important security considerations when using software li
 
 For these reasons, and because it is a widely deployed PHP application that is frequently targeted for attack, you should never run phpMyAdmin on remote systems over a plain HTTP connection.
 
-If you do not have an existing domain configured with an SSL/TLS certificate, you can follow this guide on securing [**Apache with Let’s Encrypt on Ubuntu**](/digitalocean.com/how-to-secure-apache-with-let-s-encrypt-on-ubuntu.md). This will require you to [<VPIcno icon="fa-brands fa-digital-ocean"/>register a domain name](https://docs.digitalocean.com/tutorials/dns-registrars/), [<VPIcon icon="fa-brands fa-digital-ocean"/>create DNS records for your server](https://docs.digitalocean.com/products/networking/dns/), and [**set up an Apache Virtual Host**](/digitalocean.com/how-to-install-the-apache-web-server-on-ubuntu-22-04.md#step-5-setting-up-virtual-hosts-recommended). For more information on configuring Apache, see our guide on [**installing the Apache web server on Ubuntu**](/digitalocean.com/how-to-install-the-apache-web-server-on-ubuntu-22-04.md).
+If you do not have an existing domain configured with an SSL/TLS certificate, you can follow this guide on securing [**Apache with Let’s Encrypt on Ubuntu**](/digitalocean.com/how-to-secure-apache-with-let-s-encrypt-on-ubuntu.md). This will require you to [<VPIcon icon="fa-brands fa-digital-ocean"/>register a domain name](https://docs.digitalocean.com/tutorials/dns-registrars/), [<VPIcon icon="fa-brands fa-digital-ocean"/>create DNS records for your server](https://docs.digitalocean.com/products/networking/dns/), and [**set up an Apache Virtual Host**](/digitalocean.com/how-to-install-the-apache-web-server-on-ubuntu-22-04.md#step-5-setting-up-virtual-hosts-recommended). For more information on configuring Apache, see our guide on [**installing the Apache web server on Ubuntu**](/digitalocean.com/how-to-install-the-apache-web-server-on-ubuntu-22-04.md).
 
 :::
 
@@ -170,7 +170,7 @@ When the prompt appears, “apache2” is highlighted, but **not** selected. If 
 
 Assuming you installed MySQL by following [**Step 2 of the prerequisite LAMP stack tutorial**](/digitalocean.com/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu.md#step-2-installing-mysql), you may have decided to enable the Validate Password plugin. As of this writing, enabling this component will trigger an error when you attempt to set a password for the **phpmyadmin** user:
 
-![<VPIcno icon="fa-brands fa-digital-ocean"/>phpMyAdmin password validation error](https://assets.digitalocean.com/articles/phpmyadmin_2004/pma_vpp_error.png)
+![<VPIcon icon="fa-brands fa-digital-ocean"/>phpMyAdmin password validation error](https://assets.digitalocean.com/articles/phpmyadmin_2004/pma_vpp_error.png)
 
 To resolve this, select the **abort** option to stop the installation process. Then, open up your MySQL prompt:
 
@@ -344,13 +344,13 @@ You can now access the web interface by visiting your server’s domain name or 
 https://your_domain_or_IP/phpmyadmi
 ```
 
-![<VPIcno icon="fa-brands fa-digital-ocean"/>phpMyAdmin login screen](https://assets.digitalocean.com/articles/phpmyadmin_2004/pma_sammy_login_small.png)
+![<VPIcon icon="fa-brands fa-digital-ocean"/>phpMyAdmin login screen](https://assets.digitalocean.com/articles/phpmyadmin_2004/pma_sammy_login_small.png)
 
 Log in to the interface, either as **root** or with the new username and password you just configured.
 
 When you log in, you’ll be taken to phpMyAdmin’s user interface:
 
-![<VPIcno icon="fa-brands fa-digital-ocean"/>phpMyAdmin user interface](https://assets.digitalocean.com/articles/phpmyadmin_2204/pma_home_sammy_2204.png)
+![<VPIcon icon="fa-brands fa-digital-ocean"/>phpMyAdmin user interface](https://assets.digitalocean.com/articles/phpmyadmin_2204/pma_home_sammy_2204.png)
 
 Now that you’re able to connect and interact with phpMyAdmin, all that’s left to do is harden your system’s security to protect it from attackers.
 
@@ -442,7 +442,7 @@ Now, when you access your phpMyAdmin subdirectory, you will be prompted for the 
 https://domain_name_or_IP/phpmyadmi
 ```
 
-![<VPIcno icon="fa-brands fa-digital-ocean"/>phpMyAdmin apache password](https://assets.digitalocean.com/articles/phpmyadmin_2004/pma_htaccess_small.png)
+![<VPIcon icon="fa-brands fa-digital-ocean"/>phpMyAdmin apache password](https://assets.digitalocean.com/articles/phpmyadmin_2004/pma_htaccess_small.png)
 
 After entering the Apache authentication, you’ll be taken to the regular phpMyAdmin authentication page to enter your MySQL credentials. By adding an extra set of non-MySQL credentials, you’re providing your database with an additional layer of security. This is desirable since phpMyAdmin has been vulnerable to security threats in the past.
 

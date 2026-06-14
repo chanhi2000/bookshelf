@@ -166,7 +166,7 @@ As with most features in DevTools, what you see in this pane is ‘live’ — c
 
 If you’re confident in your use of Accessibility, possibly because you’re using an alternative automated testing tool such as [<VPIcon icon="fas fa-globe"/>axe](https://deque.com/axe/), then you may not use this pane very often, and that’s okay.
 
-If you’re interested in learning more while looking at real-world websites, I’ve made a 14-minute video on [<VPIcon icon="fa-brands fa-youtube"/>Accessibility debugging with Chrome DevTools](https://youtube.com/watch?v=xWPMfcjhts8).
+If you’re interested in learning more while looking at real-world websites, I’ve made a 14-minute video on [<VPIcon icon="fa-brands fa-youtube"/>Accessibility debugging with Chrome DevTools](https://youtu.be/xWPMfcjhts8).
 
 Play
 

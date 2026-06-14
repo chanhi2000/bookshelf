@@ -63,7 +63,16 @@ Due to the length of this post, we’ve split it into two parts for your conveni
 
 ::: info
 
-- [**Part 1: Web Forms, Typography, Time-Savers and Images**](/smashingmagazine.com/useful-javascript-libraries-jquery-plugins-web-developers.md)
+```component VPCard
+{
+  "title": "Practical JavaScript Libraries and jQuery Plugins",
+  "desc": "In this two-part overview, we feature some of the most useful JavaScript and jQuery libraries which could be just the right solutions for your common problems. We hope that this overview will help you find or rediscover some tools that you could use in your next projects.",
+  "link": "/smashingmagazine.com/useful-javascript-libraries-jquery-plugins-web-developers.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - **Part 2: Text, Tables, List and Useful Development Tools**  
 
 :::

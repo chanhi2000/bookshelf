@@ -27,15 +27,24 @@ const ALMANEC_PROPERTIES: SidebarInfoSubgroupTemplate = {
     // END: c
     // END: d
     // END: d
-    // END: f
+    // END: fpyozm
   ],
 }
+
 
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
   children: [
     // END: 2026
+    "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-07
+    "whats-important-14", // 2026-06-30
+    "css-states-and-javascript-events", // 2026-06-29
+    "scroll-driven-animations-opposing-scroll-directions", // 2026-06-22
+    "css-scroll-triggered-animations-first-look", // 2026-06-19
+    "the-siren-song-of-arianotify", // 2026-06-17
+    "prop-for-that", // 2026-06-16
+    "whats-important-13", // 2026-06-15
     "why-isnt-my-3d-view-transition-working", // 2026-06-12
     "creating-memorable-web-experiences-a-modern-css-toolkit", // 2026-06-10
     "scroll-driven-scroll-triggered-scroll-states-and-view-transitions", // 2026-06-08
@@ -600,6 +609,13 @@ export const template: SidebarInfoTemplate = {
       "scroll-driven-scroll-triggered-scroll-states-and-view-transitions", // 2026-06-08
       "creating-memorable-web-experiences-a-modern-css-toolkit", // 2026-06-10
       "why-isnt-my-3d-view-transition-working", // 2026-06-12
+      "whats-important-13", // 2026-06-15
+      "prop-for-that", // 2026-06-16
+      "css-scroll-triggered-animations-first-look", // 2026-06-19
+      "scroll-driven-animations-opposing-scroll-directions", // 2026-06-22
+      "css-states-and-javascript-events", // 2026-06-29
+      "whats-important-14", // 2026-06-30
+      "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-07
       // END: 2026css
       // END: css
     ]],[
@@ -647,6 +663,8 @@ export const template: SidebarInfoTemplate = {
       "soon-we-can-finally-banish-javascript-to-the-shadowrealm", // 2026-05-12
       "cross-document-view-transitions-part-1", // 2026-05-18
       "another-stab-at-the-perfect-css-pie-chart-sans-javascript", // 2026-06-04
+      "the-siren-song-of-arianotify", // 2026-06-17
+      "css-states-and-javascript-events", // 2026-06-29
       // END: 2026js
       // END: js
     ]],[
@@ -743,6 +761,7 @@ export const template: SidebarInfoTemplate = {
       // END: system-design
     ]],[
     "all", [
+      "guides",
       ALMANEC_PROPERTIES,
       SNIPPETS,
       Y2026,

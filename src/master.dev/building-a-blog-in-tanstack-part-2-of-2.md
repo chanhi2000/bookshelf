@@ -2,7 +2,7 @@
 lang: en-US
 title: "Building a Blog in TanStack (Part 2 of 2)"
 description: "Article(s) > Building a Blog in TanStack (Part 2 of 2)"
-icon: fa-brands fa-react
+icon: iconfont icon-tanstack
 category:
   - Node.js
   - React.js

@@ -18,7 +18,7 @@ head:
       content: "A custom --light-dark() function in CSS that works with any type of value (not just colors!) in just 3 LOC"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/bram.us/css-custom-light-dark.html
-prev: /articles/README.md
+prev: /programming/css/articles/README.md
 date: 2025-10-01
 isOriginal: false
 author:
@@ -31,9 +31,9 @@ cover: https://bram.us/wordpress/wp-content/uploads/2025/09/custom-light-dark-wi
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "CSS > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/programming/css/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

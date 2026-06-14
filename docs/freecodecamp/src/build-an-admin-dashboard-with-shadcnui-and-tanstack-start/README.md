@@ -1775,12 +1775,14 @@ Now that you have a solid foundation, consider implementing some or all of the b
 
 We shipped a scalable and production-ready dashboard much faster than starting from scratch. Hope you enjoyed the process – and thanks for reading!
 
-### Resources:
+::: info Resources
 
-- [TanStack Start Documentation](https://tanstack.com/start)
-- [TanStack Table Docs](https://tanstack.com/table)
-- [TanStack Query Docs](https://tanstack.com/query)
-- [Shadcn UI Components](https://shadcnstudio.com/components)
+- [<VPIcon icon="iconfont icon-tanstack"/>TanStack Start Documentation](https://tanstack.com/start)
+- [<VPIcon icon="iconfont icon-tanstack"/>TanStack Table Docs](https://tanstack.com/table)
+- [<VPIcon icon="iconfont icon-tanstack"/>TanStack Query Docs](https://tanstack.com/query)
+- [<VPIcon icon="iconfont icon-shadcn"/>Shadcn UI Components](https://shadcnstudio.com/components)
+
+:::
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

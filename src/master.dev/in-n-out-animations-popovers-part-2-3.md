@@ -88,6 +88,16 @@ Admittedly, popovers are fairly similar to dialogs (but certainly [**have import
 }
 ```
 
+```component VPCard
+{
+  "title": "In-N-Out Animations: View Transitions (Part 3/3)",
+  "desc": "View Transitions are of unique help in applying an animation to an element even when you are literally removing it from the DOM. ",
+  "link": "/master.dev/in-n-out-animations-view-transitions-part-3-3.md",
+  "logo": "https://master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
 :::
 
 Demo so you an see what we’re doing:
@@ -224,6 +234,16 @@ Also, in [**Part 1**](/master.dev/in-n-out-animations-dialogs-part-1-3.md), the 
   "title": "In-N-Out Animations: Popovers (Part 2/3)",
   "desc": "Using our 3, 2, 1 state system, we can make popovers animate on ",
   "link": "/master.dev/in-n-out-animations-popovers-part-2-3.md",
+  "logo": "https://master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "In-N-Out Animations: View Transitions (Part 3/3)",
+  "desc": "View Transitions are of unique help in applying an animation to an element even when you are literally removing it from the DOM. ",
+  "link": "/master.dev/in-n-out-animations-view-transitions-part-3-3.md",
   "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

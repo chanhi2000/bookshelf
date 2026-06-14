@@ -2,7 +2,7 @@
 lang: en-US
 title: "Introducing TanStack Form"
 description: "Article(s) > Introducing TanStack Form"
-icon: fa-brands fa-react
+icon: iconfont icon-tanstack
 category:
   - Node.js
   - React.js
@@ -58,7 +58,7 @@ cover: https://master.dev/blog/wp-json/social-image-generator/v1/image/9516
   logo="https://master.dev/favicon.ico"
   preview="https://master.dev/blog/wp-json/social-image-generator/v1/image/9516"/>
 
-There’s no shortage of form libraries to help manage the complexity of form handling, particularly in React. In this post, we’ll look at [<VPIcon icon="fas fa-globe"/>TanStack Form](https://tanstack.com/form/latest). Like other TanStack libraries, Form takes strong typing and performance seriously. It’s also detail-oriented and has planned for every imaginable edge case.
+There’s no shortage of form libraries to help manage the complexity of form handling, particularly in React. In this post, we’ll look at [<VPIcon icon="iconfont icon-tanstack"/>TanStack Form](https://tanstack.com/form/latest). Like other TanStack libraries, Form takes strong typing and performance seriously. It’s also detail-oriented and has planned for every imaginable edge case.
 
 ---
 
@@ -206,7 +206,7 @@ validators={{
 }}
 ```
 
-This defines our validation. TanStack Form allows you to specify where validation occurs. I like having these errors show up only after the user tries to submit the form, but you can specify `onChange`, `onBlur`, or even some other more advanced options. See the [<VPIcon icon="fas fa-globe"/>docs](https://tanstack.com/form/latest/docs/framework/react/guides/validation) for more info.
+This defines our validation. TanStack Form allows you to specify where validation occurs. I like having these errors show up only after the user tries to submit the form, but you can specify `onChange`, `onBlur`, or even some other more advanced options. See the [<VPIcon icon="iconfont icon-tanstack"/>docs](https://tanstack.com/form/latest/docs/framework/react/guides/validation) for more info.
 
 ### Rendering the Actual Form Input
 
@@ -246,7 +246,7 @@ You don’t *have* to use the `children` prop; you can also pass this function a
 
 TanStack Form’s `Field` component handles the grunt work of *calling* the function you provide, and it *passes* this function a parameter that has everything we need to render everything.
 
-In this code, I’m rendering a ShadCN `Label`, and `Input`. The field prop passed to my render function gives me a name value, plus a state object that has things like the current value. Naturally, there’s an `onChange` handler we need to invoke with any updated values, but you might wonder why I need to pass an `onBlur` handler. That’s to help some of the field’s state. In the code above, you can see the validation error info attached to the field’s `state.meta` object, but there’s also input state like `isTouched` and `isDirty`. Check the [<VPIcon icon="fas fa-globe"/>the docs](https://tanstack.com/form/latest/docs/framework/react/guides/basic-concepts#field-state) for a full accounting of all these various state values, but `isTouched` indicates whether the user has ever focused-and-blurred your input, and the `onBlur` callback is what makes this work.
+In this code, I’m rendering a ShadCN `Label`, and `Input`. The field prop passed to my render function gives me a name value, plus a state object that has things like the current value. Naturally, there’s an `onChange` handler we need to invoke with any updated values, but you might wonder why I need to pass an `onBlur` handler. That’s to help some of the field’s state. In the code above, you can see the validation error info attached to the field’s `state.meta` object, but there’s also input state like `isTouched` and `isDirty`. Check the [<VPIcon icon="iconfont icon-tanstack"/>the docs](https://tanstack.com/form/latest/docs/framework/react/guides/basic-concepts#field-state) for a full accounting of all these various state values, but `isTouched` indicates whether the user has ever focused-and-blurred your input, and the `onBlur` callback is what makes this work.
 
 ---
 
@@ -616,7 +616,7 @@ Now we can do everything as before, but when we provide the markup for a field, 
 
 This allows us to attach any custom components directly to our form, which can then access whatever field you’re currently editing.
 
-Form also supports reusing groups of components at the form level. For example, if you had a call to `<form.Subscribe>` and wanted to reuse that entire structure, there are utilities for that (`formComponents`). It’s a variation on the theme we already saw, so check [<VPIcon icon="fas fa-globe"/>the docs](https://tanstack.com/form/latest/docs/framework/react/guides/form-composition) if you’re curious.
+Form also supports reusing groups of components at the form level. For example, if you had a call to `<form.Subscribe>` and wanted to reuse that entire structure, there are utilities for that (`formComponents`). It’s a variation on the theme we already saw, so check [<VPIcon icon="iconfont icon-tanstack"/>the docs](https://tanstack.com/form/latest/docs/framework/react/guides/form-composition) if you’re curious.
 
 For extremely large applications, these features can come in handy and help keep everything organized.
 

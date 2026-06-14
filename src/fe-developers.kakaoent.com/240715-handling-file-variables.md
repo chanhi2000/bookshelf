@@ -93,11 +93,11 @@ Redux가 불필요한 영역까지 너무 남용되고 있다는 뜻입니다. M
 - 추적이 필요한 상태: 값의 변경으로 인해 UI가 리렌더링 되어야 하거나 특정 로직을 트리거 시켜야 하는 등 값의 변경을 계속해서 추적해야 하는 상태
 - 추적이 불필요한 상태: 값이 변경되어도 별도의 로직이 수행될 필요가 없어서 값의 변경을 추적할 필요가 없는 상태
 
-**서버 상태**의 경우 기존에 redux-saga 미들웨어를 통해 비동기 API 요청 관련 상태를 관리하던 부분이었습니다. 서버 상태는 굳이 Redux의 전역 스토어로 관리할 필요 없이 [<VPIcon icon="fas fa-globe"/> react-query](https://tanstack.com/query/latest)의 데이터 캐싱 기능을 활용하면 상태 관리를 간단하게 구현할 수 있다는 사실을 발견했습니다. 따라서 redux-saga 미들웨어를 제거하고 react-query 라이브러리를 통해 서버 상태를 관리하도록 일괄 변경했습니다.
+**서버 상태**의 경우 기존에 redux-saga 미들웨어를 통해 비동기 API 요청 관련 상태를 관리하던 부분이었습니다. 서버 상태는 굳이 Redux의 전역 스토어로 관리할 필요 없이 [<VPIcon icon="iconfont icon-tanstack"/> react-query](https://tanstack.com/query/latest)의 데이터 캐싱 기능을 활용하면 상태 관리를 간단하게 구현할 수 있다는 사실을 발견했습니다. 따라서 redux-saga 미들웨어를 제거하고 react-query 라이브러리를 통해 서버 상태를 관리하도록 일괄 변경했습니다.
 
 ::: info
 
-react-query를 활용한 서버 상태 관리는 [esme의 블로그 글](https://fe-developers.kakaoent.com/2022/220224-data-fetching-libs/)에서 더 자세한 내용을 확인하실 수 있습니다.
+react-query를 활용한 서버 상태 관리는 [<VPIcon icon="fas fa-globe"/>esme의 블로그 글](https://fe-developers.kakaoent.com/2022/220224-data-fetching-libs/)에서 더 자세한 내용을 확인하실 수 있습니다.
 <!-- TODO: 작성 (/fe-devlopers.kakaoent.com/220224-data-fetching-libs.md) -->
 
 :::

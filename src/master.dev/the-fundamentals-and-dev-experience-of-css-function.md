@@ -50,6 +50,30 @@ cover: https://master.dev/blog/wp-json/social-image-generator/v1/image/9750
   logo="https://master.dev/favicon.ico"
   preview="https://master.dev/blog/wp-json/social-image-generator/v1/image/9750"/>
 
+::: info Article Series
+
+```component VPCard
+{
+  "title": "The Fundamentals and Dev Experience of CSS @function",
+  "desc": "There are quite a few ",
+  "link": "/master.dev/the-fundamentals-and-dev-experience-of-css-function.md",
+  "logo": "https://master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "The Scope of CSS @function",
+  "desc": "There are some real advantages to variable scope and evaluation scope that you get with @function in CSS.",
+  "link": "/master.dev/the-scope-of-css-function.md",
+  "logo": "https://master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
+
 CSS has introduced [<VPIcon icon="fa-brands fa-firefox"/>functions](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@function) so authors can encapsulate and reuse property behaviors across their style sheets without duplicating the code or polluting the DOM with single-use intermediate `--_variables`[^1].
 
 [^1]: CSS Library and Component Authors have long used the convention of underscores before or after a prefix on CSS variables to distinguish private/internal behavior vs dev-user exposed API variables. Now, we have an official lane for private variables! 🎉
@@ -437,6 +461,31 @@ To review the developer experience of CSS Custom Functions, here are all the got
 Overall, the DX for CSS custom functions, as they are now, is … not good. But there’s a [<VPIcon icon="fas fa-globe"/>ton of potential](https://propjockey.github.io/doubledash.css) and a lot you *can* do now, even if it’s mostly shallow.
 
 That’s the foundation, next time I will dive into what I’m most excited to share with you; **The Scope of CSS @‍function**. Until then, [I invite Open Contact (<VPIcon icon="fa-brands fa-bluesky"/>`janeori.propjockey.io`)](https://bsky.app/profile/janeori.propjockey.io) 💚👽.
+
+
+::: info Article Series
+
+```component VPCard
+{
+  "title": "The Fundamentals and Dev Experience of CSS @function",
+  "desc": "There are quite a few ",
+  "link": "/master.dev/the-fundamentals-and-dev-experience-of-css-function.md",
+  "logo": "https://master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "The Scope of CSS @function",
+  "desc": "There are some real advantages to variable scope and evaluation scope that you get with @function in CSS.",
+  "link": "/master.dev/the-scope-of-css-function.md",
+  "logo": "https://master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+:::
 
 ---
 

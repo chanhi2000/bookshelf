@@ -8,6 +8,8 @@ const Y2026: SidebarYeargroupTemplate = {
     "honoring-mobile-os-text-size", // 2026-02-07
     "you-know-what-just-dont-split-words-into-letters", // 2026-02-06
     "barriers-from-links-with-aria", // 2026-01-23
+    "live-region-support", // 2026-01-15
+    "brief-note-on-application-keyboard-shortcuts", // 2026-01-10
   ]
 }
 
@@ -65,6 +67,7 @@ const Y2019: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2019
+    "responsive-type-and-zoom", // 2019-12-07
     "web-development-advent-calendars-for-2019", // 2019-12-01
     "css-logical-properties", // 2019-11-13
     "aria-label-does-not-translate", // 2019-11-07
@@ -232,6 +235,7 @@ export const template: SidebarInfoTemplate = {
       "aria-label-does-not-translate", // 2019-11-07
       "css-logical-properties", // 2019-11-13
       "web-development-advent-calendars-for-2019", // 2019-12-01
+      "responsive-type-and-zoom", // 2019-12-07
       // END: 2019css
       // END: 2020css
       // END: 2021css
@@ -240,11 +244,31 @@ export const template: SidebarInfoTemplate = {
       // END: 2023css
       // END: 2024css
       // END: 2025css
+      "live-region-support", // 2026-01-15
       "barriers-from-links-with-aria", // 2026-01-23
       "you-know-what-just-dont-split-words-into-letters", // 2026-02-06
       "honoring-mobile-os-text-size", // 2026-02-07
       // END: 2026css
       // END: css
+    ]], [
+    "system-design", [
+      // END: 2012system-design
+      // END: 2013system-design
+      // END: 2014system-design
+      // END: 2015system-design
+      // END: 2016system-design
+      // END: 2017system-design
+      // END: 2018system-design
+      // END: 2019system-design
+      // END: 2020system-design
+      // END: 2021system-design
+      // END: 2022system-design
+      // END: 2023system-design
+      // END: 2024system-design
+      // END: 2025system-design
+      "brief-note-on-application-keyboard-shortcuts", // 2026-01-10
+      // END: 2026system-design
+      // END: system-design
     ]], [
     "career", [
       // END: 2012career
@@ -262,9 +286,9 @@ export const template: SidebarInfoTemplate = {
       // END: 2022career
       // END: 2023career
       // END: 2024career
-      // END: 2025css
-      // END: 2026css
-      // END: css
+      // END: 2025career
+      // END: 2026career
+      // END: career
     ]], [
     "all", [
       Y2026,

@@ -70,7 +70,7 @@ To follow this tutorial, you will need:
 
 - One Ubuntu server set up with a non-*root* user with `sudo` administrative privileges and firewall enabled. You can set this up by following our [**initial server setup for Ubuntu**](/digitalocean.com/initial-server-setup-with-ubuntu.md) tutorial.
 - A fully registered domain name. This tutorial will use **your_domain** as an example throughout. You can purchase a domain name on [<VPIcon icon="fas fa-globe"/>Namecheap](https://namecheap.com), get one for free on [<VPIcon icon="fas fa-globe"/>Freenom](https://freenom.com/en/index.html), or use the domain registrar of your choice.
-- Both of the following DNS records set up for your server. You can follow [<VPIcno icon="fa-brands fa-digital-ocean"/>this introduction to DigitalOcean DNS](https://docs.digitalocean.com/products/networking/dns/) for details on how to add them.
+- Both of the following DNS records set up for your server. You can follow [<VPIcon icon="fa-brands fa-digital-ocean"/>this introduction to DigitalOcean DNS](https://docs.digitalocean.com/products/networking/dns/) for details on how to add them.
   - An A record with `your_domain` pointing to your server’s public IP address.
   - An A record with `www.your_domain` pointing to your server’s public IP address.
 - Apache installed by following [**How To Install Apache on Ubuntu**](/digitalocean.com/how-to-install-the-apache-web-server-on-ubuntu-22-04.md). Be sure that you have a [**virtual host file**](/digitalocean.com/how-to-install-the-apache-web-server-on-ubuntu-22-04#step-5-setting-up-virtual-hosts-recommended.md) for your domain. This tutorial will use <VPIcon icon="fas fa-folder-open"/>`/etc/apache2/sites-available/`<VPIcon icon="iconfont icon-Apache"/>`your_domain.conf` as an example.

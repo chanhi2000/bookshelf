@@ -56,7 +56,7 @@ cover: https://master.dev/blog/wp-json/social-image-generator/v1/image/4492
   logo="https://master.dev/favicon.ico"
   preview="https://master.dev/blog/wp-json/social-image-generator/v1/image/4492"/>
 
-[<VPIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest), commonly referred to as react-query, is an incredibly popular tool for managing client-side querying. You could create an entire course on react-query, and people have, but here we’re going to keep it brief so you can quickly get going.
+[<VPIcon icon="iconfont icon-tanstack"/>TanStack Query](https://tanstack.com/query/latest), commonly referred to as react-query, is an incredibly popular tool for managing client-side querying. You could create an entire course on react-query, and people have, but here we’re going to keep it brief so you can quickly get going.
 
 ::: info Article Series
 
@@ -108,7 +108,7 @@ The `queryKey` does what it sounds like: it lets you identify any particular key
 
 There’s also a`useSuspenseQuery`hook which is the same idea, except instead of giving you an isLoading value, it relies on Suspense, and lets you handle loading state via Suspense boundaries.
 
-This barely scratches the surface of Query. If you’ve never used it before, be sure to check out[<VPIcon icon="fas fa-globe"/>the docs](https://tanstack.com/query/latest).
+This barely scratches the surface of Query. If you’ve never used it before, be sure to check out[<VPIcon icon="iconfont icon-tanstack"/>the docs](https://tanstack.com/query/latest).
 
 We’ll move on and cover the setup and integration with Router, but we’ll stay high level to keep this post a manageable length.
 

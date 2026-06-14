@@ -251,7 +251,11 @@ export const navbarEn = navbar([
         text: 'itsfoss.com',
         icon: 'https://itsfoss.com/content/images/size/w256h256/2022/12/android-chrome-192x192.png',
         link: '/itsfoss.com/README.md'
-      },     
+      }, {
+        text: 'fosslinux.com',
+        icon: 'https://fosslinux.com/favicon.ico',
+        link: '/fosslinux.com/README.md'
+      }
     ]
   }, {
     text: '',

@@ -238,7 +238,7 @@ You'll work through each of these files in detail in the sections below.
 
 Open <VPIcon icon="fas fa-folder-open"/>`app/sidebar-06/`<VPIcon icon="fa-brands fa-react"/>`page.tsx`. This file is the entry point for your dashboard page. It uses `SidebarProvider` to establish sidebar context across the page, and `SidebarTrigger` to render a toggle button inside the header.
 
-```jsx title="app/sidebar-06/page.tsx"
+```tsx title="app/sidebar-06/page.tsx"
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/shadcn-space/blocks/sidebar-06/app-sidebar";
 

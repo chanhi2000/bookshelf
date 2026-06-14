@@ -277,7 +277,15 @@ You know what? Just [**don’t split words into letters**](/adrianroselli.com/yo
 
 ::: info Other Posts
 
-[**Earlier post: Live Region Support**](/adrianroselli.com/live-region-support.md)
+```component VPCard
+{
+  "title": "Live Region Support",
+  "desc": "This post does not discuss whether live regions are good, nor is it a post about the best way to use them. This post only covers how they are exposed to the audience who experiences them — screen reader users. Written by a non-screen-reader user. If you’re here because your…",
+  "link": "/adrianroselli.com/live-region-support.md",
+  "logo": "https://adrianroselli.com/wp-content/themes/AAR/favicon.png",
+  "background": "rgba(0,0,0,0.2)"
+}
+```
 
 ```component VPCard
 {

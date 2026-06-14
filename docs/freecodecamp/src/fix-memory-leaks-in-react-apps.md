@@ -429,7 +429,7 @@ We can see the result of this in the GIF below:
 
 ![GIF shows an API call being cancelled after its component unmounts.](https://cdn.hashnode.com/res/hashnode/image/upload/v1758149811531/5497edbd-050c-4059-b088-239e8c5b65ef.gif)
 
-Most production React applications use external libraries to fetch APIs. For example, [<VPIcon icon="fas fa-globe"/>react query](https://tanstack.com/query/latest/docs/framework/react/guides/query-cancellation#using-fetch) allows us to cancel a processing promise:
+Most production React applications use external libraries to fetch APIs. For example, [<VPIcon icon="iconfont icon-tanstack"/>react query](https://tanstack.com/query/latest/docs/framework/react/guides/query-cancellation#using-fetch) allows us to cancel a processing promise:
 
 ```tsx
 const query = useQuery({

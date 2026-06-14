@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Build a Full-Stack SaaS App with TanStack Start, Elysia, and Neon"
 description: "Article(s) > How to Build a Full-Stack SaaS App with TanStack Start, Elysia, and Neon"
-icon: fa-brands fa-react
+icon: iconfont icon-tanstack
 category:
   - Node.js
   - React.js
@@ -27,6 +27,7 @@ tag:
   - devops
   - docker
   - data-science
+  - db
   - sql
   - postgres
   - postgresql

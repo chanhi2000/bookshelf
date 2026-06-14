@@ -5,6 +5,18 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "in-n-out-animation-using-sibling-index", // 2026-07-13
+    "thinking-horizontally-in-css-layer", // 2026-07-09
+    "how-to-make-an-interactive-element-invisible-but-accessible", // 2026-07-08
+    "boundary-aware-styling-in-css", // 2026-07-07
+    "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
+    "totally-free-course-claude-code", // 2026-07-01
+    "fluid-typography-with-progress", // 2026-06-29
+    "introduction-to-cloudflare-workers-for-web-apps", // 2026-06-26
+    "lets-play-with-gap-decorations", // 2026-06-24
+    "your-databases-isolation-levels-dont-mean-what-you-think", // 2026-06-22
+    "in-n-out-animations-view-transitions-part-3-3", // 2026-06-20
+    "the-scope-of-css-function", // 2026-06-16
     "in-n-out-animations-popovers-part-2-3", // 2026-06-12
     "demystifying-the-view-transition-pseudo-tree", // 2026-06-10
     "scrubbable-staggered-animation-with-css-function", // 2026-06-08
@@ -362,6 +374,7 @@ export const template: SidebarInfoTemplate = {
       "creating-puzzle-peices-in-css", // 2026-04-06
       "the-web-is-fun-again-first-experiments-with-html-in-canvas", // 2026-04-21
       "animating-focus-with-view-transitions", // 2026-05-06
+      "in-n-out-animations-view-transitions-part-3-3", // 2026-06-20
       // END: 2026js
       // END: js
     ]],[
@@ -389,6 +402,7 @@ export const template: SidebarInfoTemplate = {
       "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
       "what-to-know-in-javascript-2026-edition", // 2026-04-02
       "your-node-js-streams-arent-backpressuring-theyre-silently-eating-your-memory", // 2206-05-25
+      "introduction-to-cloudflare-workers-for-web-apps", // 2026-06-26
       // END: 2026js-node
       // END: js-node
     ]],[
@@ -418,6 +432,7 @@ export const template: SidebarInfoTemplate = {
       "building-a-blog-in-tanstack-part-2-of-2", // 2026-04-20
       "introducing-tanstack-form", // 2026-05-01
       "react-server-components-in-tanstack", // 2026-05-18
+      "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -649,8 +664,16 @@ export const template: SidebarInfoTemplate = {
       "scrubbable-staggered-animation-with-css-function", // 2026-06-08
       "demystifying-the-view-transition-pseudo-tree", // 2026-06-10
       "in-n-out-animations-popovers-part-2-3", // 2026-06-12
+      "the-scope-of-css-function", // 2026-06-16
+      "in-n-out-animations-view-transitions-part-3-3", // 2026-06-20
+      "lets-play-with-gap-decorations", // 2026-06-24
+      "fluid-typography-with-progress", // 2026-06-29
+      "boundary-aware-styling-in-css", // 2026-07-07
+      "how-to-make-an-interactive-element-invisible-but-accessible", // 2026-07-08
+      "thinking-horizontally-in-css-layer", // 2026-07-09
+      "in-n-out-animation-using-sibling-index", // 2026-07-13
       // END: 2026css
-      // END`: css
+      // END: css
     ]],[
     "devops", [
       "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
@@ -682,6 +705,9 @@ export const template: SidebarInfoTemplate = {
     "cloudflare", [
       "deploy-a-site-with-a-build-process-a-custom-domain-name", // 2025-07-12
       // END: 2025cloudflare
+      "introduction-to-cloudflare-workers-for-web-apps", // 2026-06-26
+      "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
+      // END: 2026cloudflare
       // END: cloudflare
     ]],[
     "docker", [
@@ -750,6 +776,9 @@ export const template: SidebarInfoTemplate = {
       "intro-to-postgres-indexes", // 2025-09-01
       "advanced-postgresql-indexing", // 2025-09-03
       // END: 2025postgres
+      "your-databases-isolation-levels-dont-mean-what-you-think", // 2026-06-22
+      "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
+      // END: 2026postgres
       // END: postgres
     ]],[
     "ai", [
@@ -773,6 +802,7 @@ export const template: SidebarInfoTemplate = {
     "claude", [
       // END: 2025claude
       "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
+      "totally-free-course-claude-code", // 2026-07-01
       // END: 2026claude
       // END: claude
     ]],[

@@ -108,7 +108,7 @@ In 2026, LocalTunnel remains relevant because of its low friction. If your goal 
 
 ![Cloudflare Tunnel](https://cdn.hashnode.com/uploads/covers/66c6d8f04fa7fe6a6e337edd/21340d7e-bcbd-43e4-86ad-919adbff6f03.png)
 
-[<VPIcno icon="fa-brands fa-cloudflare"/>Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) takes a more infrastructure-oriented approach compared to developer-centric tunneling tools. Instead of just exposing localhost, it integrates directly with Cloudflare’s global network and security platform.
+[<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) takes a more infrastructure-oriented approach compared to developer-centric tunneling tools. Instead of just exposing localhost, it integrates directly with Cloudflare’s global network and security platform.
 
 The tunnel is created through the cloudflared daemon, which establishes outbound connections to Cloudflare and routes traffic through their edge network.
 

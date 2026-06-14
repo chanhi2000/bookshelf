@@ -61,7 +61,7 @@ Against this backdrop, companies must decide how best to test their defences.
 
 Two main approaches have emerged as leaders: human-led penetration testing services and automated testing platforms. Each has strengths and limitations. Choosing the right one depends on your security goals, risk tolerance, and budget.
 
-At its core, [<VPIcno icon="fa-brands fa-cloudflare"/>penetration testing](https://cloudflare.com/learning/security/glossary/what-is-penetration-testing/) is about finding security holes before attackers do. But how you get there matters.
+At its core, [<VPIcon icon="fa-brands fa-cloudflare"/>penetration testing](https://cloudflare.com/learning/security/glossary/what-is-penetration-testing/) is about finding security holes before attackers do. But how you get there matters.
 
 Human experts bring creativity and real-world insight, while automated platforms offer scale and speed.
 

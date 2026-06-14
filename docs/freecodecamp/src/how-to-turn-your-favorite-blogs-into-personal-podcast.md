@@ -116,7 +116,7 @@ To follow along, you need basic JavaScript knowledge.
 You also need:
 
 - Node.js 22 or newer.
-- A place to store audio files ([<VPIcno icon="fa-brands fa-cloudflare"/>Cloudflare](https://dash.cloudflare.com/) R2 in this tutorial).
+- A place to store audio files ([<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://dash.cloudflare.com/) R2 in this tutorial).
 - A text-to-speech API ([<VPIcon icon="fas fa-globe"/>OrangeClone](http://orangeclone.com) in this tutorial).
 
 ---

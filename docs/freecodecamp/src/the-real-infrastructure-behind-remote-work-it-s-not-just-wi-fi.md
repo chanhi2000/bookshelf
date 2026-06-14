@@ -68,7 +68,7 @@ To understand remote work properly, you have to look beyond Wi-Fi. What matters 
 
 Wi-Fi is only the last hop in a much larger network. It's the interface, not the infrastructure.
 
-When you join a call or access a system, your data travels through local routers, internet service providers, undersea cables, cloud networks, and finally into the services you depend on. Each layer introduces [<VPIcno icon="fa-brands fa-cloudflare"/>latency](https://cloudflare.com/learning/performance/glossary/what-is-latency/), reliability constraints, and points of failure.
+When you join a call or access a system, your data travels through local routers, internet service providers, undersea cables, cloud networks, and finally into the services you depend on. Each layer introduces [<VPIcon icon="fa-brands fa-cloudflare"/>latency](https://cloudflare.com/learning/performance/glossary/what-is-latency/), reliability constraints, and points of failure.
 
 This is why two networks that both show “full bars” can behave very differently. One might route traffic efficiently through stable backbone providers. The other might be congested, poorly peered, or geographically inefficient.
 
@@ -110,7 +110,7 @@ For many organizations, remote access still runs through virtual private network
 
 Traffic is routed through centralized gateways, which can become bottlenecks. Latency increases. Performance drops. Simple tasks feel slower than they should.
 
-Modern architectures are shifting toward zero trust models, where access is granted per request rather than through a single tunnel. But the transition is uneven. [<VPIcno icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/en-in/) is one of the most popular enterprise VPNs in use trusted especially by enterprises.
+Modern architectures are shifting toward zero trust models, where access is granted per request rather than through a single tunnel. But the transition is uneven. [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/en-in/) is one of the most popular enterprise VPNs in use trusted especially by enterprises.
 
 Many remote workers still operate in hybrid setups, where some tools are cloud-native while others require legacy access paths.
 

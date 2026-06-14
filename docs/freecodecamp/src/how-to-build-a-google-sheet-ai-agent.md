@@ -26,6 +26,7 @@ tag:
   - artificial-intelligence
   - llm
   - large-language-models
+  - tool
   - google
   - google-gemini
   - google-drive

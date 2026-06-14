@@ -13,6 +13,12 @@ category:
 tag:
   - blog
   - freecodecamp.org
+  - node
+  - nodejs
+  - node-js
+  - react
+  - reactjs
+  - react-js
   - browser
   - webbrowser
   - web-browser
@@ -527,7 +533,7 @@ The `.replace(/^www./, "")` ensures that `www.github.com` and `github.com` are t
 
 The whole thing is wrapped in a try-catch so malformed URLs simply return `null` and get skipped.
 
-In practice: `https://www.github.com/user/repo` becomes `github.com`, `https://youtube.com/watch?v=123` becomes `youtube.com`, and `chrome://extensions` returns `null`.
+In practice: `https://www.github.com/user/repo` becomes `github.com`, `https://youtu.be/123` becomes `youtube.com`, and `chrome://extensions` returns `null`.
 
 ### Step 4: Color Assignment Helper
 

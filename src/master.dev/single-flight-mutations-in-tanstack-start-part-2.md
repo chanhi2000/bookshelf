@@ -94,7 +94,7 @@ But in going through all of this we’ll get to see some really cool TanStack, a
 
 ## Our First Middleware
 
-[<VPIcon icon="fas fa-globe"/>TanStack Query](https://tanstack.com/query/latest) (which we sometimes refer to as react-query, it’s package name) already has a wonderful system of hierarchical keys. Wouldn’t it be great if we could just have our middleware receive the query keys of what we want to refetch, and have it just… work? Have the middleware figure out *how* to refetch does seem tricky, at first. Sure, our queries have all been simple calls (by design) to server functions. But we can’t pass a server function reference up to the server; functions are not serializable. How could they be? You can send strings and numbers (and booleans) across the wire, serialized as JSON, but sending a function (which can have state, close over context, etc) makes no sense.
+[<VPIcon icon="iconfont icon-tanstack"/>TanStack Query](https://tanstack.com/query/latest) (which we sometimes refer to as react-query, it’s package name) already has a wonderful system of hierarchical keys. Wouldn’t it be great if we could just have our middleware receive the query keys of what we want to refetch, and have it just… work? Have the middleware figure out *how* to refetch does seem tricky, at first. Sure, our queries have all been simple calls (by design) to server functions. But we can’t pass a server function reference up to the server; functions are not serializable. How could they be? You can send strings and numbers (and booleans) across the wire, serialized as JSON, but sending a function (which can have state, close over context, etc) makes no sense.
 
 *Unless* they’re TanStack Start server functions, that is.
 

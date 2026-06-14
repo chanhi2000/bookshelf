@@ -520,7 +520,7 @@ Of course, these are still just small demos to explain the core ideas behind pix
 
 When I started playing with this API, it reminded me of an old Daniel Shiffman (Coding train) video where he used pixel manipulation to create a fire effect, and I wondered what it would feel like to do that on real DOM elements.
 
-If you are curious, here is [<VPIcon icon="fa-brands fa-youtube"/>Daniel’s great video](https://youtube.com/watch?v=X0kjv0MozuY), and this is how I implemented the effect on a real text input, utilizing the same pixel manipulation techniques we covered in this post.
+If you are curious, here is [<VPIcon icon="fa-brands fa-youtube"/>Daniel’s great video](https://youtu.be/X0kjv0MozuY), and this is how I implemented the effect on a real text input, utilizing the same pixel manipulation techniques we covered in this post.
 
 <CodePen
   user="https://codepen.io/amit_sheen/pen/jEMQZMY/8037bb33bb9233be0974cc60cd3bea5f"

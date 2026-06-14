@@ -91,7 +91,7 @@ For example, a GPU with a 256-bit memory bus will utilize eight GDDR6 chips. On 
 
 Experience the power of AI and machine learning with DigitalOcean GPU Droplets. Leverage NVIDIA H100 GPUs to accelerate your AI/ML workloads, deep learning projects, and high-performance computing tasks with simple, flexible, and cost-effective cloud solutions.
 
-[<VPIcno icon="fa-brands fa-digital-ocean"/>Sign up today to access GPU Droplets](https://cloud.digitalocean.com/gpus/new?region=tor1&size=gpu-h100x1-80gb) and scale your AI projects on demand without breaking the bank.
+[<VPIcon icon="fa-brands fa-digital-ocean"/>Sign up today to access GPU Droplets](https://cloud.digitalocean.com/gpus/new?region=tor1&size=gpu-h100x1-80gb) and scale your AI projects on demand without breaking the bank.
 
 :::
 

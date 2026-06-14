@@ -103,7 +103,7 @@ Proxies come in several forms, each designed for different scenarios.
 
 [<VPIcon icon="fas fa-globe"/>Forward proxies](https://zscaler.com/resources/security-terms-glossary/what-is-forward-proxy) are the most common. These are used by clients to access external resources. Corporate networks often use forward proxies to control employee internet access.
 
-[<VPIcno icon="fa-brands fa-cloudflare"/>Reverse proxies](https://cloudflare.com/learning/cdn/glossary/reverse-proxy/) work in the opposite direction. They sit in front of servers rather than clients. Websites use reverse proxies to load balance traffic, terminate TLS, and protect backend systems.
+[<VPIcon icon="fa-brands fa-cloudflare"/>Reverse proxies](https://cloudflare.com/learning/cdn/glossary/reverse-proxy/) work in the opposite direction. They sit in front of servers rather than clients. Websites use reverse proxies to load balance traffic, terminate TLS, and protect backend systems.
 
 Transparent proxies operate without explicit client configuration. They intercept traffic at the network level. These are often used by ISPs or enterprise networks.
 

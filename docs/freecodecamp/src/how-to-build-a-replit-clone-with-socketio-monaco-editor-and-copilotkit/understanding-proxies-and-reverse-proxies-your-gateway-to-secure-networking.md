@@ -94,7 +94,7 @@ Last but not least, forward proxies improve speed and efficiency by caching freq
 
 ![](https://cdn.hashnode.com/uploads/covers/66c6d8f04fa7fe6a6e337edd/453a743e-4531-4a72-b907-7b499f7aca28.png)
 
-[<VPIcno icon="fa-brands fa-cloudflare"/>Reverse proxies](https://cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/) work in the opposite way by managing the traffic coming into a network rather than the traffic going out. They're particularly useful in protecting servers, enhancing security by creating a single point of entry to the network. This limits direct exposure of servers to potential threats, as external users interact with the reverse proxy rather than the server itself.
+[<VPIcon icon="fa-brands fa-cloudflare"/>Reverse proxies](https://cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/) work in the opposite way by managing the traffic coming into a network rather than the traffic going out. They're particularly useful in protecting servers, enhancing security by creating a single point of entry to the network. This limits direct exposure of servers to potential threats, as external users interact with the reverse proxy rather than the server itself.
 
 A significant benefit of reverse proxies is [<VPIcon icon="iconfont icon-ibm"/>load balancing](https://ibm.com/think/topics/load-balancing). In complex networks, incoming traffic can overwhelm servers, leading to downtimes. Reverse proxies distribute this traffic evenly, preventing any single server from being overloaded. This ensures smooth operations and maximises server uptime.
 

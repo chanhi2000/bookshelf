@@ -102,7 +102,7 @@ Inline styles I can’t live with.
 
 My website uses [<VPIcon icon="fa-brands fa-firefox"/>content security headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src). Every inline style element or attribute requires a cryptographic hash. It’s not practical to generate CSP hashes for every attribute. I could use the `unsafe-inline` header but that defeats the purpose.
 
-My static site is hosted on Cloudflare Pages which is [<VPIcno icon="fa-brands fa-cloudflare"/>limited to 100 headers](https://developers.cloudflare.com/pages/configuration/headers/). Even with a server-side framework, generating a unique header per blog post would be a pain with tens or potentially hundreds of hashes.
+My static site is hosted on Cloudflare Pages which is [<VPIcon icon="fa-brands fa-cloudflare"/>limited to 100 headers](https://developers.cloudflare.com/pages/configuration/headers/). Even with a server-side framework, generating a unique header per blog post would be a pain with tens or potentially hundreds of hashes.
 
 ### Undeterred
 

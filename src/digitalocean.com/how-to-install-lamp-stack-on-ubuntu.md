@@ -519,7 +519,7 @@ When using the Apache web server, you can create **virtual hosts** (similar to s
 
 ::: note
 
-In case you are using DigitalOcean as DNS hosting provider, check out our [<VPIcno icon="fa-brands fa-digital-ocean"/>product documentation](https://docs.digitalocean.com/products/networking/dns/how-to/manage-records/#a-records) for detailed instructions on how to set up a new domain name and point it to your server.
+In case you are using DigitalOcean as DNS hosting provider, check out our [<VPIcon icon="fa-brands fa-digital-ocean"/>product documentation](https://docs.digitalocean.com/products/networking/dns/how-to/manage-records/#a-records) for detailed instructions on how to set up a new domain name and point it to your server.
 
 :::
 

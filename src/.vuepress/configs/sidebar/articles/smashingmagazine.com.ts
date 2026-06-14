@@ -69,6 +69,7 @@ const Y2023: SidebarYeargroupTemplate = {
     "popular-devtools-tips", // 2023-06-27
     "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
     "color-mechanics-ui-kits", // 2023-04-19
+    "dynamic-donut-charts-tailwind-css-react", // 2023-03-07
     "build-magazine-layout-css-grid-areas", // 2023-02-06
     "level-up-css-skills-has-selector", // 2023-01-23
   ],
@@ -150,6 +151,7 @@ const Y2017: SidebarYeargroupTemplate = {
     // END: 2017
     "understanding-css-layout-block-formatting-context", // 2017-12-11
     "what-to-charge-clients", // 2017-08-08
+    "convincing-clients-sign-off", // 2017-06-13
     "start-using-css-custom-properties", // 2017-04-19
   ],
 }
@@ -210,6 +212,7 @@ const Y2012: SidebarYeargroupTemplate = {
     "client-side-templating", // 2012-12-05
     "road-reusable-html-components", // 2012-10-23
     "useful-javascript-libraries-jquery-plugins-part-2", // 2012-09-26
+    "useful-javascript-libraries-jquery-plugins-web-developers", // 2026-09-23
     "classes-where-were-going-we-dont-need-classes", // 2012-06-19
     "decoupling-html-from-css", // 2012-04-20
     "a-new-front-end-methodology-bem", // 2012-04-16
@@ -280,6 +283,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2010js
       "sisyphus-js-client-side-drafts-and-more", // 2011-12-05
       // END: 2011js
+      "useful-javascript-libraries-jquery-plugins-web-developers", // 2026-09-23
       "useful-javascript-libraries-jquery-plugins-part-2", // 2012-09-26
       "client-side-templating", // 2012-12-05
       // END: 2012js
@@ -327,6 +331,8 @@ export const template: SidebarInfoTemplate = {
       // END: js-node
     ]],[
     "js-react", [
+      "dynamic-donut-charts-tailwind-css-react", // 2023-03-07
+      // END: 2023js-react
       "forensics-react-server-components", // 2024-05-09
       // END: 2024js-react
       // END: 2025js-react
@@ -387,6 +393,22 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-twilio
       // END: 2025js-twilio
       // END: js-twilio
+    ]],[
+    "css-tailwind", [
+      // END: 2014css-tailwind
+      // END: 2015css-tailwind
+      // END: 2016css-tailwind
+      // END: 2017css-tailwind
+      // END: 2018css-tailwind
+      // END: 2019css-tailwind
+      // END: 2020css-tailwind
+      // END: 2021css-tailwind
+      // END: 2022css-tailwind
+      "dynamic-donut-charts-tailwind-css-react", // 2023-03-07
+      // END: 2023css-tailwind
+      // END: 2024css-tailwind
+      // END: 2025css-tailwind
+      // END: css-tailwind
     ]],[
     "css", [
       "53-css-techniques-you-couldnt-live-without", // 2007-01-19
@@ -610,6 +632,7 @@ export const template: SidebarInfoTemplate = {
       // END: ai
     ]],[
     "career", [
+      "convincing-clients-sign-off", // 2017-06-13
       "what-to-charge-clients", // 2017-08-08
       // END: 2017career
       // END: 2018career

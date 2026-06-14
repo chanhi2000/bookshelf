@@ -2,7 +2,7 @@
 lang: en-US
 title: "React Server Components in TanStack"
 description: "Article(s) > React Server Components in TanStack"
-icon: fa-brands fa-react
+icon: iconfont icon-tanstack
 category:
   - Node.js
   - React.js
@@ -58,7 +58,7 @@ cover: https://master.dev/blog/wp-json/social-image-generator/v1/image/9689
   logo="https://master.dev/favicon.ico"
   preview="https://master.dev/blog/wp-json/social-image-generator/v1/image/9689"/>
 
-This post is about [<VPIcon icon="fa-brands fa-react"/>React Server Components](https://react.dev/reference/rsc/server-components) (or RSC) in [<VPIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest). The implementation is radically different, and in my opinion, better than the RSC implementation you’ve likely seen in Next.js.
+This post is about [<VPIcon icon="fa-brands fa-react"/>React Server Components](https://react.dev/reference/rsc/server-components) (or RSC) in [<VPIcon icon="iconfont icon-tanstack"/>TanStack Start](https://tanstack.com/start/latest). The implementation is radically different, and in my opinion, better than the RSC implementation you’ve likely seen in Next.js.
 
 This post will not be a direct 1:1 comparison. Instead, I’ll introduce this feature from first principles, as it exists in TanStack.
 
@@ -78,7 +78,7 @@ Since RSCs only exist on the server, they cannot have any state or user-facing i
 
 ## What RSC is Not
 
-Don’t be mistaken: RSC is *not* a solution for loading data more conveniently. TanStack Start already ships extremely simple, streamlined data-loading options. You have nested, isomorphic loaders for every level in your routing hierarchy. These loaders run on the server for your initial render and then on the client thereafter. This enables the deep integration with [<VPIcon icon="fas fa-globe"/>react-query](https://tanstack.com/query/latest) TanStack Start offers, along with fine-grained data invalidation. I wrote all about this in a [**previous introduction to TanStack Start**](/master.dev/introducing-tanstack-start.md).
+Don’t be mistaken: RSC is *not* a solution for loading data more conveniently. TanStack Start already ships extremely simple, streamlined data-loading options. You have nested, isomorphic loaders for every level in your routing hierarchy. These loaders run on the server for your initial render and then on the client thereafter. This enables the deep integration with [<VPIcon icon="iconfont icon-tanstack"/>react-query](https://tanstack.com/query/latest) TanStack Start offers, along with fine-grained data invalidation. I wrote all about this in a [**previous introduction to TanStack Start**](/master.dev/introducing-tanstack-start.md).
 
 RSC is also not a way to server-render content. TanStack Start (and Next.js for that matter), *already* server renders your initial navigation, and always has. Your normal, old-school components always render on the server, and then re-render on the client, wiring up event handlers and effects in a process known as “hydration.” RSCs also render on the server, but they *only* render on the server.
 
@@ -88,7 +88,7 @@ RSC is also not a way to server-render content. TanStack Start (and Next.js for 
 
 By rendering only on the server, your client bundles avoid the cost of all the code required to render your content. That means component trees that are large and expensive, with minimal client-side interactivity, are a prime candidate.
 
-The original [<VPIcon icon="fas fa-globe"/>blog post announcement](https://tanstack.com/blog/react-server-components) for TanStack’s RSCs discussed using them for content with code samples. By moving the code to parse, style, and format displayed code to the server, those libraries were removed from client-side bundles, saving non-trivial amounts of space.
+The original [<VPIcon icon="iconfont icon-tanstack"/>blog post announcement](https://tanstack.com/blog/react-server-components) for TanStack’s RSCs discussed using them for content with code samples. By moving the code to parse, style, and format displayed code to the server, those libraries were removed from client-side bundles, saving non-trivial amounts of space.
 
 In this post, we’ll simulate another good use case: content that’s mostly non-interactive, with many conditional imports and conditional rendering. Imagine an application shell, or layout, that can look lots of different ways depending on who’s viewing it: non-authenticated users, authenticated users, admin users, or even just authenticated users with varying permissions, which affect the content they’re shown.
 
@@ -98,7 +98,7 @@ To keep things simple, we’ll build a dirt-simple application layout, but use s
 
 ## Getting Started
 
-Check [<VPIcon icon="fas fa-globe"/>the docs](https://tanstack.com/start/v0/docs/framework/react/guide/server-components#setup) for instructions on configuring Vite for RSC.
+Check [<VPIcon icon="iconfont icon-tanstack"/>the docs](https://tanstack.com/start/v0/docs/framework/react/guide/server-components#setup) for instructions on configuring Vite for RSC.
 
 The repo for what we’ll be building [is here (<VPIcon icon="iconfont icon-github"/>`arackaf/tanstack-start-rsc-blog-post`)](https://github.com/arackaf/tanstack-start-rsc-blog-post). It’s essentially an empty web application, with a skeleton layout that looks like this:
 

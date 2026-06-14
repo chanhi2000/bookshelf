@@ -21,6 +21,7 @@ export const sidebarEn = sidebar({
   '/tecmint.com/':                [asb.tecmint()],
   '/learnkube.com/':              [asb.learnkube()],
   '/itsfoss.com/':                [asb.itsfoss()],
+  '/fosslinux.com/':              [asb.fosslinux()],
   '/antonioleiva.com/':           [asb.antonioleiva()],
   '/johnnyreilly.com/':           [asb.johnnyreilly()],
   '/code-maze.com/':              [asb.codemaze()],

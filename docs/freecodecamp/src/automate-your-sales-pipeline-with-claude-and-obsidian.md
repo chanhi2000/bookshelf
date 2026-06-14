@@ -90,7 +90,7 @@ Simon explains how he uses AI to power 45 virtual collaborators that handle ever
 
 \The goal of this system is to reduce "cognitive load." By delegating admin tasks to AI "robots," you can spend your time on strategy.
 
-Watch the video on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtube.com/watch?v=wYx9Q6dcJCw) ( > 1-hour watch).
+Watch the video on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/wYx9Q6dcJCw) ( > 1-hour watch).
 
 <VidStack src="youtube/wYx9Q6dcJCw" />
 

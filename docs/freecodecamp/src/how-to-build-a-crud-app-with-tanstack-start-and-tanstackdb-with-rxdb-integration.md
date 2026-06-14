@@ -60,12 +60,12 @@ TanStack Start is a new full-stack framework for React. It’s been growing in p
 
 TanStack Start has already started to emerge as a good alternative to other popular React frameworks like Next.js and Remix. The TanStack ecosystem is already quite popular with developers, and other well-known tools include:
 
-- [TanStack Router](https://tanstack.com/router/latest): Type-safe Routing for React and Solid applications
-- [TanStack Query](https://tanstack.com/query/latest): Powerful asynchronous state management, server-state utilities and data fetching
-- [TanStack Form](https://tanstack.com/form/latest): Headless UI for building performant and type-safe forms
-- [TanStackDB](https://tanstack.com/db/latest): A reactive client store for building super-fast apps on sync
+- [<VPIcon icon="iconfont icon-tanstack"/>TanStack Router](https://tanstack.com/router/latest): Type-safe Routing for React and Solid applications
+- [<VPIcon icon="iconfont icon-tanstack"/>TanStack Query](https://tanstack.com/query/latest): Powerful asynchronous state management, server-state utilities and data fetching
+- [<VPIcon icon="iconfont icon-tanstack"/>TanStack Form](https://tanstack.com/form/latest): Headless UI for building performant and type-safe forms
+- [<VPIcon icon="iconfont icon-tanstack"/>TanStackDB](https://tanstack.com/db/latest): A reactive client store for building super-fast apps on sync
 
-In this tutorial, we’ll build a simple but powerful to-do list CRUD application using [TanStack Start](https://tanstack.com/start), [TanStackDB](https://tanstack.com/db), and [RxDB](https://rxdb.info/). You can see what the app looks like below:
+In this tutorial, we’ll build a simple but powerful to-do list CRUD application using [<VPIcon icon="iconfont icon-tanstack"/>TanStack Start](https://tanstack.com/start), [<VPIcon icon="iconfont icon-tanstack"/>TanStackDB](https://tanstack.com/db), and [RxDB](https://rxdb.info/). You can see what the app looks like below:
 
 ![TanStack to do list CRUD App](https://cdn.hashnode.com/res/hashnode/image/upload/v1761220967371/3bd1f03c-e844-42bc-ac0f-b637e7cd6e61.png)
 

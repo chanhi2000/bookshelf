@@ -24,7 +24,7 @@ head:
       content: "AI Paper Review: Training Language Models to Follow Instructions with Human Feedback (InstructGPT)"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-paper-review-training-language-models-to-follow-instructions-with-human-feedback-instructgpt.html
-prev: /articles/README.md
+prev: /ai/openai/articles/README.md
 date: 2026-06-04
 isOriginal: false
 author:
@@ -37,9 +37,9 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/494c3fa7
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "OpenAI > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/ai/openai/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

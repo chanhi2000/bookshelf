@@ -60,6 +60,7 @@ const Y2023: SidebarYeargroupTemplate = {
     // END: 2023
     "just-in-time-javascript", // 2023-11-06
     "css-off-canvas-responsive-navigation-revisited", // 2023-10-06
+    "adios-netlify-hola-cloudflare-pages", // 2023-09-26
   ],
 }
 
@@ -428,6 +429,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2020cloudflare
       // END: 2021cloudflare
       // END: 2022cloudflare
+      "adios-netlify-hola-cloudflare-pages", // 2023-09-26
       // END: 2023cloudflare
       // END: 2024cloudflare
       "bunny-cdn-edge-storage", // 2025-04-27
@@ -455,6 +457,27 @@ export const template: SidebarInfoTemplate = {
       // END: 2025bunny
       // END: 2026bunny
       // END: bunny
+    ]], [
+    "netlify", [
+      // END: 2010netlify
+      // END: 2011netlify
+      // END: 2012netlify
+      // END: 2013netlify
+      // END: 2014netlify
+      // END: 2015netlify
+      // END: 2016netlify
+      // END: 2017netlify
+      // END: 2018netlify
+      // END: 2019netlify
+      // END: 2020netlify
+      // END: 2021netlify
+      // END: 2022netlify
+      "adios-netlify-hola-cloudflare-pages", // 2023-09-26
+      // END: 2023netlify
+      // END: 2024netlify
+      // END: 2025netlify
+      // END: 2026netlify
+      // END: netlify
     ]], [
     "figma", [
       "top-ten-figma-betrayls", // 2026-03-24

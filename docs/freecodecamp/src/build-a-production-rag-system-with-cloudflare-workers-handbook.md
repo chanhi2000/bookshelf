@@ -111,7 +111,7 @@ This is an intermediate-level tutorial. You should be comfortable with:
 You will need:
 
 - **Node.js 18 or higher**: check with `node --version`
-- **A Cloudflare account**: free tier is fine, sign up at [<VPIcno icon="fa-brands fa-cloudflare"/>cloudflare.com](https://dash.cloudflare.com/sign-up)
+- **A Cloudflare account**: free tier is fine, sign up at [<VPIcon icon="fa-brands fa-cloudflare"/>cloudflare.com](https://dash.cloudflare.com/sign-up)
 - **A code editor**: VS Code recommended for TypeScript support
 
 That's it. No OpenAI key. No credit card for embeddings. Let's build.

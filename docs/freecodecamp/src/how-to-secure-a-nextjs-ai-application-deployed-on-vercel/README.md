@@ -988,7 +988,7 @@ Here’s the video for this section:
 
 In addition to rate limiting, you can use the Vercel automatic DDOS mitigation. According to the Vercel website, there aren’t any charges for the DDOS protection. So all you can do is trust their service.
 
-Also, if you have (or want to purchase) a domain name, you can use Cloudflare and get free, unlimited DDOS protection and security for your app. You can check the [<VPIcno icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/en-gb/ddos) site for more information.
+Also, if you have (or want to purchase) a domain name, you can use Cloudflare and get free, unlimited DDOS protection and security for your app. You can check the [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/en-gb/ddos) site for more information.
 
 ### Vercel security features
 

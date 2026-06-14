@@ -54,9 +54,9 @@ cover: https://master.dev/blog/wp-json/social-image-generator/v1/image/3821
   logo="https://master.dev/favicon.ico"
   preview="https://master.dev/blog/wp-json/social-image-generator/v1/image/3821"/>
 
-[<VPIcon icon="fas fa-globe"/>TanStack Router](https://tanstack.com/router/latest) is an incredibly exciting project. It’s essentially a fully-featured*client-side*JavaScript application framework. It provides a mature routing and navigation system with nested layouts and efficient data loading capabilities at every point in the route tree. Best of all, it does all of this in a*type-safe*manner.
+[<VPIcon icon="iconfont icon-tanstack"/>TanStack Router](https://tanstack.com/router/latest) is an incredibly exciting project. It’s essentially a fully-featured*client-side*JavaScript application framework. It provides a mature routing and navigation system with nested layouts and efficient data loading capabilities at every point in the route tree. Best of all, it does all of this in a*type-safe*manner.
 
-What’s especially exciting is that, as of this writing, there’s a [<VPIcon icon="fas fa-globe"/>TanStack Start](https://tanstack.com/start/latest) in the works, which will add server-side capabilities to Router, enabling you to build full-stack web applications. Start promises to do this with a server layer applied directly on top of the same TanStack Router we’ll be covering here. That makes this a perfect time to get to know Router if you haven’t already.
+What’s especially exciting is that, as of this writing, there’s a [<VPIcon icon="iconfont icon-tanstack"/>TanStack Start](https://tanstack.com/start/latest) in the works, which will add server-side capabilities to Router, enabling you to build full-stack web applications. Start promises to do this with a server layer applied directly on top of the same TanStack Router we’ll be covering here. That makes this a perfect time to get to know Router if you haven’t already.
 
 TanStack Router is more than just a router — it’s a full-fledged client-side application framework. So to prevent this post from getting too long, we won’t even try to cover it all. We’ll limit ourselves to routing and navigation, which is a larger topic than you might think, especially considering the type-safe nature of Router.
 
@@ -98,7 +98,7 @@ TanStack Router is more than just a router — it’s a full-fledged client-side
 
 ## Getting started
 
-There are [<VPIcon icon="fas fa-globe"/>official TanStack Router docs](https://tanstack.com/router/latest/docs/framework/react/overview) and [a <VPIcon icon="fas fa-globe"/>quickstart guide](https://tanstack.com/router/v1/docs/framework/react/quick-start), which has a nice tool for scaffolding a fresh Router project. You can also clone [the repo used for this post (<VPIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-routing-demo`)](https://github.com/arackaf/tanstack-router-routing-demo)and follow along.
+There are [<VPIcon icon="iconfont icon-tanstack"/>official TanStack Router docs](https://tanstack.com/router/latest/docs/framework/react/overview) and [a <VPIcon icon="iconfont icon-tanstack"/>quickstart guide](https://tanstack.com/router/v1/docs/framework/react/quick-start), which has a nice tool for scaffolding a fresh Router project. You can also clone [the repo used for this post (<VPIcon icon="iconfont icon-github"/>`arackaf/tanstack-router-routing-demo`)](https://github.com/arackaf/tanstack-router-routing-demo)and follow along.
 
 <SiteInfo
   name="arackaf/tanstack-router-routing-demo"
@@ -391,7 +391,7 @@ Before moving on, let’s briefly pause and look at the<VPIcon icon="fa-brands f
 
 The cherry on the top of this post will be, in my opinion, one of the most obnoxious aspects of web development: dealing with search params (sometimes called querystrings). Basically the stuff that comes after the`?`in a URL:`/tasks?search=foo&status=open`. The underlying platform primitive `URLSearchParams` can be tedious to work with, and frameworks don’t usually do much better, often providing you an un-typed bag of properties, and offering minimal help in constructing a new URL with new, updated querystring values.
 
-TanStack Router provides a convenient, fully-featured mechanism for managing search params, **which are also type-safe**. Let’s dive in. We’ll take a high-level look, but the full docs[<VPIcon icon="fas fa-globe"/>are here](https://tanstack.com/router/latest/docs/framework/react/guide/search-params).
+TanStack Router provides a convenient, fully-featured mechanism for managing search params, **which are also type-safe**. Let’s dive in. We’ll take a high-level look, but the full docs [<VPIcon icon="iconfont icon-tanstack"/>are here](https://tanstack.com/router/latest/docs/framework/react/guide/search-params).
 
 We’ll add search param support for the`/epics/$epicId/milestones`route. We’ll allow various values in the search params that would allow the user to search milestones under a given epic. We’ve seen the `createFileRoute` function countless times. Typically we just pass a `component` to it.
 
@@ -427,9 +427,9 @@ export const Route = createFileRoute("/epics/$epicId/milestones/")({
   component: ({}) => {
 ```
 
-Note that (unlike`URLSearchParams`) we are not limited to just string values. We can put objects or arrays in there, and TanStack will do the work of serializing and de-serializing it for us. Not only that, but you can even specify[<VPIcon icon="fas fa-globe"/>custom serialization mechanisms](https://tanstack.com/router/latest/docs/framework/react/guide/custom-search-param-serialization).
+Note that (unlike`URLSearchParams`) we are not limited to just string values. We can put objects or arrays in there, and TanStack will do the work of serializing and de-serializing it for us. Not only that, but you can even specify [<VPIcon icon="iconfont icon-tanstack"/>custom serialization mechanisms](https://tanstack.com/router/latest/docs/framework/react/guide/custom-search-param-serialization).
 
-Moreover, for a production application, you’ll likely want to use a more serious validation mechanism, like [<VPIcon icon="fas fa-globe"/>Zod](https://zod.dev/). In fact, Router has a number of adapters you can use out of the box, including Zod. Check out the [<VPIcon icon="fas fa-globe"/>docson Search Params](https://tanstack.com/router/latest/docs/framework/react/guide/search-params#zod-adapter) here.
+Moreover, for a production application, you’ll likely want to use a more serious validation mechanism, like [<VPIcon icon="iconfont icon-zod"/>Zod](https://zod.dev/). In fact, Router has a number of adapters you can use out of the box, including Zod. Check out the [<VPIcon icon="iconfont icon-tanstack"/>docson Search Params](https://tanstack.com/router/latest/docs/framework/react/guide/search-params#zod-adapter) here.
 
 Let’s manually browse to this path, without any search params, and see what happens. When we browse to
 

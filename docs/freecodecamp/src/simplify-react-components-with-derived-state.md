@@ -72,7 +72,7 @@ Before you move on, make sure you have:
 
 :::
 
-If you don’t have a React development setup, you can head over to the [<VPIcon icon="iconfont icon-github"/>`Olaleye-Blessing/freecodecamp-derived-states` repo](https://github.com/Olaleye-Blessing/freecodecamp-derived-states). The repo has been set up with [<VPIcon icon="fas fa-globe"/>React Router](https://reactrouter.com/) and [<VPIcon icon="fas fa-globe"/>React Query](https://tanstack.com/query/latest/docs/framework/react/overview). Run the commands below to set it up:
+If you don’t have a React development setup, you can head over to the [<VPIcon icon="iconfont icon-github"/>`Olaleye-Blessing/freecodecamp-derived-states` repo](https://github.com/Olaleye-Blessing/freecodecamp-derived-states). The repo has been set up with [<VPIcon icon="fas fa-globe"/>React Router](https://reactrouter.com/) and [<VPIcon icon="iconfont icon-tanstack"/>React Query](https://tanstack.com/query/latest/docs/framework/react/overview). Run the commands below to set it up:
 
 ```sh
 # clone the repo

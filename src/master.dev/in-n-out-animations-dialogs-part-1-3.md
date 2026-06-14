@@ -76,6 +76,16 @@ First, we’re going to focus on an element that goes from `display: none;` to `
 }
 ```
 
+```component VPCard
+{
+  "title": "In-N-Out Animations: View Transitions (Part 3/3)",
+  "desc": "View Transitions are of unique help in applying an animation to an element even when you are literally removing it from the DOM. ",
+  "link": "/master.dev/in-n-out-animations-view-transitions-part-3-3.md",
+  "logo": "https://master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
 :::
 
 Let’s start with the modern wonder that is the `<dialog>` element.
@@ -527,6 +537,16 @@ dialog {
   "title": "In-N-Out Animations: Popovers (Part 2/3)",
   "desc": "Using our 3, 2, 1 state system, we can make popovers animate on ",
   "link": "/master.dev/in-n-out-animations-popovers-part-2-3.md",
+  "logo": "https://master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "In-N-Out Animations: View Transitions (Part 3/3)",
+  "desc": "View Transitions are of unique help in applying an animation to an element even when you are literally removing it from the DOM. ",
+  "link": "/master.dev/in-n-out-animations-view-transitions-part-3-3.md",
   "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

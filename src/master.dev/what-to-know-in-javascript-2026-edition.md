@@ -528,17 +528,17 @@ Once upon a time (a few years ago) [<VPIcon icon="fas fa-globe"/>Remix](https://
 
 > Instead, we’re building our own component model that feels closer to the web than anything we’ve seen before.
 
-They had an event, [Re<VPIcon icon="fas fa-globe"/>ix Jam](https://remix.run/jam/2025), where they got into things, so check that out if you’re super interested.
+They had an event, [<VPIcon icon="fas fa-globe"/>Reix Jam](https://remix.run/jam/2025), where they got into things, so check that out if you’re super interested.
 
 ### TanStack
 
-Some of the fallout from the Remix confusion may have benefited [<VPIcon icon="fas fa-globe"/>he TanStack universe](https://tanstack.com/), which is a collection of tools, including [<VPIcon icon="fas fa-globe"/> router](https://tanstack.com/router/latest) that is quite popular. And like Remix before it, that router has grown up into [<VPIcon icon="fas fa-globe"/> framework](https://tanstack.com/start/latest) as well.
+Some of the fallout from the Remix confusion may have benefited [<VPIcon icon="iconfont icon-tanstack"/>The TanStack universe](https://tanstack.com/), which is a collection of tools, including [<VPIcon icon="iconfont icon-tanstack"/> router](https://tanstack.com/router/latest) that is quite popular. And like Remix before it, that router has grown up into [<VPIcon icon="iconfont icon-tanstack"/> framework](https://tanstack.com/start/latest) as well.
 
 We’ve got [<VPIcon icon="fas fa-globe"/>lots of content getting into the TanStack world](https://master.dev/blog/tag/tanstack/) from Adam Rackis.
 
 ### Astro
 
-[<VPIcno icon="fa-brands fa-cloudflare"/>Astro](https://astro.build/) has been going strong for years now and isn’t slowing down. Just this year, they were [<VPIcno icon="fa-brands fa-cloudflare"/>acquired by Cloudflare](https://blog.cloudflare.com/astro-joins-cloudflare/), which generally feels like a good thing, as really good front-end frameworks are notoriously hard to build a strong business model around, and the answer seems to be partnering with serious hosting. It’s already being used to [<VPIcno icon="fa-brands fa-cloudflare"/>build a weird WordPress clone](https://blog.cloudflare.com/emdash-wordpress/).
+[<VPIcon icon="fa-brands fa-cloudflare"/>Astro](https://astro.build/) has been going strong for years now and isn’t slowing down. Just this year, they were [<VPIcon icon="fa-brands fa-cloudflare"/>acquired by Cloudflare](https://blog.cloudflare.com/astro-joins-cloudflare/), which generally feels like a good thing, as really good front-end frameworks are notoriously hard to build a strong business model around, and the answer seems to be partnering with serious hosting. It’s already being used to [<VPIcon icon="fa-brands fa-cloudflare"/>build a weird WordPress clone](https://blog.cloudflare.com/emdash-wordpress/).
 
 If you’re looking to build a site that is static-by-default, but still uses modern JavaScript framework component-based architecture, and makes it easy to opt-in to more dynamic behavior, Astro is the gold standard and darn fine choice if you ask me.
 

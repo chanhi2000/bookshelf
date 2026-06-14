@@ -35,7 +35,7 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/3522007b
 
 ```component VPCard
 {
-  "title": "TailwindCSS > Article(s)",
+  "title": "Tailwind CSS > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/css-tailwind/articles/README.md",
   "logo": "/images/ico-wind.svg",

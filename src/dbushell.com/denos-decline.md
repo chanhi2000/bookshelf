@@ -86,7 +86,7 @@ Back in [January 2024 (<VPIcon icon="iconfont icon-github"/>`denoland/docs`)](ht
 
 I would have been happy seeing 42ms to begin with. Anyway, the original 35 wasn’t impressive but twelve is frankly pitiful if I’m being brutally honest, which I am (because it gets worse). I’ve never quite understood what “serverless” means but I think Deno are taking it too literally.
 
-To provide an unfair comparison, [<VPIcno icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/en-gb/network/) boast “335 cities in 125+ countries”. I don’t know what a respectable number is for Deno Deploy. Only that it’s between 12 and 335 but I suspect we’ll never find out.
+To provide an unfair comparison, [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/en-gb/network/) boast “335 cities in 125+ countries”. I don’t know what a respectable number is for Deno Deploy. Only that it’s between 12 and 335 but I suspect we’ll never find out.
 
 [<VPIcon icon="iconfont icon-deno"/>Bunny](https://bunny.net/network/) advertise 119 Point of Presences (PoPs) in 77 countries. Bunny has [<VPIcon icon="iconfont icon-deno"/>edge scripting](https://bunny.net/blog/introducing-bunny-edge-scripting-a-better-way-to-build-and-deploy-applications-at-the-edge/) using the Deno runtime. Is that their own infrastructure, or Deno’s [<VPIcon icon="iconfont icon-deno"/>enterprise](https://deno.com/enterprise) offering? [<VPIcon icon="iconfont icon-deno"/>Netlify uses Deno](https://deno.com/blog/netlify-subhosting) for edge functions but their 70+ PoPs is restricted to [“High-Performance Edge”](https://netlify.com/platform/core/high-performance-edge/) (with a “custom” price tag). Now I’m curious, if (big if) Enterprise Deno is doing well, why scale back for us mortals?
 

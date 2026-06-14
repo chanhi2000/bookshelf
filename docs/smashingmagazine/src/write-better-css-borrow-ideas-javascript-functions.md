@@ -267,7 +267,15 @@ What ties these ideas together is a question I hope you’ll ask yourself the ne
 
 ::: info Further Reading On SmashingMag
 
-- [**How To Create Dynamic Donut Charts With TailwindCSS And React**](/smashingmagazine.com/dynamic-donut-charts-tailwind-css-react.md)
+```component VPCard
+{
+  "title": "How To Create Dynamic Donut Charts With TailwindCSS And React",
+  "desc": "In this article, Paul Scanlon shares a super lightweight approach to creating a Donut chart using conic-gradient(). There are no additional libraries to install or maintain, and there’s no heavy JavaScript that needs to be downloaded by the browser in order for them to work.",
+  "link": "/smashingmagazine.com/dynamic-donut-charts-tailwind-css-react.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
 
 ```component VPCard
 {

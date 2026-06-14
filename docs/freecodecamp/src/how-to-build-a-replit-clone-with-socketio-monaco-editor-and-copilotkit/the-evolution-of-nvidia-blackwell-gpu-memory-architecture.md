@@ -266,7 +266,7 @@ As models continue to grow, Blackwell's memory-first design philosophy points to
   logo="https://cdn.prod.website-files.com/61dda201f29b7e7157c5fbaa/69b076efe5ce571b1a9f6bb8_arc-favicon%20(1).png"
   preview="https://cdn.prod.website-files.com/61dda201f29b7efc52c5fbaf/6501ddad197854c050116c62_a100-memory.jpg"/>
 
-5. GPU Memory Bandwidth and Its Impact on Performance: [<VPIcno icon="fa-brands fa-digital-ocean"/>https://www.digitalocean.com/community/tutorials/gpu-memory-bandwidth](https://digitalocean.com/community/tutorials/gpu-memory-bandwidth)
+5. GPU Memory Bandwidth and Its Impact on Performance: [<VPIcon icon="fa-brands fa-digital-ocean"/>https://www.digitalocean.com/community/tutorials/gpu-memory-bandwidth](https://digitalocean.com/community/tutorials/gpu-memory-bandwidth)
 
 <SiteInfo
   name="The AI Systems Game: Are Chip-to-Chip Interconnects the Future of Inference?"

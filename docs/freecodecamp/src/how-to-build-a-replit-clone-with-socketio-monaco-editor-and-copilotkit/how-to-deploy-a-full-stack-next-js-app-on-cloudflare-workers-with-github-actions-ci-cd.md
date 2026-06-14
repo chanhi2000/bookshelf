@@ -74,7 +74,7 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/cbb9e559
 
 ```component VPCard
 {
-  "title": "CSS > Article(s)",
+  "title": "TailwindCSS > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/css-tailwind/articles/README.md",
   "logo": "/images/ico-wind.svg",
@@ -171,7 +171,7 @@ In short, choose **Vercel** if you want the simplest, plug-and-play Next.js depl
 Before getting started, make sure you have the following set up. Most of these take only a few minutes:
 
 - **Node.js 18+** and **pnpm 9+** (you can also use npm or yarn, but this guide uses pnpm.)
-- A **Cloudflare account** 👉 [<VPIcno icon="fa-brands fa-cloudflare"/>`dash.cloudflare.com/sign-up`](https://dash.cloudflare.com/sign-up)
+- A **Cloudflare account** 👉 [<VPIcon icon="fa-brands fa-cloudflare"/>`dash.cloudflare.com/sign-up`](https://dash.cloudflare.com/sign-up)
 - A **Supabase account** (if your app uses a database) 👉 [`supabase.com`](https://supabase.com)
 - A **GitHub repository** for your project (required later for CI/CD setup)
 - A **domain name** (optional) – You’ll get a free `*.workers.dev` URL by default.
@@ -453,7 +453,7 @@ Go to GitHub repo → Settings → Secrets and variables → Actions → New rep
 
 | Secret | Where to get it |
 | --- | --- |
-| `CLOUDFLARE_API_TOKEN` | [<VPIcno icon="fa-brands fa-cloudflare"/>`dash.cloudflare.com/profile/api-tokens`](https://dash.cloudflare.com/profile/api-tokens) → "Edit Cloudflare Workers" template |
+| `CLOUDFLARE_API_TOKEN` | [<VPIcon icon="fa-brands fa-cloudflare"/>`dash.cloudflare.com/profile/api-tokens`](https://dash.cloudflare.com/profile/api-tokens) → "Edit Cloudflare Workers" template |
 | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard → right sidebar, "Account ID" |
 | `CLOUDFLARE_ACCOUNT_SUBDOMAIN` | Your `*.workers.dev` subdomain (used only for the deployment URL link) |
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase project settings |

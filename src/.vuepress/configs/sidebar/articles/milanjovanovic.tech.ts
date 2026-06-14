@@ -15,6 +15,11 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "how-i-migrated-my-website-to-cloudflare-and-saved-228-dollars", // 2026-07-18
+    "how-to-test-vertical-slice-architecture", // 2026-07-11
+    "build-your-own-vpn-with-tailscale", // 2026-07-04
+    "getting-started-with-nats-jetstream-in-dotnet", // 2026-06-27
+    "the-modular-monolith-boundary-i-couldnt-take-back", // 2026-06-20
     "building-dapr-workflows-in-dotnet-with-aspire", // 2026-06-13
     "dry-is-the-most-misunderstood-rule-in-programming", // 2026-06-06
     "union-types-are-finally-coming-to-csharp", // 2026-05-30
@@ -423,6 +428,8 @@ export const template: SidebarInfoTemplate = {
       "union-types-are-finally-coming-to-csharp", // 2026-05-30
       "dry-is-the-most-misunderstood-rule-in-programming", // 2026-06-06
       "building-dapr-workflows-in-dotnet-with-aspire", // 2026-06-13
+      "getting-started-with-nats-jetstream-in-dotnet", // 2026-06-27
+      "how-to-test-vertical-slice-architecture", // 2026-07-11
       // END: 2026cs
       // END: cs
     ]],[
@@ -442,6 +449,8 @@ export const template: SidebarInfoTemplate = {
     "go-grafana", [
       "monitoring-dotnet-applications-with-opentelemetry-and-grafana", // 2025-06-21
       // END: 2025go-grafana
+      "build-your-own-vpn-with-tailscale", // 2026-07-04
+      // END: 2026go-grafana
       // END: go-grafana
     ]],[
     "go-prometheus", [
@@ -456,6 +465,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2025erl-rabbitmq
       // END: erl-rabbitmq
     ]],[
+    "devops", [
+      "how-i-migrated-my-website-to-cloudflare-and-saved-228-dollars", // 2026-07-18
+      // END: 2026devops
+      // END: devops
+    ]],[
     "docker", [
       "horizontally-scaling-aspnetcore-apis-with-yarp-load-balancing", // 2024-03-30
       "simple-messaging-in-dotnet-with-redis-pubsub", // 2024-07-27
@@ -469,6 +483,9 @@ export const template: SidebarInfoTemplate = {
       // END: 2025docker
       "containerize-your-dotnet-applications-without-a-dockerfile", // 2026-01-31
       "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
+      "getting-started-with-nats-jetstream-in-dotnet", // 2026-06-27
+      "build-your-own-vpn-with-tailscale", // 2026-07-04
+      "how-i-migrated-my-website-to-cloudflare-and-saved-228-dollars", // 2026-07-18
       // END: 2026docker
       // END: docker
     ]],[
@@ -480,6 +497,7 @@ export const template: SidebarInfoTemplate = {
       "building-generative-ai-applications-with-github-models-and-dotnet-aspire", // 2025-08-16
       // END: 2025github
       "containerize-your-dotnet-applications-without-a-dockerfile", // 2026-01-31
+      "how-i-migrated-my-website-to-cloudflare-and-saved-228-dollars", // 2026-07-18
       // END: 2026github
       // END: github
     ]],[
@@ -504,15 +522,20 @@ export const template: SidebarInfoTemplate = {
       // END: 2025nginx
       // END: nginx
     ]],[
+    "cloudflare", [
+      "how-i-migrated-my-website-to-cloudflare-and-saved-228-dollars", // 2026-07-18
+      // END: 2026cloudflare
+      // END: cloudflare
+    ]],[
     "security-jwt", [
       // END: 2025security-jwt
-    "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
+      "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
       // END: 2026security-jwt
       // END: security-jwt
     ]],[
     "security-oauth", [
       // END: 2025security-oauth
-    "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
+      "integrate-keycloak-with-aspnetcore-using-oauth-2", // 2026-02-06
       // END: 2026security-oauth
       // END: security-oauth
     ]],[
@@ -532,6 +555,7 @@ export const template: SidebarInfoTemplate = {
       "getting-started-with-pgvector-in-dotnet-for-simple-vector-search", // 2026-03-28
       "implementing-the-inbox-pattern-for-reliable-message-consumption", // 2026-04-04
       "implementing-the-saga-pattern-with-wolverine", // 2026-04-11
+      "build-your-own-vpn-with-tailscale", // 2026-07-04
       // END: 2026postgres
       // END: postgres
     ]],[
@@ -573,6 +597,8 @@ export const template: SidebarInfoTemplate = {
       "scaling-signalr-with-redis-backplane", // 2026-03-21
       "api-versioning-should-be-your-last-resort", // 2026-05-09
       "how-to-scale-long-running-api-requests", // 2026-05-23
+      "the-modular-monolith-boundary-i-couldnt-take-back", // 2026-06-20
+      "build-your-own-vpn-with-tailscale", // 2026-07-04
       // END: 2026system-design
       // END: system-design
     ]],[

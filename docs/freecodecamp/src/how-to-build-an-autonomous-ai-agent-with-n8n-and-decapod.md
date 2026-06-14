@@ -230,7 +230,7 @@ Decapod is a finished MVP and should work right out of the box with minimal head
   - You can technically host this on your own PC if you know it will be running 24/7. But using a VPS will give you peace of mind and avoid complicating your PC.
   - Big-name solutions like AWS and Google Cloud can wind up going off the rails and costing you big bucks if you don't know exactly what you're doing. Better to stick with less enterprise-oriented offerings. I've used the following:
     - [<VPIcon icon="fas fa-globe"/>Hetzner](https://hetzner.com/) – My current personal favorite. Germany based. High quality and affordable pricing with a few American servers. Even more affordable with European servers.
-    - [<VPIcno icon="fa-brands fa-digital-ocean"/>Digital Ocean](https://digitalocean.com/) – US based. Can't go wrong. Decent prices. Many offerings. Almost exclusively American servers.
+    - [<VPIcon icon="fa-brands fa-digital-ocean"/>Digital Ocean](https://digitalocean.com/) – US based. Can't go wrong. Decent prices. Many offerings. Almost exclusively American servers.
     - [<VPIcon icon="fas fa-globe"/>Webdock](https://webdock.io/en) – Denmark based. The most affordable of the bunch.
 - ✅ An OpenRouter account. OR provides a universal interface for hundreds of AI models. There's no freemium upsell, like with Hugging Face, but there is a percentage add on when you buy credits/tokens. I feel like it's worth the extra fee to be able to easily swap from Claude to Kimi to GPT to DeepSeek as I please without more keys, more accounts, and more wiring. But this is optional. You can plug Decapod right into Kimi or Gemini and just leave it there if you like.
 

@@ -58,7 +58,7 @@ cover: /assets/image/blog.logrocket.com/tanstack-table-formerly-react-table/bann
 
 ## What is TanStack Table?
 
-[TanStack Table (<VPIcon icon="iconfont icon-github"/>`table/latest`)](https://tanstack.com/table/latest), formerly known as [React Table (<VPIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table), is a headless UI for building tables and datagrids across multiple frameworks, including React, Solid, Vue, and even React Native. Being “headless” means it doesn’t provide pre-built components or styles, giving you full control over markup and design. It’s perfect if you want a customizable and lightweight table solution that can be used with [**any JavaScript framework**](/blog.logrocket.com/10-most-important-javascript-frameworks-past-decade.md), thanks to it being framework agnostic.
+[<VPIcon icon="iconfont icon-tanstack"/>TanStack Table](https://tanstack.com/table/latest), formerly known as [React Table (<VPIcon icon="iconfont icon-github"/>`tannerlinsley/react-table`)](https://github.com/tannerlinsley/react-table), is a headless UI for building tables and datagrids across multiple frameworks, including React, Solid, Vue, and even React Native. Being “headless” means it doesn’t provide pre-built components or styles, giving you full control over markup and design. It’s perfect if you want a customizable and lightweight table solution that can be used with [**any JavaScript framework**](/blog.logrocket.com/10-most-important-javascript-frameworks-past-decade.md), thanks to it being framework agnostic.
 
 ![](/assets/image/blog.logrocket.com/tanstack-table-formerly-react-table/banner.png)
 
@@ -112,7 +112,7 @@ Below, we’ve listed the most important features present in TanStack table. The
 
 ### Migrating to TanStack V8
 
-If you’re upgrading from React Table v7 to TanStack Table v8, follow [<VPIcon icon="fas fa-globe"/>this migration guide](https://tanstack.com/table/latest/docs/guide/migrating#migrating-to-v8). Below is a summary of the key steps.
+If you’re upgrading from React Table v7 to TanStack Table v8, follow [<VPIcon icon="iconfont icon-tanstack"/>this migration guide](https://tanstack.com/table/latest/docs/guide/migrating#migrating-to-v8). Below is a summary of the key steps.
 
 Start by uninstalling React Table and installing TanStack Table using the following commands:
 
@@ -604,7 +604,7 @@ We updated the `Genres` column above by iterating and sending its values to a cu
 
 ![Table Styling Has Changed](/assets/image/blog.logrocket.com/tanstack-table-formerly-react-table/table-styling-changed.png)
 
-As you can see, TanStack Table has successfully styled our table with relative ease! If you need more help rendering custom cells, refer to the [<VPIcon icon="fas fa-globe"/>documentation](https://tanstack.com/table/v8/docs/guide/cells#cell-rendering).
+As you can see, TanStack Table has successfully styled our table with relative ease! If you need more help rendering custom cells, refer to the [<VPIcon icon="iconfont icon-tanstack"/>documentation](https://tanstack.com/table/v8/docs/guide/cells#cell-rendering).
 
 We’ve seen how we can customize the styles for each cell based on our needs; you can show any custom element for each cell based on the data value.
 
@@ -614,7 +614,7 @@ We’ve seen how we can customize the styles for each cell based on our needs; y
 
 ### Global filtering
 
-Using the guide for [<VPIcon icon="fas fa-globe"/>global filtering](https://tanstack.com/table/v8/docs/api/features/global-filtering), we can extend our table by adding global search capabilities. The `getFilteredRowModel` property in the `useReactTable` Hook will let TanStack Table know that we want to implement filtering in our project.
+Using the guide for [<VPIcon icon="iconfont icon-tanstack"/>global filtering](https://tanstack.com/table/v8/docs/api/features/global-filtering), we can extend our table by adding global search capabilities. The `getFilteredRowModel` property in the `useReactTable` Hook will let TanStack Table know that we want to implement filtering in our project.
 
 First, let’s create a search input in <VPIcon icon="fa-brands fa-react"/>`Table.tsx`:
 
@@ -762,7 +762,7 @@ This will be the result:
 
 ![Table With Column Searching Functionality](/assets/image/blog.logrocket.com/tanstack-table-formerly-react-table/column-searching-functionality.webp)
 
-These are very basic examples for filters, and the TanStack Table API provides several options. Be sure to check out the [<VPIcon icon="fas fa-globe"/>API documentation](https://tanstack.com/table/latest/docs/guide/column-filtering) for more information.
+These are very basic examples for filters, and the TanStack Table API provides several options. Be sure to check out the [<VPIcon icon="iconfont icon-tanstack"/>API documentation](https://tanstack.com/table/latest/docs/guide/column-filtering) for more information.
 
 ---
 
@@ -969,7 +969,7 @@ This will be the result:
 
 ## Column resizing
 
-Tanstack Table also provides a [<VPIcon icon="fas fa-globe"/>`ColumnSizing`](https://tanstack.com/table/v8/docs/api/features/column-sizing) API to help users resize table columns. This is great for situations where a certain row has to be expanded to make their table use up extra available width on the screen.
+Tanstack Table also provides a [<VPIcon icon="iconfont icon-tanstack"/>`ColumnSizing`](https://tanstack.com/table/v8/docs/api/features/column-sizing) API to help users resize table columns. This is great for situations where a certain row has to be expanded to make their table use up extra available width on the screen.
 
 This code block demonstrates how to implement resizing functionality:
 

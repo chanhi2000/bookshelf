@@ -78,7 +78,7 @@ I was up far too late Friday night and far too early Saturday morning going down
 
 ![I’m not afraid to ask for help](https://dbushell.com/images/blog/2025/bunny-support.avif)
 
-Bunny doesn’t have a neatly packaged [<VPIcno icon="fa-brands fa-cloudflare"/>Cloudflare Pages](https://pages.cloudflare.com/) like service but you can combine their [<VPIcon icon="iconfont icon-bunny"/>CDN](https://bunny.net/cdn/) and [<VPIcon icon="iconfont icon-bunny"/>Edge Storage](https://bunny.net/storage/) to achieve the same deal. Bunny CDN acts as a proxy and cache for an “origin” server. That origin can be either a 3rd-party web server or one of Bunny’s storage zones. Upload to a storage zone, set that as the origin for a CDN “pull zone”, and then link a domain name. *Ta-da;* static hosting on the edge.
+Bunny doesn’t have a neatly packaged [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare Pages](https://pages.cloudflare.com/) like service but you can combine their [<VPIcon icon="iconfont icon-bunny"/>CDN](https://bunny.net/cdn/) and [<VPIcon icon="iconfont icon-bunny"/>Edge Storage](https://bunny.net/storage/) to achieve the same deal. Bunny CDN acts as a proxy and cache for an “origin” server. That origin can be either a 3rd-party web server or one of Bunny’s storage zones. Upload to a storage zone, set that as the origin for a CDN “pull zone”, and then link a domain name. *Ta-da;* static hosting on the edge.
 
 Bunny has an optional [<VPIcon icon="iconfont icon-bunny"/>Shield](https://bunny.net/shield/) that presumably does similar magic to Cloudflare’s firewall. Shrug. I enabled it.
 
