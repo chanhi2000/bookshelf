@@ -5,6 +5,11 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "when-you-need-to-make-a-triangle-think-conic-gradients", // 2026-07-24
+    "using-animation-composition-in-css-to-avoid-redeclaring-other-values", // 2026-07-23
+    "durable-objects-on-cloudflare", // 2026-07-20
+    "masonry-with-animation-in-css", // 2026-07-17
+    "lessons-learned-rewriting-a-sticky-detector", // 2026-07-15
     "in-n-out-animation-using-sibling-index", // 2026-07-13
     "thinking-horizontally-in-css-layer", // 2026-07-09
     "how-to-make-an-interactive-element-invisible-but-accessible", // 2026-07-08
@@ -433,6 +438,7 @@ export const template: SidebarInfoTemplate = {
       "introducing-tanstack-form", // 2026-05-01
       "react-server-components-in-tanstack", // 2026-05-18
       "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
+      "durable-objects-on-cloudflare", // 2026-07-20
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -672,6 +678,10 @@ export const template: SidebarInfoTemplate = {
       "how-to-make-an-interactive-element-invisible-but-accessible", // 2026-07-08
       "thinking-horizontally-in-css-layer", // 2026-07-09
       "in-n-out-animation-using-sibling-index", // 2026-07-13
+      "lessons-learned-rewriting-a-sticky-detector", // 2026-07-15
+      "masonry-with-animation-in-css", // 2026-07-17
+      "using-animation-composition-in-css-to-avoid-redeclaring-other-values", // 2026-07-23
+      "when-you-need-to-make-a-triangle-think-conic-gradients", // 2026-07-24
       // END: 2026css
       // END: css
     ]],[
@@ -707,6 +717,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025cloudflare
       "introduction-to-cloudflare-workers-for-web-apps", // 2026-06-26
       "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
+      "durable-objects-on-cloudflare", // 2026-07-20
       // END: 2026cloudflare
       // END: cloudflare
     ]],[
@@ -780,6 +791,11 @@ export const template: SidebarInfoTemplate = {
       "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
       // END: 2026postgres
       // END: postgres
+    ]],[
+    "sqlite", [
+      "durable-objects-on-cloudflare", // 2026-07-20
+      // END: 2026sqlite
+      // END: sqlite
     ]],[
     "ai", [
       "what-senior-engineers-need-to-know-about-ai-coding-tools", // 2026-01-29

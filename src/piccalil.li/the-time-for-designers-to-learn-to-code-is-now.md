@@ -116,8 +116,26 @@ I’d start quite small, then build up to building your own portfolio site. I pu
 
 Maybe take a look at some more practical and linear tutorials first. Here’s a couple from me.
 
-- [**Creating a full bleed CSS utility**](/piccalil.li/creating-a-full-bleed-css-utility.md)
-- [**Create a responsive grid layout**](/piccalil.li/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid.md)
+```component VPCard
+{
+  "title": "Creating a full bleed CSS utility",
+  "desc": "Break out of the mould of your fixed-width container to create visual interest.",
+  "link": "/piccalil.li/creating-a-full-bleed-css-utility.md",
+  "logo": "https://piccalil.li/favicons/favicon.ico",
+  "background": "rgba(253,208,0,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Create a responsive grid layout",
+  "desc": "Even with no media-queries, we can create a flexible and powerful responsive layout.",
+  "link": "/piccalil.li/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid.md",
+  "logo": "https://piccalil.li/favicons/favicon.ico",
+  "background": "rgba(253,208,0,0.2)"
+}
+```
+
 - [**Some simple ways to make content look good**](/piccalil.li/some-simple-ways-to-make-content-look-good.md)
 - [**Limit line lengths to increase readability**](/piccalil.li/line-length.md)
 - [**A progressive disclosure component**](/piccalil.li/a-progressive-disclosure-component.md)

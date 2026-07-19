@@ -54,10 +54,30 @@ cover: https://oddbird.net/assets/images/blog/2026/type-zoom-1600w.jpeg
 
 1. [**Relative Units & Typography**](/oddbird.net/winging-it/15.md) – *With special guest Alan Stearns*
 2. [**Reimagining Fluid Typography**](/oddbird.net/fluid-type.md) – *Are we responding to the right inputs?*
-3. [**Revisiting Fluid Type**](/oddbird.net/winging-it/17.md) – *With special guest Richard Rutter*
+
+```component VPCard
+{
+  "title": "Revisiting Fluid Type",
+  "desc": "With special guest Richard Rutter",
+  "link": "/oddbird.net/winging-it/17.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
+
 4. [**Designing for User Font-size and Zoom**](/oddbird.net/size-preferences.md) – *Using modern CSS units and math functions*
 5. [**Visualizing Responsive Typography**](/oddbird.net/type-visual.md) – *What do all the numbers in our `clamp()` do?*
-6. [**The Best CSS Unit Might Be a Combination**](/oddbird.net/type-units.md) – *We don't have to choose between `px` and `rem` for spacing*
+
+```component VPCard
+{
+  "title": "The Best CSS Unit Might Be a Combination",
+  "desc": "We don't have to choose between px and rem for spacing",
+  "link": "/oddbird.net/type-units.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
+
 7. Responsive and Fluid Typography with Baseline CSS Features
 
 :::
@@ -88,7 +108,7 @@ Hopefully I got the math right, but let me know if I’ve missed something.
 {
   "title": "Responsive and Fluid Typography with Baseline CSS Features",
   "desc": "As designers, it makes sense to think about what space is available in the browser, and adjust your typography accordingly. It's also important to remember that different users will have different font-size needs -- and the more a font size is responsive to the viewport, the less responsive it will be to user inputs.",
-  "link": "https://chanhi2000.github.io/bookshelf/oddbird.net/web.devarticlesbaseline-in-action-fluid-type?hl=en.html",
+  "link": "https://chanhi2000.github.io/bookshelf/oddbird.net/web.typography-baseline-css.html",
   "logo": "https://oddbird.net/safari-pinned-tab.svg",
   "background": "rgba(145,208,222,0.2)"
 }

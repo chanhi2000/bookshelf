@@ -967,6 +967,7 @@ PayPal credential check runs on startup via `PayPalService.logConfiguration()`.
    - Marks application paymentStatus = PAID
    - Records payment in application_payments table
 ```
+<!-- TODO: mermaid화 -->
 
 ---
 

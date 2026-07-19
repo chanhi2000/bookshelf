@@ -22,7 +22,7 @@ head:
       content: "AI Engineering Roadmap"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/ai-engineering-roadmap.html
-prev: /articles/README.md
+prev: /ai/llm/articles/README.md
 date: 2025-02-07
 isOriginal: false
 author:

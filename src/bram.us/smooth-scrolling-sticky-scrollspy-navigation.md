@@ -269,7 +269,7 @@ Delightful, no? 😊
 
 ::: note 💡
 
-If you’re also looking for more inspiration to make your interfaces more delightful, be sure to [**check Hakim El Hattab’s “Building Better Interfaces” talk**](/bram.us//building-better-interfaces-a-talk-by-hakim-el-hattab.md). Recommended stuff!
+If you’re also looking for more inspiration to make your interfaces more delightful, be sure to [**check Hakim El Hattab’s “Building Better Interfaces” talk**](/bram.us/building-better-interfaces-a-talk-by-hakim-el-hattab.md). Recommended stuff!
 
 :::
 

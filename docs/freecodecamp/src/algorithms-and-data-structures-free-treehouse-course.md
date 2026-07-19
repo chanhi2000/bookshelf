@@ -28,7 +28,7 @@ head:
       content: "Learn About Algorithms and Data Structures in this Free 6-hour  Course"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/fcc/algorithms-and-data-structures-free-treehouse-course.html
-prev: /articles/README.md
+prev: /programming/py/articles/README.md
 date: 2021-03-19
 isOriginal: false
 author: Pasan Premaratne

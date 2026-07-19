@@ -37,7 +37,7 @@ head:
       content: "How to Build an AI Agent That Runs its Own LLM Experiments with autoresearch"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-agent-that-runs-its-own-llm-experiments-with-autoresearch.html
-prev: /articles/README.md
+prev: /programming/py-torch/articles/README.md
 date: 2026-06-30
 isOriginal: false
 author:

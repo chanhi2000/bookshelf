@@ -54,10 +54,30 @@ cover: https://oddbird.net/assets/images/blog/2025/font-scale-hero-1366w.jpeg
 
 1. [**Relative Units & Typography**](/oddbird.net/winging-it/15.md) – _With special guest Alan Stearns_
 2. Reimagining Fluid Typography
-3. [**Revisiting Fluid Type**](/oddbird.net/winging-it/17.md) – _With special guest Richard Rutter_
+
+```component VPCard
+{
+  "title": "Revisiting Fluid Type",
+  "desc": "With special guest Richard Rutter",
+  "link": "/oddbird.net/winging-it/17.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
+
 4. [**Designing for User Font-size and Zoom**](/oddbird.net/size-preferences.md) – _Using modern CSS units and math functions_
 5. [**Visualizing Responsive Typography**](/oddbird.net/type-visual.md) – _What do all the numbers in our `clamp()` do?_
-6. [**The Best CSS Unit Might Be a Combination**](/oddbird.net/type-units.md) – _We don't have to choose between `px` and `rem` for spacing_
+
+```component VPCard
+{
+  "title": "The Best CSS Unit Might Be a Combination",
+  "desc": "We don't have to choose between px and rem for spacing",
+  "link": "/oddbird.net/type-units.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
+
 7. [**Responsive and Fluid Typography with Baseline CSS Features**](/oddbird.net/typography-baseline-css.md)
 
 :::

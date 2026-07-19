@@ -1,0 +1,1 @@
+https://oddbird.net/2025/03/20/logical-shorthand

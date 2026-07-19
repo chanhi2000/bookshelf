@@ -58,7 +58,7 @@ Buckle up!
 
 ## Testing in Safari when you don’t have Safari
 
-![A Safari browser window on macOS showing an About Safari dialogue box with a translucent red and orange noise filter.<br/>Source: [**Frontend Masters**](/master.dev/blog/testing-safari-on-a-budget.md)](https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/05/safari.jpg-e1780000053378-1024x452.webp?resize=1024%2C452&ssl=1)
+![A Safari browser window on macOS showing an About Safari dialogue box with a translucent red and orange noise filter.<br/>Source: [**Frontend Masters**](/master.dev/testing-safari-on-a-budget.md)](https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/05/safari.jpg-e1780000053378-1024x452.webp?resize=1024%2C452&ssl=1)
 
 Safari is the second most popular web browser, but is only available to Apple users. Fair enough. I mean, Apple are heavily invested in making Safari a proprietary browser that’s deeply integrated with Apple’s software and hardware. However, this makes testing websites in Safari a bit of a pain. [<VPIcon icon="iconfont icon-css-tricks"/>Declan Chidlow](https://css-tricks.com/author/declanchidlow) explained what our options are in regards to [**testing in Safari when you don’t have Safari**](/master.dev/testing-safari-on-a-budget.md).
 

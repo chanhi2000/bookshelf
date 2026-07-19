@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "the-system-design-behind-my-new-saas", // 2026-07-25
     "how-i-migrated-my-website-to-cloudflare-and-saved-228-dollars", // 2026-07-18
     "how-to-test-vertical-slice-architecture", // 2026-07-11
     "build-your-own-vpn-with-tailscale", // 2026-07-04
@@ -467,6 +468,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "devops", [
       "how-i-migrated-my-website-to-cloudflare-and-saved-228-dollars", // 2026-07-18
+      "the-system-design-behind-my-new-saas", // 2026-07-25
       // END: 2026devops
       // END: devops
     ]],[
@@ -599,6 +601,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-scale-long-running-api-requests", // 2026-05-23
       "the-modular-monolith-boundary-i-couldnt-take-back", // 2026-06-20
       "build-your-own-vpn-with-tailscale", // 2026-07-04
+      "the-system-design-behind-my-new-saas", // 2026-07-25
       // END: 2026system-design
       // END: system-design
     ]],[

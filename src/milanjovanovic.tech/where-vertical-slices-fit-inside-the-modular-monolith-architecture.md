@@ -66,11 +66,11 @@ cover: https://milanjovanovic.tech/blog-covers/mnw_182.png
   logo="https://milanjovanovic.tech/profile_favicon.png"
   preview="https://milanjovanovic.tech/blog-covers/mnw_182.png"/>
 
-Most teams get the macro architecture right. They build a [**modular monolith**](/mianjovanovic.tech/what-is-a-modular-monolith.md) with clear module boundaries, [**public APIs**](/mianjovanovic.tech/internal-vs-public-apis-in-modular-monoliths.md), and proper [**data isolation**](/mianjovanovic.tech/modular-monolith-data-isolation.md).
+Most teams get the macro architecture right. They build a [**modular monolith**](/milanjovanovic.tech/what-is-a-modular-monolith.md) with clear module boundaries, [**public APIs**](/milanjovanovic.tech/internal-vs-public-apis-in-modular-monoliths.md), and proper [**data isolation**](/milanjovanovic.tech/modular-monolith-data-isolation.md).
 
 But then they stop thinking about architecture. Every module gets the same internal structure, usually some form of layered architecture.
 
-The thing is, [**Clean Architecture**](/mianjovanovic.tech/pragmatic-clean-architecture/README.md) and [**Vertical Slice Architecture**](/mianjovanovic.tech/vertical-slice-architecture.md) aren't as far apart as people think. Both focus on use cases and maximizing cohesion. Clean Architecture just adds a rule for the direction of dependencies, which often leads to more abstractions and ceremony. My [**Pragmatic Clean Architecture**](/mianjovanovic.tech/pragmatic-clean-architecture/README.md) approach takes a middle ground, and it's quite similar to VSA in nature.
+The thing is, [**Clean Architecture**](/milanjovanovic.tech/pragmatic-clean-architecture/README.md) and [**Vertical Slice Architecture**](/milanjovanovic.tech/vertical-slice-architecture.md) aren't as far apart as people think. Both focus on use cases and maximizing cohesion. Clean Architecture just adds a rule for the direction of dependencies, which often leads to more abstractions and ceremony. My [**Pragmatic Clean Architecture**](/milanjovanovic.tech/pragmatic-clean-architecture/README.md) approach takes a middle ground, and it's quite similar to VSA in nature.
 
 The real question isn't which one is "better". It's where each one shines inside your modular monolith. And the beautiful part is: you can mix and match.
 
@@ -80,7 +80,7 @@ The real question isn't which one is "better". It's where each one shines inside
 
 There are two architectural decisions you need to make when building a modular monolith:
 
-1. **Macro architecture** - How do you decompose the system into modules? This covers module boundaries, [**communication patterns**](/mianjovanovic.tech/modular-monolith-communication-patterns.md), [**data isolation**](/mianjovanovic.tech/modular-monolith-data-isolation.md), public API design, and how modules are deployed.
+1. **Macro architecture** - How do you decompose the system into modules? This covers module boundaries, [**communication patterns**](/milanjovanovic.tech/modular-monolith-communication-patterns.md), [**data isolation**](/milanjovanovic.tech/modular-monolith-data-isolation.md), public API design, and how modules are deployed.
 2. **Micro architecture** - How do you organize code *inside* each module? This covers folder structure, the direction of dependencies, how you implement use cases, where validation lives, and how you access the database.
 
 Most articles about modular monoliths focus entirely on the macro level. And for good reason. Getting **module boundaries** wrong is **expensive to fix**.
@@ -109,9 +109,9 @@ Modules and vertical slices operate at different levels. Modules define the boun
 
 ## Vertical Slices Inside a Module
 
-[**Vertical Slice Architecture**](/mianjovanovic.tech/vertical-slice-architecture.md-structuring-vertical-slices.md) organizes code by feature instead of by technical layer. Each feature is a self-contained unit: request, handler, validation, data access, all in one place.
+[**Vertical Slice Architecture**](/milanjovanovic.tech/vertical-slice-architecture.md-structuring-vertical-slices.md) organizes code by feature instead of by technical layer. Each feature is a self-contained unit: request, handler, validation, data access, all in one place.
 
-Inside a modular monolith module, this is a natural fit. The module boundary already enforces separation from the rest of the system. You don't need layers to protect you. The module's [**public API**](/mianjovanovic.tech/internal-vs-public-apis-in-modular-monoliths.md) does that.
+Inside a modular monolith module, this is a natural fit. The module boundary already enforces separation from the rest of the system. You don't need layers to protect you. The module's [**public API**](/milanjovanovic.tech/internal-vs-public-apis-in-modular-monoliths.md) does that.
 
 Here's what a `Ticketing` module looks like with vertical slices using one file per feature:
 
@@ -226,9 +226,9 @@ Adding a new feature means adding a new folder. You're not touching shared code 
 
 A common misconception is that VSA is only for simple modules and Clean Architecture is for complex ones. That's not how it works.
 
-Vertical slices work great with rich domain models. You can have domain entities, value objects, and domain events inside a vertical slice. The slice organizes the entry point and orchestration. The domain model handles the business rules. As the slice grows in complexity, you [**push logic into the domain**](/mianjovanovic.tech/refactoring-from-an-anemic-domain-model-to-a-rich-domain-model.md) just like you would in Clean Architecture.
+Vertical slices work great with rich domain models. You can have domain entities, value objects, and domain events inside a vertical slice. The slice organizes the entry point and orchestration. The domain model handles the business rules. As the slice grows in complexity, you [**push logic into the domain**](/milanjovanovic.tech/refactoring-from-an-anemic-domain-model-to-a-rich-domain-model.md) just like you would in Clean Architecture.
 
-Similarly, [**Pragmatic Clean Architecture**](/mianjovanovic.tech/pragmatic-clean-architecture/README.md) works well for simpler modules too. The structure is lightweight when the domain is simple.
+Similarly, [**Pragmatic Clean Architecture**](/milanjovanovic.tech/pragmatic-clean-architecture/README.md) works well for simpler modules too. The structure is lightweight when the domain is simple.
 
 So the decision isn't about complexity. It's about what your team is comfortable with and what gives you the most clarity.
 
@@ -244,13 +244,13 @@ The modular boundary protects the rest of the system regardless of what you choo
 
 ## Takeaway
 
-[**Modular Monolith**](/mianjovanovic.tech/what-is-a-modular-monolith) answers the macro question: how to decompose the system into modules with clear boundaries. [**Vertical Slice Architecture**](/mianjovanovic.tech/vertical-slice-architecture.md) answers the micro question: how to organize code by feature inside those modules.
+[**Modular Monolith**](/milanjovanovic.tech/what-is-a-modular-monolith) answers the macro question: how to decompose the system into modules with clear boundaries. [**Vertical Slice Architecture**](/milanjovanovic.tech/vertical-slice-architecture.md) answers the micro question: how to organize code by feature inside those modules.
 
 They operate at different levels. Modular Monolith gives you high cohesion within each module and helps you manage coupling between modules. Vertical Slice Architecture gives you high cohesion within each feature inside a module.
 
-You don't have to pick one internal architecture for the entire system. Each module can choose what works best for its context. Some modules will use [**Pragmatic Clean Architecture**](/mianjovanovic.tech/pragmatic-clean-architecture/README.md). Others will use vertical slices. A well-defined module boundary makes this safe.
+You don't have to pick one internal architecture for the entire system. Each module can choose what works best for its context. Some modules will use [**Pragmatic Clean Architecture**](/milanjovanovic.tech/pragmatic-clean-architecture/README.md). Others will use vertical slices. A well-defined module boundary makes this safe.
 
-If you want to see how I build modular monoliths with this approach, check out [**Modular Monolith Architecture**](/mianjovanovic.tech//modular-monolith-architecture).
+If you want to see how I build modular monoliths with this approach, check out [**Modular Monolith Architecture**](/milanjovanovic.tech//modular-monolith-architecture).
 
 See you next week.
 

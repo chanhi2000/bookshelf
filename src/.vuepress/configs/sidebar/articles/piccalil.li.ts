@@ -82,6 +82,8 @@ const Y2020: SidebarYeargroupTemplate = {
   children: [
     // END: 2020
     "getting-started-with-css-custom-properties", // 2020-03-13
+    "creating-a-full-bleed-css-utility", // 2020-03-10
+    "create-a-responsive-grid-layout-with-no-media-queries-using-css-grid", // 2020-03-10
   ],
 }
 
@@ -241,6 +243,8 @@ export const template: SidebarInfoTemplate = {
     "css", [
       "create-a-semantic-break-out-button-to-make-an-entire-element-clickable", // 2019-09-27
       // END: 2019css
+      "creating-a-full-bleed-css-utility", // 2020-03-10
+      "create-a-responsive-grid-layout-with-no-media-queries-using-css-grid", // 2020-03-10
       "getting-started-with-css-custom-properties", // 2020-03-13
       // END: 2020css
       "container-queries-are-actually-coming", // 2021-03-31

@@ -7,8 +7,11 @@ const WINGING_IT: SidebarInfoSubgroupTemplate = {
   subPath: 'winging-it',
   children: [
     'README',
-    '08', // 2024-05-30
-    '16', // 2025-02-20
+    "18", // 2025-04-17
+    "17", // 2025-03-20
+    "16", // 2025-02-20
+    "11", // 2024-08-27
+    "08", // 2024-05-30
   ]
 }
 
@@ -26,8 +29,9 @@ const Y2025: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2025
+    "type-units", // 2025-09-23
     "box-model", // 2025-09-04
-    "winging-it-18", // 2025-04-17
+    "type-visual", // 2025-08-26
     "fluid-type", // 2025-02-12
     "anchor-position-area", // 2025-02-05
     "anchor-position-validity", // 2025-01-29
@@ -40,7 +44,6 @@ const Y2024: SidebarYeargroupTemplate = {
   children: [
     // END: 2024
     "anchor-position-yearbook", // 2024-11-18
-    "winging-it-11", // 2024-08-27
     "zoomies", // 2024-07-09
     "removing-mixins", // 2024-06-11
   ],
@@ -189,14 +192,13 @@ export const template: SidebarInfoTemplate = {
       // END: 2023css
       "removing-mixins", // 2024-06-11
       "zoomies", // 2024-07-09
-      "winging-it-11", // 2024-08-27
       "anchor-position-yearbook", // 2024-11-18
       // END: 2024css
       "anchor-position-validity", // 2025-01-29
       "anchor-position-area", // 2025-02-05
       "fluid-type", // 2025-02-12
-      "winging-it-18", // 2025-04-17
       "box-model", // 2025-09-04
+      "type-units", // 2025-09-23
       // END: 2025css
       "typography-baseline-css", // 2026-01-08
       // END: 2026css

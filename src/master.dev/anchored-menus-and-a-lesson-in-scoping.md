@@ -265,7 +265,7 @@ Now it doesn’t matter if multiple elements are all using the same custom ident
   :default-tab="['css','result']"
   :theme="dark"/>
 
-I’m totally adding [<VPIcon icon="fas fa-globe"/>this](https://matuzo.at/blog/2026/better-defaults-for-popovers) to [**my reset stylesheet**](/master.dev/the-coyier-css-starter.md). (And I like how Manuel is down with the perfect fallbacks for anchors, `position-try-fallbacks: flip-block, flip-inline, flip-block flip-inline;`, which [**we also came to here**](/master.dev/blog/popover-context-menus-with-anchor-positioning.md#the-most-useful-position-try-incantation).)
+I’m totally adding [<VPIcon icon="fas fa-globe"/>this](https://matuzo.at/blog/2026/better-defaults-for-popovers) to [**my reset stylesheet**](/master.dev/the-coyier-css-starter.md). (And I like how Manuel is down with the perfect fallbacks for anchors, `position-try-fallbacks: flip-block, flip-inline, flip-block flip-inline;`, which [**we also came to here**](/master.dev/popover-context-menus-with-anchor-positioning.md#the-most-useful-position-try-incantationå).)
 
 ---
 

@@ -60,7 +60,17 @@ When working with Viewport Units there’s [<VPIcon icon="fa-brands fa-safari"/>
 
 ::: note
 
-🤔 New to Viewport Units? [**Ahmad Shadeed has got you covered**](/bram.us/2020/03/16/the-ultimate-guide-to-css-viewport-units.md).
+🤔 New to Viewport Units? [**Ahmad Shadeed has got you covered**](/bram.us/the-ultimate-guide-to-css-viewport-units.md).
+
+```component VPCard
+{
+  "title": "The ultimate guide to CSS Viewport Units",
+  "desc": "Ahmad Shadeed has done an extensive write-up on Viewport Units: In this article, we will learn about CSS viewport units and how to use them, along with some use-cases and solutions for common issues. Let’s start and dig in! It’s great to see that it’s an all-in-one article, covering use cases such as Viewport Unit … Continue reading ”The ultimate guide to CSS Viewport Units”",
+  "link": "/bram.us/the-ultimate-guide-to-css-viewport-units.md",
+  "logo": "https://bramu.us/favicon.ico",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
 
 :::
 

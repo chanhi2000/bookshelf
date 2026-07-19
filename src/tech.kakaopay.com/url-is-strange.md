@@ -26,7 +26,7 @@ head:
       content: "URL이 이상해요! Java와 Spring 중 범인은 누구?"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/tech.kakaopay.com/url-is-strange.html
-prev: /articles/README.md
+prev: /programming/java-spring/articles/README.md
 date: 2024-09-26
 isOriginal: false
 author: rain.drop

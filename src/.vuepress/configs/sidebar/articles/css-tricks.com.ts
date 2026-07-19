@@ -37,6 +37,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "whats-important-15", // 2026-07-15
     "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-07
     "whats-important-14", // 2026-06-30
     "css-states-and-javascript-events", // 2026-06-29
@@ -616,6 +617,7 @@ export const template: SidebarInfoTemplate = {
       "css-states-and-javascript-events", // 2026-06-29
       "whats-important-14", // 2026-06-30
       "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-07
+      "whats-important-15", // 2026-07-15
       // END: 2026css
       // END: css
     ]],[

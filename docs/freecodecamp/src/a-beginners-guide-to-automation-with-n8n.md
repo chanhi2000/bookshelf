@@ -26,7 +26,7 @@ head:
       content: "A Beginner’s Guide to Automation with n8n"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-automation-with-n8n.html
-prev: /articles/README.md
+prev: /programming/js-n8n/articles/README.md
 date: 2025-11-04
 isOriginal: false
 author:
